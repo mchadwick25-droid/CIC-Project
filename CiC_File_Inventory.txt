@@ -1,0 +1,278 @@
+# Church in Conversation — Complete File Inventory
+
+Base folder: C:\Users\mchad\OneDrive\Desktop\Church in Conversation
+Generated: 2026-07-01 | Total files: 261 (172 .docx, 82 .md, 4 .txt, 1 .zip, 1 .html, 1 .ini)
+
+================================================================
+## CIC_V7  (24 files)
+================================================================
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\00_Foundations\CiC_L2A_System_Level_Map_V1.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\00_Foundations\CiC_L2A_System_Level_Map_V1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\00_Foundations\Forces_Framework_v1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\00_Foundations\Formation_World_Development_Concept_Paper_v1_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\02_CiC_Essential_Experience_V6_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\08_Orientation\CiC_L2B_Builder_Role_Description_V1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\08_Orientation\CiC_L2B_Coach_Role_Description_V1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\08_Orientation\CiC_L2B_Critic_Role_Description_V1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\08_Orientation\CiC_L2C_Change_Orders_Register_V1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\08_Orientation\CiC_L2C_Change_Orders_Register_V1_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\00_CiC_Vision_V1_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\01_CiC_Constitution_V7_4_2_Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\01_CiC_Constitution_V7_4_3_Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\CiC_Constitution_V7_4_4_Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\CiC_Essential_Experience_V6_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\CiC_L1_Constitution 2.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\CiC_Vision_V1_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\09_Old_Versions\CiC_Vision_V1_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Constitution_2_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Constitution_V2_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Essential_Experience_V2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Essential_Experience_V2_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Vision 2.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\CIC_V7\CiC_L1_Vision_V2_0.docx
+
+================================================================
+## Former Versions  (232 files)
+================================================================
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Checkpoint and Testing\alex_Alexandria_Forces_Integration_Review_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Checkpoint and Testing\alex_Alexandria_System_Design_Review_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Checkpoint and Testing\alex_Alexandria_Viability_Review_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Checkpoint and Testing\alex_Checkpoint_One_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Checkpoint and Testing\alex_Fictional_Content_Audit_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alex_Lexicon_Tier2.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alex_Lexicon_Tier3.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex001_logos.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex002_divine-pedagogy.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex003_catechesis.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex004_illumination.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex005_knowledge-gnosis.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex006_wisdom.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex007_participation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex008_theosis.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex009_image-of-god.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex010_soul-psyche.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex011_nous.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex012_likeness-of-god.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex013_freedom-autexousia.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex014_scripture.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex015_christological-reading.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex016_allegory.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex017_sin-hamartia.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex018_death.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex019_resurrection.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex020_restoration.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex021_transformation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex022_christ.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex023_son-of-god.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex024_word-of-god.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex025_baptism.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex026_eucharist.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex027_fasting.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex028_prayer.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex029_teacher.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex030_bishop.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex031_rule-of-faith.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex032_repentance-metanoia.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex033_martyrdom-witness.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex034_household.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex035_interpretation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex036_salvation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex037_faith.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex038_love.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex039_incarnation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex040_mystery.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex041_oikonomia.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex042_virtue.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex043_church-ekklesia.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex044_holy-spirit.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Lexicon MD files\alexlex045_hope.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Operations\CiC_Phase_Status_V7_r1.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Operations\CiC_System_Operations_V7_r1.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Operations\alex_World_Deployment_Config_V7_r1.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Representitive\Theon_Representative.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\Representitive\Theon_Representative_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc01_V7_r4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc01_V7_r5.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc02_V7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc02_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc03_V7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc03_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc04_V7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc04_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc04_V7_r2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc04_V7_r3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc05_V7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc05_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc05_V7_r2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc06_Index_Summary.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc07_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc08_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Doc08_V7_r2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Alexandria v7\alex_Living_Tradition_Status_V7_r1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\Deployment_Lexicon_Chunk_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\Integrated_Ecology_Analysis_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\Representative_Construction_Notes_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\Story_Repository_Chunk_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\Voice_Configuration_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\World_Capsule_Core_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\World_Context_Layer_Chunk_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\World_Facilitation_Brief_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\World_Profile_Template.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Build MD Files\[world-code]_Forces_Document.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Encounter Architecture\CiC_Facilitator_Governance_v3_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Encounter Architecture\CiC_Facilitator_Governance_v3_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Encounter Architecture\CiC_Facilitator_Governance_v3_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Encounter Architecture\CiC_Pre_Encounter_Experience_Design_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Encounter Architecture\CiC_The_Table_Design_Document_v2_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Formation_World_Blueprint_v7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Formation_World_Construction_Framework_v7.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Formation_World_Template_v1_5.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Interpretive_Lexicon_Development_Framework_v2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Prototype_Testing_Charter_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Representative\Representative_Construction_Framework_v2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\Representative\[world-code]_Representative_Permanent_Prompt_[Name].txt.txt
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Build Documents\desktop.ini
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\CiC_Document_Corrections_Tracker_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\CiC_Document_Corrections_Tracker_v2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\CiC_World_Build_Onboarding_Framework_v1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Constitution v7.2 — Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Constitution v7.3 — Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Constitution v7.4 — Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Constitution v7.4.1 — Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Constitution_v7_4_1_Provisional.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Essential_Experience_v6_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Essential_Experience_v6_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Foundation Documents\Master_Architecture_Map_v2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Church in Conversation — Architectural Specification v7.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Church_in_Conversation_FAQ.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Church_in_Conversation_Letter_to_Friends.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Builder_Role_Description_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Coach_Role_Description_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Critic_Role_Description_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Holding_Document_v1_Extracted_Constitutional_Content.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Phased_Build_Path_v2_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Project_Learning_Notes_June2026.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\CiC_Technology_Engagement_Brief_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Technology and Communicataion Information\CiC_Project_Learning_Notes_June2026.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Technology and Communicataion Information\CiC_Technology_Review_Findings_v1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\Vision, Mission, Convictions, and Foundational Commitments V1.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\Revision Directions\early drafts\Construction Drafts.zip
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\00 Church in Conversation V7\alex_Lexicon_Tier2.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Activation files\Facilitator_Governance_Activation.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\01Alexandria_World_Identification_v0_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\02Alexandria_Source_Ecology_v0_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\03Alexandria_World_Identification_v0_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Blueprint_Sections_1_17_v0_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Ecological_Reconstruction_v0_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Full_Glossary_v1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Phase_5_Synthesis_Supplement_v0_1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Source_Ecology_v0_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_Story_Inventory_v0_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandria_World_Identification_v0_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Level 1 build\Alexandrian Lexicon List.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Real World\Assembly_The_Table.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Alexandria\Representitive\Theon_Representative.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\01 Desert Christianity - World Identification & Boundaries V2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\02 Desert Christianity - Source Ecology v2.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\03 Desert Christianity - Gravity Discovery v3.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\04 Desert Christianity - Ecological Reconstructionv 4.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\05 Desert Christianity - Integrated Ecology Analysis V2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\Desert Chrsitanity\06 Glossary.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\communication\Mission etc.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 1 foundations\Constitution_v6.2.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 1 foundations\Essential Experience & Psychological Foundations v5.2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 1 foundations\Master_Architecture_Map_v1_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 1 foundations\Onboarding Orientation & Launch Protocol v1.1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Blueprint_v1.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Blueprint_v1_5.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Construction_Framework_v1.5.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Construction_Framework_v1_6.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Development_Concept_Paper_v1.2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Formation_World_Template_v1.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Interpretive Lexicon Development Framework v1.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2 world formation\Interpretive_Lexicon_Development_Framework_v1.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\Facilitator_Governance_v1_2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\Facilitator_Governance_v1_2_Final.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\Facilitator_Governance_v1_3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\Facilitator_Governance_v1_4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\Representative_Construction_Framework_v1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\The_Assembly_The_Table_world_v1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 2.5 representitive and table\The_Facilitator-Governance_v1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\current level 3\Theon Representive.md.txt
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\01 Desert Christianity - World Identification & Boundaries.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\02 Desert Christianity - Source Ecology v2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\02 Desert Christianity - Source Ecology.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\03 Desert Christianity -  Addendum - The One-World Decision.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\03 Desert Christianity - Gravity Discovery v3.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\03 Desert Christianity - Gravity Discovery.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\04 Desert Christianity - Ecological Reconstruction.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\04 Desert Christianity - Ecological Reconstructionv 4.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\05 Desert Christianity - Integrated Ecology Analysis.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Constitution v6.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Essential Experience & Psychological Foundations v5.5.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Formation World Blueprint v1.3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Formation World Construction Framework v1.2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Formation World Development Concept Paper v1.2 (Frozen).docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Formation World Template v1.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Formation_World_Construction_Framework_v1.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Master Architecture Map v1.3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Phase_4.6_Emotional_Ecology_Reconstruction_Framework_v0.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\previous version documents\Phase_4.7_Philosophical_Ecology_Reconstruction_Framework_v0.4.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\task lists\Near_Term_Action_List.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\CiC V6\task lists\Open_Item_Log.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Facilitator_Governance\Facilitator-Governance Activation Layer.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Facilitator_Governance\The Facilitator-Governance.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Representitive\Representative Activation Layer_Theon.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Representitive\Representative Construction Framework.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Representitive\The Alexandria Representative.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Representitive\Theon Representive.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Representitive\Theon Representive.md.txt
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Table\The Assembly — The Table world.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Testing\Claude API Key Alexandria Test.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\Testing\Test Report.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\marketing\CiC_First_Touch.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\marketing\CiC_First_Touch_1 moms.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\marketing\CiC_Invitation.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\marketing\deck.html
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\marketing\slidesThe Church in Conversation html.txt
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Activation Layer_Inhabiting the Alexandrian World.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\00_System\Assembly The Table.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\00_System\Custom Instructions.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\01 Activation Layers\Facilitator Governance Activation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\01 Activation Layers\Lexicon Activation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\01 Activation Layers\Representative Activation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\01 Activation Layers\World Activation.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\02_Organizing_Forces.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\03_Interpritive_World.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\04_Formation_Ecology.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\05_Worship_and_Sacramental_Life.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\06_Scripture_and_Teaching.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\08_Spiritual_Life_and_Ascent.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\03 World Core\09_Christology_and_Theological_Identity.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\07_Community_and_Authority.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\10_Boundary_and_Difference.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\11_Time_History_and_Eschatology.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\12_Key_Figures_and_Voices.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\13_Tensions_and_Unresolved_Questions.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\04_World Deep\14_World_Integration.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Alexandria\05 World Construction\Alexandria_Construction_Plan.md.md
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Lexicon Activation Layer.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\CoC Onboarding Orientation & Expectations.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\CoC Onboarding Orientation & Launch Protocol v1.0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Constitution v5.1 Onboarding.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Essential Experience & Psychological Foundations v5.2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Formation World Construction Framework v1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Formation World Development Concept Paper v1.2 (Frozen).docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Formation World Template v1.2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Formation World Template v1.3.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\Former Versions\world doucments\Orientation\Master Architecture Map Orientationv1.2docx.docx
+
+================================================================
+## tracking and organization  (5 files)
+================================================================
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\tracking and organization\CiC_L2A_System_Level_Map_V7_r2.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\tracking and organization\CiC_L2C_Change_Orders_Register_V1_0.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\tracking and organization\CiC_L2C_Change_Orders_Register_V1_1.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\tracking and organization\CiC_Project_Status_July2026.docx
+C:\Users\mchad\OneDrive\Desktop\Church in Conversation\tracking and organization\CiC_System_Level_Map_V7_r1.docx
+

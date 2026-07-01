@@ -1,0 +1,48 @@
+slides:The Church in Conversation (Refined Engagement):the_church_in_conversation.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Church in Conversation - Facilitative Deck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-cream: #fdfbf7;
+            --navy-dark: #002d5b;
+            --navy-mid: #005088;
+            --gold-accent: #b8860b;
+            --text-main: #2d3748;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --prototype-alert: #fff5f5;
+            --prototype-border: #e53e3e;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #cbd5e0; display: flex; flex-direction: column; align-items: center; gap: 40px; padding: 40px 0; font-family: 'DM Sans', sans-serif; }
+        .slide-container { width: 1280px; height: 720px; background-color: var(--bg-cream); position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 60px 80px; box-shadow: 0 20px 40px rgba(0,0,0,0.15); border-radius: 4px; justify-content: center; }
+        h1, h2, h3 { font-family: 'Merriweather', serif; color: var(--navy-dark); }
+        .slide-title { font-size: 38px; margin-bottom: 25px; border-left: 6px solid var(--gold-accent); padding-left: 25px; line-height: 1.2; }
+        .tagline { font-family: 'Merriweather', serif; font-style: italic; font-size: 22px; color: var(--gold-accent); margin-bottom: 25px; display: block; }
+        p, li { font-size: 19px; line-height: 1.5; color: var(--text-main); }
+        ul { list-style-position: inside; margin-top: 10px; }
+        li { margin-bottom: 8px; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; width: 100%; align-items: start; }
+        .grid-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%; }
+        .tile { background: var(--white); padding: 25px; border-radius: 6px; border-bottom: 4px solid var(--gold-accent); box-shadow: 0 4px 15px rgba(0,0,0,0.04); }
+        .tile h3 { font-size: 20px; margin-bottom: 8px; color: var(--navy-dark); }
+        
+        .prototype-intercept { background-color: var(--prototype-alert); border: 2px dashed var(--prototype-border); border-radius: 6px; padding: 20px; margin-top: auto; display: flex; align-items: center; gap: 20px; }
+        .prototype-intercept i { font-size: 28px; color: var(--prototype-border); }
+        .prototype-intercept p { font-size: 17px; margin: 0; font-weight: bold; color: #9b2c2c; }
+
+        .full-bg-image { background-size: cover; background-position: center; justify-content: flex-end; padding-bottom: 80px; }
+        .title-overlay { background: rgba(253, 251, 247, 0.96); padding: 45px 60px; border-left: 10px solid var(--gold-accent); max-width: 850px; box-shadow: 0 15px 40px rgba(0,0,0,0.2); }
+        .title-overlay h1 { font-size: 60px; line-height: 1.1; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+<div class="slide-container full-bg-image" id="slide1" style="background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('http://googleusercontent.com/image_generation_content/4
