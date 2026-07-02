@@ -264,4 +264,34 @@
 
 **Why it passes surface checks:** A Critic citing a correct Article number alongside a plausible-sounding claim about a sibling document's content reads as verified — the accurate half of the claim (the Article citation) lends false credibility to the inaccurate half (the assertion that System Operations already carries the pointer). Nothing distinguishes the verified part from the unverified part in how the claim is stated.
 
-**Watch for in:** Any Critic finding that makes a specific factual claim about a THIRD document's content (not the document currently under review) — such claims must be 
+**Watch for in:** Any Critic finding that makes a specific factual claim about a THIRD document's content (not the document currently under review) — such claims must be independently verified against that third document directly before being relied upon in a production prompt. Critic review is simulated/informational and can itself contain unverified assertions; a correct citation elsewhere in the same claim does not make the rest of the claim true.
+
+---
+
+## Pattern: RETRACTED — "Doc_07 Transmission Tension" was a Coach search-scope error, not a false tracker claim (corrects the previous version of this entry)
+
+**Type:** Coach-side verification gap — searched an incomplete set of locations and concluded a real thing didn't exist
+
+**What happened:** During the Corrections Tracker merge, the Coach searched only `World-Builds/Alexandria/` for "Tension Seven," "trans-generational," and related terms, found nothing, and concluded the v2.0 draft's claimed resolution (Doc_07 Section 3C's "Seventh Tension (Transmission Tension)," added per a Forces Integration Review finding) did not hold up. This was recorded as a confirmed false-resolution finding and folded into Corrections Tracker V1.1 as "Unverified — do not treat as resolved."
+
+**The correction:** Prompted by the project lead's "I have never heard of that until now," the Coach re-searched the full repository, including `Archive/`, rather than only the live world-build folder. `alex_Doc07_V7_r1.docx` — the actual construction-record document the correction referred to — exists in `Archive/Alexandria-Build-History/Alexandria-v7/`, not in `World-Builds/Alexandria/` (which holds a differently-structured, reorganized set of numbered content files, not the original Doc_01-Doc_09 construction records). That file contains Section 3C's Tension Seven — The Transmission Tension, worded almost exactly as the tracker described, with a version-history line reading "Section 3C — Tension Seven (Transmission Tension) added per Forces Integration Review Priority 2 finding." The content also correctly propagated forward into the actual deployed Representative document, `Theon_Representative_V7_r1.docx`, as item 7 of a named tensions list, including the specific "not named explicitly, shapes the urgency" deployment-voice instruction the tracker described. The original v2.0 tracker entry was accurate in every detail. Corrected back to Resolved in Corrections Tracker V1.2.
+
+**Why it passed the Coach's own check:** The Coach's verification instinct (search before trusting a "Resolved" claim) was correct in principle, but the search was scoped to only the live per-world folder. Construction-time build records (the Doc_01 through Doc_09 sequence a Construction Framework build produces) are commonly relocated to `Archive/[World]-Build-History/` once a world's build history is archived, while the live `World-Builds/[World]/` folder holds a different, reorganized content set for ongoing deployment work. A search that stops at the live folder will produce a false negative for anything that lives only in the construction-history archive.
+
+**Watch for in:** Any verification of a claim about world-build construction content (anything referencing a Doc_01-Doc_09-style document, a Checkpoint, or a build-history reference). Search `Archive/[World]-Build-History/` (or equivalently named build-history archive folders) in addition to the live `World-Builds/[World]/` folder before concluding referenced content doesn't exist. The underlying discipline — verify a "Resolved" claim against the actual file rather than trusting the tracker's word — remains correct and should stay standard practice; what needs correcting is that the verification search itself must be as thorough as the claim being checked, covering every plausible location, not just the most obvious one.
+
+---
+
+## Pattern: A ratified document's own paragraph-ordering can be wrong even when its text content is correct
+
+**Type:** Step 6 verification discipline (structural placement defect, distinct from the "missing formatting" pattern above — here the paragraphs are correctly formatted, just placed in the wrong position relative to a section heading)
+
+**Discovered:** Corrections Tracker V1.1. Four corrected items (C1, C4, C5, C8) were moved into what was intended to be "Section 4 — Resolved Corrections" using `heading_paragraph.addprevious(element)` for each item — which inserts every element immediately *before* the heading, not after it. The result: all four items rendered as an unlabeled continuation of the preceding section (Section 3), sitting entirely before the "Section 4" heading text, rather than under it. The text of every moved paragraph was correct; only the structural position relative to the heading was wrong. Not caught until the next revision cycle, when a spot-check of the full paragraph order (not just a text/keyword search) surfaced it.
+
+**Why it passes surface checks:** A pandoc plain-text or grep-based verification confirms every expected string is present in the document and reads top-to-bottom in a plausible-looking order — the section headings and the content are all there, just not correctly nested relative to each other. Only a full ordered paragraph dump (every non-empty paragraph, in document order, with its index) makes the misplacement visible.
+
+**Watch for in:** Any Step 6 verification that moves or re-sections existing paragraphs to sit "under" a heading (rather than only inserting new content or editing text in place). Insert relative to the heading's already-first-child element (or use `addnext` on the heading itself, chaining forward) rather than `addprevious` on the heading — and always confirm with a full ordered-paragraph dump of the affected region, not just a keyword search, that moved content actually sits after the heading it's meant to belong to.
+
+---
+
+*End of current log. Add new entries above this line as they surface.*
