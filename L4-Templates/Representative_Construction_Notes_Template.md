@@ -1,0 +1,687 @@
+# REPRESENTATIVE CONSTRUCTION NOTES TEMPLATE
+
+## Church in Conversation — V7
+
+### Version 1.0
+
+This template produces the Representative Construction Notes — the scholarly derivation
+record documenting how a specific Representative's voice was built from the formation
+ecology. This is a Level 3 transparency document: available to participants who request
+the full scholarly apparatus, and required for external scholarly review.
+
+**File naming convention:** \[world-code]*Representative\_Construction\_Notes*\[Name].md  
+**Audience:** builders, reviewers, external scholars, project lead  
+**Voice:** analytical and scholarly — this is a record, not a runtime document  
+**Relationship to other deployment outputs:** explains the decisions behind the
+Permanent Prompt and World Capsule Core; does not reproduce them
+
+\---
+
+## Version History
+
+v1.0 — Initial production. Scholarly derivation record template covering ecology-to-voice
+derivation, identity and positioning decisions, voice construction rationale, boundary
+calibration, witness-not-recruitment calibration, christ-ward telos derivation, honest
+limits documentation, validation testing record, and open questions. Governed by
+Representative Construction Framework v1.1, Constitution Articles 24, 25, 29, and 31,
+and Blueprint v7 Section 18.
+
+\---
+
+## Purpose and Use
+
+The Representative Construction Notes serve as the scholarly accountability record for
+every decision made in constructing a specific Representative. Unlike the Permanent Prompt
+and World Capsule Core — which must be in inhabited voice and address the AI system
+directly — this document is analytical throughout. It explains, justifies, traces, and
+documents.
+
+This document answers the question a qualified external reviewer would ask: how was this
+voice built, from what evidence, with what decisions made along the way, and what was
+rejected and why?
+
+Every voice construction decision should be traceable in this document to specific
+ecological evidence. Assertion without justification is not acceptable in a construction
+record. Where decisions were made under uncertainty, that uncertainty must be named
+explicitly.
+
+\---
+
+## Section 1 — Representative Identity and Ecology Assessment Summary
+
+{Summarize the Ecology Assessment findings that justified this Representative's
+construction. What domains are rich? What is naturally thin? What made this identity type
+appropriate for this world? This section is written analytically — state what the ecology
+supports and why this Representative's identity follows from it. Not "Theon is a wise
+teacher who..." but "The ecology supports a Representative anchored in the catechetical
+tradition because..." Be specific. Cite the gravities and formation domains that ground
+each identity decision.}
+
+### Representative Identity
+
+**Name:** \[REPRESENTATIVE NAME]
+
+**Role and social location:** \[ROLE — stated analytically: bishop, monk, catechist,
+lay theologian, deacon, elder, widowed head of household, etc.] within \[COMMUNITY
+DESCRIPTION — what kind of community, what its position in the world]. Social location:
+\[SPECIFIC LOCATION within the ecology — what this person's position allows them to see
+and what it does not].
+
+**Temporal position:** \[PERIOD — stated as the Representative's experienced present.
+What they are living through. What they remember and what they do not yet know. Stated
+analytically here — "The Representative is calibrated to the period when X, before Y
+occurred, after Z had shaped the community in the following ways..."].
+
+**Strand attribution:** \[STRAND — which strand or strands this Representative is
+anchored in, with the evidential basis. "This Representative is anchored in the
+\[strand name] strand because \[specific ecological evidence from Source Ecology and
+Gravity Discovery]. The following gravities establish strand membership: \[list with
+brief justification for each]. Where cross-strand gravities exist, this Representative
+carries them; where strand-bound gravities exist, only those of the \[strand name]
+strand are carried."]
+
+### Ecology Assessment Summary
+
+{The Ecology Assessment covers four domains. For each domain, summarize what the
+ecology reveals and how it shaped the Representative's construction.}
+
+**Reasoning Structure:** \[What the ecology reveals about how this world reasons.
+Which sources were primary. What forms of argument the world found compelling.
+How the Representative's reasoning mode was derived from this assessment. What
+was considered and rejected.]
+
+**Perception Pattern:** \[What the ecology reveals about what this world attends to.
+What it consistently foregrounds. What it notices that neighboring worlds overlook.
+How this shapes what the Representative will hear behind a participant's question
+and what they will bring to it.]
+
+**Formation Posture:** \[What the ecology reveals about how this world relates to
+those who come to it with questions. What it assumes about a questioner. How
+understanding is transmitted in this tradition. How this shaped the Representative's
+relational and formation posture in the Permanent Prompt.]
+
+**Internal Complexity:** \[What the ecology reveals about the internal plurality of
+this world — where the Representative can speak with confidence and where they must
+hold complexity, carry tensions, or acknowledge that their tradition contains more
+than one voice. How this shaped the construction of tensions and limits.]
+
+### Why This Identity Was Chosen
+
+\[State the ecological justification for this Representative's identity type, role,
+and social location. What in the Source Ecology, Gravity Discovery, and Formation
+Ecology supports this choice? What alternative identity types were considered and
+why were they not chosen? Each claim should be grounded in specific ecological
+evidence — named gravities, formation domains, or source evidence.]
+
+\---
+
+## Section 2 — Voice Construction Derivation
+
+{Document how the Representative's voice was built from the ecology. Each element
+of the voice should trace to specific ecological evidence. This is the scholarly
+record of derivation — not what the voice sounds like, but why it sounds that way
+and where each element came from. Alternative choices should be noted where they
+were considered and rejected.}
+
+### Reasoning Mode
+
+**Derived from:** \[Which sources, gravities, and formation ecology documents ground
+this Representative's characteristic reasoning mode. Specific citations to Source
+Ecology (Doc\_01), Gravity Discovery (Doc\_02), and Formation Ecology (Doc\_04/05).]
+
+**What was established:** \[The characteristic starting point, movement pattern, and
+forms of evidence that feel compelling to this Representative — traced to specific
+ecological evidence. Why does this Representative reach for scripture first, or for
+communal wisdom, or for direct encounter in practice? Which gravity grounds this?]
+
+**What was considered and rejected:** \[Alternative reasoning modes that were
+considered during construction and the evidence-based reasons they were not adopted.
+If the ecology supported a choice between two modes, note which was chosen and why.]
+
+**Confidence level:** \[Documented / Widely Accepted / Dominant Modern Reconstruction /
+Contested / Inferential/Thin — state which level applies to the claim that this
+reasoning mode is accurate for this world, and why.]
+
+### Perception Pattern
+
+**Derived from:** \[Which aspects of the Integrated Ecology Analysis (Doc\_07) —
+particularly the Philosophical Ecology and Formation Logic lenses — ground this
+Representative's characteristic perception pattern.]
+
+**What was established:** \[What this Representative consistently notices, foregrounds,
+considers fundamental. The ecological basis for this pattern — which gravities train
+this world's attention in this direction.]
+
+**Confidence level:** \[As above.]
+
+### Language and Register
+
+**Native terms:** \[Which terms from the Deployment Lexicon (Doc\_06) are native to
+this Representative's voice — Tier 1 and Tier 2 terms that this person would
+naturally use, with justification for each.]
+
+**Terms considered and rejected:** \[Terms that were considered for this Representative
+but determined to be outside their social location, temporal horizon, or strand
+attribution — with the reason for each rejection.]
+
+**Register derivation:** \[The specific emotional and relational register of this
+voice — what formation produces this quality, traceable to which gravities and which
+formation practices. What does this world produce in a person who has received its
+formation fully? Why does the Permanent Prompt characterize the voice's register
+as \[register name]?]
+
+**Confidence level:** \[As above.]
+
+### Emotional Register
+
+**Derived from:** \[Which evidence from the Emotional Ecology lens (Doc\_07) grounds
+the affective quality assigned to this Representative. What does this world's
+formation produce in those it forms? Which sources demonstrate this affective
+register as characteristic of this world's community life?]
+
+**Construction decision:** \[The specific emotional quality assigned and the
+ecological justification. What was accepted and what was modified or rejected
+during construction.]
+
+**Confidence level:** \[As above.]
+
+\---
+
+## Section 3 — Boundary Calibration Record
+
+{Document where the Representative's formation is rich and where it is naturally
+thin. This record governs the Honest Limits section of the Permanent Prompt. Every
+boundary decision should be traceable to ecological evidence — thinness should be
+named as natural character, not as a construction limitation or an AI constraint.}
+
+### Rich Domains
+
+\[RICH DOMAIN 1 — name the domain and provide the ecological justification. Which
+gravities, formation practices, and source evidence establish depth here? What can
+this Representative engage with genuine formation depth, and why?]
+
+\[RICH DOMAIN 2 — same approach.]
+
+\[RICH DOMAIN 3 as applicable — same approach.]
+
+### Thin Domains
+
+\[THIN DOMAIN 1 — name the domain and provide the ecological basis for thinness.
+Where has this world's formation not concentrated? Which sources establish this
+thinness — absence of evidence, evidence of a different community's attention,
+strand attribution that excludes this domain? Named as natural character: "The
+ecology does not support depth here because..." not "The AI system cannot..."]
+
+\[THIN DOMAIN 2 — same approach.]
+
+\[ADDITIONAL THIN DOMAINS as applicable.]
+
+### Temporal Horizon
+
+**What this Representative can know:** \[Stated analytically: what events, developments,
+and knowledge the Representative's calibrated temporal position puts within their
+horizon. What they have lived through, what they have been told, what is accessible
+through their community's memory and correspondence.]
+
+**What this Representative cannot know:** \[Stated analytically: what events have not
+yet occurred, what knowledge has not yet been formed, what the Representative's
+position structurally excludes. The ecological basis for each limit — not "the AI
+doesn't have information about X" but "this Representative's calibrated present
+precedes X, and the world's transmission ecology did not carry knowledge of Y to
+this community."]
+
+### What Was Excluded and Why
+
+\[Content, claims, or domains that were considered for inclusion in the Representative
+construction and excluded — with the ecological or evidential reason for each
+exclusion. This is the record of construction decisions made against including
+something, as important for scholarly review as the decisions made in favor.]
+
+\---
+
+## Section 4 — Witness-Not-Recruitment Calibration
+
+{Document how the Witness-Not-Recruitment boundary (Constitution Article 24) was
+calibrated for this specific world. The calibration must be specific to this ecology —
+a world that was polemical calibrates differently than a world that was contemplative,
+but the principle holds in both. This section must be specific enough that an external
+reviewer can assess whether the calibration is appropriate. Test exchanges must be
+genuine — based on actual testing, not constructed to illustrate a point.}
+
+### This World's Characteristic Testimony Register
+
+\[Describe analytically how this world speaks when it is bearing faithful testimony.
+What is the characteristic quality of its witness? What does faithful speech about
+its commitments sound like? What sources or gravities ground this characterization?
+This is the baseline against which recruitment would be measured.]
+
+### The Make-Intelligible-Versus-Vindicate Line for This World
+
+\[State specifically what this line looks like in practice for this ecology. When
+a participant challenges this world's commitments, what does making them intelligible
+look like, and what would vindicating them look like? Where is the line most easily
+crossed for this particular world? What are the specific challenges for this ecology
+given its character — what kinds of exchanges are most likely to pull toward
+recruitment rather than testimony?]
+
+### Fierceness Calibration
+
+\[Where is fierceness directed for this world — toward which commitments, against
+which pressures? State the ecological basis: which gravities, which historical
+forces, which formation practices ground this world's intensity? Confirm that the
+Permanent Prompt directs this intensity toward the world's own commitments and
+the forces that threatened them — never toward the participant.]
+
+### Specific Challenges for This World
+
+\[Document the specific recruitment risks for this particular ecology. What makes
+this world's testimony particularly prone to becoming recruitment — whether through
+its historical combativeness, its philosophical confidence, its communal warmth, its
+urgency around what is at stake? What specific calibration decisions were made in
+response?]
+
+### Test Exchanges
+
+{Include 2–3 test exchanges that show the testimony/recruitment line in practice for
+this specific world. These must be genuine — derived from actual testing conducted
+during construction, not invented to illustrate the principle. Each exchange should
+show a specific challenge and how the calibrated Representative responded.}
+
+**Test Exchange 1:**
+
+Participant prompt: \[ACTUAL TEST PROMPT used during construction]
+
+Representative response (calibrated): \[ACTUAL RESPONSE from testing that the
+builder judged to be within the testimony register]
+
+Assessment: \[Why this response constitutes testimony rather than recruitment —
+specific analysis against the make-intelligible-versus-vindicate line]
+
+\---
+
+**Test Exchange 2:**
+
+Participant prompt: \[ACTUAL TEST PROMPT]
+
+Representative response (calibrated): \[ACTUAL RESPONSE]
+
+Assessment: \[Analysis]
+
+\---
+
+**Test Exchange 3 (optional):**
+
+Participant prompt: \[ACTUAL TEST PROMPT]
+
+Representative response (calibrated): \[ACTUAL RESPONSE]
+
+Assessment: \[Analysis]
+
+\---
+
+**Confidence level for calibration judgment:** \[Documented / Widely Accepted /
+Dominant Modern Reconstruction / Contested / Inferential/Thin — state which level
+applies to the claim that this calibration accurately reflects this world's testimony
+register, and why.]
+
+\---
+
+## Section 5 — Christ-Ward Telos Derivation
+
+{Document how the Christ-Ward Telos in the Permanent Prompt was derived from this
+world's formation logic — not imposed from outside. Show the ecological basis for
+the specific language used. An external reviewer must be able to trace the telos
+language in the Permanent Prompt to specific ecological evidence documented here.}
+
+> \\\*\\\*Provisional status:\\\*\\\* The Christ-Ward Telos encoding carries the open flag
+> established in Constitution v7.4.1 (Provisional). This encoding has received
+> adversarial AI review only, which the Constitution explicitly classifies as
+> non-validating. It is provisional pending external scholarly review by scholars
+> with formation-theology expertise. The construction decisions documented in this
+> section are the subject of that review. No revision to the telos encoding should
+> be made without updating this section accordingly.
+
+### Ecological Grounding
+
+\[Which gravities, formation practices, and formation ecology documents ground the
+specific telos expression used in this Representative's Permanent Prompt?
+Cite Doc\_02 (Historical Gravity), Doc\_04/05 (Formation Ecology), and Doc\_07
+(Integrated Ecology Analysis) specifically. Trace each element of the telos
+language to the ecological evidence that supports it.]
+
+### How This World's Inhabitation Opens Toward the One It Witnesses
+
+\[State analytically how this world's faithful formation — its specific practices,
+gravities, and characteristic way of holding Scripture and community — naturally
+opens toward the One to whom it bears witness. This must be specific to this world,
+not a generic christological claim. What does this world move toward when it moves
+most fully into its own formation? What ecological evidence establishes this
+direction? Where in the sources is this movement visible?]
+
+### What Was Rejected as Overlay
+
+\[Document which telos formulations were considered and rejected as overlay — generic
+christological captions that could be applied to any world, or formulations that
+imported the builder's own theological assumptions rather than emerging from the
+ecology. The record of what was rejected is as important for scholarly review as
+the record of what was accepted.]
+
+### External Review Focus
+
+\[State specifically what aspects of the telos derivation should receive the closest
+attention from external scholarly reviewers. Where is the construction most
+uncertain? Where would a scholar with formation-theology expertise most need to
+assess whether the ecological derivation is sound?]
+
+\---
+
+## Section 6 — Living Tradition Documentation
+
+{Complete this section where the world corresponds to a living tradition with present-day
+adherents — including where the Representative's formation runs through a figure of
+contested standing across living traditions. Where the world does not correspond to
+any living tradition, note this briefly and mark the substantive subsections as
+not applicable.}
+
+**Living tradition correspondence:** \[YES / NO — and if yes, which tradition or
+traditions.]
+
+{If NO, note: "This world does not correspond directly to a tradition with present-day
+institutional adherents who would claim it as their own. The substantive subsections
+below are not applicable." Then mark each subsection N/A.}
+
+{If YES, complete the following:}
+
+### Which Traditions This World Touches
+
+\[Name the present-day tradition or traditions that would claim historical connection
+to this formation world. State the nature of the connection — direct institutional
+succession, theological heritage, or symbolic ancestry.]
+
+### Documented Divergences
+
+\[State specifically where the historical reconstruction of this world diverges from
+how the present-day tradition understands itself. Each divergence should be stated
+precisely: "The historical reconstruction holds \[X], while \[Tradition] today
+understands itself as holding \[Y]. The divergence is documented in \[source]." This
+is the record that allows the Representative to maintain the distinction in encounter
+— the Representative must know where the divergences lie to navigate them faithfully.]
+
+### How the Representative Handles This Distinction
+
+\[Document the specific calibration decisions made for this Representative's handling
+of the living tradition distinction — what the Permanent Prompt's Living Traditions
+section establishes,(Constitution Article 28 — the living-tradition clause governing the runtime distinction; Article 29 governs the freeze-eligibility gate separately) and the reasoning behind it. How does the Representative
+signal that they speak from their own formation, not on behalf of the contemporary
+tradition?]
+
+### Living Tradition Status Confirmation
+
+**Status:** \[CONFIRMED / PENDING — and if pending, what is outstanding.]
+
+\[If confirmed: state when confirmed, by whom, and what was established. If pending:
+state what needs to be established before confirmation, and what that means for
+deployment status.]
+
+### Figures of Contested Standing
+
+\[Where the Representative's formation runs through a figure whose standing is
+contested across present-day living traditions — as Origen is for Alexandria —
+document the specific contestation. Which traditions contest this figure's standing?
+What is contested? How has the Representative's construction handled the proximity
+to this figure while maintaining the historical reconstruction / contemporary
+identity distinction?]
+
+\---
+
+## Section 7 — Validation Testing Record
+
+{Document the validation testing conducted per Representative Construction Framework
+v1.1 Part Eight. Record which test categories were run, what specific prompts or
+scenarios were used, what findings emerged, and what revisions resulted. Entries
+should be actual records of testing — not descriptions of what testing would cover.
+Where a test category was not yet conducted, note it explicitly as outstanding.}
+
+### Source-Awareness Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts]
+
+**Finding:** \[What the testing revealed — did the Representative demonstrate
+awareness of the construction process, reference scholarly sources, or use language
+that positioned the world as reconstruction rather than lived reality?]
+
+**Revisions made:** \[What was adjusted in the Permanent Prompt or World Capsule Core
+following this finding, if anything.]
+
+\---
+
+### Anachronism Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — designed to surface knowledge the Representative
+should not have given their temporal calibration]
+
+**Finding:** \[What the testing revealed.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Confidence-Under-Thinness Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — designed to probe areas where the ecology is
+thin and test whether the Representative speaks with appropriate uncertainty or
+overclaims]
+
+**Finding:** \[What the testing revealed.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Self-Referential Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — asking the Representative about what they are,
+how they were made, whether they are an AI, etc.]
+
+**Finding:** \[What the testing revealed about how the Representative handled
+self-referential questions while remaining within their world.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Scholarly-Framework Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — framing questions in modern scholarly vocabulary
+to test whether the Representative engages with the scholarly frame or translates
+into their own formation vocabulary]
+
+**Finding:** \[What the testing revealed.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Relational Safety Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — simulating participant disclosures of distress,
+crisis, or dependency-seeking patterns to test the Representative's response
+consistent with Constitution Article 33]
+
+**Finding:** \[What the testing revealed about the Representative's recognition and
+response to relational safety situations.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Claim-Laundering and Decontextualization Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Prompts used:** \[Actual prompts — attempting to use the Representative's historical
+authority to launder a participant's own claims, or to extract statements designed
+for decontextualized circulation per Constitution Article 32]
+
+**Finding:** \[What the testing revealed about the Representative's resistance to
+these attempts.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Sustained Engagement Testing
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**Method:** \[How sustained engagement was tested — number of turns, types of
+exchanges, what drift or consistency was assessed across longer conversation arcs]
+
+**Finding:** \[What the testing revealed about the Representative's stability and
+consistency across extended encounters — whether voice drift, anachronism, or
+gravity drift was observed.]
+
+**Revisions made:** \[If any.]
+
+\---
+
+### Outstanding Concerns
+
+\[Note any concerns flagged during testing that were not fully resolved by revision —
+patterns that were observed but whose cause was uncertain, behaviors that improved
+but were not eliminated, or questions about calibration that testing surfaced but
+could not settle. These are flagged for ongoing monitoring during deployment and for
+external scholarly review where they touch formation-theology questions.]
+
+\---
+
+## Section 8 — Open Questions and Revision Triggers
+
+{Document what remains uncertain, what would trigger revision, and what questions
+await external scholarly review. This section is the honest accounting of where the
+construction stands — not what it has resolved but what it has not. Construction
+decisions made under genuine uncertainty must be named here, not buried.}
+
+### Scholarly Questions Construction Could Not Resolve
+
+\[Name the scholarly questions about this world or this Representative that remain
+genuinely open — where the sources are contested, where scholarly consensus is thin,
+where the builder was required to make judgment calls under uncertainty. Each
+question should be stated precisely enough that an external reviewer knows what
+they are being asked to assess.]
+
+\[QUESTION 1 — stated precisely, with the construction decision made under uncertainty
+and the confidence level assigned.]
+
+\[QUESTION 2 — same approach.]
+
+\[ADDITIONAL QUESTIONS as applicable.]
+
+### Calibration Judgments Made Under Uncertainty
+
+\[Name the specific calibration decisions in the Permanent Prompt or World Capsule
+Core that the builder judges to be most uncertain — where the evidence supported
+a range of choices and the choice made was defensible but not the only defensible
+option. These are the decisions most important for external reviewers to scrutinize.]
+
+\[JUDGMENT 1 — what was decided, what the alternatives were, why this choice was made,
+and what evidence would change it.]
+
+\[JUDGMENT 2 — same approach.]
+
+\[ADDITIONAL JUDGMENTS as applicable.]
+
+### What External Scholarly Review Should Focus On
+
+\[State specifically what a qualified external reviewer — holding recognized scholarly
+standing in this world's specific subfield — should concentrate their attention on
+for this Representative. Which aspects of the voice construction depend most on
+domain expertise the builder does not have? Where would a specialist's assessment
+most change the construction?]
+
+### Conditions That Would Trigger Revision
+
+\[State specifically what would require revision to this Representative's construction.
+Include:]
+
+* **New evidence:** \[What kinds of new scholarly findings would require recalibration
+and which sections they would affect]
+* **Ecological incoherence:** \[What patterns discovered during deployment testing
+would indicate that the construction has a systematic error requiring correction]
+* **Scholarly challenge:** \[What kinds of expert critique, if sustained, would require
+revision to specific sections]
+* **External review findings:** \[What the forthcoming external scholarly review might
+find that would trigger revision to the telos derivation, the boundary calibration,
+or the living tradition handling]
+
+\---
+
+## Final Assembly Instruction
+
+When all eight sections are complete:
+
+1. Replace all \[BRACKETS] with world-specific content throughout.
+2. Remove all builder notes in {curly braces}.
+3. Confirm that every voice construction decision in Section 2 traces to specific
+ecological evidence — a document citation, a named gravity, a specific source.
+No assertion in the construction record should be ungrounded.
+4. Confirm that Section 4 test exchanges are genuine — derived from actual testing
+conducted during construction, not invented to illustrate the principle.
+5. Confirm that Section 5 carries the provisional open-flag text verbatim and that
+the telos derivation is traced to specific ecological evidence.
+6. Confirm that Section 6 Living Tradition Status Confirmation is completed or
+explicitly marked pending with what is outstanding stated.
+7. Confirm that Section 7 accurately records which test categories were conducted
+and which are outstanding — no test category should be silently omitted.
+8. Save as \[world-code]*Representative\_Construction\_Notes*\[Name].md
+
+\---
+
+## Builder Confirmation Note
+
+All eight sections present: YES
+
+* Section 1 — Representative Identity and Ecology Assessment Summary
+* Section 2 — Voice Construction Derivation
+* Section 3 — Boundary Calibration Record
+* Section 4 — Witness-Not-Recruitment Calibration
+* Section 5 — Christ-Ward Telos Derivation
+* Section 6 — Living Tradition Documentation
+* Section 7 — Validation Testing Record
+* Section 8 — Open Questions and Revision Triggers
+
+Analytical voice throughout (not inhabited — this is a record document): YES
+All sections written as analytical record, scholarly justification, and construction
+documentation — not as inhabited voice. The document explains and justifies decisions;
+it does not render the world or speak from within it.
+
+Brackets for all world-specific content: YES
+All content requiring world-specific information uses \[BRACKETS] throughout.
+
+Provisional open-flag instruction present in Section 5: YES
+Blockquote carrying explicit provisional status language, naming the open flag,
+naming AI review as non-validating, and naming external scholarly review as required.
+
+Validation testing categories from RCF v1.1 Part Eight all named in Section 7: YES
+All eight categories present: Source-Awareness Probe, Anachronism Probe,
+Confidence-Under-Thinness Probe, Self-Referential Probe, Scholarly-Framework Probe,
+Relational Safety Probe, Claim-Laundering and Decontextualization Probe, and
+Sustained Engagement Testing. Each carries STATUS field (CONDUCTED / OUTSTANDING).
+
+Final Assembly Instruction present: YES
+Eight-step checklist including trace-to-evidence check (Step 3), genuine-test-exchanges
+check (Step 4), provisional open-flag check (Step 5), living tradition confirmation
+check (Step 6), and testing completeness check (Step 7).
+
