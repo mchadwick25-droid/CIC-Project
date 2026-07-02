@@ -150,7 +150,9 @@
 
 **Why it passes surface checks:** The document's title and framing ("Full Growth Roadmap," phase gates, governing principle) read as legitimate 3A content, and a reviewer focused only on prohibited-name-search would still flag the world names — but a reviewer might reasonably assume Level 3 documents get the same treatment as 2A's registry exception, and wrongly wave the names through. They don't: 3A has zero exception.
 
-**Watch for in:** Any Level 3A/3B/3C/3D document with tables that have a "Status" column, dollar figures or grant/funding language, or a roadmap/tracker structure — these are structural tells that live-tracking content has been embedded in what should be a stable methodology document. The correct fix is usually a split: extract the world-neutral structural kernel (phase sequence, gates, what each phase proves) and relocate the rest to 2C Phase Status (live tracking) and/or a dedicated Ministry/Operations location for funding content (destination TBD as of this entry — no such folder exists yet in the repository).
+**Watch for in:** Any Level 3A/3B/3C/3D document with tables that have a "Status" column, dollar figures or grant/funding language, or a roadmap/tracker structure — these are structural tells that live-tracking content has been embedded in what should be a stable methodology document. The correct fix is usually a split: extract the world-neutral structural kernel (phase sequence, gates, what each phase proves) and relocate the rest to 2C Phase Status (live tracking) and/or a dedicated Ministry/Operations location for funding content.
+
+**Resolved:** The funding and world-roadmap content was relocated to `Ministry/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx`, per Clean File Structure V1.1's canonical folder tree (Ministry/[Category], out of scope for the Level 1-4 cleaning standard). The redundant status-tracking tables (Current Work Streams, per-phase Deliverables) were not carried forward at all — superseded by Phase Status, which already tracks live build status.
 
 ---
 
@@ -262,8 +264,4 @@
 
 **Why it passes surface checks:** A Critic citing a correct Article number alongside a plausible-sounding claim about a sibling document's content reads as verified — the accurate half of the claim (the Article citation) lends false credibility to the inaccurate half (the assertion that System Operations already carries the pointer). Nothing distinguishes the verified part from the unverified part in how the claim is stated.
 
-**Watch for in:** Any Critic finding that makes a specific factual claim about a THIRD document's content (not the document currently under review) — such claims must be independently verified against that third document directly before being relied upon in a production prompt. Critic review is simulated/informational and can itself contain unverified assertions; a correct citation elsewhere in the same claim does not make the rest of the claim true.
-
----
-
-## Pattern: A tracker's own "Resolved" status must be re-verified again
+**Watch for in:** Any Critic finding that makes a specific factual claim about a THIRD document's content (not the document currently under review) — such claims must be 
