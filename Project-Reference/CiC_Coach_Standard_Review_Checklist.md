@@ -53,6 +53,4 @@ Confirm the document is internally consistent with everything already ratified t
 
 **Change Orders Register cross-check — V7 upgrade pass.** Before finalizing Step 2 scope, check the Change Orders Register for any approved-but-not-yet-implemented change order that affects the document under review (e.g., CO-013's pending deployment-output count expansion), and fold implementation into this review rather than treating the document as done once it's merely decontaminated. The goal of this whole project is not just removing what's wrong but bringing each document up to the current state of V7 thinking — a document can pass every contamination check and still be behind on an approved architectural decision.
 
-## G. Coach process discipline (applies to how prompts are drafted, not to document content)
-
-1. **State the general rule, not just an illustrative list.** "Remove every X, wherever it appears — search the full doc
+**V7 Upgrade Reference cross-check — every document, every review.** Check the document under review against every applicable item in `Project-Reference/CiC_V7_Upgrade_Reference.md`'s 15-item upgrade table (level s
