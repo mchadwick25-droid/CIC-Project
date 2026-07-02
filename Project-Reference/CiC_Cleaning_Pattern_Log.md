@@ -104,4 +104,4 @@
 
 ---
 
-*End of current log. Add new entries above this line as they surface.*
+## Pattern: "CLEAN ✓" status does not guarantee current-standard comp
