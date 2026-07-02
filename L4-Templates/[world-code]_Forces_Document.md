@@ -1,7 +1,7 @@
 # FORCES DOCUMENT TEMPLATE
 ## Church in Conversation — V7
 ### Doc_08 — Per-World Forces Analysis
-Version 1.0
+Version 1.1
 
 **File naming convention:** [world-code]_Forces_Document.md  
 **Produced at:** Construction Step 7  
@@ -11,6 +11,8 @@ Version 1.0
 ---
 
 ## Version History
+
+v1.1 — Section 1 Representative-name field marked PENDING-tolerant; the Representative is not named until Representative Emergence (the final build step), which occurs after Doc_08 is produced.
 
 v1.0 — Initial production. Per-world forces analysis template. Six-cell matrix with
 three-layer documentation for each force. Forces-and-Gravities Synthesis. Transmission
@@ -40,8 +42,7 @@ reviewers, and external scholars — not by the AI system during encounter.
 
 **World code:** [WORLD CODE — the two-to-six-letter identifier used in file naming]
 
-**Representative name:** [REPRESENTATIVE NAME — the name of the Representative whose
-deployment this Doc_08 supports]
+**Representative name:** [REPRESENTATIVE NAME — the name of the Representative whose deployment this Doc_08 supports. PENDING-tolerant: the Representative is not named until Representative Emergence, the final build step, which occurs after this Forces Document (Doc_08) is produced. If producing before the Representative is named, leave blank or mark [TBD]; the Representative name is not required for Doc_08 completion.]
 
 **Doc_08 completion date:** [DATE — or PENDING if not yet complete]
 
