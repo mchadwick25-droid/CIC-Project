@@ -266,4 +266,4 @@
 
 ---
 
-*End of current log. Add new entries above this line as they surface.*
+## Pattern: A tracker's own "Resolved" status must be re-verified again
