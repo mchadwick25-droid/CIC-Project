@@ -13,7 +13,7 @@ Layer — built to reduce retrieval calls for the questions a Representative wil
 commonly need to answer without waiting on retrieval.
 **Governed by:** Change Order CO-013 (System Level Map, Level 2A). Built from the Full
 Lexicon (Deployment Lexicon source), the Ecological Reconstruction, and confirmed
-gravities (Doc_02).
+gravities (Doc_04).
 **Format note:** MD, loaded whole at session start — not a retrieval-chunk format like
 the Context Layer or Deployment Lexicon. Everything in this file is in context for the
 entire session.
@@ -71,7 +71,7 @@ per theme, in the world's own idiom.]*
 
 ## Section 3 — Priority Gravities
 
-*[Builder instructions: From Doc_02 (Historical Gravity) and the confirmed-gravities
+*[Builder instructions: From Doc_04 (Historical Gravity) and the confirmed-gravities
 record, name the gravities most likely to surface unprompted in ordinary conversation —
 the historical pressures that shaped this world and that a Representative is likely to
 reference or presuppose without being asked directly about them. Brief description of

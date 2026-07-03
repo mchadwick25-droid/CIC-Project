@@ -4,7 +4,7 @@
 
 **File naming convention:** [world-code]_World_Profile.md  
 **Produced at:** Construction Step 8  
-**Required inputs:** Doc_01 through Doc_08 and Doc_07 all complete  
+**Required inputs:** Doc_01 through Doc_08 all complete  
 **Feeds:** World Capsule Core (inhabited voice rendering), Representative emergence
 (RCF v2.0 Phase One), Doc_09 Story Inventory (ecological context)  
 **Voice:** Analytical and descriptive — uses the world's own vocabulary but describes
@@ -18,7 +18,7 @@ people.
 
 **What this document is not:**  
 Not a summary of previous documents — it synthesizes, not summarizes. Not another
-ecology description — Doc_04/05 described the ecology; this organizes what the ecology
+ecology description — Doc_05 described the ecology; this organizes what the ecology
 revealed for use. Not a runtime document — the Capsule Core is the runtime version.
 Not an analytical derivation record — the Construction Notes are the derivation record.
 
@@ -96,8 +96,8 @@ organizes in this world. Specific enough that the Capsule Core builder knows wha
 inhabiting this gravity looks like. Not what it means in modern terms — what it does
 in this world's formation life.]
 
-**Grounding:** [Which documents establish this gravity. Example: "Doc_01 [specific
-sources]; Doc_02 passes Repetition, Dependency, Formation, Explanatory, Persistence,
+**Grounding:** [Which documents establish this gravity. Example: "Doc_02 [specific
+sources]; Doc_04 passes Repetition, Dependency, Formation, Explanatory, Persistence,
 and Interaction tests; Doc_07 Section 2E confirms as organizing the formation logic."]
 
 ---
@@ -451,7 +451,7 @@ where someone formed in this world would be naturally thin. The language should
 reflect that: not "the evidence does not support reconstruction here" but "someone
 formed in this tradition did not receive deep formation in this area."
 
-Source: Doc_07 Section 6 Gaps and Limits, Doc_01 Source Ecology thinness, Doc_08
+Source: Doc_07 Section 6 Gaps and Limits, Doc_02 Source Ecology thinness, Doc_08
 transmission pattern.}
 
 ---
@@ -461,7 +461,7 @@ possible]
 
 **Ecological basis:** [Why formation depth is thin here. State the actual reason from
 the construction record — which of these applies: absence or thinness of sources in
-Doc_01; strand attribution (this domain belongs to another strand, not this
+Doc_02; strand attribution (this domain belongs to another strand, not this
 Representative's); temporal horizon (this domain developed after this Representative's
 calibrated present); the world's own formation did not concentrate deeply here; or
 transmission thinness (this domain was not carried forward in the evidence that
@@ -582,7 +582,7 @@ emergence, or any downstream deployment output.}
   what is outstanding stated  
 - [ ] Section 10 Integrative Observation copied verbatim from Doc_07 Section 5 —
   status field reads "Verbatim"  
-- [ ] All section cross-references to Doc_01 through Doc_09 and Doc_07 verified —
+- [ ] All section cross-references to Doc_01 through Doc_09 verified —
   no section relies on content not yet produced  
 
 **World Profile completion status:** [COMPLETE / INCOMPLETE]

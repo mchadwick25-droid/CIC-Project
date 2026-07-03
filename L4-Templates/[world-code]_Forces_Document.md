@@ -48,9 +48,9 @@ reviewers, and external scholars — not by the AI system during encounter.
 
 **Builder:** [BUILDER NAME or identifier]
 
-**Doc_01 (Source Ecology) version this analysis draws from:** [VERSION]
+**Doc_02 (Source Ecology) version this analysis draws from:** [VERSION]
 
-**Doc_02 (Historical Gravity) version this analysis draws from:** [VERSION]
+**Doc_04 (Historical Gravity) version this analysis draws from:** [VERSION]
 
 ---
 
@@ -313,7 +313,7 @@ than transmission-as-observed — apply Reported-Experience Status where appropr
 what we can and cannot reconstruct because of how transmission worked. What
 transmission-as-force reveals about which aspects of the formation ecology were
 most threatened and therefore most deliberately preserved, and which were allowed
-to recede. How this connects to Author Gravity findings from Doc_01: which voices
+to recede. How this connects to Author Gravity findings from Doc_02: which voices
 dominate because transmission favored them, which are thin or absent because
 transmission did not carry them.]
 
@@ -444,7 +444,7 @@ not recoverable.]
 [How the transmission pattern at the world's ending shaped what we can and cannot
 now know. What gaps in the current record trace to transmission failure rather
 than to evidence that never existed. How this connects to Author Gravity thinness
-documented in Doc_01.]
+documented in Doc_02.]
 
 ---
 
@@ -515,14 +515,14 @@ surface?]
 
 ## Section 5 — Forces-and-Gravities Synthesis
 
-{Every confirmed gravity from Doc_02 should trace to at least one force at Layer 3.
+{Every confirmed gravity from Doc_04 should trace to at least one force at Layer 3.
 A gravity that cannot be connected to forces is ecologically incomplete. Work through
-each confirmed gravity from Doc_02 and identify which forces shaped, intensified,
+each confirmed gravity from Doc_04 and identify which forces shaped, intensified,
 or threatened it. Use the cell reference and force name to identify each force.}
 
 ### Gravity-by-Gravity Force Connections
 
-**Gravity: [PRIMARY GRAVITY NAME]** (from Doc_02)
+**Gravity: [PRIMARY GRAVITY NAME]** (from Doc_04)
 
 Connected forces:  
 - [CELL-NUMBER] ([FORCE NAME]): [Brief statement of how this force shaped, produced,
@@ -532,7 +532,7 @@ Connected forces:
 
 ---
 
-**Gravity: [SUPPORTING GRAVITY NAME]** (from Doc_02)
+**Gravity: [SUPPORTING GRAVITY NAME]** (from Doc_04)
 
 Connected forces:  
 - [CELL-NUMBER] ([FORCE NAME]): [Connection statement]  
@@ -540,7 +540,7 @@ Connected forces:
 
 ---
 
-**Gravity: [TENSIONAL GRAVITY NAME]** (from Doc_02)
+**Gravity: [TENSIONAL GRAVITY NAME]** (from Doc_04)
 
 Connected forces:  
 - [CELL-NUMBER] ([FORCE NAME]): [Connection statement — tensional gravities often
@@ -548,7 +548,7 @@ Connected forces:
 
 ---
 
-{Continue for all confirmed gravities from Doc_02. Every gravity must appear here.
+{Continue for all confirmed gravities from Doc_04. Every gravity must appear here.
 A gravity with no force connections is flagged as ecologically incomplete — return
 to the six-cell matrix and identify which forces are missing.}
 
@@ -563,7 +563,7 @@ explaining why strand-bound gravities exist? Note the connection explicitly.]
 
 ### What Forces Analysis Adds
 
-[State what the forces analysis revealed that gravity analysis alone (Doc_02) did
+[State what the forces analysis revealed that gravity analysis alone (Doc_04) did
 not contain. Where did forces analysis surface dynamics that were not visible in
 the gravity discovery work? Where did forces analysis explain why a gravity
 exists — not just that it does?]
@@ -579,7 +579,7 @@ formation ecology.]
 
 [Where did forces analysis reveal dynamics in the ecology that were not
 adequately captured in the gravity analysis? Note these as potential revisions
-to Doc_02 or as construction notes for the ecology more broadly.]
+to Doc_04 or as construction notes for the ecology more broadly.]
 
 ---
 
@@ -589,7 +589,7 @@ to Doc_02 or as construction notes for the ecology more broadly.]
 transmission as a force acting on this world. Where Cells 2B and 3B documented
 transmission within the ongoing and ending phases, this section integrates the
 full transmission picture across the world's life and connects it to Author
-Gravity findings from Doc_01.}
+Gravity findings from Doc_02.}
 
 ### Who Transmitted This World's Characteristic Material
 
@@ -610,7 +610,7 @@ preserving, and what did that belief cause them to select for and select against
 
 [State specifically what was preserved because transmission favored it, and
 what was lost because transmission did not carry it. Connect to the Source
-Ecology thinness documented in Doc_01 — which Author Gravity gaps trace to
+Ecology thinness documented in Doc_02 — which Author Gravity gaps trace to
 transmission selection effects rather than to material that never existed?]
 
 ### What the Transmission Pattern Reveals About Forces
@@ -621,13 +621,13 @@ preserve what they fear losing. What the transmitters chose to preserve shows
 what they understood to be most at risk. What does this reveal about the forces
 acting on the world?]
 
-### Connection to Author Gravity Findings (Doc_01)
+### Connection to Author Gravity Findings (Doc_02)
 
 [Connect the transmission synthesis explicitly to Author Gravity findings.
 Which dominant voices in the Source Ecology dominate because transmission
 favored them — and what interests shaped that favor? Which thin or absent
 voices are thin because transmission did not carry them — and what forces
-explain that thinness? This is the explicit link between Doc_01 evidence
+explain that thinness? This is the explicit link between Doc_02 evidence
 assessment and Doc_08 forces analysis.]
 
 ---
@@ -754,13 +754,13 @@ item cannot be confirmed, note it as OUTSTANDING with what remains to be done.}
 - [ ] Layer 2 for every force uses the world's own vocabulary — no modern analytical overlay  
 - [ ] Transmission addressed explicitly in Cell 2B as a named force dimension  
 - [ ] Transmission addressed explicitly in Cell 3B as a named force dimension  
-- [ ] Forces-and-Gravities Synthesis (Section 5) connects every confirmed gravity from Doc_02 to at least one force  
+- [ ] Forces-and-Gravities Synthesis (Section 5) connects every confirmed gravity from Doc_04 to at least one force  
 - [ ] Cross-cell connections documented in Section 4  
 - [ ] Confidence calibration present throughout Section 3 and summarized in Section 7  
 - [ ] All five governing principles confirmed in Section 8  
 - [ ] Reported-Experience Status applied in Layer 2 entries where self-understanding is historically uncertain but formationally central  
 - [ ] Named scholarly tensions carried at full strength — no quiet consensus assumed  
-- [ ] Transmission synthesis (Section 6) connects to Author Gravity findings from Doc_01  
+- [ ] Transmission synthesis (Section 6) connects to Author Gravity findings from Doc_02  
 
 **Doc_08 completion status:** [COMPLETE / INCOMPLETE]
 
@@ -783,7 +783,7 @@ When all nine sections are complete:
    remove any analytical-distance markers. Test: would a modern historian write
    this language, or would a person formed in this world? If the former, rewrite.
 
-4. Confirm every confirmed gravity from Doc_02 appears in Section 5. No gravity
+4. Confirm every confirmed gravity from Doc_04 appears in Section 5. No gravity
    should be absent from the Forces-and-Gravities Synthesis.
 
 5. Confirm transmission appears as an explicit named force in both Cell 2B and

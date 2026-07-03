@@ -16,7 +16,7 @@ the coherence that no single document could reveal alone.
 
 The critical distinction:
 
-Doc_04/05 described the ecology. Doc_07 integrates what the ecology reveals when all
+Doc_05 described the ecology. Doc_07 integrates what the ecology reveals when all
 lenses are applied simultaneously.
 
 **Wrong:** "This community understood kinship through shared suffering. The Eucharist
@@ -65,11 +65,11 @@ If Tier 1 entries are not complete, stop here and return to Step 6.}
 
 | Document | Status |
 |----------|--------|
-| Doc_01 — Source Ecology | [COMPLETE / INCOMPLETE] |
-| Doc_02 — Historical Gravity | [COMPLETE / INCOMPLETE] |
+| Doc_01 — World Identification | [COMPLETE / INCOMPLETE] |
+| Doc_02 — Source Ecology | [COMPLETE / INCOMPLETE] |
 | Doc_03 — Lexicon Candidate List | [COMPLETE / INCOMPLETE] |
-| Doc_04 — Formation Ecology (primary lenses) | [COMPLETE / INCOMPLETE] |
-| Doc_05 — Formation Ecology (ministry and additional lenses) | [COMPLETE / INCOMPLETE] |
+| Doc_04 — Gravity Discovery | [COMPLETE / INCOMPLETE] |
+| Doc_05 — Ecological Reconstruction (Human, Community, Worship, Organizational, and Ministry Ecology lenses) | [COMPLETE / INCOMPLETE] |
 | Doc_06 — Full Interpretive Lexicon — Tier 1 entries at genuine depth | [COMPLETE / INCOMPLETE] |
 
 **Gate confirmation:** All six inputs confirmed complete before lens work began: [YES / NO]
@@ -83,7 +83,7 @@ inputs will not produce the coherence this document is designed to reveal.}
 ## Section 2 — Integration Lenses
 
 {Each lens is a separate subsection. Each lens reveals something the individual ecology
-documents cannot show by themselves. The lenses are not summaries of Doc_04/05 — they
+documents cannot show by themselves. The lenses are not summaries of Doc_05 — they
 are applications of a specific analytical angle that, when run across the whole ecology,
 reveals a pattern or coherence that was not visible before. Begin each lens subsection by
 stating what this lens specifically reveals for this world, then apply it.
@@ -110,7 +110,7 @@ individual definitions.}
 
 **What this lens reveals for this world:**  
 [Before applying the lens, state in one to two sentences what you expect this lens to
-reveal that Doc_04/05 could not show alone — what specific coherence or pattern becomes
+reveal that Doc_05 could not show alone — what specific coherence or pattern becomes
 visible when emotional texture is applied as an integration angle for this particular
 world.]
 
@@ -118,30 +118,30 @@ world.]
 [The emotional register that formation produces in this world's mature practitioners —
 named precisely, not generically. Not "peace" but what this world's practitioners
 actually experienced and named using their own vocabulary. Draw on Doc_06 Tier 1 entries
-for the terms. Where does the evidence for this register appear in Doc_01 and Doc_04/05?
+for the terms. Where does the evidence for this register appear in Doc_02 and Doc_05?
 Name the specific sources and formation documents that ground this characterization.]
 
 **Emotionally dangerous states:**  
 [What this world considered most spiritually dangerous emotionally — what it trained
 practitioners to recognize and resist. In the world's own vocabulary. What formation
-practices addressed these dangers? Grounded in which sources from Doc_01?]
+practices addressed these dangers? Grounded in which sources from Doc_02?]
 
 **Emotional arc of formation:**  
 [What someone entering this world felt at entry, what the middle of formation felt like,
 and what mature practitioners in this world came to carry emotionally. The arc, not just
-the endpoint. How does Doc_04's Formation Ecology support this arc? Where is it visible
+the endpoint. How does Doc_05's Formation Ecology support this arc? Where is it visible
 in the Tier 1 lexicon?]
 
 **Gravities most visible in the emotional texture:**  
-[Which gravities from Doc_02 are most clearly expressed in the emotional ecology? How
+[Which gravities from Doc_04 are most clearly expressed in the emotional ecology? How
 does the gravity analysis and the emotional analysis reinforce each other? Where do they
 point to the same underlying formation logic?]
 
-**What Emotional Ecology reveals that Doc_04/05 alone did not show:**  
+**What Emotional Ecology reveals that Doc_05 alone did not show:**  
 [The specific integration insight that this lens produces — what became visible about
 this world's formation logic when emotional texture was applied as the lens. This
 should be a specific claim about how the world hangs together, not a restatement of
-what Doc_04/05 already documented.]
+what Doc_05 already documented.]
 
 ---
 
@@ -164,7 +164,7 @@ ecology that were previously unconnected.]
 [How this world structured reality at the most basic level — in its own vocabulary.
 What it considered most real, most basic, most given. What categories organized its
 perception of everything else. Ground this in Tier 1 lexicon entries from Doc_06 and
-in the philosophical sources from Doc_01.]
+in the philosophical sources from Doc_02.]
 
 **Understanding of the human person:**  
 [The categories this world used to understand what a human person is — what it
@@ -184,10 +184,10 @@ commitment runs through both? This is the cross-lens insight this pair of lenses
 produces together.]
 
 **Gravities most visible in the philosophical structure:**  
-[Which gravities from Doc_02 are most clearly expressed in the philosophical ecology?
+[Which gravities from Doc_04 are most clearly expressed in the philosophical ecology?
 How does the gravity analysis and the philosophical analysis reinforce each other?]
 
-**What Philosophical Ecology reveals that Doc_04/05 alone did not show:**  
+**What Philosophical Ecology reveals that Doc_05 alone did not show:**  
 [The specific integration insight — what became visible about this world's formation
 logic when philosophical structure was applied as the lens.]
 
@@ -208,7 +208,7 @@ the ecology documents could not show alone.]
 **Primary sources of authority:**  
 [What made something authoritative in this world — in the world's own terms. Scripture?
 Succession? Demonstrated holiness? Philosophical insight? Ancient practice? How did the
-world itself understand what authority was and where it came from? Grounded in Doc_01
+world itself understand what authority was and where it came from? Grounded in Doc_02
 sources and Doc_06 lexicon.]
 
 **Transmission of authority:**  
@@ -236,9 +236,9 @@ authority valued differently across strands? What does this reveal about the str
 distinct formation logics?]
 
 **Gravities most illuminated by the authority structure analysis:**  
-[Which gravities from Doc_02 are most clearly expressed in the authority structures?]
+[Which gravities from Doc_04 are most clearly expressed in the authority structures?]
 
-**What Authority Structures reveals that Doc_04/05 alone did not show:**  
+**What Authority Structures reveals that Doc_05 alone did not show:**  
 [The specific integration insight this lens produces.]
 
 ---
@@ -263,8 +263,8 @@ this lens.]
 **Membership logic:**  
 [How this world defined membership — what brought someone in, what sustained their
 membership, what put them outside. The criteria, the practices, the rituals or moments
-of entrance and exclusion. In the world's own terms. Grounded in Doc_01 sources and
-Doc_04/05 formation ecology.]
+of entrance and exclusion. In the world's own terms. Grounded in Doc_02 sources and
+Doc_05 formation ecology.]
 
 **Relation to what is outside:**  
 [How this world related to what it considered outside or other — neighboring traditions,
@@ -290,7 +290,7 @@ practitioners were formed to do at the world's edges. How inhabiting the boundar
 was itself a formative experience. What it meant to be formed in a world that defined
 itself against something.]
 
-**What Boundary Structures reveals that Doc_04/05 alone did not show:**  
+**What Boundary Structures reveals that Doc_05 alone did not show:**  
 [The specific integration insight this lens produces — particularly where forces and
 ecology become visible as a single coherent system through the boundary analysis.]
 
@@ -321,7 +321,7 @@ unifies what all the other lenses have shown. This should name the coherence.]
 Not "a holy person" but what this world called a mature practitioner and what it
 understood that to consist of. What capacities, orientations, practices, and
 relationships characterized someone who had received this world's formation fully.
-Grounded in the most specific evidence from Doc_06 Tier 1 vocabulary and Doc_04/05
+Grounded in the most specific evidence from Doc_06 Tier 1 vocabulary and Doc_05
 formation ecology.]
 
 **The formation mechanism:**  
@@ -354,7 +354,7 @@ the formation logic rather than fragment it?]
 
 **Formation logic and confirmed gravities:**  
 [How the formation logic expresses, embodies, and transmits the confirmed gravities from
-Doc_02. For each primary gravity: how does the formation logic produce, sustain, and
+Doc_04. For each primary gravity: how does the formation logic produce, sustain, and
 transmit this gravity in practitioners? The gravities and the formation logic should be
 mutually explanatory — the formation logic explains why these gravities are central,
 and the gravities explain what the formation logic is oriented toward.]
@@ -372,7 +372,7 @@ synthesis.]
 narrative, or liturgical commemoration is significant enough to have shaped formation
 distinctively. Omit if memory does not function as a distinctive formation vehicle in
 this world. If applied: ask what this world remembered and how, and what its patterns
-of remembering produced in practitioners. Ground in Doc_04/05 Meaning Transmission
+of remembering produced in practitioners. Ground in Doc_05 Meaning Transmission
 and Memory Structures ecology, and in Doc_06 terms for memory and commemoration.}
 
 **What this lens reveals for this world:**  
@@ -390,7 +390,7 @@ formation. What a practitioner who had received the community's memory through f
 carried in their bones that someone who had not could not carry.]
 
 **Gravities most illuminated by the memory analysis:**  
-[Which gravities from Doc_02 are most clearly expressed in the memory structures?]
+[Which gravities from Doc_04 are most clearly expressed in the memory structures?]
 
 **What Memory Structures reveals:**  
 [The specific integration insight.]
@@ -403,7 +403,7 @@ carried in their bones that someone who had not could not carry.]
 texts is distinctive enough to have shaped formation specifically. Not all worlds
 require this lens — it is for worlds where how interpretation was done is as important
 as what was concluded. Omit if the Authority Structures lens already adequately captures
-this world's interpretive dynamics. Ground in Doc_04/05 Interpretive Ecology sections
+this world's interpretive dynamics. Ground in Doc_05 Interpretive Ecology sections
 and Doc_06 hermeneutical vocabulary.}
 
 **What this lens reveals for this world:**  
@@ -420,7 +420,7 @@ had learned to read as this world read was actually receiving through that learn
 How interpretive formation shaped perception, not just knowledge.]
 
 **Gravities most illuminated:**  
-[Which gravities from Doc_02 are most clearly expressed in the interpretive ecology?]
+[Which gravities from Doc_04 are most clearly expressed in the interpretive ecology?]
 
 **What Interpretive Ecology reveals:**  
 [The specific integration insight.]
@@ -434,7 +434,7 @@ controversies, or theological distinctives — is directly formation-shaping rat
 merely intellectually characteristic. Not all worlds require this lens; it is for worlds
 where what practitioners believed about God, Christ, salvation, or the Church shaped
 how they lived and were formed in traceable, specific ways. Omit if the Formation Logic
-lens already captures the theology-formation connection adequately. Ground in Doc_04/05
+lens already captures the theology-formation connection adequately. Ground in Doc_05
 Representative Theological Patterns sections and Doc_06 doctrinal vocabulary.}
 
 **What this lens reveals for this world:**  
@@ -462,7 +462,7 @@ practitioners in neighboring worlds were not.]
 formation vehicles in this world — where architecture, art, relics, pilgrimage, or
 physical disciplines did something in formation that the textual and social ecology
 alone cannot explain. Omit if material culture was not a distinctive formation vehicle.
-Ground in Doc_04/05 Material Culture and Social Life sections and Doc_01 material and
+Ground in Doc_05 Material Culture and Social Life sections and Doc_02 material and
 archaeological evidence.}
 
 **What this lens reveals for this world:**  
@@ -472,7 +472,7 @@ archaeological evidence.}
 [The specific objects, spaces, or physical practices that shaped formation — not as
 background to formation but as active formation vehicles. What practitioners' bodies
 were doing and inhabiting, and what that produced in them. Grounded in material and
-archaeological evidence from Doc_01.]
+archaeological evidence from Doc_02.]
 
 **How material culture connected to the world's gravities and formation logic:**  
 [The relationship between the material formation practices and the formation logic
@@ -548,7 +548,7 @@ reveal? What is the coherence of this world — the thing that makes it THIS wor
 irreducibly, rather than a neighboring world or a generic Christian community?
 
 Write this section as if you are describing the world's formation logic to someone who
-has read Doc_04/05 and Doc_06 and understood them thoroughly, but who cannot yet see
+has read Doc_05 and Doc_06 and understood them thoroughly, but who cannot yet see
 how they hang together. What do you tell them that suddenly makes the whole thing
 cohere?}
 
@@ -575,7 +575,7 @@ simultaneously? State it precisely — this is the analytical heart of Doc_07.]
 **What the cross-lens synthesis gives the Representative:**  
 [What does this synthesis give a Representative to inhabit that the individual documents
 could not give? What can a Representative who has internalized this synthesis do in
-encounter that a Representative built only from Doc_04/05 and Doc_06 could not do?
+encounter that a Representative built only from Doc_05 and Doc_06 could not do?
 This is the practical consequence of integration for Representative construction.]
 
 ---
