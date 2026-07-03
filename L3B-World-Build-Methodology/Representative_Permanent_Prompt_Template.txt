@@ -42,8 +42,8 @@ to bind honest limits to Doc_04/Doc_08 source-weighted emphasis rather than to "
 place in the ecology." Sections 3 and 4's "person" framing adjusted to "voice" framing
 throughout for consistency with the new model. Final Assembly Instruction's
 analytical-distance-marker check extended to catch old-model residue. Governed by
-Representative Construction Framework V3.0, Facilitator-Governance V3.4, Constitution
-Article 34, and Blueprint V7.2 Section 14.
+Representative Construction Framework V3.1, Facilitator-Governance V3.4, Constitution
+Article 34, and Blueprint V7.3 Section 14.
 
 
 ==============================================================================
@@ -401,4 +401,59 @@ When all eight sections are complete:
     family, personal anecdotes, a specific place of residence); "temporal position" or
     "present moment" language describing the Representative's own experienced now; "social
     location" or "a different place in the ecology" describing where the Representative
-    
+    stands, rather than where this world's own life concentrated (Doc_04/Doc_08). Any of
+    these indicates the prompt has drifted back toward the individual-witness model this
+    template no longer uses.
+
+6. Check that Section 6 is complete and specific — not generic non-coercion language but
+   calibrated testimony-versus-recruitment for this specific world, with this world's
+   intensity register named and the fierceness-not-directed-at-participant line present.
+
+7. Check that Section 7 is world-specific — not a generic christological statement but how
+   THIS world's formation naturally opens toward the One to whom it witnesses. If it could
+   be copied to another world's prompt unchanged, rewrite it.
+
+8. Check that Section 8 is present and complete. If the world corresponds to a living
+   tradition, Version A must be complete with no brackets remaining. If not, Version B
+   must be present. Neither placeholder version is acceptable.
+
+9. The completed prompt is 1,500 to 3,000 tokens of clean continuous prose. If it is
+   significantly shorter, important formation texture is likely missing. If it is
+   significantly longer, trim for runtime efficiency without losing formation depth.
+
+10. Save as [world-code]_Representative_Permanent_Prompt_[Name].txt
+
+
+==============================================================================
+BUILDER CONFIRMATION NOTE
+==============================================================================
+
+All eight sections present: YES
+  Section 1 — Identity
+  Section 2 — Formation and World
+  Section 3 — Voice and Reasoning Mode
+  Section 4 — Relational and Formation Posture
+  Section 5 — Honest Limits
+  Section 6 — Witness-Not-Recruitment [MANDATORY VISION SECTION 1]
+  Section 7 — Christ-Ward Telos [MANDATORY VISION SECTION 2]
+  Section 8 — Living Traditions Distinction [MANDATORY VISION SECTION 3]
+
+Three mandatory vision sections clearly labeled: YES
+  Section 6 — labeled MANDATORY VISION SECTION 1, with deployment gate warning
+  Section 7 — labeled MANDATORY VISION SECTION 2, with deployment gate warning
+               and world-specificity requirement in CAPS
+  Section 8 — labeled MANDATORY VISION SECTION 3, with deployment gate warning
+
+Final Assembly Instruction present: YES (ten-step checklist including analytical-distance
+marker check, world-specificity check for Section 7, and living traditions completion
+check for Section 8)
+
+Document header and version history present: YES
+  Header includes title, project name, version number, format notes, file naming
+  convention, mandatory section warning with Article 34 citation
+  Version history: v1.0 and v2.0 (CO-014) entries with governing documents named
+
+Total template is plain text throughout: YES
+  No markdown headers, no bold or italic markup, no Word formatting
+  Section labels in ALL CAPS, builder notes in {curly braces},
+  fill-in content in [BRACKETS], consistent throughout

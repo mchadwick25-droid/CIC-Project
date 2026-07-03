@@ -41,8 +41,8 @@ narrowing the Representative, only this world's own documented close (Doc_01). R
 register in "How the Representative handles it" corrected from singular "I" to plural
 "we," consistent with the first-person-plural grammar convention. Strand-attribution
 basis reframed as the multiple-named-voices exception rather than the default. Governed
-by Construction Framework V7.2 Step 8, Representative Construction Framework V3.0, and
-Blueprint V7.2 Section 14.
+by Construction Framework V7.3 Step 8, Representative Construction Framework V3.1, and
+Blueprint V7.3 Section 14.
 
 ---
 

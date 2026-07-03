@@ -36,8 +36,8 @@ register-range (the multiple-named-voices allowance). "Temporal position" replac
 "Temporal Horizon" throughout — the world's own full documented span, not a calibrated
 present. Section 3's Temporal Horizon subsection rewritten to remove "calibrated
 present" framing. "Person" language changed to "voice" throughout. Governed by
-Representative Construction Framework V3.0, Constitution Articles 24, 25, 29, and 31,
-and Blueprint V7.2 Section 14.
+Representative Construction Framework V3.1, Constitution Articles 24, 25, 29, and 31,
+and Blueprint V7.3 Section 14.
 
 v2.1 — Added documentation prompts for two new preference criteria (per RCF V3.1 Identity
 Determination): naming rationale now asks builders to confirm groundedness was equal

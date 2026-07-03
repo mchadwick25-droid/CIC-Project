@@ -39,9 +39,9 @@ the "experienced present" / "living now" framing replaced with a full-span tempo
 horizon bound to Doc_01's temporal scope, since nothing within the world's own
 documented span is closed off by a single "now." Section 9 (Honest Limits) rewritten to
 bind thinness to Doc_04/Doc_08 source-weighted emphasis rather than to "a person formed
-in a particular place." Governed by Constitution Article 34, Blueprint V7.2 Section 14,
-Construction Framework V7.2 (Representative Voice Grounding) Step 8, Representative
-Construction Framework V3.0, and Forces Framework v1.
+in a particular place." Governed by Constitution Article 34, Blueprint V7.3 Section 14,
+Construction Framework V7.3 (Representative Voice Grounding) Step 8, Representative
+Construction Framework V3.1, and Forces Framework v1.
 
 \---
 
