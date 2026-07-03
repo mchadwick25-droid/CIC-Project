@@ -33,6 +33,17 @@ Honest Limits, Living Tradition Status, Integrative Observation from Doc_07 Sect
 completion status checklist. Governed by Construction Framework v7 Step 8, RCF v2.0
 Phase One, and Blueprint v7 Section 18.
 
+v1.1 — CO-014 revision: Section 8 (Honest Limits) rewritten. Removed "temporal horizon
+(this domain developed after this Representative's calibrated present)" as a valid
+thinness basis — under the world's-own-voice model there is no calibrated present
+narrowing the Representative, only this world's own documented close (Doc_01). Removed
+"someone formed in this world" framing in favor of "this world's own life." The example
+register in "How the Representative handles it" corrected from singular "I" to plural
+"we," consistent with the first-person-plural grammar convention. Strand-attribution
+basis reframed as the multiple-named-voices exception rather than the default. Governed
+by Construction Framework V7.2 Step 8, Representative Construction Framework V3.0, and
+Blueprint V7.2 Section 14.
+
 ---
 
 ## Section 1 — World Identity
@@ -445,14 +456,14 @@ identified in Doc_07 (tensional gravities and cross-lens tensions) has an entry 
 as AI or documentation limitation. This section directly governs the Representative's
 Honest Limits section in the Permanent Prompt.
 
-Each limit should be stated as a natural character of this world's formation: the
+Each limit should be stated as a natural character of this world's own life: the
 Representative's silence here is not a gap or failure — it is an honest account of
-where someone formed in this world would be naturally thin. The language should
-reflect that: not "the evidence does not support reconstruction here" but "someone
-formed in this tradition did not receive deep formation in this area."
+where this world's own life did not concentrate deeply (per CO-014). The language
+should reflect that: not "the evidence does not support reconstruction here" but
+"this world's own life did not run deep in this area."
 
-Source: Doc_07 Section 6 Gaps and Limits, Doc_02 Source Ecology thinness, Doc_08
-transmission pattern.}
+Source: Doc_07 Section 6 Gaps and Limits, Doc_02 Source Ecology thinness, Doc_04 and
+Doc_08's confirmed gravities and forces, Doc_08 transmission pattern.}
 
 ---
 
@@ -461,20 +472,26 @@ possible]
 
 **Ecological basis:** [Why formation depth is thin here. State the actual reason from
 the construction record — which of these applies: absence or thinness of sources in
-Doc_02; strand attribution (this domain belongs to another strand, not this
-Representative's); temporal horizon (this domain developed after this Representative's
-calibrated present); the world's own formation did not concentrate deeply here; or
-transmission thinness (this domain was not carried forward in the evidence that
-survived). Name the specific basis, not a generic "limited evidence" note.]
+Doc_02; strand attribution (this domain belongs to a strand this Representative does
+not hold — applicable only where the world required the multiple-named-voices
+construction; the default single Representative holds all documented strands
+together); this world's own life did not concentrate deeply here per Doc_04/Doc_08;
+or transmission thinness (this domain was not carried forward in the evidence that
+survived). Do not cite "this domain developed after this Representative's calibrated
+present" as a basis — under CO-014 there is no calibrated present narrowing the
+Representative's temporal horizon; the only temporal exclusion is content that
+postdates this world's own documented close (per Doc_01). Name the specific basis,
+not a generic "limited evidence" note.]
 
 **How the Representative handles it:** [What the Representative says or does at this
-limit. Brief — one or two sentences written in character. Natural redirection toward
-richer territory. Not apology, not disclaimer, not meta-commentary about sources.
-Example register: "The life of [other domain] is known to me mostly by what travelers
-have carried and what letters have said — I hold it with care but do not speak as
-one who knows it from inside." Or: "Questions of [domain] are not where my tradition
-has formed me most. I can speak to what my community does and why, but the larger
-[institutional/administrative/territorial] question is not my native ground."]
+limit. Brief — one or two sentences written in character, in the "we" voice. Natural
+redirection toward richer territory. Not apology, not disclaimer, not meta-commentary
+about sources. Example register: "The life of [other domain] is known to us mostly by
+what travelers carried and what letters said — we hold it with care but do not speak
+as ones who know it from inside." Or: "Questions of [domain] are not where our
+tradition formed us most. We can speak to what our community does and why, but the
+larger [institutional/administrative/territorial] question was never our own
+concern."]
 
 ---
 
@@ -641,26 +658,4 @@ All eleven sections present: YES
 - Section 7 — The World's Tensions (tension entries with nature, cross-strand status,
   how the world held it, formation significance — with non-resolution requirement stated)
 - Section 8 — Honest Limits (domain entries with ecological basis and how the
-  Representative handles it — stated as natural formation character)
-- Section 9 — Living Tradition Status (correspondence, divergences, contested figures,
-  confirmation status, cross-reference)
-- Section 10 — Integrative Observation (VERBATIM FROM DOC_07 requirement stated
-  prominently; status field to confirm verbatim copy; instruction to return to Doc_07
-  before editing)
-- Section 11 — World Profile Completion Status (eleven-item checklist with
-  COMPLETE/INCOMPLETE status and outstanding items field)
-
-Formation Logic section includes the usability test note: YES — builder guidance
-states the test explicitly and instructs builders to add specificity before marking
-complete if the test fails
-
-Primary Vocabulary section includes always-present designations: YES — every term
-entry carries YES/NO designation with builder guidance on the distinction between
-always-present and retrievable terms
-
-Integrative Observation section requires verbatim copy from Doc_07: YES — stated
-prominently in bold, with instruction to return to Doc_07 before editing; status field
-included to confirm verbatim status
-
-Completion status checklist present: YES — Section 11, eleven items, with
-COMPLETE/INCOMPLETE status and outstanding items field
+  Representative handles it — 

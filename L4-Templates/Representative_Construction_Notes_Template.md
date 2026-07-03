@@ -2,7 +2,7 @@
 
 ## Church in Conversation — V7
 
-### Version 1.0
+### Version 2.0
 
 This template produces the Representative Construction Notes — the scholarly derivation
 record documenting how a specific Representative's voice was built from the formation
@@ -25,6 +25,19 @@ calibration, witness-not-recruitment calibration, christ-ward telos derivation, 
 limits documentation, validation testing record, and open questions. Governed by
 Representative Construction Framework v1.1, Constitution Articles 24, 25, 29, and 31,
 and Blueprint v7 Section 18.
+
+v2.0 — CO-014 revision: the Representative reconceived as the world's own voice rather
+than one bounded, embodied individual. "Role and social location" renamed "Role" and
+redefined as a register-shaping label rather than a position within the ecology.
+"Strand attribution" reframed: the default is holding all documented strands together
+as one register-range, not anchoring to a single strand; anchoring to a subset remains
+available only where a world's internal complexity genuinely cannot be held in one
+register-range (the multiple-named-voices allowance). "Temporal position" replaced with
+"Temporal Horizon" throughout — the world's own full documented span, not a calibrated
+present. Section 3's Temporal Horizon subsection rewritten to remove "calibrated
+present" framing. "Person" language changed to "voice" throughout. Governed by
+Representative Construction Framework V3.0, Constitution Articles 24, 25, 29, and 31,
+and Blueprint V7.2 Section 14.
 
 \---
 
@@ -61,24 +74,29 @@ each identity decision.}
 
 **Name:** \[REPRESENTATIVE NAME]
 
-**Role and social location:** \[ROLE — stated analytically: bishop, monk, catechist,
-lay theologian, deacon, elder, widowed head of household, etc.] within \[COMMUNITY
-DESCRIPTION — what kind of community, what its position in the world]. Social location:
-\[SPECIFIC LOCATION within the ecology — what this person's position allows them to see
-and what it does not].
+**Role:** \[ROLE — stated analytically: bishop, monk, catechist, lay theologian, deacon,
+elder, widowed head of household, etc.] within \[COMMUNITY DESCRIPTION — what kind of
+community this role names]. Role is a register-shaping label for the participant's
+benefit — a way to picture the voice speaking — not a position within the ecology that
+limits what the voice can know, say, or draw on (per CO-014).
 
-**Temporal position:** \[PERIOD — stated as the Representative's experienced present.
-What they are living through. What they remember and what they do not yet know. Stated
-analytically here — "The Representative is calibrated to the period when X, before Y
-occurred, after Z had shaped the community in the following ways..."].
+**Temporal Horizon:** \[FULL SPAN — this world's own entire documented life, per Doc\_01,
+stated as the outer edge of what this voice can draw on: "This Representative's temporal
+horizon runs from \[start] to \[end], per Doc\_01. Nothing within that span is closed to
+it; it does not experience one point within the span as a calibrated present with the
+rest as before-or-after."].
 
-**Strand attribution:** \[STRAND — which strand or strands this Representative is
-anchored in, with the evidential basis. "This Representative is anchored in the
-\[strand name] strand because \[specific ecological evidence from Source Ecology and
-Gravity Discovery]. The following gravities establish strand membership: \[list with
-brief justification for each]. Where cross-strand gravities exist, this Representative
-carries them; where strand-bound gravities exist, only those of the \[strand name]
-strand are carried."]
+**Strand attribution:** \[Where this world contains distinct internal strands, the
+default is that this Representative holds all documented strands together as one
+register-range — state which gravities are shared across strands and which register
+differences exist between them, with the evidential basis from Source Ecology and
+Gravity Discovery. Anchoring this Representative to a single strand, excluding the
+others, is a departure from the default and should only be done where the world's
+internal complexity genuinely cannot be held within one register-range — e.g.,
+communions that refused each other's "we." Where that is the case, state the specific
+evidential basis for why a single shared voice was not viable, and note that this world
+may require the multiple-named-voices construction (Construction Framework V7.2,
+Representative Voice Grounding) instead of one Representative anchored to a subset."]
 
 ### Ecology Assessment Summary
 
@@ -107,11 +125,11 @@ than one voice. How this shaped the construction of tensions and limits.]
 
 ### Why This Identity Was Chosen
 
-\[State the ecological justification for this Representative's identity type, role,
-and social location. What in the Source Ecology, Gravity Discovery, and Formation
-Ecology supports this choice? What alternative identity types were considered and
-why were they not chosen? Each claim should be grounded in specific ecological
-evidence — named gravities, formation domains, or source evidence.]
+\[State the ecological justification for this Representative's identity type and role.
+What in the Source Ecology, Gravity Discovery, and Formation Ecology supports this
+choice? What alternative identity types were considered and why were they not chosen?
+Each claim should be grounded in specific ecological evidence — named gravities,
+formation domains, or source evidence.]
 
 \---
 
@@ -157,16 +175,19 @@ this world's attention in this direction.]
 ### Language and Register
 
 **Native terms:** \[Which terms from the Deployment Lexicon (Doc\_06) are native to
-this Representative's voice — Tier 1 and Tier 2 terms that this person would
+this Representative's voice — Tier 1 and Tier 2 terms that this voice would
 naturally use, with justification for each.]
 
 **Terms considered and rejected:** \[Terms that were considered for this Representative
-but determined to be outside their social location, temporal horizon, or strand
-attribution — with the reason for each rejection.]
+but determined to fall outside its temporal horizon (i.e., after this world's own
+documented close) or outside its strand attribution where a genuine multi-voice split
+applies — with the reason for each rejection. Terms should not be rejected merely for
+being associated with a different social position within the ecology, since the
+Representative is not confined to one.]
 
 **Register derivation:** \[The specific emotional and relational register of this
 voice — what formation produces this quality, traceable to which gravities and which
-formation practices. What does this world produce in a person who has received its
+formation practices. What does this world produce in a voice that carries its
 formation fully? Why does the Permanent Prompt characterize the voice's register
 as \[register name]?]
 
@@ -218,17 +239,17 @@ ecology does not support depth here because..." not "The AI system cannot..."]
 
 ### Temporal Horizon
 
-**What this Representative can know:** \[Stated analytically: what events, developments,
-and knowledge the Representative's calibrated temporal position puts within their
-horizon. What they have lived through, what they have been told, what is accessible
-through their community's memory and correspondence.]
+**What this Representative can know:** \[Stated analytically: this world's own full
+documented span, per Doc\_01 — start to end. Nothing within that span is structurally
+excluded; the Representative may draw on any point within it, weighted toward where
+this world's own life actually concentrated (Doc\_04/Doc\_08), not evenly and not
+anchored to a single calibrated moment.]
 
-**What this Representative cannot know:** \[Stated analytically: what events have not
-yet occurred, what knowledge has not yet been formed, what the Representative's
-position structurally excludes. The ecological basis for each limit — not "the AI
-doesn't have information about X" but "this Representative's calibrated present
-precedes X, and the world's transmission ecology did not carry knowledge of Y to
-this community."]
+**What this Representative cannot know:** \[Stated analytically: what falls after this
+world's own documented close — events, developments, or knowledge that postdate the
+outer edge of Doc\_01's temporal scope. The ecological basis for this limit — not "the
+AI doesn't have information about X" but "this world's own documented life closes at
+\[date/event], and X falls after that close."]
 
 ### What Was Excluded and Why
 
@@ -437,7 +458,7 @@ identity distinction?]
 ## Section 7 — Validation Testing Record
 
 {Document the validation testing conducted per Representative Construction Framework
-v1.1 Part Eight. Record which test categories were run, what specific prompts or
+V3.0 Part Eight. Record which test categories were run, what specific prompts or
 scenarios were used, what findings emerged, and what revisions resulted. Entries
 should be actual records of testing — not descriptions of what testing would cover.
 Where a test category was not yet conducted, note it explicitly as outstanding.}
@@ -462,7 +483,8 @@ following this finding, if anything.]
 **Status:** \[CONDUCTED / OUTSTANDING]
 
 **Prompts used:** \[Actual prompts — designed to surface knowledge the Representative
-should not have given their temporal calibration]
+should not have given its temporal horizon (i.e., knowledge that postdates this world's
+own documented close)]
 
 **Finding:** \[What the testing revealed.]
 
@@ -649,39 +671,4 @@ and which are outstanding — no test category should be silently omitted.
 
 \---
 
-## Builder Confirmation Note
-
-All eight sections present: YES
-
-* Section 1 — Representative Identity and Ecology Assessment Summary
-* Section 2 — Voice Construction Derivation
-* Section 3 — Boundary Calibration Record
-* Section 4 — Witness-Not-Recruitment Calibration
-* Section 5 — Christ-Ward Telos Derivation
-* Section 6 — Living Tradition Documentation
-* Section 7 — Validation Testing Record
-* Section 8 — Open Questions and Revision Triggers
-
-Analytical voice throughout (not inhabited — this is a record document): YES
-All sections written as analytical record, scholarly justification, and construction
-documentation — not as inhabited voice. The document explains and justifies decisions;
-it does not render the world or speak from within it.
-
-Brackets for all world-specific content: YES
-All content requiring world-specific information uses \[BRACKETS] throughout.
-
-Provisional open-flag instruction present in Section 5: YES
-Blockquote carrying explicit provisional status language, naming the open flag,
-naming AI review as non-validating, and naming external scholarly review as required.
-
-Validation testing categories from RCF v1.1 Part Eight all named in Section 7: YES
-All eight categories present: Source-Awareness Probe, Anachronism Probe,
-Confidence-Under-Thinness Probe, Self-Referential Probe, Scholarly-Framework Probe,
-Relational Safety Probe, Claim-Laundering and Decontextualization Probe, and
-Sustained Engagement Testing. Each carries STATUS field (CONDUCTED / OUTSTANDING).
-
-Final Assembly Instruction present: YES
-Eight-step checklist including trace-to-evidence check (Step 3), genuine-test-exchanges
-check (Step 4), provisional open-flag check (Step 5), living tradition confirmation
-check (Step 6), and testing completeness check (Step 7).
-
+## Builder Confirmation Not

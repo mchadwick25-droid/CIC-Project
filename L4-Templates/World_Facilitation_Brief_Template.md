@@ -1,7 +1,7 @@
 # World Facilitation Brief
 ## [World Name]
 
-**Template version:** 1.0  
+**Template version:** 1.1  
 **World build status:** [Complete — all eight deployment outputs produced]  
 **Produced:** [Date]  
 **World:** [World name]  
@@ -17,7 +17,7 @@
 *[Quality test: read it aloud. Does it make you want to meet this voice? Does it tell you something specific about what this world is and what it offers — not what Christianity in general offers, but what THIS world offers? If it could describe any Christian tradition, it has failed. It must be specific to this world and no other.]*
 
 *[EXAMPLE — Alexandria:]*
-*Fourth-century Alexandria — a city where philosophy and Scripture have been companions for as long as anyone can remember. This is the tradition that taught the Church to think, to read, to ask what words mean and what the mind can hold. The voice here has spent decades learning to read with everything the mind can bring — and he is genuinely glad when someone arrives with a hard question. Come with something you haven't been able to think your way through. He'll meet you there.*
+*Alexandria — a city where philosophy and Scripture have been companions for as long as anyone can remember. This is the tradition that taught the Church to think, to read, to ask what words mean and what the mind can hold. The voice here has learned, across generations, to read with everything the mind can bring — and it is genuinely glad when someone arrives with a hard question. Come with something you haven't been able to think your way through. It'll meet you there.*
 
 [FILL IN — Menu Card for [World Name]:]
 
@@ -98,12 +98,12 @@
 
 ### B6 — Representative Introduction Language
 
-*[Builder instructions: Write two or three sentences the Facilitator can use or adapt when introducing this Representative to a participant at the table. This is not a biography — it is a felt sense of who is arriving. It must not break the encounter's register. It should make the participant want to meet this voice. Avoid: naming historical figures, scholarly credentials, tradition names the participant may not know. Aim for: what this person is like, what they care about, what they bring to the table.]*
+*[Builder instructions: Write two or three sentences the Facilitator can use or adapt when introducing this Representative to a participant at the table. This is not a biography — it is a felt sense of who is arriving. It must not break the encounter's register. It should make the participant want to meet this voice. Avoid: naming historical figures, scholarly credentials, tradition names the participant may not know, and any invented biography (years lived, personal history). Aim for: what this voice is like, what it cares about, what it brings to the table — name and role only, per CO-014.]*
 
 *[Quality test: could you speak these words at the beginning of a genuine encounter and have the participant feel that someone real is about to speak? Or does it sound like a book jacket? If the latter, revise.]*
 
 *[EXAMPLE — Alexandria:]*
-*There's a reader here who has spent the better part of his life with a particular question — what does it mean to read well, and what does reading well do to a person. He has strong opinions, held carefully. He is genuinely glad you came.*
+*There's a reader here who carries a particular question — what does it mean to read well, and what does reading well do to a person. Strong opinions, held carefully. Genuinely glad you came.*
 
 [FILL IN — Representative Introduction Language for [World Name]:]
 
@@ -116,7 +116,7 @@
 *[Builder instructions: What should the Facilitator be specifically aware of that is not covered above? Include: living tradition sensitivities (does this world correspond to a tradition with present-day adherents who may be affected by how it is represented?), figures of contested standing (does the Representative's formation run through figures whose historical standing is contested?), participant types who might be specifically harmed rather than served, anything unusual about this world's Representative that affects how the Facilitator manages the table. One paragraph. If there are no significant cautions, say so directly — do not manufacture cautions that do not exist.]*
 
 *[EXAMPLE — Alexandria:]*
-*This world's formation runs through Origen of Alexandria, a figure of contested standing — revered as a formative theological mind by some and condemned posthumously for his theology by others. The Facilitator should be aware that participants from certain ecclesial backgrounds may have strong prior judgments about Origen and may bring those into the encounter. The Coptic Orthodox Church traces its lineage through this world — participants from Coptic backgrounds may experience this world as their own heritage rather than a historical encounter, which requires care. The Representative's temporal position is pre-Chalcedonian — the Facilitator should be aware that Christological questions raised in the encounter will be answered from before the Council of Chalcedon, which some participants may find disorienting if they expect post-Chalcedonian formulations.*
+*This world's formation runs through Origen of Alexandria, a figure of contested standing — revered as a formative theological mind by some and condemned posthumously for his theology by others. The Facilitator should be aware that participants from certain ecclesial backgrounds may have strong prior judgments about Origen and may bring those into the encounter. The Coptic Orthodox Church traces its lineage through this world — participants from Coptic backgrounds may experience this world as their own heritage rather than a historical encounter, which requires care. This world's own documented life closes before the Council of Chalcedon — the Facilitator should be aware that Christological questions raised in the encounter will be answered from within that pre-Chalcedonian horizon, which some participants may find disorienting if they expect post-Chalcedonian formulations.*
 
 [FILL IN — Cautions for [World Name]:]
 
@@ -135,7 +135,7 @@
 - [ ] B3 Formation Limitations is honest — does not minimize genuine thin areas
 - [ ] B4 covers all four participant roles specifically
 - [ ] B5 is honest about what is speculative versus evidenced
-- [ ] B6 Representative Introduction Language passes the quality test — real person arriving, not book jacket
+- [ ] B6 Representative Introduction Language passes the quality test — a real voice arriving, not book jacket, name and role only (no invented biography), first-person-plural if directly quoted
 - [ ] B7 Cautions names living tradition sensitivities and contested figures if applicable
 - [ ] No Section B content uses vocabulary or framing that would be visible to participants
 - [ ] The document is specific to this world — no sentence could be copied to a different world's brief unchanged
@@ -154,6 +154,4 @@
 
 **Length:** Section A is three to five sentences. Each B section element is one paragraph. The complete brief for any world should not exceed two pages.
 
-**File naming:** [WorldName]_Facilitation_Brief_v1_0.md — example: Alexandria_Facilitation_Brief_v1_0.md
-
-**Where this file lives:** In the world's deployment package folder, alongside the seven other deployment outputs.
+**File naming:** [WorldName]_Facilitation_Brief_v1_0.md — example: Alexandria_Facil
