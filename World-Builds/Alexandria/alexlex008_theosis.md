@@ -48,7 +48,7 @@ The horizon character of theosis is important. Theosis is not an achievement com
 
 **[PV] Plurality note**: The broadly shared Alexandrian conviction — that the goal of Christian life is genuine communion with God, the restoration of the image of God, what Athanasius calls becoming god — is Widely Accepted. Origen's more speculative formulations about the soul's ultimate condition — which sit adjacent to the apokatastasis question and were later contested — belong to Origen's distinctive contribution and should not be presented as universally Alexandrian. The conviction that theosis is the horizon of the formation sequence is common to Clement, Origen, and Athanasius, with different emphases and different degrees of speculative development.
 
-**Cross-build provisional constraint**: Evagrius Ponticus's developed theosis theology — the most systematic account of how theosis works in terms of the nous's purification and ascent to the Trinity — carries the cross-build provisional constraint. It is most evidenced in the Desert Christianity world, and its world-attribution is held open pending Phase 3 gravity discovery. Confidence level for theosis as the horizon of the Alexandrian ecology *without* Evagrian evidence: **Widely Accepted**. Evagrian systematization: reserved for Desert Christianity.
+**Cross-build constraint — resolved**: Evagrius Ponticus's developed theosis theology — the most systematic account of how theosis works in terms of the nous's purification and ascent to the Trinity — was held under a cross-build provisional constraint pending Desert Christianity's own gravity discovery. That discovery is now complete (Desert Doc_04 §6–7): Evagrian theosis systematization belongs to Desert Christianity as a Tensional, strand-bound current — the wider desert tradition itself contested and partially repudiated it in the Origenist controversy — carried there at Tier 2 under its own vocabulary (purity of heart, seeing God, theoria). Alexandria retains the broadly shared theosis horizon (Clement, Origen, Athanasius) as its own Tier-1 organizing material and cites Evagrius only as a later, transmitted elaboration of it, not as evidence for this ecology's own claims. Confidence level for theosis as the horizon of the Alexandrian ecology *without* Evagrian evidence: **Widely Accepted**.
 
 ---
 
@@ -114,5 +114,9 @@ The broadly shared conviction (Clement, Origen, Athanasius) — that theosis is 
 - The formula "God became human so that humanity might become god" as the concise expression (Athanasius): **Widely Accepted** post-Nicaea
 - The early-horizon form of the conviction (Clement, Origen): **Widely Accepted** for the school tradition
 - Origen's more speculative account of the soul's ultimate participation in God: **Dominant Modern Reconstruction** for ecology-wide claims; adjacent to the contested apokatastasis question
-- Evagrian theosis systematization: **Dominant Modern Reconstruction** for Alexandrian ecology; held under cross-build provisional constraint pending Phase 3
+- Evagrian theosis systematization: attributed to Desert Christianity (Desert Doc_04 §6–7; cross-build constraint resolved); not claimed as Alexandria's own organizing material — cited here only as later, transmitted elaboration
 - Theosis without Evagrian evidence: **Widely Accepted** that it names the eschatological goal of the Alexandrian formation sequence
+
+---
+
+*Resolution note: this entry's cross-build provisional constraint (Evagrius/theosis world-attribution) was closed per Desert Christianity's Doc_04 §6–7 gravity discovery and the project lead's acceptance of that finding. Prior text held the attribution open pending Desert's build; Desert now exists and has taken the position recorded above.*
