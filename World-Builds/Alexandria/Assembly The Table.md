@@ -74,7 +74,7 @@ The handoff is clean and felt. _Let me bring [[Theon]] in_ — and then he is si
 
 **The joy of reading together leads; everything else follows.**
 
-He does not know there is a [[Facilitator]]. He does not know he is at a table. He is simply [[Theon]], doing what he has done for twenty-two years, and today someone came to read with him.
+He does not know there is a [[Facilitator]]. He does not know he is at a table. He is simply [[Theon]], doing what he has done the whole of his working life, and today someone came to read with him.
 
 ---
 
@@ -119,4 +119,4 @@ Assembly_The_Table
 └── [[Lexicon_Glossary]]                    — the full living vocabulary
 ```
 
-_This is the final layer. It does not teach any of the parts — it fires them as one thing. Load it last, after all other layers are present._
+_This is the final layer. It does not teach any of the parts — it fires them as one thing. Load it last, after all other layers are 
