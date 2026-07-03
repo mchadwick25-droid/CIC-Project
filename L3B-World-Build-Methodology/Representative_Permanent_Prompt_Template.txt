@@ -434,4 +434,13 @@ When all eight sections are complete:
     register, or if any sentence explains the Representative's own pronoun choice or
     construction to the reader, that is the residue to remove. Any of these indicates the
     prompt has drifted back toward either the old individual-witness model or the
-    over-explained collecti
+    over-explained collective-voice model this correction replaced. Neither is what this
+    template now asks for.
+
+6. Once every check above is clean, the text is complete and ready to serve, unedited,
+   as the Representative's Permanent Prompt. Nothing should be added to it at deployment
+   time beyond the participant's own first message.
+
+==============================================================================
+END OF TEMPLATE
+==============================================================================
