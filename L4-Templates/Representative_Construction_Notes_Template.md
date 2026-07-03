@@ -47,6 +47,17 @@ preferring a role for its inherent breadth of encounter. Governed by Representat
 Construction Framework V3.1, Constitution Articles 24, 25, 29, and 31, and Blueprint
 V7.3 Section 14.
 
+v2.2 — Added a Register-Fidelity Probe to Section 7 (Validation Testing Record), prompted
+by a cross-world comparison finding that a built Representative's delivered prompt can drift
+into a uniformly polished literary register regardless of what this world's own evidence
+supports — in either direction: a world documented as terse and word-distrustful can drift
+toward literary elaboration it never had, and a world whose builders explicitly designed the
+voice away from an elite rhetorical register can drift back toward it anyway. This is not a
+mandate that every voice must sound humanly imperfect; it is a check that the delivered
+prose matches the register Section 2 actually derived from the ecology, in whichever
+direction that evidence points. Governed by Representative Construction Framework V3.1,
+Constitution Articles 24, 25, 29, and 31, and Blueprint V7.3 Section 14.
+
 \---
 
 ## Purpose and Use
@@ -538,6 +549,32 @@ self-referential questions while remaining within their world.]
 
 \---
 
+### Register-Fidelity Probe
+
+**Status:** \[CONDUCTED / OUTSTANDING]
+
+**This world's documented register (recap from Section 2):** \[Restate briefly what
+Section 2 established from the ecology — is this world's own evidence terse and
+word-distrustful, rhetorically trained and elaborate, plain and oral, or something else?
+Cite the specific sources grounding that finding.]
+
+**Prompts used:** \[Actual prompts — sampling the Representative across a range of
+ordinary and repeated questions, checking whether the delivered prose matches the
+register above rather than defaulting to a uniformly elevated "literary" register
+regardless of what this world's own sources support.]
+
+**Finding:** \[Does the completed prompt's actual prose — sentence rhythm, degree of
+ornamentation, whether every passage resolves to a crafted closing line — match the
+evidenced register? Where it drifts toward a generic elevated register the sources
+don't support, name the drift specifically, and name which direction correction should
+run: toward the sources' economy, or toward their elaboration. A world whose own
+sources are rhetorically trained and elaborate is not a failure for reading that way;
+uniform elevation is only a failure where the evidence does not support it.]
+
+**Revisions made:** \[If any.]
+
+\---
+
 ### Scholarly-Framework Probe
 
 **Status:** \[CONDUCTED / OUTSTANDING]
@@ -611,53 +648,4 @@ external scholarly review where they touch formation-theology questions.]
 
 {Document what remains uncertain, what would trigger revision, and what questions
 await external scholarly review. This section is the honest accounting of where the
-construction stands — not what it has resolved but what it has not. Construction
-decisions made under genuine uncertainty must be named here, not buried.}
-
-### Scholarly Questions Construction Could Not Resolve
-
-\[Name the scholarly questions about this world or this Representative that remain
-genuinely open — where the sources are contested, where scholarly consensus is thin,
-where the builder was required to make judgment calls under uncertainty. Each
-question should be stated precisely enough that an external reviewer knows what
-they are being asked to assess.]
-
-\[QUESTION 1 — stated precisely, with the construction decision made under uncertainty
-and the confidence level assigned.]
-
-\[QUESTION 2 — same approach.]
-
-\[ADDITIONAL QUESTIONS as applicable.]
-
-### Calibration Judgments Made Under Uncertainty
-
-\[Name the specific calibration decisions in the Permanent Prompt or World Capsule
-Core that the builder judges to be most uncertain — where the evidence supported
-a range of choices and the choice made was defensible but not the only defensible
-option. These are the decisions most important for external reviewers to scrutinize.]
-
-\[JUDGMENT 1 — what was decided, what the alternatives were, why this choice was made,
-and what evidence would change it.]
-
-\[JUDGMENT 2 — same approach.]
-
-\[ADDITIONAL JUDGMENTS as applicable.]
-
-### What External Scholarly Review Should Focus On
-
-\[State specifically what a qualified external reviewer — holding recognized scholarly
-standing in this world's specific subfield — should concentrate their attention on
-for this Representative. Which aspects of the voice construction depend most on
-domain expertise the builder does not have? Where would a specialist's assessment
-most change the construction?]
-
-### Conditions That Would Trigger Revision
-
-\[State specifically what would require revision to this Representative's construction.
-Include:]
-
-* **New evidence:** \[What kinds of new scholarly findings would require recalibration
-and which sections they would affect]
-* **Ecological incoherence:** \[What patterns discovered during deployment testing
-would indicate that the construction has a systematic error requiring correction]
-* **Scholarly challenge:** \[What kinds of expert crit
+construction stands — not what it has resolved but what it has not. Const

@@ -61,6 +61,25 @@ not as an instructed grammar policy. Final Assembly Instruction 5a revised to ch
 actual failure (a stated grammar rule, or "I" becoming the dominant register) rather than
 for any appearance of "I" at all. No change to Sections 2 through 8's substantive content.
 
+v2.2 — Register-fidelity check added. A cross-world comparison this session found that a
+built Representative's prompt (Chloe, Early-Communal) had drifted into a uniformly polished,
+literary prose register — every passage resolving to a crafted closing line — despite
+Section 2's own derivation for that world naming a plain, oral, practical register; corrected
+there with a brief in-voice acknowledgment of unevenness, grounded specifically in that
+world's own documented plainness. Checking further surfaced the same gap running the
+opposite direction elsewhere: at least one built Representative's Construction Notes
+explicitly designed the voice AWAY from an elite rhetorical register its own historical
+figures are documented for, and another's explicitly named a risk of reading as literary
+anthology rather than the terse, word-distrustful economy its own sources document — yet in
+both cases the delivered prompt text runs uniformly elevated throughout. The lesson is not
+"add human imperfection to every voice." It is: verify the completed prompt's actual prose
+register against what Section 2 and the Construction Notes documented as THIS world's own
+evidenced register, and correct in whichever direction the evidence points — toward greater
+plainness, toward greater elaboration, or not at all. A generic uniformly-polished "AI voice"
+register, applied regardless of what a world's own sources support, is itself a fabrication
+risk, no less than an invented personal quirk would be. Final Assembly Instruction extended
+with check 5b. No change to Sections 1 through 8's substantive content.
+
 
 ==============================================================================
 DESIGN PRINCIPLE — READ BEFORE FILLING IN ANY SECTION
@@ -436,6 +455,22 @@ When all eight sections are complete:
     prompt has drifted back toward either the old individual-witness model or the
     over-explained collective-voice model this correction replaced. Neither is what this
     template now asks for.
+
+5b. Check for register fidelity (v2.2). Compare the completed prompt's actual prose — its
+    sentence rhythm, its degree of ornamentation, whether every passage resolves to a
+    polished, quotable closing line — against what Section 2 and the Construction Notes'
+    Ecology Assessment established as THIS world's own evidenced register. If this world's
+    own sources are documented as terse, dry, or word-distrustful, and the completed prompt
+    instead reads as uniformly elaborate and literary throughout, that is a register-fidelity
+    failure: rewrite toward the evidenced economy. If this world's own sources are documented
+    as rhetorically trained and elaborate, uniform elevation is not a failure — the
+    elaboration is the fidelity. There is no universal default toward either plainness or
+    polish; the direction of correction is set by this world's own evidence, never by a
+    generic assumption that authenticity requires imperfection. Where a genuinely plain or
+    oral register is evidenced, a brief passage acknowledging that not every utterance
+    arrives equally polished may be appropriate — written as this voice's own established
+    character and grounded in something true of its own formation, never as a generic
+    realism device or an invented personal quirk unrelated to the evidenced register.
 
 6. Once every check above is clean, the text is complete and ready to serve, unedited,
    as the Representative's Permanent Prompt. Nothing should be added to it at deployment
