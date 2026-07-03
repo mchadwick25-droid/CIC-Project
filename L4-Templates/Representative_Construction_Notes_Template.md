@@ -648,4 +648,119 @@ external scholarly review where they touch formation-theology questions.]
 
 {Document what remains uncertain, what would trigger revision, and what questions
 await external scholarly review. This section is the honest accounting of where the
-construction stands — not what it has resolved but what it has not. Const
+construction stands — not what it has resolved but what it has not. Construction
+decisions made under genuine uncertainty must be named here, not buried.}
+
+### Scholarly Questions Construction Could Not Resolve
+
+\[Name the scholarly questions about this world or this Representative that remain
+genuinely open — where the sources are contested, where scholarly consensus is thin,
+where the builder was required to make judgment calls under uncertainty. Each
+question should be stated precisely enough that an external reviewer knows what
+they are being asked to assess.]
+
+\[QUESTION 1 — stated precisely, with the construction decision made under uncertainty
+and the confidence level assigned.]
+
+\[QUESTION 2 — same approach.]
+
+\[ADDITIONAL QUESTIONS as applicable.]
+
+### Calibration Judgments Made Under Uncertainty
+
+\[Name the specific calibration decisions in the Permanent Prompt or World Capsule
+Core that the builder judges to be most uncertain — where the evidence supported
+a range of choices and the choice made was defensible but not the only defensible
+option. These are the decisions most important for external reviewers to scrutinize.]
+
+\[JUDGMENT 1 — what was decided, what the alternatives were, why this choice was made,
+and what evidence would change it.]
+
+\[JUDGMENT 2 — same approach.]
+
+\[ADDITIONAL JUDGMENTS as applicable.]
+
+### What External Scholarly Review Should Focus On
+
+\[State specifically what a qualified external reviewer — holding recognized scholarly
+standing in this world's specific subfield — should concentrate their attention on
+for this Representative. Which aspects of the voice construction depend most on
+domain expertise the builder does not have? Where would a specialist's assessment
+most change the construction?]
+
+### Conditions That Would Trigger Revision
+
+\[State specifically what would require revision to this Representative's construction.
+Include:]
+
+* **New evidence:** \[What kinds of new scholarly findings would require recalibration
+and which sections they would affect]
+* **Ecological incoherence:** \[What patterns discovered during deployment testing
+would indicate that the construction has a systematic error requiring correction]
+* **Scholarly challenge:** \[What kinds of expert critique, if sustained, would require
+revision to specific sections]
+* **External review findings:** \[What the forthcoming external scholarly review might
+find that would trigger revision to the telos derivation, the boundary calibration,
+or the living tradition handling]
+
+\---
+
+## Final Assembly Instruction
+
+When all eight sections are complete:
+
+1. Replace all \[BRACKETS] with world-specific content throughout.
+2. Remove all builder notes in {curly braces}.
+3. Confirm that every voice construction decision in Section 2 traces to specific
+ecological evidence — a document citation, a named gravity, a specific source.
+No assertion in the construction record should be ungrounded.
+4. Confirm that Section 4 test exchanges are genuine — derived from actual testing
+conducted during construction, not invented to illustrate the principle.
+5. Confirm that Section 5 carries the provisional open-flag text verbatim and that
+the telos derivation is traced to specific ecological evidence.
+6. Confirm that Section 6 Living Tradition Status Confirmation is completed or
+explicitly marked pending with what is outstanding stated.
+7. Confirm that Section 7 accurately records which test categories were conducted
+and which are outstanding — no test category should be silently omitted, and the
+Register-Fidelity Probe states this world's documented register explicitly rather
+than leaving it as an unfilled bracket.
+8. Save as \[world-code]*Representative\_Construction\_Notes*\[Name].md
+
+\---
+
+## Builder Confirmation Note
+
+All eight sections present: YES
+
+* Section 1 — Representative Identity and Ecology Assessment Summary
+* Section 2 — Voice Construction Derivation
+* Section 3 — Boundary Calibration Record
+* Section 4 — Witness-Not-Recruitment Calibration
+* Section 5 — Christ-Ward Telos Derivation
+* Section 6 — Living Tradition Documentation
+* Section 7 — Validation Testing Record
+* Section 8 — Open Questions and Revision Triggers
+
+Analytical voice throughout (not inhabited — this is a record document): YES
+All sections written as analytical record, scholarly justification, and construction
+documentation — not as inhabited voice. The document explains and justifies decisions;
+it does not render the world or speak from within it.
+
+Brackets for all world-specific content: YES
+All content requiring world-specific information uses \[BRACKETS] throughout.
+
+Provisional open-flag instruction present in Section 5: YES
+Blockquote carrying explicit provisional status language, naming the open flag,
+naming AI review as non-validating, and naming external scholarly review as required.
+
+Validation testing categories from RCF v1.1 Part Eight all named in Section 7: YES
+All eight categories present: Source-Awareness Probe, Anachronism Probe,
+Confidence-Under-Thinness Probe, Self-Referential Probe, Register-Fidelity Probe (added
+v2.2), Scholarly-Framework Probe, Relational Safety Probe, Claim-Laundering and
+Decontextualization Probe, and Sustained Engagement Testing. Each carries STATUS field
+(CONDUCTED / OUTSTANDING).
+
+Final Assembly Instruction present: YES
+Eight-step checklist including trace-to-evidence check (Step 3), genuine-test-exchanges
+check (Step 4), provisional open-flag check (Step 5), living tradition confirmation
+check (Step 6), and testing completeness check (Step 7).
