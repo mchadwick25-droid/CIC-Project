@@ -2,7 +2,7 @@
 
 ## Church in Conversation — V7
 
-### Version 2.0
+### Version 2.1
 
 This template produces the Representative Construction Notes — the scholarly derivation
 record documenting how a specific Representative's voice was built from the formation
@@ -39,6 +39,14 @@ present" framing. "Person" language changed to "voice" throughout. Governed by
 Representative Construction Framework V3.0, Constitution Articles 24, 25, 29, and 31,
 and Blueprint V7.2 Section 14.
 
+v2.1 — Added documentation prompts for two new preference criteria (per RCF V3.1 Identity
+Determination): naming rationale now asks builders to confirm groundedness was equal
+across options considered before preferring one for modern connectability; role
+rationale now asks builders to confirm no biographical detail was invented when
+preferring a role for its inherent breadth of encounter. Governed by Representative
+Construction Framework V3.1, Constitution Articles 24, 25, 29, and 31, and Blueprint
+V7.3 Section 14.
+
 \---
 
 ## Purpose and Use
@@ -72,13 +80,23 @@ each identity decision.}
 
 ### Representative Identity
 
-**Name:** \[REPRESENTATIVE NAME]
+**Name:** \[REPRESENTATIVE NAME]. **Naming rationale:** \[State the ecological grounding
+— which naming conventions or documented figures this name draws on. Where more than one
+grounded option existed, state which was preferred for being more readily heard,
+connected with, and remembered by a modern participant, and confirm groundedness was
+equal across the options considered (per RCF V3.1 Identity Determination). If modern
+connectability was not a deciding factor, say so.]
 
 **Role:** \[ROLE — stated analytically: bishop, monk, catechist, lay theologian, deacon,
 elder, widowed head of household, etc.] within \[COMMUNITY DESCRIPTION — what kind of
 community this role names]. Role is a register-shaping label for the participant's
 benefit — a way to picture the voice speaking — not a position within the ecology that
-limits what the voice can know, say, or draw on (per CO-014).
+limits what the voice can know, say, or draw on (per CO-014). **Role rationale:** \[Where
+the ecology supported more than one role, state which was preferred for naturally
+carrying contact with many people and situations — wide pastoral reach, a crossroads
+position — over a comparatively isolated one (per RCF V3.1 Identity Determination), and
+confirm no biographical detail was invented to establish this breadth. If breadth-of-
+encounter was not a deciding factor, say so.]
 
 **Temporal Horizon:** \[FULL SPAN — this world's own entire documented life, per Doc\_01,
 stated as the outer edge of what this voice can draw on: "This Representative's temporal
@@ -642,33 +660,4 @@ Include:]
 and which sections they would affect]
 * **Ecological incoherence:** \[What patterns discovered during deployment testing
 would indicate that the construction has a systematic error requiring correction]
-* **Scholarly challenge:** \[What kinds of expert critique, if sustained, would require
-revision to specific sections]
-* **External review findings:** \[What the forthcoming external scholarly review might
-find that would trigger revision to the telos derivation, the boundary calibration,
-or the living tradition handling]
-
-\---
-
-## Final Assembly Instruction
-
-When all eight sections are complete:
-
-1. Replace all \[BRACKETS] with world-specific content throughout.
-2. Remove all builder notes in {curly braces}.
-3. Confirm that every voice construction decision in Section 2 traces to specific
-ecological evidence — a document citation, a named gravity, a specific source.
-No assertion in the construction record should be ungrounded.
-4. Confirm that Section 4 test exchanges are genuine — derived from actual testing
-conducted during construction, not invented to illustrate the principle.
-5. Confirm that Section 5 carries the provisional open-flag text verbatim and that
-the telos derivation is traced to specific ecological evidence.
-6. Confirm that Section 6 Living Tradition Status Confirmation is completed or
-explicitly marked pending with what is outstanding stated.
-7. Confirm that Section 7 accurately records which test categories were conducted
-and which are outstanding — no test category should be silently omitted.
-8. Save as \[world-code]*Representative\_Construction\_Notes*\[Name].md
-
-\---
-
-## Builder Confirmation Not
+* **Scholarly challenge:** \[What kinds of expert crit
