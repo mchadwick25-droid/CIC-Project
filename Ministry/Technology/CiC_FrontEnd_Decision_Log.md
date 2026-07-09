@@ -177,3 +177,91 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 **Next action:** none pending. Future threads should check the Engineering Considerations Catalog before re-deriving this kind of judgment from scratch.
 
 ---
+
+## 2026-07-08 — Design Brief corrected: Academic Documents governance caveat restored, Alpha-scope clarified, Facilitator-orchestration question flagged as genuinely open
+
+**Context:** A detailed review of `CiC_FrontEnd_Design_Brief_V1_0.docx` (the one-to-two-page brief for the engineer) identified two substantive accuracy problems, not stylistic ones. Both were verified against source documents before any edit was made.
+
+**Fix 1 — Academic Documents overstated as settled.** The brief had described Academic Documents as a future paid-tier feature alongside Tours and sermon-prep, full stop — no caveat. The 2026-07-07 entry above calls Academic Documents "the genuinely gray case": gating it is defensible, but it sits close enough to Article 30's always-free-and-reachable transparency guarantee that it needs an explicit, named constitutional carve-out before being built that way — a carve-out that hasn't been made. The brief's funding paragraph now states this directly: Academic Documents' gating is an open governance dependency, not a settled product decision, and should be treated that way by whoever builds it.
+
+**Fix 2 — Alpha vs. Phase 1 scope was undifferentiated.** The Functional Requirements section described the full system (five Representatives, three equal-weighted entry paths, full Facilitator orchestration) without saying which parts Alpha actually needs, against Mark's own Alpha philosophy ("smallest possible thing that lets a real person talk to a Representative"). Checked against the actual governing document, not assumed: Table Design Document Section 11 confirms Alpha = 1–3 worlds with Bypass entry only and basic role selection; the full three-pathway portal (including world browsing) isn't delivered until Phase 1, with Beta still excluding it. The entry-state requirement in the brief now states this phase split explicitly, with a citation to Section 11.
+
+**Genuinely open, not resolved — flagged in the document rather than guessed at:** Table Design Document Section 11 confirms entry-pathway scope but is silent on whether full multi-Representative Facilitator orchestration (turn-taking across concurrent Representatives, cross-world drift monitoring) is required at Alpha or can be deferred to Beta. This materially affects Alpha engineering scope. Added as an explicit open-scope note in the brief, immediately before the Build Order table, rather than resolved unilaterally — this is Mark's call, and the reviewer was right that it could change engineering estimates.
+
+**Verification:** claim 1 checked directly against this log's 2026-07-07 entry; claim 2 checked against `CiC_FrontEnd_Strategy_Scoping_2026-07-07.md` and against Table Design Document Section 11 itself (read across all four copies on disk — main, both worktrees, Syriac-Build — confirmed byte-identical, so no version drift risk).
+
+**Next action:** Mark to decide whether Facilitator orchestration is in scope for Alpha or deferred to Beta — the one open question the brief could not resolve from existing governing documents.
+
+---
+
+## 2026-07-08 — One-page Design Brief produced; landing-page hero resolved: the Facilitator is present, not an empty Table
+
+**Produced:** `CiC_FrontEnd_Design_Brief_V1_0.docx` — a one-page distillation of the Experience Vision and Vision & Phased Plan, written to hand directly to the engineer so he can start designing without reading the full spec set. Covers: what this is, the governing feeling, the one rule, the experience compressed into five bullets, the build-order table, and the constraints worth knowing before starting (five-Representative ceiling, text as permanently load-bearing, build the seams not the features).
+
+**Resolved — the landing-page hero, previously logged provisional:** the 2026-07-07 entry on the landing page described "an evocative, not-yet-populated version of the Table — empty or waiting seats... no specific Representatives visible" and flagged it pending Mark's confirmation. Mark corrected this directly: the Table at entry is not empty — the Facilitator is there, the one figure present, to greet the participant and offer the three entry choices. This isn't a new decision so much as a completion of the original one: "no Representatives yet" was always true, but it read as "no one yet," which wasn't intended. The Facilitator's presence at the threshold is consistent with its role everywhere else in the design (neutral host, the one voice a visitor can address before committing to anything, "Ask the Facilitator") — it would have been an odd gap for it to be the one place the Facilitator isn't visually present.
+
+**Applied:** the Design Brief's Landing bullet now reads accordingly. Not yet propagated to the fuller Experience Vision document (still not updated with this or the several other post-creation decisions logged above — World Map, Academic Documents, funding model, Article 30 boundary — same open gap noted repeatedly in this log).
+
+**Next action:** none blocking. Worth folding into the Experience Vision doc's own landing-page section next time that document is revised.
+
+---
+
+## 2026-07-08 — Design Brief extended to two pages: "Where This Is Headed (So You Don't Build a Trap)"
+
+**Decided:** Mark explicitly waived the one-page constraint to add long-term-vision context for the engineer — reasoning stated directly: without it, Phase 1 gets built as if it's the whole product, and something in it becomes a trap. Added a new section between Build Order and Design Constraints covering, in narrative form, everything the Build Order table doesn't show: the eventual 50–100 world catalog and the World Map timeline it needs, the four-option world-click menu (Description/Tour/Choose for Table/Academic Documents), Academic Documents as a future standalone feature distinct from the in-conversation hover/click, Tours, maturing voice, and the funding shape (free core permanently, a possible paid pastor/academic tier on top).
+
+**The concrete payoff, not just narrative:** a seven-row table — "Build this seam now (cheap)" against "Because this needs it eventually (expensive to retrofit)" — translating the Engineering Considerations Catalog directly into engineer-facing guidance: world data fields, retrieval behind a clean interface, the four-option menu built disabled rather than added later, a role/entitlement field, the real voice pipeline, content versioning, and a written logging/privacy policy before Alpha testing starts. This is the same seven-ish items from the Catalog, translated from "why it matters" into "build it this way," which is what an engineer actually needs at the point of building rather than a reference document to go read separately.
+
+**Reasoning:** Kept the seam table separate from prose so it functions as a checklist an engineer can actually work against, not just context to have read once. Trimmed the old "build the seams" bullet under Design Constraints to a pointer rather than deleting it outright, so the constraints section still names it without duplicating the fuller explanation above.
+
+**Next action:** none blocking. The doc is now two pages by design, not by accident — Mark should treat any further additions as a deliberate length trade-off, same as this one.
+
+---
+
+## 2026-07-08 — Design Brief reworded for an experienced-engineer audience
+
+**Decided:** Mark's own phrase "so you don't build a trap" was informal shorthand from our conversation, not the register he wanted in the document itself. Reworded the Roadmap Context section, the seam table, and the Design Constraints bullets throughout: the section title became "Roadmap Context — Forward-Compatibility Requirements"; the seam table's two columns became "Requirement (Phase 1)" and "Forward-Compatibility Rationale," with every row rewritten as an explicit implementation requirement paired with its rationale, rather than descriptive prose; the constraints bullets were tightened to name the actual enforcement point ("enforce it explicitly in session/state logic," "non-functional requirements alongside the functional spec") instead of conversational framing like "full stop" and "hard ceiling."
+
+**What was deliberately left alone:** the experience-description sections (What This Is, The Feeling We're Building Toward, The One Rule, The Experience Compressed) — those are product/UX description meant to convey feel to whoever builds this, and an evocative register is doing real work there, not a lapse in precision. The register change was scoped to the sections giving the engineer direct implementation guidance, where imprecision has a real cost.
+
+**Reasoning:** A design brief that describes intent in engineer-precise language is more likely to be read as a requirements document and actually followed, rather than as color commentary the reader skims past. Worth naming as a general pattern for any future engineering-facing document produced in this workstream — vision/experience sections can stay evocative, requirement sections should read like requirements.
+
+**Next action:** none blocking.
+
+---
+
+## 2026-07-08 — Section order corrected to a big-to-little flow; table row-splitting fixed
+
+**Decided:** Mark asked directly whether the document's order was a natural flow. It wasn't: What This Is → Feeling → One Rule → Experience Compressed → Build Order → Roadmap Context → Constraints put the near-term Phase 1 build order immediately before a jump out to the 50–100-world long-term picture, then back into specifics — a zigzag rather than a single trajectory. Reordered to context-first: What This Is → The Feeling → The One Rule → Roadmap Context (with its requirements table) → The Experience, Compressed → Build Order → Design Constraints. Every section is now more concrete than the one before it, so nothing the engineer is asked to build in the near term is read before he has the full scope envelope it needs to fit inside.
+
+**Reasoning:** This matches how technical specs are conventionally structured for an engineering reader — context and goals before detailed design — precisely because the whole point of the Roadmap Context section is to shape how the near-term work gets built. Reading it last, as originally ordered, would have let the reader form a mental model of the architecture before encountering the constraints meant to inform it.
+
+**Also fixed while rebuilding:** the seam table's last row was splitting mid-sentence across the page 1/2 boundary. Added `cantSplit` to table rows in the docx-js build so a row now moves to the next page whole rather than breaking across it, with the header repeating above it — same fix belongs in any future table-heavy document built with this pipeline.
+
+**Next action:** none blocking.
+
+---
+
+## 2026-07-08 — Terminology correction: "engaging conversation," not argument or debate
+
+**Decided:** Mark rejected the "argument as affection rather than combat" framing under The Feeling We're Building Toward — his own words: "it's not a theological debate or an exegetical argument, its healthy, deep insightful, challenging, stretching, resonating conversations (thus the name), summed up in 'engaging conversation.'" The Inklings image stays (the setting still communicates unhurried, communal, close-to-the-ground), but the verb changed from Lewis and Tolkien "arguing" to "meeting," and the description changed from "argument as affection rather than combat" to an explicit definition: not a theological debate or an exegetical argument, but engaging conversation — healthy, deep, insightful, challenging, stretching, resonating. Added "The name is deliberate" to tie the phrase directly back to the project's own name, "The Church in Conversation."
+
+**Why this matters beyond word choice:** "argument," "debate," and "combat" carry a winner/loser, position-defending connotation that cuts against Witness-Not-Recruitment (Article 24) and the project's own stated failure modes (ideological persuasion, generated panel entertainment). "Engaging conversation" — challenging and stretching without needing a winner — is the more accurate description of what this project is actually for, not just a softer synonym.
+
+**Propagation gap, not yet fixed:** the same "argument as affection rather than combat" phrasing exists in `CiC_FrontEnd_Experience_Vision_V1_0.docx` ("Inklings image: unhurried conversation, argument as a form of affection rather than combat, people who trust each other enough to disagree hard..."). Not corrected there yet — same standing gap already noted several times in this log (the Experience Vision doc lags behind decisions made after its creation). Worth a full pass next time that document is revised, this correction included.
+
+**Next action:** none blocking on the Design Brief. Carry this correction into the Experience Vision doc whenever it's next revised.
+
+---
+
+## 2026-07-08 — Full document reworded for an engineer audience, not just the Roadmap Context section
+
+**Decided:** Mark asked for the whole document to speak to an engineer, extending the earlier register fix beyond the sections it was originally scoped to. Reworded every remaining section: "What This Is" became "System Overview," rewritten as a functional description of the session/agent/orchestration model rather than narrative description of a participant's experience. "The Feeling We're Building Toward" became "Design Intent" — same content (the Inklings reference, "engaging conversation," the name being deliberate), reframed as a design-tone requirement rather than a mood-setting passage. "The One Rule Underneath Everything" became "Governing Content Rule," stated as a global invariant. "The Experience, Compressed" became "Functional Requirements — Core Experience," with each bullet rewritten from descriptive prose ("Landing: an evocative Table...") into an implementation-oriented requirement (entry states, rendering behavior, data sources, interaction patterns). "Design Constraints Worth Knowing Before You Start" tightened to "Constraints." Also caught and fixed two remaining casual words in the Roadmap Context prose ("is real at Phase 1" → "is implemented at Phase 1," "first pass voice matures" → "is expected to be superseded by").
+
+**What didn't change:** every fact, requirement, and number in the document is unchanged — this was a register pass, not a content revision. The Inklings reference and "engaging conversation" language survive intact inside Design Intent, reframed as what tone the implementation should target rather than as atmosphere-setting for its own sake.
+
+**Reasoning:** A document meant to be read and acted on by an engineer should read like a requirements document throughout, not only in the sections added most recently — mixing an engineering register with a narrative one in the same document reads as inconsistent and makes it unclear which parts are binding. This is a genuine content-vs-register question worth remembering: the same underlying decisions can be expressed as either narrative (for Mark's own thinking, or the fuller Experience Vision document) or requirements (for an engineer), and this document should now consistently be the latter.
+
+**Next action:** none blocking. Worth treating the fuller Experience Vision and Vision & Phased Plan documents as intentionally narrative-register — this Design Brief is now the one requirements-register artifact in the set, and the two registers shouldn't be blended going forward.
+
+---

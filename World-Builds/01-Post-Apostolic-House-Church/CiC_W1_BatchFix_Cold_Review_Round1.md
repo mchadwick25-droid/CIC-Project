@@ -1,0 +1,147 @@
+# Cold, Independent Review — Batch Fix (Six Remaining Validation & Testing Findings)
+
+## World #1: Post-Apostolic/Sub-Apostolic House-Church Christianity (`pahc`)
+
+**Reviewer stance:** Dispatched cold, with zero visibility into how this batch was drafted. Every claim below was checked directly against the current text of the five documents in scope (Doc_01, Doc_02, Doc_07, Doc_08, World Profile), plus direct spot-checks against Doc_04, Doc_05, and Doc_09 where the batch's own citations pointed there (these three are not in this review's primary file list but are present in the project directory and were read directly to verify sourcing claims — this is disclosed, not assumed as authorization). The Worship Integration/baptism finding was not re-reviewed, per instructions.
+
+**Files read in full:** `CiC_W1_Doc01_World_Identification_FINAL.md`, `CiC_W1_Doc02_Source_Ecology_FINAL.md`, `CiC_W1_Doc07_Integrated_Ecology_Analysis_FINAL.md`, `CiC_W1_Doc08_Forces_Document.md`, `CiC_W1_World_Profile.md`, `CiC_W1_Validation_Testing.md`. No truncation, corruption, duplicated text, or broken markdown found in any of the six.
+
+---
+
+## Finding 1 — Ecological Integrity (Doc_08, Cell 3A "External" classification)
+
+**Verdict: SUBSTANTIAL ISSUE.**
+
+**(a) Does Force 2A-2 exist and is it classified External?** Confirmed. Doc_08 Cell 2A is headed "CELL 2A — ONGOING / EXTERNAL," and "Force 2A-2: Contemporary Rival Movements (Marcion, Valentinian/Gnostic Christianity, Montanism)" sits directly inside it.
+
+**(b) Was 2A-2's External classification ever separately contested?** Confirmed not contested. Doc_08's own Document Log records round-1 cold review testing "this document's own self-disclosed classification of Forces 3A-1/3A-2 as 'External'... found genuinely defensible but contestable (not a defect)" — with no parallel challenge to 2A-2 anywhere in the log.
+
+**(c) Does the new definitional note appear in Cell 3A and make the claimed argument?** Confirmed present, quoted here in full for the record:
+
+> "Force 2A-2 (Contemporary Rival Movements — Marcion, Valentinian/Gnostic Christianity, Montanism) is already classified External in Cell 2A above, despite those movements being Christian-identifying, not agents of the Roman state either — and that classification was never separately contested anywhere in this document's own review history. This document's operative convention, consistent across both cells, therefore already treats 'External' as *outside this world's own defined community and three core regions* (Antioch/Syria, Asia Minor, Rome), not as *outside Christianity as a global category*. Forces 3A-1 (Irenaeus in Gaul, Tertullian in Carthage) and 3A-2 (Alexandria) both originate from regions genuinely outside this world's own three core regions, exactly as Force 2A-2's rival movements do relative to this world's own boundary."
+
+**(d) Is this a legitimate appeal to precedent, or does it beg the question?**
+
+**It fails on its own terms — the precedent does not hold.** The note's central factual claim is that Force 2A-2's rival movements originate "outside this world's own three core regions... exactly as" Irenaeus (Gaul) and Alexandria do. This is directly contradicted by the same document's own Force 2A-2 entry and by Doc_01 §8.3, which this note does not re-check before relying on it:
+
+- **Marcion:** "The traditional break with the Roman church is conventionally dated c. 144 CE" — Marcion's activity is centered in **Rome**, one of this world's three core regions.
+- **Valentinus:** "Valentinus moved to Rome c. 136 CE and remained active there into the 150s–160s — present in this world's own Roman core during the very years its own texts were circulating" (Doc_01 §8.3). Doc_01 §8.3 goes further, stating Thomassen's work "documents a split into a Western/Italian branch (Rome, Gaul) and an Eastern branch active in Asia Minor — **meaning Valentinian Christianity had a real, documented presence in two of this world's own three core regions at once**" (emphasis added — this is the document's own language).
+- **Montanism:** "Origin is firmly Phrygian **(Asia Minor)**... It spread from Asia Minor to **Rome**... and reached Carthage" (Doc_01 §8.3; Doc_08 Force 2A-2).
+
+So Force 2A-2's three rival movements are documented, in this build's own words, as operating substantially **inside** two of the world's three core regions (Rome and Asia Minor) — the opposite of "outside," which is exactly what the new note asserts to establish consistency with 3A-1/3A-2 (Gaul, Carthage, Alexandria — genuinely outside all three core regions). The note's own stated mechanism for resolving the finding — "consistent across both cells... exactly as Force 2A-2's rival movements do" — is not just under-argued, it is factually false by the build's own prior citations, checkable without leaving this document and Doc_01 §8.3.
+
+A defensible resolution may still exist (e.g., "External" could coherently mean "generated by a community *other than* this world's own defined six-voice community," a communal/doctrinal-boundary criterion under which 2A-2's rivals are External regardless of region, and 3A-1/3A-2 could separately be argued External on a different, geographic ground) — but that is not the argument the note actually makes. As written, the note asserts one single, consistent geographic rule and supports it with a factual claim the build's own text refutes. This is not a cosmetic wording problem: it is the substantive content of a scope/classification decision for an entire matrix cell, and it does not survive a check against material already present in the file.
+
+**Downstream consequence:** Validation_Testing.md marks "Ecological Integrity Testing — PASS (open item resolved 2026-07-08)" and the Freeze Criteria table marks "Ecological integrity testing is satisfactory | Met." Neither is earned as written — the open item is not actually resolved, it has been resolved with an argument that fails on inspection.
+
+---
+
+## Finding 2 — Balance (World Profile §8, Strand A vividness domain)
+
+**Verdict: MINOR-TO-SUBSTANTIAL ISSUE — real imbalance honestly disclosed, but the consolidation contains a fabricated quotation.**
+
+**(a) Does the new domain exist?** Confirmed. World Profile §8 contains "**Domain:** The disproportionate narrative and emotional vividness of Strand A (Antioch/Asia Minor, Ignatian) material relative to Strand B (Rome)," explicitly dated "added at Step 9 Validation & Testing (2026-07-08)."
+
+**(b)/(c) Do the four citations actually say what's claimed, and is the consolidation accurate?**
+
+- **Doc_02:** Confirmed accurate as a general characterization (§1's Author Gravity Assessment documents Ignatius's "high, continuous" visibility against Hermas's "fully eclectic... arguably the thinnest base of the six primary voices"; §1.8 independently states "Strand B's own comparably vivid content is comparatively thin (Doc_07 §2A names this directly)").
+- **Doc_05 §1.2:** Independently checked directly (this file is present in the project directory though not in this review's core list). Confirmed the underlying content is real and consistent with the consolidation's characterization: §1.2 documents the martyrdom "eager anticipation" pattern as Strand-A-specific and the Roman "penitential fear" as the counterpart, and Doc_05's own Document Log/gaps discussion (elsewhere in the file) independently states "martyrdom's emotional intensity is vivid and well-attested for two named figures and correspondingly thin for anyone else." No quotation marks are used for the World Profile's characterization of Doc_05, and none are needed — the paraphrase is fair.
+- **Doc_09 §4:** Independently checked directly. Confirmed accurate: Doc_09 §4 states "Strand A supplies Stories 001, 008, 011... vivid, high-stakes, individually attributed. Strand B supplies Stories 002, 006, 007... institutional and visionary rather than narratively dramatic," and that Story 012 "cannot manufacture narrative vividness Strand B's own evidence does not supply" — both phrases the consolidation quotes are genuine, word-for-word matches to Doc_09 §4.
+- **Doc_07 §2A — genuine problem found.** Both World Profile §8 and Validation_Testing §3 present the following as a direct quotation from Doc_07 §2A: *"the emotionally vivid material clusters in Strand A specifically."* This exact clause **does not appear anywhere in Doc_07 §2A** (verified by direct text search of the full section). Doc_07 §2A does state, verbatim, "this world's own Tier 1 lexicon supplies no dedicated affective vocabulary" — but the "clusters in Strand A specifically" clause is not Doc_07's language at all. It is **Doc_09 §4's own synthesis sentence**, which reads: *"Doc_07 §2A already names this: 'This world's own Tier 1 lexicon supplies no dedicated affective vocabulary,' and the emotionally vivid material clusters in Strand A specifically."* In Doc_09, the quotation marks correctly close after "vocabulary" — the "clusters in Strand A" clause is Doc_09's own added commentary, not part of the Doc_07 quote. Both World Profile §8 and Validation_Testing §3 lift this compound sentence and re-present the whole thing (via an ellipsis, in Validation_Testing's case) as if it were continuously sourced to Doc_07 §2A. It is a spliced, misattributed quotation — words Doc_09 wrote, credited to Doc_07.
+
+This does not change the underlying finding (the imbalance is real and independently well-evidenced without this clause), but it is exactly the kind of citation-fabrication error this project's history has repeatedly flagged, and it was introduced or at minimum propagated by this batch's own new consolidation text in two separate documents (World Profile §8 and Validation_Testing §3), not merely inherited unnoticed from an older source.
+
+---
+
+## Finding 3 — Reduction (Doc_07 §2E/§5, World Profile §3/§10)
+
+**Verdict: SUBSTANTIAL ISSUE — the verbatim-copy requirement is not actually met.**
+
+**(a) Do the additions exist in all four locations?** Confirmed in three of four:
+- Doc_07 §2E: confirmed — new paragraph beginning "A distinction carried inline here, not only in Section 4... (tightened at Step 9 Validation & Testing, 2026-07-08, per the Reduction Testing finding)."
+- Doc_07 §5: confirmed — new second paragraph beginning "A note on evidentiary weight, added at Step 9 Validation & Testing (2026-07-08)..."
+- World Profile §3: confirmed — matching paragraph beginning "A distinction carried forward from Doc_07 §2E, tightened at Step 9 Validation & Testing (2026-07-08)..."
+- World Profile §10: confirmed present, but see (b) below — it fails the specific verbatim standard it explicitly claims to meet.
+
+**(b) CRITICAL — is World Profile §10 byte-for-byte/word-for-word verbatim identical to Doc_07 §5?**
+
+**No.** Direct side-by-side extraction of both sections found the first (pre-existing) paragraph of the Integrative Observation differs at its final clause:
+
+- **Doc_07 §5 (source):** "...its people were formed to treat their own unresolved questions as the very shape of their belonging to one another, **not as a wound in this ekklesia's own life.**"
+- **World Profile §10 (claimed verbatim copy):** "...its people were formed to treat their own unresolved questions as the very shape of their belonging to one another, **not as a wound in it.**"
+
+The new second paragraph (the evidentiary-weight note added by this batch) **is** identical between the two documents, word for word. But the pre-existing first paragraph — the actual Integrative Observation this section exists to carry — is not identical. World Profile §10 explicitly self-certifies: **"Status: Verbatim (re-copied 2026-07-08 after Doc_07 §5 was revised at Step 9 Validation & Testing to carry its own confidence-basis caveat inline)."** That self-certification is false as the text currently stands.
+
+This matters specifically because Validation_Testing.md's own Reduction Testing resolution narrative makes the verbatim mechanism load-bearing: "Because Section 10's verbatim-copy requirement meant this could not be fixed in the World Profile independently, Doc_07 §5 was reopened first and then re-copied verbatim into World Profile §10." The stated process (reopen source, then re-copy verbatim) was evidently followed for the new paragraph but not fully executed against the pre-existing paragraph, leaving a real, checkable discrepancy in a section this project's own Constitution Article 29/freeze-eligibility framework treats as a required-verbatim artifact (World Profile §11's own completion checklist: "Section 10 Integrative Observation copied verbatim from Doc_07 Section 5 — status field reads 'Verbatim'").
+
+The discrepancy is small in meaning (both convey the same idea) but the standard being claimed is not "same idea," it is verbatim — and on that standard, this fails.
+
+**(c) Does World Profile §3's addition match Doc_07 §2E's language?** World Profile §3 is not claimed to be verbatim (only §10 carries that specific requirement), and on inspection it is a faithful, accurate paraphrase: it preserves the G01/G05-vs-G03/G04 distinction, the "ancient contestation" vs. "modern reconstruction limits" framing, and the core caveat, though it omits one sentence from Doc_07 §2E (the "Doc_04's own Cross-Check language treats the coarse claim as Widely Accepted while only the specific resolution is Contested" clause) and the closing "most firmly established... more provisionally extended" sentence. This omission does not misstate anything; it is a legitimate compression, not a distortion.
+
+---
+
+## Finding 4 — Differentiation (Doc_02 §1.7, Doc_01 §4 cross-reference)
+
+**Verdict: VERIFIED ACCURATE, with one minor unaddressed nuance.**
+
+**(a) Does §1.7 exist and make a genuine world-specific argument?** Confirmed. Doc_02 §1.7 gives two independent grounds: an "authorial-voice category mismatch" (every one of this world's six primary voices writes in a real, self-identified voice; the Pastorals write in a departed apostle's borrowed name, a strategy none of this world's six voices employs) and a "canon-formation trajectory versus occasional correspondence" mismatch (this world's six voices are occasional, community-specific texts never written toward eventual canonical inclusion; the Pastorals were transmitted and read as scripture "from very early in their own reception history"). Both arguments are genuinely tied to this world's own specific evidentiary criteria (Doc_01 §1's "scripture read alongside living apostolic testimony, not yet a closed canon"), not a generic "these are pseudonymous, therefore excluded" move.
+
+**(b) Is the factual basis accurate?** Broadly yes. The claim that Pauline authorship-vs-pseudonymity for the Pastorals is a live, contested, unresolved scholarly question, with a plausible composition window "anywhere from genuine Pauline authorship in the 60s CE to pseudonymous composition as late as c. 100–140 CE," is a fair summary of the mainstream range (majority critical opinion favors pseudonymity, commonly dated c. 100–140 CE; a minority defends authenticity or an amanuensis-mediated genuine core). **One nuance not addressed:** Marcion's own mid-2nd-century canon (the Apostolicon) excluded the Pastorals entirely — a fact regularly cited in Pastorals scholarship (sometimes as evidence for a post-Marcion date, sometimes as evidence Marcion selectively excluded them). This complicates, without refuting, §1.7's claim that the Pastorals' "canonical status... was never seriously in question once in circulation" — that claim is defensible only for the mainstream reception trajectory, and a fully rigorous treatment would have flagged Marcion's exclusion the way this document flags every other contested reception history in its source set. This is a genuine gap but a narrow one; it does not undermine either of §1.7's two independent grounds.
+
+**(c) Does it appropriately hedge?** Confirmed. The "What this does not claim" paragraph explicitly states this "is not a claim that the Pastoral Epistles are late, inauthentic, or historically worthless," and that the dating question "is itself contested and not resolved by this document."
+
+**(d) Does Doc_01 §4 cross-reference this?** Confirmed. Doc_01 §4's Social subsection carries: "**Boundary note, added at Step 9 Validation & Testing (2026-07-08):** the Pastoral Epistles are cited here only as secondary-scholarship background... not as Native primary evidence for this world's own practice — see Doc_02 §1.7 for the full, world-specific rationale."
+
+---
+
+## Finding 5 — Author Dominance (Doc_02 §1.8, World Profile §8)
+
+**Verdict: VERIFIED ACCURATE.**
+
+**(a) Does §1.8 exist and does its arithmetic check out?** Confirmed on both counts. Doc_02 §1.8's claim — "three of the seven candidate gravities Doc_04 tested... depend substantially or entirely on Ignatius as their only Asia Minor evidentiary voice — G01's Strand A... content, G04... in its entirety, and G05... in its entirety" — was checked directly against Doc_04 itself (accessed directly from the project directory). Doc_04 line 280 states, in the drafting document's own words: **"This bears specifically on G01's Strand A content, G04, and G05 — all three rest on Ignatius as their only Asia Minor evidentiary voice, not merely 'Strand A' in the abstract."** The quote reproduced (with minor, non-distorting wording variation) across Doc_02 §1.8, Doc_07, Doc_08, and Validation_Testing is a genuine, accurately-sourced Doc_04 finding, not a fabrication. The story count (Stories 001, 011 rest on Ignatius alone, 012 partially) was independently checked against Doc_09 directly and is consistent with Doc_09's own account there.
+
+**(b) Is the Hübner/Lechner connection accurately characterized?** Confirmed. The characterization — a "serious minority scholarly position... holds the Ignatian corpus may be 160–180 CE Roman pseudepigraphy rather than an authentic, contemporaneous Antiochene witness at all" — matches the standard scholarly description of the Hübner/Lechner ("Munich school") redating hypothesis and is stated identically and consistently across Doc_01 §10, Doc_02 §1.3/§1.8, Doc_07, and Doc_08 §7, with no internal drift in how it's described.
+
+**(c) Does the World Profile §8 cross-reference exist and match?** Confirmed. The "concentration of this world's most vivid, quotable material in a single, contested-authenticity source (Ignatius)" domain in World Profile §8 explicitly states "see Doc_02 §1.8 for the full summation" and accurately restates the three-gravities/two-to-three-stories figures without inflation.
+
+---
+
+## Finding 6 — Validation_Testing.md's own self-description (final Document Log entries)
+
+**Verdict: MOSTLY HONEST, WITH ONE OVERSTATEMENT.**
+
+The final batch entry is, on the whole, well-calibrated: it explicitly states the batch is "applied, not yet independently reviewed," explicitly argues the batch "sit[s] closer to substantial than cosmetic given their volume and the number of documents touched," and explicitly calls for "an independent review round covering the full batch... dispatched next, rather than treating this batch as self-certified." This is honest, appropriately humble framing — it does not claim final closure, and it does not claim the world is freeze-ready (the Freeze Criteria section is explicit that three criteria remain unassessable).
+
+**The overstatement:** the same entry states flatly, "(1) Ecological Integrity: the Forces 3A-1/3A-2 'External' classification resolved by appeal to Doc_08's own established precedent (Force 2A-2), a definitional decision requiring no new research" — and Section 2 of this same document is headed "Ecological Integrity Testing — PASS (open item resolved 2026-07-08)," with the Freeze Criteria table correspondingly marking that row "Met." Per Finding 1 above, this is not resolved — the precedent appealed to does not hold once checked against the document's own Force 2A-2 content and Doc_01 §8.3. This is the one place in the self-description where confidence is asserted beyond what the underlying fix actually supports, and it is presented with the same flat "resolved"/"Met" language as the four findings (Differentiation, Author Dominance, and the already-independently-reviewed Worship Integration/baptism finding) that genuinely are resolved on inspection.
+
+---
+
+## General Checks
+
+**Internal contradictions introduced by this batch:** The World Profile §10 / Doc_07 §5 verbatim mismatch (Finding 3) is itself a fresh internal inconsistency introduced by this batch's own editing process. The Doc_07 §2A misattributed quotation (Finding 2) is a fresh citation-accuracy defect introduced into two documents by this batch's own new consolidation text.
+
+**File integrity:** All six files read in full via direct line-range extraction; no truncation, duplication, or markdown corruption found in any of them.
+
+**"PASS" upgrades earned?**
+- Worship Integration (§7): out of scope for this review (already independently reviewed) — not re-assessed.
+- Differentiation (§8): **earned**, per Finding 4.
+- Author Dominance (§9): **earned**, per Finding 5.
+- Balance (§3): **substantially earned** — the underlying imbalance and its consolidation are real, but the PASS is undercut by the fabricated-quotation defect in Finding 2, which should be fixed before this is treated as fully clean.
+- Reduction (§4): **not fully earned** — the master-frame caveat is genuinely now carried inline in Doc_07 §2E/§5 and World Profile §3, but the specific verbatim-copy mechanism this section's own resolution narrative relies on (Finding 3) demonstrably was not completed correctly.
+- Ecological Integrity (§2): **not earned** — per Finding 1, the definitional note's core argument is factually contradicted by the document's own content.
+
+---
+
+## Overall Verdict: SUBSTANTIAL REVISION REQUIRED
+
+Per this project's own revision-decision test (substantial = changes a claim's substance, confidence rating, sourcing conclusion, or scope boundary; cosmetic = wording/formatting only), this batch does not qualify for cosmetic-only, direct-apply treatment:
+
+1. **Finding 1 (Ecological Integrity) is substantial in the fullest sense** — it is a scope/classification claim for an entire matrix cell (whether Forces 3A-1/3A-2 are correctly categorized External), and the argument offered to settle it is checkably false using material already in the build. This needs actual re-argument, not rewording — either a corrected version of the geographic-precedent argument (which does not appear available, since the geography runs the wrong way) or a different rationale entirely (e.g., a communal/doctrinal-boundary criterion, argued honestly as a different rule than the one governing 2A-2, rather than a false claim of a single consistent rule).
+
+2. **Finding 3 (Reduction) is substantial on process grounds** — the verbatim-copy requirement is an explicit, named freeze-eligibility mechanism in this project's own discipline, and it was not actually satisfied despite an explicit "Status: Verbatim" self-certification. This is a narrow, mechanical fix (re-sync the one clause), but it must actually be done and re-verified, not assumed complete.
+
+3. **Finding 2 (Balance)** is narrower — a citation/attribution fix (remove the false quotation marks around a phrase Doc_07 never wrote, or correctly attribute it to Doc_09) — but should be fixed in the same pass since it currently sits in two documents as a factually incorrect citation.
+
+Findings 4 and 5 (Differentiation, Author Dominance) are genuinely sound and could be applied/finalized as-is. Finding 6's self-description is honest except where it inherits Finding 1's overclaim.
+
+**Recommendation:** do not apply this batch as final. Return Findings 1, 2, and 3 for a targeted fix pass (re-argue or drop the Cell 3A definitional note's current form; correct World Profile §10's final clause to match Doc_07 §5 exactly, or vice versa if Doc_07 §5's current wording is not itself the intended final form; correct the Doc_07 §2A misattribution in both World Profile §8 and Validation_Testing §3), then run one more independent verification pass specifically on those three items before treating the Validation & Testing document's six findings as closed.

@@ -46,3 +46,49 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 **Next action:** Mark reviews the budget workbook. When ready, layer in a stipend line for Mark (explicitly deferred, not decided against) and firm up the adoption and engineering-scope assumptions once real information exists.
 
 ---
+
+## 2026-07-08 — Per-world annual cost added; Equivice surfaced as a near-term operational vehicle; front-end build scope still open
+
+**Status:** Workbook extended with a "Per-World Annual Cost" tab. New factual information from Mark (an existing registered business, Equivice — Equipping to Serve, currently used for consulting) changes the bridge-funding picture from the first memo. Not yet reflected in the memo itself — flagged for a revision pass.
+
+**Per-world annual cost, added to the workbook:** Development (Claude doing the research/drafting/review for one world) prices out at roughly $4–14 in raw API-equivalent terms — genuinely small, confirming Mark's own intuition, and a useful honest finding in its own right: build-time AI cost is a rounding error next to the human-cost lines. External scholarly review (Article 31, one world): $500–3,500, same range established earlier. A year of runtime scales hard with audience size: roughly $1,400–3,700 for 50 users/year, $6,900–18,300 for 250 users/year, $27,600–73,300 for 1,000 users/year. Headline one-world/one-year figure at a medium (250-user) audience: **~$7,400 (optimized) to ~$21,800 (unoptimized)**.
+
+**Equivice — new information, real implications:** Mark has an existing registered consulting business that could host CiC operationally. Reasoning laid out for him: strong fit as an expense-paying vehicle right now (hosting, API costs, contractor invoices) — zero additional setup time, already has business banking. Weak fit for taking in tax-deductible donations — a for-profit consulting entity can't offer donors a deduction, and depositing donor-labeled money into a business's revenue account risks real tax/legal complications (unclear characterization of the inflow, muddies the books if a future nonprofit spinout needs to show clean separated ministry financial history). Flagged explicitly as not-a-lawyer-or-accountant territory — recommended real advice before mixing any externally-designated ministry money into Equivice's books. Proposed a three-part structure: Equivice for expenses now (already available) · fiscal sponsorship for tax-deductible donation intake once that's needed (per the original bridge memo) · direct nonprofit filing as the eventual destination. This is more concrete than the original memo's two-option framing and should update Section 1 of the bridge memo once Mark reacts.
+
+**Front-end build scope — asked, not yet answered:** How much of the Phase 1 feature build-out (retrieval systems, Runtime State Model, animated table, transparency apparatus — all named "not built" in the Front-End Spec) Mark can do himself, possibly AI-assisted, versus needs a hired specialist engineer, is unresolved and directly affects both the engineering line in the Phase 1 budget and the near-term hiring/spending decision. Asked directly via a multiple-choice question rather than assumed.
+
+**Reasoning:** The per-world framing was a genuine reframe Mark asked for — cost-per-unit-of-mission (one world, one year) rather than cost-per-whole-system, which is arguably the more natural unit for a donor or grant committee to reason about ("what does it cost to bring one more world to the table"). Kept it inside the same workbook rather than a separate file so the numbers can't drift out of sync with the Phase 1 totals — both tabs pull from the same Assumptions sheet.
+
+**Open, not yet answered:**
+- Does the three-part Equivice/fiscal-sponsor/nonprofit structure make sense to Mark, or does he see it differently?
+- Should the bridge memo (V0.1) get revised now to incorporate Equivice, or wait until more of this thread's open questions settle?
+
+**Next action:** Revise the bridge memo's Section 1 once the Equivice-based three-part structure is confirmed or corrected.
+
+---
+
+## 2026-07-08 — Front-end build: Mark builds most of it himself, budget updated
+
+**Decided:** Mark builds most of the Phase 1 feature set himself (retrieval systems, animated table, transparency apparatus), rather than hiring it out. The two bounded specialist-engineer engagements already named in the Front-End Engineering Spec — Engagement One (initial deployment setup) and Engagement Two (pre-public-availability audit) — stay hired regardless; those weren't part of the choice.
+
+**Reasoning:** Asked directly rather than assumed, since this is a fact about Mark's own capability and appetite that no document could answer. His choice was the most self-directed of the four options offered (full hire-out, AI-assisted-DIY-with-hired-hard-parts, mostly-DIY-with-bookends-hired, not-sure-yet).
+
+**Budget impact:** Updated both the Assumptions tab and the Phase 1 Budget tab. The old single "Phase 1 feature build-out" hired-hours line (150–400 hrs × $125–200/hr = $18,750–$80,000) is replaced by: (a) a DIY line reflecting only AI-assistance token cost, which is genuinely small ($30–$110) but doesn't count Mark's own time; and (b) a separate, not-committed "hire-out fallback" reserve ($7,500–$30,000) scoped specifically to the two pieces even the project's own engineering spec calls hardest and unvalidated — retrieval systems and the Runtime State Model — in case the DIY attempt stalls there. Bucket B's committed subtotal dropped from $29,950–$115,500 to $16,230–$51,610; the three headline Phase 1 totals dropped to roughly $23,140 (lean) / $75,379 (planning estimate) / $784,858 (conservative).
+
+**Open, not yet answered:**
+- Whether the reserve ever gets triggered — genuinely unknown until Mark is partway into the DIY build.
+- Mark's own time isn't costed anywhere in this budget. Worth deciding later whether that should be made visible some other way (e.g., an implied stipend/time-value line) even while his direct-pay stipend stays deferred.
+
+**Next action:** None blocking — budget reflects the decision. Revisit the reserve line if the DIY build hits the retrieval-system/Runtime-State-Model wall.
+
+---
+
+## 2026-07-08 — Workbook repaired after on-disk corruption; confirms this thread's own DIY decision, flags a conflict with the front-end thread's proposal comparison
+
+**Repaired:** `CiC_Phase1_Budget_V0_1_DRAFT.xlsx` was found corrupted (truncated write, missing zip table of contents) while cross-checking it against a different workbook. Fixed by recovering the raw XML streams directly — every number and formula is byte-exact recovered, not recalculated. The workbook's shared-string text table was itself cut off near the end, so roughly the last third of its text labels (most of the Per-World Annual Cost tab, and the Phase 1 Budget tab) had to be rewritten rather than recovered verbatim — grounded in the recovered formulas and this log, flagged plainly in the file's own Read Me tab. The recovered numbers confirm exactly the "Mark builds most of it himself" figures in the entry directly above: Bucket B subtotal $16,230–$51,610, headline totals ~$23,140 / ~$75,379 / ~$784,858.
+
+**Real conflict worth naming:** the front-end thread built a separate four-way hire-vs-DIY comparison (`CiC_BuildApproach_Budget_Proposals_V1_0.xlsx`) that treats hire-vs-DIY as still open — it doesn't know about the decision recorded directly above. The two workbooks also price DIY engineering differently: this one uses raw API/token cost ($30–110), the other uses a monthly tool-subscription estimate (Claude Code, ~$480–2,304/yr). Both are legitimate ways to estimate the same thing, but only one should be treated as current.
+
+**Next action:** Reconcile the two workbooks — confirm the DIY-primary decision stands, and pick one DIY-cost methodology going forward. This directly feeds Mark's request for "a more realistic and detailed plan, keeping cost in mind."
+
+---
