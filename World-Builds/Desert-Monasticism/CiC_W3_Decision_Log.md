@@ -79,3 +79,14 @@ The project lead has since confirmed directly to the coach thread, in this sessi
 - **Process note:** this document, alongside Doc_04, is the build's second demonstration that a revision's own claim to have completed a fix is not evidence of completion — both times caught only by a subsequent round tasked with exhaustive rather than sampled re-verification. Recorded as a standing discipline lesson for the remainder of this build.
 - **Escalation check:** performed; no standing escalation category applies.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_07 only.
+
+---
+
+## 2026-07-11 — Doc_07, Integrated Ecology Analysis
+
+- **Document:** `CiC_W3_Doc07_Integrated_Ecology_Analysis.md`
+- **Review outcome:** Round 1 (cold, model opus, exhaustive citation tracing given this build's Doc_04/Doc_06 pattern) found SUBSTANTIAL REVISION REQUIRED — narrow: one substantial finding (an architecture/gravity-10 claim in Section 9 misidentified the tension the evidence actually shows, and directly contradicted Section 11's own thesis); five cosmetic citation/cross-reference findings. Round 2 (cold, model opus, no visibility into Round 1) independently re-derived the Section 9/11 facts from scratch and confirmed the fix genuinely resolved the contradiction, and searched the whole document (not just the flagged locations) for residual conflations, finding none. CLEARED. No disagreement between rounds.
+- **Revision count:** 1 substantial revision (post-Round 1) + 1 optional cosmetic touch (post-Round 2, no further review cycle triggered).
+- **Review artifact filenames:** `Doc_07_Review_Round1.md`, `Doc_07_Review_Round2.md`.
+- **Escalation check:** performed; no standing escalation category applies.
+- **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_08 only.
