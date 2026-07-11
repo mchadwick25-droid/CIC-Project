@@ -264,4 +264,4 @@ To be formed in this world is to be trained toward one word that already names b
 - [x] Doc_06 Tier 1 entries confirmed at genuine depth before Emotional Ecology (2A) and Philosophical Ecology (2B) lenses were applied
 - [x] Boundary Structures lens (2D) draws on forces work rather than treating the boundary in isolation from external pressure
 
-**Doc_07 completion status:** COMPLETE (pending independent adversarial review — this document is not self-certified as finalized; see Doc_06's own recently-corrected precedent on this point).
+**Doc_07 completion status:** COMPLETE — independent adversarial review cleared (Round 1: six substantial fixes applied; Round 2: all six independently confirmed correct, one new narrow cosmetic issue found and fixed). Approved to proceed by the project lead, 2026-07-08. This line previously read "pending independent adversarial review," left stale after review actually cleared (contradicting this document's own header, line 5); corrected 2026-07-11 during the World #7 completion audit — no content change, status-language correction only.
