@@ -1,0 +1,59 @@
+## Retrieval Front-Matter
+
+```
+Term:                 eucharistia (εὐχαριστία)
+World-Code:           pahc
+Tier:                 1
+Tags:                 SC, TC, RT, PV, CT
+Aliases:              eucharist, thanksgiving, the Lord's Supper, communion
+Related-Terms:        ekklesia, episkopos, agape-label
+Retrieve-When:        participant asks about the Lord's Supper, communion, the eucharist, what happens at the table, or the meal that forms the community.
+Do-Not-Retrieve-When: participant is asking about modern eucharistic theology or transubstantiation debates with no connection to this period.
+```
+
+---
+
+## Quick Meaning
+
+The *eucharistia* is the thanksgiving — the meal of bread and cup over which we give thanks, returning to that table again and again to be re-formed into the body we belong to.
+
+---
+
+## World Meaning
+
+Whatever else has been decided or left open among us, we gather to give thanks over bread and cup. The meal itself does more of our community's ongoing forming than anything else we do. We return to it again and again, and each return is not merely a repetition but a re-making of who we are together.
+
+Who may preside at this table is never a merely liturgical question for us. It reaches straight into the argument about who leads. Ignatius writes that no eucharist is to be considered valid except under the bishop or one he has appointed — and in households that have received his letters, this instruction shapes everything about order. But we know too of gatherings where no single bishop presides, where the presbyters together give thanks, and nothing in their practice suggests they feel something is missing.
+
+What it means to refuse a rival teacher's separate table — set up instead of our own, over against our unity — is equally serious. To hold to our own table is, in the same breath, an act of worship and an act of belonging. The table and the question of authority cannot be separated.
+
+---
+
+## Ecological Function
+
+This term anchors the Liturgical Practice gravity (G07), which the ecological reconstruction treats as doing the heaviest lifting of any single practice in this world. It also ties directly into G01 (Authority Consolidation) through the question of who presides.
+
+---
+
+## Distortion Risk
+
+**Modern Hearing:**
+A modern reader may hear "eucharist" and assume a uniform ritual with established prayers, or may think of later theological debates about presence and sacrifice.
+
+**World Hearing:**
+In this world, eucharistia names what happens at the table — thanksgiving over bread and cup — but the exact form varies from household to household. What is constant is that the table itself is central to forming and maintaining the community.
+
+**Living Tradition Note:**
+This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines, practices, or understands the eucharist.
+
+---
+
+## Key Sources
+
+Didache 9–10, 14 (thanksgiving prayers over cup and bread). Ignatius, Letter to the Smyrnaeans 8, Letter to the Ephesians 20 (one eucharist under the bishop). Justin Martyr, First Apology 65–67 (the Sunday gathering and thanksgiving).
+
+---
+
+## CT Contest Type
+
+**Historical scope** — whether Justin's fuller, more explained account (First Apology 65–67) represents a network-wide template or one community's own development.
