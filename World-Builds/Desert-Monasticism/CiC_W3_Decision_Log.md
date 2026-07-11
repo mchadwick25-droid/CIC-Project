@@ -90,3 +90,15 @@ The project lead has since confirmed directly to the coach thread, in this sessi
 - **Review artifact filenames:** `Doc_07_Review_Round1.md`, `Doc_07_Review_Round2.md`.
 - **Escalation check:** performed; no standing escalation category applies.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_08 only.
+
+---
+
+## 2026-07-11 — Doc_08, Forces Document
+
+- **Document:** `CiC_W3_Doc08_Forces_Document.md` — required Blueprint gate document (no world advances to Validation or Deployment without it).
+- **Review outcome:** three rounds. Round 1 (cold, model opus) found SUBSTANTIAL REVISION REQUIRED — 5 substantial findings including a gravity (koinōnia) retro-traced to forces that didn't generate it with a dangling cross-reference to a nonexistent force, a fabricated verbatim quotation, two wrong-item citations, and a non-conforming confidence label. Round 2 (cold, model opus, no visibility into Round 1) verified 8 of 9 fixes genuine but found the confidence-label fix incomplete — the same defect survived at a third location Round 1's scan missed. Round 3 (cold, model opus, explicitly tasked with an exhaustive sweep of every confidence label given the recurring pattern) verified all 12 force entries now conform with zero exceptions, and the Round 2 fix itself was evidence-correct. CLEARED at MINOR/COSMETIC.
+- **Revision count:** 2 substantial revisions (post-Round 1, post-Round 2) + 1 cosmetic pass (post-Round 3, no further review cycle triggered).
+- **Review artifact filenames:** `Doc_08_Review_Round1.md`, `Doc_08_Review_Round2.md`, `Doc_08_Review_Round3.md`.
+- **Process note:** this document is the third in this world's build (after Doc_04 and Doc_06) where a review's own "fixed" claim did not survive a subsequent exhaustive re-check — each time on structurally similar ground (an incomplete sweep across repeated-pattern content: candidate numbers, reciprocity edges, confidence labels). This is now a well-established discipline lesson for this build: any finding involving a checklist-like or repeated pattern requires an explicit exhaustive-trace instruction, not a general re-review request.
+- **Escalation check:** performed; no standing escalation category applies.
+- **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_09 only.
