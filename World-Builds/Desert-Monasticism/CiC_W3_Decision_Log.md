@@ -23,3 +23,14 @@ Per the One-Document-at-a-Time Build Protocol: every document that reaches Appro
 - **Review artifact filenames:** `Doc_02_Review_Round1.md`, `Doc_02_Review_Round2.md`.
 - **Escalation check:** performed; no standing escalation category applies.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_03 only.
+
+---
+
+## 2026-07-11 — Doc_03, Lexicon Candidate List
+
+- **Document:** `CiC_W3_Doc03_Lexicon_Candidate_List.md`
+- **Review outcome:** Round 1 (cold, independent, model opus) found SUBSTANTIAL REVISION REQUIRED — narrow (a fabricated Doc_02 citation supporting an inverted claim that the Antirrhetikos survives "only via Sogdian translation"; five cosmetic findings). Round 2 (cold, independent, model opus, no visibility into Round 1) independently re-derived the corrected transmission history from scratch and confirmed the fabrication was genuinely resolved with no residual error; found MINOR/COSMETIC REVISION ONLY with two new cosmetic findings. No disagreement between review rounds.
+- **Revision count:** 1 substantial revision (post-Round 1) + 1 cosmetic pass (post-Round 2, no further review cycle triggered).
+- **Review artifact filenames:** `Doc_03_Review_Round1.md`, `Doc_03_Review_Round2.md`.
+- **Escalation check:** performed; no standing escalation category applies.
+- **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_04 only.
