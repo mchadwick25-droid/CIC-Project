@@ -56,3 +56,14 @@ The project lead has since confirmed directly to the coach thread, in this sessi
 - **Process note:** this document is the clearest demonstration in this world's build so far of why the protocol requires *saved, independent* re-review rather than trusting a revision's own account of itself — an illusory fix (a claim of correction without the correction actually being performed) survived one full review round before being caught.
 - **Escalation check:** performed; no standing escalation category applies.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_05 only.
+
+---
+
+## 2026-07-11 — Doc_05, Ecological Reconstruction
+
+- **Document:** `CiC_W3_Doc05_Ecological_Reconstruction.md`
+- **Review outcome:** Round 1 (cold, independent, model opus) prioritized gravity-number citation fidelity against Doc_04's stable index given Doc_04's own three-round history with that exact failure mode — traced all numeric gravity references exhaustively, found MINOR/COSMETIC REVISION ONLY, with three concrete cosmetic findings (an inhabited-passage distance error; a gravity-2-vs-9 attribution slip in one enumeration; a misapplied citation in the Rule-to-Benedict transmission claim) plus two non-blocking observational notes.
+- **Revision count:** 1 cosmetic pass (no further review cycle triggered).
+- **Review artifact filenames:** `Doc_05_Review_Round1.md`.
+- **Escalation check:** performed; no standing escalation category applies.
+- **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_06 only.
