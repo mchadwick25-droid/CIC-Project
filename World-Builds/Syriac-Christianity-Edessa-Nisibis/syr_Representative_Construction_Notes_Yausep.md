@@ -43,9 +43,9 @@ The calibration decision here is simpler than the historical background above mi
 
 ### Living Tradition Status Confirmation
 
-**Status: PENDING INDEPENDENT REVIEW, THEN PROJECT-LEAD CONFIRMATION** (not yet CONFIRMED — this section closes the substantive gap the World Profile named, but two gates stand before CONFIRMED: this section's own content has not yet cleared independent adversarial review, per this build's own one-document-at-a-time discipline; and even once cleared, confirmation itself is a separate project-lead act, not something this document can perform on its own behalf, per Blueprint v7 Section 17 and Constitution Article 29).
+**Status: CONFIRMED, 2026-07-11, by the project lead directly.** Both gates that previously stood before confirmation are now cleared: this section's own content cleared independent adversarial review (Round 1: COSMETIC ONLY, per `Review-Artifacts/ConstructionNotes_Yausep_Round1_Review.md`); and the project lead has now recorded the confirmation date itself, per Blueprint v7 Section 17 and Constitution Article 29.
 
-What was outstanding, and what this section resolves: the World Profile named three outstanding items (Section 9) — (1) no project-lead confirmation date existed; (2) no dedicated divergence-comparison document existed; (3) this cross-reference file did not exist. Item (2) is resolved above. Item (3) is resolved by this file's own existence. Item (1) remains outstanding until the project lead reviews the divergence comparison above and records a confirmation date — which this document recommends but cannot itself supply.
+What was outstanding, and what this section resolves: the World Profile named three outstanding items (Section 9) — (1) no project-lead confirmation date existed; (2) no dedicated divergence-comparison document existed; (3) this cross-reference file did not exist. Item (2) is resolved above. Item (3) is resolved by this file's own existence. Item (1) is resolved by the confirmation dated above.
 
 ### Figures of Contested Standing
 
@@ -53,4 +53,4 @@ This world's own construction record documents one historical-identification que
 
 ---
 
-**Doc completion status:** Section 6 complete, cleared independent adversarial review (Round 1: COSMETIC ONLY — one citation-precision fix and one status-field fix, both applied directly, no fresh review round required per this project's own cosmetic-fix discipline). See `Review-Artifacts/ConstructionNotes_Yausep_Round1_Review.md`. All other sections of the full Representative Construction Notes Template (1–5, 7–8) are **not yet begun** and should not be inferred as complete from this file's existence. Pending project-lead confirmation before Living Tradition Status can be marked CONFIRMED in `syr_World_Profile.md`.
+**Doc completion status:** Section 6 complete, cleared independent adversarial review (Round 1: COSMETIC ONLY — one citation-precision fix and one status-field fix, both applied directly, no fresh review round required per this project's own cosmetic-fix discipline). See `Review-Artifacts/ConstructionNotes_Yausep_Round1_Review.md`. All other sections of the full Representative Construction Notes Template (1–5, 7–8) remain **not begun**, per the framework amendment (CO-021/CO-022) that ruled the full 8-section document optional scaffolding, not a required gate — this world's Section 6 stands as-is by deliberate decision, not oversight. Living Tradition Status CONFIRMED, 2026-07-11, by the project lead directly, matching `syr_World_Profile.md` Section 9.
