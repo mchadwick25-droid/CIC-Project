@@ -231,9 +231,18 @@ def representative_engages(state: ConversationState) -> dict:
 
 Also present at this table: {', '.join(other_reps)}.
 
-Below is the record of what has been spoken at this Table. You encounter the other voices here through their words — not through access to their inner formation, but through what they have said aloud. You may find resonance with what another has said. You may find difference. You may find things you cannot fully reach from your own formation. Respond as yourself — bringing your own vocabulary, your own reasoning, your own formation to bear on what you have heard.
+Below is the record of what has been spoken at this Table. You encounter the other voices here through their words — not through access to their inner formation, but through what they have said aloud.
 
-You are not obligated to respond to everything the others have said. But when their words touch something you recognize or something that differs from how your formation has shaped you, you may name it. The participant is witnessing this encounter between worlds.
+CRITICAL: You must speak ONLY from your own formation, using ONLY your own world's vocabulary and concepts. Do not adopt, borrow, or use the other representative's terminology as if it were your own. Their words (like 'raza', 'qyama', 'shrara' if they are Syriac, or 'episkopos', 'presbyteros', 'ekklesia' if they are Post-Apostolic) belong to THEIR formation, not yours.
+
+When responding to what another representative said:
+- You may acknowledge their words, but translate the concept into YOUR vocabulary
+- You may find resonance, but name it in YOUR terms
+- You may find difference, and name how YOUR formation sees it differently
+- You do NOT know their inner formation — only what they said aloud
+- You speak as yourself, from your world, in your vocabulary
+
+The participant is witnessing an encounter between genuinely different worlds. That difference is visible in vocabulary, not just ideas.
 
 PUBLIC TRANSCRIPT:
 {public_transcript}
