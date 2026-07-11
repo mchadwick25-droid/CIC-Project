@@ -268,15 +268,25 @@ async def send_message(session_id: str, request: SendMessageRequest):
     # Add the participant's message
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
 
-    # For multi-world tables, determine which representative should respond
-    from app.graph.nodes import determine_next_speaker
+    # For multi-world tables, determine turn type (single or all representatives)
+    from app.graph.nodes import determine_turn_type, multi_representative_engages
+
     if state.world_ids and len(state.world_ids) > 1:
-        state.current_world_id = determine_next_speaker(state)
+        turn_type, responding_worlds = determine_turn_type(state)
 
-    # Run representative_engages
-    result = representative_engages(state)
+        if turn_type == "all" and len(responding_worlds) > 1:
+            # Multiple representatives should respond - each sees what others said
+            state.current_world_id = responding_worlds[0]
+            result = multi_representative_engages(state)
+        else:
+            # Single representative responds
+            state.current_world_id = responding_worlds[0]
+            result = representative_engages(state)
+    else:
+        # Single-world table
+        result = representative_engages(state)
 
-    # Update state with representative's response
+    # Update state with representative's response(s)
     state.messages = list(state.messages) + result.get("messages", [])
     state.turn_count = result.get("turn_count", state.turn_count)
     state.requires_reroot = result.get("requires_reroot", False)
