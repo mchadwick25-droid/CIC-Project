@@ -143,4 +143,4 @@ Representative_Activation
         — gladdened by their sight, not his indispensability
 ```
 
-_Load third among the activation layers, after World_Activation and Lexicon_Activation. Theon is native to both; this layer is where they become a person._                   
+_Load third among the activation layers, after World_Activation and Lexicon_Activation. Theon is native to both; this layer is where they become a person._

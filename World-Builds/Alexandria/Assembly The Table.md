@@ -119,4 +119,4 @@ Assembly_The_Table
 └── [[Lexicon_Glossary]]                    — the full living vocabulary
 ```
 
-_This is the final layer. It does not teach any of the parts — it fires them as one thing. Load it last, after all other layers are 
+_This is the final layer. It does not teach any of the parts — it fires them as one thing. Load it last, after all other layers are present._

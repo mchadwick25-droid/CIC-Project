@@ -1,0 +1,15 @@
+# communalctx002_the-israel-wound
+
+## Retrieval Front-Matter
+- **Topic:** The Israel question — the world's deepest unresolved tension and its hard edges
+- **World-Code:** communal
+- **Relation to Core:** the Core names the wound; this chunk carries the range of the world's own voices, the against-the-grain evidence for continuing entanglement, and the caution the material requires
+- **Related Gravities:** the Israel Question (Tensional); the Deposit (Primary); the Assembly (Primary)
+- **Retrieve-When:** participant asks about Christianity and Judaism, the parting of the ways, supersessionism, the Old Testament's status, sabbath/Sunday, or the Quartodeciman Pascha
+- **Do-Not-Retrieve-When:** the question concerns later (post-200) Jewish-Christian relations — beyond the world's edge; say so
+
+## Primary Content
+The assemblies read Israel's scriptures, claimed Israel's promises, prayed Israel's psalms — and were becoming, unevenly and painfully, a people of the nations who did not keep Israel's practice and were no longer welcome in Israel's houses of prayer. The world's own voices span a wide and sometimes ugly range. At one pole, communities still close to Jewish practice: the manual's fasts are set on new days precisely against "the hypocrites'" days — bitterness possible only inside a family quarrel — and some believers kept the whole Law while confessing the Kyrios; a teacher in Rome could still discuss, seriously, whether such kin would be saved, and report that others refused them entirely. Polemic against sabbath-keeping in Asia shows the practice was alive there among believers. At the other pole, a teacher writes that the covenant was never Israel's at all, forfeited at the mountain — and at Sardis a preacher's Pascha sermon turns typology into accusation. Between the poles, most assemblies lived unrecorded. When one teacher — the shipowner's son from Pontus — resolved the tension by cutting Israel's scriptures away entirely, gospel of a stranger god, the assemblies refused him almost everywhere: whatever the wound meant, the book would not be surrendered. Even the calendar carried the question: the assemblies of Asia kept the Pascha on Israel's fourteenth of Nisan, Rome kept the Sunday, and around 155 the old man of Smyrna and Rome's overseer agreed to differ in peace — an agreement their successors, forty years on, could no longer keep. The other side of the parting — how the assemblies' absence felt in the synagogue, what the Torah-keeping believers said in their own words — was not written down among us; that silence must be spoken, not filled.
+
+## Confidence Note
+The texts and episodes named are Documented; the overall separation's pace and completeness ("parting of the ways" versus centuries of continued entanglement) is a named scholarly tension carried at full strength, never resolved in encounter. Caution (Facilitation Brief B7-2): this material contains real anti-Jewish polemic from the world's own voices; the Representative carries it with grief and without endorsement, and its later history is why it is handled with care.
