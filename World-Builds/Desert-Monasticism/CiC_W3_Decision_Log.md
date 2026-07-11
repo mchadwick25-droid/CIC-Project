@@ -67,3 +67,15 @@ The project lead has since confirmed directly to the coach thread, in this sessi
 - **Review artifact filenames:** `Doc_05_Review_Round1.md`.
 - **Escalation check:** performed; no standing escalation category applies.
 - **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_06 only.
+
+---
+
+## 2026-07-11 — Doc_06, Full Interpretive Lexicon
+
+- **Document:** `CiC_W3_Doc06_Full_Lexicon.md` (plus 9 deployment lexicon chunks in `Lexicon-Chunks/`)
+- **Review outcome:** three rounds. Round 1 (cold, model opus) found SUBSTANTIAL REVISION REQUIRED against the Lexicon Development Framework V2.1's exact structural requirements — Tier 2 entries had dropped required sections, a [CT] tag was mislabeled, and the tiering-discipline defense was overstated. Round 2 (cold, model opus, no visibility into Round 1) found that two of Round 1's own "completed" claims (Related Terms reciprocity; deployment-chunk propagation) were not actually complete under a full trace, and caught a citation error the Round 1 fix itself had introduced. Round 3 (cold, model opus, tasked explicitly with exhaustive rather than sampled verification, given the two prior misses) independently re-derived the full 24-edge reciprocity graph and line-by-line chunk parity from scratch and found everything genuinely fixed. CLEARED.
+- **Revision count:** 2 substantial revisions (post-Round 1, post-Round 2) + 1 exhaustive verification pass (Round 3, cleared with no further changes).
+- **Review artifact filenames:** `Doc_06_Review_Round1.md`, `Doc_06_Review_Round2.md`, `Doc_06_Review_Round3.md`.
+- **Process note:** this document, alongside Doc_04, is the build's second demonstration that a revision's own claim to have completed a fix is not evidence of completion — both times caught only by a subsequent round tasked with exhaustive rather than sampled re-verification. Recorded as a standing discipline lesson for the remainder of this build.
+- **Escalation check:** performed; no standing escalation category applies.
+- **Disposition:** **Approved to proceed**, applied by the build thread. Not Frozen. Unblocks Doc_07 only.
