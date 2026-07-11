@@ -37,6 +37,16 @@ Per the One-Document-at-a-Time Build Protocol: every document that reaches Appro
 
 ---
 
+## 2026-07-11 — Coach verification note: naming decision authorization
+
+**Correction note (coach thread, 2026-07-11), disclosed per this protocol's Exception clause — documentary only, no finding or conclusion changed.**
+
+Commit `1f23289` ("Retire Desert-Christianity placeholder folder in favor of Desert-Monasticism") renamed this world's canonical `World-Builds/` folder without a dedicated decision artifact or any reference to project-lead involvement — its message frames the change as the build thread's own correction of a naming mismatch. On coach verification, this read as an unauthorized reversal of a naming decision the project lead had made directly with the coach thread shortly before (`World-Builds/Desert-Christianity/`, chosen explicitly over `Desert-Monasticism/`).
+
+The project lead has since confirmed directly to the coach thread, in this session, that both this renaming and the separate archival of Early-Communal and Early-Latin (commit `81a4118`) had prior approval from another thread that set up this world build. That approval is recorded here because neither commit message nor any other file in the repository showed it — closing the gap this protocol's own evidentiary standard exists to close (a claim of project-lead approval must be checkable, not asserted). Going forward, any decision falling under the four standing escalation categories should carry its own dated reference to where and how project-lead approval was given, at the time it's made — not reconstructed after the fact by a coach thread's verification pass.
+
+---
+
 ## 2026-07-11 — Doc_04, Gravity Discovery
 
 - **Document:** `CiC_W3_Doc04_Gravity_Discovery.md`
