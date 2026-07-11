@@ -25,6 +25,7 @@ class LexiconEntry:
     do_not_retrieve_when: str
     content: str
     source_file: str
+    key_sources: str
 
 
 class LexiconIndexer:
@@ -72,10 +73,28 @@ class LexiconIndexer:
 
         return front_matter
 
+    def parse_key_sources(self, content: str) -> str:
+        """Extract the '## Key Sources' section text, if present."""
+        if "## Key Sources" not in content:
+            return ""
+
+        remaining = content.split("## Key Sources", 1)[1]
+
+        # Section ends at the next heading or separator
+        end_markers = ["\n---", "\n## "]
+        end_pos = len(remaining)
+        for marker in end_markers:
+            pos = remaining.find(marker)
+            if pos > 0 and pos < end_pos:
+                end_pos = pos
+
+        return remaining[:end_pos].strip()
+
     def parse_lexicon_file(self, file_path: Path) -> LexiconEntry:
         """Parse a single lexicon file into a LexiconEntry."""
         content = file_path.read_text(encoding="utf-8")
         front_matter = self.parse_front_matter(content)
+        key_sources = self.parse_key_sources(content)
 
         # Extract content after front-matter (everything after the ---)
         content_parts = content.split("---", 2)
@@ -98,6 +117,7 @@ class LexiconIndexer:
             do_not_retrieve_when=front_matter.get("do_not_retrieve_when", ""),
             content=main_content.strip(),
             source_file=file_path.name,
+            key_sources=key_sources,
         )
 
     def create_documents(self, entries: list[LexiconEntry]) -> list[Document]:
@@ -123,6 +143,7 @@ Related: {', '.join(entry.related_terms)}
                 "retrieve_when": entry.retrieve_when,
                 "do_not_retrieve_when": entry.do_not_retrieve_when,
                 "source_file": entry.source_file,
+                "key_sources": entry.key_sources,
             }
 
             documents.append(Document(page_content=searchable_text, metadata=metadata))

@@ -199,7 +199,7 @@ def representative_engages(state: ConversationState) -> dict:
     public_transcript = build_public_transcript(state)
 
     # Retrieve relevant lexicon context
-    retrieved_context = retriever.get_context_for_response(
+    retrieved_context, citations = retriever.get_context_for_response(
         query=last_human_message,
         conversation_context=public_transcript,
     )
@@ -263,8 +263,19 @@ PUBLIC TRANSCRIPT:
         terms = re.findall(r"### ([^\n]+)", retrieved_context)
         retrieved_terms = terms
 
+    citations_payload = [
+        {"term": c.term, "key_sources": c.key_sources, "source_file": c.source_file}
+        for c in citations
+    ]
+
     return {
-        "messages": [AIMessage(content=response.content, name=rep_message_name)],
+        "messages": [
+            AIMessage(
+                content=response.content,
+                name=rep_message_name,
+                additional_kwargs={"citations": citations_payload} if citations_payload else {},
+            )
+        ],
         "turn_count": state.turn_count + 1,
         "requires_reroot": False,  # Clear reroot flag after using it
         "current_world_id": current_world_id,
@@ -272,6 +283,7 @@ PUBLIC TRANSCRIPT:
             chunks=[retrieved_context] if retrieved_context else [],
             terms=retrieved_terms,
             sources=[],
+            citations=citations_payload,
         ) if retrieved_context else None,
     }
 

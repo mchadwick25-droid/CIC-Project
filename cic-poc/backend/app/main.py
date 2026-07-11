@@ -128,10 +128,15 @@ def state_to_messages(state: ConversationState) -> list[dict]:
                     text_parts.append(block)
             content = "\n".join(text_parts)
 
+        citations = None
+        if hasattr(msg, "additional_kwargs"):
+            citations = msg.additional_kwargs.get("citations") or None
+
         result.append({
             "role": role,
             "content": content,
             "name": name,
+            "citations": citations,
         })
 
     return result

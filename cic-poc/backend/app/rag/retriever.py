@@ -12,12 +12,37 @@ from app.rag.indexer import LexiconIndexer
 
 
 @dataclass
+class Citation:
+    """A citation to a source document backing a retrieved lexicon entry."""
+
+    term: str
+    key_sources: str
+    source_file: str
+
+
+@dataclass
 class RetrievalResult:
     """Result of a retrieval operation."""
 
     documents: list[Document]
     terms: list[str]
     reasoning: str
+
+    @property
+    def citations(self) -> list[Citation]:
+        """Citations for retrieved documents that have Key Sources recorded."""
+        citations = []
+        for doc in self.documents:
+            key_sources = doc.metadata.get("key_sources", "")
+            if key_sources:
+                citations.append(
+                    Citation(
+                        term=doc.metadata.get("term", "Unknown"),
+                        key_sources=key_sources,
+                        source_file=doc.metadata.get("source_file", ""),
+                    )
+                )
+        return citations
 
 
 class LexiconRetriever:
@@ -163,16 +188,18 @@ Respond with exactly one line: "RETRIEVE: <brief reason>" or "SKIP: <brief reaso
         self,
         query: str,
         conversation_context: str = "",
-    ) -> str:
+    ) -> tuple[str, list[Citation]]:
         """
-        Get formatted context string for the representative's response.
+        Get formatted context string and citations for the representative's response.
 
-        This is the main entry point for RAG-augmented responses.
+        This is the main entry point for RAG-augmented responses. The returned
+        citations identify which source documents (per the lexicon's Key Sources)
+        back the retrieved context, for display in the UI.
         """
         result = self.retrieve(query, conversation_context)
 
         if not result.documents:
-            return ""
+            return "", []
 
         context_parts = ["## Retrieved Lexicon Context\n"]
 
@@ -182,4 +209,4 @@ Respond with exactly one line: "RETRIEVE: <brief reason>" or "SKIP: <brief reaso
             context_parts.append(doc.page_content)
             context_parts.append("\n---\n")
 
-        return "\n".join(context_parts)
+        return "\n".join(context_parts), result.citations

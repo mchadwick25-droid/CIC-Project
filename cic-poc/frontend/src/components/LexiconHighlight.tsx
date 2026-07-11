@@ -18,8 +18,12 @@ export function LexiconHighlight({
 }: LexiconHighlightProps) {
   const [showTooltip, setShowTooltip] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState<'above' | 'below'>('above');
+  const [tooltipShift, setTooltipShift] = useState(0);
   const spanRef = useRef<HTMLSpanElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
+
+  const TOOLTIP_WIDTH = 280;
+  const VIEWPORT_MARGIN = 12;
 
   useEffect(() => {
     if (showTooltip && spanRef.current) {
@@ -29,6 +33,20 @@ export function LexiconHighlight({
 
       // Position tooltip where there's more space
       setTooltipPosition(spaceAbove > spaceBelow ? 'above' : 'below');
+
+      // Tooltip is centered on the term by default (shift 0). Clamp it
+      // horizontally so it doesn't run off the left/right of the viewport.
+      const termCenter = rect.left + rect.width / 2;
+      const idealLeft = termCenter - TOOLTIP_WIDTH / 2;
+      const idealRight = termCenter + TOOLTIP_WIDTH / 2;
+
+      let shift = 0;
+      if (idealLeft < VIEWPORT_MARGIN) {
+        shift = VIEWPORT_MARGIN - idealLeft;
+      } else if (idealRight > window.innerWidth - VIEWPORT_MARGIN) {
+        shift = window.innerWidth - VIEWPORT_MARGIN - idealRight;
+      }
+      setTooltipShift(shift);
     }
   }, [showTooltip]);
 
@@ -51,6 +69,7 @@ export function LexiconHighlight({
         <div
           ref={tooltipRef}
           className={`lexicon-tooltip lexicon-tooltip--${tooltipPosition}`}
+          style={{ '--tooltip-shift': `${tooltipShift}px` } as React.CSSProperties}
         >
           <div className="lexicon-tooltip__header">
             {term.term.split('/')[0].replace(/\s*\([^)]*\)\s*/g, '').trim()}

@@ -2,10 +2,17 @@
  * TypeScript interfaces for the conversation system.
  */
 
+export interface Citation {
+  term: string;
+  key_sources: string;
+  source_file?: string;
+}
+
 export interface Message {
   role: 'user' | 'assistant';
   content: string;
   name?: string | null;
+  citations?: Citation[] | null;
 }
 
 export interface StartSessionResponse {

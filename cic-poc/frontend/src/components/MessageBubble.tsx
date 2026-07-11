@@ -121,6 +121,20 @@ export function MessageBubble({ message, termMap, onTermClick, worldColors }: Me
               </p>
             ))}
           </div>
+
+          {message.citations && message.citations.length > 0 && (
+            <div className="message-citations">
+              <span className="message-citations__label">Sources</span>
+              <ul className="message-citations__list">
+                {message.citations.map((citation, index) => (
+                  <li key={index} className="message-citations__item">
+                    <span className="message-citations__term">{citation.term}</span>
+                    <span className="message-citations__text">{citation.key_sources}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       )}
 

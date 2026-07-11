@@ -31,6 +31,7 @@ class RetrievedContext:
     chunks: list[str]
     terms: list[str]
     sources: list[str]
+    citations: list[dict] = field(default_factory=list)
 
 
 @dataclass
