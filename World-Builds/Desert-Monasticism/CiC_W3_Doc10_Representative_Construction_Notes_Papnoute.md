@@ -3,7 +3,7 @@
 
 **File:** `CiC_W3_Doc10_Representative_Construction_Notes_Papnoute.md`
 **Template:** Representative Construction Notes Template v2.2 (Church in Conversation — V7)
-**Status:** DRAFT — full eight-section document, first construction pass, pending independent adversarial review per the One-Document-at-a-Time Build Protocol.
+**Status:** Approved to proceed by the build thread, 2026-07-11 — full eight-section document, cleared two rounds of independent adversarial review (Round 1: six substantial + two cosmetic findings, all fixed; Round 2: all fixes independently re-verified genuine, two further cosmetic findings, fixed directly). See `Doc_10_Review_Round1.md`, `Doc_10_Review_Round2.md`, and the Decision Log entry dated 2026-07-11. Not Frozen — the Christ-Ward Telos (Section 5) remains provisional pending external scholarly review; Living Tradition Status (Section 6) is CONFIRMED by the project lead, 2026-07-11.
 **Governed by:** Representative Construction Framework V3.2; Constitution Articles 3/TC-001, 24, 25, 28, 29, 31, 33, 34; Blueprint V7.3 Section 14.
 **Follows:** `CiC_W3_Representative_Identity_Preliminary_Decision.md` (Strand C / Abba / Papnoute, decided by the project lead 2026-07-11) and all of Doc_01–Doc_09 (all Approved to proceed) — this document depends on and is built from all of them.
 
