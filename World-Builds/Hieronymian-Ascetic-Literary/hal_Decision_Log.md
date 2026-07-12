@@ -62,3 +62,13 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_05 (Ecological Reconstruction) may now begin.
 
+### 2026-07-12 — Doc_05 (Ecological Reconstruction)
+- **Document:** `hal_Doc_05_Ecological_Reconstruction.md` — five formation-ecology lenses (Human, Community, Worship, Organizational, Ministry) plus Emotional/Affective, Power/Influence, Meaning Transmission/Memory/Interpretive Ecology, Representative Theological Patterns, Proportionality Assessment, and Ecological Integration Assessment.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–04 cross-check access), each saved as its own file (`hal_Doc_05_Review_Round1.md`, `hal_Doc_05_Review_Round2.md`).
+  - Round 1: found a required Step 5 integration element (Representative Theological Patterns) effectively missing entirely — added as a new §9, independently fact-checked at Round 2; a chronological ambiguity around Marcella that read as impossible on its natural interpretation; and an unmarked Writing-From-Inside register break (the project's specific discipline for inhabited prose).
+  - Round 2: confirmed all fixes genuine via independent trace, not accepted on self-labels; independently fact-checked the new theological-patterns content; re-scanned the full document for any further register breaks (found none); verified section renumbering introduced no broken cross-references.
+- **Revision decision:** Substantial at Round 1; documentation-hygiene only at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_06 (Full Lexicon Development) may now begin.
+
