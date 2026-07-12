@@ -81,3 +81,13 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen. Working candidate count: 24 terms (18 original + 6 added), 2 declined.
 - **Next:** Doc_06 (Full Lexicon Development) may now begin, using the full 24-term candidate set.
 
+### 2026-07-12 — Doc_06 (Full Lexicon Development)
+- **Document:** `hal_Doc_06_Full_Lexicon_Development.md` — full three-level treatment for 15 Tier 1 terms (with matching standalone deployment chunk files in `Lexicon-Chunks/`), complete inline entries for 6 Tier 2 terms, Quick-Meaning entries for 2 Tier 3 terms. #18 *continentia* merged into #5 *vidua* per Doc_03's own flagged possibility, confirmed justified on full-treatment research. Final term count: 23. 1 CT tag applied (Origenism); Pelagianism's non-CT-tagging explicitly disclosed as deferred to Doc_08, not silently decided.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full cross-check access including the Lexicon-Chunks/ subfolder), each saved as its own file (`hal_Doc_06_Review_Round1.md`, `hal_Doc_06_Review_Round2.md`).
+  - Round 1: no fabrications, sound philology, correct gravity architecture — but 4 misdirected internal cross-references, a false Master Index reciprocity claim, an overstated cross-document verbatim claim (with one substantive drift in Vidua's Key Sources between Doc_06 and its chunk), and Writing-From-Inside leakage in 3 World Meaning sections propagated into their deployment chunks.
+  - Round 2: confirmed 3 of 4 findings genuinely fixed; found the verbatim-scope fix itself still inaccurate on independent trace against the actual chunk files — corrected directly, no further round needed.
+- **Revision decision:** Moderate/targeted at Round 1; one light direct correction at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_07 (Integrated Ecology Analysis) may now begin.
+
