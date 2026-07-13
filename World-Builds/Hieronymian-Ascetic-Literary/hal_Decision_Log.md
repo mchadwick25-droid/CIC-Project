@@ -62,3 +62,32 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_05 (Ecological Reconstruction) may now begin.
 
+### 2026-07-12 — Doc_05 (Ecological Reconstruction)
+- **Document:** `hal_Doc_05_Ecological_Reconstruction.md` — five formation-ecology lenses (Human, Community, Worship, Organizational, Ministry) plus Emotional/Affective, Power/Influence, Meaning Transmission/Memory/Interpretive Ecology, Representative Theological Patterns, Proportionality Assessment, and Ecological Integration Assessment.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–04 cross-check access), each saved as its own file (`hal_Doc_05_Review_Round1.md`, `hal_Doc_05_Review_Round2.md`).
+  - Round 1: found a required Step 5 integration element (Representative Theological Patterns) effectively missing entirely — added as a new §9, independently fact-checked at Round 2; a chronological ambiguity around Marcella that read as impossible on its natural interpretation; and an unmarked Writing-From-Inside register break (the project's specific discipline for inhabited prose).
+  - Round 2: confirmed all fixes genuine via independent trace, not accepted on self-labels; independently fact-checked the new theological-patterns content; re-scanned the full document for any further register breaks (found none); verified section renumbering introduced no broken cross-references.
+- **Revision decision:** Substantial at Round 1; documentation-hygiene only at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_06 (Full Lexicon Development) may now begin.
+
+### 2026-07-12 — Doc_03 Addendum (6 additional candidate terms, pre-Doc_06)
+- **Document:** Addendum appended to `hal_Doc_03_Lexicon_Candidate_List.md` — 6 new terms (#19–24: *praefatio, epitaphium, nosocomium, bibliotheca, propositum, monachus*) plus 2 explicitly considered-and-declined terms (*monacha*; *famula/ancilla Dei*), added per Doc_03's own provisional-list clause after Doc_05 surfaced additional recurring terminology, following independent research verification before drafting.
+- **Significant finding:** Review caught a **fabricated primary-source quotation** — an earlier research pass had invented a Latin gloss falsely attributed to Jerome's Ep. 77.6, complete with a plausible-sounding claim ("Jerome glosses the Greek loanword for his Latin readers"). Two independent review rounds confirmed the fabrication and then confirmed the correction against Perseus's critical Latin text. A follow-up finding: the fabricated reading appears to circulate in AI-generated search-summary content online — flagged as a standing caution to pull primary-source text directly from critical editions for quotation-level claims for the remainder of this build.
+- **Review rounds:** 2 (`hal_Doc_03_Addendum_Review_Round1.md`, `hal_Doc_03_Addendum_Review_Round2.md`), each a fresh cold independent Agent invocation (model=opus, no drafting context). Round 1's first invocation returned a malformed/non-responsive output and was discarded before a successful retry.
+- **Revision decision:** Substantial (a fabricated quotation is a sourcing-conclusion change) — corrected and independently re-verified per the standing rule against self-certifying a substantial fix.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen. Working candidate count: 24 terms (18 original + 6 added), 2 declined.
+- **Next:** Doc_06 (Full Lexicon Development) may now begin, using the full 24-term candidate set.
+
+### 2026-07-12 — Doc_06 (Full Lexicon Development)
+- **Document:** `hal_Doc_06_Full_Lexicon_Development.md` — full three-level treatment for 15 Tier 1 terms (with matching standalone deployment chunk files in `Lexicon-Chunks/`), complete inline entries for 6 Tier 2 terms, Quick-Meaning entries for 2 Tier 3 terms. #18 *continentia* merged into #5 *vidua* per Doc_03's own flagged possibility, confirmed justified on full-treatment research. Final term count: 23. 1 CT tag applied (Origenism); Pelagianism's non-CT-tagging explicitly disclosed as deferred to Doc_08, not silently decided.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full cross-check access including the Lexicon-Chunks/ subfolder), each saved as its own file (`hal_Doc_06_Review_Round1.md`, `hal_Doc_06_Review_Round2.md`).
+  - Round 1: no fabrications, sound philology, correct gravity architecture — but 4 misdirected internal cross-references, a false Master Index reciprocity claim, an overstated cross-document verbatim claim (with one substantive drift in Vidua's Key Sources between Doc_06 and its chunk), and Writing-From-Inside leakage in 3 World Meaning sections propagated into their deployment chunks.
+  - Round 2: confirmed 3 of 4 findings genuinely fixed; found the verbatim-scope fix itself still inaccurate on independent trace against the actual chunk files — corrected directly, no further round needed.
+- **Revision decision:** Moderate/targeted at Round 1; one light direct correction at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_07 (Integrated Ecology Analysis) may now begin.
+
