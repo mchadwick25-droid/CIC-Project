@@ -118,3 +118,12 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_09b (World Profile) may now begin.
 
+### 2026-07-12 — Doc_09b (World Profile)
+- **Document:** `hal_World_Profile.md` — all 11 required sections per the L4 template: World Identity, Confirmed Gravities (6, matching Doc_04 exactly), Formation Logic (passes usability test), Ecological Summary (4 dimensions), Forces Summary (all occupied cells + 2 transmission entries), Primary Vocabulary (15 Tier 1 terms, 10 always-present), 3 held-open Tensions, 4 Honest Limits, Living Tradition Status (NO, with 2 counter-candidates actively ruled out), Integrative Observation (verified verbatim from Doc_07 §8), completion checklist.
+- **Significant finding:** Round 1 review performed a character-by-character verbatim check of Section 10 against Doc_07 §8 (a hard template requirement: "DO NOT PARAPHRASE. DO NOT SUMMARIZE. DO NOT EDIT.") and confirmed exact match. Found four moderate consistency issues (a vocabulary-count/table mismatch, a voice-convention inconsistency, an under-argued living-tradition determination, a mis-citation), none reopening settled findings.
+- **Review rounds:** 2, each a fresh cold independent Agent invocation (model=opus, no drafting context, full Doc_01–08 + template cross-check), each saved as its own file (`hal_World_Profile_Review_Round1.md`, `_Round2.md`).
+- **Revision decision:** Moderate at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories triggered; a forward dependency on the still-pending Representative identity decision was named explicitly (Section 8's voice convention).
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_09c (Validation Layer) may now begin.
+
