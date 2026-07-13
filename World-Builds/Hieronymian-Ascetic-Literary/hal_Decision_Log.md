@@ -143,3 +143,12 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Escalation category satisfied:** Representative identity/name/title — every instance, per standing rule — discussed directly with the project lead, grounded options presented, decision made by the project lead, not the build thread.
 - **Next:** Doc_10 (Representative Construction Notes, Permanent Prompt, World Capsule Core, Story Chunks) may now begin, built for Albina, *vidua* of the Hieronymian household.
 
+### 2026-07-13 — Doc_10 (Representative Construction Package)
+- **Documents:** `hal_Ecology_Assessment.md` (RCF Phase One, internal); `hal_Representative_Construction_Notes_Albina.md` (optional per CO-022, produced); `hal_Representative_Permanent_Prompt_Albina.txt` and `hal_World_Capsule_Core.md` (runtime artifacts); 12 story deployment chunks in `Story-Chunks/` matching Doc_09a's inventory exactly.
+- **Significant finding:** Round 1 review caught a meta-awareness leak in the Permanent Prompt — the single highest-severity defect category under the Representative Construction Framework's Total Embeddedness/No Meta-Awareness principle — plus a sentence-length/accessibility shortfall against the template's own readability requirement and a register-consistency slip in the Capsule Core. All resolved and independently re-verified at Round 2, including an independent word-count-based readability check rather than accepting the fix's own claim.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full cross-check against Docs 01-09b and the governing RCF templates), each saved as its own file (`hal_Doc_10_Review_Round1.md`, `_Round2.md`).
+- **Revision decision:** Moderate at Round 1; light mechanical cleanup at Round 2.
+- **Escalation check:** None of the four standing categories applied (identity already escalated and decided separately).
+- **Disposition: Approved to proceed to live adversarial testing.** This construction-time review does not substitute for genuine live testing against the actually-assembled text — that is the required next stage, per this project's own standing lesson.
+- **Next:** Live adversarial testing of the assembled Permanent Prompt + World Capsule Core, per RCF Part Eight's probe categories.
+
