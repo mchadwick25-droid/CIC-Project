@@ -100,3 +100,12 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_08 (Forces Document) may now begin.
 
+### 2026-07-12 — Doc_08 (Forces Document)
+- **Document:** `hal_Doc_08_Forces_Document.md` — full six-cell forces matrix (11 forces across 1A/1B/2A/2B/3A/3B), Cross-Cell Connections, Forces-and-Gravities Synthesis (every confirmed Doc_04 gravity traced to at least one force), Force Index with By-Confidence and By-Connected-Gravity views. Closed a CT-tagging handoff Doc_06 had explicitly deferred here (Pelagianism — decision: no CT tag, reasoned).
+- **Significant finding:** Round 1 review's highest-severity finding was that this world's central transforming event (the 384–385 Rome crisis) had no force entry at all and was mis-filed under a different force category, re-conflating a distinction the immediately-prior document (Doc_07) had specifically been corrected to preserve one document earlier in the build. Round 2 caught a further, self-introduced issue: a new force entry's Cell placement conflicted, unreconciled, with two already-Approved documents (Doc_04, Doc_06). Resolved by deferring to the already-established classification rather than asserting a competing one — an explicit demonstration of this build's cross-document consistency discipline holding across three consecutive documents.
+- **Review rounds:** 3 — Round 1 and Round 2 full cold independent adversarial reviews (fresh Agent, model=opus, no drafting context, full Doc_01–07 cross-check), Round 3 a light targeted verification of a structural cell-reclassification fix. All saved as their own files (`hal_Doc_08_Review_Round1.md`, `_Round2.md`, `_Round3.md`).
+- **Revision decision:** Substantial at Rounds 1–2 (including one structural cell reclassification); verified complete with no further issues at Round 3.
+- **Escalation check:** The cross-document classification conflict was evaluated against "unresolved tensions the pipeline can't close on its own" — resolved within-remit by deferral to prior Approved documents' classification, not escalated.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** The Doc_09 trio (Story Inventory, World Profile, Validation) may now begin.
+
