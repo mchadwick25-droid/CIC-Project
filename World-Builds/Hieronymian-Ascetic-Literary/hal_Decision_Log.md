@@ -91,3 +91,12 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_07 (Integrated Ecology Analysis) may now begin.
 
+### 2026-07-12 — Doc_07 (Integrated Ecology Analysis)
+- **Document:** `hal_Doc_07_Integrated_Ecology_Analysis.md` — world-derived lenses (Intellectual/Conceptual Structures, Authority Structures, Boundary Structures, Formation Logic, Material Culture, Memory/Theological Patterns cross-referenced not repeated), Forces as named integration lens, Integrative Observation and Cross-Lens Synthesis.
+- **Significant finding:** Round 1 review's highest-severity finding was that the original Authority Structures analysis (§2) reframed the Doc_01 §4 / Doc_04 §2 "same currency, different position" strand-determination finding as a "non-overlapping domain" account — a subtle but real departure from, and undermining of, that twice-reviewed prior reasoning, treated with escalation-adjacent scrutiny given it touched an already-Approved document's logic. Round 2 independently traced the reworked section word-by-word against Doc_01 §4's and Doc_04 §2's actual text (not the revision's own "corrected" label) and confirmed genuine, verified alignment — the tension is closed on valid reasoning, not silently smoothed over or escalated on a false alarm.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–06 cross-check), each saved as its own file (`hal_Doc_07_Review_Round1.md`, `hal_Doc_07_Review_Round2.md`).
+- **Revision decision:** Substantial at Round 1 (given the cross-document consistency stakes); verified resolved at Round 2 with one final mechanical correction.
+- **Escalation check:** Evaluated against "unresolved tensions the pipeline can't close on its own" specifically; Round 2's independent trace confirmed the tension is genuinely closed — not escalated.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_08 (Forces Document) may now begin.
+
