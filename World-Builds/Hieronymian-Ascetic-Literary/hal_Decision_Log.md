@@ -109,3 +109,12 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** The Doc_09 trio (Story Inventory, World Profile, Validation) may now begin.
 
+### 2026-07-12 — Doc_09a (Story Inventory)
+- **Document:** `hal_Doc_09a_Story_Inventory.md` — 12 stories (6 Tier 1, 0 Tier 2 — genuine, argued absence — 4 Tier 3, 2 Tier 4), No-Tier-5 audit, Source Registry cross-reference, Absent Stories section (6 specific items), Story Index.
+- **Significant finding:** Round 1 review caught an unexplained coverage gap — the Origenist controversy/Rufinus rupture, called "this world's central internal fracture" at Doc_02 §2.1, was missing from both the inventory and the Absent Stories section, while comparable but less-central material had been included. Added as S3a; Round 2 independently cross-checked its confidence calibration against Doc_08's own force entry (2B-1) and found an exact match. Also resolved a tier-vs-confidence classification ambiguity (the Vitae, S9) that Doc_02 §5 had explicitly deferred to this document.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–08 cross-check), each saved as its own file (`hal_Doc_09a_Review_Round1.md`, `hal_Doc_09a_Review_Round2.md`).
+- **Revision decision:** Substantial (lighter end) at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_09b (World Profile) may now begin.
+
