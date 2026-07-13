@@ -127,3 +127,13 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_09c (Validation Layer) may now begin.
 
+### 2026-07-12 — Doc_09c (Validation Layer)
+- **Document:** `hal_Doc_09c_Validation_Layer.md` — all 15 Framework Part VI world-level validation categories addressed (12 tested and Passed; 3 — Relational Safety, Adversarial Resistance, Encounter Testing — correctly deferred to Doc_10/live-testing since they require an actual built Representative), plus a Freeze Criteria checklist stating plainly this world is **not yet eligible for freeze**.
+- **Significant finding:** Round 1 review's central concern was the structural self-grading risk (a validation document written by the same process it evaluates). The review found the document's substantive verdicts were not dishonest — every Pass traced to real, checkable, independently-reviewed prior evidence — but found self-certifying language in several sections claiming more independence of judgment than such a document can itself possess, plus a citation error and a mischaracterized residual in Balance Testing, and an overstated catch-mechanism claim in Historical Plausibility. All deflated to compilation/citation register and corrected.
+- **Review rounds:** 2, each a fresh cold independent Agent invocation (model=opus, no drafting context, full Doc_01–09b cross-check), each saved as its own file (`hal_Doc_09c_Review_Round1.md`, `_Round2.md`).
+- **Revision decision:** Moderate at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen — this world explicitly cannot reach Frozen until Representative-dependent validation and External Scholarly Review are closed.
+- **Milestone: Docs 01–09 (the full pre-Representative construction sequence) are now complete and Approved to proceed.**
+- **Next:** Representative identity/naming — a standing escalation category — must be presented to the project lead before Doc_10 begins.
+
