@@ -80,15 +80,15 @@
 | Major tensions remain visible | Yes (§5 above) |
 | Differentiation established | Yes (§8 above) |
 | Continuity with adjacent worlds acknowledged without collapsing distinction | Yes (Doc_01 §7) |
-| Representative voices accountable and appropriately grounded | **Not yet applicable — no Representative built** |
-| Encounter testing successful | **Not yet applicable — no encounter system built** |
+| Representative voices accountable and appropriately grounded | **Updated post-Doc_10:** Albina (*vidua*) built and carried through 2 rounds of live adversarial testing (RCF Part Eight probes) plus 1 targeted retest round addressing initially-ambiguous findings. Both rounds independently cold-scored; final result clean pass across all 8 probe categories with 2 explicitly-recorded scoping caveats (relational-safety system-level handoff untested since no Facilitator layer exists at construction stage; one thin-margin phrasing noted, not disqualifying). See `hal_Phase5_LiveTest_*` files. |
+| Encounter testing successful | **Still not applicable** — encounter testing (RCF Part Eight, "does encounter reveal the ecology rather than merely describe it") requires a full deployed multi-turn encounter system with the Facilitator layer present, which is outside this build thread's scope. What has been tested is the Representative's own boundary-preservation under adversarial pressure (Phase Five Boundary Testing), not full Dynamic Encounter Validation against a live deployed system. |
 | Ecological integrity testing satisfactory | Yes (§2 above) |
 | Forces Document complete (Doc_08) | Yes, Approved to proceed |
 | Story Inventory complete (Doc_09a) | Yes, Approved to proceed |
 | Living Tradition Status confirmed where applicable | Determination on record — Not Applicable, reviewed at World Profile stage; final gate-satisfaction pending project-lead confirmation like Freeze itself (§12 above, corrected per Round 1 review) |
 | External Scholarly Review complete (Article 31 gate) | **Outstanding — not yet performed; a standing item for the project lead or coach thread, not something a build thread can self-certify** |
 
-**This world is not eligible for freeze at this stage**, and no claim to the contrary is made here — freeze requires the Representative-dependent categories (§11, §13, §14, the Freeze Criteria table's two "not yet applicable" rows) to be closed via Doc_10 and live testing, and requires External Scholarly Review, which is outside this build thread's own authority to perform or certify.
+**Post-Doc_10 update (2026-07-13), disclosed inline as an additive, factual status update, not a re-interpretation of anything already reviewed:** the Representative-dependent Freeze Criteria row is now updated to reflect completed Doc_10 construction and live adversarial testing (see table above). **This world is still not eligible for freeze at this stage.** Two items remain outstanding: full Encounter Testing (requires a deployed multi-turn system with Facilitator layer, outside this build thread's scope) and External Scholarly Review (outside this build thread's own authority to perform or certify). §11 and §13 (Relational Safety, Adversarial Resistance) are addressed in the sense that Albina's own boundary-preservation under adversarial and relational-safety-adjacent pressure has been live-tested and passed — but the full system-level relational-safety property (the Facilitator-layer handoff) remains untested, per the explicit scoping caveat in the live-test scoring record.
 
 ---
 
