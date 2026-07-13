@@ -91,3 +91,55 @@ This log is created concurrently with Doc_01, not reconstructed retroactively, p
 - **Disposition: Approved to proceed.** Not Frozen.
 - **Next:** Doc_07 (Integrated Ecology Analysis) may now begin.
 
+### 2026-07-12 — Doc_07 (Integrated Ecology Analysis)
+- **Document:** `hal_Doc_07_Integrated_Ecology_Analysis.md` — world-derived lenses (Intellectual/Conceptual Structures, Authority Structures, Boundary Structures, Formation Logic, Material Culture, Memory/Theological Patterns cross-referenced not repeated), Forces as named integration lens, Integrative Observation and Cross-Lens Synthesis.
+- **Significant finding:** Round 1 review's highest-severity finding was that the original Authority Structures analysis (§2) reframed the Doc_01 §4 / Doc_04 §2 "same currency, different position" strand-determination finding as a "non-overlapping domain" account — a subtle but real departure from, and undermining of, that twice-reviewed prior reasoning, treated with escalation-adjacent scrutiny given it touched an already-Approved document's logic. Round 2 independently traced the reworked section word-by-word against Doc_01 §4's and Doc_04 §2's actual text (not the revision's own "corrected" label) and confirmed genuine, verified alignment — the tension is closed on valid reasoning, not silently smoothed over or escalated on a false alarm.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–06 cross-check), each saved as its own file (`hal_Doc_07_Review_Round1.md`, `hal_Doc_07_Review_Round2.md`).
+- **Revision decision:** Substantial at Round 1 (given the cross-document consistency stakes); verified resolved at Round 2 with one final mechanical correction.
+- **Escalation check:** Evaluated against "unresolved tensions the pipeline can't close on its own" specifically; Round 2's independent trace confirmed the tension is genuinely closed — not escalated.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_08 (Forces Document) may now begin.
+
+### 2026-07-12 — Doc_08 (Forces Document)
+- **Document:** `hal_Doc_08_Forces_Document.md` — full six-cell forces matrix (11 forces across 1A/1B/2A/2B/3A/3B), Cross-Cell Connections, Forces-and-Gravities Synthesis (every confirmed Doc_04 gravity traced to at least one force), Force Index with By-Confidence and By-Connected-Gravity views. Closed a CT-tagging handoff Doc_06 had explicitly deferred here (Pelagianism — decision: no CT tag, reasoned).
+- **Significant finding:** Round 1 review's highest-severity finding was that this world's central transforming event (the 384–385 Rome crisis) had no force entry at all and was mis-filed under a different force category, re-conflating a distinction the immediately-prior document (Doc_07) had specifically been corrected to preserve one document earlier in the build. Round 2 caught a further, self-introduced issue: a new force entry's Cell placement conflicted, unreconciled, with two already-Approved documents (Doc_04, Doc_06). Resolved by deferring to the already-established classification rather than asserting a competing one — an explicit demonstration of this build's cross-document consistency discipline holding across three consecutive documents.
+- **Review rounds:** 3 — Round 1 and Round 2 full cold independent adversarial reviews (fresh Agent, model=opus, no drafting context, full Doc_01–07 cross-check), Round 3 a light targeted verification of a structural cell-reclassification fix. All saved as their own files (`hal_Doc_08_Review_Round1.md`, `_Round2.md`, `_Round3.md`).
+- **Revision decision:** Substantial at Rounds 1–2 (including one structural cell reclassification); verified complete with no further issues at Round 3.
+- **Escalation check:** The cross-document classification conflict was evaluated against "unresolved tensions the pipeline can't close on its own" — resolved within-remit by deferral to prior Approved documents' classification, not escalated.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** The Doc_09 trio (Story Inventory, World Profile, Validation) may now begin.
+
+### 2026-07-12 — Doc_09a (Story Inventory)
+- **Document:** `hal_Doc_09a_Story_Inventory.md` — 12 stories (6 Tier 1, 0 Tier 2 — genuine, argued absence — 4 Tier 3, 2 Tier 4), No-Tier-5 audit, Source Registry cross-reference, Absent Stories section (6 specific items), Story Index.
+- **Significant finding:** Round 1 review caught an unexplained coverage gap — the Origenist controversy/Rufinus rupture, called "this world's central internal fracture" at Doc_02 §2.1, was missing from both the inventory and the Absent Stories section, while comparable but less-central material had been included. Added as S3a; Round 2 independently cross-checked its confidence calibration against Doc_08's own force entry (2B-1) and found an exact match. Also resolved a tier-vs-confidence classification ambiguity (the Vitae, S9) that Doc_02 §5 had explicitly deferred to this document.
+- **Review rounds:** 2, each a fresh cold independent adversarial Agent invocation (model=opus, no drafting context, full Doc_01–08 cross-check), each saved as its own file (`hal_Doc_09a_Review_Round1.md`, `hal_Doc_09a_Review_Round2.md`).
+- **Revision decision:** Substantial (lighter end) at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_09b (World Profile) may now begin.
+
+### 2026-07-12 — Doc_09b (World Profile)
+- **Document:** `hal_World_Profile.md` — all 11 required sections per the L4 template: World Identity, Confirmed Gravities (6, matching Doc_04 exactly), Formation Logic (passes usability test), Ecological Summary (4 dimensions), Forces Summary (all occupied cells + 2 transmission entries), Primary Vocabulary (15 Tier 1 terms, 10 always-present), 3 held-open Tensions, 4 Honest Limits, Living Tradition Status (NO, with 2 counter-candidates actively ruled out), Integrative Observation (verified verbatim from Doc_07 §8), completion checklist.
+- **Significant finding:** Round 1 review performed a character-by-character verbatim check of Section 10 against Doc_07 §8 (a hard template requirement: "DO NOT PARAPHRASE. DO NOT SUMMARIZE. DO NOT EDIT.") and confirmed exact match. Found four moderate consistency issues (a vocabulary-count/table mismatch, a voice-convention inconsistency, an under-argued living-tradition determination, a mis-citation), none reopening settled findings.
+- **Review rounds:** 2, each a fresh cold independent Agent invocation (model=opus, no drafting context, full Doc_01–08 + template cross-check), each saved as its own file (`hal_World_Profile_Review_Round1.md`, `_Round2.md`).
+- **Revision decision:** Moderate at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories triggered; a forward dependency on the still-pending Representative identity decision was named explicitly (Section 8's voice convention).
+- **Disposition: Approved to proceed.** Not Frozen.
+- **Next:** Doc_09c (Validation Layer) may now begin.
+
+### 2026-07-12 — Doc_09c (Validation Layer)
+- **Document:** `hal_Doc_09c_Validation_Layer.md` — all 15 Framework Part VI world-level validation categories addressed (12 tested and Passed; 3 — Relational Safety, Adversarial Resistance, Encounter Testing — correctly deferred to Doc_10/live-testing since they require an actual built Representative), plus a Freeze Criteria checklist stating plainly this world is **not yet eligible for freeze**.
+- **Significant finding:** Round 1 review's central concern was the structural self-grading risk (a validation document written by the same process it evaluates). The review found the document's substantive verdicts were not dishonest — every Pass traced to real, checkable, independently-reviewed prior evidence — but found self-certifying language in several sections claiming more independence of judgment than such a document can itself possess, plus a citation error and a mischaracterized residual in Balance Testing, and an overstated catch-mechanism claim in Historical Plausibility. All deflated to compilation/citation register and corrected.
+- **Review rounds:** 2, each a fresh cold independent Agent invocation (model=opus, no drafting context, full Doc_01–09b cross-check), each saved as its own file (`hal_Doc_09c_Review_Round1.md`, `_Round2.md`).
+- **Revision decision:** Moderate at Round 1; verified complete at Round 2.
+- **Escalation check:** None of the four standing categories applied.
+- **Disposition: Approved to proceed.** Not Frozen — this world explicitly cannot reach Frozen until Representative-dependent validation and External Scholarly Review are closed.
+- **Milestone: Docs 01–09 (the full pre-Representative construction sequence) are now complete and Approved to proceed.**
+- **Next:** Representative identity/naming — a standing escalation category — must be presented to the project lead before Doc_10 begins.
+
+### 2026-07-12/13 — Representative Identity Decision (standing escalation category, decided directly with project lead)
+- **Document:** `hal_Representative_Identity_Preliminary_Decision.md` — four grounded options (Jerome/Hieronymus; collective voice; Marcella; Paula) presented with named trade-offs and a conditioned recommendation, per standing process. Escalated directly to the project lead per protocol; not self-assigned.
+- **Decision:** Project lead proposed and selected a fifth option, superseding the four presented: a period-typical, non-documented figure rather than any of the world's specifically attested named individuals. **Role:** *vidua* (ascetic widow), the status category shared by Paula, Marcella, and Fabiola, chosen to credibly span this world's two most women-centered Primary gravities plus structurally credible (non-invented) exposure to the third. **Name: Albina** — a genuinely period-attested Roman name, selected with one disclosed residual risk (it is also, in this world's own actual sources, the name of Marcella's mother, mentioned in passing in Ep. 127) — the project lead chose this name with that specific risk named and understood, not on an oversight of it. Doc_10 construction must explicitly disambiguate the Representative from the historically-attested Albina; no invented relationship to that figure is asserted.
+- **Escalation category satisfied:** Representative identity/name/title — every instance, per standing rule — discussed directly with the project lead, grounded options presented, decision made by the project lead, not the build thread.
+- **Next:** Doc_10 (Representative Construction Notes, Permanent Prompt, World Capsule Core, Story Chunks) may now begin, built for Albina, *vidua* of the Hieronymian household.
+
