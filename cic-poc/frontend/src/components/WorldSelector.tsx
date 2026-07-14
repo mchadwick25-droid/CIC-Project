@@ -139,7 +139,12 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
               )}
 
               <div className="world-card__header">
-                <h3 className="world-card__name">{world.name}</h3>
+                <div>
+                  <h3 className="world-card__name">{world.name}</h3>
+                  {world.subtitle && (
+                    <span className="world-card__subtitle">({world.subtitle})</span>
+                  )}
+                </div>
                 <span className="world-card__period">{world.period}</span>
               </div>
 

@@ -78,6 +78,7 @@ export interface Representative {
 export interface World {
   id: string;
   name: string;
+  subtitle?: string | null;
   period: string;
   region: string;
   description: string;

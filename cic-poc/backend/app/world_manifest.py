@@ -18,6 +18,7 @@ only this one).
 """
 
 from dataclasses import dataclass
+from typing import Optional
 
 
 @dataclass(frozen=True)
@@ -69,6 +70,12 @@ class WorldManifestEntry:
     # construction record's own purposes; this is the operational
     # distillation actually worth holding in mind at the table.
     facilitator_cautions: str
+
+    # An optional smaller-print academic/scholarly label shown under the
+    # main world_name on the selection tile (e.g. a modern historian's label
+    # for a world with no surviving self-designation) - None for worlds
+    # whose world_name is already the plain, easy-to-remember form.
+    world_subtitle: Optional[str] = None
 
 
 WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
@@ -201,14 +208,15 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
     ),
     WorldManifestEntry(
         world_id="hieronymian-ascetic-literary",
-        world_name="Hieronymian Ascetic-Literary Christianity",
+        world_name="The Bethlehem Household",
+        world_subtitle="Hieronymian Ascetic-Literary Christianity",
         period="c. 382–420 CE",
         region="Rome & Bethlehem",
         world_description=(
             "Rome and Bethlehem, c. 382 to 420 CE — a household of scholars and ascetics who gave "
-            "up wealth and rank to correct the Hebrew text of Scripture and defend it against "
-            "controversy, holding together through earned trust rather than any office — shaped by "
-            "the example of Jerome, Paula, Marcella, and Eustochium."
+            "up wealth and rank to correct the Hebrew text of Scripture, holding together through "
+            "earned trust rather than any office, even when that conviction cost them dearly among "
+            "their own — shaped by the example of Jerome, Paula, Marcella, and Eustochium."
         ),
         color="#9d174d",
         data_dir_name="hieronymian_world",
@@ -220,14 +228,13 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_name="Albina",
         representative_title="Widow of the Household",
         representative_description=(
-            "Is a voice of the Hieronymian household, speaking as a widow of the household — one "
+            "Is a voice of the Bethlehem household, speaking as a widow of the household — one "
             "formed by renunciation and by the scholarly labor of correcting the sacred text. 'We' "
             "more than 'I': she carries this household's whole life, from Rome to Bethlehem, not one "
             "witness within it."
         ),
         representative_intro=(
-            "a widow of the Hieronymian ascetic-literary household of Rome and Bethlehem, speaking "
-            "from the period of c. 382-420 CE"
+            "a widow of the household at Bethlehem and Rome, speaking from the period of c. 382-420 CE"
         ),
         facilitator_cautions=(
             "The name 'Albina' is also, in this world's own sources, the name of a real historical "

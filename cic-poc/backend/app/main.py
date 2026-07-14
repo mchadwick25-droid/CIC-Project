@@ -870,6 +870,10 @@ class World(BaseModel):
 
     id: str
     name: str
+    # Smaller-print academic/scholarly label shown under the main name on
+    # the selection tile - None for worlds whose name is already the plain,
+    # easy-to-remember form.
+    subtitle: Optional[str] = None
     period: str
     region: str
     description: str
@@ -889,6 +893,7 @@ AVAILABLE_WORLDS = [
     World(
         id=entry.world_id,
         name=entry.world_name,
+        subtitle=entry.world_subtitle,
         period=entry.period,
         region=entry.region,
         description=entry.world_description,

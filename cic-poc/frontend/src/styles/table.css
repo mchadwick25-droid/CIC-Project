@@ -886,6 +886,15 @@ body {
   margin: 0;
 }
 
+.world-card__subtitle {
+  display: block;
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
 .world-card__period {
   font-family: var(--font-family-ui);
   font-size: var(--font-size-sm);
