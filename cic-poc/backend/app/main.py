@@ -317,6 +317,10 @@ async def send_message(session_id: str, request: SendMessageRequest):
         update_relational_safety_state,
     )
 
+    pre_track_a_active = state.track_a_active
+    pre_track_a_severity = state.track_a_severity
+    pre_track_b_active = state.track_b_active
+
     rs_classification = classify_relational_safety(state, request.message)
     rs_updates = update_relational_safety_state(state, rs_classification)
     for field_name, value in rs_updates.items():
@@ -324,7 +328,12 @@ async def send_message(session_id: str, request: SendMessageRequest):
 
     if relational_safety_should_fire(state, rs_classification, rs_updates):
         new_message = None
-        for event in stream_relational_safety_response(state, rs_classification, rs_updates):
+        for event in stream_relational_safety_response(
+            state, rs_classification, rs_updates,
+            pre_track_a_active=pre_track_a_active,
+            pre_track_a_severity=pre_track_a_severity,
+            pre_track_b_active=pre_track_b_active,
+        ):
             if event["type"] == "complete":
                 new_message = event["message"]
         state.messages = list(state.messages) + [new_message]
@@ -452,6 +461,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     rs_classification = {"category": "NO_SIGNAL"}
     rs_updates: dict = {}
     is_relational_safety_firing = False
+    pre_track_a_active = state.track_a_active
+    pre_track_a_severity = state.track_a_severity
+    pre_track_b_active = state.track_b_active
     if not is_frame_breaker:
         rs_classification = classify_relational_safety(state, request.message)
         rs_updates = update_relational_safety_state(state, rs_classification)
@@ -528,7 +540,12 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             yield sse({"type": "speaker_start", "speaker": "facilitator"})
             new_message = None
             try:
-                for event in stream_relational_safety_response(state, rs_classification, rs_updates):
+                for event in stream_relational_safety_response(
+                    state, rs_classification, rs_updates,
+                    pre_track_a_active=pre_track_a_active,
+                    pre_track_a_severity=pre_track_a_severity,
+                    pre_track_b_active=pre_track_b_active,
+                ):
                     if event["type"] == "token":
                         yield sse({
                             "type": "token",

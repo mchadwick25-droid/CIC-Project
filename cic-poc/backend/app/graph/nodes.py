@@ -346,7 +346,26 @@ def classify_relational_safety(state: ConversationState, message: str) -> dict:
         if category == "ACUTE_DISTRESS":
             out["severity"] = detail if detail in ("A1", "A2") else "A1"
         elif category in ("HARMFUL_DYNAMIC_SIGNAL", "AMBIGUOUS_LOW_CONFIDENCE"):
-            out["tag"] = detail
+            # The classifier prompt's own worked examples show a single
+            # message legitimately carrying more than one tag (e.g.
+            # CONFIDANT_LANGUAGE + AFFIRMATION_DEPENDENCE + RETURN_COMPULSION
+            # in one line), even though the response-format spec only shows
+            # a single-tag example. Parse every known tag token out of
+            # `detail` rather than treating it as one opaque string - the
+            # same compound-label failure mode already found once this
+            # session in the drift-signal whitelist.
+            known_tags = {
+                "CONFIDANT_LANGUAGE",
+                "AFFIRMATION_DEPENDENCE",
+                "RETURN_COMPULSION",
+                "DISTRESS_ADJACENT",
+            }
+            raw_tokens = re.split(r"[+,/]|\bAND\b", detail or "")
+            parsed_tags = [t.strip() for t in raw_tokens if t.strip() in known_tags]
+            if not parsed_tags and detail:
+                parsed_tags = [t for t in known_tags if t in detail]
+            out["tags"] = parsed_tags
+            out["tag"] = parsed_tags[0] if parsed_tags else detail
         return out
     except Exception:
         return {"category": "NO_SIGNAL"}
@@ -387,24 +406,29 @@ def update_relational_safety_state(state: ConversationState, classification: dic
         updates["relational_safety_deescalation_count"] = 0
 
     # --- Track B (Harmful Dynamic) ---
-    tag = classification.get("tag")
-    if category == "HARMFUL_DYNAMIC_SIGNAL" and tag:
-        new_tags = list(state.relational_safety_tags) + [tag]
+    # A single message can legitimately carry more than one tag (see
+    # classify_relational_safety's parsing) - treat every parsed tag from
+    # this turn as its own accumulator entry, not one compound entry.
+    tags_this_turn = classification.get("tags") or (
+        [classification["tag"]] if classification.get("tag") else []
+    )
+    if category == "HARMFUL_DYNAMIC_SIGNAL" and tags_this_turn:
+        new_tags = list(state.relational_safety_tags) + tags_this_turn
         updates["relational_safety_tags"] = new_tags
         updates["relational_safety_deescalation_count"] = 0
 
-        if tag in _HARMFUL_DYNAMIC_IMMEDIATE_TAGS:
+        if any(t in _HARMFUL_DYNAMIC_IMMEDIATE_TAGS for t in tags_this_turn):
             updates["track_b_active"] = True
         else:
             pooled_count = sum(1 for t in new_tags if t in _HARMFUL_DYNAMIC_POOLED_TAGS)
             if pooled_count >= _HARMFUL_DYNAMIC_POOLED_THRESHOLD:
                 updates["track_b_active"] = True
-    elif category == "AMBIGUOUS_LOW_CONFIDENCE" and tag:
+    elif category == "AMBIGUOUS_LOW_CONFIDENCE" and tags_this_turn:
         # Logged as a weak signal per the design doc, but does not by itself
         # cross the Track B threshold and does not reset the de-escalation
         # counter - an ambiguous turn is not itself evidence against
         # de-escalation the way a clear signal is.
-        updates["relational_safety_tags"] = list(state.relational_safety_tags) + [tag]
+        updates["relational_safety_tags"] = list(state.relational_safety_tags) + tags_this_turn
 
     # --- De-escalation (applies while a track is active and this turn
     # carries no signal at all - NO_SIGNAL only; HISTORICAL_OTHERNESS_
@@ -470,7 +494,14 @@ def _describe_accumulated_pattern(tags: list[str]) -> str:
     return " and ".join(descriptions)
 
 
-def stream_relational_safety_response(state: ConversationState, classification: dict, updates: dict):
+def stream_relational_safety_response(
+    state: ConversationState,
+    classification: dict,
+    updates: dict,
+    pre_track_a_active: bool = None,
+    pre_track_a_severity: str = None,
+    pre_track_b_active: bool = None,
+):
     """
     Stream the Facilitator's threshold-voice response to a firing relational-
     safety turn, per the corrected design (no dual-voice, no named resource,
@@ -484,6 +515,15 @@ def stream_relational_safety_response(state: ConversationState, classification: 
     shown a message once a track fires - same withholding discipline as
     stream_frame_breaker_response. Yields the same token/complete event
     shape so callers can treat it identically.
+
+    pre_track_a_active/pre_track_a_severity/pre_track_b_active must be the
+    session's track state from BEFORE this turn's `updates` were applied -
+    they are what distinguishes a fresh fire (full check-in script) from a
+    continuation (light-touch acknowledgment). Callers that have already
+    applied `updates` onto `state` before calling this function MUST pass
+    these explicitly rather than relying on `state.track_a_active` etc.,
+    which would otherwise already reflect the post-update value and make
+    every fresh fire misread as a continuation.
     """
     llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
     representative_name = get_representative_name(state.current_world_id or state.world_id)
@@ -494,14 +534,18 @@ def stream_relational_safety_response(state: ConversationState, classification: 
             last_human_message = msg.content
             break
 
-    resolved_track_a = updates.get("track_a_active", state.track_a_active)
-    resolved_track_b = updates.get("track_b_active", state.track_b_active)
+    was_track_a_active = state.track_a_active if pre_track_a_active is None else pre_track_a_active
+    was_track_a_severity = state.track_a_severity if pre_track_a_severity is None else pre_track_a_severity
+    was_track_b_active = state.track_b_active if pre_track_b_active is None else pre_track_b_active
+
+    resolved_track_a = updates.get("track_a_active", was_track_a_active)
+    resolved_track_b = updates.get("track_b_active", was_track_b_active)
     category = classification["category"]
 
     if category == "ACUTE_DISTRESS":
-        severity = updates.get("track_a_severity", state.track_a_severity) or classification.get("severity", "A1")
-        is_fresh_fire = not state.track_a_active or (
-            severity == "A2" and state.track_a_severity != "A2"
+        severity = updates.get("track_a_severity", was_track_a_severity) or classification.get("severity", "A1")
+        is_fresh_fire = not was_track_a_active or (
+            severity == "A2" and was_track_a_severity != "A2"
         )
         if is_fresh_fire and severity == "A2":
             prompt = FACILITATOR_ACUTE_DISTRESS_A2_PROMPT.format(
@@ -513,7 +557,7 @@ def stream_relational_safety_response(state: ConversationState, classification: 
             )
         else:
             prompt = FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT.format(message=last_human_message)
-    elif resolved_track_b and not state.track_b_active:
+    elif resolved_track_b and not was_track_b_active:
         prompt = FACILITATOR_HARMFUL_DYNAMIC_PROMPT.format(
             representative_name=representative_name,
             accumulated_pattern_description=_describe_accumulated_pattern(
