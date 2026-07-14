@@ -40,6 +40,10 @@ const REPRESENTATIVE_INFO: Record<string, { name: string; title: string }> = {
     name: 'Papnoute',
     title: 'Elder of the Desert',
   },
+  albina: {
+    name: 'Albina',
+    title: 'Widow of the Household',
+  },
 };
 
 function getSpeakerInfo(message: Message): {
@@ -70,6 +74,7 @@ function getSpeakerInfo(message: Message): {
     case 'mar_yausep':
     case 'chloe':
     case 'papnoute':
+    case 'albina':
       const info = REPRESENTATIVE_INFO[speakerName] || { name: 'Representative', title: '' };
       return {
         name: info.name,
