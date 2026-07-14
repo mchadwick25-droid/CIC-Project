@@ -1720,3 +1720,155 @@ DESCRIPTION: one sentence (omit if not detected)"""
         )
         for wid in spoken_this_round
     ]
+
+
+_CROSS_WORLD_TERM_PATTERN_CACHE: dict[str, re.Pattern] = {}
+
+
+def _term_boundary_pattern(term: str) -> re.Pattern:
+    """Word-boundary, case-insensitive regex for a single lexicon term, cached by term string."""
+    if term not in _CROSS_WORLD_TERM_PATTERN_CACHE:
+        _CROSS_WORLD_TERM_PATTERN_CACHE[term] = re.compile(
+            r"\b" + re.escape(term) + r"\b", re.IGNORECASE
+        )
+    return _CROSS_WORLD_TERM_PATTERN_CACHE[term]
+
+
+def _extract_term_candidates(term_field: str) -> list[str]:
+    """
+    A lexicon chunk's raw "Term" field routinely packs multiple forms into
+    one string - e.g. "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama" or "madrasha
+    (ܡܕܪܫܐ) / madrashe (plural)". Matching that whole string verbatim
+    against a Representative's own ordinary speech never matches anything -
+    this pulls out the actual candidate word-forms a Representative might
+    plausibly say: parenthetical native-script glosses dropped, the
+    remainder split on "/", each piece trimmed. Short fragments (under 3
+    characters) are dropped as too generic to safely flag.
+    """
+    without_parens = re.sub(r"\([^)]*\)", "", term_field)
+    candidates = [piece.strip() for piece in without_parens.split("/")]
+    return [c for c in candidates if len(c) >= 3]
+
+
+def _get_world_lexicon_terms(world_id: str) -> list[tuple[str, str]]:
+    """(term, full_chunk_text) pairs for a world's own lexicon, for cross-world drift detection.
+
+    One raw lexicon entry can yield more than one (term, chunk_text) pair,
+    since its own Term field may pack multiple candidate forms together
+    (see _extract_term_candidates) - each candidate carries the same chunk
+    text back for the disambiguation prompt.
+    """
+    retriever = get_retriever(world_id)
+    docs = list(retriever.vector_store.docstore._dict.values())
+    pairs = []
+    for doc in docs:
+        raw_term = doc.metadata.get("term", "")
+        if not raw_term:
+            continue
+        for candidate in _extract_term_candidates(raw_term):
+            pairs.append((candidate, doc.page_content))
+    return pairs
+
+
+def check_cross_world_vocabulary_drift(
+    state: ConversationState, spoken_this_round: list[str]
+) -> list[DriftSignal]:
+    """
+    Deterministic-first check for a Representative literally using another
+    seated world's own lexicon vocabulary - the specific "cross-world drift"
+    signal named in Facilitator Governance V3.6 and self-disclosed there as
+    unvalidated. Distinct from check_convergence, which only looks for
+    voices blending or a manufactured shared conclusion within one round's
+    transcript - this checks whether one specific Representative used a
+    term that belongs, by this project's own lexicon record, to a
+    DIFFERENT seated world's own formation.
+
+    Cheap in the common case: a word-boundary string pre-filter against
+    every other seated world's own lexicon terms runs first, with no LLM
+    call, and almost always finds nothing. Only when a term-string actually
+    appears in another Representative's turn does a small, targeted LLM
+    call fire, checking that specific usage against the term's own Tier
+    entry (its real Quick Meaning / Ecological Function, already sitting in
+    the lexicon chunk) to confirm the term is being invoked in its real,
+    world-specific conceptual sense - not a coincidental overlap. Syriac's
+    own lexicon term "Mar" is also the ordinary English verb "to mar";
+    plenty of other terms have subtler versions of the same problem. A bare
+    string match cannot tell a real cross-world vocabulary borrowing from
+    an ordinary word doing unrelated work in the sentence - only checking
+    the usage against the term's own defined ecological meaning can.
+    """
+    if len(spoken_this_round) < 2:
+        return []
+
+    name_to_world = {get_representative_message_name(wid): wid for wid in spoken_this_round}
+
+    round_turns: dict[str, str] = {}
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        if name in name_to_world and name_to_world[name] not in round_turns:
+            round_turns[name_to_world[name]] = str(msg.content)
+        if len(round_turns) >= len(spoken_this_round):
+            break
+
+    if len(round_turns) < 2:
+        return []
+
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+
+    terms_by_world = {wid: _get_world_lexicon_terms(wid) for wid in round_turns}
+    llm = get_monitoring_llm()
+    signals: list[DriftSignal] = []
+
+    for speaker_world_id, turn_text in round_turns.items():
+        for other_world_id, other_terms in terms_by_world.items():
+            if other_world_id == speaker_world_id:
+                continue
+
+            for term, chunk_text in other_terms:
+                match = _term_boundary_pattern(term).search(turn_text)
+                if not match:
+                    continue
+
+                context_window = turn_text[max(0, match.start() - 150): match.end() + 150]
+                prompt = f"""A Representative formed within one world's own tradition just spoke. Their turn contains the string "{term}", a specific, defined technical term belonging to a DIFFERENT world's own vocabulary - not this Representative's own formation.
+
+That other world's own definition of this term:
+{chunk_text[:800]}
+
+The Representative's actual sentence where the string appeared:
+"{context_window}"
+
+Is "{term}" here being used to invoke that OTHER world's own specific, technical, ecological meaning of the term - a real cross-world vocabulary borrowing - or is it incidental: an ordinary word, a coincidental homograph, a proper name, or some other sense entirely unrelated to that world's own concept?
+
+Respond with exactly one word: INVOKING or INCIDENTAL."""
+
+                try:
+                    response = llm.invoke([HumanMessage(content=prompt)])
+                    verdict = response.content.strip().upper()
+                except Exception:
+                    continue
+
+                if "INVOKING" not in verdict:
+                    continue
+
+                other_info = REPRESENTATIVE_INFO.get(other_world_id)
+                other_name = other_info["name"] if other_info else other_world_id
+                signals.append(DriftSignal(
+                    signal_type="cross_world_vocabulary",
+                    description=(
+                        f"You used \"{term}\", which belongs specifically to {other_name}'s own "
+                        f"formation, not yours. Speak of this concept in your own world's own "
+                        f"vocabulary instead."
+                    ),
+                    severity="medium",
+                    world_id=speaker_world_id,
+                ))
+                # One confirmed borrowing is enough to queue a correction for
+                # this speaker this round - move on to the next speaker
+                # rather than piling up redundant signals for the same turn.
+                break
+            else:
+                continue
+            break
+
+    return signals

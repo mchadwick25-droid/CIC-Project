@@ -424,6 +424,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
     from app.graph.nodes import (
         check_convergence,
+        check_cross_world_vocabulary_drift,
         check_dominance,
         check_drift_for_message,
         classify_frame_breaker,
@@ -713,7 +714,11 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                     world_id=state.world_id,
                     world_ids=state.world_ids,
                 )
-                for signal in check_dominance(check_state) + check_convergence(check_state, spoken_this_round):
+                for signal in (
+                    check_dominance(check_state)
+                    + check_convergence(check_state, spoken_this_round)
+                    + check_cross_world_vocabulary_drift(check_state, spoken_this_round)
+                ):
                     new_drift_signals.append(signal)
                     if signal.world_id and signal.severity in ("medium", "high"):
                         new_pending_guidance[signal.world_id] = signal.description

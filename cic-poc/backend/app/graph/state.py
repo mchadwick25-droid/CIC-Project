@@ -24,13 +24,15 @@ class DriftSignal:
         "anachronism",
         "dominance",
         "convergence",
+        "cross_world_vocabulary",
     ]
     description: str
     severity: Literal["low", "medium", "high"]
     # Which representative this signal concerns - None for the original
     # single-representative signals above, which apply to whoever spoke last.
-    # "dominance" and "convergence" are multi-representative-table signals
-    # and are always attributed to a specific world_id.
+    # "dominance", "convergence", and "cross_world_vocabulary" are
+    # multi-representative-table signals and are always attributed to a
+    # specific world_id.
     world_id: Optional[str] = None
 
 
