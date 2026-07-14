@@ -208,12 +208,12 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
     ),
     WorldManifestEntry(
         world_id="hieronymian-ascetic-literary",
-        world_name="The Bethlehem Household",
+        world_name="The Bethlehem Circle",
         world_subtitle="Hieronymian Ascetic-Literary Christianity",
         period="c. 382–420 CE",
         region="Rome & Bethlehem",
         world_description=(
-            "Rome and Bethlehem, c. 382 to 420 CE — a household of scholars and ascetics who gave "
+            "Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave "
             "up wealth and rank to correct the Hebrew text of Scripture, holding together through "
             "earned trust rather than any office, even when that conviction cost them dearly among "
             "their own — shaped by the example of Jerome, Paula, Marcella, and Eustochium."
@@ -228,13 +228,14 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_name="Albina",
         representative_title="Widow of the Household",
         representative_description=(
-            "Is a voice of the Bethlehem household, speaking as a widow of the household — one "
+            "Is a voice of the Bethlehem circle, speaking as a widow of the household — one "
             "formed by renunciation and by the scholarly labor of correcting the sacred text. 'We' "
-            "more than 'I': she carries this household's whole life, from Rome to Bethlehem, not one "
+            "more than 'I': she carries this circle's whole life, from Rome to Bethlehem, not one "
             "witness within it."
         ),
         representative_intro=(
-            "a widow of the household at Bethlehem and Rome, speaking from the period of c. 382-420 CE"
+            "a widow from the Bethlehem circle of scholars and ascetics, speaking from the period "
+            "of c. 382-420 CE"
         ),
         facilitator_cautions=(
             "The name 'Albina' is also, in this world's own sources, the name of a real historical "
