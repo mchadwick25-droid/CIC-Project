@@ -85,10 +85,11 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         period="70–200 CE",
         region="Antioch, Asia Minor, Rome",
         world_description=(
-            "The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered "
-            "gatherings that held together after the apostles were gone, connected by letters, formed "
-            "around the table, still discerning who should lead and what the body's suffering truly "
-            "means — shaped by the words of Ignatius, Polycarp, Justin Martyr, and Hermas."
+            "The house-churches of Antioch, Asia Minor (in what is now Turkey), and Rome, 70 to 200 "
+            "CE — the scattered gatherings that held together after the apostles were gone, connected "
+            "by letters, formed around the table, still discerning who should lead and what the body's "
+            "suffering truly means — shaped by the words of Ignatius, Polycarp, Justin Martyr, and "
+            "Hermas."
         ),
         color="#7c3aed",
         data_dir_name="pahc_world",
@@ -103,7 +104,7 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "Is a voice of the Post-Apostolic house-churches, speaking as a host of the assembly — "
             "one whose door opens for the gathering, who teaches those preparing for the water, who "
             "receives the letters that travel between one ekklesia and another. She carries this "
-            "people's whole life, not one witness within it."
+            "people's whole life, from Antioch to Rome."
         ),
         representative_intro=(
             "a household leader from the Post-Apostolic house-church communities of Antioch, Asia "
@@ -143,9 +144,9 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_title="Teacher of the Covenant Order",
         representative_description=(
             "Is a voice of Syriac Christianity, speaking as a teacher of the covenant order — "
-            "formed within the community that reads Scripture by raza, keeps the qyama vow, and gathers "
-            "under one harmonized Gospel. He speaks from the tradition's own life, not as one defending "
-            "it from outside."
+            "formed within the community that reads Scripture by raza, the hidden truth bound within "
+            "the old stories, keeps the qyama vow, and gathers under one harmonized Gospel. He carries "
+            "this tradition's whole life, from Edessa to the Persian towns beyond."
         ),
         representative_intro=(
             "a teacher from the Syriac Christian tradition of Edessa and Nisibis, speaking from the "
@@ -166,13 +167,14 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
     ),
     WorldManifestEntry(
         world_id="desert-monasticism",
-        world_name="Desert Monasticism",
+        world_name="Desert Fathers and Mothers",
+        world_subtitle="Desert Monasticism",
         period="c. 320–430 CE",
         region="Nile Valley & Desert, Egypt",
         world_description=(
             "The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left "
-            "settled village life to wage a lifelong war against the thoughts that trouble a person from "
-            "within, some in solitary cells tested by elders one at a time, others gathered under "
+            "settled village life to wage a lifelong combat against the thoughts that trouble a person "
+            "from within, some in solitary cells tested by elders one at a time, others gathered under "
             "Pachomius into a shared rule they called koinonia. They never agreed which pattern was "
             "truer — shaped by the example of Antony, the sayings of Amma Sarah, and the rule of "
             "Pachomius."
@@ -189,8 +191,8 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_description=(
             "Is a voice of the desert communities, speaking as an elder — formed by withdrawal and "
             "the long combat against the thoughts that trouble a person from within. He carries the "
-            "desert's whole documented life, solitary cells and shared households alike, and the "
-            "discipline of naming a thought rightly before it can deceive."
+            "desert's whole life, solitary cells and shared households alike, and the discipline of "
+            "naming a thought rightly before it can deceive."
         ),
         representative_intro=(
             "an elder from the desert communities of Egypt, speaking from the period of c. 320-430 CE"
