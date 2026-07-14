@@ -305,6 +305,36 @@ async def send_message(session_id: str, request: SendMessageRequest):
             turn_count=state.turn_count,
         )
 
+    # Relational-safety check (see send_message_stream for the full
+    # rationale) - runs only when the message wasn't already a frame-breaker,
+    # since the two are effectively mutually exclusive categories and
+    # frame-breaker's own classifier is already tested and should take
+    # priority on any overlap.
+    from app.graph.nodes import (
+        classify_relational_safety,
+        relational_safety_should_fire,
+        stream_relational_safety_response,
+        update_relational_safety_state,
+    )
+
+    rs_classification = classify_relational_safety(state, request.message)
+    rs_updates = update_relational_safety_state(state, rs_classification)
+    for field_name, value in rs_updates.items():
+        setattr(state, field_name, value)
+
+    if relational_safety_should_fire(state, rs_classification, rs_updates):
+        new_message = None
+        for event in stream_relational_safety_response(state, rs_classification, rs_updates):
+            if event["type"] == "complete":
+                new_message = event["message"]
+        state.messages = list(state.messages) + [new_message]
+        sessions[session_id] = state
+        return SendMessageResponse(
+            messages=state_to_messages(state),
+            phase=state.phase,
+            turn_count=state.turn_count,
+        )
+
     # For multi-world tables, determine turn type (single or all representatives)
     from app.graph.nodes import determine_turn_type, multi_representative_engages
 
@@ -388,10 +418,14 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         check_dominance,
         check_drift_for_message,
         classify_frame_breaker,
+        classify_relational_safety,
         generate_reroot_guidance,
+        relational_safety_should_fire,
         select_next_speaker,
         stream_frame_breaker_response,
+        stream_relational_safety_response,
         stream_representative_turn,
+        update_relational_safety_state,
     )
     from app.prompts.facilitator_prompts import get_representative_message_name
 
@@ -404,6 +438,26 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # separate call rather than something asked of representative generation
     # itself.
     is_frame_breaker = classify_frame_breaker(request.message)
+
+    # Relational-safety check: Acute Distress / Harmful Dynamic, per
+    # Governance V3.6 Section 12 as operationalized in CiC_L3D_
+    # AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md. Runs only
+    # when the current message isn't already a frame-breaker - the two
+    # categories are effectively mutually exclusive, and the frame-breaker
+    # classifier already has a tested track record, so it takes priority on
+    # any overlap rather than risking a double-classification race. State
+    # updates (accumulator, track flags) are applied to `state` immediately
+    # so they persist in `sessions[session_id]` even if this turn doesn't
+    # itself fire - the accumulator has to see every turn to work at all.
+    rs_classification = {"category": "NO_SIGNAL"}
+    rs_updates: dict = {}
+    is_relational_safety_firing = False
+    if not is_frame_breaker:
+        rs_classification = classify_relational_safety(state, request.message)
+        rs_updates = update_relational_safety_state(state, rs_classification)
+        for field_name, value in rs_updates.items():
+            setattr(state, field_name, value)
+        is_relational_safety_firing = relational_safety_should_fire(state, rs_classification, rs_updates)
 
     world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
     is_multi_world = len(world_ids) > 1
@@ -438,6 +492,43 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             new_message = None
             try:
                 for event in stream_frame_breaker_response(state):
+                    if event["type"] == "token":
+                        yield sse({
+                            "type": "token",
+                            "speaker": event["speaker"],
+                            "text": event["text"],
+                        })
+                    elif event["type"] == "complete":
+                        new_message = event["message"]
+            except Exception as exc:
+                yield sse({"type": "error", "message": str(exc)})
+                return
+
+            state.messages = list(state.messages) + [new_message]
+            sessions[session_id] = state
+
+            yield sse({
+                "type": "speaker_end",
+                "speaker": "facilitator",
+                "citations": None,
+            })
+            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+            return
+
+        if is_relational_safety_firing:
+            # Facilitator-only turn, per the corrected design's strict
+            # decoupling (no dual-voice response) - the Representative is
+            # not invoked and does not see this message, exactly as the
+            # frame-breaker branch above withholds Representative
+            # invocation. Does not count toward MIN/MAX_MULTI_WORLD_TURNS.
+            # state.track_a_active/track_b_active/relational_safety_tags
+            # were already updated on `state` before event_stream() was
+            # defined, so they're already reflected in `sessions[session_id]`
+            # even before this branch's own message is appended below.
+            yield sse({"type": "speaker_start", "speaker": "facilitator"})
+            new_message = None
+            try:
+                for event in stream_relational_safety_response(state, rs_classification, rs_updates):
                     if event["type"] == "token":
                         yield sse({
                             "type": "token",

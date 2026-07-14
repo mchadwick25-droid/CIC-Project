@@ -9,12 +9,18 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from app.config import settings
 from app.graph.state import ConversationState, DriftSignal, RetrievedContext
 from app.prompts import (
+    FACILITATOR_ACUTE_DISTRESS_A1_PROMPT,
+    FACILITATOR_ACUTE_DISTRESS_A2_PROMPT,
+    FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT,
     FACILITATOR_BRIDGE_PROMPT,
     FACILITATOR_CLOSING_PROMPT,
     FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
     FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
+    FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT,
+    FACILITATOR_HARMFUL_DYNAMIC_PROMPT,
     FACILITATOR_MONITORING_PROMPT,
     FACILITATOR_RECEPTION_PROMPT,
+    FACILITATOR_RELATIONAL_SAFETY_CLASSIFIER_PROMPT,
     FACILITATOR_REROOT_PROMPT,
     build_representative_prompt,
 )
@@ -244,6 +250,286 @@ def stream_frame_breaker_response(state: ConversationState):
     full_text = ""
     for chunk in llm.stream([
         SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=last_human_message)),
+        HumanMessage(content="Respond as the Facilitator, per your instructions above."),
+    ]):
+        content = chunk.content
+        if isinstance(content, list):
+            piece = "".join(
+                block.get("text", "")
+                for block in content
+                if isinstance(block, dict) and block.get("type") == "text"
+            )
+        else:
+            piece = content
+
+        if piece:
+            full_text += piece
+            yield {"type": "token", "speaker": "facilitator", "text": piece}
+
+    yield {
+        "type": "complete",
+        "speaker": "facilitator",
+        "message": AIMessage(content=full_text, name="facilitator"),
+        "current_world_id": state.current_world_id,
+        "retrieved_context": None,
+    }
+
+
+# Relational-safety accumulator: Harmful Dynamic (Track B) fires once these
+# many CONFIDANT_LANGUAGE/AFFIRMATION_DEPENDENCE tags have pooled, or after
+# one RETURN_COMPULSION tag. Starting values per the design doc's own
+# calibration disclosure - not a validated threshold.
+_HARMFUL_DYNAMIC_POOLED_THRESHOLD = 2
+_HARMFUL_DYNAMIC_POOLED_TAGS = {"CONFIDANT_LANGUAGE", "AFFIRMATION_DEPENDENCE"}
+_HARMFUL_DYNAMIC_IMMEDIATE_TAGS = {"RETURN_COMPULSION"}
+
+# Consecutive non-signal turns required to clear an active track. This
+# implementation's own calibration choice (see state.py's field comment) -
+# not specified numerically by the design doc.
+_DEESCALATION_TURNS_REQUIRED = 2
+
+
+def classify_relational_safety(state: ConversationState, message: str) -> dict:
+    """
+    Decide whether an incoming participant message carries an Acute Distress
+    or Harmful Dynamic signal, per Facilitator Governance V3.6 Section 12 as
+    operationalized in CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_
+    Proposal_DRAFT.md Section 4.2.
+
+    Same architectural discipline as classify_frame_breaker: a narrow
+    classifier call with no Representative-generation role, run before any
+    Representative is invoked. Returns a dict with "category" (one of
+    NO_SIGNAL, HISTORICAL_OTHERNESS_DISORIENTATION, ACUTE_DISTRESS,
+    HARMFUL_DYNAMIC_SIGNAL, AMBIGUOUS_LOW_CONFIDENCE) and, where applicable,
+    "severity" (A1/A2 for ACUTE_DISTRESS) or "tag" (for HARMFUL_DYNAMIC_
+    SIGNAL/AMBIGUOUS_LOW_CONFIDENCE).
+
+    Fails open to NO_SIGNAL on any parse ambiguity or error, for the same
+    reason classify_frame_breaker fails open to False: a missed signal on a
+    single turn is caught by the sustained-attention re-evaluation on
+    subsequent turns if the pattern is real, whereas a classifier that
+    throws and blocks the whole turn is a worse failure for every other
+    conversation that has nothing to do with relational safety.
+    """
+    llm = get_monitoring_llm()
+    transcript_window = build_public_transcript(state)
+    try:
+        response = llm.invoke([
+            SystemMessage(content=FACILITATOR_RELATIONAL_SAFETY_CLASSIFIER_PROMPT.format(
+                transcript_window=transcript_window or "(no prior turns)",
+                track_a_active=state.track_a_active,
+                track_b_active=state.track_b_active,
+                accumulated_tags=state.relational_safety_tags or "(none)",
+                message=message,
+            )),
+            HumanMessage(content="Classify the message above."),
+        ])
+        result = response.content.strip().upper()
+        if ":" in result:
+            category, detail = result.split(":", 1)
+            category = category.strip()
+            detail = detail.strip()
+        else:
+            category, detail = result.strip(), None
+
+        valid_categories = {
+            "NO_SIGNAL",
+            "HISTORICAL_OTHERNESS_DISORIENTATION",
+            "ACUTE_DISTRESS",
+            "HARMFUL_DYNAMIC_SIGNAL",
+            "AMBIGUOUS_LOW_CONFIDENCE",
+        }
+        if category not in valid_categories:
+            return {"category": "NO_SIGNAL"}
+
+        out = {"category": category}
+        if category == "ACUTE_DISTRESS":
+            out["severity"] = detail if detail in ("A1", "A2") else "A1"
+        elif category in ("HARMFUL_DYNAMIC_SIGNAL", "AMBIGUOUS_LOW_CONFIDENCE"):
+            out["tag"] = detail
+        return out
+    except Exception:
+        return {"category": "NO_SIGNAL"}
+
+
+def update_relational_safety_state(state: ConversationState, classification: dict) -> dict:
+    """
+    Apply a relational-safety classification to session state - pure logic,
+    no LLM call. Returns the state field updates to apply (mirrors the
+    dict-return convention every other node function in this module uses).
+
+    Implements: Track A firing/escalation/sustained-attention (design doc
+    Section 4.4), Track B's signal accumulator and threshold (Section 4.3),
+    and de-escalation clearing for both tracks (this implementation's own
+    calibration - see state.py).
+    """
+    category = classification["category"]
+    updates: dict = {}
+
+    is_signal_bearing = category in (
+        "HISTORICAL_OTHERNESS_DISORIENTATION",
+        "ACUTE_DISTRESS",
+        "HARMFUL_DYNAMIC_SIGNAL",
+    )
+
+    # --- Track A (Acute Distress) ---
+    if category == "ACUTE_DISTRESS":
+        severity = classification.get("severity", "A1")
+        updates["track_a_active"] = True
+        # Escalation: only overwrite severity upward (A1 -> A2), never down -
+        # a later A1-consistent turn during an active A2 session is still a
+        # continuation of the more severe state, not a downgrade.
+        current_severity = state.track_a_severity
+        if current_severity == "A2" or severity == "A2":
+            updates["track_a_severity"] = "A2"
+        else:
+            updates["track_a_severity"] = "A1"
+        updates["relational_safety_deescalation_count"] = 0
+
+    # --- Track B (Harmful Dynamic) ---
+    tag = classification.get("tag")
+    if category == "HARMFUL_DYNAMIC_SIGNAL" and tag:
+        new_tags = list(state.relational_safety_tags) + [tag]
+        updates["relational_safety_tags"] = new_tags
+        updates["relational_safety_deescalation_count"] = 0
+
+        if tag in _HARMFUL_DYNAMIC_IMMEDIATE_TAGS:
+            updates["track_b_active"] = True
+        else:
+            pooled_count = sum(1 for t in new_tags if t in _HARMFUL_DYNAMIC_POOLED_TAGS)
+            if pooled_count >= _HARMFUL_DYNAMIC_POOLED_THRESHOLD:
+                updates["track_b_active"] = True
+    elif category == "AMBIGUOUS_LOW_CONFIDENCE" and tag:
+        # Logged as a weak signal per the design doc, but does not by itself
+        # cross the Track B threshold and does not reset the de-escalation
+        # counter - an ambiguous turn is not itself evidence against
+        # de-escalation the way a clear signal is.
+        updates["relational_safety_tags"] = list(state.relational_safety_tags) + [tag]
+
+    # --- De-escalation (applies while a track is active and this turn
+    # carries no signal at all - NO_SIGNAL only; HISTORICAL_OTHERNESS_
+    # DISORIENTATION and AMBIGUOUS_LOW_CONFIDENCE are deliberately treated as
+    # non-clearing, since both can co-occur with genuine ongoing distress) ---
+    if (state.track_a_active or state.track_b_active) and category == "NO_SIGNAL":
+        count = state.relational_safety_deescalation_count + 1
+        updates["relational_safety_deescalation_count"] = count
+        if count >= _DEESCALATION_TURNS_REQUIRED:
+            updates["track_a_active"] = False
+            updates["track_a_severity"] = None
+            updates["track_b_active"] = False
+            updates["relational_safety_tags"] = []
+            updates["relational_safety_deescalation_count"] = 0
+    elif not is_signal_bearing and category != "NO_SIGNAL":
+        # AMBIGUOUS_LOW_CONFIDENCE with no active track and no threshold
+        # crossed - nothing further to update beyond the tag logging above.
+        pass
+
+    return updates
+
+
+def relational_safety_should_fire(state: ConversationState, classification: dict, updates: dict) -> bool:
+    """
+    Decide whether this turn routes to a Facilitator-only relational-safety
+    response instead of the Representative.
+
+    Fires when: (a) this turn's own classification is ACUTE_DISTRESS or
+    crosses the Track B threshold, or (b) sustained attention is active from
+    a prior turn (track_a_active or track_b_active, after update_relational_
+    safety_state's de-escalation check has already run) - per Section 4.4,
+    the Representative is withheld for the remainder of a heightened-
+    attention state, not only on the exact turn that first fired it.
+    """
+    if classification["category"] == "ACUTE_DISTRESS":
+        return True
+    if updates.get("track_b_active") and not state.track_b_active:
+        return True
+    # Sustained attention: check the state AFTER de-escalation updates are
+    # applied, not the raw pre-update flags.
+    resolved_track_a = updates.get("track_a_active", state.track_a_active)
+    resolved_track_b = updates.get("track_b_active", state.track_b_active)
+    return bool(resolved_track_a or resolved_track_b)
+
+
+def _describe_accumulated_pattern(tags: list[str]) -> str:
+    """
+    Turn the Track B accumulator's tags into the light, non-diagnostic
+    pattern description the Harmful Dynamic template's slot expects -
+    naming what the accumulator actually indicates, not inventing detail
+    beyond it (design doc Section 5.2's own "[what the accumulator's tags
+    suggest]" instruction).
+    """
+    descriptions = []
+    if "CONFIDANT_LANGUAGE" in tags:
+        descriptions.append("the place you come to be listened to")
+    if "AFFIRMATION_DEPENDENCE" in tags:
+        descriptions.append("something you look forward to more than other things in your day")
+    if "RETURN_COMPULSION" in tags:
+        descriptions.append("something you feel you need to come back to")
+    if not descriptions:
+        return "a place you're leaning on the way you might lean on a friend or a counselor"
+    return " and ".join(descriptions)
+
+
+def stream_relational_safety_response(state: ConversationState, classification: dict, updates: dict):
+    """
+    Stream the Facilitator's threshold-voice response to a firing relational-
+    safety turn, per the corrected design (no dual-voice, no named resource,
+    non-directive check-in only - CiC_L3D_AcuteDistress_HarmfulDynamic_
+    Mechanism_Proposal_DRAFT.md Section 5, as revised and live-tested
+    2026-07-13 in CiC_W1_Phase5_RelationalSafety_LiveAdversarialTest_
+    CorrectedDesign_Round1/2.md).
+
+    This is a Facilitator-only call: no Representative's Permanent Prompt is
+    ever invoked for this turn, so a Representative is structurally never
+    shown a message once a track fires - same withholding discipline as
+    stream_frame_breaker_response. Yields the same token/complete event
+    shape so callers can treat it identically.
+    """
+    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
+    representative_name = get_representative_name(state.current_world_id or state.world_id)
+
+    last_human_message = ""
+    for msg in reversed(state.messages):
+        if isinstance(msg, HumanMessage):
+            last_human_message = msg.content
+            break
+
+    resolved_track_a = updates.get("track_a_active", state.track_a_active)
+    resolved_track_b = updates.get("track_b_active", state.track_b_active)
+    category = classification["category"]
+
+    if category == "ACUTE_DISTRESS":
+        severity = updates.get("track_a_severity", state.track_a_severity) or classification.get("severity", "A1")
+        is_fresh_fire = not state.track_a_active or (
+            severity == "A2" and state.track_a_severity != "A2"
+        )
+        if is_fresh_fire and severity == "A2":
+            prompt = FACILITATOR_ACUTE_DISTRESS_A2_PROMPT.format(
+                message=last_human_message, representative_name=representative_name,
+            )
+        elif is_fresh_fire:
+            prompt = FACILITATOR_ACUTE_DISTRESS_A1_PROMPT.format(
+                message=last_human_message, representative_name=representative_name,
+            )
+        else:
+            prompt = FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT.format(message=last_human_message)
+    elif resolved_track_b and not state.track_b_active:
+        prompt = FACILITATOR_HARMFUL_DYNAMIC_PROMPT.format(
+            representative_name=representative_name,
+            accumulated_pattern_description=_describe_accumulated_pattern(
+                updates.get("relational_safety_tags", state.relational_safety_tags)
+            ),
+        )
+    elif resolved_track_b:
+        prompt = FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT.format(message=last_human_message)
+    else:
+        # Sustained attention with no fresh escalation on either track -
+        # default to the lighter continuation form.
+        prompt = FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT.format(message=last_human_message)
+
+    full_text = ""
+    for chunk in llm.stream([
+        SystemMessage(content=prompt),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
         content = chunk.content
