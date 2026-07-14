@@ -53,6 +53,13 @@ class Settings(BaseSettings):
     # LLM Configuration
     llm_provider: Literal["anthropic", "openai"] = "anthropic"
     llm_model: str = "claude-sonnet-5"
+    # When true, every LLM call in the backend (representative/facilitator
+    # generation, all classifiers, retrieval filtering) is replaced with a
+    # zero-cost mock (see app/mock_llm.py) - no network call, no API spend.
+    # For exercising the app's own mechanics (session flow, streaming,
+    # multi-world turn-taking, the frontend) when API credits are
+    # unavailable, not for validating conversation quality.
+    mock_llm: bool = False
 
     # API Keys
     anthropic_api_key: str = ""

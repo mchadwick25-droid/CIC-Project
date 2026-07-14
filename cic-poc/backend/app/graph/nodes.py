@@ -73,6 +73,10 @@ def get_llm(max_tokens: int | None = None):
     actually needs - full-length uncapped calls are left alone since they
     have no tight ceiling for thinking to crowd out.
     """
+    if settings.mock_llm:
+        from app.mock_llm import MockChatModel
+        return MockChatModel()
+
     if settings.llm_provider == "anthropic":
         from langchain_anthropic import ChatAnthropic
 
@@ -92,6 +96,10 @@ def get_llm(max_tokens: int | None = None):
 
 def get_monitoring_llm():
     """Get a faster LLM for monitoring (invisible operations)."""
+    if settings.mock_llm:
+        from app.mock_llm import MockChatModel
+        return MockChatModel()
+
     if settings.llm_provider == "anthropic":
         from langchain_anthropic import ChatAnthropic
 

@@ -74,7 +74,11 @@ class LexiconRetriever:
                 self.indexer.save_index(self.vector_store, settings.get_vector_store_path(world_id))
 
         # LLM for retrieval filtering
-        if settings.llm_provider == "anthropic":
+        if settings.mock_llm:
+            from app.mock_llm import MockChatModel
+
+            self.filter_llm = MockChatModel()
+        elif settings.llm_provider == "anthropic":
             from langchain_anthropic import ChatAnthropic
 
             self.filter_llm = ChatAnthropic(
