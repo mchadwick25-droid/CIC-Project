@@ -1037,21 +1037,46 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # missed badly under real multi-world topical pressure - see the
     # 2026-07 Fable/Opus review. For these worlds only, buffer the first
     # attempt instead of streaming it live, token by token, and silently
-    # regenerate once if it exceeds double the stated ceiling, before the
-    # participant ever sees a token. This costs latency on that one
-    # world's turns but resolves a structural conflict (the ceiling vs.
-    # the other things a reactive turn is required to do) that prompt
-    # wording alone could not - Albina's much smaller, already-converging
-    # miss on the same review did not warrant this and is deliberately
-    # left on advisory-only guidance.
-    HARD_CEILING_WORLDS = {"desert-monasticism": 60}
+    # regenerate once if it exceeds the trigger multiple of the stated
+    # ceiling, before the participant ever sees a token. This costs
+    # latency on that one world's turns but resolves a structural conflict
+    # (the ceiling vs. the other things a reactive turn is required to do)
+    # that prompt wording alone could not.
+    #
+    # Both worlds are included, not just Papnoute - an independent Opus
+    # review of the first version of this mechanism (Papnoute-only, 2x
+    # trigger) correctly flagged that Albina's exclusion rested on a
+    # thinner data point than the one that had already proven advisory-only
+    # insufficient for Papnoute, and that a 2x trigger (120 words for a
+    # 60-word ceiling) leaves a dead zone - a 110-word Papnoute turn in
+    # that same retest sailed through with zero enforcement.
+    #
+    # The trigger multiple is per-world, not a single global constant,
+    # because the two worlds' actual distributions differ once real
+    # observability data existed to look at (see the dead-zone log line
+    # below): Papnoute's uncorrected drafts landed around 175-180 words
+    # against a 60-word ceiling (a wide margin, so 1.5x/90 catches him
+    # reliably), but Albina's landed consistently at 220-245 against a
+    # 180-word ceiling - a narrow enough margin that 1.5x/270 never once
+    # fired in that same test batch, leaving her permanently in the dead
+    # zone rather than only occasionally. Her multiple is tightened to 1.2x
+    # to actually reach the range she is shown to land in.
+    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 180}
+    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
+    retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
     if ceiling:
         full_text, pieces = _generate_once(messages)
-        if full_text and len(full_text.split()) > ceiling * 2:
+        word_count = len(full_text.split()) if full_text else 0
+        if full_text and word_count > ceiling * retry_trigger_multiple:
+            print(
+                f"[length_ceiling] {ctx['current_world_id']} turn ran {word_count} words "
+                f"(ceiling {ceiling}, trigger {ceiling * retry_trigger_multiple:.0f}) - "
+                "regenerating once."
+            )
             corrective = HumanMessage(content=(
-                f"Your answer just now ran to {len(full_text.split())} words; your own "
+                f"Your answer just now ran to {word_count} words; your own "
                 f"measure holds at most {ceiling}. Say the same thing again, holding to "
                 "it - fewer sentences, not less said."
             ))
@@ -1059,7 +1084,22 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                 messages + [AIMessage(content=full_text), corrective]
             )
             if retry_text:
+                print(
+                    f"[length_ceiling] {ctx['current_world_id']} retry produced "
+                    f"{len(retry_text.split())} words."
+                )
                 full_text, pieces = retry_text, retry_pieces
+        elif full_text and word_count > ceiling:
+            # Over ceiling but under the retry trigger - the dead zone Opus's
+            # review named. Not corrected here (that would defeat the point
+            # of bounding the trigger), but logged so this zone's actual
+            # frequency is visible rather than invisible, per that review's
+            # specific request for observability before trusting the fix.
+            print(
+                f"[length_ceiling] {ctx['current_world_id']} turn ran {word_count} words "
+                f"(ceiling {ceiling}) - over ceiling but under the {retry_trigger_multiple}x "
+                "retry trigger, left uncorrected."
+            )
         for piece in pieces:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
     else:
