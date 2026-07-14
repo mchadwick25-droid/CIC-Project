@@ -81,7 +81,8 @@ class WorldManifestEntry:
 WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
     WorldManifestEntry(
         world_id="post-apostolic-house-church",
-        world_name="Post-Apostolic House-Church",
+        world_name="The House-Churches",
+        world_subtitle="Post-Apostolic House-Church Christianity",
         period="70–200 CE",
         region="Antioch, Asia Minor, Rome",
         world_description=(
@@ -101,13 +102,13 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_name="Chloe",
         representative_title="Host of the Assembly",
         representative_description=(
-            "Is a voice of the Post-Apostolic house-churches, speaking as a host of the assembly — "
+            "Is a voice of the house-churches, speaking as a host of the assembly — "
             "one whose door opens for the gathering, who teaches those preparing for the water, who "
             "receives the letters that travel between one ekklesia and another. She carries this "
             "people's whole life, from Antioch to Rome."
         ),
         representative_intro=(
-            "a household leader from the Post-Apostolic house-church communities of Antioch, Asia "
+            "a household leader from the house-church communities of Antioch, Asia "
             "Minor, and Rome, speaking from the period of 70-200 CE"
         ),
         facilitator_cautions=(
