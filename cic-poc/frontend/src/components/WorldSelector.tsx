@@ -2,13 +2,17 @@
  * WorldSelector component - displays available worlds and representatives.
  *
  * This is the entry screen before starting a conversation.
- * Supports both single-world and multi-world table selection (up to 5 worlds).
+ * Supports both single-world and multi-world table selection (up to MAX_WORLDS worlds).
  */
 
 import { useState, useEffect } from 'react';
 import type { World, WorldsResponse } from '../types/conversation';
 
 const API_BASE = '/api';
+
+// Prototype/Phase 1 scope cap - kept at 3 (not the full design ceiling of 5)
+// to keep cost and conversational complexity manageable at this stage.
+const MAX_WORLDS = 3;
 
 interface WorldSelectorProps {
   onSelectWorld: (world: World) => void;
@@ -48,10 +52,10 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
         const isSelected = prev.some(w => w.id === world.id);
         if (isSelected) {
           return prev.filter(w => w.id !== world.id);
-        } else if (prev.length < 5) {
+        } else if (prev.length < MAX_WORLDS) {
           return [...prev, world];
         }
-        return prev; // Max 5 worlds
+        return prev; // Max worlds reached
       });
     } else {
       // Single select mode
@@ -115,7 +119,7 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
         <h2>Choose a Tradition</h2>
         <p>
           {multiSelect
-            ? 'Select one or more worlds (up to 5) to invite their representatives to The Table'
+            ? `Select one or more worlds (up to ${MAX_WORLDS}) to invite their representatives to The Table`
             : 'Select a world to enter into conversation with its representative'}
         </p>
       </div>

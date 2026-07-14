@@ -6,14 +6,24 @@
  * Participant: Clear but secondary - the one asking questions
  */
 
-import type { Message, SpeakerName, LexiconTerm } from '../types/conversation';
-import { HighlightedText } from './LexiconHighlight';
+import type { Message, SpeakerName, LexiconTerm, RegistryEntry } from '../types/conversation';
+import { HighlightedText, getTermMatches } from './LexiconHighlight';
+
+// Registry column names differ slightly between worlds (e.g. "confidence" vs
+// "confidence_level"); pull whichever tags exist into a short display string.
+function registryTag(entry: RegistryEntry): string {
+  const confidence = entry.confidence || entry.confidence_level || entry.citation_reliability;
+  const boundary = entry.boundary_status;
+  return [confidence, boundary].filter(Boolean).join(', ');
+}
 
 interface MessageBubbleProps {
   message: Message;
   termMap: Map<string, LexiconTerm>;
   onTermClick?: (term: LexiconTerm) => void;
   worldColors?: Record<string, string>;  // Map of message name to world color
+  /** Term keys allowed to render as interactive highlights in this message (first-occurrence-only filtering). Omit to highlight every match. */
+  allowedTermKeys?: Set<string>;
 }
 
 // Representative display info by message name
@@ -22,9 +32,13 @@ const REPRESENTATIVE_INFO: Record<string, { name: string; title: string }> = {
     name: 'Mar Yausep',
     title: 'Teacher of the Syriac Tradition',
   },
-  amma: {
-    name: 'Amma',
+  chloe: {
+    name: 'Chloe',
     title: 'Household Leader',
+  },
+  papnoute: {
+    name: 'Papnoute',
+    title: 'Elder of the Desert',
   },
 };
 
@@ -54,7 +68,8 @@ function getSpeakerInfo(message: Message): {
         className: 'message--facilitator',
       };
     case 'mar_yausep':
-    case 'amma':
+    case 'chloe':
+    case 'papnoute':
       const info = REPRESENTATIVE_INFO[speakerName] || { name: 'Representative', title: '' };
       return {
         name: info.name,
@@ -72,11 +87,36 @@ function getSpeakerInfo(message: Message): {
   }
 }
 
-export function MessageBubble({ message, termMap, onTermClick, worldColors }: MessageBubbleProps) {
+export function MessageBubble({ message, termMap, onTermClick, worldColors, allowedTermKeys }: MessageBubbleProps) {
   const { name, title, role, className } = getSpeakerInfo(message);
 
   // Only highlight terms in representative messages
   const shouldHighlight = role === 'representative' && termMap.size > 0;
+
+  const lines = message.content.split('\n');
+
+  // Assign each allowed key to exactly one line - the first line it
+  // actually appears in - as a plain, side-effect-free computation. Each
+  // line then gets its OWN immutable Set, so HighlightedText never receives
+  // a mutable object shared across calls (mutating a shared prop during
+  // render is unsafe under React StrictMode's double-invocation: the second
+  // invocation would see whatever the first already consumed).
+  const perLineAllowedKeys: Set<string>[] = (() => {
+    if (!shouldHighlight || !allowedTermKeys || allowedTermKeys.size === 0) {
+      return lines.map(() => new Set<string>());
+    }
+    const remaining = new Set(allowedTermKeys);
+    return lines.map((line) => {
+      const forThisLine = new Set<string>();
+      for (const key of getTermMatches(line, termMap)) {
+        if (remaining.has(key)) {
+          forThisLine.add(key);
+          remaining.delete(key);
+        }
+      }
+      return forThisLine;
+    });
+  })();
 
   // Get world color for this representative (if available)
   const speakerKey = message.name?.toLowerCase().replace(' ', '_') || '';
@@ -107,13 +147,14 @@ export function MessageBubble({ message, termMap, onTermClick, worldColors }: Me
             <span className="message-representative__title">{title}</span>
           </div>
           <div className="message-representative__content">
-            {message.content.split('\n').map((line, index) => (
+            {lines.map((line, index) => (
               <p key={index}>
                 {shouldHighlight ? (
                   <HighlightedText
                     text={line || '\u00A0'}
                     termMap={termMap}
                     onDetailClick={onTermClick}
+                    allowedKeys={perLineAllowedKeys[index]}
                   />
                 ) : (
                   line || '\u00A0'
@@ -128,8 +169,16 @@ export function MessageBubble({ message, termMap, onTermClick, worldColors }: Me
               <ul className="message-citations__list">
                 {message.citations.map((citation, index) => (
                   <li key={index} className="message-citations__item">
+                    <span className={`message-citations__kind message-citations__kind--${citation.type || 'lexicon'}`}>
+                      {citation.type === 'story' ? 'Story' : 'Term'}
+                    </span>
                     <span className="message-citations__term">{citation.term}</span>
                     <span className="message-citations__text">{citation.key_sources}</span>
+                    {citation.registry && citation.registry.length > 0 && (
+                      <span className="message-citations__registry">
+                        {citation.registry.map((entry) => registryTag(entry)).filter(Boolean).join(' · ')}
+                      </span>
+                    )}
                   </li>
                 ))}
               </ul>

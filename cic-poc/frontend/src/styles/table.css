@@ -88,6 +88,22 @@ body {
   padding: var(--spacing-lg);
 }
 
+/* During an active/closed conversation, the container is height-capped
+   (not just min-height) so .messages-container's `flex: 1; overflow-y:
+   auto` actually creates a real internal scroll region - header and chat
+   input stay fixed in place, only the message list scrolls, the way
+   Claude's own chat UI behaves. Without this cap, .table-container's
+   min-height lets it grow with content indefinitely and the whole PAGE
+   scrolls instead, which is what previously made a streaming response
+   yank the participant's read position around instead of just growing
+   in a contained, independently-scrollable area. Left off the world-
+   selector view (.table-container--selector), which is meant to grow
+   and scroll as a full page while browsing world cards. */
+.table-container--conversation {
+  height: 100vh;
+  overflow: hidden;
+}
+
 /* Header */
 .table-header {
   text-align: center;
@@ -257,6 +273,29 @@ body {
   margin-bottom: 0;
 }
 
+.message-citations__kind {
+  display: inline-block;
+  font-family: var(--font-family-ui);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.05em 0.4em;
+  border-radius: 3px;
+  margin-right: var(--spacing-xs);
+  vertical-align: middle;
+}
+
+.message-citations__kind--lexicon {
+  color: var(--color-lexicon);
+  background: var(--color-lexicon-bg);
+}
+
+.message-citations__kind--story {
+  color: var(--color-representative-accent);
+  background: rgba(217, 119, 6, 0.12);
+}
+
 .message-citations__term {
   font-weight: 600;
   color: var(--color-representative-accent);
@@ -265,6 +304,14 @@ body {
 
 .message-citations__text {
   font-style: italic;
+}
+
+.message-citations__registry {
+  display: block;
+  font-style: normal;
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-top: 0.15em;
 }
 
 /* ============================================

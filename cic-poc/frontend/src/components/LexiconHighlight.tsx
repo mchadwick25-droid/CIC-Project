@@ -86,10 +86,62 @@ export function LexiconHighlight({
   );
 }
 
+function buildTermPattern(termMap: Map<string, LexiconTerm>): RegExp | null {
+  const termKeys = Array.from(termMap.keys())
+    .filter((key) => key.length > 2)
+    .sort((a, b) => b.length - a.length); // Longer terms first
+
+  if (termKeys.length === 0) {
+    return null;
+  }
+
+  const escapedKeys = termKeys.map((key) =>
+    key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  );
+
+  return new RegExp(`\\b(${escapedKeys.join('|')})\\b`, 'gi');
+}
+
+/**
+ * Returns the lowercased term-map keys matched in `text`, in order of
+ * appearance (duplicates included). Shared between HighlightedText's actual
+ * rendering pass and callers that need to know what a message would match
+ * without rendering it (e.g. computing which terms are "new" this message).
+ */
+export function getTermMatches(text: string, termMap: Map<string, LexiconTerm>): string[] {
+  const pattern = buildTermPattern(termMap);
+  if (!pattern) {
+    return [];
+  }
+  const matches: string[] = [];
+  let match;
+  while ((match = pattern.exec(text)) !== null) {
+    matches.push(match[0].toLowerCase());
+  }
+  return matches;
+}
+
 interface HighlightedTextProps {
   text: string;
   termMap: Map<string, LexiconTerm>;
   onDetailClick?: (term: LexiconTerm) => void;
+  /**
+   * When provided, only matches whose lowercased key is in this set are
+   * rendered as interactive highlights - everything else renders as plain
+   * text. Used to show a term's hover/click treatment only the first time
+   * it appears across the conversation, not on every repeated occurrence.
+   * When omitted, every match is highlighted (back-compat default).
+   *
+   * Read-only - never mutated. If the same key appears more than once in
+   * `text`, only the first occurrence within this call highlights (tracked
+   * locally, not via mutating this set). Cross-line/cross-message dedup is
+   * the caller's responsibility: only include a key here for the one
+   * line/message it should actually appear in - see MessageBubble, which
+   * precomputes this per line before rendering rather than sharing one
+   * mutable set across calls (mutating a shared prop during render breaks
+   * under React StrictMode's double-invocation of render).
+   */
+  allowedKeys?: Set<string>;
 }
 
 /**
@@ -99,30 +151,28 @@ export function HighlightedText({
   text,
   termMap,
   onDetailClick,
+  allowedKeys,
 }: HighlightedTextProps) {
   if (termMap.size === 0) {
     return <>{text}</>;
   }
 
-  // Build a regex pattern from all term keys
-  const termKeys = Array.from(termMap.keys())
-    .filter((key) => key.length > 2)
-    .sort((a, b) => b.length - a.length); // Longer terms first
-
-  if (termKeys.length === 0) {
+  const pattern = buildTermPattern(termMap);
+  if (!pattern) {
     return <>{text}</>;
   }
-
-  // Escape regex special characters
-  const escapedKeys = termKeys.map((key) =>
-    key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  );
-
-  const pattern = new RegExp(`\\b(${escapedKeys.join('|')})\\b`, 'gi');
 
   const parts: (string | JSX.Element)[] = [];
   let lastIndex = 0;
   let match;
+  // Local only, discarded when this call returns - never exposed as a prop,
+  // so it's safe under React StrictMode's double-invocation of render (each
+  // invocation gets its own fresh, independent copy). This is what prevents
+  // a term appearing twice within this SAME text from highlighting twice;
+  // duplicates across different lines/messages are already excluded by the
+  // caller only including a key in `allowedKeys` for the one line it should
+  // appear in - see MessageBubble.
+  const usedInThisCall = new Set<string>();
 
   while ((match = pattern.exec(text)) !== null) {
     // Add text before match
@@ -132,9 +182,14 @@ export function HighlightedText({
 
     // Add highlighted term
     const matchedText = match[0];
-    const term = termMap.get(matchedText.toLowerCase());
+    const key = matchedText.toLowerCase();
+    const term = termMap.get(key);
+    const isAllowed = (!allowedKeys || allowedKeys.has(key)) && !usedInThisCall.has(key);
+    if (isAllowed) {
+      usedInThisCall.add(key);
+    }
 
-    if (term) {
+    if (term && isAllowed) {
       parts.push(
         <LexiconHighlight
           key={`${match.index}-${matchedText}`}

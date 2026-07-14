@@ -15,32 +15,45 @@ interface UseLexiconResult {
   findTerm: (text: string) => LexiconTerm | undefined;
 }
 
-export function useLexicon(worldId: string | null): UseLexiconResult {
+export function useLexicon(worldIds: string[] | string | null): UseLexiconResult {
   const [terms, setTerms] = useState<LexiconTerm[]>([]);
   const [termMap, setTermMap] = useState<Map<string, LexiconTerm>>(new Map());
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Normalize to an array and derive a stable key so the effect only
+  // re-fires when the actual set of worlds changes, not on every render.
+  const idsArray = worldIds == null ? [] : Array.isArray(worldIds) ? worldIds : [worldIds];
+  const idsKey = idsArray.join(',');
+
   useEffect(() => {
     async function fetchLexicon() {
-      if (!worldId) {
+      if (idsArray.length === 0) {
         setIsLoading(false);
         return;
       }
 
       setIsLoading(true);
       try {
-        const response = await fetch(`${API_BASE}/lexicon?world_id=${encodeURIComponent(worldId)}`);
-        if (!response.ok) {
-          throw new Error(`Failed to fetch lexicon: ${response.statusText}`);
+        // Fetch every world at the table, not just the primary one - a
+        // multi-world table's highlighting must cover every representative's
+        // own vocabulary (e.g. the Syriac world's raza/Iḥidaya, the desert
+        // world's Hēsychia/Koinōnia), not only the first world's terms.
+        const responses = await Promise.all(
+          idsArray.map((id) => fetch(`${API_BASE}/lexicon?world_id=${encodeURIComponent(id)}`))
+        );
+        for (const response of responses) {
+          if (!response.ok) {
+            throw new Error(`Failed to fetch lexicon: ${response.statusText}`);
+          }
         }
-
-        const data: LexiconResponse = await response.json();
-        setTerms(data.terms);
+        const dataList: LexiconResponse[] = await Promise.all(responses.map((r) => r.json()));
+        const allTerms = dataList.flatMap((data) => data.terms);
+        setTerms(allTerms);
 
         // Build a map for quick lookups (term + aliases -> LexiconTerm)
         const map = new Map<string, LexiconTerm>();
-        for (const term of data.terms) {
+        for (const term of allTerms) {
           // Add the main term (extract just the primary word)
           const primaryTerm = term.term.split('/')[0].trim();
           const simpleTerm = primaryTerm.replace(/\s*\([^)]*\)\s*/g, '').trim();
@@ -63,7 +76,8 @@ export function useLexicon(worldId: string | null): UseLexiconResult {
     }
 
     fetchLexicon();
-  }, [worldId]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idsKey]);
 
   const findTerm = useCallback(
     (text: string): LexiconTerm | undefined => {

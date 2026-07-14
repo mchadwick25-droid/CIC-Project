@@ -2,10 +2,17 @@
  * TypeScript interfaces for the conversation system.
  */
 
+export interface RegistryEntry {
+  id: string;
+  [field: string]: string;
+}
+
 export interface Citation {
+  type?: 'lexicon' | 'story';
   term: string;
   key_sources: string;
   source_file?: string;
+  registry?: RegistryEntry[];
 }
 
 export interface Message {
@@ -47,7 +54,7 @@ export type ConversationPhase =
   | 'reroot'
   | 'closing';
 
-export type SpeakerName = 'facilitator' | 'mar_yausep' | 'amma' | null;
+export type SpeakerName = 'facilitator' | 'mar_yausep' | 'chloe' | 'papnoute' | null;
 
 export interface ConversationState {
   sessionId: string | null;

@@ -6,16 +6,17 @@
  * 2. Start conversation with selected world's representative(s)
  * 3. Display messages with lexicon highlighting
  *
- * Supports both single-world and multi-world (up to 5 representatives) tables.
+ * Supports both single-world and multi-world (up to 3 representatives) tables.
  */
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useConversation } from '../hooks/useConversation';
 import { useLexicon } from '../hooks/useLexicon';
 import { WorldSelector } from './WorldSelector';
 import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
+import { getTermMatches } from './LexiconHighlight';
 import type { LexiconTerm, World } from '../types/conversation';
 
 export function TheTable() {
@@ -26,9 +27,11 @@ export function TheTable() {
   const {
     sessionId,
     worldId,
+    worldIds,
     messages,
     phase,
     isLoading,
+    isStreaming,
     error,
     isActive,
     startSession,
@@ -39,15 +42,57 @@ export function TheTable() {
     clearError,
   } = useConversation();
 
-  // Use the primary world's lexicon (in multi-world, could merge lexicons)
-  const { termMap } = useLexicon(worldId);
+  // Every world at the table, not just the primary one - each representative
+  // needs their own vocabulary highlightable, not only the first world's.
+  const { termMap } = useLexicon(worldIds.length > 0 ? worldIds : worldId);
+
+  // A term gets the interactive highlight/tooltip treatment only the first
+  // time it appears across the whole conversation - once a participant has
+  // seen and can click a term, repeating the same visual treatment on every
+  // later mention (sometimes many times a round) is noise, not help.
+  const firstOccurrenceKeysByIndex = useMemo(() => {
+    const seen = new Set<string>();
+    return messages.map((message) => {
+      if (message.role !== 'assistant' || message.name === 'facilitator' || termMap.size === 0) {
+        return new Set<string>();
+      }
+      const newKeys = new Set<string>();
+      for (const key of getTermMatches(message.content, termMap)) {
+        if (!seen.has(key)) {
+          seen.add(key);
+          newKeys.add(key);
+        }
+      }
+      return newKeys;
+    });
+  }, [messages, termMap]);
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  // Whether the participant is scrolled near the live edge right now. Starts
+  // true (a fresh conversation opens pinned to the bottom). Read as a ref,
+  // not state, so tracking scroll position doesn't itself trigger renders.
+  const isPinnedToBottomRef = useRef(true);
 
-  // Auto-scroll to bottom when new messages arrive
+  // Plain React onScroll prop (bound directly in JSX below), not a manually
+  // managed addEventListener - this sidesteps any ref/effect mount-timing
+  // question entirely (an earlier addEventListener-in-a-callback-ref version
+  // and an IntersectionObserver version were both tried here; this is the
+  // simplest implementation with the fewest places to get the timing wrong).
+  const handleMessagesScroll = (event: React.UIEvent<HTMLDivElement>) => {
+    const el = event.currentTarget;
+    const distanceFromBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+    isPinnedToBottomRef.current = distanceFromBottom < 120;
+  };
+
+  // Auto-scroll to bottom as new messages/tokens arrive - but only when the
+  // participant was already pinned to the live edge. Scrolling up to reread
+  // an earlier turn must not get yanked back down by a streaming response;
+  // auto-scroll simply resumes once they return to the bottom themselves.
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (isPinnedToBottomRef.current) {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [messages]);
 
   const handleWorldSelect = async (world: World) => {
@@ -202,7 +247,7 @@ export function TheTable() {
   // Conversation ended
   if (phase === 'closing' && !isLoading) {
     return (
-      <div className="table-container">
+      <div className="table-container table-container--conversation">
         <header className="table-header table-header--conversation">
           {renderWorldIndicators()}
         </header>
@@ -214,6 +259,7 @@ export function TheTable() {
               message={message}
               termMap={termMap}
               onTermClick={handleTermClick}
+              allowedTermKeys={firstOccurrenceKeysByIndex[index]}
               worldColors={Object.fromEntries(selectedWorlds.map(w => [
                 w.representative.name.toLowerCase().replace(' ', '_'),
                 w.color
@@ -238,7 +284,7 @@ export function TheTable() {
 
   // Active conversation
   return (
-    <div className="table-container">
+    <div className="table-container table-container--conversation">
       <header className="table-header table-header--conversation">
         {renderWorldIndicators()}
       </header>
@@ -252,13 +298,14 @@ export function TheTable() {
         </div>
       )}
 
-      <div className="messages-container">
+      <div className="messages-container" onScroll={handleMessagesScroll}>
         {messages.map((message, index) => (
           <MessageBubble
             key={index}
             message={message}
             termMap={termMap}
             onTermClick={handleTermClick}
+            allowedTermKeys={firstOccurrenceKeysByIndex[index]}
             worldColors={Object.fromEntries(selectedWorlds.map(w => [
               w.representative.name.toLowerCase().replace(' ', '_'),
               w.color
@@ -266,7 +313,7 @@ export function TheTable() {
           />
         ))}
 
-        {isLoading && (
+        {isLoading && !isStreaming && (
           <div className="loading-indicator">
             <div className="loading-dots">
               <span className="loading-dot"></span>

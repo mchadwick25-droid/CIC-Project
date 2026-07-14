@@ -12,7 +12,7 @@ import type {
 
 const API_BASE = '/api';
 
-const initialState: ConversationState = {
+const initialState: ConversationState & { isStreaming: boolean } = {
   sessionId: null,
   worldId: null,
   worldIds: [],
@@ -21,10 +21,21 @@ const initialState: ConversationState = {
   turnCount: 0,
   isLoading: false,
   error: null,
+  isStreaming: false,
 };
 
+interface StreamEvent {
+  type: 'speaker_start' | 'token' | 'speaker_end' | 'done' | 'error';
+  speaker?: string;
+  text?: string;
+  citations?: import('../types/conversation').Citation[] | null;
+  phase?: string;
+  turn_count?: number;
+  message?: string;
+}
+
 export function useConversation() {
-  const [state, setState] = useState<ConversationState>(initialState);
+  const [state, setState] = useState<ConversationState & { isStreaming: boolean }>(initialState);
 
   /**
    * Start a new conversation session for a specific world.
@@ -70,7 +81,7 @@ export function useConversation() {
 
   /**
    * Start a new multi-world conversation session.
-   * @param worldIds Array of world IDs to invite to the table (1-5 worlds)
+   * @param worldIds Array of world IDs to invite to the table (1-3 worlds)
    */
   const startMultiWorldSession = useCallback(async (worldIds: string[]) => {
     if (worldIds.length === 0) {
@@ -117,7 +128,9 @@ export function useConversation() {
   }, []);
 
   /**
-   * Send a message in the current conversation.
+   * Send a message in the current conversation, streaming each representative's
+   * reply token-by-token as it's generated rather than waiting for the full
+   * turn (or full multi-representative round) to complete.
    */
   const sendMessage = useCallback(async (message: string) => {
     if (!state.sessionId) {
@@ -125,11 +138,19 @@ export function useConversation() {
       return false;
     }
 
-    setState((prev) => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({
+      ...prev,
+      isLoading: true,
+      isStreaming: false,
+      error: null,
+      // The streaming endpoint only emits representative events, not an echo
+      // of the participant's own message, so add it optimistically here.
+      messages: [...prev.messages, { role: 'user', content: message, name: null, citations: null }],
+    }));
 
     try {
       const response = await fetch(
-        `${API_BASE}/session/${state.sessionId}/message`,
+        `${API_BASE}/session/${state.sessionId}/message/stream`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -137,19 +158,97 @@ export function useConversation() {
         }
       );
 
-      if (!response.ok) {
+      if (!response.ok || !response.body) {
         throw new Error(`Failed to send message: ${response.statusText}`);
       }
 
-      const data: SendMessageResponse = await response.json();
+      const applyEvent = (evt: StreamEvent) => {
+        switch (evt.type) {
+          case 'speaker_start':
+            setState((prev) => ({
+              ...prev,
+              isStreaming: true,
+              messages: [
+                ...prev.messages,
+                { role: 'assistant', content: '', name: evt.speaker ?? null, citations: null },
+              ],
+            }));
+            break;
+          case 'token':
+            setState((prev) => {
+              const messages = prev.messages.slice();
+              const lastIndex = messages.length - 1;
+              if (lastIndex >= 0) {
+                messages[lastIndex] = {
+                  ...messages[lastIndex],
+                  content: messages[lastIndex].content + (evt.text ?? ''),
+                };
+              }
+              return { ...prev, messages };
+            });
+            break;
+          case 'speaker_end':
+            setState((prev) => {
+              const messages = prev.messages.slice();
+              const lastIndex = messages.length - 1;
+              if (lastIndex >= 0) {
+                messages[lastIndex] = {
+                  ...messages[lastIndex],
+                  citations: evt.citations ?? null,
+                };
+              }
+              return { ...prev, messages };
+            });
+            break;
+          case 'done':
+            setState((prev) => ({
+              ...prev,
+              phase: (evt.phase as ConversationState['phase']) ?? prev.phase,
+              turnCount: evt.turn_count ?? prev.turnCount,
+              isLoading: false,
+              isStreaming: false,
+            }));
+            break;
+          case 'error':
+            setState((prev) => ({
+              ...prev,
+              isLoading: false,
+              isStreaming: false,
+              error: evt.message ?? 'Something went wrong while streaming the response',
+            }));
+            break;
+        }
+      };
 
-      setState((prev) => ({
-        ...prev,
-        messages: data.messages,
-        phase: data.phase,
-        turnCount: data.turn_count,
-        isLoading: false,
-      }));
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+
+        let boundary = buffer.indexOf('\n\n');
+        while (boundary !== -1) {
+          const rawEvent = buffer.slice(0, boundary);
+          buffer = buffer.slice(boundary + 2);
+
+          const dataLine = rawEvent.split('\n').find((line) => line.startsWith('data:'));
+          if (dataLine) {
+            const jsonStr = dataLine.slice(5).trim();
+            if (jsonStr) {
+              try {
+                applyEvent(JSON.parse(jsonStr) as StreamEvent);
+              } catch {
+                // Skip malformed/partial event rather than breaking the stream
+              }
+            }
+          }
+
+          boundary = buffer.indexOf('\n\n');
+        }
+      }
 
       return true;
     } catch (error) {
@@ -157,6 +256,7 @@ export function useConversation() {
       setState((prev) => ({
         ...prev,
         isLoading: false,
+        isStreaming: false,
         error: errorMessage,
       }));
       return false;
@@ -231,6 +331,7 @@ export function useConversation() {
     phase: state.phase,
     turnCount: state.turnCount,
     isLoading: state.isLoading,
+    isStreaming: state.isStreaming,
     error: state.error,
     isActive: state.sessionId !== null && state.phase !== 'closing',
     isMultiWorld: state.worldIds.length > 1,
