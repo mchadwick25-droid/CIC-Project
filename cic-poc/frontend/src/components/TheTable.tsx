@@ -45,28 +45,55 @@ export function TheTable() {
 
   // Every world at the table, not just the primary one - each representative
   // needs their own vocabulary highlightable, not only the first world's.
-  const { termMap } = useLexicon(worldIds.length > 0 ? worldIds : worldId);
+  const { termMap, termMapsByWorld } = useLexicon(worldIds.length > 0 ? worldIds : worldId);
+
+  // Speaker key (message.name form, e.g. "mar_yausep") -> that world's own
+  // term map. Two different worlds can share an everyday word as an alias
+  // (confirmed live: "elder" and "renunciation" both collide between two of
+  // the four worlds) - resolving per-speaker, not off one map merged across
+  // every world at the table, is what keeps a representative's own word
+  // linked to their own world's definition instead of whichever world's
+  // terms happened to load last.
+  const termMapBySpeakerKey = useMemo(() => {
+    const map = new Map<string, Map<string, LexiconTerm>>();
+    for (const world of selectedWorlds) {
+      const speakerKey = world.representative.name.toLowerCase().replace(' ', '_');
+      const worldTermMap = termMapsByWorld.get(world.id);
+      if (worldTermMap) {
+        map.set(speakerKey, worldTermMap);
+      }
+    }
+    return map;
+  }, [selectedWorlds, termMapsByWorld]);
 
   // A term gets the interactive highlight/tooltip treatment only the first
   // time it appears across the whole conversation - once a participant has
   // seen and can click a term, repeating the same visual treatment on every
   // later mention (sometimes many times a round) is noise, not help.
   const firstOccurrenceKeysByIndex = useMemo(() => {
+    // Tracked per (world, key), not per raw key alone - two worlds can share
+    // an alias (see termMapBySpeakerKey's comment), and deduping on the raw
+    // key only would let an already-seen key from one world's vocabulary
+    // wrongly suppress a genuinely first-time highlight of a different
+    // world's own term that happens to share the same spelling.
     const seen = new Set<string>();
     return messages.map((message) => {
-      if (message.role !== 'assistant' || message.name === 'facilitator' || termMap.size === 0) {
+      const speakerKey = message.name?.toLowerCase().replace(' ', '_') || '';
+      const messageTermMap = termMapBySpeakerKey.get(speakerKey);
+      if (message.role !== 'assistant' || message.name === 'facilitator' || !messageTermMap || messageTermMap.size === 0) {
         return new Set<string>();
       }
       const newKeys = new Set<string>();
-      for (const key of getTermMatches(message.content, termMap)) {
-        if (!seen.has(key)) {
-          seen.add(key);
+      for (const key of getTermMatches(message.content, messageTermMap)) {
+        const seenKey = `${speakerKey}:${key}`;
+        if (!seen.has(seenKey)) {
+          seen.add(seenKey);
           newKeys.add(key);
         }
       }
       return newKeys;
     });
-  }, [messages, termMap]);
+  }, [messages, termMapBySpeakerKey]);
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
   const [selectedCitations, setSelectedCitations] = useState<Citation[] | null>(null);
 
@@ -111,6 +138,15 @@ export function TheTable() {
 
   const handleTermClick = (term: LexiconTerm) => {
     setSelectedTerm(term);
+  };
+
+  // The correct term map for a given message's own speaker - falls back to
+  // the merged map (facilitator messages, or a speaker key not found in
+  // termMapBySpeakerKey) rather than an empty map, so highlighting degrades
+  // gracefully instead of silently vanishing for an edge case.
+  const resolveTermMap = (message: { name?: string | null }) => {
+    const speakerKey = message.name?.toLowerCase().replace(' ', '_') || '';
+    return termMapBySpeakerKey.get(speakerKey) ?? termMap;
   };
 
   const closeModal = () => {
@@ -267,8 +303,9 @@ export function TheTable() {
             <MessageBubble
               key={index}
               message={message}
-              termMap={termMap}
+              termMap={resolveTermMap(message)}
               onTermClick={handleTermClick}
+              onCitationClick={handleCitationClick}
               allowedTermKeys={firstOccurrenceKeysByIndex[index]}
               worldColors={Object.fromEntries(selectedWorlds.map(w => [
                 w.representative.name.toLowerCase().replace(' ', '_'),
@@ -316,7 +353,7 @@ export function TheTable() {
           <MessageBubble
             key={index}
             message={message}
-            termMap={termMap}
+            termMap={resolveTermMap(message)}
             onTermClick={handleTermClick}
             onCitationClick={handleCitationClick}
             allowedTermKeys={firstOccurrenceKeysByIndex[index]}
