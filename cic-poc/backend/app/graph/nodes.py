@@ -1020,12 +1020,55 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
             )
         return content or ""
 
-    full_text = ""
-    for chunk in llm.stream(messages):
-        piece = _extract_piece(chunk.content)
-        if piece:
-            full_text += piece
+    def _generate_once(msgs) -> tuple[str, list[str]]:
+        text = ""
+        pieces: list[str] = []
+        for chunk in llm.stream(msgs):
+            piece = _extract_piece(chunk.content)
+            if piece:
+                text += piece
+                pieces.append(piece)
+        return text, pieces
+
+    # Worlds whose own Permanent Prompt states a hard, all-conditions
+    # numeric turn-length ceiling that soft guidance has already been
+    # tested against twice (the static prompt text itself, then a
+    # check_length_ceiling-queued correction for the next turn) and still
+    # missed badly under real multi-world topical pressure - see the
+    # 2026-07 Fable/Opus review. For these worlds only, buffer the first
+    # attempt instead of streaming it live, token by token, and silently
+    # regenerate once if it exceeds double the stated ceiling, before the
+    # participant ever sees a token. This costs latency on that one
+    # world's turns but resolves a structural conflict (the ceiling vs.
+    # the other things a reactive turn is required to do) that prompt
+    # wording alone could not - Albina's much smaller, already-converging
+    # miss on the same review did not warrant this and is deliberately
+    # left on advisory-only guidance.
+    HARD_CEILING_WORLDS = {"desert-monasticism": 60}
+    ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
+
+    if ceiling:
+        full_text, pieces = _generate_once(messages)
+        if full_text and len(full_text.split()) > ceiling * 2:
+            corrective = HumanMessage(content=(
+                f"Your answer just now ran to {len(full_text.split())} words; your own "
+                f"measure holds at most {ceiling}. Say the same thing again, holding to "
+                "it - fewer sentences, not less said."
+            ))
+            retry_text, retry_pieces = _generate_once(
+                messages + [AIMessage(content=full_text), corrective]
+            )
+            if retry_text:
+                full_text, pieces = retry_text, retry_pieces
+        for piece in pieces:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
+    else:
+        full_text, pieces = "", []
+        for chunk in llm.stream(messages):
+            piece = _extract_piece(chunk.content)
+            if piece:
+                full_text += piece
+                yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
 
     # A stream that completes with zero text is rare but real (observed in
     # live testing) - shipping a blank message doesn't just look broken to
