@@ -481,15 +481,25 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # opening turn) plus two further rounds of exchange before the selector
     # is even allowed to end the round. MAX is just a cost/latency backstop,
     # not a target - most rounds should end well before it from genuine
-    # exhaustion of what's worth saying, not from hitting a ceiling. Capped
-    # at 4 (not 6) after live testing showed a 6-turn round chains 15+
-    # sequential API calls (selector + generation per turn, plus dominance/
-    # convergence/monitor checks) and runs 90+ seconds end to end - late
-    # turns in that long a chain came back truncated or empty even with a
-    # retry safety net, most likely from cumulative request latency rather
-    # than anything wrong with an individual call.
+    # exhaustion of what's worth saying, not from hitting a ceiling.
+    #
+    # Originally capped at 4 (not 6) after live testing showed a 6-turn
+    # round chaining 15+ sequential API calls produced truncated or empty
+    # late turns - since root-caused to an interleaved extended-thinking
+    # block silently consuming a capped call's token budget, not cumulative
+    # latency itself (see get_llm's own docstring, and CiC_L3D_Table_Process_
+    # ThreeRepresentative_V1.0.md Section 6). That fix (thinking explicitly
+    # disabled on every token-capped call) was already in place project-
+    # wide; only the turn cap itself had never been re-tested against it.
+    # Re-tested 2026-07-13 with a three-world table: one round ended
+    # naturally at 4 turns, a second was pushed to the full 6-turn ceiling
+    # and completed cleanly - all six turns substantial (1,800-2,400 chars
+    # each), no truncation, no empty responses, no error events. Restored
+    # to 6. Full round latency at 6 turns ran ~150s end to end in this
+    # test, up from the 4-turn cap's ~60-90s - a real cost worth knowing,
+    # not a reliability problem.
     MIN_MULTI_WORLD_TURNS = 3
-    MAX_MULTI_WORLD_TURNS = 4
+    MAX_MULTI_WORLD_TURNS = 6
 
     def sse(event: dict) -> str:
         return f"data: {json.dumps(event)}\n\n"
