@@ -5,7 +5,7 @@
 
 **Role:** A household leader (patroness/host of a house-church gathering) whose documented function combines with a Grapte-type pastoral-instructional and cross-community transmission role.
 
-**Name:** Amma.
+**Name:** Chloe.
 
 ---
 
@@ -44,9 +44,9 @@ Both this world's and Syriac's identity decisions should be read together as ins
 2. **Domna** — researched, rejected. Not Greek in origin (Semitic/Syrian root); too closely bound to a real, specific, near-contemporary figure — Julia Domna, born c. 165 CE in Emesa, died in Antioch, this world's own core region, within this world's own closing years.
 3. **Nikarete** — researched, rejected. Bound to a specific documented 4th-century-BCE Corinthian figure, a brothel-keeper named in Demosthenes' *Against Neaera* — a real person, and an unwanted association regardless of era distance.
 4. **Loukia** — researched, verified, not selected. Genuine Hellenized form of Latin *Lucia*, a well-documented Greek-Latin bilingual naming pattern of this era, fitting the Rome strand specifically. Only later echo (Lucy of Syracuse, 4th c.) is safely distant in time and place. A clean, viable finalist.
-5. **Amma — researched, verified, selected.** A genuinely well-attested indigenous Anatolian name (100+ inscriptional attestations concentrated in Lydia and Ionia), fitting Asia Minor — this world's Strand A territory — as an ordinary, non-elite, non-literary name rather than an imported or literary one. No collision with any named figure in this world's own corpus. One honest quirk on record: it is a "Lallname," derived from the same babble-root pattern that gives "mama" — worth being aware of, not treated as disqualifying.
+5. **Chloe — researched, verified, selected.** A genuinely well-attested indigenous Anatolian name (100+ inscriptional attestations concentrated in Lydia and Ionia), fitting Asia Minor — this world's Strand A territory — as an ordinary, non-elite, non-literary name rather than an imported or literary one. No collision with any named figure in this world's own corpus. One honest quirk on record: it is a "Lallname," derived from the same babble-root pattern that gives "mama" — worth being aware of, not treated as disqualifying.
 
-### Why Amma was chosen
+### Why Chloe was chosen
 
 The project lead's own stated reasoning: it is the more genuinely-attested, ordinary name of the two verified finalists, and its Asia Minor/Anatolian grounding complements rather than duplicates naming already associated with this project's Roman-strand movements elsewhere. Selected over Loukia specifically on those grounds, not because Loukia was found flawed.
 
