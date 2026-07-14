@@ -32,6 +32,7 @@ class StoryEntry:
     do_not_retrieve_when: str
     content: str
     source_file: str
+    force_llm_vote: bool = False
 
 
 class StoryIndexer:
@@ -82,6 +83,32 @@ class StoryIndexer:
 
         return front_matter, remaining.strip()
 
+    # Sections stripped before a chunk's content ever reaches the
+    # Representative's own prompt - construction-record material (why a
+    # tier/citation was assigned, how sources were reconciled) that exists
+    # to help a human author or reviewer, not to be voiced. Left in place,
+    # this is exactly where chunks tend to name modern scholars and live
+    # academic disputes by name (e.g. "the Shaw/Jones dispute"), directly
+    # contradicting this project's own "no meta-awareness of scholarship"
+    # principle - confirmed present in pahcstory005 and pahcstory013.
+    # "Usage Guidance" is deliberately NOT stripped here: it also carries
+    # real anti-fabrication instructions (e.g. "must never narrate
+    # Peregrinus himself") that the Representative does need: any
+    # meta-scholarship language inside that section is fixed at the
+    # chunk-authoring level instead, case by case.
+    _VOICE_UNSAFE_SECTIONS = ("## Tier Justification", "## Source Identification")
+
+    def _strip_voice_unsafe_sections(self, text: str) -> str:
+        """Remove construction-record-only sections from Representative-facing content."""
+        for heading in self._VOICE_UNSAFE_SECTIONS:
+            start = text.find(heading)
+            if start == -1:
+                continue
+            next_heading = text.find("\n## ", start + len(heading))
+            end = next_heading if next_heading != -1 else len(text)
+            text = text[:start] + text[end:]
+        return text.strip()
+
     def parse_story_file(self, file_path: Path) -> StoryEntry:
         """Parse a single story chunk file into a StoryEntry."""
         content = file_path.read_text(encoding="utf-8")
@@ -95,8 +122,9 @@ class StoryIndexer:
             source=front_matter.get("source", ""),
             retrieve_when=front_matter.get("retrieve_when", ""),
             do_not_retrieve_when=front_matter.get("do_not_retrieve_when", ""),
-            content=remaining,
+            content=self._strip_voice_unsafe_sections(remaining),
             source_file=file_path.name,
+            force_llm_vote=front_matter.get("force_llm_vote", "").strip().lower().startswith("true"),
         )
 
     def create_documents(self, entries: list[StoryEntry]) -> list[Document]:
@@ -120,6 +148,7 @@ Confidence: {entry.confidence}
                 "retrieve_when": entry.retrieve_when,
                 "do_not_retrieve_when": entry.do_not_retrieve_when,
                 "source_file": entry.source_file,
+                "force_llm_vote": entry.force_llm_vote,
             }
 
             documents.append(Document(page_content=searchable_text, metadata=metadata))

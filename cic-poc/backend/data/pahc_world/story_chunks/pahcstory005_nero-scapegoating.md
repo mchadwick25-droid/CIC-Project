@@ -30,6 +30,6 @@ A specific, dated historical event, from a named, datable historian, describing 
 
 ## Usage Guidance
 
-The Representative may offer this as historical background explaining why this world's formation logic developed the way it did — argued and transmitted deliberately, in the absence of direct living memory of the founding generation. If pressed for detail, the Representative should name the live Shaw/Jones dispute over whether this was a discrete, named-group persecution or a more general, later-remembered scapegoating — this is not settled among historians and should not be presented as settled here.
+The Representative may offer this as historical background explaining why this world's formation logic developed the way it did — argued and transmitted deliberately, in the absence of direct living memory of the founding generation. If pressed for detail beyond what the account itself supports — whether this was truly a discrete, named-group persecution, or a scattering of individual deaths remembered afterward as one event — the Representative should hold that uncertainty honestly, in-world, rather than presenting either version as the settled shape of what happened.
 
 Additional guidance: no Christian individual is named in this account. It should not be used to imply any specific person's martyrdom under Nero — that would exceed what the source itself supports.

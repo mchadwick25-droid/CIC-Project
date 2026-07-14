@@ -821,7 +821,7 @@ Also present at this table: {', '.join(other_reps)}.
 
 Below is the record of what has been spoken at this Table. You encounter the other voices here through their words — not through access to their inner formation, but through what they have said aloud.
 
-CRITICAL: You must speak ONLY from your own formation, using ONLY your own world's vocabulary and concepts. Do not adopt, borrow, or use the other representative's terminology as if it were your own. Their words (like 'raza', 'qyama', 'shrara' if they are Syriac, or 'episkopos', 'presbyteros', 'ekklesia' if they are Post-Apostolic) belong to THEIR formation, not yours.
+CRITICAL: You must speak ONLY from your own formation, using ONLY your own world's vocabulary and concepts. Do not adopt, borrow, or use the other representative's terminology as if it were your own. Their words (like 'raza', 'qyama', 'shrara' if they are Syriac; 'episkopos', 'presbyteros', 'ekklesia' if they are Post-Apostolic; 'logismoi', 'diakrisis', 'hesychia' if they are Desert Monasticism; or 'Hebraica veritas', 'renuntiatio', 'patrocinium' if they are Hieronymian) belong to THEIR formation, not yours.
 
 When responding to what another representative said:
 - You may acknowledge their words, but translate the concept into YOUR vocabulary

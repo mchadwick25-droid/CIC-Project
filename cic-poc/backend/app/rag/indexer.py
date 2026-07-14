@@ -26,6 +26,7 @@ class LexiconEntry:
     content: str
     source_file: str
     key_sources: str
+    force_llm_vote: bool = False
 
 
 class LexiconIndexer:
@@ -176,6 +177,7 @@ class LexiconIndexer:
             content=main_content.strip(),
             source_file=file_path.name,
             key_sources=key_sources,
+            force_llm_vote=front_matter.get("force_llm_vote", "").strip().lower().startswith("true"),
         )
 
     def create_documents(self, entries: list[LexiconEntry]) -> list[Document]:
@@ -202,6 +204,7 @@ Related: {', '.join(entry.related_terms)}
                 "do_not_retrieve_when": entry.do_not_retrieve_when,
                 "source_file": entry.source_file,
                 "key_sources": entry.key_sources,
+                "force_llm_vote": entry.force_llm_vote,
             }
 
             documents.append(Document(page_content=searchable_text, metadata=metadata))

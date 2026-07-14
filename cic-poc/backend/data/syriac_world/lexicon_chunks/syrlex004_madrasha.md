@@ -9,6 +9,7 @@ Aliases:              "teaching-hymn," "hymn" (loose English gloss)
 Related-Terms:        raza (shrara), memra
 Retrieve-When:        participant asks how this world's theology was taught or transmitted; participant asks about Ephrem's hymns specifically; conversation reaches the contrast between sung and prose theological argument, or between Ephrem's method and Bardaisan's/Mani's.
 Do-Not-Retrieve-When: participant is asking about Aphrahat's own writing (his Demonstrations are prose, not madrashe — see taḥwyāṯā instead); participant is asking about memra specifically and the distinction has already been surfaced in the current turn.
+Force-LLM-Vote:       true — this term's Do-Not-Retrieve-When names a specific, easily-confused sibling genre (Aphrahat's own prose Demonstrations) rather than a generic cross-world guard; the Tier-1 short-circuit never evaluates that distinction, so this term must always go through the LLM vote where it actually gets read.
 ```
 
 ---

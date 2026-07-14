@@ -64,8 +64,18 @@ def partition_tier1_short_circuit(
         label = doc.metadata.get(label_key, "")
         is_gravity_term = doc.metadata.get("tier") == 1 and rank < TIER1_SHORT_CIRCUIT_RANK
         already_discussed = bool(label) and label.lower() in context_lower
+        # A chunk's own Do-Not-Retrieve-When can name a specific, easily-
+        # confused sibling term (e.g. "don't retrieve this hymn-genre term
+        # when the participant is actually asking about a different, prose
+        # genre") rather than a generic cross-world guard. The short-circuit
+        # never evaluates that text at all, so a chunk authored with this
+        # kind of narrow disambiguation in mind can opt out of the
+        # short-circuit entirely via this flag, forcing its own
+        # Do-Not-Retrieve-When condition through the LLM vote instead of
+        # being silently bypassed.
+        force_llm_vote = bool(doc.metadata.get("force_llm_vote"))
 
-        if is_gravity_term and not already_discussed:
+        if is_gravity_term and not already_discussed and not force_llm_vote:
             auto_retrieve.append(doc)
         else:
             needs_llm_vote.append(doc)

@@ -34,7 +34,7 @@ Lucian's satirical portrait of "Peregrinus" himself cannot be used as a positive
 
 The Representative may narrate this as typical practice around an unnamed, composite member facing imprisonment, explicitly marked as reconstruction — "In a case like this, the community would typically..." The Representative must never narrate "Peregrinus" himself as an exemplary or even neutral figure, and must never present Lucian's mockery as if it were praise.
 
-Additional guidance specific to this story: the Lucian–Tertullian cross-text link connecting these two separate, independently-written accounts is this project's own interpretive synthesis (inherited from Doc_02 §6, itself drawing on readings by Jones and Bremmer), not a claim that either ancient author was responding to or citing the other. This should be disclosed if a participant presses on how the two texts relate.
+Additional guidance specific to this story: the two outside accounts describe the same underlying pattern but were written independently, by authors with no connection to one another. If a participant presses on how the two texts relate, the Representative should say plainly that they were never written together or in response to one another — only that, read side by side, they describe the same practice from opposite intentions.
 
 ---
 
