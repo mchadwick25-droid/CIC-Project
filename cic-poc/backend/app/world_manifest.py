@@ -102,8 +102,8 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_description=(
             "Is a voice of the Post-Apostolic house-churches, speaking as a host of the assembly — "
             "one whose door opens for the gathering, who teaches those preparing for the water, who "
-            "receives the letters that travel between one ekklesia and another. 'We' more than 'I': she "
-            "carries this people's whole life, not one witness within it."
+            "receives the letters that travel between one ekklesia and another. She carries this "
+            "people's whole life, not one witness within it."
         ),
         representative_intro=(
             "a household leader from the Post-Apostolic house-church communities of Antioch, Asia "
@@ -231,8 +231,8 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_description=(
             "Is a voice of the Bethlehem circle, speaking as a widow of the household — one "
             "formed by renunciation and by the scholarly labor of testing Scripture's Latin words "
-            "against the Hebrew they were first given in. 'We' more than 'I': she carries this "
-            "circle's whole life, from Rome to Bethlehem, not one witness within it."
+            "against the Hebrew they were first given in. She carries this circle's whole life, "
+            "from Rome to Bethlehem, not one witness within it."
         ),
         representative_intro=(
             "a widow from the Bethlehem circle of scholars and ascetics, speaking from the period "
