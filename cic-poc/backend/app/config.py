@@ -6,6 +6,8 @@ from typing import Literal
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+from app.world_manifest import WORLD_MANIFEST
+
 
 @dataclass
 class WorldConfig:
@@ -29,6 +31,14 @@ class WorldConfig:
     @property
     def lexicon_chunks_path(self) -> Path:
         return self.data_path / "lexicon_chunks"
+
+    @property
+    def story_chunks_path(self) -> Path:
+        return self.data_path / "story_chunks"
+
+    @property
+    def source_registry_path(self) -> Path:
+        return self.data_path / "source_registry.json"
 
 
 class Settings(BaseSettings):
@@ -57,26 +67,20 @@ class Settings(BaseSettings):
     port: int = 8000
     cors_origins: list[str] = ["http://localhost:5173", "http://127.0.0.1:5173"]
 
-    # World configurations
+    # World configurations - built from the single-source-of-truth manifest
+    # (app/world_manifest.py) rather than hardcoded here.
     @property
     def worlds(self) -> dict[str, WorldConfig]:
         return {
-            "syriac-edessa-nisibis": WorldConfig(
-                world_id="syriac-edessa-nisibis",
-                name="Syriac Christianity",
-                data_path=self.data_base_path / "syriac_world",
-                permanent_prompt_filename="syr_Representative_Permanent_Prompt_Yausep.txt",
-                world_capsule_filename="syr_World_Capsule_Core.md",
-                vector_store_name="syriac",
-            ),
-            "post-apostolic-house-church": WorldConfig(
-                world_id="post-apostolic-house-church",
-                name="Post-Apostolic House-Church",
-                data_path=self.data_base_path / "pahc_world",
-                permanent_prompt_filename="pahc_Representative_Permanent_Prompt_Amma.txt",
-                world_capsule_filename="pahc_World_Capsule_Core.md",
-                vector_store_name="pahc",
-            ),
+            entry.world_id: WorldConfig(
+                world_id=entry.world_id,
+                name=entry.world_name,
+                data_path=self.data_base_path / entry.data_dir_name,
+                permanent_prompt_filename=entry.permanent_prompt_filename,
+                world_capsule_filename=entry.world_capsule_filename,
+                vector_store_name=entry.vector_store_name,
+            )
+            for entry in WORLD_MANIFEST
         }
 
     def get_world_config(self, world_id: str) -> WorldConfig:
@@ -86,9 +90,14 @@ class Settings(BaseSettings):
         return self.worlds[world_id]
 
     def get_vector_store_path(self, world_id: str) -> Path:
-        """Get vector store path for a specific world."""
+        """Get lexicon vector store path for a specific world."""
         world_config = self.get_world_config(world_id)
         return self.vector_store_base_path / world_config.vector_store_name
+
+    def get_story_vector_store_path(self, world_id: str) -> Path:
+        """Get story vector store path for a specific world."""
+        world_config = self.get_world_config(world_id)
+        return self.vector_store_base_path / f"{world_config.vector_store_name}_stories"
 
     # Legacy properties for backwards compatibility (default to Syriac)
     @property

@@ -13,6 +13,12 @@ Do-Not-Retrieve-When: participant asks specifically about the Peshitta (a distin
 
 ---
 
+## Quick Meaning
+
+Throughout this world's core period, "the Gospel" meant a single continuous harmonized narrative — Tatian's Diatessaron — not four separate books held in tension; Aphrahat quotes it and Ephrem wrote a full commentary on it, though the specific vernacular name for this text is itself an unsettled matter within this world's own evidentiary record.
+
+---
+
 ## World Meaning
 
 Throughout this world's core period, "the Gospel" did not mean four discrete books held in tension with one another; it meant a single, continuous harmonized narrative — Tatian's Diatessaron, composed around 172 CE — which functioned as the standard lectionary text in Syriac-speaking churches for roughly two centuries. Aphrahat quotes and uses it; Ephrem wrote a full Commentary on it. The formation experience of hearing "the Gospel" in this world is therefore materially different from a community reading four separate witnesses: it is the experience of a single unfolding story.

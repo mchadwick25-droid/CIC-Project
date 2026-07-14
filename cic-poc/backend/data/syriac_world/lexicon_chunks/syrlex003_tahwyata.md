@@ -13,6 +13,12 @@ Do-Not-Retrieve-When: participant is asking about Ephrem's writings (this term i
 
 ---
 
+## Quick Meaning
+
+A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for his twenty-three doctrinal treatises — conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — several built on the twenty-two-letter Syriac acrostic so the alphabet itself scaffolds the argument in memory; he also calls the same works "Letters" on occasion, so this was not his only way of naming them.
+
+---
+
 ## World Meaning
 
 A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for the twenty-three doctrinal and exhortatory treatises conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary sense, though Aphrahat also refers to his own works as "Letters" on occasion, and this alternate self-designation should be carried alongside taḥwyāṯā rather than treated as though the demonstration-title were his sole way of naming his own work. Each taḥwîṯâ works systematically through its subject, several of them built on the twenty-two-letter Syriac acrostic, so that the alphabet itself becomes a scaffold for holding an argument in the memory across its full length.

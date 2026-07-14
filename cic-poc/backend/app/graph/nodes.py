@@ -1,6 +1,7 @@
 """LangGraph node functions for The Table conversation."""
 
 import re
+from concurrent.futures import ThreadPoolExecutor
 from typing import Literal
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
@@ -8,7 +9,10 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from app.config import settings
 from app.graph.state import ConversationState, DriftSignal, RetrievedContext
 from app.prompts import (
+    FACILITATOR_BRIDGE_PROMPT,
     FACILITATOR_CLOSING_PROMPT,
+    FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
+    FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
     FACILITATOR_MONITORING_PROMPT,
     FACILITATOR_RECEPTION_PROMPT,
     FACILITATOR_REROOT_PROMPT,
@@ -20,26 +24,64 @@ from app.prompts.facilitator_prompts import (
     get_representative_message_name,
     get_representative_name,
 )
-from app.prompts.representative_prompts import REPRESENTATIVE_CONTINUATION_PROMPT
-from app.rag import LexiconRetriever
+from app.prompts.representative_prompts import (
+    REACTIVE_CONTINUATION_PROMPT,
+    REPRESENTATIVE_CONTINUATION_PROMPT,
+)
+from app.prompts.table_discourse import REACTIVE_TURN_GUIDANCE
+from app.rag import LexiconRetriever, StoryRetriever
+
+# Hard cap on a reactive turn's length - keeps a multi-representative round
+# feeling like conversational exchange rather than a sequence of speeches,
+# backing up the "keep this short" prompt guidance with an actual limit the
+# model can't reason its way past. Deliberately loose (not "a few sentences"
+# tight) - Anthropic's max_tokens is a hard cutoff, not a target the model
+# paces itself against, so a tight cap risks truncating mid-sentence, which
+# reads far worse than a turn that's merely longer than ideal. Raised twice:
+# 500 -> 700 after a reactive turn combining a story with a direct answer
+# hit the ceiling mid-sentence; 700 -> 900 after the "respond, then add your
+# own developed view" reactive guidance (naming what was said, working
+# through real agreement/disagreement) produced turns that legitimately run
+# longer than a short rebuttal while still landing well short of a full
+# independent turn (~1000+ tokens).
+REACTIVE_TURN_MAX_TOKENS = 900
 
 
-def get_llm():
-    """Get the configured LLM."""
+def get_llm(max_tokens: int | None = None):
+    """Get the configured LLM.
+
+    max_tokens: hard cap on response length. Used to actually enforce short
+    reactive turns in a multi-representative round - prompt instructions
+    alone ("keep this short") are a nudge the model doesn't reliably follow
+    once a topic is substantive, so a token cap backs it up structurally.
+
+    When max_tokens is set, extended thinking is explicitly disabled. Live
+    testing found this model emits an interleaved thinking block by default
+    on every call (present even with no explicit thinking config), and its
+    length varies unpredictably per generation - when it runs long, it can
+    consume most of a tight max_tokens budget before any visible text is
+    written, causing the response to hit the cap and cut off mid-sentence
+    with only a fraction of the intended length actually said. Disabling
+    thinking for capped (reactive-turn) calls makes the visible-text budget
+    the whole budget, which is what a short conversational reactive beat
+    actually needs - full-length uncapped calls are left alone since they
+    have no tight ceiling for thinking to crowd out.
+    """
     if settings.llm_provider == "anthropic":
         from langchain_anthropic import ChatAnthropic
 
-        return ChatAnthropic(
-            model=settings.llm_model,
-            anthropic_api_key=settings.anthropic_api_key,
-        )
+        kwargs = {"model": settings.llm_model, "anthropic_api_key": settings.anthropic_api_key}
+        if max_tokens:
+            kwargs["max_tokens"] = max_tokens
+            kwargs["thinking"] = {"type": "disabled"}
+        return ChatAnthropic(**kwargs)
     else:
         from langchain_openai import ChatOpenAI
 
-        return ChatOpenAI(
-            model=settings.llm_model,
-            openai_api_key=settings.openai_api_key,
-        )
+        kwargs = {"model": settings.llm_model, "openai_api_key": settings.openai_api_key}
+        if max_tokens:
+            kwargs["max_tokens"] = max_tokens
+        return ChatOpenAI(**kwargs)
 
 
 def get_monitoring_llm():
@@ -62,6 +104,7 @@ def get_monitoring_llm():
 
 # Per-world retrievers cache
 _retrievers: dict[str, LexiconRetriever] = {}
+_story_retrievers: dict[str, StoryRetriever] = {}
 
 
 def get_retriever(world_id: str = "syriac-edessa-nisibis") -> LexiconRetriever:
@@ -70,6 +113,14 @@ def get_retriever(world_id: str = "syriac-edessa-nisibis") -> LexiconRetriever:
     if world_id not in _retrievers:
         _retrievers[world_id] = LexiconRetriever(world_id=world_id)
     return _retrievers[world_id]
+
+
+def get_story_retriever(world_id: str = "syriac-edessa-nisibis") -> StoryRetriever:
+    """Get or create the story retriever for a specific world."""
+    global _story_retrievers
+    if world_id not in _story_retrievers:
+        _story_retrievers[world_id] = StoryRetriever(world_id=world_id)
+    return _story_retrievers[world_id]
 
 
 def facilitator_receives(state: ConversationState) -> dict:
@@ -89,6 +140,132 @@ def facilitator_receives(state: ConversationState) -> dict:
         "messages": [AIMessage(content=response.content, name="facilitator")],
         "phase": "handoff",
         "current_speaker": "facilitator",
+    }
+
+
+def stream_facilitator_bridge(state: ConversationState):
+    """
+    Stream a brief Facilitator turn back toward the participant after a
+    multi-representative round.
+
+    When two or more representatives have just spoken - genuinely to each
+    other as well as to the participant - the conversation can start to feel
+    like something the participant is watching rather than something they
+    are in. This is a short, deliberate handoff back: not a summary of what
+    was said, just making it plain the table is listening for the
+    participant now. Yields the same token/complete event shape as
+    `stream_representative_turn` so callers can treat it identically.
+    """
+    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
+
+    public_transcript = build_public_transcript(state)
+
+    full_text = ""
+    for chunk in llm.stream([
+        SystemMessage(content=FACILITATOR_BRIDGE_PROMPT),
+        HumanMessage(content=f"Here is what was just said at the table:\n\n{public_transcript}"),
+    ]):
+        content = chunk.content
+        if isinstance(content, list):
+            piece = "".join(
+                block.get("text", "")
+                for block in content
+                if isinstance(block, dict) and block.get("type") == "text"
+            )
+        else:
+            piece = content
+
+        if piece:
+            full_text += piece
+            yield {"type": "token", "speaker": "facilitator", "text": piece}
+
+    yield {
+        "type": "complete",
+        "speaker": "facilitator",
+        "message": AIMessage(content=full_text, name="facilitator"),
+        "current_world_id": state.current_world_id,
+        "retrieved_context": None,
+    }
+
+
+def classify_frame_breaker(message: str) -> bool:
+    """
+    Decide whether an incoming participant message is a frame-breaker -
+    a direct or adversarial question about a Representative's own
+    construction, nature, or grammar - before any Representative ever sees
+    it.
+
+    Per Facilitator Governance V3.6 Section 10 (Self-Narration, CO-019) and
+    Section 12 (frame-breaker trigger): a Representative's own prompt text
+    cannot reliably hold this line alone under sustained pressure, so the
+    routing decision is decoupled into its own narrow classifier call rather
+    than asked of the same pass that would generate Representative content.
+    This is that classifier - it has no Representative-generation role and
+    sees only the raw message, never the conversation's substance.
+
+    Fails open to False (treat as substantive) on any parse ambiguity or
+    error - a missed frame-breaker falls back to the existing in-line
+    Self-Narration monitoring signal as a second layer; a false positive
+    would incorrectly deny the participant a real answer, which is the
+    worse failure mode of the two.
+    """
+    llm = get_monitoring_llm()
+    try:
+        response = llm.invoke([
+            SystemMessage(content=FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT.format(message=message)),
+            HumanMessage(content="Classify the message above."),
+        ])
+        result = response.content.strip().upper()
+        return result.startswith("FRAME_BREAKER")
+    except Exception:
+        return False
+
+
+def stream_frame_breaker_response(state: ConversationState):
+    """
+    Stream the Facilitator's threshold-voice answer to a frame-breaker
+    question - "surface, answer, recede" per Governance V3.6 Section 12.
+
+    This is a Facilitator-only call: no Representative's Permanent Prompt is
+    ever invoked for this turn, so a Representative is structurally never
+    shown a message classified as a frame-breaker and cannot attempt to
+    answer one in character. Yields the same token/complete event shape as
+    `stream_representative_turn`/`stream_facilitator_bridge` so callers can
+    treat it identically.
+    """
+    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
+
+    last_human_message = ""
+    for msg in reversed(state.messages):
+        if isinstance(msg, HumanMessage):
+            last_human_message = msg.content
+            break
+
+    full_text = ""
+    for chunk in llm.stream([
+        SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=last_human_message)),
+        HumanMessage(content="Respond as the Facilitator, per your instructions above."),
+    ]):
+        content = chunk.content
+        if isinstance(content, list):
+            piece = "".join(
+                block.get("text", "")
+                for block in content
+                if isinstance(block, dict) and block.get("type") == "text"
+            )
+        else:
+            piece = content
+
+        if piece:
+            full_text += piece
+            yield {"type": "token", "speaker": "facilitator", "text": piece}
+
+    yield {
+        "type": "complete",
+        "speaker": "facilitator",
+        "message": AIMessage(content=full_text, name="facilitator"),
+        "current_world_id": state.current_world_id,
+        "retrieved_context": None,
     }
 
 
@@ -148,18 +325,22 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
     return "\n\n".join(transcript_lines[-10:])  # Last 10 exchanges
 
 
-def representative_engages(state: ConversationState) -> dict:
+def _prepare_representative_turn(state: ConversationState, is_reactive: bool = False) -> dict:
     """
-    The representative responds to the participant with RAG-augmented context.
+    Do everything a representative's turn needs before generation: figure out
+    who is speaking, retrieve lexicon/story context, and assemble the system
+    prompt and continuation message.
 
-    This is the main conversation loop node. In multi-world tables, uses
-    current_world_id to determine which representative speaks.
+    Shared by both the non-streaming (`representative_engages`) and streaming
+    (`stream_representative_turn`) paths so retrieval/prompt-assembly logic
+    only lives in one place.
 
-    Representatives see the "public transcript" - what has been said at The Table -
-    allowing them to respond to what other representatives have said.
+    is_reactive: True when another representative has already spoken earlier
+    in this same multi-representative round. Shapes the turn toward a short,
+    responsive beat (agreement, difference, or genuine addition) rather than
+    a full independent turn - this is what keeps a multi-voice round feeling
+    like conversation instead of a sequence of speeches.
     """
-    llm = get_llm()
-
     # Determine which world's representative is speaking
     world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
     current_world_id = state.current_world_id or state.world_id
@@ -182,6 +363,7 @@ def representative_engages(state: ConversationState) -> dict:
         world_capsule = state.world_capsule_core
 
     retriever = get_retriever(current_world_id)
+    story_retriever = get_story_retriever(current_world_id)
     rep_message_name = get_representative_message_name(current_world_id)
 
     # Get the last human message
@@ -195,37 +377,113 @@ def representative_engages(state: ConversationState) -> dict:
         # No question yet, provide an opening
         last_human_message = "(The participant has just been introduced to you.)"
 
+    # For a reactive turn, find the most recent thing another representative
+    # actually said - the immediate thing this turn needs to respond to, not
+    # just the participant's original question. Without this, retrieval and
+    # generation both stay anchored to the opening question no matter how
+    # deep into an exchange this turn is, which is what makes multi-
+    # representative rounds read as parallel independent statements ("three
+    # presentations") instead of a real back-and-forth: the model's most
+    # concrete instruction was always "answer the question," never "respond
+    # to what was just said."
+    last_other_rep_message = None
+    last_other_rep_display_name = None
+    if is_reactive:
+        for msg in reversed(state.messages):
+            name = getattr(msg, "name", None)
+            if name and name != "facilitator" and name != rep_message_name:
+                last_other_rep_message = msg.content
+                last_other_rep_display_name = get_representative_name(
+                    next((wid for wid in world_ids if get_representative_message_name(wid) == name), None)
+                ) or name.replace("_", " ").title()
+                break
+
     # Build the public transcript - what has been said at The Table
     public_transcript = build_public_transcript(state)
 
-    # Retrieve relevant lexicon context
-    retrieved_context, citations = retriever.get_context_for_response(
-        query=last_human_message,
-        conversation_context=public_transcript,
-    )
+    # Retrieve relevant lexicon context - anchored to what was just said when
+    # reactive, so retrieval surfaces material for THIS exchange rather than
+    # a fresh independent answer to the original question.
+    retrieval_query = last_human_message
+    if last_other_rep_message:
+        retrieval_query = f"{last_human_message}\n\n{last_other_rep_display_name} just said: {last_other_rep_message}"
 
-    # Check if there's reroot guidance from a previous drift detection
-    reroot_guidance = ""
-    if state.requires_reroot and state.drift_signals:
+    # Lexicon and story retrieval are independent (different vector stores,
+    # different filter-LLM calls) and were previously run sequentially,
+    # doubling their combined latency for no reason - run them concurrently
+    # instead. Both are synchronous/blocking (network-bound LLM + vector
+    # search calls), so a plain thread pool is enough; no need for this
+    # whole call chain to become async just for this.
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        lexicon_future = executor.submit(
+            retriever.get_context_for_response,
+            query=retrieval_query,
+            conversation_context=public_transcript,
+        )
+        story_future = executor.submit(
+            story_retriever.get_context_for_response,
+            query=retrieval_query,
+            conversation_context=public_transcript,
+        )
+        retrieved_context, lexicon_citations, lexicon_evaluations = lexicon_future.result()
+        story_context, story_citations, story_evaluations = story_future.result()
+
+    citations = lexicon_citations + story_citations
+    evaluations = lexicon_evaluations + story_evaluations
+
+    # Guidance for THIS specific representative, queued from an earlier
+    # drift/dominance/convergence finding (see check_dominance,
+    # check_convergence, and the streaming endpoint's per-round drift
+    # monitoring). Routed through pending_guidance, keyed by world_id, so
+    # correction reaches only the representative who actually drifted - not
+    # whoever happens to speak next in the round, regardless of who the
+    # finding was about.
+    reroot_guidance = state.pending_guidance.get(current_world_id, "")
+
+    # Falls back to the older global requires_reroot/drift_signals[-1]
+    # mechanism only when nothing is queued in pending_guidance for this
+    # world - this keeps the non-streaming, single-world /message endpoint
+    # (facilitator_reroots) working without its own migration. A single-
+    # representative session has no "wrong representative" to misroute a
+    # correction to in the first place, so the global mechanism was never
+    # actually buggy there.
+    if not reroot_guidance and state.requires_reroot and state.drift_signals:
         last_signal = state.drift_signals[-1]
         reroot_guidance = f"Adjust for: {last_signal.description}"
 
-    # Build the full system prompt
-    system_prompt = build_representative_prompt(
+    # If another representative already spoke this round, this turn is
+    # continuing a live exchange, not opening one. Text lives in
+    # table_discourse.REACTIVE_TURN_GUIDANCE (promoted out of this file so
+    # it's a versioned, reviewed document rather than an inline literal) -
+    # byte-identical across every representative and every reactive turn,
+    # which is what makes it cacheable as its own breakpoint in
+    # _cached_system_message below.
+    reactive_turn_guidance = REACTIVE_TURN_GUIDANCE if (is_multi_world and is_reactive) else ""
+
+    # Build the system prompt, split into three segments: a stable cacheable
+    # prefix (static_prompt), a conditionally-present but equally cacheable
+    # reactive-guidance block (reactive_guidance_block), and everything that
+    # changes turn-to-turn (dynamic_prompt) - see build_representative_prompt's
+    # docstring.
+    static_prompt, reactive_guidance_block, dynamic_prompt = build_representative_prompt(
         permanent_prompt=permanent_prompt,
         world_capsule=world_capsule,
         retrieved_context=retrieved_context,
+        story_context=story_context,
         reroot_guidance=reroot_guidance,
+        reactive_turn_guidance=reactive_turn_guidance,
     )
 
-    # For multi-world, add the public transcript and guidance on encountering other voices
+    # For multi-world, add the public transcript and guidance on encountering
+    # other voices. This changes every turn (new transcript each time), so it
+    # belongs in dynamic_prompt, not the cached static block.
     if is_multi_world and public_transcript:
         other_reps = []
         for wid in world_ids:
             if wid != current_world_id:
                 other_reps.append(get_representative_name(wid))
 
-        system_prompt += f"""
+        dynamic_prompt += f"""
 
 # The Public Transcript — What Has Been Said at This Table
 
@@ -248,14 +506,19 @@ PUBLIC TRANSCRIPT:
 {public_transcript}
 """
 
-    # Build message for continuation
-    continuation = REPRESENTATIVE_CONTINUATION_PROMPT.format(message=last_human_message)
-
-    # Get response
-    response = llm.invoke([
-        SystemMessage(content=system_prompt),
-        HumanMessage(content=continuation),
-    ])
+    # Build message for continuation. Reactive turns get a distinct framing
+    # that puts what was just said front and center as the thing to respond
+    # to - this is the single most concrete instruction the model receives
+    # each turn, and it needs to point at the live exchange, not repeat the
+    # original question as if this were an independent answer to it.
+    if last_other_rep_message:
+        continuation = REACTIVE_CONTINUATION_PROMPT.format(
+            speaker_name=last_other_rep_display_name,
+            statement=last_other_rep_message,
+            original_message=last_human_message,
+        )
+    else:
+        continuation = REPRESENTATIVE_CONTINUATION_PROMPT.format(message=last_human_message)
 
     # Track retrieved terms for state
     retrieved_terms = []
@@ -263,28 +526,213 @@ PUBLIC TRANSCRIPT:
         terms = re.findall(r"### ([^\n]+)", retrieved_context)
         retrieved_terms = terms
 
+    def _citation_payload(citation, kind: str) -> dict:
+        payload = {
+            "type": kind,
+            "term": citation.term,
+            "key_sources": citation.key_sources,
+            "source_file": citation.source_file,
+        }
+        if citation.registry:
+            payload["registry"] = citation.registry
+        return payload
+
     citations_payload = [
-        {"term": c.term, "key_sources": c.key_sources, "source_file": c.source_file}
-        for c in citations
+        _citation_payload(c, "lexicon") for c in lexicon_citations
+    ] + [
+        _citation_payload(c, "story") for c in story_citations
     ]
+
+    def _audit_payload(evaluation, kind: str) -> dict:
+        return {
+            "type": kind,
+            "term": evaluation.term,
+            "source_file": evaluation.source_file,
+            "retrieved": evaluation.retrieved,
+            "reason": evaluation.reason,
+        }
+
+    retrieval_audit_payload = [
+        _audit_payload(e, "lexicon") for e in lexicon_evaluations
+    ] + [
+        _audit_payload(e, "story") for e in story_evaluations
+    ]
+
+    return {
+        "static_prompt": static_prompt,
+        "reactive_guidance_block": reactive_guidance_block,
+        "dynamic_prompt": dynamic_prompt,
+        "continuation": continuation,
+        "rep_message_name": rep_message_name,
+        "current_world_id": current_world_id,
+        "retrieved_context": retrieved_context,
+        "story_context": story_context,
+        "retrieved_terms": retrieved_terms,
+        "citations_payload": citations_payload,
+        "retrieval_audit_payload": retrieval_audit_payload,
+    }
+
+
+def _cached_system_message(
+    static_prompt: str, reactive_guidance_block: str, dynamic_prompt: str
+) -> SystemMessage:
+    """
+    Build a SystemMessage with Anthropic prompt-caching breakpoints after
+    each cacheable (identical-across-calls) portion of the prompt.
+
+    Anthropic caches everything up through a block marked with cache_control
+    as a prefix, and supports multiple such breakpoints per request. Two
+    portions of this prompt are cacheable, for different reasons:
+
+    - static_prompt (permanent prompt + world capsule + core engagement
+      principles) is byte-identical on every turn for this representative.
+    - reactive_guidance_block (table_discourse.REACTIVE_TURN_GUIDANCE, when
+      this is a reactive turn) is byte-identical across every representative
+      and every reactive turn, but only present some of the time - it gets
+      its own breakpoint rather than being folded into static_prompt's,
+      because mixing a sometimes-present block into an always-present one
+      would make the always-present block's own cache key unstable (a cache
+      hit requires the cached prefix to match exactly, so a block that
+      changes presence/absence turn to turn can't safely share a breakpoint
+      with one that never changes).
+
+    dynamic_prompt (retrieved context, reroot correction - differs on every
+    call) stays out of both cached blocks entirely; including it in either
+    would make that block a guaranteed cache miss every time, defeating the
+    purpose.
+    """
+    blocks = [{"type": "text", "text": static_prompt, "cache_control": {"type": "ephemeral"}}]
+    if reactive_guidance_block:
+        blocks.append({
+            "type": "text",
+            "text": reactive_guidance_block,
+            "cache_control": {"type": "ephemeral"},
+        })
+    if dynamic_prompt:
+        blocks.append({"type": "text", "text": dynamic_prompt})
+    return SystemMessage(content=blocks)
+
+
+def representative_engages(state: ConversationState, is_reactive: bool = False) -> dict:
+    """
+    The representative responds to the participant with RAG-augmented context.
+
+    This is the main conversation loop node. In multi-world tables, uses
+    current_world_id to determine which representative speaks.
+
+    Representatives see the "public transcript" - what has been said at The Table -
+    allowing them to respond to what other representatives have said.
+    """
+    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS if is_reactive else None)
+    ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
+
+    response = llm.invoke([
+        _cached_system_message(ctx["static_prompt"], ctx["reactive_guidance_block"], ctx["dynamic_prompt"]),
+        HumanMessage(content=ctx["continuation"]),
+    ])
+
+    message_kwargs = {}
+    if ctx["citations_payload"]:
+        message_kwargs["citations"] = ctx["citations_payload"]
+    if ctx["retrieval_audit_payload"]:
+        message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
 
     return {
         "messages": [
             AIMessage(
                 content=response.content,
-                name=rep_message_name,
-                additional_kwargs={"citations": citations_payload} if citations_payload else {},
+                name=ctx["rep_message_name"],
+                additional_kwargs=message_kwargs,
             )
         ],
         "turn_count": state.turn_count + 1,
         "requires_reroot": False,  # Clear reroot flag after using it
-        "current_world_id": current_world_id,
+        "current_world_id": ctx["current_world_id"],
         "retrieved_context": RetrievedContext(
-            chunks=[retrieved_context] if retrieved_context else [],
-            terms=retrieved_terms,
+            chunks=[c for c in [ctx["retrieved_context"], ctx["story_context"]] if c],
+            terms=ctx["retrieved_terms"],
             sources=[],
-            citations=citations_payload,
-        ) if retrieved_context else None,
+            citations=ctx["citations_payload"],
+        ) if (ctx["retrieved_context"] or ctx["story_context"]) else None,
+    }
+
+
+def stream_representative_turn(state: ConversationState, is_reactive: bool = False):
+    """
+    Stream a single representative's turn token-by-token.
+
+    Reuses the same retrieval/prompt-assembly logic as `representative_engages`
+    (via `_prepare_representative_turn`) so the streamed and non-streamed paths
+    can never drift apart. Yields dicts as generation progresses:
+
+    - {"type": "token", "speaker": name, "text": chunk} for each token chunk
+    - {"type": "complete", "speaker": name, "message": AIMessage, ...} once,
+      at the end, carrying the full assembled message and state updates
+    """
+    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS if is_reactive else None)
+    ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
+
+    messages = [
+        _cached_system_message(ctx["static_prompt"], ctx["reactive_guidance_block"], ctx["dynamic_prompt"]),
+        HumanMessage(content=ctx["continuation"]),
+    ]
+
+    def _extract_piece(content) -> str:
+        # Extended-thinking-capable models can emit content as a list of
+        # blocks (text/thinking/etc.) instead of a plain string - only
+        # surface the text blocks to the participant, same as the
+        # non-streaming path does when parsing the final response.
+        if isinstance(content, list):
+            return "".join(
+                block.get("text", "")
+                for block in content
+                if isinstance(block, dict) and block.get("type") == "text"
+            )
+        return content or ""
+
+    full_text = ""
+    for chunk in llm.stream(messages):
+        piece = _extract_piece(chunk.content)
+        if piece:
+            full_text += piece
+            yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
+
+    # A stream that completes with zero text is rare but real (observed in
+    # live testing) - shipping a blank message doesn't just look broken to
+    # the participant, it corrupts every later turn that reads this one out
+    # of the public transcript (an empty "X said:" line reliably confuses
+    # subsequent generations). One retry via a fresh non-streaming call
+    # catches the transient case; if that also comes back empty, the turn is
+    # skipped rather than injected as blank content.
+    if not full_text:
+        retry_response = llm.invoke(messages)
+        full_text = _extract_piece(retry_response.content)
+        if full_text:
+            yield {"type": "token", "speaker": ctx["rep_message_name"], "text": full_text}
+
+    message_kwargs = {}
+    if ctx["citations_payload"]:
+        message_kwargs["citations"] = ctx["citations_payload"]
+    if ctx["retrieval_audit_payload"]:
+        message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
+
+    ai_message = AIMessage(
+        content=full_text,
+        name=ctx["rep_message_name"],
+        additional_kwargs=message_kwargs,
+    )
+
+    yield {
+        "type": "complete",
+        "speaker": ctx["rep_message_name"],
+        "message": ai_message,
+        "current_world_id": ctx["current_world_id"],
+        "retrieved_context": RetrievedContext(
+            chunks=[c for c in [ctx["retrieved_context"], ctx["story_context"]] if c],
+            terms=ctx["retrieved_terms"],
+            sources=[],
+            citations=ctx["citations_payload"],
+        ) if (ctx["retrieved_context"] or ctx["story_context"]) else None,
     }
 
 
@@ -331,8 +779,9 @@ def multi_representative_engages(state: ConversationState) -> dict:
             close_requested=state.close_requested,
         )
 
-        # Get this representative's response
-        result = representative_engages(working_state)
+        # Get this representative's response - every speaker after the first
+        # in a round is responding to what's already been said, not opening it
+        result = representative_engages(working_state, is_reactive=(world_id != world_ids[0]))
 
         # Add the message to our collection
         new_messages = result.get("messages", [])
@@ -349,20 +798,129 @@ def multi_representative_engages(state: ConversationState) -> dict:
     }
 
 
-def facilitator_monitors(state: ConversationState) -> dict:
+def _detect_drift_signal(response_text: str, world_id: str | None = None) -> DriftSignal | None:
     """
-    Facilitator invisibly monitors the representative's response for drift.
+    Run drift detection on a single representative response and return the
+    detected DriftSignal (tagged with world_id, if given), or None if clean.
 
-    This check happens after each representative turn but is invisible
-    to the participant. In multi-world tables, monitors the current speaker.
+    Shared by facilitator_monitors (the single-turn, backward-compatible
+    entry point used by the non-streaming /message endpoint) and
+    check_drift_for_message (used by the streaming endpoint's per-round
+    monitoring pass, which checks every turn of a round tagged with its own
+    speaker - see that function's docstring for why).
     """
     llm = get_monitoring_llm()
+    prompt = FACILITATOR_MONITORING_PROMPT.format(response=response_text)
+    response = llm.invoke([
+        SystemMessage(content=prompt),
+        HumanMessage(content="Analyze the response above for drift signals."),
+    ])
 
-    # Get the current representative's message name
+    result = response.content.strip()
+    if not result.startswith("DRIFT_DETECTED"):
+        return None
+
+    lines = result.split("\n")
+    signal_type = "smoothing"
+    severity = "low"
+    description = ""
+
+    for line in lines[1:]:
+        if line.startswith("Signal:"):
+            signal_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
+        elif line.startswith("Severity:"):
+            severity = line.split(":", 1)[1].strip().lower()
+        elif line.startswith("Description:"):
+            description = line.split(":", 1)[1].strip()
+
+    # Validate signal type - must match the 9 signals defined in
+    # FACILITATOR_MONITORING_PROMPT (facilitator_prompts.py). This list had
+    # drifted out of sync with the prompt once already: it was missing
+    # over_producing, temporal_bleed, and flattening after the prompt was
+    # extended, so any of those detections was silently relabeled
+    # "smoothing" instead of surfacing under its real signal type. Kept
+    # "anachronism" as an accepted alias since temporal_bleed is its
+    # current name in the prompt but older sessions/tests may still emit it.
+    valid_signals = [
+        "smoothing", "generating", "agreeing", "over_producing",
+        "temporal_bleed", "flattening", "fabrication", "apologetics",
+        "first_person", "anachronism",
+    ]
+    if signal_type not in valid_signals:
+        # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
+        # FABRICATION signal explicitly tells the model to flag a combined
+        # FABRICATION+FIRST_PERSON finding - and it reliably does, returning
+        # a compound label like "FABRICATION + FIRST_PERSON" that doesn't
+        # exact-match any single entry above. A naive exact-match check
+        # silently discarded these into "smoothing", hiding exactly the
+        # compound violation the prompt was written to catch. Search for any
+        # known signal name within the raw string instead of requiring an
+        # exact match, preferring fabrication when present since the prompt
+        # itself says the compound case should surface as FABRICATION.
+        found = [s for s in valid_signals if s in signal_type]
+        if "fabrication" in found:
+            signal_type = "fabrication"
+        elif found:
+            signal_type = found[0]
+        else:
+            signal_type = "smoothing"
+
+    return DriftSignal(
+        signal_type=signal_type,
+        description=description,
+        severity=severity,
+        world_id=world_id,
+    )
+
+
+def check_drift_for_message(world_id: str, message_content: str) -> DriftSignal | None:
+    """
+    Single-turn drift check for one specific representative's message,
+    tagged with that representative's world_id.
+
+    Used by the streaming endpoint to monitor EVERY turn completed in a
+    round, not only the last speaker's - facilitator_monitors (below) only
+    ever sees state.current_world_id's most recent message, which in a
+    multi-turn round silently skips drift checking on every turn but the
+    last one.
+    """
+    return _detect_drift_signal(message_content, world_id=world_id)
+
+
+def generate_reroot_guidance(signal: DriftSignal) -> str:
+    """
+    Generate brief correction guidance text for a single drift signal.
+
+    Callers route the result through pending_guidance[world_id] themselves
+    (see main.py's streaming endpoint) rather than a global requires_reroot
+    flag, so correction reaches only the representative who actually
+    drifted - not whoever happens to speak next in the round, regardless of
+    who the finding was about.
+    """
+    llm = get_monitoring_llm()
+    prompt = FACILITATOR_REROOT_PROMPT.format(
+        drift_description=f"{signal.signal_type}: {signal.description}"
+    )
+    response = llm.invoke([
+        SystemMessage(content=prompt),
+        HumanMessage(content="Provide correction guidance."),
+    ])
+    return response.content.strip()
+
+
+def facilitator_monitors(state: ConversationState) -> dict:
+    """
+    Facilitator invisibly monitors the CURRENT speaker's most recent turn
+    for drift.
+
+    Kept as the single-turn entry point for the non-streaming /message
+    endpoint, where there is only ever one turn to check. The streaming
+    endpoint instead calls check_drift_for_message once per turn completed
+    in a round, since this function only ever sees the last speaker.
+    """
     current_world_id = state.current_world_id or state.world_id
     rep_message_name = get_representative_message_name(current_world_id)
 
-    # Get the last representative message from the current speaker
     last_rep_message = None
     for msg in reversed(state.messages):
         if hasattr(msg, "name") and msg.name == rep_message_name:
@@ -372,50 +930,14 @@ def facilitator_monitors(state: ConversationState) -> dict:
     if not last_rep_message:
         return {"requires_reroot": False}
 
-    # Run drift detection
-    prompt = FACILITATOR_MONITORING_PROMPT.format(response=last_rep_message)
-    response = llm.invoke([
-        SystemMessage(content=prompt),
-        HumanMessage(content="Analyze the response above for drift signals."),
-    ])
+    signal = _detect_drift_signal(last_rep_message, world_id=current_world_id)
+    if signal is None:
+        return {"requires_reroot": False}
 
-    result = response.content.strip()
-
-    if result.startswith("DRIFT_DETECTED"):
-        # Parse drift signal
-        lines = result.split("\n")
-        signal_type = "smoothing"
-        severity = "low"
-        description = ""
-
-        for line in lines[1:]:
-            if line.startswith("Signal:"):
-                signal_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
-            elif line.startswith("Severity:"):
-                severity = line.split(":", 1)[1].strip().lower()
-            elif line.startswith("Description:"):
-                description = line.split(":", 1)[1].strip()
-
-        # Validate signal type
-        valid_signals = [
-            "smoothing", "generating", "agreeing", "first_person",
-            "anachronism", "fabrication", "apologetics"
-        ]
-        if signal_type not in valid_signals:
-            signal_type = "smoothing"
-
-        drift_signal = DriftSignal(
-            signal_type=signal_type,
-            description=description,
-            severity=severity,
-        )
-
-        return {
-            "drift_signals": [drift_signal],
-            "requires_reroot": severity in ["medium", "high"],
-        }
-
-    return {"requires_reroot": False}
+    return {
+        "drift_signals": [signal],
+        "requires_reroot": signal.severity in ("medium", "high"),
+    }
 
 
 def facilitator_reroots(state: ConversationState) -> dict:
@@ -423,28 +945,22 @@ def facilitator_reroots(state: ConversationState) -> dict:
     Facilitator provides invisible correction guidance after drift detection.
 
     This guidance is injected into the representative's context for their
-    next response, but is not visible to the participant.
+    next response, but is not visible to the participant. Kept for the
+    non-streaming /message endpoint's global requires_reroot flow; the
+    streaming endpoint instead calls generate_reroot_guidance directly and
+    routes the result through pending_guidance[world_id].
     """
     if not state.drift_signals:
         return {"requires_reroot": False}
 
     last_signal = state.drift_signals[-1]
-    llm = get_monitoring_llm()
+    correction = generate_reroot_guidance(last_signal)
 
-    prompt = FACILITATOR_REROOT_PROMPT.format(
-        drift_description=f"{last_signal.signal_type}: {last_signal.description}"
-    )
-    response = llm.invoke([
-        SystemMessage(content=prompt),
-        HumanMessage(content="Provide correction guidance."),
-    ])
-
-    # The reroot guidance is stored and will be used in the next representative turn
-    # Update the last drift signal with the correction
     updated_signal = DriftSignal(
         signal_type=last_signal.signal_type,
-        description=f"{last_signal.description}\n\nCorrection: {response.content}",
+        description=f"{last_signal.description}\n\nCorrection: {correction}",
         severity=last_signal.severity,
+        world_id=last_signal.world_id,
     )
 
     return {
@@ -609,3 +1125,268 @@ def route_to_representative(state: ConversationState) -> dict:
         "current_world_id": responding_worlds[0],
         # Store all responding worlds for multi_representative_engages
     }
+
+
+def select_next_speaker(
+    state: ConversationState,
+    already_spoken: list[str],
+    must_continue: bool = False,
+) -> str | None:
+    """
+    Decide which representative should speak next in this round, or that the
+    round is already complete.
+
+    Called before the first representative speaks (already_spoken=[]) and
+    again after each turn, so the order, length, and shape of a multi-
+    representative round emerges from the actual conversation instead of a
+    fixed rotation through every world at the table. This is the "most
+    directly positioned" turn-taking principle from Facilitator Governance
+    V3.6 Section 8: not rotation, not equal time, but which voice is most
+    directly positioned to meet this specific moment.
+
+    Representatives may be selected more than once in a round - real
+    conversation is not "everyone speaks once then done," it's opening,
+    response, response-to-the-response, sometimes a third voice joining
+    partway through. The only hard rule is no immediate self-repeat (the
+    representative who just spoke doesn't speak again next with nothing new
+    to react to) and no repeat of the exact position the transcript already
+    shows.
+
+    must_continue: when True, NONE is not offered as an option - used to
+    enforce a minimum amount of back-and-forth before a round is allowed to
+    end (see MIN_MULTI_WORLD_TURNS in the streaming endpoint).
+
+    Returns a world_id, or None if nothing further calls for a voice right
+    now (never returned while must_continue is True).
+    """
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    just_spoke = already_spoken[-1] if already_spoken else None
+    candidates = [wid for wid in world_ids if wid != just_spoke]
+
+    if not candidates:
+        return None
+
+    # When continuation is mandatory and only one representative could
+    # possibly speak next (a two-world table, the other one just spoke),
+    # there is no real decision to make - the LLM call would only ever
+    # confirm the sole candidate the fallback logic would pick anyway. Skip
+    # it. This optimization does NOT apply when must_continue is False,
+    # since then the real question isn't "who" but "this candidate, or is
+    # the round actually done" - a genuine decision worth the call.
+    if must_continue and len(candidates) == 1:
+        return candidates[0]
+
+    last_human_message = None
+    for msg in reversed(state.messages):
+        if isinstance(msg, HumanMessage):
+            last_human_message = msg.content
+            break
+
+    if not last_human_message:
+        # No question yet (e.g. opening turn) - the first world at the table opens.
+        return candidates[0]
+
+    public_transcript = build_public_transcript(state)
+
+    rep_lines = []
+    for wid in world_ids:
+        info = REPRESENTATIVE_INFO.get(wid)
+        if not info:
+            continue
+        times_spoken = already_spoken.count(wid)
+        if times_spoken == 0:
+            status = "has not spoken yet this round"
+        elif wid == just_spoke:
+            status = f"just spoke (spoken {times_spoken}x this round) - do not pick again immediately"
+        else:
+            status = f"has spoken {times_spoken}x this round, could return with something new"
+        rep_lines.append(f"- {info['name']} (world_id: {wid}), {info['description']} — {status}")
+
+    none_option = (
+        ""
+        if must_continue
+        else "\n\nIf every representative who has something real to add right now has already spoken, or the exchange between them has genuinely run its course, say NONE - a round does not have to keep going until someone forces a point."
+    )
+    none_instruction = "" if must_continue else " or NONE"
+
+    prompt = f"""You are the Facilitator at The Table, silently deciding who speaks next. This decision is never announced to the participant.
+
+Representatives at the table:
+{chr(10).join(rep_lines)}
+
+Participant's message:
+"{last_human_message}"
+
+What has been said at the table so far (most recent last):
+{public_transcript}
+
+The governing principle is not rotation and not equal time. Real conversation is not "everyone gives one statement in order" - it has shape: someone opens, another responds and then adds their own view, the first may come back once there's something new to answer, a third may jump in partway through instead of waiting their turn. Decide which representative is most directly positioned to speak into this specific moment - because the question addresses their world specifically, because what was just said calls for their agreement or their difference, because their formation would genuinely illuminate something not yet said, or because they have something new to add now that more has been said since they last spoke. A representative who already spoke is a completely valid choice if they now have something new to say in response to what came after their turn - but do not pick whoever just spoke; they need something new to have been said before they'd speak again.{none_option}
+
+Respond in this exact format:
+NEXT_SPEAKER: <world_id{none_instruction}>
+REASON: <one sentence>"""
+
+    llm = get_monitoring_llm()
+    response = llm.invoke([
+        SystemMessage(content=prompt),
+        HumanMessage(content="Decide who speaks next."),
+    ])
+
+    next_speaker = None
+    for line in response.content.strip().split("\n"):
+        line = line.strip()
+        if line.startswith("NEXT_SPEAKER:"):
+            candidate = line.split(":", 1)[1].strip()
+            if candidate in candidates:
+                next_speaker = candidate
+            break
+
+    # When the round is required to continue, an unparseable or invalid
+    # response must never fall through to None - that would silently end
+    # the round early despite must_continue, defeating the whole guarantee.
+    # Fall back to the first eligible candidate instead.
+    if next_speaker is None and must_continue:
+        next_speaker = candidates[0]
+
+    return next_speaker
+
+
+def check_dominance(state: ConversationState) -> list[DriftSignal]:
+    """
+    Heuristic (no LLM call) check for one representative dominating the
+    table's cumulative airtime.
+
+    Counts words spoken by each representative across the whole conversation
+    so far, not just the current round - dominance is a pattern across a
+    conversation, not a single turn. Only fires once enough total
+    representative speech exists for a share comparison to be meaningful,
+    and only when more than one representative has actually had a chance
+    to speak.
+    """
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    if len(world_ids) <= 1:
+        return []
+
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+
+    name_to_world = {get_representative_message_name(wid): wid for wid in world_ids}
+    word_counts: dict[str, int] = {wid: 0 for wid in world_ids}
+
+    for msg in state.messages:
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            word_counts[name_to_world[name]] += len(str(msg.content).split())
+
+    total_words = sum(word_counts.values())
+    spoken_worlds = [wid for wid, count in word_counts.items() if count > 0]
+
+    if len(spoken_worlds) < 2 or total_words < 150:
+        return []
+
+    signals = []
+    for wid, count in word_counts.items():
+        if count == 0:
+            continue
+        share = count / total_words
+        if share >= 0.65:
+            info = REPRESENTATIVE_INFO.get(wid)
+            name = info["name"] if info else wid
+            signals.append(DriftSignal(
+                signal_type="dominance",
+                description=(
+                    f"{name} has taken roughly {round(share * 100)}% of all representative "
+                    "speech in this conversation so far. Let your next turn be economical - "
+                    "make one point well rather than covering everything you might say - so "
+                    "the other voice(s) at this table have more room."
+                ),
+                severity="medium" if share < 0.8 else "high",
+                world_id=wid,
+            ))
+
+    return signals
+
+
+def check_convergence(state: ConversationState, spoken_this_round: list[str]) -> list[DriftSignal]:
+    """
+    LLM check (Haiku) for whether the representatives who spoke in this round
+    are starting to sound like each other - borrowing vocabulary, agreeing
+    without genuine engagement, or losing the distinctiveness that makes
+    their formations actually different worlds. Only meaningful when 2+
+    representatives spoke in the same round.
+    """
+    if len(spoken_this_round) < 2:
+        return []
+
+    name_to_world = {get_representative_message_name(wid): wid for wid in spoken_this_round}
+
+    round_turns = []
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            round_turns.append((name, msg.content))
+        if len(round_turns) >= len(spoken_this_round):
+            break
+    round_turns.reverse()
+
+    if len(round_turns) < 2:
+        return []
+
+    transcript_block = "\n\n".join(f"{name}: {content}" for name, content in round_turns)
+
+    prompt = f"""You are the Facilitator at The Table, checking for convergence drift - a signal from your Silent Discipline that applies specifically when multiple representatives speak in the same round.
+
+Convergence drift has two forms, both real failures even though only the first involves shared vocabulary:
+
+1. Voice convergence: representatives from genuinely different formations start sounding like the same voice - borrowing each other's vocabulary as if it were their own, or losing the distinctiveness that makes their reasoning genuinely different.
+
+2. Manufactured resolution: a representative reaches for a synthesis, a resolving insight, or a graceful shared conclusion that ties both positions together neatly - even while staying entirely within their own vocabulary - when that conclusion is not something their own formation actually held before this conversation. This is convergence at the level of content rather than vocabulary: two genuinely different traditions should not smoothly arrive at one tidy answer just because the conversation would feel more satisfying that way. A real impasse, stated plainly and left standing, is the correct outcome when a real impasse exists.
+
+Representatives who spoke this round:
+{transcript_block}
+
+Did either form of convergence drift occur? Be conservative - real agreement, found honestly and independently held by each formation before this exchange, is NOT convergence drift, and neither is a representative simply engaging seriously with what the other said. Only flag it if the voices have become difficult to tell apart, one used the other's specific terminology as if it were their own, or a conclusion was reached that reads as invented for the sake of a smooth ending rather than something either formation would independently stand behind.
+
+Respond in this exact format:
+CONVERGENCE_DETECTED: yes or no
+SEVERITY: low, medium, or high (omit if not detected)
+DESCRIPTION: one sentence (omit if not detected)"""
+
+    llm = get_monitoring_llm()
+    response = llm.invoke([
+        SystemMessage(content=prompt),
+        HumanMessage(content="Check for convergence drift."),
+    ])
+
+    detected = False
+    severity = "low"
+    description = ""
+    for line in response.content.strip().split("\n"):
+        line = line.strip()
+        if line.upper().startswith("CONVERGENCE_DETECTED:"):
+            detected = "yes" in line.lower()
+        elif line.upper().startswith("SEVERITY:"):
+            value = line.split(":", 1)[1].strip().lower()
+            if value in ("low", "medium", "high"):
+                severity = value
+        elif line.upper().startswith("DESCRIPTION:"):
+            description = line.split(":", 1)[1].strip()
+
+    if not detected:
+        return []
+
+    # Attribute to every representative who spoke this round - convergence is
+    # a relationship between voices, not one representative's individual fault.
+    return [
+        DriftSignal(
+            signal_type="convergence",
+            description=(
+                description or "Your voice converged with another representative's this round."
+            )
+            + " Return to your own formation's vocabulary and reasoning, even where it means genuine difference.",
+            severity=severity,
+            world_id=wid,
+        )
+        for wid in spoken_this_round
+    ]

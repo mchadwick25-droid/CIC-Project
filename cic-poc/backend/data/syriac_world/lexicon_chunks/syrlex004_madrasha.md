@@ -13,6 +13,12 @@ Do-Not-Retrieve-When: participant is asking about Aphrahat's own writing (his De
 
 ---
 
+## Quick Meaning
+
+The madrasha is Ephrem's dominant vehicle for theological argument — a sung, metered, often acrostic hymn built with refrains, meant to be performed rather than read, carrying an argument through melody and repetition rather than simply stating it; the genre itself was already established by Bardaisan and Mani before Ephrem took it up to answer them on their own ground.
+
+---
+
 ## World Meaning
 
 The madrasha is Ephrem's dominant vehicle for theological argument: a sung, metered, stanzaic hymn built with refrains (ʿonyaṯa), often acrostic, meant to be performed rather than merely read. To transmit doctrine in this world, at least on the Roman side, is in large part to sing it — an argument is not simply stated and set beside other arguments but carried through a melody, repeated in refrain, held in the body along with the tune.

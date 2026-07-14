@@ -133,9 +133,9 @@ Open a web browser and go to: **http://localhost:5173**
 
 You should see "The Table" with a world selection screen showing available traditions:
 - **Syriac Christianity** (200-410 CE) with Mar Yausep
-- **Post-Apostolic House-Church** (70-200 CE) with Amma
+- **Post-Apostolic House-Church** (70-200 CE) with Chloe
 
-You can select a single representative or toggle to "Multiple Representatives" mode to invite up to 5 representatives to the same table for a multi-voice conversation.
+You can select a single representative or toggle to "Multiple Representatives" mode to invite up to 3 representatives to the same table for a multi-voice conversation.
 
 ---
 
@@ -226,7 +226,7 @@ npm run dev
 "The Table" allows participants to have conversations with historical Christian voices:
 
 - **Mar Yausep** - A teacher from the Syriac Christian tradition (200-410 CE)
-- **Amma** - A household leader from Post-Apostolic house-church communities (70-200 CE)
+- **Chloe** - A household leader from Post-Apostolic house-church communities (70-200 CE)
 
 The system:
 

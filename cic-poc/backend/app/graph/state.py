@@ -15,13 +15,23 @@ class DriftSignal:
         "smoothing",
         "generating",
         "agreeing",
-        "first_person",
-        "anachronism",
+        "over_producing",
+        "temporal_bleed",
+        "flattening",
         "fabrication",
         "apologetics",
+        "first_person",
+        "anachronism",
+        "dominance",
+        "convergence",
     ]
     description: str
     severity: Literal["low", "medium", "high"]
+    # Which representative this signal concerns - None for the original
+    # single-representative signals above, which apply to whoever spoke last.
+    # "dominance" and "convergence" are multi-representative-table signals
+    # and are always attributed to a specific world_id.
+    world_id: Optional[str] = None
 
 
 @dataclass
@@ -72,6 +82,13 @@ class ConversationState:
     # Drift detection
     drift_signals: list[DriftSignal] = field(default_factory=list)
     requires_reroot: bool = False
+
+    # Per-representative course-correction guidance awaiting delivery, keyed
+    # by world_id - populated by dominance/convergence checks after a
+    # multi-representative round, consumed (and cleared) the next time that
+    # representative speaks. Kept separate from requires_reroot/drift_signals
+    # because those are global to "whoever spoke last," not per-representative.
+    pending_guidance: dict[str, str] = field(default_factory=dict)
 
     # RAG context
     retrieved_context: Optional[RetrievedContext] = None

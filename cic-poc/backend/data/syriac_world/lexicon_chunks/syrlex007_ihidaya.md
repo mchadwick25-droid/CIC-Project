@@ -13,6 +13,12 @@ Do-Not-Retrieve-When: the participant's question is already fully answered by th
 
 ---
 
+## Quick Meaning
+
+Iḥidaya names, in one word, both this world's ascetic and celibate designation — "single-minded," undivided in allegiance though living communally, not in physical isolation — and the Syriac christological title for Christ as "Only-Begotten"; because both senses share the same root, an ascetic's own singleness is heard as participating in Christ's own undividedness from the Father.
+
+---
+
 ## World Meaning
 
 Iḥidaya carries a double duty that this world holds as one word rather than two separate ideas. On one side, it names an ascetic and celibate designation for this world's consecrated elite — "single-minded," undivided in allegiance to God, living communally rather than in physical isolation despite the word's surface sense of "solitary." On the other side, it is simultaneously the Syriac christological title for Christ as "Only-Begotten," the Greek monogenes. Because both senses share the same root — yḥd, "one" — a participant formed in this world can hear an ascetic's own vocation as a small likeness of Christ's own undividedness from the Father: to be formed as Iḥidaya is to be told, in the very name given you, that your single-mindedness participates in something larger than your own discipline.
