@@ -281,3 +281,29 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 **Next action:** citation-inline mechanic build starts this session (see cic-poc frontend changes). World-selection mode split stays logged as raised-but-open until Mark answers the heart question above - do not treat it as decided or start building an entry-point split before that's answered.
 
 ---
+
+## 2026-07-14 — Heart question answered: the two-mode split is about readability/cognitive load, not encounter depth
+
+**Answered, correcting the earlier hypothesis:** the 2026-07-14 entry above guessed the Deep Interview/Compare Worlds split was about protecting formation-encounter depth (Encounter Over Persuasion). Mark corrected this directly - it is not that. His own reasoning: at 3-4 representatives seated together, the interaction has to stay crisp, one idea in focus per turn, simpler dialogue structure, because the participant is tracking several voices at once and complex, long single turns become unreadable in that setting. A single-world conversation can afford longer responses and slightly more complex answers, room to actually flesh an idea out in one turn - space a multi-representative table doesn't have per turn, though the same complexity can still emerge in that setting, just spread out across 2-3 rounds of exchange between representatives rather than landed in one turn. In short: this is a readability/cognitive-load design question, not a depth-of-encounter one.
+
+**Why this matters beyond getting the reasoning right:** it directly names the design intent behind mechanics already built and tuned at length earlier this same session - the per-world reactive-turn length ceilings, table_discourse.py's "one idea per turn"/anti-question-stacking rules, and the explicit allowance (already written into table_discourse.py) for a real idea to develop across multiple rounds rather than being forced into one turn. Those were built and tested as conversational-quality fixes; Mark's answer here is the product-level "why" that was missing - they exist to keep a crowded table readable, not only to make any single representative sound better in isolation.
+
+**Confirmed still compatible with what already exists, sharpened by this answer:** the earlier note that a single-world conversation already runs "loose" by default (the reactive-turn ceiling only ever applies to a non-first speaker in a multi-world round) holds up under this more precise reasoning too - a solo Deep Interview conversation never hits those ceilings today, which is exactly the room-to-flesh-an-idea-out behavior Mark is describing, not a coincidence.
+
+**New consideration surfaced by this answer, not yet decided:** the current reactive-turn ceiling only applies to representatives speaking after the first one in a round - the first speaker in a 3-4-world round today gets no shortening at all, even though the participant is about to read several more turns immediately after it. Worth asking whether "crisp, one idea in focus" should also apply to a round's opening turn once 3+ worlds are seated, not only to the turns reacting to it - flagged here as a real open question this answer raises, not decided or built yet.
+
+**Next action:** log stays open on the entry-point UI split itself (still not built) - Compare Worlds should NOT default to a lighter/shorter conversational feel than Deep Interview by name alone; the actual difference this answer supports is the existing per-turn brevity discipline scaling with table size (already partly true at 2 vs. 1, worth checking whether it should scale further at 3-4), not the two modes representing different depths of encounter. Whether to also tighten the round-opening turn at 3-4 worlds is a genuinely new follow-up, not yet raised with Mark for a decision.
+
+---
+
+## 2026-07-14 — Round-opening-turn brevity built for 3+ world tables, with Mark's own refinement: fuller but not freeform
+
+**Decided and built (cic-poc backend):** the follow-up question above ("should a round's opening turn also be held to brevity at 3-4 worlds") was answered yes - Mark's own words: "the user can't read 5 pages to get to the last representative." Then refined once built: the opening turn - the round's one direct answer to what was actually asked, before anyone else has weighed in - can run 20-30% longer than a later reactive beat, but should not be freeform/unlimited the way an opening turn used to be.
+
+**What this is not:** the opening turn does not get REACTIVE_TURN_GUIDANCE's text (which opens "someone else has already spoken on this question" - false for a genuine opener). A new, distinct guidance block was written for this exact case (`OPENING_TURN_LARGE_TABLE_GUIDANCE` in table_discourse.py) so the model is never told something untrue about its own situation to get the length effect - a real cost of the "just reuse is_reactive" shortcut that was caught and fixed before committing, not after.
+
+**The concrete numbers:** reactive turns keep their existing 900-token ceiling; a large-table (3+ worlds) opening turn gets 1125 tokens - exactly 25%, the midpoint of Mark's stated 20-30% range. Applies only when `is_reactive=False` (nothing to react to yet) and the table seats 3 or more worlds; 1-2 world tables are unaffected, matching the readability reasoning from the entry above (the reader only sees one other turn after a 2-world opener, which doesn't create the same "5 pages before the last voice" problem).
+
+**Next action:** none blocking on this specific mechanism - it's built, verified directly (see cic-poc commit) without needing a live API call, since the branching logic itself needed no LLM. Still waiting on real API credits to observe how it actually reads in a live 3-4-world conversation; the entry-point UI split (Deep Interview vs. Compare Worlds) itself remains unbuilt and unblocked by this.
+
+---

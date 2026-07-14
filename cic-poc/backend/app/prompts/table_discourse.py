@@ -32,6 +32,12 @@ Version history:
   content unchanged from that point, only its location and cacheability.
 """
 
+OPENING_TURN_LARGE_TABLE_GUIDANCE = """# This Table Seats Several Voices
+
+You are opening this round - no one else has spoken on this question yet - but several other representatives are seated at this table and will speak in the turns immediately following yours. The participant has to read every one of those turns before reaching the last voice, so a full survey of everything you might say here means they arrive at whoever speaks last only after working through pages of opening statements. Table size, not your place in the round, is what asks this of you: at a table this size, even the opening turn has to stay readable.
+
+State one clear idea at your own formation's natural measure - the single most important thing you would actually lead with - rather than everything you could say on the question. Because this turn does carry the round's one direct answer to what was actually asked, before anyone else has weighed in, it can run somewhat fuller than a later reactive beat - but that is a little more room for the one idea you are developing, not license to survey everything you might say. This is not the same instruction as responding to another voice (no one has spoken yet, so there is nothing to react to), only the same discipline a crowded room asks of a first speaker: leave real room on the page for the voices after you, and for your own return later in the round if there is genuinely more worth adding."""
+
 REACTIVE_TURN_GUIDANCE = """# You Are Continuing an Already-Live Exchange, Not Opening It
 
 Someone else at this table has already spoken on this question, in this same round, before you. Real conversation is not everyone taking one turn in order - it has shape. Let your turn take whichever of these shapes actually fits what you have to say right now:

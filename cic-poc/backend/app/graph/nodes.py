@@ -34,7 +34,30 @@ from app.prompts.representative_prompts import (
     REACTIVE_CONTINUATION_PROMPT,
     REPRESENTATIVE_CONTINUATION_PROMPT,
 )
-from app.prompts.table_discourse import REACTIVE_TURN_GUIDANCE
+from app.prompts.table_discourse import OPENING_TURN_LARGE_TABLE_GUIDANCE, REACTIVE_TURN_GUIDANCE
+
+# Table size at which even a round's OPENING turn (no one has spoken yet)
+# gets held to the same brevity discipline reactive turns already have -
+# below this, the reader sees at most one other turn after the opener, but
+# at 3+ worlds a full-length opening turn is still followed by two or three
+# more turns before the participant reaches the last voice. Mark's own
+# framing: "the user can't read 5 pages to get to the last representative."
+LARGE_TABLE_THRESHOLD = 3
+
+
+def _is_large_table_opening(state: ConversationState, is_reactive: bool) -> bool:
+    """
+    True only for the turn that OPENS a round (is_reactive=False - nothing
+    to react to yet) at a table seating LARGE_TABLE_THRESHOLD or more
+    worlds. Mutually exclusive with is_reactive by construction - a turn is
+    never both continuing an exchange and opening one.
+    """
+    if is_reactive:
+        return False
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    return len(world_ids) > 1 and len(world_ids) >= LARGE_TABLE_THRESHOLD
+
+
 from app.rag import LexiconRetriever, StoryRetriever
 
 # Hard cap on a reactive turn's length - keeps a multi-representative round
@@ -51,6 +74,14 @@ from app.rag import LexiconRetriever, StoryRetriever
 # longer than a short rebuttal while still landing well short of a full
 # independent turn (~1000+ tokens).
 REACTIVE_TURN_MAX_TOKENS = 900
+
+# A large table's OPENING turn (see _is_large_table_opening above) is the
+# round's one direct answer to the actual question - Mark's own refinement:
+# it can run 20-30% longer than a reactive beat, since it's carrying the
+# substantive answer everyone else at the table is about to react to, but
+# it is not the old uncapped "full independent turn" either. 25% over
+# REACTIVE_TURN_MAX_TOKENS, not freeform.
+OPENING_TURN_MAX_TOKENS = int(REACTIVE_TURN_MAX_TOKENS * 1.25)
 
 
 def get_llm(max_tokens: int | None = None):
@@ -796,7 +827,19 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     # byte-identical across every representative and every reactive turn,
     # which is what makes it cacheable as its own breakpoint in
     # _cached_system_message below.
-    reactive_turn_guidance = REACTIVE_TURN_GUIDANCE if (is_multi_world and is_reactive) else ""
+    #
+    # A genuine opening turn (is_reactive=False - nothing to react to yet)
+    # at a large table gets a DIFFERENT block, not REACTIVE_TURN_GUIDANCE -
+    # that text opens with "someone else has already spoken," which would be
+    # false for the turn that opens the round. large_table_opening is mutually
+    # exclusive with is_reactive by construction.
+    large_table_opening = _is_large_table_opening(state, is_reactive)
+    if is_multi_world and is_reactive:
+        reactive_turn_guidance = REACTIVE_TURN_GUIDANCE
+    elif large_table_opening:
+        reactive_turn_guidance = OPENING_TURN_LARGE_TABLE_GUIDANCE
+    else:
+        reactive_turn_guidance = ""
 
     # Build the system prompt, split into three segments: a stable cacheable
     # prefix (static_prompt), a conditionally-present but equally cacheable
@@ -961,7 +1004,14 @@ def representative_engages(state: ConversationState, is_reactive: bool = False) 
     Representatives see the "public transcript" - what has been said at The Table -
     allowing them to respond to what other representatives have said.
     """
-    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS if is_reactive else None)
+    large_table_opening = _is_large_table_opening(state, is_reactive)
+    if is_reactive:
+        turn_max_tokens = REACTIVE_TURN_MAX_TOKENS
+    elif large_table_opening:
+        turn_max_tokens = OPENING_TURN_MAX_TOKENS
+    else:
+        turn_max_tokens = None
+    llm = get_llm(max_tokens=turn_max_tokens)
     ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
 
     response = llm.invoke([
@@ -1007,7 +1057,14 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     - {"type": "complete", "speaker": name, "message": AIMessage, ...} once,
       at the end, carrying the full assembled message and state updates
     """
-    llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS if is_reactive else None)
+    large_table_opening = _is_large_table_opening(state, is_reactive)
+    if is_reactive:
+        turn_max_tokens = REACTIVE_TURN_MAX_TOKENS
+    elif large_table_opening:
+        turn_max_tokens = OPENING_TURN_MAX_TOKENS
+    else:
+        turn_max_tokens = None
+    llm = get_llm(max_tokens=turn_max_tokens)
     ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
 
     messages = [
