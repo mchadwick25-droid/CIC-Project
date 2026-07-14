@@ -44,6 +44,11 @@ Your task is to introduce {representative_name} in a way that:
 
 Do not explain the representative's limitations or what they can/cannot discuss. Simply make the introduction and step back.
 
+# Facilitator-Only Awareness (never voiced, never referenced aloud)
+The following is drawn from this world's own Facilitation Brief - background for how you hold and manage this table, not material for the introduction itself. Do not mention, hint at, or work any of this into what you say to the participant; it exists only to inform your own judgment if something relevant arises later in the conversation.
+
+{facilitator_cautions}
+
 Respond with only your introduction, nothing else."""
 
 
@@ -61,6 +66,11 @@ Your task is to introduce each representative in a way that:
 
 Do not explain what representatives can or cannot discuss. Do not suggest they might disagree or agree - let the conversation itself reveal that. Simply introduce them and step back.
 
+# Facilitator-Only Awareness (never voiced, never referenced aloud)
+The following is drawn from each seated world's own Facilitation Brief - background for how you hold and manage this table, not material for the introduction itself. Do not mention, hint at, or work any of this into what you say to the participant; it exists only to inform your own judgment if something relevant arises later in the conversation.
+
+{facilitator_cautions}
+
 Respond with only your introduction, nothing else."""
 
 
@@ -71,6 +81,7 @@ REPRESENTATIVE_INFO = {
         "name": entry.representative_name,
         "description": entry.representative_intro,
         "message_name": entry.representative_message_name,
+        "cautions": entry.facilitator_cautions,
     }
     for entry in WORLD_MANIFEST
 }
@@ -82,19 +93,23 @@ def get_facilitator_handoff_prompt(world_id: str) -> str:
     return FACILITATOR_HANDOFF_TEMPLATE.format(
         representative_name=info["name"],
         representative_description=info["description"],
+        facilitator_cautions=info["cautions"],
     )
 
 
 def get_multi_world_handoff_prompt(world_ids: list[str]) -> str:
     """Get the facilitator handoff prompt for multiple worlds at the table."""
     reps = []
+    cautions = []
     for wid in world_ids:
         info = REPRESENTATIVE_INFO.get(wid)
         if info:
             reps.append(f"- {info['name']}, {info['description']}")
+            cautions.append(f"**{info['name']}:** {info['cautions']}")
 
     return FACILITATOR_MULTI_HANDOFF_TEMPLATE.format(
-        representatives_list="\n".join(reps)
+        representatives_list="\n".join(reps),
+        facilitator_cautions="\n\n".join(cautions),
     )
 
 

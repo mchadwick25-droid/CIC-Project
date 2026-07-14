@@ -57,6 +57,19 @@ class WorldManifestEntry:
     # tile-display text and doesn't read naturally embedded mid-sentence.
     representative_intro: str
 
+    # Condensed from this world's own Section B7 (Cautions) in its World
+    # Facilitation Brief (L4-Templates/World_Facilitation_Brief_Template.md;
+    # see World-Builds/<world>/ for each world's full brief) - the handful
+    # of things the Facilitator should hold in view when curating,
+    # introducing, or managing this world at the table: living-tradition
+    # sensitivities, contested figures, and any world-specific relational
+    # dynamic worth watching for. This is Facilitator-only background,
+    # never voiced to the participant and never explained or referenced
+    # aloud - the full briefs are much longer and heavily cited for the
+    # construction record's own purposes; this is the operational
+    # distillation actually worth holding in mind at the table.
+    facilitator_cautions: str
+
 
 WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
     WorldManifestEntry(
@@ -88,6 +101,16 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_intro=(
             "a household leader from the Post-Apostolic house-church communities of Antioch, Asia "
             "Minor, and Rome, speaking from the period of 70-200 CE"
+        ),
+        facilitator_cautions=(
+            "This world has direct Catholic/Orthodox living-tradition correspondence through Ignatius "
+            "and Polycarp, both venerated as secure sainted authorities in those traditions even though "
+            "this world's own record shows them inside a live, unsettled institutional argument - be "
+            "ready to name that gap if a Catholic or Orthodox participant is caught off guard. A "
+            "participant expecting an idealized, unified 'early church' will find the opposite - real, "
+            "unresolved disagreement held as the ordinary substance of belonging, not a wound awaiting "
+            "resolution. Martyrdom is attested only for Ignatius and Polycarp specifically; Chloe will "
+            "not claim it as her own experience."
         ),
     ),
     WorldManifestEntry(
@@ -121,6 +144,18 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "a teacher from the Syriac Christian tradition of Edessa and Nisibis, speaking from the "
             "period of 200-410 CE"
         ),
+        facilitator_cautions=(
+            "This world's later descendants include the Church of the East, Syriac Orthodox, and "
+            "Chaldean Catholic communities - a participant from these backgrounds may experience this "
+            "as living heritage rather than pure historical encounter. Mar Yausep is Persian-anchored "
+            "(Aphrahat's side); a participant expecting Ephrem's hymnic, Roman-side material should be "
+            "told plainly this table does not deliver that as lived experience. Aphrahat's own "
+            "anti-Jewish polemical material is this world's most sensitive register and needs attentive "
+            "handling. This Representative was deliberately built with real pastoral warmth, which the "
+            "construction record itself flags as a plausible dependency/confidant-substitution "
+            "amplifier - watch for escalating, exclusive-attachment patterns across sessions, not only "
+            "single-turn distress."
+        ),
     ),
     WorldManifestEntry(
         world_id="desert-monasticism",
@@ -153,6 +188,16 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_intro=(
             "an elder from the desert communities of Egypt, speaking from the period of c. 320-430 CE"
         ),
+        facilitator_cautions=(
+            "This world has direct Coptic Orthodox living-tradition correspondence - Antony and "
+            "Pachomius remain actively venerated figures today, and a participant from this background "
+            "may experience this as living heritage. Evagrius Ponticus is a contested figure (posthumously "
+            "condemned as an Origenist over a century after this world's own close); Papnoute has no "
+            "knowledge of that later condemnation and should not be expected to address it. This world's "
+            "own affective-diagnostic fusion (feeling and diagnosis as one activity) creates a documented "
+            "recruitment-risk boundary - Papnoute is built and tested to describe what his own world "
+            "diagnosed in itself, never to unilaterally diagnose a participant's own interior state."
+        ),
     ),
     WorldManifestEntry(
         world_id="hieronymian-ascetic-literary",
@@ -183,6 +228,18 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_intro=(
             "a widow of the Hieronymian ascetic-literary household of Rome and Bethlehem, speaking "
             "from the period of c. 382-420 CE"
+        ),
+        facilitator_cautions=(
+            "The name 'Albina' is also, in this world's own sources, the name of a real historical "
+            "woman (Marcella's mother) - the project lead selected it with that risk disclosed, and "
+            "this Representative does not claim any relationship to her. Never introduce or narrate "
+            "Albina in a way that implies she is that historical woman. Nearly everything known about "
+            "this household's women survives only through one man's own hand - a structural evidentiary "
+            "limit, not a construction gap, and participants should not be encouraged to press for an "
+            "independent 'real' voice that doesn't exist in the record. This is the newest and least "
+            "live-tested of the four worlds - it has never been seated at a table with another "
+            "Representative, so any multi-world pairing involving Albina should be treated as "
+            "unevidenced."
         ),
     ),
 )
