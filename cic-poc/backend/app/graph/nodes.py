@@ -1397,6 +1397,7 @@ Consider:
 - Questions about a specific time period or practice → the ONE representative from that world
 - General theological/spiritual questions where multiple views illuminate → ALL
 - Follow-up on what one representative said → that ONE representative
+- When genuinely in doubt between single and all, prefer single - a table where every question fans out to every world flattens into a panel, and another world can always be drawn in on a later turn if the exchange calls for it
 
 Respond in this exact format:
 TURN_TYPE: single OR all
@@ -1526,8 +1527,19 @@ def select_next_speaker(
         if not info:
             continue
         times_spoken = already_spoken.count(wid)
-        if times_spoken == 0:
-            status = "has not spoken yet this round"
+        # Cross-round memory: how much this world has spoken across the
+        # WHOLE conversation, not just this round. A world silent for
+        # several consecutive rounds is invisible to a per-round count, so
+        # per-round selection alone can let one pairing of worlds carry
+        # every round while a third quietly disappears from the table.
+        rep_msg_name = get_representative_message_name(wid)
+        total_turns = sum(
+            1 for m in state.messages if getattr(m, "name", None) == rep_msg_name
+        )
+        if times_spoken == 0 and total_turns == 0:
+            status = "has not spoken yet this round, and has not spoken at all in this conversation"
+        elif times_spoken == 0:
+            status = f"has not spoken yet this round (spoke {total_turns} turn(s) earlier in the conversation)"
         elif wid == just_spoke:
             status = f"just spoke (spoken {times_spoken}x this round) - do not pick again immediately"
         else:
@@ -1552,7 +1564,7 @@ Participant's message:
 What has been said at the table so far (most recent last):
 {public_transcript}
 
-The governing principle is not rotation and not equal time. Real conversation is not "everyone gives one statement in order" - it has shape: someone opens, another responds and then adds their own view, the first may come back once there's something new to answer, a third may jump in partway through instead of waiting their turn. Decide which representative is most directly positioned to speak into this specific moment - because the question addresses their world specifically, because what was just said calls for their agreement or their difference, because their formation would genuinely illuminate something not yet said, or because they have something new to add now that more has been said since they last spoke. A representative who already spoke is a completely valid choice if they now have something new to say in response to what came after their turn - but do not pick whoever just spoke; they need something new to have been said before they'd speak again.{none_option}
+The governing principle is not rotation and not equal time. Real conversation is not "everyone gives one statement in order" - it has shape: someone opens, another responds and then adds their own view, the first may come back once there's something new to answer, a third may jump in partway through instead of waiting their turn. Decide which representative is most directly positioned to speak into this specific moment - because the question addresses their world specifically, because what was just said calls for their agreement or their difference, because their formation would genuinely illuminate something not yet said, or because they have something new to add now that more has been said since they last spoke. A representative who already spoke is a completely valid choice if they now have something new to say in response to what came after their turn - but do not pick whoever just spoke; they need something new to have been said before they'd speak again. Weigh, too, who has gone quiet across the conversation as a whole - a world silent for several rounds is not owed a turn by rotation, but when the current moment genuinely touches their formation, prefer them over a voice that has already carried much of the conversation.{none_option}
 
 Respond in this exact format:
 NEXT_SPEAKER: <world_id{none_instruction}>
@@ -1620,7 +1632,14 @@ def check_dominance(state: ConversationState) -> list[DriftSignal]:
         if count == 0:
             continue
         share = count / total_words
-        if share >= 0.65:
+        # Threshold sits at 0.70, not lower: legitimate cross-world length
+        # asymmetry is by design (a desert word is a sentence; a Syriac
+        # demonstration is staged paragraphs - see each world's own
+        # Permanent Prompt), so a longer-formed world holding a majority
+        # word-share opposite a deliberately terse one is expected, not
+        # dominance. Dominance here means crowding out, not merely
+        # out-speaking a form that is short on purpose.
+        if share >= 0.70:
             info = REPRESENTATIVE_INFO.get(wid)
             name = info["name"] if info else wid
             signals.append(DriftSignal(

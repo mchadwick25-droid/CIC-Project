@@ -499,7 +499,15 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # to 6. Full round latency at 6 turns ran ~150s end to end in this
     # test, up from the 4-turn cap's ~60-90s - a real cost worth knowing,
     # not a reliability problem.
-    MIN_MULTI_WORLD_TURNS = 3
+    # Lowered from 3 per the Fable conversational-engagement analysis: a
+    # round with multiple worlds seated can legitimately be complete at 2
+    # turns - one real answer and one short real response. Forcing a third
+    # manufactures speech the moment didn't call for, and the historical
+    # forms this table hosts include the one-sentence desert word - the
+    # floor must be low enough for that form to exist. 2 still guarantees
+    # the multi-world contract (more than one voice heard) without
+    # scripting the round's shape.
+    MIN_MULTI_WORLD_TURNS = 2
     MAX_MULTI_WORLD_TURNS = 6
 
     def sse(event: dict) -> str:
