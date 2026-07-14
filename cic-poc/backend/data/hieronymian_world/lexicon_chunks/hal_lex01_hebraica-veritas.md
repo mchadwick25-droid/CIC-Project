@@ -34,7 +34,7 @@ Anchors G1 (Primary gravity); the organizing commitment behind the whole transla
 A modern participant is likely to hear this as a straightforwardly correct scholarly method — "of course you translate from the original language" — and miss that it was a genuinely contested, destabilizing position in its own time, resisted by serious churchmen (Augustine) for serious reasons (continuity of the church's received text), not merely by the ignorant or the reactionary.
 
 **World Hearing:**
-This world heard *Hebraica veritas* as a claim with real stakes for the church's continuity and unity, not a neutral methodological improvement — adopting it meant accepting that a text the whole Latin church had prayed and preached from for generations needed correcting.
+This world heard *Hebraica veritas* as a claim with real stakes for the church's continuity and unity, not a neutral methodological improvement — adopting it meant accepting that a translation the whole Latin church had prayed and preached from for generations had drifted from its Hebrew source and needed to be tested against it.
 
 ---
 

@@ -214,9 +214,10 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         region="Rome & Bethlehem",
         world_description=(
             "Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave "
-            "up wealth and rank to correct the Hebrew text of Scripture, holding together through "
-            "earned trust rather than any office, even when that conviction cost them dearly among "
-            "their own — shaped by the example of Jerome, Paula, Marcella, and Eustochium."
+            "up wealth and rank to test Scripture's Latin translation against the Hebrew it was "
+            "first given in, holding together through earned trust rather than any office, even "
+            "when that conviction cost them dearly among their own — shaped by the example of "
+            "Jerome, Paula, Marcella, and Eustochium."
         ),
         color="#9d174d",
         data_dir_name="hieronymian_world",
@@ -229,9 +230,9 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_title="Widow of the Household",
         representative_description=(
             "Is a voice of the Bethlehem circle, speaking as a widow of the household — one "
-            "formed by renunciation and by the scholarly labor of correcting the sacred text. 'We' "
-            "more than 'I': she carries this circle's whole life, from Rome to Bethlehem, not one "
-            "witness within it."
+            "formed by renunciation and by the scholarly labor of testing Scripture's Latin words "
+            "against the Hebrew they were first given in. 'We' more than 'I': she carries this "
+            "circle's whole life, from Rome to Bethlehem, not one witness within it."
         ),
         representative_intro=(
             "a widow from the Bethlehem circle of scholars and ascetics, speaking from the period "
