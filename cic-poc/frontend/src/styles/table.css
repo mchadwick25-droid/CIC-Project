@@ -240,43 +240,80 @@ body {
   margin-bottom: 0;
 }
 
-.message-citations {
-  margin-top: var(--spacing-md);
-  padding-top: var(--spacing-sm);
-  border-top: 1px dashed rgba(217, 119, 6, 0.25);
+/* ============================================
+   INLINE CITATION MARKER (Level 2/3 for sourcing,
+   same interaction pattern as lexicon-term highlighting)
+   ============================================ */
+.citation-marker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+  margin-left: 0.35em;
+  color: var(--color-representative-accent);
+  cursor: pointer;
+  vertical-align: middle;
+  opacity: 0.65;
+  transition: opacity 0.15s ease;
 }
 
-.message-citations__label {
-  display: block;
-  font-family: var(--font-family-ui);
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--color-text-light);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: var(--spacing-xs);
+.citation-marker:hover {
+  opacity: 1;
 }
 
-.message-citations__list {
-  list-style: none;
+.citation-marker__icon {
+  font-size: 0.85em;
+  line-height: 1;
 }
 
-.message-citations__item {
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-sm);
-  line-height: 1.5;
-  color: var(--color-text-muted);
-  margin-bottom: var(--spacing-xs);
-}
-
-.message-citations__item:last-child {
-  margin-bottom: 0;
-}
-
-.message-citations__kind {
-  display: inline-block;
+.citation-marker__count {
   font-family: var(--font-family-ui);
   font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.citation-tooltip {
+  --tooltip-shift: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(calc(-50% + var(--tooltip-shift)));
+  width: 260px;
+  max-width: 90vw;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: var(--spacing-sm) var(--spacing-md);
+  z-index: 100;
+  pointer-events: none;
+  text-align: left;
+}
+
+.citation-tooltip--above {
+  bottom: calc(100% + 8px);
+}
+
+.citation-tooltip--below {
+  top: calc(100% + 8px);
+}
+
+.citation-tooltip__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.citation-tooltip__item {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.citation-tooltip__kind {
+  display: inline-block;
+  font-family: var(--font-family-ui);
+  font-size: 0.62rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -286,32 +323,50 @@ body {
   vertical-align: middle;
 }
 
-.message-citations__kind--lexicon {
+.citation-tooltip__kind--lexicon {
   color: var(--color-lexicon);
   background: var(--color-lexicon-bg);
 }
 
-.message-citations__kind--story {
+.citation-tooltip__kind--story {
   color: var(--color-representative-accent);
   background: rgba(217, 119, 6, 0.12);
 }
 
-.message-citations__term {
+.citation-tooltip__term {
   font-weight: 600;
-  color: var(--color-representative-accent);
-  margin-right: var(--spacing-xs);
 }
 
-.message-citations__text {
+.citation-tooltip__more {
+  font-family: var(--font-family-ui);
+  font-size: 0.75rem;
+  color: var(--color-text-light);
   font-style: italic;
 }
 
-.message-citations__registry {
-  display: block;
-  font-style: normal;
-  font-size: 0.75rem;
+.citation-tooltip__footer {
+  font-family: var(--font-family-ui);
+  font-size: 0.7rem;
   color: var(--color-text-light);
-  margin-top: 0.15em;
+  margin-top: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--color-border);
+}
+
+.citation-modal__entry {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--spacing-md);
+}
+
+.citation-modal__entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.citation-modal__registry {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-top: 0.3em;
 }
 
 /* ============================================
@@ -1036,6 +1091,10 @@ body {
 
   .lexicon-tooltip {
     width: 240px;
+  }
+
+  .citation-tooltip {
+    width: 220px;
   }
 
   .lexicon-modal {

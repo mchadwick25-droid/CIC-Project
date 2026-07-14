@@ -16,8 +16,9 @@ import { WorldSelector } from './WorldSelector';
 import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
+import { CitationModal } from './CitationModal';
 import { getTermMatches } from './LexiconHighlight';
-import type { LexiconTerm, World } from '../types/conversation';
+import type { Citation, LexiconTerm, World } from '../types/conversation';
 
 export function TheTable() {
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
@@ -67,6 +68,7 @@ export function TheTable() {
     });
   }, [messages, termMap]);
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
+  const [selectedCitations, setSelectedCitations] = useState<Citation[] | null>(null);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   // Whether the participant is scrolled near the live edge right now. Starts
@@ -113,6 +115,14 @@ export function TheTable() {
 
   const closeModal = () => {
     setSelectedTerm(null);
+  };
+
+  const handleCitationClick = (citations: Citation[]) => {
+    setSelectedCitations(citations);
+  };
+
+  const closeCitationModal = () => {
+    setSelectedCitations(null);
   };
 
   const handleResetConversation = () => {
@@ -278,6 +288,9 @@ export function TheTable() {
         {selectedTerm && (
           <LexiconModal term={selectedTerm} onClose={closeModal} />
         )}
+        {selectedCitations && (
+          <CitationModal citations={selectedCitations} onClose={closeCitationModal} />
+        )}
       </div>
     );
   }
@@ -305,6 +318,7 @@ export function TheTable() {
             message={message}
             termMap={termMap}
             onTermClick={handleTermClick}
+            onCitationClick={handleCitationClick}
             allowedTermKeys={firstOccurrenceKeysByIndex[index]}
             worldColors={Object.fromEntries(selectedWorlds.map(w => [
               w.representative.name.toLowerCase().replace(' ', '_'),
@@ -336,6 +350,9 @@ export function TheTable() {
 
       {selectedTerm && (
         <LexiconModal term={selectedTerm} onClose={closeModal} />
+      )}
+      {selectedCitations && (
+        <CitationModal citations={selectedCitations} onClose={closeCitationModal} />
       )}
     </div>
   );

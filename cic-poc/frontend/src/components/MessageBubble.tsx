@@ -6,21 +6,15 @@
  * Participant: Clear but secondary - the one asking questions
  */
 
-import type { Message, SpeakerName, LexiconTerm, RegistryEntry } from '../types/conversation';
+import type { Message, SpeakerName, LexiconTerm, Citation } from '../types/conversation';
 import { HighlightedText, getTermMatches } from './LexiconHighlight';
-
-// Registry column names differ slightly between worlds (e.g. "confidence" vs
-// "confidence_level"); pull whichever tags exist into a short display string.
-function registryTag(entry: RegistryEntry): string {
-  const confidence = entry.confidence || entry.confidence_level || entry.citation_reliability;
-  const boundary = entry.boundary_status;
-  return [confidence, boundary].filter(Boolean).join(', ');
-}
+import { CitationMarker } from './CitationMarker';
 
 interface MessageBubbleProps {
   message: Message;
   termMap: Map<string, LexiconTerm>;
   onTermClick?: (term: LexiconTerm) => void;
+  onCitationClick?: (citations: Citation[]) => void;
   worldColors?: Record<string, string>;  // Map of message name to world color
   /** Term keys allowed to render as interactive highlights in this message (first-occurrence-only filtering). Omit to highlight every match. */
   allowedTermKeys?: Set<string>;
@@ -92,7 +86,7 @@ function getSpeakerInfo(message: Message): {
   }
 }
 
-export function MessageBubble({ message, termMap, onTermClick, worldColors, allowedTermKeys }: MessageBubbleProps) {
+export function MessageBubble({ message, termMap, onTermClick, onCitationClick, worldColors, allowedTermKeys }: MessageBubbleProps) {
   const { name, title, role, className } = getSpeakerInfo(message);
 
   // Only highlight terms in representative messages
@@ -152,43 +146,27 @@ export function MessageBubble({ message, termMap, onTermClick, worldColors, allo
             <span className="message-representative__title">{title}</span>
           </div>
           <div className="message-representative__content">
-            {lines.map((line, index) => (
-              <p key={index}>
-                {shouldHighlight ? (
-                  <HighlightedText
-                    text={line || '\u00A0'}
-                    termMap={termMap}
-                    onDetailClick={onTermClick}
-                    allowedKeys={perLineAllowedKeys[index]}
-                  />
-                ) : (
-                  line || '\u00A0'
-                )}
-              </p>
-            ))}
+            {lines.map((line, index) => {
+              const isLastLine = index === lines.length - 1;
+              return (
+                <p key={index}>
+                  {shouldHighlight ? (
+                    <HighlightedText
+                      text={line || '\u00A0'}
+                      termMap={termMap}
+                      onDetailClick={onTermClick}
+                      allowedKeys={perLineAllowedKeys[index]}
+                    />
+                  ) : (
+                    line || '\u00A0'
+                  )}
+                  {isLastLine && message.citations && message.citations.length > 0 && (
+                    <CitationMarker citations={message.citations} onDetailClick={onCitationClick} />
+                  )}
+                </p>
+              );
+            })}
           </div>
-
-          {message.citations && message.citations.length > 0 && (
-            <div className="message-citations">
-              <span className="message-citations__label">Sources</span>
-              <ul className="message-citations__list">
-                {message.citations.map((citation, index) => (
-                  <li key={index} className="message-citations__item">
-                    <span className={`message-citations__kind message-citations__kind--${citation.type || 'lexicon'}`}>
-                      {citation.type === 'story' ? 'Story' : 'Term'}
-                    </span>
-                    <span className="message-citations__term">{citation.term}</span>
-                    <span className="message-citations__text">{citation.key_sources}</span>
-                    {citation.registry && citation.registry.length > 0 && (
-                      <span className="message-citations__registry">
-                        {citation.registry.map((entry) => registryTag(entry)).filter(Boolean).join(' · ')}
-                      </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
         </div>
       )}
 
