@@ -9,6 +9,7 @@ Front-Matter" header and fenced code block, the PAHC world does not.
 """
 
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -164,7 +165,13 @@ Confidence: {entry.confidence}
         for file_path in sorted(story_chunks_path.glob("*.md")):
             entry = self.parse_story_file(file_path)
             entries.append(entry)
-            print(f"Parsed: {file_path.name} -> {entry.story_title}")
+            # See indexer.py's identical fix - native-script characters in a
+            # title can crash this purely informational print on Windows'
+            # cp1252 console, silently breaking indexing for that world.
+            safe_title = entry.story_title.encode(
+                sys.stdout.encoding or "utf-8", errors="replace"
+            ).decode(sys.stdout.encoding or "utf-8")
+            print(f"Parsed: {file_path.name} -> {safe_title}")
 
         documents = self.create_documents(entries)
         print(f"Created {len(documents)} story documents for indexing")

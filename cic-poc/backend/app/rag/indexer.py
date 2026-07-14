@@ -1,6 +1,7 @@
 """Indexer for lexicon chunks - creates FAISS vector store."""
 
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -221,7 +222,18 @@ Related: {', '.join(entry.related_terms)}
         for file_path in sorted(lexicon_path.glob("*.md")):
             entry = self.parse_lexicon_file(file_path)
             entries.append(entry)
-            print(f"Parsed: {file_path.name} -> {entry.term}")
+            # Some terms contain native-script characters (e.g. Syriac) the
+            # Windows console's default cp1252 encoding can't represent -
+            # printing them directly crashed indexing with a bare
+            # UnicodeEncodeError, silently swallowed by the startup
+            # try/except and leaving that world's lexicon retrieval broken
+            # on every subsequent request (it kept retrying and re-crashing
+            # rather than ever completing). errors="replace" keeps this
+            # purely informational print from ever taking down indexing.
+            safe_term = entry.term.encode(
+                sys.stdout.encoding or "utf-8", errors="replace"
+            ).decode(sys.stdout.encoding or "utf-8")
+            print(f"Parsed: {file_path.name} -> {safe_term}")
 
         # Create documents
         documents = self.create_documents(entries)
