@@ -1741,6 +1741,110 @@ DESCRIPTION: one sentence (omit if not detected)"""
     ]
 
 
+# Per-world hard word-count ceilings for representatives whose own Permanent
+# Prompt states an explicit, all-conditions numeric measure. Both ceilings
+# were tested at their most emphatic wording (Papnoute's PP names table
+# pressure explicitly; Albina's now does too, added after live testing
+# showed the qualitative version alone was not holding) and still failed
+# under real multi-world topical load - this is a mechanical backstop for
+# that specific, already-proven-resistant failure, not a substitute for the
+# prompt text. Do not add worlds here whose PP only gives a qualitative
+# measure ("a few sentences") without a stated number - a ceiling with no
+# textual anchor in that world's own formation would be arbitrary.
+_WORLD_LENGTH_CEILINGS: dict[str, int] = {
+    "desert-monasticism": 60,
+    "hieronymian-ascetic-literary": 180,
+}
+
+
+def check_length_ceiling(state: ConversationState, spoken_this_round: list[str]) -> list[DriftSignal]:
+    """
+    Heuristic (no LLM call) check for a representative whose own Permanent
+    Prompt states a hard per-turn word measure exceeding it on their most
+    recent turn this round. Only checks worlds actually at this table and
+    present in _WORLD_LENGTH_CEILINGS.
+    """
+    if not spoken_this_round:
+        return []
+
+    name_to_world = {get_representative_message_name(wid): wid for wid in spoken_this_round}
+    last_turn_by_world: dict[str, str] = {}
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        wid = name_to_world.get(name)
+        if wid and wid not in last_turn_by_world:
+            last_turn_by_world[wid] = str(msg.content)
+        if len(last_turn_by_world) >= len(name_to_world):
+            break
+
+    signals = []
+    for wid, content in last_turn_by_world.items():
+        ceiling = _WORLD_LENGTH_CEILINGS.get(wid)
+        if ceiling is None:
+            continue
+        word_count = len(content.split())
+        if word_count > ceiling:
+            from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+            info = REPRESENTATIVE_INFO.get(wid)
+            name = info["name"] if info else wid
+            overage = word_count - ceiling
+            signals.append(DriftSignal(
+                signal_type="length_ceiling",
+                description=(
+                    f"{name}'s last turn ran {word_count} words, {overage} over the hard "
+                    "measure your own formation states. The pull to say more because the "
+                    "table's exchange feels substantial is the exact pull your own formation "
+                    "trains you to resist - let your next turn return to your true measure, "
+                    "even mid-exchange."
+                ),
+                severity="medium" if overage < ceiling else "high",
+                world_id=wid,
+            ))
+
+    return signals
+
+
+def check_question_stacking(state: ConversationState, spoken_this_round: list[str]) -> list[DriftSignal]:
+    """
+    Heuristic (no LLM call) check for too many unanswered questions stacked
+    in one round. table_discourse.py's REACTIVE_TURN_GUIDANCE already asks
+    representatives to notice this themselves ("One Open Question at the
+    Table Is Enough") - this is the structural backstop for that prompt-only
+    rule, mirroring the dominance/convergence pattern where a rule proved
+    real but not fully self-enforcing under live conditions.
+    """
+    if len(spoken_this_round) < 2:
+        return []
+
+    name_to_world = {get_representative_message_name(wid): wid for wid in spoken_this_round}
+    round_turns = []
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            round_turns.append(str(msg.content).strip())
+        if len(round_turns) >= len(spoken_this_round):
+            break
+
+    question_count = sum(1 for turn in round_turns if turn.endswith("?"))
+    if question_count <= 2:
+        return []
+
+    return [
+        DriftSignal(
+            signal_type="question_stacking",
+            description=(
+                f"This round ended {question_count} separate turns with an open question - "
+                "more than the table can hold at once. Let your next turn end on your "
+                "substance rather than adding another question, even if a real one occurs "
+                "to you."
+            ),
+            severity="medium",
+            world_id=wid,
+        )
+        for wid in spoken_this_round
+    ]
+
+
 _CROSS_WORLD_TERM_PATTERN_CACHE: dict[str, re.Pattern] = {}
 
 

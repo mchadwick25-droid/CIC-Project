@@ -427,6 +427,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         check_cross_world_vocabulary_drift,
         check_dominance,
         check_drift_for_message,
+        check_length_ceiling,
+        check_question_stacking,
         classify_frame_breaker,
         classify_relational_safety,
         generate_reroot_guidance,
@@ -726,6 +728,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                     check_dominance(check_state)
                     + check_convergence(check_state, spoken_this_round)
                     + check_cross_world_vocabulary_drift(check_state, spoken_this_round)
+                    + check_length_ceiling(check_state, spoken_this_round)
+                    + check_question_stacking(check_state, spoken_this_round)
                 ):
                     new_drift_signals.append(signal)
                     if signal.world_id and signal.severity in ("medium", "high"):

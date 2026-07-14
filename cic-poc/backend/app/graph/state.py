@@ -25,14 +25,16 @@ class DriftSignal:
         "dominance",
         "convergence",
         "cross_world_vocabulary",
+        "length_ceiling",
+        "question_stacking",
     ]
     description: str
     severity: Literal["low", "medium", "high"]
     # Which representative this signal concerns - None for the original
     # single-representative signals above, which apply to whoever spoke last.
-    # "dominance", "convergence", and "cross_world_vocabulary" are
-    # multi-representative-table signals and are always attributed to a
-    # specific world_id.
+    # "dominance", "convergence", "cross_world_vocabulary", "length_ceiling",
+    # and "question_stacking" are multi-representative-table signals and are
+    # always attributed to a specific world_id.
     world_id: Optional[str] = None
 
 
