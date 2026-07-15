@@ -90,7 +90,9 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "CE — the scattered gatherings that held together after the apostles were gone, connected "
             "by letters, formed around the table, still discerning who should lead and what the body's "
             "suffering truly means — shaped by the words of Ignatius, Polycarp, Justin Martyr, and "
-            "Hermas."
+            "Hermas. Richest in the shared life of an ordinary early gathering — thinner on any single "
+            "person's own interior journey, since almost nothing survives in one voice apart from what "
+            "the whole community held in common."
         ),
         color="#7c3aed",
         data_dir_name="pahc_world",
@@ -132,7 +134,10 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "community shaped by persecution under Persian rule, holding together through covenant vows "
             "and typological reading of Scripture. Their bishops were martyred, their see stood empty "
             "for decades, yet their teaching endured — carried in the hymns of Ephrem, the "
-            "demonstrations of Aphrahat, and the witness of Jacob of Nisibis."
+            "demonstrations of Aphrahat, and the witness of Jacob of Nisibis. Richest in the formal "
+            "vocabulary, institutions, and disputes of a demanding covenant tradition — thinner on the "
+            "everyday, personal texture of an ordinary member's life, since what survives is mostly "
+            "doctrinal and institutional rather than personal."
         ),
         color="#b45309",
         data_dir_name="syriac_world",
@@ -178,7 +183,10 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "from within, some in solitary cells tested by elders one at a time, others gathered under "
             "Pachomius into a shared rule they called koinonia. They never agreed which pattern was "
             "truer — shaped by the example of Antony, the sayings of Amma Sarah, and the rule of "
-            "Pachomius."
+            "Pachomius. The smallest body of surviving material of any world here, concentrated almost "
+            "entirely on the inner combat with one's own thoughts — it speaks with real depth on "
+            "struggle and discernment, but tells only a handful of stories in full and says so plainly "
+            "rather than inventing more."
         ),
         color="#0f766e",
         data_dir_name="desert_world",
@@ -220,7 +228,9 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "up wealth and rank to test Scripture's Latin translation against the Hebrew it was "
             "first given in, holding together through earned trust rather than any office, even "
             "when that conviction cost them dearly among their own — shaped by the example of "
-            "Jerome, Paula, Marcella, and Eustochium."
+            "Jerome, Paula, Marcella, and Eustochium. The richest surviving written record of any "
+            "world here — though much of it channels through one extraordinarily prolific author's "
+            "own hand rather than a broad chorus of independent voices."
         ),
         color="#9d174d",
         data_dir_name="hieronymian_world",
