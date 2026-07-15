@@ -45,3 +45,6 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+
+# Runtime logs (backend_stdout.log, backend_stderr.log, etc.)
+*.log
