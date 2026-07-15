@@ -61,6 +61,14 @@ class Settings(BaseSettings):
     # unavailable, not for validating conversation quality.
     mock_llm: bool = False
 
+    # Server-side transcript capture for the tester pilot (see
+    # app/transcript_logging.py). Off by default - only turn on for an
+    # actual pilot deployment where testers have been told, in the
+    # onboarding text, that their conversation is being cataloged. Never
+    # enable this for a general/public deployment without that same
+    # disclosure existing first.
+    pilot_logging_enabled: bool = False
+
     # API Keys
     anthropic_api_key: str = ""
     openai_api_key: str = ""

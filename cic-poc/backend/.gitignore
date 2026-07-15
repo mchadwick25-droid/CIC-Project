@@ -17,6 +17,10 @@ ENV/
 # Vector store (generated, large)
 vector_store/
 
+# Tester pilot transcripts (see app/transcript_logging.py) - project-team-
+# only, retained for the pilot's own review window, never committed
+transcripts/
+
 # IDE
 .idea/
 .vscode/

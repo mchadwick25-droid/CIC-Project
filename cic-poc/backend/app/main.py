@@ -16,6 +16,7 @@ from app.config import settings
 from app.graph.builder import get_compiled_graph
 from app.graph.nodes import get_retriever, get_story_retriever, representative_engages
 from app.graph.state import ConversationState
+from app.transcript_logging import write_transcript
 from app.world_manifest import WORLD_MANIFEST
 
 
@@ -274,6 +275,7 @@ async def send_message(session_id: str, request: SendMessageRequest):
         state.phase = result.get("phase", "closing")
 
         sessions[session_id] = state
+        write_transcript(session_id, state)
 
         return SendMessageResponse(
             messages=state_to_messages(state),
@@ -701,6 +703,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         state.current_world_id = last_current_world_id
         state.requires_reroot = False
         sessions[session_id] = state
+        write_transcript(session_id, state)
 
         yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
 
