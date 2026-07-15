@@ -72,6 +72,12 @@ class Settings(BaseSettings):
     # Server
     host: str = "0.0.0.0"
     port: int = 8000
+    # Defaults to local dev only. Already overridable via the CORS_ORIGINS
+    # env var (a JSON array string, e.g. '["https://your-domain.example"]')
+    # - pydantic-settings parses list-typed fields from env vars natively,
+    # no extra code needed. See .env.example. REQUIRED for any hosted
+    # deployment: without it, every request from a real frontend domain is
+    # blocked.
     cors_origins: list[str] = ["http://localhost:5173", "http://127.0.0.1:5173"]
 
     # World configurations - built from the single-source-of-truth manifest
