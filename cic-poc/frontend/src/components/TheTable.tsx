@@ -17,10 +17,16 @@ import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
 import { CitationModal } from './CitationModal';
+import { OnboardingScreen, hasSeenOnboarding } from './OnboardingScreen';
+import { RefreshWarningBanner } from './RefreshWarningBanner';
 import { getTermMatches } from './LexiconHighlight';
 import type { Citation, LexiconTerm, World } from '../types/conversation';
 
 export function TheTable() {
+  // Shown once per tester (a persistent localStorage flag, not once per
+  // session) - re-shown only if their browser's local storage itself
+  // resets, which is the same edge case that would confuse them anyway.
+  const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding());
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
   const [showWorldSelector, setShowWorldSelector] = useState(true);
   const [multiSelectMode, setMultiSelectMode] = useState(false);
@@ -166,6 +172,11 @@ export function TheTable() {
     setSelectedWorlds([]);
     setShowWorldSelector(true);
   };
+
+  // Pre-encounter onboarding - gates everything else, shown once per tester
+  if (showOnboarding) {
+    return <OnboardingScreen onContinue={() => setShowOnboarding(false)} />;
+  }
 
   // World selection screen
   if (showWorldSelector) {
@@ -338,6 +349,8 @@ export function TheTable() {
       <header className="table-header table-header--conversation">
         {renderWorldIndicators()}
       </header>
+
+      <RefreshWarningBanner />
 
       {error && (
         <div className="error-message">
