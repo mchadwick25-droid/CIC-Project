@@ -65,6 +65,7 @@ export function useConversation() {
         turnCount: 0,
         isLoading: false,
         error: null,
+        isStreaming: false,
       });
 
       return data.session_id;
@@ -113,6 +114,7 @@ export function useConversation() {
         turnCount: 0,
         isLoading: false,
         error: null,
+        isStreaming: false,
       });
 
       return data.session_id;
