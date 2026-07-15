@@ -12,6 +12,27 @@ import type {
 
 const API_BASE = '/api';
 
+// Pilot-mode per-tester session cap (see backend app/session_cap.py) - each
+// invited tester's personal link carries their own ?code=... query param,
+// read once here and sent with every session-start call. Absent entirely
+// for a normal (non-pilot) deployment - the backend only enforces this when
+// its own tester-code registry file exists.
+function getTesterCode(): string | null {
+  return new URLSearchParams(window.location.search).get('code');
+}
+
+async function extractErrorMessage(response: Response, fallback: string): Promise<string> {
+  try {
+    const body = await response.json();
+    if (typeof body?.detail === 'string') {
+      return body.detail;
+    }
+  } catch {
+    // Response wasn't JSON - fall through to the generic message
+  }
+  return fallback;
+}
+
 const initialState: ConversationState & { isStreaming: boolean } = {
   sessionId: null,
   worldId: null,
@@ -47,11 +68,11 @@ export function useConversation() {
       const response = await fetch(`${API_BASE}/session/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ world_id: worldId }),
+        body: JSON.stringify({ world_id: worldId, tester_code: getTesterCode() }),
       });
 
       if (!response.ok) {
-        throw new Error(`Failed to start session: ${response.statusText}`);
+        throw new Error(await extractErrorMessage(response, `Failed to start session: ${response.statusText}`));
       }
 
       const data: StartSessionResponse = await response.json();
@@ -96,11 +117,11 @@ export function useConversation() {
       const response = await fetch(`${API_BASE}/session/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ world_ids: worldIds }),
+        body: JSON.stringify({ world_ids: worldIds, tester_code: getTesterCode() }),
       });
 
       if (!response.ok) {
-        throw new Error(`Failed to start session: ${response.statusText}`);
+        throw new Error(await extractErrorMessage(response, `Failed to start session: ${response.statusText}`));
       }
 
       const data: StartSessionResponse = await response.json();

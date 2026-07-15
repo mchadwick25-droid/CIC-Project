@@ -69,6 +69,11 @@ class Settings(BaseSettings):
     # disclosure existing first.
     pilot_logging_enabled: bool = False
 
+    # Per-tester session cap is controlled by the presence of
+    # pilot_tester_codes.json (see app/session_cap.py), not a settings
+    # field - the registry itself is the on/off switch and the per-tester
+    # allocation, so there's nothing to duplicate here.
+
     # API Keys
     anthropic_api_key: str = ""
     openai_api_key: str = ""

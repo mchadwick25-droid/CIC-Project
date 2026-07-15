@@ -16,6 +16,7 @@ from app.config import settings
 from app.graph.builder import get_compiled_graph
 from app.graph.nodes import get_retriever, get_story_retriever, representative_engages
 from app.graph.state import ConversationState
+from app.session_cap import check_and_reserve_session_slot
 from app.transcript_logging import write_transcript
 from app.world_manifest import WORLD_MANIFEST
 
@@ -81,6 +82,7 @@ class StartSessionRequest(BaseModel):
 
     world_id: str = "syriac-edessa-nisibis"  # For single-world (backwards compat)
     world_ids: list[str] = []  # For multi-world table (1-3 worlds)
+    tester_code: str | None = None  # Pilot-mode per-tester session cap (see app/session_cap.py)
 
 
 class StartSessionResponse(BaseModel):
@@ -166,6 +168,10 @@ async def start_session(request: StartSessionRequest):
     Multi-world tables allow 1-3 representatives to engage together.
     """
     from app.graph.state import WorldContext
+
+    allowed, reason = check_and_reserve_session_slot(request.tester_code)
+    if not allowed:
+        raise HTTPException(status_code=403, detail=reason)
 
     session_id = str(uuid.uuid4())
     valid_world_ids = [w.id for w in AVAILABLE_WORLDS]
