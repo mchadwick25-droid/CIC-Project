@@ -33,11 +33,18 @@ Plain AWS Budget alerts only email you; they don't stop spending. Set up an **AW
 
 Separately, and already in place: `backend/app/session_cap.py` enforces a per-tester session cap via `pilot_tester_codes.json` — this bounds usage at the tester level regardless of dollar cost, so treat it as the primary control and the Budget Action as the backstop, not the only line of defense.
 
-## 4. Hosting — still an open decision
+## 4. Hosting — still an open decision, with one gotcha to know before you pick
 
 Nothing is deployed yet; local dev only. You need a host for the FastAPI backend and a static host for the built React frontend, reachable by real testers. CORS is already built to support this — set `CORS_ORIGINS` in `backend/.env` to the actual deployed frontend URL once you have one (see `.env.example`); without it every request from a real frontend domain gets blocked.
 
-If you're keeping everything inside the same AWS account/credit as Bedrock, EC2 or Amplify both work and draw from the same $200 credit pool. No preference recorded yet — pick what's fastest for you to stand up correctly.
+**Gotcha, verified while checking this doc:** the frontend calls its backend at a hardcoded relative path (`/api/...` — see `frontend/src/hooks/useConversation.ts`, `useLexicon.ts`, `components/WorldSelector.tsx`). In local dev this works because Vite's dev server proxies `/api` to `localhost:8000` (see `frontend/vite.config.ts`) — but that proxy only exists in `npm run dev`, not in the built production output (`npm run build`), and the FastAPI backend does not serve the built frontend itself either (no `StaticFiles` mount in `main.py`). That means **a plain split deployment — frontend on a static host, backend elsewhere — will 404 on every API call** unless you do one of:
+
+- **Same-origin via reverse proxy:** put both behind one domain (e.g. Nginx or Caddy on the same EC2 instance, or Amplify/CloudFront rewrite rules routing `/api/*` to the backend's actual address) so the relative path resolves correctly. No frontend code change needed.
+- **Configurable backend URL:** add a build-time env var (e.g. `VITE_API_BASE_URL`) to the frontend, swap the hardcoded `'/api'` constants to read it, and rebuild pointing at wherever the backend actually lives. A small, real code change — budget time for it if you go this route.
+
+Pick whichever fits your hosting choice — just don't assume "frontend here, backend there" works with zero glue, because right now it doesn't.
+
+If you're keeping everything inside the same AWS account/credit as Bedrock, EC2 (can run both frontend and backend behind one reverse proxy, resolving the gotcha above for free) or Amplify (frontend only — you'd still need a separate backend host, e.g. EC2/ECS/Lambda, and the rewrite-rule approach above) both work and draw from the same $200 credit pool. No preference recorded yet — pick what's fastest for you to stand up correctly, but factor the gotcha above into that choice.
 
 ## Reference
 

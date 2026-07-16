@@ -18,6 +18,13 @@ python3 --version
 
 **If missing or too old:** Tell user to download from https://www.python.org/downloads/ and install, then retry.
 
+**Windows-specific failure:** `python3 --version` (and sometimes `python --version`)
+can fail with "Python was not found; run without arguments to install from the
+Microsoft Store..." even when Python is genuinely installed - this is a Windows
+App Execution Alias stub, not a real absence of Python. If that happens, try
+`py --version` / `py -3 --version` (the Windows Python launcher) instead, and
+substitute `py -3` for `python3` in every step below on that machine.
+
 ### 2. Verify Node.js 18+
 
 ```bash
@@ -145,26 +152,41 @@ If the model in `.env` (`LLM_MODEL`) isn't in the list, update it to one that is
 python scripts/index_documents.py
 ```
 
-**Expected:**
+**Expected:** the indexer runs across all four worlds in `backend/data/` (House-Churches,
+Syriac Christianity, Desert Fathers and Mothers, The Bethlehem Circle), one block per world:
 ```
 ============================================================
-CiC POC - Lexicon Indexer
+CiC POC - Lexicon Indexer (Multi-World)
 ============================================================
 
-Found 9 lexicon files in data/syriac_world/lexicon_chunks
-
-Indexing documents...
-Parsed: syrlex001_raza-shrara.md -> raza (ܐܪܙܐ) / shrara
+--- The House-Churches (post-apostolic-house-church) ---
+  Found 13 lexicon files in data/pahc_world/lexicon_chunks
+  Indexing documents...
+Parsed: pahclex001_episkopos.md -> episkopos (ἐπίσκοπος)
 ...
-FAISS vector store created
+  Index saved to: vector_store/pahc
 
-Saving vector store...
-Index saved to vector_store
+--- Syriac Christianity (syriac-edessa-nisibis) ---
+  Found 10 lexicon files...
+  Index saved to: vector_store/syriac
+
+--- Desert Fathers and Mothers (desert-monasticism) ---
+  Found 9 lexicon files...
+  Index saved to: vector_store/desert
+
+--- The Bethlehem Circle (hieronymian-ascetic-literary) ---
+  Found 15 lexicon files...
+  Index saved to: vector_store/hal
 
 ============================================================
 Indexing complete!
+  Worlds indexed: 4
 ============================================================
 ```
+
+Story vector stores (used for the citation/source-transparency feature) build
+automatically on first backend startup instead - you'll see "lexicon loaded
+successfully" / "stories loaded successfully" lines per world in Step 14's output.
 
 ### 14. Start the backend server
 
@@ -229,10 +251,15 @@ Tell the user:
 
 ### 19. Test the application
 
+On a fresh browser (no prior visit), an onboarding screen ("Before you begin")
+appears first - have them read it and click "I understand - let's begin" to
+reach world selection. This is a one-time screen per browser (tracked via
+localStorage), so it won't reappear on later visits from the same browser.
+
 They should see:
 1. "The Table" header
 2. "Choose a Tradition" section
-3. A card for "Syriac Christianity" with Mar Yausep
+3. Four cards: The House-Churches (Chloe), Syriac Christianity (Mar Yausep), Desert Fathers and Mothers (Papnoute), The Bethlehem Circle (Albina)
 
 Have them:
 1. Click the Syriac Christianity card
