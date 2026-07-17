@@ -4,7 +4,80 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
-## 2026-07-16 (later) — Defect 1 escalated: the blind monitor ACTS; pool sweep done; test 9 restored on new grounds
+## 2026-07-16 (latest) — Backend thread fixed the monitor AND corrected this log twice; the real harm is the false negative
+
+**Two corrections to this thread's own entries, recorded before anything else:**
+
+1. **"The anti-drift mechanism induces drift" is WITHDRAWN.** That was this
+   thread's prediction and it drove the urgency in the backend brief. The backend
+   thread reproduced it live across five turns and it **did not occur** — the
+   post-flag turn added attribution hedging, arguably *more* calibrated, not
+   less. Prediction wrong; escalation was on a harm that doesn't exist.
+2. **"Fired twice at high severity" is WRONG** and this thread repeated it from
+   the calibration report without checking. It fires **once**;
+   `facilitator_reroots` appends a corrected copy, which reads as two. Both logs
+   corrected.
+
+**The mechanism is ATTRIBUTION, not specificity** (this thread's framing was also
+imprecise). Five live Antony-adjacent turns: T1 named Antony → clean; T2 bare
+"he" → fabrication/high; T3 *"the tradition remembers him"* → clean; T4 bare
+"he" → flagged; T5 *"Athanasius gives us Antony's own word"* → clean. **Denied
+sources, attribution language is the monitor's only proxy for groundedness.**
+
+**THE REAL HARM — the false negative, and it is far worse than what this thread
+found.** A monitor without sources can detect *unattributed* specificity but
+never *misattributed* specificity — exactly the one fabrication this project has
+actually recorded (the leaking jug misattributed to Macarius). Fed that case,
+stage 1 alone returned **NO_DRIFT** and *commended* it: *"The citation of Abba
+Macarius is not decorative but carries the weight of the community's actual moral
+pedagogy."* **The guard doesn't merely miss its own recorded failure mode — it
+praises it.** Truth narrated plainly is flagged; falsehood well dressed is
+cleared. That finding belongs to the backend thread.
+
+**Fix built and tested** (branch `claude/drift-monitor-fabrication-eyes`, running
+branches untouched): two-stage classify-then-route; stage 1 unchanged every turn;
+stage 2 fires only on fabrication candidates, loads capsule + re-retrieves,
+adjudicates, and **fails toward keeping the signal** on error. Verified: the exact
+pre-fix text clears (adjudicator GROUNDED); the misattributed Macarius jug is
+caught (stage 1 alone: NO_DRIFT); invented scenes caught; attested plain
+narration cleared. FABRICATION's definition untouched — eyes, not a mute button.
+
+**GAP RAISED BY THIS THREAD — close before merge.** The definition names three
+sources ("permanent prompt, world capsule, or retrieved context"); **stage 2
+loads two.** Content grounded ONLY in the permanent prompt — where each
+Representative's core formation and world facts live — still adjudicates
+FABRICATED. Same false-positive class, narrower band. `build_representative_prompt`
+already loads it per world; it's static and cheap. **Recommend closing the third
+source so the fix matches its own definition.**
+
+**Battery recommendation:** not more Antony turns — **misattribution across all
+four worlds.** That is the class stage 1 structurally cannot see and stage 2
+exists for. Put a real saying in the wrong mouth in each world; see whether
+stage 2 catches all four or only the Desert case it was tuned against. ~a dozen
+calls, tests the actual claim.
+
+**Item 5 (world_id gate):** not a live bug — all seven DriftSignal sites set
+world_id; the five reaching the gate take it from loop variables. But it is a
+*silent* skip, and Governance §10 names its future occupant: **mode-dominance
+drift** is table-level with no single world — it would be recorded and dropped,
+looking like the feature simply not working. Latent trap, logged.
+
+**DOCUMENTATION DRIFT — this workstream's artifact, so this thread routes it:**
+three documents disagree on the drift-signal count. **Engineering Specification
+V1.1 says twelve; Governance §10 names seven single-representative; the monitor
+implements nine.** No reader can tell which set is real. Also: §9/§13 make the
+cardinal sin *"a real author cited for something they did not say"* and the
+Facilitator "protective" of it, while **§15 never names that the guard cannot see
+the ground** — the governing document describes a capability the implementation
+lacked. Both are governance/doc corrections, flagged not edited.
+
+**Next action:** Mark weighs the permanent-prompt gap and the misattribution
+battery before any merge; the spec/governance count reconciliation is this
+thread's to schedule.
+
+---
+
+## 2026-07-16 (later) — Defect 1 escalated: the blind monitor ACTS; pool sweep done; test 9 restored on new grounds — SEE CORRECTIONS IN THE ENTRY ABOVE (the "induces drift" claim is withdrawn; "fired twice" is wrong)
 
 **Answered the acts-vs-observes question in code — it ACTS, on both paths.**
 `nodes.py:1417` sets `requires_reroot = severity in ("medium","high")`;
