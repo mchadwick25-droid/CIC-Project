@@ -181,6 +181,9 @@ Not grounded means the response asserts a specific person, incident, scene, or d
 
 Judge only the specific content the first pass flagged. Do not re-open other questions about the response.
 
+## The representative's permanent prompt (its formation - always present to it)
+{permanent_prompt}
+
 ## The world's capsule (always present to this representative)
 {capsule}
 
@@ -201,7 +204,9 @@ Reason: <one sentence naming where in the material above the flagged content is 
 FABRICATED
 Reason: <one sentence naming the specific unsupported or misattributed claim>
 
-If the material above is thin or silent on the flagged content, that is NOT automatically fabrication - the representative may be drawing on its permanent formation, which you cannot see. Answer FABRICATED only when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support. When genuinely uncertain, answer GROUNDED - a false FABRICATION finding corrects a representative away from its own true material, which is its own kind of drift."""
+The material above is all three sources FABRICATION is defined against: the permanent prompt and capsule are complete and are everything this representative always carries; the retrieved section, however, is retrieved fresh against the response and may not surface every chunk the response actually drew on. So silence in the permanent prompt and capsule is meaningful, but silence in the retrieved section alone is not proof of absence.
+
+Answer FABRICATED only when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support - a misattributed real name is the clearest such case, since the permanent prompt and capsule are complete enough to settle who this world attributes what to. When genuinely uncertain, answer GROUNDED - a false FABRICATION finding corrects a representative away from its own true material, which is its own kind of drift."""
 
 
 FACILITATOR_REROOT_PROMPT = """You are providing invisible correction guidance to the representative after detecting drift.

@@ -1392,6 +1392,20 @@ def _adjudicate_fabrication(
     except Exception:
         return None
 
+    # The permanent prompt is the third source FABRICATION's own definition
+    # names ("grounded in the permanent prompt, world capsule, or retrieved
+    # context"), and it is where each Representative's core formation and
+    # world facts live. Adjudicating against only the capsule and retrieval
+    # left content grounded ONLY in the permanent prompt still reading as
+    # fabricated - the same false-positive class this stage exists to close,
+    # surviving in a narrower band. Non-fatal if unreadable: the capsule and
+    # retrieval can still settle most cases, and returning None here would
+    # keep a stage 1 finding this stage might have cleared.
+    try:
+        permanent_prompt = world_config.permanent_prompt_path.read_text(encoding="utf-8")
+    except Exception:
+        permanent_prompt = "(permanent prompt unavailable)"
+
     retrieved_parts: list[str] = []
     for getter in (get_retriever, get_story_retriever):
         try:
@@ -1410,6 +1424,7 @@ def _adjudicate_fabrication(
     try:
         llm = get_monitoring_llm()
         prompt = FABRICATION_ADJUDICATION_PROMPT.format(
+            permanent_prompt=permanent_prompt,
             capsule=capsule,
             retrieved=retrieved,
             response=response_text,
