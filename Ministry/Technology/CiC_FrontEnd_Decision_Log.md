@@ -4,7 +4,79 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
-## 2026-07-16 (latest) — Backend thread fixed the monitor AND corrected this log twice; the real harm is the false negative
+## 2026-07-16 (latest) — All three items fixed: permanent-prompt gap closed, misattribution battery 8/8, spec/code reconciliation done — and the reconciliation found something much worse than a count
+
+**All three done on `claude/drift-monitor-fabrication-eyes`** (commits 388e13e,
+129c312). Running branches untouched; no governing document edited.
+
+**1. Permanent-prompt gap CLOSED — and it was load-bearing, not merely
+definitional.** FABRICATION is defined against three sources; stage 2 loaded two.
+Verified the gap was real: **Antony appears in Papnoute's permanent prompt and
+ZERO times in the Desert capsule** — so the original false positive was
+permanent-prompt-grounded content that cleared only because fresh retrieval
+happened to surface `desertlex001_anachoresis`. Had retrieval missed, stage 2
+would have confirmed a fabrication finding against the Representative's own
+formation. The missing source was also costing accuracy the other way: the
+adjudication prompt compensated with *"the representative may be drawing on its
+permanent formation, which you cannot see"* plus a blanket bias toward GROUNDED —
+a hedge that necessarily weakened the misattribution catch the stage exists for.
+Replaced with something true: permanent prompt and capsule are complete (silence
+there is meaningful); retrieval is fetched fresh and may miss chunks the response
+used (silence there is not proof of absence).
+
+**2. Misattribution battery: 8/8, all four worlds.** The class stage 1
+structurally cannot see — a real figure credited with another real figure's
+attested work, carrying an attribution phrase. Polycarp credited with Ignatius's
+"God's wheat" → FABRICATED. Ephrem credited with Aphrahat's Demonstrations →
+FABRICATED. Antony credited with Pachomius's rule → FABRICATED. Paula credited
+with Jerome's Hebrew translation → FABRICATED. **All four controls (same material,
+correctly attributed) stayed GROUNDED** — proving eyes, not a mute button. **The
+fix generalizes well past the Desert case it was tuned against.**
+
+**3. The reconciliation — and it is not a count problem.** Ground truth from
+code: the spec's twelve = 7 primary (smoothing, generating, agreeing,
+over-producing, temporal-bleed, flattening, **self-narration**) + 5 table
+(cross-world, dominance, convergence, **competitive-recruitment**,
+**mode-dominance**). The code's fourteen = 9 primary (the same six, plus
+**fabrication, apologetics, first_person**) + 5 table (the same three, plus
+**length-ceiling, question-stacking**). **They overlap in nine places. Five spec
+signals are not implemented as described; five implemented signals are not in the
+spec.** This thread's earlier "12 vs 9, three numbers" framing was too kind —
+these are two different systems wearing the same number.
+
+**The most consequential finding: FABRICATION is not among the spec's twelve at
+all.** The signal grounded in Article 28, the only one wired to high severity
+(setting requires_reroot and queueing correction into the next turn), the one
+that caught this project's single recorded live fabrication — absent from the
+document that describes drift monitoring to an engineer. **V1.1 described a guard
+rail the system does not have while omitting the one it leans on hardest.**
+
+**NEW DEFECT FOUND during the reconciliation:** `nodes.py`'s frame-breaker
+classifier justifies its deliberate fail-open by citing *"the existing in-line
+Self-Narration monitoring signal as a second layer."* **No such signal exists** —
+verified: "self-narration" appears nowhere in FACILITATOR_MONITORING_PROMPT, and
+`valid_signals` has no entry for it. The fail-open rests on a backstop that isn't
+there, and **a Representative that volunteers self-narration unprompted (rather
+than in answer to a participant's question) is currently unmonitored.** Routed to
+the backend thread; not fixed here (design call: add the signal, or correct the
+docstring's reasoning, or accept with eyes open).
+
+**Fixed: Engineering Specification V1.2** (this workstream's artifact, so this
+thread's to correct): §3.3's heading now reads "twelve governed signals, fourteen
+implemented, nine shared," with a verified implementation-status section naming
+each gap in both directions, the frame-breaker defect, and mode-dominance's
+missing home (table-level, no world_id, would be recorded and silently dropped).
+**Governance is NOT edited** — its own signal list predates three implemented
+signals, so which set is authoritative is a governance question, flagged not
+resolved.
+
+**Next action:** Mark decides on the merge (fix + battery evidence now stand
+together); governance review owes a ruling on which signal set is authoritative;
+the self-narration backstop is the backend thread's design call.
+
+---
+
+## 2026-07-16 — Backend thread fixed the monitor AND corrected this log twice; the real harm is the false negative
 
 **Two corrections to this thread's own entries, recorded before anything else:**
 
