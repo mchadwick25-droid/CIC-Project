@@ -250,10 +250,20 @@ def classify_frame_breaker(message: str) -> bool:
     sees only the raw message, never the conversation's substance.
 
     Fails open to False (treat as substantive) on any parse ambiguity or
-    error - a missed frame-breaker falls back to the existing in-line
-    Self-Narration monitoring signal as a second layer; a false positive
-    would incorrectly deny the participant a real answer, which is the
-    worse failure mode of the two.
+    error - a missed frame-breaker falls back to the in-line SELF_NARRATION
+    monitoring signal as a second layer; a false positive would incorrectly
+    deny the participant a real answer, which is the worse failure mode of
+    the two.
+
+    That fallback was fiction until 2026-07-16: this docstring named a
+    second layer that did not exist - FACILITATOR_MONITORING_PROMPT had no
+    self-narration signal and valid_signals had no entry for it, so the
+    deliberate fail-open here rested on a backstop that was never built, and
+    a Representative volunteering self-narration unprompted went unwatched.
+    Governance V3.6 Section 10 requires both halves: the frame-breaker
+    classifier for pressed self-narration (this function), and monitoring for
+    the milder unprompted case, "corrected the same way as any other signal
+    in this section." The monitoring half now exists.
     """
     llm = get_monitoring_llm()
     try:
@@ -1323,7 +1333,7 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     valid_signals = [
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
-        "first_person", "anachronism",
+        "first_person", "anachronism", "self_narration",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
