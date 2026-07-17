@@ -15,6 +15,7 @@ from app.prompts import (
     FACILITATOR_BRIDGE_PROMPT,
     FACILITATOR_CLOSING_PROMPT,
     FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
+    FABRICATION_ADJUDICATION_PROMPT,
     FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_PROMPT,
@@ -1343,12 +1344,89 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
         else:
             signal_type = "smoothing"
 
+    # Stage 2: FABRICATION is the only signal of the nine that asks whether
+    # content is grounded in sources, and it was the only one denied them -
+    # everything else (smoothing, generating, agreeing, over_producing,
+    # temporal_bleed, flattening, apologetics, first_person) is a property of
+    # the text and judgeable from the response alone. Stage 1 above, given no
+    # sources, can only use attribution language as a proxy for groundedness:
+    # observed live, Papnoute naming Antony and citing Athanasius passed
+    # clean, while the same attested material narrated as "he" was flagged
+    # high-severity fabrication on the next turn. That is both a false
+    # positive (attested narration flagged) and, worse, a false negative
+    # (a misattributed name carrying an attribution phrase reads as clean) -
+    # and misattribution is the one fabrication this project has actually
+    # recorded. Only fabrication candidates reach this second call, so most
+    # turns never pay for it.
+    if signal_type == "fabrication" and world_id:
+        verdict = _adjudicate_fabrication(response_text, world_id, description)
+        if verdict is False:
+            return None
+
     return DriftSignal(
         signal_type=signal_type,
         description=description,
         severity=severity,
         world_id=world_id,
     )
+
+
+def _adjudicate_fabrication(
+    response_text: str, world_id: str, stage1_description: str
+) -> bool | None:
+    """
+    Second-stage FABRICATION check, WITH the sources stage 1 is denied.
+
+    Returns True (fabrication confirmed), False (grounded - drop the signal),
+    or None (could not adjudicate; caller keeps stage 1's finding rather than
+    silently clearing a real one).
+
+    Fails open toward keeping the signal: if the capsule can't be read, the
+    retrievers error, or the model's verdict is unparseable, the stage 1
+    finding stands. A guard that silently disappears on error is worse than a
+    noisy one - the noise is at least visible.
+    """
+    try:
+        world_config = settings.get_world_config(world_id)
+        capsule = world_config.world_capsule_path.read_text(encoding="utf-8")
+    except Exception:
+        return None
+
+    retrieved_parts: list[str] = []
+    for getter in (get_retriever, get_story_retriever):
+        try:
+            context, _citations, _evals = getter(world_id).get_context_for_response(
+                query=response_text
+            )
+            if context:
+                retrieved_parts.append(context)
+        except Exception:
+            # One retriever failing shouldn't sink the adjudication - the
+            # other's material plus the capsule may still settle it.
+            continue
+
+    retrieved = "\n\n".join(retrieved_parts) or "(no additional material retrieved)"
+
+    try:
+        llm = get_monitoring_llm()
+        prompt = FABRICATION_ADJUDICATION_PROMPT.format(
+            capsule=capsule,
+            retrieved=retrieved,
+            response=response_text,
+            stage1_description=stage1_description,
+        )
+        result = llm.invoke([
+            SystemMessage(content=prompt),
+            HumanMessage(content="Adjudicate the flagged content against the material above."),
+        ]).content.strip()
+    except Exception:
+        return None
+
+    if result.startswith("GROUNDED"):
+        return False
+    if result.startswith("FABRICATED"):
+        return True
+    return None
 
 
 def check_drift_for_message(world_id: str, message_content: str) -> DriftSignal | None:

@@ -169,6 +169,41 @@ NO_DRIFT
 Be conservative on stance - only flag clear instances of drift, not edge cases. A representative speaking briefly where their formation is thin is NOT drift - that is appropriate calibration. Conservatism on stance does not extend to shape: a long, fluent, genuinely in-formation answer is not cleared by its authenticity alone if it is also exhaustive, stacked into a list, or closed with a menu of further topics - check shape and length as their own question, separate from whether the voice sounds authentic."""
 
 
+FABRICATION_ADJUDICATION_PROMPT = """You are adjudicating a possible FABRICATION finding against this world's actual source material.
+
+A first-pass monitor reads only the representative's response text. It has no access to any sources, so it cannot tell attested material from invented material - it can only see whether the response *sounds* attributed. That makes it prone to flagging correctly-grounded content that happens to be narrated plainly, and prone to missing invented content that happens to carry an attribution phrase. You are the second pass, and unlike the first pass you can see the evidence.
+
+Your only question: is the specific flagged content grounded in the material below?
+
+Grounded means the world's own sources support this content - the named people, the incidents, the concrete details. It does NOT require the response to quote or cite anything. A representative narrating its own world's attested material plainly, without saying "the sources tell us", is speaking normally, not fabricating. Attribution language is a style, not evidence.
+
+Not grounded means the response asserts a specific person, incident, scene, or detail that the material below does not support - including a real name attached to something the sources do not attribute to them. A plausible-sounding invented specific is still fabrication, and so is a misattributed real one. Plausibility is not attestation.
+
+Judge only the specific content the first pass flagged. Do not re-open other questions about the response.
+
+## The world's capsule (always present to this representative)
+{capsule}
+
+## Retrieved source material for this world relevant to this response
+{retrieved}
+
+## The representative's response
+{response}
+
+## What the first pass flagged
+{stage1_description}
+
+Respond in exactly one of these formats:
+
+GROUNDED
+Reason: <one sentence naming where in the material above the flagged content is supported>
+
+FABRICATED
+Reason: <one sentence naming the specific unsupported or misattributed claim>
+
+If the material above is thin or silent on the flagged content, that is NOT automatically fabrication - the representative may be drawing on its permanent formation, which you cannot see. Answer FABRICATED only when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support. When genuinely uncertain, answer GROUNDED - a false FABRICATION finding corrects a representative away from its own true material, which is its own kind of drift."""
+
+
 FACILITATOR_REROOT_PROMPT = """You are providing invisible correction guidance to the representative after detecting drift.
 
 The representative showed signs of: {drift_description}
