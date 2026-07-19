@@ -1,0 +1,359 @@
+/* Church in Conversation — public site stylesheet
+   Brand system: CiC_UX_Design_Brand_Brief_V1_0.md / Messaging & Branding Kit V0.2 */
+
+:root {
+  --parchment: #F7F3EB;
+  --vellum: #FEFCF8;
+  --iron-gall: #2A2521;
+  --madder: #A13E2B;
+  --gold-leaf: #B45309;
+  --lapis: #1E40AF;
+  --tyrian: #6B3FA0;
+  --rule: rgba(42, 37, 33, 0.16);
+  --muted: #6B6259;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--parchment);
+  color: var(--iron-gall);
+  font-family: 'Alegreya', 'Iowan Old Style', Georgia, serif;
+  line-height: 1.65;
+  font-size: 1.08rem;
+}
+
+.sans {
+  font-family: 'Alegreya Sans', 'Trebuchet MS', sans-serif;
+}
+
+a { color: var(--madder); }
+a:hover { color: var(--gold-leaf); }
+
+.wrap {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  background: var(--iron-gall);
+  color: var(--vellum);
+  padding: 0.6rem 1rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+}
+
+/* Header */
+header.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--vellum);
+}
+.site-header .wrap {
+  max-width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: var(--iron-gall);
+}
+.brand img { width: 34px; height: 34px; }
+
+/* "Arriving" mark motion — Logo & Motion Brief V1.0 (Ministry/Technology).
+   Binding: plays once per page arrival, then the breath continues; the dot
+   never enters the ring; no interaction reacts to the cursor. */
+.arriving-mark svg { display: block; width: 34px; height: 34px; }
+.arriving-mark .arriving-ring {
+  fill: none; stroke: currentColor; stroke-width: 11; stroke-linecap: round;
+  stroke-dasharray: 0 360; stroke-dashoffset: -50; opacity: 0;
+}
+.arriving-mark .arriving-seat {
+  fill: var(--madder); transform-origin: 88.5px 50px; transform: translate(0,-6px);
+}
+.arriving-mark.play .arriving-ring {
+  animation: cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both;
+}
+.arriving-mark.play .arriving-seat {
+  animation: cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,
+             cic-breath 5.5s ease-in-out 3750ms infinite;
+}
+@keyframes cic-buildC {
+  0% { stroke-dasharray: 0 360; stroke-dashoffset: -50; opacity: 0; }
+  4% { opacity: 1; }
+  100% { stroke-dasharray: 260 100; stroke-dashoffset: -50; opacity: 1; }
+}
+@keyframes cic-sitdown {
+  0% { transform: translate(0,-6px); }
+  62% { transform: translate(0,1px) scale(1.1,.86); }
+  100% { transform: translate(0,0) scale(1,1); }
+}
+@keyframes cic-breath { 0%, 100% { opacity: 1; } 50% { opacity: .76; } }
+@media (prefers-reduced-motion: reduce) {
+  .arriving-mark.play .arriving-ring, .arriving-mark.play .arriving-seat { animation: none; }
+  .arriving-mark .arriving-ring { stroke-dasharray: 260 100; stroke-dashoffset: -50; opacity: 1; }
+  .arriving-mark .arriving-seat { transform: translate(0,0); }
+}
+.brand .wordmark {
+  font-family: 'Alegreya', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+}
+nav.site-nav {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.92rem;
+  display: flex;
+  gap: 1.6rem;
+}
+nav.site-nav a {
+  color: var(--iron-gall);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.7rem 0.15rem;
+}
+nav.site-nav a:hover, nav.site-nav a[aria-current="page"] {
+  border-bottom-color: var(--madder);
+}
+
+/* Hero */
+.hero {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 3.5rem;
+  text-align: center;
+}
+.hero .eyebrow {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--madder);
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+.hero h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 1.3rem;
+  text-wrap: balance;
+}
+.hero p.lede {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 42rem;
+  margin: 0 auto 2rem;
+  text-wrap: balance;
+}
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1.5px solid var(--madder);
+}
+.btn.primary { background: var(--madder); color: var(--vellum); }
+.btn.primary:hover { background: var(--gold-leaf); border-color: var(--gold-leaf); color: var(--vellum); }
+.btn.secondary { background: transparent; color: var(--madder); }
+.btn.secondary:hover { background: rgba(161,62,43,0.07); }
+
+/* Sections */
+main { padding-bottom: 4rem; }
+section.page-section {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2.75rem 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+section.page-section:first-child { border-top: none; }
+
+.page-section .eyebrow {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--madder);
+  font-weight: 600;
+  margin: 0 0 0.6rem;
+}
+.page-section h2 {
+  font-size: 1.7rem;
+  margin: 0 0 1.1rem;
+  text-wrap: balance;
+}
+.page-section h3 {
+  font-size: 1.2rem;
+  margin: 1.8rem 0 0.6rem;
+}
+.page-section p { margin: 0 0 1.1rem; }
+.page-section p:last-child { margin-bottom: 0; }
+
+/* Convictions list */
+ol.convictions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: conviction;
+}
+ol.convictions li {
+  counter-increment: conviction;
+  position: relative;
+  padding: 1.1rem 0 1.1rem 3rem;
+  border-bottom: 1px solid var(--rule);
+}
+ol.convictions li:last-child { border-bottom: none; }
+ol.convictions li::before {
+  content: counter(conviction);
+  position: absolute;
+  left: 0;
+  top: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--madder);
+  color: var(--madder);
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ol.convictions h3 { margin: 0 0 0.35rem; font-size: 1.1rem; }
+ol.convictions p { color: var(--muted); margin: 0; }
+
+/* Callout / status box */
+.callout {
+  background: var(--vellum);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--gold-leaf);
+  border-radius: 0 6px 6px 0;
+  padding: 1.3rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.callout p { margin: 0 0 0.6rem; }
+.callout p:last-child { margin-bottom: 0; }
+.callout .label {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-leaf);
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+/* World strip on home */
+.worlds-strip {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+.worlds-strip .eyebrow {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--madder);
+  font-weight: 600;
+}
+.worlds-strip .note {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 1rem;
+}
+.worlds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+.world-card {
+  background: var(--vellum);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  text-align: left;
+}
+.world-card .name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 0.15rem;
+}
+.world-card .period {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* Footer */
+footer.site-footer {
+  border-top: 1px solid var(--rule);
+  background: var(--vellum);
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+footer.site-footer .wrap {
+  max-width: 60rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+footer.site-footer a { color: var(--muted); }
+footer.site-footer nav { display: flex; gap: 1.2rem; }
+footer.site-footer nav a { display: inline-block; padding: 0.5rem 0.1rem; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #17130F; color: #F1E9DD; }
+  header.site-header, footer.site-footer, .world-card, .callout { background: #1E1913; }
+  .brand { color: #F1E9DD; }
+  nav.site-nav a { color: #F1E9DD; }
+  .hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
+  :root { --rule: rgba(241,233,221,0.16); }
+  /* --madder/--gold-leaf stay unchanged (button fills need the darker value for
+     contrast against light text) - these overrides lighten the SAME hues only
+     where they're used as text/border color on the near-black background. */
+  a, .hero .eyebrow, .page-section .eyebrow, .btn.secondary,
+  ol.convictions li::before, .world-card .name { color: #E08C74; }
+  a:hover { color: #F0A98F; }
+  nav.site-nav a:hover, nav.site-nav a[aria-current="page"] { border-bottom-color: #E08C74; }
+  .btn.secondary { border-color: #E08C74; }
+  .btn.secondary:hover { background: rgba(224,140,116,0.12); }
+  ol.convictions li::before { border-color: #E08C74; }
+  .callout .label { color: #E0A458; }
+}
+
+@media (max-width: 640px) {
+  nav.site-nav { gap: 1rem; font-size: 0.85rem; }
+  .brand .wordmark { font-size: 1.05rem; }
+}
