@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invite a Friend — Church in Conversation</title>
+<meta name="description" content="Invite one friend into the Church in Conversation pilot.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  form.interest { background: var(--vellum); border: 1px solid var(--rule); border-radius: 8px; padding: 1.5rem 1.6rem; margin-top: 1.5rem; }
+  form.interest label { display:block; font-family:'Alegreya Sans',sans-serif; font-size:.85rem; font-weight:600; margin: 1rem 0 .3rem; }
+  form.interest label:first-child { margin-top: 0; }
+  form.interest input { width:100%; font-family:'Alegreya Sans',sans-serif; font-size:.92rem; padding:.7rem .8rem; border:1px solid var(--rule); border-radius:5px; background: var(--parchment); color: var(--iron-gall); }
+  form.interest .hint { font-family:'Alegreya Sans',sans-serif; font-size:.78rem; color: var(--muted); margin-top:.25rem; }
+  .btn.secondary { background: transparent; border: 1px solid var(--rule); }
+  .code-box { background: var(--vellum); border: 1px dashed var(--madder); border-radius: 8px; padding: 1.2rem 1.4rem; margin: 1.2rem 0; text-align: center; }
+  .code-box .code { font-family:'Alegreya Sans',sans-serif; font-size:1.4rem; font-weight:700; letter-spacing:.06em; color: var(--madder); }
+  .yn-buttons { display:flex; gap: .8rem; margin-top: 1.2rem; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="atlas.html">Atlas</a>
+      <a href="tour.html">Tour</a>
+      <a href="support.html">Support</a>
+      <a href="pilot.html">Pilot</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ GENERATE MODE (no ?code= in the URL - the referring tester) ============ -->
+  <section class="page-section" id="generate-mode">
+    <p class="eyebrow">Thank you for testing with us</p>
+    <h1>Would you like to invite a friend?</h1>
+    <p class="lede">We're still looking to fill some of the four seats this pilot needs — a regular visitor, a pastor or teacher, an academic or scholar, or someone in active reevaluation of their faith. If someone came to mind while you were reading this, you can invite them directly.</p>
+
+    <div class="yn-buttons">
+      <button class="btn primary" id="yes-btn">Yes, I have someone in mind</button>
+      <button class="btn secondary" id="no-btn">No thanks</button>
+    </div>
+
+    <div id="no-response" style="display:none; margin-top:1.2rem;">
+      <p>No problem at all — thank you again for sitting with us. It meant a lot.</p>
+    </div>
+
+    <form class="interest" id="generate-form" style="display:none;">
+      <label for="referrer-email">Your email (so we know it's you)</label>
+      <input type="email" id="referrer-email" required>
+      <p class="hint" id="generate-hint">This confirms the invite is coming from you, and keeps this to one friend per tester.</p>
+      <p style="text-align:center;margin-top:1.2rem;">
+        <button type="submit" class="btn primary" id="generate-submit">Generate my invite</button>
+      </p>
+    </form>
+
+    <div id="generate-result" style="display:none;">
+      <div class="code-box" id="code-display"></div>
+      <p id="generate-result-text"></p>
+      <p style="text-align:center;">
+        <button class="btn secondary" id="copy-btn">Copy invite link</button>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ REDEEM MODE (?code=XXXX in the URL - their friend) ============ -->
+  <section class="page-section" id="redeem-mode" style="display:none;">
+    <p class="eyebrow">You've been invited</p>
+    <h1>Join the Church in Conversation pilot</h1>
+    <p class="lede">A friend who's already testing invited you in. This is an early build, not a finished product — you'd be one of a small group helping us see it clearly before it opens more broadly. One sitting, 45&ndash;60 minutes, at your own pace.</p>
+
+    <form class="interest" id="redeem-form">
+      <label for="redeem-name">Your name</label>
+      <input type="text" id="redeem-name" required>
+      <label for="redeem-email">Email</label>
+      <input type="email" id="redeem-email" required>
+      <p class="hint" id="redeem-hint">We'll send your sign-in link to this address.</p>
+      <p style="text-align:center;margin-top:1.2rem;">
+        <button type="submit" class="btn primary" id="redeem-submit">Join the pilot</button>
+      </p>
+    </form>
+
+    <div id="redeem-result" style="display:none;">
+      <p id="redeem-result-text"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a href="pilot.html">Pilot</a>
+      <a href="mailto:hello@churchinconversation.org">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // Once the app is deployed (see cic-poc/backend/app/main.py's
+  // POST /api/referral/generate and /api/referral/redeem), set this to its
+  // real URL. Left empty, both modes fall back to a working, backend-free
+  // version - generate mode shows a copy-able message pointing to pilot.html
+  // instead of a real tracked code; redeem mode points back to pilot.html
+  // entirely. Same discipline as pilot.html's own PILOT_REQUEST_API - this
+  // page is never broken by the backend not existing yet.
+  const REFERRAL_API = '';
+
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get('code');
+  const isRedeem = Boolean(code);
+
+  document.getElementById('generate-mode').style.display = isRedeem ? 'none' : '';
+  document.getElementById('redeem-mode').style.display = isRedeem ? '' : 'none';
+
+  if (!isRedeem) {
+    // ---- Generate mode ----
+    const yesBtn = document.getElementById('yes-btn');
+    const noBtn = document.getElementById('no-btn');
+    const generateForm = document.getElementById('generate-form');
+    const noResponse = document.getElementById('no-response');
+    const ynButtons = document.querySelector('.yn-buttons');
+
+    noBtn.addEventListener('click', () => {
+      ynButtons.style.display = 'none';
+      noResponse.style.display = '';
+    });
+
+    yesBtn.addEventListener('click', () => {
+      ynButtons.style.display = 'none';
+      if (REFERRAL_API) {
+        generateForm.style.display = '';
+      } else {
+        // No backend yet - fall back to a copy-able message pointing to the
+        // general pilot signup, same spirit as pilot.html's mailto fallback.
+        const message = "I've been testing something called Church in Conversation - a way to actually sit down and talk with the historic church, built carefully and honestly. I thought of you. Would you take a look? " + window.location.origin + "/pilot.html";
+        document.getElementById('generate-result').style.display = '';
+        document.getElementById('code-display').textContent = 'Message ready to send';
+        document.getElementById('generate-result-text').textContent = message;
+        document.getElementById('copy-btn').addEventListener('click', () => {
+          navigator.clipboard.writeText(message);
+          document.getElementById('copy-btn').textContent = 'Copied!';
+        });
+      }
+    });
+
+    if (REFERRAL_API) {
+      generateForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const submitButton = document.getElementById('generate-submit');
+        submitButton.disabled = true;
+        submitButton.textContent = 'Generating…';
+        try {
+          const response = await fetch(`${REFERRAL_API}/api/referral/generate`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ referrer_email: document.getElementById('referrer-email').value }),
+          });
+          if (!response.ok) throw new Error('request failed');
+          const data = await response.json();
+          const link = `${window.location.origin}/refer-a-friend.html?code=${data.code}`;
+          generateForm.style.display = 'none';
+          document.getElementById('generate-result').style.display = '';
+          document.getElementById('code-display').innerHTML = `<span class="code">${data.code}</span>`;
+          document.getElementById('generate-result-text').textContent = `Share this link with your friend: ${link}`;
+          document.getElementById('copy-btn').addEventListener('click', () => {
+            navigator.clipboard.writeText(link);
+            document.getElementById('copy-btn').textContent = 'Copied!';
+          });
+        } catch {
+          submitButton.disabled = false;
+          submitButton.textContent = 'Generate my invite';
+          document.getElementById('generate-hint').textContent = 'Something went wrong - please email hello@churchinconversation.org and mention you wanted to invite a friend.';
+        }
+      });
+    }
+  } else {
+    // ---- Redeem mode ----
+    const redeemForm = document.getElementById('redeem-form');
+    if (!REFERRAL_API) {
+      redeemForm.style.display = 'none';
+      document.getElementById('redeem-result').style.display = '';
+      document.getElementById('redeem-result-text').innerHTML = 'Referrals aren\'t active yet - please use the general <a href="pilot.html">pilot signup</a> instead, and mention who invited you.';
+    } else {
+      redeemForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const submitButton = document.getElementById('redeem-submit');
+        submitButton.disabled = true;
+        submitButton.textContent = 'Joining…';
+        try {
+          const response = await fetch(`${REFERRAL_API}/api/referral/redeem`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              code,
+              name: document.getElementById('redeem-name').value,
+              email: document.getElementById('redeem-email').value,
+            }),
+          });
+          if (!response.ok) throw new Error('request failed');
+          redeemForm.style.display = 'none';
+          document.getElementById('redeem-result').style.display = '';
+          document.getElementById('redeem-result-text').textContent = "You're in — check your email for a sign-in link.";
+        } catch {
+          submitButton.disabled = false;
+          submitButton.textContent = 'Join the pilot';
+          document.getElementById('redeem-hint').textContent = 'Something went wrong - please email hello@churchinconversation.org directly.';
+        }
+      });
+    }
+  }
+</script>
+
+</body>
+</html>
