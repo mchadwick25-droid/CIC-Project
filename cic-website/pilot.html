@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join the Pilot — Church in Conversation</title>
+<meta name="description" content="We're looking for a small group of early testers across four kinds of readers — an early, honest look at Church in Conversation before anyone else sees it.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .seats-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .seat-card { background: var(--vellum); border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem 1.2rem; }
+  .seat-card.filled { opacity: .55; }
+  .seat-card .tag { font-family:'Alegreya Sans',sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color: var(--madder); font-weight:700; margin:0 0 .4rem; }
+  .seat-card h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .seat-card p { font-size: .9rem; color: var(--muted); margin:0; }
+  form.interest { background: var(--vellum); border: 1px solid var(--rule); border-radius: 8px; padding: 1.5rem 1.6rem; margin-top: 1.5rem; }
+  form.interest label { display:block; font-family:'Alegreya Sans',sans-serif; font-size:.85rem; font-weight:600; margin: 1rem 0 .3rem; }
+  form.interest label:first-child { margin-top: 0; }
+  form.interest input, form.interest select, form.interest textarea {
+    width:100%; font-family:'Alegreya Sans',sans-serif; font-size:.92rem; padding:.7rem .8rem;
+    border:1px solid var(--rule); border-radius:5px; background: var(--parchment); color: var(--iron-gall);
+  }
+  form.interest textarea { min-height: 4rem; resize: vertical; }
+  form.interest .hint { font-family:'Alegreya Sans',sans-serif; font-size:.78rem; color: var(--muted); margin-top:.25rem; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="atlas.html">Atlas</a>
+      <a href="tour.html">Tour</a>
+      <a href="support.html">Support</a>
+      <a href="pilot.html" aria-current="page">Pilot</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" style="padding-bottom:1rem;">
+    <p class="eyebrow">Join the Pilot</p>
+    <h1>Be one of the first to sit at the Table</h1>
+    <p class="lede">Before Church in Conversation opens more broadly, a small group of early testers is helping us see it clearly — what works, what doesn't, and where it still falls short. We're looking for four kinds of readers, and we'd like at least one of each.</p>
+  </section>
+
+  <section class="page-section">
+    <p class="eyebrow">What this actually is</p>
+    <p>This is an early build, not a finished product. Scholarly review of the historical reconstructions is still ongoing — it hasn't yet been checked by outside historians and theologians the way it eventually will be. You'd be testing something real and cared-for, but still a serious first draft. If something feels off, thin, or wrong, that's exactly the kind of thing we need to hear.</p>
+    <p>The commitment is small: one sitting (45&ndash;60 minutes) at your own pace, followed by a short 15&ndash;20 minute conversation afterward about what you noticed. That's it.</p>
+  </section>
+
+  <section class="page-section">
+    <p class="eyebrow">The four seats we're looking to fill</p>
+    <h2>Which one sounds like you?</h2>
+    <div class="seats-grid">
+      <div class="seat-card">
+        <p class="tag">Seat 1</p>
+        <h3>Regular visitor</h3>
+        <p>Real Christian background, no academic or pastoral training. Tests whether this is genuinely readable and clear for someone without specialized vocabulary.</p>
+      </div>
+      <div class="seat-card">
+        <p class="tag">Seat 2</p>
+        <h3>Pastor or teacher</h3>
+        <p>Someone who naturally reaches for sermon-prep or teaching angles. Tests whether the encounter offers something substantive to someone who already teaches others.</p>
+      </div>
+      <div class="seat-card">
+        <p class="tag">Seat 3</p>
+        <h3>Academic or scholar</h3>
+        <p>Real training in history, theology, or a related field. Tests whether the sourcing and precision hold up to someone who knows how to press on a claim.</p>
+      </div>
+      <div class="seat-card">
+        <p class="tag">Seat 4</p>
+        <h3>Reevaluation</h3>
+        <p>Someone actively wrestling with faith questions — reconsidering, questioning, or reconstructing what they believe. This is exactly who "a doorway, not a home" is written for.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <p class="eyebrow">Express interest</p>
+    <h2>Tell us a little about yourself</h2>
+    <p>Think of this as a first conversation. Fill this out, and Mark will personally follow up before anything is set up.</p>
+    <form class="interest" id="pilot-interest-form" action="mailto:markchadwick25@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="seat">Which seat sounds most like you?</label>
+      <select id="seat" name="Seat">
+        <option>Regular visitor</option>
+        <option>Pastor or teacher</option>
+        <option>Academic or scholar</option>
+        <option>Reevaluation</option>
+        <option>Not sure / could be more than one</option>
+      </select>
+
+      <label for="why">In a sentence or two, why does this interest you?</label>
+      <textarea id="why" name="Why_interested" placeholder="Whatever's true — curiosity, your own story, a question you've been sitting with…"></textarea>
+
+      <label for="referred">Did someone point you here, or are you finding us on your own?</label>
+      <input type="text" id="referred" name="How_they_found_us" placeholder="e.g. a friend's name, or 'found it myself'">
+
+      <p class="hint" id="pilot-form-hint">Submitting this opens your own email app with a message addressed to Mark — nothing is sent automatically, and no account is created. He reads every one personally.</p>
+      <p style="text-align:center;margin-top:1.2rem;">
+        <button type="submit" class="btn primary" id="pilot-form-submit">Send my interest</button>
+      </p>
+    </form>
+    <script>
+      // Once the app is deployed (see cic-poc/backend/app/main.py's
+      // POST /api/pilot/request), set this to its real URL and the form
+      // below submits directly instead of opening an email client. Left
+      // empty, the form falls back to its existing mailto: behavior
+      // exactly as before - this never breaks the working flow while the
+      // backend doesn't have a live URL yet.
+      const PILOT_REQUEST_API = '';
+
+      if (PILOT_REQUEST_API) {
+        const form = document.getElementById('pilot-interest-form');
+        const hint = document.getElementById('pilot-form-hint');
+        hint.textContent = "Submitting this sends your interest directly to Mark — no account is created, and he reads every one personally.";
+
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+          const submitButton = document.getElementById('pilot-form-submit');
+          submitButton.disabled = true;
+          submitButton.textContent = 'Sending…';
+
+          try {
+            const response = await fetch(`${PILOT_REQUEST_API}/api/pilot/request`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                name: form.Name.value,
+                email: form.Email.value,
+                seat: form.Seat.value,
+                why_interested: form.Why_interested.value,
+                referred_by: form.How_they_found_us.value,
+              }),
+            });
+            if (!response.ok) throw new Error('request failed');
+            form.replaceWith(Object.assign(document.createElement('p'), {
+              textContent: "Thank you — your interest is in. Mark will personally follow up before anything is set up.",
+            }));
+          } catch {
+            submitButton.disabled = false;
+            submitButton.textContent = 'Send my interest';
+            hint.textContent = "Something went wrong submitting this — please email hello@churchinconversation.org directly instead.";
+          }
+        });
+      }
+    </script>
+  </section>
+
+  <section class="page-section">
+    <p class="eyebrow">Know someone who'd fit?</p>
+    <p>If you've read this and thought of someone else — a pastor, a skeptic friend, a professor, anyone who came to mind — forward this page to them. Filling all four seats with the right people matters more than filling them quickly.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a href="pilot.html">Pilot</a>
+      <a href="mailto:hello@churchinconversation.org">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

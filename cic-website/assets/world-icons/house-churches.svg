@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
+  <!-- CiC world icon (V1.8 LOCKED, 2026-07-18) - Chloe, Host of the Assembly, THE HOUSE-CHURCHES
+       V1.8 (Mark, post-lock amendment): skin warmed from #E8C9A3 (a generic pale Mediterranean, which
+       tied with Roman Albina) to #D8B184 - a warm Anatolian OLIVE, grounding her complexion in her actual
+       Greek-East setting (Antioch / Asia Minor) rather than a Roman/pale default. Complexion is inference
+       (record silent), traced to the documented setting; the demographic-reference artifact remains the
+       eventual authority. Everything else unchanged.
+       (70-200 CE, Antioch / Asia Minor / Rome - leaning Antioch & Asia Minor, the Greek East, more
+       than Rome). Dress is Greek East: a HIMATION drawn up over the head (the veil) over a CHITON
+       (undyed-linen tunic) - not the distinctly Roman palla/stola. Grounded: covered head (1 Cor 11,
+       Corinth/Greek East; Chloe in 1 Cor 1:11), muted wool, no ornament (1 Tim 2:9, 1 Pet 3:3),
+       the shared cup (agape - Mark-confirmed). Art unchanged from V1.7; only the label/derivation
+       corrected. FINAL - Mark confirmed 2026-07-18 ("Chloe is good on all accounts"); veil/modesty grounded in this world's own sources (1 Cor 11; Chloe in 1 Cor 1:11), cup confirmed. -->
+  <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#B87A50" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M42 150 Q44 102 60 94 Q76 102 78 150 Z" fill="#D9CDB2" stroke="#2A2521" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M50 100 Q60 108 70 100" fill="none" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M44 46 Q60 34 76 46 Q86 62 78 82 Q60 74 42 82 Q34 62 44 46 Z" fill="#F1E7D0" stroke="#2A2521" stroke-width="2.2"/>
+  <path d="M46 58 Q46 82 60 84 Q74 82 74 58" fill="#D8B184" stroke="#2A2521" stroke-width="2"/>
+  <path d="M46 58 Q60 57 74 58" fill="none" stroke="#2A2521" stroke-width="1.4" stroke-linecap="round"/>
+  <ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M50 132 h20 v6 a10 6 0 0 1 -20 0 z" fill="#2A2521"/><path d="M60 144 v4" stroke="#2A2521" stroke-width="2.4"/>
+</svg>
