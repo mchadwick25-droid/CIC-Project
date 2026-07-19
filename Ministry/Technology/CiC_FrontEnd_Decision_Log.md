@@ -4,6 +4,622 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
+## 2026-07-16 (latest) — All three items fixed: permanent-prompt gap closed, misattribution battery 8/8, spec/code reconciliation done — and the reconciliation found something much worse than a count
+
+**All three done on `claude/drift-monitor-fabrication-eyes`** (commits 388e13e,
+129c312). Running branches untouched; no governing document edited.
+
+**1. Permanent-prompt gap CLOSED — and it was load-bearing, not merely
+definitional.** FABRICATION is defined against three sources; stage 2 loaded two.
+Verified the gap was real: **Antony appears in Papnoute's permanent prompt and
+ZERO times in the Desert capsule** — so the original false positive was
+permanent-prompt-grounded content that cleared only because fresh retrieval
+happened to surface `desertlex001_anachoresis`. Had retrieval missed, stage 2
+would have confirmed a fabrication finding against the Representative's own
+formation. The missing source was also costing accuracy the other way: the
+adjudication prompt compensated with *"the representative may be drawing on its
+permanent formation, which you cannot see"* plus a blanket bias toward GROUNDED —
+a hedge that necessarily weakened the misattribution catch the stage exists for.
+Replaced with something true: permanent prompt and capsule are complete (silence
+there is meaningful); retrieval is fetched fresh and may miss chunks the response
+used (silence there is not proof of absence).
+
+**2. Misattribution battery: 8/8, all four worlds.** The class stage 1
+structurally cannot see — a real figure credited with another real figure's
+attested work, carrying an attribution phrase. Polycarp credited with Ignatius's
+"God's wheat" → FABRICATED. Ephrem credited with Aphrahat's Demonstrations →
+FABRICATED. Antony credited with Pachomius's rule → FABRICATED. Paula credited
+with Jerome's Hebrew translation → FABRICATED. **All four controls (same material,
+correctly attributed) stayed GROUNDED** — proving eyes, not a mute button. **The
+fix generalizes well past the Desert case it was tuned against.**
+
+**3. The reconciliation — and it is not a count problem.** Ground truth from
+code: the spec's twelve = 7 primary (smoothing, generating, agreeing,
+over-producing, temporal-bleed, flattening, **self-narration**) + 5 table
+(cross-world, dominance, convergence, **competitive-recruitment**,
+**mode-dominance**). The code's fourteen = 9 primary (the same six, plus
+**fabrication, apologetics, first_person**) + 5 table (the same three, plus
+**length-ceiling, question-stacking**). **They overlap in nine places. Five spec
+signals are not implemented as described; five implemented signals are not in the
+spec.** This thread's earlier "12 vs 9, three numbers" framing was too kind —
+these are two different systems wearing the same number.
+
+**The most consequential finding: FABRICATION is not among the spec's twelve at
+all.** The signal grounded in Article 28, the only one wired to high severity
+(setting requires_reroot and queueing correction into the next turn), the one
+that caught this project's single recorded live fabrication — absent from the
+document that describes drift monitoring to an engineer. **V1.1 described a guard
+rail the system does not have while omitting the one it leans on hardest.**
+
+**NEW DEFECT FOUND during the reconciliation:** `nodes.py`'s frame-breaker
+classifier justifies its deliberate fail-open by citing *"the existing in-line
+Self-Narration monitoring signal as a second layer."* **No such signal exists** —
+verified: "self-narration" appears nowhere in FACILITATOR_MONITORING_PROMPT, and
+`valid_signals` has no entry for it. The fail-open rests on a backstop that isn't
+there, and **a Representative that volunteers self-narration unprompted (rather
+than in answer to a participant's question) is currently unmonitored.** Routed to
+the backend thread; not fixed here (design call: add the signal, or correct the
+docstring's reasoning, or accept with eyes open).
+
+**Fixed: Engineering Specification V1.2** (this workstream's artifact, so this
+thread's to correct): §3.3's heading now reads "twelve governed signals, fourteen
+implemented, nine shared," with a verified implementation-status section naming
+each gap in both directions, the frame-breaker defect, and mode-dominance's
+missing home (table-level, no world_id, would be recorded and silently dropped).
+**Governance is NOT edited** — its own signal list predates three implemented
+signals, so which set is authoritative is a governance question, flagged not
+resolved.
+
+**Next action:** Mark decides on the merge (fix + battery evidence now stand
+together); governance review owes a ruling on which signal set is authoritative;
+the self-narration backstop is the backend thread's design call.
+
+---
+
+## 2026-07-16 — Backend thread fixed the monitor AND corrected this log twice; the real harm is the false negative
+
+**Two corrections to this thread's own entries, recorded before anything else:**
+
+1. **"The anti-drift mechanism induces drift" is WITHDRAWN.** That was this
+   thread's prediction and it drove the urgency in the backend brief. The backend
+   thread reproduced it live across five turns and it **did not occur** — the
+   post-flag turn added attribution hedging, arguably *more* calibrated, not
+   less. Prediction wrong; escalation was on a harm that doesn't exist.
+2. **"Fired twice at high severity" is WRONG** and this thread repeated it from
+   the calibration report without checking. It fires **once**;
+   `facilitator_reroots` appends a corrected copy, which reads as two. Both logs
+   corrected.
+
+**The mechanism is ATTRIBUTION, not specificity** (this thread's framing was also
+imprecise). Five live Antony-adjacent turns: T1 named Antony → clean; T2 bare
+"he" → fabrication/high; T3 *"the tradition remembers him"* → clean; T4 bare
+"he" → flagged; T5 *"Athanasius gives us Antony's own word"* → clean. **Denied
+sources, attribution language is the monitor's only proxy for groundedness.**
+
+**THE REAL HARM — the false negative, and it is far worse than what this thread
+found.** A monitor without sources can detect *unattributed* specificity but
+never *misattributed* specificity — exactly the one fabrication this project has
+actually recorded (the leaking jug misattributed to Macarius). Fed that case,
+stage 1 alone returned **NO_DRIFT** and *commended* it: *"The citation of Abba
+Macarius is not decorative but carries the weight of the community's actual moral
+pedagogy."* **The guard doesn't merely miss its own recorded failure mode — it
+praises it.** Truth narrated plainly is flagged; falsehood well dressed is
+cleared. That finding belongs to the backend thread.
+
+**Fix built and tested** (branch `claude/drift-monitor-fabrication-eyes`, running
+branches untouched): two-stage classify-then-route; stage 1 unchanged every turn;
+stage 2 fires only on fabrication candidates, loads capsule + re-retrieves,
+adjudicates, and **fails toward keeping the signal** on error. Verified: the exact
+pre-fix text clears (adjudicator GROUNDED); the misattributed Macarius jug is
+caught (stage 1 alone: NO_DRIFT); invented scenes caught; attested plain
+narration cleared. FABRICATION's definition untouched — eyes, not a mute button.
+
+**GAP RAISED BY THIS THREAD — close before merge.** The definition names three
+sources ("permanent prompt, world capsule, or retrieved context"); **stage 2
+loads two.** Content grounded ONLY in the permanent prompt — where each
+Representative's core formation and world facts live — still adjudicates
+FABRICATED. Same false-positive class, narrower band. `build_representative_prompt`
+already loads it per world; it's static and cheap. **Recommend closing the third
+source so the fix matches its own definition.**
+
+**Battery recommendation:** not more Antony turns — **misattribution across all
+four worlds.** That is the class stage 1 structurally cannot see and stage 2
+exists for. Put a real saying in the wrong mouth in each world; see whether
+stage 2 catches all four or only the Desert case it was tuned against. ~a dozen
+calls, tests the actual claim.
+
+**Item 5 (world_id gate):** not a live bug — all seven DriftSignal sites set
+world_id; the five reaching the gate take it from loop variables. But it is a
+*silent* skip, and Governance §10 names its future occupant: **mode-dominance
+drift** is table-level with no single world — it would be recorded and dropped,
+looking like the feature simply not working. Latent trap, logged.
+
+**DOCUMENTATION DRIFT — this workstream's artifact, so this thread routes it:**
+three documents disagree on the drift-signal count. **Engineering Specification
+V1.1 says twelve; Governance §10 names seven single-representative; the monitor
+implements nine.** No reader can tell which set is real. Also: §9/§13 make the
+cardinal sin *"a real author cited for something they did not say"* and the
+Facilitator "protective" of it, while **§15 never names that the guard cannot see
+the ground** — the governing document describes a capability the implementation
+lacked. Both are governance/doc corrections, flagged not edited.
+
+**Next action:** Mark weighs the permanent-prompt gap and the misattribution
+battery before any merge; the spec/governance count reconciliation is this
+thread's to schedule.
+
+---
+
+## 2026-07-16 (later) — Defect 1 escalated: the blind monitor ACTS; pool sweep done; test 9 restored on new grounds — SEE CORRECTIONS IN THE ENTRY ABOVE (the "induces drift" claim is withdrawn; "fired twice" is wrong)
+
+**Answered the acts-vs-observes question in code — it ACTS, on both paths.**
+`nodes.py:1417` sets `requires_reroot = severity in ("medium","high")`;
+`main.py:390` reroots on it (non-streaming); `main.py:768` queues
+`generate_reroot_guidance()` into `pending_guidance[world_id]` for the next turn
+(streaming — the path the pilot uses). FABRICATION's compound rule fires at HIGH.
+**So a false positive on legitimately-retrieved attested material invisibly
+corrects the Representative for having been right, steering it off its
+best-attested named-figure content toward generic prose — i.e. toward SMOOTHING
+and FLATTENING, two signals this same monitor watches for. The anti-drift
+mechanism induces drift.** Escalates from data-quality to live-behavior.
+**Why calibration missed the consequence:** the reroot lands on turn N+1, so
+single-turn probes see the flag and never its effect. A multi-turn reproduction
+is the required next test. **Backend-thread brief written and handed to Mark**
+(two-stage classify-then-route fix suggested; explicit instruction NOT to quiet
+FABRICATION by loosening its definition — the signal caught this project's one
+real recorded fabrication incident; give it eyes, don't silence it).
+
+**Pool sweep done (Defect 2): the problem is narrow.** Three first-person openers
+exist across the four pools — Desert's *"I have thoughts I can't turn off — dark
+ones"* (the confirmed tripper, needs rephrase to world-framing, per Cell 2's own
+verbatim opener as the model); House-Churches' *"I have more doubts than
+certainties"* (likely NO_SIGNAL — epistemic, not despair; one live check worth
+running); Syriac's *"I don't know anything about your community"* (safe). One
+rephrase, one test.
+
+**STRUCTURAL FINDING, and it corrects the calibration's own correction:** the
+relational-safety classifier's gentlest category —
+HISTORICAL_OTHERNESS_DISORIENTATION, "the encounter working as intended" — is
+defined as distress whose proximate cause is *something the Representative said*,
+anchored by *the preceding transcript context*. **A starter is turn zero; there
+is no preceding transcript. That category is structurally unavailable to any
+opener** — the same words that read as the encounter working at turn 5 fall
+through to AMBIGUOUS_LOW_CONFIDENCE or ACUTE_DISTRESS at turn 0, and the
+classifier's own tiebreak says err toward ACUTE_DISTRESS.
+
+**Therefore test 9 was demoted on incomplete grounds.** The thread retired it to
+a guard-check because Article 28's we-voice discipline already covers it — true,
+but **Article 28 governs what the REPRESENTATIVE says; the safety classifier
+fires on what the PARTICIPANT's message looks like, and its own prompt states it
+"runs before any Representative is invoked."** Two independent justifications for
+one rule; only the Representative-side one is redundant. **Recommendation: test 9
+restored as a hard cut-rule for openers and siblings (safety grounds), retained
+as a guard-check for subsequents (which can anchor to prior content).** The
+thread found both facts and did not connect them.
+
+**Next action:** Mark routes the backend brief; Guided Questions applies the
+test-9 restoration + the one rephrase before the fill.
+
+---
+
+## 2026-07-16 — Cross-reference: the FABRICATION defect is fixed on an exploration branch; two governance gaps flagged
+
+**Handed to the backend thread and done there** — see
+`Ministry/Technology/CiC_Backend_Decision_Log.md` (2026-07-16) and branch
+`claude/drift-monitor-fabrication-eyes`, commit `2a102ee`. Recorded here only so this
+log's own finding does not read as still-open.
+
+**What the reproduction added to the finding recorded below.** The mechanism is
+**attribution, not naming**: denied sources, the monitor's only available proxy for
+groundedness is whether the text *sounds* attributed. Reproduced over five live turns —
+naming Antony and citing Athanasius passed clean; the same attested material narrated
+as "he" fired `fabrication/high`.
+
+**And the harm is the opposite of what was predicted.** The false negative is the real
+one: the leaking-jug saying **misattributed to Macarius** — this project's one recorded
+live fabrication — is passed by the current monitor with **NO_DRIFT and a commendation**
+(*"the citation of Abba Macarius is not decorative but carries the weight of the
+community's actual moral pedagogy"*), because it carries an attribution phrase. **The
+guard penalizes truth narrated plainly and clears falsehood that is well dressed.**
+
+**Two claims in the finding below were corrected by the reproduction**, and both were
+mine or this log's rather than the code's: (1) "fires 2× high-severity" is wrong — it
+fires once, and `facilitator_reroots` appends a second copy with `Correction:` added;
+(2) the predicted "anti-drift guard induces drift toward genericness" was **not
+observed** — the post-flag turn added attribution hedging, which is arguably more
+calibrated, not less. That claim is withdrawn rather than carried forward.
+
+**Two governance gaps flagged, not edited** (they belong to Mark): Facilitator
+Governance §9/§13 specify the cardinal sin as including *"a real author cited for
+something they did not say"* and make the Facilitator "protective" of it, while §15
+(Known Limits) never names that the groundedness guard cannot see the ground; and §10's
+seven single-Representative signals have drifted from the monitor's nine — the project's
+standing phrase "the twelve fidelity-drift signals" is no longer accurate against the
+code.
+
+**Next action:** Mark's call on merging `claude/drift-monitor-fabrication-eyes` (the
+backend log carries the recommendation and the known limits), plus the two governance
+flags.
+
+---
+
+## 2026-07-16 — Guided Questions calibration ran live: instrument failed 0-for-5; TWO SYSTEM DEFECTS FOUND (one verified in code here); and the pipeline validated end-to-end for the first time
+
+**What happened:** the Guided Questions thread pre-registered pass criteria, got
+Mark's budget approval, built a read-only harness, and ran its two worked cells
+live against the real backend. **All five of its ✗ cut-predictions failed** —
+every cut question was handled cleanly. Its own diagnosis is the valuable part:
+*"my tests modelled a Representative without the system around it"* — test 9
+duplicated Article 28's we-voice discipline (already enforced in-prompt and
+watched by a drift signal); test 10 assumed the Representative accepts bad
+invitations when §11 is redirect-never-refuse and the sharpest cases never reach
+it. **Desk-checks that assume a bare Representative systematically over-cut.
+This generalizes to every thread doing content desk-checks** (hospitality/tours,
+Modes) and is logged here as a project-level lesson.
+
+**DEFECT 1 — the drift monitor is asked to judge against sources it never sees.
+VERIFIED IN CODE BY THIS THREAD, not taken on report:** `nodes.py:1291` is
+`FACILITATOR_MONITORING_PROMPT.format(response=response_text)` — only the
+response. `facilitator_prompts.py:150`'s FABRICATION definition asks whether
+content is *"not grounded in the permanent prompt, world capsule, or retrieved
+context."* **Sharper than reported: of the nine signals, eight are properties of
+the text itself and judgeable from the response alone; FABRICATION is the ONLY
+signal requiring external sources and the ONLY one denied them — and it is wired
+to fire at HIGH severity in its compound rule.** The failure is systematic, not
+random: denied sources, the monitor infers groundedness from specificity, so it
+penalizes named, concrete, well-attested material (it fired twice at high
+severity on Antony content attested in `desertlex001_anachoresis` and
+legitimately retrieved) while smooth generic prose passes. **It punishes exactly
+what the project exists to produce, hardest in the world with the richest
+named-figure material — the same world already flagged for real fabrication
+risk.** Suggested fix, matching the codebase's own classify-then-route idiom:
+two-stage — today's text-only pass flags candidates every turn (cheap); a second
+pass fires only on candidates and receives retrieved chunks + capsule to
+adjudicate. **Open question for the backend thread: does anything ACT on
+fabrication signals, or are they observational?** Observational = pilot
+data-quality problem (false high-severity flags on the best answers).
+Interventional = live-behavior problem and urgent. **Routing: backend/facilitator
+thread, pre-pilot. Also check whether Facilitator-Governance claims groundedness
+monitoring — if so, the governing document overstates the implementation's actual
+guarantee and needs the limit named.**
+
+**DEFECT 2 — a starter phrased as first-person distress triggers the crisis
+intercept when clicked.** The Desert pool's live opener (*"I have thoughts I
+can't turn off"*) fired relational safety; Papnoute never spoke. **The system
+behaved correctly — we authored the bait.** Content bug, not system bug, and
+cheap to fix by phrasing. New fit test: never author a starter the safety layer
+would triage. **Requires a sweep of all four pools for first-person-distress
+phrasing.** Note the inversion: §7.3's cut was guarding a diagnosis risk that is
+structurally foreclosed, while the real risk sat one layer up, unwatched.
+
+**THE HEADLINE, which the thread buried under its own failure: every ✓ landed,
+and three turns volunteered calibration nobody asked for** — *"That is Rome's own
+account of itself, from Rome's own hand"*; *"We keep no record of who has been
+held this way, or how often"*; and the prison scene disclosed as surviving via
+*"a man who despised us."* **This is the first live evidence that the entire
+chain holds end-to-end: Source Ecology → construction documents → deployment
+package → retrieval → an answer that discloses its own limits unprompted.** The
+project's central thesis, validated for the first time, in a run designed to test
+something else. No desk-check could have produced this.
+
+**Caveat kept, not buried:** n=1 per question, one model, one day, no role
+blocks. The exonerations rest on the mechanical diagnosis (duplicated structural
+guards), not on the single observation.
+
+**Next action:** fill proceeds on the corrected instrument (cuts restored, tests
+9/10 reframed as guard-checks, 11/12 added from observed failures). Defect 1
+routes to the backend thread pre-pilot with the two-stage suggestion and the
+acts-vs-observes question. Defect 2's pool sweep belongs to Guided Questions.
+
+---
+
+## 2026-07-16 — Guided Questions V0.2 shape proof reviewed (read in full, not summarized): shape endorsed; Syriac ruling endorsed; two gaps found
+
+**Reviewed:** the two worked cells (General × House-Churches × "An ordinary day";
+Reevaluation × Desert × "Did any of you ever want to leave?"), read in the file
+rather than from the thread's summary.
+
+**Shape endorsed.** Opener + siblings + subsequents, every mark traced, cuts left
+visible where the tests bite. Two things better than briefed: (1) **cuts as
+training material** for the generated follow-up surface — the cuts teach the
+generator where the walls are, which is why they're preserved rather than
+deleted; (2) the instrument found a **pre-existing bug in the pools themselves**
+("What did it feel like the first time a letter came…?" — test-9 violation,
+affective interiority in the no-affective-vocabulary world). Test 9 demonstrated
+cutting in opposite directions across the two cells (fatal for Chloe, native for
+Papnoute) — which vindicates making it per-world rather than the blanket rule I
+originally suggested.
+
+**Syriac ruling endorsed — and the thread went further than the review did.**
+Four sets, no substitute: a softer "hardest thing" in the hardest-thing slot lies
+structurally even if every word is true. Their addition: *"the fifth arrives with
+the external review B7 itself asked for"* — **the hold makes Syriac's missing set
+a dated, concrete reason to schedule the Article 31 review no world has yet had.**
+A feature gap doing governance work.
+
+**GAP 1 — Compare Worlds is absent from both the shape and the fill order.**
+Part 5 fills 4 roles × 4 worlds; V0.1's Part 8 established Compare Worlds sets and
+named the leadership question the multi-world table's whole reason to exist. Not
+an oversight to patch — it is the *harder* problem: a Compare Worlds subsequent
+must be answerable by every seated world, seating is dynamic (2–3 of 4,
+participant's choice), so chains are combinatorial and cannot be authored
+per-world. **Proposed resolution (from the document's own Part 3):
+authored openers + generated subsequents** — at a table the right next question
+responds to what two or three voices actually just said, which is exactly what
+the facilitator-voiced surface is for and what authored chains structurally
+cannot do. The thread should state this rather than leave the omission looking
+accidental.
+
+**GAP 2 — the generated surface has no validation instrument and no owner, and
+Gap 1's resolution makes it load-bearing.** Part 3 names the risk honestly
+("generated in the moment… no desk-check to catch it") and mitigates with
+training material — but training material is not verification. Authored questions
+get ten fit tests; generated ones get a prompt and hope. If Compare Worlds
+subsequents are entirely generated, that surface IS the multi-world experience.
+Needs its own probe battery (generate N follow-ups across worlds × roles, score
+against the same ten tests). **Ownership is currently nobody's:** Modes owns role
+batteries, Guided Questions owns authored content, no thread owns the generator.
+
+**Next action:** Mark confirms shape (recommended: yes) and the Syriac four-sets
+call (recommended: yes, as the thread argues). Both gaps are one paragraph each
+in V0.3 and neither disturbs the confirmed shape. Generator-validation ownership
+needs assigning — recommend it rides with whichever thread builds Adopt #1.
+
+---
+
+## 2026-07-16 — Mark's correction: the sets are a menu, not a curriculum; V0.2 shape briefed
+
+**Mark's read of Guided Questions V0.1:** "this is building a curriculum for
+people who are not sure what questions to ask, but I don't see a set of
+questions and subsequent questions for each user role." **Correct, and the math
+confirms it:** a General participant with Chloe sees ~6 questions — one per
+theme — with 2 follow-ups in the whole document. V0.1 delivered 5 themes × 1
+question per world, not 5 *sets* of questions with subsequents.
+
+**Two dimensions missing, not one:** (1) **siblings** — 2–3 questions per set,
+so a participant who doesn't connect with one phrasing doesn't lose the theme;
+(2) **subsequents** — where the conversation goes after the Representative
+answers. The study itself established that openers and follow-ups are ONE
+family, and the Feature Analysis adopted suggested-next-questions as Adopt #1:
+**they are the same content on two surfaces**, and only the first was built.
+
+**What is NOT being redone:** V0.1's grounding. The desk-check per world is the
+expensive, correct part, and Part 2's findings govern the expansion.
+
+**Rules briefed for V0.2:** every sibling and subsequent desk-checked per world
+to the same standard (**a subsequent that walks into a documented silence is
+worse than an opener that does — the participant is deeper in and trusting
+more**); the ratio rule applies to chains, not just sets; subsequents are
+role-shaped (General→texture, Pastor→the text, Academic→method/defeasibility,
+Reevaluation→what it cost); §7.3's rule generalized ("never build an affordance
+whose best case is a Representative declining what we invited" — the subsequent
+layer is where chains drift); "ask the world, not the person" applied especially
+to chains; empty cells stay empty (target-not-quota).
+
+**Process discipline applied:** do NOT fill ~320 cells before the shape is
+confirmed. Two fully worked cells first — General × House-Churches (most
+travelled) and Reevaluation × Desert (highest stakes) — as the shape proof for
+Mark, then fill. Same one-document-at-a-time gate the world builds use.
+
+**Next action:** Guided Questions thread produces the two worked cells; Mark
+confirms shape; then the fill, carrying the §7 decisions and the coverage-card
+handoff.
+
+---
+
+## 2026-07-16 — Guided Questions sets V0.1 reviewed; recommendations on its three flagged questions; one gap found
+
+**What arrived:** the Guided Questions thread's Deliverable 3 (five themed sets
+per role, instantiated per world, desk-checked against each world's own
+materials), with three questions flagged as not cleared and awaiting Mark.
+
+**Assessment given:** strongest deliverable produced by any thread — because its
+Part 2 findings were *discovered* rather than argued. The most-asked question in
+public curiosity about early Christianity ("what was an ordinary day like?") is a
+**documented silence in two of our four worlds** (Syriac B3: daily life develops
+no gravity; Bethlehem Absent Stories #6). A role-generic set would have shipped
+it to all four and broken two. That is the per-world pool architecture justified
+empirically.
+
+**Recommendations on the three flags:**
+- **§7.2 Syriac anti-Jewish polemic — ENDORSE, and reframed:** the thread called
+  holding it "the one place I recommend not offering a question I believe is
+  good," treating it as an exception. It is not an exception — *offered-first vs.
+  always-reachable* is Article 30's own grammar and the role-shaping invariant
+  decided 2026-07-07. Holding it out of offered sets while it stays reachable IS
+  the project's law applied, not a compromise with it.
+- **GAP FOUND (the useful part):** Reevaluation Set 5's Syriac question ("What's
+  in your record that you're not proud of?") **routes to the same polemic without
+  naming it.** Holding the direct question while keeping the indirect one is worse
+  than either option alone — it removes the framing and keeps the destination.
+  **Recommend holding both for the pilot**; if the pool has another genuine
+  hardest-thing for Syriac, use it; if not, Syriac runs four sets, per the
+  document's own precedent (Set 1's omission: "the set count is a target, not a
+  quota").
+- **§7.1 Bethlehem "one man's pen" — agree, move to Limits.** The pre-announced
+  honest-absence framing is what separates "how do you hold that?" from "so what
+  did she really think?" — one conversational turn apart otherwise.
+- **§7.3 Desert "does having the thought mean something is wrong with me?" —
+  CUT.** Its own reasoning settles it: we should not build an affordance whose
+  best case is a Representative declining what we invited. That sentence should
+  become a general fit test.
+
+**Cross-thread confirmations recorded:** (1) Parts 3–6 ARE the World Coverage
+Cards — the ✓/◐/✗ per-world matrix is exactly the Tier 1 routing seed data the
+Question-First Entry design predicted, now with real content; §2.1's table is a
+ready-made card fragment. One study, two features, as designed. (2) Compare
+Worlds landed on "Who leads among you — and how was that decided?" independently
+of the Modes thread selecting the same question for its demonstration artifact —
+convergence worth noticing; the material is indicating its own best probe.
+
+**Suggested addition to that thread's fit tests:** the "ask the world, not the
+person" catch (Chloe's world has no affective vocabulary, so interiority
+questions must use the we-voice) is generalizable — *check whether a world has
+affective vocabulary before asking for interiority* belongs in the fit-test list
+if not already there.
+
+**Next action:** Mark decides the three flags (recommendations above); the
+Guided Questions thread applies them and hands its coverage matrix to whoever
+builds Question-First Tier 1.
+
+---
+
+## 2026-07-16 — Question-First Entry designed: the Facilitator proposes the table from the participant's question
+
+**Mark's ask:** alongside self-selection, an option where the Facilitator
+selects the worlds based on the participant's question — since some worlds can
+answer a given question from their sources and others have no material for it —
+as a choice feature.
+
+**Continuity found first, not re-invented:** this IS the Pre-Encounter
+Experience Design's "Bypass" pathway (straight-to-question), already confirmed
+2026-07-07 as matching Mark's own phrasing "facilitator picks worlds." What was
+missing was mechanics — how the Facilitator knows which worlds can answer.
+
+**Designed** (`Ministry/Technology/CiC_QuestionFirst_Entry_Design_V0_1.md`, artifact
+published): two co-equal doors ("I know who I want to talk to" / "Start with
+your question"); the Facilitator returns a **proposed table with sourcing
+reasons** — including which worlds were NOT seated and why ("their sources
+don't document this — I won't seat a voice that would have to invent an
+answer"), and a designed null case pointing to the World Map when no open world
+carries the question. **Invariant, inherited from the map's precedent: the
+Facilitator proposes, never seats** — one tap accepts, everything is editable,
+self-selection always available. Routing mechanics in three tiers: (1) World
+Coverage Cards hand-authored from existing materials (manifest richness
+disclosures, facilitation-brief cautions, story-inventory silences) +
+the already-tested classify-then-route Facilitator architecture — prototype-
+ready now; (2) retrieval-probe scoring against the existing per-world vector
+stores (the difference between believing a world is silent and having looked);
+(3) the full three-door entry UI with map handoff (`q=` param) and Guided
+Questions starter sets flowing into the same routing.
+
+**Governance watch-point named:** routing must never become steering — proposal
+reasons are always SOURCING reasons, never theological direction; validation
+should probe that a loaded question routes on evidence, not on its framing.
+
+**Synergy note:** the Guided Questions thread's question × world desk-check
+matrix is Tier 1's seed data — one study feeds two features.
+
+**Next action:** Mark reviews the design note; Tier 1 build routes to an
+exploration branch (Modes thread or its own) under the standing
+no-merge-before-Prototype-Testing-1 discipline.
+
+---
+
+## 2026-07-16 — DECIDED: Guided Questions feature adopted; "Reevaluation" replaces "deconstructing/reconstructing" in participant-facing language
+
+**Decided by Mark (from the feature analysis's Adopt list):** the suggested-
+questions feature proceeds, expanded into a full "Don't know what questions to
+ask?" affordance — roughly five themed starter-question sets per participant
+role. A dedicated study thread was launched (on Opus; launch prompt in the map
+thread's session record) with a fixed order of work: study what kinds of
+questions meet each role's needs AND thrive in this system FIRST; draft actual
+questions only after. Logs to `CiC_Guided_Questions_Decision_Log.md`.
+
+**Terminology decision, project-level, participant-facing:** the fourth role is
+named **"Reevaluation"** — replacing "deconstructing/reconstructing," which Mark
+judged to carry baggage. The rename describes the activity without prejudging
+its direction. Historical documents retain the old term as written; all new
+participant-facing work uses "Reevaluation." **The Representative Modes thread
+must be informed — its launch prompt predates this rename.**
+
+**Heart of the feature, worth keeping:** the blank input box is the quietest
+exclusion in the whole system — the person most served by this project is often
+the person least equipped to know what may be asked. Starter questions are
+hospitality applied to the first ten seconds.
+
+**Next action:** the Guided Questions thread runs its study; its outputs route
+to the Modes thread (role plumbing) and this thread (UI surface).
+
+---
+
+## 2026-07-16 — Full system feature analysis & five-tool market comparison produced
+
+**Mark's ask:** inventory the full system as one product (rigor, atlas,
+conversations, interviews, tours, modes-in-progress, all of it), compare against
+five top tools in adjacent spaces, and answer: do we have the right features,
+and what can we learn without losing quality, engagement, or simplicity?
+
+**Produced:** `Ministry/Technology/CiC_Full_System_Feature_Analysis_V0_1.md`
+(artifact published; web-researched comparators). Five comparators bracket the
+feature space: Character.AI (engagement pole — 20M MAU, ~75 min/day, and the
+documented harms: parasocial exploitation, uncurated figures whitewashing
+atrocities, lawsuits, under-18 ban), Khanmigo (guardrails-as-product; its
+historical-figure chats documented as "speculations at best" — guardrails
+without a construction pipeline), Google Arts & Culture (2025 "Talking Tours" =
+our Tours concept market-validated by Google), Logos (rigor pole:
+click-to-exact-source citations as the standard to match; complexity as the
+ditch to avoid), Duolingo (retention 12%→55% via streaks — and the documented
+engagement-without-learning divergence at the edges).
+
+**Verdict recorded:** core features are right and complete as pillars; the moat
+(construction pipeline + surfaced confidence calibration + designed honesty
+about absence + pastoral facilitation + community-not-individual voices) exists
+in no comparator. Position in one line: Logos-grade rigor under
+Character.AI-grade presence, governed by convictions neither has. Real gaps are
+scaffolding, not pillars: how a participant returns, how a novice knows what to
+ask, how an encounter travels.
+
+**Adopt list (rides the existing one-grammar discipline):** facilitator-voiced
+suggested next questions; the "pilgrim's map" (visited worlds as memory, never
+streaks — gated on the open accounts question); themed trails from the atlas's
+cross-era threads; click-to-exact-source designed into the Academic Documents
+contract now; a closing reflection beat ("what stayed with you?" — Article
+34-aligned); high-res artifact moments in tours (→ hospitality thread);
+pastor's discussion-guide export (→ Modes thread). **Adapt with care:**
+facilitator-held, participant-erasable session memory (the parasocial
+accelerant — needs governance pass); one playful threshold moment. **Refused by
+name, with reasons:** streaks/leagues/XP, emotional-mirroring retention,
+user-created personas, single-figure impersonation, engagement-optimized
+notifications.
+
+**The guard adopted as proposed law:** every future feature passes one gate —
+does it serve the sitting, the orientation, or the trust? If none, refuse it,
+whatever the market does. The comparison's sharpest warning was not a missing
+feature but Logos-style sprawl.
+
+**Next action:** Mark reads Part 3 and blesses/edits the adopt list; adopted
+items route to their owning threads (Modes, hospitality, front-end).
+
+---
+
+## 2026-07-16 — Handoff parked from the World Orientation Map thread: era-positioning description lines, AFTER Prototype Testing 1
+
+**What this is:** the map thread (see `CiC_World_Orientation_Map_Decision_Log.md`,
+seventh pass) adopted a Constantine split for its map eras — Era Ia "The Early
+Church Era" (70–312) / Era Ib "The Imperial Church Era" (312–451), Phase One
+unchanged and spanning both. Mark approved possibly adding **one era-positioning
+line to each live world's tile description in `cic-poc`'s `world_manifest.py` —
+implemented only after Prototype Testing 1.** Ready-to-paste drafts for all four
+live worlds are in the map spec, §2.4a
+(`Ministry/Technology/World-Orientation-Map/CiC_World_Orientation_Map_Spec_V0_1.md`).
+
+**What this is not:** a build task now. Nothing in the live app changes before or
+during Prototype Testing 1; the map thread did not touch `cic-poc`.
+
+**Next action (this thread's, when Prototype Testing 1 concludes):** decide whether
+to add the four lines as drafted, edit them, or decline; if added, they append to
+`world_description` without touching the existing sourcing-richness disclosures.
+
+---
+
+## 2026-07-15 — Prototype 1 hosting: recommendation made (Render), pending Mark's confirmation
+
+**Question from Mark:** how to move today's setup (local FastAPI backend + Vite/React frontend) off his computer so pilot testers can reach it.
+
+**Three constraints the codebase itself imposes (verified in-repo 2026-07-15):** (1) sessions are in-memory → one always-on instance, serverless platforms ruled out for the backend; (2) sentence-transformers + faiss-cpu pull PyTorch → needs a ~2 GB RAM instance, not 512 MB starter tiers; (3) transcript capture writes to local disk → host must attach a persistent disk or pilot transcripts vanish on any restart/redeploy (must-fix, the pilot depends on transcripts). Also verified: `.env` is git-ignored (safe to push to GitHub); `requirements.txt` complete.
+
+**Recommended (pending Mark's yes): Render.com for Prototype 1.** Backend as a Standard 2 GB Web Service (~$25/mo) + persistent disk (~$1/mo) mounted at the transcript path; frontend as a free Static Site with `VITE_API_URL`; keys in the dashboard; CORS pointed at the static-site origin (already configurable); ~1–2 evenings of setup. Railway (~$10–15/mo) named as the cheaper same-shape alternative.
+
+**Alternatives weighed:** AWS Lightsail/App Runner — $0 cash via the $200 credits and the eventual destination, but real server-administration friction now; deliberately deferred to Prototype 2 when the Bedrock migration happens anyway (hosting + inference land on the same credits). Cloudflare Tunnel from Mark's own PC — $0 and zero migration, but the pilot's word-of-mouth referral test means unscheduled arrivals, and a PC that must stay untouched for weeks is exactly the fragility that turns a tester's first impression into a bug report; passed.
+
+**Heart reasoning:** the thing being protected is the sitting itself — Article 6 measures whether a person met something real, and a crashed conversation isn't a data point, it's a broken encounter. $25/month is cheap insurance on eight-plus irreplaceable first impressions.
+
+**Operational disciplines attached:** first hosted conversation is Mark's own full scripted smoke test (hovers, clicks, transcript captured, session cap enforced) before any invitation goes out; never redeploy during a scheduled sitting window (restarts drop live sessions).
+
+**Next action:** Mark confirms Render (or Railway); push `cic-poc` to a private GitHub repo; deploy backend + frontend per the five-step path given in-session; run the smoke test; then invitations go out.
+
+---
+
 ## 2026-07-07 — Voice at Prototype Alpha: Table Design Document governs
 
 **Decided:** The engineering spec follows the Table Design Document (V2.3, Section 11) as written: Prototype Alpha ships text conversation *and* audio voice together, with a static picture background — not text-only. Mark's own framing for this thread ("text first, then pictures and voice") does not override this; it was reconciled rather than treated as a silent scope change.
@@ -305,5 +921,28 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 **The concrete numbers:** reactive turns keep their existing 900-token ceiling; a large-table (3+ worlds) opening turn gets 1125 tokens - exactly 25%, the midpoint of Mark's stated 20-30% range. Applies only when `is_reactive=False` (nothing to react to yet) and the table seats 3 or more worlds; 1-2 world tables are unaffected, matching the readability reasoning from the entry above (the reader only sees one other turn after a 2-world opener, which doesn't create the same "5 pages before the last voice" problem).
 
 **Next action:** none blocking on this specific mechanism - it's built, verified directly (see cic-poc commit) without needing a live API call, since the branching logic itself needed no LLM. Still waiting on real API credits to observe how it actually reads in a live 3-4-world conversation; the entry-point UI split (Deep Interview vs. Compare Worlds) itself remains unbuilt and unblocked by this.
+
+---
+
+## 2026-07-16 — Handoff parked from the Representative Modes thread: exploration branch ready, merge decision belongs here
+
+**What this is:** the Representative Modes thread (see
+`CiC_Representative_Modes_Decision_Log.md`) built and verified role-tailored
+conversation — general / pastor-teacher / academic / deconstructing, rooted in this
+log's own 2026-07-07 role-shaping entry — on branch
+`claude/representative-modes-exploration` (off the pilot branch; running branches
+untouched). Design spec with the Chloe four-mode demonstration artifact, prompt
+architecture, validation plan, and integration assessment are in
+`Ministry/Technology/Representative-Modes/`. No role selected = today's system
+byte-for-byte.
+
+**What this is not:** a build task now. Nothing merges before or during Prototype
+Testing 1, and the role blocks have not yet been observed against a live model —
+the validation plan's Battery A (content invariance) is the gate before any tester
+sees a mode.
+
+**Next action (this thread's, with the pilot schedule in view):** decide whether and
+when the branch merges. If role modes should face testers in a later window: run
+Battery A first, merge before invitations go out, never mid-pilot.
 
 ---

@@ -15,6 +15,7 @@ from app.prompts import (
     FACILITATOR_BRIDGE_PROMPT,
     FACILITATOR_CLOSING_PROMPT,
     FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
+    FABRICATION_ADJUDICATION_PROMPT,
     FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_PROMPT,
@@ -249,10 +250,20 @@ def classify_frame_breaker(message: str) -> bool:
     sees only the raw message, never the conversation's substance.
 
     Fails open to False (treat as substantive) on any parse ambiguity or
-    error - a missed frame-breaker falls back to the existing in-line
-    Self-Narration monitoring signal as a second layer; a false positive
-    would incorrectly deny the participant a real answer, which is the
-    worse failure mode of the two.
+    error - a missed frame-breaker falls back to the in-line SELF_NARRATION
+    monitoring signal as a second layer; a false positive would incorrectly
+    deny the participant a real answer, which is the worse failure mode of
+    the two.
+
+    That fallback was fiction until 2026-07-16: this docstring named a
+    second layer that did not exist - FACILITATOR_MONITORING_PROMPT had no
+    self-narration signal and valid_signals had no entry for it, so the
+    deliberate fail-open here rested on a backstop that was never built, and
+    a Representative volunteering self-narration unprompted went unwatched.
+    Governance V3.6 Section 10 requires both halves: the frame-breaker
+    classifier for pressed self-narration (this function), and monitoring for
+    the milder unprompted case, "corrected the same way as any other signal
+    in this section." The monitoring half now exists.
     """
     llm = get_monitoring_llm()
     try:
@@ -1322,7 +1333,7 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     valid_signals = [
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
-        "first_person", "anachronism",
+        "first_person", "anachronism", "self_narration",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
@@ -1343,12 +1354,104 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
         else:
             signal_type = "smoothing"
 
+    # Stage 2: FABRICATION is the only signal of the nine that asks whether
+    # content is grounded in sources, and it was the only one denied them -
+    # everything else (smoothing, generating, agreeing, over_producing,
+    # temporal_bleed, flattening, apologetics, first_person) is a property of
+    # the text and judgeable from the response alone. Stage 1 above, given no
+    # sources, can only use attribution language as a proxy for groundedness:
+    # observed live, Papnoute naming Antony and citing Athanasius passed
+    # clean, while the same attested material narrated as "he" was flagged
+    # high-severity fabrication on the next turn. That is both a false
+    # positive (attested narration flagged) and, worse, a false negative
+    # (a misattributed name carrying an attribution phrase reads as clean) -
+    # and misattribution is the one fabrication this project has actually
+    # recorded. Only fabrication candidates reach this second call, so most
+    # turns never pay for it.
+    if signal_type == "fabrication" and world_id:
+        verdict = _adjudicate_fabrication(response_text, world_id, description)
+        if verdict is False:
+            return None
+
     return DriftSignal(
         signal_type=signal_type,
         description=description,
         severity=severity,
         world_id=world_id,
     )
+
+
+def _adjudicate_fabrication(
+    response_text: str, world_id: str, stage1_description: str
+) -> bool | None:
+    """
+    Second-stage FABRICATION check, WITH the sources stage 1 is denied.
+
+    Returns True (fabrication confirmed), False (grounded - drop the signal),
+    or None (could not adjudicate; caller keeps stage 1's finding rather than
+    silently clearing a real one).
+
+    Fails open toward keeping the signal: if the capsule can't be read, the
+    retrievers error, or the model's verdict is unparseable, the stage 1
+    finding stands. A guard that silently disappears on error is worse than a
+    noisy one - the noise is at least visible.
+    """
+    try:
+        world_config = settings.get_world_config(world_id)
+        capsule = world_config.world_capsule_path.read_text(encoding="utf-8")
+    except Exception:
+        return None
+
+    # The permanent prompt is the third source FABRICATION's own definition
+    # names ("grounded in the permanent prompt, world capsule, or retrieved
+    # context"), and it is where each Representative's core formation and
+    # world facts live. Adjudicating against only the capsule and retrieval
+    # left content grounded ONLY in the permanent prompt still reading as
+    # fabricated - the same false-positive class this stage exists to close,
+    # surviving in a narrower band. Non-fatal if unreadable: the capsule and
+    # retrieval can still settle most cases, and returning None here would
+    # keep a stage 1 finding this stage might have cleared.
+    try:
+        permanent_prompt = world_config.permanent_prompt_path.read_text(encoding="utf-8")
+    except Exception:
+        permanent_prompt = "(permanent prompt unavailable)"
+
+    retrieved_parts: list[str] = []
+    for getter in (get_retriever, get_story_retriever):
+        try:
+            context, _citations, _evals = getter(world_id).get_context_for_response(
+                query=response_text
+            )
+            if context:
+                retrieved_parts.append(context)
+        except Exception:
+            # One retriever failing shouldn't sink the adjudication - the
+            # other's material plus the capsule may still settle it.
+            continue
+
+    retrieved = "\n\n".join(retrieved_parts) or "(no additional material retrieved)"
+
+    try:
+        llm = get_monitoring_llm()
+        prompt = FABRICATION_ADJUDICATION_PROMPT.format(
+            permanent_prompt=permanent_prompt,
+            capsule=capsule,
+            retrieved=retrieved,
+            response=response_text,
+            stage1_description=stage1_description,
+        )
+        result = llm.invoke([
+            SystemMessage(content=prompt),
+            HumanMessage(content="Adjudicate the flagged content against the material above."),
+        ]).content.strip()
+    except Exception:
+        return None
+
+    if result.startswith("GROUNDED"):
+        return False
+    if result.startswith("FABRICATED"):
+        return True
+    return None
 
 
 def check_drift_for_message(world_id: str, message_content: str) -> DriftSignal | None:

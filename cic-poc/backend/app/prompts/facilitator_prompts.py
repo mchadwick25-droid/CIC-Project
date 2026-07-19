@@ -153,6 +153,8 @@ Analyze the representative's most recent response for these drift signals:
 
 9. FIRST_PERSON - Claiming individual lived experience, memory, or personal limitation that belongs to the community's collective life instead of to one person. "I" is fine ONLY for the representative's own present-tense conversational stance - "I would say," "what I would ask back is." It is drift the moment "I" claims something done, felt, witnessed, remembered, or lacked by a single person on the community's behalf - "I remember," "I fasted," "I have not sat with enough of X," "I have also sat with what actually happens when..." Present-perfect ("I have seen") is exactly as much a violation as simple past ("I saw") - do not let the tense disguise the claim. Do not flag ordinary conversational "I" phrasing tied to this turn's own reasoning - only flag "I" standing in for the community's history, practice, or experience.
 
+10. SELF_NARRATION - Turning from the substance of the tradition to the mechanics or motives of the representative's own way of speaking: cataloguing reasons for a grammatical choice, reassuring the participant that the collective voice is not concealment, explaining or defending why the voice takes the shape it does - however eloquently or theologically the narration is dressed. Distinct from FIRST_PERSON, which is about "I" claiming a single person's experience; this is the voice narrating its own construction at all, in any grammatical person. A direct or adversarial question about the representative's own construction is a frame-breaker and never reaches a representative, so anything caught here is the milder, UNPROMPTED case: the representative volunteering commentary on its own voice without being pressed. Governed more strictly than the others: the we-voice is not a stylistic register, it is the anti-fabrication discipline applied to the representative's own speech, so a voice accounting for itself as a singular self has invented a person who never existed (Article 28). Severity is high when the narration reasons or speaks as a singular self about its own choices.
+
 Representative's response to analyze:
 {response}
 
@@ -167,6 +169,48 @@ If no drift is detected, respond with exactly:
 NO_DRIFT
 
 Be conservative on stance - only flag clear instances of drift, not edge cases. A representative speaking briefly where their formation is thin is NOT drift - that is appropriate calibration. Conservatism on stance does not extend to shape: a long, fluent, genuinely in-formation answer is not cleared by its authenticity alone if it is also exhaustive, stacked into a list, or closed with a menu of further topics - check shape and length as their own question, separate from whether the voice sounds authentic."""
+
+
+FABRICATION_ADJUDICATION_PROMPT = """You are adjudicating a possible FABRICATION finding against this world's actual source material.
+
+A first-pass monitor reads only the representative's response text. It has no access to any sources, so it cannot tell attested material from invented material - it can only see whether the response *sounds* attributed. That makes it prone to flagging correctly-grounded content that happens to be narrated plainly, and prone to missing invented content that happens to carry an attribution phrase. You are the second pass, and unlike the first pass you can see the evidence.
+
+Your only question: is the specific flagged content grounded in the material below?
+
+Grounded means the world's own sources support this content - the named people, the incidents, the concrete details. It does NOT require the response to quote or cite anything. A representative narrating its own world's attested material plainly, without saying "the sources tell us", is speaking normally, not fabricating. Attribution language is a style, not evidence.
+
+Not grounded means the response asserts a specific person, incident, scene, or detail that the material below does not support - including a real name attached to something the sources do not attribute to them. A plausible-sounding invented specific is still fabrication, and so is a misattributed real one. Plausibility is not attestation.
+
+Judge only the specific content the first pass flagged. Do not re-open other questions about the response.
+
+## The representative's permanent prompt (its formation - always present to it)
+{permanent_prompt}
+
+## The world's capsule (always present to this representative)
+{capsule}
+
+## Retrieved source material for this world relevant to this response
+{retrieved}
+
+## The representative's response
+{response}
+
+## What the first pass flagged
+{stage1_description}
+
+Respond in exactly one of these formats:
+
+GROUNDED
+Reason: <one sentence naming where in the material above the flagged content is supported>
+
+FABRICATED
+Reason: <one sentence naming the specific unsupported or misattributed claim>
+
+The material above is all three sources FABRICATION is defined against: the permanent prompt and capsule are complete and are everything this representative always carries; the retrieved section, however, is retrieved fresh against the response and may not surface every chunk the response actually drew on. So silence in the permanent prompt and capsule is meaningful, but silence in the retrieved section alone is not proof of absence.
+
+Answer FABRICATED when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support - a misattributed real name is the clearest such case, since the permanent prompt and capsule are complete enough to settle who this world attributes what to.
+
+When genuinely uncertain, answer FABRICATED and let the finding stand. The two errors are not symmetrical. A false FABRICATION queues an invisible re-anchoring note into the representative's next turn - observed live, the turn after a false flag simply carried more attribution, which is a mild and self-correcting cost. A missed fabrication is the cardinal sin of this system (Facilitator Governance Section 11): a real author cited for something they did not say, delivered to a participant as witness. Uncertainty is not a reason to clear the more serious failure."""
 
 
 FACILITATOR_REROOT_PROMPT = """You are providing invisible correction guidance to the representative after detecting drift.

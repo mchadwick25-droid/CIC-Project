@@ -6,12 +6,13 @@ import uuid
 from contextlib import asynccontextmanager
 from typing import Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from pydantic import BaseModel
 
+from app.auth import AuthedUser, get_current_user
 from app.config import settings
 from app.graph.builder import get_compiled_graph
 from app.graph.nodes import get_retriever, get_story_retriever, representative_engages
@@ -61,7 +62,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Church in Conversation POC",
-    description="The Table - Engaging conversations with voices from Christian history",
+    description="The Table - Engaging conversations with representative voices from Christian history",
     version="0.1.0",
     lifespan=lifespan,
 )
@@ -82,7 +83,6 @@ class StartSessionRequest(BaseModel):
 
     world_id: str = "syriac-edessa-nisibis"  # For single-world (backwards compat)
     world_ids: list[str] = []  # For multi-world table (1-3 worlds)
-    tester_code: str | None = None  # Pilot-mode per-tester session cap (see app/session_cap.py)
 
 
 class StartSessionResponse(BaseModel):
@@ -99,6 +99,31 @@ class SendMessageRequest(BaseModel):
 
     message: str
     close_requested: bool = False
+
+
+class PilotRequest(BaseModel):
+    """A pilot "express interest" submission from cic-website/pilot.html."""
+
+    name: str
+    email: str
+    seat: str | None = None
+    why_interested: str | None = None
+    referred_by: str | None = None
+
+
+class GenerateReferralRequest(BaseModel):
+    """Identifies the referring tester by self-reported email, not a bearer
+    token - see submit_referral_redemption's docstring for why."""
+
+    referrer_email: str
+
+
+class RedeemReferralRequest(BaseModel):
+    """A friend redeeming a code from cic-website/refer-a-friend.html."""
+
+    code: str
+    name: str
+    email: str
 
 
 class SendMessageResponse(BaseModel):
@@ -157,7 +182,7 @@ def state_to_messages(state: ConversationState) -> list[dict]:
 
 
 @app.post("/api/session/start", response_model=StartSessionResponse)
-async def start_session(request: StartSessionRequest):
+async def start_session(request: StartSessionRequest, user: AuthedUser = Depends(get_current_user)):
     """
     Start a new conversation session.
 
@@ -166,10 +191,14 @@ async def start_session(request: StartSessionRequest):
 
     Supports both single-world (world_id) and multi-world (world_ids) modes.
     Multi-world tables allow 1-3 representatives to engage together.
+
+    `user` comes from the signed-in participant's Supabase session (see
+    app/auth.py) - a dev placeholder with no real identity when Supabase
+    isn't configured, so local dev/mock-mode work unchanged.
     """
     from app.graph.state import WorldContext
 
-    allowed, reason = check_and_reserve_session_slot(request.tester_code)
+    allowed, reason = check_and_reserve_session_slot(user)
     if not allowed:
         raise HTTPException(status_code=403, detail=reason)
 
@@ -213,6 +242,7 @@ async def start_session(request: StartSessionRequest):
     # Create initial state
     initial_state = ConversationState(
         session_id=session_id,
+        user_id=user.user_id,
         world_id=world_id,
         world_ids=world_ids,
         worlds_at_table=worlds_at_table,
@@ -234,6 +264,7 @@ async def start_session(request: StartSessionRequest):
             current_speaker=result.get("current_speaker", "representative"),
             turn_count=result.get("turn_count", 0),
             session_id=session_id,
+            user_id=user.user_id,
             world_id=world_id,
             world_ids=world_ids,
             worlds_at_table=worlds_at_table,
@@ -253,6 +284,160 @@ async def start_session(request: StartSessionRequest):
         world_id=world_id,
         world_ids=world_ids,
     )
+
+
+@app.post("/api/pilot/request")
+async def submit_pilot_request(request: PilotRequest):
+    """
+    Record a pilot "express interest" submission (cic-website/pilot.html's
+    form). Mark reviews these directly in Supabase's table editor and, on
+    approval, invites the person via Supabase Auth and assigns their
+    profiles.pilot_cohort - no separate admin UI needed for this pass.
+
+    A no-op (but still returns success, so the form doesn't show an error)
+    if Supabase isn't configured - matches every other Supabase-dependent
+    module's "off until configured" discipline.
+    """
+    from app.auth import _get_client, supabase_configured
+
+    if not supabase_configured():
+        return {"status": "received"}
+
+    try:
+        _get_client().table("pilot_requests").insert(
+            {
+                "name": request.name,
+                "email": request.email,
+                "seat": request.seat,
+                "why_interested": request.why_interested,
+                "referred_by": request.referred_by,
+            }
+        ).execute()
+    except Exception:
+        raise HTTPException(status_code=500, detail="Something went wrong submitting your interest. Please try again or email hello@churchinconversation.org directly.")
+
+    return {"status": "received"}
+
+
+def _generate_referral_code() -> str:
+    import secrets
+    import string
+
+    alphabet = string.ascii_uppercase + string.digits
+    return "CIC-" + "".join(secrets.choice(alphabet) for _ in range(6))
+
+
+@app.post("/api/referral/generate")
+async def generate_referral(request: GenerateReferralRequest):
+    """
+    Called from cic-website/refer-a-friend.html after a tester who just
+    completed their post-conversation survey says yes to inviting a friend.
+
+    Identifies the referring tester by self-reported email rather than a
+    bearer token. The alternative - requiring an active Supabase session -
+    doesn't reliably survive the trip through an external Google Form and
+    back to a different origin (cic-website is a separate static site from
+    wherever the app itself ends up hosted; browser-persisted auth doesn't
+    cross that origin boundary without extra plumbing this pilot's scale
+    doesn't warrant). At ~20-30 known, invited participants, a self-reported
+    email checked against Supabase's own user list is a reasonable trust
+    level - not the right call at public scale, fine here.
+
+    One-hop enforcement: refuses if the referring user's own profile shows
+    they arrived via a referral themselves (profiles.referred_by_invite_id
+    is set) - a referred friend cannot refer further.
+    """
+    from app.auth import _get_client, supabase_configured
+
+    if not supabase_configured():
+        raise HTTPException(status_code=503, detail="Referrals aren't live yet - check back soon.")
+
+    client = _get_client()
+
+    users_response = client.auth.admin.list_users()
+    matching_user = next(
+        (u for u in users_response if u.email and u.email.lower() == request.referrer_email.lower()),
+        None,
+    )
+    if matching_user is None:
+        raise HTTPException(status_code=404, detail="We couldn't find an account for that email.")
+
+    profile_rows = (
+        client.table("profiles")
+        .select("referred_by_invite_id")
+        .eq("user_id", matching_user.id)
+        .limit(1)
+        .execute()
+        .data
+    )
+    if profile_rows and profile_rows[0].get("referred_by_invite_id"):
+        raise HTTPException(
+            status_code=403,
+            detail="Referrals go one friend deep - since you joined through a referral yourself, this isn't available for your account.",
+        )
+
+    code = _generate_referral_code()
+    client.table("referral_invites").insert(
+        {"code": code, "referring_user_id": matching_user.id}
+    ).execute()
+
+    return {"code": code}
+
+
+@app.post("/api/referral/redeem")
+async def redeem_referral(request: RedeemReferralRequest):
+    """
+    Called from cic-website/refer-a-friend.html when a referred friend enters
+    the code they were given. Sends them a real Supabase invite (same
+    mechanism Mark already uses manually for pilot_requests approvals) and
+    marks the code spent so it can't be reused.
+    """
+    from app.auth import _get_client, supabase_configured
+
+    if not supabase_configured():
+        raise HTTPException(status_code=503, detail="Referrals aren't live yet - check back soon.")
+
+    client = _get_client()
+
+    invite_rows = (
+        client.table("referral_invites")
+        .select("id, status")
+        .eq("code", request.code.strip().upper())
+        .limit(1)
+        .execute()
+        .data
+    )
+    if not invite_rows:
+        raise HTTPException(status_code=404, detail="That invite code wasn't found - check it and try again.")
+    if invite_rows[0]["status"] != "active":
+        raise HTTPException(status_code=410, detail="That invite has already been used.")
+
+    invite_id = invite_rows[0]["id"]
+
+    try:
+        invited = client.auth.admin.invite_user_by_email(request.email)
+    except Exception:
+        raise HTTPException(
+            status_code=500,
+            detail="Something went wrong sending your invite. Please email hello@churchinconversation.org directly.",
+        )
+
+    client.table("referral_invites").update(
+        {
+            "status": "redeemed",
+            "redeemed_by_user_id": invited.user.id,
+            "redeemed_email": request.email,
+            "redeemed_at": "now()",
+        }
+    ).eq("id", invite_id).execute()
+
+    # New profile row already exists via the on_auth_user_created trigger;
+    # stamp it with the referral link and this pilot's standard session cap.
+    client.table("profiles").update(
+        {"referred_by_invite_id": invite_id, "max_sessions": 2}
+    ).eq("user_id", invited.user.id).execute()
+
+    return {"status": "invited"}
 
 
 @app.post("/api/session/{session_id}/message", response_model=SendMessageResponse)
@@ -307,6 +492,7 @@ async def send_message(session_id: str, request: SendMessageRequest):
         ])
         state.messages = list(state.messages) + [AIMessage(content=response.content, name="facilitator")]
         sessions[session_id] = state
+        write_transcript(session_id, state)
         return SendMessageResponse(
             messages=state_to_messages(state),
             phase=state.phase,
@@ -346,6 +532,7 @@ async def send_message(session_id: str, request: SendMessageRequest):
                 new_message = event["message"]
         state.messages = list(state.messages) + [new_message]
         sessions[session_id] = state
+        write_transcript(session_id, state)
         return SendMessageResponse(
             messages=state_to_messages(state),
             phase=state.phase,
@@ -482,6 +669,47 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             setattr(state, field_name, value)
         is_relational_safety_firing = relational_safety_should_fire(state, rs_classification, rs_updates)
 
+    higher_intercept = is_frame_breaker or is_relational_safety_firing
+
+    # Sensed closing sequence (CiC_Sensed_Closing_Sequence_Spec_V0_1.md). Runs
+    # after the two existing intercepts (which always preempt it - a crisis during
+    # a wind-down is a crisis, not a closing) and gates the bridge/round below.
+    #   (a) a sequence already in progress -> route the participant's reply; a
+    #       genuine new question resets to none and falls through (escape hatch).
+    #   (b) idle -> sense wind-down (further below).
+    # closing_turns, once set, is the list of Facilitator-only turns to stream.
+    closing_turns = None
+    if not higher_intercept and state.closing_stage != "none":
+        from app.graph.closing_sequence import route_closing_stage
+        decision = route_closing_stage(state, request.message)
+        if decision["action"] == "resume":
+            state.closing_stage = "none"  # a new question: the sequence evaporates
+        else:
+            state.closing_stage = decision["to"]
+            closing_turns = decision["turns"]
+
+    # Anachronism-bridge check: a modern theological term the seated world never
+    # held. Third classify-then-route intercept - whitelist-gated by the per-world
+    # glossary overlay, failing toward None (see classify_modern_term). Runs only
+    # when nothing above is already handling this turn.
+    modern_term_match = None
+    if not higher_intercept and closing_turns is None and state.closing_stage == "none":
+        from app.graph.modern_term_bridge import classify_modern_term
+        seated_world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+        modern_term_match = classify_modern_term(request.message, seated_world_ids)
+    is_modern_term_bridge = modern_term_match is not None
+
+    # Wind-down sensing: only when idle (no sequence in progress) and nothing else
+    # is firing. Conservative-high, failing toward "not winding down" - a missed
+    # wind-down costs nothing (explicit close is untouched); a false positive only
+    # asks a gentle question the response is worded to absorb.
+    if (not higher_intercept and closing_turns is None and not is_modern_term_bridge
+            and state.closing_stage == "none"):
+        from app.graph.closing_sequence import classify_wind_down
+        if classify_wind_down(state, request.message):
+            state.closing_stage = "anything_else_asked"
+            closing_turns = [("anything_else", {})]
+
     world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
     is_multi_world = len(world_ids) > 1
 
@@ -547,6 +775,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
             state.messages = list(state.messages) + [new_message]
             sessions[session_id] = state
+            write_transcript(session_id, state)
 
             yield sse({
                 "type": "speaker_end",
@@ -589,12 +818,92 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
             state.messages = list(state.messages) + [new_message]
             sessions[session_id] = state
+            write_transcript(session_id, state)
 
             yield sse({
                 "type": "speaker_end",
                 "speaker": "facilitator",
                 "citations": None,
             })
+            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+            return
+
+        if closing_turns is not None:
+            # Sensed closing sequence: one or more Facilitator-only turns
+            # (anything-else / resources-offer / resources-show / sensed-close),
+            # per the routed plan. The Representative is never invoked. Multiple
+            # turns (e.g. show-resources then the close) stream back to back in a
+            # single response so the participant needn't send another message.
+            from app.graph.closing_sequence import stream_closing_turn
+            new_messages = []
+            try:
+                for kind, _ctx in closing_turns:
+                    yield sse({"type": "speaker_start", "speaker": "facilitator"})
+                    new_msg = None
+                    for event in stream_closing_turn(state, kind):
+                        if event["type"] == "token":
+                            yield sse({
+                                "type": "token",
+                                "speaker": event["speaker"],
+                                "text": event["text"],
+                            })
+                        elif event["type"] == "complete":
+                            new_msg = event["message"]
+                    yield sse({
+                        "type": "speaker_end",
+                        "speaker": "facilitator",
+                        "citations": None,
+                    })
+                    if new_msg is not None:
+                        new_messages.append(new_msg)
+            except Exception as exc:
+                yield sse({"type": "error", "message": str(exc)})
+                return
+
+            state.messages = list(state.messages) + new_messages
+            sessions[session_id] = state
+            write_transcript(session_id, state)
+
+            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+            return
+
+        if is_modern_term_bridge:
+            # Facilitator beats 1-2 (name-as-later + neutral modern sense), then
+            # - for an `anachronistic` cell - the Representative answers a WORLD-
+            # NATIVE reframe, never the modern term (spec sections 3.2/3.4).
+            # Unlike the two intercepts above, this is Facilitator-THEN-
+            # Representative and so can append two messages. The reframe handed to
+            # the Representative is never persisted (spec section 5): only the
+            # `complete` messages yielded here are appended to the transcript, so
+            # it reads [participant's original message, Facilitator, Rep].
+            from app.graph.modern_term_bridge import stream_modern_term_bridge
+            new_messages = []
+            try:
+                for event in stream_modern_term_bridge(state, modern_term_match):
+                    if event["type"] == "speaker_start":
+                        yield sse({"type": "speaker_start", "speaker": event["speaker"]})
+                    elif event["type"] == "token":
+                        yield sse({
+                            "type": "token",
+                            "speaker": event["speaker"],
+                            "text": event["text"],
+                        })
+                    elif event["type"] == "speaker_end":
+                        yield sse({
+                            "type": "speaker_end",
+                            "speaker": event["speaker"],
+                            "citations": event.get("citations"),
+                        })
+                    elif event["type"] == "complete":
+                        new_messages.append(event["message"])
+            except Exception as exc:
+                yield sse({"type": "error", "message": str(exc)})
+                return
+
+            state.messages = list(state.messages) + new_messages
+            sessions[session_id] = state
+            write_transcript(session_id, state)
+
             yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
             return
 
