@@ -1194,3 +1194,119 @@ body {
   font-weight: 600;
 }
 
+/* ============================================
+   THE "ARRIVING" LOCKUP (§5) - world-selection
+   screen only, never the conversation screen.
+   Animation lifted verbatim (timing/easing/
+   keyframes) from Brand-Assets/
+   CiC_Logo_Arriving_Motion_Reference.html.
+   ============================================ */
+.arriving-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: var(--spacing-lg);
+  gap: 6px;
+}
+
+.arriving-lockup__wordmark {
+  font-family: var(--font-family);
+  font-size: 1.75rem;
+  font-weight: normal;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.arriving-lockup__wordmark em {
+  font-style: italic;
+}
+
+.arriving-lockup__sentence {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: 0;
+  max-width: 420px;
+}
+
+/* Resting/completed state is the default appearance - this is what a
+   reduced-motion visitor sees immediately, and what ANY visitor sees once
+   the one-time build (.play) has finished or on a later mount this session
+   (never replays unbidden). */
+.arriving-ring {
+  fill: none;
+  stroke: var(--color-text);
+  stroke-width: 11;
+  stroke-linecap: round;
+  stroke-dasharray: 260 100;
+  stroke-dashoffset: -50;
+  opacity: 1;
+}
+
+.arriving-seat {
+  fill: var(--color-primary);
+  transform-origin: 88.5px 50px;
+  transform: translate(0, 0);
+}
+
+.arriving.play .arriving-ring {
+  animation: cic-buildC 1300ms cubic-bezier(0.4, 0, 0.2, 1) 800ms both;
+}
+
+.arriving.play .arriving-seat {
+  animation:
+    cic-sitdown 600ms cubic-bezier(0.3, 0, 0.35, 1.4) 2400ms both,
+    cic-breath 5.5s ease-in-out 3750ms infinite;
+}
+
+@keyframes cic-buildC {
+  0% {
+    stroke-dasharray: 0 360;
+    stroke-dashoffset: -50;
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 260 100;
+    stroke-dashoffset: -50;
+    opacity: 1;
+  }
+}
+
+@keyframes cic-sitdown {
+  0% {
+    transform: translate(0, -6px);
+  }
+  62% {
+    transform: translate(0, 1px) scale(1.1, 0.86);
+  }
+  100% {
+    transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+@keyframes cic-breath {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.76;
+  }
+}
+
+/* The opening never reacts to the cursor, never spins/bounces/pulses at
+   alert speed - the only motion is the one-time build above. A
+   reduced-motion visitor gets the completed still mark as a full
+   experience, never the animated build. */
+@media (prefers-reduced-motion: reduce) {
+  .arriving.play .arriving-ring,
+  .arriving.play .arriving-seat {
+    animation: none;
+  }
+}
+

@@ -13,6 +13,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useConversation } from '../hooks/useConversation';
 import { useLexicon } from '../hooks/useLexicon';
 import { WorldSelector } from './WorldSelector';
+import { ArrivingLockup } from './ArrivingLockup';
 import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
@@ -204,10 +205,7 @@ export function TheTable() {
   if (showWorldSelector) {
     return (
       <div className="table-container table-container--selector">
-        <header className="table-header">
-          <h1>The Table</h1>
-          <p>A space for engaging conversation with voices from Christian history</p>
-        </header>
+        <ArrivingLockup />
 
         <WorldSelector onBegin={handleBegin} />
       </div>
