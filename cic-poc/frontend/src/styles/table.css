@@ -355,12 +355,28 @@ body {
 }
 
 .citation-tooltip__footer {
+  display: block;
+  width: 100%;
   font-family: var(--font-family-ui);
   font-size: 0.7rem;
   color: var(--color-text-light);
-  margin-top: var(--spacing-sm);
-  padding-top: var(--spacing-sm);
+  margin: var(--spacing-sm) 0 0 0;
+  padding: var(--spacing-sm) 0 0 0;
+  border: none;
   border-top: 1px solid var(--color-border);
+  background: none;
+  appearance: none;
+  text-align: left;
+  /* The tooltip box above is pointer-events: none so a desktop hover
+     doesn't block clicks from reaching the underlying marker (whose own
+     onClick opens Level-3 directly on desktop). This re-enables pointer
+     events on just the footer, now a real button - the "Full entry ->"
+     action a phone tap uses to open Level-3 (Build Handoff Increment 1
+     V1.0 §3's two-step tap grammar); harmless/inert on desktop, where a
+     click here reaches the same onDetailClick the marker's own click
+     already does. */
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 .citation-modal__entry {
@@ -480,12 +496,23 @@ body {
 }
 
 .lexicon-tooltip__footer {
+  display: block;
+  width: 100%;
   font-family: var(--font-family-ui);
   font-size: 0.75rem;
   color: var(--color-text-light);
-  margin-top: var(--spacing-sm);
-  padding-top: var(--spacing-sm);
+  margin: var(--spacing-sm) 0 0 0;
+  padding: var(--spacing-sm) 0 0 0;
+  border: none;
   border-top: 1px solid var(--color-border);
+  background: none;
+  appearance: none;
+  text-align: left;
+  /* See the identical comment on .citation-tooltip__footer - the parent
+     tooltip is pointer-events: none for desktop click-through; this
+     re-enables it on just the footer button. */
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 /* ============================================
