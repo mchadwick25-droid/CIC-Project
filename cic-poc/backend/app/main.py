@@ -686,6 +686,27 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     )
     from app.prompts.facilitator_prompts import get_representative_message_name
 
+    # Epistemology-bridge check runs FIRST, before the frame-breaker
+    # classifier: a question about the line between documented record and
+    # reasoned inference is often genuinely ambiguous between the seated
+    # world's own historiography and this system's own construction (e.g.
+    # "Where does documentation end and inference begin for you?"). Live
+    # testing 2026-07-20 found the frame-breaker classifier reliably (4/4)
+    # treats this exact question as a frame-breaker and answers
+    # Facilitator-only, with no hand-back to the Representative for the
+    # tradition-specific half - not a routing failure, but incomplete
+    # against Mark's explicit direction that this class of question
+    # deserves the same two-beat treatment as the anachronism bridge
+    # (Facilitator explains the system-level honesty, then hands back a
+    # reframed, world-specific question). Checking this first, and skipping
+    # classify_frame_breaker when it fires, gives the richer two-beat answer
+    # priority over the plain Facilitator-only one.
+    # classify_epistemology_bridge's own prompt already excludes clear
+    # frame-breakers ("are you an AI"), so those still reach and are caught
+    # by classify_frame_breaker below exactly as before.
+    from app.graph.epistemology_bridge import classify_epistemology_bridge
+    is_epistemology_bridge = classify_epistemology_bridge(request.message)
+
     # Frame-breaker check: a direct/adversarial question about a
     # Representative's own construction, nature, or grammar is intercepted
     # here, before any Representative generation is ever invoked, per
@@ -693,16 +714,17 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # (frame-breaker trigger) - the recommended decoupled classify-then-route
     # design. See classify_frame_breaker's docstring for why this is a
     # separate call rather than something asked of representative generation
-    # itself.
-    is_frame_breaker = classify_frame_breaker(request.message)
+    # itself. Skipped when the epistemology bridge above already claimed
+    # this message - it gets the richer two-beat answer instead.
+    is_frame_breaker = False if is_epistemology_bridge else classify_frame_breaker(request.message)
 
     # Relational-safety check: Acute Distress / Harmful Dynamic, per
     # Governance V3.6 Section 12 as operationalized in CiC_L3D_
     # AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md. Runs only
-    # when the current message isn't already a frame-breaker - the two
-    # categories are effectively mutually exclusive, and the frame-breaker
-    # classifier already has a tested track record, so it takes priority on
-    # any overlap rather than risking a double-classification race. State
+    # when the current message isn't already a frame-breaker or an
+    # epistemology-bridge case - all three are effectively mutually
+    # exclusive, and both classifiers ahead of this one take priority on any
+    # overlap rather than risking a double-classification race. State
     # updates (accumulator, track flags) are applied to `state` immediately
     # so they persist in `sessions[session_id]` even if this turn doesn't
     # itself fire - the accumulator has to see every turn to work at all.
@@ -712,14 +734,14 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     pre_track_a_active = state.track_a_active
     pre_track_a_severity = state.track_a_severity
     pre_track_b_active = state.track_b_active
-    if not is_frame_breaker:
+    if not is_frame_breaker and not is_epistemology_bridge:
         rs_classification = classify_relational_safety(state, request.message)
         rs_updates = update_relational_safety_state(state, rs_classification)
         for field_name, value in rs_updates.items():
             setattr(state, field_name, value)
         is_relational_safety_firing = relational_safety_should_fire(state, rs_classification, rs_updates)
 
-    higher_intercept = is_frame_breaker or is_relational_safety_firing
+    higher_intercept = is_frame_breaker or is_relational_safety_firing or is_epistemology_bridge
 
     # Sensed closing sequence (CiC_Sensed_Closing_Sequence_Spec_V0_1.md). Runs
     # after the two existing intercepts (which always preempt it - a crisis during
@@ -754,7 +776,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # wind-down costs nothing (explicit close is untouched); a false positive only
     # asks a gentle question the response is worded to absorb.
     if (not higher_intercept and closing_turns is None and not is_modern_term_bridge
-            and state.closing_stage == "none"):
+            and not is_epistemology_bridge and state.closing_stage == "none"):
         from app.graph.closing_sequence import classify_wind_down
         if classify_wind_down(state, request.message):
             state.closing_stage = "anything_else_asked"
@@ -930,6 +952,43 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             new_messages = []
             try:
                 for event in stream_modern_term_bridge(state, modern_term_match):
+                    if event["type"] == "speaker_start":
+                        yield sse({"type": "speaker_start", "speaker": event["speaker"]})
+                    elif event["type"] == "token":
+                        yield sse({
+                            "type": "token",
+                            "speaker": event["speaker"],
+                            "text": event["text"],
+                        })
+                    elif event["type"] == "speaker_end":
+                        yield sse({
+                            "type": "speaker_end",
+                            "speaker": event["speaker"],
+                            "citations": event.get("citations"),
+                        })
+                    elif event["type"] == "complete":
+                        new_messages.append(event["message"])
+            except Exception as exc:
+                yield sse({"type": "error", "message": str(exc)})
+                return
+
+            state.messages = list(state.messages) + new_messages
+            sessions[session_id] = state
+            write_transcript(session_id, state)
+
+            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+            return
+
+        if is_epistemology_bridge:
+            # Facilitator beat 1 (the honest, general, system-level
+            # acknowledgment), then beat 2 (the Representative, answering
+            # the same question reframed toward their own world's specific
+            # epistemology). Same two-message shape as the modern-term
+            # bridge above.
+            from app.graph.epistemology_bridge import stream_epistemology_bridge
+            new_messages = []
+            try:
+                for event in stream_epistemology_bridge(state):
                     if event["type"] == "speaker_start":
                         yield sse({"type": "speaker_start", "speaker": event["speaker"]})
                     elif event["type"] == "token":

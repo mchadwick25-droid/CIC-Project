@@ -121,7 +121,7 @@ needs testing · 7 Still needs design work · 5 No record.** By surface: 67 App 
 | Consolidated status line (session-cap / connection-loss) | Still needs testing | App | Code exists but needs real hosting to populate/exercise |
 | Current RefreshWarningBanner (production today) | Implemented | App | Live today; retires into the table bar under Increment 1 |
 | Anachronism bridge | Implemented | App | Verified live today, unprompted, in a real conversation — caught a modern-doctrine reading correctly |
-| Representative frame-break robustness fix | Still needs testing | App | Fix committed after today's finding of a 4/4-reproducible break; not yet re-verified live, not yet pushed |
+| Representative frame-break robustness fix | Implemented | App | Fixed and verified live 2026-07-20 — new epistemology bridge (`epistemology_bridge.py`), mirroring the modern-term bridge: Facilitator answers the system-level honesty briefly, then hands back a reframed, world-specific question to the Representative, who answers fully in character with real citations. Not yet committed to git |
 | Representative voice quality (in-character depth, honest citation) | Implemented | App | Verified live today: 19/20 real academic questions answered excellently across 4 worlds |
 | Relational-safety / drift governance (15 signal types) | Still needs testing | System | Substantially wired, real detector functions, invisible to the participant; "not fully validated live" |
 | Frame-breaker classifier (fails open) | Implemented | System | Real, separate classifier call, invisible to the participant, confirmed in code |

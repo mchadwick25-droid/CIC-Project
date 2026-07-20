@@ -1,11 +1,60 @@
 # Handoff to System Hub — reproducible frame-break on one curriculum question
 
-**Status:** a confirmed, 100%-reproducible finding from live simulated testing (real API
-calls, not mocked), not a UX/design issue — Mark's own call on scope, and correct: this
-is a prompt-engineering / process-design problem in `cic-poc/backend`, nothing about the
-screens, copy, or journey design. Routed here per System Hub's own standing role
-(monitor, verify, dispatch) — System Hub's call whether to fix directly or spin up a
-dedicated thread for it.
+**Status: FIXED AND VERIFIED LIVE, 2026-07-20.** Root cause turned out different from
+the original hypothesis, found by adding routing-decision debug logging and testing
+directly against the backend (bypassing the browser entirely — cheaper and more precise
+than driving the UI). The existing `classify_frame_breaker` classifier was reliably
+(4/4 fresh runs) correctly identifying this exact question as a frame-breaker and routing
+it to `stream_frame_breaker_response` — **not a routing miss at all.** The real gap:
+that response is Facilitator-only by design and never hands back to the seated
+Representative for the tradition-specific half of the question, which is exactly what
+Mark asked for directly: *"these are questions the facilitator should step in and
+answer, we may have to give the facilitator instructions like we did with modern
+theological terminology."*
+
+**The fix — a new epistemology bridge** (`cic-poc/backend/app/graph/epistemology_bridge.py`),
+mirroring the anachronism/modern-term bridge's exact two-beat shape: a new classifier
+(`classify_epistemology_bridge`) runs *before* `classify_frame_breaker` and, for this
+genuinely double-valenced category of question, the Facilitator answers the system-level
+honesty briefly (naming the real seam between documented record and reasoned inference,
+in general terms, never world-specific), then explicitly hands back a reframed,
+world-specific version of the same question to the seated Representative. Pure frame-breakers
+("are you an AI") are unaffected — the new classifier's own prompt explicitly excludes
+them, so they still reach and are caught by `classify_frame_breaker` exactly as before.
+
+**Verified live** (direct API test, fresh session, Chloe/House-Churches, real model calls):
+beat 1 (Facilitator) — *"Fair to ask straight out... everything at this table sits
+somewhere on a line between what's actually attested... and what's reasoned forward...
+I'll let Chloe show you."* Beat 2 (Chloe) — a fully in-character, richly-cited answer
+about her own world's specific epistemology (Justin's *First Apology* vs. the Didache's
+differing eucharistic prayer, the bishop-vs-elders governance question), first person
+throughout, ending "I hold the silence rather than filling it," with a real, well-formed
+citation attached. No missing nameplate, no missing citations, no self-narration — the
+exact failure mode this doc named is gone.
+
+**Superseded status note (2026-07-20, earlier same day):** A commit (`77fc362`, "Fix Representative
+frame-break: robust to arbitrary question phrasing, not just curated wording") landed
+after this handoff was written and looked like the fix on paper. Re-ran the exact repro
+below live against the current code (real API, MOCK_LLM off, fresh session, Chloe/
+House-Churches) and the bug reproduces with every symptom this doc originally named:
+zero citation marker on that turn (every other turn in the same conversation carried
+3-4), no speaker nameplate rendered for that turn at all (contrast the two prior turns,
+both clearly headed "Chloe · The House-Churches"), third-person description of the
+platform's own reconstruction process ("The inference is the work of asking: given
+everything documented about how this person or tradition actually reasoned, what would
+they plausibly say here" / "I don't run the mechanism underneath any of this in fine
+detail"), and an out-of-character Facilitator-style check-in closing the turn ("Want to
+bring that question back in, and put it to one of them directly?"). Whatever `77fc362`
+fixed, it was not this exact failure mode on this exact question. **Do not treat this as
+closed based on that commit alone — re-verify against the reproduction steps below
+before calling it fixed again.**
+
+**Original status (2026-07-19):** a confirmed, 100%-reproducible finding from live
+simulated testing (real API calls, not mocked), not a UX/design issue — Mark's own call
+on scope, and correct: this is a prompt-engineering / process-design problem in
+`cic-poc/backend`, nothing about the screens, copy, or journey design. Routed here per
+System Hub's own standing role (monitor, verify, dispatch) — System Hub's call whether
+to fix directly or spin up a dedicated thread for it.
 
 ---
 
