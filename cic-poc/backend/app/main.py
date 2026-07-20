@@ -477,6 +477,25 @@ async def send_message(session_id: str, request: SendMessageRequest):
             turn_count=state.turn_count,
         )
 
+    # Soft, identity-free conversation-length cap (see app/message_cap.py) -
+    # checked before anything else in the main flow, since this pilot runs
+    # with no sign-in and session_cap.py's own per-identity protection is a
+    # permanent no-op without one. A capped session still gets a graceful
+    # message, not a hard error.
+    from app.message_cap import check_message_cap
+    cap_allowed, cap_reason = check_message_cap(state.turn_count)
+    if not cap_allowed:
+        state.messages = list(state.messages) + [
+            AIMessage(content=cap_reason, name="facilitator")
+        ]
+        sessions[session_id] = state
+        write_transcript(session_id, state)
+        return SendMessageResponse(
+            messages=state_to_messages(state),
+            phase=state.phase,
+            turn_count=state.turn_count,
+        )
+
     # Add the participant's message
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
 
@@ -621,6 +640,31 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         )
 
     state = sessions[session_id]
+
+    # Soft, identity-free conversation-length cap (see app/message_cap.py) -
+    # checked before anything else, same rationale and placement as the
+    # non-streaming /message endpoint above. Short-circuits with a single
+    # facilitator message and skips the classify-then-route chain below
+    # entirely rather than threading a cap check through it.
+    from app.message_cap import check_message_cap
+    cap_allowed, cap_reason = check_message_cap(state.turn_count)
+    if not cap_allowed:
+        def sse(event: dict) -> str:
+            return f"data: {json.dumps(event)}\n\n"
+
+        def capped_stream():
+            yield sse({"type": "speaker_start", "speaker": "facilitator"})
+            yield sse({"type": "token", "speaker": "facilitator", "text": cap_reason})
+            state.messages = list(state.messages) + [
+                AIMessage(content=cap_reason, name="facilitator")
+            ]
+            sessions[session_id] = state
+            write_transcript(session_id, state)
+            yield sse({"type": "speaker_end", "speaker": "facilitator", "citations": None})
+            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+
+        return StreamingResponse(capped_stream(), media_type="text/event-stream")
+
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
 
     from app.graph.nodes import (
