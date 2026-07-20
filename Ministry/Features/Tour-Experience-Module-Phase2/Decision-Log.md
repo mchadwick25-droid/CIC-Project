@@ -323,3 +323,119 @@ records. If the demo is shown outside the inner circle, the "concept simulation"
 footer stays visible in the recording — same honesty rule as the product itself.
 
 ---
+
+## 2026-07-20 — TR-4 and TR-5 built: the L4 Tour Manifest Template + review-cycle
+## definition, and the Tour Eligibility Gate checklist
+
+**What this is:** the strategy document's own first future handoff (§6, item 1 — "the
+L4 Tour Manifest Template... prerequisite to any tour existing"), plus its natural
+companion, both built as real, fillable planning artifacts: `CiC_L4_Tour_Manifest_
+Template_V1_0.md` and `CiC_Tour_Eligibility_Gate_V1_0.md`, this same folder. Dispatched
+against the Task Board's own DO NOW entries (TR-4, TR-5), which name these two items as
+unblocked, no-code, no-live-system-risk work — text and process design only.
+
+### Decided: both artifacts live here, not in `Hosted-Tour/`
+
+Checked rather than assumed, per the dispatching instructions. `Hosted-Tour/`'s own
+README names itself as "a self-contained immersive demo... built and verified for one
+world" — a Phase One reference implementation, not a generalization thread. This
+document's own founding entry (2026-07-16) already claims the generalization work as
+this thread's own: "the future handoff list (§6 of the strategy doc) starts with the
+L4 Tour Manifest Template." Neither `Integration-Notes.md` file states ownership in so
+many words, but the strategy document's own §6 and this log's own prior "Next action"
+lines are as explicit a claim of ownership as this project's documentation habit ever
+makes without a dedicated line saying "X owns Y" — so followed that rather than the
+weaker signal of silence in the other folder's Integration-Notes.md.
+
+### Decided: "L4" names an artifact tier, not a folder claim
+
+The dispatching brief guessed "L4" might mean an operational/deployed-experience tier.
+Checked against the actual repo rather than trusting the guess: `L4-Templates/` at the
+repo root is real, live, governed territory — a folder of fill-in-the-blank templates
+for the Doc_01–Doc_10 world-build pipeline (Story Repository Chunk, World Capsule
+Core, Voice Configuration, and others), each carrying the exact
+builder-note/bracket/Final-Assembly-Instruction structure this new template also uses.
+**The heart of it:** naming this "L4" is not decorative — it is a real claim that this
+artifact is the *same species* of thing as those templates (a reusable construction
+document subject to independent review), and that claim only holds if the new
+document's actual shape matches theirs, which is why both new files were built to
+mirror `Story_Repository_Chunk_Template.md`'s and `World_Capsule_Core_Template.md`'s
+own conventions directly rather than inventing a new template shape. Filed under this
+feature folder, not inside `L4-Templates/` itself, for two honest reasons named in the
+template's own text: tours are not yet an approved part of the core pipeline (TR-14 is
+still BLOCKED), and `L4-Templates/` is live, governed territory in its own right
+(`CiC-L1L3-Foundation` branch work reconciled into it this same day, commit `2b86b8b`)
+— not a place to add an unreviewed file uninvited. **Correction, System Hub review,
+2026-07-20:** the original drafting pass claimed another thread "currently has active
+uncommitted work" in `L4-Templates/` as part of this reasoning — checked directly via
+`git status`/`git log` and that specific claim doesn't hold (the folder is clean,
+nothing uncommitted there right now). The filing decision itself still stands on its
+other, independently verified ground; only that one supporting detail was wrong, and
+is corrected here rather than left standing uncorrected in the artifact's own text.
+
+### Decided: the Tour Manifest's review cycle is the same rigor as every other
+### construction document, narrower in scope, not lighter in standard
+
+The strategy document had already answered the rigor question at its own founding
+decision (§1.2) — a tour is a higher-stakes claim than a conversational answer, so it
+needs *more* evidentiary weight, not less. What TR-4 actually still owed was the
+mechanics: who reviews, against what, how many rounds. Landed on: independent
+reviewer, no drafting involvement (this project's standing pattern, most recently run
+in full on the Imperial-Juridical-Christianity build); a checklist that is narrower
+than a Doc_09 review because a manifest may not cite anything outside its one already-
+approved anchor chunk — so the review is a citation-fidelity and register-discipline
+check, not a fresh evidentiary argument; and **minimum two rounds, a mandatory third
+if Round 1 returns any HIGH finding** — not a flat "2–3," but the actual conditional
+shape this project's own real review history shows (`Doc09_Round1_Review.md` found one
+HIGH finding and the set needed a further round before it could be marked Cleared).
+**The heart of it:** the temptation with a "smaller" artifact like a manifest is to
+assume a smaller review will do. The reasoning that resists that here is Conviction
+5's own logic turned toward images and sound specifically — a picture or a clip
+"cannot hedge" the way a sentence can, so an error in a Tour Manifest's asset caption
+or narration beat is *harder to walk back* once shown or played, not easier, even
+though the manifest itself draws on less material than a whole Doc_09. Narrower input,
+same consequence if the review misses something — so the same standard held, not a
+lighter one.
+
+### Decided: the Tour Eligibility Gate is the §3 method, made repeatable — not a
+### fresh procedure
+
+Every one of the Gate's eight steps was extracted from, and cited to, a real judgment
+the strategy thread already made for one of its five worlds — Gate 1(b)'s
+communal-vs.-biographical trap from the Desert world's three Tier-1 founding scenes;
+Gate 2's narrated-vs.-thin-mention line from the Desert synaxis's own capsule wording;
+Gate 5's four-part decline-stop check built directly from Chloe's own Stop 7 (the
+room/the words/the people/the sound, each with its real citation); Gate 6's
+visual/audio split from the PAHC/Desert imagery contrast and the Syriac sound findings.
+Nothing in the Gate was invented fresh — the discipline this whole module runs on
+("if the evidence does not support a story, the story does not exist for this world")
+applies to the Gate's own construction as much as to any tour it will ever clear.
+**One honest limit named in the Gate's own closing section, not smoothed over:** it has
+only ever been reverse-engineered from a single pass across five worlds done by one
+thread in one day. It has not yet been run fresh, end-to-end, by a different builder
+against a new world — so whether its eight steps actually hold up under real second
+use is still open, and the document says so rather than claiming a validation it
+hasn't earned.
+
+### Flagged, not resolved
+
+1. **Neither new document has itself been through independent adversarial review.**
+   Both are DRAFT V1.0, exactly as flagged in their own status lines — this thread
+   built the artifacts TR-4/TR-5 ask for; running that review is separate work, not
+   done here since it wasn't in scope.
+2. **Who specifically staffs a Tour Manifest review** (a dedicated reviewer role vs.
+   the existing rotating independent-agent pattern) is Mark's own staffing call,
+   named as open in the template's own closing section rather than guessed at.
+3. Confirmed via direct directory listing (2026-07-20) that `cic-poc/backend/app/`
+   has `world_manifest.py` but no `tour_manifest.py` or any tour-related schema —
+   TR-14 is genuinely future work, not something this pass could ground a manifest's
+   field structure against beyond the strategy document's own §4.4 description of
+   what that future file would need to look like.
+
+**Next action:** these two artifacts unblock TR-7 (templated tour renderer) and TR-9
+(scene-narration validation probe category) per the Task Board's own dependency chain,
+and are themselves the prerequisite for TR-10 (formalizing the Chloe demo into a real,
+reviewed Tour Manifest — the first real test of whether this template actually holds
+up when filled in for the strongest, best-evidenced case in the portfolio).
+
+---

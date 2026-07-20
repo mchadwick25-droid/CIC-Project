@@ -345,12 +345,39 @@ compliance script) handed to a new disciplined successor thread —
       is voice-only." (2) Confirm the standing commitment that evidentiary absence is
       never a locked feature, if tiering is ever revisited. Five-minute decisions;
       (1) directly gates TR-10.
-- [ ] **TR-4 — L4 Tour Manifest Template + review-cycle definition.** No code, no
-      live-system risk. The durable artifact type every future tour is authored
-      against. Unblocks TR-7, TR-9, TR-10.
-- [ ] **TR-5 — Tour Eligibility Gate as a repeatable checklist.** Generalizes the
-      per-world evidentiary-analysis method already run once by hand into a
-      one-per-world procedure.
+- [x] **DONE 2026-07-20 — TR-4: L4 Tour Manifest Template + review-cycle definition
+      built.** `Ministry/Features/Tour-Experience-Module-Phase2/CiC_L4_Tour_Manifest_
+      Template_V1_0.md` — front-matter + repeating Beat block + required Decline Stop
+      + Refusal List + Entry/Exit + Asset Register + Guardrail Checklist, every field
+      extracted from the actual built Chloe tour and generalized only where the three
+      planned future tours demonstrably require it (Tier 2/3 anchors explicitly
+      flagged as unprecedented, not force-fit). Review-cycle definition: same rigor as
+      Doc-level construction review (independent reviewer, no drafting involvement),
+      narrower scope (citation-fidelity against one anchor chunk, not a fresh
+      evidentiary argument) but not a lighter standard — minimum two rounds, mandatory
+      third on any HIGH finding, matching this project's own observed review history
+      rather than a flat guess. Spot-checked the citations directly against
+      `CiC_Tour_Experience_Module_Strategy_V0_3.md` — real, not fabricated. One
+      inaccuracy caught and fixed in review: a claim that `L4-Templates/` "currently
+      has active uncommitted work" from another thread didn't hold up under
+      `git status`/`git log` — corrected in the artifact's own text, filing decision
+      itself unaffected (stands on its other, verified ground). DRAFT V1.0, not yet
+      through independent adversarial review itself — flagged as such, not silently
+      treated as final. Unblocks TR-7, TR-9, TR-10.
+- [x] **DONE 2026-07-20 — TR-5: Tour Eligibility Gate checklist built.**
+      `Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Eligibility_Gate_V1_0.md`
+      — eight sequential gates (Doc_09 exists? → communal scene? → narrated vs. thin
+      mention? → evidentiary Tier/Class → hardest constraint → decline-stop point →
+      visual/audio licensing → verdict), every gate reverse-engineered from and cited
+      to a specific real judgment the strategy doc's five-world analysis already made
+      (e.g. Gate 1(b)'s communal-vs.-biographical trap, cited to the Desert world's
+      three ruled-out Tier-1 founding scenes). Honestly flags its own limit: only
+      run once, by one thread, in one day — not yet proven by independent second use
+      against a new world. Both TR-4 and TR-5 filed together in
+      `Tour-Experience-Module-Phase2/` (the strategy doc's own §6 names this thread as
+      owning the generalization handoff); neither touches `cic-poc`, the website, or
+      any UX-design-active area. Full reasoning: that feature's own Decision-Log.md,
+      2026-07-20.
 - [ ] **TR-6 — Asset-sourcing sub-pipeline.** Generalizes the Chloe demo's verified
       public-domain image sourcing and source-text audio scripts into a reusable tool.
       Cross-ref: Marketplace thread's Adopt #6 hands off here.

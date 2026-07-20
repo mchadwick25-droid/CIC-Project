@@ -16,4 +16,12 @@ filename's `V0_1_DRAFT` — see its own Document Log). Nothing here touches `cic
 code, the current prototype, or Phase One testing. Every build item is named as a
 future handoff, not started.
 
+**Added 2026-07-20 (TR-4, TR-5):** the strategy doc's own first two future handoffs
+are now built as real, fillable planning artifacts — `CiC_L4_Tour_Manifest_Template_
+V1_0.md` (the durable manifest artifact type every future tour is authored against,
+plus its review-cycle definition) and `CiC_Tour_Eligibility_Gate_V1_0.md` (the
+repeatable one-per-world procedure that generalizes the §3 evidentiary analysis this
+document already ran once by hand). Both are text/planning only — no code, no
+live-system risk. See Decision-Log.md for the reasoning.
+
 **Where deliverables land once integrated:** not yet applicable — this is pre-build.
