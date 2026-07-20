@@ -20,7 +20,6 @@ import { CitationModal } from './CitationModal';
 import { OnboardingScreen, hasSeenOnboarding } from './OnboardingScreen';
 import { SignInScreen } from './SignInScreen';
 import { supabase, supabaseEnabled } from '../lib/supabase';
-import { RefreshWarningBanner } from './RefreshWarningBanner';
 import { getTermMatches } from './LexiconHighlight';
 import type { Citation, LexiconTerm, World } from '../types/conversation';
 
@@ -286,37 +285,49 @@ export function TheTable() {
     );
   }
 
-  // Build header content for active conversation
-  const renderWorldIndicators = () => {
-    if (selectedWorlds.length === 1) {
-      const world = selectedWorlds[0];
-      return (
-        <div className="table-header__world">
-          <span
-            className="table-header__world-indicator"
-            style={{ backgroundColor: world.color }}
-          />
-          <span className="table-header__world-name">
-            {world.name} · {world.period}
-          </span>
-        </div>
-      );
-    }
+  // The table bar (§2): one quiet chrome line, replacing the old
+  // table-header--conversation + the standalone RefreshWarningBanner it sat
+  // above. Left: seats (unchanged single-vs-multi rendering, just restyled).
+  // Right: the consolidated status line - priority-ordered, never stacked.
+  // `showStatus` is false in the closing/ended view, matching the old
+  // RefreshWarningBanner's own behavior (it never rendered there either).
+  const renderTableBar = (showStatus: boolean) => {
+    // No live "nearing the session length limit" signal exists yet (no
+    // per-conversation turn/token cap is surfaced by the backend today) -
+    // this priority slot is reserved but unreachable until that data
+    // exists. See Decision-Log.
+    const statusMessage = showStatus
+      ? 'This conversation lives in this tab — refreshing loses it'
+      : '';
 
-    // Multi-world header
     return (
-      <div className="table-header__worlds">
-        {selectedWorlds.map(world => (
-          <div key={world.id} className="table-header__world-badge">
-            <span
-              className="table-header__world-indicator"
-              style={{ backgroundColor: world.color }}
-            />
-            <span className="table-header__world-badge-name">
-              {world.representative.name}
+      <div className="table-bar">
+        <div className="table-bar__seats">
+          {selectedWorlds.length === 1 ? (
+            <span className="table-bar__seat">
+              <span
+                className="table-bar__seat-dot"
+                style={{ backgroundColor: selectedWorlds[0].color }}
+              />
+              <span className="table-bar__seat-name">
+                {selectedWorlds[0].name} · {selectedWorlds[0].period}
+              </span>
             </span>
-          </div>
-        ))}
+          ) : (
+            selectedWorlds.map(world => (
+              <span key={world.id} className="table-bar__seat">
+                <span
+                  className="table-bar__seat-dot"
+                  style={{ backgroundColor: world.color }}
+                />
+                <span className="table-bar__seat-name">
+                  {world.representative.name}
+                </span>
+              </span>
+            ))
+          )}
+        </div>
+        <div className="table-bar__status">{statusMessage}</div>
       </div>
     );
   };
@@ -325,9 +336,7 @@ export function TheTable() {
   if (phase === 'closing' && !isLoading) {
     return (
       <div className="table-container table-container--conversation">
-        <header className="table-header table-header--conversation">
-          {renderWorldIndicators()}
-        </header>
+        {renderTableBar(false)}
 
         <div className="messages-container">
           {messages.map((message, index) => (
@@ -366,11 +375,7 @@ export function TheTable() {
   // Active conversation
   return (
     <div className="table-container table-container--conversation">
-      <header className="table-header table-header--conversation">
-        {renderWorldIndicators()}
-      </header>
-
-      <RefreshWarningBanner />
+      {renderTableBar(true)}
 
       {error && (
         <div className="error-message">
