@@ -243,12 +243,18 @@ compliance script) handed to a new disciplined successor thread —
       off-limits for Claude to do on your behalf (standing constraint) — this is the
       actual next concrete step inside #101/401's "deploy-and-configure."
 
-- [ ] **NEW — Build Increment 1** (table bar consolidation, Level-3 modal→panel/sheet,
-      Single/Multiple toggle retirement, the full token/typeface swap into
-      `table.css`). **Design approved by Mark 2026-07-17** — Full UX Design V0.1's
-      RECOMMENDED visual identity (exact palette, Alegreya + Alegreya Sans, madder as
-      action accent, typographic wordmark) and its flagged conflicts are now DECIDED.
-      Ready to build against the spec directly; no further design decision blocks it.
+- [ ] **DISPATCHED 2026-07-20 — Build Increment 1** (table bar consolidation, Level-3
+      modal→panel/sheet, Single/Multiple toggle retirement, the full token/typeface
+      swap into `table.css`, plus the long-form-transcript restyle and two other
+      pieces found when the implementation-ready spec was recovered). Launch prompt:
+      `Ministry/Features/Increment-1-Build/Launch-Prompts/
+      CiC_Increment1_Build_Thread_Launch_2026-07-20.md`. The referenced build handoff
+      spec (`CiC_Build_Handoff_Increment1_V1_0.md`) existed only in the orphan
+      file-loss snapshot — recovered same day, verified still accurate against the
+      current frontend before dispatch. One open question handed to the build
+      thread to flag back rather than resolve itself: does this merge before or
+      after Prototype Testing 1, given Mark's later "P1 launches with the full
+      feature set" decision postdates the spec's original post-PT1 sequencing.
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
       (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door

@@ -2747,3 +2747,52 @@ speaker=chloe t=... len=1335 head='...' tail='...'`). Committed `deefe24`.
 This doesn't fix the underlying defect -- it makes a recurrence traceable
 instead of having to be reconstructed from a saved transcript after the
 fact, which is exactly what this investigation lacked the first time.
+
+---
+
+### 2026-07-20 -- Increment 1 dispatched; a real find along the way (the
+### referenced build spec never existed on disk)
+
+Mark asked what's next, given budget pacing (Max plan, avoiding Opus/Fable
+this week, Sonnet is fine). Increment 1 was the clear next candidate --
+unblocked, fully specified per the approved Full UX Design, and the actual
+gap between "designed" and "in the app" this session kept running into
+elsewhere.
+
+**Before writing a launch prompt, checked whether the actual spec existed
+rather than reconstructing it from summary bullets.** Full UX Design V1.0
+names an "implementation-ready" companion document,
+`CiC_Build_Handoff_Increment1_V1_0.md` -- it was not on disk anywhere in
+the repo. `git log` confirmed it was never committed to any real branch;
+`git show 09f1de5` confirmed it exists, complete (381 lines), in the same
+orphan safety-snapshot every other recovery this session has drawn from.
+Recovered it the same way, into its new home under the filing reorg
+(`Ministry/Features/Full-UX-Design/Design/`). Committed `6c2719c`.
+
+**Verified it before treating it as current, not just recovered and
+trusted:** confirmed all six frontend files it names by exact path
+(`table.css`, `TheTable.tsx`, `RefreshWarningBanner.tsx`,
+`LexiconModal.tsx`, `CitationModal.tsx`, `WorldSelector.tsx`) still exist.
+Distinguished its §3 (Level-3 modal -> side panel/bottom sheet, not yet
+built) from the separately-shipped citation-UI migration (bottom list ->
+inline hover/click markers, already live) -- easy to conflate, actually two
+different pieces of work.
+
+**One real open question, flagged rather than resolved by guessing:** the
+spec's own closing line says it's meant to execute "in the
+post-Prototype-Testing-1 window" -- written 2026-07-18, before Mark's later
+decision that "P1 launches with the full feature set, not the
+minimum-viable path." Whether Increment 1 should now merge before P1 (so
+testers see the finished brand) or still wait, per the original
+sequencing, is a live scheduling call. Building on a branch is safe either
+way -- PT1 hasn't started and hosting isn't even stood up yet -- but the
+actual merge/deploy timing is handed back to System Hub/Mark in the launch
+prompt rather than decided by the build thread on its own judgment.
+
+**Dispatched:** `Ministry/Features/Increment-1-Build/Launch-Prompts/
+CiC_Increment1_Build_Thread_Launch_2026-07-20.md`, explicitly recommending
+Sonnet (no need for Opus/Fable on a build task with this precise a spec
+already written). Points to the recovered spec rather than duplicating
+it; adds current-state grounding, the coordination boundary against other
+active workstreams, and the merge-timing flag above. Committed `26f3f4d`.
+Task Board and this entry both updated same pass.
