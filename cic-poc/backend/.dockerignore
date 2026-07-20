@@ -1,0 +1,15 @@
+venv/
+env/
+.venv/
+ENV/
+__pycache__/
+*.pyc
+.env
+.env.local
+vector_store/
+transcripts/
+pilot_tester_codes.json
+pilot_session_counts.json
+.git/
+.pytest_cache/
+*.log

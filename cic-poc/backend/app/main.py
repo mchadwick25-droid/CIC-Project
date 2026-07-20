@@ -4,11 +4,13 @@ import json
 import re
 import uuid
 from contextlib import asynccontextmanager
+from pathlib import Path
 from typing import Optional
 
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from pydantic import BaseModel
 
@@ -1452,6 +1454,34 @@ async def get_worlds():
 async def health_check():
     """Health check endpoint."""
     return {"status": "healthy", "version": "0.1.0"}
+
+
+# Serve the built frontend from the same origin as the API, if present.
+#
+# The frontend hardcodes `API_BASE = '/api'` as a same-origin relative path
+# (no VITE_API_BASE env var exists) - the Vite dev server's proxy
+# (vite.config.ts) makes that work locally, but a production static build
+# has no such proxy. Rather than adding a separate reverse-proxy layer or
+# a cross-origin API base (which would also need CORS_ORIGINS to include
+# wherever the frontend ends up, and a second thing to deploy and keep in
+# sync), the simplest correct fix is for this one service to serve both:
+# `/api/*` and `/health` above are matched first (FastAPI resolves routes
+# in registration order), everything else falls through to here. Guarded
+# on the dist/ directory actually existing so local backend-only dev
+# (no built frontend) is completely unaffected.
+_FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+if _FRONTEND_DIST.is_dir():
+    app.mount("/assets", StaticFiles(directory=_FRONTEND_DIST / "assets"), name="frontend-assets")
+
+    @app.get("/{full_path:path}")
+    async def serve_frontend(full_path: str):
+        """SPA catch-all: any path not already matched above serves index.html
+        (client-side routing, if the app ever adds any, resolves from there) or
+        a same-named static file at the dist root (favicon.ico, icons, etc.)."""
+        candidate = _FRONTEND_DIST / full_path
+        if full_path and candidate.is_file():
+            return FileResponse(candidate)
+        return FileResponse(_FRONTEND_DIST / "index.html")
 
 
 if __name__ == "__main__":
