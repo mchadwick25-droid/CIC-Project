@@ -18,6 +18,8 @@ import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
 import { CitationModal } from './CitationModal';
 import { OnboardingScreen, hasSeenOnboarding } from './OnboardingScreen';
+import { SignInScreen } from './SignInScreen';
+import { supabase, supabaseEnabled } from '../lib/supabase';
 import { RefreshWarningBanner } from './RefreshWarningBanner';
 import { getTermMatches } from './LexiconHighlight';
 import type { Citation, LexiconTerm, World } from '../types/conversation';
@@ -27,9 +29,23 @@ export function TheTable() {
   // session) - re-shown only if their browser's local storage itself
   // resets, which is the same edge case that would confuse them anyway.
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding());
+  // Signed in by default when Supabase isn't configured (local dev / before
+  // Mark's project exists) - the sign-in screen only appears once a real
+  // pilot deployment is wired up, same "off until configured" pattern as
+  // the backend's session_cap.py.
+  const [isSignedIn, setIsSignedIn] = useState(!supabaseEnabled);
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
   const [showWorldSelector, setShowWorldSelector] = useState(true);
   const [multiSelectMode, setMultiSelectMode] = useState(false);
+
+  useEffect(() => {
+    if (!supabase) return;
+    supabase.auth.getSession().then(({ data }) => setIsSignedIn(Boolean(data.session)));
+    const { data: subscription } = supabase.auth.onAuthStateChange((_event, session) => {
+      setIsSignedIn(Boolean(session));
+    });
+    return () => subscription.subscription.unsubscribe();
+  }, []);
 
   const {
     sessionId,
@@ -172,6 +188,10 @@ export function TheTable() {
     setSelectedWorlds([]);
     setShowWorldSelector(true);
   };
+
+  if (!isSignedIn) {
+    return <SignInScreen />;
+  }
 
   // Pre-encounter onboarding - gates everything else, shown once per tester
   if (showOnboarding) {

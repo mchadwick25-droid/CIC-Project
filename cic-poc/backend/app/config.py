@@ -78,6 +78,13 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     openai_api_key: str = ""
 
+    # Supabase (accounts, per-user activity/credit tracking - see
+    # supabase_schema.sql and app/auth.py). Empty by default so local
+    # dev/mock-mode work without a Supabase project; real values are set as
+    # env vars once a project exists.
+    supabase_url: str = ""
+    supabase_service_key: str = ""
+
     # Base paths
     data_base_path: Path = Path("./data")
     vector_store_base_path: Path = Path("./vector_store")

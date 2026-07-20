@@ -1,29 +1,31 @@
 """
-Server-side transcript capture for the tester pilot.
+Server-side transcript capture for pilot participants, now durable in
+Supabase Postgres instead of an overwrite-every-round local JSON file (git
+history has the old version).
 
 Scoped narrowly per the pilot plan (Ministry/Operations/
 CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md, Section 4/6): every pilot
-conversation saved automatically, project-team visibility only, retained
-only for the pilot's own review window - not a general-purpose analytics
-or training store. Off by default (settings.pilot_logging_enabled), so a
-non-pilot deployment doesn't silently start logging conversations nobody
-disclosed logging to.
+conversation saved automatically, project-team visibility only. Off by
+default (settings.pilot_logging_enabled), so a non-pilot deployment doesn't
+silently start logging conversations nobody disclosed logging to. Also a
+no-op if Supabase isn't configured (see app/auth.py's supabase_configured())
+- local dev/mock mode never needs a live project.
 
-Testers are told about this plainly, in advance, in the onboarding text
-(Article 36) - this module does not add any disclosure of its own; the
-disclosure lives in the participant-facing onboarding screen, not here.
+Testers are told about this plainly, in advance, in the onboarding text -
+this module does not add any disclosure of its own; the disclosure lives in
+the participant-facing onboarding screen, not here.
+
+Storage model: `sessions` is upserted (one row per session_id, updated in
+place - phase/turn_count/status change over a conversation's life).
+`messages` is append-only, so each call only inserts the messages not yet
+persisted rather than re-writing the whole history every round.
 """
-
-import json
-from datetime import datetime, timezone
-from pathlib import Path
 
 from langchain_core.messages import BaseMessage
 
+from app.auth import _get_client, supabase_configured
 from app.config import settings
 from app.graph.state import ConversationState
-
-TRANSCRIPTS_DIR = Path("./transcripts")
 
 
 def _serialize_message(msg: BaseMessage) -> dict:
@@ -41,35 +43,47 @@ def _serialize_message(msg: BaseMessage) -> dict:
 
 def write_transcript(session_id: str, state: ConversationState) -> None:
     """
-    Overwrite this session's transcript file with the full conversation so
-    far. Called after each completed round - idempotent full-overwrite
-    rather than incremental append, so a mid-write crash can never leave a
-    corrupted partial file; the previous round's complete write is only
-    ever replaced by another complete write.
-
-    Silently does nothing if pilot_logging_enabled is false, or if writing
-    fails for any reason - transcript capture must never be able to break
+    Upsert this session's row and append any messages not yet persisted.
+    Called after each completed round (same call sites/trigger points as
+    before). Never raises - transcript capture must never be able to break
     or slow down a participant's actual conversation (same discipline as
     the other invisible-background-governance code in main.py's streaming
     endpoint, which this is called alongside).
     """
-    if not settings.pilot_logging_enabled:
+    if not settings.pilot_logging_enabled or not supabase_configured():
         return
 
     try:
-        TRANSCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
-        payload = {
-            "session_id": session_id,
-            "world_id": state.world_id,
-            "world_ids": state.world_ids,
-            "phase": state.phase,
-            "turn_count": state.turn_count,
-            "last_updated_utc": datetime.now(timezone.utc).isoformat(),
-            "messages": [_serialize_message(m) for m in state.messages],
-        }
-        out_path = TRANSCRIPTS_DIR / f"{session_id}.json"
-        out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+        client = _get_client()
+
+        client.table("sessions").upsert(
+            {
+                "id": session_id,
+                "user_id": state.user_id,
+                "world_ids": state.world_ids or [state.world_id],
+                "phase": state.phase,
+                "turn_count": state.turn_count,
+                "status": "closed" if state.closing_stage == "closed" else "active",
+            }
+        ).execute()
+
+        already_persisted = (
+            client.table("messages")
+            .select("id", count="exact")
+            .eq("session_id", session_id)
+            .execute()
+            .count
+            or 0
+        )
+
+        new_messages = [_serialize_message(m) for m in state.messages[already_persisted:]]
+        if new_messages:
+            client.table("messages").insert(
+                [{"session_id": session_id, **m} for m in new_messages]
+            ).execute()
     except Exception:
         # Never let transcript capture surface as a broken response -
-        # worst case, this round's transcript write is silently skipped.
+        # worst case, this round's persistence is silently skipped and the
+        # next round's call catches up (upsert + already_persisted count
+        # make this self-healing rather than duplicating rows).
         pass

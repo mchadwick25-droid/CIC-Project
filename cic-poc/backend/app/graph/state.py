@@ -155,6 +155,11 @@ class ConversationState:
 
     # Session management
     session_id: str = ""
+    # The signed-in Supabase user this session belongs to (see app/auth.py),
+    # None when Supabase isn't configured or the participant isn't signed in.
+    # Set once at session creation; read by app/transcript_logging.py so
+    # every downstream call site doesn't need its own user parameter.
+    user_id: Optional[str] = None
     world_id: str = "syriac-edessa-nisibis"  # Primary/first world (for backwards compat)
     world_ids: list[str] = field(default_factory=list)  # All worlds at table
     close_requested: bool = False

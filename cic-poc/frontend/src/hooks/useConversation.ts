@@ -9,16 +9,18 @@ import type {
   StartSessionResponse,
   SendMessageResponse,
 } from '../types/conversation';
+import { getAccessToken } from '../lib/supabase';
 
 const API_BASE = '/api';
 
-// Pilot-mode per-tester session cap (see backend app/session_cap.py) - each
-// invited tester's personal link carries their own ?code=... query param,
-// read once here and sent with every session-start call. Absent entirely
-// for a normal (non-pilot) deployment - the backend only enforces this when
-// its own tester-code registry file exists.
-function getTesterCode(): string | null {
-  return new URLSearchParams(window.location.search).get('code');
+// Attaches the signed-in participant's Supabase access token (see
+// src/lib/supabase.ts), replacing the old ?code=... tester-code scheme.
+// Resolves to plain JSON headers, no Authorization header at all, when
+// Supabase isn't configured (local dev / mock mode) - the backend's
+// get_current_user dependency treats that the same way it always has.
+async function authHeaders(): Promise<Record<string, string>> {
+  const token = await getAccessToken();
+  return token ? { Authorization: `Bearer ${token}` } : {};
 }
 
 async function extractErrorMessage(response: Response, fallback: string): Promise<string> {
@@ -67,8 +69,8 @@ export function useConversation() {
     try {
       const response = await fetch(`${API_BASE}/session/start`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ world_id: worldId, tester_code: getTesterCode() }),
+        headers: { 'Content-Type': 'application/json', ...(await authHeaders()) },
+        body: JSON.stringify({ world_id: worldId }),
       });
 
       if (!response.ok) {
@@ -116,8 +118,8 @@ export function useConversation() {
     try {
       const response = await fetch(`${API_BASE}/session/start`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ world_ids: worldIds, tester_code: getTesterCode() }),
+        headers: { 'Content-Type': 'application/json', ...(await authHeaders()) },
+        body: JSON.stringify({ world_ids: worldIds }),
       });
 
       if (!response.ok) {

@@ -1,86 +1,57 @@
 """
-Per-tester ceiling on sessions started during the tester pilot - the real
-budget backstop, scoped to each invited tester individually rather than one
-shared pool. The pilot lead's own reasoning: a single shared pool lets
-whichever tester happens to dive in first (or forwards the link widest)
-burn the whole pilot's budget before anyone else gets a turn; a per-tester
-cap (roughly 2 sessions each, deliberately more than 1 so a tester can
-forward to exactly one other person if they want - itself a useful data
-point on organic sharing) bounds each individual's worst case without
-needing real user accounts, which this phase of the project doesn't need.
+Per-participant ceiling on sessions started, now backed by Supabase Postgres
+instead of the pilot's original flat JSON files (git history has the old
+version, which counted anonymous "tester codes" typed into a URL rather than
+real signed-in users).
 
-Each invited tester gets a short code (assigned by the pilot lead, embedded
-in their personal invite link as a URL query param, e.g.
-?code=tester1) - not their email itself, so no real PII needs to live in
-this file. A tester_code registry (pilot_tester_codes.json) lists who's
-authorized and their own cap; a separate counts file tracks usage per code.
+The reasoning that shaped the original mechanism still holds and is
+preserved here: a single shared budget lets whoever dives in first burn the
+whole pilot's spend before anyone else gets a turn, so each participant gets
+their own ceiling (profiles.max_sessions, default 2) instead of one shared
+pool. What's different now: identity comes from a real signed-in Supabase
+user (see app/auth.py) rather than a code typed into a URL, and the count
+itself is a `select count(*)` against the durable `sessions` table rather
+than a hand-maintained counts file - both fixes for the old mechanism's
+documented non-atomic, no-real-accounts limitations.
 
-Off by default: if the registry file doesn't exist, every session request
-is allowed uncapped and code-free (normal dev/testing behavior) - this only
-activates for a real pilot deployment that creates the registry file.
+Off by default: if Supabase isn't configured (see app/auth.py's
+supabase_configured()), every request is allowed uncapped - normal local
+dev/mock-mode behavior, unchanged from before.
 """
 
-import json
-from pathlib import Path
-
-REGISTRY_FILE = Path("./pilot_tester_codes.json")
-COUNTS_FILE = Path("./pilot_session_counts.json")
-
-DEFAULT_MAX_SESSIONS_PER_TESTER = 2
+from app.auth import AuthedUser, supabase_configured
 
 
-def pilot_mode_active() -> bool:
-    """True once a real pilot deployment has created the tester-code registry."""
-    return REGISTRY_FILE.exists()
-
-
-def _load_registry() -> dict:
-    try:
-        return json.loads(REGISTRY_FILE.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
-
-
-def _load_counts() -> dict:
-    try:
-        return json.loads(COUNTS_FILE.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
-
-
-def check_and_reserve_session_slot(tester_code: str | None) -> tuple[bool, str]:
+def check_and_reserve_session_slot(user: AuthedUser) -> tuple[bool, str]:
     """
-    Returns (allowed, reason). If allowed, the slot has already been
-    reserved (the per-code counter incremented) - callers should not call
-    this twice for the same session.
-
-    When pilot mode isn't active (no registry file), always allows,
-    code-free - normal dev/testing is never gated by this.
-
-    Simple read-modify-write on a plain JSON file, not database-backed or
-    file-locked - accepted risk at this project's actual scale (a handful
-    of testers, not real concurrent traffic).
+    Returns (allowed, reason). Unlike the old file-based version, this does
+    NOT reserve/increment anything itself - the reservation is implicit: the
+    caller inserts a new row into `sessions` immediately after this returns
+    True, and that insert *is* the usage record the next check counts
+    against. There is nothing to "give back" if session creation fails
+    partway, since no separate counter exists to roll back.
     """
-    if not pilot_mode_active():
+    if not supabase_configured():
         return True, ""
 
-    if not tester_code:
-        return False, "A tester code is required to start a session during this pilot."
+    if user.user_id is None:
+        return False, "Please sign in to start a conversation during this pilot."
 
-    registry = _load_registry()
-    if tester_code not in registry:
-        return False, "That tester code isn't recognized for this pilot."
+    from app.auth import _get_client  # local import: avoids a hard dependency at module load
 
-    max_sessions = registry[tester_code].get("max_sessions", DEFAULT_MAX_SESSIONS_PER_TESTER)
-    counts = _load_counts()
-    used = counts.get(tester_code, 0)
+    client = _get_client()
+    count_response = (
+        client.table("sessions")
+        .select("id", count="exact")
+        .eq("user_id", user.user_id)
+        .execute()
+    )
+    used = count_response.count or 0
 
-    if used >= max_sessions:
+    if used >= user.max_sessions:
         return False, (
-            "This tester code has reached its session limit for this pilot. "
+            "You've reached this pilot's session limit for your account. "
             "Please reach out to the project team directly if you'd like to continue."
         )
 
-    counts[tester_code] = used + 1
-    COUNTS_FILE.write_text(json.dumps(counts, indent=2), encoding="utf-8")
     return True, ""
