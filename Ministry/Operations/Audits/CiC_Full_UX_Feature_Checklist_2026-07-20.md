@@ -1,166 +1,213 @@
-# CiC Full User-Experience Feature Checklist — 2026-07-20
+# CiC Full Feature Checklist — 2026-07-20
 
-**Purpose:** every feature named in `CiC_Full_UX_Design_V1_0.md` (the canonical, 662-line
-"whole journey drawn as one thing" spec), walked in actual journey order, each tagged with
-exactly one status: **Implemented**, **Ready for implementation**, **Still needs testing**,
-**Still needs design work**, or **No record**. Built for Mark to test the running app one
-feature at a time, in order. Grounded in three sources, all cross-checked against each
-other and against direct code inspection where they disagreed: `CiC_Full_UX_Design_V1_0.md`,
-`CiC_UX_Implementation_Status_2026-07-19.md` (this session's own live testing), and
-`CiC_Product_Status_Report_2026-07-19.md` (an independent code-inspection pass run earlier
-today). An interactive version of this same list is published as a Claude Artifact for the
-live testing session; this file is the permanent record.
+**Purpose:** every feature and workstream across the whole project, split along two axes
+Mark asked for on top of the original journey-ordered list:
 
-**Totals: 89 features — 22 Implemented · 43 Ready for implementation · 12 Still needs
-testing · 7 Still needs design work · 5 No record.** Read plainly: nearly half of the whole
-journey is fully designed and approved but has zero code yet — Increment 1 is the single
-biggest unlock (§10 below), not a missing decision.
+1. **Track** — is this part of the **Program** (the conversation app + its immediate
+   surfaces — the thing a participant actually experiences, testable one feature at a
+   time), or is it **Business & Organizational Development** (Marketplace positioning,
+   funding, nonprofit formation, external messaging — real work, but strategy/formation
+   work with no UI to click through)?
+2. **Surface** (Program items only) — **Website** (the marketing site, `cic-website/`),
+   **App** (the conversation program, `cic-poc/`), **Both** (exists on/bridges both), or
+   **System** (backend/infrastructure with no discrete screen — hosting, accounts,
+   governance detectors, data persistence).
+
+Part 1 is the same 89 Program features as the first edition, now re-tagged by Surface.
+Part 2 is new: the Business & Organizational Development track, split out because it
+doesn't belong in a UX-testing walkthrough at all — it has its own different lifecycle
+(drafted → decided → active), not implemented/tested/designed. **Part 2's status calls
+are workstream-level, not file-verified** — a lighter pass than Part 1, which was
+grounded in live testing and direct code inspection. Say the word if you want the same
+file-by-file rigor run on Part 2.
+
+**The lifecycle rule, going forward:** nothing in Part 1 gets a "50% done" or
+"in-progress" tag — a feature is either not-yet-built (Ready for implementation / Still
+needs testing / Still needs design work / No record) or it's **Implemented**, full stop.
+The moment something is verified live — like Alexandria today — it flips straight to
+Implemented, its "why" line is rewritten in past tense describing what happened and when,
+and the **Document Log** at the bottom gets one dated line recording the graduation. The
+thing's own construction record (a World-Build's Doc_00–Doc_09, an Increment's
+build-handoff spec) is never deleted when it graduates — that stays the permanent record
+of *how* it was built; this checklist stays the permanent record of *whether* it's live.
+
+**Part 1 totals: 89 features — 22 Implemented · 43 Ready for implementation · 12 Still
+needs testing · 7 Still needs design work · 5 No record.** By surface: 67 App · 5 Website
+· 9 Both · 8 System.
 
 ---
 
+# Part 1 — The Program
+
 ## 1. Entry — the three start options (S0 Threshold, design doc §5.1)
 
-| Feature | Status | Why |
-|---|---|---|
-| Hero + three co-equal doors (resting screen) | Ready for implementation | Approved V1.0 final; zero code — app currently bypasses straight to the world picker |
-| Door 1 — "Start with your question" | Ready for implementation | Leads to S3; the door itself has no code yet |
-| Door 2 — "Build your own table" | Ready for implementation | Leads to S1/S2; the door itself has no code yet |
-| Door 3 — "Guided onboarding" | Ready for implementation | Leads to G.1–G.3; the door itself has no code yet |
-| Quiet chrome: "Ask the Facilitator" pre-threshold overlay | Ready for implementation | Designed, zero code |
-| Quiet chrome: About / Features / FAQ menu overlay | Ready for implementation | Designed, zero code |
-| Current production entry (app skips straight to world picker) | Implemented | This is what actually runs today — "Bypass-shaped," per the design doc's own Alpha/Phase note |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| Hero + three co-equal doors (resting screen) | Ready for implementation | App | Approved V1.0 final; zero code — app currently bypasses straight to the world picker |
+| Door 1 — "Start with your question" | Ready for implementation | App | Leads to S3; the door itself has no code yet |
+| Door 2 — "Build your own table" | Ready for implementation | App | Leads to S1/S2; the door itself has no code yet |
+| Door 3 — "Guided onboarding" | Ready for implementation | App | Leads to G.1–G.3; the door itself has no code yet |
+| Quiet chrome: "Ask the Facilitator" pre-threshold overlay | Ready for implementation | App | Designed, zero code |
+| Quiet chrome: About / Features / FAQ menu overlay | Ready for implementation | App | Designed, zero code |
+| Current production entry (app skips straight to world picker) | Implemented | App | What actually runs today — "Bypass-shaped," per the design doc's own Alpha/Phase note |
 
 ## 2. The four starting-point choices (role selector, S2 §2.4 / G.1)
 
-| Feature | Status | Why |
-|---|---|---|
-| Regular visitor | Still needs testing | Built on `claude/representative-modes-exploration`, mock-LLM verified only |
-| Pastor or teacher | Still needs testing | Same branch, same gap |
-| Academic or scholar | Still needs testing | Same branch, same gap |
-| Reevaluation | Still needs testing | Copy decided 2026-07-16; code still uses internal id `deconstructing` — reconcile before merge |
-| "No role" resting/skippable state | Still needs testing | Same branch, same gap |
-| Role shapes response register (backend wiring) | Still needs testing | Real, wired code — but Battery A / RM-8 live-API validation has never run; standing rule blocks merge before/during P1 |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| Regular visitor | Still needs testing | App | Built on `claude/representative-modes-exploration`, mock-LLM verified only |
+| Pastor or teacher | Still needs testing | App | Same branch, same gap |
+| Academic or scholar | Still needs testing | App | Same branch, same gap |
+| Reevaluation | Still needs testing | App | Copy decided 2026-07-16; code still uses internal id `deconstructing` — reconcile before merge |
+| "No role" resting/skippable state | Still needs testing | App | Same branch, same gap |
+| Role shapes response register (backend wiring) | Still needs testing | App | Real, wired code — but Battery A / RM-8 live-API validation has never run; standing rule blocks merge before/during P1 |
 
 ## 3. Path A — question-first entry (S3 + routing, §5.4 / Storyboard §R)
 
-| Feature | Status | Why |
-|---|---|---|
-| S3 typed-question screen (input + 3 theme chips) | Ready for implementation | Approved 2026-07-18, zero code |
-| S3 silent begin (no starter clicked) | Ready for implementation | Same |
-| R.0 — question held (editable, visible through routing) | Ready for implementation | Same |
-| R.1 — considering state (printed working-mark, honest retry) | Ready for implementation | Same |
-| R.2a — the proposal card | Ready for implementation | Same |
-| R.2b — clarify-once (never a second question) | Ready for implementation | Same |
-| R.2c — honest null (nearest-true-thing + map pointer) | Ready for implementation | Same |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| S3 typed-question screen (input + 3 theme chips) | Ready for implementation | App | Approved 2026-07-18, zero code |
+| S3 silent begin (no starter clicked) | Ready for implementation | App | Same |
+| R.0 — question held (editable, visible through routing) | Ready for implementation | App | Same |
+| R.1 — considering state (printed working-mark, honest retry) | Ready for implementation | App | Same |
+| R.2a — the proposal card | Ready for implementation | App | Same |
+| R.2b — clarify-once (never a second question) | Ready for implementation | App | Same |
+| R.2c — honest null (nearest-true-thing + map pointer) | Ready for implementation | App | Same |
 
 ## 4. Path B — build your own table (S1 Map + S2 Setup)
 
-| Feature | Status | Why |
-|---|---|---|
-| World Map — standalone (public website Atlas page) | Implemented | Live, real, interactive — verified today, zero JS errors |
-| World Map — in-app orientation + handoff (Tier A) | Ready for implementation | Built and verified live on `claude/world-map-merge-into-main`; held back only by the no-merge-before-pilot rule, not an open design question |
-| World Map primary-vs-secondary selector (Tier B) | Still needs design work | Open scope decision named in design doc §10.1 — gates how/whether Tier A even merges as scoped |
-| Phone era-accordion | Ready for implementation | Design settled, owed only the map thread's own confirmation pass; zero code |
-| S2 setup — resting (tradition picker + tray + Begin) | Implemented | Live in the running app today |
-| S2 — one world seated (Deep Interview framing) | Implemented | Live today |
-| S2 — emergent "Compare Worlds" framing (replaces toggle) | Ready for implementation | Part of Increment 1, not built — the toggle below is what's live instead |
-| S2 — current Single/Multiple toggle (production today) | Implemented | What's actually live right now; slated for retirement once Increment 1 lands |
-| S2 world-click menu (Description / Tour / Choose for Table / Academic Documents) | Ready for implementation | Designed as honest visible placeholders; not confirmed built |
-| S2 proposed-table card (question-first flow only) | Ready for implementation | Tied to Path A routing; zero code |
-| S2 proposal null case | Ready for implementation | Same |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| World Map — standalone (public website Atlas page) | Implemented | Website | Live, real, interactive — verified today, zero JS errors |
+| World Map — in-app orientation + handoff (Tier A) | Ready for implementation | Both | Built and verified live on a branch, bridges the website's map concept into the app; held back only by the no-merge-before-pilot rule |
+| World Map primary-vs-secondary selector (Tier B) | Still needs design work | Both | Open scope decision — gates how/whether Tier A even merges as scoped |
+| Phone era-accordion | Ready for implementation | App | Design settled, owed only the map thread's own confirmation pass; zero code |
+| S2 setup — resting (tradition picker + tray + Begin) | Implemented | App | Live in the running app today |
+| S2 — one world seated (Deep Interview framing) | Implemented | App | Live today |
+| S2 — emergent "Compare Worlds" framing (replaces toggle) | Ready for implementation | App | Part of Increment 1, not built — the toggle below is what's live instead |
+| S2 — current Single/Multiple toggle (production today) | Implemented | App | What's actually live right now; slated for retirement once Increment 1 lands |
+| S2 world-click menu (Description / Tour / Choose for Table / Academic Documents) | Ready for implementation | App | Designed as honest visible placeholders; not confirmed built |
+| S2 proposed-table card (question-first flow only) | Ready for implementation | App | Tied to Path A routing; zero code |
+| S2 proposal null case | Ready for implementation | App | Same |
 
 ## 5. Path C — guided onboarding (G.1–G.3)
 
-| Feature | Status | Why |
-|---|---|---|
-| G.1 — where you're starting from | Ready for implementation | Approved by Mark 2026-07-18; zero code |
-| G.2 — what draws you | Ready for implementation | Same |
-| G.3 — the prepared table | Ready for implementation | Same |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| G.1 — where you're starting from | Ready for implementation | App | Approved by Mark 2026-07-18; zero code |
+| G.2 — what draws you | Ready for implementation | App | Same |
+| G.3 — the prepared table | Ready for implementation | App | Same |
 
 ## 6. The Table (S4) — the core conversation
 
-| Feature | Status | Why |
-|---|---|---|
-| Living Table composed scene | Ready for implementation | Its own increment, sequenced after role/questions; icons locked, engineering not started |
-| Nameplate-inversion speaker cue | Ready for implementation | Same increment |
-| Reduced-motion state | Ready for implementation | Same increment |
-| Long-form no-bubble transcript (Increment 1) | Ready for implementation | Spec implementation-ready; `TheTable.tsx` still uses the old bubble grammar |
-| Table bar (seats + consolidated status) | Ready for implementation | Increment 1 |
-| Current bubble-style transcript (production today) | Implemented | Confirmed via computed CSS today — this is what's live |
-| Lexicon terms (Level 2 hover/tap, Level 3 full entry) | Implemented | Verified live today — highlighting, popover, click-through all working |
-| Citations (✲ end-of-turn marker) | Implemented | Verified live today — opens correctly, real sourcing |
-| Story inline highlighting | Ready for implementation | §5.7's grammar already covers stories; not yet applied in code — onboarding copy promises this and it isn't built |
-| Quote sourcing | Ready for implementation | §5.7 names quotes as a fifth grammar application; no code exists yet |
-| General/unsourced-claim disclosure | No record | No screen state or grammar addresses an ungrounded claim distinctly from a cited one — found in live testing, not in any design doc |
-| Next-questions suggestion chips | Ready for implementation | Designed §4.1; not built |
-| Tour invitation card | Ready for implementation | Same |
-| Safety/close T3-slot suppression (UI behavior) | Ready for implementation | The card system this depends on isn't built yet (the underlying safety detection itself IS live — see below) |
-| "Don't know what to ask?" + question sheet (Increment 3) | Ready for implementation | Content complete (Curriculum V1.0); zero UI; hard-gated on the role selector merging first |
-| Input group (textarea / Send / End) | Implemented | Live today |
-| Consolidated status line (session-cap / connection-loss) | Still needs testing | `session_cap.py` exists but needs real hosting to populate/exercise |
-| Current RefreshWarningBanner (production today) | Implemented | Live today; retires into the table bar under Increment 1 |
-| Anachronism bridge | Implemented | Verified live today, unprompted, in a real conversation — caught a modern-doctrine reading correctly |
-| Representative frame-break robustness fix | Still needs testing | Fix committed (`77fc362`) after today's finding of a 4/4-reproducible break; not yet re-verified live, not yet pushed |
-| Representative voice quality (in-character depth, honest citation) | Implemented | Verified live today: 19/20 real academic questions answered excellently across 4 worlds |
-| Relational-safety / drift governance (15 signal types) | Still needs testing | Substantially wired, real detector functions; "not fully validated live" per direct code inspection |
-| Frame-breaker classifier (fails open) | Implemented | Real, separate classifier call, confirmed in code |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| Living Table composed scene | Ready for implementation | App | Its own increment, sequenced after role/questions; icons locked, engineering not started |
+| Nameplate-inversion speaker cue | Ready for implementation | App | Same increment |
+| Reduced-motion state | Ready for implementation | App | Same increment |
+| Long-form no-bubble transcript (Increment 1) | Ready for implementation | App | Spec implementation-ready; the transcript still uses the old bubble grammar |
+| Table bar (seats + consolidated status) | Ready for implementation | App | Increment 1 |
+| Current bubble-style transcript (production today) | Implemented | App | Confirmed via computed CSS today — this is what's live |
+| Lexicon terms (Level 2 hover/tap, Level 3 full entry) | Implemented | App | Verified live today — highlighting, popover, click-through all working |
+| Citations (✲ end-of-turn marker) | Implemented | App | Verified live today — opens correctly, real sourcing |
+| Story inline highlighting | Ready for implementation | App | The grammar already covers stories; not yet applied in code — onboarding copy promises this and it isn't built |
+| Quote sourcing | Ready for implementation | App | Named as a fifth grammar application; no code exists yet |
+| General/unsourced-claim disclosure | No record | App | No screen state addresses an ungrounded claim distinctly from a cited one — found in live testing, not in any design doc |
+| Next-questions suggestion chips | Ready for implementation | App | Designed; not built |
+| Tour invitation card | Ready for implementation | App | Same |
+| Safety/close card-slot suppression (UI behavior) | Ready for implementation | App | The card system this depends on isn't built yet |
+| "Don't know what to ask?" + question sheet (Increment 3) | Ready for implementation | App | Content complete (Curriculum V1.0); zero UI; hard-gated on the role selector merging first |
+| Input group (textarea / Send / End) | Implemented | App | Live today |
+| Consolidated status line (session-cap / connection-loss) | Still needs testing | App | Code exists but needs real hosting to populate/exercise |
+| Current RefreshWarningBanner (production today) | Implemented | App | Live today; retires into the table bar under Increment 1 |
+| Anachronism bridge | Implemented | App | Verified live today, unprompted, in a real conversation — caught a modern-doctrine reading correctly |
+| Representative frame-break robustness fix | Still needs testing | App | Fix committed after today's finding of a 4/4-reproducible break; not yet re-verified live, not yet pushed |
+| Representative voice quality (in-character depth, honest citation) | Implemented | App | Verified live today: 19/20 real academic questions answered excellently across 4 worlds |
+| Relational-safety / drift governance (15 signal types) | Still needs testing | System | Substantially wired, real detector functions, invisible to the participant; "not fully validated live" |
+| Frame-breaker classifier (fails open) | Implemented | System | Real, separate classifier call, invisible to the participant, confirmed in code |
 
 ## 7. Hosted Tour (S4-tour, T.1–T.6)
 
-| Feature | Status | Why |
-|---|---|---|
-| In-app tour integration (threshold stop → beats → exit) | Ready for implementation | Blocked behind Increments 1 and 2, explicitly "never before/during P1" |
-| Register strip / beat tracker / Exit chrome | Ready for implementation | Same |
-| Honest-absence beat ("What We Cannot Show You") | Ready for implementation | Same |
-| Standalone Chloe/Justin demo asset | Implemented | Real, richly produced, 960KB — but zero connection to `cic-poc` |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| In-app tour integration (threshold stop → beats → exit) | Ready for implementation | App | Blocked behind Increments 1 and 2, explicitly "never before/during P1" |
+| Register strip / beat tracker / Exit chrome | Ready for implementation | App | Same |
+| Honest-absence beat ("What We Cannot Show You") | Ready for implementation | App | Same |
+| Standalone Chloe/Justin demo asset | Implemented | Website | Real, richly produced — but zero connection to the actual app |
 
 ## 8. The Close (S5)
 
-| Feature | Status | Why |
-|---|---|---|
-| Gracious close (Facilitator turn) | Ready for implementation | Backend logic restored today (was missing entirely); zero frontend UI renders it |
-| "Anything else?" open pause | Ready for implementation | Same — backend-capable, no frontend |
-| Reflection beat ("What stayed with you?") | Ready for implementation | Designed in to ship with the closing-sequence build; no frontend |
-| Closing resources offer | Ready for implementation | Same |
-| The door outward | Ready for implementation | Same |
-| Current production close (bare "conversation has ended") | Implemented | This is literally what's live today |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| Gracious close (Facilitator turn) | Ready for implementation | App | Backend logic restored today (was missing entirely); zero frontend UI renders it |
+| "Anything else?" open pause | Ready for implementation | App | Same — backend-capable, no frontend |
+| Reflection beat ("What stayed with you?") | Ready for implementation | App | Designed in to ship with the closing-sequence build; no frontend |
+| Closing resources offer | Ready for implementation | App | Same |
+| The door outward | Ready for implementation | App | Same |
+| Current production close (bare "conversation has ended") | Implemented | App | This is literally what's live today |
 
 ## 9. Cross-cutting / infrastructure
 
-| Feature | Status | Why |
-|---|---|---|
-| World: House-Church (Chloe) | Implemented | Live, deployed |
-| World: Desert-Monasticism (Papnoute) | Implemented | Live, deployed |
-| World: Syriac / Edessa–Nisibis (Mar Yausep) | Implemented | Live, deployed |
-| World: Bethlehem Circle (Albina) | Implemented | Live, deployed |
-| World: Alexandria Catechetical School (Theon) | Implemented | Fixed and verified live today — was completely absent before |
-| World: Imperial-Juridical Christianity | Still needs design work | World-build actively underway (Step 0–Doc_09 + Step 10 phases in progress) |
-| World: Donatism | Still needs design work | Planned in the Nine-World Portfolio; construction not started |
-| World: Cappadocian | Still needs design work | Same |
-| World: Latin Pastoral-Congregational | Still needs design work | Same |
-| Accounts / sign-in (Supabase) | Still needs testing | Code-complete, smoke-tested; needs Mark's own account creation to go further |
-| Per-tester session/API cap | Still needs testing | Code exists; unexercised until real hosting exists |
-| Hosting — `cic-poc` app itself | Ready for implementation | Direct-API approach decided; not stood up |
-| Hosting — public website | Implemented | Live, real domain |
-| Referral system backend | Implemented | Real endpoints, Supabase-backed, one-hop enforcement built |
-| Referral system frontend | Still needs testing | Wired but inert — API base URL empty; will work once deployment sets it, needs a real test then |
-| World icons (5 SVGs) | Ready for implementation | Locked and approved; not wired into any UI component |
-| Table world-count ceiling safeguard | Still needs design work | The 5-world cap is a stated policy, not an enforced code limit — no mechanism stops a 6th world being seated |
-| Session data persistence (currently in-memory only) | Still needs design work | POC-only; lost on restart — a real durability decision hasn't been made |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| World: House-Church (Chloe) | Implemented | Both | Deployed in-app; advertised on the website |
+| World: Desert-Monasticism (Papnoute) | Implemented | Both | Same |
+| World: Syriac / Edessa–Nisibis (Mar Yausep) | Implemented | Both | Same |
+| World: Bethlehem Circle (Albina) | Implemented | Both | Same |
+| World: Alexandria Catechetical School (Theon) | Implemented | Both | Fixed and verified live today — was completely absent before |
+| World: Imperial-Juridical Christianity | Still needs design work | App | World-build actively underway (Step 0–Doc_09 + Step 10 phases); not yet a surface feature at all |
+| World: Donatism | Still needs design work | App | Planned in the Nine-World Portfolio; construction not started |
+| World: Cappadocian | Still needs design work | App | Same |
+| World: Latin Pastoral-Congregational | Still needs design work | App | Same |
+| Accounts / sign-in (Supabase) | Still needs testing | System | Code-complete, smoke-tested; needs Mark's own account creation to go further |
+| Per-tester session/API cap | Still needs testing | System | Code exists; unexercised until real hosting exists |
+| Hosting — the app itself | Ready for implementation | System | Direct-API approach decided; not stood up |
+| Hosting — public website | Implemented | Website | Live, real domain |
+| Referral system backend | Implemented | System | Real endpoints, Supabase-backed, one-hop enforcement built |
+| Referral system frontend | Still needs testing | Website | Wired but inert on `refer-a-friend.html` — API base URL empty; will work once deployment sets it |
+| World icons (5 SVGs) | Ready for implementation | App | Locked and approved; not wired into any UI component |
+| Table world-count ceiling safeguard | Still needs design work | System | The 5-world cap is a stated policy, not an enforced code limit |
+| Session data persistence (currently in-memory only) | Still needs design work | System | POC-only; lost on restart — a real durability decision hasn't been made |
 
 ## 10. Flagged — no record found anywhere
 
-| Feature | Status | Why |
-|---|---|---|
-| Accessibility (screen reader / keyboard navigation) | No record | Not mentioned anywhere in the 662-line UX spec or any status document |
-| Internationalization / non-English support | No record | Same |
-| In-session feedback or bug-report mechanism | No record | Same |
-| Terms of service / privacy policy screen | No record | Same |
+| Feature | Status | Surface | Why |
+|---|---|---|---|
+| Accessibility (screen reader / keyboard navigation) | No record | Both | Not mentioned anywhere in the UX spec or any status document |
+| Internationalization / non-English support | No record | Both | Same |
+| In-session feedback or bug-report mechanism | No record | App | Same |
+| Terms of service / privacy policy screen | No record | Website | Same |
+
+---
+
+# Part 2 — Business & Organizational Development
+
+Not the app, no UI to test — real work, different lifecycle. Status vocabulary here is
+**Drafted** (a document/plan exists, not yet finalized) → **Decided** (a real decision is
+logged/locked) → **Active** (currently being executed against, not just planned) →
+**Dormant** (paused, not currently being pursued). This pass is workstream-level, sourced
+from what's in each Ministry folder, not independently re-verified file by file the way
+Part 1 was.
+
+| Workstream | Folder | Status | Why |
+|---|---|---|---|
+| Marketplace positioning & differentiation | `Ministry/Marketplace/` | Drafted | Landscape scan, differentiation analysis, and positioning brief all at V0.1/DRAFT; a decision log records some calls already locked within it |
+| Funder landscape & fundraising strategy | `Ministry/Funding/` | Drafted | Funder landscape, growth plan, budget proposals, seminary-alignment analysis, and three sponsorship one-pagers all at DRAFT stage; no funder relationship confirmed as executing yet |
+| Nonprofit formation & legal structure | `Ministry/Organization/` | Decided (entity) / Drafted (board) | Articles of Incorporation marked `V0_2_FILING_READY`, a Colorado filing package exists — the entity-formation track is the most advanced of the three; Bylaws Skeleton and Founding Board Strategy/Invitation are still DRAFT |
+| External messaging & positioning (FAQ, elevator speeches, letters to friends) | `Ministry/Communication/` (excluding the Brand Kit itself) | Drafted | Multiple V0.1/DRAFT pieces, some refreshed since; distinct from the Brand Kit tokens, which are a **Program** input (they govern the UX, §2 of the Full UX Design doc) |
+
+**Explicitly out of scope for both tracks** (per standing project boundaries, not
+re-litigated here): Equivice AI and The With Movement are separate projects/ministries
+entirely, not CiC workstreams.
 
 ---
 
 ## Document log
 
+- **V2.0 (2026-07-20):** Split into two tracks (Program / Business & Organizational
+  Development) and added the Surface tag (Website/App/Both/System) to every Program
+  feature, per Mark's request. Documented the lifecycle convention for graduating
+  "future" items to Implemented. Part 1 content otherwise unchanged from V1.0.
 - **V1.0 (2026-07-20):** First edition. Built at Mark's request for a feature-by-feature
   testing walkthrough of the entire user experience, starting with the three start options
   and four user choices. Synthesizes `CiC_Full_UX_Design_V1_0.md`, this session's own
