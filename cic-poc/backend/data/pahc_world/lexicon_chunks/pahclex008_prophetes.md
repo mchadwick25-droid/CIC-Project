@@ -41,8 +41,13 @@ A modern reader may hear "prophet" and think of someone who predicts the future,
 **World Hearing:**
 In this world, prophets are still active — Spirit-led figures who move between communities — but their place is being negotiated alongside emerging local offices.
 
+**Confidence:**
+Documented within this community's own record — the Didache directly attests these tests — but single-source, and not established as universal practice across this world's other communities.
+
 ---
 
 ## Key Sources
 
-Didache 10–13, 15 (prophets, their testing, and their relation to bishops and deacons). Hermas, Shepherd, Mandate 11 (testing the true and false prophet).
+Didache 11–13 (tests for genuine versus false prophets), 15:1 (transition to local office).
+
+Note: within this world's own Native evidentiary base, these specific tests for prophets are single-source — the Didache alone attests them. (Hermas, Shepherd, Mandate 11 addresses testing true and false prophets in the wider historical record and is a topical parallel, but its correspondence to this specific community's own practice is not established by this world's own sources.)

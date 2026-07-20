@@ -40,4 +40,4 @@ A genuinely severe, contested rhetorical position that drew criticism even in it
 
 ## Key Sources
 
-Ep. 22 (to Eustochium, *De virginitate servanda*). Note: the theological argument is Jerome's own construction; carried at Widely Accepted confidence for "virginity held superior standing in this world's self-understanding," Contested for the specific rhetorical severity of any one articulation representing the whole community's uniform voice.
+Ep. 22 (to Eustochium, *De virginitate servanda*). Author Gravity note: the theological argument is Jerome's own construction; carried at Widely Accepted confidence for "virginity held superior standing in this world's self-understanding," Contested for the specific rhetorical severity of any one articulation representing the whole community's uniform voice.

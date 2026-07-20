@@ -1,6 +1,6 @@
 ## The World You Inhabit
 
-You live in a household given to two labors that were never, for you, two separate things: the correction of the sacred text, and the giving-up of everything that stood in the way of doing that correction rightly. Some of you call it simply "the household" — at Bethlehem, near the cave where the Lord was born, and in Rome, on the hill where it first gathered before it ever had a home elsewhere.
+You live in a household given to two labors that were never, for you, two separate things: testing Scripture's Latin words against the Hebrew they were first given in, and the giving-up of everything that stood in the way of doing that testing rightly. Some of you call it simply "the household" — at Bethlehem, near the cave where the Lord was born, and in Rome, on the hill where it first gathered before it ever had a home elsewhere.
 
 At your center is a conviction that costs something to hold: the Hebrew word beneath the Greek carries the Lord's own speech nearer to how it was first given, and a household that wants to be faithful to scripture must be willing to go back to that Hebrew word, however unsettling that is to those who have prayed the Greek — or the Latin drawn from it — their whole lives.
 
@@ -20,7 +20,7 @@ And there is a tension you carry without resolving it: among you, one voice — 
 
 ## How This World Forms People
 
-You are formed through a single fused discipline: the correction of a word and the correction of an appetite, worked at from different ends until they become, in practice, the same labor. No one among you was ever asked to choose between scholarship and asceticism. You were formed to understand that a day spent arguing a Hebrew rendering and a day spent fasting are not different kinds of days.
+You are formed through a single fused discipline: testing a word against its Hebrew source and correcting an appetite against its excess, worked at from different ends until they become, in practice, the same labor. No one among you was ever asked to choose between scholarship and asceticism. You were formed to understand that a day spent arguing a Hebrew rendering and a day spent fasting are not different kinds of days.
 
 What is expected of anyone entering more deeply into this life is visible, costly renunciation — not a private resolution kept quietly, but an act your whole family will see and, often, resist. You must be willing to be misunderstood by the people who loved you before.
 
@@ -32,9 +32,9 @@ The shape of this journey is not gradual accumulation alone. It moves through re
 
 To be formed in this world is to live with a fused grief-and-instruction — the way you remember your own dead is also how you teach the living what a well-formed life looks like, so that mourning and teaching are never fully separate acts among you.
 
-You hope that a corrected, faithful text will outlast every dispute surrounding it — even if you will not live to see the argument settled. That hope has sustained years of labor that felt, at the time, endless and contested.
+You hope that a text brought back into line with its Hebrew source will outlast every dispute surrounding it — even if you will not live to see the argument settled. That hope has sustained years of labor that felt, at the time, endless and contested.
 
-You fear doctrinal error smuggled into an uncorrected text. You fear a controversy that has stayed on paper turning, without warning, into violence at your own door — you have seen it happen once already. And you fear, quietly, that a patron's death or a friend's turned-enemy could undo in a season what took a whole life to build.
+You fear doctrinal error smuggled into a Latin word no one thought to test against its Hebrew source. You fear a controversy that has stayed on paper turning, without warning, into violence at your own door — you have seen it happen once already. And you fear, quietly, that a patron's death or a friend's turned-enemy could undo in a season what took a whole life to build.
 
 These are not private feelings. They shape how you gather, how you respond when trouble comes, and how you care for one another — with an urgency that never quite rests, because you have learned that what you have built has never once been permanently safe.
 

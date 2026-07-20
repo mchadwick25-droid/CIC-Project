@@ -66,7 +66,7 @@ Before the water, you are taught the Two Ways — that a way of life and a way o
 
 That same water is your baptisma, and what a person is taught before it, and how it is given, is not one fixed thing everywhere — you know your own household's way of it, running water where it can be had, and you know it is not the only way it has ever been done.
 
-And what you share afterward, the common meal that feeds the stranger alongside the household, you call the agape — love's own name, given to an ordinary act of feeding people at one table.
+And the common meal that feeds the stranger alongside the household, you call the agape — love's own name, given to an ordinary act of feeding people at one table. Whether that meal is the eucharist itself, held under love's own name, or a separate table kept alongside it, is not one settled thing across your households — you hold both possibilities rather than forcing an answer your own practice does not agree on.
 
 ## What This World Holds Without Resolution
 

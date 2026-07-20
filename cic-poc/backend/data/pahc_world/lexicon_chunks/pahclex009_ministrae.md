@@ -41,8 +41,13 @@ A modern reader may assume either that early Christianity was egalitarian in way
 **World Hearing:**
 This world's evidence shows women in recognized service — ministrae — but the details come from an outsider's report. We hold the evidence honestly rather than overclaiming what we know.
 
+**Confidence:**
+Documented that the term and the report itself exist — Pliny's letter is a real, dateable primary source. Inferential-Thin for what it tells us about these women's actual role: whether "ministrae" corresponds to this world's own diakonos office, whether it names a recognized office at all, and whether their service matched what any other community would call by that name are not settled by this world's own evidence.
+
 ---
 
 ## Key Sources
 
 Pliny, Letters 10.96 (to Trajan, mentioning ministrae tortured for information).
+
+Note: this is the sole source for this term within this world's own Native evidentiary base — maximal single-witness dependency, extracted moreover under torture, a method ancient jurists themselves distrusted.

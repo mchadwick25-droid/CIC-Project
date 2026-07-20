@@ -40,7 +40,7 @@ A rupture that was simultaneously doctrinal, personal, and political — the thr
 
 ## Key Sources
 
-Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.
+Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.
 
 ---
 

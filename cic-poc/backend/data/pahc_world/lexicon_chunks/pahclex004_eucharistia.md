@@ -46,11 +46,16 @@ In this world, eucharistia names what happens at the table — thanksgiving over
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines, practices, or understands the eucharist.
 
+**Confidence:**
+Documented for the baseline practice — thanksgiving over bread and cup is independently attested across every strand of this world's evidence. Contested for Justin's fuller account specifically: whether it represents a genuinely wider, network-level development or one community's own particular elaboration that happened to survive in unusual detail is not resolved by this world's own evidentiary base (see CT Contest Type below).
+
 ---
 
 ## Key Sources
 
-Didache 9–10, 14 (thanksgiving prayers over cup and bread). Ignatius, Letter to the Smyrnaeans 8, Letter to the Ephesians 20 (one eucharist under the bishop). Justin Martyr, First Apology 65–67 (the Sunday gathering and thanksgiving).
+Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the "one eucharist" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the "one eucharist" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).
+
+Note: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.
 
 ---
 

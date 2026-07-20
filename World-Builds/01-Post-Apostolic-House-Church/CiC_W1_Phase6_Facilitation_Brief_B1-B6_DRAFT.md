@@ -99,3 +99,45 @@ This document is now drafted in full — Section A and Section B items B1 throug
 *Governance-version note, independently re-verified 2026-07-09: `CiC_L3D_Facilitator_Governance_V3.6.docx` is confirmed present in the canonical `L3D-Encounter-Methodology` folder (file timestamp newer than V3.4's). This document has not been independently re-checked line-by-line against V3.6's own text; nothing in B7 depends on that text specifically — B7 states the handoff mechanism does not yet exist rather than describing one — so this is noted for completeness, not as an open dependency.*
 
 **Even once this document reaches "Approved to proceed" or "Frozen," this world should not be exposed to real participants until the Facilitator-handoff mechanism named in B7 actually exists and Phase Five's Relational Safety probe is rerun successfully against it.** That is a separate, still-outstanding piece of work from this document's own disposition.
+
+---
+
+## ADDENDUM (2026-07-19, System Hub) — the Facilitator-handoff mechanism now exists
+
+A systematic audit of the build process and all five live worlds
+(`Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md`) flagged this
+document's own "still does not exist" language as an open safety question,
+since House-Church is live. **Checked directly against the actual code, not
+taken on claim:** the Facilitator-governed Acute-Distress/Harmful-Dynamic
+mechanism this document describes as missing was built and live-tested
+2026-07-13 — four days after this document's own "Produced" date —
+on branch `claude/cic-poc-acute-distress-mechanism`, merged into the
+`main` branch this world is deployed from. It is architecturally exactly
+what B7 calls for: the Representative is structurally never invoked on a
+firing turn (Facilitator alone speaks — no dual-presence, per the project
+lead's own later direction, "the user doesn't need two voices responding");
+no resource is named and no intervention is suggested, only a pause for a
+non-directive check-in (the project lead's own words: *"we may pause for a
+check-in if needed, but not an intervention"*); and the classifier runs on
+every message, continuously, before the Representative is ever invoked —
+`app/graph/nodes.py::classify_relational_safety`, called unconditionally at
+the top of both `/message` and `/message/stream` in `app/main.py`.
+
+**What was actually verified** (`cic-poc/docs/engineering-notes/
+SESSION_NOTES_2026-07-13_ACUTE_DISTRESS_VERIFICATION.md`): two real bugs
+found and fixed (a state-ordering bug that gave every first-time crisis
+disclosure the wrong, vague response; a compound-tag parsing failure that
+silently dropped a `RETURN_COMPULSION` signal), then 16/16 direct-call
+assertions plus live end-to-end confirmation against real streaming
+sessions — including the design doc's own A1/A2 acute-distress cases, the
+anti-false-positive rule (a long curious conversation never trips a
+signal), and de-escalation.
+
+**What this addendum does not claim:** that verification exercised the
+mechanism generically, with hand-built and adversarial test messages — it
+did not specifically rerun this document's own Phase Five Relational
+Safety probe transcript against Chloe through the new mechanism, which is
+the precise closing condition this document's Scope Note states above.
+That specific rerun is not confirmed to have happened and is worth doing
+before treating B7's own gate as formally closed, even though the
+underlying mechanism itself is now real, live, and independently verified.

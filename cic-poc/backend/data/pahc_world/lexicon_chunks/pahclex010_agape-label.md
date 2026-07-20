@@ -46,11 +46,16 @@ In this world, the relationship between the agape meal and the eucharistic thank
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how present-day traditions (such as Moravian Lovefeasts, Methodist love-feasts, or similar practices) currently define or practice the agape meal.
 
+**Confidence:**
+Documented that "agape" is a primary-source-anchored term for a real communal meal requiring the bishop's own approval (Ignatius's own usage, verified). Contested whether that meal is the same practice, a related practice in a different community, or an unconnected one from the second meal Pliny's outside report separately describes — this world's own evidentiary base does not resolve which reading is correct (see CT Contest Type below).
+
 ---
 
 ## Key Sources
 
-Ignatius, Letter to the Smyrnaeans 8 (agape requiring the bishop). Pliny, Letters 10.96 (the "ordinary and harmless food" Christians share).
+Ignatius, Letter to the Smyrnaeans 8 (agape requiring the bishop — ἀγάπην ποιεῖν in the Greek; verified against the Roberts-Donaldson/ANF translation). Pliny, Letters 10.96 (the separate, second-meal description this label is also proposed for, using no equivalent term at all — remains a source for the still-open cross-identification question).
+
+Note: an earlier draft of this entry cited only Pliny and stated that the "agape" label was not primary-source-anchored — this was incorrect. Ignatius's own letter, already cited elsewhere in this world's lexicon for a different clause in the same chapter, uses this exact term for a real communal practice. This entry has been corrected accordingly.
 
 ---
 

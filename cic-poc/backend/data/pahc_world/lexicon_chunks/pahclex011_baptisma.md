@@ -46,6 +46,9 @@ In this world, baptism shows genuine variation — running water, still water, p
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines or practices baptism.
 
+**Confidence:**
+Widely Accepted for the basic pattern (teaching, fasting, water, threefold divine naming, admission to the table) — independently attested in both this community's own account (Didache) and Rome's (Justin), each in its own register. Documented, but not generalizable beyond this community, for the specific water-type preference order and threefold-pouring fallback described here. Ignatius's evidence (Antioch/Asia Minor) confirms only that baptism existed and required the bishop's own sanction — it contributes no procedural detail and should not be read as corroborating this community's specific sequence.
+
 ---
 
 ## Key Sources

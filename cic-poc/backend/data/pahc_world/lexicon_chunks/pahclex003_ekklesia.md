@@ -44,8 +44,11 @@ In this world, ekklesia names the gathered people themselves — portable, witho
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines or understands the church.
 
+**Confidence:**
+Documented. Every extant voice in this world's own record — 1 Clement, Ignatius, Polycarp, and the Didache — independently uses this term as the community's own self-designation; this is among the most securely attested points in this world's entire vocabulary.
+
 ---
 
 ## Key Sources
 
-Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described).
+Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).

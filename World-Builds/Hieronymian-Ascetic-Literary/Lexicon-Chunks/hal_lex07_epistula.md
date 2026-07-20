@@ -39,4 +39,4 @@ The letter was itself a formation event, not a report of one.
 
 ## Key Sources
 
-The entire surviving primary-voices corpus for this world is epistolary. Note: this term's overwhelming attestation is partly an artifact of the source base itself being almost entirely epistolary — its formation-centrality rests on independent dependency/explanatory evidence (e.g., the Rome/Bethlehem coherence it made possible), not on source-type circularity alone.
+The entire surviving primary-voices corpus for this world is epistolary. Author Gravity/evidentiary-circularity note: this term's overwhelming attestation is partly an artifact of the source base itself being almost entirely epistolary — its formation-centrality rests on independent dependency/explanatory evidence (e.g., the Rome/Bethlehem coherence it made possible), not on source-type circularity alone.

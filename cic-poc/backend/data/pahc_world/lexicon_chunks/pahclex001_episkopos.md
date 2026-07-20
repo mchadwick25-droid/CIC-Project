@@ -44,11 +44,16 @@ In this world, episkopos names a function some communities have concentrated in 
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines, practices, or understands the office of bishop.
 
+**Confidence:**
+Contested. Whether Strand A's monarchical episkopos names an already-secured office or one still being actively argued into existence — and whether that pattern was an emerging network-wide norm or a regional peculiarity of Antioch/Asia Minor — is a live, unresolved contest this world's own evidence does not settle (see CT Contest Type below).
+
 ---
 
 ## Key Sources
 
-Ignatius of Antioch, Letters to the Ephesians, Magnesians, Trallians, Philadelphians, Smyrnaeans, and to Polycarp (the seven authentic letters, Strand A). 1 Clement (Rome to Corinth, Strand B — presbyteral governance, no singular bishop). Polycarp's own self-designation as "one of the presbyters" (Letter to the Philippians).
+Ignatius of Antioch, Letters to the Ephesians, Magnesians, Trallians, Philadelphians, Smyrnaeans, and to Polycarp (the seven authentic letters, Strand A). 1 Clement chs. 42, 44 (Rome to Corinth, Strand B — presbyteral governance, no singular bishop). Hermas, Vision 2.4.3 ("presbyters who preside over the Church" — reinforcing the Strand B plural-college reading). Didache 15:1 (transitional instruction to appoint "bishops and deacons"). Polycarp's own self-designation as "one of the presbyters" (Letter to the Philippians).
+
+Note: the Strand A picture dominates the surviving evidence for this term's monarchical usage; Ignatius alone supplies it, writing under armed guard, en route to his own execution — a documented rhetorical genre whose representativeness (does he describe an already-secured reality, or argue for one not yet won?) is itself the term's own live contest. See CT Contest Type below.
 
 ---
 

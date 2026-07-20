@@ -40,4 +40,4 @@ This world heard *Hebraica veritas* as a claim with real stakes for the church's
 
 ## Key Sources
 
-Jerome's own prefaces (*Praefatio*) are the primary source for the principle's articulation; the Jerome-Augustine correspondence (Ep. 112 = Augustine's Ep. 75) for its contest; the Oea "ivy/gourd" incident (Jonah 4:6) for its concrete cost. Note: the principle's own articulation survives almost entirely in Jerome's voice; its contestedness is independently attested via Augustine, but its content is not.
+Jerome's own prefaces (*Praefatio*) are the primary source for the principle's articulation; the Jerome-Augustine correspondence (Ep. 112 = Augustine's Ep. 75) for its contest; the Oea "ivy/gourd" incident (Jonah 4:6) for its concrete cost. Author Gravity note: the principle's own articulation survives almost entirely in Jerome's voice; its contestedness is independently attested via Augustine, but its content is not.

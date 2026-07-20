@@ -40,4 +40,4 @@ A preface was an argument, addressed to real critics, not a neutral introduction
 
 ## Key Sources
 
-Jerome's own extensive corpus of prefaces (dozens survive). Note: by its very genre, a single-voice, self-justifying source type; it cannot independently corroborate its own claims.
+Jerome's own extensive corpus of prefaces (dozens survive). Author Gravity note: by its very genre, a single-voice, self-justifying source type; it cannot independently corroborate its own claims.

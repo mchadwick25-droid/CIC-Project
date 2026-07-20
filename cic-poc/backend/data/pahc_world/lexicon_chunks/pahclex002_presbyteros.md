@@ -46,11 +46,16 @@ In this world, presbyteros names those who carry the community's governance — 
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines or understands the office of presbyter or elder.
 
+**Confidence:**
+Contested. Whether Polycarp's own self-designation as "one of the presbyters" reflects institutional humility within an already-secured monarchical system, or genuine evidence that the Strand A episkopos program had not yet been locally adopted even by the men Ignatius himself addressed as bishops, is not resolved by this world's own evidence (see CT Contest Type below).
+
 ---
 
 ## Key Sources
 
-1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).
+1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — "presbyters who preside over the Church," reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).
+
+Note: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.
 
 ---
 

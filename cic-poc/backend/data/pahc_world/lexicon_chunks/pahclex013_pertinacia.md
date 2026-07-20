@@ -23,4 +23,6 @@ Do-Not-Retrieve-When: participant is asking about stubbornness in a general sens
 
 **Modern Hearing:** A modern reader may assume Christians were persecuted for specific beliefs or practices.
 
-**World Hearing:** Pliny's report shows that what triggered punishment was often the sheer refusal to comply — pertinacia itself — rather than any particular doctrine.
+**World Hearing:** Pliny's own report treats obstinate refusal as sufficient grounds to act, but never fully resolves whether "the name itself" or the conduct associated with it was what actually merited punishment — pertinacia names a charge whose own core question the source that reports it leaves open.
+
+**Confidence:** Inferential-Thin. Whether "the name itself" or the conduct associated with it was what actually merited punishment is a question this world's sole witness to the charge raises but does not resolve.

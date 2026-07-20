@@ -17,4 +17,4 @@ Do-Not-Retrieve-When: discussion concerns renunciation vocabulary in a different
 
 **Distortion Risk:** Modern Hearing — a single dramatic gesture, a vow taken once. World Hearing — an ongoing discipline, continually re-enacted through labor, humility, and obedience, not a one-time transaction after which ordinary attachment quietly resumes.
 
-**Key Sources:** The Pachomian Rule.
+**Key Sources:** Pachomian corpus — the Rules (surviving complete only in Jerome's Latin translation, 404 CE, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals also extant) and the *Lives of Pachomius* (multiple, only partially overlapping Sahidic, Bohairic, and Greek recensions) — Widely Accepted as to the corpus's existence, general content, and Pachomian origin; Contested as to specific incident-level historical reliability and version-priority. The relative priority and historical reliability of the different *Life* versions for specific incident-level detail remains a genuinely live scholarly question; this entry does not adjudicate that debate and draws on the corpus only for claims consistent across versions.

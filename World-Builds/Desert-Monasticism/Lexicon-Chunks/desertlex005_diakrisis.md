@@ -17,4 +17,4 @@ Do-Not-Retrieve-When: —
 
 **Distortion Risk:** Modern Hearing — a soft, individualized intuition, trusting one's gut. World Hearing — a skill developed relationally, under an elder's counsel, specifically oriented against self-deception (the recognition that one's own judgment is exactly what ascetic excess or vainglory can distort) — not a private feeling to be trusted uncritically.
 
-**Key Sources:** *Apophthegmata Patrum*, scattered sayings across named elders.
+**Key Sources:** *Apophthegmata Patrum* (orally transmitted sayings gathered into the Alphabetical and Systematic collections in something like their surviving written form across the 5th–6th centuries, after this world's own c. 430 closing boundary; the compilers themselves function as a distinct Author Gravity layer — shapers, not merely transcribers) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.

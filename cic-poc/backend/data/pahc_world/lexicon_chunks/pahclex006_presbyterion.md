@@ -41,8 +41,13 @@ A modern reader may hear "presbytery" and think of a denominational governing bo
 **World Hearing:**
 In this world, presbyterion names the gathered body of elders around a bishop — a council, not an institution. And it is not found everywhere.
 
+**Confidence:**
+Documented, with maximal single-witness dependency. The presbyterion and its lyre-image are directly attested in Ignatius's own letters, but no other voice in this world's evidentiary base independently corroborates the term.
+
 ---
 
 ## Key Sources
 
 Ignatius, Letter to the Ephesians 4, Letter to the Magnesians 6–7, Letter to the Philadelphians 5 (the presbyterion as harp strings around the bishop).
+
+Note: this term rests on a single voice within this world's own Native evidentiary base — Ignatius alone supplies it, with no independent corroboration elsewhere in this world's sources. See episkopos's own Key Sources for the fuller Author-Gravity caution this single-witness dependency shares.

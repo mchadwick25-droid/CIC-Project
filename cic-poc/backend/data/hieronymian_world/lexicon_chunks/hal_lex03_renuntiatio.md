@@ -40,4 +40,4 @@ A public, family-disrupting, socially contested act with real material and relat
 
 ## Key Sources
 
-Ep. 108 (Paula), Ep. 22 (Eustochium), Ep. 77 (Fabiola). Note: all three sources are Jerome's own idealizing epitaph/exhortation genre; whether the practice's totality reflects genuine complete self-impoverishment or rhetorical amplification is Contested.
+Ep. 108 (Paula), Ep. 22 (Eustochium), Ep. 77 (Fabiola). Author Gravity note: all three sources are Jerome's own idealizing epitaph/exhortation genre; whether the practice's totality reflects genuine complete self-impoverishment or rhetorical amplification is Contested.

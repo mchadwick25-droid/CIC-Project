@@ -40,7 +40,7 @@ A real, recognized, but non-office-based form of authority — neither equivalen
 
 ## Key Sources
 
-Ep. 127 (Marcella, to Principia) — the **sole** source. Note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.
+Ep. 127 (Marcella, to Principia) — the **sole** source. Author Gravity note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.
 
 ---
 

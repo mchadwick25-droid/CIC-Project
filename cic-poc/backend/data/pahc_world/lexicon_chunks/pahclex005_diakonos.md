@@ -23,6 +23,8 @@ The *diakonoi* are those set apart to serve — carrying help to the widow, the 
 
 Those set apart to serve among us — the diakonoi — do work that sits closer to our household's hospitality than to the harder arguments the letter-writers carry. They bring help to the widow, the orphan, the prisoner, the stranger who has nowhere else to eat. Their service is not a lower rank on a ladder leading to higher office — it is its own calling, grounded in the one whose care for the least reaches through their hands.
 
+In the communities Ignatius addressed, deacons are named together with bishop and presbyters as a single three-part unit, in nearly every one of his letters to us. In Rome, deacons serve too — Justin describes them carrying the eucharistic bread and cup to those who could not be present — but without any accompanying claim that they form a named third tier of a developed hierarchy the way Ignatius's letters describe. The office itself is not confined to one region; being named as part of an explicit three-part structure is.
+
 In some of our communities, women hold this service alongside men. Pliny's report mentions ministrae — servant-women — whom he tortured for information about what Christians do. We do not fully know what they themselves would say about their own work, but we know the service itself belongs to them.
 
 ---
@@ -44,8 +46,11 @@ In this world, diakonos names those whose work is service itself — carrying he
 **Living Tradition Note:**
 This entry describes this world's own formation ecology (c.70–200 CE). It makes no claim about how any present-day tradition currently defines or understands the diaconate.
 
+**Confidence:**
+Widely Accepted. The diaconal office itself is independently attested in both Strand A (Ignatius) and Strand B (Justin) evidence; only its explicit naming as a fixed third tier of a developed hierarchy is a Strand A framing, not attested as universal.
+
 ---
 
 ## Key Sources
 
-Ignatius, Letter to the Magnesians 6, Letter to the Trallians 2–3 (deacons alongside bishops and presbyters). Didache 15 (electing bishops and deacons). Pliny, Letters 10.96 (ministrae tortured for information).
+Ignatius, Letter to the Magnesians 6, Letter to the Trallians 2–3 (deacons named alongside bishops and presbyters, Strand A's threefold hierarchy). Justin Martyr, First Apology 65–67 (Rome, Strand B — deacons distributing the eucharistic elements to those who could not be present, with no accompanying three-tier hierarchical framing). Didache 15:1 (transitional instruction naming bishops and deacons together). Pliny, Letters 10.96 (ministrae tortured for information — see that term's own entry for the fuller discussion).

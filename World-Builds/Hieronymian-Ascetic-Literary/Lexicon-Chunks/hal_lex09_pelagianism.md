@@ -39,4 +39,4 @@ A dispute this world experienced, at least once, as physical violence at its own
 
 ## Key Sources
 
-Jerome's own account (letter to Riparius). Note: notably vague on casualty/detail specifics; this world's own record does not supply the precision a modern account might expect, and none is manufactured here.
+Jerome's own account (letter to Riparius). Author Gravity note: notably vague on casualty/detail specifics; this world's own record does not supply the precision a modern account might expect, and none is manufactured here.
