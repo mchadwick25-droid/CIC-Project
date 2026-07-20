@@ -21,6 +21,20 @@ export function LexiconHighlight({
   const [tooltipShift, setTooltipShift] = useState(0);
   const spanRef = useRef<HTMLSpanElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
+  // Tracks the pointer type (mouse/touch/pen) behind the MOST RECENT
+  // pointerdown on this term - a ref, not state, since updating it must
+  // never itself trigger a render; it only needs to be current by the time
+  // handleClick reads it, and pointerdown always fires before click. This
+  // is a per-interaction check, not a one-time device/viewport check - see
+  // the Decision Log for why that was chosen (it's what lets a hybrid
+  // touch+mouse device get the correct grammar per-tap, and it's the only
+  // approach of the ones considered that's actually exercisable against a
+  // desktop-Chromium dev server, which never reports (hover:none) even at
+  // a phone viewport width). Defaults to 'mouse' so a keyboard ('Enter'
+  // -triggered click with no preceding pointerdown) gets today's desktop
+  // behavior rather than landing on a popover with no easy second gesture
+  // to act on.
+  const lastPointerTypeRef = useRef<string>('mouse');
 
   const TOOLTIP_WIDTH = 280;
   const VIEWPORT_MARGIN = 12;
@@ -50,11 +64,71 @@ export function LexiconHighlight({
     }
   }, [showTooltip]);
 
+  const handlePointerDown = (event: React.PointerEvent<HTMLSpanElement>) => {
+    lastPointerTypeRef.current = event.pointerType;
+  };
+
+  // Read FRESH from the ref every time, never captured into a render-scoped
+  // const - handleClick's closure is fixed at the render that last ran
+  // BEFORE the tap (pointerdown mutating the ref doesn't itself trigger a
+  // re-render), so a render-time snapshot of "is this touch" would still be
+  // whatever it was at mount, not what the ref holds by the time the click
+  // this pointerdown precedes actually fires. This was a real bug caught in
+  // testing (dispatching a synthetic touch pointerdown+click still opened
+  // Level-3 directly) - see the Decision Log.
+  const isTouch = () => lastPointerTypeRef.current === 'touch';
+
   const handleClick = () => {
+    if (isTouch()) {
+      // Phone tap grammar (Build Handoff Increment 1 V1.0 §3): a tap shows
+      // the Level-2 popover only - it does NOT open Level-3 directly. The
+      // popover's own "Full entry ->" footer (below) is the only thing
+      // that opens Level-3 on touch.
+      setShowTooltip(true);
+      return;
+    }
+    // Desktop/mouse - unchanged from before this fix: hover already showed
+    // the Level-2 popover, so a click advances straight to Level-3.
     if (onDetailClick) {
       onDetailClick(term);
     }
   };
+
+  // The popover's "Full entry ->" action - the only way Level-3 opens on
+  // touch. stopPropagation keeps this from also bubbling into handleClick
+  // above (which would be a no-op today since isTouch() is already true at
+  // that point, but relying on that would be fragile).
+  const handleFullEntryClick = (event: React.MouseEvent) => {
+    event.stopPropagation();
+    setShowTooltip(false);
+    if (onDetailClick) {
+      onDetailClick(term);
+    }
+  };
+
+  // Touch-only: tapping outside the term AND its open popover dismisses it,
+  // the same job mouseleave does on desktop (desktop doesn't need this
+  // listener - mouseleave already covers it, and adding a pointerdown
+  // listener there too would be redundant, not incorrect, but unnecessary
+  // work on every desktop hover). Bound in the capture phase so it sees
+  // the tap before any stopPropagation() elsewhere in the tree. Gated on
+  // isTouch() at effect-run time (after showTooltip commits), not a
+  // dependency-array snapshot - same staleness reasoning as handleClick.
+  useEffect(() => {
+    if (!showTooltip || !isTouch()) {
+      return;
+    }
+    const handleOutsidePointerDown = (event: PointerEvent) => {
+      if (spanRef.current && !spanRef.current.contains(event.target as Node)) {
+        setShowTooltip(false);
+      }
+    };
+    document.addEventListener('pointerdown', handleOutsidePointerDown, true);
+    return () => {
+      document.removeEventListener('pointerdown', handleOutsidePointerDown, true);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showTooltip]);
 
   return (
     <span
@@ -62,6 +136,7 @@ export function LexiconHighlight({
       className="lexicon-term"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
+      onPointerDown={handlePointerDown}
       onClick={handleClick}
     >
       {matchedText}
@@ -77,9 +152,13 @@ export function LexiconHighlight({
           <div className="lexicon-tooltip__content">
             {term.quick_meaning || 'No definition available.'}
           </div>
-          <div className="lexicon-tooltip__footer">
-            Click for full entry
-          </div>
+          <button
+            type="button"
+            className="lexicon-tooltip__footer"
+            onClick={handleFullEntryClick}
+          >
+            {isTouch() ? 'Full entry →' : 'Click for full entry'}
+          </button>
         </div>
       )}
     </span>

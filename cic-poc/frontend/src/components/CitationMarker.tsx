@@ -26,6 +26,11 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
   const [tooltipPosition, setTooltipPosition] = useState<'above' | 'below'>('above');
   const [tooltipShift, setTooltipShift] = useState(0);
   const markerRef = useRef<HTMLSpanElement>(null);
+  // See LexiconHighlight's identical ref for the full rationale - tracks
+  // the pointer type of the most recent pointerdown on this marker so
+  // handleClick can tell a touch tap from a desktop click, per-interaction
+  // rather than via a one-time device/viewport check.
+  const lastPointerTypeRef = useRef<string>('mouse');
 
   const TOOLTIP_WIDTH = 280;
   const VIEWPORT_MARGIN = 12;
@@ -51,11 +56,55 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
     }
   }, [showTooltip]);
 
+  // Read FRESH from the ref every time - see LexiconHighlight's identical
+  // isTouch() for why this must be a function, not a render-scoped const
+  // (a real stale-closure bug caught in testing: a captured boolean would
+  // reflect whatever the ref held at the LAST render, not what pointerdown
+  // just set it to, since mutating a ref doesn't itself trigger a render).
+  const isTouch = () => lastPointerTypeRef.current === 'touch';
+
+  // Touch-only outside-tap dismiss - mirrors LexiconHighlight's identical
+  // effect. Declared before the citations-empty early return below so hook
+  // order stays unconditional across renders (Rules of Hooks).
+  useEffect(() => {
+    if (!showTooltip || !isTouch()) {
+      return;
+    }
+    const handleOutsidePointerDown = (event: PointerEvent) => {
+      if (markerRef.current && !markerRef.current.contains(event.target as Node)) {
+        setShowTooltip(false);
+      }
+    };
+    document.addEventListener('pointerdown', handleOutsidePointerDown, true);
+    return () => {
+      document.removeEventListener('pointerdown', handleOutsidePointerDown, true);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showTooltip]);
+
   if (!citations || citations.length === 0) {
     return null;
   }
 
+  const handlePointerDown = (event: React.PointerEvent<HTMLSpanElement>) => {
+    lastPointerTypeRef.current = event.pointerType;
+  };
+
   const handleClick = () => {
+    if (isTouch()) {
+      // Phone tap grammar (Build Handoff Increment 1 V1.0 §3): a tap shows
+      // the Level-2 popover only, same as LexiconHighlight.
+      setShowTooltip(true);
+      return;
+    }
+    if (onDetailClick) {
+      onDetailClick(citations);
+    }
+  };
+
+  const handleFullSourcesClick = (event: React.MouseEvent) => {
+    event.stopPropagation();
+    setShowTooltip(false);
     if (onDetailClick) {
       onDetailClick(citations);
     }
@@ -67,6 +116,7 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
       className="citation-marker"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
+      onPointerDown={handlePointerDown}
       onClick={handleClick}
       aria-label={`${citations.length} source${citations.length > 1 ? 's' : ''} for this turn`}
     >
@@ -91,7 +141,13 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
               <div className="citation-tooltip__more">+{citations.length - 4} more</div>
             )}
           </div>
-          <div className="citation-tooltip__footer">Click for full sources</div>
+          <button
+            type="button"
+            className="citation-tooltip__footer"
+            onClick={handleFullSourcesClick}
+          >
+            {isTouch() ? 'Full entry →' : 'Click for full sources'}
+          </button>
         </div>
       )}
     </span>
