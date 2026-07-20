@@ -338,9 +338,9 @@ export function TheTable() {
               onTermClick={handleTermClick}
               onCitationClick={handleCitationClick}
               allowedTermKeys={firstOccurrenceKeysByIndex[index]}
-              worldColors={Object.fromEntries(selectedWorlds.map(w => [
+              worldNames={Object.fromEntries(selectedWorlds.map(w => [
                 w.representative.name.toLowerCase().replace(' ', '_'),
-                w.color
+                w.name
               ]))}
             />
           ))}
@@ -390,9 +390,9 @@ export function TheTable() {
             onTermClick={handleTermClick}
             onCitationClick={handleCitationClick}
             allowedTermKeys={firstOccurrenceKeysByIndex[index]}
-            worldColors={Object.fromEntries(selectedWorlds.map(w => [
+            worldNames={Object.fromEntries(selectedWorlds.map(w => [
               w.representative.name.toLowerCase().replace(' ', '_'),
-              w.color
+              w.name
             ]))}
           />
         ))}
