@@ -51,6 +51,38 @@ compliance script) handed to a new disciplined successor thread —
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
+- [ ] **⚠ URGENT, NEW 2026-07-20 — Possible cross-request/cross-session content
+      leak in `cic-poc/backend`, found incidentally during live testing, root
+      cause NOT established.** A live API response (Theon's turn in a real
+      multi-world session) contained a full, unrelated block that has nothing
+      to do with this project — a request to build a deceptive e-commerce
+      page with a fake countdown timer, followed by a generic AI-refusal
+      citing FTC/CMA/EU consumer law. Confirmed real (raw JSON response
+      content field, not a display artifact), confirmed not MOCK_LLM (was
+      off), confirmed no matching fixture file exists in the codebase.
+      Independently caught by a blind Opus grader reading the same
+      transcript, who also declined to act on it. **This is a potential
+      data-isolation/privacy defect, not a Representative-construction
+      issue** — multiple sessions were running this same local dev server
+      concurrently today, which is the leading hypothesis, but this needs a
+      real, dedicated investigation into the streaming/session-handling code
+      path before it's understood, let alone fixed. Evidence:
+      `tableB_full_transcript_EVIDENCE_COPY.txt` and the raw response JSON,
+      in this session's scratchpad; full account in the decision log,
+      2026-07-20 (multi-world anchoring entry).
+- [x] **DONE 2026-07-20 — Multi-world address (anchoring) convention
+      operationalized across all 5 live Representatives, live-tested against
+      the real deployed app, independently Opus-graded: PASS.** Real gap,
+      corrected in scope while fixing it — Alexandria/Theon was believed to
+      already have this per his build documentation, but his actual deployed
+      prompt never got it written in, so all 5 worlds needed the fix, not 2
+      confirmed + 2 unverified. Each world's fix is in its own voice, not a
+      shared template. Tested with two real multi-world table sessions plus
+      a deliberately leading adversarial follow-up ("you all agree," "they
+      both believe the same thing") — zero unanchored "they" in any
+      Representative's turn, every world correctly refused manufactured
+      agreement. Full account, including one minor non-blocking soft-anchor
+      note (Papnoute): decision log, 2026-07-20.
 - [x] **DONE 2026-07-19 — `CiC-L1L3-Foundation` checked and reconciled into
       `main`.** Constitution 2.2→2.3 (Movement-Scope Principle, Source Registry
       amendment), Construction Framework V7.4 DRAFT, Source Registry system,

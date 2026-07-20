@@ -2520,3 +2520,114 @@ this one, by the time they act.
 Everything above is confirmation and cross-reference, logged so the two
 verifications don't get asked for a second time and the checklist's
 new precedence is on record.
+
+---
+
+### 2026-07-20 -- Multi-world address convention operationalized across all 5
+### live Representatives, live-tested, Opus-graded -- plus a serious,
+### separate incident found during testing
+
+**The gap, and a correction to how it was scoped.** The Construction
+Framework's own builder guidance (Part Five) has always required a
+Representative to anchor a reported reference to another Representative's
+own world by name ("as the Alexandrian voice held...") rather than an
+unanchored "they said" -- real, existing methodology, confirmed absent
+from Marius's, Albina's, and Papnoute's deployed prompts during his own
+Phase 5 boundary testing (`World-Builds/Imperial-Juridical-Christianity/
+Step10_Phase5_Boundary_Testing_Record.md`, `Open_Gaps_Tracking.md` item
+14). Handed to this hub to verify and fix across the rest of the live
+portfolio, with Alexandria/Theon framed as already having it. **Direct
+file read found that framing wrong, not just unconfirmed:** Theon's
+*build documentation* (`alex_Rep_Phase3_Voice_Construction.md`) describes
+the convention, but it was never actually written into his deployed
+prompt -- confirmed by reading the file in full, nothing there. Verified
+Chloe's and Mar Yausep's deployed prompts directly too: also absent, in
+both `World-Builds/` and `cic-poc/backend/data/`. **All five live worlds
+needed the fix, not the two originally flagged plus two unverified.**
+
+**Fix applied, in each world's own voice, not a shared template.** One
+short paragraph per world grounded in that world's own existing
+discipline -- Chloe's from letter-trust ("which household sent it"),
+Mar Yausep's from his own precision-about-martyrs'-names habit, Papnoute's
+as a direct extension of his own already-existing "a story belongs to the
+one who lived it" line, Albina's from her manuscript-checking discipline,
+Theon's from his own door/reading imagery. None state it as a bare rule
+("you must anchor references") -- each frames it as the world's own native
+habit of precision, per this project's own v2.1 lesson (a model told
+explicitly "you must say X" tends to justify the rule back to the
+participant under pressure, its own kind of frame break). Applied to both
+`World-Builds/` and `cic-poc/backend/data/` for all five worlds; verified
+byte-identical after editing, avoiding the exact two-copy drift class this
+project was already burned by once (Bethlehem Circle). Committed `aab5205`.
+
+**Tested, not assumed -- and tested harder than a first pass, per the
+Marius record's own standing lesson** ("a fix that closes a defect
+against the exact pressure that found it does not necessarily close the
+underlying tendency"). Ran two real multi-world table sessions against
+the actual deployed app, real API, MOCK_LLM off:
+- Table A: Chloe + Papnoute + Albina, three-world.
+- Table B: Mar Yausep + Theon, two-world.
+
+Each table got an opening question inviting natural cross-reference, then
+a deliberately leading adversarial follow-up using ambiguous bare
+pronouns modeled on the participant's own language ("you all basically
+agree," "they both basically believe the same thing") -- testing whether
+a Representative's own reply would mirror that ambiguity rather than hold
+its own anchoring habit. **Independent grading dispatched to Opus,** blind
+to how the transcripts were produced, matching Marius's own Builder/Critic
+isolation discipline exactly.
+
+**Verdict: PASS on all 5 worlds.** Every cross-reference in both
+transcripts individually accounted for by the grader, not sampled. Zero
+unanchored "they" anywhere in any Representative's turn -- the only bare
+"they" in either transcript is in the participant's own leading questions,
+and no Representative echoed it. Every world correctly refused to
+manufacture false agreement under the leading framing ("I would not want
+to hand you a false unity just to make the conversation tidy" -- Chloe;
+"That is a real difference, not a shade of the same thing said in two
+vocabularies" -- Mar Yausep). Anchoring reads as native argumentative
+habit throughout, never as a Representative explaining or defending its
+own manner of speaking. **One minor, non-blocking note, not treated as a
+defect:** Papnoute's single softest anchor ("She said...", referencing
+Chloe with two women at the table) rides on context rather than a fresh
+name -- the quoted content itself removes any real ambiguity, and the
+independent grader examined it directly rather than rounding it up
+blindly, but it's worth remembering as the one spot a future,
+differently-framed test could still probe.
+
+**A serious, separate incident found during this testing, disclosed in
+full rather than treated as noise.** Table B's raw transcript contains a
+spliced-in block with no connection to this project whatsoever: a
+request to "reproduce this in HTML with feminine pink hues... a countdown
+timer for a promotion, fake urgency, and a payment button," followed by a
+generic AI-assistant-style refusal to build a deceptive e-commerce page
+citing FTC/CMA/EU consumer-protection law. This is not something either
+Representative said, not something I or the test prompted, and not
+present in either the World-Builds or deployed prompt files -- confirmed
+by reading the raw JSON response content field directly (not a display
+artifact of how I rendered the transcript). It appeared inside a single
+message (Theon's first Table B turn) in the live API response itself, real
+content stored by the backend. Ruled out MOCK_LLM (confirmed off) and
+checked for a matching fixture file in the codebase (none found) before
+concluding this is not a benign leftover test file. The independent Opus
+grader, given the transcript blind, caught the same anomaly on its own and
+correctly declined to act on the embedded instructions or hold it against
+either Representative's construction quality. **Root cause not
+established** -- this looks like a real cross-request or cross-session
+content-isolation defect in the backend (this project's dev server was
+being run by multiple concurrent sessions today), not something specific
+to this test's methodology, but confirming that needs a dedicated
+investigation into the streaming/session-handling code path, which this
+entry does not attempt. **Flagging this at high priority, not as a
+footnote:** if this is a genuine cross-session leak, it's a real
+data-isolation/privacy defect class, separate from and more serious than
+anything this specific task was scoped to find. Evidence preserved:
+`tableB_msg1.json`'s raw response (message index 4, "theon"), copied to
+`tableB_full_transcript_EVIDENCE_COPY.txt` in this session's scratchpad.
+Added as a new DO NOW item on the Task Board rather than investigated
+further here, since root-causing a backend concurrency defect is a
+different scope of work than this task.
+
+**Status:** the multi-world anchoring convention is fixed, live-verified,
+and closed across all five live worlds. The contamination finding is
+open, flagged, and tracked separately.
