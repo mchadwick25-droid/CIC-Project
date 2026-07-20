@@ -51,25 +51,32 @@ compliance script) handed to a new disciplined successor thread —
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
-- [ ] **⚠ URGENT, NEW 2026-07-20 — Possible cross-request/cross-session content
-      leak in `cic-poc/backend`, found incidentally during live testing, root
-      cause NOT established.** A live API response (Theon's turn in a real
-      multi-world session) contained a full, unrelated block that has nothing
-      to do with this project — a request to build a deceptive e-commerce
-      page with a fake countdown timer, followed by a generic AI-refusal
-      citing FTC/CMA/EU consumer law. Confirmed real (raw JSON response
-      content field, not a display artifact), confirmed not MOCK_LLM (was
-      off), confirmed no matching fixture file exists in the codebase.
-      Independently caught by a blind Opus grader reading the same
-      transcript, who also declined to act on it. **This is a potential
-      data-isolation/privacy defect, not a Representative-construction
-      issue** — multiple sessions were running this same local dev server
-      concurrently today, which is the leading hypothesis, but this needs a
-      real, dedicated investigation into the streaming/session-handling code
-      path before it's understood, let alone fixed. Evidence:
-      `tableB_full_transcript_EVIDENCE_COPY.txt` and the raw response JSON,
-      in this session's scratchpad; full account in the decision log,
-      2026-07-20 (multi-world anchoring entry).
+- [ ] **⚠ URGENT, INVESTIGATED 2026-07-20 — Content-isolation defect in
+      `cic-poc/backend`, real, root cause still NOT established after a
+      genuine investigation.** A live API response (Theon's turn in a real
+      multi-world session) contained a full, unrelated block — a request to
+      build a deceptive e-commerce page, followed by a generic AI-refusal
+      citing consumer-protection law. Confirmed real; independently caught
+      by a blind Opus grader. **Investigation done, not just flagged:** ruled
+      out MOCK_LLM and a fixture file; audited the exact code path that
+      generated it (`multi_representative_engages` → `representative_engages`
+      → `get_llm`/`_cached_system_message`) line by line — clean, no shared
+      buffer or cache-key collision found; resolved a process-topology red
+      herring (two live python processes turned out to be a normal
+      reloader/worker pair, not a duplicate server); attempted reproduction
+      twice under real concurrent load (2-way and 5-way simultaneous
+      requests, unique marker words per request) — **could not reproduce
+      either time.** Leading remaining hypothesis: something below the
+      application layer (HTTP connection-pooling/keep-alive in the
+      `anthropic`/`httpx` client stack — versions logged in the decision
+      log) or tied to process state no longer inspectable after the fact.
+      **Recommended next step:** add per-request ID tagging to every
+      `get_llm()` call, logged alongside the raw response, so a recurrence
+      is traceable instead of reconstructed after the fact — not done here,
+      separate scope. Full account, including the full audit trail: decision
+      log, 2026-07-20 (content-isolation investigation entry). Evidence
+      preserved: `tableB_full_transcript_EVIDENCE_COPY.txt` and the raw
+      response JSON, in this session's scratchpad.
 - [x] **DONE 2026-07-20 — Multi-world address (anchoring) convention
       operationalized across all 5 live Representatives, live-tested against
       the real deployed app, independently Opus-graded: PASS.** Real gap,

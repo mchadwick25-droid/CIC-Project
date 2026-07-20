@@ -2631,3 +2631,100 @@ different scope of work than this task.
 **Status:** the multi-world anchoring convention is fixed, live-verified,
 and closed across all five live worlds. The contamination finding is
 open, flagged, and tracked separately.
+
+---
+
+### 2026-07-20 -- Content-isolation incident: real investigation run,
+### app-code audit clean, reproduction attempted and failed, root cause
+### not established -- disclosed honestly rather than closed on a guess
+
+Mark asked this to be investigated directly, calling it significant.
+Ran a genuine investigation, not a guess dressed up as one. What was
+actually done, in order:
+
+**1. Ruled out the two cheap, mundane explanations first.**
+`MOCK_LLM` confirmed off in `backend/.env` (`# MOCK_LLM=true`, commented
+out). Searched the entire codebase for the contaminated text ("feminine
+pink," "countdown timer," "fake urgency") -- zero matches outside
+unrelated `torch` package files matching only on the generic word
+"timer." No mock fixture or test data file explains this.
+
+**2. Found and resolved a real, if ultimately unrelated, process
+anomaly.** `Get-Process python` showed two live `uvicorn --reload`
+processes at the moment of investigation. Traced the actual parent/child
+relationship via `Get-CimInstance Win32_Process`: a clean single lineage
+(reloader parent -> worker child -> a `multiprocessing` spawn-helper
+grandchild) -- normal `--reload` behavior, not a duplicate/competing
+server. This doesn't rule out an earlier, already-exited process having
+been in a genuinely overlapping state at the actual moment of the
+original test (this session started and stopped several backend
+processes over the course of the day), but the *current* process
+topology is not itself evidence of a bug.
+
+**3. Audited the actual code path that generated the contaminated
+message, line by line.** Table B's contamination landed in Theon's turn,
+generated via the non-streaming `/api/session/{id}/message` endpoint's
+multi-world path -> `multi_representative_engages()` ->
+`representative_engages()` -> `get_llm()` + `llm.invoke()`. Read all four
+functions in full:
+- `multi_representative_engages()` builds a genuinely fresh
+  `ConversationState` and a new (not mutated) `working_messages` list for
+  *each* representative's turn, in a plain sequential Python `for` loop --
+  no `asyncio.gather`, no shared mutable buffer between Mar Yausep's turn
+  and Theon's turn.
+- `get_llm()` constructs a brand-new `ChatAnthropic()` client on every
+  single call -- no pooled/reused client object at the application-code
+  level.
+- `_cached_system_message()` -- despite the name -- is not a local cache
+  at all; it only attaches Anthropic's own server-side
+  `cache_control: {"type": "ephemeral"}` directive to the byte-identical
+  static portions of the prompt, a standard, documented, content-hashed
+  Anthropic API feature. Confirmed this cannot explain cross-conversation
+  mixing on its own; it does not touch the dynamic/continuation content
+  where the contamination actually appeared.
+No shared global state, cache-key collision, or unscoped buffer was found
+anywhere in this path.
+
+**4. Attempted controlled reproduction -- twice, under real concurrent
+load -- and could not trigger it.** Killed all backend processes,
+started exactly one clean instance, confirmed via process tree there was
+only one. Round 1: fired two genuinely simultaneous requests (bash
+background jobs, not sequential) to two different single-world sessions,
+each carrying a unique nonsense marker word, checking each response for
+the other's marker. Clean, no cross-talk. Round 2: same test scaled to
+five simultaneous requests across all five live worlds, five distinct
+marker words. Clean again -- zero contamination across any pair.
+
+**Honest conclusion, not rounded up to false confidence either
+direction:** the original finding is real -- confirmed via the raw JSON
+response content field (not a rendering artifact), independently caught
+by a blind Opus grader reading the same transcript cold, with a shape
+(a genuine-looking user request followed by a genuine-looking Claude-style
+refusal, both entirely unrelated to this project) that reads like
+authentic leaked content from an unrelated conversation, not a model
+hallucination. But the application-level code that generated it is clean
+on direct read, and the defect did not reproduce under two rounds of
+deliberate concurrent-load testing. This leaves the most likely remaining
+explanation as something below the application layer -- HTTP
+connection-pooling/keep-alive behavior in the `anthropic`/`httpx` client
+stack (versions in use: `anthropic` 0.116.0, `langchain_anthropic` 1.4.8,
+`httpx` 0.28.1, recorded here for anyone doing follow-up research into
+known issues in these versions) -- or something tied to the exact,
+no-longer-inspectable process state at the moment it happened, given this
+session had started and stopped multiple backend instances that same day.
+**Not claiming either of those as confirmed** -- naming them as the
+honest state of the evidence, not a diagnosis.
+
+**Recommended next step, not undertaken here since it's a different scope
+of work:** add lightweight per-request ID tagging to every `get_llm()`
+call and log it alongside the raw response, so if this recurs, the exact
+request boundary is traceable instead of having to reconstruct it after
+the fact from a transcript alone. Worth building before the next live
+testing pass that generates real conversation content, given the
+significance of this defect class if it turns out to be a genuine,
+if rare, cross-request leak.
+
+**Status:** investigated in good faith, real evidence gathered, root
+cause not established, reproduction attempted and failed. Left open on
+the Task Board with this full account rather than closed on either an
+unfounded guess or false reassurance.
