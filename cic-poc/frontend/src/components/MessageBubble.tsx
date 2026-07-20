@@ -73,6 +73,7 @@ function getSpeakerInfo(message: Message): {
     case 'chloe':
     case 'papnoute':
     case 'albina':
+    case 'theon':
       const info = REPRESENTATIVE_INFO[speakerName] || { name: 'Representative', title: '' };
       return {
         name: info.name,
