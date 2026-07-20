@@ -6,10 +6,10 @@
  * CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md, Section 3, approved by
  * the project lead - not paraphrased or shortened here. The "known
  * limitation" paragraph from that draft is deliberately NOT included below;
- * per that same section's own note, it's shown instead as a small
- * persistent banner during the conversation itself (see RefreshWarningBanner),
- * since it's the one thing a tester needs to remember *during* the
- * conversation, not just before it.
+ * per that same section's own note, it's shown instead in the table bar's
+ * consolidated status line during the conversation itself (see TheTable's
+ * table bar, Increment 1 §2), since it's the one thing a tester needs to
+ * remember *during* the conversation, not just before it.
  */
 
 const ONBOARDING_SEEN_KEY = 'cic_onboarding_seen';

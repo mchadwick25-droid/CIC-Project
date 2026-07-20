@@ -9,37 +9,54 @@
  */
 
 :root {
-  /* Warm, earthy color palette */
-  --color-background: #f9f7f4;
-  --color-surface: #ffffff;
-  --color-text: #2d2926;
-  --color-text-muted: #6b635c;
-  --color-text-light: #8a837c;
+  /* The manuscript palette (FINAL - CiC_Full_UX_Design_V1_0.md §2.1). Names
+     kept as-is (do not restructure); each maps to the brand record's own
+     token name, noted here so a reader can match the two:
+       --color-background       = --parchment      (page ground)
+       --color-surface          = --vellum          (cards, sheets, panels)
+       --color-text              = --iron-gall       (primary text)
+       --color-text-muted        = --ink-faded        (secondary text)
+       --color-text-light        = --graphite         (tertiary/unpigmented text)
+       --color-facilitator(-text)= --graphite         (the Facilitator voice - unpigmented)
+       --color-representative*   = --gold-leaf / --gold-wash (the Representative voice)
+       --color-participant(-bg)  = --lapis / --lapis-wash
+       --color-lexicon(-bg/hover)= --tyrian / --tyrian-wash
+       --color-primary(-hover)   = --madder / --madder-deep (system action accent)
+       --color-border            = --rule
+       --color-error              = --error
+     The load-bearing change: primary actions (Begin, Send) no longer share a
+     hex value with the Representative voice - madder vs. gold-leaf, always
+     distinct now. */
+  --color-background: #F7F3EB;
+  --color-surface: #FEFCF8;
+  --color-text: #2A2521;
+  --color-text-muted: #6C6257;
+  --color-text-light: #8A837C;
 
-  /* Facilitator - subtle, neutral presence */
-  --color-facilitator: #9ca3af;
-  --color-facilitator-text: #6b7280;
+  /* Facilitator - the one unpigmented voice at the Table */
+  --color-facilitator: #8A837C;
+  --color-facilitator-text: #8A837C;
 
-  /* Representative - warm, prominent presence */
-  --color-representative: #92400e;
-  --color-representative-bg: #fef3e2;
-  --color-representative-border: #d97706;
-  --color-representative-accent: #b45309;
+  /* Representative - the gold-leaf voice of the witnesses */
+  --color-representative: #B45309;
+  --color-representative-bg: #FBF2E2;
+  --color-representative-border: #B45309;
+  --color-representative-accent: #B45309;
 
   /* Participant */
-  --color-participant: #1e40af;
-  --color-participant-bg: #eff6ff;
+  --color-participant: #1E40AF;
+  --color-participant-bg: #EEF3FB;
 
-  /* Lexicon highlighting */
-  --color-lexicon: #7c3aed;
-  --color-lexicon-bg: #f5f3ff;
-  --color-lexicon-hover: #6d28d9;
+  /* Lexicon / transparency apparatus */
+  --color-lexicon: #6B3FA0;
+  --color-lexicon-bg: #F3EFFA;
+  --color-lexicon-hover: #583488;
 
-  /* Interactive */
-  --color-primary: #b45309;
-  --color-primary-hover: #92400e;
-  --color-border: #e5e1dc;
-  --color-error: #dc2626;
+  /* System actions - deliberately distinct from the Representative's gold-leaf */
+  --color-primary: #A13E2B;
+  --color-primary-hover: #7E2F20;
+  --color-border: #E6DFD3;
+  --color-error: #C0392B;
 
   /* Spacing */
   --spacing-xs: 0.25rem;
@@ -49,11 +66,12 @@
   --spacing-xl: 2rem;
   --spacing-2xl: 3rem;
 
-  /* Typography */
-  --font-family: 'Georgia', 'Times New Roman', serif;
-  --font-family-ui: system-ui, -apple-system, sans-serif;
+  /* Typography - self-hosted Alegreya / Alegreya Sans, Georgia/system-ui
+     fallbacks so an unhydrated or slow-font state still looks right. */
+  --font-family: 'Alegreya', Georgia, 'Times New Roman', serif;
+  --font-family-ui: 'Alegreya Sans', system-ui, -apple-system, sans-serif;
   --font-size-sm: 0.875rem;
-  --font-size-base: 1rem;
+  --font-size-base: 1.0625rem;
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
   --line-height: 1.7;
@@ -102,6 +120,21 @@ body {
 .table-container--conversation {
   height: 100vh;
   overflow: hidden;
+  /* §1.3: talking, not texting - the transcript runs wide and left-anchored
+     instead of a centered 760px strip. Phone gets its own full-bleed rule
+     in the breakpoint pass (§6). */
+  max-width: min(940px, 90vw);
+  margin: 0 0 0 5%;
+}
+
+/* §3: when a Level-3 side panel is open on desktop, the transcript narrows
+   rather than letting the panel cover any of it - the panel is 420px wide,
+   anchored right:0, so the column's own right edge must clear that plus a
+   left margin equal to the column's own 5% offset plus a small gutter. */
+@media (min-width: 900px) {
+  .table-container--conversation.table-container--panel-open {
+    max-width: min(940px, calc(100vw - 420px - 5% - var(--spacing-lg)));
+  }
 }
 
 /* Header */
@@ -150,93 +183,70 @@ body {
 }
 
 /* ============================================
-   FACILITATOR MESSAGES - Minimal, neutral
+   TRANSCRIPT GRAMMAR - labeled flowing prose (§1.3)
+   "we are not texting the Representatives, we are
+   talking with them" - the bubble/card grammar is
+   struck for all three voices: no background fills,
+   no borders, no rounded boxes, no per-turn shadows.
+   Everything left-justified; three voices distinguished
+   by label + type treatment alone.
    ============================================ */
-.message--facilitator {
-  max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+.message--facilitator,
+.message--representative,
+.message--participant {
+  max-width: 100%;
 }
 
-.message-facilitator {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--spacing-sm);
-}
-
-.message-facilitator__indicator {
-  width: 3px;
-  min-height: 20px;
-  height: 100%;
-  background-color: var(--color-facilitator);
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-
-.message-facilitator__content {
-  color: var(--color-facilitator-text);
+.turn-label {
+  display: block;
   font-family: var(--font-family-ui);
   font-size: var(--font-size-sm);
-  line-height: 1.6;
-  font-style: italic;
-}
-
-.message-facilitator__content p {
-  margin-bottom: 0.3em;
-}
-
-/* ============================================
-   REPRESENTATIVE MESSAGES - Prominent, warm
-   ============================================ */
-.message--representative {
-  max-width: 95%;
-}
-
-.message-representative {
-  background: linear-gradient(135deg, var(--color-representative-bg) 0%, #fff8f0 100%);
-  border: 1px solid var(--color-representative-border);
-  border-left: 4px solid var(--color-representative-border);
-  border-radius: var(--border-radius-lg);
-  padding: var(--spacing-lg);
-  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.08);
-}
-
-.message-representative__header {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-xs);
-  margin-bottom: var(--spacing-md);
-  padding-bottom: var(--spacing-sm);
-  border-bottom: 1px solid rgba(217, 119, 6, 0.2);
-}
-
-.message-representative__name {
-  font-family: var(--font-family);
-  font-size: var(--font-size-xl);
+  font-variant: small-caps;
   font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: var(--spacing-xs);
+}
+
+.turn-label--representative {
   color: var(--color-representative);
-  letter-spacing: 0.01em;
 }
 
-.message-representative__title {
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-sm);
-  color: var(--color-representative-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.turn-label--participant {
+  color: var(--color-participant);
 }
 
-.message-representative__content {
+.turn-prose {
   font-size: var(--font-size-base);
   line-height: var(--line-height);
   color: var(--color-text);
 }
 
-.message-representative__content p {
+.turn-prose p {
   margin-bottom: 0.8em;
 }
 
-.message-representative__content p:last-child {
+.turn-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.turn-prose--italic {
+  font-style: italic;
+}
+
+/* Facilitator - the one unpigmented voice, italic graphite prose throughout,
+   no label (mirrors today's unlabeled minimal treatment). */
+.message-facilitator__content {
+  color: var(--color-facilitator-text);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  font-style: italic;
+}
+
+.message-facilitator__content p {
+  margin-bottom: 0.8em;
+}
+
+.message-facilitator__content p:last-child {
   margin-bottom: 0;
 }
 
@@ -280,7 +290,7 @@ body {
   transform: translateX(calc(-50% + var(--tooltip-shift)));
   width: 260px;
   max-width: 90vw;
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -330,7 +340,7 @@ body {
 
 .citation-tooltip__kind--story {
   color: var(--color-representative-accent);
-  background: rgba(217, 119, 6, 0.12);
+  background: color-mix(in srgb, var(--color-representative-accent) 12%, transparent);
 }
 
 .citation-tooltip__term {
@@ -370,27 +380,18 @@ body {
 }
 
 /* ============================================
-   PARTICIPANT MESSAGES
+   PARTICIPANT MESSAGES - the question itself reads in
+   italic beneath the lapis "You" label (§1.3)
    ============================================ */
-.message--participant {
-  max-width: 80%;
-  margin-left: auto;
-}
-
-.message-participant {
-  background-color: var(--color-participant-bg);
-  border: 1px solid rgba(30, 64, 175, 0.15);
-  border-radius: var(--border-radius-lg);
-  padding: var(--spacing-md) var(--spacing-lg);
-}
-
 .message-participant__content {
   font-size: var(--font-size-base);
+  line-height: var(--line-height);
   color: var(--color-text);
+  font-style: italic;
 }
 
 .message-participant__content p {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
 }
 
 .message-participant__content p:last-child {
@@ -427,7 +428,7 @@ body {
   transform: translateX(calc(-50% + var(--tooltip-shift)));
   width: 280px;
   max-width: 90vw;
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -455,12 +456,12 @@ body {
 
 .lexicon-tooltip--above::before {
   bottom: -12px;
-  border-top-color: white;
+  border-top-color: var(--color-surface);
 }
 
 .lexicon-tooltip--below::before {
   top: -12px;
-  border-bottom-color: white;
+  border-bottom-color: var(--color-surface);
 }
 
 .lexicon-tooltip__header {
@@ -488,31 +489,29 @@ body {
 }
 
 /* ============================================
-   LEXICON MODAL
+   LEVEL-3 SURFACES (§3) - side panel (desktop) /
+   bottom sheet (phone), replacing the centered
+   modal. Participant-opened only; content unchanged,
+   only the container differs. No scrim - the
+   backdrop is a transparent click-catcher on
+   desktop, a faint parchment tint on phone (never
+   blacks out the transcript).
    ============================================ */
-.lexicon-modal-overlay {
+.level3-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: transparent;
   z-index: 1000;
-  padding: var(--spacing-lg);
 }
 
-.lexicon-modal {
-  background: white;
-  border-radius: var(--border-radius-lg);
-  max-width: 600px;
-  width: 100%;
-  max-height: 80vh;
+.level3-panel {
+  position: fixed;
+  background: var(--color-surface);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  position: relative;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
-.lexicon-modal__close {
+.level3-panel__close {
   position: absolute;
   top: var(--spacing-md);
   right: var(--spacing-md);
@@ -528,11 +527,46 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.15s ease;
+  z-index: 1;
 }
 
-.lexicon-modal__close:hover {
+.level3-panel__close:hover {
   background: var(--color-border);
   color: var(--color-text);
+}
+
+/* Desktop (>=900px): side panel along the transcript's right edge. Never
+   covers the transcript text - table-container--panel-open narrows the
+   transcript column (see the MULTI-WORLD/panel-open rule below) to leave
+   this panel's width clear. */
+@media (min-width: 900px) {
+  .level3-panel {
+    top: 40px; /* below the table bar */
+    right: 0;
+    bottom: 0;
+    width: 420px;
+    max-width: 90vw;
+    border-left: 1px solid var(--color-border);
+  }
+}
+
+/* Below 900px (phone and the narrowing zone before true desktop width):
+   bottom sheet over the input area only - the latest transcript turn
+   stays visible above it. */
+@media (max-width: 899px) {
+  .level3-backdrop {
+    background: color-mix(in srgb, var(--color-background) 45%, transparent);
+  }
+
+  .level3-panel {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 55vh;
+    width: 100%;
+    border-top: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+  }
 }
 
 .lexicon-modal__header {
@@ -815,26 +849,11 @@ body {
 }
 
 /* ============================================
-   REFRESH WARNING BANNER
-   ============================================ */
-.refresh-warning-banner {
-  background: var(--color-representative-bg);
-  border: 1px solid var(--color-representative-border);
-  border-radius: var(--border-radius);
-  color: var(--color-representative);
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-sm);
-  padding: var(--spacing-sm) var(--spacing-md);
-  margin-bottom: var(--spacing-md);
-  text-align: center;
-}
-
-/* ============================================
    ERROR & STATUS MESSAGES
    ============================================ */
 .error-message {
   padding: var(--spacing-md);
-  background-color: #fef2f2;
+  background-color: color-mix(in srgb, var(--color-error) 6%, var(--color-surface));
   border: 1px solid var(--color-error);
   border-radius: var(--border-radius);
   color: var(--color-error);
@@ -916,14 +935,6 @@ body {
   margin-top: auto;
 }
 
-.world-selector__hint {
-  text-align: center;
-  padding: var(--spacing-lg) 0;
-  color: var(--color-text-light);
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-sm);
-}
-
 /* World Card */
 .world-card {
   background: var(--color-surface);
@@ -948,35 +959,6 @@ body {
     var(--color-surface) 0%,
     color-mix(in srgb, var(--world-color, var(--color-primary)) 5%, white) 100%
   );
-}
-
-.world-card--selected::before {
-  content: '';
-  position: absolute;
-  top: var(--spacing-md);
-  right: var(--spacing-md);
-  width: 24px;
-  height: 24px;
-  background: var(--world-color, var(--color-primary));
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.world-card--selected::after {
-  content: '✓';
-  position: absolute;
-  top: var(--spacing-md);
-  right: var(--spacing-md);
-  width: 24px;
-  height: 24px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .world-card__header {
@@ -1074,30 +1056,75 @@ body {
   font-size: var(--font-size-lg);
 }
 
-/* Conversation header with world indicator */
-.table-header--conversation {
-  padding: var(--spacing-md) 0;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.table-header__world {
+/* ============================================
+   THE TABLE BAR (§2) - one quiet chrome line,
+   replacing the old table-header--conversation
+   and the standalone RefreshWarningBanner it sat
+   above. Left: seats. Right: the one consolidated,
+   priority-ordered status line - never stacked.
+   ============================================ */
+.table-bar {
   display: flex;
   align-items: center;
-  gap: var(--spacing-sm);
-  justify-content: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  min-height: 40px;
+  padding: 0 var(--spacing-md);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-.table-header__world-indicator {
-  width: 10px;
-  height: 10px;
+.table-bar__seats {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.table-bar__seat {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.table-bar__seat-dot {
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color: var(--color-representative);
+  flex-shrink: 0;
 }
 
-.table-header__world-name {
+.table-bar__seat-name {
   font-family: var(--font-family-ui);
   font-size: var(--font-size-sm);
-  color: var(--color-text-muted);
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.table-bar__status {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  color: var(--color-facilitator-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+/* Desktop always shows the full status line; the phone-only lead/full
+   split and tap-to-expand toggle live in the breakpoint pass below. */
+.table-bar__status-full {
+  display: inline;
+}
+
+.table-bar__status-lead {
+  display: none;
 }
 
 /* Loading indicator large variant */
@@ -1115,24 +1142,33 @@ body {
 }
 
 /* ============================================
-   RESPONSIVE
+   RESPONSIVE (§6) - two breakpoints: >=900px desktop,
+   <640px phone, narrowing gracefully between. The
+   world-selector grid collapses to one column at the
+   900px desktop threshold (generous card width takes
+   priority over fitting two columns in the narrowing
+   zone); the phone-specific rules below all apply
+   below the true phone threshold, 640px.
    ============================================ */
-@media (max-width: 600px) {
+@media (max-width: 899px) {
+  .world-selector__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 639px) {
   .table-container {
     padding: var(--spacing-md);
   }
 
-  .message--representative,
-  .message--participant {
+  /* Full-bleed with 16px gutters (padding, from the container rule above)
+     instead of the desktop long-form column's 5%-left-margin/90vw formula
+     (§1.3) - at phone width that formula already lands close to a 16px
+     gutter by coincidence at common widths, but drifts wider on larger
+     phones, so it's reset explicitly here rather than relied on. */
+  .table-container--conversation {
     max-width: 100%;
-  }
-
-  .message--participant {
-    margin-left: var(--spacing-md);
-  }
-
-  .message-representative {
-    padding: var(--spacing-md);
+    margin: 0;
   }
 
   .chat-form {
@@ -1151,16 +1187,6 @@ body {
     width: 220px;
   }
 
-  .lexicon-modal {
-    margin: var(--spacing-md);
-    max-height: 90vh;
-  }
-
-  /* World selector responsive */
-  .world-selector__grid {
-    grid-template-columns: 1fr;
-  }
-
   .world-card__header {
     flex-direction: column;
     gap: var(--spacing-xs);
@@ -1170,50 +1196,62 @@ body {
     padding: var(--spacing-md) var(--spacing-lg);
     font-size: var(--font-size-base);
   }
+
+  /* The table bar's status truncates to its lead phrase; tap expands it
+     (tap = short is our own grammar, not a new verb) (§2, §6). */
+  .table-bar__status {
+    cursor: pointer;
+  }
+
+  .table-bar__status-full {
+    display: none;
+  }
+
+  .table-bar__status-lead {
+    display: inline;
+  }
+
+  .table-bar__status--expanded {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .table-bar__status--expanded .table-bar__status-full {
+    display: inline;
+  }
+
+  .table-bar__status--expanded .table-bar__status-lead {
+    display: none;
+  }
+
+  /* 44px padded hit areas on every inline mark, even where the visible
+     glyph is smaller - an invisible, out-of-flow hit box centered on the
+     element so line-height/text flow is untouched. */
+  .lexicon-term::after,
+  .citation-marker::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* The input group sits above the home indicator on notched/gesture-nav
+     phones. */
+  .chat-input-container {
+    padding-bottom: calc(var(--spacing-lg) + env(safe-area-inset-bottom));
+  }
 }
 
 /* ============================================
    MULTI-WORLD TABLE STYLES
    ============================================ */
 
-/* Mode toggle for single vs multi select */
-.table-mode-toggle {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-lg);
-  padding: var(--spacing-sm);
-  background: var(--color-background);
-  border-radius: var(--border-radius);
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mode-toggle-button {
-  flex: 1;
-  padding: var(--spacing-sm) var(--spacing-md);
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-sm);
-  background: transparent;
-  border: none;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-  color: var(--color-text-muted);
-  transition: all 0.2s ease;
-}
-
-.mode-toggle-button:hover {
-  color: var(--color-text);
-}
-
-.mode-toggle-button--active {
-  background: var(--color-surface);
-  color: var(--color-text);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-/* Selection badge for multi-select */
+/* Selection badge - order number, shown on every selected world card now
+   that mode is emergent from count rather than chosen via a toggle (§4). */
 .world-card__selection-badge {
   position: absolute;
   top: var(--spacing-md);
@@ -1231,40 +1269,119 @@ body {
   font-weight: 600;
 }
 
-/* Multi-world header */
-.table-header__worlds {
+/* ============================================
+   THE "ARRIVING" LOCKUP (§5) - world-selection
+   screen only, never the conversation screen.
+   Animation lifted verbatim (timing/easing/
+   keyframes) from Brand-Assets/
+   CiC_Logo_Arriving_Motion_Reference.html.
+   ============================================ */
+.arriving-lockup {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-sm);
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding-top: var(--spacing-lg);
+  gap: 6px;
 }
 
-.table-header__world-badge {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 9999px;
-  padding: var(--spacing-xs) var(--spacing-md);
+.arriving-lockup__wordmark {
+  font-family: var(--font-family);
+  font-size: 1.75rem;
+  font-weight: normal;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  margin: 0;
 }
 
-.table-header__world-badge-name {
+.arriving-lockup__wordmark em {
+  font-style: italic;
+}
+
+.arriving-lockup__sentence {
   font-family: var(--font-family-ui);
   font-size: var(--font-size-sm);
-  color: var(--color-text);
+  color: var(--color-text-light);
+  margin: 0;
+  max-width: 420px;
 }
 
-/* Representative message with world accent */
-.message-representative {
-  --world-accent: var(--color-representative-border);
+/* Resting/completed state is the default appearance - this is what a
+   reduced-motion visitor sees immediately, and what ANY visitor sees once
+   the one-time build (.play) has finished or on a later mount this session
+   (never replays unbidden). */
+.arriving-ring {
+  fill: none;
+  stroke: var(--color-text);
+  stroke-width: 11;
+  stroke-linecap: round;
+  stroke-dasharray: 260 100;
+  stroke-dashoffset: -50;
+  opacity: 1;
 }
 
-.message-representative[style] {
-  border-left-color: var(--world-accent);
+.arriving-seat {
+  fill: var(--color-primary);
+  transform-origin: 88.5px 50px;
+  transform: translate(0, 0);
 }
 
-.message-representative[style] .message-representative__name {
-  color: var(--world-accent);
+.arriving.play .arriving-ring {
+  animation: cic-buildC 1300ms cubic-bezier(0.4, 0, 0.2, 1) 800ms both;
 }
+
+.arriving.play .arriving-seat {
+  animation:
+    cic-sitdown 600ms cubic-bezier(0.3, 0, 0.35, 1.4) 2400ms both,
+    cic-breath 5.5s ease-in-out 3750ms infinite;
+}
+
+@keyframes cic-buildC {
+  0% {
+    stroke-dasharray: 0 360;
+    stroke-dashoffset: -50;
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 260 100;
+    stroke-dashoffset: -50;
+    opacity: 1;
+  }
+}
+
+@keyframes cic-sitdown {
+  0% {
+    transform: translate(0, -6px);
+  }
+  62% {
+    transform: translate(0, 1px) scale(1.1, 0.86);
+  }
+  100% {
+    transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+@keyframes cic-breath {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.76;
+  }
+}
+
+/* The opening never reacts to the cursor, never spins/bounces/pulses at
+   alert speed - the only motion is the one-time build above. A
+   reduced-motion visitor gets the completed still mark as a full
+   experience, never the animated build. */
+@media (prefers-reduced-motion: reduce) {
+  .arriving.play .arriving-ring,
+  .arriving.play .arriving-seat {
+    animation: none;
+  }
+}
+

@@ -1,9 +1,12 @@
 /**
- * MessageBubble component - displays a single message in the conversation.
+ * MessageBubble component - displays a single turn in the conversation as
+ * labeled flowing prose (Increment 1 §1.3: "we are not texting the
+ * Representatives, we are talking with them" - the card/bubble grammar is
+ * struck; three voices distinguished by label + type treatment alone).
  *
- * Facilitator: Minimal, neutral presence - they orchestrate, not participate
- * Representative (Mar Yausep): Prominent, distinctive - the voice of tradition
- * Participant: Clear but secondary - the one asking questions
+ * Facilitator: unlabeled, italic, graphite - they orchestrate, not participate
+ * Representative: a gold-leaf small-caps "{name} · {world}" label, upright prose
+ * Participant: a lapis "You" label, the question itself in italic
  */
 
 import type { Message, SpeakerName, LexiconTerm, Citation } from '../types/conversation';
@@ -15,45 +18,29 @@ interface MessageBubbleProps {
   termMap: Map<string, LexiconTerm>;
   onTermClick?: (term: LexiconTerm) => void;
   onCitationClick?: (citations: Citation[]) => void;
-  worldColors?: Record<string, string>;  // Map of message name to world color
+  /** Map of message name (speaker key) to that world's display name, for the Representative label's "{name} · {world}" grammar. */
+  worldNames?: Record<string, string>;
   /** Term keys allowed to render as interactive highlights in this message (first-occurrence-only filtering). Omit to highlight every match. */
   allowedTermKeys?: Set<string>;
 }
 
-// Representative display info by message name
-const REPRESENTATIVE_INFO: Record<string, { name: string; title: string }> = {
-  mar_yausep: {
-    name: 'Mar Yausep',
-    title: 'Teacher of the Syriac Tradition',
-  },
-  chloe: {
-    name: 'Chloe',
-    title: 'Household Leader',
-  },
-  papnoute: {
-    name: 'Papnoute',
-    title: 'Elder of the Desert',
-  },
-  albina: {
-    name: 'Albina',
-    title: 'Widow of the Household',
-  },
-  theon: {
-    name: 'Theon',
-    title: 'Catechetical Teacher',
-  },
+// Representative display name by message name
+const REPRESENTATIVE_NAMES: Record<string, string> = {
+  mar_yausep: 'Mar Yausep',
+  chloe: 'Chloe',
+  papnoute: 'Papnoute',
+  albina: 'Albina',
+  theon: 'Theon',
 };
 
 function getSpeakerInfo(message: Message): {
   name: string;
-  title: string;
   role: string;
   className: string;
 } {
   if (message.role === 'user') {
     return {
       name: 'You',
-      title: '',
       role: 'participant',
       className: 'message--participant',
     };
@@ -65,7 +52,6 @@ function getSpeakerInfo(message: Message): {
     case 'facilitator':
       return {
         name: 'Facilitator',
-        title: '',
         role: 'facilitator',
         className: 'message--facilitator',
       };
@@ -74,25 +60,22 @@ function getSpeakerInfo(message: Message): {
     case 'papnoute':
     case 'albina':
     case 'theon':
-      const info = REPRESENTATIVE_INFO[speakerName] || { name: 'Representative', title: '' };
       return {
-        name: info.name,
-        title: info.title,
+        name: REPRESENTATIVE_NAMES[speakerName] || 'Representative',
         role: 'representative',
         className: 'message--representative',
       };
     default:
       return {
         name: 'Facilitator',
-        title: '',
         role: 'facilitator',
         className: 'message--facilitator',
       };
   }
 }
 
-export function MessageBubble({ message, termMap, onTermClick, onCitationClick, worldColors, allowedTermKeys }: MessageBubbleProps) {
-  const { name, title, role, className } = getSpeakerInfo(message);
+export function MessageBubble({ message, termMap, onTermClick, onCitationClick, worldNames, allowedTermKeys }: MessageBubbleProps) {
+  const { name, role, className } = getSpeakerInfo(message);
 
   // Only highlight terms in representative messages
   const shouldHighlight = role === 'representative' && termMap.size > 0;
@@ -122,35 +105,28 @@ export function MessageBubble({ message, termMap, onTermClick, onCitationClick, 
     });
   })();
 
-  // Get world color for this representative (if available)
+  // World name for this representative's "{name} \u00B7 {world}" label (if available)
   const speakerKey = message.name?.toLowerCase().replace(' ', '_') || '';
-  const worldColor = worldColors?.[speakerKey];
+  const worldName = worldNames?.[speakerKey];
 
   return (
     <div className={`message ${className}`} data-role={role}>
-      {/* Facilitator messages are minimal */}
+      {/* Facilitator turns are unlabeled, italic graphite prose */}
       {role === 'facilitator' && (
-        <div className="message-facilitator">
-          <div className="message-facilitator__indicator" />
-          <div className="message-facilitator__content">
-            {message.content.split('\n').map((line, index) => (
-              <p key={index}>{line || '\u00A0'}</p>
-            ))}
-          </div>
+        <div className="message-facilitator__content">
+          {message.content.split('\n').map((line, index) => (
+            <p key={index}>{line || '\u00A0'}</p>
+          ))}
         </div>
       )}
 
-      {/* Representative messages are prominent */}
+      {/* Representative turns: a gold small-caps "{name} \u00B7 {world}" label above flowing prose */}
       {role === 'representative' && (
-        <div
-          className="message-representative"
-          style={worldColor ? { '--world-accent': worldColor } as React.CSSProperties : undefined}
-        >
-          <div className="message-representative__header">
-            <span className="message-representative__name">{name}</span>
-            <span className="message-representative__title">{title}</span>
-          </div>
-          <div className="message-representative__content">
+        <>
+          <span className="turn-label turn-label--representative">
+            {name}{worldName ? ` \u00B7 ${worldName}` : ''}
+          </span>
+          <div className="turn-prose">
             {lines.map((line, index) => {
               const isLastLine = index === lines.length - 1;
               return (
@@ -172,18 +148,19 @@ export function MessageBubble({ message, termMap, onTermClick, onCitationClick, 
               );
             })}
           </div>
-        </div>
+        </>
       )}
 
-      {/* Participant messages */}
+      {/* Participant turns: a lapis "You" label, the question itself in italic */}
       {role === 'participant' && (
-        <div className="message-participant">
+        <>
+          <span className="turn-label turn-label--participant">You</span>
           <div className="message-participant__content">
             {message.content.split('\n').map((line, index) => (
               <p key={index}>{line || '\u00A0'}</p>
             ))}
           </div>
-        </div>
+        </>
       )}
     </div>
   );

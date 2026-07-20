@@ -1,8 +1,10 @@
 /**
  * WorldSelector component - displays available worlds and representatives.
  *
- * This is the entry screen before starting a conversation.
- * Supports both single-world and multi-world table selection (up to MAX_WORLDS worlds).
+ * This is the entry screen before starting a conversation. Selection always
+ * allows 1-MAX_WORLDS worlds; the Single/Multiple toggle is retired (§4) -
+ * mode is emergent from seat count, named on the Begin button itself
+ * rather than chosen up front.
  */
 
 import { useState, useEffect } from 'react';
@@ -15,12 +17,11 @@ const API_BASE = '/api';
 const MAX_WORLDS = 3;
 
 interface WorldSelectorProps {
-  onSelectWorld: (world: World) => void;
-  onSelectWorlds?: (worlds: World[]) => void;
-  multiSelect?: boolean;
+  /** Called with the final selected worlds (1-MAX_WORLDS) when Begin is pressed. */
+  onBegin: (worlds: World[]) => void;
 }
 
-export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = false }: WorldSelectorProps) {
+export function WorldSelector({ onBegin }: WorldSelectorProps) {
   const [worlds, setWorlds] = useState<World[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -46,31 +47,20 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
   }, []);
 
   const handleWorldClick = (world: World) => {
-    if (multiSelect) {
-      // Toggle selection in multi-select mode
-      setSelectedWorlds(prev => {
-        const isSelected = prev.some(w => w.id === world.id);
-        if (isSelected) {
-          return prev.filter(w => w.id !== world.id);
-        } else if (prev.length < MAX_WORLDS) {
-          return [...prev, world];
-        }
-        return prev; // Max worlds reached
-      });
-    } else {
-      // Single select mode
-      setSelectedWorlds([world]);
-    }
+    setSelectedWorlds(prev => {
+      const isSelected = prev.some(w => w.id === world.id);
+      if (isSelected) {
+        return prev.filter(w => w.id !== world.id);
+      } else if (prev.length < MAX_WORLDS) {
+        return [...prev, world];
+      }
+      return prev; // Max worlds reached
+    });
   };
 
   const handleBeginConversation = () => {
     if (selectedWorlds.length === 0) return;
-
-    if (multiSelect && onSelectWorlds && selectedWorlds.length > 1) {
-      onSelectWorlds(selectedWorlds);
-    } else {
-      onSelectWorld(selectedWorlds[0]);
-    }
+    onBegin(selectedWorlds);
   };
 
   const isWorldSelected = (world: World) => {
@@ -107,26 +97,28 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
     );
   }
 
-  const buttonText = selectedWorlds.length === 0
-    ? 'Select a world to begin'
-    : selectedWorlds.length === 1
-      ? `Begin Conversation with ${selectedWorlds[0].representative.name}`
-      : `Begin Conversation with ${selectedWorlds.length} Representatives`;
+  // The naming replaces the control (§4): mode is emergent from seat count,
+  // never a "lite vs. full" distinction - the difference is per-turn
+  // readability at 3-4 voices, not two depths of encounter.
+  const beginButtonText =
+    selectedWorlds.length === 0
+      ? 'Select a tradition to begin'
+      : selectedWorlds.length === 1
+        ? `Begin a Deep Interview with ${selectedWorlds[0].representative.name}`
+        : `Begin — Compare Worlds: ${selectedWorlds.map(w => w.representative.name).join(', ')}`;
 
   return (
     <div className="world-selector">
       <div className="world-selector__header">
         <h2>Choose a Tradition</h2>
         <p>
-          {multiSelect
-            ? `Select one or more worlds (up to ${MAX_WORLDS}) to invite their representatives to The Table`
-            : 'Select a world to enter into conversation with its representative'}
+          Select one or more worlds (up to {MAX_WORLDS}) to invite their representatives to The Table
         </p>
       </div>
 
       <div className="world-selector__grid">
         {worlds.map((world) => {
-          const order = multiSelect ? getSelectionOrder(world) : null;
+          const order = getSelectionOrder(world);
           return (
             <div
               key={world.id}
@@ -134,7 +126,7 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
               style={{ '--world-color': world.color } as React.CSSProperties}
               onClick={() => handleWorldClick(world)}
             >
-              {multiSelect && order !== null && (
+              {order !== null && (
                 <div className="world-card__selection-badge">{order}</div>
               )}
 
@@ -167,26 +159,15 @@ export function WorldSelector({ onSelectWorld, onSelectWorlds, multiSelect = fal
         })}
       </div>
 
-      {selectedWorlds.length > 0 && (
-        <div className="world-selector__action">
-          <button
-            className="chat-button chat-button--primary chat-button--large"
-            onClick={handleBeginConversation}
-          >
-            {buttonText}
-          </button>
-        </div>
-      )}
-
-      {selectedWorlds.length === 0 && worlds.length > 0 && (
-        <div className="world-selector__hint">
-          <p>
-            {multiSelect
-              ? 'Click on worlds to select them, then begin the conversation'
-              : 'Click on a world to learn more and begin a conversation'}
-          </p>
-        </div>
-      )}
+      <div className="world-selector__action">
+        <button
+          className="chat-button chat-button--primary chat-button--large"
+          onClick={handleBeginConversation}
+          disabled={selectedWorlds.length === 0}
+        >
+          {beginButtonText}
+        </button>
+      </div>
     </div>
   );
 }

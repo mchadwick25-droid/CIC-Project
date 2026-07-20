@@ -13,6 +13,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useConversation } from '../hooks/useConversation';
 import { useLexicon } from '../hooks/useLexicon';
 import { WorldSelector } from './WorldSelector';
+import { ArrivingLockup } from './ArrivingLockup';
 import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
@@ -20,7 +21,6 @@ import { CitationModal } from './CitationModal';
 import { OnboardingScreen, hasSeenOnboarding } from './OnboardingScreen';
 import { SignInScreen } from './SignInScreen';
 import { supabase, supabaseEnabled } from '../lib/supabase';
-import { RefreshWarningBanner } from './RefreshWarningBanner';
 import { getTermMatches } from './LexiconHighlight';
 import type { Citation, LexiconTerm, World } from '../types/conversation';
 
@@ -36,7 +36,6 @@ export function TheTable() {
   const [isSignedIn, setIsSignedIn] = useState(!supabaseEnabled);
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
   const [showWorldSelector, setShowWorldSelector] = useState(true);
-  const [multiSelectMode, setMultiSelectMode] = useState(false);
 
   useEffect(() => {
     if (!supabase) return;
@@ -118,6 +117,13 @@ export function TheTable() {
   }, [messages, termMapBySpeakerKey]);
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
   const [selectedCitations, setSelectedCitations] = useState<Citation[] | null>(null);
+  // Whether a Level-3 surface is open (§3) - on desktop this narrows the
+  // transcript column so the side panel never covers it; see table.css.
+  const isLevel3Open = selectedTerm !== null || selectedCitations !== null;
+  // Phone-only: the table bar's status line truncates to its lead phrase;
+  // tap expands it (§2, §6). No effect on desktop - CSS always shows the
+  // full text there regardless of this state.
+  const [statusExpanded, setStatusExpanded] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   // Whether the participant is scrolled near the live edge right now. Starts
@@ -146,16 +152,17 @@ export function TheTable() {
     }
   }, [messages]);
 
-  const handleWorldSelect = async (world: World) => {
-    setSelectedWorlds([world]);
-    setShowWorldSelector(false);
-    await startSession(world.id);
-  };
-
-  const handleMultiWorldSelect = async (worlds: World[]) => {
+  // Mode is emergent from seat count (§4) - one seat is a Deep Interview,
+  // two-three is Compare Worlds; the value already sent to the backend
+  // (world_id vs. world_ids) is unchanged, just no longer chosen up front.
+  const handleBegin = async (worlds: World[]) => {
     setSelectedWorlds(worlds);
     setShowWorldSelector(false);
-    await startMultiWorldSession(worlds.map(w => w.id));
+    if (worlds.length === 1) {
+      await startSession(worlds[0].id);
+    } else {
+      await startMultiWorldSession(worlds.map(w => w.id));
+    }
   };
 
   const handleTermClick = (term: LexiconTerm) => {
@@ -202,31 +209,9 @@ export function TheTable() {
   if (showWorldSelector) {
     return (
       <div className="table-container table-container--selector">
-        <header className="table-header">
-          <h1>The Table</h1>
-          <p>A space for engaging conversation with voices from Christian history</p>
-        </header>
+        <ArrivingLockup />
 
-        <div className="table-mode-toggle">
-          <button
-            className={`mode-toggle-button ${!multiSelectMode ? 'mode-toggle-button--active' : ''}`}
-            onClick={() => setMultiSelectMode(false)}
-          >
-            Single Representative
-          </button>
-          <button
-            className={`mode-toggle-button ${multiSelectMode ? 'mode-toggle-button--active' : ''}`}
-            onClick={() => setMultiSelectMode(true)}
-          >
-            Multiple Representatives
-          </button>
-        </div>
-
-        <WorldSelector
-          onSelectWorld={handleWorldSelect}
-          onSelectWorlds={handleMultiWorldSelect}
-          multiSelect={multiSelectMode}
-        />
+        <WorldSelector onBegin={handleBegin} />
       </div>
     );
   }
@@ -286,37 +271,55 @@ export function TheTable() {
     );
   }
 
-  // Build header content for active conversation
-  const renderWorldIndicators = () => {
-    if (selectedWorlds.length === 1) {
-      const world = selectedWorlds[0];
-      return (
-        <div className="table-header__world">
-          <span
-            className="table-header__world-indicator"
-            style={{ backgroundColor: world.color }}
-          />
-          <span className="table-header__world-name">
-            {world.name} · {world.period}
-          </span>
-        </div>
-      );
-    }
+  // The table bar (§2): one quiet chrome line, replacing the old
+  // table-header--conversation + the standalone RefreshWarningBanner it sat
+  // above. Left: seats (unchanged single-vs-multi rendering, just restyled).
+  // Right: the consolidated status line - priority-ordered, never stacked.
+  // `showStatus` is false in the closing/ended view, matching the old
+  // RefreshWarningBanner's own behavior (it never rendered there either).
+  const renderTableBar = (showStatus: boolean) => {
+    // No live "nearing the session length limit" signal exists yet (no
+    // per-conversation turn/token cap is surfaced by the backend today) -
+    // this priority slot is reserved but unreachable until that data
+    // exists. See Decision-Log.
+    const statusMessage = showStatus
+      ? 'This conversation lives in this tab — refreshing loses it'
+      : '';
 
-    // Multi-world header
     return (
-      <div className="table-header__worlds">
-        {selectedWorlds.map(world => (
-          <div key={world.id} className="table-header__world-badge">
-            <span
-              className="table-header__world-indicator"
-              style={{ backgroundColor: world.color }}
-            />
-            <span className="table-header__world-badge-name">
-              {world.representative.name}
+      <div className="table-bar">
+        <div className="table-bar__seats">
+          {selectedWorlds.length === 1 ? (
+            <span className="table-bar__seat">
+              <span
+                className="table-bar__seat-dot"
+                style={{ backgroundColor: selectedWorlds[0].color }}
+              />
+              <span className="table-bar__seat-name">
+                {selectedWorlds[0].name} · {selectedWorlds[0].period}
+              </span>
             </span>
-          </div>
-        ))}
+          ) : (
+            selectedWorlds.map(world => (
+              <span key={world.id} className="table-bar__seat">
+                <span
+                  className="table-bar__seat-dot"
+                  style={{ backgroundColor: world.color }}
+                />
+                <span className="table-bar__seat-name">
+                  {world.representative.name}
+                </span>
+              </span>
+            ))
+          )}
+        </div>
+        <div
+          className={`table-bar__status${statusExpanded ? ' table-bar__status--expanded' : ''}`}
+          onClick={() => statusMessage && setStatusExpanded((v) => !v)}
+        >
+          <span className="table-bar__status-full">{statusMessage}</span>
+          <span className="table-bar__status-lead">{statusMessage.split(' — ')[0]}</span>
+        </div>
       </div>
     );
   };
@@ -324,10 +327,8 @@ export function TheTable() {
   // Conversation ended
   if (phase === 'closing' && !isLoading) {
     return (
-      <div className="table-container table-container--conversation">
-        <header className="table-header table-header--conversation">
-          {renderWorldIndicators()}
-        </header>
+      <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
+        {renderTableBar(false)}
 
         <div className="messages-container">
           {messages.map((message, index) => (
@@ -338,9 +339,9 @@ export function TheTable() {
               onTermClick={handleTermClick}
               onCitationClick={handleCitationClick}
               allowedTermKeys={firstOccurrenceKeysByIndex[index]}
-              worldColors={Object.fromEntries(selectedWorlds.map(w => [
+              worldNames={Object.fromEntries(selectedWorlds.map(w => [
                 w.representative.name.toLowerCase().replace(' ', '_'),
-                w.color
+                w.name
               ]))}
             />
           ))}
@@ -365,12 +366,8 @@ export function TheTable() {
 
   // Active conversation
   return (
-    <div className="table-container table-container--conversation">
-      <header className="table-header table-header--conversation">
-        {renderWorldIndicators()}
-      </header>
-
-      <RefreshWarningBanner />
+    <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
+      {renderTableBar(true)}
 
       {error && (
         <div className="error-message">
@@ -390,9 +387,9 @@ export function TheTable() {
             onTermClick={handleTermClick}
             onCitationClick={handleCitationClick}
             allowedTermKeys={firstOccurrenceKeysByIndex[index]}
-            worldColors={Object.fromEntries(selectedWorlds.map(w => [
+            worldNames={Object.fromEntries(selectedWorlds.map(w => [
               w.representative.name.toLowerCase().replace(' ', '_'),
-              w.color
+              w.name
             ]))}
           />
         ))}

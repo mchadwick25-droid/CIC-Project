@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- "Arriving" - favicon/app-icon master (parchment tile). R5: optical
+       compensation for 16-48px - stroke 14, dot r8, mark shifted left so the
+       threshold dot keeps clear margin. Rasterize from this for .ico 16/24/32/48,
+       apple-touch 180, PWA 512. Replaces the table-chair favicon masters. -->
+  <rect width="100" height="100" rx="22" fill="#F7F3EB"/>
+  <circle cx="47" cy="50" r="31" fill="none" stroke="#2A2521" stroke-width="14"
+    stroke-linecap="round" pathLength="360"
+    stroke-dasharray="260 100" stroke-dashoffset="-50"/>
+  <circle cx="85.5" cy="50" r="8" fill="#A13E2B"/>
+</svg>
