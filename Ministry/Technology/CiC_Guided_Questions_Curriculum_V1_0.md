@@ -163,7 +163,7 @@ is that **a probing question names its own defeasibility condition** — hence 1
 
 1. How do your people know what you've told me — what stands behind it?
 2. How much of what you know comes down through a single voice?
-3. Where does documentation end and inference begin for you?
+3. In your own community's own account of itself, what's actually witnessed directly, and what's pieced together from silence?
 4. What in your own record is disputed — its dating, its authorship, whether it's genuine?
 5. What would have to be true for you to be wrong about it — and would we be able to tell?
 
