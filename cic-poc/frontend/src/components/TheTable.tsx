@@ -117,6 +117,9 @@ export function TheTable() {
   }, [messages, termMapBySpeakerKey]);
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
   const [selectedCitations, setSelectedCitations] = useState<Citation[] | null>(null);
+  // Whether a Level-3 surface is open (§3) - on desktop this narrows the
+  // transcript column so the side panel never covers it; see table.css.
+  const isLevel3Open = selectedTerm !== null || selectedCitations !== null;
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   // Whether the participant is scrolled near the live edge right now. Starts
@@ -335,7 +338,7 @@ export function TheTable() {
   // Conversation ended
   if (phase === 'closing' && !isLoading) {
     return (
-      <div className="table-container table-container--conversation">
+      <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
         {renderTableBar(false)}
 
         <div className="messages-container">
@@ -374,7 +377,7 @@ export function TheTable() {
 
   // Active conversation
   return (
-    <div className="table-container table-container--conversation">
+    <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
       {renderTableBar(true)}
 
       {error && (

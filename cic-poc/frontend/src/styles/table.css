@@ -127,6 +127,16 @@ body {
   margin: 0 0 0 5%;
 }
 
+/* §3: when a Level-3 side panel is open on desktop, the transcript narrows
+   rather than letting the panel cover any of it - the panel is 420px wide,
+   anchored right:0, so the column's own right edge must clear that plus a
+   left margin equal to the column's own 5% offset plus a small gutter. */
+@media (min-width: 900px) {
+  .table-container--conversation.table-container--panel-open {
+    max-width: min(940px, calc(100vw - 420px - 5% - var(--spacing-lg)));
+  }
+}
+
 /* Header */
 .table-header {
   text-align: center;
@@ -479,31 +489,29 @@ body {
 }
 
 /* ============================================
-   LEXICON MODAL
+   LEVEL-3 SURFACES (§3) - side panel (desktop) /
+   bottom sheet (phone), replacing the centered
+   modal. Participant-opened only; content unchanged,
+   only the container differs. No scrim - the
+   backdrop is a transparent click-catcher on
+   desktop, a faint parchment tint on phone (never
+   blacks out the transcript).
    ============================================ */
-.lexicon-modal-overlay {
+.level3-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: transparent;
   z-index: 1000;
-  padding: var(--spacing-lg);
 }
 
-.lexicon-modal {
-  background: white;
-  border-radius: var(--border-radius-lg);
-  max-width: 600px;
-  width: 100%;
-  max-height: 80vh;
+.level3-panel {
+  position: fixed;
+  background: var(--color-surface);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  position: relative;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
-.lexicon-modal__close {
+.level3-panel__close {
   position: absolute;
   top: var(--spacing-md);
   right: var(--spacing-md);
@@ -519,11 +527,46 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.15s ease;
+  z-index: 1;
 }
 
-.lexicon-modal__close:hover {
+.level3-panel__close:hover {
   background: var(--color-border);
   color: var(--color-text);
+}
+
+/* Desktop (>=900px): side panel along the transcript's right edge. Never
+   covers the transcript text - table-container--panel-open narrows the
+   transcript column (see the MULTI-WORLD/panel-open rule below) to leave
+   this panel's width clear. */
+@media (min-width: 900px) {
+  .level3-panel {
+    top: 40px; /* below the table bar */
+    right: 0;
+    bottom: 0;
+    width: 420px;
+    max-width: 90vw;
+    border-left: 1px solid var(--color-border);
+  }
+}
+
+/* Below 900px (phone and the narrowing zone before true desktop width):
+   bottom sheet over the input area only - the latest transcript turn
+   stays visible above it. */
+@media (max-width: 899px) {
+  .level3-backdrop {
+    background: color-mix(in srgb, var(--color-background) 45%, transparent);
+  }
+
+  .level3-panel {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 55vh;
+    width: 100%;
+    border-top: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+  }
 }
 
 .lexicon-modal__header {
@@ -1147,11 +1190,6 @@ body {
 
   .citation-tooltip {
     width: 220px;
-  }
-
-  .lexicon-modal {
-    margin: var(--spacing-md);
-    max-height: 90vh;
   }
 
   /* World selector responsive */
