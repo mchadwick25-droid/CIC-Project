@@ -1,19 +1,34 @@
-# Launch Prompt — Fix the public website's stale world-deployment status (Alexandria)
+# Launch Prompt — Fix the public website's stale world-deployment status
 
-Paste this into a fresh UX Design thread.
-
----
+Paste this into a fresh UX Design thread. **Held back deliberately** — do not
+send until Imperial and Juridical Christianity ("Church and Empire") is
+actually deployed into `cic-poc` (i.e. has a `world_id` entry in
+`world_manifest.py`). Sending it now would mean touching this same status
+copy twice in quick succession; batching both corrections into one pass
+avoids that. Check `world_manifest.py` yourself before sending if you're not
+sure it's landed yet.
 
 ## Scope note
 
 The public website's World Orientation Map / Atlas (`cic-website/world-map.html`
-and `cic-website/world-atlas-list.html`) shows Alexandria (Representative Theon,
-Catechetical Teacher) as **"Selected - Not Yet Built."** That was correct when
-it was written, but it is stale now — Alexandria has since been fully built,
-live-tested, and deployed. Your job is to bring the site's status displays
-back in line with what is actually true, and only that. Do not touch
-`cic-poc/` (the actual app backend/frontend) — that is already done and
-committed. This is a website/presentation-layer fix.
+and `cic-website/world-atlas-list.html`) has (at least) two stale world-status
+entries by the time you're reading this:
+
+1. **Alexandria** (Representative Theon, Catechetical Teacher) shows
+   **"Selected - Not Yet Built."** That was correct when it was written, but
+   is stale now — Alexandria has since been fully built, live-tested, and
+   deployed (`cic-poc` commit `6dbcef1`).
+2. **Imperial and Juridical Christianity** ("Church and Empire") almost
+   certainly doesn't appear on the map/atlas at all yet, or appears at an
+   earlier status — check current state directly. It should now be deployed
+   (that's why this prompt was finally sent) and needs adding/correcting the
+   same way Alexandria does.
+
+Your job is to bring the site's status displays back in line with what is
+actually true for **every** world, not just these two — check all of them
+while you're in there rather than fixing only the two named above. Do not
+touch `cic-poc/` (the actual app backend/frontend) — deployment itself is
+already done and committed. This is a website/presentation-layer fix.
 
 ## What governs
 
@@ -30,8 +45,8 @@ committed. This is a website/presentation-layer fix.
 
 ## Current-state grounding — verify this yourself, don't just trust this note
 
-As of 2026-07-20, `cic-poc/backend/app/world_manifest.py` has **5** deployed
-`world_id` entries, confirmed live:
+As of 2026-07-20 (before this prompt was sent), `cic-poc/backend/app/
+world_manifest.py` had **5** deployed `world_id` entries, confirmed live:
 
 1. `post-apostolic-house-church` (Chloe)
 2. `syriac-edessa-nisibis` (Mar Yausep)
@@ -44,17 +59,28 @@ deployed runtime data, manifest entry, and both frontend sync points landed
 in commit `6dbcef1`. It has been live-tested with a real conversation, not
 mocked.
 
-**Verify this directly against the manifest / a live API call yourself
-before changing anything** — don't take this document's word for the exact
-count, in case something changes between this being written and you picking
-it up. This project has a real, recurring history of status claims (in
-either direction) not holding up on direct check: earlier this same session
-the website wrongly claimed "FIVE MOVEMENTS ARE LIVE TODAY" including
-Alexandria *before* it was actually built (flagged, not yet fixed at the
-time); now the live site *undersells* the same world after it became real.
-Both are the same underlying failure — status copy drifting from actual
-deployment state — so fix the failure, not just this one instance of it if
-you can do so cleanly within scope.
+By the time you're reading this, a 6th should exist: **Imperial and
+Juridical Christianity**, participant-facing card name **"Church and
+Empire"** (both names decided directly by Mark, recorded in the System Hub
+Decision Log's 2026-07-20 entry and `World-Builds/Imperial-Juridical-
+Christianity/Open_Gaps_Tracking.md` item 12). Its Representative is
+**Marius**, a deacon — decided directly by Mark in person, per that same
+world's own build thread. Use whatever `world_id`/color/status values the
+actual manifest entry has once it's deployed; don't guess them from this
+note.
+
+**Verify the current world count and every world's actual status directly
+against the manifest / a live API call before changing anything** — don't
+take this document's word for it, in case something changes between this
+being written and you picking it up. This project has a real, recurring
+history of status claims (in either direction) not holding up on direct
+check: earlier this same session the website wrongly claimed "FIVE
+MOVEMENTS ARE LIVE TODAY" including Alexandria *before* it was actually
+built (flagged, not yet fixed at the time); then the live site *undersold*
+Alexandria after it became real. Both are the same underlying failure —
+status copy drifting from actual deployment state — so fix the failure
+itself (every world's status genuinely matches the manifest), not just
+these two named instances of it.
 
 **One more thing to check, not to blindly copy from:** there's a superseded
 scratch draft at
@@ -67,10 +93,12 @@ point, not a source of truth.
 
 ## What to produce
 
-1. Update Alexandria's status in `cic-website/world-map.html` and
-   `cic-website/world-atlas-list.html` to correctly reflect that it is live,
-   in whatever status vocabulary the site already uses for the other 4 live
-   worlds (match the existing pattern, don't invent a new status category).
+1. Update every world's status in `cic-website/world-map.html` and
+   `cic-website/world-atlas-list.html` to correctly match `world_manifest.py`
+   — at minimum Alexandria (now live) and Church and Empire (newly deployed,
+   likely absent or wrong entirely), but check all entries, not just those
+   two, in whatever status vocabulary the site already uses (match the
+   existing pattern, don't invent a new status category).
 2. Check whether any other page (homepage counts, pilot pages, etc.) states
    a specific number of live worlds/movements and needs the same correction
    — if you find one, fix it the same way; if you don't, say so rather than
