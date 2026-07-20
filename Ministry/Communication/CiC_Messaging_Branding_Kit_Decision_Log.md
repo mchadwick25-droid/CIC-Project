@@ -1381,3 +1381,46 @@ convention — this entry is the correction of record. Any future document
 using the era-series title should use "The First Centuries."
 
 ---
+
+## 2026-07-20 — DECIDED (Mark): "It will never try to convert you" retired — replaced with a positive commitment to honest witness
+
+**Mark's ruling**, reviewing the website messaging/structure plan's flagged
+tension (System Hub, `CiC_Website_Messaging_Structure_Plan_2026-07-20.md`):
+*"i get the i will never try to convert you, but that in in itself
+undermines trust, what it should say is we are committed to a honest
+witness."*
+
+**The reasoning, restated:** "It will never try to convert you" was
+protected in the 2026-07-17 kit as clarifying contrast rather than denial —
+but the line is still shaped as a denial, and a denial, however true, can
+read as answering a suspicion the reader hadn't voiced yet. That's its own
+quiet way of undermining the trust the line was meant to build. A positive
+statement of the actual commitment lands cleaner than the negative
+disclaimer, even where the disclaimer was true and well-intentioned.
+
+**Applied:** "It will never try to convert you" retired as a protected
+line, in both places it held that status — Part 1.3's lexicon table and
+Part 2.2's M3 protected lines. M3's protected-line pair is now: *"We are
+committed to an honest witness."* · "A doorway, not a home" (Mark did not
+touch this second line; it stays confirmed per its own 2026-07-18 ruling —
+a role clarification survives where a promise-shaped denial didn't).
+
+**Flagged, not yet resolved either way:** the new line's own word,
+"honest," is the exact adverb/adjective the kit retired site-wide on
+2026-07-17 as an overused, unclear catch-all — function-mapped instead to
+open/openly, transparent, or concrete phrases. Here it's reintroduced in a
+different grammatical role (an adjective naming the witness itself, not an
+adverb modifying how something is said), and it's Mark's own literal
+wording, given live in direct response to a flagged tension — which reads
+as closer to a deliberate exception than a slip. Applied as given rather
+than silently substituted; noted at both retirement-rule locations in the
+kit doc (Part 1.3) so the tension is visible wherever a future writer might
+hit it, not just here. Confirm or amend at Mark's own pace — not a blocker.
+
+**Not yet propagated:** the line does not currently appear on any live
+website page — only in the kit doc itself and the never-published
+landing-page-copy draft (whose own "What It Refuses To Do" section is
+already flagged in the messaging plan as needing a structural rebuild, not
+a line edit) — so no site file needs correcting as part of this entry.
+
+---

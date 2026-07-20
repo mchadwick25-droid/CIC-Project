@@ -8,9 +8,11 @@
 
 ---
 
-## One thing, before anything else
+## One thing, before anything else — RESOLVED
 
-The Messaging & Branding Kit already has a strong rule against most of this — heavy "not X, it's Y" contrast is named directly as "a dead AI giveaway" (Kit §1.1, 5c). But the Kit also explicitly *protects* a few negative-shaped lines as intentional, calling them clarifying contrast rather than denial: *"It will never try to convert you"* and *"A doorway, not a home."* Mark's direction today reads stricter than that carve-out. Below, both are left alone and flagged rather than quietly decided either way — needs his call on whether they go too.
+The Messaging & Branding Kit already has a strong rule against most of this — heavy "not X, it's Y" contrast is named directly as "a dead AI giveaway" (Kit §1.1, 5c). It also explicitly *protected* two negative-shaped lines as intentional, calling them clarifying contrast rather than denial: *"It will never try to convert you"* and *"A doorway, not a home."*
+
+**Mark's ruling (2026-07-20):** *"i get the i will never try to convert you, but that in in itself undermines trust, what it should say is we are committed to a honest witness."* Even a true, well-intentioned denial can read as answering a suspicion nobody voiced — its own quiet way of undermining trust. **"It will never try to convert you" is retired.** The new protected line is Mark's own wording: **"We are committed to an honest witness."** "A doorway, not a home" was not touched and stays as-is. Full account: `CiC_Messaging_Branding_Kit_Decision_Log.md`, 2026-07-20 — including one open flag noted there, not here: the new line's own word "honest" is the exact catch-all this kit retired site-wide in 2026-07-17, reintroduced in a different grammatical role. Applied as Mark gave it; noted for his confirm, not a blocker.
 
 ---
 
@@ -39,7 +41,7 @@ Every instance of negative framing, "not X, it's Y" contrast, or a retired catch
 
 **Landing page copy (drafted, never published — `Ministry/Communication/CiC_Landing_Page_Copy_V0_1_DRAFT.md`)**
 - *"Not a chatbot answering questions, and not a real person impersonated, but a carefully built representative voice"* — **triple negation before the actual sentence.**
-- The whole "What It Refuses To Do" section, three refusals each written as "It never…" — **the architecture itself is negative**, not just the wording. Worth rebuilding the section's shape, not just its lines. (Same protected-line exception noted above applies to one of the three.)
+- The whole "What It Refuses To Do" section, three refusals each written as "It never…" — **the architecture itself is negative**, not just the wording. Worth rebuilding the section's shape, not just its lines. One of the three ("It will never try to convert you") is now itself retired per Mark's 2026-07-20 ruling above — replaced by "We are committed to an honest witness" wherever it lands in the rebuild.
 - *"No fundraising asks, no spam"* — **negative list** where a plain positive statement would do.
 
 ---
