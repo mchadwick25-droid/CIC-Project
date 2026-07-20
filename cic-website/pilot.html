@@ -61,6 +61,27 @@
     <p class="lede" style="font-size:.95rem;">The first round is small on purpose. If it's full by the time you reach out, your interest carries straight over to the next one — nothing is lost by expressing interest now.</p>
   </section>
 
+  <section class="page-section" id="enter-cta-section" style="text-align:center;">
+    <p id="enter-cta-live" style="display:none;">
+      <a class="btn primary" id="enter-cta-link" href="#">Come and join us at the Table</a>
+    </p>
+    <p id="enter-cta-pending" class="lede" style="font-size:.95rem;">
+      The Table itself will open right here, with no separate sign-up, as soon as hosting is finished. Check back soon.
+    </p>
+    <script>
+      // Set once cic-poc's frontend has a real hosted URL (System Hub Task
+      // Board #101/401) - this is the only step needed to turn this link
+      // live. Until then it stays honest about not being ready rather than
+      // linking somewhere broken.
+      const LIVE_APP_URL = '';
+      if (LIVE_APP_URL) {
+        document.getElementById('enter-cta-link').href = LIVE_APP_URL;
+        document.getElementById('enter-cta-live').style.display = '';
+        document.getElementById('enter-cta-pending').style.display = 'none';
+      }
+    </script>
+  </section>
+
   <section class="page-section">
     <p class="eyebrow">What this actually is</p>
     <p>This is an early build, not a finished product. Scholarly review of the historical reconstructions is still ongoing — it hasn't yet been checked by outside historians and theologians the way it eventually will be. You'd be testing something real and cared-for, but still a serious first draft. If something feels off, thin, or wrong, that's exactly the kind of thing we need to hear.</p>
@@ -95,9 +116,9 @@
   </section>
 
   <section class="page-section">
-    <p class="eyebrow">Express interest</p>
-    <h2>Tell us a little about yourself</h2>
-    <p>Think of this as a first conversation. Fill this out, and Mark will personally follow up before anything is set up.</p>
+    <p class="eyebrow">Not required — only if you'd like to</p>
+    <h2>Let Mark know you stopped by</h2>
+    <p>The link above works on its own — you don't need to fill anything out first or wait to hear back. But if you'd like to say which seat sounds like you, or just let Mark know you're here, this reaches him directly.</p>
     <form class="interest" id="pilot-interest-form" action="mailto:markchadwick25@gmail.com" method="post" enctype="text/plain">
       <label for="name">Your name</label>
       <input type="text" id="name" name="Name" required>
@@ -120,9 +141,9 @@
       <label for="referred">Did someone point you here, or are you finding us on your own?</label>
       <input type="text" id="referred" name="How_they_found_us" placeholder="e.g. a friend's name, or 'found it myself'">
 
-      <p class="hint" id="pilot-form-hint">Submitting this opens your own email app with a message addressed to Mark — nothing is sent automatically, and no account is created. He reads every one personally.</p>
+      <p class="hint" id="pilot-form-hint">Optional. Submitting this opens your own email app with a message addressed to Mark — nothing is sent automatically, and no account is created. He reads every one personally.</p>
       <p style="text-align:center;margin-top:1.2rem;">
-        <button type="submit" class="btn primary" id="pilot-form-submit">Send my interest</button>
+        <button type="submit" class="btn secondary" id="pilot-form-submit">Send a note to Mark</button>
       </p>
     </form>
     <script>
@@ -137,7 +158,7 @@
       if (PILOT_REQUEST_API) {
         const form = document.getElementById('pilot-interest-form');
         const hint = document.getElementById('pilot-form-hint');
-        hint.textContent = "Submitting this sends your interest directly to Mark — no account is created, and he reads every one personally.";
+        hint.textContent = "Optional. Submitting this sends your note directly to Mark — no account is created, and he reads every one personally.";
 
         form.addEventListener('submit', async (event) => {
           event.preventDefault();
@@ -159,11 +180,11 @@
             });
             if (!response.ok) throw new Error('request failed');
             form.replaceWith(Object.assign(document.createElement('p'), {
-              textContent: "Thank you — your interest is in. Mark will personally follow up before anything is set up.",
+              textContent: "Thank you — Mark has it, and reads every note personally. You don't need to wait to hear back to start using the link above.",
             }));
           } catch {
             submitButton.disabled = false;
-            submitButton.textContent = 'Send my interest';
+            submitButton.textContent = 'Send a note to Mark';
             hint.textContent = "Something went wrong submitting this — please email hello@churchinconversation.org directly instead.";
           }
         });
