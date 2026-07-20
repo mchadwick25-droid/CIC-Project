@@ -1,9 +1,12 @@
 # CiC Filing System Audit — 2026-07-20
 
-**Status: PROPOSAL. Nothing in this document has been executed.** Six parallel
-read-only investigations mapped the repo; nothing was moved, deleted, or
-edited during the audit itself. The target structure and migration plan
-below need Mark's go-ahead before any file actually moves.
+**Status: EXECUTED, same day, on Mark's approval.** Six parallel read-only
+investigations mapped the repo (nothing moved during the audit itself);
+the target structure and migration sequence below were then carried out
+in full — see the System Hub Decision Log's 2026-07-20 execution entry
+for the exact commits and one live collision found and reconciled
+mid-migration. Left as originally written below for the record of what
+was proposed and why; this document was not rewritten after the fact.
 
 ---
 

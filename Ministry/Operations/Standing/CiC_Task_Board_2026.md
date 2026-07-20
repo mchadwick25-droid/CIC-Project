@@ -168,6 +168,19 @@ compliance script) handed to a new disciplined successor thread —
       10/Representative files back from commit, uncommitted in the working
       tree, pending Mark's direct decision on how this happened and what to
       do with that piece. Full account: decision log, 2026-07-20.
+- [x] **DONE 2026-07-20 — Filing system audit executed in full: `Ministry/
+      Technology/` retired, `Ministry/Features/` created, Operations split,
+      2 live bugs/incidents fixed along the way.** Full audit:
+      `Ministry/Operations/Audits/CiC_Filing_System_Audit_2026-07-20.md`.
+      10 feature threads migrated into their own protected
+      `Ministry/Features/<name>/` folders with a README + Integration-Notes
+      each; Operations split into `Standing/` (5 tracking artifacts) and
+      `Audits/` (11 dated one-offs); both Archive gaps closed. Fixed the
+      Theon-renders-as-Facilitator bug (verified live) and recovered 5
+      Marketplace files an earlier restoration narrated as done but never
+      committed. One live collision with the concurrently-active UX Design
+      thread found and reconciled mid-migration, not overwritten. Full
+      account: decision log, 2026-07-20 (execution entry).
 - [ ] **101/401 (revised) — Stand up direct-API hosting, session caps, spending limit
       (Jonathan / System Hub).** ⚠ **No longer delayed — active now.** Bedrock dropped
       2026-07-19 (`CiC_System_Hub_Decision_Log.md`): host `cic-poc` directly with

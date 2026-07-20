@@ -2348,3 +2348,93 @@ commits above and needs a cleanup decision, not a commit decision.
 committing rather than swept in with `git add -A`. Two items intentionally
 left open for Mark: the Imperial-Juridical Step 10 scope question above,
 and the public website's now-stale Alexandria status.
+
+---
+
+### 2026-07-20 -- Filing system audit proposal executed in full, same day
+
+Mark approved the full recommended sequence from `CiC_Filing_System_Audit_
+2026-07-20.md`. Executed in order, one commit per logical step (14 commits,
+`920cc87` through `a505a37`), verified live where the change was
+observable rather than assumed correct from the diff alone:
+
+1. **Fixed the Theon bug** -- `MessageBubble.tsx`'s `getSpeakerInfo` switch
+   had no case for `'theon'`; added it. **Verified live end-to-end**: ran
+   both dev servers, started a real Alexandria session, sent a real
+   message, confirmed the reply rendered "Theon / Catechetical Teacher"
+   with real citations, not the Facilitator. Both servers stopped after.
+2. **Recovered the 5 missing Marketplace files.** Root-caused first,
+   not just re-restored blindly: they were part of the same orphan
+   safety-snapshot (`09f1de5`) as the rest of this session's recovery
+   work, but only `CiC_Positioning_Brief_DRAFT_V0_1.md` from that same
+   directory ever actually reached a commit (`e536bd0`) -- the other 5
+   were narrated as restored in an earlier decision log entry but never
+   landed. Restored the same way, verified against the snapshot.
+3. **Created `Ministry/Features/`**, migrated 10 feature threads
+   (Front-End-Integration-Strategy, Full-UX-Design, Guided-Questions,
+   Hosted-Tour, Tour-Experience-Module-Phase2, Atlas-World-Map,
+   Representative-Modes, Backend, Website, Prototype-Testing) in via
+   `git mv`, one commit per feature -- history preserved on every file
+   (confirmed by git's own "100% similar" rename detection on every move).
+   Renamed Tour-Experience-Module to add "-Phase2," fixing the naming
+   collision with Hosted-Tour the audit flagged. Wrote a `README.md` +
+   `Integration-Notes.md` per feature grounded directly in what the
+   audit's own agents had already verified (exact branch names, commit
+   hashes, live-vs-unmerged state) -- not re-derived from scratch.
+   Atlas-World-Map's Integration-Notes.md is the single place now
+   recording the sibling-worktree situation
+   (`CiC-Project-worldmap-merge`) and the open Tier A/B decision gating
+   its merge. World-build launch prompts (Imperial-Juridical, Alexandria)
+   moved to sit with their actual deliverables in `World-Builds/` rather
+   than Operations/Technology, matching the rule already applied to both
+   during the earlier commit sweep.
+4. **Split `Ministry/Operations/`** into `Standing/` (the 5 durable
+   tracking artifacts plus this hub's own 4 successive launch prompts),
+   `Audits/` (11 dated one-off audits/status-reports/handoffs), and left
+   `Markup-Queue/` as-is. Relocated the orphaned `w1brief_h.md` to sit
+   with its four siblings in Scholarly-Review. Added index `README.md`
+   files to both `Ministry/Features/` and `Ministry/Operations/` -- the
+   "no file anywhere says what exists" gap the audit named as finding #1.
+5. **Fixed both live Archive gaps**: physically moved Facilitator-
+   Governance V3.4 to `Archive/Superseded-Housekeeping/` (already ruled
+   safe to archive on 2026-07-19, never executed until now); corrected
+   Clean File Structure V1.1's own stale Archive category list (missing
+   Early-Communal-Build-History and Early-Latin-Build-History) via a
+   verified document.xml swap inside the original zip, not a full
+   directory recompress -- caught and fixed a real Windows zip-path
+   backslash issue along the way (`.NET ZipFile.CreateFromDirectory` and
+   PowerShell's `Compress-Archive` both produced non-standard backslash
+   entry names; fixed by copying the original docx's own zip structure
+   and swapping only the one changed part).
+6. **Left untouched, as scoped**: `L1-Foundation/` through
+   `L4-Templates/`, `World-Builds/`, `cic-poc/`, `cic-website/`. The
+   sync-checker script recommendation stays a follow-up task, not built
+   today.
+
+**One real, live collision found and reconciled mid-migration, not
+silently overwritten:** partway through, `git status` showed
+`Ministry/Operations/CiC_Full_UX_Feature_Checklist_2026-07-20.md` back at
+its old pre-migration path, untracked -- the concurrently-active UX
+Design thread had written a newer, more developed edition of that exact
+file (new Track/Surface axes, a refined lifecycle rule) to its original
+expected location while this reorg was in progress. Confirmed by direct
+diff it was genuinely newer content, not a stale leftover; moved the
+newer version into its correct `Audits/` home instead of the older copy
+already sitting there, edited nothing. This is exactly the kind of
+concurrent-write risk flagged when this sweep started -- caught by
+checking `git status` again after the structural moves rather than
+assuming the tree was static throughout, not because it was expected to
+happen.
+
+**Deliberately left alone, mid-flight from another active thread:**
+`World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md`
+(modified) and `Step10_Phase5_Boundary_Testing_Record.md` (new,
+untracked) -- that thread is actively continuing Step 10 per Mark's own
+direct instruction; grabbing a mid-write snapshot of its own files would
+risk capturing incomplete content. Not part of this reorg's scope either
+way.
+
+**Status:** filing system audit fully executed. `Ministry/Technology/` no
+longer exists -- every one of its 75 files now lives in a protected
+feature folder, `Ministry/Operations/Audits/`, or alongside its real
+deliverables in `World-Builds/`.
