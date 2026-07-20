@@ -14,6 +14,33 @@ testing.
 
 ---
 
+## 2026-07-20 — Technical build spec written, explicitly for later implementation
+
+**Mark's direction:** hold all Hosted Tour work — the one existing draft (Chloe's
+Sunday-gathering demo) needs substantial content editing, and this is its own project
+for after token reset (Friday 2026-07-24). In the meantime: "go ahead and design for
+later implementation."
+
+**Produced:** `CiC_Tour_Build_Spec_V0_1_DRAFT.md` — the engineering layer the strategy
+doc's own §4.4 explicitly declined to be ("a forward-looking technical integration
+note... not a build task"). Covers: the `TourManifest`/`TourBeat` data model
+(mirroring `world_manifest.py`'s exact single-source-of-truth pattern), three new
+`ConversationState` fields, why tour eligibility rides existing retrieval rather than
+a new classifier (unlike the frame-breaker/modern-term/epistemology bridges), the new
+`tour_mode.py` module and its three functions, the new `/tour/start`, `/tour/next`,
+`/tour/exit` API surface, and the frontend components (invitation card, tour view,
+world-selector honest-refusal line). Explicitly does not decide beat content,
+validation-probe wording, or anything gated on the strategy doc's own Handoffs #2-#4.
+
+**Gating restated:** Increment 1 + Increment 2 merged, a real first Tour Manifest
+authored and reviewed (Handoff #2), and the validation-suite extension (Handoff #3) —
+all still open, all still the reason nothing here gets built yet.
+
+**Next action:** none until the gates above clear. Update this log again only once
+actual build work starts.
+
+---
+
 ## 2026-07-16 — Founding pass: strategy, evidentiary analysis, and architecture drafted (V0.1)
 
 Full document: `Ministry/Technology/CiC_Tour_Experience_Module_Strategy_V0_1_DRAFT.md`.

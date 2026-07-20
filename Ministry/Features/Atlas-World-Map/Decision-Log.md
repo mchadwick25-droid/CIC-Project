@@ -13,6 +13,111 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-07-20 (addendum) — Choose-a-Tradition's hover-glimpse dropped as redundant (Mark caught it live)
+
+**Mark's observation, testing Prototype B directly:** "the scroll over didn't offer
+any further information than the tile, why not just click on tile for this."
+
+**Verified in the code, not just accepted on report:** the `mouseover` handler built
+the glimpse from `name / dates+region / status word` — but every live-world card
+(`.wcard`) already prints name, dates, region, status, and a description line at
+rest, and every search result row (`.rrow`) already prints name, dates, region,
+status word, and the living-tradition tag at rest. The glimpse was a near-strict
+subset of what the tile already showed. Confirmed this is **specific to Prototype
+B**, not a general flaw in the redesign's grammar: Prototype A's compact 48px status
+rows genuinely show less than their Level-2 sheet (which adds the relationship
+preview and actions), so that surface's tap-to-glimpse step earns its keep and is
+unchanged.
+
+**Applied:** removed the hover-glimpse mechanic from Prototype B entirely (CSS,
+markup, and the `mouseover`/`mouseout` listeners) — clicking a card or row already
+opened the full panel directly regardless of hover, so nothing about the actual
+interaction changed; only the redundant intermediate affordance is gone. Re-verified
+no orphaned references remain. Artifact republished at its same URL.
+
+**Heart of it:** the two-level hover/click grammar exists to let someone see *more*
+before committing to a full read — it is not decoration to apply everywhere by
+habit. Where a surface already prints the short form at rest, adding a hover step
+in front of it is pure friction with no payoff, and the fix is to drop the step, not
+defend it.
+
+**Next action:** none pending — carry this rule forward into Phase 2 (the in-app
+build of Choose a Tradition, once budget allows): only build a hover/glimpse layer
+where the tile face actually shows less than the glimpse would.
+
+---
+
+## 2026-07-20 — Fable usability study delivered; five design-decision rulings made
+
+**Mark's direction:** the live map was "way too hard to use, especially on the
+phone... the concepts are right but the scale and interaction is way too complex."
+Directed a dedicated Fable-model research-and-design thread to study the whole map,
+survey comparable scrolling atlas/timeline tools, and propose a more usable
+interaction model in the existing brand register — before resuming feature-by-feature
+UX testing.
+
+**Produced:** `Design/CiC_World_Map_Usability_Redesign_Study_2026-07-20.md` plus two
+working HTML prototypes (`Design/CiC_World_Map_Redesign_Prototype_A_Phone_Story_2026-07-20.html`,
+`Design/CiC_World_Map_Redesign_Prototype_B_Choose_A_Tradition_2026-07-20.html`).
+
+**Diagnosis (verified in the shipped code, not inferred):** `world-map.html`'s own
+`<title>` reads "Concept Demo V0.3" — a design instrument promoted straight to
+production with its stated production punch list (real pinch-zoom, touch glimpse,
+era-accordion, 44px targets, real-device testing) never completed. Confirmed zero
+touch event handlers in the file; 69% of entries (123/178) render as 9px unlabeled
+slivers at phone zoom; a four-deep nested-scroll trap (page → 85vh iframe → two-axis
+map → panel); the official phone fallback (the list view) has zero launch actions.
+Root cause beneath the individual bugs: one surface asked to be a thesis statement, a
+178-entry reference census, and a world-picker at once, when under 3% of entries are
+actionable doors.
+
+**Comparative research (5 examples, each examined live):** TimelineJS (separate the
+reading surface from the nav surface); The Pudding's scrollytelling epidemic piece
+(one verb — vertical scroll — paces density better than pan/zoom); xkcd's temperature
+timeline (time-as-scroll communicates scale without any legend to learn first);
+Native Land (search-first beats browse-first when the map is a means to an answer;
+point-of-reading disclosure is compatible with grace); the Met's Heilbrunn Timeline
+(at census scale, retrieval-first-with-chart-optional is the proven production
+answer, not a concession).
+
+**Proposed model — three linked surfaces, one shared data source, never deleting the
+wall chart:** **The Story** (a vertical era-spine, one verb: scroll) for open
+exploration; **Choose a Tradition** (search-first, live worlds land first, non-live
+results answer with recorded grounds + a nearest-open-neighbor redirect) for in-app
+world selection; **The Wall Chart** (today's canvas) kept as an opt-in desktop/print
+view, never the landing surface again.
+
+**Five decisions Mark made against the study's open questions, all DECIDED:**
+1. **Pre-survey expander:** counted expander, default-closed ("+11 more this era,
+   not yet assessed").
+2. **Desktop scope:** the Story replaces the canvas as the landing surface on *all*
+   devices, not just phone; the wall chart moves to an opt-in "View as wall chart"
+   link.
+3. **Tier A/B:** Mark's own framing — "maybe we need two versions, one for
+   exploration on the website and another that is for choosing in the conversation
+   system" — confirms the study's own two-surface split rather than picking either
+   surface as sole primary: **the Story is the website's exploration surface; Choose
+   a Tradition is the in-app selection surface.** This is the Tier A/B question's
+   actual resolution.
+4. **List view's fate:** retire it as the phone fallback; reframe as the scholar's
+   research browser it already functions as, linked from the Story's footer.
+5. **Era-rail labels:** numeral + short era title revealed on tap/hold, not numerals
+   alone at rest.
+
+**Heart reasoning:** none of these five trade away the confidence-calibration or
+honest build-status transparency that is the map's reason to exist — every mechanic
+audited in the study (its §3.4) lands somewhere in the new surfaces, several of them
+(the confidence word, the honest redirect) made *more* visible on touch than they are
+on the current desktop-only hover grammar.
+
+**Next action:** this is now a build-ready design — same discipline as the rest of
+the front-end backlog: nothing merges before/during a pilot window. Whoever picks up
+the build should start from the migration sketch in the study's §3.6 (extract the
+census to one JSON asset first — it kills the four-vs-five live-world drift class in
+the same motion).
+
+---
+
 ## 2026-07-16 (twenty-sixth pass) — Cross-reference: Representative Modes thread launched
 
 **Noted for this thread's record:** Mark launched a new thread (launch prompt

@@ -31,9 +31,10 @@ thing's own construction record (a World-Build's Doc_00–Doc_09, an Increment's
 build-handoff spec) is never deleted when it graduates — that stays the permanent record
 of *how* it was built; this checklist stays the permanent record of *whether* it's live.
 
-**Part 1 totals: 89 features — 22 Implemented · 43 Ready for implementation · 12 Still
-needs testing · 7 Still needs design work · 5 No record.** By surface: 67 App · 5 Website
-· 9 Both · 8 System.
+**Part 1 totals (updated 2026-07-20, after the epistemology-bridge fix and the
+session-recovery/world-ceiling design pass): 89 features — 23 Implemented · 45 Ready
+for implementation · 11 Still needs testing · 5 Still needs design work · 5 No
+record.** By surface: 67 App · 5 Website · 9 Both · 8 System.
 
 ---
 
@@ -128,12 +129,18 @@ needs testing · 7 Still needs design work · 5 No record.** By surface: 67 App 
 
 ## 7. Hosted Tour (S4-tour, T.1–T.6)
 
+**Deferred by Mark, 2026-07-20 — held as a placeholder, not tested or built further
+until after token reset (Friday 2026-07-24).** Only one draft tour scene exists
+(Chloe's hosted church-service walkthrough) and it needs substantial content editing
+before it's worth building against — this is being treated as its own project, not a
+quick pass. Nothing below changes until that content work happens.
+
 | Feature | Status | Surface | Why |
 |---|---|---|---|
-| In-app tour integration (threshold stop → beats → exit) | Ready for implementation | App | Blocked behind Increments 1 and 2, explicitly "never before/during P1" |
+| In-app tour integration (threshold stop → beats → exit) | Ready for implementation | App | Blocked behind Increments 1 and 2, explicitly "never before/during P1" — and now also deferred until the tour-content project runs |
 | Register strip / beat tracker / Exit chrome | Ready for implementation | App | Same |
 | Honest-absence beat ("What We Cannot Show You") | Ready for implementation | App | Same |
-| Standalone Chloe/Justin demo asset | Implemented | Website | Real, richly produced — but zero connection to the actual app |
+| Standalone Chloe/Justin demo asset | Implemented | Website | Real, richly produced — but zero connection to the actual app; needs a content-editing pass before more scenes are worth building |
 
 ## 8. The Close (S5)
 
@@ -166,8 +173,8 @@ needs testing · 7 Still needs design work · 5 No record.** By surface: 67 App 
 | Referral system backend | Implemented | System | Real endpoints, Supabase-backed, one-hop enforcement built |
 | Referral system frontend | Still needs testing | Website | Wired but inert on `refer-a-friend.html` — API base URL empty; will work once deployment sets it |
 | World icons (5 SVGs) | Ready for implementation | App | Locked and approved; not wired into any UI component |
-| Table world-count ceiling safeguard | Still needs design work | System | The 5-world cap is a stated policy, not an enforced code limit |
-| Session data persistence (currently in-memory only) | Still needs design work | System | POC-only; lost on restart — a real durability decision hasn't been made |
+| Table world-count ceiling safeguard | Ready for implementation | System | Designed 2026-07-20: a one-line assertion in `world_manifest.py` against a `LIVE_WORLD_CEILING` constant, mirroring this file's own existing single-source-of-truth discipline. See `Ministry/Features/Backend/CiC_Session_Recovery_and_World_Ceiling_Design_V0_1_DRAFT.md` |
+| Session recovery after a restart (not general persistence — that already exists) | Ready for implementation | System | Corrected 2026-07-20: `transcript_logging.py` already durably persists every round to Supabase once configured — the real gap is that it's write-only, nothing rehydrates the in-memory session on a lookup miss. Design in the same doc as above |
 
 ## 10. Flagged — no record found anywhere
 

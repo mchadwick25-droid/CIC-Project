@@ -24,4 +24,10 @@ repeatable one-per-world procedure that generalizes the §3 evidentiary analysis
 document already ran once by hand). Both are text/planning only — no code, no
 live-system risk. See Decision-Log.md for the reasoning.
 
+**Added 2026-07-20 (later same day):** `CiC_Tour_Build_Spec_V0_1_DRAFT.md` — the
+concrete technical/engineering plan (data model, API surface, frontend components)
+the strategy doc's own §4.4 explicitly declined to be. Designed for later
+implementation, per Mark's direction — Hosted Tour work overall is on hold until
+token reset (Friday 2026-07-24) and a real, edited first Tour Manifest exists.
+
 **Where deliverables land once integrated:** not yet applicable — this is pre-build.

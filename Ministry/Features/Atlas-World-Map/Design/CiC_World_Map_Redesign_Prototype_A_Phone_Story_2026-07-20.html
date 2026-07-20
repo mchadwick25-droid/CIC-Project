@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Atlas — Story View (Prototype A, phone) · Church in Conversation</title>
+<!-- ============================================================
+  PROTOTYPE SKETCH — design study 2026-07-20. Not production code.
+  Demonstrates the vertical era-spine ("the Story") proposed in
+  CiC_World_Map_Usability_Redesign_Study_2026-07-20.md §3.1.
+  Sample data: 27 of the census's 178 entries. Launch actions end
+  at a stated sketch stub. View at phone width (≤430px) for the
+  intended experience; it stays usable wide.
+  ============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --rule:#E6DFD3; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --gold-leaf:#B45309; --gold-wash:#FBF2E2;
+  --lapis:#1E40AF; --tyrian:#6B3FA0; --tyrian-wash:#F3EFFA; --graphite:#8A837C;
+  --serif:'Alegreya',Georgia,serif; --sans:'Alegreya Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--parchment);color:var(--iron-gall);font:1rem/1.55 var(--serif)}
+.col{max-width:480px;margin:0 auto;padding:0 0 7.5rem}
+
+/* ---- sticky header: search + status chips ---- */
+.hdr{position:sticky;top:0;z-index:10;background:var(--parchment);border-bottom:1px solid var(--rule);padding:.55rem .9rem .5rem}
+.hdr .brand{font-family:var(--sans);font-size:.72rem;letter-spacing:.08em;color:var(--ink-faded);text-transform:uppercase}
+.hdr .brand b{color:var(--iron-gall);font-weight:600}
+.hdr input[type=search]{width:100%;margin-top:.35rem;font:1rem var(--serif);color:var(--iron-gall);
+  background:var(--vellum);border:1px solid var(--rule);border-radius:8px;padding:.5rem .75rem}
+.hdr input::placeholder{color:var(--graphite);font-style:italic}
+.chips{display:flex;gap:.4rem;overflow-x:auto;margin-top:.45rem;padding-bottom:.15rem;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font-family:var(--sans);font-size:.78rem;padding:.34rem .7rem;min-height:32px;
+  border:1px solid var(--rule);border-radius:999px;background:var(--vellum);color:var(--ink-faded);cursor:pointer}
+.chip.on{background:var(--iron-gall);color:var(--parchment);border-color:var(--iron-gall)}
+
+/* ---- era rail ---- */
+.rail{position:fixed;right:.3rem;top:50%;transform:translateY(-50%);z-index:9;display:flex;flex-direction:column;gap:.15rem}
+.rail button{font-family:var(--sans);font-size:.6rem;width:30px;height:26px;border:none;background:none;
+  color:var(--graphite);cursor:pointer;border-radius:6px;padding:0}
+.rail button.on{color:var(--parchment);background:var(--iron-gall);font-weight:700}
+@media (min-width:560px){.rail{right:calc(50% - 280px)}}
+
+/* ---- thesis card ---- */
+.thesis{margin:1rem .9rem;background:var(--vellum);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.1rem}
+.thesis h1{font:700 1.25rem/1.3 var(--serif);margin:0 0 .4rem}
+.thesis p{margin:.4rem 0;font-size:.95rem}
+.thesis .counts{font-family:var(--sans);font-size:.82rem;color:var(--ink-faded)}
+.thesis .conf{color:var(--tyrian);font-family:var(--sans);font-size:.72rem;letter-spacing:.06em}
+
+/* ---- era chapters ---- */
+.era{padding:.9rem .9rem 1.1rem;border-top:1px solid var(--rule)}
+.era-head .no{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;color:var(--ink-faded);text-transform:uppercase}
+.era-head h2{font:700 1.15rem/1.3 var(--serif);margin:.1rem 0 0}
+.era-head .tag{font-style:italic;color:var(--ink-faded);font-size:.9rem;margin:.1rem 0 0}
+.era-head .rec{font-family:var(--sans);font-size:.76rem;color:var(--ink-faded);margin:.35rem 0 0;
+  border-left:3px solid var(--rule);padding-left:.55rem}
+.era-head .cts{font-family:var(--sans);font-size:.76rem;color:var(--ink-faded);margin:.3rem 0 0}
+.lanelbl{font-family:var(--sans);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--graphite);margin:.85rem 0 .25rem}
+
+/* ---- live world card ---- */
+.wcard{background:var(--vellum);border:1px solid var(--rule);border-left:4px solid var(--wc,var(--gold-leaf));
+  border-radius:10px;padding:.75rem .85rem;margin:.45rem 0;cursor:pointer}
+.wcard .st{font-family:var(--sans);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--wc,var(--gold-leaf));font-weight:700}
+.wcard h3{font:700 1.08rem/1.25 var(--serif);margin:.15rem 0 0}
+.wcard .meta{font-size:.85rem;color:var(--ink-faded);font-style:italic}
+.wcard p{margin:.35rem 0 .1rem;font-size:.92rem}
+.wcard .acts{display:flex;gap:.5rem;margin-top:.55rem}
+.btn{font-family:var(--sans);font-size:.88rem;font-weight:600;min-height:44px;padding:.5rem .95rem;
+  border-radius:8px;cursor:pointer;border:1px solid var(--madder)}
+.btn.solid{background:var(--madder);color:var(--vellum)}
+.btn.solid:active{background:var(--madder-deep)}
+.btn.line{background:none;color:var(--madder)}
+.btn.quiet{border-color:var(--rule);color:var(--ink-faded);background:var(--vellum)}
+
+/* ---- status rows ---- */
+.row{display:flex;align-items:center;gap:.6rem;min-height:48px;padding:.3rem .2rem;border-bottom:1px solid var(--rule);cursor:pointer;background:none;width:100%;text-align:left;border-left:none;border-right:none;border-top:none;font:inherit;color:inherit}
+.row:last-child{border-bottom:none}
+.row .g{flex:none;width:14px;height:14px;border-radius:50%}
+.g.sel{border:3px double var(--iron-gall)}
+.g.def{border:1.5px solid var(--iron-gall);background:linear-gradient(90deg,var(--iron-gall) 50%,transparent 50%)}
+.g.psc{border:1.5px solid var(--graphite)}
+.g.exc{border:1.5px dashed var(--madder-deep)}
+.g.cev{border:1.5px dotted var(--tyrian)}
+.g.str{border:1.5px dashed var(--tyrian);border-radius:2px;transform:rotate(45deg);width:11px;height:11px}
+.row .nm{flex:1;min-width:0}
+.row .nm b{font-weight:600;font-size:.98rem}
+.row .nm .sub{display:block;font-family:var(--sans);font-size:.74rem;color:var(--ink-faded)}
+.row .stw{flex:none;font-family:var(--sans);font-size:.68rem;color:var(--ink-faded);text-align:right;max-width:7.5rem}
+
+/* ---- beyond-the-floor stream section ---- */
+.stream{background:var(--tyrian-wash);border-left:3px solid var(--tyrian);border-radius:0 8px 8px 0;
+  padding:.4rem .6rem .3rem;margin:.8rem 0 .2rem}
+.stream .slbl{font-family:var(--sans);font-size:.64rem;letter-spacing:.11em;color:var(--tyrian);text-transform:uppercase}
+.stream .snote{font-size:.78rem;font-style:italic;color:var(--ink-faded);margin:.15rem 0 .2rem}
+
+/* ---- expander ---- */
+.expander{display:block;width:100%;text-align:left;font:italic .88rem var(--serif);color:var(--ink-faded);
+  background:none;border:none;border-top:1px dashed var(--rule);border-bottom:1px dashed var(--rule);
+  padding:.65rem .2rem;margin:.4rem 0;cursor:pointer;min-height:44px}
+.expander:before{content:"+ ";font-style:normal;color:var(--graphite)}
+.expander.open:before{content:"− "}
+
+/* ---- thread mode ---- */
+body.thread .row.dim,body.thread .wcard.dim,body.thread .expander,body.thread .thesis{display:none}
+body.thread .era.dim{display:none}
+.threadbar{display:none;position:sticky;top:0;z-index:11;background:var(--tyrian);color:#fff;
+  font-family:var(--sans);font-size:.82rem;padding:.55rem .9rem;align-items:center;gap:.6rem}
+body.thread .threadbar{display:flex}
+.threadbar button{margin-left:auto;font-family:var(--sans);font-size:.8rem;background:#fff;color:var(--tyrian);
+  border:none;border-radius:999px;padding:.35rem .8rem;cursor:pointer;min-height:32px}
+.tstub{display:none;font-family:var(--sans);font-size:.74rem;color:var(--tyrian);
+  border-left:3px solid var(--tyrian);padding:.2rem 0 .2rem .6rem;margin:.2rem 0 .2rem .35rem}
+body.thread .tstub.on{display:block}
+.tstub .cw{letter-spacing:.07em;font-weight:700}
+
+/* ---- bottom sheet (L2 / L3) ---- */
+.scrim{position:fixed;inset:0;background:rgba(42,37,33,.28);z-index:20;display:none}
+.scrim.on{display:block}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:var(--vellum);border-top:2px solid var(--rule);
+  border-radius:14px 14px 0 0;box-shadow:0 -8px 30px rgba(42,37,33,.18);max-height:55vh;overflow-y:auto;
+  padding:0.85rem 1rem 1.1rem;display:none}
+.sheet.on{display:block}
+.sheet.full{max-height:92vh}
+.sheet .grab{width:38px;height:4px;border-radius:2px;background:var(--rule);margin:0 auto .6rem}
+.sheet h2{font:700 1.15rem/1.3 var(--serif);margin:.1rem 0 0}
+.sheet .meta{font-size:.86rem;color:var(--ink-faded);font-style:italic}
+.sheet .stline{font-family:var(--sans);font-size:.8rem;margin:.5rem 0;padding:.45rem .6rem;border-radius:8px;
+  background:var(--parchment);border:1px solid var(--rule)}
+.sheet .stline b{letter-spacing:.04em}
+.sheet h4{font-family:var(--sans);font-size:.68rem;letter-spacing:.12em;color:var(--ink-faded);
+  text-transform:uppercase;margin:.9rem 0 .25rem;display:flex;align-items:center;gap:.5rem}
+.sheet h4:after{content:"";flex:1;border-top:1px solid var(--rule)}
+.sheet p{margin:.25rem 0;font-size:.93rem}
+.edge{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem;padding:.4rem 0;border-bottom:1px solid var(--rule);font-size:.9rem}
+.edge:last-child{border-bottom:none}
+.edge .dir{font-family:var(--sans);font-size:.74rem;color:var(--ink-faded)}
+.edge .to{font-weight:600;color:var(--iron-gall);text-decoration:underline;text-decoration-color:var(--rule);cursor:pointer;background:none;border:none;font:600 .9rem var(--serif);padding:0}
+.cbadge{font-family:var(--sans);font-size:.64rem;letter-spacing:.08em;color:var(--tyrian);
+  border:1px solid var(--tyrian);border-radius:3px;padding:.05rem .35rem;white-space:nowrap}
+.edge .note{width:100%;font-style:italic;color:var(--ink-faded);font-size:.84rem}
+.sheet .acts{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.sheet .close{position:absolute;right:.7rem;top:.55rem;background:none;border:none;font-size:1.25rem;
+  color:var(--graphite);cursor:pointer;min-width:44px;min-height:34px}
+.sheetwrap{position:relative}
+
+/* ---- tray ---- */
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:15;background:var(--iron-gall);color:var(--parchment);
+  padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));display:flex;align-items:center;gap:.55rem;flex-wrap:wrap}
+.tray .mode{font:italic .84rem var(--serif);opacity:.92;flex:1;min-width:9rem}
+.tray .tchip{font-family:var(--sans);font-size:.8rem;background:rgba(254,252,248,.12);border:1px solid var(--gold-leaf);
+  border-radius:999px;padding:.22rem .3rem .22rem .65rem;display:inline-flex;gap:.3rem;align-items:center}
+.tray .tchip button{background:none;border:none;color:var(--gold-wash);cursor:pointer;font-size:.95rem;min-width:28px;min-height:28px}
+.tray .go{font-family:var(--sans);font-weight:700;font-size:.9rem;background:var(--madder);color:var(--vellum);
+  border:none;border-radius:8px;padding:.6rem 1rem;min-height:44px;cursor:pointer}
+.tray .go:disabled{opacity:.45;cursor:not-allowed}
+
+/* ---- sketch-stub modal ---- */
+.modal{position:fixed;inset:0;z-index:30;background:rgba(42,37,33,.35);display:none;align-items:center;justify-content:center;padding:1.2rem}
+.modal.on{display:flex}
+.mbox{background:var(--vellum);border:1px solid var(--rule);border-radius:12px;max-width:26rem;padding:1.2rem 1.3rem}
+.mbox h2{font:700 1.1rem var(--serif);margin:0 0 .5rem}
+.mbox p{font-size:.93rem;margin:.35rem 0}
+.footer{padding:1.2rem .9rem 0;font-family:var(--sans);font-size:.74rem;color:var(--graphite)}
+.nomatch{font-style:italic;color:var(--graphite);font-size:.85rem;padding:.4rem 0}
+@media (max-width:559.9px){
+  /* reserve a gutter for the fixed era rail so rows never run beneath it
+     (kept last in the sheet so it wins the equal-specificity cascade) */
+  .era{padding-right:2.6rem}
+  .thesis{margin-right:2.6rem}
+  .footer{padding-right:2.6rem}
+}
+</style>
+</head>
+<body>
+<div class="threadbar" id="threadbar">
+  <span id="threadlbl"></span>
+  <button id="threadoff">Show the whole story again</button>
+</div>
+
+<div class="col">
+  <header class="hdr" id="hdr">
+    <div class="brand"><b>Church in Conversation</b> · The Atlas — Story view <span style="float:right;color:var(--graphite)">sketch</span></div>
+    <input type="search" id="q" placeholder="Search all movements — including the ones that aren’t open, and why" aria-label="Search all movements">
+    <div class="chips" id="chips" role="group" aria-label="Filter by status"></div>
+  </header>
+
+  <section class="thesis" id="thesis">
+    <h1>Twenty centuries of the church. One table. A chair pulled out for you.</h1>
+    <p class="counts" id="thesiscounts"></p>
+    <p style="font-size:.9rem">Scroll down through the eras. Worlds open for conversation appear in full color with a chair ready.
+    Every other movement is on the map with its status stated plainly — chosen, deferred with reasons on record,
+    not yet assessed, or excluded on grounds you can read in full. Every entry opens. Nothing here is out of reach.</p>
+    <p class="conf">RELATIONSHIP CLAIMS CARRY THEIR CONFIDENCE IN WORDS — DOCUMENTED · WIDELY ACCEPTED · CONTESTED. WHERE THE RECORD IS THIN, IT SAYS SO.</p>
+  </section>
+
+  <main id="spine"></main>
+
+  <p class="footer">Prototype sketch · sample data: 27 of the census’s 178 entries (Eras VI and VIII carry entries in the
+  full census that are not in this sample). Lanes are reading aids, not a taxonomy of the Church.
+  Statuses and confidence words reproduce the shipped census; no relationship is drawn that the census does not carry.</p>
+</div>
+
+<nav class="rail" id="rail" aria-label="Jump to era"></nav>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheetwrap">
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true">
+    <button class="close" id="sheetclose" aria-label="Close">×</button>
+    <div class="grab"></div>
+    <div id="sheetbody"></div>
+  </div>
+</div>
+
+<div class="tray" id="tray">
+  <span class="mode" id="traymode"></span>
+  <span id="traychips"></span>
+  <button class="go" id="go" disabled>Sit down at the Table</button>
+</div>
+
+<div class="modal" id="modal"><div class="mbox" id="modalbody"></div></div>
+
+<script>
+/* ================= sample census (27 of 178) ================= */
+const ERAS=[
+ {no:"I",n:1,title:"The Early Church Era",dates:"70–312",tag:"The apostles’ children, under an empire that could turn on them",g:"#EFDDB3",rec:"Part of Phase One — the Step 0 selection record is on file."},
+ {no:"II",n:2,title:"The Imperial Church Era",dates:"312–451",tag:"From Constantine’s revolution to Chalcedon",g:"#EDDEB9",rec:"Part of Phase One — the Step 0 selection record is on file."},
+ {no:"III",n:3,title:"The Age of Monks and Empires",dates:"451–622",tag:"The communions take their lasting shapes after Chalcedon",g:"#EBDFC0",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."},
+ {no:"IV",n:4,title:"The Early Medieval Era",dates:"622–1054",tag:"Christianity under new empires, from Ireland to China",g:"#E9E0C6",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."},
+ {no:"V",n:5,title:"The High Medieval Era",dates:"1054–1300",tag:"Reform, renewal, and the new orders",g:"#E7E1CC",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."},
+ {no:"VI",n:6,title:"The Late Medieval Era",dates:"1300–1517",tag:"Crisis and devotion on the eve of reform",g:"#E6E3D3",rec:"The Step 0 assessment for this era has not yet run.",empty:"This era’s census entries are not in this sample sketch — the full census carries them."},
+ {no:"VII",n:7,title:"The Reformation Era",dates:"1517–1650",tag:"The Western church remade — several ways at once",g:"#E4E4D9",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."},
+ {no:"VIII",n:8,title:"The Enlightenment & Awakening Era",dates:"1650–1815",tag:"Established churches, awakened hearts",g:"#E2E5DF",rec:"The Step 0 assessment for this era has not yet run.",empty:"This era’s census entries are not in this sample sketch — the full census carries them."},
+ {no:"IX",n:9,title:"The Missionary Era",dates:"1815–1906",tag:"Revival, missions, and a globalizing faith",g:"#E0E6E6",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."},
+ {no:"X",n:10,title:"The Global Church Era",dates:"1906–present",tag:"The whole world’s church",g:"#DEE7EC",rec:"The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."}
+];
+const STW={live:"Open for conversation",sel:"Chosen — not yet built",def:"Deferred — reasons on record",
+ psc:"Not yet assessed",exc:"Excluded — grounds stated",cev:"Contested evidence",str:"Beyond the floor — explained"};
+const STCOPY={
+ live:"You can sit down with this world now.",
+ sel:"One of the nine worlds chosen for its era after a completed survey. Construction has not begun.",
+ def:"Considered for its era and held for a later one — the reasons are on record.",
+ psc:"The survey for this era has not yet run. No verdict exists — and none is implied.",
+ exc:"Not in the conversation set, for a stated reason you can read in full. Exclusion is not a judgment of unimportance.",
+ cev:"The record is genuinely disputed. This entry carries the question, not a verdict.",
+ str:"Its own confessions place it outside this project’s Nicene base and its bounded proximity. Recognized, researched, and explained — never hidden."};
+const LIVES={
+ house:{rep:"Chloe",c:"#6d3fc4"}, desert:{rep:"Papnoute",c:"#0d6a5f"},
+ syriac:{rep:"Mar Yausep",c:"#a34d07"}, beth:{rep:"Albina",c:"#8f1244"}};
+/* st: live sel def psc exc cev str ; lane label shown per group */
+const M=[
+ {id:"house",era:1,lane:"Origin — before the lanes divide",st:"live",name:"Post-Apostolic House-Church Christianity",dates:"70–200",region:"Antioch · Asia Minor · Rome",
+  why:"The scattered assemblies that held together after the apostles — meeting in homes, holding costly convictions under an empire that could turn on them.",
+  src:"Sourcing disclosed in the live manifest: richest in letters and community orders; thinner on daily texture, and it says so."},
+ {id:"alex",era:1,lane:"Africa",st:"sel",name:"Alexandrian Catechetical / Christian-Platonist",dates:"180–450",region:"Alexandria",
+  why:"Chosen after a completed survey of the whole period — and one of the first worlds this project ever tried to build. Earlier construction work exists and is being re-grounded in the project’s current method. Chosen, wanted, not yet open.",
+  src:"Substantial prior construction exists from an earlier version of the method; held to the standard of the method as it now stands."},
+ {id:"ebion",era:1,lane:"Origin — before the lanes divide",st:"cev",name:"Ebionite / Nazoraean Christianity",dates:"c. 100–400",region:"Palestine & the East",
+  why:"Jewish followers of Jesus known almost entirely through their opponents’ reports and disputed fragments. The record is genuinely contested — this entry carries the question, not a verdict.",
+  src:"No securely attributed inside-voice texts survive; scholars dispute the group’s very boundaries."},
+ {id:"lyons",era:1,lane:"Latin West & Catholicism",st:"psc",name:"The Churches of Lyons & Vienne",dates:"150–300",region:"Roman Gaul",
+  why:"The Rhône-valley assemblies whose martyrs’ letter of 177 is among the earliest windows into Christian Gaul. The survey for this era placed it on the map; no assessment has run.",
+  src:"A signal, not a verdict: one extraordinary letter, Irenaeus’s writings, and little else in the community’s own voice."},
+ {id:"montanism",era:1,lane:"Greek East & Orthodoxy",st:"exc",c2:"record",name:"Montanism (the New Prophecy)",dates:"156–c. 400",region:"Phrygia",
+  why:"Excluded by the completed Step 0 on a named ground: a movement defined by named prophets’ personal revelation (Criterion 2) — a founder-prophet ground on record (✦). Its seriousness about holiness is not in question, and exclusion is not a judgment of unimportance.",
+  src:"Mostly hostile reports; a handful of oracles survive as quotations."},
+ {id:"marcion",era:1,lane:"Beyond the Floor",st:"str",c2:"record",name:"Marcion’s Church",dates:"c. 144–300s",region:"Rome & widespread",
+  why:"Marcion’s own confession — two gods, a rejected Old Testament — places this movement outside the Nicene base this project measures from. It sits here beside the second-century church it argued with, in its true time position, with a research brief instead of a chair.",
+  src:"Known through opponents (Tertullian, Irenaeus); his Apostolikon is reconstructed from their quotations."},
+ {id:"desert",era:2,lane:"Africa",st:"live",name:"The Desert Fathers and Mothers",dates:"270–400",region:"Egypt — Nitria · Scetis · the Thebaid",
+  why:"The men and women who walked into the Egyptian desert once the empire turned safe — asking what faithfulness costs when it no longer costs everything.",
+  src:"Sourcing disclosed in the live manifest: richest in sayings and lives; thinner on the movement’s earliest years, and it says so."},
+ {id:"syriac",era:2,lane:"Syriac East & Asia",st:"live",name:"Syriac Christianity (Edessa & Nisibis)",dates:"300–450",region:"Edessa & Nisibis — now southeastern Turkey",
+  why:"Aramaic-speaking Christianity beyond Rome’s border — hymns, covenant, and a school-city church for whom Constantine’s conversion made things harder, not easier.",
+  src:"Sourcing disclosed in the live manifest: richest in hymns and teaching; thinner on ordinary household life, and it says so."},
+ {id:"beth",era:2,lane:"Latin West & Catholicism",st:"live",name:"The Bethlehem Circle",dates:"380–420",region:"Bethlehem",
+  why:"Aristocrats of the imperial church’s high noon who gave its wealth and rank away — Jerome, Paula, and the community of scholarship and renunciation around them.",
+  src:"Sourcing disclosed in the live manifest: richest in letters; the circle’s women speak mostly through Jerome’s pen, and it says so."},
+ {id:"capp",era:2,lane:"Greek East & Orthodoxy",st:"sel",name:"Cappadocian Nicene Pastoral-Monastic",dates:"330–400",region:"Cappadocia",
+  why:"Chosen — one of the nine selected for this era: the communities around Basil, the Gregories, and Macrina, where the words Christians still confess about the Trinity were forged in real congregations, real letters, real grief. Construction has not begun.",
+  src:"Selected on the strength of its sources: letters, sermons, monastic rules, family memoir."},
+ {id:"imperial",era:2,lane:"Latin West & Catholicism",st:"sel",name:"Imperial & Juridical Christianity",dates:"312–451",region:"Constantinople & Rome",
+  why:"Chosen: the church that woke up allied to the empire that had been killing it — power, and what power does to a community formed by a crucified Lord, held as the sources hold it. Construction has not begun.",
+  src:"Selected on the strength of its sources: laws, councils, court sermons, episcopal letters."},
+ {id:"donatism",era:2,lane:"Latin West & Catholicism",st:"sel",name:"Donatism",dates:"311–420",region:"Roman North Africa",
+  why:"Chosen — and it may surprise you that it’s here: a whole communion serious about holiness, known mainly through hostile pens. That is exactly why it was chosen: it deserves to speak as itself. Construction has not begun.",
+  src:"Known largely through Augustine and imperial records; its own martyr-acts and sermons survive in part."},
+ {id:"latinpast",era:2,lane:"Latin West & Catholicism",st:"sel",name:"Latin Pastoral-Congregational Christianity",dates:"250–430",region:"North Africa — Carthage & Hippo",
+  why:"Chosen: the ordinary congregational life of Latin North Africa — the parish, long before that word existed. Construction has not begun.",
+  src:"Cyprian’s letters, Augustine’s sermons to his own people, church orders."},
+ {id:"armenia",era:2,lane:"Caucasus",st:"def",living:true,name:"Armenia — Conversion & National Church",dates:"301–present",region:"Armenia",
+  why:"Considered for this era and held for a later one — the reasons are on record. A living communion: any world built here would be a bounded historical window, never a claim to speak for Armenian Christians today.",
+  src:"Deferred with reasons on record; a rich national literature begins in the 5th century."},
+ {id:"homoian",era:2,lane:"Beyond the Floor",st:"str",name:"Homoian (“Arian”) Christianity",dates:"c. 340–600",region:"The empire & the Gothic world",
+  why:"Carried in the set-apart stream while a recorded governance question stays open: the Step 0 record holds this family’s proximity question open, and this map carries the question rather than answering it. Its entries keep their true time and place.",
+  src:"Creeds and fragments survive; much is transmitted through opponents."},
+ {id:"cote",era:3,lane:"Syriac East & Asia",st:"def",living:true,name:"The Church of the East (Persia)",dates:"410–present",region:"Persia & Mesopotamia",
+  why:"Named and reasoned about by the completed Phase One record and held for a later phase — deferred, not dropped. The School of Nisibis carries the Syriac world’s teaching directly onward.",
+  src:"Synods, school statutes, and a continuous literary tradition."},
+ {id:"coptic",era:3,lane:"Africa",st:"psc",living:true,name:"Coptic Christianity after Chalcedon",dates:"451–present",region:"Egypt",
+  why:"The church of Egypt after Chalcedon’s parting of ways — an unbroken witness through fifteen centuries, much of it under pressure. The assessment of its sources has not yet been done; a living church whose own voice is theirs, not ours.",
+  src:"What an assessment would weigh: liturgies, lives, and a continuous communal memory."},
+ {id:"byzmon",era:3,lane:"Greek East & Orthodoxy",st:"psc",name:"Byzantine Monasticism",dates:"451–1453",region:"Constantinople → Athos",
+  why:"A thousand years of Greek-speaking monastic life carrying practices of prayer still alive today. Not yet assessed — the question a survey would ask is which community and window could speak as one world.",
+  src:"What an assessment would weigh: rules, hymns, and spiritual writings across many centuries."},
+ {id:"bened",era:3,lane:"Latin West & Catholicism",st:"psc",living:true,name:"Benedictine Monasticism",dates:"529–present",region:"Monte Cassino → the West",
+  why:"The Rule that quietly organized Western monastic life for a thousand years. Not yet assessed — sixth-century Monte Cassino, Carolingian houses, and Cluny are three different worlds sharing one Rule.",
+  src:"What an assessment would weigh: the Rule, customaries, chronicles — and which century could speak as one lived world."},
+ {id:"tang",era:4,lane:"Syriac East & Asia",st:"psc",name:"The Church of the East in Tang China",dates:"635–845",region:"Chang’an & the Silk Road",
+  why:"The Syriac church’s furthest journey — a mission church in the Tang capital, remembered on a stone stele in two languages. Not yet assessed.",
+  src:"What an assessment would weigh: the Xi’an stele, the Dunhuang documents — extraordinary, and few."},
+ {id:"waldensian",era:5,lane:"Latin West & Catholicism",st:"psc",living:true,name:"The Waldensians",dates:"1173–present",region:"Lyon → the Alpine valleys",
+  why:"Lay preachers of voluntary poverty who outlived their condemnation by eight centuries. Not yet assessed — how much early continuity is real versus retrospective is a live scholarly argument, and the census says so.",
+  src:"What an assessment would weigh: inquisition records, their own later archives."},
+ {id:"lutheran",era:7,lane:"Protestant & Evangelical",st:"psc",living:true,name:"The Lutheran Reformation",dates:"1517–present",region:"Saxony → Scandinavia & beyond",
+  why:"The Western church remade around justification by faith, the vernacular Scriptures, and the congregation’s own hymnbook. Not yet assessed.",
+  src:"What an assessment would weigh: an unusually rich inside voice — catechisms, hymns, table talk, church orders."},
+ {id:"anabaptist",era:7,lane:"Protestant & Evangelical",st:"psc",living:true,name:"Anabaptist / Radical Reformation",dates:"1525–present",region:"Switzerland · Moravia · the Low Countries",
+  why:"Communities who concluded that following Jesus meant chosen baptism, refusal of the sword, and a church free of state power — and paid in martyrdom recorded by their own hand. Not yet assessed.",
+  src:"What an assessment would weigh: court testimonies, prison hymns, the Martyrs Mirror — exactly the inside-voice evidence the method looks for."},
+ {id:"blackchurch",era:9,lane:"Protestant & Evangelical",st:"psc",living:true,name:"The Black Church in America",dates:"c. 1780–present",region:"United States",
+  why:"The church forged by enslaved Africans — hush harbors, Exodus heard as their own story, and the institutions built after emancipation that carried a people. Not yet assessed; an assessment would name whose voices the record structurally suppressed, as the method requires.",
+  src:"What an assessment would weigh: spirituals, narratives, sermons, church records — gathered under conditions that silenced much more."},
+ {id:"lds",era:9,lane:"Beyond the Floor",st:"str",c2:"record",name:"The Latter-day Saints (LDS)",dates:"1830–present",region:"United States → worldwide",
+  why:"Its own confession — new scripture and a restored priesthood through a named prophet (✦ ground on record) — places it outside the Nicene base this project measures from. Recognized, researched, and explained; never hidden, never a chair.",
+  src:"An unusually well-documented movement; the brief’s grounds are stated in full in the census."},
+ {id:"azusa",era:10,lane:"Global Revival & Pentecostal",st:"psc",living:true,name:"Pentecostal Origins — Azusa Street",dates:"1906–1915",region:"Los Angeles",
+  why:"An interracial mission led by William J. Seymour, from which the fastest-growing Christian movement on earth traces its descent. Not yet assessed — several living traditions tell this story differently, and an assessment would hold that.",
+  src:"What an assessment would weigh: the mission’s own periodical, newspapers, participants’ memoirs."},
+ {id:"chinesehc",era:10,lane:"Global Revival & Pentecostal",st:"psc",living:true,name:"The Chinese House-Church Movement",dates:"1949–present",region:"China",
+  why:"Congregations that carried faith through decades when every public church was closed. A movement this recent and this exposed raises questions the method takes seriously — much of its inside voice is unpublished, oral, or unsafe to publish. No assessment has been done; if one ever is, those questions come first.",
+  src:"What an assessment would weigh comes after the safety questions — the census says exactly that."}
+];
+/* nearest open neighbor: [liveId, connecting line] */
+const NB={alex:["desert","the Desert Fathers and Mothers grew up in Alexandria’s shadow — they are at the table now"],
+ ebion:["house","the House-Churches — the same scattered second-century network, from inside"],
+ lyons:["house","the House-Churches — small assemblies holding costly convictions under pressure"],
+ montanism:["house","the House-Churches — the assemblies the New Prophecy moved among"],
+ marcion:["house","the House-Churches — the second-century church Marcion argued with"],
+ capp:["beth","the Bethlehem Circle — its founder sat under Gregory of Nazianzus’s teaching"],
+ imperial:["beth","the Bethlehem Circle — aristocrats of that same imperial world who gave its rank away"],
+ donatism:["house","the House-Churches — an earlier era’s communities holding costly convictions under pressure"],
+ latinpast:["house","the House-Churches — the same ordinary-assembly life, two centuries earlier"],
+ armenia:["syriac","Syriac Christianity — the Edessa line that helped form the Caucasus churches"],
+ homoian:["house","the House-Churches — the base the floor measures from"],
+ cote:["syriac","Syriac Christianity — Nisibis carries this world’s teaching directly onward"],
+ coptic:["desert","the Desert Fathers and Mothers — Antony and Pachomius are that world’s own teachers"],
+ byzmon:["desert","the Desert Fathers and Mothers — the root this whole tradition claims"],
+ bened:["desert","the Desert Fathers and Mothers — Benedict’s Rule commends their teachers by name"],
+ tang:["syriac","Syriac Christianity — the school-city church this mission carried east"],
+ waldensian:["beth","the Bethlehem Circle — the Latin world’s open door here"],
+ lutheran:["house","the House-Churches — where the congregation’s story begins"],
+ anabaptist:["house","the House-Churches — small assemblies holding costly convictions under pressure"],
+ blackchurch:["house","the House-Churches — assemblies holding faith and freedom under powers that permitted neither"],
+ lds:["house","the House-Churches — the base the floor measures from"],
+ azusa:["desert","the Desert Fathers and Mothers — an earlier movement sure the Spirit’s power is present now"],
+ chinesehc:["house","the House-Churches of the second century — the resemblance is not an accident"]};
+/* edges: [from,to,type,confidence,note] — reproduced from the census seed set; none invented */
+const EDGES=[
+ ["house","syriac","formed","Contested","Aramaic-speaking Christianity reached Edessa early — by what route, scholars genuinely disagree."],
+ ["house","alex","formed","Widely Accepted","Egyptian Christianity emerged from the same scattered network."],
+ ["alex","desert","formed","Widely Accepted","The desert grew in Alexandria’s shadow; Athanasius wrote Antony’s Life."],
+ ["desert","beth","carried to","Documented","Jerome and Paula toured the Egyptian ascetic settlements."],
+ ["alex","beth","carried to","Documented","Origen’s Hexapla is the ancestor of Jerome’s Hebrew-testing project."],
+ ["capp","beth","contemporary","Documented","Jerome heard Gregory of Nazianzus teach, and called him his teacher."],
+ ["syriac","cote","formed","Documented","The School of Nisibis and the Persian church carry this world onward after 410."],
+ ["desert","byzmon","formed","Documented","Basil visited Egypt; the Greek monastic tradition claims the desert as its root."],
+ ["desert","bened","carried to","Documented","Cassian carried the desert to Gaul; Benedict’s Rule commends his Conferences by name."],
+ ["desert","coptic","formed","Documented","Post-Chalcedon Egypt is the desert’s direct continuation."],
+ ["alex","coptic","formed","Documented","…and Alexandria’s."],
+ ["lutheran","anabaptist","argued against","Documented","The Radical Reformation defined itself against the magisterial settlement."]
+];
+
+/* ================= render ================= */
+const byId={}; M.forEach(m=>byId[m.id]=m);
+const esc=t=>(t||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const spine=document.getElementById('spine');
+let tray=[], filterSt="", query="", threadOf=null;
+
+function eraCounts(list){
+  const c={};list.forEach(m=>c[m.st]=(c[m.st]||0)+1);
+  const parts=[];
+  if(c.live)parts.push(c.live+" open for conversation");
+  if(c.sel)parts.push(c.sel+" chosen");
+  if(c.def)parts.push(c.def+" deferred, reasons on record");
+  if(c.psc)parts.push(c.psc+" not yet assessed");
+  if(c.exc)parts.push(c.exc+" excluded, grounds stated");
+  if(c.cev)parts.push(c.cev+" contested");
+  if(c.str)parts.push(c.str+" beyond the floor, explained");
+  return parts.join(" · ");
+}
+function rowHTML(m){
+  const live=m.st==="live";
+  if(live){const L=LIVES[m.id];
+    return `<article class="wcard" data-id="${m.id}" style="--wc:${L.c}" tabindex="0">
+      <div class="st">Open for conversation · ${L.rep}</div>
+      <h3>${esc(m.name)}</h3>
+      <div class="meta">${esc(m.dates)} · ${esc(m.region)}</div>
+      <p>${esc(m.why)}</p>
+      <div class="acts">
+        <button class="btn solid" data-act="interview" data-id="${m.id}">Interview</button>
+        <button class="btn line" data-act="add" data-id="${m.id}">Add to the Table</button>
+      </div>
+      <div class="tstub" data-tstub="${m.id}"></div></article>`;}
+  const liv=m.living?` · <i>living tradition</i>`:"";
+  const c2=m.c2==="record"?" ✦":(m.c2==="question"?" ✧":"");
+  return `<button class="row" data-id="${m.id}">
+    <span class="g ${m.st}" aria-hidden="true"></span>
+    <span class="nm"><b>${esc(m.name)}${c2}</b><span class="sub">${esc(m.dates)} · ${esc(m.region)}${liv}</span></span>
+    <span class="stw">${STW[m.st]}</span></button><div class="tstub" data-tstub="${m.id}"></div>`;
+}
+function matches(m){
+  if(filterSt && m.st!==filterSt) return false;
+  if(query){const hay=(m.name+" "+m.region+" "+m.lane+" "+STW[m.st]+" "+m.why).toLowerCase();
+    if(!hay.includes(query)) return false;}
+  return true;
+}
+function render(){
+  let html="";
+  ERAS.forEach(e=>{
+    const all=M.filter(m=>m.era===e.n);
+    const vis=all.filter(matches);
+    const eraDim = threadOf && !all.some(m=>threadIds().has(m.id));
+    html+=`<section class="era ${eraDim?'dim':''}" id="era${e.n}" style="background:${e.g}" data-era="${e.n}">
+      <div class="era-head"><div class="no">Era ${e.no} · ${e.dates}</div><h2>${esc(e.title)}</h2>
+      <div class="tag">${esc(e.tag)}</div><div class="rec">${esc(e.rec)}</div>
+      ${all.length?`<div class="cts">${eraCounts(all)}</div>`:""}</div>`;
+    if(e.empty){html+=`<p class="nomatch">${esc(e.empty)}</p></section>`;return;}
+    if(!vis.length){html+=`<p class="nomatch">No matches in this era for the current search or filter.</p></section>`;return;}
+    /* group: spine rows (live/sel/def/exc/cev) by lane, then expander for psc, then stream */
+    const lanes=[...new Set(vis.filter(m=>m.st!=="str"&&m.st!=="psc").map(m=>m.lane))];
+    lanes.forEach(ln=>{
+      html+=`<div class="lanelbl">${esc(ln)}</div>`;
+      vis.filter(m=>m.lane===ln&&m.st!=="str"&&m.st!=="psc").forEach(m=>{html+=wrapDim(m,rowHTML(m));});
+    });
+    const psc=vis.filter(m=>m.st==="psc");
+    if(psc.length){
+      const open=!!query||!!filterSt||openEras.has(e.n)||threadOf;
+      html+=`<button class="expander ${open?'open':''}" data-exp="${e.n}">${open?"":""}${psc.length} more from this era, not yet assessed — ${open?"shown below":"see them"}</button>`;
+      if(open){psc.forEach(m=>{html+=wrapDim(m,rowHTML(m));});}
+    }
+    const str=vis.filter(m=>m.st==="str");
+    if(str.length){
+      html+=`<div class="stream"><div class="slbl">Beyond the Floor — researched &amp; explained</div>
+      <div class="snote">Movements whose own confessions sit outside this project’s Nicene base. They keep their true time and place; each carries a research brief, not a chair.</div>`;
+      str.forEach(m=>{html+=wrapDim(m,rowHTML(m));});
+      html+=`</div>`;
+    }
+    html+=`</section>`;
+  });
+  spine.innerHTML=html;
+  if(threadOf) annotateThread();
+  renderTray();
+}
+function wrapDim(m,inner){
+  if(!threadOf) return inner;
+  return threadIds().has(m.id)?inner:inner.replace('class="row"','class="row dim"').replace('class="wcard"','class="wcard dim"');
+}
+function threadIds(){
+  const s=new Set([threadOf]);
+  EDGES.forEach(([a,b])=>{if(a===threadOf)s.add(b);if(b===threadOf)s.add(a);});
+  return s;
+}
+function annotateThread(){
+  EDGES.forEach(([a,b,type,conf,note])=>{
+    if(a!==threadOf&&b!==threadOf)return;
+    const other=a===threadOf?b:a;
+    const el=document.querySelector(`[data-tstub="${other}"]`);
+    if(!el)return;
+    /* phrase from the stub-owner's side: owner-as-source reads "Formed →", owner-as-target reads "Formed from / Received from" */
+    const dir=type==="contemporary"?"Contemporary with":(b===threadOf?cap(type)+" →":inverse(type));
+    el.className="tstub on";
+    el.innerHTML=`${dir} ${esc(byId[threadOf].name)} · <span class="cw">${conf.toUpperCase()}</span> — <i>${esc(note)}</i>`;
+  });
+}
+
+/* ---- chips ---- */
+const CHIPS=[["","All"],["live","Open now"],["sel","Chosen"],["def","Deferred"],["psc","Not yet assessed"],["exc","Excluded — explained"],["str","Beyond the floor"],["cev","Contested"]];
+const chipsEl=document.getElementById('chips');
+chipsEl.innerHTML=CHIPS.map(([v,l])=>`<button class="chip ${v===""?"on":""}" data-st="${v}">${l}</button>`).join("");
+chipsEl.addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;
+  filterSt=b.dataset.st;[...chipsEl.children].forEach(c=>c.classList.toggle('on',c===b));render();});
+document.getElementById('q').addEventListener('input',ev=>{query=ev.target.value.trim().toLowerCase();render();});
+
+/* ---- era rail ---- */
+const rail=document.getElementById('rail');
+rail.innerHTML=ERAS.map(e=>`<button data-era="${e.n}" title="${esc(e.title)} (${e.dates})">${e.no}</button>`).join("");
+rail.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;
+  const s=document.getElementById('era'+b.dataset.era);if(s)s.scrollIntoView({block:"start"});});
+const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){
+  [...rail.children].forEach(b=>b.classList.toggle('on',b.dataset.era===en.target.dataset.era));}});},{rootMargin:"-40% 0px -55% 0px"});
+function observeEras(){document.querySelectorAll('.era').forEach(s=>obs.observe(s));}
+
+/* ---- expanders ---- */
+const openEras=new Set();
+spine.addEventListener('click',ev=>{
+  const ex=ev.target.closest('.expander');
+  if(ex){const n=+ex.dataset.exp;openEras.has(n)?openEras.delete(n):openEras.add(n);render();observeEras();return;}
+  const act=ev.target.closest('[data-act]');
+  if(act){handleAct(act.dataset.act,act.dataset.id);ev.stopPropagation();return;}
+  const row=ev.target.closest('[data-id]');
+  if(row){openSheet(row.dataset.id,false);}
+});
+
+/* ---- sheet ---- */
+const sheet=document.getElementById('sheet'),sbody=document.getElementById('sheetbody'),scrim=document.getElementById('scrim');
+function openSheet(id,full){
+  const m=byId[id];const live=m.st==="live";const L=LIVES[id];
+  let h=`<h2>${esc(m.name)}${m.c2==="record"?" ✦":""}</h2>
+    <div class="meta">${esc(m.dates)} · ${esc(m.region)} · lane: ${esc(m.lane)}${m.living?" · living tradition":""}</div>
+    <div class="stline"><b>${STW[m.st]}.</b> ${STCOPY[m.st]}</div>`;
+  const edges=EDGES.filter(([a,b])=>a===id||b===id);
+  if(!full){
+    if(edges.length){h+=`<h4>Lineage — a glimpse</h4>`;
+      edges.slice(0,2).forEach(e=>{h+=edgeHTML(id,e,false);});
+      if(edges.length>2)h+=`<p style="font-size:.8rem;color:var(--ink-faded)"><i>${edges.length-2} more in the full entry.</i></p>`;}
+    h+=`<div class="acts">${actionsHTML(m)}<button class="btn quiet" data-full="${id}">Full entry →</button></div>`;
+  }else{
+    h+=`<h4>${live?"This world is open":(m.st==="str"?"Research brief — not a conversation world, and why":"Why it isn’t open for conversation")}</h4><p>${esc(m.why)}</p>
+      <h4>What survives</h4><p>${esc(m.src)}</p>`;
+    if(edges.length){h+=`<h4>Lineage — every claim with its confidence</h4>`;
+      edges.forEach(e=>{h+=edgeHTML(id,e,true);});
+      if(edges.length>=2)h+=`<div class="acts"><button class="btn quiet" data-thread="${id}">Trace this thread on the map</button></div>`;}
+    else h+=`<h4>Lineage</h4><p style="color:var(--ink-faded)"><i>No relationship is drawn for this entry in the sample set — the map never draws a line it can’t defend.</i></p>`;
+    h+=`<div class="acts">${actionsHTML(m)}</div>`;
+  }
+  sbody.innerHTML=h;
+  sheet.classList.add('on');sheet.classList.toggle('full',!!full);scrim.classList.add('on');
+}
+function edgeHTML(id,[a,b,type,conf,note],withNote){
+  const other=a===id?b:a;
+  const dir=a===id?(type==="contemporary"?"Contemporary with":cap(type)):(type==="contemporary"?"Contemporary with":inverse(type));
+  return `<div class="edge"><span class="dir">${dir}</span>
+    <button class="to" data-jump="${other}">${esc(byId[other].name)}</button>
+    <span class="cbadge">${conf.toUpperCase()}</span>
+    ${withNote?`<span class="note">${esc(note)}</span>`:""}</div>`;
+}
+const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
+const inverse=t=>t==="formed"?"Formed from":(t==="carried to"?"Received from":(t==="argued against"?"Argued against by":cap(t)));
+function actionsHTML(m){
+  if(m.st==="live"){const L=LIVES[m.id];
+    return `<button class="btn solid" data-act="interview" data-id="${m.id}">Interview ${L.rep}</button>
+      <button class="btn line" data-act="add" data-id="${m.id}">${tray.includes(m.id)?"At your table ✓":"Add to the Table"}</button>`;}
+  const nb=NB[m.id];if(!nb)return"";
+  const L=LIVES[nb[0]];
+  return `<button class="btn line" data-act="add" data-id="${nb[0]}">Meet ${L.rep} — ${esc(nb[1])}</button>`;
+}
+function closeSheet(){sheet.classList.remove('on','full');scrim.classList.remove('on');}
+document.getElementById('sheetclose').addEventListener('click',closeSheet);
+scrim.addEventListener('click',closeSheet);
+sheet.addEventListener('click',ev=>{
+  const f=ev.target.closest('[data-full]'); if(f){openSheet(f.dataset.full,true);return;}
+  const j=ev.target.closest('[data-jump]'); if(j){closeSheet();jumpTo(j.dataset.jump);return;}
+  const t=ev.target.closest('[data-thread]'); if(t){startThread(t.dataset.thread);return;}
+  const a=ev.target.closest('[data-act]'); if(a){handleAct(a.dataset.act,a.dataset.id);}
+});
+function jumpTo(id){
+  const m=byId[id];
+  if(m.st==="psc") openEras.add(m.era), render(), observeEras();
+  const el=document.querySelector(`[data-id="${id}"]`);
+  if(el){el.scrollIntoView({block:"center"});el.style.outline="2px solid var(--gold-leaf)";
+    setTimeout(()=>el.style.outline="",1600);}
+}
+/* ---- thread mode ---- */
+function startThread(id){
+  threadOf=id;closeSheet();document.body.classList.add('thread');
+  document.getElementById('threadlbl').textContent="Tracing the thread of: "+byId[id].name;
+  render();observeEras();window.scrollTo({top:0});
+}
+document.getElementById('threadoff').addEventListener('click',()=>{
+  threadOf=null;document.body.classList.remove('thread');render();observeEras();});
+
+/* ---- tray & launch ---- */
+function handleAct(act,id){
+  if(act==="interview"){launch([id],"interview");return;}
+  if(act==="add"){if(!tray.includes(id)){if(tray.length>=4){return;}tray.push(id);}
+    renderTray();closeSheet();return;}
+}
+function renderTray(){
+  const chips=document.getElementById('traychips'),mode=document.getElementById('traymode'),go=document.getElementById('go');
+  chips.innerHTML=tray.map(id=>`<span class="tchip">${LIVES[id].rep}<button data-rm="${id}" aria-label="Remove ${LIVES[id].rep}">×</button></span>`).join(" ");
+  if(tray.length===0){mode.textContent="Choose a world that is open — or explore first. Nothing here rushes you.";go.disabled=true;}
+  else if(tray.length===1){mode.textContent="Deep Interview — one Representative, room to go deep.";go.disabled=false;}
+  else{mode.textContent="Compare Worlds — how different worlds answer the same question.";go.disabled=false;}
+}
+document.getElementById('tray').addEventListener('click',ev=>{
+  const rm=ev.target.closest('[data-rm]');if(rm){tray=tray.filter(x=>x!==rm.dataset.rm);renderTray();}});
+document.getElementById('go').addEventListener('click',()=>{if(tray.length)launch(tray,tray.length>1?"table":"interview");});
+function launch(ids,mode){
+  const names=ids.map(id=>LIVES[id].rep+" — "+byId[id].name).join("<br>");
+  document.getElementById('modalbody').innerHTML=`<h2>${mode==="interview"?"A Deep Interview":"Your table is set"}</h2>
+    <p>${names}</p><p>In the live app this hands off as <code style="font-family:var(--sans);font-size:.8rem">/?worlds=${ids.join(",")}&amp;mode=${mode}</code>
+    and the Facilitator greets you — <b>Begin stays the only consent.</b></p>
+    <p><i>This is a design sketch — it ends here, and says so.</i></p>
+    <button class="btn quiet" id="mclose">Back to the Story</button>`;
+  document.getElementById('modal').classList.add('on');
+  document.getElementById('mclose').onclick=()=>document.getElementById('modal').classList.remove('on');
+}
+
+/* ---- thesis counts ---- */
+(function(){const c={};M.forEach(m=>c[m.st]=(c[m.st]||0)+1);
+document.getElementById('thesiscounts').textContent=
+ `${c.live} worlds open for conversation · ${c.sel} chosen for construction · ${c.def} deferred with reasons on record · `+
+ `${(c.psc||0)} not yet assessed · ${(c.exc||0)+(c.cev||0)+(c.str||0)} with stated grounds or open questions — in this sample of 27; the full census carries 178.`;})();
+
+render();observeEras();
+</script>
+</body>
+</html>

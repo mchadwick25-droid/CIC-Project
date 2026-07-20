@@ -11,5 +11,10 @@ integration point these two artifacts point toward — a `tour_manifest.py` sibl
 `world_manifest.py` — does not exist yet; confirmed by direct directory listing of
 `cic-poc/backend/app/` (2026-07-20), which has `world_manifest.py` but nothing
 tour-related. That remains TR-14's own future work, correctly BLOCKED on Increment 1
-and Increment 2 per the Task Board. Update this file again once Phase Two work
-actually starts touching code.
+and Increment 2 per the Task Board.
+
+**Update, 2026-07-20 (later same day):** the concrete design for that future work now
+exists — `CiC_Tour_Build_Spec_V0_1_DRAFT.md` — but still no code, no branch. Written
+explicitly for later implementation; the actual gate list (Increment 1 + 2, a real
+reviewed Tour Manifest, the validation-suite extension) is unchanged. Update this file
+again once Phase Two work actually starts touching code.
