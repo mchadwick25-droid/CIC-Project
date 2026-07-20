@@ -55,13 +55,20 @@ in place, unused" — it's the site's live, only path to requesting access (link
 pages, a mailto "express interest" form gated on Mark's personal follow-up). Flagged back to
 Mark; his answer — *"link to the app and let them experince everything as it will be"* — is
 now built: a primary CTA on `pilot.html` linking straight in (placeholder URL, empty until
-hosting lands), the old form demoted to optional. Committed `9efe0c2`. **One open item this
-surfaced:** a separate concurrent session (the UX design thread) has active, uncommitted work
-building the opposite model — a Supabase-Auth invite/referral system gated on Mark's manual
-approval — in the same `main.py`. Not live today (Supabase stays unconfigured), but the two
-directions conflict once it is. **Mark's direction: hold, let the UX design thread finish its
-own updates first** — reconcile the two directions after, not by interrupting it mid-work.
-Full detail: `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20 (later entry).
+hosting lands), the old form demoted to optional. Committed `9efe0c2`.
+
+**Self-correction, checked before acting further:** an item flagged here as "a separate
+concurrent session actively building" a conflicting Supabase-Auth invite/referral system
+turned out to be wrong — `git log -S` shows `/api/pilot/request` and the referral endpoints
+were committed as `7ea4fa6` on **2026-07-19**, a day before this conversation started. Never
+uncommitted, never a live race with today's work. Reclassified into the same bucket as the
+rest of the old sign-in-era code: left in place, unused, confirmed still inert (`.env` has no
+`SUPABASE_URL`/`SUPABASE_SERVICE_KEY`; no frontend `.env` exists at all). The UX thread's
+actual same-day work — `99a25e8`, a fourth classify-then-route intercept
+(`epistemology_bridge.py`) fixing a documentation-vs-inference frame-break gap — was reviewed
+directly (read in full, diffed against the message-cap wiring for overlap, recompiled
+together): sound, live-verified per its own commit message, zero conflict with anything above.
+Full detail: `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20 (latest entry).
 
 ---
 

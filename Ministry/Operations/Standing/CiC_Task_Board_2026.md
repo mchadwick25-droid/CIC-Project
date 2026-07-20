@@ -238,30 +238,33 @@ compliance script) handed to a new disciplined successor thread —
       links straight into the app (`LIVE_APP_URL`, empty until this hosting item
       lands) instead of gating on Mark's follow-up — so **this item is now the one
       thing standing between `pilot.html`'s CTA and actually working**, not just a
-      nice-to-have. **Conflicting concurrent-session work found alongside this —
-      Mark's call: HOLD, don't intervene.** A separate concurrent session (the UX
-      design thread) has active, uncommitted work in the same `main.py` building the
-      opposite model — Supabase-Auth invites gated on manual per-person approval,
-      plus a referral-code system. Inert today (Supabase stays unconfigured either
-      way). Mark's direction 2026-07-20: let that thread finish its own updates
-      rather than checking in on it mid-work; revisit reconciling the two directions
-      once it's done, not before.
+      nice-to-have. ⚠ **Correction 2026-07-20:** an earlier note here described a
+      "conflicting concurrent-session build" (Supabase-Auth invites + referral codes)
+      needing Mark to hold off on. Checked with `git log -S` — that's wrong; those
+      endpoints were committed as `7ea4fa6` on **2026-07-19**, a day before today's
+      pilot-simplification decision, not built alongside it. Reclassified below with
+      the rest of the old sign-in-era code: inert, left in place, nothing to
+      reconcile until Supabase is actually configured.
 - [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** ⚠ **Supabase half
       no longer needed for Pilot 1 specifically as of 2026-07-20** — the simplified pilot
       runs deliberately without sign-in, so `auth.py`/`SignInScreen.tsx`/the Supabase-backed
-      `session_cap.py` rework stay unused rather than configured; skip creating a Supabase
-      account unless a later, larger-audience phase wants identity back. **The Render/host
-      account is still needed** — that's the real remaining blocker inside #101/401's
-      "deploy-and-configure," independent of the sign-in question. Original context: the
-      accounts/sign-in layer landed since the #101/401 note above was written:
-      `cic-poc/backend/app/auth.py`, a Supabase-backed rework of `session_cap.py` (real
-      per-user caps, not just per-tester-code) and `transcript_logging.py`, plus a real
-      sign-in screen (`SignInScreen.tsx`) on the frontend. Smoke-tested working, currently
-      uncommitted. Every Supabase-dependent feature is a documented no-op until
+      `session_cap.py` rework, plus the referral/invite endpoints added the same day
+      (`7ea4fa6`, `/api/pilot/request`, `/api/referral/generate`, `/api/referral/redeem`,
+      `refer-a-friend.html`), all stay unused rather than configured; skip creating a
+      Supabase account unless a later, larger-audience phase wants identity and referral
+      tracking back. **The Render/host account is still needed** — that's the real
+      remaining blocker inside #101/401's "deploy-and-configure," independent of the
+      sign-in question. Original context: the accounts/sign-in layer landed since the
+      #101/401 note above was written: `cic-poc/backend/app/auth.py`, a Supabase-backed
+      rework of `session_cap.py` (real per-user caps, not just per-tester-code) and
+      `transcript_logging.py`, plus a real sign-in screen (`SignInScreen.tsx`) on the
+      frontend — smoke-tested working, and (correction 2026-07-20: this note previously
+      said "currently uncommitted," which was already stale — it landed as `bf9d726` on
+      2026-07-19). Every Supabase-dependent feature is a documented no-op until
       `SUPABASE_URL`/`SUPABASE_SERVICE_KEY` (backend) and `VITE_SUPABASE_URL`/
-      `VITE_SUPABASE_ANON_KEY` (frontend) are set — see both `.env.example` files.
-      Account creation itself is off-limits for Claude to do on your behalf (standing
-      constraint).
+      `VITE_SUPABASE_ANON_KEY` (frontend) are set — reconfirmed 2026-07-20 that neither
+      is set anywhere on disk — see both `.env.example` files. Account creation itself is
+      off-limits for Claude to do on your behalf (standing constraint).
 
 - [x] **DONE 2026-07-20 — Increment 1 built, reviewed, merged into `main`
       (`80a156c`).** Six commits (brand tokens/Alegreya/long-form transcript,
