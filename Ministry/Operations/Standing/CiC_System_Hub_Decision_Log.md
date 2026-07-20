@@ -2847,3 +2847,60 @@ report on faith:
 **Status:** Increment 1 is in `main`. Not deployed anywhere yet (no
 hosting stood up); Mark's own hosted smoke test still gates any real
 participant seeing it.
+
+---
+
+### 2026-07-20 (later still) -- Mobile Level-2 popover fix built, verified,
+### merged; a real environment hazard found connects back to today's
+### earlier content-isolation investigation
+
+Dispatched directly via the Agent tool (isolated worktree, Sonnet, no
+separate session needed) rather than a written launch-prompt handoff --
+the task was small and well-enough specified to run in-line. Reviewed
+the same way as every other thread's work this session, not trusted on
+the summary alone:
+
+**Verified independently before merging:** read the actual diff (`git
+show`), not just the self-report -- confirmed the stale-closure bug fix
+is real and well-reasoned (a ref read fresh inside each handler rather
+than captured at render time), the CSS changes correctly carve out
+`pointer-events: auto` on just the new footer button without disturbing
+the parent tooltip's intentional click-through behavior, and the
+Decision Log's own verification claims (touch tap -> popover only;
+footer tap -> Level-3 opens; outside tap -> dismiss; desktop unchanged)
+match what the diff actually implements.
+
+**Merged into `main`** (commit pending in this session's own history --
+see `git log`), `--no-ff` to preserve the commit. Re-verified post-merge
+from the real working tree, not just inside the isolated worktree:
+`tsc --noEmit` clean, real `vite build` clean. Worktree and branch
+cleaned up after merging, same as Increment 1.
+
+**A genuinely important finding, worth connecting to earlier work rather
+than treated as a one-off:** the thread found a real `cic-poc-backend`
+uvicorn process from another concurrent session already bound to port
+8000, and its own scratch test mock was able to *also* bind the same
+port on this Windows machine, with requests routing unpredictably
+between the two processes. This is a concrete, confirmed instance of
+exactly the kind of shared-port hazard this session's earlier
+content-isolation investigation (the "feminine pink ecommerce" transcript
+contamination, root cause never established, tracing added but the
+underlying question left open) speculated about but couldn't pin down --
+at the time, the process state that might have explained it was already
+gone before the investigation started. This doesn't retroactively prove
+that was the cause, but it's real, confirmed evidence that this specific
+failure mode (two processes silently sharing one port, responses mixing)
+does happen on this machine under ordinary concurrent-session conditions,
+not a rare or theoretical risk. Worth remembering for any future thread
+that assumes a freshly-bound local port is actually isolated -- it may
+not be, and there's currently no code-level guard against it.
+
+**Not investigated further here** -- this is an environment/workflow
+observation, not a `cic-poc` code defect, and chasing a general fix
+(e.g., a pre-flight port-availability check some future dev-server
+wrapper could run) is its own separate, small piece of work if wanted,
+not bundled into this thread's own scope.
+
+**Status:** merged, verified, done. Increment 1 and this fix are both in
+`main` now. Neither is deployed; Mark's hosted smoke test still gates
+any real participant seeing either.

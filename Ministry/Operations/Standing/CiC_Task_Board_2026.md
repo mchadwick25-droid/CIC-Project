@@ -254,15 +254,23 @@ compliance script) handed to a new disciplined successor thread —
       Branch/worktree cleaned up post-merge. Not deployed anywhere — Mark's
       standard hosted smoke test still gates real participants seeing it.
       Full account: decision log, 2026-07-20 (later entry).
-- [ ] **NEW 2026-07-20 — Mobile Level-2→Level-3 popover fix.** Found, not
-      fixed, during the Increment 1 build: on phone, tapping a lexicon term or
-      citation marker skips straight to the full Level-3 panel instead of the
-      spec'd preview-then-"Full entry →" step — pre-existing, not a regression,
-      not broken, just short of the spec'd grammar. Genuinely new interaction
-      code (`LexiconHighlight.tsx`, `CitationMarker.tsx`), not a container
-      change, so kept out of Increment 1's own scope. Launch prompt:
-      `Ministry/Features/Level2-Mobile-Popover/Launch-Prompts/
-      CiC_Level2_Mobile_Popover_Thread_Launch_2026-07-20.md`.
+- [x] **DONE 2026-07-20 — Mobile Level-2→Level-3 popover fix, built, verified,
+      merged into `main`.** Real, pre-existing gap (found, not caused, by
+      Increment 1): phone taps were skipping the spec'd Level-2 preview step.
+      Fixed via per-interaction pointer-type tracking; caught and fixed a real
+      stale-closure bug along the way (a render-scoped snapshot missed the
+      pointer type by one render, caught by testing a dispatched touch
+      interaction, not by reading the diff). Desktop hover→click verified
+      byte-for-byte unchanged. `tsc`/`vite build` clean pre- and post-merge.
+      **Real finding along the way, worth remembering:** the build thread's
+      own isolated test mock and a genuine backend from another concurrent
+      session both bound port 8000 simultaneously on this machine, with
+      responses routing unpredictably between them — the same class of
+      hazard behind today's earlier content-isolation investigation
+      (root cause there was never established; this is confirmed, concrete
+      evidence the underlying failure mode is real on this machine, not
+      proof of that specific incident's cause). No code-level guard exists
+      against it today. Full account: decision log, 2026-07-20 (later still).
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
       (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door
