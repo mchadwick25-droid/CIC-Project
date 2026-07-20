@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Markup — BR-32: The Positive-Reframe Table</title>
+<style>
+  :root { --parchment:#F7F3EB; --vellum:#FEFCF8; --ink:#2A2521; --madder:#A13E2B; --gold:#B45309; --lapis:#1E40AF; --graphite:#8A837C; --rule:rgba(42,37,33,0.16); --muted:#6B6259; --green:#1E6B3A; }
+  @media (prefers-color-scheme: dark) { :root { --parchment:#17130F; --vellum:#1E1913; --ink:#F1E9DD; --rule:rgba(241,233,221,0.16); --muted:#B8AEA1; --green:#7CC79A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--parchment); color:var(--ink); font-family: Georgia, 'Iowan Old Style', serif; line-height:1.55; }
+  .wrap { max-width: 64rem; margin:0 auto; padding: 1.5rem 1.3rem 6rem; }
+  .topbar { position: sticky; top:0; z-index:10; background:var(--vellum); border-bottom:2px solid var(--madder); padding: .9rem 1.3rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.6rem; font-family:'Trebuchet MS',sans-serif; }
+  .topbar h1 { font-size:1rem; margin:0; font-family: Georgia, serif; }
+  .topbar .sub { font-size:.78rem; color:var(--muted); }
+  .btn { font-family:'Trebuchet MS',sans-serif; font-weight:600; font-size:.85rem; padding:.55rem 1.1rem; border-radius:5px; border:1.5px solid var(--madder); background:var(--madder); color:#fff; cursor:pointer; }
+  .btn:hover { background:var(--gold); border-color:var(--gold); }
+  .btn.secondary { background:transparent; color:var(--madder); }
+  #status { font-family:'Trebuchet MS',sans-serif; font-size:.78rem; color:var(--muted); }
+  #status.saved { color: var(--green); font-weight:600; }
+  .intro { background:var(--vellum); border:1px solid var(--rule); border-left:3px solid var(--gold); border-radius:0 8px 8px 0; padding:1rem 1.3rem; margin: 1.2rem 0; font-family:'Trebuchet MS',sans-serif; font-size:.9rem; }
+  h2 { font-size:1.15rem; margin:2rem 0 .3rem; border-bottom:1px solid var(--rule); padding-bottom:.4rem; }
+  .row { background:var(--vellum); border:1px solid var(--rule); border-radius:8px; padding:1rem 1.2rem; margin-bottom:1rem; }
+  .row .where { font-family:'Trebuchet MS',sans-serif; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--madder); font-weight:700; margin-bottom:.5rem; }
+  .pair { display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom:.7rem; }
+  @media (max-width:680px) { .pair { grid-template-columns: 1fr; } }
+  .col-label { font-family:'Trebuchet MS',sans-serif; font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin-bottom:.2rem; }
+  .current { color:var(--muted); font-style:italic; }
+  .proposed { color:var(--ink); font-weight:600; }
+  .notes { font-family:'Trebuchet MS',sans-serif; font-size:.82rem; color:var(--muted); margin: .4rem 0 .7rem; }
+  .choices { display:flex; gap:1.2rem; flex-wrap:wrap; font-family:'Trebuchet MS',sans-serif; font-size:.85rem; align-items:center; }
+  .choices label { display:flex; align-items:center; gap:.35rem; cursor:pointer; }
+  textarea, input[type=text] { width:100%; font-family:'Trebuchet MS',sans-serif; font-size:.88rem; padding:.5rem .6rem; border:1px solid var(--rule); border-radius:5px; background:var(--parchment); color:var(--ink); margin-top:.4rem; }
+  textarea { min-height:2.4rem; resize:vertical; }
+  .custom-box { display:none; }
+  .custom-box.show { display:block; }
+  .final-block { background:var(--vellum); border:2px solid var(--madder); border-radius:8px; padding:1.2rem 1.3rem; margin-top:2rem; }
+  .final-block label { font-family:'Trebuchet MS',sans-serif; font-weight:700; display:flex; gap:.5rem; align-items:flex-start; }
+  .final-block textarea { margin-top:.8rem; min-height:5rem; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <h1>BR-32 — The Positive-Reframe Table</h1>
+    <span class="sub">Mark it up below. Nothing here is submitted until you click Save.</span>
+  </div>
+  <div style="display:flex; gap:.7rem; align-items:center;">
+    <span id="status">not yet saved</span>
+    <button class="btn" onclick="doSave()">💾 Save my markup</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="intro">
+    <strong>What this is:</strong> the Tier 1 reframe table from <code>CiC_Positive_Framing_Revision_V0_1.md</code> — the recurring "won't try to convert you / never hides the tensions / forbids persuading" cluster. For each line: accept the proposed rewrite, keep the current wording, or write your own. Add a comment anywhere you want to explain a call. When you save, a markup file lands in this same folder — the Hub reads it, applies your decisions across the corpus the same way BR-6/BR-7/BR-29 were done, and reports back for final sign-off.
+  </div>
+
+  <h2>Tier 1 — the protected lines and Kit rules</h2>
+
+  <div class="row" data-id="r1">
+    <div class="where">Protected line (the big one)</div>
+    <div class="pair">
+      <div><div class="col-label">Current (negative-led)</div><div class="current">"It will never try to convert you."</div></div>
+      <div><div class="col-label">Proposed (positive-led)</div><div class="proposed">"Every conclusion stays yours."</div></div>
+    </div>
+    <div class="notes">Same fact, said as a promise to the reader instead of a refusal about the brand. Recommended as the new protected line.</div>
+    <div class="choices">
+      <label><input type="radio" name="r1" value="proposed" checked onchange="toggleCustom('r1')"> Accept proposed</label>
+      <label><input type="radio" name="r1" value="current" onchange="toggleCustom('r1')"> Keep current</label>
+      <label><input type="radio" name="r1" value="custom" onchange="toggleCustom('r1')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r1"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment on this line…"></textarea>
+  </div>
+
+  <div class="row" data-id="r2">
+    <div class="where">Elevator one-liner</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"…and no agenda to convert you."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"…and the conclusion is always yours."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r2" value="proposed" checked onchange="toggleCustom('r2')"> Accept proposed</label>
+      <label><input type="radio" name="r2" value="current" onchange="toggleCustom('r2')"> Keep current</label>
+      <label><input type="radio" name="r2" value="custom" onchange="toggleCustom('r2')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r2"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r3">
+    <div class="where">FAQ (convert question)</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"It offers; it never pressures."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"It offers — and leaves the rest to you."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r3" value="proposed" checked onchange="toggleCustom('r3')"> Accept proposed</label>
+      <label><input type="radio" name="r3" value="current" onchange="toggleCustom('r3')"> Keep current</label>
+      <label><input type="radio" name="r3" value="custom" onchange="toggleCustom('r3')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r3"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r4">
+    <div class="where">Landing bullet</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"It won't smooth over the hard parts."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"It holds the hard parts exactly as the record leaves them."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r4" value="proposed" checked onchange="toggleCustom('r4')"> Accept proposed</label>
+      <label><input type="radio" name="r4" value="current" onchange="toggleCustom('r4')"> Keep current</label>
+      <label><input type="radio" name="r4" value="custom" onchange="toggleCustom('r4')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r4"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r5">
+    <div class="where">Landing bullet</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"It never hides the church's real tensions."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"It holds the church's real tensions in full view."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r5" value="proposed" checked onchange="toggleCustom('r5')"> Accept proposed</label>
+      <label><input type="radio" name="r5" value="current" onchange="toggleCustom('r5')"> Keep current</label>
+      <label><input type="radio" name="r5" value="custom" onchange="toggleCustom('r5')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r5"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r6">
+    <div class="where">Elevator 3-min</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"…forbids persuading, forbids smoothing over the church's genuine arguments, forbids pretending certainty it hasn't earned."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"…requires witness over persuasion, keeps the church's real arguments intact, and states its confidence plainly — earned, never assumed."</div></div>
+    </div>
+    <div class="notes">Leads with what the constitution requires.</div>
+    <div class="choices">
+      <label><input type="radio" name="r6" value="proposed" checked onchange="toggleCustom('r6')"> Accept proposed</label>
+      <label><input type="radio" name="r6" value="current" onchange="toggleCustom('r6')"> Keep current</label>
+      <label><input type="radio" name="r6" value="custom" onchange="toggleCustom('r6')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r6"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r7">
+    <div class="where">Elevator 5-min</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"…it's what it refuses to do."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"…it's what it holds itself to."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r7" value="proposed" checked onchange="toggleCustom('r7')"> Accept proposed</label>
+      <label><input type="radio" name="r7" value="current" onchange="toggleCustom('r7')"> Keep current</label>
+      <label><input type="radio" name="r7" value="custom" onchange="toggleCustom('r7')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r7"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r8">
+    <div class="where">FAQ</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"It is never presented as alive, divine, or a substitute for prayer, Scripture, or the church."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"It is presented plainly as a tool — the way a craftsman's tool serves an icon, always pointing past itself toward the real thing: prayer, Scripture, the church itself."</div></div>
+    </div>
+    <div class="choices">
+      <label><input type="radio" name="r8" value="proposed" checked onchange="toggleCustom('r8')"> Accept proposed</label>
+      <label><input type="radio" name="r8" value="current" onchange="toggleCustom('r8')"> Keep current</label>
+      <label><input type="radio" name="r8" value="custom" onchange="toggleCustom('r8')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r8"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="row" data-id="r9">
+    <div class="where">FAQ</div>
+    <div class="pair">
+      <div><div class="col-label">Current</div><div class="current">"The aim is to point people toward the living church, never to replace it."</div></div>
+      <div><div class="col-label">Proposed</div><div class="proposed">"The aim is to point people toward the living church."</div></div>
+    </div>
+    <div class="notes">Sometimes the fix is simply cutting the negative tail — the positive clause already carries the whole meaning.</div>
+    <div class="choices">
+      <label><input type="radio" name="r9" value="proposed" checked onchange="toggleCustom('r9')"> Accept proposed</label>
+      <label><input type="radio" name="r9" value="current" onchange="toggleCustom('r9')"> Keep current</label>
+      <label><input type="radio" name="r9" value="custom" onchange="toggleCustom('r9')"> My own version</label>
+    </div>
+    <div class="custom-box" id="custom-r9"><input type="text" placeholder="Write your version here"></div>
+    <textarea placeholder="Optional comment…"></textarea>
+  </div>
+
+  <div class="final-block">
+    <label><input type="checkbox" id="approve-rule" checked> I approve rule 11 (lead positive; reserve denial only for an unstated-suspicion line) and the Tier 1 table above, as marked up row-by-row.</label>
+    <textarea id="overall-comment" placeholder="Any overall comment for the brand thread — optional…"></textarea>
+  </div>
+</div>
+
+<script>
+function toggleCustom(id) {
+  const box = document.getElementById('custom-' + id);
+  const val = document.querySelector(`input[name="${id}"]:checked`).value;
+  box.classList.toggle('show', val === 'custom');
+}
+
+function buildMarkupText() {
+  const rows = document.querySelectorAll('.row');
+  let out = `# Mark's Markup — BR-32 Positive-Reframe Table\n\nSaved: ${new Date().toISOString()}\n\n`;
+  rows.forEach(row => {
+    const id = row.dataset.id;
+    const where = row.querySelector('.where').textContent.trim();
+    const current = row.querySelector('.current').textContent.trim();
+    const proposed = row.querySelector('.proposed').textContent.trim();
+    const choice = document.querySelector(`input[name="${id}"]:checked`).value;
+    const customInput = row.querySelector('.custom-box input');
+    const comment = row.querySelector('textarea').value.trim();
+    out += `## ${where}\n- Current: ${current}\n- Proposed: ${proposed}\n- **Mark's call: ${choice.toUpperCase()}`;
+    if (choice === 'custom') out += ` — "${customInput.value.trim()}"`;
+    out += `**\n`;
+    if (comment) out += `- Comment: ${comment}\n`;
+    out += `\n`;
+  });
+  const approved = document.getElementById('approve-rule').checked;
+  const overall = document.getElementById('overall-comment').value.trim();
+  out += `## Overall\n- Rule 11 + Tier 1 table approved as marked up: **${approved ? 'YES' : 'NO — see comments'}**\n`;
+  if (overall) out += `- Overall comment: ${overall}\n`;
+  return out;
+}
+
+async function doSave() {
+  const content = buildMarkupText();
+  const filename = 'BR-32_MARKUP_' + new Date().toISOString().slice(0,10) + '.md';
+  const status = document.getElementById('status');
+  try {
+    if ('showSaveFilePicker' in window) {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: filename,
+        types: [{ description: 'Markdown', accept: { 'text/markdown': ['.md'] } }]
+      });
+      const writable = await handle.createWritable();
+      await writable.write(content);
+      await writable.close();
+      status.textContent = 'saved ✓ — tell Claude when ready';
+      status.classList.add('saved');
+      return;
+    }
+  } catch (e) {
+    if (e.name === 'AbortError') return;
+  }
+  // Fallback: download
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  status.textContent = 'downloaded ✓ — tell Claude when ready';
+  status.classList.add('saved');
+}
+</script>
+
+</body>
+</html>

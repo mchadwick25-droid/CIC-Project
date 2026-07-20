@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
+  <!-- CiC world icon (V0.8 LOCKED, 2026-07-18) - Theon, catechetical teacher (didaskalos).
+       LOCKED - Mark approved 2026-07-18 ("this actually looks great, lets lock this for now"); base copy
+       _working-base/theon_LOCKED_v0_8.svg. Spec 7d governs.
+       V0.8 (Mark): DRAPE REMOVED for now - back to plain white mantle + face + low scroll. (The himation
+       swathe work is preserved in _working-base / prior versions if we revisit it.)
+       ALEXANDRIA CATECHETICAL SCHOOL. Era 1 template (round dome silhouette + bbox x18-102, y30-150 as
+       Chloe & Papnoute). V0.7 (Mark): the drape was reading as a flat blue RECTANGLE, not cloth - redrawn
+       as an actual HIMATION swathe: a fold going OVER the shoulder, curved (not straight) edges that widen
+       toward the hip, and interior fold-lines so it reads as draped fabric. Scroll sits low (V0.6) like the
+       family's objects (Chloe's cup / Papnoute's jug).
+       The drape is the FOLD OF THE CLASSICAL HIMATION / PALLIUM (everyday teacher's mantle) - deliberately
+       NOT a liturgical vestment (epitrachelion / phelonion / orarion are later 4th-c.+ priestly garments,
+       anachronistic for this 2nd-3rd-c. TEACHING world). Plain, no embroidery.
+       GROUNDING: OBJECT = OPENED SCROLL held OUTWARD as a SHARED text (DOCUMENTED: "the scroll was
+       opened... the passage turned to the light"; gravity C1, Scripture-as-door).
+       APPEARANCE = SILENT and guarded; kept emblematic. INFERENCE, flagged: white robe + plain muted
+       himation drape, short grey hair fringe, clean-shaven, medium-Mediterranean skin (#CDA478; grounded
+       only in the DOCUMENTED cosmopolitan Alexandria/Egypt setting). Colours provisional pending era-tint. -->
+  <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#EDE4CE" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M42 124 L78 124 L78 140 L42 140 Z" fill="#EEE2C4" stroke="#2A2521" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M47 129 h26" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M47 133 h26" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M47 137 h20" stroke="#2A2521" stroke-width="1.1" stroke-linecap="round"/>
+  <rect x="37" y="120" width="6" height="26" rx="3" fill="#9A7248" stroke="#2A2521" stroke-width="1.4"/>
+  <rect x="77" y="120" width="6" height="26" rx="3" fill="#9A7248" stroke="#2A2521" stroke-width="1.4"/>
+  <circle cx="40" cy="120" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/>
+  <circle cx="40" cy="146" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/>
+  <circle cx="80" cy="120" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/>
+  <circle cx="80" cy="146" r="3.4" fill="#7E5A34" stroke="#2A2521" stroke-width="1.2"/>
+  <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#CDA478" stroke="#2A2521" stroke-width="2"/>
+  <path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#C7BFAE" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>
+  <ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>

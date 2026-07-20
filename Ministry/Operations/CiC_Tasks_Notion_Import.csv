@@ -1,0 +1,70 @@
+Task ID,Task,Workstream,Start,Due,Status,Gate,Depends On,Notes
+301,Reviewer brief (one page),C-Validation,2026-07-17,2026-07-20,Ready now,No,,Most time-critical item; unblocks all three reviewer tracks
+510,Church-designated fund conversation with pastor,E-Funding,2026-07-17,2026-07-23,Ready now,No,,Unblocks tax-deductible Ring 1 giving
+601,Praxis interest form,F-Entity & Board,2026-07-17,2026-07-17,Ready now,No,,Five minutes; calendar April 2027
+101,Bedrock integration + AWS Budget Action (Jonathan),A-Prototypes & Users,2026-07-17,2026-07-23,Ready now,No,,Gates P1 launch
+401,Session caps + AWS spend backstop verified (Jonathan),D-Platform,2026-07-17,2026-07-20,Ready now,No,,Same sitting as Bedrock work
+102,Prototype 1 runs (15-25 testers both modes),A-Prototypes & Users,2026-07-27,2026-08-10,Blocked,No,101,Protect the window; no new outreach until ~Aug 10
+103,P1 analysis: actuals + tester quotes + one story,A-Prototypes & Users,2026-08-11,2026-08-13,Blocked,No,102,Feeds packet V0.2 and all outreach
+104,P2 cohort (~100 users),A-Prototypes & Users,2026-09-15,2026-10-30,Blocked,No,"103, 402",Interest list + church partners + first classroom
+105,Early Access ramp 300 to 500 users,A-Prototypes & Users,2026-11-03,2026-12-18,Blocked,No,"403, 104",Invited cohorts under prototype transparency
+106,GATE: Lane A confirmed - 500 users,A-Prototypes & Users,2026-12-18,2026-12-18,Blocked,Yes,105,
+201,Guided starter question sets (4 live worlds),B-Worlds,2026-08-03,2026-08-13,Scheduled,No,,The blank-prompt fix; parallel with builds
+202,Ancient world 5: build + battery + deploy gates,B-Worlds,2026-08-03,2026-08-10,Scheduled,No,,~6 working days incl. battery
+203,Ancient world 6: build + battery + deploy gates,B-Worlds,2026-08-11,2026-08-18,Blocked,No,202,
+204,Ancient world 7: build + battery + deploy gates,B-Worlds,2026-08-19,2026-08-26,Blocked,No,203,
+205,Ancient world 8: build + battery + deploy gates,B-Worlds,2026-08-27,2026-09-03,Blocked,No,204,
+206,Ancient world 9: build + battery + deploy gates,B-Worlds,2026-09-04,2026-09-11,Blocked,No,205,
+207,MILESTONE: 9 ancient worlds complete,B-Worlds,2026-09-11,2026-09-11,Blocked,Yes,206,
+208,Reformation selection + Living Tradition confirmations,B-Worlds,2026-09-14,2026-09-23,Blocked,No,206,LT confirmation is a freeze gate per world
+209,Reformation world 1: build + battery + LT gate,B-Worlds,2026-09-24,2026-10-01,Blocked,No,208,
+210,Reformation world 2: build + battery + LT gate,B-Worlds,2026-10-02,2026-10-09,Blocked,No,209,
+211,Reformation world 3: build + battery + LT gate,B-Worlds,2026-10-12,2026-10-19,Blocked,No,210,
+212,Reformation world 4: build + battery + LT gate,B-Worlds,2026-10-20,2026-10-27,Blocked,No,211,
+213,Reformation world 5: build + battery + LT gate,B-Worlds,2026-10-28,2026-11-04,Blocked,No,212,
+214,Reformation world 6: build + battery + LT gate,B-Worlds,2026-11-05,2026-11-12,Blocked,No,213,
+215,Reformation world 7: build + battery + LT gate,B-Worlds,2026-11-13,2026-11-20,Blocked,No,214,
+216,MILESTONE: all 16 worlds built,B-Worlds,2026-11-20,2026-11-20,Blocked,Yes,215,Stretch 8-10 only if ahead of schedule
+217,Build freeze + final upgrade pass,B-Worlds,2026-12-01,2026-12-04,Blocked,No,216,
+218,Weekly quality-upgrade batches (standing),B-Worlds,2026-08-03,2026-12-18,Scheduled,No,,One batch per week across live worlds
+302,TEDS professor outreach to signed engagement,C-Validation,2026-07-21,2026-08-24,Blocked,No,301,The correction-ask never endorsement
+303,Second reviewer outreach (Fairbairn or Laing),C-Validation,2026-08-17,2026-09-01,Blocked,No,301,
+304,GATE: two reviewers engaged (Sept 1),C-Validation,2026-09-01,2026-09-01,Blocked,Yes,"302, 303",
+305,Round 1 holistic review (9 ancient worlds),C-Validation,2026-09-07,2026-10-22,Blocked,No,304,$2000-3500 per reviewer
+306,Reformation-era reviewer engaged (by Oct 15),C-Validation,2026-10-01,2026-10-15,Blocked,No,301,Calvin/Westminster-world scholars fit this era
+307,Round 1 revisions applied,C-Validation,2026-10-26,2026-11-06,Blocked,No,305,
+308,Round 2 review (Reformation + methodology extension),C-Validation,2026-11-09,2026-12-11,Blocked,No,"306, 213",
+309,Launch honesty language finalized,C-Validation,2026-12-14,2026-12-16,Blocked,No,308,
+402,Starter question sets shipped in UI,D-Platform,2026-08-17,2026-08-21,Blocked,No,201,
+403,Engagement One: 500-user infra + Tier-1 caching,D-Platform,2026-09-21,2026-10-16,Blocked,No,"103, 502",Hired engagement from Front-End Spec
+404,Engagement Two: pre-public audit,D-Platform,2026-11-16,2026-12-09,Blocked,No,"403, 504",Constitutional requirement before public
+406,Audit mechanism (invisible register) + minor-caution mechanism,D-Platform,2026-11-02,2026-12-10,Blocked,No,403,Constitutional requirements before public
+407,GATE: Lane B public flip go/no-go,D-Platform,2026-12-15,2026-12-15,Blocked,Yes,"404, 406, 309",If not cleared: Q1 2027 pre-announced honestly
+501,Ring 1 ask: refreshed Letter to 15-20 names,E-Funding,2026-08-17,2026-09-01,Blocked,No,"103, 510, 702",
+502,GATE: $7500 raised (Sept 1),E-Funding,2026-09-01,2026-09-01,Blocked,Yes,501,Unlocks reviewer payments + P2
+503,World sponsorship asks ($3500 x 3-5 churches),E-Funding,2026-09-07,2026-10-30,Blocked,No,"701, 703",
+504,GATE: ~$25000 cumulative (Nov 1),E-Funding,2026-11-02,2026-11-02,Blocked,Yes,503,Unlocks Engagement Two
+505,Paying pilots: 3-5 churches/classrooms (fork-decider),E-Funding,2026-10-05,2026-11-20,Blocked,No,"701, 703",
+506,NCF / DAF year-end asks,E-Funding,2026-11-16,2026-12-11,Blocked,No,603,Needs entity
+507,Public year-end appeal (post-CCSA),E-Funding,2026-12-01,2026-12-31,Blocked,No,606,
+602,Entity prep: articles w/ mission-lock + bylaws + covenant,F-Entity & Board,2026-08-03,2026-09-04,Scheduled,No,,Covenant markup (Mark) feeds this — can start now
+603,File CO articles of incorporation,F-Entity & Board,2026-09-14,2026-09-17,Blocked,No,602,
+604,1023-EZ filed,F-Entity & Board,2026-09-21,2026-09-30,Blocked,No,603,
+609,IRS determination (typical wait),F-Entity & Board,2026-10-01,2026-11-25,Blocked,No,604,Passive wait; no action
+611,TechSoup / AWS nonprofit credits applications,F-Entity & Board,2026-11-30,2026-12-09,Blocked,No,609,
+605,Board recruitment: 3 clean independents (+ up to 1 family),F-Entity & Board,2026-08-17,2026-11-06,Scheduled,No,,Covenant Art. 7 as the screen
+606,CCSA charitable solicitation registration,F-Entity & Board,2026-10-19,2026-11-13,Blocked,No,603,Gates public giving
+607,Bank account + bookkeeping setup,F-Entity & Board,2026-10-05,2026-10-16,Blocked,No,603,
+610,D&O insurance quote + bind,F-Entity & Board,2026-11-09,2026-11-18,Blocked,No,605,
+608,First board meeting: bylaws + covenant + policies + 2027 budget,F-Entity & Board,2026-11-16,2026-11-18,Blocked,No,"603, 605",Includes compensation/stipend trigger policy
+613,MILESTONE: stipend trigger policy adopted,F-Entity & Board,2026-11-19,2026-11-19,Blocked,Yes,608,Stipend starts when recurring revenue trigger met (~Q1-Q2 2027)
+612,GATE: nonprofit fully established,F-Entity & Board,2026-12-01,2026-12-01,Blocked,Yes,"608, 606",Board + policies + CCSA all in place
+701,Packet V0.2 = presentable business plan (P1 actuals in),G-Ministry Growth,2026-08-11,2026-08-20,Blocked,No,103,The one outward document
+702,Letter to Friends + FAQ refresh (4-world reality),G-Ministry Growth,2026-08-11,2026-08-14,Blocked,No,103,Fix world counts everywhere
+703,Demo polish: 20-minute guided Table,G-Ministry Growth,2026-09-01,2026-09-10,Blocked,No,103,
+704,Landing page + interest list live,G-Ministry Growth,2026-08-24,2026-09-02,Blocked,No,702,churchinconversation.org
+705,Acadia Divinity peer call (Maxwell / Robbins),G-Ministry Growth,2026-08-17,2026-08-21,Scheduled,No,,Peer posture not pitch; they ran the same experiment
+706,Wheaton conversation (anchor cultivation + Wabash one-pager),G-Ministry Growth,2026-10-05,2026-10-30,Blocked,No,"701, 703",Their faculty applies for Wabash; CiC provides platform
+707,Tom Beck: demonstration-first note + 30 minutes,G-Ministry Growth,2026-10-12,2026-10-23,Blocked,No,"701, 703",Scott/Gloo not mentioned until demo lands
+708,Lilly-wave positioning with anchor partner,G-Ministry Growth,2026-12-01,2026-12-18,Blocked,No,"706, 305",
+709,Praxis application prep (April 2027 window),G-Ministry Growth,2026-12-14,2026-12-31,Blocked,No,603,

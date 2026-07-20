@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CiC Dashboard — Acceleration 2026</title>
+<style>
+  :root { --paper:#FBFAF7; --ink:#24272B; --accent:#1F3864; --muted:#646B78; --rule:#E3E2DC; --cell:#F1F0EA; --red:#B3261E; --amber:#9A6A00; --green:#1E6B3A; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#17191D; --ink:#E8E7E2; --accent:#8FA8D4; --muted:#9AA1AD; --rule:#33363C; --cell:#22252A; --red:#E5837C; --amber:#D9A93F; --green:#7CC79A; } }
+  html { background: var(--paper); }
+  body { color: var(--ink); font-family: system-ui, sans-serif; line-height: 1.5; margin: 0; }
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 1.6rem 1.2rem 3rem; }
+  header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .5rem; border-bottom: 2px solid var(--accent); padding-bottom: .8rem; margin-bottom: 1.2rem; }
+  header h1 { font-size: 1.25rem; margin: 0; color: var(--accent); }
+  header .sync { font-size: .78rem; color: var(--muted); }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.1rem; }
+  .card { border: 1px solid var(--rule); border-radius: 8px; padding: .9rem 1rem; background: color-mix(in srgb, var(--paper) 94%, var(--accent)); }
+  .card h2 { font-size: .95rem; margin: 0 0 .6rem; letter-spacing: .03em; }
+  .donow h2 { color: var(--red); } .next h2 { color: var(--amber); } .gates h2 { color: var(--accent); } .done h2 { color: var(--green); } .markup h2 { color: #6B3FA0; }
+  .markup { border: 1.5px solid #6B3FA0; }
+  .markup a.review-link { display: block; font-weight: 600; text-decoration: none; color: inherit; }
+  .markup a.review-link:hover { text-decoration: underline; }
+  .markup .status-tag { display:inline-block; font-size:.7rem; padding:.1rem .5rem; border-radius:999px; background:rgba(107,63,160,0.14); color:#6B3FA0; margin-left:.4rem; }
+  ul { margin: 0; padding-left: 1.15rem; } li { margin-bottom: .45rem; font-size: .9rem; }
+  .id { color: var(--muted); font-size: .75rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .84rem; }
+  th, td { border: 1px solid var(--rule); padding: .35rem .5rem; text-align: left; }
+  th { background: var(--cell); }
+  .links { margin-top: 1.3rem; font-size: .86rem; display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .links a { color: var(--accent); }
+  .rule { margin-top: 1.2rem; font-size: .8rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: .7rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Church in Conversation — Acceleration Dashboard (Jul–Dec 2026)</h1>
+    <span class="sync">Last synced: <strong>2026-07-19, later still</strong> (System Hub thread restarted after this page, the task board, the Gantt, and the decision log had gone missing from disk — recovered intact, zero content lost, from an orphan git safety-snapshot commit; see decision log. Delta since: the accounts/sign-in layer is built and smoke-tested, uncommitted — see Recently Done and the activation checklist below. Earlier: Mark decided P1 launches with the full feature set, not the minimum-viable path — Battery A escalated to "blocks P1 directly," Modes/Guided-Questions-UI/Tours/Question-First/Guided-Onboarding moved from "not required" to "required." Earlier still: Bedrock dropped — direct Anthropic API hosting decided; pilot-invitation website pages built) · Tell Claude what's done → this page, the task board, and the Gantt all update together</span>
+  </header>
+
+  <div class="card gates" style="margin-bottom:1.1rem;">
+    <h2>🚀 PILOT 1 — YOUR ACTIVATION CHECKLIST (everything only you can decide or do)</h2>
+    <p style="font-size:.87rem;margin:.2rem 0 .8rem;color:var(--muted);">Consolidated from the UX-to-hosting readiness report (2026-07-19, now V1.2), the Funding thread (2026-07-18), and every BR-/IC-/SB-/RM-/TR- handoff this session. Design and graphics are fully closed — everything left is a decision, a signature, or a build-thread task waiting on one of the decisions below. <strong>⚠ Scope decision, 2026-07-19 (later still): P1 launches with the full feature set, not just the core encounter</strong> — see the readiness report V1.2. This moved Battery A into "blocks P1 directly" below and retired the old "not required to activate P1" section.</p>
+    <p style="font-size:.85rem;font-weight:600;margin:0 0 .3rem;color:var(--red);">Blocks P1 directly</p>
+    <ul>
+      <li><strong>Stand up direct-API hosting</strong> (DECIDED 2026-07-19: no Bedrock — direct Anthropic API from the start, hosted alongside the website). Pick a host (Render/Fly.io-class — not Cloudflare Pages, static-only), deploy <code>cic-poc</code> with <code>ANTHROPIC_API_KEY</code>, and set an organization spending limit/prepaid cap in the Anthropic Console as the budget-control mechanism (replaces the AWS Budget Action item). <span class="id">#101/401 (revised)</span></li>
+      <li><strong>Create Supabase + host accounts</strong> (Mark only — account creation is off-limits for Claude). The accounts/sign-in layer landed today: <code>auth.py</code>, a Supabase-backed rework of <code>session_cap.py</code>/<code>transcript_logging.py</code>, and a real <code>SignInScreen.tsx</code>. Smoke-tested, uncommitted, and a documented no-op until <code>SUPABASE_URL</code>/<code>SUPABASE_SERVICE_KEY</code> exist. The actual next concrete step inside deploy-and-configure above. <span class="id">Supabase accounts</span></li>
+      <li><strong>Say go on Battery A</strong> (Representative Modes validation). ⚠ Escalated 2026-07-19: no longer optional — the full-feature-set decision means Increment 2, Increment 3, and P1 itself all now wait on this passing. Zero upstream dependency, the longest lead time in the whole build chain — start it today, in parallel with Increment 1. <span class="id">RM-8</span></li>
+      <li><strong>Rule on Section 10 governance</strong> (drift-monitor cherry-pick) — code tested (8/8, 4/4, 3/3), needs your authority sign-off to merge. Part of the Tier 0 merge-ready set. <span class="id">Governance V3.7</span></li>
+      <li><strong>World Map Tier A/B scope call</strong> — does the atlas stay a secondary orientation view or become the primary world-selector? Affects whether the Map merges as one of the four independent Tier 0 items. <span class="id">World Map</span></li>
+    </ul>
+    <p style="font-size:.85rem;font-weight:600;margin:.7rem 0 .3rem;color:var(--amber);">Independent — worth clearing in parallel, not blocking anything above</p>
+    <ul>
+      <li><strong>Guided Questions' two content decisions</strong> + the cheap count-drift fix — needed before live-validation can start; independent of everything else. <span class="id">Guided Questions</span></li>
+      <li><strong>Chloe Hosted-Tour voice read</strong> — your read of the scripted tour content (Q&amp;A demo answer, sermon-absence line, singing-decline). Standing gate before any public use of the demo. <span class="id">TR-10 gate</span></li>
+      <li><strong>Confirm two tour interpretations</strong> — voice-only Representative; evidentiary absence never a locked feature. Five minutes. <span class="id">TR-confirm</span></li>
+      <li><strong>NCF donor-advised-fund question</strong> — does any board member or prospective major donor already hold a National Christian Foundation DAF? Only you can answer this. <span class="id">Funding</span></li>
+      <li><strong>Confirm ~September entity-filing timing still holds</strong> — gates NEH/federal, Praxis, post-entity NCF gifts, public giving. <span class="id">Funding</span></li>
+      <li><strong>Seminary introductions</strong> — TEDS professor (this week–early Aug), Wheaton/Acadia (October). The literal eligibility key to Wabash's AI grant and Lilly's FORWARD-style sub-grants. <span class="id">Funding</span></li>
+      <li><strong>Sign off on "relationship-first, watch-the-rest" funding posture</strong> and dropping NEH's Sept-16 target (infeasible on two independent grounds — see funding log). <span class="id">Funding</span></li>
+      <li><strong>Gantt IDs and priority order</strong> for every IC-/SB-/BR-/TR-/RM- row handed to the Hub this session — numeric IDs and sequencing are yours to assign per standing convention. <span class="id">Hub housekeeping</span></li>
+      <li><strong>BR-19 trademark screening</strong> (mark + name) — on the attorney list; confirm it's moving. <span class="id">BR-19</span></li>
+      <li><strong>BR-20/21</strong> — read-aloud pass on the Letter's testimony paragraph; skim the four revised drafts' change logs (a dozen lines each). <span class="id">BR-20, BR-21</span></li>
+    </ul>
+    <p style="font-size:.85rem;font-weight:600;margin:.7rem 0 .3rem;color:var(--red);">Now required for P1 (moved here 2026-07-19 — was "not required," superseded by the full-feature-set decision)</p>
+    <p style="font-size:.87rem;margin:0;">Representative Modes / Increment 2 (waits on Battery A passing + Increment 1) · Guided Questions UI / Increment 3 (hard-blocked on Increment 2) · Hosted Tour's <code>cic-poc</code> wiring · Question-First Entry · Guided Onboarding · the Living Table's live <code>cic-poc</code> wiring. All fully designed and approved — none of them are design blockers, but all now have to actually be built before P1 can launch. See the readiness report V1.2 §4/§5 for the full order of operations.</p>
+  </div>
+
+  <div class="cols">
+    <div class="card markup">
+      <h2>📝 NEEDS YOUR MARKUP — read, comment, save; no other tools</h2>
+      <p style="font-size:.82rem;color:var(--muted);margin:.2rem 0 .7rem;">Open a link, read it, fill in/comment/choose right on the page, click <strong>Save</strong> (writes a markup file straight to disk — no copy-paste). Tell me here when you've saved one; I'll read it, apply your calls, and bring back the finished result for sign-off. You never have to leave this dashboard-and-thread loop.</p>
+      <ul>
+        <li><a class="review-link" href="Markup-Queue/BR-32_Positive_Reframe_Table.html">BR-32 — The Positive-Reframe Table</a><span class="status-tag">awaiting you</span><br><span style="font-size:.82rem;color:var(--muted);">9 lines, accept/keep/rewrite each, one overall approval.</span></li>
+        <li style="margin-top:.6rem;"><a class="review-link" href="Markup-Queue/Articles_of_Incorporation_Review.html">Articles of Incorporation V0.2 — pre-attorney read</a><span class="status-tag">awaiting you</span><br><span style="font-size:.82rem;color:var(--muted);">Fill the 4 blanks, flag any Article for counsel, mark ready-to-send.</span></li>
+        <li style="margin-top:.6rem;"><a class="review-link" href="Markup-Queue/Support_Page_Figures_and_Placement.html">Support Page — dollar figures + About placement</a><span class="status-tag">awaiting you</span><br><span style="font-size:.82rem;color:var(--muted);">3 figures to confirm, where the story lives, and the review-pipeline-plan go/no-go.</span></li>
+      </ul>
+    </div>
+    <div class="card donow">
+      <h2>🔴 DO NOW — all dependencies clear</h2>
+      <ul>
+        <li><strong>Build Increment 1</strong> — Full UX Design V0.1 <strong>approved</strong>; table bar, Level-3 panels, toggle retirement, token/typeface swap all spec'd and cleared to build. <span class="id">NEW</span></li>
+        <li><strong>Reviewer brief — DRAFTED, yours to finish:</strong> write the two personal blocks, set the honorarium, send to the TEDS professor. In Ministry/Scholarly-Review. <span class="id">#301 · 75%</span></li>
+        <li><strong>Church-designated fund</strong> conversation with the pastor. <span class="id">#510</span></li>
+        <li><strong>Praxis interest form</strong> — five minutes; calendar April 2027. <span class="id">#601</span></li>
+        <li><strong>Covenant markup</strong> (yours, any evening) — feeds the entity's articles. <span class="id">#602 prep</span></li>
+        <li><strong>Review the Representative Modes demo</strong> — Chloe, four registers, react-to-first. <a href="https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e">demo artifact</a> <span class="id">RM-7</span></li>
+        <li><strong>Confirm two tour interpretations</strong> — voice-only Representative; evidentiary absence never a locked feature. Five minutes, gates TR-10. <span class="id">TR-confirm</span></li>
+        <li><strong>Tour Manifest Template + eligibility checklist + asset-sourcing pipeline</strong> — the builder machine, no code/live-system risk. <span class="id">TR-4, TR-5, TR-6</span></li>
+        <li><strong>Confirm recording pipeline reusable for tours</strong> — already built once for the map thread. <span class="id">TR-8</span></li>
+        <li><strong>Stand up direct-API hosting</strong> (Bedrock dropped 2026-07-19 — direct Anthropic API from the start) — pick a host, deploy, set an Anthropic Console spending limit as the budget-control mechanism. See the full dependency-ordered path. <a href="CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md">readiness report</a> <span class="id">#101/401 (revised)</span></li>
+        <li><strong>Battery A go-ahead</strong> — Representative Modes' validation run has zero upstream dependency and is the longest-lead item in the whole build chain; still awaiting the word to spend on it. <span class="id">RM-8</span></li>
+      </ul>
+    </div>
+
+    <div class="card next">
+      <h2>🟡 READY NEXT — starts when its predecessor lands</h2>
+      <ul>
+        <li><strong>Representative Modes validation — Battery A. Top validation priority</strong> now that hosting is being stood up directly (existence gate, costs live API calls, you schedule it) → then Batteries B–D. <span class="id">RM-8, RM-9</span></li>
+        <li>Run <strong>Prototype 1</strong> (15–25 testers) — after direct-API hosting is live; protect the window once it starts, no new outreach until ~Aug 10 from that point. <span class="id">#102</span></li>
+        <li><strong>TEDS professor outreach</strong> — the moment the brief exists. <span class="id">#302</span></li>
+        <li><strong>Ancient worlds 5–9</strong> — from Aug 3, ~6 working days each incl. battery + gates. <span class="id">#202–206</span></li>
+        <li><strong>Guided starter question sets</strong> (4 live worlds) — from Aug 3, parallel. <span class="id">#201</span></li>
+        <li><strong>Weekly quality-upgrade batch</strong> — standing rhythm from Aug 3. <span class="id">#218</span></li>
+        <li><strong>Templated tour renderer + scene-narration validation probe</strong> (after TR-4). <span class="id">TR-7, TR-9</span></li>
+        <li><strong>Chloe tour → reviewed Tour Manifest</strong> (after TR-4 + the voice confirmations). <span class="id">TR-10</span></li>
+        <li><strong>Increment 2 — role selection UI</strong> (after Increment 1 build lands). Gated on RM-8/Battery A (the rename is done — no longer a blocker). <span class="id">Incr. 2</span></li>
+        <li><strong>Atlas adopts the ten era grounds</strong> — World Orientation Map swaps its single ground for the approved per-era palette so icons + atlas read as one system; values ready in the icon spec §7. World-Map thread. <span class="id">IC-10</span></li>
+      </ul>
+    </div>
+
+    <div class="card gates">
+      <h2>⛩️ GATES — fixed dates</h2>
+      <table>
+        <tr><th>Date</th><th>Gate</th></tr>
+        <tr><td>Sept 1</td><td>Two reviewers engaged · $7,500 raised</td></tr>
+        <tr><td>~Sept 15</td><td>CO nonprofit filed</td></tr>
+        <tr><td>Nov 1</td><td>~$25,000 cumulative</td></tr>
+        <tr><td>~Nov 15</td><td>CCSA registration lands</td></tr>
+        <tr><td>~Nov 16</td><td>First board meeting (+ stipend trigger policy)</td></tr>
+        <tr><td>Dec 1</td><td>Nonprofit fully established</td></tr>
+        <tr><td>Dec 15</td><td>Lane B public flip go/no-go</td></tr>
+        <tr><td>Dec 18</td><td>Lane A confirmed: 500 users</td></tr>
+        <tr><td>Dec 31</td><td>$35–45K total raised</td></tr>
+      </table>
+    </div>
+
+    <div class="card done">
+      <h2>✅ RECENTLY DONE</h2>
+      <ul>
+        <li><strong>Accounts/sign-in layer built and smoke-tested (2026-07-19, later still).</strong> <code>cic-poc/backend/app/auth.py</code> (new), <code>session_cap.py</code> and <code>transcript_logging.py</code> reworked to be Supabase-backed (real per-user session caps and transcript persistence, not just per-tester-code), and a real <code>SignInScreen.tsx</code> on the frontend. Every Supabase-dependent feature is a documented no-op until <code>SUPABASE_URL</code>/<code>SUPABASE_SERVICE_KEY</code> (backend) and <code>VITE_SUPABASE_URL</code>/<code>VITE_SUPABASE_ANON_KEY</code> (frontend) are set — local dev/mock mode is unaffected. Currently uncommitted; not yet deployed. <span class="id">Auth layer</span></li>
+        <li><strong>Pilot invitation pages built on the public website (2026-07-19).</strong> <code>cic-website/pilot.html</code> — the four-seat invitation (Regular visitor / Pastor or teacher / Academic or scholar / Reevaluation, descriptions drawn straight from the Pilot Plan) plus an interest-expression form that emails Mark directly via <code>mailto:</code> (no third-party account created on his behalf, by standing constraint). <code>cic-website/pilot-thank-you.html</code> — post-completion thank-you + low-pressure referral ask for the remaining seats. Both linked into the site nav on all pages; both verified live, clean console. <strong>Per-tester API/session capping already exists</strong> in <code>cic-poc/backend/app/session_cap.py</code> (tester-code registry, configurable max sessions) — covers most of the "limit credits per user" ask once populated. <strong>Still open, tracked as tasks #49–51:</strong> reconcile Mark's "4 seats" framing against the Pilot Plan's actual 8-tester (2-per-role) spec; build the actual approve→provision workflow once an interest email comes in; wire the thank-you/referral content into the real in-app closing sequence (S5), not just the marketing site. <span class="id">Pilot invite pages</span></li>
+        <li><strong>Alexandria/Theon installed into cic-poc (2026-07-19) — the fifth live world.</strong> Manifest entry added, permanent prompt + World Capsule Core + all 45 lexicon chunks copied in, frontend synced. <strong>A real bug found and fixed</strong>: the story retriever crashed on any world with zero story chunks (FAISS on an empty document list) — now degrades gracefully. <strong>Verified live</strong> in mock mode: worlds list, session start, a real message with a genuine lexicon citation returned. <strong>Real gap, honestly flagged, not fabricated around:</strong> Doc_09's stories haven't been split into deployable per-story chunks yet, so Theon runs on lexicon retrieval only for now. World color (<code>#2B5F8A</code>) is provisional pending the World-Map thread's coordinated assignment. <span class="id">Alexandria install</span></li>
+        <li><strong>Brand Hub Sync #2 (2026-07-19) — 16 milestones closed, zero drift on re-audit.</strong> World-Icon set passed a full compliance check (solid opaque fills, zero filters/glow, anti-ghost rule verified in the SVG source itself). 33 brand-alignment edits across 5 donor-facing docx files, including a real fact correction (world count 4→5, Theon added). The measurement line revised twice in one sitting to its final form: "...How it impacts the kingdom belongs to our Lord. That's bigger than us" — applied to all ten live locations, verified. <strong>One open brand-authority item remains: BR-32</strong>, the Tier-1 positive-reframe table, awaiting Mark's word. Everything else is execution with a named owner. <span class="id">BR-25..32</span></li>
+        <li><strong>UX design CLOSED OUT — zero open decisions remain (2026-07-19).</strong> The two standing graphics DRAFTs decided (reading surface = warm cream; Era-2 ground = no separate background, seating/object only). Two Living-Table layout bugs found + fixed (desktop, then phone independently) by scene-locking figures and the table line to one shared coordinate system. A content-integrity issue found + fixed: invented Representative dialogue stripped from every mockup, replaced with labeled placeholder text — standing rule now on record. <strong>Produced the dependency-ordered path to Bedrock + Prototype Testing 1</strong> — <a href="CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md">readiness report</a>. <span class="id">UX design: done</span></li>
+        <li><strong>Complete Experience Storyboard — SHIPPED; the last two undesigned screens closed and APPROVED (2026-07-18 overnight + morning).</strong> Every path S0→S5 storyboarded with citations + five visual frames; <strong>Guided onboarding</strong> and the <strong>Question-First routing UI</strong> designed and <strong>approved by Mark</strong>; side "other choices" dropped; the V1.0 stale-camera spec bug fixed same night (V1.0.2), Increment-1 handoff bumped to V1.1 (long-form transcript), icon spec §1b synced, icon family review (IC-9) PASSED. <strong>The journey has zero undesigned, zero unapproved screens.</strong> <span class="id">SB-1..SB-4 done · SB-5..8 routed</span></li>
+        <li><strong>World Representative icons — 5/5 built &amp; LOCKED + era-ground palette APPROVED (2026-07-18).</strong> Chloe (cup) · Papnoute (jug) · Theon (scroll) · Mar Yausep (Gospel book) · Albina (wax tablet); each object/appearance verified against its world's own record. Ten-era warm→cool ground palette canonical. <span class="id">IC-1..IC-8 · then IC-9 review</span></li>
+        <li class="id" style="list-style:none;margin-left:-1.15rem;color:var(--muted)">— 2026-07-16 mass-build (drafts awaiting Mark's review): —</li>
+        <li>Guided starters, all 4 worlds (#201 → 75%)</li>
+        <li>Reviewer package: brief V0.2 + World 1 brief (#301 → 90%)</li>
+        <li>One-pagers: church fund · sponsorship · Wabash</li>
+        <li>Landing page copy (#704 → 50%)</li>
+        <li>Entity drafts: articles + bylaws (#602 → 40%)</li>
+        <li>Letter + FAQ refreshes (with change logs)</li>
+        <li>World briefs × 4 (reviewer/partner orientations)</li>
+        <li>P1 post-survey story-consent questions (adopt before send)</li>
+        <li>Representative Modes: design + build self-verified, mock-mode only (RM-1..RM-6) — inert until RM-7/RM-8</li>
+        <li>Hosted Tour: Chloe demo built + self-verified — immersive HTML, 4 verified public-domain images, 2 source-text audio readings, honest decline stop (TR-1..TR-3)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="rule" style="margin-top:1.2rem;">
+    <strong>Representative Modes — spend flag:</strong> RM-8/RM-9 (validation) are the first point in this feature's life that cost real API credits; everything so far ran in mock mode at zero cost.
+    <strong>Risk/hold:</strong> nothing merges before or during Prototype Testing 1 — if role modes go in front of testers later, Battery A first, merge before invitations, never mid-pilot.
+    Branch: <code>claude/representative-modes-exploration</code> (commit 1127c09, local-only, not pushed).
+  </div>
+
+  <div class="rule" style="margin-top:.6rem;">
+    <strong>Hosted Tour — per-world verdicts (from each world's own approved Doc_09):</strong> House-Churches/Chloe YES, strongest (Class A, demo built) · Syriac/Mar Yausep qualified yes (Class B, needs a pronunciation pass) · Desert/Papnoute partial, no worship-service tour (Class B) · Bethlehem Circle/Albina partial/thin, no liturgical tour, produce last (Class B). No live world is a total zero.
+    <strong>Risk/hold:</strong> same standing rule — nothing tour-related merges before or during Prototype 1; TR-14 (cic-poc integration) sits behind the front-end IA pass already first in the feature queue.
+    Demo: <a href="https://claude.ai/code/artifact/74a8c750-b828-443d-8d8a-e83f038a6eb7">Chloe tour</a>.
+  </div>
+
+  <div class="rule" style="margin-top:.6rem;">
+    <strong>Front-end build order (corrected 2026-07-17):</strong> Increment 1 (budget compliance) → Increment 2 / RM-10 (role selection UI + Representative Modes merge, gated on Battery A) → Increment 3 / #402 (post-table question serving — <em>can't ship ahead of the selector it's served through</em>) → Increment 4 (World Map Tier A merge). Tours (TR-14) sit behind Increments 1+2; the map "Take a tour" handoff (TR-15) sits behind TR-14 <em>and</em> Increment 4. All of it behind the standing never-before/during-P1 rule.
+  </div>
+
+  <div class="rule" style="margin-top:.6rem;">
+    <strong>World Icons &amp; Era Grounds — all five built &amp; locked (2026-07-18):</strong> one governed connected-bust template, each object/appearance verified against its world's own record and flagged DOCUMENTED/INFERENCE. Objects: Chloe cup · Papnoute jug · Theon scroll · Mar Yausep Gospel book · Albina wax tablet. Skin spread by setting (pale Rome → Greek-East → Alexandria → Syriac → desert). The <strong>ten-era ground palette is approved &amp; canonical</strong> (one warm→cool flow, light+dark) — it now governs both the icon tables and the atlas.
+    <strong>IC-9 family review RAN and PASSED (2026-07-18 overnight)</strong> — the five locks stand. <strong>Open:</strong> IC-10 the atlas adopting the palette (World-Map thread). Spec: <code>Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md</code> §7. <strong>Gantt IDs for the IC- rows are Mark's to assign</strong> (same as RM-/TR-/BR-).
+  </div>
+
+  <div class="rule" style="margin-top:.6rem;">
+    <strong>Bedrock dropped; direct-API hosting decided (2026-07-19):</strong> Mark's final call — skip Bedrock entirely, host directly on the Anthropic API from the start (the path <code>cic-poc</code> is already built for; zero Bedrock code exists in the codebase). Reasoning: costs a bit more up front (no AWS free-credit offset) but avoids Bedrock's setup overhead and a later migration back, and direct API lets Mark preload a fixed spending cap in the Anthropic Console rather than running an uncapped pay-after account — the same budget control the AWS Budget Action item existed for. UX design has zero open decisions, Increment 1 has an implementation-ready build spec, and the Living Table's assets are locked. The <a href="CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md">readiness report</a> lays out the dependency-ordered path (read "Bedrock" there as "direct-API hosting" going forward) — the short version: stand up hosting, say go on Battery A (zero dependency, longest lead time), build Increment 1, then run P1 on Increment 1 + the Tier 0 merges (anachronism bridge, closing sequence, governance V3.7, World Map) — Representative Modes, Guided Questions UI, Hosted Tour, Question-First Entry, and Guided Onboarding are real future-phase work, not P1 blockers.
+  </div>
+
+  <div class="links">
+    <a href="CiC_Acceleration_Gantt_2026.gan">📊 Open the Gantt (GanttProject)</a>
+    <a href="CiC_Task_Board_2026.md">📋 Full task board (all blocked items + dependencies)</a>
+    <a href="../Funding/CiC_Acceleration_Plan_Jul-Dec_2026_V0_1_DRAFT.docx">🚀 Acceleration Plan (the why behind the schedule)</a>
+  </div>
+
+  <div class="rule">Standing rules: count is the release valve (Reformation 7→5 before any gate bends) · if P2 and the build calendar strain, the build calendar wins · review status is always disclosed honestly · no funder deadline compresses a gate. <em>Where efficiency and rigor conflict, rigor governs.</em></div>
+</div>
+</body>
+</html>

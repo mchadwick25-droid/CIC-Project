@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Exploration B - "The gathering": the Table seen from above, seats around it,
+       the near seat open and drawn back in madder. V0.1 - 2026-07-18. -->
+  <rect width="32" height="32" rx="7" fill="#F7F3EB"/>
+  <circle cx="16" cy="17" r="8" fill="none" stroke="#2A2521" stroke-width="2.4"/>
+  <g fill="#2A2521">
+    <circle cx="16" cy="5" r="2.1"/>
+    <circle cx="5.6" cy="11" r="2.1"/>
+    <circle cx="26.4" cy="11" r="2.1"/>
+    <circle cx="6.5" cy="23.5" r="2.1"/>
+    <circle cx="25.5" cy="23.5" r="2.1"/>
+  </g>
+  <path d="M12.5 29.5h7" fill="none" stroke="#A13E2B" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Markup — Articles of Incorporation V0.2</title>
+<style>
+  :root { --parchment:#F7F3EB; --vellum:#FEFCF8; --ink:#2A2521; --madder:#A13E2B; --gold:#B45309; --lapis:#1E40AF; --rule:rgba(42,37,33,0.16); --muted:#6B6259; --green:#1E6B3A; }
+  @media (prefers-color-scheme: dark) { :root { --parchment:#17130F; --vellum:#1E1913; --ink:#F1E9DD; --rule:rgba(241,233,221,0.16); --muted:#B8AEA1; --green:#7CC79A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--parchment); color:var(--ink); font-family: Georgia, 'Iowan Old Style', serif; line-height:1.6; }
+  .wrap { max-width: 58rem; margin:0 auto; padding: 1.5rem 1.3rem 6rem; }
+  .topbar { position: sticky; top:0; z-index:10; background:var(--vellum); border-bottom:2px solid var(--madder); padding: .9rem 1.3rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.6rem; font-family:'Trebuchet MS',sans-serif; }
+  .topbar h1 { font-size:1rem; margin:0; font-family: Georgia, serif; }
+  .topbar .sub { font-size:.78rem; color:var(--muted); }
+  .btn { font-family:'Trebuchet MS',sans-serif; font-weight:600; font-size:.85rem; padding:.55rem 1.1rem; border-radius:5px; border:1.5px solid var(--madder); background:var(--madder); color:#fff; cursor:pointer; }
+  .btn:hover { background:var(--gold); border-color:var(--gold); }
+  #status { font-family:'Trebuchet MS',sans-serif; font-size:.78rem; color:var(--muted); }
+  #status.saved { color: var(--green); font-weight:600; }
+  .intro, .warn { border-radius:0 8px 8px 0; padding:1rem 1.3rem; margin: 1.2rem 0; font-family:'Trebuchet MS',sans-serif; font-size:.9rem; }
+  .intro { background:var(--vellum); border:1px solid var(--rule); border-left:3px solid var(--gold); }
+  .warn { background:rgba(161,62,43,0.08); border:1px solid var(--rule); border-left:3px solid var(--madder); }
+  .blanks { background:var(--vellum); border:2px solid var(--madder); border-radius:8px; padding:1.2rem 1.3rem; margin: 1.5rem 0; }
+  .blanks h2 { margin-top:0; font-size:1.05rem; }
+  .field { margin-bottom:1rem; }
+  .field label { display:block; font-family:'Trebuchet MS',sans-serif; font-size:.8rem; font-weight:700; margin-bottom:.3rem; }
+  .field .hint { font-family:'Trebuchet MS',sans-serif; font-size:.74rem; color:var(--muted); margin-bottom:.3rem; }
+  input[type=text], textarea { width:100%; font-family:'Trebuchet MS',sans-serif; font-size:.9rem; padding:.5rem .6rem; border:1px solid var(--rule); border-radius:5px; background:var(--parchment); color:var(--ink); }
+  textarea { min-height:2.2rem; resize:vertical; margin-top:.5rem; }
+  .article { background:var(--vellum); border:1px solid var(--rule); border-radius:8px; padding:1rem 1.3rem; margin-bottom:1rem; }
+  .article h3 { margin:0 0 .5rem; font-size:1rem; color:var(--madder); }
+  .article .text { font-size:.92rem; }
+  .flagrow { display:flex; gap:1.2rem; align-items:center; font-family:'Trebuchet MS',sans-serif; font-size:.82rem; margin-top:.6rem; flex-wrap:wrap; }
+  .flagrow label { display:flex; align-items:center; gap:.35rem; cursor:pointer; }
+  .final-block { background:var(--vellum); border:2px solid var(--madder); border-radius:8px; padding:1.2rem 1.3rem; margin-top:2rem; }
+  .final-block label { font-family:'Trebuchet MS',sans-serif; font-weight:700; display:flex; gap:.5rem; align-items:flex-start; }
+  .final-block textarea { margin-top:.8rem; min-height:5rem; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <h1>Articles of Incorporation V0.2 — Your read-through before it goes to counsel</h1>
+    <span class="sub">Fill the blanks, flag anything for the attorney, mark your overall call. Nothing submitted until Save.</span>
+  </div>
+  <div style="display:flex; gap:.7rem; align-items:center;">
+    <span id="status">not yet saved</span>
+    <button class="btn" onclick="doSave()">💾 Save my markup</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="warn">
+    <strong>Standing reminder:</strong> this is a non-lawyer read, same as before — I flagged Article IV's enforceability as the one thing worth an attorney's eyes before filing, and that hasn't changed. Filling the blanks and marking this up gets it <em>ready</em> for counsel; it doesn't replace counsel.
+  </div>
+
+  <div class="blanks">
+    <h2>The four blanks — fill these in</h2>
+    <div class="field">
+      <label>1. Principal office street + mailing address (Article VII)</label>
+      <div class="hint">Becomes public record.</div>
+      <input type="text" id="blank1" placeholder="Street address, city, state, ZIP">
+    </div>
+    <div class="field">
+      <label>2. Registered agent — name (Article VII)</label>
+      <div class="hint">You, or a ~$100–150/yr registered-agent service.</div>
+      <input type="text" id="blank2" placeholder="Your name, or the service's name">
+    </div>
+    <div class="field">
+      <label>3. Registered agent — Colorado street address (Article VII)</label>
+      <div class="hint">Physical CO street address, no PO box; public record. If self-serving, your own address.</div>
+      <input type="text" id="blank3" placeholder="Colorado street address">
+    </div>
+    <div class="field">
+      <label>4. Incorporator mailing address (Article IX — Mark Chadwick)</label>
+      <div class="hint">Your mailing address.</div>
+      <input type="text" id="blank4" placeholder="Your mailing address">
+    </div>
+  </div>
+
+  <h2 style="border-bottom:1px solid var(--rule); padding-bottom:.4rem;">Article-by-article — read and flag</h2>
+
+  <div class="article" data-id="artI">
+    <h3>Article I — Name</h3>
+    <div class="text">The name of the corporation is <strong>Church in Conversation</strong>.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artII">
+    <h3>Article II — Duration and Type</h3>
+    <div class="text">Nonprofit corporation under the Colorado Revised Nonprofit Corporation Act, perpetual duration, no members — governance vested in the Board of Directors.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artIII">
+    <h3>Article III — Purpose</h3>
+    <div class="text">Organized exclusively for charitable, religious, and educational purposes under 501(c)(3). Specific purpose: helping people experience Jesus in new ways through the living traditions and practices of His Church, throughout history and today — including reconstructing historical Christian communities with scholarly rigor, making them available through honest conversational encounter, supporting religious/historical education, and related research and publication.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artIV">
+    <h3>Article IV — Foundational Commitments (Mission Lock) ⚠️ already flagged for counsel</h3>
+    <div class="text">Six binding commitments: (1) Access — core encounter always free to individual seekers. (2) Witness, not recruitment — no persuasion design, no conversion-tracking. (3) Transparency never gated — sources/confidence/limitations open at every tier. (4) No engagement optimization — never designed to maximize duration/return/dependency. (5) Independent accountability — subject to external scholarly review, honestly disclosed. (6) Money buys access, never voice — no gift alters content; Board maintains a gift-acceptance policy. Amendment protection: Article IV/VIII changeable only by 4/5 vote of all directors including a majority of independent directors.</div>
+    <div class="flagrow">
+      <label><input type="checkbox" checked> Flag for attorney (already flagged — enforceability of this Article specifically)</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artV">
+    <h3>Article V — Limitations (IRS-Required Language)</h3>
+    <div class="text">No private inurement except reasonable compensation; no substantial lobbying; no political campaign intervention; activities bounded by 501(c)(3) exemption and 170(c)(2) deductibility requirements.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artVI">
+    <h3>Article VI — Directors</h3>
+    <div class="text">No fewer than 5 directors; majority must be independent (not family of, nor in a compensated/business relationship with, the founder or any officer). Initial Board seated by the incorporator's organizational action after incorporation.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artVII">
+    <h3>Article VII — Registered Agent and Principal Office</h3>
+    <div class="text">Filled from your blanks above.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artVIII">
+    <h3>Article VIII — Dissolution</h3>
+    <div class="text">On dissolution, remaining assets after liabilities go to another 501(c)(3) consistent with Article III/IV, or to government for public purpose. No distribution to any director/officer/private person.</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="article" data-id="artIX">
+    <h3>Article IX — Incorporator</h3>
+    <div class="text">Mark Chadwick, [your mailing address from blank 4 above].</div>
+    <div class="flagrow">
+      <label><input type="checkbox"> Flag for attorney</label>
+    </div>
+    <textarea placeholder="Comment (optional)…"></textarea>
+  </div>
+
+  <div class="final-block">
+    <label><input type="checkbox" id="ready-for-attorney"> The blanks are filled and I've read every Article — this is ready to send to counsel.</label>
+    <textarea id="overall-comment" placeholder="Any overall note for the attorney or for Claude to carry forward — optional…"></textarea>
+  </div>
+</div>
+
+<script>
+function buildMarkupText() {
+  const b = id => document.getElementById(id).value.trim() || '(not filled in)';
+  let out = `# Mark's Markup — Articles of Incorporation V0.2 Review\n\nSaved: ${new Date().toISOString()}\n\n`;
+  out += `## The four blanks\n`;
+  out += `1. Principal office address: ${b('blank1')}\n`;
+  out += `2. Registered agent name: ${b('blank2')}\n`;
+  out += `3. Registered agent CO street address: ${b('blank3')}\n`;
+  out += `4. Incorporator mailing address: ${b('blank4')}\n\n`;
+  out += `## Article-by-article flags and comments\n`;
+  document.querySelectorAll('.article').forEach(art => {
+    const title = art.querySelector('h3').textContent.trim();
+    const flagged = art.querySelector('input[type=checkbox]').checked;
+    const comment = art.querySelector('textarea').value.trim();
+    if (flagged || comment) {
+      out += `### ${title}\n`;
+      if (flagged) out += `- **Flagged for attorney**\n`;
+      if (comment) out += `- Comment: ${comment}\n`;
+      out += `\n`;
+    }
+  });
+  const ready = document.getElementById('ready-for-attorney').checked;
+  const overall = document.getElementById('overall-comment').value.trim();
+  out += `## Overall\n- Ready to send to counsel: **${ready ? 'YES' : 'NOT YET'}**\n`;
+  if (overall) out += `- Overall comment: ${overall}\n`;
+  return out;
+}
+
+async function doSave() {
+  const content = buildMarkupText();
+  const filename = 'Articles_of_Incorporation_MARKUP_' + new Date().toISOString().slice(0,10) + '.md';
+  const status = document.getElementById('status');
+  try {
+    if ('showSaveFilePicker' in window) {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: filename,
+        types: [{ description: 'Markdown', accept: { 'text/markdown': ['.md'] } }]
+      });
+      const writable = await handle.createWritable();
+      await writable.write(content);
+      await writable.close();
+      status.textContent = 'saved ✓ — tell Claude when ready';
+      status.classList.add('saved');
+      return;
+    }
+  } catch (e) {
+    if (e.name === 'AbortError') return;
+  }
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  status.textContent = 'downloaded ✓ — tell Claude when ready';
+  status.classList.add('saved');
+}
+</script>
+
+</body>
+</html>

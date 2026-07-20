@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Church in Conversation - the table with one chair pulled out.
+       Favicon/app-icon master (parchment tile). V0.1 - 2026-07-18.
+       Palette: parchment #F7F3EB / iron-gall #2A2521 (the table) / madder #A13E2B (the chair - the welcome). -->
+  <rect width="32" height="32" rx="7" fill="#F7F3EB"/>
+  <g fill="none" stroke-linecap="round" stroke-width="2.8">
+    <g stroke="#2A2521">
+      <path d="M3.5 13h12"/>
+      <path d="M6 13v12"/>
+      <path d="M13.5 13v12"/>
+    </g>
+    <g stroke="#A13E2B">
+      <path d="M27 8v17"/>
+      <path d="M27 17h-6"/>
+      <path d="M21.5 17v8"/>
+    </g>
+  </g>
+</svg>

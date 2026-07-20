@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- "Arriving" - geometric even-stroke variant. This is the ANIMATION form
+       (stroke-dasharray build requires a stroked circle) and the tiny-size form.
+       Gap +/-50deg: dasharray 260 100, dashoffset -50 on pathLength 360. -->
+  <circle cx="50" cy="50" r="31" fill="none" stroke="#2A2521" stroke-width="11"
+    stroke-linecap="round" pathLength="360"
+    stroke-dasharray="260 100" stroke-dashoffset="-50"/>
+  <circle cx="88.5" cy="50" r="6.5" fill="#A13E2B"/>
+</svg>

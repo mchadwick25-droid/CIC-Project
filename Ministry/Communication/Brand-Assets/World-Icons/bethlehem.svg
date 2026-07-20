@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
+  <!-- CiC world icon (V0.5 LOCKED, 2026-07-18) - Albina, ascetic widow (vidua) + patron of the
+       BETHLEHEM CIRCLE (Hieronymian-Ascetic-Literary world). ERA 2 (Era-2 ground #EDDEB9 light / #221A0E
+       dark; round-dome FEMALE template). Verified against the world's own docs.
+       V0.2 (Mark): (1) DIFFERENTIATED FROM CHLOE - dropped Chloe's white under-veil + forehead veil-edge
+       (the "chain" framing); Albina now wears a plain wool palla drawn back to show GREY SIDE-PARTED HAIR
+       (an older widow; iterated hair-band -> bangs -> a side-swept part with a raised V, V0.3-V0.5), and her
+       tunic neckline is a softer muted tone (#8F805E) as a further point of difference - not Chloe's forward veil. (2) OBJECT CHANGED to a WAX TABLET + STYLUS (the
+       flat letter read as a "diploma"). The tablet is the writing instrument of this LITERARY world - the
+       tool of the documented letter-drafting (epistula) and scholarly labor. FLAG: the specific tool is not
+       itemized in the record (scriptorium detail is not attested - "no scriptorium overclaim"); it is a
+       Mark-directed emblem of the documented literary labor, not a documented object.
+       ROLE (DOCUMENTED): a widow-PATRON given to renunciation and the scholarly labor - NOT a Hebrew scholar
+       herself (so no Hebrew-text prop, not shown translating). DRESS (DOCUMENTED): renunciant PLAINNESS
+       ("the plain dress that announced... something fundamental had changed") - plain undyed wool, no
+       ornament; NOT dark/mourning (silent), NOT a medieval-nun habit.
+       Avoided: "Vulgate" label, Hebrew-scholarship pose, Nativity-grotto/manger, Origenist/Pelagian polemic.
+       APPEARANCE INFERENCE (flagged): veil is a template convention (not world-attested); grey hair + mature
+       age (widow, inference); light Roman-Mediterranean skin (#E5C6A0 - Mark confirmed correct). LOCKED -
+       Mark approved 2026-07-18 ("that looks great"); base copy _working-base/albina_LOCKED_v0_5.svg. -->
+  <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#A99B7E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M42 150 Q44 102 60 94 Q76 102 78 150 Z" fill="#D9CDB2" stroke="#2A2521" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M50 100 Q60 108 70 100" fill="none" stroke="#8F805E" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#E5C6A0" stroke="#2A2521" stroke-width="2"/>
+  <path d="M46 51 Q47 54 51 52 Q56 47 58 47 Q66 58 74 50 Q75 44 66 41 Q58 40 52 41 Q47 42 46 51 Z" fill="#C4BCA8" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M54 42 q2 2 1 4" fill="none" stroke="#2A2521" stroke-width="1" stroke-opacity="0.5" stroke-linecap="round"/>
+  <ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <rect x="48" y="127" width="24" height="19" rx="2" fill="#9A7248" stroke="#2A2521" stroke-width="1.8"/>
+  <rect x="51" y="130" width="18" height="13" rx="1" fill="#4A3B2A" stroke="#2A2521" stroke-width="1.2"/>
+  <path d="M54 134 h12" stroke="#B6A784" stroke-width="0.9" stroke-opacity="0.7" stroke-linecap="round"/>
+  <path d="M54 138 h9" stroke="#B6A784" stroke-width="0.9" stroke-opacity="0.7" stroke-linecap="round"/>
+  <path d="M76 120 L66 134" stroke="#7A6544" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="76.5" cy="119.5" r="2.1" fill="#7A6544" stroke="#2A2521" stroke-width="1"/>
+</svg>

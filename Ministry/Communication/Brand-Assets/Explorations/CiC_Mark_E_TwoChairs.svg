@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Exploration E - "The conversation": two chairs turned toward each other -
+       the witness in iron-gall, your chair in madder. V0.1 - 2026-07-18. -->
+  <rect width="32" height="32" rx="7" fill="#F7F3EB"/>
+  <g fill="none" stroke="#2A2521" stroke-width="2.6" stroke-linecap="round">
+    <path d="M5 8v18"/>
+    <path d="M5 16h6.5"/>
+    <path d="M11 16v10"/>
+  </g>
+  <g fill="none" stroke="#A13E2B" stroke-width="2.6" stroke-linecap="round">
+    <path d="M27 8v18"/>
+    <path d="M27 16h-6.5"/>
+    <path d="M21 16v10"/>
+  </g>
+</svg>

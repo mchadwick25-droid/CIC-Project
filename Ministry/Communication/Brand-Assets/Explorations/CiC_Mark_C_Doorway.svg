@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Exploration C - "A doorway, not a home": the door standing ajar, warm light
+       through the opening, the leaf in madder. V0.1 - 2026-07-18. -->
+  <rect width="32" height="32" rx="7" fill="#F7F3EB"/>
+  <rect x="11.2" y="7.2" width="9.6" height="20.3" fill="#F5E3BE"/>
+  <path d="M10 27.5V6h12v21.5" fill="none" stroke="#2A2521" stroke-width="2.4" stroke-linecap="round"/>
+  <g fill="none" stroke="#A13E2B" stroke-width="2.4" stroke-linecap="round">
+    <path d="M22 6l5.5 3"/>
+    <path d="M27.5 9v19"/>
+  </g>
+</svg>

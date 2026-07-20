@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Transparent variant for dark/leather grounds (map & tour dark register).
+       V0.1 - 2026-07-18. Strokes lifted per the design system's dark tokens. -->
+  <g fill="none" stroke-linecap="round" stroke-width="2.8">
+    <g stroke="#EDE5D6">
+      <path d="M3.5 13h12"/>
+      <path d="M6 13v12"/>
+      <path d="M13.5 13v12"/>
+    </g>
+    <g stroke="#CB6E52">
+      <path d="M27 8v17"/>
+      <path d="M27 17h-6"/>
+      <path d="M21.5 17v8"/>
+    </g>
+  </g>
+</svg>

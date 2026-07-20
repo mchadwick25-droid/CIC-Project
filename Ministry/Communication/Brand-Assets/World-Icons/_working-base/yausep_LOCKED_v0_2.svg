@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
+  <!-- CiC world icon (V0.1 DRAFT, 2026-07-18) - Mar Yausep, covenant-teacher (malpana of the qyama),
+       SYRIAC CHRISTIANITY (Edessa-Nisibis). ERA 2 (sits on the Era-2 ground #EDDEB9 light / #221A0E dark;
+       the figure style is the same round-dome family template as Era 1). Supersedes the old pre-template
+       V0.6 (old viewBox/teal bust). Verified against the world's own construction docs.
+       ROLE (DOCUMENTED): a covenant-teacher being formed toward the Ihidaya (the "Single One") - explicitly
+       NOT a bishop ("never a bishop's standing conferred by the laying on of hands") and NOT a desert monk
+       (town-resident bnay qyama). So: no mitre, no episcopal insignia, no desert cowl, no cross.
+       OBJECT (DOCUMENTED, identity-constitutive): the ONE harmonized Gospel (Diatessaron / Ewangeliyon
+       da-Mhallete) - "the Gospel given you whole, one story rather than four kept apart... undivided." Drawn
+       as a single closed Gospel book. CAVEAT: the record is SILENT on its physical form (codex vs scroll) -
+       the emblem asserts "the one Gospel," NOT a binding. Rejected as unattested: lyre/instrument, cross,
+       Rabbula-style illumination (586 CE, out of window), vow-token; and NO anti-Jewish/supersessionist motif.
+       APPEARANCE = SILENT (garments, the old "girdle", beard, hair, complexion all absent from the record).
+       Kept emblematic, INFERENCE flagged: muted-terracotta mantle, dark hair + dark beard (a younger
+       town-teacher, vs Papnoute's grey desert beard), Levantine olive skin (#B58A5A - Option 3, Mark; deeper
+       than Theon's Alexandrian tone, not as weathered as Papnoute's desert). World manifest
+       colour is amber (#eab06b) - garment tint provisional pending role-pigment/era-tint. NOT LOCKED. -->
+  <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#9C6350" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#B58A5A" stroke="#2A2521" stroke-width="2"/>
+  <path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>
+  <ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M56.5 76 q3.5 1 7 0" fill="none" stroke="#2A2521" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M46 69 Q44 98 60 114 Q76 98 74 69 Q68 82 60 81 Q52 82 46 69 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="52" y="119" width="20" height="27" rx="1.5" fill="#E8DCBF" stroke="#2A2521" stroke-width="1.3"/>
+  <rect x="49" y="116" width="20" height="27" rx="2" fill="#6E4A2E" stroke="#2A2521" stroke-width="1.8"/>
+  <path d="M53 117 v25" stroke="#3A2718" stroke-width="1.3" stroke-linecap="round"/>
+  <rect x="56" y="121" width="9" height="17" rx="1" fill="none" stroke="#2A2521" stroke-width="0.9" stroke-opacity="0.45"/>
+</svg>

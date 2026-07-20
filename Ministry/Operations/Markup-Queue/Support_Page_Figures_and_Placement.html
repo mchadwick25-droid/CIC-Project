@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Markup — Support Page: dollar figures + About placement</title>
+<style>
+  :root { --parchment:#F7F3EB; --vellum:#FEFCF8; --ink:#2A2521; --madder:#A13E2B; --gold:#B45309; --rule:rgba(42,37,33,0.16); --muted:#6B6259; --green:#1E6B3A; }
+  @media (prefers-color-scheme: dark) { :root { --parchment:#17130F; --vellum:#1E1913; --ink:#F1E9DD; --rule:rgba(241,233,221,0.16); --muted:#B8AEA1; --green:#7CC79A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--parchment); color:var(--ink); font-family: Georgia, 'Iowan Old Style', serif; line-height:1.6; }
+  .wrap { max-width: 54rem; margin:0 auto; padding: 1.5rem 1.3rem 6rem; }
+  .topbar { position: sticky; top:0; z-index:10; background:var(--vellum); border-bottom:2px solid var(--madder); padding: .9rem 1.3rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.6rem; font-family:'Trebuchet MS',sans-serif; }
+  .topbar h1 { font-size:1rem; margin:0; font-family: Georgia, serif; }
+  .btn { font-family:'Trebuchet MS',sans-serif; font-weight:600; font-size:.85rem; padding:.55rem 1.1rem; border-radius:5px; border:1.5px solid var(--madder); background:var(--madder); color:#fff; cursor:pointer; }
+  .btn:hover { background:var(--gold); border-color:var(--gold); }
+  #status { font-family:'Trebuchet MS',sans-serif; font-size:.78rem; color:var(--muted); }
+  #status.saved { color: var(--green); font-weight:600; }
+  .intro, .warn { border-radius:0 8px 8px 0; padding:1rem 1.3rem; margin: 1.2rem 0; font-family:'Trebuchet MS',sans-serif; font-size:.9rem; }
+  .intro { background:var(--vellum); border:1px solid var(--rule); border-left:3px solid var(--gold); }
+  .warn { background:rgba(161,62,43,0.08); border:1px solid var(--rule); border-left:3px solid var(--madder); }
+  .block { background:var(--vellum); border:1px solid var(--rule); border-radius:8px; padding:1.1rem 1.3rem; margin-bottom:1.2rem; }
+  .block h2 { margin:0 0 .5rem; font-size:1.02rem; color:var(--madder); }
+  .context { font-size:.92rem; color:var(--muted); margin-bottom:.7rem; }
+  .field label { display:block; font-family:'Trebuchet MS',sans-serif; font-size:.8rem; font-weight:700; margin-bottom:.3rem; }
+  input[type=text], textarea { width:100%; font-family:'Trebuchet MS',sans-serif; font-size:.9rem; padding:.5rem .6rem; border:1px solid var(--rule); border-radius:5px; background:var(--parchment); color:var(--ink); margin-bottom:.8rem; }
+  textarea { min-height:2.2rem; resize:vertical; }
+  .choices { display:flex; flex-direction:column; gap:.5rem; font-family:'Trebuchet MS',sans-serif; font-size:.88rem; }
+  .choices label { display:flex; align-items:flex-start; gap:.5rem; cursor:pointer; }
+  .final-block { background:var(--vellum); border:2px solid var(--madder); border-radius:8px; padding:1.2rem 1.3rem; margin-top:1.5rem; }
+  .final-block label { font-family:'Trebuchet MS',sans-serif; font-weight:700; display:flex; gap:.5rem; align-items:flex-start; }
+  .final-block textarea { margin-top:.8rem; min-height:5rem; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div><h1>Support Page — dollar figures + About/story placement</h1></div>
+  <div style="display:flex; gap:.7rem; align-items:center;">
+    <span id="status">not yet saved</span>
+    <button class="btn" onclick="doSave()">💾 Save my markup</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="warn">
+    <strong>Found while sweeping the docs, not previously on your board:</strong> there are actually
+    <strong>two</strong> support/give page drafts right now — the simple one I built on
+    <code>cic-website/support.html</code>, and a much fuller one the funding thread already built,
+    <code>Ministry/Funding/CiC_Support_Page_WhereWeAre_WhatWeNeed_V0_1_DRAFT.html</code>, which has the
+    three-tier "Now: The First Centuries / Next: The Reformation / Horizon: twenty centuries" flywheel
+    structure the brand kit recommends. <strong>My read: the funding thread's version is the better one</strong> —
+    once you confirm the figures below, I'll fold its content into the live website and retire the
+    simpler draft. Flag if you'd rather keep them separate for a reason I'm not seeing.
+  </div>
+
+  <div class="block">
+    <h2>1. The three dollar figures — all marked "figure being finalized"</h2>
+    <div class="context">Per the Kit's own rule: numbers get checked with you before anything goes public.</div>
+    <div class="field">
+      <label>Scholar-review sponsorship (currently drafted as "≈ $2,500 sponsors the scholar who checks a movement")</label>
+      <input type="text" id="fig1" placeholder="Confirm $2,500, or enter your own figure">
+    </div>
+    <div class="field">
+      <label>Per-seeker running cost (currently drafted as "≈ $1 / month keeps one seeker at the Table")</label>
+      <input type="text" id="fig2" placeholder="Confirm $1/month, or enter your own figure">
+    </div>
+    <div class="field">
+      <label>Operating figure (currently no number at all — just "Operating figures being finalized")</label>
+      <input type="text" id="fig3" placeholder="A real number, a range, or 'leave general for now'">
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>2. Where does the About/story content live?</h2>
+    <div class="context">Flagged twice in the funding log as still your call, never resolved. Right now I built it as a separate page (<code>cic-website/about.html</code>) from the Support/Give page — this question asks whether that split is right.</div>
+    <div class="choices">
+      <label><input type="radio" name="placement" value="separate" checked> Keep separate — About/mission/convictions on their own page, Support page stays focused on the ask (what I already built).</label>
+      <label><input type="radio" name="placement" value="same"> Combine them — one page carries both the story and the ask.</label>
+      <label><input type="radio" name="placement" value="other"> Something else — I'll say what below.</label>
+    </div>
+    <textarea id="placement-note" placeholder="Optional note or 'something else' explanation…"></textarea>
+  </div>
+
+  <div class="block">
+    <h2>3. The review-pipeline plan — offered, not yet built</h2>
+    <div class="context">The funding thread flagged this as "the bigger strategic build your own insight demands" — a real plan for scholars, cost/time per world, and how review throughput paces the catalog and the eventual charging switch. It's sitting there offered, waiting on your go-ahead.</div>
+    <div class="choices">
+      <label><input type="checkbox" id="build-pipeline"> Yes — build the review-pipeline plan now.</label>
+      <label><input type="checkbox" id="hold-pipeline"> Not yet — hold for later.</label>
+    </div>
+  </div>
+
+  <div class="final-block">
+    <label><input type="checkbox" id="ready"> I've filled in the figures and made the placement call above.</label>
+    <textarea id="overall-comment" placeholder="Any overall note — optional…"></textarea>
+  </div>
+</div>
+
+<script>
+function buildMarkupText() {
+  const v = id => document.getElementById(id).value.trim() || '(not filled in)';
+  let out = `# Mark's Markup — Support Page Figures & About Placement\n\nSaved: ${new Date().toISOString()}\n\n`;
+  out += `## Dollar figures\n`;
+  out += `1. Scholar-review sponsorship: ${v('fig1')}\n`;
+  out += `2. Per-seeker running cost: ${v('fig2')}\n`;
+  out += `3. Operating figure: ${v('fig3')}\n\n`;
+  const placement = document.querySelector('input[name="placement"]:checked').value;
+  out += `## About/story placement\n- Choice: **${placement}**\n`;
+  const pnote = document.getElementById('placement-note').value.trim();
+  if (pnote) out += `- Note: ${pnote}\n`;
+  out += `\n## Review-pipeline plan\n`;
+  out += `- Build now: ${document.getElementById('build-pipeline').checked ? 'YES' : 'no'}\n`;
+  out += `- Hold for later: ${document.getElementById('hold-pipeline').checked ? 'YES' : 'no'}\n\n`;
+  out += `## Overall\n- Ready: ${document.getElementById('ready').checked ? 'YES' : 'NOT YET'}\n`;
+  const overall = document.getElementById('overall-comment').value.trim();
+  if (overall) out += `- Comment: ${overall}\n`;
+  return out;
+}
+async function doSave() {
+  const content = buildMarkupText();
+  const filename = 'Support_Page_MARKUP_' + new Date().toISOString().slice(0,10) + '.md';
+  const status = document.getElementById('status');
+  try {
+    if ('showSaveFilePicker' in window) {
+      const handle = await window.showSaveFilePicker({ suggestedName: filename, types: [{ description: 'Markdown', accept: { 'text/markdown': ['.md'] } }] });
+      const writable = await handle.createWritable();
+      await writable.write(content);
+      await writable.close();
+      status.textContent = 'saved ✓ — tell Claude when ready';
+      status.classList.add('saved');
+      return;
+    }
+  } catch (e) { if (e.name === 'AbortError') return; }
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  status.textContent = 'downloaded ✓ — tell Claude when ready';
+  status.classList.add('saved');
+}
+</script>
+</body>
+</html>

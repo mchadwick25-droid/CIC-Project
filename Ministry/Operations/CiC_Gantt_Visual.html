@@ -1,0 +1,466 @@
+<title>CiC Schedule — Acceleration Ledger</title>
+<style>
+  :root {
+    --paper: #F3EFE3;
+    --paper-raised: #FBF8F0;
+    --ink: #23201A;
+    --ink-soft: #55503F;
+    --muted: #8A8371;
+    --rule: #DED5BE;
+    --rule-strong: #C9BC9C;
+    --accent: #1F3864;
+    --accent-soft: #E4E8F0;
+    --gold: #92651A;
+    --gold-soft: #F3E7CC;
+    --gate: #7A2E2E;
+    --done: #3D6B4C;
+    --card-shadow: 0 1px 2px rgba(35,32,26,.06), 0 4px 14px rgba(35,32,26,.05);
+
+    --cat-a: #2F6A8C;
+    --cat-b: #3F7A44;
+    --cat-c: #A15A1A;
+    --cat-d: #6B4C8A;
+    --cat-e: #9B3B3B;
+    --cat-f: #2E5C8A;
+    --cat-g: #96741C;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #17161A;
+      --paper-raised: #201F24;
+      --ink: #EDE8DA;
+      --ink-soft: #C7C0AC;
+      --muted: #8B8672;
+      --rule: #38352C;
+      --rule-strong: #4A4636;
+      --accent: #8FA8D4;
+      --accent-soft: #232C3D;
+      --gold: #D8B25C;
+      --gold-soft: #362C18;
+      --gate: #D98787;
+      --done: #7CC79A;
+      --card-shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 18px rgba(0,0,0,.35);
+
+      --cat-a: #6FA6C9;
+      --cat-b: #7CBF83;
+      --cat-c: #D9924F;
+      --cat-d: #B294D6;
+      --cat-e: #D97C7C;
+      --cat-f: #7FA5D6;
+      --cat-g: #D9B75A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #17161A; --paper-raised: #201F24; --ink: #EDE8DA; --ink-soft: #C7C0AC;
+    --muted: #8B8672; --rule: #38352C; --rule-strong: #4A4636; --accent: #8FA8D4;
+    --accent-soft: #232C3D; --gold: #D8B25C; --gold-soft: #362C18; --gate: #D98787; --done: #7CC79A;
+    --card-shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 18px rgba(0,0,0,.35);
+    --cat-a: #6FA6C9; --cat-b: #7CBF83; --cat-c: #D9924F; --cat-d: #B294D6;
+    --cat-e: #D97C7C; --cat-f: #7FA5D6; --cat-g: #D9B75A;
+  }
+  :root[data-theme="light"] {
+    --paper: #F3EFE3; --paper-raised: #FBF8F0; --ink: #23201A; --ink-soft: #55503F;
+    --muted: #8A8371; --rule: #DED5BE; --rule-strong: #C9BC9C; --accent: #1F3864;
+    --accent-soft: #E4E8F0; --gold: #92651A; --gold-soft: #F3E7CC; --gate: #7A2E2E; --done: #3D6B4C;
+    --card-shadow: 0 1px 2px rgba(35,32,26,.06), 0 4px 14px rgba(35,32,26,.05);
+    --cat-a: #2F6A8C; --cat-b: #3F7A44; --cat-c: #A15A1A; --cat-d: #6B4C8A;
+    --cat-e: #9B3B3B; --cat-f: #2E5C8A; --cat-g: #96741C;
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  h1, h2, h3 { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif; font-weight: 600; text-wrap: balance; }
+
+  .wrap { max-width: 74rem; margin: 0 auto; padding: 2rem 1.4rem 4rem; }
+
+  header.page { border-bottom: 2px solid var(--accent); padding-bottom: 1rem; margin-bottom: 1.3rem; }
+  header.page .eyebrow { font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: .3rem; }
+  header.page h1 { font-size: 1.55rem; margin: 0 0 .3rem; color: var(--ink); }
+  header.page .sub { font-size: .86rem; color: var(--muted); max-width: 46rem; line-height: 1.5; }
+
+  .callout {
+    background: var(--gold-soft);
+    border: 1px solid var(--gold);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.6rem;
+    box-shadow: var(--card-shadow);
+  }
+  .callout h2 { font-size: 1rem; margin: 0 0 .5rem; color: var(--ink); }
+  .callout p { font-size: .87rem; line-height: 1.55; margin: 0 0 .5rem; color: var(--ink-soft); }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout .chain { font-family: Georgia, serif; font-size: .92rem; color: var(--ink); display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; margin: .6rem 0; }
+  .callout .chain .step { background: var(--paper-raised); border: 1px solid var(--rule-strong); border-radius: 3px; padding: .2rem .55rem; }
+  .callout .chain .arrow { color: var(--gold); font-weight: 700; }
+  .callout .fixnote { font-size: .8rem; color: var(--muted); border-top: 1px dashed var(--rule-strong); padding-top: .5rem; margin-top: .6rem; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: .74rem; color: var(--ink-soft); margin-bottom: 1rem; align-items: center; }
+  .legend .swatch { display: inline-flex; align-items: center; gap: .35rem; }
+  .legend .dot { width: .62rem; height: .62rem; border-radius: 2px; display: inline-block; }
+  .legend .gate-mark { width: .5rem; height: .5rem; background: var(--gate); transform: rotate(45deg); display: inline-block; }
+
+  .board {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+  }
+
+  .axis {
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    border-bottom: 1px solid var(--rule-strong);
+    position: sticky;
+    top: 0;
+    background: var(--paper-raised);
+    z-index: 5;
+  }
+  .axis .axis-label { padding: .55rem .8rem; font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; border-right: 1px solid var(--rule); }
+  .axis .axis-track { position: relative; height: 1.9rem; }
+  .axis .month { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--rule); font-size: .68rem; color: var(--muted); padding: .55rem 0 0 .4rem; white-space: nowrap; }
+
+  .cat { border-bottom: 1px solid var(--rule); }
+  .cat:last-child { border-bottom: none; }
+  .cat-head { display: grid; grid-template-columns: 17rem 1fr; background: var(--accent-soft); }
+  .cat-head .cat-name { padding: .4rem .8rem; font-size: .78rem; font-weight: 700; color: var(--ink); border-right: 1px solid var(--rule); display: flex; align-items: center; gap: .5rem; }
+  .cat-head .cat-name .catdot { width: .68rem; height: .68rem; border-radius: 2px; flex: none; }
+  .cat-head .cat-track { position: relative; }
+
+  .row { display: grid; grid-template-columns: 17rem 1fr; border-top: 1px solid var(--rule); }
+  .row:hover { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }
+  .row .rlabel { padding: .38rem .8rem .38rem 1.1rem; font-size: .78rem; color: var(--ink-soft); border-right: 1px solid var(--rule); display: flex; align-items: baseline; gap: .4rem; overflow: hidden; }
+  .row .rlabel .rid { font-size: .66rem; color: var(--muted); flex: none; }
+  .row .rlabel .rname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row .rtrack { position: relative; height: 1.85rem; }
+
+  .gridline { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--rule); }
+
+  .bar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: .95rem;
+    border-radius: 3px;
+    cursor: default;
+    min-width: 3px;
+  }
+  .bar.pending { background: var(--paper); border: 1.4px solid var(--muted); }
+  .bar.partial { background: linear-gradient(90deg, var(--cat-fill, var(--accent)) var(--fillpct, 50%), var(--paper) 0); border: 1.4px solid var(--cat-fill, var(--accent)); }
+  .bar.done { background: var(--done); border: 1.4px solid var(--done); }
+  .bar.highlight { outline: 2px solid var(--gold); outline-offset: 1px; box-shadow: 0 0 0 3px var(--gold-soft); }
+
+  .milestone {
+    position: absolute; top: 50%; width: .68rem; height: .68rem;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--gate); border-radius: 1px;
+  }
+  .milestone.highlight { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .tip {
+    position: absolute; z-index: 20; background: var(--ink); color: var(--paper);
+    font-size: .74rem; line-height: 1.45; padding: .5rem .65rem; border-radius: 4px;
+    max-width: 22rem; box-shadow: 0 6px 20px rgba(0,0,0,.35); pointer-events: none;
+    opacity: 0; transition: opacity .1s ease;
+  }
+  .tip.show { opacity: 1; }
+  .tip b { color: var(--gold); }
+  .tip .deprow { margin-top: .3rem; color: #D8D3C2; }
+
+  svg.chain-overlay { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
+  svg.chain-overlay path { fill: none; stroke: var(--gold); stroke-width: 1.6; opacity: .85; }
+  svg.chain-overlay marker path { fill: var(--gold); }
+
+  footer.note { margin-top: 1.4rem; font-size: .78rem; color: var(--muted); line-height: 1.6; }
+  footer.note code { background: var(--accent-soft); padding: .05rem .3rem; border-radius: 3px; font-size: .78rem; }
+
+  @media (max-width: 720px) {
+    .axis, .cat-head, .row { grid-template-columns: 9.5rem 1fr; }
+    .row .rlabel { padding-left: .6rem; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="page">
+    <div class="eyebrow">Church in Conversation · Acceleration Jul–Dec 2026</div>
+    <h1>Schedule Ledger — a browser view of the Gantt</h1>
+    <div class="sub">GanttProject isn't installed on this machine, so here's the same schedule rendered directly — every task, every dependency, drawn from <code>CiC_Acceleration_Gantt_2026.gan</code> as of the 2026-07-17 dependency audit. Hover any bar for its dates and links.</div>
+  </header>
+
+  <div class="callout">
+    <h2>What changed today</h2>
+    <p>Role selection must land in the app before the guided-question screen ships — a participant can't be served role-tailored questions through a selector that doesn't exist yet. That dependency was missing from the schedule; it's fixed now, along with two real bugs the audit turned up along the way.</p>
+    <div class="chain">
+      <span class="step">Increment 1 — budget compliance</span>
+      <span class="arrow">→</span>
+      <span class="step">Increment 2 / RM-10 — role selection</span>
+      <span class="arrow">→</span>
+      <span class="step">Increment 3 / #402 — question serving</span>
+      <span class="arrow">→</span>
+      <span class="step">Increment 4 — World Map merge</span>
+    </div>
+    <p class="fixnote">Also fixed: RM-10 previously had no predecessor at all (now correctly waits on RM-8's Battery A); TR-7 was wired to the wrong successor (was gating Tours, now correctly gates the World Map handoff). The gold-outlined bars below trace this corrected chain.</p>
+  </div>
+
+  <div class="legend">
+    <span class="swatch"><span class="dot" style="background:var(--cat-a)"></span>A — Prototypes &amp; Users</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-b)"></span>B — World Building</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-c)"></span>C — Validation</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-d)"></span>D — Platform &amp; Engineering</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-e)"></span>E — Funding</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-f)"></span>F — Nonprofit &amp; Board</span>
+    <span class="swatch"><span class="dot" style="background:var(--cat-g)"></span>G — Growth &amp; Comms</span>
+    <span class="swatch"><span class="gate-mark"></span>Gate / milestone</span>
+    <span class="swatch"><span class="dot" style="background:var(--done)"></span>Done</span>
+    <span class="swatch"><span style="display:inline-block;width:.62rem;height:.62rem;border-radius:2px;outline:2px solid var(--gold);outline-offset:1px;"></span>2026-07-17 corrected chain</span>
+  </div>
+
+  <div class="board" id="board"></div>
+
+  <footer class="note">
+    Full detail and open items live in <code>CiC_Task_Board_2026.md</code>; source schedule is <code>CiC_Acceleration_Gantt_2026.gan</code> (openable in free GanttProject software at ganttproject.biz, if you ever want the editable version). This page is a read view — edits still happen through Claude, same as always.
+  </footer>
+</div>
+
+<script>
+(function () {
+  var CATS = [
+    { id: 'A', name: 'A — Prototypes &amp; Users', color: 'var(--cat-a)' },
+    { id: 'B', name: 'B — World Building', color: 'var(--cat-b)' },
+    { id: 'C', name: 'C — Validation (Article 31)', color: 'var(--cat-c)' },
+    { id: 'D', name: 'D — Platform &amp; Engineering', color: 'var(--cat-d)' },
+    { id: 'E', name: 'E — Funding', color: 'var(--cat-e)' },
+    { id: 'F', name: 'F — Nonprofit Entity &amp; Board', color: 'var(--cat-f)' },
+    { id: 'G', name: 'G — Ministry Growth &amp; Communication', color: 'var(--cat-g)' }
+  ];
+
+  // id, name, start, dur(days), complete(%), cat, milestone?, succ[ids], highlight?
+  var T = [
+    [101,'Bedrock integration + AWS Budget Action (Jonathan)','2026-07-17',5,0,'A',0,[102]],
+    [102,'Prototype 1 runs (15-25 testers)','2026-07-27',11,0,'A',0,[103]],
+    [103,'P1 analysis: actuals, quotes, story','2026-08-11',3,0,'A',0,[104,403,501,701,702,703]],
+    [104,'P2 cohort (~100 users)','2026-09-15',34,0,'A',0,[105]],
+    [105,'Early Access ramp 300→500','2026-11-03',34,0,'A',0,[106]],
+    [106,'GATE: Lane A confirmed — 500 users','2026-12-18',0,0,'A',1,[]],
+
+    [201,'Guided starter question sets (4 worlds)','2026-08-03',9,75,'B',0,[402]],
+    [202,'Ancient world 5: build+battery+deploy','2026-08-03',6,0,'B',0,[203]],
+    [203,'Ancient world 6','2026-08-11',6,0,'B',0,[204]],
+    [204,'Ancient world 7','2026-08-19',6,0,'B',0,[205]],
+    [205,'Ancient world 8','2026-08-27',6,0,'B',0,[206]],
+    [206,'Ancient world 9','2026-09-04',6,0,'B',0,[207,208]],
+    [207,'MILESTONE: 9 ancient worlds complete','2026-09-11',0,0,'B',1,[]],
+    [208,'Reformation selection + LT confirmations','2026-09-14',8,0,'B',0,[209]],
+    [209,'Reformation world 1','2026-09-24',6,0,'B',0,[210]],
+    [210,'Reformation world 2','2026-10-02',6,0,'B',0,[211]],
+    [211,'Reformation world 3','2026-10-12',6,0,'B',0,[212]],
+    [212,'Reformation world 4','2026-10-20',6,0,'B',0,[213]],
+    [213,'Reformation world 5','2026-10-28',6,0,'B',0,[214,308]],
+    [214,'Reformation world 6','2026-11-05',6,0,'B',0,[215]],
+    [215,'Reformation world 7','2026-11-13',6,0,'B',0,[216]],
+    [216,'MILESTONE: all 16 worlds built','2026-11-20',0,0,'B',1,[217]],
+    [217,'Build freeze + final upgrade pass','2026-12-01',4,0,'B',0,[]],
+    [218,'Weekly quality-upgrade batches (ongoing)','2026-08-03',99,0,'B',0,[]],
+
+    [301,'Reviewer brief (one page)','2026-07-17',2,75,'C',0,[302,303,306]],
+    [302,'TEDS professor outreach','2026-07-21',25,0,'C',0,[304]],
+    [303,'Second reviewer outreach','2026-08-17',12,0,'C',0,[304]],
+    [304,'GATE: two reviewers engaged','2026-09-02',0,0,'C',1,[305]],
+    [305,'Round 1 holistic review (9 worlds)','2026-09-07',34,0,'C',0,[307,708]],
+    [306,'Reformation-era reviewer engaged','2026-10-01',11,0,'C',0,[308]],
+    [307,'Round 1 revisions applied','2026-10-26',10,0,'C',0,[]],
+    [308,'Round 2 review','2026-11-09',25,0,'C',0,[309]],
+    [309,'Launch honesty language finalized','2026-12-14',3,0,'C',0,[407]],
+
+    [401,'Session caps + AWS spend backstop (Jonathan)','2026-07-17',2,0,'D',0,[]],
+    [460,'Increment 1: front-end budget compliance','2026-08-17',5,0,'D',0,[427,451],1],
+    [402,'Increment 3 / #402: question serving shipped in UI','2026-08-26',5,0,'D',0,[104,463],1],
+    [463,'Increment 4: World Map Tier A merge','2026-09-02',5,0,'D',0,[429,452],1],
+    [403,'Engagement One: 500-user infra','2026-09-21',20,0,'D',0,[105,404,406]],
+    [404,'Engagement Two: pre-public audit','2026-11-16',18,0,'D',0,[407]],
+    [406,'Audit + minor-caution mechanisms','2026-11-02',29,0,'D',0,[407]],
+    [407,'GATE: Lane B public flip go/no-go','2026-12-15',0,0,'D',1,[]],
+    [420,'RM-1..6: Representative Modes design+build','2026-07-16',1,100,'D',0,[]],
+    [424,'RM-7: Mark reviews demo artifact','2026-07-18',1,0,'D',0,[425]],
+    [425,'RM-8: Validation — Battery A','2026-07-21',2,0,'D',0,[426,427],1],
+    [426,'RM-9: Validation — Batteries B–D','2026-07-23',3,0,'D',0,[]],
+    [427,'RM-10 / Incr. 2: role selection + Modes merge','2026-08-24',2,0,'D',0,[402,428,429,451],1],
+    [428,'RM-11: onboarding copy — role selection','2026-08-26',1,0,'D',0,[]],
+    [429,'RM-12: role=/worlds=/mode= URL reconciliation','2026-09-08',1,0,'D',0,[]],
+    [430,'RM-13: Tier B — role-default transparency','2026-09-01',1,0,'D',0,[]],
+    [431,'RM-14: Tier C — closing-resources register','2026-09-01',1,0,'D',0,[]],
+    [432,'RM-15: Tier D — role-aware safety (not scoped)','2026-09-01',1,0,'D',0,[]],
+    [439,'TR-1..3: Tour strategy + Chloe demo','2026-07-16',1,100,'D',0,[]],
+    [440,'TR-confirm: voice-only + evidentiary-absence','2026-07-18',1,0,'D',0,[446]],
+    [441,'TR-4: Tour Manifest Template','2026-07-18',2,0,'D',0,[444,445,446,448,449]],
+    [442,'TR-5: Eligibility Gate checklist','2026-07-18',2,0,'D',0,[]],
+    [443,'TR-6: Asset-sourcing sub-pipeline','2026-07-18',3,0,'D',0,[447]],
+    [450,'TR-8: recording pipeline reusable','2026-07-18',1,0,'D',0,[]],
+    [444,'TR-7: templated tour renderer','2026-07-20',3,0,'D',0,[452],1],
+    [445,'TR-9: scene-narration validation probe','2026-07-20',2,0,'D',0,[]],
+    [446,'TR-10: Chloe → reviewed Tour Manifest','2026-07-21',3,0,'D',0,[]],
+    [447,'TR-11: Syriac manifest (syrstory009)','2026-07-24',4,0,'D',0,[448]],
+    [448,'TR-12: Desert manifest (desertstory008)','2026-07-28',3,0,'D',0,[449]],
+    [449,'TR-13: Bethlehem Circle manifest','2026-07-31',3,0,'D',0,[]],
+    [451,'TR-14: cic-poc tour integration','2026-08-27',10,0,'D',0,[452],1],
+    [452,'TR-15: World Map "Take a tour" handoff','2026-09-09',3,0,'D',0,[],1],
+
+    [510,'Church-designated fund agreed','2026-07-17',5,0,'E',0,[501]],
+    [501,'Ring 1 ask: refreshed Letter, 15–20 names','2026-08-17',12,0,'E',0,[502]],
+    [502,'GATE: $7,500 raised (Sept 1)','2026-09-02',0,0,'E',1,[403]],
+    [503,'World sponsorship asks ($3,500 × 3–5)','2026-09-07',40,0,'E',0,[504]],
+    [504,'GATE: ~$25,000 cumulative (Nov 1)','2026-11-02',0,0,'E',1,[404]],
+    [505,'Paying pilots: 3–5 churches/classrooms','2026-10-05',35,0,'E',0,[]],
+    [506,'NCF / DAF year-end asks','2026-11-16',20,0,'E',0,[]],
+    [507,'Public year-end appeal (post-CCSA)','2026-12-01',22,0,'E',0,[]],
+
+    [601,'Praxis interest form','2026-07-17',1,0,'F',0,[]],
+    [602,'Entity prep: articles, bylaws, covenant','2026-08-03',25,40,'F',0,[603]],
+    [603,'File CO articles of incorporation','2026-09-14',4,0,'F',0,[604,606,607,608,506,709]],
+    [604,'1023-EZ filed','2026-09-21',8,0,'F',0,[609]],
+    [609,'IRS determination (typical wait)','2026-10-01',40,0,'F',0,[611]],
+    [611,'TechSoup / AWS nonprofit credits','2026-11-30',8,0,'F',0,[]],
+    [605,'Board recruitment: 3 independents','2026-08-17',60,0,'F',0,[608,610]],
+    [606,'CCSA charitable solicitation registration','2026-10-19',20,0,'F',0,[612,507]],
+    [607,'Bank account + bookkeeping setup','2026-10-05',8,0,'F',0,[]],
+    [610,'D and O insurance quote + bind','2026-11-09',8,0,'F',0,[]],
+    [608,'First board meeting','2026-11-16',3,0,'F',0,[612,613]],
+    [613,'MILESTONE: stipend trigger policy','2026-11-19',0,0,'F',1,[]],
+    [612,'GATE: nonprofit fully established','2026-12-01',0,0,'F',1,[]],
+
+    [701,'Packet V0.2 — presentable business plan','2026-08-11',8,0,'G',0,[503,505,706,707]],
+    [702,'Letter to Friends + FAQ refresh','2026-08-11',4,0,'G',0,[501,704]],
+    [703,'Demo polish: 20-min guided Table','2026-09-01',8,0,'G',0,[503,706,707]],
+    [704,'Landing page + interest list live','2026-08-24',8,0,'G',0,[]],
+    [705,'Acadia Divinity peer call','2026-08-17',5,0,'G',0,[]],
+    [706,'Wheaton conversation','2026-10-05',20,0,'G',0,[708]],
+    [707,'Tom Beck: demonstration-first note','2026-10-12',10,0,'G',0,[]],
+    [708,'Lilly-wave positioning','2026-12-01',14,0,'G',0,[]],
+    [709,'Praxis application prep','2026-12-14',12,0,'G',0,[]]
+  ].map(function (r) {
+    return { id: r[0], name: r[1], start: r[2], dur: r[3], complete: r[4], cat: r[5], milestone: !!r[6], succ: r[7], hl: !!r[8] };
+  });
+
+  var byId = {};
+  T.forEach(function (t) { byId[t.id] = t; t.pred = []; });
+  T.forEach(function (t) { t.succ.forEach(function (sid) { if (byId[sid]) byId[sid].pred.push(t.id); }); });
+
+  var RANGE_START = new Date('2026-07-16T00:00:00');
+  var RANGE_END = new Date('2027-01-02T00:00:00');
+  var TOTAL_MS = RANGE_END - RANGE_START;
+
+  function pct(dateObj) { return ((dateObj - RANGE_START) / TOTAL_MS) * 100; }
+  function addDays(dateStr, n) {
+    var d = new Date(dateStr + 'T00:00:00');
+    d.setDate(d.getDate() + n);
+    return d;
+  }
+
+  var board = document.getElementById('board');
+
+  // axis
+  var axis = document.createElement('div');
+  axis.className = 'axis';
+  axis.innerHTML = '<div class="axis-label">Task</div><div class="axis-track" id="axisTrack"></div>';
+  board.appendChild(axis);
+  var axisTrack = axis.querySelector('#axisTrack');
+  var months = ['2026-07-16','2026-08-01','2026-09-01','2026-10-01','2026-11-01','2026-12-01','2027-01-01'];
+  var monthNames = ['Jul','Aug','Sep','Oct','Nov','Dec',''];
+  months.forEach(function (m, i) {
+    var d = new Date(m + 'T00:00:00');
+    var el = document.createElement('div');
+    el.className = 'month';
+    el.style.left = pct(d) + '%';
+    el.textContent = monthNames[i];
+    if (monthNames[i]) axisTrack.appendChild(el);
+  });
+
+  var tip = document.createElement('div');
+  tip.className = 'tip';
+  document.body.appendChild(tip);
+
+  function showTip(e, t) {
+    var s = new Date(t.start + 'T00:00:00');
+    var end = addDays(t.start, t.dur);
+    var fmt = function (d) { return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
+    var html = '<b>#' + t.id + '</b> ' + t.name + '<br>' +
+      (t.milestone ? fmt(s) : fmt(s) + ' → ' + fmt(end) + ' (' + t.dur + 'd' + (t.complete ? ', ' + t.complete + '% done' : '') + ')');
+    if (t.pred.length) html += '<div class="deprow">Waits on: ' + t.pred.map(function (p) { return '#' + p; }).join(', ') + '</div>';
+    if (t.succ.length) html += '<div class="deprow">Unlocks: ' + t.succ.map(function (p) { return '#' + p; }).join(', ') + '</div>';
+    tip.innerHTML = html;
+    tip.classList.add('show');
+    positionTip(e);
+  }
+  function positionTip(e) {
+    var pad = 14;
+    var x = e.clientX + pad, y = e.clientY + pad;
+    var maxX = window.innerWidth - 360, maxY = window.innerHeight - 120;
+    if (x > maxX) x = e.clientX - 340;
+    if (y > maxY) y = e.clientY - 100;
+    tip.style.left = (x + window.scrollX) + 'px';
+    tip.style.top = (y + window.scrollY) + 'px';
+  }
+  function hideTip() { tip.classList.remove('show'); }
+
+  CATS.forEach(function (cat) {
+    var wrap = document.createElement('div');
+    wrap.className = 'cat';
+
+    var head = document.createElement('div');
+    head.className = 'cat-head';
+    head.innerHTML = '<div class="cat-name"><span class="catdot" style="background:' + cat.color + '"></span>' + cat.name + '</div><div class="cat-track"></div>';
+    wrap.appendChild(head);
+
+    T.filter(function (t) { return t.cat === cat.id; }).forEach(function (t) {
+      var row = document.createElement('div');
+      row.className = 'row';
+      var label = document.createElement('div');
+      label.className = 'rlabel';
+      label.innerHTML = '<span class="rid">#' + t.id + '</span><span class="rname">' + t.name + '</span>';
+      row.appendChild(label);
+
+      var track = document.createElement('div');
+      track.className = 'rtrack';
+
+      [0, 25, 50, 75, 100].forEach(function () {});
+      var s = new Date(t.start + 'T00:00:00');
+      var left = pct(s);
+
+      if (t.milestone) {
+        var m = document.createElement('div');
+        m.className = 'milestone' + (t.hl ? ' highlight' : '');
+        m.style.left = left + '%';
+        m.style.background = 'var(--gate)';
+        m.addEventListener('mousemove', function (e) { showTip(e, t); });
+        m.addEventListener('mouseleave', hideTip);
+        track.appendChild(m);
+      } else {
+        var end = addDays(t.start, t.dur);
+        var width = Math.max(pct(end) - left, 0.35);
+        var bar = document.createElement('div');
+        var cls = t.complete >= 100 ? 'done' : (t.complete > 0 ? 'partial' : 'pending');
+        bar.className = 'bar ' + cls + (t.hl ? ' highlight' : '');
+        bar.style.left = left + '%';
+        bar.style.width = width + '%';
+        bar.style.setProperty('--cat-fill', cat.color);
+        if (t.complete > 0 && t.complete < 100) bar.style.setProperty('--fillpct', t.complete + '%');
+        bar.addEventListener('mousemove', function (e) { showTip(e, t); });
+        bar.addEventListener('mouseleave', hideTip);
+        track.appendChild(bar);
+      }
+      row.appendChild(track);
+      wrap.appendChild(row);
+    });
+
+    board.appendChild(wrap);
+  });
+})();
+</script>
