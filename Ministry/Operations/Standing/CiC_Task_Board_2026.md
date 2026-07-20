@@ -222,7 +222,15 @@ compliance script) handed to a new disciplined successor thread —
       thread found and reconciled mid-migration, not overwritten. Full
       account: decision log, 2026-07-20 (execution entry).
 - [ ] **101/401 (revised) — Stand up direct-API hosting, session caps, spending limit
-      (Jonathan / System Hub).** ⚠ **No longer delayed — active now.** Bedrock dropped
+      (Jonathan / System Hub).** ⚠ **HELD 2026-07-20 (Mark's direction) — hosting waits
+      on the UX design thread.** Mark: work with UX design first on editing the site's
+      content and confirming every built feature is actually represented, before
+      standing up either deploy (the marketing site or the app itself). Costs nothing to
+      wait — neither is hosted yet regardless (confirmed 2026-07-20: no deploy config
+      anywhere in the repo for either `cic-website/` or `cic-poc/`), so there's no live
+      thing being held back, just sequencing which comes first. Not delayed for lack of
+      readiness the way it was pre-2026-07-19 — deliberately sequenced behind content
+      work now. ~~No longer delayed — active now.~~ Bedrock dropped
       2026-07-19 (`CiC_System_Hub_Decision_Log.md`): host `cic-poc` directly with
       `ANTHROPIC_API_KEY` on a Render/Fly.io-class platform (not Cloudflare Pages —
       static-only), set an Anthropic Console spending limit as the budget-control
