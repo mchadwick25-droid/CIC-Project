@@ -354,6 +354,20 @@ footer.site-footer nav a { display: inline-block; padding: 0.5rem 0.1rem; }
 }
 
 @media (max-width: 640px) {
-  nav.site-nav { gap: 1rem; font-size: 0.85rem; }
+  /* Six nav links plus the wordmark don't fit a phone width no matter how far
+     gap/font shrink - previously this silently pushed the whole page wider
+     than the viewport (site-wide horizontal scroll on every page). The nav
+     row itself scrolls instead, contained to the header. */
+  .site-header .wrap { flex-wrap: nowrap; }
+  .brand { flex-shrink: 0; }
+  nav.site-nav {
+    gap: 1rem;
+    font-size: 0.85rem;
+    min-width: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  nav.site-nav::-webkit-scrollbar { display: none; }
   .brand .wordmark { font-size: 1.05rem; }
 }
