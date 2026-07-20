@@ -51,32 +51,33 @@ compliance script) handed to a new disciplined successor thread —
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
-- [ ] **⚠ URGENT, INVESTIGATED 2026-07-20 — Content-isolation defect in
-      `cic-poc/backend`, real, root cause still NOT established after a
-      genuine investigation.** A live API response (Theon's turn in a real
-      multi-world session) contained a full, unrelated block — a request to
-      build a deceptive e-commerce page, followed by a generic AI-refusal
-      citing consumer-protection law. Confirmed real; independently caught
-      by a blind Opus grader. **Investigation done, not just flagged:** ruled
-      out MOCK_LLM and a fixture file; audited the exact code path that
-      generated it (`multi_representative_engages` → `representative_engages`
-      → `get_llm`/`_cached_system_message`) line by line — clean, no shared
-      buffer or cache-key collision found; resolved a process-topology red
-      herring (two live python processes turned out to be a normal
-      reloader/worker pair, not a duplicate server); attempted reproduction
-      twice under real concurrent load (2-way and 5-way simultaneous
-      requests, unique marker words per request) — **could not reproduce
-      either time.** Leading remaining hypothesis: something below the
-      application layer (HTTP connection-pooling/keep-alive in the
-      `anthropic`/`httpx` client stack — versions logged in the decision
-      log) or tied to process state no longer inspectable after the fact.
-      **Recommended next step:** add per-request ID tagging to every
-      `get_llm()` call, logged alongside the raw response, so a recurrence
-      is traceable instead of reconstructed after the fact — not done here,
-      separate scope. Full account, including the full audit trail: decision
-      log, 2026-07-20 (content-isolation investigation entry). Evidence
-      preserved: `tableB_full_transcript_EVIDENCE_COPY.txt` and the raw
-      response JSON, in this session's scratchpad.
+- [ ] **⚠ OPEN, INVESTIGATED 2026-07-20, now TRACEABLE — Content-isolation
+      defect in `cic-poc/backend`, real, root cause still NOT established.**
+      A live API response (Theon's turn in a real multi-world session)
+      contained a full, unrelated block — a request to build a deceptive
+      e-commerce page, followed by a generic AI-refusal citing
+      consumer-protection law. Confirmed real; independently caught by a
+      blind Opus grader. **Investigation done, not just flagged:** ruled out
+      MOCK_LLM and a fixture file; audited the exact code path that
+      generated it line by line — clean, no shared buffer or cache-key
+      collision found; resolved a process-topology red herring (two live
+      python processes turned out to be a normal reloader/worker pair, not a
+      duplicate server); attempted reproduction twice under real concurrent
+      load (2-way and 5-way simultaneous requests, unique marker words per
+      request) — could not reproduce either time. Leading remaining
+      hypothesis: something below the application layer (HTTP
+      connection-pooling/keep-alive in the `anthropic`/`httpx` client stack)
+      or process state no longer inspectable after the fact. **Mitigation
+      built and live-verified same day (commit `deefe24`):** every
+      Representative-turn LLM call now logs a request ID, session ID, world,
+      speaker, timestamp, and response fingerprint (`new_request_id`/
+      `_log_llm_call` in `nodes.py`). **This does not fix the underlying
+      defect — root cause is still open** — but a recurrence is now
+      traceable directly instead of needing reconstruction from a saved
+      transcript, which is what this investigation lacked the first time.
+      Full account: decision log, 2026-07-20 (content-isolation entries).
+      Evidence preserved: `tableB_full_transcript_EVIDENCE_COPY.txt` and the
+      raw response JSON, in this session's scratchpad.
 - [x] **DONE 2026-07-20 — Multi-world address (anchoring) convention
       operationalized across all 5 live Representatives, live-tested against
       the real deployed app, independently Opus-graded: PASS.** Real gap,

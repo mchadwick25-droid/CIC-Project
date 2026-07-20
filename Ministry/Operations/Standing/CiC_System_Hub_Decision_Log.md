@@ -2728,3 +2728,22 @@ if rare, cross-request leak.
 cause not established, reproduction attempted and failed. Left open on
 the Task Board with this full account rather than closed on either an
 unfounded guess or false reassurance.
+
+**Follow-up, same day: the recommended next step built and verified.**
+Added `new_request_id()` and `_log_llm_call()` to
+`cic-poc/backend/app/graph/nodes.py`, threaded as an optional
+`request_id` parameter through `representative_engages`,
+`multi_representative_engages`, and `stream_representative_turn`, minted
+once per incoming HTTP request in both `main.py` endpoints
+(`/message` and `/message/stream`). Logs one line per completed
+Representative turn -- request ID, session ID, world, speaker, timestamp,
+response length, head/tail text fingerprint -- cheap enough to leave on
+by default (one `print` line, no new storage or service). Purely
+observational; never touches generation. Verified live, not just
+compiled: started the real backend, sent a real message, confirmed the
+trace line renders correctly with every field populated
+(`[llm_trace] req=1ef85063 session=f51... world=post-apostolic-house-church
+speaker=chloe t=... len=1335 head='...' tail='...'`). Committed `deefe24`.
+This doesn't fix the underlying defect -- it makes a recurrence traceable
+instead of having to be reconstructed from a saved transcript after the
+fact, which is exactly what this investigation lacked the first time.
