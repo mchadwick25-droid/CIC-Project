@@ -2796,3 +2796,54 @@ already written). Points to the recovered spec rather than duplicating
 it; adds current-state grounding, the coordination boundary against other
 active workstreams, and the merge-timing flag above. Committed `26f3f4d`.
 Task Board and this entry both updated same pass.
+
+---
+
+### 2026-07-20 (later) -- Increment 1 build reviewed, merged, verified;
+### mobile follow-up dispatched
+
+The build thread finished same day. Reviewed its own Decision Log entry
+before trusting it, then verified independently rather than taking the
+report on faith:
+
+- **Confirmed the branch and commits were real, not just described:**
+  `git log claude/increment1-build-brand-floor` matched all six SHAs the
+  report cited exactly; `git diff --stat main claude/increment1-build-
+  brand-floor` showed a genuinely substantive change (19 files, ~860/565
+  lines, real rasterized favicon assets present on disk, two real new
+  components).
+- **Recommendation given on both open items, both accepted by Mark:**
+  merge now rather than wait for post-PT1 (no live pilot exists yet to
+  protect -- hosting isn't stood up -- and Mark's own "P1 launches with
+  the full feature set" decision points toward testers seeing the
+  finished brand from day one, not a version already known to be
+  replaced); the phone Level-2/Level-3 tap-grammar gap becomes its own
+  small follow-up thread rather than blocking this merge, since it's a
+  pre-existing, non-regressing gap and the real fix is genuinely new
+  interaction code outside this increment's container-only scope.
+- **Merged `claude/increment1-build-brand-floor` into `main`**
+  (`80a156c`, `--no-ff` to keep the six-commit history visible rather
+  than squashing it). Checked `git status` first, confirmed the only
+  uncommitted changes in the tree belonged to other active threads
+  (Atlas World Map, Imperial-Juridical) touching entirely different
+  files -- zero collision risk, clean merge, no conflicts.
+- **Verified the merged result, not just the merge command's exit
+  code:** `npm install`, `tsc --noEmit` (zero type errors), and a real
+  `vite build` (succeeded, all font assets bundled, real output) all run
+  against the actual merged tree post-merge. Backend integration (real
+  LLM streaming, session caps, transcript logging, auth) still not
+  exercised -- that's Mark's standard hosted smoke test, to run once
+  there's a real deployment, unchanged from the build thread's own note.
+- **Cleaned up after merging:** the branch was fully merged with no
+  unique commits remaining, so removed its worktree
+  (`.claude/worktrees/increment1-build-brand-floor`, force-removed since
+  its only untracked content was the same `.claude/` nested-worktree
+  debris pattern already characterized in the filing audit, not real
+  work) and deleted the now-fully-merged local branch.
+- **Dispatched the mobile Level-2 popover fix as its own thread** -- see
+  `Ministry/Features/Level2-Mobile-Popover/` -- rather than reopening
+  Increment 1's own scope.
+
+**Status:** Increment 1 is in `main`. Not deployed anywhere yet (no
+hosting stood up); Mark's own hosted smoke test still gates any real
+participant seeing it.

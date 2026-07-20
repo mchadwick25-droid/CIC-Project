@@ -243,18 +243,26 @@ compliance script) handed to a new disciplined successor thread —
       off-limits for Claude to do on your behalf (standing constraint) — this is the
       actual next concrete step inside #101/401's "deploy-and-configure."
 
-- [ ] **DISPATCHED 2026-07-20 — Build Increment 1** (table bar consolidation, Level-3
-      modal→panel/sheet, Single/Multiple toggle retirement, the full token/typeface
-      swap into `table.css`, plus the long-form-transcript restyle and two other
-      pieces found when the implementation-ready spec was recovered). Launch prompt:
-      `Ministry/Features/Increment-1-Build/Launch-Prompts/
-      CiC_Increment1_Build_Thread_Launch_2026-07-20.md`. The referenced build handoff
-      spec (`CiC_Build_Handoff_Increment1_V1_0.md`) existed only in the orphan
-      file-loss snapshot — recovered same day, verified still accurate against the
-      current frontend before dispatch. One open question handed to the build
-      thread to flag back rather than resolve itself: does this merge before or
-      after Prototype Testing 1, given Mark's later "P1 launches with the full
-      feature set" decision postdates the spec's original post-PT1 sequencing.
+- [x] **DONE 2026-07-20 — Increment 1 built, reviewed, merged into `main`
+      (`80a156c`).** Six commits (brand tokens/Alegreya/long-form transcript,
+      table bar, Level-3 modal→panel/sheet, toggle retirement, favicon/logo,
+      breakpoint pass) — verified real (branch/commits/diff checked directly,
+      not taken on the build thread's word) and verified working
+      (`tsc --noEmit` clean, real `vite build` succeeds). Merge-timing question
+      resolved: merge now, not post-PT1 — no live pilot exists yet to protect,
+      and it fits Mark's own "P1 launches with the full feature set" decision.
+      Branch/worktree cleaned up post-merge. Not deployed anywhere — Mark's
+      standard hosted smoke test still gates real participants seeing it.
+      Full account: decision log, 2026-07-20 (later entry).
+- [ ] **NEW 2026-07-20 — Mobile Level-2→Level-3 popover fix.** Found, not
+      fixed, during the Increment 1 build: on phone, tapping a lexicon term or
+      citation marker skips straight to the full Level-3 panel instead of the
+      spec'd preview-then-"Full entry →" step — pre-existing, not a regression,
+      not broken, just short of the spec'd grammar. Genuinely new interaction
+      code (`LexiconHighlight.tsx`, `CitationMarker.tsx`), not a container
+      change, so kept out of Increment 1's own scope. Launch prompt:
+      `Ministry/Features/Level2-Mobile-Popover/Launch-Prompts/
+      CiC_Level2_Mobile_Popover_Thread_Launch_2026-07-20.md`.
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
       (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door
