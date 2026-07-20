@@ -4,144 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atlas — Church in Conversation</title>
-<meta name="description" content="An orientation map of the Church's story across ten eras, and the five living worlds you can sit down with today.">
+<meta name="description" content="An interactive orientation map of the Church's whole story across ten eras and the five living worlds you can sit down with today.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <style>
-  /* Atlas page — ten-era ribbon (orientation only) + five live-world cards (click-to-explore).
-     Era ground values are the Mark-approved canonical palette from
-     Ministry/Communication/Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md §7. */
-
-  .era-ribbon {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 2px;
-    margin: 1.6rem 0 0.6rem;
-    border-radius: 6px;
-    overflow: hidden;
+  /* Atlas page — the full interactive World Orientation Map, embedded. The map
+     is its own self-contained document (own fonts/canvas/zoom-and-pan
+     interaction), so it's framed rather than inlined: keeps the site's own
+     styles from bleeding into a carefully-tuned artifact, and keeps this page
+     upgradeable independently of the site shell around it. */
+  .map-frame-wrap {
+    margin: 1.4rem 0 0;
     border: 1px solid var(--rule);
-  }
-  .era-seg {
-    padding: 0.6rem 0.3rem;
-    text-align: center;
-    font-family: 'Alegreya Sans', sans-serif;
-    color: var(--iron-gall);
-  }
-  .era-seg .num { display:block; font-size: 0.72rem; font-weight: 700; opacity: .8; }
-  .era-seg .yrs { display:block; font-size: 0.6rem; opacity: .65; margin-top:.1rem; }
-  .era-seg.is-live { position: relative; }
-  .era-seg.is-live .num::after { content: " ●"; color: var(--madder); }
-  .era-legend {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 0.8rem;
-    color: var(--muted);
-    margin: 0.5rem 0 0;
-  }
-  .era-legend .dot { color: var(--madder); }
-
-  .world-atlas { margin-top: 1.6rem; display: flex; flex-direction: column; gap: 1rem; }
-
-  details.world-card {
-    border: 1px solid var(--rule);
-    border-left: 6px solid var(--world-accent, var(--madder));
-    border-radius: 0 8px 8px 0;
-    background: var(--card-bg, var(--vellum));
+    border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 4px 18px rgba(42,37,33,.08);
   }
-  details.world-card summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 1.1rem 1.3rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  .map-frame-wrap iframe {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    min-height: 560px;
+    border: 0;
   }
-  details.world-card summary::-webkit-details-marker { display: none; }
-  details.world-card summary .icon { width: 46px; height: 46px; flex: 0 0 auto; }
-  details.world-card summary .icon img { width: 100%; height: 100%; display: block; }
-  details.world-card summary .head { flex: 1 1 auto; min-width: 0; }
-  details.world-card summary .name {
-    font-weight: 700;
-    font-size: 1.15rem;
-    margin: 0 0 0.15rem;
-  }
-  details.world-card summary .meta {
+  .map-fallback {
     font-family: 'Alegreya Sans', sans-serif;
-    font-size: 0.78rem;
+    font-size: .85rem;
     color: var(--muted);
-  }
-  details.world-card summary .era-tag {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 0.68rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: var(--world-accent, var(--madder));
-    border: 1px solid var(--world-accent, var(--madder));
-    border-radius: 999px;
-    padding: 0.2rem 0.6rem;
-    white-space: nowrap;
-    flex: 0 0 auto;
-  }
-  details.world-card summary .toggle {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 1.3rem;
-    color: var(--world-accent, var(--madder));
-    flex: 0 0 auto;
-    width: 1.4rem;
-    text-align: center;
-  }
-  details.world-card summary .toggle::before { content: "+"; }
-  details.world-card[open] summary .toggle::before { content: "\2212"; }
-
-  details.world-card .card-body {
-    padding: 0 1.3rem 1.3rem 1.3rem;
-  }
-  details.world-card .summary-text {
-    margin: 0 0 0.9rem;
-    padding-top: 0.2rem;
-    border-top: 1px solid var(--rule);
-    padding-top: 0.9rem;
-  }
-  details.world-card .detail-text {
-    color: var(--muted);
-    margin: 0;
-    font-size: 0.98rem;
-  }
-  details.world-card .rep-line {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 0.82rem;
-    color: var(--muted);
-    margin-top: 0.8rem;
-    font-style: italic;
-  }
-  details.world-card .fact-row {
-    display: flex;
-    gap: 0.5rem;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 0.82rem;
-    margin-top: 0.6rem;
-  }
-  details.world-card .fact-row .fact-label {
-    flex: 0 0 5.5rem;
-    font-weight: 700;
-    color: var(--world-accent, var(--madder));
-  }
-  details.world-card .fact-row .fact-value { color: var(--muted); }
-
-  @media (max-width: 640px) {
-    .era-ribbon { grid-template-columns: repeat(5, 1fr); grid-auto-rows: 1fr; }
-    .era-seg .yrs { display: none; }
-    details.world-card summary { flex-wrap: wrap; }
-    details.world-card summary .era-tag { order: 3; }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .era-ribbon { border-color: var(--rule); }
-    .era-seg { color: #F1E9DD; }
+    margin: .7rem 0 0;
   }
 </style>
 </head>
@@ -173,169 +66,17 @@
   <section class="hero" style="padding-bottom:1rem;">
     <p class="eyebrow">Atlas</p>
     <h1>Ten eras of the Church's story. Five you can sit down with today.</h1>
-    <p class="lede">This is an orientation map — a plain look at where Church in Conversation sits inside the Church's whole span, and which worlds are actually built and live right now. Tap any world below to read more.</p>
-  </section>
-
-  <section class="page-section" id="ten-eras">
-    <p class="eyebrow">The Whole Span</p>
-    <h2>The ten eras of the Church's story</h2>
-    <p>Church in Conversation frames the Church's history in ten eras, from the first gatherings after the apostles to the present day. Only the first two eras have a built, live chapter so far — <strong>Church in Conversation: The First Centuries</strong>. Every later era is planned, each its own careful, review-gated build.</p>
-    <div class="era-ribbon" role="img" aria-label="Ten eras of Church history, Era I (70 CE) through Era X (present). Eras I and II are live; the rest are planned.">
-      <div class="era-seg is-live" style="background:#EFDDB3;" title="The Early Church Era, 70–312 CE — live">
-        <span class="num">I</span><span class="yrs">70–312</span>
-      </div>
-      <div class="era-seg is-live" style="background:#EDDEB9;" title="The Imperial Church Era, 312–451 CE — live">
-        <span class="num">II</span><span class="yrs">312–451</span>
-      </div>
-      <div class="era-seg" style="background:#EBDFC0;" title="The Age of Monks and Empires, 451–622 CE — planned">
-        <span class="num">III</span><span class="yrs">451–622</span>
-      </div>
-      <div class="era-seg" style="background:#E9E0C6;" title="The Early Medieval Era, 622–1054 CE — planned">
-        <span class="num">IV</span><span class="yrs">622–1054</span>
-      </div>
-      <div class="era-seg" style="background:#E7E1CC;" title="The High Medieval Era, 1054–1300 CE — planned">
-        <span class="num">V</span><span class="yrs">1054–1300</span>
-      </div>
-      <div class="era-seg" style="background:#E6E3D3;" title="The Late Medieval Era, 1300–1517 CE — planned">
-        <span class="num">VI</span><span class="yrs">1300–1517</span>
-      </div>
-      <div class="era-seg" style="background:#E4E4D9;" title="The Reformation Era, 1517–1650 CE — planned">
-        <span class="num">VII</span><span class="yrs">1517–1650</span>
-      </div>
-      <div class="era-seg" style="background:#E2E5DF;" title="The Enlightenment &amp; Awakening Era, 1650–1815 CE — planned">
-        <span class="num">VIII</span><span class="yrs">1650–1815</span>
-      </div>
-      <div class="era-seg" style="background:#E0E6E6;" title="The Missionary Era, 1815–1906 CE — planned">
-        <span class="num">IX</span><span class="yrs">1815–1906</span>
-      </div>
-      <div class="era-seg" style="background:#DEE7EC;" title="The Global Church Era, 1906–present — planned">
-        <span class="num">X</span><span class="yrs">1906–</span>
-      </div>
+    <p class="lede">Scroll, zoom, hover, and click your way across two thousand years — every era honestly labeled, whether it's live, chosen-but-not-yet-built, or real history not yet assessed. This is the actual orientation map, not a summary of it.</p>
+    <div class="map-frame-wrap">
+      <iframe src="world-map.html" title="The World Orientation and Selection Map — interactive"></iframe>
     </div>
-    <p class="era-legend"><span class="dot">●</span> marks an era with a live, built chapter today (Eras I &amp; II). The rest are on the roadmap, not yet built.</p>
-  </section>
-
-  <section class="page-section" id="live-worlds">
-    <p class="eyebrow">Live Today</p>
-    <h2>The five worlds you can sit down with right now</h2>
-    <p>Each of these is a reconstructed community from the Church's first four centuries, built through a review-gated scholarly process — sourced from that world's own letters, sermons, sayings, and disputes. Tap a world to read more about what it can and can't speak to.</p>
-
-    <div class="world-atlas">
-
-      <details class="world-card" style="--world-accent:#7c3aed; --card-bg:#EFDDB3;">
-        <summary>
-          <span class="icon" aria-hidden="true">
-            <img src="assets/world-icons/house-churches.svg" alt="" width="46" height="46" loading="lazy">
-          </span>
-          <span class="head">
-            <span class="name">The House-Churches</span>
-            <span class="meta">70&ndash;200 CE &middot; Antioch, Asia Minor &amp; Rome</span>
-          </span>
-          <span class="era-tag">Era I</span>
-          <span class="toggle" aria-hidden="true"></span>
-        </summary>
-        <div class="card-body">
-          <p class="summary-text">The scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means &mdash; shaped by the words of Ignatius, Polycarp, Justin Martyr, and Hermas.</p>
-          <p class="detail-text">Richest in the shared life of an ordinary early gathering &mdash; the room, the reading, the meal, the collection carried out that week. Thinner on any single person's own interior journey, since almost nothing survives in one voice apart from what the whole community held in common.</p>
-          <p class="rep-line">Represented at the Table by Chloe, host of the assembly &mdash; one whose door opens for the gathering and who carries this people's whole life, from Antioch to Rome.</p>
-          <p class="fact-row"><span class="fact-label">Sources</span><span class="fact-value">The letters of Ignatius of Antioch, Polycarp's letter to the Philippians, Justin Martyr's First Apology, and the Shepherd of Hermas.</span></p>
-          <p class="fact-row"><span class="fact-label">Tour</span><span class="fact-value">A guided-tour demo exists and is the strongest of the five &mdash; still pre-launch, not yet in the live app.</span></p>
-        </div>
-      </details>
-
-      <details class="world-card" style="--world-accent:#0f766e; --card-bg:#EFDDB3;">
-        <summary>
-          <span class="icon" aria-hidden="true">
-            <img src="assets/world-icons/desert.svg" alt="" width="46" height="46" loading="lazy">
-          </span>
-          <span class="head">
-            <span class="name">Desert Fathers and Mothers</span>
-            <span class="meta">c. 320&ndash;430 CE &middot; Nile Valley &amp; Desert, Egypt</span>
-          </span>
-          <span class="era-tag">Era I</span>
-          <span class="toggle" aria-hidden="true"></span>
-        </summary>
-        <div class="card-body">
-          <p class="summary-text">Communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within &mdash; some alone in solitary cells tested by elders one at a time, others gathered under Pachomius into a shared rule they called koinonia. They never agreed which pattern was truer.</p>
-          <p class="detail-text">Shaped by the example of Antony, the sayings of Amma Sarah, and the rule of Pachomius. The smallest body of surviving material of any world here, concentrated almost entirely on the inner combat with one's own thoughts &mdash; real depth on struggle and discernment, but only a handful of stories told in full, and it says so plainly rather than inventing more.</p>
-          <p class="rep-line">Represented at the Table by Papnoute, an elder of the desert &mdash; formed by withdrawal and the long combat against the thoughts that trouble a person from within.</p>
-          <p class="fact-row"><span class="fact-label">Sources</span><span class="fact-value">Athanasius's Life of Antony, the Sayings of the Desert Fathers (Apophthegmata Patrum), and the Rule of Pachomius.</span></p>
-          <p class="fact-row"><span class="fact-label">Tour</span><span class="fact-value">Planned, not yet built &mdash; this world's own record has no worship-service tour to draw on, so any tour will be partial by nature.</span></p>
-        </div>
-      </details>
-
-      <details class="world-card" style="--world-accent:#2B5F8A; --card-bg:#EDDEB9;">
-        <summary>
-          <span class="icon" aria-hidden="true">
-            <img src="assets/world-icons/alexandria.svg" alt="" width="46" height="46" loading="lazy">
-          </span>
-          <span class="head">
-            <span class="name">Alexandrian Christianity</span>
-            <span class="meta">c. 150&ndash;400 CE &middot; Alexandria, Egypt</span>
-          </span>
-          <span class="era-tag">Era I&ndash;II</span>
-          <span class="toggle" aria-hidden="true"></span>
-        </summary>
-        <div class="card-body">
-          <p class="summary-text">A community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth, and that a knowing which leaves the knower unaltered is no knowing at all.</p>
-          <p class="detail-text">Formed by the didaskaleion tradition of Clement and Origen, tested by rival wisdom, persecution, and the Nicene settling of who the Son is. Richest in the theology and practice of accompanied catechetical reading &mdash; thinner on the ordinary household, women's voices, and how most of the city's Christians were actually formed, since the surviving record concentrates on the teacher's own room.</p>
-          <p class="rep-line">Represented at the Table by Theon, a catechetical teacher &mdash; a didaskalos who reads Scripture beside a seeker until the seeker's own eye opens onto the depth the Word has placed there.</p>
-          <p class="fact-row"><span class="fact-label">Sources</span><span class="fact-value">Clement of Alexandria's Stromateis and Origen's On First Principles and homilies.</span></p>
-          <p class="fact-row"><span class="fact-label">Tour</span><span class="fact-value">Planned, not yet assessed &mdash; this world joined after the initial tour-feasibility review.</span></p>
-        </div>
-      </details>
-
-      <details class="world-card" style="--world-accent:#b45309; --card-bg:#EDDEB9;">
-        <summary>
-          <span class="icon" aria-hidden="true">
-            <img src="assets/world-icons/syriac.svg" alt="" width="46" height="46" loading="lazy">
-          </span>
-          <span class="head">
-            <span class="name">Syriac Christianity</span>
-            <span class="meta">200&ndash;410 CE &middot; Edessa &amp; Nisibis</span>
-          </span>
-          <span class="era-tag">Era II</span>
-          <span class="toggle" aria-hidden="true"></span>
-        </summary>
-        <div class="card-body">
-          <p class="summary-text">A community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture. Their bishops were martyred, their see stood empty for decades, yet their teaching endured.</p>
-          <p class="detail-text">Carried in the hymns of Ephrem, the demonstrations of Aphrahat, and the witness of Jacob of Nisibis. Richest in the formal vocabulary, institutions, and disputes of a demanding covenant tradition &mdash; thinner on the everyday, personal texture of an ordinary member's life, since what survives is mostly doctrinal and institutional rather than personal.</p>
-          <p class="rep-line">Represented at the Table by Mar Yausep, a teacher of the covenant order &mdash; formed within the community that reads Scripture by raza, the hidden truth bound within the old stories, and keeps the qyama vow.</p>
-          <p class="fact-row"><span class="fact-label">Sources</span><span class="fact-value">Ephrem the Syrian's hymns, Aphrahat's Demonstrations, and the witness of Jacob of Nisibis.</span></p>
-          <p class="fact-row"><span class="fact-label">Tour</span><span class="fact-value">Planned, qualified yes &mdash; needs a pronunciation pass on the Syriac terms before it's ready.</span></p>
-        </div>
-      </details>
-
-      <details class="world-card" style="--world-accent:#9d174d; --card-bg:#EDDEB9;">
-        <summary>
-          <span class="icon" aria-hidden="true">
-            <img src="assets/world-icons/bethlehem.svg" alt="" width="46" height="46" loading="lazy">
-          </span>
-          <span class="head">
-            <span class="name">The Bethlehem Circle</span>
-            <span class="meta">c. 382&ndash;420 CE &middot; Rome &amp; Bethlehem</span>
-          </span>
-          <span class="era-tag">Era II</span>
-          <span class="toggle" aria-hidden="true"></span>
-        </summary>
-        <div class="card-body">
-          <p class="summary-text">A circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in, holding together through earned trust rather than any office &mdash; even when that conviction cost them dearly among their own.</p>
-          <p class="detail-text">Shaped by the example of Jerome, Paula, Marcella, and Eustochium. The richest surviving written record of any world here &mdash; though much of it channels through one extraordinarily prolific author's own hand rather than a broad chorus of independent voices.</p>
-          <p class="rep-line">Represented at the Table by Albina, a widow of the household &mdash; formed by renunciation and the scholarly labor of testing Scripture's Latin words against the Hebrew they were first given in.</p>
-          <p class="fact-row"><span class="fact-label">Sources</span><span class="fact-value">Jerome's letters and prefaces to his Vulgate translation, and the letters of Paula and Eustochium.</span></p>
-          <p class="fact-row"><span class="fact-label">Tour</span><span class="fact-value">Planned, partial &mdash; no liturgical tour available in the record; would be produced last of the five.</span></p>
-        </div>
-      </details>
-
-    </div>
-
-    <p style="font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);margin-top:1.6rem;">Era assignments above are approximate groupings for orientation, not a claim about exact boundaries &mdash; several of these worlds' own dates run right across an era line.</p>
+    <p class="map-fallback">Small screen, or the embedded view not loading? <a href="world-map.html">Open the map on its own page</a>, or <a href="world-atlas-list.html">browse the same content as a filterable list</a>.</p>
   </section>
 
   <section class="page-section" id="coming-next">
     <p class="eyebrow">Coming Next</p>
     <h2>Eras III through X are still ahead</h2>
-    <p>The First Centuries &mdash; Eras I and II &mdash; is where we're starting, not where we're stopping. Each later era of the Church's story gets its own careful, review-gated build before it opens, nothing rushed on top of what's already live. <a href="about.html#how-it-works">Read how the build process works &rarr;</a></p>
+    <p>The First Centuries — Eras I and II — is where we're starting, not where we're stopping. Each later era of the Church's story gets its own careful, review-gated build before it opens, nothing rushed on top of what's already live. <a href="about.html#how-it-works">Read how the build process works &rarr;</a></p>
   </section>
 </main>
 
