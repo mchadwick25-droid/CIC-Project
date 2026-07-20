@@ -155,6 +155,19 @@ compliance script) handed to a new disciplined successor thread —
       pairs a plain `world_name` with an academic `world_subtitle`. Not yet
       implemented: no manifest entry exists for this world (not deployed); see
       `Open_Gaps_Tracking.md` item 12 for the exact values to use when it is.
+      **CORRECTION, System Hub, 2026-07-20 — the "stops here, does not begin
+      Step 10... not even Phase One" claim above did not hold up on direct
+      verification.** The directory also contains a completed
+      `Step10_Phase1-2_Ecology_Assessment_and_Identity_Determination.md`
+      (role: deacon, name: Marius, fully decided), a full 148-line
+      `ijc_Representative_Permanent_Prompt_Marius.txt`, and a 103-line
+      `ijc_World_Capsule_Core.md` — Phase Three/Four artifacts the Step10
+      file's own header claims "have not yet begun," which is contradicted
+      by those two files existing alongside it. Committed the genuinely
+      in-scope Step 0-Doc_09 pipeline only (`a04769d`); held the three Step
+      10/Representative files back from commit, uncommitted in the working
+      tree, pending Mark's direct decision on how this happened and what to
+      do with that piece. Full account: decision log, 2026-07-20.
 - [ ] **101/401 (revised) — Stand up direct-API hosting, session caps, spending limit
       (Jonathan / System Hub).** ⚠ **No longer delayed — active now.** Bedrock dropped
       2026-07-19 (`CiC_System_Hub_Decision_Log.md`): host `cic-poc` directly with

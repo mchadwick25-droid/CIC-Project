@@ -2257,3 +2257,94 @@ the participant happens to phrase the question. Fix 1 is now strong enough
 to hold the fallback line on its own across every naturally-phrased variant
 tested. No further action needed on this item unless a new failure shape is
 found in future live testing.
+
+---
+
+### 2026-07-20 -- Full commit sweep of session-accumulated work, plus one
+### scope finding on the Imperial-Juridical thread
+
+**Context:** Mark confirmed the two other active threads (Imperial and
+Juridical Christianity world-build; CiC UX Design, currently drafting a
+full-system status report and under instruction to hand System Hub a prompt
+rather than make changes itself) are each working in their own lane and
+won't race with a full commit of the tree's accumulated uncommitted work.
+Dispatched 4 parallel verification agents rather than commit blind, given
+~99 changed/new paths spanning several sessions' work.
+
+**Committed in 5 separate, logically-scoped commits** (not one sweep, so a
+bad piece doesn't force reverting the whole thing):
+1. `2b86b8b` -- L1-L4 methodology reconciliation from the `CiC-L1L3-
+   Foundation` branch (Step 2/Source Registry rework, Movement-Scope
+   Principle, citation fixes), including `CiC_Pipeline_Decision_Log.md` for
+   provenance.
+2. `5a63d80` -- the 37-file lexicon-chunk fix and 4-world prompt/capsule
+   sync, plus `lexicon_compliance_checker.py`.
+3. `6bda85c` -- this session's own audit/status-report/handoff/launch-prompt
+   artifacts.
+4. `6dbcef1` -- World #10 install, Alexandria Catechetical School (Theon):
+   manifest entry, deployed data, World-Builds source, both required
+   frontend sync points. Found and fixed one real gap before committing --
+   3 lexicon chunks (participation, theosis, transformation) in the
+   deployed copy were stale against a same-day fix already applied to the
+   World-Builds source, the same drift pattern fixed in 3 other worlds
+   earlier this session.
+5. `a04769d` -- Imperial and Juridical Christianity, Step 0 through Doc_09
+   only (see finding below).
+
+**Finding: Imperial-Juridical world-build shipped beyond its authorized
+stopping point.** Its own launch prompt
+(`CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md`)
+is explicit: stop after Doc_09, do not begin Step 10 (not even Phase One),
+and the Representative's role/name decision "belongs to Mark directly, in
+person, not to this thread." The report I received described the delivery
+as "Step 0 through Doc_09 complete, Cleared review / Approved to proceed"
+-- no mention of anything past that. A verification agent found the
+directory also contains a completed `Step10_Phase1-2_Ecology_Assessment_
+and_Identity_Determination.md` (role: deacon, name: Marius, fully decided),
+a full `ijc_Representative_Permanent_Prompt_Marius.txt` (148 lines), and
+`ijc_World_Capsule_Core.md` (103 lines) -- the exact decision the launch
+prompt reserved for Mark. `Open_Gaps_Tracking.md` attributes this to Mark
+deciding live in the same thread, which if accurate would itself be a
+departure from the launch prompt's explicit "in person, not to this
+thread" instruction.
+
+**Action taken:** committed the authorized Step 0-Doc_09 pipeline output
+only (`a04769d`) -- it independently checked out as genuine, complete,
+non-stub content matching the launch prompt's scope. Deliberately held
+back the three Step 10 / Representative-construction files from the
+commit; they remain in the working tree, uncommitted, pending Mark's
+direct decision on how this happened and whether to keep, discard, or
+redo that piece through the proper channel.
+
+**UX/website-thread batch, committed `81db2d8`:** Full UX Design V1.0 and
+Full UX Storyboard V1.0 (both marked FINAL by Mark), the UX Implementation
+Status report (2026-07-19, complete and self-contained), the Alexandria and
+Website thread launch prompts, the Website thread's own decision log, and
+the two World-Orientation-Map scratch-draft HTML files that fed into the
+real Atlas/World Map already committed via `e292713` -- kept for the
+record, explicitly not treated as current.
+
+**Separate finding, flagged rather than acted on:** the kept DRAFT world-map
+file marks Alexandria/Theon `"status": "Built & Live"`; the already-
+committed live site deliberately marks the same world `"Selected - Not Yet
+Built"`, matching `e292713`'s own caution that Alexandria/Theon "still has
+no actual census entry... needs the same rigorous methodology, not a quick
+add." That caution predates this session's Alexandria commit (`6dbcef1`)
+above, which found the world genuinely complete, live-tested, and now
+deployed in `cic-poc`. The live site's public Atlas/World Map status for
+Alexandria is now stale in the other direction -- it undersells a world
+that is, as of this session, actually built and working -- but this is
+public-facing content and not edited here without Mark's explicit
+go-ahead, consistent with this session's standing practice on the
+"FIVE MOVEMENTS ARE LIVE TODAY" website claim flagged earlier.
+
+**Not yet resolved / carried forward:** the `.claude/worktrees/cool-
+hofstadter-61cab6/` directory (a stray nested git worktree from an earlier
+isolated agent run, containing its own `.git`) is excluded from all
+commits above and needs a cleanup decision, not a commit decision.
+
+**Summary of this sweep: 6 commits** (`2b86b8b`, `5a63d80`, `6bda85c`,
+`6dbcef1`, `a04769d`, `81db2d8`), covering ~370 files, all verified before
+committing rather than swept in with `git add -A`. Two items intentionally
+left open for Mark: the Imperial-Juridical Step 10 scope question above,
+and the public website's now-stale Alexandria status.
