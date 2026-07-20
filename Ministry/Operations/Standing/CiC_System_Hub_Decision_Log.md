@@ -11,6 +11,38 @@ workstream in this project.
 
 ---
 
+## 2026-07-20 (later still) — Website demos pulled from live nav; auto-play tours' eventual fate recorded (not built now)
+
+**Decided (Mark's direction):** the site's "watch a demo" slideshows shouldn't stay up
+as public content. **`cic-website/tour.html`** (the 11-slide product walkthrough,
+including the Hosted Tour teaser added earlier today) is pulled from every page's nav
+and from `index.html`'s dedicated CTA — not deleted, file kept in place with a status
+comment, reachable only by direct URL — since it's going into "a revision and
+integration into a larger tour development process" after Friday 2026-07-24, per the
+same date already on record in `Tour-Experience-Module-Phase2/Decision-Log.md`.
+Committed `65ec373`.
+
+**The World Map's "Watch the flow" auto-play tour (embedded in `world-map.html`, live
+inside `atlas.html`'s iframe) and the standalone Chloe interactive demo — deliberately
+NOT touched.** Both are squarely inside the Atlas/World-Map thread's active,
+in-progress rebuild (Fable usability study + the unmerged Phase 1 branch,
+`worktree-agent-a4e025842dc994f8b`); `Ministry/Features/Atlas-World-Map/Decision-Log.md`
+and the Tour-Experience-Module-Phase2 tracking files all show live, uncommitted edits
+from that thread right now — not safe to touch without colliding.
+
+**Recording the decision here instead, so it isn't lost:** Mark's direction is that
+both eventually become an in-app onboarding walkthrough — built into `cic-poc` itself
+as the real first-run experience for new users (matching tour.html's own "Door 3:
+Guided onboarding" concept), not kept as public marketing demos. **Explicitly
+deferred, not urgent:** "we will impliment at a later date if needed, depends on how
+intuitive the website is" — contingent on whether testing shows one's actually needed,
+not scheduled work. **When it is built:** pacing should be roughly doubled — Mark's own
+read, watching both, is that the current auto-play timing is too slow. Whoever next
+picks up the Atlas rebuild or the Chloe demo should read this entry before deciding
+what to do with either file's current "Watch the flow"-style auto-play mechanism.
+
+---
+
 ## 2026-07-17 — Scope expanded: Gantt/dashboard/task-board upkeep added as a standing responsibility
 
 **Decided (Mark's direction):** this hub now owns keeping
