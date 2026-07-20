@@ -35,7 +35,6 @@ export function TheTable() {
   const [isSignedIn, setIsSignedIn] = useState(!supabaseEnabled);
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
   const [showWorldSelector, setShowWorldSelector] = useState(true);
-  const [multiSelectMode, setMultiSelectMode] = useState(false);
 
   useEffect(() => {
     if (!supabase) return;
@@ -148,16 +147,17 @@ export function TheTable() {
     }
   }, [messages]);
 
-  const handleWorldSelect = async (world: World) => {
-    setSelectedWorlds([world]);
-    setShowWorldSelector(false);
-    await startSession(world.id);
-  };
-
-  const handleMultiWorldSelect = async (worlds: World[]) => {
+  // Mode is emergent from seat count (§4) - one seat is a Deep Interview,
+  // two-three is Compare Worlds; the value already sent to the backend
+  // (world_id vs. world_ids) is unchanged, just no longer chosen up front.
+  const handleBegin = async (worlds: World[]) => {
     setSelectedWorlds(worlds);
     setShowWorldSelector(false);
-    await startMultiWorldSession(worlds.map(w => w.id));
+    if (worlds.length === 1) {
+      await startSession(worlds[0].id);
+    } else {
+      await startMultiWorldSession(worlds.map(w => w.id));
+    }
   };
 
   const handleTermClick = (term: LexiconTerm) => {
@@ -209,26 +209,7 @@ export function TheTable() {
           <p>A space for engaging conversation with voices from Christian history</p>
         </header>
 
-        <div className="table-mode-toggle">
-          <button
-            className={`mode-toggle-button ${!multiSelectMode ? 'mode-toggle-button--active' : ''}`}
-            onClick={() => setMultiSelectMode(false)}
-          >
-            Single Representative
-          </button>
-          <button
-            className={`mode-toggle-button ${multiSelectMode ? 'mode-toggle-button--active' : ''}`}
-            onClick={() => setMultiSelectMode(true)}
-          >
-            Multiple Representatives
-          </button>
-        </div>
-
-        <WorldSelector
-          onSelectWorld={handleWorldSelect}
-          onSelectWorlds={handleMultiWorldSelect}
-          multiSelect={multiSelectMode}
-        />
+        <WorldSelector onBegin={handleBegin} />
       </div>
     );
   }
