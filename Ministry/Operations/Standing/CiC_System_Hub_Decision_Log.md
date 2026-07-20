@@ -2438,3 +2438,78 @@ way.
 longer exists -- every one of its 75 files now lives in a protected
 feature folder, `Ministry/Operations/Audits/`, or alongside its real
 deliverables in `World-Builds/`.
+
+---
+
+### 2026-07-20 -- Folding in a concurrent session's work: two verifications
+### confirmed already-done, checklist adopted as authoritative, no push yet
+
+A separate session ran alongside this reorg today. Handed off five things
+plus a stale push prompt. Treated as context to fold in, not new work --
+checked each item against what this session had already done rather than
+redoing anything blind.
+
+**Item 3 (frame-break fix, original repro) -- confirmed already verified,
+not re-run.** `git log` on `representative_prompts.py` and `nodes.py`
+shows `77fc362` (this session's fix) as the most recent commit touching
+either file -- nothing has changed underneath the earlier test. That
+earlier test (logged above, 2026-07-20 "Mark's correction, real fix, full
+re-verification") already ran the handoff's exact three-message sequence
+("How do your people know what you've told me..." -> "How much of what
+you know comes down through a single voice?" ->
+"Where does documentation end and inference begin for you?") against
+real API calls on House-Church, Desert-Monasticism, and Syriac -- the
+identical repro steps named in
+`Audits/CiC_System_Hub_Handoff_RepresentativeSelfReference_2026-07-19.md`,
+not a paraphrase. Stands as the verification; not repeated.
+
+**Item 2 (Theon nameplate) -- confirmed already verified, not re-run.**
+`git log` on `MessageBubble.tsx` shows `920cc87` (this session's fix) as
+the most recent commit -- nothing since. That fix was verified live
+end-to-end at the time (started both dev servers, real Alexandria
+session, confirmed the reply rendered "Theon / Catechetical Teacher"
+with real citations). Stands as the verification; not repeated.
+
+**Item 5 (feature checklist) -- adopted as the authoritative Program
+feature-status source going forward**, superseding older status claims
+in the Task Board for the same features. Not reconciling the Task Board
+against it line-by-line right now -- the checklist explicitly names
+itself a moving target while Mark works through his live testing pass,
+so reconciling now would mean redoing it again shortly. Checked, not
+edited, per the explicit instruction that this file is actively in use:
+
+- **Surface-tag check against this reorg's own folder boundaries: no
+  conflict found.** The checklist's Surface axis (Website / App / Both /
+  System, tagging where a *finished* feature deploys) and this reorg's
+  `Ministry/Features/<name>/` folders (tagging which *design thread*
+  owns a feature's development) are orthogonal, not competing --
+  confirmed against the hardest case, the Atlas: the checklist already
+  splits it into three separate rows (standalone site = Website; Tier A
+  in-app integration = Both; Tier B scope decision = Both) matching
+  `Features/Atlas-World-Map/Integration-Notes.md`'s own three-part
+  account exactly, not a simplification of it. Backend logic with no
+  frontend render is correctly tagged App, not System, when it feeds an
+  App screen -- consistent with `Features/Backend/`'s own scope.
+- **One thing worth flagging, not editing:** the checklist's Alexandria
+  row ("Implemented... a real conversation run successfully") predates
+  the Theon nameplate bug fix above -- the world was genuinely
+  conversation-tested and working at the API level when that row was
+  written, but the frontend rendering bug (his messages showing as
+  "Facilitator") wasn't caught by that pass, only by this session's
+  separate frontend check. Both are true and don't contradict each
+  other; noting it here in case Mark wants a line added when he reaches
+  that row in his own pass, not changing it unilaterally.
+
+**Push prompt (`Standing/Launch-Prompts/CiC_System_Hub2_Push_Thread_
+Launch_2026-07-20.md`) -- confirmed stale, not acted on.** `git fetch` +
+`git log origin/main..HEAD --oneline` shows **26 commits** ahead of
+`origin/main`, not the 11 that prompt described -- this reorg alone added
+15 more on top of what that prompt saw. Not pushing anything from this
+entry; no push has been requested. Whoever does push should re-run fetch
++ log themselves rather than trusting either now-stale count, including
+this one, by the time they act.
+
+**Nothing edited in the checklist file itself.** Nothing pushed.
+Everything above is confirmation and cross-reference, logged so the two
+verifications don't get asked for a second time and the checklist's
+new precedence is on record.
