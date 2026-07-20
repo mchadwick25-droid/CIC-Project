@@ -49,11 +49,18 @@ another concurrent session's simultaneous, unrelated, uncommitted edits to the s
 `main.py` file — verified afterward that their edits were untouched and the file still
 compiled with both sets of changes present.
 
-**One real correction surfaced while doing this, not yet resolved:** `cic-website/pilot.html`
+**One real correction surfaced while doing this, resolved same day:** `cic-website/pilot.html`
 turned out not to be the dormant leftover it was assumed to be when Mark answered "leave it
 in place, unused" — it's the site's live, only path to requesting access (linked from six
 pages, a mailto "express interest" form gated on Mark's personal follow-up). Flagged back to
-Mark rather than silently changed either way — see the feature decision log for the detail.
+Mark; his answer — *"link to the app and let them experince everything as it will be"* — is
+now built: a primary CTA on `pilot.html` linking straight in (placeholder URL, empty until
+hosting lands), the old form demoted to optional. Committed `9efe0c2`. **One open item this
+surfaced, not resolved:** a separate concurrent session has active, uncommitted work building
+the opposite model — a Supabase-Auth invite/referral system gated on Mark's manual approval —
+in the same `main.py`. Not live today (Supabase stays unconfigured), but the two directions
+conflict once it is; worth Mark's direct attention with that other thread. Full detail:
+`Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20 (later entry).
 
 ---
 

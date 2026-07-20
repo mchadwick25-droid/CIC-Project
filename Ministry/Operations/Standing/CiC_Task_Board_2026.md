@@ -234,10 +234,17 @@ compliance script) handed to a new disciplined successor thread —
       the full dependency-ordered path from here to hosting + Prototype Testing 1.
       ⚠ **Partly superseded 2026-07-20:** Pilot 1's sign-in gate is now deliberately
       dropped (see the DONE entry above) — `session_cap.py` isn't the pilot's real
-      protection anymore, `cic-poc/backend/app/message_cap.py` is. `pilot.html` itself
-      is still live and still the site's only access-request path; whether it should
-      keep gating on Mark's personal follow-up or link straight into the app is now an
-      open question for Mark, not yet decided.
+      protection anymore, `cic-poc/backend/app/message_cap.py` is. `pilot.html` now
+      links straight into the app (`LIVE_APP_URL`, empty until this hosting item
+      lands) instead of gating on Mark's follow-up — so **this item is now the one
+      thing standing between `pilot.html`'s CTA and actually working**, not just a
+      nice-to-have. ⚠ **New risk found alongside this, needs your attention:** a
+      separate concurrent session has active, uncommitted work in the same `main.py`
+      building the opposite model — Supabase-Auth invites gated on your manual
+      per-person approval, plus a referral-code system. Inert today (Supabase stays
+      unconfigured either way), but the two directions conflict once Supabase is
+      configured — worth checking in with that thread directly before it goes
+      further.
 - [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** ⚠ **Supabase half
       no longer needed for Pilot 1 specifically as of 2026-07-20** — the simplified pilot
       runs deliberately without sign-in, so `auth.py`/`SignInScreen.tsx`/the Supabase-backed
@@ -293,11 +300,15 @@ compliance script) handed to a new disciplined successor thread —
       `session_cap.py`'s per-identity cap is a no-op with nobody signed in.
       Committed `6ee48fc` alone via a hand-isolated partial patch, verified
       not to disturb another concurrent session's simultaneous uncommitted
-      edits to the same file. **Open correction, not yet resolved:**
+      edits to the same file. **Correction found and resolved same day:**
       `cic-website/pilot.html` turned out to be the site's live, only access-
       request path (linked from six pages), not the dormant page assumed —
-      see #101/401 and the NEW Supabase item below, both now partly stale in
-      light of this. Full account: this log, 2026-07-20; full reasoning:
+      flagged to Mark, who confirmed: link straight to the app. `pilot.html`
+      now has a primary CTA wired to a `LIVE_APP_URL` placeholder (empty
+      until #101/401 lands), old form demoted to optional. Committed
+      `9efe0c2`. See #101/401 above for a new risk this surfaced (a
+      conflicting concurrent-session build). Full account: this log,
+      2026-07-20; full reasoning:
       `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20.
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
