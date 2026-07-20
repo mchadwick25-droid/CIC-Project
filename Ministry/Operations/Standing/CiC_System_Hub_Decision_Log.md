@@ -31,20 +31,27 @@ for Mark to ask.
 
 ## Thread roster (update every time this hub spawns a new thread)
 
+**Paths in this table updated 2026-07-20** to their post-filing-reorg
+locations where this hub moved the file itself; two entries (Facilitator
+Upgrade, Full UX Design) point at launch docs that the filing audit
+confirmed never actually existed as separate files — flagged in place
+rather than invented.
+
 | Date | Thread | Launch doc | Status |
 |---|---|---|---|
-| 2026-07-16 | World Orientation Map | `Ministry/Technology/CiC_World_Orientation_Map_Thread_Launch_2026-07-16.md` | Active — substantial output already (see `Ministry/Technology/World-Orientation-Map/`) |
-| 2026-07-16 | Tour / Hosted Experience Module | `Ministry/Technology/CiC_Tour_Experience_Module_Thread_Launch_2026-07-16.md` | Active — V0.3 strategy + Chloe demo BUILT (immersive, verified); progress + TR-1..TR-15 task list handed to this hub 2026-07-17 (`Ministry/Technology/Hosted-Tour/CiC_Hosted_Tour_System_Hub_Update_2026-07-17.md`) |
+| 2026-07-16 | World Orientation Map (Atlas) | `Ministry/Features/Atlas-World-Map/Launch-Prompts/CiC_World_Orientation_Map_Thread_Launch_2026-07-16.md` | Active — substantial output already (see `Ministry/Features/Atlas-World-Map/Design/`); see 2026-07-20 entry below for a new Fable usability/branding study now underway on top of this |
+| 2026-07-16 | Tour / Hosted Experience Module | `Ministry/Features/Tour-Experience-Module-Phase2/Launch-Prompts/CiC_Tour_Experience_Module_Thread_Launch_2026-07-16.md` | Active — V0.3 strategy + Chloe demo BUILT (immersive, verified); progress + TR-1..TR-15 task list handed to this hub 2026-07-17. Renamed to Tour-Experience-Module-Phase2 in the filing reorg to stop colliding with the separate Hosted-Tour folder |
 | 2026-07-16 | Marketplace Learning & Perspective | `Ministry/Marketplace/CiC_Marketplace_Learning_Thread_Launch_2026-07-16.md` | Active — landscape scan + positioning brief drafted |
-| 2026-07-16 | Front-End Integration Strategy | `Ministry/Technology/CiC_FrontEnd_Integration_Strategy_Thread_Launch_2026-07-16.md` | Just launched — the big reconciliation thread |
-| 2026-07-17 | Facilitator Upgrade | `Ministry/Technology/CiC_Facilitator_Upgrade_Thread_Launch_2026-07-17.md` | Just launched — anachronism bridge (reverse lexicon) + sensed closing sequence |
-| 2026-07-17 | Alexandria World Build | `Ministry/Technology/CiC_Alexandria_World_Build_Thread_Launch_2026-07-17.md` | COMPLETE, Mark-approved for integration — Doc_01-09 + full Representative (Theon) build + Phase 5 boundary testing (RETEST CLEARS) all done same day; awaiting install into `cic-poc` |
+| 2026-07-16 | Front-End Integration Strategy | `Ministry/Features/Front-End-Integration-Strategy/Launch-Prompts/CiC_FrontEnd_Thread_Launch_2026-07-07.md` | Just launched — the big reconciliation thread |
+| 2026-07-17 | Facilitator Upgrade | **No launch doc file exists anywhere in the repo** — confirmed by the 2026-07-20 filing audit; this row was likely tracking a launch that never got a persisted document | Anachronism bridge (reverse lexicon) + sensed closing sequence; status untracked by file |
+| 2026-07-17 | Alexandria World Build | `World-Builds/Alexandria-Catechetical-School/CiC_Alexandria_World_Build_Thread_Launch_2026-07-17.md` | COMPLETE, installed and live-verified in `cic-poc` (commit `6dbcef1`) |
 | 2026-07-17→18 | Branding & Messaging (Analysis + Kit) | `Ministry/Communication/CiC_Branding_Messaging_Analysis_Thread_Launch_2026-07-17.md` | **DONE, APPROVED end to end** — launch to art approval in two days (BR-1..12); zero open brand questions; mark "Arriving" + both motions final; 12 execution items (BR-13..24) handed to other threads |
-| 2026-07-17 | Front-End Graphics (The Table & Interaction) | `Ministry/Technology/CiC_FrontEnd_Graphics_Thread_Launch_2026-07-17.md` | Superseded same day — produced no output before being absorbed into the new Full UX Design thread's broader scope |
-| 2026-07-17 | Full User Experience Design | `Ministry/Technology/CiC_Full_UX_Design_Thread_Launch_2026-07-17.md` | V0.1 APPROVED by Mark same day — visual identity, Level-3 panel fix, and reflection-beat timing all now DECIDED; Increment 1 cleared to build |
-| (earlier) | Prototype Testing | `Ministry/Operations/CiC_Prototype_Testing_Thread_Launch_2026-07-14.md` | Active |
-| (earlier) | Front-End (general) | `Ministry/Technology/CiC_FrontEnd_Thread_Launch_2026-07-07.md` | Superseded in scope by the Integration Strategy thread for anything touching multi-feature UI; still owns baseline `cic-poc` frontend code |
-| 2026-07-19 | Imperial and Juridical Christianity World Build | `Ministry/Operations/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md` | Thread's own scope (Step 0 through Doc_09) complete 2026-07-20 — every document Cleared review/Approved to proceed; stops before Step 10 (Representative Emergence) per its own launch instructions, waiting on Mark; see 2026-07-20 (later) decision log entry above and `World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md` |
+| 2026-07-17 | Front-End Graphics (The Table & Interaction) | (no output — absorbed same day) | Superseded same day — produced no output before being absorbed into the Full UX Design thread's broader scope |
+| 2026-07-17 | Full User Experience Design | **No launch doc file exists anywhere in the repo** — confirmed by the 2026-07-20 filing audit; origin is recorded only in this log's own 2026-07-17 entry | V1.0 APPROVED by Mark — visual identity, Level-3 panel fix, and reflection-beat timing all DECIDED; see `Ministry/Features/Full-UX-Design/` |
+| (earlier) | Prototype Testing | `Ministry/Features/Prototype-Testing/Launch-Prompts/CiC_Prototype_Testing_Thread_Launch_2026-07-14.md` | Active |
+| (earlier) | Front-End (general) | `Ministry/Features/Front-End-Integration-Strategy/Launch-Prompts/CiC_FrontEnd_Thread_Launch_2026-07-07.md` | Superseded in scope by the Integration Strategy thread for anything touching multi-feature UI; still owns baseline `cic-poc` frontend code |
+| 2026-07-19 | Imperial and Juridical Christianity World Build | `World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md` | Thread's own scope (Step 0 through Doc_09) complete 2026-07-20 — every document Cleared review/Approved to proceed; Step 10 Phase 1-2 (Representative identity, Marius) since confirmed decided by Mark directly and committed (`b9a622e`); thread continuing into Phase 5 boundary testing as of this entry |
+| 2026-07-20 | Atlas Usability & Branding Study (Fable) | No launch doc filed — Mark launched this thread directly and reported it verbally | **Just launched.** Studies how other scrolling/interactive maps handle usability, applies it to making the World Orientation Map more usable on-screen, incorporating this project's own branding (palette/type from the Messaging & Branding Kit / Full UX Design's DECIDED visual identity). Output belongs in `Ministry/Features/Atlas-World-Map/Design/` once it lands — that folder and its `Integration-Notes.md` are the single place this hub tracks the Atlas feature's real state, per the 2026-07-20 filing reorg. Not yet reported back to this hub with any findings. |
 
 ---
 

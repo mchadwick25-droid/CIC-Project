@@ -24,3 +24,11 @@ current, in `Design/`).
 
 **Where deliverables live once integrated:** `cic-website/` (already live) and
 `cic-poc/frontend/` (pending the Tier A/B decision).
+
+**Active as of 2026-07-20 — new usability/branding study (Fable), launched directly
+by Mark:** studying how other scrolling/interactive maps handle usability, applying
+findings to make this map more usable on-screen while incorporating this project's
+own DECIDED visual identity (palette/type from Full UX Design / the Messaging &
+Branding Kit — see `../Full-UX-Design/`). No launch doc filed; tracked in the System
+Hub Decision Log's thread roster. **Its output belongs in `Design/` when it lands** —
+this is the one place to look for it, per the whole point of this folder existing.
