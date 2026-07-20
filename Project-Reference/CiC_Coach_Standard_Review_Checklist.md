@@ -64,6 +64,31 @@ Confirm the document is internally consistent with everything already ratified t
 5. **State checklist coverage in one sentence with every Critic/production prompt.** When presenting a Step 2 or Step 4 prompt, include a single confirming sentence that the full standard scope was applied to this specific document — contamination (all six CHECK ONE types), CO-012 (pointing to System Operations rather than deleting outright), scaffolding/citation/filing hygiene, and the V7 Upgrade Reference cross-check — not a generic list, but scoped to what was actually checked for this document. This is a visible receipt that the checklist governed the prompt, not a substitute for actually running it.
 6. **Insert new content by copying and editing a sibling paragraph, never by writing a fresh `<w:p>` from scratch**, when a production prompt calls for adding a list item, section, or table row. A fresh paragraph silently drops whatever explicit `<w:pPr>`/`<w:rPr>` formatting its siblings carry (see Pattern Log: "Builder-inserted content lacks the explicit formatting its siblings carry," confirmed twice). If content was inserted freshly anyway, Step 6 must include an XML-level formatting check against a sibling paragraph, not just a text-level one.
 
+## H. Deployment/construction-record sync check (Level 5, live worlds only)
+
+Applies whenever a periodic verification pass touches a world that has any live/deployed
+artifacts in `cic-poc/backend/data/[world]_world/` — a distinct check from A-G, which govern
+Level 1-4 document contamination and hygiene.
+
+1. **Diff every deployed Representative artifact against its `World-Builds/[World]/`
+   counterpart** — Permanent Prompt, World Capsule Core, and a spot-check of lexicon/story
+   chunks. A zero diff is the expected healthy state, not something to assume without
+   checking (see Pattern Log: "A live Representative's deployed prompt can drift from its own
+   World-Builds construction record, silently and legitimately," 2026-07-19).
+2. **A real diff is not itself a defect to fix by reverting.** Check `git log` on the deployed
+   file first — if the change is a reviewed, live-verified engineering fix (not an
+   unreviewed edit), the deployed version is very likely the one that should win. Sync
+   `World-Builds/` to match it, don't revert deployment to match the (now-stale) construction
+   record.
+3. **Record the sync with real provenance** — cite the actual commit(s) responsible in the
+   decision log, not just "content updated." Do not embed provenance notes inside the prompt
+   files themselves; they're clean runtime prose by design (no headers, no markdown) and a
+   note inserted there risks shipping as part of what a participant's Representative actually
+   says.
+4. **Do this at every periodic Coach verification pass for any world with live deployment**,
+   not only when a specific complaint or finding prompts a look — the gap is silent by
+   construction (see Pattern Log entry) and won't surface on its own.
+
 ---
 
 *This checklist supersedes ad hoc scope-drafting for every future Critic and production prompt. When a document's situation requires deviating from it, state explicitly which items are being waived and why (as with System Operations, Section E) rather than silently narrowing scope.*

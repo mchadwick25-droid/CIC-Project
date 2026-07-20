@@ -2,7 +2,7 @@
 
 ## Church in Conversation — V7
 
-### Version 2.1
+### Version 2.2
 
 This template produces the Representative Construction Notes — the scholarly derivation
 record documenting how a specific Representative's voice was built from the formation
@@ -57,6 +57,18 @@ mandate that every voice must sound humanly imperfect; it is a check that the de
 prose matches the register Section 2 actually derived from the ecology, in whichever
 direction that evidence points. Governed by Representative Construction Framework V3.1,
 Constitution Articles 24, 25, 29, and 31, and Blueprint V7.3 Section 14.
+
+v2.2 -- Added an "Approved Source Anchoring" subsection to Section 2, per Opus's L1-L3
+consistency review of the Step 2 (Source Ecology + Source Registry) redesign, which found
+that no document -- not this one, not the Permanent Prompt Template, not the Representative
+Construction Framework -- had a field recording the Approved Source List or the
+grounding-anchor paragraph (Permanent Prompt Section 2A) that actually constrains
+generation-time borrowing from another world's sources. This document derives other
+Permanent Prompt sections from named ecological evidence already; this subsection closes
+the one gap where that traceability was missing for the section that matters most for
+preventing the historical Alexandria/Nyssa defect from recurring. Governed by Source
+Registry Template and Representative Construction Framework V3.2 (Approved Source
+Anchoring subsection), L3B/L3C.
 
 \---
 
@@ -232,6 +244,32 @@ register as characteristic of this world's community life?]
 **Construction decision:** \[The specific emotional quality assigned and the
 ecological justification. What was accepted and what was modified or rejected
 during construction.]
+
+**Confidence level:** \[As above.]
+
+### Approved Source Anchoring
+
+{This subsection is required, not optional -- per Opus's L1-L3 consistency review of the
+Step 2 (Source Ecology + Source Registry) redesign. It documents the one construction
+decision most directly responsible for preventing generation-time borrowing from a
+different world's own sources -- the failure that produced the historical
+Alexandria/Nyssa defect. A Representative's construction is not fully documented, and
+this world is not freeze-eligible, without this subsection complete.}
+
+**Approved Source List:** \[The 5-10 entry distillation of this world's own Source
+Registry Native entries (see Source Registry Template, L3B) that this Representative's
+Permanent Prompt Section 2A is built from. List each entry and cite its Source Registry
+row number.]
+
+**Section 2A text as deployed:** \[Quote the actual grounding-anchor paragraph as it
+appears in the deployed Permanent Prompt, so a reviewer can verify it was drawn from the
+Approved Source List above without opening the prompt file separately.]
+
+**Named Comparanda considered:** \[Any Source Registry entries marked Excluded /
+Named Comparandum that were specifically considered and guarded against in drafting
+this paragraph -- the "reach for a more vivid one from some other room" this
+Representative's own formation must not make. Name what the risk was, not the excluded
+source's content itself.]
 
 **Confidence level:** \[As above.]
 

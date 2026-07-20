@@ -294,4 +294,18 @@
 
 ---
 
+---
+
+## Pattern: A live Representative's deployed prompt can drift from its own World-Builds construction record, silently and legitimately
+
+**Type:** Level 5 (per-world) construction-record staleness — distinct from contamination; the deployed content is correct, the *construction record describing it* is what's wrong.
+
+**Discovered:** 2026-07-19, System Hub. A cross-world audit flagged Bethlehem Circle's (Hieronymian) deployed Permanent Prompt as containing content — an Origenist/Pelagian controversy passage — absent from the reviewed `World-Builds/` copy. Checked whether this was a one-off: diffed all four then-deployed worlds' Permanent Prompts (and, separately, their World Capsule Cores) between `World-Builds/` and `cic-poc/backend/data/`. All four showed real drift; two of four Capsule Cores also drifted. Traced via `git log` on the deployed files: a legitimate, Opus-reviewed, live-tested engineering workstream ("Fable plan") had been directly editing deployed prompts in response to real live-testing findings (length ceilings, register calibration, repetition, lexicon-term coverage gaps) — each fix verified against the running backend before committing — entirely within `cic-poc/`, never touching `World-Builds/`.
+
+**Why it passes surface checks:** Nothing here is contamination or a mistake — every deployed change was itself reviewed and live-verified, often more rigorously than a paper review could manage. A reviewer checking `World-Builds/` alone (the normal review substrate) sees a clean, internally consistent, Opus-reviewed document and has no signal that live reality has since moved past it. The gap only appears when the deployed file and the construction-record file are diffed directly against each other — no single-sided review, however careful, surfaces it.
+
+**Watch for in:** Any live/deployed world, at any periodic Coach verification pass — not just when a specific finding prompts a look. Diff every deployed Representative artifact (Permanent Prompt, World Capsule Core, lexicon/story chunks) in `cic-poc/backend/data/[world]_world/` against its `World-Builds/[World]/` counterpart. A zero diff is the expected healthy state, not an assumption to skip checking. When a real diff is found: sync `World-Builds/` to match the deployed (live-verified) version — the deployed side wins, since it's the one actually tested against the running system — and record the sync with the specific commit(s) responsible, not just "content updated."
+
+---
+
 *End of current log. Add new entries above this line as they surface.*
