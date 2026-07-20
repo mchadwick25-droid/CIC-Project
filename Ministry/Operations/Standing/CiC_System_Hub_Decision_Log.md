@@ -11,6 +11,19 @@ workstream in this project.
 
 ---
 
+## 2026-07-20 (even later) — Website messaging & structure plan produced, awaiting Mark's markup
+
+**Asked for (Mark's direction):** look through the website files and the current site, propose a plan to bring it up to the new approach — reassess sections and messaging, remove all negative and contrast framing ("not X, it's Y" / "we are not..." patterns), keep only positive and plain statements, minimal text for now with a deeper section-by-section messaging pass to follow later, welcome/vision/why/what/how for the features and program, the Table as centerpiece.
+
+**Produced, not yet decided:** `Ministry/Operations/Audits/CiC_Website_Messaging_Structure_Plan_2026-07-20.md`, also published as a full artifact for review
+(https://claude.ai/code/artifact/ea9a62d9-0f61-4334-b13e-79cd83764d4f). Covers: a page-by-page audit of every negative/contrast-framed line currently live (index, about, atlas, support, plus the never-published landing-page-copy draft) with a diagnosis for each; a proposed five-beat structure (Welcome → Vision → Why → What → How) mapped onto the existing five pages, each with a short draft line built from already-decided Brand Kit language; a ready-to-use before/after reframe table for the worst offenders; and a separate note that Support's disclosure content needs reordering (lead positive, disclose the legal footnote second), not deletion, since it's real, necessary information.
+
+**One thing flagged rather than silently decided:** the existing Brand Kit already protects two negative-shaped lines as intentional clarifying contrast, not denial — "It will never try to convert you" and "A doorway, not a home." Today's direction reads stricter than that carve-out. Left both alone in the audit and named the tension directly rather than picking a side.
+
+**No website file touched.** This is a plan for Mark's markup; the deeper messaging pass is explicitly his own next step, section by section, per his own direction.
+
+---
+
 ## 2026-07-20 (later still) — Website demos pulled from live nav; auto-play tours' eventual fate recorded (not built now)
 
 **Decided (Mark's direction):** the site's "watch a demo" slideshows shouldn't stay up
