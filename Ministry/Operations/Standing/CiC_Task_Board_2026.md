@@ -232,16 +232,28 @@ compliance script) handed to a new disciplined successor thread —
       (`cic-poc/backend/app/session_cap.py`) — this is deploy-and-configure, not
       build-from-scratch. See `CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md` V1.2 for
       the full dependency-ordered path from here to hosting + Prototype Testing 1.
-- [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** The accounts/sign-in
-      layer landed since the #101/401 note above was written: `cic-poc/backend/app/auth.py`,
-      a Supabase-backed rework of `session_cap.py` (real per-user caps, not just
-      per-tester-code) and `transcript_logging.py`, plus a real sign-in screen
-      (`SignInScreen.tsx`) on the frontend. Smoke-tested working, currently uncommitted.
-      Every Supabase-dependent feature is a documented no-op until `SUPABASE_URL`/
-      `SUPABASE_SERVICE_KEY` (backend) and `VITE_SUPABASE_URL`/`VITE_SUPABASE_ANON_KEY`
-      (frontend) are set — see both `.env.example` files. Account creation itself is
-      off-limits for Claude to do on your behalf (standing constraint) — this is the
-      actual next concrete step inside #101/401's "deploy-and-configure."
+      ⚠ **Partly superseded 2026-07-20:** Pilot 1's sign-in gate is now deliberately
+      dropped (see the DONE entry above) — `session_cap.py` isn't the pilot's real
+      protection anymore, `cic-poc/backend/app/message_cap.py` is. `pilot.html` itself
+      is still live and still the site's only access-request path; whether it should
+      keep gating on Mark's personal follow-up or link straight into the app is now an
+      open question for Mark, not yet decided.
+- [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** ⚠ **Supabase half
+      no longer needed for Pilot 1 specifically as of 2026-07-20** — the simplified pilot
+      runs deliberately without sign-in, so `auth.py`/`SignInScreen.tsx`/the Supabase-backed
+      `session_cap.py` rework stay unused rather than configured; skip creating a Supabase
+      account unless a later, larger-audience phase wants identity back. **The Render/host
+      account is still needed** — that's the real remaining blocker inside #101/401's
+      "deploy-and-configure," independent of the sign-in question. Original context: the
+      accounts/sign-in layer landed since the #101/401 note above was written:
+      `cic-poc/backend/app/auth.py`, a Supabase-backed rework of `session_cap.py` (real
+      per-user caps, not just per-tester-code) and `transcript_logging.py`, plus a real
+      sign-in screen (`SignInScreen.tsx`) on the frontend. Smoke-tested working, currently
+      uncommitted. Every Supabase-dependent feature is a documented no-op until
+      `SUPABASE_URL`/`SUPABASE_SERVICE_KEY` (backend) and `VITE_SUPABASE_URL`/
+      `VITE_SUPABASE_ANON_KEY` (frontend) are set — see both `.env.example` files.
+      Account creation itself is off-limits for Claude to do on your behalf (standing
+      constraint).
 
 - [x] **DONE 2026-07-20 — Increment 1 built, reviewed, merged into `main`
       (`80a156c`).** Six commits (brand tokens/Alegreya/long-form transcript,
@@ -271,6 +283,22 @@ compliance script) handed to a new disciplined successor thread —
       evidence the underlying failure mode is real on this machine, not
       proof of that specific incident's cause). No code-level guard exists
       against it today. Full account: decision log, 2026-07-20 (later still).
+- [x] **DONE 2026-07-20 — Pilot 1 simplified: sign-in/pre-survey/post-survey
+      gate removed, informal access control instead.** Mark's call — small
+      audience, the gating apparatus was over-designed for this stage. Needed
+      zero code changes to remove (both frontend and backend gates already
+      no-op without Supabase configured); built the one new piece the
+      simplified design does need, `cic-poc/backend/app/message_cap.py` (soft
+      identity-free per-conversation turn cap, default 60), since
+      `session_cap.py`'s per-identity cap is a no-op with nobody signed in.
+      Committed `6ee48fc` alone via a hand-isolated partial patch, verified
+      not to disturb another concurrent session's simultaneous uncommitted
+      edits to the same file. **Open correction, not yet resolved:**
+      `cic-website/pilot.html` turned out to be the site's live, only access-
+      request path (linked from six pages), not the dormant page assumed —
+      see #101/401 and the NEW Supabase item below, both now partly stale in
+      light of this. Full account: this log, 2026-07-20; full reasoning:
+      `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20.
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
       (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door

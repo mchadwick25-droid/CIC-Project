@@ -29,6 +29,34 @@ for Mark to ask.
 
 ---
 
+## 2026-07-20 — Pilot 1's gated process removed (sign-in/survey), replaced with informal access control
+
+**Decided (Mark's direction):** drop the sign-in/pre-survey/post-survey/invite-tracking
+apparatus the Prototype Testing pilot plan was built around — small audience, over-designed
+for this stage. The real app goes on the website close to how it'll look at public launch;
+access is controlled informally (a personal ask not to forward the link, Mark watching
+traffic) instead of through app identity. Transcript logging stays on.
+
+**Operational summary — full reasoning lives in the feature's own log, per this log's own
+scope line above:** see `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20.
+In short: removing the in-app gate needed zero code changes (both `SignInScreen.tsx`'s
+frontend check and `auth.py`'s backend check already no-op without Supabase configured).
+Built one new piece of protection the simplified design actually needs —
+`cic-poc/backend/app/message_cap.py`, a soft identity-free per-conversation turn cap
+(default 60), since `session_cap.py`'s per-identity cap is a no-op with nobody signed in.
+Committed `6ee48fc`, isolated via a hand-built partial patch (`git apply --cached`) from
+another concurrent session's simultaneous, unrelated, uncommitted edits to the same
+`main.py` file — verified afterward that their edits were untouched and the file still
+compiled with both sets of changes present.
+
+**One real correction surfaced while doing this, not yet resolved:** `cic-website/pilot.html`
+turned out not to be the dormant leftover it was assumed to be when Mark answered "leave it
+in place, unused" — it's the site's live, only path to requesting access (linked from six
+pages, a mailto "express interest" form gated on Mark's personal follow-up). Flagged back to
+Mark rather than silently changed either way — see the feature decision log for the detail.
+
+---
+
 ## Thread roster (update every time this hub spawns a new thread)
 
 **Paths in this table updated 2026-07-20** to their post-filing-reorg
