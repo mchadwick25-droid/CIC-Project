@@ -264,6 +264,69 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "unevidenced."
         ),
     ),
+    WorldManifestEntry(
+        world_id="alexandria-catechetical",
+        world_name="Alexandrian Christianity",
+        world_subtitle="Alexandrian Catechetical-Formation World",
+        period="c. 150–400 CE",
+        region="Alexandria, Egypt",
+        world_description=(
+            "Alexandria, c. 150 to 400 CE — a community of readers who received seekers "
+            "into a life of accompanied reading, convinced that Scripture's surface is a "
+            "door onto the Logos's own inexhaustible depth, and that a knowing which "
+            "leaves the knower unaltered is no knowing at all. Formed by the didaskaleion "
+            "tradition of Clement and Origen, tested by rival wisdom, persecution, and the "
+            "Nicene settling of who the Son is. Richest in the theology and practice of "
+            "accompanied catechetical reading — thinner on the ordinary household, women's "
+            "voices, and the ways most of the city's Christians were actually formed, since "
+            "the surviving record concentrates on the teacher's own room."
+        ),
+        # PROVISIONAL - no world color has been formally assigned yet (flagged
+        # in the World-Icon spec as an open item routed to the World-Map
+        # thread: "Theon has no world manifest color yet... his seat dot can't
+        # render without one"). A muted steel-blue distinct from the other
+        # four worlds' hues and from the reserved role-pigment lapis
+        # (#1E40AF, participant voice) - library/papyrus association fits
+        # Alexandria, but this is a placeholder for the coordinated
+        # world-tint/role-pigment reconciliation, not a final decision.
+        color="#2B5F8A",
+        data_dir_name="alexandria_world",
+        permanent_prompt_filename="alex_Representative_Permanent_Prompt_Theon.txt",
+        world_capsule_filename="alex_World_Capsule_Core.md",
+        vector_store_name="alexandria",
+        representative_id="theon",
+        representative_message_name="theon",
+        representative_name="Theon",
+        representative_title="Catechetical Teacher",
+        representative_description=(
+            "Is a voice of Alexandrian Christianity, speaking as a didaskalos — a "
+            "catechetical teacher who reads Scripture beside a seeker until the seeker's "
+            "own eye opens onto the depth the Word has placed there. He carries this "
+            "community's whole life, from the confident early days to the hard-won "
+            "clarity of Nicaea."
+        ),
+        representative_intro=(
+            "a catechetical teacher from the Christian community of Alexandria, speaking "
+            "from the period of c. 150-400 CE"
+        ),
+        facilitator_cautions=(
+            "Origen is a contested figure held from inside this world's own horizon, not "
+            "against it - Theon carries him as treasure-and-unease at once, and his "
+            "posthumous condemnation (553) lies far past this world's own close (c. 400); "
+            "Theon has no knowledge of that later condemnation and should not be expected "
+            "to address it as settled. Article 29 Living Tradition Status is CONFIRMED: "
+            "the Coptic Orthodox Church is the primary living heir (Eastern Orthodoxy and "
+            "the Catholic tradition secondary) - a Coptic participant may experience this "
+            "as living heritage rather than pure historical encounter; the historical/"
+            "living distinction is the Facilitator's to hold, never Theon's, per Article "
+            "28. Theon speaks in a strict community 'we' across his whole span and will "
+            "not explain, defend, or personalize that voice if asked - this is designed "
+            "character, not malfunction. Phase 5 adversarial boundary testing found two "
+            "MARGINAL findings (self-referential limitation narration; a 'record' leak on "
+            "a scholarly-framework probe); both were fixed and the retest CLEARS cleanly, "
+            "with zero hard Violation Indicators."
+        ),
+    ),
 )
 
 _BY_WORLD_ID = {entry.world_id: entry for entry in WORLD_MANIFEST}

@@ -54,7 +54,7 @@ export type ConversationPhase =
   | 'reroot'
   | 'closing';
 
-export type SpeakerName = 'facilitator' | 'mar_yausep' | 'chloe' | 'papnoute' | 'albina' | null;
+export type SpeakerName = 'facilitator' | 'mar_yausep' | 'chloe' | 'papnoute' | 'albina' | 'theon' | null;
 
 export interface ConversationState {
   sessionId: string | null;

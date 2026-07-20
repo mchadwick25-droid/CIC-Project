@@ -38,6 +38,10 @@ const REPRESENTATIVE_INFO: Record<string, { name: string; title: string }> = {
     name: 'Albina',
     title: 'Widow of the Household',
   },
+  theon: {
+    name: 'Theon',
+    title: 'Catechetical Teacher',
+  },
 };
 
 function getSpeakerInfo(message: Message): {
