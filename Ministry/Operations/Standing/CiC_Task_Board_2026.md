@@ -322,6 +322,22 @@ compliance script) handed to a new disciplined successor thread —
       conflicting concurrent-session build). Full account: this log,
       2026-07-20; full reasoning:
       `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20.
+- [x] **DONE 2026-07-20 — Site-wide phone horizontal scroll fixed
+      (`cic-website/assets/style.css`).** Found by the UX-testing thread during
+      its Atlas Phase 1 verification pass, reported via handoff, not caused by
+      that build — pre-existing on every page. Root cause: the header's six
+      nav links plus the wordmark never fit a phone-width viewport, and with
+      `flex-wrap: nowrap` the whole page got pushed 82px wider than the
+      viewport instead of just the nav overflowing. Fixed by letting the nav
+      row scroll independently (`min-width: 0` + `overflow-x: auto`) instead
+      of stretching the page; brand mark kept fixed-size. Scoped to the
+      existing 640px breakpoint — desktop unaffected, verified. Verified via
+      direct DOM measurement (`scrollWidth` vs `clientWidth`) across all 8
+      site pages at 375px, since screenshot capture was timing out as a tool
+      issue this session — computed-layout verification is arguably more
+      precise than a visual glance for this exact bug class (a numeric
+      overflow), but flagged here rather than silently substituted without
+      saying so. Committed `d02b41e`.
 - [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
       `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
       (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door
