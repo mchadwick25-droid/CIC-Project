@@ -238,13 +238,14 @@ compliance script) handed to a new disciplined successor thread —
       links straight into the app (`LIVE_APP_URL`, empty until this hosting item
       lands) instead of gating on Mark's follow-up — so **this item is now the one
       thing standing between `pilot.html`'s CTA and actually working**, not just a
-      nice-to-have. ⚠ **New risk found alongside this, needs your attention:** a
-      separate concurrent session has active, uncommitted work in the same `main.py`
-      building the opposite model — Supabase-Auth invites gated on your manual
-      per-person approval, plus a referral-code system. Inert today (Supabase stays
-      unconfigured either way), but the two directions conflict once Supabase is
-      configured — worth checking in with that thread directly before it goes
-      further.
+      nice-to-have. **Conflicting concurrent-session work found alongside this —
+      Mark's call: HOLD, don't intervene.** A separate concurrent session (the UX
+      design thread) has active, uncommitted work in the same `main.py` building the
+      opposite model — Supabase-Auth invites gated on manual per-person approval,
+      plus a referral-code system. Inert today (Supabase stays unconfigured either
+      way). Mark's direction 2026-07-20: let that thread finish its own updates
+      rather than checking in on it mid-work; revisit reconciling the two directions
+      once it's done, not before.
 - [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** ⚠ **Supabase half
       no longer needed for Pilot 1 specifically as of 2026-07-20** — the simplified pilot
       runs deliberately without sign-in, so `auth.py`/`SignInScreen.tsx`/the Supabase-backed

@@ -56,11 +56,12 @@ pages, a mailto "express interest" form gated on Mark's personal follow-up). Fla
 Mark; his answer — *"link to the app and let them experince everything as it will be"* — is
 now built: a primary CTA on `pilot.html` linking straight in (placeholder URL, empty until
 hosting lands), the old form demoted to optional. Committed `9efe0c2`. **One open item this
-surfaced, not resolved:** a separate concurrent session has active, uncommitted work building
-the opposite model — a Supabase-Auth invite/referral system gated on Mark's manual approval —
-in the same `main.py`. Not live today (Supabase stays unconfigured), but the two directions
-conflict once it is; worth Mark's direct attention with that other thread. Full detail:
-`Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20 (later entry).
+surfaced:** a separate concurrent session (the UX design thread) has active, uncommitted work
+building the opposite model — a Supabase-Auth invite/referral system gated on Mark's manual
+approval — in the same `main.py`. Not live today (Supabase stays unconfigured), but the two
+directions conflict once it is. **Mark's direction: hold, let the UX design thread finish its
+own updates first** — reconcile the two directions after, not by interrupting it mid-work.
+Full detail: `Ministry/Features/Prototype-Testing/Decision-Log.md`, 2026-07-20 (later entry).
 
 ---
 
