@@ -1,6 +1,8 @@
 """LangGraph node functions for The Table conversation."""
 
 import re
+import time
+import uuid
 from concurrent.futures import ThreadPoolExecutor
 from typing import Literal
 
@@ -124,6 +126,46 @@ def get_llm(max_tokens: int | None = None):
         if max_tokens:
             kwargs["max_tokens"] = max_tokens
         return ChatOpenAI(**kwargs)
+
+
+def new_request_id() -> str:
+    """
+    Short, human-scannable ID minted once per incoming HTTP request (at the
+    top of each endpoint in main.py) and threaded down through every
+    Representative-turn call it triggers, so every LLM call this request
+    causes can be tied back to it in the log.
+    """
+    return uuid.uuid4().hex[:8]
+
+
+def _log_llm_call(request_id: str | None, session_id: str | None, world_id: str | None,
+                   speaker: str | None, text: str) -> None:
+    """
+    Trace-log a completed Representative-turn LLM call: request/session/
+    world/speaker identity, timing, and a length + head/tail fingerprint of
+    the response text (not the full text, to keep this cheap to scan).
+
+    Added 2026-07-20 after a live-tested response (Theon, in a real
+    multi-world table) came back from the API containing a fully unrelated
+    block with no connection to this project - confirmed real via the raw
+    response content, independently caught by a blind Opus-graded review,
+    but NOT reproduced under two rounds of deliberate concurrent-load
+    testing, and the application code on this path read clean on direct
+    audit. Root cause was not established (see the System Hub Decision
+    Log, 2026-07-20, "content-isolation investigation"). This is the
+    recommended next step from that investigation: if it recurs, the
+    logged request boundaries let it be traced directly instead of
+    reconstructed after the fact from a saved transcript. Deliberately
+    cheap (one print line, no new storage/service) - upgrade only if a
+    recurrence actually needs deeper tracing than this provides.
+    """
+    head = text[:80].replace("\n", " ")
+    tail = text[-80:].replace("\n", " ") if len(text) > 80 else ""
+    print(
+        f"[llm_trace] req={request_id} session={session_id} world={world_id} "
+        f"speaker={speaker} t={time.time():.3f} len={len(text)} "
+        f"head={head!r} tail={tail!r}"
+    )
 
 
 def get_monitoring_llm():
@@ -1005,7 +1047,8 @@ def _cached_system_message(
     return SystemMessage(content=blocks)
 
 
-def representative_engages(state: ConversationState, is_reactive: bool = False) -> dict:
+def representative_engages(state: ConversationState, is_reactive: bool = False,
+                            request_id: str | None = None) -> dict:
     """
     The representative responds to the participant with RAG-augmented context.
 
@@ -1014,6 +1057,11 @@ def representative_engages(state: ConversationState, is_reactive: bool = False) 
 
     Representatives see the "public transcript" - what has been said at The Table -
     allowing them to respond to what other representatives have said.
+
+    request_id: the calling endpoint's per-HTTP-request trace ID (see
+    new_request_id), logged alongside this call's response fingerprint via
+    _log_llm_call. Optional and purely observational - never affects
+    generation itself.
     """
     large_table_opening = _is_large_table_opening(state, is_reactive)
     if is_reactive:
@@ -1029,6 +1077,8 @@ def representative_engages(state: ConversationState, is_reactive: bool = False) 
         _cached_system_message(ctx["static_prompt"], ctx["reactive_guidance_block"], ctx["dynamic_prompt"]),
         HumanMessage(content=ctx["continuation"]),
     ])
+    _log_llm_call(request_id, state.session_id, ctx["current_world_id"],
+                   ctx["rep_message_name"], response.content if isinstance(response.content, str) else str(response.content))
 
     message_kwargs = {}
     if ctx["citations_payload"]:
@@ -1056,7 +1106,8 @@ def representative_engages(state: ConversationState, is_reactive: bool = False) 
     }
 
 
-def stream_representative_turn(state: ConversationState, is_reactive: bool = False):
+def stream_representative_turn(state: ConversationState, is_reactive: bool = False,
+                                request_id: str | None = None):
     """
     Stream a single representative's turn token-by-token.
 
@@ -1067,6 +1118,9 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     - {"type": "token", "speaker": name, "text": chunk} for each token chunk
     - {"type": "complete", "speaker": name, "message": AIMessage, ...} once,
       at the end, carrying the full assembled message and state updates
+
+    request_id: see representative_engages - logged alongside this call's
+    response fingerprint via _log_llm_call once the full text is known.
     """
     large_table_opening = _is_large_table_opening(state, is_reactive)
     if is_reactive:
@@ -1199,6 +1253,8 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         if full_text:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": full_text}
 
+    _log_llm_call(request_id, state.session_id, ctx["current_world_id"], ctx["rep_message_name"], full_text)
+
     message_kwargs = {}
     if ctx["citations_payload"]:
         message_kwargs["citations"] = ctx["citations_payload"]
@@ -1225,7 +1281,7 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     }
 
 
-def multi_representative_engages(state: ConversationState) -> dict:
+def multi_representative_engages(state: ConversationState, request_id: str | None = None) -> dict:
     """
     Multiple representatives respond to a question at The Table.
 
@@ -1233,6 +1289,10 @@ def multi_representative_engages(state: ConversationState) -> dict:
     determines multiple voices should respond, each representative speaks in turn.
     Each subsequent representative sees what the previous ones said in the public
     transcript, allowing genuine encounter between worlds.
+
+    request_id: see representative_engages - passed through to every
+    per-world call below so all of this round's LLM calls trace back to the
+    same HTTP request in the log.
     """
     from dataclasses import replace
 
@@ -1240,7 +1300,7 @@ def multi_representative_engages(state: ConversationState) -> dict:
 
     if len(world_ids) <= 1:
         # Single world - delegate to regular function
-        return representative_engages(state)
+        return representative_engages(state, request_id=request_id)
 
     all_messages = []
     # Create a working copy of messages that we'll build up
@@ -1270,7 +1330,9 @@ def multi_representative_engages(state: ConversationState) -> dict:
 
         # Get this representative's response - every speaker after the first
         # in a round is responding to what's already been said, not opening it
-        result = representative_engages(working_state, is_reactive=(world_id != world_ids[0]))
+        result = representative_engages(
+            working_state, is_reactive=(world_id != world_ids[0]), request_id=request_id
+        )
 
         # Add the message to our collection
         new_messages = result.get("messages", [])

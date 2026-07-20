@@ -448,6 +448,9 @@ async def send_message(session_id: str, request: SendMessageRequest):
     The message is processed by the representative (with RAG augmentation)
     and then monitored for drift by the facilitator.
     """
+    from app.graph.nodes import new_request_id
+    request_id = new_request_id()
+
     if session_id not in sessions:
         raise HTTPException(status_code=404, detail="Session not found")
 
@@ -548,14 +551,14 @@ async def send_message(session_id: str, request: SendMessageRequest):
         if turn_type == "all" and len(responding_worlds) > 1:
             # Multiple representatives should respond - each sees what others said
             state.current_world_id = responding_worlds[0]
-            result = multi_representative_engages(state)
+            result = multi_representative_engages(state, request_id=request_id)
         else:
             # Single representative responds
             state.current_world_id = responding_worlds[0]
-            result = representative_engages(state)
+            result = representative_engages(state, request_id=request_id)
     else:
         # Single-world table
-        result = representative_engages(state)
+        result = representative_engages(state, request_id=request_id)
 
     # Update state with representative's response(s)
     state.messages = list(state.messages) + result.get("messages", [])
@@ -605,6 +608,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     Closing the conversation (`close_requested`) is not streamed - use the
     plain /message endpoint for that, since it's a single short message.
     """
+    from app.graph.nodes import new_request_id
+    request_id = new_request_id()
+
     if session_id not in sessions:
         raise HTTPException(status_code=404, detail="Session not found")
 
@@ -963,7 +969,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
                 new_message = None
                 is_reactive = bool(spoken_this_round)
-                for event in stream_representative_turn(working_state, is_reactive=is_reactive):
+                for event in stream_representative_turn(working_state, is_reactive=is_reactive, request_id=request_id):
                     if event["type"] == "token":
                         yield sse({
                             "type": "token",
