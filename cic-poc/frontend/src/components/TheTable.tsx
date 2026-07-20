@@ -120,6 +120,10 @@ export function TheTable() {
   // Whether a Level-3 surface is open (§3) - on desktop this narrows the
   // transcript column so the side panel never covers it; see table.css.
   const isLevel3Open = selectedTerm !== null || selectedCitations !== null;
+  // Phone-only: the table bar's status line truncates to its lead phrase;
+  // tap expands it (§2, §6). No effect on desktop - CSS always shows the
+  // full text there regardless of this state.
+  const [statusExpanded, setStatusExpanded] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   // Whether the participant is scrolled near the live edge right now. Starts
@@ -309,7 +313,13 @@ export function TheTable() {
             ))
           )}
         </div>
-        <div className="table-bar__status">{statusMessage}</div>
+        <div
+          className={`table-bar__status${statusExpanded ? ' table-bar__status--expanded' : ''}`}
+          onClick={() => statusMessage && setStatusExpanded((v) => !v)}
+        >
+          <span className="table-bar__status-full">{statusMessage}</span>
+          <span className="table-bar__status-lead">{statusMessage.split(' — ')[0]}</span>
+        </div>
       </div>
     );
   };
