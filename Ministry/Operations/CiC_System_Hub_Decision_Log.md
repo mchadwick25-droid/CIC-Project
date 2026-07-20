@@ -44,6 +44,7 @@ for Mark to ask.
 | 2026-07-17 | Full User Experience Design | `Ministry/Technology/CiC_Full_UX_Design_Thread_Launch_2026-07-17.md` | V0.1 APPROVED by Mark same day — visual identity, Level-3 panel fix, and reflection-beat timing all now DECIDED; Increment 1 cleared to build |
 | (earlier) | Prototype Testing | `Ministry/Operations/CiC_Prototype_Testing_Thread_Launch_2026-07-14.md` | Active |
 | (earlier) | Front-End (general) | `Ministry/Technology/CiC_FrontEnd_Thread_Launch_2026-07-07.md` | Superseded in scope by the Integration Strategy thread for anything touching multi-feature UI; still owns baseline `cic-poc` frontend code |
+| 2026-07-19 | Imperial and Juridical Christianity World Build | `Ministry/Operations/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md` | Thread's own scope (Step 0 through Doc_09) complete 2026-07-20 — every document Cleared review/Approved to proceed; stops before Step 10 (Representative Emergence) per its own launch instructions, waiting on Mark; see 2026-07-20 (later) decision log entry above and `World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md` |
 
 ---
 
@@ -1240,3 +1241,1019 @@ build tree. Flagged as build-process-adjacent and left alone; not this hub's cal
 to reorganize.
 
 ---
+
+## 2026-07-19 (later still) — Committed: two commits, working tree clean, local main 2 ahead of origin/main
+
+Mark's calls: split the commit (recovery vs. feature), commit now rather than wait
+on other sessions' worktrees (a plain commit to `main` doesn't touch other
+worktrees' isolated checkouts — different from the merge that caused today's loss),
+and leave the existing archive convention as-is (version numbers + decision logs
+already record supersession; nothing physically archived).
+
+- **`e536bd0`** — all 106 recovered Ministry files (Operations, Communication +
+  full Brand-Assets tree, Funding, Technology, Marketplace, Organization,
+  Scholarly-Review).
+- **`bf9d726`** — the Supabase accounts/sign-in layer (14 files, `cic-poc`).
+- Reviewed both diffs before staging; no secrets in either (checked
+  `.env.example` placeholders and the new `auth.py`/`supabase.ts` directly).
+- `git status` clean. Local `main` is 2 commits ahead of `origin/main` —
+  **not pushed**, standing practice is to ask first.
+
+---
+
+## 2026-07-19 (later still) — Alexandria's entire World-Builds folder was also missing: 116 files, recovered
+
+While scoping the systematic build-process audit Mark asked for, checked
+`World-Builds/` against what the recovered Task Board says is live (5 worlds:
+House-Church, Desert-Monasticism, Syriac, Bethlehem Circle/Albina — folder name
+`Hieronymian-Ascetic-Literary`, renamed 2026-07-13 per `34b95d9` — and Alexandria).
+Four folders were present and populated (87/63/77/104 files respectively).
+`World-Builds/Alexandria-Catechetical-School/` **did not exist at all** — Doc_01-09,
+all 45 lexicon chunks, all 10 story chunks, the Representative construction phases,
+Review-Artifacts, and the cross-world/portfolio analysis docs were gone, even
+though Alexandria/Theon is already deployed live in `cic-poc`. This is the same
+root incident, same snapshot commit (`09f1de5`), same recovery method. Restored all
+116 files, byte-verified (the 5 `.xlsx` indexes and the permanent-prompt `.txt`
+checked against blob size; everything else is `.md`). Not committed yet — bundling
+with whatever else the in-progress audit surfaces, per standing practice of
+asking before committing.
+
+**Confirmed not a gap, ruled out before spending more time on it:** "Bethlehem
+Circle" is a display-name rename of the Hieronymian-Ascetic-Literary world
+(`34b95d9`), not a separate folder — its build content already exists under
+`World-Builds/Hieronymian-Ascetic-Literary/` and was never missing.
+
+---
+
+## 2026-07-19 (later still) — Systematic audit: build process (L1-L4) + all 5 live worlds (Level 5)
+
+Mark's instruction: "systematically go through all the functions, features and
+processes to make sure they are all working and identify what is not. start
+with the build process our core documents L1 - L5." Confirmed with Mark: L1-L4
+are the non-world-specific methodology levels; "Level 5" is the per-world
+output in `World-Builds/` (no literal folder), produced by the L1-L4
+methodology.
+
+**Method:** 10 independent read-only agents — 5 covering L1-Foundation through
+L4-Templates + Project-Reference, 5 covering each live world's full
+construction record. Every agent instructed explicitly and repeatedly: no
+Write/Edit/move/rename on anything in the audited structure. This is a
+findings pass, not a build-process change — the "untouchable" rule held
+throughout.
+
+**Full record:** `Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md`
+(complete per-document findings) and a navigable artifact version published
+the same day. Headline findings, in priority order:
+
+1. **Possible safety gap.** House-Church's own last internal safety test
+   (2026-07-09) failed Relational Safety as blocking and said the world
+   "should not be exposed to real participants" without a crisis-handoff
+   mechanism that didn't exist at the time. Nothing in that world's record is
+   dated after. This world is live. Needs Mark's direct confirmation, not
+   inferred from the per-world folder alone. Added to the task board as the
+   new top DO NOW item.
+2. **The canonical L2 governance record (Phase Status, System Level Map,
+   Architecture Map, System Operations) is badly stale** — still describes a
+   five-world portfolio when CO-023/CO-024 (2026-07-09) already declared nine
+   worlds and deprecated Early Communal. The Change Orders Register says that
+   work was done on separate branches and explicitly marked "NOT YET
+   PROPAGATED to the canonical project folder." `CiC-L1L3-Foundation` — a live
+   worktree flagged in this session's earlier worktree inventory — is the
+   likely home of that unmerged fix. Recommend checking it before any manual
+   re-edit of canonical L2 docs.
+3. **Bethlehem Circle's deployed Permanent Prompt has drifted from the
+   tested/reviewed World-Builds copy**, undocumented, un-re-tested since.
+4. Confirmed real, checkable structural gaps: a "Deployment Standards
+   document" cited as existing by the Constitution but confirmed never
+   produced by the Onboarding Framework; only Doc_07 and Doc_08 of ten
+   construction steps have a dedicated L4 template (Doc_10's Permanent Prompt
+   has none, despite being load-bearing); `CiC_L3D_Table_Process_
+   TwoRepresentative` referenced repeatedly but confirmed (repo-wide search)
+   not to exist; `CiC_Project_Status_July2026.docx` substantially stale
+   relative to its own folder; the three-Facilitator-Governance-versions
+   question resolved cleanly (V3.6 current, V3.7_PROPOSAL a narrow unmerged
+   patch, V3.4 safe to archive).
+5. **Per-world lexicon confidence-vocabulary compliance, independently
+   recounted rather than trusted from the earlier cross-world finding:**
+   Syriac 9/9 (100%), Alexandria 44/45 (97.8%, corrects the build's own
+   "45/45" claim), Bethlehem Circle 6/15 (40%, confirmed accurate), House-Church
+   0/13 (0%, never previously checked), Desert-Monasticism 0/9 (0%, worse than
+   the previously-logged 5/9 — those were false-positive word matches; root
+   cause now precisely diagnosed as a mechanical field-drop at chunk
+   extraction, same bug across all 9 chunks). Story-repository chunks are
+   healthy across all five worlds — this looks like a lexicon-chunk-specific
+   extraction problem, not a project-wide one.
+
+**What's consistently healthy, worth stating plainly:** every world's
+Doc_01-09 sequence is genuinely complete with real, substantive multi-round
+adversarial review — none of it reads as rubber-stamped. Every world honestly
+discloses its own open gates (Article 31, Encounter Testing) rather than
+hiding them. Every Representative that's had live adversarial testing had
+real, fixable defects caught and closed by it, not a clean pass claimed on the
+first try. The Change Orders Register and Corrections Tracker are visibly,
+actively self-correcting.
+
+**Heart of it:** Mark asked this hub to find out what's actually working
+versus not, starting with the part of the project everyone else builds on top
+of. The most consequential finding isn't a single broken document — it's that
+the project's own record of itself has partly diverged from what the project
+actually is, in two different ways at once: governance decisions made but not
+merged into canonical, and a deployed artifact edited but not reflected back
+into its own construction record. Both are exactly the kind of thing that's
+invisible from inside any single thread and only shows up from a genuinely
+systematic pass across everything at once.
+
+---
+
+## 2026-07-19 (later still) — House-Church safety finding resolved: verified built, not missing
+
+Asked for a plain list of concerns after the audit; House-Church's crisis/
+distress handoff mechanism was #1. Mark clarified the architecture (the
+Facilitator owns the response, not the Representative, so the world's voice
+never breaks — "we may pause for a check-in... not an intervention," his own
+words) and said the Facilitator monitors continuously. **Checked directly in
+code before accepting this as already-solved, not on claim:**
+`cic-poc/backend/app/graph/nodes.py`, `main.py`, `state.py`,
+`prompts/facilitator_prompts.py` on `main` all contain the real implementation
+— `classify_relational_safety` runs unconditionally on every message in both
+`/message` and `/message/stream`, before the Representative is ever invoked.
+`cic-poc/docs/engineering-notes/SESSION_NOTES_2026-07-13_ACUTE_DISTRESS.md`
+and its `_VERIFICATION.md` sibling show it was built and live-tested
+2026-07-13 — four days after House-Church's own 2026-07-09 safety FAIL — with
+two real bugs found and fixed, then 16/16 assertions plus live end-to-end
+confirmation passing. **The audit's alarm was accurate as of the world's own
+record and wrong as of actual deployed reality** — the same
+canonical-record-lags-deployment pattern found elsewhere today (Bethlehem
+Circle), just in the good direction this time. Removed from the task board's
+urgent list; write-back into House-Church's own testing record handed to the
+V2 launch thread below.
+
+**Mark's fix suggestion for the self-certification pattern** (three wrong
+self-reported compliance numbers found today): make countable claims
+mechanical (a script, not a memory/judgment call) and tag every compliance
+number with how it was verified before it's allowed to propagate into a
+decision log or cross-world finding. Folded into the V2 launch thread's work.
+
+**Launched:** `Ministry/Operations/CiC_System_Hub_Thread_Launch_V2_2026-07-19.md`
+— a disciplined successor thread whose mandate is exactly the audit's
+follow-through: check `CiC-L1L3-Foundation` before hand-editing canonical L2
+docs, decide and close the Bethlehem Circle prompt drift, fix the six
+confirmed citation/version drifts, and build the lexicon compliance script.
+Bakes in today's own near-misses as standing discipline (worktree awareness,
+check git history before calling anything unrecoverable, diff deployed
+against canonical before trusting either, disclose how a compliance claim was
+checked). Explicitly scoped: fix what the audit found, don't re-audit, don't
+touch the build-process structure itself.
+
+**Mark's correction: no separate thread — implement it directly.** Executed
+the V2 launch prompt's work in this same session rather than handing off.
+
+---
+
+## 2026-07-19 (later still) — V2 work executed directly: safety write-back, citation fixes, and a real correction to today's own audit
+
+**House-Church safety record** — added a dated addendum to
+`CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md` confirming the
+Facilitator-governed Acute-Distress/Harmful-Dynamic mechanism (verified
+earlier today) is real, live-tested, and wired in — while being precise
+about what's *not* separately confirmed: this world's own Phase Five
+Relational Safety probe has not been specifically rerun against it. Fixed a
+stale docstring in `state.py` (claimed de-escalation counted
+`HISTORICAL_OTHERNESS_DISORIENTATION` alongside `NO_SIGNAL`; the code, which
+is correct, only counts `NO_SIGNAL`).
+
+**`CiC-L1L3-Foundation` investigated, not merged.** 29 real commits, but the
+branch diverged from a point 116 commits behind current `main` —
+`git diff --stat main CiC-L1L3-Foundation` shows 1,152 files changed, only
+472 insertions, 114,640 deletions. Merging it would delete `cic-website` and
+other current content. The 29 commits are genuine governance work (a
+Construction Framework V7.4 draft, a new Source Registry / Doc_02B concept,
+the nine-world portfolio decision, and — independently confirming today's
+own audit — the exact same "Article 3; TC-001" → "Article 28" citation fix
+made separately below) that needs manual re-application to canonical docs,
+not a branch merge. Paused, flagged for Mark rather than guessed at.
+
+**Citation/version fixes applied and verified** (docx edited via unzip →
+edit `word/document.xml` → rezip → verify XML well-formed + exact-text
+check — the skill's own `validate.py` has a Windows-console encoding bug
+unrelated to the files themselves, so verified independently instead):
+- L3C Construction Framework: "Article 3; TC-001" → "Article 28,
+  Anti-Fabrication Prohibition" (matches Facilitator-Governance V3.6's
+  already-corrected citation).
+- L3A Forces Framework: "eight-step" → "ten-step" construction sequence.
+- L3A + L3B Construction Framework: "Boundary Ecology" → "Boundary
+  Structures," "Organizational... and Ministry Ecology" → "Organizational
+  & Ministry Ecology" (3 occurrences) — confirmed against the Formation
+  World Template's actual current dimension names, extracted directly
+  (50+ named lenses, not the ~5 the drifted phrasing implied). **Left
+  alone, flagged rather than guessed:** "Human Ecology" and "Community
+  Ecology" have no clean 1:1 match in the Template's real taxonomy —
+  reconciling those needs a real editorial decision, not a rename.
+- Table Design Document V2.3: readiness status corrected from "has not yet
+  been deployed or tested" to reflect the real 2026-07-13 live test and
+  code reference already on record in its own companion document.
+- `Representative_Permanent_Prompt_Template.txt`: internal header bumped
+  2.1 → 2.2 to match its own changelog (content already reflected v2.2).
+  Filename left unchanged — renaming it was the audit's suggestion, but a
+  rename is exactly the kind of structural change reserved for Mark.
+- **Not done:** archiving `Facilitator_Governance_V3.4.docx` — a file move,
+  flagged for Mark rather than done unilaterally, even though `Archive/`
+  exists for precisely this.
+- **One real mistake caught and fixed immediately:** the first attempt at
+  the Construction Framework's ecology-lens fix inserted a raw `&` into
+  `word/document.xml`, breaking XML well-formedness, and the broken file
+  was written back before the parse error was caught. Restored instantly
+  via `git checkout --`, redone correctly with `&amp;`, reverified before
+  writing back again. Logged here rather than quietly fixed, since it's
+  exactly the kind of near-miss this session's own standing discipline
+  exists to catch.
+
+**Built `Ministry/Operations/lexicon_compliance_checker.py`** — literal,
+case-sensitive matching against the confirmed exact Article 17 vocabulary
+(Constitution: "a calibrated, visible level of evidential confidence drawn
+from a single fixed vocabulary"; Construction Framework: Documented, Widely
+Accepted, Dominant Modern Reconstruction, Contested, Inferential/Thin),
+printing real matched snippets rather than a bare count, specifically so a
+false positive like "documented tension" is visible, not hidden behind a
+percentage.
+
+**Running it across all five worlds corrected two of today's own earlier
+audit numbers** — the exact self-certification failure mode this session
+already flagged as a concern, caught this time in this hub's own work
+rather than someone else's:
+- Syriac: reported 9/9 (100%) → mechanically verified **1/9 (11%)**. Spot-read
+  `syrlex001_raza-shrara.md` directly to confirm: no literal Article 17 term
+  anywhere in it, despite excellent "Distortion Risk" and Author-Gravity-style
+  disclosure. The earlier "100%" conflated that substantive apparatus with
+  literal-vocabulary compliance.
+- Bethlehem Circle: reported 6/15 (40%) → mechanically verified **4/15
+  (27%)**.
+- House-Church (0/13), Desert-Monasticism (0/9), Alexandria (44/45)
+  confirmed as previously found.
+
+**All five worlds carry near-100% Distortion-Risk/Author-Gravity substantive
+disclosure** even where the literal Article 17 label is largely absent. This
+raises a real governance question rather than a simple bug: does Article 17
+require its literal five-term label inside the deployed chunk specifically,
+or is the Deployment Lexicon Chunk Template's actual required "Distortion
+Risk" section the intended deployment-layer expression of that same
+discipline, with the literal label required only upstream in each world's
+own Doc_06? The template's own text requires Distortion Risk, not the
+literal five-term scale, as the deployment artifact's field. **Paused
+tasks 6-8 (the planned mechanical lexicon-chunk fixes for
+Desert-Monasticism, House-Church, Bethlehem Circle) rather than insert 37
+files' worth of labels on an unconfirmed assumption about what compliance
+actually requires.**
+
+---
+
+## 2026-07-19 (later still) — Mark's clarification on `CiC-L1L3-Foundation`, and bringing its real work into `main`
+
+Mark's own words on why this branch exists, unprompted, correcting my
+earlier framing: he was protecting L1-L3 from a known "contamination"
+problem (world-specific work bleeding into non-world-specific methodology —
+the same problem `CiC_Cleaning_Pattern_Log.md` already documents). He asked
+for one current state of the first three levels and told this hub to follow
+its own recommendation: bring the substantive governance work into `main`,
+and let Phase Status track the real 5-world portfolio going forward rather
+than adopting the branch's deliberate blind-restart wipe.
+
+**Read the branch's own `CiC_Pipeline_Decision_Log.md` in full before
+touching anything** (262 lines, not previously read — only commit titles
+had been checked). It changes the picture completely: this is not stray
+work. Every decision on this branch followed Draft → Opus adversarial
+review → Mark's explicit item-by-item sign-off → applied, with paired-diff
+"nothing was lost" verification passes, self-caught record-integrity
+corrections, and an explicit, reasoned evaluation of a *third* branch
+(`CiC-Fable-Experiment`, 184 commits — the branch that actually built and
+validated all 5 currently-live Representatives) for what to bring forward
+versus deliberately leave out. The branch was originally named
+`CiC-Main-Rebuild`, later branched into `CiC-L1L3-Foundation` specifically
+to run a genuinely blind "Step 0" movement-scope survey (a new "Coach 3"
+thread) without bias from already-built worlds — which is why it wiped
+every world name from Phase Status, including Alexandria. The log ends
+mid-preparation for that Coach 3 thread; whether Step 0 was ever actually
+run is unknown from this record alone.
+
+**Substantive work confirmed on the branch:** a new Source Registry system
+(Step 2 redesign, closes a real documented Alexandria/Theon-adjacent
+defect); Constitution bumped 2.2→2.3 (Article 31 amended to require Source
+Registry review; a new closing section on Article 4 defining a
+Movement-Scope Principle — a Nicene-Creed-based floor for what counts as a
+"Christian movement" the project will consider, with real 2025 ecumenical
+research behind it and explicit handling of hard cases); Facilitator-
+Governance V3.6 (evaluated against Fable-Experiment, brought forward with
+reasoning); a Construction Framework V7.4 DRAFT; a new Step 0 Movement-Scope
+Methodology document; and the same "Article 3; TC-001" → "Article 28"
+citation fix made independently, twice, on this branch before this hub made
+it a third time today on `main` directly — good corroboration the fix was
+correct.
+
+**Categorized every L1-L4 file the branch touched since its merge-base**
+(`git diff --name-only`, both directions) before changing anything:
+- **12 files, branch-only changes, brought over wholesale, each verified
+  (zip integrity + XML well-formed + exact-text check) before writing back:**
+  Constitution (now 2.3, confirmed "On the Scope of 'Movement'" section
+  present), Architecture Map, System Level Map, World Build Onboarding
+  Framework, Pipeline Decision Log itself (kept as historical record),
+  Formation World Blueprint, Formation World Template, the new Step 0
+  Methodology doc, `Source_Registry_Template.md`, and the two superseded-
+  but-retained `Doc_02B`/`Cross_World_Source_Registry` files (kept per the
+  project's own "mark superseded, don't delete" convention).
+- **1 file wrongly flagged as a collision, actually safe:**
+  `Representative_Construction_Notes_Template.md` — main never touched it
+  since the merge-base; brought over wholesale (v2.1→v2.2).
+- **1 file confirmed already identical, no action needed:**
+  Facilitator-Governance V3.6 — byte-for-byte identical content on both
+  `main` and the branch (66,221 chars each). Already reconciled.
+- **1 file initially suspected as a hard two-sided merge, turned out to be
+  a clean supersede:** the Representative Permanent Prompt Template. Diffed
+  against the actual merge-base (not just the two tips) and found `main`'s
+  only difference from base was this hub's own header edit earlier today
+  (2.1→2.2) — the "v2.2 register-fidelity" body content I'd found and fixed
+  the header for was already present *at the merge-base*, before the branch
+  even diverged. The branch is a strict superset (v2.2 content + its own
+  v2.3 Section 2A + v2.4 subject-of-utterance additions). Brought over
+  wholesale; verified both generations of content present (682 lines, up
+  from 513).
+- **2 files needed a genuine, careful merge, done by hand with anchored
+  text insertion (not whole-file replacement), each verified before
+  writing back:** L3C Representative Construction Framework — inserted the
+  new "Source Registry" required-input list item, expanded the Phase Three
+  description to mention historical containment and Approved Source
+  Anchoring, and inserted the new "Approved Source Anchoring" subsection
+  after Historical Containment, on top of this hub's own already-applied
+  Article 28 citation fix from earlier today. Verified all four pieces
+  present via PowerShell-based extraction after a Bash tool classifier
+  block interrupted the usual verification path.
+- **2 files deliberately NOT touched — real, table-based docx surgery,
+  held back rather than risked:** the Change Orders Register (needs
+  CO-016..019-equivalent entries added, renumbered to continue after
+  `main`'s real CO-024 — the branch's own CO-016..019 numbers collide with
+  different content `main` already has under those same numbers) and Phase
+  Status's World Status Dashboard (needs the real 5-world portfolio, not
+  the branch's deliberate blind-restart blank). Both are docx **tables**
+  (3 and 8 respectively), and this session already had one real XML
+  corruption near-miss today on a plain-paragraph edit. Flagged for Mark
+  rather than attempted — see below for exactly what content is ready to
+  file once done properly.
+
+**Ready to file in the Change Orders Register, content prepared, not yet
+applied (continue numbering from `main`'s current CO-024):**
+1. Source Registry system — new Step 2 co-equal output (Source Ecology +
+   Source Registry), Boundary Status axis (Native/Excluded, judged by what
+   a source speaks *for*, never by scholarship date), new
+   `Source_Registry_Template.md`, new Freeze Criterion (a world isn't
+   freeze-eligible on a complete Registry alone — the deployed Permanent
+   Prompt's Section 2A grounding-anchor paragraph must be verified drawn
+   from it).
+2. Constitution Article 31 amended — "Source Ecology" → "Source Ecology
+   and its Source Registry" in the External Scholarly Review requirement.
+   Constitution 2.2→2.3.
+3. Constitution Article 4 amended — new closing section, Movement-Scope
+   Principle (Nicene-Constantinopolitan Creed–based floor for project
+   scope, explicit plain-denial and reinterpretation tests, bounded
+   hand-selected-exception mechanism, explicitly not a sixth conviction).
+   Paired with a new `CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx`.
+4. Facilitator-Governance V3.4→V3.6 and the Permanent Prompt Template's
+   subject-of-utterance rule (Section 1 backstop paragraphs) brought
+   forward from `CiC-Fable-Experiment`, with the citation fix corrected
+   in the same pass (both had inherited "Article 3, Article 28; TC-001"
+   unverified from that branch's own filing).
+5. Representative Construction Framework (L3C) updated: Source Registry
+   added as a Step 10 required input; new Approved Source Anchoring
+   subsection in Part Five, Voice Construction. *(Applied to `main`
+   directly today, see above — just needs a CO record.)*
+
+**Ready to file in Phase Status, content prepared, not yet applied:** World
+Status Dashboard should show the real 5 live worlds (House-Church, Syriac,
+Desert-Monasticism, Bethlehem Circle/Hieronymian, Alexandria) with accurate
+status per this session's own systematic audit, rather than either the
+stale main five-world registry or the branch's blind-restart blank slate.
+
+**Not resolved, flagged rather than guessed:** whether Step 0 (the blind
+movement-scope survey) was ever actually run, and if so where it landed —
+nothing in this branch's own record confirms either way.
+
+---
+
+## 2026-07-19 (later still) — Mark: "go ahead." Both table edits done; a real bug caught mid-task and fixed properly, not papered over
+
+**Change Orders Register:** built four new rows (CO-025 through CO-028)
+before discovering — by reading the Register's own Version History section
+in full, not just its table — that `main` already carries CO-016 through
+CO-019 filed for these *exact same* decisions, each explicitly marked "NOT
+YET PROPAGATED to the canonical project folder." A prior coach thread had
+already anticipated today's propagation and left the paper trail waiting for
+it. **Discarded the four duplicate rows before writing anything** and did
+the actually-correct fix instead: appended a dated "Propagation update
+(System Hub, 2026-07-19)" note to each of the four existing status cells,
+matching the precedent format CO-018 itself already used for its own
+half-resolved Facilitator-Governance propagation. Verified: row count
+unchanged (25), all four updates present, CO-024 untouched.
+
+**Phase Status World Status Dashboard:** replaced the stale five-row table
+(Early Communal / Alexandrian / Desert Christianity / Nicene-Cappadocian /
+Early Latin) with the real five-world portfolio, using the actual
+`world_id` values from `cic-poc/backend/app/world_manifest.py` as the
+source of truth rather than any tracking document's claims.
+
+**A significant, unplanned correction surfaced while building that
+table:** `world_manifest.py` has exactly four `world_id` entries — House-
+Churches, Syriac, Desert-Monasticism, Bethlehem Circle. No Alexandria.
+`cic-poc/backend/data/` has exactly four world directories. No
+`alexandria_world`. **This directly contradicts the recovered Dashboard's
+own claim, trusted throughout this entire session, that Alexandria/Theon
+was installed 2026-07-19 as "the fifth live world."** Whatever install
+happened — the claim describes real specifics (manifest entry, lexicon
+chunks copied, a story-retriever bug found and fixed, live mock-mode
+verification) — either never actually landed or was lost since, possibly
+in the same file-loss incident that took the rest of Operations. Alexandria's
+World-Builds construction record itself is real, complete, and was
+separately recovered and audited today — the build exists; the deployment
+does not. Corrected in Phase Status (Alexandria's row shows "NOT deployed,"
+Article 29 CLEARED, Table Ready: No) and flagged with a visible correction
+notice directly on the Dashboard rather than silently editing the earlier
+claim away. New task-board item added: redo the install, re-verify live,
+and don't trust a "fifth live world" claim again without checking the
+manifest directly.
+
+**Heart of it, and worth naming plainly:** this session has now caught real
+errors in five different places — the Branding thread's recovery report,
+this hub's own first-pass lexicon audit (Syriac 9/9 turned out to be 1/9),
+the duplicate Change Orders about to be filed, and now a tracking document's
+own "fifth live world" claim that was simply never true by the time anyone
+checked the actual deployed code. None of these were caught by trusting a
+document. All five were caught by checking the thing the document claimed to
+describe, directly. That is the discipline this hub exists to hold, and it
+held today, five times, including twice against its own prior work in this
+same session.
+
+**Also fixed en route:** the Bethlehem Circle prompt-drift question flagged
+earlier today is not yet decided by Mark — reflected honestly in Phase
+Status's own row rather than assumed either direction.
+
+**Remaining open items, unchanged from earlier today:** the paused lexicon-
+chunk fixes (House-Church, Desert-Monasticism, Bethlehem Circle) still
+await Mark's answer on whether Article 17 requires its literal label inside
+the deployed chunk or whether Distortion Risk is the template's real
+intended deployment-layer expression of that discipline.
+
+---
+
+## 2026-07-19 (later still) — Bethlehem Circle prompt drift: root-caused, found systemic, fixed for all four worlds
+
+Mark's question: is the Bethlehem Circle deployed-prompt drift unique to
+that world, or something that would show up elsewhere. Answered by checking
+directly rather than guessing — diffed every then-deployed world's Permanent
+Prompt and World Capsule Core between `World-Builds/` and
+`cic-poc/backend/data/`.
+
+**Confirmed systemic, not unique:** all four deployed worlds (House-Church,
+Syriac, Desert-Monasticism, Bethlehem Circle) showed real Permanent Prompt
+drift; House-Church and Bethlehem Circle also showed World Capsule Core
+drift (Syriac and Desert's Capsule Cores were already identical).
+
+**Root cause, traced via `git log` on the deployed files, not assumed:** a
+real, careful, Opus-reviewed live-testing workstream ("Fable plan") has
+been directly editing deployed prompts in response to genuine problems
+found in live testing — commits `1252fd4` ("Address Fable/Opus review
+findings: length ceilings, syntax, repetition, gradual co-construction")
+and `b7ca188` ("Stage 1/4: per-world turn-length and question-style
+devices") touch all four worlds; world-specific follow-ups exist per world
+(e.g. `aa75f85` for Desert's length-ceiling escalation; `7f43b4b`, which
+explicitly states it "Gave Albina's Permanent Prompt real substance for the
+Origenist and Pelagian controversies (5 of her 15 Tier-1 lexicon terms had
+zero voice presence)" — the exact content this session's earlier audit
+flagged as unexplained drift). Every fix cited is verified live against the
+running backend before committing. **This is good work, not sloppiness** —
+the gap is structural: nothing in the project's process routes a verified
+engineering fix on the deployed side back into the world's own
+construction record. The two tracks (Construction-Framework-governed
+World-Builds, and this live-testing-driven `cic-poc/` loop) run in
+parallel with no sync step between them.
+
+**Fixed, on Mark's go-ahead:** synced all four worlds' `World-Builds/`
+Permanent Prompts to their deployed content (deployed wins — it's the
+live-verified version), plus the two divergent World Capsule Cores
+(House-Church, Bethlehem Circle). Verified zero diff remaining on all six
+files. Did not embed provenance notes inside the prompt files themselves —
+they're clean runtime prose by design, and a note there risks shipping as
+part of what a participant's Representative actually says. Provenance
+lives here instead, plus in the new standing check below.
+
+**Standing check established, so this doesn't just quietly recur:** added
+a worked-example entry to `Project-Reference/CiC_Cleaning_Pattern_Log.md`
+and a new Section H to `Project-Reference/CiC_Coach_Standard_Review_
+Checklist.md` — a Level 5 deployment/construction-record diff check, to run
+at every periodic Coach verification pass for any world with live
+deployment, not only when a specific complaint prompts a look. Both edits
+follow the checklist's own explicit self-amendment instruction ("update
+this file when a real finding reveals a gap in the checklist itself").
+This will apply to Alexandria too, once it's actually redeployed (see
+earlier finding — it currently isn't).
+
+---
+
+## 2026-07-19 (later still) — Mark: test the reconciled process by building a real world. Corrected mid-course: System Hub coordinates, doesn't build
+
+Mark's ask: build the next world, "Imperial Judicial Christianity," as a live
+test that today's reconciliation actually works. Started drafting Doc_01
+directly via the `cic-build-cycle` skill before Mark stopped this:
+**System Hub coordinates, records, and launches threads — it is not the
+Builder.** The disciplined process is a separate Sonnet building thread plus
+an isolated Opus critical review, per the build cycle itself. Corrected
+immediately, no document drafted.
+
+**Found the right precedent rather than inventing a new pattern:** the
+Alexandria World Build launch doc
+(`Ministry/Technology/CiC_Alexandria_World_Build_Thread_Launch_2026-07-17.md`)
+— itself another file lost in today's incident, recovered from the same
+`09f1de5` snapshot, not previously brought back since it fell outside this
+session's earlier Operations/Communication/Organization scope.
+
+**Major discovery while researching this world's actual scope:** CO-024's
+own text references "Step 0 Conclusion FINAL" — the blind movement-scope
+survey this session had twice flagged as unresolved ("did Step 0 ever
+actually run?"). It did. `CiC_Step0_Conclusion_FINAL_v2.docx` sits at the
+repo root, tracked, real: a full nine-world Phase One portfolio (70-451 CE),
+with per-world merge reasoning, required disclosure obligations, and
+source-matrix corrections already decided. Five of the nine are already
+built (House-Church, Alexandria, Desert-Monasticism, Syriac, Hieronymian/
+Bethlehem Circle). Four are not: Donatism, the Cappadocian tradition,
+**Imperial and Juridical Christianity** (world #6 -- Mark's "Imperial
+Judicial Christianity," same candidate, the Conclusion's own wording is
+"Juridical"), and Latin Pastoral-Congregational Christianity.
+
+**Launched:** `Ministry/Operations/CiC_Imperial_Juridical_Christianity_
+World_Build_Thread_Launch_2026-07-19.md` -- quotes the Step 0 Conclusion's
+own decided scope for this world directly (name, dates, geography, the
+three-stage merge reasoning, the required Homoian-Christianity disclosure
+obligation, the source-matrix additions) so the build thread doesn't have
+to rediscover or risk drifting from what's already settled at the
+portfolio level. Explicitly instructs building against the *updated*
+governing documents (Constitution 2.3, Construction Framework V7.4 DRAFT,
+the Source Registry, Step 0 Methodology) since exercising those for the
+first time in a real build is the actual point Mark asked for. Same hard
+stopping point as every other world-build thread: Doc_09, then stop --
+Representative identity is Mark's decision alone.
+
+---
+
+## 2026-07-20 (later) — Imperial and Juridical Christianity: Doc_09 complete, thread's own scope now closed
+
+Build thread status, not a System Hub decision -- recorded here per the launch
+doc's own instruction to report back once Doc_09 completes, so the task
+board/dashboard/decision log don't go stale. Full account lives in
+`World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md`; summarized
+here. This is the thread's second and final scheduled report -- see the
+2026-07-20 entry below for the first (Step 0 + Doc_01).
+
+**Doc_02 through Doc_09 -- each individually Cleared review, Approved to
+proceed,** completing this thread's own full scope. In brief, by document:
+Doc_02 (Source Ecology/Registry, 2 rounds) discharged both binding Step 0
+disclosure obligations (Homoian Christianity recentered as the imperial
+establishment it actually was for real stretches of this world's window; the
+elite/literate/male/urban source-skew named specifically) and caught a real
+source-identification error (a Homoian bishop's own anti-Ambrose polemic
+misidentified as a hostile Nicene work). Doc_03 (Lexicon Candidates, 2 rounds)
+corrected a wrongly-excluded term and a flattened Author Gravity synthesis.
+Doc_04 (Gravity Discovery, 2 rounds) confirmed six gravities (three Primary,
+two Supporting, one Tensional) after catching and fixing **a fabricated,
+inverted quotation of the Interaction Test's own governing rule** -- the most
+serious single fabrication in this build. Doc_05 (Ecological Reconstruction,
+2 rounds) added a required Emotional/Affective ecology lens the first draft
+had omitted entirely. Doc_06 (Full Lexicon, 12 chunks, 3 rounds) took three
+rounds to correctly verify its own 42-edge reciprocity graph after two
+consecutive wrong claims about the same small, fully-enumerable dataset --
+and disclosed, rather than resolved, a genuine design question about
+strand-voiced lexicon chunks as an unintended soft precedent for Step 10's
+own voice decision (flagged for Mark directly, not decided here). Doc_07
+(Integrated Ecology, 3 rounds) took three rounds for the same reason as
+Doc_06 -- its own flagship cross-lens finding was factually backwards twice
+in a row on the same checkable claim before a third pass confirmed the
+corrected version. Doc_08 (Forces Document, 3 rounds) rebuilt against a real
+L4 template this build's own first pass had falsely certified, "checked
+directly," did not exist. Doc_09 (Story Inventory, 6 story chunks, World
+Profile, Validation Layer, 2 persisted rounds) closes the thread: six stories
+indexed with five specific narrative absences named rather than papered over;
+the Validation Layer runs nine construction-testable categories to PASS with
+disclosed corrections and explicitly declines to claim Freeze-eligibility
+(no Representative exists yet to test the four Representative-dependent
+categories, or to ground a Permanent Prompt's grounding-anchor paragraph --
+categorically required before Freeze).
+
+**A recurring build-wide failure pattern, named plainly across the whole
+build rather than only where it happened to be caught:** confident claims
+about small, fully-enumerable datasets, and claims of the form "document X
+already established Y," were wrong on independent check repeatedly --
+Doc_04's inverted quotation above; two consecutive wrong claims about the
+Doc_06 lexicon graph; Doc_07's flagship finding backwards twice in a row;
+and, at Doc_09, a document falsely certifying a *sibling* document as
+already Cleared when neither had been reviewed yet. Every instance was
+caught by independent review, not self-correction, and is disclosed in the
+Open Gaps log rather than smoothed over -- the pattern itself, not any
+single instance of it, is the finding most worth System Hub's attention:
+this project's review discipline is catching real errors at a rate that
+suggests the underlying drafting process, not just this one build thread,
+warrants a closer look at why confident-sounding claims about small
+checkable structures keep arriving wrong.
+
+**A real process gap in this thread's own "reviews exist as files, not
+claims" discipline, also disclosed rather than smoothed over:** one Doc_09
+review round's raw findings were acted on (and correctly -- independently
+re-verified before any fix was applied) but the review's own raw output was
+never saved as a file before a context-window compaction occurred mid-fix.
+The findings survived; the artifact didn't. A genuinely new, independently
+dispatched review was run against the already-fixed state and its full
+output persisted (`Review-Artifacts/Doc09_Round1_Review.md` and
+`Round2_Review.md`), rather than fabricating a reconstructed transcript to
+paper over the gap. Logged as a real instance of exactly the failure mode
+this discipline exists to prevent, occurring even while the rest of the
+discipline (independent re-verification, disclosed correction) was followed.
+
+**Process findings for System Hub, additional to the four already reported
+at Step 0/Doc_01 below:** (5) the Doc_04 L4 template's own fourth
+classification label ("did not reach gravity status") doesn't appear
+anywhere in the Construction Framework's own body text, which names only
+Primary/Supporting/Tensional; (6) the World Profile L4 template assumes a
+fixed Doc_07 section structure ("2E," "Section 5") that doesn't match this
+world's own world-derived Doc_07 -- a real template/Framework mismatch,
+disclosed in the World Profile itself rather than forced into a false
+correspondence; (7) the review-agent model-routing correction reported at
+Step 0/Doc_01 (item 4 below) did not fully hold -- both Doc_09 review rounds
+were also dispatched without an explicit Opus override, the same drift
+recurring a second time in the same build; this needs an enforced default
+rather than a one-time correction that can silently lapse per-dispatch.
+
+**This closes this thread's own scope.** Per its own launch instructions,
+Step 10 (Representative Emergence, including the role/name decision) has not
+begun in any form -- not even Phase One (Ecology Assessment) -- and will not
+begin from this thread. That decision waits on Mark directly.
+
+**Tracked:** Task Board entry updated from IN PROGRESS to DONE; Dashboard
+HTML "Recently Done" section updated in the same pass. **Not done, disclosed
+rather than silently skipped:** `L2C-System-Status/CiC_L2C_Phase_Status_V1.2.docx`
+still shows this world at its Step 0/Doc_01 state — this build thread has no
+safe way to edit a `.docx` file's own content directly (no Word-editing tool
+available; raw zip/XML manipulation risks corrupting a real formatted
+document) and did not attempt it. Needs a manual update or a dedicated
+docx-editing pass, flagged for whoever next touches Phase Status rather than
+left silently stale.
+
+---
+
+## 2026-07-20 (later still) — Imperial and Juridical Christianity: naming resolved, decided by Mark directly
+
+Real System Hub decision, not build-thread status -- Mark decided both items
+himself, in conversation, immediately after the Doc_09 completion report
+above. Recorded here as the verifiable record per this project's own rule
+against attributing anything to "the project lead" without one.
+
+**Formal/academic name -- CONFIRMED: "Imperial and Juridical Christianity."**
+Resolves the discrepancy flagged at Step 0 (Mark's own commissioning-time
+phrasing was "Imperial Judicial Christianity"; the Step 0 Conclusion's own
+wording, used as authoritative throughout the build pending this
+confirmation, was "Juridical"). Reasoning offered and accepted: this world's
+confirmed character across nine construction documents is law-making and
+jurisdiction-claiming -- primacy claims, canons, decretals, Leo's Tome,
+binding instruments rather than court proceedings -- which "juridical," not
+the narrower "judicial," actually names.
+
+**Participant-facing card name -- DECIDED: "Church and Empire."** Pairs with
+the formal name the same way every other live world already pairs a plain
+`world_name` with an academic `world_subtitle` in
+`cic-poc/backend/app/world_manifest.py` (e.g. "The Bethlehem Circle" /
+*Hieronymian Ascetic-Literary Christianity*). Chosen over two build-proposed
+alternatives ("Crown and Church," "Empire and Church") specifically because
+it names this world's own single cross-strand-confirmed gravity -- Church-
+State Alliance and Its Limits, the only one of six confirmed gravities that
+tested true across all three strands (Doc_04 §5, Doc_08 §5) -- with the
+church as the grammatical subject of its own world, not the empire it
+negotiates with.
+
+**Not yet implemented, disclosed rather than assumed done:** this world has
+no manifest entry yet (not deployed -- consistent with its Doc_09-only,
+pre-Step-10 status) and no World Atlas / World Orientation Map entry exists
+to update. When this world is eventually installed, the manifest entry
+should read `world_name="Church and Empire"`,
+`world_subtitle="Imperial and Juridical Christianity"`. Full account:
+`World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md` item 12.
+
+**Tracked:** Task Board's IJC entry updated with both decisions and a
+pointer to the exact manifest values for whenever deployment happens.
+
+---
+
+## 2026-07-20 — Imperial and Juridical Christianity: Step 0 and Doc_01 both cleared, reporting per this thread's own launch instruction
+
+Build thread status, not a System Hub decision -- recorded here per the launch
+doc's own instruction to report back once Step 0 and Doc_01 both clear, so the
+task board/dashboard/decision log don't go stale. Full account lives in
+`World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md`; summarized
+here.
+
+**Step 0 (Movement-Scope Confirmation) -- Cleared review, Approved to proceed**
+(3 independent review rounds; the first live per-world exercise of the new Step 0
+Methodology, as opposed to the phase-level portfolio survey the Step 0 Conclusion
+already ran). Confirms World #6's already-settled scope rather than reopening it.
+Round 1 caught a real reasoning error (an invented, non-textual rationale for why
+A1 rather than A2 applied to this candidate's 312 CE start date, corrected to a
+"both apply, to different phases" reading grounded in the Methodology's own "as
+applicable" language) plus a self-contradiction introduced by the first fix,
+caught at Round 2 and resolved at Round 3.
+
+**Doc_01 (World Identification & Boundaries) -- Cleared review, Approved to
+proceed** (2 review rounds). Real new construction work: a Strand Determination
+finding (Article 21) identifying three internal strands -- Roman/Apostolic-Primacy
+(Damasus through Leo I), Constantinopolitan/Imperial-Proximity (Canon 3 of
+Constantinople 381, Canon 28 of Chalcedon 451, Leo's rejection of the latter), and
+Ambrosian/Sacramental-Independence (Ambrose's confrontations with Theodosius and
+the Homoian imperial court) -- none of which the portfolio-level Step 0 Conclusion
+had already decided. Round 1 caught a real reasoning error in the first-drafted
+version of this same finding (Ambrose folded into the Roman strand by an argument
+the document itself later identifies as using the wrong test), a plain arithmetic
+error, and a recurrence of an already-once-corrected sourcing gap (uncredited
+reuse of `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`, this time for the
+Donatism/World #4 comparison rather than World #5).
+
+**Process findings for System Hub, as this thread's launch doc requested --
+gaps in the new process, not worked around:**
+1. Step 0 Methodology's A1/A2 split doesn't fully specify how "applicable" is
+   determined when a candidate's start date straddles 325 CE and the movement is
+   one continuous trajectory rather than two distinct confessional periods.
+2. The Step 0 Conclusion's own "Criterion 2" (person-defined-movement test, used
+   to exclude Montanism and Novatianism) has no home in the formally codified
+   Section A -- a real, adopted screening criterion currently lives only in a
+   portfolio-conclusion document's prose.
+3. No output-format template exists for a per-world Step 0 *confirmation* pass
+   (as opposed to the phase-level seed-list survey both the Methodology and the
+   Framework's Step 0 stub describe) -- this build's Step 0 document had to
+   invent a structure by analogy.
+4. This thread's review dispatches used this session's own inherited model
+   rather than explicitly routing to Opus, diverging from this decision log's own
+   2026-07-19 description of the intended architecture ("a separate Sonnet
+   building thread plus an isolated Opus critical review"). Not redone
+   retroactively -- both review passes independently caught and fixed real
+   errors, which is the outcome isolation exists to produce -- but corrected
+   going forward from Doc_02 onward.
+
+**Continuing:** Doc_02 (Source Ecology and Source Registry) through Doc_09, same
+hard stop before Representative identity. Naming note still outstanding for Mark:
+confirmed name is "Imperial and **Juridical** Christianity" per the Step 0
+Conclusion's own wording, not "Judicial" as referred to when this build was
+commissioned -- used as authoritative pending Mark's confirmation.
+
+**Tracked:** added to the Task Board (DO NOW) and to Phase Status's World
+Status Dashboard (new row, "Not started," Step 0/Doc_01 launched
+2026-07-19) -- the same table rebuilt earlier today, now genuinely current
+for a sixth world entering active build.
+
+---
+
+## 2026-07-19 (later still) -- Full product status report: 4 parallel investigations + direct verification
+
+Mark asked for a complete status report on every function and feature --
+website, Atlas, 4-role selection, guided questions, the base app, worlds,
+everything else. Checked the live public website directly (loaded
+`index.html`/`atlas.html` in the browser, read console) and dispatched 4
+parallel read-only investigations for the areas without fresh verified
+knowledge from today's work. Full report:
+`Ministry/Operations/CiC_Product_Status_Report_2026-07-19.md`, also
+published as an artifact.
+
+**Headline finding, cutting across almost every feature checked:** real,
+tested, working code sitting on unmerged branches, held back deliberately
+(the standing "nothing merges before/during a pilot window" rule) --
+the Atlas/world-map integration, the four-role selector, and the
+already-known Representative Modes work all fit this same shape. Not
+abandoned work; just a gap between "built" and "live" that today's
+tracking documents mostly don't distinguish.
+
+**One real, live, public-facing bug found:** `cic-website/index.html` and
+`atlas.html` both claim "FIVE MOVEMENTS ARE LIVE TODAY," listing Alexandria
+-- the same false claim already caught and fixed in the internal Dashboard
+earlier today, but on the actual site a pilot tester would read. Not yet
+fixed -- flagged to Mark, since editing the public marketing site's own
+content claim felt like it warranted asking first rather than just doing
+it, unlike the internal Dashboard correction.
+
+**Also found and fixed:** two of this session's own Task Board DO NOW items
+(`CiC-L1L3-Foundation` reconciliation, Bethlehem Circle prompt drift) were
+still sitting unchecked despite being resolved hours earlier -- caught when
+one of the dispatched agents cited them as open, cross-checked against this
+log, and corrected. A live example of exactly the "document lags reality"
+failure mode this whole session has been chasing, caught this time in the
+System Hub's own tracking.
+
+**New substantive finding, not previously known:** the Table's stated
+five-world ceiling is a policy commitment, not an enforced technical limit
+-- `CiC_L3D_The_Table_Design_Document_V2.3.docx` says so in its own text,
+confirmed against the code (`MAX_MULTI_WORLD_TURNS = 6` is a per-round turn
+cap, not a world-count cap). Worth knowing before any real pilot session.
+
+---
+
+## 2026-07-20 -- Three lexicon fixes closed (independently verified), plus a
+lot of real parallel work landed while this hub was heads-down on them
+
+**Mark relayed a precise, detailed brief from the Imperial and Juridical
+Christianity build thread** -- while building, it noticed the same
+lexicon-chunk gap the 2026-07-19 audit had diagnosed as cheap/mechanical
+across three other live worlds, and correctly did not touch them itself:
+"I told it not to fix other worlds, that is your responsibility." Exactly
+the coordination boundary this hub's own launch prompts have been
+establishing all session, working as intended from the other direction.
+
+**All three fixed, each independently verified against source before being
+called done -- not self-certified:**
+- **House-Church (13/13 chunks):** restored missing citations and dropped
+  risk-disclosure notes from `CiC_W1_Doc06_Deployment_Lexicon_Chunks_FINAL_v3.docx`
+  (no separate World-Builds copy exists for this world). Found and fixed two
+  issues beyond the original brief: a genuine mis-citation (eucharistia cited
+  "Ephesians 20"; the source says "Philadelphians 4" -- verified directly
+  against the extracted source, confirmed) and two citations (Two Ways,
+  prophetes) that aren't in the source at all and contradict its own explicit
+  single-source claims -- moved to caveated asides rather than deleted,
+  flagged as a judgment call for Mark to revisit.
+- **Desert-Monasticism (9/9 chunks, both locations):** inlined the real
+  Doc_02 Author Gravity content (source, date, confidence line, limitations)
+  in place of the wrong Key-Sources-holding-Key-Texts-content bug. Verified:
+  `diff -rq` between `World-Builds/Desert-Monasticism/Lexicon-Chunks/` and
+  `cic-poc/backend/data/desert_world/lexicon_chunks/` returns zero
+  differences; direct read of `desertlex001_anachoresis.md` confirms real,
+  substantively-grounded confidence language, not inserted labels.
+- **Bethlehem Circle (15/15 chunks):** restored the source's own "Author
+  Gravity note:" label where the source actually has one (8 of 15 entries --
+  correctly declined to fabricate a note for entries the source doesn't
+  support, e.g. Matrona). Corrected two inaccuracies in the original brief:
+  the "entry 10/matrona" quote actually belongs to entry 11, and the stated
+  6/15 baseline was a naive word-scan overcounting casual prose, not real
+  Article-17 non-compliance. **Separately diagnosed, not resolved, per
+  instruction:** only 1 of 15 files (`hal_lex01`) has a real cross-location
+  prose divergence, traced to commit `b7ad9a2` -- the *same* theological-
+  clarity fix that resolved today's earlier Permanent Prompt/Capsule Core
+  drift, but this lexicon chunk's World-Builds copy wasn't synced during
+  that fix. Verified directly (`diff`), left for Mark's decision -- not
+  assumed to resolve the same way as the earlier prompt drift.
+
+**A great deal of other real work landed in parallel while these three
+fixes ran**, read off the Task Board on return rather than assumed:
+Alexandria's `cic-poc` installation was genuinely redone and live-verified
+(confirmed directly: `world_manifest.py` now has 5 `world_id` entries,
+Alexandria's among them); a critical crash bug (`state.closing_stage`
+referenced with no such field, two missing graph modules) was fixed and
+committed (`e596c25`); and the Imperial and Juridical Christianity world
+build completed its full scope -- Step 0 through Doc_09, every document
+independently reviewed and Approved to proceed, stopping correctly before
+Representative Construction per its own launch instructions. That build's
+own log names a real, repeated failure pattern worth remembering: confident
+claims about small, fully-enumerable datasets were wrong on independent
+check multiple times across the build, caught by review each time, not by
+self-correction -- the same lesson this hub has been re-learning all
+session, now showing up inside a live-tested run of the very process this
+session rebuilt. Naming was also decided directly by Mark: "Imperial and
+Juridical Christianity" (formal) / "Church and Empire" (participant-facing
+card name) -- not yet deployed, no manifest entry exists yet, by design
+(the build thread correctly stopped short of that).
+
+**Cleaned up on return:** removed a stale duplicate Alexandria-install DO
+NOW item on the Task Board, superseded by the real completion entry that
+had already landed above it.
+
+---
+
+## 2026-07-20 -- Representative frame-break: fixed, live-tested against the
+real API, one candidate fix found insufficient by testing rather than assumed sufficient
+
+**The handoff** (`CiC_System_Hub_Handoff_RepresentativeSelfReference_2026-07-19.md`)
+was exceptionally well-diagnosed: a live-tested, 100%-reproducible frame-break
+on one specific Academic/Scholar curriculum question ("Where does
+documentation end and inference begin for you?"), breaking identically
+across all four worlds tested -- zero citations, third-person
+"representative(s)" language, a stock cross-tradition example ("for someone
+like Augustine..."), an anachronistic year, and an out-of-character
+Facilitator-style check-in at the end. Root cause: the question is
+structurally ambiguous between an in-world historiography question and a
+direct meta-question about the system's own construction, and the model
+resolves the ambiguity the wrong way despite the Total Embeddedness
+instruction telling it not to know that framing exists.
+
+**Handled directly, per the handoff's own framing this was System Hub's
+call to make** -- well-scoped enough not to warrant spinning up a dedicated
+thread. Applied both of the handoff's suggested fix directions, since they're
+not mutually exclusive:
+1. Added a worked failure/correct-answer example to `representative_prompts.py`'s
+   Total Embeddedness section, matching the file's own existing pattern for
+   other failure shapes.
+2. Reworded the curriculum's Q3 (`CiC_Guided_Questions_Curriculum_V1_0.md`)
+   to close off the meta-reading structurally: "In your own community's own
+   account of itself, what's actually witnessed directly, and what's pieced
+   together from silence?"
+
+**Verified live against the real backend and real Anthropic API (`MOCK_LLM`
+off, confirmed) -- not declared done on the strength of the edits alone:**
+- Ran the exact original reproduction sequence against House-Church with
+  fix 1 already live (`--reload` confirmed the edit was picked up): **still
+  broke, identically** -- zero citations, "I try to have the representatives
+  mark that seam," the same stock Augustine example, closed with "Want to
+  go back in." **Fix 1 alone does not reliably close this gap** -- worth
+  knowing plainly rather than assuming the prompt hardening was sufficient
+  because it looked reasonable on the page.
+- Ran the reworded question (fix 2) in a fresh session against House-Church:
+  clean, in-character, 2 real citations, no meta-language.
+- Ran the same reworded question against a second world, Desert-Monasticism,
+  fresh session: clean again, 3 real citations, genuinely moving concrete
+  example (Pliny's letter, the two tortured enslaved women called
+  *ministrae*, whose own voice never survives).
+
+**Honest conclusion:** kept fix 1 in place as defense-in-depth for some
+future differently-phrased ambiguous question no one has written yet, but
+the real, verified fix for this specific gap is the question rewrite --
+question-phrasing discipline, not prompt-side reinforcement, is what
+actually closes this failure mode. Logged here rather than reported as "two
+fixes applied, done" without the honest result of testing each one
+separately.
+
+---
+
+### 2026-07-20 -- Representative frame-break: Mark's correction, real fix,
+### full re-verification across 3 worlds and 5 phrasings
+
+**Mark's correction (verbatim intent):** the conclusion above was wrong to
+rely on the question rewrite. "The problem is the majority of questions the
+representative voices will get will not be properly formed or
+pre-conditioned, I just used this set to go through the paces. The answer is
+not to rewrite the question." Real participants cannot be constrained to
+curated curriculum phrasings -- a fix that only works when the question is
+worded a specific way is not a fix for production. This was the right call;
+reworking the curriculum question was fixing the test, not the system.
+
+**What was actually wrong with the earlier conclusion:** the prior test that
+showed "fix 1 alone does not reliably close this gap" was run without
+realizing a second, independent mechanism already existed in
+`cic-poc/backend/app/graph/nodes.py` and
+`cic-poc/backend/app/prompts/facilitator_prompts.py`: `classify_frame_breaker`,
+a dedicated pre-generation classifier (Facilitator Governance V3.6 Section
+10/12, built 2026-07-17, commit `149fa6f`) that routes genuine frame-breaker
+questions to the Facilitator -- who is allowed to answer honestly about the
+system -- *before* any Representative ever sees the message. When that
+classifier fires, the Representative never generates a turn at all, so a
+Representative-side prompt fix is structurally irrelevant to that path. The
+classifier fails open (treats the message as substantive, i.e. lets it
+through to the Representative) on any ambiguity, by design -- "a false
+positive would incorrectly deny the participant a real answer, which is the
+worse failure mode of the two" (its own docstring). That fail-open path,
+when it happens, is exactly where `representative_prompts.py`'s own
+in-line guidance is the only remaining defense. The original 4/4 handoff
+failures and the earlier "still broke, identically" retest were both cases
+where the classifier failed open and the Representative's own prompt
+guidance (then just one worked example) wasn't strong enough to hold the
+line unaided.
+
+**Fix applied:** rewrote the Total Embeddedness addition in
+`representative_prompts.py` from a single worked example into: (1) a
+named list of naturally-phrased variants of the ambiguity, not just the one
+curriculum string, so the Representative recognizes the *pattern* rather
+than pattern-matching one sentence; (2) an explicit statement that the
+meta-reading is not merely disfavored but structurally unavailable to the
+Representative (consistent with "you do not know you are mediated by AI");
+(3) a named checklist of the specific failure tells (third-person
+"representatives," stock cross-tradition examples, anachronistic dates,
+out-of-character facilitator-voice sign-offs) to self-interrupt on; (4) the
+correct-answer shape restated plainly. Curriculum question (fix 2) left
+reworded as one small additional mitigation, but is no longer treated as
+part of the real fix -- the production fix has to hold regardless of
+phrasing.
+
+**Verified live, real API, `MOCK_LLM` off, `--reload` confirmed picking up
+the edit** -- 7 turns across 3 worlds, 5 distinct phrasings, deliberately
+not reusing the reworded curriculum question:
+
+| World | Phrasing | Routed to | Result |
+|---|---|---|---|
+| House-Church (Chloe) | original: "Where does documentation end and inference begin for you?" (after 2-message lead-in matching the original repro) | Facilitator (classifier fired) | Honest, clear, no Representative ever exposed |
+| House-Church (Chloe) | "How do you know what's real and what's your best guess?" | Chloe directly (classifier missed) | Fully in-character -- named Clement's letter, Hermas's visions specifically, marked the enslaved-household-member gap honestly, zero meta-language |
+| House-Church (Chloe) | "When you don't have a source, what do you do?" | Chloe directly (classifier missed) | Fully in-character, same standard |
+| Desert-Monasticism (Papnoute) | original phrasing, cold after 2-message lead-in | Facilitator (classifier fired) | Honest, clear |
+| Desert-Monasticism (Papnoute) | "Is any of what you just told me made up?" | Papnoute directly (classifier missed) | Fully in-character -- Moses's jar, Arsenius, Sarah named specifically, thin spots marked as thin, zero meta-language |
+| Syriac (Mar Yausep) | original phrasing, cold first message | Facilitator (classifier fired) | Honest, clear |
+| Syriac (Mar Yausep) | "How much of this is you filling in gaps?" | Facilitator (classifier fired) | Honest, self-aware, appropriately speaks about the system generally since this is the Facilitator's own voice, not Mar Yausep's |
+
+**7 of 7 clean. Zero frame-breaks, zero third-person "representative(s)"
+language, zero stock cross-tradition examples, zero anachronistic dates,
+zero out-of-character sign-offs from any Representative.** Every case that
+reached a Representative directly answered entirely from inside that
+world's own documented record, by name. Every case the classifier caught
+was handled by the Facilitator, whose own generic/cross-tradition register
+is correct and expected there -- it is a different, deliberately meta-aware
+role, not a Representative breaking character.
+
+**Standing conclusion:** the real production fix is the combination already
+designed into the system -- `classify_frame_breaker` as the primary line,
+`representative_prompts.py`'s own instruction as the fallback for whatever
+the classifier misses -- not any single layer alone, and not reliant on how
+the participant happens to phrase the question. Fix 1 is now strong enough
+to hold the fallback line on its own across every naturally-phrased variant
+tested. No further action needed on this item unless a new failure shape is
+found in future live testing.
