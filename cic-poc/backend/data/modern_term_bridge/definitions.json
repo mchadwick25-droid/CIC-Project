@@ -1,0 +1,95 @@
+{
+  "_comment": "World-AGNOSTIC modern-term dictionary for the anachronism bridge. The Facilitator SPEAKS modern_sense; the Representative is handed only underlying_subject (term-free, world-agnostic) and answers in its own world's terms. Disposition is NOT stored per world - it is derived generically: the bridge fires only when a term's origin_year postdates the seated world's end year (parsed from the manifest 'period'). No per-world authoring. Design: Ministry/Technology/CiC_Anachronism_Bridge_Spec_V0_1.md.",
+  "terms": [
+    {
+      "term_id": "penal-substitution-atonement",
+      "display_terms": ["substitutionary atonement", "penal substitution", "penal substitutionary atonement", "Christ took our punishment", "he died in our place for our sins"],
+      "modern_sense": "the idea, held especially in Reformed and evangelical Protestant traditions, that on the cross Christ bore in the sinner's place the punishment their sins deserved, satisfying the justice of God, so that those who trust him are counted right with God",
+      "period_originated": "the Reformation, sixteenth century (the substitution idea is older; this systematized penal form is not)",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "what the death of Christ accomplished - what it secured, and how your world spoke of it"
+    },
+    {
+      "term_id": "personal-relationship-with-jesus",
+      "display_terms": ["a personal relationship with Jesus", "know Jesus personally", "personal relationship with God", "is Jesus your personal Lord and Savior"],
+      "modern_sense": "the way much of modern evangelical Christianity speaks of faith as an individual, personal relationship with Jesus that one has and grows in",
+      "period_originated": "eighteenth-to-twentieth-century revivalism",
+      "origin_year": 1740,
+      "contested_today": false,
+      "underlying_subject": "what it meant to belong to Christ, and the shape of a life given to him"
+    },
+    {
+      "term_id": "sola-fide",
+      "display_terms": ["sola fide", "faith alone", "justification by faith alone", "saved by faith not works"],
+      "modern_sense": "the Reformation principle that a person is put right with God through faith alone, not by anything they do",
+      "period_originated": "the Reformation, sixteenth century",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "how a person came to be, and to stay, right with God - the place of faith and of what one does"
+    },
+    {
+      "term_id": "sola-scriptura",
+      "display_terms": ["sola scriptura", "Scripture alone", "the Bible is the only authority", "the Bible alone"],
+      "modern_sense": "the Reformation principle that Scripture alone is the final authority for faith, above church tradition and church office",
+      "period_originated": "the Reformation, sixteenth century",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "where authority rested when something had to be settled - Scripture, tradition, a teacher, or an office"
+    },
+    {
+      "term_id": "the-trinity-technical",
+      "display_terms": ["the Trinity", "one substance three persons", "homoousios", "the doctrine of the Trinity", "three persons one God"],
+      "modern_sense": "the classical doctrine that the one God is Father, Son, and Holy Spirit - three who are each fully God, yet one God, not three - worked out in the precise technical language of the fourth-century councils",
+      "period_originated": "the fourth-century councils (Nicaea 325, Constantinople 381)",
+      "origin_year": 325,
+      "contested_today": false,
+      "underlying_subject": "how the Father, the Son, and the Spirit were spoken of and held together"
+    },
+    {
+      "term_id": "original-sin-developed",
+      "display_terms": ["original sin", "born sinful", "inherited guilt", "the fall", "fallen nature"],
+      "modern_sense": "the developed doctrine that all people inherit from Adam a fallen nature - and, in its harder forms, inherited guilt - so that they are born in sin and need grace to be restored",
+      "period_originated": "fourth-to-fifth century (Augustine), hardened later",
+      "origin_year": 410,
+      "contested_today": true,
+      "underlying_subject": "the roots and reach of sin in a person - whether it is inherited or chosen, and what it takes to be freed of it"
+    },
+    {
+      "term_id": "transubstantiation",
+      "display_terms": ["transubstantiation", "the bread becomes the actual body", "real presence in the Eucharist"],
+      "modern_sense": "the teaching that in Communion the bread and wine truly become, in their inner reality, the body and blood of Christ, even while they still look and taste like bread and wine",
+      "period_originated": "the high Middle Ages (term and metaphysics, Lateran IV 1215)",
+      "origin_year": 1215,
+      "contested_today": true,
+      "underlying_subject": "what your world understood the bread and the cup of the shared meal to be"
+    },
+    {
+      "term_id": "born-again",
+      "display_terms": ["born again", "born-again Christian", "have you been born again"],
+      "modern_sense": "in modern revivalist Christianity, an identity marking a person who has undergone a conscious conversion to personal faith in Christ",
+      "period_originated": "eighteenth-to-twentieth-century revivalism (the phrase itself is ancient)",
+      "origin_year": 1740,
+      "contested_today": false,
+      "underlying_subject": "what changed for a person when they came to faith, and how that change showed in their life"
+    },
+    {
+      "term_id": "the-rapture",
+      "display_terms": ["the Rapture", "the secret rapture", "caught up before the tribulation", "left behind"],
+      "modern_sense": "in dispensationalist theology, the belief that believers will be suddenly caught up to meet Christ before a final period of tribulation on earth",
+      "period_originated": "the nineteenth century (Darby; Scofield, 1909)",
+      "origin_year": 1830,
+      "contested_today": true,
+      "underlying_subject": "how the end of things and Christ's return were understood, if your world spoke of them at all"
+    },
+    {
+      "term_id": "purgatory",
+      "display_terms": ["purgatory", "a state of purification after death"],
+      "modern_sense": "the doctrine of a state of purification after death for those destined for heaven but not yet fully cleansed",
+      "period_originated": "defined in the high-to-late Middle Ages (Lyons 1274, Florence, Trent)",
+      "origin_year": 1274,
+      "contested_today": true,
+      "underlying_subject": "what your world understood to happen to a person after death"
+    }
+  ]
+}

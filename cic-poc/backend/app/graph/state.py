@@ -107,11 +107,10 @@ class ConversationState:
     # while this is True - concretely, the Representative is withheld from
     # every turn while this flag is set, regardless of that turn's own raw
     # classification, until de-escalation clears it. De-escalation threshold
-    # (two consecutive turns classified NO_SIGNAL or
-    # HISTORICAL_OTHERNESS_DISORIENTATION while active) is this
-    # implementation's own calibration choice, not specified numerically by
-    # the design doc - disclosed here as unvalidated, matching the doc's own
-    # disclosure discipline for its accumulator threshold.
+    # (two consecutive turns classified NO_SIGNAL while active - see nodes.py)
+    # is this implementation's own calibration choice, not specified
+    # numerically by the design doc - disclosed here as unvalidated, matching
+    # the doc's own disclosure discipline for its accumulator threshold.
     track_a_active: bool = False
     # Highest Track A severity reached this session - "A1" (disclosure, no
     # stated plan) or "A2" (explicit plan/means/timeline). Governs which
@@ -137,10 +136,12 @@ class ConversationState:
     # in the classifier's taxonomy does.
     relational_safety_tags: list[str] = field(default_factory=list)
 
-    # Consecutive turns classified NO_SIGNAL or HISTORICAL_OTHERNESS_
-    # DISORIENTATION while either track is active - used to auto-clear
-    # track_a_active/track_b_active once de-escalation is observed. Reset to
-    # 0 the moment any signal-bearing classification recurs.
+    # Consecutive turns classified NO_SIGNAL while either track is active -
+    # used to auto-clear track_a_active/track_b_active once de-escalation is
+    # observed. HISTORICAL_OTHERNESS_DISORIENTATION and AMBIGUOUS_LOW_
+    # CONFIDENCE are deliberately treated as non-clearing (both can co-occur
+    # with genuine ongoing distress - see nodes.py). Reset to 0 the moment a
+    # HARMFUL_DYNAMIC_SIGNAL turn recurs.
     relational_safety_deescalation_count: int = 0
 
     # RAG context
@@ -163,3 +164,14 @@ class ConversationState:
     world_id: str = "syriac-edessa-nisibis"  # Primary/first world (for backwards compat)
     world_ids: list[str] = field(default_factory=list)  # All worlds at table
     close_requested: bool = False
+
+    # Sensed closing sequence (CiC_Sensed_Closing_Sequence_Spec_V0_1.md). The
+    # session-level stage of the wind-down flow: sense -> ask "anything else?"
+    # -> offer resources -> show -> sensed close. Governs routing only; never
+    # surfaced to the participant as a mechanic. "none" = not in a closing
+    # sequence. A genuine new question at "anything_else_asked" resets this to
+    # "none" and normal flow resumes (the false-positive escape hatch). Distinct
+    # from close_requested, which is the untouched explicit-close path.
+    closing_stage: Literal[
+        "none", "anything_else_asked", "resources_offered", "resources_shown", "closed"
+    ] = "none"
