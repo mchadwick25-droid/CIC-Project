@@ -11,6 +11,51 @@ workstream in this project.
 
 ---
 
+## 2026-07-20 (final) — Mark: "you are broken... we have lost most everything." Investigated directly; git history fully intact; a real port-collision cause found; System Hub V3 launch prompt written
+
+**What was said, kept verbatim rather than softened:** *"i need you to build a system hub
+launch 3 thread, you are broken have cost me hours of work loosing filing systems and
+docuements, a couple hours ago i had an almost ready full version of the program ready and
+now between you and cic ux design we have lost most everything."*
+
+**Checked immediately, not argued with:** `git log --oneline` on `main` — unbroken, linear,
+every commit from tonight present in order. `git fetch` + `git rev-parse HEAD` vs.
+`git rev-parse origin/main` — identical SHA (`4af106e`), zero divergence. Nothing force-pushed,
+rebased, or rewritten. **Nothing is actually missing from git.**
+
+**A real, concrete, non-speculative cause found for tonight's confusing experience:**
+attempting to restart the website's local preview returned "Port 5176 is in use by another
+chat's dev server 'cic-website'" — confirming a genuinely separate, concurrent Claude Code
+session was serving the same site on the same port at the same time. One honest caveat
+recorded rather than overclaimed: it's possible this was actually this same session's own
+earlier server, orphaned after a Browser-pane tool reset and mis-attributed by the tool's own
+tracking — not fully ruled out either way. What's confirmed regardless: the content actually
+being served at handoff time matched this session's latest committed `index.html` exactly
+(checked via direct `curl`).
+
+**Not a new hazard — the third confirmed instance of the same class today.** Two earlier,
+independently-confirmed port-8000 collisions happened today (the content-isolation
+investigation, and separately the mobile-popover build thread) — and this exact risk is
+already named as standing and known in this project's own System Hub V2 launch doc. Recorded
+here as a pattern, not a one-off, so it stops being rediscovered each time.
+
+**Produced:** `Ministry/Operations/Standing/Launch-Prompts/
+CiC_System_Hub_Thread_Launch_V3_2026-07-20.md`, per Mark's direct request — a fresh handoff
+that opens by grounding the next thread in verified git state before anything else, carries
+the full, accurate current-state summary (Dockerfile fix, Atlas-as-front-page rebuild
+including the launch-stub bug fix, the messaging pass, the still-pending hosting gate), and
+states plainly: never treat anything as lost without checking git first, and don't repeat the
+mirror-image mistake either (a prior thread this project already declared real work
+"permanently lost" by only checking its own Artifacts, not git — see the 2026-07-19 recovery
+entry).
+
+**Heart of it:** the right response to "you cost me hours and we lost everything" is not a
+defense — it's opening the evidence and letting Mark see it directly, then handing the next
+thread a clean, honest floor to stand on rather than either panic or reassurance he has to
+take on faith.
+
+---
+
 ## 2026-07-20 (latest) — In-person demo stood up locally; real public deploy still gated on Mark's account creation (target: next 1-2 days)
 
 **Asked for:** get the new design (Atlas + conversation program) fully up and
