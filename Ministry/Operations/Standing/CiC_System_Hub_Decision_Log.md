@@ -11,6 +11,36 @@ workstream in this project.
 
 ---
 
+## 2026-07-20 (latest) — In-person demo stood up locally; real public deploy still gated on Mark's account creation (target: next 1-2 days)
+
+**Asked for:** get the new design (Atlas + conversation program) fully up and
+running to show someone in person, plus something sendable within a day or
+two.
+
+**In-person, done:** both halves running locally and verified — `cic-poc`
+(the combined backend+frontend, via the fixed Dockerfile's own code path)
+on port 8199, `cic-website` (with the merged Atlas) on port 5176. Verified
+via direct page-content/console inspection rather than a screenshot
+(screenshot capture kept timing out as a tool issue this session): real
+world content rendering on the Atlas, real onboarding text on the app, zero
+console errors on either.
+
+**Deploy-readiness hardened while the clock isn't urgent:** grepped the
+whole `cic-website/` for hardcoded `localhost` references (none) and
+checked every internal `href="*.html"` link across all 10 site pages
+against the files that actually exist (none broken). Combined with the
+Dockerfile fix and end-to-end local verification from the prior entry,
+both halves are genuinely ready to deploy as-is — nothing left that would
+surprise Mark mid-deploy.
+
+**Still gated on Mark, unchanged:** Render account creation + the two env
+vars (`ANTHROPIC_API_KEY`, `CORS_ORIGINS`) + custom domain — his own
+window is "the next day or two," not tonight. The moment a real `cic-poc`
+URL exists, `pilot.html`'s `LIVE_APP_URL` placeholder gets wired to it and
+re-verified live, same day.
+
+---
+
 ## 2026-07-20 (even later) — Website messaging & structure plan produced, awaiting Mark's markup
 
 **Asked for (Mark's direction):** look through the website files and the current site, propose a plan to bring it up to the new approach — reassess sections and messaging, remove all negative and contrast framing ("not X, it's Y" / "we are not..." patterns), keep only positive and plain statements, minimal text for now with a deeper section-by-section messaging pass to follow later, welcome/vision/why/what/how for the features and program, the Table as centerpiece.
