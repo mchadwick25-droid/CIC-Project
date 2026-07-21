@@ -95,7 +95,7 @@
       <input type="email" id="redeem-email" required>
       <p class="hint" id="redeem-hint">We'll send your sign-in link to this address.</p>
       <p style="text-align:center;margin-top:1.2rem;">
-        <button type="submit" class="btn primary" id="redeem-submit">Join the pilot</button>
+        <button type="submit" class="btn primary" id="redeem-submit">Come and join us at the Table</button>
       </p>
     </form>
 
@@ -225,7 +225,7 @@
           document.getElementById('redeem-result-text').textContent = "You're in — check your email for a sign-in link.";
         } catch {
           submitButton.disabled = false;
-          submitButton.textContent = 'Join the pilot';
+          submitButton.textContent = 'Come and join us at the Table';
           document.getElementById('redeem-hint').textContent = 'Something went wrong - please email hello@churchinconversation.org directly.';
         }
       });
