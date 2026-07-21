@@ -1424,3 +1424,39 @@ already flagged in the messaging plan as needing a structural rebuild, not
 a line edit) — so no site file needs correcting as part of this entry.
 
 ---
+
+## 2026-07-20 (same day) — RESOLVED: "documented witness" replaces "honest witness" — the flagged word-choice tension closes clean
+
+**Mark, asked to recall the retirement scheme rather than reintroduce
+"honest" by habit:** he remembered there was a specific replacement system
+but not the word. Given the actual three-way mapping from the 2026-07-17
+entry (open/openly for conversational contexts, transparent for shows-its-
+work, concrete phrases for hard-history truthfulness) plus a suggestion —
+**"transparent"** was offered as the closest existing fit ("We are
+committed to a transparent witness"), with **"documented"** named as a
+defensible but more clinical-reading alternative.
+
+**Mark's call:** *"documented is great, lets use that."*
+
+**Applied — the protected line is now final:** *"We are committed to a
+documented witness."* Updated in both places in the kit doc that carried
+the interim "honest witness" wording (Part 1.3's lexicon table, Part 2.2's
+M3 protected lines) and in the retirement-rule row itself, which now marks
+the tension resolved rather than open.
+
+**Heart of it, worth naming:** this didn't need a new word at all —
+"documented" was already decided, already load-bearing, already the top
+tier of this project's own confidence vocabulary, already the word that
+replaced "real" in "documented Christian movements" (2026-07-17). The
+kit's own vocabulary already had the answer; the question was just
+remembering it rather than reaching for the retired one out of habit. One
+consistent word now does the work "honest" and "real" used to split
+between them.
+
+**Propagation status unchanged from the prior entry:** the line still
+doesn't appear on any live website page yet — only in this kit doc. The
+website messaging plan (`Ministry/Operations/Audits/
+CiC_Website_Messaging_Structure_Plan_2026-07-20.md`, and its published
+artifact) is updated to match in the same pass as this entry.
+
+---
