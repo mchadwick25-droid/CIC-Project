@@ -1,0 +1,22 @@
+# Context root for this is cic-poc/ (see ../Dockerfile's own header).
+backend/venv/
+backend/env/
+backend/.venv/
+backend/ENV/
+backend/.env
+backend/.env.local
+backend/vector_store/
+backend/transcripts/
+backend/pilot_tester_codes.json
+backend/pilot_session_counts.json
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/*.log
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+.git/
