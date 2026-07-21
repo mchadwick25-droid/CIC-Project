@@ -4,15 +4,206 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church in Conversation: The First Centuries</title>
-<meta name="description" content="Have a conversation with the Church's own first-four-centuries communities — reconstructed from their own words, through a review-gated scholarly process, showing their own confidence as they speak.">
+<meta name="description" content="Twenty centuries of the Church's story, one era at a time — every movement plainly labeled. Five worlds you can sit down with today. Come and join us at the Table.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+/* ===================================================================
+   Front page — the Atlas Story view IS the front page as of 2026-07-20
+   (Mark's direction: conversation + atlas + minimal messaging on one
+   simple page, pilot/tour framing removed). Same component previously
+   at atlas.html; moved here directly rather than duplicated, since it
+   was already built to coexist with the site-wide chrome (classes
+   prefixed st- to stay clear of .brand/.btn/.footer/.hero).
+   Renders from data/world-census.json (178 entries, 5 live worlds).
+   Interaction model: CiC_World_Map_Usability_Redesign_Study_2026-07-20.md
+   Part 3 / Part 6 (Mark's decisions, 2026-07-20) — decided, not proposed.
+   =================================================================== */
+:root{
+  --madder-deep:#7E2F20; --gold-wash:#FBF2E2; --tyrian-wash:#F3EFFA;
+  --graphite:#8A837C; --ink-faded:#6C6259;
+}
+.st-col{max-width:640px;margin:0 auto;padding:0 0 7.5rem}
+
+/* sticky search + chips */
+.st-hdr{position:sticky;top:0;z-index:10;background:var(--parchment);border-bottom:1px solid var(--rule);padding:.6rem .9rem .55rem}
+.st-hdr .st-eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.st-hdr .st-eyebrow b{color:var(--iron-gall);font-weight:600}
+.st-hdr input[type=search]{width:100%;margin-top:.4rem;font:1rem 'Alegreya',Georgia,serif;color:var(--iron-gall);
+  background:var(--vellum);border:1px solid var(--rule);border-radius:8px;padding:.55rem .8rem}
+.st-hdr input::placeholder{color:var(--graphite);font-style:italic}
+.st-chips{display:flex;gap:.4rem;overflow-x:auto;margin-top:.5rem;padding-bottom:.15rem;scrollbar-width:none}
+.st-chips::-webkit-scrollbar{display:none}
+.st-chip{flex:none;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;padding:.34rem .7rem;min-height:32px;
+  border:1px solid var(--rule);border-radius:999px;background:var(--vellum);color:var(--muted);cursor:pointer}
+.st-chip.on{background:var(--iron-gall);color:var(--parchment);border-color:var(--iron-gall)}
+
+/* era rail */
+.st-rail{position:fixed;right:.3rem;top:50%;transform:translateY(-50%);z-index:9;display:flex;flex-direction:column;gap:.15rem}
+.st-rail button{position:relative;font-family:'Alegreya Sans',sans-serif;font-size:.6rem;width:30px;height:26px;border:none;background:none;
+  color:var(--graphite);cursor:pointer;border-radius:6px;padding:0}
+.st-rail button.on{color:var(--parchment);background:var(--iron-gall);font-weight:700}
+.st-rail .st-railtip{position:absolute;right:calc(100% + 8px);top:50%;transform:translateY(-50%);
+  background:var(--iron-gall);color:var(--parchment);font-family:'Alegreya Sans',sans-serif;font-size:.72rem;
+  white-space:nowrap;padding:.35rem .6rem;border-radius:6px;pointer-events:none;opacity:0;transition:opacity .1s;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.st-rail button.showtip .st-railtip{opacity:1}
+@media (min-width:700px){.st-rail{right:calc(50% - 340px)}}
+
+/* thesis card */
+.st-thesis{margin:1rem .9rem;background:var(--vellum);border:1px solid var(--rule);border-radius:10px;padding:1.1rem 1.2rem}
+.st-thesis h1{font:700 1.35rem/1.3 'Alegreya',Georgia,serif;margin:0 0 .5rem;text-wrap:balance}
+.st-thesis p{margin:.5rem 0;font-size:.98rem}
+.st-thesis .st-counts{font-family:'Alegreya Sans',sans-serif;font-size:.83rem;color:var(--muted)}
+.st-thesis .st-conf{color:var(--tyrian);font-family:'Alegreya Sans',sans-serif;font-size:.72rem;letter-spacing:.06em}
+.st-thesis .st-wallchart{display:inline-block;margin-top:.6rem;font-family:'Alegreya Sans',sans-serif;font-size:.83rem}
+
+/* launch CTA, front-page only */
+.st-launch{margin:.9rem 0 .3rem}
+.st-launch .btn{width:100%;text-align:center;font-size:1.02rem;padding:.85rem 1rem}
+.st-launch-pending{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:var(--muted);text-align:center;
+  border:1.5px dashed var(--rule);border-radius:8px;padding:.85rem 1rem;margin:0}
+
+/* era chapters */
+.st-era{padding:1rem .9rem 1.2rem;border-top:1px solid var(--rule)}
+.st-era-head .st-no{font-family:'Alegreya Sans',sans-serif;font-size:.7rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.st-era-head h2{font:700 1.2rem/1.3 'Alegreya',Georgia,serif;margin:.15rem 0 0}
+.st-era-head .st-tag{font-style:italic;color:var(--muted);font-size:.92rem;margin:.15rem 0 0}
+.st-era-head .st-rec{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--muted);margin:.4rem 0 0;
+  border-left:3px solid var(--rule);padding-left:.55rem}
+.st-era-head .st-cts{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--muted);margin:.35rem 0 0}
+.st-lanelbl{font-family:'Alegreya Sans',sans-serif;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--graphite);margin:.9rem 0 .3rem}
+
+/* live world card */
+.st-wcard{background:var(--vellum);border:1px solid var(--rule);border-left:4px solid var(--wc,var(--gold-leaf));
+  border-radius:10px;padding:.8rem .9rem;margin:.5rem 0;cursor:pointer}
+.st-wcard .st-st{font-family:'Alegreya Sans',sans-serif;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--wc,var(--gold-leaf));font-weight:700;display:flex;align-items:center;gap:.4rem}
+.st-wcard .st-st img{width:18px;height:18px;border-radius:50%;flex:none}
+.st-wcard h3{font:700 1.1rem/1.25 'Alegreya',Georgia,serif;margin:.2rem 0 0}
+.st-wcard .st-meta{font-size:.85rem;color:var(--muted);font-style:italic}
+.st-wcard p{margin:.4rem 0 .1rem;font-size:.93rem}
+.st-wcard .st-acts{display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap}
+.st-btn{font-family:'Alegreya Sans',sans-serif;font-size:.88rem;font-weight:600;min-height:44px;padding:.5rem 1rem;
+  border-radius:8px;cursor:pointer;border:1px solid var(--madder);display:inline-flex;align-items:center;justify-content:center}
+.st-btn.solid{background:var(--madder);color:var(--vellum)}
+.st-btn.solid:active{background:var(--madder-deep)}
+.st-btn.line{background:none;color:var(--madder)}
+.st-btn.quiet{border-color:var(--rule);color:var(--muted);background:var(--vellum)}
+
+/* status rows */
+.st-row{display:flex;align-items:center;gap:.6rem;min-height:48px;padding:.3rem .2rem;border-bottom:1px solid var(--rule);cursor:pointer;background:none;width:100%;text-align:left;border-left:none;border-right:none;border-top:none;font:inherit;color:inherit}
+.st-row:last-child{border-bottom:none}
+.st-glyph{flex:none;width:14px;height:14px;border-radius:50%}
+.st-glyph.sel{border:3px double var(--iron-gall)}
+.st-glyph.def{border:1.5px solid var(--iron-gall);background:linear-gradient(90deg,var(--iron-gall) 50%,transparent 50%)}
+.st-glyph.pfw{border:1.5px dashed var(--iron-gall)}
+.st-glyph.psc{border:1.5px solid var(--graphite)}
+.st-glyph.flq{border:1.5px solid var(--graphite);background:radial-gradient(circle,var(--tyrian) 34%,transparent 36%)}
+.st-glyph.exc{border:1.5px dashed var(--madder-deep)}
+.st-glyph.cev{border:1.5px dotted var(--tyrian)}
+.st-glyph.a5{border:1.5px solid var(--tyrian);border-radius:2px}
+.st-glyph.str{border:1.5px dashed var(--tyrian);border-radius:2px;transform:rotate(45deg);width:11px;height:11px}
+.st-row .st-nm{flex:1;min-width:0}
+.st-row .st-nm b{font-weight:600;font-size:.98rem}
+.st-row .st-nm .st-sub{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;color:var(--muted)}
+.st-row .st-stw{flex:none;font-family:'Alegreya Sans',sans-serif;font-size:.68rem;color:var(--muted);text-align:right;max-width:8rem}
+
+/* beyond-the-floor stream */
+.st-stream{background:var(--tyrian-wash);border-left:3px solid var(--tyrian);border-radius:0 8px 8px 0;
+  padding:.45rem .65rem .35rem;margin:.85rem 0 .2rem}
+.st-stream .st-slbl{font-family:'Alegreya Sans',sans-serif;font-size:.64rem;letter-spacing:.11em;color:var(--tyrian);text-transform:uppercase}
+.st-stream .st-snote{font-size:.79rem;font-style:italic;color:var(--muted);margin:.15rem 0 .2rem}
+
+/* expander */
+.st-expander{display:block;width:100%;text-align:left;font:italic .9rem 'Alegreya',Georgia,serif;color:var(--muted);
+  background:none;border:none;border-top:1px dashed var(--rule);border-bottom:1px dashed var(--rule);
+  padding:.7rem .2rem;margin:.45rem 0;cursor:pointer;min-height:44px}
+.st-expander:before{content:"+ ";font-style:normal;color:var(--graphite)}
+.st-expander.open:before{content:"\2212 "}
+.st-lanegroup{margin:.2rem 0}
+
+/* thread mode */
+body.st-thread .st-row.st-dim,body.st-thread .st-wcard.st-dim,body.st-thread .st-expander,body.st-thread .st-thesis{display:none}
+body.st-thread .st-era.st-dim{display:none}
+.st-threadbar{display:none;position:sticky;top:0;z-index:11;background:var(--tyrian);color:#fff;
+  font-family:'Alegreya Sans',sans-serif;font-size:.82rem;padding:.55rem .9rem;align-items:center;gap:.6rem}
+body.st-thread .st-threadbar{display:flex}
+.st-threadbar button{margin-left:auto;font-family:'Alegreya Sans',sans-serif;font-size:.8rem;background:#fff;color:var(--tyrian);
+  border:none;border-radius:999px;padding:.35rem .8rem;cursor:pointer;min-height:32px}
+.st-tstub{display:none;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;color:var(--tyrian);
+  border-left:3px solid var(--tyrian);padding:.2rem 0 .2rem .6rem;margin:.2rem 0 .2rem .35rem}
+body.st-thread .st-tstub.on{display:block}
+.st-tstub .st-cw{letter-spacing:.07em;font-weight:700}
+
+/* bottom sheet (L2 / L3) */
+.st-scrim{position:fixed;inset:0;background:rgba(42,37,33,.28);z-index:20;display:none}
+.st-scrim.on{display:block}
+.st-sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:var(--vellum);border-top:2px solid var(--rule);
+  border-radius:14px 14px 0 0;box-shadow:0 -8px 30px rgba(42,37,33,.18);max-height:60vh;overflow-y:auto;
+  padding:0.9rem 1.05rem 1.15rem;display:none}
+.st-sheet.on{display:block}
+.st-sheet.full{max-height:92vh}
+.st-sheet .st-grab{width:38px;height:4px;border-radius:2px;background:var(--rule);margin:0 auto .6rem}
+.st-sheet h2{font:700 1.2rem/1.3 'Alegreya',Georgia,serif;margin:.1rem 0 0}
+.st-sheet .st-meta{font-size:.87rem;color:var(--muted);font-style:italic}
+.st-sheet .st-stline{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;margin:.55rem 0;padding:.5rem .65rem;border-radius:8px;
+  background:var(--parchment);border:1px solid var(--rule)}
+.st-sheet .st-stline b{letter-spacing:.04em}
+.st-sheet h4{font-family:'Alegreya Sans',sans-serif;font-size:.68rem;letter-spacing:.12em;color:var(--muted);
+  text-transform:uppercase;margin:.95rem 0 .3rem;display:flex;align-items:center;gap:.5rem}
+.st-sheet h4:after{content:"";flex:1;border-top:1px solid var(--rule)}
+.st-sheet p{margin:.3rem 0;font-size:.94rem}
+.st-edge{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem;padding:.4rem 0;border-bottom:1px solid var(--rule);font-size:.9rem}
+.st-edge:last-child{border-bottom:none}
+.st-edge .st-dir{font-family:'Alegreya Sans',sans-serif;font-size:.74rem;color:var(--muted)}
+.st-edge .st-to{font-weight:600;color:var(--iron-gall);text-decoration:underline;text-decoration-color:var(--rule);cursor:pointer;background:none;border:none;font:600 .92rem 'Alegreya',Georgia,serif;padding:0}
+.st-cbadge{font-family:'Alegreya Sans',sans-serif;font-size:.64rem;letter-spacing:.08em;color:var(--tyrian);
+  border:1px solid var(--tyrian);border-radius:3px;padding:.05rem .35rem;white-space:nowrap}
+.st-edge .st-note{width:100%;font-style:italic;color:var(--muted);font-size:.85rem}
+.st-sheet .st-acts{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.85rem}
+.st-sheet .st-close{position:absolute;right:.7rem;top:.55rem;background:none;border:none;font-size:1.3rem;
+  color:var(--graphite);cursor:pointer;min-width:44px;min-height:34px}
+.st-sheetwrap{position:relative}
+
+/* tray */
+.st-tray{position:fixed;left:0;right:0;bottom:0;z-index:15;background:var(--iron-gall);color:var(--parchment);
+  padding:.6rem .9rem calc(.6rem + env(safe-area-inset-bottom));display:flex;align-items:center;gap:.55rem;flex-wrap:wrap}
+.st-tray .st-mode{font:italic .84rem 'Alegreya',Georgia,serif;opacity:.92;flex:1;min-width:9rem}
+.st-tray .st-tchip{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;background:rgba(254,252,248,.12);border:1px solid var(--gold-leaf);
+  border-radius:999px;padding:.22rem .3rem .22rem .65rem;display:inline-flex;gap:.3rem;align-items:center}
+.st-tray .st-tchip button{background:none;border:none;color:var(--gold-wash);cursor:pointer;font-size:.95rem;min-width:28px;min-height:28px}
+.st-tray .st-go{font-family:'Alegreya Sans',sans-serif;font-weight:700;font-size:.9rem;background:var(--madder);color:var(--vellum);
+  border:none;border-radius:8px;padding:.6rem 1rem;min-height:44px;cursor:pointer}
+.st-tray .st-go:disabled{opacity:.45;cursor:not-allowed}
+
+/* sketch-stub modal */
+.st-modal{position:fixed;inset:0;z-index:30;background:rgba(42,37,33,.35);display:none;align-items:center;justify-content:center;padding:1.2rem}
+.st-modal.on{display:flex}
+.st-mbox{background:var(--vellum);border:1px solid var(--rule);border-radius:12px;max-width:26rem;padding:1.2rem 1.3rem;max-height:85vh;overflow-y:auto}
+.st-mbox h2{font:700 1.1rem 'Alegreya',Georgia,serif;margin:0 0 .5rem}
+.st-mbox p{font-size:.93rem;margin:.35rem 0}
+.st-footnote{padding:1.3rem .9rem 0;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--graphite)}
+.st-footnote a{color:var(--tyrian)}
+.st-nomatch{font-style:italic;color:var(--graphite);font-size:.86rem;padding:.4rem 0}
+.st-loading{padding:2.5rem 1.2rem;text-align:center;color:var(--muted);font-style:italic}
+.st-err{padding:2.5rem 1.2rem;text-align:center;color:var(--madder-deep)}
+@media (max-width:699.9px){
+  .st-era{padding-right:2.6rem}
+  .st-thesis{margin-right:2.6rem}
+  .st-footnote{padding-right:2.6rem}
+}
+@media (prefers-color-scheme: dark){
+  .st-hdr,.st-thesis,.st-wcard,.st-sheet,.st-mbox{background:#1E1913;border-color:rgba(241,233,221,0.16)}
+  .st-chip{background:#1E1913;border-color:rgba(241,233,221,0.16);color:#B8AEA1}
+  .st-hdr input[type=search]{background:#1E1913;color:#F1E9DD;border-color:rgba(241,233,221,0.16)}
+  .st-sheet .st-stline{background:#17130F}
+}
+</style>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
   <div class="wrap">
@@ -28,76 +219,74 @@
     <nav class="site-nav">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
-      <a href="atlas.html">Atlas</a>
       <a href="support.html">Support</a>
-      <a href="pilot.html">Pilot</a>
     </nav>
   </div>
 </header>
 
-<main id="main">
-  <section class="hero">
-    <p class="eyebrow">Church in Conversation &middot; The First Centuries</p>
-    <h1>Sit down for a conversation with the Church's own witnesses — from its first four centuries.</h1>
-    <p class="lede">Reconstructed communities from early Christian history, built from their own letters, sermons, and arguments — speaking openly, showing their own confidence, so you can weigh it for yourself.</p>
-    <div class="hero-actions">
-      <a class="btn primary" href="pilot.html">Come and join us at the Table</a>
-      <a class="btn secondary" href="about.html">What this is</a>
+<div class="st-threadbar" id="threadbar">
+  <span id="threadlbl"></span>
+  <button id="threadoff">Show the whole story again</button>
+</div>
+
+<main>
+<div class="st-col">
+  <header class="st-hdr" id="hdr">
+    <div class="st-eyebrow"><b>Church in Conversation</b> · every era, plainly labeled</div>
+    <input type="search" id="q" placeholder="Search all 178 movements — including the ones that aren’t open, and why" aria-label="Search all movements">
+    <div class="st-chips" id="chips" role="group" aria-label="Filter by status"></div>
+  </header>
+
+  <section class="st-thesis" id="thesis">
+    <h1>Twenty centuries of the church. One table. A chair pulled out for you.</h1>
+    <p id="thesiscounts" class="st-counts">Loading the census…</p>
+    <p style="font-size:.95rem">Scroll down through the eras. Worlds open for conversation appear in full color with a chair ready.
+    Every other movement is on the map with its status stated plainly — chosen, deferred with reasons on record,
+    not yet assessed, or excluded on grounds you can read in full. Every entry opens. Nothing here is out of reach.</p>
+    <p class="st-conf">RELATIONSHIP CLAIMS CARRY THEIR CONFIDENCE IN WORDS — DOCUMENTED · WIDELY ACCEPTED · CONTESTED. WHERE THE RECORD IS THIN, IT SAYS SO.</p>
+    <div class="st-launch" id="launchcta">
+      <p id="launch-live" style="display:none;margin:0;">
+        <a class="btn primary" id="launch-link" href="#">Launch a Conversation</a>
+      </p>
+      <p class="st-launch-pending" id="launch-pending">
+        Launch a Conversation — opening here directly as soon as hosting is finished.
+      </p>
     </div>
+    <a class="st-wallchart" href="world-map.html">Prefer the whole tapestry at once? View as a wall chart &rarr;</a>
   </section>
 
-  <section class="page-section" id="doorway" style="border-top:none;">
-    <p class="eyebrow">A Doorway, Not a Home</p>
-    <h2>Governed by a written charter that forbids persuasion, conversion-tracking, and engagement-maximization — built to point you back toward real, living community.</h2>
-    <p>If a conversation ever touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support. <a href="about.html#safety">Read the full safety and disclosure page &rarr;</a></p>
-  </section>
+  <main id="spine"><div class="st-loading">Loading the Atlas census…</div></main>
 
-  <section class="worlds-strip">
-    <p class="eyebrow">Five movements are live today, from the Church's first four centuries</p>
-    <div class="worlds-grid">
-      <div class="world-card">
-        <p class="name">The House-Churches</p>
-        <p class="period">Antioch, Asia Minor &amp; Rome · 70&ndash;200 CE</p>
-      </div>
-      <div class="world-card">
-        <p class="name">The Desert</p>
-        <p class="period">Egypt · c. 320&ndash;430 CE</p>
-      </div>
-      <div class="world-card">
-        <p class="name">Alexandria</p>
-        <p class="period">Egypt · c. 150&ndash;400 CE</p>
-      </div>
-      <div class="world-card">
-        <p class="name">Syriac Christianity</p>
-        <p class="period">Edessa &amp; Nisibis · 200&ndash;410 CE</p>
-      </div>
-      <div class="world-card">
-        <p class="name">The Bethlehem Circle</p>
-        <p class="period">Rome &amp; Bethlehem · c. 382&ndash;420 CE</p>
-      </div>
-    </div>
-    <p class="note">The First Centuries is where we're starting. Later chapters of the Church's story are planned, each its own careful build.</p>
-  </section>
-
-  <section class="page-section" id="see-for-yourself">
-    <p class="eyebrow">See It For Yourself</p>
-    <h2>A real, unedited exchange from the actual app</h2>
-    <p>Asked live, answered live, screenshotted exactly as it rendered — no invented dialogue, ever.</p>
-    <img src="assets/tour-captures/chloe-conversation.png" alt="A real captured exchange with Chloe of the House-Churches: asked what an ordinary week actually looked like, she answers with the gathering, the meal, and the care of the ones nobody else was caring for." style="width:100%;border-radius:6px;display:block;margin:1.3rem 0;">
-  </section>
-
-  <section class="page-section">
-    <h2>No product like this exists anywhere else we could find</h2>
-    <p>Every voice here is a reconstructed <em>community</em>, built through a review-gated scholarly process, with its own confidence shown at every claim, before anyone asks.</p>
-    <p><a href="about.html">Read the full story &rarr;</a></p>
-  </section>
-
-  <section class="page-section" id="coming-next">
-    <p class="eyebrow">Coming Next</p>
-    <h2>Church in Conversation: The Reformation Era</h2>
-    <p>The First Centuries is where we're starting. Later chapters of the Church's story are already planned, each getting its own careful, review-gated build. The Reformation is next in line.</p>
-  </section>
+  <p class="st-footnote">
+    The Atlas draws on the same reviewed census throughout — <span id="footcounts">178 movements across ten eras</span>.
+    Lanes are reading aids, not a taxonomy of the Church. No relationship is drawn here that the census does not carry,
+    and confidence is always printed in words, never implied by color alone.
+    Want every field, every sourcing note, every floor question in one searchable table?
+    <a href="world-atlas-list.html">Open the full research record</a> — the scholar's reference browser behind this page.
+    Prefer the whole map at a glance? <a href="world-map.html">View as a wall chart</a>.
+    Curious how a world gets built at all? <a href="about.html#how-it-works">Read how the build process works &rarr;</a>
+  </p>
+</div>
 </main>
+
+<nav class="st-rail" id="rail" aria-label="Jump to era"></nav>
+
+<div class="st-scrim" id="scrim"></div>
+<div class="st-sheetwrap">
+  <div class="st-sheet" id="sheet" role="dialog" aria-modal="true">
+    <button class="st-close" id="sheetclose" aria-label="Close">&times;</button>
+    <div class="st-grab"></div>
+    <div id="sheetbody"></div>
+  </div>
+</div>
+
+<div class="st-tray" id="tray">
+  <span class="st-mode" id="traymode"></span>
+  <span id="traychips"></span>
+  <button class="st-go" id="go" disabled>Sit down at the Table</button>
+</div>
+
+<div class="st-modal" id="modal"><div class="st-mbox" id="modalbody"></div></div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -110,5 +299,429 @@
   </div>
 </footer>
 
+<script>
+(function(){
+"use strict";
+
+// Set once cic-poc's frontend has a real hosted URL (System Hub Task
+// Board #101/401) - the only step needed to turn the Launch button (and
+// the tray's "Sit down at the Table") live. Until then both stay honest
+// about not being ready rather than linking or handing off somewhere
+// broken. See cic-website/pilot.html for the same pattern.
+const LIVE_APP_URL = '';
+if (LIVE_APP_URL) {
+  document.getElementById('launch-link').href = LIVE_APP_URL;
+  document.getElementById('launch-live').style.display = '';
+  document.getElementById('launch-pending').style.display = 'none';
+}
+
+const esc = t => (t==null?'':String(t)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const spine = document.getElementById('spine');
+let CENSUS = null, ERAS = [], MOVEMENTS = [], EDGES = [], byId = {};
+let filterChip = "", query = "", threadOf = null, tray = [];
+const openEras = new Set();
+const TRAY_MAX = 5;
+
+/* lane-based fallback for the honest redirect, keyed by Math.floor(laneOrder).
+   Used only when no reviewed edge (EDGES) connects an entry directly to a live
+   world — the map never overclaims a specific historical link it doesn't carry,
+   so this fallback is phrased generically ("nearest by era and lane"), never as
+   a specific lineage claim. */
+const LANE_DEFAULT_LIVE = {
+  0: 'post-apostolic-house-church',
+  1: 'syriac-edessa-nisibis',
+  2: 'syriac-edessa-nisibis',
+  3: 'desert-monasticism',
+  4: 'alexandria-catechetical',
+  5: 'hieronymian-ascetic-literary',
+  6: 'post-apostolic-house-church',
+  7: 'desert-monasticism',
+  50: 'post-apostolic-house-church',
+  80: 'post-apostolic-house-church'
+};
+
+const CHIPS = [
+  ["","All"],["live","Open now"],["sel","Chosen"],["def","Deferred"],
+  ["psc","Not yet assessed"],["exc","Excluded — explained"],
+  ["str","Beyond the floor"],["cev","Contested"]
+];
+
+fetch('data/world-census.json')
+  .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+  .then(init)
+  .catch(err => {
+    spine.innerHTML = '<p class="st-err">The census could not be loaded ('+esc(err.message)+'). '+
+      'Try <a href="world-atlas-list.html">the research record</a> or <a href="world-map.html">the wall chart</a> instead.</p>';
+    console.error('World census load failed:', err);
+  });
+
+function init(data){
+  CENSUS = data;
+  ERAS = data.eras;
+  MOVEMENTS = data.movements;
+  EDGES = data.edges;
+  MOVEMENTS.forEach(m => byId[m.id] = m);
+
+  document.getElementById('chips').innerHTML = CHIPS.map(([v,l]) =>
+    `<button class="st-chip ${v===""?"on":""}" data-st="${v}">${l}</button>`).join("");
+  document.getElementById('chips').addEventListener('click', ev => {
+    const b = ev.target.closest('.st-chip'); if(!b) return;
+    filterChip = b.dataset.st;
+    [...document.getElementById('chips').children].forEach(c => c.classList.toggle('on', c===b));
+    render();
+  });
+  document.getElementById('q').addEventListener('input', ev => {
+    query = ev.target.value.trim().toLowerCase(); render();
+  });
+
+  const rail = document.getElementById('rail');
+  rail.innerHTML = ERAS.map(e =>
+    `<button data-era="${e.num}"><span class="st-roman">${e.no}</span><span class="st-railtip">${esc(e.no)} · ${esc(e.title)} (${esc(e.dates)})</span></button>`
+  ).join("");
+  rail.addEventListener('click', ev => {
+    const b = ev.target.closest('button'); if(!b) return;
+    const s = document.getElementById('era'+b.dataset.era);
+    if(s) s.scrollIntoView({block:'start'});
+  });
+  // Decision 5: numerals at rest; tap/hold reveals the short era title before jumping.
+  rail.querySelectorAll('button').forEach(b => {
+    let pressed = false;
+    const show = () => { pressed = true; b.classList.add('showtip'); };
+    const hide = () => { if(pressed){ pressed=false; setTimeout(()=>b.classList.remove('showtip'), 220); } };
+    b.addEventListener('pointerdown', show);
+    b.addEventListener('pointerup', hide);
+    b.addEventListener('pointerleave', hide);
+    b.addEventListener('pointercancel', hide);
+  });
+
+  const obs = new IntersectionObserver(es => {
+    es.forEach(en => { if(en.isIntersecting){
+      [...rail.children].forEach(b => b.classList.toggle('on', b.dataset.era===en.target.dataset.era));
+    }});
+  }, {rootMargin:"-40% 0px -55% 0px"});
+  window.__observeEras = () => document.querySelectorAll('.st-era').forEach(s => obs.observe(s));
+
+  document.getElementById('threadoff').addEventListener('click', () => {
+    threadOf = null; document.body.classList.remove('st-thread'); render(); window.__observeEras();
+  });
+
+  spine.addEventListener('click', onSpineClick);
+  const sheet = document.getElementById('sheet'), scrim = document.getElementById('scrim');
+  document.getElementById('sheetclose').addEventListener('click', closeSheet);
+  scrim.addEventListener('click', closeSheet);
+  sheet.addEventListener('click', onSheetClick);
+  document.getElementById('tray').addEventListener('click', ev => {
+    const rm = ev.target.closest('[data-rm]');
+    if(rm){ tray = tray.filter(x => x!==rm.dataset.rm); renderTray(); }
+  });
+  document.getElementById('go').addEventListener('click', () => {
+    if(tray.length) launch(tray, tray.length>1 ? 'table' : 'interview');
+  });
+
+  render();
+  window.__observeEras();
+  renderTray();
+}
+
+/* ---------------- lane helpers ---------------- */
+function laneOrderOf(m){ return typeof m.laneOrder === 'number' ? m.laneOrder : 60; }
+function isExpanderCandidate(m){
+  return !m.beyondFloor && (m.status === 'Pre-Survey Candidate' || m.status === 'Floor Question (register)');
+}
+function glyphOf(m){ return m.beyondFloor ? 'str' : m.glyph; }
+function chipOf(m){ return m.beyondFloor ? 'str' : m.chip; }
+
+function matches(m){
+  if(filterChip && chipOf(m) !== filterChip) return false;
+  if(query){
+    const hay = [m.name, m.region, m.laneLabel, m.statusWord, m.why, m.relationsSummary, m.dates]
+      .join(' ').toLowerCase();
+    if(!hay.includes(query)) return false;
+  }
+  return true;
+}
+
+/* ---------------- counts ---------------- */
+function eraCounts(list){
+  const c = {live:0, sel:0, def:0, psc:0, other:0};
+  list.forEach(m => {
+    if(m.status==='Built & Live') c.live++;
+    else if(m.status==='Selected - Not Yet Built') c.sel++;
+    else if(m.status==='Deferred by Step 0' || m.status==='Possible Future World (on record)') c.def++;
+    else if(isExpanderCandidate(m)) c.psc++;
+    else c.other++;
+  });
+  const parts = [];
+  if(c.live) parts.push(c.live+" open for conversation");
+  if(c.sel) parts.push(c.sel+" chosen");
+  if(c.def) parts.push(c.def+" deferred or possible, reasons on record");
+  if(c.psc) parts.push(c.psc+" not yet assessed");
+  if(c.other) parts.push(c.other+" with stated grounds, questions, or beyond the floor");
+  return parts.join(" · ");
+}
+
+/* ---------------- row/card rendering ---------------- */
+function rowHTML(m){
+  if(m.status === 'Built & Live'){
+    const e = m.entry;
+    return `<article class="st-wcard" data-id="${m.id}" style="--wc:${e.color}" tabindex="0">
+      <div class="st-st">${e.icon ? `<img src="${e.icon}" alt="">` : ''}Open for conversation · ${esc(e.representativeName)}</div>
+      <h3>${esc(e.worldName)}</h3>
+      <div class="st-meta">${esc(m.dates)} · ${esc(m.region)}</div>
+      <p>${esc(e.tile)}</p>
+      <div class="st-acts">
+        <button class="st-btn solid" data-act="interview" data-id="${m.id}">Interview ${esc(e.representativeName)}</button>
+        <button class="st-btn line" data-act="add" data-id="${m.id}">${tray.includes(m.id) ? "At your table ✓" : "Add to the Table"}</button>
+      </div>
+      <div class="st-tstub" data-tstub="${m.id}"></div></article>`;
+  }
+  const liv = m.living ? ` · <i>living tradition</i>` : "";
+  const cur = m.overlayCurrent ? ` · <i>still forming</i>` : "";
+  const c2 = m.c2 === 'record' ? ' ✦' : (m.c2 === 'question' ? ' ✧' : '');
+  return `<button class="st-row" data-id="${m.id}">
+    <span class="st-glyph ${glyphOf(m)}" aria-hidden="true"></span>
+    <span class="st-nm"><b>${esc(m.name)}${c2}</b><span class="st-sub">${esc(m.dates)} · ${esc(m.region)}${liv}${cur}</span></span>
+    <span class="st-stw">${esc(m.statusWord)}</span></button><div class="st-tstub" data-tstub="${m.id}"></div>`;
+}
+
+function renderLaneGroups(list){
+  const lanes = [...new Set(list.map(m => m.laneLabel))]
+    .sort((a,b) => (list.find(m=>m.laneLabel===a).laneOrder||60) - (list.find(m=>m.laneLabel===b).laneOrder||60));
+  let html = '';
+  lanes.forEach(ln => {
+    html += `<div class="st-lanelbl">${esc(ln)}</div>`;
+    list.filter(m => m.laneLabel===ln).forEach(m => { html += wrapDim(m, rowHTML(m)); });
+  });
+  return html;
+}
+
+function wrapDim(m, inner){
+  if(!threadOf) return inner;
+  return threadIds().has(m.id) ? inner
+    : inner.replace('class="st-row"','class="st-row st-dim"').replace('class="st-wcard"','class="st-wcard st-dim"');
+}
+function threadIds(){
+  const s = new Set([threadOf]);
+  EDGES.forEach(e => { if(e.from===threadOf) s.add(e.to); if(e.to===threadOf) s.add(e.from); });
+  return s;
+}
+
+/* ---------------- main render ---------------- */
+function render(){
+  let html = "";
+  ERAS.forEach(e => {
+    const all = MOVEMENTS.filter(m => m.era === e.num);
+    const vis = all.filter(matches);
+    const eraDim = threadOf && !all.some(m => threadIds().has(m.id));
+    html += `<section class="st-era ${eraDim?'st-dim':''}" id="era${e.num}" style="background:${e.ground}" data-era="${e.num}">
+      <div class="st-era-head"><div class="st-no">Era ${e.no} · ${esc(e.dates)}</div><h2>${esc(e.title)}</h2>
+      <div class="st-tag">${esc(e.tag)}</div><div class="st-rec">${esc(e.rec)}</div>
+      ${all.length ? `<div class="st-cts">${eraCounts(all)}</div>` : ""}</div>`;
+
+    if(!vis.length){
+      html += `<p class="st-nomatch">No matches in this era for the current search or filter.</p></section>`;
+      return;
+    }
+
+    const normal = vis.filter(m => !m.beyondFloor && !isExpanderCandidate(m));
+    html += renderLaneGroups(normal);
+
+    const expCand = vis.filter(m => isExpanderCandidate(m));
+    if(expCand.length){
+      const open = !!query || !!filterChip || openEras.has(e.num) || threadOf;
+      html += `<button class="st-expander ${open?'open':''}" data-exp="${e.num}">${expCand.length} more from this era, not yet assessed — ${open ? "shown below" : "see them all"}</button>`;
+      if(open){ html += `<div class="st-lanegroup">${renderLaneGroups(expCand)}</div>`; }
+    }
+
+    const stream = vis.filter(m => m.beyondFloor);
+    if(stream.length){
+      html += `<div class="st-stream"><div class="st-slbl">Beyond the Floor — researched &amp; explained</div>
+      <div class="st-snote">Movements whose own confessions sit outside this project's Nicene base. They keep their true time and place; each carries a research brief, not a chair.</div>`;
+      stream.forEach(m => { html += wrapDim(m, rowHTML(m)); });
+      html += `</div>`;
+    }
+    html += `</section>`;
+  });
+  spine.innerHTML = html;
+  if(threadOf) annotateThread();
+  renderThesisCounts();
+}
+
+function renderThesisCounts(){
+  const c = {};
+  MOVEMENTS.forEach(m => c[m.status] = (c[m.status]||0)+1);
+  const live = c['Built & Live']||0;
+  const sel = c['Selected - Not Yet Built']||0;
+  const def = (c['Deferred by Step 0']||0) + (c['Possible Future World (on record)']||0);
+  const psc = MOVEMENTS.filter(isExpanderCandidate).length;
+  const other = MOVEMENTS.length - live - sel - def - psc;
+  document.getElementById('thesiscounts').textContent =
+    `${live} worlds open for conversation · ${sel} chosen for construction · ${def} deferred or possible, reasons on record · `+
+    `${psc} not yet assessed · ${other} with stated grounds or open questions — ${MOVEMENTS.length} entries in the full census.`;
+  document.getElementById('footcounts').textContent = `${MOVEMENTS.length} movements across ten eras, ${live} open for conversation`;
+}
+
+function annotateThread(){
+  EDGES.forEach(e => {
+    if(e.from !== threadOf && e.to !== threadOf) return;
+    const other = e.from === threadOf ? e.to : e.from;
+    const el = document.querySelector(`[data-tstub="${other}"]`);
+    if(!el) return;
+    const dir = e.type === 'contemporary with' ? 'Contemporary with' : (e.to === threadOf ? cap(e.type)+' →' : inverse(e.type));
+    el.className = 'st-tstub on';
+    el.innerHTML = `${dir} ${esc(byId[threadOf].name)} · <span class="st-cw">${e.confidence.toUpperCase()}</span> — <i>${esc(e.note)}</i>`;
+  });
+}
+
+/* ---------------- spine interactions ---------------- */
+function onSpineClick(ev){
+  const ex = ev.target.closest('.st-expander');
+  if(ex){ const n = +ex.dataset.exp; openEras.has(n) ? openEras.delete(n) : openEras.add(n); render(); window.__observeEras(); return; }
+  const act = ev.target.closest('[data-act]');
+  if(act){ handleAct(act.dataset.act, act.dataset.id); ev.stopPropagation(); return; }
+  const row = ev.target.closest('[data-id]');
+  if(row){ openSheet(row.dataset.id, false); }
+}
+
+/* ---------------- sheet (L2/L3) ---------------- */
+function openSheet(id, full){
+  const m = byId[id]; if(!m) return;
+  const live = m.status === 'Built & Live';
+  let h = `<h2>${esc(m.name)}${m.c2==='record' ? ' ✦' : ''}</h2>
+    <div class="st-meta">${esc(m.dates)} · ${esc(m.region)} · lane: ${esc(m.laneLabel)}${m.living ? ' · living tradition' : ''}${m.overlayCurrent ? ' · still forming' : ''}</div>
+    <div class="st-stline"><b>${esc(m.statusWord)}.</b> ${esc(m.statusDescription)}</div>`;
+  const edges = EDGES.filter(e => e.from === id || e.to === id);
+  if(!full){
+    if(edges.length){
+      h += `<h4>Lineage — a glimpse</h4>`;
+      edges.slice(0,2).forEach(e => { h += edgeHTML(id, e, false); });
+      if(edges.length > 2) h += `<p style="font-size:.8rem;color:var(--muted)"><i>${edges.length-2} more in the full entry.</i></p>`;
+    }
+    h += `<div class="st-acts">${actionsHTML(m)}<button class="st-btn quiet" data-full="${id}">Full entry &rarr;</button></div>`;
+  } else {
+    h += `<h4>${live ? 'This world is open' : (m.beyondFloor ? "Research brief — not a conversation world, and why" : "Why it isn't open for conversation")}</h4><p>${esc(m.why)}</p>`;
+    if(m.sourcing) h += `<h4>What survives</h4><p>${esc(m.sourcing)}</p>`;
+    if(m.floorNote) h += `<h4>Floor / eligibility signal</h4><p>${esc(m.floorNote)}</p>`;
+    if(m.relationsSummary) h += `<h4>Key relations, in brief</h4><p>${esc(m.relationsSummary)}</p>`;
+    if(edges.length){
+      h += `<h4>Lineage — every claim with its confidence</h4>`;
+      edges.forEach(e => { h += edgeHTML(id, e, true); });
+      h += `<div class="st-acts"><button class="st-btn quiet" data-thread="${id}">Trace this thread</button></div>`;
+    } else {
+      h += `<h4>Lineage</h4><p style="color:var(--muted)"><i>No relationship is drawn for this entry in the reviewed edge set — the map never draws a line it can't defend.</i></p>`;
+    }
+    h += `<div class="st-acts">${actionsHTML(m)}</div>`;
+  }
+  document.getElementById('sheetbody').innerHTML = h;
+  const sheet = document.getElementById('sheet');
+  sheet.classList.add('on'); sheet.classList.toggle('full', !!full);
+  document.getElementById('scrim').classList.add('on');
+}
+function edgeHTML(id, e, withNote){
+  const other = e.from === id ? e.to : e.from;
+  const om = byId[other]; if(!om) return '';
+  const dir = e.from === id
+    ? (e.type === 'contemporary with' ? 'Contemporary with' : cap(e.type))
+    : (e.type === 'contemporary with' ? 'Contemporary with' : inverse(e.type));
+  return `<div class="st-edge"><span class="st-dir">${dir}</span>
+    <button class="st-to" data-jump="${other}">${esc(om.name)}</button>
+    <span class="st-cbadge">${e.confidence.toUpperCase()}</span>
+    ${withNote ? `<span class="st-note">${esc(e.note)}</span>` : ""}</div>`;
+}
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const inverse = t => t === 'formed' ? 'Formed from' : (t === 'transmitted to' ? 'Received from' : (t === 'argued against' ? 'Argued against by' : cap(t)));
+
+function nearestLiveNeighbor(m){
+  for(const e of EDGES){
+    if(e.from === m.id && byId[e.to] && byId[e.to].status === 'Built & Live') return {id:e.to, note:e.note, specific:true};
+    if(e.to === m.id && byId[e.from] && byId[e.from].status === 'Built & Live') return {id:e.from, note:e.note, specific:true};
+  }
+  const key = Math.floor(laneOrderOf(m));
+  const fallbackId = LANE_DEFAULT_LIVE[key] || 'post-apostolic-house-church';
+  if(byId[fallbackId]) return {id:fallbackId, note:null, specific:false};
+  return null;
+}
+
+function actionsHTML(m){
+  if(m.status === 'Built & Live'){
+    const e = m.entry;
+    return `<button class="st-btn solid" data-act="interview" data-id="${m.id}">Interview ${esc(e.representativeName)}</button>
+      <button class="st-btn line" data-act="add" data-id="${m.id}">${tray.includes(m.id) ? "At your table ✓" : "Add to the Table"}</button>`;
+  }
+  const nb = nearestLiveNeighbor(m); if(!nb) return "";
+  const live = byId[nb.id]; if(!live) return "";
+  const rep = live.entry.representativeName, world = live.entry.worldName;
+  const label = nb.specific
+    ? `Meet ${esc(rep)} — ${esc(nb.note)}`
+    : `Meet ${esc(rep)} of ${esc(world)} — the nearest open world on the map by era and lane`;
+  return `<button class="st-btn line" data-act="add" data-id="${nb.id}">${label}</button>`;
+}
+
+function closeSheet(){
+  document.getElementById('sheet').classList.remove('on','full');
+  document.getElementById('scrim').classList.remove('on');
+}
+function onSheetClick(ev){
+  const f = ev.target.closest('[data-full]'); if(f){ openSheet(f.dataset.full, true); return; }
+  const j = ev.target.closest('[data-jump]'); if(j){ closeSheet(); jumpTo(j.dataset.jump); return; }
+  const t = ev.target.closest('[data-thread]'); if(t){ startThread(t.dataset.thread); return; }
+  const a = ev.target.closest('[data-act]'); if(a){ handleAct(a.dataset.act, a.dataset.id); }
+}
+function jumpTo(id){
+  const m = byId[id]; if(!m) return;
+  if(isExpanderCandidate(m)){ openEras.add(m.era); render(); window.__observeEras(); }
+  const el = document.querySelector(`[data-id="${id}"]`);
+  if(el){
+    el.scrollIntoView({block:'center'});
+    el.style.outline = '2px solid var(--gold-leaf)';
+    setTimeout(() => el.style.outline = '', 1600);
+  }
+}
+
+/* ---------------- thread mode ---------------- */
+function startThread(id){
+  threadOf = id; closeSheet(); document.body.classList.add('st-thread');
+  document.getElementById('threadlbl').textContent = 'Tracing the thread of: ' + byId[id].name;
+  render(); window.__observeEras(); window.scrollTo({top:0});
+}
+
+/* ---------------- tray & launch ---------------- */
+function handleAct(act, id){
+  if(act === 'interview'){ launch([id], 'interview'); return; }
+  if(act === 'add'){
+    if(!tray.includes(id)){ if(tray.length >= TRAY_MAX) return; tray.push(id); }
+    renderTray(); closeSheet(); render();
+    return;
+  }
+}
+function renderTray(){
+  const chips = document.getElementById('traychips'), mode = document.getElementById('traymode'), go = document.getElementById('go');
+  chips.innerHTML = tray.map(id => {
+    const m = byId[id]; if(!m) return '';
+    return `<span class="st-tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)}">&times;</button></span>`;
+  }).join(" ");
+  if(tray.length === 0){ mode.textContent = 'Choose a world that is open — or explore first. Nothing here rushes you.'; go.disabled = true; }
+  else if(tray.length === 1){ mode.textContent = 'Deep Interview — one Representative, room to go deep.'; go.disabled = false; }
+  else { mode.textContent = 'Compare Worlds — how different worlds answer the same question.'; go.disabled = false; }
+}
+function launch(ids, mode){
+  // Real hand-off once hosting exists: /?worlds=<id,id>&mode=<interview|table>,
+  // the same URL contract the app's own selector already parses. Until then,
+  // honest about not being wired up yet - never a fake "it works" stub.
+  if (LIVE_APP_URL) {
+    window.location.href = LIVE_APP_URL + '/?worlds=' + ids.join(',') + '&mode=' + mode;
+    return;
+  }
+  const names = ids.map(id => { const m = byId[id]; return esc(m.entry.representativeName) + ' — ' + esc(m.entry.worldName); }).join("<br>");
+  document.getElementById('modalbody').innerHTML = `<h2>${mode==='interview' ? 'A Deep Interview' : 'Your table is set'}</h2>
+    <p>${names}</p>
+    <p>Hosting is still being finished — once it's live, this hands off straight into the conversation, no separate step.</p>
+    <button class="st-btn quiet" id="mclose">Back to the Atlas</button>`;
+  document.getElementById('modal').classList.add('on');
+  document.getElementById('mclose').onclick = () => document.getElementById('modal').classList.remove('on');
+}
+
+})();
+</script>
 </body>
 </html>
