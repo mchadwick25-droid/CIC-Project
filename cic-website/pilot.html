@@ -70,9 +70,15 @@
     <script>
       // Set once cic-poc's frontend has a real hosted URL (System Hub Task
       // Board #101/401) - this is the only step needed to turn this link
-      // live. Until then it stays honest about not being ready rather than
-      // linking somewhere broken.
-      const LIVE_APP_URL = '';
+      // live everywhere. Until then it stays honest about not being ready
+      // rather than linking somewhere broken - EXCEPT when this page is
+      // being viewed from localhost (a local demo/dev session), where the
+      // real cic-poc app is almost certainly already running on this same
+      // machine. Safe to commit: window.location.hostname is never
+      // "localhost" on the real public domain. Port matches this evening's
+      // verification server; update if the standard dev port (8000) differs.
+      const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+      const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
       if (LIVE_APP_URL) {
         document.getElementById('enter-cta-link').href = LIVE_APP_URL;
         document.getElementById('enter-cta-live').style.display = '';

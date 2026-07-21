@@ -305,10 +305,18 @@ body.st-thread .st-tstub.on{display:block}
 
 // Set once cic-poc's frontend has a real hosted URL (System Hub Task
 // Board #101/401) - the only step needed to turn the Launch button (and
-// the tray's "Sit down at the Table") live. Until then both stay honest
-// about not being ready rather than linking or handing off somewhere
-// broken. See cic-website/pilot.html for the same pattern.
-const LIVE_APP_URL = '';
+// the tray's "Sit down at the Table") live everywhere. Until then, both
+// stay honest about not being ready rather than linking or handing off
+// somewhere broken - EXCEPT when this page itself is being viewed from
+// localhost (a local demo/dev session), where the real cic-poc app is
+// almost certainly already running on this same machine. Safe to commit:
+// window.location.hostname is never "localhost" on the real public
+// domain, so production behavior is unchanged - this only ever activates
+// for whoever is viewing the site locally. Port matches this evening's
+// verification server; update if the standard dev port (8000) differs.
+// See cic-website/pilot.html for the same LIVE_APP_URL pattern.
+const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
 if (LIVE_APP_URL) {
   document.getElementById('launch-link').href = LIVE_APP_URL;
   document.getElementById('launch-live').style.display = '';
