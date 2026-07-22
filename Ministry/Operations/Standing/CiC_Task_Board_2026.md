@@ -481,6 +481,20 @@ this just adds the exact git-history explanation)._
       Cross-ref: Marketplace thread's Adopt #6 hands off here.
 - [ ] **TR-8 — Confirm the recording pipeline (GIF/slideshow) generalizes per world.**
       Already built once for the map thread; confirm and document for tour use.
+- [ ] **NEW 2026-07-21 — Install "Church and Empire" (Imperial and Juridical Christianity,
+      Representative Marius) into `cic-poc` — the sixth world, genuinely close, was missing
+      from this board entirely until Mark caught it.** Step 0 through Doc_09 Cleared, full
+      Representative build (5 rounds of boundary testing, all fixes verified), Permanent
+      Prompt + World Capsule Core + 12 lexicon chunks + 6 story chunks all present in
+      `World-Builds/Imperial-Juridical-Christianity/`, already in the exact file-naming
+      convention the live worlds use. `world_name`/`world_subtitle` already decided by Mark
+      ("Church and Empire" / "Imperial and Juridical Christianity"). Same install pattern as
+      Alexandria's: (1) assign a manifest color — not yet decided, (2) finalize a short
+      `representative_title` phrase for Marius — not yet picked, (3) copy the data files into
+      `cic-poc/backend/data/`, add the `world_manifest.py` entry, (4) sync the two
+      hand-synced frontend points (`SpeakerName` union, `MessageBubble.tsx`
+      `REPRESENTATIVE_INFO`). No new construction or review work needed. Full account:
+      Decision Log, 2026-07-21.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
