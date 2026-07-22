@@ -21,6 +21,8 @@ workstream in this project.
 
 **Going forward:** new work gets dispatched from this thread — via the Agent tool for scoped subagent work that reports back here, or via a launch-prompt document (this project's existing, established pattern) when a genuinely separate thread is still the right shape for something. Either way, the record stays in one place instead of scattering across independently-spawned sessions, which is the condition that produced tonight's original confusion in the first place.
 
+**Refined same conversation:** spawned agents are allowed to spawn their own sub-agents in turn (a general-purpose agent has full tool access, including the Agent tool itself — a "build this" dispatch can spawn its own "review this" pass before reporting back), but every one of them is instructed to report back fully — findings, decisions, and what any sub-agent it spawned found — not just a status line, since a background agent's return text is the only thing that actually reaches this thread. **Deliberately not defaulting to git-branch/worktree isolation for this delegated work** — today's own worktree sprawl (11 down to 6) is the reason; isolation gets used only when agents genuinely need to mutate files in parallel without colliding, and cleaned up after, not as a default habit.
+
 ---
 
 ## 2026-07-21 (latest) — Nonprofit-to-PBC cleanup executed: 43 files reviewed, 15 edited, 5 marked superseded, 3 flagged for Mark, support.html's false live-site claim fixed
