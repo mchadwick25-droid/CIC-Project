@@ -11,6 +11,18 @@ workstream in this project.
 
 ---
 
+## 2026-07-21 (latest still) — This thread is now the sole active thread; System Hub becomes the dispatch point for all new work
+
+**Mark's direct instruction:** *"all threads should be inactive now, you are the central point and i will work through you to launch new thread that you will manage."* Recorded verbatim rather than paraphrased, since this changes how work gets started going forward, not just what's true right now.
+
+**What this thread verified about itself before treating that as settled, not assumed:** working tree clean (only `.claude/` untracked, which is correct), `HEAD` properly attached to `main`, zero local-only branches left unbacked-up, no stray dev-server processes or listening ports from this session, worktree count down to 6 from the 11 found earlier today (the one folder stuck locked by another process is gone).
+
+**One honest limit, stated plainly rather than glossed over: this thread cannot verify or stop the other environments themselves.** `git worktree list` still shows four `/sessions/...` entries — registered worktrees on machines this session has no access to. Their git registration alone doesn't prove whether those processes are actually still running; confirming and closing them, if not already done, is Mark's own action, not something checkable or actionable from here.
+
+**Going forward:** new work gets dispatched from this thread — via the Agent tool for scoped subagent work that reports back here, or via a launch-prompt document (this project's existing, established pattern) when a genuinely separate thread is still the right shape for something. Either way, the record stays in one place instead of scattering across independently-spawned sessions, which is the condition that produced tonight's original confusion in the first place.
+
+---
+
 ## 2026-07-21 (latest) — Nonprofit-to-PBC cleanup executed: 43 files reviewed, 15 edited, 5 marked superseded, 3 flagged for Mark, support.html's false live-site claim fixed
 
 **What this closes:** the dispatched cleanup prompt (`Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Nonprofit_to_PBC_Cleanup_2026-07-21.md`) plus the follow-on sync update confirming the entity is now actually incorporated (Faithways Studio, Inc., Entity ID 20261874960) — both verified directly against the actual decision logs before anything was touched, not taken on faith.
