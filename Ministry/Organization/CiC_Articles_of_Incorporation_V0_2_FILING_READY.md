@@ -1,5 +1,7 @@
 # Articles of Incorporation — Church in Conversation
 
+**SUPERSEDED 2026-07-21 — entity pivoted to Faithways Studio, Inc. (a Colorado Public Benefit Corporation). See `Ministry/Organization/CiC_PBC_Articles_of_Incorporation_V0_4_FILING_READY.md` for the current entity.**
+
 **A Colorado Nonprofit Corporation** · Filing-ready draft **V0.2** · 2026-07-18
 
 > **Status: FOR ATTORNEY REVIEW, then filing. Not legal advice.** This refines the

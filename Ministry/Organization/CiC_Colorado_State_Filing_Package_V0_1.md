@@ -1,5 +1,7 @@
 # Colorado Nonprofit — State Filing Package
 
+**SUPERSEDED 2026-07-21 — entity pivoted to Faithways Studio, Inc. (a Colorado Public Benefit Corporation). See `Ministry/Organization/CiC_PBC_Articles_of_Incorporation_V0_4_FILING_READY.md` for the current entity.**
+
 **Church in Conversation · Articles of Incorporation for a Nonprofit Corporation**
 Prepared 2026-07-18 (Funding thread, at Mark's request) · Status: **READY TO FILE after two gates below** · Owner going forward: nonprofit-formation thread
 
