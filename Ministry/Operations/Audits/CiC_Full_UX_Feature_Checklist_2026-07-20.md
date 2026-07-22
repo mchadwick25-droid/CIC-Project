@@ -6,7 +6,7 @@ Mark asked for on top of the original journey-ordered list:
 1. **Track** — is this part of the **Program** (the conversation app + its immediate
    surfaces — the thing a participant actually experiences, testable one feature at a
    time), or is it **Business & Organizational Development** (Marketplace positioning,
-   funding, nonprofit formation, external messaging — real work, but strategy/formation
+   funding, entity formation, external messaging — real work, but strategy/formation
    work with no UI to click through)?
 2. **Surface** (Program items only) — **Website** (the marketing site, `cic-website/`),
    **App** (the conversation program, `cic-poc/`), **Both** (exists on/bridges both), or
@@ -200,7 +200,7 @@ Part 1 was.
 |---|---|---|---|
 | Marketplace positioning & differentiation | `Ministry/Marketplace/` | Drafted | Landscape scan, differentiation analysis, and positioning brief all at V0.1/DRAFT; a decision log records some calls already locked within it |
 | Funder landscape & fundraising strategy | `Ministry/Funding/` | Drafted | Funder landscape, growth plan, budget proposals, seminary-alignment analysis, and three sponsorship one-pagers all at DRAFT stage; no funder relationship confirmed as executing yet |
-| Nonprofit formation & legal structure | `Ministry/Organization/` | Decided (entity) / Drafted (board) | Articles of Incorporation marked `V0_2_FILING_READY`, a Colorado filing package exists — the entity-formation track is the most advanced of the three; Bylaws Skeleton and Founding Board Strategy/Invitation are still DRAFT |
+| Entity formation & legal structure | `Ministry/Organization/` | Decided (entity) / Drafted (bylaws) | **Entity pivoted 2026-07-21** from a planned nonprofit to Faithways Studio, Inc., a Colorado Public Benefit Corporation (for-profit, 50/50 Mark and Susan Chadwick) — see `CiC_Nonprofit_Formation_Decision_Log.md`. Current Articles of Incorporation: `CiC_PBC_Articles_of_Incorporation_V0_4_FILING_READY.md` (supersedes the prior nonprofit `V0_2_FILING_READY` draft this row previously referenced); the entity-formation track is the most advanced of the three; other governance documents' individual statuses not re-verified in this pass |
 | External messaging & positioning (FAQ, elevator speeches, letters to friends) | `Ministry/Communication/` (excluding the Brand Kit itself) | Drafted | Multiple V0.1/DRAFT pieces, some refreshed since; distinct from the Brand Kit tokens, which are a **Program** input (they govern the UX, §2 of the Full UX Design doc) |
 
 **Explicitly out of scope for both tracks** (per standing project boundaries, not

@@ -40,7 +40,7 @@ And it is a doorway, not a home: built to send you back to living community carr
 
 ## WHERE THINGS STAND (honest status — update monthly)
 
-Four worlds are alive and conversing well. Five more ancient-church worlds are in construction, with Reformation-era communities to follow. A structured pilot with real testers is running now; independent scholarly review is underway; and until that review is complete, every participant is told exactly that. The project is forming as a nonprofit so it can always be free to any seeker.
+Four worlds are alive and conversing well. Five more ancient-church worlds are in construction, with Reformation-era communities to follow. A structured pilot with real testers is running now; independent scholarly review is underway; and until that review is complete, every participant is told exactly that. Church in Conversation is built and operated by Faithways Studio, Inc., a Colorado public benefit corporation, so it can always be free to any seeker.
 
 > [SLOT — after Prototype 1: one tester quote, with permission, e.g. what the encounter opened for them. Nothing invented; wait for the real one.]
 
@@ -54,10 +54,12 @@ We're inviting people in slowly and carefully, cohort by cohort. Leave your emai
 
 ## FOOTER
 
-Church in Conversation · forming as a Colorado nonprofit · [contact email] · About the project's written constitution and methodology: *available to anyone who asks — the work was built to be examined.*
+Church in Conversation · a Colorado public benefit corporation (Faithways Studio, Inc.) · [contact email] · About the project's written constitution and methodology: *available to anyone who asks — the work was built to be examined.*
 
 ---
 
 **Build notes (not page copy):** No public "give" button until CCSA registration lands (~Nov 2026) — the interest list is the only CTA. The "five more" world count and status section must be updated as worlds ship (single source of truth: Mark). Quote slot stays empty until a real, permissioned P1 quote exists.
 
 **Kit-alignment pass, 2026-07-17 (per the approved Messaging & Branding Kit V0.1; every other word untouched):** (1) anchor link "How is this honest?" → "What makes this trustworthy?" (honesty-word audit — trustworthy is Conviction 4's own word); (2) About: "speak honestly from within its own time" → "speak openly" (same audit); (3) About gains the agree-and-disagree sentence ("Seat them together and they'll agree, and disagree, the way the church always has — in the open.") — Mark's onliness made visible at first introduction; (4) closing CTA "Come sit at the Table." → "Come and join us at the Table." (decided: the ask names the value — participation). "A chair pulled out for you" and "Save me a seat" stay — the chair is the welcome gesture, confirmed by Mark. **(5, same-day review):** "a real historical Christian community" → "a documented Christian movement" — Mark's challenge: "movements" is the Vision's governing noun; "documented" carries the evidence claim where "real" merely insisted. **(6, same-day review):** "a carefully built voice" → "a carefully built representative voice" — Mark: "it's not a ghost"; every voice is anchored as representative/built, never bare.
+
+**Entity-pivot pass, 2026-07-21:** (1) WHERE THINGS STAND: "The project is forming as a nonprofit so it can always be free to any seeker." → "Church in Conversation is built and operated by Faithways Studio, Inc., a Colorado public benefit corporation, so it can always be free to any seeker." (2) FOOTER: "Church in Conversation · forming as a Colorado nonprofit ·" → "Church in Conversation · a Colorado public benefit corporation (Faithways Studio, Inc.) ·" **Reason (both):** the project's legal entity pivoted 2026-07-21 from a planned 501(c)(3) nonprofit to a Colorado Public Benefit Corporation (for-profit); no nonprofit filing, no CCSA registration, no tax-deductible giving under this structure. **Flagged, not edited:** the CCSA build note below — "No public 'give' button until CCSA registration lands" assumed a nonprofit charitable-solicitation gate that no longer applies as written; what should gate a future give/payment button under the PBC structure is a real decision, not a mechanical correction, so it is left as-is pending Mark's call.

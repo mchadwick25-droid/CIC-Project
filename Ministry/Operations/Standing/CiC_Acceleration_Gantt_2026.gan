@@ -239,42 +239,52 @@ Update rule: mark tasks complete here (percent), then refresh the task board's D
             <task id="506" name="NCF / DAF year-end asks" color="#cc3333" meeting="false" start="2026-11-16" duration="20" complete="0" expand="true"/>
             <task id="507" name="Public year-end appeal (post-CCSA)" color="#cc3333" meeting="false" start="2026-12-01" duration="22" complete="0" expand="true"/>
         </task>
-        <task id="600" name="F - NONPROFIT ENTITY AND BOARD" color="#3366cc" meeting="false" start="2026-07-17" duration="118" complete="0" expand="true">
+        <task id="600" name="F - FAITHWAYS STUDIO PBC FORMATION (pivoted from nonprofit, 2026-07-21)" color="#3366cc" meeting="false" start="2026-07-17" duration="118" complete="0" expand="true">
             <task id="601" name="Praxis interest form (5 minutes)" color="#3366cc" meeting="false" start="2026-07-17" duration="1" complete="0" expand="true"/>
-            <task id="602" name="Entity prep: articles w/ mission-lock, bylaws, covenant integration" color="#3366cc" meeting="false" start="2026-08-03" duration="25" complete="40" expand="true">
+            <task id="602" name="Entity prep: Faithways Studio PBC — Articles, Bylaws, IP Assignment, Shareholder Agreement (drafted + 3 independent review rounds)" color="#3366cc" meeting="false" start="2026-08-03" duration="25" complete="95" expand="true">
                 <depend id="603" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="603" name="File CO articles of incorporation (~Sept 15)" color="#3366cc" meeting="false" start="2026-09-14" duration="4" complete="0" expand="true">
-                <depend id="604" type="2" difference="0" hardness="Strong"/>
-                <depend id="606" type="2" difference="0" hardness="Strong"/>
-                <depend id="607" type="2" difference="0" hardness="Strong"/>
-                <depend id="608" type="2" difference="0" hardness="Strong"/>
-                <depend id="506" type="2" difference="0" hardness="Strong"/>
-                <depend id="709" type="2" difference="0" hardness="Strong"/>
+            <task id="603" name="DONE — Filed CO Articles of Incorporation (Faithways Studio, Inc., PBC). Entity ID 20261874960, Transaction # 20261874960" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="624" type="2" difference="0" hardness="Strong"/>
+                <depend id="623" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="604" name="1023-EZ filed" color="#3366cc" meeting="false" start="2026-09-21" duration="8" complete="0" expand="true">
+            <task id="624" name="DONE — EIN obtained from the IRS" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="625" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="625" name="DONE — Organizational Resolutions executed (Bylaws adopted, officers elected, share issuance + bank account authorized)" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="620" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="620" name="Open corporate bank account + fund $40 founder capital ($20 each)" color="#3366cc" meeting="false" start="2026-07-25" duration="3" complete="0" expand="true">
+                <depend id="621" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="621" name="DONE — IP Assignment Agreement and Shareholder Buy-Sell Agreement executed, copies given to Susan" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+                <depend id="622" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="622" name="Issue Notice of Uncertificated Shares to Mark and Susan (C.R.S. § 7-106-207 / § 7-101-505)" color="#3366cc" meeting="false" start="2026-07-30" duration="1" complete="0" expand="true"/>
+            <task id="623" name="File 'Church in Conversation' Colorado trade name (DBA)" color="#3366cc" meeting="false" start="2026-07-23" duration="1" complete="0" expand="true"/>
+            <task id="604" name="[SUPERSEDED — nonprofit path, not applicable to PBC] 1023-EZ filed" color="#99aacc" meeting="false" start="2026-09-21" duration="8" complete="0" expand="true">
                 <depend id="609" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="609" name="IRS determination (typical wait)" color="#99bbee" meeting="false" start="2026-10-01" duration="40" complete="0" expand="true">
+            <task id="609" name="[SUPERSEDED — nonprofit path, not applicable to PBC] IRS determination (typical wait)" color="#99bbee" meeting="false" start="2026-10-01" duration="40" complete="0" expand="true">
                 <depend id="611" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="611" name="TechSoup / AWS nonprofit credits applications" color="#3366cc" meeting="false" start="2026-11-30" duration="8" complete="0" expand="true"/>
-            <task id="605" name="Board recruitment: 3 clean independents (+ &lt;=1 family)" color="#3366cc" meeting="false" start="2026-08-17" duration="60" complete="0" expand="true">
+            <task id="611" name="[SUPERSEDED — nonprofit path, not applicable to PBC] TechSoup / AWS nonprofit credits applications" color="#99aacc" meeting="false" start="2026-11-30" duration="8" complete="0" expand="true"/>
+            <task id="605" name="[SUPERSEDED — nonprofit path, not applicable to PBC] Board recruitment: 3 clean independents (+ &lt;=1 family)" color="#99aacc" meeting="false" start="2026-08-17" duration="60" complete="0" expand="true">
                 <depend id="608" type="2" difference="0" hardness="Strong"/>
                 <depend id="610" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="606" name="CCSA charitable solicitation registration" color="#3366cc" meeting="false" start="2026-10-19" duration="20" complete="0" expand="true">
+            <task id="606" name="[SUPERSEDED — nonprofit path, not applicable to PBC] CCSA charitable solicitation registration" color="#99aacc" meeting="false" start="2026-10-19" duration="20" complete="0" expand="true">
                 <depend id="612" type="2" difference="0" hardness="Strong"/>
                 <depend id="507" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="607" name="Bank account + bookkeeping setup" color="#3366cc" meeting="false" start="2026-10-05" duration="8" complete="0" expand="true"/>
-            <task id="610" name="D and O insurance quote + bind" color="#3366cc" meeting="false" start="2026-11-09" duration="8" complete="0" expand="true"/>
-            <task id="608" name="First board meeting: bylaws, covenant, conflict + compensation policy, 2027 budget" color="#3366cc" meeting="false" start="2026-11-16" duration="3" complete="0" expand="true">
+            <task id="607" name="[SUPERSEDED — covered by #620 above] Bank account + bookkeeping setup" color="#99aacc" meeting="false" start="2026-10-05" duration="8" complete="0" expand="true"/>
+            <task id="610" name="[SUPERSEDED — nonprofit path, not applicable to PBC] D and O insurance quote + bind" color="#99aacc" meeting="false" start="2026-11-09" duration="8" complete="0" expand="true"/>
+            <task id="608" name="[SUPERSEDED — nonprofit path, not applicable to PBC] First board meeting: bylaws, covenant, conflict + compensation policy, 2027 budget" color="#99aacc" meeting="false" start="2026-11-16" duration="3" complete="0" expand="true">
                 <depend id="612" type="2" difference="0" hardness="Strong"/>
                 <depend id="613" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="613" name="MILESTONE: stipend trigger policy adopted" color="#dd0000" meeting="true" start="2026-11-19" duration="0" complete="0" expand="true"/>
-            <task id="612" name="GATE: nonprofit fully established (board, policies, CCSA)" color="#dd0000" meeting="true" start="2026-12-01" duration="0" complete="0" expand="true"/>
+            <task id="613" name="[SUPERSEDED — nonprofit path, not applicable to PBC] MILESTONE: stipend trigger policy adopted" color="#99aacc" meeting="true" start="2026-11-19" duration="0" complete="0" expand="true"/>
+            <task id="612" name="[SUPERSEDED — nonprofit path, not applicable to PBC] GATE: nonprofit fully established (board, policies, CCSA)" color="#99aacc" meeting="true" start="2026-12-01" duration="0" complete="0" expand="true"/>
         </task>
         <task id="700" name="G - MINISTRY GROWTH AND COMMUNICATION" color="#cc9900" meeting="false" start="2026-08-11" duration="103" complete="0" expand="true">
             <task id="701" name="Packet V0.2 = presentable business plan (P1 actuals in)" color="#cc9900" meeting="false" start="2026-08-11" duration="8" complete="0" expand="true">

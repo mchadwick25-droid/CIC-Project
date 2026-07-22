@@ -256,10 +256,14 @@ decision is Mark's.*
 The launch prompt framed this as "both names currently in use." The repo's record is
 more lopsided than that framing suggests:
 
-- **"Church in Conversation"** is the reserved Colorado entity name (Statement of
-  Reservation filed, per the nonprofit formation log), the registered domain
-  (churchinconversation.org / .com, purchased by Mark), the name on every governance
-  document, and appears ~376 times across ~89 files.
+- **"Church in Conversation"** is the project's registered trade name / DBA under
+  Faithways Studio, Inc. (the Colorado public benefit corporation that owns and
+  operates it *(entity-pivot correction, 2026-07-21: this was originally the reserved
+  Colorado entity name itself, per the nonprofit formation log — the entity later
+  pivoted from a planned nonprofit to a for-profit PBC, with Faithways Studio, Inc.
+  as the incorporated name and Church in Conversation retained as its trade name)*),
+  the registered domain (churchinconversation.org / .com, purchased by Mark), the
+  name on every governance document, and appears ~376 times across ~89 files.
 - **"Conversations with the Early Church"** appears in exactly one substantive place:
   the front-end decision log (2026-07-07), where it was decided as *"Phase 1's real
   name… the named title of the Phase 1 Implementation stage"* in the Vision and
@@ -462,7 +466,7 @@ Named plainly so nothing falls into the gap between threads:
 4. **Did not decide the name.** §2 is a recommendation with the reasoning shown;
    the naming-architecture confirmation, the "The" question, series-title
    placement, and short-form sanctioning are Mark's calls (§2.3).
-5. **Did not run a trademark search.** The nonprofit log's basic-trademark-scan
+5. **Did not run a trademark search.** The entity-formation log's basic-trademark-scan
    item remains open; §2's trademark observations are strategy-level, not legal
    clearance. A real knockout search belongs with the attorney work already
    planned.

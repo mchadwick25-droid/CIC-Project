@@ -41,16 +41,46 @@ smoke-tested, uncommitted — new DO NOW item above.) Later still (2026-07-19, s
 L1-L5 audit): a 10-agent audit found real cross-document drift (full findings in
 `CiC_L1-L5_Systematic_Audit_2026-07-19.md`) — one item flagged as urgent (House-Church's
 crisis/distress handoff mechanism) was **checked directly in code and confirmed already
-built, wired into both message endpoints, and live-tested 2026-07-13** — removed from DO
-NOW, was a documentation-lag false alarm, not an open safety gap. Remaining audit
-follow-through (registry reconciliation, prompt-drift decision, citation fixes, lexicon
-compliance script) handed to a new disciplined successor thread —
-`CiC_System_Hub_Thread_Launch_V2_2026-07-19.md`.)_
+built, wired into both message endpoints** — removed from DO NOW, was a documentation-lag
+false alarm, not an open safety gap. Remaining audit follow-through (registry reconciliation,
+prompt-drift decision, citation fixes, lexicon compliance script) handed to a new disciplined
+successor thread — `CiC_System_Hub_Thread_Launch_V2_2026-07-19.md`.)_ **⚠ CORRECTION
+2026-07-21: this note's own "live-tested 2026-07-13" claim was wrong** — the actual
+2026-07-13 implementation notes disclose the opposite (no live testing run). Code/architecture
+confirmed real and platform-wide; live-adversarial-testing status corrected to NOT DONE — see
+the 2026-07-21 Decision Log entry and the new DO NOW item below. Same entry also: **Path B
+(full feature set) reconfirmed**, **Article 31 external review reworded to aspirational, no
+longer a go-live dependency** (financial reality, per Mark — see #301 below), and **Albina's
+Bethlehem Circle drift traced and confirmed closed** (already marked DONE 2026-07-19 below;
+this just adds the exact git-history explanation)._
 
 ---
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
+- [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic
+      mechanism run: 19/20 clean, real API calls, all 5 worlds, both endpoints.** Closes
+      the one real gap under the "crisis handoff" cluster. Covered: A1/A2/continuation on
+      House-Church specifically, the historical-otherness-vs-real-crisis boundary (zero
+      coverage before this — passed, including the hardest edge case), both Harmful
+      Dynamic paths (zero coverage before this — both correct), a false-positive control
+      (6 turns, zero false fires), the frame-breaker/relational-safety overlap (correct
+      priority), a 3-world table (correct), and the non-streaming endpoint (correct). Full
+      transcripts and scoring: `CiC_Live_Safety_Testing_Script_2026-07-21.docx` (repo
+      root). Same bar Self-Narration/frame-breaking cleared (12/12 live) before being
+      trusted — now cleared here too, with one exception below.
+- [x] **DONE 2026-07-21 (later) — De-escalation follow-up run: real, reproducible, and
+      safe-direction, not a bug that blocks launch.** Re-tested twice more with
+      unambiguously neutral turns (no crisis language at all) — de-escalation
+      consistently takes ~3–4 clean turns to clear, not the code's documented 2, but it
+      does clear reliably and stays cleared once it does (no flickering back). Direction
+      of the miss is the safe one: the system holds its cautious posture slightly longer
+      than coded, not shorter. No participant-facing problem — the "still here"
+      continuation turns read as attentive, not broken or alarming. **No urgent code
+      change needed before launch.** Low-priority cleanup for later: either correct the
+      `_DEESCALATION_TURNS_REQUIRED = 2` comment to match observed behavior, or (optional)
+      tighten the classifier prompt for exact 2-turn precision if that specificity ever
+      matters. Full account: Decision Log, 2026-07-21 (later still).
 - [ ] **⚠ OPEN, INVESTIGATED 2026-07-20, now TRACEABLE — Content-isolation
       defect in `cic-poc/backend`, real, root cause still NOT established.**
       A live API response (Theon's turn in a real multi-world session)
@@ -338,19 +368,67 @@ compliance script) handed to a new disciplined successor thread —
       precise than a visual glance for this exact bug class (a numeric
       overflow), but flagged here rather than silently substituted without
       saying so. Committed `d02b41e`.
-- [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%)** — send package =
-      `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` + `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`
-      (both in `Ministry/Scholarly-Review/`). Relational register, endorsement door
-      open, 4–6-week staged pacing, world brief enclosed. Your part: two personal
-      blocks + honorarium figure → send. Unblocks #302/#303/#306.
+- [ ] **301 — Reviewer package: V0.2 DRAFTED 2026-07-16 (90%).** ⚠ **No longer a go-live
+      dependency (2026-07-21, Mark's direction) — held until affordable, financial reality,
+      not a priority drop.** Real and worth doing, reworded to aspirational language
+      wherever it appears in public-facing copy rather than implied as in-progress or
+      required; stays fully transparent about current (not-yet-started) status. Send
+      package = `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` +
+      `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx` (both in `Ministry/Scholarly-Review/`).
+      Relational register, endorsement door open, 4–6-week staged pacing, world brief
+      enclosed. Your part, whenever affordable: two personal blocks + honorarium figure →
+      send. Unblocks #302/#303/#306, none of which gate launch either.
 - [ ] **510 — Church-designated fund conversation** with the pastor. Unblocks all
       tax-deductible Ring 1 giving.
 - [ ] **601 — Praxis interest form.** Five minutes. Calendar April 2027 while at it.
-- [ ] **602 — Entity prep: DRAFTS EXIST 2026-07-16 (40%)** — Articles of Incorporation
-      (with Article IV mission-lock) + Bylaws Skeleton, both in
-      `Ministry/Organization/`, both built from the covenant and marked FOR ATTORNEY
-      REVIEW. Remaining: your covenant markup, placeholder fills (registered agent,
-      initial directors), attorney consult before the ~Sept 15 filing.
+- [x] **602 — Entity prep: PIVOTED NONPROFIT → PBC, now FINAL (2026-07-21, confirmed
+      after a deep-research stress-test), fully drafted and reviewed, 95% complete.**
+      Entity pivoted from a 501(c)(3) nonprofit to a Colorado Public Benefit
+      Corporation, "Faithways Studio, Inc." (d/b/a "Church in Conversation"), Mark +
+      Susan Chadwick as 50/50 shareholders and directors. **Not a default choice** —
+      three independent adversarial research passes stress-tested whether nonprofit
+      was really infeasible (it wasn't, per real comparables — see the decision log),
+      surfaced that the whole case for PBC came down to whether Mark wants to keep the
+      option of a personal sale someday, and Mark confirmed directly that he does. See
+      `Ministry/Funding/CiC_Org_Funding_Decision_Log.md` and
+      `Ministry/Organization/CiC_Nonprofit_Formation_Decision_Log.md` (2026-07-21,
+      final entry) for the full reasoning. **All four formation documents are drafted,
+      filing-ready, and have been through three independent review rounds
+      (attorney-lens + business-development-lens each round)** — no attorney consult
+      required as a gate:
+      `Ministry/Organization/CiC_PBC_Articles_of_Incorporation_V0_4_FILING_READY.md`,
+      `CiC_PBC_Bylaws_and_Organizational_Resolutions_V0_1.md`,
+      `CiC_PBC_IP_Assignment_Agreement_V0_1_DRAFT.md`,
+      `CiC_PBC_Shareholder_Buy-Sell_Agreement_V0_1_DRAFT.md`, combined into
+      `Faithways_Studio_Formation_Documents_2026-07-21.pdf` for Mark's own outside
+      legal-review tool (clean on its second pass). **Everything downstream that
+      assumed the nonprofit path (604 1023-EZ, 605 board recruitment of 3
+      independents, 606 CCSA, 608 first board meeting w/ comp policy, 609 IRS
+      determination, 610 D&O insurance, 611 TechSoup/AWS nonprofit credits, 612/613
+      nonprofit gates) no longer applies** — flagged SUPERSEDED in both this board and
+      the Gantt file (Gantt IDs 604–613) rather than deleted, so the history stays
+      visible. **What's actually left is a short, dependency-ordered execution
+      checklist, added below as new Gantt IDs 620–625:**
+      1. **603 — DONE 2026-07-21 — Filed CO Articles of Incorporation.** Faithways
+         Studio, Inc. is now a real, incorporated Colorado PBC. **Entity ID
+         20261874960, Transaction # 20261874960.**
+      2. **624 — DONE 2026-07-21 — EIN obtained from the IRS.**
+      3. **625 — DONE 2026-07-21 — Organizational Resolutions signed** by Mark and
+         Susan (Bylaws adopted, officers elected, share issuance and bank account
+         authorized). Saved: `Faithways_Studio_Bylaws_and_Resolutions_SIGNABLE.pdf`.
+      4. **620 — NEXT: Open the corporate bank account and fund $40 founder capital**
+         ($20 each from Mark and Susan, referencing "Founder Capital Stock Purchase") — reduced
+         from the original $700 (Mark and Susan share only a joint personal account); the
+         Organizational Resolutions were corrected and re-signed to match. Waiting on the CO SOS
+         business-search record to catch up before finishing the Relay application.
+      5. **621 — DONE 2026-07-21 — IP Assignment Agreement and Shareholder Buy-Sell Agreement
+         both signed**, copies given to Susan. Saved:
+         `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE.pdf`,
+         `Faithways_Studio_Shareholder_Agreement_SIGNABLE.pdf`.
+      6. **622 — Issue the Notice of Uncertificated Shares** to Mark and Susan
+         (C.R.S. § 7-106-207 / § 7-101-505 disclosure).
+      7. **623 — File the "Church in Conversation" trade name (DBA)** — depends only
+         on #603, so it can run in parallel with 624–622 rather than waiting on them.
 - [ ] **RM-7 — Review the Representative Modes demonstration.** React-to-first piece —
       the Chloe four-mode demo artifact
       (https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e) and Design
@@ -470,14 +548,16 @@ compliance script) handed to a new disciplined successor thread —
 | 305 | Round 1 holistic review | 304 |
 | 208 | Reformation selection + LT confirmations | 206 |
 | 209–215 | Reformation worlds 1–7 | 208, sequential |
-| 603 | File CO articles (~Sept 15) | 602 |
-| 604 | 1023-EZ | 603 |
-| 605 | Board recruitment (3 clean independents) | 602 posture (start Aug 17) |
-| 606 | CCSA registration | 603 |
-| 607 | Bank + bookkeeping | 603 |
-| 608 | First board meeting (+ compensation policy) | 603, 605 |
-| 613 | Stipend trigger policy adopted | 608 |
-| 612 | GATE nonprofit fully established | 608, 606 |
+| ~~603~~ | ~~File CO articles~~ — **DONE 2026-07-21**, see #602 in DO NOW | — |
+| ~~604~~ | ~~1023-EZ~~ — **SUPERSEDED 2026-07-21**, entity is a PBC, no 501(c)(3) filing | — |
+| ~~605~~ | ~~Board recruitment (3 clean independents)~~ — **SUPERSEDED 2026-07-21**, PBC has no mandated independent board | — |
+| ~~606~~ | ~~CCSA registration~~ — **SUPERSEDED 2026-07-21**, nonprofit-only charitable-solicitation requirement | — |
+| 620 | Open corporate bank account (Relay) + fund $40 founder capital | 602 posture — waiting on CO SOS record catch-up |
+| ~~608~~ | ~~First board meeting (+ compensation policy)~~ — **SUPERSEDED 2026-07-21**, see #625 (Organizational Resolutions, DONE) in DO NOW | — |
+| ~~613~~ | ~~Stipend trigger policy adopted~~ — **SUPERSEDED 2026-07-21**, nonprofit-specific | — |
+| ~~612~~ | ~~GATE nonprofit fully established~~ — **SUPERSEDED 2026-07-21**, replaced by #602's PBC formation checklist (620–625) in DO NOW | — |
+| 622 | Issue Notice of Uncertificated Shares | 620 |
+| 623 | File "Church in Conversation" trade name (DBA) | 603 (done — can run now) |
 | 403 | Engagement One (500-user infra) | 103, 502 |
 | 104 | P2 cohort (~100) | 103, 402 |
 | 503 | World sponsorship asks | 701, 703 |

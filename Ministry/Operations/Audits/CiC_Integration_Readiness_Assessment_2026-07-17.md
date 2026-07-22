@@ -39,12 +39,11 @@ explicitly disclosed as untested by the branch's own notes.
 
 ### Priority 1 — safety-critical, blocks any real pilot
 
-1. **Fix the transcript-logging gap (already tracked, task #464/#3).** Both the
-   frame-breaker (cluster 2) and Acute-Distress (cluster 3) branches skip
-   `write_transcript`. For a pilot whose entire safety/stewardship model depends on
-   human review of transcripts, a crisis-adjacent turn being the one thing NOT
-   captured is backwards. This blocks calling clusters 2 and 3 "pilot-ready" even
-   though their own logic is well-tested.
+1. ~~Fix the transcript-logging gap (already tracked, task #464/#3).~~ **RESOLVED —
+   fixed and verified live 2026-07-17 (task #464, Task Board), reconfirmed by direct
+   code read 2026-07-21 (Decision Log): `write_transcript` fires on every branch
+   including frame-breaker and relational-safety. This finding predates the fix; not
+   an open item.**
 2. **Test the Acute-Distress mechanism at a multi-world table.** Only ever tested
    single-world. Multi-world tables are explicitly part of Prototype 1's design ("both
    modes" per the Gantt's own task 102) — an untested interaction surface for
@@ -92,8 +91,8 @@ explicitly disclosed as untested by the branch's own notes.
 
 ## The actual priority order (combining this diff with the already-tracked validation queue)
 
-1. Transcript-logging fix (unblocks calling clusters 2+3 pilot-ready)
-2. Acute-Distress multi-world test + frame-breaker boundary test + `/message` endpoint check
+1. ~~Transcript-logging fix~~ **DONE — see item 1 above.**
+2. Acute-Distress multi-world test + frame-breaker boundary test + `/message` endpoint check — **still genuinely open as of 2026-07-21, now tracked as a DO NOW item on the Task Board; see Decision Log 2026-07-21 for the full current state of this cluster.**
 3. Representative Modes Battery A (already the top item in the validation queue — highest-cost, highest-value item not yet in this branch at all)
 4. Amma→Chloe rename cross-check + frontend manual-copy sync check
 5. Mark's Governance V3.7 ruling (cheap — mostly a decision, code already tested)

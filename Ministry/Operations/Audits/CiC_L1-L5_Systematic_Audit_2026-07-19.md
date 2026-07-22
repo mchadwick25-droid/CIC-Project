@@ -10,6 +10,15 @@
 
 ### 1. Possible safety gap — House-Church, live with real participants
 
+> **RESOLVED — see Decision Log 2026-07-21.** Confirmed by direct code read: the
+> crisis-handoff mechanism exists at the Facilitator/platform level exactly as this
+> finding speculated it might (`classify_relational_safety` in `cic-poc/backend/app/graph/
+> nodes.py`, wired into both message endpoints, applies identically to all five worlds
+> including House-Church/Chloe). The architecture is real. **What is still genuinely
+> open, not resolved by this note:** live-model adversarial testing has never been run
+> against it — see the new DO NOW item on the Task Board. Don't re-flag the mechanism's
+> existence; do track the live-testing gap.
+
 House-Church's own last recorded internal safety test (2026-07-09, `Phase5_BoundaryTesting_Independent_Verification_Round1.md`) scored **Relational Safety a FAIL against real-deployment readiness — blocking**: no crisis/distress handoff mechanism existed. The follow-on Facilitation Brief (still filenamed DRAFT) says, in its own words:
 
 > "the actual safety-critical mechanism — recognizing a real crisis signal and executing a clean handoff to human help — remains explicitly Facilitator-governed... and still does not exist anywhere in this world's current artifacts... **this world should not be exposed to real participants until that mechanism exists and is tested.**"
@@ -30,9 +39,9 @@ The Change Orders Register explains why: **CO-023/CO-024 (2026-07-09) already de
 
 | # | Finding | Where | Severity |
 |---|---|---|---|
-| 1 | No crisis/distress handoff mechanism confirmed to exist for a live world (House-Church) | L5 · House-Church | **Critical — confirm urgently** |
+| 1 | ~~No crisis/distress handoff mechanism confirmed to exist for a live world (House-Church)~~ **RESOLVED 2026-07-21** — exists, platform-wide; live-testing tracked separately | L5 · House-Church | ~~Critical~~ Closed (see Decision Log 2026-07-21) |
 | 2 | Canonical L2 status/registry documents describe a project that no longer exists; the fix may be sitting unmerged on `CiC-L1L3-Foundation` | L2A/L2C/L2D | **Critical — governance** |
-| 3 | Bethlehem Circle's *deployed* Permanent Prompt has drifted from the canonical, reviewed, adversarially-tested World-Builds copy — undocumented, untested since the edit | L5 · Bethlehem Circle | **High — deployment integrity** |
+| 3 | ~~Bethlehem Circle's *deployed* Permanent Prompt has drifted from the canonical, reviewed, adversarially-tested World-Builds copy~~ **RESOLVED 2026-07-21** — resynced, byte-identical | L5 · Bethlehem Circle | ~~High~~ Closed (see Decision Log 2026-07-21) |
 | 4 | Constitution Article 35 cites a "Deployment Standards document" as existing and authoritative; the World Build Onboarding Framework states plainly it has never been produced | L1 / L2B | **High — dependency gap** |
 | 5 | `CiC_Project_Status_July2026.docx` describes an early-July, pre-CO-013, single-world-paused state contradicted by other documents in the same folder | Project-Reference | **High — actively misleading if trusted** |
 
@@ -114,7 +123,7 @@ Story-repository chunks are healthier across the board: House-Church (spot-check
 |---|---|---|---|
 | **Syriac** (Mar Yausep) | Complete, 9/9 docs, deepest review history of any world | Caught and structurally corrected its own self-certification failure mid-build; live testing caught and fixed 3 real defects incl. a fabricated genealogy | Article 31 review never done; only 4/8 Part Eight categories live-tested (cross-project infra gap, not world-specific) |
 | **Alexandria** (Theon) | Complete, 9/9 docs | Just-recovered 116 files show no corruption; unusually self-auditing (runs its own cross-world findings) | Newest, thinnest-tested world (1 boundary-testing round); Article 31 pending — both accurately disclosed |
-| **Bethlehem Circle** (Albina) | Complete, 9/9 docs + Doc_10 | Caught its own fabricated quotation and a chronologically-impossible claim pre-ship | **Deployed Permanent Prompt has undocumented drift from the tested/reviewed version** (see High findings); rename to "Bethlehem Circle" never reached any of the 77 internal files |
+| **Bethlehem Circle** (Albina) | Complete, 9/9 docs + Doc_10 | Caught its own fabricated quotation and a chronologically-impossible claim pre-ship | ~~Deployed Permanent Prompt has undocumented drift from the tested/reviewed version~~ **RESOLVED 2026-07-21 — see Decision Log.** World-Builds resynced to deployed (`5a63d80`), verified byte-identical; rename to "Bethlehem Circle" never reached any of the 77 internal files (still open) |
 | **House-Church** (Chloe) | Complete, 9/9 docs, first world ever built | Exceptional — caught a false "verbatim" self-certification, a misattributed quote, and a logic error in Forces classification | **Own safety testing said not to ship without a crisis-handoff mechanism, dated 2026-07-09, status unconfirmed since** (see Critical findings); worst lexicon-chunk compliance (0/13) offset by a parallel Distortion-Risk apparatus; undisclosed "Amma"→"Chloe" Representative rename across dozens of review files |
 | **Desert-Monasticism** (Papnoute) | Complete, 9/9 docs | Self-disclosed a recurring "illusory fix" pattern across 5 documents — caught every time by a subsequent independent round; genuine 3-cycle adversarial live-testing | Lexicon compliance worse than previously logged (0/9, not 5/9) but root cause now precisely diagnosed as a mechanical extraction bug, cheap to fix; explicitly Not Frozen, same two gates as Syriac |
 
@@ -124,9 +133,9 @@ Story-repository chunks are healthier across the board: House-Church (spot-check
 
 ## Recommended next steps (for Mark's decision, nothing actioned)
 
-1. **Confirm the House-Church crisis-handoff mechanism status directly** — this is the one finding that can't wait for a broader cleanup pass.
+1. ~~Confirm the House-Church crisis-handoff mechanism status directly~~ **DONE — see the RESOLVED note under Finding 1 above and Decision Log 2026-07-21.** Live-testing follow-up now tracked separately on the Task Board.
 2. **Check what's actually on `CiC-L1L3-Foundation` before hand-fixing any canonical L2 document** — a large share of the "stale registry" findings may already be resolved there, unmerged.
-3. **Confirm and re-test the Bethlehem Circle Permanent Prompt drift** — either the World-Builds copy needs updating to match what's deployed, or the deployed copy needs to be reverted/re-reviewed; either way it needs a decision and a fresh test pass, not silence.
+3. ~~Confirm and re-test the Bethlehem Circle Permanent Prompt drift~~ **DONE — see the RESOLVED note under the per-world table below and Decision Log 2026-07-21.** World-Builds resynced to match deployed (`5a63d80`), verified byte-identical.
 4. Decide which "Governing Constraint on Revision" language governs (L1 Vision's methodology-required floor vs. the newer v1.1's demonstrated-so-far floor).
 5. When capacity allows: the lexicon-chunk fixes for House-Church, Desert-Monasticism, and Bethlehem Circle are all mechanical (grounding data already exists upstream in each world's own Doc_02/Doc_06) — good candidates for a single focused pass across all three.
 6. Archive `CiC_L3D_Facilitator_Governance_V3.4.docx` (confirmed superseded) and clean up `L3C-Representative-Methodology/desktop.ini` (harmless OS artifact) — trivial, low-risk, whenever convenient.

@@ -85,4 +85,4 @@ visual gate is cleared. Still open, with owners: rasterized `.ico`/`.png` export
 (build thread, from the favicon master — **the 16px dot test is the binding
 condition**; per-size dot enlargement to r 9–10 at 16px only is pre-sanctioned) ·
 vector wordmark outlines (needs the Alegreya font asset; watch the italic "in" at
-small sizes) · trademark screening of the mark (attorney list, nonprofit thread).
+small sizes) · trademark screening of the mark (attorney list, entity-formation thread).

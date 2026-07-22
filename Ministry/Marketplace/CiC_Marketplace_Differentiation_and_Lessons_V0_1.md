@@ -127,8 +127,10 @@ low-rigor players.
 - **Distribution reality: rigor doesn't currently fund destination apps.** Magisterium
   (~$3M) vs. Hallow ($105M) is the market pricing rigor as infrastructure, and
   StoryFile's bankruptcy shows fidelity-first economics failing commercially even with
-  celebrity content. CiC's nonprofit/donor model (YouVersion is the sector's
-  500M-install proof that donor-funded free works at scale) is the right lane — but
+  celebrity content. CiC's donor-supported model (as Faithways Studio, Inc., a
+  Colorado PBC — not a nonprofit; contributions aren't tax-deductible — YouVersion is
+  the sector's 500M-install proof that donor-funded free works at scale for a genuine
+  nonprofit) is the right lane — but
   the funding thread should hold the Magisterium precedent (rigor layer licensed to a
   consumer platform) as a possible future revenue angle, on its own terms. (Handoff:
   funding thread. Decision belongs there, not here.)
@@ -189,8 +191,10 @@ patterns).**
 data).**
 Root cause: monetizing the relationship itself, or the data it produces. The FTC now
 studies companion-bot monetization as a consumer-protection question.
-*Guard:* structural — nonprofit, free-to-seeker charter, no engagement metrics
-collected ("there are numbers we refuse to even collect").
+*Guard:* structural — mission-locked PBC charter (Faithways Studio, Inc., a Colorado
+Public Benefit Corporation; not a nonprofit, contributions aren't tax-deductible),
+free-to-seeker charter, no engagement metrics collected ("there are numbers we refuse
+to even collect").
 *Exposure:* conversation transcripts in a *religious* register are prayer-adjacent
 data — the sector's most radioactive category. The scan found no case yet of a
 religious product exposed for engagement-optimization or data monetization, which

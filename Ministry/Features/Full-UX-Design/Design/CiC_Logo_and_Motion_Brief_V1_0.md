@@ -52,7 +52,7 @@ text is where reading begins; the lunate sigma echo.
    lockup contexts; R1/R2 largely resolve it.
 
 **Also:** trademark screening covers the mark, not just the name (already on the
-nonprofit thread's attorney list). Simulation ≠ clearance.
+entity-formation thread's attorney list). Simulation ≠ clearance.
 
 ## 3. The motion — FINAL (V0.8, Mark: "this is it")
 

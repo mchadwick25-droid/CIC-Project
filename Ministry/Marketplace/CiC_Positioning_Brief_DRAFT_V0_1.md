@@ -134,7 +134,7 @@ before any print use — the scan is dated 2026-07-16.)*
 
 - **Communication thread:** category-exit table (§1), verified claims (§2), overclaim
   register (§3), proof points (§4), draft paragraph (§5). Final voice and register are
-  that thread's call, inside the Telling the Story plan's ask-ladder and CCSA timing.
+  that thread's call, inside the Telling the Story plan's ask-ladder.
 - **Funding thread:** claims 3–4 and the YouVersion/Magisterium economics context
   (see Differentiation doc §2 and H3) for the proposal packet's competitive-context
   section, if one is added.
