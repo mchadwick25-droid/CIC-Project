@@ -420,7 +420,11 @@ this just adds the exact git-history explanation)._
          ($20 each from Mark and Susan, referencing "Founder Capital Stock Purchase") — reduced
          from the original $700 (Mark and Susan share only a joint personal account); the
          Organizational Resolutions were corrected and re-signed to match. Waiting on the CO SOS
-         business-search record to catch up before finishing the Relay application.
+         business-search record to catch up before finishing the Relay application. **Update
+         2026-07-21: Stripe account setup and linking to `cic-website/support.html`'s giving flow
+         is expected within the next couple of days once Relay is finalized** — the site's
+         current mailto-based giving flow is the correct interim state until then, not a gap to
+         fix separately.
       5. **621 — DONE 2026-07-21 — IP Assignment Agreement and Shareholder Buy-Sell Agreement
          both signed**, copies given to Susan. Saved:
          `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE.pdf`,
