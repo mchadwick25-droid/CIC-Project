@@ -7,3 +7,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Claude Code local config (machine-specific, never shared)
+.claude/
