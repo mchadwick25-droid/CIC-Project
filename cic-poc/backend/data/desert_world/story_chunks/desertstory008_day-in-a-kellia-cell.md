@@ -5,7 +5,7 @@ Story-Title:    A Day in a Kellia Cell
 World-Code:     desert
 Tier:           4
 Confidence:     Inferential/Thin (always, per the Story Repository Chunk Template's own rule for Tier 4, regardless of individual element quality)
-Source:         Reconstruction assembled from independently attested elements -- see Source Identification below
+Source:         Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed "the sixth day," which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.
 Retrieve-When:  participant asks what an ordinary day actually looked like, in concrete terms, for a semi-anchoritic ascetic; conversation reaches Strand C's own daily rhythm specifically -- Papnoute's own grounding register; Representative needs to render the synaxis, manual labor, and Psalter recitation as lived texture rather than abstract description.
 Do-Not-Retrieve-When: participant asks for specifics beyond what is sourced here (diet, exact hours, personal routine) -- an earlier draft's diet detail was removed for lack of sourcing and must not be reintroduced; participant is asking about Strand A's solitary pattern (Stories 001-002, 007) or Strand B's cenobitic pattern (Story 003) specifically, since this reconstruction is Strand C-specific.
 ```
