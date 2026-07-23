@@ -47,6 +47,27 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
         const sorted = [...data.worlds].sort((a, b) => startYear(a.period) - startYear(b.period));
         setWorlds(sorted);
         setIsLoading(false);
+
+        // Pre-select worlds handed off from the Atlas/pilot pages
+        // (?worlds=id,id&mode=interview|table) - the URL contract those
+        // static pages were already built against, never actually wired up
+        // on this end until now. Pre-selects only; Begin is still the one
+        // required click, same as picking worlds by hand - the Atlas
+        // suggests, it never starts a conversation on its own. `mode` needs
+        // no separate handling: it's already emergent from seat count here
+        // (see this component's own header comment, §4).
+        const params = new URLSearchParams(window.location.search);
+        const worldIdsParam = params.get('worlds');
+        if (worldIdsParam) {
+          const requestedIds = worldIdsParam.split(',').map(id => id.trim()).filter(Boolean);
+          const matched = requestedIds
+            .map(id => sorted.find(w => w.id === id))
+            .filter((w): w is World => w !== undefined)
+            .slice(0, MAX_WORLDS);
+          if (matched.length > 0) {
+            setSelectedWorlds(matched);
+          }
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Unknown error');
         setIsLoading(false);
