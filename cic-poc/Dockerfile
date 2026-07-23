@@ -46,6 +46,19 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/app/ ./app/
 COPY backend/data/ ./data/
 COPY backend/supabase_schema.sql .
+COPY backend/build_indices.py .
+
+# Pre-compute every world's FAISS indices now, on Render's (or whichever
+# host's) build machine, instead of leaving app/main.py's own startup
+# lifespan to rebuild them from scratch inside the much more
+# memory-constrained runtime instance on every single boot - that
+# runtime rebuild (loading sentence-transformers + embedding the full
+# lexicon/story corpus for all 6 worlds at once) is what was actually
+# causing the OOM kill (status 137) on Render's smaller instance types.
+# vector_store/ is gitignored/dockerignored on purpose (generated,
+# large) - this bakes a fresh copy directly into the image layer instead
+# of ever committing it.
+RUN python build_indices.py
 
 # Lands at /frontend/dist — app/main.py resolves this path as two
 # parents above app/main.py itself, matching the local dev layout

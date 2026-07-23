@@ -9,13 +9,14 @@
 # never committed. Set them in the Render dashboard after the first
 # deploy assigns a URL (Settings -> Environment).
 #
-# plan: standard (not free/starter) - confirmed 2026-07-23 that free's
-# 512MB RAM cannot boot this service at all (status 137 / OOM during
-# startup, not a traffic-load issue) - torch + sentence-transformers +
-# FAISS loading embedding models for all 6 worlds' vector stores needs
-# real headroom. Starter is also 512MB (same as free, just more CPU) -
-# confirmed via Render's own instance-type list, not assumed - so it
-# still OOMs. Standard (2GB) is the first tier with more RAM.
+# plan: starter - the real fix for the OOM (status 137) was moving
+# index-building out of runtime startup and into the Docker build step
+# (see build_indices.py + the Dockerfile's own RUN step) - the runtime
+# instance was rebuilding FAISS indices for all 6 worlds from scratch on
+# every single boot, which is what actually needed the extra RAM, not
+# steady-state serving. Trying starter (512MB, $7/mo - the original
+# budget target) first now that the real cause is fixed; only move up
+# to standard (2GB, $25/mo) if this still isn't enough.
 # This service is Blueprint-managed, so this file - not a manual
 # dashboard edit - is the actual source of truth for its plan.
 services:
@@ -24,7 +25,7 @@ services:
     runtime: docker
     dockerfilePath: ./cic-poc/Dockerfile
     dockerContext: ./cic-poc
-    plan: standard
+    plan: starter
     envVars:
       - key: ANTHROPIC_API_KEY
         sync: false
