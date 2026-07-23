@@ -8,13 +8,20 @@
 # ANTHROPIC_API_KEY and CORS_ORIGINS are marked sync: false on purpose -
 # never committed. Set them in the Render dashboard after the first
 # deploy assigns a URL (Settings -> Environment).
+#
+# plan: starter (not free) - confirmed 2026-07-23 that free's 512MB RAM
+# cannot boot this service at all (status 137 / OOM during startup, not
+# a traffic-load issue) - torch + sentence-transformers + FAISS loading
+# embedding models for all 6 worlds' vector stores needs real headroom.
+# This service is Blueprint-managed, so this file - not a manual
+# dashboard edit - is the actual source of truth for its plan.
 services:
   - type: web
     name: cic-poc
     runtime: docker
     dockerfilePath: ./cic-poc/Dockerfile
     dockerContext: ./cic-poc
-    plan: free
+    plan: starter
     envVars:
       - key: ANTHROPIC_API_KEY
         sync: false
