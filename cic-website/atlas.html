@@ -293,7 +293,7 @@ body.st-thread .st-tstub.on{display:block}
 // so production behavior is unchanged until a real URL is filled in below.
 // See cic-website/index.html and cic-website/pilot.html for the same pattern.
 const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
 
 const esc = t => (t==null?'':String(t)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const spine = document.getElementById('spine');

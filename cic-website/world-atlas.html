@@ -352,7 +352,7 @@ const APPMODE = (typeof location!=="undefined") && /[?&]app=1/.test(location.sea
 // honest about not being wired up yet - never a fake "it works" stub.
 // See cic-website/index.html and cic-website/pilot.html for the same pattern.
 const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
 const WID = {"I.1":"post-apostolic-house-church","I.7":"syriac-edessa-nisibis",
              "I.3":"desert-monasticism","I.9":"hieronymian-ascetic-literary",
              "I.2":"alexandria-catechetical","I.6":"imperial-juridical-christianity"};

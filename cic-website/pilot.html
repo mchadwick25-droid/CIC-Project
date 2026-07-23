@@ -76,7 +76,7 @@
       // "localhost" on the real public domain. Port matches this evening's
       // verification server; update if the standard dev port (8000) differs.
       const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-      const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
+      const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
       if (LIVE_APP_URL) {
         document.getElementById('enter-cta-link').href = LIVE_APP_URL;
         document.getElementById('enter-cta-live').style.display = '';

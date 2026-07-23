@@ -314,7 +314,7 @@ body.st-thread .st-tstub.on{display:block}
 // verification server; update if the standard dev port (8000) differs.
 // See cic-website/pilot.html for the same LIVE_APP_URL pattern.
 const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
 if (LIVE_APP_URL) {
   document.getElementById('launch-link').href = LIVE_APP_URL;
   document.getElementById('launch-live').style.display = '';
