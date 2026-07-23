@@ -9,14 +9,19 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
-- `support.html` — How the work is structured (Faithways Studio, Inc., a Colorado PBC — not a nonprofit) and how to support it
+- `support.html` — **Pulled from nav 2026-07-22, no page currently links here.** Funding
+  strategy and support gifts are held for Phase 1 of the launch, per Mark's direct
+  decision — the first priority after go-live is participant feedback, not a giving ask.
+  File kept on disk as a status record, not deleted; see its own header comment and
+  `Ministry/Features/Funding-Strategy/` (a converged five-phase roadmap already exists
+  there) for what happens when this picks back up.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
 **Entity status (updated 2026-07-21): Faithways Studio, Inc. is incorporated**
 (Colorado Public Benefit Corporation, Entity ID 20261874960; not a nonprofit,
 no 501(c)(3), contributions are not tax-deductible). The Support page's giving
-mechanics are built around the monetization ladder in
+mechanics, when it goes live, are built around the monetization ladder in
 `Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
 framing — see that file before changing the ask copy or amounts.
 
