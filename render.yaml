@@ -1,0 +1,26 @@
+# Render Blueprint for cic-poc (the conversation table, 6 worlds).
+# One Docker service: backend serves the built frontend from the same
+# origin (see cic-poc/Dockerfile) — no separate static site needed here.
+#
+# To deploy: Render dashboard -> New -> Blueprint -> connect this repo.
+# Render finds this file automatically at the repo root.
+#
+# ANTHROPIC_API_KEY and CORS_ORIGINS are marked sync: false on purpose -
+# never committed. Set them in the Render dashboard after the first
+# deploy assigns a URL (Settings -> Environment).
+services:
+  - type: web
+    name: cic-poc
+    runtime: docker
+    dockerfilePath: ./cic-poc/Dockerfile
+    dockerContext: ./cic-poc
+    plan: free
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LLM_PROVIDER
+        value: anthropic
+      - key: LLM_MODEL
+        value: claude-sonnet-5
