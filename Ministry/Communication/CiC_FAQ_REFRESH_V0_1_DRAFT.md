@@ -12,7 +12,7 @@ For friends, pastors, scholars, and anyone curious about what this is and where 
 
 ## What is Church in Conversation, in one sentence?
 
-We reconstruct documented Christian movements as worlds — each a particular community, time, and way of following Jesus — and let you meet them in conversation, through a representative voice that speaks from inside each one. Four worlds are live now: Chloe, a house-church hostess in the generation just after the apostles (around 110 CE); Mar Yausep, from the Syriac Christianity of Edessa and Nisibis; Papnoute, from the desert monasticism of Egypt; and Albina, from the ascetic-literary circle around Jerome in Bethlehem. Five more ancient-church worlds are ready for development — nine planned in all for this first phase. (Theon, the Alexandrian voice this all started with, is among the five still in development — that world is being rebuilt under the mature methodology.)
+We reconstruct documented Christian movements as traditions — each a particular community, time, and way of following Jesus — and let you meet them in conversation, through a representative voice that speaks from inside each one. Four traditions are live now: Chloe, a house-church hostess in the generation just after the apostles (around 110 CE); Mar Yausep, from the Syriac Christianity of Edessa and Nisibis; Papnoute, from the desert monasticism of Egypt; and Albina, from the ascetic-literary circle around Jerome in Bethlehem. Five more ancient-church traditions are ready for development — nine planned in all for this first phase. (Theon, the Alexandrian voice this all started with, is among the five still in development — that tradition is being rebuilt under the mature methodology.)
 
 ## Is this just a religious chatbot, or "ChatGPT for Christianity"?
 
@@ -20,21 +20,21 @@ No. A chatbot answers your questions from a neutral, modern, everywhere-and-nowh
 
 ## Are these real people? Are you putting words in historical figures' mouths?
 
-Neither. We are not impersonating historical individuals, and we're not claiming to channel specific real people. Each is a carefully built composite voice. The closest analogy is an icon: an honestly made thing whose whole purpose is to point past itself to something real, not to be mistaken for the thing itself. We are always clear that they are reconstructions, and the system is built so they never pretend otherwise.
+Neither. We are not impersonating historical individuals, and we're not claiming to channel specific real people. Each is a carefully built composite voice. The closest analogy is an icon: a thing made in the open, whose whole purpose is to point past itself to something real, not to be mistaken for the thing itself. We are always clear that they are reconstructions, and the system is built so they never pretend otherwise.
 
 ## Will it try to convert people, or push a particular theology?
 
-No — and this is written into the project's governing principles, not added as a courtesy. It offers; it never pressures. It doesn't argue for one tradition or sell a generic Jesus, and it leaves every conclusion entirely to the person. We measure whether each Christian movement is represented in an engaging and accurate way. How it impacts the kingdom belongs to our Lord. That's bigger than us.
+No — and this is written into the project's governing principles, not added as a courtesy. It offers; it never pressures. It doesn't argue for one tradition or sell a generic Jesus, and it leaves every conclusion entirely to the person. We measure whether each Christian movement is represented in an engaging and accurate way. What your experience means to you is yours to own and share.
 
 ## Whose theology is it — Catholic, Protestant, Orthodox, evangelical?
 
-None and all. The project's conviction is that the richness of Christ shows up across the whole sweep of His church, and that no single stream holds all of it. Each world is built to be faithfully itself — the Syriac world is genuinely Syriac, the Egyptian desert is genuinely the desert — rather than bent toward any modern camp. Seat them at the same table and they will agree, and disagree, the way the church always has — in the open.
+None and all. The project's conviction is that the richness of Christ shows up across the whole sweep of His church, and that no single stream holds all of it. Each Christian tradition is built to be faithfully itself — the Syriac tradition is genuinely Syriac, the Egyptian desert is genuinely the desert — rather than bent toward any modern camp. Seat them at the same table and they will agree, and disagree, the way the church always has — in the open.
 
 ## How do you know it's accurate? What stops it from making things up?
 
-This is the hardest and most important question, and we treat it that way. Each world is built from primary sources with explicit confidence levels — what is well-attested, what is contested, what is thin — and the system is built to say "we don't know" rather than invent. You can see the sources behind what each voice says.
+This is the hardest and most important question, and we treat it that way. Each Christian tradition is built from primary sources with explicit confidence levels — what is well-attested, what is contested, what is thin — and the system is built to say "we don't know" rather than invent. You can see the sources behind what each voice says.
 
-We are also honest that no system like this can be perfect. That is exactly why independent external scholarly review is a required step before we would ever call a world validated — reviewers are being recruited right now, and until that review is complete, every participant is told exactly that — and why, in this phase, we ask testers to flag anything that feels historically off.
+We are also honest that no system like this can be perfect. That is exactly why independent external scholarly review is a required step before we would ever call a tradition validated — reviewers are being recruited right now, and until that review is complete, every participant is told exactly that — and why, in this phase, we ask testers to flag anything that feels historically off.
 
 ## Is it safe for someone who has been hurt by the church?
 
@@ -54,7 +54,7 @@ No, and it is designed not to. Formation happens in the body of Christ — in re
 
 ## Can I try it?
 
-Yes — that is what this phase is for. A structured pilot is running right now: ten to twelve invited testers, each able to forward the invitation to one friend — fifteen to twenty-five participants in all. You would have real conversations — individual sessions, and Table conversations where up to three worlds sit in the room at once — followed by an interview about what landed and what didn't. We are not asking whether you liked it; we are asking what you noticed — where it felt alive and where it felt constructed. A simple public page with an interest-list signup is coming at churchinconversation.org — add your name there, [or just reach out to me directly and we'll set up a session.]
+Yes — that is what this phase is for. A structured pilot is running right now: ten to twelve invited testers, each able to forward the invitation to one friend — fifteen to twenty-five participants in all. You would have real conversations — individual sessions, and Table conversations where up to three Christian traditions sit in the room at once — followed by an interview about what landed and what didn't. We are not asking whether you liked it; we are asking what you noticed — where it felt alive and where it felt constructed. A simple public page with an interest-list signup is coming at churchinconversation.org — add your name there, [or just reach out to me directly and we'll set up a session.]
 
 > [SLOT — real P1 tester quote, with permission — do not invent]
 
@@ -64,7 +64,7 @@ In this testing phase we ask you to share your conversation with us afterward �
 
 ## What happens over the next few months?
 
-Four things: deepen the voices so the worlds feel genuinely inhabited; strengthen the safeguards for anyone who arrives carrying pain; complete the outside scholarly review now being engaged; and run the careful testing now underway with people like you. The discipline through all of it is keeping the worlds true — resisting the temptation to make them warmer and easier until they lose what makes them real.
+Four things: deepen the voices so the Christian traditions feel genuinely inhabited; strengthen the safeguards for anyone who arrives carrying pain; complete the outside scholarly review now being engaged; and run the careful testing now underway with people like you. The discipline through all of it is keeping the traditions true — resisting the temptation to make them warmer and easier until they lose what makes them real.
 
 ## What does it cost to run, and how can I help?
 

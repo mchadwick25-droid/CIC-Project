@@ -28,14 +28,14 @@ N.T. Wright · Tim Mackie · Justo González — a scholar-host at a table. Warm
 
 ## The four messages (in order)
 
-1. **The whole church, in the open** — many movements, one table, real disagreement.
-2. **It shows its work** — sources and confidence visible; "where the record is thin, it says so."
-3. **Witness, never recruitment** — "it will never try to convert you"; "a doorway, not a home"; we measure the representation, never the impact — that's bigger than us.
+1. **The whole Church, in the open** — many movements, one table, real disagreement.
+2. **It shows its work** — sources and confidence visible; "where the historical record is thin, we let the silence stand."
+3. **Witness, never recruitment** — "we are committed to representing each Christian movement in full — its testimony, beautiful and hard alike"; "a doorway to sit with the Christian movements of history"; we measure the representation — what it means for you is yours to own and share.
 4. **The build is the product** — months of review-gated scholarship; free to any seeker; "help us build the next world."
 
 ## Use verbatim (never paraphrase)
 
-"A doorway, not a home" · "We measure whether each Christian movement is represented in an engaging and accurate way. How it impacts the kingdom belongs to our Lord. That's bigger than us." · "Come and join us at the Table" · "Twenty centuries of the church. One table. A chair pulled out for you." · "Where the record is thin, it says so."
+"A doorway to sit with the Christian movements of history" · "We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share." · "We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike." · "Come and join us at the Table" · "Twenty centuries of the Church. One table. A chair pulled out for you." · "Where the historical record is thin, we let the silence stand."
 
 ## Never
 
@@ -43,7 +43,7 @@ N.T. Wright · Tim Mackie · Justo González — a scholar-host at a table. Warm
 
 ## Always
 
-Raise the AI trust question yourself, first — then answer it (locked to sources, shows confidence, tested, reviewed — and what's unfinished, said plainly). Show the work before the caveat. Real dates, no deadlines. Participation verbs: join, ask, meet, explore. Numbers: check with Mark before print. Say "conversation," not "talking" — warm without overclaiming human presence, plain without going clinical ("interacting with an interface"). A clarifying contrast naming what kind of thing this is ("a doorway, not a home") stays fine — the rule targets *denial*, not *category*.
+Raise the AI trust question yourself, first — then answer it (locked to sources, shows confidence, tested, reviewed — and what's unfinished, said plainly). Show the work before the caveat. Real dates, no deadlines. Participation verbs: join, ask, meet, explore. Numbers: check with Mark before print. Say "conversation," not "talking" — warm without overclaiming human presence, plain without going clinical ("interacting with an interface"). A clarifying contrast naming what kind of thing this is stays fine — the rule targets *denial*, not *category*. (Note: "a doorway, not a home" no longer illustrates this — that specific line was retired 2026-07-22 for being unclear, not for breaking this rule; see the Brand-Messaging-Rework Decision Log.)
 
 ## The name
 
@@ -56,3 +56,4 @@ Publicly: anyone curious how differently Christians have known Jesus — the cur
 ---
 
 *Full rules, examples, and reasoning: `CiC_Messaging_Branding_Kit_V0_1_DRAFT.md`.*
+*Updated 2026-07-22: six protected lines revised — see `Ministry/Features/Brand-Messaging-Rework/Decision-Log.md`.*

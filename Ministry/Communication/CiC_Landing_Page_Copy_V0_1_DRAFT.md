@@ -6,7 +6,7 @@
 
 ## HERO
 
-**Twenty centuries of the church. One table. A chair pulled out for you.**
+**Twenty centuries of the Church. One table. A chair pulled out for you.**
 
 Most of us meet Christianity through a single doorway — one tradition, one century, one way of following Jesus — and quietly mistake that doorway for the whole house. Church in Conversation opens the others.
 
@@ -14,11 +14,11 @@ Most of us meet Christianity through a single doorway — one tradition, one cen
 
 ## ABOUT (the public narrative — from the Telling the Story plan's approved sample, lightly extended)
 
-Each world is a documented Christian movement — a first-century house church, the desert fathers and mothers of Egypt, the Syriac church of the East — reconstructed from primary sources and built to speak openly from within its own time. Not a chatbot answering questions, and not a real person impersonated, but a carefully built representative voice you can actually sit down and talk to. Seat them together and they'll agree, and disagree, the way the church always has — in the open.
+Each tradition is a documented Christian movement — a first-century house church, the desert fathers and mothers of Egypt, the Syriac church of the East — reconstructed from primary sources and built to speak openly from within its own time. Not a chatbot answering questions, and not a real person impersonated, but a carefully built representative voice you can actually sit down and talk to. Seat them together and they'll agree, and disagree, the way the church always has — in the open.
 
 It won't try to convert you. It won't smooth over the hard parts. Where the record is thin, it says so.
 
-This is an early prototype, built in the open: four worlds live, five more of the ancient church underway, every claim traceable to its source. Come and join us at the Table.
+This is an early prototype, built in the open: four traditions live, five more of the ancient church underway, every claim traceable to its source. Come and join us at the Table.
 
 ## HOW IT WORKS (three short blocks)
 
@@ -28,19 +28,19 @@ This is an early prototype, built in the open: four worlds live, five more of th
 
 **Honesty you can check.** Hover any highlighted claim for a plain explanation. Click, and you get the sources, the stories behind it, and how confident we are — down to the footnote. When the record is thin, the voice tells you so itself.
 
-## WHAT IT REFUSES TO DO (the trust section — raise the question before they do)
+## HOW WE HARNESS THE AI (the trust section — raise the question before they do)
 
-It's AI — so how do you know it isn't making things up, or selling you something? Three refusals, written into a governing constitution, not just our intentions:
+It's AI — so how do you know it isn't making things up, or selling you something? Three things built into the system itself, not just our intentions:
 
-- **It will never try to convert you.** A witness who argues for his tradition has stopped witnessing and started recruiting. The system is forbidden to persuade.
-- **It never hides the church's real tensions.** Where a community never settled a question, the voice keeps the argument open instead of flattening it.
-- **It never pretends certainty it hasn't earned.** Each voice is locked to its own world's real documents; when its library doesn't cover something, it says so.
+- **Built from original sources, through a disciplined process.** Each Representative is constructed from that movement's own letters, sermons, and records — cataloged, weighed for reliability, and built to survive the outside scholarly review we're working now to coordinate for each Christian Tradition.
+- **Harnessed to know only what its sources know.** Each voice is sealed inside its own tradition's source documents — it cannot browse the internet or borrow knowledge from outside its own place and time. Where those sources run silent, it stays silent too.
+- **Watched, in real time, by a second layer built to catch drift.** Every conversation runs under a silent governance layer, watching for a softened truth, an invented detail, or knowledge from centuries the voice hasn't reached yet — built to catch it before it ever reaches you.
 
-And it is a doorway, not a home: built to send you back to living community carrying more of Christ's church than you arrived with — never to keep you.
+A doorway to sit with the Christian movements of history — built to send you back to living community carrying more of Christ's Church than you arrived with.
 
 ## WHERE THINGS STAND (honest status — update monthly)
 
-Four worlds are alive and conversing well. Five more ancient-church worlds are in construction, with Reformation-era communities to follow. A structured pilot with real testers is running now; independent scholarly review is underway; and until that review is complete, every participant is told exactly that. Church in Conversation is built and operated by Faithways Studio, Inc., a Colorado public benefit corporation, so it can always be free to any seeker.
+Four traditions are alive and conversing well. Five more ancient-church traditions are in construction, with Reformation-era communities to follow. A structured pilot with real testers is running now; independent scholarly review is underway; and until that review is complete, every participant is told exactly that. Church in Conversation is built and operated by Faithways Studio, Inc., a Colorado public benefit corporation, so it can always be free to any seeker.
 
 > [SLOT — after Prototype 1: one tester quote, with permission, e.g. what the encounter opened for them. Nothing invented; wait for the real one.]
 

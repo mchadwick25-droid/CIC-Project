@@ -4,6 +4,16 @@
 
 **V0.2 · 2026-07-17 · APPROVED by Mark** (V0.1 approved same day — language layer forged through his direct markup, M1–M4 and visual directions confirmed; V0.2 consolidates the rest of the day's decisions into the document itself: the Facilitator voice rules, the decided mark and motion with their binding rules, the market-simulation brand rules, and gap-list execution statuses. The decision log remains the authority where anything lags.) Built from the confirmed Brand Brief and the full discovery record (`CiC_Branding_Kit_Handoff_Package_V0_1.md` is the reading order). Every rule here traces to a Mark-confirmed decision or to the governing documents; nothing is invented. Status marks: **DECIDED** (Mark or governance), **RECOMMENDED** (this kit's proposal, awaiting his word), **OPEN** (genuinely undecided — named, not papered over).
 
+**Updated 2026-07-22 (Brand & Messaging Rework thread):** six protected lines revised
+directly with Mark — the doorway line, the measurement line, the "What" beat line, the
+record/silence line, the hero hook (capitalization only), and the documented-witness
+line. A new standing lexicon rule was also set (capital **Church** = the whole/universal
+Christian community; lowercase **church** = a single local congregation) and applied
+where it appears in this document. Full reasoning and the two intermediate framings
+Mark tried and set aside for each line: `Ministry/Features/Brand-Messaging-Rework/
+Decision-Log.md`. A corpus-wide sweep of the Church/church rule beyond this document is
+still queued, not done.
+
 **What this kit is for:** any future writer — Mark, a volunteer, a partner, a Facilitator prompt — should be able to open this document and write public language that sounds like Church in Conversation and could never be mistaken for a pitch, a lecture, or a museum plaque.
 
 **The test every public sentence answers to (DECIDED; wording revised 2026-07-17 — Mark retired "honest/honestly" as the brand's catch-all word: overused and unclear. Replacement is function-mapped: "open/openly" in conversational contexts, "transparent" for shows-its-work, concrete phrases for hard-history truthfulness. One deliberate exception flagged in Part 4.):**
@@ -36,7 +46,7 @@ The scholarship is always underneath, never in the way. Footnotes are one click 
 
 Everyday English all the way down, with the full depth reachable from every sentence. The floor is a 10th-grade reading level (a logged product standard, Constitution Art. 30's testable form); the basement is the scholar's.
 
-- ✅ *"Where the record is thin, she says so."*
+- ✅ *"Where the historical record is thin, she lets the silence stand."*
 - ❌ *"The evidentiary basis for this reconstruction is calibrated across five confidence tiers."* (That's the basement. Label the door; don't hold class in it.)
 - ❌ *"History comes alive!"* (Accessible, and empty.)
 
@@ -81,14 +91,15 @@ The Table/hospitality metaphor is unaffected and stays exactly as it is ("come a
 
 1. **Curiosity ordering.** Raise the hard question before the reader does — "it's AI; how do I know it isn't making things up?" is *our* line, asked first, then answered. (Already the elevator speeches' documented credibility move.)
 2. **Competence before candor.** Show the work, then the limitation. "Four worlds are alive and conversing well… and until scholarly review is done, we tell every participant exactly that." Candor after demonstrated competence builds trust; candor without it reads as apology.
-3. **Structured confidence, never vague hedging.** "Where the record is thin, it says so" — always specific, tied to the confidence vocabulary. Never "AI can sometimes be unreliable" or "we're mostly sure." (Vague hedging is the one form of candor that measurably destroys trust.)
+3. **Structured confidence, never vague hedging.** "Where the historical record is thin, we let the silence stand" — always specific, tied to the confidence vocabulary. Never "AI can sometimes be unreliable" or "we're mostly sure." (Vague hedging is the one form of candor that measurably destroys trust.)
 4. **Transformation is testified, never promised.** Real, permissioned participant words carry what the encounter can do; our copy only ever promises the open Table. *The brand prays for what it refuses to promise.*
 5. **The plural-tradition rule.** No single world or tradition is ever the face of the project. First exposure always shows the many — the answer to the agenda-suspicious skeptic is visible plurality and open disagreement.
 6. **Real dates, real milestones, no urgency.** "The next world completes in [month]" — never a countdown, never scarcity, never a deadline that isn't real.
 7. **Outside-in assumption.** Assume no church background, no Bible literacy, no patience for insider language — every piece readable by someone who has never entered a church.
 8. **The ask names the value.** CTAs are participation verbs: join, ask, explore, meet. (DECIDED via "come and join us" — "sitting isn't of value.")
 9. **Numbers are governed.** World counts, tester counts, costs: single source of truth is Mark; check before print. Time-dated claims ("no product we could find") are re-verified before external use.
-10. **Dignity rules are brand rules.** The represented dead: never dramatized beyond the sources, marginalized voices held alongside the amplified ones. The living traditions: never spoken for — "the Syriac church still worships today; that voice is theirs, not ours." People at the Table are *participants* — never users, traffic, or leads.
+10. **Dignity rules are brand rules.** The represented dead: never dramatized beyond the sources, marginalized voices held alongside the amplified ones. The living traditions: never spoken for — "the Syriac Church still worships today; that voice is theirs, not ours." People at the Table are *participants* — never users, traffic, or leads.
+11. **Report freely, credit rightly (Mark, 2026-07-22 — full theological reasoning in the Brand-Messaging-Rework Decision Log).** Real stories of what God is doing through the work — asked for with real permission, never harvested by default — aren't something to hide or ration, and reach isn't the test: a story can genuinely benefit CiC (funding, trust, invitation, credibility) without that being a corruption. What must never move is the attribution. However far a story travels — reported to a governing or discerning body, carried by a participant as their own invitation to someone else, or told anywhere else — it has to keep pointing at what God is doing, never at what CiC built, achieved, or accomplished. Ask permission, tell freely, credit God — never ourselves.
 
 ## 1.3 The lexicon (word-level use / never-use)
 
@@ -99,12 +110,14 @@ The Table/hospitality metaphor is unaffected and stays exactly as it is ("come a
 | reconstruction, "rebuilt from their own words" | simulation, resurrection, digital human, impersonation | truthfulness + the consent wounds of the field |
 | world, community | content, product, offering (public) | what it actually is |
 | **The three-word system (Mark, 2026-07-17, final):** **tradition** = the outward, human word for what a participant meets and chooses ("Choose a Tradition"; "one tradition, one century") · **Christian movement** = the claims register — the measurement line and flagship evidence phrases ("documented Christian movements"); the word the project uses when making claims it must defend · **world** = the inward build vocabulary (formation worlds); may surface in-product only *with its definition* (as onboarding does), never as the outward category term | "Christian world" (collides with the Christendom idiom); bare "movement" in portable lines; "world" as outward category; a fourth noun | each word has one job — three nouns for one thing is how vocabularies fog |
+| **First-mention rule (Mark, 2026-07-22):** the first time "tradition(s)" names the actual reconstructed communities in a given conversation or page, say "Christian tradition(s)" in full; every later mention in that same conversation or page can shorten to bare "tradition(s)." | bare "tradition" on its first appearance in a document, with no "Christian" established nearby | first sight has to be unambiguous — "so much clearer," per Mark; the shortened form afterward keeps flowing prose from stiffening |
 | **documented** Christian movements | "real" (flat — insists instead of shows); "sourced" (supply-chain) | Mark, 2026-07-17 — "documented" is the confidence vocabulary's own top tier; the word carries the evidence claim |
+| capital **Church** = the whole, universal Christian community across history; lowercase **church** = a single local congregation or building | using "church" lowercase for the whole historic Church, or capitalizing a single local congregation | Mark, 2026-07-22 — surfaced while confirming the hero hook ("Twenty centuries of the Church"); a new standing rule, applied in this document; corpus-wide sweep still queued |
 | conversation, encounter | chat, session (public), engagement | the thing itself, not the metric |
 | "come and join us at the Table" | "sign up now," "don't miss out" | DECIDED CTA; the ask names the value |
 | "free to any seeker" | freemium, free tier | charter language, not pricing language |
 | "no product we could find that…" | "the only," "the first," "revolutionary" | overclaim register (public) |
-| "we are committed to a documented witness" *(retired 2026-07-20: "it will never try to convert you" — Mark: the denial shape itself undermines trust; see decision log)* | "non-denominational," "unbiased," "neutral" | we are not neutral — we are witness-not-recruitment; neutrality is the museum |
+| "we are committed to representing each Christian movement in full — its testimony, beautiful and hard alike" *(2026-07-22: replaces "we are committed to a documented witness," which itself replaced "it will never try to convert you" on 2026-07-20 — Mark: the denial shape itself undermines trust; the new line states the actual positive commitment instead; see Brand-Messaging-Rework Decision Log)* | "non-denominational," "unbiased," "neutral" | we are not neutral — we are witness-not-recruitment; neutrality is the museum |
 | real questions, open exploration | "finding the right answers," "the truth about…" | Mark's top never-say — we offer encounter, not answer-delivery |
 | open, openly (conversation); transparent (shows-work); "nothing hidden," "won't smooth over the hard parts" (hard history) | "honest/honestly" as the catch-all adverb; "authentic/authentically" | Mark, 2026-07-17: honest is overused and unclear; authentic is the sector's most worn word — replace by function, not one-for-one. *(Flagged 2026-07-20, resolved same day: the new protected line briefly reintroduced "honest" as an adjective naming the witness itself. Mark, asked to recall the retirement scheme and offered a suggestion: "documented is great, lets use that" — the line is now "we are committed to a documented witness," which both holds the retirement rule and reuses "documented" as already decided elsewhere — the confidence vocabulary's own top tier, the same word that replaced "real" in "documented Christian movements." No exception needed after all.)* |
 | **Jargon amnesty (banned in public copy):** Christianese ("do life together," "love on," "gospel-centered," "poured into") *and* project-internal terms (formation world, gravity, source ecology, L-numbers, validation battery) — translate or introduce plainly. | | |
@@ -127,7 +140,7 @@ The **BibleProject balance**: everyday-English surface, scholarly floor. Convers
 **Register flexing (the TSA "Spiritual Voice" pattern, adapted):** the mission is always stated plainly somewhere reachable, but how faith-forward a given piece leads depends on the reader's doorway:
 
 - *Seeker-facing:* invitation leads; Jesus named without assumption ("a way of knowing Jesus you'd never otherwise have met — yours to make of what you will").
-- *Pastor-facing:* doorway-not-home leads ("built to send people back to living community carrying more of Christ's church than they arrived with").
+- *Pastor-facing:* the doorway line leads ("built to send people back to living community carrying more of Christ's Church than they arrived with").
 - *Scholar-facing:* the discipline leads (confidence calibration, thin-evidence candor, review gates).
 - *Donor-facing:* stewardship leads ("you fund a door that will never try to sell anyone anything") — and the seeker voice is never outranked by the donor voice (standing rule, in writing).
 
@@ -137,22 +150,22 @@ The **BibleProject balance**: everyday-English surface, scholarly floor. Convers
 
 ## 2.1 The core (DECIDED)
 
-**The hook (protected):** *Twenty centuries of the church. One table. A chair pulled out for you.*
+**The hook (protected):** *Twenty centuries of the Church. One table. A chair pulled out for you.*
 
 **The one-sentence core claim:** *Church in Conversation rebuilds documented Christian movements from their own words — and you don't just read about them: you join them at a table where they talk with you, and with each other — openly.*
 
 *(Revised 2026-07-17 at Mark's challenge: "real Christian communities" → "documented Christian movements." "Movements" is the Vision's own governing noun and matches the world/movement lexicon distinction; "documented" replaces the flat "real" — and is the top tier of the project's own confidence vocabulary, so the word itself carries the evidence claim. "Sourced" was considered and passed over as supply-chain language.)*
 
-**The positioning spine (confirmed 2026-07-17; internal — copy is written from it, not pasted from it):** For anyone who wants to discover how differently Christians across twenty centuries have known and followed Jesus — the curious, the searching, the rebuilding — Church in Conversation is a table where the church's many movements, rebuilt from their own words, talk with you and with each other: agreeing, disagreeing, and answering openly. It shows its sources and its confidence as you talk, and it has no agenda for where you land — a doorway back to living community, not a home. Unlike chatbots, AI companions, and historical-figure apps, it is governed by a written constitution that forbids persuasion and engagement design. Come and join us at the Table.
+**The positioning spine (confirmed 2026-07-17; internal — copy is written from it, not pasted from it):** For anyone who wants to discover how differently Christians across twenty centuries have known and followed Jesus — the curious, the searching, the rebuilding — Church in Conversation is a table where the church's many movements, rebuilt from their own words, talk with you and with each other: agreeing, disagreeing, and answering openly. It shows its sources and its confidence as you talk, and it has no agenda for where you land — a doorway to sit with the Christian movements of history, pointing you back to living community all the while. Unlike chatbots, AI companions, and historical-figure apps, it is governed by a written constitution that forbids persuasion and engagement design. Come and join us at the Table.
 
 ## 2.2 Four supporting messages (each = claim + proof + protected line)
 
-**M1 — The whole church, in the open.** Many movements, one table, real disagreement kept in the open. *Proof:* the inter-world Table; tensions held as the worlds held them; the plural-tradition rule. *Protected line:* "no single stream holds all of it." *(Carries the onliness without saying "only.")*
+**M1 — The whole Church, in the open.** Many movements, one table, real disagreement kept in the open. *Proof:* the inter-world Table; tensions held as the worlds held them; the plural-tradition rule. *Protected line:* "no single stream holds all of it." *(Carries the onliness without saying "only.")*
 
-**M2 — It shows its work.** Sources and confidence visible as you talk, down to the footnote; what isn't finished is said out loud. *Proof:* hover/click transparency; the confidence vocabulary; "until that review is done, we tell every participant exactly that"; governance documents available to anyone who asks. *Protected line:* "Where the record is thin, it says so."
+**M2 — It shows its work.** Sources and confidence visible as you talk, down to the footnote; what isn't finished is said out loud. *Proof:* hover/click transparency; the confidence vocabulary; "until that review is done, we tell every participant exactly that"; governance documents available to anyone who asks. *Protected line:* "Where the historical record is thin, we let the silence stand."
 
-**M3 — Witness, never recruitment.** A written constitution forbids persuading, forbids engagement design; the mission is stated plainly and never pushed. *Proof:* the refusals; "we measure whether each Christian movement is represented in an engaging and accurate way. How it impacts the kingdom belongs to our Lord; that's bigger than us"; doorway-not-home.
-*Protected lines:* "We are committed to a documented witness." *(retired 2026-07-20: "It will never try to convert you" — the denial shape undermined the trust it was meant to build; "honest" briefly stood in the final word before Mark settled on "documented," already decided elsewhere in this kit; see decision log)* · "A doorway, not a home."
+**M3 — Witness, never recruitment.** A written constitution forbids persuading, forbids engagement design; the mission is stated plainly and never pushed. *Proof:* the refusals; "we measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share"; the doorway line.
+*Protected lines:* "We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike." *(2026-07-22: replaces "We are committed to a documented witness," which itself replaced "It will never try to convert you" on 2026-07-20 — the denial shape undermined the trust it was meant to build; see Brand-Messaging-Rework Decision Log)* · "A doorway to sit with the Christian movements of history." *(2026-07-22: replaces "A doorway, not a home" — the contrast no longer added clarity, and the live copy's own next clause already carries the "not a substitute for community" meaning; the new line ties to the Arriving mark's own "sitting is presence" motion grammar; see Brand-Messaging-Rework Decision Log)*
 
 **M4 — The build is the product.** Each world is months of review-gated scholarship — source-locked, adversarially tested, headed for independent scholarly review — and the Table is free to any seeker, funded by those who believe such doors should exist. *Proof:* the pipeline; the external-review requirement; the company's public-benefit charter (Faithways Studio, Inc., a Colorado PBC — not a nonprofit); "help us build the next world" as the standing ask. *Protected line:* "The build process is the product."
 

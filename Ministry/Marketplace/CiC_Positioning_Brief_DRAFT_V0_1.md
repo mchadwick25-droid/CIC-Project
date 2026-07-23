@@ -22,7 +22,7 @@ categories, each carrying baggage CiC did not earn:
 | They'll think… | That category now means… | The one-sentence exit |
 |---|---|---|
 | "An AI chatbot" | Confident fabrication; a bot built to always have an answer | "It's governed to prefer honest uncertainty over confident invention — it tells you plainly when the record is thin." *(existing packet language — keep)* |
-| "An AI companion" | Lawsuits, teen harm, FTC inquiry, paywalled affection | "It's a doorway, not a home — its charter forbids designing for attachment, and it sends you back to living community." |
+| "An AI companion" | Lawsuits, teen harm, FTC inquiry, paywalled affection | "It's a doorway to sit with the Christian movements of history — its charter forbids designing for attachment, and it sends you back to living community." |
 | "A historical-figure app" | Five-minute personas; sanitized Nazis; a whitewashed Anne Frank | "It doesn't impersonate famous individuals. It rebuilds a whole community from its own documents — and the build takes months of review-gated scholarship, not a prompt." |
 | "A Bible/faith app" | Devotional content, subscriptions, growth marketing | "It's free to any seeker by charter, it will never try to convert you, and it's built like a scholarly edition, not a devotional feed." |
 
@@ -55,10 +55,10 @@ Usable as stated; the parenthetical is the evidence behind each.
    engagement-maximization outright — which no law requires and no competitor was
    found to do. Compliance by conviction, not by statute.)
 
-4. **"The build process is the product."** (Each world passes a review-gated
+4. **"The build process is the product."** (Each Christian tradition passes a review-gated
    pipeline — source ecology, source-reliability assessment, gravity discovery,
    confidence calibration, story-tier rules that forbid invention, adversarial
-   testing — before anyone meets its Representative, and no world is called validated
+   testing — before anyone meets its Representative, and no tradition is called validated
    until an independent scholar in that specific field has reviewed it. The market's
    alternative is a persona generated from a prompt in minutes.)
 
@@ -71,7 +71,7 @@ Usable as stated; the parenthetical is the evidence behind each.
   completed fact. The elevator speeches' existing line — "until that review is done,
   we tell every participant exactly that" — is the right pattern; honesty about what
   isn't finished is part of the product. Positioning must never outrun this.
-- **Not "it can't hallucinate."** Say what's true: it is locked to its world's
+- **Not "it can't hallucinate."** Say what's true: it is locked to its Christian tradition's
   sources, it lowers its confidence out loud, it is adversarially tested — and the
   institution stands behind every sentence it says (that's why the gates exist).
 - **Not anti-competitor copy.** Naming failures (Anne Frank bot, Father Justin) as
@@ -81,11 +81,11 @@ Usable as stated; the parenthetical is the evidence behind each.
   borrow the market's success vocabulary (DAU, retention, session length) even
   favorably; the measure is Article 6's conditions, and the story language for that
   already exists ("we measure whether each Christian movement is represented in an
-  engaging and accurate way. How it impacts the kingdom belongs to our Lord;
-  that's bigger than us"). *[Quote updated 2026-07-18 to the current protected
-  measurement line — see the approved Messaging & Branding Kit V0.2 and its
-  decision log; the earlier "never its impact" and "honest and free" wordings are
-  both retired.]*
+  engaging and accurate way. What it means for you is yours to own and share").
+  *[Quote updated 2026-07-22 to the current protected measurement line — see
+  `Ministry/Features/Brand-Messaging-Rework/Decision-Log.md`; the earlier "never its
+  impact," "how it impacts the kingdom belongs to our Lord," and "honest and free"
+  wordings are all retired.]*
 
 ## 4. Third-party proof points now available (from the scan)
 
@@ -120,7 +120,7 @@ document doesn't carry:
 > Christian communities — a first-century house church, the Syriac schools of the
 > East — from their own surviving documents, through a months-long, review-gated
 > scholarly process, and lets you sit down and talk with a voice from inside that
-> world. It shows you its evidence and its confidence as you talk — no product we
+> Christian tradition. It shows you its evidence and its confidence as you talk — no product we
 > could find anywhere does that. Its written constitution forbids the two things the
 > AI industry is being forced by regulators to curb: it will never optimize for your
 > attention, and it will never try to convert you. It is a doorway, not a home — free
