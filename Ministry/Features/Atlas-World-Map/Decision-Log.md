@@ -13,6 +13,356 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-07-22 (later) — DECIDED: Story-view entries sort by start date within each lane; census gains real numeric start/end years
+
+**Mark's observation, looking at the Story view:** the order entries appear in within
+an era didn't look right; his call — "i think it should be by movement start date."
+Checked the actual code first rather than assuming: entries were rendering in
+whatever order they sat in the census JSON array (Atlas-ID/spreadsheet row order),
+not chronologically, within each lane group.
+
+**One real choice underneath the ask, put to Mark rather than assumed: sort within
+each lane, or interleave the whole era by date regardless of lane?** Chose **within
+each lane** — keeps the seven-lane architecture's deliberate grouping (ninth pass,
+2026-07-16) intact and just fixes the ordering inside it, rather than dissolving lane
+blocks into one date-sorted list.
+
+**Applied:** `world-census.json` movements gained real numeric `start`/`end` year
+fields (added right after the existing `dates` display string, all 178 entries,
+sourced from the Wall Chart's already-verified per-entry timeline data — the exact
+numbers `world-atlas.html` was already using, not a fresh guess) — so any surface can
+sort or compute chronologically without parsing the display string. `atlas.html` and
+`index.html` (the Story's two copies, see Integration-Notes) both updated: within
+`renderLaneGroups()`, each lane's entries now sort by `start` ascending before
+rendering; the "Beyond the Floor" stream (rendered separately, not through
+`renderLaneGroups`) sorts the same way. Verified live for Era 2: Greek East
+(325→350→360), Africa (320→330→451), and Latin West (312→370→374→382→390) all now
+render in ascending chronological order within their lanes.
+
+**Also simplified in the same motion:** `world-atlas.html`'s Wall Chart had its own
+local `POS_YEARS` lookup (extracted from the old pre-consolidation embedded data,
+used only because the census didn't carry numeric years yet) — now that the census
+does, `POS_YEARS` was deleted and the chart reads `m.start`/`m.end` straight from the
+fetched census, same as the Story. One less locally-duplicated table, not a new one.
+
+**Next action:** none pending on this. Worth remembering if a future world's dates
+get revised (e.g. a Step 0 narrows a window): the census's `start`/`end` fields now
+drive both sort order and chart timeline placement, so a dates edit should update
+both the display string and these two numbers together.
+
+**Addendum, same day — Mark caught it live: "era one is not in order."** Checked
+rather than assumed. Not a sort-logic bug — two of the just-added `start`/`end`
+fields were themselves wrong, carried forward uncritically from the old Wall
+Chart's data without checking them against each entry's own `dates` display
+string. **I.1 (The House-Churches)** — display reads "70–200 CE"; the field said
+start=200, end=280 (should be 70/200), which pushed the project's earliest
+movement to sort *after* Ebionite and Montanism instead of first. **I.2
+(Alexandrian Christianity)** — display reads "c. 150–400 CE"; the field said
+190/254 (should be 150/400). Both corrected directly in `world-census.json`. A
+broader audit (parsing every entry's display string for an explicit year and
+diffing against the `start` field) found no other confirmed mismatches — two
+remaining borderline cases, **I.12 (Persian Church of the East, "to 451")** and
+**II.12 (Gothic &amp; Vandal Homoian, "to 589 / 534")**, give no explicit start year
+in their own display string at all, so their current field values (era-boundary
+estimates) can't be confirmed wrong either — left as-is rather than guessed at.
+Re-verified live: Era 1's Origin lane now reads House-Churches (70) → Ebionite
+(70) → Montanism (165) → Novatianism (251); the Wall Chart's I.1/I.2 bands now
+start at the timeline's year-70 origin instead of mid-chart. **Lesson for next
+time a `start`/`end` field gets touched: check it against the entry's own `dates`
+string before trusting an inherited number, even one that was "already verified"
+for a different purpose (positional rendering tolerates a wrong number more
+quietly than a sort does).**
+
+**Second addendum, same day — Mark checked again after the fix above and House-Churches still wasn't first.** A real, separate, pre-existing bug, not
+related to the date fields at all: `renderLaneGroups()`'s lane-ordering sort used
+`laneOrder||60` as its fallback for lanes with no assigned order — but the Origin
+lane's own `laneOrder` is `0`, and `0` is falsy in JavaScript, so `0||60` silently
+evaluated to `60`, sorting Origin as if it were near the bottom instead of first.
+This shoved the whole Origin lane (House-Churches, Ebionite, Montanism,
+Novatianism) down after Syriac/Africa/Latin West every time, on every era that
+has an Origin-lane entry — present since this sort was first written, unrelated
+to today's start/end work, just never noticed. Fixed in both `atlas.html` and
+`index.html` (the Story's two copies) by switching `||60` to `??60` (nullish
+coalescing, which only falls back on `null`/`undefined`, not on a legitimate
+`0`). Re-verified live: Era 1 now renders Origin lane first, House-Churches
+first within it.
+
+**Third addendum, same day — DECIDED: the ordering source of truth is the Step 0
+Conclusion, not each world's own later Doc_01 refinement.** Mark's correction,
+precisely stated: order by "start date as stated by step 0," not "by the world's
+[own] definition." The distinction is real, not pedantic — for the nine worlds
+Phase One's Step 0 Conclusion (`CiC_Step0_Conclusion_FINAL_v2.docx`) originally
+selected as a single comparative batch, several later got their own individual
+**Doc_01 (World Identification)** document, which is free to narrow or widen
+that window with world-specific research done well after Step 0 and independent
+of the other eight worlds. Using each world's own Doc_01 figure for ordering
+means every entry's precision (and thus its sort position) depends on how much
+individual attention that one world happened to get afterward — not a fair,
+consistent comparison. Read the Step 0 Conclusion's own nine-world list directly
+(`.docx`, extracted via its `word/document.xml`) rather than trusting any
+document that merely cites it:
+
+| World | Step 0's own stated window |
+|---|---|
+| House-Churches | c. 70–200 CE |
+| Alexandria | c. 190–254 CE |
+| Desert Monasticism | c. 320s onward |
+| Donatism | c. 312–430s |
+| Cappadocian | c. 360–380s |
+| Church and Empire | c. 312–451 |
+| Syriac | c. 2nd–4th century |
+| Latin Pastoral-Congregational | c. 240s–430 CE |
+| Bethlehem Circle | c. 380s–420 CE |
+
+Checked all nine against the census's `start`/`end` fields: seven already
+matched (the old Wall Chart data these were sourced from had, for most entries,
+already used Step 0's own figures — decade markers like "380s" read as their
+decade's first year, e.g. 380, consistently). Two did not, both because
+today's earlier fixes had reached for a Doc_01-level number instead: **Alexandria**
+was at 150/400 (Doc_01's later, wider "candidate horizon" per its own Doc_01,
+not Step 0's 190/254 — reverted); **Syriac** was at 200/410 (Doc_01's
+specific, well-reasoned refinement anchored to the Synod of Seleucia-Ctesiphon,
+not Step 0's vaguer "2nd–4th century" — reset to 100/400, the century range read
+literally). **Deliberately left the displayed `dates` text unchanged for both**
+— it stays the more informative Doc_01-level wording; only the invisible
+`start`/`end` sort/position numbers now trace to Step 0. This means for these
+two specific entries the shown date text and the internal ordering number carry
+different precision on purpose, not a bug — flagging it here so it isn't
+mistaken for one later. This Step 0 rule applies only to these nine Phase-One
+worlds (the ones Step 0 actually ranked); eras 3–10 have no Step 0 record at
+all (pre-survey signals only), so their `start`/`end` fields still come from
+their own `dates` display string, which remains the best available source
+there.
+
+**Fourth addendum, same day — DECIDED: the Story view flattens by date across
+lanes; the Wall Chart keeps lanes.** Mark's own worked example (House 70 →
+Ebionite 1st c. → Alexandria 150 → Montanism 165 → Tertullian 197 → Syriac 200
+→ Latin Pastoral 240s → Novatianism 251...) interleaves entries from four
+different lanes into one sequence — a real reversal of the "within each lane"
+answer from earlier today. Flagged the conflict rather than guessing which one
+he meant; his answer, plainly stated: **the two surfaces get different rules on
+purpose.** The Story ("this tile driven scrolling") flattens by date, full
+stop, lane no longer a grouping or sort key. The Wall Chart ("the map... small
+tiles without the information") keeps lane-grouping, because its bands are too
+compact to carry the same information a Story row/card does, so the lane
+structure is load-bearing there in a way it isn't here. Applied in `atlas.html`
+and `index.html`: `renderLaneGroups()` (grouped-by-lane, sorted by date only
+within each group) replaced by `renderFlat()` (one date-sort across the whole
+list, no grouping) — used for both the normal entries and the pre-survey
+expander's contents. Per Mark's explicit "don't lose the information": each
+row/card now names its lane inline (appended to the existing dates · region
+line) rather than in a group header — the lane is still visible, just not a
+structural axis on this surface. The "Beyond the Floor" stream is untouched by
+this — it was never lane-grouped to begin with, already renders as its own
+box, already date-sorted from an earlier pass today. Wall Chart
+(`world-atlas.html`) needs no change: its `laneRow()`/`LANE_ORDER` lane
+structure was never touched by any of today's Story-view work and stays as-is,
+per Mark's own reasoning for why it should.
+
+**Fifth addendum, same day — DECIDED: the "Beyond the Floor" stream renamed
+"Non-Nicene Traditions"; its description sentence rewritten.** Mark's
+complaint, once he saw the box on the live page: not just the explanatory
+sentence, but the section's own title — "Beyond the Floor" leans on this
+project's internal eligibility-floor jargon (the same word used in status
+labels like "Excluded - Doctrinal Floor (C1)" and "Floor Question (register)")
+without explaining itself to a first-time reader; he didn't find it clear.
+This reopens a title decided in the fifteenth pass (2026-07-16) — reopened
+because Mark said so directly, not overridden unilaterally.
+
+Three title options offered (all naming the Nicene Creed directly rather than
+the internal "floor" metaphor, to read on its own without prior context):
+"Outside the Nicene Creed," "Beyond the Floor (Outside the Nicene Creed)," "A
+Different Confession." **Mark's pick, his own wording, not one of the three
+as-is: "Non-Nicene Traditions."** Reads clean, states the actual dividing
+line by name, no internal jargon a first-time visitor would need to already
+know. The "— researched & explained" subtitle carries over unchanged — never
+in question, still doing the job of signaling "explained, not hidden."
+
+Description sentence (separately decided, same session): "Movements whose own
+confessions diverge from the Nicene Creed, the shared conviction this project
+builds from. They keep their true time and place; each carries a research
+brief, not a chair." — replaces "Movements whose own confessions sit outside
+this project's Nicene base," which named the Creed only via the internal
+"base" shorthand.
+
+**Applied in both `atlas.html` and `index.html`** (the Story's two copies);
+verified live. **Not touched, deliberately out of scope for this pass:** the
+same "Beyond the Floor" term as it appears in `world-map.html`'s Wall-Chart
+predecessor content, the census spreadsheet, the spec, or anywhere outside
+these two Story files — those weren't part of what Mark was looking at when he
+raised this, and renaming a term that's referenced across multiple documents
+and the census's own lane vocabulary is a bigger, cross-document consistency
+question than "fix what's on this page." Worth a deliberate look later if Mark
+wants the rename to propagate everywhere the term appears.
+
+**Sixth addendum, same day — the retired term was still surfacing inside the
+box itself.** Mark caught it again, precisely: "the saying beyond the floor is
+in some of the tile descriptions also Cathars and others." Cause: today's
+flatten-by-date change (fourth addendum) made every row print its own
+`laneLabel` field inline so lane information wouldn't be lost — and for these
+entries specifically, `laneLabel` in `world-census.json` was itself still the
+literal string "Beyond the Floor" (19 entries carry this lane; `lane`, the
+separate Wall-Chart routing key with its "8 " prefix, is a different field and
+wasn't touched). Renaming the section header text didn't touch the underlying
+data each row was quoting from — two different things that happened to say the
+same words. **Fixed at the source:** all 19 movements' `laneLabel` field
+changed from "Beyond the Floor" to "Non-Nicene Traditions" in
+`world-census.json` directly (Marcion, Valentinian, Manichaeism, Homoian x2,
+Bogomils, **Cathars/Albigensians**, Anti-Trinitarian Currents, Shakers,
+Swedenborgian New Church, LDS, Jehovah's Witnesses, Christian Science,
+Christadelphians, Oneida, Spiritualism/New Thought, Oneness Pentecostalism,
+INC/Way/Unification/Luz cluster, Branch Davidians) — since this is the shared
+census, not a Story-only file, and every row's inline tag reads directly from
+it, one data fix corrects every tile at once rather than needing a per-row
+patch. Verified live: Era 1's three Non-Nicene tiles (Valentinian, Marcion,
+Manichaeism) each now show "Non-Nicene Traditions" in their own row instead of
+the retired term. The `lane` field (Wall-Chart routing key) still reads "8
+Beyond the Floor (researched & explained)" — left alone per the standing
+scope note above; if that's ever addressed, `world-atlas.html`'s own
+`LANE_ORDER` array needs the matching update since it hardcodes that exact
+string for lane routing.
+
+**Seventh addendum, same day — the rest of the "floor" jargon traced across
+every surface it touched, including the Wall Chart, per Mark's explicit
+yes.** Mark kept finding it in places a single fix didn't reach — each one
+real, each one traced to its actual source rather than patched where he
+happened to be looking:
+
+1. *"there is also the floor verbage on the click tile for most of them"* —
+   the click-through "full entry" sheet's `<h4>Floor / eligibility
+   signal</h4>` heading, shown for any entry with a `floorNote` (all 178 of
+   them, not just the 19 Non-Nicene ones). Renamed **"Where it stands on the
+   Creed"** — matches the plain-English register of its sibling headings
+   ("What survives," "Key relations, in brief") that "Floor / eligibility
+   signal" never did.
+2. Two more found in the same sweep before Mark had to point them out again:
+   the top-of-page filter chip ("Beyond the floor" → **"Non-Nicene"**) and the
+   per-era summary tally's catch-all clause ("...or beyond the floor" →
+   **"...or a different confession"**). Plus one more once actually looking:
+   the footer's "every floor question in one searchable table" → **"every
+   creedal question"**.
+3. *A genuinely bigger one, found while verifying #1 above:* the two status
+   categories' own **`statusMeta` label and description** —
+   `"Floor Question (register)"` (shortWord "Floor question — not yet
+   resolved") and `"Excluded - Doctrinal Floor (C1)"` (shortWord "Excluded —
+   doctrinal floor, grounds stated"). This lives in the **shared census**, not
+   just the Story files — surfaces on the Wall Chart and Research Table too.
+   Mark confirmed extending the fix there rather than leaving surfaces
+   inconsistent. Renamed to "Creedal question — not yet resolved" and
+   "Excluded — creedal grounds stated" (descriptions updated to match). The 23
+   affected movements' own duplicated `statusWord`/`statusDescription` copies
+   were resynced from the corrected `statusMeta` in the same pass — the
+   census keeps a per-movement copy of these, not just a shared reference,
+   worth remembering next time either field changes. **Deliberately left
+   alone: the status *keys* themselves** (e.g. "Excluded - Doctrinal Floor
+   (C1)," with its Methodology-defined "C1" criterion code) — internal
+   taxonomy, not display text; renaming a formal Step 0 Methodology category
+   is a different, bigger decision than fixing what a reader sees.
+
+**Applied to `world-atlas.html` in parallel, all per Mark's explicit yes:**
+the "About" legend's stream description; the footer's "floor and eligibility
+notes" → "creedal and eligibility notes"; the honest-redirect copy for lane 8
+("the base the floor measures from" → "the base every measure starts from");
+the `STLABEL` legend entry ("Excluded or floor question" → "Excluded or
+creedal question"); the click-panel's own "FLOOR / ELIGIBILITY NOTE" heading →
+"WHERE IT STANDS ON THE CREED" (matching the Story's new wording); the
+Research Table's "Floor / eligibility note" field label → "Where it stands on
+the Creed". The lane-8 header needed a structural fix, not just a string
+swap: `LANE_ORDER` is also the *matching* key against each movement's `lane`
+field (still "8 Beyond the Floor..." on purpose, per the sixth addendum) —
+renaming it in place would have broken lane routing. Added a separate
+`LANE_DISPLAY` lookup so the rendered header reads "NON-NICENE TRADITIONS"
+without touching what it matches against.
+
+**One more real distinction surfaced and resolved, not just a wording
+question:** both the Wall Chart's click panel and the Research Table's cards
+were showing the **raw internal status key** as their badge (literally
+"Excluded - Doctrinal Floor (C1)"), not the friendly `statusWord` just fixed
+above — a display-source choice, not a jargon question. Flagged it rather
+than deciding alone: the Research Table's whole purpose is exposing every
+field for scholarly reference, so the precise formal key there may be
+intentional, not a bug; the Wall Chart's panel is a general-audience surface
+where it read as an oversight. **Mark's answer: fix the Wall Chart's badge,
+leave the Research Table's as the raw key.** `chartRowsFrom()`'s adapter
+gained a `statusWord` field (it only carried raw `status` before) and the
+chart panel's badge now reads `r.statusWord`; the table's badge is untouched,
+still `r.status`. Verified live, side by side: Marcion now shows "Excluded —
+creedal grounds stated" on the Wall Chart and "Excluded - Doctrinal Floor
+(C1)" on the Research Table — different by design, not by accident.
+
+Verified live across all three surfaces after every step in this addendum; no
+console errors; a repo-wide case-insensitive sweep for "floor" in both Story
+files and the Wall Chart found nothing further user-visible left unaddressed
+(remaining hits are internal: `Math.floor`, variable names like `r.floor`,
+and the status keys deliberately kept as-is).
+
+---
+
+## 2026-07-22 — Wall Chart and Research Table consolidated into one document, reading the shared census; both stale-status pages archived
+
+**What prompted this:** while confirming Phase 1 (the Story) was already built and
+live — the front-end rebuild thread's actual starting state, ahead of its own launch
+prompt — a check of `world_manifest.py` against the Story's census found Church and
+Empire/Marius (installed 2026-07-18/22, the sixth live world) still showing "Chosen —
+not yet built." Fixed in `data/world-census.json` (status, color `#7A2E2E`, icon
+copied from Brand-Assets) and verified live. Checking the two other Atlas pages for
+the same drift found it there too, plus a second instance already present:
+Alexandria/Theon was ALSO still stale in both `world-map.html`'s and
+`world-atlas-list.html`'s own embedded census copies (each of the two pages
+carried its own full, independently-hand-maintained copy of the 178-entry census —
+never migrated to the shared JSON when the Story was built). Asked Mark whether to
+patch both copies again or fix the duplication itself; **Mark's direction: build one
+document that serves both purposes and archive the stale ones.**
+
+**Built — `cic-website/world-atlas.html`**, one file, a view toggle (`#chart` /
+`#table`, default chart) between the Wall Chart and the Research Table. Both views
+fetch `data/world-census.json` once at runtime; the Wall Chart keeps only what is
+genuinely presentation-only and doesn't drift — per-entry start/end years for
+timeline placement (extracted from the old embedded data, verified against all 178
+entries with zero position gaps), era medallions, figure lifelines, relationship
+edges, neighbor-redirect map — while every census-truth field (status, living, name,
+why, sourcing, floor note, relations, lane) is joined in from the shared JSON by
+Atlas ID at render time, never duplicated. The two original stylesheets and nearly
+all original interaction logic (zoom/pan, tray, panel, guided tour, search/filter)
+carried over verbatim inside their own view containers; each view's CSS is a
+separate `<style>` element the other view's activation disables via the DOM
+`.disabled` property, so the two original palettes never collide despite sharing a
+page. View state uses a URL **hash** (`#chart`/`#table`), not a query parameter — a
+local test server was found to silently drop query strings on a clean-URL redirect,
+and a hash is immune to that class of problem since it never reaches the server.
+
+**Verified live** (both via direct `file://` and via the project's own `serve`-based
+local static server): all 178 entries render in both views; Marius and Theon both
+show `Built & Live` with correct colors/actions in the chart and correct status in
+the table; search/filter on the table view works; the chart's click/tray/panel flow
+and guided tour run without console errors; view-toggle round-trips correctly
+including on a direct `#table`/`#chart` deep link.
+
+**Archived, not deleted** (`Drafts-Archive/CiC_World_Map_html_Superseded_2026-07-22.html`,
+`Drafts-Archive/CiC_World_Atlas_List_html_Superseded_2026-07-22.html`, moved with
+`git mv` so history follows): the two pages `world-atlas.html` replaces. All in-site
+links (`atlas.html`, `index.html` — both carry their own copy of the Story view) and
+the census's own `meta.notes` repointed to the new document. Full detail kept current
+in `Integration-Notes.md`, this file's single-source-of-truth companion.
+
+**Also found and corrected in passing, not a new decision:** the sibling worktree
+directory this feature's own notes named for the `world-map-merge-into-main` branch
+(`C:\Users\mchad\Documents\CiC-Project-worldmap-merge`) no longer exists — the branch
+lives only in this repo now, 2 commits behind `main`.
+
+**Heart of it:** the live-status drift bug had already been fixed once (Alexandria)
+and had already recurred once more (Marius) before this thread even started looking —
+two instances in two months, both silent until someone happened to check. Patching a
+third stale copy would have made the count three-for-three; consolidating the data
+source is the only fix that changes those odds going forward, and it cost the same
+afternoon a third patch would have.
+
+**Next action:** the front-end rebuild thread's real remaining work is Choose a
+Tradition — the in-app selector — built against `claude/world-map-merge-into-main`'s
+existing handoff contract, per `Integration-Notes.md`.
+
+---
+
 ## 2026-07-20 (addendum) — Choose-a-Tradition's hover-glimpse dropped as redundant (Mark caught it live)
 
 **Mark's observation, testing Prototype B directly:** "the scroll over didn't offer

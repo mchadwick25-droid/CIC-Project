@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atlas — Church in Conversation</title>
-<meta name="description" content="Twenty centuries of the Church's story, one era at a time — every movement plainly labeled, whether it's live, chosen-but-not-yet-built, or real history not yet assessed. Five worlds you can sit down with today.">
+<meta name="description" content="Twenty centuries of the Church's story, one era at a time — every movement plainly labeled, whether it's live, chosen-but-not-yet-built, or real history not yet assessed. Five Christian traditions you can sit down with today.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 <style>
 /* ===================================================================
    The Atlas — Story view. Phase 1 production build, 2026-07-20.
-   Renders from data/world-census.json (178 entries, 5 live worlds).
+   Renders from data/world-census.json (178 entries, 6 live worlds).
    Interaction model: CiC_World_Map_Usability_Redesign_Study_2026-07-20.md
    Part 3 / Part 6 (Mark's decisions, 2026-07-20) — decided, not proposed.
    All component classes below are prefixed st- to stay clear of the
@@ -211,7 +211,6 @@ body.st-thread .st-tstub.on{display:block}
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="atlas.html" aria-current="page">Atlas</a>
-      <a href="support.html">Support</a>
     </nav>
   </div>
 </header>
@@ -230,13 +229,13 @@ body.st-thread .st-tstub.on{display:block}
   </header>
 
   <section class="st-thesis" id="thesis">
-    <h1>Twenty centuries of the church. One table. A chair pulled out for you.</h1>
+    <h1>Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
     <p id="thesiscounts" class="st-counts">Loading the census…</p>
-    <p style="font-size:.95rem">Scroll down through the eras. Worlds open for conversation appear in full color with a chair ready.
+    <p style="font-size:.95rem">Scroll down through the eras. Traditions open for conversation appear in full color with a chair ready.
     Every other movement is on the map with its status stated plainly — chosen, deferred with reasons on record,
     not yet assessed, or excluded on grounds you can read in full. Every entry opens. Nothing here is out of reach.</p>
-    <p class="st-conf">RELATIONSHIP CLAIMS CARRY THEIR CONFIDENCE IN WORDS — DOCUMENTED · WIDELY ACCEPTED · CONTESTED. WHERE THE RECORD IS THIN, IT SAYS SO.</p>
-    <a class="st-wallchart" href="world-map.html">Prefer the whole tapestry at once? View as a wall chart &rarr;</a>
+    <p class="st-conf">RELATIONSHIP CLAIMS CARRY THEIR CONFIDENCE IN WORDS — DOCUMENTED · WIDELY ACCEPTED · CONTESTED. WHERE THE HISTORICAL RECORD IS THIN, WE LET THE SILENCE STAND.</p>
+    <a class="st-wallchart" href="world-atlas.html#chart">Prefer the whole tapestry at once? View as a wall chart &rarr;</a>
   </section>
 
   <main id="spine"><div class="st-loading">Loading the Atlas census…</div></main>
@@ -245,10 +244,10 @@ body.st-thread .st-tstub.on{display:block}
     The Atlas draws on the same reviewed census throughout — <span id="footcounts">178 movements across ten eras</span>.
     Lanes are reading aids, not a taxonomy of the Church. No relationship is drawn here that the census does not carry,
     and confidence is always printed in words, never implied by color alone.
-    Want every field, every sourcing note, every floor question in one searchable table?
-    <a href="world-atlas-list.html">Open the full research record</a> — the scholar's reference browser behind this page.
-    Prefer the whole map at a glance? <a href="world-map.html">View as a wall chart</a>.
-    Curious how a world gets built at all? <a href="about.html#how-it-works">Read how the build process works &rarr;</a>
+    Want every field, every sourcing note, every creedal question in one searchable table?
+    <a href="world-atlas.html#table">Open the full research record</a> — the scholar's reference browser behind this page.
+    Prefer the whole map at a glance? <a href="world-atlas.html#chart">View as a wall chart</a>.
+    Curious how a tradition gets built at all? <a href="about.html#how-it-works">Read how the build process works &rarr;</a>
   </p>
 </div>
 </main>
@@ -278,7 +277,6 @@ body.st-thread .st-tstub.on{display:block}
     <nav>
       <a href="about.html">About</a>
       <a href="atlas.html">Atlas</a>
-      <a href="support.html">Support</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
   </div>
@@ -316,7 +314,7 @@ const LANE_DEFAULT_LIVE = {
 const CHIPS = [
   ["","All"],["live","Open now"],["sel","Chosen"],["def","Deferred"],
   ["psc","Not yet assessed"],["exc","Excluded — explained"],
-  ["str","Beyond the floor"],["cev","Contested"]
+  ["str","Non-Nicene"],["cev","Contested"]
 ];
 
 fetch('data/world-census.json')
@@ -324,7 +322,7 @@ fetch('data/world-census.json')
   .then(init)
   .catch(err => {
     spine.innerHTML = '<p class="st-err">The census could not be loaded ('+esc(err.message)+'). '+
-      'Try <a href="world-atlas-list.html">the research record</a> or <a href="world-map.html">the wall chart</a> instead.</p>';
+      'Try <a href="world-atlas.html#table">the research record</a> or <a href="world-atlas.html#chart">the wall chart</a> instead.</p>';
     console.error('World census load failed:', err);
   });
 
@@ -429,7 +427,7 @@ function eraCounts(list){
   if(c.sel) parts.push(c.sel+" chosen");
   if(c.def) parts.push(c.def+" deferred or possible, reasons on record");
   if(c.psc) parts.push(c.psc+" not yet assessed");
-  if(c.other) parts.push(c.other+" with stated grounds, questions, or beyond the floor");
+  if(c.other) parts.push(c.other+" with stated grounds, questions, or a different confession");
   return parts.join(" · ");
 }
 
@@ -440,7 +438,7 @@ function rowHTML(m){
     return `<article class="st-wcard" data-id="${m.id}" style="--wc:${e.color}" tabindex="0">
       <div class="st-st">${e.icon ? `<img src="${e.icon}" alt="">` : ''}Open for conversation · ${esc(e.representativeName)}</div>
       <h3>${esc(e.worldName)}</h3>
-      <div class="st-meta">${esc(m.dates)} · ${esc(m.region)}</div>
+      <div class="st-meta">${esc(m.dates)} · ${esc(m.region)} · ${esc(m.laneLabel)}</div>
       <p>${esc(e.tile)}</p>
       <div class="st-acts">
         <button class="st-btn solid" data-act="interview" data-id="${m.id}">Interview ${esc(e.representativeName)}</button>
@@ -453,18 +451,18 @@ function rowHTML(m){
   const c2 = m.c2 === 'record' ? ' ✦' : (m.c2 === 'question' ? ' ✧' : '');
   return `<button class="st-row" data-id="${m.id}">
     <span class="st-glyph ${glyphOf(m)}" aria-hidden="true"></span>
-    <span class="st-nm"><b>${esc(m.name)}${c2}</b><span class="st-sub">${esc(m.dates)} · ${esc(m.region)}${liv}${cur}</span></span>
+    <span class="st-nm"><b>${esc(m.name)}${c2}</b><span class="st-sub">${esc(m.dates)} · ${esc(m.region)} · ${esc(m.laneLabel)}${liv}${cur}</span></span>
     <span class="st-stw">${esc(m.statusWord)}</span></button><div class="st-tstub" data-tstub="${m.id}"></div>`;
 }
 
-function renderLaneGroups(list){
-  const lanes = [...new Set(list.map(m => m.laneLabel))]
-    .sort((a,b) => (list.find(m=>m.laneLabel===a).laneOrder||60) - (list.find(m=>m.laneLabel===b).laneOrder||60));
+/* Flattened chronologically across all lanes (the tile-scrolling Story view's
+   own ordering rule) - each row still names its lane inline so that grouping
+   information isn't lost, it's just no longer what determines position. The
+   Wall Chart is the surface that keeps lanes as structural rows; this one
+   doesn't. */
+function renderFlat(list){
   let html = '';
-  lanes.forEach(ln => {
-    html += `<div class="st-lanelbl">${esc(ln)}</div>`;
-    list.filter(m => m.laneLabel===ln).forEach(m => { html += wrapDim(m, rowHTML(m)); });
-  });
+  list.slice().sort((a,b) => a.start-b.start).forEach(m => { html += wrapDim(m, rowHTML(m)); });
   return html;
 }
 
@@ -497,20 +495,20 @@ function render(){
     }
 
     const normal = vis.filter(m => !m.beyondFloor && !isExpanderCandidate(m));
-    html += renderLaneGroups(normal);
+    html += renderFlat(normal);
 
     const expCand = vis.filter(m => isExpanderCandidate(m));
     if(expCand.length){
       const open = !!query || !!filterChip || openEras.has(e.num) || threadOf;
       html += `<button class="st-expander ${open?'open':''}" data-exp="${e.num}">${expCand.length} more from this era, not yet assessed — ${open ? "shown below" : "see them all"}</button>`;
-      if(open){ html += `<div class="st-lanegroup">${renderLaneGroups(expCand)}</div>`; }
+      if(open){ html += `<div class="st-lanegroup">${renderFlat(expCand)}</div>`; }
     }
 
     const stream = vis.filter(m => m.beyondFloor);
     if(stream.length){
-      html += `<div class="st-stream"><div class="st-slbl">Beyond the Floor — researched &amp; explained</div>
-      <div class="st-snote">Movements whose own confessions sit outside this project's Nicene base. They keep their true time and place; each carries a research brief, not a chair.</div>`;
-      stream.forEach(m => { html += wrapDim(m, rowHTML(m)); });
+      html += `<div class="st-stream"><div class="st-slbl">Non-Nicene Traditions — researched &amp; explained</div>
+      <div class="st-snote">Movements whose own confessions diverge from the Nicene Creed, the shared conviction this project builds from. They keep their true time and place; each carries a research brief, not a chair.</div>`;
+      stream.slice().sort((a,b) => a.start-b.start).forEach(m => { html += wrapDim(m, rowHTML(m)); });
       html += `</div>`;
     }
     html += `</section>`;
@@ -529,7 +527,7 @@ function renderThesisCounts(){
   const psc = MOVEMENTS.filter(isExpanderCandidate).length;
   const other = MOVEMENTS.length - live - sel - def - psc;
   document.getElementById('thesiscounts').textContent =
-    `${live} worlds open for conversation · ${sel} chosen for construction · ${def} deferred or possible, reasons on record · `+
+    `${live} Christian traditions open for conversation · ${sel} chosen for construction · ${def} deferred or possible, reasons on record · `+
     `${psc} not yet assessed · ${other} with stated grounds or open questions — ${MOVEMENTS.length} entries in the full census.`;
   document.getElementById('footcounts').textContent = `${MOVEMENTS.length} movements across ten eras, ${live} open for conversation`;
 }
@@ -572,9 +570,9 @@ function openSheet(id, full){
     }
     h += `<div class="st-acts">${actionsHTML(m)}<button class="st-btn quiet" data-full="${id}">Full entry &rarr;</button></div>`;
   } else {
-    h += `<h4>${live ? 'This world is open' : (m.beyondFloor ? "Research brief — not a conversation world, and why" : "Why it isn't open for conversation")}</h4><p>${esc(m.why)}</p>`;
+    h += `<h4>${live ? 'This tradition is open' : (m.beyondFloor ? "Research brief — not a conversation tradition, and why" : "Why it isn't open for conversation")}</h4><p>${esc(m.why)}</p>`;
     if(m.sourcing) h += `<h4>What survives</h4><p>${esc(m.sourcing)}</p>`;
-    if(m.floorNote) h += `<h4>Floor / eligibility signal</h4><p>${esc(m.floorNote)}</p>`;
+    if(m.floorNote) h += `<h4>Where it stands on the Creed</h4><p>${esc(m.floorNote)}</p>`;
     if(m.relationsSummary) h += `<h4>Key relations, in brief</h4><p>${esc(m.relationsSummary)}</p>`;
     if(edges.length){
       h += `<h4>Lineage — every claim with its confidence</h4>`;
@@ -626,7 +624,7 @@ function actionsHTML(m){
   const rep = live.entry.representativeName, world = live.entry.worldName;
   const label = nb.specific
     ? `Meet ${esc(rep)} — ${esc(nb.note)}`
-    : `Meet ${esc(rep)} of ${esc(world)} — the nearest open world on the map by era and lane`;
+    : `Meet ${esc(rep)} of ${esc(world)} — the nearest open tradition on the map by era and lane`;
   return `<button class="st-btn line" data-act="add" data-id="${nb.id}">${label}</button>`;
 }
 
@@ -673,9 +671,9 @@ function renderTray(){
     const m = byId[id]; if(!m) return '';
     return `<span class="st-tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)}">&times;</button></span>`;
   }).join(" ");
-  if(tray.length === 0){ mode.textContent = 'Choose a world that is open — or explore first. Nothing here rushes you.'; go.disabled = true; }
+  if(tray.length === 0){ mode.textContent = 'Choose a tradition that is open — or explore first. Nothing here rushes you.'; go.disabled = true; }
   else if(tray.length === 1){ mode.textContent = 'Deep Interview — one Representative, room to go deep.'; go.disabled = false; }
-  else { mode.textContent = 'Compare Worlds — how different worlds answer the same question.'; go.disabled = false; }
+  else { mode.textContent = 'Compare Traditions — how different traditions answer the same question.'; go.disabled = false; }
 }
 function launch(ids, mode){
   const names = ids.map(id => { const m = byId[id]; return esc(m.entry.representativeName) + ' — ' + esc(m.entry.worldName); }).join("<br>");
