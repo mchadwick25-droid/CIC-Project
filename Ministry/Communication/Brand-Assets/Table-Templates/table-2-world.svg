@@ -1,5 +1,5 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 260">
-  <g transform="translate(115,42) scale(0.72)">
+  <g transform="translate(115,70) scale(0.72)">
   <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#B87A50" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
   <path d="M44 46 Q60 34 76 46 Q86 62 78 82 Q60 74 42 82 Q34 62 44 46 Z" fill="#F1E7D0" stroke="#2A2521" stroke-width="2.2"/>
   <path d="M46 58 Q46 82 60 84 Q74 82 74 58" fill="#E8C9A3" stroke="#2A2521" stroke-width="2"/>
@@ -8,7 +8,7 @@
   <path d="M55 76 q5 3 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/>
   <path d="M50 132 h20 v6 a10 6 0 0 1 -20 0 z" fill="#2A2521"/><path d="M60 144 v4" stroke="#2A2521" stroke-width="2.4"/>
   </g>
-  <g transform="translate(259,42) scale(0.72)">
+  <g transform="translate(259,70) scale(0.72)">
   <path d="M20 150 Q18 98 42 86 Q30 58 46 42 Q60 30 74 42 Q90 58 78 86 Q102 98 100 150 Z" fill="#8F8A4E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
   <path d="M46 42 Q60 32 74 42 Q84 58 78 78 Q60 72 42 78 Q36 58 46 42 Z" fill="#F1E7D0" stroke="#2A2521" stroke-width="2.2"/>
   <path d="M48 56 Q48 74 60 78 Q72 74 72 56" fill="#D8B487" stroke="#2A2521" stroke-width="2"/>

@@ -527,6 +527,58 @@ Era 2 → the Era 2 template variant. Era assignment for the template is a
 world/map-thread call; noted here so the era-scoped background plan has a starting
 map.
 
+## 7e. Marius LOCKED (V1.0) — sixth world, sixth icon (Mark, 2026-07-22)
+
+**Church and Empire** (Imperial and Juridical Christianity — Rome / Constantinople / Milan,
+c.312–451) was installed as the sixth live world 2026-07-18/22; Marius, its apocrisiarius
+("Deacon of the Letters"), is the first icon designed after the IC-9 family review, in its own
+creative UX thread rather than the icon-build thread proper — worked live with Mark, one open
+question at a time, rather than converged on alone.
+
+**Object (DOCUMENTED):** a leather-strapped scroll-case (capsa), not a single letter. His own
+Permanent Prompt introduces him as "a deacon, entrusted with carrying letters... between the
+great sees," and his title is literally "Deacon of the Letters" — a sealed letter (the more
+literal reading) was drawn as Option A and genuinely considered, but the case was Mark's choice:
+it reads as *the one who carries*, not just *the one who holds*. The strap runs left-waist to
+right-shoulder, passing **behind** the case the whole way (Mark: extend it "so it looks like it
+goes around back to his shoulder, but let the arm be outside it") — the case is drawn on top of
+the strap so the carrying arm reads as in front of it, not wrapped by it.
+
+**Dress:** a plain, undyed, ungirded tunic (INFERENCE, the same low-risk register as Papnoute's
+"attire plain, no specific garment") plus an **orarion** over the left shoulder. This is
+DOCUMENTED for the exact 312–451 window: Council of Laodicea, canon 22 (c.363 CE) bars
+*subdeacons* from wearing it, which only makes sense if deacons themselves distinctively did;
+it's attested broadly East and West, so it doesn't let one see's custom stand for the composite
+"we" Marius carries — his own record explicitly refuses that move ("Rome argued one way...
+none of the three speaks for all"). The **dalmatic** (wider, short-sleeved; tied to Roman
+deacons via a partly-legendary Sylvester attribution, c.314–335) was analyzed and held in
+reserve as Rome-specific — not drawn, but available if a richer, more Rome-flavored read is
+ever wanted. Rejected outright: anything of episcopal rank (pallium, mitre) or later,
+wider/embroidered medieval-style stoles — wrong rank or wrong century.
+
+**Robe:** oxblood `#7A2E2E` — the world's own manifest colour (`world_manifest.py`), reused
+directly as the garment tint (rather than a separately invented robe color, as most of the other
+five use). Set beside the other five in a family comparison (2026-07-22), this reads visibly
+darker/more saturated than any existing robe, and the crossed orarion + strap is the only
+cross-body diagonal in the family — the rest keep the chest quiet and let the held object carry
+the weight. Flagged to Mark; his call was to keep both exactly as drawn, reading them as a
+quiet, unintended-but-real echo of the era's own tensions rather than a flaw to correct.
+
+**Appearance** (skin `#D6B48A`, dark hair, clean-shaven): SILENT in the record. Unlike Chloe
+(Antioch), Theon (Alexandria), or Papnoute (the Egyptian desert), Marius speaks as a composite
+across three sees, not one place — no single setting grounds a skin tone the way the others'
+does. Kept emblematic, INFERENCE flagged, a mid-Mediterranean tone sitting between the family's
+Greek-East and Roman/Bethlehem ends, pending IC-11's eventual demographic-reference artifact.
+Bare-headed bust/face template (no hood), following Theon's convention rather than Papnoute's or
+Yausep's — a chancery deacon is neither a monk nor a town-teacher.
+
+Master `World-Icons/empire.svg`; locked base copy `_working-base/marius_LOCKED_v1_0.svg`.
+
+**Not yet covered:** the IC-9 full-family review ran 2026-07-18 for five icons and passed; it
+has not been re-run with Marius added as the sixth. Treat that re-run, plus IC-11 (the
+demographic-reference artifact) and IC-12 (deferred tints), as still open — this section locks
+Marius's own design, not the family-wide audit around him.
+
 ## 8. Open, flagged (not resolved here)
 
 1. **Per-world object choices** — confirm each against Source Ecology (esp. Rome:

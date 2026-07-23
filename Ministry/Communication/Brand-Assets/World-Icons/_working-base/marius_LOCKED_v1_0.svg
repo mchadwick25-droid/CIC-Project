@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
+  <!-- CiC world icon (V1.0 LOCKED, 2026-07-22) - Marius, Apocrisiarius / Deacon of the Letters,
+       CHURCH AND EMPIRE (Imperial and Juridical Christianity, Rome / Constantinople / Milan, c.312-451).
+       ERA 2 template (round-dome bare-headed bust, no monastic cowl - chancery deacon, not a monk).
+       Sixth live world, sixth icon. Verified against the world's own construction record
+       (ijc_Representative_Permanent_Prompt_Marius.txt) before drawing.
+       OBJECT (DOCUMENTED): a leather-strapped scroll-case (capsa) - his own Permanent Prompt introduces
+       him as "a deacon, entrusted with carrying letters... between the great sees," and his title is
+       literally "Deacon of the Letters." The case over the object-as-letter alternative (Option A,
+       a single sealed letter) was Mark's call - the case reads as "the one who carries," not just
+       "the one who holds." Strap runs left-waist to right-shoulder, passing behind the case (Mark:
+       extend it "so it looks like it goes around back to his shoulder, but let the arm be outside
+       it") - the case is drawn on top of the strap the whole way so the carrying arm reads as in
+       front of it, not wrapped by it.
+       DRESS: plain, undyed, ungirded tunic (INFERENCE, same low-risk register as Papnoute's "attire
+       plain, no specific garment") + an orarion over the LEFT shoulder (DOCUMENTED for this exact
+       312-451 window: Council of Laodicea canon 22, c.363 CE, bars subdeacons from wearing it,
+       implying deacons themselves distinctively did; attested broadly East and West, so it doesn't
+       let one see's custom stand for the composite "we" Marius carries). The dalmatic (a
+       Roman-deacon-specific, partly-legendary Sylvester attribution) was considered and held in
+       reserve as Rome-specific - not drawn.
+       ROBE: oxblood #7A2E2E - the world's own manifest colour (world_manifest.py), reused as the
+       garment tint. Family comparison (2026-07-22) flagged this as visibly darker/more saturated
+       than the other five robes, and the crossed orarion+strap as the only cross-body diagonal in
+       the family - Mark's call: keep both as-is, reading as a quiet visual echo of the era's own
+       tensions, not a flaw to correct.
+       APPEARANCE (skin #D6B48A, dark hair, clean-shaven): SILENT in the record - Marius speaks as a
+       composite across three sees, not one place or person, so no single setting grounds a skin tone
+       the way Chloe's Antioch or Theon's Alexandria does. Kept emblematic, INFERENCE flagged, a
+       mid-Mediterranean tone between the family's Greek-East and Roman/Bethlehem ends pending the
+       eventual demographic-reference artifact (IC-11). Same bare-headed bust/face template as Theon
+       (no hood), since a chancery deacon is not a monk and not a town-teacher.
+       Master `World-Icons/empire.svg`; locked base copy `_working-base/marius_LOCKED_v1_0.svg`. -->
+  <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#7A2E2E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#D6B48A" stroke="#2A2521" stroke-width="2"/>
+  <path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>
+  <ellipse cx="52.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <ellipse cx="67.5" cy="63" rx="2.4" ry="1.5" fill="#2A2521"/>
+  <path d="M60 66 v6" stroke="#2A2521" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M55 76 q5 1.5 10 0" stroke="#2A2521" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M33 88 Q56 112 78 136" fill="none" stroke="#2A2521" stroke-width="9" stroke-linecap="butt"/>
+  <path d="M33 88 Q56 112 78 136" fill="none" stroke="#E8DCBF" stroke-width="6.5" stroke-linecap="butt"/>
+  <path d="M34 140 Q58 105 84 88" fill="none" stroke="#2A2521" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M34 140 Q58 105 84 88" fill="none" stroke="#5A3D24" stroke-width="4.5" stroke-linecap="round"/>
+  <ellipse cx="60" cy="112" rx="7" ry="3" fill="#7E5A34" stroke="#2A2521" stroke-width="1.4"/>
+  <rect x="53" y="112" width="14" height="34" rx="6" fill="#6E4A2E" stroke="#2A2521" stroke-width="1.8"/>
+  <path d="M53 122 q-5 3 0 7" fill="none" stroke="#2A2521" stroke-width="1.3" stroke-linecap="round"/>
+</svg>
