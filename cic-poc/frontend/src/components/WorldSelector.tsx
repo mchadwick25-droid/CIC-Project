@@ -16,6 +16,15 @@ const API_BASE = '/api';
 // to keep cost and conversational complexity manageable at this stage.
 const MAX_WORLDS = 3;
 
+// World.period is a display string ("c. 312–451 CE", "70–200 CE") - the
+// leading number is always its start year, so the tiles can be ordered by
+// when each world's own life actually began without a separate sortable
+// field on the manifest.
+function startYear(period: string): number {
+  const match = period.match(/\d+/);
+  return match ? parseInt(match[0], 10) : Number.MAX_SAFE_INTEGER;
+}
+
 interface WorldSelectorProps {
   /** Called with the final selected worlds (1-MAX_WORLDS) when Begin is pressed. */
   onBegin: (worlds: World[]) => void;
@@ -35,7 +44,8 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
           throw new Error(`Failed to fetch worlds: ${response.statusText}`);
         }
         const data: WorldsResponse = await response.json();
-        setWorlds(data.worlds);
+        const sorted = [...data.worlds].sort((a, b) => startYear(a.period) - startYear(b.period));
+        setWorlds(sorted);
         setIsLoading(false);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Unknown error');
