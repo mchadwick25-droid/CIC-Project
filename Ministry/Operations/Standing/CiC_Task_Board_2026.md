@@ -52,7 +52,13 @@ the 2026-07-21 Decision Log entry and the new DO NOW item below. Same entry also
 (full feature set) reconfirmed**, **Article 31 external review reworded to aspirational, no
 longer a go-live dependency** (financial reality, per Mark — see #301 below), and **Albina's
 Bethlehem Circle drift traced and confirmed closed** (already marked DONE 2026-07-19 below;
-this just adds the exact git-history explanation)._
+this just adds the exact git-history explanation)._ **Later, 2026-07-22 (In-App Icons &
+Graphics thread):** Marius/Church and Empire's icon LOCKED and IC-9 re-run across all six
+(IC-13); the Living Table scene redesigned live with Mark and its first real slice built
+into `cic-poc` — `LivingTableScene.tsx`, `worldIcons.tsx`, `table.css` (LT-1); a real
+world-selector tile-ordering bug found and fixed (LT-2). Full reasoning:
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`. **Still open:** a live visual
+check of the real Living Table build in a running conversation — see LT-1.
 
 ---
 
@@ -81,8 +87,31 @@ this just adds the exact git-history explanation)._
       `_DEESCALATION_TURNS_REQUIRED = 2` comment to match observed behavior, or (optional)
       tighten the classifier prompt for exact 2-turn precision if that specificity ever
       matters. Full account: Decision Log, 2026-07-21 (later still).
-- [ ] **⚠ OPEN, INVESTIGATED 2026-07-20, now TRACEABLE — Content-isolation
-      defect in `cic-poc/backend`, real, root cause still NOT established.**
+- [x] **⚠ INVESTIGATED 2026-07-20, LEADING CAUSE FOUND + GUARDED 2026-07-22 — Content-isolation
+      defect in `cic-poc/backend`, real, root cause still not proven but a strong environmental
+      explanation reproduced.** **2026-07-22 addition:** a separate finding the same day as the
+      original incident (2026-07-20, mobile-popover thread) had already spotted a real
+      shared-port hazard on this machine and flagged the connection but didn't chase it. Chased
+      it now and reproduced it directly: uvicorn sets `SO_REUSEADDR` unconditionally
+      (`venv/.../uvicorn/config.py:583`), and on Windows (unlike Linux) that flag lets a
+      **second** process bind and LISTEN on an already-occupied port with zero error — its
+      startup banner looks completely normal. Verified live on this machine: two test listeners
+      both bound port 18453 successfully; **all 8 requests silently went to whichever process
+      bound first**; killing that first process did NOT fail traffic over to the second, already-
+      listening one — new connections just timed out. **This is not proof the 2026-07-20 incident
+      was this exact mechanism** (the stale process's own identity is gone, unrecoverable), but
+      it's a real, reproduced, silent failure mode on this exact machine that fits the symptom
+      shape well: a fresh-looking server that is actually answering zero requests while something
+      stale (possibly a leftover process from a completely different task) answers instead —
+      which would explain why the leaked content read as content from an unrelated context rather
+      than anything `cic-poc`'s own prompts would generate. **Guarded, not just diagnosed:**
+      `cic-poc/backend/run_dev.cmd` now runs a pre-flight check
+      (`check_port_free.ps1`) before starting uvicorn — if port 8000 is already listening, it
+      prints which process owns it and aborts instead of silently binding alongside it. Verified
+      both directions (blocks with a stale listener present; passes silently when the port is
+      genuinely free). Does not touch production (Render/Fly.io containers don't have this
+      hazard — one process per container). Full account: System Hub Decision Log, 2026-07-22.
+      **Original 2026-07-20 investigation, preserved below:**
       A live API response (Theon's turn in a real multi-world session)
       contained a full, unrelated block — a request to build a deceptive
       e-commerce page, followed by a generic AI-refusal citing
@@ -439,10 +468,6 @@ this just adds the exact git-history explanation)._
       Spec §6 (`Ministry/Technology/Representative-Modes/CiC_Representative_Modes_Design_Spec_V0_1.md`).
       No downstream gate depends on this specifically, but RM-8 is recommended to wait
       for it.
-- [ ] **TR-confirm — Two tour interpretations owed.** (1) Confirm "the Representative
-      is voice-only." (2) Confirm the standing commitment that evidentiary absence is
-      never a locked feature, if tiering is ever revisited. Five-minute decisions;
-      (1) directly gates TR-10.
 - [x] **DONE 2026-07-20 — TR-4: L4 Tour Manifest Template + review-cycle definition
       built.** `Ministry/Features/Tour-Experience-Module-Phase2/CiC_L4_Tour_Manifest_
       Template_V1_0.md` — front-matter + repeating Beat block + required Decline Stop
@@ -461,7 +486,10 @@ this just adds the exact git-history explanation)._
       `git status`/`git log` — corrected in the artifact's own text, filing decision
       itself unaffected (stands on its other, verified ground). DRAFT V1.0, not yet
       through independent adversarial review itself — flagged as such, not silently
-      treated as final. Unblocks TR-7, TR-9, TR-10.
+      treated as final. Unblocks TR-7, TR-9, TR-10. **Shelved 2026-07-22 — complete and
+      correct as history, but not actively continuing.** Mark's direct descope decision
+      moved the whole Hosted Tour feature to Phase 2+, out of the current build cycle —
+      see the Phase 2+/DEFERRED section below.
 - [x] **DONE 2026-07-20 — TR-5: Tour Eligibility Gate checklist built.**
       `Ministry/Features/Tour-Experience-Module-Phase2/CiC_Tour_Eligibility_Gate_V1_0.md`
       — eight sequential gates (Doc_09 exists? → communal scene? → narrated vs. thin
@@ -475,44 +503,61 @@ this just adds the exact git-history explanation)._
       `Tour-Experience-Module-Phase2/` (the strategy doc's own §6 names this thread as
       owning the generalization handoff); neither touches `cic-poc`, the website, or
       any UX-design-active area. Full reasoning: that feature's own Decision-Log.md,
-      2026-07-20.
-- [ ] **TR-6 — Asset-sourcing sub-pipeline.** Generalizes the Chloe demo's verified
-      public-domain image sourcing and source-text audio scripts into a reusable tool.
-      Cross-ref: Marketplace thread's Adopt #6 hands off here.
-- [ ] **TR-8 — Confirm the recording pipeline (GIF/slideshow) generalizes per world.**
-      Already built once for the map thread; confirm and document for tour use.
-- [ ] **NEW 2026-07-21 — Install "Church and Empire" (Imperial and Juridical Christianity,
-      Representative Marius) into `cic-poc` — the sixth world, genuinely close, was missing
-      from this board entirely until Mark caught it.** Step 0 through Doc_09 Cleared, full
-      Representative build (5 rounds of boundary testing, all fixes verified), Permanent
-      Prompt + World Capsule Core + 12 lexicon chunks + 6 story chunks all present in
-      `World-Builds/Imperial-Juridical-Christianity/`, already in the exact file-naming
-      convention the live worlds use. `world_name`/`world_subtitle` already decided by Mark
-      ("Church and Empire" / "Imperial and Juridical Christianity"). Same install pattern as
-      Alexandria's: (1) assign a manifest color — not yet decided, (2) finalize a short
-      `representative_title` phrase for Marius — not yet picked, (3) copy the data files into
-      `cic-poc/backend/data/`, add the `world_manifest.py` entry, (4) sync the two
-      hand-synced frontend points (`SpeakerName` union, `MessageBubble.tsx`
-      `REPRESENTATIVE_INFO`). No new construction or review work needed. Full account:
-      Decision Log, 2026-07-21.
+      2026-07-20. **Shelved 2026-07-22 — complete and correct as history, but not
+      actively continuing.** Mark's direct descope decision moved the whole Hosted Tour
+      feature to Phase 2+, out of the current build cycle — see the Phase 2+/DEFERRED
+      section below.
+- [x] **DONE 2026-07-22 — "Church and Empire" (Imperial and Juridical Christianity,
+      Representative Marius) installed into `cic-poc` — the sixth live world.** Color
+      `#7A2E2E` (oxblood, Mark's pick after seeing swatches) and `representative_title`
+      "Apocrisiarius — Deacon of the Letters" (real historical term, grounded directly in
+      Marius's own Permanent Prompt; not yet in this world's own Deployment Lexicon — see
+      `Open_Gaps_Tracking.md` item 15) decided, then: data files copied to
+      `cic-poc/backend/data/imperial_juridical_world/` (20 files — Permanent Prompt, World
+      Capsule Core, 12 lexicon chunks, 6 story chunks), `world_manifest.py` entry added
+      (world count 5→6, `ast.parse` + live import verified), `SpeakerName` union and
+      `MessageBubble.tsx`'s `REPRESENTATIVE_NAMES` synced (`tsc --noEmit` clean — confirmed
+      no third hand-synced frontend point exists beyond the two the manifest's own docstring
+      names). **Verified live end-to-end, not just built:** vector-store indexer ran clean for
+      all 6 worlds; backend started clean ("Church and Empire: lexicon loaded successfully");
+      in a real browser session, the tile rendered correctly, world selection and session
+      start worked, and a real live message ("whose claim binds the others when a see's own
+      rank is disputed?") got a genuine in-character response correctly citing Rome's
+      apostolic-grave claim, Constantinople's Canon 3/28 claim, Leo's Tome, and Chalcedon's
+      unresolved outcome — the "we" voice held correctly across all three strands. Full
+      account: Decision Log, 2026-07-22.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
-- [ ] **RM-8 — Representative Modes validation run, Battery A.** ⚠ **Escalated
-      2026-07-19: Mark decided P1 launches with the full feature set, not just the core
-      encounter (`CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md` V1.2) — this makes
-      Battery A the single most schedule-critical action in the whole plan, not just the
-      top validation priority.** Increment 2 (role selection) can't merge without it
-      passing, Increment 3 can't start without Increment 2, and P1 itself now needs both.
-      The feature's existence gate (content-invariance, five arms, blinded claim/
-      confidence extraction) — a mode that fails it is a fork of the truth and fails
-      outright. Costs live API calls; you schedule it. Start this now, in parallel with
-      Increment 1 — not after RM-7.
+- [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
+      25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
+      **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**
+      Failures concentrate almost entirely in `reevaluation` mode (a problem in 5/5 probes it
+      appeared in — dropping content, not changing register: answered only half a two-part
+      question in one probe, dropped a "we never settled this" disclaimer four other arms kept in
+      another, gave a thinner/contradictory chronology in a third). `pastor-teacher` showed milder
+      issues in 3/5. Register-distinguishability (a separate check) is largely clean — the modes
+      do read as genuinely different, just not always factually complete. **Per the plan's own
+      governing rule, this gate does not pass as built — Increment 2/3 and the full-feature P1
+      plan stay blocked on it.** Full matrix and findings:
+      `Ministry/Features/Representative-Modes/Design/CiC_Representative_Modes_Battery_A_Results_2026-07-22.md`.
+      **Fixed same day (commit `4f15611`, local branch), spot-verified against all 4 concretely-
+      identified defects — all fixed, one (A-2 evidentiary thinness) improved but not fully closed.**
+      ⚠ **Gate still NOT formally cleared** — spot-check re-tested only the 2 fixed arms on the 4
+      failing probes (8 conversations, direct comparison against the original findings), not the
+      full protocol (all 5 arms, fresh blinded grading). **Mark's call, 2026-07-22: spot-verified
+      fix is enough to move forward on for today** — Increment 2/3/P1 stay tracked as gated on the
+      real formal re-run eventually, but not held up today on that basis. **Next action: a full
+      formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
+      timing his to schedule, not urgent today.
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
       decision, see V1.2 above): direct-API hosting live **and** Increment 1 **and** the
       Tier 0 four **and** RM-8/Battery A passed + Increment 2 merged **and** Increment 3
-      merged **and** Hosted Tour **and** Question-First Entry **and** Guided Onboarding
-      **and** the Living Table's live wiring — not just hosting alone. Protect this window
+      merged **and** Question-First Entry **and** Guided Onboarding **and** the Living
+      Table's live wiring — not just hosting alone. **Hosted Tour removed from this
+      dependency chain 2026-07-22** — Mark's direct descope decision moved the whole
+      Hosted Tour feature to Phase 2+, out of the current build cycle, so it no longer
+      gates P1/launch (see the Phase 2+/DEFERRED section below). Protect this window
       once it starts — no new outreach until ~Aug 10 from that point.
 - [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
       existing; his August matters.
@@ -530,18 +575,17 @@ this just adds the exact git-history explanation)._
       selector underneath it hasn't caught up to.
 - [ ] **NEW: outreach one-pagers DRAFTED 2026-07-16** — church-fund, world-sponsorship
       ($3,500), Wabash pilot (all in Ministry/Funding, awaiting markup).
+- [ ] **NEW 2026-07-22 — Fill in the Hope Over Crisis / LDI China specifics** in the
+      case-for-support document's "Why Under a PBC Umbrella" section
+      (`Ministry/Features/Funding-Strategy/`). Deliberately put on hold — Mark's own
+      call, wants a clearer creative headspace before writing it, not urgent. Section
+      already reads complete without it; this only sharpens the personal-history beat.
 - [ ] **NEW: landing page copy DRAFTED 2026-07-16 (#704 at 50%)** —
       `Ministry/Communication/CiC_Landing_Page_Copy_V0_1_DRAFT.md`; quote slot waits
       for P1; page build remains.
 - [ ] **218 — Weekly quality-upgrade batch** (standing rhythm from Aug 3).
 - [ ] **RM-9 — Batteries B–D** (drift / general-mode overclaiming / deconstructing-mode
       adversarial pressure), after RM-8 passes.
-- [ ] **TR-7 — Templated tour renderer** (after TR-4). Generalizes the Chloe HTML so a
-      world supplies only manifest + assets.
-- [ ] **TR-9 — Scene-narration validation probe category** (after TR-4; validation-suite
-      thread). No tour ships on conversational validation alone.
-- [ ] **TR-10 — House-Churches/Chloe: formalize into a reviewed Tour Manifest** (after
-      TR-4 + the TR-confirm gate above). Class A, strongest case, demo already built.
 - [ ] **Increment 2 — Role selection UI** (after Increment 1 build lands). Gated on
       RM-8/Battery A passing (the rename is done — executed in code 2026-07-18,
       commit `9774447`, no longer a blocker).
@@ -604,14 +648,61 @@ this just adds the exact git-history explanation)._
 | RM-13 | Tier B: role → default transparency mode | Mode One/Two toggle (not yet built) |
 | RM-14 | Tier C: closing-resources register by role | closing-resources feature (not yet built) |
 | RM-15 | Tier D: role-aware safety classifiers | deliberately not designed — would require full adversarial re-test if ever wanted; not scoped |
-| TR-11 | Syriac/Mar Yausep tour: manifest for `syrstory009` | TR-4, TR-6, and a 4th-century pronunciation research pass |
-| TR-12 | Desert/Papnoute tour: manifest for `desertstory008` (no worship-service tour) | TR-4, TR-6, TR-11 (sequenced after) |
-| TR-13 | Bethlehem Circle/Albina tour: manifest for `hal_story10` (no liturgical tour) | TR-4, TR-6, TR-12 (produce last — newest, least live-tested world) |
-| TR-14 | cic-poc integration: `tour_manifest.py`, mode-overlay, invitation card, tour view | Increment 1 (budget compliance) **and** RM-10/Increment 2 (role selection); never before/during P1 |
+| ~~TR-11~~ | ~~Syriac/Mar Yausep tour: manifest for `syrstory009`~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** | — |
+| ~~TR-12~~ | ~~Desert/Papnoute tour: manifest for `desertstory008` (no worship-service tour)~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** | — |
+| ~~TR-13~~ | ~~Bethlehem Circle/Albina tour: manifest for `hal_story10` (no liturgical tour)~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** | — |
+| ~~TR-14~~ | ~~cic-poc integration: `tour_manifest.py`, mode-overlay, invitation card, tour view~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** | — |
 | Incr. 4 | World Map Tier A merge — owned by front-end thread, never before/during P1 | 402/Increment 3 |
-| TR-15 | World Map "Take a tour" handoff | TR-7, TR-14, **and** Increment 4 (the map itself has to be merged before it can hand off to a tour) |
+| ~~TR-15~~ | ~~World Map "Take a tour" handoff~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** (note: distinct from the World Map's own already-shipped "▶ Watch the flow" self-guided walkthrough, which this descope does not touch) | — |
 | — | Cross-cutting flag: production TTS/voice + audio hosting decision | not yet scheduled — real cost decision tied to the voice-only ruling |
 | — | Cross-cutting flag: image licensing at production scale + zoomable high-res artifacts | not yet scheduled — Marketplace thread's Adopt #6 hands off here |
+
+## 🟣 PHASE 2+ / DEFERRED — not in current build cycle
+
+**Deferred 2026-07-22, Mark's direct decision:** "the more i look at this launch i am
+seeing the tours a feature of a second level tier that we won't build now, lets take
+all tour related content out of this launch, document what has, needs to be done and
+move it out of this build cycle in all documents, ux code etc." **No Tour code exists
+anywhere in `cic-poc`** (frontend or backend) — this is a documentation/tracking
+descope only, zero code removed. The one built artifact (a standalone Chloe tour HTML
+demo, `Ministry/Features/Hosted-Tour/Design/`) was never integrated into `cic-poc` or
+the live site, so it needs no code change, just this status note. **Unrelated, not
+touched by this descope:** `cic-website/world-map.html`'s own "▶ Watch the flow"
+self-guided walkthrough of the map itself is a separate, already-shipped feature that
+happens to share the word "tour" — do not confuse it with the items below. TR-1
+through TR-5 are complete and shelved (see their DONE entries above/below, unchanged);
+everything below was not yet started when the descope landed.
+
+- [ ] **TR-confirm — Two tour interpretations owed.** (1) Confirm "the Representative
+      is voice-only." (2) Confirm the standing commitment that evidentiary absence is
+      never a locked feature, if tiering is ever revisited. Five-minute decisions;
+      (1) directly gated TR-10 before the descope. Not urgent while Tour is Phase 2+.
+- [ ] **TR-6 — Asset-sourcing sub-pipeline.** Generalizes the Chloe demo's verified
+      public-domain image sourcing and source-text audio scripts into a reusable tool.
+      Cross-ref: Marketplace thread's Adopt #6 hands off here.
+- [ ] **TR-8 — Confirm the recording pipeline (GIF/slideshow) generalizes per world.**
+      Already built once for the map thread; confirm and document for tour use.
+- [ ] **TR-7 — Templated tour renderer** (after TR-4). Generalizes the Chloe HTML so a
+      world supplies only manifest + assets.
+- [ ] **TR-9 — Scene-narration validation probe category** (after TR-4; validation-suite
+      thread). No tour ships on conversational validation alone.
+- [ ] **TR-10 — House-Churches/Chloe: formalize into a reviewed Tour Manifest** (after
+      TR-4 + the TR-confirm gate above). Class A, strongest case, demo already built.
+- [ ] **TR-11 — Syriac/Mar Yausep tour: manifest for `syrstory009`** — needs TR-4, TR-6,
+      and a 4th-century pronunciation research pass.
+- [ ] **TR-12 — Desert/Papnoute tour: manifest for `desertstory008`** (no
+      worship-service tour) — needs TR-4, TR-6, TR-11 (sequenced after).
+- [ ] **TR-13 — Bethlehem Circle/Albina tour: manifest for `hal_story10`** (no
+      liturgical tour) — needs TR-4, TR-6, TR-12 (produce last — newest, least
+      live-tested world).
+- [ ] **TR-14 — cic-poc integration: `tour_manifest.py`, mode-overlay, invitation card,
+      tour view** — needs Increment 1 (budget compliance) and RM-10/Increment 2 (role
+      selection); was already scoped never-before/during-P1 pre-descope, now moot since
+      Tour isn't part of this build cycle at all.
+- [ ] **TR-15 — World Map "Take a tour" handoff** — needs TR-7, TR-14, and Increment 4
+      (the map itself has to be merged before it can hand off to a tour). Distinct from
+      the World Map's own already-shipped "▶ Watch the flow" self-guided walkthrough,
+      which is unaffected by this descope and continues as normal, in-cycle work.
 
 ## ✅ DONE
 
@@ -634,6 +725,40 @@ this just adds the exact git-history explanation)._
       Guided-Questions content calls, the Chloe tour voice read, Section 10, Gantt IDs)
       from what's build-thread execution once those clear.
 
+- [x] **IC-13 — Marius (Church and Empire, sixth live world) icon LOCKED; IC-9 re-run
+      across all six (2026-07-22).** Object source-verified against his own Permanent
+      Prompt: a leather-strapped scroll-case, not a single letter — his own title is
+      "Deacon of the Letters." Dress: plain tunic + orarion (DOCUMENTED for his exact
+      312–451 window, Council of Laodicea canon 22); dalmatic considered, held in reserve
+      as Rome-specific. Robe: oxblood `#7A2E2E`, the world's own manifest colour. IC-9
+      re-run found one real question — his skin/hair reading close to two other icons —
+      **resolved on regional grounds (Mark's correction: accuracy to the world's actual
+      population, not an engineered spread) rather than nudged for difference's sake.**
+      Built: `Brand-Assets/World-Icons/empire.svg`; spec §7e added. Full reasoning:
+      `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`.
+- [x] **LT-1 — The Living Table scene redesigned live (mockup phase closed) and its
+      first slice built into `cic-poc` (2026-07-22).** Table redesigned to a filled
+      roundish table with a thick rim (Mark's call, supersedes spec's old thin-arc
+      model); two real bugs found only via built verification tooling (table drawing
+      behind the figures instead of over them; the nameplate speaking-state was
+      hand-painted per instance, not one real toggleable class). **Real, flagged
+      departure from icon spec §7a:** every held object moved off the body onto the
+      table surface in front of each figure, per Mark's direct call — not yet
+      reconciled in the spec document itself. Phone corner-chip + load-greeting built
+      as first passes. Built into the real app: `LivingTableScene.tsx`,
+      `worldIcons.tsx`, `BrandMark.tsx`, wired into `TheTable.tsx` + `table.css`;
+      `tsc --noEmit` clean, geometry formulas hand-verified against the mockup's own
+      tuned values. **Not yet done:** a live visual check inside a real running
+      conversation (backend was slow to start, wrongly reported unresponsive
+      mid-session — confirmed serving real data on a later check, live check itself
+      not yet re-run). Full reasoning, every round:
+      `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`.
+- [x] **LT-2 — World-selector tiles: real ordering bug found and fixed (2026-07-22).**
+      Tiles had no sort at all (whatever order the backend happened to return); now
+      sorted by each world's own documented start year, extracted from its `period`
+      string. Verified against the real six worlds' own manifest data: House-Churches
+      (70) → Alexandria (150) → Syriac (200) → Church and Empire (312) → Desert (320)
+      → Bethlehem Circle (382) — corrects two dates assumed earlier the same session.
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
       all green, measured from the masters; two findings fixed in-pass (three in-file lock
@@ -704,6 +829,10 @@ this just adds the exact git-history explanation)._
       source-text audio readings with transcripts, an honest four-part decline stop.
       Not integrated into `cic-poc`; nothing merged. Demo:
       https://claude.ai/code/artifact/74a8c750-b828-443d-8d8a-e83f038a6eb7
+      **Shelved 2026-07-22 — complete and correct as history, but not actively
+      continuing.** Mark's direct descope decision moved the whole Hosted Tour feature
+      to Phase 2+, out of the current build cycle — see the Phase 2+/DEFERRED section
+      above.
 
 ---
 

@@ -2,7 +2,12 @@
 <project name="CiC Acceleration Jul-Dec 2026" company="Church in Conversation" webLink="" view-date="2026-07-13" view-index="0" gantt-divider-location="440" resource-divider-location="300" version="3.2.3247" locale="en">
     <description><![CDATA[Master schedule from CiC_Acceleration_Plan_Jul-Dec_2026_V0_1_DRAFT (Ministry/Funding).
 Milestones marked with GATE are the funding/launch gates. Keep in sync with Ministry/Operations/CiC_Task_Board_2026.md.
-Update rule: mark tasks complete here (percent), then refresh the task board's DO NOW list from whatever has all predecessors done.]]></description>
+Update rule: mark tasks complete here (percent), then refresh the task board's DO NOW list from whatever has all predecessors done.
+2026-07-22: tasks 439-452 (the TR-* Hosted Tour feature) deferred to Phase 2+ per Mark's direct descope
+decision -- not in the current build cycle. Done tasks (439, 441, 442) kept complete=100, renamed
+[DONE - shelved, Phase 2] rather than deleted. Not-yet-started tasks (440, 443-452) renamed [DEFERRED -
+Phase 2] and pushed to placeholder date 2027-01-04 (out of the Jul-Dec 2026 window). See Task Board's
+Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full reasoning.]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="240" order="0"/>
         <field id="tpd4" name="Begin date" width="90" order="1"/>
@@ -170,7 +175,7 @@ Update rule: mark tasks complete here (percent), then refresh the task board's D
             <task id="424" name="RM-7: Mark reviews Design Spec S6 demonstration artifact" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true">
                 <depend id="425" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="425" name="RM-8: Validation run - Battery A (feature existence gate, costs live API calls)" color="#9966cc" meeting="false" start="2026-07-21" duration="2" complete="0" expand="true">
+            <task id="425" name="RM-8: Validation run - Battery A - RAN 2026-07-22, FAILED, fixed same day + spot-verified; formal re-run still owed" color="#9966cc" meeting="false" start="2026-07-21" duration="2" complete="70" expand="true">
                 <depend id="426" type="2" difference="0" hardness="Strong"/>
                 <depend id="427" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -186,38 +191,38 @@ Update rule: mark tasks complete here (percent), then refresh the task board's D
             <task id="430" name="RM-13: Tier B - role-default transparency mode (blocked on Mode One/Two toggle)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
             <task id="431" name="RM-14: Tier C - closing-resources register by role (blocked on closing resources)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
             <task id="432" name="RM-15: Tier D - role-aware safety classifiers (deliberately not designed, not scoped)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
-            <task id="439" name="TR-1..TR-3: Tour strategy, evidentiary analysis, Chloe demo build + recordings, decision log" color="#9966cc" meeting="false" start="2026-07-16" duration="1" complete="100" expand="true"/>
-            <task id="440" name="TR-confirm: Mark confirms voice-only interpretation + evidentiary-absence commitment" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true">
+            <task id="439" name="[DONE - shelved, Phase 2] TR-1..TR-3: Tour strategy, evidentiary analysis, Chloe demo build + recordings, decision log" color="#9966cc" meeting="false" start="2026-07-16" duration="1" complete="100" expand="true"/>
+            <task id="440" name="[DEFERRED - Phase 2] TR-confirm: Mark confirms voice-only interpretation + evidentiary-absence commitment" color="#c8c2d9" meeting="false" start="2027-01-04" duration="1" complete="0" expand="true">
                 <depend id="446" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="441" name="TR-4: L4 Tour Manifest Template + review-cycle definition" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="0" expand="true">
+            <task id="441" name="[DONE - shelved, Phase 2] TR-4: L4 Tour Manifest Template + review-cycle definition" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="100" expand="true">
                 <depend id="444" type="2" difference="0" hardness="Strong"/>
                 <depend id="445" type="2" difference="0" hardness="Strong"/>
                 <depend id="446" type="2" difference="0" hardness="Strong"/>
                 <depend id="448" type="2" difference="0" hardness="Strong"/>
                 <depend id="449" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="442" name="TR-5: Tour Eligibility Gate as a repeatable per-world checklist" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="0" expand="true"/>
-            <task id="443" name="TR-6: Asset-sourcing sub-pipeline (documented + tooled)" color="#9966cc" meeting="false" start="2026-07-18" duration="3" complete="0" expand="true">
+            <task id="442" name="[DONE - shelved, Phase 2] TR-5: Tour Eligibility Gate as a repeatable per-world checklist" color="#9966cc" meeting="false" start="2026-07-18" duration="2" complete="100" expand="true"/>
+            <task id="443" name="[DEFERRED - Phase 2] TR-6: Asset-sourcing sub-pipeline (documented + tooled)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
                 <depend id="447" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="450" name="TR-8: Recording pipeline confirmed reusable per world" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true"/>
-            <task id="444" name="TR-7: Templated tour renderer (world supplies manifest + assets)" color="#9966cc" meeting="false" start="2026-07-20" duration="3" complete="0" expand="true">
+            <task id="450" name="[DEFERRED - Phase 2] TR-8: Recording pipeline confirmed reusable per world" color="#c8c2d9" meeting="false" start="2027-01-04" duration="1" complete="0" expand="true"/>
+            <task id="444" name="[DEFERRED - Phase 2] TR-7: Templated tour renderer (world supplies manifest + assets)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
                 <depend id="452" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="445" name="TR-9: Scene-narration validation probe category (validation-suite thread)" color="#9966cc" meeting="false" start="2026-07-20" duration="2" complete="0" expand="true"/>
-            <task id="446" name="TR-10: House-Churches/Chloe - formalize demo into reviewed Tour Manifest" color="#9966cc" meeting="false" start="2026-07-21" duration="3" complete="0" expand="true"/>
-            <task id="447" name="TR-11: Syriac/Mar Yausep - manifest for syrstory009 (needs pronunciation pass)" color="#9966cc" meeting="false" start="2026-07-24" duration="4" complete="0" expand="true">
+            <task id="445" name="[DEFERRED - Phase 2] TR-9: Scene-narration validation probe category (validation-suite thread)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="2" complete="0" expand="true"/>
+            <task id="446" name="[DEFERRED - Phase 2] TR-10: House-Churches/Chloe - formalize demo into reviewed Tour Manifest" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
+            <task id="447" name="[DEFERRED - Phase 2] TR-11: Syriac/Mar Yausep - manifest for syrstory009 (needs pronunciation pass)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="4" complete="0" expand="true">
                 <depend id="448" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="448" name="TR-12: Desert/Papnoute - manifest for desertstory008 (no worship-service tour)" color="#9966cc" meeting="false" start="2026-07-28" duration="3" complete="0" expand="true">
+            <task id="448" name="[DEFERRED - Phase 2] TR-12: Desert/Papnoute - manifest for desertstory008 (no worship-service tour)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true">
                 <depend id="449" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="449" name="TR-13: Bethlehem Circle/Albina - manifest for hal_story10 (produce last, no liturgical tour)" color="#9966cc" meeting="false" start="2026-07-31" duration="3" complete="0" expand="true"/>
-            <task id="451" name="TR-14: cic-poc integration (tour_manifest.py, mode-overlay, invitation card, tour view) - behind Increment 1 + role selection; never before/during P1" color="#9966cc" meeting="false" start="2026-08-27" duration="10" complete="0" expand="true">
+            <task id="449" name="[DEFERRED - Phase 2] TR-13: Bethlehem Circle/Albina - manifest for hal_story10 (produce last, no liturgical tour)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
+            <task id="451" name="[DEFERRED - Phase 2] TR-14: cic-poc integration (tour_manifest.py, mode-overlay, invitation card, tour view) - behind Increment 1 + role selection; never before/during P1" color="#c8c2d9" meeting="false" start="2027-01-04" duration="10" complete="0" expand="true">
                 <depend id="452" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="452" name="TR-15: World Map 'Take a tour' handoff (needs TR-7, TR-14, and the map itself merged)" color="#9966cc" meeting="false" start="2026-09-09" duration="3" complete="0" expand="true"/>
+            <task id="452" name="[DEFERRED - Phase 2] TR-15: World Map 'Take a tour' handoff (needs TR-7, TR-14, and the map itself merged; distinct from the World Map's own already-shipped 'Watch the flow' walkthrough, which is unaffected)" color="#c8c2d9" meeting="false" start="2027-01-04" duration="3" complete="0" expand="true"/>
         </task>
         <task id="500" name="E - FUNDING" color="#cc3333" meeting="false" start="2026-07-17" duration="120" complete="0" expand="true">
             <task id="510" name="Church-designated fund agreed (pastor conversation)" color="#cc3333" meeting="false" start="2026-07-17" duration="5" complete="0" expand="true">

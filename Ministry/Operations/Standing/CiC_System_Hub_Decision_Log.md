@@ -11,6 +11,509 @@ workstream in this project.
 
 ---
 
+## 2026-07-22 (last) — Object-placement conflict resolved: two states, not a contradiction; live-in-app check deferred to tomorrow by Mark's own call
+
+**Two decisions, both Mark's, given directly to System Hub:** (1) *"we should have two
+states, when isolated the item is on the chest, when at the table the item is on the
+table"* — resolves the icon spec §7a conflict flagged in the sync entry below: isolated
+portraits (the master icon files, world-selector tiles) keep the chest-held object
+unchanged; the Living Table scene keeps the table-resting placement already built.
+Neither state needs rework — only the spec document itself needs the rule written in,
+which is documentation, not new design. (2) *"we will work on the integrating the scene
+in the real running conversation tomorrow"* — the live-in-app visual check stays open,
+deliberately, not as an oversight.
+
+**Also found and fixed, during today's later full sync pass:** System Hub had wrongly
+believed the Icons & Graphics thread's `Decision-Log.md` didn't exist and created a
+duplicate at the path this hub's own launch prompt specified
+(`Ministry/Communication/Brand-Assets/Decision-Log.md`). It did exist all along — the
+thread itself had already started its own log at `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`,
+matching the path convention every other dispatched thread (Atlas-World-Map,
+Brand-Messaging-Rework, Funding-Strategy) actually uses, not the one this hub's launch
+prompt suggested. Found while double-checking file locations during the "make sure
+everything is in the right place" pass. Fixed by merging this cross-reference entry
+into the real file and deleting the stray duplicate — one authoritative log remains, at
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`.
+
+**Next action:** none for System Hub. Tomorrow's in-app check and the spec §7a
+write-up both belong to that thread when it resumes.
+
+---
+
+## 2026-07-22 (sync point) — In-App Icons & Graphics thread: Marius's icon locked, and a genuinely bigger deliverable landed — the Living Table scene, built for real in `cic-poc`
+
+**Sync entry, not a new decision** — full reasoning for everything below is in that
+thread's own `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`; this is the
+cross-thread status point.
+
+**Closed:** Marius's icon (a scroll-case, not a letter — source-verified against his
+own "Deacon of the Letters" title) built and locked; IC-9 (full-family visual review)
+re-run across all six worlds, with one real correction worth keeping in mind for any
+future icon work — Mark's own ruling was that a near-match in skin tone or hair colour
+between two worlds is not automatically a flaw to fix; it's correct when the two
+worlds' actual populations genuinely overlap (Marius's Roman/Milanese sees and Chloe's
+Antioch/Asia Minor world share real late-antique Mediterranean stock). Accuracy to the
+record governs, not an assumption that every figure must look visually distinct.
+
+**The bigger news: the Living Table scene — seated figures, held objects, speaking-
+state nameplates — went from not existing at all (the real running app only had a bare
+text "table bar" before this) to built, wired into `TheTable.tsx`, and passing
+`tsc --noEmit` clean, in one session.** Designed live with Mark across many mockup
+rounds first, per his own explicit step-by-step request, before any real app code was
+touched. A genuinely new verification technique got built along the way, worth other
+threads knowing about: this session's Browser pane can't take screenshots, so the
+thread built direct DOM measurement (`getBoundingClientRect`/`elementFromPoint` via a
+local preview server) to actually verify seat/object geometry before showing Mark
+anything — caught a real bug (the table was drawing behind the figures, not in front)
+that hand-calculation had missed for several rounds.
+
+**One real, flagged, not-yet-resolved conflict worth a decision:** Mark's own direct
+call moved every Representative's held object from "cradled at the chest" (icon spec
+§7a's current rule, and how all six locked master icons are actually drawn) to
+"resting on the table in front of them." The thread correctly flagged this as a real
+reversal of a decided rule, not a cosmetic mockup choice, since it affects the master
+icon files' own eventual redesign, not just this one scene — and it has not been
+reconciled in the spec document itself yet.
+
+**One real, honest gap, not yet closed:** the built scene has not actually been looked
+at inside a real running conversation — blocked this session by the backend appearing
+unresponsive, which turned out to just be slow to finish loading. Next concrete step
+once the thread resumes.
+
+**Also fixed in passing:** a real world-selector ordering bug (worlds rendered in
+whatever order the API happened to return, not by era) — now sorts by each world's own
+start year, which also corrected two wrong assumptions from earlier today about
+Alexandria's and Church and Empire's relative start dates.
+
+**Next action:** Mark's call whether the icon-spec reconciliation (§7a) is worth
+deciding now or can wait until the thread's next live session; the live-in-app visual
+check is that thread's own next step regardless.
+
+---
+
+## 2026-07-22 (still going) — Funding Strategy thread stopped by Mark; Atlas/Icons boundary checked and reinforced
+
+**Mark's direction, two parts:** (1) stop the Funding Strategy thread for now — his own action,
+nothing for System Hub to do beyond noting it (that thread's real converged work stays exactly
+where it is, unaffected — see the entry above). (2) The Atlas Front-End Rebuild and In-App Icons &
+Graphics threads are both essential and must not cross over — "the atlas is different than the app
+icon thread."
+
+**Checked directly rather than assumed.** Both threads are visibly producing real, substantial work
+already (confirmed via their own updated Decision-Log/Integration-Notes files, not taken on
+report): the Atlas thread has the Story view live on `atlas.html`/`index.html`, consolidated the
+Wall Chart and Research Table into one `world-atlas.html` reading a shared census JSON, and
+archived (not deleted) the two stale pages it replaced. The Icons thread has already built and
+locked Marius's icon (`marius_LOCKED_v1_0.svg`).
+
+**The specific crossover risk — checked with a direct `diff`, not eyeballed:** the Atlas thread's
+own log noted "icon copied from Brand-Assets" for Marius. Verified this means exactly that —
+`cic-website/assets/world-icons/empire.svg` is byte-identical to the Icons thread's canonical
+locked asset, not an independently invented copy. **The boundary is holding correctly right now.**
+
+**Reinforced it going forward, not just checked it once:** added a dated section to
+`Ministry/Features/Atlas-World-Map/Integration-Notes.md` stating the rule plainly — Icons & Graphics
+owns canonical asset design/locking in `Brand-Assets/`; Atlas copies and renders, never invents or
+redesigns an icon itself; the same split applies to the era-ground palette (canonical in the icon
+spec, Atlas renders with it). If a needed icon isn't built yet when Atlas needs it, that's a
+blocker to flag back to System Hub, not something to route around locally.
+
+**Next action:** none required — both threads keep running independently. Worth a spot-check again
+if either reports something that sounds like it's redesigning the other's territory.
+
+---
+
+## 2026-07-22 (one more) — Funding/support gifts held for Phase 1; support.html pulled from nav
+
+**Mark's direction:** funding strategy and support gifts are on hold for Phase 1 of the launch —
+the first priority after go-live is gathering feedback from several real participants, not asking
+for money. Simplifies the hosting dependency chain from the dependency-mapping question just
+before this — one fewer thread (Funding Strategy) gating hosting's "content done" requirement.
+
+**Checked before touching anything:** the Funding Strategy thread (dispatched earlier today) is
+far more advanced than expected — a converged five-phase roadmap (`CiC_Business_Roadmap_V0_1.md`,
+Go Live → Learn → Build the Second Rung → Deepen → The Structural Choice), two rounds of deep
+business-plan research, a market/contribution-rate analysis, and a partially-drafted case-for-
+support document, all in `Ministry/Features/Funding-Strategy/`. This decision doesn't undo any of
+that — it's real material for whenever the "Learn" phase actually starts.
+
+**Concrete implementation, confirmed with Mark before acting:** `support.html` — live today with
+an active giving ask (specific dollar amounts, a CTA) — pulled from site navigation entirely
+(not converted to an interest-only page, not left up with the ask removed). Same pattern already
+used for `tour.html` earlier today: file kept on disk, not deleted, with a header comment
+explaining status and pointing to the Funding Strategy thread's real work for what happens next.
+
+**Executed:** removed the `Support` nav link (header + footer) from all 8 pages that carried it —
+`atlas.html`, `index.html`, `about.html`, `tour.html`, `pilot.html`, `pilot-thank-you.html`,
+`refer-a-friend.html`, and `support.html`'s own self-referencing nav entry. `world-map.html` and
+`world-atlas-list.html` never had a Support nav link, confirmed, nothing to do there. Added a
+header comment to `support.html` matching `tour.html`'s established pattern. Updated
+`cic-website/README.md`'s page listing to reflect the pulled status.
+
+**A genuinely reassuring discovery made while verifying this in the browser:** the other three
+threads dispatched today are visibly producing real work in the same shared working directory —
+`index.html`/`atlas.html`/`tour.html` all show a live, in-progress "world" → "tradition"
+terminology pass (Brand & Messaging Rework), `cic-website/data/world-census.json` is being edited
+(the Atlas thread's own migration-sketch first step), a new untracked `world-atlas.html` exists,
+and a new untracked `assets/world-icons/empire.svg` exists (very likely Marius's portrait, from
+the Icons & Graphics thread). None of this collided with today's nav edits — confirmed by reading
+the actual diffs, not assumed.
+
+**Next action:** none required for the nav pull itself. Whenever Mark returns to the Funding
+Strategy thread's "Learn" phase, `support.html` and its own header comment are the place to
+resume.
+
+---
+
+## 2026-07-22 (the real last one) — Tours fully descoped to Phase 2+, swept across the whole repo, nothing deleted
+
+**Mark's direction, verbatim:** "the more i look at this launch i am seeing the tours a feature of
+a second level tier that we won't build now, lets take all tour related content out of this
+launch, document what has, needs to be done and move it out of this build cycle in all documents,
+ux code etc." This supersedes the 2026-07-20 "wait until Friday" hold — Tour isn't paused, it's
+out of the current build cycle entirely, on the same footing as any other Phase 2+ idea.
+
+**Surveyed first, not assumed.** A repo-wide inventory (Explore agent) found Tour referenced across
+roughly 25 documents in five categories — standing tracking artifacts, UX/audit planning docs, two
+feature folders, `cic-website`, and cross-thread decision logs — plus confirmed the one fact that
+made this safe to execute at speed: **zero Tour code exists anywhere in `cic-poc`** (frontend or
+backend). The only real built artifact is a standalone demo (`Ministry/Features/Hosted-Tour/
+Design/`), never integrated into the live app or site. The survey also caught the one real
+confusion risk up front: `cic-website/world-map.html` has its own, separate, already-shipped
+"▶ Watch the flow" walkthrough that happens to share the word "tour" — flagged explicitly in every
+dispatch so it wouldn't get swept up by mistake. It wasn't.
+
+**Executed as three parallel bounded-cleanup dispatches** (same discipline as the earlier
+nonprofit-to-PBC cleanup — bounded/mechanical work, not a personal decision needing live
+exploration, since Mark had already decided everything; background delegation was the right call
+here):
+
+1. **Standing tracking artifacts** — `CiC_Task_Board_2026.md`: 11 not-yet-started TR items moved
+   into a new "🟣 PHASE 2+ / DEFERRED" section (verbatim, not summarized), 3 complete TR items
+   marked shelved-not-active, task #102 (Run Prototype 1) had Hosted Tour removed from its
+   dependency chain. `CiC_Acceleration_Gantt_2026.gan`: found 14 real Tour task IDs (not the ~6
+   estimated), renamed with `[DONE - shelved]`/`[DEFERRED - Phase 2]` prefixes, deferred tasks
+   pushed to a placeholder 2027 date, recolored per this file's own existing supersession
+   convention — verified still well-formed XML, zero duplicate IDs (re-checked independently, not
+   just taken on the agent's word). `CiC_Gantt_Visual.html` resynced to match. `CiC_Dashboard.html`
+   had its Hosted Tour status block reframed (real per-world verdicts kept visible, not deleted)
+   and — a genuine bonus find — fixed a pre-existing staleness bug where the Dashboard still showed
+   two already-DONE Tour items as open.
+2. **UX/audit planning docs** — banners added to 8 documents (5 audit docs, the approved Full UX
+   Design V1.0 and its Storyboard companion), each stating the Phase 2+ status without deleting the
+   underlying design work. Handled with real care: the Full UX Design's §5.5 (the Tour state
+   machine) and the world-click menu's Tour option were **not removed** — they're still the right
+   design for when Phase 2 happens — only banered, with a confirmation (not an assumption) that the
+   menu's Tour row already degrades gracefully to a placeholder/refusal state. Two files checked and
+   correctly left untouched because they already read as properly scoped.
+3. **Feature folders + website** — both `README.md` files (`Hosted-Tour/`, `Tour-Experience-Module-
+   Phase2/`) got a top-of-file Phase 2+ banner over otherwise-untouched content. `cic-website/
+   tour.html`'s header comment corrected (it previously implied "revisit after Friday," which
+   understated the new descope) — page content and its already-correct nav removal untouched.
+   `world-map.html` checked and correctly left alone — its two forward-looking Tour references
+   ("coming later," "a tour to come") were already open-ended and accurate, nothing to fix.
+
+**Verified, not just trusted:** independently re-parsed the edited `.gan` file (109 task elements,
+zero duplicate IDs) rather than accepting the agent's own self-check; spot-read the Task Board's
+new Phase 2+ section directly.
+
+**Nothing deleted anywhere** — every real research/design/build artifact (the strategy doc, the L4
+manifest template, the eligibility gate, the Chloe demo, the approved UX state machine) stays
+exactly where it is, just correctly labeled as not-current-cycle. Standing memory updated to match
+(`hosted-tour-deferred-until-friday` superseded, not deleted, same convention).
+
+**Next action:** none pending — this is complete. Whenever Phase 2 actually gets scheduled, the
+Phase 2+ section and both feature folders are the two places to start.
+
+---
+
+## 2026-07-22 (actually last) — Atlas Front-End Rebuild dispatched, build-plus-live-design hybrid
+
+**Mark's ask:** "we have a lot of work to do on the atlas, lets build a thread that will do the
+work needed. full redesign of the front-end." Scoped before dispatch, same discipline as every
+other thread today: build the already-decided 2026-07-20 Story/Choose-a-Tradition design, redesign
+fresh, or both. **He picked both** — build the settled backbone, stay open to real new territory as
+it surfaces.
+
+**Different in kind from today's other three dispatches:** Funding Strategy, Brand & Messaging
+Rework, and In-App Icons/Graphics are open design-exploration threads. This one inherits a design
+that is already fully decided and twice independently verified this session (the 2026-07-20 study
++ prototypes, and Mark's own unprompted re-description of the identical shape earlier today before
+he knew it existed) — so it's substantially a **build** thread, with room to escalate genuinely new
+design questions live rather than silently improvise past them.
+
+**Launch prompt written and published:**
+`Ministry/Operations/Standing/Launch-Prompts/CiC_Atlas_FrontEnd_Rebuild_Thread_Launch_2026-07-22.md`.
+Grounds the thread in what's real: the study's five DECIDED rulings, both working prototypes, the
+held `claude/world-map-merge-into-main` branch (real tested handoff code, checked out in a sibling
+directory easy to forget), and the migration order from the study's own §3.6. Flags two things
+this session surfaced that predate the design and need folding in: the census/prototype sample
+data still reflects 4 live worlds, not the 6 that exist as of today's Marius install; and this
+thread now owns IC-10 (the era-ground palette adoption), handed off from the Icons/Graphics thread
+dispatched earlier today. Carries the standing pacing rule up front, same as every thread today.
+
+**Next action:** Mark pastes the prompt into a fresh thread when ready. This work sits on the
+critical path to hosting, which stays deliberately held until content/UX work like this lands.
+
+**Mark's direction:** fix both flagged modes (`reevaluation` and `pastor-teacher`), not just the
+worse one.
+
+**Done:** both blocks fixed in `role_modes.py`, committed locally on
+`claude/representative-modes-exploration` (`4f15611`). Recreated the isolated worktree, ran the 8
+conversations matching the 4 concretely-identified defects, checked each directly against its
+original finding: 4 of 4 fixed, one (evidentiary thinness in one probe) meaningfully improved but
+not fully closed. Full detail in the feature's own Decision Log and the dated update section of
+`CiC_Representative_Modes_Battery_A_Results_2026-07-22.md` — this hub's log doesn't duplicate
+feature-design detail, per its own standing scope note.
+
+**Cleaned up again:** worktree removed, backend processes stopped, `main` untouched throughout
+both the original run and this fix pass.
+
+**Task Board updated** — RM-8 now shows fixed-and-spot-verified, explicitly not yet formally
+re-cleared (a full 25-conversation, blinded-graded re-run is the actual gate; the spot-check was a
+targeted regression test, not that).
+
+**Next action:** Mark's call, not decided here — authorize the full formal re-run (more live API
+spend) now, or treat the spot-verified fix as enough to move forward provisionally and re-run
+later.
+
+**Mark's direction:** run it now. This is the schedule-critical gate the Task Board named as
+blocking Increment 2, Increment 3, and the full-feature-set P1 launch decision — never before
+tested against a real model, mock-LLM only until this run.
+
+**Method:** checked out the code (unmerged, local-only branch `claude/representative-modes-
+exploration`) into an isolated git worktree — `main`'s substantial uncommitted work from earlier
+today (the Marius install, the port-collision fix, three new launch prompts) was never touched.
+Ran all 25 required conversations (5 probes × 5 arms) live. Graded exactly per the standing
+Validation Plan's own protocol: blinded content-invariance extraction (fresh subagents, never told
+which transcript was which arm) and a separate unblinded register-distinguishability check — the
+first pass of the register check came back honestly incomplete rather than guessing (it had full
+text for only 1.6 of 5 probes and correctly declined to grade the rest), so it was re-run to
+completion with the missing transcripts supplied.
+
+**Result: FAIL, and it's a real, well-evidenced one, not a coin-flip.** 3 of 5 probes failed
+content-invariance outright, 2 came back AMBIGUOUS with specific findings, zero passed clean.
+The failure has a clear shape and a clear owner: `reevaluation` mode dropped substantive content
+in every single probe it appeared in — not a register problem (the unblinded check confirms all
+four modes are genuinely, correctly distinguishable) but the underlying facts not surviving the
+trip into that mode specifically. Worst instance: it dropped the "this was never actually settled"
+disclaimer that four other arms all kept, converging on one falsely-confident answer instead —
+the exact failure this mode's own design brief exists to prevent, on the participant population
+(someone processing a broken-down belief) who can least afford to meet it. `pastor-teacher` showed
+milder, less clearly related issues in 3 of 5 probes.
+
+**Full account, matrix, and reasoning:**
+`Ministry/Features/Representative-Modes/Design/CiC_Representative_Modes_Battery_A_Results_2026-07-22.md`.
+Feature-level decision logged in that thread's own log, per this hub's standing scope boundary.
+
+**Cleaned up:** worktree removed, exploration-branch backend processes stopped, `main` and the
+exploration branch both untouched throughout.
+
+**Task Board updated** — RM-8 marked run (not silently left open, not falsely marked done-and-
+passed), real result recorded, Increment 2/3/P1 dependency chain still blocked pending the fix.
+
+**Next action:** the `reevaluation` prompt block in `role_modes.py` needs a content-completeness
+fix (register is already correct, don't touch it) before Battery A gets a clean re-run — that's
+real design/engineering work, not something to do silently inside this dispatch-and-track thread.
+
+---
+
+## 2026-07-22 (later still, after the Marius install) — In-App Icons & Graphics dispatched as a new dedicated creative thread
+
+**Mark's ask:** "i need a creative ux thread i can work with to design the icon and graphics
+inside the program." Same live-thread pattern as Funding Strategy and Brand & Messaging Rework
+— not a background agent, not done inside System Hub itself.
+
+**Checked for existing work before dispatching, same discipline as the last two dispatches:**
+found substantial real work already done in this exact space —
+`Ministry/Communication/Brand-Assets/` holds a governing spec
+(`CiC_World_Icon_and_Table_Template_Spec_V0_1.md`), five of six Representative portrait icons
+built and locked (source-verified per world, e.g. Papnoute's cracked jug, Theon's shared
+scroll), an approved ten-era color-ground palette, and the fully-built "Arriving" logo family.
+Real open items in that same workstream: a full-family review (IC-9), a demographic-reference
+artifact (IC-11), deferred tints (IC-12), and — new as of today — Marius has no icon yet since
+Church and Empire was installed after the five were locked.
+
+**Asked Mark to scope it rather than assume:** offered (a) finish the existing World-Icon
+workstream, (b) new general in-app UI graphics (untouched territory — buttons, loading/empty
+states, the tray), or (c) both as one thread. **He picked both, one thread**, on the reasoning
+that they need to read as one visual system regardless.
+
+**Launch prompt written and published:**
+`Ministry/Operations/Standing/Launch-Prompts/CiC_InApp_Icons_Graphics_Thread_Launch_2026-07-22.md`.
+Carries forward, explicitly: the anti-anachronism/source-verification discipline already proven
+on the five locked icons; the standing "no ghost" rule for any depicted figure (solid, opaque,
+no glow/backlighting — not up for reconsideration); the manuscript-pigment palette as the
+grounding language for new UI graphics; and — stated first, before anything else in the
+document — Mark's own newly-set pacing rule (one issue at a time, options not single drafts,
+small steps), since this is a creative thread that will otherwise be exactly the kind of
+decision-dense work he flagged as overwhelming. Directs the thread to start a proper dated
+`Decision-Log.md` in `Brand-Assets/` (doesn't exist yet; that workstream has only used one-off
+status-update documents so far).
+
+**Next action:** Mark pastes the prompt into a fresh thread when ready.
+
+---
+
+## 2026-07-22 (later still, after the port investigation) — Church and Empire installed as the sixth live world, worked one decision at a time, verified end-to-end in a real browser session
+
+**Picked as the next single Task Board item** (Mark: "give me the single next item"), skipping
+items gated on Mark's own real-world action (accounts, a pastor conversation, calendar entries)
+or explicitly HELD — this one was fully built, mechanical, and previously offered but never
+answered.
+
+**Two small decisions surfaced first, one at a time, per Mark's own newly-stated working
+style** (see `feedback-one-decision-at-a-time` memory, saved this session): the `representative_title`
+and the manifest color.
+
+- **Title:** grounded directly in Marius's own Permanent Prompt line 1 ("a deacon, entrusted
+  with carrying letters and hearing petitions between the great sees"). Offered three English
+  options; Mark asked "what would be the proper historical term" instead. Answered:
+  **Apocrisiarius** — the real, well-attested Late Antique office for exactly this role (a
+  deacon-legate carrying correspondence between sees or to the imperial court; Gregory the
+  Great's own pre-papal office). Confirmed not already named in this world's own build
+  documents (Doc_09/Step 10 ground the *role* thoroughly but never this specific term) —
+  disclosed as new, not pre-vetted. Mark chose **"Apocrisiarius — Deacon of the Letters."**
+  Logged as a real, open construction gap (not silently absorbed): added as item 15 in
+  `World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md` — this term isn't yet a
+  proper Deployment Lexicon chunk with the citation discipline the world's other 12 terms have,
+  and should get one before being treated as fully covered.
+- **Color:** shown as actual rendered swatches (visualize widget), not hex codes alone, against
+  the five existing worlds' colors for context — Mark: "oxblood it looks empire." **`#7A2E2E`.**
+
+**Built:** data files copied to `cic-poc/backend/data/imperial_juridical_world/` (Permanent
+Prompt, World Capsule Core, 12 lexicon chunks, 6 story chunks — 20 files, verified against the
+source directory's own file list); one new `WorldManifestEntry` added to `world_manifest.py`
+(`world_description`, `representative_description`, `representative_intro`, and
+`facilitator_cautions` all drafted from real content directly read in the world's own Doc_01,
+Step10 Phase 1-2, and Open_Gaps documents — period c. 312–451 CE and region Rome/Constantinople/
+Milan pulled verbatim from Doc_01 §1, not guessed); `SpeakerName` union
+(`types/conversation.ts`) and `REPRESENTATIVE_NAMES`/switch statement (`MessageBubble.tsx`)
+synced — grepped the frontend first to confirm these really are the only two hand-synced
+points, per the manifest file's own docstring claim, rather than trusting the comment blind.
+
+**Verified, not just built — four independent checks:**
+1. `ast.parse` + a real Python import of `world_manifest.py` — world count 5→6, new entry's
+   fields readable, no encoding corruption (a console-display artifact briefly looked like one;
+   ruled out with `repr()` under `PYTHONIOENCODING=utf-8`).
+2. `tsc --noEmit` clean on the frontend after both edits.
+3. `scripts/index_documents.py` run for all 6 worlds — "Church and Empire: lexicon loaded
+   successfully," 12/12 files parsed, vector store saved to `vector_store/ijc`.
+4. **Full live browser session**, backend + frontend both actually started (respecting the new
+   port-collision guard from the earlier investigation this session): onboarding → world
+   selector shows "Church and Empire" as the sixth tile with correct color/title/description →
+   selected Marius → session started → Facilitator introduced him correctly → sent a real
+   message ("whose claim binds the others when a see's own rank is disputed?") → got a genuine,
+   well-grounded in-character response (Rome's apostolic-grave claim vs. Constantinople's Canon
+   3/28 claim vs. Milan's Ambrose-at-the-altar stand, Leo's Tome, Chalcedon's actual unresolved
+   outcome, correct multi-strand "we" voice throughout). Servers stopped and scratch files
+   cleaned up after.
+
+**Task Board updated** (item marked DONE in place, full account preserved).
+
+**Next action:** none required for the install itself — it's live in `main`'s working tree, not
+yet deployed anywhere (consistent with every other world; hosting is still HELD per the
+2026-07-20 sequencing decision). The Apocrisiarius lexicon-chunk gap is real, tracked, and
+belongs to whoever next picks up this world's construction thread, not to System Hub.
+
+---
+
+## 2026-07-22 (even later) — Content-isolation defect: leading cause found and reproduced, dev-server guard shipped and verified
+
+**Mark's direction:** keep digging on the 2026-07-20 content-isolation defect (top item on
+the Task Board's DO NOW list) rather than accept the standing mitigation as good enough.
+
+**Started from a real, already-recorded clue rather than from scratch.** The 2026-07-20
+mobile-popover-fix thread had independently found a live `cic-poc-backend` process from
+another session still bound to port 8000, with a second process also able to bind it and
+"requests routing unpredictably between the two" — flagged at the time as connecting to the
+content-isolation incident but explicitly "not investigated further" (out of that thread's
+scope).
+
+**Chased it. Confirmed the mechanism directly in the installed code, not from memory of how
+it should work:** `cic-poc/backend/venv/Lib/site-packages/uvicorn/config.py:583` —
+`sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)`, set unconditionally on every
+bind, no config flag disables it.
+
+**Reproduced the actual failure mode live on this machine**, not just cited as known Windows
+behavior: two independent Python listeners both successfully bound `127.0.0.1:18453`, second
+one included, zero error, normal-looking startup. Fired 8 sequential requests — **all 8**
+went to whichever process bound first; the second, equally "listening" process served zero.
+Killed the first process while the second stayed alive and listening: **new connections did
+not fail over — they simply timed out**, even though `Get-NetTCPConnection` would still show
+the port as LISTENING via the second process. Cleaned up all test processes/files after.
+
+**Honest calibration on what this does and doesn't prove:** this is not confirmed as *the*
+cause of the specific 2026-07-20 incident — the stale process involved that day is gone and
+its identity can't be reconstructed after the fact. What it is: a real, reproduced, silent
+failure mode on this exact machine, general enough to explain the symptom shape well — a
+"fresh" server that actually receives zero traffic while something stale (plausibly not even
+a `cic-poc` process at all — the leaked content read as unrelated-context AI output, not
+anything this app's own prompts would produce) answers instead. Recorded as the leading
+candidate, not as solved.
+
+**Shipped and verified, not just diagnosed:** `cic-poc/backend/check_port_free.ps1` (new) —
+checks whether the target port already has a listener before uvicorn starts; if so, names the
+owning process and PID and aborts with a clear message instead of silently binding alongside
+it. Wired into `cic-poc/backend/run_dev.cmd`. **Verified both directions, live:** with a stale
+listener present, the script correctly reports the PID and aborts before uvicorn ever starts;
+with the port genuinely free, it exits clean and silent, uvicorn starts normally. Dev-only —
+does not touch `main.py`'s direct `uvicorn.run()` path or production (Render/Fly.io containers
+are one process each; this hazard doesn't exist there).
+
+**Task Board updated** (the DO NOW item, in place, original 2026-07-20 investigation preserved
+below the new finding rather than overwritten).
+
+**Next action:** none required — this is a real mitigation for a real machine-level hazard,
+shipped and verified. If the defect recurs despite the guard (e.g., from a process that was
+already running before the guard could check it), the `[llm_trace]` logging from 2026-07-20
+is still in place and is now the next diagnostic layer.
+
+---
+
+## 2026-07-22 (later still) — Deployment path answered; Atlas redesign found already-decided (not built); Brand & Messaging Rework dispatched as a new live thread
+
+**Deployment step-by-step given.** Local run has no blockers (README's existing path).
+Real hosted deployment: confirmed nothing is deployed anywhere yet, deliberately —
+hosting is HELD per Mark's 2026-07-20 direction until content/UX work lands first. The
+one remaining real blocker is Mark creating a Render/Fly.io account himself (off-limits
+for Claude); Supabase is skippable for Pilot 1 (decided 2026-07-20, no sign-in in the
+simplified pilot). Dockerfile is already correct and ready.
+
+**Atlas redesign: Mark re-described a design that was already fully studied, prototyped,
+and DECIDED by him on 2026-07-20** — the "one era per screen, all its worlds together,
+scroll to the next, hover/tap for more" shape he asked for today is "The Story" surface
+from `Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Usability_Redesign_Study_2026-07-20.md`,
+ruled on the same day (five decisions, see that folder's `Decision-Log.md`). Two working
+prototypes exist, verified live in-browser. Nothing has been built yet — only the study
+and prototypes. **Fixed a stale line found in the process:** `Integration-Notes.md` still
+called the Tier A/B question undecided; corrected to point at the actual 2026-07-20
+ruling (two linked surfaces, not either/or).
+
+**Brand & Messaging Rework dispatched as a genuinely separate thread — same model as
+Funding Strategy, not a repeat of that thread's two false starts.** Mark: *"im still not
+happy with the website layout and messaging. the entire brand and messaging guide and
+implimentation needs to be reworked."* Before dispatching, surfaced that this wasn't a
+blank-slate ask — three real bodies of unfinished work already exist on exactly this
+(`CiC_Messaging_Branding_Kit_V0_1_DRAFT.md`, never given its markup pass since
+2026-07-17; `CiC_Website_Messaging_Structure_Plan_2026-07-20.md`, still "DRAFT, awaiting
+Mark's markup," never actually worked page-by-page; and this session's own live
+`support.html`/`about.html` edits, which must not be re-litigated) — and asked Mark
+directly which part was the real problem rather than assuming. **He picked two: the
+structure plan never got worked, and the Kit's rules themselves** (not just their
+application) — and confirmed the dedicated-thread model over doing it live in System
+Hub. Launch prompt written and published:
+`Ministry/Operations/Standing/Launch-Prompts/CiC_Brand_Messaging_Rework_Thread_Launch_2026-07-22.md`.
+Folder created: `Ministry/Features/Brand-Messaging-Rework/` (empty, awaiting the thread's
+first Decision Log entry).
+
+**Next action:** Mark pastes the Brand & Messaging launch prompt into a fresh thread when
+ready. Separately, his call whether to greenlight starting the Atlas build now (extract
+census JSON → build the Story surface → swap into live `atlas.html`) — offered, not yet
+answered.
+
+---
+
 ## 2026-07-22 (later) — Closed the .docx blind spot in the 2026-07-21 nonprofit-to-PBC cleanup: 9 files checked, 4 edited, 2 flagged, verified through three independent parsers before anything was overwritten
 
 **What this closes:** a real gap in the 2026-07-21 cleanup, found and dispatched by the Funding Strategy thread — that sweep ran on a repo-wide grep, and grep cannot see text zipped inside a `.docx`'s XML. Confirmed directly: every one of the 43 files that cleanup's own completion entry lists is `.md` or `.html`. Zero `.docx` files were ever checked.
@@ -3215,3 +3718,205 @@ any real participant seeing either.
 **Directions given for the broader pass, so it doesn't become an unbounded rewrite:** sort every hit into three buckets — (1) dated decision-log entries, which are correct history and must NOT be rewritten, only annotated with a dated addendum if needed; (2) standalone wholesale nonprofit-only documents (the old nonprofit Articles draft, the old CO filing package), which get a superseded-banner, not deletion; (3) live/mixed documents with one stale status line inside otherwise-current content, which get a surgical fix only. Explicitly out of scope: any broader copy/voice rewrite beyond correcting factual entity/tax-status claims — flagged back to Mark rather than decided unilaterally if a real content choice (not just a fact fix) comes up.
 
 **Completion criteria set:** a dated audit entry in this log listing every file touched and which bucket it fell into (same pattern as the 2026-07-20 Filing System Audit), plus a direct report to Mark on the `support.html` fix specifically before the thread considers itself done.
+
+---
+
+## 2026-07-22 (later) — Brand & Messaging Rework thread: a long live session, paused with the live site fully updated, deployment unblocked
+
+**Dispatched** from this hub per Mark's direct ask to rework both the Messaging &
+Branding Kit's own rules and the site's structure/messaging — full record in
+`Ministry/Features/Brand-Messaging-Rework/Decision-Log.md`, which carries all the
+reasoning; this entry is the sync point for the Task Board, Gantt, and relaunch
+checklist, not a duplicate of that log.
+
+**Closed in that thread, tonight, all applied to the live site and verified in the
+browser:** all six of the Kit's original protected lines revised (the doorway line,
+the measurement/impact line, the "What it actually is" beat, the record/silence line,
+the hero hook, and the documented-witness/testimony line) — each worked as a real
+live decision with Mark, not a batch edit; a new standing Kit rule on capital-vs-
+lowercase "Church," a first-mention "Christian tradition" convention, and a full
+theological principle ("Report freely, credit rightly") worked from Scripture at
+Mark's own request and added to the Kit; the landing-page-copy draft's AI-trust
+section fully rebuilt around real product architecture instead of restated refusals;
+and a corpus-wide sweep replacing "world" with "tradition"/"Christian tradition" in
+every external-facing spot across the live site, `world-census.json`, and its two
+embedded duplicate datasets in `world-map.html`/`world-atlas-list.html` — the one
+piece of this that carried real technical risk (status strings doubling as both
+display text and matching keys) turned out, on inspection, not to require touching any
+matching logic at all.
+
+**Also reworked, not yet pushed live (still in the draft `.md` documents, not on the
+live site):** the FAQ refresh, the positioning brief, and a full rebuild of all three
+elevator speeches (1-minute, 3-minute, 5-minute) — including catching that their
+shared opening hook ("mistaking a doorway for the whole house") was itself a false
+comparison, fixed identically across all three lengths.
+
+**Paused, deliberately, at Mark's direct call:** "website deployment is not dependent
+on these... its not urgent and getting the website up is." Confirmed on inspection,
+not just accepted at face value — everything actually touching a live web page is
+done; what's left open (a handful of remaining retired-line instances, one missed
+heading, the deeper vocabulary/structure pass) lives entirely in reference documents
+(FAQ, elevator speeches, positioning brief, the never-published landing-page draft)
+that don't ship with a deployment.
+
+**Relevant to the relaunch checklist:** the brand/messaging work that was blocking
+"final refinements" before relaunch is **no longer a blocker** — the live site's
+language is current, consistent, and Kit-aligned as of tonight. Nothing on the
+Gantt/Task Board needs to change to reflect this (no task ID here was tracking this
+thread specifically, per the last sync above), but any relaunch-readiness check should
+no longer treat brand/messaging as an open dependency.
+
+**Next action:** website deployment work takes priority, per Mark. The Brand &
+Messaging Rework thread stays open and resumes on its own timeline — the punch list of
+what's left is fully recorded in its own decision log, nothing here needs to be
+re-derived.
+
+---
+
+## 2026-07-22 (later still) — Atlas Front-End Rebuild thread: Wall Chart + Research Table consolidated, the live-world data-drift bug killed at its root, ordering and "floor" jargon fixed across all three surfaces; Choose a Tradition still ahead
+
+**Dispatched** per Mark's own launch prompt to build the already-decided Atlas
+redesign (the 2026-07-20 Usability Redesign Study's Story/Choose-a-
+Tradition/Wall-Chart split) while staying open to real gaps the study didn't
+cover. Full reasoning, every individual decision, and every verification step
+for everything below is in `Ministry/Features/Atlas-World-Map/Decision-Log.md`
+(now a long, dense file — this entry is the sync point, not a substitute for
+reading it if the detail matters).
+
+**Closed this session, all applied to the live site's `cic-website/` files and
+verified in the browser at each step:**
+
+- **The census's live-world-count drift bug, fixed at its root, twice over.**
+  Church and Empire/Marius (installed 2026-07-18/22, the sixth live world) was
+  still showing as "Selected - Not Yet Built" in `world-census.json` — the
+  exact "N vs N+1 live worlds" drift this feature exists to prevent, now
+  caught a third time. Fixed directly in the shared JSON (status, live count,
+  icon copied from Brand-Assets) rather than in each page that reads it.
+- **The Wall Chart (`world-map.html`) and Research Table
+  (`world-atlas-list.html`) consolidated into one document,
+  `cic-website/world-atlas.html`,** with a `#chart`/`#table` view toggle, both
+  views now reading the shared census live instead of each carrying its own
+  independently-stale embedded copy — the root cause of the drift bug above,
+  removed structurally so it can't recur on these two surfaces. Old files
+  archived (moved, not deleted) to
+  `Ministry/Features/Atlas-World-Map/Drafts-Archive/`; all in-site links
+  repointed; verified live end to end (178/178 entries render on both views,
+  all six live worlds correct, search/filter/zoom/tour/tray all still work).
+- **Real ordering bugs found and fixed**, not just cosmetic: two census
+  entries' numeric `start`/`end` years (added this session so entries could
+  sort chronologically at all) were wrong relative to their own display text;
+  a `laneOrder||60` fallback silently miscategorized the Origin lane because
+  `0` is falsy in JavaScript, sorting the project's earliest entries near the
+  bottom; and — per Mark's explicit, deliberately different call — the
+  vertical Story view now flattens every era's entries into one date-sorted
+  sequence across lanes (lane still shown inline on each row), while the Wall
+  Chart keeps lane-grouping, since its compact bands need the structure the
+  Story's fuller rows don't.
+- **"Beyond the Floor" renamed "Non-Nicene Traditions," and the same "floor"
+  jargon traced and fixed everywhere it surfaced** — the section title, its
+  description, 19 movements' own lane tags, a click-through detail heading
+  shown on all 178 entries, a filter chip, a summary tally, footer copy, and —
+  found only because it lives in the shared census, not a page — the
+  `statusMeta` labels for two whole status categories ("Floor Question
+  (register)," "Excluded - Doctrinal Floor (C1)"), mirrored into the Wall
+  Chart's own hardcoded copy per Mark's explicit yes. Deliberately left alone:
+  the status *keys* themselves (internal taxonomy with Methodology-defined
+  "C1"/"C2" criterion codes) and the Research Table's badge, which shows the
+  raw formal status on purpose — that surface's whole job is scholarly
+  precision, not friendliness.
+
+**Not started this session, and the clear next step once this thread
+resumes:** "Choose a Tradition," the in-app selector — the one piece of the
+2026-07-20 design that's still fully unbuilt. Checked before naming it as
+next, not assumed: `cic-poc/frontend` still has zero references to
+atlas/world-map, and the `claude/world-map-merge-into-main` branch (which
+already has the real app↔map handoff wiring — `WorldSelector.tsx`, the
+`/?worlds=<id,id>&mode=<interview|table>` contract) is still only 2 commits
+behind `main` as of today, so rebasing it stays cheap. Building this is a real
+gear-shift from everything above: a different codebase (the React/TypeScript
+app, not the static site), a rebase first, then the actual selector screen
+(live-world cards first, census-wide search second, per the standing
+decision) built on top of it. Also noted, low-priority: the sibling worktree
+directory once mentioned for that branch
+(`C:\Users\mchad\Documents\CiC-Project-worldmap-merge`) no longer exists —
+presumably already cleaned up; the branch itself is still here in the main
+repo, unaffected.
+
+**Relevant to hosting readiness:** this thread's launch prompt named it as
+sitting directly on the critical path to hosting. The Story/Wall-Chart/Table
+trio is now internally consistent and drift-resistant, which is real
+progress toward that — but Choose a Tradition, the in-app piece, hasn't
+started, so this thread is not done and hosting readiness shouldn't treat the
+Atlas as finished on the strength of this session alone.
+
+**Next action:** Mark decides whether this thread starts Choose a Tradition
+next or something else takes priority first. If it starts, the rebase of
+`claude/world-map-merge-into-main` is the concrete first step.
+
+---
+
+## 2026-07-22 (later still) — In-App Icons & Graphics thread: Marius locked, the Living Table redesigned and its first real slice built into `cic-poc`; a world-tile ordering bug found and fixed
+
+**Dispatched** per Mark's own request for "a creative UX thread I can work with to
+design the icon and graphics inside the program," run live, one decision at a time —
+full reasoning, every design round, and every verification step in
+`Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`; this entry is the sync
+point, not a substitute for that log if the detail matters.
+
+**Icon workstream closed out:** Marius (Church and Empire, the sixth live world)
+designed and locked — a leather-strapped scroll-case, orarion, oxblood robe, each
+choice source-verified against his own Permanent Prompt. IC-9 (full-family review)
+re-run across all six for the first time (2026-07-18's run only covered five) — one
+real finding, and a correction to how it was first read: Marius's skin/hair tone
+closely matching two other icons was initially flagged as a spread problem to fix;
+**Mark corrected the underlying principle directly — accuracy to a world's actual
+population matters, a manufactured "differentiated spread" does not** — the near-match
+reflects genuine shared late-antique Mediterranean population overlap across his three
+sees, kept as drawn. Built into `Brand-Assets/World-Icons/empire.svg`, spec §7e added.
+
+**The Living Table scene — designed live across many rounds, then built for real.**
+Found the actual running app had never implemented this scene at all (only a minimal
+text status bar existed); redesigned the table itself (a filled roundish table with a
+thick rim, Mark's direct call, superseding the spec's old thin-arc model); found and
+fixed two real implementation bugs only catchable by building actual verification
+tooling this session (a local preview server + direct DOM measurement, since
+screenshot/compositing isn't available here) — the table was drawing **behind** the
+figures instead of in front of them (backwards since round 2), and the nameplate's
+light/dark states were hand-painted per instance rather than one real toggleable class.
+**A real, flagged departure from the icon spec:** every Representative's held object
+moved off the body and onto the table surface in front of them, per Mark's direct
+call — not the spec's §7a "cradled at the chest" rule, and not yet reconciled in the
+spec document itself. Phone's corner speaker-chip + load-greeting built as first
+passes. All five of the mockup phase's own plan steps closed.
+
+**Phase 2 (the real build) started, not finished:** `LivingTableScene.tsx` +
+`worldIcons.tsx` (all six icons' path data, keyed by real `world_id`) + `BrandMark.tsx`
+now exist in `cic-poc/frontend`, wired into `TheTable.tsx` (speaking-state derived from
+real message-stream state, no new backend work needed) and `table.css`. The old
+table-bar's colored-dot/name list — confirmed unused elsewhere first — replaced with
+just the static brand mark, per Mark's direct answer to the one open design question
+("just the logo is fine"). Verified by clean `tsc --noEmit`, no console errors, and
+hand-confirming the geometry formulas reproduce the mockup's own tuned values exactly.
+**Not yet done:** an actual live look at the seated scene in a real conversation — the
+backend appeared unresponsive for most of the session and was wrongly reported as such;
+it later turned out to just be slow to finish loading, confirmed serving real data on a
+later check, but the live visual check itself hasn't been re-run since.
+
+**Separately, a real bug found and fixed:** the world-selector tiles had no ordering at
+all (whatever order the backend happened to return). Now sorted by each world's own
+documented start year, extracted from its `period` field. Verified against the real six
+worlds' own manifest data: House-Churches (70) → Alexandria (150) → Syriac (200) →
+Church and Empire (312) → Desert (320) → Bethlehem Circle (382) — two corrections to
+dates assumed earlier in this same session (Alexandria starts earlier than guessed;
+Church and Empire slightly precedes the Desert, not follows it).
+
+**Not done, flagged rather than assumed:** IC-11/IC-12 (demographic-reference artifact,
+deferred tints) untouched; the icon spec's own §7a "cradled at chest" language still
+contradicts the now-decided "objects rest on the table" rule and needs a documented
+reconciliation pass, not just this log entry; phone's two screens are mockup-only,
+not yet built into the real app.
+
+**Next action:** live-verify the real `LivingTableScene` build in an actual
+conversation now that the backend is confirmed responsive, then continue Phase 2
+(remaining pieces per the feature log's own status section) or move to whichever
+System Hub priority Mark names next.
