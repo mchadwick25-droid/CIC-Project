@@ -1,5 +1,11 @@
 # Hosted Tour (Phase One)
 
+> **Status: Descoped to Phase 2+ (2026-07-22).** Per Mark's direct decision, tour
+> work is out of the current build cycle — not part of this launch. Everything
+> below is kept as an accurate historical/status record of what was built and
+> designed; it is not being touched, and no further tour integration proceeds
+> until this is explicitly reprioritized.
+
 **What this is:** a built, self-contained immersive demo — the Representative walks a
 participant through a reconstructed moment of their world (a gathering, a shared
 meal) rather than only answering questions. Built and verified for one world

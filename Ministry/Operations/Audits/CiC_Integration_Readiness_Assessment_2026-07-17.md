@@ -29,7 +29,13 @@ explicitly disclosed as untested by the branch's own notes.
 
 **Not in this diff at all** (tracked separately as the validation queue, still needs its own gate before it can even be considered for a future merge):
 - Representative Modes (needs Battery A — live-model validation, never yet run)
-- Hosted Tour (needs the builder machine built, then Chloe manifest + voice sign-off)
+- ~~Hosted Tour (needs the builder machine built, then Chloe manifest + voice
+  sign-off)~~ **DEFERRED TO PHASE 2 — not part of the current build cycle
+  (2026-07-22).** Mark decided Hosted Tour is a second-tier (Phase 2+) feature, not
+  something this launch builds, and directed that all Tour-related content be taken out
+  of the current build cycle across documents, UX, and code planning. No longer part of
+  the validation queue this document tracks; kept as the record for when Phase 2 takes
+  this up.
 - Front-End Integration Strategy Increments 2-4 (role selection, question serving, map merge — only Increment 1's citation piece has any code yet, via cluster 7 above)
 - Guided Questions V1.0 (content review + first live-model validation)
 
@@ -98,7 +104,7 @@ explicitly disclosed as untested by the branch's own notes.
 5. Mark's Governance V3.7 ruling (cheap — mostly a decision, code already tested)
 6. Orchestration/retrieval regression pass + citation-UI-vs-strategy check
 7. Scroll-fix live confirmation
-8. Everything still outside this branch entirely: Hosted Tour builder machine, Front-End Increments 2-4, Guided Questions live-validation (all already tracked, all gated behind their own work before they're even candidates)
+8. Everything still outside this branch entirely: ~~Hosted Tour builder machine,~~ Front-End Increments 2-4, Guided Questions live-validation (all already tracked, all gated behind their own work before they're even candidates). **Hosted Tour removed — DEFERRED TO PHASE 2 (2026-07-22); see the "Not in this diff at all" list above.**
 
 **What this order optimizes for:** get the safety-critical, already-mostly-tested
 clusters (1-3) fully pilot-ready first, since they're the closest to done and the

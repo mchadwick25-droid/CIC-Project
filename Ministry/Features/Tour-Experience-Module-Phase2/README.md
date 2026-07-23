@@ -1,5 +1,12 @@
 # Tour Experience Module (Phase Two)
 
+> **Status: Descoped to Phase 2+ (2026-07-22).** Per Mark's direct decision, tour
+> work is out of the current build cycle — not part of this launch. This was
+> already a Phase Two, pre-build planning concept; this banner confirms that
+> gating explicitly and applies it across the whole project, not just this
+> folder. Everything below is kept as-is — accurate planning/status record, not
+> something to rewrite.
+
 **What this is:** an unbuilt Phase Two product concept — a broader "hosted
 experience" mode design, distinct from and later-stage than `Hosted-Tour/`'s Phase
 One built demo. Governs itself by the same evidentiary discipline as the rest of the

@@ -146,6 +146,13 @@ a configuration one.
 
 ## 8. Hosted Tour
 
+**DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22).** Mark
+decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+builds, and directed that all Tour-related content be taken out of the current build
+cycle across documents, UX, and code planning. The "blocked behind Increments 1 and 2"
+framing below is now moot — Tour isn't in this launch's queue at all, not just waiting
+its turn. Kept below as the status record for when Phase 2 takes this up.
+
 **Real, richly-built standalone demo (960KB, embedded fonts/images/audio), zero connection
 to `cic-poc`.** A real scene (Justin Martyr's Sunday gathering) fully produced. Its own
 integration note states plainly: "Nothing here has been wired." Actual `cic-poc` integration

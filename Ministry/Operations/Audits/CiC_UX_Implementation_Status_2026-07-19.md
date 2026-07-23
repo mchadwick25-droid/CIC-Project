@@ -60,6 +60,12 @@ typed question goes straight into the Table.
 ### S4 — The Table (the actual conversation) — see §3 below, the bulk of today's work
 
 ### S4-tour — Hosted Tour
+**DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22).** Mark
+decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+builds, and directed that all Tour-related content be taken out of the current build
+cycle across documents, UX, and code planning. Kept below as the status record for when
+Phase 2 takes this up.
+
 Chloe demo built, self-contained; not reachable from the real conversation flow.
 Unchanged today.
 
@@ -171,8 +177,9 @@ path), the real remaining list, roughly in the order it actually unblocks:
 6. Once Battery A passes + Increment 1 lands: **Increment 2** (role selection) merges.
 7. Once Increment 2 lands + Guided Questions content is validated: **Increment 3**
    (the actual question-sheet UI).
-8. **Hosted Tour integration**, **Question-First Entry**, **Guided Onboarding** — all
-   fully designed, zero code, none hard-blocking the others.
+8. ~~**Hosted Tour integration**,~~ **Question-First Entry**, **Guided Onboarding** — all
+   fully designed, zero code, none hard-blocking the others. **Hosted Tour removed —
+   DEFERRED TO PHASE 2 (2026-07-22); see §S4-tour above.**
 9. **Push today's three fixes** (the crash, Alexandria, and whatever comes out of #2) to
    origin — currently local-only.
 

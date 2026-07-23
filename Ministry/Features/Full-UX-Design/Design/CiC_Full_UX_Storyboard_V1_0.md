@@ -281,6 +281,19 @@ dots stay in the bar [DECIDED — icon spec §1a-phone; phone mockup approved 20
 ### S4-tour — a mode of S4, not a surface [DECIDED — TourStrat V0.3; BUILT as a
 self-contained Chloe demo only; TR-14 integration NOT built]
 
+> **DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22).** Mark
+> decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+> builds, and directed that all Tour-related content be taken out of the current build
+> cycle across documents, UX, and code planning. **This storyboarded design stays
+> documented as-approved below** — not removed, since it's still the right design for
+> when Phase 2 takes this mode up. **The world-click menu's Tour row (2.5, above)
+> already degrades gracefully for the current build**: "honest visible placeholders,"
+> and for a non-qualifying/unavailable world "the row itself answers plainly" with the
+> refusal rather than opening anything — so it should currently render in that
+> not-yet-available/refusal state, not as a live entry point, until Phase 2 actually
+> builds this mode. No design change needed; it already assumed Tour might not be
+> available.
+
 Entry only by consent (the S2 Tour row, or the 4.8 invitation). Acceptance passes the
 **threshold stop** — *what this is / what it's built from / what it will not claim* — with
 the source cartouche, before any mode shift. Chrome = exactly three: the **register
@@ -462,7 +475,7 @@ Everything else in this storyboard is design, content, or branch work:
 | World Map Tier A | **built & verified on branch**, closest to ready; Tier B open |
 | Representative Modes (role) | built on branch, mock-verified only; **Battery A never run — the gate**; rename RESOLVED (2026-07-18) |
 | Guided Questions | content V1.0 complete; **zero UI code**; Increment 3, hard-depends on role |
-| Hosted Tour | Chloe demo built (self-contained); TR-4..15 pipeline + integration not built |
+| Hosted Tour | Chloe demo built (self-contained); TR-4..15 pipeline + integration not built. **DEFERRED TO PHASE 2 (2026-07-22) — not part of the current build cycle; see §S4-tour above.** |
 | Question-First backend | design note only; no build |
 | Anachronism bridge · Sensed closing sequence | built world-agnostic, live-tested; **merge-gated only** (P1 rule) |
 

@@ -146,10 +146,15 @@ more ready than "too early to assess":
 
 ### 8. Further back in the queue
 
-- **Hosted Tour** — Chloe demo built and self-verified (2026-07-16), but the
+- **Hosted Tour** — ~~Chloe demo built and self-verified (2026-07-16), but the
   *repeatable builder machine* (TR-4 through TR-9) that would let it scale to other
   worlds is still in progress; per-world manifests for Syriac/Desert/Bethlehem Circle
-  not yet built.
+  not yet built.~~ **DEFERRED TO PHASE 2 — not part of the current build cycle
+  (2026-07-22).** Mark decided Hosted Tour is a second-tier (Phase 2+) feature, not
+  something this launch builds, and directed that all Tour-related content be taken out
+  of the current build cycle across documents, UX, and code planning. Status above kept
+  as the record for when Phase 2 takes this up; it's no longer part of "the queue" this
+  document is ranking.
 - **Question-First Entry** — design note exists, no build started.
 
 ---
@@ -231,12 +236,14 @@ as the Tier 0 items above.
 
 ### Tier 2 — depends on Tier 1 landing, or deliberately sequenced after it
 
-- **Hosted Tour's `cic-poc` integration (TR-14)** — the feature-queue's own ordering
+- ~~**Hosted Tour's `cic-poc` integration (TR-14)** — the feature-queue's own ordering
   sits this behind "the front-end IA pass" (Increment 1), most plausibly because a
   tour invitation card competes for the same contextual-card slot Increment 1's
   clutter budget establishes. The **builder machine (TR-4 through TR-9)** has no such
   dependency and can be built now, in parallel with everything above — only the final
-  app-wiring step waits.
+  app-wiring step waits.~~ **DEFERRED TO PHASE 2 (2026-07-22) — see §8 above; Hosted
+  Tour is no longer part of this integration queue at all, not just sequenced behind
+  Increment 1.**
 - **Question-First Entry** — sequenced after Tours by the original queue choice, and
   conceptually leans on the Map's world-data model (Tier 1 seed data already exists as
   World Coverage Cards) — but the Map itself is Tier 0 and doesn't block this from
@@ -258,9 +265,9 @@ as the Tier 0 items above.
 5. **Once Increment 2 lands + Guided Questions content is validated:** Increment 3
    (the actual UI build) — this is the only step that's genuinely waiting on two
    upstream tracks converging.
-6. **Hosted Tour's app-wiring and Question-First Entry** follow at their own pace,
-   each gated more by their own remaining build work (the builder machine; nothing
-   yet) than by anything above.
+6. ~~**Hosted Tour's app-wiring and**~~ **Question-First Entry** follow at their own
+   pace, gated more by their own remaining build work (nothing yet) than by anything
+   above. **Hosted Tour removed — DEFERRED TO PHASE 2 (2026-07-22); see §8 above.**
 
 ---
 

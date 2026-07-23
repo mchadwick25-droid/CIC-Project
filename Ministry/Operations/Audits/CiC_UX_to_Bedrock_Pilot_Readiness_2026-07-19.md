@@ -32,6 +32,20 @@ hosting/pilot is entirely build → validate → merge, not design.**
 > way) — §4 and §5 are revised accordingly, with the original minimum-viable framing kept
 > underneath as the reasoning trail, not deleted, per this project's standing practice of
 > not hiding a revision.
+>
+> **DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22):** Mark
+> decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+> builds, and directed that all Tour-related content be taken out of the current build
+> cycle across documents, UX, and code planning. **This removes Tour as a P1 dependency
+> everywhere below that named it as one** — the Tier 2 Hosted Tour item in §2, decision
+> item 4 and the Tour-builder-machine execution bullet in §3, the "Hosted Tour" bullet
+> and Tier-2 sentence in §4, the Tour references in §4a's reasoning trail, and steps 3,
+> 6, and 7 of §5 (including the "Run P1 once everything above is in" gate, which no
+> longer needs Hosted Tour). Everything else in this report — Sections 1–3's
+> design-completeness claims, and the rest of the full-feature-set decision
+> (Representative Modes, Guided Questions, Question-First Entry, Guided Onboarding, the
+> Living Table) — is unaffected. Left in place below as the reasoning trail for when
+> Phase 2 takes Tour up, not deleted.
 
 ---
 
@@ -200,8 +214,9 @@ P1 now needs:
   selection) built and merged.**
 - **Guided Questions' content decisions made and validated**, then **Increment 3 (the
   question-sheet UI) built and merged** — hard-dependent on Increment 2 existing first.
-- **Hosted Tour** — both the builder machine (TR-4–TR-9) and the `cic-poc` integration
-  (TR-14), plus Mark's own voice read of the scripted tour content.
+- ~~**Hosted Tour** — both the builder machine (TR-4–TR-9) and the `cic-poc` integration
+  (TR-14), plus Mark's own voice read of the scripted tour content.~~ **DEFERRED TO
+  PHASE 2 (2026-07-22) — not a P1 requirement; see banner at top.**
 - **Question-First Entry** and **Guided Onboarding** — both fully designed (storyboard
   §R/§G) but **zero code exists for either yet** — these need an actual build pass now,
   not just a design.
@@ -266,8 +281,10 @@ the decision above:**
    Living Table's own live wiring both proceed — both were only soft-sequenced behind
    Increment 1, not blocked by anything else.
 7. **Run P1 once everything above is in** — direct-API hosting, Increment 1, Tier 0,
-   Increment 2, Increment 3, Hosted Tour, Question-First Entry, Guided Onboarding, and the
-   Living Table's live wiring. This is the real gate now, not Increment 1 + Tier 0 alone.
+   Increment 2, Increment 3, ~~Hosted Tour,~~ Question-First Entry, Guided Onboarding, and
+   the Living Table's live wiring. **Hosted Tour removed from this gate — DEFERRED TO
+   PHASE 2 (2026-07-22); see banner at top.** This is the real gate now, not Increment 1
+   + Tier 0 alone.
 8. **Merge discipline holds throughout:** nothing merges before or during P1 itself; all
    of the above lands in the pre-P1 window, once it opens.
 

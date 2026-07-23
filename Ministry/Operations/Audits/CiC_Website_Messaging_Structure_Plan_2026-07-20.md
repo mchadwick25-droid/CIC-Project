@@ -16,6 +16,8 @@ The Messaging & Branding Kit already has a strong rule against most of this — 
 
 **Word choice, refined same day:** the first draft used "honest" — the exact catch-all this kit retired site-wide in 2026-07-17. Asked to recall the retirement scheme rather than reintroduce it, Mark settled on **"documented"** — already decided elsewhere in the kit as the top tier of its own confidence vocabulary, the same word that replaced "real" in "documented Christian movements." **The protected line is final: "We are committed to a documented witness."** "A doorway, not a home" was not touched and stays as-is. Full account: `CiC_Messaging_Branding_Kit_Decision_Log.md`, 2026-07-20 (two entries, same day).
 
+**Update, 2026-07-22:** both lines were revisited again in the Brand & Messaging Rework thread. "A doorway, not a home" was retired in turn (Mark: he didn't know what "not a home" meant) and replaced with **"A doorway to sit with the Christian movements of history."** "We are committed to a documented witness" was developed further into **"We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike."** Neither retirement reverses the reasoning above — it extends it, applying the same rule-level scrutiny to lines that hadn't been challenged yet. Full account: `Ministry/Features/Brand-Messaging-Rework/Decision-Log.md`.
+
 ---
 
 ## Part 1 — The audit: what's on the site today
@@ -54,10 +56,10 @@ Welcome, vision, why, what, how — in that order, minimal at each step. The fiv
 
 | # | Page | Beat | Job | Draft line (short, for markup) |
 |---|---|---|---|---|
-| 1 | Home | **Welcome** | Arrival at the Table; the hook, one door in. | "Twenty centuries of the church. One table. A chair pulled out for you. Come and join us." |
-| 2 | About, opening | **Vision** | Why this exists at all. | "The whole church, across every century, holds more of Christ than any single doorway ever could. Church in Conversation gathers many of its movements at one table, in their own words." |
+| 1 | Home | **Welcome** | Arrival at the Table; the hook, one door in. | "Twenty centuries of the Church. One table. A chair pulled out for you. Come and join us." |
+| 2 | About, opening | **Vision** | Why this exists at all. | "The whole Church, across every century, holds more of Christ than any single doorway ever could. Church in Conversation gathers many of its movements at one table, in their own words." |
 | 3 | About, continued | **Why** | Why this approach — conversation, not reading. | "You don't just read about these communities — you sit with them. Ask a question, and a voice built from that community's own letters and records answers, in its own words." |
-| 4 | Atlas + About "how it works" | **What** | What it actually is — the features. | "Five communities are live today, each rebuilt from its own sources. Seat more than one at a time, and hear them answer the same question, each in its own voice." |
+| 4 | Atlas + About "how it works" | **What** | What it actually is — the features. | "Each Representative is a voice built through a disciplined, rigorous process, from that Christian tradition's own original sources. Have a deep one-on-one conversation, or invite more than one Representative for a dynamic table conversation." *(final, 2026-07-22 — see Brand-Messaging-Rework Decision Log; replaces the world-count draft that used to be here, per the no-hardcoded-count rule)* |
 | 5 | Support + Pilot | **How** | How it's built, and how to join — the program. | "Each community passes through months of scholarship before anyone meets it — sources cataloged, claims tested, confidence shown at every answer. Join the pilot, or follow along as it grows." |
 
 **The Table as centerpiece — not a sixth section, a rule for all five.** The hook already carries it: "one table, a chair pulled out for you." Worth carrying the same image (or the Arriving mark's own seat-at-threshold motion) visually through Welcome, What, and How, so a visitor is never more than a scroll from the same picture — the Table — rather than meeting five different metaphors on five different pages.

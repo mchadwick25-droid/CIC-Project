@@ -438,6 +438,19 @@ with a printed working-mark (no spinner; one honest update if slow; inline retry
 
 ### 5.5 S4-tour — a mode of S4, not a surface
 
+> **DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22).** Mark
+> decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+> builds, and directed that all Tour-related content be taken out of the current build
+> cycle across documents, UX, and code planning. **This design stays documented
+> as-approved below** — it does not get removed or rewritten, since it's still the
+> right design for when Phase 2 takes this mode up. **The world-click menu's Tour row
+> (§5.3) already degrades gracefully for the current build**: it's designed as an
+> honest visible placeholder, and for a non-qualifying/unavailable world it "carries
+> the plain refusal rather than opening anything" — so it should currently render in
+> that not-yet-available/refusal state everywhere, not as a live entry point, until
+> Phase 2 actually builds this mode. No change needed to that design to reflect the
+> deferral; it already assumed Tour might not be available.
+
 Entry only by consent: the S2 world-panel Tour row, or the S4 invitation card (rare, decline
 final). Acceptance passes through **the threshold stop** — what this is / what it's built
 from / what it will not claim — before any mode shift. During: **the stage and beats are the

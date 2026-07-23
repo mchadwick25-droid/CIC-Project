@@ -129,6 +129,14 @@ record.** By surface: 67 App · 5 Website · 9 Both · 8 System.
 
 ## 7. Hosted Tour (S4-tour, T.1–T.6)
 
+**DEFERRED TO PHASE 2 — not part of the current build cycle (2026-07-22).** Mark
+decided Hosted Tour is a second-tier (Phase 2+) feature, not something this launch
+builds, and directed that all Tour-related content be taken out of the current build
+cycle across documents, UX, and code planning. This supersedes the 2026-07-20 note
+below (which only paused further work until Friday's token reset) — the feature is now
+out of scope for the current build cycle entirely, not just paused. Kept below as the
+design/status record for when Phase 2 takes this up.
+
 **Deferred by Mark, 2026-07-20 — held as a placeholder, not tested or built further
 until after token reset (Friday 2026-07-24).** Only one draft tour scene exists
 (Chloe's hosted church-service walkthrough) and it needs substantial content editing
