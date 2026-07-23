@@ -298,6 +298,66 @@ and the status keys deliberately kept as-is).
 
 ---
 
+## 2026-07-23 — Found and fixed a real relaunch-day gap: two of three Atlas surfaces had no real hand-off wiring at all
+
+**Context:** Mark, relaunch morning: "i want the atlas fully working." Checked
+rather than assumed what that actually requires, since "the Atlas" is now
+three files. Found `cic-website/index.html` (the homepage) already had a real,
+working hand-off pattern — an `isLocal`/`LIVE_APP_URL` gate that does a real
+`window.location.href` redirect to `/?worlds=<id,id>&mode=<interview|table>`
+when a live app URL exists, and an honest "hosting is still being finished"
+fallback otherwise (never a permanent fake-demo claim). Presumably added by
+whoever did the Brand-Messaging-Rework/deploy-config work.
+
+**But `atlas.html` (the standalone page linked from every nav bar) and
+`world-atlas.html` (the Wall Chart) had never gotten the same fix** — both
+still carried a permanent, unconditional "This is a design sketch/demo — it
+ends here, honestly" stub with no escape hatch. Meaning: right now, a visitor
+landing on the homepage would get a real conversation hand-off the moment
+hosting exists, but a visitor who clicked "Atlas" in the nav, or "View as a
+wall chart," would hit a dead-end demo message regardless of whether the app
+was actually live. A real, silent inconsistency between the three surfaces —
+exactly the kind of thing that would only surface when a real visitor hit it
+on relaunch day itself.
+
+**Fixed in both files, mirroring `index.html`'s exact pattern:** added the
+same `isLocal`/`LIVE_APP_URL` gate; `atlas.html`'s `launch()` now redirects
+for real when `LIVE_APP_URL` is set, falling back to the honest message
+otherwise. `world-atlas.html`'s two hand-off points (the panel's "Interview"
+button, the tray's "Sit down at the Table" button) got the same treatment,
+layered alongside its existing `APPMODE` check (a separate, still-valid
+mechanism for when the chart is embedded *inside* the app itself at
+`/world-map/` — untouched). Verified live: clicking through on both files
+correctly attempted `localhost:8199/?worlds=post-apostolic-house-church&mode=
+interview` — the right world ID, the right mode — failing only because
+nothing is listening on that port in the test environment, which is the
+expected result of a correct attempt, not a bug.
+
+**The actual remaining blockers, confirmed by reading the deploy-config
+commit (`d994b22`, this morning) rather than assumed:** two account-level
+actions, neither performable by Claude —
+1. **GitHub Pages:** repo Settings → Pages → Source: GitHub Actions. This
+   makes the static site (all three Atlas surfaces) live.
+2. **Render:** dashboard → New → Blueprint → connect this repo (`render.yaml`
+   is already at the repo root and will be found automatically). After the
+   first deploy assigns cic-poc a URL, set `ANTHROPIC_API_KEY` and
+   `CORS_ORIGINS` in Render's own Settings → Environment (deliberately never
+   committed to the repo).
+
+**Once Render assigns a real URL, one more small code step:** replace the
+`''` production branch of `LIVE_APP_URL` in `atlas.html`, `index.html`,
+`world-atlas.html`, and `pilot.html` (four copies of the same three-line
+pattern, small enough that a shared include isn't worth the complexity on a
+plain static site with no build step) with that real URL, and set
+`CORS_ORIGINS` on Render to match the Pages domain so the app's own CORS
+check allows the hand-off. Give me the URL once Render assigns one and this
+is a five-minute fix, not a rebuild.
+
+**Next action:** Mark does the two account-level steps; reports the Render
+URL back here for the final wiring.
+
+---
+
 ## 2026-07-22 — Wall Chart and Research Table consolidated into one document, reading the shared census; both stale-status pages archived
 
 **What prompted this:** while confirming Phase 1 (the Story) was already built and

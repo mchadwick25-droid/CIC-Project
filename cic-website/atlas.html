@@ -286,6 +286,15 @@ body.st-thread .st-tstub.on{display:block}
 (function(){
 "use strict";
 
+// Real hand-off once hosting exists: /?worlds=<id,id>&mode=<interview|table>,
+// the same URL contract the app's own selector already parses. Until then,
+// honest about not being wired up yet - never a fake "it works" stub.
+// window.location.hostname is never "localhost" on the real public domain,
+// so production behavior is unchanged until a real URL is filled in below.
+// See cic-website/index.html and cic-website/pilot.html for the same pattern.
+const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
+
 const esc = t => (t==null?'':String(t)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const spine = document.getElementById('spine');
 let CENSUS = null, ERAS = [], MOVEMENTS = [], EDGES = [], byId = {};
@@ -676,11 +685,14 @@ function renderTray(){
   else { mode.textContent = 'Compare Traditions — how different traditions answer the same question.'; go.disabled = false; }
 }
 function launch(ids, mode){
+  if (LIVE_APP_URL) {
+    window.location.href = LIVE_APP_URL + '/?worlds=' + ids.join(',') + '&mode=' + mode;
+    return;
+  }
   const names = ids.map(id => { const m = byId[id]; return esc(m.entry.representativeName) + ' — ' + esc(m.entry.worldName); }).join("<br>");
   document.getElementById('modalbody').innerHTML = `<h2>${mode==='interview' ? 'A Deep Interview' : 'Your table is set'}</h2>
-    <p>${names}</p><p>In the live app this hands off as <code style="font-family:'Alegreya Sans',sans-serif;font-size:.8rem">/?worlds=${ids.join(",")}&amp;mode=${mode}</code>
-    and the Facilitator greets you — <b>Begin stays the only consent.</b></p>
-    <p><i>This is a design sketch — the Atlas suggests, it never starts a conversation on its own. It ends here, and says so.</i></p>
+    <p>${names}</p>
+    <p>Hosting is still being finished — once it's live, this hands off straight into the conversation, no separate step.</p>
     <button class="st-btn quiet" id="mclose">Back to the Atlas</button>`;
   document.getElementById('modal').classList.add('on');
   document.getElementById('mclose').onclick = () => document.getElementById('modal').classList.remove('on');

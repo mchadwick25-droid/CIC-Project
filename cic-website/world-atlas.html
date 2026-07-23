@@ -345,6 +345,14 @@ the Book of Kells, Chi-Rho folio 34r (c. 800, Trinity College Dublin) · Lucas C
 // /?worlds=<id,id>&mode=<interview|table>. The app preselects; the participant
 // still confirms with the Begin button - the map suggests, never starts.
 const APPMODE = (typeof location!=="undefined") && /[?&]app=1/.test(location.search);
+// Standalone-on-the-public-site hand-off (APPMODE above is for when this
+// chart is embedded inside the app itself at /world-map/, a different case).
+// Real hand-off once hosting exists: /?worlds=<id,id>&mode=<interview|table>,
+// the same URL contract the app's own selector already parses. Until then,
+// honest about not being wired up yet - never a fake "it works" stub.
+// See cic-website/index.html and cic-website/pilot.html for the same pattern.
+const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : '';
 const WID = {"I.1":"post-apostolic-house-church","I.7":"syriac-edessa-nisibis",
              "I.3":"desert-monasticism","I.9":"hieronymian-ascetic-literary",
              "I.2":"alexandria-catechetical","I.6":"imperial-juridical-christianity"};
@@ -671,10 +679,11 @@ function initChartView(census){
     if(t.dataset.act==="closeModal"){document.getElementById('modal').classList.remove('open');return;}
     if(t.dataset.act==="interview"){const ref=t.dataset.ref;
       if(APPMODE){ appHandoff([ref],"interview"); return; }
+      if(LIVE_APP_URL){ location.href=LIVE_APP_URL+"/?worlds="+WID[ref]+"&mode=interview"; return; }
       document.getElementById('modalBody').innerHTML=`<h2>A Deep Interview with ${LIVE[ref].rep}</h2>
         <p>${esc(byRef[ref].name)} — one voice, with room to go deep: longer answers, ideas fleshed out in full.</p>
-        <p style="margin-top:.7rem">In the live app, the Facilitator would introduce ${LIVE[ref].rep} and the conversation
-        would begin. <b>This is a design demo — it ends here, honestly.</b></p>
+        <p style="margin-top:.7rem">Hosting is still being finished — once it's live, this hands off straight into the
+        conversation, no separate step.</p>
         <button data-act="closeModal">Back to the map</button>`;
       document.getElementById('modal').classList.add('open');return;}
     if(t.dataset.act==="add"){const ref=t.dataset.ref;
@@ -686,10 +695,11 @@ function initChartView(census){
   });
   document.getElementById('goBtn').addEventListener('click',()=>{
     if(APPMODE&&tray.length>0){ appHandoff(tray, tray.length>1?"table":"interview"); return; }
+    if(LIVE_APP_URL&&tray.length>0){ location.href=LIVE_APP_URL+"/?worlds="+tray.map(r=>WID[r]).join(",")+"&mode="+(tray.length>1?"table":"interview"); return; }
     const names=tray.map(r=>LIVE[r].rep+" — "+esc(byRef[r].name)).join("<br>");
     document.getElementById('modalBody').innerHTML=`<h2>Your table is set</h2><p>${names}</p>
-      <p style="margin-top:.7rem">In the live app, this is where the Facilitator would greet you and the conversation
-      would begin. <b>This is a design demo — it ends here, honestly.</b></p>
+      <p style="margin-top:.7rem">Hosting is still being finished — once it's live, this hands off straight into the
+      conversation, no separate step.</p>
       <button data-act="closeModal">Back to the map</button>`;
     document.getElementById('modal').classList.add('open');
   });
