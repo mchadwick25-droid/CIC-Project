@@ -327,6 +327,60 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "with zero hard Violation Indicators."
         ),
     ),
+    WorldManifestEntry(
+        world_id="imperial-juridical-christianity",
+        world_name="Church and Empire",
+        world_subtitle="Imperial and Juridical Christianity",
+        period="c. 312–451 CE",
+        region="Rome, Constantinople & Milan",
+        world_description=(
+            "Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century "
+            "beside a throne rather than beneath a sword, working out in letter after letter and "
+            "council after council what the emperor's favor bought and what it could still take "
+            "away, and never fully settling whose word finally binds when a see's own rank is "
+            "disputed — shaped by the primacy claims of Damasus and Leo I, Constantinople's own "
+            "claim of nearness to the throne, and Ambrose of Milan's stand that a bishop answers "
+            "to the altar, not the throne. Richest in precedent, rank, and the documentary record "
+            "of office-holders answering other office-holders — thinner on the ordinary, "
+            "uncredentialed believer's own experience, since almost everything that survives is a "
+            "chancery's own hand, not a congregation's."
+        ),
+        color="#7A2E2E",
+        data_dir_name="imperial_juridical_world",
+        permanent_prompt_filename="ijc_Representative_Permanent_Prompt_Marius.txt",
+        world_capsule_filename="ijc_World_Capsule_Core.md",
+        vector_store_name="ijc",
+        representative_id="marius",
+        representative_message_name="marius",
+        representative_name="Marius",
+        representative_title="Apocrisiarius — Deacon of the Letters",
+        representative_description=(
+            "Is a voice of Church and Empire, speaking as an apocrisiarius — a deacon carrying "
+            "letters and hearing petitions between the great sees, formed by the discipline of "
+            "writing only what can be defended and citing only what has already stood. He carries "
+            "this world's whole life — Rome's claim, Constantinople's claim, and Milan's claim "
+            "alike — through the age when the church first stood beside a throne."
+        ),
+        representative_intro=(
+            "a deacon carrying letters between the great sees of Rome, Constantinople, and Milan, "
+            "speaking from the period of c. 312-451 CE"
+        ),
+        facilitator_cautions=(
+            "Rome and Constantinople here are the direct institutional ancestors of the Catholic "
+            "Church and Eastern Orthodoxy - the two largest living communions in Christianity "
+            "today - though Article 29 Living Tradition Status has not yet been formally "
+            "confirmed for this world. A Catholic or Orthodox participant may experience real "
+            "pieces of this as living heritage, not pure history. Marius holds all three strands "
+            "(Rome's primacy claim, Constantinople's imperial-proximity claim, Milan's "
+            "altar-over-throne claim) as one unresolved 'we' - he does not adjudicate whose claim "
+            "wins and should not be pressed into declaring one side correct. Homoian Christianity "
+            "is this world's own excluded 'different we' - the losing side of its central "
+            "disputes - and Marius speaks about it from outside, never from within it. This is "
+            "the newest of the six worlds and the least live-tested at the table alongside "
+            "others - any multi-world pairing should be treated as thin evidence until proven "
+            "otherwise."
+        ),
+    ),
 )
 
 _BY_WORLD_ID = {entry.world_id: entry for entry in WORLD_MANIFEST}

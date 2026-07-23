@@ -31,6 +31,7 @@ const REPRESENTATIVE_NAMES: Record<string, string> = {
   papnoute: 'Papnoute',
   albina: 'Albina',
   theon: 'Theon',
+  marius: 'Marius',
 };
 
 function getSpeakerInfo(message: Message): {
@@ -60,6 +61,7 @@ function getSpeakerInfo(message: Message): {
     case 'papnoute':
     case 'albina':
     case 'theon':
+    case 'marius':
       return {
         name: REPRESENTATIVE_NAMES[speakerName] || 'Representative',
         role: 'representative',
