@@ -11,6 +11,32 @@ workstream in this project.
 
 ---
 
+## 2026-07-23 — Website relaunched: Atlas and conversation table both live, wired together, verified end-to-end
+
+**The day's actual goal, per Mark:** "i would like to focus on getting the website up and running today with the two main featurs, the atlas and the conversation table with 6 worlds." Both are live. Atlas: `churchinconversation.com`, on Cloudflare, Mark's own account (a `cloudflare/workers-autoconfig` branch that appeared unexplained this morning turned out to be Cloudflare's own GitHub bot, harmless, confirmed directly with Mark rather than assumed). Conversation table: `cic-poc.onrender.com`, on Render, deployed via the `render.yaml` Blueprint prepared this morning. All four Atlas hand-off points (`index.html`, `atlas.html`, `world-atlas.html`, `pilot.html`) wired to the live URL.
+
+**A real gap found and fixed along the way, not part of the original plan:** `index.html` already had a working `LIVE_APP_URL` gate (built earlier, honest about not being wired up until hosting existed), but `atlas.html` (the standalone nav-linked page) and `world-atlas.html` (the Wall Chart) both still carried a *permanent* "this is a design sketch, it ends here" stub — a dead end regardless of whether hosting was live. This landed as uncommitted work from a separate session Mark was using in parallel (see the "accidentally switched threads" note below); verified correct against the real diffs before committing, not taken on trust.
+
+**Getting `cic-poc` actually running on Render took three real, distinct fixes — not one bigger-instance guess:**
+
+1. **Build-time OOM (status 137), first hit on Render's free tier.** Root cause, found by reading the actual code: `LexiconIndexer` and `StoryIndexer` each constructed their own `HuggingFaceEmbeddings("all-MiniLM-L6-v2")` instance. With `build_indices.py` building all 6 worlds × 2 indexer types in one process, that's the same model loaded into memory 12 separate times, never released — died partway through world 5 (Alexandria). Fixed with one shared instance (`app/rag/embeddings.py`), verified locally to complete cleanly through all 6 worlds first.
+2. **Startup-blocking (Render's port-scanner timing out).** `app/main.py`'s lifespan handler synchronously loaded all 6 worlds' RAG retrievers (12 loads) before yielding, so the port never opened in time on a constrained instance. Fixed by running that preload in a background thread (`asyncio.create_task(asyncio.to_thread(...))`) — uvicorn now reports ready immediately; each retriever already degrades gracefully to a first-request load if it isn't warm yet. (This fix, plus the shared-embeddings fix above, were built in a separate Claude Code session Mark was using in parallel without realizing it — he flagged the mix-up directly ("sorry i switch threads and didn't realize it") and moved the work back here; found as real uncommitted changes in the same shared working directory, reviewed against the actual diffs, and committed once verified correct — not taken on narration alone.)
+3. **Runtime OOM, confirmed directly by Render** ("Web Service cic-poc exceeded its memory limit") on Mark's very first real conversation on the Starter (512MB) plan. This one wasn't a bug — 6 worlds' FAISS indices plus torch plus sentence-transformers plus the langgraph/FastAPI stack genuinely don't fit in 512MB held simultaneously. Fixed by upgrading the Render instance type, not a code change.
+
+**A real Render UX trap, worth remembering:** Render's per-service **Instance Type** (the thing that actually controls RAM/CPU) and the account-level **Workspace plan** (team seats, bandwidth, unrelated to any one service's memory) share confusingly similar names and both use "Pro" as a tier label. Mark landed on the workspace plan page twice, once processing a real charge there that didn't touch `cic-poc`'s actual memory at all. Also: Render only *keeps* an instance-type change if the resulting deploy succeeds — so a change that still OOMs silently reverts to the previous tier, which looked like a UI bug ("it keeps bouncing back to free") but was actually correct, conservative behavior once understood. Starter ($7/mo) turned out to be the same 512MB as Free, just more CPU — confirmed from Render's own instance list, not assumed.
+
+**AWS/Bedrock reconsidered mid-session, explicitly declined.** Mark's son offered to set up AWS with $200 in free credits — a real, reasonable thing to weigh given the recurring cost. Clarified directly: Bedrock is an LLM-API alternative (like calling Anthropic directly, just through AWS), not a compute host — it doesn't touch where the FastAPI/torch/FAISS app actually runs, so it would not have fixed any of the three bugs above regardless. AWS compute (EC2/Fargate) could genuinely host this fine given adequate instance sizing, but trades Render's hands-off HTTPS/restart/logging for real ongoing upkeep someone has to own. Mark's call: stay on Render for now; AWS remains available as a later migration if the son's setup materializes.
+
+**Verified live, not just deployed:** a real question to Chloe ("What does your community believe happens after someone dies?") correctly triggered the Facilitator's anachronism-bridge (flagging "purgatory" as vocabulary later than Chloe's own moment) and then a full, complete, in-character response — finishing in well under a minute, no crash.
+
+**Cleanup along the way:** a GitHub Pages workflow set up this morning (before Cloudflare's role was confirmed) was left in place as a harmless backup; once it started failing visibly on every push (Pages was never actually enabled, made moot by Cloudflare), removed outright rather than left as permanent red CI noise.
+
+**Not yet confirmed:** `CORS_ORIGINS` set in Render's dashboard (Settings → Environment) — not required for today's full-page-navigation hand-off pattern, but the app's own `.env.example` flags it as expected for any real deployment. Low-priority follow-up, not blocking.
+
+**Next action:** none urgent for System Hub. Whoever picks this up next should confirm `CORS_ORIGINS` and keep an eye on Render costs now that the instance is upgraded.
+
+---
+
 ## 2026-07-22 (last) — Object-placement conflict resolved: two states, not a contradiction; live-in-app check deferred to tomorrow by Mark's own call
 
 **Two decisions, both Mark's, given directly to System Hub:** (1) *"we should have two

@@ -280,8 +280,32 @@ check of the real Living Table build in a running conversation — see LT-1.
       committed. One live collision with the concurrently-active UX Design
       thread found and reconciled mid-migration, not overwritten. Full
       account: decision log, 2026-07-20 (execution entry).
-- [ ] **101/401 (revised) — Stand up direct-API hosting, session caps, spending limit
-      (Jonathan / System Hub).** ⚠ **HELD 2026-07-20 (Mark's direction) — hosting waits
+- [x] **DONE 2026-07-23 — Direct-API hosting is live: Atlas at churchinconversation.com
+      (Cloudflare, Mark's own account, auto-deploys `cic-website/` on every push to
+      `main`), conversation table at `https://cic-poc.onrender.com` (Render, Docker
+      Blueprint from `render.yaml`), wired together across all four hand-off points
+      (`index.html`, `atlas.html`, `world-atlas.html`, `pilot.html`).** Three real,
+      distinct bugs found and fixed along the way, not just an instance-size guess:
+      (1) build-time OOM — `LexiconIndexer`/`StoryIndexer` each loaded their own
+      `HuggingFaceEmbeddings` copy, 12 loads across 6 worlds in one `build_indices.py`
+      run; fixed with one shared instance (`app/rag/embeddings.py`). (2) startup-blocking
+      — the FastAPI lifespan synchronously loaded all 6 worlds' RAG retrievers before
+      yielding, so Render's port-scanner timed out on a constrained instance; fixed by
+      running that preload in a background thread. (3) runtime OOM — confirmed directly
+      by Render on the first real conversation on the Starter (512MB) plan; fixed by
+      upgrading the instance type (not a code fix — 512MB genuinely doesn't fit 6 worlds'
+      FAISS indices + torch + sentence-transformers warm simultaneously). Live-verified
+      end-to-end: a real question to Chloe correctly triggered the Facilitator's
+      anachronism-bridge (flagging "purgatory" as later vocabulary) then a full
+      in-character response, completing in well under a minute. AWS/Bedrock
+      reconsidered mid-session (Mark's son offered free setup + AWS credits) and
+      explicitly declined for now — Bedrock is an LLM-API alternative, not a compute
+      host, so it wouldn't have fixed the memory bugs either way; direct API + Render
+      stands. **Open follow-up, not blocking:** confirm `CORS_ORIGINS` is actually set
+      in Render's dashboard (Settings → Environment) — not required for today's
+      full-navigation hand-off pattern, but the app's own `.env.example` flags it as
+      expected for any real deployment.
+      ⚠ **HELD 2026-07-20 (Mark's direction, historical) — hosting waits
       on the UX design thread.** Mark: work with UX design first on editing the site's
       content and confirming every built feature is actually represented, before
       standing up either deploy (the marketing site or the app itself). Costs nothing to
@@ -312,16 +336,14 @@ check of the real Living Table build in a running conversation — see LT-1.
       pilot-simplification decision, not built alongside it. Reclassified below with
       the rest of the old sign-in-era code: inert, left in place, nothing to
       reconcile until Supabase is actually configured.
-- [ ] **NEW — Create Supabase + Render/host accounts (Mark only).** ⚠ **Supabase half
-      no longer needed for Pilot 1 specifically as of 2026-07-20** — the simplified pilot
+- [x] **Render/host account — DONE 2026-07-23**, see #101/401 above. **Supabase half
+      still not needed for Pilot 1 specifically** — the simplified pilot
       runs deliberately without sign-in, so `auth.py`/`SignInScreen.tsx`/the Supabase-backed
       `session_cap.py` rework, plus the referral/invite endpoints added the same day
       (`7ea4fa6`, `/api/pilot/request`, `/api/referral/generate`, `/api/referral/redeem`,
       `refer-a-friend.html`), all stay unused rather than configured; skip creating a
       Supabase account unless a later, larger-audience phase wants identity and referral
-      tracking back. **The Render/host account is still needed** — that's the real
-      remaining blocker inside #101/401's "deploy-and-configure," independent of the
-      sign-in question. Original context: the accounts/sign-in layer landed since the
+      tracking back. Original context: the accounts/sign-in layer landed since the
       #101/401 note above was written: `cic-poc/backend/app/auth.py`, a Supabase-backed
       rework of `session_cap.py` (real per-user caps, not just per-tester-code) and
       `transcript_logging.py`, plus a real sign-in screen (`SignInScreen.tsx`) on the
@@ -551,7 +573,8 @@ check of the real Living Table build in a running conversation — see LT-1.
       formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
       timing his to schedule, not urgent today.
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
-      decision, see V1.2 above): direct-API hosting live **and** Increment 1 **and** the
+      decision, see V1.2 above): direct-API hosting live **(✅ DONE 2026-07-23, see
+      #101/401)** **and** Increment 1 **and** the
       Tier 0 four **and** RM-8/Battery A passed + Increment 2 merged **and** Increment 3
       merged **and** Question-First Entry **and** Guided Onboarding **and** the Living
       Table's live wiring — not just hosting alone. **Hosted Tour removed from this
