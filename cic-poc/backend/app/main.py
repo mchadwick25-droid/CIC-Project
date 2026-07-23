@@ -1,5 +1,6 @@
 """FastAPI application for the CiC POC backend."""
 
+import asyncio
 import json
 import re
 import uuid
@@ -36,10 +37,13 @@ def load_world_content(world_id: str = "syriac-edessa-nisibis") -> tuple[str, st
     return permanent_prompt, world_capsule
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """Application lifespan handler."""
-    # Pre-load the RAG indexes for all worlds on startup
+def _preload_rag_indexes() -> None:
+    """Load every world's lexicon/story retrievers (sentence-transformers +
+    FAISS) into the module-level caches in `graph/nodes.py`. Synchronous and
+    genuinely heavy (12 loads across 6 worlds) - must run off the event
+    loop thread, never awaited directly from the lifespan, or the port
+    never opens in time on a resource-constrained host (Render's own
+    port-scanner timed out waiting - see the deploy log this fixes)."""
     print("Loading RAG indexes for all worlds...")
     for world in AVAILABLE_WORLDS:
         try:
@@ -55,6 +59,18 @@ async def lifespan(app: FastAPI):
         except Exception as e:
             print(f"  {world.name}: Warning - Could not load story index: {e}")
             print(f"    Story retrieval will be attempted on first request")
+    print("RAG index preload finished.")
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Application lifespan handler."""
+    # Fired off, not awaited: the actual loading happens in a background
+    # thread so uvicorn can report "startup complete" and open the port
+    # immediately, instead of blocking on 12 heavy ML loads first (each
+    # world's retriever already degrades gracefully to a first-request
+    # load if it isn't warm yet - see get_retriever/get_story_retriever).
+    asyncio.create_task(asyncio.to_thread(_preload_rag_indexes))
 
     yield
 

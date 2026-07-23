@@ -7,9 +7,9 @@ from pathlib import Path
 
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
 
 from app.config import settings
+from app.rag.embeddings import get_shared_embeddings
 
 
 @dataclass
@@ -34,12 +34,9 @@ class LexiconIndexer:
     """Indexes lexicon chunks into a FAISS vector store."""
 
     def __init__(self):
-        # Using local sentence-transformers model - no API key required
-        self.embeddings = HuggingFaceEmbeddings(
-            model_name="all-MiniLM-L6-v2",
-            model_kwargs={"device": "cpu"},
-            encode_kwargs={"normalize_embeddings": True},
-        )
+        # Shared across every world's indexer - see app/rag/embeddings.py
+        # for why (this used to load its own separate copy every time).
+        self.embeddings = get_shared_embeddings()
 
     def parse_front_matter(self, text: str) -> dict[str, str]:
         """Parse the retrieval front-matter from a lexicon file.
