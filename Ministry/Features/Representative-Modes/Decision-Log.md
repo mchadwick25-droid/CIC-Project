@@ -16,6 +16,84 @@ thread with the pilot schedule in view.
 
 ---
 
+## 2026-07-22 — Battery A run, live model, real result: FAIL — `reevaluation` mode drops content, not just register
+
+**Run by System Hub, Mark's direct authorization ("yes start now").** First time this feature has
+ever been tested against a real model — design/prompt architecture had only been verified in
+mock-LLM mode before this. Executed against `claude/representative-modes-exploration` (tip
+`9774447`) in an isolated git worktree (`main` never touched); 25 live conversations (5 probes ×
+5 arms); two-stage grading exactly per the standing Validation Plan (blinded content-invariance,
+separate unblinded register check, both via fresh subagents).
+
+**Result: FAIL, not close.** 3 of 5 probes outright failed content-invariance, 2 returned
+AMBIGUOUS with real findings, none passed clean. The failure is concentrated, not diffuse:
+`reevaluation` mode showed a real problem in every probe it appeared in — always the same shape,
+dropping substantive content rather than changing register. It answered only half a two-part
+question in one probe; dropped the "households never actually settled this" disclaimer that four
+other arms all carried in another (converging instead on one confident answer — exactly the
+manufactured-settledness failure mode this mode's own design exists to prevent); and gave a
+thinner, partly contradictory account of a real historical chronology in a third.
+`pastor-teacher` showed three milder, less clearly related issues across 3 of 5 probes.
+
+**What this isn't:** a register problem. The separate unblinded check confirms all four modes read
+as genuinely, correctly differentiated — `reevaluation` sounds like `reevaluation` (honest, no
+therapy-voice, leads with hard material). The defect is narrower: the underlying facts aren't
+surviving the trip into that register, which is precisely what Battery A exists to catch before it
+reaches a real participant.
+
+**Full results, matrix, and reasoning:**
+`Design/CiC_Representative_Modes_Battery_A_Results_2026-07-22.md`.
+
+**Heart of it:** this is the mode built for someone who may be actively deconstructing or grieving
+a broken-down belief — precisely the participant who can least afford to be quietly handed a
+smoothed-over or incomplete account. Catching this now, before Increment 2 merges or any real
+participant meets it, is exactly what this gate is for.
+
+**Next action:** fix `_ROLE_GUIDANCE["reevaluation"]` in `cic-poc/backend/app/prompts/role_modes.py`
+— aimed at content completeness, not register (the register is already right) — then re-run
+Battery A, at minimum on the fixed mode, before touching Batteries B–D. `pastor-teacher`'s milder
+issues are worth a second look but don't independently block on their own given it passed 3 of 5
+cleanly. Task Board RM-8 updated to reflect the real result.
+
+---
+
+## 2026-07-22 (same day, later) — Both flagged blocks fixed, spot-verified; formal gate still open
+
+**Mark's direction:** fix both (`reevaluation` and `pastor-teacher`), not just the worse of the two.
+
+**Fixed, commit `4f15611` on `claude/representative-modes-exploration` (local, unpushed — same as
+the rest of this branch).** One added clause per block, each staying inside this file's own
+binding authoring rules (listener-descriptive, never voice-prescriptive; no content rules):
+`reevaluation` now explicitly names that honesty includes preserving real unresolved disagreement,
+not collapsing it into one cleaner answer — directly targeting the manufactured-settledness
+pattern Battery A found in every probe it appeared in. `pastor-teacher` now explicitly names that
+depth on one thread can't cost the rest of what's true, and that concreteness has to stay inside
+what the record actually gives — targeting both its added-content and thinness findings at once.
+
+**Spot-verified, not the full protocol.** Recreated the worktree, ran the 8 conversations
+corresponding exactly to the 4 concretely-identified defects, checked each new transcript directly
+against its own original finding. Result: 4 of 4 targeted defects fixed outright (A-1 both findings,
+A-4, A-5); one (A-2's evidentiary thinness) meaningfully improved but not fully matching the other
+arms' explicit source-naming. Full comparison table:
+`Design/CiC_Representative_Modes_Battery_A_Results_2026-07-22.md` (same file, dated update section).
+
+**Honestly not calling this gate cleared.** This was a targeted regression check, not a re-run —
+no fresh blinded grading, `general`/`academic`/`baseline` not re-confirmed (unaffected by the
+change, but not re-checked either). Per the Validation Plan's own discipline, a full formal Battery
+A re-run (25 conversations, both grading passes) is still what actually clears this gate.
+
+**Decided by Mark, same day:** "i think the spot verified fix is enough to move forward for
+today." Spot-verified confidence accepted as sufficient for now — the formal re-run is not
+authorized today, and this thread is not blocked pending it. **This is a for-today call, not a
+retroactive downgrade of the gate itself** — Increment 2/3/P1 still track against a real, formal
+Battery A pass before they actually merge/launch; today's decision is about not letting the
+absence of that formal pass stop other work right now, not about waiving the requirement.
+
+**Next action:** none pending on this specific item. The full formal re-run remains the real gate
+whenever Mark schedules it — no urgency assigned today.
+
+---
+
 ## 2026-07-16 — Feature located in existing governance, not invented: modes implement Facilitator Governance V3.6 §4/§9
 
 **Decided:** Representative Modes is built as the runtime implementation of role
