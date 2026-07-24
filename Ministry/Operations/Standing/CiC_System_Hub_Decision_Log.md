@@ -11,6 +11,49 @@ workstream in this project.
 
 ---
 
+## 2026-07-23 (later) — Living Table graphics pulled from the live conversation view; Brand Guidelines consolidated into an uploadable PDF; live/local state gap flagged
+
+**Mark's own call, direct:** the old flat World-Icon graphics inside the Living Table
+scene "detract from the conversation" — pull them for now, new (realistic-portrait)
+assets are being worked on separately and will be reinserted later. Not a reversal of
+the 2026-07-22 build; a deliberate pause on displaying it.
+
+**Done, in `cic-poc/frontend`:** both `<LivingTableScene>` render calls removed from
+`TheTable.tsx` (active conversation view and the closing/ended view), plus the
+now-orphaned `speakingKey` memo and its now-unused import. Nothing was deleted —
+`LivingTableScene.tsx`, `worldIcons.tsx`, `BrandMark.tsx`, and the Living-Table CSS in
+`table.css` all still exist on disk untouched, ready to be reused or adapted once the
+new portrait assets are ready. `BrandMark` (the small approved ring-mark in the table
+bar) and `ArrivingLockup` (the pre-conversation selector screen) were deliberately left
+in place — those are the finalized brand identity, not the "old" Representative icons
+Mark is replacing, and neither was named in his complaint. Verified the frontend still
+compiles clean (no Vite/TS error overlay); could not click through to a live
+conversation to eyeball the result — the local `cic-poc-backend` launch config
+(`.claude/launch.json`) fails to start in this environment ("'cic-poc' is not
+recognized as an internal or external command"), a pre-existing issue unrelated to
+this change. Flagged, not fixed — out of scope for a graphics-removal task.
+
+**⚠ Live/local state gap, the actual point of this check:** as of this entry, this
+change is **uncommitted** (`git status` shows `TheTable.tsx` modified, not staged) and
+therefore **not deployed**. Render auto-deploys `cic-poc` from `main` (per the
+2026-07-23 relaunch entry above) — so the live site at `cic-poc.onrender.com` is
+still serving the build **with** the old Living Table graphics visible, regardless of
+what's in the working tree. Anyone checking "is this live yet" today should check the
+actual site, not assume today's edit shipped — it hasn't, pending a commit/push
+decision.
+
+**Also produced, unrelated to `cic-poc` itself:** `CiC_Brand_Guidelines_Consolidated_V1_0.md`
+and a matching `.pdf`, in `Ministry/Communication/Brand-Assets/` — a single uploadable
+document combining the current Writer's Quick Reference (voice/messaging) and the Logo
+Usage Sheet (visual identity), including the actual logo mark rendered inline, built at
+Mark's request for setting up the new Canva team/business plan. Local files only, no
+live-site or deploy implication.
+
+**Next action:** Mark's call whether/when to commit and push the graphics-removal
+change (this hub doesn't commit proactively). No other System Hub follow-up.
+
+---
+
 ## 2026-07-23 — Website relaunched: Atlas and conversation table both live, wired together, verified end-to-end
 
 **The day's actual goal, per Mark:** "i would like to focus on getting the website up and running today with the two main featurs, the atlas and the conversation table with 6 worlds." Both are live. Atlas: `churchinconversation.com`, on Cloudflare, Mark's own account (a `cloudflare/workers-autoconfig` branch that appeared unexplained this morning turned out to be Cloudflare's own GitHub bot, harmless, confirmed directly with Mark rather than assumed). Conversation table: `cic-poc.onrender.com`, on Render, deployed via the `render.yaml` Blueprint prepared this morning. All four Atlas hand-off points (`index.html`, `atlas.html`, `world-atlas.html`, `pilot.html`) wired to the live URL.

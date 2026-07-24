@@ -776,12 +776,26 @@ everything below was not yet started when the descope landed.
       mid-session — confirmed serving real data on a later check, live check itself
       not yet re-run). Full reasoning, every round:
       `Ministry/Features/In-App-Icons-Graphics/Decision-Log.md`.
+      **⚠ Paused 2026-07-23 — see LT-3: the scene's graphics are pulled from the live
+      view for now, pending new assets.** This entry's own build work is not undone.
 - [x] **LT-2 — World-selector tiles: real ordering bug found and fixed (2026-07-22).**
       Tiles had no sort at all (whatever order the backend happened to return); now
       sorted by each world's own documented start year, extracted from its `period`
       string. Verified against the real six worlds' own manifest data: House-Churches
       (70) → Alexandria (150) → Syriac (200) → Church and Empire (312) → Desert (320)
       → Bethlehem Circle (382) — corrects two dates assumed earlier the same session.
+- [x] **LT-3 — Living Table graphics pulled from the live conversation view, pending
+      new realistic-portrait assets (2026-07-23).** Mark's direct call: the old flat
+      icons "detract from the conversation" — both `<LivingTableScene>` renders
+      removed from `TheTable.tsx` (active + closing views); component/data files
+      (`LivingTableScene.tsx`, `worldIcons.tsx`, `table.css`) untouched, not deleted.
+      `BrandMark`/`ArrivingLockup` (the approved brand mark, separate from the
+      Representative icons) left in place — not part of Mark's complaint. Frontend
+      compiles clean; a live in-conversation check wasn't possible this round (local
+      backend launch config broken, pre-existing/unrelated). **⚠ Uncommitted as of
+      this entry — Render still serves the old graphics live until this is committed
+      and pushed; not yet done.** Full account: System Hub Decision Log, 2026-07-23
+      (later).
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
       all green, measured from the masters; two findings fixed in-pass (three in-file lock

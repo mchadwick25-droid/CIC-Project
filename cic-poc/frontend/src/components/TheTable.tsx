@@ -15,7 +15,6 @@ import { useLexicon } from '../hooks/useLexicon';
 import { WorldSelector } from './WorldSelector';
 import { ArrivingLockup } from './ArrivingLockup';
 import { BrandMark } from './BrandMark';
-import { LivingTableScene } from './LivingTableScene';
 import { MessageBubble } from './MessageBubble';
 import { ChatInput } from './ChatInput';
 import { LexiconModal } from './LexiconModal';
@@ -117,17 +116,6 @@ export function TheTable() {
       return newKeys;
     });
   }, [messages, termMapBySpeakerKey]);
-
-  // Who currently has the floor, for the Living Table's nameplate inversion
-  // (§1a) - only a Representative mid-stream counts as "speaking"; the
-  // Facilitator, the participant, and any resting state all clear it to null.
-  const speakingKey = useMemo(() => {
-    const last = messages[messages.length - 1];
-    if (!isStreaming || !last || last.role !== 'assistant' || last.name === 'facilitator') {
-      return null;
-    }
-    return last.name?.toLowerCase().replace(' ', '_') || null;
-  }, [messages, isStreaming]);
 
   const [selectedTerm, setSelectedTerm] = useState<LexiconTerm | null>(null);
   const [selectedCitations, setSelectedCitations] = useState<Citation[] | null>(null);
@@ -321,7 +309,6 @@ export function TheTable() {
     return (
       <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
         {renderTableBar(false)}
-        <LivingTableScene worlds={selectedWorlds} speakingKey={null} />
 
         <div className="messages-container">
           {messages.map((message, index) => (
@@ -361,7 +348,6 @@ export function TheTable() {
   return (
     <div className={`table-container table-container--conversation${isLevel3Open ? ' table-container--panel-open' : ''}`}>
       {renderTableBar(true)}
-      <LivingTableScene worlds={selectedWorlds} speakingKey={speakingKey} />
 
       {error && (
         <div className="error-message">
