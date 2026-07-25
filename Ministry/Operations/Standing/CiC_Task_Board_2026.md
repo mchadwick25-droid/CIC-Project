@@ -826,9 +826,20 @@ everything below was not yet started when the descope landed.
       render the world photo top-right of the world description and the portrait
       top-right of the representative box, per Mark's design. Verified on a real
       local build at desktop (1400px) and phone (375px) widths — no overlap, no
-      overflow. **Committed and pushed — live once Render's deploy completes.**
+      overflow. **⚠ Superseded same day — see LT-5: the world photos were pulled
+      entirely on a rights question.** Portraits stand; world photos do not.
       Full account: In-App-Icons-Graphics Decision-Log; System Hub Decision Log,
       2026-07-24 (even later).
+- [x] **LT-5 — World-media tile photos withdrawn from production on a rights
+      question (2026-07-24).** Mark was told 5 of the 6 world photos need
+      permission and payment to use — pulled immediately, discrepancy with this
+      thread's own CC BY-SA license verification left genuinely unresolved. Real
+      production incident, not just cleanup: the photos had already reached
+      `main` and were live. Fixed directly on `main` (commit `1caf85e`) — six
+      files removed, code un-wired cleanly, portraits untouched, sourcing
+      research kept but flagged "do not use." Full account:
+      In-App-Icons-Graphics Decision-Log; System Hub Decision Log, 2026-07-24
+      (still even later).
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
       all green, measured from the masters; two findings fixed in-pass (three in-file lock

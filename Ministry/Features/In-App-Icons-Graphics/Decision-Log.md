@@ -673,3 +673,44 @@ not just its provenance metadata.
   decided, just not yet documented in the spec itself.
 - Phone's load-greeting screen and corner-chip mechanic are first passes only, not yet
   wired into the real app (mockup only).
+
+---
+
+## 2026-07-24 (even later) — World-media tile photos pulled entirely, pending a rights question; corrected on `main` directly
+
+**Mark's direct instruction:** he was told 5 of the 6 world-tile photos need
+permission and payment to use — "if that is true, then pull them out of the system
+and we will go without those photos for now." Complied immediately rather than
+first resolving whether the claim holds up.
+
+**A real conflict between what Mark was told and this thread's own research, left
+honestly unresolved:** every license was checked directly against the Wikimedia API
+(`extmetadata`/`LicenseShortName`) before download, and all 5 came back CC BY-SA —
+free to use with attribution, not payment. Either that verification missed
+something real, or whoever/whatever told Mark this is conflating "requires
+attribution" with "requires payment" (a common confusion with Creative Commons
+licensing). **Not resolved here — pulled regardless, since the safe action doesn't
+depend on knowing which is true.**
+
+**This had already reached production**, not just a branch — the earlier commit
+(`c2825d3` on `claude/portraits-world-media`, merged to `main` as part of System
+Hub's branch reconciliation) meant these photos were genuinely live on
+`cic-poc.onrender.com`. Fixed with real urgency: removed the six JPGs from
+`cic-poc/frontend/public/images/world-media/`, stripped `worldImage` from
+`worldMedia.ts`'s data shape entirely (not just left null), removed the now-dead
+rendering branch from `WorldSelector.tsx` and the orphaned CSS from `table.css`.
+Representative portraits are untouched — AI-generated, no third-party rights
+question ever applied to them. Verified clean visually (no broken images, no
+leftover layout gaps) before committing. **Committed and pushed directly to
+`main`** (`1caf85e`) given the live-production urgency, not routed through a
+branch/PR this time.
+
+**Research record kept, not deleted:** `Brand-Assets/World-Media/README.md` now
+carries an explicit "pulled from live use, do not use" flag at the top, so the
+sourcing work (site matches, story text, license findings) isn't lost if the
+rights question gets resolved later — but nothing there is cleared for use until
+it is.
+
+**Disposition:** all six world-media tile photos withdrawn from the live app.
+World Selector tiles now show only the Representative portraits, no world photo,
+until/unless this is cleared up.

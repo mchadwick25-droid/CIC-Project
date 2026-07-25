@@ -11,6 +11,33 @@ workstream in this project.
 
 ---
 
+## 2026-07-24 (still even later) — World-media tile photos pulled from production on a rights question — incident, corrected same-day
+
+**Mark was told 5 of the 6 world-tile photos sourced below need permission and
+payment to use.** Complied immediately per his direct instruction — pulled first,
+sorted out the discrepancy second. This thread's own license research (checked
+directly against the Wikimedia API before download) found all 5 to be CC BY-SA,
+free with attribution, not payment — so this is either a real gap in that
+verification or a mix-up between "needs attribution" and "needs payment"
+somewhere else in the chain. **Left genuinely unresolved; not something to assume
+either way.**
+
+**Real production incident, not just a code cleanup:** the photos had already
+reached `main` (via System Hub's own branch reconciliation) and were live on
+`cic-poc.onrender.com`. Fixed directly on `main` (commit `1caf85e`) rather than
+routed through a branch — six image files removed, `worldMedia.ts`/
+`WorldSelector.tsx`/`table.css` un-wired cleanly (no broken images, no leftover
+layout gaps, verified visually before pushing). Representative portraits
+untouched throughout — AI-generated, no third-party rights question ever applied.
+Full account: In-App-Icons-Graphics Decision-Log, 2026-07-24 (even later).
+
+**Standing note for anyone touching this again:** don't reinstate any of these six
+files until the rights question is actually resolved one way or the other — the
+sourcing research is preserved (flagged "do not use," not deleted) at
+`Brand-Assets/World-Media/` for whenever that happens.
+
+---
+
 ## 2026-07-24 (even later) — Realistic-portrait direction reached all six Representatives; real tile photos sourced; both wired live into the actual World Selector; committed and pushed
 
 **The whole arc, cross-referenced from the In-App Icons & Graphics thread's own
