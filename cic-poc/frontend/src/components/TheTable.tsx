@@ -336,6 +336,12 @@ export function TheTable() {
             If you're willing to tell us how this went, here's a way to reach us:{' '}
             <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>
           </p>
+          <p className="conversation-ended__feedback">
+            One honest ask: please don't post this publicly or forward it widely — we're
+            covering the cost of every conversation ourselves, and can't support that yet.
+            But if one specific person came to mind — a pastor or teacher, an academic, or
+            someone re-examining their faith — we'd welcome that one introduction.
+          </p>
         </div>
 
         {selectedTerm && (
