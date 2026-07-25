@@ -551,6 +551,24 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
+- [ ] **NEW 2026-07-23 — Readability/latency worktree work awaiting Mark's sign-off before
+      deploy.** Concurrent safety-classifier gather + deferred wind-down check, and lazy
+      per-world loading (eager preload removed) — both built and ready to ship as-is. Still
+      open: exact `PRIMARY_TURN_MAX_TOKENS` value (recommended ~1,200–1,500, up from 550),
+      whether `PRIMARY_TURN_GUIDANCE` stays standalone or merges with `_HOW_YOU_ENGAGE`, and
+      the lexicon bracket-gloss front-end render (wording decisions done, no build yet). Full
+      detail: Decision Log, 2026-07-23 (later still).
+- [ ] **NEW 2026-07-23 — Homepage hero, approved direction, build deferred until after the
+      token-budget reset.** Mark's call: yes to a short hero above the existing Atlas (same
+      page, not a new one) — protected headline + one what-line + the six real locked
+      world-icon portraits + three short "how" phrases + the "doorway" line as the why, CTA
+      scrolls into the existing search/spine unchanged. Mockup: homepage_hero_proposal
+      artifact (2026-07-23). Not yet built into `index.html`.
+- [ ] **NEW 2026-07-23 — Full 6-world conversation-quality sweep, deferred, unscheduled.**
+      Single-world pilot (Marius, real API, $1.25) came back strong — on-topic, grounded,
+      real cross-round memory, no truncation. Full protocol (6 worlds × interview + multi-world
+      table × 3 rounds) estimated ~$28–35; gated on Claude Code token budget/timing, not cost.
+      Mark: wait, not Friday afternoon. Detail: Decision Log, 2026-07-23 (later still).
 - [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
       25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
       **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**
@@ -792,10 +810,25 @@ everything below was not yet started when the descope landed.
       `BrandMark`/`ArrivingLockup` (the approved brand mark, separate from the
       Representative icons) left in place — not part of Mark's complaint. Frontend
       compiles clean; a live in-conversation check wasn't possible this round (local
-      backend launch config broken, pre-existing/unrelated). **⚠ Uncommitted as of
-      this entry — Render still serves the old graphics live until this is committed
-      and pushed; not yet done.** Full account: System Hub Decision Log, 2026-07-23
-      (later).
+      backend launch config broken, pre-existing/unrelated). **✅ Committed and
+      pushed as `bd2a69a` shortly after this entry — confirmed live** (`origin/main`
+      matches local HEAD). Full account: System Hub Decision Log, 2026-07-23 (later).
+- [x] **LT-4 — Real tile photos + all six Representative portraits wired into the
+      live World Selector (2026-07-24).** Six real, license-verified architectural/
+      artifact photos (Wikimedia Commons, one per world) sourced to
+      `Brand-Assets/World-Media/`; a real catch along the way — two of the first
+      six files pulled were correctly-licensed from the right sites but showed the
+      wrong content (a marble-fragment close-up, a portrait bust), swapped for
+      recognizable views from the same verified categories after actually looking
+      at the downloaded images, not just trusting filenames. All six approved
+      Representative portraits copied to `public/images/portraits/`. New
+      `worldMedia.ts` maps both by real `world_id`; `WorldSelector.tsx`/`table.css`
+      render the world photo top-right of the world description and the portrait
+      top-right of the representative box, per Mark's design. Verified on a real
+      local build at desktop (1400px) and phone (375px) widths — no overlap, no
+      overflow. **Committed and pushed — live once Render's deploy completes.**
+      Full account: In-App-Icons-Graphics Decision-Log; System Hub Decision Log,
+      2026-07-24 (even later).
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
       all green, measured from the masters; two findings fixed in-pass (three in-file lock
