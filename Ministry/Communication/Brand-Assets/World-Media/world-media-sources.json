@@ -1,0 +1,76 @@
+{
+  "house-churches": {
+    "file": "house-churches/ephesus-terrace-houses.jpg",
+    "title": "Terrace House 2, Ephesus (frescoed room)",
+    "location": "Ephesus, western Turkey (ancient Roman Asia Minor)",
+    "period": "Core structure 1st century BCE/CE, continuously inhabited and remodeled through the 3rd century CE — overlapping this world's own c. 70-200 CE span",
+    "story": "An actual excavated Roman-era residential block built into the hillside opposite the Library of Celsus — a real, multi-room private house from the Greek East with its original painted wall decoration still visible, the same kind of domestic space a household leader like Chloe would have opened for a fellowship gathering. Some of the surviving fresco decoration visible in photos is later restoration-era work (2nd-3rd c.), not original to the earliest phase.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:13.11_Terrace_Houses_in_Ephesus.JPG",
+    "author": "José Luiz Bernardes Ribeiro",
+    "date_taken": "2011-09-23",
+    "license": "CC BY-SA 3.0",
+    "attribution": "Photo by José Luiz Bernardes Ribeiro, CC BY-SA 3.0, via Wikimedia Commons",
+    "note": "Replaced 2026-07-24: the first file pulled for this slot (same site, different photo) turned out to be a close-up of loose marble tile fragments, not a usable architectural view. Verified as genuinely mislabeled-for-purpose (not a download error) via Commons category metadata before swapping to this wider room view from the same verified category."
+  },
+  "alexandria": {
+    "file": "alexandria/kom-el-shoqafa-catacombs.jpg",
+    "title": "Catacombs of Kom el-Shoqafa (tomb corridor)",
+    "location": "Karmouz, Alexandria, Egypt",
+    "period": "Carved 2nd century CE, used into the 4th century CE — squarely inside this world's c. 150-400 CE span",
+    "story": "Alexandria's own funerary architecture from exactly this era: a rock-cut tomb corridor with carved burial niches, the same complex whose main chamber literally fuses Egyptian funerary gods (Anubis, Apis) with Greek mythological forms inside a Roman-style architectural frame — a physical embodiment of the same intellectual synthesis the Catechetical School was working within.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AlexShuqafaTombs.jpg",
+    "author": "Roland Unger",
+    "date_taken": "unspecified",
+    "license": "CC BY-SA 3.0",
+    "attribution": "Photo by Roland Unger, CC BY-SA 3.0, via Wikimedia Commons",
+    "note": "Replaced 2026-07-24: the first file pulled for this slot was a close-up of a carved portrait bust, not a recognizable architectural view. Swapped to this corridor view from the same verified category. Saved at 500x333 (a Wikimedia rate limit blocked repeated attempts at the full 800x533 original) — re-fetch the original from the source_url above if a larger file is needed."
+  },
+  "syriac": {
+    "file": "syriac/dura-europos-church.jpg",
+    "title": "Dura-Europos house-church (domus ecclesiae)",
+    "location": "Dura-Europos, Syria, on the Euphrates",
+    "period": "Converted from a private house into a church c. 232-256 CE — the earliest archaeologically identified Christian house-church/baptistery in the world",
+    "story": "A real Roman-Syrian frontier garrison town sitting exactly in this world's own Mesopotamian frontier setting, giving Yausep's Syriac-speaking, Diatessaron-centered tradition a genuine physical home. (Checked and rejected: the visible citadel/walls at Şanlıurfa, ancient Edessa, are Abbasid/Mamluk/Ottoman-era rebuilds, not period fabric, despite being the correct location.)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DuraEuropos-Church.jpg",
+    "author": "Heretiq",
+    "date_taken": "2005",
+    "license": "CC BY-SA 2.5",
+    "attribution": "Photo by Heretiq, CC BY-SA 2.5, via Wikimedia Commons"
+  },
+  "empire": {
+    "file": "empire/hagia-irene.jpg",
+    "title": "Hagia Irene (Church of the Holy Peace)",
+    "location": "Topkapı Palace grounds, Istanbul (ancient Constantinople)",
+    "period": "Tradition holds it was founded under Constantine I in the 4th century; current fabric is largely Justinian's 6th-century rebuild after the Nika riots",
+    "story": "The oldest surviving church in Constantinople and the only Byzantine-era church in the city never converted into a mosque — the genuine physical church tied to Constantine's founding acts in the very city Marius travels to as Deacon of the Letters. (Checked and rejected: San Giovanni in Laterano's photographable facade today is Galilei's 1735 Baroque rebuild, nothing period-visible left.)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hagia_Eirene_Constantinople_2007.jpg",
+    "author": "Gryffindor",
+    "date_taken": "2007",
+    "license": "Public domain",
+    "attribution": "Photo by Gryffindor, public domain, via Wikimedia Commons (attribution not legally required, credited as good practice)"
+  },
+  "desert": {
+    "file": "desert/monastery-saint-macarius.jpg",
+    "title": "Monastery of Saint Macarius the Great",
+    "location": "Wadi al-Natrun (ancient Scetis), Lower Egypt",
+    "period": "Founded late 4th century CE, on the same ground Papnoute's world represents — but honestly, no standing 4th-5th century fabric survives; the visible keep (qasr) dates 1069-1196 and the churches were rebuilt in the 7th, 11th, and 20th centuries",
+    "story": "The authentic historical site of Desert Monasticism, still an active monastery today — but a later-rebuilt structure on the original ground, not original fabric. (A more period-authentic alternative, the Kellia ruins, was found but its Commons license looks like an unverified scan from a book rather than the uploader's own photo, so it wasn't used here pending proper rights clearance.)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monastery_of_Saint_Macarius_the_Great,_Egypt-15.JPG",
+    "author": "Faris El-Gwely",
+    "date_taken": "2013",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Photo by Faris El-Gwely, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  "bethlehem": {
+    "file": "bethlehem/grotto-of-st-jerome.jpg",
+    "title": "Grotto of St. Jerome",
+    "location": "Beneath the Church of St. Catherine, Bethlehem, physically adjoining the Grotto of the Nativity",
+    "period": "The cave itself is the traditional site of Jerome's residence and Vulgate translation work, 382-420 CE; the altars and decoration visible today (including one dedicated to Paula and Eustochium) are later medieval/Franciscan additions",
+    "story": "The actual cave where Jerome lived and worked on his translation, continuously identified with him since antiquity — and the visible altar dedicated to Paula and Eustochium is a striking direct match to this world's own household and its Representative, Albina.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palestine-06361_-_Grotto_of_St._Jerome_(34769436912).jpg",
+    "author": "Dennis G. Jarvis (archer10)",
+    "date_taken": "unspecified, via Flickr",
+    "license": "CC BY-SA 2.0",
+    "attribution": "Photo by Dennis G. Jarvis, CC BY-SA 2.0, via Wikimedia Commons"
+  }
+}

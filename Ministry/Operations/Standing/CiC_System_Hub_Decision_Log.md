@@ -11,6 +11,185 @@ workstream in this project.
 
 ---
 
+## 2026-07-24 (even later) — Realistic-portrait direction reached all six Representatives; real tile photos sourced; both wired live into the actual World Selector; committed and pushed
+
+**The whole arc, cross-referenced from the In-App Icons & Graphics thread's own
+Decision Log (full reasoning there, this is the cross-thread status point):**
+all six Representatives (Albina, Theon, Chloe, Marius, Yausep, Papnoute) now have
+approved, painterly profile portraits, each built through the same disciplined
+process — original sources first, then time/geography-bound external research,
+only then a source-supported lean into ethnic/regional diversity — catching real
+issues along the way (an anachronistic wimple, a modern side-part haircut, a
+cross-world dress contamination, an object tied to the wrong specific historical
+figure, and more).
+
+**New this round:** six real, historically-matched architectural/artifact photos
+(one per world — Ephesus, Kom el-Shoqafa, Dura-Europos, Hagia Irene, the Monastery
+of St. Macarius, the Grotto of St. Jerome), sourced from Wikimedia Commons with
+verified open licenses, downloaded to `Brand-Assets/World-Media/`. **A real catch
+along the way:** two of the six first-pulled files were genuinely, correctly
+licensed from the right sites but showed the wrong content (a marble-fragment
+close-up, a portrait bust) — caught only by actually looking at the downloaded
+images, not trusting filenames, and swapped for recognizable architectural views
+from the same verified categories.
+
+**Both image sets wired into the real, running app** — not a mockup this time.
+`WorldSelector.tsx`'s tiles now show the world's real photo in the top-right
+corner of the world description, and the Representative's portrait in the
+top-right corner of their own box, per Mark's own design. Verified on a real
+local build (the backend's broken launch script was bypassed by starting uvicorn
+directly) at both desktop (1400px, two-column grid) and phone (375px, single
+column, images correctly shrink to 68px) widths — no overlap, no overflow at
+either size.
+
+**Committed and pushed — this is now live** (or will be within Render's normal
+auto-deploy window after this push): the portrait/world-media feature, the
+earlier brand-guidelines consolidated PDF, and this thread's own Decision Log/
+System Hub tracking updates. **Deliberately left out of this commit:** unrelated,
+substantial pending changes already sitting in the working tree before today's
+session touched anything — `cic-poc/backend/app/graph/nodes.py` (+215/-23 lines),
+`facilitator_prompts.py` (+78 lines), and two Funding-Strategy document updates.
+These belong to a different, untouched thread; committing them blind would ship
+unverified backend behavior changes alongside a UI feature. **Flagged, not
+resolved** — whoever owns that other thread should commit or discuss those
+separately.
+
+---
+
+## 2026-07-24 (later still) — Deep research on AI conversational realness; handoff to a new Opus thread for per-role length/pacing design
+
+**Real research, adversarially verified:** dispatched a deep-research workflow (105 agents, run on Fable per Mark's request) on what makes AI conversation feel real, applied to CiC's actual architecture. Full report published as an artifact and saved to `ai_conversation_research_report.md` in this session's scratchpad. Headline finding: the "assistant register" (long, over-polite, over-explaining replies) is the best-evidenced naturalness killer — validates the length-cap work already underway. Second standout: models state a persona but fail to *enact* it, especially by refusing to sustain disagreement — the same fix as CiC's own fidelity conviction, not a separate one. Full 9-point priority list and honest caveats (notably: no surviving evidence that latency itself is a first-order naturalness driver — yesterday's defer-safety-checks-for-latency call rests on product judgment, not on anything this research confirmed) are in the report.
+
+**Real discovery while scoping the next step:** Mark's "four participant lanes" (Regular visitor / Pastor or teacher / Academic or scholar / Reevaluation) already have a full, real implementation — `cic-poc/backend/app/prompts/role_modes.py`, on the **`claude/representative-modes-exploration` branch** (not merged to main, not in this session's worktree — read it via `git show claude/representative-modes-exploration:cic-poc/backend/app/prompts/role_modes.py`). Design spec: `Ministry/Features/Representative-Modes/Design/CiC_Representative_Modes_Design_Spec_V0_1.md`.
+
+**Mark's own call, direct (2026-07-24):** the existing design's "no length targets — the formation's own measure governs" rule is overridden. His own framing: that rule reflected an ideal, or slipped in without being deliberately tested, not a proven constraint. `role_modes.py`, the Design Spec, and the Battery A results are all **research and prior learning for the next thread, not binding rules** — the per-lane length/pacing design gets built fresh from the combined research (today's deep-research report + this project's own past work), and it's fine to land somewhere different from what's already written, on length or anything else, if the reasoning actually leads there.
+
+**Also real and important:** this same role-mode system failed real testing — Battery A (2026-07-22) found content-dropping failures concentrated almost entirely in reevaluation mode. Fixed same day, only spot-verified since, not formally re-run. Still on the standing waiting list. Building more per-role complexity on top raises the stakes on that formal re-run, doesn't reduce them.
+
+**Table-size axis already exists too:** `table_discourse.py` (main branch, extended today with `PRIMARY_TURN_GUIDANCE`) is the sibling system, scoped to table size rather than listener — real prior art for the role × table-size interaction question.
+
+**Next action:** Mark is launching a dedicated Opus thread to work through unique conversation length/pacing per lane, one decision at a time, defaulting to "general" until the role-selection UI (Increment 2) actually ships.
+
+---
+
+## 2026-07-24 (later) — Handoff to a new thread: build the actual pilot-invitation website
+
+**Mark's own direction, verbatim intent:** launch a dedicated thread with website-design focus to build out `churchinconversation.com` as the real home for the pilot. Not a full release — an invitation to participate in the pilot and help improve Church in Conversation. Simplified, professional, accessible, minimalist. One word and one graphic decision at a time, same collaborative discipline as everything else this project runs on.
+
+**The one real structural correction from today's earlier hero mockup:** the conversation program (the Table) is the central piece; the Atlas is a supporting tool, not a co-equal partner. Today's mockup (`homepage_hero_proposal` artifact, 2026-07-23) led with the Atlas's own search/spine as the main structure with a hero above it — that hierarchy needs to flip. The next thread should design toward "start a conversation" as the primary action, with the Atlas as a secondary way in for someone who wants to explore first, not the other way around.
+
+**Graphics status, real and current:** the old flat per-world thumbnail icons (`assets/world-icons/*.svg`, used throughout today's Atlas cards) are retired from this next build — realistic portrait assets are in development separately (the same asset line the Living Table scene is paused waiting on, see the 2026-07-23 later entry above). Don't reach for the retired icons as placeholder graphics in the new site.
+
+**Messaging status:** the key public phrases have been reworked since the last full pass — `Ministry/Communication/Brand-Assets/CiC_Brand_Guidelines_Consolidated_V1_0.md` (protected verbatim lines, retired words, voice pairs) is the current source of truth; `Ministry/Communication/CiC_Landing_Page_Copy_V0_1_DRAFT.md` is real source material but predates both the live-hosting reality and this pilot-invitation framing specifically, so treat it as raw material, not a template to reuse as-is.
+
+**Next action:** new thread, `cic-frontend-strategy` skill, build the actual site page by page with Mark, one decision at a time.
+
+---
+
+## 2026-07-24 — Real cost data replaces guesswork; a logging bug found and fixed; a curriculum-bank design direction confirmed
+
+**Trigger:** Mark's own correction of a real attribution error — the $1.25 pilot cost from 2026-07-23 covered five separate real-API test sessions that day, not the one 3-round conversation it had been credited to. That correction, followed through honestly, changed the whole cost picture.
+
+**Real, verified findings, in order:**
+1. Token-usage logging (`cic-poc/backend/app/usage_logging.py`, worktree-only) instrumented every real LLM call site — confirmed working via real API calls.
+2. A clean, isolated test (Theon solo interview + Chloe/Marius/Papnoute table, same real streaming endpoint for both) gave the first trustworthy interview-vs-table ratio: **3.77x**, not the earlier back-of-envelope estimate. Real per-conversation cost came out far below the original $0.42/question figure — closer to $0.06-0.08/exchange — because that figure was never one conversation's cost to begin with.
+3. **A real logging bug found and fixed today:** `log_llm_usage` only read cache stats from `response.response_metadata["usage"]`, which is empty for a *streamed* call — the actual path every real user turn takes. The real numbers were present the whole time under LangChain's own `usage_metadata["input_token_details"]`, just unread. This means the earlier "table-mode caching is broken" conclusion was never confirmed — it was an artifact of not being able to see caching on the production code path, in either mode. **Fixed and verified 2026-07-24** with a real API call showing correct `cache_read_input_tokens` on a streamed call for the first time. Still worktree-only, not deployed. Next real step (not yet done): re-run a clean test to find out whether table-mode caching actually works now that it's visible.
+4. **A process failure worth remembering:** a background agent presumed stalled ("waiting for the Monitor") was not actually dead — it kept working unprompted and duplicated part of a fresh agent's real-API test, overlapping in time. Real, if modest, wasted API spend, and it broke the clean-attribution goal of that test. Lesson: confirm zero live children before treating a stall as dead, don't just trust a "completed" status.
+
+**New design direction, not yet built: a pre-generated, reviewed answer bank for guided/curriculum questions.** Distinct from a free-text FAQ cache (which carries real personalization risk this project has deliberately protected against all session) — this is scoped specifically to the already-designed Guided Starters content (4 worlds drafted, Task Board #201), where there's no question-matching ambiguity and no expectation mismatch, since the participant is explicitly choosing from a curated path. Skips retrieval, generation, *and* the safety-classifier pipeline entirely for that traffic, since the content is reviewed once rather than generated fresh and unpredictably each time. Mark's own framing: this raises teaching quality (deliberately sequenced, reviewed depth) at the same time it lowers cost — not a quality-for-cost tradeoff like a model downgrade would be. Judged the single largest lever found today, larger than the caching fix. **Next action:** design and build once the near-term architecture fixes are settled; the Guided Starters drafts are the natural seed before real usage data exists.
+
+**Funding context:** Mark's funding assumptions were built around $1.00/hour; real (if still incomplete) data puts current cost around $2/hour. The caching-fix-and-remeasure step plus the curriculum-bank direction are the two live candidates for closing that gap without a quality tradeoff.
+
+---
+
+## 2026-07-23 (later still) — Readability/latency work built and reviewed, nothing deployed; conversation-quality pilot run and full sweep deferred
+
+**Trigger:** live real-tester feedback relayed by Mark — voices cutting out mid-turn, first
+answers running long, and testers not recognizing period vocabulary well enough for the
+conversation to make sense. Standing rule set at the start of this thread and held
+throughout: **build and verify in the worktree, no live changes until Mark explicitly signs
+off.** Everything below except the pilot test itself is still worktree-only, uncommitted, not
+deployed.
+
+**Safety-check architecture — real distinction found, not just an optimization.** The five
+pre-response checks split into two kinds: frame-breaker, relational-safety, and
+epistemology-bridge *replace* a turn before it's ever generated (must stay blocking — letting
+a harmful/wrong response generate and only flagging it after is a different, worse thing).
+Modern-term-bridge and wind-down-sensing only *annotate* an already-good turn, so they're
+safely deferrable for latency. Built in the worktree: frame-breaker/relational-safety/
+epistemology-bridge now run concurrently (`asyncio.gather`) instead of sequentially;
+wind-down-sensing moved to a backgrounded call with its own isolated error handling (this
+also fixed a real bug — it was previously nested inside drift-checking's exception handler
+and silently swallowed on failure). Modern-term-bridge stays sequential — judged too risky to
+parallelize safely. `cic-poc/backend/app/main.py`.
+
+**Response length.** `PRIMARY_TURN_MAX_TOKENS` currently 550 in the worktree; Mark's explicit
+preference is a response that occasionally runs long over one that ever cuts off mid-sentence
+(the cutoff reads as broken, the length doesn't) — recommended raise to ~1,200–1,500, exact
+value not yet locked in. New `PRIMARY_TURN_GUIDANCE` block added alongside the existing
+`REACTIVE_TURN_GUIDANCE` in `table_discourse.py`; open question whether it stays a separate
+block or gets consolidated with the pre-existing `_HOW_YOU_ENGAGE` guidance. `nodes.py`,
+`table_discourse.py`.
+
+**Lazy world loading.** All 6 worlds' RAG retrievers were being eagerly preloaded at startup;
+per-world lazy caching already existed underneath that (`nodes.py`) and was simply never
+reached. Fix is just removing the eager preload loop — built in the worktree, not deployed.
+
+**Lexicon gloss rendering rule — new standing rule for the whole document.** Two categories
+render differently: **Category A** (opaque vocabulary — baptism, theosis, etc.) leads with
+the modern gloss, original term follows in brackets. **Category B** (readable phrases that are
+referentially ambiguous, like day/month naming — "the day of the sun") is the opposite: the
+original phrase leads exactly as attested, the modern reference follows in brackets ("the day
+named for the sun (Sunday)") — these aren't hard to read, they're easy to misread the wrong
+specific meaning into. Full one-decision-at-a-time review pass done today across false-friend
+and Category B terms plus a chunk of Alexandria (raza, homoios, Vulgata, logismoi, Koinōnia,
+Iḥidaya, Theosis, Participation, Nous, Soul/Psyche, Freedom/Autexousia, Likeness of God,
+Oikonomia, Mystery, Allegory) — several genuine theological corrections from Mark improved
+the final glosses beyond what either the audit or Claude had first proposed (Soul/Psyche
+landed on "your whole self, body and heart together" specifically to avoid collapsing into
+the separate body/soul/spirit sense). **Independent Opus review of the audit caught real
+fabrication** — 3 of 9 listed Desert Category A terms (Xeniteia, Apatheia, Penthos) weren't
+real lexicon entries at all, invented from general period-vocabulary knowledge rather than
+the actual source files, plus a fabricated supporting quotation on a Syriac "Mar" entry — both
+corrected and independently re-verified. Separately, real period research (Cassian, Palladius,
+the *Apophthegmata Patrum*, Chitty, the Guillaumonts' Kellia excavations) resolved a Desert
+"sixth day" day-counting error in a live story chunk — **this one is already shipped**
+(commits `0276b6b`, `64d65d8`), including moving the correction into the story's front-matter
+`Source:` line specifically because that's the only part of a story chunk the citation modal
+actually shows end users (`CitationModal.tsx` reads `key_sources` from front matter, not from
+the internal Tier Justification section). **Still not built:** the actual front-end rendering
+mechanism for the bracket-gloss pattern — today was wording decisions only. **Not yet
+confirmed:** whether the full audit document write-back completed as instructed.
+
+**World deselection — checked, no bug.** Mark asked for the ability to deselect a
+previously-picked world before launching the table. Read the actual code on both surfaces:
+already works. Atlas tray has an explicit "×" remove button per chip; the app's
+`WorldSelector.tsx` toggles selection on/off on the same click. No change needed.
+
+**Conversation-quality pilot — real data, full 6-world sweep deferred, not scheduled.** Ran a
+real 3-round Deep Interview with Marius (Church and Empire) through the actual pipeline — real
+API calls, real retrieval, real citations, no mock data. Result: strong on the fundamentals —
+every response opens by directly answering the question asked (no speech-like preamble), stays
+well under the current length cap, real cross-round memory (round 3 concretely reused round
+1's material rather than re-explaining it), and genuine substance-driven variation in
+tone/register round to round rather than a fixed template. One real, minor issue found: a
+citation shown to the user in one round wasn't actually reflected anywhere in that round's
+visible text — a retrieval/display mismatch worth fixing, independent of anything else in this
+thread. Confirmed actual cost: **$1.25** for this single-world, single-mode, 3-round pilot.
+Scaled estimate for the full requested protocol (6 worlds × interview + multi-world table ×
+3 rounds) — roughly **$28–35**, affordable, but the real constraint today was Claude Code's
+own token budget, not the API dollars. **Mark's call: wait, not scheduled for a specific day**
+("Friday afternoon will be busy") — next action is picking a time and running it, most likely
+via the multi-world table mode specifically since that's what the solo pilot couldn't test
+(cross-Representative reaction, dominance/convergence handling).
+
+**Next action:** nothing deploys from this thread until Mark reviews and signs off item by
+item — token cap value, guidance-block consolidation, and the gloss-rendering build are the
+three still-open decisions; the concurrent-classifier and lazy-loading fixes are ready to ship
+as soon as he says go.
+
+---
+
 ## 2026-07-23 (later) — Living Table graphics pulled from the live conversation view; Brand Guidelines consolidated into an uploadable PDF; live/local state gap flagged
 
 **Mark's own call, direct:** the old flat World-Icon graphics inside the Living Table

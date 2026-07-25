@@ -9,6 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import type { World, WorldsResponse } from '../types/conversation';
+import { WORLD_MEDIA } from '../data/worldMedia';
 
 const API_BASE = '/api';
 
@@ -150,6 +151,7 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
       <div className="world-selector__grid">
         {worlds.map((world) => {
           const order = getSelectionOrder(world);
+          const media = WORLD_MEDIA[world.id];
           return (
             <div
               key={world.id}
@@ -161,19 +163,29 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
                 <div className="world-card__selection-badge">{order}</div>
               )}
 
-              <div className="world-card__header">
-                <div>
-                  <h3 className="world-card__name">{world.name}</h3>
-                  {world.subtitle && (
-                    <span className="world-card__subtitle">({world.subtitle})</span>
-                  )}
+              <div className="world-card__world-info">
+                <div className="world-card__header">
+                  <div>
+                    <h3 className="world-card__name">{world.name}</h3>
+                    {world.subtitle && (
+                      <span className="world-card__subtitle">({world.subtitle})</span>
+                    )}
+                  </div>
+                  <span className="world-card__period">{world.period}</span>
                 </div>
-                <span className="world-card__period">{world.period}</span>
+
+                <p className="world-card__region">{world.region}</p>
+
+                <p className="world-card__description">{world.description}</p>
+
+                {media && (
+                  <img
+                    className="world-card__world-image"
+                    src={media.worldImage}
+                    alt={`A real architectural or artifact photo from ${world.name}`}
+                  />
+                )}
               </div>
-
-              <p className="world-card__region">{world.region}</p>
-
-              <p className="world-card__description">{world.description}</p>
 
               <div className="world-card__representative">
                 <div className="world-card__rep-header">
@@ -184,6 +196,14 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
                 <p className="world-card__rep-description">
                   {world.representative.description}
                 </p>
+
+                {media && (
+                  <img
+                    className="world-card__portrait-image"
+                    src={media.portraitImage}
+                    alt={`Portrait of ${world.representative.name}`}
+                  />
+                )}
               </div>
             </div>
           );
