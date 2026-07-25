@@ -56,32 +56,18 @@
     <p class="eyebrow">Join the Pilot</p>
     <h1>Be one of the first to sit at the Table</h1>
     <p class="lede">Before Church in Conversation opens more broadly, a small group of early testers is helping us see it clearly — what works, what doesn't, and where it still falls short. We're looking for four kinds of readers, and we'd like at least one of each.</p>
-    <p class="lede" style="font-size:.95rem;">The first round is small on purpose. If it's full by the time you reach out, your interest carries straight over to the next one — nothing is lost by expressing interest now.</p>
   </section>
 
   <section class="page-section" id="enter-cta-section" style="text-align:center;">
-    <p id="enter-cta-live" style="display:none;">
-      <a class="btn primary" id="enter-cta-link" href="#">Come and join us at the Table</a>
-    </p>
-    <p id="enter-cta-pending" class="lede" style="font-size:.95rem;">
-      The Table itself will open right here, with no separate sign-up, as soon as hosting is finished. Check back soon.
+    <p>
+      <a class="btn primary" id="enter-cta-link" href="https://cic-poc.onrender.com">Come and join us at the Table</a>
     </p>
     <script>
-      // Set once cic-poc's frontend has a real hosted URL (System Hub Task
-      // Board #101/401) - this is the only step needed to turn this link
-      // live everywhere. Until then it stays honest about not being ready
-      // rather than linking somewhere broken - EXCEPT when this page is
-      // being viewed from localhost (a local demo/dev session), where the
-      // real cic-poc app is almost certainly already running on this same
-      // machine. Safe to commit: window.location.hostname is never
-      // "localhost" on the real public domain. Port matches this evening's
-      // verification server; update if the standard dev port (8000) differs.
+      // Local dev/demo convenience only - the real public domain always
+      // uses the live production URL set directly in the href above.
       const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-      const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
-      if (LIVE_APP_URL) {
-        document.getElementById('enter-cta-link').href = LIVE_APP_URL;
-        document.getElementById('enter-cta-live').style.display = '';
-        document.getElementById('enter-cta-pending').style.display = 'none';
+      if (isLocal) {
+        document.getElementById('enter-cta-link').href = 'http://localhost:8199';
       }
     </script>
   </section>
@@ -123,7 +109,7 @@
     <p class="eyebrow">Not required — only if you'd like to</p>
     <h2>Let Mark know you stopped by</h2>
     <p>The link above works on its own — you don't need to fill anything out first or wait to hear back. But if you'd like to say which seat sounds like you, or just let Mark know you're here, this reaches him directly.</p>
-    <form class="interest" id="pilot-interest-form" action="mailto:markchadwick25@gmail.com" method="post" enctype="text/plain">
+    <form class="interest" id="pilot-interest-form" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
       <label for="name">Your name</label>
       <input type="text" id="name" name="Name" required>
 
