@@ -368,6 +368,33 @@ convergence per Mark's own word, not a claim that every open thread in this log 
 
 ---
 
+## 2026-07-22 (same day, continued again) — Real cost data ($1.25–1.50/hour) confirms prior estimates; free-tier time cap deliberately deferred to pilot data, not projection
+
+**Real testing result, not an estimate:** actual measured cost is **$1.25–1.50 per hour of
+conversation**. Cross-checked against this thread's own prior per-conversation estimates
+($0.20–0.75 at a 15–25 min average conversation length) — consistent, not a surprise; the new
+number just replaces a wide guess with a tested one, in a cleaner unit for tier design.
+
+**Recalculated against budget levels already anchored in this thread:** the go-live ceiling
+($100–150) buys ~67–120 hours of total conversation; the $243/month and $375/month variable-
+budget scenarios buy ~162–194 and ~250–300 hours respectively; the $8/month subscription buys
+~5.3–6.4 hours — a genuinely large step up over a modest free cap, not a marginal one.
+
+**Decision: the free-tier time cap will be set from real pilot data, not a pre-launch
+projection.** Mark and Susan's own call. The real cost rate gives the *method* (budget ÷ rate ÷
+target audience) but the actual number waits for the pilot. What the pilot needs to surface to
+make that call well: real average conversation length, the real usage distribution (whether the
+"spike then bifurcate" pattern named early in this thread actually holds at real scale), and real
+spend velocity. `CiC_Business_Roadmap_V0_1.md` and its companion artifact updated in place —
+Phase 2 now states this explicitly as a deliberate deferral, not an unresolved gap; Phase 3 is
+where the number actually gets set.
+
+**Next action:** none until pilot data exists. The market-validated $10/$8 giving amounts and the
+tier structure itself are unaffected by this — this only sharpens the free-tier cap and the
+subscription tier's real value, both already flagged as open in the roadmap.
+
+---
+
 ## 2026-07-22 (cross-reference from System Hub, not a decision made in this thread)
 
 Mark told System Hub directly: *"we can put a hold on the funding strategy and support gifts for

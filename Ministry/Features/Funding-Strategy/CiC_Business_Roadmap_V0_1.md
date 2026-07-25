@@ -56,6 +56,14 @@ IPO or venture-scale growth trajectory.
   is the honest planning number**, not the informal "2%" this project had been citing before
   (that number turned out to be Wikimedia banner copy, not a measured rate — corrected this week).
 - Recalibrate the Anthropic spending ceiling against real data, not the pre-launch estimate.
+- **The free-tier time cap is deliberately not being set from a projection — it gets set from
+  real pilot data, on purpose.** Real cost testing this week ($1.25–1.50/hour of conversation)
+  gives the method (budget ÷ rate ÷ target audience), but Mark and Susan's own call is to run the
+  pilot first and let real numbers decide the actual figure, not lock it in ahead of evidence.
+  What the pilot needs to surface to make that call well: real average conversation length per
+  user, the real usage distribution (does the "spike then bifurcate" pattern — a big first
+  encounter, then either real depth or drop-off — actually hold at real scale?), and real spend
+  velocity against whatever ceiling is live.
 - Send the refreshed Letter to Friends to Mark and Susan's own network — doesn't wait on web
   traffic at all, runs in parallel, fully within their own control.
 - Begin relational conversations toward the Academic Advisory Circle — informal, no build
@@ -72,6 +80,8 @@ IPO or venture-scale growth trajectory.
   review commissioned through it.
 - Set a reserves policy — BibleProject's ~6-month-operating-expense discipline, scaled to CiC's
   own much smaller budget.
+- Set the free-tier time cap for real, using Phase 2's actual pilot data — this is where the
+  deliberately-deferred decision from Phase 2 gets made.
 
 ## Phase 4 — Deepen (once the subscription tier proves out)
 
