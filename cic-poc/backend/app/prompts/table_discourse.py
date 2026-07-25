@@ -30,6 +30,20 @@ Version history:
 - v1 (this file's creation): consolidated from the inline literal as it
   stood after tonight's "Keep the Participant in the Room" addition -
   content unchanged from that point, only its location and cacheability.
+- v2: added PRIMARY_TURN_GUIDANCE here for the ordinary primary turn
+  (single-world "Deep Interview" mode, and every small-table opening
+  speaker), which previously received no conversational-shape guidance at
+  all beyond representative_prompts.py's static _HOW_YOU_ENGAGE block.
+- v3 (2026-07-24/25, Mark's own call): PRIMARY_TURN_GUIDANCE folded
+  directly into _HOW_YOU_ENGAGE instead and removed from this file. Its
+  content applies just as well to a reactive turn's own underlying goal
+  (answer what was actually asked, do not reach for comprehensiveness) as
+  to a primary one, so it now lives in the always-present static prompt
+  rather than a conditionally-injected block - one less moving piece for
+  the same effect. REACTIVE_TURN_GUIDANCE and OPENING_TURN_LARGE_TABLE_GUIDANCE
+  are unaffected; they remain their own conditionally-injected blocks
+  because their content (naming another representative's words, table-size
+  discipline) genuinely doesn't apply outside their specific situations.
 """
 
 OPENING_TURN_LARGE_TABLE_GUIDANCE = """# This Table Seats Several Voices

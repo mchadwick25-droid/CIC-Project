@@ -11,6 +11,18 @@ conditions into a single LLM call per retriever per turn.
 import re
 from dataclasses import dataclass
 
+from app.usage_logging import log_llm_usage
+
+# The model both LexiconRetriever and StoryRetriever currently hardcode for
+# filter_llm (see app/rag/retriever.py and app/rag/story_retriever.py) -
+# kept here as its own constant purely so _run_batch's log_llm_usage() call
+# can log the real model string without importing either retriever module
+# (which would risk a circular import back into this one) or app.graph.nodes
+# (which imports app.rag, so a reverse import here would also be circular).
+# Independent of those constructors - must be kept in sync by hand if the
+# filter model ever changes.
+_FILTER_MODEL = "claude-haiku-4-5-20251001"
+
 
 @dataclass
 class Candidate:
@@ -179,6 +191,12 @@ Use the same numbering as above. Do not add commentary outside these lines.
 """
 
     response = llm.invoke(prompt)
+    # item_noun distinguishes which retriever called this shared helper -
+    # LexiconRetriever passes "lexicon entry" (see app/rag/retriever.py),
+    # StoryRetriever passes "story" (see app/rag/story_retriever.py). Used
+    # only to pick the right log label; no other behavior depends on it.
+    label = "retrieval_filter_story" if item_noun == "story" else "retrieval_filter_lexicon"
+    log_llm_usage(label, response, _FILTER_MODEL)
     parsed: dict[int, tuple[bool, str]] = {}
 
     for line in response.content.strip().split("\n"):
