@@ -1,14 +1,22 @@
 """Confirmed inline-gloss renderings, per world - the bracket-gloss reading
 pattern from LEXICON_GLOSS_AUDIT_2026-07-23.md's project-owner review pass.
 
-Scope, deliberately narrow: this module holds ONLY the items the audit
-document's own "Decisions log" section marks Confirmed - roughly 20 of the
-~104+ terms and phrases the audit addressed. Everything else in that
-document is still an open recommendation awaiting review; shipping an
-unconfirmed gloss here would mean presenting a guess as settled, which is
-exactly what the audit's own review process exists to prevent. When more
-items are confirmed, add them here - do not promote a recommendation by
-inferring it from the doc's prose.
+Scope: every item the audit document's own tables carried at High confidence
+("essentially just the term's own Aliases/Quick Meaning restated plainly")
+plus every individually-decided Medium/Flagged item - the full glossary,
+project-owner reviewed and confirmed 2026-07-25. Medium-confidence and
+flagged (false-friend / no-clean-equivalent) items are reviewed and added
+one at a time, per the project owner's own request, rather than shipped in
+this bulk pass; excluded/scope-question entries (e.g. Syriac's Catholicos)
+are never added at all. Shipping an unconfirmed gloss here would mean
+presenting a guess as settled, which is exactly what the audit's own review
+process exists to prevent.
+
+A handful of terms the audit flagged "low priority, already plain English"
+have no distinct period-term in their own lexicon file's `Term:` line at
+all (e.g. Alexandria's bare "Death," "Christ," "Prayer") - there is nothing
+to put in brackets for these, so they are correctly absent here rather than
+glossed with an invented foreign word.
 
 Two rendering patterns, per the audit's own general rendering rule:
 - Category A (vocabulary terms): modern gloss leads, original term follows
@@ -49,17 +57,50 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
     "syriac-edessa-nisibis": [
         ConfirmedGloss("A", "raza", "a sign tied to a hidden truth"),
         ConfirmedGloss("A", "Iḥidaya", "the undivided one"),
+        ConfirmedGloss("A", "shrara", "the truth itself"),
+        ConfirmedGloss("A", "madrasha", "a teaching-hymn"),
+        ConfirmedGloss("A", "Ewangeliyon da-Mhallete", "the harmonized Gospel"),
+        ConfirmedGloss("A", "Mar", "my lord, an honorific like \"Saint\""),
     ],
     "desert-monasticism": [
         ConfirmedGloss("A", "Logismoi", "the thoughts that trouble the mind"),
         ConfirmedGloss("A", "Koinōnia", "Pachomius's monastic federation"),
+        ConfirmedGloss("A", "Anachōrēsis", "withdrawal"),
+        ConfirmedGloss("A", "Apotagē", "renunciation"),
+        ConfirmedGloss("A", "Hēsychia", "stillness"),
+        ConfirmedGloss("A", "Diakrisis", "discernment"),
+        ConfirmedGloss("A", "Abba", "an elder, honored as a father in the faith"),
+        ConfirmedGloss("A", "Amma", "an elder, honored as a mother in the faith"),
+        ConfirmedGloss("A", "Cheirōnaxia", "manual labor"),
+        ConfirmedGloss("A", "Apophthegma", "a teaching-saying"),
     ],
     "hieronymian-ascetic-literary": [
         ConfirmedGloss("A", "Vulgata", "the new Latin translation"),
         ConfirmedGloss("B", "the month named for the harvest", "August"),
+        ConfirmedGloss("A", "Hebraica veritas", "the Hebrew truth"),
+        ConfirmedGloss("A", "Renuntiatio", "renunciation"),
+        ConfirmedGloss("A", "Virginitas", "consecrated virginity"),
+        ConfirmedGloss("A", "Vidua", "ascetic widowhood"),
+        ConfirmedGloss("A", "Patrocinium", "patronage"),
+        ConfirmedGloss("A", "Epistula", "the letter"),
+        ConfirmedGloss("A", "Matrona", "a Roman noblewoman of standing"),
+        ConfirmedGloss("A", "Grammaticus", "classical schooling"),
+        ConfirmedGloss("A", "Praefatio", "the preface"),
+        ConfirmedGloss("A", "Nosocomium", "a hospital"),
+        ConfirmedGloss("A", "Monachus", "a monk"),
     ],
     "imperial-juridical-christianity": [
         ConfirmedGloss("A", "homoios", "similar to the Father"),
+        ConfirmedGloss("A", "primatus", "primacy, Rome's own authority"),
+        ConfirmedGloss("A", "presbeia", "a rank of honor"),
+        ConfirmedGloss("A", "Imperator intra Ecclesiam", "the emperor is within the Church, not above it"),
+        ConfirmedGloss("A", "homoousios", "of one being with the Father"),
+        ConfirmedGloss("A", "concilium", "a council"),
+        ConfirmedGloss("A", "haeresis", "heresy"),
+        ConfirmedGloss("A", "Tomus", "a formal doctrinal letter"),
+        ConfirmedGloss("A", "Nea Rhōmē", "New Rome, Constantinople"),
+        ConfirmedGloss("A", "basilica", "a church building"),
+        ConfirmedGloss("A", "martyrium", "a martyr's shrine"),
     ],
     "post-apostolic-house-church": [
         ConfirmedGloss("B", "the day named for the sun", "Sunday"),
@@ -67,6 +108,16 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("B", "the first day of the week", "Sunday"),
         ConfirmedGloss("A", "the water", "baptism"),
         ConfirmedGloss("A", "Two Ways", "the teaching that lays the two paths of life and death before you"),
+        ConfirmedGloss("A", "episkopos", "bishop, an overseer"),
+        ConfirmedGloss("A", "presbyteros", "an elder"),
+        ConfirmedGloss("A", "ekklesia", "the assembly, the church"),
+        ConfirmedGloss("A", "eucharistia", "the thanksgiving meal"),
+        ConfirmedGloss("A", "diakonos", "a deacon, one who serves"),
+        ConfirmedGloss("A", "presbyterion", "the council of elders"),
+        ConfirmedGloss("A", "prophetes", "a prophet"),
+        ConfirmedGloss("A", "ministrae", "servant-women, per Pliny's own report"),
+        ConfirmedGloss("A", "agape", "the love-feast"),
+        ConfirmedGloss("A", "pertinacia", "stubbornness, a refusal to recant"),
     ],
     "alexandria-catechetical": [
         ConfirmedGloss("A", "gnosis", "a transformative knowing of God"),
@@ -79,6 +130,25 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "allegory", "reading for the deeper meaning"),
         ConfirmedGloss("A", "oikonomia", "how God wisely arranges the whole plan of salvation"),
         ConfirmedGloss("A", "mysterion", "a sacred reality known from within"),
+        ConfirmedGloss("A", "Logos", "the Word"),
+        ConfirmedGloss("A", "Divine Pedagogy", "God's ongoing teaching"),
+        ConfirmedGloss("A", "Catechesis", "formation before baptism"),
+        ConfirmedGloss("A", "photismos", "the opening of sight"),
+        ConfirmedGloss("A", "Sophia", "wisdom"),
+        ConfirmedGloss("A", "eikon", "the image of God"),
+        ConfirmedGloss("A", "Christological Reading", "reading Scripture toward Christ"),
+        ConfirmedGloss("A", "Rule of Faith", "the received tradition"),
+        ConfirmedGloss("A", "metanoia", "a change of mind, turning back to God"),
+        ConfirmedGloss("A", "hamartia", "missing the mark"),
+        ConfirmedGloss("A", "episkopos", "the overseer"),
+        ConfirmedGloss("A", "didaskalos", "the teacher"),
+        ConfirmedGloss("A", "oikos", "the household"),
+        ConfirmedGloss("A", "pistis", "trust, the soul's first turn toward God"),
+        ConfirmedGloss("A", "agape", "divine love"),
+        ConfirmedGloss("A", "elpis", "hope"),
+        ConfirmedGloss("A", "ekklesia", "the gathered community"),
+        ConfirmedGloss("A", "arete", "excellence"),
+        ConfirmedGloss("A", "Pneuma Hagion", "the Spirit of God"),
     ],
 }
 
@@ -119,7 +189,7 @@ def find_glosses_used(world_id: str, response_text: str) -> list[dict]:
     """
     Real-detection pass, run after generation: which of this world's
     confirmed glosses actually appear in the response text, verbatim.
-    Simple substring containment against a small known set (at most 10
+    Simple substring containment against a small known set (well under 30
     entries per world) - deliberately not a fuzzy/regex match, since the
     Representative was instructed to use the exact wording, so an exact
     match is the correct check, not a heuristic one.
