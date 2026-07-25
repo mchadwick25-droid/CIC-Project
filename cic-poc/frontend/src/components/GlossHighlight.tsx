@@ -47,14 +47,26 @@ interface Match {
   gloss: GlossUsed;
 }
 
-/** Every non-overlapping occurrence of any gloss's `rendered` string in `text`, left to right. */
+/**
+ * Every non-overlapping occurrence of any gloss's `rendered` string in
+ * `text`, left to right. Case-insensitive - a Representative opening a
+ * sentence with a gloss capitalizes its first letter ("A transformative
+ * knowing of God (gnosis)..."), which a case-sensitive match would miss
+ * (caught in production verification: the backend's own detection had the
+ * same bug - see confirmed_glosses.py's find_glosses_used). Matching is
+ * done against lowercased copies; `index`/`length` still index into the
+ * ORIGINAL `text`, so the rendered highlight preserves whatever casing the
+ * Representative actually used rather than forcing lowercase.
+ */
 function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
   const matches: Match[] = [];
+  const lowerText = text.toLowerCase();
   for (const gloss of glosses) {
     if (!gloss.rendered) continue;
+    const lowerRendered = gloss.rendered.toLowerCase();
     let fromIndex = 0;
-    while (fromIndex <= text.length) {
-      const foundAt = text.indexOf(gloss.rendered, fromIndex);
+    while (fromIndex <= lowerText.length) {
+      const foundAt = lowerText.indexOf(lowerRendered, fromIndex);
       if (foundAt === -1) break;
       matches.push({ index: foundAt, length: gloss.rendered.length, gloss });
       fromIndex = foundAt + gloss.rendered.length;

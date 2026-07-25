@@ -121,12 +121,19 @@ def find_glosses_used(world_id: str, response_text: str) -> list[dict]:
     entries per world) - deliberately not a fuzzy/regex match, since the
     Representative was instructed to use the exact wording, so an exact
     match is the correct check, not a heuristic one.
+
+    Case-insensitive: `rendered` is written lowercase-first for natural
+    mid-sentence use, but a Representative opening a sentence with it
+    capitalizes that first letter ("A transformative knowing of God
+    (gnosis) is...") - a real response caught exactly this in production
+    verification, silently going undetected under a case-sensitive check.
     """
     glosses = CONFIRMED_GLOSSES.get(world_id)
     if not glosses:
         return []
+    lowered = response_text.lower()
     return [
         {"category": g.category, "original": g.original, "gloss": g.gloss, "rendered": g.rendered}
         for g in glosses
-        if g.rendered in response_text
+        if g.rendered.lower() in lowered
     ]
