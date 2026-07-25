@@ -1017,12 +1017,27 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 yield sse({"type": "error", "message": str(exc)})
                 return
 
-            state.messages = list(state.messages) + new_messages
-            sessions[session_id] = state
-            write_transcript(session_id, state)
+            if not is_multi_world:
+                state.messages = list(state.messages) + new_messages
+                sessions[session_id] = state
+                write_transcript(session_id, state)
 
-            yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
-            return
+                yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
+                return
+
+            # Multi-world: the bridge itself only ever answers through ONE
+            # seated world (see stream_modern_term_bridge/classify_modern_term -
+            # it hands the reframed question to seated_world_ids[0] alone).
+            # Returning unconditionally here regardless of how many worlds are
+            # seated was the actual root cause of a reported live failure -
+            # "only Chloe talked" in a three-world round - not a flaky
+            # exception; every anachronism-bridge turn in a multi-world round
+            # silently ended the round after one speaker. Seed the shared
+            # continuation loop below with what already happened so the other
+            # seated worlds still get their contractual chance to react,
+            # instead of hard-ending the round here.
+            bridge_seed_messages = new_messages
+            bridge_seed_world_id = modern_term_match["world_id"]
 
         if is_epistemology_bridge:
             # Facilitator beat 1 (the honest, general, system-level
@@ -1061,10 +1076,21 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
             return
 
-        working_messages = list(state.messages)
-        last_current_world_id = state.current_world_id
-        turns_completed = 0
-        spoken_this_round: list[str] = []
+        if is_modern_term_bridge:
+            # Falls through from the multi-world bridge branch above (the
+            # single-world case already returned there) - the bridge's own
+            # representative turn seeds the loop as turn 1 so the MIN/MAX
+            # counters and must_continue logic below see it as part of this
+            # round, not a fresh empty round.
+            working_messages = list(state.messages) + bridge_seed_messages
+            last_current_world_id = bridge_seed_world_id
+            turns_completed = 1
+            spoken_this_round: list[str] = [bridge_seed_world_id]
+        else:
+            working_messages = list(state.messages)
+            last_current_world_id = state.current_world_id
+            turns_completed = 0
+            spoken_this_round: list[str] = []
 
         try:
             while True:

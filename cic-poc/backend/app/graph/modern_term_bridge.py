@@ -47,6 +47,9 @@ Rules:
 - Output the single term_id (exactly as written above) ONLY IF the message is genuinely asking about that term or its concept - "what's your view of X", "do you believe in X", "how does X work", or clearly invoking the concept in other words.
 - Output NONE for anything else - above all for a world's OWN native topics (the meal, the letters, who leads, martyrdom, mercy, the desert cell, the covenant, scholarship). Those are not modern terms and must never be bridged.
 - A message may mention a word in passing without asking about the modern doctrine - that is NONE. Fire only when the modern term/concept is what the participant actually wants addressed.
+- A bare question about a universal Christian concept that merely SHARES A WORD with a modern term's name is NOT the same as asking about that term's specific, distinguishing formula - every era has discussed faith, grace, sin, love, hope; only later eras coined the specific slogans below. Match only when the participant's own words invoke what actually makes the modern term distinct, not just its root word.
+  - "What is faith?" -> NONE (a world's own native topic; nothing in the message invokes "alone," "not by works," or any faith-versus-works framing).
+  - "Is it faith alone that saves you, and not anything you do?" -> sola-fide (the distinguishing claim - faith excluding works - is actually present).
 - When unsure, output NONE. A missed term is caught later by drift monitoring; a wrong interruption is not recoverable.
 - Match at most ONE term, the closest. Output nothing but that term_id, or NONE.
 
