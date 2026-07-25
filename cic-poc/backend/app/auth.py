@@ -13,6 +13,15 @@ request is treated as an unauthenticated dev user rather than rejected -
 this file only starts enforcing real sign-in once a real project is
 configured, mirroring session_cap.py's existing "off until configured"
 discipline.
+
+Sign-in itself stays optional even once a project is configured (Mark's
+call, 2026-07-25): this pilot asks participants to keep to a session
+limit rather than enforcing one, so a request with no Authorization
+header at all is treated as anonymous, not rejected - the same
+unauthenticated-dev-user identity used when Supabase isn't configured at
+all. Only a token that's actually present but invalid/expired is treated
+as an error, since that means someone believes they're signed in and
+isn't - worth telling them, unlike simply never having signed in.
 """
 
 from dataclasses import dataclass
@@ -49,13 +58,15 @@ async def get_current_user(authorization: str | None = Header(default=None)) -> 
 
     Returns a dev placeholder (no real identity, unlimited sessions) when
     Supabase isn't configured, so local development and mock-mode testing
-    keep working without a project.
+    keep working without a project. Returns that same anonymous placeholder
+    when Supabase IS configured but no token was offered at all - sign-in
+    is an ask for this pilot, not a requirement (see module docstring).
     """
     if not supabase_configured():
         return AuthedUser(user_id=None, pilot_cohort=None, max_sessions=999)
 
     if not authorization or not authorization.lower().startswith("bearer "):
-        raise HTTPException(status_code=401, detail="Sign in required.")
+        return AuthedUser(user_id=None, pilot_cohort=None, max_sessions=999)
 
     token = authorization.split(" ", 1)[1].strip()
     client = _get_client()

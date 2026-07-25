@@ -17,6 +17,13 @@ documented non-atomic, no-real-accounts limitations.
 Off by default: if Supabase isn't configured (see app/auth.py's
 supabase_configured()), every request is allowed uncapped - normal local
 dev/mock-mode behavior, unchanged from before.
+
+Also allowed uncapped for an anonymous request even once Supabase IS
+configured: sign-in is an ask for this pilot, not a requirement (Mark's
+call, 2026-07-25 - see app/auth.py's get_current_user), so a request with
+no signed-in identity has nothing to count sessions against and is let
+through rather than blocked. This cap only actually bites for a
+participant who chose to sign in.
 """
 
 from app.auth import AuthedUser, supabase_configured
@@ -31,11 +38,8 @@ def check_and_reserve_session_slot(user: AuthedUser) -> tuple[bool, str]:
     against. There is nothing to "give back" if session creation fails
     partway, since no separate counter exists to roll back.
     """
-    if not supabase_configured():
+    if not supabase_configured() or user.user_id is None:
         return True, ""
-
-    if user.user_id is None:
-        return False, "Please sign in to start a conversation during this pilot."
 
     from app.auth import _get_client  # local import: avoids a hard dependency at module load
 
