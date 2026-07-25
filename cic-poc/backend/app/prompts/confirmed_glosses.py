@@ -62,6 +62,7 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "Ewangeliyon da-Mhallete", "the harmonized Gospel"),
         ConfirmedGloss("A", "Mar", "my lord, an honorific like \"Saint\""),
         ConfirmedGloss("A", "taḥwîṯâ", "a demonstration"),
+        ConfirmedGloss("A", "memra", "a verse composition"),
     ],
     "desert-monasticism": [
         ConfirmedGloss("A", "Logismoi", "the thoughts that trouble the mind"),
