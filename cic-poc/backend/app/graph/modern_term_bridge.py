@@ -121,14 +121,16 @@ def classify_modern_term(message: str, seated_world_ids: list[str]) -> dict | No
             f"- {tid}: {'; '.join(d.get('display_terms', [tid]))}"
             for tid, d in definitions.items()
         ]
-        from app.graph.nodes import get_monitoring_llm
+        from app.graph.nodes import CLASSIFIER_MAX_TOKENS, _MONITORING_MODEL, get_monitoring_llm
+        from app.usage_logging import log_llm_usage
 
-        llm = get_monitoring_llm()
+        llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
         response = llm.invoke([
             SystemMessage(content=_CLASSIFIER_PROMPT.format(
                 candidates="\n".join(lines), message=message)),
             HumanMessage(content="Classify the message above."),
         ])
+        log_llm_usage("modern_term_bridge", response, _MONITORING_MODEL)
         result = (response.content or "").strip()
         if not result:
             return None

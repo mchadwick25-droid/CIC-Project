@@ -54,15 +54,17 @@ def classify_epistemology_bridge(message: str) -> bool:
     Representative generation, where SELF_NARRATION monitoring is the
     existing second-layer backstop.
     """
-    from app.graph.nodes import get_monitoring_llm
+    from app.graph.nodes import CLASSIFIER_MAX_TOKENS, _MONITORING_MODEL, get_monitoring_llm
     from app.prompts.facilitator_prompts import FACILITATOR_EPISTEMOLOGY_BRIDGE_CLASSIFIER_PROMPT
+    from app.usage_logging import log_llm_usage
 
-    llm = get_monitoring_llm()
+    llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
     try:
         response = llm.invoke([
             SystemMessage(content=FACILITATOR_EPISTEMOLOGY_BRIDGE_CLASSIFIER_PROMPT.format(message=message)),
             HumanMessage(content="Classify the message above."),
         ])
+        log_llm_usage("epistemology_bridge", response, _MONITORING_MODEL)
         result = response.content.strip().upper()
         return result.startswith("EPISTEMOLOGY_BRIDGE")
     except Exception:

@@ -102,7 +102,8 @@ def classify_wind_down(state: ConversationState, message: str) -> bool:
     the prompt). Mirrors classify_frame_breaker's fail-open discipline.
     """
     try:
-        from app.graph.nodes import get_monitoring_llm
+        from app.graph.nodes import CLASSIFIER_MAX_TOKENS, _MONITORING_MODEL, get_monitoring_llm
+        from app.usage_logging import log_llm_usage
 
         # a short transcript window for context, same helper the rep path uses
         try:
@@ -111,12 +112,13 @@ def classify_wind_down(state: ConversationState, message: str) -> bool:
         except Exception:
             window = "(unavailable)"
 
-        llm = get_monitoring_llm()
+        llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
         resp = llm.invoke([
             SystemMessage(content=_WIND_DOWN_PROMPT.format(
                 transcript_window=window, message=message)),
             HumanMessage(content="Classify the message above."),
         ])
+        log_llm_usage("wind_down", resp, _MONITORING_MODEL)
         return _one_word(resp, "CONTINUE") == "WIND_DOWN"
     except Exception:
         return False

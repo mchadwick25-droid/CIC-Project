@@ -10,6 +10,7 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 from app.config import settings
 from app.graph.state import ConversationState, DriftSignal, RetrievedContext
+from app.usage_logging import log_llm_usage
 from app.prompts import (
     FACILITATOR_ACUTE_DISTRESS_A1_PROMPT,
     FACILITATOR_ACUTE_DISTRESS_A2_PROMPT,
@@ -37,7 +38,10 @@ from app.prompts.representative_prompts import (
     REACTIVE_CONTINUATION_PROMPT,
     REPRESENTATIVE_CONTINUATION_PROMPT,
 )
-from app.prompts.table_discourse import OPENING_TURN_LARGE_TABLE_GUIDANCE, REACTIVE_TURN_GUIDANCE
+from app.prompts.table_discourse import (
+    OPENING_TURN_LARGE_TABLE_GUIDANCE,
+    REACTIVE_TURN_GUIDANCE,
+)
 
 # Table size at which even a round's OPENING turn (no one has spoken yet)
 # gets held to the same brevity discipline reactive turns already have -
@@ -85,6 +89,77 @@ REACTIVE_TURN_MAX_TOKENS = 900
 # it is not the old uncapped "full independent turn" either. 25% over
 # REACTIVE_TURN_MAX_TOKENS, not freeform.
 OPENING_TURN_MAX_TOKENS = int(REACTIVE_TURN_MAX_TOKENS * 1.25)
+
+# The PRIMARY Representative turn - a direct, substantive answer to the
+# participant's actual question, not a reactive beat and not a large-table
+# opening (see the turn_max_tokens branches in representative_engages/
+# stream_representative_turn) - had NO token cap at all until this was
+# added: real live testing (a tester's own "the first answers were too
+# long" report, independently confirmed live) found this path relies
+# entirely on prompt-level guidance (representative_prompts.py's "A Turn
+# Has a Measure" section: "most turns are one to two short paragraphs, and
+# a turn should almost never exceed three") with no structural enforcement
+# behind it - the same class of gap REACTIVE_TURN_MAX_TOKENS was added to
+# close for reactive turns, just never carried over to the primary-turn
+# path. Applies to every primary (non-reactive, non-large-table-opening)
+# turn on every round, not just a conversation's first turn -
+# is_reactive/large_table_opening are both recomputed fresh per call, so
+# single-world "Deep Interview" mode (where is_reactive is always False)
+# and every "Compare Worlds" round's opening speaker are covered uniformly
+# by this same branch.
+#
+# Value chosen from real-API tuning (2026-07, Chloe/post-apostolic-house-
+# church, both fresh questions and turns deep into a real conversation),
+# not a guess: fully uncapped, real responses landed consistently at
+# ~240-300 words (already past the prompt's own "one to two paragraphs"
+# target, sitting right at its "almost never exceed three" ceiling on
+# every sample - the "prompt guidance alone doesn't reliably hold" failure
+# mode get_llm's own docstring already documents, here manifesting as no
+# budget at all to enforce it). Caps tight enough to actually force
+# shorter output (400 tokens and below) truncated real responses mid-
+# sentence on most samples - explicitly the worse failure mode per this
+# fix's own priority (a complete, slightly-longer answer beats a chopped-
+# off shorter one). 460 still truncated one sample in five. 500 and 550
+# both ran clean (0 truncations) across the full real test set; 550 is
+# kept for extra margin against production traffic's real variance beyond
+# this test's small sample. At this value the cap functions mainly as a
+# genuine CEILING against a runaway/outlier turn (whatever produced the
+# live "four-to-six paragraph" case), not as something that reliably
+# compresses the ALREADY-uncapped typical ~250-290-word response down to
+# "one to two focused paragraphs" - going tight enough to force that
+# reliably was the same range that started truncating. Raised from 550 to
+# 1200 (Mark's own call, 2026-07-24/25): a response running long is far
+# less noticeable to a participant than one cut off mid-sentence, so the
+# ceiling is set to protect against runaway generation, not to hold the
+# typical case to a specific length - that shaping work now lives in
+# _HOW_YOU_ENGAGE's own guidance (representative_prompts.py), folded in
+# from what was previously a separate PRIMARY_TURN_GUIDANCE block.
+PRIMARY_TURN_MAX_TOKENS = 1200
+
+# Hard cap for the blocking pre-response classifiers (frame-breaker,
+# epistemology-bridge, relational-safety, modern-term, wind-down) - every
+# one of them is specified to answer in a single word or a short
+# CATEGORY[:TAG] line (see each classifier's own prompt), so this only
+# needs headroom for the longest real response shape: a relational-safety
+# multi-tag line like "HARMFUL_DYNAMIC_SIGNAL:CONFIDANT_LANGUAGE+
+# AFFIRMATION_DEPENDENCE+RETURN_COMPULSION" (roughly 25-35 tokens through a
+# BPE tokenizer). Set generously above that estimate - a truncated
+# classification is not a crash (each classifier's own fail-open parsing
+# just yields fewer parsed tags), but relational-safety is safety-critical
+# enough that the extra headroom costs nothing worth trading away. Passed
+# through to get_monitoring_llm the same way REACTIVE_TURN_MAX_TOKENS is
+# passed to get_llm - see that function's docstring for why max_tokens also
+# disables extended thinking.
+CLASSIFIER_MAX_TOKENS = 60
+
+# The model get_monitoring_llm actually constructs for the anthropic
+# provider (see that function, below) - kept as its own constant purely so
+# every log_llm_usage() call for a classifier/monitoring call can log the
+# real model string without duplicating the literal at each call site, not
+# because get_monitoring_llm itself reads this constant (it does not - the
+# two are independent and must be kept in sync by hand if the model ever
+# changes).
+_MONITORING_MODEL = "claude-haiku-4-5-20251001"
 
 
 def get_llm(max_tokens: int | None = None):
@@ -168,8 +243,24 @@ def _log_llm_call(request_id: str | None, session_id: str | None, world_id: str 
     )
 
 
-def get_monitoring_llm():
-    """Get a faster LLM for monitoring (invisible operations)."""
+def get_monitoring_llm(max_tokens: int | None = None):
+    """Get a faster LLM for monitoring (invisible operations) and for the
+    blocking pre-response classifiers (frame-breaker, epistemology-bridge,
+    relational-safety, modern-term, wind-down) - claude-haiku-4-5 instead of
+    the full settings.llm_model those classifiers used to share with actual
+    Representative/Facilitator generation.
+
+    max_tokens: same contract as get_llm's own max_tokens parameter - a hard
+    cap on response length, with extended thinking explicitly disabled
+    whenever it's set. See get_llm's docstring for why: a live-tested model
+    in this codebase was found to emit an interleaved thinking block by
+    default even with no explicit thinking config, and a tight max_tokens
+    budget lets that block consume most of it before any visible text is
+    written. The classifiers this is built for all answer in a single word
+    or a short CATEGORY[:TAG] line (see CLASSIFIER_MAX_TOKENS), so the same
+    risk applies to them and gets the same fix. Calls with no max_tokens
+    (the existing invisible-monitoring callers) are left exactly as before.
+    """
     if settings.mock_llm:
         from app.mock_llm import MockChatModel
         return MockChatModel()
@@ -177,17 +268,24 @@ def get_monitoring_llm():
     if settings.llm_provider == "anthropic":
         from langchain_anthropic import ChatAnthropic
 
-        return ChatAnthropic(
-            model="claude-haiku-4-5-20251001",
-            anthropic_api_key=settings.anthropic_api_key,
-        )
+        kwargs = {
+            "model": "claude-haiku-4-5-20251001",
+            "anthropic_api_key": settings.anthropic_api_key,
+        }
+        if max_tokens:
+            kwargs["max_tokens"] = max_tokens
+            kwargs["thinking"] = {"type": "disabled"}
+        return ChatAnthropic(**kwargs)
     else:
         from langchain_openai import ChatOpenAI
 
-        return ChatOpenAI(
-            model="gpt-4o-mini",
-            openai_api_key=settings.openai_api_key,
-        )
+        kwargs = {
+            "model": "gpt-4o-mini",
+            "openai_api_key": settings.openai_api_key,
+        }
+        if max_tokens:
+            kwargs["max_tokens"] = max_tokens
+        return ChatOpenAI(**kwargs)
 
 
 # Per-world retrievers cache
@@ -307,12 +405,13 @@ def classify_frame_breaker(message: str) -> bool:
     the milder unprompted case, "corrected the same way as any other signal
     in this section." The monitoring half now exists.
     """
-    llm = get_monitoring_llm()
+    llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
     try:
         response = llm.invoke([
             SystemMessage(content=FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT.format(message=message)),
             HumanMessage(content="Classify the message above."),
         ])
+        log_llm_usage("frame_breaker", response, _MONITORING_MODEL)
         result = response.content.strip().upper()
         return result.startswith("FRAME_BREAKER")
     except Exception:
@@ -403,7 +502,7 @@ def classify_relational_safety(state: ConversationState, message: str) -> dict:
     throws and blocks the whole turn is a worse failure for every other
     conversation that has nothing to do with relational safety.
     """
-    llm = get_monitoring_llm()
+    llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
     transcript_window = build_public_transcript(state)
     try:
         response = llm.invoke([
@@ -416,6 +515,7 @@ def classify_relational_safety(state: ConversationState, message: str) -> dict:
             )),
             HumanMessage(content="Classify the message above."),
         ])
+        log_llm_usage("relational_safety", response, _MONITORING_MODEL)
         result = response.content.strip().upper()
         if ":" in result:
             category, detail = result.split(":", 1)
@@ -892,6 +992,15 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     elif large_table_opening:
         reactive_turn_guidance = OPENING_TURN_LARGE_TABLE_GUIDANCE
     else:
+        # The primary-turn path: single-world "Deep Interview" mode (always,
+        # since is_reactive is always False there) and every small-table
+        # "Compare Worlds" round's opening speaker. Previously received its
+        # own PRIMARY_TURN_GUIDANCE block here; folded into
+        # representative_prompts.py's always-present _HOW_YOU_ENGAGE instead
+        # (Mark's own call, 2026-07-24/25) - this path now gets today's
+        # conversational-shape guidance via the static prompt rather than a
+        # conditionally-injected one, matching its original byte-identical
+        # behavior with no reactive-guidance block at all.
         reactive_turn_guidance = ""
 
     # Build the system prompt, split into three segments: a stable cacheable
@@ -1069,7 +1178,7 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     elif large_table_opening:
         turn_max_tokens = OPENING_TURN_MAX_TOKENS
     else:
-        turn_max_tokens = None
+        turn_max_tokens = PRIMARY_TURN_MAX_TOKENS
     llm = get_llm(max_tokens=turn_max_tokens)
     ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
 
@@ -1077,6 +1186,8 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
         _cached_system_message(ctx["static_prompt"], ctx["reactive_guidance_block"], ctx["dynamic_prompt"]),
         HumanMessage(content=ctx["continuation"]),
     ])
+    log_llm_usage("main_response", response, settings.llm_model,
+                   request_id=request_id, session_id=state.session_id)
     _log_llm_call(request_id, state.session_id, ctx["current_world_id"],
                    ctx["rep_message_name"], response.content if isinstance(response.content, str) else str(response.content))
 
@@ -1128,7 +1239,7 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     elif large_table_opening:
         turn_max_tokens = OPENING_TURN_MAX_TOKENS
     else:
-        turn_max_tokens = None
+        turn_max_tokens = PRIMARY_TURN_MAX_TOKENS
     llm = get_llm(max_tokens=turn_max_tokens)
     ctx = _prepare_representative_turn(state, is_reactive=is_reactive)
 
@@ -1153,11 +1264,21 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     def _generate_once(msgs) -> tuple[str, list[str]]:
         text = ""
         pieces: list[str] = []
+        # Accumulate the raw chunks via LangChain's own AIMessageChunk.__add__
+        # (not just the extracted text) so usage_metadata/response_metadata
+        # from across the whole stream are correctly merged into one object -
+        # summing chunks is the standard way to get an accurate final usage
+        # count out of a streamed call without a second, non-streamed API
+        # call just to ask for it again.
+        usage_chunk = None
         for chunk in llm.stream(msgs):
+            usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
             piece = _extract_piece(chunk.content)
             if piece:
                 text += piece
                 pieces.append(piece)
+        log_llm_usage("main_response", usage_chunk, settings.llm_model,
+                       request_id=request_id, session_id=state.session_id)
         return text, pieces
 
     # Worlds whose own Permanent Prompt states a hard, all-conditions
@@ -1234,11 +1355,15 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
     else:
         full_text, pieces = "", []
+        usage_chunk = None
         for chunk in llm.stream(messages):
+            usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
             piece = _extract_piece(chunk.content)
             if piece:
                 full_text += piece
                 yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
+        log_llm_usage("main_response", usage_chunk, settings.llm_model,
+                       request_id=request_id, session_id=state.session_id)
 
     # A stream that completes with zero text is rare but real (observed in
     # live testing) - shipping a blank message doesn't just look broken to
@@ -1249,6 +1374,8 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # skipped rather than injected as blank content.
     if not full_text:
         retry_response = llm.invoke(messages)
+        log_llm_usage("main_response", retry_response, settings.llm_model,
+                       request_id=request_id, session_id=state.session_id)
         full_text = _extract_piece(retry_response.content)
         if full_text:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": full_text}
@@ -1888,6 +2015,7 @@ REASON: <one sentence>"""
         SystemMessage(content=prompt),
         HumanMessage(content="Decide who speaks next."),
     ])
+    log_llm_usage("turn_selector", response, _MONITORING_MODEL)
 
     next_speaker = None
     for line in response.content.strip().split("\n"):
