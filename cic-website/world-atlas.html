@@ -350,7 +350,7 @@ const APPMODE = (typeof location!=="undefined") && /[?&]app=1/.test(location.sea
 // Real hand-off once hosting exists: /?worlds=<id,id>&mode=<interview|table>,
 // the same URL contract the app's own selector already parses. Until then,
 // honest about not being wired up yet - never a fake "it works" stub.
-// See cic-website/index.html and cic-website/pilot.html for the same pattern.
+// See cic-website/index.html for the same pattern.
 const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
 const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
 const WID = {"I.1":"post-apostolic-house-church","I.7":"syriac-edessa-nisibis",
