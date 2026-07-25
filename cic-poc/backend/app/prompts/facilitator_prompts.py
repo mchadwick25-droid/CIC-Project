@@ -165,6 +165,8 @@ Severity: <low|medium|high>
 Description: <brief description of the issue>
 Correction: <guidance for the representative to correct course>
 
+A turn can carry more than one of these at once, and often does - an exhaustive answer that also invents a detail is both OVER_PRODUCING and FABRICATION, and reporting only one of them hides the other. Where you find several, repeat the whole four-line block for each, most serious first. This is not an invitation to lower the bar: apply exactly the same standard to the second and third finding as to the first, and report only what you would have reported had it been the only thing in the turn. Reporting one weak finding alongside a real one is worse than reporting the real one alone.
+
 If no drift is detected, respond with exactly:
 NO_DRIFT
 

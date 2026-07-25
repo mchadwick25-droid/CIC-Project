@@ -1351,6 +1351,47 @@ def multi_representative_engages(state: ConversationState, request_id: str | Non
     }
 
 
+# Which finding a turn reports when the monitor returns several. Severity
+# decides first; this breaks ties. Ordered by what the governance treats as
+# most serious rather than by how the prompt happens to list them:
+# FABRICATION is the cardinal failure (Facilitator Governance Section 11),
+# SELF_NARRATION is governed more strictly than the rest (Article 28), and the
+# stance/shape signals sit below the ones that put something untrue or
+# out-of-world in front of a participant.
+_MONITOR_SIGNAL_PRIORITY: list[str] = [
+    "fabrication", "self_narration", "first_person", "temporal_bleed",
+    "anachronism", "over_settling", "apologetics", "smoothing",
+    "flattening", "agreeing", "generating", "over_producing",
+]
+_SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
+
+
+def _select_monitor_finding(
+    findings: list[tuple[str, str, str]]
+) -> tuple[str, str, str]:
+    """
+    The one finding a multi-finding monitor result reports.
+
+    Only one DriftSignal is returned per turn - every caller and the reroot
+    path are built around that - so when the monitor names several, which one
+    survives matters. Highest severity wins; equal severity falls back to
+    _MONITOR_SIGNAL_PRIORITY. Measured motivation: across 45 live turns the
+    monitor never once reported OVER_PRODUCING, on an arm averaging 306 words
+    and 2.3 threads a turn, because the format admitted a single finding and
+    ten signals were competing for it. The reverse case is the dangerous one -
+    a fabrication losing that slot to a stylistic complaint.
+    """
+    def rank(f: tuple[str, str, str]) -> tuple[int, int]:
+        signal_type, severity, _ = f
+        priority = next(
+            (i for i, s in enumerate(_MONITOR_SIGNAL_PRIORITY) if s in signal_type),
+            len(_MONITOR_SIGNAL_PRIORITY),
+        )
+        return _SEVERITY_RANK.get(severity, 2), priority
+
+    return min(findings, key=rank)
+
+
 def _detect_drift_signal(response_text: str, world_id: str | None = None) -> DriftSignal | None:
     """
     Run drift detection on a single representative response and return the
@@ -1389,18 +1430,30 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
         # some other way.
         return _over_settling_signal(response_text, world_id)
 
-    lines = result.split("\n")
-    signal_type = "smoothing"
-    severity = "low"
-    description = ""
-
-    for line in lines[1:]:
+    # The prompt asks for one four-line block per finding, since a turn can
+    # carry several at once. Parse every block, then choose which one this
+    # call reports - the previous loop overwrote as it went and kept whichever
+    # block happened to come LAST, which is the opposite of what matters when
+    # one of them is FABRICATION.
+    findings: list[tuple[str, str, str]] = []
+    cur_type = cur_sev = cur_desc = ""
+    for line in result.split("\n")[1:]:
         if line.startswith("Signal:"):
-            signal_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
+            if cur_type:
+                findings.append((cur_type, cur_sev or "low", cur_desc))
+            cur_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
+            cur_sev = cur_desc = ""
         elif line.startswith("Severity:"):
-            severity = line.split(":", 1)[1].strip().lower()
+            cur_sev = line.split(":", 1)[1].strip().lower()
         elif line.startswith("Description:"):
-            description = line.split(":", 1)[1].strip()
+            cur_desc = line.split(":", 1)[1].strip()
+    if cur_type:
+        findings.append((cur_type, cur_sev or "low", cur_desc))
+
+    if not findings:
+        return None
+
+    signal_type, severity, description = _select_monitor_finding(findings)
 
     # Validate signal type - must match the 9 signals defined in
     # FACILITATOR_MONITORING_PROMPT (facilitator_prompts.py). This list had
@@ -1491,7 +1544,7 @@ def _adjudicate_fabrication(
             stage1_description=stage1_description,
         )
         result = llm.invoke([
-            SystemMessage(content=prompt),
+            _cached_adjudication_message(prompt),
             HumanMessage(content="Adjudicate the flagged content against the material above."),
         ]).content.strip()
     except Exception:
@@ -1502,6 +1555,36 @@ def _adjudicate_fabrication(
     if result.startswith("FABRICATED"):
         return True
     return None
+
+
+_ADJUDICATION_CACHE_BOUNDARY = "## Retrieved source material for this world relevant to this response"
+
+
+def _cached_adjudication_message(rendered: str) -> SystemMessage:
+    """
+    A source-fed adjudication prompt, split into a cached prefix and an
+    uncached remainder at the point where per-world-stable material ends.
+
+    Both adjudicators (fabrication and over-settling) are built the same way:
+    instructions, then the representative's permanent prompt, then the world
+    capsule, then retrieved material, then the turn being judged. Everything
+    up to the retrieval heading is byte-identical on every call for a given
+    world - roughly 9,250 tokens of it, previously paid in full every time a
+    finding reached adjudication. Everything after it changes per call and is
+    deliberately left out of the cached block; including it would guarantee a
+    miss and defeat the purpose. Same reasoning as _cached_system_message,
+    applied to the monitoring path, which was simply never given it.
+
+    Falls back to a single uncached block if the boundary is absent, so a
+    reworded prompt degrades to today's cost rather than breaking.
+    """
+    head, sep, tail = rendered.partition(_ADJUDICATION_CACHE_BOUNDARY)
+    if not sep:
+        return SystemMessage(content=rendered)
+    return SystemMessage(content=[
+        {"type": "text", "text": head, "cache_control": {"type": "ephemeral"}},
+        {"type": "text", "text": sep + tail},
+    ])
 
 
 def _screen_over_settling(response_text: str) -> str | None:
@@ -1602,7 +1685,7 @@ def _adjudicate_over_settling(
             stage1_description=stage1_description,
         )
         result = llm.invoke([
-            SystemMessage(content=prompt),
+            _cached_adjudication_message(prompt),
             HumanMessage(content="Adjudicate the flagged claim against the material above."),
         ]).content.strip()
     except Exception:
@@ -2262,20 +2345,36 @@ _WORLD_LENGTH_CEILINGS: dict[str, int] = {
 }
 
 
-# Per-lane word ceilings, for the lanes whose design states a numeric measure.
-# pastor-teacher and reevaluation are absent deliberately, not by oversight -
-# their designs govern direction and ordering rather than length, and giving
-# them a number here would invent a constraint their guidance does not make.
+# Per-lane word ceilings. These exist because a written target does not bind.
+# Measured over 45 live turns: lanes told to hold 90-140 words came in at 169
+# and 197, while the two lanes with no number ran 306 and 288 against a no-lane
+# baseline of 262 - both LONGER than having no lane at all. Lane guidance
+# inflates length whatever it says, because it adds things to attend to.
+# Instruction moved it partway; only measurement closes the rest.
 #
-# These exist because a written target does not bind. Measured over 45 live
-# turns: lanes told to hold 90-140 words came in at 169 and 197, while the two
-# lanes with no number ran 306 and 288 against a no-lane baseline of 262 - both
-# LONGER than having no lane at all. Lane guidance inflates length whatever it
-# says, because it adds things to attend to. Instruction moved it partway; only
-# measurement closes the rest.
+# general and academic sit at the same 140: both designs state that band, and
+# both lanes add their rigor through what fills a turn rather than its size.
+#
+# pastor-teacher is higher on purpose. Its design asks for depth on one thread,
+# which legitimately costs more room than a visitor's answer, so it binds at the
+# outer edge of the Representative's own fullest measure (Chloe's formation
+# names two short paragraphs; the design spec's own demonstration answers run
+# about 230) rather than at a tighter measure borrowed from another lane. Its
+# real failure was threads, not words - 2.3 distinct threads per turn, single-
+# thread on only 3 of 9 - and the semantically correct detector for that,
+# OVER_PRODUCING, fired 0 times across all 45 turns despite being written for
+# exactly this ("has become encyclopedic resource rather than voice with its own
+# perspective"). A word count is a proxy for the real fault, chosen because it
+# is the only mechanism here with a measured track record of firing at all.
+#
+# reevaluation is absent deliberately, not by oversight. Both directions are
+# dangerous in that lane - short reads as managed, long reads as advocacy - so
+# its design governs ordering and concreteness instead, and a ceiling would
+# invent a constraint its guidance does not make.
 _LANE_LENGTH_CEILINGS: dict[str, int] = {
     "general": 140,
     "academic": 140,
+    "pastor-teacher": 220,
 }
 
 
