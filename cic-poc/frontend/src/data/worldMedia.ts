@@ -1,43 +1,41 @@
 /**
- * Real photographs for the World Selector tiles - one architectural/artifact
- * image per world (Ministry/Communication/Brand-Assets/World-Media/) and one
- * Representative profile portrait (.../Representative-Portraits/), both
- * copied into public/images/ so Vite serves them directly.
+ * Real photographs for the World Selector tiles - a Representative profile
+ * portrait per world (Ministry/Communication/Brand-Assets/Representative-
+ * Portraits/), copied into public/images/ so Vite serves it directly.
+ *
+ * `worldImage` (the architectural/artifact tile-background photos, one per
+ * world, sourced from Wikimedia Commons) is deliberately NOT wired up here -
+ * pulled 2026-07-24 pending a rights/licensing question Mark was told about
+ * (payment/permission required for 5 of the 6). Files themselves were
+ * removed from public/images/world-media/; the sourcing research is still on
+ * record at Brand-Assets/World-Media/ (not deleted, flagged there instead)
+ * in case it's resolved later. See In-App-Icons-Graphics Decision-Log.
  *
  * Keyed by world_id (world_manifest.py) - same convention as WORLD_ICONS in
- * worldIcons.tsx. Sourcing/license/attribution for each world image lives in
- * Brand-Assets/World-Media/world-media-sources.json - not duplicated here.
+ * worldIcons.tsx.
  */
 export interface WorldMedia {
-  /** Real architectural/artifact photo, tied to this world's own region and era. */
-  worldImage: string;
   /** The Representative's approved profile portrait. */
   portraitImage: string;
 }
 
 export const WORLD_MEDIA: Record<string, WorldMedia> = {
   'post-apostolic-house-church': {
-    worldImage: '/images/world-media/house-churches.jpg',
     portraitImage: '/images/portraits/house-churches.png',
   },
   'alexandria-catechetical': {
-    worldImage: '/images/world-media/alexandria.jpg',
     portraitImage: '/images/portraits/alexandria.png',
   },
   'syriac-edessa-nisibis': {
-    worldImage: '/images/world-media/syriac.jpg',
     portraitImage: '/images/portraits/syriac.png',
   },
   'imperial-juridical-christianity': {
-    worldImage: '/images/world-media/empire.jpg',
     portraitImage: '/images/portraits/empire.png',
   },
   'desert-monasticism': {
-    worldImage: '/images/world-media/desert.jpg',
     portraitImage: '/images/portraits/desert.png',
   },
   'hieronymian-ascetic-literary': {
-    worldImage: '/images/world-media/bethlehem.jpg',
     portraitImage: '/images/portraits/bethlehem.png',
   },
 };

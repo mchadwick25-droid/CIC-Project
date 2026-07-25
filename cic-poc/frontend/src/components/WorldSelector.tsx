@@ -163,29 +163,19 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
                 <div className="world-card__selection-badge">{order}</div>
               )}
 
-              <div className="world-card__world-info">
-                <div className="world-card__header">
-                  <div>
-                    <h3 className="world-card__name">{world.name}</h3>
-                    {world.subtitle && (
-                      <span className="world-card__subtitle">({world.subtitle})</span>
-                    )}
-                  </div>
-                  <span className="world-card__period">{world.period}</span>
+              <div className="world-card__header">
+                <div>
+                  <h3 className="world-card__name">{world.name}</h3>
+                  {world.subtitle && (
+                    <span className="world-card__subtitle">({world.subtitle})</span>
+                  )}
                 </div>
-
-                <p className="world-card__region">{world.region}</p>
-
-                <p className="world-card__description">{world.description}</p>
-
-                {media && (
-                  <img
-                    className="world-card__world-image"
-                    src={media.worldImage}
-                    alt={`A real architectural or artifact photo from ${world.name}`}
-                  />
-                )}
+                <span className="world-card__period">{world.period}</span>
               </div>
+
+              <p className="world-card__region">{world.region}</p>
+
+              <p className="world-card__description">{world.description}</p>
 
               <div className="world-card__representative">
                 <div className="world-card__rep-header">

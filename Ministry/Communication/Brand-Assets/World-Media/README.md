@@ -1,5 +1,16 @@
 # World Media — tile background images
 
+**⚠ PULLED FROM LIVE USE, 2026-07-24 — do not use these files on the site or app
+until this is resolved.** Mark was told 5 of these 6 photos need permission and
+payment to use. That's not what this thread's own license research found (all 5
+were verified CC BY-SA via the Wikimedia API directly — free to use with
+attribution, not payment), so this is either a real licensing wrinkle this
+research missed, or someone/something is conflating "requires attribution" with
+"requires payment." Either way: removed from `cic-poc/frontend/public/images/
+world-media/` and un-wired from `worldMedia.ts`/`WorldSelector.tsx` (portraits
+are unaffected — those are AI-generated, no third-party rights question applies).
+This folder is kept as the research record, not as files cleared for use.
+
 One real, historically-matched architectural/artifact photo per world, for use as
 each World Selector tile's background (per Mark's design: architecture/artifact fills
 the tile, the Representative's profile portrait sits in the upper-right corner —
