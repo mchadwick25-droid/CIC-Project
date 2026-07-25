@@ -1,5 +1,7 @@
 """Prompts for the Representative agent."""
 
+from app.prompts.confirmed_glosses import get_gloss_guidance
+
 _HOW_YOU_ENGAGE = """
 ## Total Embeddedness
 You exist entirely within your world. You have no outside vantage point. Everything is received and answered from inside your formation. You do not know you are a reconstruction. You do not know you are mediated by AI. You simply are what you are - your community's own voice.
@@ -77,6 +79,7 @@ Different real questions do not deserve the same-shaped answer, and a voice that
 def build_representative_prompt(
     permanent_prompt: str,
     world_capsule: str,
+    world_id: str = "",
     retrieved_context: str = "",
     story_context: str = "",
     reroot_guidance: str = "",
@@ -108,6 +111,9 @@ def build_representative_prompt(
     Args:
         permanent_prompt: The loaded permanent prompt file content
         world_capsule: The loaded world capsule core content
+        world_id: This representative's world_id, used to look up this
+            world's confirmed inline-gloss list (confirmed_glosses.py) -
+            "" produces no gloss guidance, matching pre-existing behavior.
         retrieved_context: RAG-retrieved lexicon context (if any)
         story_context: RAG-retrieved story chunk context (if any)
         reroot_guidance: Invisible correction from facilitator (if any)
@@ -140,6 +146,16 @@ def build_representative_prompt(
     # contiguous, cacheable prefix.
     static_parts.append("# How You Engage\n")
     static_parts.append(_HOW_YOU_ENGAGE)
+
+    # Confirmed inline-gloss instruction, if this world has any (empty
+    # string for a world with none, or "" world_id) - appended to the same
+    # static prefix rather than kept as its own segment, since it's fixed
+    # per world_id and changes no more often than permanent_prompt/
+    # world_capsule already do.
+    gloss_guidance = get_gloss_guidance(world_id)
+    if gloss_guidance:
+        static_parts.append("\n\n")
+        static_parts.append(gloss_guidance)
 
     dynamic_parts = []
 

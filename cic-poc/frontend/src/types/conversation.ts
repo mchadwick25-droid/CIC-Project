@@ -15,11 +15,23 @@ export interface Citation {
   registry?: RegistryEntry[];
 }
 
+// A confirmed inline gloss actually used in one representative turn - see
+// cic-poc/backend/app/prompts/confirmed_glosses.py, the source of truth
+// for both `rendered` (the exact substring to find in the message text)
+// and the category/original/gloss breakdown behind it.
+export interface GlossUsed {
+  category: 'A' | 'B';
+  original: string;
+  gloss: string;
+  rendered: string;
+}
+
 export interface Message {
   role: 'user' | 'assistant';
   content: string;
   name?: string | null;
   citations?: Citation[] | null;
+  glosses_used?: GlossUsed[] | null;
 }
 
 export interface StartSessionResponse {

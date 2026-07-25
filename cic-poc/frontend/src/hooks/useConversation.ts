@@ -52,6 +52,7 @@ interface StreamEvent {
   speaker?: string;
   text?: string;
   citations?: import('../types/conversation').Citation[] | null;
+  glosses_used?: import('../types/conversation').GlossUsed[] | null;
   phase?: string;
   turn_count?: number;
   message?: string;
@@ -195,7 +196,7 @@ export function useConversation() {
               isStreaming: true,
               messages: [
                 ...prev.messages,
-                { role: 'assistant', content: '', name: evt.speaker ?? null, citations: null },
+                { role: 'assistant', content: '', name: evt.speaker ?? null, citations: null, glosses_used: null },
               ],
             }));
             break;
@@ -220,6 +221,7 @@ export function useConversation() {
                 messages[lastIndex] = {
                   ...messages[lastIndex],
                   citations: evt.citations ?? null,
+                  glosses_used: evt.glosses_used ?? null,
                 };
               }
               return { ...prev, messages };

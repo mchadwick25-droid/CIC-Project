@@ -34,6 +34,7 @@ from app.prompts.facilitator_prompts import (
     get_representative_message_name,
     get_representative_name,
 )
+from app.prompts.confirmed_glosses import find_glosses_used
 from app.prompts.representative_prompts import (
     REACTIVE_CONTINUATION_PROMPT,
     REPRESENTATIVE_CONTINUATION_PROMPT,
@@ -1011,6 +1012,7 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     static_prompt, reactive_guidance_block, dynamic_prompt = build_representative_prompt(
         permanent_prompt=permanent_prompt,
         world_capsule=world_capsule,
+        world_id=current_world_id,
         retrieved_context=retrieved_context,
         story_context=story_context,
         reroot_guidance=reroot_guidance,
@@ -1196,6 +1198,12 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
         message_kwargs["citations"] = ctx["citations_payload"]
     if ctx["retrieval_audit_payload"]:
         message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
+    glosses_used = find_glosses_used(
+        ctx["current_world_id"],
+        response.content if isinstance(response.content, str) else str(response.content),
+    )
+    if glosses_used:
+        message_kwargs["glosses_used"] = glosses_used
 
     return {
         "messages": [
@@ -1387,6 +1395,9 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         message_kwargs["citations"] = ctx["citations_payload"]
     if ctx["retrieval_audit_payload"]:
         message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
+    glosses_used = find_glosses_used(ctx["current_world_id"], full_text)
+    if glosses_used:
+        message_kwargs["glosses_used"] = glosses_used
 
     ai_message = AIMessage(
         content=full_text,

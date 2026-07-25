@@ -10,7 +10,8 @@
  */
 
 import type { Message, SpeakerName, LexiconTerm, Citation } from '../types/conversation';
-import { HighlightedText, getTermMatches } from './LexiconHighlight';
+import { getTermMatches } from './LexiconHighlight';
+import { ComposedLine } from './GlossHighlight';
 import { CitationMarker } from './CitationMarker';
 
 interface MessageBubbleProps {
@@ -79,8 +80,12 @@ function getSpeakerInfo(message: Message): {
 export function MessageBubble({ message, termMap, onTermClick, onCitationClick, worldNames, allowedTermKeys }: MessageBubbleProps) {
   const { name, role, className } = getSpeakerInfo(message);
 
-  // Only highlight terms in representative messages
-  const shouldHighlight = role === 'representative' && termMap.size > 0;
+  // Only highlight terms (bare-alias or confirmed-gloss) in representative
+  // messages. termMap.size no longer gates this at the top level - a world
+  // could in principle have confirmed glosses (confirmed_glosses.py) without
+  // every one of them also being a tracked lexicon term - ComposedLine
+  // checks termMap.size itself before running the bare-alias pass.
+  const shouldHighlight = role === 'representative';
 
   const lines = message.content.split('\n');
 
@@ -134,11 +139,13 @@ export function MessageBubble({ message, termMap, onTermClick, onCitationClick, 
               return (
                 <p key={index}>
                   {shouldHighlight ? (
-                    <HighlightedText
-                      text={line || '\u00A0'}
+                    <ComposedLine
+                      line={line || '\u00A0'}
+                      glossesUsed={message.glosses_used}
                       termMap={termMap}
-                      onDetailClick={onTermClick}
-                      allowedKeys={perLineAllowedKeys[index]}
+                      allowedTermKeys={perLineAllowedKeys[index]}
+                      onGlossClick={onTermClick}
+                      onTermClick={onTermClick}
                     />
                   ) : (
                     line || '\u00A0'
