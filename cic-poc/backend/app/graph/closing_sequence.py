@@ -210,7 +210,11 @@ def stream_closing_turn(state: ConversationState, kind: str):
         FACILITATOR_ANYTHING_ELSE_PROMPT,
         FACILITATOR_RESOURCES_OFFER_PROMPT,
         FACILITATOR_RESOURCES_SHOW_PROMPT,
-        FACILITATOR_SENSED_CLOSE_PROMPT,
+        # Reused, not reauthored: a sensed close is the same "gracious close,
+        # threshold outward" moment as an explicit close_requested close
+        # (facilitator_closes in nodes.py) - just reached by a different
+        # detection path. Aliased so the kind-dispatch below stays unchanged.
+        FACILITATOR_CLOSING_PROMPT as FACILITATOR_SENSED_CLOSE_PROMPT,
     )
 
     if kind == "anything_else":
