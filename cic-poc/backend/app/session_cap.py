@@ -7,7 +7,7 @@ real signed-in users).
 The reasoning that shaped the original mechanism still holds and is
 preserved here: a single shared budget lets whoever dives in first burn the
 whole pilot's spend before anyone else gets a turn, so each participant gets
-their own ceiling (profiles.max_sessions, default 2) instead of one shared
+their own ceiling (profiles.max_sessions, default 5) instead of one shared
 pool. What's different now: identity comes from a real signed-in Supabase
 user (see app/auth.py) rather than a code typed into a URL, and the count
 itself is a `select count(*)` against the durable `sessions` table rather

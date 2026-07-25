@@ -7,7 +7,7 @@
 create table public.profiles (
   user_id uuid primary key references auth.users(id) on delete cascade,
   pilot_cohort text,                         -- e.g. 'pilot_1', 'pilot_2'; null until assigned
-  max_sessions integer not null default 2,
+  max_sessions integer not null default 5,
   role_hint text,                            -- 'regular_visitor' | 'pastor_teacher' | 'academic_scholar' | 'reevaluation'
   created_at timestamptz not null default now()
 );

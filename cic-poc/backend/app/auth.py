@@ -82,5 +82,5 @@ async def get_current_user(authorization: str | None = Header(default=None)) -> 
     return AuthedUser(
         user_id=user.id,
         pilot_cohort=profile.get("pilot_cohort"),
-        max_sessions=profile.get("max_sessions", 2),
+        max_sessions=profile.get("max_sessions", 5),
     )

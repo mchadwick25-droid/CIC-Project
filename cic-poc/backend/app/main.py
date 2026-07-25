@@ -452,7 +452,7 @@ async def redeem_referral(request: RedeemReferralRequest):
     # New profile row already exists via the on_auth_user_created trigger;
     # stamp it with the referral link and this pilot's standard session cap.
     client.table("profiles").update(
-        {"referred_by_invite_id": invite_id, "max_sessions": 2}
+        {"referred_by_invite_id": invite_id, "max_sessions": 5}
     ).eq("user_id", invited.user.id).execute()
 
     return {"status": "invited"}
