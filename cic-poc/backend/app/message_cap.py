@@ -26,7 +26,7 @@ pilot tester's real conversation. Adjust CONVERSATION_TURN_CAP directly if
 it turns out to bind on real, wanted use.
 """
 
-CONVERSATION_TURN_CAP = 60
+CONVERSATION_TURN_CAP = 20
 
 
 def check_message_cap(turn_count: int) -> tuple[bool, str]:
