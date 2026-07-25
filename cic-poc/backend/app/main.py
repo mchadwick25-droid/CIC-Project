@@ -2,6 +2,7 @@
 
 import asyncio
 import json
+import logging
 import re
 import uuid
 from contextlib import asynccontextmanager
@@ -23,6 +24,15 @@ from app.graph.state import ConversationState
 from app.session_cap import check_and_reserve_session_slot
 from app.transcript_logging import write_transcript
 from app.world_manifest import WORLD_MANIFEST
+
+# Same "no root logging.basicConfig anywhere" situation as usage_logging.py -
+# a dedicated logger with its own handler, not reliant on root config.
+logger = logging.getLogger("cic.main")
+logger.setLevel(logging.INFO)
+if not logger.handlers:
+    _handler = logging.StreamHandler()
+    _handler.setFormatter(logging.Formatter("%(asctime)s [%(name)s] %(message)s"))
+    logger.addHandler(_handler)
 
 
 # In-memory session storage (POC only)
@@ -1145,8 +1155,25 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             # is exactly the "presentation with a question" pattern, not
             # genuine conversation.
         except Exception as exc:
-            yield sse({"type": "error", "message": str(exc)})
-            return
+            if turns_completed == 0:
+                # Nothing was produced at all this round - a genuine failure
+                # the participant needs to know about, not something to
+                # paper over.
+                yield sse({"type": "error", "message": str(exc)})
+                return
+            # At least one representative already answered in full before
+            # this happened (e.g. a transient failure picking or generating
+            # a SECOND speaker in a multi-world round - the exact failure
+            # mode a real multi-world session hit live, "only Chloe talked"
+            # when Marius/Albina were also seated). That answer is real and
+            # complete; the participant already has something worth reading.
+            # Commit what succeeded and close the round normally instead of
+            # surfacing a dead-end error after a perfectly good response -
+            # only the logs need to know a later speaker was skipped.
+            logger.exception(
+                "Multi-world round degraded early after %d turn(s) in session %s: %s",
+                turns_completed, session_id, exc,
+            )
 
         # Commit the completed round to session state and tell the
         # participant they can speak again right away. Everything below this
