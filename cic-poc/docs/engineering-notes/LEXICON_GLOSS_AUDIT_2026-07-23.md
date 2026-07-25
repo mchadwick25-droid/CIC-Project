@@ -151,11 +151,11 @@ All 13 terms in this world already carry clean English aliases, making this worl
 | 4 | eucharistia | *(the thanksgiving meal)* | High | — |
 | 5 | diakonos | *(deacon / one who serves)* | High | — |
 | 6 | presbyterion | *(council of elders)* | High | — |
-| 7 | Two Ways | *(the teaching: a way of life, a way of death)* | High | This is a phrase-name rather than a single word, but reads cleanly. |
+| 7 | Two Ways | *(the teaching that lays the two paths of life and death before you)* | High | **Confirmed** — decided in project owner review 2026-07-25, wording edited from the original candidate above. |
 | 8 | prophetes | *(prophet)* | High | Already transparent; low priority but harmless. |
 | 9 | ministrae | *(servant-women, per Pliny's report)* | High | Entry itself is explicit that this is an outsider's word, not the community's own — worth preserving that framing in the gloss. |
 | 10 | agape (as label) | *(the love-feast)* | High | — |
-| 11 | baptisma | *(baptism)* | High | **This is the confirmed tester example.** The entry's own Aliases already list "the water" — the fix here is exactly what the coordinator described: render "the water (baptisma)" as "baptism (the water)," modern gloss leading. |
+| 11 | baptisma | *(baptism)* | High | **Confirmed** — decided in project owner review 2026-07-25. This was always the coordinator's own tester example; the entry's Aliases list "the water," so the shipped form is "baptism (the water)," modern gloss leading, not the Greek "baptisma" in brackets. |
 | 12 | hetaeria | *(a suspected illegal club, in Roman legal terms)* | Medium | — |
 | 13 | pertinacia | *(stubbornness / refusal to recant)* | High | — |
 
@@ -259,4 +259,7 @@ This document was then walked through live, one decision at a time, with the pro
 - **Alexandria:** Gnosis, Theosis, Participation, Nous, Soul/Psyche, Freedom/Autexousia, Likeness of God, Oikonomia, Mystery/Mysterion, and Allegory all confirmed — several went through real revision during the conversation (Nous, Soul/Psyche, and Freedom/Autexousia each had an earlier candidate wording explicitly rejected for reasons recorded at each row).
 - **New general rendering rule** (applies document-wide, recorded at the top of this document): Category A glosses lead with the modern word, original term follows in brackets (unchanged from this document's original convention). Category B glosses lead with the original phrase exactly as attested, modern reference follows in brackets (a reversal from this document's original convention) — applied to every Category B entry in the document, not just the ones decided today.
 
-**Still open, not decided in this pass:** Syriac's remaining terms beyond raza/Iḥidaya (including the Tishrin Category B item), Hieronymian's remaining terms beyond Vulgata, Imperial Juridical's remaining terms beyond homoios, all of PAHC's Category A terms, and Alexandria's other 26+ lower-priority terms plus its Category A entries beyond the ten listed above. These remain recommendations awaiting review, exactly as before.
+**2026-07-25 addendum — a second review pass, prompted by live pilot testing:**
+- **PAHC:** two Category A terms confirmed — baptisma → "baptism (the water)" (the entry's own tester example, alias "the water" used in the bracket rather than the Greek); Two Ways → "the teaching that lays the two paths of life and death before you (Two Ways)" (wording edited live from the original candidate).
+
+**Still open, not decided in either pass:** Syriac's remaining terms beyond raza/Iḥidaya (including the Tishrin Category B item), Hieronymian's remaining terms beyond Vulgata, Imperial Juridical's remaining terms beyond homoios, PAHC's remaining 11 Category A terms beyond baptisma/Two Ways, and Alexandria's other 26+ lower-priority terms plus its Category A entries beyond the ten listed above. These remain recommendations awaiting review, exactly as before.

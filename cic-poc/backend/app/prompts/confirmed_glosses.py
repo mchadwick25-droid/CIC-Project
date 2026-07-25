@@ -65,6 +65,8 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("B", "the day named for the sun", "Sunday"),
         ConfirmedGloss("B", "the Lord's own day", "Sunday"),
         ConfirmedGloss("B", "the first day of the week", "Sunday"),
+        ConfirmedGloss("A", "the water", "baptism"),
+        ConfirmedGloss("A", "Two Ways", "the teaching that lays the two paths of life and death before you"),
     ],
     "alexandria-catechetical": [
         ConfirmedGloss("A", "gnosis", "a transformative knowing of God"),
