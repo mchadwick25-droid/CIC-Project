@@ -905,6 +905,17 @@ body {
   margin-bottom: var(--spacing-lg);
 }
 
+.conversation-ended__feedback {
+  margin-top: var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.conversation-ended__feedback a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* ============================================
    WORLD SELECTOR
    ============================================ */
