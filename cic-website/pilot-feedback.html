@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pilot Feedback — Church in Conversation</title>
+<meta name="description" content="Tell us what you found. Optional feedback for pilot participants, seven questions, low-pressure.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+form.feedback label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;font-weight:600;margin:1.3rem 0 .4rem}
+form.feedback label:first-of-type{margin-top:0}
+form.feedback .hint{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;color:var(--muted);font-weight:400;display:block;margin-top:.15rem}
+form.feedback input, form.feedback select, form.feedback textarea{
+  width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;
+  border:1px solid var(--rule);border-radius:5px;background:var(--vellum);color:var(--iron-gall)}
+form.feedback textarea{min-height:5rem;resize:vertical}
+.optin{background:var(--vellum);border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
+  border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:var(--muted)}
+.submit-row{text-align:center;margin-top:1.8rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="arriving-mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </span>
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="whats-next.html">What's Next</a>
+      <a href="atlas.html">Atlas</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" style="padding-bottom:1rem;">
+    <p class="eyebrow">Pilot Feedback</p>
+    <h1>Tell us what you found</h1>
+    <p class="lede">You just sat down with a Representative &mdash; we'd like to know what that was actually like.</p>
+  </section>
+
+  <section class="page-section">
+    <div class="optin">This is optional, and it's only for us &mdash; to help us see clearly what's working and what isn't as we keep building. Answer whatever feels comfortable to share, and skip anything you'd rather not.</div>
+
+    <form class="feedback" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
+      <label for="perspective">Which of the four perspectives did you engage as?</label>
+      <select id="perspective" name="Perspective">
+        <option>General</option>
+        <option>Pastor or Teacher</option>
+        <option>Academic</option>
+        <option>Re-examining my faith</option>
+        <option>Not sure / more than one</option>
+        <option>Prefer not to say</option>
+      </select>
+
+      <label for="tradition">Which tradition(s) did you speak with?</label>
+      <input type="text" id="tradition" name="Tradition" placeholder="e.g. Chloe (House-Churches), or more than one">
+
+      <label for="confusing">Was anything confusing, or did it assume knowledge you didn't have?<span class="hint">Optional</span></label>
+      <textarea id="confusing" name="Confusing"></textarea>
+
+      <label for="invented">Did anything feel invented, overstated, or not actually backed by what was shown to you?<span class="hint">Optional &mdash; this is the one we most want to hear if the answer is yes</span></label>
+      <textarea id="invented" name="Invented_or_overstated"></textarea>
+
+      <label for="opened">What did this open up for you, if anything &mdash; a thought, a question, a story you'd be willing to share?<span class="hint">Optional</span></label>
+      <textarea id="opened" name="What_it_opened"></textarea>
+
+      <label for="fundable">Looking past what's rough today, do you see enough potential here that this is fundable &mdash; worth real investment as we keep building it?<span class="hint">Optional</span></label>
+      <textarea id="fundable" name="Fundable_potential"></textarea>
+
+      <label for="else">Anything else &mdash; the good, the off, the thin, the wrong. We want to hear it plainly.<span class="hint">Optional</span></label>
+      <textarea id="else" name="Anything_else"></textarea>
+
+      <label for="name">Your name<span class="hint">Optional &mdash; leave blank to stay anonymous</span></label>
+      <input type="text" id="name" name="Name">
+
+      <label for="email">Email<span class="hint">Optional &mdash; only if you're open to us following up</span></label>
+      <input type="email" id="email" name="Email">
+
+      <div class="submit-row">
+        <button type="submit" class="btn primary">Send this to us</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

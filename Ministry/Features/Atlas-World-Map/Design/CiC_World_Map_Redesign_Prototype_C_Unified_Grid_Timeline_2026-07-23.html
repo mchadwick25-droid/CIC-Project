@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Prototype C — Unified Grid Timeline (2026-07-23)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Georgia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3ecdc; --panel:#faf5e9; --ink:#2b2620; --muted:#7a6c50; --line:#00000022;
+  --accent:#7a5c2e; --gold:#a07c33; --goldhi:#c9a35c;
+  --sel:#274f75; --sel-bg:#dfe8ee; --def:#7c611c; --def-bg:#f0e5c2;
+  --psc:#847962; --psc-bg:#eae2cd; --exc:#94421f; --exc-bg:#f0ddc9;
+  --cev:#5f5180; --cev-bg:#e5deec; --a5:#41653f; --a5-bg:#e0e8d8; --oos:#847e70; --oos-bg:#e2dcc9;
+  --nn:#6b3fa0; --nn-bg:#ece3f5;
+  --live-chloe:#6d3fc4; --live-yausep:#a34d07; --live-theon:#2B5F8A;
+  --influence:#3a3226;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+header{position:sticky;top:0;z-index:50;background:#20180f;color:#e9dfc7;padding:.6rem 1.2rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;border-bottom:2px solid var(--gold)}
+header h1{font-family:'Cinzel',Georgia,serif;font-size:.95rem;letter-spacing:.05em;margin:0}
+header .note{font-size:.72rem;color:#a4967a;font-style:italic}
+.zoomctl{margin-left:auto;display:flex;gap:.3rem;align-items:center}
+.zoomctl button{font:inherit;background:#3a2c18;color:#e9dfc7;border:1px solid var(--gold);border-radius:4px;width:32px;height:32px;cursor:pointer;font-weight:bold}
+.zoomctl .zl{font-size:.7rem;color:#a4967a;min-width:52px;text-align:center}
+
+#canvasWrap{position:relative;overflow-x:auto}
+#canvas{position:relative;margin:0 auto}
+.eraBg{position:absolute;left:0;right:0;border-top:2px solid var(--gold)}
+.eraHead{position:sticky;top:41px;z-index:5;padding:.5rem 1rem;pointer-events:none}
+.eraHead .inner{display:inline-block;background:rgba(255,255,255,.72);border:1px solid var(--gold);border-radius:6px;padding:.25rem .8rem;pointer-events:auto}
+.eraHead .no{font-family:'Cinzel',Georgia,serif;font-size:.68rem;letter-spacing:.1em;color:var(--accent)}
+.eraHead .ti{font-family:'Cinzel',Georgia,serif;font-size:.95rem;font-weight:700}
+.eraHead .dt{font-size:.72rem;color:var(--muted);font-style:italic}
+
+.laneLbl{position:absolute;top:2.2rem;font-family:'Cinzel',Georgia,serif;font-size:.6rem;letter-spacing:.08em;color:var(--accent);text-transform:uppercase;white-space:nowrap}
+
+.bar{position:absolute;border-radius:3px;opacity:.9}
+.box{position:absolute;border-radius:6px;border:1px solid rgba(0,0,0,.25);padding:.5rem .6rem;overflow:hidden;cursor:pointer;box-shadow:0 2px 5px rgba(0,0,0,.2);font-family:Georgia,serif;line-height:1.2;transition:outline .1s}
+.box:hover{outline:2px solid var(--goldhi);z-index:20}
+.box .nm{font-weight:700;display:block}
+.box .fn{font-style:italic;opacity:.8;display:block;margin-top:.05em}
+.box .dt{font-family:Verdana,sans-serif;opacity:.8;display:block;margin-top:.25em}
+.box.st-live{color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.35)}
+.box.st-sel{background:var(--sel-bg);color:var(--sel)}
+.box.st-def{background:var(--def-bg);color:var(--def)}
+.box.st-psc{background:var(--psc-bg);color:var(--psc)}
+.box.st-exc{background:var(--exc-bg);color:var(--exc);border-style:dashed}
+.box.st-cev{background:var(--cev-bg);color:var(--cev);border-style:dotted}
+.box.st-a5{background:var(--a5-bg);color:var(--a5)}
+.box.st-nn{background:var(--nn-bg);color:var(--nn)}
+.box.st-oos{background:var(--oos-bg);color:var(--oos)}
+
+#edges{position:absolute;left:0;top:0;pointer-events:none}
+
+#tip{position:fixed;display:none;z-index:60;max-width:260px;background:var(--panel);border:1px solid var(--gold);border-radius:6px;padding:.5rem .65rem;box-shadow:0 6px 20px rgba(0,0,0,.25);font-size:.8rem;pointer-events:none}
+#tip .n{font-weight:bold;font-family:'Cinzel',Georgia,serif;font-size:.75rem}
+#tip .m{color:var(--muted);font-size:.72rem;font-style:italic}
+#tip .s{font-family:Verdana,sans-serif;font-size:.6rem;margin-top:.2rem;color:var(--accent)}
+
+#scrim{position:fixed;inset:0;background:rgba(20,15,7,.45);z-index:70;display:none}
+#scrim.on{display:block}
+#sheet{position:fixed;top:0;right:-460px;width:min(440px,92vw);height:100%;background:var(--panel);border-left:2px solid var(--gold);z-index:80;transition:right .22s ease;overflow-y:auto;padding:1.1rem 1.2rem 6rem}
+#sheet.on{right:0}
+#sheet h2{font-family:'Cinzel',Georgia,serif;font-size:1.05rem;margin:.2rem 0 .1rem}
+#sheet .meta{color:var(--muted);font-size:.82rem;font-style:italic}
+#sheet .badge{display:inline-block;font-family:Verdana,sans-serif;font-size:.62rem;padding:.15rem .55rem;border-radius:3px;margin:.4rem .3rem .4rem 0;background:#ece1c8;border:1px solid var(--line)}
+#sheet h3{font-family:'Cinzel',Georgia,serif;font-size:.64rem;letter-spacing:.1em;color:var(--accent);margin:.9rem 0 .2rem}
+#sheet p{margin:.15rem 0;font-size:.88rem}
+#sheet .close{position:absolute;top:.5rem;right:.7rem;background:none;border:none;font-size:1.3rem;color:var(--muted);cursor:pointer}
+#sheetActs{position:sticky;bottom:-6rem;margin:0 -1.2rem -6rem;padding:.7rem 1.2rem 1.2rem;background:linear-gradient(rgba(250,245,233,0),var(--panel) 30%);display:none;gap:.5rem}
+#sheetActs.on{display:flex}
+#sheetActs button{font:inherit;font-size:.82rem;border-radius:5px;padding:.5rem .8rem;cursor:pointer;border:1px solid var(--gold)}
+#sheetActs .solid{background:var(--accent);color:#fff;font-weight:bold}
+#sheetActs .line{background:var(--panel);color:var(--ink)}
+
+footer{max-width:60rem;margin:1rem auto 3rem;padding:0 1.4rem;color:var(--muted);font-size:.78rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>ATLAS — PROTOTYPE C · UNIFIED GRID TIMELINE</h1>
+  <span class="note">Eras 1–2 only (26 entries) — proving the mechanic, not the full census</span>
+  <span class="zoomctl">
+    <button id="zOut" title="Zoom out">−</button>
+    <span class="zl" id="zLabel"></span>
+    <button id="zIn" title="Zoom in">+</button>
+  </span>
+</header>
+
+<div id="canvasWrap">
+  <div id="canvas"></div>
+</div>
+
+<div id="tip"></div>
+<div id="scrim"></div>
+<div id="sheet">
+  <button class="close" id="sheetClose">×</button>
+  <div id="sheetBody"></div>
+  <div id="sheetActs"></div>
+</div>
+
+<footer>
+  Prototype only — reacting-to-see whether the mechanic works, not final visual polish.
+  Box = start date. Bold line = active span, start to end, in the tradition's status color.
+  Lines depart the bottom-center of a bar and enter the top of the influenced tradition's box —
+  straight where the target sits in the same lane column, curved where it doesn't.
+</footer>
+
+<script>
+const DATA = {"eras":[{"no":"I","num":1,"title":"The Early Church Era","dates":"70-312 CE","tag":"The apostles' children, under an empire that could turn on them","stepStatus":"Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council","ground":"#EFDDB3","rec":"Part of Phase One — the Step 0 selection record is on file."},{"no":"II","num":2,"title":"The Imperial Church Era","dates":"312-451 CE","tag":"From Constantine's revolution to Chalcedon","stepStatus":"Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council","ground":"#EDDEB9","rec":"Part of Phase One — the Step 0 selection record is on file."}],"movements":[{"id":"post-apostolic-house-church","atlasId":"I.1","era":1,"name":"Post-Apostolic House-Church Christianity","dates":"70–200 CE","start":70,"end":200,"region":"Antioch, Asia Minor, Rome","lane":"Origin (pre-lane)","laneLabel":"Origin — before the lanes divide","laneOrder":0,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Moderate; communal voice rich, individual interior voice thin (disclosed on its tile)","floorNote":"Cleared A2 (pre-Nicene continuity)","relationsSummary":"Parent of nearly everything on the map","why":"It is — open for conversation now (Representative: Chloe).","entry":{"representativeId":"chloe","representativeName":"Chloe","representativeTitle":"Host of the Assembly","worldName":"The House-Churches","subtitle":"Post-Apostolic House-Church Christianity","color":"#7c3aed","tile":"The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.","icon":"assets/world-icons/house-churches.svg"}},{"id":"alexandria-catechetical","atlasId":"I.2","era":1,"name":"Alexandrian Catechetical / Christian-Platonist Tradition","dates":"c. 150–400 CE","start":150,"end":400,"region":"Alexandria, Egypt","lane":"4 Africa","laneLabel":"Africa","laneOrder":4,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich (Clement, Origen); school-institution question is live scholarship","floorNote":"Cleared Step 0","relationsSummary":"Parent of Desert Monasticism; scholarship parent of the Bethlehem Circle","why":"It is — open for conversation now (Representative: Theon).","entry":{"representativeId":"theon","representativeName":"Theon","representativeTitle":"Catechetical Teacher","worldName":"Alexandrian Christianity","subtitle":"Alexandrian Catechetical Tradition","color":"#2B5F8A","tile":"Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.","icon":"assets/world-icons/alexandria.svg"}},{"id":"syriac-edessa-nisibis","atlasId":"I.7","era":1,"name":"Syriac Christianity (Edessa/Nisibis)","dates":"200–410 CE","start":200,"end":410,"region":"Edessa & Nisibis","lane":"1 Syriac East & Asia","laneLabel":"Syriac East & Asia","laneOrder":1,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Rich formal/doctrinal, thinner personal texture (disclosed on its tile)","floorNote":"Cleared Step 0; Bardaisan floor-test is a named Section A task on record","relationsSummary":"Parent of the Church of the East and Syriac Orthodox lines","why":"It is — open for conversation now (Representative: Mar Yausep).","entry":{"representativeId":"mar-yausep","representativeName":"Mar Yausep","representativeTitle":"Teacher of the Covenant Order","worldName":"Syriac Christianity","subtitle":null,"color":"#b45309","tile":"Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.","icon":"assets/world-icons/syriac.svg"}},{"id":"latin-pastoral-congregational-christianity","atlasId":"I.8","era":1,"name":"Latin Pastoral-Congregational Christianity","dates":"c. 240s-430","start":240,"end":430,"region":"Carthage, Hippo Regius","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Selected - Not Yet Built","chip":"sel","glyph":"sel","statusWord":"Chosen — not yet built","statusDescription":"One of the traditions chosen for its era after a completed survey. Construction has not begun.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich (Cyprian's letters, Augustine's sermons to his own flock)","floorNote":"Cleared Step 0","relationsSummary":"Confirmed distinct from the Imperial tradition; Donatism contests its interval","why":"This tradition has already been chosen: the ordinary congregational life of Latin North Africa — Cyprian steering his flock through plague and persecution, Augustine preaching to his own people at Hippo week after week, baptisms and penance and the daily care of souls under a bishop's office. Not the councils, not the controversies — the parish, long before that word existed. Construction has not yet begun.","entry":null},{"id":"tertullian-s-voice","atlasId":"I.17","era":1,"name":"Tertullian's Voice","dates":"c. 197-220","start":197,"end":220,"region":"Carthage","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich corpus, one man","floorNote":"Later Montanist alignment noted","relationsSummary":"Forged much of the Latin theological vocabulary; no clear home since the Cyprian/Jerome tradition-split","why":"A dropped voice, not a dropped tradition - on record as such. Where he belongs is an open question for a future pass.","entry":null},{"id":"marcion-marcionism","atlasId":"I.20","era":1,"name":"Marcion / Marcionism","dates":"c. 140-300s","start":140,"end":300,"region":"Rome, widespread","lane":"8 Beyond the Floor (researched & explained)","laneLabel":"Non-Nicene Traditions","laneOrder":80,"beyondFloor":true,"status":"Excluded - Doctrinal Floor (C1)","chip":"exc","glyph":"exc","statusWord":"Excluded — creedal grounds stated","statusDescription":"Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Substantial, almost entirely via opponents","floorNote":"Two deities, non-material Christ - the Constitution's own paradigm exclusion case","relationsSummary":"Second-century rival the proto-orthodox defined themselves against","why":"Excluded by the doctrinal floor - a design effect, not an evidentiary judgment, and not a judgment of unimportance. Appears plainly inside Tradition I.1's own contested milieu.","entry":null},{"id":"valentinian-and-other-gnostic-christianities","atlasId":"I.21","era":1,"name":"Valentinian & other Gnostic Christianities","dates":"2nd-3rd c.","start":120,"end":300,"region":"Alexandria, Rome, widespread","lane":"8 Beyond the Floor (researched & explained)","laneLabel":"Non-Nicene Traditions","laneOrder":80,"beyondFloor":true,"status":"Excluded - Doctrinal Floor (C1)","chip":"exc","glyph":"exc","statusWord":"Excluded — creedal grounds stated","statusDescription":"Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Nag Hammadi gave real internal texts","floorNote":"Apparent-body Christology; pleroma vs. one Maker of all","relationsSummary":"Rivals the early traditions anathematized and were shaped by","why":"Excluded by the doctrinal floor. Where relevant they appear inside the traditions that defined themselves against them - as live neighbors, not defeated foils.","entry":null},{"id":"manichaeism","atlasId":"I.22","era":1,"name":"Manichaeism","dates":"3rd-7th c.","start":216,"end":650,"region":"Persia to the Mediterranean","lane":"8 Beyond the Floor (researched & explained)","laneLabel":"Non-Nicene Traditions","laneOrder":80,"beyondFloor":true,"status":"Excluded - Doctrinal Floor (C1)","chip":"exc","glyph":"exc","statusWord":"Excluded — creedal grounds stated","statusDescription":"Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich own corpus survives","floorNote":"Co-original dualism denies 'maker of all things'; most scholars: a distinct universal religion","relationsSummary":"Augustine's own former allegiance","why":"Excluded by the doctrinal floor, and by most modern scholarship's judgment that it is its own religion rather than a Christian movement.","entry":null},{"id":"ebionite-nazoraean-current","atlasId":"I.24","era":1,"name":"Ebionite / Nazoraean Current","dates":"1st-4th c.","start":70,"end":400,"region":"Palestine, Syria","lane":"Origin (pre-lane)","laneLabel":"Origin — before the lanes divide","laneOrder":0,"beyondFloor":false,"status":"Contested - Evidentiary","chip":"cev","glyph":"cev","statusWord":"Contested evidence","statusDescription":"The record is genuinely disputed. This entry carries the question, not a verdict.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Almost wholly hostile heresiological description","floorNote":"Cannot be confirmed or cleared either way - an open evidentiary question, NOT a settled doctrinal one (on record)","relationsSummary":"Jewish-Christian continuity; rhymes with Era 9's Messianic Judaism entry","why":"Not built because the record cannot even establish what they themselves confessed. Held as an honest open question - deliberately not cited alongside settled exclusions.","entry":null},{"id":"montanism-the-new-prophecy","atlasId":"I.25","era":1,"name":"Montanism (the New Prophecy)","dates":"c. 165-400s","start":165,"end":400,"region":"Phrygia, spreading","lane":"Origin (pre-lane)","laneLabel":"Origin — before the lanes divide","laneOrder":0,"beyondFloor":false,"status":"Excluded - Person-Defined (C2)","chip":"exc","glyph":"exc","statusWord":"Excluded — person-defined movement","statusDescription":"Excluded because its authority rests on one person's revelation or standing (Criterion 2) — the theology was not the problem.","living":false,"overlayCurrent":false,"c2":"record","sourcing":"Oracles, Tertullian's advocacy, Phrygian inscriptions","floorNote":"Nicene-compatible confession - doctrine is NOT the problem (on record)","relationsSummary":"Named live neighbor inside Tradition I.1's milieu","why":"Excluded on the person-defined ground: its authority claim rests on three named prophets. LIVE QUESTION on record: Phrygian inscriptions may document a wider communal ecology - the test might yield here.","entry":null},{"id":"novatianism","atlasId":"I.26","era":1,"name":"Novatianism","dates":"c. 251-400s","start":251,"end":400,"region":"Rome, spreading","lane":"Origin (pre-lane)","laneLabel":"Origin — before the lanes divide","laneOrder":0,"beyondFloor":false,"status":"Excluded - Person-Defined (C2)","chip":"exc","glyph":"exc","statusWord":"Excluded — person-defined movement","statusDescription":"Excluded because its authority rests on one person's revelation or standing (Criterion 2) — the theology was not the problem.","living":false,"overlayCurrent":false,"c2":"record","sourcing":"Novatian's De Trinitate is broadly orthodox; community texture thinner","floorNote":"Doctrine is NOT the problem (on record)","relationsSummary":"Rigorist parallel communion; redundancy risk vs. Donatism noted if revisited","why":"Excluded on the person-defined ground: defined by one man's rigorist stance and rival consecration rather than a broader communal tradition.","entry":null},{"id":"desert-monasticism","atlasId":"I.3","era":2,"name":"Desert Monasticism","dates":"c. 320–430 CE","start":320,"end":430,"region":"Nile Valley & Desert, Egypt","lane":"4 Africa","laneLabel":"Africa","laneOrder":4,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Small corpus, deep on inner combat (disclosed on its tile)","floorNote":"Cleared Step 0","relationsSummary":"Child of Alexandria's milieu; parent of all later monasticism","why":"It is — open for conversation now (Representative: Papnoute).","entry":{"representativeId":"papnoute","representativeName":"Papnoute","representativeTitle":"Elder of the Desert","worldName":"Desert Fathers and Mothers","subtitle":"Desert Monasticism","color":"#0f766e","tile":"The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.","icon":"assets/world-icons/desert.svg"}},{"id":"donatism","atlasId":"I.4","era":2,"name":"Donatism","dates":"c. 312-430s","start":312,"end":430,"region":"North Africa (Carthage)","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Selected - Not Yet Built","chip":"sel","glyph":"sel","statusWord":"Chosen — not yet built","statusDescription":"One of the traditions chosen for its era after a completed survey. Construction has not begun.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Substantial but heavily via opponents (Augustine) - a named challenge","floorNote":"Cleared Step 0 (A1 pass on record)","relationsSummary":"Rival-sibling of the Latin pastoral tradition; martyr-memory identity","why":"This tradition has already been chosen — and it may surprise you that it's here: the churches of Roman North Africa that broke communion with their neighbors over what faithfulness under persecution required, kept their own bishops for a century, and built their identity on the memory of the martyrs. History mostly remembers them through their opponents — Augustine wrote against them, and the label \"Donatist\" was never their own name for themselves. That is exactly why this project chose them: a whole communion of real Christians, serious about holiness, known mainly through hostile pens, deserves to speak as itself. Construction has not yet begun.","entry":null},{"id":"cappadocian-nicene-pastoral-monastic-tradition","atlasId":"I.5","era":2,"name":"Cappadocian Nicene Pastoral-Monastic Tradition","dates":"c. 360-380s","start":360,"end":380,"region":"Cappadocia / Anatolia","lane":"3 Greek East & Orthodoxy","laneLabel":"Greek East & Orthodoxy","laneOrder":3,"beyondFloor":false,"status":"Selected - Not Yet Built","chip":"sel","glyph":"sel","statusWord":"Chosen — not yet built","statusDescription":"One of the traditions chosen for its era after a completed survey. Construction has not begun.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich (Basil, the Gregories, Macrina; letters, rules, sermons)","floorNote":"Cleared Step 0","relationsSummary":"Trinitarian theology + charitable-ascetic pastoral practice; Jerome heard Gregory teach","why":"This tradition has already been chosen — one of the nine selected for this era: the communities around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, where the words Christians still confess about the Trinity were being forged in real congregations, real letters, real grief. Nothing about it was judged too hard or too thin — it was selected on the strength of its sources; construction simply has not begun.","entry":null},{"id":"imperial-and-juridical-christianity","atlasId":"I.6","era":2,"name":"Imperial and Juridical Christianity","dates":"c. 312-451","start":312,"end":451,"region":"Rome, Constantinople, Milan","lane":"3<->5 bridge (Greek East / Latin West)","laneLabel":"Greek East / Latin West — bridge","laneOrder":3.5,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich institutional (Eusebius, Ambrose, Leo)","floorNote":"Cleared Step 0","relationsSummary":"Three causally-linked phases merged into one tradition (on record); must depict Homoian rivals plainly","why":"It is — open for conversation now (Representative: Marius).","entry":{"representativeId":"marius","representativeName":"Marius","representativeTitle":"Apocrisiarius — Deacon of the Letters","worldName":"Church and Empire","subtitle":"Imperial and Juridical Christianity","color":"#7A2E2E","tile":"Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.","icon":"assets/world-icons/empire.svg"}},{"id":"hieronymian-ascetic-literary","atlasId":"I.9","era":2,"name":"Hieronymian Ascetic-Literary Christianity","dates":"c. 382–420 CE","start":380,"end":420,"region":"Rome & Bethlehem","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Built & Live","chip":"live","glyph":null,"statusWord":"Open for conversation","statusDescription":"You can sit down with this tradition now.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Richest written record of the four built worlds - mostly via one prolific pen (disclosed)","floorNote":"Cleared Step 0","relationsSummary":"Built around the women's ascetic-patronage network (Paula, Marcella, Eustochium)","why":"It is — open for conversation now (Representative: Albina).","entry":{"representativeId":"albina","representativeName":"Albina","representativeTitle":"Widow of the Household","worldName":"The Bethlehem Circle","subtitle":"Hieronymian Ascetic-Literary Christianity","color":"#9d174d","tile":"Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.","icon":"assets/world-icons/bethlehem.svg"}},{"id":"armenian-christianity-conversion-era","atlasId":"I.10","era":2,"name":"Armenian Christianity (conversion era)","dates":"c. 314-451","start":314,"end":451,"region":"Armenia","lane":"2 Caucasus","laneLabel":"Caucasus","laneOrder":2,"beyondFloor":false,"status":"Deferred by Step 0","chip":"def","glyph":"def","statusWord":"Deferred — reasons on record","statusDescription":"Considered for its era and held for a later one — the reasons are on record.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Periods and transitions better attested than separable inner sub-traditions in this window","floorNote":"Not in question","relationsSummary":"Formed via Cappadocia and Syriac Edessa","why":"Considered and deferred, not dropped: this era's evidence supports its story's outline more confidently than a lived inner tradition. It returns in the next era.","entry":null},{"id":"aksumite-christianity-conversion-era","atlasId":"I.11","era":2,"name":"Aksumite Christianity (conversion era)","dates":"c. 330-451","start":330,"end":451,"region":"Aksum (Ethiopia/Eritrea)","lane":"4 Africa","laneLabel":"Africa","laneOrder":4,"beyondFloor":false,"status":"Deferred by Step 0","chip":"def","glyph":"def","statusWord":"Deferred — reasons on record","statusDescription":"Considered for its era and held for a later one — the reasons are on record.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Same pattern as Armenia in this window; inscriptions and later narratives","floorNote":"Not in question","relationsSummary":"Child of Alexandria (Frumentius consecrated by Athanasius)","why":"Considered and deferred, not dropped - same reason as Armenia. Ethiopia's richly documented centuries come later on the map.","entry":null},{"id":"persian-church-of-the-east-early","atlasId":"I.12","era":2,"name":"Persian Church of the East (early)","dates":"to 451","start":300,"end":451,"region":"Persian Mesopotamia","lane":"1 Syriac East & Asia","laneLabel":"Syriac East & Asia","laneOrder":1,"beyondFloor":false,"status":"Deferred by Step 0","chip":"def","glyph":"def","statusWord":"Deferred — reasons on record","statusDescription":"Considered for its era and held for a later one — the reasons are on record.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Real and distinct; institutional self-identity matures after this window","floorNote":"Heresiological 'Nestorian' label is not its own confession - assessed on its own texts","relationsSummary":"Direct heir of the Syriac tradition's Nisibis side","why":"Considered and deferred, not dropped: its clearest self-conscious identity matures just after this era's ceiling. First in line next era.","entry":null},{"id":"antiochene-exegetical-christianity-chrysostom-ce","atlasId":"I.13","era":2,"name":"Antiochene Exegetical Christianity (Chrysostom-centered)","dates":"c. 350-430","start":350,"end":430,"region":"Antioch","lane":"3 Greek East & Orthodoxy","laneLabel":"Greek East & Orthodoxy","laneOrder":3,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Rich ordinary-lay ethical-formation material","floorNote":"Not in question","relationsSummary":"Historical-literal exegesis vs. Alexandria's allegory; Theodore of Mopsuestia flag on record","why":"Proposed and tested; held out until its distinctiveness from the Latin pastoral tradition is demonstrated beyond geography and language. Deferred, not dropped.","entry":null},{"id":"cyrilline-miaphysite-egyptian-tradition","atlasId":"I.14","era":2,"name":"Cyrilline / Miaphysite Egyptian Tradition","dates":"from 451","start":451,"end":500,"region":"Egypt","lane":"4 Africa","laneLabel":"Africa","laneOrder":4,"beyondFloor":false,"status":"Deferred by Step 0","chip":"def","glyph":"def","statusWord":"Deferred — reasons on record","statusDescription":"Considered for its era and held for a later one — the reasons are on record.","living":true,"overlayCurrent":false,"c2":null,"sourcing":"Viable in the earlier survey","floorNote":"Rejection of Chalcedon's formula, not of the Creed's content","relationsSummary":"Continuation of Alexandria + Desert","why":"On record as the natural first candidate of the next phase: its self-definition as a distinct communion crystallizes just after this era's deliberate ceiling at Chalcedon.","entry":null},{"id":"jerusalem-liturgical-pilgrimage-christianity","atlasId":"I.15","era":2,"name":"Jerusalem Liturgical-Pilgrimage Christianity","dates":"c. 325-450","start":325,"end":450,"region":"Jerusalem","lane":"3 Greek East & Orthodoxy","laneLabel":"Greek East & Orthodoxy","laneOrder":3,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Strong - Egeria's eyewitness account plus unusually corroborating archaeology","floorNote":"Not in question","relationsSummary":"Comparison-point for the Bethlehem Circle's distinctiveness on record","why":"A live, strong, deferred candidate: the open question was never evidence but whether it is one bounded community or a shifting population of clergy, locals, and pilgrims.","entry":null},{"id":"ambrosian-milan-standalone","atlasId":"I.16","era":2,"name":"Ambrosian Milan (standalone)","dates":"c. 374-397","start":374,"end":397,"region":"Milan","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Thin alone - substantially one bishop's confrontations","floorNote":"Not in question","relationsSummary":"Folded into the Imperial-Juridical tradition as one of its three phases","why":"Surveyed and found too narrowly biographical to stand alone; it lives inside the Imperial tradition by choice, not oversight.","entry":null},{"id":"priscillianist-asceticism","atlasId":"I.18","era":2,"name":"Priscillianist Asceticism","dates":"c. 370-450","start":370,"end":450,"region":"Spain","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Limited; executed leader, suppressed movement","floorNote":"Unresolved Section A questions on record","relationsSummary":"Iberian ascetic current","why":"Surveyed; eligibility questions were never resolved. An honest open case, not a rejection.","entry":null},{"id":"pelagianism","atlasId":"I.19","era":2,"name":"Pelagianism","dates":"c. 390-430","start":390,"end":430,"region":"Rome, Mediterranean","lane":"5 Latin West & Catholicism","laneLabel":"Latin West & Catholicism","laneOrder":5,"beyondFloor":false,"status":"Possible Future World (on record)","chip":"def","glyph":"pfw","statusWord":"Possible future tradition — on record","statusDescription":"Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Ecology too thin to build - kept on record to prove the point","floorNote":"Clears the doctrinal floor (on record)","relationsSummary":"Augustine's great controversy-partner","why":"On record deliberately: it clears the floor but its surviving ecology is too thin for a lived tradition - proof that eligibility and buildability are separate tests.","entry":null},{"id":"homoian-arian-christianity","atlasId":"I.23","era":2,"name":"Homoian ('Arian') Christianity","dates":"4th-6th c.","start":340,"end":589,"region":"Empire-wide; then Gothic & Vandal kingdoms","lane":"8 Beyond the Floor (researched & explained)","laneLabel":"Non-Nicene Traditions","laneOrder":80,"beyondFloor":true,"status":"Excluded - Doctrinal Floor (C1)","chip":"exc","glyph":"exc","statusWord":"Excluded — creedal grounds stated","statusDescription":"Excluded on a stated creedal ground you can read in full. Exclusion is not a judgment of unimportance.","living":false,"overlayCurrent":false,"c2":null,"sourcing":"Real corpus (Ulfila's Bible, homilies), much via opponents","floorNote":"The floor's own occasion ('true God from true God'); exclusion is a floor effect, not unimportance","relationsSummary":"For stretches of the 4th c., the imperial church itself","why":"Excluded by the doctrinal floor as it stands. OPEN QUESTION on record: whether to bring it in through the Constitution's own bounded exception path (A4) rather than moving the floor.","entry":null}]};
+const EDGES = [["I.1","I.7","ct","Aramaic Christianity reached Edessa early — by what route, scholars genuinely disagree"],["I.1","I.2","wa","Egyptian Christianity emerged from the same scattered network"],["I.2","I.3","wa","The desert grew in Alexandria's shadow; Athanasius wrote Antony's Life"],["I.3","I.9","doc","Jerome and Paula toured the Egyptian ascetic settlements"],["I.2","I.9","doc","Origen's Hexapla is the ancestor of Jerome's Hebrew-testing project"],["I.5","I.9","doc","Jerome heard Gregory of Nazianzus teach, and called him his teacher"]];
+const ERAS = DATA.eras.map(e => ({no:e.no, num:e.num, title:e.title, dates:e.dates, tag:e.tag, ground:e.ground, start:parseInt(e.dates), end: e.num===1?312:451}));
+// (start/end above are the two known era boundaries for this 2-era prototype slice;
+//  a full build would carry these from the shared ERAS_YEARS table, not hardcode two.)
+const MOVEMENTS = DATA.movements;
+const byId = {}; MOVEMENTS.forEach(m => byId[m.id] = m);
+function esc(t){return (t||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+
+const LANE_ORDER = ["Origin — before the lanes divide","Syriac East & Asia","Caucasus","Greek East & Orthodoxy",
+  "Africa","Latin West & Catholicism","Protestant & Evangelical","Global Revival & Pentecostal","Non-Nicene Traditions"];
+function laneOf(m){
+  const ll = m.laneLabel;
+  let i = LANE_ORDER.indexOf(ll);
+  return i<0 ? LANE_ORDER.length-1 : i;
+}
+const ST = s => s==="Built & Live" ? "live" :
+  s==="Selected - Not Yet Built" ? "sel" :
+  (s==="Deferred by Step 0"||s==="Possible Future World (on record)") ? "def" :
+  s==="Pre-Survey Candidate" ? "psc" :
+  (s.indexOf("Excluded")===0||s==="Floor Question (register)") ? "exc" :
+  s==="Contested - Evidentiary" ? "cev" :
+  s==="Within Another World (A5)" ? "a5" :
+  s==="Label - Assessed Per Body (A3)" ? "sel" :
+  (s==="Excluded - Doctrinal Floor (C1)") ? "nn" : "oos";
+const LIVE_COLOR = {"post-apostolic-house-church":"var(--live-chloe)","syriac-edessa-nisibis":"var(--live-yausep)","alexandria-catechetical":"var(--live-theon)"};
+
+const ZLEVELS = [0.7, 1, 1.4];
+let zi = 1;
+const BASE_ERA_H = 900, BOX_W = 132, BOX_H = 44, LANE_GAP = 26, COL_GAP = 10, TOP_PAD = 70;
+let ERA_H, canvas, laneX = {}, laneW = {};
+
+function yFor(year){
+  for(let i=0;i<ERAS.length;i++){
+    const e = ERAS[i];
+    if(year<=e.end || i===ERAS.length-1){
+      const yy = Math.max(e.start, Math.min(year, e.end));
+      if(year>=e.start || i===0) return i*ERA_H + (yy-e.start)/(e.end-e.start)*ERA_H;
+    }
+  }
+  return 0;
+}
+
+function packLane(entries){
+  entries.sort((a,b)=>a.start-b.start);
+  const colEnds = [];
+  entries.forEach(m=>{
+    let col=0;
+    for(;col<colEnds.length;col++){ if(colEnds[col] <= m.start) break; }
+    m._col = col;
+    colEnds[col] = m.end;
+  });
+  return colEnds.length;
+}
+
+function layout(){
+  const Z = ZLEVELS[zi];
+  ERA_H = BASE_ERA_H * Z;
+  const boxW = BOX_W * Z, boxH = BOX_H * Z, colGap = COL_GAP * Z, laneGap = LANE_GAP * Z;
+  // Rendered box is 2x the layout "slot" it's packed into - deliberately allowed
+  // to overflow into neighboring lanes/columns for readability. The slot size
+  // above still drives packing/spacing math (so time-overlap avoidance within a
+  // lane is unaffected); only the visual box size and centering use this.
+  const renderW = boxW * 2, renderH = boxH * 2;
+
+  const byLane = LANE_ORDER.map(()=>[]);
+  MOVEMENTS.forEach(m => byLane[laneOf(m)].push(m));
+
+  let x = 16;
+  laneX = {}; laneW = {};
+  byLane.forEach((list, li) => {
+    if(!list.length) return;
+    const cols = packLane(list);
+    laneX[li] = x; laneW[li] = cols*boxW + (cols-1)*colGap;
+    x += laneW[li] + laneGap;
+  });
+  const totalW = x;
+
+  document.getElementById('zLabel').textContent = Math.round(Z*100)+'%';
+
+  let html = `<svg id="edges" width="${totalW}" height="${ERA_H*ERAS.length+40}"></svg>`;
+
+  ERAS.forEach((e,i)=>{
+    html += `<div class="eraBg" style="top:${i*ERA_H}px;height:${ERA_H}px;background:${e.ground}"></div>`;
+  });
+  byLane.forEach((list, li) => {
+    if(!list.length) return;
+    html += `<div class="laneLbl" style="left:${laneX[li]}px">${esc(LANE_ORDER[li])}</div>`;
+  });
+
+  const pos = {};
+  MOVEMENTS.forEach(m => {
+    const li = laneOf(m);
+    const bx = laneX[li] + m._col*(boxW+colGap);
+    const by = yFor(m.start);
+    const barBottom = yFor(m.end);
+    const st = ST(m.status);
+    const color = st==='live' ? (LIVE_COLOR[m.id]||'#333') : null;
+    pos[m.atlasId] = {cx: bx+boxW/2, top: by, bottom: barBottom};
+
+    if(barBottom > by+renderH){
+      html += `<div class="bar" style="left:${bx+boxW/2-8*Z}px;top:${by+renderH}px;width:${16*Z}px;height:${barBottom-(by+renderH)}px;background:${color||'var(--'+st+')'}"></div>`;
+    }
+    // Simple/friendly name leads (live worlds have one); the academic name only
+    // renders as a second line when it actually differs from the friendly name -
+    // otherwise a "Syriac Christianity" / "Syriac Christianity" style duplicate
+    // shows up for no reason. Non-live entries (no friendly name yet) just show
+    // the one name they have.
+    const friendly = m.entry ? m.entry.worldName : null;
+    const primary = friendly || m.name;
+    // Skip the academic-name line entirely when it's just the friendly name
+    // plus a qualifier tacked on (e.g. "Syriac Christianity" / "Syriac
+    // Christianity (Edessa/Nisibis)") - not just an exact-match check, since
+    // that case still reads as the same name shown twice.
+    const secondary = (friendly && friendly !== m.name && !m.name.startsWith(friendly)) ? m.name : null;
+    const nameSz = Math.max(11, Math.min(22, renderH*0.24));
+    const acadSz = Math.max(9, Math.min(15, renderH*0.16));
+    const dtSz = Math.max(9, Math.min(14, renderH*0.15));
+    html += `<div class="box st-${st}" data-id="${m.id}" style="left:${bx+boxW/2-renderW/2}px;top:${by}px;width:${renderW}px;min-height:${renderH}px;${st==='live'?'background:'+color+';border-color:'+color:''}">
+      <span class="nm" style="font-size:${nameSz}px">${esc(primary)}</span>${secondary?`<span class="fn" style="font-size:${acadSz}px">(${esc(secondary)})</span>`:''}<span class="dt" style="font-size:${dtSz}px">${esc(m.dates)} · ${esc(m.region)}</span>
+    </div>`;
+  });
+
+  canvas.style.width = totalW+'px';
+  canvas.style.height = (ERA_H*ERAS.length+40)+'px';
+  canvas.innerHTML = html;
+
+  ERAS.forEach((e,i)=>{
+    const head = document.createElement('div');
+    head.className = 'eraHead';
+    head.style.position = 'absolute';
+    head.style.top = (i*ERA_H+8)+'px';
+    head.style.left = '0';
+    head.innerHTML = `<div class="inner"><span class="no">ERA ${e.no}</span> · <span class="ti">${esc(e.title)}</span><div class="dt">${esc(e.dates)}</div></div>`;
+    canvas.appendChild(head);
+  });
+
+  const svg = document.getElementById('edges');
+  let edgeHtml = '';
+  EDGES.forEach(([a,b,conf,note])=>{
+    const pa = pos[a], pb = pos[b];
+    if(!pa||!pb) return;
+    const x1=pa.cx, y1=pa.bottom, x2=pb.cx, y2=pb.top;
+    const dash = conf==='ct' ? '4,5' : 'none';
+    const inline = Math.abs(x1-x2) < 4;
+    const d = inline
+      ? `M ${x1} ${y1} L ${x2} ${y2}`
+      : `M ${x1} ${y1} C ${x1} ${(y1+y2)/2}, ${x2} ${(y1+y2)/2}, ${x2} ${y2}`;
+    edgeHtml += `<path d="${d}" fill="none" stroke="var(--influence)" stroke-width="1.4" ${dash!=='none'?`stroke-dasharray="${dash}"`:''} opacity=".7"><title>${esc(note)}</title></path>`;
+    edgeHtml += `<circle cx="${x2}" cy="${y2}" r="2.6" fill="var(--influence)"></circle>`;
+  });
+  svg.innerHTML = edgeHtml;
+}
+
+const tip = document.getElementById('tip');
+document.addEventListener('mousemove', ev => {
+  const b = ev.target.closest && ev.target.closest('.box');
+  if(!b){ tip.style.display='none'; return; }
+  const m = byId[b.dataset.id];
+  tip.innerHTML = `<div class="n">${esc(m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region)}</div><div class="s">${esc(m.statusWord)}</div>`;
+  tip.style.display = 'block';
+  tip.style.left = Math.min(ev.clientX+14, window.innerWidth-280)+'px';
+  tip.style.top = (ev.clientY+16)+'px';
+});
+
+function openSheet(id){
+  const m = byId[id];
+  const live = m.status === 'Built & Live';
+  let h = `<h2>${esc(m.name)}</h2><div class="meta">${esc(m.dates)} · ${esc(m.region)} · lane: ${esc(m.laneLabel)}</div>
+    <span class="badge">${esc(m.statusWord)}</span>${m.living?'<span class="badge">living tradition</span>':''}`;
+  h += `<h3>${live?'THIS TRADITION IS OPEN':"WHY IT ISN'T OPEN FOR CONVERSATION"}</h3><p>${esc(m.why)}</p>`;
+  if(m.sourcing) h += `<h3>WHAT SURVIVES</h3><p>${esc(m.sourcing)}</p>`;
+  if(m.floorNote) h += `<h3>WHERE IT STANDS ON THE CREED</h3><p>${esc(m.floorNote)}</p>`;
+  if(m.relationsSummary) h += `<h3>KEY RELATIONS</h3><p>${esc(m.relationsSummary)}</p>`;
+  document.getElementById('sheetBody').innerHTML = h;
+  const acts = document.getElementById('sheetActs');
+  if(live){
+    acts.classList.add('on');
+    acts.innerHTML = `<button class="solid">Interview ${esc(m.entry.representativeName)}</button><button class="line">Add to the Table</button>`;
+  } else {
+    acts.classList.remove('on'); acts.innerHTML='';
+  }
+  document.getElementById('sheet').classList.add('on');
+  document.getElementById('scrim').classList.add('on');
+}
+function closeSheet(){
+  document.getElementById('sheet').classList.remove('on');
+  document.getElementById('scrim').classList.remove('on');
+}
+document.getElementById('sheetClose').onclick = closeSheet;
+document.getElementById('scrim').onclick = closeSheet;
+document.addEventListener('click', ev => {
+  const b = ev.target.closest && ev.target.closest('.box');
+  if(b){ openSheet(b.dataset.id); }
+});
+
+document.getElementById('zIn').onclick = () => { zi = Math.min(ZLEVELS.length-1, zi+1); layout(); };
+document.getElementById('zOut').onclick = () => { zi = Math.max(0, zi-1); layout(); };
+
+canvas = document.getElementById('canvas');
+layout();
+</script>
+</body>
+</html>

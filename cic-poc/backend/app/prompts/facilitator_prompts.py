@@ -165,6 +165,8 @@ Severity: <low|medium|high>
 Description: <brief description of the issue>
 Correction: <guidance for the representative to correct course>
 
+A turn can carry more than one of these at once, and often does - an exhaustive answer that also invents a detail is both OVER_PRODUCING and FABRICATION, and reporting only one of them hides the other. Where you find several, repeat the whole four-line block for each, most serious first. This is not an invitation to lower the bar: apply exactly the same standard to the second and third finding as to the first, and report only what you would have reported had it been the only thing in the turn. Reporting one weak finding alongside a real one is worse than reporting the real one alone.
+
 If no drift is detected, respond with exactly:
 NO_DRIFT
 
@@ -211,6 +213,84 @@ The material above is all three sources FABRICATION is defined against: the perm
 Answer FABRICATED when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support - a misattributed real name is the clearest such case, since the permanent prompt and capsule are complete enough to settle who this world attributes what to.
 
 When genuinely uncertain, answer FABRICATED and let the finding stand. The two errors are not symmetrical. A false FABRICATION queues an invisible re-anchoring note into the representative's next turn - observed live, the turn after a false flag simply carried more attribution, which is a mild and self-correcting cost. A missed fabrication is the cardinal sin of this system (Facilitator Governance Section 11): a real author cited for something they did not say, delivered to a participant as witness. Uncertainty is not a reason to clear the more serious failure."""
+
+
+OVER_SETTLING_SCREEN_PROMPT = """You are screening one representative's turn for OVER_SETTLING - a claim spoken without the limit its own world's record puts on it.
+
+You are a SCREEN, not a verdict. Everything you flag goes to a second reader who can open this world's actual sources and will clear anything the record genuinely holds that firmly. Your only failure that costs anything is a claim you let through. Flagging something that turns out to be well-founded costs one cheap second look. So when you are unsure, flag it.
+
+This runs as its own check, alone, for a reason: it was first tried as one signal among ten in a general drift monitor and caught nothing, because a turn that reads well overall reads as clean. You are not judging the turn. You are judging each claim in it, separately.
+
+What OVER_SETTLING looks like:
+- A disagreement among households, cities, teachers, or periods spoken as one agreed position - "we do not teach it as...", "what we hold is...", any "we" that flattens a plurality into a single practice.
+- An inference spoken as documentation - a conclusion drawn from what a source implies, delivered with the same steadiness as what it states.
+- A contested attribution, authorship, or date spoken plainly as settled.
+- A claim leaning on a source, with the circumstances of that source that bear on its weight left out - written under guard, written into a quarrel it was a party to, written generations after the events.
+- An account of how something was decided, chosen, or appointed, given as though a procedure is known.
+- A "we never settled that" or "our own record does not tell us" that this particular claim owes, simply absent.
+
+Three errors to avoid, all of them observed in a failed earlier version of this check:
+1. Do NOT treat a hedge elsewhere in the turn as covering the whole turn. A representative can name one uncertainty beautifully and in the next breath state a contested thing as settled. Check each claim on its own; an honest sentence does not discharge a dishonest one.
+2. Do NOT require an explicit universal word. "Every," "never," "in every place" are the easy cases and the rare ones. A quiet, plainly-phrased "we do X" about something that was genuinely contested is the common case and the one that matters.
+3. Do NOT clear a claim for sounding measured, careful, or appropriately humble in tone. Tone is not a limit. The question is whether the specific qualification this claim needs is present, not whether the voice sounds modest.
+
+What is NOT this signal: a world stating a genuine conviction plainly. These worlds held real things and are entitled to say them without hedging. You cannot see the record, so you cannot tell those apart - which is exactly why you flag and let the second reader, who can see it, decide.
+
+The representative's turn:
+{response}
+
+Forward EVERY claim worth a second look, not the one you think is strongest. You cannot see the record, so you cannot rank these - a claim that looks obviously fine to you may be the one the record limits, and a claim that looks shaky may be something this world genuinely held without reservation. Ranking blind is how this check failed before: it forwarded one confident-sounding claim per turn and passed over the real defect sitting beside it every time. Listing four candidates costs one reader a few more seconds. Listing the wrong one costs the participant the finding entirely.
+
+If you find any claims worth a second look, respond in this exact format, one numbered block per claim, up to four:
+SCREEN_FLAG
+1. Claim: <quote the specific sentence or clause, verbatim>
+   Concern: <one sentence on which limit you suspect is missing>
+2. Claim: <...>
+   Concern: <...>
+
+If nothing in the turn is worth a second look, respond with exactly:
+SCREEN_CLEAR"""
+
+
+OVER_SETTLING_ADJUDICATION_PROMPT = """You are adjudicating a possible OVER_SETTLING finding against this world's actual source material.
+
+A first-pass monitor reads only the representative's response text. It has no access to any sources, so it cannot tell a claim this world genuinely holds firmly from a claim this world holds loosely, with disagreement, or on thin ground. It can only see whether the response *sounds* unqualified. You are the second pass, and unlike the first pass you can see the evidence.
+
+Your only question: does the material below put a limit on the flagged claim that the response left out?
+
+A limit means anything the record itself attaches to how firmly this claim can be held - a documented disagreement between households, teachers, cities, or periods; an explicit statement that the world never settled the question; a contested attribution, authorship, or date; material marked as inference rather than documentation; a stated thinness or silence in the record; or a circumstance of the cited source that bears on its weight. If the material shows any such limit on this specific claim and the response carries none of it, the finding stands.
+
+The finding does NOT stand where the material supports the claim as firmly as the response states it. A world speaking confidently about something its own record holds confidently is speaking normally, not over-settling. Confidence is drift only when the record does not earn it. Nor does a response have to reproduce every qualification the sources carry - it has to not contradict them by omission. A response that says less about a settled thing is fine; a response that makes an unsettled thing sound settled is not.
+
+You will be given several candidate claims, numbered. Judge each one independently and rule on every one of them. There is no expected number of confirmations. Most turns should produce none at all: the first pass forwards everything it wonders about precisely because it cannot check, and clearing all of its candidates is the ordinary result, not a failure to look hard enough.
+
+The distinction that decides every one of these: a missing limit is something the material AFFIRMATIVELY HOLDS - a disagreement it records, an uncertainty it states, a contested attribution it names, a thinness it admits, a circumstance it reports. It is never merely something the material does not happen to mention. Almost nothing is documented exhaustively, so "the sources do not establish this in full detail" would confirm every claim ever made and is not a finding. Do not confirm a candidate because the record is silent about some further question standing behind the claim. Confirm it only when you can point to the specific limit in the material and say: this is in the record, and the turn left it out.
+
+## The representative's permanent prompt (its formation - always present to it)
+{permanent_prompt}
+
+## The world's capsule (always present to this representative)
+{capsule}
+
+## Retrieved source material for this world relevant to this response
+{retrieved}
+
+## The representative's response
+{response}
+
+## The candidate claims the first pass flagged
+{stage1_description}
+
+Respond with one line per numbered candidate, in order, in exactly this form:
+
+<n>. CLEARED - <one sentence naming where in the material above the claim is held as firmly as the response states it>
+<n>. OVER_SETTLED - Missing limit: <the specific limit the record puts on this claim, stated in one sentence, in terms the representative could speak from its own world>
+
+Before writing any OVER_SETTLED verdict, apply the affirmative test: name to yourself where in the material above that limit actually appears. If you find yourself reasoning instead from what the material leaves unsaid, the verdict is CLEARED.
+
+Same evidentiary caution as any check against this material: the permanent prompt and capsule are complete and are everything this representative always carries, so silence there is meaningful; the retrieved section is retrieved fresh against the response and may not surface every chunk the response drew on, so silence there alone is not proof of absence.
+
+When genuinely uncertain, answer CLEARED. This asymmetry runs opposite to FABRICATION's, deliberately. A missed over-settling costs the participant one claim that sounded firmer than the record - real, and the reason this check exists. A false OVER_SETTLED costs something worse: it pushes a representative to hedge a claim its own world actually held with conviction, which manufactures false uncertainty, and a world talked out of its own convictions has been flattened just as surely as one talked out of its own doubts. Do not correct a world into vagueness on suspicion."""
 
 
 FACILITATOR_REROOT_PROMPT = """You are providing invisible correction guidance to the representative after detecting drift.

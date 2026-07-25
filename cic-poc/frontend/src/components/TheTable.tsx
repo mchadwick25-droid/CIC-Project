@@ -332,6 +332,10 @@ export function TheTable() {
           <button className="chat-button chat-button--primary" onClick={handleResetConversation}>
             Return to World Selection
           </button>
+          <p className="conversation-ended__feedback">
+            If you're willing to tell us how this went, here's a way to reach us:{' '}
+            <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>
+          </p>
         </div>
 
         {selectedTerm && (

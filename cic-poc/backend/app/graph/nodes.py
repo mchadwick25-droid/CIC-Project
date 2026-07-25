@@ -19,6 +19,8 @@ from app.prompts import (
     FACILITATOR_CLOSING_PROMPT,
     FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
     FABRICATION_ADJUDICATION_PROMPT,
+    OVER_SETTLING_ADJUDICATION_PROMPT,
+    OVER_SETTLING_SCREEN_PROMPT,
     FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_PROMPT,
@@ -1487,6 +1489,47 @@ def multi_representative_engages(state: ConversationState, request_id: str | Non
     }
 
 
+# Which finding a turn reports when the monitor returns several. Severity
+# decides first; this breaks ties. Ordered by what the governance treats as
+# most serious rather than by how the prompt happens to list them:
+# FABRICATION is the cardinal failure (Facilitator Governance Section 11),
+# SELF_NARRATION is governed more strictly than the rest (Article 28), and the
+# stance/shape signals sit below the ones that put something untrue or
+# out-of-world in front of a participant.
+_MONITOR_SIGNAL_PRIORITY: list[str] = [
+    "fabrication", "self_narration", "first_person", "temporal_bleed",
+    "anachronism", "over_settling", "apologetics", "smoothing",
+    "flattening", "agreeing", "generating", "over_producing",
+]
+_SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
+
+
+def _select_monitor_finding(
+    findings: list[tuple[str, str, str]]
+) -> tuple[str, str, str]:
+    """
+    The one finding a multi-finding monitor result reports.
+
+    Only one DriftSignal is returned per turn - every caller and the reroot
+    path are built around that - so when the monitor names several, which one
+    survives matters. Highest severity wins; equal severity falls back to
+    _MONITOR_SIGNAL_PRIORITY. Measured motivation: across 45 live turns the
+    monitor never once reported OVER_PRODUCING, on an arm averaging 306 words
+    and 2.3 threads a turn, because the format admitted a single finding and
+    ten signals were competing for it. The reverse case is the dangerous one -
+    a fabrication losing that slot to a stylistic complaint.
+    """
+    def rank(f: tuple[str, str, str]) -> tuple[int, int]:
+        signal_type, severity, _ = f
+        priority = next(
+            (i for i, s in enumerate(_MONITOR_SIGNAL_PRIORITY) if s in signal_type),
+            len(_MONITOR_SIGNAL_PRIORITY),
+        )
+        return _SEVERITY_RANK.get(severity, 2), priority
+
+    return min(findings, key=rank)
+
+
 def _detect_drift_signal(response_text: str, world_id: str | None = None) -> DriftSignal | None:
     """
     Run drift detection on a single representative response and return the
@@ -1507,20 +1550,48 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
 
     result = response.content.strip()
     if not result.startswith("DRIFT_DETECTED"):
+        # The general monitor above weighs ten signals at once under a
+        # standing instruction to be conservative, which is right for the
+        # signals it carries and wrong for OVER_SETTLING: a missing limit
+        # leaves no trace in the text, so a turn that reads well overall
+        # reads as clean. Measured, not assumed - carried as an eleventh
+        # signal in that prompt, it caught 0 of 3 defects that blind grading
+        # had already confirmed, and affirmatively cleared one of them as
+        # "the exact opposite of OVER_SETTLING." It gets its own screen
+        # instead, tuned to flag rather than to be sure, with a source-fed
+        # second pass to clear the false positives that tuning invites.
+        #
+        # Only reached when the general monitor is clean. A turn it already
+        # flagged is already getting a correction, and leaving that path
+        # byte-identical keeps a tested component untouched - the known cost
+        # is that over-settling goes unchecked on a turn that also drifted
+        # some other way.
+        return _over_settling_signal(response_text, world_id)
+
+    # The prompt asks for one four-line block per finding, since a turn can
+    # carry several at once. Parse every block, then choose which one this
+    # call reports - the previous loop overwrote as it went and kept whichever
+    # block happened to come LAST, which is the opposite of what matters when
+    # one of them is FABRICATION.
+    findings: list[tuple[str, str, str]] = []
+    cur_type = cur_sev = cur_desc = ""
+    for line in result.split("\n")[1:]:
+        if line.startswith("Signal:"):
+            if cur_type:
+                findings.append((cur_type, cur_sev or "low", cur_desc))
+            cur_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
+            cur_sev = cur_desc = ""
+        elif line.startswith("Severity:"):
+            cur_sev = line.split(":", 1)[1].strip().lower()
+        elif line.startswith("Description:"):
+            cur_desc = line.split(":", 1)[1].strip()
+    if cur_type:
+        findings.append((cur_type, cur_sev or "low", cur_desc))
+
+    if not findings:
         return None
 
-    lines = result.split("\n")
-    signal_type = "smoothing"
-    severity = "low"
-    description = ""
-
-    for line in lines[1:]:
-        if line.startswith("Signal:"):
-            signal_type = line.split(":", 1)[1].strip().lower().replace("-", "_")
-        elif line.startswith("Severity:"):
-            severity = line.split(":", 1)[1].strip().lower()
-        elif line.startswith("Description:"):
-            description = line.split(":", 1)[1].strip()
+    signal_type, severity, description = _select_monitor_finding(findings)
 
     # Validate signal type - must match the 9 signals defined in
     # FACILITATOR_MONITORING_PROMPT (facilitator_prompts.py). This list had
@@ -1533,7 +1604,7 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     valid_signals = [
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
-        "first_person", "anachronism", "self_narration",
+        "first_person", "anachronism", "self_narration", "over_settling",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
@@ -1596,6 +1667,205 @@ def _adjudicate_fabrication(
     finding stands. A guard that silently disappears on error is worse than a
     noisy one - the noise is at least visible.
     """
+    evidence = _gather_world_evidence(world_id, response_text)
+    if evidence is None:
+        return None
+    permanent_prompt, capsule, retrieved = evidence
+
+    try:
+        llm = get_monitoring_llm()
+        prompt = FABRICATION_ADJUDICATION_PROMPT.format(
+            permanent_prompt=permanent_prompt,
+            capsule=capsule,
+            retrieved=retrieved,
+            response=response_text,
+            stage1_description=stage1_description,
+        )
+        result = llm.invoke([
+            _cached_adjudication_message(prompt),
+            HumanMessage(content="Adjudicate the flagged content against the material above."),
+        ]).content.strip()
+    except Exception:
+        return None
+
+    if result.startswith("GROUNDED"):
+        return False
+    if result.startswith("FABRICATED"):
+        return True
+    return None
+
+
+_ADJUDICATION_CACHE_BOUNDARY = "## Retrieved source material for this world relevant to this response"
+
+
+def _cached_adjudication_message(rendered: str) -> SystemMessage:
+    """
+    A source-fed adjudication prompt, split into a cached prefix and an
+    uncached remainder at the point where per-world-stable material ends.
+
+    Both adjudicators (fabrication and over-settling) are built the same way:
+    instructions, then the representative's permanent prompt, then the world
+    capsule, then retrieved material, then the turn being judged. Everything
+    up to the retrieval heading is byte-identical on every call for a given
+    world - roughly 9,250 tokens of it, previously paid in full every time a
+    finding reached adjudication. Everything after it changes per call and is
+    deliberately left out of the cached block; including it would guarantee a
+    miss and defeat the purpose. Same reasoning as _cached_system_message,
+    applied to the monitoring path, which was simply never given it.
+
+    Falls back to a single uncached block if the boundary is absent, so a
+    reworded prompt degrades to today's cost rather than breaking.
+    """
+    head, sep, tail = rendered.partition(_ADJUDICATION_CACHE_BOUNDARY)
+    if not sep:
+        return SystemMessage(content=rendered)
+    return SystemMessage(content=[
+        {"type": "text", "text": head, "cache_control": {"type": "ephemeral"}},
+        {"type": "text", "text": sep + tail},
+    ])
+
+
+def _screen_over_settling(response_text: str) -> str | None:
+    """
+    First-pass OVER_SETTLING screen: its own call, weighing nothing else.
+
+    Returns the flagged claim and concern as a description string, or None if
+    the turn reads clean. Deliberately tuned to over-flag - the prompt tells
+    it to flag when unsure - because every flag is handed to a source-fed
+    second pass that can clear it, and only a miss is unrecoverable.
+    """
+    try:
+        llm = get_monitoring_llm()
+        result = llm.invoke([
+            SystemMessage(content=OVER_SETTLING_SCREEN_PROMPT.format(response=response_text)),
+            HumanMessage(content="Screen the turn above."),
+        ]).content.strip()
+    except Exception:
+        return None
+
+    if not result.startswith("SCREEN_FLAG"):
+        return None
+
+    # Everything after the SCREEN_FLAG line is the numbered candidate list,
+    # passed to the adjudicator verbatim: it rules per number, and keeping
+    # the numbering intact is what lets its verdicts be matched back.
+    candidates = result.split("\n", 1)[1].strip() if "\n" in result else ""
+    return candidates or None
+
+
+def _over_settling_signal(
+    response_text: str, world_id: str | None
+) -> DriftSignal | None:
+    """
+    The full OVER_SETTLING path: screen, then source-fed adjudication.
+
+    Returns None unless the adjudicator, reading this world's actual sources,
+    confirms that the record limits the flagged claim in a way the turn left
+    out. Without a world_id there are no sources to judge against, and this
+    check clears rather than guesses (see _adjudicate_over_settling on why
+    the asymmetry runs this direction).
+    """
+    if not world_id:
+        return None
+
+    screened = _screen_over_settling(response_text)
+    if screened is None:
+        return None
+
+    missing_limit = _adjudicate_over_settling(response_text, world_id, screened)
+    if missing_limit is False or missing_limit is None:
+        return None
+
+    return DriftSignal(
+        signal_type="over_settling",
+        # The named limit is the whole payload: the correction is only
+        # actionable if the representative is told WHICH limit went missing,
+        # since it has to speak that limit from inside its own world.
+        description=f"{screened}\n\nMissing limit: {missing_limit}",
+        # Medium is the floor that sets requires_reroot (see
+        # facilitator_monitors), and a claim delivered firmer than the record
+        # holds it is never a cosmetic finding.
+        severity="medium",
+        world_id=world_id,
+    )
+
+
+def _adjudicate_over_settling(
+    response_text: str, world_id: str, stage1_description: str
+) -> bool | str | None:
+    """
+    Second-stage OVER_SETTLING check, WITH the sources stage 1 is denied.
+
+    Returns False (cleared - drop the signal), a non-empty string (confirmed;
+    the string is the specific limit the record puts on the claim that the
+    response omitted), or None (could not adjudicate; caller keeps stage 1's
+    finding rather than silently clearing a real one).
+
+    Fails open toward keeping the signal on infrastructure errors, exactly as
+    _adjudicate_fabrication does - but note the MODEL-level asymmetry runs the
+    other way here and is set in the prompt itself: told to answer under
+    genuine uncertainty, this adjudicator clears rather than confirms. A false
+    confirmation would push a world to hedge a conviction it actually held,
+    which flattens it just as badly as dropping a doubt it actually had.
+    """
+    evidence = _gather_world_evidence(world_id, response_text)
+    if evidence is None:
+        return None
+    permanent_prompt, capsule, retrieved = evidence
+
+    try:
+        llm = get_monitoring_llm()
+        prompt = OVER_SETTLING_ADJUDICATION_PROMPT.format(
+            permanent_prompt=permanent_prompt,
+            capsule=capsule,
+            retrieved=retrieved,
+            response=response_text,
+            stage1_description=stage1_description,
+        )
+        result = llm.invoke([
+            _cached_adjudication_message(prompt),
+            HumanMessage(content="Adjudicate the flagged claim against the material above."),
+        ]).content.strip()
+    except Exception:
+        return None
+
+    # One verdict line per candidate. Any single confirmed candidate makes
+    # the turn a finding - the first one carries it, since the correction
+    # only needs one limit restored to be actionable.
+    confirmed = [
+        line.split("Missing limit:", 1)[1].strip()
+        for line in result.split("\n")
+        if "OVER_SETTLED" in line and "Missing limit:" in line
+    ]
+    for limit in confirmed:
+        if limit:
+            return limit
+
+    if "OVER_SETTLED" in result:
+        # Confirmed but no limit parsed out. Clearing here rather than
+        # keeping a nameless finding is deliberate: the correction is only
+        # actionable if it names WHICH limit went missing, and telling a
+        # representative it over-settled without saying what it left out
+        # invites exactly the vague hedging this check's asymmetry exists to
+        # prevent.
+        return False
+    return False
+
+
+def _gather_world_evidence(
+    world_id: str, response_text: str
+) -> tuple[str, str, str] | None:
+    """
+    The three sources a source-fed adjudication is defined against, for one
+    world: (permanent_prompt, capsule, retrieved). None if the capsule cannot
+    be read at all, which is the one failure that leaves nothing to judge
+    against.
+
+    Shared by both second-stage checks (_adjudicate_fabrication and
+    _adjudicate_over_settling), which ask opposite questions of identical
+    evidence: whether the record supports a claim, and whether the record
+    limits it.
+    """
     try:
         world_config = settings.get_world_config(world_id)
         capsule = world_config.world_capsule_path.read_text(encoding="utf-8")
@@ -1631,27 +1901,7 @@ def _adjudicate_fabrication(
 
     retrieved = "\n\n".join(retrieved_parts) or "(no additional material retrieved)"
 
-    try:
-        llm = get_monitoring_llm()
-        prompt = FABRICATION_ADJUDICATION_PROMPT.format(
-            permanent_prompt=permanent_prompt,
-            capsule=capsule,
-            retrieved=retrieved,
-            response=response_text,
-            stage1_description=stage1_description,
-        )
-        result = llm.invoke([
-            SystemMessage(content=prompt),
-            HumanMessage(content="Adjudicate the flagged content against the material above."),
-        ]).content.strip()
-    except Exception:
-        return None
-
-    if result.startswith("GROUNDED"):
-        return False
-    if result.startswith("FABRICATED"):
-        return True
-    return None
+    return permanent_prompt, capsule, retrieved
 
 
 def check_drift_for_message(world_id: str, message_content: str) -> DriftSignal | None:
@@ -1678,6 +1928,31 @@ def generate_reroot_guidance(signal: DriftSignal) -> str:
     drifted - not whoever happens to speak next in the round, regardless of
     who the finding was about.
     """
+    # OVER_SETTLING never goes through the generative path below. Its
+    # adjudicator has already named the missing limit, from the sources, in
+    # terms the representative can speak - so there is nothing left to
+    # compose, and composing anyway is actively unsafe. Observed: handed this
+    # signal, the reroot model invented supporting sources and told a
+    # ~95-155 AD householder to contrast "Tertullian's rigorism" with the
+    # Shepherd of Hermas - an author outside her span, reached for to
+    # illustrate a limit that had already been stated correctly without him.
+    # A guard against overstating certainty would have introduced temporal
+    # bleed and a fabricated citation to do it. Pass the adjudicator's own
+    # words through instead: safer, and one model call cheaper.
+    if signal.signal_type == "over_settling":
+        limit = ""
+        for line in signal.description.split("\n"):
+            if line.startswith("Missing limit:"):
+                limit = line.split(":", 1)[1].strip()
+                break
+        if limit:
+            return (
+                "Your last turn spoke that more firmly than your own record holds it. "
+                f"What it left out: {limit} Say that plainly, in your own words and from "
+                "inside your own life, before you go further - and reach for nothing "
+                "beyond what your own record already gives you to say it."
+            )
+
     llm = get_monitoring_llm()
     prompt = FACILITATOR_REROOT_PROMPT.format(
         drift_description=f"{signal.signal_type}: {signal.description}"
@@ -2209,6 +2484,61 @@ _WORLD_LENGTH_CEILINGS: dict[str, int] = {
 }
 
 
+# Per-lane word ceilings. These exist because a written target does not bind.
+# Measured over 45 live turns: lanes told to hold 90-140 words came in at 169
+# and 197, while the two lanes with no number ran 306 and 288 against a no-lane
+# baseline of 262 - both LONGER than having no lane at all. Lane guidance
+# inflates length whatever it says, because it adds things to attend to.
+# Instruction moved it partway; only measurement closes the rest.
+#
+# general and academic sit at the same 140: both designs state that band, and
+# both lanes add their rigor through what fills a turn rather than its size.
+#
+# pastor-teacher is higher on purpose. Its design asks for depth on one thread,
+# which legitimately costs more room than a visitor's answer, so it binds at the
+# outer edge of the Representative's own fullest measure (Chloe's formation
+# names two short paragraphs; the design spec's own demonstration answers run
+# about 230) rather than at a tighter measure borrowed from another lane. Its
+# real failure was threads, not words - 2.3 distinct threads per turn, single-
+# thread on only 3 of 9 - and the semantically correct detector for that,
+# OVER_PRODUCING, fired 0 times across all 45 turns despite being written for
+# exactly this ("has become encyclopedic resource rather than voice with its own
+# perspective"). A word count is a proxy for the real fault, chosen because it
+# is the only mechanism here with a measured track record of firing at all.
+#
+# reevaluation is absent deliberately, not by oversight. Both directions are
+# dangerous in that lane - short reads as managed, long reads as advocacy - so
+# its design governs ordering and concreteness instead, and a ceiling would
+# invent a constraint its guidance does not make.
+_LANE_LENGTH_CEILINGS: dict[str, int] = {
+    "general": 140,
+    "academic": 140,
+    "pastor-teacher": 220,
+}
+
+
+def _effective_length_ceiling(world_id: str, role: str | None) -> tuple[int | None, str]:
+    """
+    The binding word ceiling for one world under one lane, and which bound set
+    it ("world" or "lane"). (None, "") when neither applies.
+
+    A lane may only ever tighten a world's own measure, never loosen it - the
+    design spec's rule that role guidance operates inside the Representative's
+    own measure rather than over it. So this is a min(), and a world with a
+    tighter formation than the lane keeps its own.
+    """
+    world_ceiling = _WORLD_LENGTH_CEILINGS.get(world_id)
+    lane_ceiling = _LANE_LENGTH_CEILINGS.get(role) if role else None
+
+    if world_ceiling is not None and lane_ceiling is not None:
+        return (world_ceiling, "world") if world_ceiling <= lane_ceiling else (lane_ceiling, "lane")
+    if world_ceiling is not None:
+        return world_ceiling, "world"
+    if lane_ceiling is not None:
+        return lane_ceiling, "lane"
+    return None, ""
+
+
 def check_length_ceiling(state: ConversationState, spoken_this_round: list[str]) -> list[DriftSignal]:
     """
     Heuristic (no LLM call) check for a representative whose own Permanent
@@ -2229,9 +2559,14 @@ def check_length_ceiling(state: ConversationState, spoken_this_round: list[str])
         if len(last_turn_by_world) >= len(name_to_world):
             break
 
+    # Read defensively: participant_role exists only where the role-mode work
+    # is present, and this check must behave identically (world ceilings only)
+    # where it is not.
+    role = getattr(state, "participant_role", None)
+
     signals = []
     for wid, content in last_turn_by_world.items():
-        ceiling = _WORLD_LENGTH_CEILINGS.get(wid)
+        ceiling, bound_by = _effective_length_ceiling(wid, role)
         if ceiling is None:
             continue
         word_count = len(content.split())
@@ -2240,15 +2575,27 @@ def check_length_ceiling(state: ConversationState, spoken_this_round: list[str])
             info = REPRESENTATIVE_INFO.get(wid)
             name = info["name"] if info else wid
             overage = word_count - ceiling
+            if bound_by == "world":
+                reason = (
+                    "over the hard measure your own formation states. The pull to say more "
+                    "because the table's exchange feels substantial is the exact pull your "
+                    "own formation trains you to resist - let your next turn return to your "
+                    "true measure, even mid-exchange."
+                )
+            else:
+                # Never attributed to the Representative's own formation, which
+                # would be false: this bound comes from who is listening, not
+                # from the world. Kept in the same listener-descriptive register
+                # the lane blocks themselves use.
+                reason = (
+                    "over the measure that serves the one at your table today. Say the one "
+                    "thing this turn is for and let the rest wait to be asked for - what you "
+                    "leave unsaid is what the next turn is for, and holding it back is what "
+                    "leaves them room to ask."
+                )
             signals.append(DriftSignal(
                 signal_type="length_ceiling",
-                description=(
-                    f"{name}'s last turn ran {word_count} words, {overage} over the hard "
-                    "measure your own formation states. The pull to say more because the "
-                    "table's exchange feels substantial is the exact pull your own formation "
-                    "trains you to resist - let your next turn return to your true measure, "
-                    "even mid-exchange."
-                ),
+                description=f"{name}'s last turn ran {word_count} words, {overage} {reason}",
                 severity="medium" if overage < ceiling else "high",
                 world_id=wid,
             ))
