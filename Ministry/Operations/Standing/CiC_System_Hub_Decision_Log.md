@@ -11,6 +11,14 @@ workstream in this project.
 
 ---
 
+## 2026-07-26 (later still) — Pushed to origin/main; the Fable design brief is ready to launch
+
+**Round 4's last open P0 closed:** `git push origin main` (`d1b9b4c..81a1c93`, 23 commits). `origin/main` now matches local `main` exactly — the current brief, all 19 research documents, the standard-practice doc, and the full four-round review-and-fix history. Before this push, `origin/main` had sat at the pre-round-1 draft since the initial commit: 7 sections, seven jobs, both of round 1's original fabrications, none of research docs 12-19. Anyone accessing this repo by clone from here forward gets the real, reviewed document.
+
+**Status as of this push: the brief is ready to launch to Fable.** Four adversarial review rounds complete (docs 11 logged historically, round 2 logged in this file, docs 18 and 19 filed in full), every P0 and P1 across all four rounds applied and verified against primary sources, 12 P2 polish items open by choice and confirmed non-blocking by round 4's own review. Repo-access delivery is now actually live, not just decided. This is the first point in the whole arc where "ready" means the remote agrees with local, not just local.
+
+---
+
 ## 2026-07-26 (later still) — Launch prompt written for a new cost/availability exploration thread
 
 **Mark asked to open a separate Sonnet-model thread to explore model maxing, model money management, and pre-process prompts, explicitly as exploration, not design or implementation.** Wrote a launch prompt at `Ministry/Operations/Standing/Launch-Prompts/CiC_Cost_and_Availability_Exploration_Launch_2026-07-26.md`, scaled to a single exploration thread rather than a full System-Hub-style handoff. Grounds it in real numbers already gathered this session (the $0.06-0.08/exchange baseline, the cache-read weighting fix, the 5-minute cache-TTL risk, Alexandria's unexamined 4,300-word retrieval push, the existing classifier/generation model split) without making the new thread depend on or block the parallel redesign-brief effort. Explicitly scoped Divergent-first (breadth before commitment), no design doc, no code changes, Sonnet-tier per the standing model-tier policy. This session did not open the new thread itself — that's a separate Claude Code session Mark starts by pasting this prompt in.
