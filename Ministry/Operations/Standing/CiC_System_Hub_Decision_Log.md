@@ -11,6 +11,12 @@ workstream in this project.
 
 ---
 
+## 2026-07-26 (later still) — Launch prompt written for a new cost/availability exploration thread
+
+**Mark asked to open a separate Sonnet-model thread to explore model maxing, model money management, and pre-process prompts, explicitly as exploration, not design or implementation.** Wrote a launch prompt at `Ministry/Operations/Standing/Launch-Prompts/CiC_Cost_and_Availability_Exploration_Launch_2026-07-26.md`, scaled to a single exploration thread rather than a full System-Hub-style handoff. Grounds it in real numbers already gathered this session (the $0.06-0.08/exchange baseline, the cache-read weighting fix, the 5-minute cache-TTL risk, Alexandria's unexamined 4,300-word retrieval push, the existing classifier/generation model split) without making the new thread depend on or block the parallel redesign-brief effort. Explicitly scoped Divergent-first (breadth before commitment), no design doc, no code changes, Sonnet-tier per the standing model-tier policy. This session did not open the new thread itself — that's a separate Claude Code session Mark starts by pasting this prompt in.
+
+---
+
 ## 2026-07-26 (later still) — Fourth adversarial review (round 4, hoped final); caught the working tree was never pushed
 
 **Mark asked for another Opus pass, hopefully the final one.** Full review at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/19_Opus_Adversarial_Review_Round4_of_Brief.md`, dispatched specifically to re-derive round 3's 31 fixes against their sources (not trust that "described as fixed" means "correct") and to check the brand-new deliverable 10 on the merits.
