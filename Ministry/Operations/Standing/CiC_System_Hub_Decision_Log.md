@@ -11,6 +11,38 @@ workstream in this project.
 
 ---
 
+## 2026-07-25 — Two live conversation bugs found and fixed; a full end-to-end redesign research arc completed; a Fable Phase 1 design brief drafted and adversarially reviewed; handoff to System Hub V4
+
+**Two real, live bugs reported directly by Mark, both root-caused and fixed, both shipped:**
+- The anachronism/modern-term bridge was matching the bare universal word "faith" to the narrow `sola-fide` term — a live transcript ("what is faith" to Chloe) showed the Facilitator wrongly interjecting a Reformation-era gloss. Root cause: `definitions.json` had no field for a term's actual distinguishing claim, only display phrases. Classifier prompt tightened with explicit worked examples. Committed `4697e2b`.
+- **The real, structural cause of "only Chloe talked" in a three-world round**, found in the same fix pass: the anachronism-bridge branch unconditionally ended the round after exactly one representative, regardless of how many worlds were seated — not the flaky mid-round exception an earlier defensive fix (shipped hours before this) had assumed. Fixed by seeding the bridge's own representative turn into the shared multi-world continuation loop so the other seated worlds still get to react. Same commit, `4697e2b`.
+- **Separately, the sensed-closing-sequence was found completely broken**: four Facilitator prompts it imported (`FACILITATOR_ANYTHING_ELSE_PROMPT` and three others) were never defined anywhere in the repo — every real wind-down turn threw a mid-stream error instead of closing gracefully. Found while mining the codebase for the redesign research below. Three prompts authored fresh; the fourth aliased to the already-live `FACILITATOR_CLOSING_PROMPT` rather than duplicated. Verified against the mock LLM before shipping. Committed `0ac2063`.
+
+**A full research arc, at Mark's direction, to redesign the conversation engine end-to-end — not just patch the next bug.** Nine research passes (three on Sonnet, five on Opus per a new standing model-tier policy — see below — plus one prior-day 105-agent Fable study folded in), saved as ten real files, not just chat history, at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/` (see `00_INDEX.md`):
+
+1. Design-doc mining (rigor, voice, reading level, tiers, selection, safety, cost, Vision alignment)
+2. Codebase mining (what's actually implemented today, independent of what the docs say)
+3. World-Builds validation sweep (per-world rigor/voice/safety findings, an earlier-session agent that only returned now)
+4. Build-methodology gap mapping — the core finding: verification gates in this project are built *reactively*, only after a specific defect is caught, never prospectively
+5. Change Orders + Decision Log extraction, categorized by failure type
+6. Six-world defect quantification — **build quality does not improve with build order; the last-built world has the worst defect rate of any world (40% of documents needing 3+ review rounds)**
+7. Representative-voice/lenses audit — voice failures are overwhelmingly *organization* failures, not evidence failures; material that was built, reviewed, and indexed, sitting unreachable at the moment of speaking
+8. Live-conversation data-access failures — **retrieval volume has never been tuned once since the original scaffold, while generation length has an exhaustive empirical tuning record**; three of six worlds have every lexicon chunk marked Tier 1, so retrieval conditions are never evaluated at all
+9. External AI-persona framework survey (character-card specs, Character.AI, PersonaChat, the SPEAKING model) — the closest existing analogue to what CiC needs (keyword-triggered, budgeted, priority-ranked knowledge injection) is already called "World Info" in every industry implementation, never "persona info"
+10. The prior day's 105-agent Fable conversational-realness study, copied here from scratch so all the research lives in one place
+
+**Two real governance/architecture decisions Mark made directly, now standing:**
+- **Vision document conflict resolved**: `L1-Foundation/CiC_L1_Vision_V2_0.docx` governs the rigor floor ("what the methodology requires"), not `Ministry/Communication/.../V1.1.docx`'s narrower "demonstrated in the two existing world builds" framing — V1.1 explicitly scoped itself to one earlier revision cycle in its own text. Full reasoning in the brief and in personal memory (`vision-document-v2-governs`).
+- **Model-tier policy**: Sonnet for live conversation/compiling, Opus for deeper research/design-evaluation passes, Fable reserved for the largest comprehensive passes and capped at 2/week. Saved to personal memory (`cic-model-tier-allocation-policy`).
+
+**A Phase 1 Fable design brief drafted** at `Ministry/Technology/CiC_System_Redesign_Fable_Brief_2026-07-25.md` — asks for one integrated redesign of the build process, representative-construction methodology, facilitator governance, and table dynamics together (not sequential passes, since the research found the real failures live at the seams between these), explicitly scoped as a two-phase plan: Phase 1 (this brief) produces a reviewed design; Phase 2, a separate later Fable thread, turns it into a step-by-step build blueprint for incremental Sonnet execution. Opens with an explicit statement that none of it is a locked spec — the only bedrock is the mission, the Five Convictions, and a safe space to explore faith and the story of Jesus.
+
+**The brief was then adversarially reviewed (Opus) before being sent — and the review earned its keep.** Full review at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/11_Opus_Adversarial_Review_of_Brief.md`. Found real, output-changing gaps: the brief never pointed Fable at the actual current governing documents (Constitution, Facilitator Governance, Construction Framework); the "pressure test" item had no real transcript to test against, despite real ones existing elsewhere in the repo; two of the brief's own six stated objectives had no corresponding deliverable; §6 reported only the positive half of the external-framework research and dropped its single most important warning (reusing a world's own vocabulary as persona material is the highest-risk setup for parroting instead of voice). **It also found two real factual errors introduced while writing the brief** — a mechanism misattribution (confirmed-glosses was blamed for a bug that was actually the closing-sequence's) and a fabricated composite quote (two separate research findings fused into one quotation that doesn't exist verbatim). **As of this entry, the P0 fixes from that review have not yet been applied to the brief.** This is the single most important open item for whoever picks this up next.
+
+**Handoff, not a crisis.** Unlike the 2026-07-20 handoff above, this is not an incident — it's a very long, productive session (spanning multiple days of wall-clock work) reaching a natural point to hand off cleanly. See `Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Thread_Launch_V4_2026-07-25.md` for the actual launch prompt.
+
+---
+
 ## 2026-07-24 (still even later) — World-media tile photos pulled from production on a rights question — incident, corrected same-day
 
 **Mark was told 5 of the 6 world-tile photos sourced below need permission and

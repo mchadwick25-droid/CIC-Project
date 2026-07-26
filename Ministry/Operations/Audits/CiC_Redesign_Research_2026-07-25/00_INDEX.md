@@ -1,0 +1,21 @@
+# CiC System Redesign Research — Index
+
+Compiled 2026-07-25, the night before the Phase 1 Fable design brief was drafted (`Ministry/Technology/CiC_System_Redesign_Fable_Brief_2026-07-25.md` — see that document for the actual ask). These are the full, unabridged research passes that informed the brief. The brief itself only summarizes and cites this material — read these directly for the full evidence, quotes, and file citations behind every claim in it.
+
+**Order matters less than coverage — read what's relevant to the section of the brief you're working on.**
+
+| # | File | What it covers |
+|---|---|---|
+| 01 | `01_DesignDoc_Mining.md` | Every stated design principle across `Ministry/`, `Ministry/Communication/`, and governing L1-L4 documents — rigor, voice, reading level, tiered access, selection process, safety/harnessing, conversation-dynamics studies, cost, and Vision/Mission alignment. |
+| 02 | `02_Codebase_Mining.md` | Every conversation-quality mechanism actually implemented in `cic-poc/backend/app/` — the real, current code, independent of what the design docs say it should do. |
+| 03 | `03_WorldBuilds_Validation_Sweep.md` | Rigor, voice, safety, conversation-dynamics, and tiered-access findings extracted from all six World-Build threads' own validation artifacts. |
+| 04 | `04_BuildProcess_Methodology_Mapping.md` | Whether the build methodology itself (L3B/L4 templates, Construction Frameworks) states requirements clearly, specifies how compliance is verified, stays consistent across versions, and where it's genuinely silent on something that turned out to matter. |
+| 05 | `05_ChangeOrders_DecisionLog_Extraction.md` | Every Change Order and per-world Decision Log, categorized by failure type — which process fixes generalized project-wide versus stayed one-off patches. |
+| 06 | `06_SixWorld_Defect_Quantification.md` | A hard, quantified ledger of every review round across all six worlds — build order, defect types, round counts — answering directly whether build quality improves over time (it doesn't) and what document types most often need extra rounds and why. |
+| 07 | `07_RepresentativeVoice_Lenses_Audit.md` | Whether the "lenses" analytical mechanism actually differentiates real insight, what specific source-material condition caused each recorded voice failure, whether the lexicon's "Ecological Function" section reaches the Representative, and whether Forces are ever written as genuinely bidirectional. |
+| 08 | `08_LiveConversation_DataAccess_Failures.md` | What real, live conversation failures (not build-time review findings) reveal about whether the Representative could access the right information at the right time and in the right quantity — including a full accounting of retrieval-code behavior against real chunk data. |
+| 09 | `09_External_AIPersona_Framework_Survey.md` | An external survey of how other AI persona/conversation-voice systems structure their data (character-card specs, Character.AI, academic persona-dialogue research, conversational-design frameworks), with an explicit verdict on what transfers to CiC's collective-voice commitment and what doesn't. |
+| 10 | `10_Fable_Conversational_Realness_Study_2026-07-24.md` | The prior day's 105-agent deep-research study on what makes AI conversation feel real, adversarially verified — the direct source for `MIN_MULTI_WORLD_TURNS = 2` and several other already-shipped decisions. |
+| 11 | `11_Opus_Adversarial_Review_of_Brief.md` | An adversarial review of the Fable brief itself, run before sending — found real gaps (no pointer to current governing documents, no real transcript for the pressure test, two objectives with no deliverable) and two confirmed factual errors introduced while writing the brief. **Read this before finalizing the brief; several of its fixes have not yet been applied as of this index's last update.** |
+
+**A note on rigor:** two of the nine 2026-07-25 passes (05 and 06) initially returned incomplete results — the dispatched agent delegated the work to further sub-agents instead of doing the reading itself, and reported only a status update. Both were caught, resumed with an explicit instruction to do the reading directly, and re-ran to completion. The versions saved here are the corrected, complete results.
