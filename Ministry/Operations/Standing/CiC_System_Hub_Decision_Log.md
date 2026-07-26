@@ -11,6 +11,20 @@ workstream in this project.
 
 ---
 
+## 2026-07-25 (later) — System Hub V4: the adversarial review's fixes applied to the redesign brief, committed
+
+**Correcting the prior entry below:** it says "the P0 fixes from that review have not yet been applied" — true when written, no longer true. Between that entry and this one, the working tree picked up substantial uncommitted fixes to the brief (most likely V3, in discussion with Mark, continuing past its own handoff writeup) that were never committed or logged. V4 found them via `git status` on session start, verified the two previously-fabricated claims against primary sources before trusting any of it, confirmed the fix work was accurate, and committed it (`3ab2bcb`) rather than redoing it.
+
+**All 8 P0 items from `11_Opus_Adversarial_Review_of_Brief.md` §6 are now applied and verified:** governing documents named with article numbers (Constitution, Facilitator Governance, Construction Framework, Table Design Doc), `Archive/` flagged superseded; the pressure-test deliverable rewritten to point at real transcripts instead of a hypothetical "what is faith" case; both factual errors corrected (confirmed-gloss was expanded/bug-fixed that night, not the mechanism that broke — that was the closing sequence; the lens-deletion quote was a fabricated composite, now correctly sourced to the real Article 3 governance removal); the missing three-level-access/repository deliverable added; §6 (external patterns) rebalanced to research doc 09's full three-valued verdicts, leading with the parroting-risk warning; doc 10 cited explicitly; "Phase 1/2" renamed to "Pass 1/2" to stop colliding with this project's existing use of "Phase 1."
+
+**V4 also fixed several P1 accuracy issues** the review flagged but hadn't been touched: the "one place cost discipline exists" claim was false (at least seven other cost mechanisms exist, now named); the build-order and "reshaping" diagnosis claims overstated their source material (verification checked against research docs 06/07 directly — real numbers: 26/38 chunks, not a flat 68%; four of six worlds, not six); real cost baseline numbers embedded directly ($0.06–0.08/exchange, ~$2/hr actual vs $1/hr assumed) instead of just pointing at the cost model file; a note added on how a written-only verification rule (CO-022) demonstrably failed to hold even after being codified. Committed `3ab2bcb`.
+
+**Structural reorder done last, after Mark's explicit sign-off on the specific plan:** §1 Mission wasn't actually first — ~700 words of preamble sat above it. Compressed the preamble to a short "How to read this" block, promoted the governing-documents detail into its own real section (new §3), and shifted every section after it by one, with all 26 internal cross-references verified against the new map. Committed `57bcd65`.
+
+**What's still open, by design, not oversight:** delivery-method confirmation (commit to git vs. direct attachment to Fable — the brief is now committed, so this is likely resolved, but hasn't been explicitly confirmed with Mark) and any remaining P2 polish the review flagged as lowest-priority. Otherwise the brief is ready for Mark's final read before a Fable pass is spent on it.
+
+---
+
 ## 2026-07-25 — Two live conversation bugs found and fixed; a full end-to-end redesign research arc completed; a Fable Phase 1 design brief drafted and adversarially reviewed; handoff to System Hub V4
 
 **Two real, live bugs reported directly by Mark, both root-caused and fixed, both shipped:**
