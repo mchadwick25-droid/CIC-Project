@@ -125,11 +125,13 @@ None of these individually changes the design. Collectively they mean a Fable in
 ## Prioritized fix list
 
 **Before sending (P0):**
-1. Rewrite §4's certainty-distortion clause to doc 13's own formulation — certainty distortion names the *over-settling* (inflation) failure; the clearing bias defends the *deflation* direction; "CiC is defending both directions." Add `epistemic faithfulness`.
-2. Reattribute the 40–100% figure to docs 01/03, correct it to three worlds, and either say "a single field's compliance (40–100%)" or report the true 7–100% span across two vocabularies.
-3. In §10 #9: drop or properly source the RAG Triad — substitute doc 13's High-confidence **groundedness / AIS** finding; remove "answer relevance from the adjudicators' verdicts"; and correct "computable today from data already logged" to name the golden-set authoring doc 15 scopes at ~1 day per world.
-4. Reword §10 #9's closing instruction so the baseline is *specified*, not *run*, inside Pass 1.
+1. ~~Rewrite §4's certainty-distortion clause...~~ **Closed 2026-07-26** — rewritten to doc 13's own formulation ("CiC is defending both directions"), `epistemic faithfulness` added.
+2. ~~Reattribute the 40–100% figure...~~ **Closed 2026-07-26** — reattributed to docs 01/03, corrected to the real 7–100% span across two fields, three of six worlds.
+3. ~~In §10 #9, drop or properly source the RAG Triad...~~ **Closed 2026-07-26** — replaced with doc 13's groundedness/AIS finding; "zero API cost" replaced with the real golden-set authoring cost.
+4. ~~Reword §10 #9's closing instruction...~~ **Closed 2026-07-26** — reworded from "run this" to "specify this," with the reason (Pass 1 is a design document, not code) stated inline.
 5. ~~Decide delivery method explicitly.~~ **Closed 2026-07-26** — Mark confirmed repo access.
+
+**All five P0s closed as of 2026-07-26.** The brief is clear to send on the P0 standard; 14 P1 and 12 P2 findings below remain open by choice, same as after round 2.
 
 **Materially improves it (P1):** add a contestation/pressure-holding field to §9 (#6); fix §7's "no equivalent today" against doc 15 (#7); move eviction priority/cache stability out of the operational-parameters paragraph (#8); drop the "one recommendation in this whole research arc" superlative and give Roque & Traum its measured due (#9); add doc 16's Facilitator-turns-in-public-transcript finding and its boundary clarification to §3 (#10); soften the doc-14 recall-channel claim to doc 14's actual characterological framing (#11); caveat attribution_status/CPG and fix the values to genuine/dubia/spuria (#12); define Author Gravity or cut it, and stop presenting it as a doc-12 recommendation (#13); correct §10 #3's doc-17 warrant to "endorses or is silent; nobody recommends the reverse" (#14); narrow the "no multi-voice test ever ran" clause to "was never a per-world gate" (#15); restore dropped confidence caveats on the ~25% figure, Barr, and Archer (#16); add a consolidated field table to §9 (#17); connect §9's expanded vocabulary surface to §7's parroting warning (#18); disambiguate V7.4 vs V3.2 and restore the Facilitator-Governance-zero-mentions mirror statistic (#19).
 
