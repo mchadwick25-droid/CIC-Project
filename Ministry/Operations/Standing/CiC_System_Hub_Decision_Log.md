@@ -11,6 +11,20 @@ workstream in this project.
 
 ---
 
+## 2026-07-26 (later still) — Fourth adversarial review (round 4, hoped final); caught the working tree was never pushed
+
+**Mark asked for another Opus pass, hopefully the final one.** Full review at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/19_Opus_Adversarial_Review_Round4_of_Brief.md`, dispatched specifically to re-derive round 3's 31 fixes against their sources (not trust that "described as fixed" means "correct") and to check the brand-new deliverable 10 on the merits.
+
+**Not ready — three P0s, two of them new errors introduced by round 3's own rapid fix pass:** §4's certainty-distortion rewrite mapped the inflation-catching and the clearing bias onto "two opposite-biased adjudicators" as a pair, when the running code (`facilitator_prompts.py` L215/L293) shows both behaviors belong to the single OVER_SETTLING adjudicator — FABRICATION's bias is a separate axis entirely. And the required-reading count/doc-11 historical flag were never updated to account for doc 18 itself joining the corpus — the exact defect round 2 once caught and fixed for doc 11, reintroduced. **Both fixed same day**, directly in the brief.
+
+**The third P0 is the most consequential of the whole review cycle: `git status` shows local `main` 21 commits ahead of `origin/main`.** Everything from round 1 onward — the entire current brief, research docs 12-18, the standard-practice doc — exists only locally. `origin/main` still holds the pre-round-1 draft: 7 sections short, "seven jobs" not eight, both of round 1's original fabrications still present, none of docs 12-18 pushed. If Fable's repo access means cloning from GitHub rather than reading the local working tree, it would get the wrong document entirely. **Left open, on purpose — pushing to the remote needs Mark's explicit go-ahead, not something to do unasked.**
+
+**All 4 P1s also fixed same day:** a search-strategy record added to deliverable 1, closing the gap where §8 objective 1's discovery requirement had no deliverable; the Louw & Nida per-world claim corrected after checking CiC's actual six lexicons directly (three are Greek, one is entirely Latin, one is bilingual — the brief's claim didn't match), restoring doc 13's real principle-level framing; the doc-17 build-sequencing warrant softened to acknowledge doc 17's own internally-inconsistent section heading, plus a restored real gap (the per-world gate loop is forward-only with no path back); deliverable 10 corrected to defer threshold values until real baselines exist, closing a fabricated-numbers risk it had reopened. **12 P2 items left open, genuinely optional this time** — none call for immediate action.
+
+**27 of round 3's 31 findings re-verified clean.** The review's own confidence statement lists everything it re-checked and found already correct — the field-compliance figure, the RAG-Triad/groundedness swap, the consolidated field table's job mappings, the drift-signal count, the attribution_status caveat, and more. This wasn't a rubber stamp of round 3 — it's a real independent re-derivation that mostly held.
+
+---
+
 ## 2026-07-26 (later) — A tenth deliverable added to the brief: a world-build completion standard, Mark's own idea
 
 **Mark asked directly whether any other part of the system needs a template for better consistency, and named his own candidate: a base document defining the standards, outcomes, and products of a full world build.** That idea maps exactly onto research doc 04's core finding — every verification gate in this project's actual history was built reactively, only after a specific defect got caught, never prospectively. It's the direct explanation for why completion audits keep finding wild, previously-unnoticed variance: Quick Meaning at zero of nine terms in Desert, Author-Gravity compliance from 7% to 100%, the World Facilitation Brief cleared for only 2 of 6 worlds, "table" appearing zero times in the Construction Framework. Nobody had a standing definition of "done" to check against until an audit happened to go looking.
