@@ -697,6 +697,7 @@ check of the real Living Table build in a running conversation — see LT-1.
 | ~~TR-15~~ | ~~World Map "Take a tour" handoff~~ — **moved to Phase 2+/DEFERRED below, 2026-07-22** (note: distinct from the World Map's own already-shipped "▶ Watch the flow" self-guided walkthrough, which this descope does not touch) | — |
 | — | Cross-cutting flag: production TTS/voice + audio hosting decision | not yet scheduled — real cost decision tied to the voice-only ruling |
 | — | Cross-cutting flag: image licensing at production scale + zoomable high-res artifacts | not yet scheduled — Marketplace thread's Adopt #6 hands off here |
+| — | **System redesign (Pass 1/2 arc):** fold a verified fact into `CiC_System_Redesign_Pass1_Design_2026-07-26.md` §8 — Fable's 5-minute cache TTL isn't a fixed constraint, a 1-hour option exists today (`cache_control: {type: "ephemeral", ttl: "1h"}`, 2× write cost vs. the default 1.25×, needs 3+ reads to break even vs. 2+ at the default) — found by the cost/availability exploration thread, 2026-07-26. **Deliberately not applied yet** — Pass 1 shouldn't be edited while Pass 2 (blueprint) and the eventual build are actively reading from it. | Fable Pass 2 blueprint + the build it produces reaching a stopping point where editing Pass 1 won't collide with an in-flight thread |
 
 ## 🟣 PHASE 2+ / DEFERRED — not in current build cycle
 
