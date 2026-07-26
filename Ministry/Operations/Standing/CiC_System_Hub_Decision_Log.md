@@ -11,6 +11,14 @@ workstream in this project.
 
 ---
 
+## 2026-07-26 (later) — A tenth deliverable added to the brief: a world-build completion standard, Mark's own idea
+
+**Mark asked directly whether any other part of the system needs a template for better consistency, and named his own candidate: a base document defining the standards, outcomes, and products of a full world build.** That idea maps exactly onto research doc 04's core finding — every verification gate in this project's actual history was built reactively, only after a specific defect got caught, never prospectively. It's the direct explanation for why completion audits keep finding wild, previously-unnoticed variance: Quick Meaning at zero of nine terms in Desert, Author-Gravity compliance from 7% to 100%, the World Facilitation Brief cleared for only 2 of 6 worlds, "table" appearing zero times in the Construction Framework. Nobody had a standing definition of "done" to check against until an audit happened to go looking.
+
+**Added as §10 deliverable 10 in the Fable brief**, explicitly framed as the container tying together three things the brief already asks for separately: the schema (§9/deliverable 1), the build-process verification gate and Table Readiness Round (deliverable 3), and the measurement plan (deliverable 9). §8 objective 1 updated to name the prospective-vs-reactive distinction directly, pointing at the new deliverable. Also flagged, as the other genuine template gap the research surfaced: research doc 14's finding that source *discovery* (as opposed to accuracy, which is reviewed heavily) has no template at all — no search-strategy record, no stopping criterion — left open for now as a smaller, separate item rather than folded into deliverable 10.
+
+---
+
 ## 2026-07-26 — Third adversarial review (round 3) of the redesign brief; review practice written down as a standing doc; delivery method confirmed as repo access
 
 **Since round 2 closed, a large amount of new material was folded into the brief with no adversarial check on any of it:** the operational-parameters paragraph, the `period_sense`/`prior_sense`/`modern_sense`/`conceptual_distance_note` field block, docs 12-17 (six new research passes — academic source-organization standards, terminology alignment, source-discovery methodology, retrieval architecture, multi-party dialogue architecture, build-process sequencing), ~10 findings from those docs folded into §3/§4/§5c/§5d/§9/§10, a new measurement-plan deliverable (§10 #9), two more doc-17 findings (a third fan-out-drift example, the Table Readiness Round gate), and the required-reading count correction. Dispatched a third Opus adversarial review specifically at this material. Full review at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/18_Opus_Adversarial_Review_Round3_of_Brief.md`.
