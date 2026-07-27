@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S3.2 (BM25+RRF hybrid, R8 one-hop expansion; named regression-recovery targets from S3.1). S2.9 pends: CO-P2-01 DONE (swap live); CO-P2-02..11 presented one at a time.
-- **Last completed checkpoint:** S3.1 G+B+R-lite (`gates/S3.1_retrieval_surface.md`; truncation measured 94.4%->1.2% over 162 files; delta 25 improvements/11 regressions committed with S3.2 recovery targets named)
+- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01/02 DONE; CO-P2-03 presented, 04..11 queued one at a time.
+- **Last completed checkpoint:** S3.2 G (`gates/S3.2_hybrid.md`; verbatim-term 1.0 in all six worlds incl. beating IJ's own baseline; 3 real defects found+fixed during build; residual regressions all in S3.3/S3.4/S3.5's designed classes)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -59,7 +59,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | Step | Status | Checkpoint(s) | Notes |
 |---|---|---|---|
 | S3.1 | done | G+B+R-lite | retrieval surface embedded (retrieve_when first time; quick_meaning single-parser fixes 4-world drop; body to metadata payload); truncation 94.4%->1.2% measured over 162 chunks (blueprint's 104 undercounted); all 6 worlds re-indexed; delta +25/-11 committed, Alexandria reactive-turn + 3-world negative-condition regressions named as S3.2 win-conditions; no embedding swap demanded |
-| S3.2 | pending | G | R3 + R8; BM25/RRF hybrid |
+| S3.2 | done | G | hybrid BM25+RRF (field-boosted lexical corpus, Related excluded, df-stopworded queries, diacritic folding) + R8 one-hop expansion; harness routed through candidate_search; WIN: verbatim-term mrr 1.0 all six worlds (IJ beat its own baseline); +24/-13 vs B-RETR, residuals owned by S3.3/S3.4/S3.5 |
 | S3.3 | pending | G + safety rerun | R4/R5; conversation-state trigger applies |
 | S3.4 | pending | G + B-COST delta + L-lite | R6; cross-encoder |
 | S3.5 | pending | G + safety rerun + B | R9; both bridges (F8); commits B-RETR-POST-P3 |

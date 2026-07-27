@@ -45,6 +45,7 @@ class StoryRetriever:
                 world_config = settings.get_world_config(world_id)
                 self.vector_store = self.indexer.index_stories(world_config.story_chunks_path)
                 self.indexer.save_index(self.vector_store, settings.get_story_vector_store_path(world_id))
+        self._hybrid = None
 
         if settings.mock_llm:
             from app.mock_llm import MockChatModel
@@ -63,6 +64,13 @@ class StoryRetriever:
                 openai_api_key=settings.openai_api_key,
             )
 
+    def candidate_search(self, query: str, k: int):
+        """S3.2: hybrid candidate generation - see LexiconRetriever."""
+        from app.rag.hybrid import HybridSearcher
+        if self._hybrid is None:
+            self._hybrid = HybridSearcher(self.vector_store)
+        return self._hybrid.search(query, k)[: k * 2]
+
     def retrieve(
         self,
         query: str,
@@ -76,7 +84,8 @@ class StoryRetriever:
         a representative should draw on at most one or two per turn, not
         pepper an answer with narrative.
         """
-        docs_with_scores = self.vector_store.similarity_search_with_score(query, k=k * 2)
+        # S3.2: hybrid BM25+dense candidate search (see app/rag/hybrid.py)
+        docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
         # Tier 1 stories (tied to this world's own central formation theme)

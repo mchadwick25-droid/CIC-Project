@@ -72,6 +72,7 @@ class LexiconRetriever:
                 world_config = settings.get_world_config(world_id)
                 self.vector_store = self.indexer.index_lexicon(world_config.lexicon_chunks_path)
                 self.indexer.save_index(self.vector_store, settings.get_vector_store_path(world_id))
+        self._hybrid = None
 
         # LLM for retrieval filtering
         if settings.mock_llm:
@@ -91,6 +92,17 @@ class LexiconRetriever:
                 openai_api_key=settings.openai_api_key,
             )
 
+    def candidate_search(self, query: str, k: int):
+        """S3.2 candidate generation: BM25+dense weighted-RRF fusion with
+        R8 one-hop related-terms expansion (app/rag/hybrid.py). Built
+        lazily so retriever construction stays cheap; returns the same
+        (doc, score) contract the old similarity_search_with_score call
+        supplied, truncated to the same k*2 candidate budget."""
+        from app.rag.hybrid import HybridSearcher
+        if self._hybrid is None:
+            self._hybrid = HybridSearcher(self.vector_store)
+        return self._hybrid.search(query, k)[: k * 2]
+
     def retrieve(
         self,
         query: str,
@@ -108,8 +120,9 @@ class LexiconRetriever:
         Returns:
             RetrievalResult with filtered documents and reasoning
         """
-        # Initial semantic search
-        docs_with_scores = self.vector_store.similarity_search_with_score(query, k=k * 2)
+        # Initial candidate search - S3.2: hybrid BM25+dense RRF with R8
+        # one-hop expansion (see candidate_search / app/rag/hybrid.py)
+        docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
         # Tier 1 candidates that also rank among the closest semantic matches

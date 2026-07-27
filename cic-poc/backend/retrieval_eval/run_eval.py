@@ -68,7 +68,10 @@ def replay(retriever, label_key, query, context, k):
     Returns (ranked_ids, final_sets_by_policy, decisions) where decisions maps
     id -> 'auto' | 'no-conditions' | 'llm-vote' | 'over-limit-<policy>'.
     """
-    docs_with_scores = retriever.vector_store.similarity_search_with_score(query, k=k * 2)
+    # S3.2: the candidate path is the retriever's own candidate_search
+    # (hybrid BM25+dense+expansion) - the harness measures the real
+    # pipeline, same (doc, score) contract as the old direct call
+    docs_with_scores = retriever.candidate_search(query, k)
     candidate_docs = [d for d, _s in docs_with_scores]
     ranked_ids = [doc_id(d) for d in candidate_docs]
 
