@@ -61,7 +61,7 @@ def clean_set():
     b = _term("fixlexB", field_relations=[{"type": "presupposed-by", "target_id": "fixlexA"}])
     g1 = {"id": "fixgravA", "world_id": "fixture-world", "record_type": "gravity",
           "schema_version": 1,
-          "six_tests": {f"test_{i}": {"verdict": "pass"} for i in range(1, 7)},
+          "six_tests": {n: {"verdict": "pass"} for n in ("repetition", "dependency", "formation", "explanatory", "persistence", "interaction")},
           "classification": "Primary",
           "interaction": [{"type": "reinforcing", "target_id": "fixgravB"}]}
     g2 = {**g1, "id": "fixgravB",

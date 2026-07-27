@@ -14,25 +14,19 @@ id: desertgrav002
 name: Spiritual combat against demonic thoughts (general form)
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong - Athanasius, Apophthegmata, Evagrius independently attest the theme
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High - shapes teaching content and genre
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains the terse-saying genre as combat-technique
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Strong - present in all three strands, most elaborated in C
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces diakrisis (5) and elder authority (3); generates candidate 9 as its systematized
       form
-    note: Interaction
 confidence_crosscheck: Widely Accepted (Doc_02 SS1.1, SS1.5) - clear per Doc_04 SS3.
 interaction:
 - type: reinforcing

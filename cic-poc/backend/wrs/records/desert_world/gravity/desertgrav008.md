@@ -14,26 +14,20 @@ id: desertgrav008
 name: Ongoing economic and social embeddedness in village life
 classification: Tensional
 six_tests:
-  test_1:
+  repetition:
     verdict: Moderate - two evidence types of uneven confidence; a corrective reading against the dominant
       narrative
-    note: Repetition
-  test_2:
+  dependency:
     verdict: Moderate
-    note: Dependency
-  test_3:
+  formation:
     verdict: Indirect - shapes practice more than professed ideal
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains a real documented gap between rhetoric and practiced reality
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Cross-strand as a corrective pattern; direct evidence concentrated in Lower Egypt
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Stands in genuine tension with candidate 1's own rhetoric - exactly what qualifies it as
       Tensional
-    note: Interaction
 confidence_crosscheck: 'Doc_04 SS3 (corrected): Kellia alone is Documented; Nepheros is UNRATED in Doc_02
   and Melitian-caveated; the generalizing claim stays Contested/Inferential. The weaker evidential picture
   REINFORCES the Tensional classification.'

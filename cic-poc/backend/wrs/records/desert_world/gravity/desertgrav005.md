@@ -14,24 +14,18 @@ id: desertgrav005
 name: Diakrisis (discernment as master virtue)
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong - recurs across named elders regardless of settlement
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High - moderates and governs how other disciplines are practiced
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains the situational, non-systematic character of most surviving teaching
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Strong - cross-strand
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces elder authority (3); moderates candidate 2/9's ascetic intensity against excess
-    note: Interaction
 confidence_crosscheck: 'Documented/Widely Accepted (Doc_04 SS3). Note Doc_04''s own correction: the ''mother
   of all virtues'' Cassian attribution was removed at its Round 1 review - not carried here either.'
 interaction:

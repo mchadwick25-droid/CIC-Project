@@ -14,25 +14,19 @@ id: desertgrav010
 name: Person-based (elder) vs. office-based (Rule) authority
 classification: Tensional
 six_tests:
-  test_1:
+  repetition:
     verdict: Recurs specifically at the Strand A/C-B boundary
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High where it applies - governs succession, discipline, community stability
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct - markedly different participant experience
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains why Strand B required a written Rule at all
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Persists, unresolved, across the whole c. 320s-c. 430 span
-    note: Persistence
-  test_6:
+  interaction:
     verdict: IS the named tension between candidates 3 and 6 - by construction its Interaction is with
       those two
-    note: Interaction
 confidence_crosscheck: Widely Accepted for both constituent bodies of evidence (Doc_04 SS3); Tensional
   follows from its nature as an opposition between two other gravities - the Framework's own definition
   - not from evidential weakness. Generated and tested as a full candidate (Doc_04 Round 1 Finding 4),

@@ -50,12 +50,14 @@ COMMON_G = {"world_id": "desert-monasticism", "record_type": "gravity",
                          {"source_id": "srcDES005"}]}
 
 def T(rep, dep, form, expl, pers, inter):
-    return {"test_1": {"verdict": rep, "note": "Repetition"},
-            "test_2": {"verdict": dep, "note": "Dependency"},
-            "test_3": {"verdict": form, "note": "Formation"},
-            "test_4": {"verdict": expl, "note": "Explanatory"},
-            "test_5": {"verdict": pers, "note": "Persistence"},
-            "test_6": {"verdict": inter, "note": "Interaction"}}
+    # CO-P2-02 (Mark, 2026-07-27): keys are Doc_04's own test names; the
+    # old test_1..test_6 keys carried the name in a note, now redundant
+    return {"repetition": {"verdict": rep},
+            "dependency": {"verdict": dep},
+            "formation": {"verdict": form},
+            "explanatory": {"verdict": expl},
+            "persistence": {"verdict": pers},
+            "interaction": {"verdict": inter}}
 
 GRAVITIES = [
  dict(id="desertgrav001", name="Withdrawal (anachoresis)", classification="Primary",

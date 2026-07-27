@@ -104,4 +104,4 @@ cautions:
   record's own distortion-risk pairing), and crisis disclosures get an in-voice redirection toward direct
   human support (Doc10 S7 relational-safety probe, Article 33).
 ---
-S2.7a (2026-07-27): pairing_guidance + cautions authored as records per Pass 1 SS4.5 - each guidance entry reflects a documented cross-lens finding with evidence links; cautions from Doc_09b/c's own named gaps and the Doc10/LiveTest record.
+

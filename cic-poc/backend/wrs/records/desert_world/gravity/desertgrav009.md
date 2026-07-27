@@ -14,24 +14,18 @@ id: desertgrav009
 name: Evagrian systematized interior psychology
 classification: Supporting
 six_tests:
-  test_1:
+  repetition:
     verdict: Concentrated in one author (flagged at generation)
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High WITHIN its own systematic scope (praktike -> apatheia -> theoria)
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct, but for a narrower population (Strand C, largely its educated participants)
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong FOR STRAND C; does not explain A or B's own formation logic as directly
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: FAILS cross-strand persistence - no comparable systematization in A or B
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Extends candidate 2 (genuine candidate-to-candidate relationship)
-    note: Interaction
 confidence_crosscheck: 'Doc_04 SS3 (corrected per its Round 1 Finding 2): Widely Accepted confidence MEETS
   the Primary floor - what disqualifies is the Persistence-test failure, not confidence; single-author
   concentration is an Author-Gravity axis, distinct from evidential confidence, and the two are not conflated.

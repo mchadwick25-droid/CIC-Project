@@ -14,25 +14,19 @@ id: desertgrav004
 name: Manual labor as ascetic discipline (cheironaxia)
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong - textual AND papyrological AND archaeological
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High - material sustainability, almsgiving, discipline against idleness
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct - discipline itself, not merely economic necessity
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains candidate 8's economic-embeddedness evidence directly
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Strong - cross-strand
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces withdrawal (1) and candidate 8; some tension with a purely contemplative reading
       of candidate 9
-    note: Interaction
 confidence_crosscheck: Documented/Widely Accepted, three converging evidence streams (Doc_04 SS3; Doc_02
   SS9).
 interaction:

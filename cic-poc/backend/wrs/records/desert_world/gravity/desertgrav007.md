@@ -14,24 +14,18 @@ id: desertgrav007
 name: Practically applied, non-systematized scriptural engagement
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: 'Moderate-strong - Apophthegmata idiom + documented contrast with World #2'
-    note: Repetition
-  test_2:
+  dependency:
     verdict: Moderate - feeds diakrisis and elder-teaching content
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct
-    note: Formation
-  test_4:
+  explanatory:
     verdict: 'Strong - explains the applied hermeneutic and difference from World #2''s exegetical logic'
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Cross-strand, though evidence thinner for Strand B
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces diakrisis (5)
-    note: Interaction
 confidence_crosscheck: Widely Accepted with the compiler-mediation caveat standing (Doc_04 SS3); flagged
   at Doc_04 SS6 (Finding NEW-3) as the SOFTEST of the six Primary classifications - Doc_05 should treat
   it as the one most likely to warrant revisiting. Carried here verbatim, not smoothed.

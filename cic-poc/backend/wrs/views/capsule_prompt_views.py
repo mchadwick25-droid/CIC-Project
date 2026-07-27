@@ -80,7 +80,7 @@ def build_prompt() -> str:
     prim = [g for g in gravities.values() if g.get("classification") == "Primary"]
     ground = []
     for g in prim:
-        ground.append(f"{g['name']}: {voice(g['six_tests']['test_3']['verdict'])}")
+        ground.append(f"{g['name']}: {voice(g['six_tests']['formation']['verdict'])}")
     segs.append("What organizes this world - " + " | ".join(ground))
     # Contestation (contested_claim renders)
     for cid in sorted(claims):
@@ -149,8 +149,8 @@ def build_capsule() -> str:
     for g in sorted(gravities.values(),
                     key=lambda g: (order.get(g.get("classification"), 3), g["id"])):
         parts.append(f"- **{g['name']}** ({g['classification']}): "
-                     f"{g['six_tests']['test_3']['verdict']}; "
-                     f"{g['six_tests']['test_4']['verdict']}")
+                     f"{g['six_tests']['formation']['verdict']}; "
+                     f"{g['six_tests']['explanatory']['verdict']}")
     parts += ["", "## The World's Own Words", ""]
     for t in terms.values():
         parts.append(f"- {t['term']}: {t.get('voice_surface', '')}")

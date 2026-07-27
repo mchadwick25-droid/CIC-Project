@@ -14,24 +14,18 @@ id: desertgrav001
 name: Withdrawal (anachoresis)
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong - every evidence stream (Doc_02 SS1.1-1.2, 1.5, 2.1-2.2, 5.1-5.2)
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High - geography, strand differentiation, source scarcity all downstream
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct - defines entry into this world
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains siting, three-strand divergence, thin liturgical-text record
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Strong - attested across Lower and Upper Egypt, all three strands
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces manual labor (4) and elder authority (3); in tension with candidate 8
-    note: Interaction
 confidence_crosscheck: Rests on Documented/Widely Accepted confidence across multiple independent evidence
   types (Doc_04 SS3); the Rubenson/Antony-literacy tension qualifies how any single figure's formation
   is narrated, not this gravity's cross-strand attestation.

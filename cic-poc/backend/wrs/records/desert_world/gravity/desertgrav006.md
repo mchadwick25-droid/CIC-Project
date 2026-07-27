@@ -14,24 +14,18 @@ id: desertgrav006
 name: Koinonia / communal rule
 classification: Supporting
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong WITHIN the Pachomian corpus, not attested outside it
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High FOR STRAND B - organizes its entire social structure
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct, Strand-B-specific
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Explains Strand B's institutional distinctiveness from A/C
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: FAILS cross-strand persistence - no equivalent in A or C
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Stands in the candidate-10 tension against candidate 3's person-based authority model
-    note: Interaction
 confidence_crosscheck: Confidence is NOT the limiting factor (Widely Accepted, Doc_02 SS1.2); Persistence
   is (Doc_04 SS3/SS5).
 interaction:

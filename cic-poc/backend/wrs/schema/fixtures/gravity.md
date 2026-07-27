@@ -8,12 +8,12 @@ register: etic
 review_state: draft
 name: "Fixture Gravity"
 six_tests:
-  test_1: {verdict: pass, note: "fixture"}
-  test_2: {verdict: pass}
-  test_3: {verdict: pass}
-  test_4: {verdict: partial}
-  test_5: {verdict: pass}
-  test_6: {verdict: pass}
+  repetition: {verdict: pass, note: "fixture"}
+  dependency: {verdict: pass}
+  formation: {verdict: pass}
+  explanatory: {verdict: partial}
+  persistence: {verdict: pass}
+  interaction: {verdict: pass}
 classification: Primary
 confidence_crosscheck: "Cross-checked against fixture confidence rows."
 interaction:

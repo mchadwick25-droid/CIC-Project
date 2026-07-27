@@ -14,25 +14,19 @@ id: desertgrav003
 name: Elder-mediated oral authority
 classification: Primary
 six_tests:
-  test_1:
+  repetition:
     verdict: Strong - the Apophthegmata's entire structure
-    note: Repetition
-  test_2:
+  dependency:
     verdict: High - teaching transmission and formation logic depend on it
-    note: Dependency
-  test_3:
+  formation:
     verdict: Direct
-    note: Formation
-  test_4:
+  explanatory:
     verdict: Strong - explains absence of a general systematic treatise tradition outside Evagrius
-    note: Explanatory
-  test_5:
+  persistence:
     verdict: Strong in A/C; present but structurally secondary in B
-    note: Persistence
-  test_6:
+  interaction:
     verdict: Reinforces diakrisis (5); stands in the candidate-10 tension against candidate 6's office
       structure
-    note: Interaction
 confidence_crosscheck: Documented/Widely Accepted across independent evidence types (Doc_04 SS3); Rubenson
   qualification as for gravity 1.
 interaction:

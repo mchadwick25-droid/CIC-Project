@@ -12,6 +12,13 @@
     {"$ref": "#/$defs/search_record"}
   ],
   "$defs": {
+    "six_test_cell": {
+      "$comment": "one gravity-test verdict (CO-P2-02); note kept optional for any qualifier a verdict needs",
+      "type": "object",
+      "properties": {"verdict": {"type": "string"}, "note": {"type": "string"}},
+      "required": ["verdict"],
+      "additionalProperties": false
+    },
     "confidence": {
       "$comment": "SS3.0 confidence row: three axes replacing today's single grade; outward A-E letter derived; the constitutional five-level formation-confidence vocabulary is a separate axis grading the reconstruction claim (Article 17 vocabulary, verbatim from the L4 templates).",
       "type": "object",
@@ -214,14 +221,14 @@
         "name": {"type": "string"},
         "six_tests": {
           "type": "object",
-          "$comment": "each test's verdict its own field (SS3.5); test keys per Doc_04's own six-test battery",
-          "patternProperties": {
-            "^test_[1-6]$": {
-              "type": "object",
-              "properties": {"verdict": {"type": "string"}, "note": {"type": "string"}},
-              "required": ["verdict"],
-              "additionalProperties": false
-            }
+          "$comment": "each test's verdict its own field (SS3.5); keys are Doc_04's own test names per CO-P2-02 (Mark, 2026-07-27) - previously test_1..test_6 with the name in a note",
+          "properties": {
+            "repetition": {"$ref": "#/$defs/six_test_cell"},
+            "dependency": {"$ref": "#/$defs/six_test_cell"},
+            "formation": {"$ref": "#/$defs/six_test_cell"},
+            "explanatory": {"$ref": "#/$defs/six_test_cell"},
+            "persistence": {"$ref": "#/$defs/six_test_cell"},
+            "interaction": {"$ref": "#/$defs/six_test_cell"}
           },
           "additionalProperties": false
         },
