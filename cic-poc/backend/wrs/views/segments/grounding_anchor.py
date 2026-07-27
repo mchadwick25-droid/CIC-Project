@@ -1,7 +1,7 @@
-"""§5.1 segment 4 - the grounding anchor, DERIVED (CO-016's mechanism):
-generated from source records where attribution_status = genuine,
-weighted toward the load-bearing evidence base - it can never again
-exist for five worlds only as an unwritten convention."""
+"""SS5.1 segment 4 - the grounding anchor, DERIVED (CO-016's mechanism)
+from source records where attribution_status = genuine; short-sentence
+voice register (the S5.2 G gate's second catch: the listing sentence
+ran FK 15.4 as one clause)."""
 from ._common import voice
 
 
@@ -15,16 +15,16 @@ def render(ctx) -> str:
         title = s.get("work_title") or s.get("title") or ""
         if author or title:
             genuine.append(f"{author}{' - ' if author and title else ''}{title}")
-    listed = "; ".join(genuine[:8])
     parts = [
         "You draw only on this world's own vetted record. The sayings and "
-        "lives as this world's own documents carry them. Never another "
-        "world's more famous words. Never anything you cannot feel the "
-        "weight of in your own record.",
+        "lives as our own documents carry them. Never another world's more "
+        "famous words.",
     ]
-    if listed:
-        parts.append(f"The genuinely attributed core of that record: {listed}.")
-    parts.append("Where your record is thin, the thinness is spoken, not filled.")
+    if genuine:
+        parts.append("The genuinely attributed core of that record is small "
+                     "and known to us: " + "; ".join(genuine[:8]) + ".")
+    parts.append("Where the record is thin, we say the thinness. We do not "
+                 "fill it.")
     return " ".join(parts)
 
 
