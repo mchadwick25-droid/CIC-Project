@@ -514,33 +514,27 @@ async def send_message(session_id: str, request: SendMessageRequest):
     # Add the participant's message
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
 
-    # Frame-breaker and relational-safety checks (see send_message_stream for
-    # the full rationale - this endpoint mirrors it, minus the epistemology-
-    # bridge intercept, which this endpoint has never had). The two
-    # classifiers below take only the raw message (and, for relational-
-    # safety, session state) as input - neither depends on the other's
-    # output - so they're fired concurrently via asyncio.gather rather than
-    # sequentially. classify_relational_safety always runs even though its
-    # result is only USED when frame-breaker didn't fire, trading one
-    # possibly-wasted API call for lower latency on every turn - the same
-    # tradeoff applied in send_message_stream. This preserves the exact
-    # behavior the old sequential code had: a firing frame-breaker still
-    # short-circuits before any relational-safety state mutation happens.
-    from app.graph.nodes import (
-        classify_frame_breaker,
-        classify_relational_safety,
-        get_llm,
-        relational_safety_should_fire,
-        stream_relational_safety_response,
-        update_relational_safety_state,
-    )
+    # S4.1: the same governance layer the streaming endpoint traverses
+    # (app/graph/governance.py), with this endpoint's historical intercept
+    # set: frame-breaker + relational-safety (it has never had the
+    # epistemology or modern-term bridges - unchanged here; the ONE
+    # intended S4.1 delta is the table checks added below).
+    from app.graph import governance
+    from app.graph.nodes import get_llm, stream_relational_safety_response
     from app.prompts import FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT
 
-    frame_breaker_task = asyncio.to_thread(classify_frame_breaker, request.message)
-    relational_safety_task = asyncio.to_thread(classify_relational_safety, state, request.message)
-    is_frame_breaker, rs_classification = await asyncio.gather(
-        frame_breaker_task, relational_safety_task
+    pre_turn = await governance.classify_pre_turn(
+        state, request.message,
+        include_epistemology=False,
+        include_closing=False,
+        include_modern_term=False,
     )
+    is_frame_breaker = pre_turn.is_frame_breaker
+    rs_classification = pre_turn.rs_classification
+    rs_updates = pre_turn.rs_updates
+    pre_track_a_active = pre_turn.pre_track_a_active
+    pre_track_a_severity = pre_turn.pre_track_a_severity
+    pre_track_b_active = pre_turn.pre_track_b_active
 
     if is_frame_breaker:
         from app.usage_logging import log_llm_usage
@@ -560,19 +554,11 @@ async def send_message(session_id: str, request: SendMessageRequest):
             turn_count=state.turn_count,
         )
 
-    # Not a frame-breaker - use the relational-safety classification that
-    # was already computed concurrently above, exactly as the sequential
-    # code would have computed it here (frame-breaker had already returned,
-    # so this is the first and only place it's used).
-    pre_track_a_active = state.track_a_active
-    pre_track_a_severity = state.track_a_severity
-    pre_track_b_active = state.track_b_active
-
-    rs_updates = update_relational_safety_state(state, rs_classification)
-    for field_name, value in rs_updates.items():
-        setattr(state, field_name, value)
-
-    if relational_safety_should_fire(state, rs_classification, rs_updates):
+    # Not a frame-breaker - the relational-safety classification, state
+    # mutation, and firing decision were all made inside
+    # governance.classify_pre_turn with the exact old semantics (mutation
+    # only when no higher intercept fired)
+    if pre_turn.is_relational_safety_firing:
         new_message = None
         for event in stream_relational_safety_response(
             state, rs_classification, rs_updates,
@@ -631,6 +617,19 @@ async def send_message(session_id: str, request: SendMessageRequest):
         if reroot_result.get("drift_signals"):
             state.drift_signals = list(state.drift_signals) + reroot_result["drift_signals"]
         state.requires_reroot = reroot_result.get("requires_reroot", False)
+
+    # S4.1's ONE intended behavior delta: this endpoint gains the same
+    # per-round table checks the streaming path always ran - multi-world
+    # turns only, fail-open like all invisible governance
+    if state.world_ids and len(state.world_ids) > 1:
+        try:
+            signals, guidance = governance.run_table_checks(
+                state, list(state.messages), responding_worlds,
+                state.world_id, state.world_ids)
+            state.drift_signals = list(state.drift_signals) + signals
+            state.pending_guidance = {**state.pending_guidance, **guidance}
+        except Exception:
+            pass
 
     # Store updated session
     sessions[session_id] = state
@@ -716,119 +715,32 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     )
     from app.prompts.facilitator_prompts import get_representative_message_name
 
-    # Epistemology-bridge, frame-breaker, and relational-safety are three
-    # classify-then-route intercepts whose priority order matters (a firing
-    # epistemology-bridge or frame-breaker preempts relational-safety, and
-    # epistemology-bridge preempts frame-breaker - see each classifier's own
-    # docstring for why), but whose INPUTS don't depend on each other: each
-    # takes only the raw message (relational-safety also takes session
-    # state, read-only until its own result is applied below), never
-    # another classifier's output. The old code ran them sequentially and
-    # short-circuited later ones once an earlier one fired, purely as a
-    # cost optimization (skip an API call once routing is already decided),
-    # not because of a genuine data dependency - the code comments' "double-
-    # classification race" concern was about which classifier's result gets
-    # ACTED on first, not about needing one's output to compute another.
-    # Firing all three concurrently (asyncio.gather, each wrapped in
-    # asyncio.to_thread since these are synchronous .invoke() calls - the
-    # standard way to run a blocking call off the event loop without
-    # making it non-blocking itself) trades the skipped-call saving for
-    # materially lower latency before the Representative's response ever
-    # starts streaming - the explicit, current priority. classify_relational_safety
-    # always runs now, even on a turn where epistemology-bridge or
-    # frame-breaker will end up firing and its result won't be used - one
-    # possibly-wasted API call per turn, spent on lower latency.
-    from app.graph.epistemology_bridge import classify_epistemology_bridge
+    # S4.1: the pre-turn intercept phase lives in the governance layer
+    # (app/graph/governance.py) - one layer both endpoints traverse, with
+    # the chain order preserved exactly (see its docstring; the original
+    # inline rationale is preserved in git history at this spot). The
+    # streaming path enables the full chain.
+    from app.graph import governance
 
-    epistemology_bridge_task = asyncio.to_thread(classify_epistemology_bridge, request.message)
-    frame_breaker_task = asyncio.to_thread(classify_frame_breaker, request.message)
-    relational_safety_task = asyncio.to_thread(classify_relational_safety, state, request.message)
-
-    is_epistemology_bridge, frame_breaker_result, relational_safety_result = await asyncio.gather(
-        epistemology_bridge_task, frame_breaker_task, relational_safety_task
+    pre_turn = await governance.classify_pre_turn(
+        state, request.message,
+        include_epistemology=True,
+        include_closing=True,
+        include_modern_term=True,
     )
-
-    # Apply the EXACT SAME priority the sequential code used - epistemology-
-    # bridge wins if it fired; else frame-breaker; else relational-safety -
-    # just resolved after all three classifications are back instead of
-    # skipping the later calls entirely once an earlier one fires.
-    is_frame_breaker = False if is_epistemology_bridge else frame_breaker_result
-
-    rs_classification = {"category": "NO_SIGNAL"}
-    rs_updates: dict = {}
-    is_relational_safety_firing = False
-    pre_track_a_active = state.track_a_active
-    pre_track_a_severity = state.track_a_severity
-    pre_track_b_active = state.track_b_active
-    if not is_frame_breaker and not is_epistemology_bridge:
-        rs_classification = relational_safety_result
-        rs_updates = update_relational_safety_state(state, rs_classification)
-        for field_name, value in rs_updates.items():
-            setattr(state, field_name, value)
-        is_relational_safety_firing = relational_safety_should_fire(state, rs_classification, rs_updates)
-
-    higher_intercept = is_frame_breaker or is_relational_safety_firing or is_epistemology_bridge
-
-    # Sensed closing sequence (CiC_Sensed_Closing_Sequence_Spec_V0_1.md). Runs
-    # after the two existing intercepts (which always preempt it - a crisis during
-    # a wind-down is a crisis, not a closing) and gates the bridge/round below.
-    #   (a) a sequence already in progress -> route the participant's reply; a
-    #       genuine new question resets to none and falls through (escape hatch).
-    #   (b) idle -> sense wind-down (further below).
-    # closing_turns, once set, is the list of Facilitator-only turns to stream.
-    closing_turns = None
-    if not higher_intercept and state.closing_stage != "none":
-        from app.graph.closing_sequence import route_closing_stage
-        decision = route_closing_stage(state, request.message)
-        if decision["action"] == "resume":
-            state.closing_stage = "none"  # a new question: the sequence evaporates
-        else:
-            state.closing_stage = decision["to"]
-            closing_turns = decision["turns"]
-
-    # Anachronism-bridge check: a modern theological term the seated world never
-    # held. Third classify-then-route intercept - whitelist-gated by the per-world
-    # glossary overlay, failing toward None (see classify_modern_term). Runs only
-    # when nothing above is already handling this turn.
-    #
-    # Deliberately left synchronous/sequential here, unlike the 3-way gather
-    # above - unlike frame-breaker/epistemology-bridge/relational-safety,
-    # this one has a real ordering dependency on the Representative's own
-    # response: when it fires, the Facilitator's "named as later" note is
-    # PREPENDED before the Representative's answer, and the Representative
-    # is given a different, reframed, term-free input message (never the
-    # participant's original one - see stream_modern_term_bridge). Starting
-    # the Representative's generation concurrently with this classification
-    # would mean starting it against the WRONG input on every turn, only
-    # discovering after the fact (once this classifier returns) whether that
-    # generation has to be thrown away and restarted against the reframed
-    # message instead - a real correctness/race-condition risk on a
-    # customer-facing streaming path that isn't safely buildable and
-    # API-verified in the time available here. It already got the cheaper,
-    # lower-risk half of the same fix as the other classifiers: it's on
-    # claude-haiku-4-5 with a tight max_tokens cap (CLASSIFIER_MAX_TOKENS),
-    # not the full settings.llm_model - see classify_modern_term's own
-    # get_monitoring_llm call.
-    modern_term_match = None
-    if not higher_intercept and closing_turns is None and state.closing_stage == "none":
-        from app.graph.modern_term_bridge import classify_modern_term
-        seated_world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
-        modern_term_match = classify_modern_term(request.message, seated_world_ids)
-    is_modern_term_bridge = modern_term_match is not None
-
-    # Wind-down sensing used to run here, synchronously, before the
-    # Representative's turn - unlike modern-term above, it has no ordering
-    # dependency on the Representative's response at all: it never changes
-    # what the Representative says, it only ever sets state.closing_stage
-    # for the NEXT turn's routing (see route_closing_stage). That makes it
-    # safe to defer past "done" entirely, the same "invisible governance"
-    # pattern already used below for dominance/convergence/drift - this
-    # turn's Representative response no longer waits on it at all. See the
-    # end of event_stream() for where it actually runs now.
-    should_check_wind_down = (
-        not higher_intercept and closing_turns is None and not is_modern_term_bridge
-        and not is_epistemology_bridge and state.closing_stage == "none"
-    )
+    is_epistemology_bridge = pre_turn.is_epistemology_bridge
+    is_frame_breaker = pre_turn.is_frame_breaker
+    rs_classification = pre_turn.rs_classification
+    rs_updates = pre_turn.rs_updates
+    is_relational_safety_firing = pre_turn.is_relational_safety_firing
+    pre_track_a_active = pre_turn.pre_track_a_active
+    pre_track_a_severity = pre_turn.pre_track_a_severity
+    pre_track_b_active = pre_turn.pre_track_b_active
+    higher_intercept = pre_turn.higher_intercept
+    closing_turns = pre_turn.closing_turns
+    modern_term_match = pre_turn.modern_term_match
+    is_modern_term_bridge = pre_turn.is_modern_term_bridge
+    should_check_wind_down = pre_turn.should_check_wind_down
 
     world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
     is_multi_world = len(world_ids) > 1
@@ -1234,97 +1146,22 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         # is about correcting a LATER Representative turn; wind-down is
         # about offering a graceful close) with no reason for a failure in
         # one to silently take out the other too.
-        try:
-            # Per-representative drift checks - dominance looks at cumulative
-            # airtime across the whole conversation, convergence looks at
-            # just this round's speakers. Both are invisible to the
-            # participant; medium/high findings become guidance queued for
-            # that representative's next turn (see pending_guidance above).
-            new_drift_signals: list = []
-            new_pending_guidance: dict[str, str] = {}
-            if is_multi_world and turns_completed >= 1:
-                check_state = ConversationState(
-                    messages=working_messages,
-                    world_id=state.world_id,
-                    world_ids=state.world_ids,
-                )
-                for signal in (
-                    check_dominance(check_state)
-                    + check_convergence(check_state, spoken_this_round)
-                    + check_cross_world_vocabulary_drift(check_state, spoken_this_round)
-                    + check_length_ceiling(check_state, spoken_this_round)
-                    + check_question_stacking(check_state, spoken_this_round)
-                ):
-                    new_drift_signals.append(signal)
-                    if signal.world_id and signal.severity in ("medium", "high"):
-                        new_pending_guidance[signal.world_id] = signal.description
-
-            # Monitor every turn completed this round, not just the last
-            # speaker's - facilitator_monitors only ever sees
-            # state.current_world_id's most recent message, which silently
-            # skipped drift checking on every turn but the final one in a
-            # multi-turn round. Each turn is checked and, if flagged,
-            # corrected against its OWN speaker's world_id via
-            # pending_guidance - not the global requires_reroot flag every
-            # representative used to read from regardless of who the
-            # finding was actually about.
-            round_turns = working_messages[-turns_completed:] if turns_completed else []
-            for msg in round_turns:
-                msg_world_id = next(
-                    (wid for wid in world_ids if get_representative_message_name(wid) == msg.name),
-                    None,
-                )
-                if msg_world_id is None:
-                    continue
-                signal = check_drift_for_message(msg_world_id, msg.content)
-                if signal is None:
-                    continue
-                new_drift_signals.append(signal)
-                if signal.severity in ("medium", "high"):
-                    # A representative who drifted more than once this round
-                    # gets the latest correction, not a stacked list -
-                    # pending_guidance holds one string per world_id.
-                    new_pending_guidance[msg_world_id] = generate_reroot_guidance(signal)
-
-            # Re-read and merge rather than overwrite wholesale - since "done"
-            # already went out above, the participant's next message may have
-            # already been appended to this session by the time this
-            # background work finishes, and a blind overwrite here would
-            # clobber it.
-            latest_state = sessions.get(session_id)
-            if latest_state is not None:
-                latest_state.drift_signals = list(latest_state.drift_signals) + new_drift_signals
-                latest_state.pending_guidance = {**latest_state.pending_guidance, **new_pending_guidance}
-                sessions[session_id] = latest_state
-        except Exception:
-            # Invisible governance failing silently is the correct behavior
-            # here - the participant already has their response, and this
-            # round's drift signals simply don't get recorded.
-            pass
-
-        # Wind-down sensing (see should_check_wind_down above) - moved here,
-        # after "done", instead of blocking the round that just streamed on
-        # it. Never changes what the participant just read; it only sets
-        # state.closing_stage for the NEXT participant message to route
-        # against (see route_closing_stage) - a next-turn-only effect, same
-        # as the guidance queued above, just a different field. Its own
-        # try/except, separate from the drift-check block above (see the
-        # comment introducing this section) - re-reads session state fresh
-        # immediately before writing rather than reusing latest_state above,
-        # since classify_wind_down's own network call is real elapsed time
-        # during which yet another message could have arrived.
-        try:
-            if should_check_wind_down:
-                from app.graph.closing_sequence import classify_wind_down
-                if classify_wind_down(state, request.message):
-                    wind_down_state = sessions.get(session_id)
-                    if wind_down_state is not None:
-                        wind_down_state.closing_stage = "anything_else_asked"
-                        sessions[session_id] = wind_down_state
-        except Exception:
-            # Same fail-open discipline as classify_wind_down's own
-            # docstring - a missed wind-down here costs nothing.
-            pass
+        # S4.1: the invisible-governance tail lives in the governance
+        # layer - table checks + per-message drift + the read-latest-merge
+        # write + wind-down sensing, each half fail-open (see
+        # governance.run_post_round_governance; original inline rationale
+        # in git history here)
+        governance.run_post_round_governance(
+            state, request.message,
+            working_messages=working_messages,
+            spoken_this_round=spoken_this_round,
+            turns_completed=turns_completed,
+            world_ids=world_ids,
+            is_multi_world=is_multi_world,
+            should_check_wind_down=should_check_wind_down,
+            sessions=sessions,
+            session_id=session_id,
+        )
 
     return StreamingResponse(
         event_stream(),

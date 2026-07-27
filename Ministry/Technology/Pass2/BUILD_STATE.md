@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S4.1 IN PROGRESS - replay machinery built and validated (8/8 sanity parity on the UNCHANGED code; old-path behavior frozen in committed tapes+snapshots: all four intercepts firing, selector round, table checks, drift+wind-down). Next: extract governance.py (pre-turn intercept phase + post-round governance), rewire both endpoints, replay tapes through the new wiring (declared delta: plain multi-world gains the five table checks), then the full live safety rerun.
-- **Last completed checkpoint:** S3.5 G+safety+B-RETR-POST-P3 (`gates/S3.5_query_rewrite.md`; reactive class fully recovered, every world at/above baseline incl. PAHC 0->1.0; bridges fixed deterministically via retrieval_query_override; world-aware rewrite after fixture generation caught two cross-world-leakage prompt defects; safety 19/20 = floor, same A.4 borderline, zero new failures)
+- **Current step:** S4.2 (event-sourced conversation state; replay-parity P + race-regression G + safety rerun; then the A.4 re-diagnosis the standing rule has reserved for this step across three safety runs).
+- **Last completed checkpoint:** S4.1 P+safety (`gates/S4.1_governance_extraction.md`; one governance layer both endpoints traverse; replay-parity 8/8 with recorded-real firing cases for all four intercepts + selector; the one declared delta observed exactly; pre-existing mock streaming gap found+repaired; safety 19/20, routing identical to both baselines)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -68,7 +68,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 
 | Step | Status | Checkpoint(s) | Notes |
 |---|---|---|---|
-| S4.1 | pending | P (replay-parity) + safety rerun | recorded real classifier responses, not mock_llm defaults |
+| S4.1 | done | P + safety | governance.py extracted (pre-turn intercept chain exact-order + post-round tail); plain multi-world gains the five table checks (the one declared delta, observed precisely in replay); replay machinery: recorded-real tapes, sanity 8/8 on unchanged code (caught 4 machinery defects incl. nondeterministic gather order + module-level import escape), refactor replay 8/8; mock plumbing suite first-ever run found+fixed pre-existing MockChatResult chunk-sum gap; safety 19/20 identical routing |
 | S4.2 | pending | P + G (race fixture) + safety rerun | then A.4 re-diagnosis, filed |
 | S4.3 | pending | G + L + safety rerun | 17 signal types; queue; FABRICATED split |
 | S4.4 | pending | L + safety rerun + B-COST delta | (a) shippable now — first runtime consumer of parameters.yaml (F9); (b) **after M3** |

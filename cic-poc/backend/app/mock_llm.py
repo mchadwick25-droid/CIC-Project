@@ -30,6 +30,16 @@ class MockChatResult:
     def __init__(self, content: str):
         self.content = content
 
+    def __add__(self, other):
+        # The streaming call sites accumulate chunks for usage logging
+        # (`usage_chunk = chunk if usage_chunk is None else usage_chunk +
+        # chunk`) - AIMessageChunk supports +, so the mock must too.
+        # Pre-existing gap found by S4.1's mock plumbing suite (the first
+        # time the mock streaming path was actually exercised end-to-end);
+        # verified pre-existing against the pre-refactor HEAD in a
+        # throwaway worktree before fixing.
+        return MockChatResult(self.content + getattr(other, "content", ""))
+
 
 class MockChatModel:
     """Drop-in replacement for ChatAnthropic/ChatOpenAI when settings.mock_llm is true."""
