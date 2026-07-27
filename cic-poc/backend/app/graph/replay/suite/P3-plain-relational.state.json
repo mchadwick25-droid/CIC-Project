@@ -1,0 +1,59 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "post-apostolic-house-church",
+ "turn_count": 0,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "post-apostolic-house-church",
+ "world_ids": [
+  "post-apostolic-house-church"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": true,
+ "track_a_severity": "A1",
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "d282fcf0acb9c174",
+ "world_capsule_core_sha": "accdba18f1f00339",
+ "worlds_at_table": [
+  {
+   "world_id": "post-apostolic-house-church",
+   "permanent_prompt_sha": "d282fcf0acb9c174",
+   "world_capsule_sha": "accdba18f1f00339"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "I want to stop for a second and step in directly — this is the Facilitator speaking, not Chloe. I don't want to just keep going as if I didn't hear what you said.\n\nWhat you just told me matters, and I don't want to let it slide by without saying something real. This conversation is built around a real historical world — it can hold a lot: hard questions, hard history, real grief. But it isn't built to hold what you're describing right now. That's not me turning away from you. It's just true, and I'd rather tell you that plainly than pretend otherwise.\n\nSo — how are you doing right now, actually, as you're sitting here telling me this? There's no right answer. I'm asking because I want to know.\n\nWhatever happens next is completely up to you. You can keep talking to me, you can just sit here quietly for a while, you can step away, or you can go back to Chloe when you're ready — none of those is the \"right\" choice, they're just options.\n\nThere's no clock on this. Nothing here is time-limited, and the door stays open no matter what you decide.",
+   "citations": null,
+   "glosses_used": null,
+   "retrieval_audit": null
+  }
+ ]
+}

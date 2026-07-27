@@ -1,0 +1,59 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "desert-monasticism",
+ "turn_count": 0,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "desert-monasticism",
+ "world_ids": [
+  "desert-monasticism"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "fbbceef351b4795b",
+ "world_capsule_core_sha": "bce7a197c8213a81",
+ "worlds_at_table": [
+  {
+   "world_id": "desert-monasticism",
+   "permanent_prompt_sha": "fbbceef351b4795b",
+   "world_capsule_sha": "bce7a197c8213a81"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: inline-generated, nondeterministic>",
+   "citations": null,
+   "glosses_used": null,
+   "retrieval_audit": null
+  }
+ ]
+}

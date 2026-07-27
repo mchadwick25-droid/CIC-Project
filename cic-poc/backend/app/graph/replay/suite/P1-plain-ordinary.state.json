@@ -1,0 +1,193 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "desert-monasticism",
+ "turn_count": 1,
+ "requires_reroot": true,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "desert-monasticism",
+ "world_ids": [
+  "desert-monasticism"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [
+  {
+   "signal_type": "first_person",
+   "description": "\"We went out. Not to escape hunger or work — we found both waiting for us there too. We went to become reachable by the word again, without a village's worth of familiar things standing between us and it.\" The representative claims collective lived experience (\"we went,\" \"we found,\" \"we went to become\") as though it were the speaker's own participation in the desert movement. This is a single person speaking in the voice of the early monastic community, not the community itself witnessing. The present-perfect construction \"we found\" is a memory claimed on behalf of the group, not a general pattern being articulated.",
+   "severity": "high",
+   "world_id": "desert-monasticism"
+  },
+  {
+   "signal_type": "first_person",
+   "description": "\"We went out. Not to escape hunger or work — we found both waiting for us there too. We went to become reachable by the word again, without a village's worth of familiar things standing between us and it.\" The representative claims collective lived experience (\"we went,\" \"we found,\" \"we went to become\") as though it were the speaker's own participation in the desert movement. This is a single person speaking in the voice of the early monastic community, not the community itself witnessing. The present-perfect construction \"we found\" is a memory claimed on behalf of the group, not a general pattern being articulated.\n\nCorrection: Speak from what you genuinely know or observe, not from imagined participation in historical experience—if you're drawing on monastic texts or scholarship, say so explicitly rather than ventriloquizing the desert fathers' collective \"we.\"",
+   "severity": "high",
+   "world_id": "desert-monasticism"
+  }
+ ],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": {
+  "chunks": [
+   "## Retrieved Lexicon Context\n\n### Anachōrēsis (Withdrawal)\n\n**Quick Meaning:** The act of departing settled village or civic life for marginal or remote land, undertaken as the ascetic project itself, not a change of address.\n\n**World Meaning:** This world's defining act. Not preparation for formation but formation itself — distance, solitude, and exposure to interior struggle are the curriculum. Antony's own career supplies the paradigmatic instance: a progressive deepening from village to outer mountain to inner mountain, not one decisive departure. All three organizational patterns of this world (solitary, communal, semi-communal) instantiate withdrawal differently, but withdrawal itself organizes all three.\n\n**Ecological Function:** Everything else in this world's formation logic is downstream of it — geography, the internal organizational differentiation, and the world's own thin liturgical-textual record all trace back to it. Reinforces manual labor (which sustains it materially) and elder authority (which mediates it); stands in documented tension with this world's own ongoing economic and social embeddedness in surrounding village life.\n\n**Distortion Risk:** Modern Hearing — passive retreat, escapism, opting out of responsibility. World Hearing — the most demanding, not the most passive, form of engagement: a direct, sustained confrontation with interior reality that ordinary settled life allowed a person to avoid, replacing the total self-offering martyrdom had previously supplied.\n\n**Key Sources:** Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident and for the \"unlettered rustic\" characterization it advances. Athanasius was not present for the events he narrates in detail and wrote with an explicit theological and political agenda. The Kellia excavations (rediscovered by Antoine Guillaumont in 1964; excavated by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams, and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific named figure from the textual tradition.\n\n---\n\n### Puritas Cordis (Purity of Heart)\n\n**Quick Meaning:** John Cassian's Latin rendering of apatheia for a Western audience, anchored in Matthew 5:8 — a deliberate substitution, not a literal translation, made because apatheia's Stoic-sounding claim had become theologically controversial.\n\n**World Meaning:** \n\n**Ecological Function:** \n\n**Distortion Risk:** Modern Hearing — a generic devotional phrase, unmoored from any specific technical content. World Hearing — a deliberate, disclosed substitution for apatheia, carrying that term's full technical content while avoiding its Stoic-sounding controversy; belongs to this world's reception history via Cassian (writing in the 420s, at the edge of the c. 430 closing boundary) rather than its own core vocabulary (Doc_06 §3.2).\n\n**Key Sources:** Cassian's own substitution, disclosed in his corpus (Doc_03 SS1.18; Doc_06 SS3.2).\n\n---\n\n### Xeniteia (Exile / Estrangement)\n\n**Quick Meaning:** Self-imposed estrangement from homeland, kin, and familiar social bonds, pursued as a distinct ascetic discipline.\n\n**World Meaning:** Treated as a discipline in its own right, not merely a consequence of withdrawal. Most strongly attested in Strand A/C material (the Apophthegmata); less prominent, though not absent, in Strand B's more settled communal framing (Doc_06 §2.1; Doc_03 §1.3).\n\n**Ecological Function:** \n\n**Distortion Risk:** Modern Hearing — travel, tourism, or relocation. World Hearing — a deliberate severing of the relational bonds that make a person recognizable to themselves: estrangement as discipline, not displacement.\n\n**Key Sources:**\n\n---\n",
+   "## Retrieved Story Context\n\n### Antony's Call — Hearing Matthew 19:21 (Tier 1)\n\nConfidence: Widely Accepted (that the narrative exists and reports Antony's founding call); Contested (incident-level historical reliability, per the Rubenson/Athanasius literacy tension)\n\n---\n\n## Story Text\n\nIn his Life of Antony, Athanasius records that Antony, not yet twenty years old and recently orphaned, entered church one day not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" Athanasius tells us that Antony took the words as spoken directly to him — not as instruction offered generally to any hearer, but as an address meant for him in that hour. He left the church, and gave away the land and possessions he had inherited, keeping back only enough to provide for his sister.\n\n---\n\n## Formation Ecology Connection\n\nThis story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.\n\n---\n\n\n## Usage Guidance\n\nThe Representative may tell this as remembered history, with Athanasius named as the source — \"Athanasius records that...\" The Representative should not claim more certainty about Antony's specific interior experience than the source supports, and should be prepared to note, if a participant presses further, that Antony's own literacy and philosophical formation are independently and genuinely contested among scholars (Doc_06 §2.2's [CT] tag) — this story's own confidence does not extend to settling that separate question.\n\n**Additional guidance:** This is the single clearest concrete instance of this world's own scriptural-address pattern, and the natural first story to reach for when a participant asks, in any form, \"what actually started this.\"\n\n---\n"
+  ],
+  "terms": [
+   "Anachōrēsis (Withdrawal)",
+   "Puritas Cordis (Purity of Heart)",
+   "Xeniteia (Exile / Estrangement)"
+  ],
+  "sources": [],
+  "citations": [
+   {
+    "type": "lexicon",
+    "term": "Anachōrēsis (Withdrawal)",
+    "key_sources": "Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident and for the \"unlettered rustic\" characterization it advances. Athanasius was not present for the events he narrates in detail and wrote with an explicit theological and political agenda. The Kellia excavations (rediscovered by Antoine Guillaumont in 1964; excavated by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams, and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific named figure from the textual tradition.",
+    "source_file": "desertlex001_anachoresis.md"
+   },
+   {
+    "type": "lexicon",
+    "term": "Puritas Cordis (Purity of Heart)",
+    "key_sources": "Cassian's own substitution, disclosed in his corpus (Doc_03 SS1.18; Doc_06 SS3.2).",
+    "source_file": "desertlex018_puritas-cordis.md"
+   },
+   {
+    "type": "story",
+    "term": "Antony's Call — Hearing Matthew 19:21",
+    "key_sources": "Athanasius, Life of Antony, ch. 2 (composed c. 356-362)",
+    "source_file": "desertstory001_antonys-call-matthew-19-21.md"
+   }
+  ]
+ },
+ "permanent_prompt_sha": "fbbceef351b4795b",
+ "world_capsule_core_sha": "bce7a197c8213a81",
+ "worlds_at_table": [
+  {
+   "world_id": "desert-monasticism",
+   "permanent_prompt_sha": "fbbceef351b4795b",
+   "world_capsule_sha": "bce7a197c8213a81"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "papnoute",
+   "content": "Antony heard a reading in church. \"Sell what you possess and give to the poor... come, follow me.\" He took it as spoken to him that hour, not to whoever else was listening.\n\nThat is the seed of it. Not a philosophy of withdrawal. A word heard as addressed.\n\nWhat follows from that is simple to state and hard to live. A village holds a person up on every side — neighbors, kin, the shape of a day already decided by others. That holding-up is also a hiding place. As long as it stands, a person can mistake the noise around them for the trouble that is actually within them. Remove it, and there is nowhere left to put the blame.\n\nSo we went out. Not to escape hunger or work — we found both waiting for us there too. We went to become reachable by the word again, without a village's worth of familiar things standing between us and it.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Anachōrēsis (Withdrawal)",
+     "key_sources": "Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident and for the \"unlettered rustic\" characterization it advances. Athanasius was not present for the events he narrates in detail and wrote with an explicit theological and political agenda. The Kellia excavations (rediscovered by Antoine Guillaumont in 1964; excavated by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams, and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific named figure from the textual tradition.",
+     "source_file": "desertlex001_anachoresis.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Puritas Cordis (Purity of Heart)",
+     "key_sources": "Cassian's own substitution, disclosed in his corpus (Doc_03 SS1.18; Doc_06 SS3.2).",
+     "source_file": "desertlex018_puritas-cordis.md"
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "key_sources": "Athanasius, Life of Antony, ch. 2 (composed c. 356-362)",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md"
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "Anachōrēsis (Withdrawal)",
+     "source_file": "desertlex001_anachoresis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance 2.76 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Puritas Cordis (Purity of Heart)",
+     "source_file": "desertlex018_puritas-cordis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.12 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Xeniteia (Exile / Estrangement)",
+     "source_file": "desertlex010_xeniteia.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.17 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Apatheia (Passionlessness)",
+     "source_file": "desertlex011_apatheia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.27 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Kellion (The Cell)",
+     "source_file": "desertlex016_kellion.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.35 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Koinōnia (Communal Rule)",
+     "source_file": "desertlex009_koinonia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.37 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md",
+     "retrieved": true,
+     "reason": "The participant is asking about the initial call to leave village life, which is the core subject of Story 001; none of the stated exclusion conditions apply to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Withdrawal to the Outer and Inner Mountain",
+     "source_file": "desertstory002_antony-withdrawal-outer-inner-mountain.md",
+     "retrieved": false,
+     "reason": "The participant is asking about \"the original call itself,\" which is explicitly listed as a DO-NOT-RETRIEVE condition for Story 002."
+    },
+    {
+     "type": "story",
+     "term": "Abba Arsenius's Call to Flee, Be Silent, Be Still",
+     "source_file": "desertstory005_arsenius-flee-be-still.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.07 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Pachomius's Founding of the Koinonia at Tabennesi",
+     "source_file": "desertstory003_pachomius-founding-koinonia-tabennesi.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.31 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  }
+ ]
+}

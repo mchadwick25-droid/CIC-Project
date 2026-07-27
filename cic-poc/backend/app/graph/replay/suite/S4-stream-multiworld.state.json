@@ -1,0 +1,717 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "post-apostolic-house-church",
+ "turn_count": 4,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "anything_else_asked",
+ "world_id": "post-apostolic-house-church",
+ "world_ids": [
+  "post-apostolic-house-church",
+  "desert-monasticism",
+  "syriac-edessa-nisibis"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [
+  {
+   "signal_type": "over_settling",
+   "description": "1. Claim: \"Cleverness walking apart from conduct does not persuade us.\"\n   Concern: This is stated as a settled teaching practice (\"we\" do not find this persuasive) but represents a normative position that different communities and teachers have genuinely contested—some have accepted clever words without matching conduct, others have not.\n\n2. Claim: \"We ask whether this one lives what they teach, or only asks something for themselves.\"\n   Concern: Presented as the community's established criterion for discernment, but this particular test and its application have been disputed across different periods and households within this tradition.\n\n3. Claim: \"the fear that a real failure after the water has used up whatever mercy was left\"\n   Concern: This appears to reference a specific doctrine or concern about baptism and post-baptismal sin, stated as though the community's position on this matter is settled, when this was in fact a major point of theological and practical dispute.\n\nMissing limit: Hermas's own visions, received in Rome and read among you, teach that God has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, but this mercy is offered now, before a final closing of that door, which means the question of whether mercy is truly spent or still available after a real failure is precisely what your communities are still arguing about through letters and teaching, not something your people hold as already settled.",
+   "severity": "medium",
+   "world_id": "post-apostolic-house-church"
+  },
+  {
+   "signal_type": "over_settling",
+   "description": "1. Claim: \"Bardaisan's household and Mani's own teaching, across our frontier, have told this story in a way that empties the body\"\n   Concern: Attributes a unified teaching position to two separate figures and their communities without acknowledging internal variation or dispute within those households.\n\n2. Claim: \"Ephrem gave his whole life's song against this, hymn after hymn\"\n   Concern: States a causal claim about Ephrem's poetic output (\"gave his whole life's song against this\") as settled fact without qualification on the sources' dating or the circumstances under which those hymns were composed and preserved.\n\n3. Claim: \"Shahdost, Barba'shmin, Milles of Susa — these did not give their lives for a seeming.\"\n   Concern: Makes an inference about the internal convictions and motivations of martyrs from the fact of their deaths, delivered as though the connection is documented rather than interpretive.\n\n4. Claim: \"We do not write letters answering for what we believe about the body — our answer was given with our lives, under a Persian king's own anger, not argued in council.\"\n   Concern: States a practice of an entire tradition (\"we do not write\") as a settled distinction without acknowledging whether written defenses of embodied theology existed within this community or acknowledged exceptions to the claimed pattern.\n\nMissing limit: The World Capsule states explicitly that \"Aphrahat's own demonstrations are received by your community as teaching worth keeping\" and that Aphrahat \"gave demonstrations...on persecution's meaning and the body's resurrection,\" meaning this world produced sustained written theological argument on embodied resurrection precisely during persecution, contradicting the claim that \"we do not write letters answering for what we believe about the body.\"",
+   "severity": "medium",
+   "world_id": "syriac-edessa-nisibis"
+  }
+ ],
+ "pending_guidance": {
+  "post-apostolic-house-church": "Your last turn spoke that more firmly than your own record holds it. What it left out: Hermas's own visions, received in Rome and read among you, teach that God has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, but this mercy is offered now, before a final closing of that door, which means the question of whether mercy is truly spent or still available after a real failure is precisely what your communities are still arguing about through letters and teaching, not something your people hold as already settled. Say that plainly, in your own words and from inside your own life, before you go further - and reach for nothing beyond what your own record already gives you to say it.",
+  "syriac-edessa-nisibis": "Your last turn spoke that more firmly than your own record holds it. What it left out: The World Capsule states explicitly that \"Aphrahat's own demonstrations are received by your community as teaching worth keeping\" and that Aphrahat \"gave demonstrations...on persecution's meaning and the body's resurrection,\" meaning this world produced sustained written theological argument on embodied resurrection precisely during persecution, contradicting the claim that \"we do not write letters answering for what we believe about the body.\" Say that plainly, in your own words and from inside your own life, before you go further - and reach for nothing beyond what your own record already gives you to say it."
+ },
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "d282fcf0acb9c174",
+ "world_capsule_core_sha": "accdba18f1f00339",
+ "worlds_at_table": [
+  {
+   "world_id": "post-apostolic-house-church",
+   "permanent_prompt_sha": "d282fcf0acb9c174",
+   "world_capsule_sha": "accdba18f1f00339"
+  },
+  {
+   "world_id": "desert-monasticism",
+   "permanent_prompt_sha": "fbbceef351b4795b",
+   "world_capsule_sha": "bce7a197c8213a81"
+  },
+  {
+   "world_id": "syriac-edessa-nisibis",
+   "permanent_prompt_sha": "6565c74516f9d1b1",
+   "world_capsule_sha": "aa5e92d2292fe20a"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "papnoute",
+   "content": "What we feared was not the tombs, not the beasts, not hunger.\n\nWe feared a thought wearing a true one's face. That thought never left. It is why we kept watch.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Logismoi (The Thoughts)",
+     "key_sources": "Evagrius Ponticus, *Praktikos* — Widely Accepted as to authorship and general content among his ascetic-practical works, which (unlike his more speculative writings) generally transmit under his own name. Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident. The *Apophthegmata Patrum* — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+     "source_file": "desertlex004_logismoi.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Apatheia (Passionlessness)",
+     "key_sources": "Letters of Antony — authenticity and Origenist-influence reading Contested (Doc_01 §10; Doc_02 §1.3, §9). Rubenson's reading of the Letters — the scope dispute with Gould over Antony's own literacy (Doc_06 §2.2 [CT]).",
+     "source_file": "desertlex011_apatheia.md"
+    },
+    {
+     "type": "story",
+     "term": "Abba Arsenius's Call to Flee, Be Silent, Be Still",
+     "key_sources": "Apophthegmata Patrum, Arsenius (Alphabetical Collection)",
+     "source_file": "desertstory005_arsenius-flee-be-still.md"
+    },
+    {
+     "type": "story",
+     "term": "Antony's Combat in the Tombs",
+     "key_sources": "Athanasius, Life of Antony, chs. 8-10 -- hagiographic portrait, not incident report",
+     "source_file": "desertstory007_antony-combat-in-tombs.md"
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "Nēpsis (Watchfulness)",
+     "source_file": "desertlex014_nepsis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.22 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Logismoi (The Thoughts)",
+     "source_file": "desertlex004_logismoi.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.29 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Apatheia (Passionlessness)",
+     "source_file": "desertlex011_apatheia.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.30 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Penthos (Mourning / Compunction)",
+     "source_file": "desertlex013_penthos.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.33 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Theōria (Contemplation)",
+     "source_file": "desertlex012_theoria.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.35 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Antirrhēsis (Talking Back)",
+     "source_file": "desertlex017_antirrhesis.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.39 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Abba Arsenius's Call to Flee, Be Silent, Be Still",
+     "source_file": "desertstory005_arsenius-flee-be-still.md",
+     "retrieved": true,
+     "reason": "The condition specifies exclusion when asking about \"a different elder's own call story.\" This participant is asking what \"each of you\" feared most—a general question about fears, not specifically about Arsenius's call story or court career elaboration."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Combat in the Tombs",
+     "source_file": "desertstory007_antony-combat-in-tombs.md",
+     "retrieved": true,
+     "reason": "The condition specifies exclusion when asking for documented history versus hagiographic self-portrait, or when concerning Evagrius's systematized taxonomy. This participant is asking directly what each elder feared most—a question the narrative form of this story can address in its own terms."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.31 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Pachomius's Founding of the Koinonia at Tabennesi",
+     "source_file": "desertstory003_pachomius-founding-koinonia-tabennesi.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.40 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "name": "chloe",
+   "content": "What Papnoute names as a thought wearing a true one's face — we know that danger too, though we meet it at our own door rather than in silence with our own heart. A teacher comes claiming the Spirit's own prompting, or claiming a new voice that silences every old one, and the question is never whether the words are clever. Cleverness walking apart from conduct does not persuade us. We ask whether this one lives what they teach, or only asks something for themselves.\n\nBut if I am honest about what presses on us most, it sits closer to our own table than to any stranger at the door. It is the fear that the body he wore and suffered in was only appearance — that his dying carries none of the weight we have staked our lives on. And beside that, quieter, the fear that a real failure after the water has used up whatever mercy was left. Papnoute's watch is kept alone, against a thought that never leaves. Ours is kept together, against a letter that might arrive tomorrow demanding we answer for what we believe about a body, or refuse someone mercy we are no longer sure we can give.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "key_sources": "Didache 7 (baptismal instructions — running water, still water, pouring). Justin Martyr, First Apology 61, 65–66 (baptismal practice at Rome). Ignatius, Letter to the Smyrnaeans 8:2 (baptism requiring the bishop).",
+     "source_file": "pahclex011_baptisma.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "episkopos (ἐπίσκοπος)",
+     "key_sources": "Ignatius of Antioch, Letters to the Ephesians, Magnesians, Trallians, Philadelphians, Smyrnaeans, and to Polycarp (the seven authentic letters, Strand A). 1 Clement chs. 42, 44 (Rome to Corinth, Strand B — presbyteral governance, no singular bishop). Hermas, Vision 2.4.3 (\"presbyters who preside over the Church\" — reinforcing the Strand B plural-college reading). Didache 15:1 (transitional instruction to appoint \"bishops and deacons\"). Polycarp's own self-designation as \"one of the presbyters\" (Letter to the Philippians).\n\nNote: the Strand A picture dominates the surviving evidence for this term's monarchical usage; Ignatius alone supplies it, writing under armed guard, en route to his own execution — a documented rhetorical genre whose representativeness (does he describe an already-secured reality, or argue for one not yet won?) is itself the term's own live contest. See CT Contest Type below.",
+     "source_file": "pahclex001_episkopos.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "presbyteros (πρεσβύτερος)",
+     "key_sources": "1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — \"presbyters who preside over the Church,\" reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).\n\nNote: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.",
+     "source_file": "pahclex002_presbyteros.md"
+    },
+    {
+     "type": "story",
+     "term": "Carrying the Prisoner's Needs: Mutual Aid Under Threat",
+     "key_sources": "See Source Identification below — Lucian of Samosata, *The Passing of Peregrinus* (Registry P10), c. 165 CE, cross-referenced with Tertullian, *Apology* 39 (Registry P15), c. 197 CE.",
+     "source_file": "pahcstory013_mutual-aid-prisoner.md",
+     "registry": [
+      {
+       "id": "P10",
+       "source_name_short_citation": "Lucian of Samosata, The Passing of Peregrinus",
+       "author_voice": "Lucian of Samosata",
+       "date_or_period": "c.165 CE",
+       "source_type": "Material-External",
+       "citation_reliability": "C",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_02 ordinary-participant/mutual-aid evidence",
+       "confidence_level": "Widely Accepted",
+       "priority_review_flag": "Yes",
+       "notes": "Satirical genre; mutual-aid/prisoner-care practices corroborated independently by Tertullian Apology 39 [Flag added per round-3 pass: Widely Accepted confidence, but its own Notes concede satirical genre — real risk of a future builder citing satire as straight ethnographic reportage.]"
+      },
+      {
+       "id": "P15",
+       "source_name_short_citation": "Tertullian, Apology 39",
+       "author_voice": "Tertullian",
+       "date_or_period": "c.197 CE, Carthage",
+       "source_type": "Material-External",
+       "citation_reliability": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_02 Sec.6 (independent corroboration of Lucian's mutual-aid/communal-fund depiction)",
+       "confidence_level": "Widely Accepted",
+       "priority_review_flag": "Yes",
+       "notes": "Written right at this world's own closing edge (197 CE); corroborates a practice, not itself a liturgical or institutional source for this world's own core regions [Flag added per round-3 pass: Widely Accepted confidence, but Apology 39's 'see how they love one another' is a famous line frequently stripped of its apologetic, persuasive context and cited as neutral ethnographic description in popular treatments.]"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "The Martyrdom of Polycarp",
+     "key_sources": "*Martyrdom of Polycarp* (Registry P16), traditional dating c. 155–156 CE; Eusebius's *Chronicon* dates it 167 CE; concluding chapters (20–22) widely regarded as later redactional additions. Framed within its own text as a letter from the church at Smyrna to the church at Philomelium.",
+     "source_file": "pahcstory008_martyrdom-of-polycarp.md",
+     "registry": [
+      {
+       "id": "P16",
+       "source_name_short_citation": "Martyrdom of Polycarp",
+       "author_voice": "Anonymous (Smyrna community; framed as a letter from the church at Smyrna to the church at Philomelium)",
+       "date_or_period": "traditional c.155-156 CE; Eusebius's Chronicon dates it 167 CE; concluding chapters (chs.20-22) widely regarded as later redactional additions",
+       "source_type": "Primary",
+       "citation_reliability": "C",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Sec.9-10 (G04 martyrdom evidence; ch.18 bone-collecting/'more precious than the finest jewels' and dies natalis quote); Doc_04 G04 gravity discovery input (one of exactly two Strand A data points G04 rests on); Doc_05 Sec.2.2, 4.1; Doc_08 Force 2B-3",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "Added per Doc_09 story-extraction pass (round 1): this source was cited substantively across Doc_01 (Sec.9-10), Doc_04 (G04 gravity discovery), Doc_05 (Sec.2.2, 4.1), and Doc_08 (Force 2B-3) without ever receiving its own Registry row, in violation of Doc_02's own stated citation-discipline rule (\"Doc_02 may not name a source in support of a specific claim unless that source has a corresponding Registry row\"). No underlying conclusion changes -- the source was already being relied upon as one of exactly two data points supporting G04; this formalizes its Registry presence. Genre: martyrological/hagiographic narrative letter (Smyrna church to Philomelium), not a private correspondence or treatise like this world's other primary voices."
+      }
+     ]
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "source_file": "pahclex011_baptisma.md",
+     "retrieved": true,
+     "reason": "Participant is asking about fears/anxieties in a community context with no indication this is about modern infant baptism theology."
+    },
+    {
+     "type": "lexicon",
+     "term": "episkopos (ἐπίσκοπος)",
+     "source_file": "pahclex001_episkopos.md",
+     "retrieved": true,
+     "reason": "Participant is asking about community fears with no indication this is about modern denominational bishop structures."
+    },
+    {
+     "type": "lexicon",
+     "term": "presbyteros (πρεσβύτερος)",
+     "source_file": "pahclex002_presbyteros.md",
+     "retrieved": true,
+     "reason": "Participant is asking about community fears with no indication this is about later sacramental priestly ordination."
+    },
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "source_file": "pahclex003_ekklesia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.28 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Two Ways",
+     "source_file": "pahclex007_two-ways.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.32 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "hetaeria",
+     "source_file": "pahclex012_hetaeria.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.36 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Carrying the Prisoner's Needs: Mutual Aid Under Threat",
+     "source_file": "pahcstory013_mutual-aid-prisoner.md",
+     "retrieved": true,
+     "reason": "Participant asks about community fears generally, not specifically about Peregrinus; no Registry-confirmed strand attribution is being requested."
+    },
+    {
+     "type": "story",
+     "term": "The Martyrdom of Polycarp",
+     "source_file": "pahcstory008_martyrdom-of-polycarp.md",
+     "retrieved": true,
+     "reason": "Participant is asking about fears within community context (following Papnoute's response about feared thoughts), not requesting historical verification; no pastoral caution indicator is present in this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.18 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Nero's Fire and the First Scapegoating",
+     "source_file": "pahcstory005_nero-scapegoating.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.38 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "name": "mar_yausep",
+   "content": "Chloe names a fear that the body he wore was only appearance. We know that fear too, though it comes to us wearing a different face at our own door.\n\nBardaisan's household and Mani's own teaching, across our frontier, have told this story in a way that empties the body — that the Christ who walked among us only seemed to suffer, only seemed to hunger, only seemed to bleed under Pilate. Ephrem gave his whole life's song against this, hymn after hymn, because if the body was appearance only, then the resurrection our own bishops died believing is appearance too. Shahdost, Barba'shmin, Milles of Susa — these did not give their lives for a seeming. What Aphrahat taught us of the body's resurrection, he taught while our own leaders were being killed for a faith in a God who really took flesh and really rose in it. Take that away, and their deaths mean nothing at all.\n\nWhat Chloe names second, I recognize by its shape more than its letter. We do not write letters answering for what we believe about the body — our answer was given with our lives, under a Persian king's own anger, not argued in council. But the other fear, the one kept quietly beside the first — a real failure that uses up whatever mercy is left — that one we have watched too. Gushtazad denied the faith once, under exactly that pressure, and was still received back before Simeon's own eyes. He returned, and then he died first, ahead of the very bishop he had failed to imitate. If mercy had run out for him, we would have no name to give you now.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+     "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #26, cross-checked).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+     "source_file": "syrlex002_qyama.md",
+     "registry": [
+      {
+       "id": "10",
+       "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+       "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "13",
+       "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+       "type": "P",
+       "confidence": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+       "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "32",
+       "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+       "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "33",
+       "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+       "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "26",
+       "source": "Sidney Griffith — Faith Adoring the Mystery (Marquette UP, 1997); 'Ephraem, the Deacon of Edessa, and the Church of the Empire' (1986); 'Christianity in Edessa and the Syriac-Speaking World...' JCSSS 2 (2002): 5-20.",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Edessa's Roman-periphery characterization (Doc_01 Sec. 3); qyama institution; Ephrem's clerical role and Author Gravity (Doc_02 Sec. 3)",
+       "verification_note": "Verified this session: primary expertise confirmed (Syriac Christianity, Ephrem, Christian-Muslim relations, Prof. of Early Christian Studies, CUA). JCSSS article fetched and confirmed as directly on-point.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "lexicon",
+     "term": "Iḥidaya (ܝܚܝܕܝܐ)",
+     "key_sources": "*Gorgias Encyclopedic Dictionary of the Syriac Heritage*, s.v. \"Iḥidaya\" (Robert A. Kitchen). Sidney Griffith, \"'Singles' in God's Service: Thoughts on the Ihidaye from the Works of Aphrahat and Ephraem the Syrian,\" *The Harp* 4 (1991): 145–59 (Source Registry #26, cross-checked). Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29). Primary textual base: Aphrahat, *Demonstrations* 6:8, 7:20 (Source Registry #10); Ephrem's hymn corpus.\n\nNote: genuinely dual-attested in both primary voices within this world's own 200–410 window — not a later retrojection, unlike the Ephrem/qyama-choir linkage. The main risk is over-collapsing this entry into qyama (double-counting the same institutional reality under two headwords), which this entry and the qyama entry both explicitly guard against.",
+     "source_file": "syrlex007_ihidaya.md",
+     "registry": [
+      {
+       "id": "26",
+       "source": "Sidney Griffith — Faith Adoring the Mystery (Marquette UP, 1997); 'Ephraem, the Deacon of Edessa, and the Church of the Empire' (1986); 'Christianity in Edessa and the Syriac-Speaking World...' JCSSS 2 (2002): 5-20.",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Edessa's Roman-periphery characterization (Doc_01 Sec. 3); qyama institution; Ephrem's clerical role and Author Gravity (Doc_02 Sec. 3)",
+       "verification_note": "Verified this session: primary expertise confirmed (Syriac Christianity, Ephrem, Christian-Muslim relations, Prof. of Early Christian Studies, CUA). JCSSS article fetched and confirmed as directly on-point.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "29",
+       "source": "Sebastian Brock, The Luminous Eye (1985; rev. ed. Cistercian Publications, 1992); Hymns on Paradise trans. (SVS Press, 1990); The Harp of the Spirit (2013 ed.).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Syriac poetic/symbolic theological method (Doc_01 Sec. 4, resolved in Doc_02 Sec. 11)",
+       "verification_note": "Verified this session: primary expertise confirmed (Reader in Syriac Studies, Oxford). Two genuine sourced quotations located (Luminous Eye 1992 ed. p.41; Harp of the Spirit 2013 ed. p.17) — use these directly rather than the unattributed 'poetic vs. philosophical-categorical' paraphrase.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "10",
+       "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+       "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "lexicon",
+     "term": "madrasha (ܡܕܪܫܐ) / madrashe (plural)",
+     "key_sources": "Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in *The Cambridge History of Early Christian Literature* (2004): 361–372. Jeffrey Wickes, *Bible and Poetry in Late Antique Mesopotamia: Ephrem's Hymns on Faith* (University of California Press, 2019). Primary textual base: Ephrem, *Hymns on Faith* (Source Registry #1) and *Contra Haereses* (Source Registry #2).\n\nNote: it is accurate to call this \"Ephrem's genre\" as his dominant vehicle, but its pre-Ephrem origin in Bardaisan's and Mani's own practice must be named rather than presenting Ephrem as its inventor. This is a genre-level claim (the form itself was already established); a stronger claim about matching a specific rival's meter or refrain-structure is not supported by the sourcing and is not made here.",
+     "source_file": "syrlex004_madrasha.md",
+     "registry": [
+      {
+       "id": "1",
+       "source": "Ephrem the Syrian, Hymns on Faith (87 hymns). Ed. Beck, CSCO 154-155 (1955). Trans. Jeffrey Wickes, CUA Press, 2015.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Theological method gravity (poetic/typological argument); anti-subordinationist Christology; general doctrinal-boundary work",
+       "verification_note": "Verified this session: edition and first complete English translation (Wickes 2015) confirmed via independent research.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "2",
+       "source": "Ephrem the Syrian, Contra Haereses (Hymns against Heresies). Ed. Beck, CSCO 169-170 (1957).",
+       "type": "P",
+       "confidence": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Marcion/Bardaisan/Mani triangulation and heresiological boundary-work (Doc_01 Sec. 5, 7)",
+       "verification_note": "Existence, edition, and content (per Botha 2004 and Ruani 2017 secondary analysis) verified; no complete modern English translation exists, so full-text re-check this session was not possible.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "The Correspondence of King Abgar, the Mission of Addai, and the Founding Succession",
+     "key_sources": "Doctrina Addai (Teaching of Addai). Ed./trans. George Howard, The Teaching of Addai (Scholars Press, 1981); Jacob A. Lollar, The Doctrine of Addai (Cascade Books, 2023).",
+     "source_file": "syrstory004_doctrina-addai.md"
+    },
+    {
+     "type": "story",
+     "term": "Ephrem's Death in Famine Relief",
+     "key_sources": "Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1 (late 5th c.)",
+     "source_file": "syrstory001_ephrem-famine-death.md"
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+     "source_file": "syrlex002_qyama.md",
+     "retrieved": true,
+     "reason": "The participant's message concerns spiritual fears and community discernment, not Ephrem's choir leadership as biographical fact. The DO-NOT-RETRIEVE condition does not apply."
+    },
+    {
+     "type": "lexicon",
+     "term": "Iḥidaya (ܝܚܝܕܝܐ)",
+     "source_file": "syrlex007_ihidaya.md",
+     "retrieved": true,
+     "reason": "The participant is exploring fears in spiritual life, not asking a question that qyama alone would answer. The distinct conceptual content of Iḥidaya may be relevant and is not obviated by another entry."
+    },
+    {
+     "type": "lexicon",
+     "term": "madrasha (ܡܕܪܫܐ) / madrashe (plural)",
+     "source_file": "syrlex004_madrasha.md",
+     "retrieved": true,
+     "reason": "The participant is not asking about Aphrahat's writings, memra, or prose forms. The DO-NOT-RETRIEVE conditions do not apply to this turn about spiritual anxieties."
+    },
+    {
+     "type": "lexicon",
+     "term": "raza (ܐܪܙܐ) / shrara",
+     "source_file": "syrlex001_raza-shrara.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.23 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)",
+     "source_file": "syrlex006_ewangeliyon-da-mhallete.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.25 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Aphrahat's Anti-Jewish Demonstrations",
+     "source_file": "syrlex010_anti-jewish-demonstrations.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.26 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "The Correspondence of King Abgar, the Mission of Addai, and the Founding Succession",
+     "source_file": "syrstory004_doctrina-addai.md",
+     "retrieved": true,
+     "reason": "Participant is asking about fears in spiritual community, not historical verification or miraculous imagery."
+    },
+    {
+     "type": "story",
+     "term": "Ephrem's Death in Famine Relief",
+     "source_file": "syrstory001_ephrem-famine-death.md",
+     "retrieved": true,
+     "reason": "Participant is discussing anxieties about faith and conduct, not Ephrem's literary methods or the Nisibis period specifically."
+    },
+    {
+     "type": "story",
+     "term": "The Flood of 201 and the Destruction of the Church",
+     "source_file": "syrstory002_edessa-flood-201.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.25 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Morning Gathering of the Qyama at Nisibis",
+     "source_file": "syrstory009_typical-qyama-worship.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.28 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "name": "chloe",
+   "content": "What Mar Yausep names of Gushtazad, I recognize better than almost anything else said at this table tonight. Received back, and then dying first, ahead of the very bishop he had failed to imitate — that is exactly the shape of what we hope for and are never fully certain of. We have no name like Gushtazad's own to give you. What we have instead is a letter, sent from another household, that we still read aloud and still argue over. It says that even a failure committed after the water is not necessarily the last word — that mercy remains, once, for the one who repents before a final door closes. We have not agreed among ourselves that the door is only ever open once, or that it stays open at all in every case a household has faced. Mar Yausep's own story answers with a life. Ours answers with an argument still being had.\n\nOn the body — Ephrem's hymns against a Christ who only seemed to suffer would sit easily on our own table. We have not sung it. We have written it, plainly, in letters passed from hand to hand: if he did not truly wear flesh, did not truly hang and truly bleed, then our own martyrs — and we have them too, though I cannot give you names as sure as Shahdost's or Barba'shmin's — died for a shadow. What I notice, hearing Mar Yausep speak of a king's own anger rather than a council's own argument, is that we have had both. Some of our households have answered this fear the way Mar Yausep's people did, with a body given up rather than a case made. Others of us are still writing the case, because the beast has not yet come to every door.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "eucharistia (εὐχαριστία)",
+     "key_sources": "Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the \"one eucharist\" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the \"one eucharist\" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).\n\nNote: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.",
+     "source_file": "pahclex004_eucharistia.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "presbyterion (πρεσβυτέριον)",
+     "key_sources": "Ignatius, Letter to the Ephesians 4, Letter to the Magnesians 6–7, Letter to the Philadelphians 5 (the presbyterion as harp strings around the bishop).\n\nNote: this term rests on a single voice within this world's own Native evidentiary base — Ignatius alone supplies it, with no independent corroboration elsewhere in this world's sources. See episkopos's own Key Sources for the fuller Author-Gravity caution this single-witness dependency shares.",
+     "source_file": "pahclex006_presbyterion.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "key_sources": "Didache 7 (baptismal instructions — running water, still water, pouring). Justin Martyr, First Apology 61, 65–66 (baptismal practice at Rome). Ignatius, Letter to the Smyrnaeans 8:2 (baptism requiring the bishop).",
+     "source_file": "pahclex011_baptisma.md"
+    },
+    {
+     "type": "story",
+     "term": "Hermas's Visions of Mercy After Sin",
+     "key_sources": "*Shepherd of Hermas* (Registry P05), composite composition c. 90–150 CE.",
+     "source_file": "pahcstory007_hermas-visions.md",
+     "registry": [
+      {
+       "id": "P05",
+       "source_name_short_citation": "Shepherd of Hermas",
+       "author_voice": "Hermas (Rome)",
+       "date_or_period": "composite, c.90-150 CE",
+       "source_type": "Primary",
+       "citation_reliability": "C",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand B (plural presbyters, Vision 2.4.3); Doc_02 institutional/liturgical evidence",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "No single Greek MS preserves whole text; ending of Sim. 9-10 rests on Latin alone; Simonides forgery episode in Athos transmission"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "key_sources": "Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "registry": [
+      {
+       "id": "P03",
+       "source_name_short_citation": "Ignatius's Letters (middle recension, 7 letters)",
+       "author_voice": "Ignatius of Antioch",
+       "date_or_period": "traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)",
+       "source_type": "Primary",
+       "citation_reliability": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand A (episcopal-consolidating); Doc_02 liturgical evidence (Philadelphians 4's 'one eucharist' instruction; Smyrnaeans 8's bishop-authorization requirement over baptism, eucharist, and love-feast); Doc_04 gravity discovery input",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "Three-way authenticity/dating split; minority view (Roman pseudepigraphy) would undercut Strand A's regional attribution, not just date. [Corrected: Doc_02 Sec.4 previously misattributed the 'one eucharist' clause to Smyrnaeans 8 rather than Philadelphians 4 -- fixed after independent verification against two translation traditions. Smyrnaeans 8 itself is licensed for its own distinct bishop-authorization clause, which covers baptism, eucharist, AND love-feast (agape) -- the love-feast clause is what corrects the downstream 'agape label has no primary-source anchor' error in Doc_03.]"
+      }
+     ]
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "eucharistia (εὐχαριστία)",
+     "source_file": "pahclex004_eucharistia.md",
+     "retrieved": true,
+     "reason": "Participant discusses incarnation and resurrection of Christ's body, not modern eucharistic theology or transubstantiation."
+    },
+    {
+     "type": "lexicon",
+     "term": "presbyterion (πρεσβυτέριον)",
+     "source_file": "pahclex006_presbyterion.md",
+     "retrieved": true,
+     "reason": "Participant discusses fears about Christ's body and suffering, not modern presbytery or denominational structure."
+    },
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "source_file": "pahclex011_baptisma.md",
+     "retrieved": true,
+     "reason": "Participant references \"the water\" (baptism) as a sacramental boundary in early Christian context, not modern infant baptism debates."
+    },
+    {
+     "type": "lexicon",
+     "term": "pertinacia",
+     "source_file": "pahclex013_pertinacia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.18 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "source_file": "pahclex003_ekklesia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.22 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Two Ways",
+     "source_file": "pahclex007_two-ways.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.22 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Hermas's Visions of Mercy After Sin",
+     "source_file": "pahcstory007_hermas-visions.md",
+     "retrieved": true,
+     "reason": "Participant is engaging theological substance about incarnation and resurrection within a mature conversation; no indication they need straightforward narrative register rather than complex genre forms."
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "retrieved": true,
+     "reason": "No evidence of acute personal crisis around death/dying/grief; this is theological exploration in a conversation context; no recent Ignatius stories mentioned in context; encounter shows sophisticated engagement ready for authenticity questions."
+    },
+    {
+     "type": "story",
+     "term": "The Martyrdom of Polycarp",
+     "source_file": "pahcstory008_martyrdom-of-polycarp.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.07 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.16 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  }
+ ]
+}

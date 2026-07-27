@@ -1,0 +1,169 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "desert-monasticism",
+ "turn_count": 0,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "desert-monasticism",
+ "world_ids": [
+  "desert-monasticism"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "fbbceef351b4795b",
+ "world_capsule_core_sha": "bce7a197c8213a81",
+ "worlds_at_table": [
+  {
+   "world_id": "desert-monasticism",
+   "permanent_prompt_sha": "fbbceef351b4795b",
+   "world_capsule_sha": "bce7a197c8213a81"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "Fair to ask. Here's my honest piece: what Papnoute draws on is a mix of what's actually attested — letters, sermons, monastic rules, the record of custom — and what's reasoned outward from that when no source speaks directly to your question. A good representative marks that seam clearly rather than blurring report into guess.\n\nNow, what's actually documented about Papnoute's own life and world, and where the gaps are — that's not mine to answer. I'll let Papnoute tell you.",
+   "citations": null,
+   "glosses_used": null,
+   "retrieval_audit": null
+  },
+  {
+   "role": "assistant",
+   "name": "papnoute",
+   "content": "A saying travels: one mouth, then another, then a gatherer's hand we never saw. That is where our line falls.\n\nMoses and the jar — that we have as the tradition tells it, not as a notary's record.\n\nAntony's call stands as Athanasius wrote it — the leaving is told history. His inward hour before he moved is not ours to give.\n\nWhere we have only a name, we say so, and stop.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Diakrisis (Discernment)",
+     "key_sources": "*Apophthegmata Patrum* (orally transmitted sayings gathered into the Alphabetical and Systematic collections in something like their surviving written form across the 5th–6th centuries, after this world's own c. 430 closing boundary; the compilers themselves function as a distinct Author Gravity layer — shapers, not merely transcribers) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+     "source_file": "desertlex005_diakrisis.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Apophthegma (Saying)",
+     "key_sources": "The *Apophthegmata Patrum* (Alphabetical and Systematic collections) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement, since the collection was compiled after this world's own closing boundary by editors whose selection criteria and possible harmonization across strands remain a live methodological question. Genre note: a collected-sayings genre oriented toward terse, practically applicable teaching rather than narrative or chronicle — its own brevity is itself a formation technique, and the collection's form does not merely describe but performs the oral, elder-to-disciple transmission mechanism this world used to teach.",
+     "source_file": "desertlex008_apophthegma.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Logismoi (The Thoughts)",
+     "key_sources": "Evagrius Ponticus, *Praktikos* — Widely Accepted as to authorship and general content among his ascetic-practical works, which (unlike his more speculative writings) generally transmit under his own name. Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident. The *Apophthegmata Patrum* — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+     "source_file": "desertlex004_logismoi.md"
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "key_sources": "Athanasius, Life of Antony, ch. 2 (composed c. 356-362)",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md"
+    },
+    {
+     "type": "story",
+     "term": "Abba Moses and the Leaking Jug",
+     "key_sources": "Apophthegmata Patrum, Moses (Alphabetical Collection)",
+     "source_file": "desertstory004_moses-leaking-jug.md"
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "Diakrisis (Discernment)",
+     "source_file": "desertlex005_diakrisis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -10.92 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Apophthegma (Saying)",
+     "source_file": "desertlex008_apophthegma.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -10.93 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Logismoi (The Thoughts)",
+     "source_file": "desertlex004_logismoi.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.09 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Antirrhēsis (Talking Back)",
+     "source_file": "desertlex017_antirrhesis.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.11 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Theōria (Contemplation)",
+     "source_file": "desertlex012_theoria.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.15 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Synaxis (The Gathering)",
+     "source_file": "desertlex015_synaxis.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.21 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md",
+     "retrieved": true,
+     "reason": "Participant is asking about documentation versus inference in historiography generally, not about Antony's later career, combat, cenobitic founding, or literacy disputes. The story directly addresses what was witnessed/written versus reasoned forward."
+    },
+    {
+     "type": "story",
+     "term": "Abba Moses and the Leaking Jug",
+     "source_file": "desertstory004_moses-leaking-jug.md",
+     "retrieved": true,
+     "reason": "Participant is asking about the boundary between documented and inferred knowledge in general terms, not requesting an unattested episode beyond the saying itself or asking about a different elder."
+    },
+    {
+     "type": "story",
+     "term": "A Day in a Kellia Cell",
+     "source_file": "desertstory008_day-in-a-kellia-cell.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -10.38 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Combat in the Tombs",
+     "source_file": "desertstory007_antony-combat-in-tombs.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -10.48 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "syriac-edessa-nisibis",
+ "turn_count": 3,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "post-apostolic-house-church",
+ "world_ids": [
+  "post-apostolic-house-church",
+  "desert-monasticism",
+  "syriac-edessa-nisibis"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "d282fcf0acb9c174",
+ "world_capsule_core_sha": "accdba18f1f00339",
+ "worlds_at_table": [
+  {
+   "world_id": "post-apostolic-house-church",
+   "permanent_prompt_sha": "d282fcf0acb9c174",
+   "world_capsule_sha": "accdba18f1f00339"
+  },
+  {
+   "world_id": "desert-monasticism",
+   "permanent_prompt_sha": "fbbceef351b4795b",
+   "world_capsule_sha": "bce7a197c8213a81"
+  },
+  {
+   "world_id": "syriac-edessa-nisibis",
+   "permanent_prompt_sha": "6565c74516f9d1b1",
+   "world_capsule_sha": "aa5e92d2292fe20a"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "chloe",
+   "content": "Prayer, among us, was not one settled thing said the same way in every household — but it was never left to a person's own invention either.\n\nBefore the water, we hand a catechumen the Lord's own prayer, and we teach them to pray it three times a day. This is not our own household's private habit. It is written for us, plainly, in the teaching we give before baptism — the same teaching that lays the two paths of life and death before a person. We do not improvise new words in place of it. We were given it, and we hand it on the way it was handed to us.\n\nAt the table, prayer takes a different shape. Over the cup, thanks. Over the bread, thanks. After all have eaten, a longer thanksgiving, asking that the church be gathered from the ends of the earth into the Kingdom, and ending with a cry in our own tongue: Maranatha. Our Lord, come. Not every household prays this exact order — I know households whose thanksgiving is fixed to a supper and a body and blood given in memory, and I know at least one whose thanksgiving is fixed instead to knowledge and to gathering, without that memory named at all. Both give thanks. Both call it eucharistia. We have not made these into one single order, and I will not pretend to you that we have.\n\nAnd there is a third kind, quieter and harder to pin down: prayer that comes as the Spirit prompts one among us to speak, tested the same way we test any such voice — not by its eloquence, but by whether the one speaking lives what is spoken. That kind is fading in some of our households, standing beside the bishop or the council of elders rather than replacing them.\n\nWhat binds all three together is that none of them was ever a person's prayer alone. Even said in private, it was the household's own prayer, prayed in the household's own voice.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+     "source_file": "pahclex003_ekklesia.md"
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "registry": [
+      {
+       "id": "P01",
+       "source_name_short_citation": "The Didache",
+       "author_voice": "Anonymous/composite (likely Syria)",
+       "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+       "source_type": "Primary",
+       "citation_reliability": "C",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "key_sources": "Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "registry": [
+      {
+       "id": "P03",
+       "source_name_short_citation": "Ignatius's Letters (middle recension, 7 letters)",
+       "author_voice": "Ignatius of Antioch",
+       "date_or_period": "traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)",
+       "source_type": "Primary",
+       "citation_reliability": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand A (episcopal-consolidating); Doc_02 liturgical evidence (Philadelphians 4's 'one eucharist' instruction; Smyrnaeans 8's bishop-authorization requirement over baptism, eucharist, and love-feast); Doc_04 gravity discovery input",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "Three-way authenticity/dating split; minority view (Roman pseudepigraphy) would undercut Strand A's regional attribution, not just date. [Corrected: Doc_02 Sec.4 previously misattributed the 'one eucharist' clause to Smyrnaeans 8 rather than Philadelphians 4 -- fixed after independent verification against two translation traditions. Smyrnaeans 8 itself is licensed for its own distinct bishop-authorization clause, which covers baptism, eucharist, AND love-feast (agape) -- the love-feast clause is what corrects the downstream 'agape label has no primary-source anchor' error in Doc_03.]"
+      }
+     ]
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "source_file": "pahclex003_ekklesia.md",
+     "retrieved": true,
+     "reason": "Participant is asking about communities' understanding of prayer, not about church buildings or denominational structures."
+    },
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "source_file": "pahclex011_baptisma.md",
+     "retrieved": false,
+     "reason": "Participant is asking about prayer understanding; baptisma's condition applies to baptism-specific debates unrelated to this query."
+    },
+    {
+     "type": "lexicon",
+     "term": "episkopos (ἐπίσκοπος)",
+     "source_file": "pahclex001_episkopos.md",
+     "retrieved": false,
+     "reason": "Participant is asking about prayer understanding; episkopos's condition applies to modern denominational bishop structures unrelated to this query."
+    },
+    {
+     "type": "lexicon",
+     "term": "presbyterion (πρεσβυτέριον)",
+     "source_file": "pahclex006_presbyterion.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.24 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Two Ways",
+     "source_file": "pahclex007_two-ways.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.28 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "diakonos (διάκονος)",
+     "source_file": "pahclex005_diakonos.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.29 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "retrieved": true,
+     "reason": "Participant is asking a general theological question about prayer across communities; none of the specified conditions (needing specific eucharistic strands, needing a simple singular answer, requiring pairing with other orders) clearly apply."
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "retrieved": true,
+     "reason": "Participant is asking a straightforward theological question about prayer; no evidence of personal crisis around death or grief, no prior Ignatius stories mentioned in context, and the encounter stage is not specified as too early."
+    },
+    {
+     "type": "story",
+     "term": "Carrying the Prisoner's Needs: Mutual Aid Under Threat",
+     "source_file": "pahcstory013_mutual-aid-prisoner.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -10.63 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "1 Clement's Intervention in the Corinthian Dispute",
+     "source_file": "pahcstory002_1clement-corinthian-dispute.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.14 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "name": "papnoute",
+   "content": "What Chloe names as the household's own prayer, we know by another shape entirely. We too were given a fixed word — the Psalter, said at the day's opening and its close, the same recitation carried whether a person kept it alone in a cell or walked to the week's own gathering. We did not improvise it either.\n\nBut where her prayer is always the household's own voice, ours was tested first in solitude. A brother alone through the week, praying the hours no one hears but himself. Only at the synaxis does it become shared — vigil, liturgy, table — and then the week turns him back to his own cell again.\n\nShe says none of it was ever a person's prayer alone. We would say: it was, most of the week, exactly that — and the solitude was not a lack. It was where the watching happened. What her three kinds hold together in one household, we held stretched between the cell and the gathering, and never fully closed that distance.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Puritas Cordis (Purity of Heart)",
+     "key_sources": "Cassian's own substitution, disclosed in his corpus (Doc_03 SS1.18; Doc_06 SS3.2).",
+     "source_file": "desertlex018_puritas-cordis.md"
+    },
+    {
+     "type": "story",
+     "term": "A Day in a Kellia Cell",
+     "key_sources": "Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed \"the sixth day,\" which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.",
+     "source_file": "desertstory008_day-in-a-kellia-cell.md"
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "key_sources": "Athanasius, Life of Antony, ch. 2 (composed c. 356-362)",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md"
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "Synaxis (The Gathering)",
+     "source_file": "desertlex015_synaxis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -10.25 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Theōria (Contemplation)",
+     "source_file": "desertlex012_theoria.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.07 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Puritas Cordis (Purity of Heart)",
+     "source_file": "desertlex018_puritas-cordis.md",
+     "retrieved": true,
+     "reason": "Cross-encoder relevance -11.14 - retrieved (no evaluable guard)."
+    },
+    {
+     "type": "lexicon",
+     "term": "Koinōnia (Communal Rule)",
+     "source_file": "desertlex009_koinonia.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.18 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Apotagē (Renunciation)",
+     "source_file": "desertlex002_apotage.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.20 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "Diakrisis (Discernment)",
+     "source_file": "desertlex005_diakrisis.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.22 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Day in a Kellia Cell",
+     "source_file": "desertstory008_day-in-a-kellia-cell.md",
+     "retrieved": true,
+     "reason": "Participant asks about prayer structure and transmission in daily life; this story concerns solitary cell routine and doesn't match the specificity exclusions about diet/hours, nor does it address Strand A/B distinctions in a way that blocks it."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md",
+     "retrieved": true,
+     "reason": "Participant asks about prayer practices and teachings generally; this story concerns Antony's conversion moment and spiritual formation, not his later career, combat, withdrawal staging, or literacy disputes that would trigger the exclusions."
+    },
+    {
+     "type": "story",
+     "term": "Antony's Combat in the Tombs",
+     "source_file": "desertstory007_antony-combat-in-tombs.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.23 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Pachomius's Founding of the Koinonia at Tabennesi",
+     "source_file": "desertstory003_pachomius-founding-koinonia-tabennesi.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.23 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "name": "mar_yausep",
+   "content": "What Papnoute names as solitude never closed, we would not call the shape our own prayer takes. Among us the vow itself is kept in town, not desert — a bar qyama or bat qyama keeps the fast and the watch among their own kin, and prayer is bound into that same nearness rather than stretched away from it toward a cell.\n\nBut we would not call this simply the household's own voice either, the way Chloe names it. The vigil we keep before dawn, the psalms and the teaching-hymn (madrasha) raised in it, are not private words handed to a household to say in its own manner. They carry a sign tied to a hidden truth (raza) — Scripture read and sung as bound to the truth it signifies, so that praying it is itself a way of being drawn toward that truth, not merely addressing it. The gathered singing does that work; it is not decoration set beside a teaching already complete without it.\n\nSo where Papnoute holds cell and synaxis as two poles never fully joined, we would say our own life never had two poles to join in the first place. The watching happens in the town, among the kin who watched you take the vow, every day it is renewed — not in a solitude the week later returns you to, but in a nearness the vow never asked you to leave.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Iḥidaya (ܝܚܝܕܝܐ)",
+     "key_sources": "*Gorgias Encyclopedic Dictionary of the Syriac Heritage*, s.v. \"Iḥidaya\" (Robert A. Kitchen). Sidney Griffith, \"'Singles' in God's Service: Thoughts on the Ihidaye from the Works of Aphrahat and Ephraem the Syrian,\" *The Harp* 4 (1991): 145–59 (Source Registry #26, cross-checked). Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29). Primary textual base: Aphrahat, *Demonstrations* 6:8, 7:20 (Source Registry #10); Ephrem's hymn corpus.\n\nNote: genuinely dual-attested in both primary voices within this world's own 200–410 window — not a later retrojection, unlike the Ephrem/qyama-choir linkage. The main risk is over-collapsing this entry into qyama (double-counting the same institutional reality under two headwords), which this entry and the qyama entry both explicitly guard against.",
+     "source_file": "syrlex007_ihidaya.md",
+     "registry": [
+      {
+       "id": "26",
+       "source": "Sidney Griffith — Faith Adoring the Mystery (Marquette UP, 1997); 'Ephraem, the Deacon of Edessa, and the Church of the Empire' (1986); 'Christianity in Edessa and the Syriac-Speaking World...' JCSSS 2 (2002): 5-20.",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Edessa's Roman-periphery characterization (Doc_01 Sec. 3); qyama institution; Ephrem's clerical role and Author Gravity (Doc_02 Sec. 3)",
+       "verification_note": "Verified this session: primary expertise confirmed (Syriac Christianity, Ephrem, Christian-Muslim relations, Prof. of Early Christian Studies, CUA). JCSSS article fetched and confirmed as directly on-point.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "29",
+       "source": "Sebastian Brock, The Luminous Eye (1985; rev. ed. Cistercian Publications, 1992); Hymns on Paradise trans. (SVS Press, 1990); The Harp of the Spirit (2013 ed.).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Syriac poetic/symbolic theological method (Doc_01 Sec. 4, resolved in Doc_02 Sec. 11)",
+       "verification_note": "Verified this session: primary expertise confirmed (Reader in Syriac Studies, Oxford). Two genuine sourced quotations located (Luminous Eye 1992 ed. p.41; Harp of the Spirit 2013 ed. p.17) — use these directly rather than the unattributed 'poetic vs. philosophical-categorical' paraphrase.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "10",
+       "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+       "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "lexicon",
+     "term": "madrasha (ܡܕܪܫܐ) / madrashe (plural)",
+     "key_sources": "Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in *The Cambridge History of Early Christian Literature* (2004): 361–372. Jeffrey Wickes, *Bible and Poetry in Late Antique Mesopotamia: Ephrem's Hymns on Faith* (University of California Press, 2019). Primary textual base: Ephrem, *Hymns on Faith* (Source Registry #1) and *Contra Haereses* (Source Registry #2).\n\nNote: it is accurate to call this \"Ephrem's genre\" as his dominant vehicle, but its pre-Ephrem origin in Bardaisan's and Mani's own practice must be named rather than presenting Ephrem as its inventor. This is a genre-level claim (the form itself was already established); a stronger claim about matching a specific rival's meter or refrain-structure is not supported by the sourcing and is not made here.",
+     "source_file": "syrlex004_madrasha.md",
+     "registry": [
+      {
+       "id": "1",
+       "source": "Ephrem the Syrian, Hymns on Faith (87 hymns). Ed. Beck, CSCO 154-155 (1955). Trans. Jeffrey Wickes, CUA Press, 2015.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Theological method gravity (poetic/typological argument); anti-subordinationist Christology; general doctrinal-boundary work",
+       "verification_note": "Verified this session: edition and first complete English translation (Wickes 2015) confirmed via independent research.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "2",
+       "source": "Ephrem the Syrian, Contra Haereses (Hymns against Heresies). Ed. Beck, CSCO 169-170 (1957).",
+       "type": "P",
+       "confidence": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Marcion/Bardaisan/Mani triangulation and heresiological boundary-work (Doc_01 Sec. 5, 7)",
+       "verification_note": "Existence, edition, and content (per Botha 2004 and Ruani 2017 secondary analysis) verified; no complete modern English translation exists, so full-text re-check this session was not possible.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "lexicon",
+     "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+     "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #26, cross-checked).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+     "source_file": "syrlex002_qyama.md",
+     "registry": [
+      {
+       "id": "10",
+       "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+       "type": "P",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+       "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "13",
+       "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+       "type": "P",
+       "confidence": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+       "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "32",
+       "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+       "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "33",
+       "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+       "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      },
+      {
+       "id": "26",
+       "source": "Sidney Griffith — Faith Adoring the Mystery (Marquette UP, 1997); 'Ephraem, the Deacon of Edessa, and the Church of the Empire' (1986); 'Christianity in Edessa and the Syriac-Speaking World...' JCSSS 2 (2002): 5-20.",
+       "type": "S",
+       "confidence": "A",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Edessa's Roman-periphery characterization (Doc_01 Sec. 3); qyama institution; Ephrem's clerical role and Author Gravity (Doc_02 Sec. 3)",
+       "verification_note": "Verified this session: primary expertise confirmed (Syriac Christianity, Ephrem, Christian-Muslim relations, Prof. of Early Christian Studies, CUA). JCSSS article fetched and confirmed as directly on-point.",
+       "comparandum_note": "",
+       "added": "2026-07-06, Doc_02 Step 2 pass"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "A Morning Gathering of the Qyama at Nisibis",
+     "key_sources": "Composite reconstruction — see Source Identification below; not a single-source narrative",
+     "source_file": "syrstory009_typical-qyama-worship.md"
+    },
+    {
+     "type": "story",
+     "term": "Ephrem and the Founding of the Choirs of the Daughters of the Covenant",
+     "key_sources": "Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). Ed./trans. Joseph Amar, Patrologia Orientalis 47.1 (1995).",
+     "source_file": "syrstory007_ephrem-founding-choirs.md"
+    }
+   ],
+   "glosses_used": [
+    {
+     "category": "A",
+     "original": "raza",
+     "gloss": "a sign tied to a hidden truth",
+     "rendered": "a sign tied to a hidden truth (raza)"
+    }
+   ],
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "Iḥidaya (ܝܚܝܕܝܐ)",
+     "source_file": "syrlex007_ihidaya.md",
+     "retrieved": true,
+     "reason": "The participant's question about fixed texts, solitary recitation, and communal gathering is not fully answered by qyama alone; Iḥidaya's specific emphasis on solitary practice distinct from communal life would add a needed dimension."
+    },
+    {
+     "type": "lexicon",
+     "term": "madrasha (ܡܕܪܫܐ) / madrashe (plural)",
+     "source_file": "syrlex004_madrasha.md",
+     "retrieved": true,
+     "reason": "The participant is asking about prayer practices across communities, not about Aphrahat's writing or memra as a literary form; this condition does not apply."
+    },
+    {
+     "type": "lexicon",
+     "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+     "source_file": "syrlex002_qyama.md",
+     "retrieved": true,
+     "reason": "The participant is asking about community understanding and practice of prayer generally, not about Ephrem's personal choir leadership as biographical fact; this condition does not apply."
+    },
+    {
+     "type": "lexicon",
+     "term": "Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)",
+     "source_file": "syrlex006_ewangeliyon-da-mhallete.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.15 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "memra (ܡܐܡܪܐ) / memre (plural)",
+     "source_file": "syrlex005_memra.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.16 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "raza (ܐܪܙܐ) / shrara",
+     "source_file": "syrlex001_raza-shrara.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.23 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Morning Gathering of the Qyama at Nisibis",
+     "source_file": "syrstory009_typical-qyama-worship.md",
+     "retrieved": true,
+     "reason": "Participant is asking about community prayer practice generally, not requesting a specific named historical event; the question does not specify Roman-period Edessa after 363."
+    },
+    {
+     "type": "story",
+     "term": "Ephrem and the Founding of the Choirs of the Daughters of the Covenant",
+     "source_file": "syrstory007_ephrem-founding-choirs.md",
+     "retrieved": true,
+     "reason": "Participant is asking about how communities understood and practiced prayer across their traditions, not specifically demanding what the 200-410 record directly attests about Ephrem's personal leadership; this story illuminates communal prayer practice."
+    },
+    {
+     "type": "story",
+     "term": "The Flood of 201 and the Destruction of the Church",
+     "source_file": "syrstory002_edessa-flood-201.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -10.85 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "Jacob of Nisibis at the Council of Nicaea",
+     "source_file": "syrstory003_jacob-nisibis-nicaea.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.13 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  }
+ ]
+}

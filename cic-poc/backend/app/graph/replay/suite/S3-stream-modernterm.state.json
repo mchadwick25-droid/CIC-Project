@@ -1,0 +1,201 @@
+{
+ "phase": "active_encounter",
+ "current_speaker": "representative",
+ "current_world_id": "post-apostolic-house-church",
+ "turn_count": 0,
+ "requires_reroot": false,
+ "close_requested": false,
+ "closing_stage": "none",
+ "world_id": "post-apostolic-house-church",
+ "world_ids": [
+  "post-apostolic-house-church"
+ ],
+ "user_id": null,
+ "session_id": "<sid>",
+ "track_a_active": false,
+ "track_a_severity": null,
+ "track_b_active": false,
+ "relational_safety_tags": [],
+ "relational_safety_deescalation_count": 0,
+ "drift_signals": [],
+ "pending_guidance": {},
+ "surfaced_chunk_ids": {},
+ "retrieval_query_override": null,
+ "retrieved_context": null,
+ "permanent_prompt_sha": "d282fcf0acb9c174",
+ "world_capsule_core_sha": "accdba18f1f00339",
+ "worlds_at_table": [
+  {
+   "world_id": "post-apostolic-house-church",
+   "permanent_prompt_sha": "d282fcf0acb9c174",
+   "world_capsule_sha": "accdba18f1f00339"
+  }
+ ],
+ "messages": [
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "user",
+   "name": null,
+   "content": "<masked: at-or-before last participant message; session-start text is live-generated>"
+  },
+  {
+   "role": "assistant",
+   "name": "facilitator",
+   "content": "\"Transubstantiation\" is a word and a way of thinking that comes later than Chloe's time - it gets worked out formally in the thirteenth century. So it's not something Chloe's world had a stake in, one way or the other.\n\nFor those unfamiliar: many Christians today use the term for the belief that in Communion, the bread and wine become, in their inner reality, the body and blood of Christ - while still looking and tasting like bread and wine. That's simply a description of the idea. Whether it's true, or whether Chloe's world would have leaned toward it or away from it, isn't for me to say, and different Christian traditions today still disagree about it.\n\nWhat I'll do instead is ask Chloe what her own world held about the bread and cup of that shared meal - in whatever terms her world actually used. If there was nothing quite like this question there, she'll say so.",
+   "citations": null,
+   "glosses_used": null,
+   "retrieval_audit": null
+  },
+  {
+   "role": "assistant",
+   "name": "chloe",
+   "content": "We give thanks over the bread and the cup. That much stands everywhere among us. What we say varies more than a settled people might expect.\n\nIn the households formed by the Didache's own order, the thanksgiving is not for a body and blood given, but for the vine of David made known through Jesus, and for life and knowledge made known through him. The bread's own meaning there is gathering — scattered grain brought into one loaf, the way we ask that the church be gathered from the ends of the earth into the kingdom. No supper is told. No betrayal, no night handed over. Just thanksgiving, and the plea that we be made one as the loaf was made one.\n\nIn other households — Justin's own household is the fullest account that has reached us — the bread and the cup are not common food. He tells us plainly that we do not receive them as ordinary bread and ordinary drink, but as the flesh and blood of the one made flesh, through a word of prayer that comes from him. That is a different center entirely from the Didache's own thanksgiving for the vine.\n\nWe have not settled this into one teaching. Ignatius, writing under guard, presses hard that there be one altar and one eucharist under the bishop — but even he is arguing for unity of table, not laying out one settled account of what the bread and cup are. What we hold in common is thanksgiving itself, and the table as the place we are re-formed into one body. What each household says that bread and cup *are*, beyond that — we have genuinely different words for it, and I will not pretend to you that they have been made to agree.",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "agape (as label)",
+     "key_sources": "Ignatius, Letter to the Smyrnaeans 8 (agape requiring the bishop — ἀγάπην ποιεῖν in the Greek; verified against the Roberts-Donaldson/ANF translation). Pliny, Letters 10.96 (the separate, second-meal description this label is also proposed for, using no equivalent term at all — remains a source for the still-open cross-identification question).\n\nNote: an earlier draft of this entry cited only Pliny and stated that the \"agape\" label was not primary-source-anchored — this was incorrect. Ignatius's own letter, already cited elsewhere in this world's lexicon for a different clause in the same chapter, uses this exact term for a real communal practice. This entry has been corrected accordingly.",
+     "source_file": "pahclex010_agape-label.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "eucharistia (εὐχαριστία)",
+     "key_sources": "Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the \"one eucharist\" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the \"one eucharist\" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).\n\nNote: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.",
+     "source_file": "pahclex004_eucharistia.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+     "source_file": "pahclex003_ekklesia.md"
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "registry": [
+      {
+       "id": "P01",
+       "source_name_short_citation": "The Didache",
+       "author_voice": "Anonymous/composite (likely Syria)",
+       "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+       "source_type": "Primary",
+       "citation_reliability": "C",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "key_sources": "Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "registry": [
+      {
+       "id": "P03",
+       "source_name_short_citation": "Ignatius's Letters (middle recension, 7 letters)",
+       "author_voice": "Ignatius of Antioch",
+       "date_or_period": "traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)",
+       "source_type": "Primary",
+       "citation_reliability": "B",
+       "boundary_status": "Native",
+       "exclusion_reason": "",
+       "licensed_for": "Doc_01 Strand A (episcopal-consolidating); Doc_02 liturgical evidence (Philadelphians 4's 'one eucharist' instruction; Smyrnaeans 8's bishop-authorization requirement over baptism, eucharist, and love-feast); Doc_04 gravity discovery input",
+       "confidence_level": "Contested",
+       "priority_review_flag": "Yes",
+       "notes": "Three-way authenticity/dating split; minority view (Roman pseudepigraphy) would undercut Strand A's regional attribution, not just date. [Corrected: Doc_02 Sec.4 previously misattributed the 'one eucharist' clause to Smyrnaeans 8 rather than Philadelphians 4 -- fixed after independent verification against two translation traditions. Smyrnaeans 8 itself is licensed for its own distinct bishop-authorization clause, which covers baptism, eucharist, AND love-feast (agape) -- the love-feast clause is what corrects the downstream 'agape label has no primary-source anchor' error in Doc_03.]"
+      }
+     ]
+    }
+   ],
+   "glosses_used": null,
+   "retrieval_audit": [
+    {
+     "type": "lexicon",
+     "term": "agape (as label)",
+     "source_file": "pahclex010_agape-label.md",
+     "retrieved": true,
+     "reason": "The participant is asking about a shared meal, which is the communal context where agape is relevant; the DO-NOT-RETRIEVE condition (agape as love in general) does not clearly apply here."
+    },
+    {
+     "type": "lexicon",
+     "term": "eucharistia (εὐχαριστία)",
+     "source_file": "pahclex004_eucharistia.md",
+     "retrieved": true,
+     "reason": "The participant is asking specifically about what the participant's world understood bread and cup to be, which is directly connected to this period's eucharistic practice, not modern theology; the DO-NOT-RETRIEVE condition does not clearly apply."
+    },
+    {
+     "type": "lexicon",
+     "term": "ekklesia (ἐκκλησία)",
+     "source_file": "pahclex003_ekklesia.md",
+     "retrieved": true,
+     "reason": "The participant is asking about understanding of bread and cup in a shared meal context, not about church buildings or denominational structures; the DO-NOT-RETRIEVE condition does not clearly apply."
+    },
+    {
+     "type": "lexicon",
+     "term": "episkopos (ἐπίσκοπος)",
+     "source_file": "pahclex001_episkopos.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.35 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "baptisma (βάπτισμα)",
+     "source_file": "pahclex011_baptisma.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.37 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "lexicon",
+     "term": "hetaeria",
+     "source_file": "pahclex012_hetaeria.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.39 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Meal Without a Story",
+     "source_file": "pahcstory010_didache-eucharist.md",
+     "retrieved": true,
+     "reason": "Participant is asking for their world's own understanding in their own terms; the condition requires a participant seeking a single simple answer or already having received Story 011/006, neither of which applies here."
+    },
+    {
+     "type": "story",
+     "term": "Ignatius's Guarded Journey to Rome",
+     "source_file": "pahcstory001_ignatius-guarded-journey.md",
+     "retrieved": true,
+     "reason": "No indication of acute personal crisis, no prior Ignatius stories in this conversation, and the encounter stage is not specified as too early; the condition does not clearly apply."
+    },
+    {
+     "type": "story",
+     "term": "Nero's Fire and the First Scapegoating",
+     "source_file": "pahcstory005_nero-scapegoating.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.41 below threshold -4.0 - not relevant to this turn."
+    },
+    {
+     "type": "story",
+     "term": "A Sunday Gathering in Rome, As Justin Describes It",
+     "source_file": "pahcstory006_justin-sunday-gathering.md",
+     "retrieved": false,
+     "reason": "Cross-encoder relevance -11.43 below threshold -4.0 - not relevant to this turn."
+    }
+   ]
+  }
+ ]
+}
