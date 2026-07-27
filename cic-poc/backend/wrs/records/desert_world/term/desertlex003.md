@@ -7,7 +7,9 @@ jobs:
 - 1
 - 2
 - 4
+- 5
 - 6
+- 7
 register: emic
 review_state: draft
 cache_stability: static
@@ -17,19 +19,13 @@ aliases:
 - hesychia
 - quietude
 quick_meaning: Interior and exterior stillness, cultivated as both precondition and fruit of ascetic discipline.
-world_meaning: 'Structurally easier to achieve in solitary settings than in communal, labor-and-liturgy-structured
-  ones — a genuine point of internal texture, not a uniform experience. This world''s own usage should
-  not be conflated with the much later, fully systematized Byzantine hesychast tradition''s technical
-  apparatus (the Jesus Prayer, psychosomatic prayer technique).
-
-
-  [Ecological Function — parked at S2.2; restructured into typed field_relations at S2.3 per §3.2 / FLAG-002]:
-  A precondition for the interior attentiveness discernment requires; connects to spiritual combat as
-  the contested ground on which that combat is fought.'
-distortion_risk: Modern Hearing — contemporary "mindfulness" or wellness-oriented calm, or the full later
-  hesychast apparatus retrojected onto this earlier period. World Hearing — a demanding discipline pursued
-  specifically to expose, not soothe, interior disturbance; the opposite of stress relief, and comparatively
-  unsystematized relative to its later namesake tradition.
+world_meaning: Structurally easier to achieve in solitary settings than in communal, labor-and-liturgy-structured
+  ones — a genuine point of internal texture, not a uniform experience. This world's own usage should
+  not be conflated with the much later, fully systematized Byzantine hesychast tradition's technical apparatus
+  (the Jesus Prayer, psychosomatic prayer technique).
+distortion_risk: World Hearing — a demanding discipline pursued specifically to expose, not soothe, interior
+  disturbance; the opposite of stress relief, and comparatively unsystematized relative to its later namesake
+  tradition.
 retrieval:
   tier: 1
   retrieve_when:
@@ -52,5 +48,47 @@ sources:
     it) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition;
     Contested as to how faithfully any individual saying preserves its original strand-specific context
     versus reflecting later compilers' own arrangement.
+modern_hearing: Modern Hearing — contemporary "mindfulness" or wellness-oriented calm, or the full later
+  hesychast apparatus retrojected onto this earlier period.
+period_sense: Interior and exterior stillness cultivated as both precondition and fruit of ascetic discipline
+  — structurally easier in solitary settings than in the koinōnia's labor-and-liturgy rhythm, and deliberately
+  unsystematized in this world's own window (Doc_06 §1.3).
+prior_sense: 'Ordinary Greek sense: quietness, rest. The later, fully systematized Byzantine hesychast
+  apparatus (Jesus Prayer, psychosomatic technique) is explicitly NOT this world''s own usage and postdates
+  its boundary (Doc_06 §1.3; Doc_01 §2.3). Lexical background beyond the build''s documents: UNVERIFIED
+  against a registry source.'
+modern_sense: Heard today as contemporary mindfulness or wellness-oriented calm; or, by readers who know
+  the later tradition, as full-blown hesychasm retrojected onto this earlier period (Doc_06 §1.3 Modern
+  Hearing).
+conceptual_distance_note: 'Sharp gap in purpose: this stillness exposes interior disturbance rather than
+  soothing it — the opposite of stress relief — and the method-heavy later tradition must not be read
+  back into it (Doc_06 §1.3 World Hearing). High grounding criterion by rule (anachronism-guard rides
+  this term''s own retrieval block).'
+semantic_domain: interior-discipline
+voice_surface: We do not hand out a method. Stillness is sought so that what the noise was hiding may
+  come into view — that is why we seek it, and why many flee it.
+grounding_criterion: high
+eviction_priority: 2
+confidence:
+  citation_specificity: C
+  verification_state: verified-via-authority
+  verification_date: '2026-07-26'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: desertlex005
+  note: 'Discernment presupposes the interior attentiveness stillness makes possible (mirror of desertlex005''s
+    edge). Chunk Ecological Function (verbatim, absorbed per FLAG-002): A precondition for the interior
+    attentiveness discernment requires; connects to spiritual combat as the contested ground on which
+    that combat is fought.'
+- type: precondition-for
+  target_id: desertlex005
+  note: A precondition for the interior attentiveness discernment requires (Doc_06 §1.3 Ecological Function,
+    absorbed per FLAG-002).
+- type: tension-with
+  target_id: desertlex004
+  note: Connects to spiritual combat as the contested ground on which that combat is fought — stillness
+    is where the thoughts attack (Doc_06 §1.3 Ecological Function; symmetric edge).
 ---
-Migrated at S2.2 (2026-07-26) from `data/desert_world/lexicon_chunks/desertlex003_hesychia.md` (mechanical split; mapping in `wrs/migrate/lexicon_chunk_split.py`). Related-Terms and new-authoring fields arrive at S2.3.
+S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.

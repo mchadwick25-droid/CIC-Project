@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S2.3 (term records, new authoring — first batch, two-round minimum)
-- **Last completed checkpoint:** S2.2 G+P+R (`gates/S2.2_content_coverage.md`, `reviews/S2.2_batch1.md`)
+- **Current step:** S2.4 (story/quote/figure records — narratability gate live for the first time)
+- **Last completed checkpoint:** S2.3 G+R×2 (`gates/S2.3_completion_reciprocity.md`, `reviews/S2.3_batch1_round1.md`, `reviews/S2.3_batch1_round2.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -45,7 +45,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S2.1a | done | G | `gates/S2.1a_discovery_sweep.md` + `wrs/migrate/s21a_discovery_sweep.py` (the sweep log): 8 rows added with REAL discovery data (srcDES017–024; 4 were load-bearing in Doc_02's prose but row-less incl. Bartelink SC 400 verified at sourceschretiennes.org), 4 exclusions logged; search_record srcDESsearch001 (STARLITE, migration-time scope, BIBP/L'Année logged as coverage limits); 26/26 valid, gates green |
 | S2.1b | done | R | `reviews/S2.1b_coverage_check.md`: relative recall 9/10 (miss: Cassian — no row anywhere); PRESS answered with 3 named works (Cassian; Butler's Lausiac History edition; Guy SC editions); all routed to S2.9/pre-freeze re-sweep, no records edited (per Touches) |
 | S2.2 | done | G + P + R | 9 term records via `wrs/migrate/lexicon_chunk_split.py` (mechanical, parses the real chunks); coverage parity 9/9 full (instrument caught a real parser bug first run — 5/9 failing, fixed); drops = exactly the legal classes, logged (2 retired cross-world + 5 em-dash sentinels, matching Touches prediction); EF parked in world_meaning per FLAG-002; 35/35 valid, gates green |
-| S2.3 | pending | G + R | term records, new authoring; two-round minimum first batch |
+| S2.3 | done | G + R×2 | All 9 terms: four senses (prior senses not in build docs marked UNVERIFIED, never asserted), voice_surface (plain register, ~60-word measure), semantic_domain, 3-axis confidence, 24 typed reciprocal field_relations absorbing EF (FLAG-002 parking removed; chunk EF verbatim on first edge for parity); coverage 9/9; reciprocity 0 violations; Round 1 caught P1 invented-aphorism class in 5 voice_surfaces (fixed); Round 2 clear (P2s only); known staged gap: world_core.gravities → S2.5 |
 | S2.4 | pending | G + R | story/quote/figure; narratability gate live for the first time |
 | S2.5 | pending | G + R | gravity/force + Layer 4 |
 | S2.6 | pending | G + R | contested_claim; partners from unmigrated worlds' documents (F1 withdrawn) |

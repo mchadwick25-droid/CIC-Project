@@ -7,7 +7,9 @@ jobs:
 - 1
 - 2
 - 4
+- 5
 - 6
+- 7
 register: emic
 review_state: draft
 cache_stability: static
@@ -23,16 +25,10 @@ world_meaning: 'This world''s most materially corroborated practice: attested te
   monastic business correspondence, and archaeologically, in excavated settlement infrastructure — three
   independent evidence streams converging, a rare density in this world''s source base. Labor sustained
   ascetics materially, funded almsgiving beyond the settlement, and was understood as ascetic discipline
-  against idleness in its own right, not merely as a means to those ends.
-
-
-  [Ecological Function — parked at S2.2; restructured into typed field_relations at S2.3 per §3.2 / FLAG-002]:
-  Sustains withdrawal materially; directly generates this world''s own documented tension between withdrawal''s
-  rhetoric of total separation and its actual, ongoing economic entanglement with surrounding villages.'
-distortion_risk: 'Modern Hearing — incidental subsistence work, separate from "real" spiritual practice.
-  World Hearing — spiritually formative in itself: occupying the hands and structuring the day precisely
-  so the mind remained available for prayer and combat with intrusive thoughts, not a distraction from
-  those higher pursuits.'
+  against idleness in its own right, not merely as a means to those ends.'
+distortion_risk: 'World Hearing — spiritually formative in itself: occupying the hands and structuring
+  the day precisely so the mind remained available for prayer and combat with intrusive thoughts, not
+  a distraction from those higher pursuits.'
 retrieval:
   tier: 1
   retrieve_when:
@@ -55,5 +51,43 @@ sources:
     Nicene-communion mainstream this world otherwise centers, and is included on the working assumption
     — not yet independently verified — that Melitian and Nicene-communion ascetic practice were not organizationally
     distinct in most day-to-day respects.'
+modern_hearing: Modern Hearing — incidental subsistence work, separate from "real" spiritual practice.
+period_sense: 'Manual labor — chiefly rope- and basket-weaving — as economic necessity and deliberate
+  discipline at once: occupying the hands and structuring the day so the mind stays available for prayer
+  and combat. The lexicon''s most materially corroborated entry: textual, papyrological (Nepheros), and
+  archaeological (Kellia) streams converge (Doc_06 §1.7).'
+prior_sense: 'Ordinary Greek working vocabulary for handiwork/manual trade, carried into ascetic use without
+  ceremony. Lexical background beyond the build''s documents: UNVERIFIED against a registry source.'
+modern_sense: Heard today as incidental subsistence work, separate from 'real' spiritual practice (Doc_06
+  §1.7 Modern Hearing).
+conceptual_distance_note: 'Moderate gap: the world holds labor as formative in itself — against idleness,
+  for almsgiving, and as the rhythm that frees the mind — not a distraction from higher pursuits (Doc_06
+  §1.7 World Hearing).'
+semantic_domain: livelihood-and-discipline
+voice_surface: Our hands plait rope while the heart keeps watch. The work feeds us, feeds the poor beyond
+  us, and holds the day together — do not call it lesser than prayer.
+grounding_criterion: standard
+eviction_priority: 2
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-26'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: presupposed-by
+  target_id: desertlex001
+  note: 'Withdrawal presupposes the labor that sustains it (mirror). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Sustains withdrawal materially; directly generates this world''s own documented
+    tension between withdrawal''s rhetoric of total separation and its actual, ongoing economic entanglement
+    with surrounding villages.'
+- type: material-source-of
+  target_id: desertlex001
+  note: Sustains withdrawal materially; funded almsgiving beyond the settlement (Doc_06 §1.7 Ecological
+    Function, absorbed per FLAG-002).
+- type: tension-with
+  target_id: desertlex001
+  note: Directly generates the documented economic and social embeddedness that stands against withdrawal's
+    rhetoric of total separation (Doc_06 §1.7 Ecological Function; Doc_04 gravity 8; symmetric edge).
 ---
-Migrated at S2.2 (2026-07-26) from `data/desert_world/lexicon_chunks/desertlex007_cheironaxia.md` (mechanical split; mapping in `wrs/migrate/lexicon_chunk_split.py`). Related-Terms and new-authoring fields arrive at S2.3.
+S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.

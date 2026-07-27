@@ -7,7 +7,9 @@ jobs:
 - 1
 - 2
 - 4
+- 5
 - 6
+- 7
 register: emic
 review_state: draft
 cache_stability: static
@@ -21,18 +23,10 @@ world_meaning: 'This world''s defining act. Not preparation for formation but fo
   solitude, and exposure to interior struggle are the curriculum. Antony''s own career supplies the paradigmatic
   instance: a progressive deepening from village to outer mountain to inner mountain, not one decisive
   departure. All three organizational patterns of this world (solitary, communal, semi-communal) instantiate
-  withdrawal differently, but withdrawal itself organizes all three.
-
-
-  [Ecological Function — parked at S2.2; restructured into typed field_relations at S2.3 per §3.2 / FLAG-002]:
-  Everything else in this world''s formation logic is downstream of it — geography, the internal organizational
-  differentiation, and the world''s own thin liturgical-textual record all trace back to it. Reinforces
-  manual labor (which sustains it materially) and elder authority (which mediates it); stands in documented
-  tension with this world''s own ongoing economic and social embeddedness in surrounding village life.'
-distortion_risk: 'Modern Hearing — passive retreat, escapism, opting out of responsibility. World Hearing
-  — the most demanding, not the most passive, form of engagement: a direct, sustained confrontation with
-  interior reality that ordinary settled life allowed a person to avoid, replacing the total self-offering
-  martyrdom had previously supplied.'
+  withdrawal differently, but withdrawal itself organizes all three.'
+distortion_risk: 'World Hearing — the most demanding, not the most passive, form of engagement: a direct,
+  sustained confrontation with interior reality that ordinary settled life allowed a person to avoid,
+  replacing the total self-offering martyrdom had previously supplied.'
 retrieval:
   tier: 1
   retrieve_when:
@@ -51,5 +45,50 @@ sources:
     by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams,
     and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific
     named figure from the textual tradition.
+modern_hearing: Modern Hearing — passive retreat, escapism, opting out of responsibility.
+period_sense: 'The defining act of this world: departure from settled village life into marginal or remote
+  land, undertaken as formation itself — distance, solitude, and exposure to interior struggle are the
+  curriculum, deepened in stages (village, outer mountain, inner mountain) rather than made once (Doc_06
+  §1.1; Doc_01 §2.1).'
+prior_sense: 'Ordinary Greek sense: withdrawal or retreat (in Egyptian documentary usage, also villagers''
+  flight from fiscal obligations). The build''s own documents do not develop this prior sense — noted
+  from standard lexica, UNVERIFIED against a registry source; flagged rather than asserted.'
+modern_sense: Heard today as passive retreat, escapism, or opting out of responsibility (Doc_06 §1.1 Modern
+  Hearing).
+conceptual_distance_note: 'The modern ear inverts the term''s direction: what sounds like avoidance was
+  this world''s most demanding form of engagement — confrontation with what settled life allowed one to
+  avoid, replacing martyrdom''s total self-offering (Doc_06 §1.1 World Hearing; Doc_01 §7). Sharp then-vs-now
+  gap: high grounding criterion by rule.'
+semantic_domain: formation-acts
+voice_surface: We did not go out to escape the world. We went out because the village let us avoid what
+  the desert makes us face. Leaving was not one day's decision; a man goes further as he is able.
+grounding_criterion: high
+eviction_priority: 1
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-26'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: desertlex002
+  note: 'Withdrawal presupposes the entry act of renunciation (Doc_06 §1.2: apotagē is ''the precondition
+    for anachōrēsis to be sustainable rather than merely episodic''). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Everything else in this world''s formation logic is downstream of it — geography,
+    the internal organizational differentiation, and the world''s own thin liturgical-textual record all
+    trace back to it. Reinforces manual labor (which sustains it materially) and elder authority (which
+    mediates it); stands in documented tension with this world''s own ongoing economic and social embeddedness
+    in surrounding village life.'
+- type: presupposes
+  target_id: desertlex007
+  note: 'Everything else in this world''s formation logic is downstream of it: geography, the three-strand
+    differentiation itself, and the thinness of this world''s own liturgical-textual record. Withdrawal
+    reinforces manual labor, which sustains it materially, and elder authority, which mediates it (Doc_06
+    §1.1 Ecological Function, absorbed per FLAG-002).'
+- type: tension-with
+  target_id: desertlex007
+  note: Withdrawal stands in documented tension with ongoing economic and social embeddedness — the gap
+    between separation's rhetoric and the labor economy's reality (Doc_06 §§1.1, 1.7; Doc_04 gravity 8).
 ---
-Migrated at S2.2 (2026-07-26) from `data/desert_world/lexicon_chunks/desertlex001_anachoresis.md` (mechanical split; mapping in `wrs/migrate/lexicon_chunk_split.py`). Related-Terms and new-authoring fields arrive at S2.3.
+S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.
