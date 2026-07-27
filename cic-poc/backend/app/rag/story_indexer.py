@@ -18,6 +18,7 @@ from langchain_core.documents import Document
 
 from app.config import settings
 from app.rag.embeddings import get_shared_embeddings
+from app.rag.indexer import _null_sentinel
 
 
 @dataclass
@@ -118,8 +119,8 @@ class StoryIndexer:
             tier=int(front_matter.get("tier", "0") or "0"),
             confidence=front_matter.get("confidence", ""),
             source=front_matter.get("source", ""),
-            retrieve_when=front_matter.get("retrieve_when", ""),
-            do_not_retrieve_when=front_matter.get("do_not_retrieve_when", ""),
+            retrieve_when=_null_sentinel(front_matter.get("retrieve_when", "")),
+            do_not_retrieve_when=_null_sentinel(front_matter.get("do_not_retrieve_when", "")),
             content=self._strip_voice_unsafe_sections(remaining),
             source_file=file_path.name,
             force_llm_vote=front_matter.get("force_llm_vote", "").strip().lower().startswith("true"),

@@ -4,6 +4,7 @@ import re
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 from typing import Literal
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
@@ -955,22 +956,42 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     # instead. Both are synchronous/blocking (network-bound LLM + vector
     # search calls), so a plain thread pool is enough; no need for this
     # whole call chain to become async just for this.
+    # S3.3 (Pass 1 R4): the ID-keyed session exclusion set for this world -
+    # chunks already surfaced this session are excluded deterministically
+    # at candidate stage (replacing both substring de-dup proxies)
+    exclude_ids = set(state.surfaced_chunk_ids.get(current_world_id, []))
+
     with ThreadPoolExecutor(max_workers=2) as executor:
         lexicon_future = executor.submit(
             retriever.get_context_for_response,
             query=retrieval_query,
             conversation_context=public_transcript,
+            exclude_ids=exclude_ids,
         )
         story_future = executor.submit(
             story_retriever.get_context_for_response,
             query=retrieval_query,
             conversation_context=public_transcript,
+            exclude_ids=exclude_ids,
         )
         retrieved_context, lexicon_citations, lexicon_evaluations = lexicon_future.result()
         story_context, story_citations, story_evaluations = story_future.result()
 
     citations = lexicon_citations + story_citations
     evaluations = lexicon_evaluations + story_evaluations
+
+    # Record what actually surfaced this turn into the session exclusion
+    # set, so the next turn's retrieval can exclude it by ID
+    newly_surfaced = [
+        Path(ev.source_file).stem
+        for ev in evaluations
+        if ev.retrieved and ev.source_file
+    ]
+    if newly_surfaced:
+        seen = state.surfaced_chunk_ids.setdefault(current_world_id, [])
+        for stem in newly_surfaced:
+            if stem not in seen:
+                seen.append(stem)
 
     # Guidance for THIS specific representative, queued from an earlier
     # drift/dominance/convergence finding (see check_dominance,

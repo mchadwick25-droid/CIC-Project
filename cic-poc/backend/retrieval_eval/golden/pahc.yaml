@@ -68,6 +68,7 @@ cases:
       episkopos at length, how the office stood among the presbyters and how
       Ignatius argued for one bishop at the center of each assembly.
     must_not: [pahclex001_episkopos]
+    surfaced: [pahclex001_episkopos]
     notes: >-
       Composite-Term de-dup gap, third world (see SYR-DD-01, DES-DD-01):
       metadata Term is "episkopos (with Greek script)", which plain
@@ -82,6 +83,7 @@ cases:
       two ministrae he tortured, and the emperor's reply. That full account
       has been given.
     must_not: [pahcstory004_pliny-interrogation]
+    surfaced: [pahcstory004_pliny-interrogation]
 
   # --- negative-condition ---
   - id: PAHC-NC-01

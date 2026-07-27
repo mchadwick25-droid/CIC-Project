@@ -108,6 +108,7 @@ class LexiconRetriever:
         query: str,
         conversation_context: str = "",
         k: int = 3,
+        exclude_ids: set[str] | None = None,
     ) -> RetrievalResult:
         """
         Retrieve relevant lexicon entries for a query.
@@ -125,12 +126,33 @@ class LexiconRetriever:
         docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
+        # S3.3 (Pass 1 R4): the ID-keyed session exclusion set - chunks
+        # already surfaced this session are dropped deterministically at
+        # candidate stage, with an audit-trail entry each. Replaces the
+        # substring already_discussed proxy (broken on composite labels).
+        excluded_evals = []
+        if exclude_ids:
+            kept = []
+            for doc in candidate_docs:
+                stem = Path(doc.metadata.get("source_file", "")).stem
+                if stem in exclude_ids:
+                    excluded_evals.append(RetrievalEvaluation(
+                        term=doc.metadata.get("term", "unknown"),
+                        source_file=doc.metadata.get("source_file", ""),
+                        retrieved=False,
+                        reason="Session exclusion set: already surfaced "
+                               "this session (deterministic ID match).",
+                    ))
+                else:
+                    kept.append(doc)
+            candidate_docs = kept
+
         # Tier 1 candidates that also rank among the closest semantic matches
         # retrieve deterministically, without an LLM vote - see
         # partition_tier1_short_circuit for why. Everything else still goes
         # through the LLM's Retrieve-When / Do-Not-Retrieve-When judgment.
         auto_retrieve_docs, llm_vote_docs = partition_tier1_short_circuit(
-            candidate_docs, conversation_context, label_key="term"
+            candidate_docs, label_key="term"
         )
 
         decisions_by_id: dict[int, tuple[bool, str]] = {
@@ -172,7 +194,7 @@ class LexiconRetriever:
 
         filtered_docs = []
         reasoning_parts = []
-        evaluations = []
+        evaluations = list(excluded_evals)  # session-exclusion audit entries
 
         for doc in candidate_docs:
             should_retrieve, reason = decisions_by_id[id(doc)]
@@ -209,6 +231,7 @@ class LexiconRetriever:
         self,
         query: str,
         conversation_context: str = "",
+        exclude_ids: set[str] | None = None,
     ) -> tuple[str, list[Citation], list[RetrievalEvaluation]]:
         """
         Get formatted context string, citations, and the retrieval audit trail
@@ -219,8 +242,10 @@ class LexiconRetriever:
         back the retrieved context, for display in the UI. The evaluations cover
         every lexicon file considered for this turn - retrieved or skipped, and
         why - for auditing what the representative's answer actually drew on.
+        exclude_ids: the S3.3 session exclusion set (chunk-id stems already
+        surfaced this session), applied deterministically at candidate stage.
         """
-        result = self.retrieve(query, conversation_context)
+        result = self.retrieve(query, conversation_context, exclude_ids=exclude_ids)
 
         if not result.documents:
             return "", [], result.evaluations

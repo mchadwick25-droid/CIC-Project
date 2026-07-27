@@ -32,6 +32,25 @@ W_LEXICAL = 0.7
 # expansion hits enter as if ranked just past the fused list - present,
 # never displacing a direct hit
 EXPANSION_RANK = 30
+# S3.3 (Pass 1 R5): relevance floor on the dense leg - normalized-embedding
+# L2 distance beyond which a dense-only candidate is noise, not a match
+# (observed good hits sit ~0.65-1.1; the floor drops the far tail). A
+# candidate with genuine lexical overlap is never floored - BM25 presence
+# is itself relevance evidence. The floor is ADAPTIVE: max(absolute cap,
+# best distance + margin) - long reactive-style queries (another world's
+# turn text embedded, the pre-S3.5 shape) shift the whole distance
+# distribution upward, and an absolute 1.4 cut a must-doc sitting 0.2
+# behind the best hit (HAL-RT-01's vulgata at 1.41). Constants here until
+# S4.4 makes parameters.yaml the runtime parameter home (F9).
+DENSE_RELEVANCE_FLOOR = 1.4
+DENSE_FLOOR_MARGIN = 0.35
+# S3.3 (Pass 1 R5): MMR balance - relevance vs. redundancy among the
+# selected candidates (standard maximal-marginal-relevance formulation).
+# 0.85, not the textbook 0.7: at 0.7 MMR demoted a world's genuinely
+# distinct sibling doc (vulgata vs hebraica-veritas, both must-retrieve
+# for one translation question) as if it were a duplicate - measured on
+# HAL-RT-01. The within-turn target is near-identical redundancy only.
+MMR_LAMBDA = 0.85
 
 
 def _tokenize(text: str) -> list[str]:
@@ -65,6 +84,16 @@ class HybridSearcher:
             for tok in set(toks):
                 self._df[tok] = self._df.get(tok, 0) + 1
         self._df_cutoff = max(2, len(self.docs) // 2)
+        # S3.3: per-doc embedding vectors for MMR, reconstructed from the
+        # FAISS index already on disk (no re-embedding)
+        self._vecs: dict[str, list[float]] = {}
+        try:
+            for i, ds_id in vector_store.index_to_docstore_id.items():
+                d = vector_store.docstore._dict.get(ds_id)
+                if d is not None:
+                    self._vecs[self._doc_key(d)] = vector_store.index.reconstruct(int(i))
+        except Exception:
+            self._vecs = {}  # MMR degrades to pure fused order
         # term/alias lookup for R8 one-hop expansion (lexicon docs carry
         # term+aliases; story docs carry story_title)
         self._by_name: dict[str, int] = {}
@@ -106,6 +135,14 @@ class HybridSearcher:
         the score is a fused rank score (higher = better)."""
         n = max(k * 2, 10)
         dense = self.vector_store.similarity_search_with_score(query, k=n)
+        # S3.3 relevance floor (adaptive - see constants above):
+        # dense-only candidates past the floor are noise; lexical evidence
+        # below re-admits a doc on its own merits (fusion sums legs
+        # independently)
+        if dense:
+            floor = max(DENSE_RELEVANCE_FLOOR,
+                        float(dense[0][1]) + DENSE_FLOOR_MARGIN)
+            dense = [(d, s) for d, s in dense if s <= floor]
 
         q_toks = [t for t in _tokenize(query)
                   if self._df.get(t, 0) <= self._df_cutoff]
@@ -142,4 +179,43 @@ class HybridSearcher:
                     fused[nkey] = W_DENSE / (RRF_K + EXPANSION_RANK)
 
         ranked = sorted(fused.items(), key=lambda kv: -kv[1])
+        # S3.3 (Pass 1 R5): MMR re-rank WITHIN the candidate window only -
+        # it reorders the docs the retriever will consider (demoting
+        # near-duplicates of already-selected ones) but never displaces a
+        # relevant doc out of the window with a diverse-but-weaker one
+        # (the first cut of this reordered globally and cost a reactive
+        # case its second must-doc). Within-turn de-dup half; the
+        # cross-turn half is the session exclusion set.
+        window = ranked[: k * 2]
+        ranked = self._mmr(window) + ranked[k * 2:]
         return [(docs_by_key[key], score) for key, score in ranked]
+
+    def _mmr(self, ranked: list[tuple[str, float]]) -> list[tuple[str, float]]:
+        if not self._vecs or len(ranked) <= 1:
+            return ranked
+        import math
+
+        def cos(a, b):
+            num = sum(x * y for x, y in zip(a, b))
+            da = math.sqrt(sum(x * x for x in a)) or 1.0
+            db = math.sqrt(sum(x * x for x in b)) or 1.0
+            return num / (da * db)
+
+        max_rel = ranked[0][1] or 1.0
+        remaining = list(ranked)
+        selected: list[tuple[str, float]] = []
+        while remaining:
+            best_i, best_v = 0, None
+            for i, (key, score) in enumerate(remaining):
+                rel = score / max_rel
+                sim = 0.0
+                v = self._vecs.get(key)
+                if v is not None and selected:
+                    sims = [cos(v, self._vecs[sk]) for sk, _ in selected
+                            if sk in self._vecs]
+                    sim = max(sims) if sims else 0.0
+                mmr = MMR_LAMBDA * rel - (1 - MMR_LAMBDA) * sim
+                if best_v is None or mmr > best_v:
+                    best_i, best_v = i, mmr
+            selected.append(remaining.pop(best_i))
+        return selected

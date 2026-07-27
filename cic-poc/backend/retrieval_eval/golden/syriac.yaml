@@ -92,6 +92,7 @@ cases:
       desert. I have just described the qyama's vowed, communal character at
       length.
     must_not: [syrlex002_qyama]
+    surfaced: [syrlex002_qyama]
     notes: >-
       Desired behavior: a just-discussed term is not re-retrieved. Measured
       behavior (first harness run, 2026-07-26): the already_discussed proxy
@@ -112,6 +113,7 @@ cases:
       madrashe - though our own record within the window does not attest this
       directly. I have told this story already, in full.
     must_not: [syrstory007_ephrem-founding-choirs]
+    surfaced: [syrstory007_ephrem-founding-choirs]
     notes: >-
       Anchor: commit 1252fd4's repeated-story defect. The full story title
       appears verbatim in context (the substring guard's best case) - yet the

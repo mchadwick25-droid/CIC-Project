@@ -94,6 +94,17 @@ class ConversationState:
     # because those are global to "whoever spoke last," not per-representative.
     pending_guidance: dict[str, str] = field(default_factory=dict)
 
+    # S3.3 (Pass 1 R4): the ID-keyed session exclusion set - chunk ids
+    # (source_file stems) already surfaced into a representative's context
+    # this session, keyed by world_id. Replaces the two substring de-dup
+    # proxies (partition_tier1_short_circuit's already_discussed check and
+    # the story vote's "already told earlier" instruction) with a
+    # deterministic exclusion: once a chunk has been surfaced, it is
+    # filtered at candidate stage, no string-matching or LLM judgment
+    # involved. Also deterministically replaces the retired
+    # "Capsule-Core has already surfaced this" retrieval-condition class.
+    surfaced_chunk_ids: dict[str, list[str]] = field(default_factory=dict)
+
     # Relational-safety session-level state (Acute Distress / Harmful Dynamic,
     # Facilitator Governance V3.6 Section 12, per the corrected design in
     # CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md and its

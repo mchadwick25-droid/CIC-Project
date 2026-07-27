@@ -80,6 +80,7 @@ cases:
       described Theosis at length, deification without dissolution, the
       creature drawn into God's own life without ceasing to be creature.
     must_not: [alexlex008_theosis]
+    surfaced: [alexlex008_theosis]
     notes: >-
       The one shape where the already_discussed proxy CAN fire: this chunk's
       metadata Term is exactly "Theosis", and the context contains it. The
@@ -95,6 +96,7 @@ cases:
       teachers' esoteric claim, the true gnostic being Clement's own figure
       of the formed knower.
     must_not: [alexlex005_knowledge-gnosis]
+    surfaced: [alexlex005_knowledge-gnosis]
     notes: >-
       The failing shape beside ALX-DD-01: metadata Term is the composite
       "Knowledge / Gnosis", which a context saying "gnosis" never matches -

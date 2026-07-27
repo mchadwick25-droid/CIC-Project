@@ -2,6 +2,7 @@
 Retrieve-When / Do-Not-Retrieve-When logic against the story schema."""
 
 from dataclasses import dataclass, field
+from pathlib import Path
 
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
@@ -76,6 +77,7 @@ class StoryRetriever:
         query: str,
         conversation_context: str = "",
         k: int = 2,
+        exclude_ids: set[str] | None = None,
     ) -> StoryRetrievalResult:
         """
         Retrieve relevant story chunks for a query.
@@ -88,12 +90,33 @@ class StoryRetriever:
         docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
+        # S3.3 (Pass 1 R4): deterministic session exclusion - a story once
+        # told this session is filtered by ID at candidate stage, replacing
+        # the LLM-vote instruction "when this exact story was already told
+        # earlier" (string/judgment-based, the second broken de-dup guard).
+        excluded_evals = []
+        if exclude_ids:
+            kept = []
+            for doc in candidate_docs:
+                stem = Path(doc.metadata.get("source_file", "")).stem
+                if stem in exclude_ids:
+                    excluded_evals.append(RetrievalEvaluation(
+                        term=doc.metadata.get("story_title", "unknown"),
+                        source_file=doc.metadata.get("source_file", ""),
+                        retrieved=False,
+                        reason="Session exclusion set: already surfaced "
+                               "this session (deterministic ID match).",
+                    ))
+                else:
+                    kept.append(doc)
+            candidate_docs = kept
+
         # Tier 1 stories (tied to this world's own central formation theme)
         # that also rank among the closest semantic matches retrieve
         # deterministically, without an LLM vote - see
         # partition_tier1_short_circuit for why.
         auto_retrieve_docs, llm_vote_docs = partition_tier1_short_circuit(
-            candidate_docs, conversation_context, label_key="story_title"
+            candidate_docs, label_key="story_title"
         )
 
         decisions_by_id: dict[int, tuple[bool, str]] = {
@@ -125,8 +148,9 @@ class StoryRetriever:
                     "A story does not need to be directly asked for - RETRIEVE it whenever it would "
                     "genuinely illustrate the point at hand, the way a teacher reaches for a concrete "
                     "memory to ground an abstract point. Still SKIP when the connection is only "
-                    "topically adjacent, when this exact story was already told earlier in the "
-                    "conversation, or when telling it would crowd out actually answering the question."
+                    "topically adjacent, or when telling it would crowd out actually answering "
+                    "the question. (Already-told stories never reach this vote - the session "
+                    "exclusion set filters them deterministically upstream, S3.3.)"
                 ),
             )
             decisions_by_id.update(
@@ -135,7 +159,7 @@ class StoryRetriever:
 
         filtered_docs = []
         reasoning_parts = []
-        evaluations = []
+        evaluations = list(excluded_evals)  # session-exclusion audit entries
 
         for doc in candidate_docs:
             should_retrieve, reason = decisions_by_id[id(doc)]
@@ -169,6 +193,7 @@ class StoryRetriever:
         self,
         query: str,
         conversation_context: str = "",
+        exclude_ids: set[str] | None = None,
     ) -> tuple[str, list[Citation], list[RetrievalEvaluation]]:
         """
         Get formatted context string, citations, and the retrieval audit trail
@@ -178,7 +203,7 @@ class StoryRetriever:
         Usage Guidance requires the representative to name when telling the
         story), enriched with any resolved Source Registry rows it references.
         """
-        result = self.retrieve(query, conversation_context)
+        result = self.retrieve(query, conversation_context, exclude_ids=exclude_ids)
 
         if not result.documents:
             return "", [], result.evaluations

@@ -59,6 +59,7 @@ cases:
       set down. I have just explained homoousios at length this turn, its
       meaning and why it was fought over for half a century.
     must_not: [ijclex006_homoousios]
+    surfaced: [ijclex006_homoousios]
     notes: >-
       Term is exactly "homoousios" (simple string), so the already_discussed
       proxy CAN fire here - the guard reroutes to the LLM vote; vote=skip is
@@ -72,6 +73,7 @@ cases:
       court's demand, the sealed doors, the people singing through the night
       around their bishop. That story has been told in full.
     must_not: [ijcstory004_the-vigil-in-the-basilica]
+    surfaced: [ijcstory004_the-vigil-in-the-basilica]
 
   # --- negative-condition ---
   - id: IJC-NC-01

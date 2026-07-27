@@ -85,6 +85,7 @@ cases:
       just described hesychia at length, its place as the goal of the cell
       and the fruit of watchfulness.
     must_not: [desertlex003_hesychia]
+    surfaced: [desertlex003_hesychia]
     notes: >-
       Generality check on the composite-Term de-dup gap (see SYR-DD-01): the
       metadata Term is "Hesychia (Stillness)" with macrons, which a context
@@ -101,6 +102,7 @@ cases:
       where I cannot see them, and I come to judge another. I have told this
       story already, in full.
     must_not: [desertstory004_moses-leaking-jug]
+    surfaced: [desertstory004_moses-leaking-jug]
     notes: >-
       Story title appears verbatim in context, so the substring guard reroutes
       it to the LLM vote; under vote=retrieve the story repeats (same open

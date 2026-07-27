@@ -12,6 +12,15 @@ from app.config import settings
 from app.rag.embeddings import get_shared_embeddings
 
 
+def _null_sentinel(value: str) -> str:
+    """S3.3 (Pass 1 R5): typed-null handling - an em-dash/dash sentinel in a
+    condition field means 'no condition', and must parse to empty so every
+    truthiness check downstream (no-conditions fast path, vote gating)
+    treats it as the null it is, instead of as one-character condition
+    text."""
+    return "" if value.strip() in {"—", "–", "-"} else value
+
+
 @dataclass
 class LexiconEntry:
     """Parsed lexicon entry with front-matter and content."""
@@ -198,8 +207,8 @@ class LexiconIndexer:
             tags=parse_list(front_matter.get("tags", "")),
             aliases=parse_aliases(front_matter.get("aliases", "")),
             related_terms=parse_list(front_matter.get("related_terms", "")),
-            retrieve_when=front_matter.get("retrieve_when", ""),
-            do_not_retrieve_when=front_matter.get("do_not_retrieve_when", ""),
+            retrieve_when=_null_sentinel(front_matter.get("retrieve_when", "")),
+            do_not_retrieve_when=_null_sentinel(front_matter.get("do_not_retrieve_when", "")),
             content=main_content,
             source_file=file_path.name,
             key_sources=key_sources,

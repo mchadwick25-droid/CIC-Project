@@ -62,7 +62,7 @@ def doc_id(doc):
     return Path(sf).stem if sf else doc.metadata.get("term") or doc.metadata.get("story_title") or "?"
 
 
-def replay(retriever, label_key, query, context, k):
+def replay(retriever, label_key, query, context, k, context_surfaced=None):
     """Replay the current pipeline's deterministic stages on real data.
 
     Returns (ranked_ids, final_sets_by_policy, decisions) where decisions maps
@@ -75,8 +75,19 @@ def replay(retriever, label_key, query, context, k):
     candidate_docs = [d for d, _s in docs_with_scores]
     ranked_ids = [doc_id(d) for d in candidate_docs]
 
+    # S3.3: the session exclusion set, modeled the way the runtime holds it
+    # (ConversationState.surfaced_chunk_ids -> retrieve(exclude_ids=...)).
+    # A case's `surfaced:` list stands for the chunks a real session would
+    # have recorded when the context transcript happened - the de-dup
+    # category's test is now "is the deterministic exclusion honored
+    # through the pipeline", replacing the old "can the substring proxy
+    # catch it" (which measurably could not, on composite labels).
+    surfaced = set(context_surfaced or [])
+    if surfaced:
+        candidate_docs = [d for d in candidate_docs if doc_id(d) not in surfaced]
+
     from app.rag.batch_evaluate import partition_tier1_short_circuit
-    auto_docs, vote_docs = partition_tier1_short_circuit(candidate_docs, context, label_key=label_key)
+    auto_docs, vote_docs = partition_tier1_short_circuit(candidate_docs, label_key=label_key)
     auto = {id(d) for d in auto_docs}
 
     # evaluate_batch's own local resolve (app/rag/batch_evaluate.py:117-121):
@@ -131,7 +142,8 @@ def eval_case(case, retrievers, own_stems):
     must_not = case.get("must_not", []) or []
 
     ranked, finals, decisions = replay(
-        retriever, label_key, case["query"], case.get("context", ""), k)
+        retriever, label_key, case["query"], case.get("context", ""), k,
+        context_surfaced=case.get("surfaced"))
 
     # structural cross-world isolation: every candidate must be one of this
     # world's own chunk files (per-world index invariant)

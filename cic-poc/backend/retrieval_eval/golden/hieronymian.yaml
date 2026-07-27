@@ -64,6 +64,7 @@ cases:
       took and the resistance it met. The Vulgate has been fully introduced
       this turn.
     must_not: [hal_lex02_vulgata]
+    surfaced: [hal_lex02_vulgata]
     notes: >-
       Composite-Term gap again: metadata Term is "Vulgata (translation
       project)", which neither "Vulgata" nor "the Vulgate" in context
@@ -78,6 +79,7 @@ cases:
       charge "you are a Ciceronian, not a Christian," and the vow that
       followed. That story has been told in full this turn.
     must_not: [hal_story08_the-ciceronian-dream]
+    surfaced: [hal_story08_the-ciceronian-dream]
 
   # --- negative-condition ---
   - id: HAL-NC-01

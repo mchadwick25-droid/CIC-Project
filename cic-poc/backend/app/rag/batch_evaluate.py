@@ -42,9 +42,23 @@ _LINE_PATTERN = re.compile(r"^\s*(\d+)\.\s*(RETRIEVE|SKIP)\s*:\s*(.*)$", re.IGNO
 TIER1_SHORT_CIRCUIT_RANK = 2
 
 
+def _evaluable_negative_condition(dnrw: str) -> bool:
+    """True if the Do-Not-Retrieve-When text carries at least one clause the
+    runtime can genuinely evaluate. The retired condition classes (Pass 1
+    SS3.2) don't count: cross-world guards are structural (each world has
+    its own index - the guard can never fire) and must not drag a doc to
+    the vote on their account. Migrated worlds' chunks no longer carry
+    retired clauses at all; this filter matters for the unmigrated worlds'
+    hand-authored free text."""
+    if not dnrw:
+        return False
+    retired = ("different world", "cross-apply", "another world's own")
+    clauses = [c.strip() for c in dnrw.split(";") if c.strip()]
+    return any(not any(r in c.lower() for r in retired) for c in clauses)
+
+
 def partition_tier1_short_circuit(
     candidate_docs: list,
-    conversation_context: str,
     label_key: str,
 ) -> tuple[list, list]:
     """
@@ -63,19 +77,28 @@ def partition_tier1_short_circuit(
     human-curated Tier 1 flag are a stronger and cheaper signal than
     further prompt engineering achieved.
 
-    A term already named in conversation_context is excluded from the
-    short-circuit (falls through to the normal LLM vote instead), as a
-    cheap proxy for "already surfaced this turn" - the one genuine
-    Do-Not-Retrieve-When case a pure rank/tier check can't itself detect.
+    S3.3 (Pass 1 R4): the old already_discussed substring proxy is GONE -
+    it broke on composite labels ("Hesychia (Stillness)" never matched a
+    context saying "hesychia", the measured composite-Term de-dup gap).
+    Already-surfaced chunks are now excluded deterministically at
+    candidate stage by the ID-keyed session exclusion set
+    (ConversationState.surfaced_chunk_ids), before this function runs.
     """
     auto_retrieve = []
     needs_llm_vote = []
-    context_lower = conversation_context.lower()
 
     for rank, doc in enumerate(candidate_docs):
-        label = doc.metadata.get(label_key, "")
         is_gravity_term = doc.metadata.get("tier") == 1 and rank < TIER1_SHORT_CIRCUIT_RANK
-        already_discussed = bool(label) and label.lower() in context_lower
+        # S3.3 (anticipating R6's own stated rule): a candidate carrying a
+        # genuinely evaluable Do-Not-Retrieve-When condition NEVER
+        # short-circuits past it - its own guard gets the vote. Sentinel
+        # nulls are normalized to "" at index time (S3.3), so a non-empty
+        # value here is real condition text, not an em-dash. Before this,
+        # tier-1 docs bypassed their own guards unless the broken
+        # substring proxy happened to catch them - the measured
+        # negative-condition worsening when that proxy was removed.
+        has_negative_condition = _evaluable_negative_condition(
+            doc.metadata.get("do_not_retrieve_when", ""))
         # A chunk's own Do-Not-Retrieve-When can name a specific, easily-
         # confused sibling term (e.g. "don't retrieve this hymn-genre term
         # when the participant is actually asking about a different, prose
@@ -87,7 +110,7 @@ def partition_tier1_short_circuit(
         # being silently bypassed.
         force_llm_vote = bool(doc.metadata.get("force_llm_vote"))
 
-        if is_gravity_term and not already_discussed and not force_llm_vote:
+        if is_gravity_term and not force_llm_vote and not has_negative_condition:
             auto_retrieve.append(doc)
         else:
             needs_llm_vote.append(doc)
