@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S2.2 (term records, mechanical half)
-- **Last completed checkpoint:** S2.1b R (`reviews/S2.1b_coverage_check.md`)
+- **Current step:** S2.3 (term records, new authoring — first batch, two-round minimum)
+- **Last completed checkpoint:** S2.2 G+P+R (`gates/S2.2_content_coverage.md`, `reviews/S2.2_batch1.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -44,7 +44,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S2.1 | done | G + R | Desert: 16 source records + world_core from Doc_02/Doc_01 prose via `wrs/migrate/source_rows_from_doc02.py` (the declared mapping); backfill rule verbatim (4 fields coarse, instrument/date never set — grep 0 hits); 17/17 validate, gates green (backfill profile), migration byte-deterministic; R sample (seed 20260726: srcDES004/006/007/012) caught 2 mapping deviations, fixed in-step |
 | S2.1a | done | G | `gates/S2.1a_discovery_sweep.md` + `wrs/migrate/s21a_discovery_sweep.py` (the sweep log): 8 rows added with REAL discovery data (srcDES017–024; 4 were load-bearing in Doc_02's prose but row-less incl. Bartelink SC 400 verified at sourceschretiennes.org), 4 exclusions logged; search_record srcDESsearch001 (STARLITE, migration-time scope, BIBP/L'Année logged as coverage limits); 26/26 valid, gates green |
 | S2.1b | done | R | `reviews/S2.1b_coverage_check.md`: relative recall 9/10 (miss: Cassian — no row anywhere); PRESS answered with 3 named works (Cassian; Butler's Lausiac History edition; Guy SC editions); all routed to S2.9/pre-freeze re-sweep, no records edited (per Touches) |
-| S2.2 | pending | G + P + R | term records, mechanical half; runs S1.3's coverage instrument |
+| S2.2 | done | G + P + R | 9 term records via `wrs/migrate/lexicon_chunk_split.py` (mechanical, parses the real chunks); coverage parity 9/9 full (instrument caught a real parser bug first run — 5/9 failing, fixed); drops = exactly the legal classes, logged (2 retired cross-world + 5 em-dash sentinels, matching Touches prediction); EF parked in world_meaning per FLAG-002; 35/35 valid, gates green |
 | S2.3 | pending | G + R | term records, new authoring; two-round minimum first batch |
 | S2.4 | pending | G + R | story/quote/figure; narratability gate live for the first time |
 | S2.5 | pending | G + R | gravity/force + Layer 4 |
