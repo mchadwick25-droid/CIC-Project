@@ -19,6 +19,11 @@ aliases:
 - hesychia
 - quietude
 quick_meaning: Interior and exterior stillness, cultivated as both precondition and fruit of ascetic discipline.
+plain_explanation: Stillness of place and stillness of heart. A person sought quiet outside to seek quiet
+  within. Stillness was both the door to the work and its fruit. It came easier alone than in the busy
+  Rule-houses. This world never made a method of it. Today stillness sounds like calm or stress relief.
+  This world's stillness did the opposite work. It let a person finally see their own inner storm. Later
+  ages built systems on it; this age had none.
 world_meaning: Structurally easier to achieve in solitary settings than in communal, labor-and-liturgy-structured
   ones — a genuine point of internal texture, not a uniform experience. This world's own usage should
   not be conflated with the much later, fully systematized Byzantine hesychast tradition's technical apparatus

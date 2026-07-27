@@ -18,6 +18,10 @@ aliases:
 - contemplation
 - theoria
 quick_meaning: The contemplative stage of Evagrius's systematic scheme, reached only after apatheia.
+plain_explanation: 'The last stage of one branch''s mapped path of formation. It came only after the working
+  stage and passionlessness. It named disciplined seeing: perception earned by years of practice. The
+  modern cousin, theory, points the other way, toward thinking at a distance from things. This world''s
+  theoria was the fruit of hands-on discipline, not detachment.'
 world_meaning: In Evagrius's systematic scheme, the stage following praktike and apatheia — subdivided
   into natural contemplation and, at the highest stage, contemplation of God. Strand-C-bound, single-author-concentrated
   (Doc_06 §2.3; Doc_03 §1.7; Doc_04 §3).

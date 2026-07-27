@@ -20,6 +20,12 @@ aliases:
 - the federation
 quick_meaning: The founder Pachomius's own name for his federated network of monasteries under a single
   Rule and spiritual authority.
+plain_explanation: 'Koinonia was Pachomius''s own name for his network of houses. One written Rule and
+  one authority governed them all. Property was shared. Offices like housemaster and steward ordered daily
+  life. By his death there were nine men''s houses and two for women. This pattern belonged to his branch
+  alone; hermits and cell-dwellers had nothing like it. Today it can look like the elder''s way, just
+  written down. Those inside knew it as a different kind of authority: a way to form many people at once,
+  not one.'
 world_meaning: 'A New Testament term for fellowship, adopted as a technical proper name for a specific
   institutional innovation: multiple houses under common property, formal offices (housemaster, steward),
   and a written Rule. Plural-voices flag: this is the clearest strand-bound term in this world''s whole

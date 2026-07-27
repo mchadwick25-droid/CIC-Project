@@ -20,6 +20,10 @@ aliases:
 quick_meaning: John Cassian's Latin rendering of apatheia for a Western audience, anchored in Matthew
   5:8 — a deliberate substitution, not a literal translation, made because apatheia's Stoic-sounding claim
   had become theologically controversial.
+plain_explanation: 'Purity of heart: John Cassian''s Latin name for the goal the Greeks called apatheia.
+  He chose it on purpose for readers in the West. The Greek word had begun to sound too Stoic, and it
+  drew fire. So Cassian anchored the goal in scripture instead: blessed are the pure in heart. A deliberate
+  substitution, not a slip in translation.'
 modern_hearing: Modern Hearing — a generic devotional phrase, unmoored from any specific technical content.
 distortion_risk: World Hearing — a deliberate, disclosed substitution for apatheia, carrying that term's
   full technical content while avoiding its Stoic-sounding controversy; belongs to this world's reception

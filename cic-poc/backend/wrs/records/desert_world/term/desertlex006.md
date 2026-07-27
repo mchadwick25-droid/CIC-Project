@@ -21,6 +21,12 @@ aliases:
 - geron
 quick_meaning: Honorific address for a spiritually authoritative elder, male (abba) or female (amma),
   whose sayings and example carry teaching authority without formal ecclesiastical office.
+plain_explanation: 'Abba means father; amma means mother; a geron is an elder. These names honored people
+  whose counsel proved true. Such standing was earned, not granted by church office. It proved out in
+  tested discernment. It passed through personal bonds: one elder, one disciple. Outside the Rule-houses,
+  this bond was the whole shape of rule. Mothers are named too - Syncletica, Theodora, Sarah - truly attested,
+  though their record is thin. Today counsel sounds like one input among many. Here, opening one''s thoughts
+  to an elder was needed, and the answer carried weight.'
 world_meaning: 'This vocabulary cluster names the entire authority structure of this world''s more solitary
   and semi-communal ascetics. Authority is earned through recognized discernment, not conferred by office,
   and is transmitted through direct, personal relationship rather than formal instruction. Plural-voices

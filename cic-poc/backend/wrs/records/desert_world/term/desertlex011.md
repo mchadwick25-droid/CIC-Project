@@ -19,6 +19,10 @@ aliases:
 - apatheia
 quick_meaning: Freedom from disordered passion — in Evagrius's systematic scheme, the achieved goal of
   the practical stage of ascetic life.
+plain_explanation: In one branch's teaching, this named the goal of the working stage of the life. It
+  meant freedom from disordered passion. Reaching it opened the way to contemplation. The English look-alike,
+  apathy, turns the meaning upside down. Apathy is not caring. Apatheia is full engagement, with the passions
+  no longer pulling the strings. The two words share letters and nothing else.
 world_meaning: 'The state of freedom from disordered passion; in Evagrius''s systematic scheme, the achieved
   goal of the practical (praktike) stage, preceding contemplation. Strand-C-bound in this technical sense
   (Doc_06 §2.2; Doc_04 gravity 9, Supporting on Persistence grounds). Contested as to historical scope:

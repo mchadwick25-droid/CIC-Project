@@ -21,6 +21,11 @@ aliases:
 - ergocheiron
 quick_meaning: Manual labor — chiefly rope- and basket-weaving — undertaken as both economic necessity
   and deliberate ascetic discipline.
+plain_explanation: 'Work with the hands, mostly weaving rope and baskets. It fed the worker and it formed
+  the worker. The hands stayed busy so the mind stayed free for prayer and battle. The work paid for bread
+  and gave alms to the poor. No entry rests on firmer ground: texts, surviving letters, and excavated
+  dwellings agree. Today labor can sound like a break from higher things. This world held the reverse.
+  The day''s work was itself part of the training, and idleness was the danger.'
 world_meaning: 'This world''s most materially corroborated practice: attested textually, in surviving
   monastic business correspondence, and archaeologically, in excavated settlement infrastructure — three
   independent evidence streams converging, a rare density in this world''s source base. Labor sustained

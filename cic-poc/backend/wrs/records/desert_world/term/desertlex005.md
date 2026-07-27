@@ -20,6 +20,11 @@ aliases:
 - discretion
 quick_meaning: The capacity to judge rightly between competing courses of action, spirits, or thoughts
   — this world's own master virtue.
+plain_explanation: 'Discernment was this world''s master skill. It judged between paths, spirits, and
+  thoughts. How far to withdraw, how hard to fast, whom to obey: discernment decided. It grew under an
+  elder, not alone. Its special target was self-deception. A person''s own judgment is what excess bends
+  first. So the elder''s counsel often reined in a disciple''s hunger for extremes. Today discernment
+  sounds like trusting your gut. This world trusted the trained eye of another instead.'
 world_meaning: This world's ecological hub — the mechanism by which a participant navigates every other
   discipline (how much withdrawal, how much combat, how much labor, which authority to submit to). A recurring
   narrative pattern has an elder redirecting a disciple's request for an extreme practice toward something

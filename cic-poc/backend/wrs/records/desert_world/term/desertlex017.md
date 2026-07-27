@@ -19,6 +19,10 @@ aliases:
 - antirrhesis
 quick_meaning: The specific technique of verbally countering a demonic logismos with a scriptural rebuttal
   at the moment of temptation, systematized by Evagrius in his Antirrhetikos.
+plain_explanation: 'Talking back met temptation with scripture. At the moment a tempting thought struck
+  - the kind this world traced to demons - the person answered it aloud with a fitting verse. One teacher,
+  Evagrius, wrote a handbook of such replies, sorted by the kind of thought. The reply was specific: each
+  kind of thought had its fitting answer.'
 modern_hearing: Modern Hearing — 'talking back to' one's own thoughts may register as a self-help or cognitive-behavioral
   technique.
 distortion_risk: World Hearing — a specific scriptural-combat method, single-author and single-text in

@@ -19,6 +19,9 @@ aliases:
 - compunction
 - penthos
 quick_meaning: Sorrowful, tearful awareness of one's own sin, cultivated as a positive ascetic discipline.
+plain_explanation: 'Sorrow over one''s own sin, wept and welcomed. This world sought such mourning as
+  a good. It was a practice, not a mood that struck. Its work was honesty: grief kept self-judgment true.
+  Today sorrow is mostly treated as a problem to fix. This world trained it and valued it.'
 world_meaning: Cultivated as a positive discipline rather than a state to escape. Attested across strands,
   particularly prominent in the Apophthegmata (Doc_06 §2.4; Doc_03 §1.8).
 modern_hearing: Modern Hearing — grief or depression, something to be resolved or treated.

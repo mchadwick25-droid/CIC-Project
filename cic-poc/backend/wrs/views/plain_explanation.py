@@ -1,29 +1,31 @@
 """S5.4 - Level 2: the on-request plain explanation (Pass 1 SS5.6).
 
-Per-record render of:
-  - period_sense stated plainly (STRUCTURE-ONLY simplification - the
-    constitutional line, RCF V3.2 Part Five: sentence structure only,
-    never vocabulary, never claims),
-  - a plain-language confidence statement (the constitutional five-level
-    formation-confidence vocabulary rendered in ordinary words - the
-    level NAME is kept verbatim so the constitutional vocabulary is
-    stated, then said plainly),
-  - conceptual_distance_note wherever a then-vs-now gap exists,
-machine-checked at render time against the reading floor that lives in
-wrs/parameters.yaml (reading_floor: FK band 8-10, FRE >= 60 - both
-governing documents point at that file, SS5.6).
+CO-P2-12 (Mark, 2026-07-27, resolving FLAG-011): Level 2's content
+source is the AUTHORED `plain_explanation` field - the record's meaning
+and its then-vs-now gap written in plain language TO the reading floor,
+rendered VERBATIM here (the machine check verifies the authoring, it
+never manufactures plainness). The floor lives in wrs/parameters.yaml
+(reading_floor: FK band 8-10, FRE >= 60) and is computed at render time
+on every render, always.
 
-Structure-only transformations, enumerated (nothing else is legal here):
-  1. citation-apparatus parentheticals stripped: any "(...)" whose content
-     is build-document apparatus (Doc_NN, SS-references, CO/FLAG ids) -
-     apparatus belongs to Level 3, not Level 2;
-  2. sentence splits at "; " and " -- " (em-dash) boundaries: each clause
-     becomes its own sentence, capitalized, period-terminated.
-Vocabulary and claims pass through verbatim. No word is ever replaced,
-added, or dropped except the apparatus class in (1); the confidence
-statement is the one deliberately NEW text (its five-level term is
-quoted verbatim, then said plainly - it renders the record's confidence
-field, it does not restate the meaning).
+Render composition per term:
+  - the authored plain_explanation, verbatim (meaning + then-vs-now gap
+    - the gap content SS5.6 assigns to Level 2 is folded into the
+    authored text; the scholarly conceptual_distance_note itself stays
+    a Level 3 field);
+  - a plain-language confidence statement (the constitutional five-level
+    formation-confidence vocabulary: level NAME quoted verbatim, then
+    said plainly).
+
+Fallback (records not yet carrying the authored field - none in Desert
+today; future mid-authoring worlds): the FLAG-011-era structure-only
+simplification of period_sense, kept so the view never silently invents
+content. Its transformations, still the only legal ones on that path:
+  1. citation-apparatus parentheticals stripped (Doc_NN/SS/CO/FLAG
+     patterns - apparatus belongs to Level 3);
+  2. sentence splits at "; " and " -- " (em-dash) boundaries.
+On the fallback path vocabulary and claims pass through verbatim; a
+record with no period_sense either says so honestly (FLAG-012).
 
 Same content for every participant; registers never gate access
 (Article 30, per SS5.6).
@@ -130,12 +132,13 @@ def render_plain_explanation(term: dict) -> dict:
     name = _plain_name(term.get("term", ""))
     sections: list[tuple[str, str]] = []
 
-    # -- the meaning, stated plainly (period_sense, structure-simplified).
-    # FLAG-012: a record with no period_sense says so honestly - never a
-    # silent substitution of quick_meaning (different field, different job;
-    # silent swapping is the drift class SS3.9 abolishes).
+    # -- the meaning: the authored plain_explanation, verbatim (CO-P2-12).
+    authored = (term.get("plain_explanation") or "").strip()
     period_sense = term.get("period_sense", "") or ""
-    if period_sense.strip():
+    if authored:
+        sections.append(("What it meant in this world", authored))
+    elif period_sense.strip():
+        # fallback: FLAG-011-era structure-only simplification
         meaning = " ".join(_sentences(period_sense))
         sections.append(("What it meant in this world", meaning))
     else:
@@ -157,9 +160,11 @@ def render_plain_explanation(term: dict) -> dict:
             else f"How sure is this? The record's level is \"{level}\"."
         sections.append(("How sure is this", statement))
 
-    # -- then-vs-now, wherever a gap exists --
+    # -- then-vs-now, wherever a gap exists (fallback path only: the
+    # authored text carries the gap itself per CO-P2-12; the scholarly
+    # note stays Level 3) --
     note = term.get("conceptual_distance_note", "").strip()
-    if note:
+    if note and not authored:
         gap = " ".join(_sentences(note))
         sections.append(("Then vs. now", gap))
 

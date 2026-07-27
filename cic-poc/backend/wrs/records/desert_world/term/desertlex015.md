@@ -19,6 +19,10 @@ aliases:
 - synaxis
 quick_meaning: The weekly communal gathering for vigil, liturgy, and a shared meal, central to Strand
   C's semi-anchoritic settlements.
+plain_explanation: The weekly gathering of the cell-dwellers. One vigil, one liturgy, one shared meal.
+  For the rest of the week, each lived alone. This single seam held the scattered settlement together
+  and set its clock. A modern service is one meeting inside a social week. The synaxis was the only meeting
+  inside a solitary one. Its weight came from its rarity.
 world_meaning: The weekly (Saturday-to-Sunday) communal gathering for vigil, liturgy, and a shared meal,
   structurally central to Strand C specifically. Strand B has functionally comparable daily communal liturgy
   but on a different, Rule-governed rhythm, not under this name (Doc_06 §2.6; Doc_03 §1.13; Doc_05 §5).

@@ -148,6 +148,7 @@
         "aliases": {"type": "array", "items": {"type": "string"}},
         "original_script": {"type": "string"},
         "period_sense": {"type": "string", "$comment": "Level 1 draws on period_sense only"},
+        "plain_explanation": {"type": "string", "$comment": "Level 2's AUTHORED content source (CO-P2-12 resolving FLAG-011): the record's meaning and its then-vs-now gap stated in plain language, written to the reading floor (parameters.yaml reading_floor) and machine-checked at the S5.4 gate; renders verbatim - never generated from the scholarly fields"},
         "prior_sense": {"type": "string", "$comment": "'none-attested' is an answer, not a blank (SS11-A)"},
         "modern_sense": {"type": "string"},
         "conceptual_distance_note": {"type": "string"},

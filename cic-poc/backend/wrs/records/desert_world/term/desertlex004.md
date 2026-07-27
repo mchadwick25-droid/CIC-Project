@@ -20,6 +20,11 @@ aliases:
 - intrusive thoughts
 quick_meaning: The intrusive thoughts or temptations understood as the primary interior battlefield of
   ascetic struggle.
+plain_explanation: The thoughts were the real battlefield. Intruding thoughts and pulls came to everyone.
+  What mattered was how a person met them. They were weighed, judged, and told to an elder. They were
+  not fought alone in silence. One teacher, Evagrius, sorted them into eight kinds. That list was his
+  own work, not the whole world's speech. Today such thoughts sound like private symptoms. This world
+  treated them as moral and shared, never merely medical.
 world_meaning: 'In its general, cross-strand sense, *logismoi* names the lived experience of unwanted,
   intrusive thought as the site of spiritual combat, attested broadly across this world''s sources. Plural-voices
   flag: the specific eight-fold systematized taxonomy (gluttony, lust, avarice, sadness, anger, listlessness/despondency,

@@ -18,6 +18,11 @@ aliases:
 - saying
 - apophthegma
 quick_meaning: The terse, memorable saying that is this world's primary vehicle of teaching.
+plain_explanation: A short, sharp saying was this world's main way of teaching. An elder gave it to one
+  person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and
+  turned over during long hours of work. The famous collections came later, made by editors after this
+  world's own time. Today the sayings read like general wisdom for anyone. Each one was actually aimed
+  counsel for a single case. The book form hides the aim.
 world_meaning: This world produced almost no sustained theological treatise outside one notably systematic
   teacher; teaching that could not be reduced to a portable saying largely does not survive in this world's
   own idiom. The form's brevity is itself a formation technique — something turned over in the mind during

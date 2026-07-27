@@ -19,6 +19,11 @@ aliases:
 - anachoresis
 quick_meaning: The act of departing settled village or civic life for marginal or remote land, undertaken
   as the ascetic project itself, not a change of address.
+plain_explanation: Withdrawal was the heart of this world. A person left the village and moved to empty
+  land. The leaving itself was the training, not a step before it. Distance, being alone, and facing one's
+  own inner struggle formed the person. Most went further in stages, not all at once. Today the word sounds
+  like avoidance or escape. This world heard the opposite. Leaving forced a person to face what village
+  life let them avoid. It took the place of the older total offering, dying for the faith.
 world_meaning: 'This world''s defining act. Not preparation for formation but formation itself — distance,
   solitude, and exposure to interior struggle are the curriculum. Antony''s own career supplies the paradigmatic
   instance: a progressive deepening from village to outer mountain to inner mountain, not one decisive

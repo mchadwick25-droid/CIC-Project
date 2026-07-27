@@ -3099,6 +3099,7 @@
             "anachoresis"
           ],
           "quick_meaning": "The act of departing settled village or civic life for marginal or remote land, undertaken as the ascetic project itself, not a change of address.",
+          "plain_explanation": "Withdrawal was the heart of this world. A person left the village and moved to empty land. The leaving itself was the training, not a step before it. Distance, being alone, and facing one's own inner struggle formed the person. Most went further in stages, not all at once. Today the word sounds like avoidance or escape. This world heard the opposite. Leaving forced a person to face what village life let them avoid. It took the place of the older total offering, dying for the faith.",
           "world_meaning": "This world's defining act. Not preparation for formation but formation itself — distance, solitude, and exposure to interior struggle are the curriculum. Antony's own career supplies the paradigmatic instance: a progressive deepening from village to outer mountain to inner mountain, not one decisive departure. All three organizational patterns of this world (solitary, communal, semi-communal) instantiate withdrawal differently, but withdrawal itself organizes all three.",
           "distortion_risk": "World Hearing — the most demanding, not the most passive, form of engagement: a direct, sustained confrontation with interior reality that ordinary settled life allowed a person to avoid, replacing the total self-offering martyrdom had previously supplied.",
           "retrieval": {
@@ -3172,25 +3173,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The defining act of this world: departure from settled village life into marginal or remote land, undertaken as formation itself. Distance, solitude, and exposure to interior struggle are the curriculum, deepened in stages (village, outer mountain, inner mountain) rather than made once."
+            "text": "Withdrawal was the heart of this world. A person left the village and moved to empty land. The leaving itself was the training, not a step before it. Distance, being alone, and facing one's own inner struggle formed the person. Most went further in stages, not all at once. Today the word sounds like avoidance or escape. This world heard the opposite. Leaving forced a person to face what village life let them avoid. It took the place of the older total offering, dying for the faith."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "The modern ear inverts the term's direction: what sounds like avoidance was this world's most demanding form of engagement. Confrontation with what settled life allowed one to avoid, replacing martyrdom's total self-offering. Sharp then-vs-now gap: high grounding criterion by rule."
           }
         ],
         "readability": {
-          "fk_grade": 10.63,
-          "fre": 45.33,
-          "violations": [
-            "FK grade 10.6 > 10.0",
-            "FRE 45.3 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 4.73,
+          "fre": 78.8,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3246,6 +3240,7 @@
             "apotage"
           ],
           "quick_meaning": "Formal renunciation of property, family ties, and worldly status marking entry into ascetic life.",
+          "plain_explanation": "To enter this life, a person gave things up in a formal way. Property, family ties, and standing were all laid down. In the Rule-based houses this was strict: no one kept private property. Hermits and cell-dwellers did it less formally. The word still lives in church talk today. But this world did not mean a one-time act. The giving-up was renewed in daily labor, humility, and obedience. Attachment was not allowed to quietly return.",
           "world_meaning": "Shared Christian vocabulary carrying distinctive weight here as a discrete, sometimes formalized entry act. The communal-rule strand codifies it most explicitly — its Rule specifies renunciation of personal property as a condition of membership — while more solitary and semi-communal ascetics practice it without comparable codification, as an assumed but less formally marked threshold.",
           "distortion_risk": "World Hearing — an ongoing discipline, continually re-enacted through labor, humility, and obedience, not a one-time transaction after which ordinary attachment quietly resumes.",
           "retrieval": {
@@ -3310,25 +3305,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The formal renunciation of property, family ties, and status that marks entry into ascetic life. Most codified in Strand B, where the Pachomian Rule makes surrender of personal property a condition of koinōnia membership. Practiced less formally in Strands A and C."
+            "text": "To enter this life, a person gave things up in a formal way. Property, family ties, and standing were all laid down. In the Rule-based houses this was strict: no one kept private property. Hermits and cell-dwellers did it less formally. The word still lives in church talk today. But this world did not mean a one-time act. The giving-up was renewed in daily labor, humility, and obedience. Attachment was not allowed to quietly return."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Moderate gap: the word survives in religious usage, but the world's sense is an inaugurated, continually re-enacted discipline (labor, humility, obedience), not a one-time transaction after which attachment quietly resumes."
           }
         ],
         "readability": {
-          "fk_grade": 12.11,
-          "fre": 36.13,
-          "violations": [
-            "FK grade 12.1 > 10.0",
-            "FRE 36.1 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.47,
+          "fre": 73.14,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3388,6 +3376,7 @@
             "quietude"
           ],
           "quick_meaning": "Interior and exterior stillness, cultivated as both precondition and fruit of ascetic discipline.",
+          "plain_explanation": "Stillness of place and stillness of heart. A person sought quiet outside to seek quiet within. Stillness was both the door to the work and its fruit. It came easier alone than in the busy Rule-houses. This world never made a method of it. Today stillness sounds like calm or stress relief. This world's stillness did the opposite work. It let a person finally see their own inner storm. Later ages built systems on it; this age had none.",
           "world_meaning": "Structurally easier to achieve in solitary settings than in communal, labor-and-liturgy-structured ones — a genuine point of internal texture, not a uniform experience. This world's own usage should not be conflated with the much later, fully systematized Byzantine hesychast tradition's technical apparatus (the Jesus Prayer, psychosomatic prayer technique).",
           "distortion_risk": "World Hearing — a demanding discipline pursued specifically to expose, not soothe, interior disturbance; the opposite of stress relief, and comparatively unsystematized relative to its later namesake tradition.",
           "retrieval": {
@@ -3461,25 +3450,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Interior and exterior stillness cultivated as both precondition and fruit of ascetic discipline. Structurally easier in solitary settings than in the koinōnia's labor-and-liturgy rhythm, and deliberately unsystematized in this world's own window."
+            "text": "Stillness of place and stillness of heart. A person sought quiet outside to seek quiet within. Stillness was both the door to the work and its fruit. It came easier alone than in the busy Rule-houses. This world never made a method of it. Today stillness sounds like calm or stress relief. This world's stillness did the opposite work. It let a person finally see their own inner storm. Later ages built systems on it; this age had none."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Sharp gap in purpose: this stillness exposes interior disturbance rather than soothing it. The opposite of stress relief. And the method-heavy later tradition must not be read back into it. High grounding criterion by rule (anachronism-guard rides this term's own retrieval block)."
           }
         ],
         "readability": {
-          "fk_grade": 10.85,
-          "fre": 38.67,
-          "violations": [
-            "FK grade 10.8 > 10.0",
-            "FRE 38.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 4.35,
+          "fre": 80.25,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3541,6 +3523,7 @@
             "intrusive thoughts"
           ],
           "quick_meaning": "The intrusive thoughts or temptations understood as the primary interior battlefield of ascetic struggle.",
+          "plain_explanation": "The thoughts were the real battlefield. Intruding thoughts and pulls came to everyone. What mattered was how a person met them. They were weighed, judged, and told to an elder. They were not fought alone in silence. One teacher, Evagrius, sorted them into eight kinds. That list was his own work, not the whole world's speech. Today such thoughts sound like private symptoms. This world treated them as moral and shared, never merely medical.",
           "world_meaning": "In its general, cross-strand sense, *logismoi* names the lived experience of unwanted, intrusive thought as the site of spiritual combat, attested broadly across this world's sources. Plural-voices flag: the specific eight-fold systematized taxonomy (gluttony, lust, avarice, sadness, anger, listlessness/despondency, vainglory, pride) is one particular teacher's own achievement, concentrated among the more intellectually systematic ascetics and not attested with comparable precision elsewhere in this world. This entry documents both registers explicitly rather than treating the systematized form as this world's general vocabulary.",
           "distortion_risk": "World Hearing — thoughts treated as morally and spiritually significant regardless of ultimate metaphysical status, requiring active discernment and disclosure to an elder — a relational, not merely private, practice.",
           "retrieval": {
@@ -3613,25 +3596,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The intrusive thoughts experienced as the primary interior battlefield. Morally and spiritually significant regardless of metaphysical status, met by discernment and disclosure to an elder rather than private suppression. Two registers held apart: the general cross-strand experience, and Evagrius's eight-fold systematized taxonomy, which is one teacher's Strand-C achievement, not the world's common vocabulary."
+            "text": "The thoughts were the real battlefield. Intruding thoughts and pulls came to everyone. What mattered was how a person met them. They were weighed, judged, and told to an elder. They were not fought alone in silence. One teacher, Evagrius, sorted them into eight kinds. That list was his own work, not the whole world's speech. Today such thoughts sound like private symptoms. This world treated them as moral and shared, never merely medical."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Sharp gap: the world treats thought as a relational, morally significant battleground (disclosed to an elder), not private symptomatology. And the systematized eight are one voice, not the whole world. A plural-voices hazard on top of the modern-clinical one. High grounding criterion by rule."
           }
         ],
         "readability": {
-          "fk_grade": 11.28,
-          "fre": 37.72,
-          "violations": [
-            "FK grade 11.3 > 10.0",
-            "FRE 37.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 3.79,
+          "fre": 83.41,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3688,6 +3664,7 @@
             "discretion"
           ],
           "quick_meaning": "The capacity to judge rightly between competing courses of action, spirits, or thoughts — this world's own master virtue.",
+          "plain_explanation": "Discernment was this world's master skill. It judged between paths, spirits, and thoughts. How far to withdraw, how hard to fast, whom to obey: discernment decided. It grew under an elder, not alone. Its special target was self-deception. A person's own judgment is what excess bends first. So the elder's counsel often reined in a disciple's hunger for extremes. Today discernment sounds like trusting your gut. This world trusted the trained eye of another instead.",
           "world_meaning": "This world's ecological hub — the mechanism by which a participant navigates every other discipline (how much withdrawal, how much combat, how much labor, which authority to submit to). A recurring narrative pattern has an elder redirecting a disciple's request for an extreme practice toward something more moderate — not minimizing asceticism, but insisting its intensity be discerned rather than imitated wholesale.",
           "distortion_risk": "World Hearing — a skill developed relationally, under an elder's counsel, specifically oriented against self-deception (the recognition that one's own judgment is exactly what ascetic excess or vainglory can distort) — not a private feeling to be trusted uncritically.",
           "retrieval": {
@@ -3767,25 +3744,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The capacity to judge rightly between courses, spirits, and thoughts. This world's master virtue and ecological hub: the mechanism by which a participant navigates every other discipline (how much withdrawal, how much combat, which authority to obey). Characteristically exercised as an elder's moderating counsel against a disciple's appetite for extremes."
+            "text": "Discernment was this world's master skill. It judged between paths, spirits, and thoughts. How far to withdraw, how hard to fast, whom to obey: discernment decided. It grew under an elder, not alone. Its special target was self-deception. A person's own judgment is what excess bends first. So the elder's counsel often reined in a disciple's hunger for extremes. Today discernment sounds like trusting your gut. This world trusted the trained eye of another instead."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Sharp inversion: the world's discernment is developed relationally under an elder and aimed specifically against self-deception. One's own judgment is exactly what excess and vainglory distort. Not a private feeling to be trusted. High grounding criterion by rule."
           }
         ],
         "readability": {
-          "fk_grade": 11.06,
-          "fre": 37.53,
-          "violations": [
-            "FK grade 11.1 > 10.0",
-            "FRE 37.5 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.37,
+          "fre": 72.29,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3846,6 +3816,7 @@
             "geron"
           ],
           "quick_meaning": "Honorific address for a spiritually authoritative elder, male (abba) or female (amma), whose sayings and example carry teaching authority without formal ecclesiastical office.",
+          "plain_explanation": "Abba means father; amma means mother; a geron is an elder. These names honored people whose counsel proved true. Such standing was earned, not granted by church office. It proved out in tested discernment. It passed through personal bonds: one elder, one disciple. Outside the Rule-houses, this bond was the whole shape of rule. Mothers are named too - Syncletica, Theodora, Sarah - truly attested, though their record is thin. Today counsel sounds like one input among many. Here, opening one's thoughts to an elder was needed, and the answer carried weight.",
           "world_meaning": "This vocabulary cluster names the entire authority structure of this world's more solitary and semi-communal ascetics. Authority is earned through recognized discernment, not conferred by office, and is transmitted through direct, personal relationship rather than formal instruction. Plural-voices flag: the ammas' own share of surviving material is thin relative to the male-authored and male-centered bulk of the tradition — named ammas are genuinely attested, not merely inferred, but this entry does not overstate the evidential balance.",
           "distortion_risk": "World Hearing — a relationship carrying real, if informal, authority: a disciple's disclosure of interior thoughts to an elder was itself considered spiritually necessary, not merely helpful, and the elder's counsel was not one input among many but authoritative guidance.",
           "retrieval": {
@@ -3914,25 +3885,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The honorific for a spiritually authoritative elder. Abba or amma. Whose authority is earned through recognized discernment rather than conferred by office, and transmitted through direct personal relationship. Names the entire authority structure of Strands A and C. The named ammas (Syncletica, Theodora, Sarah) are genuinely attested, with their material's thinness stated rather than padded."
+            "text": "Abba means father; amma means mother; a geron is an elder. These names honored people whose counsel proved true. Such standing was earned, not granted by church office. It proved out in tested discernment. It passed through personal bonds: one elder, one disciple. Outside the Rule-houses, this bond was the whole shape of rule. Mothers are named too - Syncletica, Theodora, Sarah - truly attested, though their record is thin. Today counsel sounds like one input among many. Here, opening one's thoughts to an elder was needed, and the answer carried weight."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Real gap on authority: disclosure to an elder was spiritually necessary, not merely helpful, and counsel was authoritative guidance, not one input among many. Plural-voices hazard on the ammas' thin share of the record rides this term."
           }
         ],
         "readability": {
-          "fk_grade": 11.19,
-          "fre": 37.39,
-          "violations": [
-            "FK grade 11.2 > 10.0",
-            "FRE 37.4 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 6.08,
+          "fre": 69.6,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -3993,6 +3957,7 @@
             "ergocheiron"
           ],
           "quick_meaning": "Manual labor — chiefly rope- and basket-weaving — undertaken as both economic necessity and deliberate ascetic discipline.",
+          "plain_explanation": "Work with the hands, mostly weaving rope and baskets. It fed the worker and it formed the worker. The hands stayed busy so the mind stayed free for prayer and battle. The work paid for bread and gave alms to the poor. No entry rests on firmer ground: texts, surviving letters, and excavated dwellings agree. Today labor can sound like a break from higher things. This world held the reverse. The day's work was itself part of the training, and idleness was the danger.",
           "world_meaning": "This world's most materially corroborated practice: attested textually, in surviving monastic business correspondence, and archaeologically, in excavated settlement infrastructure — three independent evidence streams converging, a rare density in this world's source base. Labor sustained ascetics materially, funded almsgiving beyond the settlement, and was understood as ascetic discipline against idleness in its own right, not merely as a means to those ends.",
           "distortion_risk": "World Hearing — spiritually formative in itself: occupying the hands and structuring the day precisely so the mind remained available for prayer and combat with intrusive thoughts, not a distraction from those higher pursuits.",
           "retrieval": {
@@ -4056,25 +4021,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Manual labor. Chiefly rope- and basket-weaving. As economic necessity and deliberate discipline at once: occupying the hands and structuring the day so the mind stays available for prayer and combat. The lexicon's most materially corroborated entry: textual, papyrological (Nepheros), and archaeological (Kellia) streams converge."
+            "text": "Work with the hands, mostly weaving rope and baskets. It fed the worker and it formed the worker. The hands stayed busy so the mind stayed free for prayer and battle. The work paid for bread and gave alms to the poor. No entry rests on firmer ground: texts, surviving letters, and excavated dwellings agree. Today labor can sound like a break from higher things. This world held the reverse. The day's work was itself part of the training, and idleness was the danger."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Documented\": the sources from that time state this directly."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Moderate gap: the world holds labor as formative in itself. Against idleness, for almsgiving, and as the rhythm that frees the mind. Not a distraction from higher pursuits."
           }
         ],
         "readability": {
-          "fk_grade": 10.49,
-          "fre": 39.65,
-          "violations": [
-            "FK grade 10.5 > 10.0",
-            "FRE 39.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 4.12,
+          "fre": 83.5,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -4130,6 +4088,7 @@
             "apophthegma"
           ],
           "quick_meaning": "The terse, memorable saying that is this world's primary vehicle of teaching.",
+          "plain_explanation": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim.",
           "world_meaning": "This world produced almost no sustained theological treatise outside one notably systematic teacher; teaching that could not be reduced to a portable saying largely does not survive in this world's own idiom. The form's brevity is itself a formation technique — something turned over in the mind during solitary labor — not merely a container for content.",
           "distortion_risk": "World Hearing — each saying was originally occasion-bound, given by a specific elder to a specific disciple's specific situation; its later collection into a general-purpose anthology by unnamed compilers is a distinct editorial layer, not a transparent window onto original context.",
           "retrieval": {
@@ -4179,25 +4138,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The terse, memorable, occasion-bound saying. Given by a specific elder to a specific disciple's situation. That is this world's primary teaching vehicle. Its brevity is itself a formation technique, turned over in the mind during solitary labor. The collected form postdates the world's own boundary and is a distinct editorial layer."
+            "text": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Moderate-to-sharp gap: each saying was occasion-bound counsel, and the anthology that makes it feel general-purpose is later compilers' work, not a transparent window."
           }
         ],
         "readability": {
-          "fk_grade": 10.23,
-          "fre": 43.08,
-          "violations": [
-            "FK grade 10.2 > 10.0",
-            "FRE 43.1 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 4.81,
+          "fre": 78.93,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -4254,6 +4206,7 @@
             "the federation"
           ],
           "quick_meaning": "The founder Pachomius's own name for his federated network of monasteries under a single Rule and spiritual authority.",
+          "plain_explanation": "Koinonia was Pachomius's own name for his network of houses. One written Rule and one authority governed them all. Property was shared. Offices like housemaster and steward ordered daily life. By his death there were nine men's houses and two for women. This pattern belonged to his branch alone; hermits and cell-dwellers had nothing like it. Today it can look like the elder's way, just written down. Those inside knew it as a different kind of authority: a way to form many people at once, not one.",
           "world_meaning": "A New Testament term for fellowship, adopted as a technical proper name for a specific institutional innovation: multiple houses under common property, formal offices (housemaster, steward), and a written Rule. Plural-voices flag: this is the clearest strand-bound term in this world's whole vocabulary — this world's more solitary and semi-communal ascetics have no equivalent institutional referent.",
           "distortion_risk": "World Hearing — a genuine institutional innovation solving a specific problem: how total ascetic formation scales beyond one extraordinary individual's own solitary path. Experienced by participants as a different kind of authority than the elder-model, not a formalized version of the same thing.",
           "retrieval": {
@@ -4313,25 +4266,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Pachomius's own proper name for his federated network of monasteries under one written Rule and spiritual authority. Common property, formal offices (housemaster, steward), nine men's and two women's houses by his death. Strand B's institution specifically, with no Strand A/C equivalent. The clearest strand-bound term in the lexicon."
+            "text": "Koinonia was Pachomius's own name for his network of houses. One written Rule and one authority governed them all. Property was shared. Offices like housemaster and steward ordered daily life. By his death there were nine men's houses and two for women. This pattern belonged to his branch alone; hermits and cell-dwellers had nothing like it. Today it can look like the elder's way, just written down. Those inside knew it as a different kind of authority: a way to form many people at once, not one."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Real gap: participants experienced the koinōnia as a different KIND of authority than the elder-model. An institutional innovation solving how total formation scales beyond one extraordinary solitary. Not a formalized version of the same thing. Plural-voices hazard: strand-bound, must not be voiced as the whole world's pattern."
           }
         ],
         "readability": {
-          "fk_grade": 10.25,
-          "fre": 42.39,
-          "violations": [
-            "FK grade 10.3 > 10.0",
-            "FRE 42.4 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.55,
+          "fre": 74.69,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -4387,6 +4333,7 @@
             "xeniteia"
           ],
           "quick_meaning": "Self-imposed estrangement from homeland, kin, and familiar social bonds, pursued as a distinct ascetic discipline.",
+          "plain_explanation": "A person cut themselves off from homeland and kin on purpose. This was its own discipline, beyond leaving the village. Withdrawal put distance on the map; this put distance in the bonds. Today the word sounds like travel or living abroad. The world meant severed ties, not movement. The discipline aimed at belonging, not at place.",
           "world_meaning": "Treated as a discipline in its own right, not merely a consequence of withdrawal. Most strongly attested in Strand A/C material (the Apophthegmata); less prominent, though not absent, in Strand B's more settled communal framing (Doc_06 §2.1; Doc_03 §1.3).",
           "modern_hearing": "Modern Hearing — travel, tourism, or relocation.",
           "distortion_risk": "World Hearing — a deliberate severing of the relational bonds that make a person recognizable to themselves: estrangement as discipline, not displacement.",
@@ -4434,24 +4381,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "A distinct ascetic discipline: self-imposed estrangement from homeland and kin, intensifying withdrawal by targeting social rather than geographic attachment."
+            "text": "A person cut themselves off from homeland and kin on purpose. This was its own discipline, beyond leaving the village. Withdrawal put distance on the map; this put distance in the bonds. Today the word sounds like travel or living abroad. The world meant severed ties, not movement. The discipline aimed at belonging, not at place."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "The modern ear hears movement between places. The world meant severed bonds. The discipline is relational, not geographic."
           }
         ],
         "readability": {
-          "fk_grade": 9.65,
-          "fre": 43.43,
-          "violations": [
-            "FRE 43.4 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.0,
+          "fre": 76.55,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -4508,6 +4449,7 @@
             "apatheia"
           ],
           "quick_meaning": "Freedom from disordered passion — in Evagrius's systematic scheme, the achieved goal of the practical stage of ascetic life.",
+          "plain_explanation": "In one branch's teaching, this named the goal of the working stage of the life. It meant freedom from disordered passion. Reaching it opened the way to contemplation. The English look-alike, apathy, turns the meaning upside down. Apathy is not caring. Apatheia is full engagement, with the passions no longer pulling the strings. The two words share letters and nothing else.",
           "world_meaning": "The state of freedom from disordered passion; in Evagrius's systematic scheme, the achieved goal of the practical (praktike) stage, preceding contemplation. Strand-C-bound in this technical sense (Doc_06 §2.2; Doc_04 gravity 9, Supporting on Persistence grounds). Contested as to historical scope: whether Antony himself possessed the philosophical literacy this term's Origenist-influenced register presupposes (Rubenson vs. Gould, Doc_01 §10; Doc_06 §2.2's corrected [CT] note) — a dispute about one figure's formation, not about whether the vocabulary belongs to this world. Held as live, not settled.",
           "modern_hearing": "Modern Hearing — near-certain false-cognate collapse into 'apathy': indifference, not caring.",
           "distortion_risk": "World Hearing — the opposite of indifference: the hard-won capacity to engage fully without being controlled by disordered reaction, achieved only through sustained combat against the logismoi, not a starting disposition.",
@@ -4578,24 +4520,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "In this world's Strand-C systematization: the achieved goal of the practical stage of ascetic life, preceding theōria."
+            "text": "In one branch's teaching, this named the goal of the working stage of the life. It meant freedom from disordered passion. Reaching it opened the way to contemplation. The English look-alike, apathy, turns the meaning upside down. Apathy is not caring. Apatheia is full engagement, with the passions no longer pulling the strings. The two words share letters and nothing else."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "A false cognate inverts the meaning entirely: apathy names disengagement. Apatheia names full engagement freed from disordered reaction. Sharp then-vs-now gap: high grounding criterion by rule."
           }
         ],
         "readability": {
-          "fk_grade": 8.6,
-          "fre": 52.67,
-          "violations": [
-            "FRE 52.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.49,
+          "fre": 72.1,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -4650,6 +4586,7 @@
             "theoria"
           ],
           "quick_meaning": "The contemplative stage of Evagrius's systematic scheme, reached only after apatheia.",
+          "plain_explanation": "The last stage of one branch's mapped path of formation. It came only after the working stage and passionlessness. It named disciplined seeing: perception earned by years of practice. The modern cousin, theory, points the other way, toward thinking at a distance from things. This world's theoria was the fruit of hands-on discipline, not detachment.",
           "world_meaning": "In Evagrius's systematic scheme, the stage following praktike and apatheia — subdivided into natural contemplation and, at the highest stage, contemplation of God. Strand-C-bound, single-author-concentrated (Doc_06 §2.3; Doc_03 §1.7; Doc_04 §3).",
           "modern_hearing": "Modern Hearing — 'theory' as abstract intellectual speculation.",
           "distortion_risk": "World Hearing — a lived, disciplined mode of perception achieved only after apatheia, not a detached cognitive exercise.",
@@ -4697,20 +4634,16 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The terminal stage of Strand C's systematized formation sequence, after the practical stage and apatheia."
+            "text": "The last stage of one branch's mapped path of formation. It came only after the working stage and passionlessness. It named disciplined seeing: perception earned by years of practice. The modern cousin, theory, points the other way, toward thinking at a distance from things. This world's theoria was the fruit of hands-on discipline, not detachment."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "The shared root points opposite ways: modern theory is detached thinking. This world's theōria is disciplined perception earned by practice. Sharp gap: high grounding criterion."
           }
         ],
         "readability": {
-          "fk_grade": 7.09,
-          "fre": 62.62,
+          "fk_grade": 6.32,
+          "fre": 69.32,
           "violations": [],
           "ok": true
         }
@@ -4768,6 +4701,7 @@
             "penthos"
           ],
           "quick_meaning": "Sorrowful, tearful awareness of one's own sin, cultivated as a positive ascetic discipline.",
+          "plain_explanation": "Sorrow over one's own sin, wept and welcomed. This world sought such mourning as a good. It was a practice, not a mood that struck. Its work was honesty: grief kept self-judgment true. Today sorrow is mostly treated as a problem to fix. This world trained it and valued it.",
           "world_meaning": "Cultivated as a positive discipline rather than a state to escape. Attested across strands, particularly prominent in the Apophthegmata (Doc_06 §2.4; Doc_03 §1.8).",
           "modern_hearing": "Modern Hearing — grief or depression, something to be resolved or treated.",
           "distortion_risk": "World Hearing — a deliberately cultivated, spiritually productive disposition, sought rather than merely endured.",
@@ -4815,20 +4749,16 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Sorrow over one's own condition as a cultivated good. A discipline sought, not a state suffered."
+            "text": "Sorrow over one's own sin, wept and welcomed. This world sought such mourning as a good. It was a practice, not a mood that struck. Its work was honesty: grief kept self-judgment true. Today sorrow is mostly treated as a problem to fix. This world trained it and valued it."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "The modern frame treats sorrow as a problem. This world cultivated it as a discipline that keeps self-assessment honest. Sharp gap: high grounding criterion."
           }
         ],
         "readability": {
-          "fk_grade": 6.33,
-          "fre": 65.49,
+          "fk_grade": 3.82,
+          "fre": 83.73,
           "violations": [],
           "ok": true
         }
@@ -4885,6 +4815,7 @@
             "vigilance"
           ],
           "quick_meaning": "Vigilant attentiveness to one's own interior movements — the ongoing act of watching that discernment draws on.",
+          "plain_explanation": "Watchfulness: keeping an eye on one's own inner movements. It was the standing guard duty of the heart. Its harvest fed discernment, which judged what the watcher caught. Modern mindfulness watches without taking sides. This watching was combat. It aimed to catch specific thoughts early, before they took hold.",
           "world_meaning": "Closely related to diakrisis but denoting the ongoing act of watching rather than the resulting judgment. Cross-strand in root (1 Peter 5:8) but most systematically developed in Strand C. Not to be conflated with the later, fully systematized neptic/Philokalic tradition (Doc_06 §2.5; Doc_03 §1.10).",
           "modern_hearing": "Modern Hearing — generalized 'mindfulness.'",
           "distortion_risk": "World Hearing — specifically oriented toward detecting the logismoi at their earliest, most manageable stage, before they take hold.",
@@ -4935,24 +4866,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The ongoing act of interior watching that supplies discernment its raw material."
+            "text": "Watchfulness: keeping an eye on one's own inner movements. It was the standing guard duty of the heart. Its harvest fed discernment, which judged what the watcher caught. Modern mindfulness watches without taking sides. This watching was combat. It aimed to catch specific thoughts early, before they took hold."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "Mindfulness observes without agenda. This world's watching is combat-oriented. Aimed at catching specific thoughts early. Sharp gap: high grounding criterion."
           }
         ],
         "readability": {
-          "fk_grade": 8.4,
-          "fre": 48.61,
-          "violations": [
-            "FRE 48.6 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.16,
+          "fre": 73.91,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -5009,6 +4934,7 @@
             "synaxis"
           ],
           "quick_meaning": "The weekly communal gathering for vigil, liturgy, and a shared meal, central to Strand C's semi-anchoritic settlements.",
+          "plain_explanation": "The weekly gathering of the cell-dwellers. One vigil, one liturgy, one shared meal. For the rest of the week, each lived alone. This single seam held the scattered settlement together and set its clock. A modern service is one meeting inside a social week. The synaxis was the only meeting inside a solitary one. Its weight came from its rarity.",
           "world_meaning": "The weekly (Saturday-to-Sunday) communal gathering for vigil, liturgy, and a shared meal, structurally central to Strand C specifically. Strand B has functionally comparable daily communal liturgy but on a different, Rule-governed rhythm, not under this name (Doc_06 §2.6; Doc_03 §1.13; Doc_05 §5).",
           "modern_hearing": "Modern Hearing — a generic 'church service.'",
           "distortion_risk": "World Hearing — the one weekly point at which an otherwise solitary week became visibly communal; its rarity, not its content, is what gave it structural weight.",
@@ -5062,24 +4988,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The one structurally regular point at which Strand C's otherwise solitary weekly rhythm became communal. Organizing belonging and liturgical time for that strand."
+            "text": "The weekly gathering of the cell-dwellers. One vigil, one liturgy, one shared meal. For the rest of the week, each lived alone. This single seam held the scattered settlement together and set its clock. A modern service is one meeting inside a social week. The synaxis was the only meeting inside a solitary one. Its weight came from its rarity."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "A modern service is one meeting in a social week. The synaxis was the single communal seam in a solitary one. Its weight came from its rarity."
           }
         ],
         "readability": {
-          "fk_grade": 7.76,
-          "fre": 57.75,
-          "violations": [
-            "FRE 57.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 5.23,
+          "fre": 73.78,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -5134,6 +5054,7 @@
             "kellion"
           ],
           "quick_meaning": "The individual or small-group dwelling unit that is Strand C's basic architectural and organizational building block.",
+          "plain_explanation": "The cell: the dwelling of one person or a few. It stood near enough to walk to the weekly gathering. It stood far enough away that the week itself was solitary. That spacing was the point. The distance between cells was part of the formation. Today the word sounds like mere lodging. The world built separateness on purpose.",
           "world_meaning": "Strand C's basic architectural and organizational building block, and the namesake of the Kellia settlement itself. Independently corroborated archaeologically: over 1,500 identified structures ranging from single cells to multi-room hermitages with attached oratories (Doc_06 §2.7; Doc_02 §5.1).",
           "modern_hearing": "Modern Hearing — a generic monk's 'room.'",
           "distortion_risk": "World Hearing — a deliberately spare, purpose-built space whose separateness from neighboring cells was itself formationally significant.",
@@ -5191,24 +5112,18 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "The physical unit Strand C's semi-anchoritic pattern requires. Near enough to gather weekly, far enough apart that the rest of the week is solitary."
+            "text": "The cell: the dwelling of one person or a few. It stood near enough to walk to the weekly gathering. It stood far enough away that the week itself was solitary. That spacing was the point. The distance between cells was part of the formation. Today the word sounds like mere lodging. The world built separateness on purpose."
           },
           {
             "title": "How sure is this",
             "text": "How sure is this? The record's level is \"Widely Accepted\": nearly all scholars who study this world read the evidence this way."
-          },
-          {
-            "title": "Then vs. now",
-            "text": "The modern ear hears accommodation. The world built separateness on purpose. The cell's distance from its neighbors was part of the formation, not an architectural accident."
           }
         ],
         "readability": {
-          "fk_grade": 7.76,
-          "fre": 57.75,
-          "violations": [
-            "FRE 57.7 < 60.0"
-          ],
-          "ok": false
+          "fk_grade": 4.54,
+          "fre": 78.32,
+          "violations": [],
+          "ok": true
         }
       }
     },
@@ -5256,6 +5171,7 @@
             "antirrhesis"
           ],
           "quick_meaning": "The specific technique of verbally countering a demonic logismos with a scriptural rebuttal at the moment of temptation, systematized by Evagrius in his Antirrhetikos.",
+          "plain_explanation": "Talking back met temptation with scripture. At the moment a tempting thought struck - the kind this world traced to demons - the person answered it aloud with a fitting verse. One teacher, Evagrius, wrote a handbook of such replies, sorted by the kind of thought. The reply was specific: each kind of thought had its fitting answer.",
           "modern_hearing": "Modern Hearing — 'talking back to' one's own thoughts may register as a self-help or cognitive-behavioral technique.",
           "distortion_risk": "World Hearing — a specific scriptural-combat method, single-author and single-text in origin, not this world's general vocabulary (Doc_06 §3.1).",
           "retrieval": {
@@ -5295,7 +5211,7 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "This record does not yet carry a period-sense entry. The full record (Level 3) shows what it does carry."
+            "text": "Talking back met temptation with scripture. At the moment a tempting thought struck - the kind this world traced to demons - the person answered it aloud with a fitting verse. One teacher, Evagrius, wrote a handbook of such replies, sorted by the kind of thought. The reply was specific: each kind of thought had its fitting answer."
           },
           {
             "title": "How sure is this",
@@ -5303,8 +5219,8 @@
           }
         ],
         "readability": {
-          "fk_grade": 5.68,
-          "fre": 72.63,
+          "fk_grade": 5.97,
+          "fre": 75.42,
           "violations": [],
           "ok": true
         }
@@ -5355,6 +5271,7 @@
             "puritas cordis"
           ],
           "quick_meaning": "John Cassian's Latin rendering of apatheia for a Western audience, anchored in Matthew 5:8 — a deliberate substitution, not a literal translation, made because apatheia's Stoic-sounding claim had become theologically controversial.",
+          "plain_explanation": "Purity of heart: John Cassian's Latin name for the goal the Greeks called apatheia. He chose it on purpose for readers in the West. The Greek word had begun to sound too Stoic, and it drew fire. So Cassian anchored the goal in scripture instead: blessed are the pure in heart. A deliberate substitution, not a slip in translation.",
           "modern_hearing": "Modern Hearing — a generic devotional phrase, unmoored from any specific technical content.",
           "distortion_risk": "World Hearing — a deliberate, disclosed substitution for apatheia, carrying that term's full technical content while avoiding its Stoic-sounding controversy; belongs to this world's reception history via Cassian (writing in the 420s, at the edge of the c. 430 closing boundary) rather than its own core vocabulary (Doc_06 §3.2).",
           "retrieval": {
@@ -5395,7 +5312,7 @@
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "This record does not yet carry a period-sense entry. The full record (Level 3) shows what it does carry."
+            "text": "Purity of heart: John Cassian's Latin name for the goal the Greeks called apatheia. He chose it on purpose for readers in the West. The Greek word had begun to sound too Stoic, and it drew fire. So Cassian anchored the goal in scripture instead: blessed are the pure in heart. A deliberate substitution, not a slip in translation."
           },
           {
             "title": "How sure is this",
@@ -5403,8 +5320,8 @@
           }
         ],
         "readability": {
-          "fk_grade": 5.68,
-          "fre": 72.63,
+          "fk_grade": 5.38,
+          "fre": 77.07,
           "violations": [],
           "ok": true
         }

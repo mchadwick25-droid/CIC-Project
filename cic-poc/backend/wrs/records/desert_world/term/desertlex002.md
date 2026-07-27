@@ -19,6 +19,11 @@ aliases:
 - apotage
 quick_meaning: Formal renunciation of property, family ties, and worldly status marking entry into ascetic
   life.
+plain_explanation: 'To enter this life, a person gave things up in a formal way. Property, family ties,
+  and standing were all laid down. In the Rule-based houses this was strict: no one kept private property.
+  Hermits and cell-dwellers did it less formally. The word still lives in church talk today. But this
+  world did not mean a one-time act. The giving-up was renewed in daily labor, humility, and obedience.
+  Attachment was not allowed to quietly return.'
 world_meaning: Shared Christian vocabulary carrying distinctive weight here as a discrete, sometimes formalized
   entry act. The communal-rule strand codifies it most explicitly — its Rule specifies renunciation of
   personal property as a condition of membership — while more solitary and semi-communal ascetics practice

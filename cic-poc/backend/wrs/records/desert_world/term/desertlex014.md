@@ -20,6 +20,10 @@ aliases:
 - vigilance
 quick_meaning: Vigilant attentiveness to one's own interior movements — the ongoing act of watching that
   discernment draws on.
+plain_explanation: 'Watchfulness: keeping an eye on one''s own inner movements. It was the standing guard
+  duty of the heart. Its harvest fed discernment, which judged what the watcher caught. Modern mindfulness
+  watches without taking sides. This watching was combat. It aimed to catch specific thoughts early, before
+  they took hold.'
 world_meaning: Closely related to diakrisis but denoting the ongoing act of watching rather than the resulting
   judgment. Cross-strand in root (1 Peter 5:8) but most systematically developed in Strand C. Not to be
   conflated with the later, fully systematized neptic/Philokalic tradition (Doc_06 §2.5; Doc_03 §1.10).

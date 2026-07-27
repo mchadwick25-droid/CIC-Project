@@ -20,6 +20,10 @@ aliases:
 - xeniteia
 quick_meaning: Self-imposed estrangement from homeland, kin, and familiar social bonds, pursued as a distinct
   ascetic discipline.
+plain_explanation: A person cut themselves off from homeland and kin on purpose. This was its own discipline,
+  beyond leaving the village. Withdrawal put distance on the map; this put distance in the bonds. Today
+  the word sounds like travel or living abroad. The world meant severed ties, not movement. The discipline
+  aimed at belonging, not at place.
 world_meaning: Treated as a discipline in its own right, not merely a consequence of withdrawal. Most
   strongly attested in Strand A/C material (the Apophthegmata); less prominent, though not absent, in
   Strand B's more settled communal framing (Doc_06 §2.1; Doc_03 §1.3).
