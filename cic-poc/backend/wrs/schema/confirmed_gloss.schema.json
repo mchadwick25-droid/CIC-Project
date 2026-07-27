@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cic-wrs-confirmed-gloss",
+  "title": "Confirmed-gloss keyed list (Pass 1 SS3.11 closing note - explicitly NOT a record type)",
+  "$comment": "Facilitator-owned data of the same kind as modern_term but deliberately a keyed list, not a 14th record_type: each entry {world_term, approved_gloss, exact_wording_required: true}, curated with the whitelist discipline. Runtime read wired at S4.5.",
+  "type": "object",
+  "properties": {
+    "schema_version": {"type": "integer", "minimum": 1},
+    "glosses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "world_term": {"type": "string", "minLength": 1},
+          "approved_gloss": {"type": "string", "minLength": 1},
+          "exact_wording_required": {"const": true}
+        },
+        "required": ["world_term", "approved_gloss", "exact_wording_required"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["schema_version", "glosses"],
+  "additionalProperties": false
+}

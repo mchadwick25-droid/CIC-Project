@@ -1,0 +1,503 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cic-wrs-records",
+  "title": "CiC World Record Store - record schema (Pass 1 SS3, implemented at S1.5 under M1: files-in-git)",
+  "$comment": "Structural schema: types and controlled vocabularies exactly per Pass 1 SS3.0-3.12. Requiredness beyond the structural floor (id/world_id/record_type/schema_version) is deliberately NOT enforced here - per-type, per-stage requiredness (SS11-A, backfill profiles) is the S1.3 field-completion gate's job. Every $defs element carries its Pass 1 warrant in a $comment; the two blueprint-origin additions (world_core.pairing_guidance/cautions per S2.7a) are marked as such. Traceability: wrs/schema/TRACEABILITY.yaml, checked two-directionally by validate.py --matrix.",
+  "oneOf": [
+    {"$ref": "#/$defs/source"}, {"$ref": "#/$defs/term"}, {"$ref": "#/$defs/story"},
+    {"$ref": "#/$defs/quote"}, {"$ref": "#/$defs/gravity"}, {"$ref": "#/$defs/force"},
+    {"$ref": "#/$defs/figure"}, {"$ref": "#/$defs/contested_claim"},
+    {"$ref": "#/$defs/voice_profile"}, {"$ref": "#/$defs/demonstration"},
+    {"$ref": "#/$defs/world_core"}, {"$ref": "#/$defs/modern_term"},
+    {"$ref": "#/$defs/search_record"}
+  ],
+  "$defs": {
+    "confidence": {
+      "$comment": "SS3.0 confidence row: three axes replacing today's single grade; outward A-E letter derived; the constitutional five-level formation-confidence vocabulary is a separate axis grading the reconstruction claim (Article 17 vocabulary, verbatim from the L4 templates).",
+      "type": "object",
+      "properties": {
+        "citation_specificity": {"enum": ["A", "B", "C", "D", "E"]},
+        "verification_state": {"enum": ["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]},
+        "verification_date": {"type": "string", "format": "date"},
+        "evidentiary_weight": {"enum": ["load-bearing", "corroborating", "illustrative", "contested"]},
+        "formation_confidence": {"enum": ["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]},
+        "derived_grade": {"enum": ["A", "B", "C", "D", "E"], "$comment": "derived, never hand-set (SS3.0)"}
+      },
+      "additionalProperties": false
+    },
+    "source_link": {
+      "$comment": "SS3.0 sources[] entry: {source_id, locus, licensed_for, author_gravity_note}",
+      "type": "object",
+      "properties": {
+        "source_id": {"type": "string"},
+        "locus": {"type": "string"},
+        "licensed_for": {"type": "string"},
+        "author_gravity_note": {"type": "string"}
+      },
+      "required": ["source_id"],
+      "additionalProperties": false
+    },
+    "envelope": {
+      "$comment": "SS3.0 - every record carries this envelope. relations[] is implemented per-type under its own name (field_relations/interaction/connections) per SS3.0's own design.",
+      "type": "object",
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record"]},
+        "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
+        "register": {"enum": ["emic", "etic", "emic-unavailable"]},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "disposition": {"enum": ["in-use", "removed-from-use"], "$comment": "SS3.0: explicit field; today only in the living-document protocol's prose"},
+        "grade_criteria_version": {"type": "string"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source_link"}},
+        "eviction_priority": {"type": "integer"},
+        "cache_stability": {"enum": ["static", "session", "turn"]},
+        "grounding_criterion": {"enum": ["low", "standard", "high"], "$comment": "derived by rule (SS3.0/SS6.4), never hand-tagged"},
+        "review_state": {"enum": ["draft", "cleared-review", "approved-to-proceed", "frozen"]},
+        "review_artifact": {"type": "string", "$comment": "SS3.0: a review that clears a record names the saved review artifact (CO-020)"},
+        "schema_version": {"type": "integer", "minimum": 1}
+      },
+      "required": ["id", "world_id", "record_type", "schema_version"]
+    },
+    "retrieval_block": {
+      "$comment": "SS3.2 retrieval row: structured block replacing free-text conditions; empty is a typed null (empty array), never an em-dash - validate.py additionally rejects the em-dash sentinel string.",
+      "type": "object",
+      "properties": {
+        "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+        "retrieve_when": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "do_not_retrieve_when": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "condition_type": {"enum": ["sense-disambiguation", "anachronism-guard"]},
+              "text": {"type": "string", "minLength": 1}
+            },
+            "required": ["condition_type", "text"],
+            "additionalProperties": false
+          }
+        },
+        "force_llm_vote": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "$comment": "SS3.1 - the Source Registry, generalized. Carried-forward block kept under snake_case names.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "source"},
+        "attribution_status": {"enum": ["genuine", "dubium", "spurium", "anonymous", "pseudonymous", "attributed-later"]},
+        "attribution_note": {"type": "string"},
+        "level_of_description": {"enum": ["item", "work", "corpus", "aggregate-attestation"]},
+        "work_author": {"type": "string"},
+        "work_title": {"type": "string"},
+        "work_locus": {"type": "string"},
+        "edition": {"type": "string"},
+        "translation": {"type": "string"},
+        "edition_status": {"enum": ["critical", "standard-pre-critical", "uncritical-reprint", "superseded", "none-consulted"]},
+        "consulted_as": {"enum": ["original-critical", "original-uncritical", "translation", "secondary-report-only"]},
+        "language": {"type": "string", "$comment": "ISO 639-3"},
+        "script": {"type": "string", "$comment": "ISO 15924"},
+        "genre_form": {"enum": ["letter", "homily", "conciliar-act", "liturgical-text", "hagiography", "chronicle", "legal-rescript", "polemic", "monastic-rule", "apophthegm-collection", "commentary", "monograph", "journal-article", "reference-work"]},
+        "purpose_audience": {"type": "string"},
+        "discovery_channel": {"enum": ["field-bibliography", "database-search", "library-catalogue", "backward-snowball", "forward-snowball", "cited-in-another-row", "step0-seed-list", "prior-world-build", "builder-prior-knowledge", "reviewer-supplied", "participant-question"]},
+        "discovery_instrument": {"type": "string"},
+        "discovery_date": {"type": "string", "format": "date"},
+        "snowball_parent": {"type": "string"},
+        "external_ids": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scheme": {"enum": ["syriaca", "cpg", "cpl", "bhg", "bhl", "bhse", "cts-urn", "viaf", "doi"]},
+              "value": {"type": "string"},
+              "uri": {"type": "string"}
+            },
+            "required": ["scheme", "value"],
+            "additionalProperties": false
+          }
+        },
+        "transmission_path": {"type": "string"},
+        "field_state": {"enum": ["majority", "minority", "contested", "superseded", "n-a"]},
+        "rights_status": {"type": "string"},
+        "license": {"type": "string"},
+        "display_permitted": {"type": "boolean"},
+        "source_type": {"enum": ["P", "S", "M", "L"], "$comment": "carried forward: Type"},
+        "boundary_status": {"enum": ["Native", "Excluded"], "$comment": "carried forward"},
+        "exclusion_reason": {"enum": ["Out-of-Boundary", "Named Comparandum"], "$comment": "carried forward"},
+        "comparandum_note": {"type": "string", "$comment": "carried forward"},
+        "licensed_for": {"type": "string", "$comment": "carried forward - CiC's own contribution"},
+        "verification_note": {"type": "string", "$comment": "carried forward - Description Control block"},
+        "added": {"type": "string", "$comment": "carried forward - Description Control block"}
+      },
+      "unevaluatedProperties": false
+    },
+    "term": {
+      "$comment": "SS3.2 - the lexicon record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "term"},
+        "term": {"type": "string"},
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "original_script": {"type": "string"},
+        "period_sense": {"type": "string", "$comment": "Level 1 draws on period_sense only"},
+        "prior_sense": {"type": "string", "$comment": "'none-attested' is an answer, not a blank (SS11-A)"},
+        "modern_sense": {"type": "string"},
+        "conceptual_distance_note": {"type": "string"},
+        "semantic_domain": {"type": "string"},
+        "field_relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"enum": ["presupposes", "presupposed-by", "precondition-for", "material-source-of", "mechanism-behind", "tension-with"]},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        },
+        "quick_meaning": {"type": "string", "$comment": "plain register - a reachability index card, never voice material (SS5.3 parroting guard)"},
+        "voice_surface": {"type": "string", "$comment": "only voice_surface and quick_meaning ever enter generation context (SS3.2)"},
+        "world_meaning": {"type": "string", "$comment": "Levels 2/3 and repository only - never per-turn generation payload"},
+        "distortion_risk": {"type": "string"},
+        "modern_hearing": {"type": "string"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"},
+        "contested_claim_ids": {"type": "array", "items": {"type": "string"}}
+      },
+      "unevaluatedProperties": false
+    },
+    "story": {
+      "$comment": "SS3.3 - the story record; tier justification is a required field shape, not prose.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "story"},
+        "title": {"type": "string"},
+        "narrative_tier": {
+          "type": "object",
+          "properties": {
+            "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+            "justification": {"type": "string", "minLength": 1}
+          },
+          "required": ["tier", "justification"],
+          "additionalProperties": false
+        },
+        "text": {"type": "string"},
+        "owner_figure_id": {"type": "string"},
+        "attested_occasion": {"type": "string"},
+        "tellable_as": {"enum": ["scene", "background-fact", "allusion-only"]},
+        "voice_surface": {"type": "string"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"}
+      },
+      "unevaluatedProperties": false
+    },
+    "quote": {
+      "$comment": "SS3.4 - first-class quote record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "quote"},
+        "text_original": {"type": "string"},
+        "text_translation": {"type": "string"},
+        "translation_used": {"type": "string", "$comment": "source id of the translation edition"},
+        "locus": {"type": "string"},
+        "speaker_or_author": {"type": "string", "$comment": "figure id, not a name string"},
+        "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]}
+      },
+      "unevaluatedProperties": false
+    },
+    "gravity": {
+      "$comment": "SS3.5 - six-test verdicts as fields; not-advanced kept as required records; typed directional interaction[] with the Alexandria changes_to/at notation.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "gravity"},
+        "name": {"type": "string"},
+        "six_tests": {
+          "type": "object",
+          "$comment": "each test's verdict its own field (SS3.5); test keys per Doc_04's own six-test battery",
+          "patternProperties": {
+            "^test_[1-6]$": {
+              "type": "object",
+              "properties": {"verdict": {"type": "string"}, "note": {"type": "string"}},
+              "required": ["verdict"],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "classification": {"enum": ["Primary", "Supporting", "Tensional", "not-advanced"]},
+        "confidence_crosscheck": {"type": "string"},
+        "interaction": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"enum": ["reinforcing", "competing", "reshaping"]},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"},
+              "changes_to": {"enum": ["reinforcing", "competing", "reshaping"]},
+              "at": {"type": "string", "$comment": "the C->X type-change-over-time notation's 'when'"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "force": {
+      "$comment": "SS3.5 - six-cell position, three existing layers, plus Layer 4 (elaboration or explicit stasis).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "force"},
+        "name": {"type": "string"},
+        "six_cell_position": {"type": "string", "$comment": "the world's Doc_08 six-cell matrix position"},
+        "layer_historical_event": {"type": "string"},
+        "layer_worlds_own_experience": {"type": "string"},
+        "layer_formation_impact": {"type": "string"},
+        "layer4": {
+          "type": "object",
+          "$comment": "SS3.5 Layer 4: elaboration prose OR stasis: true as a valid, complete answer (Archer's cycle as documentation shape only)",
+          "properties": {
+            "elaboration": {"type": "string", "minLength": 1},
+            "stasis": {"const": true}
+          },
+          "anyOf": [{"required": ["elaboration"]}, {"required": ["stasis"]}],
+          "additionalProperties": false
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "$comment": "typed and directional; vocabulary per the world's Doc_08 practice, explicitly including 'world-response-reshapes' (SS3.5)"},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "figure": {
+      "$comment": "SS3.6 - named persons; the grief-list defect becomes a query.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "figure"},
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "name_kind": {"enum": ["in-world", "scholarly"], "$comment": "emic/etic on the name itself"}
+            },
+            "required": ["name", "name_kind"],
+            "additionalProperties": false
+          }
+        },
+        "narratable": {"type": "boolean"},
+        "story_ids": {"type": "array", "items": {"type": "string"}},
+        "attribution_note": {"type": "string"}
+      },
+      "unevaluatedProperties": false
+    },
+    "contested_claim": {
+      "$comment": "SS3.7 - job 8's record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "contested_claim"},
+        "claim": {"type": "string"},
+        "held_against": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "challenge": {"type": "string"},
+              "challenger": {"type": "string", "$comment": "by whom, in the record"},
+              "sources": {"type": "array", "items": {"$ref": "#/$defs/source_link"}}
+            },
+            "required": ["challenge"],
+            "additionalProperties": false
+          }
+        },
+        "concedes": {"type": "string", "$comment": "'our own record does not tell us' as data"},
+        "pressure_response": {"type": "string"},
+        "divergence_partners": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "world_id": {"type": "string"},
+              "note": {"type": "string", "$comment": "S2.6: mapped against the partner world's own documents"},
+              "partner_claim_id": {"type": "string", "$comment": "S6.3 enrichment: the partner's own contested_claim record, once it exists"}
+            },
+            "required": ["world_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "voice_profile": {
+      "$comment": "SS3.8 - one per world; SPEAKING model; TRAITS-style rubric with situation-conditioned intensities; paired avoid-vocabulary is rubric-level (negative constraints note).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "voice_profile"},
+        "speaking_model": {
+          "type": "object",
+          "properties": {
+            "setting": {"type": "string"}, "participants": {"type": "string"},
+            "ends": {"type": "string"}, "act_sequence": {"type": "string"},
+            "key": {"type": "string"}, "instrumentalities": {"type": "string"},
+            "norms": {"type": "string"}, "genre": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "trait_rubric": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "trait": {"type": "string"},
+              "description": {"type": "string"},
+              "intensities": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {"situation": {"type": "string"}, "intensity": {"type": "string"}},
+                  "required": ["situation", "intensity"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["trait"],
+            "additionalProperties": false
+          }
+        },
+        "avoid_traits": {"type": "array", "items": {"type": "string"}, "$comment": "SS3.8 negative constraints: paired trait vocabulary (traits we avoid) - author/reviewer instrument, never the safety-class categorical guards"},
+        "register_determination": {
+          "type": "object",
+          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "native_measure": {
+          "type": "object",
+          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "reading_level_check": {"type": "string", "$comment": "inherits the floor from wrs/parameters.yaml reading_floor - a pointer, not a restatement (SS3.8)"}
+      },
+      "unevaluatedProperties": false
+    },
+    "demonstration": {
+      "$comment": "SS3.8 - calibration exchanges, {{random_user}} convention.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "demonstration"},
+        "dialogue": {"type": "string"},
+        "trait_scores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "trait": {"type": "string"},
+              "score": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["trait", "score"],
+            "additionalProperties": false
+          }
+        },
+        "situation_tag": {"type": "string"}
+      },
+      "unevaluatedProperties": false
+    },
+    "world_core": {
+      "$comment": "SS3.10 - one per world. pairing_guidance/cautions are BLUEPRINT-origin (S2.7a: the Facilitation Brief's human-judgment records, attached here the way SS3.11 attached the gloss list - Pass 1 SS4.5 requirement, schema home per S2.7a, not a silent addition).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "world_core"},
+        "time_window": {
+          "type": "object",
+          "properties": {
+            "start_year": {"type": "integer"},
+            "end_year": {"type": "integer"},
+            "note": {"type": "string"}
+          },
+          "required": ["start_year", "end_year"],
+          "additionalProperties": false
+        },
+        "horizon": {"type": "string"},
+        "formation_logic": {"type": "string"},
+        "gravities": {"type": "array", "items": {"type": "string"}},
+        "pairing_guidance": {
+          "type": "array",
+          "$comment": "blueprint S2.7a; each entry guidance + at least one evidence link (S2.7a's own gate)",
+          "items": {
+            "type": "object",
+            "properties": {
+              "guidance": {"type": "string"},
+              "evidence_links": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+            },
+            "required": ["guidance", "evidence_links"],
+            "additionalProperties": false
+          }
+        },
+        "cautions": {"type": "array", "items": {"type": "string"}, "$comment": "blueprint S2.7a"}
+      },
+      "unevaluatedProperties": false
+    },
+    "modern_term": {
+      "$comment": "SS3.11 - Facilitator-owned (world_id: facilitator), one per bridgeable modern term.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "modern_term"},
+        "term": {"type": "string"},
+        "display_terms": {"type": "array", "items": {"type": "string"}, "$comment": "carried forward unchanged - today's actual field name"},
+        "origin_year": {"type": "integer", "$comment": "carried forward unchanged - what _is_anachronistic compares against world_core.time_window"},
+        "modern_sense": {"type": "string", "$comment": "carried forward unchanged"},
+        "underlying_subject": {"type": "string", "$comment": "carried forward unchanged"},
+        "distinguishing_claim": {"type": "string", "$comment": "new (SS3.11): the field today's classifier never sees - SS9.4's structural fix"},
+        "native_subject_map": {
+          "type": "object",
+          "$comment": "new (SS3.11): per-world map of the underlying subject's native record",
+          "additionalProperties": {"type": "string"}
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "search_record": {
+      "$comment": "SS3.12 - one per world, STARLITE-shaped.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "search_record"},
+        "sampling_strategy": {"type": "string", "$comment": "declared purposive, not comprehensive - Booth's standard"},
+        "types_sought": {"type": "array", "items": {"type": "string"}},
+        "approaches": {"type": "object", "$comment": "derived from discovery_channel counts on the world's source records - a view, not new authoring", "additionalProperties": {"type": "integer"}},
+        "years_searched": {
+          "type": "object",
+          "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}},
+          "required": ["from", "to"],
+          "additionalProperties": false
+        },
+        "languages_searched": {"type": "array", "items": {"type": "string"}},
+        "inclusion_exclusions": {"type": "string"},
+        "terms_tried": {
+          "type": "array",
+          "$comment": "including terms that returned nothing - where the search record meets the Missing Voices duty",
+          "items": {
+            "type": "object",
+            "properties": {"term": {"type": "string"}, "productive": {"type": "boolean"}},
+            "required": ["term", "productive"],
+            "additionalProperties": false
+          }
+        },
+        "instruments": {"type": "array", "items": {"type": "string"}}
+      },
+      "unevaluatedProperties": false
+    }
+  }
+}

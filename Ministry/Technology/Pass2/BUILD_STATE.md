@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S1.5 (schema; M1 decided 2026-07-26: files-in-git per blueprint proposal — `decisions/M1_record_store_form.md`), then S1.3 (one unit, schema first)
-- **Last completed checkpoint:** S1.4 G + R (`gates/S1.4_schema_valid.md`, `reviews/S1.4_value_sources.md`)
+- **Current step:** S1.3 (gates against the S1.5 schema — the last Phase 1 step)
+- **Last completed checkpoint:** S1.5 G + R (`gates/S1.5_validator_fixtures.md`, `reviews/S1.5_traceability_matrix.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -35,7 +35,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S1.2 | done | G + B + R | `gates/S1.2_determinism.md`, `baselines/retrieval_baseline.json`, `reviews/S1.2_golden_case_verification.md` | R0/B-RETR: 105 golden cases across 6 worlds (all categories, 12–20 each), harness deterministic (byte-identical double run), LLM vote bracketed [retrieve/skip]; findings: dead-guard class generalizes (Tier-1 top-2 bypasses DNRW; all 45 ALX chunks are Tier 1), composite-Term de-dup gap is deterministic in every world, reactive-turn dilution measured (rank 6/4 burials), 2 genuine thematic embedding misses |
 | S1.3 | pending | G | `gates/S1.3_seeded_defects.md` | gates + content-coverage parity program + parroting metric (F7); one unit with S1.5, schema first |
 | S1.4 | done | G + R | `gates/S1.4_schema_valid.md`, `reviews/S1.4_value_sources.md` | `wrs/parameters.yaml`: 13 parameters (all traced — 2 governing-doc values re-verified verbatim, 10 from code, 1 TBD per §11-D) + 14 §10 metric records; no governing-doc edits; no runtime consumer yet (F9 → S4.4a) |
-| S1.5 | pending | G + R | `gates/S1.5_validator_fixtures.md`, `reviews/S1.5_traceability_matrix.md` | **after M1** |
+| S1.5 | done | G + R | `gates/S1.5_validator_fixtures.md`, `reviews/S1.5_traceability_matrix.md` | M1 = files-in-git; `wrs/schema/`: envelope + 13 record types + gloss list (draft 2020-12, unevaluatedProperties:false), validator (+ em-dash sentinel rule), 13/13 fixtures valid, seeded-invalid fails with 6 named errors, traceability 143/143 both directions (blueprint-origin elements named: world_core.pairing_guidance/cautions per S2.7a) |
 
 ### Phase 2 — First world migration (world per M2)
 
