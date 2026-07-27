@@ -4,9 +4,9 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S4.2 (event-sourced conversation state; replay-parity P + race-regression G + safety rerun; then the A.4 re-diagnosis the standing rule has reserved for this step across three safety runs).
-- **Last completed checkpoint:** S4.1 P+safety (`gates/S4.1_governance_extraction.md`; one governance layer both endpoints traverse; replay-parity 8/8 with recorded-real firing cases for all four intercepts + selector; the one declared delta observed exactly; pre-existing mock streaming gap found+repaired; safety 19/20, routing identical to both baselines)
-- **Parked items:** none
+- **Current step:** S4.3 (signal plumbing: 17 signal types declared; pending_guidance → per-world priority queue behind one gate; FABRICATED split intrinsic/extrinsic; G queue-ordering fixtures + L adjudicator battery + safety rerun).
+- **Last completed checkpoint:** S4.2 P+G+safety+A.4 (`gates/S4.2_event_sourced_state.md`; append-only event log + state-as-projection; state parity 8/8 checked against store AND fresh-from-disk projection; outcome parity 8/8; race gate PASS with both legacy defects reproduced and structurally removed; safety 19/20 routing identical to all three baselines; A.4 re-diagnosed — the classifier, not the constant — filed as FLAG-008)
+- **Parked items:** M5 review is now due per its own schedule ("reviewed after S4.2") — never blocks S4.3+. FLAG-007 (streaming exclusion-set wiring) and FLAG-008 (A.4 mechanism options) await Mark/review-round calls.
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
 
@@ -16,7 +16,7 @@ All state lives here and in commits; no session relies on memory of a previous s
 | M2 | First migration world (§12.5) | S2.1 | **decided 2026-07-26: Desert** (`decisions/M2_first_migration_world.md`) |
 | M3 | `MIN_MULTI_WORLD_TURNS` floor retirement (§12.7) | S4.4b | pending |
 | M4 | Lens spine adoption (§12.8) | S6.1 | pending |
-| M5 | Streaming vs. selective buffering (§12.1) | never blocks; standing open item reviewed after S4.2 | pending |
+| M5 | Streaming vs. selective buffering (§12.1) | never blocks; standing open item reviewed after S4.2 | **due for review** (S4.2 complete 2026-07-27; the event log now makes the buffering option cheap to pilot) |
 | M6 | Appendix B governance-defect sweep (§12.6) | S6.4 | pending |
 
 Additional per-item M checkpoints arise inside S2.9 (each schema Change Order), S5.5/S6.1/S6.4 (each governing-document wording), and S6.6 (threshold adoption).
@@ -69,7 +69,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | Step | Status | Checkpoint(s) | Notes |
 |---|---|---|---|
 | S4.1 | done | P + safety | governance.py extracted (pre-turn intercept chain exact-order + post-round tail); plain multi-world gains the five table checks (the one declared delta, observed precisely in replay); replay machinery: recorded-real tapes, sanity 8/8 on unchanged code (caught 4 machinery defects incl. nondeterministic gather order + module-level import escape), refactor replay 8/8; mock plumbing suite first-ever run found+fixed pre-existing MockChatResult chunk-sum gap; safety 19/20 identical routing |
-| S4.2 | pending | P + G (race fixture) + safety rerun | then A.4 re-diagnosis, filed |
+| S4.2 | done | P + G + safety + A.4 | `gates/S4.2_event_sourced_state.md`: events.py log + projection; sessions dict deleted; state parity 8/8 (store + fresh-from-disk agree with frozen legacy snapshots), outcome parity 8/8; race gate PASS (legacy blind-overwrite AND merge lost-update reproduced; real tail survives both schedules; nothing left to race structurally); audit endpoint durable+authenticated, additive fields only, frontend untouched; safety 19/20, routing identical s33/s35/s41/s42; A.4 answered: classifier echoes session (window shows unanswered crisis + track flag), counter never leaves 0 → FLAG-008 for Mark; FLAG-007 filed (S3.3 exclusion set inert on streaming path, preserved not fixed) |
 | S4.3 | pending | G + L + safety rerun | 17 signal types; queue; FABRICATED split |
 | S4.4 | pending | L + safety rerun + B-COST delta | (a) shippable now — first runtime consumer of parameters.yaml (F9); (b) **after M3** |
 | S4.5 | pending | L + safety rerun | "what is faith" battery |

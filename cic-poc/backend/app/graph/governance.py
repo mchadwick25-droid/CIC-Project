@@ -44,6 +44,11 @@ class PreTurnOutcome:
     is_relational_safety_firing: bool = False
     rs_classification: dict = field(default_factory=lambda: {"category": "NO_SIGNAL"})
     rs_updates: dict = field(default_factory=dict)
+    # S4.2 observability additions (behavior-neutral): the RAW classifier
+    # results before the chain's priority is applied - what the event log
+    # records so a discarded classification is still diagnosable (A.4)
+    frame_breaker_raw: bool = False
+    rs_raw: dict = field(default_factory=dict)
     pre_track_a_active: bool = False
     pre_track_a_severity: str | None = None
     pre_track_b_active: bool = False
@@ -100,6 +105,8 @@ async def classify_pre_turn(
 
     # epistemology-bridge wins if it fired; else frame-breaker; else
     # relational-safety - the sequential code's exact priority
+    out.frame_breaker_raw = frame_breaker_result
+    out.rs_raw = relational_safety_result
     out.is_frame_breaker = (False if out.is_epistemology_bridge
                              else frame_breaker_result)
 
@@ -188,17 +195,26 @@ def run_post_round_governance(
     world_ids,
     is_multi_world: bool,
     should_check_wind_down: bool,
-    sessions,
     session_id: str,
 ) -> None:
     """The streaming path's invisible-governance tail, verbatim in logic:
-    table checks + per-message drift checks (queued per-world), the
-    read-latest-merge session write (a blind overwrite could clobber a
-    message that arrived after 'done' went out), then wind-down sensing -
-    each half in its own fail-open try/except, independent concerns."""
+    table checks + per-message drift checks (queued per-world), then
+    wind-down sensing - each half in its own fail-open try/except,
+    independent concerns.
+
+    S4.2: findings are APPENDED to the event log instead of merged into a
+    mutable store. The hand-patched read-latest-merge this replaces
+    existed because a blind overwrite could clobber a message that
+    arrived after 'done' went out - and the merge itself still carried a
+    lost-update window (read latest -> concurrent write -> write back).
+    An append has no read-modify-write cycle at all: whatever arrived in
+    the meantime is simply earlier in the log, and the projection folds
+    both. The race is gone structurally, which is exactly what the S4.2
+    race-regression fixture proves."""
     from app.prompts.facilitator_prompts import get_representative_message_name
 
     try:
+        from app.graph.events import EVENT_STORE
         from app.graph.nodes import (
             check_drift_for_message,
             generate_reroot_guidance,
@@ -230,13 +246,17 @@ def run_post_round_governance(
             if signal.severity in ("medium", "high"):
                 new_pending_guidance[msg_world_id] = generate_reroot_guidance(signal)
 
-        latest_state = sessions.get(session_id)
-        if latest_state is not None:
-            latest_state.drift_signals = (
-                list(latest_state.drift_signals) + new_drift_signals)
-            latest_state.pending_guidance = {
-                **latest_state.pending_guidance, **new_pending_guidance}
-            sessions[session_id] = latest_state
+        tail_events: list[tuple[str, dict]] = []
+        if new_drift_signals:
+            tail_events.append(("drift_signals_appended", {"signals": [
+                {"signal_type": s.signal_type, "description": s.description,
+                 "severity": s.severity, "world_id": s.world_id}
+                for s in new_drift_signals]}))
+        if new_pending_guidance:
+            tail_events.append(("guidance_queued",
+                                {"guidance": new_pending_guidance}))
+        if tail_events and EVENT_STORE.has(session_id):
+            EVENT_STORE.append_many(session_id, tail_events)
     except Exception:
         # invisible governance fails silently by design - the participant
         # already has their response
@@ -245,10 +265,14 @@ def run_post_round_governance(
     try:
         if should_check_wind_down:
             from app.graph.closing_sequence import classify_wind_down
-            if classify_wind_down(state, message):
-                wind_down_state = sessions.get(session_id)
-                if wind_down_state is not None:
-                    wind_down_state.closing_stage = "anything_else_asked"
-                    sessions[session_id] = wind_down_state
+            from app.graph.events import EVENT_STORE
+            fired = classify_wind_down(state, message)
+            if EVENT_STORE.has(session_id):
+                EVENT_STORE.append(session_id, "classifier_decision", {
+                    "classifier": "wind_down", "raw": bool(fired),
+                    "applied": bool(fired)})
+            if fired and EVENT_STORE.has(session_id):
+                EVENT_STORE.append(session_id, "closing_stage_changed",
+                                   {"stage": "anything_else_asked"})
     except Exception:
         pass

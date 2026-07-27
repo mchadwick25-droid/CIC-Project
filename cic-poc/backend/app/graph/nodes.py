@@ -851,18 +851,28 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
     The public transcript is what Representatives share with each other.
     Each Representative sees what others have said, but not their inner formation.
     This is how Representatives encounter each other: through words spoken at the Table.
+
+    S4.2 (Pass 1 §6.7): the transcript is now a deterministic render of
+    the specified data shape - the ordered log of spoken events (speaker,
+    text, designated addressee where one exists; see
+    app.graph.events.spoken_events_from_messages). Behavior-preserving at
+    this step: the Facilitator-skip and the last-10 window are today's
+    exact semantics, kept deliberately - Facilitator turns entering the
+    render is S4.5's declared change, and the block-truncation window is
+    S4.4's. The addressee is None until S4.4's direct-address detection.
     """
+    from app.graph.events import spoken_events_from_messages
+
     transcript_lines = []
-    for msg in state.messages:
-        if isinstance(msg, HumanMessage):
-            transcript_lines.append(f"Participant: {msg.content}")
-        elif hasattr(msg, "name") and msg.name:
+    for event in spoken_events_from_messages(state.messages):
+        if event["speaker"] == "participant":
+            transcript_lines.append(f"Participant: {event['text']}")
+        elif event["speaker"] == "facilitator":
             # Skip facilitator messages in transcript for representatives
-            if msg.name == "facilitator":
-                continue
-            # Include other representatives' messages
-            speaker_name = msg.name.replace("_", " ").title()
-            transcript_lines.append(f"{speaker_name}: {msg.content}")
+            continue
+        else:
+            speaker_name = event["speaker"].replace("_", " ").title()
+            transcript_lines.append(f"{speaker_name}: {event['text']}")
 
     return "\n\n".join(transcript_lines[-10:])  # Last 10 exchanges
 

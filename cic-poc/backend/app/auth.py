@@ -95,3 +95,25 @@ async def get_current_user(authorization: str | None = Header(default=None)) -> 
         pilot_cohort=profile.get("pilot_cohort"),
         max_sessions=profile.get("max_sessions", 5),
     )
+
+
+async def get_audit_user(authorization: str | None = Header(default=None)) -> AuthedUser:
+    """
+    FastAPI dependency for the session audit endpoint (S4.2, Pass 1 §6.7:
+    the audit endpoint becomes authenticated and durable).
+
+    Stricter than get_current_user in exactly one way: once Supabase is
+    configured, an anonymous request is REJECTED rather than admitted as
+    the anonymous placeholder. Participants may keep conversation itself
+    sign-in-optional (Mark's 2026-07-25 call, unchanged); the audit trail
+    is a reviewer surface and Level 3's backbone, not part of that ask.
+    Unconfigured (local dev / mock mode) deployments stay open - the same
+    "off until configured" discipline as everything else in this module.
+    """
+    user = await get_current_user(authorization)
+    if supabase_configured() and user.user_id is None:
+        raise HTTPException(
+            status_code=401,
+            detail="The audit view requires a signed-in account.",
+        )
+    return user

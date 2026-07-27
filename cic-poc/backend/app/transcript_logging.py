@@ -19,6 +19,13 @@ Storage model: `sessions` is upserted (one row per session_id, updated in
 place - phase/turn_count/status change over a conversation's life).
 `messages` is append-only, so each call only inserts the messages not yet
 persisted rather than re-writing the whole history every round.
+
+S4.2 note: the `state` passed in is now a projection of the append-only
+event log (app/graph/events.py) rather than the old shared mutable
+object - this module's interface and behavior are unchanged. The event
+log ALSO persists itself (JSONL + the session_events table) - that is the
+complete governance/audit record; these `sessions`/`messages` tables stay
+as the human-readable transcript view Mark actually reviews.
 """
 
 from langchain_core.messages import BaseMessage

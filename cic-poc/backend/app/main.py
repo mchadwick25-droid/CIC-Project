@@ -16,11 +16,12 @@ from fastapi.staticfiles import StaticFiles
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from pydantic import BaseModel
 
-from app.auth import AuthedUser, get_current_user
+from app.auth import AuthedUser, get_audit_user, get_current_user
 from app.config import settings
 from app.graph.builder import get_compiled_graph
+from app.graph.events import EVENT_STORE, serialize_message
 from app.graph.nodes import representative_engages
-from app.graph.state import ConversationState
+from app.graph.state import ConversationState, RetrievedContext
 from app.session_cap import check_and_reserve_session_slot
 from app.transcript_logging import write_transcript
 from app.world_manifest import WORLD_MANIFEST
@@ -35,8 +36,51 @@ if not logger.handlers:
     logger.addHandler(_handler)
 
 
-# In-memory session storage (POC only)
-sessions: dict[str, ConversationState] = {}
+# S4.2 (Pass 1 §6.7): the mutable in-memory sessions dict is gone. All
+# conversation state lives in the append-only event log (app/graph/events
+# .py); every read below is a projection, every write an appended event.
+
+
+def _serialize_drift_signal(s) -> dict:
+    return {"signal_type": s.signal_type, "description": s.description,
+            "severity": s.severity, "world_id": s.world_id}
+
+
+def _serialize_retrieved_context(rc: Optional[RetrievedContext]) -> Optional[dict]:
+    if rc is None:
+        return None
+    return {"chunks": list(rc.chunks), "terms": list(rc.terms),
+            "sources": list(rc.sources), "citations": list(rc.citations)}
+
+
+def _classifier_events(pre_turn) -> list[tuple[str, dict]]:
+    """Per-turn classifier categories as logged events (Pass 1 §7's crisis
+    row: observability is what makes A.4 diagnosable). Raw results are
+    logged alongside whether the chain's priority applied them."""
+    events: list[tuple[str, dict]] = [
+        ("classifier_decision", {
+            "classifier": "frame_breaker",
+            "raw": bool(pre_turn.frame_breaker_raw),
+            "applied": bool(pre_turn.is_frame_breaker),
+        }),
+        ("classifier_decision", {
+            "classifier": "relational_safety",
+            "raw": pre_turn.rs_raw,
+            "applied": bool(pre_turn.rs_updates) or pre_turn.is_relational_safety_firing,
+            "firing": bool(pre_turn.is_relational_safety_firing),
+        }),
+    ]
+    if pre_turn.is_epistemology_bridge:
+        events.insert(0, ("classifier_decision", {
+            "classifier": "epistemology_bridge", "raw": True,
+            "applied": True}))
+    if pre_turn.modern_term_match is not None:
+        events.append(("classifier_decision", {
+            "classifier": "modern_term",
+            "raw": pre_turn.modern_term_match, "applied": True}))
+    if pre_turn.rs_updates:
+        events.append(("rs_state_updated", {"updates": pre_turn.rs_updates}))
+    return events
 
 
 def load_world_content(world_id: str = "syriac-edessa-nisibis") -> tuple[str, str]:
@@ -68,8 +112,9 @@ async def lifespan(app: FastAPI):
     # FAISS.load_local() deserialize, not a from-scratch embedding build.
     yield
 
-    # Cleanup
-    sessions.clear()
+    # Cleanup (in-memory event log only; the durable JSONL/Supabase log
+    # survives the process by design - §6.7's audit durability)
+    EVENT_STORE.clear()
 
 
 app = FastAPI(
@@ -290,8 +335,24 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     else:
         state = result
 
-    # Store session
-    sessions[session_id] = state
+    # Commit the session's opening to the event log: who was seated, the
+    # facilitator's spoken reception/handoff, and the flow scalars the
+    # graph run produced. The projection (EVENT_STORE.get_state) is now
+    # the only way any later request sees this session.
+    EVENT_STORE.append_many(session_id, [
+        ("session_started", {
+            "user_id": user.user_id,
+            "world_id": world_id,
+            "world_ids": world_ids,
+        }),
+        *[("spoken_message", serialize_message(m)) for m in state.messages],
+        ("turn_committed", {
+            "phase": state.phase,
+            "current_speaker": state.current_speaker,
+            "current_world_id": state.current_world_id,
+            "turn_count": state.turn_count,
+        }),
+    ])
 
     return StartSessionResponse(
         session_id=session_id,
@@ -466,24 +527,32 @@ async def send_message(session_id: str, request: SendMessageRequest):
     from app.graph.nodes import new_request_id
     request_id = new_request_id()
 
-    if session_id not in sessions:
+    if not EVENT_STORE.has(session_id):
         raise HTTPException(status_code=404, detail="Session not found")
 
-    state = sessions[session_id]
+    # A fresh per-request projection of the event log - the working state
+    # this handler mutates locally; every mutation that used to persist on
+    # the shared dict object is appended to the log at the same point.
+    state = EVENT_STORE.get_state(session_id)
 
     # Handle close request
     if request.close_requested:
         state.close_requested = True
+        EVENT_STORE.append(session_id, "close_requested", {})
 
         # Run closing node
         from app.graph.nodes import facilitator_closes
         result = facilitator_closes(state)
 
         # Update state
-        state.messages = list(state.messages) + result.get("messages", [])
+        new_msgs = result.get("messages", [])
+        state.messages = list(state.messages) + new_msgs
         state.phase = result.get("phase", "closing")
 
-        sessions[session_id] = state
+        EVENT_STORE.append_many(session_id, [
+            *[("spoken_message", serialize_message(m)) for m in new_msgs],
+            ("phase_changed", {"phase": state.phase}),
+        ])
         write_transcript(session_id, state)
 
         return SendMessageResponse(
@@ -500,10 +569,10 @@ async def send_message(session_id: str, request: SendMessageRequest):
     from app.message_cap import check_message_cap
     cap_allowed, cap_reason = check_message_cap(state.turn_count)
     if not cap_allowed:
-        state.messages = list(state.messages) + [
-            AIMessage(content=cap_reason, name="facilitator")
-        ]
-        sessions[session_id] = state
+        cap_message = AIMessage(content=cap_reason, name="facilitator")
+        state.messages = list(state.messages) + [cap_message]
+        EVENT_STORE.append(session_id, "spoken_message",
+                           serialize_message(cap_message))
         write_transcript(session_id, state)
         return SendMessageResponse(
             messages=state_to_messages(state),
@@ -513,6 +582,9 @@ async def send_message(session_id: str, request: SendMessageRequest):
 
     # Add the participant's message
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
+    EVENT_STORE.append(session_id, "participant_message",
+                       {"text": request.message, "name": None,
+                        "addressee": None})
 
     # S4.1: the same governance layer the streaming endpoint traverses
     # (app/graph/governance.py), with this endpoint's historical intercept
@@ -536,6 +608,11 @@ async def send_message(session_id: str, request: SendMessageRequest):
     pre_track_a_severity = pre_turn.pre_track_a_severity
     pre_track_b_active = pre_turn.pre_track_b_active
 
+    # per-turn classifier categories become logged events (§6.7 - what
+    # makes A.4 diagnosable), plus the relational-safety state mutation
+    # classify_pre_turn just applied to the working state
+    EVENT_STORE.append_many(session_id, _classifier_events(pre_turn))
+
     if is_frame_breaker:
         from app.usage_logging import log_llm_usage
         llm = get_llm()
@@ -545,8 +622,10 @@ async def send_message(session_id: str, request: SendMessageRequest):
         ])
         log_llm_usage("frame_breaker_response_plain", response, settings.llm_model,
                       session_id=session_id)
-        state.messages = list(state.messages) + [AIMessage(content=response.content, name="facilitator")]
-        sessions[session_id] = state
+        fb_message = AIMessage(content=response.content, name="facilitator")
+        state.messages = list(state.messages) + [fb_message]
+        EVENT_STORE.append(session_id, "spoken_message",
+                           serialize_message(fb_message))
         write_transcript(session_id, state)
         return SendMessageResponse(
             messages=state_to_messages(state),
@@ -569,7 +648,8 @@ async def send_message(session_id: str, request: SendMessageRequest):
             if event["type"] == "complete":
                 new_message = event["message"]
         state.messages = list(state.messages) + [new_message]
-        sessions[session_id] = state
+        EVENT_STORE.append(session_id, "spoken_message",
+                           serialize_message(new_message))
         write_transcript(session_id, state)
         return SendMessageResponse(
             messages=state_to_messages(state),
@@ -579,6 +659,12 @@ async def send_message(session_id: str, request: SendMessageRequest):
 
     # For multi-world tables, determine turn type (single or all representatives)
     from app.graph.nodes import determine_turn_type, multi_representative_engages
+
+    # The exclusion-set diff: representative_engages mutates
+    # state.surfaced_chunk_ids in place on the plain single-world path
+    # (and, per FLAG-007, only there) - captured as events by diffing
+    # around the call rather than changing the mechanism this step.
+    pre_surfaced = {k: list(v) for k, v in state.surfaced_chunk_ids.items()}
 
     if state.world_ids and len(state.world_ids) > 1:
         turn_type, responding_worlds = determine_turn_type(state)
@@ -596,11 +682,30 @@ async def send_message(session_id: str, request: SendMessageRequest):
         result = representative_engages(state, request_id=request_id)
 
     # Update state with representative's response(s)
-    state.messages = list(state.messages) + result.get("messages", [])
+    new_msgs = result.get("messages", [])
+    state.messages = list(state.messages) + new_msgs
     state.turn_count = result.get("turn_count", state.turn_count)
     state.requires_reroot = result.get("requires_reroot", False)
     state.retrieved_context = result.get("retrieved_context")
     state.current_world_id = result.get("current_world_id", state.current_world_id)
+
+    turn_events: list[tuple[str, dict]] = []
+    for wid, ids in state.surfaced_chunk_ids.items():
+        prev = set(pre_surfaced.get(wid, []))
+        newly = [i for i in ids if i not in prev]
+        if newly:
+            turn_events.append(("chunks_surfaced",
+                                {"world_id": wid, "chunk_ids": newly}))
+    turn_events.extend(
+        ("spoken_message", serialize_message(m)) for m in new_msgs)
+    turn_events.append(("turn_committed", {
+        "turn_count": state.turn_count,
+        "current_world_id": state.current_world_id,
+        "requires_reroot": state.requires_reroot,
+    }))
+    turn_events.append(("retrieved_context_set", {
+        "context": _serialize_retrieved_context(state.retrieved_context)}))
+    EVENT_STORE.append_many(session_id, turn_events)
 
     # Run monitoring
     from app.graph.nodes import facilitator_monitors, facilitator_reroots
@@ -608,15 +713,25 @@ async def send_message(session_id: str, request: SendMessageRequest):
     monitor_result = facilitator_monitors(state)
     state.requires_reroot = monitor_result.get("requires_reroot", False)
 
+    monitor_events: list[tuple[str, dict]] = []
     if monitor_result.get("drift_signals"):
         state.drift_signals = list(state.drift_signals) + monitor_result["drift_signals"]
+        monitor_events.append(("drift_signals_appended", {
+            "signals": [_serialize_drift_signal(s)
+                        for s in monitor_result["drift_signals"]]}))
 
     # If reroot needed, run reroot (invisible to participant)
     if state.requires_reroot:
         reroot_result = facilitator_reroots(state)
         if reroot_result.get("drift_signals"):
             state.drift_signals = list(state.drift_signals) + reroot_result["drift_signals"]
+            monitor_events.append(("drift_signals_appended", {
+                "signals": [_serialize_drift_signal(s)
+                            for s in reroot_result["drift_signals"]]}))
         state.requires_reroot = reroot_result.get("requires_reroot", False)
+    monitor_events.append(("turn_committed",
+                           {"requires_reroot": state.requires_reroot}))
+    EVENT_STORE.append_many(session_id, monitor_events)
 
     # S4.1's ONE intended behavior delta: this endpoint gains the same
     # per-round table checks the streaming path always ran - multi-world
@@ -628,11 +743,16 @@ async def send_message(session_id: str, request: SendMessageRequest):
                 state.world_id, state.world_ids)
             state.drift_signals = list(state.drift_signals) + signals
             state.pending_guidance = {**state.pending_guidance, **guidance}
+            table_events: list[tuple[str, dict]] = []
+            if signals:
+                table_events.append(("drift_signals_appended", {
+                    "signals": [_serialize_drift_signal(s) for s in signals]}))
+            if guidance:
+                table_events.append(("guidance_queued", {"guidance": guidance}))
+            if table_events:
+                EVENT_STORE.append_many(session_id, table_events)
         except Exception:
             pass
-
-    # Store updated session
-    sessions[session_id] = state
 
     return SendMessageResponse(
         messages=state_to_messages(state),
@@ -659,7 +779,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     from app.graph.nodes import new_request_id
     request_id = new_request_id()
 
-    if session_id not in sessions:
+    if not EVENT_STORE.has(session_id):
         raise HTTPException(status_code=404, detail="Session not found")
 
     if request.close_requested:
@@ -668,7 +788,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             detail="close_requested is not supported on the streaming endpoint - use /message",
         )
 
-    state = sessions[session_id]
+    # fresh per-request projection of the event log (see /message above)
+    state = EVENT_STORE.get_state(session_id)
 
     # Soft, identity-free conversation-length cap (see app/message_cap.py) -
     # checked before anything else, same rationale and placement as the
@@ -684,10 +805,10 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         def capped_stream():
             yield sse({"type": "speaker_start", "speaker": "facilitator"})
             yield sse({"type": "token", "speaker": "facilitator", "text": cap_reason})
-            state.messages = list(state.messages) + [
-                AIMessage(content=cap_reason, name="facilitator")
-            ]
-            sessions[session_id] = state
+            cap_message = AIMessage(content=cap_reason, name="facilitator")
+            state.messages = list(state.messages) + [cap_message]
+            EVENT_STORE.append(session_id, "spoken_message",
+                               serialize_message(cap_message))
             write_transcript(session_id, state)
             yield sse({"type": "speaker_end", "speaker": "facilitator", "citations": None})
             yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
@@ -695,6 +816,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         return StreamingResponse(capped_stream(), media_type="text/event-stream")
 
     state.messages = list(state.messages) + [HumanMessage(content=request.message)]
+    EVENT_STORE.append(session_id, "participant_message",
+                       {"text": request.message, "name": None,
+                        "addressee": None})
 
     from app.graph.nodes import (
         check_convergence,
@@ -722,12 +846,21 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # streaming path enables the full chain.
     from app.graph import governance
 
+    pre_closing_stage = state.closing_stage
     pre_turn = await governance.classify_pre_turn(
         state, request.message,
         include_epistemology=True,
         include_closing=True,
         include_modern_term=True,
     )
+    # classifier categories + applied relational-safety/closing state
+    # mutations, as events (§6.7 observability; A.4's diagnosis data)
+    _pre_events = _classifier_events(pre_turn)
+    if state.closing_stage != pre_closing_stage:
+        _pre_events.append(("closing_stage_changed",
+                            {"stage": state.closing_stage}))
+    EVENT_STORE.append_many(session_id, _pre_events)
+
     is_epistemology_bridge = pre_turn.is_epistemology_bridge
     is_frame_breaker = pre_turn.is_frame_breaker
     rs_classification = pre_turn.rs_classification
@@ -806,7 +939,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 return
 
             state.messages = list(state.messages) + [new_message]
-            sessions[session_id] = state
+            EVENT_STORE.append(session_id, "spoken_message",
+                               serialize_message(new_message))
             write_transcript(session_id, state)
 
             yield sse({
@@ -825,8 +959,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             # invocation. Does not count toward MIN/MAX_MULTI_WORLD_TURNS.
             # state.track_a_active/track_b_active/relational_safety_tags
             # were already updated on `state` before event_stream() was
-            # defined, so they're already reflected in `sessions[session_id]`
-            # even before this branch's own message is appended below.
+            # defined, and the matching rs_state_updated event was already
+            # appended to the log - so they're durable even before this
+            # branch's own message is appended below.
             yield sse({"type": "speaker_start", "speaker": "facilitator"})
             new_message = None
             try:
@@ -849,7 +984,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 return
 
             state.messages = list(state.messages) + [new_message]
-            sessions[session_id] = state
+            EVENT_STORE.append(session_id, "spoken_message",
+                               serialize_message(new_message))
             write_transcript(session_id, state)
 
             yield sse({
@@ -893,7 +1029,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 return
 
             state.messages = list(state.messages) + new_messages
-            sessions[session_id] = state
+            EVENT_STORE.append_many(session_id, [
+                ("spoken_message", serialize_message(m))
+                for m in new_messages])
             write_transcript(session_id, state)
 
             yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
@@ -932,9 +1070,18 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 yield sse({"type": "error", "message": str(exc)})
                 return
 
+            # §6.7: the bridge's reframe is a first-class logged event.
+            # Behavior-preserving at S4.2: logged for the audit trail, not
+            # yet rendered into any Representative's transcript view -
+            # persisting it INTO the transcript is S4.5's declared change.
+            EVENT_STORE.append(session_id, "bridge_reframe", {
+                "bridge": "modern_term", "match": modern_term_match})
+
             if not is_multi_world:
                 state.messages = list(state.messages) + new_messages
-                sessions[session_id] = state
+                EVENT_STORE.append_many(session_id, [
+                    ("spoken_message", serialize_message(m))
+                    for m in new_messages])
                 write_transcript(session_id, state)
 
                 yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
@@ -985,12 +1132,17 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 return
 
             state.messages = list(state.messages) + new_messages
-            sessions[session_id] = state
+            EVENT_STORE.append_many(session_id, [
+                ("spoken_message", serialize_message(m))
+                for m in new_messages])
             write_transcript(session_id, state)
 
             yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
             return
 
+        # everything already in state.messages is already in the event log;
+        # the round commit below events exactly what this round adds
+        round_base_len = len(state.messages)
         if is_modern_term_bridge:
             # Falls through from the multi-world bridge branch above (the
             # single-world case already returned there) - the bridge's own
@@ -1033,6 +1185,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                 # this specific representative from an earlier round - once
                 # delivered, it shouldn't repeat on every future turn.
                 guidance_for_speaker = state.pending_guidance.pop(world_id, None)
+                if guidance_for_speaker is not None:
+                    EVENT_STORE.append(session_id, "guidance_consumed",
+                                       {"world_id": world_id})
 
                 working_state = ConversationState(
                     messages=working_messages,
@@ -1130,7 +1285,15 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         state.turn_count = state.turn_count + turns_completed
         state.current_world_id = last_current_world_id
         state.requires_reroot = False
-        sessions[session_id] = state
+        EVENT_STORE.append_many(session_id, [
+            *[("spoken_message", serialize_message(m))
+              for m in working_messages[round_base_len:]],
+            ("turn_committed", {
+                "turn_count": state.turn_count,
+                "current_world_id": state.current_world_id,
+                "requires_reroot": False,
+            }),
+        ])
         write_transcript(session_id, state)
 
         yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
@@ -1147,10 +1310,11 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         # about offering a graceful close) with no reason for a failure in
         # one to silently take out the other too.
         # S4.1: the invisible-governance tail lives in the governance
-        # layer - table checks + per-message drift + the read-latest-merge
-        # write + wind-down sensing, each half fail-open (see
-        # governance.run_post_round_governance; original inline rationale
-        # in git history here)
+        # layer - table checks + per-message drift + wind-down sensing,
+        # each half fail-open. S4.2: its findings are APPENDED to the
+        # event log - the read-latest-merge (and the race it hand-patched)
+        # is gone structurally; an append can never clobber a message that
+        # arrived after "done" went out.
         governance.run_post_round_governance(
             state, request.message,
             working_messages=working_messages,
@@ -1159,7 +1323,6 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
             world_ids=world_ids,
             is_multi_world=is_multi_world,
             should_check_wind_down=should_check_wind_down,
-            sessions=sessions,
             session_id=session_id,
         )
 
@@ -1177,10 +1340,10 @@ async def get_session(session_id: str):
 
     Useful for reconnection or state inspection.
     """
-    if session_id not in sessions:
+    if not EVENT_STORE.has(session_id):
         raise HTTPException(status_code=404, detail="Session not found")
 
-    state = sessions[session_id]
+    state = EVENT_STORE.get_state(session_id)
 
     return SessionResponse(
         session_id=session_id,
@@ -1191,7 +1354,8 @@ async def get_session(session_id: str):
 
 
 @app.get("/api/session/{session_id}/audit")
-async def get_session_audit(session_id: str):
+async def get_session_audit(session_id: str, since_seq: int = 0,
+                            user: AuthedUser = Depends(get_audit_user)):
     """
     Get the full retrieval audit trail for a session, for review purposes.
 
@@ -1199,11 +1363,24 @@ async def get_session_audit(session_id: str):
     for participants), this includes every lexicon file the retriever
     considered for each representative turn - retrieved or skipped, and why -
     so a reviewer can see exactly what source material each answer drew on.
+
+    S4.2 (Pass 1 §6.7): durable and authenticated - it is Level 3's
+    backbone for live conversations. Durable: the session is projected
+    from the append-only event log, which persists to disk (and Supabase
+    when configured), so this endpoint survives a process restart instead
+    of dying with the in-memory dict. Authenticated: requires a signed-in
+    account once Supabase is configured (see auth.get_audit_user; dev/
+    unconfigured deployments stay open, matching the project-wide "off
+    until configured" discipline). Temporal query: the response now also
+    carries the raw event log (`events`), and `?since_seq=N` returns only
+    events after sequence N - all existing response fields are unchanged
+    (compatibility rule: participant-facing shapes only gain fields, never
+    change them).
     """
-    if session_id not in sessions:
+    if not EVENT_STORE.has(session_id):
         raise HTTPException(status_code=404, detail="Session not found")
 
-    state = sessions[session_id]
+    state = EVENT_STORE.get_state(session_id)
 
     turns = []
     for msg in state.messages:
@@ -1250,6 +1427,12 @@ async def get_session_audit(session_id: str):
             for s in state.drift_signals
         ],
         "turns": turns,
+        # additive (§6.7): the append-only event log itself - per-turn
+        # classifier categories, state transitions, spoken events - the
+        # temporal record the projection above is derived from
+        "events": [ev.to_json()
+                   for ev in EVENT_STORE.events(session_id,
+                                                since_seq=since_seq)],
     }
 
 

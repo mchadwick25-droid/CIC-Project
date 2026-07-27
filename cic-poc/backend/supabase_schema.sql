@@ -71,10 +71,29 @@ create table public.api_usage (
   created_at timestamptz not null default now()
 );
 
+-- 5b. session_events: the append-only conversation event log (S4.2,
+-- Pass 1 §6.7) — every spoken event, classifier decision, and state
+-- transition, in order. The backend's in-process projection is derived
+-- from exactly these rows' shape; this table is what makes the audit
+-- endpoint durable beyond a process restart. No foreign key to
+-- public.sessions on purpose: events for a session are appended before
+-- transcript_logging upserts the session row, and the log must never
+-- fail because a companion row doesn't exist yet.
+create table public.session_events (
+  id uuid primary key default gen_random_uuid(),
+  session_id uuid not null,
+  seq integer not null,
+  type text not null,
+  payload jsonb,
+  ts timestamptz not null default now(),
+  unique (session_id, seq)
+);
+
 -- Helpful indexes for the queries Mark will run to review activity per participant.
 create index idx_sessions_user_id on public.sessions(user_id);
 create index idx_messages_session_id on public.messages(session_id);
 create index idx_api_usage_user_id on public.api_usage(user_id);
+create index idx_session_events_session_id on public.session_events(session_id);
 
 -- Row-level security: enabled on everything by default. The backend talks to
 -- Postgres using the service-role key (which bypasses RLS entirely), so no
@@ -86,6 +105,7 @@ alter table public.pilot_requests enable row level security;
 alter table public.sessions enable row level security;
 alter table public.messages enable row level security;
 alter table public.api_usage enable row level security;
+alter table public.session_events enable row level security;
 
 -- Allow the pilot.html interest form to insert (not read) pilot_requests using
 -- the public anon key, if you choose to submit directly from the browser
