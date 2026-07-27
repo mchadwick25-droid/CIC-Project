@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S2.6 (contested_claim records)
-- **Last completed checkpoint:** S2.5 G+R (`gates/S2.5_reciprocity.md`, `reviews/S2.5_layer4.md`)
+- **Current step:** S2.7 (voice_profile + demonstration records)
+- **Last completed checkpoint:** S2.6 G+R (`gates/S2.6_contested_claims.md`, `reviews/S2.6_over_settling_probe.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -48,7 +48,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S2.3 | done | G + R×2 | All 9 terms: four senses (prior senses not in build docs marked UNVERIFIED, never asserted), voice_surface (plain register, ~60-word measure), semantic_domain, 3-axis confidence, 24 typed reciprocal field_relations absorbing EF (FLAG-002 parking removed; chunk EF verbatim on first edge for parity); coverage 9/9; reciprocity 0 violations; Round 1 caught P1 invented-aphorism class in 5 voice_surfaces (fixed); Round 2 clear (P2s only); known staged gap: world_core.gravities → S2.5 |
 | S2.4 | done | G + R | 8 story + 3 quote + 12 figure records (58/58 valid). Narratability gate's first real run fires 4× (Syncletica/Theodora/Poemen/Sisoes — prompt-named, unnarratable; routed to S2.9). Quote fidelity PERFORMED: Moses/Sarah verified vs Ward rendering (translation_used srcDES021); Arsenius matches no published translation → translation_used honestly unset, gate red documented, license paraphrase-only. FLAG-003 filed (Tier-4 composite owner requiredness). Occasions re-derived for 4-story sample — the Amma-Sarah wrong-occasion class is now data |
 | S2.5 | done | G + R | 10 gravity (named six tests, Doc_04 corrections preserved, softest-Primary flag carried) + 12 force records (3 cited layers + NEW Layer 4: 8 elaborations, 4 argued stasis cases); reciprocity 0 across whole graph; validator caught tension-with->competing enum fix (8 edges); world_core.gravities closed; 6 mirrored cross-cell force pairs; 80/80 valid |
-| S2.6 | pending | G + R | contested_claim; partners from unmigrated worlds' documents (F1 withdrawn) |
+| S2.6 | done | G + R | 6 records (one per Primary gravity, SS11 floor); all 5 SS3.7 fields non-empty on each; 7 held_against entries all traced to real contested material (Sarah/elders, Moses/council, tombs assault, Pachomian office model, zeal-vs-moderation, embeddedness record, in-world systematic mode); divergence_partners mapped from the 5 partner Doc_04s read directly; six-shapes probe found+fixed 2 defects in-round (claim003 strand-flattening P1, claim001 undocumented-exchange phrasing P2); 86/86 valid, no new gate violations |
 | S2.7 | pending | G + R | voice_profile + demonstration; CO-015 lesson both directions |
 | S2.7a | pending | G + R | Facilitation Brief human-judgment records on world_core |
 | S2.8 | pending | P ×3 (render, probe, retrieval) | swap commit only after all three parities green |
