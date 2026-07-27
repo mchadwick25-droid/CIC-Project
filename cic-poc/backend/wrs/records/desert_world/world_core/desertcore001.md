@@ -21,9 +21,19 @@ formation_logic: 'Doc_01 SS1 (verbatim): "withdrawal from settled village and ci
   or genuinely remote land, undertaken as the ascetic project itself - not merely a change of address
   but a formation method in which distance, solitude, manual labor, and susceptibility to demonic testing
   are themselves the curriculum."'
-gravities: []
+gravities:
+- desertgrav001
+- desertgrav002
+- desertgrav003
+- desertgrav004
+- desertgrav005
+- desertgrav006
+- desertgrav007
+- desertgrav008
+- desertgrav009
+- desertgrav010
 sources:
 - source_id: srcDES001
 - source_id: srcDES005
 ---
-Migrated at S2.1 (2026-07-26) from `World-Builds/Desert-Monasticism/CiC_W3_Doc01_World_Identification.md` (SS1, SS2) and `cic-poc/backend/app/world_manifest.py` (period). gravities[] deliberately empty until S2.5 authors the gravity records; pairing_guidance/cautions arrive at S2.7a.
+
