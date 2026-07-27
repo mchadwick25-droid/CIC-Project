@@ -14,8 +14,11 @@ names:
 - name: Theodora
   name_kind: scholarly
 narratable: false
-story_ids: []
+story_ids:
+- desertstory010
 attribution_note: 'Same standing as Syncletica: named in voice material''s honest-limits passage, no carried
   record.'
 ---
 S2.4 figure record (2026-07-27). SS3.6: named in voice-bearing records; narratable set from what the record set actually holds.
+
+CO-P2-07 (2026-07-27): allusion-only story desertstory010 linked; narratable stays false - nothing is scene-tellable, allusion is the license.

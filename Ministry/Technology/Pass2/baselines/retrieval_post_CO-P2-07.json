@@ -1,0 +1,887 @@
+{
+  "worlds": {
+    "desert-monasticism": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 2,
+            "violations[skip]": 1
+          },
+          "negative-condition": {
+            "mean_mrr": null,
+            "n": 4,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 4,
+            "violations[skip]": 1
+          },
+          "reactive-turn": {
+            "mean_mrr": 0.5,
+            "n": 2,
+            "pass_at_k[retrieve]": 0.5,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 0.5,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 0.7083,
+            "n": 6,
+            "pass_at_k[retrieve]": 0.6667,
+            "pass_at_k[skip]": 0.5,
+            "recall_at_k[retrieve]": 0.6667,
+            "recall_at_k[skip]": 0.5,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 1.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 1.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 19
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex003_hesychia": "auto",
+            "desertlex004_logismoi": "llm-vote",
+            "desertlex005_diakrisis": "llm-vote",
+            "desertlex008_apophthegma": "llm-vote",
+            "desertlex015_synaxis": "llm-vote",
+            "desertlex016_kellion": "llm-vote"
+          },
+          "id": "DES-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex003_hesychia",
+                "desertlex016_kellion",
+                "desertlex008_apophthegma"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex003_hesychia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex003_hesychia",
+            "desertlex016_kellion",
+            "desertlex008_apophthegma",
+            "desertlex004_logismoi",
+            "desertlex005_diakrisis",
+            "desertlex015_synaxis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex001_anachoresis": "llm-vote",
+            "desertlex003_hesychia": "llm-vote",
+            "desertlex004_logismoi": "auto",
+            "desertlex005_diakrisis": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex017_antirrhesis": "llm-vote"
+          },
+          "id": "DES-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex004_logismoi",
+                "desertlex017_antirrhesis",
+                "desertlex005_diakrisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex004_logismoi"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex004_logismoi",
+            "desertlex017_antirrhesis",
+            "desertlex005_diakrisis",
+            "desertlex011_apatheia",
+            "desertlex003_hesychia",
+            "desertlex001_anachoresis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex001_anachoresis": "auto",
+            "desertlex002_apotage": "llm-vote",
+            "desertlex007_cheironaxia": "llm-vote",
+            "desertlex010_xeniteia": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote"
+          },
+          "id": "DES-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex012_theoria",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex001_anachoresis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex001_anachoresis",
+            "desertlex012_theoria",
+            "desertlex002_apotage",
+            "desertlex010_xeniteia",
+            "desertlex011_apatheia",
+            "desertlex007_cheironaxia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex001_anachoresis": "llm-vote",
+            "desertlex002_apotage": "llm-vote",
+            "desertlex008_apophthegma": "auto",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex017_antirrhesis": "llm-vote"
+          },
+          "id": "DES-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex008_apophthegma",
+                "desertlex012_theoria",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex008_apophthegma"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex008_apophthegma",
+            "desertlex012_theoria",
+            "desertlex002_apotage",
+            "desertlex011_apatheia",
+            "desertlex001_anachoresis",
+            "desertlex017_antirrhesis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "auto",
+            "desertlex002_apotage": "llm-vote",
+            "desertlex009_koinonia": "llm-vote",
+            "desertlex010_xeniteia": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex015_synaxis": "llm-vote"
+          },
+          "id": "DES-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex010_xeniteia",
+                "desertlex009_koinonia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex001_anachoresis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex001_anachoresis",
+            "desertlex010_xeniteia",
+            "desertlex009_koinonia",
+            "desertlex002_apotage",
+            "desertlex011_apatheia",
+            "desertlex015_synaxis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "llm-vote",
+            "desertlex005_diakrisis": "llm-vote",
+            "desertlex007_cheironaxia": "llm-vote",
+            "desertlex010_xeniteia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex015_synaxis": "llm-vote"
+          },
+          "id": "DES-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.25,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex015_synaxis",
+                "desertlex012_theoria",
+                "desertlex005_diakrisis"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex015_synaxis",
+            "desertlex012_theoria",
+            "desertlex005_diakrisis",
+            "desertlex007_cheironaxia",
+            "desertlex001_anachoresis",
+            "desertlex010_xeniteia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex004_logismoi": "llm-vote",
+            "desertlex005_diakrisis": "auto",
+            "desertlex007_cheironaxia": "llm-vote",
+            "desertlex009_koinonia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex015_synaxis": "llm-vote"
+          },
+          "id": "DES-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex005_diakrisis",
+                "desertlex015_synaxis",
+                "desertlex007_cheironaxia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex005_diakrisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex005_diakrisis",
+            "desertlex015_synaxis",
+            "desertlex007_cheironaxia",
+            "desertlex009_koinonia",
+            "desertlex012_theoria",
+            "desertlex004_logismoi"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "llm-vote",
+            "desertlex005_diakrisis": "llm-vote",
+            "desertlex007_cheironaxia": "auto",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex014_nepsis": "llm-vote"
+          },
+          "id": "DES-TH-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex007_cheironaxia",
+                "desertlex011_apatheia",
+                "desertlex001_anachoresis"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex007_cheironaxia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex007_cheironaxia",
+            "desertlex011_apatheia",
+            "desertlex001_anachoresis",
+            "desertlex005_diakrisis",
+            "desertlex014_nepsis",
+            "desertlex012_theoria"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "auto",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "llm-vote",
+            "desertstory009_amma-syncletica-among-the-named-mothers": "llm-vote",
+            "desertstory010_amma-theodora-among-the-named-mothers": "llm-vote"
+          },
+          "id": "DES-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory001_antonys-call-matthew-19-21",
+                "desertstory010_amma-theodora-among-the-named-mothers"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertstory001_antonys-call-matthew-19-21"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory001_antonys-call-matthew-19-21",
+            "desertstory010_amma-theodora-among-the-named-mothers",
+            "desertstory009_amma-syncletica-among-the-named-mothers",
+            "desertstory003_pachomius-founding-koinonia-tabennesi"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "llm-vote",
+            "desertstory006_sarah-answer-to-elders": "llm-vote",
+            "desertstory009_amma-syncletica-among-the-named-mothers": "llm-vote",
+            "desertstory010_amma-theodora-among-the-named-mothers": "llm-vote"
+          },
+          "id": "DES-TH-06",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory006_sarah-answer-to-elders",
+                "desertstory010_amma-theodora-among-the-named-mothers"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory006_sarah-answer-to-elders",
+            "desertstory010_amma-theodora-among-the-named-mothers",
+            "desertstory009_amma-syncletica-among-the-named-mothers",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "desertlex003_hesychia": "auto",
+            "desertlex004_logismoi": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex014_nepsis": "llm-vote",
+            "desertlex017_antirrhesis": "llm-vote"
+          },
+          "id": "DES-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex003_hesychia",
+                "desertlex014_nepsis",
+                "desertlex012_theoria"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex003_hesychia"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertlex003_hesychia"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex003_hesychia"
+              ]
+            }
+          },
+          "ranked_candidates": [
+            "desertlex003_hesychia",
+            "desertlex014_nepsis",
+            "desertlex012_theoria",
+            "desertlex004_logismoi",
+            "desertlex011_apatheia",
+            "desertlex017_antirrhesis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "llm-vote",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "llm-vote",
+            "desertstory004_moses-leaking-jug": "llm-vote",
+            "desertstory006_sarah-answer-to-elders": "llm-vote"
+          },
+          "id": "DES-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory006_sarah-answer-to-elders",
+                "desertstory004_moses-leaking-jug"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertstory004_moses-leaking-jug"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory006_sarah-answer-to-elders",
+            "desertstory004_moses-leaking-jug",
+            "desertstory002_antony-withdrawal-outer-inner-mountain",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertlex003_hesychia": "llm-vote",
+            "desertlex004_logismoi": "llm-vote",
+            "desertlex006_geron-abba-amma": "llm-vote",
+            "desertlex009_koinonia": "auto",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex015_synaxis": "llm-vote"
+          },
+          "id": "DES-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex009_koinonia",
+                "desertlex015_synaxis",
+                "desertlex003_hesychia"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex003_hesychia"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertlex009_koinonia"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex009_koinonia",
+            "desertlex015_synaxis",
+            "desertlex003_hesychia",
+            "desertlex006_geron-abba-amma",
+            "desertlex012_theoria",
+            "desertlex004_logismoi"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertlex003_hesychia": "llm-vote",
+            "desertlex005_diakrisis": "llm-vote",
+            "desertlex009_koinonia": "auto",
+            "desertlex010_xeniteia": "llm-vote",
+            "desertlex015_synaxis": "llm-vote",
+            "desertlex016_kellion": "llm-vote"
+          },
+          "id": "DES-NC-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex009_koinonia",
+                "desertlex016_kellion",
+                "desertlex015_synaxis"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex009_koinonia"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertlex009_koinonia"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex009_koinonia"
+              ]
+            }
+          },
+          "ranked_candidates": [
+            "desertlex009_koinonia",
+            "desertlex016_kellion",
+            "desertlex015_synaxis",
+            "desertlex005_diakrisis",
+            "desertlex003_hesychia",
+            "desertlex010_xeniteia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "llm-vote",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "llm-vote",
+            "desertstory005_arsenius-flee-be-still": "llm-vote",
+            "desertstory007_antony-combat-in-tombs": "llm-vote"
+          },
+          "id": "DES-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory007_antony-combat-in-tombs",
+                "desertstory005_arsenius-flee-be-still"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertstory005_arsenius-flee-be-still"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory007_antony-combat-in-tombs",
+            "desertstory005_arsenius-flee-be-still",
+            "desertstory003_pachomius-founding-koinonia-tabennesi",
+            "desertstory002_antony-withdrawal-outer-inner-mountain"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "llm-vote",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "auto",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "llm-vote",
+            "desertstory007_antony-combat-in-tombs": "llm-vote"
+          },
+          "id": "DES-NC-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory007_antony-combat-in-tombs",
+                "desertstory002_antony-withdrawal-outer-inner-mountain"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertstory007_antony-combat-in-tombs"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertstory002_antony-withdrawal-outer-inner-mountain"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory007_antony-combat-in-tombs",
+            "desertstory002_antony-withdrawal-outer-inner-mountain",
+            "desertstory001_antonys-call-matthew-19-21",
+            "desertstory003_pachomius-founding-koinonia-tabennesi"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "desertlex004_logismoi": "llm-vote",
+            "desertlex009_koinonia": "auto",
+            "desertlex010_xeniteia": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex015_synaxis": "llm-vote"
+          },
+          "id": "DES-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex015_synaxis",
+                "desertlex009_koinonia",
+                "desertlex010_xeniteia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex009_koinonia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex015_synaxis",
+            "desertlex009_koinonia",
+            "desertlex010_xeniteia",
+            "desertlex012_theoria",
+            "desertlex011_apatheia",
+            "desertlex004_logismoi"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "llm-vote",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "llm-vote",
+            "desertstory007_antony-combat-in-tombs": "llm-vote",
+            "desertstory008_day-in-a-kellia-cell": "llm-vote"
+          },
+          "id": "DES-RT-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory008_day-in-a-kellia-cell",
+                "desertstory007_antony-combat-in-tombs"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory008_day-in-a-kellia-cell",
+            "desertstory007_antony-combat-in-tombs",
+            "desertstory002_antony-withdrawal-outer-inner-mountain",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "desertlex006_geron-abba-amma": "llm-vote",
+            "desertlex008_apophthegma": "auto",
+            "desertlex009_koinonia": "llm-vote",
+            "desertlex011_apatheia": "llm-vote",
+            "desertlex012_theoria": "llm-vote",
+            "desertlex017_antirrhesis": "llm-vote"
+          },
+          "id": "DES-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex011_apatheia",
+                "desertlex008_apophthegma",
+                "desertlex012_theoria"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex008_apophthegma"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex011_apatheia",
+            "desertlex008_apophthegma",
+            "desertlex012_theoria",
+            "desertlex017_antirrhesis",
+            "desertlex006_geron-abba-amma",
+            "desertlex009_koinonia"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    }
+  }
+}

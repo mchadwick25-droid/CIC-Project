@@ -171,6 +171,12 @@ def gate_figure_narratability(records: dict, voice_material: str) -> list:
     for rid, r in records.items():
         if r.get("record_type") != "figure" or r.get("narratable") is not False:
             continue
+        # CO-P2-07 (Mark, 2026-07-27): a figure carrying an
+        # accepted_refusal_note is a DOCUMENTED decision that refusal is
+        # the design (the live-tested guard) - quiet by decision recorded
+        # on the record itself, not by suppression
+        if r.get("accepted_refusal_note"):
+            continue
         names = [n.get("name", "") for n in r.get("names") or []]
         mentioned = [n for n in names if n and n.lower() in vm]
         if not mentioned:

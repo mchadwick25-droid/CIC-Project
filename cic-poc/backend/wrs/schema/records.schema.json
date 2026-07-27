@@ -319,6 +319,7 @@
           }
         },
         "narratable": {"type": "boolean"},
+        "accepted_refusal_note": {"type": "string", "$comment": "CO-P2-07 (Mark, 2026-07-27): documents a deliberate decision that this prompt-named figure stays refusal-only (no story authored, the guard's refusal is the design); presence quiets the narratability gate by documented decision, not suppression"},
         "story_ids": {"type": "array", "items": {"type": "string"}},
         "attribution_note": {"type": "string"}
       },

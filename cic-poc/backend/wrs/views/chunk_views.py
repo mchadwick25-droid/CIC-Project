@@ -235,7 +235,7 @@ def main() -> None:
         (lex_out / name).write_text(render_lexicon_chunk(t, terms),
                                     encoding="utf-8")
     for rid, s in stories.items():
-        name = deployed_name(rid, DEPLOYED_STORY)
+        name = deployed_name(rid, DEPLOYED_STORY, s.get("title", ""))
         (story_out / name).write_text(render_story_chunk(s),
                                       encoding="utf-8")
     print(f"staged {len(terms)} lexicon + {len(stories)} story chunks -> {STAGING}")
