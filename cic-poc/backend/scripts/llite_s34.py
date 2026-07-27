@@ -114,9 +114,14 @@ def main() -> None:
     counter = UsageCounter()
     logging.getLogger("cic.llm_usage").addHandler(counter)
 
+    # optional world filter (argv[2:]) - used to run the remainder after
+    # the 2026-07-27 API-limit interruption without repeating paid turns
+    only = set(sys.argv[2:])
+    battery = [(w, t) for w, t in BATTERY if not only or w in only]
+
     client = TestClient(app)
     with OUT.open("w", encoding="utf-8") as f:
-        for wid, turns in BATTERY:
+        for wid, turns in battery:
             r = client.post("/api/session/start", json={"world_id": wid})
             r.raise_for_status()
             sid = r.json()["session_id"]

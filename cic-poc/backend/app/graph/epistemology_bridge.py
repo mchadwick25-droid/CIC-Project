@@ -145,6 +145,10 @@ def stream_epistemology_bridge(state: ConversationState):
     )
     working_state = ConversationState(
         messages=list(state.messages) + [HumanMessage(content=handback_message)],
+        # S3.5 (Pass 1 R9): retrieval searches the participant's own
+        # original question (already standalone), not the handback
+        # boilerplate written for no world in particular
+        retrieval_query_override=last_human_message,
         phase=state.phase,
         current_speaker="representative",
         current_world_id=world_id,

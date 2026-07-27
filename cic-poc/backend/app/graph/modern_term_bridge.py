@@ -238,6 +238,10 @@ def stream_modern_term_bridge(state: ConversationState, match: dict):
     )
     working_state = ConversationState(
         messages=list(state.messages) + [HumanMessage(content=handback_message)],
+        # S3.5 (Pass 1 R9): retrieval searches the extracted SUBJECT, not
+        # this handback boilerplate - the bridge already computed the
+        # underlying subject deterministically, no extra call needed
+        retrieval_query_override=subject,
         phase=state.phase,
         current_speaker="representative",
         current_world_id=match["world_id"],

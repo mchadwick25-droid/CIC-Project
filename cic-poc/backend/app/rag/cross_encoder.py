@@ -37,13 +37,16 @@ from langchain_core.documents import Document
 # on participant text, and dies naturally when S3.5 replaces the
 # concatenation.
 RELEVANCE_THRESHOLD = -4.0
-RELEVANCE_THRESHOLD_REACTIVE = -11.0
-REACTIVE_MARKER = " just said: "
+# S3.5 retired the reactive-marker lenient floor: the runtime's own
+# "just said:" concatenation no longer exists (rewrite_query replaces
+# it), so every query reaching this scorer is standalone. threshold_for
+# is kept as the single lookup point (now constant) so call sites did
+# not need to change shape.
 
 
 def threshold_for(query: str) -> float:
-    return (RELEVANCE_THRESHOLD_REACTIVE if REACTIVE_MARKER in query
-            else RELEVANCE_THRESHOLD)
+    return RELEVANCE_THRESHOLD
+
 
 _model = None
 

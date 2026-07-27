@@ -155,8 +155,13 @@ def eval_case(case, retrievers, own_stems):
     must = case.get("must", []) or []
     must_not = case.get("must_not", []) or []
 
+    # S3.5: reactive cases carry a committed fixture rewrite (generated
+    # ONCE live from the real rewrite path) - the deterministic stand-in
+    # for the runtime's one Haiku rewrite call; the raw query field keeps
+    # documenting the pre-rewrite shape
     ranked, finals, decisions = replay(
-        retriever, label_key, case["query"], case.get("context", ""), k,
+        retriever, label_key, case.get("rewritten") or case["query"],
+        case.get("context", ""), k,
         context_surfaced=case.get("surfaced"))
 
     # structural cross-world isolation: every candidate must be one of this

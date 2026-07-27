@@ -94,6 +94,15 @@ class ConversationState:
     # because those are global to "whoever spoke last," not per-representative.
     pending_guidance: dict[str, str] = field(default_factory=dict)
 
+    # S3.5 (Pass 1 R9): a standalone retrieval query supplied by an
+    # intercept for the NEXT representative turn, consumed once. The
+    # bridges set it so retrieval searches the participant's actual
+    # subject instead of handback boilerplate written for no world in
+    # particular (the modern-term bridge sets the extracted subject; the
+    # epistemology bridge sets the participant's own original question -
+    # both deterministic, no extra LLM call).
+    retrieval_query_override: Optional[str] = None
+
     # S3.3 (Pass 1 R4): the ID-keyed session exclusion set - chunk ids
     # (source_file stems) already surfaced into a representative's context
     # this session, keyed by world_id. Replaces the two substring de-dup

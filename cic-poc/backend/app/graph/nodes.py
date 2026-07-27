@@ -943,12 +943,33 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     # Build the public transcript - what has been said at The Table
     public_transcript = build_public_transcript(state)
 
-    # Retrieve relevant lexicon context - anchored to what was just said when
-    # reactive, so retrieval surfaces material for THIS exchange rather than
-    # a fresh independent answer to the original question.
-    retrieval_query = last_human_message
-    if last_other_rep_message:
-        retrieval_query = f"{last_human_message}\n\n{last_other_rep_display_name} just said: {last_other_rep_message}"
+    # Retrieve relevant lexicon context. S3.5 (Pass 1 R9): the query must
+    # be standalone and world-appropriate -
+    # 1. an intercept (bridge) may have supplied the real subject as an
+    #    override (consumed once) - previously its handback boilerplate
+    #    drove the search;
+    # 2. a reactive turn gets ONE Haiku rewrite folding the topic (not
+    #    the wording) of what was just said into a standalone query -
+    #    previously another world's full turn text drove this world's
+    #    vector search (the measured cross-encoder noise-band failure);
+    # 3. a plain participant message is already standalone.
+    # rewrite_query is fail-open: any failure returns the legacy
+    # concatenation, degrading to exactly the old behavior.
+    if state.retrieval_query_override:
+        retrieval_query = state.retrieval_query_override
+        state.retrieval_query_override = None
+    elif last_other_rep_message:
+        from app.rag.query_rewrite import rewrite_query
+        try:
+            _wname = settings.get_world_config(current_world_id).name
+        except Exception:
+            _wname = "a historical Christian community"
+        retrieval_query = rewrite_query(
+            get_monitoring_llm(), last_human_message,
+            last_other_rep_display_name, last_other_rep_message,
+            world_name=_wname)
+    else:
+        retrieval_query = last_human_message
 
     # Lexicon and story retrieval are independent (different vector stores,
     # different filter-LLM calls) and were previously run sequentially,

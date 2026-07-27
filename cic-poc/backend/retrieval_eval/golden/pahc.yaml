@@ -1,135 +1,139 @@
-# S1.2 golden retrieval cases - Post-Apostolic House Church
-# Authored 2026-07-26 against data/pahc_world/{lexicon_chunks,story_chunks}
-# front-matter. IDs are source_file stems. Conventions: see golden/syriac.yaml.
-
 world_id: post-apostolic-house-church
 cases:
-  # --- verbatim-term ---
-  - id: PAHC-VT-01
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is an episkopos?"
-    must: [pahclex001_episkopos]
-  - id: PAHC-VT-02
-    category: verbatim-term
-    retriever: lexicon
-    query: "What was the agape - the love-feast?"
-    must: [pahclex010_agape-label]
-  - id: PAHC-VT-03
-    category: verbatim-term
-    retriever: lexicon
-    query: "What does ekklesia mean?"
-    must: [pahclex003_ekklesia]
-  - id: PAHC-VT-04
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is the eucharistia?"
-    must: [pahclex004_eucharistia]
+- id: PAHC-VT-01
+  category: verbatim-term
+  retriever: lexicon
+  query: What is an episkopos?
+  must:
+  - pahclex001_episkopos
+- id: PAHC-VT-02
+  category: verbatim-term
+  retriever: lexicon
+  query: What was the agape - the love-feast?
+  must:
+  - pahclex010_agape-label
+- id: PAHC-VT-03
+  category: verbatim-term
+  retriever: lexicon
+  query: What does ekklesia mean?
+  must:
+  - pahclex003_ekklesia
+- id: PAHC-VT-04
+  category: verbatim-term
+  retriever: lexicon
+  query: What is the eucharistia?
+  must:
+  - pahclex004_eucharistia
+- id: PAHC-TH-01
+  category: thematic
+  retriever: lexicon
+  query: Who led your communities - was there one leader, or many elders together?
+  must:
+  - pahclex001_episkopos
+  - pahclex002_presbyteros
+- id: PAHC-TH-02
+  category: thematic
+  retriever: lexicon
+  query: How did someone prepare to be baptized and join the community?
+  must:
+  - pahclex011_baptisma
+  - pahclex007_two-ways
+- id: PAHC-TH-03
+  category: thematic
+  retriever: lexicon
+  query: When a traveling teacher arrived claiming to speak for God, how did you know whether
+    to trust them?
+  must:
+  - pahclex008_prophetes
+- id: PAHC-TH-04
+  category: thematic
+  retriever: lexicon
+  query: Were there women serving as ministers among you?
+  must:
+  - pahclex009_ministrae
+- id: PAHC-TH-05
+  category: thematic
+  retriever: story
+  query: What did a Sunday gathering actually look like?
+  must:
+  - pahcstory006_justin-sunday-gathering
+- id: PAHC-TH-06
+  category: thematic
+  retriever: story
+  query: When leaders of one church were thrown out by their own community, what happened?
+  must:
+  - pahcstory002_1clement-corinthian-dispute
+- id: PAHC-DD-01
+  category: de-dup
+  retriever: lexicon
+  query: Tell me more about that overseer role.
+  context: 'Chloe: The episkopos is the overseer - I have just described the episkopos at length,
+    how the office stood among the presbyters and how Ignatius argued for one bishop at the
+    center of each assembly.'
+  must_not:
+  - pahclex001_episkopos
+  surfaced:
+  - pahclex001_episkopos
+  notes: 'Composite-Term de-dup gap, third world (see SYR-DD-01, DES-DD-01): metadata Term is
+    "episkopos (with Greek script)", which plain "episkopos" in context never matches.'
+- id: PAHC-DD-02
+  category: de-dup
+  retriever: story
+  query: So how did the Roman authorities actually deal with Christians back then?
+  context: 'Chloe: I told you the story of Pliny''s Interrogation in Bithynia-Pontus already
+    - the governor''s letter to Trajan, the test of the images, the two ministrae he tortured,
+    and the emperor''s reply. That full account has been given.'
+  must_not:
+  - pahcstory004_pliny-interrogation
+  surfaced:
+  - pahcstory004_pliny-interrogation
+- id: PAHC-NC-01
+  category: negative-condition
+  retriever: lexicon
+  query: Explain the role of bishops in the modern Catholic Church.
+  must_not:
+  - pahclex001_episkopos
+  notes: 'Do-Not-Retrieve-When: modern denominational structure, no connection to this period.'
+- id: PAHC-NC-02
+  category: negative-condition
+  retriever: lexicon
+  query: Tell me about transubstantiation and the modern debates over eucharistic theology.
+  must_not:
+  - pahclex004_eucharistia
+- id: PAHC-NC-03
+  category: negative-condition
+  retriever: story
+  query: I'm grieving a death in my family right now - what did your people believe about dying?
+  must_not:
+  - pahcstory001_ignatius-guarded-journey
+  notes: 'The story''s own Do-Not-Retrieve-When: acute personal grief - a man processing his
+    own execution should not arrive unprompted. (The live system''s relational-safety intercept
+    sits in front of retrieval; this case measures the chunk-level guard on its own.)'
+- id: PAHC-NC-04
+  category: negative-condition
+  retriever: story
+  query: Who was Peregrinus? Tell me about his life and his standing among the Christians.
+  must_not:
+  - pahcstory013_mutual-aid-prisoner
+  notes: The story explicitly refuses to serve as a Peregrinus biography.
+- id: PAHC-RT-01
+  category: reactive-turn
+  retriever: lexicon
+  query: 'How did each of your communities decide who could lead?
 
-  # --- thematic ---
-  - id: PAHC-TH-01
-    category: thematic
-    retriever: lexicon
-    query: "Who led your communities - was there one leader, or many elders together?"
-    must: [pahclex001_episkopos, pahclex002_presbyteros]
-  - id: PAHC-TH-02
-    category: thematic
-    retriever: lexicon
-    query: "How did someone prepare to be baptized and join the community?"
-    must: [pahclex011_baptisma, pahclex007_two-ways]
-  - id: PAHC-TH-03
-    category: thematic
-    retriever: lexicon
-    query: "When a traveling teacher arrived claiming to speak for God, how did you know whether to trust them?"
-    must: [pahclex008_prophetes]
-  - id: PAHC-TH-04
-    category: thematic
-    retriever: lexicon
-    query: "Were there women serving as ministers among you?"
-    must: [pahclex009_ministrae]
-  - id: PAHC-TH-05
-    category: thematic
-    retriever: story
-    query: "What did a Sunday gathering actually look like?"
-    must: [pahcstory006_justin-sunday-gathering]
-  - id: PAHC-TH-06
-    category: thematic
-    retriever: story
-    query: "When leaders of one church were thrown out by their own community, what happened?"
-    must: [pahcstory002_1clement-corinthian-dispute]
 
-  # --- de-dup ---
-  - id: PAHC-DD-01
-    category: de-dup
-    retriever: lexicon
-    query: "Tell me more about that overseer role."
-    context: >-
-      Chloe: The episkopos is the overseer - I have just described the
-      episkopos at length, how the office stood among the presbyters and how
-      Ignatius argued for one bishop at the center of each assembly.
-    must_not: [pahclex001_episkopos]
-    surfaced: [pahclex001_episkopos]
-    notes: >-
-      Composite-Term de-dup gap, third world (see SYR-DD-01, DES-DD-01):
-      metadata Term is "episkopos (with Greek script)", which plain
-      "episkopos" in context never matches.
-  - id: PAHC-DD-02
-    category: de-dup
-    retriever: story
-    query: "So how did the Roman authorities actually deal with Christians back then?"
-    context: >-
-      Chloe: I told you the story of Pliny's Interrogation in Bithynia-Pontus
-      already - the governor's letter to Trajan, the test of the images, the
-      two ministrae he tortured, and the emperor's reply. That full account
-      has been given.
-    must_not: [pahcstory004_pliny-interrogation]
-    surfaced: [pahcstory004_pliny-interrogation]
+    Papnoute just said: Among us there is no office to seek - a man or woman
 
-  # --- negative-condition ---
-  - id: PAHC-NC-01
-    category: negative-condition
-    retriever: lexicon
-    query: "Explain the role of bishops in the modern Catholic Church."
-    must_not: [pahclex001_episkopos]
-    notes: "Do-Not-Retrieve-When: modern denominational structure, no connection to this period."
-  - id: PAHC-NC-02
-    category: negative-condition
-    retriever: lexicon
-    query: "Tell me about transubstantiation and the modern debates over eucharistic theology."
-    must_not: [pahclex004_eucharistia]
-  - id: PAHC-NC-03
-    category: negative-condition
-    retriever: story
-    query: "I'm grieving a death in my family right now - what did your people believe about dying?"
-    must_not: [pahcstory001_ignatius-guarded-journey]
-    notes: >-
-      The story's own Do-Not-Retrieve-When: acute personal grief - a man
-      processing his own execution should not arrive unprompted. (The live
-      system's relational-safety intercept sits in front of retrieval; this
-      case measures the chunk-level guard on its own.)
-  - id: PAHC-NC-04
-    category: negative-condition
-    retriever: story
-    query: "Who was Peregrinus? Tell me about his life and his standing among the Christians."
-    must_not: [pahcstory013_mutual-aid-prisoner]
-    notes: "The story explicitly refuses to serve as a Peregrinus biography."
+    goes further into the desert, and it is the elder''s own life, tested and
 
-  # --- reactive-turn ---
-  - id: PAHC-RT-01
-    category: reactive-turn
-    retriever: lexicon
-    query: |-
-      How did each of your communities decide who could lead?
+    seen, that draws disciples; authority is the charisma of the geron, the
 
-      Papnoute just said: Among us there is no office to seek - a man or woman
-      goes further into the desert, and it is the elder's own life, tested and
-      seen, that draws disciples; authority is the charisma of the geron, the
-      abba or amma whose word has been proven in the cell.
-    must: [pahclex001_episkopos]
-
-  # --- cross-world-isolation ---
-  - id: PAHC-XW-01
-    category: cross-world-isolation
-    retriever: lexicon
-    query: "Tell me about the qyama - the sons and daughters of the covenant."
-    notes: "Syriac term against the PAHC index; isolation asserted structurally."
+    abba or amma whose word has been proven in the cell.'
+  must:
+  - pahclex001_episkopos
+  rewritten: Leadership selection and authority practices in house-churches
+- id: PAHC-XW-01
+  category: cross-world-isolation
+  retriever: lexicon
+  query: Tell me about the qyama - the sons and daughters of the covenant.
+  notes: Syriac term against the PAHC index; isolation asserted structurally.

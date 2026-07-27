@@ -53,10 +53,10 @@ _REWRITE_MODEL = "claude-haiku-4-5-20251001"
 
 REWRITE_PROMPT = """Rewrite this conversational moment as ONE standalone retrieval query.
 
-The query will search a historical world's own indexed material (terms, stories). It must:
-- name the actual subject being asked about, in plain topical words
+The query retrieves from the indexed records of this community: {world_name}. It must:
+- name the shared subject being asked about, in plain topical words (e.g. "possessions and wealth practices", "daily life rhythm")
 - carry any key vocabulary the participant themselves used
-- include the specific angle the immediately-preceding speaker raised ONLY if the participant is engaging it
+- NEVER carry another community's names, institutions, or native vocabulary (the previous speaker represents a DIFFERENT community; their terms poison this index's search)
 - contain NO speaker names, no "just said", no meta-language about the conversation
 
 Participant's message: {participant}
@@ -65,14 +65,15 @@ Participant's message: {participant}
 
 Respond with the standalone query only - one line, no quotes, no commentary."""
 
-REACTIVE_BLOCK = """Another representative spoke immediately before ({other_name}): {other_msg}
+REACTIVE_BLOCK = """A representative of a DIFFERENT community spoke immediately before ({other_name}): {other_msg}
 
-The participant may be responding to that turn - fold its TOPIC (not its wording) into the query only where the participant is engaging it."""
+Use that turn only to see what shared subject the participant is engaging - the general topic, stripped of that community's own names and vocabulary. The query must read as if asked fresh, about the subject itself."""
 
 
 def rewrite_query(llm, participant_msg: str,
                   other_rep_name: str | None = None,
-                  other_rep_msg: str | None = None) -> str:
+                  other_rep_msg: str | None = None,
+                  world_name: str = "a historical Christian community") -> str:
     """One Haiku call -> a standalone retrieval query. Fail-open: any
     error returns the legacy concatenation so retrieval behavior
     degrades to exactly today's, never to nothing."""
@@ -86,7 +87,8 @@ def rewrite_query(llm, participant_msg: str,
             reactive = REACTIVE_BLOCK.format(other_name=other_rep_name or "another representative",
                                               other_msg=other_rep_msg[:600])
         response = llm.invoke(REWRITE_PROMPT.format(
-            participant=participant_msg, reactive_block=reactive))
+            world_name=world_name, participant=participant_msg,
+            reactive_block=reactive))
         log_llm_usage("query_rewrite", response, _REWRITE_MODEL)
         text = response.content if isinstance(response.content, str) else str(response.content)
         text = text.strip().splitlines()[0].strip().strip('"')

@@ -1,177 +1,167 @@
-# S1.2 golden retrieval cases - Desert Monasticism
-# Authored 2026-07-26 against data/desert_world/{lexicon_chunks,story_chunks}
-# front-matter. IDs are source_file stems. See run_eval.py for bracket-policy
-# semantics and golden/syriac.yaml for the shared authoring conventions.
-#
-# World-specific facts encoded:
-#   - 5 of 9 lexicon chunks carry a literal "Do-Not-Retrieve-When: -" em-dash
-#     sentinel (desertlex004-008). The indexer stores it as a truthy string,
-#     so these chunks are routed to the LLM vote as if they carried a real
-#     condition (evaluate_batch's no-conditions local resolve never fires).
-#     DES-VT-02's decision path records this; S3.3's typed nulls clear it.
-#   - The composite-Term de-dup gap found by the Syriac set (SYR-DD-01) is
-#     re-tested here for generality (DES-DD-01): Desert Terms are also
-#     composite ("Hesychia (Stillness)"), so a context saying "hesychia"
-#     never matches the already_discussed proxy.
-
 world_id: desert-monasticism
 cases:
-  # --- verbatim-term ---
-  - id: DES-VT-01
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is hesychia?"
-    must: [desertlex003_hesychia]
-  - id: DES-VT-02
-    category: verbatim-term
-    retriever: lexicon
-    query: "What are the logismoi?"
-    must: [desertlex004_logismoi]
-    notes: >-
-      Chunk carries the literal em-dash Do-Not-Retrieve-When sentinel; the
-      truthy string routes it to the LLM vote despite having no real
-      condition. The baseline's 'decisions' field records the routing.
-  - id: DES-VT-03
-    category: verbatim-term
-    retriever: lexicon
-    query: "What does anachoresis actually mean?"
-    must: [desertlex001_anachoresis]
-  - id: DES-VT-04
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is an apophthegma?"
-    must: [desertlex008_apophthegma]
+- id: DES-VT-01
+  category: verbatim-term
+  retriever: lexicon
+  query: What is hesychia?
+  must:
+  - desertlex003_hesychia
+- id: DES-VT-02
+  category: verbatim-term
+  retriever: lexicon
+  query: What are the logismoi?
+  must:
+  - desertlex004_logismoi
+  notes: Chunk carries the literal em-dash Do-Not-Retrieve-When sentinel; the truthy string
+    routes it to the LLM vote despite having no real condition. The baseline's 'decisions' field
+    records the routing.
+- id: DES-VT-03
+  category: verbatim-term
+  retriever: lexicon
+  query: What does anachoresis actually mean?
+  must:
+  - desertlex001_anachoresis
+- id: DES-VT-04
+  category: verbatim-term
+  retriever: lexicon
+  query: What is an apophthegma?
+  must:
+  - desertlex008_apophthegma
+- id: DES-TH-01
+  category: thematic
+  retriever: lexicon
+  query: Why did people leave ordinary village life for the desert?
+  must:
+  - desertlex001_anachoresis
+- id: DES-TH-02
+  category: thematic
+  retriever: lexicon
+  query: How did the ascetics support themselves day to day?
+  must:
+  - desertlex007_cheironaxia
+- id: DES-TH-03
+  category: thematic
+  retriever: lexicon
+  query: How did you decide how much fasting was enough, and how much was too much?
+  must:
+  - desertlex005_diakrisis
+- id: DES-TH-04
+  category: thematic
+  retriever: lexicon
+  query: When someone new arrived, who taught them how to live this life?
+  must:
+  - desertlex006_geron-abba-amma
+- id: DES-TH-05
+  category: thematic
+  retriever: story
+  query: How did this whole way of life begin - what first called someone into the desert?
+  must:
+  - desertstory001_antonys-call-matthew-19-21
+- id: DES-TH-06
+  category: thematic
+  retriever: story
+  query: Were there women living this life in the desert too?
+  must:
+  - desertstory006_sarah-answer-to-elders
+- id: DES-DD-01
+  category: de-dup
+  retriever: lexicon
+  query: Say more about that stillness.
+  context: 'Papnoute: Hesychia is what we seek - the stillness that is not mere quiet but the
+    settled attention of a heart no longer scattered. I have just described hesychia at length,
+    its place as the goal of the cell and the fruit of watchfulness.'
+  must_not:
+  - desertlex003_hesychia
+  surfaced:
+  - desertlex003_hesychia
+  notes: 'Generality check on the composite-Term de-dup gap (see SYR-DD-01): the metadata Term
+    is "Hesychia (Stillness)" with macrons, which a context containing plain "hesychia" never
+    matches, so the already_discussed proxy cannot fire and the duplicate auto-retrieves deterministically.'
+- id: DES-DD-02
+  category: de-dup
+  retriever: story
+  query: Tell me again how the elders learned not to judge a brother who failed.
+  context: 'Papnoute: Let me tell you the story of Abba Moses and the Leaking Jug. When the
+    elders summoned him to judge a failing brother, Moses came carrying a jug that leaked sand
+    behind him - my sins run out behind me where I cannot see them, and I come to judge another.
+    I have told this story already, in full.'
+  must_not:
+  - desertstory004_moses-leaking-jug
+  surfaced:
+  - desertstory004_moses-leaking-jug
+  notes: Story title appears verbatim in context, so the substring guard reroutes it to the
+    LLM vote; under vote=retrieve the story repeats (same open retrieval-layer cause as SYR-DD-02
+    / commit 1252fd4).
+- id: DES-NC-01
+  category: negative-condition
+  retriever: lexicon
+  query: Tell me about the Byzantine hesychast movement and the Jesus Prayer.
+  must_not:
+  - desertlex003_hesychia
+  notes: hesychia's Do-Not-Retrieve-When excludes the later hesychast movement (not native to
+    the c. 320s-430 window).
+- id: DES-NC-02
+  category: negative-condition
+  retriever: lexicon
+  query: Did the solitary hermits out at the far cells follow the koinonia's written rule?
+  must_not:
+  - desertlex009_koinonia
+  notes: 'koinonia''s Do-Not-Retrieve-When: solitary ascetics are the topic.'
+- id: DES-NC-03
+  category: negative-condition
+  retriever: story
+  query: What was Arsenius's career at the imperial court like - tell me the details of his
+    position and duties.
+  must_not:
+  - desertstory005_arsenius-flee-be-still
+  notes: The story's Do-Not-Retrieve-When forbids elaborating the court-career frame beyond
+    its own thin evidence base.
+- id: DES-NC-04
+  category: negative-condition
+  retriever: story
+  query: Give me the documented history of what actually happened to Antony in the tombs - the
+    verified facts.
+  must_not:
+  - desertstory007_antony-combat-in-tombs
+  notes: 'Do-Not-Retrieve-When: documented-history register excluded; the story is the tradition''s
+    own hagiographic self-portrait.'
+- id: DES-RT-01
+  category: reactive-turn
+  retriever: lexicon
+  query: 'How did each of your communities handle possessions and wealth?
 
-  # --- thematic ---
-  - id: DES-TH-01
-    category: thematic
-    retriever: lexicon
-    query: "Why did people leave ordinary village life for the desert?"
-    must: [desertlex001_anachoresis]
-  - id: DES-TH-02
-    category: thematic
-    retriever: lexicon
-    query: "How did the ascetics support themselves day to day?"
-    must: [desertlex007_cheironaxia]
-  - id: DES-TH-03
-    category: thematic
-    retriever: lexicon
-    query: "How did you decide how much fasting was enough, and how much was too much?"
-    must: [desertlex005_diakrisis]
-  - id: DES-TH-04
-    category: thematic
-    retriever: lexicon
-    query: "When someone new arrived, who taught them how to live this life?"
-    must: [desertlex006_geron-abba-amma]
-  - id: DES-TH-05
-    category: thematic
-    retriever: story
-    query: "How did this whole way of life begin - what first called someone into the desert?"
-    must: [desertstory001_antonys-call-matthew-19-21]
-  - id: DES-TH-06
-    category: thematic
-    retriever: story
-    query: "Were there women living this life in the desert too?"
-    must: [desertstory006_sarah-answer-to-elders]
 
-  # --- de-dup ---
-  - id: DES-DD-01
-    category: de-dup
-    retriever: lexicon
-    query: "Say more about that stillness."
-    context: >-
-      Papnoute: Hesychia is what we seek - the stillness that is not mere
-      quiet but the settled attention of a heart no longer scattered. I have
-      just described hesychia at length, its place as the goal of the cell
-      and the fruit of watchfulness.
-    must_not: [desertlex003_hesychia]
-    surfaced: [desertlex003_hesychia]
-    notes: >-
-      Generality check on the composite-Term de-dup gap (see SYR-DD-01): the
-      metadata Term is "Hesychia (Stillness)" with macrons, which a context
-      containing plain "hesychia" never matches, so the already_discussed
-      proxy cannot fire and the duplicate auto-retrieves deterministically.
-  - id: DES-DD-02
-    category: de-dup
-    retriever: story
-    query: "Tell me again how the elders learned not to judge a brother who failed."
-    context: >-
-      Papnoute: Let me tell you the story of Abba Moses and the Leaking Jug.
-      When the elders summoned him to judge a failing brother, Moses came
-      carrying a jug that leaked sand behind him - my sins run out behind me
-      where I cannot see them, and I come to judge another. I have told this
-      story already, in full.
-    must_not: [desertstory004_moses-leaking-jug]
-    surfaced: [desertstory004_moses-leaking-jug]
-    notes: >-
-      Story title appears verbatim in context, so the substring guard reroutes
-      it to the LLM vote; under vote=retrieve the story repeats (same open
-      retrieval-layer cause as SYR-DD-02 / commit 1252fd4).
+    Chloe just said: In our house-churches, goods were shared within the
 
-  # --- negative-condition ---
-  - id: DES-NC-01
-    category: negative-condition
-    retriever: lexicon
-    query: "Tell me about the Byzantine hesychast movement and the Jesus Prayer."
-    must_not: [desertlex003_hesychia]
-    notes: >-
-      hesychia's Do-Not-Retrieve-When excludes the later hesychast movement
-      (not native to the c. 320s-430 window).
-  - id: DES-NC-02
-    category: negative-condition
-    retriever: lexicon
-    query: "Did the solitary hermits out at the far cells follow the koinonia's written rule?"
-    must_not: [desertlex009_koinonia]
-    notes: "koinonia's Do-Not-Retrieve-When: solitary ascetics are the topic."
-  - id: DES-NC-03
-    category: negative-condition
-    retriever: story
-    query: "What was Arsenius's career at the imperial court like - tell me the details of his position and duties."
-    must_not: [desertstory005_arsenius-flee-be-still]
-    notes: >-
-      The story's Do-Not-Retrieve-When forbids elaborating the court-career
-      frame beyond its own thin evidence base.
-  - id: DES-NC-04
-    category: negative-condition
-    retriever: story
-    query: "Give me the documented history of what actually happened to Antony in the tombs - the verified facts."
-    must_not: [desertstory007_antony-combat-in-tombs]
-    notes: >-
-      Do-Not-Retrieve-When: documented-history register excluded; the story
-      is the tradition's own hagiographic self-portrait.
+    household of faith - believers sold what they had when a brother or
 
-  # --- reactive-turn ---
-  - id: DES-RT-01
-    category: reactive-turn
-    retriever: lexicon
-    query: |-
-      How did each of your communities handle possessions and wealth?
+    sister was in need, and the household''s own table carried the common
 
-      Chloe just said: In our house-churches, goods were shared within the
-      household of faith - believers sold what they had when a brother or
-      sister was in need, and the household's own table carried the common
-      meal from which no one went away hungry.
-    must: [desertlex002_apotage]
-    notes: >-
-      Renunciation is this world's answer to the possessions question; the
-      reactive-turn concatenation buries it under house-church content.
-  - id: DES-RT-02
-    category: reactive-turn
-    retriever: story
-    query: |-
-      What did an ordinary day actually look like in each of your worlds?
+    meal from which no one went away hungry.'
+  must:
+  - desertlex002_apotage
+  notes: Renunciation is this world's answer to the possessions question; the reactive-turn
+    concatenation buries it under house-church content.
+  rewritten: How did the Desert Fathers and Mothers approach possessions and wealth?
+- id: DES-RT-02
+  category: reactive-turn
+  retriever: story
+  query: 'What did an ordinary day actually look like in each of your worlds?
 
-      Mar Yausep just said: For the qyama, the day ran with the town's own
-      rhythm - the vigil and the reading among one's own kin, the fast kept in
-      the middle of ordinary streets, the covenant lived not in flight from
-      the town but in refusal within it.
-    must: [desertstory008_day-in-a-kellia-cell]
 
-  # --- cross-world-isolation ---
-  - id: DES-XW-01
-    category: cross-world-isolation
-    retriever: lexicon
-    query: "What does qyama mean in your world - do you have sons of the covenant?"
-    notes: >-
-      A Syriac term against the Desert index; the harness asserts every
-      candidate is one of this world's own files (isolation_violations = 0).
+    Mar Yausep just said: For the qyama, the day ran with the town''s own
+
+    rhythm - the vigil and the reading among one''s own kin, the fast kept in
+
+    the middle of ordinary streets, the covenant lived not in flight from
+
+    the town but in refusal within it.'
+  must:
+  - desertstory008_day-in-a-kellia-cell
+  rewritten: daily life rhythm and structure in monastic community practice
+- id: DES-XW-01
+  category: cross-world-isolation
+  retriever: lexicon
+  query: What does qyama mean in your world - do you have sons of the covenant?
+  notes: A Syriac term against the Desert index; the harness asserts every candidate is one
+    of this world's own files (isolation_violations = 0).

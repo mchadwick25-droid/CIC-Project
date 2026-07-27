@@ -1,123 +1,131 @@
-# S1.2 golden retrieval cases - Hieronymian Ascetic-Literary world
-# Authored 2026-07-26 against data/hieronymian_world/{lexicon_chunks,story_chunks}
-# front-matter. IDs are source_file stems. Conventions: see golden/syriac.yaml.
-
 world_id: hieronymian-ascetic-literary
 cases:
-  # --- verbatim-term ---
-  - id: HAL-VT-01
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is the hebraica veritas?"
-    must: [hal_lex01_hebraica-veritas]
-  - id: HAL-VT-02
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is the Vulgate - what did Jerome actually translate?"
-    must: [hal_lex02_vulgata]
-  - id: HAL-VT-03
-    category: verbatim-term
-    retriever: lexicon
-    query: "What is a monachus? Was there a men's community at Bethlehem?"
-    must: [hal_lex15_monachus]
-  - id: HAL-VT-04
-    category: verbatim-term
-    retriever: lexicon
-    query: "What does patrocinium mean - who funded the scholarly work?"
-    must: [hal_lex06_patrocinium]
+- id: HAL-VT-01
+  category: verbatim-term
+  retriever: lexicon
+  query: What is the hebraica veritas?
+  must:
+  - hal_lex01_hebraica-veritas
+- id: HAL-VT-02
+  category: verbatim-term
+  retriever: lexicon
+  query: What is the Vulgate - what did Jerome actually translate?
+  must:
+  - hal_lex02_vulgata
+- id: HAL-VT-03
+  category: verbatim-term
+  retriever: lexicon
+  query: What is a monachus? Was there a men's community at Bethlehem?
+  must:
+  - hal_lex15_monachus
+- id: HAL-VT-04
+  category: verbatim-term
+  retriever: lexicon
+  query: What does patrocinium mean - who funded the scholarly work?
+  must:
+  - hal_lex06_patrocinium
+- id: HAL-TH-01
+  category: thematic
+  retriever: lexicon
+  query: Why translate Scripture from the Hebrew rather than from the Greek everyone already
+    used?
+  must:
+  - hal_lex01_hebraica-veritas
+- id: HAL-TH-02
+  category: thematic
+  retriever: lexicon
+  query: How could aristocratic women just give away their entire fortunes?
+  must:
+  - hal_lex03_renuntiatio
+  - hal_lex10_matrona
+- id: HAL-TH-03
+  category: thematic
+  retriever: lexicon
+  query: How did a scholar with no church office carry any authority?
+  must:
+  - hal_lex06_patrocinium
+- id: HAL-TH-04
+  category: thematic
+  retriever: story
+  query: Did your love of classical literature ever conflict with your renunciation?
+  must:
+  - hal_story08_the-ciceronian-dream
+- id: HAL-TH-05
+  category: thematic
+  retriever: story
+  query: What did a well-formed ascetic woman's whole life look like, start to finish?
+  must:
+  - hal_story06_paulas-epitaph
+- id: HAL-DD-01
+  category: de-dup
+  retriever: lexicon
+  query: Tell me more about that translation project.
+  context: I have just described the Vulgata at length - Jerome's translation project, the books
+    rendered from Hebrew at Bethlehem, the years it took and the resistance it met. The Vulgate
+    has been fully introduced this turn.
+  must_not:
+  - hal_lex02_vulgata
+  surfaced:
+  - hal_lex02_vulgata
+  notes: 'Composite-Term gap again: metadata Term is "Vulgata (translation project)", which
+    neither "Vulgata" nor "the Vulgate" in context matches - the already_discussed proxy cannot
+    fire.'
+- id: HAL-DD-02
+  category: de-dup
+  retriever: story
+  query: So what broke his habit of reading the classics?
+  context: I have just told the story of The Dream That Broke a Habit of Reading (the Ciceronian
+    dream) - the fever at Antioch, the tribunal, the charge "you are a Ciceronian, not a Christian,"
+    and the vow that followed. That story has been told in full this turn.
+  must_not:
+  - hal_story08_the-ciceronian-dream
+  surfaced:
+  - hal_story08_the-ciceronian-dream
+- id: HAL-NC-01
+  category: negative-condition
+  retriever: lexicon
+  query: What do modern translation theorists say about dynamic versus formal equivalence?
+  must_not:
+  - hal_lex01_hebraica-veritas
+  notes: 'Do-Not-Retrieve-When: modern translation-theory question unrelated to this world''s
+    controversy.'
+- id: HAL-NC-02
+  category: negative-condition
+  retriever: story
+  query: Give me the factual history of those desert hermits in the household's tales - the
+    documented lives.
+  must_not:
+  - hal_story09_the-desert-romances
+  notes: The romances are literary, not documentary; the guard excludes factual-history register.
+- id: HAL-NC-03
+  category: negative-condition
+  retriever: story
+  query: Just give me the plain facts of the journey - when did Paula leave Rome, and by what
+    route to Bethlehem?
+  must:
+  - hal_story01_departure-from-rome
+  must_not:
+  - hal_story06_paulas-epitaph
+  notes: The epitaph's guard routes bare journey-facts questions to story 01.
+- id: HAL-RT-01
+  category: reactive-turn
+  retriever: lexicon
+  query: 'How did each of your worlds handle the translation of Scripture?
 
-  # --- thematic ---
-  - id: HAL-TH-01
-    category: thematic
-    retriever: lexicon
-    query: "Why translate Scripture from the Hebrew rather than from the Greek everyone already used?"
-    must: [hal_lex01_hebraica-veritas]
-  - id: HAL-TH-02
-    category: thematic
-    retriever: lexicon
-    query: "How could aristocratic women just give away their entire fortunes?"
-    must: [hal_lex03_renuntiatio, hal_lex10_matrona]
-  - id: HAL-TH-03
-    category: thematic
-    retriever: lexicon
-    query: "How did a scholar with no church office carry any authority?"
-    must: [hal_lex06_patrocinium]
-  - id: HAL-TH-04
-    category: thematic
-    retriever: story
-    query: "Did your love of classical literature ever conflict with your renunciation?"
-    must: [hal_story08_the-ciceronian-dream]
-  - id: HAL-TH-05
-    category: thematic
-    retriever: story
-    query: "What did a well-formed ascetic woman's whole life look like, start to finish?"
-    must: [hal_story06_paulas-epitaph]
 
-  # --- de-dup ---
-  - id: HAL-DD-01
-    category: de-dup
-    retriever: lexicon
-    query: "Tell me more about that translation project."
-    context: >-
-      I have just described the Vulgata at length - Jerome's translation
-      project, the books rendered from Hebrew at Bethlehem, the years it
-      took and the resistance it met. The Vulgate has been fully introduced
-      this turn.
-    must_not: [hal_lex02_vulgata]
-    surfaced: [hal_lex02_vulgata]
-    notes: >-
-      Composite-Term gap again: metadata Term is "Vulgata (translation
-      project)", which neither "Vulgata" nor "the Vulgate" in context
-      matches - the already_discussed proxy cannot fire.
-  - id: HAL-DD-02
-    category: de-dup
-    retriever: story
-    query: "So what broke his habit of reading the classics?"
-    context: >-
-      I have just told the story of The Dream That Broke a Habit of Reading
-      (the Ciceronian dream) - the fever at Antioch, the tribunal, the
-      charge "you are a Ciceronian, not a Christian," and the vow that
-      followed. That story has been told in full this turn.
-    must_not: [hal_story08_the-ciceronian-dream]
-    surfaced: [hal_story08_the-ciceronian-dream]
+    Mar Yausep just said: Our churches read the Ewangeliyon da-Mhallete,
 
-  # --- negative-condition ---
-  - id: HAL-NC-01
-    category: negative-condition
-    retriever: lexicon
-    query: "What do modern translation theorists say about dynamic versus formal equivalence?"
-    must_not: [hal_lex01_hebraica-veritas]
-    notes: "Do-Not-Retrieve-When: modern translation-theory question unrelated to this world's controversy."
-  - id: HAL-NC-02
-    category: negative-condition
-    retriever: story
-    query: "Give me the factual history of those desert hermits in the household's tales - the documented lives."
-    must_not: [hal_story09_the-desert-romances]
-    notes: "The romances are literary, not documentary; the guard excludes factual-history register."
-  - id: HAL-NC-03
-    category: negative-condition
-    retriever: story
-    query: "Just give me the plain facts of the journey - when did Paula leave Rome, and by what route to Bethlehem?"
-    must: [hal_story01_departure-from-rome]
-    must_not: [hal_story06_paulas-epitaph]
-    notes: "The epitaph's guard routes bare journey-facts questions to story 01."
+    the Gospel of the Mixed - Tatian''s single woven harmony - and our
 
-  # --- reactive-turn ---
-  - id: HAL-RT-01
-    category: reactive-turn
-    retriever: lexicon
-    query: |-
-      How did each of your worlds handle the translation of Scripture?
+    teachers quoted it as the Gospel itself, one book where the Greeks
 
-      Mar Yausep just said: Our churches read the Ewangeliyon da-Mhallete,
-      the Gospel of the Mixed - Tatian's single woven harmony - and our
-      teachers quoted it as the Gospel itself, one book where the Greeks
-      counted four.
-    must: [hal_lex01_hebraica-veritas, hal_lex02_vulgata]
-
-  # --- cross-world-isolation ---
-  - id: HAL-XW-01
-    category: cross-world-isolation
-    retriever: lexicon
-    query: "What is theosis - becoming god?"
-    notes: "Alexandrian term against the Hieronymian index; isolation asserted structurally."
+    counted four.'
+  must:
+  - hal_lex01_hebraica-veritas
+  - hal_lex02_vulgata
+  rewritten: Scripture translation practices and textual authority in religious tradition
+- id: HAL-XW-01
+  category: cross-world-isolation
+  retriever: lexicon
+  query: What is theosis - becoming god?
+  notes: Alexandrian term against the Hieronymian index; isolation asserted structurally.
