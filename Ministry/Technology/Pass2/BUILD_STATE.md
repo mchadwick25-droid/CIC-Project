@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01..05 DONE (05 = Alternative A: identity on voice_profile, telos on world_core; prompt coverage zero GAPs); CO-P2-06 presented, 07..11 queued one at a time.
+- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01..06 DONE (06 = Alt A composite-owner convention + Mark's standing persona-never-in-world-record principle; FLAG-003 closed, suite at 6); CO-P2-07 presented, 08..11 queued one at a time.
 - **Last completed checkpoint:** S3.2 G (`gates/S3.2_hybrid.md`; verbatim-term 1.0 in all six worlds incl. beating IJ's own baseline; 3 real defects found+fixed during build; residual regressions all in S3.3/S3.4/S3.5's designed classes)
 - **Parked items:** none
 

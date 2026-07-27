@@ -119,7 +119,10 @@ gravity_links:
 - gravity_id: desertgrav005
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).
+owner_figure_id: desertfig013
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory008_day-in-a-kellia-cell.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+CO-P2-06 (2026-07-27, Alternative A): owner_figure_id -> desertfig013 (the community itself, per the composite-owner convention); FLAG-003 resolved.
