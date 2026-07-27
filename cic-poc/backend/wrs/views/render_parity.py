@@ -43,7 +43,9 @@ def classify(line: str, side: str, in_dropped_story_block: bool) -> tuple[str, s
     if in_dropped_story_block and side == "deployed":
         return ("defect", "FLAG-004 (story section with no record home)")
     if t.startswith("Tags: "):
-        return ("defect", "schema gap - Tags has no record home (S2.9 CO)")
+        return ("intended-change", "Tags retired per CO-P2-09 (Mark, "
+                                    "2026-07-27) - dead metadata, no "
+                                    "downstream reader")
     if t.startswith("Related Terms: "):
         return ("defect", "record-backed relations only; missing partner "
                           "chunks are the S2.9 missing-chunks CO")

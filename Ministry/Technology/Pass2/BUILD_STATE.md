@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01..08 DONE (08 = srcDES025 build-rendering row; GATE SUITE FULLY GREEN, 0 violations across 102 records); CO-P2-09 presented, 10..11 queued one at a time.
+- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01..09 DONE (09 = Tags formally retired, dead metadata); CO-P2-10 presented (small-corrections bundle, per-item yes/no), 11 queued.
 - **Last completed checkpoint:** S3.2 G (`gates/S3.2_hybrid.md`; verbatim-term 1.0 in all six worlds incl. beating IJ's own baseline; 3 real defects found+fixed during build; residual regressions all in S3.3/S3.4/S3.5's designed classes)
 - **Parked items:** none
 

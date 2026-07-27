@@ -8,7 +8,9 @@ three S2.8 parities are green (blueprint S2.8 swap rule).
 
 Known non-round-trip classes (each classified, never silent, in
 render_parity.py):
-- Tags line: no schema home (S2.9 CO candidate) -> defect class.
+- Tags line: RETIRED per CO-P2-09 (Mark, 2026-07-27) - the line was dead
+  metadata (parsed into the index, read by nothing downstream); already
+  absent from deployed chunks since the CO-P2-01 swap.
 - Related Terms: view renders only record-backed relations; chunk lists
   partner terms with no Desert chunk/record (S2.9 CO) -> defect class.
 - Do-Not-Retrieve-When retired classes (cross-world guard): dropped by
