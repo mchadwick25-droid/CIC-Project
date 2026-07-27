@@ -1,6 +1,13 @@
 """Confirmed inline-gloss renderings, per world - the bracket-gloss reading
 pattern from LEXICON_GLOSS_AUDIT_2026-07-23.md's project-owner review pass.
 
+S4.5 provenance note (Pass 1 §3.11): this list is FACILITATOR-OWNED data
+of the same kind as the modern_term records - curated with the same
+exact-wording discipline as the whitelist it carries forward. Per §3.11
+it lives as a keyed list (this module) rather than as its own
+record_type; named here so "record data" points at something specific.
+Nothing about its content or consumption changes at S4.5.
+
 Scope: every item the audit document's own tables carried at High confidence
 ("essentially just the term's own Aliases/Quick Meaning restated plainly")
 plus every individually-decided Medium/Flagged item - the full glossary,

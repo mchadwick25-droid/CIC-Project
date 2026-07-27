@@ -862,9 +862,18 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
     S4.2 (Pass 1 §6.7): the transcript is a deterministic render of the
     specified data shape - the ordered log of spoken events (speaker,
     text, designated addressee where one exists; see
-    app.graph.events.spoken_events_from_messages). The Facilitator-skip
-    is preserved (Facilitator turns entering the render is S4.5's
-    declared change).
+    app.graph.events.spoken_events_from_messages).
+
+    S4.5 (Pass 1 §6.6): FACILITATOR TURNS ENTER THE RENDER. The
+    constitutional line is "only spoken words cross" - the Facilitator's
+    words are spoken; excluding them was never what the boundary
+    required, and it silently broke the bridge's own repair mechanism (a
+    Representative saw answers to questions that no longer existed in
+    the record) and made a held crisis read as an unanswered one (the
+    FLAG-008 window). Bridge-reframe entries (the persisted "question
+    actually asked") render as Facilitator lines too - every
+    Representative reads the same reframed question, ending the
+    two-treatments asymmetry.
 
     S4.4a (Pass 1 §6.2 item 3): the window moves from a naive
     last-10-lines slice to BLOCK TRUNCATION WITH A STABLE PREFIX - the
@@ -885,8 +894,7 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
         if event["speaker"] == "participant":
             transcript_lines.append(f"Participant: {event['text']}")
         elif event["speaker"] == "facilitator":
-            # Skip facilitator messages in transcript for representatives
-            continue
+            transcript_lines.append(f"Facilitator: {event['text']}")
         else:
             speaker_name = event["speaker"].replace("_", " ").title()
             transcript_lines.append(f"{speaker_name}: {event['text']}")

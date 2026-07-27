@@ -76,6 +76,14 @@ def _multi_world_turn_floor() -> int:
 _TURN_FLOOR_MULTI_WORLD = _multi_world_turn_floor()
 
 
+def _message_events(msgs) -> list[tuple[str, dict]]:
+    """spoken_message events for a batch of new messages - EXCEPT
+    bridge-reframe sentinels, which are already persisted as their own
+    bridge_reframe event (S4.5, §6.6) and must not double-log."""
+    return [("spoken_message", serialize_message(m)) for m in msgs
+            if not (getattr(m, "additional_kwargs", None) or {}).get("bridge_reframe")]
+
+
 def _classifier_events(pre_turn) -> list[tuple[str, dict]]:
     """Per-turn classifier categories as logged events (Pass 1 §7's crisis
     row: observability is what makes A.4 diagnosable). Raw results are
@@ -224,9 +232,16 @@ class SessionResponse(BaseModel):
 
 
 def state_to_messages(state: ConversationState) -> list[dict]:
-    """Convert state messages to serializable dicts."""
+    """Convert state messages to serializable dicts.
+
+    S4.5: bridge-reframe sentinels (the persisted "question actually
+    asked", §6.6) are internal to the Representatives' transcript view -
+    the participant already heard the Facilitator's spoken version, so
+    they are filtered from every participant-facing response."""
     result = []
     for msg in state.messages:
+        if (getattr(msg, "additional_kwargs", None) or {}).get("bridge_reframe"):
+            continue
         role = "assistant"
         name = None
 
@@ -1097,24 +1112,34 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                             "speaker": event["speaker"],
                             "citations": event.get("citations"),
                         })
+                    elif event["type"] == "reframe":
+                        # S4.5 (§6.6): the reframed question persists as a
+                        # first-class event AND as a Facilitator-spoken
+                        # sentinel in the transcript every Representative
+                        # reads - never streamed to the participant (they
+                        # heard the Facilitator's own spoken version)
+                        EVENT_STORE.append(session_id, "bridge_reframe", {
+                            "bridge": "modern_term",
+                            "question": event["question"],
+                            "term_id": event["term_id"],
+                            "subject": event["subject"],
+                            "split": event["split"],
+                            "anachronistic_for": event["anachronistic_for"],
+                            "native_for": event["native_for"],
+                            "native_subject_map": event["native_subject_map"],
+                        })
+                        new_messages.append(AIMessage(
+                            content=event["question"], name="facilitator",
+                            additional_kwargs={"bridge_reframe": True}))
                     elif event["type"] == "complete":
                         new_messages.append(event["message"])
             except Exception as exc:
                 yield sse({"type": "error", "message": str(exc)})
                 return
 
-            # §6.7: the bridge's reframe is a first-class logged event.
-            # Behavior-preserving at S4.2: logged for the audit trail, not
-            # yet rendered into any Representative's transcript view -
-            # persisting it INTO the transcript is S4.5's declared change.
-            EVENT_STORE.append(session_id, "bridge_reframe", {
-                "bridge": "modern_term", "match": modern_term_match})
-
             if not is_multi_world:
                 state.messages = list(state.messages) + new_messages
-                EVENT_STORE.append_many(session_id, [
-                    ("spoken_message", serialize_message(m))
-                    for m in new_messages])
+                EVENT_STORE.append_many(session_id, _message_events(new_messages))
                 write_transcript(session_id, state)
 
                 yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
@@ -1342,8 +1367,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         state.current_world_id = last_current_world_id
         state.requires_reroot = False
         EVENT_STORE.append_many(session_id, [
-            *[("spoken_message", serialize_message(m))
-              for m in working_messages[round_base_len:]],
+            *_message_events(working_messages[round_base_len:]),
             ("turn_committed", {
                 "turn_count": state.turn_count,
                 "current_world_id": state.current_world_id,

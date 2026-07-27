@@ -242,7 +242,19 @@ def project(session_id: str, events: list[Event]) -> ConversationState:
             ctx = p.get("context")
             state.retrieved_context = (RetrievedContext(**ctx)
                                        if ctx is not None else None)
-        # classifier_decision / bridge_reframe: observability only
+        elif t == "bridge_reframe" and p.get("question"):
+            # S4.5 (Pass 1 §6.6): the reframed question persists as the
+            # question actually asked - folded as a Facilitator-spoken
+            # sentinel every Representative's transcript render includes,
+            # but which participant-facing responses filter out (the
+            # participant heard the Facilitator's own spoken version).
+            # S4.2-era bridge_reframe events (match-only payload, no
+            # "question") fold to nothing, as before.
+            state.messages = list(state.messages) + [AIMessage(
+                content=p["question"], name="facilitator",
+                additional_kwargs={"bridge_reframe": True})]
+        # classifier_decision (and question-less bridge_reframe):
+        # observability only
     return state
 
 
