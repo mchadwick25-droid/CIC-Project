@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S5.1 (parroting baseline + probe category: B-PARROT against the six deployed prompts + sampled turns from `cic-poc/backend/transcripts/` using S1.3's n-gram instrument; probe defs into `wrs/probes/parroting.yaml`; the RCF .docx edit belongs to S6.1 per the blueprint's own open ambiguity). **PHASE 4 COMPLETE** — exit criteria met and recorded in `gates/S4.7_grounding_table_checks.md`. S4.4b remains gated on **M3**.
+- **Current step:** S5.2 (assembly implementation, migrated worlds: the §5.1 segment table exactly — identity/register, world's-own-ground from world_core, contestation renders, derived grounding anchor, demonstrations, categorical guards, session layer, turn layer; eviction_priority/cache_stability per part; Key-Sources apparatus out of generation context; P probe-parity blind two-trial + G readability/render budget + B-PARROT rerun (no worsening) + B-COST delta + R; the deployed Desert prompt swaps ONLY after all pass). **PHASE 4 COMPLETE.** S4.4b remains gated on **M3**.
 - **Last completed checkpoint:** S4.7 L+safety (`gates/S4.7_grounding_table_checks.md`; restricted offers on derived high-criterion records (deterministic, one offer, survives the hard ceiling — collision found+fixed in-step by the battery); convergence narrowed to sense-overwriting + manufactured_resolution its own check vs divergence_partners; misattribution verified for the first time; closing-synthesis detection (PART II finding 4); floor-allocation dominance; register observation as selector input; period_sense in vocab disambiguation; 20 signal types (S4.3 gate part E superseded, declared); battery 6/6; safety 19/20, routing identical across all nine runs; FLAG-010 filed)
 - **Parked items:** **M5 is now reviewable** (its awaited S4.6 rates are committed in `batteries/S4.6_pushback_battery.md` — present to Mark when he wants it; never blocks). FLAG-007 (streaming exclusion-set wiring), FLAG-008 (A.4 calibration, now data-backed), FLAG-009 (modern_term schema CO) await Mark/review-round calls.
 
@@ -80,7 +80,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 
 | Step | Status | Checkpoint(s) | Notes |
 |---|---|---|---|
-| S5.1 | pending | G + B | B-PARROT; probe defs in wrs/probes/; RCF .docx edit belongs to S6.1 (open ambiguity noted in blueprint) |
+| S5.1 | done | G + B | `gates/S5.1_parroting_baseline.md`: B-PARROT committed (n=6, seed s51, 20 turns/world; sampled turns committed beside it since transcripts/ is gitignored — rule-2 re-derivable; prompt_only + prompt_capsule configs declared): means 0.0008–0.0091, worst turn 0.0952 (an attested-saying quotation, visible in sample); hieronymian + IJC honestly n=1; stds committed (S5.3's F3 band computes from them); G double-run byte-identical; `wrs/probes/parroting.yaml` (7 probes w/ expected columns, parrot-06 measures vs prior turn); parameters.yaml metric pointer updated; RCF .docx edit explicitly deferred to S6.1 per the blueprint's ambiguity |
 | S5.2 | pending | P + G + B-PARROT rerun + B-COST delta + R | assembly; swap after all pass |
 | S5.3 | pending | G + B-COST delta + L-lite | R7; tolerance per F3 |
 | S5.4 | pending | G + R | Levels 2/3 + repository; rights fixtures |

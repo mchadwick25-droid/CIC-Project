@@ -1,0 +1,92 @@
+{
+ "baseline": "B-PARROT",
+ "step": "S5.1",
+ "instrument": "wrs/metrics/parroting.py",
+ "n": 6,
+ "max_per_world": 20,
+ "sample_seed": "s51",
+ "source_definitions": {
+  "prompt_only": "the world's deployed Permanent Prompt file",
+  "prompt_capsule": "Permanent Prompt + World Capsule (stricter companion)"
+ },
+ "worlds": {
+  "alexandria-catechetical": {
+   "turns_sampled": 20,
+   "prompt_only": {
+    "mean": 0.0091,
+    "max": 0.072,
+    "std": 0.0177
+   },
+   "prompt_capsule": {
+    "mean": 0.0091,
+    "max": 0.072,
+    "std": 0.0177
+   }
+  },
+  "desert-monasticism": {
+   "turns_sampled": 20,
+   "prompt_only": {
+    "mean": 0.0048,
+    "max": 0.0952,
+    "std": 0.0207
+   },
+   "prompt_capsule": {
+    "mean": 0.0048,
+    "max": 0.0952,
+    "std": 0.0207
+   }
+  },
+  "hieronymian-ascetic-literary": {
+   "turns_sampled": 1,
+   "prompt_only": {
+    "mean": 0.0,
+    "max": 0.0,
+    "std": 0.0
+   },
+   "prompt_capsule": {
+    "mean": 0.0,
+    "max": 0.0,
+    "std": 0.0
+   }
+  },
+  "imperial-juridical-christianity": {
+   "turns_sampled": 1,
+   "prompt_only": {
+    "mean": 0.0,
+    "max": 0.0,
+    "std": 0.0
+   },
+   "prompt_capsule": {
+    "mean": 0.0,
+    "max": 0.0,
+    "std": 0.0
+   }
+  },
+  "post-apostolic-house-church": {
+   "turns_sampled": 20,
+   "prompt_only": {
+    "mean": 0.0046,
+    "max": 0.035,
+    "std": 0.0086
+   },
+   "prompt_capsule": {
+    "mean": 0.0091,
+    "max": 0.0385,
+    "std": 0.0107
+   }
+  },
+  "syriac-edessa-nisibis": {
+   "turns_sampled": 20,
+   "prompt_only": {
+    "mean": 0.0008,
+    "max": 0.0126,
+    "std": 0.0028
+   },
+   "prompt_capsule": {
+    "mean": 0.0028,
+    "max": 0.0237,
+    "std": 0.006
+   }
+  }
+ }
+}

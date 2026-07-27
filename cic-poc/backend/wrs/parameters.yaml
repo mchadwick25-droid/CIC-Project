@@ -173,8 +173,16 @@ metrics:
   - name: parroting_overlap
     definition: "n-gram overlap between prompt material and spoken turns (Pass 1 SS5.3)"
     instrument: wrs/metrics/parroting.py (built at S1.3 per F7; run at S5.1)
-    baseline: B-PARROT (committed at S5.1)
-    gate_status: TBD-pending-baseline (ceiling; R7 tolerance per F3 until then)
+    baseline: >-
+      B-PARROT, COMMITTED 2026-07-27 (S5.1):
+      Ministry/Technology/Pass2/baselines/B-PARROT.json (+ the sampled
+      turns beside it, re-derivable per session-contract rule 2). n=6,
+      seed s51, 20 turns/world where available (hieronymian and
+      imperial-juridical at n=1 - honestly thin until their worlds see
+      more live turns). prompt_only means 0.0008-0.0091 across worlds,
+      worst single turn 0.0952; the S5.3 tolerance band (F3) computes
+      from these stds. Probe category: wrs/probes/parroting.yaml.
+    gate_status: TBD-pending-baseline (ceiling adopted at S6.6 from B-PARROT; R7 tolerance per F3 until then)
   - name: voice_continuity_regression
     definition: "blind-graded probe-parity between prompt versions (Pass 1 SS5.2), two independent trials"
     instrument: probe-parity protocol (V7.4 Validation Protocol Rigor)
