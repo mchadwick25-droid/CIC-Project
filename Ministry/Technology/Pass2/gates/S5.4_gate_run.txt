@@ -1,0 +1,46 @@
+# S5.4 G gate run - Level 2 readability + rights gating
+
+## Part A - readability floor on every Level 2 render
+
+- desertlex001: FK 10.63 / FRE 45.33 - FAIL (FK grade 10.6 > 10.0; FRE 45.3 < 60.0)
+- desertlex002: FK 12.11 / FRE 36.13 - FAIL (FK grade 12.1 > 10.0; FRE 36.1 < 60.0)
+- desertlex003: FK 10.85 / FRE 38.67 - FAIL (FK grade 10.8 > 10.0; FRE 38.7 < 60.0)
+- desertlex004: FK 11.28 / FRE 37.72 - FAIL (FK grade 11.3 > 10.0; FRE 37.7 < 60.0)
+- desertlex005: FK 11.06 / FRE 37.53 - FAIL (FK grade 11.1 > 10.0; FRE 37.5 < 60.0)
+- desertlex006: FK 11.19 / FRE 37.39 - FAIL (FK grade 11.2 > 10.0; FRE 37.4 < 60.0)
+- desertlex007: FK 10.49 / FRE 39.65 - FAIL (FK grade 10.5 > 10.0; FRE 39.7 < 60.0)
+- desertlex008: FK 10.23 / FRE 43.08 - FAIL (FK grade 10.2 > 10.0; FRE 43.1 < 60.0)
+- desertlex009: FK 10.25 / FRE 42.39 - FAIL (FK grade 10.3 > 10.0; FRE 42.4 < 60.0)
+- desertlex010: FK 9.65 / FRE 43.43 - FAIL (FRE 43.4 < 60.0)
+- desertlex011: FK 8.60 / FRE 52.67 - FAIL (FRE 52.7 < 60.0)
+- desertlex012: FK 7.09 / FRE 62.62 - PASS
+- desertlex013: FK 6.33 / FRE 65.49 - PASS
+- desertlex014: FK 8.40 / FRE 48.61 - FAIL (FRE 48.6 < 60.0)
+- desertlex015: FK 7.76 / FRE 57.75 - FAIL (FRE 57.7 < 60.0)
+- desertlex016: FK 7.76 / FRE 57.75 - FAIL (FRE 57.7 < 60.0)
+- desertlex017: FK 5.68 / FRE 72.63 - PASS
+- desertlex018: FK 5.68 / FRE 72.63 - PASS
+
+Result: 4/18 renders at the floor.
+Part A verdict: **RED** - see FLAG-011 (the floor is unreachable by structure-only renders of the fields as authored; decision with Mark/review round).
+
+## Part B - rights-gating fixtures (fail-closed both directions)
+
+- permitted quote renders: PASS - display_permitted: true -> text present (basis: display_permitted: true on srcFIXpermitted)
+- denied quote withheld: PASS - display_permitted: false -> marker substituted
+- rights-unstated quote withheld (fail-closed): PASS - display_permitted unset -> denied, never assumed
+- provenance-less quote withheld: PASS - no translation_used row -> provenance unestablished -> denied
+- embedded denied text redacted in a story: PASS - the rule follows the text wherever it appears (desertstory004 class)
+- embedded permitted text NOT redacted: PASS - permission stated -> embedding renders
+
+## Part B (continued) - the real generated views
+
+- real rights state: PASS - 4/4 populated quote text fields gated across 3 quotes (desertq002 carries text_original too; no source states display_permitted, FLAG-013)
+- whole-file leak sweep of repository.json: PASS - no gated string appears anywhere in the deployed view
+- every real quote entry withheld: PASS - 3/3 carry gated_fields
+- desertstory004 embedded rendering redacted: PASS - the live case the leak check caught, held
+- search index built after redaction: PASS - withheld text unfindable by substring search
+- deployed views current (--check byte-match): PASS - current: repository.json, sources.json byte-match regeneration
+
+Part A (readability): RED (FLAG-011)
+Part B (rights): GREEN

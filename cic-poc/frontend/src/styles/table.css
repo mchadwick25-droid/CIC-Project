@@ -682,6 +682,101 @@ body {
 }
 
 /* ============================================
+   S5.4 - LEVEL 2 + OBSERVE/REFLECT/QUESTION SCAFFOLD (Pass 1 §5.6)
+   ============================================ */
+.lexicon-modal__level2 {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
+}
+
+.lexicon-modal__level2-subtitle {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  margin: var(--spacing-sm) 0 var(--spacing-xs);
+}
+
+.lexicon-modal__loading {
+  color: var(--color-text-muted);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+}
+
+.orq-scaffold__stage {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-md);
+  border-left: 3px solid var(--color-border);
+}
+
+.orq-scaffold__stage--observe {
+  border-left-color: var(--color-lexicon);
+}
+
+.orq-scaffold__stage-title {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+}
+
+.orq-scaffold__stage-lead {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--color-text-muted);
+  margin-left: var(--spacing-sm);
+}
+
+.orq-scaffold__line {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  margin-bottom: 0.5em;
+}
+
+.orq-scaffold__note {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin: var(--spacing-md) 0;
+}
+
+.orq-scaffold__full-toggle {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  background: white;
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 4px;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.orq-scaffold__full-toggle:hover {
+  background: var(--color-background);
+}
+
+.orq-scaffold__full-record {
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ============================================
    CHAT INPUT
    ============================================ */
 .chat-input-container {

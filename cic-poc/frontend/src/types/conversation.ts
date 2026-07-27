@@ -109,8 +109,56 @@ export interface LexiconTerm {
   quick_meaning: string;
   full_content: string;
   related_terms: string[];
+  // S5.4 (additive): the repository record behind this term, present for
+  // migrated worlds only - lets the modal fetch Level 2/3 faces.
+  record_id?: string | null;
+  world_id?: string | null;
 }
 
 export interface LexiconResponse {
   terms: LexiconTerm[];
+}
+
+// S5.4 - repository faces (Pass 1 §5.6).
+
+// Level 2: the on-request plain explanation, machine-checked at the
+// reading floor at render time.
+export interface PlainExplanationSection {
+  title: string;
+  text: string;
+}
+
+export interface PlainExplanation {
+  record_id: string;
+  term: string;
+  sections: PlainExplanationSection[];
+  readability: {
+    fk_grade: number;
+    fre: number;
+    violations: string[];
+    ok: boolean;
+  };
+}
+
+// Level 3: the Observe -> Reflect -> Question scaffold over the full
+// record (a starting shape being tested - the payload says so itself).
+export interface Level3Face {
+  record_id: string;
+  record_type: string;
+  title: string;
+  scaffold_note: string;
+  observe: string[];
+  reflect: string[];
+  question: string[];
+  full_record: Record<string, unknown>;
+  conversation_audit_backbone: string;
+}
+
+export interface RepositoryRecordEntry {
+  id: string;
+  record_type: string;
+  title: string;
+  rights: { gated_fields: string[]; basis: string | null };
+  level2?: PlainExplanation;
+  level3: Level3Face;
 }

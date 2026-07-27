@@ -1,0 +1,325 @@
+"""S5.4 - the browsable repository + rights gate + FAIR export (Pass 1 SS5.6).
+
+SS8-objective-3's double duty: the same records the Representative speaks
+from, browsable as a real scholarly library - browse/search by domain, by
+source, by figure, by contested claim; every record renders its Level 2
+and Level 3 faces; `display_permitted` and rights fields gate what text
+is shown publicly.
+
+THE RIGHTS GATE (FLAG-013, fail-closed - the load-bearing rule):
+
+  Third-party-derived text renders publicly ONLY when the source record
+  it derives from states `display_permitted: true`. Unset is DENIED -
+  today no Desert source states it (FLAG-013), so today zero verbatim
+  quote text renders publicly; that is the honest state of the rights
+  record, not a bug. What withholding looks like: metadata + attribution
+  always render (locus, speaker, translation credit) - the road to the
+  text is public even when the text is not.
+
+  Gated text class (third-party-derived): `quote.text_translation` /
+  `quote.text_original` (a published translation's wording, gated by the
+  `translation_used` source row; no translation_used -> provenance
+  unestablished -> withheld, uniformly). Project-authored prose (term
+  senses, story retellings, gravity/force/claim analysis, voice fields)
+  is CiC's own wording, not third-party text - it renders, with its
+  apparatus, exactly as the running app already publishes it.
+
+Outputs (generated views, SS3.9 - regenerate, never hand-edit):
+  data/desert_world/repository.json   browse/search index + per-record faces
+  data/desert_world/sources.json      FAIR machine-readable source export
+
+Deterministic: same records -> byte-identical outputs. `--check` mode
+re-renders and byte-compares without writing (the definitions.json
+convention from S4.5).
+
+Usage (from cic-poc/backend):
+  python wrs/views/repository.py            # write both views
+  python wrs/views/repository.py --check    # verify deployed views current
+"""
+from __future__ import annotations
+
+import copy
+import json
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+BACKEND = HERE.parents[1]
+for p in (str(HERE), str(BACKEND)):
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
+from chunk_views import load_records  # noqa: E402
+from plain_explanation import render_plain_explanation  # noqa: E402
+from level3 import render_level3, _title  # noqa: E402
+
+WORLD_ID = "desert-monasticism"
+DATA_DIR = BACKEND / "data" / "desert_world"
+
+RECORD_SUBDIRS = (
+    "term", "story", "quote", "figure", "gravity", "force",
+    "contested_claim", "source", "world_core",
+)
+
+WITHHELD_MARKER = (
+    "[text withheld from public display - rights not established for the "
+    "underlying source (FLAG-013 fail-closed); metadata and attribution "
+    "above are the road to it]"
+)
+
+
+# ---------------------------------------------------------------- rights gate
+
+def gated_quote_strings(quotes: dict[str, dict],
+                        sources: dict[str, dict]) -> list[str]:
+    """The exact third-party-derived strings whose display is not
+    permitted - the quote records themselves establish both the wording
+    and its provenance. Used to redact EMBEDDED occurrences (a story
+    retelling that quotes the saying verbatim carries the same
+    translation's wording - caught live on desertstory004, which embeds
+    desertq001's Ward rendering). Mechanical detection covers exact
+    embeddings only; paraphrase-level review belongs to FLAG-013's
+    rights-authoring CO."""
+    out = []
+    for q in quotes.values():
+        src_id = q.get("translation_used")
+        src = sources.get(src_id) if src_id else None
+        if not (src and src.get("display_permitted") is True):
+            for field in ("text_translation", "text_original"):
+                text = q.get(field)
+                if isinstance(text, str) and text.strip():
+                    out.append(text.strip())
+    return sorted(out, key=len, reverse=True)
+
+
+def _redact_embedded(value, gated: list[str]):
+    if isinstance(value, str):
+        for g in gated:
+            if g in value:
+                value = value.replace(g, WITHHELD_MARKER)
+        return value
+    if isinstance(value, list):
+        return [_redact_embedded(v, gated) for v in value]
+    if isinstance(value, dict):
+        return {k: _redact_embedded(v, gated) for k, v in value.items()}
+    return value
+
+
+def display_gate(rec: dict, sources: dict[str, dict],
+                 gated: list[str]) -> tuple[dict, dict]:
+    """Return (public_copy, rights_note) - the record with gated text
+    withheld, plus a machine-readable statement of what was decided.
+
+    Fail-closed: third-party-derived text renders only on an explicit
+    display_permitted: true on its provenance source row. The rule
+    follows the text wherever it appears: whole fields on the quote
+    record itself, exact embedded occurrences everywhere else."""
+    rights = {"gated_fields": [], "basis": None}
+
+    if rec.get("record_type") == "quote":
+        pub = copy.deepcopy(rec)
+        src_id = rec.get("translation_used")
+        src = sources.get(src_id) if src_id else None
+        if src and src.get("display_permitted") is True:
+            rights["basis"] = f"display_permitted: true on {src_id}"
+            return pub, rights
+        for field in ("text_translation", "text_original"):
+            if pub.get(field):
+                pub[field] = WITHHELD_MARKER
+                rights["gated_fields"].append(field)
+        rights["basis"] = (
+            f"withheld: {src_id or 'no translation_used row'} states no "
+            "display permission (unset is denied - FLAG-013)"
+        )
+        return pub, rights
+
+    # every other record: redact exact embedded occurrences of gated text
+    pub = _redact_embedded(copy.deepcopy(rec), gated)
+    if pub != rec:
+        rights["gated_fields"].append("embedded-quote-text")
+        rights["basis"] = (
+            "embedded third-party translation wording redacted "
+            "(same fail-closed rule; FLAG-013)"
+        )
+    return pub, rights
+
+
+# ------------------------------------------------------------------- indexes
+
+def _search_text(rec: dict, title: str) -> str:
+    """Searchable text for one PUBLIC record copy - built after the gate,
+    so withheld text can never be found by substring search either."""
+    parts = [title, rec.get("id", ""), rec.get("record_type", "")]
+    for key in ("term", "aliases", "quick_meaning", "period_sense",
+                "modern_sense", "semantic_domain", "title", "text",
+                "locus", "claim", "name", "work_author", "work_title",
+                "work_locus", "attested_occasion"):
+        v = rec.get(key)
+        if isinstance(v, str) and v != WITHHELD_MARKER:
+            parts.append(v)
+        elif isinstance(v, list):
+            parts.extend(x for x in v if isinstance(x, str))
+    return " ".join(parts).lower()
+
+
+def build_repository() -> dict:
+    all_records: dict[str, dict] = {}
+    by_type: dict[str, dict] = {}
+    for sub in RECORD_SUBDIRS:
+        recs = load_records(sub)
+        by_type[sub] = recs
+        all_records.update(recs)
+    sources = by_type["source"]
+    gated = gated_quote_strings(by_type["quote"], sources)
+
+    entries = []
+    by_domain: dict[str, list[str]] = {}
+    by_source: dict[str, list[str]] = {}
+    by_figure: dict[str, list[str]] = {}
+    by_claim: dict[str, list[str]] = {}
+
+    for rid in sorted(all_records):
+        rec = all_records[rid]
+        public, rights = display_gate(rec, sources, gated)
+        title = _title(public)
+
+        entry = {
+            "id": rid,
+            "record_type": public.get("record_type"),
+            "title": title,
+            "rights": rights,
+            "level3": render_level3(public, sources, all_records),
+            "search_text": _search_text(public, title),
+        }
+        if public.get("record_type") == "term":
+            entry["level2"] = render_plain_explanation(public)
+            dom = public.get("semantic_domain")
+            if dom:
+                by_domain.setdefault(dom, []).append(rid)
+
+        for s in public.get("sources", []) or []:
+            sid = s.get("source_id")
+            if sid:
+                by_source.setdefault(sid, []).append(rid)
+        if public.get("translation_used"):
+            by_source.setdefault(public["translation_used"], []).append(rid)
+
+        if public.get("record_type") == "story" and public.get("owner_figure_id"):
+            by_figure.setdefault(public["owner_figure_id"], []).append(rid)
+        if public.get("record_type") == "quote" and public.get("speaker_or_author"):
+            by_figure.setdefault(public["speaker_or_author"], []).append(rid)
+        if public.get("record_type") == "figure":
+            for stid in public.get("story_ids", []) or []:
+                by_figure.setdefault(rid, []).append(stid)
+
+        for cid in public.get("contested_claim_ids", []) or []:
+            by_claim.setdefault(cid, []).append(rid)
+
+        entries.append(entry)
+
+    return {
+        "view": "repository (S5.4, Pass 1 SS5.6)",
+        "world_id": WORLD_ID,
+        "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
+        "rights_rule": (
+            "fail-closed: third-party-derived text renders only on an "
+            "explicit display_permitted: true on its provenance source row "
+            "(FLAG-013)"),
+        "record_count": len(entries),
+        "records": entries,
+        "browse": {
+            "by_domain": {k: sorted(set(v)) for k, v in sorted(by_domain.items())},
+            "by_source": {k: sorted(set(v)) for k, v in sorted(by_source.items())},
+            "by_figure": {k: sorted(set(v)) for k, v in sorted(by_figure.items())},
+            "by_contested_claim": {k: sorted(set(v)) for k, v in sorted(by_claim.items())},
+            "by_contested_claim_note": (
+                "truthfully empty: no term record populates "
+                "contested_claim_ids (FLAG-014) - the six claims are "
+                "browsable as records; cross-references await the CO"),
+        },
+    }
+
+
+# ---------------------------------------------------------------- FAIR export
+
+def build_sources_json() -> dict:
+    """sources.json - the FAIR export (SS5.6): stable ids, machine-readable,
+    external identifiers, stated rights. Beside the existing
+    source_registry.json convention, not replacing it."""
+    sources = load_records("source")
+    rows = []
+    for sid in sorted(sources):
+        s = sources[sid]
+        rows.append({
+            "id": sid,
+            "world_id": WORLD_ID,
+            "work_author": s.get("work_author"),
+            "work_title": s.get("work_title"),
+            "work_locus": s.get("work_locus"),
+            "edition": s.get("edition"),
+            "translation": s.get("translation"),
+            "language": s.get("language"),
+            "script": s.get("script"),
+            "source_type": s.get("source_type"),
+            "attribution_status": s.get("attribution_status"),
+            "external_ids": s.get("external_ids") or [],
+            "transmission_path": s.get("transmission_path"),
+            "field_state": s.get("field_state"),
+            "discovery": {
+                "channel": s.get("discovery_channel"),
+                "instrument": s.get("discovery_instrument"),
+                "date": s.get("discovery_date"),
+            },
+            "rights": {
+                "rights_status": s.get("rights_status"),
+                "license": s.get("license"),
+                "display_permitted": s.get("display_permitted"),
+                "note": (None if s.get("display_permitted") is not None else
+                         "unstated - treated as not permitted for public "
+                         "full-text display (FLAG-013 fail-closed)"),
+            },
+        })
+    return {
+        "view": "sources.json - FAIR export (S5.4, Pass 1 SS5.6)",
+        "world_id": WORLD_ID,
+        "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
+        "id_scheme": (
+            "record ids are stable within this repository "
+            "(srcDESnnn; referenced by every record's sources[] rows)"),
+        "source_count": len(rows),
+        "sources": rows,
+    }
+
+
+# ----------------------------------------------------------------------- main
+
+def _dump(obj: dict) -> str:
+    return json.dumps(obj, indent=2, ensure_ascii=False, sort_keys=False) + "\n"
+
+
+def main(argv: list[str]) -> int:
+    check = "--check" in argv
+    outputs = {
+        DATA_DIR / "repository.json": _dump(build_repository()),
+        DATA_DIR / "sources.json": _dump(build_sources_json()),
+    }
+    stale = []
+    for path, text in outputs.items():
+        if check:
+            current = path.read_text(encoding="utf-8") if path.exists() else None
+            if current != text:
+                stale.append(path.name)
+        else:
+            path.write_text(text, encoding="utf-8", newline="\n")
+            print(f"written: {path}")
+    if check:
+        if stale:
+            print(f"STALE: {', '.join(stale)} - regenerate with "
+                  "python wrs/views/repository.py")
+            return 1
+        print("current: repository.json, sources.json byte-match regeneration")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))
