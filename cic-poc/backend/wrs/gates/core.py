@@ -58,6 +58,12 @@ def gate_referential_integrity(records: dict) -> list:
             sid = link.get("source_id")
             if sid and sid not in records:
                 out.append(f"{rid}: sources[] -> {sid} does not resolve")
+        # CO-P2-04: story-to-gravity links (gate STRENGTHENED - a new
+        # reference class checked; no existing check weakened)
+        for link in r.get("gravity_links") or []:
+            gid = link.get("gravity_id")
+            if gid and gid not in records:
+                out.append(f"{rid}: gravity_links[] -> {gid} does not resolve")
     return out
 
 

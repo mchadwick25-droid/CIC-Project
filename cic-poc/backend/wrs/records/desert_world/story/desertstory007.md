@@ -60,8 +60,17 @@ sources:
   author_gravity_note: 'Source line (chunk): Athanasius, Life of Antony, chs. 8-10 -- hagiographic portrait,
     not incident report'
 owner_figure_id: desertfig001
+gravity_links:
+- gravity_id: desertgrav002
+  note: This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a
+    neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when
+    carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's
+    later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute
+    deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.
+- gravity_id: desertgrav009
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory007_antony-combat-in-tombs.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

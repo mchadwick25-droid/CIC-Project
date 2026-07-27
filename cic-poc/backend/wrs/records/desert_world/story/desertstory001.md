@@ -71,8 +71,18 @@ sources:
 - source_id: srcDES020
   author_gravity_note: 'Source line (chunk): Athanasius, Life of Antony, ch. 2 (composed c. 356-362)'
 owner_figure_id: desertfig001
+gravity_links:
+- gravity_id: desertgrav001
+  note: This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed
+    scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific
+    interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture
+    heard as immediate personal command, not general instruction offered to any reader. It is also the
+    direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away
+    of withdrawal in exactly this pattern of staying reachable by an address once heard.
+- gravity_id: desertgrav007
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory001_antonys-call-matthew-19-21.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

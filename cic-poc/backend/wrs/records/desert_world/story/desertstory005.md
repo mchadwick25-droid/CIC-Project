@@ -53,8 +53,15 @@ sources:
 - source_id: srcDES021
   author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Arsenius (Alphabetical Collection)'
 owner_figure_id: desertfig005
+gravity_links:
+- gravity_id: desertgrav001
+  note: This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed
+    mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3)
+    as a named, actively sought discipline rather than a passive absence of noise.
+- gravity_id: desertgrav003
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory005_arsenius-flee-be-still.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3) as a named, actively sought discipline rather than a passive absence of noise.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

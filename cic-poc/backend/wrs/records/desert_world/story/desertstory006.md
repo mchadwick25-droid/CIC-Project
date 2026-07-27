@@ -60,8 +60,23 @@ sources:
 - source_id: srcDES021
   author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Sarah (Alphabetical Collection)'
 owner_figure_id: desertfig006
+gravity_links:
+- gravity_id: desertgrav003
+  note: This is this world's single clearest direct textual evidence for the ammas' own teaching voice
+    (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised
+    here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather
+    than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased
+    inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`,
+    Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live
+    adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain
+    way, rather than the attested elders coming to test/humble her about being a woman), while the saying's
+    own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`,
+    the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and
+    should be treated as the canonical wording.
+- gravity_id: desertgrav005
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory006_sarah-answer-to-elders.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This is this world's single clearest direct textual evidence for the ammas' own teaching voice (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`, Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain way, rather than the attested elders coming to test/humble her about being a woman), while the saying's own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`, the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and should be treated as the canonical wording.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

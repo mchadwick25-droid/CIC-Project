@@ -157,7 +157,10 @@ def render_story_chunk(story: dict) -> str:
         "",
         "## Formation Ecology Connection",
         "",
-        _parked(story.get("_body", ""), FEC_DELIM),
+        # CO-P2-04: the FEC prose lives verbatim on the first
+        # gravity_links note (typed home; parking retired)
+        (story.get("gravity_links") or [{}])[0].get("note",
+            _parked(story.get("_body", ""), FEC_DELIM)),
         "",
         "---",
         "",
@@ -171,9 +174,33 @@ def render_story_chunk(story: dict) -> str:
         "",
         usage,
     ]
-    src_ident = _parked(story.get("_body", ""), SRC_DELIM)
-    if src_ident:
-        parts += ["", "---", "", "## Source Identification", "", src_ident]
+    # CO-P2-04: Source Identification renders from the per-element
+    # sources[] entries (SS3.3 tier-4 rule); parking retired
+    element_entries = []
+    for s in story.get("sources", []):
+        note = s.get("author_gravity_note", "")
+        if note.startswith("Element from Story Text: ") and "|| Source: " in note:
+            element_entries.append(note)
+    if element_entries:
+        lines = ["", "---", "", "## Source Identification", ""]
+        for i, note in enumerate(element_entries):
+            el = note.split("Element from Story Text: ", 1)[1].split(" || ", 1)[0]
+            src = note.split("|| Source: ", 1)[1]
+            src = src.split(" (SS3.3 tier-4 rule backfill", 1)[0]
+            block = f"**Element from Story Text:** {el}\n**Source:** {src}"
+            lines.append(block)
+            lines.append("")
+        # trailing removal Note rides on the last element entry
+        last = element_entries[-1]
+        if "|| Note: " in last:
+            lines.append(f"**Note:** {last.split('|| Note: ', 1)[1]}")
+        while lines and lines[-1] == "":
+            lines.pop()
+        parts += lines
+    else:
+        src_ident = _parked(story.get("_body", ""), SRC_DELIM)
+        if src_ident:
+            parts += ["", "---", "", "## Source Identification", "", src_ident]
     return "\n".join(parts) + "\n"
 
 

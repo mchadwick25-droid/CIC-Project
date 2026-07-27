@@ -63,8 +63,15 @@ sources:
 - source_id: srcDES021
   author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Moses (Alphabetical Collection)'
 owner_figure_id: desertfig004
+gravity_links:
+- gravity_id: desertgrav005
+  note: 'This story directly illustrates gravity 5 (diakrisis) in its self-directed, humility-oriented
+    register -- discernment turned first on one''s own condition before it is turned on another''s --
+    and the broader pattern Doc_05 §1 identifies of this tradition correcting toward moderation over judgment.
+    It is the exact story the live-tested Permanent Prompt guard exists to protect: this account, and
+    no invented elaboration of it, is what Papnoute actually carries whole for Abba Moses (see `LiveTest_Scoring_Review.md`,
+    the fabricated-attribution finding this guard was written to close).'
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory004_moses-leaking-jug.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This story directly illustrates gravity 5 (diakrisis) in its self-directed, humility-oriented register -- discernment turned first on one's own condition before it is turned on another's -- and the broader pattern Doc_05 §1 identifies of this tradition correcting toward moderation over judgment. It is the exact story the live-tested Permanent Prompt guard exists to protect: this account, and no invented elaboration of it, is what Papnoute actually carries whole for Abba Moses (see `LiveTest_Scoring_Review.md`, the fabricated-attribution finding this guard was written to close).
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

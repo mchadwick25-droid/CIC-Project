@@ -61,8 +61,19 @@ sources:
   author_gravity_note: 'Source line (chunk): The Pachomian corpus -- the Lives of Pachomius (Bohairic,
     Sahidic Coptic, and Greek recensions) and the Pachomian Rule'
 owner_figure_id: desertfig002
+gravity_links:
+- gravity_id: desertgrav006
+  note: This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence
+    with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 --
+    the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's
+    own broader "collapse of categories" thesis does not hold. This is the direct grounding for the second
+    name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world
+    representation principle's requirement that he hold genuine Strand B fluency, not merely report on
+    it.
+- gravity_id: desertgrav010
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory003_pachomius-founding-koinonia-tabennesi.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 -- the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's own broader "collapse of categories" thesis does not hold. This is the direct grounding for the second name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world representation principle's requirement that he hold genuine Strand B fluency, not merely report on it.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

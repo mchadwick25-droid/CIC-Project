@@ -60,8 +60,17 @@ sources:
   author_gravity_note: 'Source line (chunk): Athanasius, Life of Antony, chs. 3-14 (outer mountain) and
     chs. 49-50 (inner mountain)'
 owner_figure_id: desertfig001
+gravity_links:
+- gravity_id: desertgrav001
+  note: This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather
+    than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples
+    begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register
+    the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies
+    (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from.
+- gravity_id: desertgrav003
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory002_antony-withdrawal-outer-inner-mountain.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
-[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
-This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from.
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.

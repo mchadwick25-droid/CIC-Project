@@ -195,7 +195,20 @@
         "attested_occasion": {"type": "string"},
         "tellable_as": {"enum": ["scene", "background-fact", "allusion-only"]},
         "voice_surface": {"type": "string"},
-        "retrieval": {"$ref": "#/$defs/retrieval_block"}
+        "retrieval": {"$ref": "#/$defs/retrieval_block"},
+        "gravity_links": {
+          "type": "array",
+          "$comment": "CO-P2-04 (Mark, 2026-07-27), resolving FLAG-004: typed story-to-gravity links; the note carries the Formation Ecology Connection prose the S2.4 migration dropped (its loss measurably regressed retrieval - DES-TH-05). First link's note holds the full FEC text verbatim; the chunk view renders the section from it.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "gravity_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["gravity_id"],
+            "additionalProperties": false
+          }
+        }
       },
       "unevaluatedProperties": false
     },
