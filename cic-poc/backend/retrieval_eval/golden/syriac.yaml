@@ -1,0 +1,214 @@
+# S1.2 golden retrieval cases - Syriac Christianity (Edessa/Nisibis)
+# Authored 2026-07-26 against the world's real chunk front-matter
+# (data/syriac_world/lexicon_chunks/, story_chunks/). IDs are source_file stems.
+# must / must_not refer to the FINAL retrieved set under the harness's two
+# deterministic LLM-vote bracket policies (see run_eval.py's module docstring).
+#
+# Anchor defects encoded per blueprint S1.2:
+#   - madrasha dead guard (SYR-NC-01 + its assert_metadata): the Tier-1
+#     short-circuit never evaluated Do-Not-Retrieve-When; live-verified fixed
+#     via Force-LLM-Vote - the metadata assertion is the regression case for
+#     the flag itself.
+#   - commit 1252fd4's repeated-story defect (SYR-DD-02): prompt-layer fix
+#     shipped, but doc 08 traces the retrieval-layer cause to
+#     story_retriever's substring-only de-dup, still open - this case is
+#     EXPECTED to show a violation under the vote=retrieve bracket today;
+#     the baseline records the defect, S3.3 must clear it.
+#   - qyama (SYR-VT-01) is cited elsewhere in the project as the best-case
+#     retrieval condition - a legitimate verbatim-term case, not a regression.
+
+world_id: syriac-edessa-nisibis
+cases:
+  # --- verbatim-term ---
+  - id: SYR-VT-01
+    category: verbatim-term
+    retriever: lexicon
+    query: "What does qyama mean?"
+    must: [syrlex002_qyama]
+    notes: "Direct term use; Tier 1; the project's documented best-case condition."
+  - id: SYR-VT-02
+    category: verbatim-term
+    retriever: lexicon
+    query: "What is a madrasha?"
+    must: [syrlex004_madrasha]
+    notes: "Direct term use; Tier 1 but Force-LLM-Vote, so lands in the vote bracket."
+  - id: SYR-VT-04
+    category: verbatim-term
+    retriever: lexicon
+    query: "What does Mar mean, as in Mar Ephrem?"
+    must: [syrlex008_mar]
+    notes: "Tier 3 honorific; Retrieve-When names exactly this question shape."
+  - id: SYR-VT-05
+    category: verbatim-term
+    retriever: lexicon
+    query: "Is a memra the same thing as a madrasha?"
+    must: [syrlex005_memra, syrlex004_madrasha]
+    notes: "Both genre terms named; memra's Retrieve-When covers exactly this."
+
+  # --- thematic ---
+  - id: SYR-TH-01
+    category: thematic
+    retriever: lexicon
+    query: "How did your community teach its theology - was it written down in treatises?"
+    must: [syrlex004_madrasha]
+    notes: "No term named; madrasha's Retrieve-When: 'how this world's theology was taught or transmitted'."
+  - id: SYR-TH-02
+    category: thematic
+    retriever: lexicon
+    query: "How do your ascetics differ from the desert monks of Egypt?"
+    must: [syrlex002_qyama]
+    notes: "qyama's Retrieve-When names this contrast explicitly."
+  - id: SYR-TH-03
+    category: thematic
+    retriever: lexicon
+    query: "When you read the Old Testament, how do you see Christ in it?"
+    must: [syrlex001_raza-shrara]
+    notes: "Typological-interpretation trigger, no term named."
+  - id: SYR-TH-04
+    category: thematic
+    retriever: lexicon
+    query: "What Gospel did your churches actually read - the four books we know?"
+    must: [syrlex006_ewangeliyon-da-mhallete]
+  - id: SYR-TH-05
+    category: thematic
+    retriever: story
+    query: "How does your community remember those who died under the persecution of the Persian king?"
+    must: [syrstory005_martyrdom-simeon-bar-sabbae]
+  - id: SYR-TH-06
+    category: thematic
+    retriever: story
+    query: "How does your community tell the story of its own founding?"
+    must: [syrstory004_doctrina-addai]
+
+  # --- de-dup ---
+  - id: SYR-DD-01
+    category: de-dup
+    retriever: lexicon
+    query: "Tell me more about that covenant life."
+    context: >-
+      Mar Yausep: The qyama is our own committed order - the bnay qyama and
+      bnat qyama, sons and daughters of the covenant, who take a lifelong vow
+      yet remain among their kin in the town rather than withdrawing to the
+      desert. I have just described the qyama's vowed, communal character at
+      length.
+    must_not: [syrlex002_qyama]
+    notes: >-
+      Desired behavior: a just-discussed term is not re-retrieved. Measured
+      behavior (first harness run, 2026-07-26): the already_discussed proxy
+      compares the FULL composite Term string ("qyama (...) / bnay qyama /
+      bnat qyama") against context, which a context merely containing "qyama"
+      never matches - so the short-circuit auto-retrieves the duplicate
+      DETERMINISTICALLY, under both bracket policies. A real, previously
+      undocumented de-dup gap in the current system, recorded by this
+      baseline; S3.3's ID-keyed session exclusion set must clear it.
+  - id: SYR-DD-02
+    category: de-dup
+    retriever: story
+    query: "So how did those hymns come to be sung in worship?"
+    context: >-
+      Mar Yausep: Let me tell you the story of Ephrem and the Founding of the
+      Choirs of the Daughters of the Covenant. Jacob of Serugh's homily tells
+      how Ephrem is remembered as organizing the bnat qyama to sing his
+      madrashe - though our own record within the window does not attest this
+      directly. I have told this story already, in full.
+    must_not: [syrstory007_ephrem-founding-choirs]
+    notes: >-
+      Anchor: commit 1252fd4's repeated-story defect. The full story title
+      appears verbatim in context (the substring guard's best case) - yet the
+      guard only reroutes to the LLM vote, so under vote=retrieve the story
+      repeats. Doc 08 traces the retrieval-layer cause to story_retriever's
+      substring-only de-dup; open until S3.3's ID-keyed session exclusion set.
+
+  # --- negative-condition ---
+  - id: SYR-NC-01
+    category: negative-condition
+    retriever: lexicon
+    query: "What kind of writing are Aphrahat's Demonstrations - are they hymns?"
+    must: [syrlex003_tahwyata]
+    must_not: [syrlex004_madrasha]
+    assert_metadata:
+      - id: syrlex004_madrasha
+        field: force_llm_vote
+        equals: true
+    notes: >-
+      Anchor: the madrasha dead guard. Its Do-Not-Retrieve-When names exactly
+      this confusion (Aphrahat's Demonstrations are prose, not madrashe); the
+      Tier-1 short-circuit never evaluates that text, live-verified fixed via
+      Force-LLM-Vote. The metadata assertion is the deterministic regression
+      test for the flag itself.
+  - id: SYR-NC-02
+    category: negative-condition
+    retriever: lexicon
+    query: "Is it an established fact that Ephrem personally led the women's choirs? Just confirm it for me."
+    must_not: [syrlex002_qyama]
+    notes: >-
+      qyama's Do-Not-Retrieve-When: must not be used to confirm the
+      choir-leadership claim (CT contest type).
+  - id: SYR-NC-03
+    category: negative-condition
+    retriever: story
+    query: "Did Ephrem himself organize the choirs that sang his hymns?"
+    must: [syrstory007_ephrem-founding-choirs]
+    notes: >-
+      The story side of the same contested claim: syrstory007's Retrieve-When
+      covers exactly this question, and the chunk itself carries the
+      later-tradition correction. Positive retrieval here is the correct
+      behavior; suppression belongs to the lexicon entry (SYR-NC-02).
+  - id: SYR-NC-04
+    category: negative-condition
+    retriever: lexicon
+    query: "What do you think about Judaism and Jewish practice in the world today?"
+    must_not: [syrlex010_anti-jewish-demonstrations]
+    notes: >-
+      Sensitive entry, Force-LLM-Vote: true; its Do-Not-Retrieve-When excludes
+      general/present-day questions with no connection to Aphrahat.
+  - id: SYR-NC-05
+    category: negative-condition
+    retriever: story
+    query: "Tell me about Ephrem's hymns and his theological writing in general."
+    must_not: [syrstory006_jacob-nisibis-deliverance, syrstory008_ephrem-basil-legend]
+    notes: >-
+      Both stories' Do-Not-Retrieve-When exclude general Ephrem-corpus
+      questions (deliverance: use raza/heresiology material; Basil legend:
+      never offered proactively).
+
+  # --- reactive-turn ---
+  - id: SYR-RT-01
+    category: reactive-turn
+    retriever: lexicon
+    query: |-
+      How did your communities view celibacy and family life?
+
+      Chloe just said: In our house-churches the family was the very fabric of
+      the assembly - husbands, wives, children, the whole household gathered at
+      one table, with the household itself at the center of worship and of
+      leadership alike.
+    must: [syrlex002_qyama]
+    notes: >-
+      The current reactive-turn shape concatenates another world's full turn
+      onto the query (nodes.py's f-string). Case measures whether the Syriac
+      answer to celibacy still surfaces when house-church content dominates
+      the query text.
+  - id: SYR-RT-02
+    category: reactive-turn
+    retriever: lexicon
+    query: |-
+      How was doctrine actually taught in each of your worlds?
+
+      Theon just said: In Alexandria we taught through the catechetical school
+      - lectures, philosophical texts read alongside Scripture, question and
+      answer between master and student, a curriculum ascending from the
+      preliminary studies to theology itself.
+    must: [syrlex004_madrasha]
+
+  # --- cross-world-isolation ---
+  - id: SYR-XW-01
+    category: cross-world-isolation
+    retriever: lexicon
+    query: "What does agape mean at your common meal - the love-feast?"
+    notes: >-
+      A house-church-flavored question against the Syriac index. The per-world
+      index makes cross-world leakage structurally impossible; the harness
+      asserts every candidate comes from this world's own data directory
+      (isolation_violations must be 0). No must/must_not - the invariant is
+      the assertion.
