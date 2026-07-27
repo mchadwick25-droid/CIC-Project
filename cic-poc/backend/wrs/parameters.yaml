@@ -42,6 +42,21 @@ parameters:
       (Pass 1 SS12.7), implemented at S4.4b only after Mark decides. S4.4a
       makes the runtime read this entry instead of the hardcoded constant (F9).
 
+  prefix_budget_per_world:
+    value: 12000
+    source: >-
+      S5.3 (blueprint Touches: "wrs/parameters.yaml (per-world prefix
+      budget)") - the always-present cached-prefix ceiling per world, in
+      estimated tokens (chars/4). Desert measured post-R7 at ~5.8k
+      assembled + ~2.2k capsule = ~8k against this 12k ceiling
+      (2026-07-27); the ceiling is the eviction trigger: under pressure,
+      segments yield in eviction_priority order (demonstrations first,
+      per the SS5.1 manifest).
+    notes: >-
+      Consumed by the assembly view's manifest (reported) - a hard
+      runtime enforcer lands with S6.2's per-world builds when worlds
+      with larger lexicons (Alexandria) migrate.
+
   turn_ceiling_multi_world:
     value: 6
     source: >-

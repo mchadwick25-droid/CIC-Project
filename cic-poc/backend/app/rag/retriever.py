@@ -290,6 +290,25 @@ class LexiconRetriever:
                 if idx != -1:
                     body = body[:idx].rstrip()
                     break
+            # S5.3 (R7): for migrated worlds the quick_meaning of EVERY
+            # term already rides the cached prefix - per-turn retrieval
+            # narrows to the DEEP body, so the duplicated Quick Meaning
+            # section is stripped from the serialized chunk. Fail-open:
+            # unmigrated worlds keep the full body exactly as before.
+            try:
+                from app.graph.repair_classifier import _migrated_world_ids
+                if self.world_id in _migrated_world_ids():
+                    for qm in ("## Quick Meaning", "**Quick Meaning:**",
+                               "**Quick Meaning**"):
+                        qidx = body.find(qm)
+                        if qidx != -1:
+                            nxt = body.find("##", qidx + 2)
+                            body = (body[:qidx].rstrip() + "\n\n"
+                                    + body[nxt:] if nxt != -1
+                                    else body[:qidx].rstrip())
+                            break
+            except Exception:
+                pass
             context_parts.append(body)
             context_parts.append("\n---\n")
 

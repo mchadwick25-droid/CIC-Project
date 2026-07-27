@@ -35,6 +35,14 @@
    "est_tokens": 329
   },
   {
+   "name": "quick_reach",
+   "cache_stability": "static",
+   "eviction_priority": 2,
+   "sources": "every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
+   "chars": 3195,
+   "est_tokens": 798
+  },
+  {
    "name": "demonstrations",
    "cache_stability": "static",
    "eviction_priority": 5,
@@ -73,7 +81,7 @@
  "budget": {
   "world_ground_est_tokens": 889,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 5026
+  "static_total_est_tokens": 5824
  },
  "quick_reach": "deliberately absent - S5.3 (R7), gated on B-PARROT per F3"
 }

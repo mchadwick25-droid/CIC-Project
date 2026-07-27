@@ -10,13 +10,14 @@ correct and quality-correct ordering. The quick-reach segment is S5.3's
 (R7, gated on the B-PARROT tolerance per F3) and is deliberately absent.
 """
 from . import (identity, world_ground, contestation, grounding_anchor,
-               demonstrations, guards, session_layer, turn_layer)
+               quick_reach, demonstrations, guards, session_layer, turn_layer)
 
 ASSEMBLY_ORDER = [
     identity.SEGMENT,
     world_ground.SEGMENT,
     contestation.SEGMENT,
     grounding_anchor.SEGMENT,
+    quick_reach.SEGMENT,
     demonstrations.SEGMENT,
     guards.SEGMENT,
     session_layer.SEGMENT,
