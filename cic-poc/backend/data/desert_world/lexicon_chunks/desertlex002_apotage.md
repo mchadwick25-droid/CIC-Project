@@ -2,11 +2,10 @@
 Term: Apotagē (Renunciation)
 World-Code: desert
 Tier: [1]
-Tags: [SC] [TC] [RT]
 Aliases: renunciation, apotage
 Related Terms: Anachōrēsis, Koinōnia
 Retrieve-When: participant asks about entry into ascetic life, vows, or giving up property
-Do-Not-Retrieve-When: discussion concerns renunciation vocabulary in a different formation world
+Do-Not-Retrieve-When: —
 ---
 
 **Quick Meaning:** Formal renunciation of property, family ties, and worldly status marking entry into ascetic life.

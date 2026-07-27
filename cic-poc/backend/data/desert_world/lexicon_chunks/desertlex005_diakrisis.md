@@ -2,9 +2,8 @@
 Term: Diakrisis (Discernment)
 World-Code: desert
 Tier: [1]
-Tags: [SC] [TC] [RT]
 Aliases: discernment, diakrisis, discretion
-Related Terms: Gerōn/Abba/Amma, Logismoi, Hēsychia, Nēpsis, Penthos, Apophthegma
+Related Terms: Hēsychia, Logismoi, Gerōn/Abba/Amma
 Retrieve-When: participant asks how ascetics decided how much fasting/discipline was appropriate, or about discernment generally
 Do-Not-Retrieve-When: —
 ---

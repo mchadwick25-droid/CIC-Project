@@ -2,11 +2,10 @@
 Term: Anachōrēsis (Withdrawal)
 World-Code: desert
 Tier: [1]
-Tags: [AS] [TC] [RT] [DR]
 Aliases: withdrawal, anachoresis
-Related Terms: Apotagē, Xeniteia, Gerōn/Abba/Amma, Hēsychia, Kellion, Cheirōnaxia/Ergocheiron
+Related Terms: Apotagē, Cheirōnaxia/Ergocheiron
 Retrieve-When: participant uses "withdrawal," "leaving the world," "going into the desert," or asks why ascetics left ordinary life
-Do-Not-Retrieve-When: discussion concerns a different world's own withdrawal-adjacent practice (do not cross-apply)
+Do-Not-Retrieve-When: —
 ---
 
 **Quick Meaning:** The act of departing settled village or civic life for marginal or remote land, undertaken as the ascetic project itself, not a change of address.

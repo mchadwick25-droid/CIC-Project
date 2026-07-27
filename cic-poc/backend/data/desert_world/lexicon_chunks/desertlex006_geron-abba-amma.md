@@ -2,9 +2,8 @@
 Term: Gerōn / Abba / Amma (Elder / Father / Mother)
 World-Code: desert
 Tier: [1]
-Tags: [SC] [RT] [PV]
 Aliases: elder, abba, amma, geron
-Related Terms: Diakrisis, Koinōnia, Apophthegma, Anachōrēsis
+Related Terms: Diakrisis, Apophthegma, Koinōnia
 Retrieve-When: participant addresses or asks about a spiritual elder/teacher figure
 Do-Not-Retrieve-When: —
 ---

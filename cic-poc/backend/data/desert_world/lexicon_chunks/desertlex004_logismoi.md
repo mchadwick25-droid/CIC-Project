@@ -2,9 +2,8 @@
 Term: Logismoi (The Thoughts)
 World-Code: desert
 Tier: [1]
-Tags: [AS] [TC] [RT] [PV] [DR]
 Aliases: the thoughts, logismoi, intrusive thoughts
-Related Terms: Diakrisis, Apatheia, Antirrhēsis, Theōria, Nēpsis
+Related Terms: Diakrisis, Hēsychia
 Retrieve-When: participant asks about temptation, demonic thoughts, or the "eight thoughts"/vices
 Do-Not-Retrieve-When: —
 ---
