@@ -54,7 +54,7 @@ retrieval:
   force_llm_vote: false
 sources:
 - source_id: srcDES001
-  author_gravity_note: Contested (as portrait of this world's own understanding of combat); Inferential/Thin
+  author_gravity_note: Contested (as portrait of this world's own understanding of combat); Inferential / Thin
     (any claim about what specifically happened in the tomb)
 - source_id: srcDES020
   author_gravity_note: 'Source line (chunk): Athanasius, Life of Antony, chs. 8-10 -- hagiographic portrait,

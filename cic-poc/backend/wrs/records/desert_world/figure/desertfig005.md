@@ -16,7 +16,7 @@ names:
 narratable: true
 story_ids:
 - desertstory005
-attribution_note: Court-tutor biographical frame held Inferential/Thin per the chunk; only the call-saying
+attribution_note: Court-tutor biographical frame held Inferential / Thin per the chunk; only the call-saying
   carried.
 ---
 S2.4 figure record (2026-07-27). SS3.6: named in voice-bearing records; narratable set from what the record set actually holds.

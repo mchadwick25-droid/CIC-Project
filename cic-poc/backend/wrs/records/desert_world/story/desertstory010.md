@@ -14,7 +14,7 @@ title: Amma Theodora among the named mothers (allusion only)
 narrative_tier:
   tier: 2
   justification: 'Named amma genuinely attested: Widely Accepted that Theodora and her sayings are a real,
-    if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6''s plural-voices flag); Inferential/Thin
+    if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6''s plural-voices flag); Inferential / Thin
     for any claim beyond what the surviving sayings themselves state. No individual saying of hers is
     vetted into this build''s record - which is why this record licenses allusion only, never scene-telling
     or quotation (CO-P2-07).'
@@ -40,7 +40,7 @@ retrieval:
 sources:
 - source_id: srcDES006
   author_gravity_note: Widely Accepted that the named ammas and their sayings are a genuine, if thin,
-    part of the Apophthegmata tradition; Inferential/Thin beyond what the sayings themselves state (Doc_02
+    part of the Apophthegmata tradition; Inferential / Thin beyond what the sayings themselves state (Doc_02
     §1.6).
 owner_figure_id: desertfig008
 ---

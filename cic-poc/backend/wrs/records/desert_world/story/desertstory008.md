@@ -64,7 +64,7 @@ retrieval:
   force_llm_vote: false
 sources:
 - source_id: srcDES009
-  author_gravity_note: Inferential/Thin (always, per the Story Repository Chunk Template's own rule for
+  author_gravity_note: Inferential / Thin (always, per the Story Repository Chunk Template's own rule for
     Tier 4, regardless of individual element quality)
 - source_id: srcDES005
   author_gravity_note: 'Source line (chunk): Reconstruction assembled from independently attested elements

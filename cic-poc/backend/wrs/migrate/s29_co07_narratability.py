@@ -71,7 +71,7 @@ def allusion_record(a: dict) -> dict:
       "justification": (
        f"Named amma genuinely attested: Widely Accepted that {n} and her "
        f"sayings are a real, if thin, part of the Apophthegmata tradition "
-       f"(Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential/Thin "
+       f"(Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential / Thin "
        f"for any claim beyond what the surviving sayings themselves state. "
        f"No individual saying of hers is vetted into this build's record - "
        f"which is why this record licenses allusion only, never "
@@ -109,7 +109,7 @@ def allusion_record(a: dict) -> dict:
        "author_gravity_note": (
         "Widely Accepted that the named ammas and their sayings are a "
         "genuine, if thin, part of the Apophthegmata tradition; "
-        "Inferential/Thin beyond what the sayings themselves state "
+        "Inferential / Thin beyond what the sayings themselves state "
         "(Doc_02 §1.6).")}],
      "owner_figure_id": a["owner"],
     })

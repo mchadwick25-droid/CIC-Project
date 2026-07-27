@@ -14,7 +14,7 @@ title: Amma Sarah's Answer to the Visiting Elders
 narrative_tier:
   tier: 2
   justification: Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in
-    the tradition; Inferential/Thin for the specific narrated encounter's historicity.
+    the tradition; Inferential / Thin for the specific narrated encounter's historicity.
 text: 'The tradition tells that when some elder monks came to Amma Sarah intending to test or humble her,
   saying, "Be careful not to become conceited, thinking to yourself, ''Look, anchorites are coming to
   see me, a mere woman,''" she answered: "According to nature I am a woman, but not according to my thoughts.
@@ -55,7 +55,7 @@ retrieval:
   force_llm_vote: false
 sources:
 - source_id: srcDES005
-  author_gravity_note: Widely Accepted (the saying's place in the tradition); Inferential/Thin (the specific
+  author_gravity_note: Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific
     narrated encounter's historicity)
 - source_id: srcDES021
   author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Sarah (Alphabetical Collection)'

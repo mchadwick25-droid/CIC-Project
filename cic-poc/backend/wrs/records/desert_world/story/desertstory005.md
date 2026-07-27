@@ -17,7 +17,7 @@ narrative_tier:
     tradition rather than a contemporary datable text. Arsenius's own historical existence and imperial-court
     background are independently well-attested in the broader tradition, but this world's own evidence
     base does not extend to full verification of his court career specifically, and this document does
-    not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential/Thin
+    not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin
     for the specific court-tutor biographical frame.
 text: 'The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople,
   prayed for guidance, and heard a voice say: "Arsenius, flee the company of men and you will be saved."
@@ -48,7 +48,7 @@ retrieval:
   force_llm_vote: false
 sources:
 - source_id: srcDES005
-  author_gravity_note: Widely Accepted (the saying's place in the tradition); Inferential/Thin (the specific
+  author_gravity_note: Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific
     court-tutor biographical frame)
 - source_id: srcDES021
   author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Arsenius (Alphabetical Collection)'

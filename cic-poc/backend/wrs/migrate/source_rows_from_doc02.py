@@ -36,7 +36,7 @@ Declared field mapping (the R spot-check diffs against this):
 
 Confidence-vocabulary note: Doc_02 (and the Framework Template Part IV per
 Doc_02's own terminology note) spells the fifth level "Inferential / Thin";
-the schema enum canonicalizes to "Inferential-Thin". No value is set here
+the schema enum canonicalizes to "Inferential / Thin". No value is set here
 (axes unset per above), so no normalization occurs in this step; recorded
 for S2.9's Change-Order attention.
 """

@@ -116,7 +116,7 @@ FIGURES = [
     ("desertfig004", [("Abba Moses", "in-world"), ("Moses (of Scetis)", "scholarly")], True, ["desertstory004"],
      "The one story carried whole for him; live-test history: a first attempt once misattributed this story to 'Macarius' - the Permanent Prompt's named-attribution guard was written around exactly this record (chunk guidance)."),
     ("desertfig005", [("Abba Arsenius", "in-world"), ("Arsenius (the Great)", "scholarly")], True, ["desertstory005"],
-     "Court-tutor biographical frame held Inferential/Thin per the chunk; only the call-saying carried."),
+     "Court-tutor biographical frame held Inferential / Thin per the chunk; only the call-saying carried."),
     ("desertfig006", [("Amma Sarah", "in-world"), ("Sarah (of the Nile/Scetis tradition)", "scholarly")], True, ["desertstory006"],
      "One of the three named ammas; her answer to the elders is the world's clearest direct amma voice."),
     ("desertfig007", [("Amma Syncletica", "in-world"), ("Syncletica", "scholarly")], False, [],

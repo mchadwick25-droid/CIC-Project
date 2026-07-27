@@ -78,5 +78,11 @@ field_relations:
 - type: presupposed-by
   target_id: desertlex012
   note: Inverse of theōria's presupposes edge (the same Doc_06 §2.2/2.3 sequence, both directions typed).
+- type: presupposed-by
+  target_id: desertlex018
+  note: 'CO-P2-10(c) mirror: puritas cordis is Cassian''s disclosed substitution for this term (Doc_06
+    §2.2/§3.2) - the edge deferred at CO-P2-03, typed now.'
 ---
 CO-P2-03 term record (2026-07-27), authored from Doc_06 Part 2/3 (condensed-verbatim meanings; authored retrieve_when; plain-register voice_surface). Deferred edge: Doc_06 §2.2 also names Puritas Cordis (3.2) as related - not typed here because the Cassian source row is pending CO-P2-10(c).
+
+CO-P2-10(c) (2026-07-27): the deferred Puritas Cordis edge is now typed (srcDES026 exists).

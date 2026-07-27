@@ -3,7 +3,7 @@ Term: Apatheia (Passionlessness)
 World-Code: desert
 Tier: [2]
 Aliases: passionlessness, apatheia
-Related Terms: Logismoi, Theōria
+Related Terms: Logismoi, Theōria, Puritas Cordis
 Retrieve-When: participant uses 'apatheia' or 'apathy' about the tradition, or asks about passionlessness or the goal of ascetic practice
 Do-Not-Retrieve-When: —
 ---
