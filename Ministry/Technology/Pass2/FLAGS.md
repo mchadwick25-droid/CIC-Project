@@ -18,3 +18,10 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 - **Reading applied pending Mark's call:** at S2.2 the Ecological Function text is parked verbatim inside `world_meaning` under an explicit marked delimiter ("`[Ecological Function — parked at S2.2; restructured into typed field_relations at S2.3 per §3.2]`"), so parity holds with zero illegal drops and the parking is visible to the batch reviewer rather than silent. S2.3's declared move is then to convert that parked prose into typed edges (+ notes) and remove the parking block, with parity re-run at S2.3 counting the EF sentences as landed in `field_relations[].note`.
 - **Status:** open (S2.2 executed under this reading; revisit at S2.9 if Mark prefers a dedicated interim field or another shape).
 
+## FLAG-003 — §11-A's story requiredness (`owner_figure_id`) does not fit Tier-4 composites
+
+- **Found during:** S2.4 (Desert story records).
+- **Evidence:** Pass 1 §11-A requires `owner_figure_id` on story records at freeze, and the S1.3 completion gate encodes that. `desertstory008` (A Day in a Kellia Cell) is an explicitly-marked Tier-4 composite reconstruction — per its own template rule it follows no one person's day, so it has no owner figure, and `owner_figure_id` must reference a resolving `figure` record (prose like "none — composite" cannot go in an id field). The story record is honest; the requiredness rule is one tier too broad.
+- **Reading applied pending Mark's call:** the field stays honestly unset; the completion gate's violation on `desertstory008` **stands documented** in every gate run rather than being suppressed — the gate-integrity rule (§0 rule 4) forbids editing the completion profile in the session that must pass it, and that is exactly right here. S2.9 Change-Order candidate: exempt Tier-4 composites from `owner_figure_id` (or define a composite-owner convention), as Mark decides.
+- **Status:** open.
+
