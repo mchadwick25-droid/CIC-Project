@@ -278,7 +278,19 @@ class LexiconRetriever:
             # S3.1: page_content is now the retrieval surface; the chunk
             # body rides in metadata["content"] (fallback keeps old
             # indexes readable until every store is rebuilt)
-            context_parts.append(doc.metadata.get("content", doc.page_content))
+            body = doc.metadata.get("content", doc.page_content)
+            # S5.2 (Pass 1 §5.1): the Key-Sources apparatus never enters
+            # generation context - the lexicon side's equivalent of the
+            # story indexer's voice-unsafe-section strip. The apparatus
+            # stays in metadata (the citation chip's source) and Levels
+            # 2/3; only the voice-safe body is serialized.
+            for marker in ("## Key Sources", "**Key Sources:**",
+                           "**Key Sources**"):
+                idx = body.find(marker)
+                if idx != -1:
+                    body = body[:idx].rstrip()
+                    break
+            context_parts.append(body)
             context_parts.append("\n---\n")
 
             key_sources = doc.metadata.get("key_sources", "")

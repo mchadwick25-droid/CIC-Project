@@ -32,7 +32,11 @@ sys.path.insert(0, str(BACKEND))
 
 STAGING = HERE / "staging"
 DEPLOYED = BACKEND / "data" / "desert_world" / "desert_Representative_Permanent_Prompt_Papnoute.txt"
-GENERATED = STAGING / "desert_world" / "desert_Representative_Permanent_Prompt_generated.txt"
+# S5.2 (additive; bare invocation unchanged = S2.8 behavior): an argv
+# path overrides which generated/assembled prompt is compared - the S5.2
+# P checkpoint points this at the §5.1 assembly's staged output.
+GENERATED = (Path(sys.argv[1]) if len(sys.argv) > 1
+             else STAGING / "desert_world" / "desert_Representative_Permanent_Prompt_generated.txt")
 
 # Doc10 Section 7's own probe prompts, verbatim - held out from the generator
 PROBES = [

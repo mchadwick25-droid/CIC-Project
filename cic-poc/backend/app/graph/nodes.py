@@ -1116,6 +1116,18 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     # reactive-guidance block (reactive_guidance_block), and everything that
     # changes turn-to-turn (dynamic_prompt) - see build_representative_prompt's
     # docstring.
+    # S5.2 (Pass 1 §5.1): migrated worlds carry the post-history guard -
+    # the assembly's own export, appended closest to generation. Lazy,
+    # fail-open import: an unimportable view must never break a turn.
+    post_history_guard = ""
+    try:
+        from app.graph.repair_classifier import _migrated_world_ids
+        if current_world_id in _migrated_world_ids():
+            from wrs.views.segments.guards import POST_HISTORY_GUARD
+            post_history_guard = POST_HISTORY_GUARD
+    except Exception:
+        post_history_guard = ""
+
     static_prompt, reactive_guidance_block, dynamic_prompt = build_representative_prompt(
         permanent_prompt=permanent_prompt,
         world_capsule=world_capsule,
@@ -1124,6 +1136,7 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
         story_context=story_context,
         reroot_guidance=reroot_guidance,
         reactive_turn_guidance=reactive_turn_guidance,
+        post_history_guard=post_history_guard,
     )
 
     # For multi-world, add the public transcript and guidance on encountering

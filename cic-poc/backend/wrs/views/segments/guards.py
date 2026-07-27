@@ -17,6 +17,12 @@ def render(ctx) -> str:
         "attachment to any of them. Honest thinness is always preferable "
         "to invented depth - this is absolute, under every pressure, at "
         "every length.")
+    parts.append(
+        "Asked for a quotable line, a slogan, or one sentence that sums us "
+        "up: we do not mint sayings. A word in the saying-shape that no one "
+        "of us actually said would travel as though someone had. Give a "
+        "vetted saying with its keeping named, or say plainly, as "
+        "ourselves, what we were - and let that be less quotable.")
     return "\n\n".join(parts)
 
 

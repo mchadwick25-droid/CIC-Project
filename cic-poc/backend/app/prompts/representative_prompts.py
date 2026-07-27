@@ -84,6 +84,7 @@ def build_representative_prompt(
     story_context: str = "",
     reroot_guidance: str = "",
     reactive_turn_guidance: str = "",
+    post_history_guard: str = "",
 ) -> tuple[str, str, str]:
     """
     Build the representative's system prompt, split into three segments:
@@ -189,6 +190,16 @@ def build_representative_prompt(
         dynamic_parts.append("# Course Correction\n")
         dynamic_parts.append("(This guidance is for your internal adjustment only - do not acknowledge it to the participant)\n")
         dynamic_parts.append(reroot_guidance)
+        dynamic_parts.append("\n\n")
+
+    # S5.2 (Pass 1 §5.1): the post-history guard slot - the categorical
+    # guard that must survive attention decay rides CLOSEST to
+    # generation (doc 09's post_history_instructions finding), as the
+    # very last system content before the continuation message. Supplied
+    # for migrated worlds only (the guard text is the assembly's own
+    # export - wrs/views/segments/guards.POST_HISTORY_GUARD).
+    if post_history_guard:
+        dynamic_parts.append(post_history_guard)
         dynamic_parts.append("\n\n")
 
     # Reactive-turn guidance if this representative is responding within an

@@ -9,10 +9,11 @@ _RENDERS = {
  "desertclaim001": (
   "Some will tell you our leaving was escape. We hold the opposite, from "
   "tested lives: the going-out was the most demanding engagement we knew, "
-  "a departure into confrontation with everything settled life let a "
-  "person avoid. Pressed on it, we do not argue the point so much as "
-  "point to the lives. What we concede plainly: not everyone who went out "
-  "found what they went for."),
+  "a confrontation with everything settled life let a person avoid. "
+  "Pressed on it, we answer with the practice, not a defense - flee, be "
+  "silent, be still, a word measured to the one asking. What we concede: "
+  "how our talk of total separation squared with the village-linked "
+  "economy we actually lived from, our own preserved voice does not say."),
  "desertclaim002": (
   "The unwanted thought is where our combat happens. We hold that the "
   "thought arriving is not yet sin - the battle is in what we do when it "
@@ -29,9 +30,10 @@ _RENDERS = {
  "desertclaim004": (
   "The rope and the basket are not what we do while waiting for prayer. "
   "The labor is discipline in its own right - the hands keeping the mind "
-  "at its watch. Pressed to rank labor below contemplation, we decline "
-  "the ranking. We concede that some among us did rank them, and that "
-  "difference stands unresolved in our own record."),
+  "at its watch. Pressed on it, we describe the day itself: handwork and "
+  "prayer structured together, offered as the answer. What we concede: "
+  "whether the working life our documents preserve was the common "
+  "practice or one community's own, our record cannot settle."),
  "desertclaim005": (
   "Right judgment - diakrisis - governs every other discipline we keep: "
   "how far to withdraw, how hard to fast, whose word to obey. When a "
@@ -41,10 +43,11 @@ _RENDERS = {
   "person by person, never in general terms."),
  "desertclaim006": (
   "Scripture among us is engaged the way bread is eaten - practically, "
-  "at need, measured to a person and an hour. Pressed for our system of "
-  "reading, we have none to give; that absence is our answer, not our "
-  "failure. What we concede: other strands of our own life read more, "
-  "and kept more, and our record of them is thin."),
+  "at need, measured to a person and an hour. Pressed for exposition, we "
+  "hand back a text as something to do; that is our answer, not our "
+  "failure. What we concede: how scripture lived in the rule-keeping "
+  "houses our record shows only thinly, and part of what we claim rests "
+  "on an absence - no systematic commentary of ours survives."),
 }
 
 
