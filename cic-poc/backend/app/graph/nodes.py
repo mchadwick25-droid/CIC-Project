@@ -324,6 +324,8 @@ def facilitator_receives(state: ConversationState) -> dict:
         SystemMessage(content=FACILITATOR_RECEPTION_PROMPT),
         HumanMessage(content="A new participant has arrived at The Table."),
     ])
+    log_llm_usage("facilitator_reception", response, settings.llm_model,
+                  session_id=state.session_id)
 
     return {
         "messages": [AIMessage(content=response.content, name="facilitator")],
@@ -350,10 +352,12 @@ def stream_facilitator_bridge(state: ConversationState):
     public_transcript = build_public_transcript(state)
 
     full_text = ""
+    usage_chunk = None
     for chunk in llm.stream([
         SystemMessage(content=FACILITATOR_BRIDGE_PROMPT),
         HumanMessage(content=f"Here is what was just said at the table:\n\n{public_transcript}"),
     ]):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
         content = chunk.content
         if isinstance(content, list):
             piece = "".join(
@@ -368,6 +372,8 @@ def stream_facilitator_bridge(state: ConversationState):
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
 
+    log_llm_usage("facilitator_bridge", usage_chunk, settings.llm_model,
+                  session_id=state.session_id)
     yield {
         "type": "complete",
         "speaker": "facilitator",
@@ -442,10 +448,12 @@ def stream_frame_breaker_response(state: ConversationState):
             break
 
     full_text = ""
+    usage_chunk = None
     for chunk in llm.stream([
         SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=last_human_message)),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
         content = chunk.content
         if isinstance(content, list):
             piece = "".join(
@@ -460,6 +468,8 @@ def stream_frame_breaker_response(state: ConversationState):
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
 
+    log_llm_usage("frame_breaker_response", usage_chunk, settings.llm_model,
+                  session_id=state.session_id)
     yield {
         "type": "complete",
         "speaker": "facilitator",
@@ -767,10 +777,12 @@ def stream_relational_safety_response(
         prompt = FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT.format(message=last_human_message)
 
     full_text = ""
+    usage_chunk = None
     for chunk in llm.stream([
         SystemMessage(content=prompt),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
         content = chunk.content
         if isinstance(content, list):
             piece = "".join(
@@ -785,6 +797,8 @@ def stream_relational_safety_response(
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
 
+    log_llm_usage("relational_safety_response", usage_chunk, settings.llm_model,
+                  session_id=state.session_id)
     yield {
         "type": "complete",
         "speaker": "facilitator",
@@ -818,6 +832,8 @@ def facilitator_handoff(state: ConversationState) -> dict:
         SystemMessage(content=handoff_prompt),
         HumanMessage(content=instruction),
     ])
+    log_llm_usage("facilitator_handoff", response, settings.llm_model,
+                  session_id=state.session_id)
 
     return {
         "messages": [AIMessage(content=response.content, name="facilitator")],
@@ -1547,6 +1563,7 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
         SystemMessage(content=prompt),
         HumanMessage(content="Analyze the response above for drift signals."),
     ])
+    log_llm_usage("drift_detection", response, _MONITORING_MODEL)
 
     result = response.content.strip()
     if not result.startswith("DRIFT_DETECTED"):
@@ -1681,10 +1698,12 @@ def _adjudicate_fabrication(
             response=response_text,
             stage1_description=stage1_description,
         )
-        result = llm.invoke([
+        response = llm.invoke([
             _cached_adjudication_message(prompt),
             HumanMessage(content="Adjudicate the flagged content against the material above."),
-        ]).content.strip()
+        ])
+        log_llm_usage("fabrication_adjudication", response, _MONITORING_MODEL)
+        result = response.content.strip()
     except Exception:
         return None
 
@@ -1736,10 +1755,12 @@ def _screen_over_settling(response_text: str) -> str | None:
     """
     try:
         llm = get_monitoring_llm()
-        result = llm.invoke([
+        response = llm.invoke([
             SystemMessage(content=OVER_SETTLING_SCREEN_PROMPT.format(response=response_text)),
             HumanMessage(content="Screen the turn above."),
-        ]).content.strip()
+        ])
+        log_llm_usage("over_settling_screen", response, _MONITORING_MODEL)
+        result = response.content.strip()
     except Exception:
         return None
 
@@ -1822,10 +1843,12 @@ def _adjudicate_over_settling(
             response=response_text,
             stage1_description=stage1_description,
         )
-        result = llm.invoke([
+        response = llm.invoke([
             _cached_adjudication_message(prompt),
             HumanMessage(content="Adjudicate the flagged claim against the material above."),
-        ]).content.strip()
+        ])
+        log_llm_usage("over_settling_adjudication", response, _MONITORING_MODEL)
+        result = response.content.strip()
     except Exception:
         return None
 
@@ -1961,6 +1984,7 @@ def generate_reroot_guidance(signal: DriftSignal) -> str:
         SystemMessage(content=prompt),
         HumanMessage(content="Provide correction guidance."),
     ])
+    log_llm_usage("reroot_guidance", response, _MONITORING_MODEL)
     return response.content.strip()
 
 
@@ -2037,6 +2061,8 @@ def facilitator_closes(state: ConversationState) -> dict:
         SystemMessage(content=FACILITATOR_CLOSING_PROMPT),
         HumanMessage(content="The participant is leaving. Please offer a closing."),
     ])
+    log_llm_usage("facilitator_close", response, settings.llm_model,
+                  session_id=state.session_id)
 
     return {
         "messages": [AIMessage(content=response.content, name="facilitator")],
@@ -2140,6 +2166,8 @@ WORLD_IDS: syriac-edessa-nisibis, post-apostolic-house-church"""
         SystemMessage(content=routing_prompt),
         HumanMessage(content="Determine the turn type."),
     ])
+    log_llm_usage("turn_type_router", response, _MONITORING_MODEL,
+                  session_id=state.session_id)
 
     # Parse response
     result = response.content.strip()
@@ -2434,6 +2462,8 @@ DESCRIPTION: one sentence (omit if not detected)"""
         SystemMessage(content=prompt),
         HumanMessage(content="Check for convergence drift."),
     ])
+    log_llm_usage("convergence_check", response, _MONITORING_MODEL,
+                  session_id=state.session_id)
 
     detected = False
     severity = "low"
@@ -2766,6 +2796,8 @@ Respond with exactly one word: INVOKING or INCIDENTAL."""
 
                 try:
                     response = llm.invoke([HumanMessage(content=prompt)])
+                    log_llm_usage("vocab_drift_verdict", response, _MONITORING_MODEL,
+                                  session_id=state.session_id)
                     verdict = response.content.strip().upper()
                 except Exception:
                     continue

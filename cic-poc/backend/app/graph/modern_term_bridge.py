@@ -170,11 +170,13 @@ def stream_modern_term_bridge(state: ConversationState, match: dict):
     message injected for the Representative is NEVER persisted to the transcript
     (spec section 5) - only the `complete` messages yielded here are.
     """
+    from app.config import settings
     from app.graph.nodes import (
         REACTIVE_TURN_MAX_TOKENS,
         get_llm,
         stream_representative_turn,
     )
+    from app.usage_logging import log_llm_usage
     from app.prompts.facilitator_prompts import (
         FACILITATOR_MODERN_TERM_BRIDGE_PROMPT,
         get_representative_message_name,
@@ -205,14 +207,18 @@ def stream_modern_term_bridge(state: ConversationState, match: dict):
     yield {"type": "speaker_start", "speaker": "facilitator"}
     llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
     full_text = ""
+    usage_chunk = None
     for chunk in llm.stream([
         SystemMessage(content=prompt),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
         piece = _extract_piece(chunk.content)
         if piece:
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
+    log_llm_usage("modern_term_bridge_facilitator_turn", usage_chunk,
+                  settings.llm_model, session_id=state.session_id)
     yield {"type": "speaker_end", "speaker": "facilitator", "citations": None}
     yield {
         "type": "complete",

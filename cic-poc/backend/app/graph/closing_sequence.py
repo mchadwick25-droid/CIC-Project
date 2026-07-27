@@ -126,12 +126,14 @@ def classify_wind_down(state: ConversationState, message: str) -> bool:
 
 def _classify_reply(prompt: str, message: str, default: str, positive: str) -> bool:
     try:
-        from app.graph.nodes import get_monitoring_llm
+        from app.graph.nodes import _MONITORING_MODEL, get_monitoring_llm
+        from app.usage_logging import log_llm_usage
         llm = get_monitoring_llm()
         resp = llm.invoke([
             SystemMessage(content=prompt.format(message=message)),
             HumanMessage(content="Classify the reply above."),
         ])
+        log_llm_usage("closing_reply_classifier", resp, _MONITORING_MODEL)
         return _one_word(resp, default) == positive
     except Exception:
         return default == positive
@@ -205,7 +207,9 @@ def stream_closing_turn(state: ConversationState, kind: str):
     Stream one Facilitator-only turn for a closing stage. Yields token/complete
     events (speaker 'facilitator'), same shape the streaming endpoint handles.
     """
+    from app.config import settings
     from app.graph.nodes import REACTIVE_TURN_MAX_TOKENS, get_llm
+    from app.usage_logging import log_llm_usage
     from app.prompts.facilitator_prompts import (
         FACILITATOR_ANYTHING_ELSE_PROMPT,
         FACILITATOR_RESOURCES_OFFER_PROMPT,
@@ -239,14 +243,18 @@ def stream_closing_turn(state: ConversationState, kind: str):
 
     llm = get_llm(max_tokens=REACTIVE_TURN_MAX_TOKENS)
     full_text = ""
+    usage_chunk = None
     for chunk in llm.stream([
         SystemMessage(content=prompt),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
         piece = _extract_piece(chunk.content)
         if piece:
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
+    log_llm_usage(f"closing_turn_{kind}", usage_chunk, settings.llm_model,
+                  session_id=state.session_id)
     yield {
         "type": "complete",
         "speaker": "facilitator",

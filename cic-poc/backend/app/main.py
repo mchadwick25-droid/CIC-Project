@@ -543,11 +543,14 @@ async def send_message(session_id: str, request: SendMessageRequest):
     )
 
     if is_frame_breaker:
+        from app.usage_logging import log_llm_usage
         llm = get_llm()
         response = llm.invoke([
             SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=request.message)),
             HumanMessage(content="Respond as the Facilitator, per your instructions above."),
         ])
+        log_llm_usage("frame_breaker_response_plain", response, settings.llm_model,
+                      session_id=session_id)
         state.messages = list(state.messages) + [AIMessage(content=response.content, name="facilitator")]
         sessions[session_id] = state
         write_transcript(session_id, state)

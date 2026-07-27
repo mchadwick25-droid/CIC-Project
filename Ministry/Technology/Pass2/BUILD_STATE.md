@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S1.1a
-- **Last completed checkpoint:** S1.0 R (`reviews/S1.0_contract_ledger_review.md`)
+- **Current step:** S1.1
+- **Last completed checkpoint:** S1.1a G (`gates/S1.1a_instrumentation_completeness.md`; failure-proof in `gates/S1.1a_gate_failure_proof.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -30,7 +30,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | Step | Status | Checkpoint(s) | Artifact(s) | Notes |
 |---|---|---|---|---|
 | S1.0 | done | R | `reviews/S1.0_contract_ledger_review.md` | P1 (off-by-one in ledger's own count) caught and fixed in-step |
-| S1.1a | pending | G | `gates/S1.1a_instrumentation_completeness.md` | prerequisite to S1.1 |
+| S1.1a | done | G | `gates/S1.1a_instrumentation_completeness.md` (+ `S1.1a_gate_failure_proof.md`, gate script beside it) | 19 sites instrumented → 30/30 total; gate AST-based, deterministic (double-run byte-identical), proven non-vacuous against pre-step code |
 | S1.1 | pending | B + R-lite | `baselines/cost_baseline_2026-07.md`, `reviews/S1.1_token_recount.md` | B-COST |
 | S1.2 | pending | G + B + R | `gates/S1.2_determinism.md`, `baselines/retrieval_baseline.json`, `reviews/S1.2_golden_case_verification.md` | R0; B-RETR |
 | S1.3 | pending | G | `gates/S1.3_seeded_defects.md` | gates + content-coverage parity program + parroting metric (F7); one unit with S1.5, schema first |
