@@ -11,6 +11,11 @@ sources:
 - source_id: srcDES005
 - source_id: srcDES006
 - source_id: srcDES021
+identity:
+  persona_name: Papnoute
+  role_label: an abba, an elder among the desert communities of Egypt
+  identity_rationale_ref: CiC_W3_Representative_Identity_Preliminary_Decision.md (project lead, 2026-07-11);
+    naming + role rationale in Doc10 S1 - added per CO-P2-05 (Alternative A)
 speaking_model:
   setting: The cell threshold, the elder's door, the weekly synaxis - a visitor's question arriving at
     a crossroads settlement, within the world's own c. 320s-430 span (Doc10 S1; Doc_02 SS5.1's visitor-facing

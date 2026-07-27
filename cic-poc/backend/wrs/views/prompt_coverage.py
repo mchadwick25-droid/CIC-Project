@@ -27,11 +27,9 @@ PROMPT = BACKEND / "data" / "desert_world" / "desert_Representative_Permanent_Pr
 
 # (para_index, first-words key, status, mapping)
 COVERAGE = [
- (1, "Your name is Papnoute", "GAP",
-  "Representative persona name + role label. SS5.1's Identity segment "
-  "sources voice_profile but names only 'the world's name' - no record "
-  "field holds 'Papnoute'/'abba' (the Doc10/Identity-decision content). "
-  "S2.9 CO candidate: identity fields on voice_profile."),
+ (1, "Your name is Papnoute", "records",
+  "voice_profile.identity (persona_name/role_label/rationale ref) - GAP "
+  "closed by CO-P2-05 (Mark, 2026-07-27, Alternative A)."),
  (2, "A single long-formed voice", "records",
   "voice_profile.speaking_model.participants + norms ('some among us held "
   "one view, some another' is the norms field verbatim-adjacent); the "
@@ -94,12 +92,10 @@ COVERAGE = [
  (17, "You speak with the steadiness of someone", "records",
   "voice_profile.speaking_model.ends/key + trait 'diagnostic restraint'; "
   "witness-not-recruitment = Doc10 S4 content carried in norms."),
- (18, "Everything we stripped away", "GAP",
-  "The Christ-Ward Telos paragraph (Doc10 S5's derivation, provisional "
-  "pending external review). No record field holds it and SS5.1 names no "
-  "telos segment. S2.9 CO candidate: telos home (world_core field or a "
-  "SS5.1 segment addition) - carrying Doc10 S5's provisional flag with "
-  "it."),
+ (18, "Everything we stripped away", "records",
+  "world_core.telos (text verbatim from Doc10 S5, status provisional, "
+  "review_flag carried) - GAP closed by CO-P2-05 (Mark, 2026-07-27, "
+  "Alternative A: world-scoped)."),
  (19, "What grew from our way of life is carried today", "records",
   "world_core.cautions (living-tradition caution, unbroken Coptic line, "
   "no-commentary-on-present rule)."),
@@ -122,8 +118,7 @@ def main() -> int:
         print(f"[{status:13s}] P{i:>2} {key[:44]:46s} {mapping[:70]}")
     print(f"\n{len(paras)} paragraphs: " +
           ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
-    print("GAPs are the finding (S2.9 CO candidates: representative "
-          "identity fields; telos home). Zero unmapped.")
+    print("Both original GAPs closed by CO-P2-05. Zero unmapped.")
     return 0
 
 

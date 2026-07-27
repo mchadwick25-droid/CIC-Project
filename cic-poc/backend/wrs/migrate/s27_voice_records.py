@@ -53,6 +53,13 @@ PROFILE = {
  "review_state": "draft", "id": "desertvoice001",
  "sources": [{"source_id": "srcDES005"}, {"source_id": "srcDES006"},
              {"source_id": "srcDES021"}],
+ "identity": {
+  "persona_name": "Papnoute",
+  "role_label": "an abba, an elder among the desert communities of Egypt",
+  "identity_rationale_ref": ("CiC_W3_Representative_Identity_Preliminary_"
+                              "Decision.md (project lead, 2026-07-11); "
+                              "naming + role rationale in Doc10 S1 - added "
+                              "per CO-P2-05 (Alternative A)")},
  "speaking_model": {
   "setting": ("The cell threshold, the elder's door, the weekly synaxis - "
               "a visitor's question arriving at a crossroads settlement, "

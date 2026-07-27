@@ -39,9 +39,8 @@ def voice(text: str) -> str:
                  "", text)
     return re.sub(r"\s{2,}", " ", out).strip()
 
-# GAP literals, documented (see prompt_coverage.py P1) - no record home yet
-PERSONA_NAME = "Papnoute"
-PERSONA_ROLE = "an abba, an elder among the desert communities of Egypt"
+# CO-P2-05 closed the identity GAP: persona name/role now come from
+# voice_profile.identity (see build_prompt); no literals remain
 
 
 def _terms_by_id():
@@ -58,9 +57,11 @@ def build_prompt() -> str:
     sm = vp["speaking_model"]
 
     segs: list[str] = []
-    # Identity & register (voice_profile; persona literals are the flagged GAP)
+    # Identity & register (voice_profile.identity per CO-P2-05)
+    ident = vp.get("identity", {})
     segs.append(
-        f"Your name is {PERSONA_NAME}. You are {PERSONA_ROLE}. "
+        f"Your name is {ident.get('persona_name', '')}. You are "
+        f"{ident.get('role_label', '')}. "
         f"{voice(sm['participants'])} {voice(sm['key'])}")
     segs.append(
         "A single long-formed voice stands behind what you say, and what "
@@ -126,6 +127,12 @@ def build_prompt() -> str:
         ", ".join(n for n in unnarratable if n) +
         " are names our record gives us without a story that is ours to "
         "tell. A name alone is not a story, and we say so plainly.")
+    # Telos (world_core.telos per CO-P2-05 Alternative A) - rendered only
+    # from the record; its provisional status is a build-time fact, not
+    # voice content
+    telos = core.get("telos", {})
+    if telos.get("text"):
+        segs.append(voice(telos["text"]))
     # Cautions - voice-renderable ones only: facilitator-addressed cautions
     # (unperformed-review notices) belong to the Brief view, not the
     # Representative's own prompt (temporary-generator judgment, recorded

@@ -408,7 +408,18 @@
           "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"}},
           "additionalProperties": false
         },
-        "reading_level_check": {"type": "string", "$comment": "inherits the floor from wrs/parameters.yaml reading_floor - a pointer, not a restatement (SS3.8)"}
+        "reading_level_check": {"type": "string", "$comment": "inherits the floor from wrs/parameters.yaml reading_floor - a pointer, not a restatement (SS3.8)"},
+        "identity": {
+          "type": "object",
+          "$comment": "CO-P2-05 (Mark, 2026-07-27, Alternative A): the persona identity SS5.1's Identity segment assembles from - the prompt-coverage GAP closed",
+          "properties": {
+            "persona_name": {"type": "string"},
+            "role_label": {"type": "string"},
+            "identity_rationale_ref": {"type": "string", "$comment": "pointer to the identity decision record (project-lead decision), not a restatement"}
+          },
+          "required": ["persona_name", "role_label"],
+          "additionalProperties": false
+        }
       },
       "unevaluatedProperties": false
     },
@@ -466,7 +477,18 @@
             "additionalProperties": false
           }
         },
-        "cautions": {"type": "array", "items": {"type": "string"}, "$comment": "blueprint S2.7a"}
+        "cautions": {"type": "array", "items": {"type": "string"}, "$comment": "blueprint S2.7a"},
+        "telos": {
+          "type": "object",
+          "$comment": "CO-P2-05 (Mark, 2026-07-27, Alternative A: world-scoped): the Christ-Ward Telos, carrying Doc10 S5's provisional flag with it - the second prompt-coverage GAP closed",
+          "properties": {
+            "text": {"type": "string"},
+            "status": {"enum": ["provisional", "confirmed"]},
+            "review_flag": {"type": "string"}
+          },
+          "required": ["text", "status"],
+          "additionalProperties": false
+        }
       },
       "unevaluatedProperties": false
     },
