@@ -1,0 +1,198 @@
+"""S1.3 gate fixtures: per gate, one clean set that must PASS and at least
+two seeded-defect sets that must FAIL - including reconstructions of the
+historical defects Pass 1 names (a non-reciprocal edge reported as mutual;
+a figure referenced with narratable=false; an em-dash condition).
+
+A gate that never fails checks nothing (Pass 1 SS10's health rule, applied
+to the checkpoint layer before anything depends on it - SS1 mechanism 5).
+"""
+
+
+def _fig(rid, name, narratable, story_ids=()):
+    return {"id": rid, "world_id": "fixture-world", "record_type": "figure",
+            "schema_version": 1, "names": [{"name": name, "name_kind": "in-world"}],
+            "narratable": narratable, "story_ids": list(story_ids)}
+
+
+def _story(rid, owner, tellable="scene"):
+    return {"id": rid, "world_id": "fixture-world", "record_type": "story",
+            "schema_version": 1, "title": f"story {rid}",
+            "narrative_tier": {"tier": 2, "justification": "fixture"},
+            "text": "The story text.", "owner_figure_id": owner,
+            "attested_occasion": "the attested occasion", "tellable_as": tellable,
+            "sources": [{"source_id": "fixsrc001"}]}
+
+
+def _term(rid, tier=1, **over):
+    base = {"id": rid, "world_id": "fixture-world", "record_type": "term",
+            "schema_version": 1, "term": rid,
+            "period_sense": "p", "prior_sense": "none-attested", "modern_sense": "m",
+            "conceptual_distance_note": "c", "quick_meaning": "q", "voice_surface": "v",
+            "semantic_domain": "d",
+            "field_relations": [],
+            "retrieval": {"tier": tier, "retrieve_when": ["asked about it"],
+                           "do_not_retrieve_when": [], "force_llm_vote": False},
+            "sources": [{"source_id": "fixsrc001"}]}
+    base.update(over)
+    return base
+
+
+def _src(rid="fixsrc001"):
+    return {"id": rid, "world_id": "fixture-world", "record_type": "source",
+            "schema_version": 1, "attribution_status": "genuine",
+            "level_of_description": "work", "language": "syc",
+            "discovery_channel": "field-bibliography", "boundary_status": "Native",
+            "licensed_for": "voice"}
+
+
+def _quote(rid, state="verified-direct", date="2026-07-26", translation="fixsrc001"):
+    q = {"id": rid, "world_id": "fixture-world", "record_type": "quote",
+         "schema_version": 1, "locus": "Dem 6.1", "license": "verbatim",
+         "confidence": {"verification_state": state}}
+    if date:
+        q["confidence"]["verification_date"] = date
+    if translation:
+        q["translation_used"] = translation
+    return q
+
+
+def clean_set():
+    a = _term("fixlexA", field_relations=[{"type": "presupposes", "target_id": "fixlexB"}])
+    b = _term("fixlexB", field_relations=[{"type": "presupposed-by", "target_id": "fixlexA"}])
+    g1 = {"id": "fixgravA", "world_id": "fixture-world", "record_type": "gravity",
+          "schema_version": 1,
+          "six_tests": {f"test_{i}": {"verdict": "pass"} for i in range(1, 7)},
+          "classification": "Primary",
+          "interaction": [{"type": "reinforcing", "target_id": "fixgravB"}]}
+    g2 = {**g1, "id": "fixgravB",
+          "interaction": [{"type": "reinforcing", "target_id": "fixgravA"}]}
+    fig_ok = _fig("fixfigA", "Abba Fixture", True, ["fixstoryA"])
+    fig_guarded = _fig("fixfigB", "Mar Silent", False, ["fixstoryB"])
+    story = _story("fixstoryA", "fixfigA")
+    allusion = _story("fixstoryB", "fixfigB", tellable="allusion-only")
+    return {r["id"]: r for r in
+            [a, b, g1, g2, fig_ok, fig_guarded, story, allusion, _src(),
+             _quote("fixqA")]}
+
+
+CLEAN_VOICE_MATERIAL = (
+    "You may speak of Abba Fixture and his teaching. Mar Silent is named in "
+    "grief only; his one story is licensed for allusion, never narration."
+)
+
+READABLE_TEXT = (
+    "The meal is the center of what we do. We gather in a house at evening. "
+    "Someone reads a letter aloud. We share bread and give thanks. The "
+    "youngest asks a question and an elder answers it. No one leaves hungry. "
+    "When a traveler comes with news, we hear it after the prayers."
+)
+
+# Marius-reconstruction: one ~75-word sentence, average far past grade 10
+# (the Imperial-Juridical Step10 boundary-testing FAIL, per F5).
+UNREADABLE_LONG = (
+    "The determination of orthodoxy, being inseparable from the "
+    "adjudicative structures through which conciliar authority was "
+    "promulgated and enforced across provincial jurisdictions whose "
+    "episcopal incumbents maintained divergent interpretations of the "
+    "relationship between imperial sponsorship and ecclesial autonomy, "
+    "necessitated a jurisprudential apparatus whose complexity, "
+    "notwithstanding the ostensible simplicity of the creedal formulations "
+    "themselves, rendered the participation of the unlettered faithful in "
+    "doctrinal deliberation a practical impossibility rather than a "
+    "juridical prohibition."
+)
+
+UNREADABLE_JARGON = (
+    "Ecclesiological legitimation presupposes institutional "
+    "differentiation. Sacramental efficacy necessitates ministerial "
+    "authorization. Doctrinal promulgation requires conciliar "
+    "ratification. Jurisdictional demarcation follows metropolitan "
+    "organization."
+)
+
+CHUNK_BODY = (
+    "The covenant is a lifelong vow. Its members remain in the town among "
+    "their kin. The vow is entered by men and women alike. The fast and the "
+    "vigil mark its discipline."
+)
+
+COVERAGE_CLEAN = {
+    "chunk": CHUNK_BODY,
+    "fields": {
+        "period_sense": "The covenant is a lifelong vow. Its members remain in the town among their kin.",
+        "world_meaning": "The vow is entered by men and women alike. The fast and the vigil mark its discipline.",
+    },
+    "drops": [],
+}
+COVERAGE_LOST = {
+    "chunk": CHUNK_BODY,
+    "fields": {
+        "period_sense": "The covenant is a lifelong vow. Its members remain in the town among their kin.",
+        "world_meaning": "The fast and the vigil mark its discipline.",
+    },
+    "drops": [],  # 'entered by men and women alike' silently lost
+}
+COVERAGE_DUP = {
+    "chunk": CHUNK_BODY,
+    "fields": {
+        "period_sense": "The covenant is a lifelong vow. Its members remain in the town among their kin. The vow is entered by men and women alike.",
+        "world_meaning": "The vow is entered by men and women alike. The fast and the vigil mark its discipline.",
+    },
+    "drops": [],  # one sentence lands in two fields
+}
+
+PARROT_SOURCE = READABLE_TEXT
+PARROT_RECITED = ("The meal is the center of what we do. We gather in a house "
+                  "at evening. Someone reads a letter aloud.")
+PARROT_PARAPHRASE = ("Our common supper anchors the whole gathering: letters "
+                     "are read to everyone, bread is broken with thanksgiving, "
+                     "and questions pass from young to old.")
+
+
+def seeded_sets():
+    """Per gate: named seeded-defect record sets (each must FAIL its gate)."""
+    s = {}
+
+    # referential integrity
+    r1 = clean_set(); r1["fixstoryA"] = dict(r1["fixstoryA"], owner_figure_id="fixfig-GONE")
+    r2 = clean_set(); r2["fixlexA"] = dict(r2["fixlexA"],
+        field_relations=[{"type": "presupposes", "target_id": "fixlex-GONE"}])
+    s["referential"] = [("dangling owner_figure_id", r1), ("dangling relation target", r2)]
+
+    # reciprocity - incl. the historical 'reported as mutual' shape
+    q1 = clean_set(); q1["fixlexB"] = dict(q1["fixlexB"], field_relations=[])
+    q2 = clean_set(); q2["fixgravB"] = dict(q2["fixgravB"], interaction=[])
+    s["reciprocity"] = [("presupposes edge with no presupposed-by back (reported as mutual)", q1),
+                        ("symmetric reinforcing not mirrored", q2)]
+
+    # field completion
+    c1 = clean_set(); c1["fixlexA"] = dict(c1["fixlexA"]); c1["fixlexA"].pop("voice_surface")
+    c2 = clean_set(); c2["fixstoryA"] = dict(c2["fixstoryA"]); c2["fixstoryA"].pop("attested_occasion")
+    s["completion"] = [("tier-1 term missing voice_surface", c1),
+                       ("story missing attested_occasion (Amma-Sarah class)", c2)]
+
+    # narratability - the grief-list reconstruction
+    n1 = clean_set(); n1["fixfigB"] = dict(n1["fixfigB"], story_ids=[])
+    n2 = clean_set(); n2["fixstoryB"] = dict(n2["fixstoryB"], tellable_as="scene")
+    s["narratability"] = [("narratable=false figure in voice text, no story at all", n1),
+                          ("narratable=false figure whose only story is scene-licensed, not allusion", n2)]
+
+    # quote recording
+    k1 = clean_set(); k1["fixqA"] = _quote("fixqA", state="unverified")
+    k2 = clean_set(); k2["fixqA"] = _quote("fixqA", date=None)
+    k3 = clean_set(); k3["fixqA"] = _quote("fixqA", translation=None)
+    s["quote_recording"] = [("verification never recorded", k1),
+                            ("verified but no verification_date", k2),
+                            ("no translation_used edition", k3)]
+
+    # sentinel - the em-dash historical defect
+    e1 = clean_set(); e1["fixlexA"] = dict(e1["fixlexA"], retrieval={
+        "tier": 1, "retrieve_when": ["asked"],
+        "do_not_retrieve_when": [{"condition_type": "sense-disambiguation", "text": "—"}],
+        "force_llm_vote": False})
+    e2 = clean_set(); e2["fixlexB"] = dict(e2["fixlexB"], retrieval={
+        "tier": 1, "retrieve_when": ["-"], "do_not_retrieve_when": [],
+        "force_llm_vote": False})
+    s["sentinel"] = [("em-dash in do_not_retrieve_when (the historical defect)", e1),
+                     ("dash sentinel in retrieve_when", e2)]
+    return s

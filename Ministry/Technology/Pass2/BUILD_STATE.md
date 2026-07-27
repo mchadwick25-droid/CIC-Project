@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S1.3 (gates against the S1.5 schema — the last Phase 1 step)
-- **Last completed checkpoint:** S1.5 G + R (`gates/S1.5_validator_fixtures.md`, `reviews/S1.5_traceability_matrix.md`)
+- **Current step:** Phase 1 complete except M2 (first migration world — presented to Mark, pending); S2.1 starts on M2's answer
+- **Last completed checkpoint:** S1.3 G (`gates/S1.3_seeded_defects.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -33,7 +33,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S1.1a | done | G | `gates/S1.1a_instrumentation_completeness.md` (+ `S1.1a_gate_failure_proof.md`, gate script beside it) | 19 sites instrumented → 30/30 total; gate AST-based, deterministic (double-run byte-identical), proven non-vacuous against pre-step code |
 | S1.1 | done | B + R-lite | `baselines/cost_baseline_2026-07.md` (+ raw JSONL, run notes, R-lite rerun log), `reviews/S1.1_token_recount.md` | B-COST: 40 live turns, 689 calls, $6.62 std / $0.165 per turn; cache-TTL pause measured (15,737-token prefix re-paid post-pause); C4 hit `CONVERSATION_TURN_CAP=20` at its turns 9–10 (real system behavior, see run notes); R-lite under FLAG-001 reading (exact recomputation + live shape re-verification) |
 | S1.2 | done | G + B + R | `gates/S1.2_determinism.md`, `baselines/retrieval_baseline.json`, `reviews/S1.2_golden_case_verification.md` | R0/B-RETR: 105 golden cases across 6 worlds (all categories, 12–20 each), harness deterministic (byte-identical double run), LLM vote bracketed [retrieve/skip]; findings: dead-guard class generalizes (Tier-1 top-2 bypasses DNRW; all 45 ALX chunks are Tier 1), composite-Term de-dup gap is deterministic in every world, reactive-turn dilution measured (rank 6/4 burials), 2 genuine thematic embedding misses |
-| S1.3 | pending | G | `gates/S1.3_seeded_defects.md` | gates + content-coverage parity program + parroting metric (F7); one unit with S1.5, schema first |
+| S1.3 | done | G | `gates/S1.3_seeded_defects.md` | `wrs/gates/` + `wrs/metrics/parroting.py`: 6 gates (referential, reciprocity, completion w/ backfill profile, narratability, quote-recording, sentinel) + readability instrument + F7's coverage-parity & parroting instruments; self-test green (all clean pass, 13/13 seeds caught, byte-identical double run); F5 annex: gate run on the six deployed prompts finds exactly the documented Marius drift (FK 11.5/FRE 59.8) and nothing else. **Gate-integrity rule in force from here** |
 | S1.4 | done | G + R | `gates/S1.4_schema_valid.md`, `reviews/S1.4_value_sources.md` | `wrs/parameters.yaml`: 13 parameters (all traced — 2 governing-doc values re-verified verbatim, 10 from code, 1 TBD per §11-D) + 14 §10 metric records; no governing-doc edits; no runtime consumer yet (F9 → S4.4a) |
 | S1.5 | done | G + R | `gates/S1.5_validator_fixtures.md`, `reviews/S1.5_traceability_matrix.md` | M1 = files-in-git; `wrs/schema/`: envelope + 13 record types + gloss list (draft 2020-12, unevaluatedProperties:false), validator (+ em-dash sentinel rule), 13/13 fixtures valid, seeded-invalid fails with 6 named errors, traceability 143/143 both directions (blueprint-origin elements named: world_core.pairing_guidance/cautions per S2.7a) |
 
