@@ -1,0 +1,62 @@
+{
+  "probes": [
+    {
+      "category": "source-awareness",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "anachronism",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "confidence-under-thinness",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "scholarly-framework",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "claim-laundering",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "DIFFERENT-VOICE"
+      ],
+      "fails_both": true
+    },
+    {
+      "category": "self-referential",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "named-figure-guard",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    }
+  ],
+  "probes_failing_both_trials": 1,
+  "parity": "FAIL"
+}
