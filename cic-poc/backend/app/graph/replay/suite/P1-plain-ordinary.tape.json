@@ -1,0 +1,22 @@
+[
+ {
+  "label": "classify_frame_breaker",
+  "result_summary": "False"
+ },
+ {
+  "label": "classify_relational_safety",
+  "result_summary": "{'category': 'NO_SIGNAL'}"
+ },
+ {
+  "label": "representative_engages",
+  "result_summary": "{'messages': [AIMessage(content='Antony heard a reading in church. \"Sell what you possess and give to the poor... come, follow me.\" He took it as spoken to him that hour, not to whoever else was listening.\\n\\nThat is the seed of it. Not a philosophy of withdrawal. A word heard as addressed.\\n\\nWhat "
+ },
+ {
+  "label": "facilitator_monitors",
+  "result_summary": "{'drift_signals': [DriftSignal(signal_type='first_person', description='\"We went out. Not to escape hunger or work \u2014 we found both waiting for us there too. We went to become reachable by the word again, without a village\\'s worth of familiar things standing between us and it.\" The representative cl"
+ },
+ {
+  "label": "facilitator_reroots",
+  "result_summary": "{'drift_signals': [DriftSignal(signal_type='first_person', description='\"We went out. Not to escape hunger or work \u2014 we found both waiting for us there too. We went to become reachable by the word again, without a village\\'s worth of familiar things standing between us and it.\" The representative cl"
+ }
+]

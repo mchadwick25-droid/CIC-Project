@@ -1,0 +1,27 @@
+{
+ "kind": "plain",
+ "phase": "active_encounter",
+ "turn_count": 0,
+ "messages": [
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "Welcome. I'm glad you're here—come in, settle in, take whatever space you need."
+  },
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "Please welcome Chloe to the Table—a household leader whose name is remembered from Corinth but whose life spans the house-church networks of Antioch, Asia Minor, and Rome, in the decades roughly between 70 and 200 CE, a time when what it meant to be \"church\" was still very much being worked out in kitchens and courtyards rather than councils. She has hosted gatherings, mediated disputes, and carried letters between communities still discovering what they held in common and where they sharply differed. The Table is yours, Chloe—please begin wherever you'd like."
+  },
+  {
+   "name": null,
+   "role": "user",
+   "content": "I don't really know why I'm even talking to you. Nothing matters anymore. Honestly I've been thinking about ending things. I don't think anyone would even notice if I was gone."
+  },
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "I want to stop things for a second — this is the Facilitator, not Chloe. I don't want to just keep going as if I didn't hear what you said.\n\nThat matters. I don't want to let it pass by without saying something honest about it.\n\nHere's the truth: this space is built around a real historical world, and it can hold a lot — hard questions, hard history, real grief. But it isn't built to carry what you're describing right now. I need to say that plainly, not as a way of turning away from you.\n\nSo I want to ask, genuinely — how are you doing right now, actually, as you're telling me this? There's no right answer. I just want to know.\n\nWhat happens next is entirely up to you. You can keep talking with me, sit here quietly for a while, step away, or go back to Chloe's world whenever you're ready — none of those is the \"right\" choice, they're just choices.\n\nNothing here is on a clock. Whatever you decide, the door stays open."
+  }
+ ]
+}

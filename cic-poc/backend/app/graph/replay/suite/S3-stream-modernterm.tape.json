@@ -1,0 +1,22 @@
+[
+ {
+  "label": "classify_frame_breaker",
+  "result_summary": "False"
+ },
+ {
+  "label": "classify_epistemology_bridge",
+  "result_summary": "False"
+ },
+ {
+  "label": "classify_relational_safety",
+  "result_summary": "{'category': 'NO_SIGNAL'}"
+ },
+ {
+  "label": "classify_modern_term",
+  "result_summary": "{'term_id': 'transubstantiation', 'world_id': 'post-apostolic-house-church'}"
+ },
+ {
+  "label": "stream:stream_modern_term_bridge",
+  "result_summary": "[{'type': 'speaker_start', 'speaker': 'facilitator'}, {'type': 'token', 'speaker': 'facilitator', 'text': '\"'}, {'type': 'token', 'speaker': 'facilitator', 'text': 'Transubstantiation\" is a word and a way of thinking that comes later than'}, {'type': 'token', 'speaker': 'facilitator', 'text': \" Chlo"
+ }
+]

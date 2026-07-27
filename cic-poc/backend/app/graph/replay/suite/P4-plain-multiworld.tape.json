@@ -1,0 +1,22 @@
+[
+ {
+  "label": "classify_relational_safety",
+  "result_summary": "{'category': 'NO_SIGNAL'}"
+ },
+ {
+  "label": "classify_frame_breaker",
+  "result_summary": "False"
+ },
+ {
+  "label": "determine_turn_type",
+  "result_summary": "('all', ['post-apostolic-house-church', 'desert-monasticism', 'syriac-edessa-nisibis'])"
+ },
+ {
+  "label": "multi_representative_engages",
+  "result_summary": "{'messages': [AIMessage(content=\"Prayer, among us, was not one settled thing said the same way in every household \u2014 but it was never left to a person's own invention either.\\n\\nBefore the water, we hand a catechumen the Lord's own prayer, and we teach them to pray it three times a day. This is not o"
+ },
+ {
+  "label": "facilitator_monitors",
+  "result_summary": "{'requires_reroot': False}"
+ }
+]

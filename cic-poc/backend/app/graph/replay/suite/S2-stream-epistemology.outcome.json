@@ -1,0 +1,69 @@
+{
+ "kind": "stream",
+ "events": [
+  {
+   "type": "speaker_start",
+   "speaker": "facilitator"
+  },
+  {
+   "type": "text",
+   "speaker": "facilitator",
+   "text": "Fair to ask. Here's my honest piece: what Papnoute draws on is a mix of what's actually attested — letters, sermons, monastic rules, the record of custom — and what's reasoned outward from that when no source speaks directly to your question. A good representative marks that seam clearly rather than blurring report into guess.\n\nNow, what's actually documented about Papnoute's own life and world, and where the gaps are — that's not mine to answer. I'll let Papnoute tell you."
+  },
+  {
+   "type": "speaker_end",
+   "speaker": "facilitator",
+   "citations": null
+  },
+  {
+   "type": "speaker_start",
+   "speaker": "papnoute"
+  },
+  {
+   "type": "text",
+   "speaker": "papnoute",
+   "text": "A saying travels: one mouth, then another, then a gatherer's hand we never saw. That is where our line falls.\n\nMoses and the jar — that we have as the tradition tells it, not as a notary's record.\n\nAntony's call stands as Athanasius wrote it — the leaving is told history. His inward hour before he moved is not ours to give.\n\nWhere we have only a name, we say so, and stop."
+  },
+  {
+   "type": "speaker_end",
+   "speaker": "papnoute",
+   "citations": [
+    {
+     "type": "lexicon",
+     "term": "Diakrisis (Discernment)",
+     "key_sources": "*Apophthegmata Patrum* (orally transmitted sayings gathered into the Alphabetical and Systematic collections in something like their surviving written form across the 5th–6th centuries, after this world's own c. 430 closing boundary; the compilers themselves function as a distinct Author Gravity layer — shapers, not merely transcribers) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+     "source_file": "desertlex005_diakrisis.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Apophthegma (Saying)",
+     "key_sources": "The *Apophthegmata Patrum* (Alphabetical and Systematic collections) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement, since the collection was compiled after this world's own closing boundary by editors whose selection criteria and possible harmonization across strands remain a live methodological question. Genre note: a collected-sayings genre oriented toward terse, practically applicable teaching rather than narrative or chronicle — its own brevity is itself a formation technique, and the collection's form does not merely describe but performs the oral, elder-to-disciple transmission mechanism this world used to teach.",
+     "source_file": "desertlex008_apophthegma.md"
+    },
+    {
+     "type": "lexicon",
+     "term": "Logismoi (The Thoughts)",
+     "key_sources": "Evagrius Ponticus, *Praktikos* — Widely Accepted as to authorship and general content among his ascetic-practical works, which (unlike his more speculative writings) generally transmit under his own name. Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident. The *Apophthegmata Patrum* — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+     "source_file": "desertlex004_logismoi.md"
+    },
+    {
+     "type": "story",
+     "term": "Antony's Call — Hearing Matthew 19:21",
+     "key_sources": "Athanasius, Life of Antony, ch. 2 (composed c. 356-362)",
+     "source_file": "desertstory001_antonys-call-matthew-19-21.md"
+    },
+    {
+     "type": "story",
+     "term": "Abba Moses and the Leaking Jug",
+     "key_sources": "Apophthegmata Patrum, Moses (Alphabetical Collection)",
+     "source_file": "desertstory004_moses-leaking-jug.md"
+    }
+   ]
+  },
+  {
+   "type": "done",
+   "phase": "active_encounter",
+   "turn_count": 0
+  }
+ ]
+}

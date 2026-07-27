@@ -1,0 +1,12 @@
+{
+ "kind": "plain",
+ "phase": "active_encounter",
+ "turn_count": 0,
+ "messages": [
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "<masked: inline-generated, nondeterministic>"
+  }
+ ]
+}

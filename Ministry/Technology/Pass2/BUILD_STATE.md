@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** PHASE 3 COMPLETE (S3.5 closed 2026-07-27). Next: Phase 4 (S4.1 governance-layer extraction, behavior-preserving, replay-parity P + safety rerun).
+- **Current step:** S4.1 IN PROGRESS - replay machinery built and validated (8/8 sanity parity on the UNCHANGED code; old-path behavior frozen in committed tapes+snapshots: all four intercepts firing, selector round, table checks, drift+wind-down). Next: extract governance.py (pre-turn intercept phase + post-round governance), rewire both endpoints, replay tapes through the new wiring (declared delta: plain multi-world gains the five table checks), then the full live safety rerun.
 - **Last completed checkpoint:** S3.5 G+safety+B-RETR-POST-P3 (`gates/S3.5_query_rewrite.md`; reactive class fully recovered, every world at/above baseline incl. PAHC 0->1.0; bridges fixed deterministically via retrieval_query_override; world-aware rewrite after fixture generation caught two cross-world-leakage prompt defects; safety 19/20 = floor, same A.4 borderline, zero new failures)
 - **Parked items:** none
 

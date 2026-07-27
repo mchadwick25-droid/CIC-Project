@@ -1,0 +1,37 @@
+{
+ "kind": "plain",
+ "phase": "active_encounter",
+ "turn_count": 3,
+ "messages": [
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "Welcome. I'm glad you're here—come in, settle in, take whatever space you need."
+  },
+  {
+   "name": "facilitator",
+   "role": "assistant",
+   "content": "Welcome to the Table. Today you're joined by three voices from very different corners of the early Christian world. Chloe leads a household church and speaks to you from the interconnected communities of Antioch, Asia Minor, and Rome, somewhere in the span of 70-200 CE. Papnoute is an elder shaped by the desert communities of Egypt, speaking from roughly 320-430 CE. And Mar Yausep teaches within the Syriac tradition centered in Edessa and Nisibis, spanning 200-410 CE. Each comes from a distinct time, place, and way of living the faith - feel free to begin wherever you're drawn."
+  },
+  {
+   "name": null,
+   "role": "user",
+   "content": "How did each of your communities understand prayer?"
+  },
+  {
+   "name": "chloe",
+   "role": "assistant",
+   "content": "Prayer, among us, was never one thing settled in a single book. It was taught the way most of what we hold was taught — plainly, household by household, and not everywhere the same.\n\nBefore the water, a catechumen learned to pray as part of walking the Two Ways. The Didache gives it whole: the Our Father, three times a day, in words close to what our Lord himself gave. That prayer was not private. It marked you as someone who had chosen the way of life over the way of death, and you prayed it the same way your household prayed it, not however you liked.\n\nAt the table, prayer took a different shape — thanksgiving, eucharistia, spoken over the cup and the bread. I have heard it said one way: thanks for the vine of David, thanks for the knowledge made known through Jesus, and the bread itself prayed over as a sign — scattered grain gathered into one loaf, so let the church be gathered from the ends of the earth into the kingdom. I have heard it said another way too, in Rome, where the same table carries a different weight, closer to sacrifice and to the Lord's own body and blood remembered. Both are ours. Neither has driven the other from the table.\n\nAnd there is a third kind you should know, quieter and stranger. Ignatius of Antioch wrote his prayer from under guard, going to Rome to die — he did not ask to be spared, but asked to be let go, to be ground like wheat into pure bread for Christ. That is prayer too, in our life. Not petition for safety, but a man handing his own death back to God as an offering. We do not all pray that way. But we have not forgotten that some of us have."
+  },
+  {
+   "name": "papnoute",
+   "role": "assistant",
+   "content": "What Chloe names as Ignatius handing his own death back as offering — that we recognize, though we came to it a different way. We had no executioner waiting. We made the desert do that work instead.\n\nOur own prayer kept the fixed hours too, but stretched thinner across the whole day — psalms recited at labor, a rope twisting in the hand while the mouth kept its watch. Cheirōnaxia and prayer were not two acts. One elder taught that the hands and the tongue could carry the same burden at once, so that idleness never opened a door for the thoughts that trouble the mind to slip through.\n\nWhat we did not have was Chloe's fixed household text, said the same way everywhere. A word given to one brother in his cell was not written down to be prayed by all. It was tested against his own trouble, once, and left there."
+  },
+  {
+   "name": "mar_yausep",
+   "role": "assistant",
+   "content": "What Papnoute names, the desert doing the work an executioner once did — we know that trade differently, because we were not given the choice to make it. The executioner came for us. Simeon our bishop did not walk toward the desert to find his testing; the king's own tax collector and the sun he was told to bow to came looking for him, in his own city, and he would not give either what was asked.\n\nSo our prayer never left the town to find its labor. It kept the fixed hours Chloe named, morning and evening, but it was carried inside the qyama — our kept vow — among kin who watched us make it and would watch us break it, if we did. A brother or sister bound by that vow prayed the same hours a married neighbor prayed, in the same streets, under the same governor's eye. The watching itself was the discipline. Not a rope turning in an empty cell, but a whole town knowing exactly who had promised what, and to whom.\n\nI hear something real in what Papnoute says about a word tested once, against one brother's trouble, and left there rather than written down for all. We could not always afford that. When Aphrahat gave his own teaching on endurance, it was not for one man's private trouble — it went out while our bishops were being killed one after another, and it had to hold for a whole people at once, not be tested and set down again for the next."
+  }
+ ]
+}
