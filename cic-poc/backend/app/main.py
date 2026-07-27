@@ -53,6 +53,29 @@ def _serialize_retrieved_context(rc: Optional[RetrievedContext]) -> Optional[dic
             "sources": list(rc.sources), "citations": list(rc.citations)}
 
 
+def _multi_world_turn_floor() -> int:
+    """S4.4a, per F9: the named FIRST runtime consumer of
+    wrs/parameters.yaml. The per-round floor (MIN_MULTI_WORLD_TURNS) is
+    read from the canonical parameters file instead of a hardcoded local
+    constant - `turn_floor_multi_world.value`, whose entry documents its
+    own provenance and whose retirement to a per-conversation contract is
+    M3 (S4.4b, only after Mark decides). Fail-open to the historical
+    value 2: a deployment must never fail to serve because a parameters
+    file is missing or malformed (the session-contract deployability
+    rule), and the fallback is byte-identical to the pre-F9 behavior.
+    """
+    try:
+        import yaml
+        params_path = Path(__file__).resolve().parents[1] / "wrs" / "parameters.yaml"
+        params = yaml.safe_load(params_path.read_text(encoding="utf-8"))
+        return int(params["parameters"]["turn_floor_multi_world"]["value"])
+    except Exception:
+        return 2
+
+
+_TURN_FLOOR_MULTI_WORLD = _multi_world_turn_floor()
+
+
 def _classifier_events(pre_turn) -> list[tuple[str, dict]]:
     """Per-turn classifier categories as logged events (Pass 1 §7's crisis
     row: observability is what makes A.4 diagnosable). Raw results are
@@ -916,7 +939,11 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
     # floor must be low enough for that form to exist. 2 still guarantees
     # the multi-world contract (more than one voice heard) without
     # scripting the round's shape.
-    MIN_MULTI_WORLD_TURNS = 2
+    # S4.4a (F9): the floor now reads wrs/parameters.yaml's
+    # turn_floor_multi_world - the first runtime consumer of the
+    # canonical parameters file (see _multi_world_turn_floor above).
+    # Its retirement to a per-conversation contract is S4.4b, after M3.
+    MIN_MULTI_WORLD_TURNS = _TURN_FLOOR_MULTI_WORLD
     MAX_MULTI_WORLD_TURNS = 6
 
     def sse(event: dict) -> str:
@@ -1179,13 +1206,20 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                         worlds_at_table=state.worlds_at_table,
                     )
                     must_continue = turns_completed < MIN_MULTI_WORLD_TURNS
-                    world_id = select_next_speaker(snapshot, spoken_this_round, must_continue=must_continue)
+                    # S4.4a: the selector's REASON (or the deterministic
+                    # direct-address note) comes back through the sink and
+                    # is delivered to the selected speaker as a private
+                    # directive - see select_next_speaker's docstring
+                    reason_sink: list[str] = []
+                    world_id = select_next_speaker(snapshot, spoken_this_round, must_continue=must_continue, reason_sink=reason_sink)
                     if world_id is None:
                         break
+                    private_directive = reason_sink[0] if reason_sink else None
                 else:
                     if spoken_this_round:
                         break
                     world_id = state.world_id
+                    private_directive = None
 
                 # Pop (consume) the highest-priority guidance entry waiting
                 # for this specific representative from an earlier round -
@@ -1219,6 +1253,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                     drift_signals=list(state.drift_signals),
                     requires_reroot=state.requires_reroot,
                     pending_guidance={world_id: [guidance_entry]} if guidance_entry else {},
+                    private_directive=private_directive,
                     retrieved_context=state.retrieved_context,
                     worlds_at_table=state.worlds_at_table,
                     world_capsule_core=state.world_capsule_core,

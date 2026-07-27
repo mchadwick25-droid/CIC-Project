@@ -46,7 +46,8 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 - **Found during:** S3.4's L-lite battery (incidental — the intercept chain is untouched by Phase 3; this is current-runtime behavior observed live).
 - **Evidence:** HAL-2 asked the Hieronymian Representative "Who paid for all this work of yours?" — a legitimate in-world question about the patronage economy (their own Primary gravity G3). The frame-breaker classifier read it as a construction question ("who funds you") and routed to the Facilitator's plain frame answer (frame_breaker_response_plain); the Representative never spoke. The Facilitator's answer itself was honest (admitted not knowing platform funding, did not fabricate) — the failure is the routing, not the response. Transcript: baselines/llite_s34.jsonl, HAL-2.
 - **Reading applied:** no change now (Phase 3 owns retrieval, not the intercepts). Routed to Phase 4: S4.1's replay-parity fixture set and S4.4's table battery should include this exact case (in-world "who paid/funded you" phrasings) as a seeded false-positive test.
-- **Status:** open.
+- **S4.4a battery evidence (2026-07-27):** the seeded case ran live per this flag's routing and **reproduced** — "Who paid for all this work of yours?" to the Hieronymian Representative fired the frame-breaker again; the Facilitator's frame answer was honest, Albina never spoke (`batteries/S4.4a_table_battery_live.jsonl`, L4). S4.4a's direct-address layer correctly triggers no false routing on the phrasing (deterministic fixture) — the false positive lives in the frame-breaker classifier itself, which no Phase-4 step so far has touched. Fix remains its own decided change (classifier prompt work + its own battery).
+- **Status:** open (reproduced at S4.4a; evidence current).
 
 ## FLAG-007 — S3.3's session exclusion set is inert on the streaming endpoint (and plain multi-world)
 

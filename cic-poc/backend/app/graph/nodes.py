@@ -844,6 +844,13 @@ def facilitator_handoff(state: ConversationState) -> dict:
     }
 
 
+# S4.4a: the public-transcript window's shape (see build_public_transcript's
+# docstring). The recent window keeps the historical depth of 10; the
+# stable prefix pins the participant's opening frame and the first answer.
+TRANSCRIPT_STABLE_PREFIX = 2
+TRANSCRIPT_RECENT_WINDOW = 10
+
+
 def build_public_transcript(state: ConversationState, exclude_world_id: str = None) -> str:
     """
     Build the public transcript - the record of what has been spoken at The Table.
@@ -852,14 +859,24 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
     Each Representative sees what others have said, but not their inner formation.
     This is how Representatives encounter each other: through words spoken at the Table.
 
-    S4.2 (Pass 1 §6.7): the transcript is now a deterministic render of
-    the specified data shape - the ordered log of spoken events (speaker,
+    S4.2 (Pass 1 §6.7): the transcript is a deterministic render of the
+    specified data shape - the ordered log of spoken events (speaker,
     text, designated addressee where one exists; see
-    app.graph.events.spoken_events_from_messages). Behavior-preserving at
-    this step: the Facilitator-skip and the last-10 window are today's
-    exact semantics, kept deliberately - Facilitator turns entering the
-    render is S4.5's declared change, and the block-truncation window is
-    S4.4's. The addressee is None until S4.4's direct-address detection.
+    app.graph.events.spoken_events_from_messages). The Facilitator-skip
+    is preserved (Facilitator turns entering the render is S4.5's
+    declared change).
+
+    S4.4a (Pass 1 §6.2 item 3): the window moves from a naive
+    last-10-lines slice to BLOCK TRUNCATION WITH A STABLE PREFIX - the
+    conversation's opening turns (the participant's framing and the
+    first answer) stay pinned, the middle is elided in whole blocks with
+    an explicit marker, and the recent window keeps the old depth. The
+    old sliding slice silently dropped the conversation's framing the
+    moment a table got talkative, and shifted on every turn; the stable
+    prefix is both the long-context resource the selector's measured
+    strength depends on and the cached-prefix rule applied to this
+    window's shape. Conversations short enough to fit are rendered
+    whole, exactly as before.
     """
     from app.graph.events import spoken_events_from_messages
 
@@ -874,7 +891,14 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
             speaker_name = event["speaker"].replace("_", " ").title()
             transcript_lines.append(f"{speaker_name}: {event['text']}")
 
-    return "\n\n".join(transcript_lines[-10:])  # Last 10 exchanges
+    if len(transcript_lines) <= TRANSCRIPT_STABLE_PREFIX + TRANSCRIPT_RECENT_WINDOW:
+        return "\n\n".join(transcript_lines)
+    elided = len(transcript_lines) - TRANSCRIPT_STABLE_PREFIX - TRANSCRIPT_RECENT_WINDOW
+    return "\n\n".join(
+        transcript_lines[:TRANSCRIPT_STABLE_PREFIX]
+        + [f"[... {elided} earlier turn(s) not shown ...]"]
+        + transcript_lines[-TRANSCRIPT_RECENT_WINDOW:]
+    )
 
 
 def _prepare_representative_turn(state: ConversationState, is_reactive: bool = False) -> dict:
@@ -1122,6 +1146,19 @@ The participant is witnessing an encounter between genuinely different worlds. T
 
 PUBLIC TRANSCRIPT:
 {public_transcript}
+"""
+
+    # S4.4a: the selector's private directive to this specific speaker -
+    # the REASON line become a consumer (or the deterministic direct-
+    # address note). Injected like reroot guidance: invisible to the
+    # participant, concrete to the representative. Last in the dynamic
+    # prompt so the most situational instruction sits closest to the turn.
+    if getattr(state, "private_directive", None):
+        dynamic_prompt += f"""
+
+# A Private Word from the Facilitator (never visible to the participant)
+
+{state.private_directive}
 """
 
     # Build message for continuation. Reactive turns get a distinct framing
@@ -2235,6 +2272,136 @@ def route_after_input(state: ConversationState) -> Literal["engage", "close"]:
     return "engage"
 
 
+# S4.4a (Pass 1 §6.2 item 1): direct-address detection - the cheap,
+# deterministic check that runs BEFORE any selector/router LLM call.
+# Enforces Facilitator Governance §8's own requirement: "When the
+# participant addresses a specific Representative, you route accordingly.
+# Immediately, completely, without editorial intervention." Conservative
+# by design: it fires only when exactly ONE seated representative is
+# named and no to-the-whole-table marker is present; every ambiguous case
+# falls through to the holistic selector, which §6.2 item 3 keeps for
+# exactly that regime. Address by role/title alone ("presbyter", "elder")
+# is deliberately NOT detected here - that judgment belongs to the
+# selector, not a string check.
+
+_ALL_TABLE_MARKERS = (
+    "each of you", "all of you", "you all", "both of you", "you both",
+    "everyone", "every one of you", "each of your", "all of your",
+    "you three", "you two", "any of you",
+)
+
+
+def _sentences(text: str) -> list[str]:
+    """Cheap sentence split, terminators kept."""
+    return [s.strip() for s in re.findall(r"[^.!?]*[.!?]", text)] or (
+        [text.strip()] if text.strip() else [])
+
+
+def _rep_display_names(world_ids: list[str]) -> dict[str, str]:
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+    return {wid: REPRESENTATIVE_INFO[wid]["name"]
+            for wid in world_ids if wid in REPRESENTATIVE_INFO}
+
+
+def _named_reps_in(text: str, world_ids: list[str]) -> list[str]:
+    """world_ids whose representative's display name appears in text
+    (word-boundary, case-insensitive), in seating order."""
+    found = []
+    for wid, name in _rep_display_names(world_ids).items():
+        if re.search(r"\b" + re.escape(name) + r"\b", text, re.IGNORECASE):
+            found.append(wid)
+    return found
+
+
+def detect_direct_address(message: str, world_ids: list[str]) -> str | None:
+    """Participant → Representative direct address: exactly one seated
+    representative named, no whole-table marker. Returns the world_id or
+    None (fall through to the holistic path)."""
+    if len(world_ids) <= 1 or not message:
+        return None
+    lowered = message.lower()
+    if any(marker in lowered for marker in _ALL_TABLE_MARKERS):
+        return None
+    named = _named_reps_in(message, world_ids)
+    return named[0] if len(named) == 1 else None
+
+
+def detect_rep_to_rep_address(turn_text: str, speaker_world_id: str | None,
+                              world_ids: list[str]) -> str | None:
+    """Representative → Representative direct question: a question
+    sentence in the previous representative's turn naming exactly one
+    OTHER seated representative. The LAST such question wins (it is the
+    outstanding first pair part). Returns the addressed world_id or None."""
+    if len(world_ids) <= 1 or not turn_text:
+        return None
+    others = [w for w in world_ids if w != speaker_world_id]
+    addressed = None
+    for sent in _sentences(turn_text):
+        if not sent.endswith("?"):
+            continue
+        named = _named_reps_in(sent, others)
+        if len(named) == 1:
+            addressed = named[0]
+    return addressed
+
+
+def outstanding_first_pair_parts(messages, world_ids: list[str]) -> list[dict]:
+    """S4.4a (Pass 1 §6.2 item 4): the genuinely unanswered direct
+    questions, derived deterministically from the transcript itself - no
+    stored counter to drift out of sync with the messages it summarizes.
+
+    A question OPENS when a turn contains a question sentence: asked by
+    the participant (addressee = the named representative, else the open
+    table) or by a representative (addressee = the named other
+    representative, else the participant). A question RESOLVES when its
+    addressee next speaks: the named representative for a directed one,
+    any representative for an open-table one, the participant for a
+    participant-directed one. What remains is outstanding - which is what
+    the stacking check should count, not turns that happen to end in
+    '?' (a clarification question that was answered in-round is exactly
+    the act REACTIVE_TURN_GUIDANCE's 'Ask, Don't Just Answer' licenses,
+    and the old shape of this check penalized it)."""
+    name_by_wid = {wid: get_representative_message_name(wid)
+                   for wid in world_ids}
+    wid_by_name = {v: k for k, v in name_by_wid.items()}
+
+    outstanding: list[dict] = []
+    for msg in messages:
+        if isinstance(msg, HumanMessage):
+            speaker = "participant"
+        else:
+            speaker = getattr(msg, "name", None)
+        if speaker is None or speaker == "facilitator":
+            # facilitator turns are governance, not table content: they
+            # neither open first pair parts nor answer another's
+            continue
+        speaker_wid = wid_by_name.get(speaker)
+
+        def _resolved(q) -> bool:
+            if q["addressee"] == "participant":
+                return speaker == "participant"
+            if q["addressee"] == "table":
+                return speaker_wid is not None
+            return q["addressee"] == speaker_wid
+
+        outstanding = [q for q in outstanding if not _resolved(q)]
+
+        text = str(msg.content)
+        for sent in _sentences(text):
+            if not sent.endswith("?"):
+                continue
+            if speaker == "participant":
+                named = _named_reps_in(sent, world_ids)
+                addressee = named[0] if len(named) == 1 else "table"
+            else:
+                named = _named_reps_in(
+                    sent, [w for w in world_ids if w != speaker_wid])
+                addressee = named[0] if len(named) == 1 else "participant"
+            outstanding.append(
+                {"asker": speaker, "addressee": addressee, "text": sent})
+    return outstanding
+
+
 def determine_turn_type(state: ConversationState) -> tuple[str, list[str]]:
     """
     Determine the type of turn needed for a multi-world table.
@@ -2267,6 +2434,14 @@ def determine_turn_type(state: ConversationState) -> tuple[str, list[str]]:
 
     if not last_human_message:
         return ("single", [state.current_world_id or world_ids[0]])
+
+    # S4.4a: direct address decides the routing BEFORE the router LLM is
+    # consulted - FG §8: "route accordingly. Immediately, completely,
+    # without editorial intervention." The router call disappears on
+    # exactly the turns where routing is already determined.
+    addressed = detect_direct_address(last_human_message, world_ids)
+    if addressed is not None:
+        return ("single", [addressed])
 
     # Build representative info
     rep_names = []
@@ -2363,6 +2538,7 @@ def select_next_speaker(
     state: ConversationState,
     already_spoken: list[str],
     must_continue: bool = False,
+    reason_sink: list | None = None,
 ) -> str | None:
     """
     Decide which representative should speak next in this round, or that the
@@ -2388,6 +2564,14 @@ def select_next_speaker(
     enforce a minimum amount of back-and-forth before a round is allowed to
     end (see MIN_MULTI_WORLD_TURNS in the streaming endpoint).
 
+    reason_sink (S4.4a): a caller-supplied list; when the selection
+    carries a reason - the LLM path's previously-discarded REASON line,
+    or the deterministic direct-address note - it is appended here and
+    delivered to the selected speaker as a private directive (Pass 1
+    §6.2 item 3, the Confronting act). Old recorded stubs of this
+    function ignore the parameter, degrading replay to no-directive
+    rather than breaking.
+
     Returns a world_id, or None if nothing further calls for a voice right
     now (never returned while must_continue is True).
     """
@@ -2399,6 +2583,42 @@ def select_next_speaker(
 
     if not candidates:
         return None
+
+    # S4.4a: direct-address detection runs BEFORE the holistic selector
+    # (Pass 1 §6.2 item 1; FG §8: "route accordingly. Immediately,
+    # completely, without editorial intervention"). The selector LLM call
+    # disappears on exactly the turns where selection is already
+    # determined. Participant → Rep on the round's opening turn; Rep →
+    # Rep direct question on reactive turns.
+    last_msg = state.messages[-1] if state.messages else None
+    if last_msg is not None:
+        addressed = None
+        directive = None
+        display = _rep_display_names(world_ids)
+        if isinstance(last_msg, HumanMessage):
+            addressed = detect_direct_address(str(last_msg.content), world_ids)
+            if addressed is not None:
+                directive = ("The participant addressed you by name - "
+                             "answer them directly.")
+        else:
+            speaker_name = getattr(last_msg, "name", None)
+            if speaker_name and speaker_name != "facilitator":
+                speaker_wid = next(
+                    (w for w in world_ids
+                     if get_representative_message_name(w) == speaker_name),
+                    None)
+                if speaker_wid is not None:
+                    addressed = detect_rep_to_rep_address(
+                        str(last_msg.content), speaker_wid, world_ids)
+                    if addressed is not None:
+                        directive = (
+                            f"{display.get(speaker_wid, 'The previous speaker')} "
+                            "just put a question to you directly - engage "
+                            "that question specifically, from your own world.")
+        if addressed is not None and addressed in candidates:
+            if reason_sink is not None and directive:
+                reason_sink.append(directive)
+            return addressed
 
     # When continuation is mandatory and only one representative could
     # possibly speak next (a two-world table, the other one just spoke),
@@ -2479,13 +2699,18 @@ REASON: <one sentence>"""
     log_llm_usage("turn_selector", response, _MONITORING_MODEL)
 
     next_speaker = None
+    reason_line = None
     for line in response.content.strip().split("\n"):
         line = line.strip()
-        if line.startswith("NEXT_SPEAKER:"):
+        if line.startswith("NEXT_SPEAKER:") and next_speaker is None:
             candidate = line.split(":", 1)[1].strip()
             if candidate in candidates:
                 next_speaker = candidate
-            break
+        elif line.startswith("REASON:"):
+            # S4.4a: the REASON line was always generated and always
+            # discarded - it becomes the selected speaker's private
+            # directive. A new consumer, not a new model call.
+            reason_line = line.split(":", 1)[1].strip()
 
     # When the round is required to continue, an unparseable or invalid
     # response must never fall through to None - that would silently end
@@ -2493,6 +2718,12 @@ REASON: <one sentence>"""
     # Fall back to the first eligible candidate instead.
     if next_speaker is None and must_continue:
         next_speaker = candidates[0]
+
+    if (next_speaker is not None and reason_sink is not None and reason_line
+            and next_speaker != "NONE"):
+        reason_sink.append(
+            f"You are being called on because: {reason_line} "
+            "Engage that specifically.")
 
     return next_speaker
 
@@ -2788,31 +3019,36 @@ def check_question_stacking(state: ConversationState, spoken_this_round: list[st
     Table Is Enough") - this is the structural backstop for that prompt-only
     rule, mirroring the dominance/convergence pattern where a rule proved
     real but not fully self-enforcing under live conditions.
+
+    S4.4a (Pass 1 §6.2 item 4): rebuilt on OUTSTANDING FIRST PAIR PARTS.
+    The old shape counted round turns that happened to end in "?" - which
+    penalized exactly the clarification act REACTIVE_TURN_GUIDANCE's
+    "Ask, Don't Just Answer" licenses, even when the question was answered
+    within the same round. Now the check counts the representative-asked
+    questions still genuinely unanswered at round end (derived
+    deterministically from the transcript - see
+    outstanding_first_pair_parts); a question a later speaker actually
+    answered no longer stacks.
     """
     if len(spoken_this_round) < 2:
         return []
 
-    name_to_world = {get_representative_message_name(wid): wid for wid in spoken_this_round}
-    round_turns = []
-    for msg in reversed(state.messages):
-        name = getattr(msg, "name", None)
-        if name in name_to_world:
-            round_turns.append(str(msg.content).strip())
-        if len(round_turns) >= len(spoken_this_round):
-            break
-
-    question_count = sum(1 for turn in round_turns if turn.endswith("?"))
-    if question_count <= 2:
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    outstanding = outstanding_first_pair_parts(state.messages, world_ids)
+    round_rep_names = {get_representative_message_name(wid)
+                       for wid in spoken_this_round}
+    stacked = [q for q in outstanding if q["asker"] in round_rep_names]
+    if len(stacked) <= 2:
         return []
 
     return [
         DriftSignal(
             signal_type="question_stacking",
             description=(
-                f"This round ended {question_count} separate turns with an open question - "
-                "more than the table can hold at once. Let your next turn end on your "
-                "substance rather than adding another question, even if a real one occurs "
-                "to you."
+                f"This round left {len(stacked)} representative-asked questions "
+                "genuinely unanswered - more open threads than the table can hold "
+                "at once. Let your next turn end on your substance rather than "
+                "adding another question, even if a real one occurs to you."
             ),
             severity="medium",
             world_id=wid,

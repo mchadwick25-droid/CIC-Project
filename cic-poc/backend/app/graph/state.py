@@ -114,6 +114,16 @@ class ConversationState:
     # both deterministic, no extra LLM call).
     retrieval_query_override: Optional[str] = None
 
+    # S4.4a (Pass 1 §6.2): the selector's private directive to the
+    # representative it selected - the previously-discarded REASON line
+    # become a consumer ("you are being called on because..."), or the
+    # deterministic direct-address note when the selector was skipped.
+    # The moderation literature's Confronting act, delivered without the
+    # room acquiring a voice. TURN-LOCAL like retrieval_query_override:
+    # set on the per-turn working state only, never session-persisted,
+    # never surfaced to the participant.
+    private_directive: Optional[str] = None
+
     # S3.3 (Pass 1 R4): the ID-keyed session exclusion set - chunk ids
     # (source_file stems) already surfaced into a representative's context
     # this session, keyed by world_id. Replaces the two substring de-dup
