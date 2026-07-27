@@ -86,32 +86,46 @@ def replay(retriever, label_key, query, context, k, context_surfaced=None):
     if surfaced:
         candidate_docs = [d for d in candidate_docs if doc_id(d) not in surfaced]
 
-    from app.rag.batch_evaluate import partition_tier1_short_circuit
-    auto_docs, vote_docs = partition_tier1_short_circuit(candidate_docs, label_key=label_key)
-    auto = {id(d) for d in auto_docs}
+    # S3.4 (Pass 1 R6): relevance is now the DETERMINISTIC local
+    # cross-encoder - the real scoring path, real threshold. The only
+    # remaining non-deterministic stage is the retained guard vote, so
+    # the retrieve/skip bracket now spans ONLY candidates that are
+    # relevance-kept AND carry a genuinely evaluable Do-Not-Retrieve-When
+    # (retrieve = guard never fires; skip = guard always fires). The
+    # bracket-width collapse relative to S3.3 is R6's designed narrowing,
+    # measured.
+    from app.rag.batch_evaluate import _evaluable_negative_condition
+    from app.rag.cross_encoder import score_candidates, threshold_for
 
-    # evaluate_batch's own local resolve (app/rag/batch_evaluate.py:117-121):
-    # a candidate with NO retrieve_when and NO do_not_retrieve_when text is
-    # retrieved without an LLM call. Reproduced with the same truthiness test
-    # the real code uses - which means a literal em-dash sentinel counts as
-    # a real condition here exactly as it does live.
-    no_conditions = {
-        id(d) for d in vote_docs
-        if not d.metadata.get("retrieve_when", "") and not d.metadata.get("do_not_retrieve_when", "")
-    }
+    scores = score_candidates(query, candidate_docs)
+    rel_threshold = threshold_for(query)
+    # selection order = cross-encoder ranking (same as the retrievers);
+    # ranked_ids (MRR) stays the fused candidate order
+    sel_docs = [d for _s, d in sorted(zip(scores, candidate_docs),
+                                       key=lambda x: -x[0])]
+    sel_scores = sorted(scores, reverse=True)
+    kept, ce_dropped = [], set()
+    for rank, (d, s) in enumerate(zip(sel_docs, sel_scores)):
+        # same rank-guard as the retrievers: CE-top-k never hard-dropped
+        if s >= rel_threshold or rank < k:
+            kept.append(d)
+        else:
+            ce_dropped.add(id(d))
+    guarded = {id(d) for d in kept if _evaluable_negative_condition(
+        d.metadata.get("do_not_retrieve_when", ""))}
 
     finals = {}
     decisions = {}
     for policy in ("retrieve", "skip"):
         final = []
-        for d in candidate_docs:
+        for d in sel_docs:
             i = id(d)
-            if i in auto:
-                dec, keep = "auto", True
-            elif i in no_conditions:
-                dec, keep = "no-conditions", True
+            if i in ce_dropped:
+                dec, keep = "ce-drop", False
+            elif i in guarded:
+                dec, keep = "guard-vote", (policy == "retrieve")
             else:
-                dec, keep = "llm-vote", (policy == "retrieve")
+                dec, keep = "ce-keep", True
             if keep and len(final) < k:
                 final.append(doc_id(d))
             decisions.setdefault(doc_id(d), dec)

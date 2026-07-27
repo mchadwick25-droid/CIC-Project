@@ -102,7 +102,12 @@ def allusion_record(a: dict) -> dict:
        {"condition_type": "sense-disambiguation",
         "text": ("participant asks for a specific saying or scene of "
                  "hers - the record licenses acknowledgment only; the "
-                 "honest-thinness answer is the content")}],
+                 "honest-thinness answer is the content")},
+       {"condition_type": "sense-disambiguation",
+        "text": ("the question is a general one about women in this "
+                 "life, answerable first by the vetted Sarah story - "
+                 "this allusion record is for name-specific or "
+                 "beyond-Sarah asks (its own retrieve-when scope)")}],
       "force_llm_vote": False},
      "sources": [
       {"source_id": "srcDES006",

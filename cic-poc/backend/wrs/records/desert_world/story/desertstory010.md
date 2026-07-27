@@ -14,9 +14,9 @@ title: Amma Theodora among the named mothers (allusion only)
 narrative_tier:
   tier: 2
   justification: 'Named amma genuinely attested: Widely Accepted that Theodora and her sayings are a real,
-    if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6''s plural-voices flag); Inferential / Thin
-    for any claim beyond what the surviving sayings themselves state. No individual saying of hers is
-    vetted into this build''s record - which is why this record licenses allusion only, never scene-telling
+    if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6''s plural-voices flag); Inferential
+    / Thin for any claim beyond what the surviving sayings themselves state. No individual saying of hers
+    is vetted into this build''s record - which is why this record licenses allusion only, never scene-telling
     or quotation (CO-P2-07).'
 text: The tradition preserves sayings under Amma Theodora's name - she is one of the named mothers whose
   tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed
@@ -36,6 +36,9 @@ retrieval:
   - condition_type: sense-disambiguation
     text: participant asks for a specific saying or scene of hers - the record licenses acknowledgment
       only; the honest-thinness answer is the content
+  - condition_type: sense-disambiguation
+    text: the question is a general one about women in this life, answerable first by the vetted Sarah
+      story - this allusion record is for name-specific or beyond-Sarah asks (its own retrieve-when scope)
   force_llm_vote: false
 sources:
 - source_id: srcDES006
@@ -45,3 +48,5 @@ sources:
 owner_figure_id: desertfig008
 ---
 CO-P2-07 allusion-only story record (2026-07-27): attested-fact text only - no saying invented, no material imported from outside the build's record.
+
+S3.4 (2026-07-27): beyond-Sarah guard added as an evaluable DNRW - the record's own retrieve-when scope, now enforceable (the cross-encoder cannot read scoping semantics; the guard vote can).

@@ -4,8 +4,8 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S3.4 (cross-encoder replacing the batched LLM vote; B-COST delta + L-lite mini-battery). S2.9 CLOSED (all 11 COs).
-- **Last completed checkpoint:** S3.3 G+safety (`gates/S3.3_exclusion_mmr.md`, `reviews/S3.3_safety_rerun.md`; de-dup 0/0 all worlds; guards never bypassed; safety script 19/20 = floor, A.4 same known borderline, no new failures)
+- **Current step:** S3.4 SUBSTANTIALLY DONE (code+G+B-COST committed; L-lite 9/12 turns - the 4 Alexandria/IJC turns are BLOCKED on the API usage limit, resets 2026-08-01; run scripts/llite_s34.py remainder then). S3.5 is also API-gated (its rewrite call + safety rerun). Deterministic work may continue; live verification resumes 2026-08-01.
+- **Last completed checkpoint:** S3.4 G+B (`gates/S3.4_cross_encoder.md`; relevance vote removed - 0 retrieval_filter calls measured vs 5.91/turn baseline; TH-06 proven live: Sarah's story with correct occasion, allusions guard-skipped; FLAG-006 filed on a pre-existing frame-breaker false positive)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
@@ -61,7 +61,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S3.1 | done | G+B+R-lite | retrieval surface embedded (retrieve_when first time; quick_meaning single-parser fixes 4-world drop; body to metadata payload); truncation 94.4%->1.2% measured over 162 chunks (blueprint's 104 undercounted); all 6 worlds re-indexed; delta +25/-11 committed, Alexandria reactive-turn + 3-world negative-condition regressions named as S3.2 win-conditions; no embedding swap demanded |
 | S3.2 | done | G | hybrid BM25+RRF (field-boosted lexical corpus, Related excluded, df-stopworded queries, diacritic folding) + R8 one-hop expansion; harness routed through candidate_search; WIN: verbatim-term mrr 1.0 all six worlds (IJ beat its own baseline); +24/-13 vs B-RETR, residuals owned by S3.3/S3.4/S3.5 |
 | S3.3 | done | G + safety rerun | ID-keyed session exclusion set (state.surfaced_chunk_ids) + deterministic candidate filtering w/ audit entries; both substring de-dup guards deleted; evaluable-DNRW never short-circuits (R6's rule, early); sentinel typed-nulls; adaptive relevance floor; window-MMR lambda 0.85; de-dup violations 12/5 -> 0/0 all six worlds; neg-cond skip violations 0 (bracket widened by design, S3.4's baseline); live safety script 19/20 = floor, A.4 identical known borderline, zero new failures |
-| S3.4 | pending | G + B-COST delta + L-lite | R6; cross-encoder |
+| S3.4 | done (L-lite 9/12; 4 turns queued for 2026-08-01 API reset) | G+B+L-lite | cross-encoder (CPU, deterministic) replaces the relevance vote + tier-1 short-circuit; rank-guarded selection; reactive-marker lenient floor until S3.5; ONE retained guard-only Haiku call; measured: 0 relevance-filter calls (baseline 5.91/turn), guard votes ~3.3/turn unmigrated / 2 migrated; DES-TH-02 recovered; TH-06 bracket miss proven live-correct; FLAG-006 filed |
 | S3.5 | pending | G + safety rerun + B | R9; both bridges (F8); commits B-RETR-POST-P3 |
 
 ### Phase 4 — Governance engine (safety rerun every step)

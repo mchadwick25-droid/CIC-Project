@@ -118,6 +118,65 @@ def partition_tier1_short_circuit(
     return auto_retrieve, needs_llm_vote
 
 
+def evaluate_negative_conditions(
+    llm,
+    candidates: list[Candidate],
+    query: str,
+    conversation_context: str,
+    item_noun: str = "entry",
+) -> list[tuple[bool, str]]:
+    """S3.4 (Pass 1 R6): the ONE retained Haiku call - judges ONLY whether
+    each candidate's own Do-Not-Retrieve-When guard applies to this turn.
+    Relevance is no longer this call's question (the local cross-encoder
+    decided that deterministically before we got here); every candidate in
+    this batch is already relevance-kept and carries a genuinely evaluable
+    guard. RETRIEVE unless the guard clearly applies - fail-open toward
+    retrieval, because the guard is a narrow disambiguation instrument,
+    not a relevance filter."""
+    if not candidates:
+        return []
+    entries_block = "\n\n".join(
+        f"""{position}. {item_noun.capitalize()}: {c.label}
+DO-NOT-RETRIEVE-WHEN: {c.do_not_retrieve_when}"""
+        for position, c in enumerate(candidates, start=1)
+    )
+    prompt = f"""Each {item_noun} below has already been judged relevant to the participant's message. Your ONLY question, for each one independently: does its own DO-NOT-RETRIEVE-WHEN condition clearly apply to this specific turn?
+
+Participant's message: {query}
+
+Recent conversation context: {conversation_context}
+
+Candidates:
+
+{entries_block}
+
+For EACH numbered candidate: answer SKIP only if its stated condition clearly applies to this turn; otherwise RETRIEVE. Do not re-judge relevance - that decision is already made. When unsure whether the condition applies, RETRIEVE.
+
+Respond with exactly {len(candidates)} lines, one per candidate:
+N. RETRIEVE: <brief reason>
+or
+N. SKIP: <brief reason>
+
+Use the same numbering as above. Do not add commentary outside these lines."""
+    response = llm.invoke(prompt)
+    label = ("negative_condition_story" if item_noun == "story"
+             else "negative_condition_lexicon")
+    log_llm_usage(label, response, _FILTER_MODEL)
+    parsed: dict[int, tuple[bool, str]] = {}
+    for line in response.content.strip().split("\n"):
+        match = _LINE_PATTERN.match(line)
+        if not match:
+            continue
+        parsed[int(match.group(1))] = (
+            match.group(2).upper() == "RETRIEVE",
+            match.group(3).strip() or "guard evaluated",
+        )
+    # fail-open toward retrieval: an unparsed line means the guard was not
+    # clearly shown to apply
+    return [parsed.get(pos, (True, "no clear guard verdict; retrieved"))
+            for pos in range(1, len(candidates) + 1)]
+
+
 def evaluate_batch(
     llm,
     candidates: list[Candidate],

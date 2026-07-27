@@ -9,7 +9,8 @@ from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 
 from app.config import settings
-from app.rag.batch_evaluate import Candidate, evaluate_batch, partition_tier1_short_circuit
+from app.rag.batch_evaluate import (Candidate, _evaluable_negative_condition,
+                                     evaluate_negative_conditions)
 from app.rag.retriever import Citation, RetrievalEvaluation
 from app.rag.source_registry import resolve_references
 from app.rag.story_indexer import StoryIndexer
@@ -111,24 +112,46 @@ class StoryRetriever:
                     kept.append(doc)
             candidate_docs = kept
 
-        # Tier 1 stories (tied to this world's own central formation theme)
-        # that also rank among the closest semantic matches retrieve
-        # deterministically, without an LLM vote - see
-        # partition_tier1_short_circuit for why.
-        auto_retrieve_docs, llm_vote_docs = partition_tier1_short_circuit(
-            candidate_docs, label_key="story_title"
-        )
+        # S3.4 (Pass 1 R6): deterministic cross-encoder relevance; the one
+        # remaining LLM call judges only evaluable guards - see
+        # LexiconRetriever.retrieve for the full rationale.
+        from app.rag.cross_encoder import score_candidates, threshold_for
 
-        decisions_by_id: dict[int, tuple[bool, str]] = {
-            id(doc): (
-                True,
-                "Tier 1 (tied to this world's own central formation theme) and among the closest "
-                "semantic matches to the question - retrieved without an LLM vote.",
-            )
-            for doc in auto_retrieve_docs
-        }
+        scores = score_candidates(query, candidate_docs)
+        rel_threshold = threshold_for(query)
+        # S3.4: selection order is the cross-encoder's ranking (its
+        # ordering is reliable even where its absolute score is not -
+        # see cross_encoder.py); the fused candidate list stays the
+        # audit-trail order
+        candidate_docs = [d for _s, d in sorted(
+            zip(scores, candidate_docs), key=lambda x: -x[0])]
+        scores = sorted(scores, reverse=True)
+        decisions_by_id: dict[int, tuple[bool, str]] = {}
+        guarded_docs = []
+        for rank, (doc, score) in enumerate(zip(candidate_docs, scores)):
+            # A candidate the cross-encoder itself ranks inside the final
+            # k is never hard-dropped on absolute score: the model's
+            # ordering is reliable where its absolute calibration is not
+            # (measured - deep-thematic must-docs score in the noise band
+            # on clean queries yet rank top). The threshold prunes only
+            # beyond-window noise, which also bounds the guard-vote batch.
+            if score < rel_threshold and rank >= k:
+                decisions_by_id[id(doc)] = (
+                    False,
+                    f"Cross-encoder relevance {score:.2f} below threshold "
+                    f"{rel_threshold} - not relevant to this turn.",
+                )
+            elif _evaluable_negative_condition(
+                    doc.metadata.get("do_not_retrieve_when", "")):
+                guarded_docs.append(doc)
+            else:
+                decisions_by_id[id(doc)] = (
+                    True,
+                    f"Cross-encoder relevance {score:.2f} - retrieved "
+                    f"(no evaluable guard).",
+                )
 
-        if llm_vote_docs:
+        if guarded_docs:
             candidates = [
                 Candidate(
                     label=doc.metadata.get("story_title", "unknown"),
@@ -136,25 +159,17 @@ class StoryRetriever:
                     do_not_retrieve_when=doc.metadata.get("do_not_retrieve_when", ""),
                     tier=doc.metadata.get("tier", 1),
                 )
-                for doc in llm_vote_docs
+                for doc in guarded_docs
             ]
-            decisions = evaluate_batch(
+            decisions = evaluate_negative_conditions(
                 self.filter_llm,
                 candidates,
                 query,
                 conversation_context,
                 item_noun="story",
-                extra_instruction=(
-                    "A story does not need to be directly asked for - RETRIEVE it whenever it would "
-                    "genuinely illustrate the point at hand, the way a teacher reaches for a concrete "
-                    "memory to ground an abstract point. Still SKIP when the connection is only "
-                    "topically adjacent, or when telling it would crowd out actually answering "
-                    "the question. (Already-told stories never reach this vote - the session "
-                    "exclusion set filters them deterministically upstream, S3.3.)"
-                ),
             )
             decisions_by_id.update(
-                {id(doc): decision for doc, decision in zip(llm_vote_docs, decisions)}
+                {id(doc): decision for doc, decision in zip(guarded_docs, decisions)}
             )
 
         filtered_docs = []

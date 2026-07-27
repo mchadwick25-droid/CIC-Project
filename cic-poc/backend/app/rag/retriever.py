@@ -8,7 +8,8 @@ from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 
 from app.config import settings
-from app.rag.batch_evaluate import Candidate, evaluate_batch, partition_tier1_short_circuit
+from app.rag.batch_evaluate import (Candidate, _evaluable_negative_condition,
+                                     evaluate_negative_conditions)
 from app.rag.indexer import LexiconIndexer
 from app.rag.source_registry import resolve_references
 
@@ -147,24 +148,49 @@ class LexiconRetriever:
                     kept.append(doc)
             candidate_docs = kept
 
-        # Tier 1 candidates that also rank among the closest semantic matches
-        # retrieve deterministically, without an LLM vote - see
-        # partition_tier1_short_circuit for why. Everything else still goes
-        # through the LLM's Retrieve-When / Do-Not-Retrieve-When judgment.
-        auto_retrieve_docs, llm_vote_docs = partition_tier1_short_circuit(
-            candidate_docs, label_key="term"
-        )
+        # S3.4 (Pass 1 R6): relevance is decided by the local cross-encoder,
+        # deterministically - the batched LLM relevance vote (and the tier-1
+        # short-circuit that existed to protect tier-1 terms from that
+        # vote's batch dilution) are both gone. The ONE remaining LLM call
+        # judges only Do-Not-Retrieve-When guards, and only when a
+        # relevance-kept candidate actually carries an evaluable one.
+        from app.rag.cross_encoder import score_candidates, threshold_for
 
-        decisions_by_id: dict[int, tuple[bool, str]] = {
-            id(doc): (
-                True,
-                "Tier 1 (this world's own declared center of gravity) and among the closest "
-                "semantic matches to the question - retrieved without an LLM vote.",
-            )
-            for doc in auto_retrieve_docs
-        }
+        scores = score_candidates(query, candidate_docs)
+        rel_threshold = threshold_for(query)
+        # S3.4: selection order is the cross-encoder's ranking (its
+        # ordering is reliable even where its absolute score is not -
+        # see cross_encoder.py); the fused candidate list stays the
+        # audit-trail order
+        candidate_docs = [d for _s, d in sorted(
+            zip(scores, candidate_docs), key=lambda x: -x[0])]
+        scores = sorted(scores, reverse=True)
+        decisions_by_id: dict[int, tuple[bool, str]] = {}
+        guarded_docs = []
+        for rank, (doc, score) in enumerate(zip(candidate_docs, scores)):
+            # A candidate the cross-encoder itself ranks inside the final
+            # k is never hard-dropped on absolute score: the model's
+            # ordering is reliable where its absolute calibration is not
+            # (measured - deep-thematic must-docs score in the noise band
+            # on clean queries yet rank top). The threshold prunes only
+            # beyond-window noise, which also bounds the guard-vote batch.
+            if score < rel_threshold and rank >= k:
+                decisions_by_id[id(doc)] = (
+                    False,
+                    f"Cross-encoder relevance {score:.2f} below threshold "
+                    f"{rel_threshold} - not relevant to this turn.",
+                )
+            elif _evaluable_negative_condition(
+                    doc.metadata.get("do_not_retrieve_when", "")):
+                guarded_docs.append(doc)
+            else:
+                decisions_by_id[id(doc)] = (
+                    True,
+                    f"Cross-encoder relevance {score:.2f} - retrieved "
+                    f"(no evaluable guard).",
+                )
 
-        if llm_vote_docs:
+        if guarded_docs:
             candidates = [
                 Candidate(
                     label=doc.metadata.get("term", "unknown"),
@@ -172,24 +198,17 @@ class LexiconRetriever:
                     do_not_retrieve_when=doc.metadata.get("do_not_retrieve_when", ""),
                     tier=doc.metadata.get("tier", 1),
                 )
-                for doc in llm_vote_docs
+                for doc in guarded_docs
             ]
-            decisions = evaluate_batch(
+            decisions = evaluate_negative_conditions(
                 self.filter_llm,
                 candidates,
                 query,
                 conversation_context,
                 item_noun="lexicon entry",
-                extra_instruction=(
-                    "A Retrieve-When condition naming a topic or theme is satisfied when the question "
-                    "would naturally lead a representative formed in this world to reach for that term "
-                    "as part of how they characteristically answer it - not only when the participant's "
-                    "own wording literally names the term. Still SKIP when the term is only tangentially "
-                    "related, or genuinely belongs to a different topic than what is being asked."
-                ),
             )
             decisions_by_id.update(
-                {id(doc): decision for doc, decision in zip(llm_vote_docs, decisions)}
+                {id(doc): decision for doc, decision in zip(guarded_docs, decisions)}
             )
 
         filtered_docs = []

@@ -40,3 +40,10 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 - **Reading applied pending Mark's call:** `s27_voice_records.py` amended to add the Doc10-documented discipline to `norms` (an evidenced completion from the same source doc the field already cites — no new invention); voice_profile re-emitted; the generated prompt re-staged; probe parity re-run. The amendment is this flag's declared, visible remediation, not a silent patch.
 - **Status:** open (fix applied under this reading; S2.9 retrospective should ask whether the S2.7 checkpoint definition needs a norms-vs-probe-categories completeness check).
 
+
+## FLAG-006 — Frame-breaker classifier false positive on in-world economic questions
+
+- **Found during:** S3.4's L-lite battery (incidental — the intercept chain is untouched by Phase 3; this is current-runtime behavior observed live).
+- **Evidence:** HAL-2 asked the Hieronymian Representative "Who paid for all this work of yours?" — a legitimate in-world question about the patronage economy (their own Primary gravity G3). The frame-breaker classifier read it as a construction question ("who funds you") and routed to the Facilitator's plain frame answer (frame_breaker_response_plain); the Representative never spoke. The Facilitator's answer itself was honest (admitted not knowing platform funding, did not fabricate) — the failure is the routing, not the response. Transcript: baselines/llite_s34.jsonl, HAL-2.
+- **Reading applied:** no change now (Phase 3 owns retrieval, not the intercepts). Routed to Phase 4: S4.1's replay-parity fixture set and S4.4's table battery should include this exact case (in-world "who paid/funded you" phrasings) as a seeded false-positive test.
+- **Status:** open.
