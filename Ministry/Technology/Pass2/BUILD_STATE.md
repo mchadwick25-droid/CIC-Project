@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S2.8 (view generators + three parities)
+- **Current step:** S2.8 (view generators + three parities) - IN PROGRESS: chunk views + chunk render-parity classifier built and green (0 unclassified; 78 defect-class lines routed to FLAG-004 + S2.9 COs, 4 intended-change); FLAG-004 filed (S2.4 silently dropped story Formation Ecology Connection + story008 Source Identification). Remaining: capsule/prompt/brief views, capsule render parity, retrieval parity (rebuild indexes from staged chunks vs B-RETR), probe parity (live API, blind two-trial), then the swap commit.
 - **Last completed checkpoint:** S2.7a G+R (`gates/S2.7a_facilitation_records.md`, `reviews/S2.7a_pairing_content.md`)
 - **Parked items:** none
 
