@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S2.9 (migration retrospective -> schema Change Orders, presented to Mark one at a time)
+- **Current step:** S2.9 - register written (change_orders/S2.9_CO_Register.md, 11 COs); CO-P2-01 (swap decision) PRESENTED to Mark, awaiting his call; no CO applied. Non-dependent next work while M pends: Phase 3 (S3.x, operates on today's chunk formats via the compatibility rule).
 - **Last completed checkpoint:** S2.8 (`gates/S2.8_three_parities.md` - render 0-unclassified, retrieval 0-regressions, probe 6/7 with the divergence characterized; NO swap: presented to Mark at S2.9)
 - **Parked items:** none
 
