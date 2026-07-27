@@ -242,6 +242,20 @@ def project(session_id: str, events: list[Event]) -> ConversationState:
             ctx = p.get("context")
             state.retrieved_context = (RetrievedContext(**ctx)
                                        if ctx is not None else None)
+        elif t == "register_observed":
+            # S4.7: the latest observation wins - rendered as the one
+            # selector-input line select_next_speaker appends
+            if p.get("absent"):
+                state.register_note = (
+                    "One more observation from the last round: the "
+                    f"participant's own register leaned toward "
+                    f"{p.get('participant_register') or 'their own key'}, and "
+                    f"the round's speech left {p['absent']} conspicuously "
+                    "absent. Where it genuinely fits, prefer the voice able "
+                    "to meet that absent register - never force it."
+                )
+            else:
+                state.register_note = None
         elif t == "bridge_reframe" and p.get("question"):
             # S4.5 (Pass 1 §6.6): the reframed question persists as the
             # question actually asked - folded as a Facilitator-spoken

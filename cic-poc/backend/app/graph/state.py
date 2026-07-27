@@ -13,7 +13,11 @@ class DriftSignal:
 
     # S4.3 (Pass 1 §6.5): ALL emitted types declared - over_settling and
     # self_narration were emitted by the monitor path but absent here,
-    # exactly the two most governance-critical of the set. 17 total.
+    # exactly the two most governance-critical of the set. 17 at S4.3;
+    # S4.7 adds the three §6.5 re-founding types (misattribution - the
+    # recorded fabrication class's rep-to-rep face; manufactured_resolution
+    # - convergence's content half, split out; closing_synthesis - the
+    # PART II closing-speaker finding). 20 total.
     signal_type: Literal[
         "smoothing",
         "generating",
@@ -22,6 +26,7 @@ class DriftSignal:
         "temporal_bleed",
         "flattening",
         "fabrication",
+        "misattribution",
         "apologetics",
         "first_person",
         "anachronism",
@@ -29,6 +34,8 @@ class DriftSignal:
         "over_settling",
         "dominance",
         "convergence",
+        "manufactured_resolution",
+        "closing_synthesis",
         "cross_world_vocabulary",
         "length_ceiling",
         "question_stacking",
@@ -113,6 +120,14 @@ class ConversationState:
     # epistemology bridge sets the participant's own original question -
     # both deterministic, no extra LLM call).
     retrieval_query_override: Optional[str] = None
+
+    # S4.7 (Pass 1 §6.5): mode-dominance's first mechanism - the latest
+    # post-round register observation (the six modes the governance
+    # document enumerates, held against the participant's discerned
+    # register), consumed as SELECTOR INPUT only: the correction is the
+    # selector calling the absent register, never a spoken intervention.
+    # Projected from register_observed events; None until one exists.
+    register_note: Optional[str] = None
 
     # S4.4a (Pass 1 §6.2): the selector's private directive to the
     # representative it selected - the previously-discarded REASON line

@@ -3,6 +3,15 @@ The sensed closing sequence — wind-down sensing, an optional resources offer, 
 a genuine thank-you/invitation close. Facilitator-only throughout (the
 Representative is never invoked), mirroring the frame-breaker intercept shape.
 
+S4.7 (Pass 1 §6.5, the closing-speaker rule): whoever speaks last gains
+unearned authority to characterize consensus — so any CONVERSATION-level
+closing summary is the Facilitator's to deliver, never a Representative's,
+which this module already enforces by construction (every closing turn here
+is Facilitator-only). The ROUND-level face of the same rule is the
+closing_synthesis table check (nodes.check_closing_synthesis): a
+Representative's final-turn synthesis of the table draws a queued
+correction rather than standing as the round's last word.
+
 Design: Ministry/Technology/CiC_Sensed_Closing_Sequence_Spec_V0_1.md
 Data:   backend/data/further_encounter_resources/{<world_id>.json, general.json}
 

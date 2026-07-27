@@ -1,0 +1,69 @@
+{
+ "B1-closing-synthesis-flagged": {
+  "expected": "the PART II synthesis close DRAWS the closing_synthesis flag on the final speaker",
+  "flags": [
+   [
+    "closing_synthesis",
+    "syriac-edessa-nisibis"
+   ]
+  ],
+  "pass": true
+ },
+ "B2-genuine-divergence-not-flagged": {
+  "expected": "a round of held distinct grounds is NOT flagged by convergence, manufactured_resolution, or closing_synthesis",
+  "flags": [],
+  "pass": true
+ },
+ "B3a-misattribution-flagged": {
+  "expected": "Papnoute's 'mere remembrance' characterization (words Chloe's turn does not carry) draws misattribution on Papnoute",
+  "flags": [
+   [
+    "misattribution",
+    "desert-monasticism"
+   ]
+  ],
+  "pass": true
+ },
+ "B3b-faithful-control-clean": {
+  "expected": "an accurate characterization draws NO misattribution flag",
+  "flags": [],
+  "pass": true
+ },
+ "B5-manufactured-resolution-flagged": {
+  "expected": "dissolving the documented authority divergence (desertclaim003) into oneness draws manufactured_resolution",
+  "flags": [
+   [
+    "manufactured_resolution",
+    "desert-monasticism"
+   ],
+   [
+    "manufactured_resolution",
+    "syriac-edessa-nisibis"
+   ]
+  ],
+  "pass": true
+ },
+ "B4-restricted-offer-live": {
+  "expected": "grounding_offer event planned; the answering turn OPENS with ONE candidate-understanding offer (a single confirming question early), not two, then answers",
+  "offer_events": [
+   {
+    "classifier": "grounding_offer",
+    "raw": {
+     "term": "Anachōrēsis (Withdrawal)"
+    },
+    "applied": true
+   }
+  ],
+  "turn_head": "Bread and salt, water carried or found, sometimes a little oil or a few soaked lentils. Wild herbs where the ground gave them.\n\nWe did not go out for the food. Enough to keep the body upright and the mind at watch — often less than the body wanted, that the wanting itself might be seen. Labor's wage fed the poor, not us.",
+  "early_question_count": 0,
+  "pass_mechanical": true,
+  "round1_grade": "MISS on speech: offer planned+injected but the hard-ceiling regenerate-once compression dropped it (draft 109w -> 63w retry); a real ceiling-vs-offer collision"
+ },
+ "B4-restricted-offer-live-round2": {
+  "expected": "after the in-step directive fix (offer survives the word measure as its first sentence): exactly ONE offer opens the turn, then the answer",
+  "turn_head": "Withdrawal, anachōrēsis, means the actual departure from village to marginal land — the ascetic act itself. Is that what you meant?\n\nBread, mostly, sometimes soaked. Salt. Oil if we had it. A few vegetables from a small plot, dates where a palm stood near. One meal, at evening. The hunger itself was never the point — only whether we could watch it rightly.",
+  "early_question_count": 1,
+  "offer_planned": true,
+  "pass": true
+ }
+}

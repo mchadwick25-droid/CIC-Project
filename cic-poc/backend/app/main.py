@@ -124,6 +124,11 @@ def _classifier_events(pre_turn) -> list[tuple[str, dict]]:
             "verdict": pre_turn.repair["verdict"],
             "matched_contested": pre_turn.repair["matched_contested"],
         }))
+    if getattr(pre_turn, "grounding_offer", None) is not None:
+        events.append(("classifier_decision", {
+            "classifier": "grounding_offer",
+            "raw": {"term": pre_turn.grounding_offer["term"]},
+            "applied": True}))
     if pre_turn.rs_updates:
         events.append(("rs_state_updated", {"updates": pre_turn.rs_updates}))
     return events
@@ -720,6 +725,10 @@ async def send_message(session_id: str, request: SendMessageRequest):
     if pre_turn.repair is not None:
         state.private_directive = pre_turn.repair["directive"]
         state.current_world_id = pre_turn.repair["challenged_world_id"]
+    elif pre_turn.grounding_offer is not None:
+        # S4.7 (Pass 1 §6.4): the restricted offer opens the answering
+        # turn - one directive slot, repair takes precedence
+        state.private_directive = pre_turn.grounding_offer["directive"]
 
     # For multi-world tables, determine turn type (single or all representatives)
     from app.graph.nodes import determine_turn_type, multi_representative_engages
@@ -1255,6 +1264,12 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                         and pre_turn.repair["challenged_world_id"] in world_ids):
                     world_id = pre_turn.repair["challenged_world_id"]
                     private_directive = pre_turn.repair["directive"]
+                elif (getattr(pre_turn, "grounding_offer", None) is not None
+                        and turns_completed == 0 and not is_multi_world):
+                    # S4.7 (§6.4): the restricted offer opens the answering
+                    # turn - single migrated-world sessions, one offer only
+                    world_id = state.world_id
+                    private_directive = pre_turn.grounding_offer["directive"]
                 elif is_multi_world:
                     # Ask, before each turn, who is most directly positioned to
                     # speak next given what has actually been said so far -
@@ -1265,6 +1280,9 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                         world_id=state.world_id,
                         world_ids=state.world_ids,
                         worlds_at_table=state.worlds_at_table,
+                        # S4.7: the mode-register observation rides into
+                        # the selector as input (Pass 1 §6.5)
+                        register_note=state.register_note,
                     )
                     must_continue = turns_completed < MIN_MULTI_WORLD_TURNS
                     # S4.4a: the selector's REASON (or the deterministic

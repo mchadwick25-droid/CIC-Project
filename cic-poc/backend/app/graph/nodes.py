@@ -1,5 +1,6 @@
 """LangGraph node functions for The Table conversation."""
 
+import functools
 import re
 import time
 import uuid
@@ -43,6 +44,7 @@ from app.prompts.representative_prompts import (
     REPRESENTATIVE_CONTINUATION_PROMPT,
 )
 from app.prompts.table_discourse import (
+    CROSS_WORLD_VOCABULARY_GUIDANCE,
     OPENING_TURN_LARGE_TABLE_GUIDANCE,
     REACTIVE_TURN_GUIDANCE,
 )
@@ -1141,16 +1143,7 @@ Also present at this table: {', '.join(other_reps)}.
 
 Below is the record of what has been spoken at this Table. You encounter the other voices here through their words — not through access to their inner formation, but through what they have said aloud.
 
-CRITICAL: You must speak ONLY from your own formation, using ONLY your own world's vocabulary and concepts. Do not adopt, borrow, or use the other representative's terminology as if it were your own. Their words (like 'raza', 'qyama', 'shrara' if they are Syriac; 'episkopos', 'presbyteros', 'ekklesia' if they are Post-Apostolic; 'logismoi', 'diakrisis', 'hesychia' if they are Desert Monasticism; or 'Hebraica veritas', 'renuntiatio', 'patrocinium' if they are Hieronymian) belong to THEIR formation, not yours.
-
-When responding to what another representative said:
-- You may acknowledge their words, but translate the concept into YOUR vocabulary
-- You may find resonance, but name it in YOUR terms
-- You may find difference, and name how YOUR formation sees it differently
-- You do NOT know their inner formation — only what they said aloud
-- You speak as yourself, from your world, in your vocabulary
-
-The participant is witnessing an encounter between genuinely different worlds. That difference is visible in vocabulary, not just ideas.
+{CROSS_WORLD_VOCABULARY_GUIDANCE}
 
 PUBLIC TRANSCRIPT:
 {public_transcript}
@@ -1621,11 +1614,12 @@ def multi_representative_engages(state: ConversationState, request_id: str | Non
 # (vocabulary drift, manufactured convergence - the multi-party class the
 # old slot structurally lost); then stance; then shape.
 _SIGNAL_PRIORITY: list[str] = [
-    "fabrication", "self_narration", "first_person", "temporal_bleed",
-    "anachronism", "over_settling", "cross_world_vocabulary",
-    "convergence", "apologetics", "smoothing", "flattening", "agreeing",
-    "dominance", "generating", "over_producing", "length_ceiling",
-    "question_stacking",
+    "fabrication", "misattribution", "self_narration", "first_person",
+    "temporal_bleed", "anachronism", "over_settling",
+    "cross_world_vocabulary", "manufactured_resolution", "convergence",
+    "closing_synthesis", "apologetics", "smoothing", "flattening",
+    "agreeing", "dominance", "generating", "over_producing",
+    "length_ceiling", "question_stacking",
 ]
 # kept as an alias: the monitor bottleneck's historical name for the list
 _MONITOR_SIGNAL_PRIORITY = _SIGNAL_PRIORITY
@@ -2675,6 +2669,14 @@ def select_next_speaker(
             status = f"has spoken {times_spoken}x this round, could return with something new"
         rep_lines.append(f"- {info['name']} (world_id: {wid}), {info['description']} — {status}")
 
+    # S4.7 (Pass 1 §6.5): mode-dominance's correction is a SELECTION
+    # input - when the last round's registers left the participant's own
+    # register unmet, the selector is told, and may prefer the voice that
+    # can meet it. Never a spoken intervention.
+    register_line = ""
+    if getattr(state, "register_note", None):
+        register_line = f"\n\n{state.register_note}"
+
     none_option = (
         ""
         if must_continue
@@ -2693,7 +2695,7 @@ Participant's message:
 What has been said at the table so far (most recent last):
 {public_transcript}
 
-The governing principle is not rotation and not equal time. Real conversation is not "everyone gives one statement in order" - it has shape: someone opens, another responds and then adds their own view, the first may come back once there's something new to answer, a third may jump in partway through instead of waiting their turn. Decide which representative is most directly positioned to speak into this specific moment - because the question addresses their world specifically, because what was just said calls for their agreement or their difference, because their formation would genuinely illuminate something not yet said, or because they have something new to add now that more has been said since they last spoke. A representative who already spoke is a completely valid choice if they now have something new to say in response to what came after their turn - but do not pick whoever just spoke; they need something new to have been said before they'd speak again. Weigh, too, who has gone quiet across the conversation as a whole - a world silent for several rounds is not owed a turn by rotation, but when the current moment genuinely touches their formation, prefer them over a voice that has already carried much of the conversation.{none_option}
+The governing principle is not rotation and not equal time. Real conversation is not "everyone gives one statement in order" - it has shape: someone opens, another responds and then adds their own view, the first may come back once there's something new to answer, a third may jump in partway through instead of waiting their turn. Decide which representative is most directly positioned to speak into this specific moment - because the question addresses their world specifically, because what was just said calls for their agreement or their difference, because their formation would genuinely illuminate something not yet said, or because they have something new to add now that more has been said since they last spoke. A representative who already spoke is a completely valid choice if they now have something new to say in response to what came after their turn - but do not pick whoever just spoke; they need something new to have been said before they'd speak again. Weigh, too, who has gone quiet across the conversation as a whole - a world silent for several rounds is not owed a turn by rotation, but when the current moment genuinely touches their formation, prefer them over a voice that has already carried much of the conversation.{register_line}{none_option}
 
 Respond in this exact format:
 NEXT_SPEAKER: <world_id{none_instruction}>
@@ -2768,7 +2770,35 @@ def check_dominance(state: ConversationState) -> list[DriftSignal]:
     if len(spoken_worlds) < 2 or total_words < 150:
         return []
 
+    # S4.7 (Pass 1 §6.5): the floor-allocation view - a world SELECTED
+    # every round can dominate the table at 40% of the words, invisible
+    # to the word-share backstop. Turn-count share is the cheap proxy for
+    # floor allocation; fires only at 3+ seated worlds with enough turns
+    # for a share to mean anything.
     signals = []
+    turn_counts: dict[str, int] = {wid: 0 for wid in world_ids}
+    for msg in state.messages:
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            turn_counts[name_to_world[name]] += 1
+    total_turns = sum(turn_counts.values())
+    if len(world_ids) >= 3 and total_turns >= 6:
+        for wid, tc in turn_counts.items():
+            if tc / total_turns >= 0.5:
+                info = REPRESENTATIVE_INFO.get(wid)
+                name = info["name"] if info else wid
+                signals.append(DriftSignal(
+                    signal_type="dominance",
+                    description=(
+                        f"{name} has held the floor in {tc} of the {total_turns} "
+                        "representative turns so far - not by talking long, but by "
+                        "being the voice selected. Let others carry the coming "
+                        "rounds; hold back unless directly called."
+                    ),
+                    severity="medium",
+                    world_id=wid,
+                ))
+
     for wid, count in word_counts.items():
         if count == 0:
             continue
@@ -2825,18 +2855,22 @@ def check_convergence(state: ConversationState, spoken_this_round: list[str]) ->
 
     transcript_block = "\n\n".join(f"{name}: {content}" for name, content in round_turns)
 
-    prompt = f"""You are the Facilitator at The Table, checking for convergence drift - a signal from your Silent Discipline that applies specifically when multiple representatives speak in the same round.
+    # S4.7 (Pass 1 §6.5): this check's target NARROWS to its real half -
+    # a conceptual pact that OVERWRITES a world's own sense. Vocabulary
+    # blending per se is lexical entrainment, the most robust documented
+    # behavior of humans in real conversation - echoing a word is not
+    # drift; adopting the other world's MEANING in place of your own is.
+    # "Manufactured resolution" is a different phenomenon and is now its
+    # own check (check_manufactured_resolution), scored against the
+    # seated worlds' own documented divergences.
+    prompt = f"""You are the Facilitator at The Table, checking for convergence drift - specifically, a conceptual pact that overwrites a world's own sense.
 
-Convergence drift has two forms, both real failures even though only the first involves shared vocabulary:
-
-1. Voice convergence: representatives from genuinely different formations start sounding like the same voice - borrowing each other's vocabulary as if it were their own, or losing the distinctiveness that makes their reasoning genuinely different.
-
-2. Manufactured resolution: a representative reaches for a synthesis, a resolving insight, or a graceful shared conclusion that ties both positions together neatly - even while staying entirely within their own vocabulary - when that conclusion is not something their own formation actually held before this conversation. This is convergence at the level of content rather than vocabulary: two genuinely different traditions should not smoothly arrive at one tidy answer just because the conversation would feel more satisfying that way. A real impasse, stated plainly and left standing, is the correct outcome when a real impasse exists.
+The bar, stated carefully: representatives in real conversation naturally echo one another's words - that alone is lexical entrainment, documented ordinary human behavior, and is NOT drift. The failure you are checking for is narrower: a representative adopting another world's MEANING in place of their own world's own sense - reasoning from the other formation's concept as if it were their own, so the two voices' senses collapse into one, or losing the distinctiveness that makes their reasoning genuinely different.
 
 Representatives who spoke this round:
 {transcript_block}
 
-Did either form of convergence drift occur? Be conservative - real agreement, found honestly and independently held by each formation before this exchange, is NOT convergence drift, and neither is a representative simply engaging seriously with what the other said. Only flag it if the voices have become difficult to tell apart, one used the other's specific terminology as if it were their own, or a conclusion was reached that reads as invented for the sake of a smooth ending rather than something either formation would independently stand behind.
+Did sense-overwriting convergence occur? Be conservative - echoed words with each world's own sense intact are NOT drift; serious engagement with what the other said is NOT drift; real agreement independently held by each formation is NOT drift. Flag only when a voice's own conceptual ground has been displaced by the other's.
 
 Respond in this exact format:
 CONVERGENCE_DETECTED: yes or no
@@ -3161,7 +3195,18 @@ def check_cross_world_vocabulary_drift(
 
     from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
 
-    terms_by_world = {wid: _get_world_lexicon_terms(wid) for wid in round_turns}
+    # S4.7: for MIGRATED worlds the disambiguation is judged against the
+    # term record's own period_sense (the crisp defined sense) instead of
+    # a raw chunk-text slice - substring matching stays only as the cheap
+    # pre-filter it always was. Unmigrated worlds keep the chunk path.
+    def _terms_for(wid: str):
+        records = _term_records_for_world(wid)
+        if records:
+            return [(t[0], f"Period sense: {t[3]}\nQuick meaning: {t[2]}")
+                    for t in records if t[0]]
+        return _get_world_lexicon_terms(wid)
+
+    terms_by_world = {wid: _terms_for(wid) for wid in round_turns}
     llm = get_monitoring_llm()
     signals: list[DriftSignal] = []
 
@@ -3220,3 +3265,409 @@ Respond with exactly one word: INVOKING or INCIDENTAL."""
             break
 
     return signals
+
+
+# ---------------------------------------------------------------------------
+# S4.7 (Pass 1 §6.4/§6.5) - term-record loaders, the three new table
+# checks, restricted-offer planning, and the mode-register observation
+# ---------------------------------------------------------------------------
+
+_WRS_RECORDS_ROOT = Path(__file__).resolve().parents[2] / "wrs" / "records"
+
+
+@functools.lru_cache(maxsize=8)
+def _term_records_for_world(world_id: str) -> tuple:
+    """(term, aliases, quick_meaning, period_sense, grounding_criterion)
+    tuples from a MIGRATED world's term records - empty for unmigrated
+    worlds (the compatibility classification). grounding_criterion is the
+    §6.4 DERIVED criterion, computed at migration (e.g. desertlex001's
+    'Sharp then-vs-now gap: high grounding criterion by rule')."""
+    import yaml
+    out = []
+    try:
+        for p in sorted(_WRS_RECORDS_ROOT.glob("*/term/*.md")):
+            try:
+                front = yaml.safe_load(
+                    p.read_text(encoding="utf-8").split("---", 2)[1])
+                if front.get("world_id") != world_id:
+                    continue
+                out.append((
+                    str(front.get("term", "")),
+                    tuple(front.get("aliases") or []),
+                    str(front.get("quick_meaning", "")),
+                    str(front.get("period_sense", "")),
+                    str(front.get("grounding_criterion", "")),
+                ))
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return tuple(out)
+
+
+def check_misattribution(state: ConversationState,
+                         spoken_this_round: list[str]) -> list[DriftSignal]:
+    """S4.7 (Pass 1 §6.5): 'Name What They Actually Said' is instructed
+    but was never verified - when a Representative characterizes another's
+    position, a cheap targeted check against the named world's actual
+    prior turns. The grounding gap's Representative-to-Representative
+    face, and the recorded fabrication class (a real voice cited for
+    something it did not say) - no other signal covers it."""
+    if len(spoken_this_round) < 2:
+        return []
+
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    display = _rep_display_names(world_ids)
+    name_to_world = {get_representative_message_name(wid): wid
+                     for wid in world_ids}
+
+    # this round's turns, in order
+    round_turns: list[tuple[str, str]] = []
+    for msg in reversed(state.messages):
+        wid = name_to_world.get(getattr(msg, "name", None))
+        if wid is not None:
+            round_turns.append((wid, str(msg.content)))
+        if len(round_turns) >= len(spoken_this_round):
+            break
+    round_turns.reverse()
+
+    llm = get_monitoring_llm()
+    signals: list[DriftSignal] = []
+    for speaker_wid, turn_text in round_turns:
+        named = [w for w in _named_reps_in(turn_text, world_ids)
+                 if w != speaker_wid]
+        for other_wid in named:
+            other_name = get_representative_message_name(other_wid)
+            prior = [str(m.content) for m in state.messages
+                     if getattr(m, "name", None) == other_name]
+            if not prior:
+                continue
+            prior_text = "\n\n".join(prior[-2:])[:2500]
+            prompt = (
+                f"A representative just referred to {display.get(other_wid, other_wid)} "
+                "by name. Check ONLY whether they characterized "
+                f"{display.get(other_wid, other_wid)}'s position, and if so whether the "
+                "characterization matches what was ACTUALLY said.\n\n"
+                f"What {display.get(other_wid, other_wid)} actually said (their own prior "
+                f"turns):\n\"\"\"{prior_text}\"\"\"\n\n"
+                f"The turn referring to them:\n\"\"\"{turn_text[:2000]}\"\"\"\n\n"
+                "Respond with exactly one word:\n"
+                "- MISATTRIBUTED - the turn puts a position, claim, or words on "
+                "them that their actual turns do not carry (including subtle "
+                "restatements that shift what they said)\n"
+                "- FAITHFUL - the characterization matches, OR the turn only "
+                "addresses/asks them without characterizing their position.\n"
+                "When unsure, answer FAITHFUL - only a clear mismatch is a finding."
+            )
+            try:
+                response = llm.invoke([HumanMessage(content=prompt)])
+                log_llm_usage("misattribution_check", response,
+                              _MONITORING_MODEL, session_id=state.session_id)
+                if "MISATTRIBUTED" not in response.content.strip().upper():
+                    continue
+            except Exception:
+                continue
+            signals.append(DriftSignal(
+                signal_type="misattribution",
+                description=(
+                    f"Your last turn characterized {display.get(other_wid, other_wid)}'s "
+                    "position in words their own turns do not carry. Name what "
+                    "they actually said - quote or restate it faithfully - or "
+                    "ask them, rather than attributing."
+                ),
+                severity="high",
+                world_id=speaker_wid,
+            ))
+            break
+    return signals
+
+
+def check_manufactured_resolution(state: ConversationState,
+                                  spoken_this_round: list[str]) -> list[DriftSignal]:
+    """S4.7 (Pass 1 §6.5): convergence's content half, split out - group-
+    level sycophancy arriving at a tidy synthesis. Scored against the
+    seated worlds' own documented divergences where records exist: a
+    migrated world's contested_claim.divergence_partners naming another
+    seated world means the worlds GENUINELY diverge on that ground, and a
+    round converging on a tidy resolution there is manufactured."""
+    if len(spoken_this_round) < 2:
+        return []
+
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    name_to_world = {get_representative_message_name(wid): wid
+                     for wid in world_ids}
+    round_turns = []
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            round_turns.append((name, str(msg.content)))
+        if len(round_turns) >= len(spoken_this_round):
+            break
+    round_turns.reverse()
+    if len(round_turns) < 2:
+        return []
+    transcript_block = "\n\n".join(f"{n}: {c}" for n, c in round_turns)
+
+    # documented divergences between seated worlds (migrated records only)
+    import yaml
+    divergences = []
+    try:
+        for p in sorted(_WRS_RECORDS_ROOT.glob("*/contested_claim/*.md")):
+            try:
+                front = yaml.safe_load(
+                    p.read_text(encoding="utf-8").split("---", 2)[1])
+                if front.get("world_id") not in world_ids:
+                    continue
+                for partner in front.get("divergence_partners") or []:
+                    if partner.get("world_id") in world_ids:
+                        divergences.append(
+                            f"- {front.get('id')}: {str(front.get('claim'))[:200]} "
+                            f"(diverges from {partner['world_id']}: "
+                            f"{str(partner.get('note', ''))[:200]})")
+            except Exception:
+                continue
+    except Exception:
+        pass
+    divergence_block = "\n".join(divergences) or (
+        "(no records available for the seated pairing - judge from the "
+        "round alone)")
+
+    prompt = f"""You are the Facilitator, checking one round for MANUFACTURED RESOLUTION - a synthesis, resolving insight, or graceful shared conclusion tying the positions together neatly, when that conclusion is not something each formation would independently stand behind. Real impasse, stated plainly and left standing, is the correct outcome when a real impasse exists.
+
+Documented divergences between the worlds at this table (their own records):
+{divergence_block}
+
+This round:
+{transcript_block}
+
+Be conservative: serious mutual engagement, honest agreement independently held, or one voice noting a resonance while KEEPING the difference standing - none of these is manufactured resolution. Flag only a tidy shared conclusion that dissolves a genuine divergence for the sake of a smooth ending.
+
+Respond in this exact format:
+MANUFACTURED: yes or no
+SEVERITY: low, medium, or high (omit if no)
+DESCRIPTION: one sentence (omit if no)"""
+
+    llm = get_monitoring_llm()
+    try:
+        response = llm.invoke([
+            SystemMessage(content=prompt),
+            HumanMessage(content="Check the round above."),
+        ])
+        log_llm_usage("manufactured_resolution_check", response,
+                      _MONITORING_MODEL, session_id=state.session_id)
+    except Exception:
+        return []
+
+    detected, severity, description = False, "medium", ""
+    for line in response.content.strip().split("\n"):
+        line = line.strip()
+        if line.upper().startswith("MANUFACTURED:"):
+            detected = "yes" in line.lower()
+        elif line.upper().startswith("SEVERITY:"):
+            v = line.split(":", 1)[1].strip().lower()
+            if v in ("low", "medium", "high"):
+                severity = v
+        elif line.upper().startswith("DESCRIPTION:"):
+            description = line.split(":", 1)[1].strip()
+    if not detected:
+        return []
+    return [
+        DriftSignal(
+            signal_type="manufactured_resolution",
+            description=(description or "This round manufactured a shared "
+                         "resolution.") + " Let the genuine difference stand "
+            "- your worlds' own records diverge here, and an honest impasse "
+            "serves the participant better than a tidy synthesis.",
+            severity=severity,
+            world_id=wid,
+        )
+        for wid in spoken_this_round
+    ]
+
+
+def check_closing_synthesis(state: ConversationState,
+                            spoken_this_round: list[str]) -> list[DriftSignal]:
+    """S4.7 (Pass 1 §6.5, the PART II reviewer finding): whoever speaks
+    last gains unearned authority to characterize consensus. Checks ONLY
+    the round's final turn for a totalizing closing frame."""
+    if len(spoken_this_round) < 2:
+        return []
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    name_to_world = {get_representative_message_name(wid): wid
+                     for wid in world_ids}
+    last_wid, last_text = None, None
+    for msg in reversed(state.messages):
+        wid = name_to_world.get(getattr(msg, "name", None))
+        if wid is not None:
+            last_wid, last_text = wid, str(msg.content)
+            break
+    if last_wid is None:
+        return []
+
+    prompt = (
+        "You are the Facilitator, checking ONE thing about the FINAL turn "
+        "of a multi-representative round: does it close the round by "
+        "characterizing the whole table's shared direction, consensus, or "
+        "underlying unity - a totalizing frame placed last ('we are all "
+        "pointing the same direction', 'under all three answers lies one "
+        "gravity'), where the speaker's own position stated as their own "
+        "would have been the honest close?\n\n"
+        f"The final turn:\n\"\"\"{last_text[:2000]}\"\"\"\n\n"
+        "Respond with exactly one word: SYNTHESIS (it claims the table's "
+        "collective direction as its closing frame) or OWN_GROUND (it "
+        "closes on its own position, or addresses others without claiming "
+        "what the table collectively holds). When unsure, OWN_GROUND."
+    )
+    llm = get_monitoring_llm()
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        log_llm_usage("closing_synthesis_check", response,
+                      _MONITORING_MODEL, session_id=state.session_id)
+        if "SYNTHESIS" not in response.content.strip().upper():
+            return []
+    except Exception:
+        return []
+    return [DriftSignal(
+        signal_type="closing_synthesis",
+        description=(
+            "Your turn closed the round by characterizing what the whole "
+            "table holds. The last word carries unearned authority to "
+            "define consensus - close on your own world's ground instead, "
+            "and let the Facilitator or the participant hold the whole."
+        ),
+        severity="medium",
+        world_id=last_wid,
+    )]
+
+
+def plan_restricted_offer(state: ConversationState, message: str) -> dict | None:
+    """S4.7 (Pass 1 §6.4): the one positive-evidence grounding mechanism.
+    Deterministic, no LLM call: when the LAST representative turn cited a
+    HIGH-grounding-criterion record (the criterion is derived data on the
+    record, computed at migration) and the participant's next message
+    shows no positive evidence of understanding (no mention of the term
+    or its aliases), the answering turn OPENS with a restricted offer -
+    a candidate understanding put forward for confirmation. Exactly ONE
+    offer (the most recently cited high-criterion term) - over-offering
+    is a graded failure. Migrated single-world sessions only (the offer
+    puts forward the answering world's own sense; cross-world offers wait
+    for migrated tables, S6.2)."""
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    if len(world_ids) != 1:
+        return None
+    world_id = world_ids[0]
+    terms = _term_records_for_world(world_id)
+    if not terms:
+        return None
+    rep_name = get_representative_message_name(world_id)
+    last_rep_msg = next((m for m in reversed(state.messages)
+                         if getattr(m, "name", None) == rep_name), None)
+    if last_rep_msg is None:
+        return None
+    citations = (getattr(last_rep_msg, "additional_kwargs", None) or {}).get(
+        "citations") or []
+    cited_terms = [c.get("term", "") for c in citations]
+    if not cited_terms:
+        return None
+
+    by_term = {t[0]: t for t in terms}
+    lowered = message.lower()
+    for cited in reversed(cited_terms):  # most recent citation first
+        rec = by_term.get(cited)
+        if rec is None or rec[4] != "high":
+            continue
+        term, aliases, quick_meaning, _period_sense, _crit = rec
+        # positive evidence of understanding = the participant's next
+        # message touches the term or any alias; strip parentheticals so
+        # "Anachōrēsis (Withdrawal)" also matches on "withdrawal"
+        probes = [re.sub(r"\([^)]*\)", "", term).strip()] + list(aliases)
+        if any(p and p.lower() in lowered for p in probes):
+            continue
+        display = re.sub(r"\s*\(.*", "", term).strip() or term
+        return {
+            "term": term,
+            "directive": (
+                "Grounding note: your last turn leaned on "
+                f'"{term}" - a term whose sense then and now diverge sharply - '
+                "and the participant has moved on without touching it. Your "
+                "FIRST sentence this turn must be ONE restricted offer: a "
+                "single short question putting forward your candidate "
+                "understanding for confirmation - its real sense in your "
+                f"world being: {quick_meaning} Then answer their message. "
+                "This holds even inside your world's own word measure: the "
+                "offer is one short sentence of it, never dropped for "
+                "compression. One offer only; do not stack a second, and do "
+                f"not turn the offer into a lecture on {display}."
+            ),
+        }
+    return None
+
+
+def classify_round_register(state: ConversationState,
+                            spoken_this_round: list[str],
+                            participant_message: str) -> dict | None:
+    """S4.7 (Pass 1 §6.5): mode-dominance's first mechanism. One Haiku
+    call per round classifying each speaking world's register this round
+    (the six modes Facilitator Governance already enumerates: precision,
+    argument, certainty, abstraction, image, silence) against the
+    participant's own discerned register. The output is SELECTOR INPUT
+    only (state.register_note via the register_observed event) - the
+    correction is the selector calling the absent register, never a
+    spoken intervention."""
+    if len(spoken_this_round) < 2:
+        return None
+    world_ids = state.world_ids if len(state.world_ids) > 0 else [state.world_id]
+    name_to_world = {get_representative_message_name(wid): wid
+                     for wid in world_ids}
+    round_turns = []
+    for msg in reversed(state.messages):
+        name = getattr(msg, "name", None)
+        if name in name_to_world:
+            round_turns.append((name, str(msg.content)[:800]))
+        if len(round_turns) >= len(spoken_this_round):
+            break
+    round_turns.reverse()
+    if not round_turns:
+        return None
+    block = "\n\n".join(f"{n}: {c}" for n, c in round_turns)
+
+    prompt = (
+        "Classify registers at a table of historical voices. The six modes: "
+        "precision, argument, certainty, abstraction, image, silence.\n\n"
+        f"The participant's message this round:\n\"{participant_message[:600]}\"\n\n"
+        f"The representatives' turns:\n{block}\n\n"
+        "Respond in exactly this format (one MODE line per speaker named "
+        "above, using the speaker names as given):\n"
+        "PARTICIPANT_REGISTER: <the mode the participant's own message most "
+        "asks to be met in>\n"
+        "MODE <speaker-name>: <that speaker's dominant mode this round>\n"
+        "ABSENT: <the one mode from the six most conspicuously missing from "
+        "the round given the participant's register, or NONE>"
+    )
+    llm = get_monitoring_llm()
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        log_llm_usage("register_classification", response,
+                      _MONITORING_MODEL, session_id=state.session_id)
+        result = (response.content or "").strip()
+    except Exception:
+        return None
+    participant_register, modes, absent = None, {}, None
+    for line in result.splitlines():
+        line = line.strip()
+        if line.upper().startswith("PARTICIPANT_REGISTER:"):
+            participant_register = line.split(":", 1)[1].strip().lower()
+        elif line.upper().startswith("MODE "):
+            rest = line[5:]
+            if ":" in rest:
+                who, mode = rest.split(":", 1)
+                wid = name_to_world.get(who.strip())
+                if wid:
+                    modes[wid] = mode.strip().lower()
+        elif line.upper().startswith("ABSENT:"):
+            v = line.split(":", 1)[1].strip().lower()
+            absent = None if v == "none" else v
+    if not modes:
+        return None
+    return {"participant_register": participant_register,
+            "modes": modes, "absent": absent}

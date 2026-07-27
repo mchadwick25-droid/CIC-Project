@@ -58,6 +58,10 @@ class PreTurnOutcome:
     # S4.6: the repair intercept's outcome - None, or the selected
     # hold/concede strategy for the challenged Representative's turn
     repair: dict | None = None
+    # S4.7: the restricted-offer grounding plan (Pass 1 §6.4) - None, or
+    # {"term", "directive"} for the answering turn; repair takes the one
+    # directive slot when both exist
+    grounding_offer: dict | None = None
 
     @property
     def higher_intercept(self) -> bool:
@@ -172,6 +176,15 @@ async def classify_pre_turn(
         out.repair = run_repair_intercept(message, last_rep_world_id,
                                           last_rep_text)
 
+    # S4.7 (Pass 1 §6.4): the restricted-offer grounding plan -
+    # deterministic, zero LLM calls; computed only when the turn is
+    # otherwise ordinary and repair has not claimed the directive slot
+    if (not out.higher_intercept and out.closing_turns is None
+            and state.closing_stage == "none"
+            and not out.is_modern_term_bridge and out.repair is None):
+        from app.graph.nodes import plan_restricted_offer
+        out.grounding_offer = plan_restricted_offer(state, message)
+
     out.should_check_wind_down = (
         include_closing
         and not out.higher_intercept and out.closing_turns is None
@@ -217,10 +230,13 @@ def run_table_checks(state, working_messages, spoken_this_round,
     finding but the last."""
     from app.graph.state import ConversationState
     from app.graph.nodes import (
+        check_closing_synthesis,
         check_convergence,
         check_cross_world_vocabulary_drift,
         check_dominance,
         check_length_ceiling,
+        check_manufactured_resolution,
+        check_misattribution,
         check_question_stacking,
     )
 
@@ -230,9 +246,16 @@ def run_table_checks(state, working_messages, spoken_this_round,
         world_ids=world_ids,
     )
     signals, guidance_items = [], []
+    # S4.7: the table-check suite grows from five to eight - the
+    # convergence split's second half (manufactured_resolution), the
+    # misattribution check, and the closing-speaker rule's detection half
+    # (closing_synthesis) join per Pass 1 §6.5
     for signal in (
         check_dominance(check_state)
         + check_convergence(check_state, spoken_this_round)
+        + check_manufactured_resolution(check_state, spoken_this_round)
+        + check_closing_synthesis(check_state, spoken_this_round)
+        + check_misattribution(check_state, spoken_this_round)
         + check_cross_world_vocabulary_drift(check_state, spoken_this_round)
         + check_length_ceiling(check_state, spoken_this_round)
         + check_question_stacking(check_state, spoken_this_round)
@@ -321,6 +344,15 @@ def run_post_round_governance(
                 "world_id": wid,
                 "entry": {"signal_type": stype, "severity": sev,
                           "text": text}}))
+
+        # S4.7 (Pass 1 §6.5): the mode-register observation - selector
+        # input for the NEXT round, computed once per multi-world round
+        if is_multi_world and turns_completed >= 2:
+            from app.graph.nodes import classify_round_register
+            reg = classify_round_register(state, spoken_this_round, message)
+            if reg is not None:
+                tail_events.append(("register_observed", reg))
+
         if tail_events and EVENT_STORE.has(session_id):
             EVENT_STORE.append_many(session_id, tail_events)
     except Exception:
