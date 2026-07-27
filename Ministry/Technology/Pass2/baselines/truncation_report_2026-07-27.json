@@ -1,0 +1,226 @@
+{
+  "max_seq_length": 256,
+  "worlds": {
+    "post-apostolic-house-church": {
+      "lexicon.current": {
+        "n": 13,
+        "median": 634,
+        "p90": 834,
+        "max": 919,
+        "truncated_over_256": 11,
+        "truncation_rate": 0.846
+      },
+      "lexicon.r1": {
+        "n": 13,
+        "median": 103,
+        "p90": 128,
+        "max": 133,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      },
+      "story.current": {
+        "n": 13,
+        "median": 619,
+        "p90": 800,
+        "max": 810,
+        "truncated_over_256": 13,
+        "truncation_rate": 1.0
+      },
+      "story.r1": {
+        "n": 13,
+        "median": 72,
+        "p90": 91,
+        "max": 94,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    },
+    "syriac-edessa-nisibis": {
+      "lexicon.current": {
+        "n": 10,
+        "median": 813,
+        "p90": 1152,
+        "max": 1185,
+        "truncated_over_256": 8,
+        "truncation_rate": 0.8
+      },
+      "lexicon.r1": {
+        "n": 10,
+        "median": 174,
+        "p90": 205,
+        "max": 211,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      },
+      "story.current": {
+        "n": 9,
+        "median": 610,
+        "p90": 825,
+        "max": 874,
+        "truncated_over_256": 9,
+        "truncation_rate": 1.0
+      },
+      "story.r1": {
+        "n": 9,
+        "median": 69,
+        "p90": 78,
+        "max": 79,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    },
+    "desert-monasticism": {
+      "lexicon.current": {
+        "n": 9,
+        "median": 448,
+        "p90": 516,
+        "max": 525,
+        "truncated_over_256": 9,
+        "truncation_rate": 1.0
+      },
+      "lexicon.r1": {
+        "n": 9,
+        "median": 78,
+        "p90": 100,
+        "max": 101,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      },
+      "story.current": {
+        "n": 8,
+        "median": 450,
+        "p90": 508,
+        "max": 610,
+        "truncated_over_256": 8,
+        "truncation_rate": 1.0
+      },
+      "story.r1": {
+        "n": 8,
+        "median": 86,
+        "p90": 88,
+        "max": 95,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    },
+    "hieronymian-ascetic-literary": {
+      "lexicon.current": {
+        "n": 15,
+        "median": 380,
+        "p90": 538,
+        "max": 644,
+        "truncated_over_256": 14,
+        "truncation_rate": 0.933
+      },
+      "lexicon.r1": {
+        "n": 15,
+        "median": 93,
+        "p90": 122,
+        "max": 122,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      },
+      "story.current": {
+        "n": 12,
+        "median": 290,
+        "p90": 362,
+        "max": 367,
+        "truncated_over_256": 10,
+        "truncation_rate": 0.833
+      },
+      "story.r1": {
+        "n": 12,
+        "median": 46,
+        "p90": 56,
+        "max": 57,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    },
+    "alexandria-catechetical": {
+      "lexicon.current": {
+        "n": 45,
+        "median": 1531,
+        "p90": 1966,
+        "max": 2143,
+        "truncated_over_256": 45,
+        "truncation_rate": 1.0
+      },
+      "lexicon.r1": {
+        "n": 45,
+        "median": 217,
+        "p90": 248,
+        "max": 270,
+        "truncated_over_256": 2,
+        "truncation_rate": 0.044
+      },
+      "story.current": {
+        "n": 10,
+        "median": 544,
+        "p90": 596,
+        "max": 628,
+        "truncated_over_256": 10,
+        "truncation_rate": 1.0
+      },
+      "story.r1": {
+        "n": 10,
+        "median": 60,
+        "p90": 70,
+        "max": 71,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    },
+    "imperial-juridical-christianity": {
+      "lexicon.current": {
+        "n": 12,
+        "median": 480,
+        "p90": 1144,
+        "max": 1227,
+        "truncated_over_256": 10,
+        "truncation_rate": 0.833
+      },
+      "lexicon.r1": {
+        "n": 12,
+        "median": 113,
+        "p90": 173,
+        "max": 173,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      },
+      "story.current": {
+        "n": 6,
+        "median": 506,
+        "p90": 675,
+        "max": 749,
+        "truncated_over_256": 6,
+        "truncation_rate": 1.0
+      },
+      "story.r1": {
+        "n": 6,
+        "median": 48,
+        "p90": 55,
+        "max": 66,
+        "truncated_over_256": 0,
+        "truncation_rate": 0.0
+      }
+    }
+  },
+  "total.current": {
+    "n": 162,
+    "median": 610,
+    "p90": 1635,
+    "max": 2143,
+    "truncated_over_256": 153,
+    "truncation_rate": 0.944
+  },
+  "total.r1": {
+    "n": 162,
+    "median": 96,
+    "p90": 225,
+    "max": 270,
+    "truncated_over_256": 2,
+    "truncation_rate": 0.012
+  },
+  "n_files": 162
+}

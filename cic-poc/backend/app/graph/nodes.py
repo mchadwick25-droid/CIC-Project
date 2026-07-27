@@ -2718,7 +2718,10 @@ def _get_world_lexicon_terms(world_id: str) -> list[tuple[str, str]]:
         if not raw_term:
             continue
         for candidate in _extract_term_candidates(raw_term):
-            pairs.append((candidate, doc.page_content))
+            # S3.1: the disambiguation prompt needs the chunk body, which
+            # now rides in metadata["content"] (page_content is the
+            # retrieval surface)
+            pairs.append((candidate, doc.metadata.get("content", doc.page_content)))
     return pairs
 
 

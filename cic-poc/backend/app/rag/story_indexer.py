@@ -130,12 +130,13 @@ class StoryIndexer:
         documents = []
 
         for entry in entries:
+            # S3.1 / Pass 1 R1: embed the retrieval surface (title +
+            # Retrieve-When, which the embedder never saw before), keep the
+            # story body as payload in metadata["content"] - see
+            # indexer.py's create_documents for the measured rationale.
             searchable_text = f"""
 Story: {entry.story_title}
-Tier: {entry.tier}
-Confidence: {entry.confidence}
-
-{entry.content}
+Retrieve when: {entry.retrieve_when}
 """
 
             metadata = {
@@ -147,6 +148,7 @@ Confidence: {entry.confidence}
                 "do_not_retrieve_when": entry.do_not_retrieve_when,
                 "source_file": entry.source_file,
                 "force_llm_vote": entry.force_llm_vote,
+                "content": entry.content,
             }
 
             documents.append(Document(page_content=searchable_text, metadata=metadata))

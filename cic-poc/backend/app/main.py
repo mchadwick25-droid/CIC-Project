@@ -1485,42 +1485,6 @@ class LexiconResponse(BaseModel):
     terms: list[LexiconTerm]
 
 
-def _extract_quick_meaning(full_content: str, fallback_content: str) -> str:
-    """Extract a short tooltip-ready summary for a lexicon term.
-
-    Handles both the "## Quick Meaning" heading convention (Syriac/PAHC,
-    content follows on later lines) and the inline "**Quick Meaning:**"
-    bold-label convention (Desert Monasticism, content follows on the same
-    line). Falls back to a truncated snippet of the entry's own content
-    (its first real section) for files that have neither - a tooltip should
-    never show nothing just because a source file omitted this section.
-    """
-    for marker in ("## Quick Meaning", "**Quick Meaning:**", "**Quick Meaning**"):
-        if marker not in full_content:
-            continue
-
-        remaining = full_content.split(marker, 1)[1]
-        end_markers = ["\n---", "\n## ", "\n\n**"]
-        end_pos = len(remaining)
-        for end_marker in end_markers:
-            pos = remaining.find(end_marker)
-            if pos > 0 and pos < end_pos:
-                end_pos = pos
-
-        quick_meaning = remaining[:end_pos].strip().lstrip(":").strip()
-        if quick_meaning:
-            return quick_meaning
-
-    # No Quick Meaning section at all - fall back to a truncated snippet of
-    # the first real content section, so the tooltip isn't simply empty.
-    snippet = re.split(r"\n---|\n## |\n\*\*", fallback_content.strip(), maxsplit=1)[0]
-    snippet = snippet.strip()
-    if len(snippet) > 240:
-        truncated = snippet[:240].rsplit(" ", 1)[0]
-        snippet = truncated + "…"
-    return snippet
-
-
 @app.get("/api/lexicon", response_model=LexiconResponse)
 async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
     """
@@ -1542,11 +1506,12 @@ async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
 
     terms = []
     for file_path in sorted(lexicon_path.glob("*.md")):
-        # Read full file content to extract Quick Meaning
-        full_content = file_path.read_text(encoding="utf-8")
         entry = indexer.parse_lexicon_file(file_path)
 
-        quick_meaning = _extract_quick_meaning(full_content, entry.content)
+        # S3.1: the indexer now parses Quick Meaning itself (single
+        # parser - the parallel one here silently dropped the section
+        # for the fenced-front-matter worlds; see Pass 1 SS3.2)
+        quick_meaning = entry.quick_meaning
 
         terms.append(LexiconTerm(
             term=entry.term,

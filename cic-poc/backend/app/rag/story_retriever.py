@@ -186,7 +186,8 @@ class StoryRetriever:
             context_parts.append(f"### {title} (Tier {tier})\n")
             if confidence:
                 context_parts.append(f"Confidence: {confidence}\n")
-            context_parts.append(doc.page_content)
+            # S3.1: body from metadata["content"]; see retriever.py
+            context_parts.append(doc.metadata.get("content", doc.page_content))
             context_parts.append("\n---\n")
 
             if source:

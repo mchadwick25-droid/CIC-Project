@@ -28,6 +28,7 @@ class LexiconEntry:
     source_file: str
     key_sources: str
     force_llm_vote: bool = False
+    quick_meaning: str = ""
 
 
 class LexiconIndexer:
@@ -107,6 +108,32 @@ class LexiconIndexer:
 
         return ""
 
+    def parse_quick_meaning(self, content: str, fallback: str) -> str:
+        """Extract the Quick Meaning section (S3.1 / Pass 1 R1).
+
+        Handles both the "## Quick Meaning" heading convention (fenced
+        front-matter worlds - the convention the old parallel parser in
+        main.py silently dropped for 4 of 6 worlds) and the inline
+        "**Quick Meaning:**" bold-label convention. Falls back to a
+        truncated snippet of the entry's own content so the field is
+        never empty (same contract main.py's tooltip needs).
+        """
+        for marker in ("## Quick Meaning", "**Quick Meaning:**",
+                       "**Quick Meaning**"):
+            if marker not in content:
+                continue
+            remaining = content.split(marker, 1)[1]
+            end_pos = len(remaining)
+            for end_marker in ("\n---", "\n## ", "\n\n**"):
+                pos = remaining.find(end_marker)
+                if 0 < pos < end_pos:
+                    end_pos = pos
+            text = remaining[:end_pos].strip().lstrip(":").strip()
+            if text:
+                return text
+        snippet = " ".join(fallback.split())
+        return snippet[:220].rsplit(" ", 1)[0] + "…" if len(snippet) > 220 else snippet
+
     def parse_lexicon_file(self, file_path: Path) -> LexiconEntry:
         """Parse a single lexicon file into a LexiconEntry."""
         content = file_path.read_text(encoding="utf-8")
@@ -163,6 +190,7 @@ class LexiconIndexer:
 
         tier_raw = front_matter.get("tier", "1").strip("[]").strip()
 
+        main_content = main_content.strip()
         return LexiconEntry(
             term=front_matter.get("term", ""),
             world_code=front_matter.get("world_code", "syr"),
@@ -172,10 +200,11 @@ class LexiconIndexer:
             related_terms=parse_list(front_matter.get("related_terms", "")),
             retrieve_when=front_matter.get("retrieve_when", ""),
             do_not_retrieve_when=front_matter.get("do_not_retrieve_when", ""),
-            content=main_content.strip(),
+            content=main_content,
             source_file=file_path.name,
             key_sources=key_sources,
             force_llm_vote=front_matter.get("force_llm_vote", "").strip().lower().startswith("true"),
+            quick_meaning=self.parse_quick_meaning(content, main_content),
         )
 
     def create_documents(self, entries: list[LexiconEntry]) -> list[Document]:
@@ -183,13 +212,20 @@ class LexiconIndexer:
         documents = []
 
         for entry in entries:
-            # Create searchable text combining term, aliases, and content
+            # S3.1 / Pass 1 R1: embed the RETRIEVAL SURFACE - the fields
+            # authors actually write for retrieval - not the chunk body.
+            # Before this change the body was embedded and the model's
+            # 256-token window truncated 94.4% of all 162 chunks (measured:
+            # truncation_report_2026-07-27.json; the R1 surface maxes at
+            # ~183 tokens, zero truncation). Retrieve-When enters the
+            # embedded text for the first time. The body stays as payload
+            # in metadata["content"] - consumers read it from there.
             searchable_text = f"""
 Term: {entry.term}
 Aliases: {', '.join(entry.aliases)}
 Related: {', '.join(entry.related_terms)}
-
-{entry.content}
+Retrieve when: {entry.retrieve_when}
+Quick meaning: {entry.quick_meaning}
 """
 
             metadata = {
@@ -203,6 +239,8 @@ Related: {', '.join(entry.related_terms)}
                 "source_file": entry.source_file,
                 "key_sources": entry.key_sources,
                 "force_llm_vote": entry.force_llm_vote,
+                "quick_meaning": entry.quick_meaning,
+                "content": entry.content,
             }
 
             documents.append(Document(page_content=searchable_text, metadata=metadata))

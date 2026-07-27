@@ -218,7 +218,10 @@ class LexiconRetriever:
         for doc in result.documents:
             term = doc.metadata.get("term", "Unknown")
             context_parts.append(f"### {term}\n")
-            context_parts.append(doc.page_content)
+            # S3.1: page_content is now the retrieval surface; the chunk
+            # body rides in metadata["content"] (fallback keeps old
+            # indexes readable until every store is rebuilt)
+            context_parts.append(doc.metadata.get("content", doc.page_content))
             context_parts.append("\n---\n")
 
             key_sources = doc.metadata.get("key_sources", "")
