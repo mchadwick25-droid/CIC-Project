@@ -1,0 +1,7 @@
+{"masked_id": "case-65", "case_id": "O3-conviction-held", "expected": "CLEARED"}
+{"masked_id": "case-88", "case_id": "F1-misattributed-jug", "expected": "FABRICATED_INTRINSIC"}
+{"masked_id": "case-14", "case_id": "F2-invented-lamp", "expected": "FABRICATED_EXTRINSIC"}
+{"masked_id": "case-99", "case_id": "O1-office-flattened", "expected": "OVER_SETTLED"}
+{"masked_id": "case-74", "case_id": "O2-procedure-as-known", "expected": "OVER_SETTLED"}
+{"masked_id": "case-97", "case_id": "F4-bare-he-attested", "expected": "GROUNDED"}
+{"masked_id": "case-64", "case_id": "F3-jug-grounded", "expected": "GROUNDED"}

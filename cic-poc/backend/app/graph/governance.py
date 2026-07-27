@@ -151,12 +151,40 @@ async def classify_pre_turn(
     return out
 
 
+def queue_guidance(pending: dict, world_id: str, signal_type: str,
+                   severity: str, text: str) -> dict:
+    """S4.3 (Pass 1 §6.5): THE one gate every guidance writer goes
+    through. Each world's slot is a priority queue kept sorted by the one
+    signal ordering (nodes.signal_rank - the same ordering the monitor's
+    one-finding-per-turn slot uses, extended to the table signals), so
+    contention is decided by governance priority instead of by statement
+    order in a background block - the old last-writer-wins string slot
+    could cost a fabrication its slot to a stylistic complaint.
+
+    A newer entry of the same signal_type supersedes the older one (the
+    correction for a defect class goes stale the moment a fresher finding
+    of that class exists); different types coexist in priority order and
+    are delivered one per turn, so nothing is silently dropped anymore.
+    Pure function: returns a new dict, mutates nothing (the caller
+    appends the matching guidance_queued event)."""
+    from app.graph.nodes import signal_rank
+
+    entries = [e for e in (pending.get(world_id) or [])
+               if e["signal_type"] != signal_type]
+    entries.append({"signal_type": signal_type, "severity": severity,
+                    "text": text})
+    entries.sort(key=lambda e: signal_rank(e["signal_type"], e["severity"]))
+    return {**pending, world_id: entries}
+
+
 def run_table_checks(state, working_messages, spoken_this_round,
-                     world_id, world_ids) -> tuple[list, dict]:
-    """The five per-round table checks. Returns (signals, guidance) where
-    guidance maps world_id -> correction text for medium/high findings -
-    one string per world (latest wins), exactly the streaming path's
-    queueing rule."""
+                     world_id, world_ids) -> tuple[list, list]:
+    """The five per-round table checks. Returns (signals, guidance_items)
+    where guidance_items is a list of (world_id, signal_type, severity,
+    text) for every medium/high finding with a world - S4.3: ALL of them
+    are handed to the queue_guidance gate by the caller, replacing the
+    old one-string-per-world latest-wins dict that silently dropped every
+    finding but the last."""
     from app.graph.state import ConversationState
     from app.graph.nodes import (
         check_convergence,
@@ -171,7 +199,7 @@ def run_table_checks(state, working_messages, spoken_this_round,
         world_id=world_id,
         world_ids=world_ids,
     )
-    signals, guidance = [], {}
+    signals, guidance_items = [], []
     for signal in (
         check_dominance(check_state)
         + check_convergence(check_state, spoken_this_round)
@@ -181,8 +209,9 @@ def run_table_checks(state, working_messages, spoken_this_round,
     ):
         signals.append(signal)
         if signal.world_id and signal.severity in ("medium", "high"):
-            guidance[signal.world_id] = signal.description
-    return signals, guidance
+            guidance_items.append((signal.world_id, signal.signal_type,
+                                   signal.severity, signal.description))
+    return signals, guidance_items
 
 
 def run_post_round_governance(
@@ -221,13 +250,16 @@ def run_post_round_governance(
         )
 
         new_drift_signals: list = []
-        new_pending_guidance: dict[str, str] = {}
+        # S4.3: every guidance writer goes through the queue_guidance
+        # gate - (world_id, signal_type, severity, text) items, ordered
+        # by the one signal ranking, nothing dropped by statement order
+        guidance_items: list[tuple[str, str, str, str]] = []
         if is_multi_world and turns_completed >= 1:
-            signals, guidance = run_table_checks(
+            signals, table_items = run_table_checks(
                 state, working_messages, spoken_this_round,
                 state.world_id, state.world_ids)
             new_drift_signals.extend(signals)
-            new_pending_guidance.update(guidance)
+            guidance_items.extend(table_items)
 
         round_turns = (working_messages[-turns_completed:]
                        if turns_completed else [])
@@ -244,7 +276,9 @@ def run_post_round_governance(
                 continue
             new_drift_signals.append(signal)
             if signal.severity in ("medium", "high"):
-                new_pending_guidance[msg_world_id] = generate_reroot_guidance(signal)
+                guidance_items.append((msg_world_id, signal.signal_type,
+                                       signal.severity,
+                                       generate_reroot_guidance(signal)))
 
         tail_events: list[tuple[str, dict]] = []
         if new_drift_signals:
@@ -252,9 +286,11 @@ def run_post_round_governance(
                 {"signal_type": s.signal_type, "description": s.description,
                  "severity": s.severity, "world_id": s.world_id}
                 for s in new_drift_signals]}))
-        if new_pending_guidance:
-            tail_events.append(("guidance_queued",
-                                {"guidance": new_pending_guidance}))
+        for wid, stype, sev, text in guidance_items:
+            tail_events.append(("guidance_queued", {
+                "world_id": wid,
+                "entry": {"signal_type": stype, "severity": sev,
+                          "text": text}}))
         if tail_events and EVENT_STORE.has(session_id):
             EVENT_STORE.append_many(session_id, tail_events)
     except Exception:

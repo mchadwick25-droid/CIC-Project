@@ -738,17 +738,23 @@ async def send_message(session_id: str, request: SendMessageRequest):
     # turns only, fail-open like all invisible governance
     if state.world_ids and len(state.world_ids) > 1:
         try:
-            signals, guidance = governance.run_table_checks(
+            signals, guidance_items = governance.run_table_checks(
                 state, list(state.messages), responding_worlds,
                 state.world_id, state.world_ids)
             state.drift_signals = list(state.drift_signals) + signals
-            state.pending_guidance = {**state.pending_guidance, **guidance}
             table_events: list[tuple[str, dict]] = []
             if signals:
                 table_events.append(("drift_signals_appended", {
                     "signals": [_serialize_drift_signal(s) for s in signals]}))
-            if guidance:
-                table_events.append(("guidance_queued", {"guidance": guidance}))
+            # S4.3: every finding goes through the one guidance gate -
+            # priority-ordered per world, nothing lost to statement order
+            for wid, stype, sev, text in guidance_items:
+                state.pending_guidance = governance.queue_guidance(
+                    state.pending_guidance, wid, stype, sev, text)
+                table_events.append(("guidance_queued", {
+                    "world_id": wid,
+                    "entry": {"signal_type": stype, "severity": sev,
+                              "text": text}}))
             if table_events:
                 EVENT_STORE.append_many(session_id, table_events)
         except Exception:
@@ -1181,13 +1187,28 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                         break
                     world_id = state.world_id
 
-                # Pop (consume) any dominance/convergence guidance waiting for
-                # this specific representative from an earlier round - once
-                # delivered, it shouldn't repeat on every future turn.
-                guidance_for_speaker = state.pending_guidance.pop(world_id, None)
-                if guidance_for_speaker is not None:
+                # Pop (consume) the highest-priority guidance entry waiting
+                # for this specific representative from an earlier round -
+                # once delivered, it shouldn't repeat on every future turn.
+                # S4.3: the slot is a priority queue; one entry is delivered
+                # per turn and the rest stay queued (nothing is silently
+                # dropped by contention anymore - see governance.queue_guidance).
+                guidance_entry = None
+                _queue = list(state.pending_guidance.get(world_id) or [])
+                if _queue:
+                    guidance_entry = _queue.pop(0)
+                    if _queue:
+                        state.pending_guidance = {**state.pending_guidance,
+                                                  world_id: _queue}
+                    else:
+                        state.pending_guidance = {
+                            k: v for k, v in state.pending_guidance.items()
+                            if k != world_id}
                     EVENT_STORE.append(session_id, "guidance_consumed",
-                                       {"world_id": world_id})
+                                       {"world_id": world_id,
+                                        "signal_type": guidance_entry["signal_type"]})
+                guidance_for_speaker = (guidance_entry["text"]
+                                        if guidance_entry else None)
 
                 working_state = ConversationState(
                     messages=working_messages,
@@ -1197,7 +1218,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
                     turn_count=state.turn_count,
                     drift_signals=list(state.drift_signals),
                     requires_reroot=state.requires_reroot,
-                    pending_guidance={world_id: guidance_for_speaker} if guidance_for_speaker else {},
+                    pending_guidance={world_id: [guidance_entry]} if guidance_entry else {},
                     retrieved_context=state.retrieved_context,
                     worlds_at_table=state.worlds_at_table,
                     world_capsule_core=state.world_capsule_core,

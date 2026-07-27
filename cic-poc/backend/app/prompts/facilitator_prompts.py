@@ -200,19 +200,25 @@ Judge only the specific content the first pass flagged. Do not re-open other que
 ## What the first pass flagged
 {stage1_description}
 
+A fabrication verdict comes in two kinds, and the difference decides how severe the finding is and how it gets corrected - so name which one you are giving:
+
+- FABRICATED_INTRINSIC - the material CONTRADICTS the flagged claim. The record attributes the saying, incident, or detail to someone or something else, or the permanent prompt/capsule settle the matter the other way. A misattributed real name is the clearest case, and note carefully what it looks like from where you sit: the response tells a saying or scene the material DOES carry, under the WRONG figure's name. That is contradiction - the material settles who this content belongs to - not mere absence of support, even though the named figure themselves may appear nowhere in the material. Before settling on extrinsic, check whether the content itself (the scene, the saying, the image) matches something the material attributes to someone else; if it does, the verdict is intrinsic. This verdict is settled and severe, and it carries an affirmative test: you must be able to point at the place in the material that contradicts the claim - for a misattribution, the place that names the true bearer. If you cannot point at it, the verdict is not intrinsic.
+- FABRICATED_EXTRINSIC - nothing in the material SUPPORTS the flagged claim. An invented person, scene, or specific with no basis either way. This verdict is provisional by its nature: the retrieved section is fetched fresh and may have missed the chunk the response drew on, so "unsupported" is a weaker fact than "contradicted."
+
 Respond in exactly one of these formats:
 
 GROUNDED
 Reason: <one sentence naming where in the material above the flagged content is supported>
 
-FABRICATED
-Reason: <one sentence naming the specific unsupported or misattributed claim>
+FABRICATED_INTRINSIC
+Reason: <one sentence naming the specific claim and where the material contradicts it>
+
+FABRICATED_EXTRINSIC
+Reason: <one sentence naming the specific unsupported claim>
 
 The material above is all three sources FABRICATION is defined against: the permanent prompt and capsule are complete and are everything this representative always carries; the retrieved section, however, is retrieved fresh against the response and may not surface every chunk the response actually drew on. So silence in the permanent prompt and capsule is meaningful, but silence in the retrieved section alone is not proof of absence.
 
-Answer FABRICATED when the response asserts a specific, checkable claim that the material contradicts or clearly cannot support - a misattributed real name is the clearest such case, since the permanent prompt and capsule are complete enough to settle who this world attributes what to.
-
-When genuinely uncertain, answer FABRICATED and let the finding stand. The two errors are not symmetrical. A false FABRICATION queues an invisible re-anchoring note into the representative's next turn - observed live, the turn after a false flag simply carried more attribution, which is a mild and self-correcting cost. A missed fabrication is the cardinal sin of this system (Facilitator Governance Section 11): a real author cited for something they did not say, delivered to a participant as witness. Uncertainty is not a reason to clear the more serious failure."""
+When genuinely uncertain between GROUNDED and a fabrication verdict, answer FABRICATED_EXTRINSIC and let the finding stand. The two errors are not symmetrical. A false FABRICATION queues an invisible re-anchoring note into the representative's next turn - observed live, the turn after a false flag simply carried more attribution, which is a mild and self-correcting cost. A missed fabrication is the cardinal sin of this system (Facilitator Governance Section 11): a real author cited for something they did not say, delivered to a participant as witness. Uncertainty is not a reason to clear the more serious failure. But uncertainty IS a reason to keep the verdict extrinsic: intrinsic requires the affirmative pointing test above, never a suspicion."""
 
 
 OVER_SETTLING_SCREEN_PROMPT = """You are screening one representative's turn for OVER_SETTLING - a claim spoken without the limit its own world's record puts on it.

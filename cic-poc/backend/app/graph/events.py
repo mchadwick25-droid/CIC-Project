@@ -210,11 +210,28 @@ def project(session_id: str, events: list[Event]) -> ConversationState:
             state.drift_signals = list(state.drift_signals) + [
                 DriftSignal(**s) for s in p["signals"]]
         elif t == "guidance_queued":
-            state.pending_guidance = {**state.pending_guidance,
-                                      **p["guidance"]}
+            # S4.3 payload shape: {world_id, entry:{signal_type, severity,
+            # text}} folded through THE gate (governance.queue_guidance),
+            # so the projection and the live writers share one ordering.
+            # No committed event log carries the older S4.2 dict-merge
+            # shape (verified at S4.3: no guidance events exist in any
+            # committed JSONL), so no legacy fold is kept.
+            from app.graph.governance import queue_guidance
+            e = p["entry"]
+            state.pending_guidance = queue_guidance(
+                state.pending_guidance, p["world_id"], e["signal_type"],
+                e["severity"], e["text"])
         elif t == "guidance_consumed":
+            # pops the highest-priority entry (the head of the sorted
+            # queue) for the world; drops the key once the queue is empty
             new = dict(state.pending_guidance)
-            new.pop(p["world_id"], None)
+            entries = list(new.get(p["world_id"]) or [])
+            if entries:
+                entries.pop(0)
+            if entries:
+                new[p["world_id"]] = entries
+            else:
+                new.pop(p["world_id"], None)
             state.pending_guidance = new
         elif t == "chunks_surfaced":
             seen = state.surfaced_chunk_ids.setdefault(p["world_id"], [])

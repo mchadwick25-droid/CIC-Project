@@ -11,6 +11,9 @@ from langchain_core.messages import BaseMessage
 class DriftSignal:
     """A detected drift signal in the representative's response."""
 
+    # S4.3 (Pass 1 §6.5): ALL emitted types declared - over_settling and
+    # self_narration were emitted by the monitor path but absent here,
+    # exactly the two most governance-critical of the set. 17 total.
     signal_type: Literal[
         "smoothing",
         "generating",
@@ -22,6 +25,8 @@ class DriftSignal:
         "apologetics",
         "first_person",
         "anachronism",
+        "self_narration",
+        "over_settling",
         "dominance",
         "convergence",
         "cross_world_vocabulary",
@@ -88,11 +93,17 @@ class ConversationState:
     requires_reroot: bool = False
 
     # Per-representative course-correction guidance awaiting delivery, keyed
-    # by world_id - populated by dominance/convergence checks after a
-    # multi-representative round, consumed (and cleared) the next time that
-    # representative speaks. Kept separate from requires_reroot/drift_signals
-    # because those are global to "whoever spoke last," not per-representative.
-    pending_guidance: dict[str, str] = field(default_factory=dict)
+    # by world_id. S4.3 (Pass 1 §6.5): each world's slot is now a PRIORITY
+    # QUEUE (a list of {signal_type, severity, text} entries, kept sorted by
+    # the one signal ordering in nodes.py) instead of a single last-writer-
+    # wins string - the old shape structurally deprioritized exactly the
+    # multi-party table signals, purely by statement order in a background
+    # block. Every writer goes through governance.queue_guidance (the one
+    # gate); the consumer delivers the highest-priority entry per turn and
+    # keeps the rest queued. Kept separate from requires_reroot/
+    # drift_signals because those are global to "whoever spoke last," not
+    # per-representative.
+    pending_guidance: dict[str, list[dict]] = field(default_factory=dict)
 
     # S3.5 (Pass 1 R9): a standalone retrieval query supplied by an
     # intercept for the NEXT representative turn, consumed once. The

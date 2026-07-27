@@ -1030,8 +1030,11 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     # monitoring). Routed through pending_guidance, keyed by world_id, so
     # correction reaches only the representative who actually drifted - not
     # whoever happens to speak next in the round, regardless of who the
-    # finding was about.
-    reroot_guidance = state.pending_guidance.get(current_world_id, "")
+    # finding was about. S4.3: the slot is a priority queue; this turn
+    # delivers the highest-priority entry (the queue is kept sorted by
+    # the one signal ordering - see governance.queue_guidance).
+    _queued = state.pending_guidance.get(current_world_id) or []
+    reroot_guidance = _queued[0]["text"] if _queued else ""
 
     # Falls back to the older global requires_reroot/drift_signals[-1]
     # mechanism only when nothing is queued in pending_guidance for this
@@ -1557,19 +1560,41 @@ def multi_representative_engages(state: ConversationState, request_id: str | Non
     }
 
 
-# Which finding a turn reports when the monitor returns several. Severity
-# decides first; this breaks ties. Ordered by what the governance treats as
-# most serious rather than by how the prompt happens to list them:
-# FABRICATION is the cardinal failure (Facilitator Governance Section 11),
-# SELF_NARRATION is governed more strictly than the rest (Article 28), and the
-# stance/shape signals sit below the ones that put something untrue or
-# out-of-world in front of a participant.
-_MONITOR_SIGNAL_PRIORITY: list[str] = [
+# Which finding wins when several compete for one slot. Severity decides
+# first; this breaks ties. S4.3 (Pass 1 §6.5): ONE ordering now governs
+# BOTH single-slot bottlenecks - the monitor's one-finding-per-turn slot
+# (_select_monitor_finding, below) and the per-world guidance queue
+# (governance.queue_guidance) - extended to the five table signals, which
+# the old per-world guidance slot deprioritized purely by statement order
+# in a background block. Ordered by what the governance treats as most
+# serious rather than by how any prompt happens to list them:
+# FABRICATION is the cardinal failure (Facilitator Governance Section 11) -
+# its intrinsic/extrinsic verdicts rank via severity, high vs medium;
+# SELF_NARRATION is governed more strictly than the rest (Article 28);
+# then the signals that put something untrue or out-of-world in front of
+# a participant; then the cross-world identity/agreement signals
+# (vocabulary drift, manufactured convergence - the multi-party class the
+# old slot structurally lost); then stance; then shape.
+_SIGNAL_PRIORITY: list[str] = [
     "fabrication", "self_narration", "first_person", "temporal_bleed",
-    "anachronism", "over_settling", "apologetics", "smoothing",
-    "flattening", "agreeing", "generating", "over_producing",
+    "anachronism", "over_settling", "cross_world_vocabulary",
+    "convergence", "apologetics", "smoothing", "flattening", "agreeing",
+    "dominance", "generating", "over_producing", "length_ceiling",
+    "question_stacking",
 ]
+# kept as an alias: the monitor bottleneck's historical name for the list
+_MONITOR_SIGNAL_PRIORITY = _SIGNAL_PRIORITY
 _SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
+
+
+def signal_rank(signal_type: str, severity: str) -> tuple[int, int]:
+    """The one ordering, as a sortable key - shared by both bottlenecks
+    (Pass 1 §6.5's 'one ordering governs both')."""
+    priority = next(
+        (i for i, s in enumerate(_SIGNAL_PRIORITY) if s in signal_type),
+        len(_SIGNAL_PRIORITY),
+    )
+    return _SEVERITY_RANK.get(severity, 2), priority
 
 
 def _select_monitor_finding(
@@ -1589,11 +1614,7 @@ def _select_monitor_finding(
     """
     def rank(f: tuple[str, str, str]) -> tuple[int, int]:
         signal_type, severity, _ = f
-        priority = next(
-            (i for i, s in enumerate(_MONITOR_SIGNAL_PRIORITY) if s in signal_type),
-            len(_MONITOR_SIGNAL_PRIORITY),
-        )
-        return _SEVERITY_RANK.get(severity, 2), priority
+        return signal_rank(signal_type, severity)
 
     return min(findings, key=rank)
 
@@ -1710,8 +1731,29 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     # turns never pay for it.
     if signal_type == "fabrication" and world_id:
         verdict = _adjudicate_fabrication(response_text, world_id, description)
-        if verdict is False:
+        if verdict is None:
+            # could not adjudicate - stage 1's finding stands unlabeled,
+            # at stage 1's own severity (fail-open toward keeping it)
+            pass
+        elif verdict[0] == "grounded":
             return None
+        else:
+            # S4.3 (Pass 1 §6.3): the FABRICATED verdict is split.
+            # INTRINSIC - the material contradicts the claim (the record
+            # attributes it differently, or the permanent prompt/capsule
+            # settle it the other way): settled, severe -> high.
+            # EXTRINSIC - nothing in the material supports the claim:
+            # provisional (fresh retrieval may simply have missed the
+            # chunk, the prompt's own evidentiary caution) -> medium.
+            # The adjudicator's own prompt already drew this distinction
+            # in prose and discarded it in its output format; now the
+            # output format carries it, the two verdicts take different
+            # severities in the one priority ordering, and different
+            # SELECTED corrective strategies (generate_reroot_guidance).
+            kind, reason = verdict
+            severity = "high" if kind == "intrinsic" else "medium"
+            description = (f"{description}\n\nAdjudication: {kind} - "
+                           f"{reason}")
 
     return DriftSignal(
         signal_type=signal_type,
@@ -1723,13 +1765,18 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
 
 def _adjudicate_fabrication(
     response_text: str, world_id: str, stage1_description: str
-) -> bool | None:
+) -> tuple[str, str] | None:
     """
     Second-stage FABRICATION check, WITH the sources stage 1 is denied.
 
-    Returns True (fabrication confirmed), False (grounded - drop the signal),
-    or None (could not adjudicate; caller keeps stage 1's finding rather than
-    silently clearing a real one).
+    Returns a (verdict, reason) tuple - verdict one of "grounded" (drop
+    the signal), "intrinsic" (the material CONTRADICTS the claim: settled,
+    severe), "extrinsic" (the material cannot SUPPORT the claim:
+    provisional) - or None (could not adjudicate; caller keeps stage 1's
+    finding rather than silently clearing a real one). The
+    intrinsic/extrinsic split is S4.3 (Pass 1 §6.3): the adjudicator's
+    prose already drew the distinction and its old output format
+    ("FABRICATED", bare) discarded it.
 
     Fails open toward keeping the signal: if the capsule can't be read, the
     retrievers error, or the model's verdict is unparseable, the stage 1
@@ -1759,10 +1806,24 @@ def _adjudicate_fabrication(
     except Exception:
         return None
 
+    def _reason(text: str) -> str:
+        for line in text.split("\n"):
+            if line.strip().startswith("Reason:"):
+                return line.split(":", 1)[1].strip()
+        return ""
+
     if result.startswith("GROUNDED"):
-        return False
+        return ("grounded", _reason(result))
+    if result.startswith("FABRICATED_INTRINSIC"):
+        return ("intrinsic", _reason(result))
+    if result.startswith("FABRICATED_EXTRINSIC"):
+        return ("extrinsic", _reason(result))
     if result.startswith("FABRICATED"):
-        return True
+        # bare legacy token, no sub-verdict claimed: treat as extrinsic -
+        # intrinsic must POINT at the contradicting material (the same
+        # affirmative test the over-settling adjudicator applies), and a
+        # verdict that didn't is by definition only "unsupported"
+        return ("extrinsic", _reason(result))
     return None
 
 
@@ -2027,6 +2088,40 @@ def generate_reroot_guidance(signal: DriftSignal) -> str:
                 "inside your own life, before you go further - and reach for nothing "
                 "beyond what your own record already gives you to say it."
             )
+
+    # S4.3 (Pass 1 §6.3): FABRICATION corrections are SELECTED from a
+    # closed strategy set, never composed - the same rule over_settling
+    # above already follows, and for the same recorded reason: handed a
+    # certainty-related signal, the generative reroot path once invented
+    # supporting sources (Tertullian/Hermas, outside the world's span) to
+    # illustrate a limit already stated correctly without them. The
+    # adjudicator has already named the specific claim; the strategy per
+    # verdict is fixed, its words slotted in, zero further model calls.
+    if signal.signal_type == "fabrication":
+        kind, reason = "", ""
+        for line in signal.description.split("\n"):
+            if line.startswith("Adjudication:"):
+                verdict_part = line.split(":", 1)[1].strip()
+                kind, _, reason = verdict_part.partition(" - ")
+                kind = kind.strip()
+                reason = reason.strip()
+                break
+        if kind == "intrinsic":
+            return (
+                "Your last turn attributed something your own record holds "
+                f"differently: {reason} Set it right plainly in your next turn, "
+                "from inside your own world's account, and reach for nothing "
+                "beyond what your own record actually gives you."
+            )
+        # extrinsic verdict, or an unadjudicated stage-1 finding: the
+        # provisional strategy - do not repeat, own the thinness
+        claim = reason or signal.description.split("\n")[0]
+        return (
+            "Your last turn asserted something nothing in your own record "
+            f"supports: {claim} Do not repeat it. If it comes up again, say "
+            "plainly that your record does not carry it - honest thinness is "
+            "always preferable to invented depth."
+        )
 
     llm = get_monitoring_llm()
     prompt = FACILITATOR_REROOT_PROMPT.format(
