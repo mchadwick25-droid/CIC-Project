@@ -4,16 +4,16 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** Phase 1 complete except M2 (first migration world — presented to Mark, pending); S2.1 starts on M2's answer
-- **Last completed checkpoint:** S1.3 G (`gates/S1.3_seeded_defects.md`)
+- **Current step:** S2.1a (migration-time discovery sweep). **Phase 1 exit criteria met 2026-07-26** (all checkpoints green+committed; M1=files-in-git, M2=Desert; B-COST + B-RETR exist)
+- **Last completed checkpoint:** S2.1 G + R (`gates/S2.1_field_completion_backfill.md`, `reviews/S2.1_sample_diff.md`)
 - **Parked items:** none
 
 ## Mark's decision points (M checkpoints — presented singly, recorded in the Decision Log before dependent steps proceed)
 
 | ID | Decision | Needed before | Status |
 |---|---|---|---|
-| M1 | Record-store physical form (Pass 1 §12.2) | S1.5 | pending |
-| M2 | First migration world (§12.5) | S2.1 | pending |
+| M1 | Record-store physical form (Pass 1 §12.2) | S1.5 | **decided 2026-07-26: files-in-git** (`decisions/M1_record_store_form.md`) |
+| M2 | First migration world (§12.5) | S2.1 | **decided 2026-07-26: Desert** (`decisions/M2_first_migration_world.md`) |
 | M3 | `MIN_MULTI_WORLD_TURNS` floor retirement (§12.7) | S4.4b | pending |
 | M4 | Lens spine adoption (§12.8) | S6.1 | pending |
 | M5 | Streaming vs. selective buffering (§12.1) | never blocks; standing open item reviewed after S4.2 | pending |
@@ -41,7 +41,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 
 | Step | Status | Checkpoint(s) | Notes |
 |---|---|---|---|
-| S2.1 | pending | G + R | **after M2**; world_core + source records, backfill rule verbatim |
+| S2.1 | done | G + R | Desert: 16 source records + world_core from Doc_02/Doc_01 prose via `wrs/migrate/source_rows_from_doc02.py` (the declared mapping); backfill rule verbatim (4 fields coarse, instrument/date never set — grep 0 hits); 17/17 validate, gates green (backfill profile), migration byte-deterministic; R sample (seed 20260726: srcDES004/006/007/012) caught 2 mapping deviations, fixed in-step |
 | S2.1a | pending | G | migration-time discovery sweep (§11-A per F2) |
 | S2.1b | pending | R | reviewer coverage check (§11-B), PRESS question |
 | S2.2 | pending | G + P + R | term records, mechanical half; runs S1.3's coverage instrument |
