@@ -18,6 +18,12 @@ The Lives record that Pachomius, an early convert following military service, fo
 
 ---
 
+## Formation Ecology Connection
+
+This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 -- the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's own broader "collapse of categories" thesis does not hold. This is the direct grounding for the second name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world representation principle's requirement that he hold genuine Strand B fluency, not merely report on it.
+
+---
+
 ## Tier Justification
 
 Named textual tradition with a datable founding event, but the multiple, only partially overlapping recensions of the Lives carry a genuinely live, unresolved version-priority debate (Doc_01 §10; Doc_02 §1.2) that this document does not adjudicate. This story is held at Tier 1 for the broad, cross-recension-consistent outline -- founding date range, house count, membership scale at Pachomius's death -- rather than for incident-level detail specific to any single recension.

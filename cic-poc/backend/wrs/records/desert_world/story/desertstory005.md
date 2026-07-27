@@ -55,3 +55,6 @@ sources:
 owner_figure_id: desertfig005
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory005_arsenius-flee-be-still.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
+This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3) as a named, actively sought discipline rather than a passive absence of noise.

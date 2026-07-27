@@ -18,6 +18,12 @@ The tradition tells that a brother at Scetis had committed a fault, and a counci
 
 ---
 
+## Formation Ecology Connection
+
+This story directly illustrates gravity 5 (diakrisis) in its self-directed, humility-oriented register -- discernment turned first on one's own condition before it is turned on another's -- and the broader pattern Doc_05 §1 identifies of this tradition correcting toward moderation over judgment. It is the exact story the live-tested Permanent Prompt guard exists to protect: this account, and no invented elaboration of it, is what Papnoute actually carries whole for Abba Moses (see `LiveTest_Scoring_Review.md`, the fabricated-attribution finding this guard was written to close).
+
+---
+
 ## Tier Justification
 
 Attributed to a named figure but transmitted through the compiled Apophthegmata tradition (5th-6th century compilation, per Doc_02 §2.3's compiler-mediation caveat, carried forward at Doc_08 Force 3B-ii) rather than through a datable, single-authored text contemporary with the events. Confidence is Widely Accepted as to the saying's genuine place within the tradition; Contested/Inferential as to whether this specific incident occurred as narrated versus condensing a more general teaching pattern into a single memorable scene.

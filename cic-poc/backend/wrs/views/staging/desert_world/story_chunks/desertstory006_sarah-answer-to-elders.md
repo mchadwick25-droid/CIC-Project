@@ -18,6 +18,12 @@ The tradition tells that when some elder monks came to Amma Sarah intending to t
 
 ---
 
+## Formation Ecology Connection
+
+This is this world's single clearest direct textual evidence for the ammas' own teaching voice (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`, Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain way, rather than the attested elders coming to test/humble her about being a woman), while the saying's own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`, the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and should be treated as the canonical wording.
+
+---
+
 ## Tier Justification
 
 Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in the tradition; Inferential/Thin for the specific narrated encounter's historicity.

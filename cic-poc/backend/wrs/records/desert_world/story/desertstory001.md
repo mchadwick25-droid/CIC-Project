@@ -73,3 +73,6 @@ sources:
 owner_figure_id: desertfig001
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory001_antonys-call-matthew-19-21.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
+This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.

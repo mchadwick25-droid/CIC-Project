@@ -62,3 +62,6 @@ sources:
 owner_figure_id: desertfig001
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory002_antony-withdrawal-outer-inner-mountain.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
+This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from.

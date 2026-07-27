@@ -62,3 +62,6 @@ sources:
 owner_figure_id: desertfig001
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory007_antony-combat-in-tombs.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
+This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.

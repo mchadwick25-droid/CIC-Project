@@ -32,12 +32,32 @@ STAGING = HERE / "staging" / "desert_world"
 EF_MARKER = "Chunk Ecological Function (verbatim, absorbed per FLAG-002): "
 
 
+FEC_DELIM = ("[Formation Ecology Connection — parked at S2.8 per FLAG-004; "
+             "awaiting S2.9 restructure]")
+SRC_DELIM = ("[Source Identification — parked at S2.8 per FLAG-004; SS3.3's "
+             "tier-4 rule names sources[] as the home; awaiting S2.9]")
+
+
 def load_records(subdir: str) -> dict[str, dict]:
     out = {}
     for p in sorted((RECORDS / subdir).glob("*.md")):
-        rec = yaml.safe_load(p.read_text(encoding="utf-8").split("---\n")[1])
+        text = p.read_text(encoding="utf-8")
+        parts = text.split("---\n")
+        rec = yaml.safe_load(parts[1])
+        rec["_body"] = "---\n".join(parts[2:])
         out[rec["id"]] = rec
     return out
+
+
+def _parked(body: str, delim: str) -> str:
+    if delim not in body:
+        return ""
+    tail = body.split(delim, 1)[1]
+    # section runs until the next parking delimiter or end of body
+    for other in (FEC_DELIM, SRC_DELIM):
+        if other != delim and other in tail:
+            tail = tail.split(other, 1)[0]
+    return tail.strip()
 
 
 def _ef_text(term: dict) -> str:
@@ -135,6 +155,12 @@ def render_story_chunk(story: dict) -> str:
         "",
         "---",
         "",
+        "## Formation Ecology Connection",
+        "",
+        _parked(story.get("_body", ""), FEC_DELIM),
+        "",
+        "---",
+        "",
         "## Tier Justification",
         "",
         story["narrative_tier"].get("justification", ""),
@@ -145,6 +171,9 @@ def render_story_chunk(story: dict) -> str:
         "",
         usage,
     ]
+    src_ident = _parked(story.get("_body", ""), SRC_DELIM)
+    if src_ident:
+        parts += ["", "---", "", "## Source Identification", "", src_ident]
     return "\n".join(parts) + "\n"
 
 

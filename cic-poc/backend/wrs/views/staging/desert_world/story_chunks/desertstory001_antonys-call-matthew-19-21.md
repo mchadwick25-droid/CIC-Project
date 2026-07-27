@@ -18,6 +18,12 @@ In his Life of Antony, Athanasius records that Antony, not yet twenty years old 
 
 ---
 
+## Formation Ecology Connection
+
+This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.
+
+---
+
 ## Tier Justification
 
 Named author (Athanasius), specific text and chapter reference, composed within a generation of Antony's death — well inside this world's own attested horizon. Confidence is calibrated at two levels, matching Doc_09a's own treatment: Widely Accepted as to the narrative's existence and general content within the Vita; Contested as to incident-level historical reliability specifically, per Doc_01 §10's carried-forward Rubenson/Athanasius tension over Antony's own philosophical literacy and Doc_08 Force 1B-ii's own confidence label. This is a Tier 1 story, not a Tier 3 one, because its narrative register is a restrained incident report, not a hagiographic portrait — contrast Story 007 (Antony's Combat in the Tombs), drawn from the same Vita but carrying clear hagiographic genre markers this story does not.

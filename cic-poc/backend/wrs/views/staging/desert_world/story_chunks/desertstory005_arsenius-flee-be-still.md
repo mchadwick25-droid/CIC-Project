@@ -18,6 +18,12 @@ The tradition tells that Arsenius, while still a tutor in the imperial court at 
 
 ---
 
+## Formation Ecology Connection
+
+This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3) as a named, actively sought discipline rather than a passive absence of noise.
+
+---
+
 ## Tier Justification
 
 Same basis as Story 004 -- attributed to a named figure, preserved through the compiled tradition rather than a contemporary datable text. Arsenius's own historical existence and imperial-court background are independently well-attested in the broader tradition, but this world's own evidence base does not extend to full verification of his court career specifically, and this document does not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential/Thin for the specific court-tutor biographical frame.

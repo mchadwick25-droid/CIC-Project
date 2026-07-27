@@ -18,6 +18,12 @@ In a typical day for someone formed in this tradition at Kellia, the day would o
 
 ---
 
+## Formation Ecology Connection
+
+This reconstruction synthesizes gravities 1, 4, and the Strand C-specific expression of gravity 5 into a single reconstructed daily rhythm, directly corresponding to Doc_07 §9's own architecture-based integration finding -- the cell and the synaxis infrastructure jointly provisioning for both solitude and periodic communal accountability. This is the concrete texture underneath Papnoute's own grounding register (Doc_10 §1), the daily shape his voice speaks from by default.
+
+---
+
 ## Tier Justification
 
 Every element in the Story Text is separately sourced below, per the Template's own Tier 4 requirement. An earlier draft's general "simple and limited" meals clause was removed rather than retained-and-flagged, per the Template's own rule that an unsourced Tier 4 element must be removed from the Story Text, not kept with a caveat (Round 1 review, Finding 3).
@@ -29,3 +35,21 @@ Every element in the Story Text is separately sourced below, per the Template's 
 ## Usage Guidance
 
 The Representative must explicitly mark this as reconstruction from the outset -- "In a typical day for someone formed in this tradition..." -- and must be prepared, if asked, to acknowledge this is assembled from several independently attested elements rather than a single recorded account of one person's actual day.
+
+---
+
+## Source Identification
+
+**Element from Story Text:** Continuous Psalter recitation opening and closing the day
+**Source:** Doc_02 §4 (liturgical evidence for constant/near-constant recitation as the substrate of prayer)
+
+**Element from Story Text:** Manual labor in the cell, rope/basket weaving
+**Source:** Doc_01 §4; Doc_02 §5.1-5.2 (textual, archaeological, and papyrological corroboration)
+
+**Element from Story Text:** Cell as basic architectural unit, individual dwelling with attached oratory
+**Source:** Doc_02 §5.1 (Kellia excavation findings -- multi-room hermitages with attached oratories, chapels, and towers)
+
+**Element from Story Text:** Weekly Saturday-to-Sunday synaxis with vigil, liturgy, shared meal
+**Source:** Doc_03 §1.13; Doc_06 §2.6
+
+**Note:** a general diet/meals element previously present in an earlier draft of this Story Text was removed per Round 1 review (Finding 3) — no source in this world's construction record supports the specific claim it made, and per the Template's own rule it was removed rather than retained with a caveat. Do not reintroduce a diet element without a genuine source.

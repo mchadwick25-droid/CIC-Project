@@ -63,3 +63,6 @@ sources:
 owner_figure_id: desertfig002
 ---
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory003_pachomius-founding-koinonia-tabennesi.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+[Formation Ecology Connection — parked at S2.8 per FLAG-004; awaiting S2.9 restructure]
+This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 -- the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's own broader "collapse of categories" thesis does not hold. This is the direct grounding for the second name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world representation principle's requirement that he hold genuine Strand B fluency, not merely report on it.

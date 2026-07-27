@@ -18,6 +18,12 @@ This is how the tradition remembers Antony's own struggle -- what it believed to
 
 ---
 
+## Formation Ecology Connection
+
+This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.
+
+---
+
 ## Tier Justification
 
 This account carries clear hagiographic genre markers -- physically embodied demons, a beast-form combat scene, a climactic vision of light -- that distinguish it from the more restrained, incident-report register of the Tier 1 stories (001-003) drawn from the same Vita. It is classified Tier 3, the tradition's own account of what a formed life looks like at its most extreme, rather than Tier 1 documented history, precisely because the narrative register itself signals portrait rather than incident report.

@@ -18,6 +18,12 @@ Athanasius records Antony's withdrawal as staged, not sudden. He first remained 
 
 ---
 
+## Formation Ecology Connection
+
+This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from.
+
+---
+
 ## Tier Justification
 
 Same source and confidence basis as Story 001. The staged chronology — outer mountain from roughly the mid-280s, inner mountain from the early 310s — is treated by Doc_01 §2.1 as the standard, well-established outline, while incident-level narrative detail remains Contested on the same grounds as Story 001's own Rubenson/Athanasius tension.
