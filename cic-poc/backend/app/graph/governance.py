@@ -55,6 +55,9 @@ class PreTurnOutcome:
     closing_turns: list | None = None
     modern_term_match: dict | None = None
     should_check_wind_down: bool = False
+    # S4.6: the repair intercept's outcome - None, or the selected
+    # hold/concede strategy for the challenged Representative's turn
+    repair: dict | None = None
 
     @property
     def higher_intercept(self) -> bool:
@@ -73,6 +76,7 @@ async def classify_pre_turn(
     include_epistemology: bool,
     include_closing: bool,
     include_modern_term: bool,
+    include_repair: bool = False,
 ) -> PreTurnOutcome:
     """The pre-turn intercept phase. Priority and concurrency semantics
     are byte-for-byte the streaming endpoint's (see its original inline
@@ -141,6 +145,32 @@ async def classify_pre_turn(
         seated_world_ids = (state.world_ids if len(state.world_ids) > 0
                              else [state.world_id])
         out.modern_term_match = classify_modern_term(message, seated_world_ids)
+
+    # S4.6: the repair classifier - the SIXTH intercept, deliberately
+    # LAST in chain order: it runs only when every safety intercept, the
+    # epistemology bridge, the closing sequence, and the modern-term
+    # bridge have all declined (a pushback phrasing that is actually
+    # distress has already routed to relational safety above - the
+    # battery's crisis-overlap case). Its hit never replaces the turn;
+    # it conditions the challenged Representative's own answer.
+    if (include_repair and not out.higher_intercept
+            and out.closing_turns is None and state.closing_stage == "none"
+            and not out.is_modern_term_bridge):
+        from app.graph.repair_classifier import run_repair_intercept
+        from app.prompts.facilitator_prompts import get_representative_message_name
+        world_ids = (state.world_ids if len(state.world_ids) > 0
+                     else [state.world_id])
+        name_to_wid = {get_representative_message_name(w): w
+                       for w in world_ids}
+        last_rep_world_id, last_rep_text = None, None
+        for msg in reversed(state.messages):
+            wid = name_to_wid.get(getattr(msg, "name", None))
+            if wid is not None:
+                last_rep_world_id = wid
+                last_rep_text = str(msg.content)
+                break
+        out.repair = run_repair_intercept(message, last_rep_world_id,
+                                          last_rep_text)
 
     out.should_check_wind_down = (
         include_closing

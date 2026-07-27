@@ -109,6 +109,21 @@ def _classifier_events(pre_turn) -> list[tuple[str, dict]]:
         events.append(("classifier_decision", {
             "classifier": "modern_term",
             "raw": pre_turn.modern_term_match, "applied": True}))
+    if pre_turn.repair is not None:
+        events.append(("classifier_decision", {
+            "classifier": "repair", "raw": {
+                "kind": pre_turn.repair["kind"],
+                "claim": pre_turn.repair["claim"],
+                "verdict": pre_turn.repair["verdict"],
+                "matched_contested": pre_turn.repair["matched_contested"],
+            }, "applied": True}))
+        # the datum §10's held/concession rates are computed from
+        events.append(("challenge_adjudicated", {
+            "world_id": pre_turn.repair["challenged_world_id"],
+            "kind": pre_turn.repair["kind"],
+            "verdict": pre_turn.repair["verdict"],
+            "matched_contested": pre_turn.repair["matched_contested"],
+        }))
     if pre_turn.rs_updates:
         events.append(("rs_state_updated", {"updates": pre_turn.rs_updates}))
     return events
@@ -638,6 +653,7 @@ async def send_message(session_id: str, request: SendMessageRequest):
         include_epistemology=False,
         include_closing=False,
         include_modern_term=False,
+        include_repair=True,
     )
     is_frame_breaker = pre_turn.is_frame_breaker
     rs_classification = pre_turn.rs_classification
@@ -694,6 +710,16 @@ async def send_message(session_id: str, request: SendMessageRequest):
             phase=state.phase,
             turn_count=state.turn_count,
         )
+
+    # S4.6: a repair hit conditions the challenged Representative's own
+    # turn - the selected hold/concede strategy rides in as the private
+    # directive (turn-local, never persisted). Single-responder paths
+    # only; the plain multi-world "all" path keeps current behavior (its
+    # working states don't carry the directive - declared in the
+    # checkpoint artifact).
+    if pre_turn.repair is not None:
+        state.private_directive = pre_turn.repair["directive"]
+        state.current_world_id = pre_turn.repair["challenged_world_id"]
 
     # For multi-world tables, determine turn type (single or all representatives)
     from app.graph.nodes import determine_turn_type, multi_representative_engages
@@ -896,6 +922,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
         include_epistemology=True,
         include_closing=True,
         include_modern_term=True,
+        include_repair=True,
     )
     # classifier categories + applied relational-safety/closing state
     # mutations, as events (§6.7 observability; A.4's diagnosis data)
@@ -1219,7 +1246,16 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
         try:
             while True:
-                if is_multi_world:
+                # S4.6: a repair hit determines the round's FIRST speaker -
+                # the challenged Representative answers, carrying the
+                # selected hold/concede strategy; no selector call (the
+                # repair initiation is addressed to them as surely as a
+                # direct address is)
+                if (pre_turn.repair is not None and turns_completed == 0
+                        and pre_turn.repair["challenged_world_id"] in world_ids):
+                    world_id = pre_turn.repair["challenged_world_id"]
+                    private_directive = pre_turn.repair["directive"]
+                elif is_multi_world:
                     # Ask, before each turn, who is most directly positioned to
                     # speak next given what has actually been said so far -
                     # instead of working through a fixed list of every world at
