@@ -90,5 +90,9 @@ field_relations:
   target_id: desertlex004
   note: Connects to spiritual combat as the contested ground on which that combat is fought — stillness
     is where the thoughts attack (Doc_06 §1.3 Ecological Function; symmetric edge).
+- type: precondition-for
+  target_id: desertlex016
+  note: 'CO-P2-03 mirror (linkage reciprocity): the cell is hēsychia''s material form in Strand C (Doc_06
+    §2.7).'
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.

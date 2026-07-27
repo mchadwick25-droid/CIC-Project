@@ -181,11 +181,19 @@ DEPLOYED_LEX = BACKEND / "data" / "desert_world" / "lexicon_chunks"
 DEPLOYED_STORY = BACKEND / "data" / "desert_world" / "story_chunks"
 
 
-def deployed_name(rid: str, deployed_dir: Path) -> str:
+def deployed_name(rid: str, deployed_dir: Path, term: str = "") -> str:
     for p in deployed_dir.glob("*.md"):
         if p.stem.split("_")[0] == rid:
             return p.name
-    raise FileNotFoundError(f"no deployed chunk for {rid}")
+    # New record with no deployed counterpart (CO-P2-03 onward): derive a
+    # slug from the bare term name, matching the deployed convention
+    # (desertlex010_xeniteia.md)
+    slug = re.sub(r"[^a-z0-9]+", "-",
+                  term.split(" (")[0].lower()
+                      .replace("ō", "o").replace("ē", "e")).strip("-")
+    if not slug:
+        raise FileNotFoundError(f"no deployed chunk for {rid} and no term")
+    return f"{rid}_{slug}.md"
 
 
 def main() -> None:
@@ -196,7 +204,7 @@ def main() -> None:
     lex_out.mkdir(parents=True, exist_ok=True)
     story_out.mkdir(parents=True, exist_ok=True)
     for rid, t in terms.items():
-        name = deployed_name(rid, DEPLOYED_LEX)
+        name = deployed_name(rid, DEPLOYED_LEX, t.get("term", ""))
         (lex_out / name).write_text(render_lexicon_chunk(t, terms),
                                     encoding="utf-8")
     for rid, s in stories.items():

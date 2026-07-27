@@ -89,5 +89,12 @@ field_relations:
   note: Governs and moderates spiritual combat and its systematized form against excess — how intensely
     a given participant should engage the struggle (Doc_06 §§1.4, 1.5 Ecological Function, absorbed per
     FLAG-002).
+- type: mechanism-behind
+  target_id: desertlex013
+  note: 'CO-P2-03 mirror (linkage reciprocity; no Pass 1 inverse for mechanism-behind): penthos disciplines
+    diakrisis''s self-assessment (Doc_06 §2.4).'
+- type: mechanism-behind
+  target_id: desertlex014
+  note: 'CO-P2-03 mirror (linkage reciprocity): nepsis feeds diakrisis directly (Doc_06 §2.5).'
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.

@@ -3,7 +3,7 @@ Term: Hēsychia (Stillness)
 World-Code: desert
 Tier: [1]
 Aliases: stillness, hesychia, quietude
-Related Terms: Diakrisis, Logismoi
+Related Terms: Diakrisis, Logismoi, Kellion
 Retrieve-When: participant asks about interior stillness, quiet, or peace as an ascetic goal
 Do-Not-Retrieve-When: participant is asking about the later Byzantine hesychast movement specifically — that tradition's full technical apparatus is not native to this world's own c. 320s–c. 430 window and should not be retrojected onto it
 ---

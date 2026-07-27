@@ -87,5 +87,11 @@ field_relations:
   target_id: desertlex003
   note: The thoughts contest the stillness; stillness is the ground of the combat (symmetric edge; Doc_06
     §§1.3, 1.4).
+- type: presupposed-by
+  target_id: desertlex011
+  note: 'CO-P2-03 mirror: apatheia is combat''s systematized resolution (Doc_06 §2.2).'
+- type: presupposed-by
+  target_id: desertlex017
+  note: 'CO-P2-03 mirror: antirrhesis answers the logismoi (Doc_06 §3.1).'
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.

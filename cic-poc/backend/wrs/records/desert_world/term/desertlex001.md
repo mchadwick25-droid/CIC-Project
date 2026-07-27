@@ -90,5 +90,12 @@ field_relations:
   target_id: desertlex007
   note: Withdrawal stands in documented tension with ongoing economic and social embeddedness — the gap
     between separation's rhetoric and the labor economy's reality (Doc_06 §§1.1, 1.7; Doc_04 gravity 8).
+- type: presupposed-by
+  target_id: desertlex010
+  note: 'CO-P2-03 mirror: xeniteia intensifies withdrawal (Doc_06 §2.1).'
+- type: precondition-for
+  target_id: desertlex016
+  note: 'CO-P2-03 mirror (linkage reciprocity): the cell is anachōrēsis''s material form in Strand C (Doc_06
+    §2.7).'
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.
