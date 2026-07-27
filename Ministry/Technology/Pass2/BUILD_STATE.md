@@ -4,7 +4,7 @@
 All state lives here and in commits; no session relies on memory of a previous session.
 
 - **Blueprint:** `Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md` (settled input — defects in it are FLAGS.md entries, never in-place edits)
-- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 pends: CO-P2-01..10 DONE (10 = all four: enum accepted, spelling normalized, Cassian rowed + Puritas Cordis authored, recall miss closed; 104 records, gates 0); CO-P2-11 presented — the last.
+- **Current step:** S3.3 (session exclusion set + MMR; safety rerun applies). S2.9 CLOSED: all 11 COs decided by Mark and applied; Desert at 107 records, gates 0, render parity 0, matrix clean, production from generated views.
 - **Last completed checkpoint:** S3.2 G (`gates/S3.2_hybrid.md`; verbatim-term 1.0 in all six worlds incl. beating IJ's own baseline; 3 real defects found+fixed during build; residual regressions all in S3.3/S3.4/S3.5's designed classes)
 - **Parked items:** none
 
@@ -52,7 +52,7 @@ Statuses: `pending` / `in-progress` / `done` (done = checkpoint artifact exists,
 | S2.7 | done | G + R | desertvoice001 (8-field SPEAKING model, 5-trait rubric w/ 12 intensity cells, avoid_traits from documented failures, register evidence = Doc_06 1.8 genre w/ Doc10's DMR caveat verbatim, native measure = runtime 60-word ceiling as data) + 3 demonstrations (the template-required Doc10 S4 exchanges, machine-verified verbatim incl. restored koinonia macron, {{random_user}} convention, honestly scored: all partial on terse economy at 146/164/168 words vs 60); CO-015 checked both directions; coverage gap (5 of 12 cells undemoed) routed to S2.9; 90/90 valid |
 | S2.7a | done | G + R | 5 pairing_guidance (Alexandria/scripture, HAL/'ascetic' surface word, IJ/authority w/ the desert's own office-model-inside honesty, Syriac/where-asceticism-lives, boundary-energy w/ Doc_07's pending-confirmation flag preserved) + 6 cautions (2 unperformed freeze-gate reviews, recruitment risk, thin domains, 4-vetted-sayings boundary, logismoi/clinical adjacency); every guidance entry evidence-linked (schema-enforced minItems 1); idempotent in-place world_core update; P3 (Donatism mention at Brief-render) routed to S2.8; 90/90 valid |
 | S2.8 | done (no swap) | G+P+P | 6 views staged (chunks near/full round-trip, temporary prompt w/ 19/19 completeness map + 2 GAP COs, capsule section-classified, Brief populated from S2.7a records); render parity 25 classified/0 unclassified; retrieval parity 0 regressions (after FLAG-004 measurement+parking); probe parity 6/7 blind two-trial (FLAG-005 found+fixed via norms completion; claim-laundering divergence = deployed prompt vs its own Doc10 record, routed to S5.2); swap decision deferred to Mark at S2.9 |
-| S2.9 | pending | M (per CO) + G | migration retrospective → Change Orders |
+| S2.9 | done | M x11 + G | all 11 COs decided by Mark one at a time, all applied same-day with per-CO verification (matrix re-runs after every schema CO); outcomes: swap live, six-test names, 9 new terms, gravity_links (FLAG-004 closed), identity+telos homes, composite-owner convention + persona-never-in-world-record principle (FLAG-003 closed), allusion records + accepted-refusals, truthful translation row, Tags retired, Cassian rowed, LiveTest demos harvested; gate suite 0 violations |
 
 ### Phase 3 — Retrieval rebuild
 
