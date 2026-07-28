@@ -14,6 +14,8 @@ This file exists so a build session can read the contract without opening the wh
 4. Rule 6 still applies in full: genuine uncertainty, or a call whose stakes seem to exceed the immediate step, still gets filed to `FLAGS.md` rather than decided past your own confidence. Full autonomy removes the wait, not the judgment about when something should actually be surfaced.
 5. This covers every M checkpoint, including governing-document wording (Facilitator Governance, the Construction Framework, RCF, Table Design, the Constitution) — stated explicitly before this was decided.
 
+**Fourth note, refining the third, same conversation (Mark, 2026-07-27): "I do want to stop and check in after every world upgrade."** M checkpoints and per-item decisions *within* a world's own migration (S6.2's Change Orders, schema questions, and other in-step judgment calls for the world currently being worked) proceed autonomously exactly as note three describes — no live wait, no exception. But **at the boundary between one world and the next — a world's own migration complete, before starting the next one — stop, write a completion summary to `WAITING_ON_MARK.md` (what got decided in that world and why, per-checkpoint), and wait for Mark before starting the next world.** The same applies at the boundary into S6.3, S6.4, S6.5, and S6.6: check in before starting each, not mid-phase. This is a coarser checkpoint than any individual M — roughly once per world/phase, not dozens of times within one — and it exists specifically so Mark isn't blind to a whole world's worth of autonomous decisions at once, not because any single decision inside that world needed him.
+
 ---
 
 ## 0. How to use this blueprint — the session contract
