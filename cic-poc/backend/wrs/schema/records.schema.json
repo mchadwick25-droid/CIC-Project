@@ -158,7 +158,7 @@
           "items": {
             "type": "object",
             "properties": {
-              "type": {"enum": ["presupposes", "presupposed-by", "precondition-for", "material-source-of", "mechanism-behind", "tension-with"]},
+              "type": {"enum": ["presupposes", "presupposed-by", "precondition-for", "material-source-of", "mechanism-behind", "tension-with", "associated-with"], "$comment": "associated-with added by CO-P2-13 (Mark, 2026-07-28): symmetric association for the chunks' own mutual Related-Terms cross-references - no hierarchy claimed"},
               "target_id": {"type": "string"},
               "note": {"type": "string"}
             },

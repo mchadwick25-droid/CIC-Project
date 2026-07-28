@@ -116,6 +116,16 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex032
   note: Metanoia is a change OF nous (alexlex032 WM).
+- type: associated-with
+  target_id: alexlex009
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
+- type: associated-with
+  target_id: alexlex012
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
 contested_claim_ids:
 - alexclaim005
 ---
@@ -126,3 +136,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [CT Contest Type — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] **Meaning.** The contest concerns what the term meant in its own context — specifically, whether Origen's *own* speculative account of the nous (the nous as the soul's original state; pre-existence; universal return) is the *same* theological position as the propositions condemned at the Second Council of Constantinople (553 CE). Patristics specialists are genuinely divided: some read the condemned "Origenism" as a later, distorting systematization not identical to Origen's own thought; others read meaningful continuity. The dispute is unresolved. Note precisely what is and is not contested: the *broadly-attested* account of the nous as the soul's contemplative faculty is **not** contested; only the continuity of Origen's speculative extension with the condemned propositions is. (This is the same *Meaning* contest carried by Apokatastasis, to which it is theologically linked.)
 
 S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
+
+CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.

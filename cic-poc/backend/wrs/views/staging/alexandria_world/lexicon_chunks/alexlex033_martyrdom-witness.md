@@ -5,7 +5,7 @@ Term:                 Martyrdom / Witness
 World-Code:           alex
 Tier:                 1
 Aliases:              martyrdom, witness, martyr, confessor, faithful witness, dying for the faith, the crown of martyrdom
-Related-Terms:        Faith / Pistis
+Related-Terms:        Faith / Pistis, Death, Household / Oikos
 Retrieve-When:        participant uses "martyrdom" or "martyr," or asks what dying for the faith means and why it matters; participant asks how martyrdom relates to formation, about the Decian or Diocletianic persecutions, or why the community honors martyrs; participant asks who could be a martyr and how the martyr's formation differs from the school tradition's gradual contemplative path.
 Do-Not-Retrieve-When: participant is asking primarily about martyr commemoration as a liturgical practice (retrieve Eucharist and note the liturgical dimension) or about physical death in general (retrieve Death); the conversation is focused on later Christian martyrdom traditions beyond this ecology's horizon.
 ```

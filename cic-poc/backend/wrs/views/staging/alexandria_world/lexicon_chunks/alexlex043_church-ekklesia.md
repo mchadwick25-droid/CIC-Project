@@ -5,7 +5,7 @@ Term:                 Church / Ekklesia
 World-Code:           alex
 Tier:                 1
 Aliases:              ekklesia, the assembly, the congregation, the community, the Christian community, the body of Christ, the gathered community
-Related-Terms:        Eucharist, Household / Oikos
+Related-Terms:        Eucharist, Household / Oikos, Bishop / Episkopos
 Retrieve-When:        participant uses "church" in a theological or formational sense; participant asks what the church is and what it is for, or why formation cannot be private; participant asks about the relation between an individual's formation and the community; participant asks about the church as both school tradition and whole gathered community, what gathers it, or whether it is primarily an institution or something else.
 Do-Not-Retrieve-When: participant is asking about a specific local congregation's practical life; about church governance structures beyond this world's scope; or primarily about the bishop's role (retrieve Bishop).
 ```

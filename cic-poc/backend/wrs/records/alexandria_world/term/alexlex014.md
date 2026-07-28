@@ -123,6 +123,11 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex035
   note: Interpretation is the discipline exercised on the address (alexlex035 QM).
+- type: associated-with
+  target_id: alexlex031
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
 contested_claim_ids:
 - alexclaim001
 ---
@@ -131,3 +136,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Logos, Divine Pedagogy, Illumination, Nous, Christological Reading, Allegory, Rule of Faith. **Mutual** (each lists this term back): Logos, Christological Reading, Allegory, Rule of Faith. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Divine Pedagogy, Illumination, Nous. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
+
+CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.

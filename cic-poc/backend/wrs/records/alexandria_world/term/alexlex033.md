@@ -146,6 +146,16 @@ field_relations:
     and why the ecology''s full account of formation needs both poles — the gradual contemplative path
     and the martyr''s single moment — held in tension, since neither alone captures the whole. This is
     the Martyrdom–Contemplative Tensional Gravity as a live structural feature, not a problem to be resolved.'
+- type: associated-with
+  target_id: alexlex018
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
+- type: associated-with
+  target_id: alexlex034
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex033_martyrdom-witness.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -154,3 +164,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [Reported-Experience Status — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only.
 
 The martyr *ideal* — the witness as formation's most complete expression — is central to how this community understands its own formation, and the community genuinely honored it and was shaped by it. But that ideal reaches us mainly through hagiography and martyrology (the martyr-acts, *Perpetua and Felicitas*), which carry the community's belief about what the martyr underwent rather than confident first-person access to it. This section marks that the World Meaning above gives the community's ideal of witness, not a reconstruction of what any particular martyr interiorly experienced; the interior of the martyr is held at Inferential/Thin and is deliberately not narrated from inside.
+
+CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.

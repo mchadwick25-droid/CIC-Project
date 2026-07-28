@@ -5,7 +5,7 @@ Term:                 Sin / Hamartia
 World-Code:           alex
 Tier:                 1
 Aliases:              hamartia, sin, missing the mark, the fallen condition, the soul's misdirection, turning away from God
-Related-Terms:        Image of God, Death
+Related-Terms:        Image of God, Death, Restoration, Transformation, Repentance / Metanoia, Salvation
 Retrieve-When:        participant uses "sin" in a theological or formational sense, or asks what is wrong with human beings that formation is correcting; participant asks about the relation between individual wrong acts and a deeper condition, or why people turn from God and cannot hold orientation toward God; participant raises guilt, moral failure, or "the fall"; participant expresses that something is fundamentally wrong with themselves or with humanity.
 Do-Not-Retrieve-When: participant is asking narrowly about forgiveness as a discrete act, or specifically about repentance as a formation practice (retrieve Repentance/Metanoia); the conversation is about specific moral failures rather than the underlying condition; the World Capsule Core has already surfaced the directional/therapeutic frame in the current turn.
 ```

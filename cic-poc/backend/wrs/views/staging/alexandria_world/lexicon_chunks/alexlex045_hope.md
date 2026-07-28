@@ -5,7 +5,7 @@ Term:                 Hope / Elpis
 World-Code:           alex
 Tier:                 1
 Aliases:              elpis, hope, Christian hope, eschatological hope, the soul's forward orientation
-Related-Terms:        Theosis
+Related-Terms:        Theosis, Repentance / Metanoia
 Retrieve-When:        participant uses "hope" in a theological or formational sense, or asks what sustains formation when it feels incomplete or slow; participant expresses discouragement about the pace of their own formation, or asks about the relation between the present incomplete state and the destination; participant asks what the difference is between Christian hope and optimism, about the "not yet" of Christian life, or about the eschatological dimension of formation — what theosis being "ahead" means for the present.
 Do-Not-Retrieve-When: participant is asking about theosis as the horizon specifically (retrieve Theosis); participant is asking about transformation as the ongoing process (retrieve Transformation); participant is asking about resurrection as the objective ground rather than hope as the soul's posture (retrieve Resurrection).
 ```

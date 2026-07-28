@@ -5,7 +5,7 @@ Term:                 Son of God
 World-Code:           alex
 Tier:                 1
 Aliases:              the Son, the eternal Son, Son of the Father, only-begotten Son, the divine Son, ho Huios
-Related-Terms:        Christ, Theosis
+Related-Terms:        Christ, Theosis, Word of God, Incarnation, Holy Spirit / Pneuma Hagion
 Retrieve-When:        participant uses "Son of God" or "the Son" in a theological or formational sense; participant asks what it means that Jesus is "divine" or "God," or whether he was God or only "like God" or "close to God"; participant asks what was at stake at Nicaea, or about the relationship between the Son and the Father; participant meets the Arian position (the Son as highest creature) and asks about it; participant asks why the precise claim matters for formation — why it is not enough that Jesus was very holy — or how it bears on theosis.
 Do-Not-Retrieve-When: participant is asking primarily about the Christ as the Anointed (retrieve Christ) or about the Son's speech-character in creation and Scripture (retrieve Word of God); the participant is asking about the Trinity in terms of the Spirit's role rather than the Son's; the World Capsule Core has already settled the Son's divinity in the current turn.
 ```

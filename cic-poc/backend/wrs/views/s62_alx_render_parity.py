@@ -38,6 +38,31 @@ DEPLOYED = BACKEND / "data" / "alexandria_world"
 RETIRED_DNRW = re.compile(r"cross-world|another world['’]s voice", re.I)
 
 
+def _term_resolver():
+    """name -> record id, same resolution order as s62_alx_s29_co13
+    (full term names win; slash-segments; aliases last)."""
+    import yaml
+    recs = []
+    for tp in sorted((BACKEND / "wrs" / "records" / "alexandria_world" / "term").glob("*.md")):
+        txt = tp.read_text(encoding="utf-8")
+        front, _, _b = txt[4:].partition("\n---\n")
+        recs.append(yaml.safe_load(front))
+    canon = lambda s: re.sub(r"\s*/\s*", "/", s.strip()).casefold()
+    m = {}
+    for r in recs:
+        m[canon(r["term"])] = r["id"]
+    for r in recs:
+        for seg in r["term"].split("/"):
+            m.setdefault(canon(seg), r["id"])
+    for r in recs:
+        for a in r.get("aliases") or []:
+            m.setdefault(canon(a), r["id"])
+    return lambda name: m.get(canon(name), canon(name))
+
+
+RESOLVE = _term_resolver()
+
+
 def parse_chunk(path: Path):
     txt = path.read_text(encoding="utf-8")
     fm = {}
@@ -68,8 +93,29 @@ def classify(kind, rid, key, dep, gen, out):
         out.append(("intended-change", f"{rid}: Tags line (RETIRED, CO-P2-09)"))
         return True
     if key == "Related-Terms" and norm(dep) != norm(gen):
-        out.append(("defect", f"{rid}: Related-Terms shortfall (record-backed "
-                              f"only; declared render-shortfall -> S2.9 CO)"))
+        # CO-P2-13 (Mark, 2026-07-28): mutual pairs now carry typed
+        # associated-with edges, so membership is the standard - the
+        # record's edge-order vs the chunk's list-order is presentational.
+        dset = {RESOLVE(x) for x in (dep or "").split(",") if x.strip()}
+        gset = {RESOLVE(x) for x in (gen or "").split(",") if x.strip()}
+        missing = sorted(dset - gset)
+        extra = sorted(gset - dset)
+        if not missing and not extra:
+            out.append(("equivalent-restructure",
+                        f"{rid}: Related-Terms membership complete "
+                        f"(CO-P2-13); edge-order vs chunk list-order"))
+        elif not missing:
+            # the record graph exceeds the chunk's own list: S2.3's typed
+            # edges (EF-derived, cross-batch mirrors) + CO-P2-13 pairs
+            out.append(("intended-change",
+                        f"{rid}: Related-Terms enriched by the record graph "
+                        f"(+{len(extra)}: S2.3 typed edges beyond the chunk "
+                        f"list; CO-P2-13 render)"))
+        else:
+            out.append(("defect", f"{rid}: Related-Terms shortfall "
+                                  f"({', '.join(missing)}) - "
+                                  f"one-directional/not-yet-built class -> "
+                                  f"S2.9 completion-items decision"))
         return True
     if key == "Do-Not-Retrieve-When" and norm(dep) != norm(gen):
         dep_clauses = [norm(c) for c in (dep or "").split(";") if c.strip()]

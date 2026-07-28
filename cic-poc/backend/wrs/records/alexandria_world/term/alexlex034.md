@@ -158,7 +158,14 @@ field_relations:
     primary access point (for enslaved persons, women, and rural believers, the household is where formation
     chiefly occurred). School, martyrdom, and household together make the ecology''s claim to whole-community
     reach — intellectual depth, acute faithful response, and daily formation environment respectively.'
+- type: associated-with
+  target_id: alexlex033
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex034_household.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Soul/Psyche, Catechesis, Eucharist, Martyrdom/Witness, Participation. **Mutual** (each lists this term back): Martyrdom/Witness. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Soul/Psyche, Catechesis, Eucharist, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.

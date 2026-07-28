@@ -72,7 +72,7 @@ def parked_sections(body: str):
         text = body[start:end]
         # trim trailing migration notes (S2.5/S2.6 appends)
         for stop in ("\n\nS2.5-equivalent (", "\n\nS2.6-equivalent (",
-                     "\n\nMigrated at"):
+                     "\n\nCO-P2-13 (", "\n\nMigrated at"):
             j = text.find(stop)
             if j >= 0:
                 text = text[:j]

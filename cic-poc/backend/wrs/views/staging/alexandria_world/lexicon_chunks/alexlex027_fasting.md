@@ -5,7 +5,7 @@ Term:                 Fasting
 World-Code:           alex
 Tier:                 1
 Aliases:              abstinence, voluntary hunger, bodily discipline, the fast, keeping the fast, fasting practice
-Related-Terms:        Transformation
+Related-Terms:        Transformation, Prayer
 Retrieve-When:        participant uses "fasting" in a theological or formational sense, or asks what fasting does or why Christians fast; participant asks about the body's role in formation, or what it means to train desire; participant asks about the Lenten or Paschal fast, about asceticism and what it is for, or about which formation practices are open to non-literate believers.
 Do-Not-Retrieve-When: participant is asking about fasting for health or medical reasons; participant is asking specifically about intensified monastic fasting (note the cross-build constraint to Desert Christianity); the conversation is focused on the Paschal narrative itself rather than the fast that prepares for it.
 ```

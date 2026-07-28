@@ -5,7 +5,7 @@ Term:                 Wisdom / Sophia
 World-Code:           alex
 Tier:                 1
 Aliases:              sophia, the wise, the truly wise, wisdom of God, Christian wisdom, mature wisdom
-Related-Terms:        Knowledge / Gnosis, Participation, Teacher / Didaskalos
+Related-Terms:        Knowledge / Gnosis, Participation, Teacher / Didaskalos, Divine Pedagogy, Theosis
 Retrieve-When:        participant uses "wisdom" in relation to Christian life or formation, or calls someone "wise" and asks what that means here; participant asks what formation is for — what it produces in a person; participant asks how to tell that someone has been formed, or how knowledge and love relate, or whether intellectual depth and holiness go together; participant asks what Proverbs or the Wisdom literature has to do with Christian formation.
 Do-Not-Retrieve-When: participant means wisdom only as practical prudence or good decision-making; the conversation is specifically about the knowledge/gnosis stage that precedes wisdom; participant means divine Wisdom in the abstract cosmological sense (retrieve Logos instead).
 ```

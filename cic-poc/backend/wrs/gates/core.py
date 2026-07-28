@@ -27,7 +27,9 @@ RELATION_FIELDS = ("relations", "field_relations", "interaction", "connections")
 #     Pass 1 names no inverse vocabulary for them, and inventing one would
 #     be silent redesign (see S1.5 review, same rule for force connections).
 INVERSE = {"presupposes": "presupposed-by", "presupposed-by": "presupposes"}
-SYMMETRIC = {"tension-with", "reinforcing", "competing"}
+SYMMETRIC = {"tension-with", "reinforcing", "competing",
+             "associated-with"}  # associated-with: CO-P2-13 (same
+             # symmetric-mirror code path the tension-with seed exercises)
 
 
 def _edges(record):

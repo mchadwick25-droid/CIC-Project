@@ -170,6 +170,16 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex024
   note: Word of God likewise - the titles organize around the confession (chunk EF).
+- type: associated-with
+  target_id: alexlex039
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
+- type: associated-with
+  target_id: alexlex044
+  note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
+    symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
+    bodies, attest the pair).'
 contested_claim_ids:
 - alexclaim003
 ---
@@ -182,3 +192,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus how it was received afterward, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. The point of contest is not whether we confess Christ as of one substance with the Father — we do — but what that word carried in its own moment and how far its later sense may be read back into it. This is why the pre-Nicene and post-Nicene registers must be kept distinct: before Nicaea the precise ontological status of the Christ was genuinely open and under debate; only after 325 does the confession stand settled, and we hold that settlement as relief-and-burden rather than as a timeless given. (This is the *Homoousios* contest specified at alexlex081, carried here because the Christ confession itself asserts the consubstantiality; the ontological argument proper lives at Son of God, and the entry of God into flesh at Incarnation.)
 
 S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
+
+CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.

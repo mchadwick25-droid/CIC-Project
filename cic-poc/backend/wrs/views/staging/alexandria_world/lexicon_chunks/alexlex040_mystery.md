@@ -5,7 +5,7 @@ Term:                 Mystery / Mysterion
 World-Code:           alex
 Tier:                 1
 Aliases:              mysterion, the mysteries, sacred mystery, divine mystery, mystery of Scripture, sacramental mystery
-Related-Terms:        Catechesis
+Related-Terms:        Catechesis, Oikonomia
 Retrieve-When:        participant uses "mystery" or "mysterion" in a theological or formational sense, or asks what the early church meant by it; participant asks why Scripture contains passages that seem impenetrable, or what lies beneath the surface of a text or a practice; participant asks what the "mysteries" of the faith are, or about the link between the sacramental practices and hidden meaning; participant asks why God does not simply make divine things directly accessible, or about the reservation of full knowledge for the end.
 Do-Not-Retrieve-When: participant means "mystery" in the popular sense of a detective story or an unsolved puzzle; participant is asking specifically about allegory as a reading method (retrieve Allegory) or about the sacraments without reference to their mystery-dimension; the World Capsule Core has already treated the inside-character of formation's depths in the current turn.
 ```

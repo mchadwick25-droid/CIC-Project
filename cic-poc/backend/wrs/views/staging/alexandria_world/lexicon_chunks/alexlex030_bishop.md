@@ -5,7 +5,7 @@ Term:                 Bishop / Episkopos
 World-Code:           alex
 Tier:                 1
 Aliases:              episkopos, overseer, the bishop, episcopal authority, the overseer, bishop of Alexandria
-Related-Terms:        Eucharist, Teacher / Didaskalos, Rule of Faith / Regula Fidei
+Related-Terms:        Eucharist, Teacher / Didaskalos, Rule of Faith / Regula Fidei, Church / Ekklesia
 Retrieve-When:        participant uses "bishop" or "episkopos" in a theological or formational sense; participant asks what the bishop's role is, or what grounds episcopal authority; participant asks about Athanasius as a formation figure, about apostolic succession and what it carries, or about the bishop's relationship to the Eucharist; participant asks about the Teacher–Bishop tension from the episcopal side, or what makes episcopal authority distinct from teacher authority.
 Do-Not-Retrieve-When: participant is asking primarily about the teacher's formation function (retrieve Teacher); about what constrains episcopal authority (retrieve Rule of Faith); about the Eucharist's formation function specifically (retrieve Eucharist); or the World Capsule Core has already surfaced episcopal governance this turn.
 ```

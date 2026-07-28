@@ -42,7 +42,7 @@
         "violations[skip]": 0
       },
       "thematic": {
-        "mean_mrr": 0.9167,
+        "mean_mrr": 0.8667,
         "n": 6,
         "pass_at_k[retrieve]": 1.0,
         "pass_at_k[skip]": 0.0,
@@ -65,5 +65,12 @@
     "isolation_violations_total": 0,
     "metadata_check_failures": 0
   },
-  "regressions": []
+  "regressions": [
+    [
+      "thematic",
+      "mean_mrr",
+      0.875,
+      0.8667
+    ]
+  ]
 }

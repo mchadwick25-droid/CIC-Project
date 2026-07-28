@@ -5,7 +5,7 @@ Term:                 Illumination
 World-Code:           alex
 Tier:                 1
 Aliases:              enlightenment, photismos, light, being enlightened, opened eyes, seeing
-Related-Terms:        Catechesis, Logos, Nous, Knowledge / Gnosis
+Related-Terms:        Catechesis, Logos, Nous, Knowledge / Gnosis, Divine Pedagogy, Baptism
 Retrieve-When:        participant asks how one comes to understand Scripture or God more deeply, or what changes at baptism (photismos); participant treats spiritual insight as intellectual achievement or subjective feeling; conversation reaches the transition from catechesis to knowledge, or why some readers perceive in a text what others cannot.
 Do-Not-Retrieve-When: the participant means the 18th-century Enlightenment or a generic "aha" insight with no bearing on formed perception; the World Capsule Core has already surfaced illumination-as-changed-sight this turn.
 ```
