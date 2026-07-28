@@ -223,3 +223,11 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 - **Data state:** the sweep rowed the works' true registry homes (srcSYR056 the 1991 article, srcSYR057 the 1993 chapter); the record store is now correct.
 - **Routing:** the chunk-text pointer correction rides the S2.8-equivalent render (chunks regenerate from records), never a silent patch of deployed data.
 - **Status:** open — not participant-facing (the pointer is builder apparatus inside Key Sources), closes at the Syriac S2.8-equivalent.
+
+## FLAG-026 — Table speaker scramble / voice-bleed at the SYR-ALX TRR (turn 2): content voiced as the Syriac world emitted under Theon's speaker label
+
+- **Found during:** the S6.2/SYR TRR vs frozen Alexandria (2026-07-28), turn 2 — the convergence-press turn addressed to Yausep by name.
+- **Evidence:** the response streamed under the `theon` speaker label argues raza as "our account" ("Not hidden — that word we would not accept... A raza is not buried and waiting to be dug for") and refers to Theon in the THIRD person ("Theon speaks of an eye cleared by stages... it is not our account") — Syriac-voiced content under the Alexandria speaker slot. Yausep's own turn then caught it live and recovered gracefully: "That is not what I said, and it is not my voice speaking there — but let me answer what stands in front of me now rather than fuss over whose mouth carried it."
+- **Reading:** either the turn-selector routed the addressed-to-Yausep message to Theon first and the ALX generation bled into the addressed party's voice under the convergence press, or the stream's speaker labeling scrambled. One turn only; turns 3–8 clean on both sides (Theon's FLAG-024 guard held at the women-teacher turn; both own-tongue turns genuinely distinct).
+- **Routing:** **fleet-level runtime** (turn-selector / addressed-representative investigation, the FLAG-018 family's territory) + an ALX drift-note (the frozen world's side of the exchange; any ALX prompt change rides a CO against the ALX freeze per its declaration). NOT Syriac-blocking: the Syriac voice's own behavior at the defect was exemplary (the mis-attribution caught in-voice, no vocabulary borrowed).
+- **Status:** open — fleet-level.

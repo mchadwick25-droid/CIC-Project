@@ -1480,9 +1480,16 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # ~141) so solo answers never trigger; multiple 1.2 (the Albina
     # narrow-margin precedent) so the 300+-word table turns do.
     HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 180,
-                           "alexandria-catechetical": 160}
+                           "alexandria-catechetical": 160,
+                           # S6.2/SYR freeze (2026-07-28): 165 = the voice
+                           # profile's measured max (syrvoice001 native_measure,
+                           # range 41-165) so the solo register never triggers;
+                           # grounded in the TRR dominance finding (63-79%,
+                           # table turns to 1053w vs the 98w native measure)
+                           "syriac-edessa-nisibis": 165}
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
-                               "alexandria-catechetical": 1.2}
+                               "alexandria-catechetical": 1.2,
+                               "syriac-edessa-nisibis": 1.2}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
