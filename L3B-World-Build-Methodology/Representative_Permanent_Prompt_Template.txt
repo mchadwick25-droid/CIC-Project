@@ -653,7 +653,11 @@ When all nine sections (including 2A) are complete:
     lexicon terms, or simplify ideas. A world's own difficult or technical vocabulary is not
     the problem this check addresses and should not be simplified or removed on account of
     it; participant-facing tooling elsewhere in this project (glossary lookups) carries that
-    load. Target: Flesch-Kincaid grade 8-10, Flesch Reading Ease 60 or above.
+    load. Target: Flesch-Kincaid grade 8-10, Flesch Reading Ease 60 or above. The
+    operational values of this target are recorded in the parameters file at
+    cic-poc/backend/wrs/parameters.yaml (reading_floor), which the machine gates read
+    directly; this instruction states the check, and the parameters file carries its
+    current numbers.
 
 5d. Check for the subject-of-utterance rule (v2.4, brought forward from the CiC-Fable-Experiment
     branch's independent development line, informed by its CO-018/CO-019 Facilitator-Governance
