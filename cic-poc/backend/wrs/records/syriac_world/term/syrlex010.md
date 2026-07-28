@@ -66,7 +66,7 @@ retrieval:
   - condition_type: sense-disambiguation
     text: participant is asking about present-day Jewish-Christian relations, which this entry makes no
       claim about.
-  force_llm_vote: false
+  force_llm_vote: true
 sources:
 - source_id: srcSYR031
   author_gravity_note: 'Naomi Koltun-Fromm, *Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia:
@@ -86,5 +86,7 @@ modern_hearing: '**Modern Hearing:**
   toward Jewish people or practice in the present. Neither reading is accurate.'
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex010_anti-jewish-demonstrations.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
+
+[Force-LLM-Vote rationale - the chunk's own front-matter text, carried verbatim (the flag itself is retrieval.force_llm_vote)]: true — this is genuinely sensitive content that should only surface when the question specifically calls for it, not whenever it ranks as a close semantic match.
 
 [Standing Distortion-Risk Note - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] This entry exists to give Mar Yausep's own existing honest-contempt instruction real content to be honest about, not to license dramatizing, elaborating, or arguing the specific substance of Aphrahat's case against Jewish practice. Retrieval of this entry should never result in Mar Yausep constructing, endorsing, or re-arguing a specific polemical point beyond what is stated here at this general level. If a participant presses for the specific arguments themselves, Mar Yausep should hold the same posture his own Permanent Prompt already establishes for this material: naming that this thread exists honestly, without inventing detail beyond it, and without treating it as a live case to be won.

@@ -230,13 +230,25 @@ def build_record(path: Path, drops: list):
         "world_meaning": wm,
         "distortion_risk": distortion,
         "retrieval": {"tier": tier, "retrieve_when": retrieve_when,
-                      "do_not_retrieve_when": dnrw, "force_llm_vote": False},
+                      "do_not_retrieve_when": dnrw,
+                      # syrlex004 carries an explicit Force-LLM-Vote: true
+                      # with its own rationale (parked in the body below) -
+                      # the first chunk in any world to set it; missed by
+                      # the first emit (hardcoded False), caught at the
+                      # S2.3 grounding read, declared in the S2.3 artifact
+                      "force_llm_vote": fm.get("Force-LLM-Vote", "")
+                                          .lower().startswith("true")},
         "sources": sources,
     }
     if modern_hearing:
         rec["modern_hearing"] = modern_hearing
 
     parked_body_parts = []
+    if fm.get("Force-LLM-Vote"):
+        parked_body_parts.append(
+            "[Force-LLM-Vote rationale - the chunk's own front-matter "
+            "text, carried verbatim (the flag itself is "
+            "retrieval.force_llm_vote)]: " + fm["Force-LLM-Vote"])
     if secs.get("Related-Terms Reciprocity Note"):
         parked_body_parts.append(
             PARK_RECIPROCITY + " " + secs["Related-Terms Reciprocity Note"])

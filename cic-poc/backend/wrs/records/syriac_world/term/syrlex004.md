@@ -61,7 +61,7 @@ retrieval:
   - condition_type: sense-disambiguation
     text: participant is asking about memra specifically and the distinction has already been surfaced
       in the current turn.
-  force_llm_vote: false
+  force_llm_vote: true
 sources:
 - source_id: srcSYR055
   author_gravity_note: 'Sebastian Brock, "Ephrem and the Syriac Tradition," in *The Cambridge History
@@ -85,5 +85,7 @@ modern_hearing: '**Modern Hearing:**
   itself.'
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex004_madrasha.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
+
+[Force-LLM-Vote rationale - the chunk's own front-matter text, carried verbatim (the flag itself is retrieval.force_llm_vote)]: true — this term's Do-Not-Retrieve-When names a specific, easily-confused sibling genre (Aphrahat's own prose Demonstrations) rather than a generic cross-world guard; the Tier-1 short-circuit never evaluates that distinction, so this term must always go through the LLM vote where it actually gets read.
 
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with raza/shrara (the hermeneutic this genre performs) and memra (a sister verse genre, distinguished by meter, occasion of use, and — for memra specifically — a later genre-crystallization caveat). Both entries list this term back.
