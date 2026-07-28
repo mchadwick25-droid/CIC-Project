@@ -54,20 +54,7 @@ world_meaning: 'There are two words in the Genesis text, and they are not synony
   the Logos who is himself the Image of the Father entered our nature, so that our nature is now, from
   within, being restored toward the image and drawn toward the likeness by the very one whose likeness
   it was always meant to bear — genuinely like God, in the only way a creature can be: expressing, in
-  creaturely form, the character, love, wisdom, and life of the one whose image we carry.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Likeness of God is the formation goal of the whole anthropological
-  stack — what image-bearers move toward through the sequence, and what that movement arrives at. It gives
-  the formation sequence its direction (every stage is a stage of growing likeness, oriented toward the
-  character of the God whose image the soul bears); it is what wisdom makes visible (the wise person is,
-  in some recognizable way, like the God they know); it completes the image/likeness distinction that
-  keeps the ecology from either presumption (the likeness already finished) or despair (the image too
-  damaged to recover); and it connects to Theosis as its eschatological completion — what formation grows
-  here, partial but real, is the same likeness theosis names as full, differing in fullness rather than
-  in kind. Understand the likeness and one understands why this world''s formation has both a ground and
-  a goal.'
+  creaturely form, the character, love, wisdom, and life of the one whose image we carry.'
 distortion_risk: '**World Hearing:**
 
   The moral qualities the modern hearing notices — the formed person loves more freely, sees more clearly,
@@ -122,6 +109,39 @@ modern_hearing: '**Modern Hearing:**
   "Becoming like God" as moral imitation — trying to act as God would act, modeling one''s conduct on
   the divine example. On this reading the likeness is a behavioral achievement imitated from outside,
   and the goal is conformity of conduct.'
+period_sense: What the Image of God becomes through formation - not a separate gift but the image progressively
+  restored and fulfilled, visible in the quality of a person's perceiving, loving, and living; the image
+  is given, the likeness is grown (chunk Quick/World Meaning).
+prior_sense: Grounded in the Genesis pair itself - eikon and homoiosis held distinct by the world's own
+  exegesis (chunk WM quotes the two words); no separate pre-world lexical career developed - none-attested.
+modern_sense: '''Becoming like God'' as moral imitation - modeling conduct on the divine example, a behavioral
+  program (chunk Modern Hearing).'
+conceptual_distance_note: 'The moral qualities the modern hearing notices are real, the world says so
+  - but they are fruit, not program: the likeness is the image restored through formation, not conduct
+  imitated (chunk World Hearing). Real gap of mechanism; moderate register.'
+semantic_domain: anthropology
+voice_surface: There are two words in the text, and they are not synonyms. The image is what every one
+  of us is simply by being human. The likeness is what formation grows that image toward.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex009
+  note: 'The likeness is the image''s goal - nothing to grow without the given mark (chunk WM). Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): The Likeness of God is the formation goal of
+    the whole anthropological stack — what image-bearers move toward through the sequence, and what that
+    movement arrives at. It gives the formation sequence its direction (every stage is a stage of growing
+    likeness, oriented toward the character of the God whose image the soul bears); it is what wisdom
+    makes visible (the wise person is, in some recognizable way, like the God they know); it completes
+    the image/likeness distinction that keeps the ecology from either presumption (the likeness already
+    finished) or despair (the image too damaged to recover); and it connects to Theosis as its eschatological
+    completion — what formation grows here, partial but real, is the same likeness theosis names as full,
+    differing in fullness rather than in kind. Understand the likeness and one understands why this world''s
+    formation has both a ground and a goal.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex012_likeness-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

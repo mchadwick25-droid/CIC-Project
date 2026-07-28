@@ -54,20 +54,7 @@ world_meaning: 'Wisdom cannot be acquired. It can only be grown.
   freely, suffer without bitterness, forgive without calculation, understand without arrogance. These
   are not virtues won by discipline alone. They are what the soul looks like when it has been genuinely
   formed — wisdom grown, as a tree grows, from the soil of catechesis, illumination, and gnosis, watered
-  by prayer and community and Scripture, over the years the divine pedagogy requires.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Wisdom is the stage at which the transformation of the soul (Doc_04
-  C2) becomes visible in the quality of a whole life: it is what knowledge accumulates into and what participation
-  expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps how this world
-  assesses formation — not by doctrinal credentials but by whether a person is becoming wiser — and why
-  teaching authority in the school tradition rests on demonstrated wisdom (the teacher in whom formation
-  is visible) rather than on office, which is one of the live tensions between teacher and bishop in this
-  world. Wisdom is also where this world holds together what would otherwise split apart: the intellectual
-  depth of real knowledge of God and the moral transformation that love of God produces. Knowledge without
-  love has not yet become wisdom, so wisdom is the standing refusal to let learning and holiness come
-  apart.'
+  by prayer and community and Scripture, over the years the divine pedagogy requires.'
 distortion_risk: '**World Hearing:**
 
   Not accumulated insight or theoretical achievement, but what a soul looks like when genuine knowledge
@@ -114,6 +101,45 @@ modern_hearing: '**Modern Hearing:**
   navigate life — or, in the academic sense, theoretical knowledge about ultimate things. Either way,
   wisdom is a cognitive achievement: you become wise by gathering the right experience or the right knowledge
   over time.'
+period_sense: What formation produces in a person over a lifetime - not a body of knowledge held but a
+  condition of the soul, visible in how one perceives, loves, speaks, and lives; grown, never acquired
+  (chunk Quick/World Meaning).
+prior_sense: Ordinary and philosophical Greek sophia - and the personified Wisdom of Proverbs 8-9 and
+  the Wisdom of Solomon, received by this world as anticipating the Logos (the chunk's own Key Sources
+  carry the Proverbs/Wisdom reception; pre-world philosophical usage UNVERIFIED against a registry source).
+modern_sense: Accumulated practical insight - the wisdom of age or folk sense - or theoretical knowledge
+  in the academic sense (chunk Modern Hearing).
+conceptual_distance_note: 'Modern wisdom accumulates from experience; this world''s grows from formation
+  - what a soul looks like when genuine knowledge of God has reached through the whole life (chunk World
+  Hearing). Real gap, moderate register: the modern sense is thin rather than inverted.'
+semantic_domain: formation-sequence
+voice_surface: Wisdom cannot be acquired. It can only be grown. No course of study ends in it; no doctrinal
+  mastery produces it. What produces wisdom is what the whole formation has been working toward from the
+  beginning.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex005
+  note: 'Wisdom is gnosis reached through a whole life - the sequence''s own order (chunk EF). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Wisdom is the stage at which the transformation of the
+    soul (Doc_04 C2) becomes visible in the quality of a whole life: it is what knowledge accumulates
+    into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps
+    wisdom grasps how this world assesses formation — not by doctrinal credentials but by whether a person
+    is becoming wiser — and why teaching authority in the school tradition rests on demonstrated wisdom
+    (the teacher in whom formation is visible) rather than on office, which is one of the live tensions
+    between teacher and bishop in this world. Wisdom is also where this world holds together what would
+    otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation
+    that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing
+    refusal to let learning and holiness come apart.'
+- type: presupposed-by
+  target_id: alexlex007
+  note: Participation expresses what wisdom has become - the EF ties wisdom to what participation expresses
+    (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex006_wisdom.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

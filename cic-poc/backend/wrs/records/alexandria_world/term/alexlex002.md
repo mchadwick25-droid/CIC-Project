@@ -42,16 +42,7 @@ world_meaning: 'Behind the catechist and the teacher and the bishop, behind even
 
   The formation this pedagogy works is cumulative, not a ladder of rungs left behind. Catechesis, illumination,
   knowledge, wisdom, participation, the horizon of theosis — these are deepening depths, each one carrying
-  forward and deepening what came before, none of them a phase the soul climbs out of and abandons.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Divine Pedagogy is the explanatory-framework supporting gravity
-  (Doc_04 C3): it makes the two Primary gravities intelligible as one divine activity. It grounds *why*
-  Scripture forms, *why* transformation is gradual, *why* suffering forms, and *why* the human teacher''s
-  authority is real but derivative — the teacher teaches under the Teacher (which is the root of the Teacher–Bishop
-  tension). It is classified Supporting, not Primary, because it organizes no practice of its own; it
-  is the frame within which the others are understood.'
+  forward and deepening what came before, none of them a phase the soul climbs out of and abandons.'
 distortion_risk: '**World Hearing:**
 
   God is *always* teaching; all of creation, Scripture, community, and suffering is the curriculum, and
@@ -88,6 +79,43 @@ modern_hearing: '**Modern Hearing:**
 
   "God''s teaching style" — a method or technique God uses, a supplement added to faith for those interested
   in growth.'
+period_sense: The conviction that God is always teaching - Scripture's resistance, the practices of formation,
+  suffering itself, and the slow deepening of understanding are all one curriculum under one Teacher who
+  is always ahead (chunk Quick/World Meaning).
+prior_sense: Carried into this world through paideia - Graeco-Roman formation-through-education - transformed
+  from human curriculum to divine activity (Doc_02 SS9 names paideia/divine pedagogy among the recurring
+  inherited terms; fuller pre-world development UNVERIFIED against a registry source).
+modern_sense: '''God''s teaching style'' - a method or technique, a supplement added to faith for those
+  interested in growth (chunk Modern Hearing).'
+conceptual_distance_note: 'Modern hearing makes pedagogy one optional activity of God''s among many; this
+  world heard ALL of creation, Scripture, community, and suffering as the curriculum - nothing outside
+  the teaching (chunk World Hearing). Sharp gap: high grounding criterion by rule.'
+semantic_domain: logos-center
+grounding_criterion: high
+voice_surface: Behind the catechist and the teacher and the bishop - behind even the hardship that breaks
+  open a heart argument could not reach - the same Teacher is at work. The Logos who made all things did
+  not fall silent afterward.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex001
+  note: 'The pedagogy is the Logos''s own continuing speech - remove the Logos and ''God teaches through
+    everything'' loses its subject (chunk WM/EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002):
+    Divine Pedagogy is the explanatory-framework supporting gravity (Doc_04 C3): it makes the two Primary
+    gravities intelligible as one divine activity. It grounds *why* Scripture forms, *why* transformation
+    is gradual, *why* suffering forms, and *why* the human teacher''s authority is real but derivative
+    — the teacher teaches under the Teacher (which is the root of the Teacher–Bishop tension). It is classified
+    Supporting, not Primary, because it organizes no practice of its own; it is the frame within which
+    the others are understood.'
+- type: presupposed-by
+  target_id: alexlex003
+  note: 'Catechesis is divine pedagogy''s human-scale enactment - the EF: pedagogy makes the gravities
+    intelligible as one divine activity (chunk EF).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex002_divine-pedagogy.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -52,20 +52,7 @@ world_meaning: 'Everything we say about the human person — the soul''s structu
   of something new. It is the restoring and fulfilling of what has been there, and hurt, all along. This
   is why we can speak of being brought back to our archetype — the image clarified until it reflects what
   it was always made to reflect — and why we can say the Logos entered our nature to begin, from inside,
-  the healing our nature was made for but could not accomplish alone.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Image of God is the foundational anthropological claim the
-  whole cluster presupposes: without it the anthropology has no ground. It is what makes formation intelligible
-  (the image is damaged but present, so it can be restored rather than created from scratch); it is why
-  the soul is the subject of formation (the soul is the image-bearer); it is why the nous is the soul''s
-  highest faculty (the nous is where the image of the Logos is most legible, most wounded, and most directly
-  restored); and it is what the likeness is the fulfillment of. It also carries the anthropological dimension
-  of the Logos-Centered Unity (Doc_04): the ecology coheres around the Logos because human nature is itself
-  Logos-shaped — every genuine human capacity for truth, love, and communion is a reflection of the Word.
-  Grasp the image and one grasps why this world treats the human being as made-for-God rather than merely
-  dignified.'
+  the healing our nature was made for but could not accomplish alone.'
 distortion_risk: '**World Hearing:**
 
   The image is first of all the ontological ground of the soul''s capacity *for* God — the reason formation,
@@ -117,6 +104,45 @@ modern_hearing: '**Modern Hearing:**
   "Image of God" as a moral and political claim — human beings have intrinsic dignity and rights because
   they bear God''s image. Not false, but it locates the image in moral *status*: what we are owed, how
   we should be treated.'
+period_sense: The indelible mark in every human being that makes formation possible - not a quality earned
+  or lost but the ontological ground of the soul's capacity for God, damaged by sin yet present, which
+  is why the person can be restored (chunk Quick/World Meaning and World Hearing).
+prior_sense: Grounded directly in the Genesis text ('in our image, according to our likeness' - the chunk's
+  own foundational citation); no separate pre-world lexical career is developed in the build's documents
+  - none-attested is the honest answer.
+modern_sense: A moral and political claim - intrinsic dignity and rights because humans bear God's image.
+  Not false, but it relocates the image (chunk Modern Hearing).
+conceptual_distance_note: The modern reading makes the image a status conferring rights; the world read
+  it as capacity - the reason formation, illumination, and real participation are possible at all (chunk
+  World Hearing). Real gap of location rather than inversion; the dignity reading is downstream, not wrong.
+semantic_domain: anthropology
+voice_surface: 'Everything we say about the human person rests on one conviction: we are made in the image
+  of God. Not a graceful way of saying we are impressive among the animals - the ground of the soul''s
+  capacity for God.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex012
+  note: 'The likeness is the image''s goal - given mark, grown resemblance (alexlex012 WM: the two Genesis
+    words held distinct). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The Image of God
+    is the foundational anthropological claim the whole cluster presupposes: without it the anthropology
+    has no ground. It is what makes formation intelligible (the image is damaged but present, so it can
+    be restored rather than created from scratch); it is why the soul is the subject of formation (the
+    soul is the image-bearer); it is why the nous is the soul''s highest faculty (the nous is where the
+    image of the Logos is most legible, most wounded, and most directly restored); and it is what the
+    likeness is the fulfillment of. It also carries the anthropological dimension of the Logos-Centered
+    Unity (Doc_04): the ecology coheres around the Logos because human nature is itself Logos-shaped —
+    every genuine human capacity for truth, love, and communion is a reflection of the Word. Grasp the
+    image and one grasps why this world treats the human being as made-for-God rather than merely dignified.'
+- type: presupposed-by
+  target_id: alexlex010
+  note: 'The soul is the image-bearer - its whole anthropology stands on the image (alexlex010 QM; chunk
+    EF: the foundational claim the cluster presupposes).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex009_image-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

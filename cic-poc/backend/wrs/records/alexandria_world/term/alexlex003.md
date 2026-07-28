@@ -62,20 +62,7 @@ world_meaning: 'Catechesis does not begin with what a person knows. It begins wi
   What catechesis is not: it is not a doctrinal exam, not a class that transfers information, not a friendly
   initiation into a circle. It is how a person who has not yet been formed to receive Scripture as deep
   formative reality begins, over time, to be formed by it — and how that person is first turned toward
-  the transformation of the soul toward God.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Catechesis is the entry mechanism of the whole formation ecology:
-  it initiates the movement that Scripture-as-formative reality (Doc_04 C1) and the transformation of
-  the soul (C2) carry forward, and it is ordered from the start by the Divine Pedagogy supporting gravity
-  (C3), which is why it is graduated rather than delivered all at once. Every later dimension — illumination,
-  knowledge, wisdom, participation — presupposes that a person has been catechetically formed enough to
-  receive it, so the sequence begins here. A participant who grasps catechesis grasps why formation is
-  ecclesial rather than private (the whole community forms the catechumen, so the community''s integrity
-  is itself formative), why it is held within the Rule of Faith (the catechumen is received into a shared
-  inhabitation of Scripture, not given a private reading), and why the question of who governs catechetical
-  formation — the school teacher or the bishop''s community — is one of the live tensions of this world.'
+  the transformation of the soul toward God.'
 distortion_risk: '**World Hearing:**
 
   The formation of a person, not the transfer of information. Someone who has heard everything and can
@@ -126,6 +113,51 @@ modern_hearing: '**Modern Hearing:**
   "Catechism" as a booklet of doctrinal questions and answers to be memorized — a transfer of correct
   information, completed when the person can recite the right answers. The catechist delivers content;
   the catechumen retains it.'
+period_sense: The long, community-held, Scripture-formed process through which a person is gradually shaped
+  into Christian life - begun from who the person is, not what they know; a transformation undertaken,
+  not a doctrine-list accepted (chunk Quick/World Meaning).
+prior_sense: Ordinary Greek katechein, to instruct by word of mouth - noted from standard lexica, UNVERIFIED
+  against a registry source; the build's own documents develop the world's practice, not the word's earlier
+  career.
+modern_sense: '''Catechism'' as a booklet of doctrinal questions and answers to memorize - information
+  transfer, completed on recitation (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern object is a text mastered; the world''s practice is a person formed
+  - someone who can repeat everything but whose desire is unreordered has not yet begun (chunk World Hearing).
+  Sharp gap: high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: When someone comes to us and asks to enter, we do not sit them down for an examination.
+  They have come for a transformation, and that is what we begin. Catechesis does not begin with what
+  a person knows - it begins with who they are.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex004
+  note: 'Catechesis initiates the movement illumination carries forward - the EF names it the entry mechanism
+    of the whole ecology (chunk EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Catechesis
+    is the entry mechanism of the whole formation ecology: it initiates the movement that Scripture-as-formative
+    reality (Doc_04 C1) and the transformation of the soul (C2) carry forward, and it is ordered from
+    the start by the Divine Pedagogy supporting gravity (C3), which is why it is graduated rather than
+    delivered all at once. Every later dimension — illumination, knowledge, wisdom, participation — presupposes
+    that a person has been catechetically formed enough to receive it, so the sequence begins here. A
+    participant who grasps catechesis grasps why formation is ecclesial rather than private (the whole
+    community forms the catechumen, so the community''s integrity is itself formative), why it is held
+    within the Rule of Faith (the catechumen is received into a shared inhabitation of Scripture, not
+    given a private reading), and why the question of who governs catechetical formation — the school
+    teacher or the bishop''s community — is one of the live tensions of this world.'
+- type: presupposes
+  target_id: alexlex002
+  note: The practice enacts the divine teaching - remove the conviction that God is always teaching and
+    catechesis loses its ground (chunk EF).
+- type: presupposes
+  target_id: alexlex013
+  note: 'Formation is invitation, not programming: it works through the soul''s genuine response - remove
+    autexousia and catechesis becomes manipulation (alexlex013 WM).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex003_catechesis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

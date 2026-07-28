@@ -41,15 +41,7 @@ world_meaning: 'There is a difference between knowing about light and seeing by 
 
   Baptism carries the name *photismos* — illumination — precisely for this reason. The sacrament is the
   enactment of the change: the one baptized is *enlightened*. But the ceremony inaugurates the change;
-  it does not exhaust it. Illumination is begun in the water and deepens across the whole formed life.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Illumination is the hinge of the formation sequence: it connects
-  the catechetical stage to knowledge, wisdom, and participation, and it is what makes Alexandrian *gnosis*
-  possible (gnosis is what the soul does with what it has been illumined to see). It also grounds the
-  multilevel reading of Scripture — the capacity to perceive the text''s depths is a formed *perception*,
-  not a reading technique, which is why the depths are said to be seen rather than constructed.'
+  it does not exhaust it. Illumination is begun in the water and deepens across the whole formed life.'
 distortion_risk: '**World Hearing:**
 
   A real increase in the soul''s capacity to *see* what was already there. The change is in perception,
@@ -85,6 +77,47 @@ modern_hearing: '**Modern Hearing:**
 
   Either the historical Enlightenment, or a generic private insight — an intellectual achievement or a
   subjective feeling of clarity that the person produces or stumbles into.'
+period_sense: Not learning more facts but coming to SEE differently - a real change in the soul's perception,
+  worked by the Logos through Scripture and formation; given, not generated; an advance in what the soul
+  can perceive, not in what it knows about (chunk Quick/World Meaning).
+prior_sense: The world's own baptismal vocabulary carried it as photismos - baptismal illumination (Doc_02
+  SS9 names photismos among the recurring terms; the chunk's Key Sources name the baptismal tradition).
+  Pre-Christian philosophical light-imagery UNVERIFIED against a registry source.
+modern_sense: Either the historical Enlightenment, or a generic private insight - an intellectual achievement
+  or a subjective feeling of clarity the person produces (chunk Modern Hearing).
+conceptual_distance_note: 'Modern illumination is produced by the one illumined; this world''s is received
+  - the change is in perception, not feeling, and the light is given (chunk World Hearing). Sharp inversion
+  of agency: high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: A person can master the whole science of optics and sit in the dark; a child in the sunlight,
+  who knows none of it, sees. Illumination is that second thing - not an advance in what the soul knows
+  about, but in what it can perceive.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex003
+  note: 'The entry process opens what illumination then works in - the sequence''s own order (chunk EF:
+    the hinge connecting the catechetical stage onward). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): Illumination is the hinge of the formation sequence: it connects the catechetical stage
+    to knowledge, wisdom, and participation, and it is what makes Alexandrian *gnosis* possible (gnosis
+    is what the soul does with what it has been illumined to see). It also grounds the multilevel reading
+    of Scripture — the capacity to perceive the text''s depths is a formed *perception*, not a reading
+    technique, which is why the depths are said to be seen rather than constructed.'
+- type: presupposes
+  target_id: alexlex001
+  note: Worked by the Logos - the light is his (chunk QM).
+- type: presupposes
+  target_id: alexlex011
+  note: What illumination most directly reaches is the nous - the mind's eye it opens (alexlex011 QM/EF).
+- type: presupposed-by
+  target_id: alexlex005
+  note: Gnosis is what the soul does with what illumination lets it see (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex004_illumination.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

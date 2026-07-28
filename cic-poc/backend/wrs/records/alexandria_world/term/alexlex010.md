@@ -53,20 +53,7 @@ world_meaning: 'There is a misunderstanding to clear away before the soul can be
   shape the soul''s desires, the soul''s practices shape the nous''s capacity, and the nous''s formed
   perception turns the soul''s whole orientation. And the soul is what all of this is for — what receives
   catechesis, what is illumined, what gnosis transforms, what wisdom shapes, what participates in the
-  divine life, and what theosis names in its final restoration.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The soul is the formation subject — the one every practice is
-  addressed to, every stage of the sequence works through, and every dimension of the ecology serves.
-  It holds the sequence together (catechesis, illumination, gnosis, wisdom, participation are stages in
-  one soul''s journey, not a curriculum for minds); it grounds the formative role of the body (because
-  the soul is expressed through the body, bodily practices are genuine formation, not peripheral aids);
-  it carries the pastoral edge of the Teacher–Bishop tension (teacher and bishop address the same soul
-  by different means — interpretation and illumination on one side, governance and pastoral protection
-  on the other); and it presupposes the Image of God, since the soul can respond to formation only because
-  it is the image-bearer. Understand the soul and one understands why this world forms whole persons rather
-  than instructing minds.'
+  divine life, and what theosis names in its final restoration.'
 distortion_risk: '**World Hearing:**
 
   The soul is the whole person as oriented toward God — neither ghost-in-a-machine nor poetic fiction.
@@ -121,6 +108,45 @@ modern_hearing: '**Modern Hearing:**
   practice becomes at best instrumental, at worst a distraction. The other is materialist: the soul as
   a metaphor, a poetic word for mind or character with no distinct reference — so formation is really
   just psychology.'
+period_sense: 'Not a ghost inhabiting a body - the whole human person understood as a being made for God:
+  the image-bearer, animated through the body, oriented toward God by nature; the subject every formation
+  practice addresses (chunk Quick/World Meaning and EF).'
+prior_sense: Ordinary Greek psyche, life/soul, with the Platonic soul-body frame standing close enough
+  that the world's own teaching had to refuse the prison-of-the-soul reading (chunk WM refuses it explicitly);
+  pre-world usage beyond that refusal UNVERIFIED against a registry source.
+modern_sense: 'Two opposite readings, both failing: the popular-religious inner ghost that survives death
+  as the ''real self''; or the reductive reading where soul is a poetic fiction (chunk Modern Hearing).'
+conceptual_distance_note: 'Both modern readings miss the orientation that defines the term: the soul is
+  the whole person as oriented toward God - neither ghost-in-a-machine nor metaphor (chunk World Hearing).
+  Sharp doubled gap: high grounding criterion by rule.'
+semantic_domain: anthropology
+grounding_criterion: high
+voice_surface: It is easy to picture the soul as an inner resident - a spirit lodged in flesh, waiting
+  to be freed from its prison. That is not what psyche means for us, and it is precisely the account we
+  refused.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex009
+  note: 'The soul''s capacity for God IS the image borne (chunk QM). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): The soul is the formation subject — the one every practice is addressed to,
+    every stage of the sequence works through, and every dimension of the ecology serves. It holds the
+    sequence together (catechesis, illumination, gnosis, wisdom, participation are stages in one soul''s
+    journey, not a curriculum for minds); it grounds the formative role of the body (because the soul
+    is expressed through the body, bodily practices are genuine formation, not peripheral aids); it carries
+    the pastoral edge of the Teacher–Bishop tension (teacher and bishop address the same soul by different
+    means — interpretation and illumination on one side, governance and pastoral protection on the other);
+    and it presupposes the Image of God, since the soul can respond to formation only because it is the
+    image-bearer. Understand the soul and one understands why this world forms whole persons rather than
+    instructing minds.'
+- type: presupposed-by
+  target_id: alexlex011
+  note: The nous is the soul's highest faculty - its deepest part (alexlex011 QM/WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex010_soul-psyche.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

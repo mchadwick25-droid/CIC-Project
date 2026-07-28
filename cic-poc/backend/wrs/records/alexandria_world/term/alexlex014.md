@@ -42,16 +42,7 @@ world_meaning: 'The reading Scripture asks for here is not study but encounter. 
   they become the soul''s own words; the annual walk through the Paschal cycle. These are not equivalent,
   and the ecology needs all of them — the depth-reading is not available to everyone, but the Logos speaking
   through the heard Scripture and the prayed Psalm reaches those the school cannot. What unites them is
-  that in each, something is being said, now, by someone who is present.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Scripture is the primary vehicle of the first Primary gravity
-  (Scripture as Deep Formative Reality, Doc_04 C1): nearly every other practice takes Scripture as its
-  content or is organized around hearing it. A participant who understands Scripture-as-address understands
-  the whole interpretive tradition (the reader is helped to perceive, not taught to decode), the formation
-  sequence (the text forms the one who encounters it), the liturgical ecology (worship is where Scripture
-  is heard by all), and the Rule of Faith (the boundary within which the reading stays faithful).'
+  that in each, something is being said, now, by someone who is present.'
 distortion_risk: '**World Hearing:**
 
   The Logos speaking *now*, held in a *formative* relationship: the text forms the reader through the
@@ -90,6 +81,42 @@ modern_hearing: '**Modern Hearing:**
 
   Either a set of fixed divine propositions to be believed, or a collection of ancient human documents
   to be analyzed — both of which make Scripture a text *from the past* held in a *cognitive* relationship.'
+period_sense: Not a historical document recording what God once said - the living address of the Logos
+  speaking now, through the text, to the soul formed to hear; read as encounter, held in a formative relationship
+  (chunk Quick/World Meaning).
+prior_sense: 'none-attested as a lexical prior: the entry''s frame is the world''s reading practice, not
+  a pre-world career of the word - the practice''s own inheritance (allegorical reading of Scripture as
+  philosophy) is the Philonic grammar (Doc_02 SS3.5).'
+modern_sense: Either fixed divine propositions to believe, or ancient human documents to analyze - both
+  making Scripture a text FROM the past (chunk Modern Hearing).
+conceptual_distance_note: 'Both modern readings freeze the text in the past; the world read a present
+  address - the task is not correct interpretation but formed hearing (chunk World Hearing). Sharp gap
+  in tense: high grounding criterion by rule.'
+semantic_domain: scripture-reading
+grounding_criterion: high
+voice_surface: The reading Scripture asks for here is not study but encounter. Study produces information
+  and stops. To read Scripture is to come before one who is genuinely speaking - now, to you.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex001
+  note: 'Scripture forms because the Logos speaks in it (chunk EF: the primary vehicle of the first Primary
+    gravity). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Scripture is the primary vehicle
+    of the first Primary gravity (Scripture as Deep Formative Reality, Doc_04 C1): nearly every other
+    practice takes Scripture as its content or is organized around hearing it. A participant who understands
+    Scripture-as-address understands the whole interpretive tradition (the reader is helped to perceive,
+    not taught to decode), the formation sequence (the text forms the one who encounters it), the liturgical
+    ecology (worship is where Scripture is heard by all), and the Rule of Faith (the boundary within which
+    the reading stays faithful).'
+- type: presupposed-by
+  target_id: alexlex015
+  note: Christological Reading is the orientation that makes Scripture-as-address operable (alexlex015
+    EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex014_scripture.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

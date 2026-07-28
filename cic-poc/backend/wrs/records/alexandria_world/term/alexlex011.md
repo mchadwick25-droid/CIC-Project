@@ -46,15 +46,7 @@ world_meaning: 'Beneath the discursive mind that reasons from one thing to the n
 
   (A third, still more systematic account of the nous — its purification through *apatheia* into imageless
   prayer — belongs to Evagrius and the desert tradition. That is desert-attributed and reserved for the
-  Desert Christianity build; it is not part of this world''s own attested vocabulary.)
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The nous is the faculty through which the sequence''s deepest
-  work occurs — what illumination opens, gnosis deepens, and participation fulfills. It is presupposed
-  by the multilevel reading of Scripture (the depths are perceived by the formed nous), it is the highest
-  expression of the image of God, and it is the seat of contemplative prayer. Understand the nous and
-  one understands why perception, not information, is the axis of this world''s formation.'
+  Desert Christianity build; it is not part of this world''s own attested vocabulary.)'
 distortion_risk: '**World Hearing:**
 
   The contemplative-*perceiving* faculty — it perceives God directly, more like sight or contact than
@@ -87,6 +79,40 @@ modern_hearing: '**Modern Hearing:**
 
   "Intellect" as abstract reasoning or raw cleverness; forming the nous would then mean education or doctrinal
   mastery.'
+period_sense: The highest faculty of the soul - the capacity for direct, non-discursive perception of
+  divine reality, the mind's eye that illumination opens and contemplation deepens; a seeing rather than
+  a working-out (chunk Quick/World Meaning).
+prior_sense: Greek philosophical nous - intellect/mind as the highest cognitive faculty - the inherited
+  frame this world re-tasked toward perception of God; noted from standard lexica, UNVERIFIED against
+  a registry source.
+modern_sense: '''Intellect'' as abstract reasoning or raw cleverness - forming the nous would then mean
+  education or doctrinal mastery (chunk Modern Hearing).'
+conceptual_distance_note: 'Modern intellect argues; the world''s nous perceives - more like sight or contact
+  than argument, and its formation is purification, not schooling (chunk World Hearing). Sharp gap: high
+  grounding criterion by rule.'
+semantic_domain: anthropology
+grounding_criterion: high
+voice_surface: 'Beneath the mind that reasons from one thing to the next, the soul has a faculty of a
+  different kind: a seeing rather than a working-out. This is the nous - the part of us illumination most
+  directly reaches.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex010
+  note: 'The nous is the soul''s own depth, not a separate organ (chunk QM). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): The nous is the faculty through which the sequence''s deepest work
+    occurs — what illumination opens, gnosis deepens, and participation fulfills. It is presupposed by
+    the multilevel reading of Scripture (the depths are perceived by the formed nous), it is the highest
+    expression of the image of God, and it is the seat of contemplative prayer. Understand the nous and
+    one understands why perception, not information, is the axis of this world''s formation.'
+- type: presupposed-by
+  target_id: alexlex004
+  note: Illumination opens the mind's eye - the faculty it most directly reaches (chunk WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex011_nous.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

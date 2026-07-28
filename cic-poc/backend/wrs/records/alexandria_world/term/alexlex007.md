@@ -43,15 +43,7 @@ world_meaning: 'When this world says the soul participates in the divine life, i
   And because it is participation in the *Logos*, it is never solitary. The soul shares in Christ through
   the community and its life, not in a private mystical union sealed off from others. This is why the
   Eucharist stands at the center: it is the recurring, bodily enactment of participation — the community
-  becoming, again, what it is, by sharing in the one whose life it partakes.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Participation is the operational term for what the second Primary
-  gravity (Transformation) is *for* — it names both the mechanism and the goal at once: the soul is being
-  transformed *into* real sharing in God. It anchors the purpose of the whole sequence, the formative
-  function of the Eucharist, the non-individualism of the ecology (one participates through the community),
-  and the necessity of the incarnation (participation requires that the Logos be truly God).'
+  becoming, again, what it is, by sharing in the one whose life it partakes.'
 distortion_risk: '**World Hearing:**
 
   The *ontological* sharing that operates within those activities: a branch drawing its life from the
@@ -91,6 +83,40 @@ sources:
 modern_hearing: '**Modern Hearing:**
 
   Involvement — taking part in activities, being included, contributing. Not false, but far too shallow.'
+period_sense: 'What the whole formation sequence arrives at - not nearness to God but real sharing in
+  the divine life itself, placed carefully between two refused failures: the soul that merely approaches
+  across an unclosed gap, and the soul dissolved into God (chunk Quick/World Meaning).'
+prior_sense: Platonic methexis - participation of particulars in forms - as the inherited philosophical
+  frame; noted from standard accounts of the tradition, UNVERIFIED against a registry source.
+modern_sense: Involvement - taking part in activities, being included, contributing. Not false, but far
+  too shallow (chunk Modern Hearing, its own words).
+conceptual_distance_note: 'Modern participation is social involvement; the world meant ontological sharing
+  - a branch drawing life from the vine, not propped against it (chunk World Hearing). Sharp gap in kind:
+  high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: When we say the soul participates in the divine life, we are not reaching for a metaphor.
+  Something real is shared - as a branch draws its life from the vine, not as a branch propped against
+  it.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex006
+  note: 'Participation expresses the condition wisdom names (chunk EF: mechanism and goal of the Transformation
+    gravity). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Participation is the operational
+    term for what the second Primary gravity (Transformation) is *for* — it names both the mechanism and
+    the goal at once: the soul is being transformed *into* real sharing in God. It anchors the purpose
+    of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology
+    (one participates through the community), and the necessity of the incarnation (participation requires
+    that the Logos be truly God).'
+- type: presupposed-by
+  target_id: alexlex008
+  note: Theosis is participation's horizon - restored likeness through real sharing (alexlex008 QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex007_participation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

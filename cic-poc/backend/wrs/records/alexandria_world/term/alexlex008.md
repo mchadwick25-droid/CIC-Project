@@ -42,16 +42,7 @@ world_meaning: 'The formula is audacious and is best stated plainly: God became 
   participates; but its fullness is always ahead, eschatological, further than any stage the soul has
   yet reached. One does not arrive at theosis and stop. It is the direction the whole life is set toward,
   the point at which participation would be complete — the soul''s true home, always drawing it further
-  in.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Theosis anchors the eschatological horizon of the whole sequence
-  and gives the Transformation gravity its *direction*. Note carefully: in this build''s gravity discovery
-  (Doc_04) theosis is classified a **Formation Dynamic, not a gravity** — it names *where* transformation
-  goes, not *how* it is organized, and it directs no formation practice of its own. Keep it distinct from
-  Transformation (the organizing gravity, which is the *how*): theosis is the horizon; transformation
-  is the movement toward it.'
+  in.'
 distortion_risk: '**World Hearing:**
 
   Theosis *presupposes* that distinction: the creature genuinely participates in the divine life without
@@ -88,6 +79,43 @@ modern_hearing: '**Modern Hearing:**
 
   "Aren''t you saying humans become God?" — heard as pantheism or hubris, collapsing the Creator–creature
   distinction.'
+period_sense: 'The horizon toward which the whole formation life moves - not that the soul becomes God,
+  but that through the Logos''s incarnation and real participation the person is drawn into genuine divine
+  life without the Creator-creature distinction collapsing; the formula held as long-received: God became
+  human so that humanity might become god (chunk Quick/World Meaning).'
+prior_sense: 'The pagan apotheosis of heroes and emperors stands nearby as the false cognate the world''s
+  own careful usage guards against - noted from standard accounts, UNVERIFIED against a registry source;
+  the world''s own formula is attested in its record (chunk WM: Clement''s gnostikos ''becoming god'',
+  Athanasius ch. 54).'
+modern_sense: '''Aren''t you saying humans become God?'' - heard as pantheism or hubris, collapsing the
+  Creator-creature distinction (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern ear hears the distinction collapsing; the world''s theosis PRESUPPOSES
+  it - genuine participation without absorption, dissolution, or confusion (chunk World Hearing). Sharp
+  gap on the exact point the formula turns on: high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: 'The formula is audacious and is best stated plainly: God became human so that humanity
+  might become god. It must be heard exactly - the creature genuinely shares the divine life, and remains
+  creature.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex007
+  note: 'Theosis is what real participation opens onto (chunk EF: anchors the sequence''s eschatological
+    horizon). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Theosis anchors the eschatological
+    horizon of the whole sequence and gives the Transformation gravity its *direction*. Note carefully:
+    in this build''s gravity discovery (Doc_04) theosis is classified a **Formation Dynamic, not a gravity**
+    — it names *where* transformation goes, not *how* it is organized, and it directs no formation practice
+    of its own. Keep it distinct from Transformation (the organizing gravity, which is the *how*): theosis
+    is the horizon; transformation is the movement toward it.'
+- type: presupposes
+  target_id: alexlex001
+  note: The formula runs through the incarnate Logos (chunk WM/Key Sources).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex008_theosis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

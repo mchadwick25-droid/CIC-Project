@@ -73,19 +73,7 @@ world_meaning: 'One distinction has to come first: Christological Reading is an 
   directly about Christ without distorting its own sense, what keeps such reading from becoming arbitrary,
   how typology relates to allegory — these questions are genuinely open, argued within the church and
   against readers who press us on exactly this point. The orientation itself we hold firmly; its precise
-  scope and limits we hold as a real and living question.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Christological Reading is the interpretive orientation that makes
-  Scripture-as-address (Doc_04 C1) operable in practice, and it is grounded in the Logos-Centered Unity
-  (C4): because the Logos who speaks through the text is the one integrating reality of the whole ecology,
-  reading toward him is how the unity of Scripture is realized in interpretation rather than merely asserted.
-  A participant who grasps this orientation grasps why the Old and New Testaments form one address rather
-  than two collections joined by accident, why the allegorical method needs this orientation to be anything
-  other than arbitrary (allegory oriented toward Christ perceives the one always speaking; allegory without
-  it is only a technique), and why the Rule of Faith functions here as a Christological constraint — a
-  reading that does not arrive at the Christ the community confesses has missed what Scripture is about.'
+  scope and limits we hold as a real and living question.'
 distortion_risk: '**World Hearing:**
 
   Christological Reading is not what a reader does to a text; it is what the text does to a reader formed
@@ -143,6 +131,43 @@ modern_hearing: '**Modern Hearing:**
   Old Testament imposes a later Christian frame on texts with their own original meaning, and that reading
   the Song of Songs as the soul''s union with Christ is creative theological fiction rather than genuine
   interpretation. The worry names a real risk, and it was raised from inside the church too.'
+period_sense: 'An orientation, not a method: the conviction that Scripture at every level is the address
+  of the Logos who is Christ - what governs the interpretive moves and gives them their purpose; what
+  the text does to a reader formed to hear it (chunk Quick/World Meaning and World Hearing).'
+prior_sense: 'none-attested: a build-named orientation of this world''s own practice, not an inherited
+  lexeme.'
+modern_sense: Eisegesis - reading a later Christian meaning into texts that do not carry it (chunk Modern
+  Hearing).
+conceptual_distance_note: 'The modern worry runs reader-to-text (imposition); the world''s claim runs
+  text-to-reader (address) - the Logos who speaks through Scripture is the Christ the formed reader meets
+  (chunk World Hearing). Sharp reversal of direction: high grounding criterion by rule.'
+semantic_domain: scripture-reading
+grounding_criterion: high
+voice_surface: 'Allegory is a method - moves a reader makes. This is not that. It is the orientation that
+  governs the moves: the one who speaks through the text is the one the reader is being formed to meet.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex014
+  note: 'The orientation operates the world''s Scripture-as-address conviction (chunk EF). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Christological Reading is the interpretive orientation
+    that makes Scripture-as-address (Doc_04 C1) operable in practice, and it is grounded in the Logos-Centered
+    Unity (C4): because the Logos who speaks through the text is the one integrating reality of the whole
+    ecology, reading toward him is how the unity of Scripture is realized in interpretation rather than
+    merely asserted. A participant who grasps this orientation grasps why the Old and New Testaments form
+    one address rather than two collections joined by accident, why the allegorical method needs this
+    orientation to be anything other than arbitrary (allegory oriented toward Christ perceives the one
+    always speaking; allegory without it is only a technique), and why the Rule of Faith functions here
+    as a Christological constraint — a reading that does not arrive at the Christ the community confesses
+    has missed what Scripture is about.'
+- type: presupposes
+  target_id: alexlex001
+  note: Grounded in the Logos-Centered Unity (chunk EF, Doc_04 C4).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex015_christological-reading.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

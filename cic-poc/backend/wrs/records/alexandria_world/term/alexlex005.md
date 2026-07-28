@@ -40,16 +40,7 @@ world_meaning: 'When this world says gnosis it does not mean information. There 
   It is not a possession that puffs up but a knowing that produces humility, because the more truly one
   knows God the more one knows how far there still is to go. And it does not create a two-tier church:
   faith (*pistis*) is the beginning of the same road whose maturity is gnosis — different stages of one
-  journey, not two classes of Christian.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Gnosis is the formation stage between illumination and wisdom,
-  and it is the reason learning and holiness are inseparable in this world (a knowledge that leaves the
-  knower unchanged is not yet gnosis). It is also the ecology''s primary tool for distinguishing true
-  from counterfeit knowledge — the positive account built precisely against the Valentinian and Basilidean
-  claims. A participant who grasps gnosis grasps why this world refuses esotericism, why faith and mature
-  knowledge are one continuum, and why knowing here always bends toward love.'
+  journey, not two classes of Christian.'
 distortion_risk: '**World Hearing:**
 
   Contact with real divine being that changes the knower — the fruit of formation, open to every believer,
@@ -87,6 +78,44 @@ modern_hearing: '**Modern Hearing:**
 
   Two problems at once: "knowledge" as propositional content separable from the knower; and "Gnostic"
   as esoteric, dualist, body-denying elitism — very nearly the exact opposite of what this term names.'
+period_sense: 'Not secret teaching and not information mastered - the transformative knowing of God that
+  illumination produces: knowing that changes the knower, inseparable from love, open to every believer,
+  shown in a visibly reshaped life (chunk Quick/World Meaning and World Hearing).'
+prior_sense: 'Ordinary Greek gnosis, knowing/knowledge - and, pressing on the world from beside it, the
+  rival esoteric claim of the Gnostic schools this world''s own ''true gnostic'' vocabulary answered (Doc_02
+  SS9 and Stream 12: gnosis/''true gnostic'' named among the inherited-and-contested terms; the Gnostic
+  challenge as an ongoing force).'
+modern_sense: 'Two problems at once: ''knowledge'' as propositional content separable from the knower;
+  and ''Gnostic'' as esoteric, dualist, body-denying elitism (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern ear hears either information or heresy; the world meant contact
+  with real divine being that changes the knower - the fruit of formation, not a possession (chunk World
+  Hearing). Sharp, doubled gap (the Gnostic false-cognate rides beside the information false-cognate):
+  high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: There is a kind of knowing that leaves the knower unchanged - facts held as a possession,
+  mastered and set down. That is exactly what gnosis is not. Gnosis is the knowing that changes the one
+  who knows.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex004
+  note: 'Gnosis works with what illumination lets the soul see (chunk EF: the stage between illumination
+    and wisdom). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Gnosis is the formation
+    stage between illumination and wisdom, and it is the reason learning and holiness are inseparable
+    in this world (a knowledge that leaves the knower unchanged is not yet gnosis). It is also the ecology''s
+    primary tool for distinguishing true from counterfeit knowledge — the positive account built precisely
+    against the Valentinian and Basilidean claims. A participant who grasps gnosis grasps why this world
+    refuses esotericism, why faith and mature knowledge are one continuum, and why knowing here always
+    bends toward love.'
+- type: presupposed-by
+  target_id: alexlex006
+  note: Wisdom is what genuine knowledge accumulates into across a life (alexlex006 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex005_knowledge-gnosis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

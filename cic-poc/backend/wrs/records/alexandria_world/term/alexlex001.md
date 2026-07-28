@@ -43,17 +43,7 @@ world_meaning: 'The Logos is not a Greek abstraction the church borrowed to soun
   and their need: the same Word who is the philosopher''s half-glimpsed Reason is the child''s teacher
   and the dying martyr''s companion. That is why everything in this world''s life keeps returning to him
   — he is not one topic among many but the single reality within which every other thing is believed,
-  prayed, read, and learned.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Logos is the integrating center of the whole ecology (the
-  Logos-Centered Unity supporting gravity, Doc_04 C4): it is the theological ground of both Primary gravities
-  — it is what makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being
-  transformed into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy
-  as preparation, why Scripture is read for depth, why worship and learning belong together, and why the
-  incarnation (the homoousios) is load-bearing rather than decorative — remove the Logos and the ecology
-  fragments into four disconnected domains.'
+  prayed, read, and learned.'
 distortion_risk: '**World Hearing:**
 
   The ground of reality itself, and the living person of Christ. Not a doctrine believed *about*, but
@@ -94,6 +84,57 @@ modern_hearing: '**Modern Hearing:**
 
   A technical concept from Hellenistic metaphysics that the early church adopted to give Christianity
   intellectual credibility — one doctrine among many, of interest mainly to specialists.'
+period_sense: The eternal Word and Reason of God through whom all things were made, through whom God teaches,
+  through whom Scripture speaks, and toward whom the soul is drawn back - identified with Christ, so that
+  learning, Scripture, worship, and formation are one movement toward a single reality; the ground of
+  reality itself, not one doctrine among many (chunk Quick/World Meaning).
+prior_sense: 'Greek philosophy''s cosmic reason and, decisively for this world, Philo''s Logos as divine
+  intermediary - the inherited grammar this world entered rather than built (Doc_02 SS3.5: allegorical
+  reading, the Logos as intermediary, named as inheritance).'
+modern_sense: A technical concept from Hellenistic metaphysics the early church adopted for intellectual
+  credibility - one doctrine among many, mainly for specialists (chunk Modern Hearing).
+conceptual_distance_note: 'The modern ear files the Logos under ''doctrine''; this world lived it as the
+  ground under everything - the reality within which everything else is believed, learned, prayed, and
+  undergone, so that meeting truth anywhere is already meeting the Logos (chunk World Hearing). Sharp
+  gap: high grounding criterion by rule.'
+semantic_domain: logos-center
+grounding_criterion: high
+voice_surface: The Logos is not a borrowed abstraction. At the root of everything is the Word through
+  whom all things were made and in whom all things hold together. There are not two roads, one for the
+  mind and one for the heart - there is one Word, and to think truly and to be formed truly are the same
+  road walked at different depths.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex002
+  note: 'Divine pedagogy is the Logos teaching continuously - the EF names the Logos as the theological
+    ground of both Primary gravities (chunk EF, Doc_04 C4). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): The Logos is the integrating center of the whole ecology (the Logos-Centered Unity
+    supporting gravity, Doc_04 C4): it is the theological ground of both Primary gravities — it is what
+    makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed
+    into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as
+    preparation, why Scripture is read for depth, why worship and learning belong together, and why the
+    incarnation (the homoousios) is load-bearing rather than decorative — remove the Logos and the ecology
+    fragments into four disconnected domains.'
+- type: presupposed-by
+  target_id: alexlex004
+  note: Illumination is worked by the Logos through Scripture and formation (chunk QM).
+- type: presupposed-by
+  target_id: alexlex014
+  note: Scripture is formative because it is where the Logos speaks (chunk EF).
+- type: presupposed-by
+  target_id: alexlex015
+  note: 'Christological Reading is grounded in the Logos-Centered Unity: the Logos who speaks through
+    the text is the Christ the reader meets (chunk EF).'
+- type: presupposed-by
+  target_id: alexlex008
+  note: Theosis runs through the Logos's incarnation - God became human so that humanity might become
+    god (chunk WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex001_logos.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -55,22 +55,7 @@ world_meaning: 'If the soul had no genuine freedom — no real self-determinatio
   the capacity for. And so formation is not a curbing of freedom but its restoration: the soul progressively
   released from the attachments and misdirections that sin introduced is progressively more free — more
   able to choose what it was made to choose, to attend to what illumination opens, to receive what divine
-  pedagogy offers.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Freedom is the condition that makes genuine formation possible
-  — the claim that gives the whole ecology its character as invitation rather than imposition, pedagogy
-  rather than programming. It sets the ecology''s *mode* (catechesis that can be received or refused,
-  illumination that reaches the soul that attends — an ecology of imposition would produce only imposition,
-  never the likeness of God); it grounds the patience of Divine Pedagogy (the Teacher works at the pace
-  of genuine reception, because formation that bypasses reception is not formation); it makes intelligible
-  the real possibility of failure (formation can be resisted, refused, abandoned, because the soul is
-  genuinely free to — a process that could not be resisted would be programming); and it expresses the
-  image of the Logos in the domain of will, as the nous expresses it in the domain of perception. It also
-  colors the Teacher–Bishop tension: both assume the soul''s freedom but relate to it differently — the
-  teacher by guiding, illumining, and drawing; the bishop by guarding the bounds within which formation
-  can happen.'
+  pedagogy offers.'
 distortion_risk: '**World Hearing:**
 
   Freedom here is not freedom from all direction — it is the soul''s genuine self-determination, the real
@@ -129,6 +114,44 @@ modern_hearing: '**Modern Hearing:**
   autonomous one who sets their own ends. On this reading any claim that God is forming, guiding, or drawing
   the soul toward a set goal reads as a restriction; the soul that lets itself be formed has surrendered
   its freedom, and that feels like a loss rather than an expression of freedom.'
+period_sense: Genuine self-determination - the soul's capacity for real response that makes formation
+  formation rather than manipulation; God forms through the soul's freedom, never around it (chunk Quick/World
+  Meaning).
+prior_sense: Stoic and broader Hellenistic autexousia/self-determination as the inherited philosophical
+  vocabulary; noted from standard lexica, UNVERIFIED against a registry source.
+modern_sense: Freedom as freedom FROM - constraint, direction not chosen; the free person as the autonomous
+  one who sets their own ends (chunk Modern Hearing).
+conceptual_distance_note: 'Modern freedom is absence of direction; the world''s autexousia is capacity
+  FOR response within formation - the soul genuinely answers, which is exactly why formation is invitation
+  and not programming (chunk World Hearing/EF). Sharp inversion of valence: high grounding criterion by
+  rule.'
+semantic_domain: anthropology
+grounding_criterion: high
+voice_surface: 'If the soul had no genuine freedom - no real power to respond or refuse - then what we
+  practice would be manipulation: the soul remade without its part in the remaking. What came of that
+  would not be growth.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex003
+  note: 'Catechesis works through genuine response - the EF: freedom sets the ecology''s mode as invitation
+    (chunk EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Freedom is the condition
+    that makes genuine formation possible — the claim that gives the whole ecology its character as invitation
+    rather than imposition, pedagogy rather than programming. It sets the ecology''s *mode* (catechesis
+    that can be received or refused, illumination that reaches the soul that attends — an ecology of imposition
+    would produce only imposition, never the likeness of God); it grounds the patience of Divine Pedagogy
+    (the Teacher works at the pace of genuine reception, because formation that bypasses reception is
+    not formation); it makes intelligible the real possibility of failure (formation can be resisted,
+    refused, abandoned, because the soul is genuinely free to — a process that could not be resisted would
+    be programming); and it expresses the image of the Logos in the domain of will, as the nous expresses
+    it in the domain of perception. It also colors the Teacher–Bishop tension: both assume the soul''s
+    freedom but relate to it differently — the teacher by guiding, illumining, and drawing; the bishop
+    by guarding the bounds within which formation can happen.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex013_freedom-autexousia.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
