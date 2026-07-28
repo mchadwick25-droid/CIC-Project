@@ -144,6 +144,8 @@ field_relations:
   target_id: syrlex003
   note: This entry's primary evidentiary source (Demonstration 6) is itself one of Aphrahat's taḥwyāṯā
     (chunk Reciprocity Note) - the Desert material-source-of/presupposes pairing.
+contested_claim_ids:
+- syrclaim002
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex002_qyama.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

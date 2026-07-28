@@ -151,6 +151,8 @@ field_relations:
   note: 'The chunks'' own mutual Related-Terms cross-reference (both Reciprocity Notes attest the pair):
     Ephrem''s Commentary applies this same typological reading to the harmonized Gospel text - association,
     no hierarchy claimed (CO-P2-13 pattern).'
+contested_claim_ids:
+- syrclaim001
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex001_raza-shrara.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

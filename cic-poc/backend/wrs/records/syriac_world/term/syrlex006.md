@@ -108,6 +108,8 @@ field_relations:
     as Normative Harmonized Gospel, per Doc_04) and connects directly to the raza/shrara theological method
     (C1) — Ephrem''s decision to write a full commentary on the harmonized text signals how central this
     single-narrative experience of the Gospel was to his own typological reading practice.'
+contested_claim_ids:
+- syrclaim003
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex006_ewangeliyon-da-mhallete.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

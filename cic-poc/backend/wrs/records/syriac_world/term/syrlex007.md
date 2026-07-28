@@ -126,6 +126,8 @@ field_relations:
   target_id: syrlex003
   note: The taḥwyāṯā are this title's attestation home (Dem 6:8, 7:20 - chunk Reciprocity Note) - the
     Desert material-source-of/presupposes pairing.
+contested_claim_ids:
+- syrclaim002
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex007_ihidaya.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
