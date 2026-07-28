@@ -69,7 +69,10 @@ gravity_links:
     so. It stands alongside Antony's contemplative pole (alexstory005) as this world's two competing pictures
     of a completed formed life. It also connects to Doc_08's ongoing force of persecution (2A-3) at its
     most severe and widely-felt instance across the whole span.
+confidence_line: Documented (the persecution as event) / Contested (the specific martyr acts)
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory009_coptic-martyrs.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
+
+CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.

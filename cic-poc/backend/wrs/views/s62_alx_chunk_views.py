@@ -140,6 +140,7 @@ def render_story(rec):
         ("Story-Title", rec.get("title", "")),
         ("World-Code", "alex"),
         ("Tier", str(ret.get("tier", 1))),
+        ("Confidence", rec.get("confidence_line") or None),  # CO-P2-16
         ("Source", locus),
         ("Retrieve-When", rw),
         ("Do-Not-Retrieve-When", dnrw),

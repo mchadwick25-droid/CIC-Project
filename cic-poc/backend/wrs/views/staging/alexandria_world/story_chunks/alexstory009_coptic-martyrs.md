@@ -4,6 +4,7 @@
 Story-Title:          The Coptic Martyrs — The Era of the Martyrs
 World-Code:           alex
 Tier:                 3
+Confidence:           Documented (the persecution as event) / Contested (the specific martyr acts)
 Source:               The Coptic martyrological tradition; the Diocletianic persecution (303–311 CE; the Anno Martyrum reckoned from Diocletian's 284 accession)
 Retrieve-When:        participant asks about martyrdom as this world's own formation mode reaching every stratum of the community, not only the learned; participant asks about T4 (Martyrdom vs. Contemplative-Ascent) from the martyr's own pole.
 Do-Not-Retrieve-When: participant presses for the martyr's own felt interior experience — that remains Inferential-Thin and is a named absence (Doc_09 §3), not supplied by this or any story; participant wants specific named martyrs' acts narrated as secure historical particulars — the persecution is documented, the specific acts are hagiographic.

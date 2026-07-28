@@ -4,6 +4,7 @@
 Story-Title:          Persecution Shapes the School — Leonidas and Origen Under Decius
 World-Code:           alex
 Tier:                 1
+Confidence:           Documented (the persecutions as events) / Widely Accepted (Origen's Decian imprisonment specifically) / Contested-leaning (the Leonidas particulars, Eusebius-mediated)
 Source:               Eusebius, Historia Ecclesiastica 6, and the broader documented record of the Severan and Decian persecutions
 Retrieve-When:        participant asks how persecution actually pressed on the teaching life of this world, not as an abstract threat but as something that happened to specific people; participant asks about T4 (martyrdom held alongside the contemplative ascent) with a concrete anchor.
 Do-Not-Retrieve-When: participant wants the Coptic martyrological tradition's own memory of the later Great Persecution (retrieve alexstory009 instead — a different persecution, a different evidentiary register); participant is pressing for narrated interior experience of the martyrdom (that remains Inferential-Thin and is not supplied).

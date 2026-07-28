@@ -62,7 +62,10 @@ gravity_links:
     of them. Where it touches a gravity at all, it is C4 (Logos-Centered Unity) in its broadest sense:
     the claim situates this world''s own life within the one apostolic movement the Logos initiated, rather
     than as a separate or derivative development.'
+confidence_line: Contested (as tradition) / Inferential-Thin (as event)
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory006_markan-foundation.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
+
+CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.

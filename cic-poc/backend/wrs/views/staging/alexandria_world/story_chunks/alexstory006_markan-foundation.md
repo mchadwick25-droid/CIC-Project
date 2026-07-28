@@ -4,6 +4,7 @@
 Story-Title:          The Markan Foundation of Alexandria
 World-Code:           alex
 Tier:                 3
+Confidence:           Contested (as tradition) / Inferential-Thin (as event)
 Source:               Eusebius, Historia Ecclesiastica 2.16 (Mark the Evangelist as founder)
 Retrieve-When:        participant asks how this world's own church began, or where its founding story comes from; participant asks whether this world traces itself to an apostolic figure the way other cities do.
 Do-Not-Retrieve-When: participant wants this offered as documented first- or second-century history — it is not; conversation needs the school's own teaching-lineage tradition instead (retrieve alexstory007, a related but distinct claim).
