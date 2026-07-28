@@ -63,6 +63,58 @@ sources:
     Open flag carried from Doc_03: a "Valavanolickal 2005" translation date could not be independently
     reconfirmed in this pass — only a 2011 Gorgias edition was found. Reconcile with a direct check of
     the original Kottayam printing before this citation is relied upon for a precise date claim.'
+original_script: ܬܚܘܝܬܐ
+period_sense: Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis; conventionally
+  'Demonstrations'), several built on the twenty-two-letter Syriac acrostic so the alphabet scaffolds
+  the argument in memory; he also called the same works 'Letters' - the naming was not fixed to one term
+  even in his own usage (chunk Quick/World Meaning).
+prior_sense: The word's ordinary sense - a showing, a reasoned demonstration or proof, corresponding to
+  the Greek apodeixis (the chunk's own gloss) - which Aphrahat's usage applies as a self-designation rather
+  than transforms.
+modern_sense: '''Demonstrations'' assumed to be simply an English descriptor with no native-language equivalent,
+  or assumed to be Aphrahat''s only name for his own work (chunk combined Modern/World Hearing).'
+conceptual_distance_note: 'A naming-convention gap rather than a conceptual chasm: the corrective is that
+  the corpus carries its own native name AND that Aphrahat''s own naming was plural (taḥwyāṯā and ''Letters'').
+  Standard grounding: the entry is load-bearing for citation practice, not for a lived-concept distortion.'
+semantic_domain: genre-self-designation
+grounding_criterion: standard
+voice_surface: Aphrahat called his own works taḥwyāṯā - demonstrations, a showing of the thing - and sometimes
+  letters; each works through its subject in order, several strung on the twenty-two letters of the alphabet
+  so that memory itself has a rail to hold the argument by.
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: material-source-of
+  target_id: syrlex002
+  note: 'Demonstration 6, the qyama entry''s primary evidentiary source, is itself one of Aphrahat''s
+    taḥwyāṯā (both chunks'' Reciprocity Notes). Chunk Ecological Function (verbatim, absorbed per FLAG-002):
+    This is Aphrahat''s own genre self-designation, load-bearing specifically for how his corpus should
+    be described and cited, and it is the textual home of Demonstration 6 (the qyama''s primary evidentiary
+    source) and of the Iḥidaya title as Aphrahat uses it. A participant who understands this term understands
+    that Aphrahat''s own writings carry their own native name distinct from the modern English "Demonstrations"
+    convention.'
+- type: material-source-of
+  target_id: syrlex007
+  note: The taḥwyāṯā are the textual home of the Iḥidaya title as Aphrahat uses it (Dem 6:8, 7:20 - chunk
+    EF and both Reciprocity Notes).
+- type: material-source-of
+  target_id: syrlex010
+  note: The anti-Jewish material is a subset of this same corpus - roughly four of the twenty-three Demonstrations
+    (syrlex010's own scope statement; its front-matter Related-Terms points here one-directionally, typed
+    at authoring rather than left untyped).
+- type: presupposed-by
+  target_id: syrlex002
+  note: Mirror of syrlex002's presupposes edge (Dem 6 is one of the taḥwyāṯā).
+- type: presupposed-by
+  target_id: syrlex007
+  note: Mirror of syrlex007's presupposes edge (Dem 6:8, 7:20 are the Iḥidaya title's textual home).
+- type: presupposed-by
+  target_id: syrlex010
+  note: Mirror of syrlex010's presupposes edge (the anti-Jewish subset presupposes the corpus).
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex003_tahwyata.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

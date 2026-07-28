@@ -83,6 +83,48 @@ modern_hearing: '**Modern Hearing:**
   A modern reader hears "hymn" and assumes decorative accompaniment to a doctrine that could equally well
   be stated in prose — a hymn illustrates or celebrates a teaching rather than constituting the argument
   itself.'
+original_script: ܡܕܪܫܐ
+period_sense: 'Ephrem''s dominant vehicle for theological argument: a sung, metered, stanzaic, often acrostic
+  hymn with refrains (ʿonyaṯa), performed rather than read - the argument itself carried through melody
+  and repetition; a genre already established by Bardaisan and Mani, which Ephrem took up to answer them
+  on their own ground (chunk Quick/World Meaning).'
+prior_sense: 'The genre''s own pre-Ephrem life is the documented prior: Bardaisan had made the sung stanzaic
+  hymn his own literary form in the third century, and Mani''s hymnody worked in comparable terms - Ephrem
+  contested rivals on ground they already occupied (chunk World Meaning; the chunk''s own genre-level-only
+  caution: no claim about matching a specific rival''s meter or refrain-structure).'
+modern_sense: '''Hymn'' as decorative accompaniment - illustrating or celebrating a teaching that could
+  equally well be stated in prose (chunk Modern Hearing).'
+conceptual_distance_note: 'For Ephrem''s audience the madrasha WAS the argument: meter and refrain a formation
+  technology carrying the raza/shrara method into the body, and the genre-choice itself a contested claim
+  staked against Bardaisan''s and Mani''s use of the same form (chunk World Hearing). Sharp gap: high
+  grounding criterion by rule.'
+semantic_domain: sung-theology
+grounding_criterion: high
+voice_surface: To transmit doctrine here is, in large part, to sing it. A madrasha does not set an argument
+  beside other arguments; it carries the argument through a melody, returns it in the refrain, and lodges
+  it in the body along with the tune. The form was not ours first - Bardaisan and Mani sang their own
+  teaching in it - and taking it up was itself part of the contest.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: syrlex001
+  note: 'The madrasha performs the raza/shrara hermeneutic - the genre presupposes the method it carries
+    (chunk Reciprocity Note: ''the hermeneutic this genre performs''; Doc_04 C1). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): The madrasha is the performative vehicle for this world''s Primary
+    theological-method gravity (raza/shrara, C1) and is directly entangled with this world''s heresiological
+    boundary-work (C3, against Bardaisan, Marcion, and Mani) — the genre itself is part of the contest,
+    not merely the medium carrying it. A participant who understands the madrasha understands why so much
+    of this world''s doctrine survives as hymn rather than treatise, and why genre choice itself carried
+    polemical weight.'
+- type: associated-with
+  target_id: syrlex005
+  note: Sister verse genres, distinguished by meter, occasion of use, and memra's later genre-crystallization
+    caveat (both chunks' Reciprocity Notes attest the pair) - association, no hierarchy.
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex004_madrasha.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

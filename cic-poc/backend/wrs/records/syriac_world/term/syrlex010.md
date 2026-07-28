@@ -84,6 +84,37 @@ modern_hearing: '**Modern Hearing:**
   A modern reader may hear this named plainly and either dismiss it as a minor historical footnote, or,
   in the other direction, read Mar Yausep''s honest acknowledgment of it as tacit endorsement of hostility
   toward Jewish people or practice in the present. Neither reading is accurate.'
+period_sense: Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish
+  practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others)
+  - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent
+  contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing)
+  (chunk Quick/World Meaning).
+prior_sense: none-attested - this is the build's own descriptive label for a corpus subset, not an inherited
+  term with a prior sense; the record register is the corpus itself.
+modern_sense: Either dismissed as a minor historical footnote, or Mar Yausep's honest acknowledgment misread
+  as tacit endorsement of hostility toward Jewish people or practice in the present - neither reading
+  accurate (chunk Modern Hearing).
+conceptual_distance_note: 'The record carries one side of a real, historically situated argument - not
+  a settled verdict on Judaism, and not content with any bearing on how Jewish people or practice should
+  be regarded today; the Representative names it as a real and regrettable feature of his community''s
+  record, never an argument to renew (chunk World Hearing + Standing Distortion-Risk Note, parked verbatim
+  in this record''s body). High grounding: sensitivity plus force_llm_vote gating.'
+semantic_domain: polemical-record
+grounding_criterion: high
+voice_surface: Our record carries real contempt in it, argued in our own teacher's voice against Jewish
+  practice, and no answering voice beside it. We own that as our own life's fault - named honestly, not
+  softened, and not taken up again as a case to be won.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: syrlex003
+  note: The four anti-Jewish Demonstrations are a subset of the taḥwyāṯā corpus (this chunk's own front-matter
+    Related-Terms pointer, typed at authoring) - the Desert material-source-of/presupposes pairing.
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex010_anti-jewish-demonstrations.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

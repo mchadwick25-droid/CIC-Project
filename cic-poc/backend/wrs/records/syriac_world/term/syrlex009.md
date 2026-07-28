@@ -65,6 +65,33 @@ modern_hearing: '**Modern Hearing:**
   A participant familiar with the later Church of the East may assume "Catholicos" was already the settled
   title for Persian episcopal leadership throughout this world''s period, with an unbroken, clearly-titled
   succession running back to the first century.'
+period_sense: 'NOT this world''s own contemporary vocabulary: no one in this world''s period called their
+  Persian episcopal leader ''Catholicos'' - leadership was real, local, and contested (Papa bar Aggai''s
+  primacy claim fiercely contested by Miles of Susa and Aqib-Alaha of Karka d''Baith Slok), and the tidy
+  titled succession is later tradition''s retrojection, resting in part on the Acts of Mari (6th-8th c.)
+  (chunk Quick/World Meaning; the entry exists to carry this flag into retrieval).'
+prior_sense: The Greek adjective katholikos ('general/universal') behind the later office-title - the
+  title's own history is posterior to this world, which is the entry's point; none-attested as this world's
+  own usage.
+modern_sense: '''Catholicos'' assumed to be the settled title for Persian episcopal leadership throughout
+  the period, with an unbroken, clearly-titled succession running back to the first century (chunk Modern
+  Hearing).'
+conceptual_distance_note: 'An anachronism flag rather than a translation gap: the title is anachronistic
+  before the fifth century for this world''s own period; succession narratives using it are later retrojections
+  onto leadership that was real but contested and not yet centrally titled (chunk World Hearing; CT: Application
+  to this world). High grounding: the entry''s whole function is corrective.'
+semantic_domain: office-title-anachronism
+grounding_criterion: high
+voice_surface: No one among us called any bishop 'Catholicos.' Our churches knew real leaders and real
+  quarrels over precedence - Papa's claim, and those who withstood it - but the single named office came
+  later, and was laid back over our years by those who came after.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: corroborating
+  formation_confidence: Contested
+field_relations: []
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex009_catholicos.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

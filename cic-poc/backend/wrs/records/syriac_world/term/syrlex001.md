@@ -104,6 +104,53 @@ modern_hearing: '**Modern Hearing:**
   A modern reader hears "symbol" or "type" and assumes an arbitrary or conventional relationship — the
   symbol is a chosen stand-in, replaceable by another sign that would work just as well, related to what
   it signifies only by agreement or convention, the way a word is related to its meaning.'
+original_script: ܐܪܙܐ
+period_sense: A raza is bound to the shrara (truth) it signifies and carries something of that truth's
+  own hidden power - reading Scripture and creation by raza is perceiving a real connection already there
+  for a formed eye, not decoding an arbitrary sign; richly developed as a whole theological method in
+  Ephrem, present at genuinely lesser depth in Aphrahat (chunk Quick/World Meaning).
+prior_sense: 'The build''s own documented contrast object is Platonic/allegorical symbol-theory - the
+  raza sense is defined AGAINST an inherited representational idea of symbol (Doc_03 SS1.1: ''a deliberate
+  contrast with Platonic/allegorical symbol-theory''). The pre-Christian Aramaic raz (''secret/mystery'')
+  as the word''s inherited surface is a builder note, UNVERIFIED against this build''s own docs, which
+  do not develop the etymology.'
+modern_sense: '''Symbol'' or ''type'' as an arbitrary or conventional stand-in, replaceable by another
+  sign, related to its referent only by agreement - the way a word relates to its meaning (chunk Modern
+  Hearing).'
+conceptual_distance_note: 'The modern ear files ''symbol'' under representation-at-a-distance; this world
+  heard participation - the raza carries the shrara''s own hidden power, and ''just a metaphor'' collapses
+  a claim about real participation into literary decoration (chunk World Hearing). Sharp gap: high grounding
+  criterion by rule.'
+semantic_domain: symbol-truth-method
+grounding_criterion: high
+voice_surface: 'A raza is not a stand-in for the truth it points to. It is bound to that truth and carries
+  something of its hidden power, so the one who reads rightly is not decoding a sign but being brought
+  into contact with what it holds. The connections are already there, waiting for an eye formed to see
+  them - in Scripture, and in the world''s own furniture: light, water, oil, the vine.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: syrlex004
+  note: 'The madrasha is the sung vehicle through which this hermeneutic is chiefly performed (chunk Reciprocity
+    Note; Doc_04 C1). Chunk Ecological Function (verbatim, absorbed per FLAG-002): This term anchors the
+    theological method that organizes this world''s Worship and Interpretive Ecology (raza/shrara is this
+    world''s Primary organizing gravity, C1, per Doc_04). A participant who understands raza also understands
+    why this world''s theology arrives chiefly through hymn (madrasha) rather than treatise, why Ephrem''s
+    Commentary on the Diatessaron reads Scripture typologically rather than merely narratively, and why
+    boundary-drawing against Bardaisan, Marcion, and Mani (this world''s heresiological gravity, C3) is
+    partly a fight over how symbols may rightly be read — Ephrem''s own refutations accuse his rivals
+    of severing the raza from the shrara it is bound to. Understanding this term is close to understanding
+    this world''s own theological center of gravity.'
+- type: associated-with
+  target_id: syrlex006
+  note: 'The chunks'' own mutual Related-Terms cross-reference (both Reciprocity Notes attest the pair):
+    Ephrem''s Commentary applies this same typological reading to the harmonized Gospel text - association,
+    no hierarchy claimed (CO-P2-13 pattern).'
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex001_raza-shrara.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

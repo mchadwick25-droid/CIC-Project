@@ -99,6 +99,51 @@ modern_hearing: '**Modern Hearing:**
   A modern reader hears "vowed celibate order" and reaches for the desert monk or the cloistered nun —
   withdrawal from ordinary society into a separate, often physically remote, community governed by a formal
   monastic rule.'
+original_script: ܩܝܡܐ
+period_sense: The lifelong, vowed, celibate order of 'sons and daughters of the covenant' - men and women
+  resident among their own kin in town, keeping fast, watch, vigil, and reading inside ordinary community
+  life rather than in desert withdrawal; already an established institution needing correction more than
+  founding when Aphrahat addresses it in Demonstration 6 (chunk Quick/World Meaning).
+prior_sense: Root qwm, 'stand' - to take the qyama is to have 'stood' for the covenant (Doc_03 SS1.2's
+  own root note); the ordinary Aramaic senses of standing/covenant/pact are the inherited surface the
+  institution's technical use specialized.
+modern_sense: '''Vowed celibate order'' heard as the desert monk or cloistered nun - withdrawal from ordinary
+  society into a separate, often physically remote community under a formal monastic rule (chunk Modern
+  Hearing).'
+conceptual_distance_note: 'The modern reach for ''monk/nun/monastery'' imports exactly what this world''s
+  asceticism was not: qyama members practiced their discipline INSIDE ordinary town life among kin, and
+  the order''s formal structure (rule, enclosure, hierarchy) is thinly and contestedly documented, not
+  settled (chunk World Hearing). Sharp institutional gap: high grounding criterion.'
+semantic_domain: covenant-asceticism
+grounding_criterion: high
+voice_surface: 'To take the qyama is to stand for a promise that does not end - not a season of youth
+  to be outgrown. The bar qyama and bat qyama live among their own kin, unmarried, keeping the fast and
+  the watch, present at the vigil and the reading: a town''s own askesis, formed less by flight from the
+  world than by refusal within it.'
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: associated-with
+  target_id: syrlex007
+  note: 'Near-synonym in Aphrahat''s own usage (Dem 6:8, 7:20) - the two entries are read alongside each
+    other, deliberately NOT merged (both chunks'' own double-counting guard); association, no hierarchy.
+    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The qyama is one of this world''s two
+    Primary organizing gravities (C2, Covenanted Ascetic Life, per Doc_04), alongside the raza/shrara
+    theological method (C1). It anchors this world''s distinctive formation logic — a lifelong vow lived
+    in town rather than desert withdrawal — and connects directly to Iḥidaya, the "Single One" designation
+    Aphrahat uses as a near-synonym for qyama membership. Doc_04''s own Interaction finding records that
+    the qyama''s charismatic, vow-based standing functioned as an authority pathway running alongside,
+    not merely beneath, ordained episcopal office — meaning a participant who understands the qyama also
+    understands part of why this world''s authority structure remained genuinely ambiguous (C4) rather
+    than settled around office alone.'
+- type: presupposes
+  target_id: syrlex003
+  note: This entry's primary evidentiary source (Demonstration 6) is itself one of Aphrahat's taḥwyāṯā
+    (chunk Reciprocity Note) - the Desert material-source-of/presupposes pairing.
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex002_qyama.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -72,6 +72,42 @@ modern_hearing: '**Modern Hearing:**
   A modern reader familiar with the fourfold canonical Gospels may assume this world simply used "the
   Gospels" in the same plural, four-witness sense familiar today, or may assume the vernacular name for
   the harmonized text was already a settled, established label throughout this world''s period.'
+original_script: ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ
+period_sense: Throughout this world's core period 'the Gospel' meant a single continuous harmonized narrative
+  - Tatian's Diatessaron (c. 172 CE), the standard lectionary text of Syriac-speaking churches for roughly
+  two centuries; Aphrahat quotes it, Ephrem wrote a full Commentary on it, and Ephrem's own Commentary
+  calls it simply 'the Gospel' (chunk Quick/World Meaning).
+prior_sense: none-attested as an inherited concept - this is a title, not a transformed inheritance; the
+  contrasting later label is da-Mepharreshe, the 'separated' four-Gospel form (chunk aliases), and the
+  vernacular name's own earliest attestation is the entry's contest, not its prior.
+modern_sense: '''The Gospels'' assumed in the familiar fourfold plural sense, or the vernacular name assumed
+  to be a settled, established label throughout the period (chunk Modern Hearing).'
+conceptual_distance_note: 'The formation experience differs materially: hearing ''the Gospel'' as one
+  unfolding story versus four witnesses in tension (Doc_01''s narrative-unity DMR). The NAME ''da-Mhallete''
+  is itself unsettled - not confirmed in use within the period (Theodoret''s Greek account never uses
+  the Syriac phrase; Crawford locates the earliest secure witness in a gloss on the Syriac Eusebius) -
+  so the entry carries both the well-attested practice and the contested label. Standard grounding: the
+  practice-gap is real but the correction is largely scholarly.'
+semantic_domain: harmonized-gospel
+grounding_criterion: standard
+voice_surface: When we say the Gospel we mean one continuous story - the harmony Tatian wove - read at
+  the lectern and commented by our teachers as a single unfolding. Whether our own tongues called it 'the
+  Mixed' in those years, the record does not settle; Ephrem's Commentary calls it only the Gospel.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+field_relations:
+- type: associated-with
+  target_id: syrlex001
+  note: 'Symmetric mirror of syrlex001''s edge: Ephrem''s Commentary applies the raza/shrara typological
+    method to this harmonized text (chunk Reciprocity Note; Doc_04 C5-C1 link). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): This term anchors this world''s Supporting gravity C5 (Diatessaron
+    as Normative Harmonized Gospel, per Doc_04) and connects directly to the raza/shrara theological method
+    (C1) — Ephrem''s decision to write a full commentary on the harmonized text signals how central this
+    single-narrative experience of the Gospel was to his own typological reading practice.'
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex006_ewangeliyon-da-mhallete.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

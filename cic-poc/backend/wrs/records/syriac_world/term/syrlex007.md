@@ -86,6 +86,46 @@ modern_hearing: '**Modern Hearing:**
 
   A modern reader hears "solitary" and assumes physical isolation, or hears the ascetic and christological
   uses as an odd coincidence of two unrelated meanings sharing one word by accident.'
+original_script: ܝܚܝܕܝܐ
+period_sense: 'One word carrying double duty held as one idea: the ascetic designation for the consecrated
+  elite - single-minded, undivided in allegiance, living communally despite the surface sense of ''solitary''
+  - and simultaneously the christological title for Christ as Only-Begotten (monogenes); in Aphrahat (Dem
+  6:8, 7:20) a near-synonym of bar/bat qyama (chunk Quick/World Meaning).'
+prior_sense: Root yḥd, 'one' (Doc_03 SS1.7) - the ordinary senses of onlyness/singleness that let the
+  ascetic and christological uses share one root rather than coincide by accident.
+modern_sense: '''Solitary'' heard as physical isolation, or the ascetic/christological double sense heard
+  as an odd accident of two unrelated meanings sharing a word (chunk Modern Hearing).'
+conceptual_distance_note: 'The shared root is load-bearing, not incidental: an ascetic''s own singleness
+  is heard as participating in Christ''s own undividedness from the Father - and the iḥidaye lived communally,
+  not in isolation. Later (fifth/sixth-century) drift toward ''monk'' must not be read back (chunk World
+  Hearing). Sharp gap: high grounding criterion by rule.'
+semantic_domain: single-one-christology
+grounding_criterion: high
+voice_surface: 'Iḥidaya names the single one - undivided in allegiance, though living among others - and
+  names the Only-Begotten himself. The name you are given tells you what your singleness is: a small likeness
+  of his own undividedness from the Father.'
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: syrlex002
+  note: 'Symmetric mirror of syrlex002''s edge: near-synonym in Aphrahat''s own usage, kept as a distinct
+    entry - the double ascetic/christological sense is this entry''s own contribution (chunk EF''s own
+    anti-merge guard). Chunk Ecological Function (verbatim, absorbed per FLAG-002): This term is directly
+    entangled with the qyama institution (C2, this world''s Primary ascetic-life gravity) but should be
+    treated as its own distinct entry rather than folded into it — the double ascetic/christological sense
+    is Iḥidaya''s own particular contribution, not something qyama alone conveys. A participant who understands
+    Iḥidaya understands part of why this world''s asceticism carries explicit christological weight: the
+    ascetic''s own undividedness is not merely disciplined behavior but a participation in Christ''s own
+    nature as named by the shared root of the word itself.'
+- type: presupposes
+  target_id: syrlex003
+  note: The taḥwyāṯā are this title's attestation home (Dem 6:8, 7:20 - chunk Reciprocity Note) - the
+    Desert material-source-of/presupposes pairing.
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex007_ihidaya.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
