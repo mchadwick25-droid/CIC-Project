@@ -215,3 +215,11 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 ## FLAG-020 — partially narrowed (the interception class); seam-preamble class remains open
 
 - The classifier carve-out (representative-aimed content/style requests are SUBSTANTIVE) verified: the own-tongue request reached both representatives. The epistemology-bridge seam-preamble class on representative-aimed probes remains open, fleet-level.
+
+## FLAG-025 — Deployed Syriac chunks carry a mis-pointered registry cross-reference (Griffith 1991 → "Source Registry #26")
+
+- **Found during:** the S6.2/SYR S2.1a discovery sweep (2026-07-28).
+- **Evidence:** syrlex002 (qyama) and syrlex007 (ihidaya) both cite Sidney Griffith, "'Singles' in God's Service," *The Harp* 4 (1991) with the pointer "(Source Registry #26, cross-checked)" — but row 26's actual composite string is *Faith Adoring the Mystery* (1997) + the 1986 Deacon-of-Edessa article + the 2002 JCSSS article; the 1991 article appears in NO registry row. Doc_02 §3's own 2026-07-08 correction and Doc_03 §1.2 name the 1991 *Harp* article and 1993 *Eulogema* chapter as the real qyama-specific Griffith citations, explicitly not *Faith Adoring the Mystery* — the chunks cite the right work with the wrong registry pointer (the pre-correction row assignment surviving in the deployed prose).
+- **Data state:** the sweep rowed the works' true registry homes (srcSYR056 the 1991 article, srcSYR057 the 1993 chapter); the record store is now correct.
+- **Routing:** the chunk-text pointer correction rides the S2.8-equivalent render (chunks regenerate from records), never a silent patch of deployed data.
+- **Status:** open — not participant-facing (the pointer is builder apparatus inside Key Sources), closes at the Syriac S2.8-equivalent.
