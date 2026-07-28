@@ -1,5 +1,8 @@
 """S1.3 machine gates (Pass 1 SS4.2), run against record sets.
 
+Requirements source (S6.1, adopted 2026-07-27): the governing standard
+is Ministry/Technology/CiC_World_Build_Completion_Standard_V1.0.md.
+
 Each gate takes a record set (dict id -> record) plus gate-specific inputs
 and returns a list of violation strings - empty list = green. The runner
 (run_gates.py) executes them and writes the committed report; its

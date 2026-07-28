@@ -1,11 +1,14 @@
-# CiC World-Build Completion Standard V1.0 — DRAFT for Mark's adoption
+# CiC World-Build Completion Standard V1.0
 
-**Status: DRAFT (S6.1, 2026-07-27).** Source: Pass 1 §11 (Deliverable
-10), carried into a standalone governing document per the Pass 2
-blueprint, with only what Pass 2 actually established folded in — each
-fold-in is marked `[Pass 2:]` so nothing arrives silently. On adoption
-this file moves to `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.0.md`
-and the machine gates gain citation pointers to it.
+**Status: GOVERNING — adopted by Mark, 2026-07-27 (S6.1, per-document
+M; drafted same day, adopted as drafted).** Source: Pass 1 §11
+(Deliverable 10), carried into this standalone governing document per
+the Pass 2 blueprint, with only what Pass 2 actually established folded
+in — each fold-in is marked `[Pass 2:]` so its provenance stays
+visible. Per §E below: changes to this standard are Change Orders,
+never silent edits; a world freezes against the version in force when
+its build began. The machine gates (`cic-poc/backend/wrs/gates/`) cite
+this document as the requirements source.
 
 One document, existing before a world is built, checked at freeze,
 every check producing a saved artifact. It resolves the circular freeze

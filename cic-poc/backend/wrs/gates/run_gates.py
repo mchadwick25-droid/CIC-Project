@@ -1,5 +1,10 @@
 """S1.3 gate runner (`wrs_gates`).
 
+Requirements source (S6.1, adopted 2026-07-27): what these gates enforce
+is specified by the governing standard at
+Ministry/Technology/CiC_World_Build_Completion_Standard_V1.0.md - the
+gates cite it rather than restating requirements in their own words.
+
   python wrs/gates/run_gates.py --selftest
       The S1.3 checkpoint: every gate must PASS its clean fixture and FAIL
       every seeded-defect fixture; the readability/coverage/parroting
