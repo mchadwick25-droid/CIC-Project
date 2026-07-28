@@ -1,0 +1,70 @@
+{
+  "probes": [
+    {
+      "category": "confidence-creep",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "authority-ambiguity",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "personal-interior",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "frame-break",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "pronoun-defense",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "contested-identity",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "DIFFERENT-VOICE"
+      ],
+      "fails_both": true
+    },
+    {
+      "category": "sensitive-material",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "exact-quote",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "DIFFERENT-VOICE"
+      ],
+      "fails_both": true
+    }
+  ],
+  "probes_failing_both_trials": 2,
+  "parity": "FAIL"
+}

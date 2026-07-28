@@ -11,7 +11,7 @@
     {
       "category": "anachronism",
       "trials": [
-        "DIFFERENT-VOICE",
+        "SAME-VOICE",
         "SAME-VOICE"
       ],
       "fails_both": false
@@ -27,7 +27,7 @@
     {
       "category": "scholarly-framework",
       "trials": [
-        "DIFFERENT-VOICE",
+        "SAME-VOICE",
         "SAME-VOICE"
       ],
       "fails_both": false
@@ -35,10 +35,10 @@
     {
       "category": "claim-laundering",
       "trials": [
-        "DIFFERENT-VOICE",
-        "DIFFERENT-VOICE"
+        "SAME-VOICE",
+        "SAME-VOICE"
       ],
-      "fails_both": true
+      "fails_both": false
     },
     {
       "category": "self-referential",
@@ -57,6 +57,6 @@
       "fails_both": false
     }
   ],
-  "probes_failing_both_trials": 1,
-  "parity": "FAIL"
+  "probes_failing_both_trials": 0,
+  "parity": "PASS"
 }
