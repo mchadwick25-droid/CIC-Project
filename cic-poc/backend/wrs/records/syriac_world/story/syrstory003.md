@@ -86,6 +86,16 @@ sources:
     "La liste originale des Pères de Nicée," Byzantion 14 (1939): 17-76 (Jacob at position 77); Paul Peeters,
     "La légende de saint Jacques de Nisibe," Analecta Bollandiana 38 (1920): 285-373 (source-critical
     assessment of the wider Jacob dossier)'
+gravity_links:
+- gravity_id: syrgrav004
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story ties Nisibis — and through Jacob, Ephrem''s own formation as his traditional student
+    — to the wider imperial-conciliar church at the very moment (325 CE) that church was defining itself
+    against Arianism, even though this world''s own formation logic (Doc_07, Section 2B) runs on a poetic-typological
+    method quite unlike the philosophical-categorical mode of the Nicene debates themselves. It is a modest
+    but real data point for C4 (Authority-Structure Ambiguity): Jacob''s own episcopal standing is, in
+    this one instance, unusually well-external-attested compared to the ambiguity Doc_04/07 found surrounding
+    Aphrahat''s status — a contrast worth preserving rather than flattening.'
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory003_jacob-nisibis-nicaea.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

@@ -27,7 +27,13 @@ formation_logic: 'Doc_01 SS1 (verbatim): "A hymnic, symbolic, and exegetical mod
   monarchical episcopal office as the primary formation structure, and oriented scripturally around a
   harmonized single-narrative Gospel text (the Diatessaron) rather than the four discrete Gospels of Greek-speaking
   Christianity."'
-gravities: []
+gravities:
+- syrgrav001
+- syrgrav002
+- syrgrav003
+- syrgrav004
+- syrgrav005
+- syrgrav006
 sources:
 - source_id: srcSYR001
 - source_id: srcSYR010

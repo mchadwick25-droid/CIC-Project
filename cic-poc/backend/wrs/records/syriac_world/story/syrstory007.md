@@ -80,6 +80,21 @@ sources:
 - source_id: srcSYR045
   locus: Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). Ed./trans. Joseph Amar,
     Patrologia Orientalis 47.1 (1995).
+gravity_links:
+- gravity_id: syrgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story, more than any other in this repository, ties together three of this world''s own
+    confirmed gravities at once: C1 (the raza/shrara method, taught here through song), C2 (the qyama
+    order, whose women are the ones who carry the teaching), and C3 (heresiological self-definition against
+    Bardaisan and Mani, the very rivals this story says Ephrem was answering by taking up their own genre).
+    It is, in short, the single richest surviving narrative rendering of how this world believed its central
+    formation logic actually reached ordinary people. It must be handled carefully, however, because of
+    what it is not: it is not this world''s own in-window attestation that Ephrem personally organized
+    or led these choirs (see Tier Justification).'
+- gravity_id: syrgrav002
+  note: Named in the same FEC (full text on this record's first gravity link).
+- gravity_id: syrgrav003
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory007_ephrem-founding-choirs.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

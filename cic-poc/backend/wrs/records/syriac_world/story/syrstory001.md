@@ -103,6 +103,17 @@ retrieval:
 sources:
 - source_id: srcSYR044
   locus: Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1 (late 5th c.)
+gravity_links:
+- gravity_id: syrgrav002
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story illuminates the practical, communal edge of C2 (Covenanted Ascetic Life) — the qyama
+    order''s own discipline was not confined to vigil and vow but extended, at least in this attested
+    instance, to organized material relief in crisis. It shows something Doc_05''s Human Ecology (Section
+    1.1) and Ministry Ecology (Section 5.3) sections describe more abstractly — a formation logic that
+    produced not only teachers and hymnists but also a deacon who set aside his own retirement to feed
+    a starving city — made concrete in a single, specific, attested act. It also supplies a rare data
+    point of this world''s own communal life reaching the ordinary and destitute directly, a population
+    Doc_02 (Section 7) otherwise found almost entirely absent from the surviving record.'
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory001_ephrem-famine-death.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

@@ -82,6 +82,20 @@ sources:
 - source_id: srcSYR011
   locus: 'Composite - elements per the chunk''s own Source Identification table (parked verbatim in this
     record''s body): Composite reconstruction — see Source Identification below; not a single-source narrative'
+gravity_links:
+- gravity_id: syrgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This composite scene draws together, in one typical occasion, four of this world''s own confirmed
+    gravities at once: C1 (the raza/shrara method, performed rather than merely taught), C2 (the qyama
+    order, gathered and vowed), C5 (the Diatessaron, read as a single narrative), and the worship-as-formation
+    logic Doc_07 (Section 2E) names as this world''s own central organizing aim. It is offered specifically
+    because Doc_05 and Doc_07 both document these elements individually, in separate lenses, without rendering
+    how a single gathered occasion would have held them together — the composite form is what this Tier
+    4 reconstruction adds that the individual ecological facts, read separately, do not show.'
+- gravity_id: syrgrav002
+  note: Named in the same FEC (full text on this record's first gravity link).
+- gravity_id: syrgrav005
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory009_typical-qyama-worship.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
