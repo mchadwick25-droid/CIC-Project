@@ -146,6 +146,8 @@
 
 *[This section is removed in the completed brief — it exists only in the template.]*
 
+**Generated-brief note (S6.1, 2026-07-27):** For worlds migrated to the record system, this brief is no longer hand-authored: it renders as a generated view over the world's own records (cic-poc/backend/wrs/views/facilitation_brief.py — voice profile, pairing guidance, cautions, divergence question bank, gravity structure), and the cautions the Facilitator operates from at runtime render from the same world_core.cautions records. Its human-judgment content — pairing guidance and cautions — is authored as records during the build (Steps 4–8, never at the end). This template remains the authoring guide for worlds not yet migrated; at a world's migration, its B-sections' content moves into records and the Brief becomes a render that cannot drift from what the world speaks.
+
 **When this brief is produced:** After Step 8 of the world build sequence is complete — after all seven primary deployment outputs (World Capsule Core, World Context Layer, Representative Permanent Prompt, Representative Construction Notes, Voice Configuration, Deployment Lexicon, Story Repository) have been produced. This brief draws on the builder's full knowledge of the world at the point of completion.
 
 **Who produces this:** The world build coach thread, who holds the complete world knowledge at this point. This is not a builder thread task requiring new documents — it draws on what is already known.
