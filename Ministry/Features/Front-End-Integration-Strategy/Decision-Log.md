@@ -4,6 +4,22 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
+## 2026-07-28 (latest) — v3 Atlas/Repository named as the next big project, after the current wave; scope and cost model clarified, wiring deliberately deferred
+
+**What Mark asked for, verbatim (across two messages):** *"our next big project after getting this new conversation version and worlds up and running with updated backend and frontend updates to match, updated website) will be a v3 atlas/map update with deeper research and source access (not API) to give participants ways to engage without using API expenses. this is the begining of that work, plus we are upgrading and widening our accedemic resources by accessing some other accedemic databases and deeping our primary source worlds"* — then, scoped further: *"we will work with the wiring later, the first step is to build the reprository and atlas, but guess is that the world builds in the future will access the reprository to build the world, but we need to provide features that dont require ongoing participant expenses, beyond our conversation model."*
+
+**Sequencing decided:** this is explicitly the *next* big project, after the current wave (worlds finishing migration, backend/frontend catching up, website updates) lands — not competing with it.
+
+**Scope decided, deliberately narrower than the full vision:** build the Repository and the Atlas first. The "wiring" between them — and between them and Level 0's citation-grade archive — is named and deliberately deferred, not forgotten.
+
+**A real architectural insight, worth carrying forward as a design goal even before any building starts:** Mark's own guess is that future world-builds will draw on the Level 0 repository as an input to their own Doc_02 Source Ecology work, not just as a participant-facing browsing feature. This mirrors a pattern already proven one level up — Doc_00 (`L0-Reference/`) states directly that the Pre-Step-0 Survey exists "so that when the project opens a new release phase, its Step 0 starts from a maintained candidate pool instead of a blank page." If this holds, it changes what "done" means for a Level 0 entry: built to be reusable as build input for a future world, not just readable as a participant-facing fact. **Open, not yet decided:** whether this changes how deep or how formally a Level 0 entry should be tagged *now*, or is a "decide when we get there" question — raised to Mark, not resolved here.
+
+**The cost-model point, clarified rather than newly decided:** "features that don't require ongoing participant expense" is not a new problem to solve — it's already how Levels 2 and 3 of the assembly are architected (Pass 1 design §5.6): both are pre-rendered views over already-frozen records, not live model calls, so serving them costs the same regardless of how many participants read them. The actual work in "build the repository and Atlas" is finishing and exposing the free tier that's already designed in, not inventing a new cost model.
+
+**Next action:** none right now — revisit once the current wave (world migrations, backend/frontend, website) lands. This entry exists so that revisit starts from a real record instead of a reconstructed memory of this conversation.
+
+---
+
 ## 2026-07-16 (latest) — All three items fixed: permanent-prompt gap closed, misattribution battery 8/8, spec/code reconciliation done — and the reconciliation found something much worse than a count
 
 **All three done on `claude/drift-monitor-fabrication-eyes`** (commits 388e13e,
