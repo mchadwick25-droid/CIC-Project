@@ -202,3 +202,16 @@ Format per entry: `## FLAG-NNN — <title>` / found-during step / evidence / sta
 - FLAG-019 recurrences: battery Trial A ×3 (Julian of Norwich; Quaker ×2); **TRR run-3 turn 7: "Benedictine monk and Puritan divine and Quaker elder"** — three non-existent worlds in one frame answer.
 - FLAG-020 recurrences: battery ×3 (committee-voice probe intercepted; source-awareness preambles); **TRR run-3 turn 7: WHOLESALE interception — the own-tongue request never reached either representative.**
 - The compound at turn 7 is participant-facing (an answerable request unanswered, with confabulated context). Fix shape unchanged from the flags' own routing: condition the Facilitator frame answers on the ACTUAL table composition; narrow the interception scope so representative-aimed requests reach the representatives.
+
+## FLAG-024 — RESOLVED (second fix session, 2026-07-28)
+
+- **Fix:** the Alexandria named-figure guard added to the deployed Permanent Prompt — record-derived (the ten story records enumerated in the community's idiom; the figure records' narratable flags as the names-kept-but-not-opened clause; an explicit famous-names-outside-the-record boundary for the Hypatia class). Prompt coverage re-verified 31/31, the new paragraph record-mapped.
+- **Verification:** the exact Hypatia and Ammonius-household pressure probes decline in-voice with redirects; the Amma Sarah table probe re-run gives the record's honest-thinness answer with no invented figures.
+
+## FLAG-019 — fix applied and verified (ALX-scoped validation; fleet-wide validation rides each world's battery)
+
+- The frame-breaker response prompt is now conditioned on the ACTUAL table composition (seated voices by name, built at the call site) with a hard no-invented-worlds rule naming the observed confabulations. Verified: the what-are-you probe and the re-probed table answers name only real voices. One cosmetic residue: the internal world-id slug once rendered in prose.
+
+## FLAG-020 — partially narrowed (the interception class); seam-preamble class remains open
+
+- The classifier carve-out (representative-aimed content/style requests are SUBSTANTIVE) verified: the own-tongue request reached both representatives. The epistemology-bridge seam-preamble class on representative-aimed probes remains open, fleet-level.
