@@ -225,7 +225,12 @@ def build_record(path: Path, drops: list):
         "schema_version": 1, "jobs": [1, 2, 4, 6], "register": "emic",
         "review_state": "draft", "cache_stability": "static",
         "term": fm.get("Term", ""),
-        "aliases": [a.strip() for a in fm.get("Aliases", "").split(",") if a.strip()],
+        # quote-aware split: '"mystery," "symbol"' keeps the comma inside
+        # the quoted alias (the render-parity instrument caught the naive
+        # split migrating quoted commas - S2.8 in-step fix, declared)
+        "aliases": [a.strip() for a in re.split(
+            r',\s*(?=(?:[^"]*"[^"]*")*[^"]*$)', fm.get("Aliases", ""))
+            if a.strip()],
         "quick_meaning": secs.get("Quick Meaning", ""),
         "world_meaning": wm,
         "distortion_risk": distortion,

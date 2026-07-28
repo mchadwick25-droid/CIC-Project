@@ -15,10 +15,8 @@ term: raza (ܐܪܙܐ) / shrara
 aliases:
 - razā
 - rāzā
-- '"mystery'
-- '" "symbol" (as loose English gloss); shrara/shrārā'
-- '"truth'
-- '" "reality"'
+- '"mystery," "symbol" (as loose English gloss); shrara/shrārā'
+- '"truth," "reality"'
 quick_meaning: For this world, a *raza* is not a stand-in or illustration for the *shrara* (truth) it
   points to — it is bound to that truth and actually carries something of its hidden power, so that reading
   Scripture and creation by *raza* is closer to perceiving a real connection than decoding an arbitrary

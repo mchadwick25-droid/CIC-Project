@@ -13,9 +13,7 @@ review_state: draft
 cache_stability: static
 term: Iḥidaya (ܝܚܝܕܝܐ)
 aliases:
-- '"the Solitary'
-- '" "the Single One'
-- '" "Only-Begotten" (christological sense)'
+- '"the Solitary," "the Single One," "Only-Begotten" (christological sense)'
 - monogenes (Greek parallel)
 quick_meaning: Iḥidaya names, in one word, both this world's ascetic and celibate designation — "single-minded,"
   undivided in allegiance though living communally, not in physical isolation — and the Syriac christological
@@ -70,7 +68,7 @@ sources:
     A. Kitchen).'
 - source_id: srcSYR056
   author_gravity_note: 'Sidney Griffith, "''Singles'' in God''s Service: Thoughts on the Ihidaye from
-    the Works of Aphrahat and Ephraem the Syrian," *The Harp* 4 (1991): 145–59 (Source Registry #26, cross-checked).'
+    the Works of Aphrahat and Ephraem the Syrian," *The Harp* 4 (1991): 145–59 (Source Registry #56).'
 - source_id: srcSYR029
   author_gravity_note: 'Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29).'
 - source_id: srcSYR010
@@ -132,3 +130,5 @@ contested_claim_ids:
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex007_ihidaya.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with qyama (near-synonym in Aphrahat's own usage, kept as a distinct entry) and taḥwyāṯā (the textual home of Dem. 6:8 and 7:20). Both entries list this term back.
+
+[FLAG-025 correction applied at the S2.8-equivalent (2026-07-28): the span text's mis-pointer '(Source Registry #26, cross-checked)' corrected to '(Source Registry #56)' - srcSYR056, the citation's true registry home per the S2.1a sweep; the deployed chunk regenerates corrected from this record.]

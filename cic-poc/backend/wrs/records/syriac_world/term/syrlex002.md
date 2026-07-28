@@ -15,8 +15,7 @@ term: qyama (ܩܝܡܐ) / bnay qyama / bnat qyama
 aliases:
 - bar qyama
 - bat qyama (singular forms)
-- '"sons/daughters of the covenant'
-- '" "covenant" (loose English gloss)'
+- '"sons/daughters of the covenant," "covenant" (loose English gloss)'
 quick_meaning: The qyama is this world's own committed, celibate order of "sons and daughters of the covenant"
   — men and women who take a lifelong vow but remain resident among their own kin in town rather than
   withdrawing to the desert, making this world's asceticism a discipline practiced in the middle of ordinary
@@ -86,7 +85,7 @@ sources:
     Syriac Tradition," *Religions* 15(6): 686 (2024) (Source Registry #33).'
 - source_id: srcSYR056
   author_gravity_note: 'Sidney Griffith, "''Singles'' in God''s Service..." *The Harp* 4 (1991) (Source
-    Registry #26, cross-checked).
+    Registry #56).
 
 
     Note: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific
@@ -152,3 +151,5 @@ Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/le
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Iḥidaya (near-synonym in Aphrahat's own usage; the two entries should be read alongside each other, not merged) and taḥwyāṯā (Demonstration 6, the primary evidentiary source for this entry, is itself one of Aphrahat's taḥwyāṯā). Both entries list this term back.
 
 [CT Contest Type - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] **Historical scope.** The qyama's own formal organizational structure — whether it had a settled rule, enclosure practice, or internal hierarchy — is thinly and contestedly documented in the scholarship. Existence, vowed-celibacy, and fourth-century attestation are solidly evidenced (Widely Accepted); claims about internal structural detail beyond that are Contested/Inferential-Thin and should not be presented as settled.
+
+[FLAG-025 correction applied at the S2.8-equivalent (2026-07-28): the span text's mis-pointer '(Source Registry #26, cross-checked)' corrected to '(Source Registry #56)' - srcSYR056, the citation's true registry home per the S2.1a sweep; the deployed chunk regenerates corrected from this record.]
