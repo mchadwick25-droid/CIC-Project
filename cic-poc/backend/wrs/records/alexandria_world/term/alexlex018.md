@@ -63,18 +63,7 @@ world_meaning: 'Death picks up exactly where sin leaves off. The soul has turned
   spiritual one. The choice is coherent only if death first means separation from God: the martyr is not
   choosing the worse thing but the lesser death to escape the greater. The body will dissolve; the soul
   stays turned toward God, toward the life he gives. The killing cannot sever that orientation. The denial
-  would.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Death names the specific consequence of sin whose reversal the
-  rest of the arc answers, and it does so in two modes. It anchors the precision of Resurrection (which
-  addresses spiritual death primarily and physical death consequently, in that order), the coherence of
-  the martyrdom-as-formation account (Doc_05 §5 — rational only if death first means spiritual separation),
-  the urgency of the whole formation ecology (its practices are the reversal of the dying sin has begun),
-  and the therapeutic/medical frame that governs the ecology (Christ as Physician, formation as medicine,
-  the soul as patient) — a frame that only makes sense if spiritual death is a real illness and formation
-  its treatment.'
+  would.'
 distortion_risk: '**World Hearing:**
 
   Death here is first a theological and ontological condition, not a biological event. Spiritual death
@@ -133,6 +122,42 @@ modern_hearing: '**Modern Hearing:**
   follows the forensic frame: death is the penalty sin incurs, the sentence divine justice requires and
   Christ absorbs, reversed by a resurrection understood mainly as biological life restored and the penalty
   shown to be paid.'
+period_sense: First the soul's progressive separation from God - the consequence of sin's turning, in
+  which a soul cut off from the source of its life loses what that source supplied; physical dissolution
+  follows as the outward seal (chunk Quick/World Meaning).
+prior_sense: Ordinary Greek thanatos, biological death - the world's own teaching keeps the ordinary sense
+  as the second, outward mode; noted from the chunk's own two-mode structure.
+modern_sense: Biological cessation, full stop - even the metaphors (a dead relationship) borrow from that
+  (chunk Modern Hearing).
+conceptual_distance_note: 'Modern death is an event at the end; the world''s death is a condition already
+  operating - the soul''s separation from its life-source, with biology as seal, not definition (chunk
+  World Hearing). Sharp gap: high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: We do not sustain ourselves. Nothing does - to exist at all is to participate in the ground
+  of being. The soul that turns from the source of its life begins to lose what that source was supplying.
+  That is death, already at work.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex017
+  note: 'Death follows sin''s turning with a logic that needs no further cause (chunk WM). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Death names the specific consequence of sin whose reversal
+    the rest of the arc answers, and it does so in two modes. It anchors the precision of Resurrection
+    (which addresses spiritual death primarily and physical death consequently, in that order), the coherence
+    of the martyrdom-as-formation account (Doc_05 §5 — rational only if death first means spiritual separation),
+    the urgency of the whole formation ecology (its practices are the reversal of the dying sin has begun),
+    and the therapeutic/medical frame that governs the ecology (Christ as Physician, formation as medicine,
+    the soul as patient) — a frame that only makes sense if spiritual death is a real illness and formation
+    its treatment.'
+- type: presupposed-by
+  target_id: alexlex019
+  note: Resurrection answers death's two modes in the same order (alexlex019 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex018_death.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

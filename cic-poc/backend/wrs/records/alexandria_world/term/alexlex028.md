@@ -56,17 +56,7 @@ world_meaning: 'God is always teaching. The Logos speaks through Scripture''s di
   is. The soul prays alone and the community prays together; both are prayer, and neither is a thinner
   version of the other. The body prays too — kneeling, lifted hands, prostration are not decorations on
   an inward act but the body doing in its own medium what the soul is doing: turning toward, attending
-  to, reaching toward the one who is always already speaking.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Prayer is the practice that most directly expresses what every
-  other practice is building toward — the soul''s direct turning toward the divine reality it was made
-  to attend to. A participant who grasps prayer grasps what the nous is for (prayer is the nous''s own
-  activity), how the practices hold together (Scripture is prayer in the mode of attending to what the
-  Logos says through the text, fasting prepares the desire prayer orients, the Eucharist is the community''s
-  most concentrated prayerful participation), and how the divine-pedagogy relationship works from the
-  soul''s side: the Teacher is always addressing, and prayer is the soul''s turning to attend to the address.'
+  to, reaching toward the one who is always already speaking.'
 distortion_risk: '**World Hearing:**
 
   Prayer is the soul''s attention, not first of all its speech. Speech is how prayer begins and a form
@@ -119,6 +109,39 @@ modern_hearing: '**Modern Hearing:**
   Prayer as talking to God — verbal speech aimed at a divine listener (praise, petition, confession, thanks),
   with the speech-act at the center. Even contemplative versions are often imagined as quieting the mind
   into a contentless openness, made receptive to whatever arises.'
+period_sense: Not first speaking to God - the soul's turning to attend to the address God is always already
+  making; the practice of listening for what the Logos is continuously saying (chunk Quick/World Meaning).
+prior_sense: Ordinary Greek proseuche, petition/prayer-speech - noted from standard lexica, UNVERIFIED
+  against a registry source; the world's own account keeps speech as the form and relocates the substance
+  to attention.
+modern_sense: Talking to God - verbal speech aimed at a divine listener, with the speech-act at the center
+  (chunk Modern Hearing).
+conceptual_distance_note: 'Modern prayer speaks; the world''s prayer attends - the address is continuous,
+  and the question is whether the soul is listening (chunk World Hearing). Sharp direction reversal: high
+  grounding criterion by rule.'
+semantic_domain: formation-practices
+grounding_criterion: high
+voice_surface: God is always teaching - through Scripture's difficulty, through the community's life,
+  through the suffering that opens what ease leaves closed. The address is continuous. The question is
+  whether the soul is attending.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex002
+  note: 'Prayer attends to the continuous teaching - the pedagogy heard (chunk WM). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): Prayer is the practice that most directly expresses what every
+    other practice is building toward — the soul''s direct turning toward the divine reality it was made
+    to attend to. A participant who grasps prayer grasps what the nous is for (prayer is the nous''s own
+    activity), how the practices hold together (Scripture is prayer in the mode of attending to what the
+    Logos says through the text, fasting prepares the desire prayer orients, the Eucharist is the community''s
+    most concentrated prayerful participation), and how the divine-pedagogy relationship works from the
+    soul''s side: the Teacher is always addressing, and prayer is the soul''s turning to attend to the
+    address.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex028_prayer.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

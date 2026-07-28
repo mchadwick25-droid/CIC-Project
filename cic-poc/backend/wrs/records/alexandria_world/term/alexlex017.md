@@ -60,18 +60,7 @@ world_meaning: 'The Greek word is *hamartia*, and it means missing the mark. Not
   And the turning-back is possible only because the damage is directional, not total. The image is wounded,
   not erased. A soul whose image had been destroyed could not be formed toward God — it would have to
   be made again from nothing. But the capacity sin misdirected is the same capacity grace can re-aim,
-  and the freedom that turned away is the same freedom that, under formation, can turn home.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Sin sets the problem the entire salvation arc answers; without
-  a precise account of it, none of what follows — Death, Resurrection, Restoration, Transformation — reads
-  correctly. It anchors the Death entry (death is what the soul undergoes once it has turned from the
-  source of its life), it gives the whole formation ecology its purpose (every practice is at some level
-  the re-orientation of desire), it makes Repentance intelligible (a directional condition is answered
-  by a directional turn — *metanoia*), and it ties directly to Freedom (the soul turned away because it
-  was free to, which is why formation works with the soul''s freedom rather than over it). This is the
-  second Primary gravity, Salvation (Doc_04), seen from its problem-side.'
+  and the freedom that turned away is the same freedom that, under formation, can turn home.'
 distortion_risk: '**World Hearing:**
 
   The primary human problem is not legal guilt but directional mis-orientation — not a soul under sentence
@@ -129,6 +118,44 @@ modern_hearing: '**Modern Hearing:**
   sin is wrongdoing, breaking a rule, incurring guilt or debt before a divine judge who requires payment.
   God''s answer is judicial — the debt forgiven, the guilt absolved, the account settled, the sinner acquitted.
   Healing and transformation, if present at all, come second to legal standing.'
+period_sense: 'Hamartia - missing the mark: not first a list of wrong acts but the soul''s mis-orientation,
+  the whole self turned away from God who is its created telos; particular acts are expressions of the
+  condition (chunk Quick/World Meaning).'
+prior_sense: Ordinary Greek hamartia, the archer's miss - the chunk itself carries the picture ('the picture
+  is from archery, and we take it exactly'); the world received the ordinary word and loaded it with the
+  directional account.
+modern_sense: 'The forensic frame - sharpened after the Reformation and migrated into secular moral talk:
+  sin as wrongdoing, law-breaking, guilt under sentence (chunk Modern Hearing).'
+conceptual_distance_note: 'Modern sin is legal standing; the world''s hamartia is direction - a soul turned
+  from God, not a soul under sentence (chunk World Hearing). Sharp frame inversion: high grounding criterion
+  by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: The Greek word is hamartia, and it means missing the mark. Not breaking a law, not running
+  up a debt - failing to arrive at what we were aimed at. An arrow that misses is not guilty of anything.
+  It has gone wrong in a different way.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex009
+  note: 'Mis-orientation presupposes the created orientation - the image damaged but present is what makes
+    the miss a miss (alexlex009 WM/EF; chunk EF: sin sets the problem the arc answers). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Sin sets the problem the entire salvation arc answers;
+    without a precise account of it, none of what follows — Death, Resurrection, Restoration, Transformation
+    — reads correctly. It anchors the Death entry (death is what the soul undergoes once it has turned
+    from the source of its life), it gives the whole formation ecology its purpose (every practice is
+    at some level the re-orientation of desire), it makes Repentance intelligible (a directional condition
+    is answered by a directional turn — *metanoia*), and it ties directly to Freedom (the soul turned
+    away because it was free to, which is why formation works with the soul''s freedom rather than over
+    it). This is the second Primary gravity, Salvation (Doc_04), seen from its problem-side.'
+- type: presupposed-by
+  target_id: alexlex018
+  note: Death picks up exactly where sin leaves off (alexlex018 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex017_sin-hamartia.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

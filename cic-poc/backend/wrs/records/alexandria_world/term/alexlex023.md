@@ -75,20 +75,7 @@ world_meaning: 'The modern hearing of "Son of God" is not a careless misundersta
   position was coherent and attractive enough to require refuting; that the refutation is recent; that
   the stakes of the contest were precisely the stakes of what our formation claims to do. Our ongoing
   confession of the Son — in the liturgy, in the community''s prayer, in our teaching — is an act of holding
-  what was settled, not the repetition of something that never cost anything.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Son of God names the claim on which this world''s account of theosis
-  and participation is founded; without it the ecology is still coherent, but it produces proximity to
-  an elevated creature rather than participation in divine life. It anchors theosis''s possibility (the
-  soul that shares the Son''s life shares divine life only because the Son''s life *is* divine life),
-  participation''s real character (the branch shares the vine''s life, and the vine''s life is genuinely
-  divine), and transformation''s ground (genuine reorientation into divine life, not self-improvement
-  or resemblance to a creature). It is the ontological register of the one the Logos entry established
-  and the Christ entry confesses, and it is the claim the Incarnation carries into practice: "God became
-  human so that humanity might become god" means something only if the one who became human is genuinely
-  God.'
+  what was settled, not the repetition of something that never cost anything.'
 distortion_risk: '**World Hearing:**
 
   The honorific hearing does not undervalue the Son so much as fail to ground what our formation claims
@@ -146,6 +133,48 @@ modern_hearing: '**Modern Hearing:**
   close to God and worthy of special reverence" is not being dismissive; they are using the title in what
   sounds like its natural sense. And what sounds like its natural sense is precisely the Arian position
   — the default hearing in any culture where "son of God" would mean "someone especially near God."'
+period_sense: 'Not an honorific for someone especially holy - the claim Nicaea defended: the Son is not
+  a creature, however exalted, but genuinely God, of one substance with the Father; the ground of what
+  formation claims to produce (chunk Quick/World Meaning and EF). Confessed in this form for the world''s
+  post-325 horizon specifically.'
+prior_sense: 'The rival sense is the world''s own record: the Arian hearing - Son of God as the highest
+  honor for a created being - a position once formally held, carefully argued, explicitly weighed, and
+  rejected (the chunk carries this as its own history, not as a modern error).'
+modern_sense: An honorific - uniquely holy, specially chosen, divinely inspired, perhaps divine in some
+  softened sense (chunk Modern Hearing).
+conceptual_distance_note: 'The modern honorific hearing IS the ancient rejected position - the chunk names
+  the coincidence exactly; what it fails is not the Son''s honor but the ground of theosis: a soul formed
+  toward an elevated creature arrives at proximity, not participation (chunk World Hearing/EF). Sharp
+  gap with the world''s own stakes: high grounding criterion by rule.'
+semantic_domain: christological-titles
+grounding_criterion: high
+voice_surface: What you have heard is not a careless misunderstanding. It was a position once formally
+  held, carefully argued, explicitly weighed - and then rejected. A soul formed toward the most God-like
+  creature is not a soul formed toward theosis; the answer is real participation, because the Son is genuinely
+  God.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex022
+  note: 'An aspect-title of the confessed one (chunk EF). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): Son of God names the claim on which this world''s account of theosis and participation
+    is founded; without it the ecology is still coherent, but it produces proximity to an elevated creature
+    rather than participation in divine life. It anchors theosis''s possibility (the soul that shares
+    the Son''s life shares divine life only because the Son''s life *is* divine life), participation''s
+    real character (the branch shares the vine''s life, and the vine''s life is genuinely divine), and
+    transformation''s ground (genuine reorientation into divine life, not self-improvement or resemblance
+    to a creature). It is the ontological register of the one the Logos entry established and the Christ
+    entry confesses, and it is the claim the Incarnation carries into practice: "God became human so that
+    humanity might become god" means something only if the one who became human is genuinely God.'
+- type: presupposed-by
+  target_id: alexlex008
+  note: Theosis is founded on the Son's genuine divinity - participation in an elevated creature would
+    not deify (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex023_son-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

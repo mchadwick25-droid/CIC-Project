@@ -117,6 +117,13 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex008
   note: Theosis is participation's horizon - restored likeness through real sharing (alexlex008 QM).
+- type: presupposes
+  target_id: alexlex021
+  note: Participation is what the Transformation gravity arrives at (alexlex007 EF; alexlex021 EF).
+- type: presupposed-by
+  target_id: alexlex026
+  note: The Eucharist enacts participation - the practice most directly doing what the sequence moves
+    toward (alexlex026 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex007_participation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

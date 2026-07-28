@@ -168,6 +168,9 @@ field_relations:
 - type: presupposes
   target_id: alexlex001
   note: Grounded in the Logos-Centered Unity (chunk EF, Doc_04 C4).
+- type: presupposed-by
+  target_id: alexlex016
+  note: Allegory is the method this orientation governs (alexlex016 WM/EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex015_christological-reading.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

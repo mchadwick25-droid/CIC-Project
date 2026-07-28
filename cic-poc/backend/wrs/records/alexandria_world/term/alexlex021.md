@@ -45,16 +45,7 @@ world_meaning: 'When this world speaks of the soul being transformed, it does no
   It names what that arc is doing in the ongoing life of an actual soul. And it does not run in tidy stages
   one leaves behind — the one just beginning is already being transformed, and the wise are still being
   taught; the movement is a spiral that deepens, running through every stage at once, toward the participation
-  in God that is the soul''s true end.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Transformation is the operational name of the second Primary gravity
-  (Transformation of the Soul Toward God, Doc_04 C2) — what that gravity is actually doing in souls. It
-  anchors the internal logic of the formation sequence and gives every practice its purpose: each practice
-  is not a task to complete but a channel *through which* transformation is occurring. It connects the
-  salvation arc (Sin→Death→Resurrection→Restoration) to the present life of the soul and points it toward
-  Participation and Theosis.'
+  in God that is the soul''s true end.'
 distortion_risk: '**World Hearing:**
 
   A change whose source is the encounter with God: the soul is genuinely reoriented at the level of desire,
@@ -96,6 +87,44 @@ modern_hearing: '**Modern Hearing:**
 
   Self-help, psychological development, or social change — three hearings that all locate the source of
   the change in the human being''s own work on themselves.'
+period_sense: What the whole formation ecology is doing - the genuine reorientation of the soul toward
+  God at the level of desire and perception, received rather than achieved; the operational name of the
+  second Primary gravity (chunk Quick Meaning and EF).
+prior_sense: 'none-attested as a lexeme: the build''s operational name for the gravity''s work in souls.'
+modern_sense: Self-help, psychological development, or social change - all locating the source of change
+  in the human being (chunk Modern Hearing).
+conceptual_distance_note: 'Modern transformation is self-sourced; the world''s is encounter-sourced -
+  the soul genuinely reoriented at the level of desire, not improved at the level of behavior (chunk World
+  Hearing). Sharp agency inversion: high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: When we speak of the soul being transformed, we do not mean self-improvement. The source
+  of the change is not the person working on themselves. It is the encounter with God, reordering desire
+  itself.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex020
+  note: 'Transformation enacts the restorative conviction in formation (chunk EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): Transformation is the operational name of the second Primary gravity
+    (Transformation of the Soul Toward God, Doc_04 C2) — what that gravity is actually doing in souls.
+    It anchors the internal logic of the formation sequence and gives every practice its purpose: each
+    practice is not a task to complete but a channel *through which* transformation is occurring. It connects
+    the salvation arc (Sin→Death→Resurrection→Restoration) to the present life of the soul and points
+    it toward Participation and Theosis.'
+- type: presupposed-by
+  target_id: alexlex007
+  note: Participation is what the Transformation gravity is FOR - the sequence arrives there (alexlex007
+    EF).
+- type: presupposed-by
+  target_id: alexlex027
+  note: Fasting enacts at the body's level what transformation works toward at the soul's (alexlex027
+    EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex021_transformation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

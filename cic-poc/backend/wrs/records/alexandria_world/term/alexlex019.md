@@ -59,17 +59,7 @@ world_meaning: 'Resurrection has to be heard against death. Death here has two m
   It is transformation: the body, like the soul, genuinely changed by its participation in the Logos''s
   life, raised into what formation has been preparing it for. The body enters theosis as the soul does
   — the whole person restored and transformed in the completion of everything the formation sequence has
-  been building toward.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Resurrection is the hinge of the salvation arc — it names the
-  reversal the arc moves through and joins the problem-side (Sin, Death) to the trajectory-side (Restoration,
-  Transformation). It anchors the anti-Gnostic character of every bodily formation practice (the body
-  is being formed toward what it will be raised as, not toward escape from it), the formation function
-  of the Paschal cycle (the community''s recurring enactment of the death-and-resurrection arc), and the
-  connection to Participation and Theosis (the resurrection life is operative now in the soul growing
-  in participation, and arrives complete in theosis). Restoration picks up what resurrection inaugurates.'
+  been building toward.'
 distortion_risk: '**World Hearing:**
 
   Resurrection is the reversal of death''s specific condition — spiritual separation and physical dissolution
@@ -128,6 +118,44 @@ modern_hearing: '**Modern Hearing:**
   sense of his presence — spiritual meaning kept, the body''s redemption dropped. Both share an assumption:
   resurrection is mainly about what happened to Jesus after the cross, a past event and a future hope,
   not a present reality operative in formation now.'
+period_sense: 'Neither a corpse reanimated nor a soul surviving death - the genuine reversal of what death
+  names: the soul''s reunion with God through the Logos who entered, spiritual death answered first, the
+  body''s share genuine (chunk Quick/World Meaning).'
+prior_sense: Ordinary Greek anastasis, rising/standing up - noted from standard lexica, UNVERIFIED against
+  a registry source; the world's own two-mode account is the chunk's subject.
+modern_sense: 'Two thin hearings: the literalist corpse-reanimation, and the metaphorical spiritual-survival
+  reading (chunk Modern Hearing).'
+conceptual_distance_note: 'Both modern readings answer only one of death''s two modes; the world''s resurrection
+  reverses both, in order - separation reunited, dissolution reversed, inaugurated in Christ and operative
+  now (chunk World Hearing). Sharp gap: high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: Resurrection has to be heard against death - spiritual first, the soul's separation from
+  God; the body's dissolution following as the outward seal. It answers both, in the same order.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex018
+  note: 'The reversal is OF death''s specific condition - the hinge of the arc (chunk EF). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Resurrection is the hinge of the salvation arc — it names
+    the reversal the arc moves through and joins the problem-side (Sin, Death) to the trajectory-side
+    (Restoration, Transformation). It anchors the anti-Gnostic character of every bodily formation practice
+    (the body is being formed toward what it will be raised as, not toward escape from it), the formation
+    function of the Paschal cycle (the community''s recurring enactment of the death-and-resurrection
+    arc), and the connection to Participation and Theosis (the resurrection life is operative now in the
+    soul growing in participation, and arrives complete in theosis). Restoration picks up what resurrection
+    inaugurates.'
+- type: presupposes
+  target_id: alexlex001
+  note: Worked through the Logos who entered human nature (chunk QM).
+- type: presupposed-by
+  target_id: alexlex020
+  note: 'Restoration is the trajectory the reversal opens (alexlex020 WM: Life re-entering what was dying).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex019_resurrection.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

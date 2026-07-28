@@ -54,18 +54,7 @@ world_meaning: 'Baptism is not the public announcement of a private decision. Th
   began. The illumination is real but only started: the nous has been opened, and gnosis, wisdom, and
   the long movement toward theosis are the deepening of what baptism inaugurated. And baptism asks no
   literacy, no schooling, no learning of anyone — the whole community crosses here. It is a threshold
-  we do not complete and leave behind, but one we keep going deeper into for the rest of our lives.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Baptism is the enacted entry into the community''s fuller participation
-  — the threshold catechesis leads toward and from which all later formation deepens. A participant who
-  grasps baptism grasps why illumination is spoken of as something enacted and not merely taught, why
-  the whole death-resurrection arc is participated in and not only confessed, and why the entire ecology
-  is bodily: fasting, vigil, the reception of the Eucharist, and the postures of prayer all presuppose
-  that the body shares genuinely in the soul''s formation, and baptism is where that is first and most
-  concentratedly enacted. It is also the community''s own act — the Eucharist opens to the baptized, and
-  their formation becomes the community''s shared charge.'
+  we do not complete and leave behind, but one we keep going deeper into for the rest of our lives.'
 distortion_risk: '**World Hearing:**
 
   A genuine threshold crossed in the body, in which the soul really shares in Christ''s death and resurrection,
@@ -118,6 +107,42 @@ modern_hearing: '**Modern Hearing:**
   inwardly, with no formation power of its own — or the correct labels ("the sacrament of initiation,"
   "the washing of regeneration," "entry into the body of Christ") held abstractly, naming what baptism
   is called without showing what it does to the soul and body that undergo it.'
+period_sense: Not a ceremony announcing a decision already made - a real threshold crossed in the body,
+  in which the catechumen genuinely shares in Christ's death and resurrection and the soul's condition
+  changes; the enacted entry catechesis leads toward (chunk Quick/World Meaning and EF).
+prior_sense: Ordinary Greek baptizein, to dip/wash - noted from standard lexica, UNVERIFIED against a
+  registry source; the world's own baptismal vocabulary of illumination (photismos) is attested at Doc_02
+  SS9.
+modern_sense: Either a public statement of private faith with no formative work of its own, or an empty
+  ritual (chunk Modern Hearing).
+conceptual_distance_note: 'Modern baptism announces what already happened; the world''s baptism DOES something
+  - a threshold worked in the body, the nous opened (chunk World Hearing). Sharp gap of efficacy: high
+  grounding criterion by rule.'
+semantic_domain: formation-practices
+grounding_criterion: high
+voice_surface: Baptism is not the public announcement of a private decision. What we mean is a threshold
+  - a real crossing, worked in the body, in which the soul's condition genuinely changes.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex003
+  note: 'The threshold catechesis leads toward - entry into fuller participation (chunk EF). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Baptism is the enacted entry into the community''s fuller
+    participation — the threshold catechesis leads toward and from which all later formation deepens.
+    A participant who grasps baptism grasps why illumination is spoken of as something enacted and not
+    merely taught, why the whole death-resurrection arc is participated in and not only confessed, and
+    why the entire ecology is bodily: fasting, vigil, the reception of the Eucharist, and the postures
+    of prayer all presuppose that the body shares genuinely in the soul''s formation, and baptism is where
+    that is first and most concentratedly enacted. It is also the community''s own act — the Eucharist
+    opens to the baptized, and their formation becomes the community''s shared charge.'
+- type: presupposed-by
+  target_id: alexlex026
+  note: The Eucharist is the recurring center baptism admits to (alexlex026 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex025_baptism.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

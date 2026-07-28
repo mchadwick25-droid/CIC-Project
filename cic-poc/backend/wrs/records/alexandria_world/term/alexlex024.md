@@ -78,25 +78,7 @@ world_meaning: 'In the beginning was the Word.
   than merely informs. The Word who speaks through the text is the Word who made the soul and is even
   now forming it toward its end. The encounter is not a neutral transfer of information; it is the Word
   addressing what the Word made, and the soul that attends to that address is attended to by the one who
-  knows it most completely.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Word of God is the title that joins the eternal, cosmic character
-  of the Logos to Scripture as a living formation instrument — the bridge between the Logos entry''s philosophical-theological
-  register and Scripture''s formation-practice register. It anchors Scripture''s formative power (Scripture
-  forms because the Word speaks through it — remove that and Scripture is an ancient text of varying authority;
-  restore it and Scripture is the living address of the one who knows the soul from within its own making);
-  it holds creation and Scripture together as the one Word''s address (the same Word who spoke creation
-  speaks through the text, which is why honest reasoning and Scripture reading meet the same reality through
-  different channels); it grounds Christological Reading (Scripture is read toward Christ because it is
-  the Word''s address) and names the speaker of Divine Pedagogy (the Teacher who is always teaching is
-  the eternal Word). Word of God is one of three registers in which we name the one the Logos entry establishes:
-  Christ the confessional register, Son of God the ontological register, Word of God the speech register.
-  The boundary that matters most is between Christ''s prophetic office — the Anointed *commissioned* to
-  speak God''s word — and this term''s speech-character, the one whose identity *is* speaking: reach for
-  Christ when the question is confessional, for Word of God when the question is how God speaks and why
-  Scripture reaches the soul as personal address rather than as ancient text.'
+  knows it most completely.'
 distortion_risk: '**World Hearing:**
 
   The Word of God is the eternal divine speech — the one through whom all things were made, who entered
@@ -159,6 +141,49 @@ modern_hearing: '**Modern Hearing:**
   present at creation? The personal character: a text does not address the soul; the Word who speaks through
   the text does. The formation ground: an authoritative document cannot ground formation power; who speaks
   through it can.'
+period_sense: Not first a name for the Bible - the eternal divine speech through whom God creates, reveals,
+  teaches, and restores; Scripture is where that speech is heard, not what the phrase names (chunk Quick/World
+  Meaning).
+prior_sense: 'none-attested as a separate lexeme: the phrase''s career IS the chunk''s subject - John''s
+  prologue read as the world read it.'
+modern_sense: '''The Word of God'' now means, almost exclusively, ''the Bible'' (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern synonym freezes the phrase onto the book; the world heard the eternal
+  speech the book carries - the bridge between the Logos and Scripture as living formation instrument
+  (chunk World Hearing and EF). Sharp metonymic collapse: high grounding criterion by rule.'
+semantic_domain: christological-titles
+grounding_criterion: high
+voice_surface: In the beginning was the Word. John's Gospel does not open by saying 'In the beginning
+  was the Scripture.' It opens with the divine speech through whom all things were made - and the same
+  prologue says that speech became flesh.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex022
+  note: 'An aspect-title of the confessed one (chunk EF). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): Word of God is the title that joins the eternal, cosmic character of the Logos to Scripture
+    as a living formation instrument — the bridge between the Logos entry''s philosophical-theological
+    register and Scripture''s formation-practice register. It anchors Scripture''s formative power (Scripture
+    forms because the Word speaks through it — remove that and Scripture is an ancient text of varying
+    authority; restore it and Scripture is the living address of the one who knows the soul from within
+    its own making); it holds creation and Scripture together as the one Word''s address (the same Word
+    who spoke creation speaks through the text, which is why honest reasoning and Scripture reading meet
+    the same reality through different channels); it grounds Christological Reading (Scripture is read
+    toward Christ because it is the Word''s address) and names the speaker of Divine Pedagogy (the Teacher
+    who is always teaching is the eternal Word). Word of God is one of three registers in which we name
+    the one the Logos entry establishes: Christ the confessional register, Son of God the ontological
+    register, Word of God the speech register. The boundary that matters most is between Christ''s prophetic
+    office — the Anointed *commissioned* to speak God''s word — and this term''s speech-character, the
+    one whose identity *is* speaking: reach for Christ when the question is confessional, for Word of
+    God when the question is how God speaks and why Scripture reaches the soul as personal address rather
+    than as ancient text.'
+- type: presupposes
+  target_id: alexlex001
+  note: 'The title joins the eternal Logos to Scripture-as-instrument (chunk EF: the bridge).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex024_word-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

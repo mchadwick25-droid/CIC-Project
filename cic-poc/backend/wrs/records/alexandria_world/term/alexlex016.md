@@ -66,21 +66,7 @@ world_meaning: 'The word carries a prejudice that has to be named before it can 
   and old objection — that allegory, if the reader can find anything anywhere, is finally unconstrained
   — and it is a fair one. Our answer names the constraints above; it does not fully close the question
   of how far the discipline of such reading can be specified. This is real and open territory, argued
-  within the church and beyond it, not settled doctrine.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Allegory is the primary interpretive method through which Scripture''s
-  genuine depths (Doc_04 C1) are actually reached in the school tradition''s practice, and it is what
-  makes that tradition a school of Scripture: reading Scripture''s deeper meaning is at the same time
-  the formation of the nous and the growth of the soul toward God, so learning and formation are one act
-  rather than two. A participant who grasps allegory grasps the cluster Scripture → Christological Reading
-  → Allegory as a single reality — the living voice, the orientation toward the one who speaks, and the
-  practice that reaches the depths — and grasps why teaching authority here rests on the quality of the
-  teacher''s formed perception (the teacher shows the student how to perceive, and so forms the capacity
-  to perceive) rather than on office. Allegory is also one of the main sites where the freedom to explore
-  Scripture''s depths presses against the growing post-Nicene pressure on where those depths may legitimately
-  arrive.'
+  within the church and beyond it, not settled doctrine.'
 distortion_risk: '**World Hearing:**
 
   Not the recovery of an author''s intention or the invention of a second meaning, but the perception
@@ -137,6 +123,46 @@ modern_hearing: '**Modern Hearing:**
   embedded. Applied to Scripture, this produces the assumption that the Alexandrian readers were either
   recovering ancient authors'' hidden intentions or, worse, inventing secondary meanings no one embedded
   — which is why "allegorical interpretation" has come to sound like arbitrary creativity.'
+period_sense: Not reading meanings into a text - reading OUT of it depths genuinely present, placed by
+  the Logos who speaks through Scripture; the primary interpretive method through which Scripture's depths
+  are actually reached in the school tradition (chunk Quick Meaning and EF).
+prior_sense: Allegoria as inherited interpretive practice - the allegorical reading of Scripture as philosophy
+  is the Philonic grammar this world entered (Doc_02 SS3.5; SS9 names allegoria/spiritual senses among
+  the recurring inherited terms).
+modern_sense: Allegory as a literary property of a constructed text - Pilgrim's Progress, Animal Farm
+  - where the author builds the second meaning in; applied to exegesis, eisegesis (chunk Modern Hearing).
+conceptual_distance_note: 'The modern frame puts the second meaning in the author''s construction or the
+  reader''s invention; the world''s allegory perceives what the Logos placed - discovery, not construction
+  (chunk World Hearing). Sharp reversal of agency: high grounding criterion by rule.'
+semantic_domain: scripture-reading
+grounding_criterion: high
+voice_surface: The word carries a prejudice that has to be named before it can do any work. Allegory,
+  as we practice it, is not putting a meaning into the text. It is the perception of what the Logos has
+  placed there.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex015
+  note: 'The method operates under the orientation - allegory''s moves are governed by Christological
+    Reading (alexlex015 WM: orientation governs method). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): Allegory is the primary interpretive method through which Scripture''s genuine depths
+    (Doc_04 C1) are actually reached in the school tradition''s practice, and it is what makes that tradition
+    a school of Scripture: reading Scripture''s deeper meaning is at the same time the formation of the
+    nous and the growth of the soul toward God, so learning and formation are one act rather than two.
+    A participant who grasps allegory grasps the cluster Scripture → Christological Reading → Allegory
+    as a single reality — the living voice, the orientation toward the one who speaks, and the practice
+    that reaches the depths — and grasps why teaching authority here rests on the quality of the teacher''s
+    formed perception (the teacher shows the student how to perceive, and so forms the capacity to perceive)
+    rather than on office. Allegory is also one of the main sites where the freedom to explore Scripture''s
+    depths presses against the growing post-Nicene pressure on where those depths may legitimately arrive.'
+- type: presupposes
+  target_id: alexlex014
+  note: The depths reached are Scripture's own - the method presupposes the address (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex016_allegory.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -71,22 +71,7 @@ world_meaning: 'We do not say "Jesus Christ" the way one says "John Smith." We c
   He is never one topic among our topics. Every Scripture we open is his address — the Anointed speaking
   through the text we have gathered to read. Every practice we keep is participation in his life. Every
   encounter is organized around the one already present, whose presence gives it its direction and its
-  stakes.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Christ is the confessional name that organizes the center of this
-  world''s formation; every other Christological term names an aspect of the one this confession identifies.
-  It anchors the salvation arc (sin, death, resurrection, restoration, transformation all name what the
-  Christ accomplishes — he is the arc''s agent), and it anchors the community''s identity, which is gathered
-  around a person confessed as Anointed rather than around a teaching or a code. It is the confessional
-  register of the Logos: the Logos entry names the eternal, cosmic, creative Word as the integrating center
-  of the ecology; Christ is how that same reality is named when we confess it — the Anointed who entered
-  human history. The prophetic office within his anointing (that he is commissioned to speak God''s word
-  as one of three offices) is distinct from the speech-character carried by Word of God (the one whose
-  very identity is constituted by speaking): Christ answers *what he is commissioned as*, Word of God
-  answers *what the nature of his speaking is*. Since Nicaea the confession also carries the *homoousios*,
-  which gives it its transformative stakes rather than a merely doctrinal precision.'
+  stakes.'
 distortion_risk: '**World Hearing:**
 
   Christ is not a name but a title, and the title is a confession we have staked ourselves on: that the
@@ -145,6 +130,46 @@ modern_hearing: '**Modern Hearing:**
   is so familiar that its titular force has drained away. Someone who says "Christ" is usually not making
   a confession; they are using a name. The name-hearing is not wrong about the facts — Jesus is rightly
   called Christ — but it carries none of what the title claims.'
+period_sense: 'The Anointed One - not a surname but the confession this world staked itself on: the one
+  the whole scriptural story was moving toward, in whom priest, king, and prophet are fulfilled; the confessional
+  name organizing the formation''s center (chunk Quick/World Meaning and EF).'
+prior_sense: Christos as the LXX's anointing vocabulary and the Jewish messianic expectation the confession
+  answers - noted from the chunk's own scriptural frame (Peter's confession as paradigm); fuller pre-world
+  career UNVERIFIED against a registry source.
+modern_sense: '''Christ'' functions as a name - the second half of ''Jesus Christ'', swapped freely for
+  ''Jesus''; the title''s titular character has gone silent (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern ear hears a name; the world spoke a confession with its life staked
+  on it (chunk World Hearing). Sharp gap of kind: high grounding criterion by rule.'
+semantic_domain: christological-titles
+grounding_criterion: high
+voice_surface: We do not say 'Jesus Christ' the way one says a name. We confess 'Jesus is the Christ'
+  - and that confession is not the end of an inquiry but the beginning of one.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex023
+  note: 'Son of God names an aspect of the one this confession identifies (chunk EF: every Christological
+    term does). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Christ is the confessional
+    name that organizes the center of this world''s formation; every other Christological term names an
+    aspect of the one this confession identifies. It anchors the salvation arc (sin, death, resurrection,
+    restoration, transformation all name what the Christ accomplishes — he is the arc''s agent), and it
+    anchors the community''s identity, which is gathered around a person confessed as Anointed rather
+    than around a teaching or a code. It is the confessional register of the Logos: the Logos entry names
+    the eternal, cosmic, creative Word as the integrating center of the ecology; Christ is how that same
+    reality is named when we confess it — the Anointed who entered human history. The prophetic office
+    within his anointing (that he is commissioned to speak God''s word as one of three offices) is distinct
+    from the speech-character carried by Word of God (the one whose very identity is constituted by speaking):
+    Christ answers *what he is commissioned as*, Word of God answers *what the nature of his speaking
+    is*. Since Nicaea the confession also carries the *homoousios*, which gives it its transformative
+    stakes rather than a merely doctrinal precision.'
+- type: presupposed-by
+  target_id: alexlex024
+  note: Word of God likewise - the titles organize around the confession (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex022_christ.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

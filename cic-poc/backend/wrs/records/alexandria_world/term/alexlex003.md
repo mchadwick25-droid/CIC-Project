@@ -158,6 +158,9 @@ field_relations:
   target_id: alexlex013
   note: 'Formation is invitation, not programming: it works through the soul''s genuine response - remove
     autexousia and catechesis becomes manipulation (alexlex013 WM).'
+- type: presupposed-by
+  target_id: alexlex025
+  note: Baptism is the threshold catechesis leads toward (alexlex025 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex003_catechesis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

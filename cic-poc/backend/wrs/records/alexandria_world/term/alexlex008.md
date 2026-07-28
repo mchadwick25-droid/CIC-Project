@@ -116,6 +116,9 @@ field_relations:
 - type: presupposes
   target_id: alexlex001
   note: The formula runs through the incarnate Logos (chunk WM/Key Sources).
+- type: presupposes
+  target_id: alexlex023
+  note: Theosis is founded on the Son's genuine divinity (alexlex023 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex008_theosis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

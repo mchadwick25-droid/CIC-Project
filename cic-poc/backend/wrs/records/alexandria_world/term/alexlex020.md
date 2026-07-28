@@ -63,18 +63,7 @@ world_meaning: 'When the Logos entered human nature, the first thing that entry 
   the likeness, resurrection restoring the whole person — without holding the universalist extension.
   Athanasius is the standing demonstration that this is so; he holds all of the former and none of the
   latter. That is why this restorative conviction is not itself contested: it is widely held and firmly
-  grounded, and the disputed material belongs to *apokatastasis*, not to restoration as such.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Restoration is the conviction that makes the formation ecology
-  purposeful rather than either optimistic self-improvement or divine replacement. It anchors the rationale
-  of every formation practice (each assumes what it works on is restorable — the image present, the *nous*
-  closed rather than destroyed and so re-openable), the directional claim of the whole arc (sin damages,
-  death follows, resurrection inaugurates the reversal, and restoration names where the reversal goes
-  — forward to the likeness, not back to a prior state), and the scope of Transformation (which is the
-  moment-by-moment process of what restoration names as the trajectory). The soul is being transformed
-  because it is being restored: restoration gives the direction, transformation is the process.'
+  grounded, and the disputed material belongs to *apokatastasis*, not to restoration as such.'
 distortion_risk: '**World Hearing:**
 
   The restoration conviction here is forward-looking. What the Incarnation restores is not a prior condition
@@ -134,6 +123,43 @@ modern_hearing: '**Modern Hearing:**
   lost. Applied to the soul, it would mean returning the soul to its pre-sin state, a kind of divine reset.
   (A separate modern hearing attaches to *apokatastasis* specifically — universal salvation as a settled
   doctrine — which flattens a genuinely contested proposal into a slogan.)'
+period_sense: 'The conviction that God''s work is genuinely restorative - what sin damaged the Incarnation
+  addresses, what death severed resurrection reunites; forward-looking: what is restored is a created
+  potential, not a prior golden state (chunk Quick/World Meaning and World Hearing).'
+prior_sense: 'none-attested as a lexeme: a build-named conviction; the contested universalist extension
+  (apokatastasis) is carried by its own entry, alexlex051, per the chunk''s own Note - restoration itself
+  is non-CT.'
+modern_sense: Returning something to a prior condition - a restored painting, a restored building (chunk
+  Modern Hearing).
+conceptual_distance_note: 'Modern restoration looks backward to a prior state; the world''s looks forward
+  to a potential never yet reached - completion, not return (chunk World Hearing). Sharp directional gap:
+  high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: When the Logos entered human nature, the first thing that entry did was not to teach new
+  truths or model a new morality. The first thing was restoration - Life re-entering what was dying.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex019
+  note: 'The restorative trajectory runs through the accomplished reversal (chunk EF: joins problem-side
+    to trajectory-side). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Restoration is the
+    conviction that makes the formation ecology purposeful rather than either optimistic self-improvement
+    or divine replacement. It anchors the rationale of every formation practice (each assumes what it
+    works on is restorable — the image present, the *nous* closed rather than destroyed and so re-openable),
+    the directional claim of the whole arc (sin damages, death follows, resurrection inaugurates the reversal,
+    and restoration names where the reversal goes — forward to the likeness, not back to a prior state),
+    and the scope of Transformation (which is the moment-by-moment process of what restoration names as
+    the trajectory). The soul is being transformed because it is being restored: restoration gives the
+    direction, transformation is the process.'
+- type: presupposed-by
+  target_id: alexlex021
+  note: Transformation is restoration operating in the soul's ongoing formation (alexlex021 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex020_restoration.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

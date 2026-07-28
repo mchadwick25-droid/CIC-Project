@@ -57,17 +57,7 @@ world_meaning: 'Fasting is not about the food.
   a soul stands in formation. The Paschal fast is the year''s concentrated form of this — we fast before
   we celebrate the death and rising of Christ, so that the body''s hunger, held across those days, trains
   the soul''s wanting toward the one who satisfies it. The fast and the feast are not opposed; the fast
-  prepares the desire that the feast will meet.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Fasting is the bodily desire-training practice that enacts, at
-  the body''s level, what transformation works toward at the soul''s — the turning of appetite toward
-  God. A participant who grasps fasting grasps why the whole ecology is bodily rather than merely inward
-  (the body genuinely shares in the soul''s formation), why the Paschal cycle needs a fast before its
-  feast (the feast is received by a desire the fast has prepared), and how the transformation gravity
-  reaches believers the school tradition cannot: the one who fasts is genuinely being formed, desire genuinely
-  trained, wherever they stand in the community.'
+  prepares the desire that the feast will meet.'
 distortion_risk: '**World Hearing:**
 
   The abstinence is not the point; the desire-training is. Fasting gives the soul a way to attend to and
@@ -120,6 +110,37 @@ modern_hearing: '**Modern Hearing:**
   technique whose significance is physiological — or the achievement hearing — a severe discipline for
   the spiritually ambitious, taking on bodily suffering as merit or penance in proportion to its harshness.
   Both locate the significance in the abstinence itself.'
+period_sense: 'Not going without food for health or spiritual credit - the training of desire in the body:
+  the soul learning to govern what it reaches for, enacting bodily what transformation works toward (chunk
+  Quick Meaning and EF).'
+prior_sense: Ordinary Greek nesteia, abstinence from food - noted from standard lexica, UNVERIFIED against
+  a registry source.
+modern_sense: Either the diet hearing - restriction for health, a body-management technique - or ascetic
+  credit-earning (chunk Modern Hearing).
+conceptual_distance_note: 'Both modern hearings locate the meaning in the abstinence; the world located
+  it in the desire-training the abstinence enables (chunk World Hearing). Sharp relocation: high grounding
+  criterion by rule.'
+semantic_domain: formation-practices
+grounding_criterion: high
+voice_surface: Fasting is not about the food. The abstinence is not the point; the desire-training is.
+  The soul learns, in the body, to govern what it reaches for.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex021
+  note: 'The bodily enactment of the soul''s reorientation (chunk EF). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Fasting is the bodily desire-training practice that enacts, at the body''s
+    level, what transformation works toward at the soul''s — the turning of appetite toward God. A participant
+    who grasps fasting grasps why the whole ecology is bodily rather than merely inward (the body genuinely
+    shares in the soul''s formation), why the Paschal cycle needs a fast before its feast (the feast is
+    received by a desire the fast has prepared), and how the transformation gravity reaches believers
+    the school tradition cannot: the one who fasts is genuinely being formed, desire genuinely trained,
+    wherever they stand in the community.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex027_fasting.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

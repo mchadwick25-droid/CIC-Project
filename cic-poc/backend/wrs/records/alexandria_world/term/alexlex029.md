@@ -62,19 +62,7 @@ world_meaning: 'The question we ask of a teacher is not *who appointed you?* It 
   bishop''s to grant or to withdraw — it rests on what the teacher has been formed to see. Both are true
   at once. The one who governs the community''s formation and the one who opens Scripture''s depths hold
   different kinds of authority; that the first now governs the second does not make it the same as surpassing
-  it.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The teacher is one of the two primary formation authorities in
-  the ecology — the pole of the Teacher–Bishop tension that grounds authority in demonstrated wisdom rather
-  than in office. The teacher anchors the school''s formation capacity (the guided opening of Scripture''s
-  depths that the episcopal channels do not themselves provide), the continuity of the Alexandrian interpretive
-  tradition (the allegorical, multilevel reading is carried and handed on chiefly by teachers), and the
-  visible demonstration that formation produces something real — the teacher is formation''s fruit and
-  its continuing instrument at once. A participant who grasps the teacher grasps why the Teacher–Bishop
-  tension is a genuine structural feature of this world and not a mere personal rivalry: if teacher authority
-  were only delegated episcopal authority, the tension would collapse into hierarchy, and it does not.'
+  it.'
 distortion_risk: '**World Hearing:**
 
   The didaskalos''s authority rests on what the teacher has become, not on what the teacher knows. To
@@ -131,6 +119,44 @@ modern_hearing: '**Modern Hearing:**
   expertise, where the transaction is complete once the student can show they received what was sent.
   On this hearing the better-informed teacher is the better teacher, and formation is a soft or secondary
   category.'
+period_sense: Not someone who delivers information but someone who accompanies formation - a teacher whose
+  authority rests on wisdom the community can see has genuinely formed them; one pole of the Teacher-Bishop
+  authority tension (chunk Quick Meaning and EF).
+prior_sense: Ordinary Greek didaskalos, teacher/instructor - noted from standard lexica, UNVERIFIED against
+  a registry source.
+modern_sense: The university classroom's teacher - the one at the front of the room delivering content;
+  the distortion nearly invisible because the mapping is so easy (chunk Modern Hearing).
+conceptual_distance_note: 'Modern teaching authority rests on knowing; the world''s rested on having become
+  - visible wisdom, not credentials (chunk World Hearing). Sharp ground shift: high grounding criterion
+  by rule.'
+semantic_domain: formation-authority
+grounding_criterion: high
+voice_surface: 'The question we ask of a teacher is not: who appointed you? It is: what have you become,
+  and can you see what the student cannot yet see?'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex006
+  note: 'The didaskalos''s authority rests on demonstrated wisdom (chunk WM/EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): The teacher is one of the two primary formation authorities in
+    the ecology — the pole of the Teacher–Bishop tension that grounds authority in demonstrated wisdom
+    rather than in office. The teacher anchors the school''s formation capacity (the guided opening of
+    Scripture''s depths that the episcopal channels do not themselves provide), the continuity of the
+    Alexandrian interpretive tradition (the allegorical, multilevel reading is carried and handed on chiefly
+    by teachers), and the visible demonstration that formation produces something real — the teacher is
+    formation''s fruit and its continuing instrument at once. A participant who grasps the teacher grasps
+    why the Teacher–Bishop tension is a genuine structural feature of this world and not a mere personal
+    rivalry: if teacher authority were only delegated episcopal authority, the tension would collapse
+    into hierarchy, and it does not.'
+- type: tension-with
+  target_id: alexlex030
+  note: 'The Teacher-Bishop tension both EFs name: authority grounded in demonstrated wisdom vs apostolic
+    office - held, not resolved (chunk EF both entries).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex029_teacher.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

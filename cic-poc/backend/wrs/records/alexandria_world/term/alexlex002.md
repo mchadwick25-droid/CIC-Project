@@ -116,6 +116,9 @@ field_relations:
   target_id: alexlex003
   note: 'Catechesis is divine pedagogy''s human-scale enactment - the EF: pedagogy makes the gravities
     intelligible as one divine activity (chunk EF).'
+- type: presupposed-by
+  target_id: alexlex028
+  note: Prayer attends to the continuous teaching (alexlex028 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex002_divine-pedagogy.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

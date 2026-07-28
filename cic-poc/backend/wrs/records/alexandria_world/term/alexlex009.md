@@ -143,6 +143,9 @@ field_relations:
   target_id: alexlex010
   note: 'The soul is the image-bearer - its whole anthropology stands on the image (alexlex010 QM; chunk
     EF: the foundational claim the cluster presupposes).'
+- type: presupposed-by
+  target_id: alexlex017
+  note: Sin as mis-orientation presupposes the created orientation the image grounds (alexlex017 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex009_image-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

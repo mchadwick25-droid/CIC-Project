@@ -140,6 +140,9 @@ field_relations:
   target_id: alexlex007
   note: Participation expresses what wisdom has become - the EF ties wisdom to what participation expresses
     (chunk EF).
+- type: presupposed-by
+  target_id: alexlex029
+  note: Teaching authority rests on demonstrated wisdom (alexlex029 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex006_wisdom.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
