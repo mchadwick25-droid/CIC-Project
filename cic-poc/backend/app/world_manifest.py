@@ -18,7 +18,26 @@ only this one).
 """
 
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional
+
+
+def _rendered_cautions(data_dir_name: str, fallback: str) -> str:
+    """S5.5: for migrated worlds, facilitator_cautions is a RENDER over the
+    S2.7a caution records - wrs/views/facilitation_brief.py writes
+    data/<world>/facilitator_cautions_generated.txt and this reads it,
+    replacing the hand-condensed Brief-§B7 distillation that lived here
+    (the distillation now regenerates from the same records the world
+    speaks from, so it can no longer drift from them - Pass 1 §3.9).
+    Fail-open: unmigrated worlds pass no filename and worlds whose render
+    is absent keep the hand string, byte-for-byte."""
+    path = (Path(__file__).resolve().parent.parent / "data" / data_dir_name
+            / "facilitator_cautions_generated.txt")
+    try:
+        text = path.read_text(encoding="utf-8").strip()
+    except OSError:
+        return fallback
+    return text or fallback
 
 
 @dataclass(frozen=True)
@@ -206,7 +225,11 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
         representative_intro=(
             "an elder from the desert communities of Egypt, speaking from the period of c. 320-430 CE"
         ),
-        facilitator_cautions=(
+        # S5.5: rendered from the S2.7a caution records (see
+        # _rendered_cautions); the string below is the pre-render
+        # hand-condensed distillation, kept verbatim as the fail-open
+        # fallback only.
+        facilitator_cautions=_rendered_cautions("desert_world", (
             "This world has direct Coptic Orthodox living-tradition correspondence - Antony and "
             "Pachomius remain actively venerated figures today, and a participant from this background "
             "may experience this as living heritage. Evagrius Ponticus is a contested figure (posthumously "
@@ -215,7 +238,7 @@ WORLD_MANIFEST: tuple[WorldManifestEntry, ...] = (
             "own affective-diagnostic fusion (feeling and diagnosis as one activity) creates a documented "
             "recruitment-risk boundary - Papnoute is built and tested to describe what his own world "
             "diagnosed in itself, never to unilaterally diagnose a participant's own interior state."
-        ),
+        )),
     ),
     WorldManifestEntry(
         world_id="hieronymian-ascetic-literary",

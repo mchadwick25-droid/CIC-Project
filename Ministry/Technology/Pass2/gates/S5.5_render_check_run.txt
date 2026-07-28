@@ -1,0 +1,15 @@
+# S5.5 render-half check
+
+- determinism: PASS - double render byte-identical
+- deployed views current: PASS - current: Brief + cautions byte-match regeneration
+- caution rows land whole in runtime text: PASS - 6 rows
+- caution rows land whole in Brief: PASS - 6 rows
+- record order preserved: PASS
+- FLAG-015 parking verbatim in both: PASS - Evagrius sentence + delimiter
+- manifest serves the render for Desert: PASS
+- unmigrated worlds keep hand strings: PASS - 5 worlds
+- fail-open byte-for-byte: PASS
+- single-world handoff prompt carries render: PASS
+- multi-world handoff prompt builds with mixed sources: PASS
+
+Verdict: GREEN
