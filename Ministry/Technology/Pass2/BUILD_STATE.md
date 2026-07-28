@@ -17,7 +17,7 @@ All state lives here and in commits; no session relies on memory of a previous s
 | M1 | Record-store physical form (Pass 1 §12.2) | S1.5 | **decided 2026-07-26: files-in-git** (`decisions/M1_record_store_form.md`) |
 | M2 | First migration world (§12.5) | S2.1 | **decided 2026-07-26: Desert** (`decisions/M2_first_migration_world.md`) |
 | M3 | `MIN_MULTI_WORLD_TURNS` floor retirement (§12.7) | S4.4b | pending |
-| M4 | Lens spine adoption (§12.8) | S6.1 | pending |
+| M4 | Lens spine adoption (§12.8) | S6.1 | **decided 2026-07-27: adopted as stated** (`decisions/M4_lens_spine.md`) |
 | M5 | Streaming vs. selective buffering (§12.1) | never blocks; standing open item reviewed after S4.2 | **reviewed 2026-07-27, left open by Mark until S4.6's held/concession rates** — the first real data on what an un-prevented bad turn costs |
 | M6 | Appendix B governance-defect sweep (§12.6) | S6.4 | pending |
 
