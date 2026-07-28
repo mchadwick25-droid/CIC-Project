@@ -480,6 +480,7 @@
           }
         },
         "cautions": {"type": "array", "items": {"type": "string"}, "$comment": "blueprint S2.7a"},
+        "living_traditions": {"type": "object", "$comment": "CO-P2-17 (Mark, 2026-07-28): the Living-Traditions distinction close (Article 35 mandatory vision section) - world-specific participant-facing text; the last prompt-coverage GAP closed", "properties": {"text": {"type": "string"}, "status": {"enum": ["provisional", "confirmed"]}, "review_flag": {"type": "string"}}, "required": ["text", "status"], "additionalProperties": false},
         "telos": {
           "type": "object",
           "$comment": "CO-P2-05 (Mark, 2026-07-27, Alternative A: world-scoped): the Christ-Ward Telos, carrying Doc10 S5's provisional flag with it - the second prompt-coverage GAP closed",

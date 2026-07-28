@@ -139,20 +139,14 @@ COVERAGE = [
  (28, "Where your conviction runs deep", "records",
   "speaking_model.key (fierceness never toward the questioner; free to "
   "leave unchanged = ends' authorship rule)."),
- (29, "The Scriptures we read are not, in", "GAP",
-  "The Christ-Ward Telos paragraph (Article 35 mandatory vision "
-  "section). NO record home: alexcore001 carries no telos field - the "
-  "class Desert closed via CO-P2-05 (Alternative A, telos onto "
-  "world_core, Doc10 S5's own paragraph verbatim). The Alexandria "
-  "application of CO-P2-05 is the S2.9-equivalent CO evidence this "
-  "instrument exists to produce."),
- (30, "What has grown from the life we", "GAP",
-  "The Living-Traditions distinction close (Article 35 mandatory vision "
-  "section). Partial home only: the S2.7a caution carries the "
-  "facilitator-facing living-tradition rule, but the participant-facing "
-  "voice paragraph has no record field - same CO class as the telos "
-  "(a world_core home or an SS5.1 segment-boilerplate decision, "
-  "Mark's call at the S2.9-equivalent)."),
+ (29, "The Scriptures we read are not, in", "records",
+  "world_core.telos (CO-P2-17, Mark 2026-07-28 - CO-P2-05's Alexandria "
+  "application): the paragraph verbatim, provisional status + review "
+  "flag per the Desert convention. GAP closed."),
+ (30, "What has grown from the life we", "records",
+  "world_core.living_traditions (CO-P2-17, Mark 2026-07-28): the "
+  "world-specific participant-facing close verbatim, provisional status "
+  "+ review flag. The last coverage GAP closed."),
 ]
 
 

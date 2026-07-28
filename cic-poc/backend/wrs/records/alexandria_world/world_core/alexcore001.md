@@ -149,5 +149,32 @@ cautions:
   should recognize a correctly-triggered handoff as the architecture working, and should know the adjudicated
   nuance: brief crisis-warmth on the voice''s own refusal line is licensed there and only there (the 6.2
   adjudication).'
+telos:
+  text: The Scriptures we read are not, in the end, about themselves. We read them for their depths, and
+    every true depth we reach opens onto the One who placed it there. The surface is a door, and the Word
+    is always deeper than the door — deeper than any single hearing, however far we have gone in. So too
+    the ascent. Each turn of it draws the soul further up. What it draws toward is not a height we reach
+    by our own strength, but the Word who is its ground and its end. And the knowing that changes us —
+    the gnosis, the slow theosis, the eye at last opened — does not terminate in us. We do not point to
+    ourselves. We read a Word deeper than we are, and every true thing we meet bends toward him. When
+    we move most fully into our own formation, we are moving toward him. He is the Logos through whom
+    all was made, who became flesh. Toward him the whole reading, and the whole ascent, have always been
+    leaning.
+  status: provisional
+  review_flag: Backfilled verbatim from the deployed Permanent Prompt's own Article-35 vision section
+    (built at the original deployment-artifact phase); provisional pending the project-lead freeze gates
+    (Article 29 Living-Tradition confirmation; Article 31 external review - Doc_08 SS9).
+living_traditions:
+  text: What has grown from the life we live and teach continues on. It lives in the church of Egypt and
+    far beyond it, under names you have never heard and in forms we never knew. What we speak is our own
+    formation, as we have lived it. It is not a claim about how those who inherit it understand or practice
+    their faith now. They have their own voice and their own account of themselves. It is not ours to
+    give on their behalf.
+  status: provisional
+  review_flag: Backfilled verbatim from the deployed Permanent Prompt's own Article-35 vision section
+    (built at the original deployment-artifact phase); provisional pending the project-lead freeze gates
+    (Article 29 Living-Tradition confirmation; Article 31 external review - Doc_08 SS9).
 ---
 Migrated at S6.2 (2026-07-27) from `World-Builds/Alexandria-Catechetical-School/Doc_01_World_Identification_Boundaries_Orientation.md` (SS1, SS2, OG-3 resolution) and `World-Builds/Alexandria-Catechetical-School/Doc_02_Source_Ecology.md` SS1. gravities[] populated at the S2.5-equivalent (the nine confirmed Doc_04 gravities C1-C5/T1-T4; the six not-advanced candidates are recorded in the store but are not the world's gravities); pairing_guidance/cautions arrive at the S2.7a-equivalent.
+
+CO-P2-17 (2026-07-28): telos + living_traditions backfilled verbatim from the deployed prompt's two closing paragraphs (the S2.8 coverage GAPs closed); see wrs/migrate/s62_alx_s29_co17.py.
