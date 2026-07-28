@@ -791,12 +791,15 @@ Provisional open-flag instruction present in Section 5: YES
 Blockquote carrying explicit provisional status language, naming the open flag,
 naming AI review as non-validating, and naming external scholarly review as required.
 
-Validation testing categories from RCF v1.1 Part Eight all named in Section 7: YES
+Validation testing categories from RCF V3.2 Part Eight all named in Section 7: YES
 All eight categories present: Source-Awareness Probe, Anachronism Probe,
-Confidence-Under-Thinness Probe, Self-Referential Probe, Register-Fidelity Probe (added
-v2.2), Scholarly-Framework Probe, Relational Safety Probe, Claim-Laundering and
-Decontextualization Probe, and Sustained Engagement Testing. Each carries STATUS field
-(CONDUCTED / OUTSTANDING).
+Confidence-Under-Thinness Probe, Self-Referential Probe, Scholarly-Framework Probe,
+Relational Safety Probe, Claim-Laundering and Decontextualization Probe, and Sustained
+Engagement Testing. Each carries STATUS field (CONDUCTED / OUTSTANDING).
+(Register-Fidelity is a Part Five construction check, run at build time — recorded in
+Section 7 where conducted, but not a Part Eight probe category. The parroting and
+pushback categories added by the governing Completion Standard V1.0, section C, run at
+representative-freeze.)
 
 Final Assembly Instruction present: YES
 Eight-step checklist including trace-to-evidence check (Step 3), genuine-test-exchanges
