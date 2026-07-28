@@ -175,6 +175,8 @@ field_relations:
   target_id: alexlex008
   note: Theosis is founded on the Son's genuine divinity - participation in an elevated creature would
     not deify (chunk EF).
+contested_claim_ids:
+- alexclaim003
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex023_son-of-god.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -183,3 +185,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [Carried Contest — Homoousios (`alexlex081`) — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] *Son of God is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) — it is the term that carries the consubstantiality argument most directly. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus its later post-Nicene reception, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. What is contested is not that we confess the Son as of one substance with the Father, but what that term carried in its own moment — how precisely it was fixed at 325, and how far its later, fuller sense may be read back into the bishops' intent. This is why the pre-Nicene and post-Nicene registers stay distinct: before 325 the Son's precise ontological status was genuinely open and argued; only after does the confession stand settled, held here as relief-and-burden. (This is the *Homoousios* contest specified at alexlex081; Son of God is the term that carries the consubstantiality argument most directly, which is why the contest is stated in full here.)
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

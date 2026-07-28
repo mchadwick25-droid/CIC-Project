@@ -170,6 +170,8 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex024
   note: Word of God likewise - the titles organize around the confession (chunk EF).
+contested_claim_ids:
+- alexclaim003
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex022_christ.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -178,3 +180,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [Carried Contest — Homoousios (`alexlex081`) — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] *Christ is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) because the Christ confession itself asserts the Son's consubstantiality. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus how it was received afterward, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. The point of contest is not whether we confess Christ as of one substance with the Father — we do — but what that word carried in its own moment and how far its later sense may be read back into it. This is why the pre-Nicene and post-Nicene registers must be kept distinct: before Nicaea the precise ontological status of the Christ was genuinely open and under debate; only after 325 does the confession stand settled, and we hold that settlement as relief-and-burden rather than as a timeless given. (This is the *Homoousios* contest specified at alexlex081, carried here because the Christ confession itself asserts the consubstantiality; the ontological argument proper lives at Son of God, and the entry of God into flesh at Incarnation.)
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

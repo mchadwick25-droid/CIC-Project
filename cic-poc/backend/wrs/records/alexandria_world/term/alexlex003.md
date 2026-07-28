@@ -170,7 +170,11 @@ field_relations:
 - type: presupposes
   target_id: alexlex040
   note: The graduated shape enacts the mystery's from-within character (alexlex040 EF).
+contested_claim_ids:
+- alexclaim004
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex003_catechesis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Divine Pedagogy, Illumination, Logos, Baptism, Rule of Faith. **Mutual** (each lists this term back): Divine Pedagogy, Illumination, Baptism. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Rule of Faith. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

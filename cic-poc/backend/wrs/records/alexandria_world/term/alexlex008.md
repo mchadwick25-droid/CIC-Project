@@ -125,7 +125,11 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex045
   note: Hope's object is the theosis horizon (alexlex045 WM).
+contested_claim_ids:
+- alexclaim002
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex008_theosis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Logos, Participation, Wisdom, Knowledge/Gnosis, Image of God, Likeness of God. **Mutual** (each lists this term back): Logos, Participation, Wisdom, Likeness of God. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Knowledge/Gnosis, Image of God. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

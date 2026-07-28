@@ -160,6 +160,8 @@ field_relations:
 - type: presupposes
   target_id: alexlex031
   note: The teacher answers to the received inheritance (alexlex031 EF).
+contested_claim_ids:
+- alexclaim004
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex029_teacher.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -170,3 +172,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 The contest (per `alexlex059` / Doc_01 §1.2): it is genuinely disputed whether the Alexandrian *didaskaleion* was a formal institution with a continuous teaching succession, or a looser teaching tradition retrospectively formalized by Eusebius. Van den Broek (1995) and van den Hoek (1997) deny a formal institution before Origen; Scholten (1995) affirms an institution but as a theological school rather than a catechumen-training school. Eusebius, the main source for the succession, carries HIGH Author-Gravity risk.
 
 This chunk therefore does not assert a settled, orderly institution behind the teacher. What is well-attested is the *kind* of authority the teacher held — grounded in demonstrated wisdom and enacted as accompaniment — and that authority does not depend on the institutional question being resolved. The Teacher–Bishop authority tension is a genuine tension in this world and is held open here, not resolved: the post-Nicene configuration shifts the balance decisively toward episcopal governance without dissolving the teacher's distinct ground.
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

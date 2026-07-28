@@ -166,7 +166,11 @@ field_relations:
 - type: presupposes
   target_id: alexlex035
   note: The method works within the formation discipline (alexlex035 EF).
+contested_claim_ids:
+- alexclaim001
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex016_allegory.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Scripture, Christological Reading, Nous, Illumination, Divine Pedagogy, Logos. **Mutual** (each lists this term back): Scripture, Christological Reading. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Nous, Illumination, Divine Pedagogy, Logos. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

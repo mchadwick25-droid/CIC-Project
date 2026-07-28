@@ -116,9 +116,13 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex032
   note: Metanoia is a change OF nous (alexlex032 WM).
+contested_claim_ids:
+- alexclaim005
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex011_nous.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Image of God, Soul/Psyche, Illumination, Knowledge/Gnosis, Likeness of God. **Mutual** (each lists this term back): Image of God, Soul/Psyche, Likeness of God. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Illumination, Knowledge/Gnosis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 [CT Contest Type — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] **Meaning.** The contest concerns what the term meant in its own context — specifically, whether Origen's *own* speculative account of the nous (the nous as the soul's original state; pre-existence; universal return) is the *same* theological position as the propositions condemned at the Second Council of Constantinople (553 CE). Patristics specialists are genuinely divided: some read the condemned "Origenism" as a later, distorting systematization not identical to Origen's own thought; others read meaningful continuity. The dispute is unresolved. Note precisely what is and is not contested: the *broadly-attested* account of the nous as the soul's contemplative faculty is **not** contested; only the continuity of Origen's speculative extension with the condemned propositions is. (This is the same *Meaning* contest carried by Apokatastasis, to which it is theologically linked.)
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.

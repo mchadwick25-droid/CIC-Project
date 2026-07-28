@@ -165,6 +165,8 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex036
   note: Salvation-as-healing enters here (alexlex036 QM).
+contested_claim_ids:
+- alexclaim003
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex039_incarnation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -173,3 +175,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 [Carried Contest — Homoousios (`alexlex081`) — parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] *Incarnation is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) because the Incarnation's restorative claim rests on the consubstantiality of the one who enters flesh. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus its later post-Nicene reception, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. For the Incarnation the contested point is not that we confess the incarnate one as of one substance with the Father, but what that term carried in its own moment and how far its later sense may be read back into it — which in turn shapes how Athanasius's Incarnation theology is read. This is why the pre-Nicene and post-Nicene registers stay distinct: Origen's Incarnation account is pre-Nicene, and its formulations of the Logos's relation to human nature were among the disputed questions Nicaea addressed; Athanasius's account is the post-Nicene one we inhabit, held as relief-and-burden rather than as a timeless given. (This is the *Homoousios* contest specified at alexlex081, carried here because the Incarnation's restorative claim rests on the consubstantiality of the one who enters flesh; the ontological argument proper lives at Son of God.)
+
+S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
