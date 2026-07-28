@@ -72,7 +72,12 @@ def main() -> int:
 
     from app.world_manifest import get_manifest_entry
     own_stems = world_stems(get_manifest_entry(WID).data_dir_name)
-    # staged chunks keep deployed filenames, so own_stems is unchanged
+    # staged chunks keep deployed filenames; CO-P2-15 adds five NEW
+    # governed-CT chunks that exist only in staging - they are this
+    # world's own records (the isolation check's intent is OTHER-world
+    # leakage), so the staged stems extend the own-set, declared here
+    own_stems = set(own_stems) | {p.stem for p in
+                                  (STAGING / "lexicon_chunks").glob("*.md")}
     cases = [eval_case(c, retrievers, own_stems) for c in spec["cases"]]
 
     agg = {"by_category": {}}

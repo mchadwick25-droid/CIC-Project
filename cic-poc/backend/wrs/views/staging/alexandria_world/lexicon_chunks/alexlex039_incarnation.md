@@ -5,7 +5,7 @@ Term:                 Incarnation
 World-Code:           alex
 Tier:                 1
 Aliases:              God becoming human, the Word made flesh, enfleshment, the Logos entering human nature, the divine becoming embodied
-Related-Terms:        Logos, Theosis, Salvation, Christ, Son of God, Word of God, Oikonomia, Holy Spirit / Pneuma Hagion, Participation, Transformation
+Related-Terms:        Logos, Theosis, Salvation, Christ, Son of God, Word of God, Oikonomia, Holy Spirit / Pneuma Hagion, Participation, Transformation, Homoousios / Consubstantial
 Retrieve-When:        participant uses "Incarnation" in a theological or formational sense; participant asks why God became human — what the Incarnation was for — or how the Logos who made everything could enter human flesh; participant asks what the formula "God became human so that humanity might become god" means, or what makes theosis possible rather than merely aspirational; participant asks how the Incarnation bears on formation or transformation, or how it connects to the Nicene confession.
 Do-Not-Retrieve-When: participant is asking primarily about the Son's ontological status (retrieve Son of God) or about Christ's resurrection specifically (retrieve Resurrection); the conversation turns to Christological controversies beyond this world's horizon; the World Capsule Core has already grounded transformation in the Incarnation in the current turn.
 ```

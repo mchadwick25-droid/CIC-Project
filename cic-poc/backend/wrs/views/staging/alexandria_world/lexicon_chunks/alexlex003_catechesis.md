@@ -5,7 +5,7 @@ Term:                 Catechesis
 World-Code:           alex
 Tier:                 1
 Aliases:              catechumenate, catechetical instruction, the catechumen, catechist, formation in the faith, preparation for baptism, Christian formation
-Related-Terms:        Illumination, Divine Pedagogy, Freedom / Autexousia, Baptism, Repentance / Metanoia, Faith / Pistis, Mystery / Mysterion, Logos, Teacher / Didaskalos, Bishop / Episkopos, Rule of Faith / Regula Fidei, Household / Oikos
+Related-Terms:        Illumination, Divine Pedagogy, Freedom / Autexousia, Baptism, Repentance / Metanoia, Faith / Pistis, Mystery / Mysterion, Logos, Teacher / Didaskalos, Bishop / Episkopos, Rule of Faith / Regula Fidei, Household / Oikos, Catechetical School / Didaskaleion
 Retrieve-When:        participant asks how someone becomes a Christian or enters the community, about the catechumenate, or about the stages before baptism; participant uses "catechumen," "catechist," or "instruction in the faith"; participant asks why Christian formation takes time rather than happening in a single event, or how formation happens in community rather than privately; participant treats becoming a Christian as agreeing to doctrines or passing an exam.
 Do-Not-Retrieve-When: participant is asking primarily about what the school taught at depth rather than about entry-formation (retrieve Wisdom or the school-tradition terms); participant is asking about baptism itself rather than the process leading to it; the conversation is about advanced formation (illumination, wisdom) rather than initial entry.
 ```

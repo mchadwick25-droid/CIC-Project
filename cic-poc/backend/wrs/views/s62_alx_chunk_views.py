@@ -171,10 +171,19 @@ def main():
     deployed_lex = {p.stem.split("_")[0]: p.name for p in DEPLOYED_LEX.glob("*.md")}
     deployed_story = {p.stem.split("_")[0]: p.name for p in DEPLOYED_STORY.glob("*.md")}
 
+    # CO-P2-15: the five governed-CT records have no deployed chunk yet -
+    # the view synthesizes their filenames (new-at-swap chunks, declared
+    # in the parity artifact; the render-parity instrument iterates
+    # deployed files, so these are additions, not diffs)
+    NEW_SLUGS = {"alexlex051": "alexlex051_apokatastasis.md",
+                 "alexlex059": "alexlex059_catechetical-school.md",
+                 "alexlex074": "alexlex074_fall-descent.md",
+                 "alexlex081": "alexlex081_homoousios.md",
+                 "alexlex090": "alexlex090_logikos.md"}
     n_lex = n_story = 0
     for rid, (rec, body) in terms.items():
-        name = deployed_lex.get(rid)
-        assert name, f"{rid}: no deployed chunk filename"
+        name = deployed_lex.get(rid) or NEW_SLUGS.get(rid)
+        assert name, f"{rid}: no deployed chunk filename and no declared slug"
         (lex_out / name).write_text(render_lexicon(rec, body, term_names),
                                     encoding="utf-8", newline="\n")
         n_lex += 1

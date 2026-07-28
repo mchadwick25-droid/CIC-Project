@@ -195,6 +195,10 @@ field_relations:
   note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
     symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
     mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex059
+  note: 'CO-P2-15: the governed contest this term carries is surfaced at the partner term (Doc_06 SS3''s
+    CT-surfacing convention).'
 contested_claim_ids:
 - alexclaim004
 ---
@@ -205,3 +209,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+CO-P2-15 (2026-07-28): associated-with mirror(s) added toward the newly-authored governed-CT term record(s); see wrs/migrate/s62_alx_s29_co15.py.

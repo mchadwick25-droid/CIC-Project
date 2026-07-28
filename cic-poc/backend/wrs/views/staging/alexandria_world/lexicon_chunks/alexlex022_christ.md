@@ -5,7 +5,7 @@ Term:                 Christ
 World-Code:           alex
 Tier:                 1
 Aliases:              the Christ, the Anointed One, Messiah, Jesus Christ, the Lord Christ, the anointed, ho Christos
-Related-Terms:        Son of God, Word of God, Incarnation, Holy Spirit / Pneuma Hagion, Logos, Participation, Resurrection, Transformation, Eucharist, Rule of Faith / Regula Fidei
+Related-Terms:        Son of God, Word of God, Incarnation, Holy Spirit / Pneuma Hagion, Logos, Participation, Resurrection, Transformation, Eucharist, Rule of Faith / Regula Fidei, Homoousios / Consubstantial
 Retrieve-When:        participant uses the title "Christ" in a confessional or formational sense, or treats it as if it were a surname; participant asks what "Christ" means as distinct from "Jesus," or what it means that Jesus was "anointed"; participant asks who this world's formation is organized around, or why confessing Christ is a formation act rather than only a doctrinal claim; conversation reaches how Christ's death and resurrection connect to the soul's formation, or how the Nicene confession bears on who the Christ is.
 Do-Not-Retrieve-When: participant is asking specifically about the Son's ontological status (retrieve Son of God) or about the one who speaks through Scripture as the eternal Word (retrieve Word of God); the conversation is focused on a single act (the crucifixion, the resurrection) rather than the title's meaning; the World Capsule Core has already named Christ as the ecology's center in the current turn.
 ```
