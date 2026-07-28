@@ -24,9 +24,18 @@ formation_logic: 'Doc_01 SS2.3 (verbatim): "the catechetical-formation logic (tr
   read at depth, worship, teaching, and philosophical engagement)" - persisting across 325 CE; the record
   is heavily weighted toward the literate Greek-speaking stratum, and evidential visibility is not ecological
   visibility (Doc_02 SS1, Article 17).'
-gravities: []
+gravities:
+- alexgrav001
+- alexgrav002
+- alexgrav003
+- alexgrav004
+- alexgrav005
+- alexgrav006
+- alexgrav007
+- alexgrav008
+- alexgrav009
 sources:
 - source_id: srcALX001
 - source_id: srcALX002
 ---
-Migrated at S6.2 (2026-07-27) from `World-Builds/Alexandria-Catechetical-School/Doc_01_World_Identification_Boundaries_Orientation.md` (SS1, SS2, OG-3 resolution) and `World-Builds/Alexandria-Catechetical-School/Doc_02_Source_Ecology.md` SS1. gravities[] deliberately empty until the S2.5-equivalent authors the gravity records; pairing_guidance/cautions arrive at the S2.7a-equivalent.
+Migrated at S6.2 (2026-07-27) from `World-Builds/Alexandria-Catechetical-School/Doc_01_World_Identification_Boundaries_Orientation.md` (SS1, SS2, OG-3 resolution) and `World-Builds/Alexandria-Catechetical-School/Doc_02_Source_Ecology.md` SS1. gravities[] populated at the S2.5-equivalent (the nine confirmed Doc_04 gravities C1-C5/T1-T4; the six not-advanced candidates are recorded in the store but are not the world's gravities); pairing_guidance/cautions arrive at the S2.7a-equivalent.

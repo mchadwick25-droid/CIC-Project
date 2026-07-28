@@ -66,7 +66,18 @@ sources:
   locus: Eusebius, Historia Ecclesiastica 5.10–6.30 (Pantaenus → Clement → Origen → Heraclas → Dionysius)
 - source_id: srcALX002
   locus: Eusebius, Historia Ecclesiastica 5.10–6.30 (Pantaenus → Clement → Origen → Heraclas → Dionysius)
+gravity_links:
+- gravity_id: alexgrav005
+  note: 'Illustrates C5 (Learning-Formation Integration) at the level of institutional memory — a community
+    that kept a lineage of teachers'' names is a community that believed the handing-on of formation from
+    one teacher to the next mattered enough to remember. It also bears directly on T1 (Teacher–Bishop):
+    the succession culminates in Dionysius moving from teacher to bishop, which the tradition remembers
+    without comment on the tension that move could carry — a detail worth noting rather than smoothing
+    over when this story is told alongside alexstory008.'
+- gravity_id: alexgrav006
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory007_school-succession.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illustrates C5 (Learning-Formation Integration) at the level of institutional memory — a community that kept a lineage of teachers' names is a community that believed the handing-on of formation from one teacher to the next mattered enough to remember. It also bears directly on T1 (Teacher–Bishop): the succession culminates in Dionysius moving from teacher to bishop, which the tradition remembers without comment on the tension that move could carry — a detail worth noting rather than smoothing over when this story is told alongside alexstory008.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

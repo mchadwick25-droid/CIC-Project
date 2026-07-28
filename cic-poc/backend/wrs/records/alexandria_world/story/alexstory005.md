@@ -70,7 +70,19 @@ sources:
   locus: Athanasius, Life of Antony (c. 356–362 CE)
 - source_id: srcALX003
   locus: Athanasius, Life of Antony (c. 356–362 CE)
+gravity_links:
+- gravity_id: alexgrav002
+  note: 'Illustrates C2 (Transformation of the Soul Toward God) at its most extreme instantiation — a
+    soul held up as evidence that the ascent this world teaches is not merely theoretical. It is also
+    this world''s clearest attestation of T4 (Martyrdom vs. Contemplative-Ascent) from the contemplative
+    pole: Antony''s whole life is offered as a different but equally formed answer to the question of
+    what a completed Christian life looks like, alongside the martyr''s answer (see alexstory009). The
+    account is written by this world''s own bishop, which grounds its inclusion here even though its formation-logic
+    content belongs, in its developed form, to the distinct desert ecology.'
+- gravity_id: alexgrav009
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory005_life-of-antony.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illustrates C2 (Transformation of the Soul Toward God) at its most extreme instantiation — a soul held up as evidence that the ascent this world teaches is not merely theoretical. It is also this world's clearest attestation of T4 (Martyrdom vs. Contemplative-Ascent) from the contemplative pole: Antony's whole life is offered as a different but equally formed answer to the question of what a completed Christian life looks like, alongside the martyr's answer (see alexstory009). The account is written by this world's own bishop, which grounds its inclusion here even though its formation-logic content belongs, in its developed form, to the distinct desert ecology.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

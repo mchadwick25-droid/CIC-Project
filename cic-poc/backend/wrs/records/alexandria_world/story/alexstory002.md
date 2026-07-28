@@ -59,7 +59,19 @@ sources:
 - source_id: srcALX010
   locus: Palladius, Lausiac History (c. 419–420 CE), his own firsthand account of meeting Didymus the
     Blind
+gravity_links:
+- gravity_id: alexgrav001
+  note: 'Illustrates C1 (Scripture as Deep Formative Reality) at its sharpest edge: the deep reading this
+    world prizes is shown here to be a capacity of the soul, not merely a skill of the eyes — the text''s
+    depths are perceived, not decoded. It equally illustrates the accompaniment mode of formation (Doc_05
+    §5) continuing across the whole span into the late horizon, and C5''s own documented late-horizon
+    attenuation (Doc_04 §3.5; the C5↔T2 interaction, §6): the story attests that even at the school tradition''s
+    late edge, when C5''s living force was documented to be attenuating, the teacher-student encounter
+    it names remained sought out and real.'
+- gravity_id: alexgrav005
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory002_palladius-meets-didymus.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illustrates C1 (Scripture as Deep Formative Reality) at its sharpest edge: the deep reading this world prizes is shown here to be a capacity of the soul, not merely a skill of the eyes — the text's depths are perceived, not decoded. It equally illustrates the accompaniment mode of formation (Doc_05 §5) continuing across the whole span into the late horizon, and C5's own documented late-horizon attenuation (Doc_04 §3.5; the C5↔T2 interaction, §6): the story attests that even at the school tradition's late edge, when C5's living force was documented to be attenuating, the teacher-student encounter it names remained sought out and real.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

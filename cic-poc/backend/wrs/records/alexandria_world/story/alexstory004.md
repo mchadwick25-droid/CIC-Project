@@ -60,7 +60,15 @@ sources:
 - source_id: srcALX011
   locus: Apophthegmata Patrum — Sayings of the Desert Fathers (collected late 4th–5th c.; named abbas
     including Antony, Macarius, Poemen, plus anonymous material)
+gravity_links:
+- gravity_id: alexgrav014
+  note: This material sits at the boundary this world's own construction record deliberately holds open
+    (Doc_01 §3.3; Doc_04's cross-build constraint) rather than inside any of the confirmed gravities.
+    It is retrieved not to illustrate C1–C5 as this world's own organizing forces, but to mark honestly
+    where this world's own life brushes against — without absorbing — the distinct Desert Christianity
+    ecology. Where a participant's question genuinely concerns the desert's own formation logic, this
+    story is the signal to redirect rather than to answer as if from inside it.
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory004_apophthegmata.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This material sits at the boundary this world's own construction record deliberately holds open (Doc_01 §3.3; Doc_04's cross-build constraint) rather than inside any of the confirmed gravities. It is retrieved not to illustrate C1–C5 as this world's own organizing forces, but to mark honestly where this world's own life brushes against — without absorbing — the distinct Desert Christianity ecology. Where a participant's question genuinely concerns the desert's own formation logic, this story is the signal to redirect rather than to answer as if from inside it.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

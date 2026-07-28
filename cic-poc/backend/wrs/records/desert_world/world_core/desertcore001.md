@@ -118,6 +118,10 @@ telos:
     external scholarly review by scholars with formation-theology expertise. Grounded in Antony''s attested
     Matthew 19:21 pattern, not the unconfirmed wilderness/exile typology (Doc_05 SS12 item 1).'
 ---
+Migrated at S2.1 (2026-07-26) from `World-Builds/Desert-Monasticism/CiC_W3_Doc01_World_Identification.md` (SS1, SS2) and `cic-poc/backend/app/world_manifest.py` (period). gravities[] populated at S2.5 (all ten Doc_04 candidates); pairing_guidance/cautions arrive at S2.7a.
 
+S2.7a (2026-07-27): pairing_guidance + cautions authored as records per Pass 1 SS4.5 - each guidance entry reflects a documented cross-lens finding with evidence links; cautions from Doc_09b/c's own named gaps and the Doc10/LiveTest record.
 
 CO-P2-05 (2026-07-27, Alternative A): telos added - Doc10 S5's own paragraph verbatim, provisional flag carried.
+
+FLAG-023 (2026-07-27): this body was silently emptied twice by world_core rewrites in `s25_gravity_force.py` (at S2.5 and again at the CO-P2-02 re-run) - a front/body split whose parts[2] never existed. Restored from git (40be5ab's S2.1 note with S2.5's intended gravities[] edit applied; 0633a2d's S2.7a note; e4580d9's CO-P2-05 note kept). Frontmatter untouched. See FLAGS.md FLAG-023.

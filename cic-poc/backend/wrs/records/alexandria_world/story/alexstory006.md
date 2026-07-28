@@ -54,7 +54,15 @@ retrieval:
 sources:
 - source_id: srcALX009
   locus: Eusebius, Historia Ecclesiastica 2.16 (Mark the Evangelist as founder)
+gravity_links:
+- gravity_id: alexgrav004
+  note: 'This story functions less as an illustration of a specific gravity than as the ground of this
+    world''s own identity-claim within the wider Church (Doc_01 §7–8) — it is the foundational-legitimacy
+    counterpart to the intellectual-formation gravities (C1–C5) rather than a direct instance of any one
+    of them. Where it touches a gravity at all, it is C4 (Logos-Centered Unity) in its broadest sense:
+    the claim situates this world''s own life within the one apostolic movement the Logos initiated, rather
+    than as a separate or derivative development.'
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory006_markan-foundation.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story functions less as an illustration of a specific gravity than as the ground of this world's own identity-claim within the wider Church (Doc_01 §7–8) — it is the foundational-legitimacy counterpart to the intellectual-formation gravities (C1–C5) rather than a direct instance of any one of them. Where it touches a gravity at all, it is C4 (Logos-Centered Unity) in its broadest sense: the claim situates this world's own life within the one apostolic movement the Logos initiated, rather than as a separate or derivative development.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

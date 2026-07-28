@@ -63,7 +63,21 @@ sources:
 - source_id: srcALX002
   locus: Eusebius, Historia Ecclesiastica 6 (Origen's departure to Caesarea c. 231–234 CE; Demetrius's
     condemnation)
+gravity_links:
+- gravity_id: alexgrav006
+  note: 'This is the best-known illustration of T1 (Teacher–Bishop), the tension between authority grounded
+    in demonstrated wisdom and authority grounded in apostolic office — the two are not the same, and
+    this story shows what happens when they cannot be reconciled. It is illustration, not foundation:
+    T1''s own confirmation rests on the broader, better-attested pattern of structural coexistence between
+    the school and the episcopate (Pantaenus and Clement alongside the bishops of their day; Didymus alongside
+    Athanasius), not on this single Eusebius-mediated episode (Doc_04 §3.6). It also touches T3 (Speculative-Freedom
+    vs. Doctrinal-Boundary): whatever the specific charges, the underlying pattern — a teacher whose reach
+    exceeded what the settled boundary could comfortably hold — sits at the same site as the broader Origen
+    inheritance this world carries as treasure-and-unease (Doc_04 §3.6).'
+- gravity_id: alexgrav008
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory008_origen-demetrius.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is the best-known illustration of T1 (Teacher–Bishop), the tension between authority grounded in demonstrated wisdom and authority grounded in apostolic office — the two are not the same, and this story shows what happens when they cannot be reconciled. It is illustration, not foundation: T1's own confirmation rests on the broader, better-attested pattern of structural coexistence between the school and the episcopate (Pantaenus and Clement alongside the bishops of their day; Didymus alongside Athanasius), not on this single Eusebius-mediated episode (Doc_04 §3.6). It also touches T3 (Speculative-Freedom vs. Doctrinal-Boundary): whatever the specific charges, the underlying pattern — a teacher whose reach exceeded what the settled boundary could comfortably hold — sits at the same site as the broader Origen inheritance this world carries as treasure-and-unease (Doc_04 §3.6).
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

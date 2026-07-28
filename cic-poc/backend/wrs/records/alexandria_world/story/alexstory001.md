@@ -71,7 +71,24 @@ sources:
 - source_id: srcALX002
   locus: Gregory Thaumaturgus, Address of Thanksgiving to Origen (c. 238 CE; Nautin's authenticity/dating
     caveat noted)
+gravity_links:
+- gravity_id: alexgrav005
+  note: 'This is the paradigm case of C5 (Learning-Formation Integration — the conviction that to know
+    truly is to be changed) rendered as a lived relationship rather than a claim: the student names the
+    teaching itself as what altered him, not information added to an unchanged mind. It equally illustrates
+    C1 (Scripture as Deep Formative Reality) in its structural claim that philosophical training clears
+    the ground and Scripture is read last, at the deepest register, once the soul is prepared to receive
+    it — and C2 (Transformation of the Soul Toward God), since the account''s whole shape is conversion,
+    not instruction. It is the ecology''s clearest attestation of the accompaniment mode of formation
+    (Doc_05 §5; Doc_07 §1E) — the teacher as a fellow-traveller further up the same road, not a dispenser
+    of content.'
+- gravity_id: alexgrav001
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
+- gravity_id: alexgrav002
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory001_gregory-address-origen.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is the paradigm case of C5 (Learning-Formation Integration — the conviction that to know truly is to be changed) rendered as a lived relationship rather than a claim: the student names the teaching itself as what altered him, not information added to an unchanged mind. It equally illustrates C1 (Scripture as Deep Formative Reality) in its structural claim that philosophical training clears the ground and Scripture is read last, at the deepest register, once the soul is prepared to receive it — and C2 (Transformation of the Soul Toward God), since the account's whole shape is conversion, not instruction. It is the ecology's clearest attestation of the accompaniment mode of formation (Doc_05 §5; Doc_07 §1E) — the teacher as a fellow-traveller further up the same road, not a dispenser of content.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

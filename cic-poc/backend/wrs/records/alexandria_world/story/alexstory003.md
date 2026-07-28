@@ -66,7 +66,18 @@ sources:
 - source_id: srcALX009
   locus: Eusebius, Historia Ecclesiastica 6, and the broader documented record of the Severan and Decian
     persecutions
+gravity_links:
+- gravity_id: alexgrav009
+  note: 'The clearest concrete anchor for T4 (Martyrdom vs. Contemplative-Ascent), showing the tension
+    is not abstract: the same teacher whose contemplative, scholarly formation this world treasures also
+    endured what martyrdom actually cost, in his own body and his own household. It also illustrates C3
+    (Divine Pedagogy) at its hardest edge — the conviction that even suffering teaches is not asserted
+    here as doctrine but shown pressing on an actual life — and connects to Doc_08''s ongoing force of
+    persecution (2A-3), which this world experienced as formation''s sharpest and most concrete pressure.'
+- gravity_id: alexgrav003
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory003_persecution-shapes-school.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] The clearest concrete anchor for T4 (Martyrdom vs. Contemplative-Ascent), showing the tension is not abstract: the same teacher whose contemplative, scholarly formation this world treasures also endured what martyrdom actually cost, in his own body and his own household. It also illustrates C3 (Divine Pedagogy) at its hardest edge — the conviction that even suffering teaches is not asserted here as doctrine but shown pressing on an actual life — and connects to Doc_08's ongoing force of persecution (2A-3), which this world experienced as formation's sharpest and most concrete pressure.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.

@@ -76,7 +76,24 @@ sources:
   locus: 'COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus),
     the daily prayer-and-Scripture rhythm (Origen, On Prayer), the festal/Paschal cycle (Athanasius, Festal
     Letters)'
+gravity_links:
+- gravity_id: alexgrav003
+  note: Illustrates C3 (Divine Pedagogy) and C5 (Learning-Formation Integration) as lived, staged, and
+    communally embedded practice rather than as abstract claims — the graduated ascent this world's construction
+    record names (catechesis → illumination → the knowing that transforms) rendered as the shape of an
+    actual passage through time. It also grounds C1 and C2's claim that Scripture and transformation are
+    inseparable, showing the daily rhythm of return to Scripture as ordinary practice, not exceptional
+    discipline reserved for the learned few.
+- gravity_id: alexgrav005
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
+- gravity_id: alexgrav001
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
+- gravity_id: alexgrav002
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory010_typical-catechumen.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).
 
-[Formation Ecology Connection — parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illustrates C3 (Divine Pedagogy) and C5 (Learning-Formation Integration) as lived, staged, and communally embedded practice rather than as abstract claims — the graduated ascent this world's construction record names (catechesis → illumination → the knowing that transforms) rendered as the shape of an actual passage through time. It also grounds C1 and C2's claim that Scripture and transformation are inseparable, showing the daily rhythm of return to Scripture as ordinary practice, not exceptional discipline reserved for the learned few.
+S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
