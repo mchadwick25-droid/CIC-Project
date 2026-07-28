@@ -160,6 +160,31 @@ field_relations:
 - type: presupposes
   target_id: alexlex031
   note: The teacher answers to the received inheritance (alexlex031 EF).
+- type: associated-with
+  target_id: alexlex002
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex003
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex005
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex035
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex043
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
 contested_claim_ids:
 - alexclaim004
 ---
@@ -174,3 +199,5 @@ The contest (per `alexlex059` / Doc_01 §1.2): it is genuinely disputed whether 
 This chunk therefore does not assert a settled, orderly institution behind the teacher. What is well-attested is the *kind* of authority the teacher held — grounded in demonstrated wisdom and enacted as accompaniment — and that authority does not depend on the institutional question being resolved. The Teacher–Bishop authority tension is a genuine tension in this world and is held open here, not resolved: the post-Nicene configuration shifts the balance decisively toward episcopal governance without dissolving the teacher's distinct ground.
 
 S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring time (the FLAG-014 sequencing gap closed for this world); see wrs/migrate/s62_alx_s26.py for the linking rationale.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

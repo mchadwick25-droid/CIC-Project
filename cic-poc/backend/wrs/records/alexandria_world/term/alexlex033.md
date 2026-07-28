@@ -156,6 +156,26 @@ field_relations:
   note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
     symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
     bodies, attest the pair).'
+- type: associated-with
+  target_id: alexlex007
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex010
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex019
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex021
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex033_martyrdom-witness.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
@@ -166,3 +186,5 @@ Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/le
 The martyr *ideal* — the witness as formation's most complete expression — is central to how this community understands its own formation, and the community genuinely honored it and was shaped by it. But that ideal reaches us mainly through hagiography and martyrology (the martyr-acts, *Perpetua and Felicitas*), which carry the community's belief about what the martyr underwent rather than confident first-person access to it. This section marks that the World Meaning above gives the community's ideal of witness, not a reconstruction of what any particular martyr interiorly experienced; the interior of the martyr is held at Inferential/Thin and is deliberately not narrated from inside.
 
 CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

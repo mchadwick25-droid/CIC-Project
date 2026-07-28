@@ -5,7 +5,7 @@ Term:                 Transformation
 World-Code:           alex
 Tier:                 1
 Aliases:              the soul's transformation, being changed, becoming, being conformed to God, metamorphosis, the work of formation
-Related-Terms:        Restoration, Participation, Fasting, Love / Agape, Virtue / Arete, Holy Spirit / Pneuma Hagion, Sin / Hamartia, Death, Resurrection
+Related-Terms:        Restoration, Participation, Fasting, Love / Agape, Virtue / Arete, Holy Spirit / Pneuma Hagion, Sin / Hamartia, Death, Resurrection, Divine Pedagogy, Theosis, Soul / Psyche, Likeness of God, Christ, Eucharist, Repentance / Metanoia, Martyrdom / Witness, Salvation, Incarnation, Oikonomia, Hope / Elpis
 Retrieve-When:        participant asks what formation is *for*, or frames spiritual growth as self-improvement / achieving potential; participant asks how one changes, or whether change is effort or grace; conversation reaches the goal of the formation ecology, the stages, or the difference between behavior change and a changed heart.
 Do-Not-Retrieve-When: the participant means "transformation" in an unrelated technical sense (data, geometry, organizational change); Participation or Theosis is the more precise term for what is actually being asked and has already been surfaced.
 ```

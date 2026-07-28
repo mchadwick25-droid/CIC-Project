@@ -5,7 +5,7 @@ Term:                 Participation
 World-Code:           alex
 Tier:                 1
 Aliases:              methexis, sharing in divine life, communion, partaking, partaking of God, real sharing
-Related-Terms:        Wisdom / Sophia, Theosis, Transformation, Eucharist, Logos, Knowledge / Gnosis
+Related-Terms:        Wisdom / Sophia, Theosis, Transformation, Eucharist, Logos, Knowledge / Gnosis, Illumination, Image of God, Soul / Psyche, Likeness of God, Freedom / Autexousia, Resurrection, Christ, Son of God, Baptism, Fasting, Prayer, Martyrdom / Witness, Household / Oikos, Salvation, Love / Agape, Incarnation, Virtue / Arete, Church / Ekklesia, Hope / Elpis
 Retrieve-When:        participant asks what the goal of formation actually is, or what "sharing in God's life" means; participant hears "participation" as mere involvement/taking part; conversation reaches the Eucharist's meaning, 2 Peter 1:4, the vine and branches, or why the incarnation is necessary for this world's account of salvation.
 Do-Not-Retrieve-When: the participant means "participation" in an ordinary social/organizational sense with no theological bearing; Theosis (the horizon) is the more precise term already surfaced.
 ```

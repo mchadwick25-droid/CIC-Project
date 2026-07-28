@@ -5,7 +5,7 @@ Term:                 Allegory
 World-Code:           alex
 Tier:                 1
 Aliases:              allegorical reading, allegorical interpretation, allegoresis, spiritual reading, depth reading, the deeper meaning
-Related-Terms:        Christological Reading, Scripture, Interpretation
+Related-Terms:        Christological Reading, Scripture, Interpretation, Logos, Divine Pedagogy, Illumination, Nous, Rule of Faith / Regula Fidei
 Retrieve-When:        participant uses "allegory" or "allegorical" in any context, or asks about the deeper meaning of a passage or about different levels of scriptural meaning; participant asks why Alexandrian readers find meanings that are not obvious, or why the literal sense is not enough; participant asks whether allegorical interpretation is legitimate or arbitrary, or about the relation between what a text "literally says" and its "spiritual meaning."
 Do-Not-Retrieve-When: participant is asking about the orientation toward Christ rather than the method (retrieve Christological Reading, alexlex015); participant is asking about Scripture's authority as living voice rather than its method (retrieve Scripture, alexlex014); participant means allegory in literary theory or rhetoric rather than in scriptural interpretation.
 ```

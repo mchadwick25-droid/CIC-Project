@@ -5,7 +5,7 @@ Term:                 Image of God
 World-Code:           alex
 Tier:                 1
 Aliases:              eikon, imago Dei, created in God's image, image of the Logos, the divine image in the human person
-Related-Terms:        Likeness of God, Soul / Psyche, Sin / Hamartia, Nous, Freedom / Autexousia
+Related-Terms:        Likeness of God, Soul / Psyche, Sin / Hamartia, Nous, Freedom / Autexousia, Logos, Participation, Theosis, Death, Restoration
 Retrieve-When:        participant asks what makes a human being capable of knowing God or of being formed at all; participant asks about Genesis 1:26–27, or uses the phrase "image of God" or "imago Dei"; participant asks why formation is possible — why the soul can change — or what sin damaged and what formation restores; participant asks how humanity relates to the Logos, or what makes human beings different in kind rather than degree.
 Do-Not-Retrieve-When: participant is really asking about the Likeness as the formation goal (retrieve Likeness of God); the conversation is Christological rather than anthropological; the World Capsule Core has already surfaced the image as formation's ground in the current turn.
 ```

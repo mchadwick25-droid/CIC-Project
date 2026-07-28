@@ -203,9 +203,31 @@ field_relations:
   note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as
     symmetric association - no hierarchy claimed (both sides'' Reciprocity Notes, verbatim in the record
     bodies, attest the pair).'
+- type: associated-with
+  target_id: alexlex001
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex002
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex004
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex014
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex044_holy-spirit.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Logos, Divine Pedagogy, Transformation, Illumination, Scripture, Christ, Son of God, Incarnation. **Mutual** (each lists this term back): Christ, Son of God, Incarnation. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Divine Pedagogy, Transformation, Illumination, Scripture. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

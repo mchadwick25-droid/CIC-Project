@@ -5,7 +5,7 @@ Term:                 Death
 World-Code:           alex
 Tier:                 1
 Aliases:              spiritual death, separation from God, dying inwardly, dead in sin, physical death, mortality
-Related-Terms:        Sin / Hamartia, Resurrection, Transformation, Martyrdom / Witness, Salvation
+Related-Terms:        Sin / Hamartia, Resurrection, Transformation, Martyrdom / Witness, Salvation, Restoration, Baptism, Repentance / Metanoia, Image of God, Likeness of God
 Retrieve-When:        participant uses "death" in a theological or formational sense, or asks what sin leads to; participant asks what the soul undergoes when turned from God, what "dead in sin" means, or how a soul can be dead while biologically alive; participant asks about mortality and formation, or the relation between physical death and spiritual condition; participant asks why martyrdom makes theological sense — how choosing physical death can be formation.
 Do-Not-Retrieve-When: participant is asking about death as a biographical matter of grief or loss rather than a theological one; participant is asking primarily about resurrection as the reversal (retrieve Resurrection); the conversation is about funeral rites or pastoral care for the dying rather than death's theological meaning.
 ```

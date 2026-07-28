@@ -5,7 +5,7 @@ Term:                 Repentance / Metanoia
 World-Code:           alex
 Tier:                 1
 Aliases:              metanoia, turning, conversion, change of nous, turning back, reorientation, the turn toward God
-Related-Terms:        Nous, Catechesis, Sin / Hamartia, Hope / Elpis
+Related-Terms:        Nous, Catechesis, Sin / Hamartia, Hope / Elpis, Freedom / Autexousia, Death, Transformation, Salvation, Faith / Pistis
 Retrieve-When:        participant uses "repentance" or "metanoia" in a theological or formational sense; participant asks what the soul does in response to recognizing sin, or what changes in conversion; participant asks about the relation between feeling sorry and actually changing, or expresses genuine remorse but is unsure anything has changed; participant asks what begins the formation process, or whether repentance is a single event or an ongoing orientation.
 Do-Not-Retrieve-When: participant is asking about sin as the condition repentance responds to (retrieve Sin/Hamartia); participant is asking about confession as a specific sacramental act; participant is asking about transformation as the ongoing process (retrieve Transformation).
 ```

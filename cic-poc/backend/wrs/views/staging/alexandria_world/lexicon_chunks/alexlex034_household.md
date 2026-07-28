@@ -5,7 +5,7 @@ Term:                 Household / Oikos
 World-Code:           alex
 Tier:                 1
 Aliases:              oikos, the household, household church, the Christian home, domestic formation, household formation
-Related-Terms:        Church / Ekklesia, Martyrdom / Witness
+Related-Terms:        Church / Ekklesia, Martyrdom / Witness, Catechesis, Participation, Soul / Psyche, Eucharist
 Retrieve-When:        participant uses "household" or "oikos" in a formational sense; participant asks where formation happens for ordinary believers, or about family life and Christian formation; participant asks where women's, enslaved persons', or rural believers' formation occurred; participant asks how the formation ecology reached those who could not access the catechetical school, or about the relation between formal formation structures and everyday life.
 Do-Not-Retrieve-When: participant is asking about the catechetical school as a formal structure (retrieve Catechesis); about household churches as an early-Christian phenomenon beyond this world's horizon; or about marriage as a theological category rather than the household as a formation environment.
 ```

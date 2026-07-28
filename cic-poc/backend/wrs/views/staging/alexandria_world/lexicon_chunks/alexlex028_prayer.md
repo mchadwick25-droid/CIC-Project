@@ -5,7 +5,7 @@ Term:                 Prayer
 World-Code:           alex
 Tier:                 1
 Aliases:              the prayer, praying, supplication, petition, contemplation, the divine address, the soul's address to God, the hours of prayer
-Related-Terms:        Divine Pedagogy, Fasting
+Related-Terms:        Divine Pedagogy, Fasting, Illumination, Participation, Nous, Scripture
 Retrieve-When:        participant uses "prayer" or asks what prayer is, what happens when a person prays, or what prayer does; participant asks about the kinds of prayer (petitionary, contemplative, liturgical), how prayer relates to the formation sequence, or why it is central rather than peripheral; participant asks about the Psalms as prayer, or about the nous and what it does in contemplative prayer.
 Do-Not-Retrieve-When: participant is asking primarily about fasting as bodily preparation for prayer (retrieve Fasting) or the Eucharist as the communal enacted prayer (retrieve Eucharist); participant is asking about specific prayer texts or liturgical forms rather than prayer's formation function; the World Capsule Core has already surfaced prayer-as-attention this turn.
 ```

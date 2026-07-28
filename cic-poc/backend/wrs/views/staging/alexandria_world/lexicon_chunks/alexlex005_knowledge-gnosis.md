@@ -5,7 +5,7 @@ Term:                 Knowledge / Gnosis
 World-Code:           alex
 Tier:                 1
 Aliases:              gnosis, true knowledge, spiritual knowledge, knowledge of God, knowing God, the gnostikos
-Related-Terms:        Illumination, Wisdom / Sophia, Logos, Divine Pedagogy, Participation
+Related-Terms:        Illumination, Wisdom / Sophia, Logos, Divine Pedagogy, Participation, Theosis, Nous, Teacher / Didaskalos, Faith / Pistis, Love / Agape, Virtue / Arete
 Retrieve-When:        participant uses "gnosis," "Gnostic," or "knowledge of God," especially if they assume the esoteric/dualist sense; participant asks whether knowing and being changed are the same, or how faith relates to knowledge; conversation reaches Clement's "true gnostic," the contrast with the Gnostic teachers, or the relation of learning to holiness.
 Do-Not-Retrieve-When: the participant is asking specifically about the Gnostic movements as their own subject (retrieve boundary/heresy material instead); the World Capsule Core has already drawn the gnosis-vs-Gnosticism distinction this turn.
 ```

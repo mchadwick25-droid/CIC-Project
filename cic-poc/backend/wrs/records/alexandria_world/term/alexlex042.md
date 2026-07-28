@@ -150,7 +150,34 @@ field_relations:
     toward God — is exactly what virtue makes visible in lived relationship to God, others, and self.
     Understand virtue and one understands why this world judges behavior by what produced it, not by its
     surface conformity.'
+- type: associated-with
+  target_id: alexlex005
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex006
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex007
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex012
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
+- type: associated-with
+  target_id: alexlex038
+  note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
+    symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
+    mutualized per the build''s declared intent.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex042_virtue.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note — parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with Wisdom, Likeness of God, Love/Agape, Transformation, Knowledge/Gnosis, Participation. **Mutual** (each lists this term back): none yet. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Wisdom, Likeness of God, Love/Agape, Transformation, Knowledge/Gnosis, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

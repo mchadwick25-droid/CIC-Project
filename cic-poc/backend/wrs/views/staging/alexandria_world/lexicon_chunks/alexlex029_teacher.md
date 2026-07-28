@@ -5,7 +5,7 @@ Term:                 Teacher / Didaskalos
 World-Code:           alex
 Tier:                 1
 Aliases:              didaskalos, the teacher, Christian teacher, spiritual guide, formation guide, the wise teacher, catechist
-Related-Terms:        Wisdom / Sophia, Bishop / Episkopos, Rule of Faith / Regula Fidei
+Related-Terms:        Wisdom / Sophia, Bishop / Episkopos, Rule of Faith / Regula Fidei, Divine Pedagogy, Catechesis, Knowledge / Gnosis, Interpretation, Church / Ekklesia
 Retrieve-When:        participant asks what the teacher does in this world's formation, or what makes a teacher authoritative here; participant asks about Clement or Origen as teachers and what kind of authority they carried; participant asks how teacher authority relates to bishop authority, or how teaching here differs from delivering information; participant uses "didaskalos" or "teacher" in the context of Christian formation; conversation reaches who carried the school's teaching tradition.
 Do-Not-Retrieve-When: participant is asking primarily about the bishop's formation function (retrieve Bishop); about catechesis as the process the teacher governs (retrieve Catechesis); about what constrains teacher authority (retrieve Rule of Faith); or the World Capsule Core has already surfaced the Teacher–Bishop tension this turn.
 ```

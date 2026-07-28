@@ -57,7 +57,19 @@ def _term_resolver():
     for r in recs:
         for a in r.get("aliases") or []:
             m.setdefault(canon(a), r["id"])
-    return lambda name: m.get(canon(name), canon(name))
+    short = {"image": "alexlex009", "likeness": "alexlex012"}
+
+    def resolve(name):
+        """-> tuple of ids (compound shorthand like 'Image/Likeness'
+        expands to both; unresolvable names stay literal)."""
+        c = canon(name)
+        if c in m:
+            return (m[c],)
+        seg = [m.get(canon(s)) or short.get(canon(s)) for s in name.split("/")]
+        if len(seg) > 1 and all(seg):
+            return tuple(sorted(set(seg)))
+        return (c,)
+    return resolve
 
 
 RESOLVE = _term_resolver()
@@ -96,8 +108,8 @@ def classify(kind, rid, key, dep, gen, out):
         # CO-P2-13 (Mark, 2026-07-28): mutual pairs now carry typed
         # associated-with edges, so membership is the standard - the
         # record's edge-order vs the chunk's list-order is presentational.
-        dset = {RESOLVE(x) for x in (dep or "").split(",") if x.strip()}
-        gset = {RESOLVE(x) for x in (gen or "").split(",") if x.strip()}
+        dset = {i for x in (dep or "").split(",") if x.strip() for i in RESOLVE(x)}
+        gset = {i for x in (gen or "").split(",") if x.strip() for i in RESOLVE(x)}
         missing = sorted(dset - gset)
         extra = sorted(gset - dset)
         if not missing and not extra:

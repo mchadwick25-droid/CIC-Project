@@ -5,7 +5,7 @@ Term:                 Word of God
 World-Code:           alex
 Tier:                 1
 Aliases:              the Word, the divine Word, the eternal Word, God's Word, the speech of God, the Logos as Word
-Related-Terms:        Christ, Logos, Son of God, Incarnation
+Related-Terms:        Christ, Logos, Son of God, Incarnation, Divine Pedagogy, Scripture
 Retrieve-When:        participant uses "Word of God" or "the Word" in a theological or formational sense; participant asks what the Bible is and why it is called the "Word of God," or whether "Word of God" means the Bible or something else; participant meets John 1:1 and asks what "the Word" means, or asks about the link between "the Word" in Scripture and Christ as "the Word"; participant asks how God has spoken — in creation, in history, in Scripture — and how creation and Scripture relate as God's address.
 Do-Not-Retrieve-When: participant is asking about Scripture's interpretive method (retrieve Allegory or Christological Reading); participant is asking about Christ as the Anointed (retrieve Christ) or about the Son's ontological status specifically (retrieve Son of God); the World Capsule Core has already named the Word as the one who speaks through Scripture in the current turn.
 ```

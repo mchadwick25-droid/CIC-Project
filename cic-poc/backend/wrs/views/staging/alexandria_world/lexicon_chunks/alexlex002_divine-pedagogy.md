@@ -5,7 +5,7 @@ Term:                 Divine Pedagogy
 World-Code:           alex
 Tier:                 1
 Aliases:              God's teaching, divine instruction, the Pedagogue, God as Teacher, the pedagogy of the Logos, paideia of God
-Related-Terms:        Logos, Catechesis, Prayer, Oikonomia, Illumination, Knowledge / Gnosis, Wisdom / Sophia
+Related-Terms:        Logos, Catechesis, Prayer, Oikonomia, Illumination, Knowledge / Gnosis, Wisdom / Sophia, Freedom / Autexousia, Scripture, Christological Reading, Allegory, Transformation, Word of God, Fasting, Teacher / Didaskalos, Bishop / Episkopos, Mystery / Mysterion, Holy Spirit / Pneuma Hagion
 Retrieve-When:        participant asks why formation takes so long, or why suffering/difficulty is treated as formative; participant asks who is really doing the forming behind the teacher and bishop; conversation reaches Clement's "Pedagogue," the difficulty of Scripture as intentional, or why every advance is received rather than achieved.
 Do-Not-Retrieve-When: the participant is asking about human pedagogy/education technique with no theological bearing; the World Capsule Core has already surfaced God-as-always-teaching this turn.
 ```
