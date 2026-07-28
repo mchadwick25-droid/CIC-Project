@@ -26,7 +26,13 @@ pilot tester's real conversation. Adjust CONVERSATION_TURN_CAP directly if
 it turns out to bind on real, wanted use.
 """
 
-CONVERSATION_TURN_CAP = 20
+# Raised 20 -> 40 at the S6.2 freeze fix session (2026-07-28), per this
+# module's own instruction ("Adjust CONVERSATION_TURN_CAP directly if it
+# turns out to bind on real, wanted use"): a two-representative table
+# sitting runs 2-5 representative sub-turns per round (continuation
+# exchanges), so an 8-round Table Readiness Round hit 20 at round 4-5 -
+# wanted use, not runaway. 40 still bounds a genuinely runaway session.
+CONVERSATION_TURN_CAP = 40
 
 
 def check_message_cap(turn_count: int) -> tuple[bool, str]:
