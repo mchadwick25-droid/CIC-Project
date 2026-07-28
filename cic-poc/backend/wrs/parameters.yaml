@@ -106,15 +106,20 @@ parameters:
       structure only, never vocabulary. Instrument: S1.3's readability gate.
 
   drift_signal_count_emitted:
-    value: 17
+    value: 20
     source: >-
-      Pass 1 SS3.9's verified decomposition: 10 monitor signals + anachronism
-      alias + over_settling + 5 table-level checks = 17 emitted today.
+      S4.3 declared the 17 of Pass 1 SS3.9's decomposition (10 monitor signals
+      + anachronism alias + over_settling + 5 table-level checks); S4.7 added
+      misattribution, manufactured_resolution, and closing_synthesis and
+      promoted cross_world_vocabulary to table_discourse - 20 emitted types,
+      one ordering (gates/S4.7_grounding_table_checks.md).
     notes: >-
-      state.py's DriftSignal.signal_type Literal declares only 15 - over_settling
-      and self_narration are emitted but undeclared (verified in the Touches
-      pass; S4.3 declares all 17). This entry records the emitted count; the
-      declared count catching up is S4.3's gate.
+      Verification: state.py's DriftSignal.signal_type Literal declares exactly
+      these 20 (counted, S5.5). Stale 17 caught by the S5.5 pointer pre-check
+      (FLAG-016, resolved by Mark 2026-07-27 with the Facilitator Governance
+      V3.6 pointer wording - the M decision this entry's currency rides with).
+      Facilitator Governance's own six-plus-five taxonomy is teaching
+      structure, not this count; where they differ, this file is current.
 
   tier1_short_circuit_rank:
     value: 2
