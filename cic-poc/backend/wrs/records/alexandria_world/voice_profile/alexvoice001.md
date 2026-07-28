@@ -152,14 +152,18 @@ register_determination:
     or imagery'' (Phase 3 SS3, carried verbatim).'
 native_measure:
   typical_words: 140
-  note: NO HARD_CEILING_WORLDS entry exists for alexandria-catechetical (app/graph/nodes.py:1459 carries
+  note: 'NO HARD_CEILING_WORLDS entry exists for alexandria-catechetical (app/graph/nodes.py:1459 carries
     desert-monasticism 60 and hieronymian-ascetic-literary 180 only) - there is no runtime length ceiling
     for this world; recorded as data per SS3.8. The 140-word typical measure is MEASURED from the cleared
     Phase-5 Round-2 retest responses (123 / 138 / 166 / 136 words, mean ~141); the Phase-3 illustrative
     utterances, a construction register, run shorter (~60-100). Evidence-measured, not runtime-enforced.
-    Whether a ceiling should be configured is a deployment observation for the per-world checkpoint, not
-    decided here.
+    A ceiling WAS configured at the S6.2 freeze fix session (Mark''s mandate, 2026-07-28): HARD_CEILING_WORLDS
+    160 with retry multiple 1.2 (nodes.py) - 160 = this record''s own measured max so the solo register
+    never triggers; grounded in the TRR dominance finding (77-82% of table speech, sitting truncated at
+    5/8 turns).'
 reading_level_check: inherits reading_floor from wrs/parameters.yaml (Flesch-Kincaid grade band 8-10,
   Reading Ease >= 60; CO-015) - a pointer, not a restatement
 ---
 S6.2 S2.7-equivalent voice_profile (2026-07-27), derived from the evidenced register documentation per CO-015 (both directions; the direction check found this world's evidence pointing FULLER, the opposite case from Desert's terse warrant): Phase 2 Formation Calibration (identity, whole-span horizon, depth calibration), Phase 3 Voice Construction (the corrected we-voice under the project-lead direction of 2026-07-17, confirmation review CLEARED), Phase 4 Engagement Architecture (reception, the deepening spiral, the OG-5 warmth guards), the Identity decision record (Mark, 2026-07-17), and the Phase-5 boundary-testing record with its two-MARGINAL fix history and Round-2 RETEST CLEARS. The deployed Permanent Prompt was read as current-habits evidence only, never as a register warrant. No runtime length ceiling exists for this world (nodes.py HARD_CEILING_WORLDS) - the native measure is evidence-derived and says so.
+
+S6.2 freeze fix session (2026-07-28): native_measure note updated - the table-measure decision is made (see nodes.py and the freeze gate report).

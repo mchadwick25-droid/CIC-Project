@@ -143,6 +143,18 @@ def _is_anachronistic(term: dict, world_id: str) -> bool:
     return int(term.get("origin_year", 99999)) > end_year
 
 
+def _term_present_in_message(term: dict, term_id: str, message: str) -> bool:
+    """FLAG-022 precondition: True iff the participant's message itself
+    carries the term - any display form, or the term_id's own words.
+    Case-insensitive substring on normalized text (hyphens/slashes as
+    spaces), so "born again" matches "born-again" and vice versa."""
+    def norm(s: str) -> str:
+        return re.sub(r"[-/_]", " ", s).casefold()
+    hay = norm(message)
+    needles = [term_id] + list(term.get("display_terms") or [])
+    return any(norm(n).strip() and norm(n).strip() in hay for n in needles)
+
+
 def classify_modern_term(message: str, seated_world_ids: list[str]) -> dict | None:
     """
     Decide whether `message` asks about a modern term anachronistic for a seated
@@ -198,6 +210,21 @@ def classify_modern_term(message: str, seated_world_ids: list[str]) -> dict | No
                     term_id = tid
                     break
         if term_id is None:
+            return None
+
+        # FLAG-022 fix (Mark's fix mandate, 2026-07-28): the bridge may
+        # only apply when the participant's own message actually carries
+        # the term - mirroring FLAG-018 layer 4's spoken-premise fix
+        # exactly. The S6.2 freeze battery reproduced the flag with
+        # consequence (the classifier fired "sola-scriptura" on a message
+        # about textual contradictions and the bridge SUBSTITUTED the
+        # participant's question), and the same day's TRR provided the
+        # discriminating positive (correct firing on an explicitly-said
+        # "original sin"). Concept-only invocations now fall through to
+        # normal flow; a genuinely-meant unnamed concept is caught by
+        # drift monitoring, which is recoverable - a substituted question
+        # is not.
+        if not _term_present_in_message(definitions[term_id], term_id, message):
             return None
 
         # S4.5: the date gate runs per seated world, not first-world-only

@@ -1456,8 +1456,17 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # fired in that same test batch, leaving her permanently in the dead
     # zone rather than only occasionally. Her multiple is tightened to 1.2x
     # to actually reach the range she is shown to land in.
-    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 180}
-    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2}
+    # alexandria-catechetical added at the S6.2 freeze fix session (Mark's
+    # mandate, 2026-07-28): the S6.2 TRR measured Theon at 77-82% of all
+    # representative speech (dominance HIGH every turn), truncating the
+    # sitting at 5/8 turns. Ceiling 160 = the cleared solo register's own
+    # measured max (alexvoice001.native_measure: responses 123-166, mean
+    # ~141) so solo answers never trigger; multiple 1.2 (the Albina
+    # narrow-margin precedent) so the 300+-word table turns do.
+    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 180,
+                           "alexandria-catechetical": 160}
+    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
+                               "alexandria-catechetical": 1.2}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
