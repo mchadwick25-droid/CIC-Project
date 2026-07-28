@@ -1124,7 +1124,19 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
         from app.graph.repair_classifier import _migrated_world_ids
         if current_world_id in _migrated_world_ids():
             from wrs.views.segments.guards import POST_HISTORY_GUARD
-            post_history_guard = POST_HISTORY_GUARD
+            # FLAG-018 layer 3 (S5.6 sustained re-runs): the
+            # no-unprompted-sense-clarification constraint survived only
+            # partially when placed before the retrieved context (one
+            # false "I meant X earlier" opener remained in 16 turns).
+            # Doc 09's own post_history finding - the instruction that
+            # must survive attention decay rides closest to generation -
+            # is why it now ALSO rides here, composed at the wiring site
+            # (the assembly's exported guard text itself is unchanged).
+            post_history_guard = POST_HISTORY_GUARD + (
+                " And open on the question actually asked: no term "
+                "clarifications the participant did not ask for, and never "
+                "\"when I said X\" for a word this conversation has not "
+                "actually spoken.")
     except Exception:
         post_history_guard = ""
 
@@ -2134,11 +2146,26 @@ def generate_reroot_guidance(signal: DriftSignal) -> str:
                 limit = line.split(":", 1)[1].strip()
                 break
         if limit:
+            # FLAG-018 (S5.6 freeze battery, both sustained trials): the
+            # earlier closing instruction here - "Say that plainly ...
+            # before you go further" - made the voice OPEN its next turn
+            # with a correction preamble even when the conversation had
+            # moved on, narrating clarifications of terms the participant
+            # never used (the adjudicator's own lexicon citations). The
+            # correction is now carried as a silent constraint: never
+            # announced, spoken only if the subject itself returns.
+            # FABRICATION below keeps its proactive set-it-right shape on
+            # purpose (§6.3's closed strategies; a false attribution
+            # stands until corrected - a too-firm phrasing does not).
             return (
                 "Your last turn spoke that more firmly than your own record holds it. "
-                f"What it left out: {limit} Say that plainly, in your own words and from "
-                "inside your own life, before you go further - and reach for nothing "
-                "beyond what your own record already gives you to say it."
+                f"What it left out: {limit} Carry that limit silently from here on. "
+                "Do not open your next turn by announcing a correction, and do not "
+                "clarify terms the participant has not asked about - simply stop "
+                "repeating the over-firm form, and if the participant returns to that "
+                "subject, speak the limit plainly then, in your own words and from "
+                "inside your own life, reaching for nothing beyond what your own "
+                "record already gives you to say."
             )
 
     # S4.3 (Pass 1 §6.3): FABRICATION corrections are SELECTED from a
@@ -3585,22 +3612,36 @@ def plan_restricted_offer(state: ConversationState, message: str) -> dict | None
 
     by_term = {t[0]: t for t in terms}
     lowered = message.lower()
+    # S5.6 sustained re-runs (FLAG-018 investigation, layer 4 - the real
+    # source of the "when I said X" false-referent openers): a citation
+    # proves a chunk was RETRIEVED for the turn, not that the voice SPOKE
+    # the term - offers were firing on retrieved-but-unspoken terms, so
+    # the directive's own premise ("your last turn leaned on X") was
+    # false, and the voice rendered that premise faithfully as "when I
+    # said X." §6.4's intent is a term USED without acknowledgment: the
+    # offer now requires the term (or an alias) in the representative's
+    # actual spoken text, with citations kept only as the candidate list.
+    last_rep_text = str(last_rep_msg.content).lower()
     for cited in reversed(cited_terms):  # most recent citation first
         rec = by_term.get(cited)
         if rec is None or rec[4] != "high":
             continue
         term, aliases, quick_meaning, _period_sense, _crit = rec
+        probes = [re.sub(r"\([^)]*\)", "", term).strip()] + list(aliases)
+        # the voice must actually have spoken the term for an offer to
+        # have a true premise
+        if not any(p and p.lower() in last_rep_text for p in probes):
+            continue
         # positive evidence of understanding = the participant's next
         # message touches the term or any alias; strip parentheticals so
         # "Anachōrēsis (Withdrawal)" also matches on "withdrawal"
-        probes = [re.sub(r"\([^)]*\)", "", term).strip()] + list(aliases)
         if any(p and p.lower() in lowered for p in probes):
             continue
         display = re.sub(r"\s*\(.*", "", term).strip() or term
         return {
             "term": term,
             "directive": (
-                "Grounding note: your last turn leaned on "
+                "Grounding note: your last turn spoke of "
                 f'"{term}" - a term whose sense then and now diverge sharply - '
                 "and the participant has moved on without touching it. Your "
                 "FIRST sentence this turn must be ONE restricted offer: a "
