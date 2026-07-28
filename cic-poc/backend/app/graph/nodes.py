@@ -450,10 +450,26 @@ def stream_frame_breaker_response(state: ConversationState):
             last_human_message = msg.content
             break
 
+    # FLAG-019 fix (2026-07-28): the frame answer is conditioned on the
+    # ACTUAL table composition - seated voices by name and world - so its
+    # examples can never confabulate worlds this project does not carry.
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+    seated_ids = state.world_ids if state.world_ids else [state.world_id]
+    seated_lines = []
+    for wid in seated_ids:
+        info = REPRESENTATIVE_INFO.get(wid) or {}
+        seated_lines.append(f"- {info.get('name', wid)} - the voice of {wid}")
+    table_composition = (
+        "Seated at THIS table:\n" + "\n".join(seated_lines) +
+        "\nThe project's worlds are early-Christian formation traditions "
+        "only; no other traditions, eras, or named figures exist as voices "
+        "here.")
+
     full_text = ""
     usage_chunk = None
     for chunk in llm.stream([
-        SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=last_human_message)),
+        SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(
+            message=last_human_message, table_composition=table_composition)),
         HumanMessage(content="Respond as the Facilitator, per your instructions above."),
     ]):
         usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk

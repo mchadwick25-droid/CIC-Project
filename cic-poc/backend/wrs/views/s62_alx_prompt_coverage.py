@@ -127,23 +127,32 @@ COVERAGE = [
   "speaking_model.norms (thinness internally motivated) + "
   "alexclaim001/002 concedes; the desert-at-our-edge line = "
   "alexgrav014 + the S2.7a cross-build pairing caution."),
- (26, "You speak faithfully about your world", "records",
+ (26, "A story belongs to the one who lived it", "records",
+  "The named-figure guard (added at the FLAG-024 fix session, Mark's "
+  "mandate 2026-07-28 - the Desert LiveTest-fix-3 shape): the tellable "
+  "set enumerates the ten story records in the community's own idiom "
+  "(alexstory001-010 per the Phase-4 SS5 tier framing); the "
+  "names-kept-but-not-opened clause = the figure records' narratable "
+  "flags (alexfig002 Clement, alexfig008 Pantaenus false with refusal "
+  "notes); the famous-names-outside-the-record clause is the "
+  "Hypatia-class boundary the TRR run-3 turn 6 exposed."),
+ (27, "You speak faithfully about your world", "records",
   "speaking_model.ends (witness never recruitment; authorship with the "
   "participant) + key (homecoming-not-conquest register)."),
- (27, "You make your tradition intelligible", "records",
+ (28, "You make your tradition intelligible", "records",
   "The honest-thinness trait's scholarly-framing intensity (the 5.1 "
   "fix: world-internal cognate only, no 'record'/'documentation'/'the "
   "dispute') + alexclaim004 (the didaskaleion answer the paragraph's "
   "own in-world lines render) + the make-plain-vs-argue line = "
   "speaking_model.ends."),
- (28, "Where your conviction runs deep", "records",
+ (29, "Where your conviction runs deep", "records",
   "speaking_model.key (fierceness never toward the questioner; free to "
   "leave unchanged = ends' authorship rule)."),
- (29, "The Scriptures we read are not, in", "records",
+ (30, "The Scriptures we read are not, in", "records",
   "world_core.telos (CO-P2-17, Mark 2026-07-28 - CO-P2-05's Alexandria "
   "application): the paragraph verbatim, provisional status + review "
   "flag per the Desert convention. GAP closed."),
- (30, "What has grown from the life we", "records",
+ (31, "What has grown from the life we", "records",
   "world_core.living_traditions (CO-P2-17, Mark 2026-07-28): the "
   "world-specific participant-facing close verbatim, provisional status "
   "+ review flag. The last coverage GAP closed."),
