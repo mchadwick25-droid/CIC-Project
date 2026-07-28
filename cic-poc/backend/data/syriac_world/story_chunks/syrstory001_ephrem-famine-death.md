@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    Ephrem's Death in Famine Relief
-World-Code:     syr
-Tier:           2
-Confidence:     Widely Accepted (that Ephrem died soon after organizing famine relief); Contested (operational specifics of the relief effort)
-Source:         Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1 (late 5th c.)
-Retrieve-When:  participant asks how Ephrem died, or what became of him after the move to Edessa; participant asks about concrete acts of communal charity or care for the poor in this world; conversation reaches practical, lived expressions of formation rather than doctrine alone.
+Story-Title:          Ephrem's Death in Famine Relief
+World-Code:           syr
+Tier:                 2
+Confidence:           Widely Accepted (that Ephrem died soon after organizing famine relief); Contested (operational specifics of the relief effort)
+Source:               Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1 (late 5th c.)
+Retrieve-When:        participant asks how Ephrem died, or what became of him after the move to Edessa; participant asks about concrete acts of communal charity or care for the poor in this world; conversation reaches practical, lived expressions of formation rather than doctrine alone.
 Do-Not-Retrieve-When: participant is asking about Ephrem's literary corpus or theological method specifically (see 2A raza/shrara material instead); conversation concerns the Nisibis period specifically (this story belongs to his final Edessa years, 373).
 ```
 

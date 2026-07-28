@@ -81,78 +81,84 @@ COVERAGE = [
   "The name-tangle norm + syrdemo004's fix history (Retest B: same "
   "substance re-phrased, zero elaboration); Construction Notes SS6's "
   "figures-of-contested-standing note is the scholarly ground."),
- (17, "When someone tells you plainly", "records",
+ (17, "When someone asks for the exact words", "records",
+  "The exact-quote guard (Decision SYR-2, 2026-07-28 - the S2.8 probe "
+  "finding's record-derived fix): syrvoice001.instrumentalities (no "
+  "vetted in-world quotation exists; asked for exact words the voice "
+  "gives the argument's shape) + the S2.4 no-quote finding; the "
+  "sensitive-material close ties to the owned-fault trait."),
+ (18, "When someone tells you plainly", "records",
   "speaking_model.norms (frame-break durability) + syrdemo003 (turns "
   "6-8 + Retest A's two-voice design: composition-honesty belongs to "
   "the Facilitator)."),
- (18, "Where the fitting image does not come", "records",
+ (19, "Where the fitting image does not come", "records",
   "The cross-frontier image-borrowing avoid_trait (the "
   "dominance-effect guard)."),
- (19, "You engage a question the way", "records",
+ (20, "You engage a question the way", "records",
   "speaking_model.act_sequence + genre (the demonstration as encounter "
   "form; builds toward, never announces)."),
- (20, "Each stage is its own short sentence", "records",
+ (21, "Each stage is its own short sentence", "records",
   "register_determination (plain short sentences; the dash-chain "
   "avoid_trait); native_measure carries the evidence."),
- (21, "A demonstration was never given whole", "records",
+ (22, "A demonstration was never given whole", "records",
   "act_sequence (one or two stages per turn; the case visibly "
   "unfinished; the alphabet rule) + the staged-demonstration trait."),
- (22, "Before you reach for raza", "records",
+ (23, "Before you reach for raza", "records",
   "The story-before-term trait (a face, name, or scene first; terms "
   "one at a time, grounded)."),
- (23, "You notice whether a trial is endured", "records",
+ (24, "You notice whether a trial is endured", "records",
   "speaking_model.key (endurance noticed; loss named not "
   "category-summed; the type noticed reaching toward Christ)."),
- (24, "Your language carries the alphabet", "records",
+ (25, "Your language carries the alphabet", "records",
   "speaking_model.instrumentalities (alphabet + vow images) + key "
   "(passionate endurance; grief unresolved; warmth; delight; "
   "patience)."),
- (25, "A teaching is never carried without", "records",
+ (26, "A teaching is never carried without", "records",
   "speaking_model.norms (other worlds' voices anchored by name at the "
   "table - the attribution rule with the Shahdost/Barba'shmin "
   "grounding)."),
- (26, "When someone comes to you with a question", "records",
+ (27, "When someone comes to you with a question", "records",
   "speaking_model.ends (a question received as a real difficulty "
   "already pressing, never a test)."),
- (27, "Where something in your own life remains", "records",
+ (28, "Where something in your own life remains", "records",
   "act_sequence (the case left visibly unfinished; open questions "
   "shown at the turn's end) + the claim records' concedes-as-data."),
- (28, "And when you ask something back", "records",
+ (29, "And when you ask something back", "records",
   "speaking_model.genre (asks the question that opens the next "
   "stage)."),
- (29, "Your engagement deepens as the conversation", "records",
+ (30, "Your engagement deepens as the conversation", "records",
   "The staged-demonstration trait's sustained-engagement intensity "
   "(never circling back in new words; deeper into the returning "
   "trouble; the C4 plurality without manufactured memory - the "
   "syrdemo002 turn-3 discipline)."),
- (30, "There are territories where this life", "records",
+ (31, "There are territories where this life", "records",
   "The thin-domain map: worship-shape brief (syrstory009 is the "
   "composite it CAN give), C3 at distant-quarrel arm's length "
   "(syrgrav003's author-gravity concentration), the ordinary "
   "household/listener-only voice absent (Doc_02 SS7 via syrforce2B2; "
   "the dominance-effect caution)."),
- (31, "You speak faithfully about your world", "records",
+ (32, "You speak faithfully about your world", "records",
   "speaking_model.key (conviction of one who has watched loved ones "
   "die; the promise-kept-daily line = syrclaim002/syrdemo002's own "
   "language) + syrgrav006."),
- (32, "You make your tradition intelligible", "records",
+ (33, "You make your tradition intelligible", "records",
   "speaking_model.ends (formation not argument; authorship with the "
   "listener; answers from within what formed it, stage by stage, "
   "never a case to be won)."),
- (33, "Your own fierceness is not for the one", "records",
+ (34, "Your own fierceness is not for the one", "records",
   "The owned-fault trait verbatim-adjacent (the contempt owned as our "
   "own life's fault; no invented companion account; nothing supplied "
   "to soften) + syrclaim005 + the anti-Jewish standing caution; "
   "sorrow-before-argument = speaking_model.key."),
- (34, "To become Iḥidaya is not to imitate", "records",
+ (35, "To become Iḥidaya is not to imitate", "records",
   "world_core.telos (the Iḥidaya dual-sense participation) + "
   "syrlex007's voice_surface ('the name you are given tells you what "
   "your singleness is')."),
- (35, "The old stories you read as raza", "records",
+ (36, "The old stories you read as raza", "records",
   "world_core.telos verbatim-adjacent (every shrara bends toward "
   "Christ; the undivided Gospel as the shape of what you are "
   "becoming) + syrgrav005 + syrlex006."),
- (36, "What has grown from the life you live", "records",
+ (37, "What has grown from the life you live", "records",
   "world_core.living_traditions (CONFIRMED 2026-07-11): the "
   "descendants continue under names the voice has never heard; their "
   "own account is not his to give - the neither-anticipates-nor-"

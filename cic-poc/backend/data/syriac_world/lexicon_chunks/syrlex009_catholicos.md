@@ -4,9 +4,8 @@
 Term:                 Catholicos / Catholicosate
 World-Code:           syr
 Tier:                 2
-Tags:                 SC, DR, CT
 Aliases:              "Catholicos-Patriarch" (later fuller title)
-Related-Terms:        (none — flag-only entry, standalone by design)
+Related-Terms:        (none — see note)
 Retrieve-When:        participant asks who led the Persian church, or uses "Catholicos" as though it were this world's own contemporary title for its Persian episcopal leadership.
 Do-Not-Retrieve-When: participant is asking about the Roman/Edessene side of this world, where this title has no relevance at all; participant is asking about a later period (post-410) where "Catholicos" is the accurate and non-anachronistic term.
 ```
@@ -47,6 +46,12 @@ GEDSH, "Papa bar Aggai" entry — sources the succession discussion primarily th
 
 ---
 
+## Related-Terms Reciprocity Note
+
+No reciprocal cross-reference asserted by design — this entry is a standalone distortion-risk flag, not part of this world's own conceptual vocabulary cluster.
+
+---
+
 ## CT Contest Type
 
 **Application to this world.** Whether any title equivalent to "Catholicos" was in contemporary use for Persian church leadership during this world's own 200–410 window is contested — the balance of evidence indicates it was not, and that surviving succession narratives using the title are later retrojections. This entry exists specifically to carry that flag into runtime retrieval, not to develop "Catholicos" as this world's own vocabulary.
@@ -56,9 +61,3 @@ GEDSH, "Papa bar Aggai" entry — sources the succession discussion primarily th
 ## Standing Distortion-Risk Note
 
 This is not an ordinary vocabulary candidate promoted from this world's own attested usage — it is included specifically because it is the kind of term likely to be projected backward onto this world's own period by a participant or a later document, when it is in fact a retrojection (Doc_03, Section 2.1). Any Representative or later construction document using "Catholicos" for this world's own period should either avoid the term or explicitly flag it as later terminology applied to an earlier office.
-
----
-
-## Related-Terms Reciprocity Note
-
-No reciprocal cross-reference asserted by design — this entry is a standalone distortion-risk flag, not part of this world's own conceptual vocabulary cluster.

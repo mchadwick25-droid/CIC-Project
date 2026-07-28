@@ -4,9 +4,8 @@
 Term:                 Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)
 World-Code:           syr
 Tier:                 2
-Tags:                 AS, TC, RT, DR, CT
 Aliases:              "Gospel of the Mixed," "the Diatessaron" (Tatian's harmonized Gospel, this world's dominant Gospel text), da-Mepharreshe (the later, contrasting "separated" four-Gospel form)
-Related-Terms:        raza (shrara)
+Related-Terms:        raza (ܐܪܙܐ) / shrara
 Retrieve-When:        participant asks what "Gospel" meant in this world, or whether it meant four books or one; participant asks about the Diatessaron by name; conversation reaches Ephrem's Commentary on the Diatessaron or Aphrahat's Gospel quotations.
 Do-Not-Retrieve-When: participant asks specifically about the Peshitta (a distinct, later standard Syriac biblical text — see Doc_03 Section 3.2, an anachronistic term for this world's own period and not developed as a lexicon entry here).
 ```
@@ -49,12 +48,12 @@ William L. Petersen, *Tatian's Diatessaron: Its Creation, Dissemination, Signifi
 
 ---
 
-## CT Contest Type
-
-**Meaning / historical scope.** The specific vernacular name's earliest secure attestation is contested in the scholarship. Theodoret of Cyrrhus (bishop 423–457) describes confiscating "more than two hundred such books" in the 420s–430s, but his account is in Greek and never actually uses the Syriac phrase "da-Mhallete" — it attests the Diatessaron's suppression, not the vernacular name specifically. Per Matthew Crawford's peer-reviewed work, the name's earliest secure Syriac witness may instead be an anonymous gloss in the Syriac translation of Eusebius's *Ecclesiastical History*, roughly contemporary with, not clearly later than, Theodoret's account. The honest position is that this name's dating is unresolved, not settled to a specific point either before or after this world's own 410 boundary.
-
----
-
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with raza/shrara (Ephrem's Commentary applies the typological method to this harmonized text). Entry lists this term back.
+
+---
+
+## CT Contest Type
+
+**Meaning / historical scope.** The specific vernacular name's earliest secure attestation is contested in the scholarship. Theodoret of Cyrrhus (bishop 423–457) describes confiscating "more than two hundred such books" in the 420s–430s, but his account is in Greek and never actually uses the Syriac phrase "da-Mhallete" — it attests the Diatessaron's suppression, not the vernacular name specifically. Per Matthew Crawford's peer-reviewed work, the name's earliest secure Syriac witness may instead be an anonymous gloss in the Syriac translation of Eusebius's *Ecclesiastical History*, roughly contemporary with, not clearly later than, Theodoret's account. The honest position is that this name's dating is unresolved, not settled to a specific point either before or after this world's own 410 boundary.

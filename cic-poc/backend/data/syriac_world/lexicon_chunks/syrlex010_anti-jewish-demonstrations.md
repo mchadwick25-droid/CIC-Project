@@ -4,9 +4,8 @@
 Term:                 Aphrahat's Anti-Jewish Demonstrations
 World-Code:           syr
 Tier:                 2
-Tags:                 SC, CT, DR
 Aliases:              "the demonstrations against the Jews," anti-Jewish polemic
-Related-Terms:        tahwyata (tahwiya)
+Related-Terms:        taḥwyāṯā (singular: taḥwîṯâ)
 Retrieve-When:        participant asks about this world's relationship to Judaism or Jewish practice; participant asks why Mar Yausep's own record carries real contempt alongside real argument on this subject; participant presses on what Aphrahat actually argued against Jewish practice, beyond the plain fact that he did.
 Do-Not-Retrieve-When: participant is asking a general question about Judaism with no connection to Aphrahat or this world; participant is asking about present-day Jewish-Christian relations, which this entry makes no claim about.
 Force-LLM-Vote:       true — this is genuinely sensitive content that should only surface when the question specifically calls for it, not whenever it ranks as a close semantic match.

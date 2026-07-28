@@ -1,0 +1,69 @@
+{
+  "aggregate": {
+    "by_category": {
+      "cross-world-isolation": {
+        "mean_mrr": null,
+        "n": 1,
+        "pass_at_k[retrieve]": null,
+        "pass_at_k[skip]": null,
+        "recall_at_k[retrieve]": null,
+        "recall_at_k[skip]": null,
+        "violations[retrieve]": 0,
+        "violations[skip]": 0
+      },
+      "de-dup": {
+        "mean_mrr": null,
+        "n": 2,
+        "pass_at_k[retrieve]": null,
+        "pass_at_k[skip]": null,
+        "recall_at_k[retrieve]": null,
+        "recall_at_k[skip]": null,
+        "violations[retrieve]": 0,
+        "violations[skip]": 0
+      },
+      "negative-condition": {
+        "mean_mrr": 1.0,
+        "n": 5,
+        "pass_at_k[retrieve]": 1.0,
+        "pass_at_k[skip]": 0.0,
+        "recall_at_k[retrieve]": 1.0,
+        "recall_at_k[skip]": 0.0,
+        "violations[retrieve]": 1,
+        "violations[skip]": 0
+      },
+      "reactive-turn": {
+        "mean_mrr": 0.75,
+        "n": 2,
+        "pass_at_k[retrieve]": 1.0,
+        "pass_at_k[skip]": 0.0,
+        "recall_at_k[retrieve]": 1.0,
+        "recall_at_k[skip]": 0.0,
+        "violations[retrieve]": 0,
+        "violations[skip]": 0
+      },
+      "thematic": {
+        "mean_mrr": 1.0,
+        "n": 6,
+        "pass_at_k[retrieve]": 1.0,
+        "pass_at_k[skip]": 0.0,
+        "recall_at_k[retrieve]": 1.0,
+        "recall_at_k[skip]": 0.0,
+        "violations[retrieve]": 0,
+        "violations[skip]": 0
+      },
+      "verbatim-term": {
+        "mean_mrr": 1.0,
+        "n": 4,
+        "pass_at_k[retrieve]": 1.0,
+        "pass_at_k[skip]": 0.0,
+        "recall_at_k[retrieve]": 1.0,
+        "recall_at_k[skip]": 0.0,
+        "violations[retrieve]": 0,
+        "violations[skip]": 0
+      }
+    },
+    "isolation_violations_total": 0,
+    "metadata_check_failures": 0
+  },
+  "regressions": []
+}

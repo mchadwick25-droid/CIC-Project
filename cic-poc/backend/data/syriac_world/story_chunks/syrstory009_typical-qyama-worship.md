@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    A Morning Gathering of the Qyama at Nisibis
-World-Code:     syr
-Tier:           4
-Confidence:     Inferential/Thin (as required for all Tier 4 material, regardless of the quality of individual sourced elements)
-Source:         Composite reconstruction — see Source Identification below; not a single-source narrative
-Retrieve-When:  participant asks what an ordinary act of worship in this world actually looked or felt like; participant asks how the qyama vow, the bnat qyama choir, the raza/shrara hermeneutic, and the harmonized Gospel fit together in lived practice, rather than as separate facts.
+Story-Title:          A Morning Gathering of the Qyama at Nisibis
+World-Code:           syr
+Tier:                 4
+Confidence:           Inferential/Thin (as required for all Tier 4 material, regardless of the quality of individual sourced elements)
+Source:               Composite reconstruction — see Source Identification below; not a single-source narrative
+Retrieve-When:        participant asks what an ordinary act of worship in this world actually looked or felt like; participant asks how the qyama vow, the bnat qyama choir, the raza/shrara hermeneutic, and the harmonized Gospel fit together in lived practice, rather than as separate facts.
 Do-Not-Retrieve-When: participant asks about a specific, named historical worship event (this is explicitly typical/composite, not a specific occasion); participant is asking about Roman-period Edessa specifically after 363 (this reconstruction is set at pre-363 Nisibis, on the strength of one calendar detail specific to that place and period — see Source Identification).
 ```
 

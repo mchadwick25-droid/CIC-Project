@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    Jacob of Nisibis and the Deliverance of the City
-World-Code:     syr
-Tier:           3
-Confidence:     Contested (as tradition); Inferential/Thin (as a specific historical event)
-Source:         Theodoret of Cyrrhus, Historia Ecclesiastica II.26/30 and Historia Religiosa I (5th c.); corroborating detail from Ephrem's own Carmina Nisibena, ed. Edmund Beck, CSCO 218-219 (1961)
-Retrieve-When:  participant asks how Nisibis was remembered as having survived Shapur II's sieges; participant asks about Jacob of Nisibis's standing as a holy man; participant asks about Ephrem's own relationship to Jacob or to the Nisibis sieges specifically.
+Story-Title:          Jacob of Nisibis and the Deliverance of the City
+World-Code:           syr
+Tier:                 3
+Confidence:           Contested (as tradition); Inferential/Thin (as a specific historical event)
+Source:               Theodoret of Cyrrhus, Historia Ecclesiastica II.26/30 and Historia Religiosa I (5th c.); corroborating detail from Ephrem's own Carmina Nisibena, ed. Edmund Beck, CSCO 218-219 (1961)
+Retrieve-When:        participant asks how Nisibis was remembered as having survived Shapur II's sieges; participant asks about Jacob of Nisibis's standing as a holy man; participant asks about Ephrem's own relationship to Jacob or to the Nisibis sieges specifically.
 Do-Not-Retrieve-When: participant asks whether Ephrem himself performed this miracle — he did not, in this tradition; attributing it to him would be a documented misattribution this world's own record does not support (see Tier Justification). Do not retrieve where the participant's question concerns Ephrem's own theological or hymnic corpus in general (use the raza/shrara or heresiology material instead).
 ```
 

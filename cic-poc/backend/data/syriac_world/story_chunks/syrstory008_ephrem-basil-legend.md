@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    The Legend of Ephrem's Meeting with Basil of Caesarea
-World-Code:     syr
-Tier:           3
-Confidence:     Inferential/Thin — and, unusually for this repository, positively identified by modern scholarship as resting on a documented case of mistaken identity, not merely unverified tradition
-Source:         The Syriac Vita Ephraemi (6th c.); discussed in GEDSH, "Basil of Caesarea" entry; O. Rousseau, "La rencontre de S. Ephrem et de S. Basile," L'Orient Syrien 2-3 (1957-58); Alexei Muraviev, "Early Syriac Version of the Encounter of Basil of Caesarea and Ephrem the Syrian," Vestnik Drevney Istorii 4 (2015)
-Retrieve-When:  a participant specifically raises this legend, asks whether Ephrem met Basil of Caesarea, or asks about Ephrem's ordination as deacon.
+Story-Title:          The Legend of Ephrem's Meeting with Basil of Caesarea
+World-Code:           syr
+Tier:                 3
+Confidence:           Inferential/Thin — and, unusually for this repository, positively identified by modern scholarship as resting on a documented case of mistaken identity, not merely unverified tradition
+Source:               The Syriac Vita Ephraemi (6th c.); discussed in GEDSH, "Basil of Caesarea" entry; O. Rousseau, "La rencontre de S. Ephrem et de S. Basile," L'Orient Syrien 2-3 (1957-58); Alexei Muraviev, "Early Syriac Version of the Encounter of Basil of Caesarea and Ephrem the Syrian," Vestnik Drevney Istorii 4 (2015)
+Retrieve-When:        a participant specifically raises this legend, asks whether Ephrem met Basil of Caesarea, or asks about Ephrem's ordination as deacon.
 Do-Not-Retrieve-When: general questions about Ephrem's life, diaconate, or formation (use syrstory001 or Doc_05/07 material instead) — this story should not be offered proactively as a likely-true account, only engaged directly if a participant raises it, and even then only with its correction attached.
 ```
 

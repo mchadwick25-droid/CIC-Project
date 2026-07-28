@@ -4,7 +4,6 @@
 Term:                 Mar (ܡܪܝ)
 World-Code:           syr
 Tier:                 3
-Tags:                 SC, RT, DR
 Aliases:              "my lord," "Saint" (loose parallel honorific)
 Related-Terms:        (none — see note)
 Retrieve-When:        participant uses "Mar" as a title prefix (e.g., "Mar Ephrem," "Mar Aphrahat"); participant asks what "Mar" means.

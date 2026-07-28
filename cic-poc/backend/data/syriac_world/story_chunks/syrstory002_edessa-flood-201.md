@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    The Flood of 201 and the Destruction of the Church
-World-Code:     syr
-Tier:           2
-Confidence:     Widely Accepted (flood, deaths, civic damage); Contested (whether the church-destruction detail is original to the account or a later interpolation)
-Source:         Chronicle of Edessa, entry for Seleucid year 513 (201 CE). Ed. Ignatius Guidi, "Chronicon Edessenum," Chronica Minora I, CSCO Scriptores Syri ser. 3, vol. 4 (1903); Eng. trans. B.H. Cowper, Journal of Sacred Literature, n.s. vol. 5 (1864/65), 28-45.
-Retrieve-When:  participant asks about this world's earliest institutional trace, or how far back a church building at Edessa can be dated; participant asks about the reliability of this world's own earliest self-report; conversation touches memory, archive, and how a community's own past is transmitted to it.
+Story-Title:          The Flood of 201 and the Destruction of the Church
+World-Code:           syr
+Tier:                 2
+Confidence:           Widely Accepted (flood, deaths, civic damage); Contested (whether the church-destruction detail is original to the account or a later interpolation)
+Source:               Chronicle of Edessa, entry for Seleucid year 513 (201 CE). Ed. Ignatius Guidi, "Chronicon Edessenum," Chronica Minora I, CSCO Scriptores Syri ser. 3, vol. 4 (1903); Eng. trans. B.H. Cowper, Journal of Sacred Literature, n.s. vol. 5 (1864/65), 28-45.
+Retrieve-When:        participant asks about this world's earliest institutional trace, or how far back a church building at Edessa can be dated; participant asks about the reliability of this world's own earliest self-report; conversation touches memory, archive, and how a community's own past is transmitted to it.
 Do-Not-Retrieve-When: participant is asking for a first-person or eyewitness account of Christian life at Edessa (no such account exists for this event — see Absent Stories); participant wants certainty about the earliest Christian building in Edessa specifically (the Contested status below must be carried, not smoothed over).
 ```
 

@@ -4,9 +4,8 @@
 Term:                 Iḥidaya (ܝܚܝܕܝܐ)
 World-Code:           syr
 Tier:                 1
-Tags:                 AS, TC, RT, DR
 Aliases:              "the Solitary," "the Single One," "Only-Begotten" (christological sense), monogenes (Greek parallel)
-Related-Terms:        qyama, taḥwyāṯā
+Related-Terms:        qyama (ܩܝܡܐ) / bnay qyama / bnat qyama, taḥwyāṯā (singular: taḥwîṯâ)
 Retrieve-When:        participant asks about single-minded devotion, consecrated singleness, or celibate identity in this world; participant asks about Christ as "Only-Begotten" and whether that title connects to anything else in this world's vocabulary; conversation reaches the relationship between ascetic identity and christology.
 Do-Not-Retrieve-When: the participant's question is already fully answered by the qyama entry and no distinct point about the double meaning is needed.
 ```
@@ -45,7 +44,7 @@ This world's iḥidaye lived communally, not in physical isolation, and the shar
 
 ## Key Sources
 
-*Gorgias Encyclopedic Dictionary of the Syriac Heritage*, s.v. "Iḥidaya" (Robert A. Kitchen). Sidney Griffith, "'Singles' in God's Service: Thoughts on the Ihidaye from the Works of Aphrahat and Ephraem the Syrian," *The Harp* 4 (1991): 145–59 (Source Registry #26, cross-checked). Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29). Primary textual base: Aphrahat, *Demonstrations* 6:8, 7:20 (Source Registry #10); Ephrem's hymn corpus.
+*Gorgias Encyclopedic Dictionary of the Syriac Heritage*, s.v. "Iḥidaya" (Robert A. Kitchen). Sidney Griffith, "'Singles' in God's Service: Thoughts on the Ihidaye from the Works of Aphrahat and Ephraem the Syrian," *The Harp* 4 (1991): 145–59 (Source Registry #56). Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29). Primary textual base: Aphrahat, *Demonstrations* 6:8, 7:20 (Source Registry #10); Ephrem's hymn corpus.
 
 Note: genuinely dual-attested in both primary voices within this world's own 200–410 window — not a later retrojection, unlike the Ephrem/qyama-choir linkage. The main risk is over-collapsing this entry into qyama (double-counting the same institutional reality under two headwords), which this entry and the qyama entry both explicitly guard against.
 

@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    Jacob of Nisibis at the Council of Nicaea
-World-Code:     syr
-Tier:           2
-Confidence:     Widely Accepted (attendance and anti-Arian stance); Contested (specific attribution — no contemporary 4th-century document independently confirms it)
-Source:         Theodoret of Cyrrhus, Historia Ecclesiastica and Historia Religiosa I; Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1; Nicene subscription lists as reconstructed by Ernest Honigmann, "La liste originale des Pères de Nicée," Byzantion 14 (1939): 17-76 (Jacob at position 77); Paul Peeters, "La légende de saint Jacques de Nisibe," Analecta Bollandiana 38 (1920): 285-373 (source-critical assessment of the wider Jacob dossier)
-Retrieve-When:  participant asks how this world connects to the wider, Greek-speaking imperial church; participant asks about Jacob of Nisibis's standing or authority; conversation touches this world's own relationship to Nicene orthodoxy specifically.
+Story-Title:          Jacob of Nisibis at the Council of Nicaea
+World-Code:           syr
+Tier:                 2
+Confidence:           Widely Accepted (attendance and anti-Arian stance); Contested (specific attribution — no contemporary 4th-century document independently confirms it)
+Source:               Theodoret of Cyrrhus, Historia Ecclesiastica and Historia Religiosa I; Gennadius of Marseille, De Viris Illustribus, Supplement, ch. 1; Nicene subscription lists as reconstructed by Ernest Honigmann, "La liste originale des Pères de Nicée," Byzantion 14 (1939): 17-76 (Jacob at position 77); Paul Peeters, "La légende de saint Jacques de Nisibe," Analecta Bollandiana 38 (1920): 285-373 (source-critical assessment of the wider Jacob dossier)
+Retrieve-When:        participant asks how this world connects to the wider, Greek-speaking imperial church; participant asks about Jacob of Nisibis's standing or authority; conversation touches this world's own relationship to Nicene orthodoxy specifically.
 Do-Not-Retrieve-When: participant wants a first-person account of the Council itself (no such account survives from this world); participant is conflating this with the siege-deliverance legend (see the separate Tier 3 story, "Jacob of Nisibis and the Deliverance of the City") — the two should not be blended into one telling.
 ```
 

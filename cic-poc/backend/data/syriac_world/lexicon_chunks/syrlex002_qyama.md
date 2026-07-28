@@ -4,9 +4,8 @@
 Term:                 qyama (ܩܝܡܐ) / bnay qyama / bnat qyama
 World-Code:           syr
 Tier:                 1
-Tags:                 AS, TC, RT, DR, PV, CT
 Aliases:              bar qyama, bat qyama (singular forms), "sons/daughters of the covenant," "covenant" (loose English gloss)
-Related-Terms:        Ihidaya, taḥwyāṯā
+Related-Terms:        Iḥidaya (ܝܚܝܕܝܐ), taḥwyāṯā (singular: taḥwîṯâ)
 Retrieve-When:        participant asks about celibacy, asceticism, or vowed life in this world; participant asks how this world's ascetics differ from desert monks; participant uses "monk," "nun," or "monastery" in a way that may import Egyptian-desert assumptions; conversation reaches Aphrahat's Demonstration 6 or questions of authority alongside ordained office.
 Do-Not-Retrieve-When: participant is asking specifically and only about Ephrem's personal choir leadership as an established biographical fact (this chunk must not be used to confirm that claim — see Distortion Risk and CT Contest Type below); the World Capsule Core has already distinguished this institution from desert monasticism in the current turn.
 ```
@@ -45,18 +44,18 @@ This world's qyama members remained resident among their own kin in town, practi
 
 ## Key Sources
 
-Aphrahat, Demonstration 6, "On the Bnay Qyama" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, "Revisiting the Daughters of the Covenant," *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, "Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition," *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, "'Singles' in God's Service..." *The Harp* 4 (1991) (Source Registry #26, cross-checked).
+Aphrahat, Demonstration 6, "On the Bnay Qyama" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, "Revisiting the Daughters of the Covenant," *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, "Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition," *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, "'Singles' in God's Service..." *The Harp* 4 (1991) (Source Registry #56).
 
 Note: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.
-
----
-
-## CT Contest Type
-
-**Historical scope.** The qyama's own formal organizational structure — whether it had a settled rule, enclosure practice, or internal hierarchy — is thinly and contestedly documented in the scholarship. Existence, vowed-celibacy, and fourth-century attestation are solidly evidenced (Widely Accepted); claims about internal structural detail beyond that are Contested/Inferential-Thin and should not be presented as settled.
 
 ---
 
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with Iḥidaya (near-synonym in Aphrahat's own usage; the two entries should be read alongside each other, not merged) and taḥwyāṯā (Demonstration 6, the primary evidentiary source for this entry, is itself one of Aphrahat's taḥwyāṯā). Both entries list this term back.
+
+---
+
+## CT Contest Type
+
+**Historical scope.** The qyama's own formal organizational structure — whether it had a settled rule, enclosure practice, or internal hierarchy — is thinly and contestedly documented in the scholarship. Existence, vowed-celibacy, and fourth-century attestation are solidly evidenced (Widely Accepted); claims about internal structural detail beyond that are Contested/Inferential-Thin and should not be presented as settled.

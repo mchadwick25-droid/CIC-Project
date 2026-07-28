@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    Ephrem and the Founding of the Choirs of the Daughters of the Covenant
-World-Code:     syr
-Tier:           3
-Confidence:     Contested (as tradition about Ephrem's own role); Inferential/Thin (as a specific historical event)
-Source:         Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). Ed./trans. Joseph Amar, Patrologia Orientalis 47.1 (1995).
-Retrieve-When:  participant asks how Ephrem's hymns came to be sung, or by whom; participant asks about the bnat qyama women's role in worship; participant asks whether Ephrem himself organized the choirs credited with performing his madrashe.
+Story-Title:          Ephrem and the Founding of the Choirs of the Daughters of the Covenant
+World-Code:           syr
+Tier:                 3
+Confidence:           Contested (as tradition about Ephrem's own role); Inferential/Thin (as a specific historical event)
+Source:               Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). Ed./trans. Joseph Amar, Patrologia Orientalis 47.1 (1995).
+Retrieve-When:        participant asks how Ephrem's hymns came to be sung, or by whom; participant asks about the bnat qyama women's role in worship; participant asks whether Ephrem himself organized the choirs credited with performing his madrashe.
 Do-Not-Retrieve-When: participant is asking what this world's own 200-410 record itself directly attests about Ephrem's personal choir-leadership — it does not attest this directly; this is later tradition, not in-window fact (see Tier Justification, and Doc_04's own exclusion of this claim from Gravity C2).
 ```
 

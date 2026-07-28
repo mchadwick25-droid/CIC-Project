@@ -1,12 +1,12 @@
 ## Retrieval Front-Matter
 
 ```
-Story-Title:    The Martyrdom of Simeon bar Sabbae
-World-Code:     syr
-Tier:           3
-Confidence:     Contested (as an account of what faithful endurance under persecution looked like); Inferential/Thin (for the specific events narrated)
-Source:         The Martyrdom and History of Blessed Simeon bar Ṣabbaʿe. Ed./trans. Kyle Smith, Persian Martyr Acts in Syriac, vol. 3 (Gorgias Press, 2014).
-Retrieve-When:  participant asks how this world remembers those who died under Shapur II's persecution; participant asks what it looked like to refuse the state under threat of death; conversation reaches C6 (Endurance Under State Persecution) directly.
+Story-Title:          The Martyrdom of Simeon bar Sabbae
+World-Code:           syr
+Tier:                 3
+Confidence:           Contested (as an account of what faithful endurance under persecution looked like); Inferential/Thin (for the specific events narrated)
+Source:               The Martyrdom and History of Blessed Simeon bar Ṣabbaʿe. Ed./trans. Kyle Smith, Persian Martyr Acts in Syriac, vol. 3 (Gorgias Press, 2014).
+Retrieve-When:        participant asks how this world remembers those who died under Shapur II's persecution; participant asks what it looked like to refuse the state under threat of death; conversation reaches C6 (Endurance Under State Persecution) directly.
 Do-Not-Retrieve-When: participant wants a contemporary, eyewitness account of the persecution (this narrative was composed decades to over a century after the events it describes — see Tier Justification); participant is asking about the twenty-year vacancy that followed Barba'shmin's death specifically (see the Absent Stories note — no comparable narrative exists for that silence).
 ```
 
