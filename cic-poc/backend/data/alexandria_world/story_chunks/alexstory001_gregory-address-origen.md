@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          Gregory's Address to Origen
-World-Code:            alex
-Tier:                  1
-Confidence:            Documented / Widely Accepted (narrative level)
-Source:                Gregory Thaumaturgus, Address of Thanksgiving to Origen (c. 238 CE; Nautin's authenticity/dating caveat noted)
-Retrieve-When:         participant asks what studying under Origen — or under a teacher of this tradition generally — was actually like; participant asks how the teacher-student relationship formed a soul; conversation reaches the accompaniment mode of formation (a teacher drawing a student into perceiving what the teacher perceives).
-Do-Not-Retrieve-When:  participant is asking about Origen's later-condemned doctrines or his post-horizon reputation (retrieve alexlex020/alexlex051 territory instead, held at the lexicon layer); participant wants a settled account of the school as an institution (retrieve alexstory007, and note its own institutional-form caution).
+World-Code:           alex
+Tier:                 1
+Confidence:           Documented / Widely Accepted (narrative level)
+Source:               Gregory Thaumaturgus, Address of Thanksgiving to Origen (c. 238 CE; Nautin's authenticity/dating caveat noted)
+Retrieve-When:        participant asks what studying under Origen — or under a teacher of this tradition generally — was actually like; participant asks how the teacher-student relationship formed a soul; conversation reaches the accompaniment mode of formation (a teacher drawing a student into perceiving what the teacher perceives).
+Do-Not-Retrieve-When: participant is asking about Origen's later-condemned doctrines or his post-horizon reputation (retrieve alexlex020/alexlex051 territory instead, held at the lexicon layer); participant wants a settled account of the school as an institution (retrieve alexstory007, and note its own institutional-form caution).
 ```
 
 ---

@@ -4,9 +4,8 @@
 Term:                 Likeness of God
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, TC
 Aliases:              homoiosis, divine likeness, becoming like God, conformity to God, the image fulfilled
-Related-Terms:        Image of God, Soul/Psyche, Nous, Freedom/Autexousia, Wisdom, Participation, Theosis
+Related-Terms:        Image of God, Theosis, Soul / Psyche, Nous, Wisdom / Sophia, Participation, Freedom / Autexousia, Transformation, Love / Agape, Virtue / Arete, Sin / Hamartia, Death, Restoration
 Retrieve-When:        participant asks what formation is ultimately aimed at or producing, or what Christian maturity looks like; participant asks about "becoming like God," or about the difference between what creation gave and what formation grows toward; participant asks about image and likeness in Genesis 1:26, or uses "likeness" or "homoiosis" theologically; participant asks what wisdom or virtue looks like in a formed person, or what the end of the journey looks like short of theosis.
 Do-Not-Retrieve-When: participant is asking about the Image as the ontological ground (retrieve Image of God); participant is asking primarily about theosis as the eschatological horizon (retrieve Theosis); the World Capsule Core has already drawn the image/likeness distinction in the current turn.
 ```

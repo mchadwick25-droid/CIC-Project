@@ -4,9 +4,8 @@
 Term:                 Freedom / Autexousia
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, DR
 Aliases:              autexousia, self-determination, free will, free choice, the will's self-governance
-Related-Terms:        Image of God, Soul/Psyche, Divine Pedagogy, Catechesis, Participation
+Related-Terms:        Catechesis, Image of God, Soul / Psyche, Divine Pedagogy, Participation, Likeness of God, Sin / Hamartia, Repentance / Metanoia
 Retrieve-When:        participant uses "freedom" or "free will" in relation to formation, grace, or the Christian life; participant asks whether formation is something done to a person or something they choose, or whether God overrides human choice; participant is anxious that if God is doing the forming, human freedom is not real; participant asks why formation can fail, or why divine pedagogy works gradually rather than transforming the soul at once.
 Do-Not-Retrieve-When: participant means freedom in a political or civic sense; participant is asking about determinism as an abstract philosophical problem rather than as a formation question; participant means freedom *from* sin rather than freedom as the condition of formation; the World Capsule Core has already surfaced freedom as formation's condition in the current turn.
 ```

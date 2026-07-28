@@ -4,9 +4,8 @@
 Term:                 Martyrdom / Witness
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, RT
 Aliases:              martyrdom, witness, martyr, confessor, faithful witness, dying for the faith, the crown of martyrdom
-Related-Terms:        Death, Resurrection, Transformation, Participation, Household, Soul/Psyche
+Related-Terms:        Faith / Pistis, Death, Household / Oikos, Participation, Soul / Psyche, Resurrection, Transformation
 Retrieve-When:        participant uses "martyrdom" or "martyr," or asks what dying for the faith means and why it matters; participant asks how martyrdom relates to formation, about the Decian or Diocletianic persecutions, or why the community honors martyrs; participant asks who could be a martyr and how the martyr's formation differs from the school tradition's gradual contemplative path.
 Do-Not-Retrieve-When: participant is asking primarily about martyr commemoration as a liturgical practice (retrieve Eucharist and note the liturgical dimension) or about physical death in general (retrieve Death); the conversation is focused on later Christian martyrdom traditions beyond this ecology's horizon.
 ```
@@ -55,14 +54,14 @@ Note: martyrdom as a formation act rather than heroic sacrifice, the two-mode ac
 
 ---
 
+## Related-Terms Reciprocity Note
+
+Cross-referenced with Death, Resurrection, Transformation, Participation, Household, Soul/Psyche. **Mutual** (each lists this term back): Death, Household. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Resurrection, Transformation, Participation, Soul/Psyche. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
 ## Reported-Experience Status
 
 Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only.
 
 The martyr *ideal* — the witness as formation's most complete expression — is central to how this community understands its own formation, and the community genuinely honored it and was shaped by it. But that ideal reaches us mainly through hagiography and martyrology (the martyr-acts, *Perpetua and Felicitas*), which carry the community's belief about what the martyr underwent rather than confident first-person access to it. This section marks that the World Meaning above gives the community's ideal of witness, not a reconstruction of what any particular martyr interiorly experienced; the interior of the martyr is held at Inferential/Thin and is deliberately not narrated from inside.
-
----
-
-## Related-Terms Reciprocity Note
-
-Cross-referenced with Death, Resurrection, Transformation, Participation, Household, Soul/Psyche. **Mutual** (each lists this term back): Death, Household. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Resurrection, Transformation, Participation, Soul/Psyche. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.

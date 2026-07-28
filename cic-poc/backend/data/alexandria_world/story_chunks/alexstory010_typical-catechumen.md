@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          A Typical Catechumen's Formation (Composite, Marked as Reconstruction)
-World-Code:            alex
-Tier:                  4
-Confidence:            Inferential-Thin (labeled reconstruction)
-Source:                COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus), the daily prayer-and-Scripture rhythm (Origen, On Prayer), the festal/Paschal cycle (Athanasius, Festal Letters)
-Retrieve-When:         participant asks what a typical formation in this world actually looked like, day to day and stage to stage — not a specific known person's story, but the shape of the practice as this world's own attested sources describe it.
-Do-Not-Retrieve-When:  participant wants this offered as a specific, named, historically known individual's story — it is not; participant wants this to stand in for the non-literate majority's own interior formation — it explicitly does NOT do this (that remains a named absence, Doc_09 §3); this story must always be introduced as reconstruction, never as remembered history.
+World-Code:           alex
+Tier:                 4
+Confidence:           Inferential-Thin (labeled reconstruction)
+Source:               COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus), the daily prayer-and-Scripture rhythm (Origen, On Prayer), the festal/Paschal cycle (Athanasius, Festal Letters)
+Retrieve-When:        participant asks what a typical formation in this world actually looked like, day to day and stage to stage — not a specific known person's story, but the shape of the practice as this world's own attested sources describe it.
+Do-Not-Retrieve-When: participant wants this offered as a specific, named, historically known individual's story — it is not; participant wants this to stand in for the non-literate majority's own interior formation — it explicitly does NOT do this (that remains a named absence, Doc_09 §3); this story must always be introduced as reconstruction, never as remembered history.
 ```
 
 ---

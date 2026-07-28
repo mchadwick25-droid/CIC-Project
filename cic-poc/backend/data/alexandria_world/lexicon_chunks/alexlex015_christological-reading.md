@@ -4,9 +4,8 @@
 Term:                 Christological Reading
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, DR, TC, RT
 Aliases:              reading toward Christ, reading for the Logos, Christological interpretation, finding Christ in Scripture, reading Scripture Christianly
-Related-Terms:        Logos, Scripture, Allegory, Illumination, Divine Pedagogy
+Related-Terms:        Scripture, Logos, Allegory, Divine Pedagogy, Illumination, Rule of Faith / Regula Fidei, Interpretation
 Retrieve-When:        participant asks how Christians read the Old Testament or what it has to do with Christ, or why a passage that does not obviously mention Christ is read as being about him; participant asks what makes Christian interpretation different from Jewish interpretation, or about typology (how figures and events "point to" Christ); participant asks how Scripture is "about" Christ even before the incarnation; participant uses "reading toward Christ" or asks about Christocentric interpretation.
 Do-Not-Retrieve-When: participant is asking about the allegorical method as a technique (retrieve Allegory, alexlex016); participant is asking about a specific passage rather than the interpretive orientation; participant means Christology in the doctrinal sense rather than the interpretive one.
 ```
@@ -64,3 +63,5 @@ Note: the orientation of reading Scripture toward Christ as the Logos's address,
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with Logos, Scripture, Allegory, Illumination, Divine Pedagogy. **Mutual** (each lists this term back): Scripture, Allegory. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Illumination, Divine Pedagogy. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

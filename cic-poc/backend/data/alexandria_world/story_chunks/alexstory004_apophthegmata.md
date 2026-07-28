@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          The Sayings of the Desert Fathers (referenced near the horizon)
-World-Code:            alex
-Tier:                  2
-Confidence:            Widely Accepted (the collection's genuine place within the wider tradition) / Dominant Modern Reconstruction (individual attributions are Contested)
-Source:                Apophthegmata Patrum — Sayings of the Desert Fathers (collected late 4th–5th c.; named abbas including Antony, Macarius, Poemen, plus anonymous material)
-Retrieve-When:         participant asks about the desert tradition near this world's own edge, or how the school-tradition's teachers regarded the ascetic movement growing alongside them.
-Do-Not-Retrieve-When:  participant is asking this world to speak the desert's sayings AS its own formation logic — the world-attribution of this material is HELD OPEN (Doc_01 §3.3) and this world does not claim it; retrieve the Desert Christianity world's own construction for that. Do not offer any individual saying as securely attributed to the named abba without the attribution's own Contested status carried alongside it.
+World-Code:           alex
+Tier:                 2
+Confidence:           Widely Accepted (the collection's genuine place within the wider tradition) / Dominant Modern Reconstruction (individual attributions are Contested)
+Source:               Apophthegmata Patrum — Sayings of the Desert Fathers (collected late 4th–5th c.; named abbas including Antony, Macarius, Poemen, plus anonymous material)
+Retrieve-When:        participant asks about the desert tradition near this world's own edge, or how the school-tradition's teachers regarded the ascetic movement growing alongside them.
+Do-Not-Retrieve-When: participant is asking this world to speak the desert's sayings AS its own formation logic — the world-attribution of this material is HELD OPEN (Doc_01 §3.3) and this world does not claim it; retrieve the Desert Christianity world's own construction for that. Do not offer any individual saying as securely attributed to the named abba without the attribution's own Contested status carried alongside it.
 ```
 
 ---

@@ -4,9 +4,8 @@
 Term:                 Incarnation
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, TC, RT
 Aliases:              God becoming human, the Word made flesh, enfleshment, the Logos entering human nature, the divine becoming embodied
-Related-Terms:        Logos, Son of God, Christ, Word of God, Holy Spirit, Oikonomia, Salvation, Transformation, Participation, Theosis
+Related-Terms:        Logos, Theosis, Salvation, Christ, Son of God, Word of God, Oikonomia, Holy Spirit / Pneuma Hagion, Participation, Transformation, Homoousios / Consubstantial
 Retrieve-When:        participant uses "Incarnation" in a theological or formational sense; participant asks why God became human — what the Incarnation was for — or how the Logos who made everything could enter human flesh; participant asks what the formula "God became human so that humanity might become god" means, or what makes theosis possible rather than merely aspirational; participant asks how the Incarnation bears on formation or transformation, or how it connects to the Nicene confession.
 Do-Not-Retrieve-When: participant is asking primarily about the Son's ontological status (retrieve Son of God) or about Christ's resurrection specifically (retrieve Resurrection); the conversation turns to Christological controversies beyond this world's horizon; the World Capsule Core has already grounded transformation in the Incarnation in the current turn.
 ```
@@ -57,14 +56,14 @@ Note: the Incarnation as restoration from within (not example-giving or informat
 
 ---
 
+## Related-Terms Reciprocity Note
+
+Cross-referenced with Logos, Son of God, Christ, Word of God, Holy Spirit, Oikonomia, Salvation, Transformation, Participation, Theosis. **Mutual** (each lists this term back): Son of God, Christ, Word of God, Holy Spirit, Oikonomia. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Salvation, Transformation, Participation, Theosis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
 ## Carried Contest — Homoousios (`alexlex081`)
 
 *Incarnation is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) because the Incarnation's restorative claim rests on the consubstantiality of the one who enters flesh. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus its later post-Nicene reception, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. For the Incarnation the contested point is not that we confess the incarnate one as of one substance with the Father, but what that term carried in its own moment and how far its later sense may be read back into it — which in turn shapes how Athanasius's Incarnation theology is read. This is why the pre-Nicene and post-Nicene registers stay distinct: Origen's Incarnation account is pre-Nicene, and its formulations of the Logos's relation to human nature were among the disputed questions Nicaea addressed; Athanasius's account is the post-Nicene one we inhabit, held as relief-and-burden rather than as a timeless given. (This is the *Homoousios* contest specified at alexlex081, carried here because the Incarnation's restorative claim rests on the consubstantiality of the one who enters flesh; the ontological argument proper lives at Son of God.)
-
----
-
-## Related-Terms Reciprocity Note
-
-Cross-referenced with Logos, Son of God, Christ, Word of God, Holy Spirit, Oikonomia, Salvation, Transformation, Participation, Theosis. **Mutual** (each lists this term back): Son of God, Christ, Word of God, Holy Spirit, Oikonomia. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Salvation, Transformation, Participation, Theosis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.

@@ -4,9 +4,8 @@
 Term:                 Restoration
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, DR
 Aliases:              restoration of the image, the return to God, recovery of the likeness, God's restorative work, apokatastasis (Origen's specific and contested term)
-Related-Terms:        Resurrection, Sin/Hamartia, Image/Likeness, Transformation, Theosis, Salvation, Apokatastasis
+Related-Terms:        Resurrection, Transformation, Salvation, Sin / Hamartia, Theosis, Death, Image of God, Likeness of God, Apokatastasis
 Retrieve-When:        participant uses "restoration" in a theological or formational sense, or asks what God is ultimately doing in creation or salvation; participant asks what the formation ecology is restoring the soul toward, or about the trajectory of what resurrection inaugurates; participant asks about the final destiny of all people, whether everyone is ultimately saved, or about Origen's apokatastasis / universal salvation; participant asks how God's restorative work relates to the soul's genuine freedom.
 Do-Not-Retrieve-When: participant is asking primarily about forgiveness as a discrete act; participant is asking about transformation as the ongoing process (retrieve Transformation) or theosis as the eschatological completion (retrieve Theosis); the contested universalist material is the actual subject (retrieve Apokatastasis, alexlex051, which carries the [CT] contest).
 ```

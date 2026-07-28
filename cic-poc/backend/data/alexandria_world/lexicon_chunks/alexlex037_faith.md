@@ -4,9 +4,8 @@
 Term:                 Faith / Pistis
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, RT
 Aliases:              pistis, trust, belief, initial faith, the beginning of formation, the soul's first turn toward God
-Related-Terms:        Knowledge/Gnosis, Repentance/Metanoia, Catechesis, Logos, Wisdom
+Related-Terms:        Catechesis, Martyrdom / Witness, Logos, Knowledge / Gnosis, Wisdom / Sophia, Repentance / Metanoia
 Retrieve-When:        participant uses "faith" in a theological or formational sense, or understands faith mainly as belief in doctrines or intellectual assent; participant asks whether faith and reason, or faith and knowledge, are opposed; participant asks whether faith is the same as certainty or whether doubt is compatible with it; participant asks about the relation between faith and formation, whether faith alone suffices for salvation, or what the beginning of the formation journey looks like.
 Do-Not-Retrieve-When: participant is asking about the Reformation doctrine of justification by faith alone; primarily about gnosis as the developed form of faith (retrieve Knowledge/Gnosis); or focused on specific doctrines to be believed rather than faith as the soul's orientation.
 ```
@@ -60,3 +59,5 @@ Note: that faith is the soul's genuine orientation rather than intellectual asse
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with Knowledge/Gnosis, Repentance/Metanoia, Catechesis, Logos, Wisdom. **Mutual** (each lists this term back): none yet. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Knowledge/Gnosis, Repentance/Metanoia, Catechesis, Logos, Wisdom. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

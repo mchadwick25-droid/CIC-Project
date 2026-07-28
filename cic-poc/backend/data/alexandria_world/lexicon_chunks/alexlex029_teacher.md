@@ -4,9 +4,8 @@
 Term:                 Teacher / Didaskalos
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, RT
 Aliases:              didaskalos, the teacher, Christian teacher, spiritual guide, formation guide, the wise teacher, catechist
-Related-Terms:        Bishop/Episkopos, Rule of Faith, Divine Pedagogy, Wisdom, Knowledge/Gnosis, Catechesis
+Related-Terms:        Wisdom / Sophia, Bishop / Episkopos, Rule of Faith / Regula Fidei, Divine Pedagogy, Catechesis, Knowledge / Gnosis, Interpretation, Church / Ekklesia, Catechetical School / Didaskaleion
 Retrieve-When:        participant asks what the teacher does in this world's formation, or what makes a teacher authoritative here; participant asks about Clement or Origen as teachers and what kind of authority they carried; participant asks how teacher authority relates to bishop authority, or how teaching here differs from delivering information; participant uses "didaskalos" or "teacher" in the context of Christian formation; conversation reaches who carried the school's teaching tradition.
 Do-Not-Retrieve-When: participant is asking primarily about the bishop's formation function (retrieve Bishop); about catechesis as the process the teacher governs (retrieve Catechesis); about what constrains teacher authority (retrieve Rule of Faith); or the World Capsule Core has already surfaced the Teacher–Bishop tension this turn.
 ```
@@ -57,6 +56,12 @@ Note: that the teacher's authority is recognized rather than positional, and tha
 
 ---
 
+## Related-Terms Reciprocity Note
+
+Cross-referenced with Bishop/Episkopos, Rule of Faith, Divine Pedagogy, Wisdom, Knowledge/Gnosis, Catechesis. **Mutual** (each lists this term back): Bishop/Episkopos, Rule of Faith. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Divine Pedagogy, Wisdom, Knowledge/Gnosis, Catechesis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
 ## Carried Contest — the Didaskaleion / Catechetical-School (`alexlex059`)
 
 The teacher is where a participant most directly meets a contest that is *governed elsewhere*. **Teacher is not itself one of this world's firm contested-tradition terms** (those are the six: Apokatastasis, Nous, Logikos, Fall/Descent, Homoousios, Catechetical-School/Didaskaleion). It surfaces the **Didaskaleion / Catechetical-School** contest — carried as the firm [CT] term `alexlex059`, contest type **Historical scope** — because the institutional-school question is felt most directly at the figure of the teacher.
@@ -64,9 +69,3 @@ The teacher is where a participant most directly meets a contest that is *govern
 The contest (per `alexlex059` / Doc_01 §1.2): it is genuinely disputed whether the Alexandrian *didaskaleion* was a formal institution with a continuous teaching succession, or a looser teaching tradition retrospectively formalized by Eusebius. Van den Broek (1995) and van den Hoek (1997) deny a formal institution before Origen; Scholten (1995) affirms an institution but as a theological school rather than a catechumen-training school. Eusebius, the main source for the succession, carries HIGH Author-Gravity risk.
 
 This chunk therefore does not assert a settled, orderly institution behind the teacher. What is well-attested is the *kind* of authority the teacher held — grounded in demonstrated wisdom and enacted as accompaniment — and that authority does not depend on the institutional question being resolved. The Teacher–Bishop authority tension is a genuine tension in this world and is held open here, not resolved: the post-Nicene configuration shifts the balance decisively toward episcopal governance without dissolving the teacher's distinct ground.
-
----
-
-## Related-Terms Reciprocity Note
-
-Cross-referenced with Bishop/Episkopos, Rule of Faith, Divine Pedagogy, Wisdom, Knowledge/Gnosis, Catechesis. **Mutual** (each lists this term back): Bishop/Episkopos, Rule of Faith. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Divine Pedagogy, Wisdom, Knowledge/Gnosis, Catechesis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.

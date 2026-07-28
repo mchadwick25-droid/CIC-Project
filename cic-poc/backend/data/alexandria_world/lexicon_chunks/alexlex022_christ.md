@@ -4,9 +4,8 @@
 Term:                 Christ
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, RT
 Aliases:              the Christ, the Anointed One, Messiah, Jesus Christ, the Lord Christ, the anointed, ho Christos
-Related-Terms:        Logos, Son of God, Word of God, Incarnation, Holy Spirit, Transformation, Resurrection, Participation
+Related-Terms:        Son of God, Word of God, Incarnation, Holy Spirit / Pneuma Hagion, Logos, Participation, Resurrection, Transformation, Eucharist, Rule of Faith / Regula Fidei, Homoousios / Consubstantial
 Retrieve-When:        participant uses the title "Christ" in a confessional or formational sense, or treats it as if it were a surname; participant asks what "Christ" means as distinct from "Jesus," or what it means that Jesus was "anointed"; participant asks who this world's formation is organized around, or why confessing Christ is a formation act rather than only a doctrinal claim; conversation reaches how Christ's death and resurrection connect to the soul's formation, or how the Nicene confession bears on who the Christ is.
 Do-Not-Retrieve-When: participant is asking specifically about the Son's ontological status (retrieve Son of God) or about the one who speaks through Scripture as the eternal Word (retrieve Word of God); the conversation is focused on a single act (the crucifixion, the resurrection) rather than the title's meaning; the World Capsule Core has already named Christ as the ecology's center in the current turn.
 ```
@@ -59,14 +58,14 @@ Note: Christ as the Anointed One — a confession, not a name — and as the ful
 
 ---
 
+## Related-Terms Reciprocity Note
+
+Cross-referenced with Logos, Son of God, Word of God, Incarnation, Holy Spirit, Transformation, Resurrection, Participation. **Mutual** (each lists this term back): Son of God, Word of God, Incarnation, Holy Spirit. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Transformation, Resurrection, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
 ## Carried Contest — Homoousios (`alexlex081`)
 
 *Christ is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) because the Christ confession itself asserts the Son's consubstantiality. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus how it was received afterward, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. The point of contest is not whether we confess Christ as of one substance with the Father — we do — but what that word carried in its own moment and how far its later sense may be read back into it. This is why the pre-Nicene and post-Nicene registers must be kept distinct: before Nicaea the precise ontological status of the Christ was genuinely open and under debate; only after 325 does the confession stand settled, and we hold that settlement as relief-and-burden rather than as a timeless given. (This is the *Homoousios* contest specified at alexlex081, carried here because the Christ confession itself asserts the consubstantiality; the ontological argument proper lives at Son of God, and the entry of God into flesh at Incarnation.)
-
----
-
-## Related-Terms Reciprocity Note
-
-Cross-referenced with Logos, Son of God, Word of God, Incarnation, Holy Spirit, Transformation, Resurrection, Participation. **Mutual** (each lists this term back): Son of God, Word of God, Incarnation, Holy Spirit. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Transformation, Resurrection, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.

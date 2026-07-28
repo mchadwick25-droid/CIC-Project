@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          The Origen–Demetrius Conflict
-World-Code:            alex
-Tier:                  3
-Confidence:            Contested / Inferential-Thin (particulars)
-Source:                Eusebius, Historia Ecclesiastica 6 (Origen's departure to Caesarea c. 231–234 CE; Demetrius's condemnation)
-Retrieve-When:         participant asks about T1 (the Teacher–Bishop tension) with a concrete, named example; participant asks what happened when a teacher's authority and a bishop's authority pulled against each other in this world's own life.
-Do-Not-Retrieve-When:  participant wants the specific charges and proceedings narrated as settled, secure fact — the particulars are Eusebius-mediated and thin; participant wants this resolved into a verdict about who was right — the tension this story carries is meant to be held, not settled.
+World-Code:           alex
+Tier:                 3
+Confidence:           Contested / Inferential-Thin (particulars)
+Source:               Eusebius, Historia Ecclesiastica 6 (Origen's departure to Caesarea c. 231–234 CE; Demetrius's condemnation)
+Retrieve-When:        participant asks about T1 (the Teacher–Bishop tension) with a concrete, named example; participant asks what happened when a teacher's authority and a bishop's authority pulled against each other in this world's own life.
+Do-Not-Retrieve-When: participant wants the specific charges and proceedings narrated as settled, secure fact — the particulars are Eusebius-mediated and thin; participant wants this resolved into a verdict about who was right — the tension this story carries is meant to be held, not settled.
 ```
 
 ---

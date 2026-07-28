@@ -4,9 +4,8 @@
 Term:                 Resurrection
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, RT
 Aliases:              the resurrection, rising from death, anastasis, resurrection of the body, resurrection life
-Related-Terms:        Death, Sin/Hamartia, Restoration, Transformation, Participation, Theosis, Salvation, Logos
+Related-Terms:        Death, Logos, Restoration, Transformation, Salvation, Participation, Theosis, Sin / Hamartia, Christ, Baptism, Eucharist, Martyrdom / Witness, Hope / Elpis
 Retrieve-When:        participant uses "resurrection" in a theological or formational sense, or asks what Christ's resurrection accomplishes; participant asks whether the body matters to salvation, what reverses death, or how salvation differs from the soul escaping the body; participant asks about bodily resurrection, or about Easter/Pascha in terms of its meaning beyond the event; participant asks how resurrection relates to formation and the ongoing transformation of the soul.
 Do-Not-Retrieve-When: participant is asking about resurrection primarily as a historical-apologetics question; participant is asking about the afterlife or survival of the soul in general terms; the conversation is about Pascha as a liturgical event rather than resurrection's theological meaning.
 ```

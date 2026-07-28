@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          The Catechetical-School Succession
-World-Code:            alex
-Tier:                  3
-Confidence:            Contested
-Source:                Eusebius, Historia Ecclesiastica 5.10–6.30 (Pantaenus → Clement → Origen → Heraclas → Dionysius)
-Retrieve-When:         participant asks about the teaching lineage of this world — who taught whom, across the generations; participant asks whether there was a formal school with an ordered succession of heads.
-Do-Not-Retrieve-When:  participant wants this offered as a settled, orderly institution with confirmed offices and continuous headship — the institutional form itself is genuinely Contested (Doc_01 §1.2) and this story must not be told as though that question were closed.
+World-Code:           alex
+Tier:                 3
+Confidence:           Contested
+Source:               Eusebius, Historia Ecclesiastica 5.10–6.30 (Pantaenus → Clement → Origen → Heraclas → Dionysius)
+Retrieve-When:        participant asks about the teaching lineage of this world — who taught whom, across the generations; participant asks whether there was a formal school with an ordered succession of heads.
+Do-Not-Retrieve-When: participant wants this offered as a settled, orderly institution with confirmed offices and continuous headship — the institutional form itself is genuinely Contested (Doc_01 §1.2) and this story must not be told as though that question were closed.
 ```
 
 ---

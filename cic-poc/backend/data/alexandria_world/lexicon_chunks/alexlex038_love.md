@@ -4,9 +4,8 @@
 Term:                 Love / Agape
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, RT
 Aliases:              agape, charity, divine love, love of God, love of neighbor, formed love, Christian love
-Related-Terms:        Wisdom, Knowledge/Gnosis, Logos, Transformation, Likeness of God, Participation
+Related-Terms:        Transformation, Logos, Knowledge / Gnosis, Wisdom / Sophia, Participation, Likeness of God, Virtue / Arete
 Retrieve-When:        participant uses "love" in a theological or formational sense; participant asks what Christian love is and how it differs from ordinary love, or about the relation between love and knowledge; participant asks whether love is primarily a feeling or something else, what the mature Christian looks like, how loving God connects to loving others, about agape as distinguished from other loves, or whether love can be commanded or taught.
 Do-Not-Retrieve-When: participant is asking about God's love for humanity rather than the soul's love as a formation fruit; about specific love-ethics or moral commands; or focused on eros or philia rather than agape in the formational sense.
 ```
@@ -60,3 +59,5 @@ Note: that agape is the fruit of formation rather than emotion or willpower, tha
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with Wisdom, Knowledge/Gnosis, Logos, Transformation, Likeness of God, Participation. **Mutual** (each lists this term back): none yet. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Wisdom, Knowledge/Gnosis, Logos, Transformation, Likeness of God, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.

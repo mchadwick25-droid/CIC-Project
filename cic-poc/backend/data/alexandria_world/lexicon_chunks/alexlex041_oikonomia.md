@@ -4,9 +4,8 @@
 Term:                 Oikonomia
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, TC
 Aliases:              economy of salvation, divine economy, God's plan, the dispensation, the arrangement, God's governance, the plan of salvation
-Related-Terms:        Logos, Incarnation, Salvation, Divine Pedagogy, Mystery, Transformation
+Related-Terms:        Divine Pedagogy, Incarnation, Mystery / Mysterion, Logos, Transformation, Salvation
 Retrieve-When:        participant uses "oikonomia," "economy," or "dispensation" in a theological sense; participant asks about God's plan or purpose in creation and salvation, or about the overall shape of what God is doing in history; participant asks how the Old and New Testaments fit together, or how creation and redemption relate; participant asks why God arranged salvation as it did — through the Incarnation, gradually, over time — or how this world's formation fits a larger picture.
 Do-Not-Retrieve-When: participant is asking about economic life in the practical sense, or about church governance rather than God's salvific governance; participant is asking about the Incarnation as a specific event (retrieve Incarnation); the World Capsule Core has already named the encompassing plan of salvation in the current turn.
 ```

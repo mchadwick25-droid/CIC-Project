@@ -4,9 +4,8 @@
 Term:                 Son of God
 World-Code:           alex
 Tier:                 1
-Tags:                 SC, DR, TC
 Aliases:              the Son, the eternal Son, Son of the Father, only-begotten Son, the divine Son, ho Huios
-Related-Terms:        Logos, Christ, Word of God, Incarnation, Holy Spirit, Theosis, Participation
+Related-Terms:        Christ, Theosis, Word of God, Incarnation, Holy Spirit / Pneuma Hagion, Logos, Participation, Rule of Faith / Regula Fidei, Homoousios / Consubstantial
 Retrieve-When:        participant uses "Son of God" or "the Son" in a theological or formational sense; participant asks what it means that Jesus is "divine" or "God," or whether he was God or only "like God" or "close to God"; participant asks what was at stake at Nicaea, or about the relationship between the Son and the Father; participant meets the Arian position (the Son as highest creature) and asks about it; participant asks why the precise claim matters for formation — why it is not enough that Jesus was very holy — or how it bears on theosis.
 Do-Not-Retrieve-When: participant is asking primarily about the Christ as the Anointed (retrieve Christ) or about the Son's speech-character in creation and Scripture (retrieve Word of God); the participant is asking about the Trinity in terms of the Spirit's role rather than the Son's; the World Capsule Core has already settled the Son's divinity in the current turn.
 ```
@@ -61,14 +60,14 @@ Note: the Son of God as ontological claim (genuinely God, not the highest creatu
 
 ---
 
+## Related-Terms Reciprocity Note
+
+Cross-referenced with Logos, Christ, Word of God, Incarnation, Holy Spirit, Theosis, Participation. **Mutual** (each lists this term back): Christ, Word of God, Incarnation, Holy Spirit. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Theosis, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
 ## Carried Contest — Homoousios (`alexlex081`)
 
 *Son of God is not itself one of this world's six firm contested-tradition terms; it **surfaces** the governed **Homoousios** contest (`alexlex081`) — it is the term that carries the consubstantiality argument most directly. The contest content is stated here for retrieval; the contest is governed at `alexlex081`.*
 
 **Historical scope + Meaning.** The contest concerns what "consubstantial" (*homoousios*) meant to the Nicene bishops in 325 versus its later post-Nicene reception, and it bears directly on how Athanasius's usage is read; it is temporally located after 325. What is contested is not that we confess the Son as of one substance with the Father, but what that term carried in its own moment — how precisely it was fixed at 325, and how far its later, fuller sense may be read back into the bishops' intent. This is why the pre-Nicene and post-Nicene registers stay distinct: before 325 the Son's precise ontological status was genuinely open and argued; only after does the confession stand settled, held here as relief-and-burden. (This is the *Homoousios* contest specified at alexlex081; Son of God is the term that carries the consubstantiality argument most directly, which is why the contest is stated in full here.)
-
----
-
-## Related-Terms Reciprocity Note
-
-Cross-referenced with Logos, Christ, Word of God, Incarnation, Holy Spirit, Theosis, Participation. **Mutual** (each lists this term back): Christ, Word of God, Incarnation, Holy Spirit. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Theosis, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.

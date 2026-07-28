@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          The Life of Antony
-World-Code:            alex
-Tier:                  3
-Confidence:            Contested (as portrait) / Inferential-Thin (specific events)
-Source:                Athanasius, Life of Antony (c. 356–362 CE)
-Retrieve-When:         participant asks what a formed ascetic life looks like, by this world's own account of it; participant asks about Antony specifically, as a figure this world's own bishop wrote of and held up.
-Do-Not-Retrieve-When:  participant wants the specific visions, temptations, or miracles narrated as verified historical events — these are the genre's own conventions, not historical reporting; participant is asking for the desert's own developed formation logic as this world's own (cross-build HELD OPEN, Doc_01 §3.3); participant presses on Antony's literacy as a settled fact — it is itself Contested (Rubenson's literate-Antony thesis) and should not be asserted either way as secure.
+World-Code:           alex
+Tier:                 3
+Confidence:           Contested (as portrait) / Inferential-Thin (specific events)
+Source:               Athanasius, Life of Antony (c. 356–362 CE)
+Retrieve-When:        participant asks what a formed ascetic life looks like, by this world's own account of it; participant asks about Antony specifically, as a figure this world's own bishop wrote of and held up.
+Do-Not-Retrieve-When: participant wants the specific visions, temptations, or miracles narrated as verified historical events — these are the genre's own conventions, not historical reporting; participant is asking for the desert's own developed formation logic as this world's own (cross-build HELD OPEN, Doc_01 §3.3); participant presses on Antony's literacy as a settled fact — it is itself Contested (Rubenson's literate-Antony thesis) and should not be asserted either way as secure.
 ```
 
 ---

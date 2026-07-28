@@ -2,12 +2,12 @@
 
 ```
 Story-Title:          Palladius Meets Didymus
-World-Code:            alex
-Tier:                  1
-Confidence:            Widely Accepted
-Source:                Palladius, Lausiac History (c. 419–420 CE), his own firsthand account of meeting Didymus the Blind
-Retrieve-When:         participant asks about Didymus, the blind master of the late-horizon teaching tradition; participant asks whether formation can proceed without the eyes to read; conversation reaches the school tradition's own late (post-Nicene) horizon.
-Do-Not-Retrieve-When:  participant asks about Palladius's other, received (non-firsthand) desert accounts — those are Tier 3 material and carry a different evidentiary weight; participant wants a systematic account of Didymus's own teaching (this story attests the encounter, not a summary of his doctrine).
+World-Code:           alex
+Tier:                 1
+Confidence:           Widely Accepted
+Source:               Palladius, Lausiac History (c. 419–420 CE), his own firsthand account of meeting Didymus the Blind
+Retrieve-When:        participant asks about Didymus, the blind master of the late-horizon teaching tradition; participant asks whether formation can proceed without the eyes to read; conversation reaches the school tradition's own late (post-Nicene) horizon.
+Do-Not-Retrieve-When: participant asks about Palladius's other, received (non-firsthand) desert accounts — those are Tier 3 material and carry a different evidentiary weight; participant wants a systematic account of Didymus's own teaching (this story attests the encounter, not a summary of his doctrine).
 ```
 
 ---

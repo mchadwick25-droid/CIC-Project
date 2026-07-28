@@ -4,9 +4,8 @@
 Term:                 Nous
 World-Code:           alex
 Tier:                 1
-Tags:                 AS, TC, PV, CT
 Aliases:              intellect, mind, spiritual intellect, the mind's eye, higher mind, contemplative faculty
-Related-Terms:        Image of God, Soul/Psyche, Illumination, Knowledge/Gnosis, Likeness of God
+Related-Terms:        Soul / Psyche, Illumination, Repentance / Metanoia, Image of God, Likeness of God, Knowledge / Gnosis, Scripture, Allegory, Prayer, Interpretation, Apokatastasis, Fall / Descent, Logikos / Rational Nature
 Retrieve-When:        participant uses "nous," "intellect," or "the mind" in a spiritual sense; participant asks what faculty perceives God, or hears "intellect" as ordinary reasoning; conversation reaches contemplation, the image of God as the soul's highest part, or Origen's account of the soul and its contested status.
 Do-Not-Retrieve-When: the participant means "mind" in a modern cognitive-science sense with no bearing on contemplative perception; the participant is asking specifically about Evagrian ascetic theology (that layer is desert-attributed — see below).
 ```
@@ -51,12 +50,12 @@ Clement of Alexandria, *Stromateis* V–VII. Origen, *On First Principles* I–I
 
 ---
 
-## CT Contest Type
-
-**Meaning.** The contest concerns what the term meant in its own context — specifically, whether Origen's *own* speculative account of the nous (the nous as the soul's original state; pre-existence; universal return) is the *same* theological position as the propositions condemned at the Second Council of Constantinople (553 CE). Patristics specialists are genuinely divided: some read the condemned "Origenism" as a later, distorting systematization not identical to Origen's own thought; others read meaningful continuity. The dispute is unresolved. Note precisely what is and is not contested: the *broadly-attested* account of the nous as the soul's contemplative faculty is **not** contested; only the continuity of Origen's speculative extension with the condemned propositions is. (This is the same *Meaning* contest carried by Apokatastasis, to which it is theologically linked.)
-
----
-
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with Image of God, Soul/Psyche, Illumination, Knowledge/Gnosis, Likeness of God. **Mutual** (each lists this term back): Image of God, Soul/Psyche, Likeness of God. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Illumination, Knowledge/Gnosis. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
+
+---
+
+## CT Contest Type
+
+**Meaning.** The contest concerns what the term meant in its own context — specifically, whether Origen's *own* speculative account of the nous (the nous as the soul's original state; pre-existence; universal return) is the *same* theological position as the propositions condemned at the Second Council of Constantinople (553 CE). Patristics specialists are genuinely divided: some read the condemned "Origenism" as a later, distorting systematization not identical to Origen's own thought; others read meaningful continuity. The dispute is unresolved. Note precisely what is and is not contested: the *broadly-attested* account of the nous as the soul's contemplative faculty is **not** contested; only the continuity of Origen's speculative extension with the condemned propositions is. (This is the same *Meaning* contest carried by Apokatastasis, to which it is theologically linked.)
