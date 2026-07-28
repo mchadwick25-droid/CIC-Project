@@ -76,22 +76,7 @@ world_meaning: 'The Spirit is not a visitor. This is the first and most importan
   We confess the Spirit as genuinely God, not a creature — and in our own time that confession is under
   pressure, defended most fully by Athanasius, in the same period and with the same weight as the defense
   of the Son. We hold it as we hold the confession of the Son: securely, and with the memory that it costs
-  something to hold.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Spirit is the primary agent through whom the transformation
-  gravity is operative in the soul — the divine person who makes our claims about transformation, illumination,
-  and participation actual rather than aspirational. It anchors the operative agency of transformation
-  (the transformation the practices work in the soul is the Spirit''s work through them, not their automatic
-  result nor the community''s collective achievement); it anchors Scripture''s depth-dimension (the Spirit
-  both placed the depths there and opens the formed nous to receive them — inspiration and illumination
-  are two dimensions of one work); it is illumination''s agent (opening the soul''s perceptive capacity
-  through the catechetical, sacramental, and scriptural practices); and it grounds the continuity of our
-  formation (because the Spirit is always-present rather than occasionally present, the practices are
-  always the Spirit''s instruments — the work is not interrupted between special moments). The Spirit
-  is confessed alongside the Logos and the Father, so the transformation the Spirit works is a genuine
-  share in divine life, on the same ground the Son of God and Christ entries confess.'
+  something to hold.'
 distortion_risk: '**World Hearing:**
 
   The Spirit is not an occasional visitor who enhances special moments; the Spirit is the agent through
@@ -160,6 +145,49 @@ modern_hearing: '**Modern Hearing:**
   Spirit''s visits. The liberal hearing: the Spirit is a vague sense of divine presence — the feeling
   of inspiration, a community''s shared energy, the reach toward transcendence — more metaphor than agent.
   Both assume the Spirit is present in special experiences and possibly absent from ordinary formation.'
+period_sense: 'Not an occasional presence at special moments - the always-present agent of formation''s
+  transformative work: illumining perception, working the soul''s reorientation; the divine person who
+  makes the world''s claims about transformation operative rather than aspirational (chunk Quick/World
+  Meaning and EF).'
+prior_sense: Ordinary Greek pneuma, breath/wind/spirit - noted from standard lexica, UNVERIFIED against
+  a registry source; the world's own post-Nicene defense of the Spirit's full divinity (Athanasius's Letters
+  to Serapion) is carried in the chunks' Key Sources.
+modern_sense: 'Two opposite hearings: the charismatic (mainly present in extraordinary manifestations)
+  and the functional-absence reading (chunk Modern Hearing).'
+conceptual_distance_note: 'Both modern hearings make the Spirit episodic; the world''s Spirit is the agent
+  of the ordinary, continuous work (chunk World Hearing). Sharp tempo inversion: high grounding criterion
+  by rule.'
+semantic_domain: divine-agency
+grounding_criterion: high
+voice_surface: The Spirit is not a visitor. The Spirit does not drop in on special occasions, produce
+  a manifestation, and depart until the next visitation. The Spirit is the one through whom our ordinary,
+  continuous work happens.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: mechanism-behind
+  target_id: alexlex021
+  note: 'The agent through whom the transformation gravity is operative in the soul (chunk EF). Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): The Spirit is the primary agent through whom
+    the transformation gravity is operative in the soul — the divine person who makes our claims about
+    transformation, illumination, and participation actual rather than aspirational. It anchors the operative
+    agency of transformation (the transformation the practices work in the soul is the Spirit''s work
+    through them, not their automatic result nor the community''s collective achievement); it anchors
+    Scripture''s depth-dimension (the Spirit both placed the depths there and opens the formed nous to
+    receive them — inspiration and illumination are two dimensions of one work); it is illumination''s
+    agent (opening the soul''s perceptive capacity through the catechetical, sacramental, and scriptural
+    practices); and it grounds the continuity of our formation (because the Spirit is always-present rather
+    than occasionally present, the practices are always the Spirit''s instruments — the work is not interrupted
+    between special moments). The Spirit is confessed alongside the Logos and the Father, so the transformation
+    the Spirit works is a genuine share in divine life, on the same ground the Son of God and Christ entries
+    confess.'
+- type: presupposed-by
+  target_id: alexlex021
+  note: 'Typed mirror: transformation-as-operative presupposes the Spirit''s agency (chunk EF).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex044_holy-spirit.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -163,6 +163,9 @@ field_relations:
 - type: presupposes
   target_id: alexlex014
   note: The depths reached are Scripture's own - the method presupposes the address (chunk EF).
+- type: presupposes
+  target_id: alexlex035
+  note: The method works within the formation discipline (alexlex035 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex016_allegory.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

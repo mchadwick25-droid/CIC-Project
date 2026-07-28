@@ -61,21 +61,7 @@ world_meaning: 'Among us, love cannot be commanded into existence, and this is n
   whole life is at the same time the object of the soul''s deepest desire — the one toward whom every
   stage of formation has been turning the soul. Love is the name for what the soul''s genuine orientation
   toward the Logos looks like once formation has deepened it enough. So agape is not aimed at an abstraction;
-  it is aimed at the one already present in every genuine encounter our formation gives.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Love is the visible fruit of the formation sequence — what transformation
-  looks like once it has genuinely worked in the soul''s relation to God and to others. It anchors the
-  sequence''s visible evidence (wisdom is how we discern whether formation has occurred, and love is what
-  wisdom produces in the soul''s relationships — together they are formation''s most visible fruit, present
-  in the genuinely formed and merely counterfeited by those who display their appearance without their
-  substance); the gnosis-and-love inseparability (the knowledge in question is participatory rather than
-  propositional, so the soul that genuinely knows God genuinely loves God — one thing, not two); the relational
-  expression of the Likeness of God (love is what growing into the likeness looks like in concrete relationships);
-  and the connection to participation (love is what the soul''s genuine share in the Logos''s life looks
-  like in its active life — the divine love that is the Logos''s own character expressed through the soul
-  that participates in him).'
+  it is aimed at the one already present in every genuine encounter our formation gives.'
 distortion_risk: '**World Hearing:**
 
   Agape is neither a feeling nor a psychological capacity. It is what the soul naturally expresses once
@@ -137,6 +123,41 @@ modern_hearing: '**Modern Hearing:**
   hearing treats love as a relational capacity cultivated through psychological work — more securely attached,
   more capable of intimacy, less defended — closer in some ways but locating the change in psychological
   process rather than in the soul''s formation toward God.'
+period_sense: 'Agape - not primarily a feeling but the fruit of genuine formation: what wisdom looks like
+  in the soul''s relation to God and others once transformation has done its work; it cannot be commanded
+  into existence (chunk Quick/World Meaning).'
+prior_sense: Ordinary Greek agapan/agape, to treat with regard - noted from standard lexica, UNVERIFIED
+  against a registry source; the world's own scriptural grounding (1 Corinthians 13, 1 John 4) is carried
+  in the chunk's Key Sources.
+modern_sense: First an emotion - warmth, affection, attachment rising toward particular people (chunk
+  Modern Hearing).
+conceptual_distance_note: 'Modern love is a feeling that arises; agape is what a formed soul naturally
+  expresses - fruit, not affect (chunk World Hearing). Sharp relocation: high grounding criterion by rule.'
+semantic_domain: formation-fruit
+grounding_criterion: high
+voice_surface: Love cannot be commanded into existence, and this is not a pastoral failure but a truth
+  about what love is. Agape is what the soul naturally expresses once formation has genuinely worked.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex021
+  note: 'The fruit of transformation''s work in the soul (chunk EF). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Love is the visible fruit of the formation sequence — what transformation
+    looks like once it has genuinely worked in the soul''s relation to God and to others. It anchors the
+    sequence''s visible evidence (wisdom is how we discern whether formation has occurred, and love is
+    what wisdom produces in the soul''s relationships — together they are formation''s most visible fruit,
+    present in the genuinely formed and merely counterfeited by those who display their appearance without
+    their substance); the gnosis-and-love inseparability (the knowledge in question is participatory rather
+    than propositional, so the soul that genuinely knows God genuinely loves God — one thing, not two);
+    the relational expression of the Likeness of God (love is what growing into the likeness looks like
+    in concrete relationships); and the connection to participation (love is what the soul''s genuine
+    share in the Logos''s life looks like in its active life — the divine love that is the Logos''s own
+    character expressed through the soul that participates in him).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex038_love.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

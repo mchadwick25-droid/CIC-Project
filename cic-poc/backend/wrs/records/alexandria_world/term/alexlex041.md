@@ -62,22 +62,7 @@ world_meaning: '*Oikonomia* — literally the governance of a household (*oikos*
   patience with creatures requires and God''s wisdom about them designs. The long arc from creation through
   the prophets through the Incarnation through our own formation toward the end is the *oikonomia* unfolding
   at the pace of genuine formation — the divine Teacher teaching at the rate that genuine reception, in
-  genuine freedom, takes.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Oikonomia is the encompassing frame within which this world''s
-  formation takes part — God''s overall governance of the plan of salvation, of which the formation is
-  a local, present expression. It anchors formation''s larger purpose (our formation is not self-enclosed;
-  every practice is a share in the one arrangement by which the Logos restores what sin damaged); it gives
-  the Logos-centered unity of the ecology its historical and eschatological depth (the Logos who integrates
-  the practices is the same Logos whose economy spans creation, the Incarnation, and the end); it grounds
-  the coherence of the two Testaments (they form one canon because one economy unfolds across both — the
-  formation the prophets required of Israel is continuous with the formation the Incarnation makes possible);
-  and it grounds the graduated character of the formation sequence (God forms individuals step by step
-  for the same reason God has formed humanity step by step — because genuine reception in genuine freedom
-  takes time, and the economy is ordered by patience rather than imposition). Its pivotal moment is the
-  Incarnation; seen as depth rather than as arrangement, the same reality is *mystery*.'
+  genuine freedom, takes.'
 distortion_risk: '**World Hearing:**
 
   Oikonomia names God''s household governance — the overall arrangement by which God governs creation
@@ -138,6 +123,43 @@ modern_hearing: '**Modern Hearing:**
   takes "economy" as the "economic Trinity" versus the "immanent Trinity" — God as revealed in salvation
   history versus God as God is in Godself. That is a real distinction, but far more technical than what
   *oikonomia* names here.'
+period_sense: 'Oikonomia - household governance - God''s overall governance of the plan of salvation:
+  the encompassing arrangement God''s saving work follows, not a rescue improvised after something went
+  wrong; formation is a local share in it (chunk Quick/World Meaning and EF).'
+prior_sense: 'The chunk''s own etymology: oikos + nomos, the ordinary Greek governance of a household
+  - the received sense the theological usage extends.'
+modern_sense: '''Economy'' as the financial economy - production, distribution, consumption (chunk Modern
+  Hearing).'
+conceptual_distance_note: 'The modern economy is markets; the world''s oikonomia is God''s household governance
+  of creation toward its saving purpose (chunk World Hearing). Sharp semantic drift: high grounding criterion
+  by rule.'
+semantic_domain: divine-agency
+grounding_criterion: high
+voice_surface: Oikonomia - the governance of a household - is our word for the encompassing plan God's
+  saving work follows. Not a plan devised after something went wrong, as though God improvised a rescue.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex002
+  note: 'The economy''s graduated character mirrors the divine pedagogy (chunk WM/Key Sources). Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): Oikonomia is the encompassing frame within
+    which this world''s formation takes part — God''s overall governance of the plan of salvation, of
+    which the formation is a local, present expression. It anchors formation''s larger purpose (our formation
+    is not self-enclosed; every practice is a share in the one arrangement by which the Logos restores
+    what sin damaged); it gives the Logos-centered unity of the ecology its historical and eschatological
+    depth (the Logos who integrates the practices is the same Logos whose economy spans creation, the
+    Incarnation, and the end); it grounds the coherence of the two Testaments (they form one canon because
+    one economy unfolds across both — the formation the prophets required of Israel is continuous with
+    the formation the Incarnation makes possible); and it grounds the graduated character of the formation
+    sequence (God forms individuals step by step for the same reason God has formed humanity step by step
+    — because genuine reception in genuine freedom takes time, and the economy is ordered by patience
+    rather than imposition). Its pivotal moment is the Incarnation; seen as depth rather than as arrangement,
+    the same reality is *mystery*.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex041_oikonomia.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

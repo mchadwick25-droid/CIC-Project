@@ -66,20 +66,7 @@ world_meaning: 'Ekklesia means the called-out assembly — not a building, not a
   in the community''s formation life belongs only nominally. A catechumen not yet baptized but genuinely
   sharing in the community''s formation — hearing Scripture, praying with us, being formed by the catechesis
   — is more fully within the church than the merely nominal member. Belonging is constituted by genuine
-  participation, not by registration.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The church is the formation community within which the whole ecology
-  operates — the environment in which the soul''s formation toward God occurs and which the Primary gravities
-  organize. It anchors formation''s communal necessity (the ecology is the community''s shared life, not
-  a set of private practices reported back to the community); the Eucharist''s community-constituting
-  function (the church is constituted by the recurring, enacted participation in the Logos''s self-giving
-  — remove it and the church is a voluntary association); the ecclesial form of the Teacher–Bishop tension
-  (both the school''s community and the whole gathered community are the ekklesia, and the tension between
-  them is the church''s live structural reality); and the carrying of the Rule of Faith across generations
-  (the church is the community that carries the Rule, and the Rule is what marks its continuity through
-  time).'
+  participation, not by registration.'
 distortion_risk: '**World Hearing:**
 
   The ekklesia is the assembly, not its location, and a formation community, not a voluntary association
@@ -133,6 +120,43 @@ modern_hearing: '**Modern Hearing:**
   people who share beliefs. Even the more sophisticated hearing — the church as the body of Christ, the
   people of God — can be held abstractly, as a fine theological concept laid over what is functionally
   still an institution.'
+period_sense: Ekklesia, the called-out assembly - not a building or an institution with a membership roll
+  but the formation community gathered around the Logos who gives himself to be shared; the environment
+  within which the whole ecology operates (chunk Quick/World Meaning and EF).
+prior_sense: 'The chunk''s own etymology: ekklesia, the called-out assembly - the ordinary Greek civic-assembly
+  word received and re-centered on the one who calls.'
+modern_sense: Either a building or an institution - the place where Christians meet, or an organization
+  with membership (chunk Modern Hearing).
+conceptual_distance_note: 'The modern church is a place or organization; the ekklesia is the assembly
+  itself, constituted by its center, not its roll (chunk World Hearing). Sharp gap of referent: high grounding
+  criterion by rule.'
+semantic_domain: community-formation
+grounding_criterion: high
+voice_surface: Ekklesia means the called-out assembly - not a building, not an organization. The assembly
+  of those called out from one life into another, gathered around the Logos who called them.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex026
+  note: 'Gathered around the one who gives himself to be shared - the Eucharistic center constitutes the
+    assembly (chunk QM/WM). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The church is
+    the formation community within which the whole ecology operates — the environment in which the soul''s
+    formation toward God occurs and which the Primary gravities organize. It anchors formation''s communal
+    necessity (the ecology is the community''s shared life, not a set of private practices reported back
+    to the community); the Eucharist''s community-constituting function (the church is constituted by
+    the recurring, enacted participation in the Logos''s self-giving — remove it and the church is a voluntary
+    association); the ecclesial form of the Teacher–Bishop tension (both the school''s community and the
+    whole gathered community are the ekklesia, and the tension between them is the church''s live structural
+    reality); and the carrying of the Rule of Faith across generations (the church is the community that
+    carries the Rule, and the Rule is what marks its continuity through time).'
+- type: presupposed-by
+  target_id: alexlex034
+  note: The household is the majority's formation space within it (alexlex034 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex043_church-ekklesia.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

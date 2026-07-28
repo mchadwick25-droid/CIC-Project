@@ -44,15 +44,7 @@ world_meaning: 'The word "salvation" carries a legal freight this world does not
   So salvation is not a single moment but the whole arc — from repentance, through the formation ecology,
   through baptism and the Eucharist, toward the participation in God that theosis names. The relational
   and forensic dimensions are not denied; they simply are not the axis. What salvation primarily *is*,
-  here, is the genuine reorientation and healing of the soul.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Salvation names what the entire formation ecology accomplishes
-  — it is the second Primary gravity at the level of the whole ecology''s purpose. It anchors the coherence
-  of the salvation-arc vocabulary (Sin → Death → Resurrection → Restoration → Transformation), the stakes
-  of the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis
-  (the arc''s horizon).'
+  here, is the genuine reorientation and healing of the soul.'
 distortion_risk: '**World Hearing:**
 
   The forensic frame addresses the wrong problem. Salvation genuinely changes what the soul is *oriented
@@ -90,6 +82,40 @@ modern_hearing: '**Modern Hearing:**
 
   The forensic/judicial frame (sharpened after the Reformation): sin as crime, God as judge, salvation
   as the not-guilty verdict — with transformation, if present, secondary.'
+period_sense: Not primarily acquittal from legal guilt - the healing, restoration, and reorientation of
+  the soul toward God; what the entire formation ecology accomplishes, the second Primary gravity at the
+  level of the whole ecology's purpose (chunk Quick/World Meaning and EF).
+prior_sense: Ordinary Greek soteria, deliverance/health/rescue - noted from standard lexica, UNVERIFIED
+  against a registry source; the healing register the world kept is closer to the ordinary sense than
+  the later forensic frame.
+modern_sense: 'The forensic/judicial frame, sharpened after the Reformation: sin as crime, God as judge,
+  salvation as the not-guilty verdict (chunk Modern Hearing).'
+conceptual_distance_note: 'The forensic frame addresses the wrong problem for this world: sin here is
+  directional, so salvation is healing and reorientation, not acquittal (chunk World Hearing). Sharp frame
+  gap: high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: The word salvation carries a legal freight this world does not share. Sin here is a directional
+  condition, and the primary problem is not guilt. Salvation genuinely changes what the soul is oriented
+  toward - it heals.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex020
+  note: 'Salvation-as-healing runs on the restorative conviction (chunk EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): Salvation names what the entire formation ecology accomplishes
+    — it is the second Primary gravity at the level of the whole ecology''s purpose. It anchors the coherence
+    of the salvation-arc vocabulary (Sin → Death → Resurrection → Restoration → Transformation), the stakes
+    of the incarnation (only if the Logos is truly God can he heal from within), and the connection to
+    theosis (the arc''s horizon).'
+- type: presupposes
+  target_id: alexlex039
+  note: The healing enters through the Logos's incarnation (chunk QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex036_salvation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

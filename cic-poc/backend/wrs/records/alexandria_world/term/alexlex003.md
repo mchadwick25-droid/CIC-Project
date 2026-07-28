@@ -161,6 +161,15 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex025
   note: Baptism is the threshold catechesis leads toward (alexlex025 EF).
+- type: presupposes
+  target_id: alexlex032
+  note: The person came having turned - catechesis deepens the turn (alexlex032 EF).
+- type: presupposes
+  target_id: alexlex037
+  note: The sequence begins from faith's orientation (alexlex037 EF).
+- type: presupposes
+  target_id: alexlex040
+  note: The graduated shape enacts the mystery's from-within character (alexlex040 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex003_catechesis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

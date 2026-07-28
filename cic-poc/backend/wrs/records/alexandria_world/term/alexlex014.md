@@ -120,6 +120,9 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex016
   note: The method reaches Scripture's own depths (alexlex016 EF).
+- type: presupposed-by
+  target_id: alexlex035
+  note: Interpretation is the discipline exercised on the address (alexlex035 QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex014_scripture.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -125,6 +125,16 @@ field_relations:
   target_id: alexlex027
   note: Fasting enacts at the body's level what transformation works toward at the soul's (alexlex027
     EF).
+- type: presupposed-by
+  target_id: alexlex038
+  note: Agape is transformation's fruit (alexlex038 EF).
+- type: presupposed-by
+  target_id: alexlex042
+  note: Arete is its characterological expression (alexlex042 EF).
+- type: presupposes
+  target_id: alexlex044
+  note: Transformation operates through the Spirit's agency (alexlex044 EF - linkage mirror of its mechanism-behind
+    edge).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex021_transformation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

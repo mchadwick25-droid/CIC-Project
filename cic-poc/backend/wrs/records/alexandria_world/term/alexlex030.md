@@ -157,6 +157,9 @@ field_relations:
 - type: tension-with
   target_id: alexlex029
   note: The same held tension, from the office pole (chunk EF both entries).
+- type: presupposes
+  target_id: alexlex031
+  note: The bishop guards the same received inheritance (alexlex031 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex030_bishop.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

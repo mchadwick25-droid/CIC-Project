@@ -147,6 +147,9 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex030
   note: The bishop's office centers on presiding at this act (alexlex030 WM).
+- type: presupposed-by
+  target_id: alexlex043
+  note: The Eucharistic center constitutes the assembly (alexlex043 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex026_eucharist.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

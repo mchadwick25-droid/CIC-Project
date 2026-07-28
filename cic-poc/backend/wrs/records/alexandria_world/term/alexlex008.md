@@ -119,6 +119,12 @@ field_relations:
 - type: presupposes
   target_id: alexlex023
   note: Theosis is founded on the Son's genuine divinity (alexlex023 EF).
+- type: presupposes
+  target_id: alexlex039
+  note: The formula is the Incarnation's purpose stated (alexlex039 WM).
+- type: presupposed-by
+  target_id: alexlex045
+  note: Hope's object is the theosis horizon (alexlex045 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex008_theosis.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

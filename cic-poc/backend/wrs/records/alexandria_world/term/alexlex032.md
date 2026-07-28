@@ -66,19 +66,7 @@ world_meaning: 'The word does the work if we hear it exactly. *Meta-noia*: a cha
   turning. But the grief is what the turning produces, not what the turning is. A soul that feels the
   grief without turning has only the sorrow; a soul that turns without the grief may turn genuinely and
   find the grief follow as it begins to see clearly. The grief confirms the turn; it does not constitute
-  it.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Repentance is the foundational response that opens the soul to
-  formation — the directional change without which the sequence has nothing to deepen. It anchors the
-  sequence''s entry condition (catechesis forms a soul that has begun to turn; illumination reaches a
-  *nous* already re-oriented), the formative expression of Freedom (*metanoia* is the soul''s self-determination
-  used in the direction it was made for — the ecology''s primary evidence that it works with the soul''s
-  freedom rather than over it), the ongoing orientation of the whole arc (the soul deepening in gnosis
-  and participation is continuing the turn *metanoia* began — repentance is not completed and left behind),
-  and the threshold of Baptism (the catechumen who has genuinely turned is the one ready to cross). Hope
-  sustains the ongoing dimension of the turn.'
+  it.'
 distortion_risk: '**World Hearing:**
 
   *Metanoia* is a change of *nous* — a genuine change of direction in the soul''s highest faculty of orientation.
@@ -135,6 +123,45 @@ modern_hearing: '**Modern Hearing:**
   can feel intensely and sincerely sorry for particular acts while remaining aimed at the very goods that
   produced them. They are sorry for the expressions of the mis-orientation; the mis-orientation itself
   is unchanged. That is not *metanoia*.'
+period_sense: 'Metanoia, a change of nous: not feeling sorry but the soul''s highest faculty actually
+  turned from what it was pointed at back toward God - the foundational response that opens the soul to
+  formation (chunk Quick/World Meaning and EF).'
+prior_sense: Ordinary Greek metanoia, change of mind/afterthought - noted from standard lexica, UNVERIFIED
+  against a registry source; the world's own reading loads the compound exactly (meta + nous, the chunk's
+  opening move).
+modern_sense: Feeling sorry - remorse or regret for wrong acts, measured by emotional intensity (chunk
+  Modern Hearing).
+conceptual_distance_note: 'Modern repentance is an emotion about the past; metanoia is a reorientation
+  of the soul''s deepest perceptive faculty (chunk World Hearing). Sharp relocation from feeling to direction:
+  high grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: 'Meta-noia: a change of nous. Not a change of feeling, not a change of behavior - a change
+  in the soul''s deepest faculty of perception, the capacity by which we are oriented toward or away from
+  God.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex011
+  note: 'The turn happens IN the nous - metanoia is that faculty redirected (chunk WM). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): Repentance is the foundational response that opens the
+    soul to formation — the directional change without which the sequence has nothing to deepen. It anchors
+    the sequence''s entry condition (catechesis forms a soul that has begun to turn; illumination reaches
+    a *nous* already re-oriented), the formative expression of Freedom (*metanoia* is the soul''s self-determination
+    used in the direction it was made for — the ecology''s primary evidence that it works with the soul''s
+    freedom rather than over it), the ongoing orientation of the whole arc (the soul deepening in gnosis
+    and participation is continuing the turn *metanoia* began — repentance is not completed and left behind),
+    and the threshold of Baptism (the catechumen who has genuinely turned is the one ready to cross).
+    Hope sustains the ongoing dimension of the turn.'
+- type: presupposed-by
+  target_id: alexlex003
+  note: 'Catechesis deepens what the turn opens - the person came for a transformation (alexlex003 WM;
+    chunk EF: the directional change without which the sequence has nothing to deepen).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex032_repentance-metanoia.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -84,22 +84,7 @@ world_meaning: 'The word "interpretation" threatens to bring the wrong weight in
   Scripture through the assembly''s shared hearing and is formed through the Eucharist, the household,
   and the martyr-ideal that shapes our common identity. Interpretation at the school''s depth is the mode
   that requires formation to receive — and so it both builds on and deepens every other practice the interpreter
-  already lives.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Interpretation is the school tradition''s primary formation mode
-  — the complementary channel to what sacramental participation, household formation, and martyr-witness
-  give the whole community — and it is how Scripture''s genuine depth (Doc_04 C1) is actually reached.
-  A participant who grasps interpretation grasps why the catechetical school exists (interpretation at
-  the depth the school pursues requires teacher accompaniment and the forming of the nous over time),
-  why teaching authority rests on the quality of the teacher''s formed perception rather than on office,
-  and how the always-present supporting gravities show up in practice: the Logos-Centered Unity (C4) is
-  met in every interpretive encounter, since to read the text is to meet the one who integrates the whole
-  ecology, and the Divine Pedagogy (C3) governs how interpretation unfolds — the teacher teaching *through*
-  Scripture''s difficulty rather than around it, trusting the difficulty as the divine Teacher''s design.
-  Interpretation is the general discipline of which Scripture, Christological Reading, and Allegory name
-  the theological ground, the orienting conviction, and the specific practice.'
+  already lives.'
 distortion_risk: '**World Hearing:**
 
   Interpretation as a formation discipline — the practice through which the soul meets the Logos who speaks
@@ -157,6 +142,46 @@ modern_hearing: '**Modern Hearing:**
   knowledge — before, they did not know what the text meant; after, they do. Its popular echo: "interpreting
   Scripture" as figuring out what it really means, against misreadings. Both locate interpretation in
   the cognitive part of the encounter and test it by whether the result is correct.'
+period_sense: Not analytical method applied to a text - the formation discipline through which the soul
+  encounters the Logos who speaks through Scripture; the school tradition's primary formation mode, complementary
+  to the sacramental, household, and witness channels (chunk Quick Meaning and EF).
+prior_sense: 'none-attested as a lexeme: the entry names the world''s own discipline; the inherited method
+  within it is allegoria (alexlex016).'
+modern_sense: Analytical method applied to a text to determine its meaning - the interpreter as expert
+  (chunk Modern Hearing).
+conceptual_distance_note: 'The modern interpreter produces a determination and is done; the world''s interpreter
+  is being formed by the encounter (chunk World Hearing). Sharp gap of purpose: high grounding criterion
+  by rule.'
+semantic_domain: scripture-reading
+grounding_criterion: high
+voice_surface: In common use, interpretation is what you do to a text that does not give up its meaning
+  at once - apply method, produce a determination. That is not the weight we bring. Interpretation is
+  the discipline through which the soul meets the Logos who speaks.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex016
+  note: 'Allegory is the method within the discipline (alexlex016 EF; chunk EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): Interpretation is the school tradition''s primary formation mode
+    — the complementary channel to what sacramental participation, household formation, and martyr-witness
+    give the whole community — and it is how Scripture''s genuine depth (Doc_04 C1) is actually reached.
+    A participant who grasps interpretation grasps why the catechetical school exists (interpretation
+    at the depth the school pursues requires teacher accompaniment and the forming of the nous over time),
+    why teaching authority rests on the quality of the teacher''s formed perception rather than on office,
+    and how the always-present supporting gravities show up in practice: the Logos-Centered Unity (C4)
+    is met in every interpretive encounter, since to read the text is to meet the one who integrates the
+    whole ecology, and the Divine Pedagogy (C3) governs how interpretation unfolds — the teacher teaching
+    *through* Scripture''s difficulty rather than around it, trusting the difficulty as the divine Teacher''s
+    design. Interpretation is the general discipline of which Scripture, Christological Reading, and Allegory
+    name the theological ground, the orienting conviction, and the specific practice.'
+- type: presupposes
+  target_id: alexlex014
+  note: The discipline is exercised on the address itself (chunk QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex035_interpretation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -65,19 +65,7 @@ world_meaning: 'For most of us, the catechetical school is not where formation m
   do is narrate the inside of that formation for them. The record we have of household Christian life
   comes overwhelmingly from the educated householder — the one who wrote the letters and the instructions
   on managing a house. What formation felt like from the subordinate positions of the oikos is largely
-  beyond our recovery, and we do not fill that silence with invention.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The household is the primary formation environment for the community''s
-  majority — the space in which the ecology reaches those the formal channels cannot. It anchors formation''s
-  reach beyond formal structures (the school reaches the literate, the Eucharist reaches the baptized
-  weekly, the household reaches everyone continuously in daily life); the ecology''s whole-community claim
-  (that it forms the whole community and not only its educated members rests substantially on the household
-  as a real formation environment); and the stratum populations'' primary access point (for enslaved persons,
-  women, and rural believers, the household is where formation chiefly occurred). School, martyrdom, and
-  household together make the ecology''s claim to whole-community reach — intellectual depth, acute faithful
-  response, and daily formation environment respectively.'
+  beyond our recovery, and we do not fill that silence with invention.'
 distortion_risk: '**World Hearing:**
 
   The oikos is not a private space. It is a social and economic unit spanning multiple social positions,
@@ -136,6 +124,40 @@ modern_hearing: '**Modern Hearing:**
   domestic space, and household formation is individual devotion, family values, children''s religious
   education at home. This is not wrong about *that* the household forms; it misses the scale, the social
   complexity, and the community-formation weight of what the oikos was.'
+period_sense: The oikos - not the private nuclear family but the extended social and economic unit (householder,
+  spouse, children, enslaved and freed persons, dependents) that is the primary formation environment
+  for the community's majority (chunk Quick/World Meaning and EF).
+prior_sense: Ordinary Greek oikos, the extended household unit - the chunk's own definition carries the
+  social-historical sense directly.
+modern_sense: The nuclear family in its own private home, a sphere set apart from economy and public life
+  (chunk Modern Hearing).
+conceptual_distance_note: 'The modern household is private and small; the oikos is a social and economic
+  unit spanning multiple positions, embedded in the community - and it is where most formation happened
+  for most believers (chunk World Hearing/WM). Sharp scale-and-privacy gap: high grounding criterion by
+  rule.'
+semantic_domain: community-formation
+grounding_criterion: high
+voice_surface: For most of us, the catechetical school is not where formation mainly happens. The place
+  where most formation occurs, for most believers, most of the time, is the household.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex043
+  note: 'The household is the majority''s formation space within the called-out community (chunk EF).
+    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The household is the primary formation
+    environment for the community''s majority — the space in which the ecology reaches those the formal
+    channels cannot. It anchors formation''s reach beyond formal structures (the school reaches the literate,
+    the Eucharist reaches the baptized weekly, the household reaches everyone continuously in daily life);
+    the ecology''s whole-community claim (that it forms the whole community and not only its educated
+    members rests substantially on the household as a real formation environment); and the stratum populations''
+    primary access point (for enslaved persons, women, and rural believers, the household is where formation
+    chiefly occurred). School, martyrdom, and household together make the ecology''s claim to whole-community
+    reach — intellectual depth, acute faithful response, and daily formation environment respectively.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex034_household.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

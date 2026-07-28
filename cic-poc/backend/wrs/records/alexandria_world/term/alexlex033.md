@@ -59,18 +59,7 @@ world_meaning: 'The word *martyr* means witness. Not hero. Not sacrifice. Witnes
   we carry the memory of faithful witness unto death, honor it, and are shaped by that honoring even when
   no one is being asked to give it. Martyrdom is the mode that shows our formation is not only for the
   literate — the one place where a believer without any access to the school can enact our deepest conviction
-  as completely as anyone.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Martyrdom/Witness is the formation act that most directly shows
-  the ecology reaches the whole community, not only its educated members. A participant who grasps it
-  grasps why the two-mode account of death is load-bearing (without it the martyr''s choice would be irrational),
-  why the community''s honoring of its martyrs is itself a formation act (it keeps the witness present
-  in the community''s identity between persecutions), and why the ecology''s full account of formation
-  needs both poles — the gradual contemplative path and the martyr''s single moment — held in tension,
-  since neither alone captures the whole. This is the Martyrdom–Contemplative Tensional Gravity as a live
-  structural feature, not a problem to be resolved.'
+  as completely as anyone.'
 distortion_risk: '**World Hearing:**
 
   The martyr is not performing an extraordinary act most people would fail to perform. The martyr is the
@@ -124,6 +113,39 @@ modern_hearing: '**Modern Hearing:**
   admired for courage and commitment, heroism applied to religion — or the sentimental hearing — martyrdom
   as excessive, belonging to another era, a religious extremism that unsettles us. Both assume martyrdom
   is mainly about what the martyr *did*, the exceptional act, and miss the formation account.'
+period_sense: Martys, witness - not heroic self-sacrifice for a cause but the witness of a soul whose
+  turning toward God has gone so deep that when persecution forces the choice, the orientation holds;
+  the formation act showing the ecology reaches the whole community, not only its educated members (chunk
+  Quick/World Meaning and EF).
+prior_sense: 'The chunk''s own etymology: the ordinary Greek martys, witness - a courtroom word the world
+  kept exactly (''The word martyr means witness. Not hero. Not sacrifice.'').'
+modern_sense: Either heroic ultimate sacrifice admired for courage, or (in current usage) someone with
+  a persecution complex (chunk Modern Hearing).
+conceptual_distance_note: 'The modern martyr performs an extraordinary feat; the world''s martyr is the
+  one in whom formation has simply held all the way down (chunk World Hearing). Sharp gap of kind: high
+  grounding criterion by rule.'
+semantic_domain: community-formation
+grounding_criterion: high
+voice_surface: The word martyr means witness. Not hero. Not sacrifice. Witness - the one whose life, and
+  in the decisive moment whose death, bears witness to the reality our whole formation is organized around.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex037
+  note: 'The witness is a turning gone deep - faith held to the end (chunk WM: a soul whose turning toward
+    God has gone so deep). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Martyrdom/Witness
+    is the formation act that most directly shows the ecology reaches the whole community, not only its
+    educated members. A participant who grasps it grasps why the two-mode account of death is load-bearing
+    (without it the martyr''s choice would be irrational), why the community''s honoring of its martyrs
+    is itself a formation act (it keeps the witness present in the community''s identity between persecutions),
+    and why the ecology''s full account of formation needs both poles — the gradual contemplative path
+    and the martyr''s single moment — held in tension, since neither alone captures the whole. This is
+    the Martyrdom–Contemplative Tensional Gravity as a live structural feature, not a problem to be resolved.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex033_martyrdom-witness.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

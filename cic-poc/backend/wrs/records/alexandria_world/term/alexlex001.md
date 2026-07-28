@@ -141,6 +141,9 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex024
   note: Word of God is the Logos title bridging to Scripture (alexlex024 EF).
+- type: presupposed-by
+  target_id: alexlex039
+  note: The Incarnation is the Logos's own entry (alexlex039 QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex001_logos.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

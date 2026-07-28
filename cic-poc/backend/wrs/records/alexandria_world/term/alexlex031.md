@@ -80,20 +80,7 @@ world_meaning: 'There is a phrase that runs through our formation life and stead
   the speculative inheritance we received from Origen, whether the Creed exhausts it or only specifies
   part of it — these are live questions in our own reflection, not closed ones. The shared contours we
   hold without reservation; the exact reach of the Rule in the harder territory is the ground of genuine
-  and ongoing struggle.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Rule of Faith is the received constraint that holds the Teacher–Bishop
-  tension together — the inheritance both are accountable to and neither may override. It anchors interpretive
-  legitimacy (the allegorical practice, the Christological orientation, and the school''s depth reading
-  are all exercised within what the Rule guards); the shared accountability that makes the Teacher–Bishop
-  tension a tension within one community rather than a split into two; and the community''s continuity
-  across time (individual teachers and bishops come and go, and the Rule is what carries our identity
-  through the changes). The bishop''s guardianship of the Rule is custodial, not interpretive-final: he
-  keeps the inheritance continuous across generations, while the teacher carries the interpretive practice
-  by which the Rule is read at depth — guardianship is exercised on behalf of what the Rule carries, not
-  as a privilege of deciding what it means.'
+  and ongoing struggle.'
 distortion_risk: '**World Hearing:**
 
   The Rule is neither a checklist nor an anti-interpretive constraint. It is our living formation inheritance
@@ -159,6 +146,46 @@ modern_hearing: '**Modern Hearing:**
   hold the listed beliefs and interpretation is in bounds, contradict them and it is out. Second, the
   Rule of Faith is the dead hand of tradition — a conservative brake that keeps the interpreter from reaching
   genuinely new understanding, the mechanism for domesticating what Scripture might actually say.'
+period_sense: 'Not the Nicene Creed and not a doctrinal checklist - the received apostolic deposit carried
+  across generations: what has always been taught, believed, and received; the constraint holding the
+  Teacher-Bishop tension together, which both are accountable to and neither may override (chunk Quick/World
+  Meaning and EF).'
+prior_sense: Received through the pre-Alexandrian rule-of-faith tradition the chunk's own Key Sources
+  carry (Irenaeus's apostolic deposit, Tertullian's Prescription) - reception-formative texts rowed at
+  the sweep (srcALX031/032).
+modern_sense: Either the creed as a doctrinal checklist, or an anti-interpretive constraint (chunk Modern
+  Hearing).
+conceptual_distance_note: 'The modern object is a list to hold; the world''s Rule is a living formation
+  inheritance within which interpretation works (chunk World Hearing). Sharp gap of kind: high grounding
+  criterion by rule.'
+semantic_domain: formation-authority
+grounding_criterion: high
+voice_surface: What has always been taught, what has always been believed, what has always been received
+  - the Rule of Faith is the name for what that phrase points at. It steadies us whenever interpretation
+  threatens to drift.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex029
+  note: 'The teacher is accountable to the received inheritance (chunk EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): The Rule of Faith is the received constraint that holds the Teacher–Bishop
+    tension together — the inheritance both are accountable to and neither may override. It anchors interpretive
+    legitimacy (the allegorical practice, the Christological orientation, and the school''s depth reading
+    are all exercised within what the Rule guards); the shared accountability that makes the Teacher–Bishop
+    tension a tension within one community rather than a split into two; and the community''s continuity
+    across time (individual teachers and bishops come and go, and the Rule is what carries our identity
+    through the changes). The bishop''s guardianship of the Rule is custodial, not interpretive-final:
+    he keeps the inheritance continuous across generations, while the teacher carries the interpretive
+    practice by which the Rule is read at depth — guardianship is exercised on behalf of what the Rule
+    carries, not as a privilege of deciding what it means.'
+- type: presupposed-by
+  target_id: alexlex030
+  note: The bishop guards what was received - the same accountability from the office pole (chunk EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex031_rule-of-faith.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

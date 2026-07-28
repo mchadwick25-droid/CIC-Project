@@ -70,19 +70,7 @@ world_meaning: 'Theosis names the horizon — a fullness of participation in div
   has inaugurated the completion theosis names as the horizon. The Spirit is the ever-present agent of
   the transformation the formation ecology carries out. These are not things the soul hopes will turn
   out true; they are the ground its hope rests on. Hope is the soul''s orientation toward a completion
-  already established and not yet fully received.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Hope is the soul''s sustaining formation posture — what makes
-  continued formation possible through the always-incomplete present. It anchors the durability of the
-  formation sequence (a lifetime''s work, sustainable only if the soul can hold each stage as real-but-not-final
-  against both premature satisfaction and despair), the formation function of the eschatological horizon
-  (theosis always-ahead can defeat formation or draw it forward — hope is what makes it the latter), the
-  ongoing character of Repentance (hope sustains the continuing turn: the soul keeps turning because it
-  holds the direction real and the destination genuine even while unreached), and the temporal coherence
-  of the formation community (the conviction that the Logos who has worked across generations will complete
-  what was begun gives the community its identity as one going somewhere, not only doing something).'
+  already established and not yet fully received.'
 distortion_risk: '**World Hearing:**
 
   Hope here is not optimism and not a psychological state that works by producing resilience. It is the
@@ -141,6 +129,40 @@ modern_hearing: '**Modern Hearing:**
   by how things go; and positive expectation is not what formation needs — not a general confidence that
   things improve, but a specific orientation toward a divine life held as real through the incompleteness
   of the present.'
+period_sense: Elpis - not optimism but the soul's sustaining orientation toward the divine life formation
+  has been progressively opening yet not fully received; the posture that makes continued formation possible
+  through the always-incomplete present (chunk Quick/World Meaning and EF).
+prior_sense: Ordinary Greek elpis, expectation - noted from standard lexica, UNVERIFIED against a registry
+  source.
+modern_sense: A forward-looking feeling - the expectation or wish that things will get better (chunk Modern
+  Hearing).
+conceptual_distance_note: 'Modern hope is a mood about outcomes; the world''s elpis is an orientation
+  toward the horizon itself - not resilience psychology (chunk World Hearing). Sharp relocation: high
+  grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: Hope is not optimism. Theosis names the horizon no present stage has reached; transformation
+  names the work under way. Hope is the soul's sustaining orientation toward what is opening but not yet
+  fully received.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex008
+  note: 'The orientation''s object is the theosis horizon (chunk WM). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Hope is the soul''s sustaining formation posture — what makes continued formation
+    possible through the always-incomplete present. It anchors the durability of the formation sequence
+    (a lifetime''s work, sustainable only if the soul can hold each stage as real-but-not-final against
+    both premature satisfaction and despair), the formation function of the eschatological horizon (theosis
+    always-ahead can defeat formation or draw it forward — hope is what makes it the latter), the ongoing
+    character of Repentance (hope sustains the continuing turn: the soul keeps turning because it holds
+    the direction real and the destination genuine even while unreached), and the temporal coherence of
+    the formation community (the conviction that the Logos who has worked across generations will complete
+    what was begun gives the community its identity as one going somewhere, not only doing something).'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex045_hope.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -157,6 +157,9 @@ field_relations:
   target_id: alexlex030
   note: 'The Teacher-Bishop tension both EFs name: authority grounded in demonstrated wisdom vs apostolic
     office - held, not resolved (chunk EF both entries).'
+- type: presupposes
+  target_id: alexlex031
+  note: The teacher answers to the received inheritance (alexlex031 EF).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex029_teacher.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

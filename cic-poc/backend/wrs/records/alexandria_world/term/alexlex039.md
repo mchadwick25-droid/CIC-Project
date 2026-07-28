@@ -60,22 +60,7 @@ world_meaning: 'The formula is audacious, and it must be said before anything el
   wearing a human costume but genuine flesh, genuine mortality, genuine bodily life. This makes the body
   holy: not the soul''s prison or obstacle but the very site the Logos entered, and so our bodily practices
   — baptism, Eucharist, fasting, vigil — are not concessions to the body''s limits. They are formation
-  through the same embodied nature the Logos entered and thereby dignified.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: The Incarnation is the pivotal act that grounds this world''s
-  whole claim about transformation — what makes a genuine share in divine life possible rather than merely
-  aspirational. It anchors the transformation gravity in its post-Nicene configuration: the dominant frame
-  is not primarily the soul''s capacity to ascend (though it has one) but the Logos''s descent — "God
-  became human so that humanity might become god" is the structural ground of what we claim transformation
-  is, not a supplementary point. It is theosis''s necessary condition (the soul shares divine life because
-  the Logos who entered human nature is genuinely God). It gives the body its formation significance (because
-  the Logos entered embodied nature, the body is the site of sanctification, not the obstacle to be transcended,
-  which is also the ground of the body''s share in redemption named at Resurrection). And it is salvation''s
-  mechanism: restoration happens by the Logos entering from within what was damaged and restoring it from
-  inside, and the formation ecology is where that restoration goes on being operative in actual souls.
-  Its encompassing frame is the *oikonomia*, of which the Incarnation is the pivotal moment.'
+  through the same embodied nature the Logos entered and thereby dignified.'
 distortion_risk: '**World Hearing:**
 
   The Incarnation is the Logos entering what was damaged in order to restore it from within — not to hand
@@ -137,6 +122,49 @@ modern_hearing: '**Modern Hearing:**
   the perfect model for imitation — so the Incarnation is mainly didactic. The information-delivery hearing:
   God became human to reveal what could not otherwise be known, to supply the teachings we needed. Both
   make the Incarnation an act of communication — example or information — from outside the human condition.'
+period_sense: 'The Logos - of one substance with the Father - genuinely entering human nature: not to
+  give an example or deliver information but to restore what was dying from within; the pivotal act grounding
+  the world''s whole claim about transformation (chunk Quick/World Meaning and EF).'
+prior_sense: 'none-attested as a lexeme: the doctrine-name for the entry the world''s own formula states;
+  the formula itself is the world''s received teaching (chunk WM: Clement and Origen before Athanasius).'
+modern_sense: The moral-example hearing (God became human to show how to live), or the information-delivery
+  hearing (chunk Modern Hearing).
+conceptual_distance_note: 'An example reaches the soul from outside; the world''s Incarnation restores
+  from within - the difference between a model to imitate and Life re-entering what was dying (chunk World
+  Hearing). Sharp gap of mechanism: high grounding criterion by rule.'
+semantic_domain: salvation-arc
+grounding_criterion: high
+voice_surface: God became human so that humanity might become god. We do not receive this as a careful
+  proposition to be qualified into safety - it is the plain expression of what the Incarnation is for.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex001
+  note: 'The one who enters is the Logos through whom all things were made (chunk QM). Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): The Incarnation is the pivotal act that grounds this world''s
+    whole claim about transformation — what makes a genuine share in divine life possible rather than
+    merely aspirational. It anchors the transformation gravity in its post-Nicene configuration: the dominant
+    frame is not primarily the soul''s capacity to ascend (though it has one) but the Logos''s descent
+    — "God became human so that humanity might become god" is the structural ground of what we claim transformation
+    is, not a supplementary point. It is theosis''s necessary condition (the soul shares divine life because
+    the Logos who entered human nature is genuinely God). It gives the body its formation significance
+    (because the Logos entered embodied nature, the body is the site of sanctification, not the obstacle
+    to be transcended, which is also the ground of the body''s share in redemption named at Resurrection).
+    And it is salvation''s mechanism: restoration happens by the Logos entering from within what was damaged
+    and restoring it from inside, and the formation ecology is where that restoration goes on being operative
+    in actual souls. Its encompassing frame is the *oikonomia*, of which the Incarnation is the pivotal
+    moment.'
+- type: presupposed-by
+  target_id: alexlex008
+  note: Theosis's formula is the Incarnation's purpose stated (alexlex008 WM).
+- type: presupposed-by
+  target_id: alexlex036
+  note: Salvation-as-healing enters here (alexlex036 QM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex039_incarnation.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

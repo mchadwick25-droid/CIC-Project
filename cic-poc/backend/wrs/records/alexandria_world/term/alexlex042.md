@@ -52,20 +52,7 @@ world_meaning: 'The word *arete* comes to us from the Greeks, where it meant exc
   for another''s flourishing flows from love rather than calculated fairness; temperance in one whose
   desire has been trained toward what genuinely satisfies rather than toward the lesser goods that excess
   chases. Knowing, loving, and living well are not three separate achievements here. They are one formation,
-  showing in three ways.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Virtue is the behavioral and characterological expression of what
-  the transformation gravity produces in the soul through the formation sequence. It is the concrete face
-  of formation evidence — where wisdom names the visible formation of a whole life, virtue names how that
-  formed life acts, relates, responds, and chooses; it is the Likeness of God made behavioral (the image
-  conformed to God''s character, showing as the love that endures, the justice that does not calculate,
-  the courage grounded in orientation toward God); it is inseparable from love (in the mature Christian,
-  gnosis, love, and virtue are held together as one thing, not three accomplishments); and it connects
-  directly to the Transformation gravity, whose aim — the soul''s genuine reorientation toward God — is
-  exactly what virtue makes visible in lived relationship to God, others, and self. Understand virtue
-  and one understands why this world judges behavior by what produced it, not by its surface conformity.'
+  showing in three ways.'
 distortion_risk: '**World Hearing:**
 
   Virtue is not what the person has achieved but what formation has done to the person. The difference
@@ -127,6 +114,42 @@ modern_hearing: '**Modern Hearing:**
   secondary hearing locates virtue in decision-making: the virtuous person makes the right choices through
   correct moral reasoning. Both locate virtue in what the person has achieved by their own moral development
   — the virtue is the person''s own product.'
+period_sense: 'Arete - not excellence achieved through disciplined practice but the visible fruit of genuine
+  transformation: what the soul looks like when formation has done its work; the concrete face of the
+  transformation gravity (chunk Quick/World Meaning and EF).'
+prior_sense: 'The chunk carries the inherited sense whole: Greek arete as excellence, with Aristotle''s
+  virtue-as-the-mean named as the most systematic inherited account - received and re-grounded.'
+modern_sense: Virtue as excellence of character built through habitual practice - achievement (chunk Modern
+  Hearing).
+conceptual_distance_note: 'The modern (and Aristotelian) virtue is what the person has achieved; the world''s
+  is what formation has done to the person (chunk World Hearing). Sharp agency inversion: high grounding
+  criterion by rule.'
+semantic_domain: formation-fruit
+grounding_criterion: high
+voice_surface: Arete came to us from the Greeks, where it meant excellence - a thing functioning well
+  according to its nature. Among us, virtue is not what the person has achieved but what formation has
+  done to the person.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposes
+  target_id: alexlex021
+  note: 'The characterological expression of transformation''s work (chunk EF). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): Virtue is the behavioral and characterological expression of what
+    the transformation gravity produces in the soul through the formation sequence. It is the concrete
+    face of formation evidence — where wisdom names the visible formation of a whole life, virtue names
+    how that formed life acts, relates, responds, and chooses; it is the Likeness of God made behavioral
+    (the image conformed to God''s character, showing as the love that endures, the justice that does
+    not calculate, the courage grounded in orientation toward God); it is inseparable from love (in the
+    mature Christian, gnosis, love, and virtue are held together as one thing, not three accomplishments);
+    and it connects directly to the Transformation gravity, whose aim — the soul''s genuine reorientation
+    toward God — is exactly what virtue makes visible in lived relationship to God, others, and self.
+    Understand virtue and one understands why this world judges behavior by what produced it, not by its
+    surface conformity.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex042_virtue.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

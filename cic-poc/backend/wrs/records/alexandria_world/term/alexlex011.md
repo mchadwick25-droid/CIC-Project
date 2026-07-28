@@ -113,6 +113,9 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex004
   note: Illumination opens the mind's eye - the faculty it most directly reaches (chunk WM).
+- type: presupposed-by
+  target_id: alexlex032
+  note: Metanoia is a change OF nous (alexlex032 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex011_nous.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

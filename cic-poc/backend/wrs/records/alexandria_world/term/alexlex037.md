@@ -58,20 +58,7 @@ world_meaning: 'Pistis — faith — is the soul''s first real response to the L
   of those questions; it is the orientation that makes pursuing them a formation act rather than a mere
   exercise of intellect. The catechumen genuinely turned toward the Logos while still holding many questions
   is more deeply in faith than the person who has resolved the questions without any real turning of the
-  soul.
-
-
-  [Ecological Function — parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per §3.2 / FLAG-002]: Faith is the foundational orientation from which the whole formation
-  sequence begins and which every later stage continues. It anchors the sequence''s beginning (catechesis
-  has a direction to deepen only because the soul has already turned toward the Logos and wants to go
-  further); the connection to repentance (metanoia is the soul''s turning back toward God, and faith is
-  what that turning looks like as an ongoing orientation rather than a single act — the two name one reality
-  from different angles); the faith-and-gnosis relation (gnosis is faith fulfilled into genuine transformative
-  knowledge, not faith transcended); and formation''s accessibility (because faith is an orientation and
-  not an intellectual achievement, it is open to every soul in every condition — the catechumen, the non-literate
-  believer, the one who has barely begun — and every member of the community is somewhere on the same
-  continuum of deepening).'
+  soul.'
 distortion_risk: '**World Hearing:**
 
   Faith is the soul''s genuine orientation toward God — turned toward the Logos who speaks through Scripture
@@ -124,6 +111,44 @@ modern_hearing: '**Modern Hearing:**
   means by which the soul receives the verdict of righteousness. On the first, faith is a cognitive state;
   on the second, a legal mechanism. Both make faith something the mind does rather than something the
   soul is.'
+period_sense: Pistis - not intellectual assent to propositions but the soul's first genuine turning toward
+  God in response to the Logos's address; the beginning of the formation journey, which every later stage
+  continues (chunk Quick/World Meaning and EF).
+prior_sense: Ordinary Greek pistis, trust/reliability - noted from standard lexica, UNVERIFIED against
+  a registry source.
+modern_sense: 'Two inadequate hearings: intellectualist belief-assent to doctrines; or blind faith against
+  evidence (chunk Modern Hearing).'
+conceptual_distance_note: 'Modern faith is a cognitive stance about propositions; the world''s pistis
+  is the soul''s orientation toward the one addressing it (chunk World Hearing). Sharp relocation: high
+  grounding criterion by rule.'
+semantic_domain: formation-sequence
+grounding_criterion: high
+voice_surface: Pistis is the soul's first real response to the Logos's address. The catechumen who does
+  not yet understand deeply, who cannot yet perceive what the text holds - but who genuinely orients toward
+  what they hear - has faith.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-27'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: alexlex003
+  note: 'The sequence begins from the orientation faith names (chunk EF). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Faith is the foundational orientation from which the whole formation sequence
+    begins and which every later stage continues. It anchors the sequence''s beginning (catechesis has
+    a direction to deepen only because the soul has already turned toward the Logos and wants to go further);
+    the connection to repentance (metanoia is the soul''s turning back toward God, and faith is what that
+    turning looks like as an ongoing orientation rather than a single act — the two name one reality from
+    different angles); the faith-and-gnosis relation (gnosis is faith fulfilled into genuine transformative
+    knowledge, not faith transcended); and formation''s accessibility (because faith is an orientation
+    and not an intellectual achievement, it is open to every soul in every condition — the catechumen,
+    the non-literate believer, the one who has barely begun — and every member of the community is somewhere
+    on the same continuum of deepening).'
+- type: presupposed-by
+  target_id: alexlex033
+  note: Witness is that orientation held all the way down (alexlex033 WM).
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex037_faith.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
