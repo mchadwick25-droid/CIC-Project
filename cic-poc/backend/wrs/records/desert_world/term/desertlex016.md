@@ -15,7 +15,6 @@ cache_stability: static
 id: desertlex016
 term: Kellion (The Cell)
 aliases:
-- the cell
 - kellion
 quick_meaning: The individual or small-group dwelling unit that is Strand C's basic architectural and
   organizational building block.

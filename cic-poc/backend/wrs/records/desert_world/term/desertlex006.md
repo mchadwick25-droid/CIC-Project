@@ -15,7 +15,6 @@ review_state: draft
 cache_stability: static
 term: Gerōn / Abba / Amma (Elder / Father / Mother)
 aliases:
-- elder
 - abba
 - amma
 - geron

@@ -44,3 +44,21 @@
 **Deliberately not done (Step 2/3 territory per the plan's own sequencing):** moving the data out of the Python module into a validated YAML, the gloss referential-integrity gate, the generated-JSON view and consumer refactor, and all `term_id` backfill.
 
 **Where this leaves the addendum:** Step 1 (1a parser fix + 1b alias-safety gate + 1c schema fix) is complete, committed, and green. Rule C wires in as a small follow-up now that `term_id` exists in the shape. Hieronymian's S2.2 can open with the fixed parser, the live gate, and the corrected schema all watching from the first record — which was the whole point of doing Step 1 first.
+
+## 2026-07-30 — VG-2a done: Desert alias retrofit (Step 2, world 1 of 3) — 5 → 0
+
+**The five calls, each its own decision (the precedent Syriac and Alexandria's passes work from):**
+
+| flagged alias | call | why |
+|---|---|---|
+| `the thoughts` (Logismoi) | **dropped** | The reviewed gloss already carries the English surface ("the thoughts that trouble the mind"); term stays reachable via `logismoi`, `intrusive thoughts`. |
+| `elder` (Gerōn/Abba/Amma) | **dropped** | The known cross-world hazard word (useLexicon's own comment) — now retired from the live key space entirely; `abba`, `amma`, `geron` remain, and both Abba and Amma glosses carry "an elder…" in reviewed form. |
+| `saying` (Apophthegma) | **dropped** | Gloss carries it ("a teaching-saying"); `apophthegma` remains. |
+| `the federation` (Koinōnia) | **dropped** | Gloss carries it ("Pachomius's monastic federation"); `koinonia`, `communal rule` remain. This was the one non-name-half case — a separately-authored descriptive alias — and the same logic held anyway because the gloss already says it better. |
+| `the cell` (Kellion) | **dropped + routed to confirmed-gloss** | The one term with NO existing gloss — added `Kellion` → "the cell" (Category A), literally the term's own English name-half, the same High-confidence restated-name class as the existing ten Desert entries. **This is the one new gloss entry — please confirm or revert it**, per the module's own one-at-a-time review discipline; it's commented in-module and visible, not smuggled. |
+
+**No overrides used** — none of the five is the irreducible bare-"Death"/"Christ"/"Prayer" class; every term keeps a distinctive period-word alias.
+
+**Verification:** Desert gates 7/7 at zero (alias_safety 5→0; the six originals untouched at 0); records 400/400; glosses 88/88 valid; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs** (the bare generics were never doing correct retrieval work, exactly as predicted). Records and deployed chunks edited in lockstep, no drift.
+
+**Next:** VG-2b Syriac (4 findings, same shape — note those four are the quoted-English-gloss keys `truth`/`mystery`/`symbol`/`reality` class plus `covenant`/`letters`/`saint`, a slightly different pattern than Desert's name-halves); VG-2c Alexandria (36) held for its own session with a fresh budget check.

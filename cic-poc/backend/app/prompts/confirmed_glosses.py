@@ -83,6 +83,13 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "Amma", "an elder, honored as a mother in the faith"),
         ConfirmedGloss("A", "Cheirōnaxia", "manual labor"),
         ConfirmedGloss("A", "Apophthegma", "a teaching-saying"),
+        # VG-2 (Desert retrofit, 2026-07-30): added when the alias-safety
+        # gate retired the bare "the cell" alias (Rule A) - the term's own
+        # English name-half ("Kellion (The Cell)"), the same High-confidence
+        # restated-name class as every entry above; flagged in
+        # WAITING_ON_MARK for project-owner confirmation per this module's
+        # own review discipline.
+        ConfirmedGloss("A", "Kellion", "the cell"),
     ],
     "hieronymian-ascetic-literary": [
         ConfirmedGloss("A", "Vulgata", "the new Latin translation"),

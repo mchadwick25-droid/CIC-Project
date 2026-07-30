@@ -2,7 +2,7 @@
 Term: Kellion (The Cell)
 World-Code: desert
 Tier: [2]
-Aliases: the cell, kellion
+Aliases: kellion
 Related Terms: Anachōrēsis, Hēsychia, Synaxis
 Retrieve-When: participant asks about the cell, where ascetics lived, dwellings, or daily living arrangements
 Do-Not-Retrieve-When: —

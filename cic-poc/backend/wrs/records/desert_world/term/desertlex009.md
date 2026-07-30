@@ -17,7 +17,6 @@ term: Koinōnia (Communal Rule)
 aliases:
 - koinonia
 - communal rule
-- the federation
 quick_meaning: The founder Pachomius's own name for his federated network of monasteries under a single
   Rule and spiritual authority.
 plain_explanation: 'Koinonia was Pachomius''s own name for his network of houses. One written Rule and
