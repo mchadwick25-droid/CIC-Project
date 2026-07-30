@@ -13,7 +13,6 @@ review_state: draft
 cache_stability: static
 term: Word of God
 aliases:
-- the Word
 - the divine Word
 - the eternal Word
 - God's Word

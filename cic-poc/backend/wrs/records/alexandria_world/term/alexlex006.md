@@ -14,7 +14,6 @@ cache_stability: static
 term: Wisdom / Sophia
 aliases:
 - sophia
-- the wise
 - the truly wise
 - wisdom of God
 - Christian wisdom

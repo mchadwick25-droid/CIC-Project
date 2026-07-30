@@ -15,8 +15,6 @@ term: Eucharist
 aliases:
 - the Lord's Supper
 - the breaking of bread
-- the table
-- Communion
 - the holy meal
 - the thanksgiving
 quick_meaning: 'For this world the Eucharist is not a memorial of something Christ did once — it is the

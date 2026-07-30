@@ -4,7 +4,7 @@
 Term:                 Virtue / Arete
 World-Code:           alex
 Tier:                 1
-Aliases:              arete, excellence, the virtues, moral excellence, character, the virtuous life
+Aliases:              arete, the virtues, moral excellence, the virtuous life
 Related-Terms:        Transformation, Knowledge / Gnosis, Wisdom / Sophia, Participation, Likeness of God, Love / Agape
 Retrieve-When:        participant uses "virtue" in a theological or formational sense, or asks how moral excellence is achieved; participant asks about the relation between character and formation, or whether virtue is formation's goal or its consequence; participant asks about particular virtues (courage, justice, temperance, wisdom), or how the Alexandrian account differs from Aristotle's; participant asks what transformation looks like in lived behavior, or whether someone who does virtuous things without formation is virtuous in this world's sense.
 Do-Not-Retrieve-When: participant is asking about wisdom specifically (retrieve Wisdom); participant is asking about love specifically (retrieve Love/Agape); the conversation is about virtue ethics as a modern philosophical framework rather than this world's account.

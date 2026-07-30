@@ -14,7 +14,6 @@ cache_stability: static
 term: Household / Oikos
 aliases:
 - oikos
-- the household
 - household church
 - the Christian home
 - domestic formation

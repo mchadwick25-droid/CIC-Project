@@ -4,7 +4,7 @@
 Term:                 Faith / Pistis
 World-Code:           alex
 Tier:                 1
-Aliases:              pistis, trust, belief, initial faith, the beginning of formation, the soul's first turn toward God
+Aliases:              pistis, belief, initial faith, the beginning of formation, the soul's first turn toward God
 Related-Terms:        Catechesis, Martyrdom / Witness, Logos, Knowledge / Gnosis, Wisdom / Sophia, Repentance / Metanoia
 Retrieve-When:        participant uses "faith" in a theological or formational sense, or understands faith mainly as belief in doctrines or intellectual assent; participant asks whether faith and reason, or faith and knowledge, are opposed; participant asks whether faith is the same as certainty or whether doubt is compatible with it; participant asks about the relation between faith and formation, whether faith alone suffices for salvation, or what the beginning of the formation journey looks like.
 Do-Not-Retrieve-When: participant is asking about the Reformation doctrine of justification by faith alone; primarily about gnosis as the developed form of faith (retrieve Knowledge/Gnosis); or focused on specific doctrines to be believed rather than faith as the soul's orientation.

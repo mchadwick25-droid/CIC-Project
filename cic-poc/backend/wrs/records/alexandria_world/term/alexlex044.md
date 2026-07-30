@@ -14,7 +14,6 @@ cache_stability: static
 term: Holy Spirit / Pneuma Hagion
 aliases:
 - Pneuma Hagion
-- the Spirit
 - Spirit of God
 - the Holy Ghost
 - Spirit of truth

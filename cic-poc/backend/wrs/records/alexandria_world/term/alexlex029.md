@@ -14,7 +14,6 @@ cache_stability: static
 term: Teacher / Didaskalos
 aliases:
 - didaskalos
-- the teacher
 - Christian teacher
 - spiritual guide
 - formation guide

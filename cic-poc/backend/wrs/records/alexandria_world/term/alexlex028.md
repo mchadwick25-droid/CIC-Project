@@ -167,6 +167,8 @@ field_relations:
   note: 'CO-P2-14 (Mark, 2026-07-28): Doc_06 SS4''s one-directional completion item, COMPLETED as the
     symmetric association the flag-don''t-hide discipline held it open for - the chunk''s own cross-reference,
     mutualized per the build''s declared intent.'
+alias_generic_override_note: '''the prayer'' is deliberately generic: the term IS bare Prayer - no distinct
+  period form exists (the confirmed-gloss module''s own bare Death/Christ/Prayer class). VG-2c, 2026-07-30.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex028_prayer.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

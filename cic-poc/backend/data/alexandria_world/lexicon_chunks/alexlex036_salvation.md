@@ -4,7 +4,7 @@
 Term:                 Salvation
 World-Code:           alex
 Tier:                 1
-Aliases:              soteriology, being saved, deliverance, healing, rescue, wholeness, the saved condition
+Aliases:              soteriology, being saved, deliverance, wholeness, the saved condition
 Related-Terms:        Restoration, Incarnation, Sin / Hamartia, Death, Resurrection, Participation, Theosis, Transformation, Repentance / Metanoia, Oikonomia, Hope / Elpis
 Retrieve-When:        participant asks what "saved" means here, or assumes a legal/courtroom frame (guilt, acquittal, penalty); participant asks how salvation relates to healing or transformation; conversation reaches the incarnation's purpose, the problem sin poses, or why this world does not organize salvation around forgiveness.
 Do-Not-Retrieve-When: the participant is asking narrowly about the mechanism of ongoing change (retrieve Transformation) or the goal (retrieve Theosis) and the therapeutic frame has already been surfaced.

@@ -13,12 +13,10 @@ review_state: draft
 cache_stability: static
 term: Baptism
 aliases:
-- photismos
 - illumination (baptismal)
 - initiation
 - the washing
 - new birth
-- the bath
 - crossing the threshold
 quick_meaning: For this world baptism is not a ceremony announcing a decision already made — it is a real
   threshold crossed in the body, in which the catechumen genuinely shares in Christ's death and resurrection,

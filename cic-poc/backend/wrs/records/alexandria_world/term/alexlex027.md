@@ -16,7 +16,6 @@ aliases:
 - abstinence
 - voluntary hunger
 - bodily discipline
-- the fast
 - keeping the fast
 - fasting practice
 quick_meaning: For this world fasting is not going without food for health or for spiritual credit — it

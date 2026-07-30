@@ -13,7 +13,6 @@ cache_stability: static
 id: alexlex074
 term: Fall / Descent
 aliases:
-- the fall
 - the descent of souls
 - pre-cosmic fall
 - the cooling of the noes

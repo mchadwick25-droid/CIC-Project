@@ -216,6 +216,10 @@ field_relations:
     CT-surfacing convention).'
 contested_claim_ids:
 - alexclaim003
+alias_generic_override_note: '''the Christ'' is deliberately generic: the term IS the bare name Christ
+  - the world has no distinct period form for it (the confirmed-gloss module''s own bare Death/Christ/Prayer
+  class); dropping it would hurt reachability for a term with no alternate vocabulary of its own register.
+  VG-2c, 2026-07-30.'
 ---
 Migrated at the S6.2 S2.2-equivalent (2026-07-27) from `data/alexandria_world/lexicon_chunks/alexlex022_christ.md` (mechanical split; mapping in `wrs/migrate/s62_alx_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

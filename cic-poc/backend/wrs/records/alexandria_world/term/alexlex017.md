@@ -14,7 +14,6 @@ cache_stability: static
 term: Sin / Hamartia
 aliases:
 - hamartia
-- sin
 - missing the mark
 - the fallen condition
 - the soul's misdirection

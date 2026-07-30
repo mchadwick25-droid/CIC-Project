@@ -13,7 +13,6 @@ review_state: draft
 cache_stability: static
 term: Son of God
 aliases:
-- the Son
 - the eternal Son
 - Son of the Father
 - only-begotten Son

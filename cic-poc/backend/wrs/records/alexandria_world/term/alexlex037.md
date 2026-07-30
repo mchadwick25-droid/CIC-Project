@@ -14,7 +14,6 @@ cache_stability: static
 term: Faith / Pistis
 aliases:
 - pistis
-- trust
 - belief
 - initial faith
 - the beginning of formation

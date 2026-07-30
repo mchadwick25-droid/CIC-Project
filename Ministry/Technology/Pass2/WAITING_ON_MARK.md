@@ -83,3 +83,25 @@
 **Verification:** Syriac gates 0/128 under its own backfill profile (alias_safety 4→0; six originals unchanged); records 400/400; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs**.
 
 **Next:** VG-2c — Alexandria's 36 (7 Rule-B collisions + 29 Rule-A), held for its own session with a fresh budget check, per the plan.
+
+## 2026-07-30 — VG-2c done: Alexandria alias retrofit (Step 2, world 3 of 3) — 36 → 0. STEP 2 COMPLETE.
+
+Finished in one sitting — no partial stop needed. All three built worlds now run alias_safety at zero.
+
+**The seven Rule-B collisions — each a pick, not a drop:**
+
+| key | went to | left | why |
+|---|---|---|---|
+| `photismos` | **Illumination** (alexlex004) | Baptism | It's the Greek of Illumination's own name, and the existing gloss ("the opening of sight") reads concept-ward. **This also answers §4.4's backfill ambiguity the same way** — the photismos gloss term_ids to alexlex004 when that pass runs. Baptism keeps `initiation`, `the washing`, `new birth`, `crossing the threshold` (its own authored `illumination (baptismal)` qualified item stays as authored — it contributes no key, by VG-1a's design). |
+| `catechist` | **Teacher/Didaskalos** (alexlex029) | Catechesis | The person-word belongs to the person-term; Catechesis keeps `the catechumen`, `catechumenate`, etc. |
+| `divine likeness` | **Likeness of God** (alexlex012) | Theosis | It's alexlex012's own name-half with its own gloss; Theosis keeps `deification`, `divinization`, and its gloss. |
+| `the eternal Word` | **Word of God** (alexlex024) | Logos | A Word-title on the Word-term; Logos keeps `divine Reason`, `ho logos`, `Christ as Word` + the "the Word" gloss. |
+| `communion` | *neither* | both | Bare generic (blocklist) — keeping it anywhere would still be a Rule-A violation. Participation's gloss carries the sharing-surface; Eucharist keeps `the Lord's Supper`, `the breaking of bread`, `the holy meal`, `the thanksgiving`. |
+| `the word` | *neither* | both | Same logic; the reviewed Logos gloss ("the Word") carries the plain surface. |
+| `the son` | *neither* | both | Same; Son of God keeps `the eternal Son`, `only-begotten Son`, `ho Huios`, and its own canonical name key. |
+
+**Rule A (29 records): 27 dropped clean, 2 overridden.** The drops lean on Alexandria's unusually rich reviewed gloss coverage (didaskalos→"the teacher", oikos→"the household", pistis→"trust…", arete→"excellence", elpis→"hope", ekklesia→"the gathered community", metanoia, psyche, hamartia, nous, Rule of Faith→"the received tradition"…) — every flagged English surface I dropped is carried by a gloss or by the term's own canonical name key (`sin`, `soul`, `household`, `fall`, `hope` all remain live via their term names, which Rule A deliberately doesn't police). **The two overrides are your module's own pre-identified class:** alexlex022 `the Christ` and alexlex028 `the prayer` — bare Christ/Prayer genuinely have no distinct period form, so a term-level `alias_generic_override_note` documents the exception and the gate reports it as a note rather than counting it. No new gloss entries were needed anywhere.
+
+**Verification:** Alexandria gates 7/7 at zero under the backfill profile (alias_safety 36→0, plus exactly the 2 override notes); records 400/400; records and deployed chunks edited in lockstep (asserted per file); retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs** (third world in a row confirming the dropped keys were never doing correct retrieval work).
+
+**Where the addendum stands now:** Step 1 complete (parser + gate + schema), Step 2 complete (all three built worlds at zero). Remaining: the §4.3 confirmed-gloss data move (then Rule C as its small follow-up, then term_id backfill — where the photismos call above is already made), and Step 3's clean builds (Hieronymian/PAHC/IJ authored under the live gate from their first record).

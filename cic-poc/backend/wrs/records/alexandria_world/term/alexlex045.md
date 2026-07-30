@@ -14,7 +14,6 @@ cache_stability: static
 term: Hope / Elpis
 aliases:
 - elpis
-- hope
 - Christian hope
 - eschatological hope
 - the soul's forward orientation
