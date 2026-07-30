@@ -48,6 +48,27 @@ interface Match {
 }
 
 /**
+ * Where the period term itself sits inside a match's full `rendered` span -
+ * the only part that should render as an interactive, colored highlight.
+ * The rest of the phrase (the plain-English gloss, plus the parenthesis
+ * punctuation) is genuinely plain text: it's the modern reading offered
+ * ALONGSIDE the world's own word, not the lexicon content itself.
+ *
+ * Mirrors ConfirmedGloss.rendered's own construction exactly
+ * (confirmed_glosses.py): Category A is `{gloss} ({original})`, so the
+ * period term starts after "gloss (" and ends before the closing paren;
+ * Category B is `{original} ({gloss})`, so the period *phrase* leads at
+ * offset 0 - Category B has no single bracketed foreign word, so `original`
+ * (the full attested phrase) is what plays that role instead.
+ */
+function periodTermSpan(gloss: GlossUsed): { start: number; length: number } {
+  if (gloss.category === 'A') {
+    return { start: gloss.gloss.length + 2, length: gloss.original.length };
+  }
+  return { start: 0, length: gloss.original.length };
+}
+
+/**
  * Every non-overlapping occurrence of any gloss's `rendered` string in
  * `text`, left to right. Case-insensitive - a Representative opening a
  * sentence with a gloss capitalizes its first letter ("A transformative
@@ -108,15 +129,24 @@ export function GlossHighlightedText({ text, glossesUsed, onDetailClick }: Gloss
     if (match.index > lastIndex) {
       parts.push(text.slice(lastIndex, match.index));
     }
+    const term = periodTermSpan(match.gloss);
+    const termStart = match.index + term.start;
+    const termEnd = termStart + term.length;
+    if (termStart > match.index) {
+      parts.push(text.slice(match.index, termStart));
+    }
     parts.push(
       <LexiconHighlight
         key={`${match.index}-${match.gloss.original}`}
         term={glossToLexiconTerm(match.gloss)}
-        matchedText={text.slice(match.index, match.index + match.length)}
+        matchedText={text.slice(termStart, termEnd)}
         onDetailClick={onDetailClick}
         variant="gloss"
       />
     );
+    if (termEnd < match.index + match.length) {
+      parts.push(text.slice(termEnd, match.index + match.length));
+    }
     lastIndex = match.index + match.length;
   }
   if (lastIndex < text.length) {
@@ -186,15 +216,24 @@ export function ComposedLine({ line, glossesUsed, termMap, allowedTermKeys, onGl
         )
       );
     }
+    const term = periodTermSpan(match.gloss);
+    const termStart = match.index + term.start;
+    const termEnd = termStart + term.length;
+    if (termStart > match.index) {
+      parts.push(<span key={`gloss-pre-${match.index}`}>{line.slice(match.index, termStart)}</span>);
+    }
     parts.push(
       <LexiconHighlight
         key={`gloss-${match.index}-${match.gloss.original}`}
         term={glossToLexiconTerm(match.gloss)}
-        matchedText={line.slice(match.index, match.index + match.length)}
+        matchedText={line.slice(termStart, termEnd)}
         onDetailClick={onGlossClick}
         variant="gloss"
       />
     );
+    if (termEnd < match.index + match.length) {
+      parts.push(<span key={`gloss-post-${match.index}`}>{line.slice(termEnd, match.index + match.length)}</span>);
+    }
     lastIndex = match.index + match.length;
   });
   if (lastIndex < line.length) {
