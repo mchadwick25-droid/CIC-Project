@@ -31,6 +31,14 @@ interface WorldSelectorProps {
   onBegin: (worlds: World[]) => void;
 }
 
+// The free-tier entry point (the landing page's Representative carousel)
+// hands off a single world with `mode=interview` and expects to land
+// directly in a Deep Interview - never the picker, never a route into
+// Compare Worlds. Multi-representative tables are the planned paid tier;
+// this keeps that boundary real at the one place a free visitor arrives
+// from outside the app, not just a label change.
+const DIRECT_INTERVIEW_MODE = 'interview';
+
 export function WorldSelector({ onBegin }: WorldSelectorProps) {
   const [worlds, setWorlds] = useState<World[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -51,20 +59,29 @@ export function WorldSelector({ onBegin }: WorldSelectorProps) {
 
         // Pre-select worlds handed off from the Atlas/pilot pages
         // (?worlds=id,id&mode=interview|table) - the URL contract those
-        // static pages were already built against, never actually wired up
-        // on this end until now. Pre-selects only; Begin is still the one
-        // required click, same as picking worlds by hand - the Atlas
-        // suggests, it never starts a conversation on its own. `mode` needs
-        // no separate handling: it's already emergent from seat count here
-        // (see this component's own header comment, §4).
+        // static pages were already built against. For a multi-world hand-off
+        // (or no mode), this only pre-selects - Begin is still the one
+        // required click, same as picking worlds by hand.
+        //
+        // `mode=interview` is different, and does need separate handling:
+        // it's the free-tier landing-page carousel's own direct-launch
+        // contract (one Representative, one link, straight into a Deep
+        // Interview) - Compare Worlds (2-3 seats) is the planned paid tier,
+        // so this path skips the picker entirely rather than pre-selecting
+        // into a screen that could still be turned into a multi-select.
         const params = new URLSearchParams(window.location.search);
         const worldIdsParam = params.get('worlds');
+        const modeParam = params.get('mode');
         if (worldIdsParam) {
           const requestedIds = worldIdsParam.split(',').map(id => id.trim()).filter(Boolean);
           const matched = requestedIds
             .map(id => sorted.find(w => w.id === id))
             .filter((w): w is World => w !== undefined)
             .slice(0, MAX_WORLDS);
+          if (matched.length === 1 && modeParam === DIRECT_INTERVIEW_MODE) {
+            onBegin(matched);
+            return;
+          }
           if (matched.length > 0) {
             setSelectedWorlds(matched);
           }
