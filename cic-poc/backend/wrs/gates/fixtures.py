@@ -195,4 +195,74 @@ def seeded_sets():
         "force_llm_vote": False})
     s["sentinel"] = [("em-dash in do_not_retrieve_when (the historical defect)", e1),
                      ("dash sentinel in retrieve_when", e2)]
+
+    # alias safety (VG-1b) - defined below, resolved at call time
+    s["alias_safety"] = _alias_seeded_sets()
+    return s
+
+
+# -------------------------------------------------- alias safety (VG-1b)
+
+def alias_override_set():
+    """SS5.6 override fixture: a term whose bare generic alias is covered
+    by a term-level alias_generic_override_note - the gate must REPORT it
+    (one 'note:' line), neither silently pass nor hard-fail."""
+    rs = clean_set()
+    rs["fixlexC"] = _term(
+        "fixlexC",
+        term="Thanatos Fixture",
+        aliases=["death"],
+        alias_generic_override_note=(
+            "'death' is deliberately generic: the world's own record has "
+            "no distinct period form (the bare Death/Christ/Prayer class)."),
+        field_relations=[])
+    return rs
+
+
+def _alias_seeded_sets():
+    s = []
+    # Rule A: a bare generic single-word alias, no override
+    a1 = clean_set()
+    a1["fixlexC"] = _term("fixlexC", term="Zoe Fixture",
+                          aliases=["life"], field_relations=[])
+    s.append(("bare generic single-word alias ('life'), no override", a1))
+    # Rule A determiner shape: the 'the word'/'the son' reconstruction
+    a2 = clean_set()
+    a2["fixlexC"] = _term("fixlexC", term="Logos Fixture",
+                          aliases=["the word", "ho logos fixture"],
+                          field_relations=[])
+    s.append(("determiner-led generic ('the word' -> 'word')", a2))
+    # Rule B: the photismos shape - one term's alias colliding with
+    # another term's alias, same world, post-parse key space (the
+    # parenthetically-qualified variant contributes no key, exactly as
+    # the VG-1a parser behaves - so the collision here is the REAL
+    # unqualified overlap, the still-live class)
+    b1 = clean_set()
+    b1["fixlexC"] = _term("fixlexC", term="Baptism Fixture",
+                          aliases=["photismos-fixture",
+                                   "illumination-fixture (baptismal)"],
+                          field_relations=[])
+    b1["fixlexD"] = _term("fixlexD", term="Illumination Fixture",
+                          aliases=["photismos-fixture"],
+                          field_relations=[])
+    s.append(("Rule B collision: two terms share an unqualified alias "
+              "key (the photismos shape)", b1))
+    # Rule B: term-name-vs-alias - the illumination shape (a canonical
+    # name colliding with another term's alias; aliases-only checking
+    # misses this class)
+    b2 = clean_set()
+    b2["fixlexC"] = _term("fixlexC", term="Restoration Fixture",
+                          aliases=["apokatastasis-fixture"],
+                          field_relations=[])
+    b2["fixlexD"] = _term("fixlexD", term="Apokatastasis-Fixture",
+                          aliases=[], field_relations=[])
+    s.append(("Rule B collision: a term's own canonical name vs another "
+              "term's alias (the apokatastasis shape)", b2))
+    # stale override: note present, nothing trips Rule A
+    o1 = clean_set()
+    o1["fixlexC"] = _term("fixlexC", term="Qyama Fixture",
+                          aliases=["bar qyama fixture"],
+                          alias_generic_override_note="stale note",
+                          field_relations=[])
+    s.append(("stale alias_generic_override_note (nothing trips Rule A)", o1))
     return s

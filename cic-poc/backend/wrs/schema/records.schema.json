@@ -146,6 +146,7 @@
         "record_type": {"const": "term"},
         "term": {"type": "string"},
         "aliases": {"type": "array", "items": {"type": "string"}},
+        "alias_generic_override_note": {"type": "string", "$comment": "VG-1b (Voice-Governance Addendum SS5.6): term-level documented exception for deliberately-generic aliases (the bare Death/Christ/Prayer class) - names which alias(es) and why; the alias-safety gate REPORTS it, never silently excludes the term. Term-level by design: aliases is array<string> with no per-item slot, and promoting it would be the frozen-world sweep SS7 forbids."},
         "original_script": {"type": "string"},
         "period_sense": {"type": "string", "$comment": "Level 1 draws on period_sense only"},
         "plain_explanation": {"type": "string", "$comment": "Level 2's AUTHORED content source (CO-P2-12 resolving FLAG-011): the record's meaning and its then-vs-now gap stated in plain language, written to the reading floor (parameters.yaml reading_floor) and machine-checked at the S5.4 gate; renders verbatim - never generated from the scholarly fields"},

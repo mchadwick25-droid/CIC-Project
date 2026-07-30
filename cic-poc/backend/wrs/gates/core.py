@@ -262,3 +262,160 @@ def gate_no_sentinel_conditions(records: dict) -> list:
             if text.strip() in sent:
                 out.append(f"{rid}: do_not_retrieve_when carries an em-dash sentinel")
     return out
+
+
+# ------------------------------------------------------- alias safety (VG-1b)
+
+# Rule A blocklist: small, curated, VERSIONED (changes ride the
+# gate-integrity rule, like SYMMETRIC/INVERSE above). High-frequency
+# general-register English words that are unsafe as bare aliases even
+# when the bundled frequency table misses them (period-adjacent religious
+# register the general-English table under-ranks).
+ALIAS_GENERIC_BLOCKLIST_V1 = {
+    "word", "son", "father", "spirit", "light", "life", "love", "truth",
+    "way", "world", "death", "prayer", "teacher", "reading", "letter",
+    "church", "faith", "grace", "glory", "peace", "hope", "fear", "heart",
+    "soul", "mind", "body", "name", "bread", "water", "wine", "city",
+    "king", "lord", "god", "christ", "cross", "law", "sin", "gift",
+    "covenant", "vow", "communion", "gospel", "desert", "cell", "elder",
+}
+
+_ALIAS_FREQ_PATH = None  # resolved lazily so the module imports without I/O
+_ALIAS_FREQ_TABLE = None
+_DETERMINER_RE = re.compile(r"^(?:the|a|an)\s+", re.I)
+_NOTE_PREFIX = "note:"
+
+
+def _alias_freq_table() -> set:
+    """The bundled offline top-N general-English frequency table
+    (english_top5000_v1.txt beside this module) - flat file, no network,
+    no model, the parroting.py/content_coverage.py offline discipline."""
+    global _ALIAS_FREQ_TABLE
+    if _ALIAS_FREQ_TABLE is None:
+        from pathlib import Path
+        path = Path(__file__).with_name("english_top5000_v1.txt")
+        _ALIAS_FREQ_TABLE = {
+            line.strip().lower() for line in
+            path.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")}
+    return _ALIAS_FREQ_TABLE
+
+
+def _postparse_alias_keys(record) -> list:
+    """The post-parse alias key space for one term record - the SAME
+    semantics app/rag/indexer.py's parse_aliases() (as fixed at VG-1a)
+    applies to the deployed chunk this record generates: a
+    parenthetically-qualified alias contributes NO key (dropped whole,
+    never reduced to its bare head); surrounding quotes are shed;
+    keys are lowercased. Render parity keeps record aliases textually
+    equal to the chunk front matter, so this reproduces the runtime
+    key space from record data without importing the indexer."""
+    keys = []
+    for a in record.get("aliases") or []:
+        # quoted glosses first (the runtime extracts them BEFORE the
+        # parenthetical check, so a quoted gloss inside a qualified item
+        # still contributes its key)
+        for phrase in re.findall(r'"([^"]*)"', a):
+            cleaned = phrase.strip(" ,")
+            if len(cleaned) > 1:
+                keys.append(cleaned.lower())
+        remainder = re.sub(r'"[^"]*"', "", a)
+        for chunk in re.split(r"[;,/]", remainder):
+            if "(" in chunk or ")" in chunk:
+                continue
+            cleaned = chunk.strip(" /").strip()
+            if len(cleaned) > 1:
+                keys.append(cleaned.lower())
+    return keys
+
+
+def _term_name_key(record) -> str:
+    """The frontend's own term-name normalization (LexiconHighlight.tsx):
+    strip parentheticals, take the pre-'/' segment, lowercase."""
+    name = record.get("term") or ""
+    name = re.sub(r"\([^)]*\)", "", name).split("/")[0].strip()
+    return name.lower()
+
+
+def gate_alias_safety(records: dict, voice_material: str = "") -> list:
+    """VG-1b (Voice-Governance Addendum SS5.3-5.4, SS5.6, SS5.8).
+
+    Rule A (generic alias): an alias whose determiner-stripped form is a
+    single token on the curated blocklist or inside the bundled top-5000
+    general-English frequency table is unsafe as a bare highlight key.
+    Rule B (collision): within ONE world (the scope useLexicon.ts's
+    termMapsByWorld actually renders from), {term-name key} ∪ post-parse
+    alias keys must be unique across term records - two of the nine real
+    collisions were a term's own canonical name vs another term's alias,
+    so aliases-only checking misses the bug class.
+    Rule C (gloss/alias cross-namespace) is DEFERRED to VG-1c - it needs
+    the confirmed-gloss term_id field that does not exist yet.
+
+    Override (SS5.6, the CO-P2-06/07 documented-exception precedent):
+    a term-level `alias_generic_override_note` naming the deliberately
+    generic alias(es) suppresses Rule A for that term's aliases and is
+    REPORTED as a non-counting 'note:' line, never silently absorbed;
+    an override on a term with no Rule-A hit is itself a violation
+    (stale overrides don't get to accumulate).
+
+    Operates on the post-parse key space (never the raw authored string):
+    a raw-string gate would have reported zero violations on the exact
+    record that caused the production bug.
+    """
+    out = []
+    freq = _alias_freq_table()
+    by_world = {}
+    for rid, r in records.items():
+        if r.get("record_type") == "term":
+            by_world.setdefault(r.get("world_id", "?"), []).append(r)
+
+    for world, terms in sorted(by_world.items()):
+        # ---- Rule A
+        for r in sorted(terms, key=lambda x: x["id"]):
+            hits = []
+            for key in _postparse_alias_keys(r):
+                stripped = _DETERMINER_RE.sub("", key).strip()
+                if " " in stripped:
+                    continue  # multi-token after determiner-strip: Rule
+                              # B's territory, not a generic-word case
+                if stripped in ALIAS_GENERIC_BLOCKLIST_V1 or stripped in freq:
+                    hits.append(key)
+            note = r.get("alias_generic_override_note")
+            if hits and note:
+                out.append(f"{_NOTE_PREFIX} {r['id']}: generic alias(es) "
+                           f"{hits} covered by alias_generic_override_note "
+                           f"({note[:80]!r}) - documented exception, "
+                           f"reported not suppressed")
+            elif hits:
+                out.append(f"{r['id']}: Rule A - generic alias(es) {hits} "
+                           f"(determiner-stripped form on the blocklist/"
+                           f"top-5000 table) and no "
+                           f"alias_generic_override_note")
+            elif note:
+                out.append(f"{r['id']}: STALE alias_generic_override_note "
+                           f"(no alias currently trips Rule A) - remove or "
+                           f"re-justify")
+        # ---- Rule B
+        claims = {}
+        for r in terms:
+            keys = set(_postparse_alias_keys(r))
+            tkey = _term_name_key(r)
+            if tkey:
+                keys.add(tkey)
+            for k in keys:
+                claims.setdefault(k, []).append(r["id"])
+        for k in sorted(claims):
+            owners = sorted(set(claims[k]))
+            if len(owners) > 1:
+                out.append(f"{world}: Rule B - key {k!r} claimed by "
+                           f"{', '.join(owners)} (one world map, one "
+                           f"winner: whichever indexes last silently "
+                           f"steals the key)")
+    return out
+
+
+def split_alias_reports(entries: list) -> tuple:
+    """(violations, notes) - 'note:'-prefixed entries are documented-
+    exception reports (SS5.6), printed but never counted as violations."""
+    notes = [e for e in entries if e.startswith(_NOTE_PREFIX)]
+    return [e for e in entries if not e.startswith(_NOTE_PREFIX)], notes

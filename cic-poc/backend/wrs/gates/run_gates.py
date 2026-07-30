@@ -33,6 +33,10 @@ GATES = {
     "narratability": lambda rs, vm: core.gate_figure_narratability(rs, vm),
     "quote_recording": lambda rs, vm: core.gate_quote_fidelity_recording(rs),
     "sentinel": lambda rs, vm: core.gate_no_sentinel_conditions(rs),
+    # VG-1b (Voice-Governance Addendum SS5.3-5.8): Rules A+B; Rule C
+    # deferred to VG-1c. 'note:'-prefixed entries are SS5.6 override
+    # reports - printed, never counted (split_alias_reports).
+    "alias_safety": lambda rs, vm: core.gate_alias_safety(rs),
 }
 
 
@@ -62,6 +66,19 @@ def selftest() -> int:
             if not caught:
                 failures.append(f"seeded defect NOT caught: {name} / {label}")
             print(f"| {name} | {label} | {len(v)} | {'CAUGHT' if caught else 'MISSED'} |")
+
+    print("\n## Alias-safety override path (VG-1b SS5.6 - reported, never "
+          "silently passed, never hard-failed)\n")
+    ov = core.gate_alias_safety(fixtures.alias_override_set())
+    ov_viol, ov_notes = core.split_alias_reports(ov)
+    print(f"- override fixture: {len(ov_viol)} violation(s), "
+          f"{len(ov_notes)} note(s) -> "
+          f"{'PASS' if not ov_viol and len(ov_notes) == 1 else 'FAIL (unexpected)'}")
+    for x in ov_notes:
+        print("  ", x)
+    if ov_viol or len(ov_notes) != 1:
+        failures.append(f"alias override fixture expectation not met: "
+                        f"viol={ov_viol}, notes={ov_notes}")
 
     print("\n## Readability instrument (values from parameters.yaml reading_floor)\n")
     ok_r = core.readability_check(fixtures.READABLE_TEXT)
@@ -135,9 +152,13 @@ def run_records(records_dir: str, profile: str, voice_material: str) -> int:
             v = core.gate_field_completion(records, profile)
         else:
             v = fn(records, vm)
+        v, notes = core.split_alias_reports(v)
         total += len(v)
-        print(f"## {name}: {len(v)} violation(s)")
+        print(f"## {name}: {len(v)} violation(s)"
+              + (f" (+{len(notes)} documented-exception note(s))" if notes else ""))
         for x in v:
+            print(" -", x)
+        for x in notes:
             print(" -", x)
     print(f"\nTOTAL: {total} violation(s) across {len(records)} records (profile={profile})")
     return 1 if total else 0

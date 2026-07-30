@@ -492,3 +492,6 @@ rows:
   - schema_path: "gloss:properties/exact_wording_required"
     pass1_field: "exact_wording_required"
     warrant: "Pass 1 SS3.11 closing note (keyed list, not a record type)"
+  - schema_path: "$defs/term/properties/alias_generic_override_note"
+    pass1_field: "alias_generic_override_note"
+    warrant: "VG-1b, Voice-Governance Addendum 2026-07-30 SS5.6 (the CO-P2-06/CO-P2-07 documented-exception precedent applied to the alias-safety gate override path)"
