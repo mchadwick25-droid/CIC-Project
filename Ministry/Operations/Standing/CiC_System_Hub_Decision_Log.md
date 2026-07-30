@@ -11,6 +11,57 @@ workstream in this project.
 
 ---
 
+## 2026-07-27 — Entity-ID correction dispatch executed: 11 files sorted by bucket, a real legal-sequencing problem found and flagged to Mark and Susan, not resolved unilaterally
+
+**What this closes:** `Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Entity_ID_Correction_2026-07-27.md` — the dispatch correcting the false Colorado filing (Entity ID 20261874960, never actually completed — on-screen verification only, no receipt, later traced by the Secretary of State's office to a likely address mismatch) with the real, confirmed one: **Entity ID 20261918758, Document Number 20261918758, Form DPC-PBC, Status Good Standing, Formation Date 07/27/2026**, verified two ways (email receipt + public-record search).
+
+**Independently re-verified the dispatch's own file list before trusting it** — its own repo-wide grep claimed 11 files; a fresh grep here found 13 hits total. The 2 extra were not omissions: `CiC_System_Hub_Entity_ID_Correction_2026-07-27.md` is the dispatch document itself (correctly self-referential), and `Ministry/Features/Funding-Strategy/Decision-Log.md` already carries the correct, fully-accurate narrative of this exact correction (written before the dispatch was drafted). The dispatch's 11-file count held up under independent check.
+
+**Bucket 1 — dated history, addendum only, narrative untouched** (`CiC_System_Hub_Decision_Log.md` — this file's own 2026-07-21 entry; `CiC_System_Hub_Sync_Update3_2026-07-21.md`; `CiC_Nonprofit_Formation_Decision_Log.md`; the dated entries in `CiC_System_Hub_Funding_Docx_TaxStatus_Fix_2026-07-22.md`): each got a short dated 2026-07-27 addendum stating the ID was never real and cross-referencing this dispatch, mirroring the append-only correction convention this project already used for the 2026-07-21 address-typo fix in the Nonprofit Formation Decision Log.
+
+**Bucket 2 — live trackers, corrected directly** (`CiC_Task_Board_2026.md`, `CiC_Dashboard.html`, `CiC_Gantt_Visual.html`, `CiC_Acceleration_Gantt_2026.gan`, `cic-website/README.md`): task/item #603 ("Filed CO Articles of Incorporation") now shows the real ID and the real date, **07-27, not 07-21** — the dispatch explicitly scoped formation-date correction as in-bounds here, not just the ID number, since #603 is the filing event itself and the 07-21 date is simply wrong on its face.
+
+**Deliberately left untouched, same file type but not the same judgment call:** #624 (EIN), #625 (Organizational Resolutions signed), #620 (bank account), #621 (IP Assignment + Shareholder Agreement signed) all still read "DONE 2026-07-21" in the Task Board, Dashboard, and both Gantt files. These weren't missed — they carry the identical sequencing question flagged below for the two legal documents (were these actions valid if dated to a day the entity didn't yet legally exist), just showing up in tracker files instead of legal ones. Changing their dates would itself be resolving that question, not just fixing a fact — left for Mark and Susan's call, same as Bucket 3.
+
+**Bucket 3 — read in full, not touched, a real problem found:**
+
+- **`CiC_PBC_Bylaws_and_Organizational_Resolutions_V0_1.md`.** Step 1 (the incorporator's action seating the initial board) is signed "dated July 21, 2026 — **confirmed as the actual incorporation date**" — now false. Step 2 (bylaws adoption, officer election, and the $40 share issuance to Mark and Susan) flows directly from Step 1 and is signed the same way. The document's own "Status of the blanks" table had flagged this date as provisional pending confirmation ("update if the actual CO SOS filing lands on a different day") — that caveat was checked off as resolved before it actually was.
+- **`CiC_PBC_IP_Assignment_Agreement_V0_1_DRAFT.md`.** Explicitly defines **"the Incorporation Date"** as an operative term — "confirmed as July 21, 2026" — and the entire assignment (Section 3) is effective "as of the Incorporation Date." The IP transfer's legal effective date is that defined term, verbatim.
+- **The real problem, stated plainly:** a corporation can't organize, elect officers, issue shares, or receive a capital contribution before it legally exists. The real incorporation date is now confirmed as 07-27-2026 — six days after both documents assert the entity already existed and both were signed. Per `CiC_System_Hub_Sync_Update3_2026-07-21.md`'s own account, **both documents were actually executed** — signed by both Mark and Susan, copies given to Susan — not left as unsigned drafts.
+- **One more document with the same signing pattern, not in the original 11 but checked anyway:** `CiC_PBC_Shareholder_Buy-Sell_Agreement_V0_1_DRAFT.md` was also signed the same day per the same Sync Update. Its text doesn't define an "Incorporation Date" operative term or cite the entity ID directly — grepped and read, genuinely clean on that front — but it's the same signing event and worth Mark and Susan's eyes for consistency regardless.
+- **One factual gap worth flagging, not resolved:** signed PDF copies exist in `Ministry/Organization/` for the IP Assignment (`Faithways_Studio_IP_Assignment_Agreement_SIGNED.pdf`) and the Shareholder Agreement (`_SIGNED.pdf`) — but only a `_SIGNABLE.pdf` (unsigned template) exists for the Bylaws & Organizational Resolutions, even though every account of that day says it was signed (twice, once at the original $700 figure and again after the correction to $40). Whether a signed copy exists somewhere outside this repo, or was never scanned back in, is worth Mark confirming — it affects how re-execution would actually happen.
+- **Not resolved here, per the dispatch's own instruction and this project's standing practice on legal documents:** neither file was edited. The ID swap and the date correction are proposed, not applied, pending Mark and Susan's decision on how to handle documents already signed against a false predicate — most likely re-dating and re-executing both no earlier than 07-27-2026, but that is their call to make, not a default to apply unilaterally.
+
+**Flagged to Mark and Susan directly, not resolved:** the Bucket 3 sequencing problem above, spanning both legal documents plus the related "DONE 2026-07-21" entries left untouched in Buckets 1/2's own tracker files, plus the Bylaws/Resolutions signed-copy gap. Nothing else in any of the 11 files changed — voice, structure, and unrelated decisions all stand as written.
+
+---
+
+## 2026-07-26 (latest) — Pass 3 build launch prompt drafted, verified, and signed off
+
+**New thread (V5) picked up the handoff clean.** Re-verified every claim in the V5 launch prompt directly against git and the actual files before acting on any of it — `14c11b8` confirmed pushed and matching `origin/main`; every specific fix the handoff cited (S1.1a, S2.1a/S2.1b, S5.6, F1's withdrawal, F7/F8/F9 applied, the four-kind parity taxonomy, the Phase 3 safety-rule expansion) confirmed actually present in the blueprint text, not just asserted.
+
+**One gap the handoff hadn't surfaced: whether Fable could literally execute the build.** Pass 1 and Pass 2 had Fable in a read-only chat thread producing a document that a Sonnet/Claude-Code session committed afterward (per the brief's own §10 and `14c11b8`'s `Co-Authored-By` line) — a fundamentally different capability than running scripts, proving byte-identical reruns, and making git commits itself. Asked Mark directly rather than assuming; confirmed the Pass 3 thread runs as a coding-agent session with real file/Bash/git access, same as this one.
+
+**M-checkpoint handling was the one interpretive call flagged rather than decided silently.** The blueprint defines M checkpoints as Mark's own decision, presented singly, with dependent work pausing for a real answer — genuinely in tension with "one continuous self-administered session" if read carelessly. Drafted the launch prompt to have Fable stop live and wait for Mark's actual answer at each M, rather than self-administering it or inventing a workaround, and flagged that specific choice for confirmation. **Mark confirmed:** "yes we want rigor and clean reviews at strategic points."
+
+**Result:** `Ministry/Operations/Standing/Launch-Prompts/CiC_Fable_Pass3_Build_Thread_Launch_2026-07-26.md` — signed off, ready to paste into the Fable build thread whenever Mark opens it. States plainly: execute S1.0–S6.6 in one session; self-administer G/B/P/L/R checkpoints for real (no external review layer — already twice-settled, not reopened); §0's stale "Sonnet sessions... Fable is not in the execution loop" line is superseded, not current; M checkpoints stop live and wait for Mark.
+
+---
+
+## 2026-07-26 (later yet) — Pass 2 blueprint fixed and pushed; a real context-loss incident, caught and recovered rather than papered over
+
+**Fable delivered the Pass 2 build blueprint** (`Ministry/Technology/CiC_System_Redesign_Pass2_Blueprint_2026-07-26.md`, turning the twice-reviewed Pass 1 design into an ordered, checkpoint-gated build sequence), using far less of Fable's weekly budget than expected. It went through a full P0/P1 adversarial review (7 P0s, 15 P1s, all applied directly to the document) and then a follow-up Touches-verification pass — a background research agent traced all 31 build steps against the real `cic-poc/backend`/`frontend` code, adding verified file-path detail throughout and surfacing three more sequencing gaps (F7, F8, F9), approved by Mark and applied. **No numbered review artifact survives for the P0/P1 round** — unlike every other review in this arc it was never saved to the Audits folder before continuity was lost; the fixes themselves are real and verified present in the committed file, but that review's own reasoning does not exist as a document.
+
+**Given the token savings, Mark approved a real change of plan: Fable would build the entire system, not just design and blueprint it — one continuous session executing the whole blueprint, self-administering every checkpoint it already defines, no external Opus-review layer added on top.** That last part — no added Opus layer — was reached only after the assistant proposed adding one (phase-boundary stops with independent Opus review) and then, on its own, raised the concern that it would cost Fable something and suggested keeping it all in Fable instead; Mark agreed.
+
+**Then two internet outages and a context compaction happened in sequence, and the thread lost track of its own settled decisions — twice, in the same way.** First it reverted to describing the blueprint's own stale default framing ("Sonnet sessions, one step at a time") as still current, and had to be corrected. Then, having been corrected, it re-proposed the exact external-Opus-review idea that had already been considered and rejected, and actually dispatched a duplicate adversarial review against a blueprint that had already been fully reviewed and fixed — which Mark had to stop by hand. When Mark pasted the real transcript of the original P0/P1 fix pass back in in an attempt to restore context, it was initially — reasonably, given everything else that had already gone wrong — treated as a possible fabrication, until checked directly against the committed file and confirmed true line-by-line (`S1.1a`, `S2.1a`/`S2.1b`, `S5.6`, the Phase 3 safety-rule expansion, F1's withdrawal, the four-kind parity taxonomy, all present and matching).
+
+**The actual damage was conversational memory of provenance, not engineering work.** Every fix described in the lost thread survived in the file the whole time. Once verified, the complete blueprint (P0/P1 fixes, F7–F9, and the Touches verification doc) was committed and pushed to `origin/main` at `14c11b8`.
+
+**Status:** design and blueprint both finished, reviewed, fixed, and on `main`. Both of this week's Fable passes are spent (design, then blueprint); Mark has explicitly accepted spending more to have Fable run the full build regardless ("a light week... but let's get it right"). Not yet done: the actual Fable launch prompt for the full build. Handed off to a new thread — `Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Thread_Launch_V5_2026-07-26.md` — specifically so the settled decisions (no external Opus layer; one continuous Fable session; do not re-review the blueprint) are read from a durable document rather than reconstructed from a conversation that had already proven unreliable twice.
+
+---
+
 ## 2026-07-26 (even later) — Second review round on the Pass 1 design, checking the first fix pass itself; caught it repeating a mistake the design document made
 
 **Mark confirmed Fable's weekly pass budget has real room** (only Pass 1 itself has been spent; the review-and-fix cycles all ran on Opus/Sonnet, not Fable) and wants Fable to run Pass 2 next — but asked for one more review first. Dispatched a second Opus review, specifically checking whether the fix pass logged in the entry above actually landed correctly, per the exact discipline that caught two new errors in the brief's own round-3→round-4 fix pass. It earned its keep again.
@@ -148,6 +199,45 @@ workstream in this project.
 **The brief was then adversarially reviewed (Opus) before being sent — and the review earned its keep.** Full review at `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/11_Opus_Adversarial_Review_of_Brief.md`. Found real, output-changing gaps: the brief never pointed Fable at the actual current governing documents (Constitution, Facilitator Governance, Construction Framework); the "pressure test" item had no real transcript to test against, despite real ones existing elsewhere in the repo; two of the brief's own six stated objectives had no corresponding deliverable; §6 reported only the positive half of the external-framework research and dropped its single most important warning (reusing a world's own vocabulary as persona material is the highest-risk setup for parroting instead of voice). **It also found two real factual errors introduced while writing the brief** — a mechanism misattribution (confirmed-glosses was blamed for a bug that was actually the closing-sequence's) and a fabricated composite quote (two separate research findings fused into one quotation that doesn't exist verbatim). **As of this entry, the P0 fixes from that review have not yet been applied to the brief.** This is the single most important open item for whoever picks this up next.
 
 **Handoff, not a crisis.** Unlike the 2026-07-20 handoff above, this is not an incident — it's a very long, productive session (spanning multiple days of wall-clock work) reaching a natural point to hand off cleanly. See `Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Thread_Launch_V4_2026-07-25.md` for the actual launch prompt.
+
+---
+
+## 2026-07-24 (later, cross-thread) — Homepage's static representative grid upgraded to a real interactive carousel, launching free single interviews directly; live on both `cic-poc` and `cic-website`
+
+**Cross-referenced, not duplicated** — full reasoning in the Website thread's own
+`Ministry/Features/Website/Decision-Log.md` (2026-07-24, later) and the In-App
+Icons & Graphics thread's own log; this is the cross-thread status point.
+
+**What shipped:** the pilot-invitation homepage (already rebuilt by a separate
+thread per the 2026-07-24 handoff below, static six-portrait grid in place) now has
+a real chronological carousel instead — era-tinted, click any Representative for
+their full tile info, then a direct **"Launch an Interview"** link into a free
+single conversation. Reads `data/world-census.json` live rather than a hand-copied
+data, so it can't drift from the Atlas's own numbers the way this site's data has
+before.
+
+**A real product/business boundary made functional, not just labeled:** Mark's
+direction — interviews free, multi-representative Compare-Worlds tables a planned
+paid tier — required an actual `cic-poc` fix, not a website-only change.
+`WorldSelector.tsx`'s `mode=interview` URL param was documented in-code but never
+read; now, a single-world request with that mode skips the "Choose a Tradition"
+picker entirely and starts the conversation directly, closing off the one path a
+free visitor could otherwise use to reach the paid multi-select experience.
+Verified locally both ways; the existing multi-world hand-off is unaffected.
+
+**Two real bugs caught before shipping:** the census's own id for Church and Empire
+doesn't match the live app's actual `world_id` (would have 404'd that one entry's
+interview link — corrected defensively, flagged for a source fix separately); and a
+dark-mode contrast bug where card/panel text inherited the page's dark color while
+sitting on a background that stayed light, washing text out to near-illegible.
+
+**Committed and pushed directly to `main`, per Mark's explicit go-ahead** — the
+`cic-poc` fix (`83d058f`) and the `cic-website` carousel (`3566031`, log entry
+`d2f42fa`). Both are on Render/Cloudflare's normal auto-deploy path from here.
+**Deliberately scoped to only those files** — a substantial amount of unrelated,
+uncommitted work was sitting in the shared repo at push time (signed legal/entity
+documents, Gantt files, other threads' launch prompts, a Funding-Strategy README
+edit) and was explicitly left untouched rather than swept into this commit.
 
 ---
 
@@ -1015,6 +1105,8 @@ answered.
 ## 2026-07-21 (latest) — Nonprofit-to-PBC cleanup executed: 43 files reviewed, 15 edited, 5 marked superseded, 3 flagged for Mark, support.html's false live-site claim fixed
 
 **What this closes:** the dispatched cleanup prompt (`Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Nonprofit_to_PBC_Cleanup_2026-07-21.md`) plus the follow-on sync update confirming the entity is now actually incorporated (Faithways Studio, Inc., Entity ID 20261874960) — both verified directly against the actual decision logs before anything was touched, not taken on faith.
+
+**Addendum, 2026-07-27:** that Entity ID (20261874960) was never real — the filing never actually completed. The real, confirmed registration is Entity ID 20261918758, Formation Date 07/27/2026. See this log's own 2026-07-27 entry above for the full correction.
 
 **Priority 1, done first: `cic-website/support.html`.** This was a live, public page telling real visitors CiC was a nonprofit with federal 501(c)(3) determination pending, and that gifts given now would likely become retroactively deductible. None of that is true anymore. Rewrote the status section to accurately describe the PBC structure (Faithways Studio, Inc., mission-locked via a 4/5-supermajority charter provision) and state plainly that contributions are not, and will never be, tax-deductible under this structure. Reworked the giving section itself, not just the disclosure — replaced the old two-tier retroactive-deduction/partner-church scheme with the actual finalized ask language and suggested amounts from `Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md` ($10 one-time / $8-month recurring, the "keeps the Table open for ten more seekers" line, the honest "technology, the people, and the work it takes" where-it-goes language). No live Stripe link exists yet (that's gated on Mark's own Stripe/Relay account setup, a standing account-creation constraint), so the page routes to email for now rather than fabricating a payment button that doesn't work, and says so. Verified rendering clean in-browser, zero console errors.
 
@@ -4373,3 +4465,26 @@ not yet built into the real app.
 conversation now that the backend is confirmed responsive, then continue Phase 2
 (remaining pieces per the feature log's own status section) or move to whichever
 System Hub priority Mark names next.
+
+## 2026-07-26 — M1 decided (Pass 3 build thread): record-store physical form is files-in-git
+
+**Decision (Mark, in the Pass 3 build thread):** M1 — Pass 1 §12.2, record-store
+physical form — decided as the blueprint's own proposal, per Mark's direct answer
+("follow your recommendation"): **files in git** — one file per record, one directory
+per world under `cic-poc/backend/wrs/records/`, structured front matter validated by
+a committed JSON Schema. A database remains a later optimization behind the same
+schema. Presented singly with two alternatives (SQLite; one-file-per-record-type);
+recorded here before the dependent steps (S1.5 schema, S1.3 gates) proceed, per the
+blueprint §1 M rule. Full context in the build thread and
+`Ministry/Technology/Pass2/decisions/M1_record_store_form.md`.
+
+## 2026-07-26 — M2 decided (Pass 3 build thread): first migration world is Desert
+
+**Decision (Mark, in the Pass 3 build thread):** M2 — Pass 1 §12.5, first migration
+world — decided as the blueprint's own proposal, per Mark's direct answer ("follow
+your recommendation"): **Desert Monasticism migrates first.** Smallest record count
+(fastest schema shakedown), worst live-fabrication record (highest safety value per
+record), smallest new-authoring load; Alexandria's retrieval-economics win arrives
+with R7 regardless of order. Presented singly with two alternatives (Alexandria;
+Syriac). Recorded before S2.1 proceeds, per the blueprint §1 M rule. Full context:
+`Ministry/Technology/Pass2/decisions/M2_first_migration_world.md`.

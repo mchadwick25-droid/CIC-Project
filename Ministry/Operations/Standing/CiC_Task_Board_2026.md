@@ -460,9 +460,12 @@ check of the real Living Table build in a running conversation — see LT-1.
       the Gantt file (Gantt IDs 604–613) rather than deleted, so the history stays
       visible. **What's actually left is a short, dependency-ordered execution
       checklist, added below as new Gantt IDs 620–625:**
-      1. **603 — DONE 2026-07-21 — Filed CO Articles of Incorporation.** Faithways
-         Studio, Inc. is now a real, incorporated Colorado PBC. **Entity ID
-         20261874960, Transaction # 20261874960.**
+      1. **603 — DONE 2026-07-27 — Filed CO Articles of Incorporation.** Faithways
+         Studio, Inc. is now a real, incorporated Colorado PBC, verified two ways
+         (email receipt + public-record search). **Entity ID 20261918758, Document
+         Number 20261918758, Form DPC-PBC, Status Good Standing.** (A 2026-07-21
+         filing attempt never actually completed — on-screen verification only, no
+         receipt, later traced to a likely address mismatch; refiled from scratch.)
       2. **624 — DONE 2026-07-21 — EIN obtained from the IRS.**
       3. **625 — DONE 2026-07-21 — Organizational Resolutions signed** by Mark and
          Susan (Bylaws adopted, officers elected, share issuance and bank account
@@ -841,6 +844,24 @@ everything below was not yet started when the descope landed.
       research kept but flagged "do not use." Full account:
       In-App-Icons-Graphics Decision-Log; System Hub Decision Log, 2026-07-24
       (still even later).
+- [x] **LT-6 — Homepage's static representative grid upgraded to a real
+      interactive carousel; live (2026-07-24).** The pilot-invitation homepage's
+      static six-portrait grid (built by a separate thread) is now a
+      chronological, era-tinted carousel reading `data/world-census.json` live —
+      click any Representative for their tile info, then **"Launch an
+      Interview"**, a real link into a free single conversation. Required an
+      actual `cic-poc` fix, not just a website change: `WorldSelector.tsx`'s
+      documented-but-unused `mode=interview` param now skips the multi-select
+      picker entirely for a single-world request, keeping the planned free
+      (interview) / paid (multi-table) boundary real rather than just labeled.
+      Two bugs caught pre-ship: a census/app world_id mismatch that would have
+      404'd one interview link, and a dark-mode contrast bug on card/panel text.
+      **Committed and pushed directly to `main`, per Mark's explicit go-ahead**
+      (`cic-poc`: `83d058f`; `cic-website`: `3566031`) — deliberately scoped
+      past a large amount of unrelated uncommitted work (signed legal/entity
+      documents among it) sitting in the shared repo at push time. Full
+      account: Website Decision-Log; System Hub Decision Log, 2026-07-24
+      (later, cross-thread).
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
       all green, measured from the masters; two findings fixed in-pass (three in-file lock
