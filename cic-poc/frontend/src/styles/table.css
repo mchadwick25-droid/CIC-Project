@@ -21,6 +21,9 @@
        --color-representative*   = --gold-leaf / --gold-wash (the Representative voice)
        --color-participant(-bg)  = --lapis / --lapis-wash
        --color-lexicon(-bg/hover)= --tyrian / --tyrian-wash
+       --color-gloss(-bg/hover)  = --azurite / --azurite-wash (confirmed
+         inline glosses only - a distinct modifier on top of .lexicon-term,
+         not a replacement; see .lexicon-term--gloss below)
        --color-primary(-hover)   = --madder / --madder-deep (system action accent)
        --color-border            = --rule
        --color-error              = --error
@@ -51,6 +54,14 @@
   --color-lexicon: #6B3FA0;
   --color-lexicon-bg: #F3EFFA;
   --color-lexicon-hover: #583488;
+
+  /* Confirmed inline glosses (modern word leads, period term follows in
+     parentheses) - deliberately distinct from --color-lexicon so a
+     participant can tell "this exact phrasing was reviewed and confirmed"
+     apart from ordinary lexicon-term highlighting at a glance. */
+  --color-gloss: #1B6FA8;
+  --color-gloss-bg: #EAF3FA;
+  --color-gloss-hover: #124F79;
 
   /* System actions - deliberately distinct from the Representative's gold-leaf */
   --color-primary: #A13E2B;
@@ -440,6 +451,19 @@ body {
   background-color: var(--color-lexicon);
   color: white;
   text-decoration: none;
+}
+
+/* Confirmed-gloss modifier: applied ALONGSIDE .lexicon-term (never instead
+   of it), so every layout/interaction rule above still applies - only the
+   color pair changes. */
+.lexicon-term--gloss {
+  color: var(--color-gloss);
+  background-color: var(--color-gloss-bg);
+}
+
+.lexicon-term--gloss:hover {
+  background-color: var(--color-gloss);
+  color: white;
 }
 
 /* Tooltip */

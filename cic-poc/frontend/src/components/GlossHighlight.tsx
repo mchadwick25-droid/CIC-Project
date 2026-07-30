@@ -114,6 +114,7 @@ export function GlossHighlightedText({ text, glossesUsed, onDetailClick }: Gloss
         term={glossToLexiconTerm(match.gloss)}
         matchedText={text.slice(match.index, match.index + match.length)}
         onDetailClick={onDetailClick}
+        variant="gloss"
       />
     );
     lastIndex = match.index + match.length;
@@ -191,6 +192,7 @@ export function ComposedLine({ line, glossesUsed, termMap, allowedTermKeys, onGl
         term={glossToLexiconTerm(match.gloss)}
         matchedText={line.slice(match.index, match.index + match.length)}
         onDetailClick={onGlossClick}
+        variant="gloss"
       />
     );
     lastIndex = match.index + match.length;
