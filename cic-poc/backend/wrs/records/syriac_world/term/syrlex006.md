@@ -13,10 +13,8 @@ review_state: draft
 cache_stability: static
 term: Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)
 aliases:
-- '"Gospel of the Mixed," "the Diatessaron" (Tatian''s harmonized Gospel'
-- this world's dominant Gospel text)
-- da-Mepharreshe (the later
-- contrasting "separated" four-Gospel form)
+- Gospel of the Mixed
+- the Diatessaron
 quick_meaning: Throughout this world's core period, "the Gospel" meant a single continuous harmonized
   narrative — Tatian's Diatessaron — not four separate books held in tension; Aphrahat quotes it and Ephrem
   wrote a full commentary on it, though the specific vernacular name for this text is itself an unsettled
