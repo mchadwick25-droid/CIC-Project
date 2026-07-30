@@ -15,8 +15,6 @@ term: Freedom / Autexousia
 aliases:
 - autexousia
 - self-determination
-- free will
-- free choice
 - the will's self-governance
 quick_meaning: For this world autexousia — genuine self-determination — is the soul's capacity for real
   response that makes formation possible rather than mere manipulation; God forms through the soul's freedom,

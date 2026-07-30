@@ -15,7 +15,6 @@ cache_stability: static
 id: desertlex010
 term: Xeniteia (Exile / Estrangement)
 aliases:
-- exile
 - estrangement
 - xeniteia
 quick_meaning: Self-imposed estrangement from homeland, kin, and familiar social bonds, pursued as a distinct

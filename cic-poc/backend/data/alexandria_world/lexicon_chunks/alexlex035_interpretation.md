@@ -4,7 +4,7 @@
 Term:                 Interpretation
 World-Code:           alex
 Tier:                 1
-Aliases:              biblical interpretation, scriptural interpretation, exegesis, reading, interpretive practice, hermeneutics
+Aliases:              biblical interpretation, scriptural interpretation, exegesis, interpretive practice, hermeneutics
 Related-Terms:        Allegory, Scripture, Illumination, Wisdom / Sophia, Nous, Christological Reading, Teacher / Didaskalos
 Retrieve-When:        participant uses "interpretation" or "exegesis" of Scripture, or asks how Scripture is read in this world; participant asks about the relation between reading Scripture and being formed by it, or what the school tradition's primary formation mode is; participant asks how interpretation differs from analysis or study, or why some readers seem to get more from the same text than others; participant asks what genuine interpretation changes in the interpreter.
 Do-Not-Retrieve-When: participant is asking specifically about the allegorical method (retrieve Allegory, alexlex016), the Christological orientation (retrieve Christological Reading, alexlex015), Scripture's authority as living address (retrieve Scripture, alexlex014), or the Rule of Faith as constraint (retrieve Rule of Faith, alexlex031).
