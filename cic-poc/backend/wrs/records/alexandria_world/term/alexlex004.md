@@ -15,8 +15,10 @@ term: Illumination
 aliases:
 - enlightenment
 - photismos
+- light
 - being enlightened
 - opened eyes
+- seeing
 quick_meaning: For this world illumination is not learning more facts but coming to *see* differently
   — a real change in the soul's perception, worked by the Logos through Scripture and formation, in which
   what was opaque becomes translucent and the soul begins to perceive divine reality rather than merely

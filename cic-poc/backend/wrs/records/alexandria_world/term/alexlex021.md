@@ -15,6 +15,7 @@ term: Transformation
 aliases:
 - the soul's transformation
 - being changed
+- becoming
 - being conformed to God
 - metamorphosis
 - the work of formation

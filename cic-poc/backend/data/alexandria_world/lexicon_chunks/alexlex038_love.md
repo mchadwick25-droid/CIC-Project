@@ -4,7 +4,7 @@
 Term:                 Love / Agape
 World-Code:           alex
 Tier:                 1
-Aliases:              agape, divine love, love of God, love of neighbor, formed love, Christian love
+Aliases:              agape, charity, divine love, love of God, love of neighbor, formed love, Christian love
 Related-Terms:        Transformation, Logos, Knowledge / Gnosis, Wisdom / Sophia, Participation, Likeness of God, Virtue / Arete
 Retrieve-When:        participant uses "love" in a theological or formational sense; participant asks what Christian love is and how it differs from ordinary love, or about the relation between love and knowledge; participant asks whether love is primarily a feeling or something else, what the mature Christian looks like, how loving God connects to loving others, about agape as distinguished from other loves, or whether love can be commanded or taught.
 Do-Not-Retrieve-When: participant is asking about God's love for humanity rather than the soul's love as a formation fruit; about specific love-ethics or moral commands; or focused on eros or philia rather than agape in the formational sense.

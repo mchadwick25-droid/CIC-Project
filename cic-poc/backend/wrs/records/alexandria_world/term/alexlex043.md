@@ -16,6 +16,7 @@ aliases:
 - ekklesia
 - the assembly
 - the congregation
+- the community
 - the Christian community
 - the body of Christ
 - the gathered community

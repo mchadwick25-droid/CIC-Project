@@ -14,6 +14,7 @@ cache_stability: static
 term: Soul / Psyche
 aliases:
 - psyche
+- the soul
 - the human soul
 - the inner person
 - the self before God

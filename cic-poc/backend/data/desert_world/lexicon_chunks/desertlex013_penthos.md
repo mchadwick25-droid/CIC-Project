@@ -2,7 +2,7 @@
 Term: Penthos (Mourning / Compunction)
 World-Code: desert
 Tier: [2]
-Aliases: compunction, penthos
+Aliases: mourning, compunction, penthos
 Related Terms: Diakrisis
 Retrieve-When: participant asks about tears, mourning, compunction, or sorrow over sin in the tradition
 Do-Not-Retrieve-When: —

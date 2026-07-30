@@ -4,7 +4,7 @@
 Term:                 Logos
 World-Code:           alex
 Tier:                 1
-Aliases:              divine Reason, Christ as Word, ho logos
+Aliases:              the Word, the eternal Word, divine Reason, the Son, Christ as Word, ho logos
 Related-Terms:        Divine Pedagogy, Illumination, Scripture, Christological Reading, Theosis, Resurrection, Word of God, Incarnation, Knowledge / Gnosis, Participation, Catechesis, Wisdom / Sophia, Image of God, Allegory, Christ, Son of God, Eucharist, Faith / Pistis, Love / Agape, Oikonomia, Holy Spirit / Pneuma Hagion, Logikos / Rational Nature
 Retrieve-When:        participant uses "Logos," "the Word," "divine reason," or asks how reason relates to faith in this world; participant asks what holds Alexandrian theology together, or why philosophy is treated as preparation rather than threat; conversation reaches John 1, the incarnation, or how Scripture, learning, and worship connect.
 Do-Not-Retrieve-When: participant is using "logos" in an unrelated modern/linguistic sense with no theological bearing; the World Capsule Core has already surfaced the Logos as integrating center in the current turn.

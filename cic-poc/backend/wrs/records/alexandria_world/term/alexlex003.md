@@ -16,6 +16,7 @@ aliases:
 - catechumenate
 - catechetical instruction
 - the catechumen
+- catechist
 - formation in the faith
 - preparation for baptism
 - Christian formation

@@ -15,6 +15,7 @@ review_state: draft
 cache_stability: static
 term: Logismoi (The Thoughts)
 aliases:
+- the thoughts
 - logismoi
 - intrusive thoughts
 quick_meaning: The intrusive thoughts or temptations understood as the primary interior battlefield of

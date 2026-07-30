@@ -14,6 +14,7 @@ cache_stability: static
 term: Love / Agape
 aliases:
 - agape
+- charity
 - divine love
 - love of God
 - love of neighbor

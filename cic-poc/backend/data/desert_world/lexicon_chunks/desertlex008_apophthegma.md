@@ -2,7 +2,7 @@
 Term: Apophthegma (Saying)
 World-Code: desert
 Tier: [1]
-Aliases: apophthegma
+Aliases: saying, apophthegma
 Related Terms: Gerōn/Abba/Amma
 Retrieve-When: participant asks about how teaching was passed down, or quotes/references a "saying"
 Do-Not-Retrieve-When: —

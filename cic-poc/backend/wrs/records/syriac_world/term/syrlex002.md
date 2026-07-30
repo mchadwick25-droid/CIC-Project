@@ -14,8 +14,8 @@ cache_stability: static
 term: qyama (ܩܝܡܐ) / bnay qyama / bnat qyama
 aliases:
 - bar qyama
-- bat qyama
-- sons and daughters of the covenant
+- bat qyama (singular forms)
+- '"sons/daughters of the covenant," "covenant" (loose English gloss)'
 quick_meaning: The qyama is this world's own committed, celibate order of "sons and daughters of the covenant"
   — men and women who take a lifelong vow but remain resident among their own kin in town rather than
   withdrawing to the desert, making this world's asceticism a discipline practiced in the middle of ordinary

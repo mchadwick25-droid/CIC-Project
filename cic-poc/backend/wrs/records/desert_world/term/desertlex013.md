@@ -15,6 +15,7 @@ cache_stability: static
 id: desertlex013
 term: Penthos (Mourning / Compunction)
 aliases:
+- mourning
 - compunction
 - penthos
 quick_meaning: Sorrowful, tearful awareness of one's own sin, cultivated as a positive ascetic discipline.
