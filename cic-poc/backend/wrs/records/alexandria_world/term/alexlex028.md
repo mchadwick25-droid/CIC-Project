@@ -17,7 +17,6 @@ aliases:
 - praying
 - supplication
 - petition
-- contemplation
 - the divine address
 - the soul's address to God
 - the hours of prayer

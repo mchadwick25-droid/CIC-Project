@@ -14,10 +14,8 @@ cache_stability: static
 term: Virtue / Arete
 aliases:
 - arete
-- excellence
 - the virtues
 - moral excellence
-- character
 - the virtuous life
 quick_meaning: 'For this world virtue is not the excellent performance of a human function or the prize
   of disciplined effort — it is the visible fruit of genuine transformation: what the soul looks like

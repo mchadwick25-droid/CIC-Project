@@ -4,7 +4,7 @@
 Term:                 Baptism
 World-Code:           alex
 Tier:                 1
-Aliases:              photismos, illumination (baptismal), initiation, the washing, new birth, the bath, crossing the threshold
+Aliases:              illumination (baptismal), initiation, the washing, new birth, the bath, crossing the threshold
 Related-Terms:        Catechesis, Eucharist, Illumination, Participation, Soul / Psyche, Death, Resurrection, Fasting, Mystery / Mysterion, Church / Ekklesia
 Retrieve-When:        participant uses "baptism" or asks what baptism is, what changes when a person is baptized, or what crossing into the community looks like; participant asks about the catechumenate and what it leads to, or how baptism relates to illumination (photismos); participant asks how death and resurrection are enacted rather than only believed, or about new birth, washing, or cleansing in a theological sense.
 Do-Not-Retrieve-When: participant is asking primarily about catechesis as the preparation stage (retrieve Catechesis) or about the Eucharist as the next threshold (retrieve Eucharist); participant is asking about a modern infant-baptism controversy in its own terms rather than about what baptism does in this world; the World Capsule Core has already surfaced baptism-as-threshold this turn.

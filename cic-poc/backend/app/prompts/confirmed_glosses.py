@@ -71,6 +71,7 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "taḥwîṯâ", "a demonstration"),
         ConfirmedGloss("A", "memra", "a verse composition"),
         ConfirmedGloss("A", "qyama", "a kept vow of celibacy for life"),
+        ConfirmedGloss("A", "taḥwyāṯā", "demonstrations"),
     ],
     "desert-monasticism": [
         ConfirmedGloss("A", "Logismoi", "the thoughts that trouble the mind"),
@@ -83,6 +84,15 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "Amma", "an elder, honored as a mother in the faith"),
         ConfirmedGloss("A", "Cheirōnaxia", "manual labor"),
         ConfirmedGloss("A", "Apophthegma", "a teaching-saying"),
+        ConfirmedGloss("A", "Xeniteia", "a chosen exile from home and kin"),
+        ConfirmedGloss("A", "Apatheia", "freedom from disordered passion"),
+        ConfirmedGloss("A", "Theōria", "a seeing earned through long practice"),
+        ConfirmedGloss("A", "Penthos", "sorrow over one's own sin, welcomed as good"),
+        ConfirmedGloss("A", "Nēpsis", "a standing watch over one's own heart"),
+        ConfirmedGloss("A", "Synaxis", "the week's one shared gathering"),
+        ConfirmedGloss("A", "Kellion", "the dwelling built for solitude"),
+        ConfirmedGloss("A", "Antirrhēsis", "talking back to temptation with scripture"),
+        ConfirmedGloss("A", "Puritas Cordis", "purity of heart"),
     ],
     "hieronymian-ascetic-literary": [
         ConfirmedGloss("A", "Vulgata", "the new Latin translation"),
@@ -130,6 +140,7 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "pertinacia", "stubbornness, a refusal to recant"),
     ],
     "alexandria-catechetical": [
+        ConfirmedGloss("A", "illumination", "baptism"),
         ConfirmedGloss("A", "gnosis", "a transformative knowing of God"),
         ConfirmedGloss("A", "participation", "a deep sharing in God's life"),
         ConfirmedGloss("A", "theosis", "being drawn into God's life"),
@@ -159,6 +170,10 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "ekklesia", "the gathered community"),
         ConfirmedGloss("A", "arete", "excellence"),
         ConfirmedGloss("A", "Pneuma Hagion", "the Spirit of God"),
+        ConfirmedGloss("A", "Apokatastasis", "the hope that every soul is finally restored"),
+        ConfirmedGloss("A", "Didaskaleion", "the community's circle of teaching and reading"),
+        ConfirmedGloss("A", "Homoousios", "of one being with the Father"),
+        ConfirmedGloss("A", "Logikos", "a nature made to know and answer the Word"),
     ],
 }
 

@@ -15,7 +15,6 @@ term: Participation
 aliases:
 - methexis
 - sharing in divine life
-- communion
 - partaking
 - partaking of God
 - real sharing

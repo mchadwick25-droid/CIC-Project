@@ -17,7 +17,6 @@ term: Diakrisis (Discernment)
 aliases:
 - discernment
 - diakrisis
-- discretion
 quick_meaning: The capacity to judge rightly between competing courses of action, spirits, or thoughts
   — this world's own master virtue.
 plain_explanation: 'Discernment was this world''s master skill. It judged between paths, spirits, and

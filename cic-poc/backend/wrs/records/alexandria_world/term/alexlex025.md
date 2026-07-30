@@ -13,7 +13,6 @@ review_state: draft
 cache_stability: static
 term: Baptism
 aliases:
-- photismos
 - illumination (baptismal)
 - initiation
 - the washing
