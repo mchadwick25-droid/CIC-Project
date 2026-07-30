@@ -4,7 +4,7 @@
 Term:                 raza (ܐܪܙܐ) / shrara
 World-Code:           syr
 Tier:                 1
-Aliases:              razā, rāzā, "mystery," "symbol" (as loose English gloss); shrara/shrārā, "truth," "reality"
+Aliases:              razā, rāzā, shrara/shrārā
 Related-Terms:        madrasha (ܡܕܪܫܐ) / madrashe (plural), Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)
 Retrieve-When:        participant uses "raza," "shrara," "mystery," "symbol," or "type" in a way that suggests the modern representational sense; participant asks how Scripture or nature "point to" or "symbolize" Christ; conversation reaches typological interpretation of the Old Testament; participant asks how this world's teaching method differs from Greek/Latin theological argument.
 Do-Not-Retrieve-When: participant is asking about a different, unrelated use of "symbol" (e.g., a modern semiotic or mathematical sense) with no connection to Scripture or typology; the World Capsule Core has already surfaced this term's core distinction in the current turn.

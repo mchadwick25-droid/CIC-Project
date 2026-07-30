@@ -62,3 +62,24 @@
 **Verification:** Desert gates 7/7 at zero (alias_safety 5→0; the six originals untouched at 0); records 400/400; glosses 88/88 valid; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs** (the bare generics were never doing correct retrieval work, exactly as predicted). Records and deployed chunks edited in lockstep, no drift.
 
 **Next:** VG-2b Syriac (4 findings, same shape — note those four are the quoted-English-gloss keys `truth`/`mystery`/`symbol`/`reality` class plus `covenant`/`letters`/`saint`, a slightly different pattern than Desert's name-halves); VG-2c Alexandria (36) held for its own session with a fresh budget check.
+
+## 2026-07-30 — VG-2b done: Syriac alias retrofit (Step 2, world 2 of 3) — 4 → 0
+
+**The pattern here was cleaner than Desert's:** all four flagged keys were quoted explanatory prose the original author placed inside the alias field and labeled as such ("loose English gloss," "loose parallel honorific"). The parser rightly extracts quoted phrases as aliases — these just never should have been aliases. All four dropped, records and deployed chunks in lockstep:
+
+| flagged key(s) | call | why |
+|---|---|---|
+| `mystery`, `symbol`, `truth`, `reality` (raza/shrara) | **dropped** | The raza ("a sign tied to a hidden truth") and shrara ("the truth itself") glosses carry the plain-English surface in reviewed form; `razā`/`rāzā`/`shrara`/`shrārā` remain. |
+| `covenant` (qyama) | **dropped** | The qyama gloss covers it, and the multi-word phrase-alias `"sons/daughters of the covenant"` was deliberately KEPT — specific enough to pass Rule A, and it preserves covenant-phrase reachability. |
+| `letters` (taḥwyāṯā) | **dropped** | Bare "letters" firing on every ordinary use of the word is the over-broad class; the Letters self-designation stays fully present in the record's own prose and chunk text. **One question for you:** the taḥwîṯâ gloss ("a demonstration") doesn't mention the "Letters" self-designation by name — if you want it there, that's an edit to reviewed gloss text, so it's yours to call, not mine. |
+| `saint` (Mar) | **dropped** | The Mar gloss literally already says it: 'my lord, an honorific like "Saint"'. `"my lord"` kept as the quoted phrase-alias. |
+
+**No overrides, no new gloss entries** (unlike Desert's Kellion — nothing was missing coverage here). FLAG-028's `bat qyama (singular forms)` left untouched, per its own routing.
+
+**On the launch prompt's two side-notes, both resolved:**
+1. *The 12 default-profile completion violations*: checked one by one — every single one is a **documented design decision in Syriac's own build artifacts**, not a silent gap: the three partner-less claims (S2.6 checkpoint: "internal scholarship contests, none manufactured"), the six not-advanced gravities (Doc_04 §1's own class — kept as records, never six-tested), the two Tier-3 thin-format terms (the declared S2.1a/S2.2 finding), and syrlex009's empty relations ("standalone by design," the chunk's own words). Syriac's checkpoint standard has always been `--profile backfill`, where completion runs 0. Known and tracked; nothing filed.
+2. *Base-state correction for the record*: the Syriac record store was never untracked after the rollback — `f99fceb` (the rollback target) already contained the whole Syriac migration; my VG-1a note overstated that. All 128 files tracked and clean.
+
+**Verification:** Syriac gates 0/128 under its own backfill profile (alias_safety 4→0; six originals unchanged); records 400/400; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs**.
+
+**Next:** VG-2c — Alexandria's 36 (7 Rule-B collisions + 29 Rule-A), held for its own session with a fresh budget check, per the plan.

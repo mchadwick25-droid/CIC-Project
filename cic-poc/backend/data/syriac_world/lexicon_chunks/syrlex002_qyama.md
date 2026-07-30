@@ -4,7 +4,7 @@
 Term:                 qyama (ܩܝܡܐ) / bnay qyama / bnat qyama
 World-Code:           syr
 Tier:                 1
-Aliases:              bar qyama, bat qyama (singular forms), "sons/daughters of the covenant," "covenant" (loose English gloss)
+Aliases:              bar qyama, bat qyama (singular forms), "sons/daughters of the covenant"
 Related-Terms:        Iḥidaya (ܝܚܝܕܝܐ), taḥwyāṯā (singular: taḥwîṯâ)
 Retrieve-When:        participant asks about celibacy, asceticism, or vowed life in this world; participant asks how this world's ascetics differ from desert monks; participant uses "monk," "nun," or "monastery" in a way that may import Egyptian-desert assumptions; conversation reaches Aphrahat's Demonstration 6 or questions of authority alongside ordained office.
 Do-Not-Retrieve-When: participant is asking specifically and only about Ephrem's personal choir leadership as an established biographical fact (this chunk must not be used to confirm that claim — see Distortion Risk and CT Contest Type below); the World Capsule Core has already distinguished this institution from desert monasticism in the current turn.

@@ -4,7 +4,7 @@
 Term:                 taḥwyāṯā (singular: taḥwîṯâ)
 World-Code:           syr
 Tier:                 2
-Aliases:              "Demonstrations" (conventional English title), "Letters" (Aphrahat's own alternate self-designation)
+Aliases:              "Demonstrations" (conventional English title)
 Related-Terms:        qyama (ܩܝܡܐ) / bnay qyama / bnat qyama, Iḥidaya (ܝܚܝܕܝܐ), Aphrahat's Anti-Jewish Demonstrations
 Retrieve-When:        participant asks about Aphrahat's writings by name; participant asks what genre or kind of text a "Demonstration" is; conversation reaches Aphrahat's own authorial self-understanding.
 Do-Not-Retrieve-When: participant is asking about Ephrem's writings (this term is exclusively Aphrahat's own genre-designation and does not apply to his corpus).
