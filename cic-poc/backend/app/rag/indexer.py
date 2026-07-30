@@ -187,10 +187,16 @@ class LexiconIndexer:
                     aliases.append(cleaned)
 
             # Remaining bare tokens: strip out the quoted spans already captured,
-            # drop parenthetical asides, split on the usual separators
+            # then split on the usual separators. A segment carrying a
+            # parenthetical qualifier (e.g. "illumination (baptismal)") is
+            # dropped WHOLE, never reduced to its bare head - the qualifier is
+            # the author's own signal that the bare form is unsafe as an alias
+            # for this term (it collides with another term's namespace), so
+            # silently emitting it defeats the reason it was written qualified.
             remainder = re.sub(r'"[^"]*"', "", value)
-            remainder = re.sub(r"\([^)]*\)", "", remainder)
             for chunk in re.split(r"[;,/]", remainder):
+                if "(" in chunk or ")" in chunk:
+                    continue
                 cleaned = chunk.strip(" /")
                 if len(cleaned) > 1:
                     aliases.append(cleaned)

@@ -1,70 +1,17 @@
 # Waiting on Mark
 
-## 2026-07-28 — SYRIAC COMPLETE (world 3 of 6): the note-4 world-boundary stop + the budget measurement
+## 2026-07-30 — VG-1a done: the alias wrong-linkage parser fix (Step 1a of the Voice-Governance Addendum)
 
-**The world is done and frozen.**
-`gates/S6.2_SYR_FREEZE_DECLARATION.md` — the full pipeline ran
-start-to-finish in one session under note 3's full autonomy: S2.1
-(53 registry rows + core) → S2.1a sweep (8 rows; FLAG-025 found) →
-S2.1b coverage (recall 8/10; the Acts-of-Thomas discovery) → S2.2
-split (coverage 10/10 first run) → S2.3 authoring (single batch) →
-S2.4 stories/figures (the no-quote and no-Tier-1 findings) → S2.5
-gravities/forces (C4's Formation-FAIL carried openly) → S2.6 claims
-(live partner links both ways) → S2.7 voice/demos (a third register
-position; Living Tradition already CONFIRMED) → S2.7a facilitation →
-S2.8 views/parities (render zero-defect; retrieval zero-regression;
-coverage 36→37/37 zero GAPs; probe parity 6/8 both fails
-characterized) → S2.9 decisions (SYR-1 swap — record store drives
-production; SYR-2 exact-quote guard) → close-out (7 workbooks
-audited + deleted; pre-freeze re-sweep; battery A/B zero FAILs; the
-fleet's first DOUBLE TRR; table ceiling set + verified) → FREEZE.
+**What changed:** one function, one file — `parse_aliases()` in `cic-poc/backend/app/rag/indexer.py`. A parenthetically-qualified alias segment (`illumination (baptismal)`) is now dropped whole instead of being stripped to its bare head. The bare-head behavior was the reproduced production bug: "illumination" silently became one of Baptism's aliases and stole Illumination's own key in the frontend map.
 
-**Decisions I took under note 3 (all recorded, all reversible):**
-- `change_orders/S6.2_SYR_CO_Register.md`: SYR-1 (the chunk swap —
-  executed on the ALX bar exactly: zero-defect render parity +
-  zero-regression retrieval), SYR-2 (the exact-quote guard added to
-  the deployed prompt after probe parity showed the deployed side
-  paraphrasing-as-quote — fabrication-adjacent on the anti-Jewish
-  material class; live-verified, then verified again held-out).
-- The table measure: HARD_CEILING 165 @ 1.2 (the record's own
-  measured max, the ALX precedent), set at the freeze process after
-  the TRR measured 79%/63% dominance; ceiling re-probe verified.
-- Telos (provisional, Article-31 flag) + living_traditions
-  (CONFIRMED per your 2026-07-11 confirmation) applied to the core
-  via the CO-P2-05/17 standing conventions.
-- The 7 companion workbooks deleted after a sheet-by-sheet audit
-  (`reviews/S6.2_SYR_closeout_workbooks.md`) — nothing unabsorbed
-  found (unlike ALX's Lexicon roster), all git-recoverable.
+**Before/after, measured over all six worlds with the live code:**
+- Before: 9 colliding keys, all Alexandria (Desert/Hieronymian/IJ/PAHC/Syriac all 0) — matches the plan doc §5.1's table exactly, key for key.
+- After: 7 — the two parenthetical-caused collisions (`illumination`, `apokatastasis`) resolved; the 7 genuine alias-set overlaps (`photismos`, `catechist`, `communion`, `divine likeness`, `the eternal word`, `the son`, `the word`) unchanged, as expected — they're VG-1b's gate's job.
+- Baptism still reachable through `photismos`, `initiation`, `the washing`, `new birth`, `the bath`, `crossing the threshold`.
+- Retrieval regression (rule 2): full eval re-run vs `B-RETR-POST-P3.json` — **0 regressions; every metric identical**.
 
-**Worth your eyes when you're back (none blocking):**
-1. **FLAG-026** — one TRR turn streamed Syriac-voiced content under
-   Theon's speaker label (Yausep caught it in-voice). Fleet-level
-   turn-selector investigation; an ALX-side prompt change would ride
-   an ALX CO.
-2. **The anti-Jewish material behaviors** all validated to the
-   Standing Note's design (owns fault, never renews, refuses
-   manufactured quotes, refuses invented softeners) — but given the
-   sensitivity you may want to read A-laund-1 / B-8 / the syrclaim005
-   text yourself.
-3. **Article 31** external review remains the standing project-lead
-   gate (ten PROVISIONAL probes; the telos derivation; CL-2's
-   anti-Jewish probe — the Decision Log's own list).
-4. The remaining fleet order: hieronymian / pahc / imperial-juridical
-   — "remaining order decided per completion."
+**What surprised me (filed as FLAG-028, per this step's own step-4 rule, routed to VG-1b):** the fix's drop-the-qualified-segment rule also removes 9 corpus-wide aliases whose qualifiers are benign descriptors, not collision guards — e.g. `bat qyama (singular forms)` in Syriac, `monogenes (Greek parallel)`, `communion (as juridical status)` in Imperial-Juridical, and `The Vulgate (anachronistic... label)` in Hieronymian (whose alias set is now empty). None of these were colliding; they simply stop highlighting in their own worlds. That's a bounded reachability cost the plan's rationale doesn't cover for this class — VG-1b's authoring/gate pass should decide per case (re-author unqualified where safe, or route through confirmed-gloss). One incidental win: the old parser was emitting a garbage mid-phrase fragment for ijclex003 (`the Dated Creed formula — not`); that's gone.
 
-**The budget measurement (note 6's purpose):** the full
-Syriac pipeline — S2.1 through freeze, all instruments, batteries,
-and both TRRs — completed inside a single session without hitting
-the weekly allocation; no rule-7 stop was needed. Syriac is the
-fleet's smallest world (10 terms / 9 stories vs ALX's 45/10), so
-treat this as the LOWER BOUND of per-world cost, not the norm: the
-live-LLM phases (probe parity, batteries, double TRR, re-probes)
-are the dominant spend and scale with probe counts more than world
-size. A hieronymian- or PAHC-class world should be expected to cost
-meaningfully more at S2.2–S2.3 (authoring volume) while the
-freeze-phase cost stays roughly flat.
+**Base-state note:** local main fast-forwarded cleanly onto the rolled-back `e92cf85` (pure history move, tree-identical, zero file changes). The full Syriac-freeze session survives on `origin/claude/rollback-to-fable-base` and a local safety branch `backup/syriac-freeze-16cab54`; its working-tree leftovers (untracked `wrs/records/syriac_world/`, `scripts/s62_syr_*`, staging files) are still on disk, untracked, untouched by this step.
 
-**Stopped at the world boundary per note 4.** The tree is committed,
-deployable, and green (400/400; SYR 0/128; ALX 0/155; Desert 0/107;
-matrix clean; parities green). Next session starts with rule 2's
-re-verify against the Syriac freeze declaration.
+**Not started, deliberately:** VG-1b (alias-safety gate — its fixtures must be built against this fix's corrected output, in a separate session per rule 4) and VG-1c (confirmed-gloss schema).
