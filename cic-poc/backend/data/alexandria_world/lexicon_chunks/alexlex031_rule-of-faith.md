@@ -4,7 +4,7 @@
 Term:                 Rule of Faith / Regula Fidei
 World-Code:           alex
 Tier:                 1
-Aliases:              regula fidei, the received deposit, the apostolic deposit, the canon of faith, what has been received
+Aliases:              regula fidei, the rule, the received deposit, the apostolic deposit, the tradition, the canon of faith, what has been received
 Related-Terms:        Teacher / Didaskalos, Bishop / Episkopos, Scripture, Catechesis, Christological Reading, Allegory, Christ, Son of God, Church / Ekklesia
 Retrieve-When:        participant asks about the Rule of Faith or regula fidei; participant asks what constrains scriptural interpretation here, or what makes an allegorical reading legitimate or illegitimate; participant asks about tradition and its relationship to Scripture; participant asks what both teacher and bishop are accountable to, or how the community's formation inheritance is protected; participant asks how the Rule of Faith relates to the Nicene Creed.
 Do-Not-Retrieve-When: participant is asking about the Nicene Creed specifically as a conciliar formulation (the Creed is part of what the Rule carries but is not the same thing); participant is asking primarily about teacher or bishop authority (retrieve Teacher or Bishop); participant is asking about Scripture as a formation instrument (retrieve Scripture).

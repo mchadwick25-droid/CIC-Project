@@ -13,7 +13,10 @@ review_state: draft
 cache_stability: static
 term: Logos
 aliases:
+- the Word
+- the eternal Word
 - divine Reason
+- the Son
 - Christ as Word
 - ho logos
 quick_meaning: For this world the Logos is the eternal Word and Reason of God through whom all things

@@ -2,7 +2,7 @@
 Term: Cheirōnaxia / Ergocheiron (Manual Labor)
 World-Code: desert
 Tier: [1]
-Aliases: manual labor, cheironaxia, ergocheiron
+Aliases: manual labor, handiwork, cheironaxia, ergocheiron
 Related Terms: Anachōrēsis
 Retrieve-When: participant asks about daily life, work, or how ascetics supported themselves
 Do-Not-Retrieve-When: —

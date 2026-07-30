@@ -16,6 +16,7 @@ cache_stability: static
 term: Cheirōnaxia / Ergocheiron (Manual Labor)
 aliases:
 - manual labor
+- handiwork
 - cheironaxia
 - ergocheiron
 quick_meaning: Manual labor — chiefly rope- and basket-weaving — undertaken as both economic necessity

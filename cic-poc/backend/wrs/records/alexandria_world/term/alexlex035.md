@@ -16,6 +16,7 @@ aliases:
 - biblical interpretation
 - scriptural interpretation
 - exegesis
+- reading
 - interpretive practice
 - hermeneutics
 quick_meaning: For this world interpretation is not analytical method applied to a text — it is the formation

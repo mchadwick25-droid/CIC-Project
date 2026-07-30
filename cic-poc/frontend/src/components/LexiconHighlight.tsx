@@ -9,21 +9,12 @@ interface LexiconHighlightProps {
   term: LexiconTerm;
   matchedText: string;
   onDetailClick?: (term: LexiconTerm) => void;
-  /**
-   * 'gloss' applies the confirmed-inline-gloss color modifier
-   * (.lexicon-term--gloss, --color-gloss) instead of the default lexicon
-   * purple - see GlossHighlight.tsx, the only caller that passes this.
-   * Everything else about the component (tooltip, click grammar, layout)
-   * is identical between the two variants.
-   */
-  variant?: 'term' | 'gloss';
 }
 
 export function LexiconHighlight({
   term,
   matchedText,
   onDetailClick,
-  variant = 'term',
 }: LexiconHighlightProps) {
   const [showTooltip, setShowTooltip] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState<'above' | 'below'>('above');
@@ -142,7 +133,7 @@ export function LexiconHighlight({
   return (
     <span
       ref={spanRef}
-      className={variant === 'gloss' ? 'lexicon-term lexicon-term--gloss' : 'lexicon-term'}
+      className="lexicon-term"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
       onPointerDown={handlePointerDown}

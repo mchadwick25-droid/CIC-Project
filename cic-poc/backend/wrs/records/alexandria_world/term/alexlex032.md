@@ -14,6 +14,7 @@ cache_stability: static
 term: Repentance / Metanoia
 aliases:
 - metanoia
+- turning
 - conversion
 - change of nous
 - turning back

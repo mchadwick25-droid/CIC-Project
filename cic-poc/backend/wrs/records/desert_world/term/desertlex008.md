@@ -15,6 +15,7 @@ review_state: draft
 cache_stability: static
 term: Apophthegma (Saying)
 aliases:
+- saying
 - apophthegma
 quick_meaning: The terse, memorable saying that is this world's primary vehicle of teaching.
 plain_explanation: A short, sharp saying was this world's main way of teaching. An elder gave it to one

@@ -14,6 +14,7 @@ cache_stability: static
 term: Scripture
 aliases:
 - the Scriptures
+- the text
 - the written Word
 - holy Scripture
 - the sacred writings

@@ -2,7 +2,7 @@
 Term: Xeniteia (Exile / Estrangement)
 World-Code: desert
 Tier: [2]
-Aliases: estrangement, xeniteia
+Aliases: exile, estrangement, xeniteia
 Related Terms: Anachōrēsis
 Retrieve-When: participant asks about leaving family or homeland, cutting ties with kin, or why ascetics abandoned their relationships
 Do-Not-Retrieve-When: —

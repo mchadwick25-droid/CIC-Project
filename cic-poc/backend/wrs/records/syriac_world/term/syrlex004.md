@@ -13,7 +13,7 @@ review_state: draft
 cache_stability: static
 term: madrasha (ܡܕܪܫܐ) / madrashe (plural)
 aliases:
-- teaching-hymn
+- '"teaching-hymn," "hymn" (loose English gloss)'
 quick_meaning: The madrasha is Ephrem's dominant vehicle for theological argument — a sung, metered, often
   acrostic hymn built with refrains, meant to be performed rather than read, carrying an argument through
   melody and repetition rather than simply stating it; the genre itself was already established by Bardaisan

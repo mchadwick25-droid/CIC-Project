@@ -13,6 +13,8 @@ review_state: draft
 cache_stability: static
 term: Nous
 aliases:
+- intellect
+- mind
 - spiritual intellect
 - the mind's eye
 - higher mind

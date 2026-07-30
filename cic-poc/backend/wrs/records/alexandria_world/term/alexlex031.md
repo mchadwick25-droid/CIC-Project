@@ -14,8 +14,10 @@ cache_stability: static
 term: Rule of Faith / Regula Fidei
 aliases:
 - regula fidei
+- the rule
 - the received deposit
 - the apostolic deposit
+- the tradition
 - the canon of faith
 - what has been received
 quick_meaning: 'For us the Rule of Faith is not the Nicene Creed and not a doctrinal checklist — it is

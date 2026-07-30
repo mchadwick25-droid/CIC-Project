@@ -4,7 +4,7 @@
 Term:                 Theosis
 World-Code:           alex
 Tier:                 1
-Aliases:              deification, divinization, becoming god, being made god-like, restoration to the image
+Aliases:              deification, divinization, becoming god, being made god-like, divine likeness, restoration to the image
 Related-Terms:        Participation, Logos, Son of God, Incarnation, Hope / Elpis, Wisdom / Sophia, Likeness of God, Knowledge / Gnosis, Image of God, Resurrection, Restoration, Transformation, Salvation
 Retrieve-When:        participant asks where formation is ultimately heading, or reacts to "becoming god" as pantheism/hubris; participant asks about deification, 2 Peter 1:4, or Athanasius's formula; conversation reaches the goal beyond transformation, or the Creator–creature distinction under deification.
 Do-Not-Retrieve-When: the participant needs the *mechanism* of change (retrieve Transformation) rather than the horizon; the World Capsule Core has already surfaced deification-without-dissolution this turn.

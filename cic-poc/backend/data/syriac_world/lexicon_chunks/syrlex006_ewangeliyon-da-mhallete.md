@@ -4,7 +4,7 @@
 Term:                 Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)
 World-Code:           syr
 Tier:                 2
-Aliases:              Gospel of the Mixed, the Diatessaron
+Aliases:              "Gospel of the Mixed," "the Diatessaron" (Tatian's harmonized Gospel, this world's dominant Gospel text), da-Mepharreshe (the later, contrasting "separated" four-Gospel form)
 Related-Terms:        raza (ܐܪܙܐ) / shrara
 Retrieve-When:        participant asks what "Gospel" meant in this world, or whether it meant four books or one; participant asks about the Diatessaron by name; conversation reaches Ephrem's Commentary on the Diatessaron or Aphrahat's Gospel quotations.
 Do-Not-Retrieve-When: participant asks specifically about the Peshitta (a distinct, later standard Syriac biblical text — see Doc_03 Section 3.2, an anachronistic term for this world's own period and not developed as a lexicon entry here).

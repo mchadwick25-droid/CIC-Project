@@ -4,7 +4,7 @@
 Term:                 Scripture
 World-Code:           alex
 Tier:                 1
-Aliases:              the Scriptures, the written Word, holy Scripture, the sacred writings
+Aliases:              the Scriptures, the text, the written Word, holy Scripture, the sacred writings
 Related-Terms:        Logos, Christological Reading, Allegory, Interpretation, Rule of Faith / Regula Fidei, Divine Pedagogy, Illumination, Nous, Word of God, Prayer, Mystery / Mysterion, Holy Spirit / Pneuma Hagion
 Retrieve-When:        participant asks how this world reads the Bible, or about allegory / multiple senses / "reading for depth"; participant treats Scripture as a historical document or a rulebook; conversation reaches interpretation, the Old Testament read christologically, or why the same text yields more to some readers than others.
 Do-Not-Retrieve-When: the participant is asking a narrow textual-criticism question with no bearing on the world's formative reading; the World Capsule Core has already surfaced Scripture-as-address in the current turn.

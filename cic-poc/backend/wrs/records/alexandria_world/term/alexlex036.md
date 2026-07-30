@@ -16,6 +16,9 @@ aliases:
 - soteriology
 - being saved
 - deliverance
+- healing
+- rescue
+- wholeness
 - the saved condition
 quick_meaning: 'For this world salvation is not primarily acquittal from legal guilt — it is the healing,
   restoration, and reorientation of the soul toward God: the Logos entering what was dying to restore
