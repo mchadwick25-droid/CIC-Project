@@ -4,7 +4,7 @@
 Term:                 Mar (ܡܪܝ)
 World-Code:           syr
 Tier:                 3
-Aliases:              "my lord," "Saint" (loose parallel honorific)
+Aliases:              my lord
 Related-Terms:        (none — see note)
 Retrieve-When:        participant uses "Mar" as a title prefix (e.g., "Mar Ephrem," "Mar Aphrahat"); participant asks what "Mar" means.
 Do-Not-Retrieve-When: participant is asking about a specific bishop's formal office or title of authority rather than the honorific prefix itself (see Catholicos entry for office-title anachronism risk).

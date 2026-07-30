@@ -4,7 +4,7 @@
 Term:                 madrasha (ܡܕܪܫܐ) / madrashe (plural)
 World-Code:           syr
 Tier:                 1
-Aliases:              "teaching-hymn," "hymn" (loose English gloss)
+Aliases:              teaching-hymn
 Related-Terms:        raza (ܐܪܙܐ) / shrara, memra (ܡܐܡܪܐ) / memre (plural)
 Retrieve-When:        participant asks how this world's theology was taught or transmitted; participant asks about Ephrem's hymns specifically; conversation reaches the contrast between sung and prose theological argument, or between Ephrem's method and Bardaisan's/Mani's.
 Do-Not-Retrieve-When: participant is asking about Aphrahat's own writing (his Demonstrations are prose, not madrashe — see taḥwyāṯā instead); participant is asking about memra specifically and the distinction has already been surfaced in the current turn.

@@ -4,7 +4,7 @@
 Term:                 memra (ܡܐܡܪܐ) / memre (plural)
 World-Code:           syr
 Tier:                 3
-Aliases:              "verse homily" (later, fuller genre name — see Distortion Risk)
+Aliases:              verse homily
 Related-Terms:        madrasha (ܡܕܪܫܐ) / madrashe (plural)
 Retrieve-When:        participant asks about "memra" as a Syriac literary genre, likely from familiarity with later Syriac tradition (Narsai, Jacob of Serugh); participant asks whether memra and madrasha are the same thing.
 Do-Not-Retrieve-When: participant has not raised memra specifically and madrasha alone answers the question.
