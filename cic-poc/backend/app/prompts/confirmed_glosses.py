@@ -187,7 +187,13 @@ def get_gloss_guidance(world_id: str) -> str:
         "your own speech where an exact form is asked of you rather than "
         "your own formation's natural phrasing; everything else about how "
         "you speak is unchanged. Use these only where they'd naturally "
-        "come up - do not force one in.",
+        "come up - do not force one in. Build the rest of the sentence "
+        "around the fixed phrase so the whole line still reads naturally: "
+        "since the phrase itself cannot change, watch for your own wording "
+        "echoing a word already inside it right before or after (e.g. "
+        "pairing a phrase ending \"...for life\" with your own \"...his "
+        "whole life\" immediately after) - rephrase your own surrounding "
+        "words instead, not the fixed phrase.",
         "",
     ]
     for g in glosses:
