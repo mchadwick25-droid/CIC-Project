@@ -64,3 +64,57 @@ a copy/visual audit pass.
 six world photos are complete and locked as of this entry — not a partial/in-progress
 set. Whether/how this site's own pages use any of them is this thread's own call, not
 decided here.
+
+---
+
+## 2026-07-24 (later) — The homepage's static representative grid replaced with a real interactive carousel; live
+
+**Found already built, not started from scratch:** by the time this landed, another
+session had already executed the "simple landing page" rebuild (2026-07-25 header
+comment in `index.html` — The Table primary, Atlas secondary) and had a static,
+non-interactive six-portrait grid in place, using the portraits from the resource
+handoff above (already copied to `assets/portraits/`). This entry upgrades that
+static grid into the real thing, not a from-scratch build.
+
+**What changed, in `index.html` only:** the static grid is now a chronological,
+scrollable carousel — era-tinted backgrounds and era labels (from `data/world-
+census.json`'s own `eras` array, the same file the Atlas reads, so this can never
+drift from it the way two independently-maintained copies of this data have before).
+Click any Representative → a lightweight panel with the same info their program tile
+shows, then two links: **"Launch an Interview with [Name]"** (real, working, goes
+straight into a free single-representative conversation, no picker shown) and "Read
+more in the Atlas →" (real link to `atlas.html`).
+
+**Business-model boundary made real, not just labeled:** Mark's direction —
+interviews free, multi-representative tables a planned future paid tier — meant this
+entry point specifically must never expose the multi-select picker. Required an
+actual `cic-poc` app fix, not just this site's own button text: `WorldSelector.tsx`'s
+`mode=interview` param was documented in that file's own code comment as part of the
+URL contract but never actually read. Wired up (separate commit, `cic-poc` repo):
+when exactly one world is requested with `mode=interview`, it now skips the picker
+entirely and starts the conversation directly. Verified locally both ways — the
+direct-interview path skips straight to a real conversation, and the existing
+multi-world hand-off (no `mode=interview`) is unaffected, still lands on the picker
+with pre-selection as before.
+
+**Two real bugs caught in this pass, not shipped un-checked:**
+- The census's own `id` for Church and Empire (`imperial-and-juridical-christianity`)
+  doesn't match the live app's actual `world_id` (`imperial-juridical-christianity`)
+  — would have 404'd that one entry's interview link. Corrected defensively in this
+  file's own JS with a flagged fix, not at the source (that's this census file's own
+  fix to make, separately).
+- Dark-mode contrast: both the era-tinted cards and the info panel initially let text
+  inherit the page's own dark-mode color while sitting on a background that stayed
+  light, washing names and body text out to near-illegible. Fixed by giving both an
+  explicit, theme-aware text color rather than relying on inheritance.
+
+**Verified before shipping:** light mode, dark mode, phone width (390px), the
+interview link's actual resolved URL (confirmed using the corrected id, not the
+census's), and no regression on the existing multi-world hand-off path.
+
+**Committed and pushed directly to `main`** (`3566031` this repo; the `cic-poc`
+`mode=interview` fix is `83d058f`), per Mark's explicit go-ahead — live once
+Cloudflare's auto-deploy completes. Deliberately scoped to only these two files;
+a large amount of unrelated, uncommitted work was sitting in the shared repo at push
+time (signed legal/entity documents, Gantt files, other threads' launch prompts) and
+was explicitly left untouched, not swept in.
