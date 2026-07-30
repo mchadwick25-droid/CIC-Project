@@ -20,20 +20,79 @@
 .hero p.pilot-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:0 auto .5rem;text-wrap:balance}
 .hero p.pilot-caveat{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.78rem;color:var(--muted);max-width:28rem;margin:0 auto 1.6rem;text-wrap:balance}
 
-.table-section{max-width:60rem;margin:0 auto;padding:0 1.5rem 4rem}
+.table-section{max-width:60rem;margin:0 auto;padding:0 0 4rem}
+.table-section .wrap-head{max-width:60rem;margin:0 auto;padding:0 1.5rem}
 .table-section .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.13em;
   text-transform:uppercase;color:var(--madder);font-weight:600;text-align:center;margin:0 0 .6rem}
 .table-section .scope{text-align:center;color:var(--muted);font-size:1.02rem;margin:0 auto 2.2rem;max-width:32rem;text-wrap:balance}
-.table-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem 1.4rem;max-width:38rem;margin:0 auto}
-.rep-card{text-align:center}
+
+/* Representative carousel — chronological, era-tinted, click for the same
+   info the program's own world tile shows, then a direct link into a free
+   Deep Interview (never a route into the paid multi-representative Table).
+   Data comes from data/world-census.json at runtime, same single source of
+   truth the Atlas itself reads, so this never drifts out of sync with it. */
+.reps-carousel-wrap{position:relative;padding:0 1.5rem}
+.reps-carousel{display:flex;gap:1.1rem;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding:.4rem .4rem 1.2rem;margin:0 -.4rem;scrollbar-width:thin}
+@media (prefers-reduced-motion:no-preference){ .reps-carousel{scroll-behavior:smooth} }
+.reps-era-divider{flex:0 0 auto;width:1px;align-self:stretch;background:var(--rule);position:relative;margin:0 .2rem}
+.reps-era-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(180deg);
+  writing-mode:vertical-rl;font-family:'Alegreya Sans',sans-serif;font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);background:var(--parchment);padding:.5rem .3rem;white-space:nowrap}
+.rep-card{flex:0 0 auto;scroll-snap-align:start;width:196px;text-align:center;cursor:pointer;
+  border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1rem 1.3rem;background:var(--vellum);
+  font:inherit;color:#2A2521;box-shadow:0 1px 6px rgba(42,37,33,.08);transition:transform .15s ease,box-shadow .15s ease}
+.rep-card.era-1{background:#EFDDB3}
+.rep-card.era-2{background:#EDDEB9}
+@media (prefers-color-scheme:dark){
+  .rep-card.era-1{background:#332818}
+  .rep-card.era-2{background:#302617}
+}
+@media (prefers-reduced-motion:no-preference){ .rep-card:hover,.rep-card:focus-visible{transform:translateY(-2px)} }
+.rep-card:hover,.rep-card:focus-visible{box-shadow:0 4px 14px rgba(42,37,33,.14);outline:none}
+.rep-card:focus-visible{outline:2px solid var(--rep-color,var(--madder));outline-offset:2px}
+.rep-card .era-label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.62rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 .6rem}
 .rep-card .portrait{width:100%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;
-  border:1.5px solid var(--rule);background:var(--vellum);margin:0 0 .7rem}
+  border:2px solid var(--rep-color,var(--madder));background:var(--vellum);margin:0 0 .7rem}
 .rep-card img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
-.rep-card .name{font-weight:700;font-size:1rem;margin:0 0 .1rem}
-.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--muted);white-space:nowrap}
+.rep-card .name{font-weight:700;font-size:1.02rem;margin:0 0 .1rem;color:inherit}
+.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.8rem;color:var(--rep-color,var(--madder));margin:0 0 .4rem}
+.rep-card .meta{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;color:var(--muted);line-height:1.4}
+@media (prefers-color-scheme:dark){
+  .rep-card{color:#F1E9DD}
+  .rep-card .era-label,.rep-card .meta{color:#B8AEA1}
+}
+.reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;color:var(--muted);text-align:right;margin:0 1.5rem}
+
+/* Lightweight info sheet, opened on click */
+.reps-scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);opacity:0;pointer-events:none;
+  transition:opacity .2s ease;z-index:30}
+.reps-scrim.open{opacity:1;pointer-events:auto}
+.reps-sheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,100%);width:min(540px,100vw - 2rem);
+  max-height:min(78vh,620px);overflow-y:auto;background:var(--vellum);color:#2A2521;border:1px solid var(--rule);border-bottom:none;
+  border-radius:16px 16px 0 0;box-shadow:0 -6px 26px rgba(42,37,33,.2);transition:transform .28s cubic-bezier(.2,.8,.3,1);
+  z-index:31;padding:1.6rem 1.6rem 2rem}
+@media (min-width:640px){ .reps-sheet{border-radius:16px;border-bottom:1px solid var(--rule)} }
+.reps-sheet.open{transform:translate(-50%,0)}
+@media (min-width:640px){ .reps-sheet.open{transform:translate(-50%,-5vh)} }
+@media (prefers-reduced-motion:reduce){ .reps-sheet,.reps-scrim{transition:none} }
+.reps-sheet__close{position:absolute;top:.9rem;right:.9rem;width:32px;height:32px;border-radius:50%;
+  border:1px solid var(--rule);background:var(--parchment);color:var(--iron-gall);font-size:1.1rem;line-height:1;cursor:pointer}
+.reps-sheet__close:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+.reps-sheet__top{display:flex;gap:1rem;align-items:flex-start;margin:0 0 1.1rem;padding-right:2rem}
+.reps-sheet__portrait{width:76px;height:76px;border-radius:50%;object-fit:cover;object-position:50% 22%;
+  border:2px solid var(--rep-color,var(--madder));flex-shrink:0}
+.reps-sheet__name{font-size:1.4rem;font-weight:700;margin:0 0 .1rem}
+.reps-sheet__title{font-family:'Alegreya Sans',sans-serif;color:var(--rep-color,var(--madder));font-size:.9rem;margin:0 0 .4rem}
+.reps-sheet__world{font-style:italic;font-size:.98rem;margin:0}
+.reps-sheet__meta{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--muted);margin:.2rem 0 0}
+.reps-sheet__body{font-size:.98rem;line-height:1.6;margin:0 0 1.4rem}
+.reps-sheet__actions{display:flex;flex-wrap:wrap;gap:.7rem 1.2rem;align-items:center;border-top:1px solid var(--rule);padding-top:1.1rem}
+.reps-sheet__secondary{font-family:'Alegreya Sans',sans-serif;font-size:.88rem}
+
 @media (max-width:640px){
-  .table-grid{grid-template-columns:repeat(2,1fr);max-width:24rem}
-  .rep-card .tradition{white-space:normal}
+  .rep-card{width:168px}
 }
 </style>
 </head>
@@ -68,42 +127,22 @@
   </section>
 
   <section class="table-section">
-    <p class="eyebrow">Who's at the table</p>
-    <p class="scope">For this first pilot stage, we have six Christian traditions from the Early Church and Imperial Church eras.</p>
-    <div class="table-grid">
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of the House-Churches"></div>
-        <p class="name">Chloe</p>
-        <p class="tradition">House-Churches, c. 70&ndash;200</p>
-      </div>
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/alexandria.png" alt="Theon, Representative of Alexandria"></div>
-        <p class="name">Theon</p>
-        <p class="tradition">Alexandria, c. 150&ndash;400</p>
-      </div>
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity"></div>
-        <p class="name">Mar Yausep</p>
-        <p class="tradition">Syriac Christianity, c. 200&ndash;410</p>
-      </div>
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/empire.png" alt="Marius, Representative of Church and Empire"></div>
-        <p class="name">Marius</p>
-        <p class="tradition">Church and Empire, c. 312&ndash;451</p>
-      </div>
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/desert.png" alt="Papnoute, Representative of Desert Monasticism"></div>
-        <p class="name">Papnoute</p>
-        <p class="tradition">Desert Monasticism, c. 320&ndash;430</p>
-      </div>
-      <div class="rep-card">
-        <div class="portrait"><img src="assets/portraits/bethlehem.png" alt="Albina, Representative of the Bethlehem Circle"></div>
-        <p class="name">Albina</p>
-        <p class="tradition">Bethlehem Circle, c. 382&ndash;420</p>
-      </div>
+    <div class="wrap-head">
+      <p class="eyebrow">Who's at the table</p>
+      <p class="scope">For this first pilot stage, we have six Christian traditions from the Early Church and Imperial Church eras. Click anyone to learn more, or launch straight into a conversation.</p>
     </div>
+    <div class="reps-carousel-wrap">
+      <div class="reps-carousel" id="repsCarousel" tabindex="0" aria-label="Representatives, in chronological order"></div>
+    </div>
+    <p class="reps-scroll-hint">scroll &rarr;</p>
   </section>
 </main>
+
+<div class="reps-scrim" id="repsScrim"></div>
+<div class="reps-sheet" id="repsSheet" role="dialog" aria-modal="true" aria-labelledby="repsSheetName">
+  <button class="reps-sheet__close" id="repsSheetClose" aria-label="Close">&times;</button>
+  <div id="repsSheetContent"></div>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -125,6 +164,107 @@ const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrend
 if (LIVE_APP_URL) {
   document.getElementById('launch-link').href = LIVE_APP_URL;
 }
+
+// Representative carousel — reads the same data/world-census.json the
+// Atlas itself reads, so it can never drift out of sync with it the way
+// two independently-maintained copies of this data have before on this site.
+const PORTRAIT_FILES = {
+  'post-apostolic-house-church': 'house-churches.png',
+  'alexandria-catechetical': 'alexandria.png',
+  'syriac-edessa-nisibis': 'syriac.png',
+  'imperial-juridical-christianity': 'empire.png',
+  'desert-monasticism': 'desert.png',
+  'hieronymian-ascetic-literary': 'bethlehem.png',
+};
+// Known discrepancy, not silently patched: the census's own id for this one
+// entry doesn't match the live app's real world_id (world_manifest.py) —
+// flagged in the Website thread's Decision Log; corrected here so the
+// interview link actually works, not fixed at the source in this pass.
+const CENSUS_ID_FIX = { 'imperial-and-juridical-christianity': 'imperial-juridical-christianity' };
+
+fetch('data/world-census.json')
+  .then(r => r.json())
+  .then(data => {
+    const eraTitles = {};
+    data.eras.forEach(e => { eraTitles[e.num] = e.title; });
+
+    const live = data.movements
+      .filter(m => m.status === 'Built & Live')
+      .map(m => {
+        const id = CENSUS_ID_FIX[m.id] || m.id;
+        return { id, era: m.era, start: m.start, dates: m.dates, region: m.region, entry: m.entry };
+      })
+      .sort((a, b) => a.start - b.start);
+
+    const carousel = document.getElementById('repsCarousel');
+    let lastEra = null;
+    live.forEach(w => {
+      if (lastEra !== null && w.era !== lastEra) {
+        const div = document.createElement('div');
+        div.className = 'reps-era-divider';
+        div.innerHTML = `<span>${eraTitles[w.era]}</span>`;
+        carousel.appendChild(div);
+      }
+      lastEra = w.era;
+
+      const card = document.createElement('button');
+      card.className = `rep-card era-${w.era}`;
+      card.style.setProperty('--rep-color', w.entry.color);
+      card.innerHTML = `
+        <span class="era-label">${eraTitles[w.era]}</span>
+        <div class="portrait"><img src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="${w.entry.representativeName}, Representative of ${w.entry.worldName}"></div>
+        <p class="name">${w.entry.representativeName}</p>
+        <p class="tradition">${w.entry.worldName}</p>
+        <p class="meta">${w.dates}<br>${w.region}</p>
+      `;
+      card.addEventListener('click', () => openRepsSheet(w));
+      carousel.appendChild(card);
+    });
+  })
+  .catch(err => {
+    console.error('Failed to load the representative carousel:', err);
+  });
+
+const repsScrim = document.getElementById('repsScrim');
+const repsSheet = document.getElementById('repsSheet');
+const repsSheetContent = document.getElementById('repsSheetContent');
+const repsSheetClose = document.getElementById('repsSheetClose');
+let repsLastFocused = null;
+
+function openRepsSheet(w) {
+  repsLastFocused = document.activeElement;
+  const e = w.entry;
+  const firstName = e.representativeName.split(' ').pop();
+  repsSheetContent.innerHTML = `
+    <div class="reps-sheet__top">
+      <img class="reps-sheet__portrait" src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="Portrait of ${e.representativeName}" style="--rep-color:${e.color}">
+      <div>
+        <h2 class="reps-sheet__name" id="repsSheetName">${e.representativeName}</h2>
+        <p class="reps-sheet__title" style="color:${e.color}">${e.representativeTitle}</p>
+        <p class="reps-sheet__world">${e.worldName}${e.subtitle ? ' &mdash; ' + e.subtitle : ''}</p>
+        <p class="reps-sheet__meta">${w.dates} &middot; ${w.region}</p>
+      </div>
+    </div>
+    <p class="reps-sheet__body">${e.tile}</p>
+    <div class="reps-sheet__actions">
+      <a class="btn primary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=interview" target="_blank" rel="noopener">Launch an Interview with ${firstName}</a>
+      <a class="reps-sheet__secondary" href="atlas.html" target="_blank" rel="noopener">Read more in the Atlas &rarr;</a>
+    </div>
+  `;
+  repsScrim.classList.add('open');
+  repsSheet.classList.add('open');
+  repsSheetClose.focus();
+  document.addEventListener('keydown', onRepsKeydown);
+}
+function closeRepsSheet() {
+  repsScrim.classList.remove('open');
+  repsSheet.classList.remove('open');
+  document.removeEventListener('keydown', onRepsKeydown);
+  if (repsLastFocused) repsLastFocused.focus();
+}
+function onRepsKeydown(e) { if (e.key === 'Escape') closeRepsSheet(); }
+repsScrim.addEventListener('click', closeRepsSheet);
+repsSheetClose.addEventListener('click', closeRepsSheet);
 })();
 </script>
 </body>
