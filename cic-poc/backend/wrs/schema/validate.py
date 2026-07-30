@@ -144,16 +144,55 @@ def matrix_check():
     return 0 if not unresolved and not uncovered else 1
 
 
+def validate_gloss_list():
+    """VG-1c: real JSON-Schema validation of the LIVE confirmed-gloss data
+    against confirmed_gloss.schema.json - the schema was previously loaded
+    only for the traceability matrix, never enforced (Voice-Governance
+    Addendum SS1.1's finding). Until SS4.3's data move lands (Step 2/3),
+    the live data is app/prompts/confirmed_glosses.py's world-keyed
+    dataclass module; each entry is projected to the schema's entry shape
+    (world_id from the dict key; exact_wording_required True - the
+    module's own whitelist discipline, made explicit). Returns exit code."""
+    import jsonschema
+    sys.path.insert(0, str(BACKEND))
+    from app.prompts.confirmed_glosses import CONFIRMED_GLOSSES
+    doc = {"schema_version": 1, "glosses": []}
+    for world_id, entries in CONFIRMED_GLOSSES.items():
+        for g in entries:
+            doc["glosses"].append({
+                "world_id": world_id, "category": g.category,
+                "original": g.original, "gloss": g.gloss,
+                "exact_wording_required": True})
+    v = jsonschema.Draft202012Validator(GLOSS_SCHEMA)
+    errs = [f"{'/'.join(str(x) for x in e.absolute_path) or '<root>'}: "
+            f"{e.message[:160]}"
+            for e in sorted(v.iter_errors(doc),
+                            key=lambda e: list(e.absolute_path))]
+    n = len(doc["glosses"])
+    by_world = {}
+    for g in doc["glosses"]:
+        by_world[g["world_id"]] = by_world.get(g["world_id"], 0) + 1
+    print(f"gloss entries valid: {n - len(errs)} / {n} "
+          f"({', '.join(f'{w} {c}' for w, c in sorted(by_world.items()))})")
+    for e in errs:
+        print("  ERROR:", e)
+    return 1 if errs else 0
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--fixtures", action="store_true")
     p.add_argument("--records", action="store_true")
     p.add_argument("--file")
     p.add_argument("--matrix", action="store_true")
+    p.add_argument("--glosses", action="store_true")
     args = p.parse_args()
 
     if args.matrix:
         sys.exit(matrix_check())
+
+    if args.glosses:
+        sys.exit(validate_gloss_list())
 
     if args.fixtures:
         paths = list((HERE / "fixtures").glob("*.md")) + list((HERE / "fixtures").glob("*.yaml"))

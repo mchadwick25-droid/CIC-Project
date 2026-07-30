@@ -32,3 +32,15 @@
 **Standing note until Step 2:** `alias_safety` is deliberately RED on the three built worlds (Desert 5 / Alexandria 36 / Syriac 4). The six original gates remain the frozen-world regression floor; the new gate's count is the retrofit worklist, not a regression.
 
 **Next:** VG-1c (confirmed-gloss schema), then Rule C as a small follow-up, then Step 2 (retrofit) and Step 3 (clean builds for the next three worlds).
+
+## 2026-07-30 — VG-1c done: the confirmed-gloss schema fix — Step 1 of the Voice-Governance Addendum is COMPLETE
+
+**What changed:** `confirmed_gloss.schema.json` now describes the data the gloss mechanism actually uses. The old shape (`world_term`/`approved_gloss`) could not validate a single one of the 87 live entries — the runtime has always used `{category, original, gloss}`, with `category` deciding which way the bracket-gloss renders. The corrected entry shape is the plan's Option A: `world_id`, optional `term_id` (the future Rule-C hook; 39 of 87 entries belong to worlds with no term records yet, so requiring it now would be dishonest), `category` A/B, `original`, `gloss`, `exact_wording_required`, and optional `sources[]`/`reviewer_confirmed_date`/`review_note` (optional because your 2026-07-25 review happened but wasn't captured as structured evidence — the honest-backfill rule, not an oversight).
+
+**Traceability:** 9 rows replacing the 3 stale ones — the corrected-shape fields carry the original Pass-1 §3.11 warrant; the four genuinely new fields carry a Pass-2-CO warrant (the same pattern CO-P2-04 used for gravity_links). Matrix clean both directions.
+
+**Enforcement made real:** the schema was loaded but never enforced anywhere — that's now closed. `validate.py --glosses` runs actual JSON-Schema validation over the live gloss data: **87/87 valid**, per-world counts matching the plan's own §4.4 table exactly. The schema now provably governs the data it claims to govern.
+
+**Deliberately not done (Step 2/3 territory per the plan's own sequencing):** moving the data out of the Python module into a validated YAML, the gloss referential-integrity gate, the generated-JSON view and consumer refactor, and all `term_id` backfill.
+
+**Where this leaves the addendum:** Step 1 (1a parser fix + 1b alias-safety gate + 1c schema fix) is complete, committed, and green. Rule C wires in as a small follow-up now that `term_id` exists in the shape. Hieronymian's S2.2 can open with the fixed parser, the live gate, and the corrected schema all watching from the first record — which was the whole point of doing Step 1 first.
