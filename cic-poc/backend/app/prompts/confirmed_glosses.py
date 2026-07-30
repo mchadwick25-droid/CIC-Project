@@ -130,6 +130,7 @@ CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
         ConfirmedGloss("A", "pertinacia", "stubbornness, a refusal to recant"),
     ],
     "alexandria-catechetical": [
+        ConfirmedGloss("A", "illumination", "baptism"),
         ConfirmedGloss("A", "gnosis", "a transformative knowing of God"),
         ConfirmedGloss("A", "participation", "a deep sharing in God's life"),
         ConfirmedGloss("A", "theosis", "being drawn into God's life"),
