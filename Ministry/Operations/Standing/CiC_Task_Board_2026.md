@@ -130,7 +130,14 @@ check of the real Living Table build in a running conversation — see LT-1.
       - **SH-11 — Design a system that pulls prepared answers seamlessly into interview
         mode.** This is the precomputed answer-bank lever from tonight's cost investigation
         — real, but sized at ~5% of cost (not the 30-50% first assumed), see
-        `Ministry/Technology/Pass3/cost_floor_model.py`. Worth doing for the quality/
+        `Ministry/Technology/Pass3/cost_floor_model.py` (restored to `main` 2026-07-31 -
+        it existed only on an orphaned branch until now). **BUILT 2026-07-31** — the
+        mechanism (storage, lookup, live-shaped serving, hit/miss logging), fully verified
+        offline (`scripts/answer_bank_check.py`, 14/14), zero real content. Full account:
+        `Ministry/Features/Guided-Questions/CiC_Answer_Bank_SH11_V0_1.md`. **Not live**:
+        needs a real content-generation run (live API key) plus human review before any
+        bank file is trusted, and the curriculum-picker UI is explicitly the front-end
+        thread's job, not built here. Worth doing for the quality/
         consistency win on curriculum-path traffic; go in with the real cost expectation,
         not the inflated one.
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven

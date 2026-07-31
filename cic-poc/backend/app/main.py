@@ -204,11 +204,28 @@ class StartSessionResponse(BaseModel):
     world_ids: list[str] = []  # All worlds at table
 
 
+class CurriculumRef(BaseModel):
+    """Identifies an exact, unmodified tap on a Guided-Questions curriculum
+    starter (see app/answer_bank.py) - never sent for a free-typed message,
+    and never inferred from one. role/set_id/question_order match
+    Ministry/Features/Guided-Questions/Design/CiC_Guided_Questions_Curriculum_V1_0.json
+    exactly (roles[].id, roles[].sets[].id, roles[].sets[].questions[].order)."""
+
+    role: str
+    set_id: str
+    question_order: int
+
+
 class SendMessageRequest(BaseModel):
     """Request to send a message."""
 
     message: str
     close_requested: bool = False
+    # SH-11: present only when `message` is a verbatim curriculum-starter
+    # tap - see CurriculumRef and app/answer_bank.py. None for every
+    # ordinary free-typed message, which is the overwhelming majority of
+    # traffic and always goes straight to live generation.
+    curriculum_ref: CurriculumRef | None = None
 
 
 class PilotRequest(BaseModel):
@@ -852,8 +869,17 @@ async def send_message(session_id: str, request: SendMessageRequest,
             state.current_world_id = responding_worlds[0]
             result = representative_engages(state, request_id=request_id)
     else:
-        # Single-world table
-        result = representative_engages(state, request_id=request_id)
+        # Single-world table (interview mode) - check the answer bank first
+        # (SH-11: app/answer_bank.py). Returns None on any kind of miss
+        # (no curriculum_ref at all - the overwhelming majority of
+        # messages - no bank entry yet, or a text mismatch), in which case
+        # this is byte-for-byte the same call the live path always made.
+        from app.answer_bank import try_answer_bank
+        result = try_answer_bank(state, request.curriculum_ref.model_dump()
+                                 if request.curriculum_ref else None,
+                                 request.message, request_id=request_id)
+        if result is None:
+            result = representative_engages(state, request_id=request_id)
 
     # Update state with representative's response(s)
     new_msgs = result.get("messages", [])
@@ -1451,7 +1477,24 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
 
                 new_message = None
                 is_reactive = bool(spoken_this_round)
-                for event in stream_representative_turn(working_state, is_reactive=is_reactive, request_id=request_id):
+                # SH-11 (app/answer_bank.py): only the direct, non-reactive
+                # answer to what the participant just sent is ever eligible
+                # - a continuation turn within the same round is a live
+                # reaction to another representative, never a curriculum
+                # match. bank_turn_gen is None on any miss (including
+                # simply not having a curriculum_ref at all, the ordinary
+                # case), which falls straight through to the unchanged live
+                # generator - same yield contract either way.
+                bank_turn_gen = None
+                if not is_reactive:
+                    from app.answer_bank import stream_answer_bank
+                    bank_turn_gen = stream_answer_bank(
+                        working_state,
+                        request.curriculum_ref.model_dump() if request.curriculum_ref else None,
+                        request.message, request_id=request_id)
+                turn_gen = bank_turn_gen if bank_turn_gen is not None else stream_representative_turn(
+                    working_state, is_reactive=is_reactive, request_id=request_id)
+                for event in turn_gen:
                     if event["type"] == "token":
                         yield sse({
                             "type": "token",
