@@ -188,7 +188,22 @@ def dollars(rec, table):
     if rates is None:
         return None
     i, o, w, r = rates
-    return (rec["input_tokens"] * i + rec["output_tokens"] * o
+    # LangChain's usage_metadata["input_tokens"] - what usage_logging.py
+    # records as this row's input_tokens - is already Anthropic's raw
+    # input_tokens PLUS cache_read PLUS cache_creation added back in.
+    # Verified against the installed langchain_anthropic source
+    # (_create_usage_metadata: "Anthropic's input_tokens excludes cached
+    # tokens, so we manually add cache_read and cache_creation tokens to get
+    # the true total"). usage_logging.py takes the cache figures from
+    # Anthropic's RAW usage block, so the two are directly comparable.
+    #
+    # Pricing that inflated figure at the full input rate and then adding
+    # cache_read/cache_creation again at their own rates bills every cached
+    # token twice. Subtract them back out to recover the genuinely uncached
+    # span that Anthropic charges at the full input rate.
+    uncached_input = (rec["input_tokens"] - rec["cache_read_input_tokens"]
+                       - rec["cache_creation_input_tokens"])
+    return (uncached_input * i + rec["output_tokens"] * o
             + rec["cache_creation_input_tokens"] * w
             + rec["cache_read_input_tokens"] * r) / 1_000_000
 

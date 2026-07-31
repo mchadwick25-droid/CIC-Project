@@ -97,25 +97,12 @@ class LexiconIndexer:
         Handles both the "## Key Sources" heading convention (Syriac/PAHC,
         content follows on later lines) and the inline "**Key Sources:**"
         bold-label convention (Desert Monasticism, content follows on the
-        same line).
+        same line) - via app/rag/sections.py, which is now the single place
+        those two conventions are described. This function's own copy of the
+        boundary rule was correct; the retriever's parallel copy was not, and
+        one shared primitive is what stops those two drifting apart again.
         """
-        for marker in ("## Key Sources", "**Key Sources:**", "**Key Sources**"):
-            if marker not in content:
-                continue
-
-            remaining = content.split(marker, 1)[1]
-
-            # Section ends at the next heading/bold-label or separator
-            end_markers = ["\n---", "\n## ", "\n\n**"]
-            end_pos = len(remaining)
-            for end_marker in end_markers:
-                pos = remaining.find(end_marker)
-                if pos > 0 and pos < end_pos:
-                    end_pos = pos
-
-            return remaining[:end_pos].strip().lstrip(":").strip()
-
-        return ""
+        return extract_section(content, KEY_SOURCES_MARKERS)
 
     def parse_quick_meaning(self, content: str, fallback: str) -> str:
         """Extract the Quick Meaning section (S3.1 / Pass 1 R1).
@@ -127,19 +114,9 @@ class LexiconIndexer:
         truncated snippet of the entry's own content so the field is
         never empty (same contract main.py's tooltip needs).
         """
-        for marker in ("## Quick Meaning", "**Quick Meaning:**",
-                       "**Quick Meaning**"):
-            if marker not in content:
-                continue
-            remaining = content.split(marker, 1)[1]
-            end_pos = len(remaining)
-            for end_marker in ("\n---", "\n## ", "\n\n**"):
-                pos = remaining.find(end_marker)
-                if 0 < pos < end_pos:
-                    end_pos = pos
-            text = remaining[:end_pos].strip().lstrip(":").strip()
-            if text:
-                return text
+        text = extract_section(content, QUICK_MEANING_MARKERS)
+        if text:
+            return text
         snippet = " ".join(fallback.split())
         return snippet[:220].rsplit(" ", 1)[0] + "…" if len(snippet) > 220 else snippet
 

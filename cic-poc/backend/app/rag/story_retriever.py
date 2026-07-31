@@ -2,15 +2,14 @@
 Retrieve-When / Do-Not-Retrieve-When logic against the story schema."""
 
 from dataclasses import dataclass, field
-from pathlib import Path
 
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 
 from app.config import settings
-from app.rag.batch_evaluate import (Candidate, _evaluable_negative_condition,
-                                     evaluate_negative_conditions)
+from app.rag.pipeline import STORY_SPEC, run_retrieval
+from app.rag.retrieval_mode import TURN, RetrievalMode
 from app.rag.retriever import Citation, RetrievalEvaluation
 from app.rag.source_registry import resolve_references
 from app.rag.story_indexer import StoryIndexer
@@ -77,8 +76,9 @@ class StoryRetriever:
         self,
         query: str,
         conversation_context: str = "",
-        k: int = 2,
+        k: int | None = None,
         exclude_ids: set[str] | None = None,
+        mode: RetrievalMode = TURN,
     ) -> StoryRetrievalResult:
         """
         Retrieve relevant story chunks for a query.
@@ -86,122 +86,32 @@ class StoryRetriever:
         A lower default k than the lexicon retriever - stories are longer and
         a representative should draw on at most one or two per turn, not
         pepper an answer with narrative.
+
+        mode: see app/rag/retrieval_mode.py. Identical semantics to
+        LexiconRetriever.retrieve, and now literally the same code path
+        (app/rag/pipeline.py) rather than a second copy of it.
         """
+        k = STORY_SPEC.default_k if k is None else k
         # S3.2: hybrid BM25+dense candidate search (see app/rag/hybrid.py)
         docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
-        # S3.3 (Pass 1 R4): deterministic session exclusion - a story once
-        # told this session is filtered by ID at candidate stage, replacing
-        # the LLM-vote instruction "when this exact story was already told
-        # earlier" (string/judgment-based, the second broken de-dup guard).
-        excluded_evals = []
-        if exclude_ids:
-            kept = []
-            for doc in candidate_docs:
-                stem = Path(doc.metadata.get("source_file", "")).stem
-                if stem in exclude_ids:
-                    excluded_evals.append(RetrievalEvaluation(
-                        term=doc.metadata.get("story_title", "unknown"),
-                        source_file=doc.metadata.get("source_file", ""),
-                        retrieved=False,
-                        reason="Session exclusion set: already surfaced "
-                               "this session (deterministic ID match).",
-                    ))
-                else:
-                    kept.append(doc)
-            candidate_docs = kept
-
-        # S3.4 (Pass 1 R6): deterministic cross-encoder relevance; the one
-        # remaining LLM call judges only evaluable guards - see
-        # LexiconRetriever.retrieve for the full rationale.
-        from app.rag.cross_encoder import score_candidates, threshold_for
-
-        scores = score_candidates(query, candidate_docs)
-        rel_threshold = threshold_for(query)
-        # S3.4: selection order is the cross-encoder's ranking (its
-        # ordering is reliable even where its absolute score is not -
-        # see cross_encoder.py); the fused candidate list stays the
-        # audit-trail order
-        candidate_docs = [d for _s, d in sorted(
-            zip(scores, candidate_docs), key=lambda x: -x[0])]
-        scores = sorted(scores, reverse=True)
-        decisions_by_id: dict[int, tuple[bool, str]] = {}
-        guarded_docs = []
-        for rank, (doc, score) in enumerate(zip(candidate_docs, scores)):
-            # A candidate the cross-encoder itself ranks inside the final
-            # k is never hard-dropped on absolute score: the model's
-            # ordering is reliable where its absolute calibration is not
-            # (measured - deep-thematic must-docs score in the noise band
-            # on clean queries yet rank top). The threshold prunes only
-            # beyond-window noise, which also bounds the guard-vote batch.
-            if score < rel_threshold and rank >= k:
-                decisions_by_id[id(doc)] = (
-                    False,
-                    f"Cross-encoder relevance {score:.2f} below threshold "
-                    f"{rel_threshold} - not relevant to this turn.",
-                )
-            elif _evaluable_negative_condition(
-                    doc.metadata.get("do_not_retrieve_when", "")):
-                guarded_docs.append(doc)
-            else:
-                decisions_by_id[id(doc)] = (
-                    True,
-                    f"Cross-encoder relevance {score:.2f} - retrieved "
-                    f"(no evaluable guard).",
-                )
-
-        if guarded_docs:
-            candidates = [
-                Candidate(
-                    label=doc.metadata.get("story_title", "unknown"),
-                    retrieve_when=doc.metadata.get("retrieve_when", ""),
-                    do_not_retrieve_when=doc.metadata.get("do_not_retrieve_when", ""),
-                    tier=doc.metadata.get("tier", 1),
-                )
-                for doc in guarded_docs
-            ]
-            decisions = evaluate_negative_conditions(
-                self.filter_llm,
-                candidates,
-                query,
-                conversation_context,
-                item_noun="story",
-            )
-            decisions_by_id.update(
-                {id(doc): decision for doc, decision in zip(guarded_docs, decisions)}
-            )
-
-        filtered_docs = []
-        reasoning_parts = []
-        evaluations = list(excluded_evals)  # session-exclusion audit entries
-
-        for doc in candidate_docs:
-            should_retrieve, reason = decisions_by_id[id(doc)]
-            title = doc.metadata.get("story_title", "unknown")
-            source_file = doc.metadata.get("source_file", "")
-
-            evaluations.append(
-                RetrievalEvaluation(
-                    term=title,
-                    source_file=source_file,
-                    retrieved=should_retrieve,
-                    reason=reason,
-                )
-            )
-
-            if should_retrieve and len(filtered_docs) < k:
-                filtered_docs.append(doc)
-                reasoning_parts.append(f"Retrieved '{title}': {reason}")
-            elif should_retrieve:
-                reasoning_parts.append(f"Retrieved but over limit '{title}': {reason}")
-            else:
-                reasoning_parts.append(f"Skipped '{title}': {reason}")
+        result = run_retrieval(
+            spec=STORY_SPEC,
+            mode=mode,
+            candidate_docs=candidate_docs,
+            query=query,
+            conversation_context=conversation_context,
+            k=k,
+            exclude_ids=exclude_ids,
+            filter_llm=self.filter_llm,
+            evaluation_cls=RetrievalEvaluation,
+        )
 
         return StoryRetrievalResult(
-            documents=filtered_docs,
-            reasoning="\n".join(reasoning_parts),
-            evaluations=evaluations,
+            documents=result.documents,
+            reasoning=result.reasoning,
+            evaluations=result.evaluations,
         )
 
     def get_context_for_response(
@@ -209,6 +119,7 @@ class StoryRetriever:
         query: str,
         conversation_context: str = "",
         exclude_ids: set[str] | None = None,
+        mode: RetrievalMode = TURN,
     ) -> tuple[str, list[Citation], list[RetrievalEvaluation]]:
         """
         Get formatted context string, citations, and the retrieval audit trail
@@ -217,8 +128,10 @@ class StoryRetriever:
         Citations here carry the story's front-matter Source field (which the
         Usage Guidance requires the representative to name when telling the
         story), enriched with any resolved Source Registry rows it references.
+        mode: see app/rag/retrieval_mode.py.
         """
-        result = self.retrieve(query, conversation_context, exclude_ids=exclude_ids)
+        result = self.retrieve(query, conversation_context,
+                               exclude_ids=exclude_ids, mode=mode)
 
         if not result.documents:
             return "", [], result.evaluations

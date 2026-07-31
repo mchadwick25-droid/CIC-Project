@@ -180,6 +180,26 @@ def classify_modern_term(message: str, seated_world_ids: list[str]) -> dict | No
         if not definitions or not seated_world_ids:
             return None
 
+        # The FLAG-022 precondition below already makes a lexically-absent
+        # term unreachable: whatever term_id the classifier returns is
+        # rejected unless the participant's own message carries one of its
+        # display forms. So on a message carrying NO dictionary term at all,
+        # the classifier call cannot change the outcome - every branch ends
+        # in None. Checking that deterministically FIRST turns those turns
+        # from one Haiku call into zero, and is outcome-preserving by
+        # construction: it returns None only where the post-call
+        # precondition would have returned None anyway. (Measured: 100% of
+        # the 40-turn cost baseline set carried zero dictionary terms.)
+        #
+        # Deliberately NOT narrowed to the present-terms subset: the prompt
+        # still lists the whole dictionary, so the classifier's choice among
+        # candidates is byte-identical on every turn that still makes the
+        # call. Narrowing the candidate list would change which term it picks
+        # on a multi-term message - a real behavior change, and this is not.
+        if not any(_term_present_in_message(d, tid, message)
+                   for tid, d in definitions.items()):
+            return None
+
         lines = [
             f"- {tid}: forms: {'; '.join(d.get('display_terms', [tid]))}\n"
             f"  distinguishing claim: {d.get('distinguishing_claim', '(none recorded)')}"

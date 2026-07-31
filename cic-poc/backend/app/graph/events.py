@@ -168,6 +168,7 @@ def project(session_id: str, events: list[Event]) -> ConversationState:
         t = ev.type
         if t == "session_started":
             state.user_id = p.get("user_id")
+            state.session_token = p.get("session_token")
             state.world_id = p["world_id"]
             state.world_ids = list(p["world_ids"])
             state.current_world_id = p["world_id"]

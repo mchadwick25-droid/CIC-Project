@@ -217,6 +217,14 @@ class ConversationState:
     # Set once at session creation; read by app/transcript_logging.py so
     # every downstream call site doesn't need its own user parameter.
     user_id: Optional[str] = None
+    # A random, unguessable secret handed back once at session start and
+    # required on every later session-scoped request (X-Session-Token) - see
+    # app/session_auth.py. Possession-based, not identity-based: sign-in is
+    # optional by design, so user_id is None for every anonymous participant
+    # and cannot distinguish one anonymous session from another. None here
+    # means a session created before this field existed; those are never
+    # enforced against, so sessions in flight at deploy time don't break.
+    session_token: Optional[str] = None
     world_id: str = "syriac-edessa-nisibis"  # Primary/first world (for backwards compat)
     world_ids: list[str] = field(default_factory=list)  # All worlds at table
     close_requested: bool = False

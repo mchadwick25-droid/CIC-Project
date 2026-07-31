@@ -35,8 +35,17 @@ async function extractErrorMessage(response: Response, fallback: string): Promis
   return fallback;
 }
 
+// The possession secret session/start hands back once, required on every
+// later request to that session (see the backend's app/session_auth.py) -
+// proves this browser is the one that started the session, since sign-in is
+// optional and every anonymous participant otherwise looks the same.
+function sessionTokenHeader(token: string | null): Record<string, string> {
+  return token ? { 'X-Session-Token': token } : {};
+}
+
 const initialState: ConversationState & { isStreaming: boolean } = {
   sessionId: null,
+  sessionToken: null,
   worldId: null,
   worldIds: [],
   messages: [],
@@ -82,6 +91,7 @@ export function useConversation() {
 
       setState({
         sessionId: data.session_id,
+        sessionToken: data.session_token,
         worldId: data.world_id,
         worldIds: data.world_ids || [data.world_id],
         messages: data.messages,
@@ -131,6 +141,7 @@ export function useConversation() {
 
       setState({
         sessionId: data.session_id,
+        sessionToken: data.session_token,
         worldId: data.world_id,
         worldIds: data.world_ids || [data.world_id],
         messages: data.messages,
@@ -179,7 +190,10 @@ export function useConversation() {
         `${API_BASE}/session/${state.sessionId}/message/stream`,
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            ...sessionTokenHeader(state.sessionToken),
+          },
           body: JSON.stringify({ message, close_requested: false }),
         }
       );
@@ -305,7 +319,10 @@ export function useConversation() {
         `${API_BASE}/session/${state.sessionId}/message`,
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            ...sessionTokenHeader(state.sessionToken),
+          },
           body: JSON.stringify({ message: '', close_requested: true }),
         }
       );

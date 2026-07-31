@@ -1,16 +1,17 @@
 """RAG retriever with Retrieve-When / Do-Not-Retrieve-When logic."""
 
 from dataclasses import dataclass, field
-from pathlib import Path
 
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 
 from app.config import settings
-from app.rag.batch_evaluate import (Candidate, _evaluable_negative_condition,
-                                     evaluate_negative_conditions)
 from app.rag.indexer import LexiconIndexer
+from app.rag.pipeline import LEXICON_SPEC, run_retrieval
+from app.rag.retrieval_mode import TURN, RetrievalMode
+from app.rag.sections import (KEY_SOURCES_MARKERS, QUICK_MEANING_MARKERS,
+                              excise_section, truncate_at)
 from app.rag.source_registry import resolve_references
 
 
@@ -108,8 +109,9 @@ class LexiconRetriever:
         self,
         query: str,
         conversation_context: str = "",
-        k: int = 3,
+        k: int | None = None,
         exclude_ids: set[str] | None = None,
+        mode: RetrievalMode = TURN,
     ) -> RetrievalResult:
         """
         Retrieve relevant lexicon entries for a query.
@@ -117,133 +119,44 @@ class LexiconRetriever:
         Args:
             query: The participant's message or question
             conversation_context: Recent conversation history for context
-            k: Number of documents to retrieve
+            k: Number of documents to retrieve (defaults to the spec's k)
+            exclude_ids: S3.3 session exclusion set, honoured only in modes
+                that allow it
+            mode: WHY this retrieval is running - see app/rag/retrieval_mode.py.
+                TURN (the default, and every turn-time caller) applies the
+                Do-Not-Retrieve-When guards and the session exclusion set.
+                ADJUDICATION does neither: it asks what the record contains,
+                not what should surface to a participant right now.
 
         Returns:
             RetrievalResult with filtered documents and reasoning
         """
+        k = LEXICON_SPEC.default_k if k is None else k
         # Initial candidate search - S3.2: hybrid BM25+dense RRF with R8
         # one-hop expansion (see candidate_search / app/rag/hybrid.py)
         docs_with_scores = self.candidate_search(query, k)
         candidate_docs = [doc for doc, _score in docs_with_scores]
 
-        # S3.3 (Pass 1 R4): the ID-keyed session exclusion set - chunks
-        # already surfaced this session are dropped deterministically at
-        # candidate stage, with an audit-trail entry each. Replaces the
-        # substring already_discussed proxy (broken on composite labels).
-        excluded_evals = []
-        if exclude_ids:
-            kept = []
-            for doc in candidate_docs:
-                stem = Path(doc.metadata.get("source_file", "")).stem
-                if stem in exclude_ids:
-                    excluded_evals.append(RetrievalEvaluation(
-                        term=doc.metadata.get("term", "unknown"),
-                        source_file=doc.metadata.get("source_file", ""),
-                        retrieved=False,
-                        reason="Session exclusion set: already surfaced "
-                               "this session (deterministic ID match).",
-                    ))
-                else:
-                    kept.append(doc)
-            candidate_docs = kept
-
-        # S3.4 (Pass 1 R6): relevance is decided by the local cross-encoder,
-        # deterministically - the batched LLM relevance vote (and the tier-1
-        # short-circuit that existed to protect tier-1 terms from that
-        # vote's batch dilution) are both gone. The ONE remaining LLM call
-        # judges only Do-Not-Retrieve-When guards, and only when a
-        # relevance-kept candidate actually carries an evaluable one.
-        from app.rag.cross_encoder import score_candidates, threshold_for
-
-        scores = score_candidates(query, candidate_docs)
-        rel_threshold = threshold_for(query)
-        # S3.4: selection order is the cross-encoder's ranking (its
-        # ordering is reliable even where its absolute score is not -
-        # see cross_encoder.py); the fused candidate list stays the
-        # audit-trail order
-        candidate_docs = [d for _s, d in sorted(
-            zip(scores, candidate_docs), key=lambda x: -x[0])]
-        scores = sorted(scores, reverse=True)
-        decisions_by_id: dict[int, tuple[bool, str]] = {}
-        guarded_docs = []
-        for rank, (doc, score) in enumerate(zip(candidate_docs, scores)):
-            # A candidate the cross-encoder itself ranks inside the final
-            # k is never hard-dropped on absolute score: the model's
-            # ordering is reliable where its absolute calibration is not
-            # (measured - deep-thematic must-docs score in the noise band
-            # on clean queries yet rank top). The threshold prunes only
-            # beyond-window noise, which also bounds the guard-vote batch.
-            if score < rel_threshold and rank >= k:
-                decisions_by_id[id(doc)] = (
-                    False,
-                    f"Cross-encoder relevance {score:.2f} below threshold "
-                    f"{rel_threshold} - not relevant to this turn.",
-                )
-            elif _evaluable_negative_condition(
-                    doc.metadata.get("do_not_retrieve_when", "")):
-                guarded_docs.append(doc)
-            else:
-                decisions_by_id[id(doc)] = (
-                    True,
-                    f"Cross-encoder relevance {score:.2f} - retrieved "
-                    f"(no evaluable guard).",
-                )
-
-        if guarded_docs:
-            candidates = [
-                Candidate(
-                    label=doc.metadata.get("term", "unknown"),
-                    retrieve_when=doc.metadata.get("retrieve_when", ""),
-                    do_not_retrieve_when=doc.metadata.get("do_not_retrieve_when", ""),
-                    tier=doc.metadata.get("tier", 1),
-                )
-                for doc in guarded_docs
-            ]
-            decisions = evaluate_negative_conditions(
-                self.filter_llm,
-                candidates,
-                query,
-                conversation_context,
-                item_noun="lexicon entry",
-            )
-            decisions_by_id.update(
-                {id(doc): decision for doc, decision in zip(guarded_docs, decisions)}
-            )
-
-        filtered_docs = []
-        reasoning_parts = []
-        evaluations = list(excluded_evals)  # session-exclusion audit entries
-
-        for doc in candidate_docs:
-            should_retrieve, reason = decisions_by_id[id(doc)]
-            term = doc.metadata.get("term", "unknown")
-            source_file = doc.metadata.get("source_file", "")
-
-            evaluations.append(
-                RetrievalEvaluation(
-                    term=term,
-                    source_file=source_file,
-                    retrieved=should_retrieve,
-                    reason=reason,
-                )
-            )
-
-            if should_retrieve and len(filtered_docs) < k:
-                filtered_docs.append(doc)
-                reasoning_parts.append(f"Retrieved '{term}': {reason}")
-            elif should_retrieve:
-                reasoning_parts.append(f"Retrieved but over limit '{term}': {reason}")
-            else:
-                reasoning_parts.append(f"Skipped '{term}': {reason}")
-
-        terms = [doc.metadata.get("term", "") for doc in filtered_docs]
+        # Everything from session exclusion through the guard vote and the
+        # decision/audit loop is shared with StoryRetriever - see
+        # app/rag/pipeline.py for why it lives in one place now.
+        result = run_retrieval(
+            spec=LEXICON_SPEC,
+            mode=mode,
+            candidate_docs=candidate_docs,
+            query=query,
+            conversation_context=conversation_context,
+            k=k,
+            exclude_ids=exclude_ids,
+            filter_llm=self.filter_llm,
+            evaluation_cls=RetrievalEvaluation,
+        )
 
         return RetrievalResult(
-            documents=filtered_docs,
-            terms=terms,
-            reasoning="\n".join(reasoning_parts),
-            evaluations=evaluations,
+            documents=result.documents,
+            terms=[doc.metadata.get("term", "") for doc in result.documents],
+            reasoning=result.reasoning,
+            evaluations=result.evaluations,
         )
 
     def get_context_for_response(
@@ -251,6 +164,7 @@ class LexiconRetriever:
         query: str,
         conversation_context: str = "",
         exclude_ids: set[str] | None = None,
+        mode: RetrievalMode = TURN,
     ) -> tuple[str, list[Citation], list[RetrievalEvaluation]]:
         """
         Get formatted context string, citations, and the retrieval audit trail
@@ -263,8 +177,11 @@ class LexiconRetriever:
         why - for auditing what the representative's answer actually drew on.
         exclude_ids: the S3.3 session exclusion set (chunk-id stems already
         surfaced this session), applied deterministically at candidate stage.
+        mode: see app/rag/retrieval_mode.py - TURN for a live turn,
+        ADJUDICATION for source-fed judging of a turn already spoken.
         """
-        result = self.retrieve(query, conversation_context, exclude_ids=exclude_ids)
+        result = self.retrieve(query, conversation_context,
+                               exclude_ids=exclude_ids, mode=mode)
 
         if not result.documents:
             return "", [], result.evaluations
@@ -284,29 +201,27 @@ class LexiconRetriever:
             # story indexer's voice-unsafe-section strip. The apparatus
             # stays in metadata (the citation chip's source) and Levels
             # 2/3; only the voice-safe body is serialized.
-            for marker in ("## Key Sources", "**Key Sources:**",
-                           "**Key Sources**"):
-                idx = body.find(marker)
-                if idx != -1:
-                    body = body[:idx].rstrip()
-                    break
+            body = truncate_at(body, KEY_SOURCES_MARKERS)
             # S5.3 (R7): for migrated worlds the quick_meaning of EVERY
             # term already rides the cached prefix - per-turn retrieval
             # narrows to the DEEP body, so the duplicated Quick Meaning
             # section is stripped from the serialized chunk. Fail-open:
             # unmigrated worlds keep the full body exactly as before.
+            #
+            # excise_section (app/rag/sections.py) knows BOTH of this
+            # codebase's section conventions. The hand-rolled strip that
+            # used to sit here searched only for a following "##" to find
+            # where the section ended, so on a world whose chunks carry no
+            # "##" at all and open with Quick Meaning - Desert - "no ##
+            # found" read as "nothing follows this section" and the whole
+            # lexicon body was discarded, leaving only the front-matter
+            # block. Papnoute was generating with zero retrieved lexicon
+            # content: an Article 5 grounding failure, live, in all 18 of
+            # Desert's terms.
             try:
                 from app.graph.repair_classifier import _migrated_world_ids
                 if self.world_id in _migrated_world_ids():
-                    for qm in ("## Quick Meaning", "**Quick Meaning:**",
-                               "**Quick Meaning**"):
-                        qidx = body.find(qm)
-                        if qidx != -1:
-                            nxt = body.find("##", qidx + 2)
-                            body = (body[:qidx].rstrip() + "\n\n"
-                                    + body[nxt:] if nxt != -1
-                                    else body[:qidx].rstrip())
-                            break
+                    body = excise_section(body, QUICK_MEANING_MARKERS)
             except Exception:
                 pass
             context_parts.append(body)

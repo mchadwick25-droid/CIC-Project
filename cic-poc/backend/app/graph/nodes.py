@@ -6,7 +6,7 @@ import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from typing import Literal
+from typing import Literal, NamedTuple
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
@@ -71,7 +71,9 @@ def _is_large_table_opening(state: ConversationState, is_reactive: bool) -> bool
     return len(world_ids) > 1 and len(world_ids) >= LARGE_TABLE_THRESHOLD
 
 
+from app.graph.world_sources import load_world_sources
 from app.rag import LexiconRetriever, StoryRetriever
+from app.rag.retrieval_mode import ADJUDICATION
 
 # Hard cap on a reactive turn's length - keeps a multi-representative round
 # feeling like conversational exchange rather than a sequence of speeches,
@@ -2084,45 +2086,54 @@ def _adjudicate_over_settling(
     return False
 
 
+class WorldEvidence(NamedTuple):
+    """The three sources a source-fed adjudication is defined against."""
+
+    permanent_prompt: str
+    capsule: str
+    retrieved: str
+
+
 def _gather_world_evidence(
     world_id: str, response_text: str
-) -> tuple[str, str, str] | None:
+) -> WorldEvidence | None:
     """
     The three sources a source-fed adjudication is defined against, for one
     world: (permanent_prompt, capsule, retrieved). None if the capsule cannot
     be read at all, which is the one failure that leaves nothing to judge
     against.
 
-    Shared by both second-stage checks (_adjudicate_fabrication and
-    _adjudicate_over_settling), which ask opposite questions of identical
+    Used by all three source-fed adjudicators - _adjudicate_fabrication and
+    _adjudicate_over_settling (which ask opposite questions of identical
     evidence: whether the record supports a claim, and whether the record
-    limits it.
-    """
-    try:
-        world_config = settings.get_world_config(world_id)
-        capsule = world_config.world_capsule_path.read_text(encoding="utf-8")
-    except Exception:
-        return None
+    limits it) and repair_classifier.adjudicate_challenge (which asks whether
+    the record holds a claim a participant has pushed back on).
 
-    # The permanent prompt is the third source FABRICATION's own definition
-    # names ("grounded in the permanent prompt, world capsule, or retrieved
-    # context"), and it is where each Representative's core formation and
-    # world facts live. Adjudicating against only the capsule and retrieval
-    # left content grounded ONLY in the permanent prompt still reading as
-    # fabricated - the same false-positive class this stage exists to close,
-    # surviving in a narrower band. Non-fatal if unreadable: the capsule and
-    # retrieval can still settle most cases, and returning None here would
-    # keep a stage 1 finding this stage might have cleared.
-    try:
-        permanent_prompt = world_config.permanent_prompt_path.read_text(encoding="utf-8")
-    except Exception:
-        permanent_prompt = "(permanent prompt unavailable)"
+    Retrieval runs in ADJUDICATION mode. That is the whole point of naming
+    modes: this call site asks what the world's record CONTAINS, not what
+    should surface to a participant right now, so the Do-Not-Retrieve-When
+    guards must not filter it and the session exclusion set must not apply.
+    Under the previous shape both of those were decided by which keyword
+    arguments this line happened to pass - it omitted exclude_ids and got the
+    right answer, and inherited the guard default and got the wrong one, with
+    nothing in the code distinguishing the two cases. 137 of the 178 deployed
+    chunks carry a guard the runtime treats as evaluable, so this was not a
+    corner case; it was most candidates, every adjudication. Filtering here
+    can hide the exact chunk that would have CLEARED a flagged claim, and the
+    fabrication adjudicator's FABRICATED_EXTRINSIC verdict is explicitly
+    provisional for that reason ("fresh retrieval may simply have missed the
+    chunk").
+    """
+    sources = load_world_sources(world_id)
+    if sources is None:
+        return None
+    capsule, permanent_prompt = sources
 
     retrieved_parts: list[str] = []
     for getter in (get_retriever, get_story_retriever):
         try:
             context, _citations, _evals = getter(world_id).get_context_for_response(
-                query=response_text
+                query=response_text, mode=ADJUDICATION
             )
             if context:
                 retrieved_parts.append(context)
@@ -2133,7 +2144,7 @@ def _gather_world_evidence(
 
     retrieved = "\n\n".join(retrieved_parts) or "(no additional material retrieved)"
 
-    return permanent_prompt, capsule, retrieved
+    return WorldEvidence(permanent_prompt, capsule, retrieved)
 
 
 def check_drift_for_message(world_id: str, message_content: str) -> DriftSignal | None:

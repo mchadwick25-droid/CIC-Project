@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -18,6 +18,7 @@ from pydantic import BaseModel
 
 from app.auth import AuthedUser, get_audit_user, get_current_user
 from app.config import settings
+from app.session_auth import mint_session_token, require_session_access
 from app.graph.builder import get_compiled_graph
 from app.graph.events import EVENT_STORE, serialize_message
 from app.graph.nodes import representative_engages
@@ -197,6 +198,7 @@ class StartSessionResponse(BaseModel):
     """Response for starting a new session."""
 
     session_id: str
+    session_token: str  # possession secret - see app/session_auth.py
     messages: list[dict]
     world_id: str  # Primary world (first in list)
     world_ids: list[str] = []  # All worlds at table
@@ -397,9 +399,15 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     # facilitator's spoken reception/handoff, and the flow scalars the
     # graph run produced. The projection (EVENT_STORE.get_state) is now
     # the only way any later request sees this session.
+    # The session's possession secret, minted exactly once, here. It reaches
+    # a later request only by being folded into ConversationState through the
+    # session_started event (events.py's project), exactly like user_id -
+    # not stored beside the event log in a parallel dict.
+    session_token = mint_session_token()
     EVENT_STORE.append_many(session_id, [
         ("session_started", {
             "user_id": user.user_id,
+            "session_token": session_token,
             "world_id": world_id,
             "world_ids": world_ids,
         }),
@@ -414,6 +422,7 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
 
     return StartSessionResponse(
         session_id=session_id,
+        session_token=session_token,
         messages=state_to_messages(state),
         world_id=world_id,
         world_ids=world_ids,
@@ -575,7 +584,8 @@ async def redeem_referral(request: RedeemReferralRequest):
 
 
 @app.post("/api/session/{session_id}/message", response_model=SendMessageResponse)
-async def send_message(session_id: str, request: SendMessageRequest):
+async def send_message(session_id: str, request: SendMessageRequest,
+                        x_session_token: str | None = Header(default=None)):
     """
     Send a message in an existing conversation.
 
@@ -592,6 +602,7 @@ async def send_message(session_id: str, request: SendMessageRequest):
     # this handler mutates locally; every mutation that used to persist on
     # the shared dict object is appended to the log at the same point.
     state = EVENT_STORE.get_state(session_id)
+    require_session_access(state, x_session_token)
 
     # Handle close request
     if request.close_requested:
@@ -841,7 +852,8 @@ async def send_message(session_id: str, request: SendMessageRequest):
 
 
 @app.post("/api/session/{session_id}/message/stream")
-async def send_message_stream(session_id: str, request: SendMessageRequest):
+async def send_message_stream(session_id: str, request: SendMessageRequest,
+                               x_session_token: str | None = Header(default=None)):
     """
     Send a message and stream the representative(s)' response as Server-Sent Events.
 
@@ -869,6 +881,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
     # fresh per-request projection of the event log (see /message above)
     state = EVENT_STORE.get_state(session_id)
+    require_session_access(state, x_session_token)
 
     # Soft, identity-free conversation-length cap (see app/message_cap.py) -
     # checked before anything else, same rationale and placement as the
@@ -1468,7 +1481,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest):
 
 
 @app.get("/api/session/{session_id}", response_model=SessionResponse)
-async def get_session(session_id: str):
+async def get_session(session_id: str,
+                       x_session_token: str | None = Header(default=None)):
     """
     Get the current state of a conversation session.
 
@@ -1478,6 +1492,7 @@ async def get_session(session_id: str):
         raise HTTPException(status_code=404, detail="Session not found")
 
     state = EVENT_STORE.get_state(session_id)
+    require_session_access(state, x_session_token)
 
     return SessionResponse(
         session_id=session_id,

@@ -36,6 +36,7 @@ export interface Message {
 
 export interface StartSessionResponse {
   session_id: string;
+  session_token: string;  // required as X-Session-Token on every later request to this session
   world_id: string;
   world_ids?: string[];  // For multi-world tables
   messages: Message[];
@@ -70,6 +71,7 @@ export type SpeakerName = 'facilitator' | 'mar_yausep' | 'chloe' | 'papnoute' | 
 
 export interface ConversationState {
   sessionId: string | null;
+  sessionToken: string | null;
   worldId: string | null;
   worldIds: string[];  // For multi-world tables
   messages: Message[];
