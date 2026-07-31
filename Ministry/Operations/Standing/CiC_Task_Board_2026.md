@@ -64,6 +64,59 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
+- [ ] **SH-1..SH-12 — Mark's full to-do list, logged 2026-07-30 (25 min before the Fable
+      reset), sequenced Fable-track vs Sonnet/System-Hub-track.** One step at a time from
+      here; this entry is the queue, not a commitment to parallel everything.
+
+      **Fable-track (needs Fable's weekly budget):**
+      - **SH-1 — Brief Fable on tonight's VG-1a/1b/1c fixes before Step 3 starts**, so the
+        new world (Hieronymian/PAHC/Imperial-Juridical) builds clean against the corrected
+        parser/gate/schema instead of needing a VG-2-style retrofit after. Briefing sent
+        this session, ahead of the reset — see System Hub Decision Log.
+      - **SH-2 — Rebuild the 3 remaining worlds** (Step 3 proper) once SH-1 lands. ~30-35%
+        of a weekly budget per Mark's own earlier estimate.
+
+      **Sonnet/System-Hub-track (no Fable budget needed):**
+      - **SH-3 — Go live on the current pilot site**, run real tests to verify both cost
+        (against tonight's cost-investigation baselines, `Ministry/Technology/Pass2/`,
+        `Pass3/`) and quality. Blocked on the live/pre-launch status question already open
+        with Mark (see auth-fix thread, System Hub Decision Log).
+      - **SH-4/SH-6 — Rebuild the vertically-scrolling map to v3 spec.** Mark named this
+        twice in the same list (items 4 and 6) — flagged, not silently merged: item 4 says
+        "fully rebuild... may have more design work to complete v3," item 6 says "rebuild...
+        to the v3 specifications with further input... last two versions were still messy."
+        Read as one task with two notes attached (more design work may be needed; the core
+        complaint is visual clarity/engagement, not features) unless Mark says otherwise.
+      - **SH-5 — Pre-Step-0 update: full Christian Movement analysis, 10-era Atlas.**
+        Recognizes the worlds already built, free to go deeper on the rest; per-era small
+        box (title + dates), hover for short description, click for full description +
+        key influencers + sources + cross-tradition connections. Real scope — likely its
+        own design pass before build.
+      - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
+        not yet designed — needs its own scoping conversation before work starts.
+      - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
+        then the Letter to Shareholders.** Tracking only — Mark's own process, not a build
+        task for either Fable or Sonnet.
+      - **SH-9 — Set up Stripe for contributions**: wording, strategy, and logistics.
+        Connects to tonight's contribution/tier economics work
+        (`Ministry/Features/Funding-Strategy/`) — should ground its wording/asks in the
+        real market research already done there (the "keep it open" $10/$8 figures, the
+        PBC no-tax-deduction framing).
+      - **SH-10 — Keep testing real costs once real questions get asked.** Standing,
+        ongoing — not a one-time task. Feeds the B-COST re-baseline already blocked open
+        (see Pass2/Pass3 baselines).
+      - **SH-11 — Design a system that pulls prepared answers seamlessly into interview
+        mode.** This is the precomputed answer-bank lever from tonight's cost investigation
+        — real, but sized at ~5% of cost (not the 30-50% first assumed), see
+        `Ministry/Technology/Pass3/cost_floor_model.py`. Worth doing for the quality/
+        consistency win on curriculum-path traffic; go in with the real cost expectation,
+        not the inflated one.
+      - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
+        work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
+        paid tier, blended contribution/patron/subscription mix. Real numbers already
+        modeled; this is implementation.
+
+
 - [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic
       mechanism run: 19/20 clean, real API calls, all 5 worlds, both endpoints.** Closes
       the one real gap under the "crisis handoff" cluster. Covered: A1/A2/continuation on
