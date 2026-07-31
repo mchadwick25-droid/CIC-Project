@@ -51,5 +51,34 @@ sources:
   author_gravity_note: 'Jerome''s own account (letter to Riparius). Author Gravity note: notably vague
     on casualty/detail specifics; this world''s own record does not supply the precision a modern account
     might expect, and none is manufactured here.'
+period_sense: 'The dispute over grace, free will, and human capacity for sinlessness as this world underwent
+  it in 416: not an argument won or lost on paper but a mob at the Bethlehem monastery''s own doors -
+  buildings burned and, by report, at least one member of the community dead (chunk Quick/World Meaning;
+  the ''by report'' qualifier is the chunk''s own and is preserved, not firmed up).'
+prior_sense: none-attested - a dispute-name, not an inherited concept; the record register is the event
+  and its pressure on this world's final years, not a transformed prior sense.
+modern_sense: An abstract soteriological dispute - grace versus free will - disconnected from real-world
+  consequence (chunk Modern Hearing).
+conceptual_distance_note: 'This world experienced the controversy, at least once, as physical violence
+  at its own door (chunk World Hearing) - an ending-adjacent external force on the community''s last years,
+  not a seminar topic. Standard grounding: the corrective restores consequence, not a different concept.'
+semantic_domain: pelagian-controversy
+grounding_criterion: standard
+voice_surface: 'In the year 416 the argument stopped being an argument. Whatever mixture of conviction
+  and grievance had gathered around the dispute came to our own doors: the monastery attacked, buildings
+  burned, and - as it was reported - one of our own dead. We knew this controversy not as a debate to
+  be won but as a danger that had found where we lived.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: hallex08
+  note: 'Symmetric mirror of hallex08''s edge: joint G6 anchors, the two controversies pressing on this
+    world from outside. Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors G6 alongside
+    Origenism; an ending-adjacent external force pressing on this world''s final years.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex09_pelagianism.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

@@ -50,5 +50,40 @@ sources:
 - source_id: srcHAL001
   author_gravity_note: Genealogical claims within Ep. 108 (Paula's claimed Scipio/Gracchi descent); general
     social-historical scholarship on senatorial households.
+period_sense: The Roman aristocratic status category - inherited wealth, senatorial connection, real household
+  authority - occupied by Paula, Marcella, and Fabiola before and alongside their renunciation; the standing
+  did not disappear at renunciation but was precisely what made large-scale founding possible, and the
+  three women's circumstances were individually distinct, not one interchangeable type (chunk Quick/World
+  Meaning).
+prior_sense: 'The prior IS the sense: this world uses the empire''s own status category as-is - the term
+  names an inherited social position, not a transformed concept; what the world adds is only what the
+  standing was then FOR.'
+modern_sense: '''Aristocratic Roman woman'' as a single, undifferentiated social type (chunk Modern Hearing).'
+conceptual_distance_note: 'The record''s own guard is against flattening: real, individually distinct
+  family situations, wealth levels, and positions within one broad category - ''this world''s own record
+  does not let their differences be flattened'' (chunk World Meaning). Standard grounding: a differentiation
+  guard, not a concept gap.'
+semantic_domain: aristocratic-status
+grounding_criterion: standard
+voice_surface: Before any of these women renounced, each already commanded a household whose decisions
+  mattered materially to many others - and no two of them from the same circumstances. That standing is
+  not what they gave up; it is what they gave WITH. A monastery, a hostel, a hospital - none of it rises
+  from nothing.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: hallex03
+  note: 'Mirror of hallex03''s presupposes edge: this standing is renunciation''s precondition. Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): The social-historical precondition for renunciation
+    and patronage; distinguishes this world''s participant base from a mass-lay population.'
+- type: presupposed-by
+  target_id: hallex06
+  note: 'Mirror of hallex06''s presupposes edge: the same precondition under patronage (this chunk''s
+    EF: ''the social-historical precondition for renunciation and patronage'').'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex10_matrona.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

@@ -50,5 +50,44 @@ sources:
   author_gravity_note: 'Jerome''s own extensive corpus of prefaces (dozens survive). Author Gravity note:
     by its very genre, a single-voice, self-justifying source type; it cannot independently corroborate
     its own claims.'
+period_sense: 'Jerome''s prefaces to his translations and commentaries - ''not incidental front matter'':
+  short, combative essays, one per book, explaining why this rendering differs, anticipating the objection,
+  sometimes naming the objector - the genre where the Hebraica veritas commitment is actually argued,
+  book by book, under real pressure (chunk Quick/World Meaning).'
+prior_sense: The ordinary Latin praefatio - a spoken or written opening, a foreword - the neutral surface
+  this world's combative, self-justifying use sharpens - a builder note, UNVERIFIED against this build's
+  own docs.
+modern_sense: A preface as neutral scholarly apparatus - skippable front matter before the real text (chunk
+  Modern Hearing).
+conceptual_distance_note: '''A preface was an argument, addressed to real critics, not a neutral introduction''
+  (chunk World Hearing, verbatim) - and the genre is directly load-bearing for the world''s central textual-authority
+  gravity (chunk EF). High grounding: the gap decides whether a participant hears this world defending
+  itself in its own voice or files the defense under apparatus. The corpus row (srcHAL023) carries the
+  genre''s own caveat: a single-voice, self-justifying source type.'
+semantic_domain: preface-genre
+grounding_criterion: high
+voice_surface: Nearly every book we sent out went with a short, combative essay at its head - why this
+  rendering differs from the one you know, what the objection will be, and sometimes the objector's name.
+  Read one and you have heard us defending ourselves in our own voice, under real pressure, in real time.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: material-source-of
+  target_id: hallex01
+  note: 'The primary evidentiary basis for the Hebraica veritas principle (this chunk''s EF, near-verbatim;
+    srcHAL023 is the corpus row) - the Desert material-source-of/presupposes pairing. Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): The primary evidentiary basis for *Hebraica veritas*;
+    directly load-bearing for this world''s central textual-authority gravity.'
+- type: presupposed-by
+  target_id: hallex01
+  note: Mirror of hallex01's presupposes edge (the principle argued in, and evidenced by, this genre).
+- type: associated-with
+  target_id: hallex02
+  note: 'Symmetric mirror of hallex02''s edge: the prefaces travel attached to the translation project''s
+    own books.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex13_praefatio.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

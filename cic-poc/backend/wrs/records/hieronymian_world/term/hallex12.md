@@ -50,5 +50,37 @@ sources:
 - source_id: srcHAL001
   author_gravity_note: Jerome's own references to Donatus as "praeceptor" — Documented (grammar training,
     not rhetoric specifically).
+period_sense: The stage of classical Latin grammatical and literary training - under the specific teacher
+  Aelius Donatus, whose name the student kept decades later, 'my teacher' - that instilled the discipline
+  of close attention to a text's precise wording underneath all the later philological labor (chunk Quick/World
+  Meaning).
+prior_sense: 'The prior IS the sense: the grammaticus was the empire''s standard second-stage schoolmaster
+  - an inherited institution this world attended, not a concept it transformed; what the world adds is
+  what the training later made possible.'
+modern_sense: The early grammar training and the later Hebrew-mastery claims conflated into one equally-certain
+  achievement (chunk Modern Hearing).
+conceptual_distance_note: 'Two genuinely different confidence levels held apart: the grammar training
+  is solidly attested; the Hebrew fluency it supposedly enabled is separately, and seriously, contested
+  (chunk World Hearing, near-verbatim) - this entry is the documented, non-Contested foundation UNDER
+  the contested claims (chunk EF). Standard grounding: a confidence-disambiguation guard. Front-matter
+  Related-Term ''Praeceptor'' names a never-built term - declared, no edge possible.'
+semantic_domain: classical-education
+grounding_criterion: standard
+voice_surface: 'Before there was a translator of Hebrew there was a boy at grammar school, parsing Latin
+  under Donatus - a teacher whose name he kept all his life. Whatever is argued about the Hebrew, this
+  much is not argued: the habit of weighing a text word by word was learned there first.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: presupposed-by
+  target_id: hallex01
+  note: 'Mirror of hallex01''s presupposes edge: the training under the philological commitment. Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): The documented, non-Contested foundation underneath
+    the Contested claims about Hebrew fluency; distinguishes the well-attested early education from the
+    more contested later self-presentation.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex12_grammaticus.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

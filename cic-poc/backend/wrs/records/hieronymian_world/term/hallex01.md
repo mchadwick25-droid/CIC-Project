@@ -69,5 +69,60 @@ sources:
     the Oea "ivy/gourd" incident (Jonah 4:6) for its concrete cost. Author Gravity note: the principle''s
     own articulation survives almost entirely in Jerome''s voice; its contestedness is independently attested
     via Augustine, but its content is not.'
+period_sense: 'The conviction that the Hebrew text of scripture, not the long-used Greek, carries the
+  truth closest to what God said - held not as neutral method but as a costly, actively contested commitment:
+  it meant years with a Hebrew teacher outside the faith, telling congregations that a familiar word was
+  now another, and answering, repeatedly, the charge of tampering with what the church already trusted
+  (chunk Quick/World Meaning).'
+prior_sense: 'The contrast object is the church''s own received practice: the Greek translation ''long
+  used in Latin worship'' - venerable, loved, constantly quoted - whose authority the phrase deliberately
+  relativizes (chunk World Meaning). As a fixed two-word phrase it is this world''s own polemical coinage,
+  not a transformed inheritance - a builder note, UNVERIFIED against this build''s own docs, which do
+  not develop the phrase''s history.'
+modern_sense: '''Of course you translate from the original language'' - heard as a straightforwardly correct
+  scholarly method, with the period resistance filed under ignorance or reaction (chunk Modern Hearing).'
+conceptual_distance_note: 'The modern ear hears settled method; this world heard a claim with real stakes
+  for the church''s continuity - serious churchmen (Augustine) resisted it for serious reasons, and adopting
+  it meant conceding that the text the whole Latin church prayed from had drifted from its source (chunk
+  World Hearing). Sharp gap: high grounding criterion by rule.'
+semantic_domain: hebrew-textual-authority
+grounding_criterion: high
+voice_surface: To hold to the Hebrew truth is to believe that when the word passed from Hebrew into Greek,
+  something of its precision was lost - and that a scholar who returns to the Hebrew recovers what the
+  Greek, however venerable, cannot fully carry. We did not hold this comfortably. It cost us a teacher
+  hired from outside our faith, the anger of congregations over a gourd become a vine, and the standing
+  charge of tampering with what the church already trusted.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+field_relations:
+- type: presupposed-by
+  target_id: hallex02
+  note: 'The translation project is this principle''s material product (hal_lex02''s own EF: ''The material
+    product of Hebraica veritas''). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors
+    G1 (Primary gravity); the organizing commitment behind the whole translation project (*Vulgata*);
+    the direct cause of the Augustine correspondence and the Oea controversy; presupposed by every commentary
+    produced at Bethlehem.'
+- type: presupposes
+  target_id: hallex13
+  note: The prefaces are 'where the Hebraica veritas commitment is actually argued, book by book, not
+    merely asserted' (hal_lex13 World Meaning) - the Desert material-source-of/presupposes pairing; srcHAL023
+    is the corpus row.
+- type: presupposes
+  target_id: hallex12
+  note: The classical grammar training 'is what made the later philological labor possible at all' (hal_lex12
+    World Meaning) - the documented foundation under the contested Hebrew-fluency claims.
+- type: associated-with
+  target_id: hallex07
+  note: 'The Augustine dispute over this principle was ''conducted'' as letters (hal_lex07 World Meaning:
+    ''a furious exchange with a former friend turned theological opponent''; srcHAL009) - association,
+    no hierarchy (CO-P2-13 pattern); symmetric mirror on hallex07.'
+- type: associated-with
+  target_id: hallex08
+  note: 'Symmetric mirror of hallex08''s edge: the Origenist rupture ''reshapes the Hebraica veritas project''
+    (hal_lex08 EF) - the Augustine dispute is its downstream test.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex01_hebraica-veritas.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

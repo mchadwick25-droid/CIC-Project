@@ -51,5 +51,50 @@ sources:
     of the source base itself being almost entirely epistolary — its formation-centrality rests on independent
     dependency/explanatory evidence (e.g., the Rome/Bethlehem coherence it made possible), not on source-type
     circularity alone.'
+period_sense: 'The letter as this world''s actual formation apparatus, not its paperwork: when the scholar
+  and the household he directed no longer shared a city, spiritual direction, scriptural argument, and
+  the community''s own oneness were delivered and maintained as epistulae - a hard letter of exhortation,
+  a commentary under a covering dedication, a furious exchange with a former friend (chunk Quick/World
+  Meaning).'
+prior_sense: The ordinary Latin epistula, the empire's everyday letter - news, business, maintained relationships
+  across distance; the formation-medium sense is this world's own intensification of a completely ordinary
+  form - a builder note, UNVERIFIED against this build's own docs.
+modern_sense: Letters as secondary evidence ABOUT the community's life - a documentary window onto formation
+  happening elsewhere (chunk Modern Hearing).
+conceptual_distance_note: 'The modern ear files the letters under sources; this world lived them as events
+  - ''the letter was itself a formation event, not a report of one'' (chunk World Hearing, verbatim).
+  Sharp gap: high grounding criterion by rule. The record''s alias set is empty by the S2.2 FLAG-028 resolution
+  (''letter'' is a bare blocklist generic); reachability = term key ''epistula''.'
+semantic_domain: epistolary-formation
+grounding_criterion: high
+voice_surface: When Rome and Bethlehem could no longer hear each other's voices, the letter became the
+  room we met in. Direction was given there, scripture argued there, a community physically split in two
+  remained one project there. A hard letter of exhortation was not news about our formation; it was the
+  formation itself, arriving sealed.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: hallex02
+  note: 'Symmetric mirror of hallex02''s edge: the translation project''s dedications, book by book, are
+    epistulae. Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors G4 (Supporting gravity);
+    the vehicle for nearly every other term in this lexicon; bridges the Rome/Bethlehem bipolar geography
+    by definition.'
+- type: associated-with
+  target_id: hallex06
+  note: 'Symmetric mirror of hallex06''s edge: patronage conducted by letter across the bipolar geography
+    this chunk''s EF says the genre ''bridges by definition''.'
+- type: associated-with
+  target_id: hallex01
+  note: 'Symmetric mirror of hallex01''s edge: the Augustine exchange over textual authority was conducted
+    as letters (srcHAL009).'
+- type: associated-with
+  target_id: hallex11
+  note: 'Symmetric mirror of hallex11''s edge: exegetical direction at distance rode this medium - ''how
+    an argument about scripture was actually conducted'' (this chunk''s World Meaning).'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex07_epistula.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

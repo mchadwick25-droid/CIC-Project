@@ -53,5 +53,39 @@ sources:
   author_gravity_note: 'Jerome, Ep. 77.6, verified directly against critical text (Perseus): "Et primo
     omnium νοσοκομεῖον instituit, in quo aegrotantes colligeret de plateis" — Jerome leaves the term in
     Greek script.'
+period_sense: The hospital Fabiola founded in Rome for the sick - the first such foundation, distinct
+  from the travelers' hospice (xenodochium); the sick gathered in from the streets and cared for under
+  one roof, before anything was built at Bethlehem; the Greek word left untranslated in Latin even by
+  the scholar who elsewhere insisted on translation precision (chunk Quick/World Meaning).
+prior_sense: 'A Greek loan (the chunk''s own note: the word ''came into Latin from Greek and was left
+  there, untranslated'') - the prior is the Greek term for a place of care for the sick, new enough in
+  Latin that this founding is what domesticated it; no Greek-script form appears in this build''s docs
+  and none is fabricated here.'
+modern_sense: Conflated with the travelers' hospice, or assumed to have a modern hospital's institutional
+  scale and staffing (chunk Modern Hearing).
+conceptual_distance_note: 'A genuinely novel act of charitable founding - real, Rome-based, distinct from
+  any Bethlehem institution - ''on a scale not independently verified'' (chunk World Hearing, the caveat
+  preserved verbatim). Standard grounding: an anti-conflation and scale guard. Front-matter Related-Term
+  ''Xenodochium'' names a never-built term - declared, no edge possible; the Perseus critical-text verification
+  of Ep. 77.6 is the pre-freeze re-sweep''s editions-class item.'
+semantic_domain: charitable-foundation
+grounding_criterion: standard
+voice_surface: 'Before any of us built at Bethlehem, Fabiola had already done the newer thing in Rome:
+  gathered the sick in from the streets and cared for them under one roof - the first house of its kind.
+  Even the word for it stayed Greek on our tongues, as if Latin had not yet caught up with what she had
+  done.'
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: hallex03
+  note: 'The founding presupposes renounced wealth (hal_lex03''s EF names nosocomium among what renuntiatio
+    is presupposed by). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Distinct expression
+    of renunciation and patronage in this world''s ministry ecology; distinguished explicitly from *xenodochium*
+    to prevent conflation of two real, separate institutions.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex14_nosocomium.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

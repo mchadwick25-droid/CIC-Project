@@ -60,6 +60,55 @@ sources:
   author_gravity_note: 'Ep. 127 (Marcella, to Principia) — the **sole** source. Author Gravity note: single-source,
     Contested, authored by Jerome after the subject''s death for his own partly self-vindicating purposes.
     This is the single most Author-Gravity-constrained entry in this lexicon.'
+period_sense: 'Recognition as authoritative on disputed scriptural questions through demonstrated learning,
+  exercised in person, apart from any clerical office - the standing at least one woman (Marcella) held
+  in her own right: after the teacher left for the Holy Land, clergy came to her own house with the questions
+  they could no longer bring to him. SINGLE-SOURCE DISCIPLINE (the authored home of the S2.2 parking):
+  this standing is attested in Jerome''s own memorial letter (Ep. 127) - a single-voice source; srcHAL001''s
+  Marcella-list caveat and srcHAL012''s unverified Ep.24/127-pairing flag both bear on this entry, and
+  the claim is held as real but single-attested, never independently corroborated.'
+prior_sense: none-attested - this is the build's own descriptive label for a practice (the syrlex010 class),
+  not an inherited term; the register is the practiced standing itself.
+modern_sense: Either overclaimed as full independent theological authority equivalent to ordained office,
+  or dismissed as merely social, informal, and therefore unimportant (chunk Modern Hearing - a DOUBLE
+  distortion, both directions wrong).
+conceptual_distance_note: 'A real, recognized, but non-office-based form of authority - neither equivalent
+  to ordination nor mere influence; ''its own distinct thing, understood on its own terms within this
+  world''s authority logic'' (chunk World Hearing). The chunk''s EF records the strand-test result honestly:
+  a difference in POSITION, not in KIND, from the dominant authority mode. Sharp double-sided gap: high
+  grounding criterion. The parked Reported-Experience Status text remains verbatim in this record''s body.'
+semantic_domain: practiced-exegetical-authority
+grounding_criterion: high
+voice_surface: 'There was a house in Rome where clergy brought the questions they could not settle - and
+  the one who answered held no office at all. Her standing was real: earned by demonstrated learning,
+  exercised in person, recognized by the very men whose ordination gave them what she did not have. We
+  say this carefully, for it comes to us in one voice only - the teacher''s own letter, written in her
+  memory.'
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: hallex05
+  note: 'The standing is exercised from within the vidua category, not virginity (hal_lex05 EF, near-verbatim).
+    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The evidentiary core of this world''s
+    one Tensional gravity — a genuine counter-current within the ecology that does not organize as broadly
+    as the Primary gravities but cannot be honestly omitted. Directly relevant to whether this world contains
+    distinct internal strands (it does not, on current evidence — this candidate was tested directly and
+    found insufficient to establish a difference in kind from the community''s dominant authority mode,
+    only a difference in position).'
+- type: tension-with
+  target_id: hallex06
+  note: 'This chunk''s EF: ''the evidentiary core of this world''s one Tensional gravity - a genuine counter-current
+    within the ecology'' against the patronage authority structure; tested and found a difference in position,
+    not in kind - the tension is real and the honesty about its limits rides with it. Symmetric both ways.'
+- type: associated-with
+  target_id: hallex07
+  note: The standing's exercise at distance rode the letter (hal_lex07's medium) - association, no hierarchy;
+    symmetric mirror on hallex07.
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex11_exegesis-practiced-authority.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
 
