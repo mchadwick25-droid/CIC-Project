@@ -56,6 +56,15 @@ retrieval:
 sources:
 - source_id: srcHAL001
   locus: Jerome, Epistula 127, to Principia
+gravity_links:
+- gravity_id: halgrav005
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): The evidentiary core of the Tensional gravity in this world''s confirmed ecology — a genuine
+    counter-current of independent female authority that does not organize as broadly as the Primary gravities,
+    but which this world''s own record does not let the household forget. Central to the strand-tension
+    question this world''s own construction had to test directly (resolved: her authority is the same
+    underlying currency as the traveling scholar''s, held in a different, materially independent position
+    — not a rival structure).'
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story07_the-widow-consulted.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

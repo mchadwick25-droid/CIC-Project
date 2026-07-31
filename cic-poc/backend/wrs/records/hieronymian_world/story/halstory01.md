@@ -57,6 +57,14 @@ retrieval:
 sources:
 - source_id: srcHAL001
   locus: Jerome, Epistula 108 (Epitaphium Sanctae Paulae), to Eustochium
+gravity_links:
+- gravity_id: halgrav003
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): Illuminates the patronage gravity (the journey and its funding depended entirely on Paula''s
+    own wealth) and the bipolar Rome/Bethlehem geography that organizes this world''s whole structure.
+    Shows the physical, costly reality behind the abstract fact of "relocation" — a household uprooting
+    itself deliberately, twice over (once from Rome, once from the temptation to remain in Egypt), in
+    pursuit of a single settled place to do its work.'
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story01_departure-from-rome.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

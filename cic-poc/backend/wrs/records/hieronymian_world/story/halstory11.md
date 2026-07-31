@@ -62,6 +62,14 @@ sources:
   locus: 'Composite - elements per the chunk''s own Source Identification table (parked verbatim in this
     record''s body; the monastic-template element of halstory10 is declared analogy, Doc_01 SS6/Doc_08,
     no row owed): Composite — see Source Identification below'
+gravity_links:
+- gravity_id: halgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): Illuminates the *Hebraica veritas* gravity''s actual working mechanism and the *praefatio*/*epistula*
+    transmission apparatus together — showing how the abstract textual-authority commitment was actually
+    produced, book by book.'
+- gravity_id: halgrav004
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story11_translating-a-book.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

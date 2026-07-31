@@ -46,6 +46,13 @@ retrieval:
 sources:
 - source_id: srcHAL001
   locus: Jerome, letter to Riparius
+gravity_links:
+- gravity_id: halgrav006
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): Illuminates the controversy/dispute gravity as an ending-adjacent force: this is the clearest
+    instance in this world''s own record of doctrinal dispute becoming physical danger. Shows this household''s
+    own restraint in the face of trauma — the source itself does not dwell on detail, and this document
+    does not manufacture what the source withholds.'
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story04_the-pelagian-attack.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

@@ -57,6 +57,18 @@ sources:
 - source_id: srcHAL007
   locus: Rufinus, Apologia contra Hieronymum (401); Jerome, Apologia adversus Rufinum (401-403), addressed
     to Pammachius and Marcella
+gravity_links:
+- gravity_id: halgrav006
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): Illuminates the controversy/dispute gravity directly, and reshapes both the *Hebraica veritas*
+    gravity (the wider textual-authority project) and the patronage gravity (this dispute was conducted
+    through, and threatened, the network of patrons this household depended on — the addressees of the
+    household''s own polemic include two of its own patrons). Shows this world''s characteristic way of
+    holding an inherited intellectual debt: absorbed early, renounced later, at real relational cost.'
+- gravity_id: halgrav001
+  note: Named in the same FEC (full text on this record's first gravity link).
+- gravity_id: halgrav003
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story03a_origenist-rupture.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

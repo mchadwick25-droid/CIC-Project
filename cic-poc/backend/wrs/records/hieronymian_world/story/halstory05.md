@@ -47,6 +47,12 @@ retrieval:
 sources:
 - source_id: srcHAL001
   locus: Jerome, Epistula 127, to Principia
+gravity_links:
+- gravity_id: halgrav005
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): The clearest ending-force in this world''s own bounded span — this event fractures the Rome-based
+    pole of the household''s exegetical-authority gravity outright and ends Rome''s independent center
+    of gravity within the wider network.'
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story05_marcella-death.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 

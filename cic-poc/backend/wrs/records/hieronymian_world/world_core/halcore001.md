@@ -37,7 +37,13 @@ formation_logic: 'Doc_01 SS5.1 verbatim: this world''s recurring formation ecolo
   practice - not as two separate activities occurring in the same community... the ecology does not treat
   scholarship as a distraction from asceticism or asceticism as a precondition merely tolerated around
   scholarship."'
-gravities: []
+gravities:
+- halgrav001
+- halgrav002
+- halgrav003
+- halgrav004
+- halgrav005
+- halgrav006
 sources:
 - source_id: srcHAL001
 - source_id: srcHAL002
