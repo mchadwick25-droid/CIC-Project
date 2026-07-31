@@ -60,8 +60,28 @@ USAGE_RE = re.compile(
     r"cache_read_input_tokens=(?P<cache_read>\d+)"
 )
 
+# app/length_ceiling_logging.py's line. One per representative turn in a
+# HARD_CEILING_WORLDS world, covering all three outcomes - so a run's raw
+# log carries the retry mechanism's fire rate, dead-zone rate, and
+# first-draft word distribution directly, instead of leaving them to be
+# reconstructed from token arithmetic afterwards.
+CEILING_RE = re.compile(
+    r"\[length_ceiling\] world_id=(?P<world_id>\S+) ceiling=(?P<ceiling>\d+) "
+    r"trigger_multiple=(?P<trigger_multiple>[\d.]+) "
+    r"first_draft_words=(?P<first_draft_words>\d+) outcome=(?P<outcome>\S+) "
+    r"retry_words=(?P<retry_words>\S+) request_id=(?P<request_id>\S+) "
+    r"session_id=(?P<session_id>\S+)"
+)
+
 
 class UsageCapture(logging.Handler):
+    """Captures both instrumentation lines this baseline reads.
+
+    One handler, two regexes, attached to both `cic.llm_usage` and
+    `cic.length_ceiling`. Records carry a "kind" so run() can file them
+    into the raw log under the right record type without re-parsing.
+    """
+
     def __init__(self):
         super().__init__()
         self.records = []
@@ -71,21 +91,40 @@ class UsageCapture(logging.Handler):
         self._records_lock = threading.Lock()
 
     def emit(self, record):
-        m = USAGE_RE.search(record.getMessage())
-        if not m:
-            return
-        d = m.groupdict()
-        entry = {
-            "ts": time.time(),
-            "label": d["label"],
-            "model": d["model"],
-            "request_id": d["request_id"],
-            "session_id": d["session_id"],
-            "input_tokens": int(d["input"]),
-            "output_tokens": int(d["output"]),
-            "cache_creation_input_tokens": int(d["cache_creation"]),
-            "cache_read_input_tokens": int(d["cache_read"]),
-        }
+        msg = record.getMessage()
+        m = USAGE_RE.search(msg)
+        if m:
+            d = m.groupdict()
+            entry = {
+                "kind": "llm_call",
+                "ts": time.time(),
+                "label": d["label"],
+                "model": d["model"],
+                "request_id": d["request_id"],
+                "session_id": d["session_id"],
+                "input_tokens": int(d["input"]),
+                "output_tokens": int(d["output"]),
+                "cache_creation_input_tokens": int(d["cache_creation"]),
+                "cache_read_input_tokens": int(d["cache_read"]),
+            }
+        else:
+            m = CEILING_RE.search(msg)
+            if not m:
+                return
+            d = m.groupdict()
+            entry = {
+                "kind": "length_ceiling",
+                "ts": time.time(),
+                "world_id": d["world_id"],
+                "ceiling": int(d["ceiling"]),
+                "trigger_multiple": float(d["trigger_multiple"]),
+                "first_draft_words": int(d["first_draft_words"]),
+                "outcome": d["outcome"],
+                "retry_words": (None if d["retry_words"] == "None"
+                                else int(d["retry_words"])),
+                "request_id": d["request_id"],
+                "session_id": d["session_id"],
+            }
         with self._records_lock:
             self.records.append(entry)
 
@@ -101,6 +140,7 @@ def run(limit_conversations, limit_turns, out_path):
 
     capture = UsageCapture()
     logging.getLogger("cic.llm_usage").addHandler(capture)
+    logging.getLogger("cic.length_ceiling").addHandler(capture)
 
     from fastapi.testclient import TestClient
     from app.main import app
@@ -120,10 +160,19 @@ def run(limit_conversations, limit_turns, out_path):
                                json={"world_ids": conv["world_ids"]})
             resp.raise_for_status()
             session_id = resp.json()["session_id"]
+            # Possession secret minted by /api/session/start (app/session_auth.py).
+            # Every later call on this session requires it as X-Session-Token or
+            # the endpoint returns 403 - without this header --run cannot reach
+            # a single turn. Added 2026-07-31; the 2026-07-26 raw log predates
+            # the ownership check, which is why that run needed no token.
+            headers = {"X-Session-Token": resp.json()["session_token"]}
             # session-start LLM calls (facilitator reception/handoff via graph)
             for r in capture.drain():
-                write({"kind": "llm_call", "conversation": conv["id"],
-                       "turn": 0, "turn_label": "session_start", **r})
+                # "kind" named first so a new raw log's field order matches
+                # the committed 2026-07 one; **r then supplies its value
+                # (a repeated key keeps its first position in a dict literal).
+                write({"kind": r["kind"], "conversation": conv["id"], "turn": 0,
+                       "turn_label": "session_start", **r})
             write({"kind": "turn", "conversation": conv["id"], "turn": 0,
                    "turn_label": "session_start", "session_id": session_id,
                    "ts": time.time()})
@@ -141,7 +190,7 @@ def run(limit_conversations, limit_turns, out_path):
                 phase = None
                 with client.stream(
                     "POST", f"/api/session/{session_id}/message/stream",
-                    json={"message": turn["message"]},
+                    json={"message": turn["message"]}, headers=headers,
                 ) as r:
                     for line in r.iter_lines():
                         if not line.startswith("data: "):
@@ -160,10 +209,15 @@ def run(limit_conversations, limit_turns, out_path):
                                   f"{ev.get('message')}", flush=True)
                 # stream closed -> all governance calls for this turn are done
                 elapsed = time.time() - t0
-                calls = capture.drain()
-                for r2 in calls:
-                    write({"kind": "llm_call", "conversation": conv["id"],
+                drained = capture.drain()
+                for r2 in drained:
+                    write({"kind": r2["kind"], "conversation": conv["id"],
                            "turn": i, "paused_before_s": pause, **r2})
+                # llm_calls stays a count of LLM calls only - the ceiling
+                # records are observations of the same turn, not extra calls,
+                # and folding them in would silently change what every
+                # existing per-turn call count in the committed report means.
+                calls = [r2 for r2 in drained if r2["kind"] == "llm_call"]
                 write({"kind": "turn", "conversation": conv["id"], "turn": i,
                        "message": turn["message"], "elapsed_s": round(elapsed, 2),
                        "streamed_chars": text_len, "phase": phase,
@@ -214,11 +268,236 @@ def billed(rec):
     return dollars(rec, merged)
 
 
+# --- length-ceiling retry mechanism -----------------------------------------
+#
+# HARD_CEILING_WORLDS / RETRY_TRIGGER_MULTIPLES as deployed in
+# app/graph/nodes.py. Duplicated here rather than imported because --report
+# must run with no app import and no API key, and because a report about a
+# past run has to be able to state the values in force at report time even
+# if the code has since moved on. Kept in sync by
+# gates/S6.2_length_ceiling_observability_gate.py, which fails if it drifts.
+CEILING_WORLDS = {
+    "desert-monasticism": (60, 1.5),
+    "hieronymian-ascetic-literary": (180, 1.2),
+    "alexandria-catechetical": (160, 1.2),
+    "syriac-edessa-nisibis": (165, 1.2),
+}
+
+# Forensic detector for raw logs collected BEFORE app/length_ceiling_logging.py
+# existed (the committed 2026-07 baseline is one). A length-ceiling retry is
+# the same call made twice in a row inside one representative turn, with the
+# discarded first draft and a fixed corrective message appended - so the
+# second call's input_tokens exceed the first's by exactly the first call's
+# output_tokens (the draft, re-tokenized) plus the corrective's own small,
+# constant token cost, and the two calls read the identical cached prefix.
+#
+# Measured on the committed 2026-07 log the surplus is exactly 51 tokens on
+# all 15 detected retries. The window below is deliberately much wider than
+# 51 and the detected count is flat across it (verified 51..250 -> 15 every
+# time), so the detector does not depend on the corrective's current wording.
+RETRY_SURPLUS_MAX = 250
+
+
+def _prefix(rec):
+    """Total cached prompt prefix this call read or wrote."""
+    return rec["cache_read_input_tokens"] + rec["cache_creation_input_tokens"]
+
+
+def split_retry_calls(calls):
+    """Split main_response calls into (first drafts, ceiling retries).
+
+    Works on any raw log, with or without length_ceiling records - it reads
+    only token counts, which every log has.
+    """
+    from collections import defaultdict
+    by_turn = defaultdict(list)
+    for c in calls:
+        if c["label"] == "main_response":
+            by_turn[(c["conversation"], c["turn"])].append(c)
+    firsts, retries = [], []
+    for key in sorted(by_turn):
+        prev = None
+        for c in sorted(by_turn[key], key=lambda r: r["ts"]):
+            surplus = (None if prev is None else
+                       c["input_tokens"] - prev["input_tokens"] - prev["output_tokens"])
+            if (prev is not None and surplus is not None
+                    and 0 < surplus <= RETRY_SURPLUS_MAX
+                    and _prefix(prev) == _prefix(c)):
+                retries.append((c, prev))
+                prev = None          # a retry is never itself a first draft
+            else:
+                firsts.append(c)
+                prev = c
+    return firsts, retries
+
+
+def attribute_worlds(calls, spec):
+    """Map each main_response call to a world id from its cached prefix.
+
+    Every representative's cached prefix is its own static system prompt,
+    optionally plus one conditionally-present guidance block that gets its
+    own cache breakpoint (see _cached_system_message in nodes.py). Each
+    single-world conversation in the fixed set therefore pins exactly one
+    world's static-prefix size, and a multi-world conversation's calls
+    decode as (some pinned static size) + (0 | one block size), which
+    identifies the speaker without the raw log carrying a world field.
+
+    Returns {id(call): world_id}; calls that do not decode map to None
+    rather than to a guess.
+    """
+    mains = [c for c in calls if c["label"] == "main_response"]
+    conv_worlds = {c["id"]: c["world_ids"] for c in spec["conversations"]}
+    prefixes = {_prefix(c) for c in mains}
+
+    # 1. Pin one static size per single-world conversation. A single-world
+    #    conversation carries no guidance block, so all its calls share one
+    #    prefix; if they do not, that world is simply left unpinned rather
+    #    than guessed at.
+    statics = {}
+    for conv, worlds in conv_worlds.items():
+        if len(worlds) != 1:
+            continue
+        sizes = {_prefix(c) for c in mains if c["conversation"] == conv}
+        if len(sizes) == 1:
+            statics[sizes.pop()] = worlds[0]
+
+    # 2. Recover the guidance-block sizes. A guidance block is the SAME text
+    #    for every representative, so a real block size shows up added to at
+    #    least two different worlds' statics. Requiring that is what keeps
+    #    coincidental differences between two worlds' prefixes (e.g. one
+    #    world's static minus another's) from being mistaken for a block and
+    #    mis-attributing every call that follows.
+    blocks = {0}
+    for cand in {p - b for p in prefixes for b in statics if p - b > 0}:
+        if sum(1 for b in statics if b + cand in prefixes) >= 2:
+            blocks.add(cand)
+
+    # 3. Any prefix still unexplained belongs to a world seen only at the
+    #    multi-world table. Accept it only if every unexplained prefix
+    #    reduces to ONE base and exactly one world is left unassigned -
+    #    otherwise return None for those calls rather than guessing.
+    unexplained = [p for p in prefixes
+                   if not any(p - b in blocks for b in statics)]
+    if unexplained:
+        cands = {p - blk for p in unexplained for blk in blocks if p - blk > 0}
+        bases = {c for c in cands
+                 if all(any(p - c == blk for blk in blocks) or
+                        any(p - b in blocks for b in statics)
+                        for p in unexplained)}
+        unseen = {w for ws in conv_worlds.values() for w in ws
+                  if w not in statics.values()}
+        if len(bases) == 1 and len(unseen) == 1:
+            statics[bases.pop()] = unseen.pop()
+
+    return {id(c): next((w for b, w in statics.items() if _prefix(c) - b in blocks),
+                        None)
+            for c in mains}
+
+
+def report_length_ceiling(calls, ceiling_recs, spec):
+    """The length-ceiling retry mechanism's frequency and cost."""
+    firsts, retries = split_retry_calls(calls)
+    if not firsts:
+        return
+    worlds = attribute_worlds(calls, spec) if spec else {}
+    retry_calls = [r for r, _ in retries]
+
+    print("\n## Length-ceiling retry mechanism\n")
+    print("`stream_representative_turn` buffers the first draft for a "
+          "HARD_CEILING_WORLDS world and regenerates once if it exceeds "
+          "`ceiling x trigger_multiple`. Both calls log as `main_response`, so "
+          "the split below is reconstructed from token arithmetic (see "
+          "`split_retry_calls`) for logs collected before "
+          "`app/length_ceiling_logging.py` existed, and read directly from "
+          "`length_ceiling` records when the log has them.\n")
+
+    print("| world | ceiling x trigger | rep turns | retries fired | fire rate | "
+          "retry $ std | discarded draft output tok |")
+    print("|---|---|---|---|---|---|---|")
+    seen = sorted({w for w in worlds.values() if w}, key=str)
+    for w in seen:
+        wf = [c for c in firsts if worlds.get(id(c)) == w]
+        wr = [(r, p) for r, p in retries if worlds.get(id(r)) == w]
+        c, t = CEILING_WORLDS.get(w, (None, None))
+        spec_s = f"{c} x {t} = {c * t:.0f}w" if c else "(no ceiling)"
+        usd = sum(dollars(r, PRICING_STANDARD) or 0.0 for r, _ in wr)
+        print(f"| {w} | {spec_s} | {len(wf)} | {len(wr)} | "
+              f"{(len(wr)/len(wf) if wf else 0):.1%} | {usd:.4f} | "
+              f"{sum(p['output_tokens'] for _, p in wr):,} |")
+
+    absent = [w for w in CEILING_WORLDS if w not in seen]
+    if absent:
+        print(f"\nCeilinged worlds with no representative turn in this log at "
+              f"all: {', '.join(sorted(absent))} — the fixed conversation set "
+              f"does not seat them, so this log measures nothing about them.")
+    if not ceiling_recs:
+        print("\n**Read a 0% fire rate here carefully.** Without "
+              "`length_ceiling` records, a zero means only that no second "
+              "`main_response` call was made — it cannot distinguish \"the "
+              "world's drafts stayed under its trigger\" from \"the world was "
+              "not yet in HARD_CEILING_WORLDS when this log was collected.\" "
+              "Check the ceiling's own commit date against the run date before "
+              "citing a zero as a measurement of the mechanism.")
+
+    tot = sum(dollars(c, PRICING_STANDARD) or 0.0 for c in calls)
+    rtot = sum(dollars(r, PRICING_STANDARD) or 0.0 for r in retry_calls)
+    mtot = sum(dollars(c, PRICING_STANDARD) or 0.0
+               for c in calls if c["label"] == "main_response")
+    print(f"\n**Retry spend: ${rtot:.4f} of ${tot:.4f} whole-baseline standard "
+          f"({rtot/tot:.2%}), ${mtot:.4f} of main_response-labelled spend "
+          f"({rtot/mtot:.2%}).** {len(retry_calls)} retries over {len(firsts)} "
+          f"representative turns.\n")
+
+    print("| conversation | rep turns | retries | fire rate | conv $ std | "
+          "retry $ std | retry share of conversation |")
+    print("|---|---|---|---|---|---|---|")
+    for conv in sorted({c["conversation"] for c in calls}):
+        cf = [c for c in firsts if c["conversation"] == conv]
+        cr = [r for r in retry_calls if r["conversation"] == conv]
+        cusd = sum(dollars(c, PRICING_STANDARD) or 0.0
+                   for c in calls if c["conversation"] == conv)
+        rusd = sum(dollars(r, PRICING_STANDARD) or 0.0 for r in cr)
+        print(f"| {conv} | {len(cf)} | {len(cr)} | "
+              f"{(len(cr)/len(cf) if cf else 0):.1%} | {cusd:.4f} | {rusd:.4f} "
+              f"| {(rusd/cusd if cusd else 0):.1%} |")
+
+    # Where a retry's dollars actually go - the number that decides which
+    # cost options are worth anything.
+    ui = sum((r["input_tokens"] - _prefix(r)) * 3.0 / 1e6 for r in retry_calls)
+    cp = sum(r["cache_read_input_tokens"] * 0.30 / 1e6
+             + r["cache_creation_input_tokens"] * 3.75 / 1e6 for r in retry_calls)
+    ow = sum(r["output_tokens"] * 15.0 / 1e6 for r in retry_calls)
+    if rtot:
+        print(f"\nRetry cost decomposition (standard rates): uncached input "
+              f"${ui:.4f} ({ui/rtot:.1%}), cached-prefix reads/writes "
+              f"${cp:.4f} ({cp/rtot:.1%}), output ${ow:.4f} ({ow/rtot:.1%}).")
+
+    if ceiling_recs:
+        print("\n### Direct `length_ceiling` records (this run only)\n")
+        print("| world | turns observed | under ceiling | dead zone | retried | "
+              "fire rate | first-draft words min/median/max |")
+        print("|---|---|---|---|---|---|---|")
+        import statistics
+        for w in sorted({r["world_id"] for r in ceiling_recs}):
+            rs = [r for r in ceiling_recs if r["world_id"] == w]
+            n = {k: sum(1 for r in rs if r["outcome"] == k)
+                 for k in ("under_ceiling", "dead_zone", "retried")}
+            words = sorted(r["first_draft_words"] for r in rs)
+            print(f"| {w} | {len(rs)} | {n['under_ceiling']} | {n['dead_zone']} "
+                  f"| {n['retried']} | {n['retried']/len(rs):.1%} | "
+                  f"{words[0]}/{statistics.median(words):.0f}/{words[-1]} |")
+
+
 def report(raw_path):
-    calls, turns = [], []
+    calls, turns, ceiling_recs = [], [], []
     for line in Path(raw_path).read_text(encoding="utf-8").splitlines():
         rec = json.loads(line)
-        (calls if rec["kind"] == "llm_call" else turns).append(rec)
+        if rec["kind"] == "llm_call":
+            calls.append(rec)
+        elif rec["kind"] == "length_ceiling":
+            ceiling_recs.append(rec)
+        else:
+            turns.append(rec)
 
     def agg(rows):
         a = {"n": 0, "input": 0, "output": 0, "cache_w": 0, "cache_r": 0,
@@ -306,6 +585,15 @@ def report(raw_path):
         print("\nExpected shape: the post-pause turn shows cache_read collapsing "
               "toward 0 and cache_write re-paying the prefix; neighbors show "
               "warm reads. The table above is the measurement, not the claim.")
+
+    # Appended after every pre-existing section, so a report regenerated from
+    # an older raw log is byte-identical up to this point (asserted by
+    # gates/S6.2_length_ceiling_observability_gate.py).
+    try:
+        spec = json.loads(SPEC_PATH.read_text(encoding="utf-8"))
+    except OSError:
+        spec = None
+    report_length_ceiling(calls, ceiling_recs, spec)
 
 
 def main():

@@ -1,0 +1,30 @@
+# S6.2 gate — length-ceiling retry observability
+
+| check | result | detail |
+|---|---|---|
+| 1. CEILING_WORLDS matches nodes.py | PASS | nodes.py={'desert-monasticism': (60, 1.5), 'hieronymian-ascetic-literary': (180, 1.2), 'alexandria-catechetical': (160, 1.2), 'syriac-edessa-nisibis': (165, 1.2)} runner={'desert-monasticism': (60, 1.5), 'hieronymian-ascetic-literary': (180, 1.2), 'alexandria-catechetical': (160, 1.2), 'syriac-edessa-nisibis': (165, 1.2)} |
+| 2a. retry count on the committed raw log | PASS | 15 retries / 49 first drafts (expected 15/49) |
+| 2b. detector stable across surplus windows 51..400 | PASS | {51: 15, 80: 15, 120: 15, 250: 15, 400: 15} |
+| 2c. corrective-message surplus is a single constant | PASS | observed surplus values: [51] |
+| 3a. every main_response call attributes to a world | PASS | 0 unattributed |
+| 3b. per-world rep-turn and retry counts | PASS | got={'desert-monasticism': (19, 15), 'alexandria-catechetical': (10, 0), 'syriac-edessa-nisibis': (5, 0), 'post-apostolic-house-church': (15, 0)} |
+| 3c. syriac (multi-world-only) identified, not left unknown | PASS |  |
+| 4a. C2_desert retry spend | PASS | $0.1423 |
+| 4b. C2_desert whole-conversation spend | PASS | $0.5964 |
+| 4c. whole-baseline retry spend | PASS | $0.3188 |
+| 4d. 38.8% main-scoped x main's share of C2 == the 23.9% figure | PASS | main-scoped 38.8% x main share 61.4% = 23.9% |
+| 5a. new section is present | PASS |  |
+| 5b. --report reproduces the committed report byte-for-byte | PASS | regenerate the committed report if this is an intended change |
+| 5c. the new section is last (nothing appended after it) | PASS | a later section would break append-only |
+| 6a. all three outcome shapes emit a line | PASS |  |
+| 6b. runner's CEILING_RE parses every shape | PASS | 3/3 parsed |
+| 6c. parsed fields survive the round trip | PASS |  |
+| 7a. length_ceiling records do not inflate call/turn totals | PASS | ['**Totals: 689 LLM calls across 40 participant turns + 4 session starts.** input=2,547,246 output=91,567 cache_write=182,068 cache_read=1,095,867 tokens. **$3.3924 standard** ($2.7283 billed at current intro rates). Per participant turn: $0.0848 standard.'] vs ['**Totals: 689 LLM calls across 40 participant turns + 4 session starts.** input=2,547,246 output=91,567 cache_write=182,068 cache_read=1,095,867 tokens. **$3.3924 standard** ($2.7283 billed at current intro rates). Per participant turn: $0.0848 standard.'] |
+| 7b. the direct-records table appears when records are present | PASS |  |
+| 8. nodes.py ceiling branch logs OUTCOME_DEAD_ZONE | PASS |  |
+| 8. nodes.py ceiling branch logs OUTCOME_RETRIED | PASS |  |
+| 8. nodes.py ceiling branch logs OUTCOME_UNDER | PASS |  |
+
+**22 passed, 0 failed.**
+
+## GATE: PASS
