@@ -10,6 +10,8 @@ from langchain_core.documents import Document
 
 from app.config import settings
 from app.rag.embeddings import get_shared_embeddings
+from app.rag.sections import (KEY_SOURCES_MARKERS, QUICK_MEANING_MARKERS,
+                               extract_section)
 
 
 def _null_sentinel(value: str) -> str:
