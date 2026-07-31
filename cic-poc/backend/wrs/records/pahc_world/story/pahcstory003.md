@@ -64,6 +64,13 @@ retrieval:
 sources:
 - source_id: srcPAHCP04
   locus: Polycarp of Smyrna, *Letter to the Philippians*, ch. 13 (Registry P04).
+gravity_links:
+- gravity_id: pahcgrav002
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is a small, concrete data point for G02 (Translocal Correspondence Network, Primary) —
+    one of its three founding data points. Where Story 001 shows the network activated by crisis and Story
+    002 shows it activated by institutional concern, this story shows its ordinary, almost administrative
+    operation: collecting, requesting, and forwarding letters as a routine act of care between communities.'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory003_polycarp-forwards-letters.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

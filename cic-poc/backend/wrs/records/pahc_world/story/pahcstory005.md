@@ -69,6 +69,17 @@ retrieval:
 sources:
 - source_id: srcPAHCP08
   locus: Tacitus, *Annals* 15.44 (Registry P08), written c. 116 CE describing events of 64 CE.
+gravity_links:
+- gravity_id: pahcgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is the closest thing this world has to a generative origin story — not a formation practice,
+    but the structural condition Doc_01 and Doc_08 both treat as this whole world''s own generative trigger.
+    Doc_08 names this event as generative for G01 (Authority Consolidation): the loss of an eyewitness
+    generation and the sudden, violent visibility of "Christian" as a named, targetable category are part
+    of why this world''s formation logic must be argued and transmitted deliberately rather than simply
+    inherited by direct memory.'
+- gravity_id: pahcgrav003
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory005_nero-scapegoating.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

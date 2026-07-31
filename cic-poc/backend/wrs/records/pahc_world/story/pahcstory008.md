@@ -94,6 +94,19 @@ sources:
   locus: '*Martyrdom of Polycarp* (Registry P16), traditional dating c. 155–156 CE; Eusebius''s *Chronicon*
     dates it 167 CE; concluding chapters (20–22) widely regarded as later redactional additions. Framed
     within its own text as a letter from the church at Smyrna to the church at Philomelium.'
+gravity_links:
+- gravity_id: pahcgrav004
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is the second and last data point supporting G04 (Martyrdom as Meaning-Response, Supporting,
+    Strand A only) — alongside Story 001, this is the entire evidentiary weight this gravity rests on
+    in this world. It shows the formation ideal from the community''s own side, complementing Story 001''s
+    first-person account: not simply how one man interpreted his own death, but how a whole community
+    remembered and ritually reenacted the meaning of one leader''s death for its own ongoing formation.
+
+
+    The bone-collection scene and the annual gathering are themselves formation practice, not merely narrative
+    decoration — they show the community actively building a commemorative rite around this story, which
+    is itself evidence of how central this meaning-response was to Strand A''s own formation logic.'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory008_martyrdom-of-polycarp.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

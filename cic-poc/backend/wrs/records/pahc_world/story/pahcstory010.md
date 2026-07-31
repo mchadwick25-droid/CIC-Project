@@ -79,6 +79,15 @@ retrieval:
 sources:
 - source_id: srcPAHCP01
   locus: See Source Identification below — Didache chs. 9–10, 14 (Registry P01).
+gravity_links:
+- gravity_id: pahcgrav007
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story is a distinct evidentiary strand within G07 (Liturgical Practice/Eucharist, Primary)
+    — deliberately not merged with Story 006''s Roman account or Story 011''s Strand A account, per the
+    diversity-first discipline Doc_02 §4 establishes. It shows this world''s own internal liturgical diversity
+    at its sharpest: a community giving thanks in the same broad category of practice (bread, cup, thanksgiving)
+    but organizing that practice around an entirely different theological center — gathering and knowledge
+    rather than institution and sacrifice.'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory010_didache-eucharist.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

@@ -72,6 +72,18 @@ retrieval:
 sources:
 - source_id: srcPAHCP03
   locus: See Source Identification below — Ignatius, *Philadelphians* 4 and *Smyrnaeans* 8 (Registry P03).
+gravity_links:
+- gravity_id: pahcgrav007
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story is Strand A''s own version of G07 (Liturgical Practice/Eucharist, Primary), fused
+    explicitly with G01 (Authority Consolidation, Supporting) and G05 (Boundary-Drawing vs. Rivals, Tensional)
+    — Doc_04''s own Dependency-test finding is that this instruction functions simultaneously as an authority
+    claim and a boundary claim: unity around one eucharist is not separable, in Ignatius''s own argument,
+    from unity around one bishop and exclusion of rival teaching.'
+- gravity_id: pahcgrav001
+  note: Named in the same FEC (full text on this record's first gravity link).
+- gravity_id: pahcgrav005
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory011_one-eucharist-under-bishop.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

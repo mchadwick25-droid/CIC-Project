@@ -77,6 +77,19 @@ retrieval:
 sources:
 - source_id: srcPAHCP07
   locus: Pliny the Younger, *Letters* 10.96–97 (Registry P07), c. 111–113 CE.
+gravity_links:
+- gravity_id: pahcgrav003
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is this world''s clearest evidence for G03 (State Pressure/Legal Precarity, Supporting)
+    — not a systematic empire-wide persecution, but real, local, lethal exposure operating under genuine
+    legal uncertainty even among Roman officials themselves. It also supplies this world''s only outside
+    description of internal practice — however filtered, it is the sole non-Christian eyewitness account
+    of a gathering, its oath, and its shared meal.
+
+
+    This story does formation work no internal source can do: it shows how this world''s own practices
+    looked to an outsider with the power of life and death, and what that outsider found alarming (or,
+    notably, did not).'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory004_pliny-interrogation.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

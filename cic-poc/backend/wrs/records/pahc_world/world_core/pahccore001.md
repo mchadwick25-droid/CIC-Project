@@ -30,7 +30,13 @@ formation_logic: 'Doc_01 SS8.2''s own contrast phrase: household- and correspond
   - catechesis via community letter and adaptable handbook (the Two Ways; the Didache''s living instructions),
   the letter read aloud as the community''s formation event, table and baptism ordering common life, authority
   still being actively built through pastoral correspondence rather than argued from settled succession.'
-gravities: []
+gravities:
+- pahcgrav001
+- pahcgrav002
+- pahcgrav003
+- pahcgrav004
+- pahcgrav005
+- pahcgrav007
 sources:
 - source_id: srcPAHCP01
 - source_id: srcPAHCP03

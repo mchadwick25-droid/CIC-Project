@@ -87,6 +87,20 @@ sources:
 - source_id: srcPAHCP05
   locus: See Source Identification below — composite across 1 Clement (P02), Ignatius (P03), Polycarp
     (P04), Hermas (P05).
+gravity_links:
+- gravity_id: pahcgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is the most fully composite story in this repository, built specifically to hold Strand
+    A and Strand B side by side rather than resolve them into one picture. It connects to G01 (Authority
+    Consolidation, Supporting), G07 (Liturgical Practice, Primary), and G02 (Translocal Correspondence
+    Network, Primary) simultaneously, since both strands'' own correspondence (Ignatius''s letters; 1
+    Clement; Hermas) is what makes each side of this comparison possible at all. This is Doc_05''s own
+    inhabited-voice reconstruction (§1.1, §5.1, §6.1, §6.3), built under the Writing-From-Inside Principle
+    (Constitution Article 23), carried here into Tier 4 register.'
+- gravity_id: pahcgrav007
+  note: Named in the same FEC (full text on this record's first gravity link).
+- gravity_id: pahcgrav002
+  note: Named in the same FEC (full text on this record's first gravity link).
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory012_day-under-bishop-and-presbyters.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 
