@@ -1481,7 +1481,13 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # measured max (alexvoice001.native_measure: responses 123-166, mean
     # ~141) so solo answers never trigger; multiple 1.2 (the Albina
     # narrow-margin precedent) so the 300+-word table turns do.
-    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 180,
+    # S6.2/HAL freeze (2026-07-31, Decision HAL-4): 160 = just above the
+    # voice profile's measured solo max (halvoice001 native_measure,
+    # range 41-157, mean 94) so the solo register never triggers;
+    # grounded in the triple-TRR dominance finding (71-75% at the desert
+    # table, a 195w table turn under the old 180@1.2 = 216 trigger that
+    # never fired). The prior 180 predates the measured profile.
+    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
                            "alexandria-catechetical": 160,
                            # S6.2/SYR freeze (2026-07-28): 165 = the voice
                            # profile's measured max (syrvoice001 native_measure,
