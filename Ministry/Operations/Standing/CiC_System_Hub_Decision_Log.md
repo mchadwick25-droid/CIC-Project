@@ -233,7 +233,10 @@ sitting on a background that stayed light, washing text out to near-illegible.
 
 **Committed and pushed directly to `main`, per Mark's explicit go-ahead** — the
 `cic-poc` fix (`83d058f`) and the `cic-website` carousel (`3566031`, log entry
-`d2f42fa`). Both are on Render/Cloudflare's normal auto-deploy path from here.
+`d2f42fa`). **Confirmed live by direct check, not assumed:** `churchinconversation.com`
+serves the carousel in correct chronological/era order and generates the right
+interview link on click; following that link to `cic-poc.onrender.com` correctly
+skips the picker entirely and lands on "Preparing your conversation with Chloe."
 **Deliberately scoped to only those files** — a substantial amount of unrelated,
 uncommitted work was sitting in the shared repo at push time (signed legal/entity
 documents, Gantt files, other threads' launch prompts, a Funding-Strategy README

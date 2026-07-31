@@ -856,11 +856,11 @@ everything below was not yet started when the descope landed.
       (interview) / paid (multi-table) boundary real rather than just labeled.
       Two bugs caught pre-ship: a census/app world_id mismatch that would have
       404'd one interview link, and a dark-mode contrast bug on card/panel text.
-      **Committed and pushed directly to `main`, per Mark's explicit go-ahead**
-      (`cic-poc`: `83d058f`; `cic-website`: `3566031`) — deliberately scoped
-      past a large amount of unrelated uncommitted work (signed legal/entity
-      documents among it) sitting in the shared repo at push time. Full
-      account: Website Decision-Log; System Hub Decision Log, 2026-07-24
+      **Committed, pushed, and confirmed live by direct check** (`cic-poc`:
+      `83d058f`; `cic-website`: `3566031`) — deliberately scoped past a large
+      amount of unrelated uncommitted work (signed legal/entity documents
+      among it) sitting in the shared repo at push time. Full account:
+      Website Decision-Log; System Hub Decision Log, 2026-07-24
       (later, cross-thread).
 - [x] **IC-9 — Icon full-family review RUN: FAMILY PASSES, the five locks stand
       (2026-07-18, overnight).** Frame/silhouette/objects/flags/skin-spread/template checks
