@@ -404,3 +404,26 @@ strategy decision, and nothing above is undone by it. Concretely: `support.html`
 site navigation for Phase 1 (kept on disk, not deleted — see its own header comment). This
 thread's own "Go Live" phase in `CiC_Business_Roadmap_V0_1.md` should be read against this
 sequencing when work here picks back up. Full account: System Hub Decision Log, 2026-07-22.
+
+---
+
+## 2026-07-31 (cross-reference from System Hub, not a decision made in this thread)
+
+**The 2026-07-22 hold above is lifted.** Mark confirmed directly to System Hub that Phase 1
+feedback exists and gave the explicit go-ahead to build SH-9 (Stripe for contributions) live,
+not just prep it dark. System Hub flagged the hold before proceeding rather than assuming it
+no longer applied, since the original instruction was recorded here specifically so it
+wouldn't be silently overridden — Mark's answer was direct: build it live.
+
+**Built:** a real Stripe Checkout integration (one-time and recurring gifts, both, in one
+pass — see Part B of the doc below on why not sequenced), `support.html` restored to site
+navigation on every page, and the account-setup steps only Mark can do written up as a
+checklist. Full account, including the two wording adaptations made and flagged (not silently
+decided) and everything still genuinely open (final gesture terminology, unchanged from this
+log's own earlier entries):
+`Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md`.
+
+**Not yet live** — the code ships "off until configured" (same discipline as `app/auth.py`),
+so nothing charges anyone until Mark completes the Stripe account/webhook/env-var checklist in
+that doc's Part C. **Next action:** Mark's own Stripe dashboard work; nothing here needs this
+thread's further input until that's done and real data exists to react to.

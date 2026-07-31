@@ -1,14 +1,17 @@
 <!--
-  Pulled from the live site 2026-07-22, per Mark's direction: funding
-  strategy and support gifts are held for Phase 1 of the launch - the
-  first priority after go-live is gathering feedback from several real
-  participants, not asking for money. Not deleted - the external-review
-  transparency content and the existing giving copy stay accurate as a
-  status record, and the Funding Strategy thread's own work (a converged
-  five-phase roadmap, business-plan research, market analysis - see
-  Ministry/Features/Funding-Strategy/) picks this back up once that
-  feedback exists. No page currently links here; reachable only by
-  direct URL until a future pass re-links or replaces it.
+  Restored to site navigation 2026-07-31. Pulled 2026-07-22 per Mark's
+  direction that funding strategy and support gifts wait for Phase 1
+  participant feedback (see Ministry/Features/Funding-Strategy/Decision-Log.md,
+  the 2026-07-22 cross-reference entry) - that hold was lifted by Mark
+  2026-07-31 (SH-9 on the System Hub task board). Ask copy, suggested
+  amounts, and the "where this goes" language below are taken directly from
+  Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md Part C.3, the document
+  this README already named as the source of truth before changing amounts
+  or copy here. "Keep the Table open" as the section's explicit name (it was
+  already implicit in this page's own prior copy) is a real choice, not a
+  settled one - the Funding Strategy thread's own roadmap still lists final
+  gesture terminology as open; revisit there if a different phrase is
+  preferred later.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +25,53 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+.give-group { margin: 1.6rem 0; }
+.give-group .label {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold-leaf); font-weight: 700; margin: 0 0 0.7rem;
+}
+.give-amounts {
+  display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center;
+}
+.amt-btn {
+  font-family: 'Alegreya Sans', sans-serif; font-weight: 600; font-size: 0.95rem;
+  padding: 0.7rem 1.3rem; border-radius: 4px; border: 1.5px solid var(--madder);
+  background: transparent; color: var(--madder); cursor: pointer;
+}
+.amt-btn:hover, .amt-btn:focus-visible { background: rgba(161,62,43,0.07); }
+.amt-btn[data-suggested="true"] { background: var(--madder); color: var(--vellum); }
+.amt-btn[data-suggested="true"]:hover { background: var(--gold-leaf); border-color: var(--gold-leaf); }
+.amt-btn:disabled { opacity: 0.55; cursor: wait; }
+.give-other {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: 'Alegreya Sans', sans-serif; font-size: 0.95rem;
+}
+.give-other span { color: var(--muted); }
+.give-other input {
+  width: 5rem; font-family: 'Alegreya', Georgia, serif; font-size: 1rem;
+  padding: 0.6rem 0.6rem; border: 1px solid var(--rule); border-radius: 5px;
+  background: var(--vellum); color: var(--iron-gall);
+}
+.give-other button {
+  font-family: 'Alegreya Sans', sans-serif; font-weight: 600; font-size: 0.9rem;
+  padding: 0.65rem 1rem; border-radius: 4px; border: 1.5px solid var(--madder);
+  background: transparent; color: var(--madder); cursor: pointer;
+}
+.give-other button:hover { background: rgba(161,62,43,0.07); }
+.give-status {
+  font-family: 'Alegreya Sans', sans-serif; font-size: 0.9rem;
+  margin-top: 0.9rem; display: none;
+}
+.give-status.show { display: block; }
+.give-status.error { color: var(--madder); }
+.thanks-banner {
+  background: var(--vellum); border: 1px solid var(--rule); border-left: 3px solid var(--gold-leaf);
+  border-radius: 0 6px 6px 0; padding: 1.3rem 1.5rem; margin: 0 0 1.8rem; display: none;
+}
+.thanks-banner.show { display: block; }
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -37,6 +87,7 @@
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
       <a href="atlas.html">Atlas</a>
+      <a href="support.html" aria-current="page">Support</a>
     </nav>
   </div>
 </header>
@@ -53,20 +104,54 @@
   </section>
 
   <section class="page-section" id="giving">
-    <p class="eyebrow">Support the Work</p>
+    <p class="eyebrow">Keep the Table Open</p>
     <h2>Where a contribution actually goes</h2>
-    <p>Contributions open more seats at the Table and help us pursue the independent scholarly review we're committed to — $10/month keeps the Table open for five more participants who couldn't otherwise afford it.</p>
-    <div class="callout">
-      <p class="label">Give once</p>
-      <p>Suggested $10 — or $5 / $25 / whatever fits.</p>
+    <p>Contributions go toward the real cost of running and growing this — the technology, the people, and the work it takes — so it can stay free for everyone who needs it.</p>
+
+    <div class="thanks-banner" id="thanksBanner">
+      <p class="label">Thank you</p>
+      <p>Your gift is in — genuinely grateful. It's already helping keep a seat open for someone who couldn't otherwise afford one.</p>
     </div>
+
     <div class="callout">
-      <p class="label">Give monthly</p>
-      <p>Suggested $8/month — or $5 / $15 / whatever fits.</p>
+      <div class="give-group">
+        <p class="label">Give once</p>
+        <p>A one-time gift of $10 covers a full month of access for someone who couldn't otherwise afford it.</p>
+        <div class="give-amounts" data-mode="once">
+          <button class="amt-btn" type="button" data-amount="500">$5</button>
+          <button class="amt-btn" type="button" data-amount="1000" data-suggested="true">$10</button>
+          <button class="amt-btn" type="button" data-amount="2500">$25</button>
+          <span class="give-other">
+            <span>or</span>
+            <input type="number" inputmode="decimal" min="1" step="1" placeholder="Other $" aria-label="Other one-time amount in dollars" data-other-input="once">
+            <button type="button" data-other-submit="once">Give</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="give-group">
+        <p class="label">Give monthly</p>
+        <p>$8 a month keeps the Table open for eight more seekers who couldn't otherwise afford it.</p>
+        <div class="give-amounts" data-mode="monthly">
+          <button class="amt-btn" type="button" data-amount="500">$5</button>
+          <button class="amt-btn" type="button" data-amount="800" data-suggested="true">$8</button>
+          <button class="amt-btn" type="button" data-amount="1500">$15</button>
+          <span class="give-other">
+            <span>or</span>
+            <input type="number" inputmode="decimal" min="1" step="1" placeholder="Other $/mo" aria-label="Other monthly amount in dollars" data-other-input="monthly">
+            <button type="button" data-other-submit="monthly">Give</button>
+          </span>
+        </div>
+      </div>
+
+      <p class="give-status" id="giveStatus" role="status"></p>
     </div>
-    <p>A direct on-site way to give is on the way. Until then, reach out and we'll sort it out with you directly:</p>
+
+    <p style="font-size:0.92rem;color:var(--muted);">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible. We chose to start building rather than wait years for nonprofit status; this is the honest cost of that choice.</p>
+
+    <p>Prefer to give directly, or give a larger gift? Reach out and we'll sort it out with you personally:</p>
     <p style="text-align:center;margin:1.6rem 0;">
-      <a class="btn primary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
+      <a class="btn secondary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
     </p>
     <p>Other ways to support the work that cost nothing: introduce us to a seminary, professor, or scholar who might serve as an external reviewer; tell someone who'd want to sit down at the Table themselves; or simply ask us questions — the sharpest ones make the work better.</p>
   </section>
@@ -81,6 +166,79 @@
     </nav>
   </div>
 </footer>
+
+<script>
+// SH-9: fill in the real backend URL once it's deployed (see the SH-9
+// logistics doc, Ministry/Features/Funding-Strategy/ - "Set the live
+// backend URL"). Left blank on purpose rather than guessed - every button
+// below fails gracefully to the email CTA above until this is set.
+const API_BASE = "";
+
+const statusEl = document.getElementById('giveStatus');
+function showStatus(message, isError) {
+  statusEl.textContent = message;
+  statusEl.className = 'give-status show' + (isError ? ' error' : '');
+}
+
+async function startCheckout(mode, amountCents, triggerBtn) {
+  if (!API_BASE) {
+    showStatus("Direct giving isn't quite live yet — email us above and we'll sort it out personally.", true);
+    return;
+  }
+  if (!Number.isFinite(amountCents) || amountCents < 100) {
+    showStatus('Please enter an amount of at least $1.', true);
+    return;
+  }
+  const buttons = document.querySelectorAll('.amt-btn, [data-other-submit]');
+  buttons.forEach((b) => (b.disabled = true));
+  showStatus('Opening secure checkout…', false);
+
+  const here = window.location.href.split('?')[0];
+  try {
+    const resp = await fetch(API_BASE + '/api/support/checkout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        mode: mode,
+        amount_cents: Math.round(amountCents),
+        success_url: here + '?given=1',
+        cancel_url: here + '?cancelled=1',
+      }),
+    });
+    if (!resp.ok) {
+      showStatus("Giving isn't quite live yet — email us above and we'll sort it out personally.", true);
+      buttons.forEach((b) => (b.disabled = false));
+      return;
+    }
+    const data = await resp.json();
+    window.location.href = data.url;
+  } catch (err) {
+    showStatus("Something went wrong reaching checkout — email us above and we'll sort it out personally.", true);
+    buttons.forEach((b) => (b.disabled = false));
+  }
+}
+
+document.querySelectorAll('.amt-btn').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const mode = btn.closest('.give-amounts').dataset.mode;
+    startCheckout(mode, parseInt(btn.dataset.amount, 10), btn);
+  });
+});
+
+document.querySelectorAll('[data-other-submit]').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const mode = btn.dataset.otherSubmit;
+    const input = document.querySelector('[data-other-input="' + mode + '"]');
+    const dollars = parseFloat(input.value);
+    startCheckout(mode, Math.round(dollars * 100), btn);
+  });
+});
+
+const params = new URLSearchParams(window.location.search);
+if (params.get('given') === '1') {
+  document.getElementById('thanksBanner').className = 'thanks-banner show';
+}
+</script>
 
 </body>
 </html>

@@ -85,6 +85,18 @@ class Settings(BaseSettings):
     supabase_url: str = ""
     supabase_service_key: str = ""
 
+    # Stripe (SH-9: the voluntary contribution flow - see app/giving.py).
+    # No accounts, no gating - a contribution never unlocks anything, so this
+    # is deliberately independent of Supabase/auth.py entirely. Empty by
+    # default, same "off until configured" discipline as Supabase above:
+    # /api/support/checkout returns a clear 503 rather than failing, so cic-
+    # website's Support page can go live before real Stripe keys exist.
+    stripe_secret_key: str = ""
+    # Only required to make /api/support/webhook verify signatures; without
+    # it the endpoint 503s the same way checkout does. Set once the webhook
+    # endpoint is registered in the Stripe dashboard (see the logistics doc).
+    stripe_webhook_secret: str = ""
+
     # Base paths
     data_base_path: Path = Path("./data")
     vector_store_base_path: Path = Path("./vector_store")

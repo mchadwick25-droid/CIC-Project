@@ -120,7 +120,10 @@ check of the real Living Table build in a running conversation — see LT-1.
         Connects to tonight's contribution/tier economics work
         (`Ministry/Features/Funding-Strategy/`) — should ground its wording/asks in the
         real market research already done there (the "keep it open" $10/$8 figures, the
-        PBC no-tax-deduction framing).
+        PBC no-tax-deduction framing). **BUILT 2026-07-31** — code and copy done, real
+        Stripe account/webhook setup still Mark's own step; the 2026-07-22 funding hold
+        this depended on was explicitly lifted by Mark first. Full account:
+        `Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md`.
       - **SH-10 — Keep testing real costs once real questions get asked.** Standing,
         ongoing — not a one-time task. Feeds the B-COST re-baseline already blocked open
         (see Pass2/Pass3 baselines).

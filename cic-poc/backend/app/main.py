@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
-from fastapi import Depends, FastAPI, Header, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -234,6 +234,15 @@ class RedeemReferralRequest(BaseModel):
     code: str
     name: str
     email: str
+
+
+class CheckoutRequest(BaseModel):
+    """A contribution started from cic-website/support.html (SH-9)."""
+
+    mode: str  # "once" or "monthly" - see app/giving.py
+    amount_cents: int
+    success_url: str
+    cancel_url: str
 
 
 class SendMessageResponse(BaseModel):
@@ -581,6 +590,87 @@ async def redeem_referral(request: RedeemReferralRequest):
     ).eq("user_id", invited.user.id).execute()
 
     return {"status": "invited"}
+
+
+# Where a checkout's success_url/cancel_url are allowed to point. Both are
+# caller-supplied (cic-website builds them from its own current page), so
+# without a check here this endpoint would create a real, working Stripe
+# Checkout Session that redirects a paying participant's browser wherever
+# an attacker's request asked - not a way to steal the gift itself (Stripe's
+# own hosted page collects the card), but a real open-redirect surface
+# riding on a legitimate payment flow. localhost stays allowed for local
+# dev against a real Stripe test-mode key.
+_ALLOWED_REDIRECT_PREFIXES = (
+    "https://churchinconversation.com",
+    "https://churchinconversation.org",
+    "http://localhost",
+    "http://127.0.0.1",
+)
+
+
+def _validate_redirect_url(url: str) -> None:
+    if not url.startswith(_ALLOWED_REDIRECT_PREFIXES):
+        raise HTTPException(status_code=400, detail="Invalid redirect URL.")
+
+
+@app.post("/api/support/checkout")
+async def create_support_checkout(request: CheckoutRequest):
+    """
+    Start a Stripe Checkout Session for a voluntary contribution
+    (cic-website/support.html - SH-9). No sign-in, no session, no gating -
+    see app/giving.py's module docstring for why a gift is deliberately
+    independent of everything else in this app.
+
+    503s cleanly if STRIPE_SECRET_KEY isn't set yet, matching every other
+    Supabase/Stripe-dependent endpoint's "off until configured" discipline -
+    the frontend already knows to fall back to the direct email ask when it
+    sees this, so the Support page can ship before Mark has real Stripe keys.
+    """
+    from app.giving import GivingNotConfigured, InvalidAmount, create_checkout_session
+
+    _validate_redirect_url(request.success_url)
+    _validate_redirect_url(request.cancel_url)
+
+    try:
+        url = create_checkout_session(
+            request.mode, request.amount_cents, request.success_url, request.cancel_url
+        )
+    except GivingNotConfigured:
+        raise HTTPException(status_code=503, detail="Giving isn't live yet - check back soon.")
+    except InvalidAmount:
+        raise HTTPException(status_code=400, detail="That amount is outside what this form accepts.")
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    return {"url": url}
+
+
+@app.post("/api/support/webhook")
+async def support_webhook(request: Request):
+    """
+    Stripe's own server calls this, not a participant's browser - see the
+    Stripe dashboard webhook config in the SH-9 logistics doc. The only
+    durable record a contribution leaves in this app (see app/giving.py);
+    everything else about the gift lives in Stripe's own dashboard.
+    """
+    from app.giving import GivingNotConfigured, verify_and_log_webhook
+
+    payload = await request.body()
+    sig_header = request.headers.get("stripe-signature")
+
+    try:
+        verify_and_log_webhook(payload, sig_header)
+    except GivingNotConfigured:
+        raise HTTPException(status_code=503, detail="Giving isn't live yet - check back soon.")
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception:
+        # Covers stripe.error.SignatureVerificationError without importing
+        # the stripe package at module load time when it isn't configured -
+        # same lazy-import discipline as the rest of this module.
+        raise HTTPException(status_code=400, detail="Invalid webhook signature.")
+
+    return {"status": "ok"}
 
 
 @app.post("/api/session/{session_id}/message", response_model=SendMessageResponse)
