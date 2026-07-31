@@ -1496,6 +1496,19 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
     if ceiling:
+        # Purely-additive structured observability for this whole branch
+        # (app/length_ceiling_logging.py). The prints below are left exactly
+        # as they were - this only ADDS a machine-parseable line per outcome,
+        # so the mechanism's fire rate, its dead-zone frequency, and the
+        # first-draft word distribution that drives both become countable
+        # per world from a log rather than reconstructable only by token
+        # forensics. No ceiling, trigger multiple, prompt, model, or emitted
+        # text changes here.
+        from app.length_ceiling_logging import (
+            OUTCOME_DEAD_ZONE, OUTCOME_RETRIED, OUTCOME_UNDER,
+            log_length_ceiling_outcome,
+        )
+
         full_text, pieces = _generate_once(messages)
         word_count = len(full_text.split()) if full_text else 0
         if full_text and word_count > ceiling * retry_trigger_multiple:
@@ -1518,6 +1531,16 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                     f"{len(retry_text.split())} words."
                 )
                 full_text, pieces = retry_text, retry_pieces
+            # Logged whether or not the retry came back with text: an empty
+            # retry still fired (and still cost a call), and the first
+            # draft is kept in that case - retry_words=0 records exactly
+            # that rather than hiding the call.
+            log_length_ceiling_outcome(
+                ctx["current_world_id"], ceiling, retry_trigger_multiple,
+                word_count, OUTCOME_RETRIED,
+                retry_words=len(retry_text.split()) if retry_text else 0,
+                request_id=request_id, session_id=state.session_id,
+            )
         elif full_text and word_count > ceiling:
             # Over ceiling but under the retry trigger - the dead zone Opus's
             # review named. Not corrected here (that would defeat the point
@@ -1528,6 +1551,21 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                 f"[length_ceiling] {ctx['current_world_id']} turn ran {word_count} words "
                 f"(ceiling {ceiling}) - over ceiling but under the {retry_trigger_multiple}x "
                 "retry trigger, left uncorrected."
+            )
+            log_length_ceiling_outcome(
+                ctx["current_world_id"], ceiling, retry_trigger_multiple,
+                word_count, OUTCOME_DEAD_ZONE,
+                request_id=request_id, session_id=state.session_id,
+            )
+        elif full_text:
+            # The ordinary case: the draft came in at or under the ceiling
+            # with no correction needed. Never previously logged at all,
+            # which is why the mechanism's fire rate has no denominator in
+            # any committed artifact.
+            log_length_ceiling_outcome(
+                ctx["current_world_id"], ceiling, retry_trigger_multiple,
+                word_count, OUTCOME_UNDER,
+                request_id=request_id, session_id=state.session_id,
             )
         for piece in pieces:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}

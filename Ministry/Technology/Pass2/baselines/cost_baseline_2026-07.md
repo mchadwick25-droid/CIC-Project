@@ -99,3 +99,29 @@ Conversation `C3_alexandria_paused`, pause of 330s before turn 6 (cache TTL is 5
 | 7 | 15,737 | 0 | 24,649 |
 
 Expected shape: the post-pause turn shows cache_read collapsing toward 0 and cache_write re-paying the prefix; neighbors show warm reads. The table above is the measurement, not the claim.
+
+## Length-ceiling retry mechanism
+
+`stream_representative_turn` buffers the first draft for a HARD_CEILING_WORLDS world and regenerates once if it exceeds `ceiling x trigger_multiple`. Both calls log as `main_response`, so the split below is reconstructed from token arithmetic (see `split_retry_calls`) for logs collected before `app/length_ceiling_logging.py` existed, and read directly from `length_ceiling` records when the log has them.
+
+| world | ceiling x trigger | rep turns | retries fired | fire rate | retry $ std | discarded draft output tok |
+|---|---|---|---|---|---|---|
+| alexandria-catechetical | 160 x 1.2 = 192w | 10 | 0 | 0.0% | 0.0000 | 0 |
+| desert-monasticism | 60 x 1.5 = 90w | 19 | 15 | 78.9% | 0.3188 | 3,468 |
+| post-apostolic-house-church | (no ceiling) | 15 | 0 | 0.0% | 0.0000 | 0 |
+| syriac-edessa-nisibis | 165 x 1.2 = 198w | 5 | 0 | 0.0% | 0.0000 | 0 |
+
+Ceilinged worlds with no representative turn in this log at all: hieronymian-ascetic-literary — the fixed conversation set does not seat them, so this log measures nothing about them.
+
+**Read a 0% fire rate here carefully.** Without `length_ceiling` records, a zero means only that no second `main_response` call was made — it cannot distinguish "the world's drafts stayed under its trigger" from "the world was not yet in HARD_CEILING_WORLDS when this log was collected." Check the ceiling's own commit date against the run date before citing a zero as a measurement of the mechanism.
+
+**Retry spend: $0.3188 of $3.3924 whole-baseline standard (9.40%), $1.9482 of main_response-labelled spend (16.36%).** 15 retries over 49 representative turns.
+
+| conversation | rep turns | retries | fire rate | conv $ std | retry $ std | retry share of conversation |
+|---|---|---|---|---|---|---|
+| C1_house_church | 8 | 0 | 0.0% | 0.4193 | 0.0000 | 0.0% |
+| C2_desert | 10 | 8 | 80.0% | 0.5964 | 0.1423 | 23.9% |
+| C3_alexandria_paused | 10 | 0 | 0.0% | 0.7921 | 0.0000 | 0.0% |
+| C4_three_world_table | 21 | 7 | 33.3% | 1.5846 | 0.1765 | 11.1% |
+
+Retry cost decomposition (standard rates): uncached input $0.2282 (71.6%), cached-prefix reads/writes $0.0664 (20.8%), output $0.0242 (7.6%).
