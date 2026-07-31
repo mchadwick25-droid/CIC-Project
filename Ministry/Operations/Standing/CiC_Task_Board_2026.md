@@ -136,7 +136,14 @@ check of the real Living Table build in a running conversation — see LT-1.
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
-        modeled; this is implementation.
+        modeled; this is implementation. **Scope addition, Mark's decision 2026-07-31
+        (Table-mode product shape):** Table-mode (up to 3 representatives) stays
+        available to everyone through the pilot; at public launch it becomes a paid-tier
+        feature — free tier is solo conversations only from that point on. This needs
+        the same subscription-status infrastructure SH-12 already requires (Stripe
+        subscription state reaching a real check at session-start), so it belongs in
+        this build, not a separate ad-hoc gate. Not yet built — SH-12 itself hasn't
+        started.
 
 
 - [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic

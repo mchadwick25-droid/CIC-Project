@@ -726,7 +726,7 @@ async def send_message(session_id: str, request: SendMessageRequest,
     # permanent no-op without one. A capped session still gets a graceful
     # message, not a hard error.
     from app.message_cap import check_message_cap
-    cap_allowed, cap_reason = check_message_cap(state.turn_count)
+    cap_allowed, cap_reason = check_message_cap(state.turn_count, is_table=len(state.world_ids) > 1)
     if not cap_allowed:
         cap_message = AIMessage(content=cap_reason, name="facilitator")
         state.messages = list(state.messages) + [cap_message]
@@ -979,7 +979,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
     # facilitator message and skips the classify-then-route chain below
     # entirely rather than threading a cap check through it.
     from app.message_cap import check_message_cap
-    cap_allowed, cap_reason = check_message_cap(state.turn_count)
+    cap_allowed, cap_reason = check_message_cap(state.turn_count, is_table=len(state.world_ids) > 1)
     if not cap_allowed:
         def sse(event: dict) -> str:
             return f"data: {json.dumps(event)}\n\n"

@@ -27,3 +27,16 @@ monitoring), instrumentation complete per S1.1a (30/30 call sites).
    collected 22:32–22:34, overlapping C4 turns 3–5 in wall time; verified
    irrelevant to the cap events at 22:40 (the cap is turn-count arithmetic,
    not rate limiting).
+5. **Table-mode product shape, resolved 2026-07-31 (Mark's decision, Task
+   Board):** this note's own finding above (a 3-world table burns 2-3
+   representative turns per participant turn) meant the shared
+   `CONVERSATION_TURN_CAP = 40` was cutting a Table sitting short at ~13-20
+   real participant rounds versus solo's full 40 — split into
+   `CONVERSATION_TURN_CAP_SOLO = 40` / `CONVERSATION_TURN_CAP_TABLE = 100`
+   (`app/message_cap.py`; 100 = 40 x the measured 2.5 mid-range burn rate,
+   so a table sitting reaches roughly the same real conversation length
+   solo already gets). Separately, Mark decided the Table feature (max 3
+   representatives, unchanged) stays open to everyone through the pilot and
+   becomes a paid-tier-only feature at public launch — folded into SH-12's
+   scope (Task Board) since it needs SH-12's own subscription-status
+   infrastructure, not a standalone gate.
