@@ -144,6 +144,8 @@ field_relations:
   target_id: pahclex006
   note: 'Mirror of pahclex006''s presupposes edge: the council-around-a-bishop exists only where the bishop
     does.'
+contested_claim_ids:
+- pahcclaim003
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex001_episkopos.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

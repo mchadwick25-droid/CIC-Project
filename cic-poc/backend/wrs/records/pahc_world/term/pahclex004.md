@@ -133,6 +133,8 @@ field_relations:
   target_id: pahclex011
   note: '''Baptism opens the door to the table'' (pahclex011 World Meaning) - the threshold ordering,
     typed as the Desert pairing.'
+contested_claim_ids:
+- pahcclaim002
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex004_eucharistia.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 
