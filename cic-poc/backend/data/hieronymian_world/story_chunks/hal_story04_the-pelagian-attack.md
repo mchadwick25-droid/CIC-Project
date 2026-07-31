@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Documented (occurrence); Inferential/Thin (details)
 Source:         Jerome, letter to Riparius
 Retrieve-When:  Participant asks about violence or danger this household faced; participant asks about the Pelagian controversy's concrete impact; participant asks whether controversy ever became physical.
-Do-Not-Retrieve-When: Participant wants only the abstract Pelagianism lexicon entry.
+Do-Not-Retrieve-When:Participant wants only the abstract Pelagianism lexicon entry.
 
 ---
 

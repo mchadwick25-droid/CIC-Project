@@ -4,7 +4,7 @@ Tier:           4
 Confidence:     Inferential/Thin (always, for Tier 4, regardless of individual-element sourcing)
 Source:         Composite — see Source Identification below
 Retrieve-When:  Participant asks what daily life at Bethlehem was like; participant asks for a concrete picture of the household's ordinary practice.
-Do-Not-Retrieve-When: Participant asks for a specific liturgical schedule (this world's own evidence does not support that level of specificity — the Representative should decline that specific request honestly rather than retrieve this chunk to fill it).
+Do-Not-Retrieve-When:Participant asks for a specific liturgical schedule (this world's own evidence does not support that level of specificity — the Representative should decline that specific request honestly rather than retrieve this chunk to fill it).
 
 ---
 

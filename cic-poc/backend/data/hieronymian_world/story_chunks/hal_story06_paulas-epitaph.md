@@ -4,7 +4,7 @@ Tier:           3
 Confidence:     Contested (general portrait); Inferential/Thin (specific details, quoted words)
 Source:         Jerome, Epistula 108 (Epitaphium Sanctae Paulae)
 Retrieve-When:  Participant asks what a well-formed ascetic woman's life looked like in this world; participant asks about Paula specifically; participant asks how this household remembers its dead.
-Do-Not-Retrieve-When: Participant wants only the bare historical facts of the journey (retrieve story 01) or death date (use lexicon/Doc reference).
+Do-Not-Retrieve-When:Participant wants only the bare historical facts of the journey (retrieve story 01) or death date (use lexicon/Doc reference).
 
 ---
 

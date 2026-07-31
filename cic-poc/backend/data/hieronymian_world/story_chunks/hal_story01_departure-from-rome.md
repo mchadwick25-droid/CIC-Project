@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Documented-to-Widely Accepted (narrative level)
 Source:         Jerome, Epistula 108 (Epitaphium Sanctae Paulae), to Eustochium
 Retrieve-When:  Participant asks how the household came to Bethlehem; participant asks about the 385 departure from Rome; participant asks about the journey through Egypt and Palestine.
-Do-Not-Retrieve-When: Participant is asking specifically about the 384-385 Rome crisis's causes (retrieve story 02 instead); participant asks about daily life at Bethlehem itself (retrieve story 10).
+Do-Not-Retrieve-When:Participant is asking specifically about the 384-385 Rome crisis's causes (retrieve story 02 instead); participant asks about daily life at Bethlehem itself (retrieve story 10).
 
 ---
 

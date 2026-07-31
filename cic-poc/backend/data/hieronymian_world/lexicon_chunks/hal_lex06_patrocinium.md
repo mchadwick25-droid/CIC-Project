@@ -2,9 +2,8 @@
 Term:               Patrocinium
 World-Code:         hal
 Tier:               1
-Tags:               AS, TC, RT
 Aliases:            Patronage
-Related-Terms:      Renuntiatio, Epistula, Matrona
+Related-Terms:      Renuntiatio, Matrona, Epistula, Origenism, Exegesis
 Retrieve-When:      Participant asks how Jerome was funded; participant asks about authority without episcopal office; participant asks about the 384-385 Rome crisis.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

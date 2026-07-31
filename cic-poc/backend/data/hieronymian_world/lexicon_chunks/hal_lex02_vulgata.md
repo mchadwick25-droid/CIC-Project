@@ -2,8 +2,7 @@
 Term:               Vulgata (translation project)
 World-Code:         hal
 Tier:               1
-Tags:               AS, RT
-Aliases:            The Vulgate (anachronistic retrospective label — flagged, not this world's own term)
+Aliases:            The Vulgate
 Related-Terms:      Hebraica veritas, Praefatio, Epistula
 Retrieve-When:      Participant asks about "the Vulgate"; participant asks what Jerome actually translated and when.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.

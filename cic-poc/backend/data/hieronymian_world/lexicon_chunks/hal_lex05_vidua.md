@@ -2,9 +2,8 @@
 Term:               Vidua (includes continentia)
 World-Code:         hal
 Tier:               1
-Tags:               SC, TC, RT
 Aliases:            Ascetic widowhood, continentia
-Related-Terms:      Virginitas, Renuntiatio, Exegesis-as-practiced-authority
+Related-Terms:      Renuntiatio, Virginitas, Exegesis
 Retrieve-When:      Participant asks about Paula, Marcella, or Fabiola's status; participant asks about widowhood as a Christian vocation.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

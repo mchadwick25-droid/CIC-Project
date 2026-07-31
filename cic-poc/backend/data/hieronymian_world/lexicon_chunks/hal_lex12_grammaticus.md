@@ -2,9 +2,8 @@
 Term:               Grammaticus
 World-Code:         hal
 Tier:               1
-Tags:               SC, RT
 Aliases:            Jerome's classical education
-Related-Terms:      Hebraica veritas, Praeceptor
+Related-Terms:      Hebraica veritas
 Retrieve-When:      Participant asks about Jerome's early education; participant asks whether Jerome was actually fluent in Hebrew.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

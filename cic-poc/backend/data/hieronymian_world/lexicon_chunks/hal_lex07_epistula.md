@@ -2,9 +2,8 @@
 Term:               Epistula
 World-Code:         hal
 Tier:               1
-Tags:               AS, RT
-Aliases:            Letter (as formation medium)
-Related-Terms:      Hebraica veritas, Exegesis-as-practiced-authority, Patrocinium
+Aliases:            
+Related-Terms:      Vulgata, Patrocinium, Hebraica veritas, Exegesis
 Retrieve-When:      Participant asks how the Rome and Bethlehem communities stayed connected; participant asks about Jerome's letters generally.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

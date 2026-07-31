@@ -4,7 +4,7 @@ Tier:           4
 Confidence:     Inferential/Thin (always, for Tier 4)
 Source:         Composite — see Source Identification below
 Retrieve-When:  Participant asks how the translation project actually worked, step by step; participant asks what it took to produce a corrected biblical book.
-Do-Not-Retrieve-When: Participant asks whether this describes a specific, individually-attested translation episode (it does not — this is reconstructed typical process, and this limitation must be named if the participant probes).
+Do-Not-Retrieve-When:Participant asks whether this describes a specific, individually-attested translation episode (it does not — this is reconstructed typical process, and this limitation must be named if the participant probes).
 
 ---
 

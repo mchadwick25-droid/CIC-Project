@@ -1,0 +1,724 @@
+{
+  "worlds": {
+    "hieronymian-ascetic-literary": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": 1.0,
+            "n": 3,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 2,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 1.0,
+            "n": 1,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 0.9,
+            "n": 5,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 16
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex04_virginitas": "ce-drop",
+            "hal_lex05_vidua": "ce-drop",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex07_epistula",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex02_vulgata",
+            "hal_lex05_vidua",
+            "hal_lex07_epistula",
+            "hal_lex04_virginitas",
+            "hal_lex13_praefatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex06_patrocinium": "ce-drop",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex02_vulgata",
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex02_vulgata",
+            "hal_lex12_grammaticus",
+            "hal_lex01_hebraica-veritas",
+            "hal_lex13_praefatio",
+            "hal_lex06_patrocinium",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "ce-drop",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex10_matrona": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex15_monachus": "guard-vote"
+          },
+          "id": "HAL-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex15_monachus",
+                "hal_lex07_epistula",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex15_monachus",
+            "hal_lex07_epistula",
+            "hal_lex06_patrocinium",
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex10_matrona": "guard-vote",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex06_patrocinium",
+                "hal_lex10_matrona",
+                "hal_lex07_epistula"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex06_patrocinium",
+            "hal_lex12_grammaticus",
+            "hal_lex07_epistula",
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex13_praefatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex08_origenism": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex02_vulgata",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex12_grammaticus",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex08_origenism",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex03_renuntiatio": "guard-vote",
+            "hal_lex04_virginitas": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex10_matrona": "guard-vote",
+            "hal_lex14_nosocomium": "ce-drop"
+          },
+          "id": "HAL-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex10_matrona",
+                "hal_lex03_renuntiatio",
+                "hal_lex06_patrocinium"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex06_patrocinium",
+            "hal_lex04_virginitas",
+            "hal_lex14_nosocomium",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex08_origenism": "ce-drop",
+            "hal_lex10_matrona": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex12_grammaticus": "guard-vote"
+          },
+          "id": "HAL-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.5,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex06_patrocinium",
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex06_patrocinium",
+            "hal_lex08_origenism",
+            "hal_lex12_grammaticus",
+            "hal_lex03_renuntiatio",
+            "hal_lex10_matrona"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "ce-drop",
+            "hal_story03_the-oea-incident": "ce-drop",
+            "hal_story08_the-ciceronian-dream": "guard-vote",
+            "hal_story09_the-desert-romances": "guard-vote"
+          },
+          "id": "HAL-TH-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story08_the-ciceronian-dream",
+                "hal_story09_the-desert-romances"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story08_the-ciceronian-dream",
+            "hal_story03_the-oea-incident",
+            "hal_story02_the-rome-crisis",
+            "hal_story09_the-desert-romances"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_story01_departure-from-rome": "ce-drop",
+            "hal_story06_paulas-epitaph": "guard-vote",
+            "hal_story07_the-widow-consulted": "guard-vote",
+            "hal_story10_a-day-at-the-monastery": "ce-drop"
+          },
+          "id": "HAL-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story06_paulas-epitaph",
+                "hal_story07_the-widow-consulted"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story06_paulas-epitaph",
+            "hal_story07_the-widow-consulted",
+            "hal_story01_departure-from-rome",
+            "hal_story10_a-day-at-the-monastery"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote",
+            "hal_lex14_nosocomium": "ce-drop"
+          },
+          "id": "HAL-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex02_vulgata",
+            "hal_lex01_hebraica-veritas",
+            "hal_lex12_grammaticus",
+            "hal_lex13_praefatio",
+            "hal_lex14_nosocomium",
+            "hal_lex03_renuntiatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "guard-vote",
+            "hal_story03_the-oea-incident": "guard-vote",
+            "hal_story03a_origenist-rupture": "ce-drop"
+          },
+          "id": "HAL-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story02_the-rome-crisis",
+                "hal_story03_the-oea-incident"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story08_the-ciceronian-dream",
+            "hal_story03_the-oea-incident",
+            "hal_story02_the-rome-crisis",
+            "hal_story03a_origenist-rupture"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "hal_lex01_hebraica-veritas"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex03_renuntiatio",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex07_epistula",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "ce-drop",
+            "hal_story05_marcella-death": "guard-vote",
+            "hal_story09_the-desert-romances": "guard-vote",
+            "hal_story10_a-day-at-the-monastery": "ce-drop"
+          },
+          "id": "HAL-NC-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story09_the-desert-romances",
+                "hal_story05_marcella-death"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "hal_story09_the-desert-romances"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story09_the-desert-romances",
+            "hal_story10_a-day-at-the-monastery",
+            "hal_story02_the-rome-crisis",
+            "hal_story05_marcella-death"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_story01_departure-from-rome": "guard-vote",
+            "hal_story02_the-rome-crisis": "guard-vote",
+            "hal_story06_paulas-epitaph": "ce-drop",
+            "hal_story11_translating-a-book": "ce-drop"
+          },
+          "id": "HAL-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story01_departure-from-rome",
+                "hal_story02_the-rome-crisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story01_departure-from-rome",
+            "hal_story02_the-rome-crisis",
+            "hal_story06_paulas-epitaph",
+            "hal_story11_translating-a-book"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex07_epistula",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "ce-drop",
+            "hal_lex08_origenism": "guard-vote",
+            "hal_lex09_pelagianism": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex15_monachus": "ce-drop"
+          },
+          "id": "HAL-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex01_hebraica-veritas",
+                "hal_lex08_origenism"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex02_vulgata",
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex15_monachus",
+            "hal_lex08_origenism",
+            "hal_lex09_pelagianism"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    }
+  }
+}

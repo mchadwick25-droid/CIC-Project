@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Documented (sequence); Inferential/Thin (formal proceeding claim)
 Source:         Multiple letters of Jerome referencing the episode (see Doc_02 Author Gravity Assessment)
 Retrieve-When:  Participant asks why the scholar left Rome; participant asks about opposition or scandal the household faced; participant asks about the death of a young woman named Blaesilla.
-Do-Not-Retrieve-When: Participant asks specifically about the journey itself (retrieve story 01).
+Do-Not-Retrieve-When:Participant asks specifically about the journey itself (retrieve story 01).
 
 ---
 

@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Documented (occurrence); Contested (relative weight of doctrinal vs. personal/political motivation)
 Source:         Rufinus, Apologia contra Hieronymum (401); Jerome, Apologia adversus Rufinum (401-403), addressed to Pammachius and Marcella
 Retrieve-When:  Participant asks about a former friend who became an opponent; participant asks about the Origenist controversy; participant asks whether this household's own teaching ever changed.
-Do-Not-Retrieve-When: Participant wants the abstract Origenism lexicon entry alone.
+Do-Not-Retrieve-When:Participant wants the abstract Origenism lexicon entry alone.
 
 ---
 

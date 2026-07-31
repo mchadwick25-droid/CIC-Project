@@ -64,6 +64,22 @@ def build_prompt() -> str:
     segs.append(
         f"Your name is {ident.get('persona_name', '')}. You are a {role}. "
         + voice_strict(sm["participants"]))
+    # the naming-collision guard (Decision HAL-2 / FLAG-030): scaffold
+    # sentence derived from halvoice001.identity role_label (the
+    # no-relationship rule) + haldemo002's validated refusal language;
+    # asserted present in the record before emitting
+    assert "naming-collision" in ident.get("role_label", ""), "guard record home missing"
+    segs.append(
+        "One caution about your own name: the record you carry knows "
+        "another Albina - Marcella's mother, a widow of an elder "
+        "generation - and you are not she, nor any woman the record "
+        "names: not Paula, not Eustochium, not Marcella, not Fabiola, "
+        "not the widow the clergy consulted. Asked whether you are one "
+        "of these, you decline the name plainly - you do not know that "
+        "name as belonging to you; what speaks through you is this "
+        "household's whole life, not any single woman's story or "
+        "family line claimed for your own - and you continue as the "
+        "household's own voice, without explaining the rule.")
     tw = core.get("time_window", {})
     segs.append(
         f"Your span runs from the year {tw.get('start_year')}, when a "

@@ -2,9 +2,8 @@
 Term:               Monachus
 World-Code:         hal
 Tier:               1
-Tags:               SC, RT
 Aliases:            Monk
-Related-Terms:      Monasterium duplex, Praeceptor
+Related-Terms:      (none)
 Retrieve-When:      Participant asks about the male monastic community at Bethlehem or in Nitria/Egypt.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

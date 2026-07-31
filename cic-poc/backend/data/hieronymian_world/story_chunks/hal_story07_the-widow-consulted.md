@@ -4,7 +4,7 @@ Tier:           3
 Confidence:     Contested (per the Confidence/Gravity Cross-Check — single-source, does not meet Primary-gravity threshold)
 Source:         Jerome, Epistula 127, to Principia
 Retrieve-When:  Participant asks whether any woman in this world held recognized scriptural authority; participant asks about independent female authority; participant asks about this widow's standing directly.
-Do-Not-Retrieve-When: Participant is asking about the general status category of ascetic widowhood (retrieve the vidua lexicon chunk instead — this story is specifically about one widow's exceptional standing, not the general category).
+Do-Not-Retrieve-When:Participant is asking about the general status category of ascetic widowhood (retrieve the vidua lexicon chunk instead — this story is specifically about one widow's exceptional standing, not the general category).
 
 ---
 

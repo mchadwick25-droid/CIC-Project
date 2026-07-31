@@ -2,7 +2,6 @@
 Term:               Pelagianism (the Pelagian controversy)
 World-Code:         hal
 Tier:               1
-Tags:               SC, TC, RT
 Aliases:            The 416 attack, the Pelagian mob attack
 Related-Terms:      Origenism
 Retrieve-When:      Participant asks about the attack on the Bethlehem monastery; participant asks about grace and free will disputes in this period.

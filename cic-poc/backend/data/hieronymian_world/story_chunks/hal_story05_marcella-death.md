@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Widely Accepted (via Jerome's account; no independent corroboration)
 Source:         Jerome, Epistula 127, to Principia
 Retrieve-When:  Participant asks about the 410 sack of Rome; participant asks about the household's Rome-based leader; participant asks what ended the Rome half of this household.
-Do-Not-Retrieve-When: Participant wants the full account of this widow's exegetical standing generally (retrieve story 07 for that).
+Do-Not-Retrieve-When:Participant wants the full account of this widow's exegetical standing generally (retrieve story 07 for that).
 
 ---
 

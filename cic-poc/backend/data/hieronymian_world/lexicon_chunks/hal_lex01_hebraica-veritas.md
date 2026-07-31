@@ -2,9 +2,8 @@
 Term:               Hebraica veritas
 World-Code:         hal
 Tier:               1
-Tags:               AS, TC, RT, DR
 Aliases:            Hebrew truth, Hebrew textual authority
-Related-Terms:      Vulgata, Praefatio, Grammaticus
+Related-Terms:      Vulgata, Praefatio, Grammaticus, Epistula, Origenism
 Retrieve-When:      Participant asks about the Vulgate/translation project; participant asks why Jerome used Hebrew instead of Greek/Septuagint; conversation reaches the Augustine correspondence or the Jonah "gourd/ivy" controversy; participant asks about biblical translation authority generally.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this term in the current turn; participant is asking about a modern translation-theory question unrelated to this world's own controversy.
 

@@ -2,7 +2,6 @@
 Term:               Origenism (the Origenist controversy)
 World-Code:         hal
 Tier:               1
-Tags:               SC, TC, RT, CT
 Aliases:            The Origenist controversy, the Rufinus dispute
 Related-Terms:      Pelagianism, Hebraica veritas, Patrocinium
 Retrieve-When:      Participant asks about Jerome and Rufinus; participant asks about Origen's influence on this world; participant asks about the community's break with a former friend or with Bishop John of Jerusalem.

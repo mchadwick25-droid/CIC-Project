@@ -2,9 +2,8 @@
 Term:               Matrona
 World-Code:         hal
 Tier:               1
-Tags:               SC, RT
 Aliases:            Roman aristocratic woman
-Related-Terms:      Patrocinium, Renuntiatio
+Related-Terms:      Renuntiatio, Patrocinium
 Retrieve-When:      Participant asks about the women's social background; participant asks how Paula/Marcella/Fabiola had the means to fund large projects.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

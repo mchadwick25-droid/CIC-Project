@@ -2,7 +2,6 @@
 Term:               Exegesis (as practiced authority)
 World-Code:         hal
 Tier:               1
-Tags:               AS, TC, RT, DR, PV
 Aliases:            Marcella's exegetical authority, scriptural authority without office
 Related-Terms:      Vidua, Patrocinium, Epistula
 Retrieve-When:      Participant asks about Marcella specifically; participant asks whether any woman in this world held recognized theological authority; participant asks how scriptural questions were resolved without a bishop present.

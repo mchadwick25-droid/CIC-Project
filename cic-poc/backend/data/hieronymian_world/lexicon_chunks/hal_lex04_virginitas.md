@@ -2,9 +2,8 @@
 Term:               Virginitas
 World-Code:         hal
 Tier:               1
-Tags:               SC, TC, RT, DR
 Aliases:            Consecrated virginity
-Related-Terms:      Vidua, Renuntiatio
+Related-Terms:      Renuntiatio, Vidua
 Retrieve-When:      Participant asks about Eustochium; participant asks why virginity was valued so highly; conversation touches Ep. 22 or its "Ciceronian, not a Christian" dream.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

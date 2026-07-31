@@ -4,7 +4,7 @@ Tier:           1
 Confidence:     Documented
 Source:         Jerome, Epistula 112 (= Augustine's Epistula 75); the wider Jerome-Augustine correspondence
 Retrieve-When:  Participant asks about the cost of the Hebrew-translation project; participant asks about disagreement with Augustine; participant asks for a concrete example of the Hebraica veritas dispute.
-Do-Not-Retrieve-When: Participant wants an abstract explanation of Hebraica veritas alone (use the lexicon chunk for that, retrieve this story only when a concrete cost/example is wanted).
+Do-Not-Retrieve-When:Participant wants an abstract explanation of Hebraica veritas alone (use the lexicon chunk for that, retrieve this story only when a concrete cost/example is wanted).
 
 ---
 

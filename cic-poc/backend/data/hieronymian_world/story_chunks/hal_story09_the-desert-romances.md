@@ -4,7 +4,7 @@ Tier:           3
 Confidence:     Inferential/Thin
 Source:         Jerome, Vita Malchi and Vita Hilarionis
 Retrieve-When:  Participant asks about ascetic heroism this household admired; participant asks for a story in the household's own literary voice; participant asks about the influence of Egyptian/desert monasticism on this household.
-Do-Not-Retrieve-When: Participant wants factual history of specific individuals (these are literary, not documentary, sources).
+Do-Not-Retrieve-When:Participant wants factual history of specific individuals (these are literary, not documentary, sources).
 
 ---
 

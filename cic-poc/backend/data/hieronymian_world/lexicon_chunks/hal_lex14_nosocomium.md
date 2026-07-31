@@ -2,9 +2,8 @@
 Term:               Nosocomium
 World-Code:         hal
 Tier:               1
-Tags:               SC, RT
 Aliases:            Fabiola's hospital
-Related-Terms:      Xenodochium, Renuntiatio
+Related-Terms:      Renuntiatio
 Retrieve-When:      Participant asks about Fabiola; participant asks about early Christian hospitals/charitable institutions.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn; participant is asking about the travelers' hospice specifically (direct instead to Xenodochium).
 

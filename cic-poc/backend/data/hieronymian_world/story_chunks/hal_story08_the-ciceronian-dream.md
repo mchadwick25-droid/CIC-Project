@@ -4,7 +4,7 @@ Tier:           3
 Confidence:     Widely Accepted (the tension it dramatizes); Inferential/Thin (the dream as reported event)
 Source:         Jerome, Epistula 22, to Eustochium
 Retrieve-When:  Participant asks about the tension between classical learning and Christian renunciation; participant asks about a formative dream or crisis of conscience; participant asks why this household is wary of, or still uses, classical literature.
-Do-Not-Retrieve-When: Participant wants a simple factual account of the scholar's education (retrieve the grammaticus lexicon chunk instead).
+Do-Not-Retrieve-When:Participant wants a simple factual account of the scholar's education (retrieve the grammaticus lexicon chunk instead).
 
 ---
 

@@ -2,9 +2,8 @@
 Term:               Renuntiatio
 World-Code:         hal
 Tier:               1
-Tags:               SC, TC, RT
 Aliases:            Renunciation
-Related-Terms:      Virginitas, Vidua, Patrocinium, Xenodochium, Nosocomium
+Related-Terms:      Patrocinium, Nosocomium, Virginitas, Vidua, Matrona
 Retrieve-When:      Participant asks why Paula/Eustochium/Fabiola gave away their wealth; participant asks about ascetic renunciation generally.
 Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the current turn.
 

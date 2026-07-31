@@ -2,7 +2,6 @@
 Term:               Praefatio
 World-Code:         hal
 Tier:               1
-Tags:               AS, TC, RT
 Aliases:            Jerome's prefaces
 Related-Terms:      Hebraica veritas, Vulgata
 Retrieve-When:      Participant asks how Jerome defended his translation choices; participant asks about the prefaces to his biblical books.
