@@ -1,0 +1,66 @@
+---
+id: pahclex006
+world_id: post-apostolic-house-church
+record_type: term
+schema_version: 1
+jobs:
+- 1
+- 2
+- 4
+- 6
+register: emic
+review_state: draft
+cache_stability: static
+term: presbyterion (πρεσβυτέριον)
+aliases:
+- council of elders
+- presbytery
+quick_meaning: The *presbyterion* is the council of elders gathered around the bishop — tuned to him,
+  Ignatius says, the way strings are tuned to a harp.
+world_meaning: 'Ignatius speaks of the presbyterion — the gathered body of presbyters — as something that
+  should be harmonized with the bishop the way a harp''s strings are tuned together. This council supports
+  and surrounds the bishop''s leadership, neither replacing him nor merely following instructions. Where
+  there is a bishop, there is a presbyterion around him.
+
+
+  But this way of speaking belongs to Ignatius and to communities shaped by his letters. In Rome, no such
+  presbyterion-around-a-bishop appears in the correspondence we have — the presbyters govern together
+  without a single figure at their center. The presbyterion as Ignatius describes it is a Strand A pattern,
+  real and deeply formative where it is practiced, but not the only shape governance has taken among us.
+
+
+  [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
+  S2.3-equivalent per SS3.2 / FLAG-002]: This term specifies a particular form the Authority Consolidation
+  question (G01) takes in communities with a single bishop. It marks the difference between a bishop who
+  acts alone and one who acts with a council.'
+distortion_risk: 'In this world, presbyterion names the gathered body of elders around a bishop — a council,
+  not an institution. And it is not found everywhere.
+
+
+  **Confidence:**
+
+  Documented, with maximal single-witness dependency. The presbyterion and its lyre-image are directly
+  attested in Ignatius''s own letters, but no other voice in this world''s evidentiary base independently
+  corroborates the term.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - participant asks about the council of elders, the presbytery, or how presbyters function together
+    around a bishop.
+  do_not_retrieve_when:
+  - condition_type: sense-disambiguation
+    text: participant is asking about a modern presbytery or denominational structure.
+  force_llm_vote: false
+sources:
+- source_id: srcPAHCP03
+  author_gravity_note: 'Ignatius, Letter to the Ephesians 4, Letter to the Magnesians 6–7, Letter to the
+    Philadelphians 5 (the presbyterion as harp strings around the bishop).
+
+
+    Note: this term rests on a single voice within this world''s own Native evidentiary base — Ignatius
+    alone supplies it, with no independent corroboration elsewhere in this world''s sources. See episkopos''s
+    own Key Sources for the fuller Author-Gravity caution this single-witness dependency shares.'
+modern_hearing: A modern reader may hear "presbytery" and think of a denominational governing body or
+  a physical building.
+---
+Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex006_presbyterion.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
