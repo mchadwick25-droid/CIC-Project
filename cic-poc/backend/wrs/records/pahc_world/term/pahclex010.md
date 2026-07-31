@@ -83,6 +83,42 @@ sources:
     has been corrected accordingly.'
 modern_hearing: A modern reader may assume either that agape and eucharist were always separate, or that
   they were always the same.
+period_sense: The meal that goes by love's own name - feeding stranger, widow, orphan alongside the household;
+  Ignatius names it under the bishop's oversight ('not permitted without the bishop to baptize or to hold
+  an agape'); whether his agape is the eucharistic meal or a separate table, and whether Pliny's 'ordinary
+  and harmless food' is the same practice, the evidence does not settle - both held without forcing an
+  answer (chunk Quick/World Meaning).
+prior_sense: Agape as the communities' own love-word (the LXX/NT inheritance) applied as a MEAL's label
+  - love made visible in shared bread; the label's application, not the word, is what this entry tracks
+  (chunk framing).
+modern_sense: Agape and eucharist assumed either always separate or always identical (chunk Modern Hearing).
+conceptual_distance_note: The relationship 'is still being worked out, varying from community to community'
+  (chunk World Hearing) - an unresolved-identity entry whose whole discipline is not forcing the identification;
+  the entry's own correction note (an earlier draft mis-stated the primary anchoring; fixed against Smyrnaeans
+  8's Greek) rides the chunk verbatim. Standard grounding.
+semantic_domain: love-feast-label
+grounding_criterion: standard
+voice_surface: We share a meal that carries love's own name. What we do there - the stranger fed beside
+  the household - is love made visible in bread and cup. Whether the agape Ignatius sets under the bishop
+  and the harmless meal Pliny's prisoners described are one table or two, we do not force our evidence
+  to say.
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: pahclex004
+  note: 'The chunk''s own EF bridge: agape <-> eucharistia within the worship cluster. Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): This term bridges the worship cluster and the outside-pressure
+    cluster: it names a practice central to community formation (agape ↔ eucharistia) while also touching
+    what outsiders observed (agape ↔ hetaeria).'
+- type: associated-with
+  target_id: pahclex012
+  note: 'The chunk''s own EF bridge: agape <-> hetaeria - what the communities called love, outsiders
+    assessed as association; symmetric mirror.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex010_agape-label.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

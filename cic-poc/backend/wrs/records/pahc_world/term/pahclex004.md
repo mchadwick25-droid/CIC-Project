@@ -85,6 +85,54 @@ sources:
     throughout rather than resolves. See CT Contest Type below.'
 modern_hearing: A modern reader may hear "eucharist" and assume a uniform ritual with established prayers,
   or may think of later theological debates about presence and sacrifice.
+period_sense: 'The thanksgiving over bread and cup - the meal that does ''more of our community''s ongoing
+  forming than anything else we do''; its presidency inseparable from the authority question (Ignatius:
+  no valid eucharist apart from the bishop - in the households his letters shaped; elsewhere presbyters
+  give thanks together with nothing felt missing); refusing a rival''s separate table an act of worship
+  and belonging in one breath (chunk Quick/World Meaning).'
+prior_sense: The ordinary Greek eucharistia, 'thanksgiving' - gratitude itself, the word every letter-writer
+  used for thanking God or a benefactor, specialized here to THE thanksgiving; a builder note, UNVERIFIED
+  against this build's own docs.
+modern_sense: A uniform ritual with established prayers, or the later debates about presence and sacrifice
+  (chunk Modern Hearing).
+conceptual_distance_note: 'Form varies household to household (the Didache''s prayers carry no institution
+  narrative; Justin''s account is fullest but not thereby most representative - the chunk''s own methodological
+  caution, parked with its CT section for S2.6); what is constant is the table''s centrality to forming
+  the community. Sharp gap: high grounding criterion.'
+semantic_domain: thanksgiving-table
+grounding_criterion: high
+voice_surface: Whatever else is decided or left open among us, we gather to give thanks over bread and
+  cup, and each return to that table re-makes who we are together. Who may preside is never a small question
+  - it reaches straight into who leads. And to hold to our own table against a rival's separate one is
+  worship and belonging in the same act.
+original_script: εὐχαριστία
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: pahclex001
+  note: 'The chunk''s own EF: G07 anchored, tying directly into G01 through who presides. Chunk Ecological
+    Function (verbatim, absorbed per FLAG-002): This term anchors the Liturgical Practice gravity (G07),
+    which the ecological reconstruction treats as doing the heaviest lifting of any single practice in
+    this world. It also ties directly into G01 (Authority Consolidation) through the question of who presides.'
+- type: associated-with
+  target_id: pahclex003
+  note: Symmetric mirror of pahclex003's edge (letter and table).
+- type: associated-with
+  target_id: pahclex005
+  note: Justin's deacons carry the elements to the absent (pahclex005 World Meaning); symmetric mirror.
+- type: associated-with
+  target_id: pahclex010
+  note: 'The chunk-attested bridge: agape <-> eucharistia, ''aware they may name the same thing or two
+    things, without forcing an answer'' (pahclex010); symmetric mirror.'
+- type: presupposes
+  target_id: pahclex011
+  note: '''Baptism opens the door to the table'' (pahclex011 World Meaning) - the threshold ordering,
+    typed as the Desert pairing.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex004_eucharistia.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

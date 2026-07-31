@@ -86,6 +86,43 @@ sources:
     apply equally here; see that entry for the fuller disclosure.'
 modern_hearing: A modern reader hears "presbyter" or "elder" and may assume either a purely advisory role
   subordinate to a bishop, or a Protestant lay-elder model.
+period_sense: The elders who carry the community's governance - sometimes as a council holding full authority
+  (Rome's letter to Corinth speaks of presbyters removed, never a bishop deposed), sometimes gathered
+  around a bishop (the Asia Minor pattern); Polycarp, addressed by Ignatius as bishop, still calls himself
+  'one of the presbyters' - the distinction not yet one he claims in writing (chunk Quick/World Meaning).
+prior_sense: The ordinary Greek presbyteros, 'elder' - seniority of age carrying communal respect, with
+  the Jewish synagogue's elder councils as the nearer institutional inheritance; a builder note, UNVERIFIED
+  against this build's own docs.
+modern_sense: Either a purely advisory role under a bishop, or a Protestant lay-elder model (chunk Modern
+  Hearing).
+conceptual_distance_note: 'The term''s meaning ''is still being shaped, not yet fixed'' - councils that
+  HOLD authority in one city, councils that SUPPORT a bishop in another (chunk World Hearing). Standard
+  grounding: a role-shape correction inside the same office vocabulary.'
+semantic_domain: elder-council
+grounding_criterion: standard
+voice_surface: We call them presbyteroi, and what they do depends on where we stand. In Rome the presbyters
+  together carry the whole weight of governance; in Antioch they are gathered around a bishop like strings
+  tuned to a harp. The same word, two shapes of trust - and our correspondence holds both without either
+  declaring the other wrong.
+original_script: πρεσβύτερος
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+field_relations:
+- type: associated-with
+  target_id: pahclex001
+  note: 'Symmetric mirror of pahclex001''s edge (the G01 pair). Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): This term works with episkopos to anchor the Authority Consolidation question (G01).
+    Where episkopos carries the fuller Strand A/B institutional argument, presbyteros reveals the counterweight:
+    the council model that existed before, alongside, and in some places instead of the single-bishop
+    pattern.'
+- type: associated-with
+  target_id: pahclex006
+  note: 'The same elders differently configured: the presbyterion is the Strand-A gathered form of this
+    office (pahclex006''s own scope note); symmetric mirror.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex002_presbyteros.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

@@ -61,5 +61,39 @@ sources:
     single-witness dependency, extracted moreover under torture, a method ancient jurists themselves distrusted.'
 modern_hearing: A modern reader may assume either that early Christianity was egalitarian in ways matching
   modern ideals, or that women had no leadership roles.
+period_sense: 'A word known from the OUTSIDE: Pliny''s own Latin for the two enslaved women he tortured
+  for information - servant-women whose service was important enough to interrogate. What the communities
+  knew from inside - whether ministrae translates their own diakonoi, whether the service was office,
+  whether it was everywhere the same - their own words do not say (chunk Quick/World Meaning).'
+prior_sense: 'Ordinary Latin ministrae - female servants, attendants - the governor''s own vocabulary
+  reaching for what he saw; the word is his, not the communities'' (the chunk''s own framing: ''the word
+  is his, not ours'').'
+modern_sense: Either an egalitarian early church matching modern ideals, or women with no leadership roles
+  at all (chunk Modern Hearing - the double distortion, both directions wrong).
+conceptual_distance_note: 'Women in recognized service, attested through an outsider''s report extracted
+  under torture - held honestly at exactly that evidentiary distance (''we hold the evidence honestly
+  rather than overclaiming'', chunk World Hearing). The chunk''s own confidence SPLITS Documented(report)/Inferential-Thin(role
+  content); the conservative side governs this record''s confidence, declared in the migrator. Sharp double-sided
+  gap: high grounding criterion.'
+semantic_domain: outsider-named-women-servants
+grounding_criterion: high
+voice_surface: 'This word is not ours - it is the governor''s, for two women of ours he tortured to learn
+  what we do. What he names is real: women hold recognized service among us. What their service was in
+  their own eyes, our record does not give us in their own words - and we will not put words in the mouths
+  of women who were made to speak under torture.'
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Inferential-Thin
+field_relations:
+- type: associated-with
+  target_id: pahclex005
+  note: 'The chunk''s own EF: connecting internal service structures to the external pressure of Pliny''s
+    letter, and marking the limit of what the communities'' own voices tell. Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): This term connects the community''s internal service structures
+    to the external pressure documented in Pliny''s letter. It reveals something about women''s roles
+    while also marking the limit of what our own voices tell us.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex009_ministrae.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

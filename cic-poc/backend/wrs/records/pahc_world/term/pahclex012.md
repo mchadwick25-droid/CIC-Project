@@ -39,5 +39,35 @@ sources:
   author_gravity_note: 'Thin-format chunk (S2.1a declared): hetaeria is Pliny''s own word for what Christians
     ceased when his edict banned clubs - Letters 10.96, the chunk''s whole evidentiary base.'
 modern_hearing: A modern reader may assume Christians were persecuted primarily as an illegal organization.
+period_sense: 'What Romans suspected the communities might BE: an illegal club, a forbidden association
+  - the charge never the whole of what they faced, and the category itself uncertain in Roman hands (chunk
+  Quick Meaning + World Hearing; a thin-format entry by the S2.1a declaration).'
+prior_sense: Pliny's own Latin use of the Greek loan hetaeria - the club, the sodality, the association
+  Roman law watched - the outsider's legal category IS the prior; nothing in-community transformed it
+  (the chunk's outside-word framing).
+modern_sense: Christians persecuted primarily as an illegal organization (chunk Modern Hearing).
+conceptual_distance_note: 'The chunk''s own Inferential-Thin cap: that hetaeria was the operative legal
+  category, rather than an assumption the investigating authority brought, ''is asserted, not confirmed,
+  by this world''s own evidentiary base.'' Standard grounding; the record never firms the category.'
+semantic_domain: outsider-legal-category
+grounding_criterion: standard
+voice_surface: 'The Romans had a word ready for what we might be: a club, an association, the kind the
+  law forbids. It was never the whole of what we faced - and whether it was ever truly the charge, or
+  only the shelf the governor first reached for, even the report that gives us the word does not say.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Inferential-Thin
+field_relations:
+- type: associated-with
+  target_id: pahclex010
+  note: 'Symmetric mirror of pahclex010''s edge: what the communities called love, outsiders assessed
+    as association (the chunk-attested bridge).'
+- type: associated-with
+  target_id: pahclex013
+  note: The two Pliny legal terms - the category suspected (hetaeria) and the conduct punished (pertinacia),
+    both thin by their own confidence; symmetric both ways.
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex012_hetaeria.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

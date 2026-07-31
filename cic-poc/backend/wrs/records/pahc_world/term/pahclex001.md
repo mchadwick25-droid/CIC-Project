@@ -91,6 +91,59 @@ sources:
     yet won?) is itself the term''s own live contest. See CT Contest Type below.'
 modern_hearing: A modern reader hears "bishop" and assumes an already-secured office with defined powers,
   territorial jurisdiction, and a place in a hierarchical structure.
+period_sense: 'The one who oversees the community''s table and guards its unity - held in this world as
+  a LIVE QUESTION, not an office: in some households (Antioch, the Asia Minor cities - Strand A) one episkopos
+  stands at the center and obedience to him is felt as the very shape of unity; in others (Rome, Corinth
+  - Strand B) a council of presbyters governs with nothing felt missing; and the outside pressure of accusation
+  gives BOTH arguments real weight without settling either (chunk Quick/World Meaning).'
+prior_sense: The ordinary Greek episkopos - an overseer, inspector, supervisor of civic or financial matters
+  - a secular function-word the communities applied to their own oversight before it hardened into a title;
+  a builder note, UNVERIFIED against this build's own docs.
+modern_sense: '''Bishop'' as an already-secured office with defined powers, territorial jurisdiction,
+  and a hierarchy (chunk Modern Hearing).'
+conceptual_distance_note: 'Reading back a later hierarchy ''flattens a live argument into an accomplished
+  fact'' (chunk World Hearing) - the term''s own contest (secured reality vs argued-for aspiration; network
+  norm vs regional pattern) is the chunk''s CT section, parked for S2.6. Sharp gap: high grounding criterion.'
+semantic_domain: oversight-office
+grounding_criterion: high
+voice_surface: Among us the word names the one who oversees the table and speaks for the household - where
+  there is such a one. Some of our households are tuned to a single episkopos the way strings are tuned
+  to a harp; others are governed by their elders together and feel no lack. We hold both in our letters,
+  and neither side has declared the other wrong.
+original_script: ἐπίσκοπος
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+field_relations:
+- type: associated-with
+  target_id: pahclex002
+  note: 'The G01 pair by the chunks'' own division of labor: episkopos carries the fuller Strand A/B institutional
+    argument, presbyteros the counterweight council model. Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): This term anchors the Authority Consolidation question (G01) — the question of who
+    leads and how leadership is secured now that those who walked with the Lord are gone from among us.
+    A participant who understands episkopos also understands why this world''s communities look different
+    from one another on this very point, and why that difference has not broken communion between them.'
+- type: associated-with
+  target_id: pahclex004
+  note: Who presides at the thanksgiving 'reaches straight into the argument about who leads' (pahclex004
+    World Meaning); symmetric mirror on pahclex004.
+- type: associated-with
+  target_id: pahclex011
+  note: Strand-A oversight of the water ('no one should baptize without the bishop' - pahclex011 World
+    Meaning); symmetric mirror.
+- type: tension-with
+  target_id: pahclex008
+  note: 'The chunks'' own shift: the prophet''s charismatic, itinerant authority ''being joined - and
+    in some places replaced - by the more settled offices''; ''where a bishop now presides, the prophet''s
+    place at the table is less certain'' (pahclex008) - a lived tension, not a settled succession; symmetric
+    both ways.'
+- type: presupposed-by
+  target_id: pahclex006
+  note: 'Mirror of pahclex006''s presupposes edge: the council-around-a-bishop exists only where the bishop
+    does.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex001_episkopos.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

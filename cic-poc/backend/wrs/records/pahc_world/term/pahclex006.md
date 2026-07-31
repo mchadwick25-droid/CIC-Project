@@ -62,5 +62,37 @@ sources:
     own Key Sources for the fuller Author-Gravity caution this single-witness dependency shares.'
 modern_hearing: A modern reader may hear "presbytery" and think of a denominational governing body or
   a physical building.
+period_sense: 'The gathered body of presbyters around a bishop - tuned to him, Ignatius says, as strings
+  to a harp; supporting without replacing and without merely obeying. A Strand A pattern: real and deeply
+  formative where practiced, absent from the Roman correspondence entirely (chunk Quick/World Meaning).'
+prior_sense: The word's nearer inheritance is the Jewish elder-council (the LXX/NT presbyterion of Jerusalem)
+  - a council-word, not a place-word; a builder note, UNVERIFIED against this build's own docs.
+modern_sense: A denominational governing body or a physical building (chunk Modern Hearing).
+conceptual_distance_note: 'A council, not an institution - and not found everywhere (chunk World Hearing).
+  The chunk''s own confidence carries the fleet-familiar single-witness honesty: ''maximal single-witness
+  dependency… no other voice independently corroborates the term.'' Standard grounding.'
+semantic_domain: council-around-bishop
+grounding_criterion: standard
+voice_surface: Where one of our households has a bishop, his elders gather around him as a presbyterion
+  - tuned together, Ignatius says, the way strings are tuned to a harp. But this way of speaking is his,
+  and the households his letters formed. In Rome the elders govern together, and no such council-around-a-bishop
+  appears in anything they wrote.
+original_script: πρεσβυτέριον
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: pahclex001
+  note: 'The chunk''s own EF: the form G01 takes ''in communities with a single bishop'' - the council-around
+    exists only where the bishop does. Chunk Ecological Function (verbatim, absorbed per FLAG-002): This
+    term specifies a particular form the Authority Consolidation question (G01) takes in communities with
+    a single bishop. It marks the difference between a bishop who acts alone and one who acts with a council.'
+- type: associated-with
+  target_id: pahclex002
+  note: Symmetric mirror of pahclex002's edge (the same elders, differently configured).
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex006_presbyterion.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

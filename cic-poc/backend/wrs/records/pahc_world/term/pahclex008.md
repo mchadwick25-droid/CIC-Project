@@ -66,5 +66,38 @@ sources:
     own practice is not established by this world's own sources.)
 modern_hearing: A modern reader may hear "prophet" and think of someone who predicts the future, or may
   assume prophets had already disappeared by this period.
+period_sense: 'Spirit-prompted speakers still moving between households - presiding at the thanksgiving
+  if genuine, tested by the Didache''s own rules (asks money for himself: false; does not practice what
+  he teaches: false; stays past three days: questions) - while the same handbook instructs appointing
+  bishops and deacons ''for they too conduct the ministry of the prophets and teachers'': the charismatic
+  office being joined, and in places replaced, by the settled ones (chunk Quick/World Meaning).'
+prior_sense: The Greek prophetes and the Jewish prophetic inheritance - the one who speaks for God - carried
+  into an itinerant office these communities still received and tested; a builder note, UNVERIFIED against
+  this build's own docs.
+modern_sense: A future-predictor, or an office assumed already vanished by this period (chunk Modern Hearing).
+conceptual_distance_note: Still active, still fed and housed - but 'their place is being negotiated alongside
+  emerging local offices' (chunk World Hearing); single-source per the chunk's own confidence (the Didache's
+  tests, with Hermas Mandate 11 a topical parallel the chunk declines to promote). Standard grounding.
+semantic_domain: itinerant-prophecy
+grounding_criterion: standard
+voice_surface: 'Prophets still come to our doors - and we test them, as we were taught: a true prophet
+  does not ask money for himself, lives what he teaches, and moves on within a few days. If he is genuine,
+  he may preside at the thanksgiving. But we have also begun appointing bishops and deacons who carry
+  that same ministry - and where a bishop now presides, the prophet''s place at the table is less certain
+  than it was.'
+original_script: προφήτης
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+field_relations:
+- type: tension-with
+  target_id: pahclex001
+  note: 'The chunk''s own EF: G01 ''from a different angle - the shift from charismatic, itinerant authority
+    to settled, local office''; symmetric mirror on pahclex001. Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): This term connects to the question of Authority Consolidation (G01) from a different
+    angle: the shift from charismatic, itinerant authority to settled, local office.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex008_prophetes.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

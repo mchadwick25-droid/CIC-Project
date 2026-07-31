@@ -79,5 +79,41 @@ sources:
     entry for the fuller discussion).
 modern_hearing: A modern reader may hear "deacon" and assume a transitional or assistant role subordinate
   to priests and bishops.
+period_sense: Those set apart to serve - help carried to widow, orphan, prisoner, stranger; a calling
+  of its own, not a rung on a ladder; named as part of Ignatius's three-part unit in Asia Minor, serving
+  without any such tier-claim in Justin's Rome; in some communities held by women alongside men (chunk
+  Quick/World Meaning).
+prior_sense: 'The ordinary Greek diakonos - the table-servant, the one who waits and carries - a low ordinary
+  work-word the communities kept low on purpose: the service IS the office; a builder note, UNVERIFIED
+  against this build''s own docs.'
+modern_sense: A transitional or assistant role subordinate to priests and bishops (chunk Modern Hearing).
+conceptual_distance_note: Service as its own thing, not a stepping-stone (chunk World Hearing); the three-tier
+  framing is regional (Ignatius), the service itself is not. Standard grounding.
+semantic_domain: service-office
+grounding_criterion: standard
+voice_surface: 'The diakonoi among us do work that sits closer to the household''s open door than to the
+  letter-writers'' hard arguments: bread to the widow, help to the prisoner, the cup carried to whoever
+  could not come. It is not a lower rank on the way to a higher one. It is its own calling, and in some
+  of our households women hold it beside men.'
+original_script: διάκονος
+confidence:
+  citation_specificity: A
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: corroborating
+  formation_confidence: Widely Accepted
+field_relations:
+- type: associated-with
+  target_id: pahclex004
+  note: 'The chunk''s own EF: service connected to the community''s self-understanding as carers for the
+    vulnerable - enacted at and from the table. Chunk Ecological Function (verbatim, absorbed per FLAG-002):
+    This term connects to the broader question of ministry and service within this world''s community
+    life. The diakonoi''s work reflects the community''s self-understanding as a people who care for the
+    vulnerable.'
+- type: associated-with
+  target_id: pahclex009
+  note: 'The honest unknown held as the chunks hold it: whether Pliny''s ministrae translate the communities''
+    own diakonoi ''none of this Pliny tells us, and none of it do we know from our own words''; symmetric
+    both ways.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex005_diakonos.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

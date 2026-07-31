@@ -77,5 +77,39 @@ sources:
     a topical parallel; not part of this term's original evidentiary citation set).
 modern_hearing: A modern reader hears "church" and may picture a building, a denomination, or an institution
   with established structures.
+period_sense: 'The community''s one self-name: the assembly, the church of God sojourning in whatever
+  city its members live - no building, no property, a household door opening on the first day of the week;
+  the ekklesia in Antioch and Rome and Corinth one ekklesia not by shared structure but by the letters
+  traveling between them (chunk Quick/World Meaning).'
+prior_sense: 'The Greek polis''s own ekklesia - the summoned assembly of citizens - and the LXX''s use
+  for Israel gathered before God: a civic word already carrying ''called out and gathered'' before these
+  communities took it as their name; a builder note, UNVERIFIED against this build''s own docs.'
+modern_sense: '''Church'' as a building, a denomination, or an institution with established structures
+  (chunk Modern Hearing).'
+conceptual_distance_note: 'The gathered people themselves - portable, propertyless, identified by meal
+  and letters rather than location or legal standing (chunk World Hearing). Sharp gap: high grounding
+  criterion - the building/institution reading erases exactly the household-and-letter fabric this world
+  is.'
+semantic_domain: gathered-assembly
+grounding_criterion: high
+voice_surface: 'When someone asks who we are, we have one name: the ekklesia - the assembly, called out
+  and gathered. The city can point to no building of ours. What we have is a door that opens on the first
+  day of the week, and letters that carry our name between cities faster than any of us could walk it.'
+original_script: ἐκκλησία
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: associated-with
+  target_id: pahclex004
+  note: 'The chunk''s own EF: ''the letter and the table do the heavy lifting of unity, not a hierarchy''
+    - the table half is eucharistia; symmetric both ways. Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): This term names what this world''s participants call themselves — and more, it names
+    the translocal network (G02) that holds them together without a central structure. A participant who
+    understands ekklesia understands why the letter and the table do the heavy lifting of unity, not a
+    hierarchy.'
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex003_ekklesia.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
