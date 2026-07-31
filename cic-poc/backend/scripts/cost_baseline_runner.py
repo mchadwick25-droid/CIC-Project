@@ -278,7 +278,18 @@ def billed(rec):
 # gates/S6.2_length_ceiling_observability_gate.py, which fails if it drifts.
 CEILING_WORLDS = {
     "desert-monasticism": (60, 1.5),
-    "hieronymian-ascetic-literary": (180, 1.2),
+    # Updated 180 -> 160 (S6.2/HAL freeze, 2026-07-31, Decision HAL-4): the
+    # committed 2026-07 baseline log predates this change and was measured
+    # against the old 180 ceiling - the values here are always nodes.py's
+    # CURRENT state per this constant's own docstring above, not a
+    # historical record of what was in force when any given raw log was
+    # collected. A report run against the 2026-07 log will therefore
+    # describe Hieronymian's ceiling as 160 even though it was 180 at
+    # collection time - Hieronymian never seated in that fixed
+    # conversation set anyway (see the retry-cost investigation memo), so
+    # no committed report figure actually depends on this value being
+    # historically accurate.
+    "hieronymian-ascetic-literary": (160, 1.2),
     "alexandria-catechetical": (160, 1.2),
     "syriac-edessa-nisibis": (165, 1.2),
 }
