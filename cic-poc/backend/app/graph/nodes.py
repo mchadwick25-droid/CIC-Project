@@ -2000,14 +2000,28 @@ def _over_settling_signal(
     if not world_id:
         return None
 
+    from app.over_settling_logging import log_over_settling_decision
+
     screened = _screen_over_settling(response_text)
     if screened is None:
+        log_over_settling_decision(world_id, screened=False, confirmed=None)
         return None
 
     missing_limit = _adjudicate_over_settling(response_text, world_id, screened)
     if missing_limit is False or missing_limit is None:
+        # False = the adjudicator actively cleared the screen's flag (a real
+        # verdict). None = the adjudicator couldn't be reached/judge at all
+        # (infra error) - both currently fall through to the same "no
+        # signal" behavior here, but they're logged distinctly (confirmed=
+        # False vs confirmed=None) so an inconclusive rate can never be
+        # mistaken for a measured clear rate.
+        log_over_settling_decision(
+            world_id, screened=True,
+            confirmed=(False if missing_limit is False else None),
+        )
         return None
 
+    log_over_settling_decision(world_id, screened=True, confirmed=True)
     return DriftSignal(
         signal_type="over_settling",
         # The named limit is the whole payload: the correction is only
