@@ -81,17 +81,36 @@ check of the real Living Table build in a running conversation — see LT-1.
         (against tonight's cost-investigation baselines, `Ministry/Technology/Pass2/`,
         `Pass3/`) and quality. Blocked on the live/pre-launch status question already open
         with Mark (see auth-fix thread, System Hub Decision Log).
+      - **CORRECTED 2026-07-30 (later):** SH-4/SH-5/SH-6 below were first logged as if new
+        — they're not. All three continue the existing **World Orientation & Selection
+        Map thread** (`Ministry/Features/Atlas-World-Map/`), which already has a full
+        V0.1 spec, a 178-entry census, three built redesign prototypes (A/B/C), a
+        Usability Redesign Study, and its own `CiC_World_Atlas_PreStep0_Survey_V0_1.md`
+        — near enough to SH-5's ask that it's very likely the same document, not a new
+        one to write. That thread's own Decision Log ends on **five open questions
+        blocking V0.2**, explicitly gated ("No construction, no code, no census expansion
+        until the open questions above are answered"): the census review (what's
+        missing), Lane 4's grouping/label, whether floor-excluded movements show
+        dimmed-with-copy at V1 or wait, whether "Notify me when this changes" is real or
+        an over-promise, and whether the map ships standalone before front-end
+        integration. **SH-4/5/6 aren't build tasks yet — they're blocked on Mark
+        answering those five, same as the thread already said.** Corrects the two
+        entries below rather than replacing them, so the original log stays visible.
       - **SH-4/SH-6 — Rebuild the vertically-scrolling map to v3 spec.** Mark named this
         twice in the same list (items 4 and 6) — flagged, not silently merged: item 4 says
         "fully rebuild... may have more design work to complete v3," item 6 says "rebuild...
         to the v3 specifications with further input... last two versions were still messy."
         Read as one task with two notes attached (more design work may be needed; the core
         complaint is visual clarity/engagement, not features) unless Mark says otherwise.
+        **Superseded by the correction above** — this is the World-Map thread's own V0.2,
+        not a fresh build.
       - **SH-5 — Pre-Step-0 update: full Christian Movement analysis, 10-era Atlas.**
         Recognizes the worlds already built, free to go deeper on the rest; per-era small
         box (title + dates), hover for short description, click for full description +
         key influencers + sources + cross-tradition connections. Real scope — likely its
-        own design pass before build.
+        own design pass before build. **Superseded by the correction above** — check
+        `CiC_World_Atlas_PreStep0_Survey_V0_1.md` against this ask before writing anything
+        new; it may already exist.
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
