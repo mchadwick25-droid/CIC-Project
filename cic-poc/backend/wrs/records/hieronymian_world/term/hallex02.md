@@ -12,7 +12,8 @@ register: emic
 review_state: draft
 cache_stability: static
 term: Vulgata (translation project)
-aliases: []
+aliases:
+- The Vulgate
 quick_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible, later — long
   after this world's own span — known as "the Vulgate."
 world_meaning: 'This is not one act but a project stretched across a working life: the Gospels revised
@@ -97,3 +98,5 @@ contested_claim_ids:
 - halclaim001
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex02_vulgata.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
+
+[FLAG-028 correction applied at the S2.8-equivalent (2026-07-31): alias re-authored as the unqualified 'The Vulgate' after retrieval parity MEASURED the reachability regression the flag predicted (HAL-RT-01 recall 1.0 -> 0.5 staged vs deployed - the qualified alias line's English surface was doing live cross-encoder work). The S2.2 empty-set reading held that the author's parenthetical was an anachronism flag; the flag's guard survives in full in this record's own prose (quick_meaning / world_meaning / distortion_risk) - the alias map is retrieval reachability, not voice usage. Gate-safe: no blocklist hit, no Rule-B collision; alias_safety re-run 0.]
