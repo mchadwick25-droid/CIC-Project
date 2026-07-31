@@ -93,5 +93,7 @@ field_relations:
   target_id: hallex07
   note: The project was 'dedicated, book by book, to the women who requested and funded it' (this chunk's
     EF) - the dedications and covering letters are epistulae; symmetric mirror on hallex07.
+contested_claim_ids:
+- halclaim001
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex02_vulgata.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

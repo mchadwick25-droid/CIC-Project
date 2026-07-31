@@ -106,5 +106,7 @@ field_relations:
   note: 'Symmetric mirror of hallex11''s edge: the one Tensional gravity''s counter-current - authority
     held through demonstrated learning apart from both office AND wealth, ''a difference in position''
     within the ecology this term organizes (hal_lex11 EF).'
+contested_claim_ids:
+- halclaim003
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex06_patrocinium.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

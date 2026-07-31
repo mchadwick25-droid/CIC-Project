@@ -82,5 +82,7 @@ field_relations:
     Ecological Function (verbatim, absorbed per FLAG-002): The documented, non-Contested foundation underneath
     the Contested claims about Hebrew fluency; distinguishes the well-attested early education from the
     more contested later self-presentation.'
+contested_claim_ids:
+- halclaim001
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex12_grammaticus.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

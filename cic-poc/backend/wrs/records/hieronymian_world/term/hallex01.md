@@ -124,5 +124,7 @@ field_relations:
   target_id: hallex08
   note: 'Symmetric mirror of hallex08''s edge: the Origenist rupture ''reshapes the Hebraica veritas project''
     (hal_lex08 EF) - the Augustine dispute is its downstream test.'
+contested_claim_ids:
+- halclaim001
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex01_hebraica-veritas.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.

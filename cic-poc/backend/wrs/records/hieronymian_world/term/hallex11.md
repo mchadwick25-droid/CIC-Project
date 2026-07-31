@@ -109,6 +109,8 @@ field_relations:
   target_id: hallex07
   note: The standing's exercise at distance rode the letter (hal_lex07's medium) - association, no hierarchy;
     symmetric mirror on hallex07.
+contested_claim_ids:
+- halclaim005
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex11_exegesis-practiced-authority.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
 

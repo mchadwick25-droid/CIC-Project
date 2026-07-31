@@ -105,5 +105,7 @@ field_relations:
   target_id: hallex10
   note: Matrona standing 'is precisely what made large-scale renunciation possible at all' (hal_lex10
     World Meaning) - the social-historical precondition.
+contested_claim_ids:
+- halclaim002
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex03_renuntiatio.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
