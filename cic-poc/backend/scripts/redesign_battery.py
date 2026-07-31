@@ -453,16 +453,60 @@ except Exception:
 check("a tokened session rejects a missing token", ok)
 
 # ---------------------------------------------------------------------------
+section("F2. /audit - unconfigured falls back to possession, configured does not")
+# ---------------------------------------------------------------------------
+# settings.supabase_url/supabase_service_key are empty by default (see
+# app/config.py), so supabase_configured() is already False in this test
+# environment - no monkeypatching needed to exercise the actual gap this
+# closes: a session_id alone used to be enough to read any session's full
+# transcript once Supabase wasn't configured.
+check("GET /audit without a token, Supabase unconfigured -> 403",
+      client.get(f"/api/session/{sid}/audit").status_code == 403)
+check("GET /audit with the WRONG token, Supabase unconfigured -> 403",
+      client.get(f"/api/session/{sid}/audit",
+                 headers={"X-Session-Token": "wrong-" + "x" * 40}).status_code == 403)
+check("GET /audit with the CORRECT token, Supabase unconfigured -> 200",
+      client.get(f"/api/session/{sid}/audit",
+                 headers={"X-Session-Token": token}).status_code == 200)
+check("GET /audit on an unknown session still 404s, not 403",
+      client.get("/api/session/does-not-exist/audit").status_code == 404)
+
+# Simulate a configured-and-signed-in deployment: stand in for a real
+# Supabase-verified reviewer via FastAPI's dependency override (the only way
+# to exercise that path without a live Supabase project), and force
+# supabase_configured() True in main.py's own namespace - the exact switch
+# get_session_audit reads. A reviewer here did not start this session and
+# must succeed with NO token at all; requiring one would lock every reviewer
+# out of every session but their own.
+main_mod.app.dependency_overrides[main_mod.get_audit_user] = (
+    lambda: main_mod.AuthedUser(user_id="reviewer-1", pilot_cohort=None, max_sessions=5))
+_real_supabase_configured = main_mod.supabase_configured
+main_mod.supabase_configured = lambda: True
+try:
+    r_configured = client.get(f"/api/session/{sid}/audit")
+    check("GET /audit, Supabase configured + signed-in reviewer, NO token -> 200",
+          r_configured.status_code == 200, f"HTTP {r_configured.status_code}")
+finally:
+    main_mod.supabase_configured = _real_supabase_configured
+    del main_mod.app.dependency_overrides[main_mod.get_audit_user]
+
+check("the fallback is conditional, not unconditional, in the route's own source",
+      "if not supabase_configured():" in inspect.getsource(main_mod.get_session_audit))
+
+# ---------------------------------------------------------------------------
 section("G. route coverage - the check cannot be forgotten on a new endpoint")
 # ---------------------------------------------------------------------------
 main_src = Path("app/main.py").read_text()
 
 SESSION_SCOPED_EXEMPT = {
-    # /audit is deliberately exempt: it exists for a signed-in reviewer
-    # reading a session they did not start. get_audit_user gates it once
-    # Supabase is configured. A possession check would lock reviewers out of
-    # every session but their own - that is not hardening, it is breaking the
-    # endpoint's purpose. Its unconfigured-Supabase gap is real and separate.
+    # /audit is exempt from the BLANKET rule below, not from ownership
+    # enforcement entirely: it now calls require_session_access too, but only
+    # inside an `if not supabase_configured():` branch (see main.py), since
+    # an unconditional call would lock every signed-in reviewer out of every
+    # session but their own - breaking the endpoint's purpose. The blanket
+    # source-string check below can't see that the call is conditional, so
+    # it's verified separately in section F2 instead of trusted to this
+    # check; kept in this exempt set so a false "not enforced" never fires.
     "get_session_audit",
 }
 

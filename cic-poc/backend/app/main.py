@@ -16,7 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from pydantic import BaseModel
 
-from app.auth import AuthedUser, get_audit_user, get_current_user
+from app.auth import AuthedUser, get_audit_user, get_current_user, supabase_configured
 from app.config import settings
 from app.session_auth import mint_session_token, require_session_access
 from app.graph.builder import get_compiled_graph
@@ -1504,6 +1504,7 @@ async def get_session(session_id: str,
 
 @app.get("/api/session/{session_id}/audit")
 async def get_session_audit(session_id: str, since_seq: int = 0,
+                            x_session_token: str | None = Header(default=None),
                             user: AuthedUser = Depends(get_audit_user)):
     """
     Get the full retrieval audit trail for a session, for review purposes.
@@ -1518,18 +1519,29 @@ async def get_session_audit(session_id: str, since_seq: int = 0,
     from the append-only event log, which persists to disk (and Supabase
     when configured), so this endpoint survives a process restart instead
     of dying with the in-memory dict. Authenticated: requires a signed-in
-    account once Supabase is configured (see auth.get_audit_user; dev/
-    unconfigured deployments stay open, matching the project-wide "off
-    until configured" discipline). Temporal query: the response now also
-    carries the raw event log (`events`), and `?since_seq=N` returns only
-    events after sequence N - all existing response fields are unchanged
-    (compatibility rule: participant-facing shapes only gain fields, never
-    change them).
+    account once Supabase is configured (see auth.get_audit_user).
+
+    Unconfigured deployments (no Supabase project yet) fall back to the same
+    possession check every other session-scoped endpoint requires
+    (app/session_auth.py) instead of staying open to anyone holding a
+    session_id - see the supabase_configured() branch below. This only
+    applies while unconfigured: once a real project exists, get_audit_user's
+    signed-in check is the real gate, and a reviewer reading a session they
+    did not start must NOT be made to hold that session's token too - that
+    would lock out every reviewer but the participant themselves, breaking
+    the endpoint's whole purpose.
+
+    Temporal query: the response now also carries the raw event log
+    (`events`), and `?since_seq=N` returns only events after sequence N -
+    all existing response fields are unchanged (compatibility rule:
+    participant-facing shapes only gain fields, never change them).
     """
     if not EVENT_STORE.has(session_id):
         raise HTTPException(status_code=404, detail="Session not found")
 
     state = EVENT_STORE.get_state(session_id)
+    if not supabase_configured():
+        require_session_access(state, x_session_token)
 
     turns = []
     for msg in state.messages:

@@ -26,15 +26,23 @@ at session start, returned to whoever started the session, and required on
 every later request against it. It works whether or not the participant ever
 signs in, which is exactly the property the optional-sign-in design needs.
 
-Two deliberate non-applications
--------------------------------
-/audit is NOT covered. That endpoint exists for a signed-in reviewer reading a
-session they did not start; get_audit_user already gates it once Supabase is
-configured. Applying a possession check there would lock every reviewer out of
-every session but their own - it would not harden the endpoint, it would break
-its purpose. /audit's real gap (no restriction at all when Supabase is
-unconfigured) is a separate problem that needs its own answer, and pretending
-this fix addresses it would be worse than leaving it visibly open.
+One deliberate non-application
+------------------------------
+/audit is not covered UNCONDITIONALLY. That endpoint exists for a signed-in
+reviewer reading a session they did not start; get_audit_user already gates
+it once Supabase is configured, and this module's check is never applied on
+top of that - doing so would lock every reviewer out of every session but
+their own, which would not harden the endpoint, it would break its purpose.
+
+/audit's real gap was different: no restriction at all when Supabase is
+unconfigured, since get_audit_user has no identity to check against and
+admits everyone. That gap now has its own answer (see get_session_audit in
+main.py): when supabase_configured() is False, it calls
+require_session_access same as every other session-scoped route - the
+participant who started the session can still read their own audit trail,
+but a session_id alone no longer opens every session's transcript to anyone
+holding one. That branch never runs once Supabase is configured; the
+signed-in check takes back over as the only gate, exactly as before.
 
 Sessions predating this field are never enforced against (session_token is
 None). That is a deliberate, bounded fail-open so a conversation already in
