@@ -150,7 +150,10 @@ check of the real Living Table build in a running conversation — see LT-1.
         the same subscription-status infrastructure SH-12 already requires (Stripe
         subscription state reaching a real check at session-start), so it belongs in
         this build, not a separate ad-hoc gate. Not yet built — SH-12 itself hasn't
-        started.
+        started. **DEFERRED, Mark's decision 2026-07-31:** wait until piloting is far
+        enough along to know real costs from real traffic and to keep the pilot
+        experience simple — don't build the paywall before there's a real number to
+        build it around. Revisit once real B-COST/pilot data exists.
 
 
 - [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic
