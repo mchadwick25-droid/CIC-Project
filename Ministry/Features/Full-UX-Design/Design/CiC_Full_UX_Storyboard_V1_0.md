@@ -37,8 +37,8 @@ Pastor or teacher · Academic or scholar · Reevaluation** (code identifier is n
 commit `9774447`, corrected here 2026-07-19; this document originally described it as
 still open, which was stale within a day).
 Seating is **emergent**: worlds are added one at a time to a tray; the framing text and the
-rendered 1/2/3-seat table template update silently. Hard ceiling: **3 Representatives**;
-4th/5th-seat templates deferred.
+rendered 1/2/3-seat table template update silently. Hard ceiling: **3 Representatives**,
+permanent (Mark's 2026-08-01 decision); no 4th/5th-seat template is planned.
 
 **Governing documents:** `CiC_Full_UX_Design_V1_0.md` (the backbone) ·
 `Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md` (Living Table truth) ·

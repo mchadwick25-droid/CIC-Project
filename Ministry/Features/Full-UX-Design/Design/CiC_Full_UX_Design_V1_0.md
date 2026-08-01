@@ -230,8 +230,9 @@ the Living-Table states (4.0a–4.0c).
 
 Alpha/Phase note: the running app is Bypass-shaped (onboarding → picker → Table). This is
 the Phase 1 target the screen set grows into; the Living-Table scene (4.0a–c) is its own
-build increment (§11), and the 4/5-world templates wait for Phase 1 (the Table maxes at
-three Representatives now).
+build increment (§11). The Table maxes at three Representatives, permanently (Mark's
+2026-08-01 decision retired the old 5-world design ceiling) — no 4/5-world template is
+on the roadmap.
 
 ---
 
@@ -636,7 +637,8 @@ off the pilot branch; run Mark's smoke test before invitations.
 - **Increment 4:** map link + Tier A handoff; era-accordion when the map thread makes it
   first-class; the map adopts the era-ground palette.
 - **Later, own gates:** question-first door + proposal card; tour wiring; S0 three-door
-  threshold (Phase 1); 4/5-world table templates (Phase 1).
+  threshold (Phase 1). (No 4/5-world table template — the Table's permanent ceiling is
+  three, per Mark's 2026-08-01 decision.)
 
 ---
 
