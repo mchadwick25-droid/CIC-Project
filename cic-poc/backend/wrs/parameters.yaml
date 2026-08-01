@@ -15,8 +15,8 @@ file_status: canonical-from-S1.4; consumers wired later (F9)
 
 parameters:
   table_size_ceiling:
-    design_value: 5
-    current_phase_value: 3
+    design_value: 5  # RETIRED 2026-08-01, see status note below - kept for history, no longer live
+    current_phase_value: 3  # now the permanent ceiling, not a phase-1 placeholder
     source:
       design_value: >-
         L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx -
@@ -30,6 +30,14 @@ parameters:
     notes: >-
       Pass 1 SS3.9: "one number in one place with per-phase overrides -
       resolving three live values across current governance documents."
+    status: >-
+      RETIRED 2026-08-01 (Mark's decision, cost-driven): the design_value of 5
+      is no longer a live target awaiting a later raise. 3 is now the
+      permanent table-size ceiling. The design_value field and its source
+      citation are kept for history, not deleted, per this file's own
+      never-in-place-edit convention for settled inputs - the retirement is
+      the new fact, not an erasure of the old one. See
+      Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md, 2026-08-01.
 
   turn_floor_multi_world:
     value: 2

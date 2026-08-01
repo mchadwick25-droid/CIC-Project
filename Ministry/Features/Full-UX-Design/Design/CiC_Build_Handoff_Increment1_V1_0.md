@@ -215,8 +215,9 @@ count** (§5.3) — the toggle was scaffolding.
 
 **Build:**
 - Remove the segmented toggle from the selection screen.
-- Selection always allows 1–3 worlds (keep `MAX_WORLDS`; the code comment notes the
-  design ceiling is 5 — leave that as-is, still capped at 3 for now).
+- Selection always allows 1–3 worlds (keep `MAX_WORLDS`; 3 is the permanent cap as of
+  Mark's 2026-08-01 decision — the code comment should say so, not describe it as a
+  Phase-1 placeholder for a since-retired design ceiling of 5).
 - Derive mode from count at Begin: `mode = selectedCount === 1 ? 'interview' :
   'table'`. This is the value already sent to the backend; no backend change.
 - **Name the emergent mode on the Begin button** (the naming replaces the control):

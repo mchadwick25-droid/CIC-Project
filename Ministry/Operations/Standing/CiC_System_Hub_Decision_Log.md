@@ -4492,6 +4492,139 @@ with R7 regardless of order. Presented singly with two alternatives (Alexandria;
 Syriac). Recorded before S2.1 proceeds, per the blueprint §1 M rule. Full context:
 `Ministry/Technology/Pass2/decisions/M2_first_migration_world.md`.
 
+## 2026-08-01 — SH-2 status: 2 of the 3 remaining worlds (Hieronymian, PAHC) frozen and pushed; Imperial-Juridical confirmed not started
+
+**What happened:** Mark reported one of the 3 remaining Pass-2 worlds (SH-2, the
+Fable-track "rebuild the 3 remaining worlds" item) completed and pushed, with a second
+almost done. Checked narrowly at Mark's direct request (he asked this thread to verify
+pushes, not just log claims): fetched `origin/main` and confirmed by commit ancestry.
+
+**Hieronymian (world 4 of 6):** frozen, confirmed on `origin/main` (`2959592`,
+2026-07-31) — first world authored end-to-end under the new alias-safety gate (VG-1/
+VG-2 addendum), opened and closed at zero, no VG-2-style retrofit needed. Matches
+Mark's report exactly.
+
+**PAHC/Chloe (world 5 of 6):** turned out to be further along than "almost done" —
+already frozen, final, and pushed (`6760e6f`, 2026-07-31), confirmed on `origin/main`.
+Flagged the discrepancy to Mark directly rather than silently overwriting his report;
+Mark then pasted the build thread's own freeze declaration confirming it, matching the
+independent git check exactly. Headline: 41-item blind-graded battery (Trial A 19/2/0,
+Trial B 19/0/1), all three REQUIRED probes passed (harsh-retest refusal, Marcion/New
+Prophecy as lived contemporaries not canon-framed, W1 relational-safety re-verify
+closed), the Chloe-of-Corinth collision probe held cold with no guard (the class
+Albina needed a fix for), fleet's first QUAD-partner TRR (12/12 axes PASS across
+Desert/Alexandria/Syriac/Hieronymian pairings), one non-blocking system tic found and
+fixed (FLAG-034, a re-clarify interjection loop misread as prior-turn repair), and
+Decision PAHC-5 (an enforcing 150-word ceiling — the first world whose measured
+runtime register, 246–272 words, contradicted its own designed 70-word target). Full
+fleet sweep at freeze: 641/641 records valid, glosses 88/88, gates 0×7, retrieval
+metric-identical to baseline.
+
+**Mark's two freeze-gate decisions, recorded:** Article 29 (living_traditions/
+universal-descent framing) — **confirmed**. Article 31 (external review) — **deferred
+to year two, aspirational by design**; this pattern is now saved to project memory so
+future freeze declarations treat provisional telos as by-design rather than listing it
+as an open item each time (Article 29 confirmations stay per-world, not memorized).
+
+**Imperial-Juridical (world 6 of 6):** confirmed not started — no `S6.2/IJ` commits
+anywhere on `origin/main`. This is the one genuinely remaining piece of SH-2. Opens on
+Mark's word; after it, the addendum's §4.3 gloss data move → Rule C → term_id backfill
+closes out S6.2 entirely.
+
+**Fleet status as of this entry:** five of six worlds frozen (Desert, Alexandria,
+Syriac, Hieronymian, PAHC), all running from the record store, everything on
+`origin/main`. Full detail lives in the Pass-2 thread's own ledger:
+`Ministry/Technology/Pass2/BUILD_STATE.md`, `WAITING_ON_MARK.md`,
+`gates/S6.2_PAHC_FREEZE_DECLARATION.md` (note: `WAITING_ON_MARK.md` on `origin/main`
+still ends at the Hieronymian entry as of this check — a documentation lag one step
+behind the actual commit history, not a discrepancy in the work itself).
+
+## 2026-08-01 — Table size permanently capped at 3 (down from the original 5-world design ceiling), cost-driven
+
+**Decision (Mark):** the Table was originally designed for up to 5 worlds/
+representatives at once (`L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_
+Document_V2.3.docx`: "The ceiling is five worlds at any one Table"). Live cost has
+proven too high at that scale — most recently visible in the PAHC freeze battery's
+$30 spend vs. the usual $5-10 (see the entry above; TRR partner-count compounds
+every world). **3 is now the permanent table-size ceiling, not a Phase-1 placeholder
+awaiting a later raise to 5.**
+
+**What was checked before acting:** the running app already enforces 3, functionally
+— `cic-poc/frontend/src/components/WorldSelector.tsx` (`MAX_WORLDS = 3`) and
+`cic-poc/backend/app/main.py` (`request.world_ids[:3]`) both already cap selection at
+3. There was no functional gap. What was stale was the *framing*: both places'
+comments, plus `cic-poc/backend/wrs/parameters.yaml`'s `table_size_ceiling` entry,
+described 3 as a temporary "Prototype/Phase 1 scope" limit with 5 still recorded as
+the eventual design target.
+
+**Fixed (low-risk, comment/framing only, no behavior change):**
+- `WorldSelector.tsx`'s `MAX_WORLDS` comment — now states the cap is permanent and
+  cost-driven, not a placeholder.
+- `main.py`'s `world_ids[:3]` comment — same correction.
+- `wrs/parameters.yaml`'s `table_size_ceiling` entry — `design_value: 5` marked
+  RETIRED with a dated status note (kept, not deleted, per that file's own
+  never-in-place-edit convention for settled/sourced values — the retirement is new
+  data, not an erasure of the old citation); `current_phase_value: 3` annotated as
+  now permanent.
+
+**Not touched, flagged instead — owned elsewhere or not text-editable:**
+- `L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx` — the
+  master design doc asserting the "five worlds" ceiling; it's a binary `.docx`, not
+  text-editable here.
+- A file already exists in that same folder, `CiC_L3D_Table_Process_
+  ThreeRepresentative_V1.0.md` — not checked in depth; worth Mark confirming whether
+  it already reflects this decision or is something separate.
+- Other docs the initial search surfaced still describing a 5-world table
+  (`Ministry/Features/Front-End-Integration-Strategy/`, `Ministry/Features/
+  In-App-Icons-Graphics/`, `Ministry/Features/Full-UX-Design/`, the original
+  World-Build construction docs) — owned by their respective threads, not edited
+  here.
+- `Ministry/Technology/CiC_System_Redesign_Pass1_Design_2026-07-26.md` and
+  `..._Pass2_Blueprint_2026-07-26.md` — both are that thread's own deliberately-frozen
+  settled inputs (per its own stated rule: defects get filed as `FLAGS.md` entries,
+  never in-place edits), so not touched here either; that thread already has a
+  standing flag for exactly this kind of fold-in, queued for when it reaches a
+  stopping point.
+
+**Net effect:** the actual product behavior was already correct; this pass corrects
+the documentation trail so nothing still implies 3 is a stopgap. The full reconciliation
+across other threads' owned specs and the master `.docx` remains open — a candidate for
+a dedicated cleanup pass if Mark wants one.
+
+---
+
+## 2026-08-01 (later) — Table-size-cap wider cleanup closed out: the master design doc and 8 other live specs corrected, 1 FLAGS.md entry filed, ~55 files checked and confirmed clean
+
+**What this closes:** the "full reconciliation... remains open" gap named at the end of the entry directly above, and the `NEW 2026-08-01` Task Board item that tracked it. Same pattern as the 2026-07-21 PBC cleanup's own close-out entry: full sweep, files sorted into buckets, nothing touched that didn't need it.
+
+**Coordination-branch status, reported plainly, not assumed:** `claude/cic-project-coordination-yl99wf` (commit `b6632a2`, the source of the code/parameters.yaml fix brought forward above) **has still not merged to `main`** as of this entry. `main` has moved twice since this pass started (`aaf7123` → `aacc8e3`, an unrelated Docker/WRS-glosses fix). Rather than wait indefinitely or risk a second silent duplicate of the same fix landing later, `b6632a2`'s changes were cherry-picked onto this cleanup's own branch (`claude/table-size-cap-docs-mw1g17`, itself cut from `main` fresh, since `b6632a2` was still unmerged when this pass began) — one real conflict, in this Decision Log's own append-only tail, resolved by keeping both sets of entries in order. Whoever merges either branch next should check for this overlap.
+
+**Bucket 3 — the master design doc, fixed directly (it was actually the source):**
+- `L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx` — "The ceiling is five worlds at any one Table" (§2) and every other seating-cap assertion (§§0, 3, 4, 5, 11's Beta-phase line, 12's Construction Note) corrected to three, permanent, each with a dated retirement note. Left alone: §11's "the full Ancient Church set — five worlds" (the built-world *catalog* count, a different, unrelated number — currently 6 — out of scope here) and §3's "Five Presences" framework name (five conceptual roles: Facilitator, Representatives, Participant, Public Transcript, Worlds Themselves — coincidental "five," not a seating claim).
+- **`CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md`** — checked per the standing instruction to read it before assuming anything. It is **not** the reconciliation; it was the original Phase-1 framing document, explicitly saying 3 was temporary and 5 was still the "completed vision" ceiling. Corrected the same way (§7 heading and body, the scope line, the closing grounding paragraph).
+- **`Syriac-Build/L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx`** — checked, not assumed either way. Different file (different hash from the root copy, unlike its sibling `Pre_Encounter_Experience_Design_V1.1.docx` which is byte-identical). Confirmed via the 2026-07-20 Filing System Audit as "a real, intentional, git-tracked clean-build sandbox" — a frozen per-world build snapshot, not a duplicate needing the same fix. Left untouched, same treatment as the `Archive/` per-world folders.
+
+**Bucket 2 — Pass 1/Pass 2 settled inputs, not edited in place, filed instead:**
+- `Ministry/Technology/Pass2/FLAGS.md` — **FLAG-038** added. Pass 1 Design's own audit row ("the five-world ceiling is stated normatively once, enforced by no mechanism... runtime-capped at 3") was an accurate finding on 2026-07-26; it's now stale since V2.3 itself was corrected in this pass. Filed per that thread's own rule (defects/staleness become `FLAGS.md` entries, never in-place edits); informational only, no code or document change required by the flag itself.
+- `CiC_System_Redesign_Pass1_Design_2026-07-26.md` / `..._Pass2_Blueprint_2026-07-26.md` — checked in full for other "five"/"5" hits beyond the one flagged above. Pass 2's own `divergence_partners` mentions ("the other five worlds'... documents") are the built-world catalog count at time of writing, unrelated to the seating ceiling — no further flag needed.
+
+**Bucket 5 — live specs owned by other threads, surgical number/permanence fixes only:**
+- `Ministry/Features/Full-UX-Design/Design/CiC_Build_Handoff_Increment1_V1_0.md` — a build instruction telling engineers to keep a `MAX_WORLDS` code comment claiming "design ceiling is 5... capped at 3 for now."
+- `Ministry/Features/Full-UX-Design/Design/CiC_Full_UX_Design_V1_0.md` (2 spots) — "the 4/5-world templates wait for Phase 1" and a roadmap line listing "4/5-world table templates (Phase 1)."
+- `Ministry/Features/Full-UX-Design/Design/CiC_Full_UX_Storyboard_V1_0.md` — "4th/5th-seat templates deferred," inconsistent with the same document's own already-correct line elsewhere ("no 4/5 templates exist [DECIDED]").
+- `Ministry/Communication/Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md` (2 spots) — found by cross-reference (cited as "Living Table truth" by the Storyboard doc above; its "4- and 5-world templates" phrasing didn't match the original keyword grep, confirming Mark's own standing rule that this needs genuine reading, not just pattern-matching). One spot is a verbatim 2026-07-18 quote from Mark ("hold the 4- and 5-world templates for Phase 1") — kept exactly as written, with a dated update note appended rather than edited, since it's real history in his own words; the surrounding paraphrased spec line was corrected directly.
+- `Ministry/Features/Front-End-Integration-Strategy/Design/CiC_FrontEnd_Design_Brief_V1_0.docx`, `CiC_FrontEnd_Engineering_Specification_V1_2.docx`, `CiC_FrontEnd_Experience_Vision_V1_0.docx`, `CiC_FrontEnd_Vision_and_Phased_Plan_V1_0.docx` — confirmed as the current live specs (`README.md`: "design complete through Engineering Specification V1.2"), not the superseded `Drafts-Archive/` copies (checked and left alone). All four independently paraphrased the same "up to five Representatives" commitment plus a phased Alpha/Beta/Phase-1 "Worlds" rollout table (1–3 / 1–5 / "5, full set") that no longer differentiates once 3 is permanent at every phase. The Engineering Specification additionally carried a "Flag for engineering" callout asking whether to add a system-level enforcement guard — resolved in a second way: `main.py` already enforces `world_ids[:3]` today, independent of Facilitator judgment, so the open question itself is moot, not just the number inside it.
+- **World-Build construction docs** (`World-Builds/01-Post-Apostolic-House-Church/CiC_W1_Representative_Engagement_Architecture.md`, `CiC_W1_Representative_Formation_Calibration.md`, plus a light check of `CiC_W1_World_Capsule_Core.md` and the Chloe Permanent Prompt; `World-Builds/Alexandria-Catechetical-School/Analysis/alex_v7_vs_current_comparison.md`, `portfolio_parity.md`, `Doc_05_Ecological_Reconstruction.md`) — checked, all false positives. Every "table" reference in these is the in-world Eucharistic table inside a Representative's own formation content, not the product's Table feature; every "five" is a citation number, lens count, or review-finding count. No edits.
+- **`Ministry/Features/In-App-Icons-Graphics/`** — the directory holds only its own `Decision-Log.md` (dated, bucket 1). The thread's actual live icon/table spec lives in `Brand-Assets/` (above), already fixed.
+
+**Bucket 1 — checked and confirmed dated/historical or false-positive, left exactly as written (~55 files):** every `*Decision_Log.md`/`*Decision-Log.md` and dated audit/status-report/Launch-Prompt that surfaced (`Ministry/Operations/Audits/*`, the `CiC_Redesign_Research_2026-07-25/` folder, `Ministry/Funding/*`, `Ministry/Communication/*` brand-review docs, root-level dated Fable/status docs, `L3B-World-Build-Methodology/*` — both explicitly self-marked SUPERSEDED, `Project-Reference/*`, `cic-poc/docs/engineering-notes/LEXICON_GLOSS_AUDIT_2026-07-23.md`, `Front-End-Integration-Strategy/Decision-Log.md` and its own `Launch-Prompts/` kickoff), the `Syriac-Build/L3B-World-Build-Methodology/` copies (same frozen-sandbox reasoning as the L3D copy above), and Front-End-Integration-Strategy's superseded `Drafts-Archive/` engineering-spec drafts (V1.0/V1.1, superseded by the fixed V1.2). Also checked and confirmed **already correct, no action needed**: `Ministry/Communication/CiC_FAQ_REFRESH_V0_1_DRAFT.md` — the one genuinely participant-facing document in the sweep already says "up to three Christian traditions," not five.
+
+**Method:** widened the brief's starting grep, then went file by file (and, where a document cited another as its own governing source — the Storyboard→Brand-Assets chain above — followed the citation rather than stopping at keyword misses). Parallel read-only research passes did the first-pass triage on the larger, lower-probability batches (Communication/Funding/Marketplace/Audits, World-Builds, Full-UX-Design); every edit above was applied and verified directly, not taken on a subagent's word. `.docx` edits went through the same discipline as the 2026-07-22 PBC `.docx` pass: unzip, exact-string replace with a uniqueness assert, schema-validate before and after, paragraph count unchanged. (Visual re-render wasn't available this session — LibreOffice's headless converter fails to open even an unmodified file in this environment, confirmed before concluding it wasn't the edit's fault.)
+
+**What did NOT change:** brand voice, the Table experience's design, or any new product decision — explicitly out of scope per this cleanup's own brief, held to even in the Design Brief's phased-rollout table where collapsing "1–5" to "1–3" leaves Alpha and Beta identical on that one dimension. That's an honest consequence of the ceiling now being flat across every phase, not something smoothed over.
+
+---
+
 ## 2026-08-01 — Live Deep-Interview sweep against the deployed site, cheap half of the conversation-quality sweep run and closed; multi-world table half stays deferred
 
 **Closes the 2026-07-23 Task Board item** ("Full 6-world conversation-quality sweep, deferred, unscheduled") — its cheap half only, per Mark's explicit scope: solo Deep Interviews against the real deployed site, no multi-world table (already covered live-adversarially by every world's own freeze-battery TRR). S6.2 had just closed all six worlds into the record store, but almost no real conversation had happened against `cic-poc.onrender.com` itself since each world's freeze — today's own Dockerfile regression (a missing line broke every deploy until root-caused from the real build log) was the reminder of exactly that gap.

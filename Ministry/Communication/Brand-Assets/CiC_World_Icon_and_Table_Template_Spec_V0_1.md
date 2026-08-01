@@ -7,6 +7,13 @@ template; hold the 4- and 5-world templates for Phase 1 as we max at three
 Representatives."* The draft art and the per-world object choices await Mark's eye
 and per-world Source Ecology confirmation.
 
+**2026-08-01 update:** Mark's decision that day permanently retired the 5-world
+design ceiling this quote's "hold the 4- and 5-world templates for Phase 1" refers
+to — 3 is now the permanent Table-size cap, not a Phase-1 placeholder awaiting a
+later raise. The quote above is left verbatim as the real, dated record of what was
+said on 2026-07-18; no 4- or 5-world template is planned. See System Hub Decision
+Log, 2026-08-01.
+
 **What this is:** the concrete build of the Table's visual layer — the "Living
 Table" reconciliation (`CiC_Table_Visual_Layer_Reconciliation_V0_1.md`), now
 resolved to Mark's **static composed** model: one icon per world, slotted into a
@@ -213,10 +220,10 @@ conversation creation:
 - **The near edge is the participant's open place** — drawn as a dashed arc, the
   same "a chair pulled out for you" gesture as the landing hero and the logo. You
   are not a figure at this Table; you are the one it was set for.
-- **4- and 5-world templates are deferred to Phase 1** (Phase 1 max = 3
-  Representatives at the Table), per Mark. The composition logic below already
-  parameterizes slot positions, so adding them later is a data change, not a
-  rebuild.
+- **No 4- or 5-world template is planned** — 3 Representatives at the Table is the
+  permanent maximum (Mark's decision, 2026-08-01), not a Phase-1-only limit. The
+  composition logic below already parameterizes slot positions, so this was never
+  a rebuild risk either way.
 
 ## 4. Composition logic (for the build thread)
 

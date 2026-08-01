@@ -354,7 +354,7 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     # Determine which worlds are at the table
     if request.world_ids:
         # Multi-world mode
-        world_ids = request.world_ids[:3]  # Cap at 3 worlds max (Prototype/Phase 1 scope - cost and complexity)
+        world_ids = request.world_ids[:3]  # Cap at 3 worlds max - permanent (Mark's decision 2026-08-01, cost-driven; not a Phase-1 placeholder for a later raise to 5)
         for wid in world_ids:
             if wid not in valid_world_ids:
                 raise HTTPException(
