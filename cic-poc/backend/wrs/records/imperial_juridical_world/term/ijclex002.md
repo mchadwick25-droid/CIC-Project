@@ -121,7 +121,8 @@ field_relations:
   target_id: ijclex007
   note: 'The claim exists IN canon form - Canon 3, Canon 28: without the council there is no presbeia
     claim to cite; inverse pair with ijclex007.'
-contested_claim_ids: []
+contested_claim_ids:
+- ijcclaim002
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex002_presbeia.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 
