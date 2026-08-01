@@ -172,28 +172,21 @@ check of the real Living Table build in a running conversation — see LT-1.
       `CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` already exists alongside the
       master doc — unchecked, worth Mark confirming whether it already covers this.
       Full account: Decision Log, 2026-08-01.
-- [ ] **NEW 2026-08-01 — Table-size cap wider cleanup: fix every remaining stale
-      "5-world"/"five representatives" claim outside `cic-poc` code.** Follow-up flagged
-      by the DONE entry directly above (the code fix was never the whole job — only the
-      running app's own comments). Scope: (1) the master design doc
-      (`L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx`,
-      "The ceiling is five worlds at any one Table" — the actual source everything else
-      cites); (2) check whether the two known copies (repo root and
-      `Syriac-Build/L3D-Encounter-Methodology/`) are a genuine duplicate needing the same
-      fix or an intentionally frozen per-world snapshot; (3) read
-      `CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` first — may already be the
-      reconciliation, not a document to write fresh; (4) surgical fixes only (not
-      rewrites) to live feature specs still asserting a 5-world table
-      (`Ministry/Features/Front-End-Integration-Strategy/`,
-      `Ministry/Features/In-App-Icons-Graphics/`, `Ministry/Features/Full-UX-Design/`,
-      the original World-Build construction docs); (5) file a `FLAGS.md` entry (never an
-      in-place edit) if Pass 1/Pass 2's own frozen settled inputs
-      (`CiC_System_Redesign_Pass1_Design_2026-07-26.md`,
-      `..._Pass2_Blueprint_2026-07-26.md`) assert the 5-world ceiling as live. Explicitly
-      out of scope: decision logs and other dated historical records (leave as written —
-      correct history, not errors), and any new copy/design decisions beyond correcting
-      the number. Close out with a dated audit entry in the Decision Log listing every
-      file touched and which bucket it fell into.
+- [x] **DONE 2026-08-01 (later) — Table-size cap wider cleanup executed: master design
+      doc + 8 other live specs corrected, 1 FLAGS.md entry filed, ~55 files checked and
+      confirmed clean.** `CiC_L3D_The_Table_Design_Document_V2.3.docx` (the actual source
+      everything else cited) fixed directly, including the "five worlds at any one Table"
+      passage. `CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` turned out not to be
+      the reconciliation — it was the original Phase-1 framing doc, corrected the same
+      way. `Syriac-Build/`'s copy confirmed a frozen clean-build sandbox (2026-07-20
+      Filing System Audit), not a duplicate — left alone. FLAG-038 filed against Pass 1's
+      now-stale audit finding, no in-place edit. Surgical fixes landed in Full-UX-Design
+      (3 files), Brand-Assets' Table Template Spec (found by citation chase, not keyword
+      grep), and all 4 current Front-End-Integration-Strategy specs (Design Brief,
+      Engineering Spec V1.2, Experience Vision, Vision and Phased Plan) — the Drafts-Archive
+      superseded versions and In-App-Icons-Graphics/World-Build construction docs checked
+      and confirmed clean. Full account, every file and bucket: Decision Log, 2026-08-01
+      (later).
 - [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic
       mechanism run: 19/20 clean, real API calls, all 5 worlds, both endpoints.** Closes
       the one real gap under the "crisis handoff" cluster. Covered: A1/A2/continuation on
