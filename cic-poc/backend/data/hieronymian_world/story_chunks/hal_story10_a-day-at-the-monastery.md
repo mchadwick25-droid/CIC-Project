@@ -14,7 +14,7 @@ This is how it would have been, in the typical shape of a day at Bethlehem — n
 
 ## Formation Ecology Connection
 
-Illuminates the formation-logic gravity directly — the fusion of ascetic discipline and scholarly labor as one practice, not two.
+Illuminates the formation logic directly — the fusion of ascetic discipline and scholarly labor as one practice, not two.
 
 ## Tier Justification
 

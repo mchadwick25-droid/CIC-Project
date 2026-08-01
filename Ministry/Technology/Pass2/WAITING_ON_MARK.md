@@ -1,124 +1,29 @@
 # Waiting on Mark
 
-## 2026-07-30 — VG-1a done: the alias wrong-linkage parser fix (Step 1a of the Voice-Governance Addendum)
+**QUEUE CLEARED 2026-08-01** — every open item answered live by Mark
+at the queue-clearing session and recorded at its own home:
 
-**What changed:** one function, one file — `parse_aliases()` in `cic-poc/backend/app/rag/indexer.py`. A parenthetically-qualified alias segment (`illumination (baptismal)`) is now dropped whole instead of being stripped to its bare head. The bare-head behavior was the reproduced production bug: "illumination" silently became one of Baptism's aliases and stole Illumination's own key in the frontend map.
+- Kellion gloss → confirmed as written (review note on the entry).
+- taḥwîṯâ gloss → stays as written, "Letters" not named (review note
+  on the entry).
+- FLAG-029 → closed by reword ("the formation logic"), lockstep
+  across record/chunk/staging.
+- The Marcella-list apparatus check → run; list verified with a
+  correction (Ep. 38 omitted upstream; + Epp. 59, 97 outside the
+  Roman group) — srcHAL001's verification_note.
+- The Palladius passage hunt → run; located and confirmed (Lausiac
+  History ch. 41 + ch. 36) — srcHAL008's license and
+  verification_note.
+- Stale status entries (addendum tail, world boundary, push state)
+  → resolved by completion.
 
-**Before/after, measured over all six worlds with the live code:**
-- Before: 9 colliding keys, all Alexandria (Desert/Hieronymian/IJ/PAHC/Syriac all 0) — matches the plan doc §5.1's table exactly, key for key.
-- After: 7 — the two parenthetical-caused collisions (`illumination`, `apokatastasis`) resolved; the 7 genuine alias-set overlaps (`photismos`, `catechist`, `communion`, `divine likeness`, `the eternal word`, `the son`, `the word`) unchanged, as expected — they're VG-1b's gate's job.
-- Baptism still reachable through `photismos`, `initiation`, `the washing`, `new birth`, `the bath`, `crossing the threshold`.
-- Retrieval regression (rule 2): full eval re-run vs `B-RETR-POST-P3.json` — **0 regressions; every metric identical**.
+Full record: `gates/S6.2_queue_clear_and_doc02_checks.md`. Prior
+queue content preserved in git history.
 
-**What surprised me (filed as FLAG-028, per this step's own step-4 rule, routed to VG-1b):** the fix's drop-the-qualified-segment rule also removes 9 corpus-wide aliases whose qualifiers are benign descriptors, not collision guards — e.g. `bat qyama (singular forms)` in Syriac, `monogenes (Greek parallel)`, `communion (as juridical status)` in Imperial-Juridical, and `The Vulgate (anachronistic... label)` in Hieronymian (whose alias set is now empty). None of these were colliding; they simply stop highlighting in their own worlds. That's a bounded reachability cost the plan's rationale doesn't cover for this class — VG-1b's authoring/gate pass should decide per case (re-author unqualified where safe, or route through confirmed-gloss). One incidental win: the old parser was emitting a garbage mid-phrase fragment for ijclex003 (`the Dated Creed formula — not`); that's gone.
+**Separately queued on Mark's word (not waiting-on-answer items):**
+the FLAG-033 gloss-into-embedding indexer prototype; the PAHC-2
+(strands on world_core) and PAHC-3 (sensitivity-guard
+condition_type) schema COs.
 
-**Base-state note:** local main fast-forwarded cleanly onto the rolled-back `e92cf85` (pure history move, tree-identical, zero file changes). The full Syriac-freeze session survives on `origin/claude/rollback-to-fable-base` and a local safety branch `backup/syriac-freeze-16cab54`; its working-tree leftovers (untracked `wrs/records/syriac_world/`, `scripts/s62_syr_*`, staging files) are still on disk, untracked, untouched by this step.
-
-**Not started, deliberately:** VG-1b (alias-safety gate — its fixtures must be built against this fix's corrected output, in a separate session per rule 4) and VG-1c (confirmed-gloss schema).
-
-## 2026-07-30 — VG-1b done: the alias-safety gate (Rules A + B; Rule C deferred to VG-1c)
-
-**What was built:** `gate_alias_safety` in the gates package, wired into the runner and selftest, with five seeded fixture sets and an override fixture. Rule A flags a generic alias (determiner-stripped single token on a 46-word curated blocklist or in a bundled offline top-5000 English frequency table — new flat file in the repo, no network). Rule B flags per-world key collisions over the post-parse space — term name ∪ parsed aliases, the same map the frontend actually renders from. The override is the term-level `alias_generic_override_note` you approve per record (schema field + traceability row added); the gate prints it as a note, never counts it, and flags a stale note.
-
-**Verification, all green:**
-- Selftest: clean set passes all seven gates; all five seeded alias defects caught; the override fixture reports-without-failing.
-- Alexandria: **Rule B flags exactly the 7 documented remaining collisions** from VG-1a, key for key. Plus 29 Rule-A generic-alias findings (`the word`, `the soul`, `communion`, `the christ`…).
-- Desert: 5 Rule-A (`the cell`, `elder` — the exact word useLexicon.ts's comment names as the known cross-world hazard — `saying`, `the thoughts`, `the federation`). Syriac: 4 Rule-A.
-- FLAG-028's 9 dropped benign-descriptor aliases: contribute no keys, correctly not flagged anywhere.
-- The six existing gates produce identical results (all zero) on both frozen worlds — adding, not touching.
-
-**The catch worth knowing about (fixed in-step):** my first record-side key-space reproduction missed that a record alias item can bundle several quoted glosses (`'"mystery," "symbol" (gloss)'`) that the runtime parser splits into separate keys. Corrected to the full per-item parse semantics — and that correction surfaced a real finding: **Syriac's live term map contains bare English generics as keys — `truth`, `mystery`, `symbol`, `reality`, `covenant`, `saint`** — which is your original "highlighting fires too broadly" report, now machine-caught by the gate. All of it is Step-2 retrofit material (authoring decisions per case: drop, keep-with-override, or route to confirmed-gloss).
-
-**Standing note until Step 2:** `alias_safety` is deliberately RED on the three built worlds (Desert 5 / Alexandria 36 / Syriac 4). The six original gates remain the frozen-world regression floor; the new gate's count is the retrofit worklist, not a regression.
-
-**Next:** VG-1c (confirmed-gloss schema), then Rule C as a small follow-up, then Step 2 (retrofit) and Step 3 (clean builds for the next three worlds).
-
-## 2026-07-30 — VG-1c done: the confirmed-gloss schema fix — Step 1 of the Voice-Governance Addendum is COMPLETE
-
-**What changed:** `confirmed_gloss.schema.json` now describes the data the gloss mechanism actually uses. The old shape (`world_term`/`approved_gloss`) could not validate a single one of the 87 live entries — the runtime has always used `{category, original, gloss}`, with `category` deciding which way the bracket-gloss renders. The corrected entry shape is the plan's Option A: `world_id`, optional `term_id` (the future Rule-C hook; 39 of 87 entries belong to worlds with no term records yet, so requiring it now would be dishonest), `category` A/B, `original`, `gloss`, `exact_wording_required`, and optional `sources[]`/`reviewer_confirmed_date`/`review_note` (optional because your 2026-07-25 review happened but wasn't captured as structured evidence — the honest-backfill rule, not an oversight).
-
-**Traceability:** 9 rows replacing the 3 stale ones — the corrected-shape fields carry the original Pass-1 §3.11 warrant; the four genuinely new fields carry a Pass-2-CO warrant (the same pattern CO-P2-04 used for gravity_links). Matrix clean both directions.
-
-**Enforcement made real:** the schema was loaded but never enforced anywhere — that's now closed. `validate.py --glosses` runs actual JSON-Schema validation over the live gloss data: **87/87 valid**, per-world counts matching the plan's own §4.4 table exactly. The schema now provably governs the data it claims to govern.
-
-**Deliberately not done (Step 2/3 territory per the plan's own sequencing):** moving the data out of the Python module into a validated YAML, the gloss referential-integrity gate, the generated-JSON view and consumer refactor, and all `term_id` backfill.
-
-**Where this leaves the addendum:** Step 1 (1a parser fix + 1b alias-safety gate + 1c schema fix) is complete, committed, and green. Rule C wires in as a small follow-up now that `term_id` exists in the shape. Hieronymian's S2.2 can open with the fixed parser, the live gate, and the corrected schema all watching from the first record — which was the whole point of doing Step 1 first.
-
-## 2026-07-30 — VG-2a done: Desert alias retrofit (Step 2, world 1 of 3) — 5 → 0
-
-**The five calls, each its own decision (the precedent Syriac and Alexandria's passes work from):**
-
-| flagged alias | call | why |
-|---|---|---|
-| `the thoughts` (Logismoi) | **dropped** | The reviewed gloss already carries the English surface ("the thoughts that trouble the mind"); term stays reachable via `logismoi`, `intrusive thoughts`. |
-| `elder` (Gerōn/Abba/Amma) | **dropped** | The known cross-world hazard word (useLexicon's own comment) — now retired from the live key space entirely; `abba`, `amma`, `geron` remain, and both Abba and Amma glosses carry "an elder…" in reviewed form. |
-| `saying` (Apophthegma) | **dropped** | Gloss carries it ("a teaching-saying"); `apophthegma` remains. |
-| `the federation` (Koinōnia) | **dropped** | Gloss carries it ("Pachomius's monastic federation"); `koinonia`, `communal rule` remain. This was the one non-name-half case — a separately-authored descriptive alias — and the same logic held anyway because the gloss already says it better. |
-| `the cell` (Kellion) | **dropped + routed to confirmed-gloss** | The one term with NO existing gloss — added `Kellion` → "the cell" (Category A), literally the term's own English name-half, the same High-confidence restated-name class as the existing ten Desert entries. **This is the one new gloss entry — please confirm or revert it**, per the module's own one-at-a-time review discipline; it's commented in-module and visible, not smuggled. |
-
-**No overrides used** — none of the five is the irreducible bare-"Death"/"Christ"/"Prayer" class; every term keeps a distinctive period-word alias.
-
-**Verification:** Desert gates 7/7 at zero (alias_safety 5→0; the six originals untouched at 0); records 400/400; glosses 88/88 valid; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs** (the bare generics were never doing correct retrieval work, exactly as predicted). Records and deployed chunks edited in lockstep, no drift.
-
-**Next:** VG-2b Syriac (4 findings, same shape — note those four are the quoted-English-gloss keys `truth`/`mystery`/`symbol`/`reality` class plus `covenant`/`letters`/`saint`, a slightly different pattern than Desert's name-halves); VG-2c Alexandria (36) held for its own session with a fresh budget check.
-
-## 2026-07-30 — VG-2b done: Syriac alias retrofit (Step 2, world 2 of 3) — 4 → 0
-
-**The pattern here was cleaner than Desert's:** all four flagged keys were quoted explanatory prose the original author placed inside the alias field and labeled as such ("loose English gloss," "loose parallel honorific"). The parser rightly extracts quoted phrases as aliases — these just never should have been aliases. All four dropped, records and deployed chunks in lockstep:
-
-| flagged key(s) | call | why |
-|---|---|---|
-| `mystery`, `symbol`, `truth`, `reality` (raza/shrara) | **dropped** | The raza ("a sign tied to a hidden truth") and shrara ("the truth itself") glosses carry the plain-English surface in reviewed form; `razā`/`rāzā`/`shrara`/`shrārā` remain. |
-| `covenant` (qyama) | **dropped** | The qyama gloss covers it, and the multi-word phrase-alias `"sons/daughters of the covenant"` was deliberately KEPT — specific enough to pass Rule A, and it preserves covenant-phrase reachability. |
-| `letters` (taḥwyāṯā) | **dropped** | Bare "letters" firing on every ordinary use of the word is the over-broad class; the Letters self-designation stays fully present in the record's own prose and chunk text. **One question for you:** the taḥwîṯâ gloss ("a demonstration") doesn't mention the "Letters" self-designation by name — if you want it there, that's an edit to reviewed gloss text, so it's yours to call, not mine. |
-| `saint` (Mar) | **dropped** | The Mar gloss literally already says it: 'my lord, an honorific like "Saint"'. `"my lord"` kept as the quoted phrase-alias. |
-
-**No overrides, no new gloss entries** (unlike Desert's Kellion — nothing was missing coverage here). FLAG-028's `bat qyama (singular forms)` left untouched, per its own routing.
-
-**On the launch prompt's two side-notes, both resolved:**
-1. *The 12 default-profile completion violations*: checked one by one — every single one is a **documented design decision in Syriac's own build artifacts**, not a silent gap: the three partner-less claims (S2.6 checkpoint: "internal scholarship contests, none manufactured"), the six not-advanced gravities (Doc_04 §1's own class — kept as records, never six-tested), the two Tier-3 thin-format terms (the declared S2.1a/S2.2 finding), and syrlex009's empty relations ("standalone by design," the chunk's own words). Syriac's checkpoint standard has always been `--profile backfill`, where completion runs 0. Known and tracked; nothing filed.
-2. *Base-state correction for the record*: the Syriac record store was never untracked after the rollback — `f99fceb` (the rollback target) already contained the whole Syriac migration; my VG-1a note overstated that. All 128 files tracked and clean.
-
-**Verification:** Syriac gates 0/128 under its own backfill profile (alias_safety 4→0; six originals unchanged); records 400/400; retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs**.
-
-**Next:** VG-2c — Alexandria's 36 (7 Rule-B collisions + 29 Rule-A), held for its own session with a fresh budget check, per the plan.
-
-## 2026-07-30 — VG-2c done: Alexandria alias retrofit (Step 2, world 3 of 3) — 36 → 0. STEP 2 COMPLETE.
-
-Finished in one sitting — no partial stop needed. All three built worlds now run alias_safety at zero.
-
-**The seven Rule-B collisions — each a pick, not a drop:**
-
-| key | went to | left | why |
-|---|---|---|---|
-| `photismos` | **Illumination** (alexlex004) | Baptism | It's the Greek of Illumination's own name, and the existing gloss ("the opening of sight") reads concept-ward. **This also answers §4.4's backfill ambiguity the same way** — the photismos gloss term_ids to alexlex004 when that pass runs. Baptism keeps `initiation`, `the washing`, `new birth`, `crossing the threshold` (its own authored `illumination (baptismal)` qualified item stays as authored — it contributes no key, by VG-1a's design). |
-| `catechist` | **Teacher/Didaskalos** (alexlex029) | Catechesis | The person-word belongs to the person-term; Catechesis keeps `the catechumen`, `catechumenate`, etc. |
-| `divine likeness` | **Likeness of God** (alexlex012) | Theosis | It's alexlex012's own name-half with its own gloss; Theosis keeps `deification`, `divinization`, and its gloss. |
-| `the eternal Word` | **Word of God** (alexlex024) | Logos | A Word-title on the Word-term; Logos keeps `divine Reason`, `ho logos`, `Christ as Word` + the "the Word" gloss. |
-| `communion` | *neither* | both | Bare generic (blocklist) — keeping it anywhere would still be a Rule-A violation. Participation's gloss carries the sharing-surface; Eucharist keeps `the Lord's Supper`, `the breaking of bread`, `the holy meal`, `the thanksgiving`. |
-| `the word` | *neither* | both | Same logic; the reviewed Logos gloss ("the Word") carries the plain surface. |
-| `the son` | *neither* | both | Same; Son of God keeps `the eternal Son`, `only-begotten Son`, `ho Huios`, and its own canonical name key. |
-
-**Rule A (29 records): 27 dropped clean, 2 overridden.** The drops lean on Alexandria's unusually rich reviewed gloss coverage (didaskalos→"the teacher", oikos→"the household", pistis→"trust…", arete→"excellence", elpis→"hope", ekklesia→"the gathered community", metanoia, psyche, hamartia, nous, Rule of Faith→"the received tradition"…) — every flagged English surface I dropped is carried by a gloss or by the term's own canonical name key (`sin`, `soul`, `household`, `fall`, `hope` all remain live via their term names, which Rule A deliberately doesn't police). **The two overrides are your module's own pre-identified class:** alexlex022 `the Christ` and alexlex028 `the prayer` — bare Christ/Prayer genuinely have no distinct period form, so a term-level `alias_generic_override_note` documents the exception and the gate reports it as a note rather than counting it. No new gloss entries were needed anywhere.
-
-**Verification:** Alexandria gates 7/7 at zero under the backfill profile (alias_safety 36→0, plus exactly the 2 override notes); records 400/400; records and deployed chunks edited in lockstep (asserted per file); retrieval eval vs `B-RETR-POST-P3` **metric-identical — zero regressions, zero diffs** (third world in a row confirming the dropped keys were never doing correct retrieval work).
-
-**Where the addendum stands now:** Step 1 complete (parser + gate + schema), Step 2 complete (all three built worlds at zero). Remaining: the §4.3 confirmed-gloss data move (then Rule C as its small follow-up, then term_id backfill — where the photismos call above is already made), and Step 3's clean builds (Hieronymian/PAHC/IJ authored under the live gate from their first record).
-
-## 2026-07-31 — HIERONYMIAN (world 4 of 6) COMPLETE AND FROZEN — the world-boundary stop (contract note 4)
-
-The full S6.2 per-world pipeline ran S2.1 → freeze in this session, under the Step-3 sequencing you set up (VG first, then the new world): **the first world authored end-to-end under the live alias_safety gate — it opened at zero and closed at zero. No VG-2-style retrofit was ever needed.** 497/497 records fleet-wide; all four worlds' gates at zero; retrieval metric-identical to baseline; the record store drives Hieronymian production since the chunk swap.
-
-**The headline chain:** 23 source rows + core → sweep (the Praefationes corpus rowed) → recall 9/10 + PRESS → 15 terms born matching the runtime key space → authored senses with your confirmed-gloss originals resolved in view (12/13 1:1, an executable table — the §4.4 backfill is now a mechanical read) → 12 stories + 9 figures (six Tier-1 stories, the fleet's first two two-sided stories) → 6 gravities + 12 forces with Doc_04/Doc_08's corrected reasoning carried in full → 5 claims with 4 live partner links (including halclaim004↔alexclaim005 — the fleet's first pair where one world contests the other's own teacher) → Albina's voice at a fourth register position (the letter's measure, epistula-genre warranted) → facilitation guidance → views + 4 parities → swap → freeze battery + the fleet's first TRIPLE-partner TRR → **FREEZE DECLARED** (`gates/S6.2_HAL_FREEZE_DECLARATION.md`).
-
-**Three probe-found prompt gaps, each fixed record-derived and cold-verified (the pattern is now standing):**
-- **FLAG-030**: the deployed prompt had no naming-collision guard — cold probing captured the attested Albina's identity (Marcella's mother, the risk your identity decision disclosed). Guard added (Decision HAL-2), 4/4 clean, plus both collision identifications declined in the blind battery.
-- **FLAG-031**: post-window facts wrapped as "your vindication/defeat" (the Trent probe) defeated the horizon rule. Guard added (HAL-3), 6/6 clean reprobe.
-- **FLAG-032** (open, declared): at the ALX table, "answer him: doctrine or friendship?" made the voice resolve the contest halstory03a holds open, once; and the Marcella single-source frame dropped, once. Non-blocking per the SYR precedent — routed to the S5.2-class assembly with the facilitation caution as live mitigation.
-
-**Also for your eye, non-blocking:** FLAG-029 (hal_story10's FEC says "the formation-logic gravity" — no such gravity exists in Doc_04; carried unconverted, upstream wording referral). FLAG-028's hal_lex02 item closed the interesting way: retrieval parity MEASURED the reachability the dropped alias surface was providing, and the alias is re-authored unqualified per the flag's own routing. The table ceiling moved 180→160 on the measured voice profile (Decision HAL-4). The pre-freeze re-sweep rowed Brown/Letsch-Brunner/Hilberg with the PRESS's discovery data; **the two Doc_02 verification items still STAND open** (the Marcella-list apparatus check — now concretely runnable against the rowed Hilberg+Cain apparatus; the Palladius passage hunt).
-
-**Earlier asks still open for you (unchanged):** the Kellion→"the cell" gloss confirm/revert; whether the taḥwîṯâ gloss should name the "Letters" self-designation.
-
-**Stopped at the world boundary per contract note 4.** PAHC and Imperial-Juridical are the remaining two worlds; the addendum's §4.3 data move → Rule C → term_id backfill also remains. Everything is committed locally; nothing pushed — say "push" when you want it on the remote, and name the next world (or the data move) when you want the next step opened.
+*(New items go below this line, newest last, per the session
+contract.)*

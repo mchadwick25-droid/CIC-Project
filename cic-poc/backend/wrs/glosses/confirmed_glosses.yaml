@@ -42,6 +42,12 @@ glosses:
   gloss: a demonstration
   exact_wording_required: true
   term_id: syrlex003
+  reviewer_confirmed_date: "2026-08-01"
+  review_note: >-
+    Project owner decision 2026-08-01 (closing the VG-2b question):
+    the gloss stays as written and does NOT name the 'Letters'
+    self-designation - that context lives in the record's own prose
+    and chunks, not in the inline bracket-gloss.
 - world_id: syriac-edessa-nisibis
   category: A
   original: memra
@@ -120,6 +126,12 @@ glosses:
   gloss: the cell
   exact_wording_required: true
   term_id: desertlex016
+  reviewer_confirmed_date: "2026-08-01"
+  review_note: >-
+    Added at VG-2a (2026-07-30) when the bare 'the cell' alias was
+    dropped under Rule A - the one Desert term with no prior gloss.
+    Confirmed as written by the project owner 2026-08-01, closing the
+    WAITING_ON_MARK item.
 - world_id: hieronymian-ascetic-literary
   category: A
   original: Vulgata

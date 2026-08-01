@@ -61,7 +61,7 @@ sources:
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story10_a-day-at-the-monastery.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
-[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the formation-logic gravity directly — the fusion of ascetic discipline and scholarly labor as one practice, not two.
+[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the formation logic directly — the fusion of ascetic discipline and scholarly labor as one practice, not two.
 
 [Source Identification - the composite's own element-to-source table, parked verbatim (CO-P2-06 composite convention)] **Element: general structured common life.** Source: Jerome, Ep. 108 (general outline of communal discipline).
 **Element: Hebrew study under named but non-Christian teachers.** Source: Jerome's own prefaces; Doc_01 §3.1 (Contested extent of his fluency, not asserted here beyond the bare fact of study).
