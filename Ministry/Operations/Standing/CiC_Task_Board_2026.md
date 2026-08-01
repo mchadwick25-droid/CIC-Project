@@ -704,6 +704,22 @@ check of the real Living Table build in a running conversation — see LT-1.
       world's own freeze-battery TRR. Full report:
       `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sweep_5World_2026-08-01.md`.
       Detail: Decision Log, 2026-08-01.
+- [x] **DONE 2026-08-01 (same day) — Two follow-ups on the sweep's citation
+      findings: a real fix shipped, and one flagged finding turned out to be a
+      report-writing error, not a bug.** (1) Built `filter_grounded_citations()`
+      (`cic-poc/backend/app/graph/nodes.py`) — one batched haiku call per turn
+      judging USED/NOT_USED per citation against the actual response text,
+      closing the retrieved-but-unspoken citation gap the sweep found in 3/5
+      worlds; verified against the sweep's own real Syriac transcript data
+      before merging (commit `006d14e`, pushed). (2) Investigated the
+      "Hieronymian showed a PAHC citation" flag: Hieronymian's own retriever
+      confirmed clean (zero PAHC/Justin content across raw and filtered
+      results, three query phrasings, no live API cost); re-reading the
+      sweep's own already-collected real data then showed the citation was
+      never actually shown under Hieronymian at all — it was PAHC's own,
+      correctly retrieved for PAHC, and the report's write-up had
+      misattributed it while drafting. No code defect existed; report
+      corrected in place. Detail: Decision Log, 2026-08-01 (later).
 - [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
       25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
       **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**

@@ -110,9 +110,19 @@ kind of dishonesty to tell you otherwise for the sake of a tidier
 answer" — landing exactly on Marcella's independent standing (not derived
 from Jerome's voice), which is the world's own S2.6 finding working live.
 Round 3 synthesized the whole arc into one closing claim without losing
-either thread. Two soft citation misses (Patrocinium in round 1, "A Sunday
-Gathering in Rome" in round 2 — this last one is actually PAHC's, worth a
-second look at whether it belongs) — neither as sharp as Syriac's.
+either thread. One soft citation miss (Patrocinium in round 1) — not as
+sharp as Syriac's.
+
+**Correction (2026-08-01, later):** this paragraph originally also listed
+"A Sunday Gathering in Rome" as a Hieronymian round-2 citation that "looked
+like PAHC's." That was wrong, and the error was mine, not the app's — that
+citation was never shown under Hieronymian at all; it is PAHC/Chloe's own
+round-2 citation (correctly, for PAHC's own story about Justin's account of
+the Sunday gathering), and I mis-copied it while writing up Hieronymian's
+paragraph. See the investigation section below for how this was caught and
+verified. Hieronymian's real round-2 citations were `Hebraica veritas`,
+`Epistula`, `Grammaticus`, and `Translating a Book of Scripture` — all
+genuinely reflected in that turn's text.
 
 ### Post-apostolic-house-church — Chloe: PASS — **the flagged finding did
 not reproduce**
@@ -152,8 +162,10 @@ underneath.
 
 Marius's 2026-07-23 pilot surfaced one citation shown that wasn't reflected
 in that round's text. This sweep found the same class of issue in **3 of 5**
-worlds (Desert soft/1, Hieronymian soft/2, Syriac clear/3), absent only in
-Alexandria and largely absent in PAHC. The pattern: the retriever
+worlds (Desert soft/1, Hieronymian soft/1, Syriac clear/3 — corrected count
+after the 2026-08-01 investigation below removed a misattributed
+Hieronymian citation that was never actually a Hieronymian defect), absent
+only in Alexandria and largely absent in PAHC. The pattern: the retriever
 legitimately pulls several plausibly-relevant lexicon/story records into
 generation context, but the representative's actual response only draws on
 some of them — every retrieved record still gets shown to the participant
@@ -258,12 +270,47 @@ sweep against the production site to confirm the improvement holds under
 real generation (would cost real money again for confirmation, not
 discovery — reasonable to defer to the next time this world's citations
 come up live, rather than spend again just to re-prove what the regression
-test already showed directly). The Hieronymian round-2 citation flagged
-above ("A Sunday Gathering in Rome," a title that reads as PAHC's) is a
-separate open question this fix does not address — it would be a retrieval-
-indexing question (is a candidate crossing world boundaries) rather than a
-display-grounding one, and needs its own look before assuming either
-explanation.
+test already showed directly).
+
+## Second follow-up (same day): the "A Sunday Gathering in Rome" question — settled, and it wasn't a bug
+
+Investigated per Mark's own two-step plan: settle the retrieval question
+first, free and with no live generation cost; only spend on a live check if
+that doesn't resolve it.
+
+**Step 1 (free, local embedding search only — no Anthropic call for the
+search itself):** queried Hieronymian's own `StoryRetriever` directly, both
+at the raw pre-filter candidate stage (`candidate_search`, pure BM25/dense
+similarity, no LLM involved at all) and after the full retrieve pipeline,
+across three phrasings of the same underlying question ("a Sunday
+gathering, the community meets to worship"; "Justin describes the
+assembly"; "the gathering meets on the first day of the week for the bread
+and cup"). **Result: zero PAHC-tagged or Justin-tagged content, ever** —
+every single candidate returned, at every stage, was one of Hieronymian's
+own `hal_story*` files. The per-world FAISS index isolation holds; there is
+no retrieval-layer leak.
+
+**That alone didn't require moving to step 2**, because re-reading this
+sweep's own already-collected real session data settled the display
+question too, for free: the actual live tool output from the original
+sweep shows Hieronymian's round 2 citing `Hebraica veritas`, `Epistula`,
+`Grammaticus`, and `Translating a Book of Scripture` — never "A Sunday
+Gathering in Rome." That title belongs to **PAHC's own round 2**, in the
+same sweep, where it was retrieved and shown correctly (it's Chloe's own
+story, Justin Martyr's account of the Sunday gathering — exactly the world
+it should surface in). **The citation was never actually shown under
+Hieronymian at all.** The error was in how this report characterized
+Hieronymian's findings while writing them up — a copy/attribution mistake
+made drafting the original report, not a defect anywhere in the running
+application. Corrected above, in the Hieronymian section and the
+cross-world pattern count.
+
+**No code change needed.** No live paid re-probe was needed either, since
+the real data to answer both questions (is retrieval leaking; was the
+citation actually mislabeled) already existed from the original sweep — a
+free local check plus a careful re-read of already-real data closed this
+completely, at effectively zero additional cost (the local retrieval
+check's own guard-vote calls, ~$0.0005 total).
 
 ## Bottom line
 
