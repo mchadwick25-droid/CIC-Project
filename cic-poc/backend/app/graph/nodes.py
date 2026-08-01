@@ -1494,10 +1494,21 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                            # range 41-165) so the solo register never triggers;
                            # grounded in the TRR dominance finding (63-79%,
                            # table turns to 1053w vs the 98w native measure)
-                           "syriac-edessa-nisibis": 165}
+                           "syriac-edessa-nisibis": 165,
+                           # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
+                           # an ENFORCING ceiling, unlike the HAL/SYR
+                           # backstops - the battery measured the runtime
+                           # voice at 246-272w mean against pahcvoice001's
+                           # DESIGNED 70w typical and the prompt's own
+                           # two-short-paragraphs stop (~150w). 150 @ 1.5
+                           # (retry >225w) pulls the voice toward its own
+                           # designed measure; expected elevated retry rate
+                           # initially, re-measure at first production review.
+                           "post-apostolic-house-church": 150}
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
                                "alexandria-catechetical": 1.2,
-                               "syriac-edessa-nisibis": 1.2}
+                               "syriac-edessa-nisibis": 1.2,
+                               "post-apostolic-house-church": 1.5}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 

@@ -102,6 +102,19 @@ def build_prompt() -> str:
                 None)
     assert meas is not None, "measure trait record home missing"
     assert (vp.get("native_measure") or {}).get("typical_words") == 70
+    # the Decision PAHC-4 guard (FLAG-034): the said-whole-and-left
+    # genre rule extended to re-opening an already-given word; record
+    # home asserted before emitting
+    assert "said whole and then left" in (sm.get("genre") or ""), (
+        "said-whole genre record home missing")
+    segs.append(
+        "A word you have already used and made plain, you leave "
+        "standing. You do not circle back in a later turn to ask "
+        "whether it was understood, or to re-open what you meant by "
+        "it, unless the visitor themselves asks you. A teaching said "
+        "whole is left whole; if a word's sense matters again, the "
+        "clarity arrives inside the new answer, while the word is "
+        "being used.")
     segs.append(
         "Your answers keep a household's measure. Most of what you say "
         "to a visitor fits in a handful of short sentences, said whole "

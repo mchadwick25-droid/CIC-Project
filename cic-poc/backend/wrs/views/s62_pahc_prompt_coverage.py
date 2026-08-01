@@ -102,27 +102,35 @@ COVERAGE = [
   "speaking_model.genre + the taught-many-times texture (the teaching "
   "interrupted at the door that simply waits - the householder's "
   "genre, not a defect; record-carried as the genre's own shape)."),
- (15, "Your answers keep a household's measure", "records",
+ (15, "A word you have already used and made plain", "records",
+  "The Decision PAHC-4 guard (FLAG-034's record-derived fix, 2026-07-31 "
+  "- the SYR-2/HAL-2 pattern, added at the freeze battery): "
+  "speaking_model.genre ('said whole and then left') extended to "
+  "re-opening an already-given word; the clarity-inside-the-answer "
+  "clause is the FLAG-018 layer-2 rule carried into the voice's own "
+  "register. Battery evidence: the B-sustain-1 re-clarify loop, "
+  "cold-reprobed clean after this guard."),
+ (16, "Your answers keep a household's measure", "records",
   "native_measure (typical_words 70 - DESIGNED, the prompt's own "
   "handful-of-short-sentences rule; the two-short-paragraphs hard "
   "stop; no measured runtime ceiling exists yet - the freeze-battery "
   "measurement and ceiling decision are close-out work, declared)."),
- (16, "When someone comes to you with a question, you receive",
+ (17, "When someone comes to you with a question, you receive",
   "records",
   "speaking_model.ends (the visitor received as someone at the door - "
   "warmth, seriousness, no earning test; coming to the door costs "
   "something) + the hospitality trait (whoever knocks is honored)."),
- (17, "When you ask something back", "records",
+ (18, "When you ask something back", "records",
   "The householder's-question norm (who is at the table for the one "
   "asking, who is missing, what holding this would cost - learned "
   "from the Two Ways: pahclex007's real-choice-before-a-real-person "
   "content as the record-side carrier)."),
- (18, "You do not pour out everything at once", "records",
+ (19, "You do not pour out everything at once", "records",
   "speaking_model.ends (concrete-and-immediate first: table, "
   "catechesis, the letter; the harder interior later as trust grows - "
   "explicitly NOT a stage to be earned; understanding grows the way "
   "a newcomer's did)."),
- (19, "There are territories where your own life has not concentrated",
+ (20, "There are territories where your own life has not concentrated",
   "records",
   "The named silences (pahccore001 cautions): the CARRIED-NOT-AUTHORED "
   "seam (the letter-writers' arguments held as conclusions "
@@ -132,13 +140,13 @@ COVERAGE = [
   "no invented interiors), no-ledgers (nothing kept but letters, "
   "written for a purpose and read aloud - formation-internal "
   "thinness), and the c.200 horizon's categorical exclusions."),
- (20, "You speak faithfully about what you have been formed",
+ (21, "You speak faithfully about what you have been formed",
   "records",
   "speaking_model.key (plain insistence of people who have paid for "
   "every word - not loud, never softened) + ends "
   "(intelligible-not-advocate - the fleet's standing close: never "
   "trimmed to the questioner, answered from inside, let stand)."),
- (21, "Your own fierceness has real objects", "records",
+ (22, "Your own fierceness has real objects", "records",
   "speaking_model.key (fierceness at the docetic teachers and the "
   "new-voice-silences-all claim, never at the asker) + pahcgrav005's "
   "own honest limit (refusal WITHOUT closed-argument certainty - 'you "
@@ -146,14 +154,14 @@ COVERAGE = [
   "part of it is wrong', the not-yet-settled boundary in the "
   "gravity's own record) + the free-to-leave clause (the hospitality "
   "trait's other half)."),
- (22, "Every letter that reaches your door, and every stranger",
+ (23, "Every letter that reaches your door, and every stranger",
   "records",
   "pahccore001 telos verbatim-adjacent (the letter, the water, the "
   "table all pointing past themselves toward the one met at the "
   "table - the W1 prompt's own para-43 close carried at S2.7a per "
   "CO-P2-05; PROVISIONAL, Article 31: derivation unreviewed, listed "
   "for the freeze declaration)."),
- (23, "What you have lived gave rise, in time, to every church",
+ (24, "What you have lived gave rise, in time, to every church",
   "records",
   "pahccore001 living_traditions (universal descent WITH the "
   "non-identity discipline - 'You are not it. You are the ones who "

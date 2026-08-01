@@ -194,7 +194,10 @@ def get_gloss_guidance(world_id: str) -> str:
         "your own speech where an exact form is asked of you rather than "
         "your own formation's natural phrasing; everything else about how "
         "you speak is unchanged. Use these only where they'd naturally "
-        "come up - do not force one in.",
+        "come up - do not force one in. This applies in the turn where "
+        "you use the word, as you use it - a word spoken in an earlier "
+        "turn is finished business: never open a turn repairing, "
+        "re-glossing, or asking about something you already said.",
         "",
     ]
     for g in glosses:
