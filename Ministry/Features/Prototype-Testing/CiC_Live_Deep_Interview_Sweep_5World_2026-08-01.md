@@ -208,6 +208,63 @@ closed too.
   or a scheduled Render log export) — either would let a future sweep report
   real dollars the way this one couldn't.
 
+## Follow-up (same day): the citation-grounding fix, built and verified
+
+Mark asked how to close the citation-display gap this sweep found. Root
+cause: `citations_payload` is built at retrieval time
+(`_prepare_representative_turn`, `app/graph/nodes.py`) and shipped to the
+participant unfiltered — nothing ever checked whether the representative's
+actual generated text drew on what got retrieved. This codebase had already
+found and fixed the identical shape of bug once before, in the restricted-
+offer grounding mechanism (§6.4, FLAG-018 — "a citation proves a chunk was
+RETRIEVED for the turn, not that the voice SPOKE the term"), and the
+already-working `glosses_used` mechanism sits right next to the citation
+code doing exactly this kind of check for glosses. Citations were the one
+thing in that function that never got it.
+
+**Built:** `filter_grounded_citations()` (`app/graph/nodes.py`, next to
+`representative_engages`) — one batched `claude-haiku-4-5` call per turn,
+same numbered-candidate shape `app/rag/batch_evaluate.py` already uses for
+retrieval filtering, judging USED/NOT_USED per citation against the actual
+response text. Wired into both the streaming and non-streaming turn
+functions, right where `glosses_used` already runs. Fails open to the
+original unfiltered list on any error and per-citation on an unparsed
+line — showing an extra citation is the pre-existing behavior; the fix
+must never make a hiccup show *fewer* citations than before it existed.
+Only the participant-facing message payload is filtered; the internal
+retrieval-audit record (`RetrievedContext.citations`, what `/api/session/
+{id}/audit` shows a reviewer) is left untouched on purpose — that's a
+record of what was *considered*, and filtering it would blur the exact
+distinction this fix depends on.
+
+**Verified two ways before treating it as done:**
+1. **Real regression test against this sweep's own transcript data** — ran
+   `filter_grounded_citations` with the real API key on Mar Yausep's actual
+   round-2 response and its four shown citations. Result: correctly
+   dropped "Aphrahat's Anti-Jewish Demonstrations" (the clear mismatch this
+   report flagged) and also dropped "Catholicos / Catholicosate" and the
+   Jacob-of-Nisibis story (both softer misses this report had flagged as
+   borderline) — kept only "Iḥidaya," which the response speaks directly
+   ("more Iḥidaya"). Cost: ~$0.0015 (683 input / 158 output tokens, haiku
+   rates).
+2. **Full-pipeline smoke test under `mock_llm`** (free) — confirmed the
+   turn pipeline still returns cleanly with the new classifier call wired
+   in, and that a mock response (which never contains the USED/NOT_USED
+   markers) correctly fails open to the original unfiltered citation list,
+   matching pre-fix behavior exactly.
+
+**Not done, out of scope for this fix:** re-deploying and re-running a live
+sweep against the production site to confirm the improvement holds under
+real generation (would cost real money again for confirmation, not
+discovery — reasonable to defer to the next time this world's citations
+come up live, rather than spend again just to re-prove what the regression
+test already showed directly). The Hieronymian round-2 citation flagged
+above ("A Sunday Gathering in Rome," a title that reads as PAHC's) is a
+separate open question this fix does not address — it would be a retrieval-
+indexing question (is a candidate crossing world boundaries) rather than a
+display-grounding one, and needs its own look before assuming either
+explanation.
+
 ## Bottom line
 
 Four of five required worlds ran clean on every fundamental (direct answers,

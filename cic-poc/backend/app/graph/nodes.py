@@ -1327,6 +1327,105 @@ def _cached_system_message(
     return SystemMessage(content=blocks)
 
 
+_CITATION_GROUNDING_LINE_PATTERN = re.compile(
+    r"^\s*(\d+)\.\s*(USED|NOT_USED)\s*:?\s*(.*)$", re.IGNORECASE)
+
+
+def filter_grounded_citations(
+    citations_payload: list[dict],
+    response_text: str,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> list[dict]:
+    """
+    Post-generation citation-grounding check - the participant-facing
+    citation panel's own analog of find_glosses_used.
+
+    citations_payload is built at RETRIEVAL time (_prepare_representative_turn,
+    before generation exists to check against) from whatever the RAG filter
+    judged relevant to the turn, then shipped to the participant unfiltered.
+    That is the same "retrieved proves nothing about spoken" gap the
+    restricted-offer mechanism (plan_restricted_offer, S5.6/FLAG-018) found
+    and fixed for its own directive: a citation shown here is a promise that
+    clicking it leads somewhere connected to what the participant just read,
+    and retrieval alone cannot make that promise - only the generated text
+    can. Confirmed as a real, live gap by the 2026-08-01 Deep-Interview sweep
+    against the deployed site (Ministry/Features/Prototype-Testing/
+    CiC_Live_Deep_Interview_Sweep_5World_2026-08-01.md): 3 of 5 worlds
+    sampled showed a citation with no visible connection to that turn's text,
+    sharpest in Syriac (two unrelated sources shown in one turn).
+
+    Deterministic substring matching (find_glosses_used's own approach) does
+    not generalize here: gloss rendering carries an exact-wording requirement
+    baked into the record itself, but an ordinary citation does not - a
+    representative routinely paraphrases a lexicon term's content ("the
+    likeness" for "Likeness of God") or draws on a story's substance without
+    ever naming its title, so a literal-string check would under-catch both
+    classes. One batched haiku call judges USED/NOT_USED per citation
+    against the actual response text - the same numbered-candidate shape
+    app/rag/batch_evaluate.py already uses for retrieval filtering, reused
+    here rather than reinvented.
+
+    Fails open toward the ORIGINAL unfiltered list on any error (LLM call
+    failure, unparseable response) and per-citation on an unparsed line -
+    matching this codebase's own stated philosophy for exactly this shape of
+    guard (see evaluate_negative_conditions's docstring: fail toward the
+    state that existed before the guard, because a check that silently
+    disappears on error must never leave the participant worse off than if
+    it had never been added). Only an explicit NOT_USED verdict removes a
+    citation.
+    """
+    if not citations_payload:
+        return citations_payload
+
+    entries_block = "\n".join(
+        f"{i}. {c['type']}: {c['term']}"
+        for i, c in enumerate(citations_payload, start=1)
+    )
+    prompt = f"""A representative's response is below, followed by a numbered list of sources retrieved as background for this turn. For EACH source, decide independently: does the response actually draw on THIS source's own specific content - quoting it, paraphrasing its particular claim, or clearly relying on the story or idea it names - or did the response never really engage it, even if the general topic is related?
+
+Response:
+{response_text}
+
+Sources retrieved for this turn:
+
+{entries_block}
+
+For EACH numbered source, answer USED only if the response's own text is genuinely traceable to that source's specific content; otherwise NOT_USED. A shared general topic is not enough on its own - the response must actually reflect that particular source, not just something in its neighborhood.
+
+Respond with exactly {len(citations_payload)} lines, one per source:
+N. USED: <brief reason>
+or
+N. NOT_USED: <brief reason>
+
+Use the same numbering as above. Do not add commentary outside these lines."""
+
+    try:
+        llm = get_monitoring_llm()
+        response = llm.invoke(prompt)
+        log_llm_usage("citation_grounding", response, _MONITORING_MODEL,
+                       request_id=request_id, session_id=session_id)
+    except Exception:
+        return citations_payload
+
+    parsed_positions: set[int] = set()
+    used_positions: set[int] = set()
+    for line in response.content.strip().split("\n"):
+        match = _CITATION_GROUNDING_LINE_PATTERN.match(line)
+        if not match:
+            continue
+        position = int(match.group(1))
+        parsed_positions.add(position)
+        if match.group(2).upper() == "USED":
+            used_positions.add(position)
+
+    return [
+        c for i, c in enumerate(citations_payload, start=1)
+        if i not in parsed_positions or i in used_positions
+    ]
+
+
 def representative_engages(state: ConversationState, is_reactive: bool = False,
                             request_id: str | None = None) -> dict:
     """
@@ -1357,20 +1456,23 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
         _cached_system_message(ctx["static_prompt"], ctx["reactive_guidance_block"], ctx["dynamic_prompt"]),
         HumanMessage(content=ctx["continuation"]),
     ])
+    response_text = response.content if isinstance(response.content, str) else str(response.content)
     log_llm_usage("main_response", response, settings.llm_model,
                    request_id=request_id, session_id=state.session_id)
     _log_llm_call(request_id, state.session_id, ctx["current_world_id"],
-                   ctx["rep_message_name"], response.content if isinstance(response.content, str) else str(response.content))
+                   ctx["rep_message_name"], response_text)
 
     message_kwargs = {}
     if ctx["citations_payload"]:
-        message_kwargs["citations"] = ctx["citations_payload"]
+        grounded_citations = filter_grounded_citations(
+            ctx["citations_payload"], response_text,
+            request_id=request_id, session_id=state.session_id,
+        )
+        if grounded_citations:
+            message_kwargs["citations"] = grounded_citations
     if ctx["retrieval_audit_payload"]:
         message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
-    glosses_used = find_glosses_used(
-        ctx["current_world_id"],
-        response.content if isinstance(response.content, str) else str(response.content),
-    )
+    glosses_used = find_glosses_used(ctx["current_world_id"], response_text)
     if glosses_used:
         message_kwargs["glosses_used"] = glosses_used
 
@@ -1644,7 +1746,12 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
 
     message_kwargs = {}
     if ctx["citations_payload"]:
-        message_kwargs["citations"] = ctx["citations_payload"]
+        grounded_citations = filter_grounded_citations(
+            ctx["citations_payload"], full_text,
+            request_id=request_id, session_id=state.session_id,
+        )
+        if grounded_citations:
+            message_kwargs["citations"] = grounded_citations
     if ctx["retrieval_audit_payload"]:
         message_kwargs["retrieval_audit"] = ctx["retrieval_audit_payload"]
     glosses_used = find_glosses_used(ctx["current_world_id"], full_text)

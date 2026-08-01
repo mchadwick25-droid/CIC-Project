@@ -15,10 +15,11 @@ detection, lexicon/story retrieval filtering) is already written to fail
 open to a safe default when its expected response format isn't found in the
 LLM's reply - see each function's own docstring. The placeholder text below
 deliberately contains none of those format markers (TURN_TYPE:, NEXT_SPEAKER:,
-FRAME_BREAKER, DRIFT_DETECTED, CONVERGENCE_DETECTED:, N. RETRIEVE:/N. SKIP:),
-so every one of those call sites safely takes its documented default path
-instead of crashing or hanging - only the actual representative/facilitator
-generation calls need a real, visible placeholder response.
+FRAME_BREAKER, DRIFT_DETECTED, CONVERGENCE_DETECTED:, N. RETRIEVE:/N. SKIP:,
+N. USED:/N. NOT_USED:), so every one of those call sites safely takes its
+documented default path instead of crashing or hanging - only the actual
+representative/facilitator generation calls need a real, visible placeholder
+response.
 """
 
 from typing import Iterator
