@@ -156,6 +156,22 @@ check of the real Living Table build in a running conversation — see LT-1.
         build it around. Revisit once real B-COST/pilot data exists.
 
 
+- [x] **DONE 2026-08-01 — Table size permanently capped at 3 (down from the original
+      5-world design ceiling), cost-driven.** Live cost proved too high at 5 (see SH-2's
+      PAHC entry above — TRR partner-count compounds every world frozen). **App already
+      enforced 3 functionally** (`WorldSelector.tsx` `MAX_WORLDS = 3`,
+      `main.py` `world_ids[:3]`) — no code-behavior gap. Fixed the stale framing that
+      called 3 a temporary "Phase 1" placeholder awaiting a raise to 5: both code
+      comments and `wrs/parameters.yaml`'s `table_size_ceiling` entry (`design_value: 5`
+      marked RETIRED, kept not deleted, per that file's own citation discipline).
+      **Not touched, flagged instead:** the master design doc
+      (`L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx`, a
+      binary `.docx`), and several other threads' own specs still describing a 5-world
+      table (Front-End-Integration-Strategy, In-App-Icons-Graphics, Full-UX-Design, the
+      original World-Build construction docs) — owned elsewhere, not edited here. A
+      `CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` already exists alongside the
+      master doc — unchecked, worth Mark confirming whether it already covers this.
+      Full account: Decision Log, 2026-08-01.
 - [x] **DONE 2026-07-21 — Live adversarial testing of the Acute-Distress/Harmful-Dynamic
       mechanism run: 19/20 clean, real API calls, all 5 worlds, both endpoints.** Closes
       the one real gap under the "crisis handoff" cluster. Covered: A1/A2/continuation on

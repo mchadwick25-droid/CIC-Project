@@ -4491,3 +4491,102 @@ record), smallest new-authoring load; Alexandria's retrieval-economics win arriv
 with R7 regardless of order. Presented singly with two alternatives (Alexandria;
 Syriac). Recorded before S2.1 proceeds, per the blueprint §1 M rule. Full context:
 `Ministry/Technology/Pass2/decisions/M2_first_migration_world.md`.
+
+## 2026-08-01 — SH-2 status: 2 of the 3 remaining worlds (Hieronymian, PAHC) frozen and pushed; Imperial-Juridical confirmed not started
+
+**What happened:** Mark reported one of the 3 remaining Pass-2 worlds (SH-2, the
+Fable-track "rebuild the 3 remaining worlds" item) completed and pushed, with a second
+almost done. Checked narrowly at Mark's direct request (he asked this thread to verify
+pushes, not just log claims): fetched `origin/main` and confirmed by commit ancestry.
+
+**Hieronymian (world 4 of 6):** frozen, confirmed on `origin/main` (`2959592`,
+2026-07-31) — first world authored end-to-end under the new alias-safety gate (VG-1/
+VG-2 addendum), opened and closed at zero, no VG-2-style retrofit needed. Matches
+Mark's report exactly.
+
+**PAHC/Chloe (world 5 of 6):** turned out to be further along than "almost done" —
+already frozen, final, and pushed (`6760e6f`, 2026-07-31), confirmed on `origin/main`.
+Flagged the discrepancy to Mark directly rather than silently overwriting his report;
+Mark then pasted the build thread's own freeze declaration confirming it, matching the
+independent git check exactly. Headline: 41-item blind-graded battery (Trial A 19/2/0,
+Trial B 19/0/1), all three REQUIRED probes passed (harsh-retest refusal, Marcion/New
+Prophecy as lived contemporaries not canon-framed, W1 relational-safety re-verify
+closed), the Chloe-of-Corinth collision probe held cold with no guard (the class
+Albina needed a fix for), fleet's first QUAD-partner TRR (12/12 axes PASS across
+Desert/Alexandria/Syriac/Hieronymian pairings), one non-blocking system tic found and
+fixed (FLAG-034, a re-clarify interjection loop misread as prior-turn repair), and
+Decision PAHC-5 (an enforcing 150-word ceiling — the first world whose measured
+runtime register, 246–272 words, contradicted its own designed 70-word target). Full
+fleet sweep at freeze: 641/641 records valid, glosses 88/88, gates 0×7, retrieval
+metric-identical to baseline.
+
+**Mark's two freeze-gate decisions, recorded:** Article 29 (living_traditions/
+universal-descent framing) — **confirmed**. Article 31 (external review) — **deferred
+to year two, aspirational by design**; this pattern is now saved to project memory so
+future freeze declarations treat provisional telos as by-design rather than listing it
+as an open item each time (Article 29 confirmations stay per-world, not memorized).
+
+**Imperial-Juridical (world 6 of 6):** confirmed not started — no `S6.2/IJ` commits
+anywhere on `origin/main`. This is the one genuinely remaining piece of SH-2. Opens on
+Mark's word; after it, the addendum's §4.3 gloss data move → Rule C → term_id backfill
+closes out S6.2 entirely.
+
+**Fleet status as of this entry:** five of six worlds frozen (Desert, Alexandria,
+Syriac, Hieronymian, PAHC), all running from the record store, everything on
+`origin/main`. Full detail lives in the Pass-2 thread's own ledger:
+`Ministry/Technology/Pass2/BUILD_STATE.md`, `WAITING_ON_MARK.md`,
+`gates/S6.2_PAHC_FREEZE_DECLARATION.md` (note: `WAITING_ON_MARK.md` on `origin/main`
+still ends at the Hieronymian entry as of this check — a documentation lag one step
+behind the actual commit history, not a discrepancy in the work itself).
+
+## 2026-08-01 — Table size permanently capped at 3 (down from the original 5-world design ceiling), cost-driven
+
+**Decision (Mark):** the Table was originally designed for up to 5 worlds/
+representatives at once (`L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_
+Document_V2.3.docx`: "The ceiling is five worlds at any one Table"). Live cost has
+proven too high at that scale — most recently visible in the PAHC freeze battery's
+$30 spend vs. the usual $5-10 (see the entry above; TRR partner-count compounds
+every world). **3 is now the permanent table-size ceiling, not a Phase-1 placeholder
+awaiting a later raise to 5.**
+
+**What was checked before acting:** the running app already enforces 3, functionally
+— `cic-poc/frontend/src/components/WorldSelector.tsx` (`MAX_WORLDS = 3`) and
+`cic-poc/backend/app/main.py` (`request.world_ids[:3]`) both already cap selection at
+3. There was no functional gap. What was stale was the *framing*: both places'
+comments, plus `cic-poc/backend/wrs/parameters.yaml`'s `table_size_ceiling` entry,
+described 3 as a temporary "Prototype/Phase 1 scope" limit with 5 still recorded as
+the eventual design target.
+
+**Fixed (low-risk, comment/framing only, no behavior change):**
+- `WorldSelector.tsx`'s `MAX_WORLDS` comment — now states the cap is permanent and
+  cost-driven, not a placeholder.
+- `main.py`'s `world_ids[:3]` comment — same correction.
+- `wrs/parameters.yaml`'s `table_size_ceiling` entry — `design_value: 5` marked
+  RETIRED with a dated status note (kept, not deleted, per that file's own
+  never-in-place-edit convention for settled/sourced values — the retirement is new
+  data, not an erasure of the old citation); `current_phase_value: 3` annotated as
+  now permanent.
+
+**Not touched, flagged instead — owned elsewhere or not text-editable:**
+- `L3D-Encounter-Methodology/CiC_L3D_The_Table_Design_Document_V2.3.docx` — the
+  master design doc asserting the "five worlds" ceiling; it's a binary `.docx`, not
+  text-editable here.
+- A file already exists in that same folder, `CiC_L3D_Table_Process_
+  ThreeRepresentative_V1.0.md` — not checked in depth; worth Mark confirming whether
+  it already reflects this decision or is something separate.
+- Other docs the initial search surfaced still describing a 5-world table
+  (`Ministry/Features/Front-End-Integration-Strategy/`, `Ministry/Features/
+  In-App-Icons-Graphics/`, `Ministry/Features/Full-UX-Design/`, the original
+  World-Build construction docs) — owned by their respective threads, not edited
+  here.
+- `Ministry/Technology/CiC_System_Redesign_Pass1_Design_2026-07-26.md` and
+  `..._Pass2_Blueprint_2026-07-26.md` — both are that thread's own deliberately-frozen
+  settled inputs (per its own stated rule: defects get filed as `FLAGS.md` entries,
+  never in-place edits), so not touched here either; that thread already has a
+  standing flag for exactly this kind of fold-in, queued for when it reaches a
+  stopping point.
+
+**Net effect:** the actual product behavior was already correct; this pass corrects
+the documentation trail so nothing still implies 3 is a stopgap. The full reconciliation
+across other threads' owned specs and the master `.docx` remains open — a candidate for
+a dedicated cleanup pass if Mark wants one.

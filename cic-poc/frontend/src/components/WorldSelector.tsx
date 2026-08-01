@@ -13,8 +13,9 @@ import { WORLD_MEDIA } from '../data/worldMedia';
 
 const API_BASE = '/api';
 
-// Prototype/Phase 1 scope cap - kept at 3 (not the full design ceiling of 5)
-// to keep cost and conversational complexity manageable at this stage.
+// Hard cap, permanent (Mark's decision 2026-08-01): the original design
+// ceiling of 5 worlds proved too expensive per-conversation; 3 is now the
+// cap, not a Phase-1 placeholder awaiting a raise to 5.
 const MAX_WORLDS = 3;
 
 // World.period is a display string ("c. 312–451 CE", "70–200 CE") - the
