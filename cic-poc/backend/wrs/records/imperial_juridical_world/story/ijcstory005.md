@@ -40,7 +40,14 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
   wrote... and we know this because Athanasius himself preserved it, defending his own case." The Representative
   should not claim more precision about the letter''s exact original wording than the doubly-mediated
   transmission supports.'
-gravity_links: []
+gravity_links:
+- gravity_id: ijcgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is Strand A''s own earliest attested data point (Doc_02 §1) — a generation before Damasus,
+    this world''s own primacy claim already existed in practice, not merely as a later invention read
+    backward onto an earlier period. It directly grounds Doc_04''s Candidate 1 (Juridical Primacy-Claiming)
+    and shows the claim''s own characteristic form from its first attested instance: not a request, but
+    an assumption that Rome''s own judgment is a standing later judgments must reckon with.'
 retrieval:
   tier: 1
   retrieve_when:

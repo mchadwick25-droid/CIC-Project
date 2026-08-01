@@ -44,7 +44,15 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
   asks "which one really happened" is not to pick one, but to hold both as this world''s own earliest
   actors held them — as two near-contemporary tellings of the same transformative event, agreeing on its
   consequence far more than on its precise form.'
-gravity_links: []
+gravity_links:
+- gravity_id: ijcgrav002
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This story matters to this world''s own record precisely because it does not agree with `ijcstory001`
+    in its specifics, and this world''s own founding moment is, on the documentary evidence, genuinely
+    unsettled at exactly the level of detail a later, harmonized telling would need to invent to smooth
+    over. It is direct evidence against treating this world''s own initiating event as a single, clean,
+    agreed-upon story — and for treating Candidate 2 (Church-State Alliance and Its Limits) as resting
+    on a real but genuinely contested founding account, not a settled one.'
 retrieval:
   tier: 1
   retrieve_when:

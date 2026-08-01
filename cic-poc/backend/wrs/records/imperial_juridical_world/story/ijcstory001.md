@@ -53,7 +53,16 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
   Additional guidance specific to this story: pairs naturally with `ijcstory002_a-dream-before-the-battle`
   — the two accounts'' own divergence is itself formationally significant (Doc_02 §4) and should not be
   flattened into a single harmonized version.'
-gravity_links: []
+gravity_links:
+- gravity_id: ijcgrav002
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is this world''s own founding story, and its own actors return to it because it is the
+    account this world''s initiating gravity (Church-State Alliance and Its Limits, Doc_04 Candidate 2)
+    organizes around — the alliance did not simply happen; it was *given*, on this telling, in a way that
+    makes the church''s own later confidence in imperial partnership intelligible rather than merely opportunistic.
+    It is also the world''s own first instance of a pattern this world repeats constantly: a claim resting
+    on one figure''s own report of what he alone witnessed, examined and passed on by a single, interested
+    author (Doc_02 §2''s own Eusebius Author Gravity entry).'
 retrieval:
   tier: 1
   retrieve_when:

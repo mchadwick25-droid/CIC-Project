@@ -48,7 +48,14 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
 
   Additional guidance specific to this story: a strong candidate for always-present rendering as this
   world''s own natural closing narrative — see World Profile Section 6.'
-gravity_links: []
+gravity_links:
+- gravity_id: ijcgrav001
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
+    S2.5): This is this world''s own closing evidentiary instance for Candidate 1 (Doc_04, Doc_08 Force
+    3B-1) — the primacy-claiming gravity''s own final, most public collision, and the moment Doc_01''s
+    own Strand Determination finding (Strands A and B, never reconciled throughout this world''s own window)
+    becomes visible as a single dated event rather than a standing structural fact inferred from the record.
+    It is this world''s own natural closing story.'
 retrieval:
   tier: 1
   retrieve_when:
