@@ -411,7 +411,58 @@ def gate_alias_safety(records: dict, voice_material: str = "") -> list:
                            f"{', '.join(owners)} (one world map, one "
                            f"winner: whichever indexes last silently "
                            f"steals the key)")
+        # ---- Rule C (VG-1c / Voice-Governance Addendum SS5.5, landed at
+        # the S6.2 tail 2026-08-01, after the SS4.3 data move): the
+        # gloss/alias cross-namespace check. For each confirmed-gloss
+        # entry in this world CARRYING term_id, the gloss's own
+        # original-term key must not collide with a DIFFERENT term's
+        # key space (term-name or post-parse alias): a participant
+        # saying the glossed word would be alias-matched to the wrong
+        # term. Entries without term_id are SKIPPED and counted as a
+        # note (pending the term_id backfill) - never silent, never a
+        # violation, per the S3.1 backfill rule.
+        glosses = _confirmed_glosses_for(world)
+        pending = 0
+        for ge in glosses:
+            tid = ge.get("term_id")
+            if not tid:
+                pending += 1
+                continue
+            gkey = _DETERMINER_RE.sub("", ge["original"].lower()).strip()
+            for k, owners in claims.items():
+                if k == gkey and any(o != tid for o in owners):
+                    others = sorted(o for o in set(owners) if o != tid)
+                    out.append(
+                        f"{world}: Rule C - gloss original "
+                        f"{ge['original']!r} (term_id {tid}) collides "
+                        f"with {', '.join(others)}'s own key space")
+        if pending:
+            out.append(f"{_NOTE_PREFIX} {world}: Rule C - {pending} "
+                       f"gloss entr{'y' if pending == 1 else 'ies'} "
+                       f"without term_id skipped (pending the backfill; "
+                       f"reported not suppressed)")
     return out
+
+
+def _confirmed_glosses_for(world_id: str) -> list:
+    """The SS4.3 keyed list, world-filtered - loaded lazily and cached;
+    fail-open to [] so a missing file never breaks the alias gate's
+    A/B rules (Rule C simply has nothing to check)."""
+    global _GLOSS_CACHE
+    if _GLOSS_CACHE is None:
+        try:
+            import yaml
+            from pathlib import Path
+            path = (Path(__file__).resolve().parents[1] / "glosses"
+                    / "confirmed_glosses.yaml")
+            _GLOSS_CACHE = yaml.safe_load(
+                path.read_text(encoding="utf-8"))["glosses"]
+        except Exception:
+            _GLOSS_CACHE = []
+    return [g for g in _GLOSS_CACHE if g.get("world_id") == world_id]
+
+
+_GLOSS_CACHE = None
 
 
 def split_alias_reports(entries: list) -> tuple:
