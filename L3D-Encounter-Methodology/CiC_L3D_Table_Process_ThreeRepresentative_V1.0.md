@@ -3,7 +3,7 @@
 ### Version 1.0
 
 **Governed by:** CiC_L3D_The_Table_Design_Document_V2.3, CiC_L3D_Facilitator_Governance_V3.6.
-**Scope:** This document specifies the process for a Table configured with exactly three worlds — the Facilitator and the Participant, in conversation with three Representatives. This is the maximum table size for the Prototype and Phase 1 releases (see Section 7). It specifies what is distinct about turn-taking, drift monitoring, and conversational shape at this table size; it does not restate general principles already covered by the parent documents.
+**Scope:** This document specifies the process for a Table configured with exactly three worlds — the Facilitator and the Participant, in conversation with three Representatives. This is the permanent maximum table size (see Section 7). It specifies what is distinct about turn-taking, drift monitoring, and conversational shape at this table size; it does not restate general principles already covered by the parent documents.
 
 ---
 
@@ -63,12 +63,12 @@ Live testing initially used a 6-turn maximum. At that length, later turns in a r
 
 ---
 
-## 7. Table Size Ceiling — Prototype and Phase 1 Scope
+## 7. Table Size Ceiling — Permanent
 
-CiC_L3D_The_Table_Design_Document_V2.3 Section 2 specifies a design ceiling of five worlds per table. For the Prototype and Phase 1 releases, the project lead has set the operative ceiling at three worlds, not five, to keep cost and conversational complexity manageable while the turn-management mechanism described in this document family is still being validated live. This is a scope decision for the current implementation phase, not a revision to the design document's own ceiling — CiC_L3D_The_Table_Design_Document_V2.3 Section 11 (Phase Implementation) already anticipates Prototype Alpha operating at "one to three worlds"; this document extends that same three-world ceiling through Phase 1 as well, ahead of any future phase where the full five-world ceiling might be revisited.
+CiC_L3D_The_Table_Design_Document_V2.3 Section 2 originally specified a design ceiling of five worlds per table. That ceiling is now **RETIRED (Mark's decision, 2026-08-01, cost-driven)** — live cost proved too high at greater table sizes (the multi-world table-relay retest gets more expensive with every additional world, since it must be re-verified live against every previously-frozen world). **Three worlds is the permanent table-size ceiling, not a Prototype/Phase 1 placeholder awaiting a later raise to five.** CiC_L3D_The_Table_Design_Document_V2.3 Section 11 (Phase Implementation) already anticipated Prototype Alpha operating at "one to three worlds"; this document's own three-world ceiling was, in retrospect, already the right permanent number — only its framing as temporary needed correcting. Full account: System Hub Decision Log, 2026-08-01.
 
 ---
 
 ## Constitutional and Design Grounding
 
-This document specifies implementation detail within the scope already granted by CiC_L3D_The_Table_Design_Document_V2.3 Sections 2-8 and Facilitator Governance V3.6 Sections 8 and 10. It introduces the concrete minimum (3) and maximum (4) turn counts per round for this table size, the breadth-of-voice selection preference in Section 2, and documents the turn-cap/extended-thinking incident as the empirical basis for the current maximum. It also records, in Section 7, the project lead's scope decision capping table size at three worlds through Phase 1, distinct from the design ceiling of five that CiC_L3D_The_Table_Design_Document_V2.3 specifies for the completed vision.
+This document specifies implementation detail within the scope already granted by CiC_L3D_The_Table_Design_Document_V2.3 Sections 2-8 and Facilitator Governance V3.6 Sections 8 and 10. It introduces the concrete minimum (3) and maximum (4) turn counts per round for this table size, the breadth-of-voice selection preference in Section 2, and documents the turn-cap/extended-thinking incident as the empirical basis for the current maximum. It also records, in Section 7, the permanent table-size cap at three worlds (Mark's decision, 2026-08-01), which retires the design ceiling of five that CiC_L3D_The_Table_Design_Document_V2.3 previously specified for the completed vision.
