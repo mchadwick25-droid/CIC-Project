@@ -74,7 +74,10 @@ check of the real Living Table build in a running conversation — see LT-1.
         parser/gate/schema instead of needing a VG-2-style retrofit after. Briefing sent
         this session, ahead of the reset — see System Hub Decision Log.
       - **SH-2 — Rebuild the 3 remaining worlds** (Step 3 proper) once SH-1 lands. ~30-35%
-        of a weekly budget per Mark's own earlier estimate.
+        of a weekly budget per Mark's own earlier estimate. **DONE 2026-08-01 — all 3 landed
+        (Hieronymian, PAHC, then Imperial-Juridical last, frozen 2026-08-01).** The S6.2
+        migration itself is now fully complete across **all 6 worlds**, not just these 3 —
+        see the new dated entry below and Decision Log, 2026-08-01, for the full account.
 
       **Sonnet/System-Hub-track (no Fable budget needed):**
       - **SH-3 — Go live on the current pilot site**, run real tests to verify both cost
@@ -156,6 +159,38 @@ check of the real Living Table build in a running conversation — see LT-1.
         build it around. Revisit once real B-COST/pilot data exists.
 
 
+- [x] **DONE 2026-08-01 — S6.2 record-store migration COMPLETE: all 6 live worlds now run
+      production from a schema-validated record store, not hand-authored files.** Every
+      world's voice, lexicon, stories, gravities, and contested claims used to live as
+      hand-authored prompt text and data with no shared schema and no cross-check. It now
+      lives in `cic-poc/backend/wrs/records/` — schema-checked, gate-checked, and the actual
+      source the deployed prompts/chunks generate from. All six worlds migrated, frozen, and
+      live-tested against the deployed site, in order: **Desert (Papnoute), Alexandria
+      (Theon), Syriac (Mar Yausep), Hieronymian (Albina), PAHC/House-Church (Chloe),
+      Imperial-Juridical (Marius, frozen last, 2026-08-01)** — each through the same
+      pipeline (source rows → lexicon → stories/figures → gravities/forces → contested
+      claims → voice → facilitation guidance → live chunk swap → blind-graded freeze
+      battery → Table Readiness Round), each closed with its own signed freeze declaration
+      (`Ministry/Technology/Pass2/gates/S6.2_<WORLD>_FREEZE_DECLARATION.md`).
+      **Real regressions found and fixed along the way, not just a clean migration story:**
+      per-world prompt gaps caught by cold adversarial probing (a naming-collision capture
+      on Hieronymian then PAHC; a post-window "your vindication" framing that defeated IJC's
+      own horizon rule; a full-context-dilution family on IJC needing two guard layers plus
+      a prompt sharpening); a live alias-safety gate built and retrofitted fleet-wide after
+      catching real over-broad highlighting bugs already in production (Syriac's bare
+      "truth"/"mystery"/"symbol" firing on ordinary English); and a real go-live regression
+      the same day — the gloss-data move made a YAML file a genuine runtime dependency, but
+      the Dockerfile never copied `wrs/` into the image, breaking every deploy until
+      root-caused from the real Render build-log traceback and fixed (PR #3, merged).
+      **Standing policies set during this arc:** table size hard-capped at 3 (see the entry
+      below); Table Readiness Rounds are cost-capped — sample the partner set, never one
+      table per frozen world; Article 31 (telos) review stays provisional by design until
+      year two, not a freeze blocker. **Honestly not done yet:** the multi-world Table shape
+      itself was not re-tested live against the deployed site (deliberately deferred — it
+      already gets real adversarial testing inside each world's own freeze-battery TRR); a
+      retrieval-embedding improvement and two Alexandria-adjacent schema change orders are
+      proposed, not built, awaiting Mark's word. Full technical ledger:
+      `Ministry/Technology/Pass2/BUILD_STATE.md`. Full account: Decision Log, 2026-08-01.
 - [x] **DONE 2026-08-01 — Table size permanently capped at 3 (down from the original
       5-world design ceiling), cost-driven.** Live cost proved too high at 5 (see SH-2's
       PAHC entry above — TRR partner-count compounds every world frozen). **App already

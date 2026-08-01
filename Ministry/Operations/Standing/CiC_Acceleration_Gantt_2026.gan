@@ -27,7 +27,15 @@ in the System Hub Decision Log for that detail. Deliberately NOT re-cascaded: ta
 (Reformation worlds, and every cross-track dependent in Validation/Funding/Engineering) stays on its
 original dates -- world-building is now running ahead of them, which just means real slack exists
 downstream, not a broken schedule. Pulling the rest of the calendar forward to use that slack is a
-real pacing decision, not a data-entry one -- left for Mark, not decided here.]]></description>
+real pacing decision, not a data-entry one -- left for Mark, not decided here.
+2026-08-01 (later): the S6.2 record-store migration is COMPLETE -- all 6 live worlds (Desert,
+Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) now run production from a
+schema-validated record store instead of hand-authored files, each migrated/frozen/live-tested
+in turn, Imperial-Juridical last (2026-08-01). This is a distinct axis from the "Ancient worlds
+5-9" track above -- it upgrades the 6 worlds already built, it does not build new ones -- so it's
+tracked as its own new task (219) under World Building rather than folded into 202-206. Synced
+from a handoff report the Pass2/Fable thread prepared for System Hub; full account: System Hub
+Decision Log, 2026-08-01 (later still).]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="240" order="0"/>
         <field id="tpd4" name="Begin date" width="90" order="1"/>
@@ -133,6 +141,7 @@ real pacing decision, not a data-entry one -- left for Mark, not decided here.]]
             </task>
             <task id="217" name="Build freeze + final upgrade pass" color="#00cc44" meeting="false" start="2026-12-01" duration="4" complete="0" expand="true"/>
             <task id="218" name="Weekly quality-upgrade batches (ongoing)" color="#ccffcc" meeting="false" start="2026-08-03" duration="99" complete="0" expand="true"/>
+            <task id="219" name="DONE — S6.2 record-store migration: all 6 live worlds (Desert, Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) migrated, frozen, and live-tested against the deployed site" color="#00cc44" meeting="false" start="2026-08-01" duration="1" complete="100" expand="true"/>
         </task>
         <task id="300" name="C - VALIDATION (Article 31)" color="#ff9933" meeting="false" start="2026-07-17" duration="109" complete="0" expand="true">
             <task id="301" name="Reviewer brief (one page) - MOST TIME-CRITICAL" color="#ff9933" meeting="false" start="2026-07-17" duration="2" complete="75" expand="true">
