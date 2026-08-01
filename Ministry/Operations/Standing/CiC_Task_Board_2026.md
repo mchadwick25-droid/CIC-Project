@@ -793,10 +793,15 @@ check of the real Living Table build in a running conversation — see LT-1.
       once it starts — no new outreach until ~Aug 10 from that point.
 - [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
       existing; his August matters.
-- [ ] **202–206 — Ancient worlds 5–9** (from Aug 3, sequential, ~6 working days each
-      including battery + deployment gates). **Alexandria (Doc_01-09 complete
-      2026-07-17) is already ahead of this Aug 3 start** — likely fills the "world 5"
-      slot rather than waiting for it; needs your confirmation (see DO NOW).
+- [ ] **202–206 — Ancient worlds 5–9, 2 of 5 now DONE per Mark's direct report
+      (2026-08-01): 6 of 9 total Ancient-world (Eras 1-2, first 4 centuries) builds
+      complete.** Which specific worlds fill the "world 5" and "world 6" slots isn't
+      individually tracked here — Alexandria (Doc_01-09 complete 2026-07-17) was already
+      flagged as the likely "world 5" candidate before this report; the Fable/Pass2
+      fleet's own real per-world freeze dates (Decision Log) are the authoritative source
+      if the exact mapping ever matters. **3 remain: world 7–9**, now slid forward to
+      start 2026-08-03 instead of waiting for 2026-08-19 (the schedule is running ahead,
+      not behind). Gantt tasks 202/203 marked complete, 204–206 rescheduled to match.
 - [ ] **201 — Guided starters: ALL 4 WORLDS DRAFTED 2026-07-16 (75%)** — pulled 3 weeks
       left. `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic),
       `Guided_Starters_V0_1_DRAFT.md` (Syriac), `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
