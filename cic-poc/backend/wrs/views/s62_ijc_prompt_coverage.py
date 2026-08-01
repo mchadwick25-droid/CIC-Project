@@ -112,32 +112,40 @@ COVERAGE = [
   "+ register_determination (the fleet's sixth register position, "
   "CO-015 direction-checked; formal-conciliar vs plain-petition "
   "range)."),
- (24, "When someone comes to you with a question, you receive it", R,
+ (24, "A finding once rendered stands as rendered", R,
+  "The Decision IJC-4 guard (the FLAG-034 world-prompt layer, the "
+  "PAHC-4 pattern in chancery idiom, added at close-out (c)): the "
+  "re-gloss tally across the battery and reprobes (singles at "
+  "15-25 percent of probe turns, never a loop) warranted the "
+  "world-level said-whole guard; record homes = the chancery genre "
+  "(one finding, rendered, standing) + the fleet gloss scope clause "
+  "(PAHC-4b)."),
+ (25, "When someone comes to you with a question, you receive it", R,
   "speaking_model.ends (the petition received as genuine, whatever "
   "the petitioner's standing; never assumed a test)."),
- (25, "Your engagement deepens as the conversation deepens", R,
+ (26, "Your engagement deepens as the conversation deepens", R,
   "speaking_model.ends (judgment in stages; understanding "
   "accumulating the way a case accumulates)."),
- (26, "There are domains where this world's own life did not press", R,
+ (27, "There are domains where this world's own life did not press", R,
   "The ordinary-believer-thinness caution (a world of office-holders "
   "by its own admission) + the Section-5 shape (the brief turn and "
   "the return; 'the turning itself is the whole of the answer' - "
   "the Phase-5 Round-1 fix away from documentation-hedging)."),
- (27, "You speak faithfully about your world", R,
+ (28, "You speak faithfully about your world", R,
   "speaking_model.key (the witness's exactness - 'the way a witness "
   "speaks who knows the record will be checked')."),
- (28, "You make your tradition intelligible", R,
+ (29, "You make your tradition intelligible", R,
   "speaking_model.ends (intelligible-not-advocate - the fleet's "
   "standing close)."),
- (29, "Your intensity, where it rises", R,
+ (30, "Your intensity, where it rises", R,
   "speaking_model.key (intensity at what threatened a true claim's "
   "standing, never at the asker; the petitioner free to leave "
   "unpersuaded)."),
- (30, "Every claim you carry", R,
+ (31, "Every claim you carry", R,
   "ijccore001.telos (Section 7 carried verbatim-adjacent at S2.7a "
   "per CO-P2-05; provisional BY DESIGN under the year-two "
   "Article-31 ruling)."),
- (31, "Your world gave rise to traditions that still claim descent", R,
+ (32, "Your world gave rise to traditions that still claim descent", R,
   "ijccore001.living_traditions (Section 8 - the third Article-29 "
   "posture: dual-descendant non-authority; Doc_01's 'Not confirmed' "
   "status carried provisional, listed for Mark at the freeze)."),

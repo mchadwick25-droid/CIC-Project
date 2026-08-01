@@ -1519,11 +1519,23 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                            # (retry >225w) pulls the voice toward its own
                            # designed measure; expected elevated retry rate
                            # initially, re-measure at first production review.
-                           "post-apostolic-house-church": 150}
+                           "post-apostolic-house-church": 150,
+                           # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
+                           # a MODERATE enforcing ceiling - no designed
+                           # answer cap exists (the prompt caps sentence
+                           # length; Section 4 stages the judgment), and
+                           # the battery measured 251-256w mean / 389 max.
+                           # 180 sits above the fleet band (the chancery's
+                           # numbered-points genre warrants more than the
+                           # household's handful) and below the measured
+                           # mean (pulls the long tail toward the staged
+                           # design). Re-measure at first production review.
+                           "imperial-juridical-christianity": 180}
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
                                "alexandria-catechetical": 1.2,
                                "syriac-edessa-nisibis": 1.2,
-                               "post-apostolic-house-church": 1.5}
+                               "post-apostolic-house-church": 1.5,
+                               "imperial-juridical-christianity": 1.5}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
