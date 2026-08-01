@@ -439,7 +439,8 @@ def gate_alias_safety(records: dict, voice_material: str = "") -> list:
         if pending:
             out.append(f"{_NOTE_PREFIX} {world}: Rule C - {pending} "
                        f"gloss entr{'y' if pending == 1 else 'ies'} "
-                       f"without term_id skipped (pending the backfill; "
+                       f"without term_id skipped (the no-term-home "
+                       f"circumlocution class, or pending backfill; "
                        f"reported not suppressed)")
     return out
 
