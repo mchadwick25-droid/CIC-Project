@@ -146,7 +146,9 @@ telos:
   status: provisional
   review_flag: 'Article 31: no external scholarly review of this derivation exists; carried provisional
     per the fleet''s standing pattern. The derivation''s world-specificity is strong on its face (letter/water/table
-    are this world''s own three handed things) but unreviewed.'
+    are this world''s own three handed things) but unreviewed. PROJECT-LEAD DECISION (Mark, 2026-07-31,
+    at the freeze): Article-31 external review is ASPIRATIONAL, scheduled for year two - the provisional
+    status is by design, not an open blocker.'
 living_traditions:
   text: 'The INVERSE of a no-descendants world: what this world lived gave rise, in time, to every church
     that would come after it - all of them, in their many and disagreeing forms, look back to rooms like
@@ -157,12 +159,12 @@ living_traditions:
     there.'' Because EVERY living tradition is downstream, the neither-anticipates-nor-adjudicates rule
     binds harder here than anywhere in the fleet: no denomination, council, canon decision, or later office
     is recognized, ranked, or claimed.'
-  status: provisional
-  review_flag: 'DECLARED - the Article-29 gate''s FOURTH state: unlike SYR''s project-lead-confirmed status
-    and HAL''s independently-reviewed NA, no dedicated Article-29-style confirmation of the universal-descent
-    framing was located in the W1 record (the prompt''s cold review covered its text, not the Living-Tradition
-    determination as its own gate). Carried provisional; the freeze declaration must list it as an open
-    item for project-lead confirmation.'
+  status: confirmed
+  review_flag: 'CONFIRMED by the project lead (Mark, 2026-07-31, at the freeze declaration): the universal-descent
+    framing with the non-identity discipline stands as the world''s Living-Tradition determination. History:
+    carried PROVISIONAL from S2.7a as the Article-29 gate''s fourth state (no dedicated W1 confirmation
+    located; the freeze declaration listed it, and the confirmation closed it - the gate''s state count
+    returns to three: open / confirmed / NA).'
 ---
 STRAND NOTE - THE FIRST STRAND-PLURAL WORLD IN THE MIGRATED FLEET: Doc_01 SS6 records internal strands rather than declaring strand-singular - regional connectedness justifies one world; regional differentiation (Bauer 1934, extended by Ehrman/Robinson-Koester; counter-critiques operate inside the same regionally-differentiated framework) requires recording strands within it. SS2.1's porous Jewish-Christian boundary caveat and SS4's non-uniformity caveat are 'to be read together' by Doc_04's own instruction. Live rival movements (Marcionite, Valentinian, Montanist) are contemporary in-window neighbors, not settled heresies (SS8.3) - the boundary drawn in real time, never inherited.
 

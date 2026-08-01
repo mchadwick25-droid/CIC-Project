@@ -190,7 +190,10 @@ TELOS = {
         "exists; carried provisional per the fleet's standing "
         "pattern. The derivation's world-specificity is strong on "
         "its face (letter/water/table are this world's own three "
-        "handed things) but unreviewed."),
+        "handed things) but unreviewed. PROJECT-LEAD DECISION (Mark, "
+        "2026-07-31, at the freeze): Article-31 external review is "
+        "ASPIRATIONAL, scheduled for year two - the provisional "
+        "status is by design, not an open blocker."),
 }
 
 LIVING = {
@@ -210,16 +213,16 @@ LIVING = {
         "adjudicates rule binds harder here than anywhere in the "
         "fleet: no denomination, council, canon decision, or later "
         "office is recognized, ranked, or claimed."),
-    "status": "provisional",
+    "status": "confirmed",
     "review_flag": (
-        "DECLARED - the Article-29 gate's FOURTH state: unlike SYR's "
-        "project-lead-confirmed status and HAL's independently-"
-        "reviewed NA, no dedicated Article-29-style confirmation of "
-        "the universal-descent framing was located in the W1 record "
-        "(the prompt's cold review covered its text, not the "
-        "Living-Tradition determination as its own gate). Carried "
-        "provisional; the freeze declaration must list it as an "
-        "open item for project-lead confirmation."),
+        "CONFIRMED by the project lead (Mark, 2026-07-31, at the "
+        "freeze declaration): the universal-descent framing with the "
+        "non-identity discipline stands as the world's "
+        "Living-Tradition determination. History: carried PROVISIONAL "
+        "from S2.7a as the Article-29 gate's fourth state (no "
+        "dedicated W1 confirmation located; the freeze declaration "
+        "listed it, and the confirmation closed it - the gate's "
+        "state count returns to three: open / confirmed / NA)."),
 }
 
 
@@ -232,9 +235,10 @@ def main():
     write_record(CORE, front, body)
     print("pahccore001 updated: 5 pairings (3 riding live partner "
           "claims; the first both-documents-agree handoff pairing), "
-          "9 cautions, telos (provisional/Art.31), living_traditions "
-          "(provisional - the Article-29 gate's fourth state, "
-          "declared)")
+          "9 cautions, telos (provisional/Art.31 - review deferred "
+          "to year two by project-lead decision), living_traditions "
+          "(CONFIRMED by the project lead 2026-07-31; the Article-29 "
+          "fourth state closed)")
 
 
 if __name__ == "__main__":
