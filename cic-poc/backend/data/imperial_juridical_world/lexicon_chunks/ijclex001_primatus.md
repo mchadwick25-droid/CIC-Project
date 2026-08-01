@@ -7,8 +7,6 @@ World-Code:         ijc
 
 Tier:               1
 
-Tags:               AS, DR, TC, RT, PV, CT
-
 Aliases:            primacy, apostolic see, apostolic primacy, Roman primacy, Petrine primacy
 
 Related-Terms:      communio, presbeia, Tomus, homoousios, concilium, Nea Rhōmē, martyrium

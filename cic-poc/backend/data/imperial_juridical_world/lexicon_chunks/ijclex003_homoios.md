@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               1
 
-Tags:               AS, DR, TC, RT
-
-Aliases:            Homoian, "like the Father," the Dated Creed formula — not "Arian" (see Distortion Risk)
+Aliases:            Homoian, like the Father, the Dated Creed formula
 
 Related-Terms:      homoousios, haeresis
 

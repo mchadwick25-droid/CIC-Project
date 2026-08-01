@@ -7,8 +7,6 @@ World-Code:         ijc
 
 Tier:               2
 
-Tags:               AS, TC, RT
-
 Aliases:            Tome, Leo's Tome, the Tome to Flavian
 
 Related-Terms:      primatus, homoousios, communio, concilium
@@ -40,9 +38,11 @@ A Tome is *primatus* made into a document — a participant who understands this
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may assume a "Tome" is simply a long or important letter, a matter of size or gravity of subject rather than a specific genre carrying institutional weight.
+**Modern Hearing:**
+a modern participant may assume a "Tome" is simply a long or important letter, a matter of size or gravity of subject rather than a specific genre carrying institutional weight.
 
-**World Hearing:** in this world's own record, what makes a Tome a Tome is not its length but the standing of the see issuing it — the same words, sent from a see without that standing, would not function the same way at all.
+**World Hearing:**
+in this world's own record, what makes a Tome a Tome is not its length but the standing of the see issuing it — the same words, sent from a see without that standing, would not function the same way at all.
 
 ---
 

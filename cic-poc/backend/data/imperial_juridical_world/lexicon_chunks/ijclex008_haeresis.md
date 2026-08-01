@@ -7,8 +7,6 @@ World-Code:         ijc
 
 Tier:               2
 
-Tags:               SC, DR, TC, RT, CT
-
 Aliases:            heresy
 
 Related-Terms:      homoios, communio, concilium
@@ -40,9 +38,11 @@ A teaching does not become *haeresis* for us merely because a bishop disagrees w
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may assume "heresy" names a purely doctrinal category, separate from and prior to any legal consequence.
+**Modern Hearing:**
+a modern participant may assume "heresy" names a purely doctrinal category, separate from and prior to any legal consequence.
 
-**World Hearing:** in this world's own record, the theological and the legal-juridical senses of this term are not sequential (belief first, law second) but simultaneous and mutually constituting.
+**World Hearing:**
+in this world's own record, the theological and the legal-juridical senses of this term are not sequential (belief first, law second) but simultaneous and mutually constituting.
 
 ---
 

@@ -1,0 +1,4724 @@
+{
+  "worlds": {
+    "alexandria-catechetical": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": null,
+            "n": 3,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 3,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 1.0,
+            "n": 2,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 0.875,
+            "n": 6,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 0.9167,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 18
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "alexlex001_logos": "ce-drop",
+            "alexlex002_divine-pedagogy": "ce-drop",
+            "alexlex008_theosis": "guard-vote",
+            "alexlex012_likeness-of-god": "guard-vote",
+            "alexlex023_son-of-god": "guard-vote",
+            "alexlex041_oikonomia": "ce-drop"
+          },
+          "id": "ALX-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex008_theosis",
+                "alexlex012_likeness-of-god",
+                "alexlex023_son-of-god"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex008_theosis",
+            "alexlex023_son-of-god",
+            "alexlex012_likeness-of-god",
+            "alexlex002_divine-pedagogy",
+            "alexlex041_oikonomia",
+            "alexlex001_logos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "alexlex001_logos": "guard-vote",
+            "alexlex009_image-of-god": "guard-vote",
+            "alexlex012_likeness-of-god": "ce-drop",
+            "alexlex024_word-of-god": "guard-vote",
+            "alexlex044_holy-spirit": "ce-drop",
+            "alexlex090_logikos": "guard-vote"
+          },
+          "id": "ALX-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex001_logos",
+                "alexlex024_word-of-god",
+                "alexlex009_image-of-god"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex001_logos",
+            "alexlex009_image-of-god",
+            "alexlex044_holy-spirit",
+            "alexlex090_logikos",
+            "alexlex024_word-of-god",
+            "alexlex012_likeness-of-god"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "alexlex001_logos": "ce-drop",
+            "alexlex002_divine-pedagogy": "ce-drop",
+            "alexlex016_allegory": "guard-vote",
+            "alexlex031_rule-of-faith": "guard-vote",
+            "alexlex035_interpretation": "guard-vote",
+            "alexlex090_logikos": "ce-drop"
+          },
+          "id": "ALX-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex016_allegory",
+                "alexlex031_rule-of-faith",
+                "alexlex035_interpretation"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex016_allegory",
+            "alexlex035_interpretation",
+            "alexlex090_logikos",
+            "alexlex002_divine-pedagogy",
+            "alexlex031_rule-of-faith",
+            "alexlex001_logos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "alexlex003_catechesis": "guard-vote",
+            "alexlex014_scripture": "guard-vote",
+            "alexlex016_allegory": "ce-drop",
+            "alexlex031_rule-of-faith": "guard-vote",
+            "alexlex037_faith": "guard-vote",
+            "alexlex043_church-ekklesia": "guard-vote"
+          },
+          "id": "ALX-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex031_rule-of-faith",
+                "alexlex037_faith",
+                "alexlex043_church-ekklesia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex031_rule-of-faith",
+            "alexlex037_faith",
+            "alexlex003_catechesis",
+            "alexlex043_church-ekklesia",
+            "alexlex014_scripture",
+            "alexlex016_allegory"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexlex002_divine-pedagogy": "ce-drop",
+            "alexlex003_catechesis": "guard-vote",
+            "alexlex025_baptism": "guard-vote",
+            "alexlex029_teacher": "ce-drop",
+            "alexlex037_faith": "ce-drop",
+            "alexlex043_church-ekklesia": "guard-vote"
+          },
+          "id": "ALX-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex003_catechesis",
+                "alexlex025_baptism",
+                "alexlex043_church-ekklesia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex003_catechesis",
+            "alexlex025_baptism",
+            "alexlex043_church-ekklesia",
+            "alexlex029_teacher",
+            "alexlex037_faith",
+            "alexlex002_divine-pedagogy"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexlex002_divine-pedagogy": "guard-vote",
+            "alexlex003_catechesis": "guard-vote",
+            "alexlex009_image-of-god": "guard-vote",
+            "alexlex013_freedom-autexousia": "guard-vote",
+            "alexlex021_transformation": "guard-vote",
+            "alexlex039_incarnation": "ce-drop"
+          },
+          "id": "ALX-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.25,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex013_freedom-autexousia",
+                "alexlex002_divine-pedagogy",
+                "alexlex009_image-of-god"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex009_image-of-god",
+            "alexlex021_transformation",
+            "alexlex013_freedom-autexousia",
+            "alexlex002_divine-pedagogy",
+            "alexlex003_catechesis",
+            "alexlex039_incarnation"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexlex001_logos": "ce-drop",
+            "alexlex014_scripture": "guard-vote",
+            "alexlex015_christological-reading": "guard-vote",
+            "alexlex022_christ": "guard-vote",
+            "alexlex035_interpretation": "ce-drop",
+            "alexlex081_homoousios": "ce-drop"
+          },
+          "id": "ALX-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex015_christological-reading",
+                "alexlex014_scripture",
+                "alexlex022_christ"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 0.5,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex015_christological-reading",
+            "alexlex022_christ",
+            "alexlex014_scripture",
+            "alexlex001_logos",
+            "alexlex035_interpretation",
+            "alexlex081_homoousios"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexlex001_logos": "guard-vote",
+            "alexlex002_divine-pedagogy": "ce-drop",
+            "alexlex005_knowledge-gnosis": "guard-vote",
+            "alexlex008_theosis": "ce-drop",
+            "alexlex032_repentance-metanoia": "ce-drop",
+            "alexlex037_faith": "guard-vote"
+          },
+          "id": "ALX-TH-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex037_faith",
+                "alexlex005_knowledge-gnosis",
+                "alexlex001_logos"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex037_faith",
+            "alexlex005_knowledge-gnosis",
+            "alexlex002_divine-pedagogy",
+            "alexlex008_theosis",
+            "alexlex032_repentance-metanoia",
+            "alexlex001_logos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexstory003_persecution-shapes-school": "guard-vote",
+            "alexstory007_school-succession": "guard-vote",
+            "alexstory008_origen-demetrius": "ce-drop",
+            "alexstory010_typical-catechumen": "ce-drop"
+          },
+          "id": "ALX-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexstory003_persecution-shapes-school",
+                "alexstory007_school-succession"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexstory003_persecution-shapes-school",
+            "alexstory007_school-succession",
+            "alexstory008_origen-demetrius",
+            "alexstory010_typical-catechumen"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "alexstory001_gregory-address-origen": "guard-vote",
+            "alexstory003_persecution-shapes-school": "guard-vote",
+            "alexstory008_origen-demetrius": "ce-drop",
+            "alexstory010_typical-catechumen": "ce-drop"
+          },
+          "id": "ALX-TH-06",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexstory001_gregory-address-origen",
+                "alexstory003_persecution-shapes-school"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexstory001_gregory-address-origen",
+            "alexstory003_persecution-shapes-school",
+            "alexstory008_origen-demetrius",
+            "alexstory010_typical-catechumen"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "alexlex005_knowledge-gnosis": "ce-drop",
+            "alexlex007_participation": "ce-drop",
+            "alexlex012_likeness-of-god": "guard-vote",
+            "alexlex021_transformation": "guard-vote",
+            "alexlex039_incarnation": "guard-vote"
+          },
+          "id": "ALX-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex039_incarnation",
+                "alexlex012_likeness-of-god",
+                "alexlex021_transformation"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex008_theosis",
+            "alexlex039_incarnation",
+            "alexlex012_likeness-of-god",
+            "alexlex021_transformation",
+            "alexlex005_knowledge-gnosis",
+            "alexlex007_participation"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "alexlex001_logos": "ce-drop",
+            "alexlex002_divine-pedagogy": "guard-vote",
+            "alexlex004_illumination": "guard-vote",
+            "alexlex006_wisdom": "guard-vote",
+            "alexlex029_teacher": "ce-drop"
+          },
+          "id": "ALX-DD-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex004_illumination",
+                "alexlex006_wisdom",
+                "alexlex002_divine-pedagogy"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex005_knowledge-gnosis",
+            "alexlex006_wisdom",
+            "alexlex004_illumination",
+            "alexlex029_teacher",
+            "alexlex002_divine-pedagogy",
+            "alexlex001_logos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "alexlex001_logos": "guard-vote",
+            "alexlex009_image-of-god": "guard-vote",
+            "alexlex012_likeness-of-god": "ce-drop",
+            "alexlex016_allegory": "guard-vote",
+            "alexlex044_holy-spirit": "ce-drop",
+            "alexlex090_logikos": "guard-vote"
+          },
+          "id": "ALX-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex001_logos",
+                "alexlex090_logikos",
+                "alexlex009_image-of-god"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "alexlex001_logos"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex044_holy-spirit",
+            "alexlex090_logikos",
+            "alexlex009_image-of-god",
+            "alexlex001_logos",
+            "alexlex016_allegory",
+            "alexlex012_likeness-of-god"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "alexstory003_persecution-shapes-school": "guard-vote",
+            "alexstory006_markan-foundation": "guard-vote"
+          },
+          "id": "ALX-NC-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexstory006_markan-foundation",
+                "alexstory003_persecution-shapes-school"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "alexstory006_markan-foundation"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexstory006_markan-foundation",
+            "alexstory003_persecution-shapes-school"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "alexstory003_persecution-shapes-school": "guard-vote",
+            "alexstory005_life-of-antony": "guard-vote",
+            "alexstory008_origen-demetrius": "ce-drop",
+            "alexstory010_typical-catechumen": "ce-drop"
+          },
+          "id": "ALX-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexstory005_life-of-antony",
+                "alexstory003_persecution-shapes-school"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "alexstory005_life-of-antony"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexstory005_life-of-antony",
+            "alexstory003_persecution-shapes-school",
+            "alexstory010_typical-catechumen",
+            "alexstory008_origen-demetrius"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "alexlex002_divine-pedagogy": "ce-drop",
+            "alexlex007_participation": "ce-drop",
+            "alexlex008_theosis": "guard-vote",
+            "alexlex009_image-of-god": "guard-vote",
+            "alexlex012_likeness-of-god": "guard-vote",
+            "alexlex039_incarnation": "ce-drop"
+          },
+          "id": "ALX-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex008_theosis",
+                "alexlex012_likeness-of-god",
+                "alexlex009_image-of-god"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex008_theosis",
+            "alexlex039_incarnation",
+            "alexlex002_divine-pedagogy",
+            "alexlex012_likeness-of-god",
+            "alexlex007_participation",
+            "alexlex009_image-of-god"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "alexlex002_divine-pedagogy": "guard-vote",
+            "alexlex003_catechesis": "guard-vote",
+            "alexlex028_prayer": "guard-vote",
+            "alexlex037_faith": "ce-drop",
+            "alexlex043_church-ekklesia": "ce-drop",
+            "alexlex044_holy-spirit": "ce-drop"
+          },
+          "id": "ALX-RT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex028_prayer",
+                "alexlex002_divine-pedagogy",
+                "alexlex003_catechesis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex028_prayer",
+            "alexlex002_divine-pedagogy",
+            "alexlex044_holy-spirit",
+            "alexlex003_catechesis",
+            "alexlex037_faith",
+            "alexlex043_church-ekklesia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "alexlex002_divine-pedagogy": "guard-vote",
+            "alexlex028_prayer": "guard-vote",
+            "alexlex029_teacher": "guard-vote",
+            "alexlex033_martyrdom-witness": "ce-drop",
+            "alexlex037_faith": "ce-drop",
+            "alexlex051_apokatastasis": "ce-drop"
+          },
+          "id": "ALX-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "alexlex002_divine-pedagogy",
+                "alexlex029_teacher",
+                "alexlex028_prayer"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "alexlex002_divine-pedagogy",
+            "alexlex051_apokatastasis",
+            "alexlex029_teacher",
+            "alexlex028_prayer",
+            "alexlex033_martyrdom-witness",
+            "alexlex037_faith"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    },
+    "desert-monasticism": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": null,
+            "n": 4,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 4,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 0.6,
+            "n": 2,
+            "pass_at_k[retrieve]": 0.5,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 0.5,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 0.7222,
+            "n": 6,
+            "pass_at_k[retrieve]": 0.6667,
+            "pass_at_k[skip]": 0.5,
+            "recall_at_k[retrieve]": 0.6667,
+            "recall_at_k[skip]": 0.5,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.75,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.75,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 19
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex003_hesychia": "guard-vote",
+            "desertlex004_logismoi": "ce-keep",
+            "desertlex005_diakrisis": "ce-keep",
+            "desertlex008_apophthegma": "ce-drop",
+            "desertlex011_apatheia": "ce-drop",
+            "desertlex012_theoria": "ce-drop"
+          },
+          "id": "DES-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex003_hesychia",
+                "desertlex005_diakrisis",
+                "desertlex004_logismoi"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex005_diakrisis",
+                "desertlex004_logismoi"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex003_hesychia",
+            "desertlex004_logismoi",
+            "desertlex008_apophthegma",
+            "desertlex012_theoria",
+            "desertlex011_apatheia",
+            "desertlex005_diakrisis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex003_hesychia": "guard-vote",
+            "desertlex004_logismoi": "ce-keep",
+            "desertlex005_diakrisis": "ce-keep",
+            "desertlex011_apatheia": "ce-keep",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex017_antirrhesis": "ce-keep"
+          },
+          "id": "DES-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex004_logismoi",
+                "desertlex017_antirrhesis",
+                "desertlex005_diakrisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex004_logismoi",
+                "desertlex017_antirrhesis",
+                "desertlex005_diakrisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex004_logismoi",
+            "desertlex011_apatheia",
+            "desertlex005_diakrisis",
+            "desertlex017_antirrhesis",
+            "desertlex003_hesychia",
+            "desertlex012_theoria"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-keep",
+            "desertlex002_apotage": "ce-keep",
+            "desertlex007_cheironaxia": "ce-keep",
+            "desertlex010_xeniteia": "ce-keep",
+            "desertlex011_apatheia": "ce-drop",
+            "desertlex012_theoria": "ce-drop"
+          },
+          "id": "DES-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex010_xeniteia",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex010_xeniteia",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex001_anachoresis",
+            "desertlex012_theoria",
+            "desertlex011_apatheia",
+            "desertlex007_cheironaxia",
+            "desertlex002_apotage",
+            "desertlex010_xeniteia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-drop",
+            "desertlex002_apotage": "ce-keep",
+            "desertlex008_apophthegma": "ce-keep",
+            "desertlex011_apatheia": "ce-keep",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex017_antirrhesis": "ce-drop"
+          },
+          "id": "DES-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex008_apophthegma",
+                "desertlex011_apatheia",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex008_apophthegma",
+                "desertlex011_apatheia",
+                "desertlex002_apotage"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex008_apophthegma",
+            "desertlex012_theoria",
+            "desertlex002_apotage",
+            "desertlex011_apatheia",
+            "desertlex017_antirrhesis",
+            "desertlex001_anachoresis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-keep",
+            "desertlex009_koinonia": "ce-drop",
+            "desertlex010_xeniteia": "ce-keep",
+            "desertlex011_apatheia": "ce-drop",
+            "desertlex016_kellion": "ce-drop",
+            "desertlex018_puritas-cordis": "ce-keep"
+          },
+          "id": "DES-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex018_puritas-cordis",
+                "desertlex010_xeniteia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex018_puritas-cordis",
+                "desertlex010_xeniteia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex001_anachoresis",
+            "desertlex018_puritas-cordis",
+            "desertlex009_koinonia",
+            "desertlex010_xeniteia",
+            "desertlex011_apatheia",
+            "desertlex016_kellion"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-keep",
+            "desertlex005_diakrisis": "ce-drop",
+            "desertlex007_cheironaxia": "ce-keep",
+            "desertlex010_xeniteia": "ce-keep",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex015_synaxis": "ce-drop"
+          },
+          "id": "DES-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.3333,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex007_cheironaxia",
+                "desertlex001_anachoresis",
+                "desertlex010_xeniteia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex007_cheironaxia",
+                "desertlex001_anachoresis",
+                "desertlex010_xeniteia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex015_synaxis",
+            "desertlex012_theoria",
+            "desertlex007_cheironaxia",
+            "desertlex005_diakrisis",
+            "desertlex010_xeniteia",
+            "desertlex001_anachoresis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex004_logismoi": "ce-drop",
+            "desertlex005_diakrisis": "ce-keep",
+            "desertlex007_cheironaxia": "ce-drop",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex015_synaxis": "ce-keep",
+            "desertlex018_puritas-cordis": "ce-keep"
+          },
+          "id": "DES-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex005_diakrisis",
+                "desertlex018_puritas-cordis",
+                "desertlex015_synaxis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex005_diakrisis",
+                "desertlex018_puritas-cordis",
+                "desertlex015_synaxis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex005_diakrisis",
+            "desertlex015_synaxis",
+            "desertlex007_cheironaxia",
+            "desertlex018_puritas-cordis",
+            "desertlex012_theoria",
+            "desertlex004_logismoi"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-keep",
+            "desertlex007_cheironaxia": "ce-drop",
+            "desertlex009_koinonia": "ce-drop",
+            "desertlex011_apatheia": "ce-keep",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex014_nepsis": "ce-keep"
+          },
+          "id": "DES-TH-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex014_nepsis",
+                "desertlex011_apatheia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex001_anachoresis",
+                "desertlex014_nepsis",
+                "desertlex011_apatheia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex007_cheironaxia",
+            "desertlex011_apatheia",
+            "desertlex014_nepsis",
+            "desertlex009_koinonia",
+            "desertlex001_anachoresis",
+            "desertlex012_theoria"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "guard-vote",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "guard-vote",
+            "desertstory009_amma-syncletica-among-the-named-mothers": "ce-drop",
+            "desertstory010_amma-theodora-among-the-named-mothers": "ce-drop"
+          },
+          "id": "DES-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory001_antonys-call-matthew-19-21",
+                "desertstory003_pachomius-founding-koinonia-tabennesi"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory001_antonys-call-matthew-19-21",
+            "desertstory010_amma-theodora-among-the-named-mothers",
+            "desertstory003_pachomius-founding-koinonia-tabennesi",
+            "desertstory009_amma-syncletica-among-the-named-mothers"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "ce-drop",
+            "desertstory006_sarah-answer-to-elders": "ce-drop",
+            "desertstory009_amma-syncletica-among-the-named-mothers": "guard-vote",
+            "desertstory010_amma-theodora-among-the-named-mothers": "guard-vote"
+          },
+          "id": "DES-TH-06",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory010_amma-theodora-among-the-named-mothers",
+                "desertstory009_amma-syncletica-among-the-named-mothers"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory006_sarah-answer-to-elders",
+            "desertstory010_amma-theodora-among-the-named-mothers",
+            "desertstory009_amma-syncletica-among-the-named-mothers",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "desertlex004_logismoi": "ce-keep",
+            "desertlex005_diakrisis": "ce-drop",
+            "desertlex008_apophthegma": "ce-keep",
+            "desertlex014_nepsis": "ce-keep",
+            "desertlex016_kellion": "ce-drop"
+          },
+          "id": "DES-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex014_nepsis",
+                "desertlex008_apophthegma",
+                "desertlex004_logismoi"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex014_nepsis",
+                "desertlex008_apophthegma",
+                "desertlex004_logismoi"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex003_hesychia",
+            "desertlex008_apophthegma",
+            "desertlex014_nepsis",
+            "desertlex016_kellion",
+            "desertlex004_logismoi",
+            "desertlex005_diakrisis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "ce-drop",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "guard-vote",
+            "desertstory006_sarah-answer-to-elders": "guard-vote"
+          },
+          "id": "DES-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory006_sarah-answer-to-elders",
+                "desertstory002_antony-withdrawal-outer-inner-mountain"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory006_sarah-answer-to-elders",
+            "desertstory004_moses-leaking-jug",
+            "desertstory002_antony-withdrawal-outer-inner-mountain",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertlex003_hesychia": "guard-vote",
+            "desertlex006_geron-abba-amma": "ce-drop",
+            "desertlex009_koinonia": "ce-drop",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex015_synaxis": "ce-keep",
+            "desertlex018_puritas-cordis": "ce-keep"
+          },
+          "id": "DES-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex003_hesychia",
+                "desertlex015_synaxis",
+                "desertlex018_puritas-cordis"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex003_hesychia"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertlex015_synaxis",
+                "desertlex018_puritas-cordis"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex009_koinonia",
+            "desertlex003_hesychia",
+            "desertlex015_synaxis",
+            "desertlex006_geron-abba-amma",
+            "desertlex018_puritas-cordis",
+            "desertlex012_theoria"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertlex004_logismoi": "ce-keep",
+            "desertlex009_koinonia": "guard-vote",
+            "desertlex017_antirrhesis": "ce-keep"
+          },
+          "id": "DES-NC-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex009_koinonia",
+                "desertlex004_logismoi",
+                "desertlex017_antirrhesis"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertlex009_koinonia"
+              ]
+            },
+            "skip": {
+              "final": [
+                "desertlex004_logismoi",
+                "desertlex017_antirrhesis"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex009_koinonia",
+            "desertlex017_antirrhesis",
+            "desertlex004_logismoi"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "ce-drop",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "guard-vote",
+            "desertstory005_arsenius-flee-be-still": "guard-vote",
+            "desertstory007_antony-combat-in-tombs": "ce-drop"
+          },
+          "id": "DES-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory005_arsenius-flee-be-still",
+                "desertstory003_pachomius-founding-koinonia-tabennesi"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertstory005_arsenius-flee-be-still"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory007_antony-combat-in-tombs",
+            "desertstory005_arsenius-flee-be-still",
+            "desertstory003_pachomius-founding-koinonia-tabennesi",
+            "desertstory002_antony-withdrawal-outer-inner-mountain"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "guard-vote",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "guard-vote",
+            "desertstory005_arsenius-flee-be-still": "ce-drop",
+            "desertstory007_antony-combat-in-tombs": "guard-vote"
+          },
+          "id": "DES-NC-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory007_antony-combat-in-tombs",
+                "desertstory002_antony-withdrawal-outer-inner-mountain"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "desertstory007_antony-combat-in-tombs"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory007_antony-combat-in-tombs",
+            "desertstory002_antony-withdrawal-outer-inner-mountain",
+            "desertstory005_arsenius-flee-be-still",
+            "desertstory001_antonys-call-matthew-19-21"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "desertlex001_anachoresis": "ce-keep",
+            "desertlex002_apotage": "ce-drop",
+            "desertlex007_cheironaxia": "ce-drop",
+            "desertlex010_xeniteia": "ce-drop",
+            "desertlex011_apatheia": "ce-keep",
+            "desertlex018_puritas-cordis": "ce-keep"
+          },
+          "id": "DES-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.2,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex018_puritas-cordis",
+                "desertlex001_anachoresis",
+                "desertlex011_apatheia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex018_puritas-cordis",
+                "desertlex001_anachoresis",
+                "desertlex011_apatheia"
+              ],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex018_puritas-cordis",
+            "desertlex001_anachoresis",
+            "desertlex007_cheironaxia",
+            "desertlex010_xeniteia",
+            "desertlex002_apotage",
+            "desertlex011_apatheia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "desertstory001_antonys-call-matthew-19-21": "guard-vote",
+            "desertstory002_antony-withdrawal-outer-inner-mountain": "ce-drop",
+            "desertstory003_pachomius-founding-koinonia-tabennesi": "ce-drop",
+            "desertstory008_day-in-a-kellia-cell": "guard-vote"
+          },
+          "id": "DES-RT-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertstory008_day-in-a-kellia-cell",
+                "desertstory001_antonys-call-matthew-19-21"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertstory008_day-in-a-kellia-cell",
+            "desertstory001_antonys-call-matthew-19-21",
+            "desertstory003_pachomius-founding-koinonia-tabennesi",
+            "desertstory002_antony-withdrawal-outer-inner-mountain"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "desertlex006_geron-abba-amma": "ce-keep",
+            "desertlex008_apophthegma": "ce-keep",
+            "desertlex009_koinonia": "guard-vote",
+            "desertlex011_apatheia": "ce-drop",
+            "desertlex012_theoria": "ce-drop",
+            "desertlex018_puritas-cordis": "ce-drop"
+          },
+          "id": "DES-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "desertlex009_koinonia",
+                "desertlex006_geron-abba-amma",
+                "desertlex008_apophthegma"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [
+                "desertlex006_geron-abba-amma",
+                "desertlex008_apophthegma"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "desertlex018_puritas-cordis",
+            "desertlex008_apophthegma",
+            "desertlex012_theoria",
+            "desertlex011_apatheia",
+            "desertlex009_koinonia",
+            "desertlex006_geron-abba-amma"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    },
+    "hieronymian-ascetic-literary": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": 1.0,
+            "n": 3,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 2,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 1.0,
+            "n": 1,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 0.9,
+            "n": 5,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 16
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex04_virginitas": "ce-drop",
+            "hal_lex05_vidua": "ce-drop",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex07_epistula",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex02_vulgata",
+            "hal_lex05_vidua",
+            "hal_lex07_epistula",
+            "hal_lex04_virginitas",
+            "hal_lex13_praefatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex06_patrocinium": "ce-drop",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex02_vulgata",
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex02_vulgata",
+            "hal_lex12_grammaticus",
+            "hal_lex01_hebraica-veritas",
+            "hal_lex13_praefatio",
+            "hal_lex06_patrocinium",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "ce-drop",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex10_matrona": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex15_monachus": "guard-vote"
+          },
+          "id": "HAL-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex15_monachus",
+                "hal_lex07_epistula",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex15_monachus",
+            "hal_lex07_epistula",
+            "hal_lex06_patrocinium",
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex07_epistula": "guard-vote",
+            "hal_lex10_matrona": "guard-vote",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex06_patrocinium",
+                "hal_lex10_matrona",
+                "hal_lex07_epistula"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex06_patrocinium",
+            "hal_lex12_grammaticus",
+            "hal_lex07_epistula",
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex13_praefatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex08_origenism": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex02_vulgata",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex12_grammaticus",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex08_origenism",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex03_renuntiatio": "guard-vote",
+            "hal_lex04_virginitas": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex10_matrona": "guard-vote",
+            "hal_lex14_nosocomium": "ce-drop"
+          },
+          "id": "HAL-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex10_matrona",
+                "hal_lex03_renuntiatio",
+                "hal_lex06_patrocinium"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex10_matrona",
+            "hal_lex03_renuntiatio",
+            "hal_lex06_patrocinium",
+            "hal_lex04_virginitas",
+            "hal_lex14_nosocomium",
+            "hal_lex07_epistula"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex06_patrocinium": "guard-vote",
+            "hal_lex08_origenism": "ce-drop",
+            "hal_lex10_matrona": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex12_grammaticus": "guard-vote"
+          },
+          "id": "HAL-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.5,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex06_patrocinium",
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex06_patrocinium",
+            "hal_lex08_origenism",
+            "hal_lex12_grammaticus",
+            "hal_lex03_renuntiatio",
+            "hal_lex10_matrona"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "ce-drop",
+            "hal_story03_the-oea-incident": "ce-drop",
+            "hal_story08_the-ciceronian-dream": "guard-vote",
+            "hal_story09_the-desert-romances": "guard-vote"
+          },
+          "id": "HAL-TH-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story08_the-ciceronian-dream",
+                "hal_story09_the-desert-romances"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story08_the-ciceronian-dream",
+            "hal_story03_the-oea-incident",
+            "hal_story02_the-rome-crisis",
+            "hal_story09_the-desert-romances"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "hal_story01_departure-from-rome": "ce-drop",
+            "hal_story06_paulas-epitaph": "guard-vote",
+            "hal_story07_the-widow-consulted": "guard-vote",
+            "hal_story10_a-day-at-the-monastery": "ce-drop"
+          },
+          "id": "HAL-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story06_paulas-epitaph",
+                "hal_story07_the-widow-consulted"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story06_paulas-epitaph",
+            "hal_story07_the-widow-consulted",
+            "hal_story01_departure-from-rome",
+            "hal_story10_a-day-at-the-monastery"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex12_grammaticus": "guard-vote",
+            "hal_lex13_praefatio": "guard-vote",
+            "hal_lex14_nosocomium": "ce-drop"
+          },
+          "id": "HAL-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio",
+                "hal_lex12_grammaticus"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex02_vulgata",
+            "hal_lex01_hebraica-veritas",
+            "hal_lex12_grammaticus",
+            "hal_lex13_praefatio",
+            "hal_lex14_nosocomium",
+            "hal_lex03_renuntiatio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "guard-vote",
+            "hal_story03_the-oea-incident": "guard-vote",
+            "hal_story03a_origenist-rupture": "ce-drop"
+          },
+          "id": "HAL-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story02_the-rome-crisis",
+                "hal_story03_the-oea-incident"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story08_the-ciceronian-dream",
+            "hal_story03_the-oea-incident",
+            "hal_story02_the-rome-crisis",
+            "hal_story03a_origenist-rupture"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex03_renuntiatio": "ce-drop",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "guard-vote"
+          },
+          "id": "HAL-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex13_praefatio",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "hal_lex01_hebraica-veritas"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex03_renuntiatio",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex07_epistula",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_story02_the-rome-crisis": "ce-drop",
+            "hal_story05_marcella-death": "guard-vote",
+            "hal_story09_the-desert-romances": "guard-vote",
+            "hal_story10_a-day-at-the-monastery": "ce-drop"
+          },
+          "id": "HAL-NC-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story09_the-desert-romances",
+                "hal_story05_marcella-death"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "hal_story09_the-desert-romances"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story09_the-desert-romances",
+            "hal_story10_a-day-at-the-monastery",
+            "hal_story02_the-rome-crisis",
+            "hal_story05_marcella-death"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "hal_story01_departure-from-rome": "guard-vote",
+            "hal_story02_the-rome-crisis": "guard-vote",
+            "hal_story06_paulas-epitaph": "ce-drop",
+            "hal_story11_translating-a-book": "ce-drop"
+          },
+          "id": "HAL-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_story01_departure-from-rome",
+                "hal_story02_the-rome-crisis"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_story01_departure-from-rome",
+            "hal_story02_the-rome-crisis",
+            "hal_story06_paulas-epitaph",
+            "hal_story11_translating-a-book"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "guard-vote",
+            "hal_lex07_epistula": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex12_grammaticus": "ce-drop",
+            "hal_lex13_praefatio": "ce-drop"
+          },
+          "id": "HAL-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex01_hebraica-veritas",
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex02_vulgata"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex02_vulgata",
+            "hal_lex13_praefatio",
+            "hal_lex07_epistula",
+            "hal_lex12_grammaticus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "hal_lex01_hebraica-veritas": "guard-vote",
+            "hal_lex02_vulgata": "ce-drop",
+            "hal_lex08_origenism": "guard-vote",
+            "hal_lex09_pelagianism": "ce-drop",
+            "hal_lex11_exegesis-practiced-authority": "guard-vote",
+            "hal_lex15_monachus": "ce-drop"
+          },
+          "id": "HAL-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "hal_lex11_exegesis-practiced-authority",
+                "hal_lex01_hebraica-veritas",
+                "hal_lex08_origenism"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "hal_lex01_hebraica-veritas",
+            "hal_lex02_vulgata",
+            "hal_lex11_exegesis-practiced-authority",
+            "hal_lex15_monachus",
+            "hal_lex08_origenism",
+            "hal_lex09_pelagianism"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    },
+    "imperial-juridical-christianity": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": 1.0,
+            "n": 2,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 2,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 1.0,
+            "n": 1,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 1.0,
+            "n": 5,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 3,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 14
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "ijclex003_homoios": "guard-vote",
+            "ijclex004_communio": "ce-drop",
+            "ijclex006_homoousios": "guard-vote",
+            "ijclex007_concilium": "ce-drop",
+            "ijclex008_haeresis": "guard-vote",
+            "ijclex009_tomus": "guard-vote"
+          },
+          "id": "IJC-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex006_homoousios",
+                "ijclex003_homoios",
+                "ijclex009_tomus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex006_homoousios",
+            "ijclex007_concilium",
+            "ijclex008_haeresis",
+            "ijclex003_homoios",
+            "ijclex009_tomus",
+            "ijclex004_communio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "ijclex001_primatus": "guard-vote",
+            "ijclex002_presbeia": "guard-vote",
+            "ijclex004_communio": "guard-vote",
+            "ijclex005_imperator_intra_ecclesiam": "ce-drop",
+            "ijclex007_concilium": "ce-drop",
+            "ijclex011_basilica": "ce-drop"
+          },
+          "id": "IJC-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex001_primatus",
+                "ijclex002_presbeia",
+                "ijclex004_communio"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex001_primatus",
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex002_presbeia",
+            "ijclex004_communio",
+            "ijclex011_basilica",
+            "ijclex007_concilium"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "ijclex002_presbeia": "ce-drop",
+            "ijclex003_homoios": "guard-vote",
+            "ijclex004_communio": "ce-drop",
+            "ijclex005_imperator_intra_ecclesiam": "guard-vote",
+            "ijclex007_concilium": "ce-drop",
+            "ijclex011_basilica": "guard-vote"
+          },
+          "id": "IJC-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex005_imperator_intra_ecclesiam",
+                "ijclex003_homoios",
+                "ijclex011_basilica"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex003_homoios",
+            "ijclex002_presbeia",
+            "ijclex007_concilium",
+            "ijclex011_basilica",
+            "ijclex004_communio"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "ijclex001_primatus": "ce-drop",
+            "ijclex002_presbeia": "guard-vote",
+            "ijclex003_homoios": "guard-vote",
+            "ijclex005_imperator_intra_ecclesiam": "guard-vote",
+            "ijclex008_haeresis": "ce-drop",
+            "ijclex010_nea_rhome": "ce-drop"
+          },
+          "id": "IJC-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex003_homoios",
+                "ijclex005_imperator_intra_ecclesiam",
+                "ijclex002_presbeia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex003_homoios",
+            "ijclex002_presbeia",
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex008_haeresis",
+            "ijclex010_nea_rhome",
+            "ijclex001_primatus"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "ijclex001_primatus": "guard-vote",
+            "ijclex002_presbeia": "ce-drop",
+            "ijclex003_homoios": "guard-vote",
+            "ijclex005_imperator_intra_ecclesiam": "guard-vote",
+            "ijclex006_homoousios": "ce-drop",
+            "ijclex010_nea_rhome": "ce-drop"
+          },
+          "id": "IJC-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex005_imperator_intra_ecclesiam",
+                "ijclex003_homoios",
+                "ijclex001_primatus"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex001_primatus",
+            "ijclex003_homoios",
+            "ijclex002_presbeia",
+            "ijclex010_nea_rhome",
+            "ijclex006_homoousios"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "ijcstory001_the-vision-and-the-alliance": "guard-vote",
+            "ijcstory004_the-vigil-in-the-basilica": "guard-vote"
+          },
+          "id": "IJC-TH-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijcstory001_the-vision-and-the-alliance",
+                "ijcstory004_the-vigil-in-the-basilica"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijcstory001_the-vision-and-the-alliance",
+            "ijcstory004_the-vigil-in-the-basilica"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "ijcstory001_the-vision-and-the-alliance": "ce-drop",
+            "ijcstory003_the-bees-of-milan": "guard-vote",
+            "ijcstory004_the-vigil-in-the-basilica": "guard-vote",
+            "ijcstory005_the-letter-that-outranked-a-council": "ce-drop"
+          },
+          "id": "IJC-TH-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijcstory004_the-vigil-in-the-basilica",
+                "ijcstory003_the-bees-of-milan"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijcstory004_the-vigil-in-the-basilica",
+            "ijcstory003_the-bees-of-milan",
+            "ijcstory001_the-vision-and-the-alliance",
+            "ijcstory005_the-letter-that-outranked-a-council"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "ijcstory001_the-vision-and-the-alliance": "ce-drop",
+            "ijcstory004_the-vigil-in-the-basilica": "ce-drop",
+            "ijcstory005_the-letter-that-outranked-a-council": "guard-vote",
+            "ijcstory006_the-tome-that-would-not-bend": "guard-vote"
+          },
+          "id": "IJC-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijcstory006_the-tome-that-would-not-bend",
+                "ijcstory005_the-letter-that-outranked-a-council"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijcstory006_the-tome-that-would-not-bend",
+            "ijcstory005_the-letter-that-outranked-a-council",
+            "ijcstory004_the-vigil-in-the-basilica",
+            "ijcstory001_the-vision-and-the-alliance"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "ijclex004_communio": "guard-vote",
+            "ijclex005_imperator_intra_ecclesiam": "ce-drop",
+            "ijclex007_concilium": "guard-vote",
+            "ijclex008_haeresis": "ce-drop",
+            "ijclex009_tomus": "guard-vote"
+          },
+          "id": "IJC-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex007_concilium",
+                "ijclex009_tomus",
+                "ijclex004_communio"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex007_concilium",
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex004_communio",
+            "ijclex009_tomus",
+            "ijclex008_haeresis"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "ijcstory002_a-dream-before-the-battle": "guard-vote",
+            "ijcstory005_the-letter-that-outranked-a-council": "guard-vote",
+            "ijcstory006_the-tome-that-would-not-bend": "ce-drop"
+          },
+          "id": "IJC-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijcstory002_a-dream-before-the-battle",
+                "ijcstory005_the-letter-that-outranked-a-council"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijcstory004_the-vigil-in-the-basilica",
+            "ijcstory002_a-dream-before-the-battle",
+            "ijcstory006_the-tome-that-would-not-bend",
+            "ijcstory005_the-letter-that-outranked-a-council"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "ijclex001_primatus": "guard-vote",
+            "ijclex003_homoios": "guard-vote",
+            "ijclex004_communio": "ce-drop",
+            "ijclex005_imperator_intra_ecclesiam": "ce-drop",
+            "ijclex007_concilium": "ce-drop",
+            "ijclex008_haeresis": "guard-vote"
+          },
+          "id": "IJC-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex003_homoios",
+                "ijclex008_haeresis",
+                "ijclex001_primatus"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "ijclex003_homoios"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex001_primatus",
+            "ijclex003_homoios",
+            "ijclex008_haeresis",
+            "ijclex007_concilium",
+            "ijclex004_communio",
+            "ijclex005_imperator_intra_ecclesiam"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "ijcstory001_the-vision-and-the-alliance": "guard-vote",
+            "ijcstory002_a-dream-before-the-battle": "guard-vote",
+            "ijcstory004_the-vigil-in-the-basilica": "ce-drop",
+            "ijcstory005_the-letter-that-outranked-a-council": "ce-drop"
+          },
+          "id": "IJC-NC-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijcstory002_a-dream-before-the-battle",
+                "ijcstory001_the-vision-and-the-alliance"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": [
+                "ijcstory001_the-vision-and-the-alliance"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijcstory002_a-dream-before-the-battle",
+            "ijcstory001_the-vision-and-the-alliance",
+            "ijcstory005_the-letter-that-outranked-a-council",
+            "ijcstory004_the-vigil-in-the-basilica"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "ijclex001_primatus": "guard-vote",
+            "ijclex004_communio": "ce-drop",
+            "ijclex005_imperator_intra_ecclesiam": "guard-vote",
+            "ijclex006_homoousios": "ce-drop",
+            "ijclex007_concilium": "guard-vote",
+            "ijclex011_basilica": "ce-drop"
+          },
+          "id": "IJC-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex005_imperator_intra_ecclesiam",
+                "ijclex001_primatus",
+                "ijclex007_concilium"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex004_communio",
+            "ijclex001_primatus",
+            "ijclex007_concilium",
+            "ijclex011_basilica",
+            "ijclex006_homoousios"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "ijclex003_homoios": "ce-drop",
+            "ijclex004_communio": "guard-vote",
+            "ijclex005_imperator_intra_ecclesiam": "ce-drop",
+            "ijclex007_concilium": "guard-vote",
+            "ijclex008_haeresis": "ce-drop",
+            "ijclex009_tomus": "guard-vote"
+          },
+          "id": "IJC-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "ijclex007_concilium",
+                "ijclex004_communio",
+                "ijclex009_tomus"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "ijclex008_haeresis",
+            "ijclex007_concilium",
+            "ijclex003_homoios",
+            "ijclex005_imperator_intra_ecclesiam",
+            "ijclex004_communio",
+            "ijclex009_tomus"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    },
+    "post-apostolic-house-church": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": null,
+            "n": 4,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 3,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 1.0,
+            "n": 1,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 1.0,
+            "n": 6,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 18
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex002_presbyteros": "guard-vote",
+            "pahclex003_ekklesia": "guard-vote",
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex005_diakonos": "guard-vote",
+            "pahclex006_presbyterion": "guard-vote"
+          },
+          "id": "PAHC-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex001_episkopos",
+                "pahclex005_diakonos",
+                "pahclex002_presbyteros"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex001_episkopos",
+            "pahclex003_ekklesia",
+            "pahclex004_eucharistia",
+            "pahclex006_presbyterion",
+            "pahclex002_presbyteros",
+            "pahclex005_diakonos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "pahclex001_episkopos": "ce-drop",
+            "pahclex003_ekklesia": "guard-vote",
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex010_agape-label": "guard-vote",
+            "pahclex012_hetaeria": "ce-drop",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex010_agape-label",
+                "pahclex004_eucharistia",
+                "pahclex003_ekklesia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex010_agape-label",
+            "pahclex004_eucharistia",
+            "pahclex012_hetaeria",
+            "pahclex001_episkopos",
+            "pahclex003_ekklesia",
+            "pahclex013_pertinacia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "pahclex003_ekklesia": "guard-vote",
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex005_diakonos": "guard-vote",
+            "pahclex009_ministrae": "ce-drop",
+            "pahclex011_baptisma": "ce-drop",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-VT-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex003_ekklesia",
+                "pahclex004_eucharistia",
+                "pahclex005_diakonos"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex003_ekklesia",
+            "pahclex013_pertinacia",
+            "pahclex004_eucharistia",
+            "pahclex009_ministrae",
+            "pahclex011_baptisma",
+            "pahclex005_diakonos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "pahclex002_presbyteros": "ce-drop",
+            "pahclex003_ekklesia": "guard-vote",
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex006_presbyterion": "ce-drop",
+            "pahclex010_agape-label": "guard-vote",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex004_eucharistia",
+                "pahclex003_ekklesia",
+                "pahclex010_agape-label"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex004_eucharistia",
+            "pahclex013_pertinacia",
+            "pahclex003_ekklesia",
+            "pahclex006_presbyterion",
+            "pahclex010_agape-label",
+            "pahclex002_presbyteros"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex002_presbyteros": "guard-vote",
+            "pahclex003_ekklesia": "ce-drop",
+            "pahclex006_presbyterion": "guard-vote",
+            "pahclex008_prophetes": "ce-drop",
+            "pahclex012_hetaeria": "ce-drop"
+          },
+          "id": "PAHC-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex001_episkopos",
+                "pahclex002_presbyteros",
+                "pahclex006_presbyterion"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex001_episkopos",
+            "pahclex012_hetaeria",
+            "pahclex003_ekklesia",
+            "pahclex002_presbyteros",
+            "pahclex008_prophetes",
+            "pahclex006_presbyterion"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex007_two-ways": "guard-vote",
+            "pahclex009_ministrae": "ce-drop",
+            "pahclex011_baptisma": "guard-vote",
+            "pahclex012_hetaeria": "ce-drop",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex011_baptisma",
+                "pahclex007_two-ways",
+                "pahclex004_eucharistia"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex011_baptisma",
+            "pahclex007_two-ways",
+            "pahclex012_hetaeria",
+            "pahclex004_eucharistia",
+            "pahclex009_ministrae",
+            "pahclex013_pertinacia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex003_ekklesia": "ce-drop",
+            "pahclex007_two-ways": "guard-vote",
+            "pahclex008_prophetes": "guard-vote",
+            "pahclex009_ministrae": "ce-drop",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex008_prophetes",
+                "pahclex007_two-ways",
+                "pahclex001_episkopos"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex008_prophetes",
+            "pahclex013_pertinacia",
+            "pahclex003_ekklesia",
+            "pahclex007_two-ways",
+            "pahclex009_ministrae",
+            "pahclex001_episkopos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex005_diakonos": "guard-vote",
+            "pahclex009_ministrae": "guard-vote",
+            "pahclex010_agape-label": "ce-drop",
+            "pahclex012_hetaeria": "ce-drop",
+            "pahclex013_pertinacia": "ce-drop"
+          },
+          "id": "PAHC-TH-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex009_ministrae",
+                "pahclex005_diakonos",
+                "pahclex001_episkopos"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex009_ministrae",
+            "pahclex005_diakonos",
+            "pahclex010_agape-label",
+            "pahclex012_hetaeria",
+            "pahclex001_episkopos",
+            "pahclex013_pertinacia"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahcstory004_pliny-interrogation": "ce-drop",
+            "pahcstory006_justin-sunday-gathering": "guard-vote",
+            "pahcstory010_didache-eucharist": "ce-drop",
+            "pahcstory012_day-under-bishop-and-presbyters": "guard-vote"
+          },
+          "id": "PAHC-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahcstory006_justin-sunday-gathering",
+                "pahcstory012_day-under-bishop-and-presbyters"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahcstory006_justin-sunday-gathering",
+            "pahcstory012_day-under-bishop-and-presbyters",
+            "pahcstory010_didache-eucharist",
+            "pahcstory004_pliny-interrogation"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "pahcstory001_ignatius-guarded-journey": "guard-vote",
+            "pahcstory002_1clement-corinthian-dispute": "guard-vote",
+            "pahcstory006_justin-sunday-gathering": "ce-drop",
+            "pahcstory011_one-eucharist-under-bishop": "ce-drop"
+          },
+          "id": "PAHC-TH-06",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahcstory002_1clement-corinthian-dispute",
+                "pahcstory001_ignatius-guarded-journey"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahcstory002_1clement-corinthian-dispute",
+            "pahcstory001_ignatius-guarded-journey",
+            "pahcstory006_justin-sunday-gathering",
+            "pahcstory011_one-eucharist-under-bishop"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "pahclex002_presbyteros": "guard-vote",
+            "pahclex005_diakonos": "guard-vote",
+            "pahclex006_presbyterion": "ce-drop",
+            "pahclex008_prophetes": "ce-drop",
+            "pahclex009_ministrae": "guard-vote"
+          },
+          "id": "PAHC-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex009_ministrae",
+                "pahclex002_presbyteros",
+                "pahclex005_diakonos"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex001_episkopos",
+            "pahclex009_ministrae",
+            "pahclex002_presbyteros",
+            "pahclex006_presbyterion",
+            "pahclex005_diakonos",
+            "pahclex008_prophetes"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "pahcstory001_ignatius-guarded-journey": "guard-vote",
+            "pahcstory002_1clement-corinthian-dispute": "ce-drop",
+            "pahcstory006_justin-sunday-gathering": "guard-vote"
+          },
+          "id": "PAHC-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahcstory001_ignatius-guarded-journey",
+                "pahcstory006_justin-sunday-gathering"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahcstory004_pliny-interrogation",
+            "pahcstory001_ignatius-guarded-journey",
+            "pahcstory006_justin-sunday-gathering",
+            "pahcstory002_1clement-corinthian-dispute"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex002_presbyteros": "guard-vote",
+            "pahclex003_ekklesia": "ce-drop",
+            "pahclex005_diakonos": "ce-drop",
+            "pahclex006_presbyterion": "guard-vote",
+            "pahclex009_ministrae": "ce-drop"
+          },
+          "id": "PAHC-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex001_episkopos",
+                "pahclex006_presbyterion",
+                "pahclex002_presbyteros"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "pahclex001_episkopos"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex001_episkopos",
+            "pahclex009_ministrae",
+            "pahclex003_ekklesia",
+            "pahclex005_diakonos",
+            "pahclex002_presbyteros",
+            "pahclex006_presbyterion"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "pahclex001_episkopos": "ce-drop",
+            "pahclex003_ekklesia": "guard-vote",
+            "pahclex004_eucharistia": "guard-vote",
+            "pahclex006_presbyterion": "ce-drop",
+            "pahclex007_two-ways": "ce-drop",
+            "pahclex013_pertinacia": "guard-vote"
+          },
+          "id": "PAHC-NC-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex004_eucharistia",
+                "pahclex003_ekklesia",
+                "pahclex013_pertinacia"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "pahclex004_eucharistia"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex004_eucharistia",
+            "pahclex007_two-ways",
+            "pahclex013_pertinacia",
+            "pahclex006_presbyterion",
+            "pahclex003_ekklesia",
+            "pahclex001_episkopos"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "pahcstory001_ignatius-guarded-journey": "guard-vote",
+            "pahcstory005_nero-scapegoating": "ce-drop",
+            "pahcstory007_hermas-visions": "ce-drop",
+            "pahcstory008_martyrdom-of-polycarp": "guard-vote"
+          },
+          "id": "PAHC-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahcstory001_ignatius-guarded-journey",
+                "pahcstory008_martyrdom-of-polycarp"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "pahcstory001_ignatius-guarded-journey"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahcstory001_ignatius-guarded-journey",
+            "pahcstory008_martyrdom-of-polycarp",
+            "pahcstory005_nero-scapegoating",
+            "pahcstory007_hermas-visions"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "pahcstory001_ignatius-guarded-journey": "guard-vote",
+            "pahcstory002_1clement-corinthian-dispute": "ce-drop",
+            "pahcstory004_pliny-interrogation": "guard-vote",
+            "pahcstory007_hermas-visions": "ce-drop"
+          },
+          "id": "PAHC-NC-04",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahcstory001_ignatius-guarded-journey",
+                "pahcstory004_pliny-interrogation"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahcstory004_pliny-interrogation",
+            "pahcstory001_ignatius-guarded-journey",
+            "pahcstory007_hermas-visions",
+            "pahcstory002_1clement-corinthian-dispute"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "pahclex001_episkopos": "guard-vote",
+            "pahclex002_presbyteros": "guard-vote",
+            "pahclex003_ekklesia": "ce-drop",
+            "pahclex005_diakonos": "ce-drop",
+            "pahclex006_presbyterion": "guard-vote",
+            "pahclex009_ministrae": "ce-drop"
+          },
+          "id": "PAHC-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex001_episkopos",
+                "pahclex002_presbyteros",
+                "pahclex006_presbyterion"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex001_episkopos",
+            "pahclex009_ministrae",
+            "pahclex002_presbyteros",
+            "pahclex003_ekklesia",
+            "pahclex005_diakonos",
+            "pahclex006_presbyterion"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "pahclex003_ekklesia": "ce-drop",
+            "pahclex005_diakonos": "guard-vote",
+            "pahclex006_presbyterion": "guard-vote",
+            "pahclex008_prophetes": "guard-vote",
+            "pahclex009_ministrae": "ce-drop",
+            "pahclex012_hetaeria": "ce-drop"
+          },
+          "id": "PAHC-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "pahclex008_prophetes",
+                "pahclex005_diakonos",
+                "pahclex006_presbyterion"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "pahclex009_ministrae",
+            "pahclex003_ekklesia",
+            "pahclex012_hetaeria",
+            "pahclex006_presbyterion",
+            "pahclex008_prophetes",
+            "pahclex005_diakonos"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    },
+    "syriac-edessa-nisibis": {
+      "aggregate": {
+        "by_category": {
+          "cross-world-isolation": {
+            "mean_mrr": null,
+            "n": 1,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "de-dup": {
+            "mean_mrr": null,
+            "n": 2,
+            "pass_at_k[retrieve]": null,
+            "pass_at_k[skip]": null,
+            "recall_at_k[retrieve]": null,
+            "recall_at_k[skip]": null,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "negative-condition": {
+            "mean_mrr": 1.0,
+            "n": 5,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 1,
+            "violations[skip]": 0
+          },
+          "reactive-turn": {
+            "mean_mrr": 0.75,
+            "n": 2,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "thematic": {
+            "mean_mrr": 1.0,
+            "n": 6,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          },
+          "verbatim-term": {
+            "mean_mrr": 1.0,
+            "n": 4,
+            "pass_at_k[retrieve]": 1.0,
+            "pass_at_k[skip]": 0.0,
+            "recall_at_k[retrieve]": 1.0,
+            "recall_at_k[skip]": 0.0,
+            "violations[retrieve]": 0,
+            "violations[skip]": 0
+          }
+        },
+        "isolation_violations_total": 0,
+        "metadata_check_failures": 0,
+        "n_cases": 20
+      },
+      "cases": [
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "syrlex001_raza-shrara": "ce-drop",
+            "syrlex002_qyama": "guard-vote",
+            "syrlex003_tahwyata": "guard-vote",
+            "syrlex004_madrasha": "ce-drop",
+            "syrlex005_memra": "ce-drop",
+            "syrlex007_ihidaya": "guard-vote"
+          },
+          "id": "SYR-VT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex002_qyama",
+                "syrlex007_ihidaya",
+                "syrlex003_tahwyata"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex002_qyama",
+            "syrlex003_tahwyata",
+            "syrlex004_madrasha",
+            "syrlex007_ihidaya",
+            "syrlex001_raza-shrara",
+            "syrlex005_memra"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "syrlex002_qyama": "guard-vote",
+            "syrlex003_tahwyata": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "guard-vote",
+            "syrlex008_mar": "ce-drop",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-VT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex004_madrasha",
+                "syrlex005_memra",
+                "syrlex002_qyama"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex004_madrasha",
+            "syrlex005_memra",
+            "syrlex002_qyama",
+            "syrlex008_mar",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex003_tahwyata"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "ce-drop",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex007_ihidaya": "ce-drop",
+            "syrlex008_mar": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-VT-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex008_mar",
+                "syrlex004_madrasha",
+                "syrlex006_ewangeliyon-da-mhallete"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex008_mar",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex005_memra",
+            "syrlex007_ihidaya",
+            "syrlex004_madrasha"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "verbatim-term",
+          "decisions": {
+            "syrlex003_tahwyata": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "guard-vote",
+            "syrlex007_ihidaya": "guard-vote",
+            "syrlex008_mar": "ce-drop",
+            "syrlex009_catholicos": "ce-drop"
+          },
+          "id": "SYR-VT-05",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex005_memra",
+                "syrlex004_madrasha",
+                "syrlex007_ihidaya"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex005_memra",
+            "syrlex004_madrasha",
+            "syrlex009_catholicos",
+            "syrlex007_ihidaya",
+            "syrlex003_tahwyata",
+            "syrlex008_mar"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrlex001_raza-shrara": "guard-vote",
+            "syrlex002_qyama": "ce-drop",
+            "syrlex003_tahwyata": "guard-vote",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex008_mar": "ce-drop",
+            "syrlex009_catholicos": "ce-drop"
+          },
+          "id": "SYR-TH-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex004_madrasha",
+                "syrlex003_tahwyata",
+                "syrlex001_raza-shrara"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex004_madrasha",
+            "syrlex002_qyama",
+            "syrlex003_tahwyata",
+            "syrlex001_raza-shrara",
+            "syrlex009_catholicos",
+            "syrlex008_mar"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrlex001_raza-shrara": "ce-drop",
+            "syrlex002_qyama": "guard-vote",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "ce-drop",
+            "syrlex007_ihidaya": "guard-vote"
+          },
+          "id": "SYR-TH-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex002_qyama",
+                "syrlex007_ihidaya",
+                "syrlex004_madrasha"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex002_qyama",
+            "syrlex007_ihidaya",
+            "syrlex001_raza-shrara",
+            "syrlex004_madrasha",
+            "syrlex005_memra"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrlex001_raza-shrara": "guard-vote",
+            "syrlex002_qyama": "ce-drop",
+            "syrlex005_memra": "ce-drop",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex007_ihidaya": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-TH-03",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex001_raza-shrara",
+                "syrlex007_ihidaya",
+                "syrlex006_ewangeliyon-da-mhallete"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex001_raza-shrara",
+            "syrlex007_ihidaya",
+            "syrlex002_qyama",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex005_memra"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrlex001_raza-shrara": "guard-vote",
+            "syrlex003_tahwyata": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex008_mar": "ce-drop",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-TH-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex006_ewangeliyon-da-mhallete",
+                "syrlex001_raza-shrara",
+                "syrlex004_madrasha"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex008_mar",
+            "syrlex004_madrasha",
+            "syrlex001_raza-shrara",
+            "syrlex003_tahwyata"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrstory001_ephrem-famine-death": "ce-drop",
+            "syrstory002_edessa-flood-201": "guard-vote",
+            "syrstory004_doctrina-addai": "ce-drop",
+            "syrstory005_martyrdom-simeon-bar-sabbae": "guard-vote"
+          },
+          "id": "SYR-TH-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrstory005_martyrdom-simeon-bar-sabbae",
+                "syrstory002_edessa-flood-201"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrstory005_martyrdom-simeon-bar-sabbae",
+            "syrstory004_doctrina-addai",
+            "syrstory001_ephrem-famine-death",
+            "syrstory002_edessa-flood-201"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "thematic",
+          "decisions": {
+            "syrstory002_edessa-flood-201": "guard-vote",
+            "syrstory003_jacob-nisibis-nicaea": "ce-drop",
+            "syrstory004_doctrina-addai": "guard-vote",
+            "syrstory007_ephrem-founding-choirs": "ce-drop"
+          },
+          "id": "SYR-TH-06",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrstory004_doctrina-addai",
+                "syrstory002_edessa-flood-201"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrstory004_doctrina-addai",
+            "syrstory002_edessa-flood-201",
+            "syrstory007_ephrem-founding-choirs",
+            "syrstory003_jacob-nisibis-nicaea"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {},
+          "id": "SYR-DD-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex002_qyama"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "de-dup",
+          "decisions": {
+            "syrstory001_ephrem-famine-death": "ce-drop",
+            "syrstory005_martyrdom-simeon-bar-sabbae": "guard-vote",
+            "syrstory009_typical-qyama-worship": "guard-vote"
+          },
+          "id": "SYR-DD-02",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrstory009_typical-qyama-worship",
+                "syrstory005_martyrdom-simeon-bar-sabbae"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrstory007_ephrem-founding-choirs",
+            "syrstory009_typical-qyama-worship",
+            "syrstory005_martyrdom-simeon-bar-sabbae",
+            "syrstory001_ephrem-famine-death"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "syrlex002_qyama": "ce-drop",
+            "syrlex003_tahwyata": "guard-vote",
+            "syrlex004_madrasha": "ce-drop",
+            "syrlex005_memra": "ce-drop",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "guard-vote"
+          },
+          "id": "SYR-NC-01",
+          "isolation_violations": [],
+          "k": 3,
+          "metadata_checks": [
+            {
+              "actual": true,
+              "expected": true,
+              "field": "force_llm_vote",
+              "id": "syrlex004_madrasha",
+              "pass": true
+            }
+          ],
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex003_tahwyata",
+                "syrlex010_anti-jewish-demonstrations",
+                "syrlex006_ewangeliyon-da-mhallete"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex003_tahwyata",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex004_madrasha",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex005_memra",
+            "syrlex002_qyama"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "syrlex002_qyama": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "ce-drop",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex008_mar": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-NC-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex004_madrasha",
+                "syrlex008_mar",
+                "syrlex006_ewangeliyon-da-mhallete"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex004_madrasha",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex008_mar",
+            "syrlex002_qyama",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex005_memra"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "syrstory001_ephrem-famine-death": "guard-vote",
+            "syrstory006_jacob-nisibis-deliverance": "ce-drop",
+            "syrstory007_ephrem-founding-choirs": "guard-vote",
+            "syrstory008_ephrem-basil-legend": "guard-vote"
+          },
+          "id": "SYR-NC-03",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrstory007_ephrem-founding-choirs",
+                "syrstory008_ephrem-basil-legend"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrstory007_ephrem-founding-choirs",
+            "syrstory008_ephrem-basil-legend",
+            "syrstory001_ephrem-famine-death",
+            "syrstory006_jacob-nisibis-deliverance"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "syrlex001_raza-shrara": "ce-drop",
+            "syrlex002_qyama": "guard-vote",
+            "syrlex006_ewangeliyon-da-mhallete": "ce-drop",
+            "syrlex007_ihidaya": "ce-drop",
+            "syrlex009_catholicos": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "guard-vote"
+          },
+          "id": "SYR-NC-04",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex010_anti-jewish-demonstrations",
+                "syrlex002_qyama",
+                "syrlex009_catholicos"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": [
+                "syrlex010_anti-jewish-demonstrations"
+              ]
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex002_qyama",
+            "syrlex009_catholicos",
+            "syrlex007_ihidaya",
+            "syrlex001_raza-shrara"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "negative-condition",
+          "decisions": {
+            "syrstory001_ephrem-famine-death": "guard-vote",
+            "syrstory006_jacob-nisibis-deliverance": "guard-vote",
+            "syrstory007_ephrem-founding-choirs": "guard-vote",
+            "syrstory008_ephrem-basil-legend": "guard-vote"
+          },
+          "id": "SYR-NC-05",
+          "isolation_violations": [],
+          "k": 2,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrstory007_ephrem-founding-choirs",
+                "syrstory001_ephrem-famine-death"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrstory007_ephrem-founding-choirs",
+            "syrstory001_ephrem-famine-death",
+            "syrstory008_ephrem-basil-legend",
+            "syrstory006_jacob-nisibis-deliverance"
+          ],
+          "retriever": "story"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "syrlex002_qyama": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "guard-vote"
+          },
+          "id": "SYR-RT-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 1.0,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex002_qyama",
+                "syrlex010_anti-jewish-demonstrations"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex002_qyama",
+            "syrlex010_anti-jewish-demonstrations"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "reactive-turn",
+          "decisions": {
+            "syrlex001_raza-shrara": "ce-drop",
+            "syrlex003_tahwyata": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex005_memra": "guard-vote",
+            "syrlex008_mar": "guard-vote",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-RT-02",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": 0.5,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex004_madrasha",
+                "syrlex005_memra",
+                "syrlex008_mar"
+              ],
+              "pass_at_k": 1,
+              "recall_at_k": 1.0,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": 0,
+              "recall_at_k": 0.0,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex003_tahwyata",
+            "syrlex004_madrasha",
+            "syrlex008_mar",
+            "syrlex005_memra",
+            "syrlex001_raza-shrara",
+            "syrlex010_anti-jewish-demonstrations"
+          ],
+          "retriever": "lexicon"
+        },
+        {
+          "category": "cross-world-isolation",
+          "decisions": {
+            "syrlex003_tahwyata": "ce-drop",
+            "syrlex004_madrasha": "guard-vote",
+            "syrlex006_ewangeliyon-da-mhallete": "guard-vote",
+            "syrlex008_mar": "guard-vote",
+            "syrlex009_catholicos": "ce-drop",
+            "syrlex010_anti-jewish-demonstrations": "ce-drop"
+          },
+          "id": "SYR-XW-01",
+          "isolation_violations": [],
+          "k": 3,
+          "mrr": null,
+          "policies": {
+            "retrieve": {
+              "final": [
+                "syrlex008_mar",
+                "syrlex004_madrasha",
+                "syrlex006_ewangeliyon-da-mhallete"
+              ],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            },
+            "skip": {
+              "final": [],
+              "pass_at_k": null,
+              "recall_at_k": null,
+              "violations": []
+            }
+          },
+          "ranked_candidates": [
+            "syrlex008_mar",
+            "syrlex010_anti-jewish-demonstrations",
+            "syrlex006_ewangeliyon-da-mhallete",
+            "syrlex009_catholicos",
+            "syrlex003_tahwyata",
+            "syrlex004_madrasha"
+          ],
+          "retriever": "lexicon"
+        }
+      ]
+    }
+  }
+}

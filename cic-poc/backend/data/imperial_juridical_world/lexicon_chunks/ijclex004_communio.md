@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               1
 
-Tags:               AS, SC, DR, TC, RT
-
-Aliases:            communion (as juridical status), being in/out of communion, ecclesiastical fellowship
+Aliases:            communion, in communion, out of communion, ecclesiastical fellowship
 
 Related-Terms:      primatus, haeresis, presbeia, Imperator intra Ecclesiam, non supra Ecclesiam, Tomus, basilica
 

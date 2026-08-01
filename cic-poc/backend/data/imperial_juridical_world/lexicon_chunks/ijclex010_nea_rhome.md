@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               2
 
-Tags:               AS, TC, RT, PV
-
-Aliases:            New Rome, Constantinople as New Rome, Nea Rhome (unmarked transliteration)
+Aliases:            New Rome, Constantinople as New Rome, Nea Rhome
 
 Related-Terms:      presbeia, primatus
 
@@ -40,9 +38,11 @@ Written from Strand B's own voice. Constantine did not build a city and merely g
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may hear "New Rome" as mere honorific flattery, a city naming itself grandly with no operative claim behind it.
+**Modern Hearing:**
+a modern participant may hear "New Rome" as mere honorific flattery, a city naming itself grandly with no operative claim behind it.
 
-**World Hearing:** in this world's own record, the name functions as the stated premise of a real, contested juridical claim (Canon 3, Canon 28), not as decoration.
+**World Hearing:**
+in this world's own record, the name functions as the stated premise of a real, contested juridical claim (Canon 3, Canon 28), not as decoration.
 
 ---
 

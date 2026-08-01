@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               3
 
-Tags:               SC, RT, PV
-
-Aliases:            martyr shrine, martyr cult (as used in this world specifically)
+Aliases:            martyr shrine, martyr cult
 
 Related-Terms:      primatus
 
@@ -34,9 +32,11 @@ See Quick Meaning above. This world's own use of the term is narrower than a ful
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may assume martyr-cult functions the same way across every early Christian world.
+**Modern Hearing:**
+a modern participant may assume martyr-cult functions the same way across every early Christian world.
 
-**World Hearing:** in this world's own record specifically, it is folded into and largely subordinate to the primacy-claiming project — a different weighting than a world where martyr-cult is itself the organizing center.
+**World Hearing:**
+in this world's own record specifically, it is folded into and largely subordinate to the primacy-claiming project — a different weighting than a world where martyr-cult is itself the organizing center.
 
 ---
 

@@ -7,8 +7,6 @@ World-Code:         ijc
 
 Tier:               3
 
-Tags:               SC, RT, PV
-
 Aliases:            church building, basilica standoff
 
 Related-Terms:      Imperator intra Ecclesiam, non supra Ecclesiam, communio
@@ -34,9 +32,11 @@ See Quick Meaning above; this term's own fuller treatment lives in the *Imperato
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may treat "basilica" as purely an architectural term.
+**Modern Hearing:**
+a modern participant may treat "basilica" as purely an architectural term.
 
-**World Hearing:** in this world's own 386 record specifically, the building itself is inseparable from the confrontation that made it consequential.
+**World Hearing:**
+in this world's own 386 record specifically, the building itself is inseparable from the confrontation that made it consequential.
 
 ---
 

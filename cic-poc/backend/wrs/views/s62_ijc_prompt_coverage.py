@@ -86,50 +86,58 @@ COVERAGE = [
  (18, "This holds for events as much as for men", R,
   "trait_rubric[3] (bare-fact-no-cast - Round 5's fix: the plain "
   "shape and a full stop, no furniture in an empty room)."),
- (19, "When you engage a question, you approach it the way a chancery",
+ (19, "And this discipline covers names themselves", R,
+  "The Decision IJC-2 guard (FLAG-036's record-derived fix, "
+  "2026-07-31 - the HAL-2/PAHC-4 pattern, added at S2.9): the "
+  "approved-anchor seam's no-names-however-real rule (whose record "
+  "homes are Section 2A's own discipline + avoid_traits[3]'s class) "
+  "carried into the deployed prompt after probe parity caught the "
+  "deployed voice supplying four Chalcedon-legation names its record "
+  "does not hold. Cold-reprobed at S2.9; battery re-verifies blind."),
+ (20, "When you engage a question, you approach it the way a chancery",
   R,
   "speaking_model.act_sequence (the petition sequence; "
   "precedent-first; rank noticed before content)."),
- (20, "When someone asks how you know a thing", R,
+ (21, "When someone asks how you know a thing", R,
   "speaking_model.instrumentalities ('evidence' as the "
   "court-of-scholars word, never his: who wrote what, to whom, and "
   "whether anyone with standing disputed it) - ijcdemo001's "
   "validated fragment."),
- (21, "A claim without a name attached to it is worth nothing", R,
+ (22, "A claim without a name attached to it is worth nothing", R,
   "speaking_model.norms (the naming-the-see anchoring habit - the "
   "Round-4 operationalization; the anchoring-cold caution rides "
   "the battery/TRR)."),
- (22, "Your language carries the vocabulary of the letter", R,
+ (23, "Your language carries the vocabulary of the letter", R,
   "instrumentalities (chancery vocabulary; the sentence discipline) "
   "+ register_determination (the fleet's sixth register position, "
   "CO-015 direction-checked; formal-conciliar vs plain-petition "
   "range)."),
- (23, "When someone comes to you with a question, you receive it", R,
+ (24, "When someone comes to you with a question, you receive it", R,
   "speaking_model.ends (the petition received as genuine, whatever "
   "the petitioner's standing; never assumed a test)."),
- (24, "Your engagement deepens as the conversation deepens", R,
+ (25, "Your engagement deepens as the conversation deepens", R,
   "speaking_model.ends (judgment in stages; understanding "
   "accumulating the way a case accumulates)."),
- (25, "There are domains where this world's own life did not press", R,
+ (26, "There are domains where this world's own life did not press", R,
   "The ordinary-believer-thinness caution (a world of office-holders "
   "by its own admission) + the Section-5 shape (the brief turn and "
   "the return; 'the turning itself is the whole of the answer' - "
   "the Phase-5 Round-1 fix away from documentation-hedging)."),
- (26, "You speak faithfully about your world", R,
+ (27, "You speak faithfully about your world", R,
   "speaking_model.key (the witness's exactness - 'the way a witness "
   "speaks who knows the record will be checked')."),
- (27, "You make your tradition intelligible", R,
+ (28, "You make your tradition intelligible", R,
   "speaking_model.ends (intelligible-not-advocate - the fleet's "
   "standing close)."),
- (28, "Your intensity, where it rises", R,
+ (29, "Your intensity, where it rises", R,
   "speaking_model.key (intensity at what threatened a true claim's "
   "standing, never at the asker; the petitioner free to leave "
   "unpersuaded)."),
- (29, "Every claim you carry", R,
+ (30, "Every claim you carry", R,
   "ijccore001.telos (Section 7 carried verbatim-adjacent at S2.7a "
   "per CO-P2-05; provisional BY DESIGN under the year-two "
   "Article-31 ruling)."),
- (30, "Your world gave rise to traditions that still claim descent", R,
+ (31, "Your world gave rise to traditions that still claim descent", R,
   "ijccore001.living_traditions (Section 8 - the third Article-29 "
   "posture: dual-descendant non-authority; Doc_01's 'Not confirmed' "
   "status carried provisional, listed for Mark at the freeze)."),

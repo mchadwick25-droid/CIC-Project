@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               1
 
-Tags:               AS, DR, TC, RT, PV
-
-Aliases:            "the emperor is within the Church, not over it," Ambrose's formula, the Auxentius sermon formula
+Aliases:            "the emperor is within the Church, not over it", Ambrose's formula, the Auxentius sermon formula
 
 Related-Terms:      communio, basilica
 

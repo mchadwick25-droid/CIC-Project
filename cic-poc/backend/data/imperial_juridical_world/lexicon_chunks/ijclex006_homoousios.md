@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               2
 
-Tags:               SC, TC, RT, CT
-
-Aliases:            "of one substance," "of one being with the Father," consubstantial
+Aliases:            of one substance, of one being with the Father, consubstantial
 
 Related-Terms:      homoios, primatus, presbeia, Tomus
 
@@ -40,9 +38,11 @@ This term is the doctrinal content our councils and our Tomes exist to defend an
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may assume this word was uncontested once Nicaea spoke it, a settled formula from 325 onward.
+**Modern Hearing:**
+a modern participant may assume this word was uncontested once Nicaea spoke it, a settled formula from 325 onward.
 
-**World Hearing:** this world's own record shows the word itself remaining genuinely contested — held, resisted, and at times set aside by imperial command — for decades after it was first confessed.
+**World Hearing:**
+this world's own record shows the word itself remaining genuinely contested — held, resisted, and at times set aside by imperial command — for decades after it was first confessed.
 
 ---
 

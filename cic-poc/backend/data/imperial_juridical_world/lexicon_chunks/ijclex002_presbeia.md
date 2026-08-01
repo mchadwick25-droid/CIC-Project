@@ -7,8 +7,6 @@ World-Code:         ijc
 
 Tier:               1
 
-Tags:               AS, DR, TC, RT, PV, CT
-
 Aliases:            prerogative of honor, primacy of honor, New Rome's rank
 
 Related-Terms:      primatus, Nea Rhōmē, communio, homoousios, concilium

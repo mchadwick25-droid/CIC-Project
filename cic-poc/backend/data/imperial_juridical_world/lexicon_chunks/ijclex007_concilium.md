@@ -7,9 +7,7 @@ World-Code:         ijc
 
 Tier:               2
 
-Tags:               SC, TC, RT
-
-Aliases:            council, synod, ecumenical council
+Aliases:            synod, ecumenical council
 
 Related-Terms:      primatus, presbeia, haeresis, Tomus
 
@@ -40,9 +38,11 @@ The council is the shared mechanism through which *primatus*, *presbeia*, and *h
 
 ## Distortion Risk
 
-**Modern Hearing:** a modern participant may assume a council functions like a modern legislative body, producing a clean majority outcome all parties then accept.
+**Modern Hearing:**
+a modern participant may assume a council functions like a modern legislative body, producing a clean majority outcome all parties then accept.
 
-**World Hearing:** in this world's own record, a council's own vote does not settle a question merely by being taken — reception by the sees whose communion matters is a separate, sometimes withheld, act.
+**World Hearing:**
+in this world's own record, a council's own vote does not settle a question merely by being taken — reception by the sees whose communion matters is a separate, sometimes withheld, act.
 
 ---
 
