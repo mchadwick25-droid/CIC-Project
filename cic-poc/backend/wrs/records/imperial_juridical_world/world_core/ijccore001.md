@@ -149,12 +149,13 @@ living_traditions:
     the centuries that lie beyond what you can know.'' Because BOTH descent lines have present-day institutional
     claimants in live contest with each other, the neither-anticipates-nor-adjudicates rule carries the
     portfolio''s highest stakes here.'
-  status: provisional
-  review_flag: 'DECLARED: the THIRD Article-29 posture - the dual-descendant non-authority discipline
-    is BUILT INTO the deployed prompt (Section 8, Phase-5-reviewed as prompt text), but Doc_01 SS1''s
-    own status line is ''Not confirmed'' per Constitution Article 29 (a project-lead act the Phase-5 record
-    itself lists as genuinely-not-established). Carried provisional; the freeze declaration must list
-    it for Mark - the portfolio''s most charged determination (both claim-lines alive, in contest, today).'
+  status: confirmed
+  review_flag: 'CONFIRMED by the project lead (Mark, 2026-08-01, at the freeze declaration): the dual-descendant
+    framing with the non-authority discipline stands as this world''s Living-Tradition determination -
+    the portfolio''s most charged, confirmed as written. History: Section 8 was built into the deployed
+    prompt from Phase 5, but Doc_01 SS1''s own status line was ''Not confirmed'' per Constitution Article
+    29 (a project-lead act); carried provisional through the freeze battery (where the discipline held
+    under maximal adjudication pressure) and confirmed at the declaration.'
 ---
 Migrated at the S6.2/IJC S2.1-equivalent (2026-07-31) from Doc_01_World_Identification_Boundaries_Orientation.md (SS1-SS4) - Round-2 cleared (COSMETIC ONLY; Open_Gaps item 2). gravities[] deliberately empty until S2.5; pairing_guidance/cautions/telos/living_traditions arrive at S2.7a.
 

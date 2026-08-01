@@ -191,17 +191,18 @@ LIVING = {
         "present-day institutional claimants in live contest with "
         "each other, the neither-anticipates-nor-adjudicates rule "
         "carries the portfolio's highest stakes here."),
-    "status": "provisional",
+    "status": "confirmed",
     "review_flag": (
-        "DECLARED: the THIRD Article-29 posture - the dual-descendant "
-        "non-authority discipline is BUILT INTO the deployed prompt "
-        "(Section 8, Phase-5-reviewed as prompt text), but Doc_01 "
-        "SS1's own status line is 'Not confirmed' per Constitution "
-        "Article 29 (a project-lead act the Phase-5 record itself "
-        "lists as genuinely-not-established). Carried provisional; "
-        "the freeze declaration must list it for Mark - the "
-        "portfolio's most charged determination (both claim-lines "
-        "alive, in contest, today)."),
+        "CONFIRMED by the project lead (Mark, 2026-08-01, at the "
+        "freeze declaration): the dual-descendant framing with the "
+        "non-authority discipline stands as this world's "
+        "Living-Tradition determination - the portfolio's most "
+        "charged, confirmed as written. History: Section 8 was built "
+        "into the deployed prompt from Phase 5, but Doc_01 SS1's own "
+        "status line was 'Not confirmed' per Constitution Article 29 "
+        "(a project-lead act); carried provisional through the freeze "
+        "battery (where the discipline held under maximal "
+        "adjudication pressure) and confirmed at the declaration."),
 }
 
 
@@ -216,7 +217,7 @@ def main():
           "claims; the where-authority-lives class complete at four "
           "members), 10 cautions, telos (provisional BY DESIGN - the "
           "year-two ruling), living_traditions (the THIRD Article-29 "
-          "posture, provisional, listed for Mark)")
+          "posture, CONFIRMED by the project lead 2026-08-01)")
 
 
 if __name__ == "__main__":
