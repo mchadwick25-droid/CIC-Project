@@ -720,6 +720,26 @@ check of the real Living Table build in a running conversation — see LT-1.
       correctly retrieved for PAHC, and the report's write-up had
       misattributed it while drafting. No code defect existed; report
       corrected in place. Detail: Decision Log, 2026-08-01 (later).
+- [x] **DONE 2026-08-01 (later still) — V9 System Hub launch prompt drafted and
+      published, at Mark's request.** Same two-job core charter as V8 carries forward
+      unchanged (update shared files from what Mark reports; write launch prompts on
+      request) — it held through V8's whole run, every expansion an explicit ask, never
+      unprompted. V9 adds two things only: (1) writes down plainly that the
+      expanded-work range V8 already exercised (git/build/prod verification, a scoped
+      bug fix once root-caused, a PR merged including a real conflict resolved without
+      losing either side's content, a commissioned review processed) is fair game
+      whenever Mark explicitly asks for it, so a fresh thread doesn't relearn the
+      boundary by trial and error; (2) documents a genuinely new capability — a
+      dedicated "CIC Project" cloud environment holding `ANTHROPIC_API_KEY` (plain
+      text, no secrets vault) where a thread can build the backend venv and run real
+      `TestClient`/per-world solo-interview tests directly, instead of only writing a
+      launch prompt asking another thread to. Still not the live site —
+      `cic-poc.onrender.com` is a separate Render deployment with its own
+      separately-configured key. `Ministry/Operations/Standing/Launch-Prompts/
+      CiC_System_Hub_Thread_Launch_V9_2026-08-01.md`, pushed to
+      `claude/v8-v9-charter-lblaxp`; published as a rendered Artifact per the standing
+      style preference. Not a Gantt item — a thread-charter document, not a project
+      deliverable. Full account: Decision Log, 2026-08-01 (later still).
 - [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
       25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
       **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**
