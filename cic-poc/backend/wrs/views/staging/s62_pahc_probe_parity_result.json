@@ -1,0 +1,70 @@
+{
+  "probes": [
+    {
+      "category": "source-awareness",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "anachronism",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "frame-break",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "scholarly-framework",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "carried-not-authored",
+      "trials": [
+        "DIFFERENT-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "silent-voices",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "no-ledgers",
+      "trials": [
+        "SAME-VOICE",
+        "SAME-VOICE"
+      ],
+      "fails_both": false
+    },
+    {
+      "category": "claim-laundering",
+      "trials": [
+        "SAME-VOICE",
+        "DIFFERENT-VOICE"
+      ],
+      "fails_both": false
+    }
+  ],
+  "probes_failing_both_trials": 0,
+  "parity": "PASS"
+}

@@ -123,6 +123,10 @@ field_relations:
   target_id: pahclex006
   note: 'The same elders differently configured: the presbyterion is the Strand-A gathered form of this
     office (pahclex006''s own scope note); symmetric mirror.'
+- type: associated-with
+  target_id: pahclex005
+  note: The threefold unit's third member - the chunk's own Related-Terms membership (the deployed reciprocity
+    map - the S2.8 render-parity catch, fixed as a declared S2.3 correction); symmetric mirror.
 contested_claim_ids:
 - pahcclaim003
 ---

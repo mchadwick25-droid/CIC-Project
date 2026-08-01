@@ -65,5 +65,8 @@ field_relations:
 - type: associated-with
   target_id: pahclex012
   note: Symmetric mirror of pahclex012's edge (the Pliny legal pair).
+- type: associated-with
+  target_id: pahclex009
+  note: Symmetric mirror of pahclex009's Pliny-cluster edge.
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex013_pertinacia.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

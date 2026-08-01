@@ -115,5 +115,15 @@ field_relations:
   note: 'The honest unknown held as the chunks hold it: whether Pliny''s ministrae translate the communities''
     own diakonoi ''none of this Pliny tells us, and none of it do we know from our own words''; symmetric
     both ways.'
+- type: associated-with
+  target_id: pahclex001
+  note: Symmetric mirror of pahclex001's threefold-unit edge.
+- type: associated-with
+  target_id: pahclex002
+  note: Symmetric mirror of pahclex002's threefold-unit edge.
+- type: associated-with
+  target_id: pahclex008
+  note: Symmetric mirror of pahclex008's Didache-15:1 edge (bishops and deacons appointed together as
+    the prophets' ministry passes to local office).
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex005_diakonos.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.

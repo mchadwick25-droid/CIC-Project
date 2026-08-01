@@ -95,6 +95,16 @@ field_relations:
     (verbatim, absorbed per FLAG-002): This term connects the community''s internal service structures
     to the external pressure documented in Pliny''s letter. It reveals something about women''s roles
     while also marking the limit of what our own voices tell us.'
+- type: associated-with
+  target_id: pahclex012
+  note: The Pliny cluster - the same letter's legal category beside its named women; the chunk's own Related-Terms
+    membership (the deployed reciprocity map - the S2.8 render-parity catch, fixed as a declared S2.3
+    correction); symmetric mirror.
+- type: associated-with
+  target_id: pahclex013
+  note: The Pliny cluster - the charge beside the women interrogated under it; the chunk's own Related-Terms
+    membership (the deployed reciprocity map - the S2.8 render-parity catch, fixed as a declared S2.3
+    correction); symmetric mirror.
 contested_claim_ids:
 - pahcclaim005
 ---

@@ -68,6 +68,13 @@ CHUNKS = BACKEND / "data" / "pahc_world" / "lexicon_chunks"
 
 VDATE = "2026-07-31"
 
+# the S2.8 render-parity catch, fixed as a declared S2.3 correction:
+# the deployed chunks' Related-Terms lists are the world's own
+# reciprocity map, and the first authored graph under-covered them
+CH = ("the chunk's own Related-Terms membership (the deployed "
+      "reciprocity map - the S2.8 render-parity catch, fixed as a "
+      "declared S2.3 correction)")
+
 GLOSS_MAP = {
     "the day named for the sun": None,
     "the Lord's own day": None,
@@ -213,6 +220,10 @@ AUTH = {
              note=("Mirror of pahclex006's presupposes edge: the "
                    "council-around-a-bishop exists only where the "
                    "bishop does.")),
+        dict(type="associated-with", target="pahclex003",
+             note="The assembly and its oversight - " + CH + "; symmetric mirror."),
+        dict(type="associated-with", target="pahclex005",
+             note="Ignatius's threefold unit names deacons with bishop and presbyters - " + CH + "; symmetric mirror."),
     ]),
  "pahclex002": dict(
     period_sense=(
@@ -256,6 +267,8 @@ AUTH = {
                    "presbyterion is the Strand-A gathered form of this "
                    "office (pahclex006's own scope note); symmetric "
                    "mirror.")),
+        dict(type="associated-with", target="pahclex005",
+             note="The threefold unit's third member - " + CH + "; symmetric mirror."),
     ]),
  "pahclex003": dict(
     period_sense=(
@@ -297,6 +310,8 @@ AUTH = {
                       "hierarchy' - the table half is eucharistia; "
                       "symmetric both ways."),
              chunk="pahclex003_*"),
+        dict(type="associated-with", target="pahclex001",
+             note="Symmetric mirror of pahclex001's edge (the assembly and its oversight - the deployed reciprocity map)."),
     ]),
  "pahclex004": dict(
     period_sense=(
@@ -398,6 +413,12 @@ AUTH = {
                    "communities' own diakonoi 'none of this Pliny "
                    "tells us, and none of it do we know from our own "
                    "words'; symmetric both ways.")),
+        dict(type="associated-with", target="pahclex001",
+             note="Symmetric mirror of pahclex001's threefold-unit edge."),
+        dict(type="associated-with", target="pahclex002",
+             note="Symmetric mirror of pahclex002's threefold-unit edge."),
+        dict(type="associated-with", target="pahclex008",
+             note="Symmetric mirror of pahclex008's Didache-15:1 edge (bishops and deacons appointed together as the prophets' ministry passes to local office)."),
     ]),
  "pahclex006": dict(
     period_sense=(
@@ -531,6 +552,8 @@ AUTH = {
                       "authority to settled, local office'; symmetric "
                       "mirror on pahclex001."),
              chunk="pahclex008_*"),
+        dict(type="associated-with", target="pahclex005",
+             note="Didache 15:1 appoints bishops AND deacons for they too conduct the ministry of the prophets and teachers - " + CH + "; symmetric mirror."),
     ]),
  "pahclex009": dict(
     period_sense=(
@@ -578,6 +601,10 @@ AUTH = {
                       "of Pliny's letter, and marking the limit of "
                       "what the communities' own voices tell."),
              chunk="pahclex009_*"),
+        dict(type="associated-with", target="pahclex012",
+             note="The Pliny cluster - the same letter's legal category beside its named women; " + CH + "; symmetric mirror."),
+        dict(type="associated-with", target="pahclex013",
+             note="The Pliny cluster - the charge beside the women interrogated under it; " + CH + "; symmetric mirror."),
     ]),
  "pahclex010": dict(
     period_sense=(
@@ -714,6 +741,8 @@ AUTH = {
                    "suspected (hetaeria) and the conduct punished "
                    "(pertinacia), both thin by their own "
                    "confidence; symmetric both ways.")),
+        dict(type="associated-with", target="pahclex009",
+             note="Symmetric mirror of pahclex009's Pliny-cluster edge."),
     ]),
  "pahclex013": dict(
     period_sense=(
@@ -747,6 +776,8 @@ AUTH = {
     relations=[
         dict(type="associated-with", target="pahclex012",
              note="Symmetric mirror of pahclex012's edge (the Pliny legal pair)."),
+        dict(type="associated-with", target="pahclex009",
+             note="Symmetric mirror of pahclex009's Pliny-cluster edge."),
     ]),
 }
 

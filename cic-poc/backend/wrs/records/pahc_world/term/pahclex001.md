@@ -144,6 +144,15 @@ field_relations:
   target_id: pahclex006
   note: 'Mirror of pahclex006''s presupposes edge: the council-around-a-bishop exists only where the bishop
     does.'
+- type: associated-with
+  target_id: pahclex003
+  note: The assembly and its oversight - the chunk's own Related-Terms membership (the deployed reciprocity
+    map - the S2.8 render-parity catch, fixed as a declared S2.3 correction); symmetric mirror.
+- type: associated-with
+  target_id: pahclex005
+  note: Ignatius's threefold unit names deacons with bishop and presbyters - the chunk's own Related-Terms
+    membership (the deployed reciprocity map - the S2.8 render-parity catch, fixed as a declared S2.3
+    correction); symmetric mirror.
 contested_claim_ids:
 - pahcclaim003
 ---

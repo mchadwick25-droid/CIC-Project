@@ -111,6 +111,10 @@ field_relations:
     the translocal network (G02) that holds them together without a central structure. A participant who
     understands ekklesia understands why the letter and the table do the heavy lifting of unity, not a
     hierarchy.'
+- type: associated-with
+  target_id: pahclex001
+  note: Symmetric mirror of pahclex001's edge (the assembly and its oversight - the deployed reciprocity
+    map).
 contested_claim_ids:
 - pahcclaim001
 ---
