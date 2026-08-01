@@ -51,6 +51,44 @@ sources:
     28 specifically, non-reception) at Chalcedon.
 modern_hearing: a modern participant may assume a "Tome" is simply a long or important letter, a matter
   of size or gravity of subject rather than a specific genre carrying institutional weight.
+semantic_domain: juridical instrument - the doctrinal letter
+modern_sense: '''Tome'' as just a long book; or Leo''s Tome as one theological opinion among many (chunk
+  Modern Hearing).'
+period_sense: 'A doctrinal letter carrying the full weight of the see that issues it - what makes a Tome
+  a Tome is the standing of the issuing see, not its length: the same words from a see without that standing
+  would not function the same way.'
+prior_sense: Greek tomos - 'a cut, a section, a roll of papyrus'; the bookish sense the modern ear keeps;
+  a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Leo''s Tome to Flavian
+  (row 12) and its Chalcedon reception - with the Canon-28 non-reception as the same event''s other half
+  (rows 11, 13). | DISTANCE: The reception/non-reception split IS the world''s closing open question -
+  the ending-not-read-back discipline rides every use.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+voice_surface: '''A Tome is a doctrinal letter carrying the full weight of the see that issues it - ours
+  went ahead of us to Chalcedon and was received there as though we ourselves had spoken.'''
+field_relations:
+- type: presupposes
+  target_id: ijclex001
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): A Tome is primatus made into a document
+    - a letter''s own doctrinal content and the standing of the see that sent it are, in this world''s
+    own record, never fully separable. ''Primatus made into a document'' - inverse pair with ijclex001''s
+    presupposed-by.'
+- type: presupposes
+  target_id: ijclex006
+  note: The Tome assumes and builds on the homoousian settlement; inverse pair with ijclex006's presupposed-by.
+- type: associated-with
+  target_id: ijclex004
+  note: 'Symmetric mirror: reception as communion event.'
+- type: tension-with
+  target_id: ijclex007
+  note: 'Symmetric mirror: received at the council, authority not from it.'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex009_tomus.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

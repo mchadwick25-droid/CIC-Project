@@ -75,6 +75,53 @@ sources:
 modern_hearing: A modern participant is likely to hear "rank follows the emperor's residence" as an obviously
   cynical, purely political claim with no genuine religious content — assuming a claim grounded in political
   geography must be religiously hollow by definition.
+original_script: πρεσβεῖα
+semantic_domain: juridical ecclesiology - see-rank by imperial proximity
+modern_sense: '''Constantinople''s honor'' heard as empty ceremony or as naked politics - the religious
+  register assumed hollow (chunk Modern Hearing).'
+period_sense: A see's rank follows the throne it stands beside - New Rome second because the emperor sits
+  there, 'and that is reason enough'; the empire's own defense of orthodoxy itself a religious fact on
+  this strand's own understanding.
+prior_sense: Greek presbeia - 'seniority, precedence, an embassy's dignity' - the ordinary rank-word Canon
+  3 puts to juridical work; a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Canon 3 (381) and
+  Canon 28 (451) as the claim''s own conciliar form; Leo''s rejection as direct evidence the claim was
+  contested AT THE TIME (the chunk''s own CT note). | DISTANCE: The claim survives primarily in conciliar
+  acts, not an individual advocate''s corpus - the chunk''s own contrast with primatus; the S2.1b Dagron
+  gap rides here.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+voice_surface: 'STRAND B''S OWN VOICE (the Plural-Voices device): ''a see''s rank follows the throne it
+  stands beside - Constantinople is second only because it is where the emperor now sits, New Rome beside
+  old Rome, and that is reason enough.'' Neither entry speaks for the world as a whole.'
+field_relations:
+- type: tension-with
+  target_id: ijclex001
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Presbeia, grounded in Nea Rhome''s
+    own political-geographic fact, is the rival claim primatus must be understood alongside, never in
+    isolation - a participant who understands this term also understands why this world''s own record
+    shows no single, settled answer to the question of which see ranks where. Symmetric mirror of the
+    A/B contest.'
+- type: presupposes
+  target_id: ijclex010
+  note: The rank claim rests on the New-Rome premise (the EF's own 'grounded in Nea Rhome's political-geographic
+    fact'); inverse pair - ijclex010 carries presupposed-by.
+- type: associated-with
+  target_id: ijclex004
+  note: Rank exercised through communion standing - whose fellowship counts; symmetric.
+- type: associated-with
+  target_id: ijclex006
+  note: The orthodoxy the empire defends is the same settlement both strands claim to guard; symmetric.
+- type: presupposes
+  target_id: ijclex007
+  note: 'The claim exists IN canon form - Canon 3, Canon 28: without the council there is no presbeia
+    claim to cite; inverse pair with ijclex007.'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex002_presbeia.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

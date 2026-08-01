@@ -47,6 +47,40 @@ sources:
     (its doctrinal use).
 modern_hearing: a modern participant may assume "heresy" names a purely doctrinal category, separate from
   and prior to any legal consequence.
+semantic_domain: juridical category - doctrinal exclusion
+modern_sense: '''Heresy'' as purely theological error, church-internal - the legal force invisible (chunk
+  Modern Hearing).'
+period_sense: A teaching placed outside what the church AND NOW THE LAW ITSELF will recognize - theological
+  and legal-juridical senses simultaneous and mutually constituting, not sequential.
+prior_sense: Greek hairesis - 'choice, school, sect' (the neutral doxographic sense); Latin haeresis inherits
+  it already narrowed; a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Theodosian Code
+  Book 16 (the legal use, row 16) + the conciliar canons (the doctrinal use, row 9). | DISTANCE: The CT
+  contest: whether law-backed doctrinal exclusion was corruption or consolidation is a live inter-tradition
+  contest; the homoios case keeps the term honest (the machinery once enforced what it later named).'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+voice_surface: '''Haeresis names a teaching placed outside what the church, and now the law itself, will
+  recognize - a juridical exclusion as much as a theological one, in our own record.'''
+field_relations:
+- type: associated-with
+  target_id: ijclex003
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Haeresis is what homoios was named
+    as, once our own settlement changed - the same juridical machinery that names and excludes was, at
+    another point in this world''s own record, the machinery enforcing the very teaching later so named.
+    Symmetric mirror of the enforced-then-condemned honesty.'
+- type: associated-with
+  target_id: ijclex004
+  note: 'Symmetric mirror: the one machinery''s two instruments.'
+- type: associated-with
+  target_id: ijclex007
+  note: 'Symmetric mirror: named in the arena.'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex008_haeresis.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

@@ -75,6 +75,41 @@ sources:
 modern_hearing: A modern participant is likely to hear this as an early instance of "separation of church
   and state" in something like its modern sense — two independent institutional spheres, each staying
   out of the other's proper business.
+semantic_domain: church-state boundary formula - sacramental independence
+modern_sense: '''Separation of church and state'' - two institutions kept apart; exactly what the formula
+  does NOT propose (chunk Modern/World Hearing).'
+period_sense: 'The emperor stands WITHIN the Church, not above it - fully inside its life, subject to
+  its discipline as any believer; the claim is location, not separation: one of the two, because he stands
+  inside the other, answers to the altar.'
+prior_sense: 'Ambrose''s own Latin: ''Imperator enim intra Ecclesiam, non supra Ecclesiam est'' (Sermo
+  contra Auxentium, 386) - the formula IS the source; wording carried per Registry row 7''s own verification
+  note.'
+grounding_criterion: standard
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Ambrose''s own sermon
+  preached during the standoff + Augustine''s Confessions 9.7 as narrow eyewitness corroboration of the
+  event (the RES parking''s own single-author honesty governs confidence). | DISTANCE: Strand C does not
+  persist as a claim-stream to 451 (Doc_01 SS4''s own qualification) - bounded, single-crisis evidentiary
+  base.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+voice_surface: 'STRAND C''S OWN VOICE (the Plural-Voices device - the third distinct voice): ''our bishop
+  said this to an imperial court demanding a basilica, and meant that no crown, however real its power,
+  can command what belongs to the altar.'''
+field_relations:
+- type: associated-with
+  target_id: ijclex004
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): This formula names the one thing
+    communio and primatus alone cannot fully account for - a limit on imperial command asserted from inside
+    a single bishop''s own sacramental office, not from a see''s own accumulated institutional rank. Symmetric
+    mirror: the communion lever.'
+- type: associated-with
+  target_id: ijclex011
+  note: 'The formula and its ground: preached in the contested basilica during the vigil itself; symmetric.'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex005_imperator_intra_ecclesiam.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

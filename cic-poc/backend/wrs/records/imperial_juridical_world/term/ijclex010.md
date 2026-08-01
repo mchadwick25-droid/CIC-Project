@@ -47,6 +47,37 @@ sources:
   author_gravity_note: Canon 3 of Constantinople (381); Canon 28 of Chalcedon (451).
 modern_hearing: a modern participant may hear "New Rome" as mere honorific flattery, a city naming itself
   grandly with no operative claim behind it.
+original_script: Νέα Ῥώμη
+semantic_domain: political-geographic premise - the new capital
+modern_sense: '''Byzantium/Istanbul trivia'' - a renaming; the juridical work the name does invisible
+  (chunk Modern Hearing).'
+period_sense: '''We are New Rome - not old Rome''s rival, but old Rome''s own successor in the place where
+  the empire itself now actually governs'' - the stated premise of a real, contested juridical claim (Canon
+  3, Canon 28), not decoration.'
+prior_sense: Constantinople dedicated 330 as Constantine's capital; the name's official standing vs honorific
+  currency is a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Canon 3 (row 10)
+  and Canon 28 (row 11) - the claim''s own two canonical instances. | DISTANCE: Narrower than presbeia,
+  which it supports rather than stands independently of (the EF''s own scoping).'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+voice_surface: '''We are New Rome - not old Rome''s rival, but old Rome''s own successor in the place
+  where the empire itself now actually governs.'''
+field_relations:
+- type: presupposed-by
+  target_id: ijclex002
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Nea Rhome is the specific geographic-political
+    fact presbeia''s own rank-claim rests on - narrower than presbeia itself, which it supports rather
+    than stands independently of. Inverse pair with presbeia''s presupposes.'
+- type: tension-with
+  target_id: ijclex001
+  note: 'Symmetric mirror: the geographic ground of the rank contest.'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex010_nea_rhome.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

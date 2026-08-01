@@ -48,6 +48,46 @@ sources:
     builds on this settlement.
 modern_hearing: a modern participant may assume this word was uncontested once Nicaea spoke it, a settled
   formula from 325 onward.
+original_script: ὁμοούσιος
+semantic_domain: doctrinal formula - Trinitarian confession
+modern_sense: '''Consubstantial'' as a settled creedal word whose acceptance was immediate - the decades
+  of resistance invisible (chunk World Hearing''s own counterpoint).'
+period_sense: Of one and the same being as the Father - not merely like him; the word itself remaining
+  genuinely contested, held, resisted, at times set aside by imperial command, for decades after first
+  confessed.
+prior_sense: Greek homoousios - 'of the same substance/being'; pre-Nicene history (Paul of Samosata's
+  condemnation context) is a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Nicaea''s own creed
+  (row 9) + Leo''s Tome assuming and building on the settlement (row 12). | DISTANCE: The CT contest:
+  whether the word''s eventual victory was doctrinal necessity or imperial enforcement is contested between
+  present traditions; not resolved here.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+voice_surface: '''We hold the Son to be of one and the same being as the Father - not merely like him,
+  but sharing, undivided, the very being that makes the Father God.'''
+field_relations:
+- type: tension-with
+  target_id: ijclex003
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): This term is the doctrinal content
+    our councils and our Tomes exist to defend and assert - it does not organize our own institutional
+    life independently, the way primatus or communio does, but it is what those institutions repeatedly
+    act to protect. Symmetric mirror of the formula rivalry.'
+- type: associated-with
+  target_id: ijclex001
+  note: 'Symmetric mirror: the content the see''s instruments defend.'
+- type: associated-with
+  target_id: ijclex002
+  note: 'Symmetric mirror: the settlement both strands claim to guard.'
+- type: presupposed-by
+  target_id: ijclex009
+  note: The Tome builds on this settlement (the EF's own 'what those institutions act to protect'); inverse
+    pair with ijclex009's presupposes.
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex006_homoousios.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

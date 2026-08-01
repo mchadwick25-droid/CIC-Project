@@ -84,6 +84,43 @@ sources:
 modern_hearing: A modern participant, hearing "Arianism," is likely to assume a fringe, quickly-defeated
   heresy that never held real institutional power — a footnote to Nicaea rather than, for a real stretch
   of this world's own window, the imperial church itself.
+original_script: ὅμοιος
+semantic_domain: doctrinal formula - Trinitarian confession
+modern_sense: '''Arianism'' as an always-heretical fringe safely outside the church - the flattening the
+  chunk exists to refuse (chunk Modern Hearing).'
+period_sense: The confession that the Son is 'like' the Father without further claim about shared being
+  - THE EMPIRE'S OWN CONFESSION for real stretches (Constantius II, Valens), enforced by the same legal
+  machinery that enforced every other confession this world held; not a rival always safely outside.
+prior_sense: Greek homoios - the ordinary adjective 'like, similar'; the Dated Creed (359) is its formula-home;
+  a builder note, UNVERIFIED.
+grounding_criterion: standard
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Auxentius''s letter
+  on Ulfila (Registry row 23, Confidence C - the ONE near-primary Homoian self-testimony, fragmentary)
+  + Hanson''s modern reconstruction (row 33); the RES parking''s own single-source honesty governs this
+  record''s confidence. | DISTANCE: ''Arian'' deliberately NOT an alias (FLAG-035; the chunk''s own instruction)
+  - the label is the flattening, not the referent.'
+confidence:
+  citation_specificity: C
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+voice_surface: '''A formula our own imperial church itself held, by imperial command, for a real stretch
+  of years within living memory - not merely a rival teaching we always stood safely outside of.'' The
+  seriousness of a once-enforced confession, never a cartoon.'
+field_relations:
+- type: tension-with
+  target_id: ijclex006
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Homoios is what haeresis is invoked
+    against in this world''s own record, but a participant who understands this term also understands
+    why that invocation is never simple or one-directional here - the same juridical machinery that later
+    condemns this formula once enforced it. The two formulas'' direct rivalry - like-the-Father vs of-one-being;
+    symmetric.'
+- type: associated-with
+  target_id: ijclex008
+  note: What haeresis was later invoked against - and what the same machinery once enforced (the EF's
+    own both-directions point); symmetric.
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex003_homoios.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

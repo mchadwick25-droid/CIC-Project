@@ -43,6 +43,33 @@ sources:
     core claim.'
 modern_hearing: a modern participant may assume martyr-cult functions the same way across every early
   Christian world.
+semantic_domain: material culture - martyr cult as institution
+modern_sense: '''Martyr shrine'' as devotional site only - the institutional work invisible (chunk Modern
+  Hearing).'
+period_sense: 'Where the dead who kept the faith under persecution are honored - and, in this see''s hands
+  specifically, where that honor is made to speak for the see''s own standing: folded into and largely
+  subordinate to the primacy-claiming project.'
+prior_sense: Greek martyrion - 'testimony, witness'; the building-sense (shrine over a martyr's grave)
+  is late antique; a builder note, UNVERIFIED.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Damasus''s epigraphic
+  corpus (row 14, P/M hybrid carried verbatim) - the martyr cult as institutional self-presentation. |
+  DISTANCE: A DIFFERENT WEIGHTING than a world where martyr-cult is itself the organizing center (the
+  chunk''s own cross-world caution - the PAHC/Desert contrast lives here).'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+voice_surface: '''A martyr''s shrine is where the dead who kept the faith under persecution are honored
+  - and, in our own see''s hands specifically, where that honor is also made to speak for this see''s
+  own standing.'''
+field_relations:
+- type: associated-with
+  target_id: ijclex001
+  note: 'Symmetric mirror: the standing made visible in stone (no chunk EF by design - S2.2 declaration).'
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex012_martyrium.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 

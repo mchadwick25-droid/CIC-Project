@@ -85,6 +85,62 @@ modern_hearing: A modern participant is likely to hear "primacy" as either a pur
   matter of spiritual seniority, like a monastery's abbot) or, cynically, as a naked power grab dressed
   in religious language — assuming the two registers (spiritual standing, institutional power) must be
   separable, with the religious language covering for the real, political motive.
+semantic_domain: juridical ecclesiology - see-rank and succession
+modern_sense: '''Papal primacy'' as a settled doctrine with defined content, or cynically as institutional
+  power-grab dressed in religion (chunk Modern Hearing: the two registers assumed separable).'
+period_sense: The standing Rome holds because Peter held it first - an inheritance guarded and defended,
+  where the spiritual warrant IS the juridical warrant (Damasus and Leo alike); settled-when-received-at-this-see,
+  not settled-when-voted.
+prior_sense: Latin primatus - 'first place, pre-eminence' generally, a civic-rank word before its ecclesial
+  narrowing; a builder note, UNVERIFIED against this build's own docs.
+grounding_criterion: high
+conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried here): Julius''s 341 letter
+  (the claim''s earliest attested instance), Leo''s Tome and Canon-28 rejections, Damasus''s epigraphic
+  corpus - the contested decretal block excluded per the chunk''s own Author-Gravity note (Registry row
+  15). | DISTANCE: Near-false-friend with the modern ''papacy'': the claim is real and in-window, its
+  later settled form is not - the CT contest rides pahc-style ending-not-read-back discipline.'
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-31'
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+voice_surface: 'STRAND A''S OWN VOICE (the Plural-Voices device - a lexicon-organization fact, never a
+  Representative identity decision): ''primatus names the standing Rome holds because Peter himself held
+  it first here - not an honor Rome asks for, but an inheritance Rome guards and, where it must, defends.''
+  The rival claim speaks in presbeia''s own entry, not flattened into agreement here.'
+field_relations:
+- type: tension-with
+  target_id: ijclex002
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Primatus is what communio protects
+    and what Tomus asserts - a participant who understands this term also understands why being cut off
+    from Rome specifically, and not merely from any bishop, carries the particular weight it does in this
+    world''s own record, and why a document issued from this specific see (a Tome) carries an authority
+    its own content alone would not fully explain. The A/B strand contest itself: rank by apostolic inheritance
+    vs rank by imperial proximity; symmetric both ways.'
+- type: associated-with
+  target_id: ijclex004
+  note: Communio is what protects primatus (the EF's own phrase) - the juridical instrument behind the
+    claim; symmetric.
+- type: presupposed-by
+  target_id: ijclex009
+  note: A Tome's authority presupposes this see's standing - 'primatus made into a document'; inverse
+    pair with ijclex009's presupposes.
+- type: associated-with
+  target_id: ijclex006
+  note: The doctrinal content the see's instruments defend (the Tome carries the homoousian settlement);
+    symmetric.
+- type: tension-with
+  target_id: ijclex007
+  note: 'The letter vs the council: ''a claim is settled when received at this see, not when a council
+    votes'' - the world''s own story-title tension (The Letter That Outranked a Council); symmetric.'
+- type: tension-with
+  target_id: ijclex010
+  note: New Rome's premise vs old Rome's inheritance - the rank contest's geographic ground; symmetric.
+- type: associated-with
+  target_id: ijclex012
+  note: The martyr cult as this see's own standing made visible in stone (Damasus's project); symmetric.
+contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex001_primatus.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 
