@@ -74,8 +74,8 @@ field_relations:
 - type: tension-with
   target_id: ijclex003
   note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): This term is the doctrinal content
-    our councils and our Tomes exist to defend and assert - it does not organize our own institutional
-    life independently, the way primatus or communio does, but it is what those institutions repeatedly
+    our councils and our Tomes exist to defend and assert — it does not organize our own institutional
+    life independently, the way *primatus* or *communio* does, but it is what those institutions repeatedly
     act to protect. Symmetric mirror of the formula rivalry.'
 - type: associated-with
   target_id: ijclex001

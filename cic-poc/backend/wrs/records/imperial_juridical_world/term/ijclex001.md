@@ -112,12 +112,12 @@ voice_surface: 'STRAND A''S OWN VOICE (the Plural-Voices device - a lexicon-orga
 field_relations:
 - type: tension-with
   target_id: ijclex002
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Primatus is what communio protects
-    and what Tomus asserts - a participant who understands this term also understands why being cut off
-    from Rome specifically, and not merely from any bishop, carries the particular weight it does in this
-    world''s own record, and why a document issued from this specific see (a Tome) carries an authority
-    its own content alone would not fully explain. The A/B strand contest itself: rank by apostolic inheritance
-    vs rank by imperial proximity; symmetric both ways.'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Primatus* is what *communio* protects
+    and what *Tomus* asserts — a participant who understands this term also understands why being cut
+    off from Rome specifically, and not merely from any bishop, carries the particular weight it does
+    in this world''s own record, and why a document issued from this specific see (a Tome) carries an
+    authority its own content alone would not fully explain. The A/B strand contest itself: rank by apostolic
+    inheritance vs rank by imperial proximity; symmetric both ways.'
 - type: associated-with
   target_id: ijclex004
   note: Communio is what protects primatus (the EF's own phrase) - the juridical instrument behind the

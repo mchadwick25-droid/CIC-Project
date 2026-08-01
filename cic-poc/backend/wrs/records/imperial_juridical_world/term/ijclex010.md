@@ -71,8 +71,8 @@ voice_surface: '''We are New Rome - not old Rome''s rival, but old Rome''s own s
 field_relations:
 - type: presupposed-by
   target_id: ijclex002
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Nea Rhome is the specific geographic-political
-    fact presbeia''s own rank-claim rests on - narrower than presbeia itself, which it supports rather
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Nea Rhōmē* is the specific geographic-political
+    fact *presbeia*''s own rank-claim rests on — narrower than *presbeia* itself, which it supports rather
     than stands independently of. Inverse pair with presbeia''s presupposes.'
 - type: tension-with
   target_id: ijclex001

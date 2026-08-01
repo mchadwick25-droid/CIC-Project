@@ -75,10 +75,10 @@ voice_surface: '''A Tome is a doctrinal letter carrying the full weight of the s
 field_relations:
 - type: presupposes
   target_id: ijclex001
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): A Tome is primatus made into a document
-    - a letter''s own doctrinal content and the standing of the see that sent it are, in this world''s
-    own record, never fully separable. ''Primatus made into a document'' - inverse pair with ijclex001''s
-    presupposed-by.'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): A Tome is *primatus* made into a
+    document — a participant who understands this term understands why a letter''s own doctrinal content
+    and the standing of the see that sent it are, in this world''s own record, never fully separable.
+    ''Primatus made into a document'' - inverse pair with ijclex001''s presupposed-by.'
 - type: presupposes
   target_id: ijclex006
   note: The Tome assumes and builds on the homoousian settlement; inverse pair with ijclex006's presupposed-by.

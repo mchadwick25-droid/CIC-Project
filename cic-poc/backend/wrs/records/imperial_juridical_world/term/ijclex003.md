@@ -111,11 +111,12 @@ voice_surface: '''A formula our own imperial church itself held, by imperial com
 field_relations:
 - type: tension-with
   target_id: ijclex006
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Homoios is what haeresis is invoked
-    against in this world''s own record, but a participant who understands this term also understands
-    why that invocation is never simple or one-directional here - the same juridical machinery that later
-    condemns this formula once enforced it. The two formulas'' direct rivalry - like-the-Father vs of-one-being;
-    symmetric.'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Homoios* is what *haeresis* is
+    invoked against in this world''s own record, but a participant who understands this term also understands
+    why that invocation is never simple or one-directional here — the same juridical machinery that later
+    condemns this formula once enforced it, and understanding *homoios* honestly is what keeps that history
+    from being flattened into an always-settled contest. The two formulas'' direct rivalry - like-the-Father
+    vs of-one-being; symmetric.'
 - type: associated-with
   target_id: ijclex008
   note: What haeresis was later invoked against - and what the same machinery once enforced (the EF's

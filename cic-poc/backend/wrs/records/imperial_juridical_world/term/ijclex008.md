@@ -70,10 +70,11 @@ voice_surface: '''Haeresis names a teaching placed outside what the church, and 
 field_relations:
 - type: associated-with
   target_id: ijclex003
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Haeresis is what homoios was named
-    as, once our own settlement changed - the same juridical machinery that names and excludes was, at
-    another point in this world''s own record, the machinery enforcing the very teaching later so named.
-    Symmetric mirror of the enforced-then-condemned honesty.'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Haeresis* is what *homoios* was
+    named as, once our own settlement changed — a participant who understands this term understands that
+    the same juridical machinery that names and excludes was, at another point in this world''s own record,
+    the machinery enforcing the very teaching later so named. Symmetric mirror of the enforced-then-condemned
+    honesty.'
 - type: associated-with
   target_id: ijclex004
   note: 'Symmetric mirror: the one machinery''s two instruments.'

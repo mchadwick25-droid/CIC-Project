@@ -102,11 +102,11 @@ voice_surface: 'STRAND B''S OWN VOICE (the Plural-Voices device): ''a see''s ran
 field_relations:
 - type: tension-with
   target_id: ijclex001
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Presbeia, grounded in Nea Rhome''s
-    own political-geographic fact, is the rival claim primatus must be understood alongside, never in
-    isolation - a participant who understands this term also understands why this world''s own record
-    shows no single, settled answer to the question of which see ranks where. Symmetric mirror of the
-    A/B contest.'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Presbeia*, grounded in *Nea Rhōmē*''s
+    own political-geographic fact, is the rival claim *primatus* must be understood alongside, never in
+    isolation — a participant who understands this term also understands why this world''s own record
+    shows no single, settled answer to the question of which see ranks where, and why *communio* itself
+    becomes contested precisely at the seam between these two claims. Symmetric mirror of the A/B contest.'
 - type: presupposes
   target_id: ijclex010
   note: The rank claim rests on the New-Rome premise (the EF's own 'grounded in Nea Rhome's political-geographic

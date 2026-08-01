@@ -97,10 +97,12 @@ voice_surface: '''To be in communion with a see is to stand where that see stand
 field_relations:
 - type: mechanism-behind
   target_id: ijclex001
-  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): Communio is the mechanism, not merely
-    the topic, behind primatus and presbeia alike - this world''s own authority claims are not merely
-    spoken assertions but enforceable through the specific, concrete instrument of who stands in fellowship
-    with whom. The mechanism behind the primacy claim (the EF''s own word).'
+  note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): *Communio* is the mechanism, not
+    merely the topic, behind *primatus* and *presbeia* alike — a participant who understands this term
+    understands that this world''s own authority claims are not merely spoken assertions but enforceable
+    through the specific, concrete instrument of who stands in fellowship with whom, and why a see''s
+    own decretal or canon carries the weight it does only because communion is the real thing being granted
+    or withheld. The mechanism behind the primacy claim (the EF''s own word).'
 - type: associated-with
   target_id: ijclex001
   note: Mirror of ijclex001's associated-with (the reciprocity gate's symmetric-type rule); the mechanism-behind

@@ -71,9 +71,9 @@ field_relations:
 - type: tension-with
   target_id: ijclex001
   note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): The council is the shared mechanism
-    through which primatus, presbeia, and haeresis alike are asserted and contested - the arena in which
-    the world''s own organizing claims are repeatedly brought to trial. Symmetric mirror: the letter-vs-council
-    tension.'
+    through which *primatus*, *presbeia*, and *haeresis* alike are asserted and contested — it does not
+    organize the ecology independently so much as it is the arena in which the world''s own organizing
+    claims are repeatedly brought to trial. Symmetric mirror: the letter-vs-council tension.'
 - type: presupposed-by
   target_id: ijclex002
   note: 'Symmetric inverse: the presbeia claim exists in canon form - the council is its arena.'

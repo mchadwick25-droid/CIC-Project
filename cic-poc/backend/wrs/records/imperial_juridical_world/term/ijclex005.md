@@ -103,9 +103,11 @@ field_relations:
 - type: associated-with
   target_id: ijclex004
   note: 'Chunk Ecological Function (verbatim, absorbed per FLAG-002): This formula names the one thing
-    communio and primatus alone cannot fully account for - a limit on imperial command asserted from inside
-    a single bishop''s own sacramental office, not from a see''s own accumulated institutional rank. Symmetric
-    mirror: the communion lever.'
+    *communio* and *primatus* alone cannot fully account for — a limit on imperial command asserted from
+    inside a single bishop''s own sacramental office, not from a see''s own accumulated institutional
+    rank; a participant who understands this term understands why this world''s own record shows real
+    limits on the alliance between throne and altar even at the height of that alliance''s own institutional
+    confidence. Symmetric mirror: the communion lever.'
 - type: associated-with
   target_id: ijclex011
   note: 'The formula and its ground: preached in the contested basilica during the vigil itself; symmetric.'
