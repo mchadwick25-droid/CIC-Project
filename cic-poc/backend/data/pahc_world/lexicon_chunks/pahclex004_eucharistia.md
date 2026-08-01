@@ -4,8 +4,7 @@
 Term:                 eucharistia (εὐχαριστία)
 World-Code:           pahc
 Tier:                 1
-Tags:                 SC, TC, RT, PV, CT
-Aliases:              eucharist, thanksgiving, the Lord's Supper, communion
+Aliases:              eucharist, thanksgiving, the Lord's Supper
 Related-Terms:        ekklesia, episkopos, agape-label
 Retrieve-When:        participant asks about the Lord's Supper, communion, the eucharist, what happens at the table, or the meal that forms the community.
 Do-Not-Retrieve-When: participant is asking about modern eucharistic theology or transubstantiation debates with no connection to this period.

@@ -4,8 +4,7 @@
 Term:                 hetaeria
 World-Code:           pahc
 Tier:                 3
-Tags:                 AS, TC
-Aliases:              illegal club, association, collegium
+Aliases:              illegal club, collegium
 Related-Terms:        pertinacia, ministrae
 Retrieve-When:        participant asks whether Christians were treated as an illegal club, what legal category they fell into, or how Romans understood Christian gatherings.
 Do-Not-Retrieve-When: participant is asking about Roman clubs or associations with no connection to Christian persecution.

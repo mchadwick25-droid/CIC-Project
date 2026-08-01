@@ -4,7 +4,6 @@
 Term:                 agape (as label)
 World-Code:           pahc
 Tier:                 2
-Tags:                 SC, DR, RT, CT
 Aliases:              love-feast, agape meal
 Related-Terms:        eucharistia, hetaeria
 Retrieve-When:        participant asks about the love-feast, agape, common meals, or the relationship between the meal and the eucharist.

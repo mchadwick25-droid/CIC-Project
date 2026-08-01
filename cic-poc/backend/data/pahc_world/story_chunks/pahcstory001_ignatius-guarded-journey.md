@@ -16,23 +16,17 @@ Along the way he wrote at least seven letters that survive, addressing controver
 
 This is a condemned man's own account, written in transit, of what he believed his death would mean and what he believed the churches receiving his letters needed to hear before it happened.
 
----
-
 ## Formation Ecology Connection
 
 This story is this world's single most concentrated illustration of three confirmed gravities at once. It shows G02 (Translocal Correspondence Network, Primary) in its most vivid form — a network activated in real time around one man's crisis, with delegations traveling to meet him and letters moving ahead of him. It shows G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) as a lived stance, not an abstract doctrine: Ignatius does not merely accept death, he interprets it as the means by which his formation completes. And it shows G05 (Boundary-Drawing vs. Rivals, Tensional, Strand A only) in the urgency with which Ignatius presses one-bishop unity precisely because he believes rival teaching is a live threat to communities he will not see again.
 
 This story does formation work a lexicon entry cannot do: it shows why "one bishop, one altar" was not merely an administrative preference for at least one Strand A voice, but something argued for by a man who believed he was about to die for it.
 
----
-
 ## Tier Justification
 
 Direct textual attestation: these are Ignatius's own surviving letters, not a later account about him. Named author, identifiable social location (bishop of a major see, in Roman custody), and a datable historical horizon under the majority (Trajanic, c. 107–117 CE) reading.
 
 Genuine uncertainty exists and is carried at full strength rather than resolved quietly. A serious minority scholarly position (Hübner, Lechner, and others) holds that these letters may be later — mid-second-century — and possibly not genuinely Antiochene at all, but a later composition using Ignatius as a vehicle for a developed monarchical-episcopate program. Doc_01 §10 already flagged this as a three-way dispute: traditional Trajanic dating, a redated 130s–140s position, and a pseudepigraphic 160–180 CE position. This story's Tier 1 classification follows the majority position but does not erase the minority one — see Usage Guidance.
-
----
 
 ## Usage Guidance
 

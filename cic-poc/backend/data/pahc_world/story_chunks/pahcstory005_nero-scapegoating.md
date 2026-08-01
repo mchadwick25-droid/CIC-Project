@@ -14,19 +14,13 @@ Writing roughly fifty years after the event, the Roman historian Tacitus records
 
 No Christian individual is named. The account comes entirely from outside, written decades later by a historian with his own reasons for portraying Nero as a monster.
 
----
-
 ## Formation Ecology Connection
 
 This is the closest thing this world has to a generative origin story — not a formation practice, but the structural condition Doc_01 and Doc_08 both treat as this whole world's own generative trigger. Doc_08 names this event as generative for G01 (Authority Consolidation): the loss of an eyewitness generation and the sudden, violent visibility of "Christian" as a named, targetable category are part of why this world's formation logic must be argued and transmitted deliberately rather than simply inherited by direct memory.
 
----
-
 ## Tier Justification
 
 A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero) though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (associated with Brent Shaw's 2015 argument and the responses to it, including Christopher Jones) over whether a discrete, fire-linked, named-group persecution of "Christians" actually occurred in 64 CE as Tacitus describes, or whether this reflects a later, more general memory of scapegoating retrojected onto the fire.
-
----
 
 ## Usage Guidance
 

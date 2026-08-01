@@ -14,19 +14,13 @@ In his letter to the Philippians, Polycarp — who names himself only as "one of
 
 It is a small, practical act, described in a single line, but it tells us something no larger claim could: that letters moved between named individuals, at specific requests, and that at least one community made a point of collecting and preserving them for others.
 
----
-
 ## Formation Ecology Connection
 
 This is a small, concrete data point for G02 (Translocal Correspondence Network, Primary) — one of its three founding data points. Where Story 001 shows the network activated by crisis and Story 002 shows it activated by institutional concern, this story shows its ordinary, almost administrative operation: collecting, requesting, and forwarding letters as a routine act of care between communities.
 
----
-
 ## Tier Justification
 
 A specific, directly attested transmission event, named by the person who performed it, in his own surviving letter. The uncertainty here is not about whether the act happened but about the letter's own composition history — some scholars (following Harrison) argue *To the Philippians* is a composite of two originally separate letters, which affects how confidently this passage can be dated relative to Ignatius's own journey (Story 001).
-
----
 
 ## Usage Guidance
 

@@ -4,8 +4,7 @@
 Term:                 ekklesia (ἐκκλησία)
 World-Code:           pahc
 Tier:                 1
-Tags:                 SC, RT
-Aliases:              church, assembly, the church of God
+Aliases:              the church of God
 Related-Terms:        eucharistia, episkopos
 Retrieve-When:        participant asks what the church is, how early Christians understood themselves as a community, or what holds them together across different cities.
 Do-Not-Retrieve-When: participant is asking about a church building or denominational structure with no connection to this period's understanding.

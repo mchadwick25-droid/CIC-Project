@@ -4,7 +4,6 @@
 Term:                 Two Ways
 World-Code:           pahc
 Tier:                 2
-Tags:                 AS, PV
 Aliases:              the way of life and death, Didache catechesis
 Related-Terms:        baptisma
 Retrieve-When:        participant asks about catechesis, moral teaching, preparation for baptism, or the Didache's opening chapters.

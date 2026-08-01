@@ -14,21 +14,15 @@ Writing to the emperor and the Roman Senate in his own defense of Christian prac
 
 This is Justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers.
 
----
-
 ## Formation Ecology Connection
 
 This is Strand B's clearest, most directly attested evidence for G07 (Liturgical Practice/Eucharist, Primary) — a first-person, dated, named-author account of the shape of a gathering: reading, exhortation, corporate prayer, thanksgiving over bread and wine, and a collection tied directly to care for the vulnerable. It shows something Story 010 and Story 011 cannot: an eyewitness's own summary account of ordinary, recurring Roman practice, offered to defend that practice to a hostile outside audience rather than to instruct insiders.
-
----
 
 ## Tier Justification
 
 Classified Tier 1 rather than Tier 4 on the following reasoning: this is Justin's own direct, first-person report in his own surviving text, not a builder's later composite drawn across multiple sources. The genuine edge case is that the content describes recurring, typical practice rather than a single narrated event — the Framework's tier definitions do not perfectly anticipate a primary source directly reporting on its own routine, repeated practice. Because the report itself is Documented (Justin's own text, addressed to a specific, named, dated audience), Tier 1 is the better fit than Tier 4, which is reserved for a builder's own composite reconstruction across sources the world's evidence does not, by itself, narrate as a single account.
 
 Widely Accepted as an accurate general description of Roman liturgical shape in this period; Contested is whether this reflects a single template shared across the whole network, or one Roman writer's own account specific to his own community (Bradshaw's caution).
-
----
 
 ## Usage Guidance
 

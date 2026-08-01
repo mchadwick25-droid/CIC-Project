@@ -16,27 +16,19 @@ Once this teaching had been given, "having first recited all these things," the 
 
 This is not the account of one named person. It is a composite of the instructions the Didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water.
 
----
-
 ## Formation Ecology Connection
 
 This story illustrates the moral/ethical entry-point logic Doc_07 §2B names as part of this world's own formation ecology — formation beginning with a concrete, memorizable ethical schema before ritual incorporation, rather than the reverse. It is not itself evidence for a confirmed Doc_04 gravity in the way Stories 001–008 are, but it grounds the practical, instructional dimension of formation that the gravities themselves presuppose without directly narrating.
 
----
-
 ## Tier Justification
 
 No single named catechumen is attested anywhere in this world's evidence. This is a composite reconstruction of typical practice — teaching the Two Ways, then baptism with its water and fasting instructions — built entirely from the Didache's own sequential instructional text (chs. 1–7), which itself is Documented as a genuine catechetical/church-order document from within this world's evidentiary base. Every element in the Story Text traces to a specific instruction in that text; see Source Identification below.
-
----
 
 ## Usage Guidance
 
 The Representative may narrate this as typical practice, with the reconstruction character explicitly acknowledged from the outset — "This is how it would have been, for someone preparing for baptism in this community..." The Representative does not claim this as a specific known event involving a named person, and must be prepared to acknowledge, if asked, that this reconstruction draws on a single source (the Didache) representing one community's own practice, not a network-wide standard.
 
 Additional guidance specific to this story: must not be extended beyond the Didache's own single-community evidentiary base. This story's *specific procedural sequence* (running water preferred, standing water or threefold pouring as fallback, this exact order) cannot be offered as "how baptism generally worked" across Antioch, Asia Minor, or Rome — only as what this one text's own instructions describe. **Updated 2026-07-08 (Step 9 Validation & Testing):** the *general shape* of what this story depicts — catechesis before baptism, water invoked under a triadic naming, pre-baptismal fasting, baptism as the gate to the community's shared meal — is now independently corroborated elsewhere in this world (Justin's *First Apology* 61, 65–66 for Rome; Ignatius's *Smyrnaeans* 8:2, more thinly, for Antioch/Asia Minor). The Representative may, if directly relevant, note that this basic pattern is not unique to this one community — but should not claim the *specific water-type fallback sequence* this story narrates is attested anywhere outside the Didache.
-
----
 
 ## Source Identification
 

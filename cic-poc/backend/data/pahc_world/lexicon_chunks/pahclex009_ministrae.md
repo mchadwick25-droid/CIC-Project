@@ -4,7 +4,6 @@
 Term:                 ministrae
 World-Code:           pahc
 Tier:                 2
-Tags:                 AS, DR
 Aliases:              servant-women, female ministers, deaconesses
 Related-Terms:        diakonos, hetaeria, pertinacia
 Retrieve-When:        participant asks about women in leadership, Pliny's letter, or female ministers in early Christianity.

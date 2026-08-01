@@ -14,21 +14,15 @@ Hermas, a freedman living in Rome, tells us in his own text that he received a s
 
 Hermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3), instructed to send copies of the visions to other cities, and Grapte, instructed to exhort the widows and orphans — placing Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop.
 
----
-
 ## Formation Ecology Connection
 
 This story feeds G01 (Authority Consolidation, Supporting) from its Strand B side — the named Clement/Grapte instruction in *Vision* 2.4.3 is direct evidence of Rome's own plural-role leadership pattern operating without a monarchical bishop. It also supplies this world's central penitential-formation material (Doc_05, Doc_07 §§2A, 2H) — a formation logic organized around a single, urgent, time-limited mercy for post-baptismal sin, distinct from anything in Strand A's surviving material.
-
----
 
 ## Tier Justification
 
 Classified Tier 1 rather than Tier 3 on the following reasoning: Hermas names himself as the direct recipient and narrator of these visions in his own surviving text — this is direct textual attestation of a named author reporting his own experience, not a hagiographic account attributed to a figure by someone else after the fact (which is what distinguishes Tier 3 material like Story 008). Widely Accepted that the text is genuinely Hermas's own reported content; Contested is the composition's own dating and whether it was written in stages over decades or as a more unified composition.
 
 A genre distinction must be disclosed explicitly: this Tier 1 classification concerns the text's own direct, named attestation of *reporting* these visions — it is not a claim that the supernatural content of the visions (an elderly woman who is secretly the Church, a shepherd-figure delivering angelic instruction) is being offered as historically factual. The textual-attestation fact and the supernatural-content claim are two different things, and only the first is what Tier 1 confidence here rests on.
-
----
 
 ## Usage Guidance
 

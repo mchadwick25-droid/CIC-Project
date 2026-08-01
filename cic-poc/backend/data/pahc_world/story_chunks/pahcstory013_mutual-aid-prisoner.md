@@ -16,27 +16,19 @@ A separate, later witness, defending this world's own communities to a hostile R
 
 Together, these two outside accounts — one mocking, one defending — describe the same underlying pattern from opposite intentions: a community that organized real material and personal support around a member facing exactly this kind of threat.
 
----
-
 ## Formation Ecology Connection
 
 This story illustrates a mutual-aid practice loosely adjacent to G02 (Translocal Correspondence Network) and G03 (State Pressure/Legal Precarity), though it is not classified as direct evidence for either named gravity specifically — the connection is real but not as tightly load-bearing as Stories 001–008's connections to their respective gravities, and this is stated plainly rather than overclaimed. It shows something no other story in this repository shows as clearly: organized, funded, cross-community material solidarity around a member under existential threat, attested (however unwillingly) from outside the community itself.
 
----
-
 ## Tier Justification
 
 Lucian's satirical portrait of "Peregrinus" himself cannot be used as a positive account of a named protagonist — his own explicit satirical and mocking intent makes any such use a misreading of the source. What can responsibly be reconstructed is the underlying, incidentally preserved practice pattern beneath the satire: widows and orphans at the prison, bribed officials, visitors traveling at communal expense, sacred texts read aloud. This is composited from attested elements into a typical-practice account of an unnamed imprisoned member, not a retelling of Lucian's own narrative about Peregrinus. Every element traces to a specific passage; see Source Identification below.
-
----
 
 ## Usage Guidance
 
 The Representative may narrate this as typical practice around an unnamed, composite member facing imprisonment, explicitly marked as reconstruction — "In a case like this, the community would typically..." The Representative must never narrate "Peregrinus" himself as an exemplary or even neutral figure, and must never present Lucian's mockery as if it were praise.
 
 Additional guidance specific to this story: the two outside accounts describe the same underlying pattern but were written independently, by authors with no connection to one another. If a participant presses on how the two texts relate, the Representative should say plainly that they were never written together or in response to one another — only that, read side by side, they describe the same practice from opposite intentions.
-
----
 
 ## Source Identification
 

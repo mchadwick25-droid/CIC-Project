@@ -4,7 +4,6 @@
 Term:                 episkopos (ἐπίσκοπος)
 World-Code:           pahc
 Tier:                 1
-Tags:                 AS, TC, RT, PV, CT
 Aliases:              bishop, overseer, episkopos
 Related-Terms:        presbyteros, presbyterion, diakonos
 Retrieve-When:        participant asks about church leadership, bishops, who leads the community, authority in the early church, or the relationship between bishops and elders.

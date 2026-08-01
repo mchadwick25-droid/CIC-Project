@@ -16,21 +16,15 @@ What Pliny reports learning was, in his own words, "nothing else than depraved, 
 
 Trajan's reply, also preserved, instructs Pliny not to seek out Christians actively, not to act on anonymous accusations, but to punish those who are properly accused and refuse to recant.
 
----
-
 ## Formation Ecology Connection
 
 This is this world's clearest evidence for G03 (State Pressure/Legal Precarity, Supporting) — not a systematic empire-wide persecution, but real, local, lethal exposure operating under genuine legal uncertainty even among Roman officials themselves. It also supplies this world's only outside description of internal practice — however filtered, it is the sole non-Christian eyewitness account of a gathering, its oath, and its shared meal.
 
 This story does formation work no internal source can do: it shows how this world's own practices looked to an outsider with the power of life and death, and what that outsider found alarming (or, notably, did not).
 
----
-
 ## Tier Justification
 
 A specific, dated, named-author account of a real interrogation, written to a named recipient (the emperor) who replied in writing — an unusually well-documented exchange for this period. Contested points: whether the "ordinary meal" Pliny describes was itself a Eucharist, an agape meal, or something else; and whether Pliny's account reflects a general legal condition applying across the empire or scattered, locally-triggered exposure specific to Bithynia-Pontus.
-
----
 
 ## Usage Guidance
 

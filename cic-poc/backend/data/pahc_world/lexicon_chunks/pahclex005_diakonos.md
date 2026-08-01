@@ -4,8 +4,7 @@
 Term:                 diakonos (διάκονος)
 World-Code:           pahc
 Tier:                 2
-Tags:                 SC, RT, PV
-Aliases:              deacon, servant, minister
+Aliases:              deacon, servant
 Related-Terms:        episkopos, presbyteros
 Retrieve-When:        participant asks about deacons, service in the early church, care for widows and orphans, or who carries help to those in need.
 Do-Not-Retrieve-When: participant is asking about a modern diaconate structure with no connection to this period.

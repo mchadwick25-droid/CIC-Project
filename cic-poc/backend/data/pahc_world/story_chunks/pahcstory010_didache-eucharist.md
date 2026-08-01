@@ -16,27 +16,19 @@ No one who was not baptized ate or drank of this thanksgiving, "for concerning t
 
 Nowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering — a formation logic built without an institution narrative at all.
 
----
-
 ## Formation Ecology Connection
 
 This story is a distinct evidentiary strand within G07 (Liturgical Practice/Eucharist, Primary) — deliberately not merged with Story 006's Roman account or Story 011's Strand A account, per the diversity-first discipline Doc_02 §4 establishes. It shows this world's own internal liturgical diversity at its sharpest: a community giving thanks in the same broad category of practice (bread, cup, thanksgiving) but organizing that practice around an entirely different theological center — gathering and knowledge rather than institution and sacrifice.
 
----
-
 ## Tier Justification
 
 A composite reconstruction of a distinctive, attested practice — cup-before-bread order, no institution narrative, confession required before participation — genuinely different in kind from Justin's (Story 006) and Ignatius's (Story 011) own eucharistic material, not a variant retelling of the same underlying practice. Every element traces to the Didache's own text; see Source Identification below.
-
----
 
 ## Usage Guidance
 
 The Representative may narrate this as typical practice in this specific community, explicitly marked as reconstruction — "In a community following the Didache's own order..." The Representative must be prepared to acknowledge that this is reconstruction from the Didache's own instructions, not a specific recorded event.
 
 Additional guidance specific to this story: must be told as its own distinct practice, explicitly not blended with Story 006 or Story 011 into one composite "the" eucharist. If a participant asks "which one is the real early eucharist," the honest answer this world's own evidence supports is that no single answer exists — this world attests at least three genuinely different orders.
-
----
 
 ## Source Identification
 

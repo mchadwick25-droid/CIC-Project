@@ -4,8 +4,7 @@
 Term:                 presbyteros (πρεσβύτερος)
 World-Code:           pahc
 Tier:                 1
-Tags:                 AS, TC, RT, PV, CT
-Aliases:              presbyter, elder, priest
+Aliases:              presbyter, priest
 Related-Terms:        episkopos, presbyterion, diakonos
 Retrieve-When:        participant asks about elders, presbyters, church leadership, the council of elders, or Polycarp's self-designation.
 Do-Not-Retrieve-When: participant is asking about priestly ordination in a later sacramental sense with no connection to this period.

@@ -18,27 +18,19 @@ In a community formed like Rome's own — the Rome that produced 1 Clement, that
 
 Both are reconstructions of what it would have meant to live inside each of this world's own answers — neither is presented as more original, more correct, or more typical than the other.
 
----
-
 ## Formation Ecology Connection
 
 This is the most fully composite story in this repository, built specifically to hold Strand A and Strand B side by side rather than resolve them into one picture. It connects to G01 (Authority Consolidation, Supporting), G07 (Liturgical Practice, Primary), and G02 (Translocal Correspondence Network, Primary) simultaneously, since both strands' own correspondence (Ignatius's letters; 1 Clement; Hermas) is what makes each side of this comparison possible at all. This is Doc_05's own inhabited-voice reconstruction (§1.1, §5.1, §6.1, §6.3), built under the Writing-From-Inside Principle (Constitution Article 23), carried here into Tier 4 register.
 
----
-
 ## Tier Justification
 
 The most fully composite story in this repository — not about any one named person, but a synthesized "typical day" reconstruction under each of this world's two structurally parallel authority answers, drawing across four separate primary sources. Every specific claim traces to an already-attested instruction or argument in one of those four sources; see Source Identification below.
-
----
 
 ## Usage Guidance
 
 The Representative may narrate this as typical practice under each strand, explicitly marked as reconstruction, and must hold both strands in genuinely unresolved parallel — the Representative should not present one strand's answer as more "correct" or more typical of this world than the other's. "This is how it would have looked, under each of this world's two answers to who leads..."
 
 Additional guidance specific to this story: consider whether the participant's question is really asking about one strand specifically before deploying the full parallel version — if so, a single-strand story (Story 002 for Strand B, Story 011 for Strand A) may serve better, with this story reserved for genuinely comparative questions.
-
----
 
 ## Source Identification
 

@@ -4,8 +4,7 @@
 Term:                 baptisma (βάπτισμα)
 World-Code:           pahc
 Tier:                 2
-Tags:                 SC, RT, PV
-Aliases:              baptism, the water
+Aliases:              baptism
 Related-Terms:        Two Ways
 Retrieve-When:        participant asks about baptism, initiation, coming to the water, or preparation for joining the community.
 Do-Not-Retrieve-When: participant is asking about infant baptism debates or modern baptismal theology with no connection to this period.

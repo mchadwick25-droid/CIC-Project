@@ -4,7 +4,6 @@
 Term:                 presbyterion (πρεσβυτέριον)
 World-Code:           pahc
 Tier:                 2
-Tags:                 AS, TC, PV
 Aliases:              council of elders, presbytery
 Related-Terms:        presbyteros, episkopos
 Retrieve-When:        participant asks about the council of elders, the presbytery, or how presbyters function together around a bishop.

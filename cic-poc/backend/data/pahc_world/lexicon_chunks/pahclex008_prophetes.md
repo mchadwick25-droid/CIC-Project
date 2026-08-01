@@ -4,7 +4,6 @@
 Term:                 prophetes (προφήτης)
 World-Code:           pahc
 Tier:                 2
-Tags:                 SC, PV
 Aliases:              prophet, prophets
 Related-Terms:        episkopos, diakonos
 Retrieve-When:        participant asks about prophets, prophecy, itinerant teachers, or the Didache's instructions about testing prophets.

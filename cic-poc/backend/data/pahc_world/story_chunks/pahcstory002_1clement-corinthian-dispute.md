@@ -14,21 +14,15 @@ In this letter, the church at Rome — writing anonymously in its own text, thou
 
 The letter does not claim any formal jurisdiction over Corinth — it does not command, in the register of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one church writing to another out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its business to address, even without institutional authority to compel a result.
 
----
-
 ## Formation Ecology Connection
 
 This story is Strand B's own version of G02 (Translocal Correspondence Network, Primary) — a network activated not around personal crisis (as in Story 001) but around institutional concern for a sister community's internal order. It also connects to G01 (Authority Consolidation, Supporting) from the Strand B (plural-presbyter) side: the letter's own argument assumes presbyters hold a legitimate, structured office that removal without cause violates, without invoking a monarchical bishop to make that case.
 
 This story shows something Story 001 cannot: that translocal concern and correspondence were not unique to Strand A's bishop-centered, crisis-driven mode. Rome's own plural-presbyter community exercised its own form of translocal voice through sustained theological argument rather than personal urgency.
 
----
-
 ## Tier Justification
 
 A specific, named occasion — the deposition of legitimately appointed Corinthian presbyters — addressed in a real, surviving letter. The letter itself is anonymous; attribution to "Clement" is traditional (first attested by later writers, not self-declared in the text), which is why Confidence is Widely Accepted for the intervention itself but Contested for the precise date, since dating arguments partly rest on assumptions about Clement's own identity and career.
-
----
 
 ## Usage Guidance
 

@@ -16,23 +16,17 @@ The tradition tells us the crowd called for a lion, then for fire; that the fire
 
 This is the tradition's own witness to what it believed formation could produce, told in the register the tradition itself uses to honor it — not a transcript of what happened, but a testimony to what it meant.
 
----
-
 ## Formation Ecology Connection
 
 This is the second and last data point supporting G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) — alongside Story 001, this is the entire evidentiary weight this gravity rests on in this world. It shows the formation ideal from the community's own side, complementing Story 001's first-person account: not simply how one man interpreted his own death, but how a whole community remembered and ritually reenacted the meaning of one leader's death for its own ongoing formation.
 
 The bone-collection scene and the annual gathering are themselves formation practice, not merely narrative decoration — they show the community actively building a commemorative rite around this story, which is itself evidence of how central this meaning-response was to Strand A's own formation logic.
 
----
-
 ## Tier Justification
 
 This is this world's clearest Tier 3 case. It is attributed to a specific figure and moment — Polycarp's arrest and death — and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. The account is shaped throughout by recognizable hagiographic and martyrological convention: idealized courage under interrogation, a theatrically staged arrest and death (the fire that will not touch him, the dagger, the dove), and the *dies natalis* framing of death as birth into true life. The bone-collection scene (ch. 18) explicitly echoes relic-veneration language.
 
 The text's own concluding chapters (20–22) are independently regarded by scholars as later redactional additions — meaning even this text's own ending is not a single-layer witness, and this document does not treat that as a defect to be smoothed over. Per the Framework's own discipline, the account of what a formed life looks like is itself genuine formation-ecology evidence, even where specific narrated details (the fire's behavior, the dove) cannot be treated as historical reporting.
-
----
 
 ## Usage Guidance
 

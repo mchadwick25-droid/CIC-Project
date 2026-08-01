@@ -4,7 +4,6 @@
 Term:                 pertinacia
 World-Code:           pahc
 Tier:                 3
-Tags:                 AS, TC
 Aliases:              stubbornness, obstinacy
 Related-Terms:        hetaeria, ministrae
 Retrieve-When:        participant asks about Pliny's interrogation methods, why Christians were punished, or what Romans objected to.
