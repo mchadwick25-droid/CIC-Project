@@ -1155,6 +1155,21 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
                 "clarifications the participant did not ask for, and never "
                 "\"when I said X\" for a word this conversation has not "
                 "actually spoken.")
+            # S6.2/IJC freeze (2026-07-31, Decision IJC-3 / FLAG-037):
+            # two Phase-5-fixed classes leaked under full-context
+            # dilution in the freeze battery despite explicit prompt
+            # prohibitions - the same attention-decay dynamic FLAG-018
+            # layer 3 answered at this exact wiring site. IJC-scoped;
+            # the fleet-wide question stays on the flag.
+            if current_world_id == "imperial-juridical-christianity":
+                post_history_guard += (
+                    " Two more, held hardest: a question about your own "
+                    "voice or pronoun is answered with history, never "
+                    "with reasons for how you speak. And no biographical "
+                    "detail for any name beyond what your record itself "
+                    "carries - no earlier post, mission, or journey, "
+                    "however accurate - where the record gives the act "
+                    "without the man, give the act without the man.")
     except Exception:
         post_history_guard = ""
 
