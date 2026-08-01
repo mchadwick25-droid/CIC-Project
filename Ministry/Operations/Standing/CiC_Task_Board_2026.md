@@ -761,6 +761,26 @@ check of the real Living Table build in a running conversation — see LT-1.
       real formal re-run eventually, but not held up today on that basis. **Next action: a full
       formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
       timing his to schedule, not urgent today.
+- [x] **DECIDED 2026-07-24/25 — Representative Modes' 4-lane rollout PAUSED, general voice
+      only, Mark's direct scope call.** "keep what ships simple" — general voice for
+      everyone, no role selection, while today's separate length/pacing research still gets
+      applied to the general lane specifically. **Re-entry trigger, confirmed by Mark: real
+      pilot feedback, specifically from professors/academics** — not an open-ended
+      "someday," a defined condition. Work split cleanly onto two branches so the
+      lane-agnostic wins didn't sit blocked behind the paused feature:
+      `claude/representative-modes-guard` (the collapsed single 140-word length ceiling,
+      the OVER_SETTLING guard, adjudicator caching — **shipped to `main`, commit
+      `3da596b`**) and `claude/representative-modes-exploration` (the parked 4-lane blocks,
+      the PARKED design doc, and the reevaluation-ordering finding — named the strongest
+      single design result of that day's research — kept intact, not built on, for the
+      eventual pickup). **RM-7 (demo review) and RM-8/RM-9 (Battery A/B–D validation) above
+      are paused with it** — real work, real cost already spent, but validating a 4-lane
+      system that isn't shipping isn't the next useful step until the trigger fires.
+      **Corrects the "Branch: `claude/representative-modes-exploration` (commit `1127c09`,
+      local-only, not pushed)" framing this board never updated** — that was the state
+      before this split; both branches above are real and pushed. Full account: Decision
+      Log, 2026-07-24 (later entries) and 2026-07-24/25 (later), 2026-07-24/25 (even
+      later).
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
       decision, see V1.2 above): direct-API hosting live **(✅ DONE 2026-07-23, see
       #101/401)** **and** Increment 1 **and** the
@@ -853,7 +873,7 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 610 | D&O insurance | 605 |
 | 708 | Lilly positioning | 706, 305 |
 | 709 | Praxis application prep | 603 |
-| RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) |
+| RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) **and** the 4-lane pause's own re-entry trigger (real pilot feedback from professors/academics — see the DECIDED 2026-07-24/25 entry in DO NOW) |
 | 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) **and** RM-10/Increment 2 (role selection must land first — a question-serving screen can't ship ahead of the selector it's served through) |
 | RM-11 | Onboarding copy: mention role selection | RM-10/Increment 2 (or earlier, content-only) |
 | RM-12 | `role=`/`worlds=`/`mode=` URL parse-site reconciliation | whichever merges second: RM-10/Increment 2 or Increment 4 (World Map merge) |
