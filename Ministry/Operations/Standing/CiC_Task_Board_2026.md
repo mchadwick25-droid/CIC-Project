@@ -690,11 +690,20 @@ check of the real Living Table build in a running conversation — see LT-1.
       world-icon portraits + three short "how" phrases + the "doorway" line as the why, CTA
       scrolls into the existing search/spine unchanged. Mockup: homepage_hero_proposal
       artifact (2026-07-23). Not yet built into `index.html`.
-- [ ] **NEW 2026-07-23 — Full 6-world conversation-quality sweep, deferred, unscheduled.**
-      Single-world pilot (Marius, real API, $1.25) came back strong — on-topic, grounded,
-      real cross-round memory, no truncation. Full protocol (6 worlds × interview + multi-world
-      table × 3 rounds) estimated ~$28–35; gated on Claude Code token budget/timing, not cost.
-      Mark: wait, not Friday afternoon. Detail: Decision Log, 2026-07-23 (later still).
+- [x] **RUN 2026-08-01 — Full 6-world conversation-quality sweep, cheap half (solo
+      Deep Interviews) COMPLETE; multi-world table half deliberately deferred.** 5
+      worlds live-interviewed against the real deployed site (Desert/Alexandria/
+      Syriac/Hieronymian/PAHC, 3 rounds each, real API, no mock); Marius skipped
+      (optional, 2026-07-23 data stands). 4/5 clean on every fundamental;
+      Syriac showed a sharper citation-display mismatch (same class Marius
+      found once); Chloe's flagged "who is Jesus" issue did NOT reproduce
+      under two adversarial re-probes — no fix needed. Real per-world dollar
+      cost NOT measured (no Render log/Anthropic Console access from this
+      session) — flagged honestly, not estimated-and-presented-as-real.
+      Multi-world table half stays deferred — already covered by every
+      world's own freeze-battery TRR. Full report:
+      `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sweep_5World_2026-08-01.md`.
+      Detail: Decision Log, 2026-08-01.
 - [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
       25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
       **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**

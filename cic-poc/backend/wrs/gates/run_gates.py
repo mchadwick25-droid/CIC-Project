@@ -69,6 +69,28 @@ def selftest() -> int:
 
     print("\n## Alias-safety override path (VG-1b SS5.6 - reported, never "
           "silently passed, never hard-failed)\n")
+    # Rule C (VG-1c SS5.5, landed at the S6.2 tail): seeded
+    # cross-namespace collision must be caught; the clean set must pass
+    # with the no-term_id entry reported as a pending note only.
+    rs_c, gl_c = fixtures.rule_c_seeded()
+    core._GLOSS_CACHE = gl_c
+    try:
+        rc = core.gate_alias_safety(rs_c)
+        rc_viol, _n = core.split_alias_reports(rc)
+        if not any("Rule C" in v for v in rc_viol):
+            failures.append("seeded Rule C collision NOT caught")
+        rs_ok, gl_ok = fixtures.rule_c_clean()
+        core._GLOSS_CACHE = gl_ok
+        rk = core.gate_alias_safety(rs_ok)
+        rk_viol, rk_notes = core.split_alias_reports(rk)
+        if any("Rule C" in v for v in rk_viol):
+            failures.append("clean Rule C set produced a violation")
+        if not any("Rule C" in n and "without term_id" in n
+                   for n in rk_notes):
+            failures.append("Rule C pending-backfill note missing")
+    finally:
+        core._GLOSS_CACHE = None
+
     ov = core.gate_alias_safety(fixtures.alias_override_set())
     ov_viol, ov_notes = core.split_alias_reports(ov)
     print(f"- override fixture: {len(ov_viol)} violation(s), "

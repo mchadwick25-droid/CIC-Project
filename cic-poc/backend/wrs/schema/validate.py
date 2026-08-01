@@ -148,21 +148,24 @@ def validate_gloss_list():
     """VG-1c: real JSON-Schema validation of the LIVE confirmed-gloss data
     against confirmed_gloss.schema.json - the schema was previously loaded
     only for the traceability matrix, never enforced (Voice-Governance
-    Addendum SS1.1's finding). Until SS4.3's data move lands (Step 2/3),
-    the live data is app/prompts/confirmed_glosses.py's world-keyed
-    dataclass module; each entry is projected to the schema's entry shape
-    (world_id from the dict key; exact_wording_required True - the
-    module's own whitelist discipline, made explicit). Returns exit code."""
+    Addendum SS1.1's finding). SS4.3's data move LANDED (2026-08-01):
+    the authoritative data is wrs/glosses/confirmed_glosses.yaml,
+    validated DIRECTLY; a runtime-parity assertion confirms the module
+    (which loads the same file) sees exactly the file's entries
+    - one source of truth. Returns exit code."""
     import jsonschema
     sys.path.insert(0, str(BACKEND))
+    import yaml as _yaml
+    data_path = (BACKEND / "wrs" / "glosses" / "confirmed_glosses.yaml")
+    doc = _yaml.safe_load(data_path.read_text(encoding="utf-8"))
     from app.prompts.confirmed_glosses import CONFIRMED_GLOSSES
-    doc = {"schema_version": 1, "glosses": []}
-    for world_id, entries in CONFIRMED_GLOSSES.items():
-        for g in entries:
-            doc["glosses"].append({
-                "world_id": world_id, "category": g.category,
-                "original": g.original, "gloss": g.gloss,
-                "exact_wording_required": True})
+    module_keys = {(w, g.category, g.original, g.gloss)
+                   for w, es in CONFIRMED_GLOSSES.items() for g in es}
+    file_keys = {(e["world_id"], e["category"], e["original"], e["gloss"])
+                 for e in doc["glosses"]}
+    if module_keys != file_keys:
+        print("GLOSS RUNTIME-PARITY FAILURE: module != file")
+        return 1
     v = jsonschema.Draft202012Validator(GLOSS_SCHEMA)
     errs = [f"{'/'.join(str(x) for x in e.absolute_path) or '<root>'}: "
             f"{e.message[:160]}"

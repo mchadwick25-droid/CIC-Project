@@ -266,3 +266,41 @@ def _alias_seeded_sets():
                           field_relations=[])
     s.append(("stale alias_generic_override_note (nothing trips Rule A)", o1))
     return s
+
+
+# ------------------------------------------------ Rule C (VG-1c SS5.5)
+
+def rule_c_seeded():
+    """A confirmed-gloss entry WITH term_id whose original collides with
+    a DIFFERENT term's alias key in the same world - the cross-namespace
+    defect Rule C exists to catch. Returns (records, gloss_entries) -
+    the selftest injects gloss_entries via core._GLOSS_CACHE."""
+    rs = clean_set()
+    rs["fixlexC"] = _term("fixlexC", term="Lumen Fixture",
+                          aliases=["fixture-light"], field_relations=[])
+    rs["fixlexD"] = _term("fixlexD", term="Candela Fixture",
+                          aliases=["lumen-fixture"], field_relations=[])
+    glosses = [{"world_id": "fixture-world", "term_id": "fixlexC",
+                "category": "A", "original": "lumen-fixture",
+                "gloss": "the fixture light",
+                "exact_wording_required": True}]
+    return rs, glosses
+
+
+def rule_c_clean():
+    """The same shape with NO collision (the gloss original is its own
+    term's key only) plus one entry WITHOUT term_id - Rule C must pass
+    the first and report the second as a pending note, never a
+    violation."""
+    rs = clean_set()
+    rs["fixlexC"] = _term("fixlexC", term="Lumen Fixture",
+                          aliases=["lumen-fixture"], field_relations=[])
+    glosses = [{"world_id": "fixture-world", "term_id": "fixlexC",
+                "category": "A", "original": "lumen-fixture",
+                "gloss": "the fixture light",
+                "exact_wording_required": True},
+               {"world_id": "fixture-world",
+                "category": "A", "original": "candela-fixture",
+                "gloss": "the other light",
+                "exact_wording_required": True}]
+    return rs, glosses
