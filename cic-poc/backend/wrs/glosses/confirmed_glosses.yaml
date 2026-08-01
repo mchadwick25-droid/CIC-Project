@@ -1,0 +1,442 @@
+schema_version: 1
+glosses:
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: raza
+  gloss: a sign tied to a hidden truth
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: Iḥidaya
+  gloss: the undivided one
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: shrara
+  gloss: the truth itself
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: madrasha
+  gloss: a teaching-hymn
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: Ewangeliyon da-Mhallete
+  gloss: the harmonized Gospel
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: Mar
+  gloss: my lord, an honorific like "Saint"
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: taḥwîṯâ
+  gloss: a demonstration
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: memra
+  gloss: a verse composition
+  exact_wording_required: true
+- world_id: syriac-edessa-nisibis
+  category: A
+  original: qyama
+  gloss: a kept vow of celibacy for life
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Logismoi
+  gloss: the thoughts that trouble the mind
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Koinōnia
+  gloss: Pachomius's monastic federation
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Anachōrēsis
+  gloss: withdrawal
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Apotagē
+  gloss: renunciation
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Hēsychia
+  gloss: stillness
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Diakrisis
+  gloss: discernment
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Abba
+  gloss: an elder, honored as a father in the faith
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Amma
+  gloss: an elder, honored as a mother in the faith
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Cheirōnaxia
+  gloss: manual labor
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Apophthegma
+  gloss: a teaching-saying
+  exact_wording_required: true
+- world_id: desert-monasticism
+  category: A
+  original: Kellion
+  gloss: the cell
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Vulgata
+  gloss: the new Latin translation
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: B
+  original: the month named for the harvest
+  gloss: August
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Hebraica veritas
+  gloss: the Hebrew truth
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Renuntiatio
+  gloss: renunciation
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Virginitas
+  gloss: consecrated virginity
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Vidua
+  gloss: ascetic widowhood
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Patrocinium
+  gloss: patronage
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Epistula
+  gloss: the letter
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Matrona
+  gloss: a Roman noblewoman of standing
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Grammaticus
+  gloss: classical schooling
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Praefatio
+  gloss: the preface
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Nosocomium
+  gloss: a hospital
+  exact_wording_required: true
+- world_id: hieronymian-ascetic-literary
+  category: A
+  original: Monachus
+  gloss: a monk
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: homoios
+  gloss: similar to the Father
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: primatus
+  gloss: primacy, Rome's own authority
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: presbeia
+  gloss: a rank of honor
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: Imperator intra Ecclesiam
+  gloss: the emperor is within the Church, not above it
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: homoousios
+  gloss: of one being with the Father
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: concilium
+  gloss: a council
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: haeresis
+  gloss: heresy
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: Tomus
+  gloss: a formal doctrinal letter
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: Nea Rhōmē
+  gloss: New Rome, Constantinople
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: basilica
+  gloss: a church building
+  exact_wording_required: true
+- world_id: imperial-juridical-christianity
+  category: A
+  original: martyrium
+  gloss: a martyr's shrine
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: B
+  original: the day named for the sun
+  gloss: Sunday
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: B
+  original: the Lord's own day
+  gloss: Sunday
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: B
+  original: the first day of the week
+  gloss: Sunday
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: the water
+  gloss: baptism
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: Two Ways
+  gloss: the teaching that lays the two paths of life and death before you
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: episkopos
+  gloss: bishop, an overseer
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: presbyteros
+  gloss: an elder
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: ekklesia
+  gloss: the assembly, the church
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: eucharistia
+  gloss: the thanksgiving meal
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: diakonos
+  gloss: a deacon, one who serves
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: presbyterion
+  gloss: the council of elders
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: prophetes
+  gloss: a prophet
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: ministrae
+  gloss: servant-women, per Pliny's own report
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: agape
+  gloss: the love-feast
+  exact_wording_required: true
+- world_id: post-apostolic-house-church
+  category: A
+  original: pertinacia
+  gloss: stubbornness, a refusal to recant
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: gnosis
+  gloss: a transformative knowing of God
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: participation
+  gloss: a deep sharing in God's life
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: theosis
+  gloss: being drawn into God's life
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: psyche
+  gloss: your whole self, body and heart together
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: nous
+  gloss: the soul's deepest eye
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: likeness of God
+  gloss: growing to reflect God more fully
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: autexousia
+  gloss: the freedom to respond to God
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: allegory
+  gloss: reading for the deeper meaning
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: oikonomia
+  gloss: how God wisely arranges the whole plan of salvation
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: mysterion
+  gloss: a sacred reality known from within
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Logos
+  gloss: the Word
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Divine Pedagogy
+  gloss: God's ongoing teaching
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Catechesis
+  gloss: formation before baptism
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: photismos
+  gloss: the opening of sight
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Sophia
+  gloss: wisdom
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: eikon
+  gloss: the image of God
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Christological Reading
+  gloss: reading Scripture toward Christ
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Rule of Faith
+  gloss: the received tradition
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: metanoia
+  gloss: a change of mind, turning back to God
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: hamartia
+  gloss: missing the mark
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: episkopos
+  gloss: the overseer
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: didaskalos
+  gloss: the teacher
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: oikos
+  gloss: the household
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: pistis
+  gloss: trust, the soul's first turn toward God
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: agape
+  gloss: divine love
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: elpis
+  gloss: hope
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: ekklesia
+  gloss: the gathered community
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: arete
+  gloss: excellence
+  exact_wording_required: true
+- world_id: alexandria-catechetical
+  category: A
+  original: Pneuma Hagion
+  gloss: the Spirit of God
+  exact_wording_required: true

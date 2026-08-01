@@ -60,114 +60,31 @@ class ConfirmedGloss:
 
 
 # Keyed by world_id (matches WORLD_MANIFEST world_id values).
-CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = {
-    "syriac-edessa-nisibis": [
-        ConfirmedGloss("A", "raza", "a sign tied to a hidden truth"),
-        ConfirmedGloss("A", "Iḥidaya", "the undivided one"),
-        ConfirmedGloss("A", "shrara", "the truth itself"),
-        ConfirmedGloss("A", "madrasha", "a teaching-hymn"),
-        ConfirmedGloss("A", "Ewangeliyon da-Mhallete", "the harmonized Gospel"),
-        ConfirmedGloss("A", "Mar", "my lord, an honorific like \"Saint\""),
-        ConfirmedGloss("A", "taḥwîṯâ", "a demonstration"),
-        ConfirmedGloss("A", "memra", "a verse composition"),
-        ConfirmedGloss("A", "qyama", "a kept vow of celibacy for life"),
-    ],
-    "desert-monasticism": [
-        ConfirmedGloss("A", "Logismoi", "the thoughts that trouble the mind"),
-        ConfirmedGloss("A", "Koinōnia", "Pachomius's monastic federation"),
-        ConfirmedGloss("A", "Anachōrēsis", "withdrawal"),
-        ConfirmedGloss("A", "Apotagē", "renunciation"),
-        ConfirmedGloss("A", "Hēsychia", "stillness"),
-        ConfirmedGloss("A", "Diakrisis", "discernment"),
-        ConfirmedGloss("A", "Abba", "an elder, honored as a father in the faith"),
-        ConfirmedGloss("A", "Amma", "an elder, honored as a mother in the faith"),
-        ConfirmedGloss("A", "Cheirōnaxia", "manual labor"),
-        ConfirmedGloss("A", "Apophthegma", "a teaching-saying"),
-        # VG-2 (Desert retrofit, 2026-07-30): added when the alias-safety
-        # gate retired the bare "the cell" alias (Rule A) - the term's own
-        # English name-half ("Kellion (The Cell)"), the same High-confidence
-        # restated-name class as every entry above; flagged in
-        # WAITING_ON_MARK for project-owner confirmation per this module's
-        # own review discipline.
-        ConfirmedGloss("A", "Kellion", "the cell"),
-    ],
-    "hieronymian-ascetic-literary": [
-        ConfirmedGloss("A", "Vulgata", "the new Latin translation"),
-        ConfirmedGloss("B", "the month named for the harvest", "August"),
-        ConfirmedGloss("A", "Hebraica veritas", "the Hebrew truth"),
-        ConfirmedGloss("A", "Renuntiatio", "renunciation"),
-        ConfirmedGloss("A", "Virginitas", "consecrated virginity"),
-        ConfirmedGloss("A", "Vidua", "ascetic widowhood"),
-        ConfirmedGloss("A", "Patrocinium", "patronage"),
-        ConfirmedGloss("A", "Epistula", "the letter"),
-        ConfirmedGloss("A", "Matrona", "a Roman noblewoman of standing"),
-        ConfirmedGloss("A", "Grammaticus", "classical schooling"),
-        ConfirmedGloss("A", "Praefatio", "the preface"),
-        ConfirmedGloss("A", "Nosocomium", "a hospital"),
-        ConfirmedGloss("A", "Monachus", "a monk"),
-    ],
-    "imperial-juridical-christianity": [
-        ConfirmedGloss("A", "homoios", "similar to the Father"),
-        ConfirmedGloss("A", "primatus", "primacy, Rome's own authority"),
-        ConfirmedGloss("A", "presbeia", "a rank of honor"),
-        ConfirmedGloss("A", "Imperator intra Ecclesiam", "the emperor is within the Church, not above it"),
-        ConfirmedGloss("A", "homoousios", "of one being with the Father"),
-        ConfirmedGloss("A", "concilium", "a council"),
-        ConfirmedGloss("A", "haeresis", "heresy"),
-        ConfirmedGloss("A", "Tomus", "a formal doctrinal letter"),
-        ConfirmedGloss("A", "Nea Rhōmē", "New Rome, Constantinople"),
-        ConfirmedGloss("A", "basilica", "a church building"),
-        ConfirmedGloss("A", "martyrium", "a martyr's shrine"),
-    ],
-    "post-apostolic-house-church": [
-        ConfirmedGloss("B", "the day named for the sun", "Sunday"),
-        ConfirmedGloss("B", "the Lord's own day", "Sunday"),
-        ConfirmedGloss("B", "the first day of the week", "Sunday"),
-        ConfirmedGloss("A", "the water", "baptism"),
-        ConfirmedGloss("A", "Two Ways", "the teaching that lays the two paths of life and death before you"),
-        ConfirmedGloss("A", "episkopos", "bishop, an overseer"),
-        ConfirmedGloss("A", "presbyteros", "an elder"),
-        ConfirmedGloss("A", "ekklesia", "the assembly, the church"),
-        ConfirmedGloss("A", "eucharistia", "the thanksgiving meal"),
-        ConfirmedGloss("A", "diakonos", "a deacon, one who serves"),
-        ConfirmedGloss("A", "presbyterion", "the council of elders"),
-        ConfirmedGloss("A", "prophetes", "a prophet"),
-        ConfirmedGloss("A", "ministrae", "servant-women, per Pliny's own report"),
-        ConfirmedGloss("A", "agape", "the love-feast"),
-        ConfirmedGloss("A", "pertinacia", "stubbornness, a refusal to recant"),
-    ],
-    "alexandria-catechetical": [
-        ConfirmedGloss("A", "gnosis", "a transformative knowing of God"),
-        ConfirmedGloss("A", "participation", "a deep sharing in God's life"),
-        ConfirmedGloss("A", "theosis", "being drawn into God's life"),
-        ConfirmedGloss("A", "psyche", "your whole self, body and heart together"),
-        ConfirmedGloss("A", "nous", "the soul's deepest eye"),
-        ConfirmedGloss("A", "likeness of God", "growing to reflect God more fully"),
-        ConfirmedGloss("A", "autexousia", "the freedom to respond to God"),
-        ConfirmedGloss("A", "allegory", "reading for the deeper meaning"),
-        ConfirmedGloss("A", "oikonomia", "how God wisely arranges the whole plan of salvation"),
-        ConfirmedGloss("A", "mysterion", "a sacred reality known from within"),
-        ConfirmedGloss("A", "Logos", "the Word"),
-        ConfirmedGloss("A", "Divine Pedagogy", "God's ongoing teaching"),
-        ConfirmedGloss("A", "Catechesis", "formation before baptism"),
-        ConfirmedGloss("A", "photismos", "the opening of sight"),
-        ConfirmedGloss("A", "Sophia", "wisdom"),
-        ConfirmedGloss("A", "eikon", "the image of God"),
-        ConfirmedGloss("A", "Christological Reading", "reading Scripture toward Christ"),
-        ConfirmedGloss("A", "Rule of Faith", "the received tradition"),
-        ConfirmedGloss("A", "metanoia", "a change of mind, turning back to God"),
-        ConfirmedGloss("A", "hamartia", "missing the mark"),
-        ConfirmedGloss("A", "episkopos", "the overseer"),
-        ConfirmedGloss("A", "didaskalos", "the teacher"),
-        ConfirmedGloss("A", "oikos", "the household"),
-        ConfirmedGloss("A", "pistis", "trust, the soul's first turn toward God"),
-        ConfirmedGloss("A", "agape", "divine love"),
-        ConfirmedGloss("A", "elpis", "hope"),
-        ConfirmedGloss("A", "ekklesia", "the gathered community"),
-        ConfirmedGloss("A", "arete", "excellence"),
-        ConfirmedGloss("A", "Pneuma Hagion", "the Spirit of God"),
-    ],
-}
+# SS4.3 DATA MOVE (Voice-Governance Addendum, executed at the S6.2 tail,
+# 2026-08-01): the authoritative gloss data now lives in
+# wrs/glosses/confirmed_glosses.yaml (the schema-validated
+# keyed list - confirmed_gloss.schema.json; still Facilitator-owned,
+# still deliberately not a record type per Pass 1 SS3.11). This module
+# LOADS it at import and preserves the exact prior interface -
+# CONFIRMED_GLOSSES keyed by world_id, entry order preserved (YAML list
+# order == the prior in-code order), so get_gloss_guidance stays
+# byte-identical per world (cache stability verified by pre/post-move
+# hash comparison at the move). term_id (optional, the backfill's
+# field) is accepted and ignored here - Rule C consumes it gate-side.
+def _load_confirmed_glosses() -> dict[str, list[ConfirmedGloss]]:
+    import yaml
+    from pathlib import Path
+    data_path = (Path(__file__).resolve().parents[2] / "wrs" / "glosses"
+                 / "confirmed_glosses.yaml")
+    doc = yaml.safe_load(data_path.read_text(encoding="utf-8"))
+    out: dict[str, list[ConfirmedGloss]] = {}
+    for e in doc["glosses"]:
+        out.setdefault(e["world_id"], []).append(
+            ConfirmedGloss(e["category"], e["original"], e["gloss"]))
+    return out
+
+
+CONFIRMED_GLOSSES: dict[str, list[ConfirmedGloss]] = _load_confirmed_glosses()
 
 
 def get_gloss_guidance(world_id: str) -> str:
