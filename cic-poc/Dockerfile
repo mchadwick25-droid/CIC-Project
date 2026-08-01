@@ -48,6 +48,14 @@ COPY backend/data/ ./data/
 COPY backend/supabase_schema.sql .
 COPY backend/build_indices.py .
 
+# app/prompts/confirmed_glosses.py loads this file at import time (module-
+# level, not lazy) - since the S6.2 tail's SS4.3 data move (2026-08-01),
+# the gloss data's authoritative home is wrs/glosses/, not an in-code dict.
+# The rest of wrs/ (migration scripts, per-world records, gate code) is
+# dev/build-time only and deliberately not copied - this is the one file
+# under it that's now a genuine runtime dependency.
+COPY backend/wrs/glosses/ ./wrs/glosses/
+
 # Pre-compute every world's FAISS indices now, on Render's (or whichever
 # host's) build machine, instead of leaving app/main.py's own startup
 # lifespan to rebuild them from scratch inside the much more
