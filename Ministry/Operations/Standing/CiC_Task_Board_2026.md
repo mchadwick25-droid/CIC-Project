@@ -114,6 +114,41 @@ check of the real Living Table build in a running conversation — see LT-1.
         own design pass before build. **Superseded by the correction above** — check
         `CiC_World_Atlas_PreStep0_Survey_V0_1.md` against this ask before writing anything
         new; it may already exist.
+      - **CORRECTED 2026-08-01 — the "five open questions blocking V0.2" line above is
+        stale and should not be treated as a live gate.** Checked directly against
+        `Ministry/Features/Atlas-World-Map/Decision-Log.md`: those five questions sit at
+        the file's oldest entry (2026-07-16, the log is reverse-chronological) and were
+        **all resolved that same day**, several passes later in the same session — Lane 4
+        became its own "Caucasus" lane, floor-excluded movements ship dimmed-with-copy at
+        V1 (now the "Non-Nicene Traditions" stream), "Notify me when this changes" was cut
+        as an over-promise, and the map shipped as a standalone demo the same day. The
+        2026-07-30 correction above read only the log's oldest entry and mistook it for
+        current state. **Real current status, verified directly:** the census
+        (`cic-website/data/world-census.json`) already has **178 entries across all 10
+        confirmed eras** — only 9 are actual/prospective CiC-built worlds (6 live + 3
+        selected), the other 169 are the full landscape survey (named, sourced, dated,
+        lane-assigned, honest exclusion grounds), deliberately including traditions CiC
+        will likely never build. Three redesign prototypes exist (A: Story scroll, now
+        live; B: search-first "Choose a Tradition"; **C: an unreviewed, orphaned unified
+        grid-timeline design that has never been shown to Mark or logged in that thread's
+        own Decision Log** — committed as a safety measure only, per its own commit
+        message). IC-10 (the approved 10-era ground palette) is still not built into the
+        live atlas despite being approved 2026-07-18. "Choose a Tradition" is a **name
+        collision** — it already labels the plain tile-grid heading in the live
+        `cic-poc` app, a different thing from Prototype B's redesigned search-first
+        surface. The Gantt has a task for the Tier A merge (Increment 4, id 463) but
+        **none at all for Tier B** (the in-app selector) — that's unscheduled work, not an
+        unmerged branch. Full detail: System Hub Decision Log, 2026-08-01 (later).
+      - **SH-4/SH-6 — DISPATCHED 2026-08-01 as "Atlas / Scrolling Map v3."** Launch prompt
+        written and handed to Mark, grounded in the real current state above rather than
+        re-designing from scratch — the 178-entry, all-10-era, every-tradition census
+        already exists and is already live; v3's real work is visual/interaction quality,
+        a verdict on the never-reviewed Prototype C, the "Choose a Tradition" name
+        collision, the Tier A/Tier B scope call, IC-10's palette application, and a fresh
+        completeness check against the full 178 (the only prior external review checked
+        147). `Ministry/Operations/Standing/Launch-Prompts/
+        CiC_Atlas_WorldMap_V3_Thread_Launch_2026-08-01.md`. Full account: Decision Log,
+        2026-08-01 (later still).
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
