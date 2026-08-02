@@ -74,7 +74,10 @@ check of the real Living Table build in a running conversation — see LT-1.
         parser/gate/schema instead of needing a VG-2-style retrofit after. Briefing sent
         this session, ahead of the reset — see System Hub Decision Log.
       - **SH-2 — Rebuild the 3 remaining worlds** (Step 3 proper) once SH-1 lands. ~30-35%
-        of a weekly budget per Mark's own earlier estimate.
+        of a weekly budget per Mark's own earlier estimate. **DONE 2026-08-01 — all 3 landed
+        (Hieronymian, PAHC, then Imperial-Juridical last, frozen 2026-08-01).** The S6.2
+        migration itself is now fully complete across **all 6 worlds**, not just these 3 —
+        see the new dated entry below and Decision Log, 2026-08-01, for the full account.
 
       **Sonnet/System-Hub-track (no Fable budget needed):**
       - **SH-3 — Go live on the current pilot site**, run real tests to verify both cost
@@ -156,6 +159,38 @@ check of the real Living Table build in a running conversation — see LT-1.
         build it around. Revisit once real B-COST/pilot data exists.
 
 
+- [x] **DONE 2026-08-01 — S6.2 record-store migration COMPLETE: all 6 live worlds now run
+      production from a schema-validated record store, not hand-authored files.** Every
+      world's voice, lexicon, stories, gravities, and contested claims used to live as
+      hand-authored prompt text and data with no shared schema and no cross-check. It now
+      lives in `cic-poc/backend/wrs/records/` — schema-checked, gate-checked, and the actual
+      source the deployed prompts/chunks generate from. All six worlds migrated, frozen, and
+      live-tested against the deployed site, in order: **Desert (Papnoute), Alexandria
+      (Theon), Syriac (Mar Yausep), Hieronymian (Albina), PAHC/House-Church (Chloe),
+      Imperial-Juridical (Marius, frozen last, 2026-08-01)** — each through the same
+      pipeline (source rows → lexicon → stories/figures → gravities/forces → contested
+      claims → voice → facilitation guidance → live chunk swap → blind-graded freeze
+      battery → Table Readiness Round), each closed with its own signed freeze declaration
+      (`Ministry/Technology/Pass2/gates/S6.2_<WORLD>_FREEZE_DECLARATION.md`).
+      **Real regressions found and fixed along the way, not just a clean migration story:**
+      per-world prompt gaps caught by cold adversarial probing (a naming-collision capture
+      on Hieronymian then PAHC; a post-window "your vindication" framing that defeated IJC's
+      own horizon rule; a full-context-dilution family on IJC needing two guard layers plus
+      a prompt sharpening); a live alias-safety gate built and retrofitted fleet-wide after
+      catching real over-broad highlighting bugs already in production (Syriac's bare
+      "truth"/"mystery"/"symbol" firing on ordinary English); and a real go-live regression
+      the same day — the gloss-data move made a YAML file a genuine runtime dependency, but
+      the Dockerfile never copied `wrs/` into the image, breaking every deploy until
+      root-caused from the real Render build-log traceback and fixed (PR #3, merged).
+      **Standing policies set during this arc:** table size hard-capped at 3 (see the entry
+      below); Table Readiness Rounds are cost-capped — sample the partner set, never one
+      table per frozen world; Article 31 (telos) review stays provisional by design until
+      year two, not a freeze blocker. **Honestly not done yet:** the multi-world Table shape
+      itself was not re-tested live against the deployed site (deliberately deferred — it
+      already gets real adversarial testing inside each world's own freeze-battery TRR); a
+      retrieval-embedding improvement and two Alexandria-adjacent schema change orders are
+      proposed, not built, awaiting Mark's word. Full technical ledger:
+      `Ministry/Technology/Pass2/BUILD_STATE.md`. Full account: Decision Log, 2026-08-01.
 - [x] **DONE 2026-08-01 — Table size permanently capped at 3 (down from the original
       5-world design ceiling), cost-driven.** Live cost proved too high at 5 (see SH-2's
       PAHC entry above — TRR partner-count compounds every world frozen). **App already
@@ -720,6 +755,26 @@ check of the real Living Table build in a running conversation — see LT-1.
       correctly retrieved for PAHC, and the report's write-up had
       misattributed it while drafting. No code defect existed; report
       corrected in place. Detail: Decision Log, 2026-08-01 (later).
+- [x] **DONE 2026-08-01 (later still) — V9 System Hub launch prompt drafted and
+      published, at Mark's request.** Same two-job core charter as V8 carries forward
+      unchanged (update shared files from what Mark reports; write launch prompts on
+      request) — it held through V8's whole run, every expansion an explicit ask, never
+      unprompted. V9 adds two things only: (1) writes down plainly that the
+      expanded-work range V8 already exercised (git/build/prod verification, a scoped
+      bug fix once root-caused, a PR merged including a real conflict resolved without
+      losing either side's content, a commissioned review processed) is fair game
+      whenever Mark explicitly asks for it, so a fresh thread doesn't relearn the
+      boundary by trial and error; (2) documents a genuinely new capability — a
+      dedicated "CIC Project" cloud environment holding `ANTHROPIC_API_KEY` (plain
+      text, no secrets vault) where a thread can build the backend venv and run real
+      `TestClient`/per-world solo-interview tests directly, instead of only writing a
+      launch prompt asking another thread to. Still not the live site —
+      `cic-poc.onrender.com` is a separate Render deployment with its own
+      separately-configured key. `Ministry/Operations/Standing/Launch-Prompts/
+      CiC_System_Hub_Thread_Launch_V9_2026-08-01.md`, pushed to
+      `claude/v8-v9-charter-lblaxp`; published as a rendered Artifact per the standing
+      style preference. Not a Gantt item — a thread-charter document, not a project
+      deliverable. Full account: Decision Log, 2026-08-01 (later still).
 - [x] **RUN 2026-07-22 — RM-8 — Representative Modes validation, Battery A: RAN, RESULT = FAIL.**
       25 live conversations (5 probes × 5 arms), isolated worktree, blinded + unblinded grading.
       **3 of 5 probes outright FAIL on content-invariance, 2 AMBIGUOUS, zero clean PASS.**
@@ -741,6 +796,26 @@ check of the real Living Table build in a running conversation — see LT-1.
       real formal re-run eventually, but not held up today on that basis. **Next action: a full
       formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
       timing his to schedule, not urgent today.
+- [x] **DECIDED 2026-07-24/25 — Representative Modes' 4-lane rollout PAUSED, general voice
+      only, Mark's direct scope call.** "keep what ships simple" — general voice for
+      everyone, no role selection, while today's separate length/pacing research still gets
+      applied to the general lane specifically. **Re-entry trigger, confirmed by Mark: real
+      pilot feedback, specifically from professors/academics** — not an open-ended
+      "someday," a defined condition. Work split cleanly onto two branches so the
+      lane-agnostic wins didn't sit blocked behind the paused feature:
+      `claude/representative-modes-guard` (the collapsed single 140-word length ceiling,
+      the OVER_SETTLING guard, adjudicator caching — **shipped to `main`, commit
+      `3da596b`**) and `claude/representative-modes-exploration` (the parked 4-lane blocks,
+      the PARKED design doc, and the reevaluation-ordering finding — named the strongest
+      single design result of that day's research — kept intact, not built on, for the
+      eventual pickup). **RM-7 (demo review) and RM-8/RM-9 (Battery A/B–D validation) above
+      are paused with it** — real work, real cost already spent, but validating a 4-lane
+      system that isn't shipping isn't the next useful step until the trigger fires.
+      **Corrects the "Branch: `claude/representative-modes-exploration` (commit `1127c09`,
+      local-only, not pushed)" framing this board never updated** — that was the state
+      before this split; both branches above are real and pushed. Full account: Decision
+      Log, 2026-07-24 (later entries) and 2026-07-24/25 (later), 2026-07-24/25 (even
+      later).
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
       decision, see V1.2 above): direct-API hosting live **(✅ DONE 2026-07-23, see
       #101/401)** **and** Increment 1 **and** the
@@ -753,10 +828,15 @@ check of the real Living Table build in a running conversation — see LT-1.
       once it starts — no new outreach until ~Aug 10 from that point.
 - [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
       existing; his August matters.
-- [ ] **202–206 — Ancient worlds 5–9** (from Aug 3, sequential, ~6 working days each
-      including battery + deployment gates). **Alexandria (Doc_01-09 complete
-      2026-07-17) is already ahead of this Aug 3 start** — likely fills the "world 5"
-      slot rather than waiting for it; needs your confirmation (see DO NOW).
+- [ ] **202–206 — Ancient worlds 5–9, 2 of 5 now DONE per Mark's direct report
+      (2026-08-01): 6 of 9 total Ancient-world (Eras 1-2, first 4 centuries) builds
+      complete.** Which specific worlds fill the "world 5" and "world 6" slots isn't
+      individually tracked here — Alexandria (Doc_01-09 complete 2026-07-17) was already
+      flagged as the likely "world 5" candidate before this report; the Fable/Pass2
+      fleet's own real per-world freeze dates (Decision Log) are the authoritative source
+      if the exact mapping ever matters. **3 remain: world 7–9**, now slid forward to
+      start 2026-08-03 instead of waiting for 2026-08-19 (the schedule is running ahead,
+      not behind). Gantt tasks 202/203 marked complete, 204–206 rescheduled to match.
 - [ ] **201 — Guided starters: ALL 4 WORLDS DRAFTED 2026-07-16 (75%)** — pulled 3 weeks
       left. `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic),
       `Guided_Starters_V0_1_DRAFT.md` (Syriac), `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
@@ -833,7 +913,7 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 610 | D&O insurance | 605 |
 | 708 | Lilly positioning | 706, 305 |
 | 709 | Praxis application prep | 603 |
-| RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) |
+| RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) **and** the 4-lane pause's own re-entry trigger (real pilot feedback from professors/academics — see the DECIDED 2026-07-24/25 entry in DO NOW) |
 | 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) **and** RM-10/Increment 2 (role selection must land first — a question-serving screen can't ship ahead of the selector it's served through) |
 | RM-11 | Onboarding copy: mention role selection | RM-10/Increment 2 (or earlier, content-only) |
 | RM-12 | `role=`/`worlds=`/`mode=` URL parse-site reconciliation | whichever merges second: RM-10/Increment 2 or Increment 4 (World Map merge) |

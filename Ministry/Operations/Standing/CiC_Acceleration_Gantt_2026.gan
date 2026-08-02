@@ -7,7 +7,35 @@ Update rule: mark tasks complete here (percent), then refresh the task board's D
 decision -- not in the current build cycle. Done tasks (439, 441, 442) kept complete=100, renamed
 [DONE - shelved, Phase 2] rather than deleted. Not-yet-started tasks (440, 443-452) renamed [DEFERRED -
 Phase 2] and pushed to placeholder date 2027-01-04 (out of the Jul-Dec 2026 window). See Task Board's
-Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full reasoning.]]></description>
+Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full reasoning.
+2026-08-01: task 603's Entity ID/Transaction # and date were wrong (carried the 2026-07-21 filing
+attempt that never actually completed) -- corrected to the real filing, Entity ID 20261918758,
+2026-07-27. See the System Hub Decision Log, 2026-07-27.
+2026-08-01: tasks 424-427 (RM-7..RM-10, Representative Modes' 4-lane rollout) renamed [PAUSED] --
+Mark's direct scope call, 2026-07-24/25: general voice ships instead, no role selection, until real
+pilot feedback from professors/academics specifically reopens it. Not renumbered/rescheduled since
+the pause is a hold, not a cancellation -- re-baseline dates once the trigger fires. See Task Board
+(DO NOW, the DECIDED 2026-07-24/25 entry) and the System Hub Decision Log, 2026-07-24 (later
+entries).
+2026-08-01: Mark reports 6 of 9 Ancient-world (Eras 1-2, first 4 centuries) builds now complete --
+tasks 202/203 (Ancient world 5, 6) marked done and pulled back to late July; tasks 204-206 (world
+7-9) slid forward into the calendar slots that freed up, now starting 2026-08-03 instead of
+2026-08-19. Which specific worlds fill which numbered slot isn't tracked per-task here (Task Board's
+own READY NEXT section already flagged this numbering as informal, e.g. Alexandria likely filling
+"world 5" ahead of its nominal start) -- see the Fable/Pass2 fleet's own real per-world freeze dates
+in the System Hub Decision Log for that detail. Deliberately NOT re-cascaded: task 208 onward
+(Reformation worlds, and every cross-track dependent in Validation/Funding/Engineering) stays on its
+original dates -- world-building is now running ahead of them, which just means real slack exists
+downstream, not a broken schedule. Pulling the rest of the calendar forward to use that slack is a
+real pacing decision, not a data-entry one -- left for Mark, not decided here.
+2026-08-01 (later): the S6.2 record-store migration is COMPLETE -- all 6 live worlds (Desert,
+Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) now run production from a
+schema-validated record store instead of hand-authored files, each migrated/frozen/live-tested
+in turn, Imperial-Juridical last (2026-08-01). This is a distinct axis from the "Ancient worlds
+5-9" track above -- it upgrades the 6 worlds already built, it does not build new ones -- so it's
+tracked as its own new task (219) under World Building rather than folded into 202-206. Synced
+from a handoff report the Pass2/Fable thread prepared for System Hub; full account: System Hub
+Decision Log, 2026-08-01 (later still).]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="240" order="0"/>
         <field id="tpd4" name="Begin date" width="90" order="1"/>
@@ -66,23 +94,23 @@ Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full 
             <task id="201" name="Guided starter question sets (4 live worlds)" color="#00cc44" meeting="false" start="2026-08-03" duration="9" complete="75" expand="true">
                 <depend id="402" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="202" name="Ancient world 5: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-03" duration="6" complete="0" expand="true">
+            <task id="202" name="DONE — Ancient world 5: build + battery + deploy gates (Mark's report, 2026-08-01; exact world/date not individually tracked here, see Decision Log)" color="#00cc44" meeting="false" start="2026-07-24" duration="6" complete="100" expand="true">
                 <depend id="203" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="203" name="Ancient world 6: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-11" duration="6" complete="0" expand="true">
+            <task id="203" name="DONE — Ancient world 6: build + battery + deploy gates (Mark's report, 2026-08-01; exact world/date not individually tracked here, see Decision Log)" color="#00cc44" meeting="false" start="2026-07-31" duration="1" complete="100" expand="true">
                 <depend id="204" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="204" name="Ancient world 7: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-19" duration="6" complete="0" expand="true">
+            <task id="204" name="Ancient world 7: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-03" duration="6" complete="0" expand="true">
                 <depend id="205" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="205" name="Ancient world 8: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-27" duration="6" complete="0" expand="true">
+            <task id="205" name="Ancient world 8: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-11" duration="6" complete="0" expand="true">
                 <depend id="206" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="206" name="Ancient world 9: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-09-04" duration="6" complete="0" expand="true">
+            <task id="206" name="Ancient world 9: build + battery + deploy gates" color="#00cc44" meeting="false" start="2026-08-19" duration="6" complete="0" expand="true">
                 <depend id="207" type="2" difference="0" hardness="Strong"/>
                 <depend id="208" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="207" name="MILESTONE: 9 ancient worlds complete" color="#dd0000" meeting="true" start="2026-09-11" duration="0" complete="0" expand="true"/>
+            <task id="207" name="MILESTONE: 9 ancient worlds complete" color="#dd0000" meeting="true" start="2026-08-26" duration="0" complete="0" expand="true"/>
             <task id="208" name="Reformation selection + Living Tradition confirmations" color="#00cc44" meeting="false" start="2026-09-14" duration="8" complete="0" expand="true">
                 <depend id="209" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -113,6 +141,7 @@ Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full 
             </task>
             <task id="217" name="Build freeze + final upgrade pass" color="#00cc44" meeting="false" start="2026-12-01" duration="4" complete="0" expand="true"/>
             <task id="218" name="Weekly quality-upgrade batches (ongoing)" color="#ccffcc" meeting="false" start="2026-08-03" duration="99" complete="0" expand="true"/>
+            <task id="219" name="DONE — S6.2 record-store migration: all 6 live worlds (Desert, Alexandria, Syriac, Hieronymian, PAHC, Imperial-Juridical) migrated, frozen, and live-tested against the deployed site" color="#00cc44" meeting="false" start="2026-08-01" duration="1" complete="100" expand="true"/>
         </task>
         <task id="300" name="C - VALIDATION (Article 31)" color="#ff9933" meeting="false" start="2026-07-17" duration="109" complete="0" expand="true">
             <task id="301" name="Reviewer brief (one page) - MOST TIME-CRITICAL" color="#ff9933" meeting="false" start="2026-07-17" duration="2" complete="75" expand="true">
@@ -172,22 +201,22 @@ Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full 
             </task>
             <task id="407" name="GATE: Lane B public flip go/no-go" color="#dd0000" meeting="true" start="2026-12-15" duration="0" complete="0" expand="true"/>
             <task id="420" name="Representative Modes: design, prompt architecture, exploration branch build, verification, validation plan, integration assessment (RM-1..RM-6)" color="#9966cc" meeting="false" start="2026-07-16" duration="1" complete="100" expand="true"/>
-            <task id="424" name="RM-7: Mark reviews Design Spec S6 demonstration artifact" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true">
+            <task id="424" name="[PAUSED - see 2026-07-24/25] RM-7: Mark reviews Design Spec S6 demonstration artifact" color="#9966cc" meeting="false" start="2026-07-18" duration="1" complete="0" expand="true">
                 <depend id="425" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="425" name="RM-8: Validation run - Battery A - RAN 2026-07-22, FAILED, fixed same day + spot-verified; formal re-run still owed" color="#9966cc" meeting="false" start="2026-07-21" duration="2" complete="70" expand="true">
+            <task id="425" name="[PAUSED - see 2026-07-24/25] RM-8: Validation run - Battery A - RAN 2026-07-22, FAILED, fixed same day + spot-verified; formal re-run still owed" color="#9966cc" meeting="false" start="2026-07-21" duration="2" complete="70" expand="true">
                 <depend id="426" type="2" difference="0" hardness="Strong"/>
                 <depend id="427" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="426" name="RM-9: Validation run - Batteries B-D (drift, overclaiming, adversarial)" color="#9966cc" meeting="false" start="2026-07-23" duration="3" complete="0" expand="true"/>
-            <task id="427" name="RM-10 / Increment 2: Role selection UI + Representative Modes merge decision (front-end thread; never before/during Prototype 1)" color="#9966cc" meeting="false" start="2026-08-24" duration="2" complete="0" expand="true">
+            <task id="426" name="[PAUSED - see 2026-07-24/25] RM-9: Validation run - Batteries B-D (drift, overclaiming, adversarial)" color="#9966cc" meeting="false" start="2026-07-23" duration="3" complete="0" expand="true"/>
+            <task id="427" name="[PAUSED - see 2026-07-24/25] RM-10 / Increment 2: Role selection UI + Representative Modes merge decision (front-end thread; never before/during Prototype 1; blocked on the 4-lane pause's re-entry trigger -- real pilot feedback from professors/academics -- not just Battery A)" color="#9966cc" meeting="false" start="2026-08-24" duration="2" complete="0" expand="true">
                 <depend id="402" type="2" difference="0" hardness="Strong"/>
                 <depend id="428" type="2" difference="0" hardness="Rubber"/>
                 <depend id="429" type="2" difference="0" hardness="Strong"/>
                 <depend id="451" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="428" name="RM-11: Onboarding copy - mention role selection" color="#9966cc" meeting="false" start="2026-08-26" duration="1" complete="0" expand="true"/>
-            <task id="429" name="RM-12: role=/worlds=/mode= URL parse-site reconciliation (waits on whichever of Representative Modes or World Map merges second)" color="#9966cc" meeting="false" start="2026-09-08" duration="1" complete="0" expand="true"/>
+            <task id="428" name="[PAUSED - see 2026-07-24/25] RM-11: Onboarding copy - mention role selection" color="#9966cc" meeting="false" start="2026-08-26" duration="1" complete="0" expand="true"/>
+            <task id="429" name="[PAUSED - see 2026-07-24/25] RM-12: role=/worlds=/mode= URL parse-site reconciliation (waits on whichever of Representative Modes or World Map merges second)" color="#9966cc" meeting="false" start="2026-09-08" duration="1" complete="0" expand="true"/>
             <task id="430" name="RM-13: Tier B - role-default transparency mode (blocked on Mode One/Two toggle)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
             <task id="431" name="RM-14: Tier C - closing-resources register by role (blocked on closing resources)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
             <task id="432" name="RM-15: Tier D - role-aware safety classifiers (deliberately not designed, not scoped)" color="#9966cc" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true"/>
@@ -249,7 +278,7 @@ Phase 2+/DEFERRED section and the System Hub Decision Log, 2026-07-22, for full 
             <task id="602" name="Entity prep: Faithways Studio PBC — Articles, Bylaws, IP Assignment, Shareholder Agreement (drafted + 3 independent review rounds)" color="#3366cc" meeting="false" start="2026-08-03" duration="25" complete="95" expand="true">
                 <depend id="603" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="603" name="DONE — Filed CO Articles of Incorporation (Faithways Studio, Inc., PBC). Entity ID 20261874960, Transaction # 20261874960" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
+            <task id="603" name="DONE — Filed CO Articles of Incorporation (Faithways Studio, Inc., PBC). CORRECTED 2026-08-01: real filing is 2026-07-27, Entity ID 20261918758 -- the 2026-07-21 date below never actually completed (on-screen only, no receipt), refiled from scratch. Chart date kept at 07-21 so 624/625/621 below don't appear to predate their predecessor; the real sequencing question this raises (those 3 were signed 07-21, before the entity legally existed) is flagged to Mark/Susan, not resolved here -- see Decision Log 2026-07-27" color="#3366cc" meeting="false" start="2026-07-21" duration="1" complete="100" expand="true">
                 <depend id="624" type="2" difference="0" hardness="Strong"/>
                 <depend id="623" type="2" difference="0" hardness="Strong"/>
             </task>
