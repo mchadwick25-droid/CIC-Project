@@ -72,15 +72,20 @@ specific question; the subagent reads the source documents itself.
 - **Every probe FAIL loops**: root-cause (Fable) → record-derived fix →
   cold-reprobe under the DEPLOYED runtime → class re-run until clean.
   Isolated-harness proof is diagnosis, never verdict.
-- **LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01):**
-  the free content-accuracy floor (gates/schema/parities/coverage) +
-  ~8–12 single-trial targeted probes blind-graded + ONE live Deep
-  Interview against the real deployed site — interview-class spend
-  (~$1.25–1.80 measured), NOT the ~$30 full battery. The full V7.4
-  two-trial battery and the TRR run on Mark's word only; the TRR is
-  DEFERRED while the multi-representative table is on limited use. The
-  freeze declaration says "content-frozen; table-dynamics deferred" and
-  declares what lean gives up — never silently.
+- **LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01,
+  refined same day):** the freeze bar = content accuracy AND
+  single-representative INTERVIEW dynamics; only MULTI-representative
+  table dynamics are deferred. The free floor
+  (gates/schema/parities/coverage) + ~10–14 single-trial targeted
+  probes blind-graded (content classes PLUS parroting, pushback,
+  over-settling, re-gloss — the interview-dynamics classes) + ONE
+  EXTENDED live Deep Interview (6–8 rounds) against the real deployed
+  site, long enough to press sustained-context dynamics where they
+  actually fail. Single-digit dollars per world, NOT the ~$30 full
+  battery. The full V7.4 two-trial battery and the TRR run on Mark's
+  word only; the TRR is DEFERRED while the table is on limited use. The
+  freeze declaration says "content-and-interview-frozen; table-dynamics
+  deferred" and declares what lean gives up — never silently.
 - Session rules: one declared step at a time; re-run the previous
   checkpoint; never edit a gate that must pass you; defects to FLAGS.md,
   never silent; end every session deployable; commits carry step IDs;

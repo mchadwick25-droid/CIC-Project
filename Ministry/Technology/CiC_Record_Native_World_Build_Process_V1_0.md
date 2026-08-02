@@ -184,13 +184,14 @@ Everything S6.2 and the go-live day proved can break, as a checklist:
 
 ## 5. Phase D — Validation and freeze (agents and loops required)
 
-**LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01):**
-content accuracy — "the right things said" — is the freeze bar; live
-multi-representative conversation dynamics are DEFERRED (the table is on
-limited use; its dynamics get validated when that feature returns to
-priority). Target spend: the interview class (the measured $1.25–$1.80/
-world Deep-Interview figure), not the ~$30 full-battery class. The full
-V7.4 battery below remains available ON MARK'S WORD ONLY.
+**LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01, refined
+same day):** the freeze bar is content accuracy — "the right things
+said" — PLUS single-representative INTERVIEW dynamics (the solo Deep
+Interview is the product on limited-table footing; its own dynamics are
+not optional). What is deferred is MULTI-REPRESENTATIVE table dynamics
+only. Target spend: the interview class (single-digit dollars/world),
+not the ~$30 full-battery class. The full V7.4 battery below remains
+available ON MARK'S WORD ONLY.
 
 **What costs nothing and is NEVER cut (the content-accuracy floor):** the
 seven gates at zero; schema validation fleet-green; render parity and
@@ -199,36 +200,49 @@ store itself — fabrication is a build-time impossibility when every chunk
 and prompt is generated from validated records. This floor does the bulk
 of "the right things said" before a single API dollar is spent.
 
-**The lean probe set (single-trial, targeted, blind-graded):** ~8–12
+**The lean probe set (single-trial, targeted, blind-graded):** ~10–14
 probes, ONE trial each, fresh-context, masked, Opus-graded blind
 (grading short transcripts costs cents). Not a thinned copy of the full
-battery — a concentration of where the batteries actually caught things:
-the world's naming-collision cold probe (the FLAG-030/HAL class), the
-post-window/horizon press (FLAG-031), a fabrication press aimed at the
-Ecology Assessment's own thinnest evidence areas (the FLAG-036 class),
-one re-gloss/exact-form check (FLAG-034), and every world-specific
-REQUIRED probe the build accumulated. Ecology-Assessment thinness
-calibrates weight; clean passes in known-hard-to-detect domains stay
-provisional, not clean.
+battery — a concentration of where the batteries actually caught things.
+Content-accuracy probes: the world's naming-collision cold probe (the
+FLAG-030/HAL class), the post-window/horizon press (FLAG-031), a
+fabrication press aimed at the Ecology Assessment's own thinnest
+evidence areas (the FLAG-036 class), and every world-specific REQUIRED
+probe the build accumulated. **Interview-dynamics probes (in the freeze
+bar per Mark's refinement — the solo interview is the product on
+limited-table footing):** one parroting probe and one pushback probe
+(the S5.6 classes), one over-settling press, one re-gloss/exact-form
+check (FLAG-034's tic). Ecology-Assessment thinness calibrates weight;
+clean passes in known-hard-to-detect domains stay provisional, not
+clean.
 
-**One live Deep Interview against the REAL deployed site** (the sweep
-pattern, ~$1.25–1.80): 3 genuine rounds, follow-ups written off the
-actual prior answer — fundamentals (direct answers, no truncation,
-cross-round memory) plus citation grounding inspected per turn. This is
-also the deploy verification (Phase C step 7) — one spend, two checks.
+**One EXTENDED live Deep Interview against the REAL deployed site**
+(~$3–4 at current pricing): 6–8 genuine rounds, follow-ups written off
+the actual prior answer — long enough that sustained-length dynamics get
+a real test, since that is where interview dynamics actually fail
+(FLAG-018's false-referent openers and FLAG-037's dilution family both
+surfaced only under sustained context, never in short exchanges). Graded
+on: direct-answer opening every round; genuine cross-round memory (late
+rounds concretely reusing early material, not re-explaining);
+substance-driven register variation; no truncation and clean
+length-ceiling behavior; no re-gloss or false-referent openers; citation
+grounding inspected per turn. This is also the deploy verification
+(Phase C step 7) — one spend, two checks.
 
 **What lean validation honestly gives up, declared in every freeze
 package, never silent:** (1) the second independent trial — single-trial
 means generation-variance issues can slip (the Chloe "who is Jesus" catch
 was exactly a variance draw); the standing mitigation is the cheap live
-re-probe pattern the moment any user report lands. (2) Live-pressed table
-dynamics (dominance, convergence, ending-not-read-back under real
-cross-world pressure) — the B-7a pairing disciplines are still AUTHORED
-in full; they are just not live-pressed until the table returns. A world
-frozen lean is declared "content-frozen; table-dynamics deferred" in its
-freeze declaration. (3) This is a recorded project-lead deviation from CF
-V7.4's own two-trial Validation Protocol Rigor text — reconciling the
-Framework wording is on the coach-thread list (Appendix C).
+re-probe pattern the moment any user report lands. (2) Live-pressed
+MULTI-REPRESENTATIVE table dynamics ONLY (dominance, convergence,
+ending-not-read-back under real cross-world pressure) — interview
+dynamics are IN the bar, not given up; the B-7a pairing disciplines are
+still AUTHORED in full, just not live-pressed until the table returns. A
+world frozen lean is declared "content-and-interview-frozen;
+table-dynamics deferred" in its freeze declaration. (3) This is a
+recorded project-lead deviation from CF V7.4's own two-trial Validation
+Protocol Rigor text — reconciling the Framework wording is on the
+coach-thread list (Appendix C).
 
 **The loop discipline ("loop until dry") — unchanged:** every FAIL gets
 root-caused (Fable diagnosis per the routing) → fixed record-derived →

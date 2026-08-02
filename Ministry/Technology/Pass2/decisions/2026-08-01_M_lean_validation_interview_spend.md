@@ -6,6 +6,16 @@ credits at this point. we are putting the multi-representative table on
 limited use to manage expenses, we can work on the conversation dynamics
 later, we need the right things said."
 
+**Refined same day, his words:** "we need the conversation dynamics for
+interviews, but not as much on multi-representative table dynamics at
+this point." So the freeze bar is content accuracy AND
+single-representative interview dynamics (parroting, pushback,
+over-settling, re-gloss, cross-round memory, register, ceiling behavior
+— pressed by an extended 6–8-round live interview plus targeted probes);
+ONLY multi-representative table dynamics are deferred. Freeze
+declarations read "content-and-interview-frozen; table-dynamics
+deferred."
+
 **Policy, as recorded into the Record-Native World Build Process V1.0
 (§5) and its launch prompt:**
 
