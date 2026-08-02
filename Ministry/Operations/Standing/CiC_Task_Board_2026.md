@@ -885,16 +885,27 @@ check of the real Living Table build in a running conversation — see LT-1.
       if the exact mapping ever matters. **3 remain: world 7–9**, now slid forward to
       start 2026-08-03 instead of waiting for 2026-08-19 (the schedule is running ahead,
       not behind). Gantt tasks 202/203 marked complete, 204–206 rescheduled to match.
-- [ ] **201 — Guided starters: ALL 4 WORLDS DRAFTED 2026-07-16 (75%)** — pulled 3 weeks
-      left. `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic),
-      `Guided_Starters_V0_1_DRAFT.md` (Syriac), `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
-      (Desert), `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) — each in its world
-      folder, each with builder grounding-flags for your review.
-      **UPDATE 2026-08-02: #402's second gate (role selection / RM-10 / Increment 2)
-      dropped, same call as #102's** — general-voice-only means there's no selector for
-      a question-serving screen to wait on. #402 now gates on this content review alone:
-      Mark's review of the 4 drafted worlds' guided-starter content is the only thing
-      left blocking Increment 3.
+- [ ] **201 — Guided starters: CORRECTION 2026-08-02, "ALL 4 WORLDS DRAFTED (75%)" is
+      wrong — checked directly against the repo, not assumed.** Only 2 of the 4 claimed
+      files actually exist: `World-Builds/Desert-Monasticism/CiC_W3_Guided_Starters_V0_1_DRAFT.md`
+      (Desert — matches the original claim) and
+      `World-Builds/Alexandria-Catechetical-School/Guided_Starters_V0_1_DRAFT.md` — **but
+      this board had that file labeled "Syriac"; it's actually sitting in the Alexandria
+      folder**, either mislabeled on this board or the wrong file entirely. **Two files
+      claimed drafted 2026-07-16 don't exist anywhere in the repo at all**:
+      `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic) and
+      `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) — searched the full repo tree,
+      not just the expected folder. Real status: **2 of 4 worlds have drafted content
+      to review (Desert, and whichever world the Alexandria-folder file actually
+      belongs to); Post-Apostolic and Hieronymian guided-starter content either was
+      never drafted or doesn't exist where this board says it does.** Original
+      2026-07-16 entry not deleted, corrected in place per this board's own convention
+      — original claim was wrong, not superseded by later work.
+      **#402's second gate (role selection / RM-10 / Increment 2) dropped 2026-08-02,
+      same call as #102's** — general-voice-only means there's no selector for a
+      question-serving screen to wait on. #402 now gates on this content review alone,
+      and that review can only start on the 2 files that actually exist — the other 2
+      need to be drafted (or located) before Increment 3 can fully clear.
 - [ ] **NEW: outreach one-pagers DRAFTED 2026-07-16** — church-fund, world-sponsorship
       ($3,500), Wabash pilot (all in Ministry/Funding, awaiting markup).
 - [ ] **NEW 2026-07-22 — Fill in the Hope Over Crisis / LDI China specifics** in the
