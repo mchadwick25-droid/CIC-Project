@@ -366,6 +366,37 @@ solved silently in the pipeline.
 
 ### 3.4 Two different matching problems — being precise, per the launch prompt's own ask
 
+**Correction, 2026-08-02 (System Hub, at Mark's direct request — the section below is left
+intact as a record of what was recommended and why at the time; it no longer describes the
+decided direction).** This section's core conclusion — "do not build inference-based serving
+matching, at all" — is **rescinded**. Mark, in the Funding Strategy thread, on being shown the
+option this section treats as a real risk to avoid: *"that is exactly what we need."*
+Inference-based (semantic) matching for Problem B is now the live, endorsed direction, not a
+ruled-out one. Two things below this correction are superseded along with the headline
+recommendation, not just the recommendation itself: the "explicit tap = signal" framing in
+Problem B's own text, and the tap-confirm "did you mean" suggestion offered afterward as "a real,
+separable design option" — the decided shape is **hidden auto-serve**, no tap-confirm step and no
+participant-visible indication a match occurred at all, which is a stronger version of inference-
+based serving than either the old recommendation or its own proposed compromise anticipated.
+
+**What's actually decided, for anyone building from this document instead of the correction:**
+hidden auto-serve; pre-generated response variations (~5 per canonical answer, generated once
+offline, never live-rephrased) under a **re-word-never-re-content guardrail** — every variation
+must pass the same citation/entailment check used elsewhere, with mandatory human review of a
+sample before going live (this project's own RM-8 testing, 2026-07-22, found register-invariance
+not yet reliable — 3 of 5 probes failed on content-invariance — so this isn't a formality); a
+conservative, high-confidence-only launch threshold as the actual safety mechanism, loosened later
+from real data; and full silent match logging (question asked, entry matched, confidence score,
+variation served) on every decision regardless of UI state. **Validation path decided:** the real
+pilot, not a separate offline calibration study first — the study's threshold-calibration and
+blind tone-comparison test designs stay available as a fallback if pilot logging shows a real
+mismatch pattern, not as a launch gate. Full detail: `Ministry/Features/Funding-Strategy/
+Decision-Log.md`, 2026-08-02 entries ("Mark rescinds..." and the build-scope dispatch entry
+after it); build recipe: `Ministry/Operations/Standing/Launch-Prompts/
+CiC_Cost_Reduction_Build_Scope_2026-08-02.md`, Answer Bank redesign item.
+
+---
+
 **Problem A — clustering PAST questions to decide what to add.** This is all of §3.1.
 It is allowed to use inference freely (embeddings, LLM judgment) because **its output is
 never served directly** — it only ever produces a *review candidate* that a human must
@@ -397,6 +428,13 @@ separable design option, not required for the core mechanism, and left as Mark's
 items 1 or 2's safety properties.
 
 ### 3.5 Interaction with SH-11's "never serve a paraphrase" guarantee — the resolution
+
+**Correction, 2026-08-02 (System Hub):** this section states it is "the hinge the rest of this
+section depends on" — that hinge is §3.4's now-rescinded recommendation (see the correction
+note there). With hidden auto-serve decided, an entry can be served as a system-generated
+variation rather than verbatim, and without a tap-confirm step to make the signal explicit —
+both premises this section's resolution rests on no longer hold as stated. Left intact below as
+history, not current guidance; see §3.4's correction for what actually governs now.
 
 Stated plainly, since it is the hinge the rest of this section depends on: **every
 promoted entry gets its own new, human-approved exact question string at promotion
@@ -558,7 +596,11 @@ one small now-task named.**
   (§3.3).
 - **Item 2 serving-side resolution:** promoted entries get a fresh, human-approved
   canonical question string, served only by exact tap — SH-11's guarantee preserved
-  unchanged, not reinterpreted (§3.4–3.5).
+  unchanged, not reinterpreted (§3.4–3.5). **Superseded 2026-08-02 — see the correction
+  notes at §3.4/§3.5.** Exact-tap-only is no longer the decided mechanism; Mark rescinded
+  it in favor of hidden auto-serve inference-based matching. Not "ready" under this line's
+  original meaning — the real ready/not-ready state now lives in the build-scope dispatch
+  cited at §3.4.
 - **Item 3:** deferred, with explicit, checkable revisit criteria and an honestly
   incomplete bounded-version sketch named but not recommended (§4.3).
 - **Sequencing:** item 1 now, item 2 design-now/build-post-pilot with a named small
