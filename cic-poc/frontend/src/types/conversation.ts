@@ -164,3 +164,51 @@ export interface RepositoryRecordEntry {
   level2?: PlainExplanation;
   level3: Level3Face;
 }
+
+// Guided Starters - "Don't know what to ask?" content, one file per seated
+// world (see cic-poc/backend/scripts/build_guided_starters_json.py and
+// World-Builds/<world>/*Guided_Starters_V0_1_DRAFT.md, the grounded source).
+// Four depth tiers per world; the first three are walk-style entries, the
+// last (honest_limits) is question/answer pairs with no follow-ups.
+export interface GuidedStarterEntry {
+  topic: string;
+  why: string;
+  citations: string[];
+  opening_question: string;
+  follow_ups: string[];
+}
+
+export interface GuidedStarterLimitEntry {
+  question: string;
+  answer: string;
+  citations: string[];
+}
+
+export type GuidedStarterTierId =
+  | 'first_visit'
+  | 'going_deeper'
+  | 'for_the_wrestling'
+  | 'honest_limits';
+
+export interface GuidedStarterTier {
+  tier_id: GuidedStarterTierId;
+  tier_title: string;
+  entries: GuidedStarterEntry[] | GuidedStarterLimitEntry[];
+}
+
+export interface GuidedStarterWorld {
+  world_id: string;
+  source_file: string;
+  title: string;
+  status: string;
+  world: string;
+  purpose: string;
+  grounding: string;
+  tiers: GuidedStarterTier[];
+}
+
+export interface GuidedStartersData {
+  $schema_version: string;
+  name: string;
+  worlds: GuidedStarterWorld[];
+}
