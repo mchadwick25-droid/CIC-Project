@@ -906,6 +906,15 @@ check of the real Living Table build in a running conversation — see LT-1.
       question-serving screen to wait on. #402 now gates on this content review alone,
       and that review can only start on the 2 files that actually exist — the other 2
       need to be drafted (or located) before Increment 3 can fully clear.
+      **UPDATE 2026-08-02 (later): the other 2 drafted, for real, at Mark's direct
+      request** — `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic) and
+      `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) now exist at the exact paths
+      this board originally claimed, each grounded in that world's own build documents
+      (citations spot-checked against source, nothing invented) and matching the
+      Desert/Alexandria format. **Genuinely all 4 worlds now have drafted content
+      to review** — the "ALL 4 WORLDS DRAFTED" claim this correction retracted above
+      is, as of this update, actually true. Awaiting Mark's review of all 4; #201 not
+      marked complete until he's done that.
 - [ ] **NEW: outreach one-pagers DRAFTED 2026-07-16** — church-fund, world-sponsorship
       ($3,500), Wabash pilot (all in Ministry/Funding, awaiting markup).
 - [ ] **NEW 2026-07-22 — Fill in the Hope Over Crisis / LDI China specifics** in the
