@@ -1,7 +1,7 @@
 # CiC Task Board — Acceleration Jul–Dec 2026
 
 **How this works:** This board is the day-to-day view of
-`Ministry/Operations/CiC_Acceleration_Gantt_2026.gan` (open that in GanttProject —
+`Ministry/Operations/Standing/CiC_Acceleration_Gantt_2026.gan` (open that in GanttProject —
 free, ganttproject.biz). Task IDs match the Gantt file. **DO NOW** = every
 predecessor is done (or it never had one) — you can work on these today, in priority
 order. When something finishes: move it to DONE here, set it complete in
@@ -207,6 +207,11 @@ check of the real Living Table build in a running conversation — see LT-1.
       claims → voice → facilitation guidance → live chunk swap → blind-graded freeze
       battery → Table Readiness Round), each closed with its own signed freeze declaration
       (`Ministry/Technology/Pass2/gates/S6.2_<WORLD>_FREEZE_DECLARATION.md`).
+      **CORRECTION 2026-08-02: true for 5 of 6, not all 6** — SYR, HAL, ALX, PAHC, and IJC
+      each have that exact file; **Desert/Papnoute does not** — its freeze declaration
+      exists only as inline prose in `BUILD_STATE.md` §11-C, not its own file. The
+      underlying fact (Desert was frozen, 2026-07-27) is real; only the "each has its
+      own file" pattern claim was wrong. Found by the #201-triggered audit.
       **Real regressions found and fixed along the way, not just a clean migration story:**
       per-world prompt gaps caught by cold adversarial probing (a naming-collision capture
       on Hieronymian then PAHC; a post-window "your vindication" framing that defeated IJC's
@@ -490,7 +495,17 @@ check of the real Living Table build in a running conversation — see LT-1.
       FAISS indices + torch + sentence-transformers warm simultaneously). Live-verified
       end-to-end: a real question to Chloe correctly triggered the Facilitator's
       anachronism-bridge (flagging "purgatory" as later vocabulary) then a full
-      in-character response, completing in well under a minute. AWS/Bedrock
+      in-character response, completing in well under a minute.
+      ⚠ **CORRECTION 2026-08-02: `pilot.html`, `pilot-thank-you.html`, and
+      `refer-a-friend.html` — all three named as live in this entry and below (see
+      also 2026-07-20's HELD note) — were retired in commit `93601ef`, "Retire
+      pilot.html, pilot-thank-you.html, and refer-a-friend.html," 2026-07-25.** Every
+      mention of these three files as existing/live in this board is accurate for its
+      own dated moment (all written 2026-07-20 to 2026-07-23, before the retirement)
+      but stale as of today — none of the three exists in the repo now. Found during
+      a full audit triggered by the #201 mislabeling incident; not re-verified what
+      (if anything) replaced their function, since that was outside this audit's
+      scope — flagging the fact of retirement, not its consequences. AWS/Bedrock
       reconsidered mid-session (Mark's son offered free setup + AWS credits) and
       explicitly declined for now — Bedrock is an LLM-API alternative, not a compute
       host, so it wouldn't have fixed the memory bugs either way; direct API + Render
@@ -683,7 +698,10 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **RM-7 — Review the Representative Modes demonstration.** React-to-first piece —
       the Chloe four-mode demo artifact
       (https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e) and Design
-      Spec §6 (`Ministry/Technology/Representative-Modes/CiC_Representative_Modes_Design_Spec_V0_1.md`).
+      Spec §6 (`Ministry/Features/Representative-Modes/Design/CiC_Representative_Modes_Design_Spec_V0_1.md`
+      — corrected 2026-08-02, the old `Ministry/Technology/Representative-Modes/` path
+      is stale from before the 2026-07-20 filing reorg that retired `Ministry/Technology/`
+      for feature docs; found by the #201-triggered audit).
       No downstream gate depends on this specifically, but RM-8 is recommended to wait
       for it.
 - [x] **DONE 2026-07-20 — TR-4: L4 Tour Manifest Template + review-cycle definition
@@ -1010,9 +1028,13 @@ anywhere in `cic-poc`** (frontend or backend) — this is a documentation/tracki
 descope only, zero code removed. The one built artifact (a standalone Chloe tour HTML
 demo, `Ministry/Features/Hosted-Tour/Design/`) was never integrated into `cic-poc` or
 the live site, so it needs no code change, just this status note. **Unrelated, not
-touched by this descope:** `cic-website/world-map.html`'s own "▶ Watch the flow"
+touched by this descope:** `cic-website/world-atlas.html`'s own "▶ Watch the flow"
 self-guided walkthrough of the map itself is a separate, already-shipped feature that
-happens to share the word "tour" — do not confuse it with the items below. TR-1
+happens to share the word "tour" — do not confuse it with the items below.
+**CORRECTION 2026-08-02:** this entry previously named the file `world-map.html`,
+which doesn't exist in the repo — the real file is `world-atlas.html`, confirmed
+directly. Same failure class as #201: real feature, wrong filename, never checked
+until this audit. TR-1
 through TR-5 are complete and shelved (see their DONE entries above/below, unchanged);
 everything below was not yet started when the descope landed.
 
@@ -1061,8 +1083,9 @@ everything below was not yet started when the descope landed.
       issue was also found and fixed: invented first-person Representative dialogue in
       the graphics mockups, replaced everywhere with explicitly-labeled placeholder text
       (a standing rule now on record against this recurring). **Produced:**
-      `Ministry/Operations/CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md` — the
-      dependency-ordered path from here to real hosting and Prototype Testing 1,
+      `Ministry/Operations/Audits/CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md`
+      (path corrected 2026-08-02, missing `/Audits/`; found by the #201-triggered
+      audit) — the dependency-ordered path from here to real hosting and Prototype Testing 1,
       separating what's Mark's to decide (stand up hosting — since revised from Bedrock
       to direct-API, per System Hub's own same-day decision — Battery A go-ahead, the 2
       Guided-Questions content calls, the Chloe tour voice read, Section 10, Gantt IDs)
