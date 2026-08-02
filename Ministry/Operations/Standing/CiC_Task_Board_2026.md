@@ -178,6 +178,17 @@ check of the real Living Table build in a running conversation — see LT-1.
         thread's job, not built here. Worth doing for the quality/
         consistency win on curriculum-path traffic; go in with the real cost expectation,
         not the inflated one.
+        **SEQUENCING, Mark's direct call 2026-08-02: this is explicitly after the
+        Atlas/World-Map v3 build, not before it.** Not blocked technically — SH-11 could
+        be picked up any time — deliberately sequenced behind Atlas/World-Map by Mark's
+        own priority call. **Separately, and not to be conflated with SH-11: the "I don't
+        know what to ask?" participant-facing feature (Increment 3 / #402) is the current
+        priority, active now, and is NOT a cost-savings mechanism** — it serves the rich
+        per-world Guided Starters content (`World-Builds/<world>/*Guided_Starters_V0_1_DRAFT.md`,
+        all 6 now drafted, see #201) as onboarding/navigation, unrelated to SH-11's
+        precomputed-answer caching. The two features share the same underlying "closed
+        question set" shape, which is why they were easy to conflate, but they solve
+        different problems on different timelines.
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
