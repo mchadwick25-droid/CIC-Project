@@ -229,6 +229,20 @@ check of the real Living Table build in a running conversation — see LT-1.
         precomputed-answer caching. The two features share the same underlying "closed
         question set" shape, which is why they were easy to conflate, but they solve
         different problems on different timelines.
+        **Process decision, Mark's direct call 2026-08-02 (later still):** once the Atlas
+        v3 Fable build (plan → design plan → build blueprint → build, per its own
+        divergent/groan-zone/convergent process) reaches completion, the **same
+        plan/design → blueprint → build process, run in Fable,** gets applied to two more
+        workstreams — **cost reduction** (the cache TTL fix, regeneration bug fix, and
+        Answer Bank redesign currently sitting as a direct-to-build dispatch,
+        `Ministry/Operations/Standing/Launch-Prompts/
+        CiC_Cost_Reduction_Build_Scope_2026-08-02.md`) and **building the question/answer
+        repository** (this is SH-11 itself). **Not yet started** — Mark's own words frame
+        this as "when the atlas fable build is completed then we will look at" it, not a
+        now-task. Worth noting for whoever picks this up: the cost-reduction build-scope
+        dispatch as currently written assumes direct implementation by "the build thread,"
+        not a Fable plan/blueprint pass first — that framing may need revisiting once this
+        actually starts, rather than assumed still current.
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
