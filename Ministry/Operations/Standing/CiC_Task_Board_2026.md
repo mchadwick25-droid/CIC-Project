@@ -153,6 +153,40 @@ check of the real Living Table build in a running conversation — see LT-1.
         147). `Ministry/Operations/Standing/Launch-Prompts/
         CiC_Atlas_WorldMap_V3_Thread_Launch_2026-08-01.md`. Full account: Decision Log,
         2026-08-01 (later still).
+      - **SH-4/SH-6 — Pass 2 (2026-08-02): design CONVERGED with Mark, planning stage
+        closed, independently re-verified before being logged here.** Ran as a real
+        Kaner-model divergent → groan-zone → convergent session (ten interactive rounds
+        against working mockups, Mark's own words quoted throughout the Decision Log,
+        including a genuine "not at convergence yet" correction mid-process) — not
+        self-administered. **Resolves three of the five items left open after Pass 1:**
+        Prototype C's fate (its box-and-tail grammar kept and carried forward into the
+        converged design; its render approach otherwise superseded), the "Choose a
+        Tradition" naming collision, and the Tier A/Tier B scope contradiction — all
+        three moot under Mark's "one atlas, done right" ruling, which replaces Story +
+        Wall Chart + Research Table as three parallel surfaces with a single page.
+        **Two standing planning documents produced and Approved by Mark**, verified
+        present on the branch and read in full: `CiC_Atlas_V3_Rebuild_Design_Plan_V1_0.md`
+        (the converged design's decided properties, Mark's six improvement areas mapped
+        to workstreams, three scope rulings, methodology grounding, autonomy boundaries)
+        and `CiC_Atlas_V3_Build_Blueprint_V1_0.md` (17-increment execution program
+        across two tracks — Data & Methodology, Product — with per-increment recipes,
+        every Mark-gate enumerated, and a live status column that is the build's own
+        ground truth for future sessions). **First build increment (B1, mockup only —
+        nothing merged to the live site) independently rendered and confirmed**: a
+        4-icon status system (house/plans/question/closed-door) applied across all 178
+        census entries (verified: 178 icons + 4 legend icons = 182 total icon uses) plus
+        a page-bottom words glossary, both light and dark, zero JS errors.
+        `Design/CiC_Atlas_V3_R11_Icons_Glossary_2026-08-02.html`. Also verified: the
+        `continuesAs` census field (11 identity-succession pairs, e.g. Syriac
+        Edessa-Nisibis → Persian Church of the East, all 11 targets resolve to real
+        entries, no dangling references) is real and Mark-confirmed per-pair in the
+        Decision Log. **New open items from this pass** (non-blocking, queued at their
+        blueprint gates): Persian Church of the East start year (c. 300 vs. 410),
+        Catholic/Orthodox succession-spine pairs walked one at a time, the one atlas's
+        public name, and a new methodology work item — Step 0 Criterion 2 re-look +
+        remap of 22 founder-prophet-marked entries (Construction Framework side, owner
+        TBD, not this thread's job). Full account: Decision Log, 2026-08-02 (Pass 2
+        entries, six of them) and `Sync-Report_2026-08-02_Atlas-v3-Pass-2.md`.
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
