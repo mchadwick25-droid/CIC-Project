@@ -4711,3 +4711,19 @@ Both follow-ups: `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sw
 - **Completeness rigor:** the only external rigor check ever run against this census (`Design/CiC_World_Atlas_External_Review_V0_1.md`) checked 147 entries, not the current 178 — flagged as worth a fresh pass if "every identified tradition" is meant as a hard, checked claim rather than a reasonable-effort one.
 
 **Launch prompt:** `Ministry/Operations/Standing/Launch-Prompts/CiC_Atlas_WorldMap_V3_Thread_Launch_2026-08-01.md`, published as a rendered Artifact per the standing style preference. Task Board entry added alongside the correction above.
+
+---
+
+## 2026-08-02 (later still) — Article 31 external scholarly review given a firm placement: Year 2 of a 5-year timeline, not an open-ended "whenever affordable"
+
+**Refines, doesn't reverse, the 2026-07-21 decision above.** That entry reworded Article 31 from a go-live dependency to "aspirational... held until affordable, financial reality, not a priority drop" — real, but undated. Mark's direction today gives it a specific place: **"we are setting this as a year 2 project... the cost is to high to do this right. Article 31 is reset as an aspirational goal in year two of the 5 year timeline."** Same reasoning as 07-21 (the honest cost of doing external review properly — a real honorarium, a second reviewer, staged pacing over weeks — doesn't fit the current budget), now with an actual timeframe attached rather than an indefinite hold.
+
+**No 5-year timeline document exists yet in this repo** (checked directly — no file matching that description anywhere). This entry is the only place the Year-2 placement is recorded until Mark decides whether he wants a dedicated multi-year roadmap artifact or whether the Task Board/Gantt's own dated entries are enough. Flagged to him directly, not assumed either way.
+
+**What this pauses, concretely:** the reviewer brief's opening personal block (the one piece only Mark can write — who the reviewer is, the relationship, the memory that makes them the one) was in progress this same session when this direction landed. That work stops here, not because it was wrong to start, but because the whole reviewer-engagement thread it feeds is now a Year-2 item, not a near-term one.
+
+**Updated to match, this pass:**
+- Task Board's top-of-file "Hard calendar gates" line — `reviewers engaged Sept 1` removed; it was never dropped after 07-21's reword, just missed.
+- Task Board #301 (reviewer package) and the #302/#303/#304/#305 chain (TEDS outreach, second reviewer outreach, the Sept 1 gate, Round 1 review) — reworded from "whenever affordable" to explicit Year 2, dependency chain otherwise unchanged since none of it ever gated launch.
+- `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` — status line updated to name Year 2 directly rather than sit as an undated draft that reads like active work.
+- `CiC_Ministry_Proposal_Packet_V0_1_DRAFT.docx` paragraph 97 — this was flagged stale at the 07-21 reword itself ("says external scholarly review is 'budgeted, not aspirational' — stale as of yesterday's Article 31 reframe... flagged here so it isn't lost") and never actually fixed. Fixed now, twelve days late, found only because this pass went looking for every downstream reference rather than just the ones already on a list.

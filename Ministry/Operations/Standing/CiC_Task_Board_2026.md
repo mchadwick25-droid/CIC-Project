@@ -10,7 +10,9 @@ both files with a new ID and its dependencies. Ask Claude to resync both files a
 time — say what's done and what's new.
 
 **Funding gates (fixed):** $7.5K by Sept 1 · ~$25K by Nov 1 · $35–45K by Dec 31.
-**Hard calendar gates:** reviewers engaged Sept 1 · entity filed ~Sept 15 · CCSA ~Nov 15 · Lane B go/no-go Dec 15.
+**Hard calendar gates:** entity filed ~Sept 15 · CCSA ~Nov 15 · Lane B go/no-go Dec 15.
+(*"reviewers engaged Sept 1" removed 2026-08-02 — Article 31 is a Year 2 item now, not a
+near-term gate; see Decision Log 2026-08-02.*)
 
 _Last synced: 2026-07-19, later still (⚠ CORRECTION: this board previously carried
 "re-engage Bedrock" as the live infra item — stale. `CiC_System_Hub_Decision_Log.md`
@@ -650,6 +652,13 @@ check of the real Living Table build in a running conversation — see LT-1.
       Relational register, endorsement door open, 4–6-week staged pacing, world brief
       enclosed. Your part, whenever affordable: two personal blocks + honorarium figure →
       send. Unblocks #302/#303/#306, none of which gate launch either.
+      **UPDATE 2026-08-02, Mark's direct call: given a firm placement, not just an open
+      hold — "Article 31 is reset as an aspirational goal in year two of the 5 year
+      timeline," cost of doing it right doesn't fit now.** The closing personal block is
+      already written (2026-08-01); the opening block was in progress this same session
+      and is now paused, not abandoned — pick back up when Year 2 planning starts. See
+      Decision Log 2026-08-02 for the full reasoning and every downstream doc this
+      touched.
 - [ ] **510 — Church-designated fund conversation** with the pastor. Unblocks all
       tax-deductible Ring 1 giving.
 - [ ] **601 — Praxis interest form.** Five minutes. Calendar April 2027 while at it.
@@ -905,8 +914,9 @@ check of the real Living Table build in a running conversation — see LT-1.
       the RUN 2026-07-22 entry's 2026-08-02 update above), and Increment 2 (role selection
       UI) has nothing to select between under general-voice-only scope. #102 now gates on
       the remaining items only.
-- [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
-      existing; his August matters.
+- [ ] **302 — TEDS professor outreach** (after 301). **UPDATE 2026-08-02: Year 2 item now,
+      same call as #301** — "send within days" and "his August matters" are stale urgency
+      language from before Article 31 got its Year-2 placement; no longer time-pressured.
 - [ ] **202–206 — Ancient worlds 5–9, 2 of 5 now DONE per Mark's direct report
       (2026-08-01): 6 of 9 total Ancient-world (Eras 1-2, first 4 centuries) builds
       complete.** Which specific worlds fill the "world 5" and "world 6" slots isn't
@@ -978,8 +988,8 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 704 | Landing page + interest list | 702 |
 | 501 | Ring 1 ask to 15–20 names | 103, 510, 702 |
 | 502 | GATE $7.5K (Sept 1) | 501 |
-| 303 | Second reviewer outreach | 301 (start Aug 17) |
-| 304 | GATE reviewers engaged (Sept 1) | 302, 303 |
+| 303 | Second reviewer outreach | 301 -- Year 2 item, 2026-08-02 (dropped the "start Aug 17" date) |
+| 304 | GATE reviewers engaged -- Year 2 item, 2026-08-02 (dropped the Sept 1 date) | 302, 303 |
 | 305 | Round 1 holistic review | 304 |
 | 208 | Reformation selection + LT confirmations | 206 |
 | 209–215 | Reformation worlds 1–7 | 208, sequential |
