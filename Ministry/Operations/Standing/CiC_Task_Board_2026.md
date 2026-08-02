@@ -135,7 +135,9 @@ check of the real Living Table build in a running conversation — see LT-1.
         grid-timeline design that has never been shown to Mark or logged in that thread's
         own Decision Log** — committed as a safety measure only, per its own commit
         message). IC-10 (the approved 10-era ground palette) is still not built into the
-        live atlas despite being approved 2026-07-18. "Choose a Tradition" is a **name
+        live atlas despite being approved 2026-07-18 **[UPDATE 2026-08-02: done — see the
+        IC-10 entry above, independently re-verified against the repo].** "Choose a
+        Tradition" is a **name
         collision** — it already labels the plain tile-grid heading in the live
         `cic-poc` app, a different thing from Prototype B's redesigned search-first
         surface. The Gantt has a task for the Tier A merge (Increment 4, id 463) but
@@ -972,10 +974,31 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **Increment 2 — Role selection UI** (after Increment 1 build lands). Gated on
       RM-8/Battery A passing (the rename is done — executed in code 2026-07-18,
       commit `9774447`, no longer a blocker).
-- [ ] **IC-10 — Atlas adopts the ten era grounds** (World Orientation Map thread). Replace the
-      atlas's single uniform ground with the approved per-era palette so the icon tables and the
-      atlas read as one system; values ready in the icon spec §7 (Era 1 `#EFDDB3`, Era 2
-      `#EDDEB9`, … → Global-Church pale vellum). Owned by the World-Map thread; unblocked.
+- [x] **IC-10 — Atlas adopts the ten era grounds. DONE 2026-08-02**, Atlas v3 thread
+      (branch `claude/christian-traditions-atlas-v3-x2egp6`, commits `1d5ac65`/`d4e921f`).
+      **Independently re-verified against the actual repo and live-rendered pages before being
+      marked done here — not taken on the builder's self-report.** Both `atlas.html` (Story) and
+      `world-atlas.html` (Wall Chart + Research Table) now read `ground`/`groundDark` per era
+      straight from the census (`world-census.json` gained the `groundDark` field this pass; no
+      hex value is duplicated into either page) and apply it correctly in both light and dark —
+      confirmed by rendering all three surfaces in a headless browser in both color schemes and
+      reading the computed background colors, which matched the spec's hex values exactly (e.g.
+      Era 1 `#EFDDB3` light / `#241A0C` dark). Same pass also closed two real defects found along
+      the way: (1) `atlas.html`'s `launch()` didn't carry the same `CENSUS_ID_FIX` map
+      `index.html` already had, so hand-off for the Imperial-Juridical world silently dropped its
+      pre-selection — fixed, confirmed by inspecting the generated hand-off URL; (2)
+      `world-atlas.html`'s Wall Chart edges were a second, hand-maintained array that had already
+      drifted 4 of 17 lines from the census's own reviewed `edges` field — the array is now
+      derived from the census at init instead of hand-copied, confirmed by diffing old vs. new
+      edge sets (exact match to the builder's claim: dropped I.3→II.5, I.3→II.1, I.2→II.1,
+      IV.8→VI.2; gained I.3→III.6, I.3→III.3, I.2→III.3, IV.8→VI.10) and by opening a tradition in
+      a live render and reading the drawn edges off the page. Full account, including the
+      confidence-level dash-styling code checked for regression (none — the dropped case was
+      already dead code): `Ministry/Features/Atlas-World-Map/Decision-Log.md`, 2026-08-02, and
+      `Ministry/Features/Atlas-World-Map/Sync-Report_2026-08-02_Atlas-v3-Pass-1.md`. **Remaining
+      v3 work (the actual redesign — Wall Chart mechanic, Prototype C verdict, "Choose a
+      Tradition" naming collision, Tier A/B scope) is explicitly gated on Mark's own decisions,
+      not on further building** — see the SH-4/SH-6 entry above and the Decision Log.
 
 ## 🔵 BLOCKED (waiting on a predecessor — don't start these)
 

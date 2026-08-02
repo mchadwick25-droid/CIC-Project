@@ -184,7 +184,7 @@ Decision Log, 2026-08-01 (later still).]]></description>
                 <depend id="104" type="2" difference="0" hardness="Rubber"/>
                 <depend id="463" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="463" name="Increment 4: World Map Tier A merge (front-end thread; never before/during Prototype 1)" color="#9966cc" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
+            <task id="463" name="Increment 4: World Map Tier A merge (front-end thread; never before/during Prototype 1) [note 2026-08-02: standalone-site prep (IC-10 palette + 2 defect fixes) DONE on cic-website, verified - see Task Board IC-10 + Decision Log; the merge itself below is still 0%, unstarted, gated on Mark's redesign-direction verdict]" color="#9966cc" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
                 <depend id="429" type="2" difference="0" hardness="Strong"/>
                 <depend id="452" type="2" difference="0" hardness="Strong"/>
             </task>
