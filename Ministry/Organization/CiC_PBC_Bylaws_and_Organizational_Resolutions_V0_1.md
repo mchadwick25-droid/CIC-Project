@@ -93,9 +93,12 @@ corporation, to serve until their successors are duly elected:
 **FURTHER RESOLVED**, that this action is taken pursuant to C.R.S. § 7-90-204 in lieu of an
 organizational meeting, and shall be filed with the records of the corporation.
 
-*(Signature: Mark Chadwick, Incorporator, dated July 21, 2026 — **confirmed as the actual
+*(Signature: Mark Chadwick, Incorporator, dated July 27, 2026 — **confirmed as the actual
 incorporation date.** Faithways Studio, Inc. was filed and accepted by the Colorado Secretary of
-State on July 21, 2026, Entity ID 20261874960, Transaction # 20261874960.)*
+State on July 27, 2026, Entity ID 20261918758, Transaction # 20261918758. Correction, 2026-07-27:
+an earlier filing attempt dated July 21, 2026, Entity ID 20261874960, never actually completed —
+no receipt was issued and the Secretary of State's office confirmed it never went through. This
+date and ID are the real, confirmed ones, verified by email receipt and public-record search.)*
 
 ### Step 2 — Action of the Board of Directors (Mark Chadwick and Susan Chadwick), in lieu of the first board meeting
 
@@ -157,7 +160,7 @@ both, absent a formal meeting.)*
 
 | | Item | Status |
 |---|---|---|
-| ✅ | **Date of incorporation** (Step 1) | Set to **July 21, 2026** — the planned date; update if the actual CO SOS filing lands on a different day once the two pending pre-filing items clear. |
+| ✅ | **Date of incorporation** (Step 1) | **Confirmed July 27, 2026**, Entity ID 20261918758 — real filing, verified by email receipt and public-record search (corrects an earlier stated date of July 21, 2026 / Entity ID 20261874960, a filing attempt that never actually completed). |
 | ✅ | **Consideration for the stock issuance** | Set to **cash — $20.00 each, $40.00 total** (changed from "services rendered" to avoid any IRC §83 fair-value dispute; amount chosen to be genuinely affordable while still real, non-zero consideration). |
 | ✅ | **Fiscal year end** | Set to **December 31**. |
 | ✅ | **Secretary** (Step 2) | Set to **Susan Chadwick, combined with Treasurer**. |

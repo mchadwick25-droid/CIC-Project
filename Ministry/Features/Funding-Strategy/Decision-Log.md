@@ -395,6 +395,400 @@ subscription tier's real value, both already flagged as open in the roadmap.
 
 ---
 
+## 2026-07-27 — Faithways Studio, Inc. actually incorporated (real this time); a stale wrong ID found spread across 11 files, correction dispatched
+
+**The entity is now genuinely real, confirmed two ways, not just an on-screen claim like the
+earlier failed attempt:** Entity ID 20261918758, Status "Good Standing," Form "DPC-PBC" (confirms
+the Public Benefit Corporation election itself was captured, not just a generic profit corp),
+Formation Date 07/27/2026 — verified via an actual email receipt and a public-record search.
+Everything this thread's own documents have said about "Faithways Studio, Inc., a Colorado Public
+Benefit Corporation" is now literally true, not aspirational.
+
+**What led here:** the prior registration attempt (Entity ID 20261874960) never actually
+completed — an on-screen verification with no receipt ever issued, later traced by the Secretary
+of State's office to a likely address mismatch. Mark refiled from scratch, working through it
+live with real-time guidance on each step of the Colorado online form, including catching before
+submission that the Article III/IV/V/VIII/IX content (the actual public-benefit purpose and the
+4/5-of-shares mission-lock protection) had no home in the standard form fields and needed to be
+uploaded as an "Additional Provisions" attachment — a real near-miss caught at the Filing Review
+step, not after submission.
+
+**A real, wider correction found and dispatched, not fixed inline:** the old, wrong ID had already
+spread into 11 files across the project — decision logs, the Task Board, Dashboard, both Gantt
+files, the website README, two launch-prompt files, and — the two that matter most — the PBC
+Bylaws/Organizational Resolutions and the IP Assignment Agreement, both real operative legal
+documents. Dispatch written and saved:
+`Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Entity_ID_Correction_2026-07-27.md`,
+reusing this project's established three-bucket convention (dated history gets an addendum, not a
+rewrite; live trackers get corrected directly; the two legal documents get real individual review
+for whether any operative date was set assuming the earlier, false incorporation actually
+happened — a sequencing question, not just a number swap). Not yet run as of this entry.
+
+**Next action:** none in this thread — the correction belongs to System Hub. Worth noting for
+this thread's own record: the foundational assumption underneath every document built here
+(the Business Roadmap, both research reports, the case-for-support draft) is now confirmed
+accurate, not provisional.
+
+---
+
+## 2026-07-27 (same day, continued) — The two real legal documents corrected directly; a genuine sequencing problem, not just a stale ID
+
+**Read both in full before touching anything, per the dispatch's own instruction not to blanket
+find-and-replace.** Both `CiC_PBC_Bylaws_and_Organizational_Resolutions_V0_1.md` and
+`CiC_PBC_IP_Assignment_Agreement_V0_1_DRAFT.md` turned out to have exactly the sequencing risk
+flagged as a possibility: both explicitly dated the corporation's own existence to July 21, 2026 /
+Entity ID 20261874960 — the filing that never completed. The Bylaws/Resolutions' Step 1 is Mark
+acting *as incorporator*, and Step 2 (board action) is the specific paragraph authorizing bank and
+Stripe account setup — both invalid if dated before the entity actually existed. The IP
+Assignment's entire effective-date clause was explicitly conditioned on that same false date.
+
+**Corrected in place, both with a dated correction note preserved (not silently erased) — Mark's
+confirmed go-ahead.** Both now read July 27, 2026, Entity ID 20261918758. Dispatch note updated to
+mark this bucket done, so System Hub doesn't duplicate the work when it runs the remaining 9-file
+correction.
+
+**Real next step, not a document-editing one:** confirm whether either document was already
+physically signed with the old, wrong date — if so, both need to be re-signed with the corrected
+date before being relied on for opening the bank/Stripe accounts, since that authorization lives
+in the Organizational Resolutions' Step 2 specifically. Answers this thread's own opening
+question this session: yes, fix and re-sign these two before bank setup — not all eleven files,
+just these two.
+
+**Next action:** Mark's own confirmation of signing status, then bank/Stripe setup can proceed.
+
+---
+
+## 2026-07-27 (same day, continued) — Both legal documents re-signed with the correct date and Entity ID; clear to open bank/Stripe accounts
+
+**Confirmed by Mark: both re-signed.** Clean, corrected PDFs generated (reportlab, verified by
+reading them back before sending) and signed fresh in Kdan PDF — Bylaws & Organizational
+Resolutions (Step 1 alone; Step 2 both Mark and Susan as Directors) and the IP Assignment
+Agreement (Mark, both as Assignor and as President for Faithways Studio, Inc.). Old signed copies
+based on the false July 21 filing were deleted rather than archived — no external party had relied
+on them yet, and the correction note already embedded in both documents' text is the record of
+what happened and why.
+
+**This fully answers the question that opened this whole detour:** yes to resigning these two
+specific documents, no to the other nine (narrative/tracking only, corrected via the separate
+System Hub dispatch, not signed instruments). Bank and Stripe account setup is now unblocked —
+Step 2 of the Organizational Resolutions is the actual authorization for both accounts, and it's
+now validly signed with a date the corporation actually existed.
+
+**Two small items worth knowing about, both already named in the resolutions just signed, not
+new:** the $40 total cash consideration for the shares ($20 each) still needs to actually change
+hands to make the issuance fully paid — natural to handle right alongside opening the new
+account. And the resolutions direct the President and Treasurer to send each shareholder a short
+written notice of the uncertificated share issuance, including the PBC disclosure required by
+C.R.S. § 7-101-505 — a real but small, self-serve step, not urgent.
+
+**Next action:** Mark's own — open the bank/Stripe accounts.
+
+---
+
+## 2026-07-27 (same day, continued) — Relay bank application walked through; "Church in Conversation" trade name (DBA) filed and paid, receipt received
+
+**Relay application:** walked through live, screen by screen, same pattern as the state filing —
+industry set to "Subscription and Membership," business description used Faithways Studio's own
+Article III purpose language ("to create safe spaces to explore faith and the story of Jesus,"
+Mark's own correct call, not the narrower product-description first suggested), both Mark and
+Susan set up as genuine co-owners (the reason Relay was picked over Novo in the first place, per
+this project's own prior decision). Colorado's public business search independently checked and
+confirmed showing Faithways Studio, Inc. in Good Standing before the application, clearing the
+index-lag issue that stalled the attempt before. EIN's July 21 issuance date checked and confirmed
+not a substantive problem — the application's actual content (name, address) matches reality; only
+Bylaws/Resolutions, IP Assignment, and Shareholder Agreement had the deeper structural dependency
+on the false date, already fixed.
+
+**Trade name filed, not just reserved.** Caught before it cost time: Mark was initially on the
+wrong CO SOS form (Statement of Transfer of Reserved Name, which only moves a name hold, not a
+real DBA registration). Correct form — Statement of Trade Name of a Reporting Entity, filed
+against Faithways Studio's own entity record — confirmed via live web search before proceeding,
+filled out, submitted, paid ($25), and receipt received. "Church in Conversation" is now a
+registered trade name of Faithways Studio, Inc.
+
+**One connected step still open, not done automatically by the state filing:** add "Church in
+Conversation" as a DBA on the Relay account itself, now that the trade name is real — the bank
+needs this separately from the state to allow checks/payments under that name. Confirmed
+structurally: a future second program could either operate directly under "Faithways Studio" with
+no new filing at all, or get its own separate trade name the same way, any time — nothing about
+today's filing limits that.
+
+**Next action:** add the DBA to the Relay account; otherwise this thread's real-world execution
+work (entity, EIN, three legal documents, bank, trade name) is now complete and consistent.
+
+---
+
+## 2026-07-27 (same day, continued) — Relay live; the $40 share purchase actually paid, shares now fully issued
+
+**Confirmed by Mark:** Relay account open, and the two $20 stock-purchase transfers (Mark and
+Susan) have cleared, $40 total. Per the Organizational Resolutions' own terms, receipt of this
+amount is what makes the 7,000,000 shares validly issued, fully paid, and non-assessable — not
+just documented, actually complete. Today's payment date is the real issuance date for IRC §1202
+holding-period purposes going forward.
+
+**One remaining connected step, already named in the signed resolutions, now live:** the
+President and Treasurer are directed to send each shareholder a short written notice of the
+uncertificated share issuance (C.R.S. § 7-106-207), including the PBC disclosure required by
+C.R.S. § 7-101-505, "within a reasonable time" after issuance — that clock starts now that payment
+has actually cleared. Offered to draft it.
+
+**Next action:** draft and send the shareholder notice; add the DBA to Relay (still open from the
+prior entry). Once both are done, the full real-world formation/funding execution chain this
+thread has walked through live is complete.
+
+---
+
+## 2026-07-27 (same day, continued) — Correction: the $40 transfers are pending, not cleared; notices held until they actually clear
+
+**Not yet final — flagged by Mark before anything got signed.** The two $20 transfers are the
+first ones on the brand-new Relay account, and first transfers commonly take a few days to
+process. The earlier entry's "the $40 has gone through" was premature. Same discipline as the
+incorporation-date lesson earlier in this thread: don't date or sign a document against an event
+that hasn't actually completed. Both notice drafts (and their PDFs) are held unsigned until the
+transfers actually clear; Mark will confirm the real clear date, and the notices get finalized
+with that date, not today's.
+
+**Next action:** wait for transfer confirmation, then finalize and sign both notices with the
+real date.
+
+---
+
+## 2026-07-27 (same day, continued) — Next: a Stripe integration on the website for three ask types
+
+**Mark wants to move forward on:** (1) the keep-it-open/pay-it-forward gesture — already fully
+designed in this thread (market-validated $10 one-time / $8 recurring, non-tipping terminology
+direction); (2) academic-review sponsorship — already named as part of the sponsorship family;
+(3) "resource material" — not yet defined in this thread, needs clarifying with Mark before
+scoping.
+
+**Real scope question, not yet resolved:** this thread's own launch brief set an explicit
+boundary — "no code changes to `cic-poc/` or `cic-website/` from this thread... building follows
+once a direction is actually confirmed, same gate every other major decision in this project has
+gone through." A direction is now genuinely confirmed (amounts, terminology posture, and
+principles are all real, decided work from this thread), which is exactly the trigger condition
+that boundary named for handoff — but whether that means dispatching to System Hub/a build
+thread, or building directly here, hasn't been decided. Flagged back to Mark rather than assumed.
+
+**Next action:** clarify "resource material," then decide build location (dispatch vs. direct).
+
+---
+
+## 2026-07-27 (same day, continued) — Updated technical cost study dispatched (Opus, background), grounded in the real codebase, not web research
+
+**Dispatched, not yet returned.** Mark wants the giving amounts re-examined against current real
+costs before building the Stripe integration — a real, grounded technical analysis, not another
+market-comparables pass. Scoped to four numbers: cost per transaction (one message turn, every
+model call that fires per turn), cost per conversation broken out by Living Table size (1, 2, 3
+Representatives), cost per hour, and current verified model pricing — all anchored against the
+real tested $1.25–1.50/hour figure as ground truth, with any bottom-up deviation from that range
+required to be explained, not smoothed over. Instructed to read the actual `cic-poc/backend/app/`
+code (config.py, graph/nodes.py, table_discourse.py, message_cap.py, usage_logging.py) rather than
+estimate generically, and to check for real logged usage data if `usage_logging.py` captures any.
+
+**Next action:** none until the agent returns. Closes with a recommendation on whether $10/$8 and
+the free-tier time-cap approach still hold against the real cost structure — a recommendation to
+react to, same discipline as every other research pass in this thread.
+
+---
+
+## 2026-07-30 — Cost study returned: `CiC_Cost_Study_Per_Transaction_V0_1.md` — the $1.25-1.50/hr figure traced and corrected; table size, not time, is the real cost driver
+
+**Status: material to react to, not decided.** Full report saved and published in full —
+`Ministry/Features/Funding-Strategy/CiC_Cost_Study_Per_Transaction_V0_1.md`.
+
+**A correction to this thread's own prior record, not a criticism of anyone:** the $1.25–1.50/hour
+figure this thread treated as fresh real testing traces back to this same Decision-Log's own
+2026-07-22 entry — itself an arithmetic back-derivation from an earlier per-conversation estimate,
+not a direct measurement. A separate, later, more authoritative source (System Hub's own decision
+log, 2026-07-24) already corrected this to **~$2/hour** based on real partial data, before this
+thread's $1.25–1.50 figure was ever cited back to me. The codebase-grounded bottom-up math in the
+new report reconciles with ~$2/hour for 1:1, not with $1.25–1.50.
+
+**The real, load-bearing finding: cost does not scale mainly by time — it scales by Living Table
+size.** A 3-Representative conversation costs roughly 2.5–3× a 1:1 conversation per turn, driven
+by governance/classifier overhead as much as extra generation calls. The report's own
+recommendation: keep the market-validated $10/$8 giving amounts as-is, and make **table size**,
+not a time budget, the actual lever the free tier governs — it's the real cost driver, needs no
+new metering (table size is already capped and chosen at session start), and avoids reopening the
+already-validated giving amounts.
+
+**Two time-sensitive items, independent of that recommendation:**
+- **The Sonnet 5 introductory price expires 2026-09-01** — a ~37% blended cost increase arrives
+  automatically, currently unbudgeted anywhere in this project's funding documents.
+- **The cost baseline is stale and has one real gap** — no 2-Representative conversation has ever
+  been measured; a full re-run (already scheduled elsewhere as pending) would close it cheaply.
+
+**Also found, not this thread's to act on:** a real technical cost bug (Desert's response-length
+ceiling triggers a full duplicate Sonnet generation on most turns) and a cheap, already-identified
+fix (extend the prompt-cache TTL from 5 minutes to 1 hour, which would eliminate most of a
+measured 61% cold-cache penalty at realistic human conversation pacing) — both worth passing to
+whichever thread owns `cic-poc` engineering.
+
+**Next action:** Mark and Susan's reaction — same Groan-Zone discipline as every other research
+pass in this thread. The Stripe build conversation (paused above pending this study) can resume
+once there's a reaction to react to.
+
+---
+
+## 2026-07-31 — Real Groan-Zone work on "$2 to $0.50": the Answer Bank's real limitation found, a genuine architectural idea surfaced live, cost-reduction feasibility study dispatched
+
+**Mark named a hard viability threshold:** if blended cost can't come down from ~$2/hour to
+roughly $0.50/hour, the project doesn't work at the already-validated giving amounts. Worked
+through the real levers live rather than reassuring or despairing:
+
+- **The Answer Bank's real limitation, found by reading the actual code and its own design
+  doc:** it serves only ~5.2% of real interactions, not because the space of real questions is too
+  varied, but because it matches by *position in a scripted question sequence* (role/set/order),
+  not by meaning — only ~1/3 of participants choose that entry path, and any free-text deviation,
+  even a near-exact paraphrase, falls through to a full-cost live call.
+- **Mark's own correction, technically sound:** since this project's local embeddings are already
+  free (zero API cost, confirmed in the prior cost study), the same infrastructure could plausibly
+  match an incoming question's *meaning* against a curated answer bank regardless of wording or
+  entry path — reframed correctly by Mark as predictive cost-preparedness, not a curriculum
+  feature. Real quality risk named and taken seriously, not waved off: distinguishing a "canned"
+  feeling from a genuine mismatch, with pre-generated (not live) response variations as a real,
+  zero-marginal-cost mitigation worth testing.
+
+**Cost-reduction feasibility study dispatched (Opus, background)** — five items, the
+semantic/predictive answer-bank redesign as the lead item, plus the cache-TTL fix, Sonnet prompt
+size and the Desert regeneration bug, Haiku call consolidation (flagged to protect safety-critical
+checks specifically), and the September 1 pricing change as context for every estimate. Explicitly
+scoped to say what needs real testing rather than guess at outcomes.
+
+**Next action:** none until the agent returns. This directly gates the paused Stripe/website
+build conversation — the giving amounts and free-tier design may need to wait on this answer.
+
+---
+
+## 2026-08-02 — Feasibility study returned: `CiC_Cost_Reduction_Feasibility_Study_V0_1.md` — $0.50/hour looks reachable for 1:1, structurally not for the Living Table
+
+**Status: material to react to, not decided.** Full report saved and published in full —
+`Ministry/Features/Funding-Strategy/CiC_Cost_Reduction_Feasibility_Study_V0_1.md`.
+
+**The headline finding: the cache TTL fix alone, directly measured (not modeled), takes a
+reflective-pace 1:1 conversation from $0.77/hour to $0.50/hour.** A one-line code change (5-minute
+cache window → 1-hour), no behavioral risk, found via a real experiment already sitting in the
+existing baseline data (one conversation had a genuine cache-lapse turn that cost nearly double,
+$0.066 → $0.128). Stacked with a second real, already-diagnosed engineering fix (a response-length
+regeneration bug affecting most or all worlds, not just Desert, root-caused to the prompt never
+telling the model its actual word limit), the 1:1 target is reachable through low-risk engineering
+alone, before touching anything uncertain.
+
+**The Living Table remains structurally 2–3× the threshold regardless of optimization** — a
+3-Representative table does 2–6 Sonnet generations and 45–60 Haiku calls per participant message,
+by design, not by inefficiency. No caching or consolidation closes that gap. This independently
+confirms, with real evidence this time, the standing recommendation: table size, not time, should
+be what the free tier governs, with 1:1 as the free experience.
+
+**Mark's semantic answer-bank idea is architecturally sound and cheap — and directly conflicts
+with the project's own prior design decision.** The existing Answer Bank design doc explicitly
+recommends against inference-based serving matching, on values grounds (never serve a paraphrase).
+The study proposes a genuine "and": apply semantic matching at a tap-to-see suggestion layer, never
+auto-serving, preserving the "explicit tap = signal" guarantee while still capturing free-text
+traffic. Offered as a proposal, not a resolution — flagged back to Mark since it disagrees with
+this project's own prior reasoning, not something to decide unilaterally. Also found: the Answer
+Bank currently serves 0% of real traffic today (the bank file doesn't exist, no UI built) — the
+5.2% figure was always the designed ceiling, never a current rate.
+
+**Time-sensitive:** September 1 pricing (+35% blended) is real but the cache fix roughly cancels
+it out for 1:1. Worth a quick check: if the "$2/hour" figure came from real billing, it was billed
+at introductory rates, meaning real usage could hit ~$2.70/hour post-September — changing the gap
+from 4× to ~5.4×, though the reachability conclusion for 1:1 doesn't change either way.
+
+**Next action:** Mark and Susan's reaction — same Groan-Zone discipline as the rest of this log.
+This also unblocks the paused Stripe/website build conversation, since the free-tier design
+question (time-based vs. table-based) now has real evidence behind an answer.
+
+---
+
+## 2026-08-02 (same day, continued) — Mark rescinds the Answer Bank design doc's "do not build inference-based serving matching" recommendation
+
+**Real correction, not a reading of tone.** The prior recommendation against inference-based
+serving matching, recorded in `Ministry/Features/Guided-Questions/
+CiC_Answer_Bank_Full_System_Design_V0_1.md` §3.4, was not Mark's own settled decision — he's
+explicitly rescinding it now: *"that is exactly what we need."* Semantic/inference-based matching
+is the live, endorsed direction for the Answer Bank going forward, not a ruled-out option.
+
+**Not yet resolved: how far.** The feasibility study's own proposal — semantic matching surfaced
+as a tap-to-confirm suggestion, never auto-serving, preserving the "explicit tap = signal"
+guarantee — was built as a compromise around a rule that no longer applies. Whether Mark wants
+that same tap-confirm shape anyway (as good design, independent of the now-lifted rule), or wants
+to explore full auto-serving once the threshold-calibration testing the study proposed actually
+happens, is open — asked directly, not assumed.
+
+**Flagged, not yet done:** the design doc itself still states the old "do not build" recommendation
+as its core conclusion. That document belongs to the Guided-Questions feature thread, not this one
+— worth a correction note there (same "record what changed and why, don't silently rewrite"
+convention as everywhere else in this project) whenever that thread is next active, or sooner if
+Mark wants it done now.
+
+**Next action:** Mark's call on auto-serve vs. tap-confirm (or explicitly "figure that out via the
+testing already proposed"); the Guided-Questions doc correction can wait or happen now, his call.
+
+**Decided, same day:** auto-serve, hidden — no participant-visible indication a match occurred or
+that any answer might be prepared rather than live. Real consequence flagged, not a pushback on
+the decision: with no tap-confirm step, there's no human check between a bad match and the
+participant, which makes the study's proposed threshold-calibration test (near-zero false-positive
+rate on the labeled paraphrase/near-miss set) and blind tone-comparison test load-bearing gates
+before this ships, not optional validation. Guided-Questions doc correction still pending, timing
+still Mark's call.
+
+**Rollout philosophy decided, same day:** test in the real pilot rather than an offline
+calibration study first — real usage over projection, consistent with how this thread has treated
+every other open number. Two safety rails added, not as a delay but as what makes "test in pilot"
+actually reviewable rather than just hopeful: launch with a conservative, high-confidence-only
+match threshold (loosen later from real data), and log every match decision silently regardless of
+UI state, so real mismatches can be reviewed directly rather than waiting only on participants to
+say something.
+
+---
+
+## 2026-08-02 (same day, continued) — Build scope dispatched: cache fix, regeneration fix, and the Answer Bank redesign, bundled as one cost-reduction handoff
+
+**Dispatched, not yet run.** `Ministry/Operations/Standing/Launch-Prompts/
+CiC_Cost_Reduction_Build_Scope_2026-08-02.md` — the full, confirmed output of this thread's cost-
+study arc, ready to hand to wherever `cic-poc` build work actually happens (this thread stays out
+of that code per its own launch brief). Three items: the cache TTL fix (lowest risk, do first,
+directly measured to take a reflective-pace 1:1 conversation to the $0.50/hour target on its own);
+the response-length regeneration bug (root cause found, remedy already scoped, needs live testing
+before shipping); and the Answer Bank redesign (hidden auto-serve, pre-generated variations with a
+re-word-never-re-content guardrail, conservative launch threshold, full match logging, tested in
+pilot per Mark's own call). The Guided-Questions design-doc correction is named explicitly as
+still owed, not silently left inconsistent with the live decision.
+
+**Next action:** none in this thread — implementation is the build thread's job now. Worth
+watching for when it lands: real pilot data on match/mismatch rates, and whether the cache/
+regeneration fixes actually close the gap to $0.50/hour the way the feasibility study predicted.
+
+---
+
+## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
+
+**Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on
+the dispatch, which this thread hadn't seen the results of yet.** `CiC_PBC_Shareholder_Buy-
+Sell_Agreement_V0_1_DRAFT.md` (the Shareholder Agreement between Mark and Susan) was signed by
+both, both dated 7/21/2026 — the same false predicate as the other two. Its own text doesn't cite
+the wrong entity ID directly (nothing to correct in the wording, unlike the IP Assignment), but
+the signatures themselves predate when the corporation and the shares it governs actually existed.
+
+**Clean signable PDF generated and sent** — `Faithways_Studio_Shareholder_Agreement_SIGNABLE_
+2026-07-27.pdf`, text unchanged, ready for both signatures with the correct date. Old signed copy
+(dated 7/21/2026) to be deleted the same way as the other two, no external reliance yet.
+
+**Next action:** Mark and Susan re-sign this third document, then all three (Bylaws/Resolutions,
+IP Assignment, Shareholder Agreement) are consistently and correctly dated before bank/Stripe
+setup proceeds.
+
+**Confirmed signed, same day.** All three foundational documents — Bylaws & Organizational
+Resolutions, IP Assignment Agreement, and now the Shareholder Agreement — are re-signed with the
+correct July 27, 2026 date and Entity ID 20261918758. Nothing left blocking bank/Stripe setup.
+
+**Next action:** Relay application (bank) — fund with $40 total ($20 each), watch for the CO
+public business-search index to catch up before/during the application. Same live, screen-by-
+screen walkthrough offered as with the Secretary of State filing, whenever Mark starts it.
+
+---
+
 ## 2026-07-22 (cross-reference from System Hub, not a decision made in this thread)
 
 Mark told System Hub directly: *"we can put a hold on the funding strategy and support gifts for

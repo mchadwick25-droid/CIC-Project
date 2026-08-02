@@ -17,8 +17,13 @@ benefit corporation** · Draft **V0.1** · 2026-07-21
 
 **Effective Date.** This Agreement is effective as of, and conditioned upon, the date the
 Articles of Incorporation of Faithways Studio, Inc. are filed and accepted by the Colorado
-Secretary of State (the "**Incorporation Date**") — **confirmed as July 21, 2026, Entity ID
-20261874960, Transaction # 20261874960.**
+Secretary of State (the "**Incorporation Date**") — **confirmed as July 27, 2026, Entity ID
+20261918758, Transaction # 20261918758.** *(Correction, 2026-07-27: an earlier filing attempt
+dated July 21, 2026, Entity ID 20261874960, never actually completed — no receipt was issued and
+the Secretary of State's office confirmed it never went through. This date and ID are the real,
+confirmed ones, verified by email receipt and public-record search. Because this Agreement's own
+effectiveness is conditioned on the Incorporation Date, it should be signed with this corrected
+date, not the earlier one.)*
 
 **Parties.**
 - **Assignor:** Mark Chadwick, an individual, residing at 3028 Valley Park Blvd., Larkspur,
@@ -113,7 +118,7 @@ Faithways Studio, Inc., by Mark Chadwick, President: ______________________ Date
 
 | | Item |
 |---|---|
-| ✅ | Incorporation Date confirmed: July 21, 2026, Entity ID 20261874960. |
+| ✅ | Incorporation Date confirmed: **July 27, 2026, Entity ID 20261918758** (corrects an earlier stated date of July 21, 2026 / Entity ID 20261874960 — that filing attempt never actually completed). |
 | ☐ | Confirm the asset list in Section 2 is complete — particularly whether any code, content, or domains are held jointly with Susan or through any other entity. |
 | ☐ | Once assigned here, update the "Church in Conversation" trade-name filing, any trademark filing, and the domain registrar records to reflect Faithways Studio, Inc. as owner — self-serve steps, no attorney needed. |
 
