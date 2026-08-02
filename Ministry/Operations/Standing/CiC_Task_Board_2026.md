@@ -1,7 +1,7 @@
 # CiC Task Board — Acceleration Jul–Dec 2026
 
 **How this works:** This board is the day-to-day view of
-`Ministry/Operations/CiC_Acceleration_Gantt_2026.gan` (open that in GanttProject —
+`Ministry/Operations/Standing/CiC_Acceleration_Gantt_2026.gan` (open that in GanttProject —
 free, ganttproject.biz). Task IDs match the Gantt file. **DO NOW** = every
 predecessor is done (or it never had one) — you can work on these today, in priority
 order. When something finishes: move it to DONE here, set it complete in
@@ -10,7 +10,9 @@ both files with a new ID and its dependencies. Ask Claude to resync both files a
 time — say what's done and what's new.
 
 **Funding gates (fixed):** $7.5K by Sept 1 · ~$25K by Nov 1 · $35–45K by Dec 31.
-**Hard calendar gates:** reviewers engaged Sept 1 · entity filed ~Sept 15 · CCSA ~Nov 15 · Lane B go/no-go Dec 15.
+**Hard calendar gates:** entity filed ~Sept 15 · CCSA ~Nov 15 · Lane B go/no-go Dec 15.
+(*"reviewers engaged Sept 1" removed 2026-08-02 — Article 31 is a Year 2 item now, not a
+near-term gate; see Decision Log 2026-08-02.*)
 
 _Last synced: 2026-07-19, later still (⚠ CORRECTION: this board previously carried
 "re-engage Bedrock" as the live infra item — stale. `CiC_System_Hub_Decision_Log.md`
@@ -114,6 +116,41 @@ check of the real Living Table build in a running conversation — see LT-1.
         own design pass before build. **Superseded by the correction above** — check
         `CiC_World_Atlas_PreStep0_Survey_V0_1.md` against this ask before writing anything
         new; it may already exist.
+      - **CORRECTED 2026-08-01 — the "five open questions blocking V0.2" line above is
+        stale and should not be treated as a live gate.** Checked directly against
+        `Ministry/Features/Atlas-World-Map/Decision-Log.md`: those five questions sit at
+        the file's oldest entry (2026-07-16, the log is reverse-chronological) and were
+        **all resolved that same day**, several passes later in the same session — Lane 4
+        became its own "Caucasus" lane, floor-excluded movements ship dimmed-with-copy at
+        V1 (now the "Non-Nicene Traditions" stream), "Notify me when this changes" was cut
+        as an over-promise, and the map shipped as a standalone demo the same day. The
+        2026-07-30 correction above read only the log's oldest entry and mistook it for
+        current state. **Real current status, verified directly:** the census
+        (`cic-website/data/world-census.json`) already has **178 entries across all 10
+        confirmed eras** — only 9 are actual/prospective CiC-built worlds (6 live + 3
+        selected), the other 169 are the full landscape survey (named, sourced, dated,
+        lane-assigned, honest exclusion grounds), deliberately including traditions CiC
+        will likely never build. Three redesign prototypes exist (A: Story scroll, now
+        live; B: search-first "Choose a Tradition"; **C: an unreviewed, orphaned unified
+        grid-timeline design that has never been shown to Mark or logged in that thread's
+        own Decision Log** — committed as a safety measure only, per its own commit
+        message). IC-10 (the approved 10-era ground palette) is still not built into the
+        live atlas despite being approved 2026-07-18. "Choose a Tradition" is a **name
+        collision** — it already labels the plain tile-grid heading in the live
+        `cic-poc` app, a different thing from Prototype B's redesigned search-first
+        surface. The Gantt has a task for the Tier A merge (Increment 4, id 463) but
+        **none at all for Tier B** (the in-app selector) — that's unscheduled work, not an
+        unmerged branch. Full detail: System Hub Decision Log, 2026-08-01 (later).
+      - **SH-4/SH-6 — DISPATCHED 2026-08-01 as "Atlas / Scrolling Map v3."** Launch prompt
+        written and handed to Mark, grounded in the real current state above rather than
+        re-designing from scratch — the 178-entry, all-10-era, every-tradition census
+        already exists and is already live; v3's real work is visual/interaction quality,
+        a verdict on the never-reviewed Prototype C, the "Choose a Tradition" name
+        collision, the Tier A/Tier B scope call, IC-10's palette application, and a fresh
+        completeness check against the full 178 (the only prior external review checked
+        147). `Ministry/Operations/Standing/Launch-Prompts/
+        CiC_Atlas_WorldMap_V3_Thread_Launch_2026-08-01.md`. Full account: Decision Log,
+        2026-08-01 (later still).
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
@@ -143,6 +180,19 @@ check of the real Living Table build in a running conversation — see LT-1.
         thread's job, not built here. Worth doing for the quality/
         consistency win on curriculum-path traffic; go in with the real cost expectation,
         not the inflated one.
+        **SEQUENCING, Mark's direct call 2026-08-02: this is explicitly after the
+        Atlas/World-Map v3 build, not before it.** Not blocked technically — SH-11 could
+        be picked up any time — deliberately sequenced behind Atlas/World-Map by Mark's
+        own priority call. **Separately, and not to be conflated with SH-11: the "I don't
+        know what to ask?" participant-facing feature (Increment 3 / #402) is the current
+        priority, active now, and is NOT a cost-savings mechanism** — it serves the rich
+        per-world Guided Starters content (`World-Builds/<world>/*Guided_Starters_V0_1_DRAFT.md`,
+        5 of the 6 live worlds now drafted — Post-Apostolic, Alexandria, Desert,
+        Hieronymian, Syriac; Imperial-Juridical was never in this batch's scope and has
+        none — see #201) as onboarding/navigation, unrelated to SH-11's
+        precomputed-answer caching. The two features share the same underlying "closed
+        question set" shape, which is why they were easy to conflate, but they solve
+        different problems on different timelines.
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
@@ -172,6 +222,11 @@ check of the real Living Table build in a running conversation — see LT-1.
       claims → voice → facilitation guidance → live chunk swap → blind-graded freeze
       battery → Table Readiness Round), each closed with its own signed freeze declaration
       (`Ministry/Technology/Pass2/gates/S6.2_<WORLD>_FREEZE_DECLARATION.md`).
+      **CORRECTION 2026-08-02: true for 5 of 6, not all 6** — SYR, HAL, ALX, PAHC, and IJC
+      each have that exact file; **Desert/Papnoute does not** — its freeze declaration
+      exists only as inline prose in `BUILD_STATE.md` §11-C, not its own file. The
+      underlying fact (Desert was frozen, 2026-07-27) is real; only the "each has its
+      own file" pattern claim was wrong. Found by the #201-triggered audit.
       **Real regressions found and fixed along the way, not just a clean migration story:**
       per-world prompt gaps caught by cold adversarial probing (a naming-collision capture
       on Hieronymian then PAHC; a post-window "your vindication" framing that defeated IJC's
@@ -455,7 +510,17 @@ check of the real Living Table build in a running conversation — see LT-1.
       FAISS indices + torch + sentence-transformers warm simultaneously). Live-verified
       end-to-end: a real question to Chloe correctly triggered the Facilitator's
       anachronism-bridge (flagging "purgatory" as later vocabulary) then a full
-      in-character response, completing in well under a minute. AWS/Bedrock
+      in-character response, completing in well under a minute.
+      ⚠ **CORRECTION 2026-08-02: `pilot.html`, `pilot-thank-you.html`, and
+      `refer-a-friend.html` — all three named as live in this entry and below (see
+      also 2026-07-20's HELD note) — were retired in commit `93601ef`, "Retire
+      pilot.html, pilot-thank-you.html, and refer-a-friend.html," 2026-07-25.** Every
+      mention of these three files as existing/live in this board is accurate for its
+      own dated moment (all written 2026-07-20 to 2026-07-23, before the retirement)
+      but stale as of today — none of the three exists in the repo now. Found during
+      a full audit triggered by the #201 mislabeling incident; not re-verified what
+      (if anything) replaced their function, since that was outside this audit's
+      scope — flagging the fact of retirement, not its consequences. AWS/Bedrock
       reconsidered mid-session (Mark's son offered free setup + AWS credits) and
       explicitly declined for now — Bedrock is an LLM-API alternative, not a compute
       host, so it wouldn't have fixed the memory bugs either way; direct API + Render
@@ -587,6 +652,13 @@ check of the real Living Table build in a running conversation — see LT-1.
       Relational register, endorsement door open, 4–6-week staged pacing, world brief
       enclosed. Your part, whenever affordable: two personal blocks + honorarium figure →
       send. Unblocks #302/#303/#306, none of which gate launch either.
+      **UPDATE 2026-08-02, Mark's direct call: given a firm placement, not just an open
+      hold — "Article 31 is reset as an aspirational goal in year two of the 5 year
+      timeline," cost of doing it right doesn't fit now.** The closing personal block is
+      already written (2026-08-01); the opening block was in progress this same session
+      and is now paused, not abandoned — pick back up when Year 2 planning starts. See
+      Decision Log 2026-08-02 for the full reasoning and every downstream doc this
+      touched.
 - [ ] **510 — Church-designated fund conversation** with the pastor. Unblocks all
       tax-deductible Ring 1 giving.
 - [ ] **601 — Praxis interest form.** Five minutes. Calendar April 2027 while at it.
@@ -648,7 +720,10 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **RM-7 — Review the Representative Modes demonstration.** React-to-first piece —
       the Chloe four-mode demo artifact
       (https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e) and Design
-      Spec §6 (`Ministry/Technology/Representative-Modes/CiC_Representative_Modes_Design_Spec_V0_1.md`).
+      Spec §6 (`Ministry/Features/Representative-Modes/Design/CiC_Representative_Modes_Design_Spec_V0_1.md`
+      — corrected 2026-08-02, the old `Ministry/Technology/Representative-Modes/` path
+      is stale from before the 2026-07-20 filing reorg that retired `Ministry/Technology/`
+      for feature docs; found by the #201-triggered audit).
       No downstream gate depends on this specifically, but RM-8 is recommended to wait
       for it.
 - [x] **DONE 2026-07-20 — TR-4: L4 Tour Manifest Template + review-cycle definition
@@ -796,6 +871,14 @@ check of the real Living Table build in a running conversation — see LT-1.
       real formal re-run eventually, but not held up today on that basis. **Next action: a full
       formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
       timing his to schedule, not urgent today.
+      **UPDATE 2026-08-02, Mark's direct call: no further Battery A re-run, period** — cost
+      of running the full protocol at scale isn't justified; his own read is the project will
+      probably never carry more than 3 modes/arms anyway, so validating a 4/5-arm system isn't
+      worth doing. This is a harder stop than the 2026-07-24/25 pause below: not "paused
+      pending the re-entry trigger," but "not testing further." **Flagged, not yet resolved:
+      Task Board #102 ("Run Prototype 1") still lists "RM-8/Battery A passed + Increment 2
+      merged" as a hard dependency — written before this call, now a gate that will never
+      clear. Needs Mark's decision on the real dependency chain, not silently corrected here.**
 - [x] **DECIDED 2026-07-24/25 — Representative Modes' 4-lane rollout PAUSED, general voice
       only, Mark's direct scope call.** "keep what ships simple" — general voice for
       everyone, no role selection, while today's separate length/pacing research still gets
@@ -819,15 +902,21 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
       decision, see V1.2 above): direct-API hosting live **(✅ DONE 2026-07-23, see
       #101/401)** **and** Increment 1 **and** the
-      Tier 0 four **and** RM-8/Battery A passed + Increment 2 merged **and** Increment 3
+      Tier 0 four **and** Increment 3
       merged **and** Question-First Entry **and** Guided Onboarding **and** the Living
       Table's live wiring — not just hosting alone. **Hosted Tour removed from this
       dependency chain 2026-07-22** — Mark's direct descope decision moved the whole
       Hosted Tour feature to Phase 2+, out of the current build cycle, so it no longer
       gates P1/launch (see the Phase 2+/DEFERRED section below). Protect this window
       once it starts — no new outreach until ~Aug 10 from that point.
-- [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
-      existing; his August matters.
+      **UPDATE 2026-08-02, Mark's direct call: RM-8/Battery A passed + Increment 2 merged
+      dropped from this dependency chain entirely.** Battery A isn't being run again (see
+      the RUN 2026-07-22 entry's 2026-08-02 update above), and Increment 2 (role selection
+      UI) has nothing to select between under general-voice-only scope. #102 now gates on
+      the remaining items only.
+- [ ] **302 — TEDS professor outreach** (after 301). **UPDATE 2026-08-02: Year 2 item now,
+      same call as #301** — "send within days" and "his August matters" are stale urgency
+      language from before Article 31 got its Year-2 placement; no longer time-pressured.
 - [ ] **202–206 — Ancient worlds 5–9, 2 of 5 now DONE per Mark's direct report
       (2026-08-01): 6 of 9 total Ancient-world (Eras 1-2, first 4 centuries) builds
       complete.** Which specific worlds fill the "world 5" and "world 6" slots isn't
@@ -837,14 +926,36 @@ check of the real Living Table build in a running conversation — see LT-1.
       if the exact mapping ever matters. **3 remain: world 7–9**, now slid forward to
       start 2026-08-03 instead of waiting for 2026-08-19 (the schedule is running ahead,
       not behind). Gantt tasks 202/203 marked complete, 204–206 rescheduled to match.
-- [ ] **201 — Guided starters: ALL 4 WORLDS DRAFTED 2026-07-16 (75%)** — pulled 3 weeks
-      left. `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic),
-      `Guided_Starters_V0_1_DRAFT.md` (Syriac), `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
-      (Desert), `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) — each in its world
-      folder, each with builder grounding-flags for your review. Content-ready is only
-      half of #402's gate now — see BLOCKED: it also waits on role selection (RM-10 /
-      Increment 2) landing first, so the UI doesn't ship a question-serving screen the
-      selector underneath it hasn't caught up to.
+- [ ] **201 — Guided starters: CORRECTION 2026-08-02, "ALL 4 WORLDS DRAFTED (75%)" is
+      wrong — checked directly against the repo, not assumed.** Only 2 of the 4 claimed
+      files actually exist: `World-Builds/Desert-Monasticism/CiC_W3_Guided_Starters_V0_1_DRAFT.md`
+      (Desert — matches the original claim) and
+      `World-Builds/Alexandria-Catechetical-School/Guided_Starters_V0_1_DRAFT.md` — **but
+      this board had that file labeled "Syriac"; it's actually sitting in the Alexandria
+      folder**, either mislabeled on this board or the wrong file entirely. **Two files
+      claimed drafted 2026-07-16 don't exist anywhere in the repo at all**:
+      `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic) and
+      `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) — searched the full repo tree,
+      not just the expected folder. Real status: **2 of 4 worlds have drafted content
+      to review (Desert, and whichever world the Alexandria-folder file actually
+      belongs to); Post-Apostolic and Hieronymian guided-starter content either was
+      never drafted or doesn't exist where this board says it does.** Original
+      2026-07-16 entry not deleted, corrected in place per this board's own convention
+      — original claim was wrong, not superseded by later work.
+      **#402's second gate (role selection / RM-10 / Increment 2) dropped 2026-08-02,
+      same call as #102's** — general-voice-only means there's no selector for a
+      question-serving screen to wait on. #402 now gates on this content review alone,
+      and that review can only start on the 2 files that actually exist — the other 2
+      need to be drafted (or located) before Increment 3 can fully clear.
+      **UPDATE 2026-08-02 (later): the other 2 drafted, for real, at Mark's direct
+      request** — `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic) and
+      `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) now exist at the exact paths
+      this board originally claimed, each grounded in that world's own build documents
+      (citations spot-checked against source, nothing invented) and matching the
+      Desert/Alexandria format. **Genuinely all 4 worlds now have drafted content
+      to review** — the "ALL 4 WORLDS DRAFTED" claim this correction retracted above
+      is, as of this update, actually true. Awaiting Mark's review of all 4; #201 not
+      marked complete until he's done that.
 - [ ] **NEW: outreach one-pagers DRAFTED 2026-07-16** — church-fund, world-sponsorship
       ($3,500), Wabash pilot (all in Ministry/Funding, awaiting markup).
 - [ ] **NEW 2026-07-22 — Fill in the Hope Over Crisis / LDI China specifics** in the
@@ -877,8 +988,8 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 704 | Landing page + interest list | 702 |
 | 501 | Ring 1 ask to 15–20 names | 103, 510, 702 |
 | 502 | GATE $7.5K (Sept 1) | 501 |
-| 303 | Second reviewer outreach | 301 (start Aug 17) |
-| 304 | GATE reviewers engaged (Sept 1) | 302, 303 |
+| 303 | Second reviewer outreach | 301 -- Year 2 item, 2026-08-02 (dropped the "start Aug 17" date) |
+| 304 | GATE reviewers engaged -- Year 2 item, 2026-08-02 (dropped the Sept 1 date) | 302, 303 |
 | 305 | Round 1 holistic review | 304 |
 | 208 | Reformation selection + LT confirmations | 206 |
 | 209–215 | Reformation worlds 1–7 | 208, sequential |
@@ -914,7 +1025,7 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 708 | Lilly positioning | 706, 305 |
 | 709 | Praxis application prep | 603 |
 | RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) **and** the 4-lane pause's own re-entry trigger (real pilot feedback from professors/academics — see the DECIDED 2026-07-24/25 entry in DO NOW) |
-| 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) **and** RM-10/Increment 2 (role selection must land first — a question-serving screen can't ship ahead of the selector it's served through) |
+| 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) only — RM-10/Increment 2 dropped 2026-08-02, same call as #102's (general-voice-only has no selector to wait on) |
 | RM-11 | Onboarding copy: mention role selection | RM-10/Increment 2 (or earlier, content-only) |
 | RM-12 | `role=`/`worlds=`/`mode=` URL parse-site reconciliation | whichever merges second: RM-10/Increment 2 or Increment 4 (World Map merge) |
 | RM-13 | Tier B: role → default transparency mode | Mode One/Two toggle (not yet built) |
@@ -940,9 +1051,13 @@ anywhere in `cic-poc`** (frontend or backend) — this is a documentation/tracki
 descope only, zero code removed. The one built artifact (a standalone Chloe tour HTML
 demo, `Ministry/Features/Hosted-Tour/Design/`) was never integrated into `cic-poc` or
 the live site, so it needs no code change, just this status note. **Unrelated, not
-touched by this descope:** `cic-website/world-map.html`'s own "▶ Watch the flow"
+touched by this descope:** `cic-website/world-atlas.html`'s own "▶ Watch the flow"
 self-guided walkthrough of the map itself is a separate, already-shipped feature that
-happens to share the word "tour" — do not confuse it with the items below. TR-1
+happens to share the word "tour" — do not confuse it with the items below.
+**CORRECTION 2026-08-02:** this entry previously named the file `world-map.html`,
+which doesn't exist in the repo — the real file is `world-atlas.html`, confirmed
+directly. Same failure class as #201: real feature, wrong filename, never checked
+until this audit. TR-1
 through TR-5 are complete and shelved (see their DONE entries above/below, unchanged);
 everything below was not yet started when the descope landed.
 
@@ -991,8 +1106,9 @@ everything below was not yet started when the descope landed.
       issue was also found and fixed: invented first-person Representative dialogue in
       the graphics mockups, replaced everywhere with explicitly-labeled placeholder text
       (a standing rule now on record against this recurring). **Produced:**
-      `Ministry/Operations/CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md` — the
-      dependency-ordered path from here to real hosting and Prototype Testing 1,
+      `Ministry/Operations/Audits/CiC_UX_to_Bedrock_Pilot_Readiness_2026-07-19.md`
+      (path corrected 2026-08-02, missing `/Audits/`; found by the #201-triggered
+      audit) — the dependency-ordered path from here to real hosting and Prototype Testing 1,
       separating what's Mark's to decide (stand up hosting — since revised from Bedrock
       to direct-API, per System Hub's own same-day decision — Battery A go-ahead, the 2
       Guided-Questions content calls, the Chloe tour voice read, Section 10, Gantt IDs)
@@ -1171,3 +1287,14 @@ everything below was not yet started when the descope landed.
 (Reformation 7 → 5 before any gate bends); if P2 and the build calendar strain, the
 build calendar wins; review status is always disclosed honestly; no funder deadline
 compresses a gate.
+
+**Standing rule, added 2026-08-02 — verify file-based claims before marking them
+done.** Root cause of the #201 mislabeling incident: this board asserted "ALL 4
+WORLDS DRAFTED," naming four specific file paths, without anyone checking those
+paths against the actual repo — 2 of the 4 didn't exist, and a 3rd was mislabeled
+(claimed Syriac, actually Alexandria). Going forward, any entry on this board that
+names a specific file, or claims a set of files/deliverables is complete, must be
+checked against the real repo at the time it's written — `ls`/`find`/`Read`, not
+memory or a builder's self-report taken on faith. This is cheap to do and expensive
+to skip; the mislabeling stood for at least two weeks (2026-07-16 to 2026-08-02)
+before a direct review request happened to surface it.

@@ -403,6 +403,7 @@ export function TheTable() {
         onEnd={endConversation}
         disabled={!isActive}
         isLoading={isLoading}
+        worldIds={worldIds.length > 0 ? worldIds : worldId ? [worldId] : []}
       />
 
       {selectedTerm && (

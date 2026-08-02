@@ -845,6 +845,204 @@ body {
   border: 1px solid var(--color-border);
 }
 
+/* ============================================
+   "DON'T KNOW WHAT TO ASK?" + QUESTION SHEET
+   UX Design V1.0 SS4.1/SS4.6, corrected 2026-08-02: depth-tier tabs, not
+   role tabs - see QuestionSheet.tsx's own header comment.
+   ============================================ */
+.chat-input-container {
+  position: relative;
+}
+
+/* Quiet chrome, one of the table's two allowed quiet-chrome elements
+   (the other is the table bar) - motionless, never pulsing, never bold.
+   Its own row above the input, right-aligned over the textarea's corner
+   (UX Design V1.0 SS4.1: "Above the textarea's right corner"). */
+.chat-input__dont-know-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat-input__dont-know {
+  padding: 0 0 var(--spacing-xs);
+  border: none;
+  background: none;
+  font-family: var(--font-family-ui);
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+.chat-input__dont-know:hover:not(:disabled) {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+}
+
+.chat-input__dont-know:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Covers the input area only - the transcript above stays fully visible
+   and interactive, same rule on desktop and phone (unlike Level3Panel,
+   which is a right-edge side panel on desktop). */
+.question-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  background: color-mix(in srgb, var(--color-background) 45%, transparent);
+  z-index: 1000;
+}
+
+.question-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 60vh;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.question-sheet__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.question-sheet__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.question-sheet__close {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: var(--color-background);
+  border-radius: 50%;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.question-sheet__world-tabs,
+.question-sheet__tier-tabs {
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+.question-sheet__world-tabs {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.question-sheet__world-tab,
+.question-sheet__tier-tab {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-background);
+  color: var(--color-text-muted);
+  font-family: var(--font-family-ui);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.question-sheet__world-tab--active,
+.question-sheet__tier-tab--active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.question-sheet__entries {
+  overflow-y: auto;
+  padding: var(--spacing-md) var(--spacing-lg) var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.question-sheet__entry-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.question-sheet__entry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-background);
+  text-align: left;
+  cursor: pointer;
+  font-family: var(--font-family);
+}
+
+.question-sheet__entry:hover {
+  border-color: var(--color-primary);
+}
+
+.question-sheet__entry-topic {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-light);
+}
+
+.question-sheet__entry-question {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.question-sheet__entry--limit .question-sheet__entry-question {
+  font-size: 0.9375rem;
+}
+
+.question-sheet__followups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  padding-left: var(--spacing-md);
+}
+
+.question-sheet__followup {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: none;
+  color: var(--color-text-muted);
+  font-family: var(--font-family-ui);
+  font-size: 0.8125rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.question-sheet__followup:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
 .chat-button--secondary:hover:not(:disabled) {
   background-color: var(--color-background);
   color: var(--color-text);
