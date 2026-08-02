@@ -862,13 +862,18 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **102 — Run Prototype 1.** Dependency set expanded 2026-07-19 (full-feature-set
       decision, see V1.2 above): direct-API hosting live **(✅ DONE 2026-07-23, see
       #101/401)** **and** Increment 1 **and** the
-      Tier 0 four **and** RM-8/Battery A passed + Increment 2 merged **and** Increment 3
+      Tier 0 four **and** Increment 3
       merged **and** Question-First Entry **and** Guided Onboarding **and** the Living
       Table's live wiring — not just hosting alone. **Hosted Tour removed from this
       dependency chain 2026-07-22** — Mark's direct descope decision moved the whole
       Hosted Tour feature to Phase 2+, out of the current build cycle, so it no longer
       gates P1/launch (see the Phase 2+/DEFERRED section below). Protect this window
       once it starts — no new outreach until ~Aug 10 from that point.
+      **UPDATE 2026-08-02, Mark's direct call: RM-8/Battery A passed + Increment 2 merged
+      dropped from this dependency chain entirely.** Battery A isn't being run again (see
+      the RUN 2026-07-22 entry's 2026-08-02 update above), and Increment 2 (role selection
+      UI) has nothing to select between under general-voice-only scope. #102 now gates on
+      the remaining items only.
 - [ ] **302 — TEDS professor outreach** (after 301). Send within days of the brief
       existing; his August matters.
 - [ ] **202–206 — Ancient worlds 5–9, 2 of 5 now DONE per Mark's direct report
