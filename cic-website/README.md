@@ -18,8 +18,9 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
-**Entity status (updated 2026-07-21): Faithways Studio, Inc. is incorporated**
-(Colorado Public Benefit Corporation, Entity ID 20261874960; not a nonprofit,
+**Entity status (updated 2026-07-27): Faithways Studio, Inc. is incorporated**
+(Colorado Public Benefit Corporation, Entity ID 20261918758, Formation Date
+07/27/2026; not a nonprofit,
 no 501(c)(3), contributions are not tax-deductible). The Support page's giving
 mechanics, when it goes live, are built around the monetization ladder in
 `Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
