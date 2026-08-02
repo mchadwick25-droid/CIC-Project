@@ -831,6 +831,14 @@ check of the real Living Table build in a running conversation — see LT-1.
       real formal re-run eventually, but not held up today on that basis. **Next action: a full
       formal Battery A re-run before Increment 2/3/P1 actually merge/launch** — recommended,
       timing his to schedule, not urgent today.
+      **UPDATE 2026-08-02, Mark's direct call: no further Battery A re-run, period** — cost
+      of running the full protocol at scale isn't justified; his own read is the project will
+      probably never carry more than 3 modes/arms anyway, so validating a 4/5-arm system isn't
+      worth doing. This is a harder stop than the 2026-07-24/25 pause below: not "paused
+      pending the re-entry trigger," but "not testing further." **Flagged, not yet resolved:
+      Task Board #102 ("Run Prototype 1") still lists "RM-8/Battery A passed + Increment 2
+      merged" as a hard dependency — written before this call, now a gate that will never
+      clear. Needs Mark's decision on the real dependency chain, not silently corrected here.**
 - [x] **DECIDED 2026-07-24/25 — Representative Modes' 4-lane rollout PAUSED, general voice
       only, Mark's direct scope call.** "keep what ships simple" — general voice for
       everyone, no role selection, while today's separate length/pacing research still gets
