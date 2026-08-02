@@ -108,3 +108,15 @@ Same pattern as the 2026-07-21 cleanup's own completion entry: a dated log entry
 `CiC_System_Hub_Decision_Log.md` listing every file touched and which bucket it fell
 into, plus the Church-Designated Fund flag carried forward explicitly rather than
 quietly resolved.
+
+---
+
+**Addendum, 2026-07-27 — the Entity ID cited above (20261874960) was never real.** The
+Colorado registration behind it never actually completed (an on-screen verification
+with no receipt issued; the Secretary of State's office later traced it to a likely
+address mismatch). The real, confirmed registration is **Entity ID 20261918758**, Form
+DPC-PBC, Status Good Standing, Formation Date **07/27/2026** — verified two ways (email
+receipt + public-record search). This dispatch's own narrative and its factual fix to
+the two `.docx` files stand as accurate history of what was believed true on
+2026-07-22; only the ID cited in passing above was wrong. Full correction:
+`Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Entity_ID_Correction_2026-07-27.md`.

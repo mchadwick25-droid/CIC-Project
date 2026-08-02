@@ -792,9 +792,12 @@ async def send_message(session_id: str, request: SendMessageRequest,
 
     if is_frame_breaker:
         from app.usage_logging import log_llm_usage
+        from app.graph.nodes import build_table_composition
         llm = get_llm()
         response = llm.invoke([
-            SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(message=request.message)),
+            SystemMessage(content=FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT.format(
+                message=request.message,
+                table_composition=build_table_composition(state))),
             HumanMessage(content="Respond as the Facilitator, per your instructions above."),
         ])
         log_llm_usage("frame_breaker_response_plain", response, settings.llm_model,
