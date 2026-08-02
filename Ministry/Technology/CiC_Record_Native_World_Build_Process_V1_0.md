@@ -250,6 +250,22 @@ tracking in the world's own build ledger:
    (any step touching the intercept chain or retrieval ends with the
    full rerun/diff against the committed baseline).
 
+**Model routing (Mark's policy, 2026-08-01 — pinned, not per-thread
+discretion):**
+
+| Lane | Model | Scope |
+|---|---|---|
+| Main thread | **Sonnet** | Orchestration and ledger discipline; the mechanical Phase-B conversion scripts (B-2 split, B-3/B-4/B-5/B-6 record conversion of the cleared documents); the remaining templated documents (Doc_01, 05, 07); Phase-C wiring; running the TRR tables. The scaffold (ledger, one-step contract, checkpoints) carries the coherence — the main thread's job is discipline, not depth. |
+| Review + research | **Opus** | Every adversarial review round (cross-model against BOTH other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research (Doc_02 support, the recall/PRESS coverage checks); the M1 identity-options research. |
+| Key components | **Fable** (subagent calls) | **Lexicon discovery and development (Doc_03 + Doc_06)**; **story inventory + quote discovery and vetting (Doc_09, incl. the Absent Stories question)** — these demand the deepest, most inclusive searching and building, and discovery misses are invisible to every gate; gravity discovery (Doc_04); forces synthesis (Doc_08); voice construction (Doc_10 + B-7); **Phase-D battery-fail diagnosis loops** (shallow root-causing costs a battery re-run; a Fable diagnosis call is cheaper than the loop it prevents). |
+
+**The brief discipline that makes the routing safe:** a Fable subagent's
+brief is POINTERS, NOT SUMMARIES — the file paths and the specific
+question; the subagent reads the actual World-Builds documents and records
+itself. An under-briefed subagent wastes the tier; a summarized brief
+launders the main thread's blind spots into the component that exists to
+avoid them.
+
 **Agents and looping (how "the current system was built," now required):**
 adversarial reviews run as INDEPENDENT subagent rounds (2–3 per document;
 a finding is never dismissed as a tooling artifact without independent

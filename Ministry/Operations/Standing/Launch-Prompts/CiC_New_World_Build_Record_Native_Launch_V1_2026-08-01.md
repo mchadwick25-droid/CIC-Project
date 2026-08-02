@@ -48,6 +48,20 @@ ruling). Confirmed-gloss entries: author them schema-valid with term_id at
 birth, flag each for Mark's one-at-a-time confirmation in the completion
 summary — don't block on them mid-build.
 
+## Model routing (pinned — Mark's policy, 2026-08-01)
+
+This thread launches on **Sonnet** (orchestration, ledger discipline,
+mechanical record conversion, templated docs, wiring, TRR execution — the
+scaffold carries the coherence). Reviews and blind grading run as **Opus**
+subagents (cross-model independence both directions). The key components
+run as **Fable** subagents: **lexicon discovery/development (Doc_03 +
+Doc_06), story inventory + quote discovery and vetting (Doc_09)** — the
+deepest, most inclusive searching, since discovery misses are invisible to
+every gate — plus gravity discovery (Doc_04), forces synthesis (Doc_08),
+voice construction (Doc_10 + B-7), and every Phase-D battery-fail
+diagnosis. Fable briefs are POINTERS, NOT SUMMARIES: file paths + the
+specific question; the subagent reads the source documents itself.
+
 ## Quality machinery (non-negotiable, per the process document)
 
 - **Adversarial review by independent subagents**, 2–3 rounds per Phase-A
