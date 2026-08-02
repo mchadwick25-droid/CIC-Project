@@ -889,10 +889,12 @@ check of the real Living Table build in a running conversation — see LT-1.
       left. `CiC_W1_Guided_Starters_V0_1_DRAFT.md` (Post-Apostolic),
       `Guided_Starters_V0_1_DRAFT.md` (Syriac), `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
       (Desert), `hal_Guided_Starters_V0_1_DRAFT.md` (Hieronymian) — each in its world
-      folder, each with builder grounding-flags for your review. Content-ready is only
-      half of #402's gate now — see BLOCKED: it also waits on role selection (RM-10 /
-      Increment 2) landing first, so the UI doesn't ship a question-serving screen the
-      selector underneath it hasn't caught up to.
+      folder, each with builder grounding-flags for your review.
+      **UPDATE 2026-08-02: #402's second gate (role selection / RM-10 / Increment 2)
+      dropped, same call as #102's** — general-voice-only means there's no selector for
+      a question-serving screen to wait on. #402 now gates on this content review alone:
+      Mark's review of the 4 drafted worlds' guided-starter content is the only thing
+      left blocking Increment 3.
 - [ ] **NEW: outreach one-pagers DRAFTED 2026-07-16** — church-fund, world-sponsorship
       ($3,500), Wabash pilot (all in Ministry/Funding, awaiting markup).
 - [ ] **NEW 2026-07-22 — Fill in the Hope Over Crisis / LDI China specifics** in the
@@ -962,7 +964,7 @@ check of the real Living Table build in a running conversation — see LT-1.
 | 708 | Lilly positioning | 706, 305 |
 | 709 | Praxis application prep | 603 |
 | RM-10 / Incr. 2 | Role selection UI + Representative Modes merge decision — owned by front-end thread, never before/during P1 | RM-8 (Battery A must pass) **and** the 4-lane pause's own re-entry trigger (real pilot feedback from professors/academics — see the DECIDED 2026-07-24/25 entry in DO NOW) |
-| 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) **and** RM-10/Increment 2 (role selection must land first — a question-serving screen can't ship ahead of the selector it's served through) |
+| 402 / Incr. 3 | Post-table question serving (role-served walks) shipped in UI | 201 (content review) only — RM-10/Increment 2 dropped 2026-08-02, same call as #102's (general-voice-only has no selector to wait on) |
 | RM-11 | Onboarding copy: mention role selection | RM-10/Increment 2 (or earlier, content-only) |
 | RM-12 | `role=`/`worlds=`/`mode=` URL parse-site reconciliation | whichever merges second: RM-10/Increment 2 or Increment 4 (World Map merge) |
 | RM-13 | Tier B: role → default transparency mode | Mode One/Two toggle (not yet built) |
