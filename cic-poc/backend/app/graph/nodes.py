@@ -432,6 +432,27 @@ def classify_frame_breaker(message: str) -> bool:
         return False
 
 
+def build_table_composition(state: ConversationState) -> str:
+    """
+    FLAG-019 fix (2026-07-28): the frame answer is conditioned on the
+    ACTUAL table composition - seated voices by name and world - so its
+    examples can never confabulate worlds this project does not carry.
+    Shared by the streaming path below and main.py's non-streaming
+    frame-breaker branch, whose prompt template requires this field.
+    """
+    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
+    seated_ids = state.world_ids if state.world_ids else [state.world_id]
+    seated_lines = []
+    for wid in seated_ids:
+        info = REPRESENTATIVE_INFO.get(wid) or {}
+        seated_lines.append(f"- {info.get('name', wid)} - the voice of {wid}")
+    return (
+        "Seated at THIS table:\n" + "\n".join(seated_lines) +
+        "\nThe project's worlds are early-Christian formation traditions "
+        "only; no other traditions, eras, or named figures exist as voices "
+        "here.")
+
+
 def stream_frame_breaker_response(state: ConversationState):
     """
     Stream the Facilitator's threshold-voice answer to a frame-breaker
@@ -452,20 +473,7 @@ def stream_frame_breaker_response(state: ConversationState):
             last_human_message = msg.content
             break
 
-    # FLAG-019 fix (2026-07-28): the frame answer is conditioned on the
-    # ACTUAL table composition - seated voices by name and world - so its
-    # examples can never confabulate worlds this project does not carry.
-    from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
-    seated_ids = state.world_ids if state.world_ids else [state.world_id]
-    seated_lines = []
-    for wid in seated_ids:
-        info = REPRESENTATIVE_INFO.get(wid) or {}
-        seated_lines.append(f"- {info.get('name', wid)} - the voice of {wid}")
-    table_composition = (
-        "Seated at THIS table:\n" + "\n".join(seated_lines) +
-        "\nThe project's worlds are early-Christian formation traditions "
-        "only; no other traditions, eras, or named figures exist as voices "
-        "here.")
+    table_composition = build_table_composition(state)
 
     full_text = ""
     usage_chunk = None
