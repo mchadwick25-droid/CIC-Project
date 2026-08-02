@@ -11,6 +11,15 @@ the marked additions throughout. Per Mark's direct instruction: the open items b
 into this thread as open questions to raise with Mark directly** — not resolved by this
 thread on its own initiative.
 
+**Also per Mark's direct instruction, 2026-08-02: visuals and functionality are part of
+this thread's actual deliverable, not just content/data work.** This thread stays
+Fable-led (Fable's own track record on this exact workstream — the spec, the census, the
+narrative spine, the prototypes — is the reason, not a default). Delegate mechanical or
+verification-only sub-tasks (bug fixes, drift checks, fact cross-referencing) to
+sub-agents where that's clearly faster without diluting the design judgment; don't
+multiply agents or passes beyond what the actual work needs — token budget is finite
+this week, so lean and real beats broad and thin.
+
 **Scope note, read this before proposing anything:** this is not a from-scratch design.
 The landscape data model this ask describes — every identified Christian tradition
 across all ten eras, not just the traditions CiC will build — **already exists and is
@@ -170,10 +179,13 @@ scratch. It is, in rough priority order:
 
 ## What to produce
 
-A real design document plus, where the scope decision above lands on visual/build work,
-an actual implementation — not just a proposal, since Tier A is a website (`cic-website/`)
-this project already ships directly, not a gated `cic-poc` release. Use this project's
-own `[M]`/`[E]`/`[S]` tagging discipline (measured / estimated / speculative) for any
+**Real visual design and working functionality, not a content/data report with a design
+memo attached.** The census and narrative work are already largely done (see above) —
+what v3 actually adds is craft: how the map looks, how it feels to explore, how
+hover/click/zoom/search actually behave. A design document alone is not the deliverable;
+an actual implementation is, since Tier A is a website (`cic-website/`) this project
+already ships directly, not a gated `cic-poc` release. Use this project's own
+`[M]`/`[E]`/`[S]` tagging discipline (measured / estimated / speculative) for any
 completeness or quality claim. End with a clear, explicit list of what's decided and
 built versus what still needs Mark's own call.
 
