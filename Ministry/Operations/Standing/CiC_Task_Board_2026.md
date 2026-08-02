@@ -736,23 +736,34 @@ check of the real Living Table build in a running conversation — see LT-1.
       3. **625 — DONE 2026-07-21 — Organizational Resolutions signed** by Mark and
          Susan (Bylaws adopted, officers elected, share issuance and bank account
          authorized). Saved: `Faithways_Studio_Bylaws_and_Resolutions_SIGNABLE.pdf`.
-      4. **620 — NEXT: Open the corporate bank account and fund $40 founder capital**
-         ($20 each from Mark and Susan, referencing "Founder Capital Stock Purchase") — reduced
-         from the original $700 (Mark and Susan share only a joint personal account); the
-         Organizational Resolutions were corrected and re-signed to match. Waiting on the CO SOS
-         business-search record to catch up before finishing the Relay application. **Update
-         2026-07-21: Stripe account setup and linking to `cic-website/support.html`'s giving flow
-         is expected within the next couple of days once Relay is finalized** — the site's
-         current mailto-based giving flow is the correct interim state until then, not a gap to
-         fix separately.
-      5. **621 — DONE 2026-07-21 — IP Assignment Agreement and Shareholder Buy-Sell Agreement
-         both signed**, copies given to Susan. Saved:
-         `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE.pdf`,
-         `Faithways_Studio_Shareholder_Agreement_SIGNABLE.pdf`.
-      6. **622 — Issue the Notice of Uncertificated Shares** to Mark and Susan
-         (C.R.S. § 7-106-207 / § 7-101-505 disclosure).
-      7. **623 — File the "Church in Conversation" trade name (DBA)** — depends only
-         on #603, so it can run in parallel with 624–622 rather than waiting on them.
+      4. **620 — IN PROGRESS 2026-08-02 (still not DONE): Relay account is open**, Mark and
+         Susan both genuine true co-owners (the deciding reason Relay was chosen over Novo —
+         Novo only supports primary + added-user, not real joint ownership). **The $40 share
+         purchase ($20 each) is initiated but NOT yet cleared** — first transfers on a new
+         account, expected a few days to process. **Do not mark this done until it clears** —
+         shares aren't validly issued until then. Remaining sub-step: add the "Church in
+         Conversation" DBA to the Relay account itself (separate from the state trade-name
+         filing below — the bank needs to be told independently before checks/payments under
+         that name work). Verified against `Ministry/Features/Funding-Strategy/Decision-Log.md`,
+         2026-07-27 entries. Stripe linking (noted 2026-07-21) still follows once this clears.
+      5. **621 — DONE 2026-08-02 (corrected from the 2026-07-21 version below) — all three
+         documents now carry the real incorporation date/ID.** The 2026-07-21 signing was
+         against a false Entity ID (20261874960) that never actually completed as a filing;
+         re-verified 2026-08-02 that the Bylaws & Organizational Resolutions and IP Assignment
+         Agreement have been corrected in place (dated correction note preserved, not silently
+         rewritten) to the real Entity ID 20261918758 / Formation Date 07/27/2026, and all
+         three documents (Bylaws, IP Assignment, Shareholder Buy-Sell) have new SIGNED/SIGNABLE
+         PDFs dated 2026-07-27 in `Ministry/Organization/`. Original 2026-07-21 signing, for
+         history: both signed, copies given to Susan.
+      6. **622 — DRAFTED 2026-07-27, not yet finalized/signed.** Notice of Uncertificated
+         Shares to Mark and Susan (C.R.S. § 7-106-207 / § 7-101-505 disclosure) drafted —
+         `CiC_Notice_of_Uncertificated_Shares_DRAFT_2026-07-27.md` plus per-person PDFs.
+         Waiting on #620's share transfers to actually clear before finalizing, so the notices
+         carry the real issuance date rather than a premature one.
+      7. **623 — DONE 2026-07-27 — "Church in Conversation" trade name (DBA) filed and paid**
+         ($25, receipt received), a registered Colorado trade name of Faithways Studio, Inc.
+         Still needs adding to the Relay account itself — tracked under #620's remaining
+         sub-step above, not a second open item.
 - [ ] **RM-7 — Review the Representative Modes demonstration.** React-to-first piece —
       the Chloe four-mode demo artifact
       (https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e) and Design
@@ -1054,12 +1065,12 @@ check of the real Living Table build in a running conversation — see LT-1.
 | ~~604~~ | ~~1023-EZ~~ — **SUPERSEDED 2026-07-21**, entity is a PBC, no 501(c)(3) filing | — |
 | ~~605~~ | ~~Board recruitment (3 clean independents)~~ — **SUPERSEDED 2026-07-21**, PBC has no mandated independent board | — |
 | ~~606~~ | ~~CCSA registration~~ — **SUPERSEDED 2026-07-21**, nonprofit-only charitable-solicitation requirement | — |
-| 620 | Open corporate bank account (Relay) + fund $40 founder capital | 602 posture — waiting on CO SOS record catch-up |
+| 620 | Open corporate bank account (Relay) + fund $40 founder capital — **UPDATE 2026-08-02: no longer blocked, Relay account open, $40 transfer initiated, just not cleared yet — see DO NOW** | — |
 | ~~608~~ | ~~First board meeting (+ compensation policy)~~ — **SUPERSEDED 2026-07-21**, see #625 (Organizational Resolutions, DONE) in DO NOW | — |
 | ~~613~~ | ~~Stipend trigger policy adopted~~ — **SUPERSEDED 2026-07-21**, nonprofit-specific | — |
 | ~~612~~ | ~~GATE nonprofit fully established~~ — **SUPERSEDED 2026-07-21**, replaced by #602's PBC formation checklist (620–625) in DO NOW | — |
-| 622 | Issue Notice of Uncertificated Shares | 620 |
-| 623 | File "Church in Conversation" trade name (DBA) | 603 (done — can run now) |
+| 622 | Issue Notice of Uncertificated Shares — **UPDATE 2026-08-02: drafted, waiting on #620's transfer to clear before finalizing — see DO NOW** | 620 |
+| ~~623~~ | ~~File "Church in Conversation" trade name (DBA)~~ — **DONE 2026-07-27**, see DO NOW | — |
 | 403 | Engagement One (500-user infra) | 103, 502 |
 | 104 | P2 cohort (~100) | 103, 402 |
 | 503 | World sponsorship asks | 701, 703 |

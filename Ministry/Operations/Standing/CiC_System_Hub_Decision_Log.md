@@ -4796,3 +4796,26 @@ Both follow-ups: `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sw
 **Synced:** nothing new from this report's disputed claims — none of it. The only changes made this pass are the 5-file gap fix above, which corrects a genuine, independently-confirmed past error, not anything from today's report.
 
 **Flagged to Mark directly, not resolved here:** whether the Funding Strategy thread's local session state has simply drifted from what's pushed (same explanation as the earlier Cost-Reduction message this session), or whether something else explains why four distinct, specific artifacts were reported as real and aren't. Worth knowing before relying on that thread's next report, or on the cost-reduction implementation work it says is already scoped and ready.
+
+---
+
+## 2026-08-02 (later still) — Funding Strategy thread's push gap: confirmed real, closed, re-verified; Task Board synced
+
+**What happened:** Mark relayed the discrepancy list above directly to the Funding Strategy thread. It checked its own git state, found the explanation was exactly what System Hub had guessed as one of two live possibilities — a push gap, not fabricated work — and closed it: commit `052bfa4` on `main` (co-authored, not this hub's commit), pushed and self-verified against remote history. A follow-up commit `ba0e05c` added an addendum to its own sync-update file recording the fix and one honestly-flagged loose end (a few earlier files that checked out on the first pass weren't committed by that thread either, and it doesn't have a confident account of how they got into the repo — flagged rather than guessed at).
+
+**Independently re-verified before treating any of it as settled, same as every claim this session:**
+- `git fetch` + `git log origin/main` confirmed both commits real and on `main`.
+- Read the actual diffs, not the commit messages. The Bylaws and IP Assignment `.md` files now carry the real Entity ID (20261918758) and date (07/27/2026), with the correction appended and the original false text struck through in place rather than silently rewritten — matches this project's own standing convention. The Shareholder Agreement `.md` has no textual ID/date to correct (confirmed true back on 2026-07-27 too) but gained real SIGNED/SIGNABLE PDFs alongside the other two.
+- Both new cost-study documents read in full: real, codebase-grounded content, citing actual figures already on record in this hub's own Decision Log (the $2/hour correction to the stale $1.25–1.50/hour anchor) — not filler.
+- The cost-reduction build-scope dispatch cites real code locations (`graph/nodes.py`'s three `cache_control` sites, `graph/repair_classifier.py`'s `repair_adjudication`) — checked directly against the actual backend code, both present and matching.
+- All new PDFs are real, non-trivial file sizes (300–450KB), not empty stubs.
+
+**Everything now checks out.** Merged `origin/main` into this branch to pick it all up (three conflicts — Task Board and this log, both simple "my branch added a section main didn't have yet," plus an add/add conflict on the Atlas launch prompt where main carried the pre-revision original and this branch carried the fully-corrected version; kept this branch's version in all three, nothing lost from either side).
+
+**Synced to the Task Board**, now that the underlying facts are verified rather than merely reported:
+- **#620** — no longer "waiting on CO SOS catch-up" (stale reason): Relay is open, Mark and Susan genuine co-owners, $40 transfer initiated but **not cleared — left explicitly not-done**, per the report's own caution. Remaining sub-step (add the DBA to Relay) folded in here rather than tracked separately.
+- **#621** — corrected in place: three documents, not the original signed set, now carrying the real date/ID with history preserved.
+- **#622** — now DRAFTED (was fully open), still not finalized — waiting on #620's transfer to clear before the notices carry a real issuance date.
+- **#623** — now DONE: DBA filed and paid 2026-07-27, confirmed in `Ministry/Features/Funding-Strategy/Decision-Log.md`. Removed from the BLOCKED table along with #620 (no longer blocked, actively in progress).
+
+**One more check, not left assumed:** the Answer Bank rescission claim — the one piece of the original report whose cited source (`Decision-Log.md`) genuinely didn't contain it on the first check — was re-checked against the now-merged, ~823-line file. It's there: a 2026-08-02 entry titled "Mark rescinds the Answer Bank design doc's 'do not build inference-based serving matching' recommendation," Mark quoted directly ("that is exactly what we need"). Confirmed true, not just present by association with everything else checking out. **Still genuinely owed, not done here:** the dated correction note in `Ministry/Features/Guided-Questions/CiC_Answer_Bank_Full_System_Design_V0_1.md` §3.4 itself, which still states the old, now-rescinded recommendation in writing — that document belongs to a different thread's ownership, not edited from here.
