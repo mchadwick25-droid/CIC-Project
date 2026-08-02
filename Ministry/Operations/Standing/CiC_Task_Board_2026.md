@@ -185,7 +185,9 @@ check of the real Living Table build in a running conversation — see LT-1.
         know what to ask?" participant-facing feature (Increment 3 / #402) is the current
         priority, active now, and is NOT a cost-savings mechanism** — it serves the rich
         per-world Guided Starters content (`World-Builds/<world>/*Guided_Starters_V0_1_DRAFT.md`,
-        all 6 now drafted, see #201) as onboarding/navigation, unrelated to SH-11's
+        5 of the 6 live worlds now drafted — Post-Apostolic, Alexandria, Desert,
+        Hieronymian, Syriac; Imperial-Juridical was never in this batch's scope and has
+        none — see #201) as onboarding/navigation, unrelated to SH-11's
         precomputed-answer caching. The two features share the same underlying "closed
         question set" shape, which is why they were easy to conflate, but they solve
         different problems on different timelines.
