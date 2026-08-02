@@ -249,8 +249,15 @@ check of the real Living Table build in a running conversation — see LT-1.
         risk before pushing. Item 1's 4th site (`repair_classifier.py`'s
         `adjudicate_challenge`) — checked, turned out **not** the same drop-in fix the
         dispatch implied (boundary-marker text doesn't match the prompt, and the variable
-        content sits before the stable content in it) — real caching there needs the prompt
-        restructured, flagged rather than done. Item 2 (regeneration bug) and Item 3 (Answer
+        content sits before the stable content in it); **DONE anyway, `ff2b307`**, at Mark's
+        direct request — prompt restructured (contested-claim records moved next to capsule so
+        the cacheable prefix is contiguous), verified by a real content-equivalence check
+        (identical section-by-section content old vs. new, only the section order changed).
+        **One real gap left open, not silently closed:** no live-model behavioral check —
+        this session had no working `ANTHROPIC_API_KEY` despite a thorough search including an
+        actual API round-trip (reached Anthropic, got a real 401, confirmed no valid key rather
+        than a proxy block). Mark says one was specifically configured for this environment —
+        unresolved, his help needed. Item 2 (regeneration bug) and Item 3 (Answer
         Bank) — correctly untouched, the dispatch itself says both need more before shipping
         (live battery data; the Fable process, respectively). Full account: System Hub
         Decision Log, 2026-08-02 (later still, "First real cost-reduction fix shipped").
