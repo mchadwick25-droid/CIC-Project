@@ -243,6 +243,17 @@ check of the real Living Table build in a running conversation — see LT-1.
         dispatch as currently written assumes direct implementation by "the build thread,"
         not a Fable plan/blueprint pass first — that framing may need revisiting once this
         actually starts, rather than assumed still current.
+        **Update 2026-08-02 (later still), Mark's direct call: the simple items in the
+        build-scope dispatch don't wait on the Fable process above.** Item 1's core (cache
+        TTL bump, 3 sites in `graph/nodes.py`) — **DONE**, `1d8e952`, verified zero-behavioral-
+        risk before pushing. Item 1's 4th site (`repair_classifier.py`'s
+        `adjudicate_challenge`) — checked, turned out **not** the same drop-in fix the
+        dispatch implied (boundary-marker text doesn't match the prompt, and the variable
+        content sits before the stable content in it) — real caching there needs the prompt
+        restructured, flagged rather than done. Item 2 (regeneration bug) and Item 3 (Answer
+        Bank) — correctly untouched, the dispatch itself says both need more before shipping
+        (live battery data; the Fable process, respectively). Full account: System Hub
+        Decision Log, 2026-08-02 (later still, "First real cost-reduction fix shipped").
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
