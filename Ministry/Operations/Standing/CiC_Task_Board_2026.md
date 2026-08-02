@@ -1241,3 +1241,14 @@ everything below was not yet started when the descope landed.
 (Reformation 7 → 5 before any gate bends); if P2 and the build calendar strain, the
 build calendar wins; review status is always disclosed honestly; no funder deadline
 compresses a gate.
+
+**Standing rule, added 2026-08-02 — verify file-based claims before marking them
+done.** Root cause of the #201 mislabeling incident: this board asserted "ALL 4
+WORLDS DRAFTED," naming four specific file paths, without anyone checking those
+paths against the actual repo — 2 of the 4 didn't exist, and a 3rd was mislabeled
+(claimed Syriac, actually Alexandria). Going forward, any entry on this board that
+names a specific file, or claims a set of files/deliverables is complete, must be
+checked against the real repo at the time it's written — `ls`/`find`/`Read`, not
+memory or a builder's self-report taken on faith. This is cheap to do and expensive
+to skip; the mislabeling stood for at least two weeks (2026-07-16 to 2026-08-02)
+before a direct review request happened to surface it.
