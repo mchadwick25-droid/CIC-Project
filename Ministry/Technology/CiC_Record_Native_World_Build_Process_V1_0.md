@@ -1,0 +1,318 @@
+# CiC Record-Native World Build Process — V1.0 (2026-08-01)
+
+**What this document is:** the single end-to-end process for building a NEW
+formation world, from Step-0 scope confirmation through a frozen, deployed,
+live-verified Representative — with every upgrade the S6.2 record-store
+migration (2026-07-26 → 2026-08-01) proved on the six existing worlds built
+in from the first record, not retrofitted afterward. A new world built under
+this document is **born record-native**: authored directly into the
+schema-validated WRS record store under the live gates, with the deployed
+prompts and chunks *generated from* the records — there is no separate
+"migration pass" for a world built this way, because the migration IS the
+authoring.
+
+**What governs, in order of authority (this document does not replace any
+of them — it sequences them and fills the gaps between them):**
+
+1. `L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`
+   — the Construction Framework (governing since 2026-07-27; carries the
+   Table Readiness Round, the Record Integrity Principle, the Source
+   Registry freeze gate, and the Validation Protocol Rigor discipline).
+2. `L3C-Representative-Methodology/CiC_L3C_Representative_Construction_Framework_V3.2.docx`
+   — the RCF (Part Three Ecology Assessment; Part Eight Validation Testing;
+   Phase Eight Table Readiness Round).
+3. `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.0.md`
+   — the freeze-requirements source of truth (the CF's own pointer target).
+4. `Project-Reference/CiC_OneDocAtATime_Build_Protocol_2026-07-06.md`
+   — the one-document-at-a-time, review-gated build discipline.
+5. `Ministry/Technology/Pass2/SESSION_CONTRACT.md`
+   — the session rules (adapted here for a new-world build; see §6).
+6. This document — the sequence, the record-native additions, and the
+   S6.2 upgrade inventory (Appendix A).
+
+**Vision framing note (standing, Mark):** purpose statements and any
+participant-facing copy produced during a build lead with making
+experiential Christian formation available; the product is the current
+means, never the mission's definition. The Brand Kit QuickRef governs all
+public wording.
+
+---
+
+## 1. The human checkpoints — exactly three, by design
+
+This process is fully automated EXCEPT where authority genuinely cannot be
+delegated. Three stops, no more:
+
+**M1 — Representative identity (mid-build, after Doc_09).** The build
+thread prepares the grounded-options artifact per the build-cycle
+discipline's own escalation rule: a scored options table for ROLE (each
+option grounded in the world's own methodology facts, with named
+trade-offs) and for NAME (scored on ecological resonance, authenticity,
+collision-with-a-real-figure risk, gender clarity, memorability), plus ONE
+recommendation for each. Saved as
+`World-Builds/<World>/<code>_Representative_Identity_Options.md`. The
+thread STOPS and presents the table to Mark. Precedent to imitate: both
+prior executions of this pattern —
+`World-Builds/Alexandria-Catechetical-School/Representative/alex_Representative_Identity_Options.md`
+(Mark rejected both recommendations and chose "Theon," with reasoning
+recorded) and
+`World-Builds/Hieronymian-Ascetic-Literary/hal_Representative_Identity_Preliminary_Decision.md`
+(Mark adopted a fifth option not among the four presented — the *vidua*
+Albina, with the naming-collision risk disclosed and accepted on the
+record). The lesson from both: Mark's answer is frequently NOT the
+recommendation — present real options with real trade-offs, record his
+actual decision verbatim in the same file, and never proceed on the
+recommendation alone.
+
+**M2 — Article 29 (Living Traditions) determination (at the freeze).** A
+project-lead act by Constitution Article 29 — the build thread drafts the
+determination with full history and its own recommendation, carries the
+status as `provisional` until Mark confirms, and lists it in the freeze
+declaration's RESOLVED-AT-THE-FREEZE section for his explicit word.
+(Article 31 telos review is NOT a stop: provisional by design until year
+two, per Mark's standing 2026-07-31 ruling.)
+
+**M3 — The freeze itself.** Only the project lead assigns Frozen, under
+any circumstance (build-cycle discipline, unchanged). The thread completes
+everything, drafts the freeze declaration, and stops with a completion
+summary. Mark's "push and make final" (or equivalent) executes it.
+
+Everything else — every document, every review round, every record, every
+gate fix, every battery reprobe — the build thread decides and records
+autonomously (decisions logged, never silent), per the S6.2 autonomy
+addenda: full in-world autonomy, stop only at the checkpoints above and at
+the world boundary.
+
+---
+
+## 2. Phase A — World construction (Step 0 → Doc_10)
+
+The document sequence, unchanged from the six built worlds, run under the
+one-document-at-a-time cycle (draft → adversarial review → revision →
+disposition), with the review loops agentized (§5):
+
+| Step | Document | Notes and per-step quality bars |
+|---|---|---|
+| 0 | `Step0_Movement_Scope_Confirmation` | Confirm the world against `CiC_Step0_Conclusion_FINAL_v2.docx`'s portfolio entry before anything else. |
+| 1 | `Doc_01` World Identification, Boundaries, Orientation | Article-21 strand analysis here if the world is strand-plural (PAHC and IJC precedents: strands ride `world_core`'s body until the strands schema CO lands). |
+| 2 | `Doc_02` Source Ecology | **Use the Source Registry Template from the first row** (V7.4 freeze gate) — machine-readable rows, per-row confidence/boundary-status/licensed-for/verification-note. PAHC's 73-row JSON registry is the best-practice model; it made its S2.1 fully mechanical. Every load-bearing caveat (do-not-cite flags, pending-verification lists) written as its OWN row field, not prose — S6.2 spent real effort re-deriving these. |
+| 3 | `Doc_03` Lexicon Candidate List | Term front-matter per the lexicon-index discipline (Tier, AS/SC/DR/TC/RT/PV/CT tags). **NEW: run the alias-safety preflight NOW** (§3, B-2) — author aliases against Rules A/B from birth so no retrofit is ever needed. |
+| 4 | `Doc_04` Gravity Discovery | Six-test assessment per gravity; Confidence/Gravity Cross-Check on every Primary; forces-connection notation per gravity. No L4 template exists for this step — the gravity-index discipline is the bar. |
+| 5 | `Doc_05` Ecological Reconstruction | |
+| 6 | `Doc_06` Full Lexicon Development | CT Contest Type completion audit before clearing review. |
+| 7 | `Doc_07` Integrated Ecology Analysis | |
+| 8 | `Doc_08` Forces Document | Six-cell matrix, three layers per force, Section 4 cross-cell connections, Section 5 forces-and-gravities synthesis, per the forces-index bar: connections must be LOOKUPABLE, not re-read-the-whole-document discoverable. |
+| 9 | `Doc_09` Story Inventory (+ 09a-c as needed) | Four-tier rule (no Tier 5 / no invented narrative); the Absent Stories question answered explicitly; per-story tier justifications. |
+| — | **M1 STOP — Representative identity** (§1) | |
+| 10 | `Doc_10` Representative Construction Notes + Permanent Prompt | Built AFTER M1, on the decided identity. Voice, registers, demonstrations. RCF Part Three Ecology Assessment (4 domains + Thinness Mapping) produced here — it calibrates the Phase-D probes. |
+
+**Index artifacts:** the old per-world `.xlsx` workbooks are RETIRED for
+new builds. Their function (filterable indexes for tier/tag/risk-flag/
+result review) is served by the record store itself plus its generated
+views — S6.2's close-out audits machine-verified the old workbooks as
+fully absorbed before retiring them. Do not create new workbooks.
+
+---
+
+## 3. Phase B — Record-store authoring (born under the live gates)
+
+This is where a record-native build departs from the six worlds' history:
+instead of finishing Phase A and later migrating, each Phase-A document is
+converted into WRS records AS IT CLEARS REVIEW, under the live gates, by a
+committed per-step script (the S6.2 `s62_<code>_s2X.py` pattern — write
+the same scripts, named `wb_<code>_s2X.py`, each with the dense docstring
+discipline: exact source doc/section cited, mechanical-vs-authored
+declared, every judgment call named). Hieronymian is the proven template —
+the first world authored under the live alias-safety gate, **it opened at
+zero and closed at zero; no retrofit was ever needed**. That is the
+standard: gates green from the first record.
+
+The step sequence (S6.2's, now canonical):
+
+| Step | What | S6.2-proven quality bars baked in |
+|---|---|---|
+| B-1 (S2.1) | Source rows from Doc_02's registry + `<code>core001` world_core | Mechanical if the registry followed the template. Registry caveats carried VERBATIM as row licenses. `language` per row (schema requires it — declare judgment calls in the docstring). Article-29 status carried provisional for M2. |
+| B-1a (S2.1a) | Discovery sweep | Read every planned citation surface; row every genuine miss with real discovery data; declared non-rows with reasons; `src<CODE>search001` sweep record with saturation statement + coverage limits. |
+| B-1b (S2.1b) | Relative recall + PRESS | Ten-item independent recall test (fleet range: 6/10–9/10; a clean sweep is PAHC's 9/10 + zero miss rows). PRESS question asked verbatim; namings routed to the pre-freeze re-sweep. |
+| B-2 (S2.2) | Mechanical lexicon split → term records | **Born at alias_safety ZERO**: aliases parsed under the runtime's own `parse_aliases` semantics at authoring; Rule-A generics resolved at birth (gloss-route, drop, or documented `alias_generic_override_note` — the bare-Christ/Prayer class only); Rule-B collisions picked per-term. Coverage assertion: every source sentence lands in exactly one record. |
+| B-3 (S2.3) | Term authoring — senses, confidence, voice, typed relations | Confidence EXTRACTED from the doc's own confidence blocks, never re-judged. Relations fully reciprocal (the gate enforces: presupposes↔presupposed-by INVERSE; tension/associated/competing/reshaping SYMMETRIC; back-edges elsewhere). Schema enums are real — see Appendix B's collision list before authoring. Confirmed-gloss entries authored INTO `wrs/glosses/confirmed_glosses.yaml` (schema-validated, term_id set at birth — no backfill debt) and flagged per-entry for Mark's one-at-a-time confirmation. |
+| B-4 (S2.4) | Story + figure records | Tier justifications verbatim; composites carry their own element-to-source tables; outsider witnesses own their accounts; boundary figures declared (no-story, preserver-only, no-figure skips); FECs parked verbatim for B-5. |
+| B-5 (S2.5) | Gravity + force records | Doc_04/Doc_08 reasoning carried IN FULL, not summarized; interaction matrices mirrored exactly including no-relationship pairs; FEC→gravity_links only where the chunk's own words support it — never force-fit (FLAG-029's lesson: a wording variance gets flagged upstream, not silently converted). |
+| B-6 (S2.6) | Contested-claim records | Primary-gravity minimum; CT parkings absorbed; divergence partners mapped LIVE against the frozen fleet's claims (`partner_claim_id` set); non-claims declared with reasons. |
+| B-7 (S2.7) | Voice record + demonstrations | Register position warranted by the world's own genre evidence (the fleet holds six distinct positions — a new world earns its own or inherits none). `native_measure` MEASURED from real generations, not designed (PAHC's designed-70w vs measured-246-272w divergence is the cautionary case). Demonstrations grep-clean against the record store. |
+| B-7a (S2.7a) | Facilitation guidance onto world_core | Pairings riding LIVE partner claims with built-in cautions (ending-not-read-back both ways; contemporaries-not-stages; the handoff containment class); telos (provisional/Art-31); living_traditions (provisional for M2). |
+| B-8 (S2.8) | Generated views + four parities | Chunk views GENERATED from records; render parity (0 unclassified defects); retrieval parity vs the committed production baseline (**the verdict rule:** isolation-harness reproduction is diagnosis only — the production eval against the committed baseline is the verdict; FLAG-033's lesson); prompt coverage (zero GAPs); probe parity (held-out probes, blind, two-trial — deployed-side true-positives become record-derived guard candidates, the FLAG-030/036 class). |
+| B-9 (S2.9) | Change-order decisions + chunk swap | The swap makes the record store drive this world's production. Post-swap: render identity, full production eval metric-identical, baseline saved. Prompt guards added ONLY record-derived, deployment-copy-only, cold-verified (the HAL-2/IJC-2 pattern). |
+
+**The re-proof rule (FLAG-037, fleet-level):** any prompt fix proven in an
+isolated harness MUST be re-proven under the deployed runtime (RAG +
+capsule dilution) before it counts. Depth-of-drilling correlates with
+survival; the election-scene seam defeated two guard layers before a
+targeted prompt sharpening closed it.
+
+---
+
+## 4. Phase C — Deployment wiring
+
+Everything S6.2 and the go-live day proved can break, as a checklist:
+
+1. `app/world_manifest.py` entry (world_id, name, subtitle, period, region,
+   description, representative block, color chosen from rendered swatches).
+2. The two hand-synced frontend points (the manifest docstring names them):
+   `SpeakerName` union + `MessageBubble.tsx` `REPRESENTATIVE_NAMES`;
+   `tsc --noEmit` clean.
+3. Vector indices built at Docker build time (`build_indices.py`) — never
+   at runtime startup (the OOM lesson).
+4. **Dockerfile audit for new runtime dependencies** — the 2026-08-01
+   go-live regression: a data move made `wrs/glosses/confirmed_glosses.yaml`
+   a runtime dependency the image never copied, breaking every deploy until
+   root-caused from the real Render build log. Any new file the app imports
+   at runtime must be verified present in the image.
+5. `HARD_CEILING_WORLDS` entry (`app/graph/nodes.py`) from the MEASURED
+   voice profile + battery evidence, with the retry-trigger multiple;
+   `cost_baseline_runner.py`'s `CEILING_WORLDS` kept in sync (the
+   observability gate enforces).
+6. `POST_HISTORY_GUARD` wiring for the world (`wrs/views/segments/guards.py`
+   → `nodes.py`) — the layer that rides closest to generation; add
+   world-conditional clauses only on battery evidence.
+7. Live smoke test against the REAL deployed site after the deploy — a real
+   session, a real message, citations inspected. Freeze batteries validate
+   the build environment; only a live conversation validates the deploy
+   (the Deep-Interview sweep's reason for existing).
+
+---
+
+## 5. Phase D — Validation and freeze (agents and loops required)
+
+**The battery (V7.4 Validation Protocol Rigor, verbatim discipline):** two
+independent generation trials — one resampled from development probes, one
+held-out novel; fresh-context generation; masked transcripts; BLIND
+grading by an independent agent that never saw the build. Categories: RCF
+Part Eight's eight, PLUS parroting and pushback (S5.6's additions), PLUS
+every world-specific REQUIRED probe the build accumulated (each
+probe-parity true-positive, each prompt-guard's cold reprobe, the
+carried-not-authored class where demonstrations ride predecessor
+evidence). Ecology-Assessment thinness calibrates probe weight; clean
+passes in known-hard-to-detect domains are provisional, not clean.
+
+**The loop discipline ("loop until dry," not "run once"):** every FAIL gets
+root-caused → fixed record-derived → COLD-reprobed under the deployed
+runtime → the battery's failed class re-run until clean. S6.2's freezes
+each carried at least one such loop (FLAG-018's four-layer fix and re-run;
+FLAG-031's 6/6; FLAG-036's 10/10; FLAG-037's three classes with the 8/8
+election-scene close). A battery that fails and gets explained is not a
+battery that passed.
+
+**The TRR (Table Readiness Round), under Mark's standing cost policy
+(2026-08-01):** representatives at a table HARD-CAPPED AT 3; the round
+SAMPLES the frozen-partner set — pick the 2–3 sharpest pairings from the
+world's own B-7a pairing disciplines, never one table per frozen world.
+Three grading axes; every pairing discipline that is pressed must hold.
+Graded on available evidence if spend is interrupted — a declared evidence
+limit, never a silent gap (the hal-table precedent).
+
+**Cost guardrails (real incidents, not hypotheticals):** batteries/TRRs are
+the expensive step (~$30 for a full PAHC battery); API credit exhaustion
+killed a TRR table mid-run once — checkpoint battery state so an
+interruption resumes instead of restarting; watch spend during
+battery-heavy sessions; the weekly Fable allocation governs when a build
+may start (SESSION_CONTRACT addenda).
+
+**The freeze package:** gate report + freeze declaration
+(`gates/<code>_FREEZE_GATE_REPORT.md`, `<code>_FREEZE_DECLARATION.md`, the
+S6.2 shape: what the freeze rests on; RESOLVED-AT-THE-FREEZE listing M2;
+resolved-and-standing items; watch items; standing search limits), the
+fleet sweep green (records validate, glosses validate, matrix clean, all
+gates zero, selftest green, retrieval metric-identical to baseline), and
+the world-boundary completion summary for M3.
+
+---
+
+## 6. Session rules (the contract, adapted for a new-world build)
+
+The `SESSION_CONTRACT.md` rules apply with `BUILD_STATE`-equivalent
+tracking in the world's own build ledger:
+
+1. Read the build ledger first; resume from its resume point.
+2. Re-run the previous checkpoint before new work (kind-specific meaning
+   per the contract).
+3. One declared step at a time, with `Touches:`.
+4. **Gate-integrity rule:** never edit a gate in the session that must
+   pass it.
+5. Full in-world autonomy; every decision recorded; stops only at
+   M1/M2/M3 and the world boundary.
+6. Defects → `FLAGS.md`, never silently patched. Upstream wording problems
+   are referred, not rewritten (the FLAG-029 discipline).
+7. End every session deployable; partial work commits at the last green
+   checkpoint.
+8. Commits carry step IDs; **push only on Mark's word.**
+9. Safety-regression and retrieval-regression rules as in the contract
+   (any step touching the intercept chain or retrieval ends with the
+   full rerun/diff against the committed baseline).
+
+**Agents and looping (how "the current system was built," now required):**
+adversarial reviews run as INDEPENDENT subagent rounds (2–3 per document;
+a finding is never dismissed as a tooling artifact without independent
+re-verification; fabricated-content checks are explicit — S6.2's history
+includes a fabricated inverted methodology quotation caught only by
+adversarial review). Battery grading runs blind in an agent that never saw
+the build. Gates loop fix-until-green. The review-agent model-routing
+commitment (which lapsed twice in one historical build) is checked per
+round: graders and reviewers on the tier the task calls for per the
+standing model-allocation policy (Sonnet live/compiling, Opus
+research/design-evaluation, Fable comprehensive passes).
+
+---
+
+## Appendix A — The S6.2 upgrade inventory (what this document captures)
+
+Every mechanism the migration proved, where it lives, and what it caught —
+the ledger of what a new build inherits on day one:
+
+| Mechanism | Lives at | Proved by |
+|---|---|---|
+| WRS record store (13 record types, JSON-Schema validated) | `cic-poc/backend/wrs/{schema,records}/` | 739/739 fleet-wide; one source of truth, drift impossible by construction |
+| Gate battery (7 gates, backfill profile) + selftest | `wrs/gates/{core,run_gates,fixtures}.py` | Zero-violation floor on every frozen world |
+| Alias-safety Rules A/B/C + override mechanism | `gate_alias_safety` in `wrs/gates/core.py` | Caught live production over-broad highlighting (Syriac's bare `truth`/`mystery`/`symbol`); HAL born clean under it |
+| Confirmed-gloss schema + YAML + term_id + runtime parity | `wrs/{schema/confirmed_gloss.schema.json,glosses/confirmed_glosses.yaml}`, `app/prompts/confirmed_glosses.py` | 88/88 validated; byte-identical runtime guidance; Rule C zero cross-namespace violations fleet-wide |
+| Freeze battery V7.4 (two-trial, held-out, fresh-context, blind) | Per-world under `Ministry/Technology/Pass2/batteries/` | Every S6.2 freeze; first ran at S5.6 where it correctly WITHHELD a freeze (FLAG-018) |
+| Table Readiness Round (cost-capped, cap-3) | Per-world under `Ministry/Technology/Pass2/trr/` | Cross-world disciplines pressed live; the policy caps per `decisions/S6.2_M_table_cap_and_trr_cost.md` |
+| HARD_CEILING_WORLDS + retry + observability | `app/graph/nodes.py`, `app/length_ceiling_logging.py` | PAHC's designed-vs-measured divergence; per-world measured entries |
+| POST_HISTORY_GUARD (closest-to-generation layer) | `wrs/views/segments/guards.py` → `nodes.py` | FLAG-018 layer 3; FLAG-037's dilution family |
+| Record-derived prompt guards, cold-verified | Per-world deployment prompts | FLAG-030 (4/4), FLAG-031 (6/6), FLAG-036 (10/10), FLAG-037 (8/8) |
+| Four-parity release gate (render/retrieval/coverage/probe) | `wrs/views/s62_*_{render,retrieval,prompt_coverage,probe}_parity.py` patterns | Real catches at nearly every world's B-8 |
+| The production-eval verdict rule | Baselines under `cic-poc/backend/baselines/` | FLAG-033 resolved by measurement, not argument |
+| The re-proof-under-deployment rule | — (a discipline, §3) | FLAG-037's fleet lesson |
+| Citation-grounding filter | `filter_grounded_citations()` in `app/graph/nodes.py` | The 2026-08-01 live sweep's Syriac finding; verified on real transcripts |
+| Session contract + FLAGS + checkpoint ledger | `Ministry/Technology/Pass2/` | The whole of S6.2's traceability |
+| Gloss scope clause + re-gloss guards | `confirmed_glosses.py` guidance + world prompts | FLAG-034's two-layer fix (PAHC-4/4b, IJC-4) |
+| Article-29 at-freeze confirmation; Article-31 year-two ruling | Freeze declarations; `Ministry/Technology/Pass2/decisions/` | All six worlds carry settled Article-29 states |
+
+## Appendix B — Schema-enum collisions to author around (S6.2's caught list)
+
+Authoring hits these enums; declare, don't invent: `grounding_criterion`
+is enum low/standard/high (free text → `conceptual_distance_note`);
+`field_relations` has no `reinforcing` type (→ mechanism-behind +
+associated-with mirror); `evidentiary_weight` has no `qualified`;
+`trait_rubric` entries require `trait` with intensities as array;
+`avoid_traits` are plain strings; gravity `interaction` is a typed edge
+array (reinforcing/competing/reshaping); force connections need
+reciprocity back-edges; source records require `language`.
+
+## Appendix C — Known gaps this document does NOT fix (flagged for the coach thread / Mark)
+
+1. **The six build skills live OUTSIDE the repo** (the Claude app's local
+   skills cache), unversioned, and none of them mention any Appendix-A
+   mechanism. Recommendation: commit versioned copies into the repo and
+   add a one-line pointer in each to this document. Coach-thread edit
+   authority — not done here.
+2. **CF V7.4 / RCF V3.2 narrow edits** — the docx frameworks absorbed the
+   Table Readiness Round and Validation Protocol Rigor at S6.1 but still
+   say nothing of the record store, the alias gate, or the gloss schema.
+   Framework wording is Mark's, one edit at a time — a proposed edit list
+   is a coach-thread task, not this document's.
+3. **The Cappadocian orphan** — a substantially built world (Doc_01–Doc_10,
+   Representative Eumathios, deployment package) sits on the unmerged
+   branch `origin/CiC-Fable-Cappadocian`, invisible from main. If world
+   building ever resumes, recover and audit it under this process before
+   building anything new; its Phase A may be largely done.
