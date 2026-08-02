@@ -69,11 +69,18 @@ specific question; the subagent reads the source documents itself.
   explicit. Battery grading BLIND, by an agent that never saw the build.
 - **Gates loop until green**; a new record set opens at alias_safety zero
   or the authoring step isn't done.
-- **Every battery FAIL loops**: root-cause → record-derived fix →
+- **Every probe FAIL loops**: root-cause (Fable) → record-derived fix →
   cold-reprobe under the DEPLOYED runtime → class re-run until clean.
   Isolated-harness proof is diagnosis, never verdict.
-- **TRR**: table cap 3, sample the 2–3 sharpest partner pairings only
-  (Mark's standing cost policy, `decisions/S6.2_M_table_cap_and_trr_cost.md`).
+- **LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01):**
+  the free content-accuracy floor (gates/schema/parities/coverage) +
+  ~8–12 single-trial targeted probes blind-graded + ONE live Deep
+  Interview against the real deployed site — interview-class spend
+  (~$1.25–1.80 measured), NOT the ~$30 full battery. The full V7.4
+  two-trial battery and the TRR run on Mark's word only; the TRR is
+  DEFERRED while the multi-representative table is on limited use. The
+  freeze declaration says "content-frozen; table-dynamics deferred" and
+  declares what lean gives up — never silently.
 - Session rules: one declared step at a time; re-run the previous
   checkpoint; never edit a gate that must pass you; defects to FLAGS.md,
   never silent; end every session deployable; commits carry step IDs;
@@ -81,13 +88,14 @@ specific question; the subagent reads the source documents itself.
 
 ## Budget notes (real history, mind them)
 
-Batteries/TRRs are the expensive phase (~$30 class); an API-credit
-exhaustion once killed a TRR table mid-run — checkpoint battery state so
-interruptions resume rather than restart, and surface a blocked-state
-checkpoint if credits run out. The weekly Fable allocation governs pacing;
-if the budget check says the validation phase won't fit this week's
-allocation, stop at the last green checkpoint and say so rather than
-starting a battery you can't finish.
+Lean validation keeps Phase D at interview-class spend, but generation
+steps still draw real credits through the app's own key; an API-credit
+exhaustion once killed a validation run mid-table — checkpoint probe
+state so interruptions resume rather than restart, and surface a
+blocked-state checkpoint if credits run out. Note claude-sonnet-5's
+intro pricing ends 2026-08-31 (costs rise ~50% after). The weekly Fable
+allocation paces the key-component subagent calls; if it won't cover the
+remaining Fable lanes, stop at the last green checkpoint and say so.
 
 ## When done
 

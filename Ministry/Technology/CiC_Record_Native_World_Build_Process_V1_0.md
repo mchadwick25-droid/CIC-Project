@@ -184,39 +184,70 @@ Everything S6.2 and the go-live day proved can break, as a checklist:
 
 ## 5. Phase D — Validation and freeze (agents and loops required)
 
-**The battery (V7.4 Validation Protocol Rigor, verbatim discipline):** two
-independent generation trials — one resampled from development probes, one
-held-out novel; fresh-context generation; masked transcripts; BLIND
-grading by an independent agent that never saw the build. Categories: RCF
-Part Eight's eight, PLUS parroting and pushback (S5.6's additions), PLUS
-every world-specific REQUIRED probe the build accumulated (each
-probe-parity true-positive, each prompt-guard's cold reprobe, the
-carried-not-authored class where demonstrations ride predecessor
-evidence). Ecology-Assessment thinness calibrates probe weight; clean
-passes in known-hard-to-detect domains are provisional, not clean.
+**LEAN VALIDATION IS THE DEFAULT (Mark's cost policy, 2026-08-01):**
+content accuracy — "the right things said" — is the freeze bar; live
+multi-representative conversation dynamics are DEFERRED (the table is on
+limited use; its dynamics get validated when that feature returns to
+priority). Target spend: the interview class (the measured $1.25–$1.80/
+world Deep-Interview figure), not the ~$30 full-battery class. The full
+V7.4 battery below remains available ON MARK'S WORD ONLY.
 
-**The loop discipline ("loop until dry," not "run once"):** every FAIL gets
-root-caused → fixed record-derived → COLD-reprobed under the deployed
-runtime → the battery's failed class re-run until clean. S6.2's freezes
-each carried at least one such loop (FLAG-018's four-layer fix and re-run;
-FLAG-031's 6/6; FLAG-036's 10/10; FLAG-037's three classes with the 8/8
-election-scene close). A battery that fails and gets explained is not a
-battery that passed.
+**What costs nothing and is NEVER cut (the content-accuracy floor):** the
+seven gates at zero; schema validation fleet-green; render parity and
+prompt coverage (both free); grep-clean demonstration checks; the record
+store itself — fabrication is a build-time impossibility when every chunk
+and prompt is generated from validated records. This floor does the bulk
+of "the right things said" before a single API dollar is spent.
 
-**The TRR (Table Readiness Round), under Mark's standing cost policy
-(2026-08-01):** representatives at a table HARD-CAPPED AT 3; the round
-SAMPLES the frozen-partner set — pick the 2–3 sharpest pairings from the
-world's own B-7a pairing disciplines, never one table per frozen world.
-Three grading axes; every pairing discipline that is pressed must hold.
-Graded on available evidence if spend is interrupted — a declared evidence
-limit, never a silent gap (the hal-table precedent).
+**The lean probe set (single-trial, targeted, blind-graded):** ~8–12
+probes, ONE trial each, fresh-context, masked, Opus-graded blind
+(grading short transcripts costs cents). Not a thinned copy of the full
+battery — a concentration of where the batteries actually caught things:
+the world's naming-collision cold probe (the FLAG-030/HAL class), the
+post-window/horizon press (FLAG-031), a fabrication press aimed at the
+Ecology Assessment's own thinnest evidence areas (the FLAG-036 class),
+one re-gloss/exact-form check (FLAG-034), and every world-specific
+REQUIRED probe the build accumulated. Ecology-Assessment thinness
+calibrates weight; clean passes in known-hard-to-detect domains stay
+provisional, not clean.
 
-**Cost guardrails (real incidents, not hypotheticals):** batteries/TRRs are
-the expensive step (~$30 for a full PAHC battery); API credit exhaustion
-killed a TRR table mid-run once — checkpoint battery state so an
-interruption resumes instead of restarting; watch spend during
-battery-heavy sessions; the weekly Fable allocation governs when a build
-may start (SESSION_CONTRACT addenda).
+**One live Deep Interview against the REAL deployed site** (the sweep
+pattern, ~$1.25–1.80): 3 genuine rounds, follow-ups written off the
+actual prior answer — fundamentals (direct answers, no truncation,
+cross-round memory) plus citation grounding inspected per turn. This is
+also the deploy verification (Phase C step 7) — one spend, two checks.
+
+**What lean validation honestly gives up, declared in every freeze
+package, never silent:** (1) the second independent trial — single-trial
+means generation-variance issues can slip (the Chloe "who is Jesus" catch
+was exactly a variance draw); the standing mitigation is the cheap live
+re-probe pattern the moment any user report lands. (2) Live-pressed table
+dynamics (dominance, convergence, ending-not-read-back under real
+cross-world pressure) — the B-7a pairing disciplines are still AUTHORED
+in full; they are just not live-pressed until the table returns. A world
+frozen lean is declared "content-frozen; table-dynamics deferred" in its
+freeze declaration. (3) This is a recorded project-lead deviation from CF
+V7.4's own two-trial Validation Protocol Rigor text — reconciling the
+Framework wording is on the coach-thread list (Appendix C).
+
+**The loop discipline ("loop until dry") — unchanged:** every FAIL gets
+root-caused (Fable diagnosis per the routing) → fixed record-derived →
+COLD-reprobed under the deployed runtime → the failed class re-run until
+clean. A probe that fails and gets explained is not a probe that passed.
+The lean set makes loops CHEAPER, not optional.
+
+**The TRR under the table's limited-use status: DEFERRED by default.**
+When Mark re-opens table work, the cost-capped form applies
+(representatives HARD-CAPPED AT 3; sample the 2–3 sharpest B-7a pairings,
+never one table per frozen world; graded on available evidence if spend
+is interrupted — a declared limit, never a silent gap).
+
+**Cost guardrails (real incidents, not hypotheticals):** API credit
+exhaustion killed a TRR table mid-run once — checkpoint probe/battery
+state so an interruption resumes instead of restarting; watch spend
+during any generation-heavy session; note claude-sonnet-5's intro
+pricing ends 2026-08-31 (costs rise ~50% after — measured figures from
+before then are optimistic for later runs).
 
 **The freeze package:** gate report + freeze declaration
 (`gates/<code>_FREEZE_GATE_REPORT.md`, `<code>_FREEZE_DECLARATION.md`, the
