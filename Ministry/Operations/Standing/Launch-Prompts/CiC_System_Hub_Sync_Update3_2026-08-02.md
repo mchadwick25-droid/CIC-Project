@@ -5,6 +5,21 @@ Hub to fold into the Task Board, Gantt, and Dashboard — per this thread's own 
 folding-in is System Hub's job, not this thread's to do directly. Full detail and reasoning lives
 in `Ministry/Features/Funding-Strategy/Decision-Log.md`; this is the trackable-facts summary.
 
+**Addendum, same day — push gap closed, verified on `origin/main`.** System Hub checked this
+update against the repo and correctly found most of it wasn't there — this file, both cost
+studies, the three corrected legal documents, and the build-scope dispatch had all been written
+locally but never committed or pushed. Real work, not aspirational claims, but unreachable from
+any other thread until now. Fixed: commit `052bfa4` on `main`, pushed and confirmed directly
+against both local and remote history (not just trusted from command output). Everything this
+update references is now actually in the repo — safe to re-verify and fold in. One honest gap in
+my own understanding, worth System Hub knowing: the documents that *did* check out on the first
+pass (Funding Strategy Map, both Business Plan Research passes, Market Analysis, Business Roadmap,
+Case for Support, the docx tax-status fix) were also never committed by me directly as far as I
+have any record of, yet were already clean against `HEAD` before this fix — so something got them
+into the repo earlier in this session through a path I don't have clear visibility into. Not
+guessing at an explanation I don't actually have; flagging it as a real gap in my own audit trail
+that's worth being aware of, not resolved.
+
 ---
 
 ## 1. Real-world entity/legal execution — mostly complete, a few items still pending
