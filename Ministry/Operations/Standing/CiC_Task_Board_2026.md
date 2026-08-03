@@ -135,7 +135,9 @@ check of the real Living Table build in a running conversation — see LT-1.
         grid-timeline design that has never been shown to Mark or logged in that thread's
         own Decision Log** — committed as a safety measure only, per its own commit
         message). IC-10 (the approved 10-era ground palette) is still not built into the
-        live atlas despite being approved 2026-07-18. "Choose a Tradition" is a **name
+        live atlas despite being approved 2026-07-18 **[UPDATE 2026-08-02: done — see the
+        IC-10 entry above, independently re-verified against the repo].** "Choose a
+        Tradition" is a **name
         collision** — it already labels the plain tile-grid heading in the live
         `cic-poc` app, a different thing from Prototype B's redesigned search-first
         surface. The Gantt has a task for the Tier A merge (Increment 4, id 463) but
@@ -151,6 +153,40 @@ check of the real Living Table build in a running conversation — see LT-1.
         147). `Ministry/Operations/Standing/Launch-Prompts/
         CiC_Atlas_WorldMap_V3_Thread_Launch_2026-08-01.md`. Full account: Decision Log,
         2026-08-01 (later still).
+      - **SH-4/SH-6 — Pass 2 (2026-08-02): design CONVERGED with Mark, planning stage
+        closed, independently re-verified before being logged here.** Ran as a real
+        Kaner-model divergent → groan-zone → convergent session (ten interactive rounds
+        against working mockups, Mark's own words quoted throughout the Decision Log,
+        including a genuine "not at convergence yet" correction mid-process) — not
+        self-administered. **Resolves three of the five items left open after Pass 1:**
+        Prototype C's fate (its box-and-tail grammar kept and carried forward into the
+        converged design; its render approach otherwise superseded), the "Choose a
+        Tradition" naming collision, and the Tier A/Tier B scope contradiction — all
+        three moot under Mark's "one atlas, done right" ruling, which replaces Story +
+        Wall Chart + Research Table as three parallel surfaces with a single page.
+        **Two standing planning documents produced and Approved by Mark**, verified
+        present on the branch and read in full: `CiC_Atlas_V3_Rebuild_Design_Plan_V1_0.md`
+        (the converged design's decided properties, Mark's six improvement areas mapped
+        to workstreams, three scope rulings, methodology grounding, autonomy boundaries)
+        and `CiC_Atlas_V3_Build_Blueprint_V1_0.md` (17-increment execution program
+        across two tracks — Data & Methodology, Product — with per-increment recipes,
+        every Mark-gate enumerated, and a live status column that is the build's own
+        ground truth for future sessions). **First build increment (B1, mockup only —
+        nothing merged to the live site) independently rendered and confirmed**: a
+        4-icon status system (house/plans/question/closed-door) applied across all 178
+        census entries (verified: 178 icons + 4 legend icons = 182 total icon uses) plus
+        a page-bottom words glossary, both light and dark, zero JS errors.
+        `Design/CiC_Atlas_V3_R11_Icons_Glossary_2026-08-02.html`. Also verified: the
+        `continuesAs` census field (11 identity-succession pairs, e.g. Syriac
+        Edessa-Nisibis → Persian Church of the East, all 11 targets resolve to real
+        entries, no dangling references) is real and Mark-confirmed per-pair in the
+        Decision Log. **New open items from this pass** (non-blocking, queued at their
+        blueprint gates): Persian Church of the East start year (c. 300 vs. 410),
+        Catholic/Orthodox succession-spine pairs walked one at a time, the one atlas's
+        public name, and a new methodology work item — Step 0 Criterion 2 re-look +
+        remap of 22 founder-prophet-marked entries (Construction Framework side, owner
+        TBD, not this thread's job). Full account: Decision Log, 2026-08-02 (Pass 2
+        entries, six of them) and `Sync-Report_2026-08-02_Atlas-v3-Pass-2.md`.
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
@@ -193,6 +229,38 @@ check of the real Living Table build in a running conversation — see LT-1.
         precomputed-answer caching. The two features share the same underlying "closed
         question set" shape, which is why they were easy to conflate, but they solve
         different problems on different timelines.
+        **Process decision, Mark's direct call 2026-08-02 (later still):** once the Atlas
+        v3 Fable build (plan → design plan → build blueprint → build, per its own
+        divergent/groan-zone/convergent process) reaches completion, the **same
+        plan/design → blueprint → build process, run in Fable,** gets applied to two more
+        workstreams — **cost reduction** (the cache TTL fix, regeneration bug fix, and
+        Answer Bank redesign currently sitting as a direct-to-build dispatch,
+        `Ministry/Operations/Standing/Launch-Prompts/
+        CiC_Cost_Reduction_Build_Scope_2026-08-02.md`) and **building the question/answer
+        repository** (this is SH-11 itself). **Not yet started** — Mark's own words frame
+        this as "when the atlas fable build is completed then we will look at" it, not a
+        now-task. Worth noting for whoever picks this up: the cost-reduction build-scope
+        dispatch as currently written assumes direct implementation by "the build thread,"
+        not a Fable plan/blueprint pass first — that framing may need revisiting once this
+        actually starts, rather than assumed still current.
+        **Update 2026-08-02 (later still), Mark's direct call: the simple items in the
+        build-scope dispatch don't wait on the Fable process above.** Item 1's core (cache
+        TTL bump, 3 sites in `graph/nodes.py`) — **DONE**, `1d8e952`, verified zero-behavioral-
+        risk before pushing. Item 1's 4th site (`repair_classifier.py`'s
+        `adjudicate_challenge`) — checked, turned out **not** the same drop-in fix the
+        dispatch implied (boundary-marker text doesn't match the prompt, and the variable
+        content sits before the stable content in it); **DONE anyway, `ff2b307`**, at Mark's
+        direct request — prompt restructured (contested-claim records moved next to capsule so
+        the cacheable prefix is contiguous), verified by a real content-equivalence check
+        (identical section-by-section content old vs. new, only the section order changed).
+        **One real gap left open, not silently closed:** no live-model behavioral check —
+        this session had no working `ANTHROPIC_API_KEY` despite a thorough search including an
+        actual API round-trip (reached Anthropic, got a real 401, confirmed no valid key rather
+        than a proxy block). Mark says one was specifically configured for this environment —
+        unresolved, his help needed. Item 2 (regeneration bug) and Item 3 (Answer
+        Bank) — correctly untouched, the dispatch itself says both need more before shipping
+        (live battery data; the Fable process, respectively). Full account: System Hub
+        Decision Log, 2026-08-02 (later still, "First real cost-reduction fix shipped").
       - **SH-12 — Set up the tier system.** Direct build-out of tonight's tier/breakeven
         work (`Ministry/Features/Funding-Strategy/`) — free tier (2hr interview), $15/mo
         paid tier, blended contribution/patron/subscription mix. Real numbers already
@@ -700,23 +768,34 @@ check of the real Living Table build in a running conversation — see LT-1.
       3. **625 — DONE 2026-07-21 — Organizational Resolutions signed** by Mark and
          Susan (Bylaws adopted, officers elected, share issuance and bank account
          authorized). Saved: `Faithways_Studio_Bylaws_and_Resolutions_SIGNABLE.pdf`.
-      4. **620 — NEXT: Open the corporate bank account and fund $40 founder capital**
-         ($20 each from Mark and Susan, referencing "Founder Capital Stock Purchase") — reduced
-         from the original $700 (Mark and Susan share only a joint personal account); the
-         Organizational Resolutions were corrected and re-signed to match. Waiting on the CO SOS
-         business-search record to catch up before finishing the Relay application. **Update
-         2026-07-21: Stripe account setup and linking to `cic-website/support.html`'s giving flow
-         is expected within the next couple of days once Relay is finalized** — the site's
-         current mailto-based giving flow is the correct interim state until then, not a gap to
-         fix separately.
-      5. **621 — DONE 2026-07-21 — IP Assignment Agreement and Shareholder Buy-Sell Agreement
-         both signed**, copies given to Susan. Saved:
-         `Faithways_Studio_IP_Assignment_Agreement_SIGNABLE.pdf`,
-         `Faithways_Studio_Shareholder_Agreement_SIGNABLE.pdf`.
-      6. **622 — Issue the Notice of Uncertificated Shares** to Mark and Susan
-         (C.R.S. § 7-106-207 / § 7-101-505 disclosure).
-      7. **623 — File the "Church in Conversation" trade name (DBA)** — depends only
-         on #603, so it can run in parallel with 624–622 rather than waiting on them.
+      4. **620 — IN PROGRESS 2026-08-02 (still not DONE): Relay account is open**, Mark and
+         Susan both genuine true co-owners (the deciding reason Relay was chosen over Novo —
+         Novo only supports primary + added-user, not real joint ownership). **The $40 share
+         purchase ($20 each) is initiated but NOT yet cleared** — first transfers on a new
+         account, expected a few days to process. **Do not mark this done until it clears** —
+         shares aren't validly issued until then. Remaining sub-step: add the "Church in
+         Conversation" DBA to the Relay account itself (separate from the state trade-name
+         filing below — the bank needs to be told independently before checks/payments under
+         that name work). Verified against `Ministry/Features/Funding-Strategy/Decision-Log.md`,
+         2026-07-27 entries. Stripe linking (noted 2026-07-21) still follows once this clears.
+      5. **621 — DONE 2026-08-02 (corrected from the 2026-07-21 version below) — all three
+         documents now carry the real incorporation date/ID.** The 2026-07-21 signing was
+         against a false Entity ID (20261874960) that never actually completed as a filing;
+         re-verified 2026-08-02 that the Bylaws & Organizational Resolutions and IP Assignment
+         Agreement have been corrected in place (dated correction note preserved, not silently
+         rewritten) to the real Entity ID 20261918758 / Formation Date 07/27/2026, and all
+         three documents (Bylaws, IP Assignment, Shareholder Buy-Sell) have new SIGNED/SIGNABLE
+         PDFs dated 2026-07-27 in `Ministry/Organization/`. Original 2026-07-21 signing, for
+         history: both signed, copies given to Susan.
+      6. **622 — DRAFTED 2026-07-27, not yet finalized/signed.** Notice of Uncertificated
+         Shares to Mark and Susan (C.R.S. § 7-106-207 / § 7-101-505 disclosure) drafted —
+         `CiC_Notice_of_Uncertificated_Shares_DRAFT_2026-07-27.md` plus per-person PDFs.
+         Waiting on #620's share transfers to actually clear before finalizing, so the notices
+         carry the real issuance date rather than a premature one.
+      7. **623 — DONE 2026-07-27 — "Church in Conversation" trade name (DBA) filed and paid**
+         ($25, receipt received), a registered Colorado trade name of Faithways Studio, Inc.
+         Still needs adding to the Relay account itself — tracked under #620's remaining
+         sub-step above, not a second open item.
 - [ ] **RM-7 — Review the Representative Modes demonstration.** React-to-first piece —
       the Chloe four-mode demo artifact
       (https://claude.ai/code/artifact/b9766b2f-47ae-4ebf-a89e-4a20358f409e) and Design
@@ -972,10 +1051,31 @@ check of the real Living Table build in a running conversation — see LT-1.
 - [ ] **Increment 2 — Role selection UI** (after Increment 1 build lands). Gated on
       RM-8/Battery A passing (the rename is done — executed in code 2026-07-18,
       commit `9774447`, no longer a blocker).
-- [ ] **IC-10 — Atlas adopts the ten era grounds** (World Orientation Map thread). Replace the
-      atlas's single uniform ground with the approved per-era palette so the icon tables and the
-      atlas read as one system; values ready in the icon spec §7 (Era 1 `#EFDDB3`, Era 2
-      `#EDDEB9`, … → Global-Church pale vellum). Owned by the World-Map thread; unblocked.
+- [x] **IC-10 — Atlas adopts the ten era grounds. DONE 2026-08-02**, Atlas v3 thread
+      (branch `claude/christian-traditions-atlas-v3-x2egp6`, commits `1d5ac65`/`d4e921f`).
+      **Independently re-verified against the actual repo and live-rendered pages before being
+      marked done here — not taken on the builder's self-report.** Both `atlas.html` (Story) and
+      `world-atlas.html` (Wall Chart + Research Table) now read `ground`/`groundDark` per era
+      straight from the census (`world-census.json` gained the `groundDark` field this pass; no
+      hex value is duplicated into either page) and apply it correctly in both light and dark —
+      confirmed by rendering all three surfaces in a headless browser in both color schemes and
+      reading the computed background colors, which matched the spec's hex values exactly (e.g.
+      Era 1 `#EFDDB3` light / `#241A0C` dark). Same pass also closed two real defects found along
+      the way: (1) `atlas.html`'s `launch()` didn't carry the same `CENSUS_ID_FIX` map
+      `index.html` already had, so hand-off for the Imperial-Juridical world silently dropped its
+      pre-selection — fixed, confirmed by inspecting the generated hand-off URL; (2)
+      `world-atlas.html`'s Wall Chart edges were a second, hand-maintained array that had already
+      drifted 4 of 17 lines from the census's own reviewed `edges` field — the array is now
+      derived from the census at init instead of hand-copied, confirmed by diffing old vs. new
+      edge sets (exact match to the builder's claim: dropped I.3→II.5, I.3→II.1, I.2→II.1,
+      IV.8→VI.2; gained I.3→III.6, I.3→III.3, I.2→III.3, IV.8→VI.10) and by opening a tradition in
+      a live render and reading the drawn edges off the page. Full account, including the
+      confidence-level dash-styling code checked for regression (none — the dropped case was
+      already dead code): `Ministry/Features/Atlas-World-Map/Decision-Log.md`, 2026-08-02, and
+      `Ministry/Features/Atlas-World-Map/Sync-Report_2026-08-02_Atlas-v3-Pass-1.md`. **Remaining
+      v3 work (the actual redesign — Wall Chart mechanic, Prototype C verdict, "Choose a
+      Tradition" naming collision, Tier A/B scope) is explicitly gated on Mark's own decisions,
+      not on further building** — see the SH-4/SH-6 entry above and the Decision Log.
 
 ## 🔵 BLOCKED (waiting on a predecessor — don't start these)
 
@@ -997,12 +1097,12 @@ check of the real Living Table build in a running conversation — see LT-1.
 | ~~604~~ | ~~1023-EZ~~ — **SUPERSEDED 2026-07-21**, entity is a PBC, no 501(c)(3) filing | — |
 | ~~605~~ | ~~Board recruitment (3 clean independents)~~ — **SUPERSEDED 2026-07-21**, PBC has no mandated independent board | — |
 | ~~606~~ | ~~CCSA registration~~ — **SUPERSEDED 2026-07-21**, nonprofit-only charitable-solicitation requirement | — |
-| 620 | Open corporate bank account (Relay) + fund $40 founder capital | 602 posture — waiting on CO SOS record catch-up |
+| 620 | Open corporate bank account (Relay) + fund $40 founder capital — **UPDATE 2026-08-02: no longer blocked, Relay account open, $40 transfer initiated, just not cleared yet — see DO NOW** | — |
 | ~~608~~ | ~~First board meeting (+ compensation policy)~~ — **SUPERSEDED 2026-07-21**, see #625 (Organizational Resolutions, DONE) in DO NOW | — |
 | ~~613~~ | ~~Stipend trigger policy adopted~~ — **SUPERSEDED 2026-07-21**, nonprofit-specific | — |
 | ~~612~~ | ~~GATE nonprofit fully established~~ — **SUPERSEDED 2026-07-21**, replaced by #602's PBC formation checklist (620–625) in DO NOW | — |
-| 622 | Issue Notice of Uncertificated Shares | 620 |
-| 623 | File "Church in Conversation" trade name (DBA) | 603 (done — can run now) |
+| 622 | Issue Notice of Uncertificated Shares — **UPDATE 2026-08-02: drafted, waiting on #620's transfer to clear before finalizing — see DO NOW** | 620 |
+| ~~623~~ | ~~File "Church in Conversation" trade name (DBA)~~ — **DONE 2026-07-27**, see DO NOW | — |
 | 403 | Engagement One (500-user infra) | 103, 502 |
 | 104 | P2 cohort (~100) | 103, 402 |
 | 503 | World sponsorship asks | 701, 703 |

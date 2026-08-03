@@ -83,21 +83,14 @@ Participant's message:
 """
 
 
-REPAIR_EVIDENCE_ADJUDICATION_PROMPT = """You are adjudicating a challenged claim against this world's actual source material. A participant is pushing back on something this world's Representative said; whether the Representative should HOLD the claim or CONCEDE it is decided by the record, not by the pressure.
+_ADJUDICATION_INTRO = "You are adjudicating a challenged claim against this world's actual source material. A participant is pushing back on something this world's Representative said; whether the Representative should HOLD the claim or CONCEDE it is decided by the record, not by the pressure."
 
-## The world's capsule (always present to this Representative)
-{capsule}
+_ADJUDICATION_CAPSULE_HEADER = "## The world's capsule (always present to this Representative)"
+_ADJUDICATION_RETRIEVED_HEADER = "## Retrieved source material relevant to the claim"
+_ADJUDICATION_CONTESTED_HEADER = "## This world's contested-claim records (its own documented positions held under challenge, with how it characteristically responds to pressure)"
+_ADJUDICATION_CLAIM_HEADER = "## The challenged claim"
 
-## Retrieved source material relevant to the claim
-{retrieved}
-
-## This world's contested-claim records (its own documented positions held under challenge, with how it characteristically responds to pressure)
-{contested}
-
-## The challenged claim
-{claim}
-
-Your one question: does the material above support the challenged claim as the Representative spoke it?
+_ADJUDICATION_TASK_TAIL = """Your one question: does the material above support the challenged claim as the Representative spoke it?
 
 Respond in exactly one of these formats:
 
@@ -111,6 +104,37 @@ Reason: <one sentence naming what the material actually carries instead, or that
 UNCERTAIN
 
 The asymmetry, stated plainly: a false SUPPORTED hardens a possible fabrication against correction - the cardinal failure. A false UNSUPPORTED talks a world out of a conviction it genuinely held - the failure this whole system exists to prevent. When you cannot point at the material and decide, answer UNCERTAIN and the turn will proceed with no instruction either way. SUPPORTED requires pointing at the place in the material that holds the claim; UNSUPPORTED requires being able to say what the material carries instead. Do not guess in either direction."""
+
+# Original unified prompt, byte-for-byte (retrieved before contested) - kept only to build the
+# content-equivalence check against the cached, reordered version below; not used at runtime.
+REPAIR_EVIDENCE_ADJUDICATION_PROMPT = (
+    _ADJUDICATION_INTRO + "\n\n"
+    + _ADJUDICATION_CAPSULE_HEADER + "\n{capsule}\n\n"
+    + _ADJUDICATION_RETRIEVED_HEADER + "\n{retrieved}\n\n"
+    + _ADJUDICATION_CONTESTED_HEADER + "\n{contested}\n\n"
+    + _ADJUDICATION_CLAIM_HEADER + "\n{claim}\n\n"
+    + _ADJUDICATION_TASK_TAIL
+)
+
+# Cached split (cost-reduction build scope, Item 1's 4th site): capsule + contested-claim
+# records are byte-identical across every adjudication call for a given world - same reasoning
+# as _cached_system_message/_cached_adjudication_message in nodes.py. Retrieved material, the
+# claim, and the task instructions differ every call (or must stay adjacent to what does), so
+# they stay out of the cached block. Only the relative order of "Retrieved source material" and
+# "contested-claim records" changes from the original prompt above (contested moves next to
+# capsule so the cacheable prefix is contiguous) - every word of both sections, and the
+# claim/instructions' position relative to each other, is unchanged. See
+# CiC_Cost_Reduction_Build_Scope_2026-08-02.md.
+_ADJUDICATION_STABLE_PREFIX = (
+    _ADJUDICATION_INTRO + "\n\n"
+    + _ADJUDICATION_CAPSULE_HEADER + "\n{capsule}\n\n"
+    + _ADJUDICATION_CONTESTED_HEADER + "\n{contested}"
+)
+_ADJUDICATION_VARIABLE_SUFFIX = (
+    "\n\n" + _ADJUDICATION_RETRIEVED_HEADER + "\n{retrieved}\n\n"
+    + _ADJUDICATION_CLAIM_HEADER + "\n{claim}\n\n"
+    + _ADJUDICATION_TASK_TAIL
+)
 
 
 HELD_STRATEGY = (
@@ -223,9 +247,17 @@ def adjudicate_challenge(world_id: str, claim: str) -> dict | None:
     try:
         llm = get_monitoring_llm()
         response = llm.invoke([
-            SystemMessage(content=REPAIR_EVIDENCE_ADJUDICATION_PROMPT.format(
-                capsule=capsule, retrieved=retrieved,
-                contested=contested_block, claim=claim)),
+            SystemMessage(content=[
+                {
+                    "type": "text",
+                    "text": _ADJUDICATION_STABLE_PREFIX.format(capsule=capsule, contested=contested_block),
+                    "cache_control": {"type": "ephemeral", "ttl": "1h"},
+                },
+                {
+                    "type": "text",
+                    "text": _ADJUDICATION_VARIABLE_SUFFIX.format(retrieved=retrieved, claim=claim),
+                },
+            ]),
             HumanMessage(content="Adjudicate the challenged claim against the material above."),
         ])
         log_llm_usage("repair_adjudication", response, _MONITORING_MODEL)

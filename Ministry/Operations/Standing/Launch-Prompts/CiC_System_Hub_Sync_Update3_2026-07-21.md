@@ -8,6 +8,13 @@ do here, on top of the cleanup thread already dispatched earlier today.
 
 ---
 
+**Addendum, 2026-07-27 (missed at the time, added 2026-08-02 while confirming it):** the Entity
+ID and date below (20261874960, July 21) were never real — that filing attempt never actually
+completed (on-screen verification only, no receipt). The real, confirmed registration is Entity
+ID 20261918758, Formation Date 07/27/2026. See `CiC_System_Hub_Decision_Log.md`, 2026-07-27, for
+the full correction. This note was supposed to land here the same day per that entry's own
+account of its work — it didn't; caught and fixed now instead.
+
 ## The headline fact: Faithways Studio, Inc. is real
 
 **Entity ID 20261874960**, filed and accepted by the Colorado Secretary of State on **July 21,

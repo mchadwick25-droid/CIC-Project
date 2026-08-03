@@ -3,6 +3,23 @@
 Paste this into a fresh thread. **Select Fable as the model before sending** — this is
 the next large Fable project, per Mark's own direct call.
 
+**Revised 2026-08-02, System Hub.** The 2026-08-01 draft below was independently
+re-verified today by four parallel research passes reading the actual code, not just
+prior write-ups. Three corrections and three new findings came out of that pass — see
+the marked additions throughout. Per Mark's direct instruction: the open items below
+(Prototype C, the naming collision, and the Tier A/B scope question) are to be **carried
+into this thread as open questions to raise with Mark directly** — not resolved by this
+thread on its own initiative.
+
+**Also per Mark's direct instruction, 2026-08-02: visuals and functionality are part of
+this thread's actual deliverable, not just content/data work.** This thread stays
+Fable-led (Fable's own track record on this exact workstream — the spec, the census, the
+narrative spine, the prototypes — is the reason, not a default). Delegate mechanical or
+verification-only sub-tasks (bug fixes, drift checks, fact cross-referencing) to
+sub-agents where that's clearly faster without diluting the design judgment; don't
+multiply agents or passes beyond what the actual work needs — token budget is finite
+this week, so lean and real beats broad and thin.
+
 **Scope note, read this before proposing anything:** this is not a from-scratch design.
 The landscape data model this ask describes — every identified Christian tradition
 across all ten eras, not just the traditions CiC will build — **already exists and is
@@ -41,9 +58,12 @@ years, not just the ones we will eventually build."*
   rendered as overlapping "overlay current" bands, not settled territories).
 - **The 10 eras, confirmed and canonical.** Era 1 (The Early Church, 70–312) through Era
   10 (The Global Church, 1906–present) — full table with dates in
-  `Ministry/Features/Atlas-World-Map/Design/CiC_World_Orientation_Map_Spec_V0_1.md`
-  Amendment E. **The era-ground color palette is not this thread's to redefine** — it's
-  canonical in `Ministry/Communication/Brand-Assets/
+  `Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_PreStep0_Survey_V0_1.md`
+  (line 65, "Amendment E"). **Correction, 2026-08-02:** the 2026-08-01 draft cited
+  `CiC_World_Orientation_Map_Spec_V0_1.md` for this — wrong file. That doc has no
+  Amendment E at all and still carries the old, superseded Era Ia/Ib sub-numbering;
+  don't use it as the era-table source. **The era-ground color palette is not this
+  thread's to redefine** — it's canonical in `Ministry/Communication/Brand-Assets/
   CiC_World_Icon_and_Table_Template_Spec_V0_1.md` §"Era-ground values" (light + dark,
   ten values, warm-past→cool-present), this thread renders with it.
 - **The live site.** `cic-website/world-atlas.html` (Wall Chart + Research Table,
@@ -62,11 +82,36 @@ years, not just the ones we will eventually build."*
   for it anywhere; Mark has never seen or ruled on it.** Read it
   (`Design/CiC_World_Map_Redesign_Prototype_C_Unified_Grid_Timeline_2026-07-23.html`)
   before treating A/B as the only two directions on record.
-- **IC-10 — approved, not yet built.** The 10-era ground palette above was approved
-  2026-07-18. The live atlas still renders on a single uniform ground, not the per-era
-  palette. This is a real, standing, unbuilt Task Board item — folding it into v3 rather
-  than treating it separately is very likely the right call, but say so explicitly rather
-  than silently absorbing it.
+- **IC-10 — approved, HALF built. Correction, 2026-08-02: the 2026-08-01 draft's "not yet
+  built" claim is wrong** — checked directly against the running code, not assumed. The
+  10-era ground palette (approved 2026-07-18) **is already applied, live, in `atlas.html`
+  (the Story view)** — `.st-era` sections render with the exact approved hex values.
+  **It is NOT applied anywhere in `world-atlas.html`** (Wall Chart + Research Table) —
+  every surface there uses one uniform background regardless of era. Two more precise
+  gaps, not previously on record: the census only stores the **light**-mode hex per era
+  (no dark-mode twin), and `atlas.html`'s own dark-mode CSS override never touches
+  `.st-era` — so even where it's applied, dark mode still shows the unadjusted light
+  value. Real remaining work: apply the palette to `world-atlas.html`, and add the
+  missing dark-mode values. Not a from-zero build.
+- **Three further findings from the 2026-08-02 code-verification pass, not on record
+  before today:**
+  1. **A live handoff bug.** The Story view's "Interview"/"Add to Table" action for the
+     Imperial-Juridical world sends the census's raw id
+     (`imperial-and-juridical-christianity`) straight through — but the actual app world
+     id is `imperial-juridical-christianity` (no "and"). `cic-website/index.html` has an
+     explicit fix map for exactly this mismatch (`CENSUS_ID_FIX`); `atlas.html` doesn't.
+     Right now, launching that one world from the Story view silently fails to
+     pre-select it in the app. `world-atlas.html`'s own id map already covers this case
+     correctly — the bug is specific to `atlas.html`.
+  2. **A drift risk.** `world-atlas.html`'s relationship lines (`EDGES`, keyed by
+     `atlasId`) are a separate, hand-maintained array — not read from the census's own
+     17-entry `edges` field the way `atlas.html` reads it live. The two can silently
+     diverge as the census changes.
+  3. **Dead code.** `world-atlas.html` contains a whole `APPMODE` branch written for
+     being served inside `cic-poc` at a `/world-map/` route. That route doesn't exist
+     anywhere in the app (confirmed: no such path in `main.py`, no such component in the
+     React app). Never wired up — worth knowing before assuming it's a working
+     integration point.
 - **Governing texts from the original v1 launch** (still load-bearing, re-read them, don't
   take this summary's word alone): `Ministry/Communication/Vision, Mission, Convictions,
   and Foundational Commitments V1.1.docx` — Conviction 1 (no single movement exhausts the
@@ -108,13 +153,17 @@ scratch. It is, in rough priority order:
    thing from Prototype B's redesigned search-first surface, which shares the name. Any
    v3 proposal touching this needs to disambiguate explicitly, not compound the collision.
 4. **Decide scope: Tier A (the public website Atlas) only, or Tier B (the in-app
-   world-selection surface) too.** Mark's ask describes an "atlas/scrolling map" — closest
-   to Tier A, which already exists and is live. Tier B (the in-app selector) has **no
-   Gantt task at all**, unlike Tier A's Increment 4 merge (already scheduled) — building it
-   would be new roadmap territory, not finishing an existing branch. Recommend defaulting
-   to Tier A as this pass's scope and naming Tier B as a real, separate, larger future ask
-   — but confirm with Mark rather than assuming either way if genuinely unclear from his
-   framing.
+   world-selection surface) too — and this is a genuinely open question, not a settled
+   one. Raise it with Mark directly rather than picking a side.** The project's own
+   record disagrees with itself here: a 2026-07-22 decision states Tier A and Tier B were
+   resolved as **"two linked surfaces, not either/or"** — both going forward, jointly. But
+   the Gantt only ever scheduled Tier A (Increment 4, task 463); no Tier B task exists
+   anywhere in it, and the 2026-08-01 framing treats Tier B as unscoped new territory
+   needing a fresh decision. Those two accounts don't agree, and no one has reconciled
+   them. Don't silently inherit either framing — put both readings in front of Mark and
+   let him say which one is actually current. (Separately, `WorldSelector.tsx`'s existing
+   "Choose a Tradition" heading is confirmed, by direct code read, to be the live Tier B
+   surface today — simple tile grid, 6 live worlds only, no map, no history, no search.)
 5. **A fresh completeness/rigor check against the full 178, not the old 147.** The only
    external rigor check ever run against this census
    (`Design/CiC_World_Atlas_External_Review_V0_1.md`) was against **Census V0.2, 147
@@ -123,15 +172,20 @@ scratch. It is, in rough priority order:
    pass (Cambridge History of Christianity, Noll, González, Latourette, MacCulloch, the
    World Christian Encyclopedia — same sources as the first review) before calling the
    coverage claim settled at the current count.
-6. **Apply the approved era-ground palette (IC-10)** to the live atlas — folding this
-   long-standing, already-approved, unbuilt item into v3 rather than a separate pass.
+6. **Apply the approved era-ground palette (IC-10) to `world-atlas.html`, and add the
+   missing dark-mode values.** Corrected 2026-08-02: `atlas.html` already has the
+   light-mode palette live — this item is half-done, not a from-zero build. See the
+   IC-10 finding above for the precise remaining gap.
 
 ## What to produce
 
-A real design document plus, where the scope decision above lands on visual/build work,
-an actual implementation — not just a proposal, since Tier A is a website (`cic-website/`)
-this project already ships directly, not a gated `cic-poc` release. Use this project's
-own `[M]`/`[E]`/`[S]` tagging discipline (measured / estimated / speculative) for any
+**Real visual design and working functionality, not a content/data report with a design
+memo attached.** The census and narrative work are already largely done (see above) —
+what v3 actually adds is craft: how the map looks, how it feels to explore, how
+hover/click/zoom/search actually behave. A design document alone is not the deliverable;
+an actual implementation is, since Tier A is a website (`cic-website/`) this project
+already ships directly, not a gated `cic-poc` release. Use this project's own
+`[M]`/`[E]`/`[S]` tagging discipline (measured / estimated / speculative) for any
 completeness or quality claim. End with a clear, explicit list of what's decided and
 built versus what still needs Mark's own call.
 

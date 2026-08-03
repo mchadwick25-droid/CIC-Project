@@ -1323,12 +1323,12 @@ def _cached_system_message(
     would make that block a guaranteed cache miss every time, defeating the
     purpose.
     """
-    blocks = [{"type": "text", "text": static_prompt, "cache_control": {"type": "ephemeral"}}]
+    blocks = [{"type": "text", "text": static_prompt, "cache_control": {"type": "ephemeral", "ttl": "1h"}}]
     if reactive_guidance_block:
         blocks.append({
             "type": "text",
             "text": reactive_guidance_block,
-            "cache_control": {"type": "ephemeral"},
+            "cache_control": {"type": "ephemeral", "ttl": "1h"},
         })
     if dynamic_prompt:
         blocks.append({"type": "text", "text": dynamic_prompt})
@@ -2147,7 +2147,7 @@ def _cached_adjudication_message(rendered: str) -> SystemMessage:
     if not sep:
         return SystemMessage(content=rendered)
     return SystemMessage(content=[
-        {"type": "text", "text": head, "cache_control": {"type": "ephemeral"}},
+        {"type": "text", "text": head, "cache_control": {"type": "ephemeral", "ttl": "1h"}},
         {"type": "text", "text": sep + tail},
     ])
 

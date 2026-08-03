@@ -494,6 +494,17 @@ consistent with the entity/product-name split reasoning already on record in thi
 
 **What did NOT change:** the substantive mission-lock architecture (Article III/IV, the 4/5 supermajority extended to mergers/conversions/asset sales), the capital-contribution IP structure, the Tie-Breaker/Peacemaker-Ministries conciliation process, and the mutual-consent change-of-control default are all still in place — those were real, wanted fixes. What changed is the posture around them: stop generating more analysis, stop implying paid professional review is required, and stop treating a hypothetical exit scenario as binding strategy.
 
+**Addendum, 2026-07-27 (missed at the time, added 2026-08-02 while confirming it):** the Entity ID
+above (20261874960) and the July 21 filing it names were never real — that filing attempt never
+actually completed (on-screen verification only, no receipt). The real, confirmed registration is
+Entity ID 20261918758, Formation Date 07/27/2026. See `CiC_System_Hub_Decision_Log.md`,
+2026-07-27, for the full correction, including the real sequencing question it raised (the Bylaws
+and IP Assignment Agreement referenced above as "updated in place" still carry the false ID/date
+as of this addendum — not yet corrected in either document; Mark and Susan's call on how to
+handle documents already signed against a false predicate, not resolved here). This note was
+supposed to land here the same day per that entry's own account of its own work — it didn't;
+caught and fixed now instead.
+
 **Lesson for this workstream going forward:** treat a "what if" or brainstormed scenario as exploration, not as a locked premise to keep designing around, unless Mark explicitly says to commit to it. Default to self-serve, no-cost resolutions where a defensible one exists, rather than routing everything to "confirm with an attorney/CPA."
 
 ## 2026-07-21 (final) — PBC vs. nonprofit: FINAL DECISION, made after a genuine deep-research stress-test, not a rubber stamp

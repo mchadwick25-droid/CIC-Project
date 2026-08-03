@@ -1,3 +1,12 @@
+**Addendum, 2026-07-27 (missed at the time, added 2026-08-02 while confirming it):** the Entity
+ID this dispatch cites below (20261874960) was never real — that filing attempt never actually
+completed (on-screen verification only, no receipt). The real, confirmed registration is Entity
+ID 20261918758, Formation Date 07/27/2026. See `CiC_System_Hub_Decision_Log.md`, 2026-07-27, for
+the full correction. Doesn't affect this dispatch's own tax-deductibility fix, which is correct
+regardless of which Entity ID is real — confirmed applied to both target .docx files as of this
+addendum. This note was supposed to land here the same day per that entry's own account of its
+own work — it didn't; caught and fixed now instead.
+
 # Dispatch — Fix stale nonprofit/tax-deductibility claims in Ministry/Funding/ .docx drafts (a real gap in the 2026-07-21 cleanup)
 
 **What this is:** a follow-up correction to the nonprofit-to-PBC cleanup already completed

@@ -35,7 +35,18 @@ in turn, Imperial-Juridical last (2026-08-01). This is a distinct axis from the 
 5-9" track above -- it upgrades the 6 worlds already built, it does not build new ones -- so it's
 tracked as its own new task (219) under World Building rather than folded into 202-206. Synced
 from a handoff report the Pass2/Fable thread prepared for System Hub; full account: System Hub
-Decision Log, 2026-08-01 (later still).]]></description>
+Decision Log, 2026-08-01 (later still).
+2026-08-02: Atlas v3 Pass 2 converged (real Kaner-model divergent/groan-zone/convergent
+session with Mark, independently re-verified before this note was written) -- task 463's
+"Tier A merge" framing is superseded, not deleted (see its own note). The real Atlas v3
+program is now the Mark-approved 17-increment Build Blueprint (two tracks: Data &
+Methodology -- per-era Step 0 runs, ~1 era/session, the long pole; Product -- box/icon/
+hover/click templates through a single unified atlas page). Deliberately NOT added here
+as dated Gantt rows: the Blueprint's own pacing is session-based, not calendar-dated, and
+inventing fixed dates for an 8-session research program would be a fabricated precision
+this file doesn't actually have. Track progress via
+Ministry/Features/Atlas-World-Map/CiC_Atlas_V3_Build_Blueprint_V1_0.md's own status
+column (explicitly the build's ground truth) and the Task Board's SH-4/SH-6 Pass 2 entry.]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="240" order="0"/>
         <field id="tpd4" name="Begin date" width="90" order="1"/>
@@ -184,7 +195,7 @@ Decision Log, 2026-08-01 (later still).]]></description>
                 <depend id="104" type="2" difference="0" hardness="Rubber"/>
                 <depend id="463" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="463" name="Increment 4: World Map Tier A merge (front-end thread; never before/during Prototype 1)" color="#9966cc" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
+            <task id="463" name="Increment 4: World Map Tier A merge (front-end thread; never before/during Prototype 1) [SUPERSEDED 2026-08-02: Pass 2 converged on 'one atlas, done right' - Tier A/B split and the old Tier A merge concept are moot. Real program is now the approved 17-increment Blueprint (2 tracks: Data &amp; Methodology, Product) - see CiC_Atlas_V3_Build_Blueprint_V1_0.md, whose own status column is the ground truth; not duplicated here since per-era Step 0 pacing (~1 era/session) doesn't map to fixed calendar dates yet. Left at complete=0/unscheduled rather than given invented dates.]" color="#9966cc" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
                 <depend id="429" type="2" difference="0" hardness="Strong"/>
                 <depend id="452" type="2" difference="0" hardness="Strong"/>
             </task>
