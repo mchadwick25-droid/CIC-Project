@@ -187,6 +187,46 @@ check of the real Living Table build in a running conversation — see LT-1.
         remap of 22 founder-prophet-marked entries (Construction Framework side, owner
         TBD, not this thread's job). Full account: Decision Log, 2026-08-02 (Pass 2
         entries, six of them) and `Sync-Report_2026-08-02_Atlas-v3-Pass-2.md`.
+      - **SH-4/SH-6 — SYNC 2026-08-03 (Pass 3 + Pass 4): the atlas is built, named, and
+        shipped — live only on the branch, not yet merged to `main`.** Pulled directly
+        from the branch (`claude/christian-traditions-atlas-v3-x2egp6`, HEAD `9effa74`
+        at sync time) rather than taken on a prior summary's word — this Task Board's own
+        tracking had gone stale since Pass 2, with no entry for either pass below.
+        **Pass 3 (2026-08-02):** granted full autonomy, executed the Blueprint through
+        B5 — `cic-website/atlas-v3.html` built as the one atlas (search, four-icon status
+        chips, era jump rail, touch/keyboard/reduced-motion/print support, reading the
+        census live, deliberately left unlinked pending the ship-flip gate). Then Eras
+        3 through 9 walked the two-adversarial-round-review-then-gate process one at a
+        time, each **Frozen by Mark** in turn (per-era docs under
+        `Design/StepZero-Eras/`), the census climbing 179→257 across the arc. **Pass 4
+        (2026-08-03):** ship-flip executed — **B5.g SHIPPED: public page title "Church
+        in History," nav label "Map"** (the name arrived through a real one-at-a-time
+        process with Mark, landing on "Church" to echo the org's own name and "in" to
+        complete "Church *in* Conversation"'s preposition, not a separate metaphor);
+        `atlas.html`/`world-atlas.html` now redirect to `atlas-v3.html`. Also closed this
+        pass: **A4** (the Catholic/Orthodox succession-spine walk — four complete chains
+        now stand, one spanning seven links from Merovingian Gaul to the post-Vatican-II
+        parish), **A2.a** (shortName spot-checks), **A3** (status-description and
+        why-field backlogs, 96/96 and 97/97), **B0/B4** (line-weight and arrival-tick
+        gates). Plus four accessibility passes not in the original 17-increment Blueprint
+        at all: lane toggles, a streams/categories glossary, plain-language search
+        aliases, and shareable deep-links (search + built-toggle + lanes + streams now
+        round-trip through the URL, with a "Copy link" button). **Door-icon ruling
+        follow-up** (flagged loose end from the 2026-08-02 System Hub log entry): the
+        icons were reaffirmed independently twice on the branch (B1/R11, and again at A3)
+        — substantively resolved, though the Hub-side "leave it" reaction was never
+        logged as its own dated entry in the Atlas thread's own Decision Log, a cosmetic
+        gap only. **Waiting on Mark, deliberately held:** Era 10 (1906–present, "the
+        living era") — Mark's own call to wait for next week's model-window reset on the
+        strongest available model, and gated behind a not-yet-drafted living-era protocol
+        addendum to the Step 0 method (his standing caution: historical rigor is harder
+        to define for a tradition that's still alive and whose window is still open).
+        Non-blocking opens: Eras 1–2 revalidation (A1.R12), a handful of Mark-only
+        micro-rulings on specific spine pairs and A0.5 placements. **Real gap this sync
+        doesn't close:** the branch itself is still unmerged to `main` — merging it is a
+        separate decision, not assumed here. Full account: the branch's own
+        `Ministry/Features/Atlas-World-Map/Decision-Log.md` (Pass 3 and Pass 4 entries,
+        2026-08-02/03) and `HANDOFF_2026-08-03.md`; System Hub Decision Log, 2026-08-03.
       - **SH-7 — Identify the ~150 most probable interview questions.** Multi-step process,
         not yet designed — needs its own scoping conversation before work starts.
       - **SH-8 — Org/finance: bank account finalized (1st deposit through, 2nd pending),
