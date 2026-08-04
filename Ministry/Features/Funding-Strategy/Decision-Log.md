@@ -786,6 +786,20 @@ work actually wires up Stripe.
 
 ---
 
+## 2026-08-02 (same day, continued) — Optional name field, anonymous by default
+
+**Decided.** Givers can optionally share their name; nothing required beyond what Stripe itself
+needs to process the payment (receipt email, etc.) — anonymous is the default, no friction added
+for anyone who wants to stay private. One optional, warmly-framed field ("Your name (optional) —
+let us know who to thank"), genuinely skippable, not a data-collection form. Distinguishes
+Stripe's own unavoidable baseline transaction data from this deliberate, participant-initiated
+field — only ever offered, never extracted.
+
+**Next action:** none — ready to hand to the Stripe build work alongside the payment-methods
+decision above.
+
+---
+
 ## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
 
 **Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on
