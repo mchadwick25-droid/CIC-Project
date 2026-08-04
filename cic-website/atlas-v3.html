@@ -159,7 +159,16 @@ body.tracing #art .tdot:not(.hot){opacity:.06}
 #sheet .note{font-style:italic;color:var(--muted);font-size:.74rem}
 #sheet p a{color:var(--gold);text-decoration-color:var(--line)}
 #sheet p a:hover,#sheet p a:focus-visible{text-decoration-color:var(--gold)}
-#sheet .close{position:absolute;right:.6rem;top:.4rem;background:none;border:none;font-size:1.25rem;
+/* sticky, not absolute (Mark, 2026-08-04): #sheet is both the fixed panel
+   AND its own overflow-y:auto scroll container, so an absolutely-positioned
+   child scrolled with the content -- reading any entry longer than one
+   screen made the close button disappear off the top with no way back to
+   it except Escape or tapping the scrim, neither obvious on a touch
+   device. Sticky keeps it reachable at any scroll depth; the background +
+   z-index keep it legible over whatever text scrolls beneath it. */
+#sheet .close{position:sticky;top:.4rem;display:block;margin:0 .6rem -1.75rem auto;
+  background:var(--panel);border:none;font-size:1.25rem;line-height:1;
+  padding:.15rem .3rem;z-index:1;
   color:var(--muted);cursor:pointer}
 #sheet .act{display:inline-block;font-size:.8rem;font-weight:700;border:1px solid var(--gold);
   border-radius:0;padding:.4rem .8rem;margin:.6rem .4rem 0 0;cursor:pointer;background:var(--bg);color:var(--ink)}
