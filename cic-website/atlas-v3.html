@@ -90,10 +90,35 @@ body.regionfiltering #art .tdot:not(.region-on){opacity:.05}
 body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
 
 #wrap{position:relative;margin:0 auto}
-.erahead{position:absolute;left:0;z-index:20;pointer-events:none;padding:.3rem .7rem}
-.erahead span{font-size:.66rem;letter-spacing:.11em;font-variant:small-caps;
+/* Era header bar, expanded (Mark, 2026-08-04, accessibility feedback pass):
+   was a small top-left pill easy to scroll past, carrying only the era's
+   friendly name and dates. Now a full-width bar so it can't be missed,
+   still semi-transparent (color-mix over --bg, same as before) so the
+   era's own background color still reads through it -- "can see the
+   printing underneath" was the explicit ask, not an opaque banner. Carries
+   four things: the participant-friendly name (already had), an academic/
+   period name where a real, distinct one exists (several eras don't --
+   e.g. "The Reformation Era" already IS the standard term, so no second
+   name is shown rather than inventing a redundant one), the boundary
+   dates (already had), and 1-2 major historical events for orientation. */
+.erahead{position:absolute;left:0;right:0;z-index:20;pointer-events:none;padding:.3rem .8rem}
+/* max-width caps .bar to the VIEWPORT, not the canvas -- the canvas is
+   deliberately wider than the screen on narrow devices (the whole point
+   of the timeline's horizontal scroll), but .erahead{left:0;right:0}
+   stretches to match the canvas's own width. Without a cap here, .bar's
+   flex-wrap had nothing to wrap AGAINST (a flex container just grows to
+   fit one line unless something bounds it) -- caught by Playwright: the
+   bar's right edge landed at 1157px on a 390px viewport, effectively
+   invisible without scrolling right first, defeating the entire point of
+   making this content harder to miss. */
+.erahead .bar{display:flex;flex-wrap:wrap;gap:.2rem .55rem;align-items:baseline;max-width:min(92vw,640px);
   background:color-mix(in srgb, var(--bg) 82%, transparent);border:1px solid var(--line);
-  border-radius:0;padding:.1rem .5rem}
+  border-radius:0;padding:.25rem .6rem}
+.erahead .no{font-size:.66rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
+.erahead .title{font-size:.7rem;font-weight:700}
+.erahead .academic{font-size:.66rem;font-style:italic;color:var(--muted)}
+.erahead .dates{font-size:.66rem;color:var(--muted)}
+.erahead .events{font-size:.64rem;color:var(--muted)}
 #canvas{position:relative}
 #art{position:absolute;inset:0;width:100%;height:100%;z-index:2}
 #art path.thread{fill:none;stroke:var(--thread);stroke-width:2.5;opacity:.92;pointer-events:stroke}
@@ -229,10 +254,28 @@ body.filtering .node:not(.match){opacity:.13}
 body.filtering #art .tail:not(.match),body.filtering #art .shoulder:not(.match),
 body.filtering #art .seal:not(.match),body.filtering #art .sticon:not(.match){opacity:.05}
 body.filtering #art .thread{opacity:.1}
-#rail{position:fixed;right:.25rem;top:50%;transform:translateY(-50%);z-index:35;display:flex;flex-direction:column;gap:2px}
+/* railWrap groups the year badge + era-jump rail as ONE flex column (Mark,
+   2026-08-04, accessibility feedback pass) -- first attempt fixed-
+   positioned the badge separately with hand-computed pixel offsets, which
+   silently overlapped the rail's own top buttons and ate their clicks
+   (caught by Playwright: "element intercepts pointer events", not by eye).
+   A flex column can't overlap itself, so this is correct regardless of how
+   long the year text gets, without re-deriving pixel math by hand. */
+#railWrap{position:fixed;right:.25rem;top:50%;transform:translateY(-50%);z-index:35;
+  display:flex;flex-direction:column;align-items:stretch;gap:6px}
+#rail{display:flex;flex-direction:column;gap:2px}
 #rail button{font:inherit;font-size:.62rem;width:26px;height:22px;border:1px solid var(--line);
   background:var(--panel);color:var(--muted);cursor:pointer;padding:0}
 #rail button.on{background:var(--gold);color:var(--bg);border-color:var(--gold)}
+/* Scrolling year badge: reads the boundary years of the era at the
+   vertical center of the viewport and updates live on scroll, same
+   passive listener the rail highlight already uses. Spelled out ("70 CE
+   to 312 CE"), not compressed, per Mark's explicit call. Horizontal text,
+   not sideways/vertical-rl -- a badge meant to make the page MORE
+   accessible shouldn't require tilting your head to read it. */
+#yearBadge{font:inherit;font-size:.56rem;line-height:1.2;color:var(--muted);
+  background:var(--panel);border:1px solid var(--line);padding:.25rem .3rem;
+  width:52px;text-align:center;letter-spacing:.01em}
 #tray{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--ink);color:var(--bg);
   padding:.5rem .9rem calc(.5rem + env(safe-area-inset-bottom));display:none;align-items:center;gap:.5rem;flex-wrap:wrap}
 #tray.on{display:flex}
@@ -255,7 +298,7 @@ body.filtering #art .thread{opacity:.1}
    needed here, and an earlier attempt at one fought the shared stylesheet's
    cascade instead of matching it. */
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
-@media print{#controls,#rail,#tray,.site-header,.site-footer,#tip,#sheet,#scrim{display:none!important}
+@media print{#controls,#railWrap,#tray,.site-header,.site-footer,#tip,#sheet,#scrim{display:none!important}
   body{background:#fff}}
 </style>
 <link rel="stylesheet" href="assets/style.css">
@@ -303,7 +346,10 @@ body.filtering #art .thread{opacity:.1}
 </defs></svg>
 <div id="wrap"><div id="canvas"><svg id="art"></svg></div></div>
 
-<nav id="rail" aria-label="Jump to era"></nav>
+<div id="railWrap">
+  <div id="yearBadge" aria-live="polite" aria-label="Years currently in view"></div>
+  <nav id="rail" aria-label="Jump to era"></nav>
+</div>
 <div id="tray" aria-live="polite"><span id="traychips"></span><button class="go" id="go">Sit down at the Table</button></div>
 <div id="tip"></div>
 <div id="scrim"></div>
@@ -544,7 +590,13 @@ function layout(){
     s._y=y;const h=(s.r1-s.r0)*rh+ERA_PAD+HEAD;
     html+=`<div class="eraband" style="position:absolute;left:0;right:0;top:${y}px;height:${h}px;
       background:var(--era${s.era.num});border-top:1px solid var(--gold)"></div>`;
-    html+=`<div class="erahead" style="top:${y+2}px"><span>Era ${s.era.no} · ${esc(s.era.title)} · ${esc(s.era.dates)}</span></div>`;
+    {
+      let bar=`<span class="no">Era ${esc(s.era.no)}</span><span class="title">${esc(s.era.title)}</span>`;
+      if(s.era.academicName&&s.era.academicName!==s.era.title)bar+=`<span class="academic">${esc(s.era.academicName)}</span>`;
+      bar+=`<span class="dates">${esc(s.era.dates)}</span>`;
+      if(s.era.keyEvents&&s.era.keyEvents.length)bar+=`<span class="events">${s.era.keyEvents.map(esc).join(' · ')}</span>`;
+      html+=`<div class="erahead" style="top:${y+2}px"><div class="bar">${bar}</div></div>`;
+    }
     totalH=y+h;
   });
   rows.forEach(m=>{
@@ -1233,11 +1285,19 @@ document.getElementById('rail').addEventListener('click',ev=>{
   const sp=eraSpans[+b.dataset.ei];
   if(sp)window.scrollTo({top:sp._y+document.getElementById('wrap').offsetTop-60,behavior:'smooth'});
 });
+const yearBadge=document.getElementById('yearBadge');
+const fmtYear=y=>y>=2026?'present':`${y} CE`;
+function updateYearBadge(cur){
+  const [y0,y1]=ERA_YEARS[cur];
+  yearBadge.textContent=`${fmtYear(y0)} to ${fmtYear(y1)}`;
+}
 addEventListener('scroll',()=>{
   const y=scrollY+innerHeight/2-document.getElementById('wrap').offsetTop;
   let cur=0;eraSpans.forEach((sp,i)=>{if(sp._y<=y)cur=i;});
   document.querySelectorAll('#rail button').forEach((b,i)=>b.classList.toggle('on',i===cur));
+  updateYearBadge(cur);
 },{passive:true});
+updateYearBadge(0);
 /* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ---- */
 let tray=[];const TRAY_MAX=5;
 function renderTray(){

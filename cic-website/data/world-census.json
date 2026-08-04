@@ -27,7 +27,12 @@
    "no": "I",
    "num": 1,
    "title": "The Early Church Era",
+   "academicName": "The Ante-Nicene Period",
    "dates": "70-312 CE",
+   "keyEvents": [
+    "Destruction of the Temple (70)",
+    "Great Persecution begins (303)"
+   ],
    "tag": "The apostles' children, under an empire that could turn on them",
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
    "ground": "#EFDDB3",
@@ -38,99 +43,144 @@
    "no": "II",
    "num": 2,
    "title": "The Imperial Church Era",
+   "academicName": "The Constantinian/Nicene Era",
    "dates": "312-451 CE",
+   "keyEvents": [
+    "Edict of Milan (313)",
+    "Council of Nicaea (325)"
+   ],
    "tag": "From Constantine's revolution to Chalcedon",
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
-   "ground": "#EDDEB9",
-   "groundDark": "#221A0E",
+   "ground": "#E3E0CB",
+   "groundDark": "#1E1C16",
    "rec": "Part of Phase One — the Step 0 selection record is on file."
   },
   {
    "no": "III",
    "num": 3,
    "title": "The Age of Monks and Empires",
+   "academicName": "Late Antiquity",
    "dates": "451-622",
+   "keyEvents": [
+    "Fall of the Western Empire (476)",
+    "Benedict's Rule (c. 530)"
+   ],
    "tag": "The communions take their lasting shapes after Chalcedon",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
-   "ground": "#EBDFC0",
-   "groundDark": "#201A10",
+   "ground": "#D8E4E5",
+   "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "IV",
    "num": 4,
    "title": "The Early Medieval Era",
+   "academicName": "The Early Middle Ages",
    "dates": "622-1054",
+   "keyEvents": [
+    "Rise of Islam (622)",
+    "Charlemagne crowned emperor (800)"
+   ],
    "tag": "Christianity under new empires, from Ireland to China",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
-   "ground": "#E9E0C6",
-   "groundDark": "#1F1A13",
+   "ground": "#EFDDB3",
+   "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "V",
    "num": 5,
    "title": "The High Medieval Era",
+   "academicName": "The High Middle Ages",
    "dates": "1054-1300",
+   "keyEvents": [
+    "East–West Schism (1054)",
+    "First Crusade (1096)"
+   ],
    "tag": "Reform, renewal, and the new orders",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02 (III.1→IV.22 spine question open)",
-   "ground": "#E7E1CC",
-   "groundDark": "#1D1A15",
+   "ground": "#E3E0CB",
+   "groundDark": "#1E1C16",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "VI",
    "num": 6,
    "title": "The Late Medieval Era",
+   "academicName": "The Late Middle Ages",
    "dates": "1300-1517",
+   "keyEvents": [
+    "Avignon Papacy begins (1309)",
+    "Black Death (1347–51)"
+   ],
    "tag": "Crisis and devotion on the eve of reform",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
-   "ground": "#E6E3D3",
-   "groundDark": "#1C1A17",
+   "ground": "#D8E4E5",
+   "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "VII",
    "num": 7,
    "title": "The Reformation Era",
+   "academicName": null,
    "dates": "1517-1650",
+   "keyEvents": [
+    "Luther's 95 Theses (1517)",
+    "Peace of Westphalia (1648)"
+   ],
    "tag": "The Western church remade - several ways at once",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
-   "ground": "#E4E4D9",
-   "groundDark": "#1A1A19",
+   "ground": "#EFDDB3",
+   "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "VIII",
    "num": 8,
    "title": "The Enlightenment & Awakening Era",
+   "academicName": "The Age of Enlightenment and Revival",
    "dates": "1650-1815",
+   "keyEvents": [
+    "First Great Awakening (1730s)",
+    "French Revolution's dechristianization (1790s)"
+   ],
    "tag": "Established churches, awakened hearts",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
-   "ground": "#E2E5DF",
-   "groundDark": "#181A1C",
+   "ground": "#E3E0CB",
+   "groundDark": "#1E1C16",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "IX",
    "num": 9,
    "title": "The Missionary Era",
+   "academicName": "The Great Century of Missions",
    "dates": "1815-1906",
+   "keyEvents": [
+    "Second Great Awakening (1800s–30s)",
+    "Abolition of the transatlantic slave trade (1807/1833)"
+   ],
    "tag": "Revival, missions, and a globalizing faith",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
-   "ground": "#E0E6E6",
-   "groundDark": "#171A1E",
+   "ground": "#D8E4E5",
+   "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   },
   {
    "no": "X",
    "num": 10,
    "title": "The Global Church Era",
+   "academicName": "World Christianity",
    "dates": "1906-present",
+   "keyEvents": [
+    "World Council of Churches founded (1948)",
+    "Second Vatican Council (1962–65)"
+   ],
    "tag": "The center of gravity moves south and east",
    "stepStatus": "Step 0 not yet run - pre-survey signals only",
-   "ground": "#DEE7EC",
-   "groundDark": "#141A20",
+   "ground": "#EFDDB3",
+   "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
   }
  ],
