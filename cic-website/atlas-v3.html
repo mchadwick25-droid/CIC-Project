@@ -153,14 +153,6 @@ body.tracing #art .sticon:not(.hot){opacity:.1}
    family hues both ways. */
 .node.live{color:var(--live-text);border:none;box-shadow:0 1px 6px rgba(0,0,0,.3)}
 .node.live .dt{color:color-mix(in srgb, var(--live-text) 85%, transparent)}
-/* mobile bundle box (Mark, 2026-08-04, third round: "keep the ribbons, just
-   calmer during the crowded stretches") -- deliberately distinct from an
-   ordinary entry box: no status icon (none of house/plans/question/door
-   describes an aggregate), .dt allowed to wrap onto a second line since
-   "14 active — tap to see all" won't fit one line at NW width the way a
-   plain date range does. */
-.node.bundle{padding:.32rem .4rem .28rem}
-.node.bundle .dt{white-space:normal;line-height:1.2}
 .node:hover,.node.hot{box-shadow:0 0 0 2px var(--goldhi),0 2px 8px rgba(0,0,0,.2);z-index:6}
 body.tracing .node:not(.hot){opacity:.18}
 body.tracing #art .thread:not(.hot){opacity:.06}
@@ -238,6 +230,18 @@ footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.68rem;c
   #regionlegend button{padding:.3rem .6rem;min-height:30px}
   #glossary dl{grid-template-columns:1fr!important}
   #glossary dt{margin-top:.35rem}
+  /* Mobile box text, smaller only (Mark, 2026-08-04, fourth round): tried
+     collapsing crowded eras into bundle boxes to fix the phone overflow --
+     "the grouping doesn't work, you lose the continuity and ability to
+     find what you're looking for." Reverted that entirely (every ribbon,
+     every individual box, same packing as desktop) and took the plainer
+     route instead: less text per box, not fewer boxes. Doesn't touch NW
+     (box width) or anything in layout()/tryPack -- purely how much space
+     the name/date text takes up inside the SAME box the packer already
+     gives it, so it carries no risk to placement, continuity, or search. */
+  .node .nm{font-size:.62rem}
+  .node .dt{font-size:.52rem}
+  .node{padding:.2rem .3rem .16rem}
 }
 @media (min-width:700px){
   #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
@@ -508,11 +512,6 @@ const canvas=document.getElementById('canvas'),art=document.getElementById('art'
    measured worst case rather than an exact fit that breaks the next time
    an era's content gets one line longer. */
 const RH=()=>innerWidth<700?54:60, HEAD=()=>innerWidth<700?230:110, ERA_PAD=34;
-/* how many concurrent same-category entries trigger a mobile bundle box
-   instead of individual ones (layout(), below) -- top-level so openSheet's
-   bundle-list copy can reference the same number the packer actually used,
-   rather than a second hardcoded 3 that could quietly drift out of sync. */
-const BUNDLE_THRESHOLD=3;
 let NW=0;
 
 /* which eras is a movement alive in? (years parsed from the era date strings) */
@@ -530,65 +529,6 @@ function layout(){
      never cross a second — the census is era-scoped, and continuity is the
      next era's own entries' job. Capped tails free their space. */
   rows.forEach(m=>{m._fam=famOf(m.laneOrder);m._ei=eraIndexOf(m);});
-  /* Mobile bundling (Mark, 2026-08-04, third round: "keep the ribbons, just
-     calmer during the crowded stretches"). The map's own packer gives every
-     LIVING entry its own non-colliding ribbon slot -- correct, but on a
-     390px screen the Reformation era alone has 14 concurrent Protestant &
-     Evangelical entries needing 14 separate slots, which is what was
-     actually running the canvas 600-700px past the edge of the phone.
-     Grouping the 10 lanes into ~7 confession categories doesn't fix this on
-     its own (most of the crowding sits inside ONE or two busy families, not
-     spread evenly) -- so instead: any (era, category) combination over
-     BUNDLE_THRESHOLD concurrent entries collapses into ONE bundle box +
-     ONE thicker ribbon, mobile only. Small categories (Syriac, Outside,
-     etc.) keep rendering individually exactly as before -- this is not a
-     wholesale simpler mobile mode, just relief where it's actually needed.
-     Desktop is untouched: mobileBundle is only ever true under 700px, and
-     renderUnits === rows whenever it's false, so nothing below changes
-     desktop's code path at all.
-     Real entries are NEVER mutated -- no _row reassignment, nothing written
-     back onto shared objects -- because rows/_row is the ONE source of
-     truth every other system (search, lane/region toggles, edges) already
-     depends on, and mutating it here would corrupt them the next time
-     layout() runs at a wider width. Bundle objects are built FRESH each
-     layout() call and carry their own _row (the earliest member's, reused
-     rather than invented, so endRowOf/capEraOf/aliveIn all work on them
-     unmodified) plus _bundleMembers for the tap-to-see-all sheet. */
-  const mobileBundle=viewW<700;
-  const bundleOfId={};
-  const bundleList=[];
-  if(mobileBundle){
-    const groups={};
-    rows.forEach(m=>{
-      const cat=catOfLane(m.laneOrder);
-      const key=m._ei+':'+cat.id;
-      (groups[key]=groups[key]||{cat,ei:m._ei,members:[]}).members.push(m);
-    });
-    Object.values(groups).forEach(g=>{
-      if(g.members.length<=BUNDLE_THRESHOLD)return;
-      const starts=g.members.map(x=>x.start), ends=g.members.map(x=>x.end);
-      const start=Math.min(...starts), end=Math.max(...ends);
-      const bundle={
-        id:`bundle:${g.ei}:${g.cat.id}`, _isBundle:true, _bundleMembers:g.members,
-        name:g.cat.lbl, shortName:g.cat.lbl,
-        laneOrder:g.cat.members[0], _fam:famOf(g.cat.members[0]),
-        _ei:g.ei, _row:Math.min(...g.members.map(x=>x._row)),
-        start, end, dates:`${start}–${end>=2026?'present':end}`,
-        status:'Bundle', regions:[...new Set(g.members.flatMap(x=>x.regions||[]))]
-      };
-      g.members.forEach(x=>{bundleOfId[x.id]=bundle;});
-      bundleList.push(bundle);
-    });
-  }
-  const renderUnits=mobileBundle&&bundleList.length
-    ?[...rows.filter(m=>!bundleOfId[m.id]),...bundleList].sort((a,b)=>a._row-b._row)
-    :rows;
-  /* keyed by the BUNDLE's own id (what n.dataset.id reads on a bundle box) --
-     bundleOfId above is keyed by real MEMBER id instead, for the render
-     loops in this function; click/hover handlers outside layout() need this
-     one. */
-  window.__bundlesById={};
-  bundleList.forEach(b=>{window.__bundlesById[b.id]=b;});
   const capEraOf=m=>Math.min(m._ei+1,eraSpans.length-1);
   const isCapped=m=>m.end>ERA_YEARS[capEraOf(m)][1];
   const endRowOf=m=>{
@@ -623,7 +563,7 @@ function layout(){
     const maxOff=NW/2-TWb/2-4;
     const blo=NW/2+4, bhi=W-NW/2-4;
     const ribbons=[];let fb=0;const pos={};const slotOf={};
-    renderUnits.forEach(m=>{
+    rows.forEach(m=>{
       let want=aX(m._ei,m._fam);
       const ps=(parentsOf[m.id]||[]).map(id=>pos[id]).filter(p=>p!=null).map(p=>p.tx);
       if(ps.length){const px=ps.reduce((a,b)=>a+b,0)/ps.length;want=0.45*want+0.55*px;}
@@ -669,7 +609,7 @@ function layout(){
   let W=viewW, attempt=tryPack(W);
   while(attempt.fb>0&&W<viewW*5){W+=60;attempt=tryPack(W);}
   anchors=attempt.A;
-  renderUnits.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
+  rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
   const subEl=document.querySelector('header.bar .s');
   if(subEl)subEl.textContent=W>viewW
@@ -700,21 +640,11 @@ function layout(){
     }
     totalH=y+h;
   });
-  renderUnits.forEach(m=>{
+  rows.forEach(m=>{
     const s=eraSpans.find(sp=>m._row>=sp.r0&&m._row<sp.r1);
     m._y=s._y+head+ERA_PAD+(m._row-s.r0)*rh;
   });
-  renderUnits.forEach(m=>{
-    if(m._isBundle){
-      const c=famColor(m._fam);
-      const style=`left:${(m._bx!=null?m._bx:m._x)-NW/2}px;top:${m._y}px;width:${NW}px;
-        background:color-mix(in srgb, ${c} 22%, var(--panel));border:2px solid ${c};`;
-      html+=`<div class="node bundle" data-id="${m.id}" style="${style}" tabindex="0" role="button"
-        aria-label="${esc(m.name)}, ${m._bundleMembers.length} traditions active, tap to see all">
-        <div class="nm" style="color:${c}">${esc(m.name)}</div>
-        <div class="dt">${m._bundleMembers.length} active — tap to see all</div></div>`;
-      return;
-    }
+  rows.forEach(m=>{
     const st=ST(m),f=m._fam,c=famColor(f);
     let style=`left:${(m._bx!=null?m._bx:m._x)-NW/2}px;top:${m._y}px;width:${NW}px;`;
     if(st==="live")style+=`background:${c};`;
@@ -730,9 +660,9 @@ function layout(){
   });
   canvas.style.height=(totalH+24)+"px";
   canvas.insertAdjacentHTML('beforeend',html);
-  drawArt(W,totalH+24,rh,renderUnits);
+  drawArt(W,totalH+24,rh);
 }
-function drawArt(W,H,rh,renderUnits){
+function drawArt(W,H,rh){
   art.setAttribute('viewBox',`0 0 ${W} ${H}`);
   art.setAttribute('width',W);art.setAttribute('height',H);
   let s="";
@@ -740,50 +670,23 @@ function drawArt(W,H,rh,renderUnits){
   const clampX=x=>Math.max(NW/2+4,Math.min(W-NW/2-4,x));
   const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k]:W/2;
   const bandBottom=i=>i+1<eraSpans.length?eraSpans[i+1]._y:H-24;
-  /* visibleIds: exactly the render units that got fresh _x/_y THIS pass --
-     a currently-bundled real entry still has _x/_y from whatever it was
-     the LAST time it rendered individually (desktop, or before this
-     resize), not undefined, so checking those fields directly would read
-     stale positions instead of catching the bundled case. This set is the
-     reliable check (Mark, 2026-08-04, third round bundling). */
-  const visibleIds=new Set(renderUnits.map(m=>m.id));
   /* straight ribbon tails: the box continues as its stream, dead vertical —
      placement already guaranteed no box sits on another's tail. A movement
      that ENDS gets a closing seal in its color; one that outlives the slice
      fades out, unsealed. */
   const TW=window.__TW||Math.max(16,Math.min(24,NW*0.2)), SH=20;
-  renderUnits.forEach(m=>{
+  rows.forEach(m=>{
     m._tw=TW;
     m._segMap={};eraSpans.forEach((sp,i)=>{m._segMap[i]=m._x;});
-    if(m._isBundle){
-      /* bundles never flow/continue (they're an aggregate, not one ongoing
-         church) and always get a closing seal -- simpler, deliberately, than
-         the individual-entry status/continuation machinery below, which
-         doesn't have a sensible meaning for "14 different traditions". */
-      const col=famColor(m._fam), tx=m._x, bx=(m._bx!=null?m._bx:m._x), yB=m._y+BOX_H-2, bw=NW/2-5, h=TW*1.4/2;
-      const tailEnd=Math.max(m._y+BOX_H+SH+6,m._y+BOX_H+14);
-      s+=`<path class="shoulder" data-mid="${m.id}" style="fill:color-mix(in srgb, ${col} 30%, var(--panel))"
-        d="M ${bx-bw} ${yB} L ${tx-h} ${yB+SH} L ${tx+h} ${yB+SH} L ${bx+bw} ${yB} Z"></path>`;
-      s+=`<path class="tail" data-mid="${m.id}"
-        d="M ${tx} ${yB+SH-2} L ${tx} ${Math.min(tailEnd,H-8)}"
-        stroke="${col}" stroke-width="${TW*1.4}"></path>`;
-      m._tailEndY=Math.min(tailEnd,H-8);
-      s+=`<rect class="seal" data-mid="${m.id}" x="${tx-h-4}" y="${m._tailEndY-2}"
-        width="${TW*1.4+8}" height="8" fill="${col}"></rect>`;
-      return;
-    }
     let past=window.__isCapped(m)||m.end>=2026; /* capped beyond scope, or living at the present edge — either way, no seal: the stream runs on */
     const endR=window.__endRowOf(m), endM=rows[Math.min(endR,rows.length-1)];
     let tailEnd=(endM&&endM._y>m._y)?endM._y+BOX_H/2:m._y+BOX_H+14;
     if(past&&endR>=rows.length-1)tailEnd=H-8;
     tailEnd=Math.max(tailEnd,m._y+BOX_H+SH+6);
     /* ongoing church: the tail flows into the successor's box top — no seal,
-       no fade; it continues as a new world but ongoing church. Only if the
-       successor is actually individually visible THIS pass -- a successor
-       hidden inside a bundle has no real _y to flow into (see visibleIds
-       above). */
+       no fade; it continues as a new world but ongoing church */
     let flows=false;
-    const nxId=contNext[m.id], nx=nxId&&visibleIds.has(nxId)&&byId[nxId];
+    const nxId=contNext[m.id], nx=nxId&&byId[nxId];
     if(nx&&nx._y>m._y){tailEnd=nx._y+5;flows=true;past=false;}
     const tx=m._x, bx=(m._bx!=null?m._bx:m._x), yB=m._y+BOX_H-2, bw=NW/2-5, h=TW/2, col=famColor(m._fam);
     /* the divergence: a sharp trapezoid from the box's bottom corners to the
@@ -823,14 +726,6 @@ function drawArt(W,H,rh,renderUnits){
     return m._segMap[i]!=null?m._segMap[i]:m._x;
   };
   DATA.edges.forEach((e,i)=>{
-    /* skip a relationship line where either end is currently hidden inside
-       a bundle (mobile, crowded eras) -- rather than reroute it to the
-       bundle's own position, which would need to pick ONE of potentially
-       several real relationships to represent and risks looking like it
-       points somewhere it doesn't. Each member's own detail sheet still
-       shows its real relationships in full; only the CANVAS line is
-       skipped. */
-    if(!visibleIds.has(e.from)||!visibleIds.has(e.to))return;
     const a=byId[e.from],b=byId[e.to];if(!a||!b)return;
     const y1=Math.max(a._y+BOX_H+6,Math.min((a._tailEndY!=null?a._tailEndY:1e9)-2,b._y-14)), cx=tailXAt(a,b._y), x2=(b._bx!=null?b._bx:b._x), y2=b._y-1;
     /* depart from the ribbon's EDGE on the side facing the child */
@@ -920,27 +815,11 @@ const CATS=[
  {id:'outside',     lbl:'Outside',    members:[80],     bridges:[],
   desc:'Traditions outside the Nicene consensus this project builds from — included on the map, marked plainly as outside the floor.'}
 ];
-/* lane key -> its CATS category, for the mobile bundling below (built once,
-   not per-layout -- CATS itself never changes at runtime). */
-const CAT_OF_LANE={};
-CATS.forEach(c=>{[...c.members,...c.bridges].forEach(k=>{CAT_OF_LANE[k]=c;});});
-const catOfLane=k=>CAT_OF_LANE[k]||CATS[CATS.length-1];
 function applyLaneToggle(){
   document.body.classList.toggle('lanefiltering', laneOff.size>0);
   rows.forEach(m=>{
     const el=document.querySelector(`.node[data-id="${m.id}"]`);
     if(el)el.classList.toggle('lane-on', laneOn(m._fam.k));
-  });
-  /* mobile bundle boxes (Mark, 2026-08-04, third round): not in rows, so the
-     loop above never reaches them -- without this they'd sit at .lane-on's
-     default (off) forever once any lane filter is touched, dimmed
-     regardless of whether their members actually match. On, if ANY member's
-     lane is on -- same any-tag rule already used for regions, since a
-     bundle can span more than one lane within its category (e.g. Orthodox
-     covers both Greek East and Caucasus). */
-  Object.values(window.__bundlesById||{}).forEach(b=>{
-    const el=document.querySelector(`.node[data-id="${b.id}"]`);
-    if(el)el.classList.toggle('lane-on', b._bundleMembers.some(m=>laneOn(m._fam.k)));
   });
   document.querySelectorAll('#art [data-mid]').forEach(el=>{
     const m=byId[el.dataset.mid];
@@ -1054,16 +933,6 @@ function applyRegionToggle(){
     const el=document.querySelector(`.node[data-id="${m.id}"]`);
     if(el)el.classList.toggle('region-on', regionActive(m));
   });
-  /* mobile bundle boxes -- regionActive(m) already just reads m.regions[],
-     and the bundle object carries the union of its members' regions, so
-     this works unmodified (same any-tag rule the region toggle already
-     uses for a normal multi-region entry). Same reasoning as the lane
-     toggle just above: bundles aren't in rows, so the loop above never
-     reaches them. */
-  Object.values(window.__bundlesById||{}).forEach(b=>{
-    const el=document.querySelector(`.node[data-id="${b.id}"]`);
-    if(el)el.classList.toggle('region-on', regionActive(b));
-  });
   document.querySelectorAll('#art [data-mid]').forEach(el=>{
     const m=byId[el.dataset.mid];
     el.classList.toggle('region-on', !!(m&&regionActive(m)));
@@ -1157,22 +1026,6 @@ function untrace(){document.body.classList.remove('tracing');
   document.querySelectorAll('.hot').forEach(n=>n.classList.remove('hot'));}
 canvas.addEventListener('pointerover',ev=>{
   const n=ev.target.closest('.node');if(!n)return;
-  /* bundle box (Mark, 2026-08-04, third round): not in byId at all -- a
-     synthetic aggregate, not a census entry -- so the ordinary hover
-     template below would throw on m.entry/m._fam.lbl. Simple teaser
-     instead, naming the members rather than repeating the box's own count
-     label verbatim. */
-  const bundle=window.__bundlesById&&window.__bundlesById[n.dataset.id];
-  if(bundle){
-    trace(bundle.id);
-    const names=bundle._bundleMembers.map(x=>x.shortName||x.name).join(' · ');
-    tip.innerHTML=`<div class="n">${esc(bundle.name)}</div>
-      <div class="m">${esc(bundle.dates)} · ${bundle._bundleMembers.length} traditions active at once</div>
-      <div class="c">${esc(names)}</div>
-      <div class="s">Tap to open each individually</div>`;
-    tip.style.display="block";
-    return;
-  }
   const m=byId[n.dataset.id];trace(m.id);
   /* Naming hierarchy (Mark, 2026-08-03): the relatable name ("Bethlehem
      Circle") leads everywhere -- the box, the hover, the click doc -- with
@@ -1217,33 +1070,6 @@ art.addEventListener('pointerover',ev=>{
 /* ---- uniform template ---- */
 const sheet=document.getElementById('sheet'),scrim=document.getElementById('scrim');
 function openSheet(id){
-  /* bundle box (Mark, 2026-08-04, third round: "keep the ribbons, just
-     calmer during the crowded stretches") -- a simple member list, not the
-     ordinary rich template (which reads m.status/m.era/m.entry etc., none
-     of which a synthetic aggregate has). Each member opens its own real
-     sheet via data-open, a plain openSheet(realId) call -- NOT data-jump,
-     which assumes the member has its own visible canvas node to scroll to
-     and focus; a bundled member doesn't, on the screen width that put it
-     in a bundle in the first place. */
-  const bundle=window.__bundlesById&&window.__bundlesById[id];
-  if(bundle){
-    const c=famColor(bundle._fam);
-    const rowsHtml=bundle._bundleMembers
-      .slice().sort((a,b)=>a.start-b.start)
-      .map(x=>`<div class="edge"><b data-open="${x.id}" tabindex="0" role="link">${esc(x.shortName||x.name)}</b>
-        <span class="cw">${esc(x.dates)}</span></div>`).join("");
-    document.getElementById('sheetBody').innerHTML=`<div style="display:flex;gap:.55rem;align-items:flex-start">
-      <div><h2 id="sheetTitle">${esc(bundle.name)}</h2>
-      <div class="meta">${esc(bundle.dates)} · ${bundle._bundleMembers.length} traditions active at once</div></div></div>
-      <p class="note">Grouped here to keep the map calm on a narrow screen — more than ${BUNDLE_THRESHOLD}
-      ${esc(bundle.name)} traditions were alive at the same time in this era. Tap any one below for its own full entry.</p>
-      <h4>Traditions in this group</h4>${rowsHtml}`;
-    sheet.scrollTop=0;
-    sheet.removeAttribute('inert');
-    sheet.classList.add('on');scrim.classList.add('on');
-    sheet.focus();
-    return;
-  }
   const m=byId[id],live=m.status==="Built & Live",f=m._fam;
   const st=live?"live":(m.status==="Selected - Not Yet Built"?"sel":
     ((m.status.indexOf("Excluded")===0||m.status==="Floor Question (register)"||m.beyondFloor)?"exc":"q"));
@@ -1374,23 +1200,12 @@ function jumpTo(id){
   if(el){el.scrollIntoView({block:'center'});trace(id);el.focus();setTimeout(untrace,1800);}
 }
 sheet.addEventListener('click',ev=>{
-  /* data-open (Mark, 2026-08-04, third round): a bundle-list member link --
-     opens that entry's own real sheet directly, replacing the bundle list
-     in place. Deliberately NOT jumpTo/data-jump, which closes the sheet and
-     scrolls to a canvas node -- a bundled member has no individually
-     visible node to scroll to on the width that bundled it in the first
-     place. */
-  const o=ev.target.closest('[data-open]');
-  if(o){openSheet(o.dataset.open);return;}
   const j=ev.target.closest('[data-jump]');if(!j)return;
   jumpTo(j.dataset.jump);
 });
 sheet.addEventListener('keydown',ev=>{
   if(ev.key==='Escape'){closeSheet();return;}
-  const activate=ev.key==='Enter'||ev.key===' ';
-  const o=activate?ev.target.closest('[data-open]'):null;
-  if(o){ev.preventDefault();openSheet(o.dataset.open);return;}
-  const j=activate?ev.target.closest('[data-jump]'):null;
+  const j=ev.key==='Enter'||ev.key===' '?ev.target.closest('[data-jump]'):null;
   if(j){ev.preventDefault();jumpTo(j.dataset.jump);return;}
   if(ev.key!=='Tab')return;
   /* basic focus trap -- Tab/Shift+Tab cycles within the open dialog rather
@@ -1461,18 +1276,6 @@ function applyFilter(){
     const ok=textOk&&(!builtOnly||m.status==="Built & Live");
     m._match=ok;if(ok)n++;
     const el=document.querySelector(`.node[data-id="${m.id}"]`);
-    if(el)el.classList.toggle('match',ok&&active);
-  });
-  /* mobile bundle boxes -- matched if ANY member matches (search text or
-     built-only), computed AFTER the loop above so it can just read the
-     m._match it already set on each real member, rather than re-deriving
-     the search/built logic a second time. n (the header count) intentionally
-     still counts real matched entries one at a time, bundled or not --
-     "8 of 257 movements" should mean 8 real movements regardless of how
-     they're grouped on screen. */
-  Object.values(window.__bundlesById||{}).forEach(b=>{
-    const ok=b._bundleMembers.some(m=>m._match);
-    const el=document.querySelector(`.node[data-id="${b.id}"]`);
     if(el)el.classList.toggle('match',ok&&active);
   });
   document.querySelectorAll('#art [data-mid]').forEach(el=>{
