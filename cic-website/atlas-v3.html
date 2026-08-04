@@ -18,21 +18,37 @@
      sole carrier of status. -->
 
 <style>
+/* --node-shadow (Mark, 2026-08-04: "some of the worlds don't show up well
+   on dark mode, its dark on dark") -- the box-shadow that gives an
+   un-built entry's box visible edges against its era background is a pure
+   black rgba, which does real work in light mode (a dark shadow reads
+   against a light era tint) but is close to invisible once the era
+   background is ALSO dark: measured panel-vs-era contrast is ~1.06-1.09 in
+   BOTH themes (never great), but light mode was quietly rescued by that
+   shadow and dark mode wasn't. Dark mode's value adds a subtle light-rgba
+   ring (0 blur, 1px spread) on top of a slightly stronger dark shadow --
+   a light edge reads against a dark background regardless of how close
+   the era's own dark tone happens to sit to --panel, which color-matched
+   borders alone can't guarantee. */
 :root{
   --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;
   --gold:#83662a; --goldhi:#c9a35c; --thread:#8a6a28; --live-text:#fff;
+  --node-shadow:0 1px 2px rgba(0,0,0,.08);
 }
 @media (prefers-color-scheme: dark){:root{
   --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
   --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
+  --node-shadow:0 1px 3px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.09);
 }}
 :root[data-theme="dark"]{
   --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
   --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
+  --node-shadow:0 1px 3px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.09);
 }
 :root[data-theme="light"]{
   --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;
   --gold:#83662a; --goldhi:#c9a35c; --thread:#8a6a28; --live-text:#fff;
+  --node-shadow:0 1px 2px rgba(0,0,0,.08);
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Georgia,'Times New Roman',serif}
@@ -140,7 +156,7 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
 body.tracing #art .sticon:not(.hot){opacity:.1}
 #art .tail.cont{opacity:.16}
 .node{position:absolute;z-index:3;border-radius:0;padding:.26rem .38rem .22rem;cursor:pointer;
-  background:var(--panel);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.08);
+  background:var(--panel);border:1px solid var(--line);box-shadow:var(--node-shadow);
   transition:box-shadow .12s, opacity .25s;text-align:center}
 .node .nm{font-weight:700;font-size:.72rem;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .node .dt{font-size:.6rem;color:var(--muted);font-style:italic}
@@ -402,7 +418,7 @@ click for the full entry — the same template for every movement, built or not.
 <footer class="site-footer">
   <div class="wrap">
     <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
-    <nav><a href="about.html">About</a><a href="atlas-v3.html">Atlas</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
+    <nav><a href="about.html">About</a><a href="atlas.html">Atlas</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
   </div>
 </footer>
 
