@@ -69,21 +69,6 @@ body.lanefiltering #art .seal:not(.lane-on),body.lanefiltering #art .sticon:not(
 body.lanefiltering #art .thread:not(.lane-on){opacity:.08}
 body.lanefiltering #art .tdot:not(.lane-on){opacity:.05}
 body.lanefiltering #art .thread-label:not(.lane-on){opacity:0}
-/* streams: opt-in spotlight, default off/no highlight (Mark's bar -- "highlighting
-   a stream of boxes" -- so composes with lane/search/built via the same
-   independent-fade convention: any active filter can dim a box, none un-dims it). */
-#streamlegend{display:flex;gap:.4rem;margin-top:.3rem;flex-wrap:wrap;align-items:center}
-#streamlegend .lbl{font-size:.6rem;color:var(--muted);font-variant:small-caps;letter-spacing:.05em;margin-right:.15rem}
-#streamlegend button{font:inherit;font-size:.62rem;color:var(--muted);background:none;
-  border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem;cursor:pointer;transition:all .15s}
-#streamlegend button:hover{color:var(--ink)}
-#streamlegend button.on{border-color:var(--gold);color:var(--ink);background:var(--panel);box-shadow:inset 0 0 0 1px var(--gold)}
-body.streamfiltering .node:not(.stream-on){opacity:.13}
-body.streamfiltering #art .tail:not(.stream-on),body.streamfiltering #art .shoulder:not(.stream-on),
-body.streamfiltering #art .seal:not(.stream-on),body.streamfiltering #art .sticon:not(.stream-on){opacity:.05}
-body.streamfiltering #art .thread:not(.stream-on){opacity:.08}
-body.streamfiltering #art .tdot:not(.stream-on){opacity:.05}
-body.streamfiltering #art .thread-label:not(.stream-on){opacity:0}
 /* ---- region toggle (Mark, 2026-08-04): "use actual regions... if they show
    up in more than one they are included" -- geography, independent of the
    lane/confession axis above. Same solo-then-add mechanic as #legend, but
@@ -207,7 +192,7 @@ footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.68rem;c
   #legend{flex-wrap:wrap;overflow-x:visible;row-gap:.5rem}
   #legend .lanegroup{flex-wrap:wrap;border-right:none;padding-right:0;row-gap:.3rem}
   #legend button{padding:.3rem .1rem;min-height:30px}
-  #streamlegend button{padding:.3rem .6rem;min-height:30px}
+  #regionlegend button{padding:.3rem .6rem;min-height:30px}
   #glossary dl{grid-template-columns:1fr!important}
   #glossary dt{margin-top:.35rem}
 }
@@ -227,8 +212,8 @@ footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.68rem;c
   background:var(--panel);color:var(--muted);border:1px solid var(--line);padding:.28rem .55rem;cursor:pointer}
 #controls .chip.on{border-color:var(--gold);color:var(--ink);box-shadow:inset 0 0 0 1px var(--gold)}
 #controls .cnt{font-size:.7rem;color:var(--muted);font-style:italic;margin-left:auto}
-/* Filters collapse (Mark, 2026-08-04): #legend + #streamlegend together were
-   the actual bulk of #controls -- 18 lane/category buttons plus 10 stream
+/* Filters collapse (Mark, 2026-08-04): #legend + #regionlegend together were
+   the actual bulk of #controls -- 18 lane/category buttons plus 10 region
    buttons, sticky, always rendered. On mobile that stack alone ran to ~2/3
    of the viewport before any map was visible at all. Hidden by default now,
    behind one toggle in row1; row1 itself (search + built-toggle + count)
@@ -259,7 +244,7 @@ body.filtering #art .thread{opacity:.1}
 /* legend/rail/control buttons relied on the browser's bare default outline --
    works, but inconsistent across browsers and easy to lose against this
    theme's custom button chrome. Explicit, matches the node's own treatment. */
-#legend button:focus-visible,#streamlegend button:focus-visible,#rail button:focus-visible,
+#legend button:focus-visible,#regionlegend button:focus-visible,#rail button:focus-visible,
 #controls .chip:focus-visible,#tray button:focus-visible,#sheet .act:focus-visible,
 #sheet .close:focus-visible,#sheet .edge b:focus-visible{
   outline:2px solid var(--goldhi);outline-offset:1px}
@@ -306,7 +291,6 @@ body.filtering #art .thread{opacity:.1}
   <div id="filterPanel">
     <div id="legend" role="group" aria-label="Filter by tradition lane and category"></div>
     <div id="regionlegend" role="group" aria-label="Filter by region"></div>
-    <div id="streamlegend" role="group" aria-label="Spotlight a historical stream"></div>
   </div>
 </div>
 
@@ -366,7 +350,7 @@ fetch('data/world-census.json')
 function boot(DATA){
 const esc=t=>(t==null?"":String(t)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
 
-/* ---- B5: shareable deep-links -- a search + lane + stream + built-toggle
+/* ---- B5: shareable deep-links -- a search + lane + region + built-toggle
    view can be bookmarked or sent to someone. Read once at boot (before any
    of the four state variables below take their defaults); written back to
    the URL via replaceState (not pushState -- a filter tweak shouldn't spam
@@ -378,7 +362,6 @@ const urlState={
   q: urlParams.get('q')||"",
   built: urlParams.get('built')==='1',
   laneoff: (urlParams.get('laneoff')||"").split(',').filter(Boolean).map(Number),
-  streams: (urlParams.get('streams')||"").split(',').filter(Boolean),
   regionoff: (urlParams.get('regionoff')||"").split(',').filter(Boolean)
 };
 function syncURL(){
@@ -386,7 +369,6 @@ function syncURL(){
   if(QRaw)p.set('q',QRaw);
   if(builtOnly)p.set('built','1');
   if(laneOff.size)p.set('laneoff',[...laneOff].join(','));
-  if(streamOn.size)p.set('streams',[...streamOn].join(','));
   if(regionOff.size)p.set('regionoff',[...regionOff].join(','));
   const qs=p.toString();
   history.replaceState(null,'',qs?('?'+qs):location.pathname);
@@ -807,73 +789,6 @@ document.getElementById('laneAll').addEventListener('click',()=>{
   laneOff=new Set();
   applyLaneToggle();syncURL();
 });
-/* ---- streams: opt-in lineage clusters (Mark, 2026-08-03) -- "if its
-   highlighting a single box then its not helping, if it is highligthing a
-   stream of boxes then it is valable." First three, per census `streams[]`
-   tags (28/11/9 entries, VII.24 dual-tagged): Oriental Orthodox, the
-   Hesychast/Philokalia line, and Eastern Catholic/Uniate communions.
-   Default OFF, multi-select; any active stream fades every box that isn't
-   in one of the active streams -- distinct from lane fade (family) and
-   built/search fade (status/text), all three compose by independent dim. */
-const STREAMS=[
- {id:'oriental-orthodox',      lbl:'Oriental Orthodox',
-  desc:'The non-Chalcedonian family — Coptic, Armenian, Ethiopian, Syriac, and related churches that didn’t accept the Council of Chalcedon’s 451 definition.'},
- {id:'hesychast-philokalia',   lbl:'Hesychast / Philokalia',
-  desc:'The contemplative prayer tradition running from Byzantine monasticism through Mount Athos to the Russian startsy.'},
- {id:'eastern-catholic-uniate',lbl:'Eastern Catholic / Uniate',
-  desc:'Eastern-rite churches that keep Orthodox worship and heritage while in union with Rome.'},
- {id:'reformed-calvinist',     lbl:'Reformed / Calvinist',
-  desc:'The Geneva-rooted family — Scottish, Huguenot, Dutch, Puritan, and Presbyterian churches.'},
- {id:'wesleyan-holiness-pentecostal', lbl:'Wesleyan / Holiness / Pentecostal',
-  desc:'The revivalist line running from Methodism through the Holiness movement into Pentecostalism.'},
- {id:'baptist',                lbl:'Baptist',
-  desc:'Believer’s-baptism congregational churches descended from English Separatism.'},
- {id:'anabaptist-believers-church',   lbl:'Anabaptist / Believers-Church',
-  desc:'The radical Reformation’s believer’s-church tradition — adult baptism and separation from state churches.'},
- {id:'anglican-church-of-england',    lbl:'Anglican / Church of England',
-  desc:'The English church’s own continuous institutional line, from the Reformation settlement through its later renewal movements.'},
- {id:'dispensational-bible-institute',lbl:'Dispensational / Bible-Institute',
-  desc:'The prophecy-focused popular Bible-teaching tradition running from the Plymouth Brethren through the Bible-institute movement.'},
- {id:'post-evangelical-ferment',      lbl:'Post-Evangelical Ferment',
-  desc:'Late-modern evangelicalism’s internal reckoning — seeker/megachurches, the emerging church, and those now leaving both.'}
-];
-let streamOn=new Set(urlState.streams.filter(id=>STREAMS.some(s=>s.id===id)));
-/* NB: must resolve to a real boolean, never undefined -- classList.toggle(cls,
-   force) treats an explicit `undefined` force as "argument omitted" (pure
-   flip) rather than "force off", so an `&&`-chain that can short-circuit to
-   undefined silently breaks multi-select (caught by testing 2 streams active
-   at once: entries with no streams field started flipping back on). */
-const streamActive=m=>!streamOn.size||!!(m.streams&&m.streams.some(s=>streamOn.has(s)));
-function applyStreamToggle(){
-  document.body.classList.toggle('streamfiltering', streamOn.size>0);
-  rows.forEach(m=>{
-    const el=document.querySelector(`.node[data-id="${m.id}"]`);
-    if(el)el.classList.toggle('stream-on', streamActive(m));
-  });
-  document.querySelectorAll('#art [data-mid]').forEach(el=>{
-    const m=byId[el.dataset.mid];
-    el.classList.toggle('stream-on', !!(m&&streamActive(m)));
-  });
-  document.querySelectorAll('#art .thread,#art .tdot,#art .thread-label').forEach(el=>{
-    const m=byId[el.dataset.from];
-    el.classList.toggle('stream-on', !!(m&&streamActive(m)));
-  });
-  document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
-    b.classList.toggle('on', streamOn.has(b.dataset.s));
-    b.setAttribute('aria-pressed', String(streamOn.has(b.dataset.s)));
-  });
-  updateFilterCount();
-}
-document.getElementById('streamlegend').innerHTML=
-  `<span class="lbl">Streams</span>`+
-  STREAMS.map(s=>`<button type="button" data-s="${s.id}" aria-pressed="false">${esc(s.lbl)}</button>`).join("");
-document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
-  b.addEventListener('click',()=>{
-    const s=b.dataset.s;
-    if(streamOn.has(s))streamOn.delete(s);else streamOn.add(s);
-    applyStreamToggle();syncURL();
-  });
-});
 /* ---- region toggle (Mark, 2026-08-04): "use actual regions ... if they
    show up in more than one they are included" -- built from the census's
    own `region` free-text field (210 unique values across 257 entries),
@@ -887,7 +802,13 @@ document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
    Independent axis from the lane/confession toggle above -- same
    solo-then-add-then-All mechanic, but entries can carry more than one
    region, so a region only "hides" an entry once EVERY tag it carries is
-   off (regionActive), not on the first one. */
+   off (regionActive), not on the first one.
+   "Global" tag retired (Mark, 2026-08-04): it was inconsistently applied
+   -- some transnational entries got it, some didn't, and it did the same
+   job the All button already does honestly. Every entry now carries its
+   real starting place as the primary region, plus a second region if it
+   became substantial somewhere else, instead of a catch-all "everywhere"
+   tag standing in for "we didn't work out where this actually started." */
 const REGIONS=[
  {id:'Africa',        lbl:'Africa',
   desc:'Egypt, Ethiopia, Nubia, Carthage and North Africa, Kongo, Madagascar, and East/West/South Africa.'},
@@ -908,9 +829,7 @@ const REGIONS=[
  {id:'North America', lbl:'North America',
   desc:'The United States and Canada.'},
  {id:'Latin America', lbl:'Latin America',
-  desc:'Mexico, Central America, South America, and the Caribbean.'},
- {id:'Global',        lbl:'Global / Worldwide',
-  desc:'Explicitly transnational or diaspora movements without one home base.'}
+  desc:'Mexico, Central America, South America, and the Caribbean.'}
 ];
 const ALL_REGION_KEYS=REGIONS.map(r=>r.id);
 let regionOff=new Set(urlState.regionoff.filter(id=>ALL_REGION_KEYS.includes(id)));
@@ -960,30 +879,22 @@ document.getElementById('regionAll').addEventListener('click',()=>{
   regionOff=new Set();
   applyRegionToggle();syncURL();
 });
-/* Streams & categories glossary -- generated FROM the CATS/STREAMS arrays
+/* Categories & regions glossary -- generated FROM the CATS/REGIONS arrays
    (single source of truth, same discipline as the rest of the atlas reading
-   the census live) so it can't drift out of sync as streams are added.
-   Mark, 2026-08-03: the toggle labels use real vocabulary ("Dispensational
-   / Bible-Institute", "Post-Evangelical Ferment") that a first-time visitor
-   won't already know -- this spells each one out in a plain sentence. */
+   the census live) so it can't drift out of sync as either is edited. */
 document.getElementById('glossary').innerHTML=
-  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories, regions &amp; streams</b>
-   <p style="margin:.4rem 0 .2rem">The header toggles group the map three ways, independent of each other. <b>Categories</b> name
+  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories &amp; regions</b>
+   <p style="margin:.4rem 0 .2rem">The header toggles group the map two ways, independent of each other. <b>Categories</b> name
    the 13 colored lanes honestly — real confessional families where one applies, plainly labeled otherwise, never forced into a leftover "Other":</p>
    <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
    ${CATS.map(c=>`<dt style="font-weight:700">${esc(c.lbl)}</dt><dd style="margin:0">${esc(c.desc)}</dd>`).join('')}
    </dl>
    <p style="margin:.4rem 0 .2rem"><b>Regions</b> are real geography, not confession — an entry that spans more than
    one shows up under each:</p>
-   <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
-   ${REGIONS.map(r=>`<dt style="font-weight:700">${esc(r.lbl)}</dt><dd style="margin:0">${esc(r.desc)}</dd>`).join('')}
-   </dl>
-   <p style="margin:.4rem 0 .2rem"><b>Streams</b> spotlight a lineage that runs across those families —
-   pick one or more to fade everything outside it:</p>
    <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
-   ${STREAMS.map(s=>`<dt style="font-weight:700">${esc(s.lbl)}</dt><dd style="margin:0">${esc(s.desc)}</dd>`).join('')}
+   ${REGIONS.map(r=>`<dt style="font-weight:700">${esc(r.lbl)}</dt><dd style="margin:0">${esc(r.desc)}</dd>`).join('')}
    </dl>`;
-/* ---- filters collapse (Mark, 2026-08-04): #legend + #streamlegend hidden
+/* ---- filters collapse (Mark, 2026-08-04): #legend + #regionlegend hidden
    by default -- see #controls comment in <style> for why. One toggle in
    row1 opens/closes the panel; a small badge on the toggle shows how many
    filters are actually active so collapsing never hides that a filter is
@@ -997,16 +908,15 @@ function setFilterPanel(open){
 }
 filterToggle.addEventListener('click',()=>setFilterPanel(!filterPanel.classList.contains('open')));
 function updateFilterCount(){
-  const n=laneOff.size+streamOn.size+regionOff.size;
+  const n=laneOff.size+regionOff.size;
   document.getElementById('fcount').textContent=n?String(n):"";
   filterToggle.classList.toggle('has-filters',n>0);
 }
-if(laneOff.size||streamOn.size||regionOff.size)setFilterPanel(true);
+if(laneOff.size||regionOff.size)setFilterPanel(true);
 layout();
 applyLaneToggle();
 applyRegionToggle();
-applyStreamToggle();
-addEventListener('resize',()=>{layout();applyLaneToggle();applyRegionToggle();applyStreamToggle();applyFilter();});
+addEventListener('resize',()=>{layout();applyLaneToggle();applyRegionToggle();applyFilter();});
 
 /* ---- trace ---- */
 const tip=document.getElementById('tip');
@@ -1096,7 +1006,7 @@ function openSheet(id){
     ${m.shortName&&m.shortName!==m.name?`<div style="color:var(--muted);font-size:.8rem;font-style:italic">${esc(m.name)}</div>`:""}
     <div class="meta">${esc(m.dates)} · ${esc(m.region)}</div>
     <div class="fam"><i style="background:${famColor(f)}"></i>${esc(f.lbl)} tradition family</div>
-    ${m.streams&&m.streams.length?`<div class="fam">${m.streams.map(s=>esc(STREAMS.find(x=>x.id===s)?.lbl||s)).join(" · ")}</div>`:""}</div></div>
+    ${m.regions&&m.regions.length?`<div class="fam">${esc(m.regions.join(' · '))}</div>`:""}</div></div>
    <h4>About this world</h4>
    ${m.longDescription?`<p>${esc(m.longDescription)}</p>`
      :`<p class="note">Not yet written — ${esc(eraState)}</p>`}

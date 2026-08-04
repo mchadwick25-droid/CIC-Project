@@ -9969,7 +9969,6 @@
    "end": 1815,
    "region": "Saxony, then global",
    "regions": [
-    "Global",
     "North Europe"
    ],
    "lane": "6 Protestant & Evangelical",
@@ -13417,7 +13416,6 @@
    "end": 1906,
    "region": "Dublin, England, then global",
    "regions": [
-    "Global",
     "North Europe"
    ],
    "lane": "6 Protestant & Evangelical",
@@ -13576,7 +13574,6 @@
    "end": 1920,
    "region": "N. America, Britain, global",
    "regions": [
-    "Global",
     "North America",
     "North Europe"
    ],
@@ -14881,7 +14878,6 @@
    "end": 1920,
    "region": "Los Angeles, then global",
    "regions": [
-    "Global",
     "North America"
    ],
    "lane": "7 Global Revival & Pentecostal",
@@ -15087,7 +15083,9 @@
    "end": 2026,
    "region": "Global",
    "regions": [
-    "Global"
+    "Mediterranean",
+    "North America",
+    "North Europe"
    ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
@@ -15151,7 +15149,6 @@
    "end": 1970,
    "region": "Paris, then global",
    "regions": [
-    "Global",
     "North Europe"
    ],
    "lane": "3 Greek East & Orthodoxy",
@@ -15360,7 +15357,6 @@
    "end": 1993,
    "region": "N. America, then global",
    "regions": [
-    "Global",
     "North America"
    ],
    "lane": "8 Beyond the Floor (researched & explained)",
@@ -15461,7 +15457,8 @@
    "end": 2026,
    "region": "Global",
    "regions": [
-    "Global"
+    "North America",
+    "North Europe"
    ],
    "lane": "-",
    "laneLabel": "Cross-Family",
@@ -15493,7 +15490,6 @@
    "end": 2026,
    "region": "Tur Abdin, Urmia, then global",
    "regions": [
-    "Global",
     "Middle East"
    ],
    "lane": "1 Syriac East & Asia",
@@ -15634,7 +15630,7 @@
    "end": 2026,
    "region": "Global",
    "regions": [
-    "Global"
+    "Mediterranean"
    ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
@@ -15666,7 +15662,8 @@
    "end": 2026,
    "region": "Global",
    "regions": [
-    "Global"
+    "North America",
+    "North Europe"
    ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
@@ -15763,8 +15760,7 @@
    "region": "Anatolia -> Armenia & worldwide diaspora",
    "regions": [
     "Asia Minor",
-    "Caucasus",
-    "Global"
+    "Caucasus"
    ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
@@ -15836,7 +15832,6 @@
    "end": 2026,
    "region": "N. America, then global",
    "regions": [
-    "Global",
     "North America"
    ],
    "lane": "6 Protestant & Evangelical",
@@ -15872,7 +15867,6 @@
    "end": 2026,
    "region": "N. America, then global",
    "regions": [
-    "Global",
     "North America"
    ],
    "lane": "6 Protestant & Evangelical",
@@ -15908,7 +15902,6 @@
    "end": 2026,
    "region": "Digital-native; N. America and beyond",
    "regions": [
-    "Global",
     "North America"
    ],
    "lane": "6 Protestant & Evangelical",
@@ -15944,7 +15937,6 @@
    "end": 2026,
    "region": "N. America, UK, then global (digital)",
    "regions": [
-    "Global",
     "North America",
     "North Europe"
    ],
