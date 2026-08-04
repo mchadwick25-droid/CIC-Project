@@ -281,7 +281,7 @@ body.filtering #art .thread{opacity:.1}
 <main id="main">
 <div id="controls">
   <div class="row1">
-    <input type="search" id="q" placeholder="Search all 257 movements — including the ones that aren’t open, and why" aria-label="Search all movements">
+    <input type="search" id="q" placeholder="Have a movement or period in mind? Search by name — e.g. Coptic, Reformation, Pentecostal" aria-label="Search by movement name or period">
     <button id="builtToggle" class="chip" aria-pressed="false"><svg width="12" height="12" aria-hidden="true"><use href="#ic-house"/></svg>Built worlds</button>
     <button id="filterToggle" class="chip" type="button" aria-expanded="false" aria-controls="filterPanel">Filters<span class="fcount" id="fcount"></span><svg class="car" width="10" height="10" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
     <button id="shareBtn" class="chip" type="button" title="Copy a link to this exact view">Copy link</button>
@@ -1188,7 +1188,22 @@ function applyFilter(){
   document.querySelectorAll('#art [data-mid]').forEach(el=>{
     const m=byId[el.dataset.mid];el.classList.toggle('match',!!(m&&m._match&&active));
   });
-  document.getElementById('cnt').textContent=active?`${n} of ${rows.length} movements`:`${rows.length} movements · ten eras`;
+  /* Honest no-match message (Mark, 2026-08-04): the search is a plain name/
+     period lookup, not a themed or semantic search -- doing that "for
+     real" would mean either a live LLM call (breaks the whole point of a
+     static, token-free atlas) or a synonym-guessing hack that just moves
+     the "you have to know the exact word" problem instead of solving it.
+     So instead of a bare, easy-to-misread "0 of 257 movements", echo back
+     exactly what was typed and say plainly it isn't in the data --
+     .textContent, not a template literal into innerHTML, so a typed "<" or
+     "&" can't break the page. Uses cnt's existing aria-live="polite" span,
+     so it's announced to screen readers same as the ordinary count. */
+  const cntEl=document.getElementById('cnt');
+  if(QRaw&&n===0){
+    cntEl.textContent=`"${QRaw}" doesn't match anything documented in this timeline.`;
+  }else{
+    cntEl.textContent=active?`${n} of ${rows.length} movements`:`${rows.length} movements · ten eras`;
+  }
 }
 document.getElementById('q').addEventListener('input',ev=>{QRaw=ev.target.value.trim();QF=norm(QRaw);applyFilter();syncURL();});
 document.getElementById('builtToggle').addEventListener('click',()=>{
