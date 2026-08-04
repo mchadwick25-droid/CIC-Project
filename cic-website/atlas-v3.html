@@ -84,6 +84,25 @@ body.streamfiltering #art .seal:not(.stream-on),body.streamfiltering #art .stico
 body.streamfiltering #art .thread:not(.stream-on){opacity:.08}
 body.streamfiltering #art .tdot:not(.stream-on){opacity:.05}
 body.streamfiltering #art .thread-label:not(.stream-on){opacity:0}
+/* ---- region toggle (Mark, 2026-08-04): "use actual regions... if they show
+   up in more than one they are included" -- geography, independent of the
+   lane/confession axis above. Same solo-then-add mechanic as #legend, but
+   entries can carry more than one region (m.regions[]), so a region counts
+   as "on" if ANY of its tags is active -- turning one off only hides an
+   entry once EVERY region it carries is off. */
+#regionlegend{display:flex;gap:.4rem;margin-top:.3rem;flex-wrap:wrap;align-items:center}
+#regionlegend button{font:inherit;font-size:.62rem;color:var(--muted);background:none;
+  border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem;cursor:pointer;transition:all .15s}
+#regionlegend button:hover{color:var(--ink)}
+#regionlegend button.off{opacity:.4;border-style:dashed}
+#regionlegend button.allbtn{font-weight:700;border-color:var(--line)}
+#regionlegend button.allbtn.current{opacity:.4;cursor:default}
+body.regionfiltering .node:not(.region-on){opacity:.13}
+body.regionfiltering #art .tail:not(.region-on),body.regionfiltering #art .shoulder:not(.region-on),
+body.regionfiltering #art .seal:not(.region-on),body.regionfiltering #art .sticon:not(.region-on){opacity:.05}
+body.regionfiltering #art .thread:not(.region-on){opacity:.08}
+body.regionfiltering #art .tdot:not(.region-on){opacity:.05}
+body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
 
 #wrap{position:relative;margin:0 auto}
 .erahead{position:absolute;left:0;z-index:20;pointer-events:none;padding:.3rem .7rem}
@@ -286,6 +305,7 @@ body.filtering #art .thread{opacity:.1}
   </div>
   <div id="filterPanel">
     <div id="legend" role="group" aria-label="Filter by tradition lane and category"></div>
+    <div id="regionlegend" role="group" aria-label="Filter by region"></div>
     <div id="streamlegend" role="group" aria-label="Spotlight a historical stream"></div>
   </div>
 </div>
@@ -358,7 +378,8 @@ const urlState={
   q: urlParams.get('q')||"",
   built: urlParams.get('built')==='1',
   laneoff: (urlParams.get('laneoff')||"").split(',').filter(Boolean).map(Number),
-  streams: (urlParams.get('streams')||"").split(',').filter(Boolean)
+  streams: (urlParams.get('streams')||"").split(',').filter(Boolean),
+  regionoff: (urlParams.get('regionoff')||"").split(',').filter(Boolean)
 };
 function syncURL(){
   const p=new URLSearchParams();
@@ -366,6 +387,7 @@ function syncURL(){
   if(builtOnly)p.set('built','1');
   if(laneOff.size)p.set('laneoff',[...laneOff].join(','));
   if(streamOn.size)p.set('streams',[...streamOn].join(','));
+  if(regionOff.size)p.set('regionoff',[...regionOff].join(','));
   const qs=p.toString();
   history.replaceState(null,'',qs?('?'+qs):location.pathname);
 }
@@ -825,6 +847,92 @@ document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
     applyStreamToggle();syncURL();
   });
 });
+/* ---- region toggle (Mark, 2026-08-04): "use actual regions ... if they
+   show up in more than one they are included" -- built from the census's
+   own `region` free-text field (210 unique values across 257 entries),
+   word-boundary keyword-matched into ten real regions, cross-checked by
+   hand for the ambiguous cases (Jerusalem is not "USA" despite the
+   substring; the Balkans are Asia Minor's Byzantine zone, but the
+   specifically Greek parts of it -- Greece, the Greek islands, Mount
+   Athos -- are ALSO Mediterranean; the Pacific got its own region rather
+   than folding New Zealand into "Greater Asia" once three OTHER entries
+   turned out to touch Australia/the Pacific too, not just Ratana).
+   Independent axis from the lane/confession toggle above -- same
+   solo-then-add-then-All mechanic, but entries can carry more than one
+   region, so a region only "hides" an entry once EVERY tag it carries is
+   off (regionActive), not on the first one. */
+const REGIONS=[
+ {id:'Africa',        lbl:'Africa',
+  desc:'Egypt, Ethiopia, Nubia, Carthage and North Africa, Kongo, Madagascar, and East/West/South Africa.'},
+ {id:'Middle East',   lbl:'Middle East',
+  desc:'Palestine, Syria, Mesopotamia, Lebanon, and Persia -- the earliest heartland of the church.'},
+ {id:'Asia Minor',    lbl:'Asia Minor',
+  desc:'The Byzantine world -- Anatolia, Constantinople, and the Balkans. Its specifically Greek places (Greece, the Greek islands, Mount Athos) are tagged Mediterranean as well.'},
+ {id:'Caucasus',      lbl:'Caucasus',
+  desc:'Armenia, Georgia, and their neighbors -- its own bridge region between Europe, Asia, and the Middle East.'},
+ {id:'Mediterranean', lbl:'Mediterranean',
+  desc:'The connected ancient and late-antique world around the sea itself -- Rome, Carthage, Alexandria, Spain, Gaul -- entries here usually also carry their base continent.'},
+ {id:'North Europe',  lbl:'North Europe',
+  desc:'Europe outside the Mediterranean rim -- the British Isles, Germany, the Low Countries, Scandinavia, and Russia/Eastern Europe.'},
+ {id:'Greater Asia',  lbl:'Greater Asia',
+  desc:'South, East, and Southeast Asia -- India, China, Japan, Korea, the Philippines, and Central Asia.'},
+ {id:'Pacific',       lbl:'Pacific',
+  desc:'Australia, Aotearoa/New Zealand, and the Pacific Islands.'},
+ {id:'North America', lbl:'North America',
+  desc:'The United States and Canada.'},
+ {id:'Latin America', lbl:'Latin America',
+  desc:'Mexico, Central America, South America, and the Caribbean.'},
+ {id:'Global',        lbl:'Global / Worldwide',
+  desc:'Explicitly transnational or diaspora movements without one home base.'}
+];
+const ALL_REGION_KEYS=REGIONS.map(r=>r.id);
+let regionOff=new Set(urlState.regionoff.filter(id=>ALL_REGION_KEYS.includes(id)));
+const regionActive=m=>!m.regions||m.regions.some(r=>!regionOff.has(r));
+function applyRegionToggle(){
+  document.body.classList.toggle('regionfiltering', regionOff.size>0);
+  rows.forEach(m=>{
+    const el=document.querySelector(`.node[data-id="${m.id}"]`);
+    if(el)el.classList.toggle('region-on', regionActive(m));
+  });
+  document.querySelectorAll('#art [data-mid]').forEach(el=>{
+    const m=byId[el.dataset.mid];
+    el.classList.toggle('region-on', !!(m&&regionActive(m)));
+  });
+  document.querySelectorAll('#art .thread,#art .tdot,#art .thread-label').forEach(el=>{
+    const m=byId[el.dataset.from];
+    el.classList.toggle('region-on', !!(m&&regionActive(m)));
+  });
+  document.querySelectorAll('#regionlegend button[data-r]').forEach(b=>{
+    const on=!regionOff.has(b.dataset.r);
+    b.classList.toggle('off', !on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+  const allBtn=document.getElementById('regionAll');
+  allBtn.classList.toggle('current', regionOff.size===0);
+  allBtn.setAttribute('aria-pressed', String(regionOff.size===0));
+  updateFilterCount();
+}
+document.getElementById('regionlegend').innerHTML=
+  `<button type="button" id="regionAll" class="allbtn" aria-pressed="true">All</button>`+
+  REGIONS.map(r=>`<button type="button" data-r="${esc(r.id)}" aria-pressed="true">${esc(r.lbl)}</button>`).join("");
+function toggleRegionTarget(key){
+  if(regionOff.size===0){
+    regionOff=new Set(ALL_REGION_KEYS.filter(k=>k!==key));
+  }else if(regionOff.has(key)){
+    regionOff.delete(key);
+  }else{
+    regionOff.add(key);
+  }
+  applyRegionToggle();syncURL();
+}
+document.querySelectorAll('#regionlegend button[data-r]').forEach(b=>{
+  b.addEventListener('click',()=>toggleRegionTarget(b.dataset.r));
+});
+document.getElementById('regionAll').addEventListener('click',()=>{
+  if(regionOff.size===0)return;
+  regionOff=new Set();
+  applyRegionToggle();syncURL();
+});
 /* Streams & categories glossary -- generated FROM the CATS/STREAMS arrays
    (single source of truth, same discipline as the rest of the atlas reading
    the census live) so it can't drift out of sync as streams are added.
@@ -832,11 +940,16 @@ document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
    / Bible-Institute", "Post-Evangelical Ferment") that a first-time visitor
    won't already know -- this spells each one out in a plain sentence. */
 document.getElementById('glossary').innerHTML=
-  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories &amp; streams</b>
-   <p style="margin:.4rem 0 .2rem">The header toggles group the map two ways. <b>Categories</b> gather
+  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories, regions &amp; streams</b>
+   <p style="margin:.4rem 0 .2rem">The header toggles group the map three ways, independent of each other. <b>Categories</b> gather
    the 13 colored lanes into five familiar families:</p>
    <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
    ${CATS.map(c=>`<dt style="font-weight:700">${esc(c.lbl)}</dt><dd style="margin:0">${esc(c.desc)}</dd>`).join('')}
+   </dl>
+   <p style="margin:.4rem 0 .2rem"><b>Regions</b> are real geography, not confession — an entry that spans more than
+   one shows up under each:</p>
+   <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
+   ${REGIONS.map(r=>`<dt style="font-weight:700">${esc(r.lbl)}</dt><dd style="margin:0">${esc(r.desc)}</dd>`).join('')}
    </dl>
    <p style="margin:.4rem 0 .2rem"><b>Streams</b> spotlight a lineage that runs across those families —
    pick one or more to fade everything outside it:</p>
@@ -857,15 +970,16 @@ function setFilterPanel(open){
 }
 filterToggle.addEventListener('click',()=>setFilterPanel(!filterPanel.classList.contains('open')));
 function updateFilterCount(){
-  const n=laneOff.size+streamOn.size;
+  const n=laneOff.size+streamOn.size+regionOff.size;
   document.getElementById('fcount').textContent=n?String(n):"";
   filterToggle.classList.toggle('has-filters',n>0);
 }
-if(laneOff.size||streamOn.size)setFilterPanel(true);
+if(laneOff.size||streamOn.size||regionOff.size)setFilterPanel(true);
 layout();
 applyLaneToggle();
+applyRegionToggle();
 applyStreamToggle();
-addEventListener('resize',()=>{layout();applyLaneToggle();applyStreamToggle();applyFilter();});
+addEventListener('resize',()=>{layout();applyLaneToggle();applyRegionToggle();applyStreamToggle();applyFilter();});
 
 /* ---- trace ---- */
 const tip=document.getElementById('tip');

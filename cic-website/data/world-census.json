@@ -369,6 +369,10 @@
    "start": 70,
    "end": 200,
    "region": "Antioch, Asia Minor, Rome",
+   "regions": [
+    "Mediterranean",
+    "Middle East"
+   ],
    "lane": "Origin (pre-lane)",
    "laneLabel": "Origin — before the lanes divide",
    "laneOrder": 0,
@@ -426,6 +430,10 @@
    "start": 150,
    "end": 400,
    "region": "Alexandria, Egypt",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -474,6 +482,9 @@
    "end": 410,
    "continuesAs": "persian-church-of-the-east-early",
    "region": "Edessa & Nisibis",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -526,6 +537,10 @@
    "start": 240,
    "end": 430,
    "region": "Carthage, Hippo Regius",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -570,6 +585,10 @@
    "start": 197,
    "end": 220,
    "region": "Carthage",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -606,6 +625,9 @@
    "start": 140,
    "end": 300,
    "region": "Rome, widespread",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -644,6 +666,9 @@
    "start": 120,
    "end": 300,
    "region": "Alexandria, Rome, widespread",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -689,6 +714,9 @@
    "start": 216,
    "end": 650,
    "region": "Persia to the Mediterranean",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -732,6 +760,9 @@
    "start": 70,
    "end": 400,
    "region": "Palestine, Syria",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "Origin (pre-lane)",
    "laneLabel": "Origin — before the lanes divide",
    "laneOrder": 0,
@@ -767,6 +798,9 @@
    "start": 165,
    "end": 400,
    "region": "Phrygia, spreading",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "Origin (pre-lane)",
    "laneLabel": "Origin — before the lanes divide",
    "laneOrder": 0,
@@ -805,6 +839,9 @@
    "start": 251,
    "end": 400,
    "region": "Rome, spreading",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "Origin (pre-lane)",
    "laneLabel": "Origin — before the lanes divide",
    "laneOrder": 0,
@@ -844,6 +881,9 @@
    "start": 320,
    "end": 430,
    "region": "Nile Valley & Desert, Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -897,6 +937,10 @@
    "start": 312,
    "end": 430,
    "region": "North Africa (Carthage)",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -949,6 +993,9 @@
    "start": 360,
    "end": 380,
    "region": "Cappadocia / Anatolia",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -988,6 +1035,10 @@
    "start": 312,
    "end": 451,
    "region": "Rome, Constantinople, Milan",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -1041,6 +1092,9 @@
    "start": 380,
    "end": 420,
    "region": "Rome & Bethlehem",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -1095,6 +1149,9 @@
    "end": 451,
    "continuesAs": "armenian-christianity-after-avarayr",
    "region": "Armenia",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -1144,6 +1201,9 @@
    "end": 451,
    "continuesAs": "aksumite-christianity",
    "region": "Aksum (Ethiopia/Eritrea)",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -1191,6 +1251,9 @@
    "end": 451,
    "continuesAs": "the-church-of-the-east-under-persia",
    "region": "Persian Mesopotamia",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -1229,6 +1292,9 @@
    "start": 350,
    "end": 430,
    "region": "Antioch",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -1275,6 +1341,9 @@
    "end": 500,
    "continuesAs": "cyrilline-miaphysite-egyptian-christianity",
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -1322,6 +1391,9 @@
    "start": 325,
    "end": 450,
    "region": "Jerusalem",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -1367,6 +1439,9 @@
    "start": 374,
    "end": 397,
    "region": "Milan",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -1412,6 +1487,9 @@
    "start": 370,
    "end": 450,
    "region": "Spain",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -1450,6 +1528,9 @@
    "start": 390,
    "end": 430,
    "region": "Rome, Mediterranean",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -1488,6 +1569,10 @@
    "start": 340,
    "end": 589,
    "region": "Empire-wide; then Gothic & Vandal kingdoms",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -1538,6 +1623,9 @@
    "end": 642,
    "continuesAs": "coptic-christianity-under-early-islam",
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -1621,6 +1709,9 @@
    "start": 451,
    "end": 636,
    "region": "Syria, Mesopotamia",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -1706,6 +1797,9 @@
    "end": 651,
    "continuesAs": "the-church-of-the-east-on-the-silk-road",
    "region": "Persian Mesopotamia",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -1784,6 +1878,9 @@
    "start": 451,
    "end": 554,
    "region": "Armenia",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -1867,6 +1964,9 @@
    "start": 450,
    "end": 614,
    "region": "Palestine, Sinai",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -1946,6 +2046,9 @@
    "start": 500,
    "end": 604,
    "region": "Italy",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -2022,6 +2125,9 @@
    "start": 480,
    "end": 620,
    "region": "Gaul",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -2101,6 +2207,9 @@
    "start": 450,
    "end": 664,
    "region": "Ireland, Iona, Northumbria",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -2180,6 +2289,9 @@
    "start": 451,
    "end": 615,
    "region": "Ethiopia / Eritrea",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -2262,6 +2374,9 @@
    "start": 330,
    "end": 609,
    "region": "Caucasus",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -2336,6 +2451,9 @@
    "start": 543,
    "end": 652,
    "region": "Nile Sudan (Makuria, Nobadia)",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -2410,6 +2528,10 @@
    "start": 451,
    "end": 680,
    "region": "Iberia, Italy, North Africa",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -2490,6 +2612,9 @@
    "start": 451,
    "end": 622,
    "region": "Constantinople, Anatolia, the imperial Mediterranean",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -2538,6 +2663,9 @@
    "start": 451,
    "end": 705,
    "region": "Caucasian Albania (modern Azerbaijan/Dagestan)",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -2580,6 +2708,10 @@
    "start": 533,
    "end": 698,
    "region": "Carthage and Byzantine North Africa",
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -2626,6 +2758,9 @@
    "start": 560,
    "end": 711,
    "region": "Iberia (Toledo, Seville)",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -2674,6 +2809,9 @@
    "start": 451,
    "end": 768,
    "region": "Wales, W. Britain, Cornwall, Brittany",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -2720,6 +2858,10 @@
    "start": 635,
    "end": 845,
    "region": "Persia, Central Asia, Tang China",
+   "regions": [
+    "Greater Asia",
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -2791,6 +2933,9 @@
    "start": 700,
    "end": 1009,
    "region": "Palestine, Syria",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -2862,6 +3007,9 @@
    "start": 642,
    "end": 1013,
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -2943,6 +3091,9 @@
    "start": 597,
    "end": 793,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -3024,6 +3175,9 @@
    "start": 751,
    "end": 888,
    "region": "Francia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -3098,6 +3252,9 @@
    "start": 726,
    "end": 843,
    "region": "Constantinople, Bithynia",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -3174,6 +3331,10 @@
    "start": 863,
    "end": 916,
    "region": "Moravia, Bulgaria, Ohrid",
+   "regions": [
+    "Asia Minor",
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -3253,6 +3414,9 @@
    "start": 988,
    "end": 1054,
    "region": "Kyiv, Novgorod",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -3329,6 +3493,9 @@
    "start": 711,
    "end": 1031,
    "region": "al-Andalus (Cordoba)",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -3407,6 +3574,9 @@
    "start": 909,
    "end": 1109,
    "region": "Burgundy, then Europe",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -3481,6 +3651,9 @@
    "start": 849,
    "end": 1054,
    "region": "Malabar Coast",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -3556,6 +3729,9 @@
    "start": 650,
    "end": 878,
    "region": "Armenia, Byzantium",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -3628,6 +3804,9 @@
    "start": 950,
    "end": 1054,
    "region": "Bulgaria, Balkans",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -3698,6 +3877,9 @@
    "start": 826,
    "end": 1104,
    "region": "Denmark, Norway, Sweden, Iceland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -3776,6 +3958,9 @@
    "start": 622,
    "end": 843,
    "region": "Constantinople, Anatolia, the Greek East",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -3824,6 +4009,9 @@
    "start": 843,
    "end": 1054,
    "region": "Constantinople, Anatolia, the Greek East",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -3872,6 +4060,9 @@
    "start": 884,
    "end": 1045,
    "region": "Armenia (Ani, Vaspurakan)",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -3920,6 +4111,10 @@
    "start": 650,
    "end": 1054,
    "region": "Jazira, Syria, Tagrit; Deir al-Surian (Egypt)",
+   "regions": [
+    "Africa",
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -3968,6 +4163,9 @@
    "start": 697,
    "end": 1054,
    "region": "Makuria (Dongola, Faras, Qasr Ibrim)",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -4012,6 +4210,9 @@
    "start": 793,
    "end": 1066,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4059,6 +4260,11 @@
    "start": 780,
    "end": 1000,
    "region": "Tao-Klarjeti, then Mount Athos (Iviron)",
+   "regions": [
+    "Asia Minor",
+    "Caucasus",
+    "Mediterranean"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -4105,6 +4311,9 @@
    "start": 615,
    "end": 1137,
    "region": "Ethiopian highlands",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -4145,6 +4354,9 @@
    "start": 1098,
    "end": 1300,
    "region": "Burgundy, then Europe",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4223,6 +4435,9 @@
    "start": 1084,
    "end": 1300,
    "region": "Chartreuse, then Europe",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4299,6 +4514,9 @@
    "start": 1108,
    "end": 1246,
    "region": "Paris and beyond",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4372,6 +4590,9 @@
    "start": 1209,
    "end": 1300,
    "region": "Italy, then everywhere",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4449,6 +4670,10 @@
    "start": 1216,
    "end": 1300,
    "region": "Toulouse, Paris, Bologna",
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4526,6 +4751,10 @@
    "start": 963,
    "end": 1300,
    "region": "Athos, Constantinople",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -4606,6 +4835,9 @@
    "start": 1190,
    "end": 1310,
    "region": "Low Countries, Rhineland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4683,6 +4915,9 @@
    "start": 1173,
    "end": 1300,
    "region": "Lyon, Alpine valleys",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4763,6 +4998,9 @@
    "end": 1270,
    "continuesAs": "the-ethiopian-monastic-flowering",
    "region": "Ethiopian highlands",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -4842,6 +5080,9 @@
    "start": 1100,
    "end": 1300,
    "region": "Mount Lebanon",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -4922,6 +5163,9 @@
    "start": 1120,
    "end": 1291,
    "region": "Latin East, Iberia",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -4998,6 +5242,9 @@
    "start": 1143,
    "end": 1321,
    "region": "Languedoc",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -5075,6 +5322,9 @@
    "start": 1202,
    "end": 1300,
    "region": "Calabria, then Franciscan circles",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5152,6 +5402,9 @@
    "start": 1250,
    "end": 1400,
    "region": "Rhineland, Low Countries",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5220,6 +5473,9 @@
    "start": 1000,
    "end": 1245,
    "region": "Georgia",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -5299,6 +5555,9 @@
    "start": 1170,
    "end": 1396,
    "region": "Balkans (Hilandar, Studenica, Tarnovo, Rila)",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -5383,6 +5642,9 @@
    "start": 1054,
    "end": 1300,
    "region": "Constantinople; Nicaea (1204-1261)",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -5423,6 +5685,9 @@
    "start": 1049,
    "end": 1300,
    "region": "Rome, Latin Christendom",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5470,6 +5735,9 @@
    "start": 1054,
    "end": 1240,
    "region": "Kyiv, Novgorod, Vladimir-Suzdal",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -5516,6 +5784,9 @@
    "start": 1080,
    "end": 1300,
    "region": "Cilicia (Sis, Hromkla)",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -5565,6 +5836,9 @@
    "start": 1054,
    "end": 1300,
    "region": "Jazira, Melitene, Mor Barsauma",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -5612,6 +5886,9 @@
    "start": 1220,
    "end": 1317,
    "region": "Central Asia, the Ilkhanate, China",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -5651,6 +5928,9 @@
    "start": 1206,
    "end": 1300,
    "region": "Mount Carmel, then Europe",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5695,6 +5975,9 @@
    "start": 1054,
    "end": 1300,
    "region": "Constantinople, Thrace, Macedonia, Bulgaria",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -5734,6 +6017,10 @@
    "start": 1099,
    "end": 1291,
    "region": "Jerusalem, Antioch, Acre, Cyprus",
+   "regions": [
+    "Mediterranean",
+    "Middle East"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5779,6 +6066,9 @@
    "start": 1054,
    "end": 1300,
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -5825,6 +6115,9 @@
    "start": 1170,
    "end": 1300,
    "region": "Lombardy",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5869,6 +6162,9 @@
    "start": 1330,
    "end": 1440,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -5947,6 +6243,9 @@
    "start": 1300,
    "end": 1400,
    "region": "Rhineland, Switzerland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6018,6 +6317,9 @@
    "start": 1380,
    "end": 1517,
    "region": "Low Countries",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6090,6 +6392,10 @@
    "start": 1300,
    "end": 1400,
    "region": "Athos, Thessalonica",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -6170,6 +6476,9 @@
    "start": 1380,
    "end": 1520,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6240,6 +6549,9 @@
    "start": 1415,
    "end": 1517,
    "region": "Bohemia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6318,6 +6630,9 @@
    "start": 1270,
    "end": 1517,
    "region": "Ethiopian highlands",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -6393,6 +6708,9 @@
    "start": 1340,
    "end": 1517,
    "region": "Russian north",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -6475,6 +6793,9 @@
    "start": 1368,
    "end": 1517,
    "region": "Italy, Spain",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6553,6 +6874,9 @@
    "start": 1400,
    "end": 1517,
    "region": "England (documented case)",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6620,6 +6944,9 @@
    "start": 1420,
    "end": 1452,
    "region": "Bohemia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6691,6 +7018,9 @@
    "start": 1300,
    "end": 1466,
    "region": "Italy, Provence",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6761,6 +7091,9 @@
    "start": 1350,
    "end": 1500,
    "region": "Central Europe",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6823,6 +7156,9 @@
    "start": 1300,
    "end": 1517,
    "region": "Avignon, Rome, Latin Christendom",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6870,6 +7206,9 @@
    "start": 1300,
    "end": 1453,
    "region": "Constantinople, the empire's remnant",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -6919,6 +7258,10 @@
    "start": 1300,
    "end": 1517,
    "region": "Cottian Alps (Piedmont/Dauphine), Provence, Apulia, Germany",
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -6965,6 +7308,9 @@
    "start": 1317,
    "end": 1517,
    "region": "Mesopotamia, then the Hakkari-Van-Urmia triangle",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -7004,6 +7350,9 @@
    "start": 1054,
    "end": 1484,
    "region": "Dongola, Qasr Ibrim, Gebel Adda",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -7046,6 +7395,9 @@
    "start": 1300,
    "end": 1517,
    "region": "Italy, France, Spain, empire-wide",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -7086,6 +7438,9 @@
    "start": 1230,
    "end": 1463,
    "region": "Bosnia",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -7130,6 +7485,9 @@
    "start": 1300,
    "end": 1441,
    "region": "Cilicia (Sis), then Etchmiadzin",
+   "regions": [
+    "Asia Minor"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -7179,6 +7537,10 @@
    "start": 1300,
    "end": 1517,
    "region": "Mount Lebanon, Cyprus",
+   "regions": [
+    "Mediterranean",
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -7224,6 +7586,9 @@
    "start": 1300,
    "end": 1517,
    "region": "Malabar coast (Cranganore, Quilon)",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -7263,6 +7628,9 @@
    "start": 1517,
    "end": 1580,
    "region": "Saxony, then N. Europe",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7340,6 +7708,9 @@
    "start": 1519,
    "end": 1650,
    "region": "Swiss lands, then Europe",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7425,6 +7796,9 @@
    "start": 1525,
    "end": 1650,
    "region": "Swiss lands, Moravia, Netherlands",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7510,6 +7884,9 @@
    "start": 1530,
    "end": 1650,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7586,6 +7963,9 @@
    "start": 1560,
    "end": 1650,
    "region": "Scotland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7664,6 +8044,9 @@
    "start": 1559,
    "end": 1685,
    "region": "France",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7745,6 +8128,9 @@
    "start": 1559,
    "end": 1650,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -7822,6 +8208,10 @@
    "start": 1560,
    "end": 1660,
    "region": "England, New England",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7902,6 +8292,9 @@
    "start": 1570,
    "end": 1650,
    "region": "Netherlands",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -7966,6 +8359,9 @@
    "start": 1532,
    "end": 1655,
    "region": "Alpine valleys",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -8039,6 +8435,9 @@
    "start": 1540,
    "end": 1650,
    "region": "Rome, then the world",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -8116,6 +8515,9 @@
    "start": 1560,
    "end": 1610,
    "region": "Lombardy, model for the Catholic world",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -8186,6 +8588,10 @@
    "start": 1491,
    "end": 1650,
    "region": "Japan, Kongo, China, Americas",
+   "regions": [
+    "Africa",
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -8267,6 +8673,9 @@
    "start": 1517,
    "end": 1650,
    "region": "Poland, Transylvania",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -8337,6 +8746,9 @@
    "start": 1540,
    "end": 1650,
    "region": "Silesia, later Pennsylvania",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -8402,6 +8814,9 @@
    "start": 1540,
    "end": 1600,
    "region": "Rhineland, Low Countries, England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -8472,6 +8887,10 @@
    "start": 1453,
    "end": 1650,
    "region": "Anatolia, Balkans, Greek islands",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -8544,6 +8963,9 @@
    "start": 1599,
    "end": 1665,
    "region": "Malabar Coast",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -8623,6 +9045,9 @@
    "start": 1565,
    "end": 1650,
    "region": "Philippines",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -8700,6 +9125,9 @@
    "start": 1596,
    "end": 1700,
    "region": "Ruthenia (today's Ukraine & Belarus)",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -8775,6 +9203,9 @@
    "start": 1615,
    "end": 1700,
    "region": "Kyiv",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -8844,6 +9275,9 @@
    "start": 1517,
    "end": 1650,
    "region": "Rome, Latin Christendom",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -8891,6 +9325,9 @@
    "start": 1517,
    "end": 1650,
    "region": "Muscovy",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -8931,6 +9368,9 @@
    "start": 1517,
    "end": 1627,
    "region": "Bohemia, Moravia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -8987,6 +9427,9 @@
    "start": 1517,
    "end": 1650,
    "region": "Ethiopian highlands",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -9035,6 +9478,9 @@
    "start": 1610,
    "end": 1650,
    "region": "Netherlands",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9083,6 +9529,9 @@
    "start": 1527,
    "end": 1650,
    "region": "Denmark-Norway (incl. Iceland), Sweden-Finland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9123,6 +9572,9 @@
    "start": 1517,
    "end": 1650,
    "region": "Armenia, Isfahan (New Julfa)",
+   "regions": [
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -9175,6 +9627,9 @@
    "start": 1562,
    "end": 1622,
    "region": "Castile, then Catholic Europe",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -9220,6 +9675,10 @@
    "start": 1517,
    "end": 1650,
    "region": "Mesopotamia, Hakkari; Rome",
+   "regions": [
+    "Mediterranean",
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -9261,6 +9720,9 @@
    "start": 1650,
    "end": 1815,
    "region": "England, Atlantic world",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9340,6 +9802,9 @@
    "start": 1675,
    "end": 1750,
    "region": "Germany",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9418,6 +9883,9 @@
    "start": 1690,
    "end": 1815,
    "region": "Germany, then Pennsylvania",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9500,6 +9968,10 @@
    "start": 1722,
    "end": 1815,
    "region": "Saxony, then global",
+   "regions": [
+    "Global",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9578,6 +10050,9 @@
    "start": 1738,
    "end": 1815,
    "region": "Britain, then America",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9661,6 +10136,10 @@
    "start": 1734,
    "end": 1760,
    "region": "New England",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -9737,6 +10216,9 @@
    "start": 1666,
    "end": 1815,
    "region": "Russian north, Siberia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -9815,6 +10297,11 @@
    "end": 1815,
    "continuesAs": "the-optina-elders-and-russian-ascetic-renewal",
    "region": "Athos, Moldavia, Russia",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean",
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -9894,6 +10381,9 @@
    "start": 1640,
    "end": 1710,
    "region": "France",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -9972,6 +10462,9 @@
    "start": 1735,
    "end": 1815,
    "region": "Wales",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10052,6 +10545,9 @@
    "start": 1704,
    "end": 1706,
    "region": "Kongo",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -10124,6 +10620,9 @@
    "start": 1774,
    "end": 1815,
    "region": "England, then America",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -10200,6 +10699,9 @@
    "start": 1780,
    "end": 1815,
    "region": "England, America",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -10271,6 +10773,9 @@
    "start": 1675,
    "end": 1699,
    "region": "Spain, France",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -10337,6 +10842,9 @@
    "start": 1700,
    "end": 1710,
    "region": "Cevennes",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10409,6 +10917,9 @@
    "start": 1609,
    "end": 1815,
    "region": "England, then America",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10493,6 +11004,10 @@
    "start": 1600,
    "end": 1810,
    "region": "New Spain, Peru",
+   "regions": [
+    "Latin America",
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -10571,6 +11086,10 @@
    "start": 1650,
    "end": 1821,
    "region": "Anatolia, Balkans, Greek islands",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -10617,6 +11136,9 @@
    "start": 1650,
    "end": 1815,
    "region": "Rome, Catholic Europe",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -10658,6 +11180,9 @@
    "start": 1660,
    "end": 1815,
    "region": "England, Wales, Ireland; the colonies",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10702,6 +11227,9 @@
    "start": 1652,
    "end": 1815,
    "region": "Russia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -10743,6 +11271,9 @@
    "start": 1685,
    "end": 1787,
    "region": "Languedoc, Cévennes, the French refuge",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10795,6 +11326,9 @@
    "start": 1724,
    "end": 1815,
    "region": "Damascus, Aleppo, Mount Lebanon",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -10836,6 +11370,11 @@
    "start": 1700,
    "end": 1815,
    "region": "Constantinople, Venice, Mount Lebanon",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean",
+    "Middle East"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -10885,6 +11424,9 @@
    "start": 1723,
    "end": 1815,
    "region": "Netherlands",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -10929,6 +11471,9 @@
    "start": 1662,
    "end": 1815,
    "region": "England, Wales",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -10977,6 +11522,10 @@
    "start": 1770,
    "end": 1815,
    "region": "New England, the mid-Atlantic, and London",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -11024,6 +11573,9 @@
    "start": 1700,
    "end": 1815,
    "region": "Ruthenia (Ukraine & Belarus), Austrian Galicia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -11072,6 +11624,9 @@
    "start": 1650,
    "end": 1815,
    "region": "Philippines",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -11117,6 +11672,9 @@
    "start": 1770,
    "end": 1906,
    "region": "United States",
+   "regions": [
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11199,6 +11757,9 @@
    "start": 1795,
    "end": 1840,
    "region": "American frontier",
+   "regions": [
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11280,6 +11841,9 @@
    "start": 1801,
    "end": 1906,
    "region": "American frontier",
+   "regions": [
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11362,6 +11926,10 @@
    "start": 1835,
    "end": 1906,
    "region": "N. America, Britain",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11442,6 +12010,9 @@
    "start": 1833,
    "end": 1906,
    "region": "England",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11522,6 +12093,9 @@
    "start": 1865,
    "end": 1906,
    "region": "East London, then world",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11602,6 +12176,11 @@
    "start": 1793,
    "end": 1906,
    "region": "India, W. Africa, Pacific, China",
+   "regions": [
+    "Africa",
+    "Greater Asia",
+    "Pacific"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11681,6 +12260,9 @@
    "start": 1796,
    "end": 1842,
    "region": "Norway",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11751,6 +12333,10 @@
    "start": 1815,
    "end": 1880,
    "region": "Switzerland, France, Netherlands, Germany",
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11825,6 +12411,9 @@
    "start": 1831,
    "end": 1906,
    "region": "N. America",
+   "regions": [
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -11902,6 +12491,9 @@
    "start": 1821,
    "end": 1906,
    "region": "Russia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -11983,6 +12575,10 @@
    "start": 1750,
    "end": 1860,
    "region": "Athos, Greek islands",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -12058,6 +12654,9 @@
    "end": 1906,
    "continuesAs": "the-coptic-monastic-and-sunday-school-revival",
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -12131,6 +12730,9 @@
    "start": 1830,
    "end": 1906,
    "region": "N. America",
+   "regions": [
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12209,6 +12811,9 @@
    "start": 1870,
    "end": 1906,
    "region": "N. America",
+   "regions": [
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12280,6 +12885,9 @@
    "start": 1875,
    "end": 1906,
    "region": "N. America",
+   "regions": [
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12350,6 +12958,10 @@
    "start": 1848,
    "end": 1906,
    "region": "Britain, N. America",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12414,6 +13026,9 @@
    "start": 1832,
    "end": 1901,
    "region": "Britain",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -12492,6 +13107,9 @@
    "start": 1848,
    "end": 1881,
    "region": "New York",
+   "regions": [
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12562,6 +13180,10 @@
    "start": 1848,
    "end": 1906,
    "region": "N. America, Britain",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -12630,6 +13252,9 @@
    "start": 1784,
    "end": 1886,
    "region": "Korea",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -12709,6 +13334,9 @@
    "start": 1844,
    "end": 1906,
    "region": "Lapland, Finland, Norway, Sweden",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -12788,6 +13416,10 @@
    "start": 1827,
    "end": 1906,
    "region": "Dublin, England, then global",
+   "regions": [
+    "Global",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -12864,6 +13496,10 @@
    "start": 1780,
    "end": 1900,
    "region": "Britain, N. America",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -12939,6 +13575,11 @@
    "start": 1886,
    "end": 1920,
    "region": "N. America, Britain, global",
+   "regions": [
+    "Global",
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13007,6 +13648,9 @@
    "start": 1861,
    "end": 1906,
    "region": "Sumatra, Timor, the archipelago",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13084,6 +13728,9 @@
    "start": 1836,
    "end": 1906,
    "region": "Kerala; Khasi, Mizo & Naga hills",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "1<->6 bridge (Syriac East / Protestant)",
    "laneLabel": "Syriac East / Protestant — bridge",
    "laneOrder": 1.5,
@@ -13150,6 +13797,10 @@
    "start": 1821,
    "end": 1906,
    "region": "Greece, Balkans, Constantinople",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -13189,6 +13840,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Rome, the Catholic world",
+   "regions": [
+    "Mediterranean"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -13230,6 +13884,9 @@
    "start": 1815,
    "end": 1906,
    "region": "England, the empire",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13274,6 +13931,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Russia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -13314,6 +13974,10 @@
    "start": 1815,
    "end": 1906,
    "region": "Constantinople, Anatolia, Caucasus",
+   "regions": [
+    "Asia Minor",
+    "Caucasus"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -13355,6 +14019,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Netherlands, Germany, Switzerland",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -13394,6 +14061,10 @@
    "start": 1815,
    "end": 1906,
    "region": "Britain, N. America, mission fields",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13437,6 +14108,10 @@
    "start": 1815,
    "end": 1906,
    "region": "Britain, N. America",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13479,6 +14154,10 @@
    "start": 1815,
    "end": 1906,
    "region": "N. America, Britain",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13519,6 +14198,10 @@
    "start": 1819,
    "end": 1906,
    "region": "New England, mid-Atlantic",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -13559,6 +14242,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Belarus, Ukraine, Galicia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -13601,6 +14287,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Philippines",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -13640,6 +14329,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Mesopotamia, Hakkari, Urmia",
+   "regions": [
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -13681,6 +14373,11 @@
    "start": 1817,
    "end": 1906,
    "region": "Prussia, Saxony, Bavaria; N. America; Australia",
+   "regions": [
+    "North America",
+    "North Europe",
+    "Pacific"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -13721,6 +14418,9 @@
    "start": 1818,
    "end": 1895,
    "region": "Madagascar",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -13761,6 +14461,9 @@
    "start": 1844,
    "end": 1906,
    "region": "East Africa, Buganda",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -13808,6 +14511,9 @@
    "start": 1850,
    "end": 1864,
    "region": "China",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -13848,6 +14554,9 @@
    "start": 1865,
    "end": 1906,
    "region": "Japan",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -13897,6 +14606,9 @@
    "start": 1804,
    "end": 1860,
    "region": "Haiti",
+   "regions": [
+    "North America"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -13934,6 +14646,9 @@
    "start": 1824,
    "end": 1906,
    "region": "Alaska, Aleutians",
+   "regions": [
+    "North America"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -13983,6 +14698,9 @@
    "start": 1815,
    "end": 1906,
    "region": "Spanish America, Brazil",
+   "regions": [
+    "Latin America"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -14022,6 +14740,9 @@
    "start": 1855,
    "end": 1900,
    "region": "Ethiopia",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -14066,6 +14787,10 @@
    "start": 1834,
    "end": 1906,
    "region": "Netherlands; N. America",
+   "regions": [
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -14109,6 +14834,9 @@
    "start": 1860,
    "end": 1906,
    "region": "Ukraine, Russia",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -14152,6 +14880,10 @@
    "start": 1906,
    "end": 1920,
    "region": "Los Angeles, then global",
+   "regions": [
+    "Global",
+    "North America"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14184,6 +14916,10 @@
    "start": 1904,
    "end": 1910,
    "region": "Wales, India, Korea",
+   "regions": [
+    "Greater Asia",
+    "North Europe"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14216,6 +14952,9 @@
    "start": 1930,
    "end": 1970,
    "region": "Rwanda, Uganda, Kenya, Tanzania",
+   "regions": [
+    "Africa"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14245,6 +14984,9 @@
    "start": 1900,
    "end": 2026,
    "region": "W. & S. Africa, Congo",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -14277,6 +15019,9 @@
    "start": 1920,
    "end": 2026,
    "region": "China",
+   "regions": [
+    "Greater Asia"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14306,6 +15051,9 @@
    "start": 1933,
    "end": 1945,
    "region": "Germany",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -14338,6 +15086,9 @@
    "start": 1930,
    "end": 2026,
    "region": "Global",
+   "regions": [
+    "Global"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -14367,6 +15118,9 @@
    "start": 1960,
    "end": 1990,
    "region": "Brazil, Central America",
+   "regions": [
+    "Latin America"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -14396,6 +15150,10 @@
    "start": 1920,
    "end": 1970,
    "region": "Paris, then global",
+   "regions": [
+    "Global",
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -14428,6 +15186,9 @@
    "start": 1940,
    "end": 2026,
    "region": "Egypt",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -14460,6 +15221,11 @@
    "start": 1950,
    "end": 2026,
    "region": "Brazil, Nigeria, Ghana, Korea, Philippines",
+   "regions": [
+    "Africa",
+    "Greater Asia",
+    "Latin America"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14492,6 +15258,9 @@
    "start": 1945,
    "end": 1991,
    "region": "USSR, Romania",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3<->6 span (Greek East / Protestant)",
    "laneLabel": "Greek East / Protestant — span",
    "laneOrder": 3.5,
@@ -14524,6 +15293,10 @@
    "start": 1960,
    "end": 2026,
    "region": "Israel, N. America",
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14553,6 +15326,10 @@
    "start": 1938,
    "end": 2026,
    "region": "France, Scotland",
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
    "lane": "5<->6 bridge (Latin West / Protestant)",
    "laneLabel": "Latin West / Protestant — bridge",
    "laneOrder": 5.5,
@@ -14582,6 +15359,10 @@
    "start": 1913,
    "end": 1993,
    "region": "N. America, then global",
+   "regions": [
+    "Global",
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -14614,6 +15395,10 @@
    "start": 1906,
    "end": 2026,
    "region": "Philippines; N. America; Korea; Mexico",
+   "regions": [
+    "Greater Asia",
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -14643,6 +15428,9 @@
    "start": 1906,
    "end": 2026,
    "region": "N. America",
+   "regions": [
+    "North America"
+   ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
    "laneOrder": 80,
@@ -14672,6 +15460,9 @@
    "start": 1990,
    "end": 2026,
    "region": "Global",
+   "regions": [
+    "Global"
+   ],
    "lane": "-",
    "laneLabel": "Cross-Family",
    "laneOrder": 50,
@@ -14701,6 +15492,10 @@
    "start": 1915,
    "end": 2026,
    "region": "Tur Abdin, Urmia, then global",
+   "regions": [
+    "Global",
+    "Middle East"
+   ],
    "lane": "1 Syriac East & Asia",
    "laneLabel": "Syriac East & Asia",
    "laneOrder": 1,
@@ -14733,6 +15528,9 @@
    "start": 1900,
    "end": 2026,
    "region": "Ethiopia, Eritrea",
+   "regions": [
+    "Africa"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -14765,6 +15563,9 @@
    "start": 1946,
    "end": 1989,
    "region": "Ukraine",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3<->5 bridge (Greek East / Latin West)",
    "laneLabel": "Greek East / Latin West — bridge",
    "laneOrder": 3.5,
@@ -14797,6 +15598,9 @@
    "start": 1917,
    "end": 1991,
    "region": "USSR",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "3 Greek East & Orthodoxy",
    "laneLabel": "Greek East & Orthodoxy",
    "laneOrder": 3,
@@ -14829,6 +15633,9 @@
    "start": 1962,
    "end": 2026,
    "region": "Global",
+   "regions": [
+    "Global"
+   ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
    "laneOrder": 5,
@@ -14858,6 +15665,9 @@
    "start": 1974,
    "end": 2026,
    "region": "Global",
+   "regions": [
+    "Global"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14887,6 +15697,9 @@
    "start": 1960,
    "end": 2026,
    "region": "UK, Germany, Netherlands, Ukraine",
+   "regions": [
+    "North Europe"
+   ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
    "laneOrder": 4,
@@ -14916,6 +15729,9 @@
    "start": 1925,
    "end": 2026,
    "region": "Aotearoa New Zealand, Pacific",
+   "regions": [
+    "Pacific"
+   ],
    "lane": "7 Global Revival & Pentecostal",
    "laneLabel": "Global Revival & Pentecostal",
    "laneOrder": 7,
@@ -14945,6 +15761,11 @@
    "start": 1915,
    "end": 2026,
    "region": "Anatolia -> Armenia & worldwide diaspora",
+   "regions": [
+    "Asia Minor",
+    "Caucasus",
+    "Global"
+   ],
    "lane": "2 Caucasus",
    "laneLabel": "Caucasus",
    "laneOrder": 2,
@@ -14977,6 +15798,11 @@
    "start": 1990,
    "end": 2015,
    "region": "N. America, UK, Australia",
+   "regions": [
+    "North America",
+    "North Europe",
+    "Pacific"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -15009,6 +15835,10 @@
    "start": 1875,
    "end": 2026,
    "region": "N. America, then global",
+   "regions": [
+    "Global",
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -15041,6 +15871,10 @@
    "start": 1975,
    "end": 2026,
    "region": "N. America, then global",
+   "regions": [
+    "Global",
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -15073,6 +15907,10 @@
    "start": 2010,
    "end": 2026,
    "region": "Digital-native; N. America and beyond",
+   "regions": [
+    "Global",
+    "North America"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
@@ -15105,6 +15943,11 @@
    "start": 1990,
    "end": 2026,
    "region": "N. America, UK, then global (digital)",
+   "regions": [
+    "Global",
+    "North America",
+    "North Europe"
+   ],
    "lane": "6 Protestant & Evangelical",
    "laneLabel": "Protestant & Evangelical",
    "laneOrder": 6,
