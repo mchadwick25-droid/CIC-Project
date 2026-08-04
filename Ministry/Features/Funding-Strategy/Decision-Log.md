@@ -762,6 +762,30 @@ regeneration fixes actually close the gap to $0.50/hour the way the feasibility 
 
 ---
 
+## 2026-08-02 (same day, continued) — Stripe setup: payment methods confirmed; "donate" wording still open
+
+**Payment methods decided.** Individual giving flow (the keep-it-open gesture, and the future
+$8/month tier): cards, Apple Pay, Google Pay, and Link — all free to enable in the same Stripe
+integration, chosen for friction reduction over fee optimization at this scale. Explicitly not
+enabled: ACH/bank debit (friction outweighs fee savings for a casual small gift), PayPal (skip
+unless actually requested), Buy Now Pay Later (never — undercuts the steward-not-hero voice
+entirely), crypto. USD only for now. **Institutional payments are a different, later fork** —
+ACH/wire via Stripe Invoicing, built when the institutional-licensing tier (Phase 4) actually
+opens, not part of the current setup.
+
+**"Donate" wording — real answer given, not yet chosen between options.** Confirmed: "donate"
+does not legally or inherently imply nonprofit status (political contributions, GoFundMe, Twitch,
+Ko-fi all use it without deductibility) — the real risk is the same reasonable-expectation issue
+already fixed once on `support.html`, not a legal one. If "donate" is used, it needs the same
+plain non-deductibility disclosure already established elsewhere in this project, nearby. The
+already-finalized "keep the Table open" language sidesteps the question entirely and doesn't need
+a disclosure to feel complete. Neither chosen yet — flagged as open, not decided.
+
+**Next action:** Mark's call on the wording; payment methods are ready to hand to whichever build
+work actually wires up Stripe.
+
+---
+
 ## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
 
 **Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on
