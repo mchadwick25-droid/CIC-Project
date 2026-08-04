@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Church in History — Church in Conversation</title>
+<meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- THE ONE ATLAS (Blueprint B5, working page — not yet linked from the site;
+     ship flip is B5.g, Mark-gated). Design base: R10 "Ongoing Streams" + approved
+     R11 icons + R12 hover/lines + R13 click document. Reads the census LIVE from
+     data/world-census.json (schemaVersion 2) — no inlined data, no hand-kept
+     copies. Honesty invariants: no relationship rendered the census doesn't
+     carry; confidence always in words; exclusion never hidden; icons never the
+     sole carrier of status. -->
+
+<style>
+:root{
+  --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;
+  --gold:#83662a; --goldhi:#c9a35c; --thread:#8a6a28; --live-text:#fff;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
+  --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
+}}
+:root[data-theme="dark"]{
+  --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
+  --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
+}
+:root[data-theme="light"]{
+  --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;
+  --gold:#83662a; --goldhi:#c9a35c; --thread:#8a6a28; --live-text:#fff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Georgia,'Times New Roman',serif}
+header.bar{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);
+  padding:.4rem .8rem .35rem}
+header.bar .row1{display:flex;align-items:baseline;gap:.6rem}
+header.bar .t{font-size:.7rem;letter-spacing:.13em;color:var(--gold);font-variant:small-caps;white-space:nowrap}
+header.bar .s{font-size:.64rem;color:var(--muted);font-style:italic}
+header.bar button{margin-left:auto;font:inherit;font-size:.64rem;background:none;color:var(--muted);
+  border:1px solid var(--line);border-radius:999px;padding:.12rem .55rem;cursor:pointer}
+#legend{display:flex;gap:.9rem;overflow-x:auto;margin-top:.25rem;scrollbar-width:none;align-items:baseline}
+#legend::-webkit-scrollbar{display:none}
+#legend .lanegroup{flex:none;display:inline-flex;align-items:baseline;gap:.5rem;
+  padding-right:.9rem;border-right:1px solid var(--line)}
+#legend .lanegroup:last-child{border-right:none;padding-right:0}
+#legend button{flex:none;display:inline-flex;align-items:center;gap:.28rem;
+  font:inherit;font-size:.6rem;color:var(--muted);font-variant:small-caps;letter-spacing:.05em;
+  background:none;border:none;padding:0;cursor:pointer;transition:opacity .15s}
+#legend button.bridge{cursor:default}
+#legend button:not(.bridge):hover{color:var(--ink)}
+#legend button.off{opacity:.4}
+#legend button.catbtn{font-weight:700;color:var(--ink);letter-spacing:.08em}
+#legend button.catbtn.mixed{opacity:.7}
+#legend button.catbtn.off{opacity:.35}
+#legend i{width:9px;height:9px;border-radius:0;display:inline-block;transition:opacity .15s}
+#legend button.off i{opacity:.3}
+body.lanefiltering .node:not(.lane-on){opacity:.13}
+body.lanefiltering #art .tail:not(.lane-on),body.lanefiltering #art .shoulder:not(.lane-on),
+body.lanefiltering #art .seal:not(.lane-on),body.lanefiltering #art .sticon:not(.lane-on){opacity:.05}
+body.lanefiltering #art .thread:not(.lane-on){opacity:.08}
+body.lanefiltering #art .tdot:not(.lane-on){opacity:.05}
+body.lanefiltering #art .thread-label:not(.lane-on){opacity:0}
+/* streams: opt-in spotlight, default off/no highlight (Mark's bar -- "highlighting
+   a stream of boxes" -- so composes with lane/search/built via the same
+   independent-fade convention: any active filter can dim a box, none un-dims it). */
+#streamlegend{display:flex;gap:.4rem;margin-top:.3rem;flex-wrap:wrap;align-items:center}
+#streamlegend .lbl{font-size:.6rem;color:var(--muted);font-variant:small-caps;letter-spacing:.05em;margin-right:.15rem}
+#streamlegend button{font:inherit;font-size:.62rem;color:var(--muted);background:none;
+  border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem;cursor:pointer;transition:all .15s}
+#streamlegend button:hover{color:var(--ink)}
+#streamlegend button.on{border-color:var(--gold);color:var(--ink);background:var(--panel);box-shadow:inset 0 0 0 1px var(--gold)}
+body.streamfiltering .node:not(.stream-on){opacity:.13}
+body.streamfiltering #art .tail:not(.stream-on),body.streamfiltering #art .shoulder:not(.stream-on),
+body.streamfiltering #art .seal:not(.stream-on),body.streamfiltering #art .sticon:not(.stream-on){opacity:.05}
+body.streamfiltering #art .thread:not(.stream-on){opacity:.08}
+body.streamfiltering #art .tdot:not(.stream-on){opacity:.05}
+body.streamfiltering #art .thread-label:not(.stream-on){opacity:0}
+
+#wrap{position:relative;margin:0 auto}
+.erahead{position:absolute;left:0;z-index:20;pointer-events:none;padding:.3rem .7rem}
+.erahead span{font-size:.66rem;letter-spacing:.11em;font-variant:small-caps;
+  background:color-mix(in srgb, var(--bg) 82%, transparent);border:1px solid var(--line);
+  border-radius:0;padding:.1rem .5rem}
+#canvas{position:relative}
+#art{position:absolute;inset:0;width:100%;height:100%;z-index:2}
+#art path.thread{fill:none;stroke:var(--thread);stroke-width:2.5;opacity:.92;pointer-events:stroke}
+#art path.thread.contested{stroke-dasharray:4 4}
+#art .tail{fill:none;opacity:.30;stroke-linecap:butt;stroke-linejoin:miter}
+#art .shoulder{stroke:none;opacity:1}
+#art .seal{opacity:.85}
+#art .sticon{opacity:.95;pointer-events:none}
+body.tracing #art .sticon:not(.hot){opacity:.1}
+#art .tail.cont{opacity:.16}
+.node{position:absolute;z-index:3;border-radius:0;padding:.26rem .38rem .22rem;cursor:pointer;
+  background:var(--panel);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.08);
+  transition:box-shadow .12s, opacity .25s;text-align:center}
+.node .nm{font-weight:700;font-size:.72rem;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.node .dt{font-size:.6rem;color:var(--muted);font-style:italic}
+/* live-node text: white reads fine on light-mode's saturated family colors,
+   but dark mode's family palette is deliberately light/pastel (built for
+   thread-stroke legibility against a dark canvas) -- white-on-pastel there
+   measured 1.8-2.4:1, a real WCAG failure on the 6 most important nodes on
+   the map (the ones you can actually enter conversation with). --live-text
+   flips to a dark ink in dark mode; verified 7.1-9.9:1 across all 13
+   family hues both ways. */
+.node.live{color:var(--live-text);border:none;box-shadow:0 1px 6px rgba(0,0,0,.3)}
+.node.live .dt{color:color-mix(in srgb, var(--live-text) 85%, transparent)}
+.node:hover,.node.hot{box-shadow:0 0 0 2px var(--goldhi),0 2px 8px rgba(0,0,0,.2);z-index:6}
+body.tracing .node:not(.hot){opacity:.18}
+body.tracing #art .thread:not(.hot){opacity:.06}
+body.tracing #art .tail:not(.hot),body.tracing #art .seal:not(.hot){opacity:.05}body.tracing #art .shoulder:not(.hot){opacity:.14}
+#art .thread.hot{stroke-width:3.6;opacity:1}
+#art .tdot{stroke:var(--thread);stroke-width:1.6;opacity:.6;pointer-events:none}
+#art .tdot.hot{stroke-width:2.6;opacity:1}
+body.tracing #art .tdot:not(.hot){opacity:.06}
+#art .thread-label{font:italic .62rem/1 Georgia,'Times New Roman',serif;fill:var(--gold);
+  opacity:0;pointer-events:none;stroke:var(--panel);stroke-width:3px;paint-order:stroke;
+  stroke-linejoin:round;transition:opacity .12s}
+#art .thread-label.hot{opacity:1}
+#art .tail.hot{opacity:.62}#art .shoulder.hot{opacity:1}
+
+#tip{position:fixed;display:none;z-index:60;max-width:280px;background:var(--panel);border:1px solid var(--gold);
+  border-radius:0;padding:.5rem .65rem;box-shadow:0 6px 20px rgba(0,0,0,.25);pointer-events:none}
+#tip .n{font-weight:700;font-size:.78rem}
+#tip .m{color:var(--muted);font-size:.7rem;font-style:italic}
+#tip .s{font-size:.62rem;margin-top:.2rem;color:var(--gold);font-variant:small-caps;letter-spacing:.05em}
+#tip .c{font-size:.68rem;margin-top:.25rem}
+#tip .inf{font-size:.7rem;color:var(--muted);font-style:italic}
+#tip .rep{font-size:.66rem;margin-top:.25rem;border-top:1px solid var(--line);padding-top:.25rem}
+
+#scrim{position:fixed;inset:0;background:rgba(20,15,7,.4);z-index:70;display:none}
+#scrim.on{display:block}
+#sheet{position:fixed;left:0;right:0;bottom:-105%;max-height:78vh;overflow-y:auto;z-index:80;
+  background:var(--panel);border-top:2px solid var(--gold);border-radius:0;
+  padding:.9rem 1rem 1.4rem;transition:bottom .22s ease;max-width:640px;margin:0 auto}
+#sheet.on{bottom:0}
+#sheet .grab{width:38px;height:4px;border-radius:2px;background:var(--line);margin:0 auto .55rem}
+#sheet h2{font-size:1.05rem;margin:.1rem 0 0}
+#sheet .meta{font-size:.8rem;color:var(--muted);font-style:italic}
+#sheet .fam{display:inline-flex;align-items:center;gap:.3rem;font-size:.66rem;font-variant:small-caps;
+  letter-spacing:.05em;margin-top:.3rem}
+#sheet .fam i{width:9px;height:9px;border-radius:0;display:inline-block}
+#sheet .stline{font-size:.78rem;margin:.5rem 0;padding:.45rem .6rem;border-radius:0;
+  background:var(--bg);border:1px solid var(--line)}
+#sheet h4{font-size:.62rem;letter-spacing:.12em;color:var(--gold);font-variant:small-caps;
+  margin:.8rem 0 .15rem;display:flex;align-items:center;gap:.5rem}
+#sheet h4::after{content:"";flex:1;border-top:1px solid var(--line)}
+#sheet p{margin:.2rem 0;font-size:.82rem}
+#sheet .edge{padding:.3rem 0;border-bottom:1px solid var(--line);font-size:.8rem}
+#sheet .edge:last-child{border-bottom:none}
+#sheet .edge b{cursor:pointer;text-decoration:underline;text-decoration-color:var(--line)}
+#sheet .cw{font-size:.6rem;letter-spacing:.08em;border:1px solid var(--muted);color:var(--muted);
+  border-radius:3px;padding:.03rem .3rem;white-space:nowrap;font-family:Verdana,sans-serif}
+#sheet .note{font-style:italic;color:var(--muted);font-size:.74rem}
+#sheet p a{color:var(--gold);text-decoration-color:var(--line)}
+#sheet p a:hover,#sheet p a:focus-visible{text-decoration-color:var(--gold)}
+#sheet .close{position:absolute;right:.6rem;top:.4rem;background:none;border:none;font-size:1.25rem;
+  color:var(--muted);cursor:pointer}
+#sheet .act{display:inline-block;font-size:.8rem;font-weight:700;border:1px solid var(--gold);
+  border-radius:0;padding:.4rem .8rem;margin:.6rem .4rem 0 0;cursor:pointer;background:var(--bg);color:var(--ink)}
+footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.68rem;color:var(--muted)}
+@media (max-width:699.9px){
+  header.bar .s{display:none}
+  /* legend doubles as lane-toggle controls now -- on narrow viewports wrap
+     to multiple rows instead of a thin horizontal-scroll strip (13 buttons
+     off the edge of the screen is not discoverable), and give touch targets
+     real room instead of the 16px-tall desktop hit area. Category groups
+     wrap as whole units where they fit; the border divider drops since
+     the wrap itself now separates groups visually. */
+  #legend{flex-wrap:wrap;overflow-x:visible;row-gap:.5rem}
+  #legend .lanegroup{flex-wrap:wrap;border-right:none;padding-right:0;row-gap:.3rem}
+  #legend button{padding:.3rem .1rem;min-height:30px}
+  #streamlegend button{padding:.3rem .6rem;min-height:30px}
+  #glossary dl{grid-template-columns:1fr!important}
+  #glossary dt{margin-top:.35rem}
+}
+@media (min-width:700px){
+  #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
+    border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
+  #sheet.on{transform:none}
+  #sheet .grab{display:none}
+}
+
+/* ---- B5 site chrome & controls ---- */
+#controls{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem}
+#controls .row1{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+#controls input[type=search]{flex:1;min-width:10rem;font:inherit;font-size:.85rem;color:var(--ink);
+  background:var(--panel);border:1px solid var(--line);padding:.35rem .6rem}
+#controls .chip{font:inherit;font-size:.72rem;display:inline-flex;align-items:center;gap:.3rem;
+  background:var(--panel);color:var(--muted);border:1px solid var(--line);padding:.28rem .55rem;cursor:pointer}
+#controls .chip.on{border-color:var(--gold);color:var(--ink);box-shadow:inset 0 0 0 1px var(--gold)}
+#controls .cnt{font-size:.7rem;color:var(--muted);font-style:italic;margin-left:auto}
+/* Filters collapse (Mark, 2026-08-04): #legend + #streamlegend together were
+   the actual bulk of #controls -- 18 lane/category buttons plus 10 stream
+   buttons, sticky, always rendered. On mobile that stack alone ran to ~2/3
+   of the viewport before any map was visible at all. Hidden by default now,
+   behind one toggle in row1; row1 itself (search + built-toggle + count)
+   is the only piece that has to always be visible. */
+#filterToggle .car{transition:transform .15s}
+#filterToggle[aria-expanded="true"] .car{transform:rotate(180deg)}
+#filterToggle .fcount{display:none;background:var(--gold);color:var(--bg);border-radius:999px;
+  font-size:.62rem;line-height:1;padding:.15rem .35rem;font-weight:700}
+#filterToggle.has-filters .fcount{display:inline-block}
+#filterPanel{overflow:hidden;max-height:0;transition:max-height .2s ease}
+#filterPanel.open{max-height:60vh;overflow-y:auto}
+body.filtering .node:not(.match){opacity:.13}
+body.filtering #art .tail:not(.match),body.filtering #art .shoulder:not(.match),
+body.filtering #art .seal:not(.match),body.filtering #art .sticon:not(.match){opacity:.05}
+body.filtering #art .thread{opacity:.1}
+#rail{position:fixed;right:.25rem;top:50%;transform:translateY(-50%);z-index:35;display:flex;flex-direction:column;gap:2px}
+#rail button{font:inherit;font-size:.62rem;width:26px;height:22px;border:1px solid var(--line);
+  background:var(--panel);color:var(--muted);cursor:pointer;padding:0}
+#rail button.on{background:var(--gold);color:var(--bg);border-color:var(--gold)}
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--ink);color:var(--bg);
+  padding:.5rem .9rem calc(.5rem + env(safe-area-inset-bottom));display:none;align-items:center;gap:.5rem;flex-wrap:wrap}
+#tray.on{display:flex}
+#tray .tchip{font-size:.78rem;border:1px solid var(--gold);padding:.15rem .3rem .15rem .55rem;display:inline-flex;gap:.25rem;align-items:center}
+#tray .tchip button{background:none;border:none;color:inherit;cursor:pointer;font-size:.9rem}
+#tray .go{margin-left:auto;font:inherit;font-weight:700;font-size:.85rem;background:var(--gold);color:var(--ink);
+  border:none;padding:.45rem .9rem;cursor:pointer}
+.node:focus-visible{outline:2px solid var(--goldhi);outline-offset:1px}
+/* legend/rail/control buttons relied on the browser's bare default outline --
+   works, but inconsistent across browsers and easy to lose against this
+   theme's custom button chrome. Explicit, matches the node's own treatment. */
+#legend button:focus-visible,#streamlegend button:focus-visible,#rail button:focus-visible,
+#controls .chip:focus-visible,#tray button:focus-visible,#sheet .act:focus-visible,
+#sheet .close:focus-visible,#sheet .edge b:focus-visible{
+  outline:2px solid var(--goldhi);outline-offset:1px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* .skip-link itself comes from assets/style.css (same pattern as every other
+   page on the site: href="#main" + <main id="main">) -- no local override
+   needed here, and an earlier attempt at one fought the shared stylesheet's
+   cascade instead of matching it. */
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+@media print{#controls,#rail,#tray,.site-header,.site-footer,#tip,#sheet,#scrim{display:none!important}
+  body{background:#fff}}
+</style>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<h1 class="sr-only">Church in History — an interactive map of Christian traditions across ten eras</h1>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="assets/logo-arriving.svg" alt="" aria-hidden="true">
+      <span class="wordmark">Church in Conversation</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="whats-next.html">What's Next</a>
+      <a href="atlas-v3.html" aria-current="page">Map</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div id="controls">
+  <div class="row1">
+    <input type="search" id="q" placeholder="Search all 257 movements — including the ones that aren’t open, and why" aria-label="Search all movements">
+    <button id="builtToggle" class="chip" aria-pressed="false"><svg width="12" height="12" aria-hidden="true"><use href="#ic-house"/></svg>Built worlds</button>
+    <button id="filterToggle" class="chip" type="button" aria-expanded="false" aria-controls="filterPanel">Filters<span class="fcount" id="fcount"></span><svg class="car" width="10" height="10" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <button id="shareBtn" class="chip" type="button" title="Copy a link to this exact view">Copy link</button>
+    <span class="cnt" id="cnt" aria-live="polite"></span>
+    <button id="themeBtn" class="chip">theme: auto</button>
+  </div>
+  <div id="filterPanel">
+    <div id="legend" role="group" aria-label="Filter by tradition lane and category"></div>
+    <div id="streamlegend" role="group" aria-label="Spotlight a historical stream"></div>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="ic-house" viewBox="0 0 16 16"><path d="M2 8 L8 2 L14 8 M4 7 V14 H12 V7 M7 14 V10 H9 V14" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+<symbol id="ic-plans" viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2.5 6 H13.5 M6 6 V13.5 M8.5 8.5 H11 M8.5 11 H11" fill="none" stroke="currentColor" stroke-width="1.1"/></symbol>
+<symbol id="ic-question" viewBox="0 0 16 16"><path d="M5 5.5 Q5 2.5 8 2.5 Q11 2.5 11 5 Q11 7 8.5 8 L8 10" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="7.2" y="12" width="1.8" height="1.8" fill="currentColor"/></symbol>
+<symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
+</defs></svg>
+<div id="wrap"><div id="canvas"><svg id="art"></svg></div></div>
+
+<nav id="rail" aria-label="Jump to era"></nav>
+<div id="tray" aria-live="polite"><span id="traychips"></span><button class="go" id="go">Sit down at the Table</button></div>
+<div id="tip"></div>
+<div id="scrim"></div>
+<div id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1" inert><button class="close" id="sheetClose" aria-label="Close">×</button><div class="grab"></div><div id="sheetBody"></div></div>
+
+<footer>
+<div style="border:1px solid var(--gold);padding:.7rem .9rem;margin-bottom:1rem">
+<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Reading the marks</b><br>
+<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
+<b>House</b> — built and open: you can sit down with this tradition now.&ensp;
+<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-plans"/></svg>
+<b>Plans</b> — chosen for construction; not yet built.&ensp;
+<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
+<b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
+<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
+<b>Closed door</b> — outside the Nicene base this project builds from; the grounds are always
+stated in the entry, and exclusion is never a judgment of unimportance.
+</div>
+Time flows downward in order — vertical distance is <i>not</i> to scale. Each movement is a box at
+its birth; its tail falls through the events of its lifetime (a fading tail runs past this slice's edge).
+Color names the high-level tradition family; a movement's status is stated in words on hover and in its
+entry. Threads are drawn only where the reviewed record carries a relationship — confidence always in
+words: documented · widely accepted · contested (contested also dashed). Hover or tap to trace a lineage;
+click for the full entry — the same template for every movement, built or not.
+<div id="glossary" style="border:1px solid var(--gold);padding:.7rem .9rem;margin-top:1rem"></div>
+</footer>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
+    <nav><a href="about.html">About</a><a href="atlas-v3.html">Atlas</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
+  </div>
+</footer>
+
+<script>
+"use strict";
+const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
+const LIVE_APP_URL=isLocal?'http://localhost:8199':'https://cic-poc.onrender.com';
+fetch('data/world-census.json')
+  .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+  .then(boot)
+  .catch(err=>{document.getElementById('canvas').innerHTML=
+    '<p style="padding:2.5rem 1rem;max-width:36rem">The census could not be loaded ('+err.message+'). The Atlas reads live from data/world-census.json.</p>';});
+function boot(DATA){
+const esc=t=>(t==null?"":String(t)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+/* ---- B5: shareable deep-links -- a search + lane + stream + built-toggle
+   view can be bookmarked or sent to someone. Read once at boot (before any
+   of the four state variables below take their defaults); written back to
+   the URL via replaceState (not pushState -- a filter tweak shouldn't spam
+   browser history) after every state-changing action. Theme and scroll
+   position are deliberately NOT part of this -- display preference, not
+   the "what is this view showing" state the feature is actually for. */
+const urlParams=new URLSearchParams(location.search);
+const urlState={
+  q: urlParams.get('q')||"",
+  built: urlParams.get('built')==='1',
+  laneoff: (urlParams.get('laneoff')||"").split(',').filter(Boolean).map(Number),
+  streams: (urlParams.get('streams')||"").split(',').filter(Boolean)
+};
+function syncURL(){
+  const p=new URLSearchParams();
+  if(QRaw)p.set('q',QRaw);
+  if(builtOnly)p.set('built','1');
+  if(laneOff.size)p.set('laneoff',[...laneOff].join(','));
+  if(streamOn.size)p.set('streams',[...streamOn].join(','));
+  const qs=p.toString();
+  history.replaceState(null,'',qs?('?'+qs):location.pathname);
+}
+
+/* ---- tradition families: hue carries this now, not columns ---- */
+const FAM=[
+ {k:0,  lbl:"Origin",      c:"#6b4f2a", cd:"#c9a86a"},
+ {k:1,  lbl:"Syriac East", c:"#b45309", cd:"#eab06b"},
+ {k:1.5,lbl:"Syriac/Prot. bridge", c:"#94693A", cd:"#d0a276"},
+ {k:2,  lbl:"Caucasus",    c:"#3f7261", cd:"#8fc4b0"},
+ {k:3,  lbl:"Greek East",  c:"#2B5F8A", cd:"#7EB8E8"},
+ {k:3.5,lbl:"Greek/Latin bridge", c:"#653a68", cd:"#c39cc6"},
+ {k:4,  lbl:"Africa",      c:"#0f766e", cd:"#5fd6be"},
+ {k:5,  lbl:"Latin West",  c:"#7A2E2E", cd:"#E8998F"},
+ {k:5.5,lbl:"Latin/Prot. bridge", c:"#8A4A6B", cd:"#d49ebc"},
+ {k:6,  lbl:"Protestant & Evangelical", c:"#44518F", cd:"#9daae8"},
+ {k:7,  lbl:"Global Revival & Pentecostal", c:"#A62639", cd:"#ef8f9d"},
+ {k:50, lbl:"Cross-Family", c:"#77705F", cd:"#b3ab96"},
+ {k:80, lbl:"Non-Nicene",  c:"#7a5d94", cd:"#b9a3d6"}
+];
+const famOf=o=>{let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-o);if(d<bd){bd=d;best=f;}});return best;};
+const isDarkTheme=()=>document.documentElement.getAttribute('data-theme')==='dark'||
+  (matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement.getAttribute('data-theme')!=='light');
+const famColor=f=>isDarkTheme()?f.cd:f.c;
+/* same reasoning as .node.live in CSS: dark mode's family hues are light
+   pastels, so the live-status icon needs dark ink instead of white there
+   or it disappears into the same contrast failure. */
+const liveTextColor=()=>isDarkTheme()?'#1d1811':'#ffffff';
+
+/* short display names — demo of the census shortName field Mark approved */
+/* shortName/informalName now come from the census (schema v2) */
+
+const ST=m=>m.status==="Built & Live"?"live":
+  m.status==="Selected - Not Yet Built"?"sel":
+  (m.status==="Deferred by Step 0"||m.status==="Possible Future World (on record)")?"def":
+  m.status==="Pre-Survey Candidate"?"psc":
+  m.status==="Contested - Evidentiary"?"cev":"exc";
+
+const byId={};DATA.movements.forEach(m=>byId[m.id]=m);
+const parentsOf={},childrenOf={};
+DATA.edges.forEach(e=>{(parentsOf[e.to]=parentsOf[e.to]||[]).push(e.from);
+  (childrenOf[e.from]=childrenOf[e.from]||[]).push(e.to);});
+/* Identity successions (same ongoing church, next bounded world) --
+   derived live from each movement's own `continuesAs` field, the census's
+   real single source of truth. This used to be a hand-maintained array
+   frozen from before the census had that field at all (11 pairs, stale
+   comment still calling itself "provisional demo data needing a
+   continuesAs field") -- silently missing 60 of the 71 real pairs on
+   record by the time it was found (Mark, 2026-08-03 click-doc review). */
+const contNext={},contPrev={};
+DATA.movements.forEach(m=>{if(m.continuesAs&&byId[m.continuesAs]){contNext[m.id]=m.continuesAs;contPrev[m.continuesAs]=m.id;}});
+
+/* ---- ordinal rows within each era ---- */
+let rows=[],eraSpans=[];
+(function(){let r=0;
+  DATA.eras.forEach(e=>{
+    const list=DATA.movements.filter(m=>m.era===e.num).slice().sort((a,b)=>a.start-b.start||a.end-b.end);
+    const r0=r;list.forEach(m=>{m._row=r++;rows.push(m);});
+    eraSpans.push({era:e,r0,r1:r});
+  });
+})();
+const lastRowStartingBy=y=>{let r=0;rows.forEach(m=>{if(m.start<=y)r=Math.max(r,m._row);});return r;};
+
+const canvas=document.getElementById('canvas'),art=document.getElementById('art');
+const RH=()=>innerWidth<700?54:60, HEAD=8, ERA_PAD=34;
+let NW=0;
+
+/* which eras is a movement alive in? (years parsed from the era date strings) */
+const ERA_YEARS=[[70,312],[312,451],[451,622],[622,1054],[1054,1300],[1300,1517],[1517,1650],[1650,1815],[1815,1906],[1906,2026]];
+const aliveIn=(m,i)=>m.start<ERA_YEARS[i][1]&&m.end>=ERA_YEARS[i][0];
+const eraIndexOf=m=>eraSpans.findIndex(s=>m._row>=s.r0&&m._row<s.r1);
+let anchors=[];
+function layout(){
+  canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
+  const viewW=Math.max(320,document.documentElement.clientWidth), rh=RH();
+  NW=Math.min(150,Math.max(96,viewW*0.26));
+  const TWb=viewW<700?8:20, GAPb=viewW<700?4:12;
+  window.__TW=TWb;
+  /* era-scoping (Mark, 2026-08-02): an entry may straddle ONE era boundary,
+     never cross a second — the census is era-scoped, and continuity is the
+     next era's own entries' job. Capped tails free their space. */
+  rows.forEach(m=>{m._fam=famOf(m.laneOrder);m._ei=eraIndexOf(m);});
+  const capEraOf=m=>Math.min(m._ei+1,eraSpans.length-1);
+  const isCapped=m=>m.end>ERA_YEARS[capEraOf(m)][1];
+  const endRowOf=m=>{
+    const capRow=eraSpans[capEraOf(m)].r1-1;
+    const nat=m.end>2026?rows.length-1:lastRowStartingBy(m.end);
+    return Math.min(nat,capRow);
+  };
+  window.__isCapped=isCapped;window.__endRowOf=endRowOf;
+  /* free-gap placement (Mark: "worlds can move to the right"): a newborn box
+     goes to the gap between living tails nearest its family anchor +
+     influence pull — anywhere on the canvas, not a reserved column. */
+  function tryPack(W){
+    /* anchors spread over the SCREEN, not the canvas — extra canvas width is
+       pure spill room to the right (Mark: "worlds can move to the right"),
+       never an excuse to scatter the families wider. */
+    const AW=Math.min(W,viewW);
+    const A=eraSpans.map((s,i)=>{
+      const present=FAM.filter(f=>rows.some(m=>famOf(m.laneOrder)===f&&aliveIn(m,i)));
+      const map={};present.forEach((f,j)=>{map[f.k]=((j+0.5)/present.length)*(AW-28)+14;});
+      return map;
+    });
+    const aX=(i,f)=>A[i][f.k]!=null?A[i][f.k]:W/2;
+    /* Tails live on a tight pitch grid; the BOX may lean sideways over its
+       tail (asymmetric shoulder — "a moving to the tail"), weaving into
+       whatever box-sized hole exists between living ribbons at its birth.
+       This is what lets contemporary tails pack at ribbon-pitch instead of
+       half-a-box apart. */
+    const pitch=TWb+GAPb, slo=TWb/2+6;
+    const nSlots=Math.max(1,Math.floor((W-TWb-12)/pitch)+1);
+    const slotX=k=>slo+k*pitch;
+    const busy=Array(nSlots).fill(-1);
+    const maxOff=NW/2-TWb/2-4;
+    const blo=NW/2+4, bhi=W-NW/2-4;
+    const ribbons=[];let fb=0;const pos={};const slotOf={};
+    rows.forEach(m=>{
+      let want=aX(m._ei,m._fam);
+      const ps=(parentsOf[m.id]||[]).map(id=>pos[id]).filter(p=>p!=null).map(p=>p.tx);
+      if(ps.length){const px=ps.reduce((a,b)=>a+b,0)/ps.length;want=0.45*want+0.55*px;}
+      want=Math.max(slo,Math.min(W-slo,want));
+      /* living ribbons of OTHER families forbid the box span; a box may sit
+         over its own family's stream — same hue, the river behind its
+         newest member, not an overlap in Mark's sense */
+      const bars=ribbons.filter(p=>p.endRow>=m._row&&p.fam!==m._fam).map(p=>[p.x-TWb/2-GAPb-NW/2,p.x+TWb/2+GAPb+NW/2]).sort((a,b)=>a[0]-b[0]);
+      const merged=[];bars.forEach(iv=>{const l=merged[merged.length-1];
+        if(l&&iv[0]<=l[1])l[1]=Math.max(l[1],iv[1]);else merged.push(iv.slice());});
+      const okbx=x=>x>=blo&&x<=bhi&&!merged.some(iv=>x>iv[0]&&x<iv[1]);
+      /* slots ordered by distance from want */
+      const order=[...Array(nSlots).keys()].sort((a,b)=>Math.abs(slotX(a)-want)-Math.abs(slotX(b)-want));
+      let hit=null;
+      /* identity succession: inherit the predecessor's slot — the stream
+         continues in place, the new world is born on its own tail */
+      const prevId=contPrev[m.id];
+      if(prevId!=null&&slotOf[prevId]!=null){
+        const k=slotOf[prevId], tx=slotX(k);
+        let bx=null;
+        const tryBx=x=>{if(Math.abs(x-tx)<=maxOff&&okbx(x)&&(bx==null||Math.abs(x-tx)<Math.abs(bx-tx)))bx=x;};
+        tryBx(tx);merged.forEach(iv=>{tryBx(iv[0]-0.5);tryBx(iv[1]+0.5);});
+        tryBx(Math.max(blo,tx-maxOff));tryBx(Math.min(bhi,tx+maxOff));
+        if(bx==null)bx=tx;
+        hit={tx,bx,k};
+      }
+      if(hit==null)for(const k of order){
+        if(busy[k]>=m._row)continue;
+        const tx=slotX(k);
+        /* box center near its tail, within the lean limit, in a clear hole */
+        let bx=null;
+        const tryBx=x=>{if(Math.abs(x-tx)<=maxOff&&okbx(x)&&(bx==null||Math.abs(x-tx)<Math.abs(bx-tx)))bx=x;};
+        tryBx(tx);
+        merged.forEach(iv=>{tryBx(iv[0]-0.5);tryBx(iv[1]+0.5);});
+        tryBx(Math.max(blo,tx-maxOff));tryBx(Math.min(bhi,tx+maxOff));
+        if(bx!=null){hit={tx,bx,k};break;}
+      }
+      if(hit==null){fb++;const x=Math.max(blo,Math.min(bhi,want));pos[m.id]={tx:x,bx:x};}
+      else{pos[m.id]={tx:hit.tx,bx:hit.bx};busy[hit.k]=endRowOf(m);slotOf[m.id]=hit.k;ribbons.push({x:hit.tx,endRow:endRowOf(m),fam:m._fam});}
+    });
+    return {fb,pos,A};
+  }
+  let W=viewW, attempt=tryPack(W);
+  while(attempt.fb>0&&W<viewW*5){W+=60;attempt=tryPack(W);}
+  anchors=attempt.A;
+  rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
+  document.getElementById('wrap').style.width=W+"px";
+  const subEl=document.querySelector('header.bar .s');
+  if(subEl)subEl.textContent=W>viewW
+    ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
+    :`era-scoped straight tails fit this screen at full size — one era straddled at most, then the stream hands off`;
+  let html="",totalH=0;
+  eraSpans.forEach(s=>{
+    const y=s.r0*rh+(s.r0?ERA_PAD*eraSpans.indexOf(s):0);
+    s._y=y;const h=(s.r1-s.r0)*rh+ERA_PAD+HEAD;
+    html+=`<div class="eraband" style="position:absolute;left:0;right:0;top:${y}px;height:${h}px;
+      background:var(--era${s.era.num});border-top:1px solid var(--gold)"></div>`;
+    html+=`<div class="erahead" style="top:${y+2}px"><span>Era ${s.era.no} · ${esc(s.era.title)} · ${esc(s.era.dates)}</span></div>`;
+    totalH=y+h;
+  });
+  rows.forEach(m=>{
+    const s=eraSpans.find(sp=>m._row>=sp.r0&&m._row<sp.r1);
+    m._y=s._y+HEAD+ERA_PAD+(m._row-s.r0)*rh;
+  });
+  rows.forEach(m=>{
+    const st=ST(m),f=m._fam,c=famColor(f);
+    let style=`left:${(m._bx!=null?m._bx:m._x)-NW/2}px;top:${m._y}px;width:${NW}px;`;
+    if(st==="live")style+=`background:${c};`;
+    else if(st==="sel")style+=`border:2px solid ${c};color:${c};`;
+    else if(st==="def")style+=`background:color-mix(in srgb, ${c} 16%, var(--panel));border-color:color-mix(in srgb, ${c} 45%, var(--line));`;
+    else if(st==="psc")style+=`border-color:color-mix(in srgb, ${c} 38%, var(--line));`;
+    else if(st==="exc")style+=`border:1.5px dashed ${c};background:color-mix(in srgb, ${c} 7%, var(--panel));`;
+    else if(st==="cev")style+=`border:1.5px dotted ${c};`;
+    const nmColor=(st==="sel"||st==="exc"||st==="cev")?`color:${c}`:"";
+    html+=`<div class="node ${st==="live"?"live":""}" data-id="${m.id}" style="${style}" tabindex="0" role="button" aria-label="${esc(m.shortName||m.name)}, ${esc(m.dates)}, ${esc(m.statusWord)}">
+      <div class="nm" style="${nmColor}">${esc(m.shortName||m.name)}</div>
+      <div class="dt">${esc(m.dates)}</div></div>`;
+  });
+  canvas.style.height=(totalH+24)+"px";
+  canvas.insertAdjacentHTML('beforeend',html);
+  drawArt(W,totalH+24,rh);
+}
+function drawArt(W,H,rh){
+  art.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  art.setAttribute('width',W);art.setAttribute('height',H);
+  let s="";
+  const BOX_H=38;
+  const clampX=x=>Math.max(NW/2+4,Math.min(W-NW/2-4,x));
+  const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k]:W/2;
+  const bandBottom=i=>i+1<eraSpans.length?eraSpans[i+1]._y:H-24;
+  /* straight ribbon tails: the box continues as its stream, dead vertical —
+     placement already guaranteed no box sits on another's tail. A movement
+     that ENDS gets a closing seal in its color; one that outlives the slice
+     fades out, unsealed. */
+  const TW=window.__TW||Math.max(16,Math.min(24,NW*0.2)), SH=20;
+  rows.forEach(m=>{
+    m._tw=TW;
+    m._segMap={};eraSpans.forEach((sp,i)=>{m._segMap[i]=m._x;});
+    let past=window.__isCapped(m)||m.end>=2026; /* capped beyond scope, or living at the present edge — either way, no seal: the stream runs on */
+    const endR=window.__endRowOf(m), endM=rows[Math.min(endR,rows.length-1)];
+    let tailEnd=(endM&&endM._y>m._y)?endM._y+BOX_H/2:m._y+BOX_H+14;
+    if(past&&endR>=rows.length-1)tailEnd=H-8;
+    tailEnd=Math.max(tailEnd,m._y+BOX_H+SH+6);
+    /* ongoing church: the tail flows into the successor's box top — no seal,
+       no fade; it continues as a new world but ongoing church */
+    let flows=false;
+    const nxId=contNext[m.id], nx=nxId&&byId[nxId];
+    if(nx&&nx._y>m._y){tailEnd=nx._y+5;flows=true;past=false;}
+    const tx=m._x, bx=(m._bx!=null?m._bx:m._x), yB=m._y+BOX_H-2, bw=NW/2-5, h=TW/2, col=famColor(m._fam);
+    /* the divergence: a sharp trapezoid from the box's bottom corners to the
+       tail's top, in the BOX's own fill — box, divergence, tail: one body,
+       drawn with a draftsman's edge, not a soft curve */
+    const st=ST(m);
+    const boxFill=st==="live"?col
+      :st==="def"?`color-mix(in srgb, ${col} 16%, var(--panel))`
+      :st==="exc"?`color-mix(in srgb, ${col} 7%, var(--panel))`
+      :"var(--panel)";
+    s+=`<path class="shoulder" data-mid="${m.id}" style="fill:${boxFill}"
+      d="M ${bx-bw} ${yB} L ${tx-h} ${yB+SH} L ${tx+h} ${yB+SH} L ${bx+bw} ${yB} Z"></path>`;
+    /* status icon: in the divergence wedge when it fits, else bottom-right corner */
+    const ICON=st==="live"?"ic-house":st==="sel"?"ic-plans":
+      (st==="exc"||m.beyondFloor)?"ic-door":"ic-question";
+    const ICON_LBL=st==="live"?"built — open for conversation":st==="sel"?"chosen — planned, not yet built":
+      (st==="exc"||m.beyondFloor)?"outside the Nicene base — grounds stated in the entry":"under review — not (yet) in the plan";
+    const iw=13, wedgeFits=TW>=iw+6;
+    const ix=wedgeFits?tx-iw/2:bx+bw-iw-3;
+    const iy=wedgeFits?yB+SH-iw-2:yB-iw-4;
+    const icol=st==="live"?liveTextColor():col;
+    s+=`<use class="sticon" href="#${ICON}" x="${ix}" y="${iy}" width="${iw}" height="${iw}"
+      style="color:${icol}" data-mid="${m.id}"><title>${ICON_LBL}</title></use>`;
+    s+=`<path class="tail ${past?"cont":""}" data-mid="${m.id}"
+      d="M ${tx} ${yB+SH-2} L ${tx} ${Math.min(tailEnd,H-8)}"
+      stroke="${col}" stroke-width="${TW}"></path>`;
+    m._tailEndY=Math.min(tailEnd,H-8);
+    if(!past&&!flows){
+      s+=`<rect class="seal" data-mid="${m.id}" x="${tx-h-4}" y="${m._tailEndY-2}"
+        width="${TW+8}" height="8" fill="${col}"></rect>`;
+    }
+  });
+  /* threads: depart the parent's tail WHERE IT ACTUALLY IS at the child's
+     birth row (post-drift), land on the child's box */
+  const tailXAt=(m,y)=>{
+    let i=0;eraSpans.forEach((sp,j)=>{if(sp._y<=y)i=j;});
+    return m._segMap[i]!=null?m._segMap[i]:m._x;
+  };
+  DATA.edges.forEach((e,i)=>{
+    const a=byId[e.from],b=byId[e.to];if(!a||!b)return;
+    const y1=Math.max(a._y+BOX_H+6,Math.min((a._tailEndY!=null?a._tailEndY:1e9)-2,b._y-14)), cx=tailXAt(a,b._y), x2=(b._bx!=null?b._bx:b._x), y2=b._y-1;
+    /* depart from the ribbon's EDGE on the side facing the child */
+    const x1=cx+((a._tw||TW)/2+1)*(x2>=cx?1:-1);
+    const my=(y1+y2)/2+14;
+    s+=`<path class="thread ${e.confidence==="Contested"?"contested":""}" data-ei="${i}"
+      data-from="${e.from}" data-to="${e.to}"
+      d="M ${x1} ${y1} C ${x1} ${my}, ${x2} ${Math.min(my,y2-6)}, ${x2} ${y2}"></path>`;
+    /* B4: arrival tick -- a short crossbar where the thread lands, instead of a
+       plain dot; calm at rest (thin, low opacity), unmistakable on trace. */
+    s+=`<line class="tdot" x1="${x2-4}" y1="${y2-1}" x2="${x2+4}" y2="${y2-1}"
+      data-from="${e.from}" data-to="${e.to}"></line>`;
+    /* B4: label-on-trace -- the relationship type, in words, appearing beside
+       the curve only while it's traced (honesty invariant: confidence in
+       words, not just a line). Positioned near arrival, offset off the
+       thread itself so it doesn't sit on top of the stroke. */
+    const lx=x2+(x2>=x1?8:-8), ly=Math.max(y1+10,y2-20);
+    s+=`<text class="thread-label" data-ei="${i}" data-from="${e.from}" data-to="${e.to}"
+      x="${lx}" y="${ly}" text-anchor="${x2>=x1?"start":"end"}">${esc(e.type)}</text>`;
+  });
+  art.innerHTML=s;
+}
+/* era grounds as custom props */
+(function(){
+  let l="",d="";
+  DATA.eras.forEach(e=>{l+=`--era${e.num}:${e.ground};`;d+=`--era${e.num}:${e.groundDark};`;});
+  const st=document.createElement('style');
+  st.textContent=`:root{${l}}@media (prefers-color-scheme: dark){:root{${d}}}`+
+    `:root[data-theme="dark"]{${d}}:root[data-theme="light"]{${l}}`;
+  document.head.appendChild(st);
+})();
+/* ---- lane toggle: default all on; click a legend swatch to isolate/exclude
+   families -- multi-select, not radio. Bridge lanes (the .5 families, each
+   spanning two named families) aren't independently toggled: a bridge shows
+   as ON whenever EITHER of its two parents is on, OFF only when both are. */
+const BRIDGE_PARENTS={1.5:[1,6],3.5:[3,5],5.5:[5,6]};
+let laneOff=new Set(urlState.laneoff);
+const laneOn=k=>BRIDGE_PARENTS[k]?BRIDGE_PARENTS[k].some(p=>!laneOff.has(p)):!laneOff.has(k);
+/* Major-category grouping over the legend/toggle controls ONLY (Mark,
+   2026-08-03) -- "most users will think in those terms." The chart's own
+   13 lanes/colors are untouched; this is an organizing meta-layer over the
+   toggle UI. Each bridge lane is listed once, under its first parent's
+   category, rather than duplicated under both. */
+const CATS=[
+ {id:'catholic',   lbl:'Catholic',   members:[5],      bridges:[5.5],
+  desc:'The Latin West — Rome and the churches in communion with it.'},
+ {id:'orthodox',   lbl:'Orthodox',   members:[3,2],    bridges:[3.5],
+  desc:'The Greek East and the Caucasus — Eastern Orthodoxy and its neighboring communions.'},
+ {id:'protestant', lbl:'Protestant', members:[6,7],    bridges:[],
+  desc:'The Reformation churches and their revival/Pentecostal descendants.'},
+ {id:'other',      lbl:'Other',      members:[0,1,4,50], bridges:[1.5],
+  desc:'Everything that doesn’t fit the three main Western families: the earliest pre-lane movements, the Syriac East & Asia, Africa, and traditions that cut across more than one family.'},
+ {id:'outside',    lbl:'Outside',    members:[80],     bridges:[],
+  desc:'Traditions outside the Nicene consensus this project builds from — included on the map, marked plainly as outside the floor.'}
+];
+function applyLaneToggle(){
+  document.body.classList.toggle('lanefiltering', laneOff.size>0);
+  rows.forEach(m=>{
+    const el=document.querySelector(`.node[data-id="${m.id}"]`);
+    if(el)el.classList.toggle('lane-on', laneOn(m._fam.k));
+  });
+  document.querySelectorAll('#art [data-mid]').forEach(el=>{
+    const m=byId[el.dataset.mid];
+    el.classList.toggle('lane-on', !!(m&&laneOn(m._fam.k)));
+  });
+  document.querySelectorAll('#art .thread,#art .tdot,#art .thread-label').forEach(el=>{
+    const m=byId[el.dataset.from];
+    el.classList.toggle('lane-on', !!(m&&laneOn(m._fam.k)));
+  });
+  document.querySelectorAll('#legend button[data-k]').forEach(b=>{
+    const k=+b.dataset.k;
+    b.classList.toggle('off', !laneOn(k));
+    b.setAttribute('aria-pressed', String(BRIDGE_PARENTS[k]?laneOn(k):!laneOff.has(k)));
+  });
+  document.querySelectorAll('#legend button.catbtn').forEach(b=>{
+    const cat=CATS.find(c=>c.id===b.dataset.cat);
+    const onCount=cat.members.filter(k=>!laneOff.has(k)).length;
+    b.classList.toggle('off',onCount===0);
+    b.classList.toggle('mixed',onCount>0&&onCount<cat.members.length);
+    b.setAttribute('aria-pressed',String(onCount===cat.members.length));
+  });
+  updateFilterCount();
+}
+document.getElementById('legend').innerHTML=
+  CATS.map(cat=>{
+    const lanes=[...cat.members,...cat.bridges].map(k=>FAM.find(f=>f.k===k));
+    const laneHtml=lanes.map(f=>{
+      const bridge=BRIDGE_PARENTS[f.k];
+      const title=bridge?` title="Follows ${esc(FAM.find(x=>x.k===bridge[0]).lbl)} and ${esc(FAM.find(x=>x.k===bridge[1]).lbl)}"`:"";
+      return `<button type="button"${bridge?' class="bridge"':''} data-k="${f.k}" aria-pressed="true"${title}><i style="background:${f.c}"></i>${f.lbl}</button>`;
+    }).join("");
+    return `<div class="lanegroup"><button type="button" class="catbtn" data-cat="${cat.id}" aria-pressed="true">${cat.lbl}</button>${laneHtml}</div>`;
+  }).join("");
+document.querySelectorAll('#legend button[data-k]:not(.bridge)').forEach(b=>{
+  b.addEventListener('click',()=>{
+    const k=+b.dataset.k;
+    if(laneOff.has(k))laneOff.delete(k);else laneOff.add(k);
+    applyLaneToggle();syncURL();
+  });
+});
+document.querySelectorAll('#legend button.catbtn').forEach(b=>{
+  b.addEventListener('click',()=>{
+    const cat=CATS.find(c=>c.id===b.dataset.cat);
+    const allOn=cat.members.every(k=>!laneOff.has(k));
+    cat.members.forEach(k=>{allOn?laneOff.add(k):laneOff.delete(k);});
+    applyLaneToggle();syncURL();
+  });
+});
+/* ---- streams: opt-in lineage clusters (Mark, 2026-08-03) -- "if its
+   highlighting a single box then its not helping, if it is highligthing a
+   stream of boxes then it is valable." First three, per census `streams[]`
+   tags (28/11/9 entries, VII.24 dual-tagged): Oriental Orthodox, the
+   Hesychast/Philokalia line, and Eastern Catholic/Uniate communions.
+   Default OFF, multi-select; any active stream fades every box that isn't
+   in one of the active streams -- distinct from lane fade (family) and
+   built/search fade (status/text), all three compose by independent dim. */
+const STREAMS=[
+ {id:'oriental-orthodox',      lbl:'Oriental Orthodox',
+  desc:'The non-Chalcedonian family — Coptic, Armenian, Ethiopian, Syriac, and related churches that didn’t accept the Council of Chalcedon’s 451 definition.'},
+ {id:'hesychast-philokalia',   lbl:'Hesychast / Philokalia',
+  desc:'The contemplative prayer tradition running from Byzantine monasticism through Mount Athos to the Russian startsy.'},
+ {id:'eastern-catholic-uniate',lbl:'Eastern Catholic / Uniate',
+  desc:'Eastern-rite churches that keep Orthodox worship and heritage while in union with Rome.'},
+ {id:'reformed-calvinist',     lbl:'Reformed / Calvinist',
+  desc:'The Geneva-rooted family — Scottish, Huguenot, Dutch, Puritan, and Presbyterian churches.'},
+ {id:'wesleyan-holiness-pentecostal', lbl:'Wesleyan / Holiness / Pentecostal',
+  desc:'The revivalist line running from Methodism through the Holiness movement into Pentecostalism.'},
+ {id:'baptist',                lbl:'Baptist',
+  desc:'Believer’s-baptism congregational churches descended from English Separatism.'},
+ {id:'anabaptist-believers-church',   lbl:'Anabaptist / Believers-Church',
+  desc:'The radical Reformation’s believer’s-church tradition — adult baptism and separation from state churches.'},
+ {id:'anglican-church-of-england',    lbl:'Anglican / Church of England',
+  desc:'The English church’s own continuous institutional line, from the Reformation settlement through its later renewal movements.'},
+ {id:'dispensational-bible-institute',lbl:'Dispensational / Bible-Institute',
+  desc:'The prophecy-focused popular Bible-teaching tradition running from the Plymouth Brethren through the Bible-institute movement.'},
+ {id:'post-evangelical-ferment',      lbl:'Post-Evangelical Ferment',
+  desc:'Late-modern evangelicalism’s internal reckoning — seeker/megachurches, the emerging church, and those now leaving both.'}
+];
+let streamOn=new Set(urlState.streams.filter(id=>STREAMS.some(s=>s.id===id)));
+/* NB: must resolve to a real boolean, never undefined -- classList.toggle(cls,
+   force) treats an explicit `undefined` force as "argument omitted" (pure
+   flip) rather than "force off", so an `&&`-chain that can short-circuit to
+   undefined silently breaks multi-select (caught by testing 2 streams active
+   at once: entries with no streams field started flipping back on). */
+const streamActive=m=>!streamOn.size||!!(m.streams&&m.streams.some(s=>streamOn.has(s)));
+function applyStreamToggle(){
+  document.body.classList.toggle('streamfiltering', streamOn.size>0);
+  rows.forEach(m=>{
+    const el=document.querySelector(`.node[data-id="${m.id}"]`);
+    if(el)el.classList.toggle('stream-on', streamActive(m));
+  });
+  document.querySelectorAll('#art [data-mid]').forEach(el=>{
+    const m=byId[el.dataset.mid];
+    el.classList.toggle('stream-on', !!(m&&streamActive(m)));
+  });
+  document.querySelectorAll('#art .thread,#art .tdot,#art .thread-label').forEach(el=>{
+    const m=byId[el.dataset.from];
+    el.classList.toggle('stream-on', !!(m&&streamActive(m)));
+  });
+  document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
+    b.classList.toggle('on', streamOn.has(b.dataset.s));
+    b.setAttribute('aria-pressed', String(streamOn.has(b.dataset.s)));
+  });
+  updateFilterCount();
+}
+document.getElementById('streamlegend').innerHTML=
+  `<span class="lbl">Streams</span>`+
+  STREAMS.map(s=>`<button type="button" data-s="${s.id}" aria-pressed="false">${esc(s.lbl)}</button>`).join("");
+document.querySelectorAll('#streamlegend button[data-s]').forEach(b=>{
+  b.addEventListener('click',()=>{
+    const s=b.dataset.s;
+    if(streamOn.has(s))streamOn.delete(s);else streamOn.add(s);
+    applyStreamToggle();syncURL();
+  });
+});
+/* Streams & categories glossary -- generated FROM the CATS/STREAMS arrays
+   (single source of truth, same discipline as the rest of the atlas reading
+   the census live) so it can't drift out of sync as streams are added.
+   Mark, 2026-08-03: the toggle labels use real vocabulary ("Dispensational
+   / Bible-Institute", "Post-Evangelical Ferment") that a first-time visitor
+   won't already know -- this spells each one out in a plain sentence. */
+document.getElementById('glossary').innerHTML=
+  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories &amp; streams</b>
+   <p style="margin:.4rem 0 .2rem">The header toggles group the map two ways. <b>Categories</b> gather
+   the 13 colored lanes into five familiar families:</p>
+   <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
+   ${CATS.map(c=>`<dt style="font-weight:700">${esc(c.lbl)}</dt><dd style="margin:0">${esc(c.desc)}</dd>`).join('')}
+   </dl>
+   <p style="margin:.4rem 0 .2rem"><b>Streams</b> spotlight a lineage that runs across those families —
+   pick one or more to fade everything outside it:</p>
+   <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
+   ${STREAMS.map(s=>`<dt style="font-weight:700">${esc(s.lbl)}</dt><dd style="margin:0">${esc(s.desc)}</dd>`).join('')}
+   </dl>`;
+/* ---- filters collapse (Mark, 2026-08-04): #legend + #streamlegend hidden
+   by default -- see #controls comment in <style> for why. One toggle in
+   row1 opens/closes the panel; a small badge on the toggle shows how many
+   filters are actually active so collapsing never hides that a filter is
+   on. Auto-opens once at boot only if a shared link arrived with filters
+   already set, so a participant isn't left wondering why the map looks
+   thinned with no visible reason. */
+const filterToggle=document.getElementById('filterToggle'),filterPanel=document.getElementById('filterPanel');
+function setFilterPanel(open){
+  filterPanel.classList.toggle('open',open);
+  filterToggle.setAttribute('aria-expanded',String(open));
+}
+filterToggle.addEventListener('click',()=>setFilterPanel(!filterPanel.classList.contains('open')));
+function updateFilterCount(){
+  const n=laneOff.size+streamOn.size;
+  document.getElementById('fcount').textContent=n?String(n):"";
+  filterToggle.classList.toggle('has-filters',n>0);
+}
+if(laneOff.size||streamOn.size)setFilterPanel(true);
+layout();
+applyLaneToggle();
+applyStreamToggle();
+addEventListener('resize',()=>{layout();applyLaneToggle();applyStreamToggle();applyFilter();});
+
+/* ---- trace ---- */
+const tip=document.getElementById('tip');
+function relatedIds(id){const s=new Set([id]);DATA.edges.forEach(e=>{if(e.from===id)s.add(e.to);if(e.to===id)s.add(e.from);});
+  if(contNext[id])s.add(contNext[id]);if(contPrev[id])s.add(contPrev[id]);return s;}
+function trace(id){
+  const rel=relatedIds(id);
+  document.body.classList.add('tracing');
+  document.querySelectorAll('.node').forEach(n=>n.classList.toggle('hot',rel.has(n.dataset.id)));
+  document.querySelectorAll('#art .thread,#art .tdot,#art .thread-label').forEach(p=>p.classList.toggle('hot',p.dataset.from===id||p.dataset.to===id));
+  document.querySelectorAll('#art .tail,#art .shoulder,#art .seal').forEach(t=>t.classList.toggle('hot',rel.has(t.dataset.mid)));
+}
+function untrace(){document.body.classList.remove('tracing');
+  document.querySelectorAll('.hot').forEach(n=>n.classList.remove('hot'));}
+canvas.addEventListener('pointerover',ev=>{
+  const n=ev.target.closest('.node');if(!n)return;
+  const m=byId[n.dataset.id];trace(m.id);
+  /* Naming hierarchy (Mark, 2026-08-03): the relatable name ("Bethlehem
+     Circle") leads everywhere -- the box, the hover, the click doc -- with
+     the academic name demoted to a secondary line. shortName is that
+     relatable-name field (same one already driving the box label); not
+     every entry's shortName has been rewritten to that bar yet, but the
+     hierarchy itself is the fix to make now -- content quality is a
+     separate, queued pass. */
+  /* why is Step 0 methodology reasoning ("why this counts as its own
+     tradition"), not a description -- dropped from both this preview and
+     the click doc's "About this world" (Mark, 2026-08-03): "we dont need
+     to reveal our system thinking here."
+     The hover card is a genuine teaser, not a truncated slice of the full
+     story -- Mark: "hover teaser". teaser is a distinct, hand-written
+     field (same shape as the built worlds' own entry.tile); falls back to
+     entry.tile for the six built worlds so nothing needs duplicating, and
+     is simply absent (no line shown) rather than faked for entries that
+     don't have one yet. */
+  const d1=m.teaser||(m.entry&&m.entry.tile)||"";
+  tip.innerHTML=`<div class="n">${esc(m.shortName||m.name)}</div>
+    ${m.shortName&&m.shortName!==m.name?`<div class="inf">${esc(m.name)}</div>`:""}
+    <div class="m">${esc(m.dates)} · ${esc(m.region)} · ${esc(m._fam.lbl)} family</div>
+    ${d1?`<div class="c">${esc(d1)}</div>`:""}
+    <div class="s">${esc(m.statusWord)}</div>
+    ${m.entry?`<div class="rep">Representative: <b>${esc(m.entry.representativeName)}</b>${m.entry.representativeTitle?" — "+esc(m.entry.representativeTitle):""}</div>`:""}`;
+  tip.style.display="block";
+});
+canvas.addEventListener('pointermove',ev=>{
+  if(tip.style.display!=="block")return;
+  tip.style.left=Math.min(ev.clientX+12,innerWidth-295)+"px";
+  tip.style.top=Math.min(ev.clientY+14,innerHeight-150)+"px";
+});
+canvas.addEventListener('pointerout',ev=>{if(ev.target.closest('.node')){tip.style.display="none";untrace();}});
+art.addEventListener('pointerover',ev=>{
+  const p=ev.target.closest('path.thread');if(!p)return;
+  const e=DATA.edges[+p.dataset.ei],a=byId[e.from],b=byId[e.to];
+  tip.innerHTML=`<div class="n">${esc(a.shortName||a.name)} → ${esc(b.shortName||b.name)}</div>
+    <div class="s">${esc(e.type)} · ${esc(e.confidence)}</div><div class="c"><i>${esc(e.note)}</i></div>`;
+  tip.style.display="block";
+});
+
+/* ---- uniform template ---- */
+const sheet=document.getElementById('sheet'),scrim=document.getElementById('scrim');
+function openSheet(id){
+  const m=byId[id],live=m.status==="Built & Live",f=m._fam;
+  const st=live?"live":(m.status==="Selected - Not Yet Built"?"sel":
+    ((m.status.indexOf("Excluded")===0||m.status==="Floor Question (register)"||m.beyondFloor)?"exc":"q"));
+  const ICON=st==="live"?"ic-house":st==="sel"?"ic-plans":st==="exc"?"ic-door":"ic-question";
+  /* honest data-state line, per era Step 0 status (Blueprint: template degrades
+     gracefully) -- reads the era's ACTUAL stepStatus rather than a hardcoded
+     era-number cutoff, so this updates itself as A1 Freezes land. */
+  const eraObj=DATA.eras.find(e=>e.num===m.era);
+  const eraFrozen=!!(eraObj&&/FROZEN/.test(eraObj.stepStatus));
+  const eraState=m.era<=2
+    ?"the earliest research pass is still the deepest one on record here; a fuller pass hasn't reached this era yet."
+    :eraFrozen
+      ?"a full research pass on this era is complete and reviewed."
+      :"a full research pass on this era hasn't run yet — what's here comes from the initial survey, not a finished judgment.";
+  const edges=DATA.edges.map((e,i)=>({...e,i})).filter(e=>e.from===id||e.to===id);
+  const infBy=edges.filter(e=>e.to===id&&e.type!=="in tension with"&&e.type!=="contemporary with");
+  const infOf=edges.filter(e=>e.from===id&&e.type!=="in tension with"&&e.type!=="contemporary with");
+  const tension=edges.filter(e=>e.type==="in tension with"||e.type==="argued against");
+  const contemp=edges.filter(e=>e.type==="contemporary with");
+  const edgeRow=e=>{const other=e.from===id?e.to:e.from,om=byId[other];
+    return `<div class="edge"><b data-jump="${other}" tabindex="0" role="link">${esc(om.shortName||om.name)}</b>
+      <span class="cw">${esc(e.confidence.toUpperCase())}</span>
+      <div class="note">${esc(e.note)}</div></div>`;};
+  let h=`<div style="display:flex;gap:.55rem;align-items:flex-start">
+    <svg width="20" height="20" style="flex:none;margin-top:.2rem;color:${famColor(f)}"><use href="#${ICON}"/></svg>
+    <div><h2 id="sheetTitle">${esc(m.shortName||m.name)}</h2>
+    ${m.shortName&&m.shortName!==m.name?`<div style="color:var(--muted);font-size:.8rem;font-style:italic">${esc(m.name)}</div>`:""}
+    <div class="meta">${esc(m.dates)} · ${esc(m.region)}</div>
+    <div class="fam"><i style="background:${famColor(f)}"></i>${esc(f.lbl)} tradition family</div>
+    ${m.streams&&m.streams.length?`<div class="fam">${m.streams.map(s=>esc(STREAMS.find(x=>x.id===s)?.lbl||s)).join(" · ")}</div>`:""}</div></div>
+   <h4>About this world</h4>
+   ${m.longDescription?`<p>${esc(m.longDescription)}</p>`
+     :`<p class="note">Not yet written — ${esc(eraState)}</p>`}
+   <h4>Major voices</h4>
+   ${m.voices&&m.voices.length?m.voices.map(v=>`<p>${esc(v)}</p>`).join("")
+     :`<p class="note">Not yet gathered — ${esc(eraState)}</p>`}
+   <h4>What it left behind</h4>
+   ${m.legacy?`<p>${esc(m.legacy)}</p>`
+     :`<p class="note">Not yet written — ${esc(eraState)}</p>`}
+   ${(()=>{let s="";
+     if(contPrev[id]){const p=byId[contPrev[id]];s+=`<p>Continues from <b data-jump="${contPrev[id]}" tabindex="0" role="link" class="edge" style="border:none;padding:0">${esc(p.shortName||p.name)}</b> — the same ongoing church, previous era.</p>`;}
+     if(contNext[id]){const n=byId[contNext[id]];s+=`<p>Continues as <b data-jump="${contNext[id]}" tabindex="0" role="link" class="edge" style="border:none;padding:0">${esc(n.shortName||n.name)}</b> — the same ongoing church, next era.</p>`;}
+     return s;
+   })()}
+   ${m.experienceToday&&m.experienceToday.length?m.experienceToday.map(x=>
+     `<p>Visit today: <a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.text)}</a></p>`).join(""):""}
+   ${m.floorNote&&m.floorNote!=="-"?`<h4>Where it stands on the Creed</h4><p>${esc(m.floorNote)}</p>`:""}`;
+  if(infBy.length){h+=`<h4>Traditions that shaped it</h4>`;infBy.forEach(e=>h+=edgeRow(e));}
+  if(infOf.length){h+=`<h4>Traditions it shaped</h4>`;infOf.forEach(e=>h+=edgeRow(e));}
+  if(tension.length){h+=`<h4>Traditions it stood in tension with</h4>`;tension.forEach(e=>h+=edgeRow(e));}
+  if(contemp.length){h+=`<h4>Contemporaries</h4>`;contemp.forEach(e=>h+=edgeRow(e));}
+  if(!edges.length&&!contPrev[id]&&!contNext[id])h+=`<h4>Lineage</h4><p class="note">No relationship is drawn for this entry in the reviewed record — the map never draws a thread it can't defend.</p>`;
+  h+=`<h4>Sources to research</h4>
+   ${m.sources&&m.sources.length?m.sources.map(x=>{
+       const label=esc(x.work||x);
+       const title=x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:label;
+       return `<p>· ${title}</p>`;
+     }).join("")
+     :`<p class="note">Source base pending — ${esc(eraState)}</p>`}`;
+  if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button><button class="act" data-act="add" data-aid="${m.id}">Add to the Table</button>`;
+  /* Plain-language status, moved to the END of the document (Mark,
+     2026-08-03): "not sure people want to know our internal decision
+     making criteria" up front. Four categories only -- yes built /
+     identified as a future build / still investigating / currently out of
+     scope -- computed from the same house/plans/question/door
+     classification driving the icon, not the raw per-entry statusWord
+     (which sometimes carries process phrasing of its own, e.g. "two
+     window-specific findings recorded (Era 9 Step 0)"). The supporting
+     detail line was ALSO meant to be the per-entry statusDescription, but
+     an 8-era adversarial review pass (2026-08-03) found ~200 of 257
+     statusDescriptions still carry researcher-facing text (dates, "Mark",
+     bare atlasId cross-references, tiering language) despite reading as
+     plain prose in isolation -- the "already in plain words for most
+     entries" assumption above was wrong. Switched to statusMeta[status]
+     .description, the one-line-per-category text already written in
+     clean visitor language and used nowhere else on the page. */
+  const plainLabel=st==="live"?"Yes, built.":st==="sel"?"Identified as a future build.":
+    st==="exc"?"Currently out of scope.":"Still investigating.";
+  const statusDetail=DATA.statusMeta&&DATA.statusMeta[m.status]?DATA.statusMeta[m.status].description:"";
+  h+=`<h4>Status</h4><div class="stline"><b>${plainLabel}</b> ${esc(statusDetail)}</div>`;
+  document.getElementById('sheetBody').innerHTML=h;
+  sheet.removeAttribute('inert');
+  sheet.classList.add('on');scrim.classList.add('on');
+  sheet.focus();
+}
+const noHover=matchMedia('(hover: none)').matches;let lastTap=null;
+/* the element to return keyboard focus to when the sheet closes -- a modal
+   that doesn't give focus back where it found it strands keyboard users. */
+let sheetTrigger=null;
+canvas.addEventListener('click',ev=>{
+  const n=ev.target.closest('.node');
+  if(!n){if(noHover){tip.style.display="none";untrace();lastTap=null;}return;}
+  const id=n.dataset.id;
+  if(noHover&&lastTap!==id){
+    /* first tap = hover card; second tap = document */
+    const m=byId[id];trace(id);
+    const r=n.getBoundingClientRect();
+    n.dispatchEvent(new PointerEvent('pointerover',{bubbles:true}));
+    tip.style.left=Math.min(r.left,innerWidth-295)+"px";
+    tip.style.top=Math.min(r.bottom+8,innerHeight-170)+"px";
+    lastTap=id;return;
+  }
+  lastTap=null;tip.style.display="none";sheetTrigger=n;openSheet(id);
+});
+canvas.addEventListener('keydown',ev=>{
+  if(ev.key!=="Enter"&&ev.key!==" ")return;
+  const n=ev.target.closest('.node');if(!n)return;
+  ev.preventDefault();sheetTrigger=n;openSheet(n.dataset.id);
+});
+function closeSheet(){
+  sheet.classList.remove('on');scrim.classList.remove('on');
+  sheet.setAttribute('inert','');
+  if(sheetTrigger&&document.contains(sheetTrigger))sheetTrigger.focus();
+  sheetTrigger=null;
+}
+document.getElementById('sheetClose').addEventListener('click',closeSheet);
+scrim.addEventListener('click',closeSheet);
+function jumpTo(id){
+  closeSheet();
+  const el=document.querySelector(`.node[data-id="${id}"]`);
+  if(el){el.scrollIntoView({block:'center'});trace(id);el.focus();setTimeout(untrace,1800);}
+}
+sheet.addEventListener('click',ev=>{
+  const j=ev.target.closest('[data-jump]');if(!j)return;
+  jumpTo(j.dataset.jump);
+});
+sheet.addEventListener('keydown',ev=>{
+  if(ev.key==='Escape'){closeSheet();return;}
+  const j=ev.key==='Enter'||ev.key===' '?ev.target.closest('[data-jump]'):null;
+  if(j){ev.preventDefault();jumpTo(j.dataset.jump);return;}
+  if(ev.key!=='Tab')return;
+  /* basic focus trap -- Tab/Shift+Tab cycles within the open dialog rather
+     than escaping to the (inert, but belt-and-suspenders) page behind it. */
+  const els=[...sheet.querySelectorAll('button,[href],[tabindex]:not([tabindex="-1"])')]
+    .filter(el=>el.offsetParent!==null);
+  if(!els.length)return;
+  const first=els[0],last=els[els.length-1];
+  if(ev.shiftKey&&document.activeElement===first){ev.preventDefault();last.focus();}
+  else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus();}
+});
+
+/* ---- B5: search & built-worlds filter ---- */
+/* Status was dropped from both the toggle row and the search haystack
+   (Mark, 2026-08-03): "i don't think that is something people would
+   search by." One boolean toggle replaces the old four-way status chip
+   group -- Built worlds fades everything not currently Built & Live. */
+/* Plain-language search aliases (Mark, 2026-08-03): the map spoke in
+   academic census vocabulary -- someone who knows "I grew up Baptist" or
+   "I'm non-denominational" had to already know the map's own naming to
+   find themselves. Two honest fixes, both grounded against real census
+   content (checked directly, same discipline as the streams tier):
+   (1) the haystack was missing relationsSummary/floorNote, where a lot of
+   real denominational language already lives (e.g. floorNote is the only
+   place "Book of Mormon" appears on VIII.14) -- widening it surfaces
+   already-written content, invents nothing; (2) a small curated alias
+   table for colloquial terms that genuinely never appear in the academic
+   text (Amish/Mennonite/Hutterite -- zero hits anywhere in VI.3's own
+   fields despite it being the right entry; "adventist" doesn't substring-
+   match the census's own "Adventism"; initialisms like LDS/JW). Every
+   alias target was verified by direct census query before being added --
+   this table is not guesses. Deliberately NOT aliased: fundamentalist,
+   liberal/mainline Protestant, social gospel -- those genuinely have no
+   row yet (logged gap, Era 10 work), and an alias pointing them at the
+   nearest unrelated entry would misrepresent what the map actually says. */
+const ALIASES=[
+ {terms:['lds'],ids:['VIII.14']},
+ {terms:['jw'],ids:['VIII.15']},
+ {terms:['adventist','7th day adventist','7th-day adventist'],ids:['VIII.10']},
+ {terms:['amish','mennonite','hutterite'],ids:['VI.3']},
+ {terms:['non denominational','nondenominational'],ids:['IX.30']},
+ {terms:['episcopal','episcopalian'],ids:['VI.4','VII.20','VIII.30','VIII.5']},
+ {terms:['trappist'],ids:['IV.1']},
+ {terms:['born again'],ids:['VII.6','VIII.2','IX.24']}
+];
+const norm=s=>(s||'').toLowerCase().replace(/[-'’]/g,' ').replace(/\s+/g,' ').trim();
+let QRaw=urlState.q,QF=norm(urlState.q),builtOnly=urlState.built;
+document.getElementById('q').value=QRaw;
+{const b=document.getElementById('builtToggle');b.classList.toggle('on',builtOnly);b.setAttribute('aria-pressed',String(builtOnly));}
+function applyFilter(){
+  const active=!!(QF||builtOnly);
+  document.body.classList.toggle('filtering',active);
+  /* an EXACT match to a short alias term (e.g. "lds") goes exclusive --
+     otherwise a 3-letter initialism drowns in substring noise (e.g. "lds"
+     is also a substring of "worlds"). A partial/typed-so-far match still
+     ORs with the normal text search, so results widen as you keep typing. */
+  const aliasIds=new Set();let exclusiveIds=null;
+  if(QF)ALIASES.forEach(a=>{
+    const exact=a.terms.includes(QF);
+    const partial=a.terms.some(t=>QF.includes(t)||(QF.length>=3&&t.includes(QF)));
+    if(exact||partial)a.ids.forEach(id=>aliasIds.add(id));
+    if(exact){exclusiveIds??=new Set();a.ids.forEach(id=>exclusiveIds.add(id));}
+  });
+  let n=0;
+  rows.forEach(m=>{
+    const hay=norm([m.name,m.shortName,m.informalName,m.region,m._fam.lbl,m.why,m.relationsSummary,m.floorNote].filter(Boolean).join(' '));
+    const textOk=exclusiveIds?exclusiveIds.has(m.atlasId):(!QF||hay.includes(QF)||aliasIds.has(m.atlasId));
+    const ok=textOk&&(!builtOnly||m.status==="Built & Live");
+    m._match=ok;if(ok)n++;
+    const el=document.querySelector(`.node[data-id="${m.id}"]`);
+    if(el)el.classList.toggle('match',ok&&active);
+  });
+  document.querySelectorAll('#art [data-mid]').forEach(el=>{
+    const m=byId[el.dataset.mid];el.classList.toggle('match',!!(m&&m._match&&active));
+  });
+  document.getElementById('cnt').textContent=active?`${n} of ${rows.length} movements`:`${rows.length} movements · ten eras`;
+}
+document.getElementById('q').addEventListener('input',ev=>{QRaw=ev.target.value.trim();QF=norm(QRaw);applyFilter();syncURL();});
+document.getElementById('builtToggle').addEventListener('click',()=>{
+  builtOnly=!builtOnly;
+  const b=document.getElementById('builtToggle');
+  b.classList.toggle('on',builtOnly);b.setAttribute('aria-pressed',String(builtOnly));
+  applyFilter();syncURL();
+});
+applyFilter();
+/* ---- B5: copy-link button -- the URL already carries the full filter
+   state via syncURL(); this just makes sharing it discoverable instead of
+   relying on someone noticing the address bar changed. */
+document.getElementById('shareBtn').addEventListener('click',async()=>{
+  const b=document.getElementById('shareBtn');
+  try{await navigator.clipboard.writeText(location.href);b.textContent='Copied!';}
+  catch(e){b.textContent='Copy failed';}
+  setTimeout(()=>{b.textContent='Copy link';},1600);
+});
+/* ---- B5: era jump rail ---- */
+function buildRail(){
+  const rail=document.getElementById('rail');
+  rail.innerHTML=eraSpans.map((sp,i)=>`<button data-ei="${i}" aria-label="Jump to Era ${sp.era.no}: ${esc(sp.era.title)}, ${esc(sp.era.dates)}" title="Era ${sp.era.no} · ${esc(sp.era.title)} (${esc(sp.era.dates)})">${sp.era.no}</button>`).join("");
+}
+buildRail();
+document.getElementById('rail').addEventListener('click',ev=>{
+  const b=ev.target.closest('button');if(!b)return;
+  const sp=eraSpans[+b.dataset.ei];
+  if(sp)window.scrollTo({top:sp._y+document.getElementById('wrap').offsetTop-60,behavior:'smooth'});
+});
+addEventListener('scroll',()=>{
+  const y=scrollY+innerHeight/2-document.getElementById('wrap').offsetTop;
+  let cur=0;eraSpans.forEach((sp,i)=>{if(sp._y<=y)cur=i;});
+  document.querySelectorAll('#rail button').forEach((b,i)=>b.classList.toggle('on',i===cur));
+},{passive:true});
+/* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ---- */
+let tray=[];const TRAY_MAX=5;
+function renderTray(){
+  const t=document.getElementById('tray');
+  t.classList.toggle('on',tray.length>0);
+  document.getElementById('traychips').innerHTML=tray.map(id=>{
+    const m=byId[id];
+    return `<span class="tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)} from the table">×</button></span>`;
+  }).join(" ");
+}
+function launch(ids,mode){location.href=LIVE_APP_URL+'/?worlds='+ids.join(',')+'&mode='+mode;}
+document.getElementById('tray').addEventListener('click',ev=>{
+  const rm=ev.target.closest('[data-rm]');
+  if(rm){tray=tray.filter(x=>x!==rm.dataset.rm);renderTray();return;}
+  if(ev.target.id==='go'&&tray.length)launch(tray,tray.length>1?'table':'interview');
+});
+sheet.addEventListener('click',ev=>{
+  const a=ev.target.closest('[data-act]');if(!a)return;
+  if(a.dataset.act==='interview'){launch([a.dataset.aid],'interview');return;}
+  if(a.dataset.act==='add'){
+    if(!tray.includes(a.dataset.aid)&&tray.length<TRAY_MAX)tray.push(a.dataset.aid);
+    renderTray();closeSheet();
+  }
+});
+const tb=document.getElementById('themeBtn');let themes=["auto","light","dark"],ti=0;
+tb.addEventListener('click',()=>{ti=(ti+1)%3;const t=themes[ti];
+  if(t==="auto")document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme',t);
+  tb.textContent="theme: "+t;layout();});
+} /* end boot */
+</script>
+</body>
+</html>
