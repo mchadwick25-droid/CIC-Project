@@ -31,6 +31,7 @@
    "dates": "70-312 CE",
    "keyEvents": [
     "Destruction of the Temple (70)",
+    "Decian persecution (250)",
     "Great Persecution begins (303)"
    ],
    "tag": "The apostles' children, under an empire that could turn on them",
@@ -47,7 +48,8 @@
    "dates": "312-451 CE",
    "keyEvents": [
     "Edict of Milan (313)",
-    "Council of Nicaea (325)"
+    "Council of Nicaea (325)",
+    "Sack of Rome by the Visigoths (410)"
    ],
    "tag": "From Constantine's revolution to Chalcedon",
    "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
@@ -62,8 +64,9 @@
    "academicName": "Late Antiquity",
    "dates": "451-622",
    "keyEvents": [
-    "Fall of the Western Empire (476)",
-    "Benedict's Rule (c. 530)"
+    "Fall of Rome (476)",
+    "Benedict's Rule (c. 530)",
+    "Justinian's Plague begins (541)"
    ],
    "tag": "The communions take their lasting shapes after Chalcedon",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
@@ -79,6 +82,7 @@
    "dates": "622-1054",
    "keyEvents": [
     "Rise of Islam (622)",
+    "Viking raid on Lindisfarne (793)",
     "Charlemagne crowned emperor (800)"
    ],
    "tag": "Christianity under new empires, from Ireland to China",
@@ -94,8 +98,9 @@
    "academicName": "The High Middle Ages",
    "dates": "1054-1300",
    "keyEvents": [
-    "East–West Schism (1054)",
-    "First Crusade (1096)"
+    "The Great Schism (1054)",
+    "First Crusade (1096)",
+    "Sack of Constantinople (1204)"
    ],
    "tag": "Reform, renewal, and the new orders",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02 (III.1→IV.22 spine question open)",
@@ -111,7 +116,8 @@
    "dates": "1300-1517",
    "keyEvents": [
     "Avignon Papacy begins (1309)",
-    "Black Death (1347–51)"
+    "Black Death (1347–51)",
+    "Western Schism (1378–1417)"
    ],
    "tag": "Crisis and devotion on the eve of reform",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
@@ -127,6 +133,7 @@
    "dates": "1517-1650",
    "keyEvents": [
     "Luther's 95 Theses (1517)",
+    "Council of Trent (1545–63)",
     "Peace of Westphalia (1648)"
    ],
    "tag": "The Western church remade - several ways at once",
@@ -142,8 +149,9 @@
    "academicName": "The Age of Enlightenment and Revival",
    "dates": "1650-1815",
    "keyEvents": [
+    "American Revolution & disestablishment (1776)",
     "First Great Awakening (1730s)",
-    "French Revolution's dechristianization (1790s)"
+    "French Revolution's dechristianization campaign (1790s)"
    ],
    "tag": "Established churches, awakened hearts",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
@@ -159,7 +167,8 @@
    "dates": "1815-1906",
    "keyEvents": [
     "Second Great Awakening (1800s–30s)",
-    "Abolition of the transatlantic slave trade (1807/1833)"
+    "Abolition of the transatlantic slave trade (1807/1833)",
+    "American Civil War (1861–65)"
    ],
    "tag": "Revival, missions, and a globalizing faith",
    "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
@@ -174,7 +183,8 @@
    "academicName": "World Christianity",
    "dates": "1906-present",
    "keyEvents": [
-    "World Council of Churches founded (1948)",
+    "Azusa Street Revival begins (1906)",
+    "World War I (1914–18)",
     "Second Vatican Council (1962–65)"
    ],
    "tag": "The center of gravity moves south and east",

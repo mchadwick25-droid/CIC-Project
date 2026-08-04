@@ -102,23 +102,33 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
    name is shown rather than inventing a redundant one), the boundary
    dates (already had), and 1-2 major historical events for orientation. */
 .erahead{position:absolute;left:0;right:0;z-index:20;pointer-events:none;padding:.3rem .8rem}
-/* max-width caps .bar to the VIEWPORT, not the canvas -- the canvas is
-   deliberately wider than the screen on narrow devices (the whole point
-   of the timeline's horizontal scroll), but .erahead{left:0;right:0}
-   stretches to match the canvas's own width. Without a cap here, .bar's
-   flex-wrap had nothing to wrap AGAINST (a flex container just grows to
-   fit one line unless something bounds it) -- caught by Playwright: the
-   bar's right edge landed at 1157px on a 390px viewport, effectively
-   invisible without scrolling right first, defeating the entire point of
-   making this content harder to miss. */
-.erahead .bar{display:flex;flex-wrap:wrap;gap:.2rem .55rem;align-items:baseline;max-width:min(92vw,640px);
-  background:color-mix(in srgb, var(--bg) 82%, transparent);border:1px solid var(--line);
-  border-radius:0;padding:.25rem .6rem}
-.erahead .no{font-size:.66rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
-.erahead .title{font-size:.7rem;font-weight:700}
-.erahead .academic{font-size:.66rem;font-style:italic;color:var(--muted)}
-.erahead .dates{font-size:.66rem;color:var(--muted)}
-.erahead .events{font-size:.64rem;color:var(--muted)}
+/* width -- not max-width -- pinned to the VIEWPORT (vw), not the canvas:
+   the canvas is deliberately wider than the screen on narrow devices (the
+   whole point of the timeline's horizontal scroll), but
+   .erahead{left:0;right:0} stretches to match the canvas's own width.
+   Without a vw-based bound here, .bar's flex-wrap had nothing to wrap
+   AGAINST (a flex container just grows to fit one line unless something
+   bounds it) -- caught by Playwright: the bar's right edge landed at
+   1157px on a 390px viewport, invisible without scrolling right first.
+   96vw (not 100vw) leaves a sliver of breathing room on both edges; the
+   extra -64px reserves room for #railWrap (fixed at the right edge, ~52px
+   wide) -- without it the bar rendered UNDER the rail on mobile at
+   z-index:20 vs the rail's 35, silently hiding whatever text landed
+   behind it (real, caught by bounding-box check, not by eye -- x-ranges
+   overlapped even though the two were built to never collide vertically).
+   Mark, 2026-08-04 (second pass): "the text is too small... stretch the
+   era bars across the entire width" -- the first version capped at 640px
+   even on wide desktop screens and kept font sizes matched to the old
+   corner pill; widened to fill the viewport and every size below bumped
+   up accordingly. */
+.erahead .bar{display:flex;flex-wrap:wrap;gap:.35rem 1rem;align-items:baseline;width:calc(96vw - 64px);
+  background:color-mix(in srgb, var(--bg) 88%, transparent);border:1px solid var(--line);
+  border-radius:0;padding:.5rem .9rem}
+.erahead .no{font-size:.95rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
+.erahead .title{font-size:1.25rem;font-weight:700}
+.erahead .academic{font-size:1rem;font-style:italic;color:var(--muted)}
+.erahead .dates{font-size:1rem;color:var(--muted)}
+.erahead .events{font-size:.95rem;color:var(--muted)}
 #canvas{position:relative}
 #art{position:absolute;inset:0;width:100%;height:100%;z-index:2}
 #art path.thread{fill:none;stroke:var(--thread);stroke-width:2.5;opacity:.92;pointer-events:stroke}
@@ -480,7 +490,16 @@ let rows=[],eraSpans=[];
 const lastRowStartingBy=y=>{let r=0;rows.forEach(m=>{if(m.start<=y)r=Math.max(r,m._row);});return r;};
 
 const canvas=document.getElementById('canvas'),art=document.getElementById('art');
-const RH=()=>innerWidth<700?54:60, HEAD=8, ERA_PAD=34;
+/* HEAD reserves the vertical clearance between an era's top and its first
+   row of movement boxes, for the era header bar to sit in without
+   overlapping them. Was a fixed 8px sized for the old one-line corner
+   pill; the bigger, full-width, 3-events-per-era bar (Mark, 2026-08-04,
+   second accessibility pass) measured up to 82px tall on desktop and
+   195px on mobile (more events wrap onto more lines at narrower widths) --
+   made responsive, same pattern as RH, with real headroom above the
+   measured worst case rather than an exact fit that breaks the next time
+   an era's content gets one line longer. */
+const RH=()=>innerWidth<700?54:60, HEAD=()=>innerWidth<700?230:110, ERA_PAD=34;
 let NW=0;
 
 /* which eras is a movement alive in? (years parsed from the era date strings) */
@@ -490,7 +509,7 @@ const eraIndexOf=m=>eraSpans.findIndex(s=>m._row>=s.r0&&m._row<s.r1);
 let anchors=[];
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
-  const viewW=Math.max(320,document.documentElement.clientWidth), rh=RH();
+  const viewW=Math.max(320,document.documentElement.clientWidth), rh=RH(), head=HEAD();
   NW=Math.min(150,Math.max(96,viewW*0.26));
   const TWb=viewW<700?8:20, GAPb=viewW<700?4:12;
   window.__TW=TWb;
@@ -584,10 +603,20 @@ function layout(){
   if(subEl)subEl.textContent=W>viewW
     ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
     :`era-scoped straight tails fit this screen at full size — one era straddled at most, then the stream hands off`;
-  let html="",totalH=0;
+  let html="",totalH=0,cursorY=0;
+  /* cursorY accumulates each era's OWN rendered height (rows + ERA_PAD +
+     head) rather than recomputing from row-count alone (Mark, 2026-08-04,
+     second accessibility pass -- "text is too small... stretch across
+     the entire width"): the old `s.r0*rh + ERA_PAD*index` formula never
+     added up each PRECEDING era's own header-clearance space, so era N's
+     header bar (now much taller -- more events, bigger font, full width)
+     started before era N-1's own last row had actually finished, and
+     overlapped it. Caught by Playwright bounding-box intersection, not by
+     eye -- 12 real node/bar overlaps on desktop alone before this fix. */
   eraSpans.forEach(s=>{
-    const y=s.r0*rh+(s.r0?ERA_PAD*eraSpans.indexOf(s):0);
-    s._y=y;const h=(s.r1-s.r0)*rh+ERA_PAD+HEAD;
+    const y=cursorY;
+    s._y=y;const h=(s.r1-s.r0)*rh+ERA_PAD+head;
+    cursorY=y+h;
     html+=`<div class="eraband" style="position:absolute;left:0;right:0;top:${y}px;height:${h}px;
       background:var(--era${s.era.num});border-top:1px solid var(--gold)"></div>`;
     {
@@ -601,7 +630,7 @@ function layout(){
   });
   rows.forEach(m=>{
     const s=eraSpans.find(sp=>m._row>=sp.r0&&m._row<sp.r1);
-    m._y=s._y+HEAD+ERA_PAD+(m._row-s.r0)*rh;
+    m._y=s._y+head+ERA_PAD+(m._row-s.r0)*rh;
   });
   rows.forEach(m=>{
     const st=ST(m),f=m._fam,c=famColor(f);
