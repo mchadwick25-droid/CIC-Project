@@ -710,12 +710,20 @@ const laneOn=k=>BRIDGE_PARENTS[k]?BRIDGE_PARENTS[k].some(p=>!laneOff.has(p)):!la
    give it its own full band, same as Catholic or Orthodox, and let the
    lineage live in the description text instead. Meanwhile "Other" retired
    outright -- it was a grab-bag built to also solve "isolate Africa," which
-   the new, independent Region toggle (2026-08-04) now does honestly. What's
-   left (Syriac East, Africa) are each real families in their own right, not
-   leftovers, and got named as such; only Origin (pre-lane) and Cross-Family
-   (genuinely spans more than one family) had no honest single-confession
-   label to give, so they share a small, plainly-named band instead of a
-   forced one. */
+   the new, independent Region toggle (2026-08-04) now does honestly.
+   First pass gave Syriac East AND Africa each their own named band; a
+   follow-up check ("do we need both the syriac and african plus the same
+   regional") found the two aren't the same case -- 23 of Africa's 25
+   entries are ALSO region-tagged Africa (near-total overlap, genuinely
+   redundant with the Region toggle), while barely half of Syriac East's
+   17 entries are even region-tagged Middle East, the rest scattered
+   across Asia/Mediterranean/Africa/Global via the Church of the East's
+   spread -- a lineage Region alone can't isolate. So Syriac Christianity
+   kept its own band; Africa's band was retired and folded back into the
+   residual "No Single Confession" group alongside Origin (pre-lane, too
+   early for any of these families to exist yet) and Cross-Family
+   (genuinely spans more than one) -- each explained by name in the
+   description rather than hidden behind a vague label. */
 const CATS=[
  {id:'catholic',    lbl:'Catholic',   members:[5],      bridges:[5.5],
   desc:'The Latin West — Rome and the churches in communion with it.'},
@@ -726,11 +734,9 @@ const CATS=[
  {id:'pentecostal', lbl:'Pentecostal & Global Revival', members:[7], bridges:[],
   desc:'The 20th-century global revival wave, from the Holiness movement and Azusa Street onward — grew out of the Protestant & Evangelical line, but its own family here, not a subheading under it.'},
  {id:'syriac',      lbl:'Syriac Christianity', members:[1], bridges:[1.5],
-  desc:'The Church of the East and Syriac Orthodoxy — its own ancient family, not a leftover.'},
- {id:'africa_fam',  lbl:'African Christianity', members:[4], bridges:[],
-  desc:'Coptic and Ethiopian Orthodoxy, Nubian Christianity, and the African-founded movements that followed — its own line, not one confession, not a catch-all.'},
- {id:'ancient',     lbl:'Ancient & Cross-Family', members:[0,50], bridges:[],
-  desc:'The earliest pre-lane movements, before any of these families existed, plus traditions that genuinely cut across more than one family.'},
+  desc:'The Church of the East and Syriac Orthodoxy — its own ancient family, not a leftover. Kept as its own band: less than half its entries are even region-tagged Middle East, since the line spread across Persia, Central Asia, and China — a lineage the Region toggle alone can’t isolate.'},
+ {id:'ungrouped',   lbl:'No Single Confession', members:[0,4,50], bridges:[],
+  desc:'Origin (the earliest movements, before any of these families existed) and Cross-Family (traditions spanning more than one) don’t reduce to one confession by nature. Africa does have a real, distinct line of its own — Coptic, Ethiopian, and Nubian Orthodoxy plus the African-founded movements that followed — but 23 of its 25 entries are already the Region toggle’s "Africa" almost one-for-one, so it’s listed here rather than given a duplicate top-level band; use Region to isolate it.'},
  {id:'outside',     lbl:'Outside',    members:[80],     bridges:[],
   desc:'Traditions outside the Nicene consensus this project builds from — included on the map, marked plainly as outside the floor.'}
 ];
