@@ -57,6 +57,10 @@ header.bar button{margin-left:auto;font:inherit;font-size:.64rem;background:none
 #legend button.catbtn{font-weight:700;color:var(--ink);letter-spacing:.08em}
 #legend button.catbtn.mixed{opacity:.7}
 #legend button.catbtn.off{opacity:.35}
+#legend button.allbtn{font-weight:700;color:var(--ink);letter-spacing:.08em;
+  border:1px solid var(--line);border-radius:999px;padding:.18rem .6rem;margin-right:.2rem}
+#legend button.allbtn:hover{border-color:var(--gold)}
+#legend button.allbtn.current{opacity:.4;cursor:default}
 #legend i{width:9px;height:9px;border-radius:0;display:inline-block;transition:opacity .15s}
 #legend button.off i{opacity:.3}
 body.lanefiltering .node:not(.lane-on){opacity:.13}
@@ -659,7 +663,14 @@ function drawArt(W,H,rh){
 /* ---- lane toggle: default all on; click a legend swatch to isolate/exclude
    families -- multi-select, not radio. Bridge lanes (the .5 families, each
    spanning two named families) aren't independently toggled: a bridge shows
-   as ON whenever EITHER of its two parents is on, OFF only when both are. */
+   as ON whenever EITHER of its two parents is on, OFF only when both are.
+   Solo behavior (Mark, 2026-08-04): "if i want to look at Africa, i have to
+   turn all the others off" -- with everything on, clicking any one target
+   (a lane or a whole category) now SOLOS it: everything else turns off,
+   only that target stays on. From there, clicking further targets ADDS
+   them to the active set (or drops a currently-on one) rather than
+   re-soloing -- so you build up a selection one click at a time instead of
+   fighting the full set. An "All" button clears back to everything on. */
 const BRIDGE_PARENTS={1.5:[1,6],3.5:[3,5],5.5:[5,6]};
 let laneOff=new Set(urlState.laneoff);
 const laneOn=k=>BRIDGE_PARENTS[k]?BRIDGE_PARENTS[k].some(p=>!laneOff.has(p)):!laneOff.has(k);
@@ -706,9 +717,13 @@ function applyLaneToggle(){
     b.classList.toggle('mixed',onCount>0&&onCount<cat.members.length);
     b.setAttribute('aria-pressed',String(onCount===cat.members.length));
   });
+  const allBtn=document.getElementById('laneAll');
+  allBtn.classList.toggle('current', laneOff.size===0);
+  allBtn.setAttribute('aria-pressed', String(laneOff.size===0));
   updateFilterCount();
 }
 document.getElementById('legend').innerHTML=
+  `<button type="button" id="laneAll" class="allbtn" aria-pressed="true">All</button>`+
   CATS.map(cat=>{
     const lanes=[...cat.members,...cat.bridges].map(k=>FAM.find(f=>f.k===k));
     const laneHtml=lanes.map(f=>{
@@ -718,20 +733,30 @@ document.getElementById('legend').innerHTML=
     }).join("");
     return `<div class="lanegroup"><button type="button" class="catbtn" data-cat="${cat.id}" aria-pressed="true">${cat.lbl}</button>${laneHtml}</div>`;
   }).join("");
+const ALL_LANE_KEYS=FAM.filter(f=>!BRIDGE_PARENTS[f.k]).map(f=>f.k);
+function toggleLaneTarget(memberKeys){
+  if(laneOff.size===0){
+    laneOff=new Set(ALL_LANE_KEYS.filter(k=>!memberKeys.includes(k)));
+  }else if(memberKeys.every(k=>!laneOff.has(k))){
+    memberKeys.forEach(k=>laneOff.add(k));
+  }else{
+    memberKeys.forEach(k=>laneOff.delete(k));
+  }
+  applyLaneToggle();syncURL();
+}
 document.querySelectorAll('#legend button[data-k]:not(.bridge)').forEach(b=>{
-  b.addEventListener('click',()=>{
-    const k=+b.dataset.k;
-    if(laneOff.has(k))laneOff.delete(k);else laneOff.add(k);
-    applyLaneToggle();syncURL();
-  });
+  b.addEventListener('click',()=>toggleLaneTarget([+b.dataset.k]));
 });
 document.querySelectorAll('#legend button.catbtn').forEach(b=>{
   b.addEventListener('click',()=>{
     const cat=CATS.find(c=>c.id===b.dataset.cat);
-    const allOn=cat.members.every(k=>!laneOff.has(k));
-    cat.members.forEach(k=>{allOn?laneOff.add(k):laneOff.delete(k);});
-    applyLaneToggle();syncURL();
+    toggleLaneTarget(cat.members);
   });
+});
+document.getElementById('laneAll').addEventListener('click',()=>{
+  if(laneOff.size===0)return;
+  laneOff=new Set();
+  applyLaneToggle();syncURL();
 });
 /* ---- streams: opt-in lineage clusters (Mark, 2026-08-03) -- "if its
    highlighting a single box then its not helping, if it is highligthing a
