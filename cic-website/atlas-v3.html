@@ -700,17 +700,38 @@ const laneOn=k=>BRIDGE_PARENTS[k]?BRIDGE_PARENTS[k].some(p=>!laneOff.has(p)):!la
    2026-08-03) -- "most users will think in those terms." The chart's own
    13 lanes/colors are untouched; this is an organizing meta-layer over the
    toggle UI. Each bridge lane is listed once, under its first parent's
-   category, rather than duplicated under both. */
+   category, rather than duplicated under both.
+   Relabeled 2026-08-04: the old "Protestant" band silently combined
+   Reformation-era Protestantism with the 20th-century Pentecostal/global-
+   revival wave -- checked the census's own edges and found only ONE
+   connection between them ("Holiness Movement formed Azusa Street"), every
+   lane-7 entry starting 1904+. Genealogically a wave, not a sibling
+   confession, but Mark's call: don't force a parent/child nesting either --
+   give it its own full band, same as Catholic or Orthodox, and let the
+   lineage live in the description text instead. Meanwhile "Other" retired
+   outright -- it was a grab-bag built to also solve "isolate Africa," which
+   the new, independent Region toggle (2026-08-04) now does honestly. What's
+   left (Syriac East, Africa) are each real families in their own right, not
+   leftovers, and got named as such; only Origin (pre-lane) and Cross-Family
+   (genuinely spans more than one family) had no honest single-confession
+   label to give, so they share a small, plainly-named band instead of a
+   forced one. */
 const CATS=[
- {id:'catholic',   lbl:'Catholic',   members:[5],      bridges:[5.5],
+ {id:'catholic',    lbl:'Catholic',   members:[5],      bridges:[5.5],
   desc:'The Latin West — Rome and the churches in communion with it.'},
- {id:'orthodox',   lbl:'Orthodox',   members:[3,2],    bridges:[3.5],
+ {id:'orthodox',    lbl:'Orthodox',   members:[3,2],    bridges:[3.5],
   desc:'The Greek East and the Caucasus — Eastern Orthodoxy and its neighboring communions.'},
- {id:'protestant', lbl:'Protestant', members:[6,7],    bridges:[],
-  desc:'The Reformation churches and their revival/Pentecostal descendants.'},
- {id:'other',      lbl:'Other',      members:[0,1,4,50], bridges:[1.5],
-  desc:'Everything that doesn’t fit the three main Western families: the earliest pre-lane movements, the Syriac East & Asia, Africa, and traditions that cut across more than one family.'},
- {id:'outside',    lbl:'Outside',    members:[80],     bridges:[],
+ {id:'protestant',  lbl:'Protestant & Evangelical', members:[6], bridges:[],
+  desc:'The Reformation churches and their evangelical descendants.'},
+ {id:'pentecostal', lbl:'Pentecostal & Global Revival', members:[7], bridges:[],
+  desc:'The 20th-century global revival wave, from the Holiness movement and Azusa Street onward — grew out of the Protestant & Evangelical line, but its own family here, not a subheading under it.'},
+ {id:'syriac',      lbl:'Syriac Christianity', members:[1], bridges:[1.5],
+  desc:'The Church of the East and Syriac Orthodoxy — its own ancient family, not a leftover.'},
+ {id:'africa_fam',  lbl:'African Christianity', members:[4], bridges:[],
+  desc:'Coptic and Ethiopian Orthodoxy, Nubian Christianity, and the African-founded movements that followed — its own line, not one confession, not a catch-all.'},
+ {id:'ancient',     lbl:'Ancient & Cross-Family', members:[0,50], bridges:[],
+  desc:'The earliest pre-lane movements, before any of these families existed, plus traditions that genuinely cut across more than one family.'},
+ {id:'outside',     lbl:'Outside',    members:[80],     bridges:[],
   desc:'Traditions outside the Nicene consensus this project builds from — included on the map, marked plainly as outside the floor.'}
 ];
 function applyLaneToggle(){
@@ -941,8 +962,8 @@ document.getElementById('regionAll').addEventListener('click',()=>{
    won't already know -- this spells each one out in a plain sentence. */
 document.getElementById('glossary').innerHTML=
   `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories, regions &amp; streams</b>
-   <p style="margin:.4rem 0 .2rem">The header toggles group the map three ways, independent of each other. <b>Categories</b> gather
-   the 13 colored lanes into five familiar families:</p>
+   <p style="margin:.4rem 0 .2rem">The header toggles group the map three ways, independent of each other. <b>Categories</b> name
+   the 13 colored lanes honestly — real confessional families where one applies, plainly labeled otherwise, never forced into a leftover "Other":</p>
    <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
    ${CATS.map(c=>`<dt style="font-weight:700">${esc(c.lbl)}</dt><dd style="margin:0">${esc(c.desc)}</dd>`).join('')}
    </dl>
