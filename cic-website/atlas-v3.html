@@ -973,6 +973,13 @@ function openSheet(id){
   const statusDetail=DATA.statusMeta&&DATA.statusMeta[m.status]?DATA.statusMeta[m.status].description:"";
   h+=`<h4>Status</h4><div class="stline"><b>${plainLabel}</b> ${esc(statusDetail)}</div>`;
   document.getElementById('sheetBody').innerHTML=h;
+  /* A newly-opened entry must always start scrolled to the top -- #sheet
+     itself is the overflow-y:auto container, and without this it silently
+     kept whatever scroll position the PREVIOUS entry was left at (most
+     noticeable clicking a short entry right after a long one: it opens
+     already scrolled past the header, looking broken). Set before the
+     sheet becomes visible so there's no flash of the wrong position. */
+  sheet.scrollTop=0;
   sheet.removeAttribute('inert');
   sheet.classList.add('on');scrim.classList.add('on');
   sheet.focus();
