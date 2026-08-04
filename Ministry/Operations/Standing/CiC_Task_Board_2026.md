@@ -187,6 +187,29 @@ check of the real Living Table build in a running conversation — see LT-1.
         remap of 22 founder-prophet-marked entries (Construction Framework side, owner
         TBD, not this thread's job). Full account: Decision Log, 2026-08-02 (Pass 2
         entries, six of them) and `Sync-Report_2026-08-02_Atlas-v3-Pass-2.md`.
+      - **SH-4/SH-6 — SHIPPED TO MAIN 2026-08-04.** Mark's direct call, given the
+        Task Board sync below: ship what's built now (a better pilot environment than
+        the old card atlas even without Era 10) rather than hold for next week.
+        Merged/shipped in commits `8673bef`/`f4f2c78`/`b9daf1b` — `atlas.html` now
+        redirects to `atlas-v3.html`, all site nav repointed. **Real gap found and
+        fixed in the same pass:** the live production domain was still serving the
+        old page after the push — confirmed directly (`atlas-v3.html` 404, `atlas.html`
+        returning a cached old title, `cf-cache-status: HIT` on a `max-age=0` response)
+        rather than assumed fixed once the code was pushed. Traced to a genuine
+        Cloudflare edge-caching gap (edge cache was honoring `HIT` despite the
+        page's own `must-revalidate` header) and closed with a new `cic-website/
+        _headers` file forcing `no-store` on HTML/data and a short, safe TTL on
+        static assets (`f4aa761`) — **deliberately not a long/immutable cache**,
+        since the site's own images/CSS are hand-edited in place under unhashed
+        filenames (`assets/style.css` etc.), so a long cache there would just
+        relocate the same staleness bug from HTML to CSS. **Still open at sync
+        time:** the production domain had not yet picked up either push after
+        several direct re-checks — most likely normal Cloudflare Pages build/
+        propagation lag, but worth Mark confirming the deploy actually succeeded
+        (Cloudflare dashboard → the Pages project → Deployments) rather than
+        assuming it will resolve on its own. Era 10 still explicitly held for next
+        week per the standing living-era-addendum gate — this ship does not change
+        that. Full account: System Hub Decision Log, 2026-08-04.
       - **SH-4/SH-6 — SYNC 2026-08-03 (Pass 3 + Pass 4): the atlas is built, named, and
         shipped — live only on the branch, not yet merged to `main`.** Pulled directly
         from the branch (`claude/christian-traditions-atlas-v3-x2egp6`, HEAD `9effa74`
