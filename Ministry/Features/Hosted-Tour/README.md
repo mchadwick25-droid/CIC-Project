@@ -1,10 +1,22 @@
 # Hosted Tour (Phase One)
 
-> **Status: Descoped to Phase 2+ (2026-07-22).** Per Mark's direct decision, tour
-> work is out of the current build cycle — not part of this launch. Everything
-> below is kept as an accurate historical/status record of what was built and
-> designed; it is not being touched, and no further tour integration proceeds
-> until this is explicitly reprioritized.
+> **Status: SUPERSEDED (2026-08-03).** This demo's whole premise — the
+> Representative hosting a participant live, inside an encounter, with the
+> product's caption-strip UI layered around that live narration — was built
+> around the same live-hosted assumption Tours is now being rebuilt away
+> from. See `Tour-Experience-Module-Phase2/README.md` and
+> `Front-End-Integration-Strategy/CiC_FrontEnd_Decision_Log.md` (2026-08-03
+> entry) for the full reasoning. **Nothing here is deleted** — the stop-by-
+> stop source-cartouche pattern (citation + tier + confidence, hover-short/
+> click-full), the "what we cannot show you" honest-decline stop, and the
+> parchment/ink/gold presentation conventions are real, reusable design work
+> that a fully-authored, map-launched tour can likely still use; they need
+> re-fitting to a no-live-generation, no-live-encounter-gate premise, not
+> assuming the demo's flow still applies as built.
+>
+> **Superseded the following, kept below as historical record:** the
+> 2026-07-22 "Descoped to Phase 2+" status (tour work was already on hold;
+> this supersedes *why* it's on hold, not just confirms the hold).
 
 **What this is:** a built, self-contained immersive demo — the Representative walks a
 participant through a reconstructed moment of their world (a gathering, a shared

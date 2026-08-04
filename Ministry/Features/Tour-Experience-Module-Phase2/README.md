@@ -1,11 +1,31 @@
 # Tour Experience Module (Phase Two)
 
-> **Status: Descoped to Phase 2+ (2026-07-22).** Per Mark's direct decision, tour
-> work is out of the current build cycle — not part of this launch. This was
-> already a Phase Two, pre-build planning concept; this banner confirms that
-> gating explicitly and applies it across the whole project, not just this
-> folder. Everything below is kept as-is — accurate planning/status record, not
-> something to rewrite.
+> **Status: SUPERSEDED (2026-08-03).** This entire design — Strategy V0.3, the
+> L4 Tour Manifest Template, the Build Spec, the Eligibility Gate — was built
+> around live-hosted-inside-an-encounter as its load-bearing assumption
+> ("the Representative's presence throughout is the product," same cost class
+> as ordinary conversation). Mark's own call: rebuild Tours from a
+> token-free, map-launched, fully-authored premise instead of retrofitting
+> this design — see `CiC_FrontEnd_Decision_Log.md`, 2026-08-03 entry, for the
+> full reasoning. **Nothing here is deleted** — the per-world evidentiary
+> analysis (§3), the evidentiary discipline (Class A/B, No Tier 5, the
+> refused-composite rule), and the Chloe demonstration's source-cartouche
+> pattern remain real, reusable research; they need re-deriving under the new
+> premises, not assuming they still hold as-is. The fresh-start brief is at
+> `Launch-Prompts/CiC_Tour_Redesign_Thread_Launch_2026-08-03.md`.
+>
+> **Superseded the following, kept below as historical record:** the
+> 2026-07-22 "Descoped to Phase 2+" status (tour work was already on hold;
+> this supersedes *why* it's on hold, not just confirms the hold).
+>
+> **Active work, same day (2026-08-03):** the redesign was carried through a
+> full worked shape-proof (`CiC_Tour_PAHC_Worship_Service_Shape_Proof_2026-08-03.md`)
+> and a comparator research memo (`CiC_Tour_Comparator_Research_2026-08-03.md`)
+> before moving to its own dedicated build thread —
+> `Launch-Prompts/CiC_Tour_First_Build_Thread_Launch_2026-08-03.md` — tasked
+> with actually producing the first tour, targeting Tier 3 (disciplined,
+> photorealistic 3D reconstruction, no generative AI) as a deliberate
+> learning project, per Mark's own direction.
 
 **What this is:** an unbuilt Phase Two product concept — a broader "hosted
 experience" mode design, distinct from and later-stage than `Hosted-Tour/`'s Phase

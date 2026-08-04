@@ -4,7 +4,172 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
-## 2026-07-28 (latest) — v3 Atlas/Repository named as the next big project, after the current wave; scope and cost model clarified, wiring deliberately deferred
+## 2026-08-03 (later still, same day, #8) — Tours moves to its own build thread; first tour targets Tier 3 visual quality as a deliberate learning project
+
+**Decided:** rather than continue Tours planning inline in this session (which needs to return to the Atlas content pass), a dedicated build thread is launched to actually produce the first tour — text, visuals, audio — not just more planning. Seed: `Tour-Experience-Module-Phase2/Launch-Prompts/CiC_Tour_First_Build_Thread_Launch_2026-08-03.md`, distinct from the earlier same-day planning-only redesign launch prompt.
+
+**Scope, per Mark's own framing:** the first tour's visual layer targets **Tier 3** (disciplined, photorealistically-rendered 3D reconstruction, the Rome Reborn model — every element sourced, no generative AI) rather than the Tier 1 static-photography default this thread had recommended for a first pass. Mark's own reasoning: *"this is all a learning experience for me to build my skills so using new tools is part of the value."* Honored directly rather than downgraded to the "safer" recommendation — the new thread is briefed to teach tool setup and choices as it works, not just execute and hand over a finished asset.
+
+**What carries forward unchanged:** every evidentiary rule from the day's seven prior entries (Facilitator-hosts, three-voice structure, observer-not-participant, two thresholds, Williamsburg-shaped honesty, one-time audio production, no generative AI imagery at any stage — Tier 3's legitimacy rests entirely on that last rule: a disciplined 3D model with a named source per element is auditable the way an AI-generated image never is).
+
+**Next action:** the build thread reads all eight of today's log entries plus the shape-proof and comparator research before touching any tooling, confirms what 3D/rendering environment is actually available before assuming a workflow, and scopes realistically — a single well-sourced room beats an ambitious multi-scene build padded with guesses.
+
+---
+
+## 2026-08-03 (later still, same day, #7) — Clarified: voice/audio is a one-time cost only if produced at construction time, never generated live per session
+
+**Mark's question:** *"so if we add voice will that be a onetime cost."*
+
+**Answered: yes, but only if produced the same way the text is — once, during construction, reviewed, and served as a static audio file afterward.** That's architecturally identical to the text-authoring model already decided today and to the Level 2/3 pre-rendered cost architecture (2026-07-28 entry): serving a static file to one participant or a hundred thousand costs the same. **The trap to name explicitly, since it's easy to build the wrong way by accident: live text-to-speech generated fresh per participant session is a recurring cost, not a one-time one** — even a cheap TTS call, if it fires at runtime instead of at construction time, reintroduces the exact per-participant scaling problem this whole redesign exists to remove. Voice has to be baked in once, never called live.
+
+**Where it would actually go, per the audio policy already on the books from before this restart (still valid, not reopened here):** not everywhere — audio reserved for moments where the source itself was a genuine spoken performance ("a teaching being given, singing/recitation"). For the PAHC shape-proof specifically, the letter reading (Beat 3) is the natural first candidate; narration elsewhere stays text, matching the standing "whatever meets the need and is cheapest" rule.
+
+**Next action:** none required now — this is a clarification of an already-sound architecture, not a new build item. Worth the redesign thread having it stated plainly so audio, if and when it's added, isn't accidentally implemented as a live call.
+
+---
+
+## 2026-08-03 (later still, same day, #6) — Shape-proof drafted (PAHC worship service); settled: the participant observes, never participates in what's depicted
+
+**Produced:** `Tour-Experience-Module-Phase2/CiC_Tour_PAHC_Worship_Service_Shape_Proof_2026-08-03.md` — a full worked draft of "Experience a Worship Service" (PAHC/Chloe, anchored on `pahcstory006`, Justin's *First Apology* 65–67), testing every decision logged today against real content, the same shape-proof discipline Guided Questions used before its own fill.
+
+**A factual correction surfaced while scripting, worth recording since it shapes the draft:** Mark asked what a typical shared meal would include. Justin's own account — the flagship Class A source — doesn't describe a full communal supper at all; by his own telling, Rome's Sunday gathering by c. 155 CE centers on reading, prayer, and a compact bread-and-wine rite, not the fuller shared meal reflected earlier in Paul's account of Corinth. Other communities in the same movement kept a fuller meal (the Didache's tradition), but this project's own record already treats that as a separate, non-mergeable practice (the diversity-first rule). Scripted faithful to what Justin actually says — no invented meal — with the fill-density density Mark asked for placed entirely into the one meal-adjacent moment his account genuinely gives: the bread and the cup.
+
+**Mid-draft correction from Mark, now a hard rule for every future tour, not just this one:** *"its experiences as an observer, not a participant."* The first pass of Beats 1 and 5 wrote the participant as an active member of the gathering — welcomed as a guest arriving to share the meal, bread "pressed into your hand." Corrected: the participant stands where Chloe places them and watches. **This is not only a pacing choice — it's a real boundary the project should keep regardless of any single tour's content: simulating a participant personally receiving a sacrament through an AI-mediated experience is not something to stage**, however well the surrounding scene is sourced. Watching a real community do something for each other is a different, honest posture, and it belongs in the redesign thread's governing rules, checked against every future tour's beats, not left as something this one draft happened to get right.
+
+**Added the same session, per Mark's follow-up:** the diversity point above (Rome's compact rite versus Corinth's fuller meal) is now spoken explicitly by the Facilitator inside the draft itself, as a brief aside opening Beat 5 — not left as a construction-note margin comment. Placed there deliberately: it's where a participant would naturally wonder "wasn't there a meal?", not at the threshold where it would be forgotten by the time the question arises. Framed carefully to avoid overclaiming: Corinth's fuller meal is *earlier* (Paul's own letters, mid-first century) rather than asserted as a contemporary alternative practice at Justin's own moment, since that specific claim isn't something this draft has evidence for.
+
+**Next action:** the redesign thread (Fable, next week) reads this shape-proof alongside the six other same-day log entries before drafting the formal Tour Manifest template — three open construction questions are named in the draft itself (the letter candidate between Ignatius and 1 Clement; verifying every quotation against a real edition; pacing) and should not be resolved informally before then.
+
+---
+
+## 2026-08-03 (later still, same day, #5) — Correction: honesty is Williamsburg-shaped — a museum-label caption, not a repeated disclaimer
+
+**Corrects the visual-policy entry immediately below**, which called for "a persistent caption attached to the image itself, every time it's shown" — right instinct, wrong texture. As written it could be read (and built) as a recurring interruption, which is not what was meant and not what the discipline actually needs.
+
+**Mark's correction:** *"lets not get carried away with this, think williamsburg virginia, it sets a scene, but the actors don't always say this is a simulation."* Right, and it clarifies that this project's honesty discipline has two different jobs that shouldn't be collapsed into one:
+
+**Decided: narrated honesty happens once, warmly, at the Facilitator's threshold — never repeated inside a scene to disclaim it.** Once a scene begins, nobody breaks character. Chloe is simply there; a quoted letter is simply read; a room simply looks like a room. Immersion is the product once the frame is set, exactly as it is at an actual living-history site — the interpreters don't stop every few minutes to say "this is a reenactment."
+
+**Decided: visual honesty is carried the way a museum label carries it — small, always available if looked for, never interrupting.** Not a banner across an image, not a spoken caveat repeated on every appearance — a quiet tag using the sourcing grammar this project already has everywhere else (hover for short, click for full). Present and discoverable, out of the way of the experience.
+
+**What does not change:** the underlying rule from the entry below — real photographs only, never generated imagery; the exemplar-vs-claim distinction (Pompeii/Herculaneum as "the closest we have," not "her house") still has to be true and still has to be discoverable. What changes is only how loudly and how often it announces itself.
+
+**Next action:** rewrite the launch-prompt's visual-policy section to specify the two-register split (once-spoken threshold framing vs. quiet museum-label captioning) in place of the "persistent, every time shown" language, which reads heavier than intended.
+
+---
+
+## 2026-08-03 (later still, same day, #4) — Visual policy for tours: real, un-hedgeable images need a persistent caption, not a threshold disclaimer; a candidate named for PAHC
+
+**Refines the fill-density entry immediately below**, extending the exemplar-vs-claim distinction from text (the letter question) to images, which are a structurally harder case.
+
+**The question, and the finding it surfaces:** Mark asked whether period-typical house imagery exists for PAHC's tour. It doesn't, in this world's own record — PAHC's own Source Ecology assessment already found its window "essentially archaeologically invisible," and the one tempting candidate (the Dura-Europos house-church) is explicitly **excluded** as evidence for this world in its own signed record, being third-century Syria against Justin's second-century Rome. This isn't a gap to research further; it's an already-reached finding.
+
+**Decided: images can carry the same exemplar-vs-claim honesty move as the letter question, but the caveat must be persistent, not a once-spoken threshold disclaimer.** Mark's own framing: *"this is the closest we have to a historical record in that time, but"* — the "but" is the whole rule. Text can hedge mid-sentence and the hedge travels with the claim; an image's visual claim persists independent of anything said once at the door. **The caption has to be attached to the image itself, every time it's shown, not trusted to be remembered from the threshold.**
+
+**Decided: no generated or commissioned "reconstruction" imagery, only real photographs or excavation records of real sites.** Unchanged from the superseded design — an AI-generated "typical Roman house" manufactures unsourced visual detail by construction, which is worse than borrowing an out-of-period real site, not better. Nothing depicted should carry Christian iconography or markers, since part of the honest point is that nothing distinguished the room as a meeting place.
+
+**A real, well-founded candidate named for the PAHC case, as a research lead for the construction thread to verify — not decided here:** the excavated houses at Pompeii and Herculaneum. Better-founded than Dura-Europos ever was, because nothing about them needs to be misread as Christian — they're simply real, dated (79 CE, close to Justin's c. 150s Rome), same-region Roman domestic architecture, honestly illustrating the *kind* of ordinary home such a gathering would have used, with no claim about a specific building.
+
+**Scope, stated the same way as the textual widening:** this applies to Tours' presentation layer only, and it's world-specific — PAHC's finding (no in-record visual evidence at all) does not generalize; the Desert world already has real, registered archaeological material (the Kellia excavation findings) in its own record, a stronger evidentiary position than PAHC's "closest we have" exemplar case. The redesign thread re-answers the visual question per world, the same discipline as the textual one.
+
+**Next action:** fold the persistent-caption rule, the no-generated-imagery constraint, and the Pompeii/Herculaneum lead into the launch-prompt seed's visual-strategy section.
+
+---
+
+## 2026-08-03 (later still, same day, #3) — Fill-density rule: every attested element gets its own full beat; generic references get a real, honestly-scoped exemplar
+
+**Refines the two-threshold entry immediately below.** Mark's ask: *"i still want the service to be filled in, i want the participant to experience as much of a service as we can reconstruct. where the source describes it we experience it, then when a letter is described a part of the letter is read (Do we have an example letter) etc."*
+
+**Decided: every element a source names becomes its own full beat, not a summarizing line.** Justin's account (`pahcstory006`) names a gathering, a reading, an exhortation, standing prayer, bread and wine, thanksgiving, a collection — each is a place to stop and give the participant the thing itself, not a sentence reporting that it happened. This is the fill-density answer to the earlier warmth concern (2026-08-03, correction entry): richness comes from depth inside honestly-sourced elements, not from inventing new ones.
+
+**Answered — yes, real letters exist for the PAHC world specifically:** 1 Clement (Rome to Corinth, c. 96 CE, with documented evidence of being read aloud in Corinth's own gatherings) and Ignatius's seven letters (c. 107–117 CE, one addressed directly to Rome, with congregational reading-aloud itself an attested PAHC practice). Either is real text to excerpt, not a placeholder — flagged as a research lead for the construction thread to choose and verify, not decided here.
+
+**A precise honesty distinction, named on purpose because it's the exact class of thing this project's discipline exists to catch:** Justin's account does not name which text was read at the gathering he describes — "as long as time permits" is generic. Filling that beat with an excerpt of Clement or Ignatius makes two different claims that must stay distinguishable: (1) "a reading happened, in this shape" — Justin's own attested account, solid; (2) "here is a real letter these communities are known to have read aloud, so you can hear what such a reading actually sounded like" — an honest exemplar, not a claim this specific letter was read at this specific gathering. **This is the Facilitator's line to draw, in the moment** — a different kind of honest boundary than the outside-scholarship-insertion flag (2026-08-03, three-voice entry), but the same discipline: attested general practice, filled with a real specific example, clearly marked as an example.
+
+**Next action:** fold the fill-density rule and the exemplar-vs-claim distinction into the launch-prompt seed as an explicit design principle, with the two letter candidates named as a starting research lead.
+
+---
+
+## 2026-08-03 (later still, same day, #2) — Two thresholds, not one: the Facilitator welcomes to the tour, the Representative welcomes into the scene
+
+**Refines the three-voice entry immediately below**, answering a structural gap it left open: where exactly does "welcome" happen, now that hosting is split between the Facilitator and the Representative's bounded appearances.
+
+**Mark's prompt:** *"so if they go to a worship service its chloe that greets them into her house."* Correct, and not a reopening of the Facilitator-hosts decision — it's the missing piece that makes the three-voice structure actually work.
+
+**Decided: two distinct thresholds, not one, and they must not collapse into each other.**
+- **The Facilitator's threshold is a welcome to the *experience*.** Before the scene starts: what this tour is, what it's built from, what it will not claim, how to leave at any point. This is the same threshold role the Facilitator already plays at a live table, applied to a tour instead.
+- **The Representative's welcome, where a scene's own content calls for it, is part of the scene itself — not the Facilitator performing hospitality on her behalf.** A hostess greeting a guest at her own gathering is within Chloe's own attested character and her world's own sourcing (PAHC's hospitality register). It costs nothing against her hard rule (2026-08-03, three-voice entry) because a greeting at her own door needs no outside scholarship to be honest. It would be actively wrong for the Facilitator to narrate "Chloe welcomes you" from outside when Chloe herself, in bound voice, can simply do it.
+
+**Generalized as a rule for the redesign thread, not left as a PAHC-only fix:** any scene where the Representative's own presence and speech is natural and sourced — a welcome, a teaching, a blessing, whatever the scene itself calls for — belongs to her, in bound voice, as content. This is distinct from, and does not reopen, the Facilitator's role as host of the tour-as-experience.
+
+**Why this resolves the warmth concern flagged in the correction entry, rather than just working around it:** the participant now gets both things at once — an honest, trustworthy orienting voice at the door of the *experience*, and a real personal welcome from the world's own voice at the door of the *scene*, exactly when it matters most. Chloe isn't hosting the tour; she's genuinely there, doing what she would naturally do.
+
+**Next action:** launch-prompt seed updated to specify two threshold beats per tour (Facilitator's experience-threshold, then the Representative's in-scene threshold where a scene's content supports it) rather than one merged welcome — this was the old Hosted-Tour demo's own "Stop 0: The Door" doing both jobs at once; the redesign should split it on purpose.
+
+---
+
+## 2026-08-03 (later still, same day) — Refined: three voices inside a Facilitator-hosted tour, with a hard rule keeping Chloe safe
+
+**Refines the correction immediately below**, which established the Facilitator as tour host but left one thing under-specified: exactly how the participant is meant to *feel* the boundary between "Chloe's own record" and "outside scholarship filling a gap," rather than just have it labeled.
+
+**Mark's own framing:** *"i think the facilitator has to be there to explain this insertion was something a secondary source developed that chloe would know nothing about. so either a warm voice of the facilitator (i think it should be anyway, they host the table) or the three of them at key moments."*
+
+**Decided: not either/or — the Facilitator is the constant warm throughline (confirmed, not just proposed: it already hosts the table in live conversation, so this isn't a new register for it to hold), and up to three distinct voices appear inside that frame at key moments:**
+
+1. **The Facilitator's own narration** — orients the scene, moves it along, and does the one job only it can do: says out loud, in the moment, when something is an outside-scholarship insertion ("historians who've studied this closely believe the room was arranged this way — though that's not something Chloe's own writings tell us"), not just a citation tag a participant could skim past.
+2. **Chloe herself, quoted or given a brief authored aside** — governed by a hard rule: **she is never allowed to speak beyond exactly the same evidentiary bound she has in live conversation.** This is the rule that makes bringing her back into the tour safe at all — if she only ever speaks from what her own record already contains, there is no version of tour-Chloe that live-conversation-Chloe could ever contradict. The entire widened primary-plus-secondary-scholarship pool belongs to the Facilitator alone; Chloe's own appearances stay exactly as narrow as they already are today.
+3. **The primary historical source, quoted directly in its own name** (Justin Martyr's own words, dated and attributed) — distinct from #2: this is the attested text itself, not the Representative's own witness relaying it.
+
+**Why three voices rather than one, stated as the actual mechanism:** the Facilitator's insertion-flagging only reads as honest, in the moment, if the participant has already heard Chloe's actual bounded voice and the primary source's actual words nearby — the contrast is what makes "this part isn't hers" legible, not an abstract disclosure rule.
+
+**Presentation consequence, named so it isn't lost:** this wants three distinct visual/textual treatments, not just three voices in the same typeface — reusing the source-cartouche pattern already designed in the superseded Hosted-Tour demo (citation + tier + confidence, hover-short/click-full). A participant should be able to tell who's speaking at a glance.
+
+**Next action:** the launch-prompt seed is updated to carry Chloe's hard rule ("never exceeds her live-conversation bound, even in a tour") as an explicit, checkable design constraint for the redesign thread, plus the three-voice structure and its presentation consequence.
+
+---
+
+## 2026-08-03 (later, same day) — Correction: tour narration voiced by the Facilitator, not by the world's own Representative
+
+**Corrects the entry immediately below** (2026-08-03, "Tours rebuilt from a token-free premise"), which recommended the world's own Representative (e.g. Chloe) narrate her own tour, with an in-voice attribution discipline ("historians tell us..." vs. "I know...") proposed to keep her honestly bounded when a beat drew on the newly-widened secondary-scholarship pool.
+
+**Mark's own reasoning for reopening it:** *"if we take this approach, we will confuse the user as in one context chloe is bound to her world, in another she is not and the confusion would be real. what if we used the facilitator to be the tour guide."* Correct, and the attribution-discipline fix from the prior entry was a real patch, not a real solution — it still asked one named character to carry two different depths of knowing in two different surfaces.
+
+**Decided: the Facilitator hosts and narrates tours; the world's own Representative is never the tour's narrating voice.** This isn't a workaround, it fits the Facilitator's existing role precisely: it is already the layer that welcomes, threshold-frames, proposes tables across worlds with sourcing reasons, and closes encounters — never itself bound to one world's evidentiary pool the way a Representative is. Drawing on primary sources plus trusted secondary/historical scholarship for a tour is already inside its established scope; nothing new has to be justified for it. This also keeps Representatives entirely in their proper role — a Representative bears witness, it was never quite right for one to also perform hosting/narrating duty, even authored and reviewed.
+
+**Decided: the Representative's own voice still appears inside a tour, but only as direct quotation of the primary source, never as the Facilitator's narrating voice and never as the Representative speaking live.** The Facilitator narrates the frame and the history; where a primary source gives real words (Justin's account, an Ephrem stanza), those words are relayed as a quotation, not performed as Chloe in character. This keeps a real taste of the specific voice inside the tour without ever putting a Representative in the position of narrating beyond her own bounds.
+
+**Open, flagged for the redesign thread rather than assumed:** confirm the Facilitator's own established register is warm rather than clinical before leaning on it for a whole hosted experience — the risk this correction accepts, named plainly, is that a Facilitator-led tour could read as more curatorial and less intimate than "being walked through Rome by someone who was there." The direct-quotation design above is the mitigation, not a guarantee; worth a real gut-check once a tour is drafted, not assumed to work from this reasoning alone.
+
+**Consequence for the boundary door:** it gets a cleaner, truer line for free — *"Now that you've seen this, would you like to go meet Chloe yourself?"* — a natural handoff from the Facilitator's existing threshold role into the live Representative, rather than a Representative handing a participant off to a paid version of herself.
+
+**Next action:** the launch-prompt seed (`Tour-Experience-Module-Phase2/Launch-Prompts/CiC_Tour_Redesign_Thread_Launch_2026-08-03.md`) is updated to reflect this correction directly, so the redesign thread starts from the Facilitator-hosted premise rather than needing to reconcile two log entries.
+
+---
+
+## 2026-08-03 (latest) — Tours rebuilt from a token-free premise; V0.3/Hosted-Tour retired as a first try, not amended; sourcing rule widened for authored (non-generated) content
+
+**What prompted this:** working through the Church in History Atlas content pass (225 of 257 census entries now carrying real narrative, sourced with the same discipline this decision applies) surfaced the same insight that shaped the 2026-07-28 Atlas/Repository decision, now pointed at Tours specifically: **the live conversation is the expensive, essential heart of this project, and everything else should exist to accompany a participant toward it, not compete with it for API budget.** As designed (`Tour-Experience-Module-Phase2/CiC_Tour_Experience_Module_Strategy_V0_3.md`), Tours are explicitly *not* that — "the Representative's presence throughout is the product," hosted inside a live encounter, same cost class as ordinary conversation. Mark's own words: *"the tour idea was a test and as we go deeper we need to rethink this to not use API tokens."*
+
+**Decided — Tours move from live-hosted-inside-an-encounter to authored-and-launched-from-the-map, with zero runtime generation:**
+- **Narration is fully written, not "bounds for live rendering."** Every beat's text is authored once, in the Representative's established voice, reviewed the same way any construction document is reviewed. The resolving insight: a Representative's presence doesn't require a live inference call — a well-written, in-character, produced line is still that Representative speaking. What's removed is only the per-participant model cost, not the voice.
+- **Launched from the Atlas/map, not gated behind starting a conversation.** A movement's entry gets a "Tour available" affordance using the exact honesty pattern the census already carries for "not yet built" — where no licensed tour exists, the Atlas says so plainly, the same absence-is-honest move, not a new refusal screen to design.
+- **Q&A becomes a small pre-written, reviewed set, not live retrieval-and-generation** — reusing the Guided Questions discipline (sets desk-checked per world, sourced, reviewed) rather than inventing a new content type, re-scoped to a tour's specific beats. Default UI: tappable pre-written questions, not a free-text box. A retrieval-only nearest-match against the written set (embeddings, no generation) is a real but later option, not the Alpha shape.
+- **The boundary door is a designed feature.** When a question falls outside the pre-written set, the tour says so plainly and offers the live, paid conversation — an honest edge pointing toward the real thing, not a chatbot pretending to be inexhaustible. This is the progressive-disclosure ladder the whole product wants: free exploration → bounded tour → full encounter.
+- **Live drift monitoring is retired for this surface specifically**, since nothing generates at runtime to monitor. The guardrail becomes the same review-gated construction-document cycle every other artifact in this project already goes through — arguably a *stronger* check than a live monitor, since a human (or a reviewed, adversarial multi-pass process — proven out at scale tonight on the Atlas) verifies every claim before anything ships, rather than trusting a real-time model to stay in bounds.
+
+**Decided — sourcing pool widens for this surface, integrity does not loosen:** because Tour content is now fully authored and reviewed rather than live-generated, "traceable evidence" for a tour beat is no longer limited to what's already packaged into a world's own approved Doc_09 story chunks. It extends to the world's primary sources directly, plus trusted secondary/historical scholarship — real historians' credentialed reconstructions — **provided every element is still traceable to something real (zero invention, unchanged) and the source *type* is disclosed at the element level**, not just at the tour level. This is a bigger input pool, not a looser bar — verified tonight as a working pattern: the Atlas content pass drew on each entry's own sourcing plus real historical knowledge and verified WebSearch, never inventing, and eight adversarial review passes checked every claim against that standard. Same discipline, now formally adopted for Tours.
+
+**Explicitly scoped, so this doesn't quietly bleed elsewhere:** this widened sourcing applies to the Tours surface only. The live conversational Representative's sourcing stays exactly as strict as it is now (Doc_09-licensed chunks only) — it is still a real-time generative surface with no per-output human review, and that is precisely why it needs the narrower, pre-packaged pool. Two different surfaces, two different — and both principled — evidentiary regimes.
+
+**Decided — start over, don't amend.** Mark's own reasoning, verbatim: *"i am afraid that there will be limitations that we don't see now. i want to start the process over from a completely new perspective that reflects what we are describing, not adjust what we did before and constantly fight a to rigid approach."* The existing Tour Experience Module (`Tour-Experience-Module-Phase2/`, Strategy V0.3 + its L4 Manifest Template + Build Spec + Eligibility Gate, ~1,500 lines) and the Hosted-Tour Phase One demo (`Hosted-Tour/`) were both designed around live-hosted-inside-an-encounter as their load-bearing architectural assumption — nearly every section of both (the manifest's "narration bounds," the overlay-on-Permanent-Prompt design, retrieval scoping, SSE stream annotations, drift monitoring as the primary guardrail) inherits from that premise. Retrofitting risks exactly what Mark named: fighting the old design's hidden assumptions one at a time instead of building cleanly from the new ones. **Both folders are marked superseded, not deleted** — this project's own standing discipline (never erase, mark and point to what replaces it) applies to its own planning history as much as to the Source Registry. All prior evidentiary analysis (the per-world verdicts in V0.3 §3, the Chloe demonstration tour's stop-by-stop source cartouche pattern) remains real, useful research — it just needs re-deriving under the new premises rather than assumed to still hold, since several verdicts (HAL's horarium, Desert's synaxis interior) were computed under the old, narrower sourcing pool and may change under the new one.
+
+**Heart of it, plain:** the fear driving this isn't cost alone — it's that a participant's *first* touch with this project should be as wide open as possible, not gated behind committing to talk to an AI. A free, honest, sourced tour launched straight from the map is a truer front door than a chatbot demo ever was, and it protects the expensive, sacred thing (the live encounter) by making sure it's reached for because someone wants it, not because it was the only way in.
+
+**Next action:** a fresh launch-prompt for the redesigned Tours thread is seeded at `Tour-Experience-Module-Phase2/Launch-Prompts/CiC_Tour_Redesign_Thread_Launch_2026-08-03.md`, carrying every premise decided above, ready to run (on Fable, per Mark's stated plan to continue this next week). No design or build work starts before Mark reacts to that brief, per the project's standing one-document-at-a-time, wait-for-confirmation discipline.
+
+---
+
+## 2026-07-28 — v3 Atlas/Repository named as the next big project, after the current wave; scope and cost model clarified, wiring deliberately deferred
 
 **What Mark asked for, verbatim (across two messages):** *"our next big project after getting this new conversation version and worlds up and running with updated backend and frontend updates to match, updated website) will be a v3 atlas/map update with deeper research and source access (not API) to give participants ways to engage without using API expenses. this is the begining of that work, plus we are upgrading and widening our accedemic resources by accessing some other accedemic databases and deeping our primary source worlds"* — then, scoped further: *"we will work with the wiring later, the first step is to build the reprository and atlas, but guess is that the world builds in the future will access the reprository to build the world, but we need to provide features that dont require ongoing participant expenses, beyond our conversation model."*
 
