@@ -1,0 +1,39 @@
+# Cloudflare Pages custom headers.
+#
+# Why this file exists: the site was observed serving different visitors
+# different page versions on the same URL right after a deploy (some got a
+# fresh copy, some got what an edge node had cached from before). The
+# default Cache-Control (public, max-age=0, must-revalidate) tells browsers
+# to revalidate every time, but Cloudflare's own edge cache was still
+# returning cf-cache-status: HIT on repeated fetches of the same HTML page -
+# confirmed directly against the live site, not assumed. no-store is a
+# stronger, unambiguous instruction: don't cache this response anywhere,
+# full stop. Static, hashed-forever assets (fonts, images) are the opposite
+# case - safe to cache hard since their filenames don't change when their
+# content does.
+#
+# If pages still serve stale after this ships, the remaining lever is a
+# Cloudflare-dashboard-level Cache Rule (Caching -> Configuration, or Rules
+# -> Page Rules) overriding origin headers - not visible or changeable from
+# this repo, needs a login to the Cloudflare account itself.
+#
+# /assets/* is deliberately NOT set to a long/immutable cache: the files in
+# there (style.css, logo-arriving.svg, portraits, world-icons) are plain,
+# unhashed filenames referenced the same way from every page - editing one
+# in place (which is exactly how this site is edited; see the README, no
+# build step) would otherwise leave returning visitors on the old version
+# for however long the cache lasts, the same bug this file exists to fix,
+# just relocated from HTML to CSS/images. A short cache still saves real
+# repeat-view bandwidth without that risk.
+
+/*.html
+  Cache-Control: no-store
+
+/
+  Cache-Control: no-store
+
+/data/*
+  Cache-Control: no-store
+
+/assets/*
+  Cache-Control: public, max-age=600, must-revalidate
