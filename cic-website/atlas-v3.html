@@ -25,11 +25,19 @@
    against a light era tint) but is close to invisible once the era
    background is ALSO dark: measured panel-vs-era contrast is ~1.06-1.09 in
    BOTH themes (never great), but light mode was quietly rescued by that
-   shadow and dark mode wasn't. Dark mode's value adds a subtle light-rgba
-   ring (0 blur, 1px spread) on top of a slightly stronger dark shadow --
-   a light edge reads against a dark background regardless of how close
-   the era's own dark tone happens to sit to --panel, which color-matched
-   borders alone can't guarantee. */
+   shadow and dark mode wasn't. Dark mode's value adds a light-rgba ring
+   on top of a slightly stronger dark shadow -- a light edge reads against
+   a dark background regardless of how close the era's own dark tone
+   happens to sit to --panel, which color-matched borders alone can't
+   guarantee. Round two (Mark, same day, on phone: "we have the same
+   problem on the phone, tertullian is an example") -- the first ring
+   (1px, 9% opacity) passed a strict luminance check but pixel-sampled a
+   real box on mobile and it rendered as a single, barely-there transition
+   pixel: technically >3:1 against the ribbon behind it, but too thin at
+   mobile's smaller box size to actually read as an edge. Widened to 1.5px
+   and raised to 22% opacity -- same mechanism, just strong enough to
+   survive small boxes and anti-aliasing rather than only a pixel-perfect
+   sample. */
 :root{
   --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;
   --gold:#83662a; --goldhi:#c9a35c; --thread:#8a6a28; --live-text:#fff;
@@ -38,12 +46,12 @@
 @media (prefers-color-scheme: dark){:root{
   --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
   --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
-  --node-shadow:0 1px 3px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.09);
+  --node-shadow:0 1px 3px rgba(0,0,0,.5), 0 0 0 1.5px rgba(255,255,255,.22);
 }}
 :root[data-theme="dark"]{
   --bg:#1d1811; --panel:#262017; --ink:#e9dfc7; --muted:#a4967a; --line:#453a28;
   --gold:#cfa55c; --goldhi:#e5c689; --thread:#c9a35c; --live-text:#1d1811;
-  --node-shadow:0 1px 3px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.09);
+  --node-shadow:0 1px 3px rgba(0,0,0,.5), 0 0 0 1.5px rgba(255,255,255,.22);
 }
 :root[data-theme="light"]{
   --bg:#f3ecdc; --panel:#faf5e9; --ink:#3a3020; --muted:#77694f; --line:#d8cbaa;

@@ -13,6 +13,47 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-04 (Pass 7, UI 15) — Dark mode round two, mobile: the fix worked but was too thin to read at small size
+
+**The report, on the phone, same day as UI 14:** "we have the same
+problem on the phone, tertullian is an example." A real regression in
+scope, not a repeat of the same bug -- UI 14 was verified on desktop
+(1280px) before shipping and genuinely fixed desktop's contrast, but was
+never separately checked at mobile's smaller box size.
+
+**Diagnosis, by pixel-sampling the actual rendered screenshot** (not
+just computed-style values, since a box-shadow's real visibility depends
+on how it anti-aliases at actual size) at Tertullian's real position on
+a 390px viewport: the UI 14 fix (a 1px, 9%-opacity light ring) was
+*technically* present and *technically* passed a strict luminance check
+against the ribbon behind it (~3.4:1 at the single border pixel) -- but
+it rendered as one barely-there transition pixel between the box and a
+same-family-hue ribbon (Tertullian's own "Latin West" red family tint,
+both box fill and thread deriving from the same hue in dark mode). A
+1px edge that only technically clears a contrast minimum is still, in
+practice, too thin to read as a box outline at mobile's smaller size --
+this is the gap a computed-style check alone can't catch, only a real
+pixel-sampled render can.
+
+**Fix:** widened the ring from 1px to 1.5px and raised its opacity from
+9% to 22% (`0 0 0 1.5px rgba(255,255,255,.22)`), same `--node-shadow`
+custom property, no new mechanism. Re-sampled the same pixel row after
+the change: the edge is now a 2-3px graduated brightening before the
+border color hits, instead of one isolated pixel -- a real, perceptible
+outline rather than a value that only passes on paper.
+
+**Verified against the real site:** re-sampled Tertullian's exact pixel
+row (clear multi-pixel edge now, was one faint pixel before); mobile dark
+screenshots at Era IV, VII, and X (the three most crowded stretches, the
+same ones checked for the earlier mobile "less text" work) all show every
+box clearly separated from its ribbon; desktop dark re-checked at Era IV
+to confirm no regression there -- unchanged, if anything crisper; text
+contrast re-scan still 0 failures below 3.0 across all 257 nodes (that
+was never the actual problem). Full Playwright harness clean (0
+overlaps, 0 JS errors); `validate-census.mjs` clean (census untouched).
+
+---
+
 ## 2026-08-04 (Pass 7, UI 14) — Dark mode "dark on dark": boxes were disappearing into their era's background band
 
 **The report:** "As i go through it some of the worlds don't show up well
