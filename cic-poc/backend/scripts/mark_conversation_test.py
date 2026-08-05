@@ -17,6 +17,47 @@ os.environ.setdefault("ANTHROPIC_API_KEY", os.environ.get("ANTHROPIC_API_KEY", "
 assert os.environ.get("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY must be set"
 os.environ.pop("MOCK_LLM", None)
 
+# COMPROMISE, flagged deliberately: this environment's network policy blocks
+# huggingface.co, so the real all-MiniLM-L6-v2 dense embedding model can't be
+# downloaded. Everything else in the RAG pipeline runs for real - hybrid
+# BM25+dense RRF fusion, the Retrieve-When/Do-Not-Retrieve-When filter LLM
+# calls, citation resolution - only the dense half of the hybrid search is
+# swapped for a network-free hashing/bag-of-words vectorizer instead of the
+# real semantic embedding. BM25 (lexical overlap) still runs at full
+# fidelity. This can make retrieval less semantically precise than
+# production; it does not change Facilitator/Representative voice, tone, or
+# turn structure, which is what this test run is primarily evaluating.
+import hashlib
+import re
+
+_EMBED_DIM = 384
+
+
+class _NetworkFreeHashEmbeddings:
+    def _vec(self, text: str) -> list[float]:
+        v = [0.0] * _EMBED_DIM
+        for tok in re.findall(r"[a-z0-9]+", text.lower()):
+            idx = int(hashlib.sha1(tok.encode()).hexdigest(), 16) % _EMBED_DIM
+            v[idx] += 1.0
+        norm = sum(x * x for x in v) ** 0.5 or 1.0
+        return [x / norm for x in v]
+
+    def embed_documents(self, texts):
+        return [self._vec(t) for t in texts]
+
+    def embed_query(self, text):
+        return self._vec(text)
+
+
+import app.rag.embeddings as embeddings_mod  # noqa: E402
+import app.rag.indexer as indexer_mod  # noqa: E402
+import app.rag.story_indexer as story_indexer_mod  # noqa: E402
+_shared = _NetworkFreeHashEmbeddings()
+embeddings_mod._embeddings = _shared
+embeddings_mod.get_shared_embeddings = lambda: _shared
+indexer_mod.get_shared_embeddings = lambda: _shared
+story_indexer_mod.get_shared_embeddings = lambda: _shared
+
 usage_records = []
 
 
