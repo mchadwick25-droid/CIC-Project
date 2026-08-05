@@ -4,6 +4,42 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 
 ---
 
+## 2026-08-05 (later, same day) — DECIDED: the Representative voice is a full rebuild, not a patch list; launched to a dedicated Fable thread, not built here
+
+**What changed, from the live-conversation-test entry directly above.** Reading the three real transcripts led Mark to a much deeper diagnosis than register alone. His own words, verbatim, across the conversation: the system was built **"from the sources to the conversation"** and needs to work **"the other way or circular"** — starting from **"what will the participant need to be at ease, drawn in, and start to see the world from their place"** rather than requiring them to already be fluent in period idiom to follow. "It is the representative that has to be rebuilt (not the name and role) but who they are to have a conversation that engages, is natural and not distracting and gives truely insightful and accurate answers." The one thing that does not move, stated twice: no fabrication — "this is our world grounding."
+
+**What this session found, verified directly against the code rather than guessed, that grounds the rebuild:**
+- The archaic/formal register is 100% sourced from the six per-world permanent prompt files, not the shared `_HOW_YOU_ENGAGE` instructions — which explicitly defer register to "your own permanent formation."
+- Every retrieved chunk already carries `Ecological Function` (pre-written "why this matters" insight material) and `Distortion Risk` (pre-written Modern-Hearing-vs-World-Hearing bridge material), and both already reach the model's generation context — confirmed via `app/rag/sections.py`/`retriever.py`. Nothing currently instructs the model to lead with either, which is most of why answers "pick random things."
+- Governance/monitoring (`over_settling`, `citation_grounding`, `drift_detection`) is confirmed content-based, not register-based, by its own prompt text — the redesign is safe from false-positive drift there, with one signal (`FLATTENING`) worth empirical watching, not redesign.
+- A real, already-live failure mode: an existing prose-only guard against unprompted term-reclarification (FLAG-018 in the shared file, plus an independent copy in Chloe's own permanent prompt) already failed to prevent exactly that behavior in this session's own test transcripts — direct evidence that worked example dialogues, present in only 1 of 6 worlds' permanent prompts, carry real enforcement weight prose alone doesn't.
+- The Construction Framework's own "Part Five: Voice Construction" already states the destination correctly ("This does not mean archaic English or artificial formality... natural rather than performed") — the gap across six builds is enforcement, not philosophy.
+- The three transcripts already captured do **not** actually reproduce "over formal / distracting," and are the three plainest worlds of the six already — Albina and Marius, never live-tested, are the real acceptance bar for whatever gets built.
+
+**Decided: this is not built in this session.** Given the scale (six distinct voices needing real literary judgment, plus a Construction Framework revision so a seventh world doesn't reintroduce the same gap — "self sufficient, as we have done all along," Mark's own framing), Mark chose to launch a dedicated Fable 5 thread on Friday rather than patch files here, matching this project's own established pattern for big craft work (Tours, the Atlas rebuild) getting its own thread instead of being shoehorned into an ongoing session.
+
+**What this session produced instead:** a full design brief —
+`CiC_Representative_Voice_Rebuild_Fable_Brief_2026-08-05.md` (this
+workstream's own folder) — covering the diagnosis above in full, what stays
+untouched (world/source content, the fabrication-guard and
+witness-not-recruitment blocks, governance, confirmed glosses, retrieval
+ordering deferred per Mark's own "minor addendum" framing), the two-part
+mandate (rebuild all six voices *and* revise the Construction Framework's
+Parts Five and Eight), risk-ordered sequencing (Albina → Marius → Theon →
+Papnoute → Chloe → Yausep, not build order), and a real verification
+checkpoint using the live-test harness already built this session
+(`scripts/mark_conversation_test.py`). A short paste-able launch prompt
+pointing at that brief lives in this folder's `Launch-Prompts/` directory,
+also rendered as a copy-to-clipboard Artifact.
+
+**Resolved during scoping, not left implicit:** the World Capsule Core files sit in the cached prefix at equal weight to the permanent prompt on every turn, in the same elevated register — Mark confirmed capsule *content/sourcing* stays frozen, capsule *prose style* is in scope alongside the permanent prompts, so the brief includes both per world rather than leaving the capsule as an unaddressed ceiling on the rewrite.
+
+**Also handed off, explicitly not bundled into the voice rebuild:** the two scoped defects from the live-test entry above (the `CitationModal.tsx` internal-note leak; `over_settling_adjudication` firing on 10 of 12 turns) — named in the brief as Mark's own separate triage items, not folded into Friday's mandate.
+
+**Next action:** Mark launches the brief's paste-able prompt into a fresh Fable 5 thread on Friday. Nothing in `representative_prompts.py`, any permanent prompt, any World Capsule Core file, or the Construction Framework docx was touched this session.
+
+---
+
 ## 2026-08-05 — Live conversation test run: three real transcripts, a real per-call cost breakdown, two concrete defects found; the "not natural" complaint doesn't reproduce in these three
 
 **Mark's ask:** run real conversation tests using this environment's now-working API access, as grounding for rethinking how the conversation itself works — his own framing was that it "does not have correct content, flow or readability... not a natural grounded conversation," starting with "the interview," and that it "costs too much."
