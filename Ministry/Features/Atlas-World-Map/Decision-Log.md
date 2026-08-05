@@ -13,6 +13,96 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 16) — Mobile pinch-zoom/pan: the packed canvas is routinely wider than the phone screen, so let the browser's native gesture handle it
+
+**The report:** "on the phone it feels like everything is crammed to the
+right, we can expand to a width that when we scroll it fills the width,
+but pinch in and be able to slide right and left." Mobile's packed
+canvas has been wider than the screen since the very first mobile pass
+this project did (the whole reason the "less text" mobile CSS and the
+mobile dark-mode ring exist) -- until now that extra width just sat past
+the right edge of a fixed device-width viewport with no visual cue it
+was even there.
+
+**Two ways to build this, asked before writing any code:** (1) the whole
+page zooms together, native pinch-zoom on a viewport sized to fit the
+canvas at rest -- simple, standard, but the header/search shrink too
+until you pinch in; or (2) a custom pinch/pan built just for the map,
+header always full-size, but real new code layered onto the single most
+fragile part of this codebase (node placement, tooltips, and the
+tap-to-open sheet all depend on exact positions). Mark picked (1),
+explicitly on the lower-risk tradeoff.
+
+**Mechanism:** on mobile only, `layout()` now widens the page's own
+`<meta name=viewport>` to `width=${W}` (the packed canvas width already
+computed by `tryPack`) with `initial-scale` set so the whole canvas fits
+the screen at rest -- native pinch-zoom and native touch-pan take it from
+there, no custom gesture code. Desktop's viewport meta is never touched.
+
+**A real correctness trap this surfaced, fixed before it shipped:** every
+piece of mobile-specific behavior on this page -- the "less text" CSS,
+the responsive `HEAD`/`RH` era-header sizing, the mobile-vs-desktop
+`#sheet` layout -- was keyed off live `innerWidth`/`clientWidth` or
+`@media (max-width)`/`(min-width)` queries. Deliberately widening the
+layout viewport would have silently flipped every one of those the
+moment the canvas crossed 700px, making the page misclassify itself as
+desktop mid-session. Fixed by capturing an `is-mobile` class on `<html>`
+synchronously in `<head>` from `screen.width` (which the viewport widen
+never touches, unlike `innerWidth`/`clientWidth`) before boot() even
+runs, converting both `@media` blocks to `html.is-mobile`/
+`html:not(.is-mobile)` selectors, and switching every JS mobile check
+(`RH`, `HEAD`, the `viewW` used for box/thread density in `layout()`) to
+read that same frozen flag instead of a live viewport measurement.
+
+**A second trap, caught by testing against real Chromium mobile
+emulation, not assumed:** writing the viewport meta tag fires a native
+`resize` event, which the existing resize listener treated as a real
+window resize and answered by calling `layout()` again -- which ends its
+own run by writing the viewport meta, firing another resize. It
+converges rather than looping forever (the second pass computes the same
+width and writes the same content), but it's real wasted work every
+`layout()` call, so it's suppressed with a one-shot
+`selfTriggeredResize` flag: armed immediately before any write to the
+tag, consumed by the resize listener instead of re-running layout for
+that one event. A genuine window resize or orientation change never sets
+the flag, so it's never suppressed.
+
+**A design idea tried and deliberately dropped:** the first draft also
+flipped the viewport back to plain `device-width` while the click-document
+sheet (`#sheet`) was open, so it would read at native 1:1 scale
+regardless of whatever zoom the map was left at, then restored the wide
+state on close. Testing that against real mobile emulation found the
+sheet's own `left:0/right:0/max-width:640px` math resolving against a
+stale, inflated viewport HEIGHT after the toggle -- the sheet rendered
+anchored below the actual visible screen, unreachable. That's a worse
+bug than the one this feature set out to fix, so the toggle was dropped
+entirely rather than patched further. What shipped instead: the sheet's
+`max-width` is pinned once to the true `screen.width` (never wider than
+the physical screen at any zoom level), and its exact on-screen position
+while the user has actively pinched/panned away from the top of the page
+is named here as a known, accepted limitation -- `position:fixed` versus
+the visual viewport is genuinely inconsistent across real mobile
+browsers, and this pass doesn't claim to have solved that, only to have
+avoided making it worse.
+
+**Verified against real Chromium mobile emulation (iPhone 13 profile,
+`isMobile`/`hasTouch` on, the only way the viewport-meta scaling
+actually takes visual effect in testing):** initial load shows the full
+packed width fit to the screen at Eras I, IV, and VII with nothing cut
+off; `screen.width`-derived `is-mobile` class and every downstream mobile
+check (node width ~101px not desktop's 150px, `.node .nm` at .62rem,
+`#sheet` in bottom-sheet layout not the desktop side panel) held correct
+throughout, including after a simulated resize event, confirming no
+feedback loop and no misclassification; the sheet opens and reads
+correctly at the common case (tapped before any zooming); search, the
+era-rail jump, and the two-tap mobile preview-then-open interaction all
+still work. Desktop re-verified completely untouched -- viewport meta
+stays exactly `width=device-width, initial-scale=1`, node width stays
+150px, sheet stays the right-side panel. Full Playwright harness clean
+(0 overlaps, 0 JS errors); `validate-census.mjs` clean (census untouched).
+
+---
+
 ## 2026-08-04 (Pass 7, UI 15) — Dark mode round two, mobile: the fix worked but was too thin to read at small size
 
 **The report, on the phone, same day as UI 14:** "we have the same

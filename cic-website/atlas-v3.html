@@ -3,6 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+/* Mobile-device flag, captured synchronously before first paint from
+   screen.width (Mark, 2026-08-04: "expand to a width that... fills the
+   width, but pinch in and slide right and left") -- NOT innerWidth or
+   clientWidth, because the atlas widens its OWN viewport meta tag later
+   (below the fold, in layout()) so the packed canvas fits the screen at
+   rest and native pinch-zoom/pan take it from there. clientWidth would
+   report that widened value afterward and misclassify a phone as
+   desktop mid-session; screen.width stays the physical device width
+   regardless of what we do to the layout viewport. Set on <html> before
+   boot() ever runs so mobile-only CSS below applies from first paint,
+   not after the census JSON fetch resolves. */
+document.documentElement.classList.toggle('is-mobile', screen.width<700);
+</script>
 <title>Church in History — Church in Conversation</title>
 <meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -240,39 +254,44 @@ body.tracing #art .tdot:not(.hot){opacity:.06}
 #sheet .act{display:inline-block;font-size:.8rem;font-weight:700;border:1px solid var(--gold);
   border-radius:0;padding:.4rem .8rem;margin:.6rem .4rem 0 0;cursor:pointer;background:var(--bg);color:var(--ink)}
 footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.68rem;color:var(--muted)}
-@media (max-width:699.9px){
-  header.bar .s{display:none}
-  /* legend doubles as lane-toggle controls now -- on narrow viewports wrap
-     to multiple rows instead of a thin horizontal-scroll strip (13 buttons
-     off the edge of the screen is not discoverable), and give touch targets
-     real room instead of the 16px-tall desktop hit area. Category groups
-     wrap as whole units where they fit; the border divider drops since
-     the wrap itself now separates groups visually. */
-  #legend{flex-wrap:wrap;overflow-x:visible;row-gap:.5rem}
-  #legend .lanegroup{flex-wrap:wrap;border-right:none;padding-right:0;row-gap:.3rem}
-  #legend button{padding:.3rem .1rem;min-height:30px}
-  #regionlegend button{padding:.3rem .6rem;min-height:30px}
-  #glossary dl{grid-template-columns:1fr!important}
-  #glossary dt{margin-top:.35rem}
-  /* Mobile box text, smaller only (Mark, 2026-08-04, fourth round): tried
-     collapsing crowded eras into bundle boxes to fix the phone overflow --
-     "the grouping doesn't work, you lose the continuity and ability to
-     find what you're looking for." Reverted that entirely (every ribbon,
-     every individual box, same packing as desktop) and took the plainer
-     route instead: less text per box, not fewer boxes. Doesn't touch NW
-     (box width) or anything in layout()/tryPack -- purely how much space
-     the name/date text takes up inside the SAME box the packer already
-     gives it, so it carries no risk to placement, continuity, or search. */
-  .node .nm{font-size:.62rem}
-  .node .dt{font-size:.52rem}
-  .node{padding:.2rem .3rem .16rem}
-}
-@media (min-width:700px){
-  #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
-    border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
-  #sheet.on{transform:none}
-  #sheet .grab{display:none}
-}
+/* Mobile styling below is gated on the html.is-mobile class (set
+   synchronously in <head> from screen.width), NOT @media (max-width)/
+   (min-width) -- the atlas widens its own layout viewport on mobile for
+   pinch-zoom (see layout(), "widen the viewport for mobile pinch/pan"),
+   which would flip max-width/min-width media queries to the wrong branch
+   mid-session (a phone would start reporting as "desktop" the moment its
+   own widened canvas exceeded 700 CSS px, silently breaking the mobile
+   sheet layout and text sizing below). screen.width doesn't move when we
+   do that, so the class -- and everything gated on it -- stays correct. */
+html.is-mobile header.bar .s{display:none}
+/* legend doubles as lane-toggle controls now -- on narrow viewports wrap
+   to multiple rows instead of a thin horizontal-scroll strip (13 buttons
+   off the edge of the screen is not discoverable), and give touch targets
+   real room instead of the 16px-tall desktop hit area. Category groups
+   wrap as whole units where they fit; the border divider drops since
+   the wrap itself now separates groups visually. */
+html.is-mobile #legend{flex-wrap:wrap;overflow-x:visible;row-gap:.5rem}
+html.is-mobile #legend .lanegroup{flex-wrap:wrap;border-right:none;padding-right:0;row-gap:.3rem}
+html.is-mobile #legend button{padding:.3rem .1rem;min-height:30px}
+html.is-mobile #regionlegend button{padding:.3rem .6rem;min-height:30px}
+html.is-mobile #glossary dl{grid-template-columns:1fr!important}
+html.is-mobile #glossary dt{margin-top:.35rem}
+/* Mobile box text, smaller only (Mark, 2026-08-04, fourth round): tried
+   collapsing crowded eras into bundle boxes to fix the phone overflow --
+   "the grouping doesn't work, you lose the continuity and ability to
+   find what you're looking for." Reverted that entirely (every ribbon,
+   every individual box, same packing as desktop) and took the plainer
+   route instead: less text per box, not fewer boxes. Doesn't touch NW
+   (box width) or anything in layout()/tryPack -- purely how much space
+   the name/date text takes up inside the SAME box the packer already
+   gives it, so it carries no risk to placement, continuity, or search. */
+html.is-mobile .node .nm{font-size:.62rem}
+html.is-mobile .node .dt{font-size:.52rem}
+html.is-mobile .node{padding:.2rem .3rem .16rem}
+html:not(.is-mobile) #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
+  border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
+html:not(.is-mobile) #sheet.on{transform:none}
+html:not(.is-mobile) #sheet .grab{display:none}
 
 /* ---- B5 site chrome & controls ---- */
 #controls{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem}
@@ -526,6 +545,11 @@ let rows=[],eraSpans=[];
 const lastRowStartingBy=y=>{let r=0;rows.forEach(m=>{if(m.start<=y)r=Math.max(r,m._row);});return r;};
 
 const canvas=document.getElementById('canvas'),art=document.getElementById('art');
+/* isMobileDevice reads the class set synchronously in <head> from
+   screen.width, not a live innerWidth check -- see that script's comment
+   for why (the pinch-zoom viewport widen below would otherwise flip this
+   mid-session). */
+const isMobileDevice=document.documentElement.classList.contains('is-mobile');
 /* HEAD reserves the vertical clearance between an era's top and its first
    row of movement boxes, for the era header bar to sit in without
    overlapping them. Was a fixed 8px sized for the old one-line corner
@@ -535,7 +559,7 @@ const canvas=document.getElementById('canvas'),art=document.getElementById('art'
    made responsive, same pattern as RH, with real headroom above the
    measured worst case rather than an exact fit that breaks the next time
    an era's content gets one line longer. */
-const RH=()=>innerWidth<700?54:60, HEAD=()=>innerWidth<700?230:110, ERA_PAD=34;
+const RH=()=>isMobileDevice?54:60, HEAD=()=>isMobileDevice?230:110, ERA_PAD=34;
 let NW=0;
 
 /* which eras is a movement alive in? (years parsed from the era date strings) */
@@ -543,9 +567,67 @@ const ERA_YEARS=[[70,312],[312,451],[451,622],[622,1054],[1054,1300],[1300,1517]
 const aliveIn=(m,i)=>m.start<ERA_YEARS[i][1]&&m.end>=ERA_YEARS[i][0];
 const eraIndexOf=m=>eraSpans.findIndex(s=>m._row>=s.r0&&m._row<s.r1);
 let anchors=[];
+const metaVp=document.querySelector('meta[name="viewport"]');
+/* Writing the viewport meta tag actually changes the layout viewport's
+   width, and that itself fires a native 'resize' event (confirmed by
+   testing, not assumed) -- which the resize listener below would
+   otherwise treat as a real window resize and call layout() again, which
+   ends its own run by writing the viewport meta AGAIN, which fires
+   ANOTHER resize. Harmless in the steady state (it converges -- the
+   second pass computes the same W and writes the same content) but still
+   wasted work every layout() call, so it's suppressed properly:
+   setViewportMeta is the only path allowed to touch the tag; it arms
+   selfTriggeredResize immediately before writing, and the resize
+   listener consumes (clears) that flag instead of re-running layout()
+   for that one event -- a real resize never sets the flag, so it's never
+   suppressed.
+   Earlier drafts of this feature also toggled the viewport BACK to
+   device-width while the click-document sheet (#sheet) was open, so it
+   would read at native 1:1 scale regardless of whatever zoom the map was
+   left at. Dropped after testing against real Chromium mobile emulation:
+   the toggle's OWN resize (device-width back to the wide canvas width)
+   left #sheet's fixed-position containing block resolving against a
+   stale, inflated viewport HEIGHT -- the sheet rendered anchored below
+   the actual visible screen, unreachable, which is a far worse bug than
+   the one this feature set out to fix. Kept instead: the sheet's
+   max-width is pinned once to screen.width (see is-mobile init below) so
+   it's never wider than the physical screen at any zoom level; its exact
+   on-screen position while the user has actively pinched/panned away
+   from the top of the page is a known, accepted limitation (position:
+   fixed vs. the visual viewport is genuinely inconsistent across mobile
+   browsers) rather than something this pass claims to have solved. */
+let selfTriggeredResize=false;
+function setViewportMeta(content){selfTriggeredResize=true;metaVp.setAttribute('content',content);}
+/* the map's pinch/pan zoom state: whole canvas fit to the screen at rest,
+   native pinch-zoom/pan from there (mobile only -- see layout()). */
+function setMobileMapZoom(){
+  const W=window.__mobileCanvasW;if(!W)return;
+  const fitScale=Math.min(1,screen.width/W).toFixed(4);
+  setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
+}
+if(isMobileDevice){
+  /* #sheet's own max-width:640px was always harmless before -- mobile's
+     viewport was never wider than that anyway, so the cap never engaged.
+     Now that mobile's layout viewport is deliberately wide, it WOULD
+     engage, capping the sheet well short of the full canvas width but
+     leaving it centered within that wide canvas rather than pinned to
+     the physical screen -- reading a paragraph would need horizontal
+     panning to see the far side of every line. Pinning max-width to the
+     true screen width restores the original "always full physical
+     width" mobile behavior regardless of how wide the canvas got. */
+  document.getElementById('sheet').style.maxWidth=screen.width+'px';
+}
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
-  const viewW=Math.max(320,document.documentElement.clientWidth), rh=RH(), head=HEAD();
+  /* viewW sources from screen.width on mobile, not clientWidth -- once the
+     pinch-zoom widen below runs, clientWidth reports the WIDENED layout
+     viewport, and re-reading it here on the next layout() (e.g. a resize
+     event) would re-pack at desktop-scale box/thread sizing on a phone,
+     which would then need an even wider canvas, which would widen the
+     viewport further -- a feedback loop. screen.width is immune to our
+     own meta-tag rewrite and still reflects real device rotation. Desktop
+     never touches the viewport meta, so clientWidth stays correct there. */
+  const viewW=Math.max(320,isMobileDevice?screen.width:document.documentElement.clientWidth), rh=RH(), head=HEAD();
   NW=Math.min(150,Math.max(96,viewW*0.26));
   const TWb=viewW<700?8:20, GAPb=viewW<700?4:12;
   window.__TW=TWb;
@@ -635,6 +717,22 @@ function layout(){
   anchors=attempt.A;
   rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
+  /* Pinch-zoom/pan (Mark, 2026-08-04: "on the phone it feels like
+     everything is crammed to the right, we can expand to a width that
+     when we scroll fills the width, but pinch in and be able to slide
+     right and left") -- on mobile, the packed canvas is routinely wider
+     than the screen (the whole reason the mobile "less text" pass and
+     this dark-mode ring both exist), and until now that extra width just
+     sat off past the right edge of a fixed device-width viewport with no
+     visual cue it was there. Widening the page's OWN viewport meta tag to
+     the canvas's real width, with initial-scale computed so it fits the
+     screen at rest, hands zoom and pan to the browser's native pinch/pan
+     gesture handling -- the whole page opens showing the full width at
+     once (nothing hidden off-screen), and pinching in to read a crowded
+     stretch is the same gesture as zooming any other webpage, no custom
+     touch code layered onto this already-delicate render path. Desktop
+     is untouched -- this block only runs for isMobileDevice. */
+  if(isMobileDevice){window.__mobileCanvasW=W;setMobileMapZoom();}
   const subEl=document.querySelector('header.bar .s');
   if(subEl)subEl.textContent=W>viewW
     ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
@@ -1033,7 +1131,10 @@ if(laneOff.size||regionOff.size)setFilterPanel(true);
 layout();
 applyLaneToggle();
 applyRegionToggle();
-addEventListener('resize',()=>{layout();applyLaneToggle();applyRegionToggle();applyFilter();});
+addEventListener('resize',()=>{
+  if(selfTriggeredResize){selfTriggeredResize=false;return;}
+  layout();applyLaneToggle();applyRegionToggle();applyFilter();
+});
 
 /* ---- trace ---- */
 const tip=document.getElementById('tip');
