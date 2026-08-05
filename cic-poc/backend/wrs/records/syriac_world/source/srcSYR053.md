@@ -22,6 +22,8 @@ licensed_for: Absence of a dedicated Aphrahat hagiography entry in the standard 
   (Doc_09 Section 0); this reference tool's own historical conflation of Aphrahat the Demonstrations'
   author with a later, separately-attested Persian-born hermit near Antioch (Doc_09 Section 3).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
 added: 2026-07-07, Doc_09 Round 1 review correction
 genre_form: reference-work
 verification_note: Confidence set at C (below this Registry's general run of secondary scholarship) because

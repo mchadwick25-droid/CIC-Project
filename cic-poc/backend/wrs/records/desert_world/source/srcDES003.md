@@ -17,6 +17,8 @@ language: cop
 script: Copt
 genre_form: letter
 discovery_channel: builder-prior-knowledge
+confidence:
+  formation_confidence: Contested
 field_state: contested
 licensed_for: Primary voice (Doc_02 SS1)
 transmission_path: transmitted almost entirely through translation (Georgian, Latin, Syriac) with only

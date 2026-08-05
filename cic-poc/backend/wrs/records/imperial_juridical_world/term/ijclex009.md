@@ -66,7 +66,7 @@ conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried h
   the ending-not-read-back discipline rides every use.'
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -93,3 +93,5 @@ contested_claim_ids: []
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex009_tomus.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
 
 [Final Assembly Instruction - parked at the S2.2-equivalent; typed home per the splitter docstring] Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied. Single-instance evidentiary risk (Doc_03) carried forward explicitly in the World Meaning section above, per Doc_06 §5 open item 2.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

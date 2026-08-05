@@ -23,6 +23,8 @@ script: Latn
 licensed_for: Doctrina Addai's composition date (likely Rabbula's episcopate, 411-435) and its relationship
   to Eusebius's earlier, shorter Abgar correspondence (Doc_09 syrstory004)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 verification_note: Bibliographically confirmed; arguments summarized from secondary sourcing/abstracts,
   not page-by-page reading of the full articles.

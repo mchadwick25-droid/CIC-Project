@@ -19,6 +19,8 @@ script: Latn
 licensed_for: Reconstruction of the Nicene subscription lists placing Jacob of Nisibis at position 77
   (Doc_09 syrstory003)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: journal-article
 verification_note: Bibliographically confirmed; the specific reconstructed listing was not independently

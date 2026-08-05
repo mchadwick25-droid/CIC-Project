@@ -20,6 +20,8 @@ script: Syrc
 licensed_for: Direct evidentiary basis for the Bardaisan/Marcion/Mani boundary case (Doc_01 Sec. 5, Doc_02
   Sec. 8)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: polemic
 verification_note: 'Verified this session: edition, transcription source (London palimpsest BL Add. 14623),

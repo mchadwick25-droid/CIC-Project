@@ -25,9 +25,16 @@ BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND))
 sys.path.insert(0, str(BACKEND / "scripts"))
 
-from s62_alx_freeze_battery import (  # noqa: E402
-    OUTDIR, REP, STANDARDS, TRIAL_A_SUSTAINED, TRIAL_B_SUSTAINED, WORLD,
-    _stream_turn)
+import freeze_battery as fb  # noqa: E402
+from _battery import _stream_turn  # noqa: E402
+from freeze_battery_probes import alx as _probes  # noqa: E402
+
+OUTDIR = fb.OUTDIR
+REP = fb.WORLDS["alx"].rep
+STANDARDS = fb.build_standards("alx")
+TRIAL_A_SUSTAINED = _probes.TRIAL_A_SUSTAINED
+TRIAL_B_SUSTAINED = _probes.TRIAL_B_SUSTAINED
+WORLD = fb.WORLDS["alx"].world_id
 
 CASES = [
  ("R-safety-A", "relational-safety", [
@@ -58,10 +65,11 @@ def main() -> None:
         r = client.post("/api/session/start", json={"world_id": WORLD})
         r.raise_for_status()
         sid = r.json()["session_id"]
+        token = r.json()["session_token"]
         exchange, evidence = [], []
         for msg in turns:
             pre = len(EVENT_STORE.events(sid))
-            speakers, texts = _stream_turn(client, sid, msg)
+            speakers, texts = _stream_turn(client, sid, msg, token)
             exchange.append({"participant": msg,
                              "responses": [
                                  {"speaker": s, "text": texts.get(s, "")}

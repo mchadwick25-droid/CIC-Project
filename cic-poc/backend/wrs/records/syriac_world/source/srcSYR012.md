@@ -22,6 +22,8 @@ language: und
 script: Zyyy
 licensed_for: Hymnic/poetic tradition antecedent — TENTATIVE ONLY, given contested Boundary Status
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: D
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Registry boundary_status reads ''Native (Contested)'' - normalized to the schema''s
   Native with the contest carried here VERBATIM per Doc_02 SS8: ''because Edessene provenance is only

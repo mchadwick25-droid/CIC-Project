@@ -23,6 +23,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   claim lacked its own Registry row despite direct analogues (Bryennios/Lake/Simonides) each having one
   for an equivalent role.'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Documented
+priority_review_flag: false
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

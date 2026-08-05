@@ -22,6 +22,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   postdate the 3rd century) with real overgeneralization risk into ''no house churches existed anywhere
   before then'' — the same claim-shape as S29, which independently also meets criterion B on its own terms.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

@@ -22,6 +22,8 @@ licensed_for: The Ephrem-Basil legendary meeting and its identified mistaken-ide
   the absence of a separate Aphrahat biographical tradition and the Aphrahat/later-hermit conflation (Doc_09,
   Absent Stories)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: reference-work
 verification_note: Bibliographically confirmed via GEDSH's own published entries and Encyclopaedia Iranica;

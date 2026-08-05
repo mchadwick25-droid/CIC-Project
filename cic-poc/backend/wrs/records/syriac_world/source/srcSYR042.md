@@ -23,6 +23,8 @@ licensed_for: Marutha of Maiperqat's Roman-Persian intermediary role; 410 Synod 
   INCLUDING THE 20-YEAR VACANCY CLAIM (Doc_01 Sec. 2, Doc_02 Sec. 11) — widened Round 2 to close a traceability
   gap identified on review
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: Marutha''s dual embassies, medical-favor access to Yazdegerd
   I, and role organizing the Church of the East along Roman lines all confirmed. Round 2 addition: the

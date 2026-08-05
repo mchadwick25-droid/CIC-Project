@@ -72,7 +72,7 @@ grounding_criterion: high
 eviction_priority: 2
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-26'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -92,3 +92,5 @@ field_relations:
     per FLAG-002; symmetric edge).
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

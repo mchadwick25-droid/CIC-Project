@@ -20,6 +20,8 @@ script: Latn
 licensed_for: Missing-voices assessment — bnat qyama women, structural clericalism of the source base
   (Doc_02 Sec. 7)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: journal-article
 verification_note: 'Verified this session. Direct quotation confirmed: no text composed by a bnat qyama

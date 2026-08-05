@@ -19,6 +19,10 @@ licensed_for: Doc_01 Strand A internal tension (Polycarp/presbyter identificatio
 verification_note: 'Registry-carried assessment fields, verbatim: confidence_level=Widely Accepted; citation_reliability=B;
   priority_review_flag=No. Notes: Genuine Ignatius/Montanism specialist'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: false
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

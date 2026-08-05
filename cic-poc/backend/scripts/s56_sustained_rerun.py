@@ -3,7 +3,8 @@
 Re-runs ONLY the two 8-turn sustained scripts, fresh sessions, after the
 over_settling delivery-instruction fix (nodes.generate_reroot_guidance).
 Imports the probe definitions and mechanics from the battery instrument
-itself (scripts/s56_freeze_battery.py) rather than editing it - the
+itself (scripts/freeze_battery.py --world desert, formerly
+scripts/s56_freeze_battery.py) rather than editing it - the
 gate-integrity rule: the instrument that must pass is not touched.
 
 Output: masked + key files with the same shapes as the battery's, suffix
@@ -22,9 +23,15 @@ BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND))
 sys.path.insert(0, str(BACKEND / "scripts"))
 
-from s56_freeze_battery import (  # noqa: E402
-    TRIAL_A_SUSTAINED, TRIAL_B_SUSTAINED, STANDARDS, _stream_turn,
-    OUTDIR, DESERT)
+import freeze_battery as fb  # noqa: E402
+from _battery import _stream_turn  # noqa: E402
+from freeze_battery_probes import desert as _probes  # noqa: E402
+
+TRIAL_A_SUSTAINED = _probes.TRIAL_A_SUSTAINED
+TRIAL_B_SUSTAINED = _probes.TRIAL_B_SUSTAINED
+STANDARDS = fb.build_standards("desert")
+OUTDIR = fb.OUTDIR
+DESERT = fb.WORLDS["desert"].world_id
 
 
 def main() -> None:
@@ -40,10 +47,11 @@ def main() -> None:
         r = client.post("/api/session/start", json={"world_id": DESERT})
         r.raise_for_status()
         sid = r.json()["session_id"]
+        token = r.json()["session_token"]
         exchange, evidence = [], []
         for msg in turns:
             pre = len(EVENT_STORE.events(sid))
-            speakers, texts = _stream_turn(client, sid, msg)
+            speakers, texts = _stream_turn(client, sid, msg, token)
             exchange.append({"participant": msg,
                              "responses": [
                                  {"speaker": s, "text": texts.get(s, "")}

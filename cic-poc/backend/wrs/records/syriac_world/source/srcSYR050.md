@@ -21,6 +21,8 @@ script: Latn
 licensed_for: Source-critical assessment of the whole Jacob of Nisibis dossier as legend with an uncertain
   historical core, and the disputed death-date chronology (Doc_09 syrstory003, syrstory006)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 verification_note: Bibliographically confirmed; neither article independently re-read in full this session.
 ---

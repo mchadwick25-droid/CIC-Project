@@ -17,6 +17,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=M; confid
   Verification Note: A well-established archaeological fact per this build''s own knowledge; not independently
   re-verified this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 37)
 jobs:
 - 1

@@ -20,6 +20,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: Straddles this world''s c.200 CE close; genuinely disputed whether
   even Christian (vs Cybele/Attis priest epitaph) EXCLUSION REASON (registry, verbatim): Out-of-Boundary'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: D
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

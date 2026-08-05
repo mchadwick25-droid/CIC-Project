@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Qyama institution; general Syriac theological symbolism
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: 'Verified this session: foundational, still widely cited. No misattribution found.'

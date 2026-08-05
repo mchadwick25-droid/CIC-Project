@@ -21,6 +21,8 @@ script: Latn
 licensed_for: Diatessaron-commentary authorship caveat (row 9); current Diatessaron scholarship status
   (Doc_02 Sec. 2)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Verified this session.
 ---

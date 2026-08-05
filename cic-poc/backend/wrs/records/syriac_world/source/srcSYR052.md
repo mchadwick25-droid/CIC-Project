@@ -21,6 +21,8 @@ licensed_for: Vööbus's own characterization of the Acts of Miles as containing
   in Doc_09 Section 3 to caution against extending Simeon bar Sabbae's (syrstory005) narrative detail
   to the other named Persian martyrs.
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Round 1 review correction
 genre_form: monograph
 verification_note: Bibliographically confirmed (multi-volume CSCO Subsidia study); specific page/volume

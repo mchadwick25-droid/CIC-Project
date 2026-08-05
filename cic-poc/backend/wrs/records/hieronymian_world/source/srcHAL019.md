@@ -16,6 +16,8 @@ level_of_description: work
 language: eng
 script: Latn
 discovery_channel: builder-prior-knowledge
+confidence:
+  formation_confidence: Inferential-Thin
 work_author: Christa Krumeich
 work_title: Hieronymus und die christlichen feminae clarissimae (1993)
 work_locus: '1993'

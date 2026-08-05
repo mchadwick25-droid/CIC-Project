@@ -20,6 +20,8 @@ script: Syrc
 licensed_for: EXCLUDED - not licensed for any voice use (Named Comparandum, carried from the registry
   row verbatim); retained as a registry row so the boundary decision stays checkable (Doc_02 SS8).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Full determination in Doc_01 Sec. 5: does not confidently clear the Nicene-trajectory
   floor''s resurrection clause (Contested, leaning unfavorable per Possekel''s own reconstruction), though

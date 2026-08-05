@@ -16,6 +16,8 @@ licensed_for: Same as row 18; some Antiochene-flavored material
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Same caveats as row 18; hostile framing of Homoian material named in Doc_02 §7'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 20)
 jobs:
 - 1

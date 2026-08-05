@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Aphrahat's anti-Jewish material and Representativeness caveat (Doc_02 Sec. 3, 7)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: 'Verified this session: primary expertise confirmed. Book title itself concedes this

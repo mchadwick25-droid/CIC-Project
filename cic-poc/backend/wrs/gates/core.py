@@ -283,6 +283,185 @@ def gate_discovery_instrument(records: dict) -> list:
     return out
 
 
+# ----------------------------------------------------- priority-review trigger
+
+def gate_priority_review_trigger(records: dict) -> list:
+    """Priority-review trigger, re-keyed (2026-08-05 full-system review,
+    Rigor P1-2). The prior rule (L3B-World-Build-Methodology's Source
+    Registry Template / Doc_02B, step 4) flagged 'anything at Confidence C
+    or below supporting a vivid, specific claim.' That threshold was set
+    when the Confidence letter's B meant 'specific work/locus named.' After
+    IJC's Round-1 recalibration, B means recall: 'drawn from this build's
+    own historical knowledge; not independently re-collated this session' -
+    the legacy letter no longer marks the risk boundary doc 14's own
+    evidence says the risk actually lives at.
+
+    Re-keyed onto the SS3.0 axes that now exist, joined the way the data
+    actually is: a source row's own discovery_channel records HOW it was
+    found; a source row never itself carries a populated confidence block
+    (verification_state/evidentiary_weight) in the current record store -
+    those live on the CITING record's confidence block (a term, quote, or
+    any other record type that links back to the source via sources[]).
+    So the flag is:
+
+        source.discovery_channel == "builder-prior-knowledge"
+        AND some citing record C with {source.id} in C.sources[]
+            has C.confidence.evidentiary_weight == "load-bearing"
+        AND that same C.confidence.verification_state != "verified-direct"
+
+    i.e. a recall-sourced row that licenses a load-bearing claim which has
+    never itself been directly re-verified this session - the fabricated-
+    precision failure mode the rule exists to catch.
+
+    Only term and quote records carry a populated confidence block in the
+    record store today (2026-08-05 audit); a source cited only by
+    gravity/force/story/contested_claim/world_core rows - none of which
+    carry confidence yet - cannot be flagged by this rule until those
+    record types are backfilled. That is a real, separate data gap (the
+    same one P1-1 diagnosed for verification_state), not a defect in this
+    gate; it means the count this gate reports on the live fleet is a
+    floor, not a ceiling."""
+    out = []
+    citing = {}
+    for rid, r in records.items():
+        for link in r.get("sources") or []:
+            sid = link.get("source_id")
+            if sid:
+                citing.setdefault(sid, []).append(r)
+    for rid, r in records.items():
+        if r.get("record_type") != "source":
+            continue
+        if r.get("discovery_channel") != "builder-prior-knowledge":
+            continue
+        for citer in citing.get(rid, []):
+            conf = citer.get("confidence") or {}
+            if (conf.get("evidentiary_weight") == "load-bearing"
+                    and conf.get("verification_state") != "verified-direct"):
+                out.append(
+                    f"{rid}: discovery_channel=builder-prior-knowledge licenses "
+                    f"{citer.get('id')}'s load-bearing claim "
+                    f"(verification_state={conf.get('verification_state')}) - "
+                    f"priority review"
+                )
+    return out
+
+
+# --------------------------------------------------------- distribution health
+
+# 2026-08-05 (full-system review, Rigor P1-1): 118/118 term records read
+# `verification_state: verified-via-authority` - never the other three
+# values of that four-value axis. A field whose distribution is a constant
+# carries zero information, and no existing gate could see it: schema
+# validation only checks that a value is A member of the enum, never that
+# the enum as actually used carries more than one member fleet-wide.
+# General on purpose (doc 14's own complaint - "judgments stored in free
+# text where the next builder has to rediscover it by reading" - applies
+# to any enum field, not only this one): a small, versioned, configurable
+# list of (record_type, dotted_field_path) pairs, checked the same way.
+# Adding a pair here rides the gate-integrity rule like SYMMETRIC/INVERSE
+# above; it is not auto-derived from the schema, so a genuinely-legitimate
+# constant (a field that just happens to have one valid value across a
+# small fleet) needs a human decision to add, not a silent trip.
+DISTRIBUTION_HEALTH_CHECKS = [
+    ("term", "confidence.verification_state"),
+    ("source", "boundary_status"),
+]
+
+
+def _get_dotted(record: dict, dotted_field: str):
+    v = record
+    for part in dotted_field.split("."):
+        if not isinstance(v, dict):
+            return None
+        v = v.get(part)
+    return v
+
+
+def gate_distribution_health(records: dict, checks=None) -> list:
+    """Fails when a checked enum field's value distribution, across every
+    record of a given record_type, is a single constant value (100% one
+    value, 2+ records carrying it). Checks a small configurable list of
+    (record_type, dotted_field_path) pairs (DISTRIBUTION_HEALTH_CHECKS by
+    default) rather than hardcoding the verification_state case alone -
+    this is a general distribution-health check, not a one-off patch.
+    Records where the field is absent/empty are excluded from the sample
+    (silent - a missing field is gate_field_completion's job, not this
+    one's); fewer than 2 present values can't demonstrate a distribution
+    either way and are skipped."""
+    checks = DISTRIBUTION_HEALTH_CHECKS if checks is None else checks
+    out = []
+    for record_type, field in checks:
+        values = []
+        for r in records.values():
+            if r.get("record_type") != record_type:
+                continue
+            v = _get_dotted(r, field)
+            if v is None or (isinstance(v, (list, dict, str)) and not v):
+                continue
+            values.append(v)
+        if len(values) >= 2 and len(set(values)) == 1:
+            out.append(
+                f"{record_type}.{field}: all {len(values)} record(s) carry "
+                f"the single value {values[0]!r} - a field whose "
+                f"distribution is a constant carries zero information"
+            )
+    return out
+
+
+# ------------------------------------------- confidence/source cross-check
+
+def gate_confidence_source_crosscheck(records: dict) -> list:
+    """2026-08-05 (full-system review, Rigor P1-8): the record-level
+    analogue of Syriac Doc_04's own Confidence/Gravity Cross-Check
+    (Doc_04_Gravity_Discovery.md - each candidate's own paragraph:
+    'Evidential confidence is Documented ... No divergence to flag', or,
+    where it does diverge, 'This is the clearest case of intentional
+    divergence ... named explicitly, not resolved by upgrading'). Doc_04
+    runs that check in prose, once per gravity candidate, one document at
+    a time; there is no analogue one level down, at the individual record
+    - so the divergence it exists to catch is invisible and ungated there.
+
+    A record whose own confidence.formation_confidence == 'Documented' is
+    claiming the Constitution's own top evidentiary tier ('multiple
+    independent sources with no serious scholarly dispute'). Per P1-8,
+    that is a claim about the STATE OF THE EVIDENCE, not the builder's
+    own diligence this session - so it is not itself a defect for every
+    linked source to fall short of verified-direct. What IS a defect is
+    for that gap to go unnamed: if NONE of the record's own sources[]
+    carry confidence.verification_state == 'verified-direct', the record
+    must carry its own confidence.divergence_note, on Doc_04's own
+    pattern, or this gate flags it.
+
+    A record with an empty (or absent) sources[] is skipped - that is
+    gate_field_completion's finding (a term/story/etc. missing sources
+    entirely) or referential_integrity's (a dangling source_id), not a
+    divergence to name here. A single verified-direct source is enough
+    to clear the check for the whole record (Doc_04's own worked cases
+    clear on a single strong stream, not unanimity)."""
+    out = []
+    for rid, r in records.items():
+        conf = r.get("confidence") or {}
+        if conf.get("formation_confidence") != "Documented":
+            continue
+        source_ids = [link.get("source_id") for link in r.get("sources") or []
+                      if link.get("source_id")]
+        if not source_ids:
+            continue
+        states = {sid: _get_dotted(records.get(sid) or {}, "confidence.verification_state")
+                  for sid in source_ids}
+        if any(state == "verified-direct" for state in states.values()):
+            continue  # at least one linked source is verified-direct - no divergence to flag
+        if not conf.get("divergence_note"):
+            out.append(
+                f"{rid}: confidence.formation_confidence=Documented but none of its "
+                f"{len(source_ids)} linked source(s) carry verification_state="
+                f"verified-direct ({states}) and no confidence.divergence_note is "
+                f"recorded - the Doc_04 Confidence/Gravity Cross-Check's own "
+                f"record-level analogue"
+            )
+    return out
+
+
 # ------------------------------------------------------- quote recording
 
 def gate_quote_fidelity_recording(records: dict) -> list:

@@ -19,6 +19,8 @@ script: Syrc
 licensed_for: Formation-narrative/self-understanding material ONLY — how this world told its own origin
   story. NOT licensed for historical-origin claims (see Doc_01 Sec. 2, Doc_02 Sec. 5).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: first attested by Eusebius, developed further in the Doctrina
   Addai itself; no contemporary 1st/2nd-century corroboration. Treated as this world''s own foundation

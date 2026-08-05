@@ -82,7 +82,7 @@ voice_surface: Aphrahat called his own works taḥwyāṯā - demonstrations, a 
   so that memory itself has a rail to hold the argument by.
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: corroborating
   formation_confidence: Documented
@@ -118,3 +118,5 @@ field_relations:
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex003_tahwyata.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with qyama (Demonstration 6 is a taḥwîṯâ) and Iḥidaya (attested within the taḥwyāṯā, e.g. Dem. 6:8, Dem. 7:20). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

@@ -18,6 +18,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P/M; conf
   Verification Note: Drawn from this build''s own historical knowledge of the corpus; not independently
   re-collated against the ICUR edition this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 14)
 jobs:
 - 1

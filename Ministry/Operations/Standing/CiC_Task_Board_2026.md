@@ -929,50 +929,37 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
-- [ ] **NEW 2026-08-05 — Full-system review remediation, Waves 3–4 (backlog, sequenced).**
-      Wave 1 (13 P0-tier/live-bug items: the acute-distress safety fix, the path-traversal
-      and open-redirect security fixes, the theme-toggle map-blanking bug, five
-      accessibility-jargon fixes, one honest architecture doc) **shipped 2026-08-05 — see
-      Decision Log, 2026-08-05 (later still).** Wave 2 (12 items: data-integrity
-      re-stamping + a new gate, the Freeze Criteria correction, IJC force-source linking,
-      language-code normalization, four one-lookup corrections, the session-cap fix, the
-      first CI workflow, the pilot-feedback form, guided-starter why/citations rendering,
-      the anything-else wind-down streaming fix, the direct-address must_continue
-      exemption, and the textstat dependency guard) **also shipped 2026-08-05 — see
-      Decision Log, 2026-08-05 (later still), Wave 2 entry.** Wave 3's first slice
-      likewise shipped 2026-08-05 (see below) — the remainder of Wave 3, plus all of
-      Wave 4, is queued, not started. Each item cites its source report + finding ID
+- [ ] **NEW 2026-08-05 — Full-system review remediation, Wave 4 (backlog, sequenced);
+      Waves 1–3 shipped.** Wave 1 (13 P0-tier/live-bug items), Wave 2 (12 items:
+      data-integrity re-stamping + a new gate, the Freeze Criteria correction, IJC
+      force-source linking, language-code normalization, four one-lookup corrections,
+      the session-cap fix, the first CI workflow, the pilot-feedback form, guided-starter
+      why/citations rendering, the anything-else wind-down streaming fix, the
+      direct-address must_continue exemption, textstat guard), and Wave 3 in full (the
+      ending screen rebuild, six further-reading JSON packs, Imperial-Juridical guided
+      starters, session persistence, Atlas resize/zoom hygiene, the census copy pass,
+      Rigor P1-1/P1-2/P1-3/P1-5/P1-8 data-integrity work, the freeze-battery
+      consolidation, and the event store bound) **all shipped 2026-08-05 — see Decision
+      Log, 2026-08-05 (later still), the Wave 1/Wave 2/Wave 3 (first slice)/Wave 3
+      (completion) entries in order.** Only Wave 4 remains, plus the two items below
+      genuinely still open from Wave 3. Each item cites its source report + finding ID
       under `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the
       report for the exact file/line/fix rather than re-deriving it; each report already
-      worked the fix out in detail. No further Mark gate needed to continue Wave 3 unless
-      an item below says otherwise.
+      worked the fix out in detail. No further Mark gate needed to start Wave 4 unless an
+      item below says otherwise.
 
-      **Wave 3 — this month, medium lift.** First slice **shipped 2026-08-05 — see
-      Decision Log, 2026-08-05 (later still), Wave 3 entry** (the ending screen rebuild;
-      six per-world further-reading JSON packs; Imperial-Juridical guided starters;
-      session persistence across a refresh; Atlas resize debounce + mobile zoom/scroll
-      preservation across relayout; `shoot.mjs`'s vacuous sheet-open assertion fixed +
-      box-vs-foreign-tail check + mobile pinch test + non-zero exit; the "what brings you
-      here?" onboarding step; the Atlas CTA seat-count label; "the Table"/"Nicene"/"the
-      doctrinal floor" defined). **Genuinely new, disclosed, not yet fixed:** the new
-      box-vs-foreign-tail check found real overlaps in `layout()`'s box-placement
-      algorithm itself (17 at 390px, 5 at 1280px) — a real defect in the core packing
-      logic, not touched this pass. Still queued:
-      - **Census copy pass** (Accessibility's single biggest lever): split the
-        100%-over-standard `longDescription`/`legacy` sentences, backfill `sources[]` for
-        the six live worlds properly, render the authored `tag` field, fix stale `rec`,
-        author the 32 missing teasers.
-      - Rigor P1-1/P1-2/P1-3/P1-8: real `verification_state` grading + gate; re-key the
-        priority-review trigger; restore `citation_reliability`/`formation_confidence`/
-        `priority_review_flag` as fields; Documented-vs-unverified-sources gate.
-      - Rigor P1-5: emic audit of the six deployed prompts + first use of
-        `emic-unavailable`. Rigor, one real field-bibliography sweep on two worlds
-        (Syriac via syri.ac, Desert via BIBP).
-      - Engineering P1-6: collapse the six copy-pasted freeze-battery scripts into one
-        harness with a declared per-world override file.
-      - Engineering P1-4: bound the event store; measure real RSS with both transformer
-        models loaded; decide persistent disk vs. un-gating the Supabase event mirror.
-      - The box-vs-foreign-tail layout defect surfaced above, in `layout()`'s `tryPack`.
+      **Still open from Wave 3, not folded into Wave 4 (both explicitly disclosed, not
+      silently dropped):**
+      - Rigor's own "this month" field-bibliography sweep: one real search pass on two
+        worlds (Syriac against Brock's bibliography via syri.ac; Desert against BIBP) —
+        genuine external research against live scholarly databases, not attempted in the
+        session that did the rest of Wave 3's data-integrity work.
+      - The box-vs-foreign-tail Atlas layout defect: `shoot.mjs`'s new geometric check
+        (added this wave) found real overlaps in `layout()`'s `tryPack` box-placement
+        algorithm itself (17 at 390px, 5 at 1280px) — a genuine pre-existing defect the
+        new check surfaced, not a regression, and not touched given the real risk of a
+        blind fix to an already-heavily-tuned packing algorithm without live visual
+        verification across viewports/themes.
 
       **Wave 4 — over time / structural:**
       - **Get one outside scholarly reader** (Rigor's single biggest lever): send

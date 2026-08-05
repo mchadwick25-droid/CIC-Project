@@ -61,7 +61,7 @@ conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried h
   contest; the homoios case keeps the term honest (the machinery once enforced what it later named).'
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Contested
@@ -89,3 +89,5 @@ Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridi
 [CT Contest Type - parked at the S2.2-equivalent; typed home per the splitter docstring] **Historical scope:** whether this term functioned as a settled juridical category from Nicaea onward, or became so only gradually, alongside and partly through the Theodosian Code's own legal innovations, is itself contested in the modern scholarship this document draws on.
 
 [Final Assembly Instruction - parked at the S2.2-equivalent; typed home per the splitter docstring] Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain; CT Contest Type completed per Doc_06 §3.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

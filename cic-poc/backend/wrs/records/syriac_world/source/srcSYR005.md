@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Liturgical/devotional content
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Verified this session.
 ---

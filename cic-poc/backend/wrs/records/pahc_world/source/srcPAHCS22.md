@@ -21,6 +21,9 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   (S05); near-identical surname is a real citation-confusion risk EXCLUSION REASON (registry, verbatim):
   Named Comparandum'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

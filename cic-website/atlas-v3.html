@@ -164,7 +164,7 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
   border-radius:0;padding:.5rem .9rem}
 .erahead .no{font-size:.95rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
 .erahead .title{font-size:1.25rem;font-weight:700}
-.erahead .academic{font-size:1rem;font-style:italic;color:var(--muted)}
+.erahead .tag{font-size:1rem;font-style:italic;color:var(--ink);flex-basis:100%}
 .erahead .dates{font-size:1rem;color:var(--muted)}
 .erahead .events{font-size:.95rem;color:var(--muted)}
 #canvas{position:relative}
@@ -778,8 +778,14 @@ function layout(){
     html+=`<div class="eraband" style="position:absolute;left:0;right:0;top:${y}px;height:${h}px;
       background:var(--era${s.era.num});border-top:1px solid var(--gold)"></div>`;
     {
-      let bar=`<span class="no">Era ${esc(s.era.no)}</span><span class="title">${esc(s.era.title)}</span>`;
-      if(s.era.academicName&&s.era.academicName!==s.era.title)bar+=`<span class="academic">${esc(s.era.academicName)}</span>`;
+      /* s.era.tag is authored copy telling a newcomer what the era FELT like
+         ("Reform, renewal, and the new orders") -- previously authored in
+         the census and rendered nowhere (2026-08-05 full-system review,
+         Accessibility P1-3). academicName moves to a title tooltip on the
+         era number rather than dropping it -- still one click/hover away
+         for anyone who wants the scholarly period name. */
+      let bar=`<span class="no"${s.era.academicName?` title="${esc(s.era.academicName)}"`:''}>Era ${esc(s.era.no)}</span><span class="title">${esc(s.era.title)}</span>`;
+      if(s.era.tag)bar+=`<span class="tag">${esc(s.era.tag)}</span>`;
       bar+=`<span class="dates">${esc(s.era.dates)}</span>`;
       if(s.era.keyEvents&&s.era.keyEvents.length)bar+=`<span class="events">${s.era.keyEvents.map(esc).join(' · ')}</span>`;
       html+=`<div class="erahead" style="top:${y+2}px"><div class="bar">${bar}</div></div>`;

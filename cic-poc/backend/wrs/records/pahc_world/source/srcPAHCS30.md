@@ -22,6 +22,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   by family not ecclesial identity'' is a specific counter-intuitive claim with real downstream-misuse
   potential.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

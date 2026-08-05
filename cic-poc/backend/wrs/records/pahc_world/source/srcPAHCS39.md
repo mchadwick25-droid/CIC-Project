@@ -20,6 +20,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: Specific ~2% figure is an estimate applying Harris''s (S37) general
   Greco-Roman literacy rate to Christian congregations specifically — an inference, not a direct measurement'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

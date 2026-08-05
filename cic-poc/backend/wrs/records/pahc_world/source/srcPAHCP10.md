@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   by Tertullian Apology 39 [Flag added per round-3 pass: Widely Accepted confidence, but its own Notes
   concede satirical genre — real risk of a future builder citing satire as straight ethnographic reportage.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Widely Accepted
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

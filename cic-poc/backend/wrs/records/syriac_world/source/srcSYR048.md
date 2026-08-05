@@ -20,6 +20,8 @@ script: Latn
 licensed_for: Genre, dating, and historical-reliability assessment of the Persian martyr acta (Doc_09
   syrstory005)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: monograph
 verification_note: Bibliographically confirmed via publisher record and BMCR review (Richard Payne, 2016.10.41);

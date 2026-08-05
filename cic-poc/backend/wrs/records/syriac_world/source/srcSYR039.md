@@ -19,6 +19,8 @@ script: Latn
 licensed_for: Comparative Iranian/dissenting-view context on Bardaisan ONLY — not primary authority (Doc_01
   Sec. 5.3)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: reference-work
 verification_note: 'Verified this session: confirmed as an Iranologist (Harvard, Old Iranian languages/Zoroastrianism),

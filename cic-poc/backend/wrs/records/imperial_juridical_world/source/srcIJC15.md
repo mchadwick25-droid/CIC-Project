@@ -18,6 +18,9 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   Verification Note: Authenticity contested in the scholarship generally; not independently re-verified
   this session; flagged for priority second-opinion review per the Registry''s own C-or-below rule'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: D
+priority_review_flag: true
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 15)
 jobs:
 - 1

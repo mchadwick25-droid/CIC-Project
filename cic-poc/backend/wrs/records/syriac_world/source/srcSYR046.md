@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: The Martyrdom of Simeon bar Sabbae (Doc_09 syrstory005)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: hagiography
 verification_note: Bibliographically confirmed (Smith's edition, publisher record); narrative content

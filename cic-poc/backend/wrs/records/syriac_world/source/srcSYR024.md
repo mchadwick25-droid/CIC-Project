@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Bardaisan resurrection-clause finding (Doc_01 Sec. 5.4); Ephrem's Greek-philosophical engagement
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: journal-article
 verification_note: 'Verified this session: primary expertise confirmed (Bardaisan, Ephrem, Greek philosophical

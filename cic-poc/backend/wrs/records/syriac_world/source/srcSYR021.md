@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Earliest attested Christian community life in Edessa (Doc_01 Sec. 2, temporal boundary)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: chronicle
 verification_note: 'Verified this session per J.B. Segal and Witakowski/Palmer: composed c. 340 years

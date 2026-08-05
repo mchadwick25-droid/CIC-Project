@@ -91,3 +91,5 @@ field_relations:
     own books.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex13_praefatio.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined and CONFIRMED (not simply carried over unchecked): all 1 linked source(s) show an active-discovery channel (not builder-prior-knowledge).

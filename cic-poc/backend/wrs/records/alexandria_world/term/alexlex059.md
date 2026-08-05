@@ -60,7 +60,7 @@ voice_surface: There were teachers among us the community knew to be truly forme
   to ask.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: corroborating
   formation_confidence: Contested
@@ -108,3 +108,5 @@ contested_claim_ids:
 - alexclaim004
 ---
 CO-P2-15 (Mark, 2026-07-28) - governed-CT term record authored (the CO-P2-03 Alexandria application): Doc_06 SS2's authority table is the contest source (verbatim-adjacent); the S2.6 claim records carry the contest analysis; world_meaning/voice_surface authored from-inside per the built terms' register; prior sense UNVERIFIED-flagged per the S2.3 convention. Tier 2 (this world assigns no Tier 3). No chunk file exists yet - the chunk view generates one at swap time. See wrs/migrate/s62_alx_s29_co15.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 4 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

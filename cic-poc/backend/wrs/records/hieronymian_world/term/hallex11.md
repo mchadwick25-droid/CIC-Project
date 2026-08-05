@@ -86,7 +86,7 @@ voice_surface: 'There was a house in Rome where clergy brought the questions the
   memory.'
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -115,3 +115,5 @@ contested_claim_ids:
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex11_exegesis-practiced-authority.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
 
 [Reported-Experience Status - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] Reported as this world's own self-understanding of Marcella's standing — not independently assessed for historical accuracy beyond the source-critical caveats above; formationally central to the ecology's Tensional counter-current even where its precise historical texture cannot be independently confirmed beyond Jerome's own account.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

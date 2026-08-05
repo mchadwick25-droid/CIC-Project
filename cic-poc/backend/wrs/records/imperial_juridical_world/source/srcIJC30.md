@@ -23,6 +23,9 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=S; confid
   (where #6 = this world) — the substantive scholarly anchor (Leo the Great) is what licenses this entry,
   not the numbering, which is not otherwise relied on'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+priority_review_flag: true
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 30)
 jobs:
 - 1

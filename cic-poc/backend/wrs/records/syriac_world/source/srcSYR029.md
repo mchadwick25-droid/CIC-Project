@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Syriac poetic/symbolic theological method (Doc_01 Sec. 4, resolved in Doc_02 Sec. 11)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: primary expertise confirmed (Reader in Syriac Studies, Oxford).
   Two genuine sourced quotations located (Luminous Eye 1992 ed. p.41; Harp of the Spirit 2013 ed. p.17)

@@ -20,6 +20,8 @@ script: Latn
 licensed_for: Bardaisan docetism-clearance argument — cited alongside Drijvers/Possekel, not as sole or
   settled authority
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: 'Verified this session: real monograph, real scholar with very broad output. Flagged

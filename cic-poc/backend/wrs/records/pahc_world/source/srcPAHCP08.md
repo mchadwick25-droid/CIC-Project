@@ -20,6 +20,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: Passage authenticity not seriously disputed; whether a discrete fire-linked
   persecution of a named group occurred is a live, separate, non-fringe debate (Shaw vs Jones)'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

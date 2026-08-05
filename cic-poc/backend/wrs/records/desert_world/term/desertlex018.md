@@ -52,3 +52,5 @@ field_relations:
     content — the edge deferred at CO-P2-03 pending this record''s source row, typed now per CO-P2-10(c).'
 ---
 CO-P2-10(c) term record (2026-07-27): Doc_06 SS3.2 verbatim-condensed; deferred at CO-P2-03 until the Cassian row existed - no fabricated citation, then or now.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined and CONFIRMED (not simply carried over unchecked): all 1 linked source(s) show an active-discovery channel (not builder-prior-knowledge).

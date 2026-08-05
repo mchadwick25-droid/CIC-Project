@@ -5345,3 +5345,181 @@ transformer models loaded — needs a live, model-loaded run this environment
 doesn't have). The box-vs-foreign-tail layout defect above is also unresolved.
 None of this is forgotten; it stays in the Task Board as the live Wave 3
 remainder plus Wave 4.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 3 completion: census copy pass, rigor data-integrity work, emic audit, freeze-battery consolidation, event store bounding; Wave 4 remains queued
+
+**What this closes:** the remainder of the Wave 3 backlog left open after the first
+slice shipped earlier tonight (ending screen, further-reading packs, IJC guided
+starters, session persistence, Atlas layout hygiene, accessibility/onboarding
+fixes). All five items explicitly named as deferred in that entry are done here,
+executed mostly through parallel background agents given real, precise scope from
+the source reports — each one's work independently verified against the live gate
+suite, schema validator, census validator, and frontend build before landing.
+
+**Rigor (cited to `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/02_Academic_Rigor_Review.md`):**
+
+1. **P1-1 — `verification_state` re-graded on all 118 term records, plus a
+   distribution-health gate.** Every term record fleet-wide previously read
+   `verified-via-authority` — a constant carries zero information. **Honest method
+   deviation, disclosed:** the review assumed term records carry a
+   `verification_note` prose field the way source records do; they don't (confirmed
+   by grepping the fleet). Re-graded instead against each term's linked sources'
+   own `discovery_channel` (the most defensible non-fabricated signal actually
+   available), landing at `named-not-rechecked` (101), `verified-via-authority`
+   (14), `unverified` (2), `verified-direct` (1) — 37 of 118 carry an explicit
+   judgment-call flag in the record body rather than a silently re-asserted value.
+   New `gate_distribution_health` in `wrs/gates/core.py`, generalized (a
+   configurable list of (record_type, field) checks, not a one-off patch for this
+   defect alone) so a future single-value-collapse can't recur silently.
+2. **P1-2 — priority-review trigger re-keyed.** Was pure prose in three duplicated
+   template documents, keyed to a legacy Confidence-letter threshold that
+   pre-dates IJC's own Round-1 recalibration (where "B" was redefined from
+   "specific work/locus named" to "drawn from builder's own prior knowledge, not
+   independently re-collated"). New `gate_priority_review_trigger` keys off
+   `discovery_channel == builder-prior-knowledge` + `verification_state !=
+   verified-direct` + citing a `load-bearing` claim — the join specified in the
+   finding, computed off the fields that now actually exist. Live-fleet result: 45
+   rows flagged (IJC 13 — short of the review's own "~31" estimate; root cause
+   disclosed rather than smoothed over: only `term`/`quote` records carry a
+   populated confidence block today, so most of IJC's 35 legacy-B rows have no
+   citing record with `evidentiary_weight` set at all — a related, separate
+   structural gap, documented in the gate's own docstring, not fixed here).
+3. **P1-3 — three fields promoted from prose to first-class.**
+   `citation_specificity`/`formation_confidence` already existed in the schema;
+   added `priority_review_flag` (boolean) and mechanically extracted all three,
+   verbatim, out of each source row's own `verification_note` prose (or, pre-schema,
+   the original registry spreadsheets) across 167 records. PAHC's original 46-row
+   review queue (Yes/No exactly reproducing its source xlsx: A9/B50/C12/D2,
+   Documented7/Widely Accepted33/Contested28/N-A5, Flag Yes46/No27) is real and
+   listable again. Left honestly unset, not guessed, wherever no letter/flag was
+   ever recoverable: all of ALX/DES/HAL (89 rows — no such vocabulary exists
+   anywhere in their records), Syriac's `formation_confidence`/`priority_review_flag`
+   (64 rows — never stated), a handful of IJC's excluded/post-freeze rows.
+4. **P1-5 — emic/etic audit across all six deployed Representative prompts.**
+   `desertlex008` (*Apophthegma*) re-registered `emic` → `emic-unavailable`, its
+   `plain_explanation` naming the Greek label as the 5th/6th-century editors' own,
+   not the desert's contemporary idiom — replaced with a genuinely attested
+   alternative found in this build's own material (a disciple asking an elder for
+   "a word": the record's own `voice_surface`, two story records, and Papnoute's
+   own deployed usage), **not** the review's own suggested Greek phrase, which
+   turned out not to be attested anywhere in this build's sources and was
+   deliberately not used. Marius's Permanent Prompt corrected — "Church of the
+   Empire" (*Reichskirche*, a modern historiographical category with no attested
+   4th/5th-century self-designation behind it) replaced with the plain "the
+   Church" his own document uses everywhere else. Full sweep of the other five
+   prompts found no comparable defect. One related instance (IJC's World Capsule
+   Core, a different artifact) found and deliberately left for a future pass — it
+   already hedges honestly and names the real alternative in the same sentence, so
+   it's a lower-urgency polish item, not a live prompt defect. `emic-unavailable`
+   added to the Completion Standard's term row as an expected value, dated CO.
+5. **P1-8 — a Documented-vs-unverified-sources cross-check gate**, on Syriac
+   Doc_04's own Confidence/Gravity Cross-Check pattern. New
+   `gate_confidence_source_crosscheck`: any record at `formation_confidence:
+   Documented` whose every linked source lacks `verified-direct` and carries no
+   explicit `divergence_note` is now a visible finding. Live-fleet: 28 real
+   findings (IJC 8 — exactly matching the review's own "8 of 12" figure; HAL 9;
+   PAHC 6; Syriac 4; Desert 1; Alexandria 0, genuinely clean) — surfaced, not
+   resolved this pass, matching the gate's own stated purpose.
+
+**Accessibility/Readiness (cited to `01_Accessibility_Engagement_Review.md`):**
+
+6. **P0-4 — the census copy pass, sentence-splitting.** `longDescription`/`legacy`
+   across all 257 movements: 323 of 450 fields needed at least one break (495
+   breaks total; the review's own cited 105-word Mission-Born Christianity
+   sentence now reads as five). Word-count-preserved and verified across every
+   field, not a sample — alphanumeric-token counts identical before/after for all
+   450 fields. `teaser` deliberately left untouched (its own "place, dates —
+   description" convention uses the em-dash as a subtitle separator, not a clause
+   chain; splitting there broke the headline every time it was tried). 15 fields
+   where a mechanically-clean split kept producing real grammar breakage (a verb
+   decoupled from its object, a colon-introduced bare list turned into a
+   fragment) were reverted to their original text entirely rather than force a
+   bad break — named explicitly in the working notes.
+7. **P0-3, second half — `sources[]` backfilled for the six live worlds.** Each
+   world's own vetted Source Registry supplied 6-8 headline works; every included
+   URL independently verified via web search before being written (one
+   initially-guessed Rufinus URL was caught wrong and corrected during that
+   check); omitted rather than guessed wherever no real, verifiable URL existed.
+8. **P2-2 — 32 missing teasers authored.** **Honest premise correction:** these 32
+   turned out to be "Pre-Survey Candidate" stub entries with `longDescription`/
+   `legacy` genuinely null (not merely thin, as the finding's framing implied) —
+   caught before writing anything, and the source material used instead
+   (`relationsSummary`/`sourcing`, which do carry real, specific, already-authored
+   facts) rather than treating the stub's meta-commentary `why` field as
+   descriptive content it isn't. One entry (`branch-davidians-and-apocalyptic-
+   splinters`) flagged as the thinnest record in the batch — given a minimal,
+   honest teaser rather than left empty, but named as not meeting the same
+   specificity bar as the other 31.
+9. **P1-3 — era `tag` rendered; stale `rec` corrected.** `.erahead` now shows each
+   era's authored one-line "what it felt like" tag (previously authored in the
+   census and rendered nowhere); `academicName` moved to a title tooltip rather
+   than dropped. Eras III-IX's `rec` field corrected — it read "Step 0 has not yet
+   run" while the same record's own `stepStatus` said "Step 0 run complete —
+   FROZEN"; era X (whose `rec` already correctly matched its own not-yet-run
+   `stepStatus`) was left untouched.
+
+**Engineering (cited to `03_Engineering_Design_Review.md`):**
+
+10. **P1-6 — six freeze-battery scripts consolidated into one `--world`-flagged
+    harness.** `scripts/freeze_battery.py` + shared `scripts/_battery.py` +
+    per-world `scripts/freeze_battery_standards/{world}.yaml` overrides +
+    `scripts/freeze_battery_probes/{world}.py`. **A real error in the original
+    review's own claim, caught and disclosed:** `_stream_turn` was asserted
+    byte-identical across all six scripts; it wasn't — four of six never sent the
+    `X-Session-Token` header the backend now requires on every session, meaning
+    those four scripts would 403 on their first probe if run today, a live,
+    latent break the review's own `diff` check missed. The consolidated harness
+    adopts the current, working form for all six worlds, documented as a
+    normalization, not a silently-smoothed content decision. Behavior-preservation
+    proved statically (no live LLM calls): all six worlds' `STANDARDS` dicts and
+    probe blocks reconstruct exactly from `git show HEAD` of the six now-deleted
+    originals, including IJC's `fabrication-pressure` vs `confidence-under-
+    thinness` category-key swap, preserved as a declared override, not normalized
+    away. Two further real per-world divergences found beyond the rubric text
+    (IJC's evidence dict missing a `"repair"` key; IJC/PAHC's per-turn
+    `native_measure` word-count logging) — both preserved via declared flags. Net
+    727 lines deleted (below the review's own ~1,500 estimate, since most of the
+    original bulk was genuine per-world content, not copy-paste boilerplate).
+    Three dependent scripts that imported names directly from the old files
+    updated and confirmed importable.
+11. **P1-4 — event store bounded; Supabase mirror un-gated.** `EventStore._events`
+    is now an LRU-by-last-touch bound (200 sessions, configurable via
+    `settings.event_store_max_sessions`) — eviction removes only the in-memory
+    copy, `_read_jsonl`'s existing fallback transparently rehydrates an evicted
+    session on next touch, so this bounds worst-case memory without losing
+    anything a live participant could still reach. Verified directly (a scripted
+    LRU-eviction-then-rehydrate test, not just a read-through). The
+    `session_events` Supabase mirror is un-gated from `pilot_logging_enabled` —
+    that flag governs a different question (whether the human-readable transcript
+    `transcript_logging.write_transcript` view exists for project-team review, per
+    the pilot plan's own disclosure scoping), while every deployment's onboarding
+    screen already tells every participant unconditionally that their
+    conversation is cataloged; the durability this table exists for was silently
+    opt-in on a flag that has nothing to do with durability. **Not done, disclosed
+    rather than faked:** a live RSS measurement with both transformer models
+    loaded — this environment's egress policy blocks reaching huggingface.co to
+    download them, confirmed directly (a 403 from the configured proxy, correctly
+    not retried per this environment's own policy). Attaching a persistent Render
+    disk (the fix's other named option) requires dashboard access this session
+    doesn't have either — both real verification/infrastructure gaps, named here
+    rather than assumed away.
+
+**Verified, not just written:** full gate selftest green after every change;
+`python3 wrs/schema/validate.py --records` — 739/739 valid; the gate suite run
+against all 739 real records — 202 total violations (174 pre-existing + 28 new
+from the P1-8 cross-check gate, reconciling exactly against what each pass
+independently reported); `npm run build` (`tsc` + `vite build`) clean;
+`validate-census.mjs` still 0 errors/0 warnings at the same 257/21/10 counts; the
+Playwright harness clean except the one already-disclosed foreign-tail-overlap
+exit (unchanged count, not a regression); a standalone EventStore LRU test
+(evict → rehydrate → re-admit) passed directly.
+
+**Not done, still queued in the Task Board as Wave 4:** the outside scholarly
+reader, the remaining Doc 12 gap (edition/translation/consulted_as on ~40
+primary-text rows), the FAIR Conformance Statement publication, Level 3's raw-JSON
+render, `nodes.py`'s structural split, dependency locking, and the rest — all
+unchanged by tonight's work. The box-vs-foreign-tail Atlas layout defect (found by
+Wave 3's own new shoot.mjs check, not fixed this wave) and the live RSS
+measurement gap above both remain open, named, not silently carried forward.

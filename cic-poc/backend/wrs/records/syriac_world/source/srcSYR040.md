@@ -20,6 +20,8 @@ script: Latn
 licensed_for: General heresiological-caution methodology applied to the Bardaisan analysis (Doc_01 Sec.
   5.1) — general point, not Syriac-specific authority
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: both confirmed as genuine earliest-Christianity/heresy-category
   scholars, not Syriac specialists; correctly cited for a transregional methodological point.'

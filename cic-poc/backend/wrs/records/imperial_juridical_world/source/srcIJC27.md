@@ -17,6 +17,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=S; confid
   Verification Note: Confirmed as a Step 0 source-matrix addition; a standard, widely-cited work per this
   build''s own knowledge, not independently re-read this session'
 discovery_channel: step0-seed-list
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 27)
 jobs:
 - 1

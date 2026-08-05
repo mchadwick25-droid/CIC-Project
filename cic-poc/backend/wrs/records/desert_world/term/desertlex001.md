@@ -104,3 +104,5 @@ field_relations:
     §2.7).'
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined against this term's own linked sources[] and their discovery_channel disclosures, that value is CONFIRMED (not simply carried over unchecked). **Flagged as a judgment call**: mixed signal: 1/2 linked sources show active-discovery channels, 1/2 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

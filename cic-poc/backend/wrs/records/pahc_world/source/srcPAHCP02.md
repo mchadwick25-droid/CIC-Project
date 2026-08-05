@@ -20,6 +20,10 @@ licensed_for: Doc_01 Strand B (Rome/collegial); Doc_02 institutional evidence (e
 verification_note: 'Registry-carried assessment fields, verbatim: confidence_level=Contested; citation_reliability=B;
   priority_review_flag=Yes. Notes: Domitianic-persecution dating anchor now widely doubted (Jones, Thompson)'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

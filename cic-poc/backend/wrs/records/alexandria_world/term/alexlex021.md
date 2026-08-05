@@ -102,7 +102,7 @@ voice_surface: When we speak of the soul being transformed, we do not mean self-
   itself.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-27'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -221,3 +221,5 @@ S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring t
 CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: mixed signal: 1/3 linked sources show active-discovery channels, 2/3 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

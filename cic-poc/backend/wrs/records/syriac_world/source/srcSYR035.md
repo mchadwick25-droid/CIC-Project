@@ -18,6 +18,8 @@ language: eng
 script: Latn
 licensed_for: Chronicle of Edessa reliability assessment (Doc_02 Sec. 5)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: Verified this session.

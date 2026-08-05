@@ -20,6 +20,8 @@ script: Syrc
 licensed_for: Ephrem's legendary founding of the bnat qyama choirs (Doc_09 syrstory007), material Doc_04
   explicitly forward-referenced to this step
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: hagiography
 verification_note: Bibliographically confirmed via Amar's own GEDSH synthesis and secondary citation;

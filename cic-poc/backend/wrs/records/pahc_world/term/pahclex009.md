@@ -83,7 +83,7 @@ voice_surface: 'This word is not ours - it is the governor''s, for two women of 
   of women who were made to speak under torture.'
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Inferential-Thin
@@ -109,3 +109,5 @@ contested_claim_ids:
 - pahcclaim005
 ---
 Migrated at the S6.2/PAHC S2.2-equivalent (2026-07-31) from `data/pahc_world/lexicon_chunks/pahclex009_ministrae.md` (mechanical split; mapping in `wrs/migrate/s62_pahc_s22.py`; aliases parsed under the VG-1a semantics with the preflighted Rule-A drops at birth - the second world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

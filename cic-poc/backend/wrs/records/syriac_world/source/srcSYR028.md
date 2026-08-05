@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Diatessaron reconstruction and scholarship history (Doc_01 Sec. 4, Doc_02 Sec. 2)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: 'Verified this session: primary expertise confirmed (Diatessaron/Gospel-harmony studies

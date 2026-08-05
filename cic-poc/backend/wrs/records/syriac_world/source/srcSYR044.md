@@ -19,6 +19,8 @@ script: Latn
 licensed_for: Ephrem's death in famine relief (Doc_09 syrstory001); corroborating mention of Jacob of
   Nisibis's Nicaea attendance (Doc_09 syrstory003)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-07, Doc_09 Step 9 pass
 genre_form: reference-work
 verification_note: Direct quotation obtained and verified this session (New Advent translation).

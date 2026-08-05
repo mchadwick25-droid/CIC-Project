@@ -20,6 +20,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   (**row 24** below) — this single letter, quoted within it, is Native on its own terms as Strand A evidence;
   do not extend Native status to the surrounding Athanasian material'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 4)
 jobs:
 - 1

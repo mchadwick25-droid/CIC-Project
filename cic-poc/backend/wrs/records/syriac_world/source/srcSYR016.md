@@ -20,6 +20,8 @@ script: Zyyy
 licensed_for: EXCLUDED - not licensed for any voice use (Named Comparandum, carried from the registry
   row verbatim); retained as a registry row so the boundary decision stays checkable (Doc_02 SS8).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Excluded on plain confessional/dualist-cosmology grounds per the Step 0 Conclusion;
   named here because Ephrem's own corpus explicitly triangulates against Mani alongside Marcion and Bardaisan

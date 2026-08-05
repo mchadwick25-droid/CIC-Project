@@ -20,6 +20,8 @@ script: Grek
 licensed_for: EXCLUDED - not licensed for any voice use (Out-of-Boundary, carried from the registry row
   verbatim); retained as a registry row so the boundary decision stays checkable (Doc_02 SS8).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Eusebius's own subject (universal church history) is not native to this world; his
   testimony is used only as evidentiary support for the Bardaisan boundary case in Doc_01 Sec. 5, not

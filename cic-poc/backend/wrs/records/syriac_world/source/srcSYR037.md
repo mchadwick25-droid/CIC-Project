@@ -20,6 +20,8 @@ language: eng
 script: Latn
 licensed_for: Odes of Solomon dating/provenance/language debate (Doc_02 Sec. 2, 8)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Verified this session. Butts (2022) explicitly states date/provenance/language are
   all disputed — used to support the Odes' Contested Boundary Status (row 12), not a settled claim.

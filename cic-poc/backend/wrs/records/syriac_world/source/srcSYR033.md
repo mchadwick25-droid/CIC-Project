@@ -20,6 +20,8 @@ script: Latn
 licensed_for: Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec.
   2, 12)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: journal-article
 verification_note: 'Verified this session: author, exact title, journal, year, volume, and article number

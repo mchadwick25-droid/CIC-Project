@@ -16,6 +16,8 @@ level_of_description: work
 language: eng
 script: Latn
 discovery_channel: builder-prior-knowledge
+confidence:
+  formation_confidence: Inferential-Thin
 work_author: Patricia Wilson-Kastner et al.
 work_title: 'A Lost Tradition: Women Writers of the Early Church (1981)'
 work_locus: '1981'

@@ -19,6 +19,8 @@ script: Latn
 licensed_for: Edessa/Osroene POLITICAL-STATUS FACTS ONLY (Doc_01 Sec. 3) — reduced interpretive weight
   on internal religious culture
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: monograph
 verification_note: 'Verified this session: confirmed as a Roman historian (Camden Professor of Ancient

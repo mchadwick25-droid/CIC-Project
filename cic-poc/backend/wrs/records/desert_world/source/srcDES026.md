@@ -16,6 +16,8 @@ level_of_description: corpus
 language: lat
 script: Latn
 discovery_channel: cited-in-another-row
+confidence:
+  formation_confidence: Widely Accepted
 licensed_for: 'Transmission-history evidence: the world''s own closing/codification marker (Doc_01 SS2.3),
   the Western transmission sequel (Doc_08 Force 3B-ii), the living-tradition line (Doc_09c SS4), and the
   apatheia -> puritas cordis substitution (Doc_03 SS1.18; Doc_06 SS3.2). Added per CO-P2-10(c) - the build

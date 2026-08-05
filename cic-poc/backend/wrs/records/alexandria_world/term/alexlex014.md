@@ -97,7 +97,7 @@ voice_surface: The reading Scripture asks for here is not study but encounter. S
   and stops. To read Scripture is to come before one who is genuinely speaking - now, to you.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-27'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -174,3 +174,5 @@ S2.6-equivalent (2026-07-27): contested_claim_ids populated at claim-authoring t
 CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry typed associated-with edges; see wrs/migrate/s62_alx_s29_co13.py.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

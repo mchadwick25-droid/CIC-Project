@@ -21,6 +21,8 @@ licensed_for: Material-culture anchor for Nisibis; baptistery citable as secure 
   five-aisled cathedral plan citable only AS a reconstruction, not a confirmed structure (Doc_01 Sec.
   2, 3; Doc_02 Sec. 6)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session per Elif Keser Kayaalp and Nihat Erdoğan, ''The Cathedral Complex
   at Nisibis,'' Anatolian Studies 63 (2013). Round 2 correction: the authors'' own abstract frames the

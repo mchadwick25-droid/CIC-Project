@@ -19,6 +19,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=S; confid
   Verification Note: A standard, widely-cited reference work per this build''s own knowledge; not independently
   re-checked this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 33)
 jobs:
 - 1

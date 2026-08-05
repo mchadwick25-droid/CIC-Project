@@ -16,6 +16,8 @@ licensed_for: Same as row 18, overlapping and partly independent material
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Same caveats as row 18'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 19)
 jobs:
 - 1

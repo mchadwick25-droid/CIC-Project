@@ -19,6 +19,8 @@ language: eng
 script: Latn
 licensed_for: Nisibis material-culture anchor (Doc_02 Sec. 6)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: journal-article
 verification_note: 'Verified this session: directly fetched/confirmed excavation report.'

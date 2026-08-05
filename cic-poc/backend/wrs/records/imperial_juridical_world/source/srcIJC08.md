@@ -21,6 +21,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   — this single passage, used narrowly as eyewitness testimony to a Native event, is the exception, not
   a general license to draw on Augustine''s own corpus'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 8)
 jobs:
 - 1

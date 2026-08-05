@@ -92,7 +92,7 @@ conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried h
   base.'
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -123,3 +123,5 @@ Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridi
 The formula's own precise wording and the congregation's own emotional experience of the standoff (fear sustained by singing, willingness to remain rather than surrender the building) rest on a single author's own account of his own confrontation (Ambrose) corroborated only for the broad event, not for every specific detail, by an independent eyewitness (Augustine) — historically uncertain at the level of precise wording and interiority, but formationally central to Strand C's own self-understanding (Doc_01 §4).
 
 [Final Assembly Instruction - parked at the S2.2-equivalent; typed home per the splitter docstring] Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

@@ -21,6 +21,8 @@ script: Latn
 licensed_for: Edessa's Roman-periphery characterization (Doc_01 Sec. 3); qyama institution; Ephrem's clerical
   role and Author Gravity (Doc_02 Sec. 3)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: primary expertise confirmed (Syriac Christianity, Ephrem, Christian-Muslim
   relations, Prof. of Early Christian Studies, CUA). JCSSS article fetched and confirmed as directly on-point.'

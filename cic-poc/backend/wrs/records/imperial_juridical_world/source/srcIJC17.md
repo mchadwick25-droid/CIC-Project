@@ -19,6 +19,9 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   of this legislative title is Widely Accepted, not uniformly "anti-Jewish" as this document''s first
   draft imprecisely characterized it'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 17)
 jobs:
 - 1
