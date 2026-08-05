@@ -60,6 +60,28 @@ embeddings_mod.get_shared_embeddings = lambda: _shared
 indexer_mod.get_shared_embeddings = lambda: _shared
 story_indexer_mod.get_shared_embeddings = lambda: _shared
 
+
+# Same compromise, second site: app/rag/cross_encoder.py's reranker also
+# downloads a Hugging Face model (cross-encoder/ms-marco-MiniLM-L-6-v2) on
+# first use. Stub it with a lexical-overlap score scaled to roughly the
+# real model's calibrated range (module docstring: must-docs >= 1.2, noise
+# median -10.7, threshold -4.0) so relevance_partition's keep/drop logic
+# still does something sensible rather than keeping or dropping everything.
+class _NetworkFreeCrossEncoder:
+    def predict(self, pairs):
+        scores = []
+        for query, doc_text in pairs:
+            q_toks = set(re.findall(r"[a-z0-9]+", query.lower()))
+            d_toks = set(re.findall(r"[a-z0-9]+", doc_text.lower()))
+            overlap = len(q_toks & d_toks) / max(len(q_toks), 1)
+            scores.append(-10.0 + 13.0 * overlap)
+        return scores
+
+
+import app.rag.cross_encoder as cross_encoder_mod  # noqa: E402
+cross_encoder_mod._model = _NetworkFreeCrossEncoder()
+cross_encoder_mod._get_model = lambda: cross_encoder_mod._model
+
 usage_records = []
 
 
