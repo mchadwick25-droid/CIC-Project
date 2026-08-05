@@ -755,6 +755,21 @@ function layout(){
     const busy=Array(nSlots).fill(-1);
     const maxOff=NW/2-TWb/2-4;
     const blo=NW/2+4, bhi=W-NW/2-4;
+    /* box-vs-foreign-tail exclusion margin (Mark, 2026-08-05: "the width is
+       no longer fitting on one page"). Reusing GAPb here (the tail-to-tail
+       PITCH constant, 12px) on top of a full NW/2 box half-width doubled
+       the real cost of every excluded ribbon and ballooned the canvas
+       (2600px -> 4640px at 1280px viewport) once the box-vs-foreign-tail
+       fix (below) stopped exempting same-family ribbons -- 23 concurrent
+       movements in the crowded era each paying that extra 12px on both
+       sides adds up fast. GAPb's job is tail-to-tail spacing on the pitch
+       grid, not box clearance; boxClear is a small, independent visual
+       buffer for the actual constraint (a box must not visually touch a
+       foreign tail) -- 4px verified as the smallest value that still holds
+       foreignTailOverlaps at 0 (2px reintroduced 2 real overlaps). Brings
+       the canvas back to 2840px/2010px at 1280/390px, close to the
+       pre-fix baseline instead of nearly double it. */
+    const boxClear=4;
     const ribbons=[];let fb=0;const pos={};const slotOf={};
     rows.forEach(m=>{
       let want=aX(m._ei,m._fam);
@@ -779,7 +794,7 @@ function layout(){
          happened to share a hue — fixed by never exempting anything here
          except a movement's own predecessor, and only via the explicit
          slot-inheritance branch below, not a blanket family pass. */
-      const bars=ribbons.filter(p=>p.endRow>=m._row).map(p=>[p.x-TWb/2-GAPb-NW/2,p.x+TWb/2+GAPb+NW/2]).sort((a,b)=>a[0]-b[0]);
+      const bars=ribbons.filter(p=>p.endRow>=m._row).map(p=>[p.x-TWb/2-boxClear-NW/2,p.x+TWb/2+boxClear+NW/2]).sort((a,b)=>a[0]-b[0]);
       const merged=[];bars.forEach(iv=>{const l=merged[merged.length-1];
         if(l&&iv[0]<=l[1])l[1]=Math.max(l[1],iv[1]);else merged.push(iv.slice());});
       const okbx=x=>x>=blo&&x<=bhi&&!merged.some(iv=>x>iv[0]&&x<iv[1]);
