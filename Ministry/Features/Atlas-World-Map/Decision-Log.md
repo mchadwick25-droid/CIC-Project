@@ -13,6 +13,69 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 21) — Mobile sheet: reverted to static sizing after a genuine regression, five rounds in
+
+**The report:** "still not working, their is not dark screen so it must
+be behind the page, it performed worse that time it would get stuck and
+I couldnt close it." A different kind of report than the four before
+it. UI 18-20 each described a sizing or positioning imperfection --
+readable but wrong-shaped, small, off-center. This one describes the
+sheet failing at the one thing it absolutely cannot fail at: opening
+and closing. Stuck and unclosable is a worse outcome than anything the
+original "crammed to the right" complaint (UI 16) started from.
+
+**Not chasing a sixth fix.** UI 18, 19, and 20 each correctly diagnosed
+and fixed exactly what the previous real-device report described --
+and each time, the NEXT real-device test found a different failure
+underneath, none of which had reproduced in headless Chromium testing
+at any point. Four straight rounds of "clean in emulation, broken in a
+new way on the actual phone" is a signal about the STRATEGY, not about
+any single implementation being slightly wrong: dynamically deriving
+the sheet's live geometry from browser viewport state (first
+`visualViewport` properties, then `#scrim`'s measured rect, both
+re-evaluated on every `visualViewport` resize/scroll event, each firing
+writing several style properties plus a forced layout reflow via
+`offsetHeight`) kept finding real-device edge cases this session has no
+way to reproduce or verify directly. The live-listener version is also
+a real, if unconfirmed, candidate for the specific "stuck" failure --
+a feedback loop between the geometry writes and further viewport events
+is a plausible mechanism, though it couldn't be reproduced or
+disproven in headless testing either.
+
+**Reverted entirely, not patched further.** No live listeners, no
+measuring `#scrim` or `window.visualViewport`, no per-open
+recomputation, no `offsetHeight` reflow. `#sheet`'s `max-width` and
+`max-height` are set ONCE, statically, from the stable
+`screen.width`/`screen.height` (the same target VALUES UI 18
+established were correct, just without any of the dynamic machinery
+around them) -- and the show/hide animation reverts to the ORIGINAL
+`bottom:-105% -> bottom:0` transition, which was never implicated in
+any of the five reports; only the dynamically-computed JS geometry ever
+was.
+
+**What this trades away, said plainly:** the sheet will not be
+perfectly sized or positioned at every possible zoom/pan state -- opened
+while the map is significantly zoomed out or panned off-center, it may
+still appear smaller than the physical screen or not perfectly
+centered on whatever's currently visible, the same class of cosmetic
+imperfection UI 18 first reported. That trade is deliberate: after five
+rounds, the property that matters more than exact correctness at every
+zoom state is that the sheet reliably opens and reliably closes, every
+time, with zero risk of hanging the page. If real-world use finds the
+static sizing genuinely too small to be usable (not just imperfect),
+that's a real open problem worth returning to -- but with a DIFFERENT
+strategy than live-tracking browser viewport state, which this session
+has now spent five rounds failing to make reliable on a real device.
+
+**Verified:** close/reopen cycle with a different entry re-tested
+clean, no errors. Full Playwright harness clean (0 overlaps, 0 JS
+errors); `validate-census.mjs` clean. Desktop re-verified unchanged.
+Real-device confirmation that the "stuck, can't close" failure is
+actually gone is the one thing this session cannot do itself -- flagged
+here rather than claimed.
+
+---
+
 ## 2026-08-05 (Pass 7, UI 20) — Mobile pinch-zoom, round five: measure what's already correct instead of recomputing it
 
 **The report:** "it isn't perfect, but better, when zoomed out its

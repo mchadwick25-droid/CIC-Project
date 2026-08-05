@@ -288,23 +288,38 @@ html.is-mobile #glossary dt{margin-top:.35rem}
 html.is-mobile .node .nm{font-size:.62rem}
 html.is-mobile .node .dt{font-size:.52rem}
 html.is-mobile .node{padding:.2rem .3rem .16rem}
-/* #sheet's show/hide on mobile switches from animating `bottom`
-   (-105% -> 0) to animating `transform: translateY` instead (Mark,
-   2026-08-05, third report on this element: "square but small, and when
-   you zoom in it jumps to the left and down mostly off the screen") --
-   `bottom` needs a `left/top/width/height` that's already correct
-   relative to the CURRENT physical screen to mean anything, and on
-   mobile that's now computed continuously in JS (updateSheetGeometry,
-   tracking window.visualViewport, the one API confirmed reliable across
-   every round of testing this element) rather than left to CSS position:
-   fixed, which the "jumps ... mostly off the screen" report confirms
-   does NOT reliably track the visual viewport here the way UI 18 assumed
-   it would. `transform:translateY` composes cleanly on top of whatever
-   top/left JS just set, independent of it -- sliding the box down by its
-   own height to hide, back to translateY(0) to show, regardless of
-   where that box currently sits. */
-html.is-mobile #sheet{bottom:auto;transform:translateY(110%);transition:transform .22s ease}
-html.is-mobile #sheet.on{transform:translateY(0)}
+/* #sheet's sizing on mobile: STOPPED at a static max-width/max-height
+   cap (Mark, 2026-08-05, five straight reports on this one element,
+   each fix creating a DIFFERENT real-device failure the last one
+   didn't have -- "thin long field" -> "jumps... mostly off screen" ->
+   "small and goes to the lower left" -> "no dark screen... stuck, I
+   couldn't close it"). That last one is a different class of problem
+   than the first four: not a sizing/positioning imperfection but the
+   sheet becoming genuinely unusable, and it arrived right after adding
+   a live visualViewport resize/scroll listener that measures another
+   element and writes three style properties (plus one forced layout
+   reflow via offsetHeight) on every firing -- a real, if unconfirmed,
+   candidate for a feedback loop on a real device even if it never
+   reproduced in headless testing. Four consecutive rounds of "verified
+   clean in Chromium emulation, broken in a new way on the actual phone"
+   is a signal about the STRATEGY (dynamically tracking live zoom/pan
+   state via JS), not just each individual fix -- so this reverts all of
+   it: no live listeners, no measuring #scrim or window.visualViewport,
+   no per-open recomputation. max-width/max-height are capped ONCE,
+   statically, to screen.width/height*0.78 -- the exact values UI 18
+   established are the right TARGETS, just without any of the dynamic
+   machinery that kept finding new ways to break. This sacrifices exact
+   correctness at every possible zoom/pan state (a sheet opened while
+   badly off-center may still not be perfectly positioned) in exchange
+   for the property that actually matters most: it always opens and
+   always closes. Show/hide reverts to the original bottom:-105% -> 0
+   transition (the base #sheet rule below), which was never implicated
+   in any of the five reports -- only ever the dynamic JS was. */
+/* actual max-width/max-height values are set once, in JS, as inline
+   styles from the stable screen.width/height (see the isMobileDevice
+   block below layout()) -- not here, since vw/vh are exactly the
+   viewport-relative units that caused the original version of this bug
+   (UI 18's max-height:78vh) once the canvas widen made them unreliable. */
 html:not(.is-mobile) #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
   border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
 html:not(.is-mobile) #sheet.on{transform:none}
@@ -622,56 +637,35 @@ function setMobileMapZoom(){
   const fitScale=Math.min(1,screen.width/W).toFixed(4);
   setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
 }
-/* #sheet's geometry on mobile, fourth attempt (Mark, 2026-08-05, four
-   reports on this one element in a row -- each round fixed what it
-   measured, and each round's real device test found the NEXT layer):
-   "thin long field" (fixed: size from screen.width/height) -> "square
-   but small, jumps... mostly off screen" when zooming after opening
-   (fixed: track window.visualViewport live, not a one-time snapshot) ->
-   "when zoomed out its small and still goes to the lower left." That
-   third report, on a real phone again, means visualViewport.offsetLeft/
-   offsetTop/width/height ALSO don't reliably reflect the true visible
-   area here, at least not immediately after this page's OWN dynamic
-   viewport-meta widen (three straight rounds of exactly this class of
-   gap between what headless Chromium testing showed and what a real
-   phone actually does with a JS-mutated viewport meta tag).
-   The tell: nothing was reported wrong with #scrim, the dark backdrop
-   directly behind the sheet -- also position:fixed, also meant to cover
-   the whole visible screen (`inset:0`), and it evidently DOES, or a
-   backdrop only covering part of the screen would have been the more
-   obvious complaint. So position:fixed itself is not the unreliable
-   part; deriving a SEPARATE element's geometry from visualViewport
-   properties, independently of what's already visibly correct, was.
-   Fix: stop computing anything from visualViewport numbers. Measure
-   #scrim's own getBoundingClientRect() instead -- whatever rectangle it
-   is ACTUALLY, visibly covering right now, by definition the true
-   visible screen -- and size/position the sheet to match that measured
-   rectangle directly. No independent math to drift out of sync with
-   reality; the sheet inherits its geometry from an element already
-   confirmed correct rather than recomputing its own guess at the same
-   answer. scrim must already be showing (.on class added) before this
-   runs, in openSheet, or its rect measures zero. Still called live on
-   every visualViewport resize/scroll event while the sheet is open
-   (scrim's rect changes right along with those, so re-measuring on the
-   same triggers keeps this in sync exactly as before). */
-function updateSheetGeometry(){
-  if(!isMobileDevice)return;
-  const scrimRect=document.getElementById('scrim').getBoundingClientRect();
-  if(!scrimRect.width||!scrimRect.height)return;
+/* #sheet's sizing on mobile, reverted to static (Mark, 2026-08-05, fifth
+   report on this one element: "no dark screen... it would get stuck and
+   I couldn't close it" -- worse than every prior report, which were all
+   sizing/positioning imperfections, not a broken/unusable modal). Four
+   straight rounds before this one each fixed exactly what the previous
+   real-device report described, and each time the NEXT real-device test
+   found a different failure underneath -- headless Chromium testing
+   passed clean every round. That pattern is a signal about the
+   STRATEGY, not any one implementation: dynamically deriving the
+   sheet's geometry from live browser state (visualViewport properties,
+   then #scrim's measured rect, both re-run on every visualViewport
+   resize/scroll event with a forced layout reflow in the handler) kept
+   finding new real-device edge cases that never reproduced in testing,
+   and the last one broke the single most important guarantee this
+   element has: that it opens and closes. Reverted entirely -- no live
+   listeners, no measuring any other element, no per-open recomputation.
+   max-width/max-height are set ONCE, statically, from the stable
+   screen.width/height (below, alongside the mobile viewport widen this
+   whole feature started from) -- the same target values UI 18
+   established, just without any of the dynamic machinery. This gives up
+   exact correctness at every possible zoom/pan state (a sheet opened
+   while significantly panned off-center may still not be perfectly
+   positioned) for the property that actually matters most: it always
+   opens, and it always closes. */
+if(isMobileDevice){
   const sh=document.getElementById('sheet');
-  sh.style.left=Math.round(scrimRect.left)+'px';
-  sh.style.right='auto';sh.style.margin='0';sh.style.bottom='auto';
-  sh.style.width=Math.round(scrimRect.width)+'px';
-  sh.style.maxWidth=Math.round(scrimRect.width)+'px';
-  sh.style.maxHeight=Math.round(scrimRect.height*0.78)+'px';
-  const h=sh.offsetHeight;
-  sh.style.top=Math.round(scrimRect.top+scrimRect.height-h)+'px';
-}
-function sheetVvListen(on){
-  if(!isMobileDevice||!window.visualViewport)return;
-  const fn=on?'addEventListener':'removeEventListener';
-  window.visualViewport[fn]('resize',updateSheetGeometry);
-  window.visualViewport[fn]('scroll',updateSheetGeometry);
+  sh.style.left='0px';sh.style.right='auto';sh.style.margin='0';
+  sh.style.maxWidth=screen.width+'px';
+  sh.style.maxHeight=Math.round(screen.height*0.78)+'px';
 }
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
@@ -1349,13 +1343,7 @@ function openSheet(id){
      sheet becomes visible so there's no flash of the wrong position. */
   sheet.scrollTop=0;
   sheet.removeAttribute('inert');
-  /* scrim must be showing (display:block, not display:none) before
-     updateSheetGeometry() measures it, or its rect is all zero -- so
-     scrim's own 'on' class goes on first, ahead of the sheet's. */
-  scrim.classList.add('on');
-  updateSheetGeometry();
-  sheet.classList.add('on');
-  sheetVvListen(true);
+  sheet.classList.add('on');scrim.classList.add('on');
   sheet.focus();
 }
 const noHover=matchMedia('(hover: none)').matches;let lastTap=null;
@@ -1385,7 +1373,6 @@ canvas.addEventListener('keydown',ev=>{
 function closeSheet(){
   sheet.classList.remove('on');scrim.classList.remove('on');
   sheet.setAttribute('inert','');
-  sheetVvListen(false);
   if(sheetTrigger&&document.contains(sheetTrigger))sheetTrigger.focus();
   sheetTrigger=null;
 }
