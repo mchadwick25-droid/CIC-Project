@@ -30,10 +30,12 @@ os.environ.pop("MOCK_LLM", None)
 import hashlib
 import re
 
+from langchain_core.embeddings import Embeddings
+
 _EMBED_DIM = 384
 
 
-class _NetworkFreeHashEmbeddings:
+class _NetworkFreeHashEmbeddings(Embeddings):
     def _vec(self, text: str) -> list[float]:
         v = [0.0] * _EMBED_DIM
         for tok in re.findall(r"[a-z0-9]+", text.lower()):
