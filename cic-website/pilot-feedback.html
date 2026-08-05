@@ -21,9 +21,6 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 .optin{background:var(--vellum);border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
   border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:var(--muted)}
 .submit-row{text-align:center;margin-top:1.8rem}
-.give-status{font-family:'Alegreya Sans',sans-serif;font-size:.9rem;margin-top:1rem;display:none;text-align:center}
-.give-status.show{display:block}
-.give-status.error{color:var(--madder)}
 </style>
 </head>
 <body>
@@ -60,9 +57,9 @@ form.feedback textarea{min-height:5rem;resize:vertical}
   <section class="page-section">
     <div class="optin">This is optional, and it's only for us &mdash; to help us see clearly what's working and what isn't as we keep building. Answer whatever feels comfortable to share, and skip anything you'd rather not.</div>
 
-    <form class="feedback" id="feedbackForm">
+    <form class="feedback" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
       <label for="perspective">Which of the four perspectives did you engage as?</label>
-      <select id="perspective" name="perspective">
+      <select id="perspective" name="Perspective">
         <option>General</option>
         <option>Pastor or Teacher</option>
         <option>Academic</option>
@@ -72,30 +69,28 @@ form.feedback textarea{min-height:5rem;resize:vertical}
       </select>
 
       <label for="tradition">Which tradition(s) did you speak with?</label>
-      <input type="text" id="tradition" name="tradition" placeholder="e.g. Chloe (House-Churches), or more than one">
+      <input type="text" id="tradition" name="Tradition" placeholder="e.g. Chloe (House-Churches), or more than one">
 
       <label for="confusing">Was anything confusing, or did it assume knowledge you didn't have?<span class="hint">Optional</span></label>
-      <textarea id="confusing" name="confusing"></textarea>
+      <textarea id="confusing" name="Confusing"></textarea>
 
       <label for="invented">Did anything feel invented, overstated, or not actually backed by what was shown to you?<span class="hint">Optional &mdash; this is the one we most want to hear if the answer is yes</span></label>
-      <textarea id="invented" name="invented_or_overstated"></textarea>
+      <textarea id="invented" name="Invented_or_overstated"></textarea>
 
       <label for="opened">What did this open up for you, if anything &mdash; a thought, a question, a story you'd be willing to share?<span class="hint">Optional</span></label>
-      <textarea id="opened" name="what_it_opened"></textarea>
+      <textarea id="opened" name="What_it_opened"></textarea>
 
       <label for="fundable">Looking past what's rough today, do you see enough potential here that this is fundable &mdash; worth real investment as we keep building it?<span class="hint">Optional</span></label>
-      <textarea id="fundable" name="fundable_potential"></textarea>
+      <textarea id="fundable" name="Fundable_potential"></textarea>
 
       <label for="else">Anything else &mdash; the good, the off, the thin, the wrong. We want to hear it plainly.<span class="hint">Optional</span></label>
-      <textarea id="else" name="anything_else"></textarea>
+      <textarea id="else" name="Anything_else"></textarea>
 
       <label for="name">Your name<span class="hint">Optional &mdash; leave blank to stay anonymous</span></label>
-      <input type="text" id="name" name="name">
+      <input type="text" id="name" name="Name">
 
       <label for="email">Email<span class="hint">Optional &mdash; only if you're open to us following up</span></label>
-      <input type="email" id="email" name="email">
-
-      <p class="give-status" id="feedbackStatus" role="status"></p>
+      <input type="email" id="email" name="Email">
 
       <div class="submit-row">
         <button type="submit" class="btn primary">Send this to us</button>
@@ -109,71 +104,10 @@ form.feedback textarea{min-height:5rem;resize:vertical}
     <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html" aria-current="page">Feedback</a>
-      <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
   </div>
 </footer>
 
-<script>
-(function(){
-"use strict";
-// Same LIVE_APP_URL pattern as index.html/atlas-v3.html. The form used to
-// post to a mailto: action, which modern browsers handle unreliably (some
-// silently do nothing) - fixed 2026-08-05 (full-system review, Readiness
-// P1-9b) to POST real JSON to the backend, with a mailto: fallback if the
-// request itself fails, so a submission is never just lost silently.
-const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
-
-const form = document.getElementById('feedbackForm');
-const statusEl = document.getElementById('feedbackStatus');
-function showStatus(message, isError) {
-  statusEl.textContent = message;
-  statusEl.className = 'give-status show' + (isError ? ' error' : '');
-}
-
-function mailtoFallback(data) {
-  const lines = [
-    'Perspective: ' + (data.perspective || ''),
-    'Tradition: ' + (data.tradition || ''),
-    'Confusing: ' + (data.confusing || ''),
-    'Invented or overstated: ' + (data.invented_or_overstated || ''),
-    'What it opened: ' + (data.what_it_opened || ''),
-    'Fundable potential: ' + (data.fundable_potential || ''),
-    'Anything else: ' + (data.anything_else || ''),
-    'Name: ' + (data.name || ''),
-    'Email: ' + (data.email || ''),
-  ].join('\n');
-  window.location.href = 'mailto:info@churchinconversation.com?subject=' +
-    encodeURIComponent('Pilot feedback') + '&body=' + encodeURIComponent(lines);
-}
-
-form.addEventListener('submit', async (ev) => {
-  ev.preventDefault();
-  const data = Object.fromEntries(new FormData(form).entries());
-  const submitBtn = form.querySelector('button[type="submit"]');
-  submitBtn.disabled = true;
-  showStatus('Sending…', false);
-
-  try {
-    const resp = await fetch(LIVE_APP_URL + '/api/pilot/feedback', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-    if (!resp.ok) throw new Error('non-200 response');
-    showStatus('Thank you — this is genuinely helpful.', false);
-    form.reset();
-  } catch (err) {
-    showStatus("Couldn't reach us directly — opening an email with your answers instead.", true);
-    mailtoFallback(data);
-  } finally {
-    submitBtn.disabled = false;
-  }
-});
-})();
-</script>
 </body>
 </html>
