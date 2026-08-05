@@ -288,38 +288,29 @@ html.is-mobile #glossary dt{margin-top:.35rem}
 html.is-mobile .node .nm{font-size:.62rem}
 html.is-mobile .node .dt{font-size:.52rem}
 html.is-mobile .node{padding:.2rem .3rem .16rem}
-/* #sheet's sizing on mobile: STOPPED at a static max-width/max-height
-   cap (Mark, 2026-08-05, five straight reports on this one element,
-   each fix creating a DIFFERENT real-device failure the last one
-   didn't have -- "thin long field" -> "jumps... mostly off screen" ->
-   "small and goes to the lower left" -> "no dark screen... stuck, I
-   couldn't close it"). That last one is a different class of problem
-   than the first four: not a sizing/positioning imperfection but the
-   sheet becoming genuinely unusable, and it arrived right after adding
-   a live visualViewport resize/scroll listener that measures another
-   element and writes three style properties (plus one forced layout
-   reflow via offsetHeight) on every firing -- a real, if unconfirmed,
-   candidate for a feedback loop on a real device even if it never
-   reproduced in headless testing. Four consecutive rounds of "verified
-   clean in Chromium emulation, broken in a new way on the actual phone"
-   is a signal about the STRATEGY (dynamically tracking live zoom/pan
-   state via JS), not just each individual fix -- so this reverts all of
-   it: no live listeners, no measuring #scrim or window.visualViewport,
-   no per-open recomputation. max-width/max-height are capped ONCE,
-   statically, to screen.width/height*0.78 -- the exact values UI 18
-   established are the right TARGETS, just without any of the dynamic
-   machinery that kept finding new ways to break. This sacrifices exact
-   correctness at every possible zoom/pan state (a sheet opened while
-   badly off-center may still not be perfectly positioned) in exchange
-   for the property that actually matters most: it always opens and
-   always closes. Show/hide reverts to the original bottom:-105% -> 0
-   transition (the base #sheet rule below), which was never implicated
-   in any of the five reports -- only ever the dynamic JS was. */
-/* actual max-width/max-height values are set once, in JS, as inline
-   styles from the stable screen.width/height (see the isMobileDevice
-   block below layout()) -- not here, since vw/vh are exactly the
-   viewport-relative units that caused the original version of this bug
-   (UI 18's max-height:78vh) once the canvas widen made them unreliable. */
+/* #sheet needs NO mobile-specific CSS at all (Mark, 2026-08-05, after
+   six rounds of exactly that -- see MAP_ZOOM's comment near layout()
+   for the full history). The page's own viewport meta is never touched
+   anymore, so mobile's device-width viewport stays genuinely narrower
+   than #sheet's max-width:640px cap, exactly as it always was before
+   any of this -- the cap simply never engages, giving a naturally
+   full-width sheet with zero JS involved. This is the actual payoff of
+   moving pinch-zoom off the whole page and onto just the map: every bug
+   this element had was a downstream consequence of the page itself
+   being zoomed, and none of that machinery exists anymore for it to be
+   downstream OF. */
+/* #mapViewport is the self-contained, internally-scrolling "map pane" on
+   mobile (a bounded box, like an embedded map, NOT the whole page) --
+   the map's own pinch/pan/zoom lives entirely inside it, while
+   #controls above and the footer/glossary below stay in normal page
+   flow, reachable by ordinary page scroll same as always. Desktop gets
+   no special sizing here at all -- #wrap keeps flowing in the page
+   exactly as it always has, unscaled, un-transformed, un-contained. */
+html.is-mobile #mapViewport{overflow:auto;-webkit-overflow-scrolling:touch;
+  touch-action:pan-x pan-y;position:relative;-ms-overflow-style:none;scrollbar-width:none}
+html.is-mobile #mapViewport::-webkit-scrollbar{display:none}
+html.is-mobile #mapScaler{position:relative}
+html.is-mobile #wrap{transform-origin:0 0}
 html:not(.is-mobile) #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
   border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
 html:not(.is-mobile) #sheet.on{transform:none}
@@ -441,7 +432,7 @@ body.filtering #art .thread{opacity:.1}
 <symbol id="ic-question" viewBox="0 0 16 16"><path d="M5 5.5 Q5 2.5 8 2.5 Q11 2.5 11 5 Q11 7 8.5 8 L8 10" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="7.2" y="12" width="1.8" height="1.8" fill="currentColor"/></symbol>
 <symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
 </defs></svg>
-<div id="wrap"><div id="canvas"><svg id="art"></svg></div></div>
+<div id="mapViewport"><div id="mapScaler"><div id="wrap"><div id="canvas"><svg id="art"></svg></div></div></div></div>
 
 <div id="railWrap">
   <div id="yearBadge" aria-live="polite" aria-label="Years currently in view"></div>
@@ -599,74 +590,23 @@ const ERA_YEARS=[[70,312],[312,451],[451,622],[622,1054],[1054,1300],[1300,1517]
 const aliveIn=(m,i)=>m.start<ERA_YEARS[i][1]&&m.end>=ERA_YEARS[i][0];
 const eraIndexOf=m=>eraSpans.findIndex(s=>m._row>=s.r0&&m._row<s.r1);
 let anchors=[];
-const metaVp=document.querySelector('meta[name="viewport"]');
-/* Writing the viewport meta tag actually changes the layout viewport's
-   width, and that itself fires a native 'resize' event (confirmed by
-   testing, not assumed) -- which the resize listener below would
-   otherwise treat as a real window resize and call layout() again, which
-   ends its own run by writing the viewport meta AGAIN, which fires
-   ANOTHER resize. Harmless in the steady state (it converges -- the
-   second pass computes the same W and writes the same content) but still
-   wasted work every layout() call, so it's suppressed properly:
-   setViewportMeta is the only path allowed to touch the tag; it arms
-   selfTriggeredResize immediately before writing, and the resize
-   listener consumes (clears) that flag instead of re-running layout()
-   for that one event -- a real resize never sets the flag, so it's never
-   suppressed.
-   Earlier drafts of this feature also toggled the viewport BACK to
-   device-width while the click-document sheet (#sheet) was open, so it
-   would read at native 1:1 scale regardless of whatever zoom the map was
-   left at. Dropped after testing against real Chromium mobile emulation:
-   the toggle's OWN resize (device-width back to the wide canvas width)
-   left #sheet's fixed-position containing block resolving against a
-   stale, inflated viewport HEIGHT -- the sheet rendered anchored below
-   the actual visible screen, unreachable, which is a far worse bug than
-   the one this feature set out to fix. Kept instead: the sheet's
-   max-width is pinned once to screen.width (see is-mobile init below) so
-   it's never wider than the physical screen at any zoom level; its exact
-   on-screen position while the user has actively pinched/panned away
-   from the top of the page is a known, accepted limitation (position:
-   fixed vs. the visual viewport is genuinely inconsistent across mobile
-   browsers) rather than something this pass claims to have solved. */
-let selfTriggeredResize=false;
-function setViewportMeta(content){selfTriggeredResize=true;metaVp.setAttribute('content',content);}
-/* the map's pinch/pan zoom state: whole canvas fit to the screen at rest,
-   native pinch-zoom/pan from there (mobile only -- see layout()). */
-function setMobileMapZoom(){
-  const W=window.__mobileCanvasW;if(!W)return;
-  const fitScale=Math.min(1,screen.width/W).toFixed(4);
-  setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
-}
-/* #sheet's sizing on mobile, reverted to static (Mark, 2026-08-05, fifth
-   report on this one element: "no dark screen... it would get stuck and
-   I couldn't close it" -- worse than every prior report, which were all
-   sizing/positioning imperfections, not a broken/unusable modal). Four
-   straight rounds before this one each fixed exactly what the previous
-   real-device report described, and each time the NEXT real-device test
-   found a different failure underneath -- headless Chromium testing
-   passed clean every round. That pattern is a signal about the
-   STRATEGY, not any one implementation: dynamically deriving the
-   sheet's geometry from live browser state (visualViewport properties,
-   then #scrim's measured rect, both re-run on every visualViewport
-   resize/scroll event with a forced layout reflow in the handler) kept
-   finding new real-device edge cases that never reproduced in testing,
-   and the last one broke the single most important guarantee this
-   element has: that it opens and closes. Reverted entirely -- no live
-   listeners, no measuring any other element, no per-open recomputation.
-   max-width/max-height are set ONCE, statically, from the stable
-   screen.width/height (below, alongside the mobile viewport widen this
-   whole feature started from) -- the same target values UI 18
-   established, just without any of the dynamic machinery. This gives up
-   exact correctness at every possible zoom/pan state (a sheet opened
-   while significantly panned off-center may still not be perfectly
-   positioned) for the property that actually matters most: it always
-   opens, and it always closes. */
-if(isMobileDevice){
-  const sh=document.getElementById('sheet');
-  sh.style.left='0px';sh.style.right='auto';sh.style.margin='0';
-  sh.style.maxWidth=screen.width+'px';
-  sh.style.maxHeight=Math.round(screen.height*0.78)+'px';
-}
+/* Mobile pinch-zoom, rebuilt as map-only (Mark, 2026-08-05, after six
+   rounds on the whole-page-zoom approach -- see MAP_ZOOM below for the
+   full history and why this replacement exists). The old approach
+   widened the PAGE's own viewport meta tag so native browser pinch-zoom
+   covered the whole document, including the header and the
+   click-document sheet -- five real-device reports in a row (thin-long
+   field, jumps off screen, small+mispositioned, stuck+unclosable, then
+   a visible jump mid-gesture even after full static reversion) traced
+   back to the same root cause: position:fixed elements are not reliably
+   glued to the visual viewport during an ACTIVE pinch gesture on real
+   mobile browsers, and no amount of CSS or JS geometry-tracking fully
+   tamed it. This version never touches the page's own viewport meta at
+   all (it stays exactly `width=device-width, initial-scale=1`, so
+   desktop-style native browser zoom remains fully available everywhere
+   on the page for accessibility) -- the SHEET, scrim, and header are
+   structural siblings of the zoomable map region, never descendants of
+   it, so no zoom state of any kind can ever reach them again. */
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
   /* viewW sources from screen.width on mobile, not clientWidth -- once the
@@ -776,22 +716,6 @@ function layout(){
   anchors=attempt.A;
   rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
-  /* Pinch-zoom/pan (Mark, 2026-08-04: "on the phone it feels like
-     everything is crammed to the right, we can expand to a width that
-     when we scroll fills the width, but pinch in and be able to slide
-     right and left") -- on mobile, the packed canvas is routinely wider
-     than the screen (the whole reason the mobile "less text" pass and
-     this dark-mode ring both exist), and until now that extra width just
-     sat off past the right edge of a fixed device-width viewport with no
-     visual cue it was there. Widening the page's OWN viewport meta tag to
-     the canvas's real width, with initial-scale computed so it fits the
-     screen at rest, hands zoom and pan to the browser's native pinch/pan
-     gesture handling -- the whole page opens showing the full width at
-     once (nothing hidden off-screen), and pinching in to read a crowded
-     stretch is the same gesture as zooming any other webpage, no custom
-     touch code layered onto this already-delicate render path. Desktop
-     is untouched -- this block only runs for isMobileDevice. */
-  if(isMobileDevice){window.__mobileCanvasW=W;setMobileMapZoom();}
   const subEl=document.querySelector('header.bar .s');
   if(subEl)subEl.textContent=W>viewW
     ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
@@ -842,6 +766,92 @@ function layout(){
   canvas.style.height=(totalH+24)+"px";
   canvas.insertAdjacentHTML('beforeend',html);
   drawArt(W,totalH+24,rh);
+  if(isMobileDevice)initMobileMapZoom(W,totalH+24);
+}
+/* MAP_ZOOM -- mobile-only pinch/pan, scoped to #mapViewport alone (Mark,
+   2026-08-05, after six straight rounds on the whole-page-zoom version:
+   "thin long field" -> "jumps off screen" -> "small, lower left" ->
+   "stuck, couldn't close" -> even after a full revert to static CSS,
+   "starts to expand [correctly]... after a little bit of zooming it
+   jumps off the page... rough and unpredictable". That last report,
+   with ZERO app JS touching the sheet's position at all by that point,
+   proved the jumpiness was never this page's bug to fix in the first
+   place -- position:fixed elements are not reliably glued to the visual
+   viewport DURING an active native pinch gesture on real mobile
+   browsers, a genuine, long-documented web platform rough edge, not
+   something more clever CSS or JS could tame. Asked Mark to choose
+   between living with that roughness, dropping pinch-zoom entirely, or
+   rebuilding zoom scoped to just the map -- he chose the rebuild.
+   This version never asks the BROWSER to zoom anything. The page's
+   viewport meta is never touched (native accessibility zoom stays fully
+   available everywhere), and #sheet/#scrim/#controls/#railWrap are
+   structural siblings of the zoomable region, never descendants of it --
+   no zoom state of any kind can reach them, which is what actually
+   closes out every one of the six rounds above at once, structurally,
+   rather than by chasing the next edge case.
+   #mapViewport is a bounded-height, internally-scrolling "map pane"
+   (like an embedded map) sized to the screen space below #controls;
+   #mapScaler is a plain block sized to the CURRENT scaled content
+   dimensions (contentSize * mapScale) purely so #mapViewport's native
+   overflow:auto has the correct scrollable range at any zoom level;
+   #wrap itself never changes size, only `transform:scale()`, with
+   transform-origin pinned top-left to keep the scale math simple.
+   Single-finger pan is NOT custom code -- touch-action:pan-x pan-y (CSS)
+   leaves native browser scrolling on #mapViewport completely alone;
+   only a genuine 2-finger touch is intercepted, converted to a scale
+   change, and used to compute a new scrollLeft/scrollTop that keeps the
+   pinch's midpoint visually stationary (the standard "zoom to point"
+   correction -- without it, zooming anywhere but the top-left corner
+   visibly drifts, which would just be a smaller version of the exact
+   bug this rebuild exists to eliminate). */
+let mapScale=1,minMapScale=1,maxMapScale=3,mapContentW=0,mapContentH=0;
+function initMobileMapZoom(W,totalH){
+  mapContentW=W;mapContentH=totalH;
+  minMapScale=Math.min(1,screen.width/W);
+  maxMapScale=Math.max(3,minMapScale*5);
+  const mv=document.getElementById('mapViewport'),controls=document.getElementById('controls');
+  mv.style.height=Math.max(240,innerHeight-controls.offsetHeight)+'px';
+  applyMapScale(minMapScale);
+  mv.scrollTop=0;mv.scrollLeft=0;
+}
+function applyMapScale(s){
+  s=Math.max(minMapScale,Math.min(maxMapScale,s));
+  mapScale=s;
+  document.getElementById('wrap').style.transform=`scale(${s})`;
+  const ms=document.getElementById('mapScaler');
+  ms.style.width=Math.round(mapContentW*s)+'px';
+  ms.style.height=Math.round(mapContentH*s)+'px';
+  return s;
+}
+function zoomMapAtPoint(newScale,clientX,clientY){
+  const mv=document.getElementById('mapViewport');
+  const rect=mv.getBoundingClientRect();
+  const localX=clientX-rect.left,localY=clientY-rect.top;
+  const contentX=(mv.scrollLeft+localX)/mapScale,contentY=(mv.scrollTop+localY)/mapScale;
+  const applied=applyMapScale(newScale);
+  mv.scrollLeft=contentX*applied-localX;
+  mv.scrollTop=contentY*applied-localY;
+}
+if(isMobileDevice){
+  const mv=document.getElementById('mapViewport');
+  let pinch=null;
+  const dist=(t1,t2)=>Math.hypot(t2.clientX-t1.clientX,t2.clientY-t1.clientY);
+  mv.addEventListener('touchstart',ev=>{
+    if(ev.touches.length===2){
+      const[t1,t2]=ev.touches;
+      pinch={startDist:dist(t1,t2),startScale:mapScale,midX:(t1.clientX+t2.clientX)/2,midY:(t1.clientY+t2.clientY)/2};
+      ev.preventDefault();
+    }
+  },{passive:false});
+  mv.addEventListener('touchmove',ev=>{
+    if(pinch&&ev.touches.length===2){
+      const[t1,t2]=ev.touches;
+      zoomMapAtPoint(pinch.startScale*(dist(t1,t2)/pinch.startDist),pinch.midX,pinch.midY);
+      ev.preventDefault();
+    }
+  },{passive:false});
+  mv.addEventListener('touchend',ev=>{if(ev.touches.length<2)pinch=null;});
+  mv.addEventListener('touchcancel',()=>{pinch=null;});
 }
 function drawArt(W,H,rh){
   art.setAttribute('viewBox',`0 0 ${W} ${H}`);
@@ -1179,6 +1189,15 @@ const filterToggle=document.getElementById('filterToggle'),filterPanel=document.
 function setFilterPanel(open){
   filterPanel.classList.toggle('open',open);
   filterToggle.setAttribute('aria-expanded',String(open));
+  /* #controls' own height changes as the filter panel's max-height
+     transitions open/closed, and #mapViewport's height on mobile is
+     sized against #controls' height (see MAP_ZOOM) -- re-measured once
+     the transition finishes, not at the click itself, or it grabs the
+     height mid-animation. */
+  if(isMobileDevice){
+    const mv=document.getElementById('mapViewport');
+    setTimeout(()=>{if(mv)mv.style.height=Math.max(240,innerHeight-document.getElementById('controls').offsetHeight)+'px';},220);
+  }
 }
 filterToggle.addEventListener('click',()=>setFilterPanel(!filterPanel.classList.contains('open')));
 function updateFilterCount(){
@@ -1191,7 +1210,6 @@ layout();
 applyLaneToggle();
 applyRegionToggle();
 addEventListener('resize',()=>{
-  if(selfTriggeredResize){selfTriggeredResize=false;return;}
   layout();applyLaneToggle();applyRegionToggle();applyFilter();
 });
 
@@ -1505,10 +1523,23 @@ function buildRail(){
   rail.innerHTML=eraSpans.map((sp,i)=>`<button data-ei="${i}" aria-label="Jump to Era ${sp.era.no}: ${esc(sp.era.title)}, ${esc(sp.era.dates)}" title="Era ${sp.era.no} · ${esc(sp.era.title)} (${esc(sp.era.dates)})">${sp.era.no}</button>`).join("");
 }
 buildRail();
+/* Rail-jump and the scroll-driven rail/year-badge highlight read from
+   #mapViewport's own scroll state on mobile (its self-contained "map
+   pane," see MAP_ZOOM) instead of the window's -- on mobile the window
+   itself mostly doesn't scroll through the ERAS anymore (only past the
+   map, to reach the footer); the map's own internal scroll does that
+   job now. Positions also need *mapScale since #mapViewport's scroll
+   range is measured in the CURRENT scaled coordinate space, while
+   sp._y is always in unscaled content space. Desktop is untouched --
+   window.scrollY, exactly as before. */
 document.getElementById('rail').addEventListener('click',ev=>{
   const b=ev.target.closest('button');if(!b)return;
-  const sp=eraSpans[+b.dataset.ei];
-  if(sp)window.scrollTo({top:sp._y+document.getElementById('wrap').offsetTop-60,behavior:'smooth'});
+  const sp=eraSpans[+b.dataset.ei];if(!sp)return;
+  if(isMobileDevice){
+    document.getElementById('mapViewport').scrollTo({top:Math.max(0,sp._y*mapScale-16),left:0,behavior:'smooth'});
+  }else{
+    window.scrollTo({top:sp._y+document.getElementById('wrap').offsetTop-60,behavior:'smooth'});
+  }
 });
 const yearBadge=document.getElementById('yearBadge');
 const fmtYear=y=>y>=2026?'present':`${y} CE`;
@@ -1516,12 +1547,23 @@ function updateYearBadge(cur){
   const [y0,y1]=ERA_YEARS[cur];
   yearBadge.textContent=`${fmtYear(y0)} to ${fmtYear(y1)}`;
 }
-addEventListener('scroll',()=>{
-  const y=scrollY+innerHeight/2-document.getElementById('wrap').offsetTop;
+function updateRailHighlight(){
+  let y;
+  if(isMobileDevice){
+    const mv=document.getElementById('mapViewport');
+    y=(mv.scrollTop+mv.clientHeight/2)/mapScale;
+  }else{
+    y=scrollY+innerHeight/2-document.getElementById('wrap').offsetTop;
+  }
   let cur=0;eraSpans.forEach((sp,i)=>{if(sp._y<=y)cur=i;});
   document.querySelectorAll('#rail button').forEach((b,i)=>b.classList.toggle('on',i===cur));
   updateYearBadge(cur);
-},{passive:true});
+}
+if(isMobileDevice){
+  document.getElementById('mapViewport').addEventListener('scroll',updateRailHighlight,{passive:true});
+}else{
+  addEventListener('scroll',updateRailHighlight,{passive:true});
+}
 updateYearBadge(0);
 /* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ---- */
 let tray=[];const TRAY_MAX=5;

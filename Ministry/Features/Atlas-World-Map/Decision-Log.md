@@ -13,6 +13,138 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 22) — Mobile pinch-zoom rebuilt map-only, ending six rounds on the whole-page-zoom approach
+
+**The report that closed out the whole-page-zoom line:** "the x works
+again [confirming UI 21's stuck-modal fix held], when fully zoomed out
+the box is in the right place but too small to read, when i start to
+zoom in it starts to expand, but after a little bit of zooming it jumps
+off the page partially left and down, then i can get to it, but its
+still rough and unpredictable." At that point `#sheet` was PURE static
+CSS -- zero app JS touching its position -- yet it still jumped
+specifically DURING an active pinch gesture. That's diagnostic on its
+own: the roughness was never this page's bug to fix. `position:fixed`
+elements are not reliably glued to the visual viewport WHILE a native
+pinch gesture is in progress on real mobile browsers -- a genuine,
+long-documented web platform rough edge, not something more CSS or JS
+cleverness was going to tame, because the whole-page-zoom approach (UI
+16's original design) put the header AND the click-document sheet
+inside the SAME zoomable surface as the map, so anything the browser
+did to that surface mid-gesture reached them too.
+
+**Asked Mark to choose, with the real tradeoff now concrete rather than
+theoretical:** live with the roughness, drop pinch-zoom and go back to
+plain scroll (losing the capability this whole six-round effort was
+for), or rebuild zoom scoped to just the map -- real new engineering on
+the most fragile part of this codebase, the exact risk avoided by
+picking the native/whole-page approach back in UI 16. He chose the
+rebuild.
+
+**Architecture:** `#mapViewport` is a new, bounded-height,
+self-contained scrolling "map pane" (like an embedded map) sized to the
+screen space below `#controls`. Inside it, `#mapScaler` is a plain
+block sized to the CURRENT scaled content dimensions
+(`contentSize * mapScale`) purely so `#mapViewport`'s native
+`overflow:auto` has the correct scrollable range at any zoom level.
+`#wrap` itself never changes size -- only `transform:scale()`, with
+`transform-origin` pinned top-left to keep the math simple. The page's
+own `<meta name=viewport>` is NEVER touched again (stays exactly
+`width=device-width, initial-scale=1` always), so native browser zoom
+for accessibility remains fully available everywhere on the page.
+`#sheet`, `#scrim`, `#controls`, and `#railWrap` are structural
+SIBLINGS of `#mapViewport`, never descendants of it -- no zoom state of
+any kind, from the map or otherwise, can reach them anymore. This is
+the property that actually closes out all six prior rounds at once,
+structurally, rather than chasing the next real-device edge case: the
+click-document sheet doesn't need ANY mobile-specific sizing logic
+anymore, because there is no longer a page-level zoom for it to be
+downstream of.
+
+**Gesture handling:** single-finger pan is NOT custom code --
+`touch-action:pan-x pan-y` (CSS) leaves native browser scrolling on
+`#mapViewport` completely alone, exactly the same native mechanism this
+whole feature has relied on since UI 16. Only a genuine 2-finger touch
+is intercepted (`touchstart`/`touchmove` on `#mapViewport`, only when
+`ev.touches.length===2`): the distance between the two touch points
+drives the scale change, and the pinch's midpoint drives a
+"zoom-to-point" correction (`zoomMapAtPoint`) that recomputes
+`scrollLeft`/`scrollTop` so the content under the user's fingers stays
+visually stationary as the scale changes -- without this correction,
+zooming anywhere but the top-left corner would visibly drift, which
+would just be a smaller-scale version of the exact bug this rebuild
+exists to eliminate.
+
+**Two smaller migrations this required:** (1) the era-jump rail and the
+scroll-driven rail-highlight/year-badge, which used to read
+`window.scrollY` directly, now read `#mapViewport`'s own scroll state
+on mobile (multiplying/dividing by `mapScale` to convert between the
+unscaled content coordinates `layout()` computes and the scaled scroll
+coordinates `#mapViewport` actually uses) -- desktop's original
+`window.scrollY` logic is untouched, gated by `isMobileDevice`. (2)
+`#mapViewport`'s own height, sized against `#controls`' current height,
+is recomputed when the filter panel opens/closes (its `max-height`
+transition changes `#controls`' own height over ~0.2s, so the recompute
+runs on a matching delay, not at the click itself).
+
+**A real bug caught and fixed before any of this shipped, unrelated to
+zoom:** the WINDOW resize listener still had UI 16's `selfTriggeredResize`
+guard, built specifically to suppress `layout()` re-running in response
+to THIS page's own now-removed viewport-meta rewrites. With nothing left
+to self-trigger, the guard was dead weight -- removed along with the
+`setViewportMeta`/`setMobileMapZoom`/`metaVp` machinery it protected.
+
+**A test-methodology false alarm, caught before it became a wasted
+round:** a `fullPage:true` Playwright screenshot at 390px initially
+looked like it showed map content duplicated below the "Reading the
+marks" footer -- alarming, since nothing in the new structure should
+produce that. Measuring `#mapViewport`'s and `<footer>`'s actual
+`getBoundingClientRect()`s showed them ending/starting within ~16px of
+each other, contradicting the visual read; cropping the SAME screenshot
+at full pixel resolution (rather than judging the AI-downscaled preview
+by eye) confirmed a completely clean transition from map to footer,
+with no gap or duplication. Recorded here because it's a real trap: a
+compressed preview image is not a substitute for measuring the actual
+DOM, and the instinct to chase a phantom bug was strong enough to be
+worth naming so it doesn't happen again on this file.
+
+**Verified, using real multi-touch gesture simulation for the first
+time this whole feature (previous rounds could only fake single
+properties, never a genuine gesture) via raw CDP
+`Input.dispatchTouchEvent` with two synthetic touch points:** a
+simulated pinch-out from `(20px gap)` to `(100px gap)` around a fixed
+midpoint scaled `mapScale` from 0.317 to 1.585 -- exactly 5x, matching
+the 5x gap growth precisely; `scrollLeft`/`scrollTop` updated to keep
+that midpoint visually anchored. Pinch-zoomed directly onto a specific
+node (House-Churches), confirmed it was still correctly tap-openable at
+its new, larger, moved position with ZERO changes needed to the
+existing tap-to-open code (`getBoundingClientRect()` and DOM hit-testing
+are both transform-aware by default) -- and confirmed the resulting
+sheet rendered at `transform:none`, full native `390px` width, completely
+independent of the map's `1.33x` zoom at the moment it opened. Single-
+finger touch-drag (separately simulated, since mouse-drag and touch-
+drag are different input paths and only one is native-scroll-eligible)
+correctly scrolled `#mapViewport`. Era-rail jump correctly moved
+`#mapViewport.scrollTop` and highlighted the right button; search still
+filtered correctly; filter-panel toggle correctly resized
+`#mapViewport`. Full Playwright harness clean (0 overlaps, 0 JS
+errors); `validate-census.mjs` clean. Desktop re-verified completely
+unchanged at every level checked: viewport meta, node width, sheet
+layout, AND (new checks for this pass) `#mapViewport` computed
+`overflow:visible` with no inline height, `#wrap` with no transform and
+its original natural width -- confirming the new elements are
+functionally invisible/inert on desktop, not just visually absent.
+
+**Honest framing for what's still unverified:** this is the sixth
+attempt at mobile pinch-zoom and the first built around a genuinely
+different mechanism (scoped custom gesture handling instead of native
+whole-page zoom) rather than a refinement of the same one. Multi-touch
+CDP simulation is a real gesture, more convincing evidence than any
+prior round had, but it is still not a real finger on real glass. This
+should be checked on an actual phone before being treated as fully
+settled.
+
+---
+
 ## 2026-08-05 (Pass 7, UI 21) — Mobile sheet: reverted to static sizing after a genuine regression, five rounds in
 
 **The report:** "still not working, their is not dark screen so it must
