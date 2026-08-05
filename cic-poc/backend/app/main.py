@@ -1995,9 +1995,21 @@ if _FRONTEND_DIST.is_dir():
     async def serve_frontend(full_path: str):
         """SPA catch-all: any path not already matched above serves index.html
         (client-side routing, if the app ever adds any, resolves from there) or
-        a same-named static file at the dist root (favicon.ico, icons, etc.)."""
-        candidate = _FRONTEND_DIST / full_path
-        if full_path and candidate.is_file():
+        a same-named static file at the dist root (favicon.ico, icons, etc.).
+
+        full_path is attacker-controlled (it's the literal rest of the URL,
+        via Starlette's `path` converter, which does not strip `..`). Joining
+        it onto _FRONTEND_DIST unresolved and trusting .is_file() is a path
+        traversal: `Path("/a/b") / "../../../etc/passwd"` stats straight
+        through to `/etc/passwd`, confirmed with a real file read in this
+        exact join pattern before this fix went in. Since the container runs
+        as root (no USER in the Dockerfile) with ANTHROPIC_API_KEY and other
+        secrets as env vars, an unresolved join here can reach
+        /proc/self/environ. Resolving the candidate and requiring it stay
+        under _FRONTEND_DIST closes that; anything that resolves outside
+        falls through to index.html, same as any other not-found path."""
+        candidate = (_FRONTEND_DIST / full_path).resolve()
+        if full_path and candidate.is_relative_to(_FRONTEND_DIST) and candidate.is_file():
             return FileResponse(candidate)
         return FileResponse(_FRONTEND_DIST / "index.html")
 
