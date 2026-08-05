@@ -159,7 +159,19 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
    even on wide desktop screens and kept font sizes matched to the old
    corner pill; widened to fill the viewport and every size below bumped
    up accordingly. */
+/* position:sticky;left (Mark, 2026-08-05, same fix as #controls above):
+   .erahead itself spans the FULL canvas width (left:0;right:0) so its
+   own position never needs to change, but .bar -- the actual visible
+   title/tag/dates box -- sat at the far-left edge of that span with
+   nothing keeping it in view once the wide canvas made horizontal
+   scroll possible; scrolling right into a crowded era left you with no
+   way to tell which era, or what its date range was, without scrolling
+   back. Sticky on the horizontal axis only (vertical position still
+   comes from .erahead's own top:${y}px, set once per era in JS) keeps
+   the era label in view at the same time as whatever box you're
+   actually looking at, the same way #controls now does above it. */
 .erahead .bar{display:flex;flex-wrap:wrap;gap:.35rem 1rem;align-items:baseline;width:calc(96vw - 64px);
+  position:sticky;left:.8rem;
   background:color-mix(in srgb, var(--bg) 88%, transparent);border:1px solid var(--line);
   border-radius:0;padding:.5rem .9rem}
 .erahead .no{font-size:.95rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
@@ -334,8 +346,28 @@ html:not(.is-mobile) #sheet.on{transform:none}
 html:not(.is-mobile) #sheet .grab{display:none}
 
 /* ---- B5 site chrome & controls ---- */
-#controls{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem}
-#controls .row1{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+/* left:0 added (Mark, 2026-08-05, once the canvas started running wider
+   than one screen): sticky's existing top:0 only pins #controls
+   VERTICALLY within the page's scroll -- on desktop the wide canvas
+   (#wrap, un-contained, per the note above) makes the whole PAGE wider
+   than the viewport, not just #mapViewport, so scrolling right carries
+   #controls along horizontally like any normal block and it slides off
+   the left edge with nothing pinning it there. left:0 makes it stick on
+   BOTH axes, the standard corner-pin pattern -- the search bar and every
+   toggle stay reachable at any scroll position instead of only at the
+   far left. */
+/* max-width here is load-bearing, not cosmetic (Mark, 2026-08-05): a
+   sticky element needs SLACK -- room between its own width and its
+   containing block's width -- to have anywhere to travel as the page
+   scrolls; an element exactly as wide as its container has zero slack
+   and behaves exactly like position:relative (confirmed empirically: a
+   sticky div the same width as its parent tracked scroll 1:1, static in
+   all but name). #controlsWrap (below, JS-set to the full canvas width
+   W in layout()) exists purely to GIVE #controls that slack -- #controls
+   itself must stay capped near viewport width, not stretch to fill its
+   now-wide wrapper the way a plain block child normally would. */
+#controls{position:sticky;top:0;left:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem;max-width:100vw}
+#controls .row1{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;max-width:calc(100vw - 1.6rem)}
 #controls input[type=search]{flex:1;min-width:10rem;font:inherit;font-size:.85rem;color:var(--ink);
   background:var(--panel);border:1px solid var(--line);padding:.35rem .6rem}
 #controls .chip{font:inherit;font-size:.72rem;display:inline-flex;align-items:center;gap:.3rem;
@@ -353,7 +385,7 @@ html:not(.is-mobile) #sheet .grab{display:none}
 #filterToggle .fcount{display:none;background:var(--gold);color:var(--bg);border-radius:999px;
   font-size:.62rem;line-height:1;padding:.15rem .35rem;font-weight:700}
 #filterToggle.has-filters .fcount{display:inline-block}
-#filterPanel{overflow:hidden;max-height:0;transition:max-height .2s ease}
+#filterPanel{overflow:hidden;max-height:0;transition:max-height .2s ease;max-width:calc(100vw - 1.6rem)}
 #filterPanel.open{max-height:60vh;overflow-y:auto}
 body.filtering .node:not(.match){opacity:.13}
 body.filtering #art .tail:not(.match),body.filtering #art .shoulder:not(.match),
@@ -445,6 +477,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
   </div>
 </header>
 <main id="main">
+<div id="controlsWrap">
 <div id="controls">
   <div class="row1">
     <input type="search" id="q" placeholder="Have a movement or period in mind? Search by name — e.g. Coptic, Reformation, Pentecostal" aria-label="Search by movement name or period">
@@ -460,6 +493,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
     <div id="regionlegend" role="group" aria-label="Filter by region"></div>
   </div>
 </div>
+</div>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <defs>
@@ -469,7 +503,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
 <symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
 </defs></svg>
 <div id="orient" style="padding:.5rem .8rem 0">
-  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem;position:relative;padding-right:1.6rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
+  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem;position:sticky;left:.8rem;padding-right:1.6rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
   <svg width="13" height="13" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
   <b>House</b> means you can sit down and talk with it today — tap "Built worlds" above to see just those.
   <button id="orientClose" type="button" aria-label="Close this orientation text — it won't show again on this device" title="Close — won't show again"
@@ -854,6 +888,39 @@ function layout(){
   anchors=attempt.A;
   rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
+  /* #controlsWrap/#orient width match (Mark, 2026-08-05, same session as
+     the sticky-header fix below): position:sticky can only track scroll
+     WITHIN its own CONTAINING BLOCK -- #controls and #orientText are
+     ordinary page-flow descendants of #mapViewport's siblings, so their
+     containing blocks were only ever the viewport's (auto, ~ the
+     screen), even though #wrap (a nested descendant several levels
+     down) made the PAGE itself scrollable to W. Once scrolled past that
+     first screen-width, sticky had no room left to hold position within
+     and both vanished entirely -- confirmed by a real wheel-scroll test
+     reaching left:-1560 at max scroll, versus era headers (already
+     genuinely canvas-width via .erahead{left:0;right:0}) staying
+     correctly pinned throughout.
+     First attempt set width directly on #controls itself, which turned
+     out NOT to be enough on its own: a sticky element's containing block
+     is its nearest block-level ANCESTOR, not just its own explicit
+     width -- #controls's actual parent (<main>) was still only
+     viewport-wide, so #controls ended up wider than its own containing
+     block, which broke sticky anyway (confirmed: computed position
+     stayed "sticky" but it tracked scroll 1:1 like a static element,
+     0% effect). #orientText already worked because ITS parent (#orient)
+     was the one widened, not itself -- so #controls now gets the exact
+     same treatment via a dedicated #controlsWrap around it (added to
+     the HTML) instead of widening <main> itself, which would have also
+     stretched the footer/glossary text to an unreadable line length.
+     #controls .row1 and #filterPanel keep a viewport-scaled max-width
+     (CSS) so the actual buttons/search stay compact inside the now-wide
+     wrapper instead of stretching to fill it. Desktop only -- on mobile
+     neither needs to grow, since the wide content is contained inside
+     #mapViewport's own pinch-zoom pane, not the page's own scroll. */
+  if(!isMobileDevice){
+    document.getElementById('controlsWrap').style.width=W+"px";
+    document.getElementById('orient').style.width=W+"px";
+  }
   const subEl=document.querySelector('header.bar .s');
   if(subEl)subEl.textContent=W>viewW
     ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
