@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Lactantius, *De Mortibus Persecutorum* 44
-language: la
+language: lat
 licensed_for: Doc_02 §4, Constantine's conversion narrative's own internal divergence from Eusebius's
   account
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.

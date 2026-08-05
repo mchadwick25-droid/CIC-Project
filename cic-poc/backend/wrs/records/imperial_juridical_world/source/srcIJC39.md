@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: fr
+language: fra
 work_author: Gilbert Dagron
 work_title: 'Naissance d''une capitale: Constantinople et ses institutions de 330 a 451 (Paris, 1974)'
 licensed_for: 'THE STRAND-B SCHOLARSHIP ROW (the S2.1b round''s sharpest miss - Strand B previously had

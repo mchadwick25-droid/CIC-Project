@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: 'Philotheos Bryennios (scribe: Leon)'
 work_title: Discovery/editing of Codex Hierosolymitanus

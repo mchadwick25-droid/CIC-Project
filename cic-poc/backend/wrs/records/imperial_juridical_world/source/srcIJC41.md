@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 work_author: Fergus Millar
 work_title: 'A Greek Roman Empire: Power and Belief under Theodosius II (408-450) (Berkeley, 2006)'
 licensed_for: The standard account of the eastern court in exactly the decades producing Ephesus 431,

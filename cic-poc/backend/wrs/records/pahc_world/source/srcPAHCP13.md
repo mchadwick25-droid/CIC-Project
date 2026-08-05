@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Palatine Hill, Rome
 work_title: Alexamenos graffito
 work_locus: c.200 CE

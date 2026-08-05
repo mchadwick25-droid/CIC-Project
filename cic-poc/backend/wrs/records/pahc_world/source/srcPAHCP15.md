@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Tertullian
 work_title: Tertullian, Apology 39
 work_locus: c.197 CE, Carthage

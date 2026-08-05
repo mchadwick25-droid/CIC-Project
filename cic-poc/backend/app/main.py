@@ -253,6 +253,24 @@ class PilotRequest(BaseModel):
     referred_by: str | None = None
 
 
+class PilotFeedbackRequest(BaseModel):
+    """Post-conversation feedback from cic-website/pilot-feedback.html - a
+    different thing from PilotRequest above (that's "I'd like to join",
+    this is "here's what a conversation I already had was actually like").
+    Every field but the form's own required-by-browser select is optional,
+    matching the form's own "answer whatever feels comfortable" framing."""
+
+    perspective: str | None = None
+    tradition: str | None = None
+    confusing: str | None = None
+    invented_or_overstated: str | None = None
+    what_it_opened: str | None = None
+    fundable_potential: str | None = None
+    anything_else: str | None = None
+    name: str | None = None
+    email: str | None = None
+
+
 class GenerateReferralRequest(BaseModel):
     """Identifies the referring tester by self-reported email, not a bearer
     token - see submit_referral_redemption's docstring for why."""
@@ -436,6 +454,30 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     else:
         state = result
 
+    # Insert the sessions row check_and_reserve_session_slot's own docstring
+    # already claimed happens here - it didn't (2026-08-05 full-system
+    # review, Engineering P0-2). transcript_logging.write_transcript later
+    # upserts this same row by id, so this insert and that upsert can't
+    # race into a duplicate-key error; this just makes sure the row exists
+    # from turn zero, independent of pilot_logging_enabled, since session
+    # *counting* and transcript *capture* are different questions that
+    # sharing one flag was quietly conflating. Never blocks session start:
+    # a failed insert here is logged and swallowed, same fail-open
+    # discipline as write_transcript itself.
+    if supabase_configured() and user.user_id is not None:
+        from app.auth import _get_client  # local import: same pattern as this file's other Supabase call sites
+
+        try:
+            _get_client().table("sessions").insert({
+                "id": session_id,
+                "user_id": user.user_id,
+                "world_ids": world_ids,
+                "phase": state.phase,
+                "turn_count": state.turn_count,
+            }).execute()
+        except Exception:
+            logger.exception("sessions row insert failed for session %s", session_id)
+
     # Commit the session's opening to the event log: who was seated, the
     # facilitator's spoken reception/handoff, and the flow scalars the
     # graph run produced. The projection (EVENT_STORE.get_state) is now
@@ -499,6 +541,44 @@ async def submit_pilot_request(request: PilotRequest):
         ).execute()
     except Exception:
         raise HTTPException(status_code=500, detail="Something went wrong submitting your interest. Please try again or email hello@churchinconversation.org directly.")
+
+    return {"status": "received"}
+
+
+@app.post("/api/pilot/feedback")
+async def submit_pilot_feedback(request: PilotFeedbackRequest):
+    """
+    Record a post-conversation feedback submission
+    (cic-website/pilot-feedback.html's form). Added 2026-08-05 - the form
+    previously posted to a mailto: action, which is unreliable in modern
+    browsers and, per the full-system review (Readiness P1-9), was reaching
+    almost nobody.
+
+    A no-op (but still returns success, so the form doesn't show an error)
+    if Supabase isn't configured - same "off until configured" discipline
+    as submit_pilot_request above.
+    """
+    from app.auth import _get_client, supabase_configured
+
+    if not supabase_configured():
+        return {"status": "received"}
+
+    try:
+        _get_client().table("pilot_feedback").insert(
+            {
+                "perspective": request.perspective,
+                "tradition": request.tradition,
+                "confusing": request.confusing,
+                "invented_or_overstated": request.invented_or_overstated,
+                "what_it_opened": request.what_it_opened,
+                "fundable_potential": request.fundable_potential,
+                "anything_else": request.anything_else,
+                "name": request.name,
+                "email": request.email,
+            }
+        ).execute()
+    except Exception:
+        raise HTTPException(status_code=500, detail="Something went wrong submitting your feedback. Please try again or email info@churchinconversation.com directly.")
 
     return {"status": "received"}
 
@@ -1408,6 +1488,25 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
             turns_completed = 0
             spoken_this_round: list[str] = []
 
+        # A round the participant opened by naming one representative
+        # directly ("Marius, what did Leo actually claim?") should be able
+        # to end after that one answer. select_next_speaker already routes
+        # the opening turn to the addressed representative regardless of
+        # must_continue (nodes.py's direct-address detection runs before
+        # the must_continue check) - but until now, must_continue's own
+        # MIN_MULTI_WORLD_TURNS floor still forced a second, unaddressed
+        # voice into every round regardless, since it had no way to know
+        # the opening turn was already a complete, addressed answer rather
+        # than an opening volley expecting more voices. Detected once, on
+        # the participant's own message, since that's what select_next_speaker
+        # itself checks for the round's opening turn (2026-08-05 full-system
+        # review, Readiness P1-8).
+        round_was_direct_addressed = False
+        if is_multi_world and not is_modern_term_bridge:
+            from app.graph.nodes import detect_direct_address
+            round_was_direct_addressed = (
+                detect_direct_address(request.message, world_ids) is not None)
+
         try:
             while True:
                 # S4.6: a repair hit determines the round's FIRST speaker -
@@ -1439,7 +1538,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
                         # the selector as input (Pass 1 §6.5)
                         register_note=state.register_note,
                     )
-                    must_continue = turns_completed < MIN_MULTI_WORLD_TURNS
+                    must_continue = (turns_completed < MIN_MULTI_WORLD_TURNS
+                                      and not round_was_direct_addressed)
                     # S4.4a: the selector's REASON (or the deterministic
                     # direct-address note) comes back through the sink and
                     # is delivered to the selected speaker as a private
@@ -1602,6 +1702,61 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
         ])
         write_transcript(session_id, state)
 
+        # Wind-down sensing streams here, before "done" - deliberately NOT
+        # in the post-round invisible tail below. Unlike table checks
+        # (which only ever queue guidance for a LATER turn via
+        # pending_guidance, never anything the current participant sees),
+        # this one has to actually put a question in front of the
+        # participant to mean anything. Checking it after "done" used to
+        # just flip state.closing_stage to "anything_else_asked" with
+        # nobody having asked anything - the participant's own next,
+        # unrelated message then got silently classified as a reply to a
+        # question that was never sent, the visible failure being an
+        # unprompted resources offer arriving out of nowhere (2026-08-05
+        # full-system review, Readiness P1-4). Costs one extra classifier
+        # call's latency before "done", only on rounds where
+        # should_check_wind_down is already True (closing_stage=="none"
+        # and no higher-priority intercept fired) - a real tradeoff, but
+        # the alternative is a feature that has never once actually worked.
+        if should_check_wind_down:
+            try:
+                from app.graph.closing_sequence import classify_wind_down, stream_closing_turn
+                fired = classify_wind_down(state, request.message)
+                EVENT_STORE.append(session_id, "classifier_decision", {
+                    "classifier": "wind_down", "raw": bool(fired),
+                    "applied": bool(fired)})
+                if fired:
+                    yield sse({"type": "speaker_start", "speaker": "facilitator"})
+                    anything_else_msg = None
+                    for event in stream_closing_turn(state, "anything_else"):
+                        if event["type"] == "token":
+                            yield sse({
+                                "type": "token",
+                                "speaker": event["speaker"],
+                                "text": event["text"],
+                            })
+                        elif event["type"] == "complete":
+                            anything_else_msg = event["message"]
+                    yield sse({
+                        "type": "speaker_end",
+                        "speaker": "facilitator",
+                        "citations": None,
+                    })
+                    if anything_else_msg is not None:
+                        state.messages = list(state.messages) + [anything_else_msg]
+                        state.closing_stage = "anything_else_asked"
+                        EVENT_STORE.append_many(session_id, [
+                            ("spoken_message", serialize_message(anything_else_msg)),
+                            ("closing_stage_changed", {"stage": "anything_else_asked"}),
+                        ])
+                        write_transcript(session_id, state)
+            except Exception:
+                # Same fail-open discipline as the rest of this endpoint's
+                # invisible governance: a failed wind-down check must never
+                # break or delay the response the participant already has.
+                logger.exception(
+                    "wind-down anything-else turn failed for session %s", session_id)
+
         yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
 
         # Everything below is invisible background governance the participant
@@ -1609,18 +1764,17 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
         # on the round loop's try/except above, which no longer wraps this
         # code now that it runs after "done") so a monitoring failure can
         # never surface as a broken response mid-stream; at worst this
-        # round's drift checks are silently skipped. Drift-checking and
-        # wind-down sensing get SEPARATE try/except blocks, not one shared
-        # one - they're independent concerns (dominance/convergence/drift
-        # is about correcting a LATER Representative turn; wind-down is
-        # about offering a graceful close) with no reason for a failure in
-        # one to silently take out the other too.
+        # round's drift checks are silently skipped.
         # S4.1: the invisible-governance tail lives in the governance
-        # layer - table checks + per-message drift + wind-down sensing,
-        # each half fail-open. S4.2: its findings are APPENDED to the
-        # event log - the read-latest-merge (and the race it hand-patched)
-        # is gone structurally; an append can never clobber a message that
-        # arrived after "done" went out.
+        # layer - table checks + per-message drift, each half fail-open.
+        # S4.2: its findings are APPENDED to the event log - the
+        # read-latest-merge (and the race it hand-patched) is gone
+        # structurally; an append can never clobber a message that arrived
+        # after "done" went out.
+        # Wind-down sensing used to live here too - moved above, before
+        # "done", 2026-08-05 (see the comment at that call site for why:
+        # this tail can only ever affect a LATER turn, and wind-down needs
+        # to affect this one).
         governance.run_post_round_governance(
             state, request.message,
             working_messages=working_messages,
@@ -1628,7 +1782,6 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
             turns_completed=turns_completed,
             world_ids=world_ids,
             is_multi_world=is_multi_world,
-            should_check_wind_down=should_check_wind_down,
             session_id=session_id,
         )
 

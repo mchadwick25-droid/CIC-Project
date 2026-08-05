@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Paulinus of Milan, *Vita Ambrosii*
-language: la
+language: lat
 licensed_for: Tier 3 formation-narrative material only (Doc_02 §4) — the bee-swarm legend specifically;
   not documented biography
 verification_note: 'Registry-carried assessment fields, verbatim: type=P (hagiographic); confidence=C;

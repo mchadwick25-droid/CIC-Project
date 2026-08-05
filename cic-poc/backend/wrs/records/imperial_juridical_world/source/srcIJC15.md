@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: dubium
 level_of_description: aggregate-attestation
 work_title: Damasine decretal material (various, of contested authenticity)
-language: la
+language: lat
 licensed_for: Cautious, individually-assessed use only — not licensed to support any specific claim as
   a block (Doc_02 §2, §9)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=D; boundary=Native.

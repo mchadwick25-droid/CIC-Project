@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Charles Pietri, *Roma Christiana* (1976)
-language: fr
+language: fra
 licensed_for: Damasus's own institutional project
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=B; boundary=Native.
   Verification Note: A standard reference in the field per this build''s own knowledge; not independently

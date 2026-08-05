@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Denis Minns / Paul Parvis
 work_title: Justin Martyr critical edition and dating

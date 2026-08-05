@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Henry Chadwick — SEE S55 for his separately-licensed Justin/Clement/Origen work
 work_title: Patristic monographs (Augustine, Priscillian, Boethius)

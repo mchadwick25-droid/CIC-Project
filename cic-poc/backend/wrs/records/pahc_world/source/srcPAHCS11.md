@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Reinhard Hubner / Thomas Lechner
 work_title: Ignatian pseudepigraphy studies

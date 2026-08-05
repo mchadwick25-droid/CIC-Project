@@ -12,7 +12,7 @@ attribution_status: genuine
 level_of_description: corpus
 work_title: Damasus, epigraphic martyr inscriptions (Filocalian script; *Inscriptiones Christianae Urbis
   Romae* corpus)
-language: la
+language: lat
 licensed_for: Roman primacy self-presentation; martyr cult as institutional tool (Doc_02 §1, §4, §5)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P/M; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge of the corpus; not independently

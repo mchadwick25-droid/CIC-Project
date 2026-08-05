@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: James D.G. Dunn / Raymond Brown & John Meier / E. Mary Smallwood
 work_title: Chrestus=Christus majority identification

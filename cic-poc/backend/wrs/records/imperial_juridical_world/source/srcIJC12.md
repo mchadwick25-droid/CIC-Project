@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Leo I, Tome to Flavian (Epistula 28)
-language: la
+language: lat
 licensed_for: Strand A; Chalcedonian Christology; Leo's own Author Gravity entry
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge; not independently re-collated

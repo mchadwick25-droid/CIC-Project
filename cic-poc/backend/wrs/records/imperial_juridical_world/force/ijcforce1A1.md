@@ -36,6 +36,9 @@ connections:
 - type: receives
   target_id: ijcforce2A2
   note: Back-edge of SS4 Connection 3.
-sources: []
+sources:
+- source_id: srcIJC01
+- source_id: srcIJC02
+- source_id: srcIJC03
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] linked 2026-08-05 (full-system review, Rigor P0-3) to Source_Registry.md rows 1-3 (Eusebius EH 8-10, Eusebius Life of Constantine, Lactantius), the same numbered rows this record's own layer_historical_event draws on.

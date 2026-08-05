@@ -115,13 +115,22 @@ export function QuestionSheet({ worlds, onAsk, onClose }: QuestionSheetProps) {
         <div className="question-sheet__entries">
           {activeTier.entries.map((entry, i) =>
             isLimitEntry(entry) ? (
-              <button
-                key={i}
-                className="question-sheet__entry question-sheet__entry--limit"
-                onClick={() => handleAsk(entry.question)}
-              >
-                <span className="question-sheet__entry-question">{entry.question}</span>
-              </button>
+              <div key={i} className="question-sheet__entry-group">
+                <button
+                  className="question-sheet__entry question-sheet__entry--limit"
+                  onClick={() => handleAsk(entry.question)}
+                >
+                  <span className="question-sheet__entry-question">{entry.question}</span>
+                </button>
+                {entry.citations.length > 0 && (
+                  <details className="question-sheet__citations" onClick={(e) => e.stopPropagation()}>
+                    <summary>Sources</summary>
+                    <p className="question-sheet__citations-list">
+                      {entry.citations.join(' · ')}
+                    </p>
+                  </details>
+                )}
+              </div>
             ) : (
               <div key={i} className="question-sheet__entry-group">
                 <button
@@ -129,10 +138,21 @@ export function QuestionSheet({ worlds, onAsk, onClose }: QuestionSheetProps) {
                   onClick={() => handleAsk(entry.opening_question)}
                 >
                   <span className="question-sheet__entry-topic">{entry.topic}</span>
+                  {entry.why && (
+                    <span className="question-sheet__entry-why">{entry.why}</span>
+                  )}
                   <span className="question-sheet__entry-question">
                     {entry.opening_question}
                   </span>
                 </button>
+                {entry.citations.length > 0 && (
+                  <details className="question-sheet__citations" onClick={(e) => e.stopPropagation()}>
+                    <summary>Sources</summary>
+                    <p className="question-sheet__citations-list">
+                      {entry.citations.join(' · ')}
+                    </p>
+                  </details>
+                )}
                 {entry.follow_ups.length > 0 && (
                   <div className="question-sheet__followups">
                     {entry.follow_ups.map((f, j) => (

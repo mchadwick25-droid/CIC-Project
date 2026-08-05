@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Keith Hopkins
 work_title: Congregational literacy estimate applying Harris to c.100 CE Christian groups

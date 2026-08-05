@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Lucian of Samosata
 work_title: Lucian of Samosata, The Passing of Peregrinus
 work_locus: c.165 CE

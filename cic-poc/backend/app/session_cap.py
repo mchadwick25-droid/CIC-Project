@@ -33,10 +33,18 @@ def check_and_reserve_session_slot(user: AuthedUser) -> tuple[bool, str]:
     """
     Returns (allowed, reason). Unlike the old file-based version, this does
     NOT reserve/increment anything itself - the reservation is implicit: the
-    caller inserts a new row into `sessions` immediately after this returns
-    True, and that insert *is* the usage record the next check counts
-    against. There is nothing to "give back" if session creation fails
-    partway, since no separate counter exists to roll back.
+    caller (main.py's start_session) inserts a new row into `sessions`
+    later in the same request, once the session's initial state is known,
+    and that insert *is* the usage record the next check counts against.
+    There is nothing to "give back" if session creation fails partway,
+    since no separate counter exists to roll back.
+
+    2026-08-05: this insert previously didn't exist anywhere in the
+    codebase despite this docstring's claim - the cap could never actually
+    fire (full-system review, Engineering P0-2). Fixed in start_session,
+    decoupled from settings.pilot_logging_enabled (session *counting* and
+    transcript *capture* are different questions; conflating them under one
+    flag was the root cause).
     """
     if not supabase_configured() or user.user_id is None:
         return True, ""

@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Rufinus of Aquileia, continuation of Eusebius's *History* (Books 10–11)
-language: la
+language: lat
 licensed_for: Bridges Eusebius's own history (ends 325) to the later 4th century
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge; not independently re-collated

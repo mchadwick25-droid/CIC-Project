@@ -31,6 +31,10 @@ connections:
 - type: receives
   target_id: ijcforce2B2
   note: Back-edge of SS4 Connection 6.
-sources: []
+sources:
+- source_id: srcIJC18
+- source_id: srcIJC19
+- source_id: srcIJC20
+- source_id: srcIJC21
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] linked 2026-08-05 (full-system review, Rigor P0-3) to Source_Registry.md rows 18-21 (Socrates, Sozomen, Theodoret, Rufinus) - the chroniclers whose own pro-Nicene bias, named explicitly in Doc_02, is exactly the selection effect this force's own layer_historical_event describes.

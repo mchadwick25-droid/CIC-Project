@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Attrib. Clement of Rome (anonymous in-text)
 work_title: 1 Clement
 work_locus: traditional c.96 CE; contested range 80-140 CE, minority pre-70 CE

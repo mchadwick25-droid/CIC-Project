@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Ambrose of Milan, *Sermo contra Auxentium* (De Basilicis Tradendis, 386)
-language: la
+language: lat
 licensed_for: Strand C; the "emperor within the Church, not over it" claim (Doc_01 §4); the 386 basilica
   standoff (Doc_02 §7)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.

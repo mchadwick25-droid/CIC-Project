@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Tacitus
 work_title: Tacitus, Annals 15.44
 work_locus: written c.116 CE, describing 64 CE

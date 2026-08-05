@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: P.N. Harrison / Paul Hartog / Michael Holmes / Kenneth Berding
 work_title: Polycarp unity/two-letter-splice debate

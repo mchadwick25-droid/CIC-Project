@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: '*Theodosian Code*, Book 16 (esp. 16.1.2, Edict of Thessalonica "Cunctos populos," 380)'
-language: la
+language: lat
 licensed_for: Imperial legislative establishment of Nicene orthodoxy; Cell 2A (Doc_01 §5)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge; not independently re-collated

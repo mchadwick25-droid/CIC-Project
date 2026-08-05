@@ -31,6 +31,7 @@ connections:
   target_id: ijcforce3B2
   note: 'Doc_08 SS4 Connection 6: the transmission mechanism at two points in the window - 3B-2 is 2B-2''s
     own mechanism at the close.'
-sources: []
+sources:
+- source_id: srcIJC14
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] linked 2026-08-05 (full-system review, Rigor P0-3) to Source_Registry.md row 14 (Damasus's epigraphic martyr inscriptions), the archival program this force's own layer_historical_event names.

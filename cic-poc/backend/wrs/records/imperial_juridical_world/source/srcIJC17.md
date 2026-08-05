@@ -12,7 +12,7 @@ attribution_status: genuine
 level_of_description: work
 work_title: '*Theodosian Code*, Book 16.8 (mixed restrictive/protective legislation concerning Jewish
   communities)'
-language: la
+language: lat
 licensed_for: Doc_02 §6, naming the absence of Jewish communal perspective in this world's own record
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Not independently re-collated this session; general existence and mixed character

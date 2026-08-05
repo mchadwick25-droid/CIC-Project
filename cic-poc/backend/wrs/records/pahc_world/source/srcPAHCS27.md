@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Roger Bagnall
 work_title: Early Christian Books in Egypt

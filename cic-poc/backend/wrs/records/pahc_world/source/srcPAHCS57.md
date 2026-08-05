@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Paul Hartog
 work_title: Hartog's stemmatically-filtered manuscript count (2013 Oxford critical edition)

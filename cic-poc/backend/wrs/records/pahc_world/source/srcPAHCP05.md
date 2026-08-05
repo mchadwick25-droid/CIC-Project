@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Hermas (Rome)
 work_title: Shepherd of Hermas
 work_locus: composite, c.90-150 CE

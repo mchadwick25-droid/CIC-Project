@@ -114,8 +114,16 @@ PROFILES = {
                    "tellable_as", "sources"],
         "quote": ["locus", "translation_used", "license"],
         "gravity": ["six_tests", "classification"],
+        # "sources" added 2026-08-05 (full-system review, Rigor P0-3): the
+        # completion profile didn't require it, so the one world that
+        # omitted sources[] on every force record (Imperial-Juridical,
+        # 0/10) passed anyway. A force record with a genuinely empty
+        # sources[] (evidence living in a different world's registry, for
+        # example) still SHOULD show up here - that's the honest result,
+        # not a bug to work around.
         "force": ["six_cell_position", "layer_historical_event",
-                   "layer_worlds_own_experience", "layer_formation_impact", "layer4"],
+                   "layer_worlds_own_experience", "layer_formation_impact",
+                   "layer4", "sources"],
         "figure": ["names", "narratable"],
         "contested_claim": ["claim", "held_against", "concedes",
                              "pressure_response", "divergence_partners"],
@@ -203,8 +211,23 @@ def gate_figure_narratability(records: dict, voice_material: str) -> list:
 def readability_check(text: str, fk_max: float = 10.0, fre_min: float = 60.0) -> dict:
     """The SS5.6 machine check: FK grade <= 10 and FRE >= 60 (band floor 8 is
     reported, not failed - too-simple is not the risk the floor guards).
-    Values from wrs/parameters.yaml reading_floor (RCF V3.2 Part Five)."""
-    import textstat
+    Values from wrs/parameters.yaml reading_floor (RCF V3.2 Part Five).
+
+    Deliberately hard-fails, not silently, if textstat isn't installed -
+    a readability GATE that can't actually check readability must not
+    report a false pass. The guard here only turns an opaque
+    ModuleNotFoundError into an actionable one; textstat is a dev/gate-time
+    dependency (pyproject.toml's [dev] extra, requirements.txt), never
+    imported by the running app (2026-08-05 full-system review,
+    Accessibility P1-8)."""
+    try:
+        import textstat
+    except ModuleNotFoundError as exc:
+        raise ModuleNotFoundError(
+            "readability_check requires the 'textstat' package, which isn't "
+            "installed in this environment. Install it with `pip install "
+            "textstat` or `pip install -e '.[dev]'` (see pyproject.toml)."
+        ) from exc
     fk = textstat.flesch_kincaid_grade(text)
     fre = textstat.flesch_reading_ease(text)
     violations = []
@@ -221,6 +244,42 @@ def gate_readability(texts: dict, fk_max: float = 10.0, fre_min: float = 60.0) -
         res = readability_check(text, fk_max, fre_min)
         for v in res["violations"]:
             out.append(f"{name}: {v}")
+    return out
+
+
+# --------------------------------------------------------- discovery channel
+
+# discovery_channel is the one field whose whole purpose is to tell a
+# reviewer where to concentrate scrutiny (doc 14: "that column IS the
+# fabricated-precision risk map"). Added 2026-08-05 (full-system review,
+# Rigor P0-1) after a migration-time bug stamped 50 rows across three
+# worlds "field-bibliography" by a type heuristic, not evidence - the
+# worlds' own search records confirm no field bibliography was ever
+# consulted. This gate can't detect THAT specific failure (it has no way
+# to check a claim against a search record), but it catches the general
+# shape of it going forward: a channel that claims a real search
+# instrument was used, with no instrument actually named.
+_INSTRUMENT_REQUIRED_CHANNELS = {
+    "field-bibliography", "database-search", "library-catalogue",
+}
+
+
+def gate_discovery_instrument(records: dict) -> list:
+    """Every source row whose discovery_channel claims a searched
+    instrument (field-bibliography / database-search / library-catalogue)
+    must name discovery_instrument. A row that names none of those three
+    channels is unaffected - builder-prior-knowledge, snowball, and the
+    other channels don't imply a search instrument exists to name."""
+    out = []
+    for rid, r in records.items():
+        if r.get("record_type") != "source":
+            continue
+        channel = r.get("discovery_channel")
+        if channel in _INSTRUMENT_REQUIRED_CHANNELS and not _present(r, "discovery_instrument"):
+            out.append(
+                f"{rid}: discovery_channel={channel} requires a "
+                f"discovery_instrument naming what was actually searched"
+            )
     return out
 
 

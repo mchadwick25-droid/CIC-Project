@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: William Cureton / Theodor Zahn / J.B. Lightfoot
 work_title: Ignatius recension controversy, 19th c. resolution

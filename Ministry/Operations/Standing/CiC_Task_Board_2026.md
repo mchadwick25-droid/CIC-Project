@@ -929,43 +929,22 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
-- [ ] **NEW 2026-08-05 — Full-system review remediation, Waves 2–4 (backlog, sequenced).**
+- [ ] **NEW 2026-08-05 — Full-system review remediation, Waves 3–4 (backlog, sequenced).**
       Wave 1 (13 P0-tier/live-bug items: the acute-distress safety fix, the path-traversal
       and open-redirect security fixes, the theme-toggle map-blanking bug, five
       accessibility-jargon fixes, one honest architecture doc) **shipped 2026-08-05 — see
-      Decision Log, 2026-08-05 (later still).** Everything below is queued, not started.
-      Each item cites its source report + finding ID under
+      Decision Log, 2026-08-05 (later still).** Wave 2 (12 items: data-integrity
+      re-stamping + a new gate, the Freeze Criteria correction, IJC force-source linking,
+      language-code normalization, four one-lookup corrections, the session-cap fix, the
+      first CI workflow, the pilot-feedback form, guided-starter why/citations rendering,
+      the anything-else wind-down streaming fix, the direct-address must_continue
+      exemption, and the textstat dependency guard) **also shipped 2026-08-05 — see
+      Decision Log, 2026-08-05 (later still), Wave 2 entry.** Everything below is queued,
+      not started. Each item cites its source report + finding ID under
       `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the report for
       the exact file/line/fix rather than re-deriving it; each report already worked the
-      fix out in detail. No further Mark gate needed to start Wave 2 unless an item below
+      fix out in detail. No further Mark gate needed to start Wave 3 unless an item below
       says otherwise.
-
-      **Wave 2 — next session, cheap and mechanical:**
-      - Rigor P0-1: re-stamp the 50 mis-labelled `discovery_channel` source rows + add the
-        instrument-required gate.
-      - Rigor P0-2 / P1-9: reconcile the Freeze Criteria text with the actual Article-31
-        ruling and ratify Construction Framework V7.4 in the same pass.
-      - Rigor P0-3: link Imperial-Juridical's ten force records to their registry rows; add
-        `sources[]` to the Completion Standard's force row and its gate.
-      - Rigor P2-8 (promoted — becomes P0 the day `sources.json` ships publicly): normalize
-        language codes to ISO 639-3 fleet-wide; fix PAHC's 16 `grc`/`Latn` rows.
-      - Rigor, four one-lookup items: Wessel's monograph title, Palladius *HL* 41,
-        Keser-Kayaalp's co-author, the Odes of Solomon Codex N ode count (P1-6, P2-1, P2-3,
-        P2-4).
-      - Engineering P0-2: fix the session cap — insert the `sessions` row where the
-        docstring already says it happens, decoupled from `pilot_logging_enabled`.
-      - Engineering P1-3 (step 1 only): one CI workflow running `validate-census.mjs` +
-        `tsc` on every push.
-      - Readiness P1-9a/b: link `pilot-feedback.html` from the closing screen and footer;
-        point its form at `/api/pilot/request` instead of a `mailto:` action.
-      - Readiness P1-2: render the `why`/`citations` fields already shipped in
-        `guided_starters.json` inside `QuestionSheet.tsx` — data exists, only the render is
-        missing.
-      - Readiness P1-4: stream the Facilitator's "anything else?" turn on wind-down — the
-        branch exists, it's just never reached.
-      - Readiness P1-8: exempt a direct-address-selected turn from `must_continue` in
-        `main.py:1419` so a two-world table can isolate one voice.
-      - Accessibility P1-8: add `textstat` to the dependency files, guard the import.
 
       **Wave 3 — this month, medium lift:**
       - **The ending screen rebuild** (the single lever all four reports independently

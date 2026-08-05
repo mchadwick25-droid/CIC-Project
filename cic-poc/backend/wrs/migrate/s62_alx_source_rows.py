@@ -9,6 +9,14 @@ SS8 material culture). This script IS the declared mapping, mirroring
 wrs/migrate/source_rows_from_doc02.py (Desert's) conventions exactly.
 Re-running regenerates the records byte-for-byte.
 
+CORRECTION, 2026-08-05 (full-system review, Rigor P0-1): all 12 SS4
+secondary-scholarship rows (srcALX013-024) below used to carry
+discovery_channel="field-bibliography" by row-section convention, not
+evidence - this world's own search record states no field bibliography
+was ever consulted. Changed to "builder-prior-knowledge" below, matching
+the primary/material rows, so this script's output matches the records
+already re-stamped directly on disk the same day.
+
 THE BACKFILL RULE, applied verbatim (Pass 1 SS3.1 / Completion Standard
 V1.0 SSA source row): ONLY attribution_status, level_of_description,
 language/script, and coarse block-level discovery_channel are
@@ -177,7 +185,7 @@ ROWS = [
          work_locus="1997", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the leading treatment of patristic exegesis as formation; shapes how Streams 1, 2, 5 are read",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX014", section="4",
@@ -185,7 +193,7 @@ ROWS = [
          work_locus="1988", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): grounds the Philonic-inheritance claim (Stream 6; SS3.5)",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX015", section="4",
@@ -193,7 +201,7 @@ ROWS = [
          work_locus="1966; 1953", source_type="S",
          attribution_status="genuine", level_of_description="corpus",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the standard framing of Justin/Clement/Origen's engagement with Greek philosophy, and the standard English Contra Celsum",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX016", section="4",
@@ -201,7 +209,7 @@ ROWS = [
          work_locus="1981/2007", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the Platonic shaping of Christian contemplative theology; informs Stream 4",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX017", section="4",
@@ -209,7 +217,7 @@ ROWS = [
          work_locus="1987/2001", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): situates Arius within the Origenian Alexandrian tradition - reframes Stream 12 as internal to this world's own intellectual descent",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX018", section="4",
@@ -217,7 +225,7 @@ ROWS = [
          work_locus="1990/1995", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the literate-Antony argument; directly bears on the desert world-attribution question (Stream 9; SS6)",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17. Cuts against any simple reading of Antony as proof that desert formation diverged from the learned gravity."),
     dict(id="srcALX019", section="4",
@@ -225,7 +233,7 @@ ROWS = [
          work_locus="1995; 2006", source_type="S",
          attribution_status="genuine", level_of_description="corpus",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the Life of Antony as episcopal politics; demonic combat as constitutive of monastic self-formation; a caution for Streams 4, 9, 12",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX020", section="4",
@@ -233,7 +241,7 @@ ROWS = [
          work_locus="2004", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the diversity of Egyptian Christian textual culture (incl. Nag Hammadi) the Gnostic-refusal streams were drawn against",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX021", section="4",
@@ -241,7 +249,7 @@ ROWS = [
          work_locus="2015; 2009", source_type="S",
          attribution_status="genuine", level_of_description="corpus",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the leading papyrological/documentary reconstruction of Egyptian church institutions; a primary corrective to the literary sources' elite bias",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX022", section="4",
@@ -249,7 +257,7 @@ ROWS = [
          work_locus="1993", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the standard documentary reconstruction of late-antique Egyptian society, economy, literacy; grounds SS6 and SS8",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX023", section="4",
@@ -257,7 +265,7 @@ ROWS = [
          work_locus="1971; 1988", source_type="S",
          attribution_status="genuine", level_of_description="corpus",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the social-religious world of late antiquity and the meaning of asceticism/renunciation",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     dict(id="srcALX024", section="4",
@@ -265,7 +273,7 @@ ROWS = [
          work_locus="1993", source_type="S",
          attribution_status="genuine", level_of_description="work",
          language="eng", script="Latn", genre_form="monograph",
-         discovery_channel="field-bibliography",
+         discovery_channel="builder-prior-knowledge",
          licensed_for="Secondary scholarship (Doc_02 SS4): the standard survey of Philo's Christian reception, with major attention to Clement, Origen, and Didymus (SS3.5)",
          verification_note="Independently verified for Doc_02 (author, title, year), 2026-07-17."),
     # ---- SS8 Material culture ----

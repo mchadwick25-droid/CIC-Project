@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Kirsopp Lake
 work_title: Superseded early dating of the Hermas-bearing Athos manuscript (Grigoriou 96)

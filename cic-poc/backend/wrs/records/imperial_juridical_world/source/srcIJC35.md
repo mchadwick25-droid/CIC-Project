@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Peter Brown, *The Rise of Western Christendom*
-language: en
+language: eng
 licensed_for: General historical framing and orientation only — explicitly not licensed for vivid, specific
   claims
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=B; boundary=Native.

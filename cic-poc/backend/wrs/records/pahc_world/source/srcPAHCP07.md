@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Pliny the Younger
 work_title: Pliny the Younger, Letters 10.96-97
 work_locus: c.111-113 CE

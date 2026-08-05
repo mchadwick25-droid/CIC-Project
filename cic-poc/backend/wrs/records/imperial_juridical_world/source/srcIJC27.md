@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: 'Neil McLynn, *Ambrose of Milan: Church and Court in a Christian Capital* (1994)'
-language: en
+language: eng
 licensed_for: Strand C's political context; a check on Ambrose's own self-presentation (Doc_02 §2, §3)
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=B; boundary=Native.
   Verification Note: Confirmed as a Step 0 source-matrix addition; a standard, widely-cited work per this

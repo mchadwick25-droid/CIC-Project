@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Augustine, *Confessions* 9.7
-language: la
+language: lat
 licensed_for: Ambrose's antiphonal psalm-singing, 386 standoff (Doc_01 §2, Doc_02 §1) — **narrowly**,
   as eyewitness testimony to Ambrose's own conduct only
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.

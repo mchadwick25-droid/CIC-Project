@@ -10,7 +10,9 @@ jobs:
 - 1
 - 2
 work_title: 'The Odes of Solomon (42 odes). Mss.: Papyrus Bodmer XI (Greek, Ode 11 only); BL Add. 14538
-  ''Codex Nitriensis'' (Syriac, 36 odes); the Harris ms. (Syriac, most complete, no earlier than 15th
+  ''Codex Nitriensis'' (Syriac, ode count flagged for verification 2026-08-05 - standard descriptions
+  give Odes 17:7-42:20, roughly 26, not the 36 previously stated here; check against Lattke''s Hermeneia
+  apparatus before citing a specific count); the Harris ms. (Syriac, most complete, no earlier than 15th
   c.); 5 odes in Coptic Pistis Sophia.'
 source_type: P
 boundary_status: Native

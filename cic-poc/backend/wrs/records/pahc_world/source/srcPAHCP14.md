@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Eusebius of Caesarea
 work_title: Eusebius, Historia Ecclesiastica
 work_locus: written c.313-325 CE, quoting earlier sources

@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Justin Martyr
 work_title: Justin Martyr, First Apology (chs.65-67 esp.)
 work_locus: c.153-157 CE (First Apology)

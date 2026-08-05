@@ -19,8 +19,12 @@ world_core. Declared mapping:
   (srcHAL012); the Wilson-Kastner/Krumeich neither-read-in-full
   characterization caveat (srcHAL018/019).
 - Backfill rule: no discovery_instrument/discovery_date on migrated
-  rows; discovery_channel per the fleet convention (P/M ->
-  builder-prior-knowledge; S -> field-bibliography).
+  rows; discovery_channel is builder-prior-knowledge for every row,
+  P/M and S alike. CORRECTED 2026-08-05 (full-system review, Rigor P0-1):
+  this used to read "S -> field-bibliography" by type convention, not
+  evidence - this world's own search record states no field bibliography
+  was ever consulted. The S() helper below (and the 11 records it
+  produced, srcHAL010-020) are fixed to match.
 - Vita Pauli predates the 382 boundary - carried INSIDE the vitae
   corpus row as declared formative background (Doc_02 SS1.1's own
   framing), not silently in-window.
@@ -71,7 +75,7 @@ def S(id_, author, title, locus, licensed, note, level="work", genre=None):
     r = {**COMMON, "id": id_, "source_type": "S", "boundary_status": "Native",
          "attribution_status": "genuine", "level_of_description": level,
          "language": "eng", "script": "Latn",
-         "discovery_channel": "field-bibliography",
+         "discovery_channel": "builder-prior-knowledge",
          "work_author": author, "work_title": title, "work_locus": locus,
          "licensed_for": licensed, "verification_note": note}
     if genre:

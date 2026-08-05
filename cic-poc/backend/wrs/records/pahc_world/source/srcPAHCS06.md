@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Allen Brent
 work_title: Ignatius of Antioch and the Second Sophistic / A Martyr Bishop

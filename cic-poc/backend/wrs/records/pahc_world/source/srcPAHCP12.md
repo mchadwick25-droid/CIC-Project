@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Hierapolis, Phrygia
 work_title: Abercius inscription
 work_locus: c.192-216 CE

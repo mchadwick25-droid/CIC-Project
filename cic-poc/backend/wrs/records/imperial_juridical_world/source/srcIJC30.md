@@ -12,7 +12,7 @@ attribution_status: genuine
 level_of_description: work
 work_title: Susan Wessel, *Leo the Great and the Spiritual Rebuilding of a Universal Rome* (working title
   recollection)
-language: en
+language: eng
 licensed_for: Strand A / Leo the Great — flagged for priority second-opinion review before use to support
   any specific claim
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=C; boundary=Native.

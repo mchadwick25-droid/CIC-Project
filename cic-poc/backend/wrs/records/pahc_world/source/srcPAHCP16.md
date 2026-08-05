@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Anonymous (Smyrna community; framed as a letter from the church at Smyrna to the church at
   Philomelium)
 work_title: Martyrdom of Polycarp

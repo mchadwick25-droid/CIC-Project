@@ -5035,3 +5035,174 @@ integrity, the ending-screen rebuild, the census copy pass, CI hardening, the ou
 scholarly reader, and the rest) are sequenced in the Task Board as backlog, not
 forgotten. API key rotation (flagged in the review index if `cic-poc` was ever
 deployed with the pre-fix `main.py`) remains Mark's call, not resolved here.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 2: 12 items shipped (data integrity, a governing-document correction, CI, three live conversation bugs); Waves 3–4 remain queued
+
+**What this closes:** the next execution pass against the Wave 2 backlog written into
+`Ministry/Operations/Standing/CiC_Task_Board_2026.md` after Wave 1 shipped. All 12
+items from that list, executed in one session.
+
+**Rigor (data integrity, cited to `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/02_Academic_Rigor_Review.md`):**
+
+1. **P0-1 — 50 mis-labelled `discovery_channel` rows re-stamped, plus a new gate.**
+   27 Syriac, 12 Alexandria, 11 Hieronymian source rows were stamped
+   `field-bibliography` by a migration-script type-rule, not evidence — each
+   world's own search record states no field bibliography was ever consulted.
+   Re-stamped `builder-prior-knowledge` directly in the record files, with an
+   honest correction note on each; the three migration scripts
+   (`s62_syr_source_rows.py`, `s62_alx_source_rows.py`, `s62_hal_s21.py`) fixed
+   to match, so a re-run wouldn't reintroduce the bug. Added
+   `gate_discovery_instrument` to `wrs/gates/core.py` (wired into
+   `run_gates.py`, fixture coverage added to `fixtures.py`, selftest verified
+   green) — any source row claiming a searched channel
+   (field-bibliography/database-search/library-catalogue) now requires a named
+   instrument. **Running it against real records surfaced a genuine, separate
+   gap the original review didn't name:** 4 Desert-world rows
+   (`srcDES009/010/011/015`) carry `discovery_channel: database-search` with no
+   instrument named. Not fixed here — inventing an instrument would be the
+   exact fabricated-precision failure this project's own discipline exists to
+   prevent. Left as an honest, gate-surfaced open item for a future session
+   with access to check what was actually searched.
+2. **P0-2/P1-9 — Freeze Criteria corrected; V7.4's own status addressed.**
+   `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`'s Freeze Criteria
+   named Article 31 (external scholarly review) a freeze-eligibility gate,
+   directly contradicting Mark's own 2026-08-02 ruling (Article 31 reset to a
+   Year 2 goal of the 5-year timeline) that all six frozen worlds' own freeze
+   declarations already cite. Corrected in place, marked as a dated Change
+   Order per the document's own convention. Also added `sources[]` to the
+   `gravity`/`force` row's requirements (see Rigor P0-3 below) via the same CO.
+   **Not done:** ratifying V7.4 outright — added a status-line addendum naming
+   the situation (six worlds frozen against a document still marked DRAFT) but
+   left the ratification decision itself to Mark, per this project's own
+   standing convention that Freezes and ratifications are his call.
+3. **P0-3 — Imperial-Juridical's force records linked to sources.** All ten
+   IJC force records carried `sources: []`. Linked nine to specific
+   `Source_Registry.md` rows based on each force's own `layer_historical_event`
+   content (Constantine/Edict of Milan → rows 1-3; the conciliar
+   authority-contest force → rows 9-11; Leo's Canon 28 rejection → rows 11, 13;
+   etc. — full mapping in the records' own bodies). The tenth
+   (`ijcforce1B1`, the pre-312 inherited church structure) is left honestly
+   empty: its evidence belongs to World #1's own registry, not this one's, and
+   forcing a same-world citation that isn't where the evidence actually lives
+   would be a fabrication, not a fix. Added `sources[]` to the Completion
+   Standard's force-row requirement (see item 2) and to
+   `gate_field_completion`'s `force` profile in `core.py` — running it against
+   real records now correctly surfaces exactly the one disclosed exception
+   (`ijcforce1B1`) as a violation, not a silent pass.
+4. **P2-8 (promoted) — language codes normalized fleet-wide to ISO 639-3;
+   PAHC's 16 `grc`/`Latn` rows fixed to `Grek`.** 90 source-record `language`
+   fields converted (Imperial-Juridical and Hieronymian/PAHC's ISO 639-1 codes
+   — `en`, `fr`, `la`, `de` — to `eng`, `fra`, `lat`, `deu`), verified against
+   every world's post-fix distribution and re-parsed as valid YAML across all
+   ~270 source rows. PAHC's 16 Greek-language rows (Didache, 1 Clement,
+   Polycarp, the Abercius inscription, the Alexamenos graffito) previously
+   recorded as written in Latin script — corrected to `Grek`, matching the 29
+   other `Grek`-script rows already correct elsewhere in the fleet.
+5. **Four one-lookup corrections closed.** Susan Wessel's monograph title
+   confirmed (*Leo the Great and the Spiritual Rebuilding of a Universal
+   Rome*, Brill, Supplements to VC 93, 2008) and Confidence raised C→B in the
+   IJC Registry, Doc_02 §3, and Doc_02 §9's open-items list. Palladius's Paula
+   passage located (*Historia Lausiaca* 41) in HAL Doc_02, closing a flag the
+   document had correctly refused to write around rather than guess. Nihat
+   Erdoğan added as co-author on the Nisibis cathedral excavation report
+   citation (Doc_02, the Registry JSON, and both WRS records) — the omission
+   had already been caught by an internal review round but never propagated
+   into the live citations. The Odes of Solomon Codex N ode count ("36 of 42")
+   flagged for verification rather than silently replaced — standard
+   descriptions give roughly 26, but per the review's own stated confidence
+   level this needs checking against Lattke's Hermeneia apparatus before a
+   specific number is asserted either way; the flag is now visible in Doc_02,
+   the Registry JSON, and the WRS record rather than an uncorrected error
+   sitting unflagged.
+
+**Engineering:**
+
+6. **P0-2 — the session cap can now actually fire.** `check_and_reserve_session_slot`'s
+   own docstring claimed the caller inserts a `sessions` row immediately after
+   a successful check; no such insert existed anywhere in the codebase, so the
+   count stayed permanently 0 and the cap could never bite for anyone. Added
+   the insert to `start_session` in `main.py`, decoupled from
+   `settings.pilot_logging_enabled` (session *counting* and transcript
+   *capture* are different questions that sharing one flag was conflating) —
+   fail-open on a failed insert, logged rather than silently swallowed.
+7. **P1-3 (step 1) — first CI this project has ever had.** `.github/workflows/ci.yml`:
+   `validate-census.mjs` and the frontend's `tsc && vite build` on every push
+   to `main` and every PR. No secrets, no models, both verified locally before
+   committing (frontend build succeeds cleanly; census validator reports 0
+   errors/0 warnings on the current data).
+
+**Readiness (cited to `04_Participant_Readiness_Review.md`):**
+
+8. **P1-9a/b — `pilot-feedback.html` reachable and its submission actually
+   works.** Linked from every page's footer (a new "Feedback" link) and from
+   the live app's closing screen (`TheTable.tsx`). Its form used to post to a
+   `mailto:` action, unreliable in modern browsers — **checked the suggested
+   fix against the actual code first and found it was wrong**: the review's
+   own suggestion to point the form at the existing `/api/pilot/request`
+   endpoint would have silently misfiled every feedback submission, since that
+   endpoint's schema (name/email/seat/why_interested — a pilot *sign-up*) has
+   nothing in common with this form's actual fields (perspective, confusing,
+   invented-or-overstated, etc. — post-conversation *feedback*). Built the
+   real thing instead: a new `pilot_feedback` table
+   (`supabase_schema.sql`), a new `PilotFeedbackRequest` model and
+   `/api/pilot/feedback` endpoint in `main.py`, and the form wired to POST
+   real JSON to it with a `mailto:` fallback if the request itself fails.
+9. **P1-2 — the `why`/`citations` fields in every guided starter, rendered for
+   the first time.** `guided_starters.json` has shipped both fields since it
+   was built; `QuestionSheet.tsx` rendered neither. `why` now shows as a muted
+   subline under the topic; `citations` sit behind a small disclosure,
+   matching `CitationModal`'s existing visual language. TypeScript compiles
+   clean.
+10. **P1-4 — the Facilitator's "anything else?" turn actually streams now.**
+    This was the most architecturally involved fix in the wave. Wind-down
+    sensing used to run in `run_post_round_governance`'s invisible tail,
+    *after* the participant's "done" event had already been sent — so it
+    could only ever flip `state.closing_stage` to `anything_else_asked` for a
+    later message to (mis)interpret as a reply to a question nobody actually
+    asked; the visible symptom was an unprompted resources offer arriving out
+    of nowhere. Moved the check to stream *before* "done," in the same
+    response, using the same closing-turn SSE mechanism already used for
+    `resources_offer`/`resources_show`/`sensed_close` — costs one extra
+    classifier call's latency, only on rounds already eligible
+    (`should_check_wind_down`), and it's the difference between a feature that
+    has never once actually worked and one that does. Removed the now-dead
+    post-`done` wind-down block from `governance.py` and its unused parameter.
+11. **P1-8 — a directly-addressed round can end after one answer.**
+    `select_next_speaker` already routed a direct-address opening turn
+    correctly; `must_continue`'s own `MIN_MULTI_WORLD_TURNS` floor still forced
+    a second, unaddressed voice into the round regardless, since it had no way
+    to know the opening turn was already a complete, addressed answer.
+    Detected once, on the participant's own opening message (the same check
+    `select_next_speaker` runs internally), and exempted the round from the
+    floor when true.
+
+**Accessibility:**
+
+12. **P1-8 — `textstat` dependency added, its import guarded.**
+    `wrs/gates/core.py`'s `readability_check` imported `textstat` unguarded;
+    the package wasn't declared anywhere. Added to `requirements.txt` and
+    `pyproject.toml`'s `[dev]` extra (it's gate/build-time only, never
+    imported by the running app — confirmed by grep, no live endpoint reaches
+    it). The bare import now raises a clear, actionable error naming the
+    install command instead of an opaque `ModuleNotFoundError` — verified live
+    by actually removing and reinstalling the package and watching both error
+    states.
+
+**Verified, not just written:** the full gate selftest (`run_gates.py
+--selftest`) green after every change, including the two new/changed gates
+(`gate_discovery_instrument`, the `force` profile's new `sources`
+requirement); the gate suite run against all 739 real records (32 total
+violations, up from 31 before Wave 2 — the one new violation is the disclosed
+`ijcforce1B1` exception, working as designed, not a regression); `tsc`
+type-checks clean; the frontend's full `npm run build` succeeds; all touched
+YAML frontmatter and JSON re-parsed valid after every bulk edit;
+`validate-census.mjs` still 0/0 (untouched by this wave).
+
+**Not done this wave, on purpose:** Waves 3-4 (the ending-screen rebuild, the
+census copy pass, the outside scholarly reader, CI hardening beyond step 1,
+and the rest) remain queued in the Task Board. The Desert `database-search`
+instrument gap (found by the new gate, not the original review) and V7.4's
+outstanding ratification decision are both flagged above, not resolved here —
+neither is this session's call to make unilaterally.

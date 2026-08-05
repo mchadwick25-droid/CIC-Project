@@ -12,7 +12,7 @@ attribution_status: genuine
 level_of_description: work
 work_title: 'R.P.C. Hanson, *The Search for the Christian Doctrine of God: The Arian Controversy, 318–381*
   (1988)'
-language: en
+language: eng
 licensed_for: Homoian theology's actual content (Doc_02 §7) — this world's single most important secondary
   source for the required Homoian-recentering disclosure
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=B; boundary=Native.

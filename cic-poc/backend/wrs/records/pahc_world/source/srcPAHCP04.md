@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Polycarp of Smyrna
 work_title: Polycarp, Letter to the Philippians
 work_locus: c.110s-160s CE depending on unity theory

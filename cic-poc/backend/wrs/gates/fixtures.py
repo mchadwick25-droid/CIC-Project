@@ -41,8 +41,9 @@ def _src(rid="fixsrc001"):
     return {"id": rid, "world_id": "fixture-world", "record_type": "source",
             "schema_version": 1, "attribution_status": "genuine",
             "level_of_description": "work", "language": "syc",
-            "discovery_channel": "field-bibliography", "boundary_status": "Native",
-            "licensed_for": "voice"}
+            "discovery_channel": "field-bibliography",
+            "discovery_instrument": "fixture reference-work sweep",
+            "boundary_status": "Native", "licensed_for": "voice"}
 
 
 def _quote(rid, state="verified-direct", date="2026-07-26", translation="fixsrc001"):
@@ -195,6 +196,14 @@ def seeded_sets():
         "force_llm_vote": False})
     s["sentinel"] = [("em-dash in do_not_retrieve_when (the historical defect)", e1),
                      ("dash sentinel in retrieve_when", e2)]
+
+    # discovery instrument (2026-08-05, Rigor P0-1) - the historical defect:
+    # a channel that claims a real search was performed with no instrument
+    # named to say what was actually searched
+    d1 = clean_set(); d1["fixsrc001"] = dict(d1["fixsrc001"]); d1["fixsrc001"].pop("discovery_instrument")
+    s["discovery_instrument"] = [
+        ("field-bibliography channel with no discovery_instrument named", d1),
+    ]
 
     # alias safety (VG-1b) - defined below, resolved at call time
     s["alias_safety"] = _alias_seeded_sets()

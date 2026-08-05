@@ -10,7 +10,7 @@ source_type: M
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Constantine Simonides
 work_title: Athos manuscript theft and forged transcript (1855)

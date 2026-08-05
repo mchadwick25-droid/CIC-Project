@@ -33,6 +33,9 @@ GATES = {
     "narratability": lambda rs, vm: core.gate_figure_narratability(rs, vm),
     "quote_recording": lambda rs, vm: core.gate_quote_fidelity_recording(rs),
     "sentinel": lambda rs, vm: core.gate_no_sentinel_conditions(rs),
+    # 2026-08-05 (full-system review, Rigor P0-1): a source row claiming a
+    # searched discovery_channel must name the instrument actually used.
+    "discovery_instrument": lambda rs, vm: core.gate_discovery_instrument(rs),
     # VG-1b (Voice-Governance Addendum SS5.3-5.8): Rules A+B; Rule C
     # deferred to VG-1c. 'note:'-prefixed entries are SS5.6 override
     # reports - printed, never counted (split_alias_reports).

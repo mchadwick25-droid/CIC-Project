@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Archaeological site, Syria
 work_title: Dura-Europos house-church
 work_locus: c.232-256 CE

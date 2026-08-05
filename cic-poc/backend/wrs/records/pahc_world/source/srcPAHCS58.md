@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: de
+language: deu
 script: Latn
 work_author: Walter Bauer
 work_title: Rechtglaeubigkeit und Ketzerei im aeltesten Christentum (Tuebingen, 1934; Eng. tr. Orthodoxy

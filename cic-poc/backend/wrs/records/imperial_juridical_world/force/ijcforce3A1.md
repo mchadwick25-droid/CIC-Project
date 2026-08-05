@@ -30,6 +30,7 @@ connections:
 - type: reactive
   target_id: ijcforce3B1
   note: 'Doc_08 SS4 Connection 5: Leo''s rejection reacts to Chalcedon''s failed consensus.'
-sources: []
+sources:
+- source_id: srcIJC11
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] linked 2026-08-05 (full-system review, Rigor P0-3) to Source_Registry.md row 11 (the Acts and Canons of Chalcedon).

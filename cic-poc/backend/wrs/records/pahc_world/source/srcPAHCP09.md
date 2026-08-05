@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Suetonius
 work_title: Suetonius, Life of Claudius 25.4 / Life of Nero 16.2
 work_locus: written c.121 CE, describing events 49 CE / 64 CE

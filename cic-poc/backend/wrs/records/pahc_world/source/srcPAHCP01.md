@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Anonymous/composite (likely Syria)
 work_title: The Didache
 work_locus: final form c.80-120 CE (range 50-150 CE)
