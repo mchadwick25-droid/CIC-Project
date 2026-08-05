@@ -13,6 +13,54 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 17) — Mobile pinch-zoom, round two: families were clustering in the left third of the canvas, zoomed out
+
+**The report, immediately after UI 16 shipped:** "we can double the
+width on the phone, when zoomed out fully everything is on the left
+side of the canvas." True, and once pinch-zoom made the WHOLE canvas
+visible at once for the first time, it exposed a design decision that
+had been sitting quietly in `tryPack` all along, never really testable
+until now.
+
+**Root cause:** `tryPack`'s anchor-spread line --
+`const AW=Math.min(W,viewW);` -- deliberately spreads each era's family
+anchors across the SCREEN width, not the full packed canvas width, with
+its own comment explaining why: "extra canvas width is pure spill room
+to the right ... never an excuse to scatter the families wider." On
+desktop and on mobile before UI 16, that reasoning held -- the canvas's
+extra width past the screen was mostly invisible, something you'd only
+find by actively scrolling right into overflow, so keeping the families
+themselves clustered near what was actually on screen made sense. UI 16
+changed that premise for mobile specifically: the packed canvas is now
+routinely shown in FULL, zoomed out, in one glance. With anchors still
+capped at the original ~390px screen width while the canvas itself
+packed out to 1170-1230px, every family's "home" position sat in the
+left third of a canvas the viewer could now see whole -- exactly "on the
+left side," with the right two-thirds sitting mostly empty except for
+whatever individual boxes had to spill there to avoid collisions.
+
+**Fix:** on mobile only, `AW` now equals the full packed width `W`
+instead of `Math.min(W,viewW)` -- anchors spread across the whole
+canvas, the same canvas the whole-page pinch-zoom now shows at once.
+Desktop's line is untouched (`isMobileDevice?W:Math.min(W,viewW)`),
+preserving the original screen-clustered behavior there, where the
+original reasoning still applies unchanged.
+
+**Verified against real Chromium mobile emulation:** zoomed-out
+screenshots at Eras I-II and the Reformation era (VII, the busiest
+stretch on the map) both light and dark -- families now spread evenly
+across the full width instead of bunching left, in both color schemes;
+re-ran the full mobile interaction suite (node sizing, mobile-only CSS,
+bottom-sheet layout, tap-to-open, era-rail jump, search) with no
+regressions from the wider anchor spread. Full Playwright harness clean
+(0 overlaps, 0 JS errors) -- confirms the wider spread didn't introduce
+any new collisions, only relocated where boxes prefer to sit before
+collision-avoidance kicks in. `validate-census.mjs` clean (census
+untouched). Desktop re-verified completely unchanged (viewport meta,
+node width, sheet layout all identical to before this pass).
+
+---
+
 ## 2026-08-05 (Pass 7, UI 16) — Mobile pinch-zoom/pan: the packed canvas is routinely wider than the phone screen, so let the browser's native gesture handle it
 
 **The report:** "on the phone it feels like everything is crammed to the

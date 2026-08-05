@@ -649,8 +649,17 @@ function layout(){
   function tryPack(W){
     /* anchors spread over the SCREEN, not the canvas — extra canvas width is
        pure spill room to the right (Mark: "worlds can move to the right"),
-       never an excuse to scatter the families wider. */
-    const AW=Math.min(W,viewW);
+       never an excuse to scatter the families wider. True on desktop,
+       where extra canvas width is mostly invisible spill room you have to
+       actively scroll right to find. NOT true on mobile once pinch-zoom
+       (Mark, 2026-08-05) lets the WHOLE canvas be seen at once, zoomed
+       out: capping the spread at the original screen width (390-ish)
+       while the canvas itself is 2-3x wider left every family bunched in
+       the left third of a canvas the viewer can now see in full at a
+       glance -- "everything is on the left side of the canvas." On
+       mobile the anchors spread across the full packed width W instead,
+       same as the boxes now can. */
+    const AW=isMobileDevice?W:Math.min(W,viewW);
     const A=eraSpans.map((s,i)=>{
       const present=FAM.filter(f=>rows.some(m=>famOf(m.laneOrder)===f&&aliveIn(m,i)));
       const map={};present.forEach((f,j)=>{map[f.k]=((j+0.5)/present.length)*(AW-28)+14;});
