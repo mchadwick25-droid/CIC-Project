@@ -8,6 +8,7 @@ import uuid
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlparse
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -71,6 +72,20 @@ def _multi_world_turn_floor() -> int:
         params = yaml.safe_load(params_path.read_text(encoding="utf-8"))
         return int(params["parameters"]["turn_floor_multi_world"]["value"])
     except Exception:
+        # This used to fail silently and identically whether the file was
+        # missing (a real deployment gap - see the Dockerfile's wrs/
+        # COPY lines) or just malformed. Both still fail open to the
+        # historical value, per the deployability rule above, but now at
+        # least the difference between "working as designed" and "the
+        # canonical parameters file didn't make it into this image" is
+        # visible in the logs instead of indistinguishable
+        # (2026-08-05 full-system review, Engineering P1-2).
+        logger.warning(
+            "wrs/parameters.yaml unreadable or malformed at %s - "
+            "falling back to the hardcoded turn_floor_multi_world=2",
+            Path(__file__).resolve().parents[1] / "wrs" / "parameters.yaml",
+            exc_info=True,
+        )
         return 2
 
 
@@ -617,16 +632,24 @@ async def redeem_referral(request: RedeemReferralRequest):
 # own hosted page collects the card), but a real open-redirect surface
 # riding on a legitimate payment flow. localhost stays allowed for local
 # dev against a real Stripe test-mode key.
-_ALLOWED_REDIRECT_PREFIXES = (
-    "https://churchinconversation.com",
-    "https://churchinconversation.org",
-    "http://localhost",
-    "http://127.0.0.1",
-)
+# _ALLOWED_REDIRECT_PREFIXES used to be matched with str.startswith(), which
+# a host like "churchinconversation.com.attacker.example" or
+# "localhost.attacker.example" also starts with - the exact open-redirect
+# this check exists to close. Compare the parsed hostname exactly instead
+# (2026-08-05, full-system review, Engineering P1-1).
+_ALLOWED_REDIRECT_HOSTS = {
+    "churchinconversation.com",
+    "www.churchinconversation.com",
+    "churchinconversation.org",
+    "www.churchinconversation.org",
+    "localhost",
+    "127.0.0.1",
+}
 
 
 def _validate_redirect_url(url: str) -> None:
-    if not url.startswith(_ALLOWED_REDIRECT_PREFIXES):
+    parsed = urlparse(url)
+    if parsed.scheme not in ("https", "http") or parsed.hostname not in _ALLOWED_REDIRECT_HOSTS:
         raise HTTPException(status_code=400, detail="Invalid redirect URL.")
 
 

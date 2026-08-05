@@ -4937,3 +4937,101 @@ Mark reported the live site (and the Atlas specifically) inconsistently showing 
 **Verified live, honestly, not claimed clean:** after both pushes, `atlas-v3.html` still returned 404 on the production domain and `atlas.html` still served the old cached title on repeat checks — Cloudflare Pages build/propagation lag most likely, but not confirmed, since this session has no dashboard access to check the actual deploy status. Flagged to Mark rather than assumed resolved: worth him checking the Cloudflare Pages dashboard directly if it's still showing old content after a few more minutes.
 
 **Also found, not yet actionable:** this session's git access can push commits to `main` but is blocked (403) from deleting remote branches. 16 branches are already fully merged into `main` (mathematically confirmed via `git merge-base --is-ancestor`, not guessed) and safe to delete with zero risk — named to Mark directly since only he (or a session with different permissions) can remove them. ~28 older branches (mostly July world-build experiments) not yet triaged — held for a follow-up pass rather than rushed.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 1: 13 items shipped (safety, security, five live bugs, accessibility jargon, one honest architecture doc); Waves 2–4 queued as backlog
+
+**What this closes:** the first execution pass against
+`Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/00_INDEX.md`'s combined
+findings (four Opus review passes, ~15 P0s / 35 P1s / 20 P2s). Mark asked for a plan to
+fix what the reviews found; the plan (13 Wave-1 items, executed same night) and the
+Waves 2–4 backlog are both written into
+`Ministry/Operations/Standing/CiC_Task_Board_2026.md`. This entry covers what actually
+shipped tonight.
+
+**Safety decision — the one item that needed Mark's own call, not a default.**
+Participant Readiness finding P0-1: the shipped acute-distress response
+(`facilitator_prompts.py` A1/A2/Harmful-Dynamic templates) instructed the Facilitator
+to name no resource, hotline, or path to human help at all — directly contradicting
+Facilitator Governance V3.6 §12 ("redirect with honesty... whatever redirection
+toward human support is appropriate"), a contradiction the project's own ALX battery
+had graded MARGINAL twice and called "a hard pre-freeze fix item," previously closed
+by re-labelling rather than fixing (see the correction added to
+`Ministry/Technology/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` tonight). Mark chose
+**Option A** from `CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md` — a
+general redirect naming no specific organization, hotline, or number — as the
+unconditional floor, shipped immediately. **Option C** (a named, jurisdiction-
+appropriate resource for known testers) is explicitly not shipped: it depends on an
+answer to that document's own open question (who is testing, is their jurisdiction
+actually known) that hasn't been given, and is scoped as separate follow-up work, not
+implied or blocked on tonight's fix. Full resolution recorded in the decision document
+itself.
+
+**What shipped, all 13 Wave-1 items:**
+
+1. Acute-distress redirect (Readiness P0-1) — Option A floor added to A1/A2/Harmful-
+   Dynamic in `facilitator_prompts.py`; the two `[RESOURCE REDIRECT — pending
+   decision]` placeholders in `CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_
+   Proposal_DRAFT.md` §5 resolved with the same text.
+2. Citations to a live-test document that doesn't exist anywhere in the repo or git
+   history (Readiness P1-10) — `nodes.py`, `state.py`, and the three prompt templates
+   now cite the actual desk-trace artifact (`..._Retest_Against_Proposed_Mechanism_
+   DRAFT.md`), labeled honestly as a desk trace, not a live test.
+3. `cic-website/privacy.html` added (Readiness P0-2) — what's stored, who reads it,
+   deletion path; linked from every page's footer and from `OnboardingScreen.tsx`'s
+   cataloguing paragraph.
+4. Theme-toggle-while-filtered map-blanking bug fixed (Engineering P0-3) —
+   `atlas-v3.html`'s theme handler now calls the same `relayout()` every other
+   force-relayout site uses; verified live with Playwright (filter to 6, toggle theme,
+   still 6 — previously went to 0).
+5. Open-redirect prefix-match bypass fixed (Engineering P1-1) — `main.py`'s
+   `_validate_redirect_url` now compares an exact parsed hostname instead of a
+   `.startswith()` prefix; verified `churchinconversation.com.attacker.example` now
+   correctly rejects.
+6. Atlas tray seat cap corrected from 5 to 3 (Readiness P1-5), matching
+   `WorldSelector.tsx`'s existing cap — previously silently dropped the 4th/5th pick
+   with no explanation; now shows "Table is full — up to three seats."
+7. Hover card + `aria-label` jargon leak fixed (Accessibility P0-2) — both now read
+   `statusMeta[status].shortWord` (already used by the click document) instead of the
+   raw internal `statusWord` field, which carried process jargon on 71% of entries.
+8. Visible orientation text added above the fold on the Atlas (Accessibility P0-1) —
+   previously the only explanation of the map lived in the footer, below the entire
+   ten-era canvas; the "Reading the marks" key moved to a `<details>` near the top,
+   open by default on first visit (same `localStorage` pattern as
+   `cic_onboarding_seen`).
+9. "Source base pending" corrected for the six live worlds (Accessibility P0-3, first
+   half) — these six previously got the same "pending" copy as genuinely-unresearched
+   entries, when each has a real source registry that just isn't copied into the
+   census yet; full backfill queued as Wave 3.
+10. Two `statusMeta` descriptions stripped of "(Criterion 2)" / "Step 0" internal
+    process references (Accessibility P1-2, cheap half).
+11. `whats-next.html`'s Representative Modes paragraph corrected (Readiness P0-3a) to
+    match the Task Board's actual 2026-07-24/25 pause and 2026-08-02 hard-stop, rather
+    than reading as "nearly here."
+12. `cic-poc/docs/langgraph-architecture.md` rewritten (Engineering P0-4) — the
+    previous version described a conversation loop that has never executed; the
+    replacement documents the graph's real, verified behavior (invoked once at
+    session start only; real conversation runs through `main.py`'s two endpoints and
+    `governance.py`), with several of its own numbers re-verified directly rather
+    than carried over from the review report (e.g. `ConversationState` is 28 fields,
+    counted from the AST while writing this, not the review's "39").
+13. `wrs/parameters.yaml` added to the Dockerfile's `COPY` list and `PyYAML` added to
+    `requirements.txt` (Engineering P1-2) — the "canonical parameters file" wasn't
+    actually in the production image, so `main.py`'s fallback path ran silently;
+    now logs a warning if it's ever missing again instead.
+
+**Verified, not just written:** `node validate-census.mjs` (0 errors/0 warnings),
+the full Playwright `shoot.mjs` harness (0 JS errors, 0 overlaps, all smoke checks
+pass), a targeted Playwright check confirming the theme/filter regression is gone,
+a targeted check confirming the tray caps at 3 with all 6 live worlds attempted, and
+a direct Python check of the redirect-URL host allowlist against the exact bypass
+string from the review. No live-model test exists in this environment for the safety
+prompt change — verified by careful read-through against Governance V3.6 §12's actual
+text instead, per the reviewer's own stated limitation.
+
+**Not done tonight, on purpose:** everything else in the four reports. Waves 2–4 (data
+integrity, the ending-screen rebuild, the census copy pass, CI hardening, the outside
+scholarly reader, and the rest) are sequenced in the Task Board as backlog, not
+forgotten. API key rotation (flagged in the review index if `cic-poc` was ever
+deployed with the pre-fix `main.py`) remains Mark's call, not resolved here.

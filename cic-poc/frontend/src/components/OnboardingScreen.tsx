@@ -10,6 +10,12 @@
  * consolidated status line during the conversation itself (see TheTable's
  * table bar, Increment 1 §2), since it's the one thing a tester needs to
  * remember *during* the conversation, not just before it.
+ *
+ * One addition beyond that draft, 2026-08-05: a link to the new
+ * cic-website/privacy.html in the cataloging paragraph, closing the
+ * full-system review's Participant Readiness finding P0-2 (the app told
+ * testers their conversation was saved and read, with no page anywhere
+ * saying what that meant). Everything else in this component is unchanged.
  */
 
 const ONBOARDING_SEEN_KEY = 'cic_onboarding_seen';
@@ -55,7 +61,11 @@ export function OnboardingScreen({ onContinue }: OnboardingScreenProps) {
         <p>
           Your conversation in this session is being saved and cataloged for learning purposes — so
           the project team can see what's working and what isn't before this goes any further. It's
-          reviewed by the project team only.
+          reviewed by the project team only. See our{' '}
+          <a href="https://churchinconversation.com/privacy.html" target="_blank" rel="noopener noreferrer">
+            privacy page
+          </a>{' '}
+          for what's stored, how long, and how to ask us to delete it.
         </p>
 
         <h3>What a "world" and a "Representative" are</h3>

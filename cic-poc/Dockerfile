@@ -51,10 +51,17 @@ COPY backend/build_indices.py .
 # app/prompts/confirmed_glosses.py loads this file at import time (module-
 # level, not lazy) - since the S6.2 tail's SS4.3 data move (2026-08-01),
 # the gloss data's authoritative home is wrs/glosses/, not an in-code dict.
-# The rest of wrs/ (migration scripts, per-world records, gate code) is
-# dev/build-time only and deliberately not copied - this is the one file
-# under it that's now a genuine runtime dependency.
 COPY backend/wrs/glosses/ ./wrs/glosses/
+
+# main.py's _multi_world_turn_floor() reads this at runtime for
+# turn_floor_multi_world. It used to be dev/build-time only, like the rest
+# of wrs/ (migration scripts, per-world records, gate code, still
+# deliberately not copied below) - but that stopped being true at S4.4a and
+# this line was never added, so production silently ran on the function's
+# hardcoded except-path fallback instead of the canonical value (2026-08-05
+# full-system review, Engineering P1-2). Two runtime dependencies under
+# wrs/ now; both copied explicitly rather than the whole tree.
+COPY backend/wrs/parameters.yaml ./wrs/parameters.yaml
 
 # Pre-compute every world's FAISS indices now, on Render's (or whichever
 # host's) build machine, instead of leaving app/main.py's own startup

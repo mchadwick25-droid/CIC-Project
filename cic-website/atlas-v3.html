@@ -369,6 +369,7 @@ body.filtering #art .thread{opacity:.1}
 #tray.on{display:flex}
 #tray .tchip{font-size:.78rem;border:1px solid var(--gold);padding:.15rem .3rem .15rem .55rem;display:inline-flex;gap:.25rem;align-items:center}
 #tray .tchip button{background:none;border:none;color:inherit;cursor:pointer;font-size:.9rem}
+#tray .tray-note{font-size:.72rem;font-style:italic;opacity:.75}
 #tray .go{margin-left:auto;font:inherit;font-weight:700;font-size:.85rem;background:var(--gold);color:var(--ink);
   border:none;padding:.45rem .9rem;cursor:pointer}
 .node:focus-visible{outline:2px solid var(--goldhi);outline-offset:1px}
@@ -432,30 +433,41 @@ body.filtering #art .thread{opacity:.1}
 <symbol id="ic-question" viewBox="0 0 16 16"><path d="M5 5.5 Q5 2.5 8 2.5 Q11 2.5 11 5 Q11 7 8.5 8 L8 10" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="7.2" y="12" width="1.8" height="1.8" fill="currentColor"/></symbol>
 <symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
 </defs></svg>
+<div id="orient" style="padding:.5rem .8rem 0">
+  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
+  <svg width="13" height="13" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
+  <b>House</b> means you can sit down and talk with it today — tap "Built worlds" above to see just those.</p>
+  <details id="orientDetails">
+    <summary style="cursor:pointer;font-size:.78rem;color:var(--gold);font-variant:small-caps;letter-spacing:.05em">Reading the marks — what every icon means</summary>
+    <div style="border:1px solid var(--gold);padding:.7rem .9rem;margin:.5rem 0 1rem;font-size:.82rem">
+    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
+    <b>House</b> — built and open: you can sit down with this tradition now.&ensp;
+    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-plans"/></svg>
+    <b>Plans</b> — chosen for construction; not yet built.&ensp;
+    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
+    <b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
+    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
+    <b>Closed door</b> — outside the Nicene base this project builds from; the grounds are always
+    stated in the entry, and exclusion is never a judgment of unimportance.
+    </div>
+  </details>
+</div>
 <div id="mapViewport"><div id="mapScaler"><div id="wrap"><div id="canvas"><svg id="art"></svg></div></div></div></div>
 
 <div id="railWrap">
   <div id="yearBadge" aria-live="polite" aria-label="Years currently in view"></div>
   <nav id="rail" aria-label="Jump to era"></nav>
 </div>
-<div id="tray" aria-live="polite"><span id="traychips"></span><button class="go" id="go">Sit down at the Table</button></div>
+<div id="tray" aria-live="polite" title="Up to three seats at the Table"><span id="traychips"></span><button class="go" id="go">Sit down at the Table</button></div>
 <div id="tip"></div>
 <div id="scrim"></div>
 <div id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1" inert><button class="close" id="sheetClose" aria-label="Close">×</button><div class="grab"></div><div id="sheetBody"></div></div>
 
 <footer>
-<div style="border:1px solid var(--gold);padding:.7rem .9rem;margin-bottom:1rem">
-<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Reading the marks</b><br>
-<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
-<b>House</b> — built and open: you can sit down with this tradition now.&ensp;
-<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-plans"/></svg>
-<b>Plans</b> — chosen for construction; not yet built.&ensp;
-<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
-<b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
-<svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
-<b>Closed door</b> — outside the Nicene base this project builds from; the grounds are always
-stated in the entry, and exclusion is never a judgment of unimportance.
-</div>
+<!-- The "Reading the marks" icon key used to live here, below the entire
+     ten-era canvas -- moved to #orientDetails near the top of the page,
+     2026-08-05 (Accessibility P0-1). Kept the paragraph below as
+     supplementary depth for anyone who scrolls this far. -->
 Time flows downward in order — vertical distance is <i>not</i> to scale. Each movement is a box at
 its birth; its tail falls through the events of its lifetime (a fading tail runs past this slice's edge).
 Color names the high-level tradition family; a movement's status is stated in words on hover and in its
@@ -468,7 +480,7 @@ click for the full entry — the same template for every movement, built or not.
 <footer class="site-footer">
   <div class="wrap">
     <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
-    <nav><a href="about.html">About</a><a href="atlas.html">Atlas</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
+    <nav><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
   </div>
 </footer>
 
@@ -476,6 +488,17 @@ click for the full entry — the same template for every movement, built or not.
 "use strict";
 const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
 const LIVE_APP_URL=isLocal?'http://localhost:8199':'https://cic-poc.onrender.com';
+/* Open the "Reading the marks" key by default the first time anyone visits
+   the Atlas, same once-per-browser pattern as OnboardingScreen.tsx's
+   cic_onboarding_seen -- doesn't depend on the census fetch, so it can run
+   immediately rather than waiting on boot(). (2026-08-05 full-system
+   review, Accessibility P0-1: previously the only explanation of the map
+   sat in the footer, below the entire ten-era canvas.) */
+(function(){
+  const key='cic_atlas_reading_marks_seen';
+  const d=document.getElementById('orientDetails');
+  if(d&&!localStorage.getItem(key)){d.open=true;localStorage.setItem(key,'true');}
+})();
 fetch('data/world-census.json')
   .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
   .then(boot)
@@ -541,6 +564,14 @@ const ST=m=>m.status==="Built & Live"?"live":
   (m.status==="Deferred by Step 0"||m.status==="Possible Future World (on record)")?"def":
   m.status==="Pre-Survey Candidate"?"psc":
   m.status==="Contested - Evidentiary"?"cev":"exc";
+/* m.statusWord is the raw internal-process label from the census
+   (e.g. "Researched — viable, secondary (Era 9 Step 0)") — never meant for
+   a visitor. statusMeta[status].shortWord is the clean visitor-language
+   string the click document already uses; the hover card and aria-label
+   were reading the raw field instead, leaking process jargon onto 71% of
+   entries (2026-08-05 full-system review, Accessibility P0-2). Falls back
+   to statusWord only if a status is somehow missing from statusMeta. */
+const shortStatus=m=>(DATA.statusMeta&&DATA.statusMeta[m.status]&&DATA.statusMeta[m.status].shortWord)||m.statusWord;
 
 const byId={};DATA.movements.forEach(m=>byId[m.id]=m);
 const parentsOf={},childrenOf={};
@@ -759,7 +790,7 @@ function layout(){
     else if(st==="exc")style+=`border:1.5px dashed ${c};background:color-mix(in srgb, ${c} 7%, var(--panel));`;
     else if(st==="cev")style+=`border:1.5px dotted ${c};`;
     const nmColor=(st==="sel"||st==="exc"||st==="cev")?`color:${c}`:"";
-    html+=`<div class="node ${st==="live"?"live":""}" data-id="${m.id}" style="${style}" tabindex="0" role="button" aria-label="${esc(m.shortName||m.name)}, ${esc(m.dates)}, ${esc(m.statusWord)}">
+    html+=`<div class="node ${st==="live"?"live":""}" data-id="${m.id}" style="${style}" tabindex="0" role="button" aria-label="${esc(m.shortName||m.name)}, ${esc(m.dates)}, ${esc(shortStatus(m))}">
       <div class="nm" style="${nmColor}">${esc(m.shortName||m.name)}</div>
       <div class="dt">${esc(m.dates)}</div></div>`;
   });
@@ -1206,12 +1237,18 @@ function updateFilterCount(){
   filterToggle.classList.toggle('has-filters',n>0);
 }
 if(laneOff.size||regionOff.size)setFilterPanel(true);
+/* Every call site that forces a fresh layout() must also re-apply the
+   filter/lane/region classes, since layout() destroys and recreates every
+   .node element (fresh nodes carry none of them) while body keeps its
+   .lanefiltering/.regionfiltering/.filtering class from before - a mismatch
+   that drives every node to 13% opacity. One shared function so a future
+   call site (there were two; the theme toggle was missing this and blanked
+   the map) can't reintroduce the bug a third time. */
+function relayout(){layout();applyLaneToggle();applyRegionToggle();applyFilter();}
 layout();
 applyLaneToggle();
 applyRegionToggle();
-addEventListener('resize',()=>{
-  layout();applyLaneToggle();applyRegionToggle();applyFilter();
-});
+addEventListener('resize',relayout);
 
 /* ---- trace ---- */
 const tip=document.getElementById('tip');
@@ -1251,7 +1288,7 @@ canvas.addEventListener('pointerover',ev=>{
     ${m.shortName&&m.shortName!==m.name?`<div class="inf">${esc(m.name)}</div>`:""}
     <div class="m">${esc(m.dates)} · ${esc(m.region)} · ${esc(m._fam.lbl)} family</div>
     ${d1?`<div class="c">${esc(d1)}</div>`:""}
-    <div class="s">${esc(m.statusWord)}</div>
+    <div class="s">${esc(shortStatus(m))}</div>
     ${m.entry?`<div class="rep">Representative: <b>${esc(m.entry.representativeName)}</b>${m.entry.representativeTitle?" — "+esc(m.entry.representativeTitle):""}</div>`:""}`;
   tip.style.display="block";
 });
@@ -1330,6 +1367,14 @@ function openSheet(id){
        const title=x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:label;
        return `<p>· ${title}</p>`;
      }).join("")
+     /* Every "Built & Live" world already carries a full Source Registry
+        inside its own construction record -- it's real, it's just not
+        copied into this census entry yet. Saying "pending" here was the
+        inverse of true for exactly the six worlds a visitor is most likely
+        to check (2026-08-05 full-system review, Accessibility P0-3). The
+        registries themselves get backfilled into m.sources in a later
+        pass; this is the honest interim line until then. */
+     :live?`<p class="note">This world's full source registry isn't listed here yet, but it exists and grounds every claim the Representative makes — ask about sources directly in the conversation.</p>`
      :`<p class="note">Source base pending — ${esc(eraState)}</p>`}`;
   if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button><button class="act" data-act="add" data-aid="${m.id}">Add to the Table</button>`;
   /* Plain-language status, moved to the END of the document (Mark,
@@ -1565,15 +1610,19 @@ if(isMobileDevice){
   addEventListener('scroll',updateRailHighlight,{passive:true});
 }
 updateYearBadge(0);
-/* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ---- */
-let tray=[];const TRAY_MAX=5;
+/* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ----
+   TRAY_MAX must match WorldSelector.tsx's MAX_WORLDS (currently 3, Mark's
+   2026-08-01 cap decision) - the app silently drops any seat past its own
+   cap, so a mismatch here let a visitor fill five seats and lose the last
+   two with no explanation (2026-08-05 full-system review, Readiness P1-5). */
+let tray=[];const TRAY_MAX=3;
 function renderTray(){
   const t=document.getElementById('tray');
   t.classList.toggle('on',tray.length>0);
   document.getElementById('traychips').innerHTML=tray.map(id=>{
     const m=byId[id];
     return `<span class="tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)} from the table">×</button></span>`;
-  }).join(" ");
+  }).join(" ")+(tray.length>=TRAY_MAX?'<span class="tray-note">Table is full — up to three seats</span>':"");
 }
 function launch(ids,mode){location.href=LIVE_APP_URL+'/?worlds='+ids.join(',')+'&mode='+mode;}
 document.getElementById('tray').addEventListener('click',ev=>{
@@ -1593,7 +1642,7 @@ const tb=document.getElementById('themeBtn');let themes=["auto","light","dark"],
 tb.addEventListener('click',()=>{ti=(ti+1)%3;const t=themes[ti];
   if(t==="auto")document.documentElement.removeAttribute('data-theme');
   else document.documentElement.setAttribute('data-theme',t);
-  tb.textContent="theme: "+t;layout();});
+  tb.textContent="theme: "+t;relayout();});
 } /* end boot */
 </script>
 </body>

@@ -217,7 +217,7 @@
    "chip": "def",
    "glyph": "pfw",
    "shortWord": "Possible future tradition — on record",
-   "description": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten."
+   "description": "Named as a live future candidate or a voice we considered and set aside, with our reasoning on record — not yet chosen, not forgotten."
   },
   "Pre-Survey Candidate": {
    "chip": "psc",
@@ -247,7 +247,7 @@
    "chip": "exc",
    "glyph": "exc",
    "shortWord": "Excluded — person-defined movement",
-   "description": "Excluded because its authority rests on one person's revelation or standing (Criterion 2) — the theology was not the problem."
+   "description": "Excluded because its authority rests on one person's revelation or standing — the theology was not the problem."
   },
   "Within Another World (A5)": {
    "chip": "exc",

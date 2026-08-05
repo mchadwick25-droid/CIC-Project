@@ -929,6 +929,103 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
+- [ ] **NEW 2026-08-05 — Full-system review remediation, Waves 2–4 (backlog, sequenced).**
+      Wave 1 (13 P0-tier/live-bug items: the acute-distress safety fix, the path-traversal
+      and open-redirect security fixes, the theme-toggle map-blanking bug, five
+      accessibility-jargon fixes, one honest architecture doc) **shipped 2026-08-05 — see
+      Decision Log, 2026-08-05 (later still).** Everything below is queued, not started.
+      Each item cites its source report + finding ID under
+      `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the report for
+      the exact file/line/fix rather than re-deriving it; each report already worked the
+      fix out in detail. No further Mark gate needed to start Wave 2 unless an item below
+      says otherwise.
+
+      **Wave 2 — next session, cheap and mechanical:**
+      - Rigor P0-1: re-stamp the 50 mis-labelled `discovery_channel` source rows + add the
+        instrument-required gate.
+      - Rigor P0-2 / P1-9: reconcile the Freeze Criteria text with the actual Article-31
+        ruling and ratify Construction Framework V7.4 in the same pass.
+      - Rigor P0-3: link Imperial-Juridical's ten force records to their registry rows; add
+        `sources[]` to the Completion Standard's force row and its gate.
+      - Rigor P2-8 (promoted — becomes P0 the day `sources.json` ships publicly): normalize
+        language codes to ISO 639-3 fleet-wide; fix PAHC's 16 `grc`/`Latn` rows.
+      - Rigor, four one-lookup items: Wessel's monograph title, Palladius *HL* 41,
+        Keser-Kayaalp's co-author, the Odes of Solomon Codex N ode count (P1-6, P2-1, P2-3,
+        P2-4).
+      - Engineering P0-2: fix the session cap — insert the `sessions` row where the
+        docstring already says it happens, decoupled from `pilot_logging_enabled`.
+      - Engineering P1-3 (step 1 only): one CI workflow running `validate-census.mjs` +
+        `tsc` on every push.
+      - Readiness P1-9a/b: link `pilot-feedback.html` from the closing screen and footer;
+        point its form at `/api/pilot/request` instead of a `mailto:` action.
+      - Readiness P1-2: render the `why`/`citations` fields already shipped in
+        `guided_starters.json` inside `QuestionSheet.tsx` — data exists, only the render is
+        missing.
+      - Readiness P1-4: stream the Facilitator's "anything else?" turn on wind-down — the
+        branch exists, it's just never reached.
+      - Readiness P1-8: exempt a direct-address-selected turn from `must_continue` in
+        `main.py:1419` so a two-world table can isolate one voice.
+      - Accessibility P1-8: add `textstat` to the dependency files, guard the import.
+
+      **Wave 3 — this month, medium lift:**
+      - **The ending screen rebuild** (the single lever all four reports independently
+        pointed at): `TheTable.tsx`'s closing screen gets a takeaway artifact (copyable
+        transcript + cited sources + reading list), the resources offer, and a link to
+        `pilot-feedback.html`.
+      - **Census copy pass** (Accessibility's single biggest lever): split the
+        100%-over-standard `longDescription`/`legacy` sentences, backfill `sources[]` for
+        the six live worlds properly, render the authored `tag` field, fix stale `rec`,
+        author the 32 missing teasers.
+      - Six per-world further-reading JSON packs (Readiness P1-3); Imperial-Juridical
+        guided starters (Readiness P1-1).
+      - Rigor P1-1/P1-2/P1-3/P1-8: real `verification_state` grading + gate; re-key the
+        priority-review trigger; restore `citation_reliability`/`formation_confidence`/
+        `priority_review_flag` as fields; Documented-vs-unverified-sources gate.
+      - Rigor P1-5: emic audit of the six deployed prompts + first use of
+        `emic-unavailable`. Rigor, one real field-bibliography sweep on two worlds
+        (Syriac via syri.ac, Desert via BIBP).
+      - Engineering P1-6: collapse the six copy-pasted freeze-battery scripts into one
+        harness with a declared per-world override file.
+      - Engineering P1-4: bound the event store; measure real RSS with both transformer
+        models loaded; decide persistent disk vs. un-gating the Supabase event mirror.
+      - Engineering P1-8/P1-7/P1-11: fix `shoot.mjs`'s vacuous assertion + add the
+        box-vs-foreign-tail check + mobile pinch test + non-zero exit; debounce Atlas
+        resize + preserve mobile zoom across relayout; persist the session token to
+        `sessionStorage`.
+      - Readiness P0-3b: a one-question "what brings you here?" step for feedback
+        correlation, without changing voice — complementary to, not a reopening of, the
+        Representative Modes pause above.
+      - Accessibility P1-1/P1-2 remainder: define "the Table" once; Atlas CTA reflects
+        seat count; "Nicene"/"the doctrinal floor" added to the generated glossary.
+
+      **Wave 4 — over time / structural:**
+      - **Get one outside scholarly reader** (Rigor's single biggest lever): send
+        Desert-Monasticism to *Reviews in Digital Humanities* — Article 31 gate open since
+        2026-07-08.
+      - Author `plain_explanation` for the remaining 100 term records across five worlds
+        (Accessibility P0-5); build `repository.json` for the other five worlds (Readiness
+        P1-6).
+      - Rigor P1-4: `edition`/`translation`/`consulted_as` on the ~40 primary-text rows that
+        bear weight; Syriaca.org `external_ids` on Syriac primary rows.
+      - Publish the FAIR Conformance and Deviation Statement (draft since 2026-07-27).
+      - Readiness P1-7: restore a List/table view on the Atlas.
+      - Engineering: split `nodes.py` (3,981 lines) using the same extract-plus-
+        replay-parity-proof move already used for `governance.py` — explicitly the biggest
+        structural debt and the least urgent; do after CI exists.
+      - Engineering P1-10/P2-5: lock dependencies; adapt away from
+        `vector_store.docstore._dict`; delete the dead `app/agents/` modules; decide the
+        dormant `participant_role`/lane-ceiling system's fate rather than carrying it
+        dormant through a third audit.
+      - Accessibility P1-4/P1-7: render Level 3's `full_record` as human-labelled fields,
+        not raw JSON; split the onboarding screen, move "reading the highlights" to first
+        use. Extend `gate_readability` to every participant-facing surface as a CI check.
+
+      **Explicitly deferred, not forgotten:** Representative Modes re-entry (Mark's
+      2026-07-24/25 pause stands, gated on real academic pilot feedback — not reopened by
+      this backlog); session history/resume (second-order vs. the Wave-3 takeaway);
+      calibrating the Track B dependency thresholds against real sessions; API key
+      rotation if `cic-poc` was ever deployed with the pre-2026-08-05 `main.py` — Mark's
+      call, not resolved here.
 - [ ] **NEW 2026-07-23 — Readability/latency worktree work awaiting Mark's sign-off before
       deploy.** Concurrent safety-classifier gather + deferred wind-down check, and lazy
       per-world loading (eager preload removed) — both built and ready to ship as-is. Still

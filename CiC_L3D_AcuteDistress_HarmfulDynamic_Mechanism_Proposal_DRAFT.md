@@ -123,17 +123,21 @@ Style note before the drafts: the Facilitator's threshold voice is contemporary,
 >
 > This conversation is built to give you a real meeting with a historical world, and it can hold a lot — hard questions, hard history, real grief. But it isn't built to be the place that carries you through what you're describing right now, and I'd rather tell you that plainly than let you find it out the hard way.
 >
-> [RESOURCE REDIRECT — pending decision, see `CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`]
+> If it would help, please reach out to someone real — a person you trust, a crisis line, or emergency services where you are.
 >
 > You're not being sent away, and you haven't done anything wrong by telling me this. If you want to keep talking — to me, right now, or back with [Representative name] when you're ready — that's completely open. I just didn't want to stay quiet about what you said.
+
+*(Resolved 2026-08-05, `CiC_System_Hub_Decision_Log.md`: this ships the decision document's Option A floor — a general redirect naming no specific organization, hotline, or number. Option C (a jurisdiction-appropriate named resource during the known-tester phase) is separate, larger, future-scoped work, not blocked on this.)*
 
 **A2. Explicit plan, means, or imminent-risk escalation.** Fires when a subsequent turn within an active Track A state escalates to a stated plan, timeline, or means (matching World #1's own transcript, turn 2). More direct register; still warm, not alarmed.
 
 > I need to stop here and be straightforward with you — this is [Facilitator]. What you just described is something I take completely seriously, and it's beyond anything I can responsibly hold with you inside this conversation.
 >
-> [RESOURCE REDIRECT — pending decision — this variant should urge action more directly than A1, e.g. "please reach out now, before we go any further"]
+> Please reach out to someone real right now — a person you trust, a crisis line, or emergency services where you are — before we go any further.
 >
 > I'm not going anywhere while you decide what to do next, and neither is this conversation — it will still be here. But right now, the most important thing isn't the historical world we've been exploring together. It's what you just told me.
+
+*(Resolved 2026-08-05, same decision as A1 above — the redirect is more direct here per the Cold Review Round 1 correction, still names no specific organization.)*
 
 **Continuation turns (sustained attention, §4.4/§4.6).** Once A1 or A2 has fired once in a session, later turns while still in heightened-attention state use a lighter acknowledgment rather than restating the full script:
 
@@ -145,9 +149,11 @@ Style note before the drafts: the Facilitator's threshold voice is contemporary,
 >
 > But I want to be honest with you about what this actually is: [Representative name] is a way of meeting a historical world, not a person who can be there for you the way a real friend, counselor, or community can. I'd rather say that plainly than let you find it out the harder way.
 >
-> [OPTIONAL GENERAL REDIRECT toward real relationship/community — not necessarily crisis-specific; see decision document for whether any specific resource belongs here too]
+> The people already in your life — or, if none feel reachable right now, a crisis line or other real human support — are the ones who can actually be there for you the way this can't.
 >
 > None of this means the conversation has to end, or that you did anything wrong by finding something here. You're welcome to keep exploring [world name] with [Representative name]. I just wanted to say this to you honestly, the way I'd want someone to say it to me.
+
+*(Resolved 2026-08-05: general redirect included, same floor as Track A. Not crisis-specific in tone — this trigger is about relational substitution, not acute risk — but §12's "redirect with honesty" applies here too.)*
 
 ## 6. Proposed Amendments to `CiC_L3D_Facilitator_Governance_V3.6`
 

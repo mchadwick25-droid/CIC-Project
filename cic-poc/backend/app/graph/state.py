@@ -152,10 +152,12 @@ class ConversationState:
 
     # Relational-safety session-level state (Acute Distress / Harmful Dynamic,
     # Facilitator Governance V3.6 Section 12, per the corrected design in
-    # CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md and its
-    # live-tested revision in CiC_W1_Phase5_RelationalSafety_
-    # LiveAdversarialTest_CorrectedDesign_Round1/2.md). None of this is ever
-    # surfaced to the participant directly - it only governs routing.
+    # CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md, desk-
+    # verified in CiC_W1_Phase5_RelationalSafety_Retest_Against_Proposed_
+    # Mechanism_DRAFT.md (a worked trace, not a live model test), and
+    # resolved by the 2026-08-05 resource-redirect decision recorded in
+    # CiC_System_Hub_Decision_Log.md). None of this is ever surfaced to the
+    # participant directly - it only governs routing.
     #
     # True once Track A (Acute Distress) has fired at least once this
     # session. Per the design doc's Section 4.4 "sustained attention," every
