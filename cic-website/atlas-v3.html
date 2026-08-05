@@ -167,6 +167,23 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
 .erahead .tag{font-size:1rem;font-style:italic;color:var(--ink);flex-basis:100%}
 .erahead .dates{font-size:1rem;color:var(--muted)}
 .erahead .events{font-size:.95rem;color:var(--muted)}
+.erahead .linebreak{display:none}
+/* Desktop, two lines (Mark, 2026-08-05): on a wide screen the era number
+   + title + tag comfortably share one line with room to spare, so the
+   tag's forced line-break (needed on mobile, where that line is already
+   tight) just wastes a line -- move the break to before .dates instead,
+   giving era+title+tag / dates+events, two lines instead of three. A
+   flex-basis:100% on .dates ITSELF would claim the whole row for .dates
+   alone, forcing .events onto a third line -- an empty zero-height
+   .linebreak span carries the flex-basis:100% instead, consuming the
+   rest of the tag's row while .dates and .events keep their own natural
+   width and share the fresh row after it. Mobile (below the same 700px
+   box-sizing threshold layout() itself uses) keeps the tag on its own
+   line -- title+tag together would overflow there. */
+@media (min-width:700px){
+  .erahead .tag{flex-basis:auto}
+  .erahead .linebreak{display:block;flex-basis:100%;height:0}
+}
 #canvas{position:relative}
 #art{position:absolute;inset:0;width:100%;height:100%;z-index:2}
 #art path.thread{fill:none;stroke:var(--thread);stroke-width:2.5;opacity:.92;pointer-events:stroke}
@@ -382,6 +399,23 @@ body.filtering #art .thread{opacity:.1}
   outline:2px solid var(--goldhi);outline-offset:1px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
   clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* List view (Readiness P1-7, 2026-08-05 full-system review): a scannable
+   table over the same 257 entries and the same live filters as the map --
+   restores what world-atlas.html's Research Table did before the ship
+   flip retired it with no replacement. Toggled via body.list-view; the
+   map/rail stay in the DOM (untouched) so switching back needs no
+   re-layout. Rows dim under the exact same .match/.lane-on/.region-on
+   classes the map's own boxes already use -- one filter pipeline, two
+   renderings, not a second filter implementation to drift out of sync. */
+#listView{display:none;padding:.4rem .8rem 1rem;max-width:96vw;overflow-x:auto}
+body.list-view #listView{display:block}
+body.list-view #mapViewport,body.list-view #railWrap{display:none}
+#listView table{border-collapse:collapse;width:100%;font-size:.85rem}
+#listView th,#listView td{text-align:left;padding:.35rem .6rem;border-bottom:1px solid var(--line);white-space:nowrap}
+#listView th{font-variant:small-caps;letter-spacing:.05em;color:var(--gold);position:sticky;top:0;background:var(--bg)}
+#listView tr.dim{opacity:.25}
+#listView .swatch{display:inline-block;width:9px;height:9px;margin-right:.3rem;vertical-align:-1px}
+#listView tbody tr:hover{background:var(--panel)}
 /* .skip-link itself comes from assets/style.css (same pattern as every other
    page on the site: href="#main" + <main id="main">) -- no local override
    needed here, and an earlier attempt at one fought the shared stylesheet's
@@ -417,6 +451,7 @@ body.filtering #art .thread{opacity:.1}
     <button id="builtToggle" class="chip" aria-pressed="false"><svg width="12" height="12" aria-hidden="true"><use href="#ic-house"/></svg>Built worlds</button>
     <button id="filterToggle" class="chip" type="button" aria-expanded="false" aria-controls="filterPanel">Filters<span class="fcount" id="fcount"></span><svg class="car" width="10" height="10" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
     <button id="shareBtn" class="chip" type="button" title="Copy a link to this exact view">Copy link</button>
+    <button id="listToggle" class="chip" type="button" aria-pressed="false" title="A scannable table of every entry, instead of the map">List view</button>
     <span class="cnt" id="cnt" aria-live="polite"></span>
     <button id="themeBtn" class="chip">theme: auto</button>
   </div>
@@ -434,25 +469,20 @@ body.filtering #art .thread{opacity:.1}
 <symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
 </defs></svg>
 <div id="orient" style="padding:.5rem .8rem 0">
-  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
+  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem;position:relative;padding-right:1.6rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
   <svg width="13" height="13" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
-  <b>House</b> means you can sit down and talk with it today — tap "Built worlds" above to see just those.</p>
-  <details id="orientDetails">
-    <summary style="cursor:pointer;font-size:.78rem;color:var(--gold);font-variant:small-caps;letter-spacing:.05em">Reading the marks — what every icon means</summary>
-    <div style="border:1px solid var(--gold);padding:.7rem .9rem;margin:.5rem 0 1rem;font-size:.82rem">
-    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
-    <b>House</b> — built and open: you can sit down with this tradition now.&ensp;
-    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-plans"/></svg>
-    <b>Plans</b> — chosen for construction; not yet built.&ensp;
-    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
-    <b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
-    <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
-    <b>Closed door</b> — outside the <a href="#nicene-gloss" style="color:inherit">Nicene base</a> this project builds from; the grounds are always
-    stated in the entry, and exclusion is never a judgment of unimportance.
-    </div>
-  </details>
+  <b>House</b> means you can sit down and talk with it today — tap "Built worlds" above to see just those.
+  <button id="orientClose" type="button" aria-label="Close this orientation text — it won't show again on this device" title="Close — won't show again"
+    style="position:absolute;top:-.15rem;right:0;background:none;border:none;font-size:1.1rem;line-height:1;color:var(--muted);cursor:pointer;padding:.15rem .3rem">×</button></p>
 </div>
 <div id="mapViewport"><div id="mapScaler"><div id="wrap"><div id="canvas"><svg id="art"></svg></div></div></div></div>
+<div id="listView" hidden>
+  <table>
+    <caption class="sr-only">Every movement in the census, filterable the same way as the map</caption>
+    <thead><tr><th scope="col">Name</th><th scope="col">Dates</th><th scope="col">Region</th><th scope="col">Family</th><th scope="col">Status</th><th scope="col">Sources</th></tr></thead>
+    <tbody id="listBody"></tbody>
+  </table>
+</div>
 
 <div id="railWrap">
   <div id="yearBadge" aria-live="polite" aria-label="Years currently in view"></div>
@@ -464,10 +494,26 @@ body.filtering #art .thread{opacity:.1}
 <div id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1" inert><button class="close" id="sheetClose" aria-label="Close">×</button><div class="grab"></div><div id="sheetBody"></div></div>
 
 <footer>
-<!-- The "Reading the marks" icon key used to live here, below the entire
-     ten-era canvas -- moved to #orientDetails near the top of the page,
-     2026-08-05 (Accessibility P0-1). Kept the paragraph below as
-     supplementary depth for anyone who scrolls this far. -->
+<!-- The "Reading the marks" icon key: lived here originally, moved up to
+     #orientDetails near the top for Accessibility P0-1 (2026-08-05),
+     moved back down here the same day (Mark) once the always-visible
+     #orientText line above the fold covered first-visit orientation on
+     its own -- the fuller icon-by-icon key reads better as supplementary
+     depth for anyone who scrolls this far, not permanent space up top. -->
+<details id="orientDetails">
+  <summary style="cursor:pointer;font-size:.78rem;color:var(--gold);font-variant:small-caps;letter-spacing:.05em">Reading the marks — what every icon means</summary>
+  <div style="border:1px solid var(--gold);padding:.7rem .9rem;margin:.5rem 0 1rem;font-size:.82rem">
+  <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
+  <b>House</b> — built and open: you can sit down with this tradition now.&ensp;
+  <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-plans"/></svg>
+  <b>Plans</b> — chosen for construction; not yet built.&ensp;
+  <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
+  <b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
+  <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
+  <b>Closed door</b> — outside the <a href="#nicene-gloss" style="color:inherit">Nicene base</a> this project builds from; the grounds are always
+  stated in the entry, and exclusion is never a judgment of unimportance.
+  </div>
+</details>
 Time flows downward in order — vertical distance is <i>not</i> to scale. Each movement is a box at
 its birth; its tail falls through the events of its lifetime (a fading tail runs past this slice's edge).
 Color names the high-level tradition family; a movement's status is stated in words on hover and in its
@@ -488,16 +534,17 @@ click for the full entry — the same template for every movement, built or not.
 "use strict";
 const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
 const LIVE_APP_URL=isLocal?'http://localhost:8199':'https://cic-poc.onrender.com';
-/* Open the "Reading the marks" key by default the first time anyone visits
-   the Atlas, same once-per-browser pattern as OnboardingScreen.tsx's
-   cic_onboarding_seen -- doesn't depend on the census fetch, so it can run
-   immediately rather than waiting on boot(). (2026-08-05 full-system
-   review, Accessibility P0-1: previously the only explanation of the map
-   sat in the footer, below the entire ten-era canvas.) */
+/* orientText close (Mark, 2026-08-05): the always-visible orientation
+   line is useful to find once but not worth permanent screen space on
+   every return visit -- closeable, remembered per browser, same
+   localStorage pattern as the "Reading the marks" auto-open above. */
 (function(){
-  const key='cic_atlas_reading_marks_seen';
-  const d=document.getElementById('orientDetails');
-  if(d&&!localStorage.getItem(key)){d.open=true;localStorage.setItem(key,'true');}
+  const key='cic_atlas_orient_text_dismissed';
+  const p=document.getElementById('orientText');
+  if(!p)return;
+  if(localStorage.getItem(key)){p.style.display='none';return;}
+  const btn=document.getElementById('orientClose');
+  if(btn)btn.addEventListener('click',()=>{p.style.display='none';localStorage.setItem(key,'true');});
 })();
 fetch('data/world-census.json')
   .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
@@ -713,28 +760,53 @@ function layout(){
       let want=aX(m._ei,m._fam);
       const ps=(parentsOf[m.id]||[]).map(id=>pos[id]).filter(p=>p!=null).map(p=>p.tx);
       if(ps.length){const px=ps.reduce((a,b)=>a+b,0)/ps.length;want=0.45*want+0.55*px;}
+      /* identity succession: the stream continues in place — the successor
+         wants its predecessor's own column, ahead of the family/anchor pull
+         above. Kept as a `want` bias rather than a forced assignment (see
+         below) so a genuinely blocked column still resolves to the nearest
+         SAFE one instead of forcing an invalid position. */
+      const prevId=contPrev[m.id];
+      const prevSlot=(prevId!=null&&slotOf[prevId]!=null)?slotOf[prevId]:null;
+      if(prevSlot!=null)want=slotX(prevSlot);
       want=Math.max(slo,Math.min(W-slo,want));
-      /* living ribbons of OTHER families forbid the box span; a box may sit
-         over its own family's stream — same hue, the river behind its
-         newest member, not an overlap in Mark's sense */
-      const bars=ribbons.filter(p=>p.endRow>=m._row&&p.fam!==m._fam).map(p=>[p.x-TWb/2-GAPb-NW/2,p.x+TWb/2+GAPb+NW/2]).sort((a,b)=>a[0]-b[0]);
+      /* every OTHER living movement's ribbon forbids the box span — including
+         same-family ones. Family (hue) is cosmetic; "the river behind its
+         newest member" is really the identity-succession chain above, which
+         a movement inherits explicitly, not a 13-way lane bucket shared by
+         dozens of unrelated movements. Broadening the exemption to "same
+         family" let genuinely different movements plant a box on each
+         other's tail (Blueprint §L, foreignTailOverlaps) whenever they
+         happened to share a hue — fixed by never exempting anything here
+         except a movement's own predecessor, and only via the explicit
+         slot-inheritance branch below, not a blanket family pass. */
+      const bars=ribbons.filter(p=>p.endRow>=m._row).map(p=>[p.x-TWb/2-GAPb-NW/2,p.x+TWb/2+GAPb+NW/2]).sort((a,b)=>a[0]-b[0]);
       const merged=[];bars.forEach(iv=>{const l=merged[merged.length-1];
         if(l&&iv[0]<=l[1])l[1]=Math.max(l[1],iv[1]);else merged.push(iv.slice());});
       const okbx=x=>x>=blo&&x<=bhi&&!merged.some(iv=>x>iv[0]&&x<iv[1]);
       /* slots ordered by distance from want */
       const order=[...Array(nSlots).keys()].sort((a,b)=>Math.abs(slotX(a)-want)-Math.abs(slotX(b)-want));
       let hit=null;
-      /* identity succession: inherit the predecessor's slot — the stream
-         continues in place, the new world is born on its own tail */
-      const prevId=contPrev[m.id];
-      if(prevId!=null&&slotOf[prevId]!=null){
-        const k=slotOf[prevId], tx=slotX(k);
+      /* try inheriting the predecessor's own slot, but only when a genuinely
+         clear box position exists near it AND no unrelated ribbon has since
+         claimed that column for this row. Forcing bx=tx unconditionally
+         here (the old behavior) could plant the successor's box on top of
+         some OTHER movement's tail that happens to run through that exact
+         column — a real foreignTailOverlap, not the intentional "own
+         stream" case; caught by tracing carolingian-reform-christianity's
+         inherited slot landing inside british-welsh-christianity's own
+         exclusion zone once family stopped exempting it, and separately by
+         the-post-vatican-ii-parish-world inheriting a slot that had drifted
+         into the-east-african-revival-balokole's zone with no re-check at
+         all. Falling through to the free-gap search (want already biased
+         toward this same column above) keeps continuity as close as safely
+         possible instead of forcing an invalid one. */
+      if(prevSlot!=null&&busy[prevSlot]<m._row){
+        const k=prevSlot, tx=slotX(k);
         let bx=null;
         const tryBx=x=>{if(Math.abs(x-tx)<=maxOff&&okbx(x)&&(bx==null||Math.abs(x-tx)<Math.abs(bx-tx)))bx=x;};
         tryBx(tx);merged.forEach(iv=>{tryBx(iv[0]-0.5);tryBx(iv[1]+0.5);});
         tryBx(Math.max(blo,tx-maxOff));tryBx(Math.min(bhi,tx+maxOff));
-        if(bx==null)bx=tx;
-        hit={tx,bx,k};
+        if(bx!=null)hit={tx,bx,k};
       }
       if(hit==null)for(const k of order){
         if(busy[k]>=m._row)continue;
@@ -753,7 +825,17 @@ function layout(){
     return {fb,pos,A};
   }
   let W=viewW, attempt=tryPack(W);
-  while(attempt.fb>0&&W<viewW*5){W+=60;attempt=tryPack(W);}
+  /* free-gap growth cap: with the family exemption gone (every OTHER
+     movement's ribbon now genuinely forbids the box span, not just other
+     families'), the most crowded era needs more spill room than 5x screen
+     width to seat everyone without a forced, unchecked fallback placement —
+     traced live on era 10's "Non-Nicene" cluster (23 concurrent movements),
+     which needed ~2010px on a 390px screen and previously hit the old 1950px
+     (viewW*5) ceiling by 60px, landing its last member on a raw `want`
+     value never checked against any other ribbon at all (Blueprint §L,
+     foreignTailOverlaps). 8x clears every width/scheme combination in this
+     census with real margin, not just this one era. */
+  while(attempt.fb>0&&W<viewW*8){W+=60;attempt=tryPack(W);}
   anchors=attempt.A;
   rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
@@ -786,7 +868,7 @@ function layout(){
          for anyone who wants the scholarly period name. */
       let bar=`<span class="no"${s.era.academicName?` title="${esc(s.era.academicName)}"`:''}>Era ${esc(s.era.no)}</span><span class="title">${esc(s.era.title)}</span>`;
       if(s.era.tag)bar+=`<span class="tag">${esc(s.era.tag)}</span>`;
-      bar+=`<span class="dates">${esc(s.era.dates)}</span>`;
+      bar+=`<span class="linebreak" aria-hidden="true"></span><span class="dates">${esc(s.era.dates)}</span>`;
       if(s.era.keyEvents&&s.era.keyEvents.length)bar+=`<span class="events">${s.era.keyEvents.map(esc).join(' · ')}</span>`;
       html+=`<div class="erahead" style="top:${y+2}px"><div class="bar">${bar}</div></div>`;
     }
@@ -1073,6 +1155,19 @@ const CATS=[
  {id:'outside',     lbl:'Outside',    members:[80],     bridges:[],
   desc:'Traditions outside the Nicene consensus this project builds from — included on the map, marked plainly as outside the floor.'}
 ];
+/* One shared dim computation for the list view's <tr> rows, called from
+   all three filter functions below -- reuses their own already-computed
+   predicates (m._match, laneOn, regionActive) rather than a second
+   filter implementation that could drift out of sync with the map's. */
+function updateListDim(){
+  const active=document.body.classList.contains('filtering')||document.body.classList.contains('lanefiltering')||document.body.classList.contains('regionfiltering');
+  rows.forEach(m=>{
+    const tr=document.querySelector(`#listBody tr[data-id="${m.id}"]`);
+    if(!tr)return;
+    const ok=!!m._match&&laneOn(m._fam.k)&&regionActive(m);
+    tr.classList.toggle('dim',active&&!ok);
+  });
+}
 function applyLaneToggle(){
   document.body.classList.toggle('lanefiltering', laneOff.size>0);
   rows.forEach(m=>{
@@ -1103,6 +1198,7 @@ function applyLaneToggle(){
   allBtn.classList.toggle('current', laneOff.size===0);
   allBtn.setAttribute('aria-pressed', String(laneOff.size===0));
   updateFilterCount();
+  updateListDim();
 }
 document.getElementById('legend').innerHTML=
   `<button type="button" id="laneAll" class="allbtn" aria-pressed="true">All</button>`+
@@ -1208,6 +1304,7 @@ function applyRegionToggle(){
   allBtn.classList.toggle('current', regionOff.size===0);
   allBtn.setAttribute('aria-pressed', String(regionOff.size===0));
   updateFilterCount();
+  updateListDim();
 }
 document.getElementById('regionlegend').innerHTML=
   `<button type="button" id="regionAll" class="allbtn" aria-pressed="true">All</button>`+
@@ -1313,48 +1410,83 @@ function trace(id){
 }
 function untrace(){document.body.classList.remove('tracing');
   document.querySelectorAll('.hot').forEach(n=>n.classList.remove('hot'));}
-canvas.addEventListener('pointerover',ev=>{
-  const n=ev.target.closest('.node');if(!n)return;
-  const m=byId[n.dataset.id];trace(m.id);
-  /* Naming hierarchy (Mark, 2026-08-03): the relatable name ("Bethlehem
-     Circle") leads everywhere -- the box, the hover, the click doc -- with
-     the academic name demoted to a secondary line. shortName is that
-     relatable-name field (same one already driving the box label); not
-     every entry's shortName has been rewritten to that bar yet, but the
-     hierarchy itself is the fix to make now -- content quality is a
-     separate, queued pass. */
-  /* why is Step 0 methodology reasoning ("why this counts as its own
-     tradition"), not a description -- dropped from both this preview and
-     the click doc's "About this world" (Mark, 2026-08-03): "we dont need
-     to reveal our system thinking here."
-     The hover card is a genuine teaser, not a truncated slice of the full
-     story -- Mark: "hover teaser". teaser is a distinct, hand-written
-     field (same shape as the built worlds' own entry.tile); falls back to
-     entry.tile for the six built worlds so nothing needs duplicating, and
-     is simply absent (no line shown) rather than faked for entries that
-     don't have one yet. */
-  const d1=m.teaser||(m.entry&&m.entry.tile)||"";
-  tip.innerHTML=`<div class="n">${esc(m.shortName||m.name)}</div>
-    ${m.shortName&&m.shortName!==m.name?`<div class="inf">${esc(m.name)}</div>`:""}
-    <div class="m">${esc(m.dates)} · ${esc(m.region)} · ${esc(m._fam.lbl)} family</div>
-    ${d1?`<div class="c">${esc(d1)}</div>`:""}
-    <div class="s">${esc(shortStatus(m))}</div>
-    ${m.entry?`<div class="rep">Representative: <b>${esc(m.entry.representativeName)}</b>${m.entry.representativeTitle?" — "+esc(m.entry.representativeTitle):""}</div>`:""}`;
-  tip.style.display="block";
-});
+/* Hover state is derived FRESH on every pointermove, not tracked via
+   paired pointerover/pointerout (Mark, 2026-08-05: "it sticks open and
+   follows the arrow around and I can't get it to close"). The old
+   pair-based version hid the tip only on a pointerout WHOSE TARGET was a
+   .node -- but layout()/relayout() (resize, filter toggle, list/map
+   toggle) fully REMOVES and rebuilds every .node element on every call;
+   if that happens while a node is hovered, the element is destroyed
+   without ever firing a leave event, orphaning tip.style.display="block"
+   forever, and the old pointermove handler just kept repositioning
+   whatever was left visible with no check that the pointer was still
+   over anything at all. Deriving hover target from ev.target.closest()
+   on every single move is self-healing: even if an enter/leave pair is
+   lost, the very next move (which always fires, since it doesn't depend
+   on a paired event) re-evaluates what's actually under the pointer. */
+let __hoverKey=null; // 'node:<id>' | 'thread:<edgeIndex>' | null -- what the tip currently shows
+function hideTip(){
+  if(__hoverKey===null)return;
+  tip.style.display="none";
+  if(__hoverKey.startsWith('node:'))untrace();
+  __hoverKey=null;
+}
 canvas.addEventListener('pointermove',ev=>{
-  if(tip.style.display!=="block")return;
-  tip.style.left=Math.min(ev.clientX+12,innerWidth-295)+"px";
-  tip.style.top=Math.min(ev.clientY+14,innerHeight-150)+"px";
+  const n=ev.target.closest('.node');
+  if(n){
+    const key='node:'+n.dataset.id;
+    if(__hoverKey!==key){
+      if(__hoverKey&&__hoverKey.startsWith('node:'))untrace();
+      const m=byId[n.dataset.id];trace(m.id);
+      /* Naming hierarchy (Mark, 2026-08-03): the relatable name ("Bethlehem
+         Circle") leads everywhere -- the box, the hover, the click doc --
+         with the academic name demoted to a secondary line. shortName is
+         that relatable-name field (same one already driving the box
+         label); not every entry's shortName has been rewritten to that
+         bar yet, but the hierarchy itself is the fix to make now --
+         content quality is a separate, queued pass. */
+      /* why is Step 0 methodology reasoning ("why this counts as its own
+         tradition"), not a description -- dropped from both this preview
+         and the click doc's "About this world" (Mark, 2026-08-03): "we
+         dont need to reveal our system thinking here."
+         The hover card is a genuine teaser, not a truncated slice of the
+         full story -- Mark: "hover teaser". teaser is a distinct,
+         hand-written field (same shape as the built worlds' own
+         entry.tile); falls back to entry.tile for the six built worlds
+         so nothing needs duplicating, and is simply absent (no line
+         shown) rather than faked for entries that don't have one yet. */
+      const d1=m.teaser||(m.entry&&m.entry.tile)||"";
+      tip.innerHTML=`<div class="n">${esc(m.shortName||m.name)}</div>
+        ${m.shortName&&m.shortName!==m.name?`<div class="inf">${esc(m.name)}</div>`:""}
+        <div class="m">${esc(m.dates)} · ${esc(m.region)} · ${esc(m._fam.lbl)} family</div>
+        ${d1?`<div class="c">${esc(d1)}</div>`:""}
+        <div class="s">${esc(shortStatus(m))}</div>
+        ${m.entry?`<div class="rep">Representative: <b>${esc(m.entry.representativeName)}</b>${m.entry.representativeTitle?" — "+esc(m.entry.representativeTitle):""}</div>`:""}`;
+      __hoverKey=key;
+    }
+    tip.style.display="block";
+    tip.style.left=Math.min(ev.clientX+12,innerWidth-295)+"px";
+    tip.style.top=Math.min(ev.clientY+14,innerHeight-150)+"px";
+    return;
+  }
+  const p=ev.target.closest('path.thread');
+  if(p){
+    const key='thread:'+p.dataset.ei;
+    if(__hoverKey!==key){
+      if(__hoverKey&&__hoverKey.startsWith('node:'))untrace();
+      const e=DATA.edges[+p.dataset.ei],a=byId[e.from],b=byId[e.to];
+      tip.innerHTML=`<div class="n">${esc(a.shortName||a.name)} → ${esc(b.shortName||b.name)}</div>
+        <div class="s">${esc(e.type)} · ${esc(e.confidence)}</div><div class="c"><i>${esc(e.note)}</i></div>`;
+      __hoverKey=key;
+    }
+    tip.style.display="block";
+    tip.style.left=Math.min(ev.clientX+12,innerWidth-295)+"px";
+    tip.style.top=Math.min(ev.clientY+14,innerHeight-150)+"px";
+    return;
+  }
+  hideTip();
 });
-canvas.addEventListener('pointerout',ev=>{if(ev.target.closest('.node')){tip.style.display="none";untrace();}});
-art.addEventListener('pointerover',ev=>{
-  const p=ev.target.closest('path.thread');if(!p)return;
-  const e=DATA.edges[+p.dataset.ei],a=byId[e.from],b=byId[e.to];
-  tip.innerHTML=`<div class="n">${esc(a.shortName||a.name)} → ${esc(b.shortName||b.name)}</div>
-    <div class="s">${esc(e.type)} · ${esc(e.confidence)}</div><div class="c"><i>${esc(e.note)}</i></div>`;
-  tip.style.display="block";
-});
+canvas.addEventListener('pointerleave',hideTip);
 
 /* ---- uniform template ---- */
 const sheet=document.getElementById('sheet'),scrim=document.getElementById('scrim');
@@ -1594,6 +1726,7 @@ function applyFilter(){
   }else{
     cntEl.textContent=active?`${n} of ${rows.length} movements`:`${rows.length} movements · ten eras`;
   }
+  updateListDim();
 }
 document.getElementById('q').addEventListener('input',ev=>{QRaw=ev.target.value.trim();QF=norm(QRaw);applyFilter();syncURL();});
 document.getElementById('builtToggle').addEventListener('click',()=>{
@@ -1603,6 +1736,33 @@ document.getElementById('builtToggle').addEventListener('click',()=>{
   applyFilter();syncURL();
 });
 applyFilter();
+/* ---- Readiness P1-7: list view -- built once from `rows` (already
+   chronologically ordered), read-only rows referencing each entry's own
+   already-computed fields (_fam, sources.length). Dimming state is
+   applied by applyFilter/applyLaneToggle/applyRegionToggle themselves
+   (see their own edits), not recomputed here. */
+document.getElementById('listBody').innerHTML=rows.map(m=>{
+  const src=m.sources&&m.sources.length?m.sources.length:'—';
+  return `<tr data-id="${m.id}">
+    <td>${esc(m.shortName||m.name)}</td>
+    <td>${esc(m.dates)}</td>
+    <td>${esc(m.region||'')}</td>
+    <td><span class="swatch" style="background:${famColor(m._fam)}"></span>${esc(m._fam.lbl)}</td>
+    <td>${esc(shortStatus(m))}</td>
+    <td>${src}</td>
+  </tr>`;
+}).join('');
+document.getElementById('listBody').addEventListener('click',ev=>{
+  const tr=ev.target.closest('tr[data-id]');if(!tr)return;
+  openSheet(tr.dataset.id);
+});
+const listToggle=document.getElementById('listToggle');
+listToggle.addEventListener('click',()=>{
+  const on=!document.body.classList.contains('list-view');
+  document.body.classList.toggle('list-view',on);
+  listToggle.classList.toggle('on',on);listToggle.setAttribute('aria-pressed',String(on));
+  listToggle.textContent=on?'Map view':'List view';
+});
 /* ---- B5: copy-link button -- the URL already carries the full filter
    state via syncURL(); this just makes sharing it discoverable instead of
    relying on someone noticing the address bar changed. */
