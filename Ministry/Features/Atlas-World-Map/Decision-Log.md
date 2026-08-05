@@ -13,6 +13,71 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 18) — Mobile pinch-zoom, round three: the click-document sheet was "a thin long field"
+
+**The report:** "it is a thin long field, on the desktop it works ok,
+but on the phone it is to small to read, we need to expand it to the
+full width of the screen, and that should solve where it shows up
+also." Measured the actual rendered box rather than guessing why, since
+this is the second time a plausible-looking fix to this exact element
+(the click-document sheet, `#sheet`) turned out to need real numbers to
+diagnose correctly (UI 16 tried the same territory and found a worse bug
+by testing before shipping).
+
+**Two real, separate causes, both confirmed by measuring the live DOM:**
+1. `max-height:78vh` in `#sheet`'s CSS is relative to the LAYOUT
+   viewport height, which UI 16's own pinch-zoom widen also inflates on
+   mobile (the wide canvas needs a proportionally taller layout viewport
+   to keep the zoom math internally consistent). Measured: max-height
+   resolved to 1633px against a 390px-wide sheet -- correctly narrow,
+   absurdly tall. That's the "thin long field."
+2. Pinning the sheet's width to the true `screen.width` (390px, UI 16's
+   own fix) isn't enough on its own, because the sheet is ordinary page
+   content -- it's zoomed out right along with the map. At the canvas's
+   resting "fit to screen" zoom (~0.317x on a typical packed width), a
+   390px-wide box renders at roughly a third of the physical screen:
+   still thin. What actually fills the screen at the CURRENT zoom is
+   `screen.width / visualViewport.scale` of CSS px -- which equals the
+   full canvas width W at the map's resting zoom, shrinking toward
+   literal `screen.width` only once the user has pinched all the way in
+   to native 1:1 reading scale.
+
+**Fix:** `sizeMobileSheet()`, called fresh every time `openSheet()` runs
+(not once at page load -- the user's zoom level can differ each time
+they tap a box), computes width and max-height from
+`screen.width|height / visualViewport.scale` and sets them directly,
+overriding the vw/vh-relative CSS the wide viewport now skews. `left:0`,
+`right:auto`, `margin:0` are set once (position doesn't depend on zoom)
+so width alone determines the box instead of the old left+right+
+margin:auto centering, which had also been landing the sheet centered
+on the wide canvas (x=420) rather than pinned to the screen's true left
+edge -- Mark's own instinct ("expand to full width... should solve
+where it shows up") was right: a sheet sized to actually fill the
+current screen doesn't have room to appear anywhere but pinned to it.
+
+**Verified:** re-measured the live sheet after the fix at the map's
+resting zoom -- width/maxHeight now resolve to exactly `screen.width`
+and `screen.height*0.78` in PHYSICAL terms (1230px/2077px in CSS terms
+at the 0.317x resting zoom, which is precisely W and 78% of the
+inflated height -- the same numbers scaled back to native size).
+Directly tested the scale-dependent FORMULA (not just the resting-zoom
+case) by mocking `visualViewport.scale` to 1, 0.5, and 0.317 before
+opening the sheet each time: computed width/height matched the expected
+`screen.width/scale` and `screen.height*0.78/scale` in all three cases
+exactly. A genuine live pinch gesture's effect on `visualViewport.scale`
+could not be simulated in headless Chromium (confirmed unreliable when
+tried, consistent with UI 16's finding that dynamic viewport mutation
+doesn't fully propagate in this test environment) -- the three-scale
+formula test is the closest verification available short of a real
+device, and the formula itself is simple, direct division with no
+hidden assumption that would only hold at one particular scale. Full
+Playwright harness clean (0 overlaps, 0 JS errors); `validate-census.mjs`
+clean (census untouched). Desktop re-verified completely unchanged
+(`sizeMobileSheet` and the left/right/margin override both return
+immediately when `!isMobileDevice`).
+
+---
+
 ## 2026-08-05 (Pass 7, UI 17) — Mobile pinch-zoom, round two: families were clustering in the left third of the canvas, zoomed out
 
 **The report, immediately after UI 16 shipped:** "we can double the

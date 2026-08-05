@@ -605,17 +605,45 @@ function setMobileMapZoom(){
   const fitScale=Math.min(1,screen.width/W).toFixed(4);
   setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
 }
+/* #sheet's own left:0;right:0;max-width:640px;margin:0 auto was always
+   harmless before -- mobile's viewport was never wider than 640px
+   anyway, so the cap never engaged and left:0/right:0 alone gave a true
+   full-width sheet. Now that mobile's layout viewport is deliberately
+   wide (see layout()), that whole mechanism breaks in ways only visible
+   by measuring the actual rendered box, not by reasoning about the CSS
+   alone (Mark, 2026-08-05, "it is a thin long field ... too small to
+   read"):
+   1) max-height:78vh is relative to the LAYOUT viewport height, which is
+      ALSO inflated once mobile is zoomed out (the wide canvas needs a
+      proportionally taller layout viewport to keep the zoom math
+      consistent) -- measured max-height resolving to 1633px against a
+      390px-wide sheet: correctly narrow, absurdly tall. The "thin long
+      field."
+   2) even fixing width to screen.width doesn't make the sheet fill the
+      screen, because the sheet is plain page content -- it's zoomed out
+      right along with everything else. At the map's resting zoom
+      (~0.317x on a typical packed canvas), a 390px-wide (screen.width)
+      box renders at ~124 physical px: still thin. What actually reads as
+      "full width of the screen" at the CURRENT zoom is screen.width /
+      visualViewport.scale of CSS px -- exactly W, the full canvas width,
+      at the map's resting zoom, shrinking toward literal screen.width
+      only once the user has pinched all the way in to 1:1. Recomputed
+      fresh on every open (sizeMobileSheet, called from openSheet) since
+      the user's zoom level can differ each time they tap a box.
+   left:0/right:auto/margin:0 (set once, position doesn't depend on
+   zoom) so width alone determines the box instead of left+right+auto-
+   center, which was landing it centered on the wide canvas rather than
+   pinned to the screen's true left edge. */
 if(isMobileDevice){
-  /* #sheet's own max-width:640px was always harmless before -- mobile's
-     viewport was never wider than that anyway, so the cap never engaged.
-     Now that mobile's layout viewport is deliberately wide, it WOULD
-     engage, capping the sheet well short of the full canvas width but
-     leaving it centered within that wide canvas rather than pinned to
-     the physical screen -- reading a paragraph would need horizontal
-     panning to see the far side of every line. Pinning max-width to the
-     true screen width restores the original "always full physical
-     width" mobile behavior regardless of how wide the canvas got. */
-  document.getElementById('sheet').style.maxWidth=screen.width+'px';
+  const sh=document.getElementById('sheet');
+  sh.style.left='0px';sh.style.right='auto';sh.style.margin='0';
+}
+function sizeMobileSheet(){
+  if(!isMobileDevice)return;
+  const sh=document.getElementById('sheet');
+  const scale=(window.visualViewport&&window.visualViewport.scale)||1;
+  const w=Math.round(screen.width/scale),h=Math.round(screen.height*0.78/scale);
+  sh.style.width=w+'px';sh.style.maxWidth=w+'px';sh.style.maxHeight=h+'px';
 }
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
@@ -1293,6 +1321,7 @@ function openSheet(id){
      sheet becomes visible so there's no flash of the wrong position. */
   sheet.scrollTop=0;
   sheet.removeAttribute('inert');
+  sizeMobileSheet();
   sheet.classList.add('on');scrim.classList.add('on');
   sheet.focus();
 }
