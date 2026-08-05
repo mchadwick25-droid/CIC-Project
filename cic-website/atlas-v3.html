@@ -622,50 +622,50 @@ function setMobileMapZoom(){
   const fitScale=Math.min(1,screen.width/W).toFixed(4);
   setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
 }
-/* #sheet's geometry on mobile, third attempt (Mark, 2026-08-05, three
-   reports on this one element in a row): "it is a thin long field" (fix:
-   size from screen.width/height) -> "square but small, and when you
-   zoom in it jumps to the left and down mostly off the screen" (that
-   fix's real failure: it only computed size ONCE, from
-   visualViewport.scale, at the moment the sheet opened -- correct for
-   that instant, but never updated again, so a live pinch gesture AFTER
-   opening left the box's fixed CSS pixel dimensions completely
-   unrelated to the new scale. Worse, the report's "jumps... off screen"
-   half means position:fixed's left:0/bottom:0 was ALSO not reliably
-   tracking the visual viewport on the real device -- confirmed on a
-   phone, not just a UI 16 side-note anymore).
-   Fix: stop trusting position:fixed to track the visual viewport at all,
-   and stop computing geometry once. updateSheetGeometry() reads
-   window.visualViewport directly -- offsetLeft/offsetTop/width/height,
-   the exact live description of where the physical screen currently
-   sits within the (possibly wide, possibly panned) layout viewport --
-   and writes left/width/maxWidth/maxHeight/top in JS px explicitly.
-   top (not bottom) is used because it only needs an OFFSET from the
-   layout viewport's top, which visualViewport.offsetTop gives directly;
-   bottom would need the layout viewport's TOTAL height, which is the
-   same inflated-and-unreliable value that caused the very first version
-   of this bug (UI 18's max-height:78vh). Height is measured AFTER
-   max-height is applied (sh.offsetHeight) so a short entry still sits
-   flush at the bottom instead of leaving a gap, matching the original
-   bottom-sheet behavior. Called once when the sheet opens, and live on
-   every visualViewport resize/scroll event WHILE it's open (added in
-   openSheet, removed in closeSheet) -- so a pinch gesture that happens
-   AFTER opening keeps the sheet correctly sized and positioned instead
-   of freezing it to whatever scale existed at open time. The show/hide
-   slide animation moved to transform:translateY (CSS above) specifically
-   so it composes on top of whatever top/left this function just set,
-   instead of needing its own correct bottom value. */
+/* #sheet's geometry on mobile, fourth attempt (Mark, 2026-08-05, four
+   reports on this one element in a row -- each round fixed what it
+   measured, and each round's real device test found the NEXT layer):
+   "thin long field" (fixed: size from screen.width/height) -> "square
+   but small, jumps... mostly off screen" when zooming after opening
+   (fixed: track window.visualViewport live, not a one-time snapshot) ->
+   "when zoomed out its small and still goes to the lower left." That
+   third report, on a real phone again, means visualViewport.offsetLeft/
+   offsetTop/width/height ALSO don't reliably reflect the true visible
+   area here, at least not immediately after this page's OWN dynamic
+   viewport-meta widen (three straight rounds of exactly this class of
+   gap between what headless Chromium testing showed and what a real
+   phone actually does with a JS-mutated viewport meta tag).
+   The tell: nothing was reported wrong with #scrim, the dark backdrop
+   directly behind the sheet -- also position:fixed, also meant to cover
+   the whole visible screen (`inset:0`), and it evidently DOES, or a
+   backdrop only covering part of the screen would have been the more
+   obvious complaint. So position:fixed itself is not the unreliable
+   part; deriving a SEPARATE element's geometry from visualViewport
+   properties, independently of what's already visibly correct, was.
+   Fix: stop computing anything from visualViewport numbers. Measure
+   #scrim's own getBoundingClientRect() instead -- whatever rectangle it
+   is ACTUALLY, visibly covering right now, by definition the true
+   visible screen -- and size/position the sheet to match that measured
+   rectangle directly. No independent math to drift out of sync with
+   reality; the sheet inherits its geometry from an element already
+   confirmed correct rather than recomputing its own guess at the same
+   answer. scrim must already be showing (.on class added) before this
+   runs, in openSheet, or its rect measures zero. Still called live on
+   every visualViewport resize/scroll event while the sheet is open
+   (scrim's rect changes right along with those, so re-measuring on the
+   same triggers keeps this in sync exactly as before). */
 function updateSheetGeometry(){
   if(!isMobileDevice)return;
-  const vv=window.visualViewport;if(!vv)return;
+  const scrimRect=document.getElementById('scrim').getBoundingClientRect();
+  if(!scrimRect.width||!scrimRect.height)return;
   const sh=document.getElementById('sheet');
-  sh.style.left=Math.round(vv.offsetLeft)+'px';
+  sh.style.left=Math.round(scrimRect.left)+'px';
   sh.style.right='auto';sh.style.margin='0';sh.style.bottom='auto';
-  sh.style.width=Math.round(vv.width)+'px';
-  sh.style.maxWidth=Math.round(vv.width)+'px';
-  sh.style.maxHeight=Math.round(vv.height*0.78)+'px';
+  sh.style.width=Math.round(scrimRect.width)+'px';
+  sh.style.maxWidth=Math.round(scrimRect.width)+'px';
+  sh.style.maxHeight=Math.round(scrimRect.height*0.78)+'px';
   const h=sh.offsetHeight;
-  sh.style.top=Math.round(vv.offsetTop+vv.height-h)+'px';
+  sh.style.top=Math.round(scrimRect.top+scrimRect.height-h)+'px';
 }
 function sheetVvListen(on){
   if(!isMobileDevice||!window.visualViewport)return;
@@ -1349,8 +1349,12 @@ function openSheet(id){
      sheet becomes visible so there's no flash of the wrong position. */
   sheet.scrollTop=0;
   sheet.removeAttribute('inert');
+  /* scrim must be showing (display:block, not display:none) before
+     updateSheetGeometry() measures it, or its rect is all zero -- so
+     scrim's own 'on' class goes on first, ahead of the sheet's. */
+  scrim.classList.add('on');
   updateSheetGeometry();
-  sheet.classList.add('on');scrim.classList.add('on');
+  sheet.classList.add('on');
   sheetVvListen(true);
   sheet.focus();
 }

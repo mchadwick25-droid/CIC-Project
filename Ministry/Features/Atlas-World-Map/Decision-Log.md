@@ -13,6 +13,71 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 20) — Mobile pinch-zoom, round five: measure what's already correct instead of recomputing it
+
+**The report:** "it isn't perfect, but better, when zoomed out its
+small and still goes to the lower left, but you can expand and read it
+ok." Progress -- the "jumps mostly off screen" failure from UI 19 is
+gone, and the sheet is at least usable once expanded -- but the resting
+(zoomed-out) case is still off. Third straight round where headless
+Chromium testing gave a clean result and a real phone found the next
+layer underneath it.
+
+**The tell that pointed to the actual fix:** nothing was reported wrong
+with `#scrim`, the dark backdrop directly behind the sheet. It's also
+`position:fixed`, also meant to cover the whole visible screen
+(`inset:0`), and evidently does -- a backdrop only covering part of the
+screen, leaving map visible around its edges, would have been the more
+obvious complaint by far. So `position:fixed` itself was never the
+unreliable part on this device. What UI 19 actually did was derive the
+SHEET's geometry independently, from `window.visualViewport`'s
+`offsetLeft/offsetTop/width/height` properties -- a separate calculation
+that had to independently arrive at the same answer `#scrim` was
+already visibly getting right, and evidently didn't, at least not at
+the very first (zoomed-out, no gesture yet) render.
+
+**Fix:** stopped computing the sheet's geometry from `visualViewport`
+properties at all. `updateSheetGeometry()` now measures `#scrim`'s own
+`getBoundingClientRect()` -- whatever rectangle it is ACTUALLY, visibly
+covering, which by definition is the true current screen -- and sizes/
+positions the sheet to match that measured rectangle directly. No
+independent math left to drift out of sync with what's already known to
+be correct. Required reordering `openSheet()` slightly: `scrim` needs
+its `.on` class (display:block, not display:none) added BEFORE its rect
+is measured, or the measurement is all zero -- scrim now goes visible
+first, sheet's geometry is computed second, sheet goes visible third.
+Live tracking while the sheet stays open is unchanged in mechanism
+(still triggered by `visualViewport` resize/scroll events) -- only what
+happens INSIDE the handler changed, from reading `visualViewport`
+numbers to re-measuring `#scrim`.
+
+**Verified:** re-confirmed the resting-zoom case still matches UI 19's
+result (`scrim` and `sheet` both measure `left:0, width:1230` at the
+canvas's ~0.317x rest zoom -- consistent, since at rest nothing should
+have changed). Directly tested the NEW re-measurement path (the OLD
+test, which faked `visualViewport` properties, no longer exercises
+anything real now that those properties aren't read) by moving
+`#scrim`'s actual rendered rect via its own inline style to a specific
+simulated "pinched to (300,500), 390×844" position and firing the same
+trigger event a real gesture produces -- the sheet moved to
+`left:300, top:686, width:390, bottom:1344`, exactly matching scrim's
+new rect. Close/reopen cycle with a different entry re-tested clean.
+Full Playwright harness clean (0 overlaps, 0 JS errors);
+`validate-census.mjs` clean. Desktop re-verified unchanged.
+
+**Named honestly:** this is the third consecutive round on this one
+element where a fix that tested clean in headless Chromium needed a
+real phone to find what was still wrong. This round's fix rests on one
+fact that so far hasn't been contradicted by any report -- that
+`#scrim`'s plain `inset:0` is correct -- rather than on reasoning about
+viewport APIs in the abstract, which is what the last two rounds did and
+both turned out to be short in a way only a real device surfaced. If
+this is STILL off, "does the dark backdrop itself look correctly
+full-screen when zoomed out" is the next fact worth checking before
+writing any more code.
+
+---
+
 ## 2026-08-05 (Pass 7, UI 19) — Mobile pinch-zoom, round four: the sheet needed to track the LIVE visual viewport, not a snapshot of it
 
 **The report, on a real phone this time:** "no it is square but small,
