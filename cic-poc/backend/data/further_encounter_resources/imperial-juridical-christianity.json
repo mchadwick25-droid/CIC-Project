@@ -1,0 +1,73 @@
+{
+  "world_id": "imperial-juridical-christianity",
+  "world_offer_label": "the world of imperial and juridical Christianity — the Constantinian alliance, Ambrose and the emperors, and the councils from Nicaea to Chalcedon",
+  "_comment": "Primary-text translations and secondary scholarship drawn from this world's own vetted Source Registry, curated for a participant who wants to go deeper after talking with this world's Representative.",
+  "resources": [
+    {
+      "resource_id": "price-gaddis-chalcedon",
+      "title": "The Acts of the Council of Chalcedon",
+      "author": "Richard Price and Michael Gaddis (trans.)",
+      "publisher": "Liverpool University Press (Translated Texts for Historians)",
+      "year": "2005",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "The standard critical translation of the actual proceedings of Chalcedon (451) — direct access to the council where this world's own defining tension between Rome and Constantinople came to a head over Canon 28.",
+      "topic_tags": ["chalcedon", "primary-text", "councils"]
+    },
+    {
+      "resource_id": "wessel-leo-the-great",
+      "title": "Leo the Great and the Spiritual Rebuilding of a Universal Rome",
+      "author": "Susan Wessel",
+      "publisher": "Brill (Supplements to Vigiliae Christianae, vol. 93)",
+      "year": "2008",
+      "type": "monograph",
+      "locator": "",
+      "note": "A close study of Leo I's own Christology and his claim to Roman primacy — the figure behind the Tome to Flavian and the rejection of Canon 28 central to this world's late horizon.",
+      "topic_tags": ["leo-the-great", "papal-primacy", "chalcedon"]
+    },
+    {
+      "resource_id": "mclynn-ambrose-of-milan",
+      "title": "Ambrose of Milan: Church and Court in a Christian Capital",
+      "author": "Neil McLynn",
+      "publisher": "University of California Press",
+      "year": "1994",
+      "type": "monograph",
+      "locator": "",
+      "note": "The standard political study of Ambrose's standoffs with the imperial court — for a participant who wants the fuller story behind the 386 basilica crisis and the Thessalonica affair.",
+      "topic_tags": ["ambrose", "empire", "politics"]
+    },
+    {
+      "resource_id": "barnes-constantine-eusebius",
+      "title": "Constantine and Eusebius",
+      "author": "T.D. Barnes",
+      "publisher": "Harvard University Press",
+      "year": "1981",
+      "type": "monograph",
+      "locator": "",
+      "note": "The standard account of the founding alliance between Constantine and the church, and of Eusebius as both its historian and its most interested narrator.",
+      "topic_tags": ["constantine", "eusebius", "overview"]
+    },
+    {
+      "resource_id": "hanson-search-christian-doctrine-god",
+      "title": "The Search for the Christian Doctrine of God: The Arian Controversy, 318-381",
+      "author": "R.P.C. Hanson",
+      "publisher": "T&T Clark",
+      "year": "1988",
+      "type": "monograph",
+      "locator": "",
+      "note": "The essential reference for the Homoian theology that actually held the imperial church for much of the fourth century — a needed corrective to the flattened, Nicaea-to-Constantinople-only story most readers know.",
+      "topic_tags": ["arian-controversy", "homoian", "theology"]
+    },
+    {
+      "resource_id": "williams-ambrose-arian-nicene",
+      "title": "Ambrose of Milan and the End of the Arian-Nicene Conflicts",
+      "author": "Daniel H. Williams",
+      "publisher": "Clarendon Press",
+      "year": "1995",
+      "type": "monograph",
+      "locator": "",
+      "note": "A focused study of Ambrose's own role in ending the Homoian-Nicene conflict at Milan specifically — the Milanese half of the fourth-century doctrinal fight this world sits inside.",
+      "topic_tags": ["ambrose", "arian-controversy", "milan"]
+    }
+  ]
+}

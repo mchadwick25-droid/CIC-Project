@@ -939,24 +939,29 @@ check of the real Living Table build in a running conversation — see LT-1.
       first CI workflow, the pilot-feedback form, guided-starter why/citations rendering,
       the anything-else wind-down streaming fix, the direct-address must_continue
       exemption, and the textstat dependency guard) **also shipped 2026-08-05 — see
-      Decision Log, 2026-08-05 (later still), Wave 2 entry.** Everything below is queued,
-      not started. Each item cites its source report + finding ID under
-      `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the report for
-      the exact file/line/fix rather than re-deriving it; each report already worked the
-      fix out in detail. No further Mark gate needed to start Wave 3 unless an item below
-      says otherwise.
+      Decision Log, 2026-08-05 (later still), Wave 2 entry.** Wave 3's first slice
+      likewise shipped 2026-08-05 (see below) — the remainder of Wave 3, plus all of
+      Wave 4, is queued, not started. Each item cites its source report + finding ID
+      under `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the
+      report for the exact file/line/fix rather than re-deriving it; each report already
+      worked the fix out in detail. No further Mark gate needed to continue Wave 3 unless
+      an item below says otherwise.
 
-      **Wave 3 — this month, medium lift:**
-      - **The ending screen rebuild** (the single lever all four reports independently
-        pointed at): `TheTable.tsx`'s closing screen gets a takeaway artifact (copyable
-        transcript + cited sources + reading list), the resources offer, and a link to
-        `pilot-feedback.html`.
+      **Wave 3 — this month, medium lift.** First slice **shipped 2026-08-05 — see
+      Decision Log, 2026-08-05 (later still), Wave 3 entry** (the ending screen rebuild;
+      six per-world further-reading JSON packs; Imperial-Juridical guided starters;
+      session persistence across a refresh; Atlas resize debounce + mobile zoom/scroll
+      preservation across relayout; `shoot.mjs`'s vacuous sheet-open assertion fixed +
+      box-vs-foreign-tail check + mobile pinch test + non-zero exit; the "what brings you
+      here?" onboarding step; the Atlas CTA seat-count label; "the Table"/"Nicene"/"the
+      doctrinal floor" defined). **Genuinely new, disclosed, not yet fixed:** the new
+      box-vs-foreign-tail check found real overlaps in `layout()`'s box-placement
+      algorithm itself (17 at 390px, 5 at 1280px) — a real defect in the core packing
+      logic, not touched this pass. Still queued:
       - **Census copy pass** (Accessibility's single biggest lever): split the
         100%-over-standard `longDescription`/`legacy` sentences, backfill `sources[]` for
         the six live worlds properly, render the authored `tag` field, fix stale `rec`,
         author the 32 missing teasers.
-      - Six per-world further-reading JSON packs (Readiness P1-3); Imperial-Juridical
-        guided starters (Readiness P1-1).
       - Rigor P1-1/P1-2/P1-3/P1-8: real `verification_state` grading + gate; re-key the
         priority-review trigger; restore `citation_reliability`/`formation_confidence`/
         `priority_review_flag` as fields; Documented-vs-unverified-sources gate.
@@ -967,15 +972,7 @@ check of the real Living Table build in a running conversation — see LT-1.
         harness with a declared per-world override file.
       - Engineering P1-4: bound the event store; measure real RSS with both transformer
         models loaded; decide persistent disk vs. un-gating the Supabase event mirror.
-      - Engineering P1-8/P1-7/P1-11: fix `shoot.mjs`'s vacuous assertion + add the
-        box-vs-foreign-tail check + mobile pinch test + non-zero exit; debounce Atlas
-        resize + preserve mobile zoom across relayout; persist the session token to
-        `sessionStorage`.
-      - Readiness P0-3b: a one-question "what brings you here?" step for feedback
-        correlation, without changing voice — complementary to, not a reopening of, the
-        Representative Modes pause above.
-      - Accessibility P1-1/P1-2 remainder: define "the Table" once; Atlas CTA reflects
-        seat count; "Nicene"/"the doctrinal floor" added to the generated glossary.
+      - The box-vs-foreign-tail layout defect surfaced above, in `layout()`'s `tryPack`.
 
       **Wave 4 — over time / structural:**
       - **Get one outside scholarly reader** (Rigor's single biggest lever): send

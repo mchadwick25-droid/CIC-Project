@@ -11,27 +11,60 @@
  * table bar, Increment 1 §2), since it's the one thing a tester needs to
  * remember *during* the conversation, not just before it.
  *
- * One addition beyond that draft, 2026-08-05: a link to the new
- * cic-website/privacy.html in the cataloging paragraph, closing the
- * full-system review's Participant Readiness finding P0-2 (the app told
- * testers their conversation was saved and read, with no page anywhere
- * saying what that meant). Everything else in this component is unchanged.
+ * Three additions beyond that draft, all 2026-08-05, all small and flagged
+ * rather than woven silently into the approved text:
+ *  1. A link to the new cic-website/privacy.html in the cataloging
+ *     paragraph, closing the full-system review's Participant Readiness
+ *     finding P0-2 (the app told testers their conversation was saved and
+ *     read, with no page anywhere saying what that meant).
+ *  2. One clause naming "the Table" in the opening paragraph, closing
+ *     Accessibility finding P1-1 - the app's own page title, the tray's
+ *     "Sit down at the Table" button, and the closing screen's "The
+ *     conversation has ended" all use "the Table" as this project's name
+ *     for the space itself, but nothing ever said so before a tester's
+ *     first conversation.
+ *  3. A new, self-contained "what brings you here?" question appended
+ *     after the last approved paragraph, before the begin button - not
+ *     inserted into the approved text itself (Readiness P0-3b). The
+ *     landing page recruits across four perspectives (general / pastor or
+ *     teacher / academic / re-examining their faith) that the product
+ *     itself never asked or distinguished; this stores the answer for
+ *     feedback correlation only (sessions.persona) - it does NOT set
+ *     participant_role or touch the paused Representative Modes
+ *     lane-ceiling system in any way, and it changes no Representative's
+ *     voice. Optional; skippable.
+ * Everything else in this component is unchanged.
  */
 
+import { useState } from 'react';
+
 const ONBOARDING_SEEN_KEY = 'cic_onboarding_seen';
+
+// Same option set as pilot-feedback.html's own "Perspective" field, on
+// purpose - one shared vocabulary for "who is this participant" across the
+// app rather than two similar-but-different lists drifting apart.
+const PERSONA_OPTIONS = [
+  'General',
+  'Pastor or Teacher',
+  'Academic',
+  'Re-examining my faith',
+  'Not sure / more than one',
+];
 
 export function hasSeenOnboarding(): boolean {
   return localStorage.getItem(ONBOARDING_SEEN_KEY) === 'true';
 }
 
 interface OnboardingScreenProps {
-  onContinue: () => void;
+  onContinue: (persona?: string) => void;
 }
 
 export function OnboardingScreen({ onContinue }: OnboardingScreenProps) {
+  const [persona, setPersona] = useState<string | undefined>(undefined);
+
   const handleContinue = () => {
     localStorage.setItem(ONBOARDING_SEEN_KEY, 'true');
-    onContinue();
+    onContinue(persona);
   };
 
   return (
@@ -45,7 +78,8 @@ export function OnboardingScreen({ onContinue }: OnboardingScreenProps) {
           historical record of a specific Christian community, formed entirely from what that
           community actually wrote, believed, and lived. You're not talking to a single historical
           person. You're talking to a voice shaped by the whole documented life of that community —
-          its arguments, its certainties, and the questions it never settled.
+          its arguments, its certainties, and the questions it never settled. We call this space
+          "the Table" — one seat for you, one for each Representative you invite to sit down with.
         </p>
 
         <h3>This is a prototype, not a finished product</h3>
@@ -107,6 +141,27 @@ export function OnboardingScreen({ onContinue }: OnboardingScreenProps) {
           whether you <em>liked</em> the conversation, but whether it felt honestly <em>itself</em> —
           a real voice with real edges, not a smoothed-over answer trying to please you.
         </p>
+
+        <div className="onboarding-screen__persona">
+          <h3>One quick, optional question</h3>
+          <p>
+            What brings you here today? This is just for us, to understand who's actually using this —
+            it doesn't change how any Representative speaks with you.
+          </p>
+          <div className="onboarding-screen__persona-options" role="group" aria-label="What brings you here today?">
+            {PERSONA_OPTIONS.map((option) => (
+              <button
+                key={option}
+                type="button"
+                className={`onboarding-screen__persona-option${persona === option ? ' onboarding-screen__persona-option--selected' : ''}`}
+                aria-pressed={persona === option}
+                onClick={() => setPersona(persona === option ? undefined : option)}
+              >
+                {option}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <button className="chat-button chat-button--primary chat-button--large" onClick={handleContinue}>
           I understand — let's begin

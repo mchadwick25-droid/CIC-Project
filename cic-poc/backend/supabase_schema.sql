@@ -66,6 +66,13 @@ create table public.sessions (
   phase text,
   turn_count integer not null default 0,
   status text not null default 'active',     -- 'active' | 'closed'
+  -- Wave 3 (Readiness P0-3b): the one-question "what brings you here?" step,
+  -- same option set as pilot-feedback.html's own perspective field (General /
+  -- Pastor or Teacher / Academic / Re-examining my faith / Not sure / Prefer
+  -- not to say). For feedback correlation only - never read by the graph,
+  -- never touches participant_role or the paused Representative Modes
+  -- lane-ceiling system.
+  persona text,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );

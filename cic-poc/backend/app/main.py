@@ -207,6 +207,10 @@ class StartSessionRequest(BaseModel):
 
     world_id: str = "syriac-edessa-nisibis"  # For single-world (backwards compat)
     world_ids: list[str] = []  # For multi-world table (1-3 worlds)
+    # Wave 3 (Readiness P0-3b): the optional "what brings you here?" answer,
+    # stored for feedback correlation only - see sessions.persona in
+    # supabase_schema.sql. Never read by the graph; not participant_role.
+    persona: str | None = None
 
 
 class StartSessionResponse(BaseModel):
@@ -310,6 +314,12 @@ class SessionResponse(BaseModel):
     messages: list[dict]
     phase: str
     turn_count: int
+    # Added Wave 3 (Engineering P1-11): without these, a rehydrated session
+    # has no way to know which world(s)/representative(s) it was talking to -
+    # the reconnect endpoint existed but nothing in the frontend called it,
+    # so a page refresh always lost the conversation. See useConversation.ts.
+    world_id: str | None = None
+    world_ids: list[str] = []
 
 
 def state_to_messages(state: ConversationState) -> list[dict]:
@@ -474,6 +484,7 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
                 "world_ids": world_ids,
                 "phase": state.phase,
                 "turn_count": state.turn_count,
+                "persona": request.persona,
             }).execute()
         except Exception:
             logger.exception("sessions row insert failed for session %s", session_id)
@@ -1811,6 +1822,8 @@ async def get_session(session_id: str,
         messages=state_to_messages(state),
         phase=state.phase,
         turn_count=state.turn_count,
+        world_id=state.world_id,
+        world_ids=state.world_ids or [],
     )
 
 
@@ -2039,6 +2052,55 @@ async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
         ))
 
     return LexiconResponse(terms=terms)
+
+
+class ResourcePack(BaseModel):
+    """One world's (or general's) further-reading list."""
+
+    world_id: str
+    world_offer_label: str
+    resources: list[dict]
+
+
+class ResourcesResponse(BaseModel):
+    """Response for the ending-screen further-reading list (Readiness P1-3/Wave 3)."""
+
+    packs: list[ResourcePack]
+
+
+@app.get("/api/resources", response_model=ResourcesResponse)
+async def get_resources(world_ids: str = ""):
+    """
+    Further-reading packs for the ending screen's takeaway artifact. Reuses the
+    same per-world JSON files and loader the Facilitator's own sensed-closing
+    resources offer already reads (app/graph/closing_sequence.py) - one source
+    of truth, no duplicated resource lists. `general` is always appended last,
+    matching that module's own append order.
+    """
+    from app.graph.closing_sequence import _load_resources
+
+    valid_world_ids = [w.id for w in AVAILABLE_WORLDS]
+    requested = [w for w in world_ids.split(",") if w]
+    for w in requested:
+        if w not in valid_world_ids:
+            raise HTTPException(status_code=400, detail=f"Invalid world_id: {w}")
+
+    packs = []
+    seen: set[str] = set()
+    for wid in [*requested, "general"]:
+        if wid in seen:
+            continue
+        seen.add(wid)
+        pack = _load_resources(wid)
+        if not pack:
+            continue
+        packs.append(ResourcePack(
+            world_id=pack.get("world_id", wid),
+            world_offer_label=pack.get("world_offer_label", wid),
+            resources=pack.get("resources", []),
+        ))
+
+    return ResourcesResponse(packs=packs)
 
 
 # ---------------------------------------------------------------------------

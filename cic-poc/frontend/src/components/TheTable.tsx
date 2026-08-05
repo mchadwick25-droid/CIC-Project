@@ -10,7 +10,7 @@
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useConversation } from '../hooks/useConversation';
+import { useConversation, hasStoredSession } from '../hooks/useConversation';
 import { useLexicon } from '../hooks/useLexicon';
 import { WorldSelector } from './WorldSelector';
 import { ArrivingLockup } from './ArrivingLockup';
@@ -23,20 +23,31 @@ import { OnboardingScreen, hasSeenOnboarding } from './OnboardingScreen';
 import { SignInScreen } from './SignInScreen';
 import { supabase, supabaseEnabled } from '../lib/supabase';
 import { getTermMatches } from './LexiconHighlight';
-import type { Citation, LexiconTerm, World } from '../types/conversation';
+import type { Citation, LexiconTerm, ResourcePack, World, WorldsResponse } from '../types/conversation';
 
 export function TheTable() {
   // Shown once per tester (a persistent localStorage flag, not once per
   // session) - re-shown only if their browser's local storage itself
   // resets, which is the same edge case that would confuse them anyway.
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding());
+  // Wave 3 (Readiness P0-3b): the onboarding screen's optional "what brings
+  // you here?" answer, held here until a session actually starts (world
+  // selection happens after onboarding) - for feedback correlation only,
+  // sent as StartSessionRequest.persona, never touches participant_role.
+  const [persona, setPersona] = useState<string | undefined>(undefined);
   // Signed in by default when Supabase isn't configured (local dev / before
   // Mark's project exists) - the sign-in screen only appears once a real
   // pilot deployment is wired up, same "off until configured" pattern as
   // the backend's session_cap.py.
   const [isSignedIn, setIsSignedIn] = useState(!supabaseEnabled);
   const [selectedWorlds, setSelectedWorlds] = useState<World[]>([]);
-  const [showWorldSelector, setShowWorldSelector] = useState(true);
+  // Wave 3 (Engineering P1-11): if a session is saved in sessionStorage, start
+  // in a brief "reconnecting" state instead of flashing the World Selector -
+  // a returning participant refreshing the tab should not have to re-pick
+  // worlds and lose their transcript. A fresh visitor with nothing stored
+  // skips this state entirely (isRehydrating starts false for them).
+  const [isRehydrating, setIsRehydrating] = useState(() => hasStoredSession());
+  const [showWorldSelector, setShowWorldSelector] = useState(() => !hasStoredSession());
 
   useEffect(() => {
     if (!supabase) return;
@@ -63,7 +74,46 @@ export function TheTable() {
     endConversation,
     resetConversation,
     clearError,
+    rehydrateSession,
   } = useConversation();
+
+  useEffect(() => {
+    if (!isRehydrating) return;
+    let cancelled = false;
+    rehydrateSession().then(async (restored) => {
+      if (cancelled) return;
+      if (!restored) {
+        setIsRehydrating(false);
+        setShowWorldSelector(true);
+        return;
+      }
+      // Reconstruct selectedWorlds (representative names, term maps, colors)
+      // from the same /api/worlds WorldSelector itself fetches from - the
+      // hook only knows world ids, not the full World objects the rest of
+      // this component renders from. Using restored.worldIds here (not the
+      // worldId/worldIds destructured above) deliberately - this callback's
+      // closure over those is stale until the hook's own setState above
+      // lands and this component re-renders.
+      try {
+        const response = await fetch('/api/worlds');
+        const data: WorldsResponse = await response.json();
+        if (cancelled) return;
+        const ids = new Set(restored.worldIds.length > 0 ? restored.worldIds : restored.worldId ? [restored.worldId] : []);
+        setSelectedWorlds(data.worlds.filter((w) => ids.has(w.id)));
+      } catch {
+        // Conversation itself is restored even if this lookup fails - the
+        // transcript and messaging still work, just without display names
+        // resolving through selectedWorlds until the next reload.
+      }
+      setShowWorldSelector(false);
+      setIsRehydrating(false);
+    });
+    return () => {
+      cancelled = true;
+    };
+    // Deliberately runs once on mount only.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Every world at the table, not just the primary one - each representative
   // needs their own vocabulary highlightable, not only the first world's.
@@ -161,9 +211,9 @@ export function TheTable() {
     setSelectedWorlds(worlds);
     setShowWorldSelector(false);
     if (worlds.length === 1) {
-      await startSession(worlds[0].id);
+      await startSession(worlds[0].id, persona);
     } else {
-      await startMultiWorldSession(worlds.map(w => w.id));
+      await startMultiWorldSession(worlds.map(w => w.id), persona);
     }
   };
 
@@ -198,13 +248,122 @@ export function TheTable() {
     setShowWorldSelector(true);
   };
 
+  // Wave 3 ending-screen rebuild (Readiness §5, the lever all four
+  // full-system reviews independently pointed at): fetched once the
+  // conversation reaches the closing screen, not before - no need to pay
+  // for it on every active turn. Reuses the same per-world JSON files the
+  // Facilitator's own sensed-closing resources offer already reads
+  // (backend/app/graph/closing_sequence.py) via the new GET /api/resources.
+  const [resourcePacks, setResourcePacks] = useState<ResourcePack[]>([]);
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle');
+
+  useEffect(() => {
+    if (phase !== 'closing') return;
+    const ids = worldIds.length > 0 ? worldIds : worldId ? [worldId] : [];
+    if (ids.length === 0) return;
+    let cancelled = false;
+    fetch(`/api/resources?world_ids=${encodeURIComponent(ids.join(','))}`)
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error('non-200'))))
+      .then((data: { packs: ResourcePack[] }) => {
+        if (!cancelled) setResourcePacks(data.packs || []);
+      })
+      .catch(() => {
+        // The offer/list feature already degrades gracefully when a pack is
+        // missing (closing_sequence.py's _load_resources returns None) -
+        // an empty list here does the same on the frontend: the further-
+        // reading section simply doesn't render, nothing else breaks.
+        if (!cancelled) setResourcePacks([]);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [phase, worldIds, worldId]);
+
+  // A plain-text takeaway: speaker names resolved the same way the
+  // transcript bubbles resolve them, each assistant turn's cited sources
+  // inlined under it - readable pasted into an email or a notes app, not
+  // just a JSON dump.
+  const buildTranscriptText = () => {
+    const displayName = (message: { role: string; name?: string | null }) => {
+      if (message.role === 'user') return 'You';
+      if (message.name === 'facilitator') return 'Facilitator';
+      const world = selectedWorlds.find(
+        (w) => w.representative.name.toLowerCase().replace(' ', '_') === message.name
+      );
+      return world ? world.representative.name : message.name || 'Representative';
+    };
+    const lines: string[] = [];
+    lines.push('Church in Conversation — a conversation transcript');
+    lines.push(new Date().toLocaleDateString());
+    lines.push('');
+    for (const message of messages) {
+      lines.push(`${displayName(message)}:`);
+      lines.push(message.content);
+      if (message.citations && message.citations.length > 0) {
+        for (const c of message.citations) {
+          lines.push(`  [source: ${c.key_sources}]`);
+        }
+      }
+      lines.push('');
+    }
+    if (resourcePacks.length > 0) {
+      lines.push('Further reading:');
+      for (const pack of resourcePacks) {
+        for (const r of pack.resources) {
+          const bits = [r.title];
+          if (r.author) bits.push(`by ${r.author}`);
+          lines.push(`- ${bits.join(' ')}`);
+        }
+      }
+      lines.push('');
+    }
+    return lines.join('\n');
+  };
+
+  const handleCopyTranscript = async () => {
+    try {
+      await navigator.clipboard.writeText(buildTranscriptText());
+      setCopyStatus('copied');
+    } catch {
+      setCopyStatus('error');
+    }
+    setTimeout(() => setCopyStatus('idle'), 2500);
+  };
+
   if (!isSignedIn) {
     return <SignInScreen />;
   }
 
+  // Reconnecting a session found in sessionStorage (Wave 3, Engineering
+  // P1-11) - ahead of onboarding/world-selection so a returning participant
+  // never sees either flash before landing back in their live conversation.
+  if (isRehydrating) {
+    return (
+      <div className="table-container">
+        <div className="start-screen">
+          <div className="loading-indicator loading-indicator--large">
+            <div className="loading-dots">
+              <span className="loading-dot"></span>
+              <span className="loading-dot"></span>
+              <span className="loading-dot"></span>
+            </div>
+            <span>Reconnecting your conversation...</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   // Pre-encounter onboarding - gates everything else, shown once per tester
   if (showOnboarding) {
-    return <OnboardingScreen onContinue={() => setShowOnboarding(false)} />;
+    return (
+      <OnboardingScreen
+        onContinue={(chosenPersona) => {
+          setPersona(chosenPersona);
+          setShowOnboarding(false);
+        }}
+      />
+    );
   }
 
   // World selection screen
@@ -329,6 +488,41 @@ export function TheTable() {
 
         <div className="conversation-ended">
           <p>The conversation has ended.</p>
+
+          <div className="conversation-ended__takeaway">
+            <button className="chat-button chat-button--secondary" onClick={handleCopyTranscript}>
+              {copyStatus === 'copied' ? 'Copied' : copyStatus === 'error' ? "Couldn't copy — select and copy manually" : 'Copy this conversation'}
+            </button>
+            <p className="conversation-ended__takeaway-note">
+              Copies the transcript with speaker names and cited sources, ready to paste
+              into an email or notes.
+            </p>
+          </div>
+
+          {resourcePacks.some((pack) => pack.resources.length > 0) && (
+            <div className="conversation-ended__reading">
+              <p className="conversation-ended__reading-heading">Further reading</p>
+              {resourcePacks
+                .filter((pack) => pack.resources.length > 0)
+                .map((pack) => (
+                  <div key={pack.world_id} className="conversation-ended__reading-pack">
+                    {pack.world_id !== 'general' && (
+                      <p className="conversation-ended__reading-label">{pack.world_offer_label}</p>
+                    )}
+                    <ul>
+                      {pack.resources.map((r) => (
+                        <li key={r.resource_id}>
+                          {r.title}
+                          {r.author ? ` — ${r.author}` : ''}
+                          {r.note ? <span className="conversation-ended__reading-note"> {r.note}</span> : null}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+            </div>
+          )}
+
           <button className="chat-button chat-button--primary" onClick={handleResetConversation}>
             Return to World Selection
           </button>

@@ -5206,3 +5206,142 @@ and the rest) remain queued in the Task Board. The Desert `database-search`
 instrument gap (found by the new gate, not the original review) and V7.4's
 outstanding ratification decision are both flagged above, not resolved here —
 neither is this session's call to make unilaterally.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 3 (partial): ending screen, further-reading packs, Imperial-Juridical guided starters, session persistence, Atlas layout hygiene, accessibility/onboarding fixes; Waves 3's remainder and Wave 4 stay queued
+
+**What this closes:** a first, substantial slice of the Wave 3 backlog written into
+`Ministry/Operations/Standing/CiC_Task_Board_2026.md` after Wave 2 shipped. Wave 3
+was scoped in the original plan as "this month, medium lift" — explicitly larger
+than Waves 1-2's single-session scope — and several of its items (the census copy
+pass, the 118-record term re-grading, a real field-bibliography sweep, the
+freeze-battery script consolidation) are genuinely large, careful work this pass
+does not attempt rather than rush. What's below is real, verified, and complete;
+what's not done is named at the end, not silently dropped.
+
+**Readiness:**
+
+1. **The ending screen, rebuilt (the single lever all four reviews independently
+   pointed at).** `TheTable.tsx`'s closing screen now offers a "Copy this
+   conversation" button producing a plain-text transcript with speaker names and
+   every cited source inline, plus a further-reading section — both genuinely new.
+   A new `GET /api/resources` endpoint serves per-world further-reading packs to
+   the frontend, reusing (not duplicating) the same loader the Facilitator's own
+   sensed-closing resources offer already used (`closing_sequence.py`'s
+   `_load_resources`) — one source of truth.
+2. **Six per-world further-reading JSON packs.** Before this, `_load_resources`
+   returned `None` for all six worlds — the resources-offer feature built in Wave
+   2 could show only the three generic `general.json` surveys, never anything
+   world-specific, regardless of which world a participant actually talked to.
+   Built by a dedicated pass reading each world's own `Source_Registry.md`/Doc_02
+   (5-6 curated titles per world, real translations and monographs already vetted
+   in that world's own record, empty `locator`/`year` left blank rather than
+   guessed wherever confidence wasn't there) — self-caught and fixed one wrong
+   digit in a recalled ISBN before finishing (Ward's *Sayings of the Desert
+   Fathers*), a small but real instance of this project's own "verify, don't
+   trust your own summary" discipline working as intended.
+3. **Imperial-Juridical's guided starters, the only world that had none.**
+   Authored to the same four-tier shape as the other five (`Guided_Starters_V0_1_
+   DRAFT.md`), grounded in IJC's own Doc_01/04/06/07/08/09 and the Capsule
+   Core/Permanent Prompt — every citation traces to something that actually exists
+   in those documents, not borrowed labels from another world's build. Added to
+   `build_guided_starters_json.py`'s `WORLDS` list and regenerated
+   `guided_starters.json` (now reports all 6 worlds). Getting a clean parse
+   required two markdown fixes (triple-asterisk headers and nested square
+   brackets inside citation lists both broke the deterministic parser's regexes)
+   — fixed in the markdown to match the other five worlds' own convention, not by
+   loosening the parser.
+4. **A one-question "what brings you here?" onboarding step (P0-3b).** The
+   landing page recruits across four perspectives the product never asked or
+   distinguished. Added as a small, clearly-flagged addition to
+   `OnboardingScreen.tsx` (the file's approved verbatim text is otherwise
+   untouched, per its own standing convention) — same option set as
+   `pilot-feedback.html`'s own "Perspective" field, stored via a new
+   `sessions.persona` column for feedback correlation only. Deliberately does
+   **not** set `participant_role` or touch the paused Representative Modes
+   lane-ceiling system in any way — complementary to that pause, not a reopening
+   of it.
+
+**Engineering:**
+
+5. **Session persistence across a page refresh (P1-11).** A refresh used to lose
+   the conversation outright — `GET /api/session/{id}` existed but nothing ever
+   called it. `sessionStorage` now holds the session id/token; a new
+   `rehydrateSession()` calls the reconnect endpoint on mount and restores state
+   before the World Selector would otherwise flash. `SessionResponse` extended
+   with `world_id`/`world_ids` (missing before — without them a rehydrated
+   session had no way to know which representative(s) it was talking to).
+   Storage is cleared on a natural close (explicit end, sensed close, or
+   discovering on reconnect that the session already closed) so a stale entry
+   can't loop.
+6. **`atlas-v3.html`'s resize handler debounced (150ms) and `layout()` given a
+   real no-op guard (P1-7).** Every resize event, and every `relayout()` call
+   for any reason (theme toggle included), previously tore down and rebuilt the
+   entire canvas regardless of whether anything about the packing actually
+   changed. `layout()` now skips the full rebuild when the effective view width
+   is unchanged from the last real layout. Mobile pinch-zoom/scroll position is
+   now preserved (as a fraction of content size) across a forced relayout instead
+   of snapping back to the minimum scale and the top-left corner every time —
+   previously **every** `layout()` call reset both, discarding whatever the
+   participant had pinched/panned to just to redraw the same map.
+7. **`shoot.mjs`'s sheet-open assertion was genuinely vacuous — now fixed and
+   caught a real bug in the process (P1-8).** It checked
+   `classList.contains('open')`, but the sheet's actual toggle class is `'on'` —
+   that branch never matched anything, real or not, and always fell through to a
+   fallback (`getBoundingClientRect().width > 0`) that is **always true**, sheet
+   open or closed, because `#sheet` is `position:fixed;left:0;right:0` even when
+   closed (only its `bottom` offset moves off-screen). This check had been
+   silently passing regardless of whether the sheet ever actually opened. Fixed
+   to check the real class, with a pre-click "sheet is closed" control check
+   added so a `true` result now reflects an actual state transition. Also added:
+   a real box-vs-foreign-tail geometric overlap check (see the disclosed finding
+   below), a real mobile pinch-zoom smoke test using a `hasTouch` Playwright
+   context with synthetic touch events (confirmed `mapScale` genuinely changes,
+   0.317 → 0.845 in the verification run), and a non-zero exit code so the
+   harness can gate CI once it's wired in (Wave 3's own CI-hardening item,
+   deliberately not attempted this pass — see below).
+
+**Accessibility:**
+
+8. **The Atlas's "go" button now reflects seat count instead of a static label**
+   ("Begin a Deep Interview with X" / "Begin — Compare Worlds: X, Y"), matching
+   `WorldSelector.tsx`'s own existing pattern — previously always read "Sit down
+   at the Table" regardless of how many seats were picked.
+9. **"The Table" named on first mention in onboarding**, and **"Nicene"/"the
+   doctrinal floor" added to the Atlas's generated glossary block** with the
+   footer's first "Nicene base" use linked to the definition — both P1-1/P1-2
+   remainder items. `statusMeta`'s "(Criterion 2)"/"Step 0" strip (the other half
+   of P1-2) already shipped in Wave 1.
+
+**A genuine new finding, disclosed rather than fixed this pass:** the new
+box-vs-foreign-tail check in `shoot.mjs` immediately found real violations of the
+Blueprint's own stated invariant ("a box may sit on its own tail, never another
+movement's") — 17 overlaps at 390px, 5 at 1280px, all in `layout()`'s `tryPack`
+box-placement algorithm itself. Not fixed here: this is a genuine defect in the
+core packing logic, not something to patch quickly alongside sixteen other
+changes without real regression risk. The harness deliberately still exits
+non-zero on it rather than special-casing it quiet, so it stays visible in
+`report.json` until a future session fixes the packing logic directly.
+
+**Verified, not just written:** the full backend gate selftest green
+(unaffected by this wave, run for completeness since `main.py` was touched);
+`npm run build` (`tsc` + `vite build`) clean; `validate-census.mjs` still 0/0;
+the Playwright harness run clean except the one disclosed, expected
+foreign-tail-overlap exit; the mobile pinch-zoom test confirmed a real scale
+change end-to-end; all six further-reading JSON packs validated and their
+citations spot-checked against each world's own registry.
+
+**Not done this wave, on purpose, and still queued:** the census copy pass
+(32 missing teasers, splitting ~100 over-standard sentences, backfilling
+`sources[]` for the six live worlds, rendering the authored `tag` field); Rigor
+P1-1/P1-2/P1-3/P1-8 (re-grading the 118 term records' `verification_state` against
+its real four values, plus the gate that would catch drift); Rigor P1-5 (an emic
+audit of the six deployed prompts and a real field-bibliography sweep — genuine
+external research, not something to rush); Engineering P1-6 (collapsing six
+copy-pasted freeze-battery scripts into one harness — a real refactor-risk item);
+Engineering P1-4 (bounding the event store and measuring real RSS with both
+transformer models loaded — needs a live, model-loaded run this environment
+doesn't have). The box-vs-foreign-tail layout defect above is also unresolved.
+None of this is forgotten; it stays in the Task Board as the live Wave 3
+remainder plus Wave 4.

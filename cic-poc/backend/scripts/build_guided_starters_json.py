@@ -33,6 +33,10 @@ WORLDS = [
         "world_id": "syriac-edessa-nisibis",
         "file": "World-Builds/Syriac-Christianity-Edessa-Nisibis/Guided_Starters_V0_1_DRAFT.md",
     },
+    {
+        "world_id": "imperial-juridical-christianity",
+        "file": "World-Builds/Imperial-Juridical-Christianity/Guided_Starters_V0_1_DRAFT.md",
+    },
 ]
 
 TIER_HEADERS = [

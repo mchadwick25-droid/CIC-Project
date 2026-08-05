@@ -447,7 +447,7 @@ body.filtering #art .thread{opacity:.1}
     <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-question"/></svg>
     <b>Question</b> — real history under review, deferred, or not (yet) in the plan.&ensp;
     <svg width="14" height="14" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-door"/></svg>
-    <b>Closed door</b> — outside the Nicene base this project builds from; the grounds are always
+    <b>Closed door</b> — outside the <a href="#nicene-gloss" style="color:inherit">Nicene base</a> this project builds from; the grounds are always
     stated in the entry, and exclusion is never a judgment of unimportance.
     </div>
   </details>
@@ -638,8 +638,8 @@ let anchors=[];
    on the page for accessibility) -- the SHEET, scrim, and header are
    structural siblings of the zoomable map region, never descendants of
    it, so no zoom state of any kind can ever reach them again. */
+let __lastLayoutViewW=null;
 function layout(){
-  canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
   /* viewW sources from screen.width on mobile, not clientWidth -- once the
      pinch-zoom widen below runs, clientWidth reports the WIDENED layout
      viewport, and re-reading it here on the next layout() (e.g. a resize
@@ -648,7 +648,17 @@ function layout(){
      viewport further -- a feedback loop. screen.width is immune to our
      own meta-tag rewrite and still reflects real device rotation. Desktop
      never touches the viewport meta, so clientWidth stays correct there. */
-  const viewW=Math.max(320,isMobileDevice?screen.width:document.documentElement.clientWidth), rh=RH(), head=HEAD();
+  const viewW=Math.max(320,isMobileDevice?screen.width:document.documentElement.clientWidth);
+  /* Packing (box sizes, columns, era heights) depends only on viewW - a
+     relayout() forced by something that doesn't change it (theme toggle, a
+     purely-vertical resize, a mobile toolbar show/hide) has nothing to
+     rebuild. Skip the full remove-and-repack; relayout()'s own toggle/filter
+     calls still run afterward and re-apply correctly against the untouched
+     canvas, same as they would against a freshly rebuilt one. */
+  if(__lastLayoutViewW===viewW && canvas.querySelector('.node'))return;
+  __lastLayoutViewW=viewW;
+  canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
+  const rh=RH(), head=HEAD();
   NW=Math.min(150,Math.max(96,viewW*0.26));
   const TWb=viewW<700?8:20, GAPb=viewW<700?4:12;
   window.__TW=TWb;
@@ -835,15 +845,35 @@ function layout(){
    correction -- without it, zooming anywhere but the top-left corner
    visibly drifts, which would just be a smaller version of the exact
    bug this rebuild exists to eliminate). */
-let mapScale=1,minMapScale=1,maxMapScale=3,mapContentW=0,mapContentH=0;
+let mapScale=1,minMapScale=1,maxMapScale=3,mapContentW=0,mapContentH=0,__mapZoomInited=false;
 function initMobileMapZoom(W,totalH){
+  const mv=document.getElementById('mapViewport'),controls=document.getElementById('controls');
+  /* Preserve zoom/pan across a forced relayout (theme toggle, filter change,
+     a resize that changed height only) instead of snapping back to the
+     minimum scale and the top-left corner every time - previously EVERY
+     layout() call reset both, discarding whatever the participant had
+     pinched/panned to just to redraw the same map. Only the very first
+     call (a fresh page load) resets to the minimum. Captured as fractions
+     of content size, not raw pixels, since content size can itself change
+     slightly between layouts. */
+  let prevScale=mapScale, prevFracX=0.5, prevFracY=0;
+  if(__mapZoomInited&&mapContentW>0&&mapContentH>0){
+    prevFracX=(mv.scrollLeft+mv.clientWidth/2)/(mapContentW*mapScale);
+    prevFracY=(mv.scrollTop+mv.clientHeight/2)/(mapContentH*mapScale);
+  }
   mapContentW=W;mapContentH=totalH;
   minMapScale=Math.min(1,screen.width/W);
   maxMapScale=Math.max(3,minMapScale*5);
-  const mv=document.getElementById('mapViewport'),controls=document.getElementById('controls');
   mv.style.height=Math.max(240,innerHeight-controls.offsetHeight)+'px';
-  applyMapScale(minMapScale);
-  mv.scrollTop=0;mv.scrollLeft=0;
+  if(!__mapZoomInited){
+    applyMapScale(minMapScale);
+    mv.scrollTop=0;mv.scrollLeft=0;
+    __mapZoomInited=true;
+  }else{
+    const applied=applyMapScale(prevScale);
+    mv.scrollLeft=Math.max(0,prevFracX*mapContentW*applied-mv.clientWidth/2);
+    mv.scrollTop=Math.max(0,prevFracY*mapContentH*applied-mv.clientHeight/2);
+  }
 }
 function applyMapScale(s){
   s=Math.max(minMapScale,Math.min(maxMapScale,s));
@@ -1198,7 +1228,12 @@ document.getElementById('regionAll').addEventListener('click',()=>{
    (single source of truth, same discipline as the rest of the atlas reading
    the census live) so it can't drift out of sync as either is edited. */
 document.getElementById('glossary').innerHTML=
-  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories &amp; regions</b>
+  `<b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Two words this map uses often</b>
+   <dl id="nicene-gloss" style="margin:.4rem 0 .8rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
+   <dt style="font-weight:700">Nicene</dt><dd style="margin:0">The creed agreed at a council in 325 CE and completed in 381 — the doctrinal core (the Trinity, Christ's full divinity and humanity) that almost every tradition on this map, whatever else divides them, holds in common.</dd>
+   <dt style="font-weight:700">The doctrinal floor</dt><dd style="margin:0">This project's own name for that shared Nicene core — the line it uses to decide which traditions it builds a full world for. A tradition outside it isn't judged unimportant; it's simply outside the specific line this project draws.</dd>
+   </dl>
+   <b style="font-variant:small-caps;letter-spacing:.08em;color:var(--gold)">Categories &amp; regions</b>
    <p style="margin:.4rem 0 .2rem">The header toggles group the map two ways, independent of each other. <b>Categories</b> name
    the 13 colored lanes honestly — real confessional families where one applies, plainly labeled otherwise, never forced into a leftover "Other":</p>
    <dl style="margin:0 0 .6rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .6rem">
@@ -1248,7 +1283,16 @@ function relayout(){layout();applyLaneToggle();applyRegionToggle();applyFilter()
 layout();
 applyLaneToggle();
 applyRegionToggle();
-addEventListener('resize',relayout);
+/* Debounced (150ms): a window resize fires continuously while the browser
+   window is being dragged, and mobile rotation/toolbar-show events can fire
+   several times in quick succession - each one otherwise triggered a full
+   relayout(). Trailing-edge only (settle, then relayout once), not
+   leading+trailing - a mid-drag intermediate size was never worth a repaint. */
+let __resizeDebounce=null;
+addEventListener('resize',()=>{
+  clearTimeout(__resizeDebounce);
+  __resizeDebounce=setTimeout(relayout,150);
+});
 
 /* ---- trace ---- */
 const tip=document.getElementById('tip');
@@ -1616,6 +1660,18 @@ updateYearBadge(0);
    cap, so a mismatch here let a visitor fill five seats and lose the last
    two with no explanation (2026-08-05 full-system review, Readiness P1-5). */
 let tray=[];const TRAY_MAX=3;
+/* Go-button label reflects seat count, same emergent-mode naming
+   WorldSelector.tsx already uses ("Begin a Deep Interview with X" for one
+   seat, "Begin — Compare Worlds: X, Y" for two or three) - previously a
+   static "Sit down at the Table" regardless of how many were picked
+   (2026-08-05 full-system review, Accessibility P1-1/P1-2 remainder). */
+function goLabel(){
+  if(tray.length===0)return'Sit down at the Table';
+  const names=tray.map(id=>byId[id].entry.representativeName);
+  return tray.length===1
+    ?`Begin a Deep Interview with ${names[0]}`
+    :`Begin — Compare Worlds: ${names.join(', ')}`;
+}
 function renderTray(){
   const t=document.getElementById('tray');
   t.classList.toggle('on',tray.length>0);
@@ -1623,6 +1679,7 @@ function renderTray(){
     const m=byId[id];
     return `<span class="tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)} from the table">×</button></span>`;
   }).join(" ")+(tray.length>=TRAY_MAX?'<span class="tray-note">Table is full — up to three seats</span>':"");
+  document.getElementById('go').textContent=goLabel();
 }
 function launch(ids,mode){location.href=LIVE_APP_URL+'/?worlds='+ids.join(',')+'&mode='+mode;}
 document.getElementById('tray').addEventListener('click',ev=>{

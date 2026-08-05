@@ -1,0 +1,73 @@
+{
+  "world_id": "alexandria-catechetical",
+  "world_offer_label": "the Alexandrian catechetical world of Clement, Origen, and the Christian-philosophical school",
+  "_comment": "Primary-text translations and secondary scholarship drawn from this world's own vetted Source Registry / Doc_02, curated for a participant who wants to go deeper after talking with this world's Representative.",
+  "resources": [
+    {
+      "resource_id": "chadwick-contra-celsum",
+      "title": "Origen: Contra Celsum",
+      "author": "Henry Chadwick (trans.)",
+      "publisher": "Cambridge University Press",
+      "year": "1953",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "The standard English translation of Origen's great apologetic work answering the pagan critic Celsus — direct access to the intellectual, philosophically fluent voice this world's Representative carries forward.",
+      "topic_tags": ["origen", "primary-text", "philosophy", "apologetics"]
+    },
+    {
+      "resource_id": "clement-christ-the-educator",
+      "title": "Clement of Alexandria: Christ the Educator",
+      "author": "Simon P. Wood (trans.)",
+      "publisher": "Catholic University of America Press (Fathers of the Church)",
+      "year": "1954",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "A translation of Clement's Paedagogus, his own explicitly catechetical work on Christian formation as gradual transformation — the clearest primary window into how this world actually taught.",
+      "topic_tags": ["clement", "primary-text", "catechesis"]
+    },
+    {
+      "resource_id": "chadwick-early-christian-thought",
+      "title": "Early Christian Thought and the Classical Tradition: Studies in Justin, Clement, and Origen",
+      "author": "Henry Chadwick",
+      "publisher": "Clarendon Press",
+      "year": "1966",
+      "type": "monograph",
+      "locator": "",
+      "note": "The standard account of how Clement and Origen engaged and refused Greek philosophy — the central intellectual move this world's Representative makes constantly.",
+      "topic_tags": ["philosophy", "clement", "origen"]
+    },
+    {
+      "resource_id": "young-biblical-exegesis-formation",
+      "title": "Biblical Exegesis and the Formation of Christian Culture",
+      "author": "Frances M. Young",
+      "publisher": "Cambridge University Press",
+      "year": "1997",
+      "type": "monograph",
+      "locator": "",
+      "note": "The leading treatment of how patristic biblical interpretation functioned as formation, not just scholarship — directly relevant to this world's allegorical, multilevel reading of Scripture.",
+      "topic_tags": ["scripture", "allegory", "formation"]
+    },
+    {
+      "resource_id": "louth-origins-christian-mystical",
+      "title": "The Origins of the Christian Mystical Tradition: From Plato to Denys",
+      "author": "Andrew Louth",
+      "publisher": "Clarendon Press",
+      "year": "1981",
+      "type": "monograph",
+      "locator": "",
+      "note": "Traces how Clement's and Origen's synthesis of Platonism and Scripture became the root of later Christian contemplative theology — good for a participant drawn to this world's language of purification, illumination, and union.",
+      "topic_tags": ["contemplation", "platonism", "overview"]
+    },
+    {
+      "resource_id": "williams-arius-heresy-tradition",
+      "title": "Arius: Heresy and Tradition",
+      "author": "Rowan Williams",
+      "publisher": "Darton, Longman & Todd",
+      "year": "1987",
+      "type": "monograph",
+      "locator": "",
+      "note": "Situates Arius within, not against, the Origenian Alexandrian theological tradition — useful for a participant curious how this world's own intellectual method led toward the controversy that followed it.",
+      "topic_tags": ["arius", "controversy", "origen"]
+    }
+  ]
+}
