@@ -800,6 +800,26 @@ decision above.
 
 ---
 
+## 2026-08-02 (same day, continued) — Stripe account miscategorized as accepting charitable contributions; corrected to Payments
+
+**Real problem, caught before it became a compliance issue.** Stripe kept requesting
+documentation about "our charity" and fundraising activity — impossible to satisfy honestly,
+since Faithways Studio, Inc. is a for-profit PBC, not a registered charity. Root cause: somewhere
+in setup, a "Payments or Contributions" choice was answered "Contributions," which appears to be
+Stripe's own internal category for charitable/nonprofit giving specifically, routing the account
+into charity-compliance review it doesn't qualify for and shouldn't be under. **Corrected to
+Payments** — the standard category for a for-profit business accepting money, voluntary or not.
+Same underlying mistake pattern as the earlier "Religious Organization" bank-form near-miss:
+accurate self-categorization, not documentation, is the fix. If Stripe still wants standard
+business verification, the real Articles of Incorporation and EIN are legitimate, already in hand,
+and answer that — charity-specific paperwork was never applicable and was never produced.
+
+**Next action:** watch for whether the charity-documentation requests actually stop now that the
+category is corrected; if Stripe pushes back further, that's worth bringing back here rather than
+trying to produce something to satisfy the original, inapplicable request.
+
+---
+
 ## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
 
 **Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on
