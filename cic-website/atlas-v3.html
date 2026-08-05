@@ -747,6 +747,31 @@ function layout(){
      never cross a second — the census is era-scoped, and continuity is the
      next era's own entries' job. Capped tails free their space. */
   rows.forEach(m=>{m._fam=famOf(m.laneOrder);m._ei=eraIndexOf(m);});
+  /* per-family-per-era ordinal (Mark, 2026-08-05: "same lanes nearer each
+     other, not all mixed in with each other"). tryPack used to give every
+     family present in an era exactly ONE anchor point, shared by however
+     many members that family actually had that era — a family with 20
+     concurrent members (Protestant & Evangelical in Era 9) squeezed them
+     all toward the same single x while a family with just 1 (Caucasus,
+     same era) got an equally-sized share of the anchor row. Traced live:
+     armenian-christianity-zartonk (Era 9's only Caucasus entry) wanted
+     x=362 but landed at x=2047 because the pitch-grid near that shared
+     anchor row was already claimed by the oversubscribed families packed
+     into the same evenly-spaced points, so it fell through the free-gap
+     search to whatever slot was left — nowhere near any other Caucasus
+     box (there wasn't one) and deep inside unrelated families' clusters.
+     Giving each family a ZONE sized to its actual member count (below)
+     and spreading each member across ITS family's zone by birth order
+     (here) means members of the same family target neighboring points
+     instead of a single shared one, so the free-gap search naturally
+     seats them next to each other instead of scattering the overflow
+     across whichever families happen to have anchors nearby. */
+  const famEraIdx={},famEraCount={};
+  (function(){
+    const groups={};
+    rows.forEach(m=>{const key=m._ei+':'+m._fam.k;(groups[key]=groups[key]||[]).push(m.id);});
+    Object.values(groups).forEach(ids=>ids.forEach((id,idx)=>{famEraIdx[id]=idx;famEraCount[id]=ids.length;}));
+  })();
   const capEraOf=m=>Math.min(m._ei+1,eraSpans.length-1);
   const isCapped=m=>m.end>ERA_YEARS[capEraOf(m)][1];
   const endRowOf=m=>{
@@ -772,12 +797,34 @@ function layout(){
        mobile the anchors spread across the full packed width W instead,
        same as the boxes now can. */
     const AW=isMobileDevice?W:Math.min(W,viewW);
+    /* zone width per family is proportional to how many of that family's
+       movements are actually native to this era (not an even split by
+       family COUNT) — see the famEraIdx/famEraCount comment above for why.
+       Families keep FAM's own k-order left to right, so the same family
+       tends to land in the same relative stripe from one era to the next. */
     const A=eraSpans.map((s,i)=>{
-      const present=FAM.filter(f=>rows.some(m=>famOf(m.laneOrder)===f&&aliveIn(m,i)));
-      const map={};present.forEach((f,j)=>{map[f.k]=((j+0.5)/present.length)*(AW-28)+14;});
+      const counts=FAM.map(f=>({f,n:rows.filter(m=>m._ei===i&&m._fam===f).length})).filter(x=>x.n>0);
+      const total=counts.reduce((a,c)=>a+c.n,0)||1;
+      const map={};let cum=0;
+      counts.forEach(({f,n})=>{
+        const zw=(n/total)*(AW-28);
+        map[f.k]={lo:14+cum,hi:14+cum+zw,mid:14+cum+zw/2};
+        cum+=zw;
+      });
       return map;
     });
-    const aX=(i,f)=>A[i][f.k]!=null?A[i][f.k]:W/2;
+    /* each member targets a point spread across ITS family's own zone, by
+       birth order among that family's era-mates (famEraIdx/famEraCount) --
+       not the zone's single center — so same-family members aim at
+       neighboring x's instead of all converging on one point and forcing
+       the free-gap search to scatter the overflow into other families'
+       territory. */
+    const aX=(i,f,id)=>{
+      const z=A[i][f.k];
+      if(!z)return W/2;
+      const idx=famEraIdx[id]||0,cnt=famEraCount[id]||1;
+      return z.lo+((idx+0.5)/cnt)*(z.hi-z.lo);
+    };
     /* Tails live on a tight pitch grid; the BOX may lean sideways over its
        tail (asymmetric shoulder — "a moving to the tail"), weaving into
        whatever box-sized hole exists between living ribbons at its birth.
@@ -806,9 +853,28 @@ function layout(){
     const boxClear=4;
     const ribbons=[];let fb=0;const pos={};const slotOf={};
     rows.forEach(m=>{
-      let want=aX(m._ei,m._fam);
+      let want=aX(m._ei,m._fam,m.id);
       const ps=(parentsOf[m.id]||[]).map(id=>pos[id]).filter(p=>p!=null).map(p=>p.tx);
       if(ps.length){const px=ps.reduce((a,b)=>a+b,0)/ps.length;want=0.45*want+0.55*px;}
+      /* the parent pull above is weighted MORE than the family pull (0.55 vs
+         0.45), so a movement whose parent belongs to a DIFFERENT family (a
+         real, common case — e.g. alexandria-catechetical's parent is
+         post-apostolic-house-church, Africa descending from Origin) can get
+         dragged well outside its own family's zone and land in the middle
+         of an unrelated family's block, undoing the zone-clustering above.
+         Traced live: without this clamp, alexandria-catechetical's want
+         came out to 332 (parent post-apostolic-house-church sits at x=80)
+         instead of its own Africa zone's ~583-697, landing it inside
+         Origin's own cluster and breaking Era 1 from the achievable
+         4-transition minimum up to 6. Re-clamping the blended want back
+         into the family's own zone keeps the parent pull as a tie-break
+         for WHERE inside the zone (still nearer the parent's side of it)
+         without letting it break the family block apart. Skipped when no
+         zone exists for this family/era (present.length===0 can't happen
+         for a native member, but stay defensive) and overridden below by
+         identity succession, which has a stronger, more specific claim. */
+      const famZone=A[m._ei][m._fam.k];
+      if(famZone)want=Math.max(famZone.lo,Math.min(famZone.hi,want));
       /* identity succession: the stream continues in place — the successor
          wants its predecessor's own column, ahead of the family/anchor pull
          above. Kept as a `want` bias rather than a forced assignment (see
@@ -1090,7 +1156,7 @@ function drawArt(W,H,rh){
   let s="";
   const BOX_H=38;
   const clampX=x=>Math.max(NW/2+4,Math.min(W-NW/2-4,x));
-  const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k]:W/2;
+  const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k].mid:W/2;
   const bandBottom=i=>i+1<eraSpans.length?eraSpans[i+1]._y:H-24;
   /* straight ribbon tails: the box continues as its stream, dead vertical —
      placement already guaranteed no box sits on another's tail. A movement
