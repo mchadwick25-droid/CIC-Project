@@ -1,0 +1,135 @@
+"""One-off live test: run real multi-turn conversations against three worlds
+through the actual HTTP surface (FastAPI TestClient), capturing full
+transcripts and every real LLM call's token usage, so the transcripts can be
+read for content/flow/readability and the usage log can be turned into a
+real per-conversation cost breakdown.
+
+Not a permanent script - ad hoc, run once, read the output files.
+"""
+import json
+import logging
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+os.environ.setdefault("ANTHROPIC_API_KEY", os.environ.get("ANTHROPIC_API_KEY", ""))
+assert os.environ.get("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY must be set"
+os.environ.pop("MOCK_LLM", None)
+
+usage_records = []
+
+
+class UsageCapture(logging.Handler):
+    def emit(self, record):
+        msg = record.getMessage()
+        if not msg.startswith("[llm_usage]"):
+            return
+        fields = {}
+        for part in msg[len("[llm_usage] "):].split():
+            if "=" in part:
+                k, v = part.split("=", 1)
+                fields[k] = v
+        usage_records.append(fields)
+
+
+logging.getLogger("cic.llm_usage").addHandler(UsageCapture())
+
+from fastapi.testclient import TestClient  # noqa: E402
+import app.main as main_mod  # noqa: E402
+
+client = TestClient(main_mod.app)
+
+# Deep-Interview-style scenarios: one world, a handful of turns that build
+# on each other the way a real curious participant would - genuine question,
+# natural follow-up, a real pushback/challenge, a closing reflective turn.
+SCENARIOS = [
+    {
+        "world_id": "desert-monasticism",
+        "label": "Desert Fathers and Mothers (Papnoute)",
+        "turns": [
+            "What does it actually mean to \"fight your thoughts\"? That sounds exhausting.",
+            "Okay, but practically - if I'm lying awake at 2am spiraling about something, what would one of you actually have me do in that moment?",
+            "Isn't that just suppression though? Modern psychology would say naming and expressing the thought is healthier than fighting it.",
+            "That's helpful. Is there a story of someone who got this wrong - who fought too hard and it broke them?",
+        ],
+    },
+    {
+        "world_id": "post-apostolic-house-church",
+        "label": "The House-Churches (Chloe)",
+        "turns": [
+            "What was it actually like, meeting in someone's house instead of a church building? Did it feel makeshift, or was that the point?",
+            "Who got to speak during the meal, and who decided that?",
+            "Isn't it convenient that a movement led mostly by wealthy homeowners describes itself as radically inclusive? Whose interests did that structure actually serve?",
+            "If I showed up to one of these gatherings as a stranger off the street, what would actually happen to me?",
+        ],
+    },
+    {
+        "world_id": "syriac-edessa-nisibis",
+        "label": "Syriac Christianity (Mar Yausep)",
+        "turns": [
+            "Your tradition sits right at the edge between the Roman and Persian worlds. Did that in-between position shape how you thought about faith, or was it mostly a political headache?",
+            "What's the Bnay Qyama - the \"sons and daughters of the covenant\"? Is that monasticism, or something else?",
+            "A lot of what survives from your world is in a language most people today have never heard of. Doesn't that mean we're only getting a fragment, filtered through whoever bothered to translate it?",
+            "What would you want a modern Christian, who's never heard of the Church of the East, to actually understand about your community?",
+        ],
+    },
+]
+
+results = []
+
+for scenario in SCENARIOS:
+    print(f"\n=== {scenario['label']} ({scenario['world_id']}) ===", flush=True)
+    usage_records.clear()
+
+    r = client.post("/api/session/start", json={"world_id": scenario["world_id"]})
+    if r.status_code != 200:
+        print(f"START FAILED: {r.status_code} {r.text[:500]}")
+        results.append({"world_id": scenario["world_id"], "error": r.text[:2000]})
+        continue
+
+    data = r.json()
+    session_id = data["session_id"]
+    token = data["session_token"]
+    headers = {"X-Session-Token": token}
+
+    transcript = list(data["messages"])
+    print(f"[start] {len(transcript)} opening message(s)", flush=True)
+    for m in transcript:
+        speaker = m.get("name") or m.get("role")
+        print(f"  {speaker}: {m['content'][:100]}", flush=True)
+
+    turn_errors = []
+    for i, turn_text in enumerate(scenario["turns"], 1):
+        print(f"\n[turn {i}] participant: {turn_text}", flush=True)
+        r = client.post(
+            f"/api/session/{session_id}/message",
+            headers=headers,
+            json={"message": turn_text},
+        )
+        if r.status_code != 200:
+            print(f"  TURN FAILED: {r.status_code} {r.text[:500]}", flush=True)
+            turn_errors.append({"turn": i, "error": r.text[:2000]})
+            break
+        data = r.json()
+        new_msgs = data["messages"][len(transcript):]
+        transcript = data["messages"]
+        for m in new_msgs:
+            speaker = m.get("name") or m.get("role")
+            print(f"  {speaker}: {m['content'][:300]}", flush=True)
+
+    world_usage = list(usage_records)
+    results.append({
+        "world_id": scenario["world_id"],
+        "label": scenario["label"],
+        "transcript": transcript,
+        "usage": world_usage,
+        "turn_errors": turn_errors,
+    })
+
+out_path = os.path.join(os.path.dirname(__file__), "..", "..", "..",
+                         "mark_conversation_test_results.json")
+out_path = os.path.abspath(out_path)
+with open(out_path, "w") as f:
+    json.dump(results, f, indent=2)
+print(f"\n\nWrote {out_path}")
