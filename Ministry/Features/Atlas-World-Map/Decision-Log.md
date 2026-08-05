@@ -13,6 +13,64 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 19) — Mobile pinch-zoom, round four: the sheet needed to track the LIVE visual viewport, not a snapshot of it
+
+**The report, on a real phone this time:** "no it is square but small,
+and when you zoom in it jumps to the left and down mostly off the
+screen." UI 18's fix computed the sheet's size from
+`screen.width|height / visualViewport.scale` -- correct math, verified
+three ways in testing -- but only ONCE, at the moment `openSheet()` ran.
+Confirms two things at once: the scale-math approach was fundamentally
+the wrong shape of fix (a live gesture happening AFTER open was never
+going to be caught by a one-time calculation, however correct that
+calculation was in the instant it ran), and `position:fixed`'s
+`left:0`/`bottom:0` are NOT reliably tracking the visual viewport on a
+real device -- confirmed now, not just flagged as a theoretical risk in
+UI 16's original note.
+
+**Fix, a different shape entirely:** stopped trusting `position:fixed`
+to track anything on its own. `updateSheetGeometry()` reads
+`window.visualViewport.offsetLeft/offsetTop/width/height` directly --
+the live, authoritative description of exactly where the physical
+screen currently sits within the page -- and writes `left`/`width`/
+`max-width`/`max-height`/`top` in JS pixels explicitly, every time.
+`top` instead of `bottom`, deliberately: `top` only needs an OFFSET from
+the layout viewport's top edge, which `visualViewport.offsetTop` gives
+directly, while `bottom` would need the layout viewport's TOTAL height
+-- the exact same inflated, unreliable value that caused UI 18's
+original `max-height:78vh` bug in the first place. Height is measured
+via `sh.offsetHeight` AFTER `max-height` is applied and BEFORE `top` is
+computed, so a short entry still sits flush at the screen's bottom
+instead of leaving a gap. Called once on open, then live on every
+`visualViewport` `resize`/`scroll` event for as long as the sheet stays
+open (registered in `openSheet`, unregistered in `closeSheet`) -- so a
+pinch or pan that happens mid-read keeps the sheet correctly sized and
+positioned instead of freezing it to whatever the scale happened to be
+at the moment of the tap. The show/hide slide animation moved from
+animating `bottom` to animating `transform:translateY`, specifically so
+it composes on top of whatever `top`/`left` this function just computed
+instead of needing its own correct `bottom` value (which was the
+un-fixable dependency this whole redesign exists to avoid).
+
+**Verified:** opened the sheet at the map's resting zoom (~0.317x) and
+confirmed correct full-width geometry, matching UI 18's prior result;
+then, with the sheet still open, directly overrode
+`visualViewport.offsetLeft/offsetTop/width/height` to a specific
+simulated "pinched in and panned to (300,500), 390×844" state and fired
+the same `resize` event a real gesture produces -- the sheet moved and
+resized to `left:300, top:686, width:390, height:658`, exactly matching
+that simulated viewport's bounds (`686 = 500+844-658`, `1344 = 500+844`
+bottom edge). This is the first round of this feature where the FULL
+failure mode reported live-updating during an open sheet, not just
+sizing at open time -- could be directly reproduced and confirmed fixed
+in testing, not just reasoned about. Close/reopen cycle with a different
+entry re-tested clean, no stray state from the previous open. Full
+Playwright harness clean (0 overlaps, 0 JS errors); `validate-census.mjs`
+clean. Desktop re-verified completely unchanged (`updateSheetGeometry`
+and `sheetVvListen` both return immediately when `!isMobileDevice`).
+
+---
+
 ## 2026-08-05 (Pass 7, UI 18) — Mobile pinch-zoom, round three: the click-document sheet was "a thin long field"
 
 **The report:** "it is a thin long field, on the desktop it works ok,

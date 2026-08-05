@@ -288,6 +288,23 @@ html.is-mobile #glossary dt{margin-top:.35rem}
 html.is-mobile .node .nm{font-size:.62rem}
 html.is-mobile .node .dt{font-size:.52rem}
 html.is-mobile .node{padding:.2rem .3rem .16rem}
+/* #sheet's show/hide on mobile switches from animating `bottom`
+   (-105% -> 0) to animating `transform: translateY` instead (Mark,
+   2026-08-05, third report on this element: "square but small, and when
+   you zoom in it jumps to the left and down mostly off the screen") --
+   `bottom` needs a `left/top/width/height` that's already correct
+   relative to the CURRENT physical screen to mean anything, and on
+   mobile that's now computed continuously in JS (updateSheetGeometry,
+   tracking window.visualViewport, the one API confirmed reliable across
+   every round of testing this element) rather than left to CSS position:
+   fixed, which the "jumps ... mostly off the screen" report confirms
+   does NOT reliably track the visual viewport here the way UI 18 assumed
+   it would. `transform:translateY` composes cleanly on top of whatever
+   top/left JS just set, independent of it -- sliding the box down by its
+   own height to hide, back to translateY(0) to show, regardless of
+   where that box currently sits. */
+html.is-mobile #sheet{bottom:auto;transform:translateY(110%);transition:transform .22s ease}
+html.is-mobile #sheet.on{transform:translateY(0)}
 html:not(.is-mobile) #sheet{left:auto;right:0;top:0;bottom:auto;max-height:100vh;height:100vh;width:min(430px,92vw);
   border-radius:0;border-top:none;border-left:2px solid var(--gold);transform:translateX(105%);transition:transform .22s ease}
 html:not(.is-mobile) #sheet.on{transform:none}
@@ -605,45 +622,56 @@ function setMobileMapZoom(){
   const fitScale=Math.min(1,screen.width/W).toFixed(4);
   setViewportMeta(`width=${W}, initial-scale=${fitScale}, minimum-scale=${fitScale}, maximum-scale=5, user-scalable=yes`);
 }
-/* #sheet's own left:0;right:0;max-width:640px;margin:0 auto was always
-   harmless before -- mobile's viewport was never wider than 640px
-   anyway, so the cap never engaged and left:0/right:0 alone gave a true
-   full-width sheet. Now that mobile's layout viewport is deliberately
-   wide (see layout()), that whole mechanism breaks in ways only visible
-   by measuring the actual rendered box, not by reasoning about the CSS
-   alone (Mark, 2026-08-05, "it is a thin long field ... too small to
-   read"):
-   1) max-height:78vh is relative to the LAYOUT viewport height, which is
-      ALSO inflated once mobile is zoomed out (the wide canvas needs a
-      proportionally taller layout viewport to keep the zoom math
-      consistent) -- measured max-height resolving to 1633px against a
-      390px-wide sheet: correctly narrow, absurdly tall. The "thin long
-      field."
-   2) even fixing width to screen.width doesn't make the sheet fill the
-      screen, because the sheet is plain page content -- it's zoomed out
-      right along with everything else. At the map's resting zoom
-      (~0.317x on a typical packed canvas), a 390px-wide (screen.width)
-      box renders at ~124 physical px: still thin. What actually reads as
-      "full width of the screen" at the CURRENT zoom is screen.width /
-      visualViewport.scale of CSS px -- exactly W, the full canvas width,
-      at the map's resting zoom, shrinking toward literal screen.width
-      only once the user has pinched all the way in to 1:1. Recomputed
-      fresh on every open (sizeMobileSheet, called from openSheet) since
-      the user's zoom level can differ each time they tap a box.
-   left:0/right:auto/margin:0 (set once, position doesn't depend on
-   zoom) so width alone determines the box instead of left+right+auto-
-   center, which was landing it centered on the wide canvas rather than
-   pinned to the screen's true left edge. */
-if(isMobileDevice){
-  const sh=document.getElementById('sheet');
-  sh.style.left='0px';sh.style.right='auto';sh.style.margin='0';
-}
-function sizeMobileSheet(){
+/* #sheet's geometry on mobile, third attempt (Mark, 2026-08-05, three
+   reports on this one element in a row): "it is a thin long field" (fix:
+   size from screen.width/height) -> "square but small, and when you
+   zoom in it jumps to the left and down mostly off the screen" (that
+   fix's real failure: it only computed size ONCE, from
+   visualViewport.scale, at the moment the sheet opened -- correct for
+   that instant, but never updated again, so a live pinch gesture AFTER
+   opening left the box's fixed CSS pixel dimensions completely
+   unrelated to the new scale. Worse, the report's "jumps... off screen"
+   half means position:fixed's left:0/bottom:0 was ALSO not reliably
+   tracking the visual viewport on the real device -- confirmed on a
+   phone, not just a UI 16 side-note anymore).
+   Fix: stop trusting position:fixed to track the visual viewport at all,
+   and stop computing geometry once. updateSheetGeometry() reads
+   window.visualViewport directly -- offsetLeft/offsetTop/width/height,
+   the exact live description of where the physical screen currently
+   sits within the (possibly wide, possibly panned) layout viewport --
+   and writes left/width/maxWidth/maxHeight/top in JS px explicitly.
+   top (not bottom) is used because it only needs an OFFSET from the
+   layout viewport's top, which visualViewport.offsetTop gives directly;
+   bottom would need the layout viewport's TOTAL height, which is the
+   same inflated-and-unreliable value that caused the very first version
+   of this bug (UI 18's max-height:78vh). Height is measured AFTER
+   max-height is applied (sh.offsetHeight) so a short entry still sits
+   flush at the bottom instead of leaving a gap, matching the original
+   bottom-sheet behavior. Called once when the sheet opens, and live on
+   every visualViewport resize/scroll event WHILE it's open (added in
+   openSheet, removed in closeSheet) -- so a pinch gesture that happens
+   AFTER opening keeps the sheet correctly sized and positioned instead
+   of freezing it to whatever scale existed at open time. The show/hide
+   slide animation moved to transform:translateY (CSS above) specifically
+   so it composes on top of whatever top/left this function just set,
+   instead of needing its own correct bottom value. */
+function updateSheetGeometry(){
   if(!isMobileDevice)return;
+  const vv=window.visualViewport;if(!vv)return;
   const sh=document.getElementById('sheet');
-  const scale=(window.visualViewport&&window.visualViewport.scale)||1;
-  const w=Math.round(screen.width/scale),h=Math.round(screen.height*0.78/scale);
-  sh.style.width=w+'px';sh.style.maxWidth=w+'px';sh.style.maxHeight=h+'px';
+  sh.style.left=Math.round(vv.offsetLeft)+'px';
+  sh.style.right='auto';sh.style.margin='0';sh.style.bottom='auto';
+  sh.style.width=Math.round(vv.width)+'px';
+  sh.style.maxWidth=Math.round(vv.width)+'px';
+  sh.style.maxHeight=Math.round(vv.height*0.78)+'px';
+  const h=sh.offsetHeight;
+  sh.style.top=Math.round(vv.offsetTop+vv.height-h)+'px';
+}
+function sheetVvListen(on){
+  if(!isMobileDevice||!window.visualViewport)return;
+  const fn=on?'addEventListener':'removeEventListener';
+  window.visualViewport[fn]('resize',updateSheetGeometry);
+  window.visualViewport[fn]('scroll',updateSheetGeometry);
 }
 function layout(){
   canvas.querySelectorAll('.node,.eraband,.erahead').forEach(n=>n.remove());
@@ -1321,8 +1349,9 @@ function openSheet(id){
      sheet becomes visible so there's no flash of the wrong position. */
   sheet.scrollTop=0;
   sheet.removeAttribute('inert');
-  sizeMobileSheet();
+  updateSheetGeometry();
   sheet.classList.add('on');scrim.classList.add('on');
+  sheetVvListen(true);
   sheet.focus();
 }
 const noHover=matchMedia('(hover: none)').matches;let lastTap=null;
@@ -1352,6 +1381,7 @@ canvas.addEventListener('keydown',ev=>{
 function closeSheet(){
   sheet.classList.remove('on');scrim.classList.remove('on');
   sheet.setAttribute('inert','');
+  sheetVvListen(false);
   if(sheetTrigger&&document.contains(sheetTrigger))sheetTrigger.focus();
   sheetTrigger=null;
 }
