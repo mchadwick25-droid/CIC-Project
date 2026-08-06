@@ -820,6 +820,19 @@ trying to produce something to satisfy the original, inapplicable request.
 
 ---
 
+## 2026-08-02 (same day, continued) — Stripe product wording set for the one-time and monthly gifts
+
+**Wording given, ready to paste into Stripe's product setup — applies the already-validated voice
+and amounts to this specific surface, not a new decision.** One-time product: "Keep the Table
+Open," $10 suggested, description built from the already-finalized "where this goes" language. Monthly
+product: "Keep the Table Open — Monthly," $8/month suggested, tied to the same concrete framing
+(makes real space for someone else, not a vague ask).
+
+**Next action:** none — ready to use as-is; Mark's own edit if either needs adjusting once it's
+actually in front of him in the Stripe product form.
+
+---
+
 ## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
 
 **Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on
