@@ -68,6 +68,45 @@ does.
   any finding in §5 below as settled, verify it against the file/line it
   cites — this brief was assembled by directly reading the code and prompt
   files named, not by summarizing a summary, but check it anyway.
+- **The existing research base this project has already paid for and
+  verified — read before treating "what makes a good conversation" as an
+  open question to answer from scratch. This is not optional background;
+  §9's Research stage starts here, not with §5.**
+  - `Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/
+    10_Fable_Conversational_Realness_Study_2026-07-24.md` — 105-agent deep
+    research, adversarially verified (22 of 25 claims confirmed, 3 refuted
+    and dropped, not just asserted). Its standout finding for this brief
+    specifically: models state a persona but fail to *enact* it, especially
+    by refusing to sustain disagreement — "a Representative that stops
+    pushing back theologically stops feeling real *and* stops being
+    faithful to its own world." Nothing in this brief's diagnosis or
+    objectives addressed that before this revision (now Objective 6). Also
+    names response-length growth, declining initiative, and agreement-rate
+    drift as three specific, measurable naturalness-collapse signals — see
+    §7 Part B and §8.
+  - `.../09_External_AIPersona_Framework_Survey.md` — verified field
+    inventories from shipping persona systems (Character Card V1-V3,
+    SillyTavern). Two findings bear directly on this brief: example dialogue
+    is treated industry-wide as *ephemeral*, pruned first under context
+    pressure, never permanent — worth weighing against §7 Part A's plan to
+    add worked examples straight into the permanent prompt; and
+    `post_history_instructions` exists because instructions placed after
+    conversation history carry measurably stronger weight than instructions
+    before it — independent, external confirmation of the exact principle
+    behind FLAG-018 layer 3 (finding C), that the constraint most needing to
+    survive attention decay rides closest to generation.
+  - `.../07_RepresentativeVoice_Lenses_Audit.md` — already investigated
+    whether pre-written insight material (Ecological Function and its kin)
+    actually reaches a Representative, and found the failure pattern is
+    usually placement or form, not absence: Papnoute's Abba Moses
+    misattribution traced to correct information already sitting in the
+    World Capsule as an unnamed allusion, fixed by promoting it into the
+    Permanent Prompt as an explicit ownership rule — "same information,
+    different placement and form." Worth checking finding (B)'s own
+    diagnosis against this precedent directly.
+  - `.../16_MultiParty_Dialogue_Architecture.md` — Facilitator/table-scoped,
+    lower priority for this single-voice rebuild, but real if the Research
+    stage finds the two threads interact.
 
 ## 4. What NOT to rebuild — this is a voice rebuild, not a restart
 
@@ -379,6 +418,14 @@ deliberate live-testing**, not assumed safe as a "plain" baseline.
    along," Mark's own words. This is not optional scope; it's the actual
    point of doing this on a dedicated thread instead of hand-patching six
    files.
+6. A Representative holds its world's actual position under real, sustained
+   pushback across a conversation — the Realness Study's own standout
+   finding (§3), and CiC's naturalness goal and fidelity conviction
+   converging on the same fix: a voice that drifts toward agreement to stay
+   comfortable is failing Objective 3's naturalness the same turn it fails
+   to actually witness its world. Explicitly licensed, not just permitted by
+   omission, and validation-probed (§8) across multiple turns of real
+   disagreement, not read off a single turn's tone.
 
 ## 7. The shape of the output — two parts, both required
 
@@ -485,6 +532,29 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
   the framework can restate its own good philosophy indefinitely while
   builds keep drifting from it unnoticed until someone runs a live
   conversation test months later.
+- **New: drift telemetry, instrumented, not just described.** The Realness
+  Study (§3) names three specific, measurable signals that degrade over a
+  long conversation — response-length growth, declining initiative, and
+  agreement-rate drift. These are not among `drift_detection`'s existing ten
+  content/posture-based signals (§4) — a genuinely new telemetry category,
+  not a relabeling of what already exists. §8's per-signal drift breakdown
+  should capture all three explicitly.
+- **New: a continuity-regression-testing step, required before any future
+  voice-affecting prompt change reaches a built world — including this
+  rebuild's own output before it ships.** The Realness Study's clearest
+  governance lesson: personality is a versioned artifact, and a voice change
+  that reads as objectively better can still break a returning participant's
+  sense of who they were talking to. Same probes, old prompt vs. new prompt,
+  diff the actual voice — before merge, not after a complaint. This is the
+  concrete mechanism Objective 5's "self-sufficient" standard needs for
+  voice specifically, the same way Part Eight's validation battery already
+  exists for content.
+- **New: adapt the Realness Study's 16-trait human-likeness rubric as a
+  named validation instrument**, keeping the study's own caveat intact —
+  some traits (informal grammar, typos) are excluded as incompatible with
+  CiC's historical-fidelity and brand commitments. Fable's Research stage
+  does the actual trait-by-trait adaptation; this brief only requires that
+  it happen.
 
 ## 8. Verification — a real checkpoint, not a self-report
 
@@ -524,10 +594,18 @@ naming real instruments, not more prose:
   usable data. `drift_detection` currently reaches usage logs as one
   undifferentiated label — which of the ten signals fired (including
   `FLATTENING`, §4's one open governance question) isn't captured today.
-  Needs light instrumentation before it's a real metric.
+  Needs light instrumentation before it's a real metric. Extend it to also
+  capture the Realness Study's three signals (§3, §7 Part B) — response
+  length, initiative, agreement rate, turn-over-turn — which are new
+  telemetry, not among the existing ten.
 - **A counted term-reclarification tally** — grep or classify transcript
   turns for the unprompted "when I said X a moment ago" pattern finding (C)
   is about, and report a rate. Nothing today produces this automatically.
+- **A continuity-regression pass on all six voices**, per §7 Part B's new
+  requirement — same probes run against the current, unrebuilt prompt and
+  the rebuilt one, diffed directly, before this thread's output is treated
+  as ready to ship, not only "does the rebuilt voice pass its own probes in
+  isolation."
 
 - Reuse `cic-poc/backend/scripts/mark_conversation_test.py` as the
   conversation-driving harness (real FastAPI backend, real Anthropic
@@ -592,8 +670,19 @@ design, blueprint, and build toward — never the specific per-world answer;
 that's what the individual-adaptation track is for, and deciding it per
 world, informed by the standardized track's findings, is Fable's call.
 
-1. **Research** — extend and stress-test §5's diagnosis before treating any
-   of it as ground to design on. At minimum: (a) check Mar Yausep against a
+1. **Research — starting with the actual question, not just this brief's
+   bug list.** Before any per-world work: what makes a conversation with a
+   Representative genuinely good — engaging, clear, insightful, accurate and
+   trustworthy not only in fact but in voice and feel, without becoming
+   distracting? Ground this in the four studies named in §3, not from
+   scratch — especially the Realness Study's persona-enactment and
+   sustained-disagreement findings (now Objective 6) and the Persona
+   Framework Survey's ephemeral-vs-permanent example-dialogue question
+   (bearing directly on §7 Part A's worked-example plan). §5 below is real,
+   verified, bug-level evidence about these six specific builds — treat it
+   as supporting evidence for that larger question, not as the question
+   itself. Then, specifically, extend and stress-test §5's diagnosis before
+   treating any of it as ground to design on. At minimum: (a) check Mar Yausep against a
    FLAG-018-style probe first — he already carries a bridge-first
    instruction close to what this brief proposes project-wide and still
    shows the failure live, so he answers the prior question (does prose
