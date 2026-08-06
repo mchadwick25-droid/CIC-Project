@@ -159,7 +159,19 @@ body.regionfiltering #art .thread-label:not(.region-on){opacity:0}
    even on wide desktop screens and kept font sizes matched to the old
    corner pill; widened to fill the viewport and every size below bumped
    up accordingly. */
+/* position:sticky;left (Mark, 2026-08-05, same fix as #controls above):
+   .erahead itself spans the FULL canvas width (left:0;right:0) so its
+   own position never needs to change, but .bar -- the actual visible
+   title/tag/dates box -- sat at the far-left edge of that span with
+   nothing keeping it in view once the wide canvas made horizontal
+   scroll possible; scrolling right into a crowded era left you with no
+   way to tell which era, or what its date range was, without scrolling
+   back. Sticky on the horizontal axis only (vertical position still
+   comes from .erahead's own top:${y}px, set once per era in JS) keeps
+   the era label in view at the same time as whatever box you're
+   actually looking at, the same way #controls now does above it. */
 .erahead .bar{display:flex;flex-wrap:wrap;gap:.35rem 1rem;align-items:baseline;width:calc(96vw - 64px);
+  position:sticky;left:.8rem;
   background:color-mix(in srgb, var(--bg) 88%, transparent);border:1px solid var(--line);
   border-radius:0;padding:.5rem .9rem}
 .erahead .no{font-size:.95rem;letter-spacing:.11em;font-variant:small-caps;font-weight:700;color:var(--gold)}
@@ -334,8 +346,28 @@ html:not(.is-mobile) #sheet.on{transform:none}
 html:not(.is-mobile) #sheet .grab{display:none}
 
 /* ---- B5 site chrome & controls ---- */
-#controls{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem}
-#controls .row1{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+/* left:0 added (Mark, 2026-08-05, once the canvas started running wider
+   than one screen): sticky's existing top:0 only pins #controls
+   VERTICALLY within the page's scroll -- on desktop the wide canvas
+   (#wrap, un-contained, per the note above) makes the whole PAGE wider
+   than the viewport, not just #mapViewport, so scrolling right carries
+   #controls along horizontally like any normal block and it slides off
+   the left edge with nothing pinning it there. left:0 makes it stick on
+   BOTH axes, the standard corner-pin pattern -- the search bar and every
+   toggle stay reachable at any scroll position instead of only at the
+   far left. */
+/* max-width here is load-bearing, not cosmetic (Mark, 2026-08-05): a
+   sticky element needs SLACK -- room between its own width and its
+   containing block's width -- to have anywhere to travel as the page
+   scrolls; an element exactly as wide as its container has zero slack
+   and behaves exactly like position:relative (confirmed empirically: a
+   sticky div the same width as its parent tracked scroll 1:1, static in
+   all but name). #controlsWrap (below, JS-set to the full canvas width
+   W in layout()) exists purely to GIVE #controls that slack -- #controls
+   itself must stay capped near viewport width, not stretch to fill its
+   now-wide wrapper the way a plain block child normally would. */
+#controls{position:sticky;top:0;left:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--gold);padding:.4rem .8rem;max-width:100vw}
+#controls .row1{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;max-width:calc(100vw - 1.6rem)}
 #controls input[type=search]{flex:1;min-width:10rem;font:inherit;font-size:.85rem;color:var(--ink);
   background:var(--panel);border:1px solid var(--line);padding:.35rem .6rem}
 #controls .chip{font:inherit;font-size:.72rem;display:inline-flex;align-items:center;gap:.3rem;
@@ -353,7 +385,7 @@ html:not(.is-mobile) #sheet .grab{display:none}
 #filterToggle .fcount{display:none;background:var(--gold);color:var(--bg);border-radius:999px;
   font-size:.62rem;line-height:1;padding:.15rem .35rem;font-weight:700}
 #filterToggle.has-filters .fcount{display:inline-block}
-#filterPanel{overflow:hidden;max-height:0;transition:max-height .2s ease}
+#filterPanel{overflow:hidden;max-height:0;transition:max-height .2s ease;max-width:calc(100vw - 1.6rem)}
 #filterPanel.open{max-height:60vh;overflow-y:auto}
 body.filtering .node:not(.match){opacity:.13}
 body.filtering #art .tail:not(.match),body.filtering #art .shoulder:not(.match),
@@ -445,6 +477,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
   </div>
 </header>
 <main id="main">
+<div id="controlsWrap">
 <div id="controls">
   <div class="row1">
     <input type="search" id="q" placeholder="Have a movement or period in mind? Search by name — e.g. Coptic, Reformation, Pentecostal" aria-label="Search by movement name or period">
@@ -460,6 +493,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
     <div id="regionlegend" role="group" aria-label="Filter by region"></div>
   </div>
 </div>
+</div>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <defs>
@@ -469,7 +503,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
 <symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
 </defs></svg>
 <div id="orient" style="padding:.5rem .8rem 0">
-  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem;position:relative;padding-right:1.6rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
+  <p id="orientText" style="margin:0 0 .5rem;font-size:.82rem;max-width:46rem;position:sticky;left:.8rem;padding-right:1.6rem">Time runs downward — each box marks a tradition at its birth, and its tail traces its lifetime below it. Color names its tradition family.
   <svg width="13" height="13" style="vertical-align:-2px;color:var(--ink)" aria-hidden="true"><use href="#ic-house"/></svg>
   <b>House</b> means you can sit down and talk with it today — tap "Built worlds" above to see just those.
   <button id="orientClose" type="button" aria-label="Close this orientation text — it won't show again on this device" title="Close — won't show again"
@@ -713,6 +747,31 @@ function layout(){
      never cross a second — the census is era-scoped, and continuity is the
      next era's own entries' job. Capped tails free their space. */
   rows.forEach(m=>{m._fam=famOf(m.laneOrder);m._ei=eraIndexOf(m);});
+  /* per-family-per-era ordinal (Mark, 2026-08-05: "same lanes nearer each
+     other, not all mixed in with each other"). tryPack used to give every
+     family present in an era exactly ONE anchor point, shared by however
+     many members that family actually had that era — a family with 20
+     concurrent members (Protestant & Evangelical in Era 9) squeezed them
+     all toward the same single x while a family with just 1 (Caucasus,
+     same era) got an equally-sized share of the anchor row. Traced live:
+     armenian-christianity-zartonk (Era 9's only Caucasus entry) wanted
+     x=362 but landed at x=2047 because the pitch-grid near that shared
+     anchor row was already claimed by the oversubscribed families packed
+     into the same evenly-spaced points, so it fell through the free-gap
+     search to whatever slot was left — nowhere near any other Caucasus
+     box (there wasn't one) and deep inside unrelated families' clusters.
+     Giving each family a ZONE sized to its actual member count (below)
+     and spreading each member across ITS family's zone by birth order
+     (here) means members of the same family target neighboring points
+     instead of a single shared one, so the free-gap search naturally
+     seats them next to each other instead of scattering the overflow
+     across whichever families happen to have anchors nearby. */
+  const famEraIdx={},famEraCount={};
+  (function(){
+    const groups={};
+    rows.forEach(m=>{const key=m._ei+':'+m._fam.k;(groups[key]=groups[key]||[]).push(m.id);});
+    Object.values(groups).forEach(ids=>ids.forEach((id,idx)=>{famEraIdx[id]=idx;famEraCount[id]=ids.length;}));
+  })();
   const capEraOf=m=>Math.min(m._ei+1,eraSpans.length-1);
   const isCapped=m=>m.end>ERA_YEARS[capEraOf(m)][1];
   const endRowOf=m=>{
@@ -738,12 +797,34 @@ function layout(){
        mobile the anchors spread across the full packed width W instead,
        same as the boxes now can. */
     const AW=isMobileDevice?W:Math.min(W,viewW);
+    /* zone width per family is proportional to how many of that family's
+       movements are actually native to this era (not an even split by
+       family COUNT) — see the famEraIdx/famEraCount comment above for why.
+       Families keep FAM's own k-order left to right, so the same family
+       tends to land in the same relative stripe from one era to the next. */
     const A=eraSpans.map((s,i)=>{
-      const present=FAM.filter(f=>rows.some(m=>famOf(m.laneOrder)===f&&aliveIn(m,i)));
-      const map={};present.forEach((f,j)=>{map[f.k]=((j+0.5)/present.length)*(AW-28)+14;});
+      const counts=FAM.map(f=>({f,n:rows.filter(m=>m._ei===i&&m._fam===f).length})).filter(x=>x.n>0);
+      const total=counts.reduce((a,c)=>a+c.n,0)||1;
+      const map={};let cum=0;
+      counts.forEach(({f,n})=>{
+        const zw=(n/total)*(AW-28);
+        map[f.k]={lo:14+cum,hi:14+cum+zw,mid:14+cum+zw/2};
+        cum+=zw;
+      });
       return map;
     });
-    const aX=(i,f)=>A[i][f.k]!=null?A[i][f.k]:W/2;
+    /* each member targets a point spread across ITS family's own zone, by
+       birth order among that family's era-mates (famEraIdx/famEraCount) --
+       not the zone's single center — so same-family members aim at
+       neighboring x's instead of all converging on one point and forcing
+       the free-gap search to scatter the overflow into other families'
+       territory. */
+    const aX=(i,f,id)=>{
+      const z=A[i][f.k];
+      if(!z)return W/2;
+      const idx=famEraIdx[id]||0,cnt=famEraCount[id]||1;
+      return z.lo+((idx+0.5)/cnt)*(z.hi-z.lo);
+    };
     /* Tails live on a tight pitch grid; the BOX may lean sideways over its
        tail (asymmetric shoulder — "a moving to the tail"), weaving into
        whatever box-sized hole exists between living ribbons at its birth.
@@ -755,11 +836,45 @@ function layout(){
     const busy=Array(nSlots).fill(-1);
     const maxOff=NW/2-TWb/2-4;
     const blo=NW/2+4, bhi=W-NW/2-4;
+    /* box-vs-foreign-tail exclusion margin (Mark, 2026-08-05: "the width is
+       no longer fitting on one page"). Reusing GAPb here (the tail-to-tail
+       PITCH constant, 12px) on top of a full NW/2 box half-width doubled
+       the real cost of every excluded ribbon and ballooned the canvas
+       (2600px -> 4640px at 1280px viewport) once the box-vs-foreign-tail
+       fix (below) stopped exempting same-family ribbons -- 23 concurrent
+       movements in the crowded era each paying that extra 12px on both
+       sides adds up fast. GAPb's job is tail-to-tail spacing on the pitch
+       grid, not box clearance; boxClear is a small, independent visual
+       buffer for the actual constraint (a box must not visually touch a
+       foreign tail) -- 4px verified as the smallest value that still holds
+       foreignTailOverlaps at 0 (2px reintroduced 2 real overlaps). Brings
+       the canvas back to 2840px/2010px at 1280/390px, close to the
+       pre-fix baseline instead of nearly double it. */
+    const boxClear=4;
     const ribbons=[];let fb=0;const pos={};const slotOf={};
     rows.forEach(m=>{
-      let want=aX(m._ei,m._fam);
+      let want=aX(m._ei,m._fam,m.id);
       const ps=(parentsOf[m.id]||[]).map(id=>pos[id]).filter(p=>p!=null).map(p=>p.tx);
       if(ps.length){const px=ps.reduce((a,b)=>a+b,0)/ps.length;want=0.45*want+0.55*px;}
+      /* the parent pull above is weighted MORE than the family pull (0.55 vs
+         0.45), so a movement whose parent belongs to a DIFFERENT family (a
+         real, common case — e.g. alexandria-catechetical's parent is
+         post-apostolic-house-church, Africa descending from Origin) can get
+         dragged well outside its own family's zone and land in the middle
+         of an unrelated family's block, undoing the zone-clustering above.
+         Traced live: without this clamp, alexandria-catechetical's want
+         came out to 332 (parent post-apostolic-house-church sits at x=80)
+         instead of its own Africa zone's ~583-697, landing it inside
+         Origin's own cluster and breaking Era 1 from the achievable
+         4-transition minimum up to 6. Re-clamping the blended want back
+         into the family's own zone keeps the parent pull as a tie-break
+         for WHERE inside the zone (still nearer the parent's side of it)
+         without letting it break the family block apart. Skipped when no
+         zone exists for this family/era (present.length===0 can't happen
+         for a native member, but stay defensive) and overridden below by
+         identity succession, which has a stronger, more specific claim. */
+      const famZone=A[m._ei][m._fam.k];
+      if(famZone)want=Math.max(famZone.lo,Math.min(famZone.hi,want));
       /* identity succession: the stream continues in place — the successor
          wants its predecessor's own column, ahead of the family/anchor pull
          above. Kept as a `want` bias rather than a forced assignment (see
@@ -779,7 +894,7 @@ function layout(){
          happened to share a hue — fixed by never exempting anything here
          except a movement's own predecessor, and only via the explicit
          slot-inheritance branch below, not a blanket family pass. */
-      const bars=ribbons.filter(p=>p.endRow>=m._row).map(p=>[p.x-TWb/2-GAPb-NW/2,p.x+TWb/2+GAPb+NW/2]).sort((a,b)=>a[0]-b[0]);
+      const bars=ribbons.filter(p=>p.endRow>=m._row).map(p=>[p.x-TWb/2-boxClear-NW/2,p.x+TWb/2+boxClear+NW/2]).sort((a,b)=>a[0]-b[0]);
       const merged=[];bars.forEach(iv=>{const l=merged[merged.length-1];
         if(l&&iv[0]<=l[1])l[1]=Math.max(l[1],iv[1]);else merged.push(iv.slice());});
       const okbx=x=>x>=blo&&x<=bhi&&!merged.some(iv=>x>iv[0]&&x<iv[1]);
@@ -839,6 +954,39 @@ function layout(){
   anchors=attempt.A;
   rows.forEach(m=>{m._x=attempt.pos[m.id].tx;m._bx=attempt.pos[m.id].bx;m._off=0;});
   document.getElementById('wrap').style.width=W+"px";
+  /* #controlsWrap/#orient width match (Mark, 2026-08-05, same session as
+     the sticky-header fix below): position:sticky can only track scroll
+     WITHIN its own CONTAINING BLOCK -- #controls and #orientText are
+     ordinary page-flow descendants of #mapViewport's siblings, so their
+     containing blocks were only ever the viewport's (auto, ~ the
+     screen), even though #wrap (a nested descendant several levels
+     down) made the PAGE itself scrollable to W. Once scrolled past that
+     first screen-width, sticky had no room left to hold position within
+     and both vanished entirely -- confirmed by a real wheel-scroll test
+     reaching left:-1560 at max scroll, versus era headers (already
+     genuinely canvas-width via .erahead{left:0;right:0}) staying
+     correctly pinned throughout.
+     First attempt set width directly on #controls itself, which turned
+     out NOT to be enough on its own: a sticky element's containing block
+     is its nearest block-level ANCESTOR, not just its own explicit
+     width -- #controls's actual parent (<main>) was still only
+     viewport-wide, so #controls ended up wider than its own containing
+     block, which broke sticky anyway (confirmed: computed position
+     stayed "sticky" but it tracked scroll 1:1 like a static element,
+     0% effect). #orientText already worked because ITS parent (#orient)
+     was the one widened, not itself -- so #controls now gets the exact
+     same treatment via a dedicated #controlsWrap around it (added to
+     the HTML) instead of widening <main> itself, which would have also
+     stretched the footer/glossary text to an unreadable line length.
+     #controls .row1 and #filterPanel keep a viewport-scaled max-width
+     (CSS) so the actual buttons/search stay compact inside the now-wide
+     wrapper instead of stretching to fill it. Desktop only -- on mobile
+     neither needs to grow, since the wide content is contained inside
+     #mapViewport's own pinch-zoom pane, not the page's own scroll. */
+  if(!isMobileDevice){
+    document.getElementById('controlsWrap').style.width=W+"px";
+    document.getElementById('orient').style.width=W+"px";
+  }
   const subEl=document.querySelector('header.bar .s');
   if(subEl)subEl.textContent=W>viewW
     ?`era-scoped straight tails: ${W}px of canvas on a ${viewW}px screen`
@@ -1008,7 +1156,7 @@ function drawArt(W,H,rh){
   let s="";
   const BOX_H=38;
   const clampX=x=>Math.max(NW/2+4,Math.min(W-NW/2-4,x));
-  const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k]:W/2;
+  const anchorX=(i,f)=>anchors[i]&&anchors[i][f.k]!=null?anchors[i][f.k].mid:W/2;
   const bandBottom=i=>i+1<eraSpans.length?eraSpans[i+1]._y:H-24;
   /* straight ribbon tails: the box continues as its stream, dead vertical —
      placement already guaranteed no box sits on another's tail. A movement
