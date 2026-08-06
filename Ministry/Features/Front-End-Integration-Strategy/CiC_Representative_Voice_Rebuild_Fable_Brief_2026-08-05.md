@@ -172,10 +172,28 @@ behavior they guard against still surfaced, twice, back-to-back, in two of
 three worlds tested ("When I said 'ekklesia' a moment ago..." then "When I
 said 'episkopos' a moment ago..." in consecutive Chloe turns; the equivalent
 in Mar Yausep). Two layers of prose instruction, same direction, already
-insufficient. **This is direct evidence that worked examples carry real
-enforcement weight prose alone doesn't** — treat adding worked-example
-dialogues to the five worlds that lack them as load-bearing, not optional
-polish.
+insufficient — that much is settled.
+
+**What is NOT settled: whether worked examples are the fix, and this brief
+should not tell Fable they are.** A same-day ad hoc pilot (not a production
+change — `cic-poc/backend/scripts/mark_voice_simulation.py`, results not
+committed) tested a bridge-first instruction plus positive worked-example
+dialogues against Chloe specifically, live through the real backend. The
+FLAG-018 behavior still surfaced, on the same turn, with both additions
+present. That is one data point, not a verdict — it shows positive-only
+worked examples aren't sufficient by themselves for this specific guard, in
+this one instance. It does not show worked examples are the wrong tool
+generally: Papnoute is the one world that already has worked examples and
+has never been probed for this exact failure mode. Whether Papnoute is clean
+on it is the single cheapest next check that would actually discriminate
+between "worked examples work, mine just weren't built right" and "worked
+examples aren't enough alone for this guard, project-wide" — and it hasn't
+been run. **This is Fable's Research-stage question to resolve, not this
+brief's to answer in advance.** Do not carry a specific fix (e.g., a
+contrastive/negative example paired with the positive one) into the Design
+stage as a foregone conclusion — treat it as one candidate the Research
+stage should test, alongside the Papnoute check, before Design commits to an
+approach.
 
 **D. The three baseline transcripts this session captured do NOT actually
 reproduce "over formal / distracting" — and they're the three plainest worlds
@@ -248,8 +266,11 @@ entangled register-and-reasoning-mode).
     unfolding, etc. Each may host the repertoire cleanly or need explicit
     adjustment; check per file, don't assume uniformity.
   - Add worked `{{random_user}}`-style example dialogues to the five files
-    that lack them, in the *same* pass as the register edit — per finding
-    (C) above, not a separate polish layer.
+    that lack them, in the *same* pass as the register edit — not a separate
+    polish layer. **The exact form these examples take (positive-only, or
+    paired with a contrastive/negative demonstration) is a Design-stage
+    decision, made only after the Research stage resolves the open question
+    in finding (C) — not prescribed here.**
   - Albina keeps her periodic/hypotactic rhythm substantively — genuine
     formation-accurate craft — but gets the same plain-vs-performed
     naturalness audit on surrounding diction as the other five.
@@ -284,6 +305,11 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
 
 ## 8. Verification — a real checkpoint, not a self-report
 
+(This verifies the rebuilt voices themselves, once built — distinct from
+§9's adversarial-review gates below, which verify the thread's own
+research/design/blueprint documents at each stage, before the next stage
+builds on them.)
+
 - Reuse `cic-poc/backend/scripts/mark_conversation_test.py`, already built
   and proven this session (real conversations through the actual FastAPI
   backend, real Anthropic billing, full transcript + per-call usage
@@ -312,19 +338,69 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
 - Before treating any finding in this brief as settled, verify it against
   the file/line cited, per §3's standing discipline.
 
-## 9. One thread, staged — not necessarily two Fable passes
+## 9. One thread, staged — research, design, blueprint, build, each gated by adversarial review
 
 Unlike the prior system redesign (which deliberately split design and
 blueprint across two separate weekly Fable passes), this brief's scope —
 six voice files plus one framework document — is likely small enough to
-carry through **design → blueprint → build in one thread**, staged rather
-than split:
-1. Design: confirm the shared-file approach and each per-world pattern
-   against this brief's diagnosis (§5) and objectives (§6).
-2. Blueprint: sequence the risk-ordered per-world passes (§7) with a real
-   verification checkpoint after the pilot and after each subsequent world
-   — not just a final pass at the end.
-3. Build: execute in order, checkpointing as sequenced.
+carry through **research → design → blueprint → build in one thread**,
+staged rather than split. Four stages, not three: this brief's own §5
+diagnosis was shown mid-session to be incomplete in at least one place (the
+worked-examples question in finding C), so Fable needs real room to extend
+and verify the diagnosis before designing against it — not to "confirm" a
+diagnosis this brief hands over as settled fact.
+
+**What Fable is building, at every stage below: two tracks, not one.**
+(1) A standardized mechanism — the shared `_HOW_YOU_ENGAGE` changes, and
+whatever the Research stage concludes about worked-example form — applying
+to all six worlds alike. (2) Individual adaptation — each world's own
+per-file pass, keeping and sharpening what already makes it distinct
+(Albina's periodic rhythm, Marius's entangled reasoning-mode, etc.) rather
+than flattening toward a template. This brief tells Fable what to research,
+design, blueprint, and build toward — never the specific per-world answer;
+that's what the individual-adaptation track is for, and deciding it per
+world, informed by the standardized track's findings, is Fable's call.
+
+1. **Research** — extend and stress-test §5's diagnosis before treating any
+   of it as ground to design on. At minimum: resolve finding (C)'s open
+   question (does Papnoute's existing worked-example pattern hold up against
+   FLAG-018-style probes; does a contrastive/negative example close the gap
+   the same-day pilot found in Chloe). Live-test whatever the Research stage
+   still finds underdetermined — don't inherit this brief's diagnosis
+   uncritically, per §3's standing discipline.
+2. **Design** — confirm or revise the shared-file approach and each
+   per-world pattern against the (now Fable-verified, not just
+   this-thread-verified) diagnosis and this brief's objectives (§6). Produce
+   both tracks explicitly: the standardized mechanism, and a stated
+   per-world adaptation approach for each of the six.
+3. **Blueprint** — sequence the risk-ordered per-world passes (§7) with a
+   real verification checkpoint after the pilot and after each subsequent
+   world — not just a final pass at the end.
+4. **Build** — execute in order, checkpointing as sequenced.
+
+**Adversarial review gates every transition, per
+`Ministry/Operations/Standing/CiC_Adversarial_Review_Standard_Practice.md`
+— Opus tier, not Fable, per the model-tier policy that document itself
+cites.** Research's findings get an adversarial pass before Design is
+allowed to build on them; Design's output gets one before Blueprint
+sequences it; Blueprint gets one before Build spends the expensive pass
+executing it. Each pass uses the Standard Practice's actual discipline —
+source-level verification against the cited file/line, not
+plausibility-checking; P0/P1/P2 severity; cross-reference and completeness
+checks counted, not eyeballed; read the prior gate's findings first; a
+genuine "ready" or "not ready" verdict, not softened toward approval because
+a deadline is close. Name the failure mode explicitly in each dispatch, per
+the Standard Practice's point 5 — for this thread specifically: **this
+brief itself already contained one claim (finding C's original "worked
+examples are the fix") that sounded right and didn't survive being tested
+live; assume the same risk is present in Research's and Design's own
+findings until checked.**
+
+**This brief itself should get one more Opus adversarial pass before
+Friday's Fable thread starts** — the same discipline the 2026-07-25 System
+Redesign brief got three rounds of before its own Fable pass, and this
+document has had enough live edits since §5 was first drafted (this
+finding-C revision included) that it hasn't had a full pass since.
 
 If partway through this genuinely doesn't fit in the available Fable budget,
 say so plainly and stop at a clean boundary (e.g., after the pilot, or after
