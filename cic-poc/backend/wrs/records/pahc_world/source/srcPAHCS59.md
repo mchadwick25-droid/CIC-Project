@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: G. E. M. de Ste. Croix
 work_title: '''Why Were the Early Christians Persecuted?'', Past & Present 26 (1963) 6-38'

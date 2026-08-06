@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: P.N. Harrison / Paul Hartog / Michael Holmes / Kenneth Berding
 work_title: Polycarp unity/two-letter-splice debate
@@ -26,6 +26,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   if any future document cites one of these four scholars for a claim specific to their own individual
   argument (not the shared debate), that scholar should get their own row at that point.'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Tertullian
 work_title: Tertullian, Apology 39
 work_locus: c.197 CE, Carthage
@@ -23,6 +23,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   is a famous line frequently stripped of its apologetic, persuasive context and cited as neutral ethnographic
   description in popular treatments.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

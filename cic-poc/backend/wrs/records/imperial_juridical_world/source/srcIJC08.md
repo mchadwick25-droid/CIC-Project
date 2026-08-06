@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Augustine, *Confessions* 9.7
-language: la
+language: lat
 licensed_for: Ambrose's antiphonal psalm-singing, 386 standoff (Doc_01 §2, Doc_02 §1) — **narrowly**,
   as eyewitness testimony to Ambrose's own conduct only
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
@@ -21,6 +21,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   — this single passage, used narrowly as eyewitness testimony to a Native event, is the exception, not
   a general license to draw on Augustine''s own corpus'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 8)
 jobs:
 - 1

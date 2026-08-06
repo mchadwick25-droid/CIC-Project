@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Anonymous/composite (likely Syria)
 work_title: The Didache
 work_locus: final form c.80-120 CE (range 50-150 CE)
@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: ~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance
   Syria vs Egypt unresolved'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

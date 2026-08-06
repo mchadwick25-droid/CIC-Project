@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Rodney Stark
 work_title: 'The Rise of Christianity: A Sociologist Reconsiders History (Princeton, 1996)'

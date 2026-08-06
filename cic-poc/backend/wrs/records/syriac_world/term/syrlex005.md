@@ -57,7 +57,7 @@ voice_surface: A memra with us is a recited thing, couplets in one meter, and on
   field.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: unverified
   verification_date: '2026-07-28'
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
@@ -70,3 +70,5 @@ field_relations:
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex005_memra.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with madrasha (sister verse genre, distinguished by meter and — for madrasha — sung/refrain structure against memra's recited couplets). Entry lists this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `unverified`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: no sources[] linkage at all in this record; cannot confirm any verification was performed; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

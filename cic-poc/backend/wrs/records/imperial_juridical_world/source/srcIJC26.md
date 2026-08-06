@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: corpus
 work_title: Augustine corpus generally (beyond the single *Confessions* 9.7 passage at row 8)
-language: la
+language: lat
 licensed_for: (Excluded row - no license; see exclusion reason)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=—; boundary=Excluded.
   Comparandum Note: Belongs natively to World #8 (Latin Pastoral-Congregational Christianity, not yet

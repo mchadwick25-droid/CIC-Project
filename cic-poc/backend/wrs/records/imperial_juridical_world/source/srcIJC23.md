@@ -12,7 +12,7 @@ attribution_status: genuine
 level_of_description: work
 work_title: Auxentius of Durostorum, letter on Ulfila, preserved fragmentarily within the *Dissertatio
   Maximini contra Ambrosium* (Maximinus, a Homoian bishop, writing against Ambrose)
-language: la
+language: lat
 licensed_for: The one near-primary Homoian self-testimony available (Doc_02 §7) — establishes that a considered
   Homoian self-account exists; not licensed for vivid specific claims beyond that
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=C; boundary=Native.
@@ -24,6 +24,9 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   to be read as Nicene-authored material — do not conflate it with the hostile-Nicene-transmission pattern
   (rows 18–20) that governs most of this world''s Homoian-adjacent record'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+priority_review_flag: true
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 23)
 jobs:
 - 1

@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: 'Philotheos Bryennios (scribe: Leon)'
 work_title: Discovery/editing of Codex Hierosolymitanus
@@ -20,6 +20,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: The single most load-bearing discovery event for two of six primary
   voices (P01, P02); flagged for review given how much rests on this one 19th-c. discovery'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
+  formation_confidence: Documented
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

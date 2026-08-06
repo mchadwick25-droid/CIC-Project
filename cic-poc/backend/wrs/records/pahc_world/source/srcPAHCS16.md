@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Osiek, MacDonald & Tulloch
 work_title: A Woman's Place
@@ -22,6 +22,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   between named exceptions and the invisible ordinary majority), which is exactly the shape of claim that
   gets flattened into an overstated ''women had no role'' claim downstream.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

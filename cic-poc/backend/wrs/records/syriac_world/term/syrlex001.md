@@ -126,7 +126,7 @@ voice_surface: 'A raza is not a stand-in for the truth it points to. It is bound
   them - in Scripture, and in the world''s own furniture: light, water, oil, the vine.'
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -154,3 +154,5 @@ contested_claim_ids:
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex001_raza-shrara.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with madrasha (the sung vehicle through which this hermeneutic is chiefly performed) and Ewangeliyon da-Mhallete (Ephrem's Commentary applies this same typological reading to the harmonized Gospel text). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 3 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

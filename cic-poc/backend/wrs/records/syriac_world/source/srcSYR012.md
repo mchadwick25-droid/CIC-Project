@@ -10,7 +10,9 @@ jobs:
 - 1
 - 2
 work_title: 'The Odes of Solomon (42 odes). Mss.: Papyrus Bodmer XI (Greek, Ode 11 only); BL Add. 14538
-  ''Codex Nitriensis'' (Syriac, 36 odes); the Harris ms. (Syriac, most complete, no earlier than 15th
+  ''Codex Nitriensis'' (Syriac, ode count flagged for verification 2026-08-05 - standard descriptions
+  give Odes 17:7-42:20, roughly 26, not the 36 previously stated here; check against Lattke''s Hermeneia
+  apparatus before citing a specific count); the Harris ms. (Syriac, most complete, no earlier than 15th
   c.); 5 odes in Coptic Pistis Sophia.'
 source_type: P
 boundary_status: Native
@@ -20,6 +22,8 @@ language: und
 script: Zyyy
 licensed_for: Hymnic/poetic tradition antecedent — TENTATIVE ONLY, given contested Boundary Status
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: D
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Registry boundary_status reads ''Native (Contested)'' - normalized to the schema''s
   Native with the contest carried here VERBATIM per Doc_02 SS8: ''because Edessene provenance is only

@@ -11,13 +11,16 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Leo I, Letters rejecting Canon 28 (to Marcian, Pulcheria, Anatolius)
-language: la
+language: lat
 licensed_for: Strand A/B conflict; Leo's rejection of Canon 28 (Doc_01 §4)
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Specific letter numbers (traditionally Ep. 104–106) not independently re-verified
   this session; content (the fact and ground of rejection) is Documented at the historical-fact level
   even though this specific citation is B'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Documented
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 13)
 jobs:
 - 1

@@ -1,0 +1,62 @@
+{
+  "world_id": "post-apostolic-house-church",
+  "world_offer_label": "the world of the post-apostolic house churches — the generation after the apostles, meeting in homes across the Mediterranean",
+  "_comment": "Primary-text translations and secondary scholarship drawn from this world's own vetted Source Registry (Doc_02), curated for a participant who wants to go deeper after talking with this world's Representative.",
+  "resources": [
+    {
+      "resource_id": "brown-churches-apostles-left-behind",
+      "title": "The Churches the Apostles Left Behind",
+      "author": "Raymond E. Brown",
+      "publisher": "Paulist Press",
+      "year": "1984",
+      "type": "survey",
+      "locator": "",
+      "note": "An accessible look at what happened to different New Testament communities in the decades right after their founding apostle died — the exact transition this world's Representative lives inside.",
+      "topic_tags": ["overview", "new-testament-communities"]
+    },
+    {
+      "resource_id": "holmes-apostolic-fathers",
+      "title": "The Apostolic Fathers: Greek Texts and English Translations",
+      "author": "Michael W. Holmes (ed. and trans.)",
+      "publisher": "Baker Academic",
+      "year": "2007",
+      "type": "primary-text-translation",
+      "locator": "ISBN 9780801034688",
+      "note": "The standard one-volume translation of the Didache, 1 Clement, Ignatius's letters, Polycarp, and the Shepherd of Hermas — the actual texts most directly behind this world's own voice.",
+      "topic_tags": ["primary-text", "didache", "ignatius", "clement"]
+    },
+    {
+      "resource_id": "ehrman-apostolic-fathers-loeb",
+      "title": "The Apostolic Fathers (Loeb Classical Library, 2 vols.)",
+      "author": "Bart D. Ehrman (ed. and trans.)",
+      "publisher": "Harvard University Press",
+      "year": "2003",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "An alternative complete translation of the same core texts, with facing Greek — a widely available, general-reader-friendly edition of this world's own founding documents.",
+      "topic_tags": ["primary-text", "didache", "ignatius", "clement"]
+    },
+    {
+      "resource_id": "meeks-first-urban-christians",
+      "title": "The First Urban Christians: The Social World of the Apostle Paul",
+      "author": "Wayne A. Meeks",
+      "publisher": "Yale University Press",
+      "year": "1983",
+      "type": "monograph",
+      "locator": "",
+      "note": "A foundational, readable study of how the earliest house-church communities were actually organized socially — the methodological ancestor of how this world's own house-church ecology is reconstructed.",
+      "topic_tags": ["social-world", "house-church", "community"]
+    },
+    {
+      "resource_id": "lampe-paul-to-valentinus",
+      "title": "From Paul to Valentinus: Christians at Rome in the First Two Centuries",
+      "author": "Peter Lampe",
+      "publisher": "Fortress Press",
+      "year": "2003",
+      "type": "monograph",
+      "locator": "",
+      "note": "The standard reference on the real topography of Roman house churches — for a participant curious what the physical, social setting of this world's meetings actually looked like.",
+      "topic_tags": ["rome", "house-church", "topography"]
+    }
+  ]
+}

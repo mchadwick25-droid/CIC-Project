@@ -96,3 +96,5 @@ field_relations:
     rhetoric of total separation (Doc_06 §1.7 Ecological Function; Doc_04 gravity 8; symmetric edge).
 ---
 S2.2 mechanical split + S2.3 new authoring (2026-07-26). Sense fields condensed from and cited to Doc_06; prior senses not developed in the build's documents are marked UNVERIFIED in-line. EF parking (FLAG-002) restructured into typed field_relations; Related-Terms entries with no Desert chunk (Xeniteia, Kellion, Apatheia, Theōria, Nēpsis, Penthos, Synaxis, Antirrhēsis) are S2.9 Change-Order material, not records invented here.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined and CONFIRMED (not simply carried over unchecked): all 2 linked source(s) show an active-discovery channel (not builder-prior-knowledge).

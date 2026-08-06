@@ -76,7 +76,7 @@ voice_surface: 'Before any of us built at Bethlehem, Fabiola had already done th
   done.'
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: verified-direct
   verification_date: '2026-07-31'
   evidentiary_weight: corroborating
   formation_confidence: Documented
@@ -89,3 +89,5 @@ field_relations:
     to prevent conflation of two real, separate institutions.'
 ---
 Migrated at the S6.2/HAL S2.2-equivalent (2026-07-31) from `data/hieronymian_world/lexicon_chunks/hal_lex14_nosocomium.md` (mechanical split; mapping in `wrs/migrate/s62_hal_chunk_split.py`; aliases parsed under the VG-1a semantics at authoring - this world's records are born matching the runtime key space). Related-Terms and authored fields arrive at S2.3.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `verified-direct`: explicit 'verified directly against critical text' in source citation.

@@ -738,11 +738,13 @@ def stream_relational_safety_response(
 ):
     """
     Stream the Facilitator's threshold-voice response to a firing relational-
-    safety turn, per the corrected design (no dual-voice, no named resource,
-    non-directive check-in only - CiC_L3D_AcuteDistress_HarmfulDynamic_
-    Mechanism_Proposal_DRAFT.md Section 5, as revised and live-tested
-    2026-07-13 in CiC_W1_Phase5_RelationalSafety_LiveAdversarialTest_
-    CorrectedDesign_Round1/2.md).
+    safety turn, per the corrected design (no dual-voice, one general
+    non-directive human-support redirect, no specific named resource -
+    CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md Section 5,
+    as revised 2026-07-13, desk-verified in CiC_W1_Phase5_RelationalSafety_
+    Retest_Against_Proposed_Mechanism_DRAFT.md (a worked trace against the
+    mechanism, not a live model test), and resolved by the 2026-08-05
+    resource-redirect decision recorded in CiC_System_Hub_Decision_Log.md).
 
     This is a Facilitator-only call: no Representative's Permanent Prompt is
     ever invoked for this turn, so a Representative is structurally never

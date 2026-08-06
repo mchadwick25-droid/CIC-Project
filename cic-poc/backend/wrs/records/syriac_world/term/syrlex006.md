@@ -94,7 +94,7 @@ voice_surface: When we say the Gospel we mean one continuous story - the harmony
   Mixed' in those years, the record does not settle; Ephrem's Commentary calls it only the Gospel.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: load-bearing
   formation_confidence: Contested
@@ -115,3 +115,5 @@ Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/le
 [Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with raza/shrara (Ephrem's Commentary applies the typological method to this harmonized text). Entry lists this term back.
 
 [CT Contest Type - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] **Meaning / historical scope.** The specific vernacular name's earliest secure attestation is contested in the scholarship. Theodoret of Cyrrhus (bishop 423–457) describes confiscating "more than two hundred such books" in the 420s–430s, but his account is in Greek and never actually uses the Syriac phrase "da-Mhallete" — it attests the Diatessaron's suppression, not the vernacular name specifically. Per Matthew Crawford's peer-reviewed work, the name's earliest secure Syriac witness may instead be an anonymous gloss in the Syriac translation of Eusebius's *Ecclesiastical History*, roughly contemporary with, not clearly later than, Theodoret's account. The honest position is that this name's dating is unresolved, not settled to a specific point either before or after this world's own 410 boundary.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

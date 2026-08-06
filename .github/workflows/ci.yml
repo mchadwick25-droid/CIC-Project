@@ -1,0 +1,40 @@
+name: CI
+
+# First automated check this project has ever had (2026-08-05 full-system
+# review, Engineering P1-3 step 1). Deliberately minimal: two checks that
+# are fast, hermetic, and need no secrets or models. A two-click regression
+# on atlas-v3.html (P0-3, fixed the same night this workflow was added)
+# would have been caught by neither check on its own - that gap is real and
+# is Wave 3's Playwright-in-CI item (P1-8), not this workflow's job.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate-census:
+    name: Validate world-census.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs cic-website/data/world-census.json
+
+  frontend-typecheck:
+    name: Frontend build (tsc + vite build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cic-poc/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: cic-poc/frontend/package-lock.json
+      - run: npm ci
+      - run: npm run build

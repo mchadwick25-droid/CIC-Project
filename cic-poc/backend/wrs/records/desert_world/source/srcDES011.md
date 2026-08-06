@@ -16,6 +16,8 @@ level_of_description: corpus
 language: cop
 script: Copt
 discovery_channel: database-search
+confidence:
+  formation_confidence: Contested
 field_state: contested
 licensed_for: Material evidence, relation to this world unresolved (Doc_02 SS5.3; open item 3 - this document
   adopts neither position)

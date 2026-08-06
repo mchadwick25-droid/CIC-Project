@@ -1,5 +1,14 @@
 """S6.2/Syriac - S2.1-equivalent: world_core + source rows.
 
+CORRECTION, 2026-08-05 (full-system review, Rigor P0-1): the
+discovery_channel rule used to assign "builder-prior-knowledge" for P/M
+rows and "field-bibliography" for every S-type (scholarship) row by type
+alone, not evidence - this world's own search record
+(srcSYRsearch001.md) states no field bibliography was ever consulted.
+Fixed below (see the discovery_channel assignment) so this script's
+output matches the 27 S-type source records, already re-stamped directly
+on disk the same day.
+
 UNLIKE Desert and Alexandria, Syriac arrives with a DEPLOYED structured
 registry (data/syriac_world/source_registry.json, 53 rows with id/source/
 type/confidence/boundary_status/exclusion_reason/licensed_for/
@@ -197,12 +206,14 @@ def main():
                "language": lang,
                "script": SCRIPT_BY_LANG[lang],
                "licensed_for": licensed,
-               # backfillable channel per the ALX convention: primary/material
-               # corpus rows were builder-prior-knowledge at the Doc_02 pass;
-               # scholarship rows arrived via the field bibliography
-               "discovery_channel": ("builder-prior-knowledge"
-                                     if stype in ("P", "M")
-                                     else "field-bibliography"),
+               # Corrected 2026-08-05 (full-system review, Rigor P0-1): this
+               # used to assign "field-bibliography" to every S-type
+               # (scholarship) row by type alone - a heuristic, not
+               # evidence. This world's own search record
+               # (srcSYRsearch001.md) states no field bibliography was ever
+               # consulted, so every row here is builder-prior-knowledge
+               # regardless of type, same as P/M rows already were.
+               "discovery_channel": "builder-prior-knowledge",
                "added": r.get("added", "")}
         if GENRE.get(r["id"]):
             rec["genre_form"] = GENRE[r["id"]]

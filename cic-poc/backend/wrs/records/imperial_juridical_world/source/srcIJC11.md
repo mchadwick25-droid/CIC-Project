@@ -17,6 +17,8 @@ verification_note: 'Registry-carried assessment fields, verbatim: type=P; confid
   Verification Note: Price & Gaddis (row 32 below) is the standard critical translation this document
   relies on as a named reference, not independently re-collated against it this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 11)
 jobs:
 - 1

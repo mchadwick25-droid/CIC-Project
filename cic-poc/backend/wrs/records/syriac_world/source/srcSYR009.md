@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Diatessaron content reconstruction, WITH the compilation caveat below carried into any use
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: commentary
 verification_note: Verified this session that Christian Lange (CSCO 616, 2005) argues the surviving commentary

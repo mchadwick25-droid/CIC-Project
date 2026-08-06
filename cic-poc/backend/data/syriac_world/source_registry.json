@@ -133,7 +133,7 @@
   },
   {
     "id": "12",
-    "source": "The Odes of Solomon (42 odes). Mss.: Papyrus Bodmer XI (Greek, Ode 11 only); BL Add. 14538 'Codex Nitriensis' (Syriac, 36 odes); the Harris ms. (Syriac, most complete, no earlier than 15th c.); 5 odes in Coptic Pistis Sophia.",
+    "source": "The Odes of Solomon (42 odes). Mss.: Papyrus Bodmer XI (Greek, Ode 11 only); BL Add. 14538 'Codex Nitriensis' (Syriac, ode count flagged for verification 2026-08-05 - standard descriptions give Odes 17:7-42:20, roughly 26, not the 36 previously stated here; check against Lattke's Hermeneia apparatus before citing a specific count); the Harris ms. (Syriac, most complete, no earlier than 15th c.); 5 odes in Coptic Pistis Sophia.",
     "type": "P",
     "confidence": "D",
     "boundary_status": "Native (Contested)",
@@ -259,7 +259,7 @@
     "boundary_status": "Native",
     "exclusion_reason": "",
     "licensed_for": "Material-culture anchor for Nisibis; baptistery citable as secure dated fact WITHOUT qualification; five-aisled cathedral plan citable only AS a reconstruction, not a confirmed structure (Doc_01 Sec. 2, 3; Doc_02 Sec. 6)",
-    "verification_note": "Verified this session per Elif Keser Kayaalp, 'The Cathedral Complex at Nisibis,' Anatolian Studies 63 (2013). Round 2 correction: Kayaalp's own abstract frames the cathedral plan as an 'attempt to reconstruct the possible cathedral' from partial remains (part of one wall, several piers) — not a fully excavated, confirmed structure. Only the baptistery is securely excavated and dated; confidence downgraded A to B to reflect the cathedral plan's inferential status.",
+    "verification_note": "Verified this session per Elif Keser Kayaalp and Nihat Erdoğan, 'The Cathedral Complex at Nisibis,' Anatolian Studies 63 (2013) - co-author added 2026-08-05 (full-system review, Rigor P2-1). Round 2 correction: the authors' own abstract frames the cathedral plan as an 'attempt to reconstruct the possible cathedral' from partial remains (part of one wall, several piers) — not a fully excavated, confirmed structure. Only the baptistery is securely excavated and dated; confidence downgraded A to B to reflect the cathedral plan's inferential status.",
     "comparandum_note": "",
     "added": "2026-07-06, Doc_02 Step 2 pass"
   },
@@ -421,7 +421,7 @@
   },
   {
     "id": "36",
-    "source": "Elif Keser Kayaalp, 'The Cathedral Complex at Nisibis,' Anatolian Studies 63 (2013).",
+    "source": "Elif Keser Kayaalp and Nihat Erdoğan, 'The Cathedral Complex at Nisibis,' Anatolian Studies 63 (2013).",
     "type": "S",
     "confidence": "A",
     "boundary_status": "Native",

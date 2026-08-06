@@ -121,7 +121,7 @@ voice_surface: 'To take the qyama is to stand for a promise that does not end - 
   world than by refusal within it.'
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -153,3 +153,5 @@ Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/le
 [CT Contest Type - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] **Historical scope.** The qyama's own formal organizational structure — whether it had a settled rule, enclosure practice, or internal hierarchy — is thinly and contestedly documented in the scholarship. Existence, vowed-celibacy, and fourth-century attestation are solidly evidenced (Widely Accepted); claims about internal structural detail beyond that are Contested/Inferential-Thin and should not be presented as settled.
 
 [FLAG-025 correction applied at the S2.8-equivalent (2026-07-28): the span text's mis-pointer '(Source Registry #26, cross-checked)' corrected to '(Source Registry #56)' - srcSYR056, the citation's true registry home per the S2.1a sweep; the deployed chunk regenerates corrected from this record.]
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: mixed signal: 1/4 linked sources show active-discovery channels, 3/4 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

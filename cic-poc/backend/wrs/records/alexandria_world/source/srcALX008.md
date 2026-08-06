@@ -16,6 +16,8 @@ level_of_description: corpus
 language: grc
 script: Grek
 discovery_channel: builder-prior-knowledge
+confidence:
+  formation_confidence: Widely Accepted
 exclusion_reason: Named Comparandum
 licensed_for: 'Diagnostic only (Doc_02 SS3.5): to distinguish what Alexandrian Christians inherited from
   what they transformed or invented - never evidence for Christian formation practice'

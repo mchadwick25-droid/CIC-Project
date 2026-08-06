@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Suetonius
 work_title: Suetonius, Life of Claudius 25.4 / Life of Nero 16.2
 work_locus: written c.121 CE, describing events 49 CE / 64 CE
@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   scholars but disputed by classicists (Levick, Solin); Nero 16.2''s link to the fire is inferred, not
   stated'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

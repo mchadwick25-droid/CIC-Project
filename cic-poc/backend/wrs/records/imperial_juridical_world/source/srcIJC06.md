@@ -11,12 +11,14 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Ambrose of Milan, correspondence on the Callinicum affair (388)
-language: la
+language: lat
 licensed_for: Strand C
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge; not independently re-collated
   this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 6)
 jobs:
 - 1

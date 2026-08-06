@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Robert Louis Wilken
 work_title: The Christians as the Romans Saw Them
@@ -19,6 +19,10 @@ licensed_for: Doc_02 Section 6 (Pliny interpretation)
 verification_note: 'Registry-carried assessment fields, verbatim: confidence_level=Widely Accepted; citation_reliability=B;
   priority_review_flag=No. Notes: Standard reference on Roman perception of Christians'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Widely Accepted
+priority_review_flag: false
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

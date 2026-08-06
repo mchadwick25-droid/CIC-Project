@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Exegetical method
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: commentary
 verification_note: 'Existence and edition confirmed via independent research (Mathews & Amar, Fathers

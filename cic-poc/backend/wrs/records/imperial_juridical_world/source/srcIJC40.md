@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 work_author: H. A. Drake
 work_title: 'Constantine and the Bishops: The Politics of Intolerance (Baltimore, 2000)'
 licensed_for: The standard political reading of the initiating alliance (Cell 1A/1B; ijcgrav002's modern

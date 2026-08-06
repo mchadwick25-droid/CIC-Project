@@ -69,3 +69,5 @@ field_relations:
   note: 'CO-P2-03 mirror: the synaxis presupposes the cell pattern (Doc_06 §2.6).'
 ---
 CO-P2-03 term record (2026-07-27), authored from Doc_06 Part 2/3 (condensed-verbatim meanings; authored retrieve_when; plain-register voice_surface).
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined and CONFIRMED (not simply carried over unchecked): all 1 linked source(s) show an active-discovery channel (not builder-prior-knowledge).

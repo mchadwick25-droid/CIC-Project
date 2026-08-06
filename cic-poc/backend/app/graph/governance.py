@@ -276,13 +276,18 @@ def run_post_round_governance(
     turns_completed: int,
     world_ids,
     is_multi_world: bool,
-    should_check_wind_down: bool,
     session_id: str,
 ) -> None:
-    """The streaming path's invisible-governance tail, verbatim in logic:
-    table checks + per-message drift checks (queued per-world), then
-    wind-down sensing - each half in its own fail-open try/except,
-    independent concerns.
+    """The streaming path's invisible-governance tail: table checks +
+    per-message drift checks (queued per-world), each fail-open.
+
+    Wind-down sensing used to run here too. Moved to main.py's event_stream,
+    before "done" is sent, 2026-08-05 (full-system review, Readiness P1-4):
+    unlike the checks that stay here, which only ever queue guidance for a
+    LATER turn and can never change what the participant already read,
+    wind-down sensing has to actually put a question in front of THIS
+    turn's participant to mean anything - checking it after "done" left the
+    "anything else?" turn permanently unstreamed, per that finding.
 
     S4.2: findings are APPENDED to the event log instead of merged into a
     mutable store. The hand-patched read-latest-merge this replaces
@@ -358,19 +363,4 @@ def run_post_round_governance(
     except Exception:
         # invisible governance fails silently by design - the participant
         # already has their response
-        pass
-
-    try:
-        if should_check_wind_down:
-            from app.graph.closing_sequence import classify_wind_down
-            from app.graph.events import EVENT_STORE
-            fired = classify_wind_down(state, message)
-            if EVENT_STORE.has(session_id):
-                EVENT_STORE.append(session_id, "classifier_decision", {
-                    "classifier": "wind_down", "raw": bool(fired),
-                    "applied": bool(fired)})
-            if fired and EVENT_STORE.has(session_id):
-                EVENT_STORE.append(session_id, "closing_stage_changed",
-                                   {"stage": "anything_else_asked"})
-    except Exception:
         pass

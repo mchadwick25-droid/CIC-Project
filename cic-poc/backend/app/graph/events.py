@@ -12,9 +12,14 @@ What this module provides:
   JSONL file (`transcripts/events/<session_id>.jsonl` - the transcripts/
   dir is already the gitignored, per-deployment home for conversation
   data) and, when Supabase is configured, inserted into the
-  `session_events` table (fail-open, same discipline as
-  transcript_logging). There is NO in-place update path - the race
-  disappears structurally, not by a cleverer merge.
+  `session_events` table (fail-open, same never-break-the-conversation
+  discipline as transcript_logging - but NOT gated on
+  settings.pilot_logging_enabled the way transcript_logging is; see
+  `_persist_supabase`'s own docstring for why those are different
+  questions, Wave 3 Engineering P1-4). There is NO in-place update path -
+  the race disappears structurally, not by a cleverer merge. In-memory
+  `_events` is also bounded (LRU by last-touch, same wave) so this store's
+  memory footprint doesn't grow without bound across a process's lifetime.
 
 - project(): fold a session's events into a ConversationState. The
   endpoints work on a per-request projected copy; every mutation they
@@ -50,6 +55,7 @@ from __future__ import annotations
 import json
 import os
 import threading
+from collections import OrderedDict
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -274,11 +280,34 @@ def project(session_id: str, events: list[Event]) -> ConversationState:
 
 
 class EventStore:
-    """Process-wide append-only event store with JSONL durability."""
+    """Process-wide append-only event store with JSONL durability.
 
-    def __init__(self):
-        self._events: dict[str, list[Event]] = {}
+    In-memory `_events` is bounded, not unbounded (Wave 3, Engineering
+    P1-4) - `render.yaml`'s 512MB starter plan already has an OOM history,
+    and now loads two transformer models on top of that. Bounded by
+    recency (`_events` is an OrderedDict; every touch moves a session to
+    the end), evicting the least-recently-touched session once the cap is
+    exceeded. Eviction removes ONLY the in-memory copy - the durable
+    JSONL file (and Supabase mirror, when configured) are untouched, and
+    `_read_jsonl`'s existing fallback (already used by `has()`) means an
+    evicted session's next read transparently rehydrates from disk. This
+    bounds worst-case memory without losing any data a live participant
+    could still reach.
+    """
+
+    def __init__(self, max_sessions: int = 200):
+        self._events: OrderedDict[str, list[Event]] = OrderedDict()
         self._lock = threading.Lock()
+        self._max_sessions = max_sessions
+
+    def _touch(self, session_id: str) -> None:
+        """Move session_id to most-recently-used position. Caller holds _lock."""
+        self._events.move_to_end(session_id)
+
+    def _evict_lru_locked(self) -> None:
+        """Evict least-recently-touched sessions over the cap. Caller holds _lock."""
+        while len(self._events) > self._max_sessions:
+            self._events.popitem(last=False)
 
     # -- append side ----------------------------------------------------
     def append(self, session_id: str, type: str, payload: dict) -> Event:
@@ -288,6 +317,7 @@ class EventStore:
                     items: list[tuple[str, dict]]) -> list[Event]:
         with self._lock:
             log = self._events.setdefault(session_id, [])
+            self._touch(session_id)
             ts = datetime.now(timezone.utc).isoformat()
             new = []
             for type_, payload in items:
@@ -295,6 +325,7 @@ class EventStore:
                            ts=ts)
                 log.append(ev)
                 new.append(ev)
+            self._evict_lru_locked()
         self._persist_jsonl(session_id, new)
         self._persist_supabase(session_id, new)
         return new
@@ -313,9 +344,17 @@ class EventStore:
         with self._lock:
             log = self._events.get(session_id)
             if log is not None:
+                self._touch(session_id)
                 return [e for e in log if e.seq > since_seq]
-        return [e for e in self._read_jsonl(session_id)
-                if e.seq > since_seq]
+        # Miss (evicted, or never loaded this process) - rehydrate from the
+        # durable JSONL log rather than treating this as "no such session".
+        rehydrated = self._read_jsonl(session_id)
+        if rehydrated:
+            with self._lock:
+                self._events[session_id] = list(rehydrated)
+                self._touch(session_id)
+                self._evict_lru_locked()
+        return [e for e in rehydrated if e.seq > since_seq]
 
     def get_state(self, session_id: str) -> ConversationState:
         """Project this session's state. Always a fresh object - two
@@ -371,10 +410,23 @@ class EventStore:
             return []
 
     def _persist_supabase(self, session_id: str, new: list[Event]) -> None:
+        # Un-gated from settings.pilot_logging_enabled (Wave 3, Engineering
+        # P1-4) - that flag governs a separate question (does the
+        # human-readable transcript_logging.write_transcript view exist for
+        # the project team to review, per the pilot plan's own disclosure
+        # scoping) from this table's actual job: durability of the audit
+        # log the participant is ALREADY told about unconditionally, in
+        # every deployment, by OnboardingScreen.tsx's "we're cataloging
+        # this conversation" paragraph. Before this fix, that promise held
+        # only for the process's lifetime (JSONL on ephemeral disk) unless
+        # pilot_logging_enabled also happened to be on - the durability
+        # this table exists for was silently opt-in on a flag that has
+        # nothing to do with durability. Still fully off when Supabase
+        # isn't configured (local dev/mock mode never touches a live
+        # project) - only the pilot_logging_enabled coupling is removed.
         try:
             from app.auth import _get_client, supabase_configured
-            from app.config import settings
-            if not settings.pilot_logging_enabled or not supabase_configured():
+            if not supabase_configured():
                 return
             _get_client().table("session_events").insert([
                 {"session_id": session_id, "seq": ev.seq, "type": ev.type,
@@ -387,4 +439,15 @@ class EventStore:
             pass
 
 
-EVENT_STORE = EventStore()
+def _make_event_store() -> EventStore:
+    try:
+        from app.config import settings
+        return EventStore(max_sessions=settings.event_store_max_sessions)
+    except Exception:
+        # Settings unavailable at import time (e.g. a narrow unit-test
+        # context) - the class default keeps this working rather than
+        # failing the whole module import over a bound-size preference.
+        return EventStore()
+
+
+EVENT_STORE = _make_event_store()

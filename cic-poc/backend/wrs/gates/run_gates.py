@@ -33,10 +33,28 @@ GATES = {
     "narratability": lambda rs, vm: core.gate_figure_narratability(rs, vm),
     "quote_recording": lambda rs, vm: core.gate_quote_fidelity_recording(rs),
     "sentinel": lambda rs, vm: core.gate_no_sentinel_conditions(rs),
+    # 2026-08-05 (full-system review, Rigor P0-1): a source row claiming a
+    # searched discovery_channel must name the instrument actually used.
+    "discovery_instrument": lambda rs, vm: core.gate_discovery_instrument(rs),
+    # 2026-08-05 (full-system review, Rigor P1-2): the priority-review
+    # trigger, re-keyed off discovery_channel/verification_state/
+    # evidentiary_weight (see core.gate_priority_review_trigger's docstring)
+    # in place of the legacy Confidence-C-or-below letter threshold.
+    "priority_review": lambda rs, vm: core.gate_priority_review_trigger(rs),
     # VG-1b (Voice-Governance Addendum SS5.3-5.8): Rules A+B; Rule C
     # deferred to VG-1c. 'note:'-prefixed entries are SS5.6 override
     # reports - printed, never counted (split_alias_reports).
     "alias_safety": lambda rs, vm: core.gate_alias_safety(rs),
+    # 2026-08-05 (full-system review, Rigor P1-1): a fleet-wide single-value
+    # distribution on a checked enum field carries zero information - the
+    # verification_state defect, generalized past this one field/type.
+    "distribution_health": lambda rs, vm: core.gate_distribution_health(rs),
+    # 2026-08-05 (full-system review, Rigor P1-8): the record-level analogue
+    # of Syriac Doc_04's own Confidence/Gravity Cross-Check - a record at
+    # formation_confidence=Documented whose sources[] carry no verified-direct
+    # state must name that divergence explicitly (core.gate_confidence_source_crosscheck's
+    # own docstring).
+    "confidence_source_crosscheck": lambda rs, vm: core.gate_confidence_source_crosscheck(rs),
 }
 
 
@@ -101,6 +119,21 @@ def selftest() -> int:
     if ov_viol or len(ov_notes) != 1:
         failures.append(f"alias override fixture expectation not met: "
                         f"viol={ov_viol}, notes={ov_notes}")
+
+    print("\n## Confidence/Source Cross-Check escape valves (Rigor P1-8 - Doc_04's "
+          "own pattern one level down; a verified-direct source OR an explicit "
+          "divergence_note clears the check, never both required)\n")
+    rs_verified, rs_noted = fixtures.confidence_crosscheck_clean_pair()
+    v_verified = core.gate_confidence_source_crosscheck(rs_verified)
+    v_noted = core.gate_confidence_source_crosscheck(rs_noted)
+    print(f"- Documented + a verified-direct linked source: {len(v_verified)} "
+          f"violation(s) -> {'PASS' if not v_verified else 'FAIL (unexpected)'}")
+    print(f"- Documented + no verified-direct source but an explicit "
+          f"divergence_note: {len(v_noted)} violation(s) -> "
+          f"{'PASS' if not v_noted else 'FAIL (unexpected)'}")
+    if v_verified or v_noted:
+        failures.append(f"confidence-crosscheck escape-valve fixtures produced "
+                        f"violations: verified={v_verified}, noted={v_noted}")
 
     print("\n## Readability instrument (values from parameters.yaml reading_floor)\n")
     ok_r = core.readability_check(fixtures.READABLE_TEXT)

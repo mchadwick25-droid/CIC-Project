@@ -19,6 +19,8 @@ script: Grek
 licensed_for: EXCLUDED - not licensed for any voice use (Out-of-Boundary, carried from the registry row
   verbatim); retained as a registry row so the boundary decision stays checkable (Doc_02 SS8).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Africanus's own subject (universal chronography) is not native to this world; used
   only to corroborate Bardaisan's social standing, not as a native voice.

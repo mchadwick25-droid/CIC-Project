@@ -929,6 +929,66 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🟡 READY NEXT (starts when the item above it finishes)
 
+- [ ] **NEW 2026-08-05 — Full-system review remediation, Wave 4 (backlog, sequenced);
+      Waves 1–3 shipped.** Wave 1 (13 P0-tier/live-bug items), Wave 2 (12 items:
+      data-integrity re-stamping + a new gate, the Freeze Criteria correction, IJC
+      force-source linking, language-code normalization, four one-lookup corrections,
+      the session-cap fix, the first CI workflow, the pilot-feedback form, guided-starter
+      why/citations rendering, the anything-else wind-down streaming fix, the
+      direct-address must_continue exemption, textstat guard), and Wave 3 in full (the
+      ending screen rebuild, six further-reading JSON packs, Imperial-Juridical guided
+      starters, session persistence, Atlas resize/zoom hygiene, the census copy pass,
+      Rigor P1-1/P1-2/P1-3/P1-5/P1-8 data-integrity work, the freeze-battery
+      consolidation, and the event store bound) **all shipped 2026-08-05 — see Decision
+      Log, 2026-08-05 (later still), the Wave 1/Wave 2/Wave 3 (first slice)/Wave 3
+      (completion) entries in order.** Only Wave 4 remains, plus the two items below
+      genuinely still open from Wave 3. Each item cites its source report + finding ID
+      under `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/` — open the
+      report for the exact file/line/fix rather than re-deriving it; each report already
+      worked the fix out in detail. No further Mark gate needed to start Wave 4 unless an
+      item below says otherwise.
+
+      **Still open from Wave 3, not folded into Wave 4 (both explicitly disclosed, not
+      silently dropped):**
+      - Rigor's own "this month" field-bibliography sweep: one real search pass on two
+        worlds (Syriac against Brock's bibliography via syri.ac; Desert against BIBP) —
+        genuine external research against live scholarly databases, not attempted in the
+        session that did the rest of Wave 3's data-integrity work.
+      - The box-vs-foreign-tail Atlas layout defect: `shoot.mjs`'s new geometric check
+        (added this wave) found real overlaps in `layout()`'s `tryPack` box-placement
+        algorithm itself (17 at 390px, 5 at 1280px) — a genuine pre-existing defect the
+        new check surfaced, not a regression, and not touched given the real risk of a
+        blind fix to an already-heavily-tuned packing algorithm without live visual
+        verification across viewports/themes.
+
+      **Wave 4 — over time / structural:**
+      - **Get one outside scholarly reader** (Rigor's single biggest lever): send
+        Desert-Monasticism to *Reviews in Digital Humanities* — Article 31 gate open since
+        2026-07-08.
+      - Author `plain_explanation` for the remaining 100 term records across five worlds
+        (Accessibility P0-5); build `repository.json` for the other five worlds (Readiness
+        P1-6).
+      - Rigor P1-4: `edition`/`translation`/`consulted_as` on the ~40 primary-text rows that
+        bear weight; Syriaca.org `external_ids` on Syriac primary rows.
+      - Publish the FAIR Conformance and Deviation Statement (draft since 2026-07-27).
+      - Readiness P1-7: restore a List/table view on the Atlas.
+      - Engineering: split `nodes.py` (3,981 lines) using the same extract-plus-
+        replay-parity-proof move already used for `governance.py` — explicitly the biggest
+        structural debt and the least urgent; do after CI exists.
+      - Engineering P1-10/P2-5: lock dependencies; adapt away from
+        `vector_store.docstore._dict`; delete the dead `app/agents/` modules; decide the
+        dormant `participant_role`/lane-ceiling system's fate rather than carrying it
+        dormant through a third audit.
+      - Accessibility P1-4/P1-7: render Level 3's `full_record` as human-labelled fields,
+        not raw JSON; split the onboarding screen, move "reading the highlights" to first
+        use. Extend `gate_readability` to every participant-facing surface as a CI check.
+
+      **Explicitly deferred, not forgotten:** Representative Modes re-entry (Mark's
+      2026-07-24/25 pause stands, gated on real academic pilot feedback — not reopened by
+      this backlog); session history/resume (second-order vs. the Wave-3 takeaway);
+      calibrating the Track B dependency thresholds against real sessions; API key
+      rotation if `cic-poc` was ever deployed with the pre-2026-08-05 `main.py` — Mark's
+      call, not resolved here.
 - [ ] **NEW 2026-07-23 — Readability/latency worktree work awaiting Mark's sign-off before
       deploy.** Concurrent safety-classifier gather + deferred wind-down check, and lazy
       per-world loading (eager preload removed) — both built and ready to ship as-is. Still

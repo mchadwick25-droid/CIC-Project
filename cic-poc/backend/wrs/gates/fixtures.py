@@ -41,8 +41,9 @@ def _src(rid="fixsrc001"):
     return {"id": rid, "world_id": "fixture-world", "record_type": "source",
             "schema_version": 1, "attribution_status": "genuine",
             "level_of_description": "work", "language": "syc",
-            "discovery_channel": "field-bibliography", "boundary_status": "Native",
-            "licensed_for": "voice"}
+            "discovery_channel": "field-bibliography",
+            "discovery_instrument": "fixture reference-work sweep",
+            "boundary_status": "Native", "licensed_for": "voice"}
 
 
 def _quote(rid, state="verified-direct", date="2026-07-26", translation="fixsrc001"):
@@ -196,8 +197,68 @@ def seeded_sets():
     s["sentinel"] = [("em-dash in do_not_retrieve_when (the historical defect)", e1),
                      ("dash sentinel in retrieve_when", e2)]
 
+    # discovery instrument (2026-08-05, Rigor P0-1) - the historical defect:
+    # a channel that claims a real search was performed with no instrument
+    # named to say what was actually searched
+    d1 = clean_set(); d1["fixsrc001"] = dict(d1["fixsrc001"]); d1["fixsrc001"].pop("discovery_instrument")
+    s["discovery_instrument"] = [
+        ("field-bibliography channel with no discovery_instrument named", d1),
+    ]
+
+    # priority-review trigger (2026-08-05, Rigor P1-2) - the re-keyed rule:
+    # a builder-prior-knowledge source that licenses a load-bearing claim
+    # never itself verified-direct. fixlexA already cites fixsrc001 by
+    # default (_term's base sources[]); pushing fixsrc001's discovery
+    # channel to builder-prior-knowledge and giving fixlexA a load-bearing,
+    # not-verified-direct confidence block reproduces the risk shape.
+    p1 = clean_set()
+    p1["fixsrc001"] = dict(p1["fixsrc001"], discovery_channel="builder-prior-knowledge")
+    p1["fixlexA"] = dict(p1["fixlexA"], confidence={
+        "evidentiary_weight": "load-bearing", "verification_state": "verified-via-authority"})
+    p2 = clean_set()
+    p2["fixsrc001"] = dict(p2["fixsrc001"], discovery_channel="builder-prior-knowledge")
+    p2["fixlexA"] = dict(p2["fixlexA"], confidence={
+        "evidentiary_weight": "load-bearing", "verification_state": "unverified"})
+    s["priority_review"] = [
+        ("recall-sourced row licensing a load-bearing, verified-via-authority-only claim", p1),
+        ("recall-sourced row licensing a load-bearing, unverified claim", p2),
+    ]
+
+    # confidence/source cross-check (2026-08-05, Rigor P1-8) - the record-
+    # level Confidence/Gravity Cross-Check analogue: a Documented claim
+    # whose linked source(s) carry no verified-direct state, and no
+    # divergence_note names the gap (the IJC shape: 8/12 term records
+    # Documented, 0/41 IJC source rows verified-direct).
+    x1 = clean_set()
+    x1["fixlexA"] = dict(x1["fixlexA"], confidence={"formation_confidence": "Documented"})
+    # fixlexA already cites fixsrc001 (base sources[]); fixsrc001 carries no
+    # confidence block at all here, so its verification_state is None -
+    # None != "verified-direct", same as an unpopulated real source row.
+    x2 = clean_set()
+    x2["fixsrc001"] = dict(x2["fixsrc001"], confidence={"verification_state": "named-not-rechecked"})
+    x2["fixlexA"] = dict(x2["fixlexA"], confidence={"formation_confidence": "Documented"})
+    s["confidence_source_crosscheck"] = [
+        ("Documented term, sole source carries no confidence block at all, no divergence_note", x1),
+        ("Documented term, sole source named-not-rechecked (never verified-direct), no divergence_note", x2),
+    ]
+
     # alias safety (VG-1b) - defined below, resolved at call time
     s["alias_safety"] = _alias_seeded_sets()
+
+    # distribution health (2026-08-05, Rigor P1-1) - the historical defect:
+    # every term record's confidence.verification_state landing on the same
+    # value fleet-wide, reconstructed as a query. A second seed on a
+    # different (record_type, field) pair proves the gate is the general
+    # check the task asked for, not a verification_state special-case.
+    u1 = clean_set()
+    u1["fixlexA"] = dict(u1["fixlexA"], confidence={"verification_state": "verified-via-authority"})
+    u1["fixlexB"] = dict(u1["fixlexB"], confidence={"verification_state": "verified-via-authority"})
+    u2 = clean_set()
+    u2["fixsrc002"] = _src("fixsrc002")  # boundary_status defaults to "Native", same as fixsrc001
+    s["distribution_health"] = [
+        ("all term records carry the same confidence.verification_state (the P1-1 shape)", u1),
+        ("all source records carry the same boundary_status", u2),
+    ]
     return s
 
 
@@ -266,6 +327,29 @@ def _alias_seeded_sets():
                           field_relations=[])
     s.append(("stale alias_generic_override_note (nothing trips Rule A)", o1))
     return s
+
+
+# ------------------------------- confidence/source cross-check (P1-8)
+
+def confidence_crosscheck_clean_pair():
+    """The two legitimate ways a Documented claim clears the cross-check
+    (P1-8's own gate docstring) - a verified-direct linked source, or an
+    explicit divergence_note where no linked source is verified-direct.
+    Neither should trip the gate."""
+    rs_verified = clean_set()
+    rs_verified["fixsrc001"] = dict(rs_verified["fixsrc001"],
+        confidence={"verification_state": "verified-direct"})
+    rs_verified["fixlexA"] = dict(rs_verified["fixlexA"],
+        confidence={"formation_confidence": "Documented"})
+
+    rs_noted = clean_set()
+    rs_noted["fixlexA"] = dict(rs_noted["fixlexA"], confidence={
+        "formation_confidence": "Documented",
+        "divergence_note": ("Evidential confidence is Documented for the underlying "
+                             "fact; the sole linked source is named-not-rechecked, not "
+                             "verified-direct this session - divergence named, not "
+                             "resolved by upgrading (fixture, Doc_04's own pattern).")})
+    return rs_verified, rs_noted
 
 
 # ------------------------------------------------ Rule C (VG-1c SS5.5)

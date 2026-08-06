@@ -52,7 +52,7 @@ sources:
 - source_id: srcDES005
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-27'
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
@@ -63,3 +63,5 @@ field_relations:
     the raw attentiveness that discernment then judges; without it, diakrisis has nothing current to assess.'
 ---
 CO-P2-03 term record (2026-07-27), authored from Doc_06 Part 2/3 (condensed-verbatim meanings; authored retrieve_when; plain-register voice_surface).
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

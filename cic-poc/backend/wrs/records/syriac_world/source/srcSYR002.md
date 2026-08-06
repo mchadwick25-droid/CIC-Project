@@ -18,6 +18,8 @@ language: syr
 script: Syrc
 licensed_for: Marcion/Bardaisan/Mani triangulation and heresiological boundary-work (Doc_01 Sec. 5, 7)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 genre_form: polemic
 verification_note: Existence, edition, and content (per Botha 2004 and Ruani 2017 secondary analysis)

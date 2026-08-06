@@ -20,6 +20,8 @@ language: syr
 script: Syrc
 licensed_for: Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey;
   restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row

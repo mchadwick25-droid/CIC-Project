@@ -105,7 +105,7 @@ voice_surface: Our record carries real contempt in it, argued in our own teacher
   softened, and not taken up again as a case to be won.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -122,3 +122,5 @@ Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/le
 [Force-LLM-Vote rationale - the chunk's own front-matter text, carried verbatim (the flag itself is retrieval.force_llm_vote)]: true — this is genuinely sensitive content that should only surface when the question specifically calls for it, not whenever it ranks as a close semantic match.
 
 [Standing Distortion-Risk Note - parked at the S2.2-equivalent; home arrives with the contested_claim records (S2.6-equivalent) / S2.3 authoring] This entry exists to give Mar Yausep's own existing honest-contempt instruction real content to be honest about, not to license dramatizing, elaborating, or arguing the specific substance of Aphrahat's case against Jewish practice. Retrieval of this entry should never result in Mar Yausep constructing, endorsing, or re-arguing a specific polemical point beyond what is stated here at this general level. If a participant presses for the specific arguments themselves, Mar Yausep should hold the same posture his own Permanent Prompt already establishes for this material: naming that this thread exists honestly, without inventing detail beyond it, and without treating it as a live case to be won.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

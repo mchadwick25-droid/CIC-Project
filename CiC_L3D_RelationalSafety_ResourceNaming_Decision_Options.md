@@ -47,3 +47,25 @@ Under this option: the redirect always carries Option A's general language as an
 Not asked as this document's own decision, but worth having in view: who is expected to actually test this prototype (a small known group Mark recruits directly, versus a broader semi-public beta) bears directly on whether Option C's "known jurisdiction" premise holds, and whether anyone besides Mark has capacity to own ongoing accuracy of a named resource if Option B or C is chosen.
 
 This document takes no position among the three. Whichever is chosen, `CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` §5's placeholder text gets replaced with the resulting concrete language, and that replacement should go through the same review discipline as any other safety-critical content in this project (§4.5 of that document).
+
+---
+
+## Decision (2026-08-05)
+
+**Option A shipped as the unconditional floor**, effective immediately in
+`CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` §5 and
+`cic-poc/backend/app/prompts/facilitator_prompts.py` (A1, A2, Harmful Dynamic
+templates). This closes the standing contradiction with Facilitator Governance V3.6
+§12 that the project's own ALX battery graded MARGINAL twice and called "a hard
+pre-freeze fix item" (`Ministry/Technology/Pass2/batteries/S6.2_ALX_battery_A_grading.md`,
+`S6.2_ALX_battery_B_grading.md`).
+
+**Option C's tiered addition (a named, jurisdiction-appropriate resource for known
+testers) is not shipped tonight.** It needs an actual answer to this document's own
+open question — who is testing, and is their jurisdiction actually known — before it
+can be built responsibly, and that is Mark's call, not a default to assume. Treat
+Option C as separately-scoped follow-up work, not blocked on Option A, not implied by
+it.
+
+Full detail on what changed and why: see the 2026-08-05 entry in
+`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`.

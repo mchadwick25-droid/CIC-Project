@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Peter Brown
 work_title: 'Through the Eye of a Needle: Wealth, the Fall of Rome, and the Making of Christianity in

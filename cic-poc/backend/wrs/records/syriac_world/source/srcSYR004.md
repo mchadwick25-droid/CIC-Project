@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Nisibis siege material; Jacob of Nisibis; 363 cession/transition context (Doc_01 Sec. 2)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Existence and general content confirmed; CSCO volume-numbering shows minor inconsistency
   across secondary sources — flagged for direct catalog check before citing specific hymns by volume (see

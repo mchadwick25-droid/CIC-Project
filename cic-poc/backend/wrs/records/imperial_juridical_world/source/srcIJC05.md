@@ -11,12 +11,14 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Ambrose of Milan, Epistula 51 (to Theodosius, on the Thessalonica massacre)
-language: la
+language: lat
 licensed_for: Strand C (Doc_01 §4); Ambrose's own Author Gravity entry
 verification_note: 'Registry-carried assessment fields, verbatim: type=P; confidence=B; boundary=Native.
   Verification Note: Drawn from this build''s own historical knowledge; not independently re-collated
   this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 5)
 jobs:
 - 1

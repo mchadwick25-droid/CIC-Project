@@ -1,0 +1,175 @@
+{
+ "screenshots": [
+  "/home/user/CIC-Project/Ministry/Features/Atlas-World-Map/Design/tools/shots/atlas-v3_390_light.png",
+  "/home/user/CIC-Project/Ministry/Features/Atlas-World-Map/Design/tools/shots/atlas-v3_390_dark.png",
+  "/home/user/CIC-Project/Ministry/Features/Atlas-World-Map/Design/tools/shots/atlas-v3_1280_light.png",
+  "/home/user/CIC-Project/Ministry/Features/Atlas-World-Map/Design/tools/shots/atlas-v3_1280_dark.png"
+ ],
+ "overlaps": [],
+ "smoke": {
+  "totalNodes": 257,
+  "counterText": "257 movements · ten eras",
+  "searchCopticMatches": 8,
+  "searchCopticCounterText": "8 of 257 movements",
+  "liveChipMatches": 6,
+  "liveChipCounterText": "6 of 257 movements",
+  "hoverTipVisible": true,
+  "sheetClosedBeforeClick": true,
+  "sheetOpensOnClick": true,
+  "railLinks": 10,
+  "mobilePinchScaleBefore": 0.317073,
+  "mobilePinchScaleAfter": 0.845528,
+  "mobilePinchChangedScale": true
+ },
+ "jsErrors": [],
+ "foreignTailOverlaps": [
+  {
+   "width": 390,
+   "scheme": "light",
+   "count": 17,
+   "sample": [
+    {
+     "node": "makurian-nubian-christianity",
+     "foreignTailOf": "latin-africa-under-byzantium",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "carolingian-reform-christianity",
+     "foreignTailOf": "british-welsh-christianity",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "the-bosnian-church",
+     "foreignTailOf": "kievan-rus-christianity-1054-1240",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "st-thomas-christians-1300-1517",
+     "foreignTailOf": "syriac-renaissance",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "late-medieval-lay-parish-piety",
+     "foreignTailOf": "rhineland-mysticism-and-the-friends-of-god",
+     "overlapX": 5,
+     "overlapY": 3
+    }
+   ]
+  },
+  {
+   "width": 390,
+   "scheme": "dark",
+   "count": 17,
+   "sample": [
+    {
+     "node": "makurian-nubian-christianity",
+     "foreignTailOf": "latin-africa-under-byzantium",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "carolingian-reform-christianity",
+     "foreignTailOf": "british-welsh-christianity",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "the-bosnian-church",
+     "foreignTailOf": "kievan-rus-christianity-1054-1240",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "st-thomas-christians-1300-1517",
+     "foreignTailOf": "syriac-renaissance",
+     "overlapX": 5,
+     "overlapY": 3
+    },
+    {
+     "node": "late-medieval-lay-parish-piety",
+     "foreignTailOf": "rhineland-mysticism-and-the-friends-of-god",
+     "overlapX": 5,
+     "overlapY": 3
+    }
+   ]
+  },
+  {
+   "width": 1280,
+   "scheme": "light",
+   "count": 5,
+   "sample": [
+    {
+     "node": "carolingian-reform-christianity",
+     "foreignTailOf": "british-welsh-christianity",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "st-thomas-christians-1300-1517",
+     "foreignTailOf": "syriac-renaissance",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "mission-born-christianities-kirishitan-japan-kon",
+     "foreignTailOf": "inquisition-record-sects-adamites-and-kin",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "dutch-further-reformation-and-refuge-culture",
+     "foreignTailOf": "lutheran-wittenberg-and-its-congregations",
+     "overlapX": 27,
+     "overlapY": 8
+    },
+    {
+     "node": "the-post-vatican-ii-parish-world",
+     "foreignTailOf": "the-east-african-revival-balokole",
+     "overlapX": 25,
+     "overlapY": 8
+    }
+   ]
+  },
+  {
+   "width": 1280,
+   "scheme": "dark",
+   "count": 5,
+   "sample": [
+    {
+     "node": "carolingian-reform-christianity",
+     "foreignTailOf": "british-welsh-christianity",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "st-thomas-christians-1300-1517",
+     "foreignTailOf": "syriac-renaissance",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "mission-born-christianities-kirishitan-japan-kon",
+     "foreignTailOf": "inquisition-record-sects-adamites-and-kin",
+     "overlapX": 28,
+     "overlapY": 8
+    },
+    {
+     "node": "dutch-further-reformation-and-refuge-culture",
+     "foreignTailOf": "lutheran-wittenberg-and-its-congregations",
+     "overlapX": 27,
+     "overlapY": 8
+    },
+    {
+     "node": "the-post-vatican-ii-parish-world",
+     "foreignTailOf": "the-east-african-revival-balokole",
+     "overlapX": 25,
+     "overlapY": 8
+    }
+   ]
+  }
+ ]
+}

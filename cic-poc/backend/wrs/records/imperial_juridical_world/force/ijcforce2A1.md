@@ -33,6 +33,8 @@ connections:
   target_id: ijcforce3B1
   note: 'Doc_08 SS4 Connection 4: the imperial-proximity logic 2A-1 keeps alive produces, via the Strand
     Determination, the Canon-28 collision.'
-sources: []
+sources:
+- source_id: srcIJC16
+- source_id: srcIJC33
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] linked 2026-08-05 (full-system review, Rigor P0-3) to Source_Registry.md rows 16 (Theodosian Code, Edict of Thessalonica) and 33 (Hanson on Homoian theology).

@@ -20,6 +20,8 @@ script: Grek
 licensed_for: Jacob of Nisibis material — Nicaea attendance, siege-deliverance legend (Doc_09 syrstory003,
   syrstory006); Ephrem's role as instigator/hymnodist correctly distinguished from Jacob's role as miracle-worker
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-07, Doc_09 Step 9 pass
 verification_note: Direct quotation obtained and verified this session (NPNF2 translation); the siege-miracle
   attribution to Jacob rather than Ephrem was independently cross-confirmed by two separate research passes

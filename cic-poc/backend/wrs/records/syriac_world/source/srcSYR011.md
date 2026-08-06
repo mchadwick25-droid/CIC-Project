@@ -19,6 +19,8 @@ language: und
 script: Zyyy
 licensed_for: Cultural/scriptural distinctiveness — narrative-unity Gospel tradition (Doc_01 Sec. 4)
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: no complete Syriac original survives; content is triangulated
   from indirect witnesses only. Dura fragment''s Diatessaronic identity is a live, unresolved dispute

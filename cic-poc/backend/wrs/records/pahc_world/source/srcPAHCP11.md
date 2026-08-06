@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Archaeological site, Syria
 work_title: Dura-Europos house-church
 work_locus: c.232-256 CE
@@ -22,6 +22,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   rule): Documented confidence, but flagged for downstream MISUSE RISK — this source is frequently borrowed
   backward into this world''s own period in error. EXCLUSION REASON (registry, verbatim): Out-of-Boundary'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
+  formation_confidence: Documented
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

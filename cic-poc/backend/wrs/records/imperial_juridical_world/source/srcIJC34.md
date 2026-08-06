@@ -11,12 +11,14 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 work_title: Daniel H. Williams, *Ambrose of Milan and the End of the Arian-Nicene Conflicts* (1995)
-language: en
+language: eng
 licensed_for: The Milanese, Ambrose-facing dimension of the Homoian conflict (Doc_02 §7)
 verification_note: 'Registry-carried assessment fields, verbatim: type=S; confidence=B; boundary=Native.
   Verification Note: A standard critical study per this build''s own knowledge; not independently re-checked
   this session'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-31 (S6.2/IJC S2.1, mechanical from Source_Registry.md row 34)
 jobs:
 - 1

@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: la
+language: lat
 script: Latn
 work_author: Isidor Hilberg (ed.)
 work_title: Sancti Eusebii Hieronymi Epistulae, CSEL 54-56 (Vienna, 1910-1918) - the critical edition

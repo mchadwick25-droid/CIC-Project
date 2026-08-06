@@ -66,7 +66,7 @@ voice_surface: 'The Word is of one substance with the Father - with him, not les
   freedom to explore now bounded. We hold both, and we do not pretend the drawing cost nothing.'
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-28'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -115,3 +115,5 @@ contested_claim_ids:
 - alexclaim003
 ---
 CO-P2-15 (Mark, 2026-07-28) - governed-CT term record authored (the CO-P2-03 Alexandria application): Doc_06 SS2's authority table is the contest source (verbatim-adjacent); the S2.6 claim records carry the contest analysis; world_meaning/voice_surface authored from-inside per the built terms' register; prior sense UNVERIFIED-flagged per the S2.3 convention. Tier 2 (this world assigns no Tier 3). No chunk file exists yet - the chunk view generates one at swap time. See wrs/migrate/s62_alx_s29_co15.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: mixed signal: 1/3 linked sources show active-discovery channels, 2/3 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

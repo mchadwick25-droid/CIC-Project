@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Ignatius of Antioch
 work_title: Ignatius's Letters (middle recension, 7 letters)
 work_locus: traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)
@@ -27,6 +27,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   the love-feast clause is what corrects the downstream ''agape label has no primary-source anchor'' error
   in Doc_03.]'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

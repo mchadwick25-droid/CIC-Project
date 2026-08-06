@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Anonymous (Smyrna community; framed as a letter from the church at Smyrna to the church at
   Philomelium)
 work_title: Martyrdom of Polycarp
@@ -30,6 +30,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   narrative letter (Smyrna church to Philomelium), not a private correspondence or treatise like this
   world''s other primary voices.'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

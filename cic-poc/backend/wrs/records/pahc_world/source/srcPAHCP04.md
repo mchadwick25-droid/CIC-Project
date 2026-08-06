@@ -11,7 +11,7 @@ boundary_status: Native
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Polycarp of Smyrna
 work_title: Polycarp, Letter to the Philippians
 work_locus: c.110s-160s CE depending on unity theory
@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=Yes. Notes: ~1/3 of letter (chs.10-14) has no independent Greek manuscript check,
   only Latin + Eusebius'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: C
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

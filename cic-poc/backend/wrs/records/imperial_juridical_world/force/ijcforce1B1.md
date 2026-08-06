@@ -32,4 +32,4 @@ connections:
   note: Back-edge of SS4 Connection 1.
 sources: []
 ---
-Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring.
+Migrated at the S6.2/IJC S2.5-equivalent (2026-07-31) from Doc_08_Forces_Document.md SS3 (layers verbatim) + SS4 (connections in the doc's own words); layer4 rule in wrs/migrate/s62_ijc_s25.py's docstring. sources[] deliberately left empty, 2026-08-05 (full-system review, Rigor P0-3): this force describes the pre-312 proto-orthodox church this world inherits from World #1 (Post-Apostolic House-Church) - its evidentiary base lives in that world's own registry, not this one's (Source_Registry.md is scoped to this world's own 312-451 window). Left honestly unsourced rather than backfilled with a same-world row that isn't actually where this claim's evidence lives.

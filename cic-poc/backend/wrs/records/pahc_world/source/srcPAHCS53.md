@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Barbara Levick / Heikki Solin
 work_title: Chrestus identification dissent (classicist)
@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   data is a specific, checkable counter-argument See S52''s Notes for this pair''s shared position-cluster
   convention statement.'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

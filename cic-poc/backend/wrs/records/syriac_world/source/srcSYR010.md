@@ -20,6 +20,8 @@ script: Syrc
 licensed_for: Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem.
   5); anti-Jewish polemical material
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7
   CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.'

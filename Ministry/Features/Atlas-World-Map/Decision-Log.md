@@ -13,6 +13,4043 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-05 (Pass 7, UI 22) — Mobile pinch-zoom rebuilt map-only, ending six rounds on the whole-page-zoom approach
+
+**The report that closed out the whole-page-zoom line:** "the x works
+again [confirming UI 21's stuck-modal fix held], when fully zoomed out
+the box is in the right place but too small to read, when i start to
+zoom in it starts to expand, but after a little bit of zooming it jumps
+off the page partially left and down, then i can get to it, but its
+still rough and unpredictable." At that point `#sheet` was PURE static
+CSS -- zero app JS touching its position -- yet it still jumped
+specifically DURING an active pinch gesture. That's diagnostic on its
+own: the roughness was never this page's bug to fix. `position:fixed`
+elements are not reliably glued to the visual viewport WHILE a native
+pinch gesture is in progress on real mobile browsers -- a genuine,
+long-documented web platform rough edge, not something more CSS or JS
+cleverness was going to tame, because the whole-page-zoom approach (UI
+16's original design) put the header AND the click-document sheet
+inside the SAME zoomable surface as the map, so anything the browser
+did to that surface mid-gesture reached them too.
+
+**Asked Mark to choose, with the real tradeoff now concrete rather than
+theoretical:** live with the roughness, drop pinch-zoom and go back to
+plain scroll (losing the capability this whole six-round effort was
+for), or rebuild zoom scoped to just the map -- real new engineering on
+the most fragile part of this codebase, the exact risk avoided by
+picking the native/whole-page approach back in UI 16. He chose the
+rebuild.
+
+**Architecture:** `#mapViewport` is a new, bounded-height,
+self-contained scrolling "map pane" (like an embedded map) sized to the
+screen space below `#controls`. Inside it, `#mapScaler` is a plain
+block sized to the CURRENT scaled content dimensions
+(`contentSize * mapScale`) purely so `#mapViewport`'s native
+`overflow:auto` has the correct scrollable range at any zoom level.
+`#wrap` itself never changes size -- only `transform:scale()`, with
+`transform-origin` pinned top-left to keep the math simple. The page's
+own `<meta name=viewport>` is NEVER touched again (stays exactly
+`width=device-width, initial-scale=1` always), so native browser zoom
+for accessibility remains fully available everywhere on the page.
+`#sheet`, `#scrim`, `#controls`, and `#railWrap` are structural
+SIBLINGS of `#mapViewport`, never descendants of it -- no zoom state of
+any kind, from the map or otherwise, can reach them anymore. This is
+the property that actually closes out all six prior rounds at once,
+structurally, rather than chasing the next real-device edge case: the
+click-document sheet doesn't need ANY mobile-specific sizing logic
+anymore, because there is no longer a page-level zoom for it to be
+downstream of.
+
+**Gesture handling:** single-finger pan is NOT custom code --
+`touch-action:pan-x pan-y` (CSS) leaves native browser scrolling on
+`#mapViewport` completely alone, exactly the same native mechanism this
+whole feature has relied on since UI 16. Only a genuine 2-finger touch
+is intercepted (`touchstart`/`touchmove` on `#mapViewport`, only when
+`ev.touches.length===2`): the distance between the two touch points
+drives the scale change, and the pinch's midpoint drives a
+"zoom-to-point" correction (`zoomMapAtPoint`) that recomputes
+`scrollLeft`/`scrollTop` so the content under the user's fingers stays
+visually stationary as the scale changes -- without this correction,
+zooming anywhere but the top-left corner would visibly drift, which
+would just be a smaller-scale version of the exact bug this rebuild
+exists to eliminate.
+
+**Two smaller migrations this required:** (1) the era-jump rail and the
+scroll-driven rail-highlight/year-badge, which used to read
+`window.scrollY` directly, now read `#mapViewport`'s own scroll state
+on mobile (multiplying/dividing by `mapScale` to convert between the
+unscaled content coordinates `layout()` computes and the scaled scroll
+coordinates `#mapViewport` actually uses) -- desktop's original
+`window.scrollY` logic is untouched, gated by `isMobileDevice`. (2)
+`#mapViewport`'s own height, sized against `#controls`' current height,
+is recomputed when the filter panel opens/closes (its `max-height`
+transition changes `#controls`' own height over ~0.2s, so the recompute
+runs on a matching delay, not at the click itself).
+
+**A real bug caught and fixed before any of this shipped, unrelated to
+zoom:** the WINDOW resize listener still had UI 16's `selfTriggeredResize`
+guard, built specifically to suppress `layout()` re-running in response
+to THIS page's own now-removed viewport-meta rewrites. With nothing left
+to self-trigger, the guard was dead weight -- removed along with the
+`setViewportMeta`/`setMobileMapZoom`/`metaVp` machinery it protected.
+
+**A test-methodology false alarm, caught before it became a wasted
+round:** a `fullPage:true` Playwright screenshot at 390px initially
+looked like it showed map content duplicated below the "Reading the
+marks" footer -- alarming, since nothing in the new structure should
+produce that. Measuring `#mapViewport`'s and `<footer>`'s actual
+`getBoundingClientRect()`s showed them ending/starting within ~16px of
+each other, contradicting the visual read; cropping the SAME screenshot
+at full pixel resolution (rather than judging the AI-downscaled preview
+by eye) confirmed a completely clean transition from map to footer,
+with no gap or duplication. Recorded here because it's a real trap: a
+compressed preview image is not a substitute for measuring the actual
+DOM, and the instinct to chase a phantom bug was strong enough to be
+worth naming so it doesn't happen again on this file.
+
+**Verified, using real multi-touch gesture simulation for the first
+time this whole feature (previous rounds could only fake single
+properties, never a genuine gesture) via raw CDP
+`Input.dispatchTouchEvent` with two synthetic touch points:** a
+simulated pinch-out from `(20px gap)` to `(100px gap)` around a fixed
+midpoint scaled `mapScale` from 0.317 to 1.585 -- exactly 5x, matching
+the 5x gap growth precisely; `scrollLeft`/`scrollTop` updated to keep
+that midpoint visually anchored. Pinch-zoomed directly onto a specific
+node (House-Churches), confirmed it was still correctly tap-openable at
+its new, larger, moved position with ZERO changes needed to the
+existing tap-to-open code (`getBoundingClientRect()` and DOM hit-testing
+are both transform-aware by default) -- and confirmed the resulting
+sheet rendered at `transform:none`, full native `390px` width, completely
+independent of the map's `1.33x` zoom at the moment it opened. Single-
+finger touch-drag (separately simulated, since mouse-drag and touch-
+drag are different input paths and only one is native-scroll-eligible)
+correctly scrolled `#mapViewport`. Era-rail jump correctly moved
+`#mapViewport.scrollTop` and highlighted the right button; search still
+filtered correctly; filter-panel toggle correctly resized
+`#mapViewport`. Full Playwright harness clean (0 overlaps, 0 JS
+errors); `validate-census.mjs` clean. Desktop re-verified completely
+unchanged at every level checked: viewport meta, node width, sheet
+layout, AND (new checks for this pass) `#mapViewport` computed
+`overflow:visible` with no inline height, `#wrap` with no transform and
+its original natural width -- confirming the new elements are
+functionally invisible/inert on desktop, not just visually absent.
+
+**Honest framing for what's still unverified:** this is the sixth
+attempt at mobile pinch-zoom and the first built around a genuinely
+different mechanism (scoped custom gesture handling instead of native
+whole-page zoom) rather than a refinement of the same one. Multi-touch
+CDP simulation is a real gesture, more convincing evidence than any
+prior round had, but it is still not a real finger on real glass. This
+should be checked on an actual phone before being treated as fully
+settled.
+
+---
+
+## 2026-08-05 (Pass 7, UI 21) — Mobile sheet: reverted to static sizing after a genuine regression, five rounds in
+
+**The report:** "still not working, their is not dark screen so it must
+be behind the page, it performed worse that time it would get stuck and
+I couldnt close it." A different kind of report than the four before
+it. UI 18-20 each described a sizing or positioning imperfection --
+readable but wrong-shaped, small, off-center. This one describes the
+sheet failing at the one thing it absolutely cannot fail at: opening
+and closing. Stuck and unclosable is a worse outcome than anything the
+original "crammed to the right" complaint (UI 16) started from.
+
+**Not chasing a sixth fix.** UI 18, 19, and 20 each correctly diagnosed
+and fixed exactly what the previous real-device report described --
+and each time, the NEXT real-device test found a different failure
+underneath, none of which had reproduced in headless Chromium testing
+at any point. Four straight rounds of "clean in emulation, broken in a
+new way on the actual phone" is a signal about the STRATEGY, not about
+any single implementation being slightly wrong: dynamically deriving
+the sheet's live geometry from browser viewport state (first
+`visualViewport` properties, then `#scrim`'s measured rect, both
+re-evaluated on every `visualViewport` resize/scroll event, each firing
+writing several style properties plus a forced layout reflow via
+`offsetHeight`) kept finding real-device edge cases this session has no
+way to reproduce or verify directly. The live-listener version is also
+a real, if unconfirmed, candidate for the specific "stuck" failure --
+a feedback loop between the geometry writes and further viewport events
+is a plausible mechanism, though it couldn't be reproduced or
+disproven in headless testing either.
+
+**Reverted entirely, not patched further.** No live listeners, no
+measuring `#scrim` or `window.visualViewport`, no per-open
+recomputation, no `offsetHeight` reflow. `#sheet`'s `max-width` and
+`max-height` are set ONCE, statically, from the stable
+`screen.width`/`screen.height` (the same target VALUES UI 18
+established were correct, just without any of the dynamic machinery
+around them) -- and the show/hide animation reverts to the ORIGINAL
+`bottom:-105% -> bottom:0` transition, which was never implicated in
+any of the five reports; only the dynamically-computed JS geometry ever
+was.
+
+**What this trades away, said plainly:** the sheet will not be
+perfectly sized or positioned at every possible zoom/pan state -- opened
+while the map is significantly zoomed out or panned off-center, it may
+still appear smaller than the physical screen or not perfectly
+centered on whatever's currently visible, the same class of cosmetic
+imperfection UI 18 first reported. That trade is deliberate: after five
+rounds, the property that matters more than exact correctness at every
+zoom state is that the sheet reliably opens and reliably closes, every
+time, with zero risk of hanging the page. If real-world use finds the
+static sizing genuinely too small to be usable (not just imperfect),
+that's a real open problem worth returning to -- but with a DIFFERENT
+strategy than live-tracking browser viewport state, which this session
+has now spent five rounds failing to make reliable on a real device.
+
+**Verified:** close/reopen cycle with a different entry re-tested
+clean, no errors. Full Playwright harness clean (0 overlaps, 0 JS
+errors); `validate-census.mjs` clean. Desktop re-verified unchanged.
+Real-device confirmation that the "stuck, can't close" failure is
+actually gone is the one thing this session cannot do itself -- flagged
+here rather than claimed.
+
+---
+
+## 2026-08-05 (Pass 7, UI 20) — Mobile pinch-zoom, round five: measure what's already correct instead of recomputing it
+
+**The report:** "it isn't perfect, but better, when zoomed out its
+small and still goes to the lower left, but you can expand and read it
+ok." Progress -- the "jumps mostly off screen" failure from UI 19 is
+gone, and the sheet is at least usable once expanded -- but the resting
+(zoomed-out) case is still off. Third straight round where headless
+Chromium testing gave a clean result and a real phone found the next
+layer underneath it.
+
+**The tell that pointed to the actual fix:** nothing was reported wrong
+with `#scrim`, the dark backdrop directly behind the sheet. It's also
+`position:fixed`, also meant to cover the whole visible screen
+(`inset:0`), and evidently does -- a backdrop only covering part of the
+screen, leaving map visible around its edges, would have been the more
+obvious complaint by far. So `position:fixed` itself was never the
+unreliable part on this device. What UI 19 actually did was derive the
+SHEET's geometry independently, from `window.visualViewport`'s
+`offsetLeft/offsetTop/width/height` properties -- a separate calculation
+that had to independently arrive at the same answer `#scrim` was
+already visibly getting right, and evidently didn't, at least not at
+the very first (zoomed-out, no gesture yet) render.
+
+**Fix:** stopped computing the sheet's geometry from `visualViewport`
+properties at all. `updateSheetGeometry()` now measures `#scrim`'s own
+`getBoundingClientRect()` -- whatever rectangle it is ACTUALLY, visibly
+covering, which by definition is the true current screen -- and sizes/
+positions the sheet to match that measured rectangle directly. No
+independent math left to drift out of sync with what's already known to
+be correct. Required reordering `openSheet()` slightly: `scrim` needs
+its `.on` class (display:block, not display:none) added BEFORE its rect
+is measured, or the measurement is all zero -- scrim now goes visible
+first, sheet's geometry is computed second, sheet goes visible third.
+Live tracking while the sheet stays open is unchanged in mechanism
+(still triggered by `visualViewport` resize/scroll events) -- only what
+happens INSIDE the handler changed, from reading `visualViewport`
+numbers to re-measuring `#scrim`.
+
+**Verified:** re-confirmed the resting-zoom case still matches UI 19's
+result (`scrim` and `sheet` both measure `left:0, width:1230` at the
+canvas's ~0.317x rest zoom -- consistent, since at rest nothing should
+have changed). Directly tested the NEW re-measurement path (the OLD
+test, which faked `visualViewport` properties, no longer exercises
+anything real now that those properties aren't read) by moving
+`#scrim`'s actual rendered rect via its own inline style to a specific
+simulated "pinched to (300,500), 390×844" position and firing the same
+trigger event a real gesture produces -- the sheet moved to
+`left:300, top:686, width:390, bottom:1344`, exactly matching scrim's
+new rect. Close/reopen cycle with a different entry re-tested clean.
+Full Playwright harness clean (0 overlaps, 0 JS errors);
+`validate-census.mjs` clean. Desktop re-verified unchanged.
+
+**Named honestly:** this is the third consecutive round on this one
+element where a fix that tested clean in headless Chromium needed a
+real phone to find what was still wrong. This round's fix rests on one
+fact that so far hasn't been contradicted by any report -- that
+`#scrim`'s plain `inset:0` is correct -- rather than on reasoning about
+viewport APIs in the abstract, which is what the last two rounds did and
+both turned out to be short in a way only a real device surfaced. If
+this is STILL off, "does the dark backdrop itself look correctly
+full-screen when zoomed out" is the next fact worth checking before
+writing any more code.
+
+---
+
+## 2026-08-05 (Pass 7, UI 19) — Mobile pinch-zoom, round four: the sheet needed to track the LIVE visual viewport, not a snapshot of it
+
+**The report, on a real phone this time:** "no it is square but small,
+and when you zoom in it jumps to the left and down mostly off the
+screen." UI 18's fix computed the sheet's size from
+`screen.width|height / visualViewport.scale` -- correct math, verified
+three ways in testing -- but only ONCE, at the moment `openSheet()` ran.
+Confirms two things at once: the scale-math approach was fundamentally
+the wrong shape of fix (a live gesture happening AFTER open was never
+going to be caught by a one-time calculation, however correct that
+calculation was in the instant it ran), and `position:fixed`'s
+`left:0`/`bottom:0` are NOT reliably tracking the visual viewport on a
+real device -- confirmed now, not just flagged as a theoretical risk in
+UI 16's original note.
+
+**Fix, a different shape entirely:** stopped trusting `position:fixed`
+to track anything on its own. `updateSheetGeometry()` reads
+`window.visualViewport.offsetLeft/offsetTop/width/height` directly --
+the live, authoritative description of exactly where the physical
+screen currently sits within the page -- and writes `left`/`width`/
+`max-width`/`max-height`/`top` in JS pixels explicitly, every time.
+`top` instead of `bottom`, deliberately: `top` only needs an OFFSET from
+the layout viewport's top edge, which `visualViewport.offsetTop` gives
+directly, while `bottom` would need the layout viewport's TOTAL height
+-- the exact same inflated, unreliable value that caused UI 18's
+original `max-height:78vh` bug in the first place. Height is measured
+via `sh.offsetHeight` AFTER `max-height` is applied and BEFORE `top` is
+computed, so a short entry still sits flush at the screen's bottom
+instead of leaving a gap. Called once on open, then live on every
+`visualViewport` `resize`/`scroll` event for as long as the sheet stays
+open (registered in `openSheet`, unregistered in `closeSheet`) -- so a
+pinch or pan that happens mid-read keeps the sheet correctly sized and
+positioned instead of freezing it to whatever the scale happened to be
+at the moment of the tap. The show/hide slide animation moved from
+animating `bottom` to animating `transform:translateY`, specifically so
+it composes on top of whatever `top`/`left` this function just computed
+instead of needing its own correct `bottom` value (which was the
+un-fixable dependency this whole redesign exists to avoid).
+
+**Verified:** opened the sheet at the map's resting zoom (~0.317x) and
+confirmed correct full-width geometry, matching UI 18's prior result;
+then, with the sheet still open, directly overrode
+`visualViewport.offsetLeft/offsetTop/width/height` to a specific
+simulated "pinched in and panned to (300,500), 390×844" state and fired
+the same `resize` event a real gesture produces -- the sheet moved and
+resized to `left:300, top:686, width:390, height:658`, exactly matching
+that simulated viewport's bounds (`686 = 500+844-658`, `1344 = 500+844`
+bottom edge). This is the first round of this feature where the FULL
+failure mode reported live-updating during an open sheet, not just
+sizing at open time -- could be directly reproduced and confirmed fixed
+in testing, not just reasoned about. Close/reopen cycle with a different
+entry re-tested clean, no stray state from the previous open. Full
+Playwright harness clean (0 overlaps, 0 JS errors); `validate-census.mjs`
+clean. Desktop re-verified completely unchanged (`updateSheetGeometry`
+and `sheetVvListen` both return immediately when `!isMobileDevice`).
+
+---
+
+## 2026-08-05 (Pass 7, UI 18) — Mobile pinch-zoom, round three: the click-document sheet was "a thin long field"
+
+**The report:** "it is a thin long field, on the desktop it works ok,
+but on the phone it is to small to read, we need to expand it to the
+full width of the screen, and that should solve where it shows up
+also." Measured the actual rendered box rather than guessing why, since
+this is the second time a plausible-looking fix to this exact element
+(the click-document sheet, `#sheet`) turned out to need real numbers to
+diagnose correctly (UI 16 tried the same territory and found a worse bug
+by testing before shipping).
+
+**Two real, separate causes, both confirmed by measuring the live DOM:**
+1. `max-height:78vh` in `#sheet`'s CSS is relative to the LAYOUT
+   viewport height, which UI 16's own pinch-zoom widen also inflates on
+   mobile (the wide canvas needs a proportionally taller layout viewport
+   to keep the zoom math internally consistent). Measured: max-height
+   resolved to 1633px against a 390px-wide sheet -- correctly narrow,
+   absurdly tall. That's the "thin long field."
+2. Pinning the sheet's width to the true `screen.width` (390px, UI 16's
+   own fix) isn't enough on its own, because the sheet is ordinary page
+   content -- it's zoomed out right along with the map. At the canvas's
+   resting "fit to screen" zoom (~0.317x on a typical packed width), a
+   390px-wide box renders at roughly a third of the physical screen:
+   still thin. What actually fills the screen at the CURRENT zoom is
+   `screen.width / visualViewport.scale` of CSS px -- which equals the
+   full canvas width W at the map's resting zoom, shrinking toward
+   literal `screen.width` only once the user has pinched all the way in
+   to native 1:1 reading scale.
+
+**Fix:** `sizeMobileSheet()`, called fresh every time `openSheet()` runs
+(not once at page load -- the user's zoom level can differ each time
+they tap a box), computes width and max-height from
+`screen.width|height / visualViewport.scale` and sets them directly,
+overriding the vw/vh-relative CSS the wide viewport now skews. `left:0`,
+`right:auto`, `margin:0` are set once (position doesn't depend on zoom)
+so width alone determines the box instead of the old left+right+
+margin:auto centering, which had also been landing the sheet centered
+on the wide canvas (x=420) rather than pinned to the screen's true left
+edge -- Mark's own instinct ("expand to full width... should solve
+where it shows up") was right: a sheet sized to actually fill the
+current screen doesn't have room to appear anywhere but pinned to it.
+
+**Verified:** re-measured the live sheet after the fix at the map's
+resting zoom -- width/maxHeight now resolve to exactly `screen.width`
+and `screen.height*0.78` in PHYSICAL terms (1230px/2077px in CSS terms
+at the 0.317x resting zoom, which is precisely W and 78% of the
+inflated height -- the same numbers scaled back to native size).
+Directly tested the scale-dependent FORMULA (not just the resting-zoom
+case) by mocking `visualViewport.scale` to 1, 0.5, and 0.317 before
+opening the sheet each time: computed width/height matched the expected
+`screen.width/scale` and `screen.height*0.78/scale` in all three cases
+exactly. A genuine live pinch gesture's effect on `visualViewport.scale`
+could not be simulated in headless Chromium (confirmed unreliable when
+tried, consistent with UI 16's finding that dynamic viewport mutation
+doesn't fully propagate in this test environment) -- the three-scale
+formula test is the closest verification available short of a real
+device, and the formula itself is simple, direct division with no
+hidden assumption that would only hold at one particular scale. Full
+Playwright harness clean (0 overlaps, 0 JS errors); `validate-census.mjs`
+clean (census untouched). Desktop re-verified completely unchanged
+(`sizeMobileSheet` and the left/right/margin override both return
+immediately when `!isMobileDevice`).
+
+---
+
+## 2026-08-05 (Pass 7, UI 17) — Mobile pinch-zoom, round two: families were clustering in the left third of the canvas, zoomed out
+
+**The report, immediately after UI 16 shipped:** "we can double the
+width on the phone, when zoomed out fully everything is on the left
+side of the canvas." True, and once pinch-zoom made the WHOLE canvas
+visible at once for the first time, it exposed a design decision that
+had been sitting quietly in `tryPack` all along, never really testable
+until now.
+
+**Root cause:** `tryPack`'s anchor-spread line --
+`const AW=Math.min(W,viewW);` -- deliberately spreads each era's family
+anchors across the SCREEN width, not the full packed canvas width, with
+its own comment explaining why: "extra canvas width is pure spill room
+to the right ... never an excuse to scatter the families wider." On
+desktop and on mobile before UI 16, that reasoning held -- the canvas's
+extra width past the screen was mostly invisible, something you'd only
+find by actively scrolling right into overflow, so keeping the families
+themselves clustered near what was actually on screen made sense. UI 16
+changed that premise for mobile specifically: the packed canvas is now
+routinely shown in FULL, zoomed out, in one glance. With anchors still
+capped at the original ~390px screen width while the canvas itself
+packed out to 1170-1230px, every family's "home" position sat in the
+left third of a canvas the viewer could now see whole -- exactly "on the
+left side," with the right two-thirds sitting mostly empty except for
+whatever individual boxes had to spill there to avoid collisions.
+
+**Fix:** on mobile only, `AW` now equals the full packed width `W`
+instead of `Math.min(W,viewW)` -- anchors spread across the whole
+canvas, the same canvas the whole-page pinch-zoom now shows at once.
+Desktop's line is untouched (`isMobileDevice?W:Math.min(W,viewW)`),
+preserving the original screen-clustered behavior there, where the
+original reasoning still applies unchanged.
+
+**Verified against real Chromium mobile emulation:** zoomed-out
+screenshots at Eras I-II and the Reformation era (VII, the busiest
+stretch on the map) both light and dark -- families now spread evenly
+across the full width instead of bunching left, in both color schemes;
+re-ran the full mobile interaction suite (node sizing, mobile-only CSS,
+bottom-sheet layout, tap-to-open, era-rail jump, search) with no
+regressions from the wider anchor spread. Full Playwright harness clean
+(0 overlaps, 0 JS errors) -- confirms the wider spread didn't introduce
+any new collisions, only relocated where boxes prefer to sit before
+collision-avoidance kicks in. `validate-census.mjs` clean (census
+untouched). Desktop re-verified completely unchanged (viewport meta,
+node width, sheet layout all identical to before this pass).
+
+---
+
+## 2026-08-05 (Pass 7, UI 16) — Mobile pinch-zoom/pan: the packed canvas is routinely wider than the phone screen, so let the browser's native gesture handle it
+
+**The report:** "on the phone it feels like everything is crammed to the
+right, we can expand to a width that when we scroll it fills the width,
+but pinch in and be able to slide right and left." Mobile's packed
+canvas has been wider than the screen since the very first mobile pass
+this project did (the whole reason the "less text" mobile CSS and the
+mobile dark-mode ring exist) -- until now that extra width just sat past
+the right edge of a fixed device-width viewport with no visual cue it
+was even there.
+
+**Two ways to build this, asked before writing any code:** (1) the whole
+page zooms together, native pinch-zoom on a viewport sized to fit the
+canvas at rest -- simple, standard, but the header/search shrink too
+until you pinch in; or (2) a custom pinch/pan built just for the map,
+header always full-size, but real new code layered onto the single most
+fragile part of this codebase (node placement, tooltips, and the
+tap-to-open sheet all depend on exact positions). Mark picked (1),
+explicitly on the lower-risk tradeoff.
+
+**Mechanism:** on mobile only, `layout()` now widens the page's own
+`<meta name=viewport>` to `width=${W}` (the packed canvas width already
+computed by `tryPack`) with `initial-scale` set so the whole canvas fits
+the screen at rest -- native pinch-zoom and native touch-pan take it from
+there, no custom gesture code. Desktop's viewport meta is never touched.
+
+**A real correctness trap this surfaced, fixed before it shipped:** every
+piece of mobile-specific behavior on this page -- the "less text" CSS,
+the responsive `HEAD`/`RH` era-header sizing, the mobile-vs-desktop
+`#sheet` layout -- was keyed off live `innerWidth`/`clientWidth` or
+`@media (max-width)`/`(min-width)` queries. Deliberately widening the
+layout viewport would have silently flipped every one of those the
+moment the canvas crossed 700px, making the page misclassify itself as
+desktop mid-session. Fixed by capturing an `is-mobile` class on `<html>`
+synchronously in `<head>` from `screen.width` (which the viewport widen
+never touches, unlike `innerWidth`/`clientWidth`) before boot() even
+runs, converting both `@media` blocks to `html.is-mobile`/
+`html:not(.is-mobile)` selectors, and switching every JS mobile check
+(`RH`, `HEAD`, the `viewW` used for box/thread density in `layout()`) to
+read that same frozen flag instead of a live viewport measurement.
+
+**A second trap, caught by testing against real Chromium mobile
+emulation, not assumed:** writing the viewport meta tag fires a native
+`resize` event, which the existing resize listener treated as a real
+window resize and answered by calling `layout()` again -- which ends its
+own run by writing the viewport meta, firing another resize. It
+converges rather than looping forever (the second pass computes the same
+width and writes the same content), but it's real wasted work every
+`layout()` call, so it's suppressed with a one-shot
+`selfTriggeredResize` flag: armed immediately before any write to the
+tag, consumed by the resize listener instead of re-running layout for
+that one event. A genuine window resize or orientation change never sets
+the flag, so it's never suppressed.
+
+**A design idea tried and deliberately dropped:** the first draft also
+flipped the viewport back to plain `device-width` while the click-document
+sheet (`#sheet`) was open, so it would read at native 1:1 scale
+regardless of whatever zoom the map was left at, then restored the wide
+state on close. Testing that against real mobile emulation found the
+sheet's own `left:0/right:0/max-width:640px` math resolving against a
+stale, inflated viewport HEIGHT after the toggle -- the sheet rendered
+anchored below the actual visible screen, unreachable. That's a worse
+bug than the one this feature set out to fix, so the toggle was dropped
+entirely rather than patched further. What shipped instead: the sheet's
+`max-width` is pinned once to the true `screen.width` (never wider than
+the physical screen at any zoom level), and its exact on-screen position
+while the user has actively pinched/panned away from the top of the page
+is named here as a known, accepted limitation -- `position:fixed` versus
+the visual viewport is genuinely inconsistent across real mobile
+browsers, and this pass doesn't claim to have solved that, only to have
+avoided making it worse.
+
+**Verified against real Chromium mobile emulation (iPhone 13 profile,
+`isMobile`/`hasTouch` on, the only way the viewport-meta scaling
+actually takes visual effect in testing):** initial load shows the full
+packed width fit to the screen at Eras I, IV, and VII with nothing cut
+off; `screen.width`-derived `is-mobile` class and every downstream mobile
+check (node width ~101px not desktop's 150px, `.node .nm` at .62rem,
+`#sheet` in bottom-sheet layout not the desktop side panel) held correct
+throughout, including after a simulated resize event, confirming no
+feedback loop and no misclassification; the sheet opens and reads
+correctly at the common case (tapped before any zooming); search, the
+era-rail jump, and the two-tap mobile preview-then-open interaction all
+still work. Desktop re-verified completely untouched -- viewport meta
+stays exactly `width=device-width, initial-scale=1`, node width stays
+150px, sheet stays the right-side panel. Full Playwright harness clean
+(0 overlaps, 0 JS errors); `validate-census.mjs` clean (census untouched).
+
+---
+
+## 2026-08-04 (Pass 7, UI 15) — Dark mode round two, mobile: the fix worked but was too thin to read at small size
+
+**The report, on the phone, same day as UI 14:** "we have the same
+problem on the phone, tertullian is an example." A real regression in
+scope, not a repeat of the same bug -- UI 14 was verified on desktop
+(1280px) before shipping and genuinely fixed desktop's contrast, but was
+never separately checked at mobile's smaller box size.
+
+**Diagnosis, by pixel-sampling the actual rendered screenshot** (not
+just computed-style values, since a box-shadow's real visibility depends
+on how it anti-aliases at actual size) at Tertullian's real position on
+a 390px viewport: the UI 14 fix (a 1px, 9%-opacity light ring) was
+*technically* present and *technically* passed a strict luminance check
+against the ribbon behind it (~3.4:1 at the single border pixel) -- but
+it rendered as one barely-there transition pixel between the box and a
+same-family-hue ribbon (Tertullian's own "Latin West" red family tint,
+both box fill and thread deriving from the same hue in dark mode). A
+1px edge that only technically clears a contrast minimum is still, in
+practice, too thin to read as a box outline at mobile's smaller size --
+this is the gap a computed-style check alone can't catch, only a real
+pixel-sampled render can.
+
+**Fix:** widened the ring from 1px to 1.5px and raised its opacity from
+9% to 22% (`0 0 0 1.5px rgba(255,255,255,.22)`), same `--node-shadow`
+custom property, no new mechanism. Re-sampled the same pixel row after
+the change: the edge is now a 2-3px graduated brightening before the
+border color hits, instead of one isolated pixel -- a real, perceptible
+outline rather than a value that only passes on paper.
+
+**Verified against the real site:** re-sampled Tertullian's exact pixel
+row (clear multi-pixel edge now, was one faint pixel before); mobile dark
+screenshots at Era IV, VII, and X (the three most crowded stretches, the
+same ones checked for the earlier mobile "less text" work) all show every
+box clearly separated from its ribbon; desktop dark re-checked at Era IV
+to confirm no regression there -- unchanged, if anything crisper; text
+contrast re-scan still 0 failures below 3.0 across all 257 nodes (that
+was never the actual problem). Full Playwright harness clean (0
+overlaps, 0 JS errors); `validate-census.mjs` clean (census untouched).
+
+---
+
+## 2026-08-04 (Pass 7, UI 14) — Dark mode "dark on dark": boxes were disappearing into their era's background band
+
+**The report:** "As i go through it some of the worlds don't show up well
+on the dark mode, the its dark on dard." True on the actual site, and
+worth finding the real mechanism before touching anything, since the
+site's whole dark-mode strategy is a single set of CSS custom properties
+redefined per theme — no ad hoc dark-mode selectors anywhere else in the
+file, and this fix needed to keep that pattern intact rather than add a
+new one.
+
+**Root cause, measured, not guessed:** computed WCAG contrast ratios
+between the box fill (`--panel`) and the 3-shade era background cycle in
+both themes. Light mode: ~1.2–1.23. Dark mode: ~1.06–1.09. Low in *both*
+themes at the raw color level — but light mode was being rescued by the
+box's existing `box-shadow:0 1px 2px rgba(0,0,0,.08)`, a dark shadow that
+reads clearly against a light era band. That same dark shadow is nearly
+invisible against an already-dark era band, so only dark mode actually
+manifested the symptom even though the underlying color problem exists
+in light mode too.
+
+**Fix:** a new `--node-shadow` custom property added to all four
+existing `:root` theme blocks (base, `prefers-color-scheme: dark`,
+`[data-theme="dark"]`, `[data-theme="light"]`) — the same mechanism
+already used for every other theme difference in the file. Light mode
+keeps the original shadow value unchanged. Dark mode gets a light-rgba
+1px ring plus a slightly stronger dark shadow
+(`0 1px 3px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.09)`), so
+separation no longer depends on the era band happening to be lighter
+than the box. `.node{box-shadow:...}` now reads `var(--node-shadow)`.
+Live-status boxes (`.node.live`) were untouched — they already carry
+their own family-hue background and shadow, and were never part of this
+report, confirmed by checking status classes on rendered nodes: every
+non-live status (def/sel/psc/exc/cev) is plain `.node` with no
+background override, so this one property covers all of them.
+
+**Verified against the real site, dark mode:** contrast-ratio scan
+across all 257 rendered nodes' text-vs-box color (0 failures below 3.0,
+confirming this was never a text-contrast issue); `getComputedStyle`
+confirms the new shadow value resolves correctly; screenshots at Era I,
+IV, VII, and X (the most crowded, multi-ribbon era) all show every box
+clearly separated from its era band, including where boxes sit against
+a busy stretch of overlapping colored ribbons. Full Playwright harness
+(`shoot.mjs`) clean — 0 overlaps, 0 JS errors, all interactions pass;
+`validate-census.mjs` clean (257 movements, 21 edges, 10 eras, 0
+errors/warnings — census untouched by this fix).
+
+---
+
+## 2026-08-04 (Pass 7, UI 13) — Mobile bundling reverted: "you lose the continuity and ability to find what you're looking for"
+
+**The verdict, after seeing it live, not a mockup:** "the grouping them
+doesn't work, you loose the continuity and ability to find what your
+looking for. go back to what we had before for the phone, just less
+text." Direct, unambiguous -- the tradeoff a prior mobile-bundling pass
+made (fewer boxes, narrower canvas, in exchange for folding crowded
+traditions behind a tap) cost more than it saved. Losing each
+tradition's own visible ribbon broke the thing that makes this a MAP
+rather than a list -- you can't trace a lineage through a bundle, and
+scanning for one specific tradition by eye no longer works once it's
+behind "14 active."
+
+**Reverted with `git revert`** (the bundling commit, on both the working
+branch and main) rather than hand-reconstructing the prior state --
+clean, single-commit, no conflicts, and confirmed byte-identical to the
+pre-bundling file by diff before moving on. Every ribbon, every
+individual box, the exact same packing `tryPack` produces on desktop --
+nothing about placement, continuity, or search changed from before the
+bundling attempt ever started. (That attempt's own decision-log entry
+reverted along with its code, since the two were committed together --
+recorded here instead: it was tried, shown on the real running site,
+and explicitly rejected for continuity and findability, which is worth
+knowing before anyone proposes grouping again.)
+
+**"Just less text" implemented as a plain CSS-only change**, deliberately
+NOT touching `NW` (box width) or anything inside `layout()`/`tryPack` --
+smaller font on `.node .nm`/`.node .dt` and tighter box padding, mobile
+only (`max-width:699.9px`). Doesn't reduce the underlying canvas
+overflow (the whole point of reverting was to accept that overflow
+rather than the bundling tradeoff), just makes each box's own text take
+up less visual space at the same position the packer already gave it.
+Zero risk to placement/continuity/search since it touches none of the
+code that computes them.
+
+**Verified against the real site:** 257/257 individual boxes rendered,
+0 bundle boxes, 0 JS errors; Era VII screenshot confirms every
+tradition has its own ribbon again, text visibly smaller and more
+compact at the same layout as before; a normal box click still opens
+its own real sheet correctly. Full Playwright harness (`shoot.mjs`)
+clean (0 JS errors, 0 overlaps, all interactions pass).
+
+---
+
+## 2026-08-04 (Pass 7, UI 11) — Era header bar, round two: bigger text, full width, richer events, and two real layout bugs the bigger content exposed
+
+**The feedback:** "it is a great improvement, but the text is to small and
+hard to read, also we can streatch the era bars accros the entire width
+and add some era information and world events... make them global or
+regional events that directly impacted the worlds. they can be church
+specific like 'the great schism' or world 'Fall of Rome'."
+
+**Content**: events expanded from 2 to 3 per era, deliberately mixing
+church-specific (Great Schism, Western Schism, Council of Trent) with
+broader world-historical events that had real, direct church impact —
+Justinian's Plague (541), the Sack of Rome (410) and Fall of Rome (476,
+matching Mark's own example phrasing), the Sack of Constantinople (1204),
+American Civil War, World War I (matching Mark's other example). Kept
+every event within its own era's actual date range rather than reaching
+outside it for a more famous date.
+
+**Sizing/width**: title 1.25rem (was .7rem), academic/dates/events all
+~1rem (was .64-.66rem), no (era number) label .95rem. Width changed from
+the first pass's `max-width:min(92vw,640px)` — which capped the bar at
+640px even on wide desktop screens, the opposite of "stretch across the
+entire width" — to `width:calc(96vw - 64px)` (the -64px reserves room for
+the fixed year-badge/rail column at the right edge; see below for why
+that reservation had to be measured, not assumed).
+
+**Two more real layout bugs, found by measuring rendered geometry before
+shipping, not by eye:**
+- **Bigger content needs more vertical clearance, and the geometry didn't
+  have any.** The old `HEAD=8` constant (a fixed 8px) was sized for the
+  original one-line corner pill. Measured actual rendered bar heights on
+  the new content: up to 82px on desktop, 195px on mobile (more events
+  wrap onto more lines at narrower widths). Made `HEAD` responsive like
+  `RH` already is (`innerWidth<700?230:110`, real headroom above the
+  measured worst case, not an exact fit that breaks the next time an
+  era's content gets one line longer).
+- **Even after that, 12 real node/bar overlaps remained on desktop (9 on
+  mobile)** — found by a Playwright bounding-box intersection check
+  across every era-bar × every movement-box pair, not by scrolling and
+  looking. Root cause: the formula computing each era's own vertical
+  start position (`y = s.r0*rh + ERA_PAD*index`) never accumulated the
+  PRECEDING eras' own header-clearance space — it only added a flat 34px
+  `ERA_PAD` per era boundary, regardless of how tall that era's own
+  `HEAD` reservation actually was. Harmless at `HEAD=8`; compounds badly
+  once `HEAD` is 110-230px, because each era's start position drifts
+  further ahead of where its predecessor's content actually ends.
+  Rewritten as a running accumulator (`cursorY += h` each era, using
+  each era's own real rendered height) instead of recomputing position
+  from row-count alone — structurally can't drift out of sync with the
+  height formula again, because both now come from the same accumulator.
+- **A third, smaller one**: the widened bar (now up to 96vw) started
+  rendering UNDER the fixed year-badge/rail column on mobile — same
+  visible-viewport width, different z-index, so the rail (z-index:35)
+  painted over the bar's text (z-index:20) wherever their x-ranges
+  overlapped. `pointer-events:none` meant nothing was unclickable, but
+  real text was genuinely hidden. Fixed by reserving 64px in the bar's
+  own width for the rail's known footprint.
+
+**Verified via Playwright**: zero node/bar overlaps confirmed via
+bounding-box math on both desktop and mobile (was 12/9 before the
+accumulator fix); zero bar/rail overlap confirmed the same way (was a
+real x-range collision before the width fix); dark mode 3-shade cycle
+still exact-match; census validator clean (257/21/10, 0 errors); full
+Playwright harness (`shoot.mjs`) clean (0 JS errors, 0 overlaps across
+all 4 breakpoint/scheme combinations, all interactions pass).
+
+---
+
+## 2026-08-04 (Pass 7, UI 10) — Accessibility feedback pass: richer era header bar, 3-shade alternating backgrounds, scrolling year badge
+
+**Three asks from real user feedback**, all landing in one pass: (1) a
+full-width era header bar carrying friendly name, academic name where a
+real distinct one exists, dates, and 1-2 major events, staying semi-
+transparent so "you can see the printing underneath"; (2) alternating
+background shades so adjacent eras are unmistakably different, not the
+existing 10-step gradient where neighbors are deliberately close in tone;
+(3) a scrolling year readout so participants always know what period
+they're looking at, spelled out ("70 CE to 312 CE"), not compressed.
+
+**Design decisions confirmed with Mark before building** (both would have
+been expensive to redo across 10 eras if guessed wrong): 3 shades, not 2;
+flatten to alternating rather than layering onto the existing gradient.
+
+**New era content (census, additive fields `academicName`/`keyEvents` on
+each of the 10 eras)** — grounded, uncontroversial historiographical
+terms, several literally the field's own vocabulary (Late Antiquity;
+"The Great Century of Missions" is Kenneth Scott Latourette's own term).
+No academic name shown where the existing title already IS the standard
+term (Era VII, "The Reformation Era") rather than inventing a redundant
+second label.
+
+**3-shade background**: replaced the 10-step warm-to-cool gradient with a
+3-color cycle ((era.num-1)%3) — Eras I/IV/VII/X share a warm gold-tan,
+II/V/VIII a neutral straw, III/VI/IX a cool blue-grey, in both light and
+dark mode. Same `--eraN` custom-property mechanism as before, just fed a
+repeating 3-value census instead of 10 unique ones — no new CSS plumbing.
+
+**Two real bugs found and fixed before shipping, not after:**
+- The year badge, first built as its own fixed-position element with
+  hand-computed pixel offsets to sit above the rail, silently overlapped
+  the rail's top buttons and ate their clicks — caught by Playwright
+  ("element intercepts pointer events"), not visually. Fixed by wrapping
+  both in one `#railWrap` flex column instead of separately-computed
+  pixel math — a flex column can't overlap itself regardless of how long
+  the year text gets. Also switched the badge from vertical-rl (sideways)
+  text to horizontal — a badge built to make the page MORE accessible
+  shouldn't require tilting your head to read it.
+- The new full-width `.erahead .bar` had no `max-width`, so it grew to
+  fill the CANVAS's width (deliberately wider than the viewport on narrow
+  screens — that's the whole point of the timeline's horizontal scroll),
+  not the viewport's width. `flex-wrap` had nothing to wrap against.
+  Result: the bar's right edge landed at 1157px on a 390px mobile
+  viewport — invisible without scrolling right first, defeating the
+  entire point of making this content harder to miss. Fixed with
+  `max-width:min(92vw,640px)`.
+- (Investigated, not a bug): scrolling to the very bottom of the page
+  briefly appeared to leave the rail highlight and year badge stuck on
+  Era VI/IX instead of X. Root cause was test methodology, not the site —
+  clicking "jump to era" uses smooth-scroll, and checking the result
+  before the animation settles reads a mid-flight scroll position. With
+  proper settle-polling, the rail and badge were correct at every era,
+  including the boundary case. Logged so a future check doesn't re-chase
+  the same false lead.
+
+**Verified via Playwright**: era bar content correct for all 10 eras;
+3-shade cycle confirmed exact-match across the I/IV/VII/X, II/V/VIII,
+III/VI/IX groups in both light and dark mode; badge/rail zero pixel
+overlap confirmed via bounding-box math, not just visually; clicking
+rail buttons 0/4/9 correctly settles both `.on` state and badge text in
+sync (I · 70 CE to 312 CE, V · 1054 CE to 1300 CE, X · 1906 CE to
+present); no horizontal overflow on mobile (390px) for either the era
+bar or the rail/badge column; census validator clean (257/21/10, 0
+errors); full Playwright harness (`shoot.mjs`) clean (0 JS errors, 0
+overlaps, all interactions pass).
+
+---
+
+## 2026-08-04 (Pass 7, UI 9) — Search stays a name/period lookup; made that honest instead of trying to fake understanding
+
+**The question that surfaced this:** Mark asked what traditions "allowed
+women to serve in leadership," and got back what the search box's actual
+matching logic would have found instead — traditions a woman personally
+*led* (Christian Science, Shakers). Different question. When Mark then
+asked whether the search bar could be made "dynamic" enough to tell those
+apart, the honest answer: not without either a live LLM call per keystroke
+(breaks the entire point of a static, token-free atlas — same cost
+argument that drove the whole Tours redesign this project already went
+through) or a synonym-expansion hack that just relocates the "you have to
+know the exact word" problem one level up and *still* can't distinguish
+"founded by a woman" from "included women in some leadership role" — that
+needs an actual read of the text, not a keyword match.
+
+**Mark's resolution:** don't fake it — tell the participant plainly when
+what they typed isn't in the data, instead of a bare, easy-to-misread
+"0 of 257 movements." Two changes:
+- Placeholder reframed to set the right expectation up front: "Have a
+  movement or period in mind? Search by name — e.g. Coptic, Reformation,
+  Pentecostal" (was: "Search all 257 movements — including the ones that
+  aren't open, and why," which read as broader than the search actually
+  is).
+- `applyFilter()`: when there's a typed query and zero matches, the
+  `#cnt` readout (already `aria-live="polite"`, so this is announced to
+  screen readers the same as the ordinary count) now echoes the literal
+  typed text back: `"<query>" doesn't match anything documented in this
+  timeline.` Via `.textContent`, not built into a template that reaches
+  `innerHTML` — confirmed via Playwright that a typed `<b>test</b>` shows
+  up as literal escaped text, not executable markup.
+
+**What this deliberately doesn't do:** it doesn't make the search
+smarter. It's still the same literal substring match over `name`,
+`shortName`, `informalName`, `region`, `why`, `relationsSummary`,
+`floorNote` — NOT `longDescription`/`voices`/`legacy`/`experienceToday`,
+where thematic content like "women in leadership" actually lives. If a
+theme like that needs to be browsable from the page itself rather than
+askable in conversation, the fit with this project's own pattern is a
+curated tag (built the way Region was — a real editorial pass, reviewed
+once, added as its own honest toggle), not a cleverer guess at the
+search box. Not built this pass; flagged as a live open question, not
+started.
+
+**Verified via Playwright:** placeholder text confirmed; "Coptic" still
+returns 8/257 as before; "women in leadership" and a raw `<b>test</b>`
+both produce the honest no-match message with the text properly escaped;
+clearing the box and the built-only-toggle-with-no-query edge case both
+still show the ordinary count, not a false no-match. Full harness
+(`shoot.mjs`) re-ran clean: 0 JS errors, 0 overlaps, all interactions
+(search, live-filter chip, hover, sheet, era rail) pass.
+
+---
+
+## 2026-08-04 (Pass 7, UI 8) — Streams retired entirely; "Global" region tag retired for real origin/spread tagging
+
+**Two asks, in one turn.** (1) "lets remove the streams completely and
+global it is very inconsistant." (2) "if we have an all for the regional
+that should cover the global and we use the start of the movement as the
+primary place or if it became big in another region then it is in both."
+
+**Streams removed outright**, not folded into anything — the whole
+`#streamlegend` feature (10 buttons: Oriental Orthodox, Hesychast/
+Philokalia, Eastern Catholic/Uniate, Reformed/Calvinist, Wesleyan/
+Holiness/Pentecostal, Baptist, Anabaptist/Believers-Church, Anglican/
+Church of England, Dispensational/Bible-Institute, Post-Evangelical
+Ferment), its CSS (`.stream-on`, `body.streamfiltering`), its URL state
+(`?streams=`), its glossary section, and its line in the click-doc sheet.
+The census's own `streams[]` field on each movement was left untouched
+(harmless unused data, not worth 257-entry churn to strip) — only the UI
+that read it is gone. The click-doc sheet's old streams line now shows
+the entry's `regions[]` instead, filling the same slot with something
+still live.
+
+**"Global" region retired.** It was applied inconsistently — some
+transnational/diaspora entries got it, some plainly-just-as-transnational
+ones didn't — and Mark's own point: the Region toggle's All button
+already covers "everywhere," so a dedicated Global tag was redundant with
+a mechanism that already exists. Re-tagged all 16 formerly-Global entries
+by hand using the rule Mark gave — start place as the primary region, a
+second region added only if the movement became substantial somewhere
+else identifiable, nothing invented for the sake of filling a field:
+- Most (11 of 16) already carried a real region alongside Global (e.g.
+  Azusa Street: `[Global, North America]` → `[North America]`) — just
+  dropped the redundant tag.
+- 4 entries had ONLY "Global" as their region string, needing real
+  research instead of a keyword match: Catholic Lay Renewal Traditions
+  (a bundle of Catholic Worker/NY, Focolare/Italy, L'Arche/France) →
+  `[North America, Mediterranean, North Europe]`; Progressive
+  Christianity → `[North America, North Europe]` (mainline Protestant
+  roots on both sides of the Atlantic); The Post-Vatican-II Parish
+  Tradition → `[Mediterranean]` (Rome, where the Council convened and
+  its documents were promulgated, even though its lived effect is every
+  parish everywhere); Lausanne-Era Global Evangelicalism →
+  `[North America, North Europe]` (Billy Graham's American leadership,
+  hosted in Lausanne, Switzerland).
+- 1 entry (the Armenian Church after the Genocide) already had two real
+  regions (Asia Minor, Caucasus) and just lost the redundant third.
+
+**Verified:** census validator clean (257/21/10, 0 errors); full
+Playwright harness (`shoot.mjs`) clean (0 JS errors, 0 overlaps, all
+interactions pass); confirmed `#streamlegend` fully gone from the DOM;
+confirmed no entry carries "Global" anymore; confirmed region solo/add/
+All still works with 10 regions (not 11); opened a formerly-Global entry's
+sheet and confirmed it renders its real region with no crash.
+
+---
+
+## 2026-08-04 (Pass 7, UI 7) — African Christianity band retired, right after being created: checked overlap with Region instead of assuming
+
+**The question:** "do we need both the syriac and african plus the same
+regional" — right after UI 6 gave both Syriac East and Africa their own
+confession bands, Mark asked whether that duplicated the Region toggle
+(UI 5) rather than accepting the symmetry at face value.
+
+**Checked, not assumed — the two aren't the same case:**
+- **African Christianity band vs. Africa region:** 25 entries in the lane,
+  23 of them (92%) also region-tagged Africa (22 Africa-only, 2
+  Africa+Mediterranean); 1 outlier is North Europe (diaspora). Clicking
+  either control produces almost the identical set of boxes. Genuinely
+  redundant.
+- **Syriac Christianity band vs. Middle East region:** 17 entries, only 8
+  (47%) are Middle-East-only. The rest: 4 Greater Asia only (the Church of
+  the East's Silk Road expansion into Persia/Central Asia/China), 2
+  Mediterranean+Middle East, 1 each of Greater Asia+Middle East,
+  Africa+Middle East, Global+Middle East. Less than half the lane is even
+  Middle East — this band captures a single lineage spread across several
+  regions, which Region alone can't reach. Not redundant.
+
+**Change:** "African Christianity" retired as its own top-level band —
+lane 4 folded back into the residual band (renamed from "Ancient &
+Cross-Family" to **"No Single Confession"**, alongside Origin and
+Cross-Family), with its description explaining exactly why it's there
+("23 of its 25 entries are already the Region toggle's Africa almost
+one-for-one... use Region to isolate it") rather than silently
+disappearing. Syriac Christianity kept its own band unchanged.
+
+**Final seven categories:** Catholic · Orthodox · Protestant & Evangelical
+· Pentecostal & Global Revival · Syriac Christianity · No Single Confession
+(Origin, Africa, Cross-Family) · Outside.
+
+**Verified via Playwright:** soloing "No Single Confession" turns on lanes
+0, 4, and 50 together; soloing "Syriac Christianity" turns on lane 1 alone.
+Zero JS errors.
+
+---
+
+## 2026-08-04 (Pass 7, UI 6) — Confession-band relabeling, closing the loop the Region toggle opened
+
+**What this finishes.** UI 5's Region toggle solved the original "isolate
+Africa" complaint through a cleaner, independent axis, which is why the
+confession-band relabeling got left open rather than folded into that
+pass. Mark: "yes, do the confession-band relabeling too."
+
+**Change, in `CATS`:**
+- **Protestant split into two full siblings.** The old single "Protestant"
+  band silently combined lane 6 (Reformation-era Protestant & Evangelical)
+  and lane 7 (20th-century Global Revival & Pentecostal). UI 3's edge check
+  found only one connection between them in the census's own data —
+  "Holiness Movement formed Azusa Street" — and every lane-7 entry starts
+  1904 or later: a wave that grew OUT of Protestant, not a parallel
+  confession. Mark's resolution mid-conversation: don't force a
+  parent/child nesting either — give Pentecostal & Global Revival its own
+  full band, same standing as Catholic or Orthodox, and let the lineage
+  live in the description text ("grew out of the Protestant & Evangelical
+  line, but its own family here, not a subheading under it").
+- **"Other" retired outright**, not just renamed. It was doing two jobs at
+  once: naming a real leftover (Origin, Cross-Family — genuinely don't
+  reduce to one confession) AND smuggling in the "isolate Africa" and
+  "isolate Syriac East" use cases the lane/category axis was never built
+  to carry cleanly — which is exactly why Africa read as dumped in a
+  grab-bag next to a bridge lane and an ecumenical single-entry category.
+  Now that Region (UI 5) carries geography honestly and independently,
+  the lane axis doesn't need to also pretend to. Syriac East and Africa
+  are each real families in their own right — the Church of the East /
+  Syriac Orthodoxy, and Coptic/Ethiopian/Nubian Orthodoxy plus the
+  African-founded movements that followed — so each got its own named
+  band instead of hiding in "Other." Only Origin (pre-lane, before any of
+  these families existed) and Cross-Family (genuinely spans more than
+  one) had no honest single-confession label to give; they share one
+  small, plainly-named "Ancient & Cross-Family" band rather than a forced
+  one.
+
+**Final eight categories:** Catholic · Orthodox · Protestant & Evangelical
+· Pentecostal & Global Revival · Syriac Christianity · African Christianity
+· Ancient & Cross-Family · Outside. Same 10 lanes underneath, same
+solo-then-add-then-All mechanic (UI 4) — this is a relabeling of which
+category button each lane sits under, not a new mechanism.
+
+**Verified via Playwright:** soloing "Protestant & Evangelical" turns on
+lane 6 only, not 7; adding "Pentecostal & Global Revival" adds lane 7
+without re-soloing; "Syriac Christianity" solos lane 1 alone; "African
+Christianity" solos lane 4 alone; "Ancient & Cross-Family" solos lanes 0
+and 50 together; All resets to all 10 lanes on. Zero real JS errors (same
+pre-existing offline Google Fonts failure as UI 5, unrelated).
+
+---
+
+## 2026-08-04 (Pass 7, UI 5) — New Region toggle: real geography, built from the census's own `region` field, independent of the lane/confession axis
+
+**The ask, across several turns:** after the solo-click fix (UI 4) and a design
+conversation about cleaning up the lane/category grouping, Mark redirected —
+rather than reshuffling which lane-derived "category" Africa/Syriac
+East/Cross-Family sit under, "what if we just use actual regions... and if
+they show up in more than one they are included." A genuinely new axis, not
+a relabel of the existing one.
+
+**Built from real data, not invented.** Every movement already carries a
+free-text `region` field (210 unique values across 257 entries) — that's
+the ground truth this classification worked from, not a guess. Classified
+by word-boundary keyword match (an early naive substring pass false-
+positived "USA" inside "Jer**usa**lem" and "Ani" inside "Rom**ani**a" —
+caught by spot-checking multi-region entries before writing anything to
+the census, not left in). Iterated with Mark through several rounds:
+Balkans folded into the Byzantine-zone "Asia Minor" bucket rather than
+Mediterranean, except the specifically Greek places (Greece, the Greek
+islands, Mount Athos), which carry Mediterranean AND Asia Minor both;
+Haiti moved out of "Latin America" ("its not latin") into North America;
+New Zealand/the Pacific started as a fold into Global, then — once a
+check turned up three OTHER entries also touching Australia/the Pacific
+(the Missionary Movement's Native Churches, the Confessional Lutheran
+Revival's emigration, the Emerging Church) — got its own real "Pacific"
+region instead, per Mark's own rule: fold only if genuinely alone, give a
+real region if there's real company.
+
+**Final taxonomy, 10 regions, added as `regions[]` on every one of 257
+movements** (additive-only census change — 843 insertions, 0 deletions,
+verified valid JSON): Africa · Middle East · Asia Minor · Caucasus ·
+Mediterranean · North Europe · Greater Asia · Pacific · North America ·
+Latin America — plus a lightweight `Global` tag for explicitly
+transnational/diaspora entries. An entry can carry more than one; per
+Mark's rule, it shows if ANY of its tags is active, not just the first.
+
+**UI**: new `#regionlegend` row in the filter panel, same solo-then-add-
+then-All mechanic already shipped for lanes (UI 4) — click one to solo it,
+click more to add them, All resets. Independent axis from lane/confession
+and from streams — composes via its own `region-on` class and
+`regionfiltering` body class, same fade convention as the other two.
+Glossary section added explaining all ten in plain words.
+
+**Verified via Playwright** against a local static server (`file://` still
+CORS-blocked): solo Africa → 34/257 visible; adding Mediterranean → 90
+visible; a real Africa+Mediterranean dual-tagged entry (Alexandrian
+Catechetical Tradition) stays visible through both states; a North-
+Europe-only entry (Insular Irish Monastic Christianity) stays hidden
+throughout; All resets to 257/257; combined with a lane solo (Africa lane
+AND Africa region together) correctly ANDs down to 24 entries. Zero real
+JS errors (the one console error was Google Fonts failing to resolve in
+the offline sandbox, unrelated to this change).
+
+**Not done in this pass:** the earlier-discussed confession-band
+relabeling (pulling Pentecostal & Global Revival out from under the
+"Protestant" category as a full sibling, retiring the "Other" catch-all)
+— that conversation got superseded by the region work before Mark
+confirmed it, since the new Region toggle already solves the original
+complaint (isolating Africa) through a cleaner mechanism. Still open,
+not committed to.
+
+---
+
+## 2026-08-04 (Pass 7, UI 4) — Lane/category toggle switched to solo-click: "if i want to look at Africa, i have to turn all the others off"
+
+**The complaint:** with 10 individually-toggleable lanes grouped under 5
+categories, isolating one lane meant manually turning off every other
+category and every stray lane not covered by those categories — many
+clicks to get to "just Africa." Mark: "so what i want is all on, when
+someone clicks on a toggle it turns them all off except the one selected.
+then i can click on others to turn them on. and then have an all button if
+i want to turn all of them back on."
+
+**Fixed — solo-then-add semantics, same `laneOff` state, no new data
+model:** `toggleLaneTarget(memberKeys)` replaces the old independent
+lane-click / category-click handlers. Rule: while nothing is filtered
+(`laneOff.size===0`), clicking any target — a single lane button or a
+whole category button — SOLOS it, turning everything else off. Once
+something is filtered, further clicks are additive/subtractive against
+the current active set (click an on target to drop it, an off target to
+add it back) rather than re-soloing — so a participant builds up exactly
+the set they want one click at a time. A new "All" button (`#laneAll`,
+first item in `#legend`) clears `laneOff` back to empty in one click;
+dims itself (`.current`) when already all-on so it doesn't read as a
+live, clickable action with nothing to do.
+
+Applies uniformly to both the 10 individual lane buttons and the 5
+category buttons — clicking a category solos/adds/drops its whole member
+set in one action, same rule, no special-casing.
+
+Verified via Playwright against a local static server (`file://` fails —
+the census fetch hits CORS with `origin: null`): solo on first Africa
+click (`on:[4]`), additive on Latin West click (`on:[5,4]`), subtractive
+on second Africa click (`on:[5]`), All button resets to all 10 lanes on,
+category solo confirmed on Protestant (`on:[6,7]`). Zero JS errors.
+
+**Left as-is, not part of this fix:** the Streams row (`#streamlegend`) —
+default-off, opt-in spotlight highlighting rather than an
+inclusion/exclusion filter, a genuinely different interaction already
+simple (multi-select, nothing to "solo" against). Mark separately asked
+for a from-scratch review of what the toggle *choices themselves* should
+be, independent of today's lane/category/stream organization — that's a
+distinct, larger question, tracked separately, not resolved by this
+mechanical fix.
+
+---
+
+## 2026-08-04 (Pass 7, UI 3) — Checking the scroll-reset fix on mobile surfaced a second, real bug: the close button scrolled away with the content
+
+**Asked to check Pass 7/UI 2 on mobile.** The scroll-reset itself checked
+out fine at 390px width (same Playwright method as desktop: scroll to
+600px, close, open a different entry, confirm `scrollTop` reads 0).
+
+**But the check surfaced a second, separate, real bug while measuring the
+close button's on-screen position:** `#sheet` is both the fixed panel and
+its own `overflow-y:auto` scroll container, and `.close` was
+`position:absolute` — positioned relative to `#sheet`'s content box, which
+means it scrolled away with everything else. Reading any entry longer than
+one screen (most of them) made the × disappear off the top of the panel
+entirely — confirmed by measuring its `getBoundingClientRect()` before and
+after scrolling 600px: it moved to -406px (mobile) / -594px (desktop/
+tablet), well outside the visible area, on every breakpoint, not just
+mobile.
+
+**Not a hard dead-end** — Escape and clicking the scrim both still close
+the sheet — but tapping "somewhere outside the panel" isn't an obvious
+gesture on a touch device with no keyboard, and the visible affordance
+disappearing while reading is a real rough edge regardless.
+
+**Fixed:** `.close` switched from `position:absolute` to `position:sticky`,
+kept in normal flow with a negative bottom margin so it doesn't push
+`.grab`/`#sheetBody` down, background matched to the panel so it stays
+legible over scrolled text, `z-index:1` so it stays on top.
+
+**Verified, not assumed:** bounding-box position confirmed identical before
+and after a 600px scroll (truly pinned, not just visually close);
+`elementFromPoint` at its own coordinates confirmed it's genuinely on top
+and not obscured; an actual click after scrolling confirmed it still closes
+the sheet, on both mobile (390px) and desktop (1280px) — zero JS errors.
+Screenshots taken with the sheet open and scrolled confirm it reads cleanly
+in the corner, not floating oddly over text. Full harness re-run clean
+after (257/0/0).
+
+**Heart of it:** this is exactly the kind of bug that only shows up once
+someone actually goes looking with real content and a real scroll depth,
+not a fresh-open screenshot — worth remembering that "checked on mobile"
+should mean interacting with it in a realistic state, not just confirming
+the layout renders.
+
+---
+
+## 2026-08-04 (Pass 7, UI 2) — Click-doc sheet no longer opens mid-scroll on a fresh entry
+
+**The bug:** `#sheet` (the click-doc panel that slides in from the right) is
+its own `overflow-y:auto` scroll container, and `openSheet()` never reset
+`scrollTop` when swapping in a new entry's content. Scroll down reading a
+long entry, click a different world, and the new entry opened already
+scrolled past its own header — most noticeable going from a long entry
+straight into a short one.
+
+**Fixed:** `sheet.scrollTop=0` added right after the new content is written
+in, before the sheet becomes visible (`sheetBody.innerHTML=h` → `scrollTop=0`
+→ `removeAttribute('inert')` → `.on` class) — no flash of the wrong
+position. Verified with a targeted Playwright check: scrolled a sheet to
+800px, closed it, opened a different entry, confirmed `scrollTop` reads 0.
+Full harness re-run clean after (257/0/0).
+
+**Shipped straight from `main`'s current copy, not the feature branch's** —
+Mark's own instruction: *"we have updated other parts of the sight so don't
+use an old version of the website... everytime we make a change it reverts
+back to an old version of the landing page."* Confirmed first that this
+branch's `atlas-v3.html` differs from `main`'s by exactly one stale line
+(the footer's self-link), applied the one-line scroll fix directly against
+`main`'s actual current file rather than risk reintroducing that or any
+other drift, then backported the identical fix here for consistency going
+forward.
+
+---
+
+## 2026-08-04 (Pass 7, UI 1) — Filters collapsed behind a single toggle: controls went from most of the mobile screen to one compact row
+
+**The problem, confirmed by screenshot before touching anything:** on mobile
+(390px), `#controls` — the sticky search/toggle header, the 18-button lane/
+category legend, and the 10-button streams row — ran to roughly two-thirds
+of the viewport, leaving only about two map boxes visible before a
+participant had to scroll. On desktop it was closer to half. Mark's own
+framing: *"the choices at the top is to thick... when it takes up the top
+half of the screen it is a problem, also the phone it takes up the top two
+thirds and scrolls, so you cant see the worlds on the screen very well."*
+Cropped the actual mobile-fold screenshot to verify before diagnosing —
+confirmed the legend + streams stack, not the search row, was the real bulk.
+
+**Fixed:** `#legend` and `#streamlegend` now live inside a collapsible
+`#filterPanel`, hidden by default (`max-height:0`), opened by a single new
+"Filters" chip in row1. Row1 itself — search, Built worlds, Filters, Copy
+link, count, theme — is the only piece that's always visible, and it's
+compact: one line on desktop, two on mobile. Sticky positioning is
+unchanged, so the win holds at any scroll depth, not just at the top of the
+page.
+
+**Two things kept it honest rather than just smaller:** a small badge on the
+Filters chip shows the actual count of active lane/category + stream
+filters, and it stays visible even while the panel is collapsed — collapsing
+never hides *that* a filter is on, only the full grid of options. And if a
+participant arrives via a shared link that already carries active filters
+(`?laneoff=...` or `?streams=...`), the panel auto-opens once at boot so
+they aren't left looking at a thinned map with no visible reason why.
+
+**Verified functionally, not just visually:** a targeted Playwright check
+(not the full harness, which predates this feature) confirmed open/close via
+the toggle, the count badge updating live and persisting through collapse,
+and auto-expand firing correctly from a URL carrying `laneoff` params —
+zero JS errors in every case. Full harness re-run clean after (257/0/0).
+Before/after mobile-fold crop: controls dropped from ~560px to ~150px in the
+same viewport, with roughly 20 map boxes now visible where 2 were before.
+
+**Next action:** none pending — this was a self-contained fix. Worth
+watching whether "Built worlds" and "Copy link" also deserve moving behind
+the Filters panel later if row1 itself ever starts feeling crowded again,
+but they're single chips, not groups, so leaving them inline was the right
+call for now.
+
+---
+
+## 2026-08-03 (Pass 6, scale-up 3) — All 9 planned Opus reviews returned; a systemic template bug found and fixed; ~50 per-entry fact fixes applied
+
+All 8 remaining review agents (Eras 2 through 9, one per era, Era 9 covering
+both a+b batches together) reported. Combined with Era 1's earlier review,
+this closes out Mark's "9 reviews, not 221" instruction.
+
+**The single biggest finding wasn't in any individual entry — it was in the
+template.** Every one of the 8 reviewers, working independently on
+different eras, converged on the same discovery: two fields the writer
+agents were never asked to touch — `statusDescription` and
+`sources[].note` — render verbatim on the public click-sheet (`atlas-v3
+.html`, under "Status" and "Sources to research") and are saturated with
+internal Step 0 methodology language. `statusDescription` carried things
+like "Reviewed at the Era 4 Step 0 run and tiered Strong (Tier 1)...
+Added at the Era 4 gate (Mark, 2026-08-02)" — Mark's name and internal
+dates, live on a public page, on roughly 200 of 257 entries.
+`sources[].note` was worse: `[S]` markers, "the census flags," "LOAD-
+BEARING for the floor register," "tier care," "verified this session" —
+on roughly 500 of 693 source notes. Neither field was part of this pass's
+brief (writer agents were scoped to 6 other fields), so this bug predates
+the content-writing pass entirely; the reviews simply exposed it because
+they read the whole rendered sheet rather than just the JSON diff.
+
+**Fixed at the template level, not per-entry** — cheaper and impossible to
+regress by a future edit. `statusDescription` rendering was swapped for
+`statusMeta[status].description`, the one-line, already-clean, plain-
+English text that exists once per status category (12 categories, not
+257 entries) and was already used nowhere else on the page. `sources[]
+.note` stopped rendering entirely — visitors now see the linked/unlinked
+work title only, which was always the useful part; the research notes
+were internal reading aids, never written for a visitor. Also folded in:
+the `eraState` fallback string (used when `longDescription`/`voices`/
+`legacy`/sources are empty) still said "Phase One Step 0 record" and
+"Frozen by Mark" — rewritten in plain language.
+
+**Per-entry fixes.** Beyond the systemic bug, the 8 reviews surfaced
+~50 CONFIRMED factual errors across Eras 2-9 (Era 1's 9 already applied
+and committed separately) — wrong dates, reversed causation, overstated
+superlatives contradicted by an entry's own neighbor or its own linked
+source, a couple of straightforwardly wrong facts (the Chaldean/Assyrian
+patriarchal lines were swapped in VI.30; VIII.1 had Allen rather than
+Absalom Jones pulled from the segregated gallery; VII.4's "before anyone
+else" claim was flatly contradicted by VII.2's own "first" claim three
+paragraphs earlier in the same file). Also fixed: three floorNotes on
+VIII.14/15/44 that had literally spliced two draft sentences together
+mid-word with the internal apparatus left in ("FORMAL DISPOSITION
+recorded at the Era 9 gate... the Methodology's own named A1 example");
+a run of bare atlasId cross-references in several floorNotes ("as II.4",
+"precedent II.4") rewritten to state the actual fact instead of pointing
+at another entry's internal ID; several duplicate "continued into the
+next era" sentences in `legacy` fields that repeated, almost verbatim,
+a line the UI already renders automatically from `continuesAs`. All
+applied via targeted scripts (exact string match, verified non-silent),
+re-validated (0/0) and harness-tested (257/0/0) after every batch.
+
+**Left for later, logged so it isn't lost:** each review also filed a
+long MINOR/JUDGEMENT-CALL list (soft superlatives, contested attributions,
+weak experienceToday link quality, coverage gaps, bare "No question"
+floorNotes read as a checkbox rather than a sentence) — not applied this
+pass, kept in the review transcripts for a future editorial pass. Also
+queued: a second look at whether `floorNote`'s common "No question" bare
+stub (136 uses file-wide, pre-existing) should become a full sentence
+per the house style the rewritten ones now model.
+
+Committing this as one checkpoint: the template fix, all per-entry
+CONFIRMED corrections, and the three broken Era-9 floorNotes.
+
+---
+
+## 2026-08-03 (Pass 6, scale-up 2) — Eras 4, 5, 8, 9a, 9b merged (127 entries); Era 1's adversarial review returned — 9 confirmed findings, all fixed
+
+The remaining five writer batches all reported. Unlike Era 1/2/6/7 (which
+wrote directly to the live file after finding their assigned worktree stale
+— see Pass 6/1 below), these five each self-corrected by resyncing their
+OWN worktree copy from the live branch tip before writing, then stayed
+inside worktree isolation and left the shared checkout untouched. That
+meant a different merge step: a targeted script read each worktree's copy,
+copied only the six content fields (`longDescription`/`teaser`/`voices`/
+`legacy`/`experienceToday`/`floorNote`/`sources`) for that batch's specific
+`atlasId`s into the live file, and left everything else — including the
+other batches' already-landed work — untouched. Applied Era 4 (22), Era 5
+(26), Era 8 (29), Era 9a (25), Era 9b (25) = 127 entries in one pass.
+Verified: exact expected count (225 = 4 pilots + 221 of Eras 1-9, with
+Era 10's 32 still correctly deferred), validator 0/0, harness clean
+(257 nodes, 0 overlaps, 0 JS errors).
+
+**Era 1's Opus adversarial review landed in the same window** — the first
+of the 9 planned per-era reviews. It confirmed the content is honest and
+well-hedged throughout (explicitly checked for internal-process leakage
+across all 11 entries and found none), but surfaced 9 real, fixable
+findings, all applied directly to the live file:
+
+- I.1 `legacy` claimed the Didache had been "continuously read for
+  nineteen centuries" — false; it was lost and recovered from a single
+  manuscript only in the 1870s. Reworded to state that honestly.
+- I.1 `voices` said Polycarp was "burned alive" — the *Martyrdom of
+  Polycarp* itself says the fire didn't consume him and he was killed by
+  the sword. Corrected to "put to death at Smyrna."
+- I.22 `teaser`/`experienceToday` called Cao'an "the world's only
+  surviving Manichaean temple" — the linked source itself notes at least
+  one other (Xuanzhen Temple) survives intact. Hedged to "long regarded as
+  the only intact surviving" one.
+- I.25 `longDescription` dated the Pepuza/Tymion identification to 2001;
+  Tabbernee's actual find was July 2000. Corrected.
+- I.26 `longDescription` called Novatian's rival consecration "the first
+  such... in the city's history" — contested (Hippolytus and Natalius have
+  earlier claims). Softened to "one of the earliest."
+- I.25/I.26 `why`: both parentheticals restated the person-defined concern
+  they were disclaiming ("its authority claim rests on three named
+  prophets" / "defined by one man's rigorist stance") instead of stating
+  the actual sourcing concern. Rewritten to name what survives in the
+  record, not who's in charge of it.
+- I.25 `statusDescription` said evidence "centers on three named prophets'
+  own claims," dropping the hostile-source half that `legacy` and `voices`
+  both already state is the larger share of what survives. Added it back.
+- I.25/I.26 `statusWord` had drifted to "Still investigating," diverging
+  from `statusMeta`'s own `shortWord` ("Contested evidence") and from
+  sibling entry I.24 under the same status — an inconsistency visible on
+  the hover card. Restored to "Contested evidence" on both.
+
+All 9 fixes applied, re-validated (0/0), harness re-run clean. Committing
+this alongside the 5-batch merge as one checkpoint.
+
+Addressed both remaining self-flagged issues: I.12's `floorNote` ("Heresio-
+logical 'Nestorian' label is not its own confession...") rewritten in plain
+language; V.16's `experienceToday` link (a regional tourism portal) swapped
+for the Waldensian Cultural Centre Foundation's own domain, already
+independently verified elsewhere in the census on IV.8. Left the Era 2
+agent's Priscillian/Compostela omission as-is — the tomb-identification
+theory is itself a contested, speculative academic claim, and omitting a
+speculative claim under search-budget pressure is the correct call under
+the brief's hedge-or-omit rule, not a gap to fill.
+
+Next: launch Opus reviews for Eras 2, 3, 4, 5, 6, 7, 8, and one combined
+review for Era 9 (a+b together) — 9 reviews total, per Mark's instruction,
+not 221.
+
+---
+
+## 2026-08-03 (Pass 6, scale-up 1) — Era 1 content batch complete, committed as safety checkpoint ahead of formal review
+
+Scaling the click-doc content pattern (longDescription/teaser/voices/legacy/
+experienceToday) from the 4 pilots to the remaining 221 Eras 1-9 entries.
+Launched 10 parallel background agents (one per era, Era 9 split into two
+25-entry batches) in isolated git worktrees, from a shared written brief
+(`Design/CiC_Atlas_ContentPass_TaskBrief_2026-08-03.md`) carrying the exact
+voice/honesty rules already proven on the pilots.
+
+**A real risk surfaced immediately**: the Era 1 agent's own worktree copy of
+the census was stale (out of date vs. the live file by the time it started),
+so it made its own call to write directly to the live main-tree file instead
+of its isolated copy — bypassing the isolation this was set up to provide.
+With 9 more agents running concurrently and several likely to hit the same
+staleness, this is a real concurrent-write race: two agents both reading an
+old snapshot before either saves could silently clobber each other's output.
+Mark's ask (a full Opus review per era, not per-entry) compounds the timing
+question — reviewing takes time, widening the window a later agent's write
+could land badly.
+
+**Mitigation**: commit each verified era batch immediately as a checkpoint
+BEFORE running its formal review, rather than holding it uncommitted while
+reviewing — a committed state is safe from being silently overwritten by a
+later agent's stale write (git history preserves it even if a later write
+does clobber the live file; worst case is a diff to reconcile, not lost
+work). Review happens against the committed state; any review findings get
+fixed in a follow-up commit. This trades a small process deviation (review
+technically happens after, not before, commit) for closing the actual
+vulnerability faster.
+
+Era 1 (11 entries: I.1, I.2, I.7, I.8, I.17, I.20, I.21, I.22, I.24, I.25,
+I.26) verified directly — spot-read full content on 4 of them (House-
+Churches, Marcion, Montanism, Novatianism), confirmed real narrative voice,
+honest omission of experienceToday where nothing verifiable exists (Marcion,
+Montanism, Novatianism correctly have none — the agent's report explicitly
+named and rejected a tempting-but-unconfirmable candidate, Pepuza/Tymion for
+Montanism, rather than guess). Two real data-consistency bugs the agent
+itself flagged and I fixed before committing: I.25/I.26's `chip`/`glyph`
+fields still read "exc" (closed-door) instead of "cev" matching their
+Contested-Evidentiary status (confirmed dead/unused in the live template —
+icon selection reads `status` fresh, not these fields — but still wrong
+data); and both entries' `why` field still said "Excluded on the person-
+defined ground," contradicting the corrected Criterion 2 framing already
+applied to their `statusDescription`/`legacy`. Rewrote both `why` fields to
+state the actual concern (limited primary sourcing) consistently. Full
+harness clean (257/0/0), validator 0/0. Committed.
+
+Opus review agent for Era 1 launching next; remaining 9 agents (Eras 2-9)
+still running.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 12) — Status line moved to the end and rewritten as 4 plain categories; MAJOR: Criterion 2 (person-defined exclusion) clarified by Mark — corrects a real methodological misapplication risk, 2 entries reclassified
+
+Two things happened in one exchange: the last structural piece of the
+click-doc reorder (Section 2, deferred since the very first review pass),
+and a genuine correction to how Criterion 2 of the Step 0 methodology has
+been described and applied.
+
+**The status line rewrite**: Mark wanted it in plain English, four
+categories only — "yes built, identified as a future build, still
+investigating, currently out of scope because..." — dropping the
+single-voice jargon wording entirely. Implemented by computing the plain
+label from the SAME house/plans/question/door classification that already
+drives the status icon (`st`), not the raw per-entry `statusWord` field —
+which sometimes carries its own process phrasing (VIII.10's statusWord was
+"Creedal question — two window-specific findings recorded (Era 9 Step
+0)..."). `statusDescription` is kept as the supporting detail sentence,
+since it's already in plain words for most entries. Moved from position 2
+(right after the header) to the very last block in the document, per the
+standing decision from the start of this review ("not sure people want to
+know our internal decision making criteria" up front).
+
+**The methodology clarification — the more important part**: while reading
+through what "currently out of scope" would actually say for excluded
+entries, Mark caught that the current Criterion 2 language ("authority
+rests on one person's revelation or standing") risks being read as
+excluding any tradition centered on or initiated by a leader. That was
+never the intent. His own words: **the actual target is traditions with
+"limited or singular primary sourcing (so the sources only speak from one
+voice)"** — a sourcing/evidence question, not a leadership-structure
+question. A tradition that started with one person but grew a real,
+independently-documented community — "significant breadth in primary
+sourcing to build a living ecology around the theology and teachings and
+practices" — is NOT what Criterion 2 is meant to catch. Leader-initiated is
+fine; single-voice-sourced-forever is the actual concern.
+
+Checked this against the only two entries currently carrying "Excluded -
+Person-Defined (C2)" status, and the ambiguity turned out to be real, not
+hypothetical:
+- **I.25 Montanism**: its own `why` field already carried a live, unresolved
+  question — "Phrygian inscriptions may document a wider communal ecology -
+  the test might yield here" — meaning the original analysis itself wasn't
+  fully confident this was single-voice-only.
+- **I.26 Novatianism**: reasoning cited "defined by one man's rigorist
+  stance... rather than a broader communal tradition" — already gesturing
+  at the sourcing-breadth question, just phrased ambiguously enough to read
+  as leader-based exclusion.
+
+Mark's explicit call, mid-conversation: reclassify both from "Excluded -
+Person-Defined (C2)" to **"Contested - Evidentiary"** — "still investigating,
+but limited primary sources are a concern" — rather than leave them marked
+as settled exclusions under a criterion that may have been misapplied.
+Rewrote both `statusDescription` fields to state the corrected concern
+plainly (limited primary sourcing, explicitly NOT "a leader was involved"),
+updated `meta.statusCounts` (Excluded-Person-Defined 2→0, removed the key
+entirely since it's now empty; Contested-Evidentiary 4→6), verified 0
+errors/warnings. Visually confirmed Montanism's icon on the live chart
+changed from closed-door to question-mark as a direct consequence.
+
+**What this is NOT**: a full Step 0 re-adjudication. This was Mark
+exercising his own gate authority directly, on two specific, already-flagged
+edge cases, in real-time conversation — not an autonomous reclassification.
+The underlying evidentiary question (does either tradition actually have
+independent community-voice sourcing beyond its central figure?) is still
+open and unresolved; "Contested - Evidentiary" says exactly that, no more.
+
+**Queued, not done**: the Criterion 2 language itself lives in
+`Design/CiC_Step0_Criteria_Relook_V1_0.md` and related Round 1/2 review
+docs — those should get updated to carry this clarified definition
+verbatim, so future Step 0 runs (Era 10 and beyond, whenever Fable resumes
+that work) apply the corrected criterion rather than rediscovering this
+ambiguity per-entry. Not done in this pass — flagged here so it isn't lost.
+Also worth a future sweep: are there OTHER entries anywhere in the census
+(Pre-Survey Candidates, Deferred, etc.) whose reasoning leans on the old
+"centered around a leader" framing rather than the corrected "single-voice
+sourcing" framing? Not checked here — this pass only touched the 2 entries
+already carrying a live C2 exclusion.
+
+Verified end-to-end: full harness clean (257/0/0, no JS errors), census
+validator 0/0, visually confirmed all four plain-language status categories
+render correctly (Alexandria "Yes, built," Donatism "Identified as a future
+build," Montanism "Still investigating" with no redundant phrasing, Marcion
+"Currently out of scope") and Montanism's chart icon updated live.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 11) — Section 11 ("Relations, in brief") cut — same internal-voice bug as `why`/`sourcing`, worse in one case
+
+Checked `relationsSummary` against Section 7's structured edges before
+recommending anything: for VII.5 Methodists, it substantially restates in
+prose what the structured edges already show with better sourcing
+(confidence tags, jump links) — genuinely redundant when edges exist. When
+they don't (all 4 pilots have zero structured edges), it's not safely
+neutral either — found real internal-process leaks sitting inside it: VI.24's
+`relationsSummary` includes "Lane note: drafted lane 6... the lane change is
+disclosed, not silent" (us talking to ourselves about our own census-
+construction choices), and VII.5's includes "Named at the Era 9 Freeze
+(Mark)" mid-sentence — a literal internal meeting reference. Same category
+of bug as `why` and `sourcing`, not a new one. Mark: "yes cut it, keep going."
+
+Removed the section entirely. Any genuine relational fact buried in
+`relationsSummary` that isn't already captured structurally (Section 7) or
+narratively (Sections 3/5) is now the content pass's job to fold into real
+prose, not something displayed raw. `relationsSummary` stays in the search
+haystack (backend matching, not display) — untouched. Full harness clean,
+census validator 0/0.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 10) — Section 10 ("Status report") cut
+
+Mark: "cut it, keep going." Removed — it was `statusReport||statusDescription`,
+almost always resolving to a near-verbatim repeat of Section 2's status
+line since `statusReport` is essentially never populated. Section 2 is
+already queued to move to the end of the document and will carry this job
+alone. Full harness clean, census validator 0/0 (template-only change).
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 9) — Legacy widened to cultural/experiential influence, with verified "Visit today" links
+
+Mark: widen "What it left behind" beyond formal denominational/doctrinal
+succession to include art, distinctive spiritual practices, stories, sermon
+illustrations, and architecture that influenced or were adopted by other
+Christian movements — even without a clean, direct, formally-traceable
+line — and where something can genuinely still be experienced today, link
+to it.
+
+Researched all four pilots via WebSearch before writing anything, same
+discipline as every content addition this pass:
+- Donatism: Timgad, Algeria — a UNESCO World Heritage Roman city that was
+  a real Donatist stronghold, its excavated basilica ruins still standing.
+  Added to the legacy paragraph and as an experienceToday link.
+- Adventism: the William Miller Farm in Low Hampton, NY — his restored
+  home, the chapel he built, and Ascension Rock, actively preserved and
+  open for tours by Adventist Heritage Ministries.
+- Czech Churches: two real, verified links — Herrnhut, Germany (the
+  Moravian Church's founding town, a living community, newly UNESCO-listed
+  in 2024) and the Comenius Mausoleum in Naarden, Netherlands (his actual
+  tomb, rediscovered 1929, open to the public).
+- Humiliati: checked specifically for a surviving building — found one
+  candidate (Santa Maria di Cantalupo, Milan) but no stable citable page
+  for it, and the other known Humiliati church (Santa Maria in Brera) was
+  demolished in 1808-09. Left this one without a forced link rather than
+  attach an unverifiable one — the honest "no clear record" legacy text
+  already says the true thing.
+
+New `experienceToday` field: array of `{text, url}`, rendered as "Visit
+today: [link]" paragraphs after the legacy prose and continuesAs lines,
+visually distinguished from the "Sources to research" bibliography (verified
+by checking actual rendered hrefs, not just that the markup looked right).
+
+Verified visually on the Czech Churches entry: both new links render
+correctly, AND a previously-invisible chain surfaced automatically —
+"Continues from Hussites" now appears, a real consequence of the
+continuesAs bug fixed two entries ago (V.6 → VI.24 was one of the 60
+missing pairs). Full harness clean, census validator 0/0.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 8) — Section 8 merged into "What it left behind"; found and fixed a major stale-data bug along the way (chart was silently missing 60 of 71 real succession chains)
+
+Mark: "can this be merged into the legacy section as a specific piece" —
+Section 8 ("Ongoing church," the continuesAs prev/next links) folded into
+Section 5 ("What it left behind") as an unlabeled continuation right after
+the legacy paragraph, rather than its own heading. Both sections answer the
+same underlying question — what became of this tradition — one in prose,
+one as a structured identity-succession fact.
+
+**Real bug found while verifying the merge, not by going looking for one**:
+tested against VI.6 Huguenots, which I knew from earlier stream research
+has a real `continuesAs` chain to VII.22 Church of the Desert — and it
+didn't render. Traced it to `CONTINUES`, a hardcoded 11-pair array in
+`atlas-v3.html`, still carrying its own comment calling itself "PROVISIONAL
+DEMO DATA... needs a census `continuesAs` field" — written before the
+census had that field at all. The census has carried real `continuesAs` on
+71 movements for most of this session (used directly, repeatedly, in the
+A4 succession-spine work and the streams batches) — the atlas page never
+picked it up. **The chart's own visual continuity rendering (which
+pairs get a flowing tail into their successor vs. a closing seal), the
+hover/click trace highlighting, and the click doc were all silently running
+on 11 of 71 real pairs** — 60 real identity-succession chains were
+invisible on the live page this whole time, this session's own work
+included.
+
+Fixed at the root: `CONTINUES` and its hand-maintained array deleted;
+`contNext`/`contPrev` now built by iterating `DATA.movements` and reading
+each entry's own `continuesAs` field directly — the same single-source-of-
+truth discipline every other part of this page already follows. Also
+caught and fixed an adjacent inconsistency spotted during verification: the
+"Lineage" empty-state note ("No relationship is drawn for this entry")
+only checked influence edges, so an entry with a real continuesAs chain but
+no influence edges (like the Huguenots) showed a technically-true-but-
+misleading "no relationship" note directly beneath its own continuation
+line. Now suppressed when either kind of relationship exists.
+
+Verified thoroughly given the blast radius (this touches chart geometry,
+not just text): full harness clean (257/0/0, no JS errors, no overlaps)
+both before and after; visually confirmed the Huguenots entry now shows
+"Continues as Church of the Desert" under "What it left behind" with the
+misleading Lineage note correctly suppressed; spot-checked the full-page
+render for layout coherence. No census changes — this was purely a stale
+duplicate-data bug in `atlas-v3.html`, not a data problem.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 7) — Section 7 relations reviewed, kept as-is structurally; found and fixed the naming-hierarchy bug in 3 places
+
+Section 7 (structured relation edges: shaped-it/shaped-by/tension/
+contemporaries, confidence tags, jump links) was already good — Mark's call:
+keep the structure, no redesign needed. But close reading turned up a real
+regression from Section 1's naming-hierarchy decision: `edgeRow()` linked to
+related entries using their academic `name`, not `shortName||name` — every
+relation link on the page was quietly bypassing the hierarchy set two
+sections ago. Swept the whole file for the pattern rather than assuming this
+was the only instance, and found two more: the "Continues from/as" links
+(Section 8) and the thread-hover tooltip (`a.name → b.name` when hovering a
+lineage line on the chart itself) had the identical bug. All three fixed
+together. Confirmed via grep that every remaining `.name` reference in the
+file is now either the correct `shortName||name` form or the deliberate
+secondary/academic-name line — not just the one spot that was reported.
+
+Full harness clean, census validator 0/0 (no data changes this pass, purely
+a template fix).
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 6) — "Where it stands on the Creed" rewritten in plain language (same bug as `why`, found by the same instinct)
+
+Checked `floorNote` before recommending anything, same discipline as every
+section so far — found the identical bug `why` had: dense internal Step 0
+methodology language ("A1 pass," "C2 RUN at the Era 9 gate," "FORMAL
+DISPOSITION," "register status," "window-specificity") sitting under a
+plain-English heading. Two of the four pilots (Humiliati, Czech Churches)
+correctly show nothing here — genuine "no question" cases, confirming this
+isn't a universal leak, just this specific field's habit when there IS a
+real creedal question on record.
+
+Unlike Sections 3/4/5, this wasn't a wrong-field problem — `floorNote` is
+the right field, just written in methodology voice instead of visitor
+voice. Rewrote the two pilots' content directly (no template change needed,
+the display logic was already correct):
+- Donatism: "Cleared Step 0 (A1 pass on record)" → a plain statement that
+  the dispute was disciplinary (who could validly serve as clergy), not
+  doctrinal — Donatists held the same Nicene content as their rivals.
+- Adventism: the dense paragraph → the same underlying facts in plain
+  language — the 1872 Declaration's non-trinitarian wording, the 1931
+  trinitarian confession, and the unresolved question about Ellen White's
+  prophetic authority relative to Scripture — stated as facts, not
+  methodology jargon.
+
+Verified visually: Adventism's full document now reads as one coherent,
+plain-language whole — story, voices, legacy, creed-standing all in the
+same accessible voice. (The status line above it still shows old jargon —
+Section 2, already queued to move to the end, not touched this pass.) Full
+harness clean, census validator 0/0.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 5) — "What survives" (evidence-richness) replaced by "What it left behind" (legacy)
+
+Section 5 had the same mismatch as Section 3's original bug: `sourcing`
+under a heading ("What survives") that promises one thing (living
+descendants, surviving institutions/practices) while the field actually
+answers a different one (how well-documented the tradition is for our own
+research purposes). Also overlapped functionally with Section 9's source
+bibliography.
+
+Mark reframed it as its own real question, distinct from both the
+narrative and the structured relation edges already in the template: "how
+did it influence the ongoing story" — did it become an ongoing
+denomination, leave a legacy of influence without institutional
+continuation, or hand something down that outlived it — and if genuinely
+none of those, say so plainly rather than force a claim.
+
+New `legacy` field, heading "What it left behind," `sourcing` fully retired
+from the visitor template (confirmed no remaining references) — same fate
+as `why`, both were internal researcher bookkeeping, not visitor content.
+Wrote real, differentiated legacy content for all four pilots, each a
+genuinely different case:
+- Donatism: no continuing church, but real doctrinal influence — Augustine's
+  mixed-body ecclesiology and ex opere operato sacramental theology both
+  developed directly out of arguing against it.
+- Adventism: became an ongoing denomination (Seventh-day Adventist Church).
+- Humiliati: genuinely nothing recorded — said as an honest "no clear
+  record," not padded.
+- Czech Churches: a real "gift that lived on" already cross-referenced
+  elsewhere in the census — VII.4 Moravian Church at Herrnhut's own
+  relationsSummary explicitly names receiving this exact entry "across the
+  1627-1722 hidden-seed century." Confirms this new section can draw on
+  connections the census already carries, not just fresh research.
+
+Verified visually: the Czech Churches entry now reads as a complete arc —
+story, voices, legacy, creed-standing — in one coherent flow. Full harness
+clean, census validator 0/0.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 4) — "Major voices": found genuinely dead since launch, populated for real rather than cut
+
+Checked Section 4 before recommending anything: `voices` is empty for
+**all 257 entries, including all 6 built worlds** — not "mostly empty for
+unbuilt worlds" like the earlier sections, never populated once, anywhere.
+Every visitor has been seeing "Not yet gathered" 100% of the time since this
+shipped. Also noticed the four pilot narratives already name their key
+figures inline (Augustine, Miller, Comenius) — a bare separate name-list
+risked just repeating the story in flatter form. Recommended cutting the
+section. Mark: "we should be able to build this out at this point also" —
+build it, don't cut it.
+
+Verified four more names before writing anything (same discipline as the
+source links): Petilian of Cirta (a real Donatist bishop Augustine wrote
+against, his own words lost except as Augustine quotes them) and Tyconius
+(a Donatist theologian whose ecclesiology shaped Augustine despite his own
+party's suspicion of him) for Donatism; Hiram Edson and Joseph Bates'
+specific roles alongside Miller and White for Adventism; Jan Blahoslav's
+role starting the Kralice Bible translation for the Czech Churches.
+
+The Humiliati entry surfaced a real distinction worth keeping visible: no
+individual founder is named anywhere in the record — this is a lay
+collective, organized by trade and locality, not around a founding
+figure. Used a one-line explanatory entry instead of the "Not yet
+gathered" fallback for it, because "not yet gathered" would be dishonest
+here — it's not that the research hasn't happened, it's that there isn't a
+prominent name to report. Different honest state, said as such.
+
+Rewrote the render from one middot-joined line to one paragraph per voice,
+since each entry now carries real context ("Name — role/significance") that
+reads better as a short list than crammed onto one line. Verified visually
+in a real browser (Donatism's four voices, one per line, readable). Full
+harness clean, census validator 0/0.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 3) — Hover teaser + clickable sources shipped; 4 pilot entries fully written and verified end-to-end
+
+Mark, reacting to the four sample `longDescription` drafts: "yes this
+combined with the ability to investigate listed sources and a brief
+contextual overview in the previous section seems to work well." Clarified
+two things before building: the "brief contextual overview" meant a
+genuinely distinct hover-card teaser (not today's mechanical truncation of
+the full paragraph), and "investigate listed sources" meant real clickable
+links where a source actually has one online — confirmed both directly
+rather than guess and build the wrong thing.
+
+**Schema**: new `teaser` field (a hand-written sentence, same shape as the
+six built worlds' existing `entry.tile` — hover already fell back to
+`entry.tile` for those, so nothing duplicated) and an optional `sources[].url`
+field, both additive/backwards-compatible like every schema change this
+project has made.
+
+**Sourced for real, not guessed**: before attaching any link, used WebSearch
+to verify four real, stable sources exist and confirm exact facts along the
+way — this is also where IV.27's suppression date firmed up from a vague
+"sixteenth century" placeholder to the actual 1571 papal bull, confirmed by
+the Catholic Encyclopedia entry itself:
+- I.4 Donatism → Augustine's own "On Baptism, Against the Donatists" (New
+  Advent) — fitting, since the entry's own point is that Donatist voices
+  survive mostly through their opponent's pen.
+- VIII.10 Adventism → William Miller's 1836 "Evidence from Scripture and
+  History" (Internet Archive, the actual primary text already cited in the
+  entry's existing `sources[]`).
+- IV.27 Humiliati → Catholic Encyclopedia's Humiliati entry (New Advent).
+- VI.24 Czech Churches → Wikipedia's Bible of Kralice entry, for the
+  Unity of the Brethren's lasting literary work.
+
+**Template**: hover tooltip now shows `teaser||entry.tile` instead of a
+truncated slice of `longDescription` — absent rather than faked when a
+teaser doesn't exist yet, matching every other honest-gap pattern already
+in this template. "Sources to research" now renders `x.work` as a link
+(gold, matching the site's existing link-adjacent styling) when `x.url` is
+present, plain text otherwise.
+
+Wrote real `longDescription`/`teaser`/sourced-`sources[]` for all four pilot
+entries (I.4, VIII.10, IV.27, VI.24) — not placeholders, the actual content
+Mark reacted to. Verified end-to-end in a real browser: Donatism's hover
+card shows its teaser distinct from the full paragraph, its click doc shows
+the full narrative under "About this world" plus a working clickable link
+(confirmed the actual `href`/`target` on the rendered anchor, not just that
+markup looked right) to Augustine's text. Full harness clean (257/0/0).
+
+**Not yet decided**: how to scale this from 4 piloted entries to the
+remaining ~221 (m.era 1-9, still no longDescription) — batch size, whether
+via a managed background agent per the streams/status-description pattern,
+and what review gate catches errors before they ship. That conversation is
+next, now that the shape and sourcing discipline are proven on real
+examples rather than a plan.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 2) — "About this world" stops leaking Step 0 methodology text; content-writing pass scoped correctly to Eras 1-9
+
+Continuing the click-doc section-by-section review. Two decisions:
+
+**Section 2 (status line) reordering**: Mark — "if we keep 2, this should
+be at the end, not the second... not sure people want to know our internal
+decision making criteria." Decided: final order will be Header → About this
+world → [sections TBD] → Status line, last. Not yet implemented in code —
+holding the actual reorder until all 12 sections are through review, so it
+happens once instead of being re-shuffled section by section.
+
+**Section 3 ("About this world")**: confirmed the diagnosis from the prior
+entry — `longDescription||why` was showing Step 0 methodology reasoning
+("why this counts as its own tradition") under a heading promising a
+description of the tradition itself, for all 251 non-built entries. Mark:
+"this should be tell me about this tradition, we dont need to reveal our
+system thinking here." Dropped the `why` fallback from both the click doc
+and the hover-card preview (which had the identical bug via the same
+`rawDesc` fallback chain) — no content, no leak; falls through to an honest
+"Not yet written" placeholder instead, same pattern as the existing "Major
+voices" fallback.
+
+Discussed structure and content plan for actually writing that missing
+content rather than leaving the placeholder long-term. Decided: one
+unified narrative paragraph per entry (not split into rigid sub-fields like
+"Beliefs"/"Fate" — those don't apply cleanly to every tradition, e.g. a
+still-living one has no past-tense "what happened to them"), drawing on
+material the census already has (`why`, `relationsSummary`, `sourcing`,
+`floorNote` — real historical content, just written in methodology voice)
+plus the project's standing six reference works and reliable web sources
+for gaps. Explicitly NOT required to go through full Step 0 build-cycle
+discipline — that discipline decides whether something belongs on the map;
+these entries already cleared it, so writing their story is separate,
+lighter work.
+
+**Scope correction, caught before drafting anything**: Mark asked directly
+whether Step 0 had already run for all eras but 10 — checked the census
+directly rather than assume: Eras 1-2 are Phase One COMPLETE, Eras 3-9 are
+Frozen by Mark, Era 10 is "Step 0 not yet run — pre-survey signals only."
+Real trap found in the same check: atlasId roman-numeral prefixes do NOT
+reliably track `m.era` — e.g. "IX.1 Azusa Street"'s atlasId reads as Era 9
+but its actual `m.era` is 10 (historical ID drift). Scoping the
+content-writing pass by atlasId prefix would have silently pulled in Era 10
+entries whose own inclusion isn't decided yet — used `m.era` instead. Exact
+count: 225 entries (m.era 1-9, no longDescription yet) are fair game now;
+32 entries (m.era===10) wait for the Fable Era 10 Step 0 run already queued
+from earlier this session. Zero entries currently have longDescription at
+all — even the 6 Built & Live worlds carry their description in a separate
+`entry.tile` field, so this pass doesn't touch or duplicate that.
+
+**Next**: draft `longDescription` for 3-4 sample entries (varied era/amount
+of existing material) before committing to any batch/agent approach, so
+Mark can react to real prose rather than a plan.
+
+---
+
+## 2026-08-03 (Pass 5, click-doc review 1) — Naming hierarchy flipped: relatable name leads everywhere, academic name demoted
+
+Starting a section-by-section review of the click-through document (Mark:
+"i don't think some of the information is clear or accurate on worlds we
+have not built out yet... I want to adjust the template"), working through
+all 12 sections one at a time before touching code on any of them.
+
+Section 1 (the header) produced an immediate, decided change rather than
+just a review note. Mark's example: "Bethlehem Circle" — checked directly,
+this is I.9's actual `shortName`, for an entry whose academic `name` is
+"Hieronymian Ascetic-Literary Christianity." The shortName evokes a real
+place and circle of people; the academic name doesn't. Mark's ruling: the
+relatable name belongs on the box AND at the top of the click document,
+with the academic name demoted to something you get by looking closer —
+"this is something that tells the story."
+
+Checked how consistently the existing `shortName` field actually clears that
+bar before assuming it was ready to lead everywhere: pulled a sample and
+found it's mixed. "Bethlehem Circle" and "Azusa Street" (a place) earn it;
+"Latin Pastoral," "Zurich & Geneva," "Plymouth Brethren," "Baptists" are
+just compressed academic titles wearing a shortName's clothes — no
+story/place/circle feel. This splits into two separable pieces: the
+**display hierarchy** (mechanical, safe to do now) and the **content
+quality** of shortName across up to 257 entries (real per-entry judgment
+work, same shape as the A2.a shortName spot-check already closed out this
+session, just against a stricter bar this time). Mark's call: make the
+template change now, queue the renaming pass as its own follow-up.
+
+**Applied**: the box already led with `shortName||name` (no change needed
+there — B2/schema-v2 already had this half right). Flipped the other two
+surfaces to match: the hover tooltip's primary line now reads
+`shortName||name` with the academic `name` demoted to the secondary line
+(recolored from gold/quoted — which read as "nickname, worth noticing" — to
+muted italic, which reads as "reference info, secondary"); the click
+document's `<h2>` now does the same, replacing the old `informalName`-in-
+quotes secondary line (which was often just "The " + shortName, genuinely
+redundant against the new hierarchy) with the academic name in the same
+muted-italic treatment. `informalName` itself wasn't touched at the data
+level and still feeds search.
+
+Verified directly on two contrasting real entries, not just code-read: I.9
+Bethlehem Circle (Built & Live, rich content) shows "Bethlehem Circle" bold
+atop both the hover card and the click doc, "Hieronymian Ascetic-Literary
+Christianity" italic/muted beneath in both places; a Pre-Survey Candidate
+entry (Cyrilline/Miaphysite Egyptian Christianity, shortName "Miaphysite
+Egypt") shows the identical hierarchy with no live content, confirming the
+change holds for the 251-of-257 not-yet-built case Mark specifically raised,
+not just the six built showcase entries. `#sheetTitle`'s id (load-bearing
+for the sheet's `aria-labelledby` from the accessibility pass) is untouched.
+Full harness clean (257/0/0). No census changes — `atlas-v3.html` only.
+
+**Queued, not started**: a full-census pass rewriting `shortName` wherever
+it's currently just a truncated academic title rather than a genuinely
+relatable name — real per-entry work, its own future session.
+
+Sections 2–12 of the click-doc walkthrough are still ahead.
+
+---
+
+## 2026-08-03 (Pass 4, accessibility 4) — Systematic accessibility audit: 2 real WCAG failures, several keyboard/screen-reader gaps, all fixed
+
+Mark: "let's do the accessibility audit next" (the last of the four
+candidates offered). Previous a11y work was per-feature and incidental
+(`.node` focus-visible, reduced-motion, a stray `aria-live` here and there);
+this pass read the whole page systematically — semantic structure, keyboard
+reachability, screen-reader labeling, modal/dialog behavior, and measured
+color contrast rather than eyeballing it — and fixed everything it found.
+
+**Real WCAG contrast failures (measured, not guessed):**
+- Light-mode `--muted` on `--bg`/`--panel`: 3.56–3.85:1, fails the 4.5:1
+  normal-text minimum. This is small italic text used everywhere — dates,
+  hover-card meta, sheet notes, the movement count, footer prose. Darkened
+  to `#77694f` (was `#8a7a5c`): 4.55–4.93:1, passes on both backgrounds.
+- Light-mode `--gold` on `--bg`: 3.29:1, same failure — used for small-caps
+  section labels and every `h4` in the sheet. Darkened to `#83662a` (was
+  `#a07c33`): 4.58–4.95:1. Dark mode's `--muted`/`--gold` were already
+  passing (5.55–7.72:1) and left untouched.
+- **The more serious one**: `.node.live{color:#fff}` was hardcoded white
+  regardless of theme, but dark mode's family-color palette (`FAM[].cd`) is
+  deliberately light/pastel — built for thread-stroke legibility against a
+  dark canvas, not as a solid fill with white text on top. Measured white
+  text against all 13 dark-mode family hues: 1.77–2.36:1, nowhere close to
+  passing, and confirmed visually (screenshotted a live node in dark mode —
+  genuinely hard to read). This hits the SIX "Built & Live" nodes
+  specifically — the ones a visitor can actually enter conversation with,
+  arguably the most important boxes on the whole map. Added a `--live-text`
+  custom property (white in light mode, the dark theme's own `--bg` value
+  in dark mode) and a matching `liveTextColor()` JS helper for the SVG
+  status-icon fill drawn in `drawArt()`, which had the identical hardcoded-
+  white bug. Verified: 7.1–9.9:1 across all 13 hues both ways.
+
+**Keyboard / screen-reader gaps found and fixed:**
+- No `<h1>` anywhere on the page — added one (visually hidden via `.sr-only`,
+  doesn't touch the deliberately tight header layout).
+- No `<main>` landmark — wrapped the controls+map+atlas-footer (the page's
+  actual unique content) in `<main id="main">`; the site chrome header/
+  global-footer stay outside it.
+- No skip link. First attempt at one used a local inline `.skip-link` CSS
+  rule — then discovered `assets/style.css` **already defines this exact
+  pattern site-wide** (`href="#main"` + `<main id="main">`, present on
+  index.html and about.html) and my local rule was conflicting with it in
+  the cascade (caught by testing the actual computed position, not assuming
+  the CSS I wrote was the CSS that rendered). Deleted the local override,
+  matched the established `<main id="main">` + "Skip to content" wording
+  instead of inventing a one-off variant.
+- `#legend`/`#streamlegend` had no group-level label for screen readers
+  tabbing through ~20 unlabeled buttons — added `role="group"
+  aria-label="..."` to each.
+- `#cnt` (the "N of 257 movements" count) had no `aria-live` — filtering
+  changed it silently for screen-reader users even though sighted users see
+  it update. Added `aria-live="polite"`.
+- `#rail` era-jump buttons relied on `title` alone (unreliable for screen
+  readers, invisible until hover) for a numeral-only button label ("III") —
+  added a full `aria-label` ("Jump to Era III: ...").
+- Decorative SVG icons in the header controls and the "Reading the marks"
+  footer box weren't marked `aria-hidden="true"` — inconsistent behavior
+  across screen readers when redundant icons sit next to their own text
+  label. Marked all of them.
+- The `#tray` "Remove" buttons had a generic `aria-label="Remove"` with no
+  indication of what — made it name-specific.
+- **The sheet (`#sheet`, the full-entry document) had no modal semantics at
+  all**: no `role="dialog"`/`aria-modal`, no `aria-labelledby`, focus never
+  moved into it on open or back to the trigger on close, no Escape key, no
+  focus trap, and — worse — it stayed in the normal Tab order even while
+  visually closed and off-screen, so keyboard users tabbing through the page
+  would hit an invisible close button and act buttons that did nothing
+  visible. Fixed with the `inert` attribute (toggled on open/close — removes
+  the closed sheet from both the tab order and the accessibility tree in one
+  step), `role="dialog" aria-modal="true" aria-labelledby="sheetTitle"
+  tabindex="-1"`, focus moved to the sheet container on open and back to the
+  triggering node on close, Escape-to-close, and a basic Tab/Shift+Tab focus
+  trap cycling through the sheet's own buttons and links.
+- The "Continues from/as" and "Traditions that shaped it" links inside the
+  sheet (`<b data-jump="...">`) looked clickable (underlined, cursor:pointer)
+  but had no `tabindex` — keyboard users literally could not reach them, a
+  mouse-only dead end for real content. Added `tabindex="0" role="link"`
+  plus a matching keydown handler (Enter/Space), reusing the same jump logic
+  as the click handler instead of duplicating it.
+- Added explicit `:focus-visible` outlines (matching `.node`'s own treatment)
+  to legend/stream/rail/control buttons and the sheet's interactive elements,
+  rather than relying on each browser's unstyled default outline against
+  this theme's custom button chrome.
+
+**Deliberately left alone:** the hover tooltip (`#tip`) still only triggers
+on mouse pointerover, not keyboard focus — considered adding `aria-live` to
+announce it, but that solves nothing for keyboard users (it still never
+fires on focus) and would add noise for anyone using a mouse alongside a
+screen reader. Keyboard users get the FULL entry directly via Enter/Space
+without the lighter preview step, which is a reasonable, honest tradeoff,
+not a blocking gap — left as documented, not silently accepted.
+
+Every fix verified directly in a real browser, not assumed from reading the
+code: computed contrast ratios recalculated post-fix, a live node
+screenshotted in dark mode before/after (visibly the difference), the sheet
+opened/closed via simulated keyboard interaction confirming inert toggling,
+focus-in/focus-out/focus-trap-wrap all in the correct place, Escape closing
+it, and the jump links' tabindex/role. Full harness clean (257/0/0, no JS
+errors). No census changes — `atlas-v3.html` only.
+
+This closes out all four accessibility candidates from the original offer
+(search aliases, glossary, deep-links, audit) — the Church in History map
+now has real keyboard/screen-reader coverage for its core interaction paths,
+not just its newest features.
+
+---
+
+## 2026-08-03 (Pass 4, accessibility 3) — Shareable deep-links: search + built + lanes + streams now round-trip through the URL
+
+Mark: "let's do the shareable deep-links next" (the third of the four
+accessibility candidates offered). A specific view — a search term, the
+built-worlds toggle, particular lanes off, particular streams spotlighted —
+previously lived only in page state; closing the tab lost it, and there was
+no way to hand someone else the exact same view.
+
+Read the four state variables (`QF`/`QRaw`, `builtOnly`, `laneOff`,
+`streamOn`) from `location.search` once at boot, before any of them take
+their normal empty defaults, then write them back via `history.replaceState`
+(not `pushState` — a filter tweak shouldn't spam browser back-button history)
+after every state-changing action: search input, built-toggle click, a lane
+button, a category button, a stream button. Empty state produces a bare URL
+with no stray `?` — verified directly, not assumed. Added a "Copy link"
+button next to Built worlds for discoverability, since otherwise the only
+signal is the address bar quietly changing, which most people won't notice
+enough to think to copy it.
+
+Deliberately scoped to the four things this offer named: search, lanes,
+streams, built-toggle. Theme and scroll position are NOT part of the URL —
+display preference, not "what is this view showing," and out of scope for
+what was asked. Search is stored as the raw typed text (`QRaw`, e.g.
+preserves "LDS" casing) rather than the normalized/lowercased matching
+string, so a shared link reads naturally in the address bar and re-normalizes
+on load the same way fresh typing does.
+
+Verified end-to-end in a real browser, not just unit-style: set a compound
+state (search "coptic" + built-toggle on + Non-Nicene lane off + Oriental
+Orthodox and Baptist streams both on), confirmed the generated URL encodes
+all four correctly, confirmed the Copy-link button actually writes that URL
+to the clipboard, then loaded a FRESH page directly from that URL and
+confirmed every piece restored exactly — search box text, built-toggle
+visual state, the lane button's off state, both stream buttons' on state,
+and the resulting match count. Full harness clean (257/0/0, no JS errors on
+either the state-setting page or the fresh reload). No census changes —
+`atlas-v3.html` only.
+
+---
+
+## 2026-08-03 (Pass 4, accessibility 2) — Categories & streams glossary added to the footer
+
+Mark: "let's do the streams/categories glossary next" (the second of the four
+accessibility candidates offered). The toggle labels use real vocabulary a
+first-time visitor won't already know — "Dispensational / Bible-Institute,"
+"Post-Evangelical Ferment" — so the toggles themselves weren't
+self-explanatory the way the icon marks already were (the existing "Reading
+the marks" footer box).
+
+Added a `desc` field to every entry in the existing `CATS` (5) and `STREAMS`
+(10) arrays — one plain sentence each, matching the site's own voice — then
+generate a new footer glossary block FROM those arrays at load time, rather
+than writing a second, hand-kept copy of the same 15 labels. Same
+single-source-of-truth discipline the whole atlas already runs on (it reads
+the census live; this reads its own in-page definition arrays live) — a
+future stream or category addition only needs its `desc` written once, in
+the array that already drives the toggle button itself, and the glossary
+picks it up automatically with no separate edit.
+
+Category descriptions clarify the two vaguest groupings specifically: "Other"
+(what it actually bundles — pre-lane origins, Syriac East & Asia, Africa,
+Cross-Family) and "Outside" (states plainly that Non-Nicene traditions are
+included on the map, marked as outside the floor, not hidden). Stream
+descriptions are one sentence each, written to be readable without already
+knowing the term (e.g. Hesychast/Philokalia: "The contemplative prayer
+tradition running from Byzantine monasticism through Mount Athos to the
+Russian startsy" rather than assuming the reader already knows what
+hesychasm is).
+
+Verified in a real browser at both breakpoints: desktop renders as a clean
+two-column definition list; the existing mobile media query pattern (matched
+to the lane-legend wrap fix from earlier this pass) collapses it to single-
+column term-over-definition under 700px, confirmed by screenshot rather than
+assumed. Full harness clean (257/0/0, no JS errors). No census changes —
+`atlas-v3.html` only.
+
+---
+
+## 2026-08-03 (Pass 4, accessibility 1) — Plain-language search aliases shipped; two real bugs caught and fixed before shipping
+
+Mark, after agreeing to hold Era 10 for Fable next week: "what else can we do
+to make the Church in History map more accessible (easy to use, various forms
+of searchability, easy categorizations, etc.)." Offered four candidate
+directions (search aliases, streams/category glossary, shareable deep-links,
+a11y audit); picked plain-language search aliases — the map still spoke in
+academic census vocabulary, so someone who only knows "I grew up Baptist" or
+"I'm non-denominational" had to already know the map's own naming to find
+themselves. The same problem named at the very start of this build ("the
+challenge is the participant has to know what it is they are entering to
+choose it"), now showing up in search specifically.
+
+Two honest, grounded fixes rather than one big rewrite:
+
+1. **Widened the search haystack** to include `relationsSummary` and
+   `floorNote` — fields the live page's search wasn't reading at all. A lot
+   of real denominational language already lives there (e.g. "Book of
+   Mormon" only appears in VIII.14's floorNote, nowhere else) — this
+   surfaces already-written content, invents nothing. Verified directly:
+   searching "coptic" went from 5 to 6 matches, a real entry the old search
+   was blind to.
+2. **A small curated alias table**, each target checked by direct census
+   query before being added, not guessed: LDS/Mormon → VIII.14; JW →
+   VIII.15; Adventist → VIII.10 (the census's own shortName is "Adventism" —
+   "adventist" doesn't substring-match "adventism", a real naming-suffix
+   gap); Amish/Mennonite/Hutterite → VI.3 (confirmed zero hits anywhere in
+   the census's own text despite VI.3 being the right entry); Episcopal(ian)
+   → the Anglican/C of E chain (VI.4, VII.20, VIII.30, VIII.5); Trappist →
+   IV.1 Cistercian Monasticism; non-denominational → IX.30 Megachurch &
+   Seeker Movement; "born again" → the revivalist/evangelical-identity
+   cluster (VII.6, VIII.2, IX.24). Deliberately did NOT alias fundamentalist,
+   liberal/mainline Protestant, or social gospel to some nearby entry — those
+   genuinely have no row yet (the already-logged Era 10 gap), and pointing
+   the alias at the nearest unrelated thing would misrepresent what the map
+   actually says, the same honesty rule that's governed streams since batch 1.
+
+**Two real bugs found by testing before shipping, not after:**
+- "lds" initially returned 23 unrelated matches — a 3-letter alias term is
+  also a plain substring of ordinary words in the widened haystack ("worlds,"
+  "molds," etc.), so the generic text search drowned the alias out. Fixed by
+  making an EXACT match to a short alias term exclusive (alias results only,
+  bypassing the generic substring search for that query) while a partial/
+  still-typing match keeps the normal OR-with-text-search behavior — so
+  results still widen naturally as someone keeps typing.
+- "born again" was first built as a query-expansion ("search as if this said
+  evangelical") rather than a fixed entry list — but `_fam.lbl` ("Protestant
+  & Evangelical") sits in every lane-6 entry's own haystack, so the
+  expansion inherited that whole lane's noise: 60 matches, not a real
+  "find yourself" result. Replaced with a specific, curated 3-entry id list
+  instead of a text expansion — same lesson as the first bug: an alias
+  should point at verified content, not at a search term whose own breadth
+  hasn't been checked.
+
+Verified all eight aliases return exact, correct, tightly-scoped results
+after the fixes; re-ran the full harness clean (257/0/0, no JS errors, no
+overlaps). No census changes this pass — search-only, `atlas-v3.html`.
+
+---
+
+## 2026-08-03 (Pass 4, streams build 4) — Mark's real objection: modern expressions were being left standalone. Three more streams found and shipped by tracing existing chains forward, not by adding rows
+
+Mark, on the previous entry's conclusion: "so this is a real problem, because
+the modern expressions are deeply influenced by historical streams, they are
+not stand alone." Correct, and it exposed a gap in HOW the previous batches
+were built, not just a missing-data gap: batch 2's sweep checked each entry's
+own relationsSummary for a named parent, but stopped at single-hop lookups —
+it never asked "does anything ELSE explicitly cite an entry I've already
+tagged?" the way batch 1 traced continuesAs chains multi-hop. That missed
+real, explicit, already-written connective tissue.
+
+Re-swept by building a citation graph from every `(atlasId)` reference inside
+relationsSummary/why text (the census's own way of naming a specific
+ancestor, distinct from vague self-description like "evangelical dissent" or
+"evangelical pragmatism" that doesn't name one), then walking it forward from
+what was already tagged. Found three more genuine streams, all with the same
+explicit-citation discipline as the first two batches:
+
+- **Anglican / Church of England** (5: VI.4, VII.20, VIII.30, VIII.5, IX.32) —
+  a clean continuesAs institutional spine (VI.4 → VII.20 → VIII.30, the same
+  identity-succession kind already used in batch 2's Waldensian chain) plus
+  VIII.5 Oxford Movement's explicit two-way "renewal-inside" relation with
+  VIII.30, plus IX.32 Narrative-Kingdom Renewal's own stated heritage
+  ("heirs of Anglican scholarship (VIII.5 line)"). This is the stream VI.4 was
+  excluded FROM Reformed/Calvinist for in batch 2 (its continuesAs identity is
+  Anglican, Reformed was only formative influence) — that exclusion is what
+  made this its own stream rather than folding into Reformed.
+- **Dispensational / Bible-Institute** (3: VIII.23, VIII.24, IX.29) — IX.29's
+  own text names both ancestors by ID directly: "Child of Plymouth Brethren
+  teaching (VIII.23) carried through the Bible-institute tradition (VIII.24)."
+- **Post-Evangelical Ferment** (3: IX.28, IX.30, IX.31) — IX.31's own text
+  names both siblings by ID: "Child of IX.30's and broader evangelicalism's
+  crises; kin of IX.28's questions a generation later." All-modern (no
+  pre-1900 entry), which is fine — a stream doesn't need ancient roots, just
+  genuine textual connection; this one directly answers "not standalone" for
+  its own era even though it doesn't reach back further.
+
+**What this does NOT fix, and said plainly rather than papered over:** several
+modern entries genuinely have no traceable ancestor in the census's own text —
+IX.24 Lausanne-Era Global Evangelicalism cites nothing and is cited by
+nothing; VIII.23's own origin is "evangelical dissent" with no ID attached;
+VIII.25's only citation (from IX.32) is real but singular, one link short of
+its own 2-box bar, so it stays untagged rather than forced into Anglican
+where it doesn't really belong (VIII.25 isn't Anglican-specific). This is the
+SAME underlying problem as the previously-logged Fundamentalism/Social-Gospel/
+liberal-theology gap, just one layer further downstream: not only are some
+whole traditions missing rows, some existing rows' own relationsSummary text
+doesn't yet name a specific historical ancestor even where a real one likely
+exists. Both are Track A writing gaps, not something the streams feature can
+manufacture without inventing a link the census doesn't actually make — doing
+that would violate the same honesty bar ("checked against actual content, not
+just name-matching") this whole feature has run on since batch 1.
+
+11 new entries tagged (0 overlap with prior batches, confirmed before
+writing); 91 unique entries now carry at least one stream tag across 10
+streams total. Verified: each new stream's solo count matches exactly (5/3/3),
+and — specifically re-testing the exact failure mode from batch 2's toggle
+bug — all 10 streams active simultaneously gives exactly 91 (the true
+union), full reset returns cleanly to 257/no-filtering. Full harness clean
+(257/0/0). Same append pattern, same 1-space JSON indent, `STREAMS` array in
+atlas-v3.html extended from 7 to 10 — no UI logic changes needed, confirming
+the spotlight/composition mechanics built in batch 1 continue to generalize
+without modification.
+
+---
+
+## 2026-08-03 (Pass 4, streams build 3) — Two remaining candidates checked, neither built: Fundamentalist/Liberal/Evangelical (no data yet) and Pentecostal/Charismatic (already covered)
+
+Mark: "let's do those next too" (the two remaining named candidates from the
+original scoping conversation). Checked both against the live census before
+writing anything, same discipline as the first two batches — both turned out
+to be non-starters, for two different reasons, and nothing was built:
+
+- **Fundamentalist vs. Liberal/Mainline vs. Evangelical**: this isn't a
+  streams-tagging gap, it's a data gap already on record. The Era 9 gate
+  conversation (2026-08-03, logged in `Design/StepZero-Eras/
+  CiC_Step0_Era9_V1_0.md`) found and Mark-mandated three connected E10
+  candidates — Fundamentalism, the Social Gospel, and liberal/neo-orthodox
+  academic theology (Schleiermacher through Barth/neo-orthodoxy to Tillich/
+  Bultmann) — **none of which have a row anywhere in the census**. A stream
+  needs at least two existing entries to connect; there's nothing to tag
+  until those entries exist. Building them is real Track A work (source
+  survey, Section A/B screening, adversarial review, Mark gate) that belongs
+  to the Era 10 Step 0 run already queued, not to the streams feature. Asked
+  Mark whether to start that Era 10 mini-run now or hold; no answer came
+  back, so left it untouched rather than guess at scope for a bigger,
+  separate body of work — this stays open for a future session.
+- **Pentecostal/Charismatic as its own stream, distinct from the
+  Wesleyan/Holiness/Pentecostal stream already shipped**: checked and it
+  doesn't hold up as separate. The only "Charismatic" content in the census
+  is IX.7 (Catholic Lay Renewal Traditions, which bundles Catholic Worker,
+  Focolare, Charismatic Renewal, and L'Arche together), and its own
+  relationsSummary says "Children of the long Catholic renewal line" — no
+  textual link to IX.1 Azusa or the Pentecostal family at all. Tagging it in
+  would have been a name-match ("Charismatic Renewal" is literally in its
+  title) rather than a content-match, exactly what Mark's bar rules out.
+  Nothing else in the census names the 1960s-70s charismatic movement
+  distinctly from classical Pentecostalism. Not built; the existing
+  Wesleyan/Holiness/Pentecostal stream already covers everything the census
+  actually connects.
+
+No census or UI changes this pass — a negative result is still worth
+recording so this doesn't get re-researched from scratch later.
+
+---
+
+## 2026-08-03 (Pass 4, streams build 2) — Next batch shipped: Reformed/Calvinist, Wesleyan/Holiness/Pentecostal, Baptist, Anabaptist/Believers-Church — plus a real multi-select toggle bug found and fixed
+
+Mark: "let's do the next batch of streams." No saved research-agent report to
+work from this round (the earlier candidate list — Calvinist/Reformed,
+Arminian/Wesleyan, Anabaptist/believers-church, Pentecostal/Charismatic,
+Fundamentalist/Liberal/Evangelical — only ever lived in conversation), so
+went straight to the census: pulled every Protestant & Evangelical / Global
+Revival & Pentecostal lane entry plus targeted keyword sweeps, read each
+candidate's actual relationsSummary/why/floorNote text, and built four lists
+from what the census itself explicitly claims (parent-of/child-of language,
+continuesAs chains, explicit self-naming) rather than genre/name matching.
+
+**Real findings that changed the shape of the streams from the naive
+candidate list:**
+- The proposed "Arminian/Wesleyan" pairing doesn't hold up — nothing in the
+  census textually links the Remonstrants (VI.26) to Wesley/Methodism (VII.5);
+  that would have been theology-matching, not lineage, so it was dropped.
+  VI.26 stays tagged Reformed instead (explicitly "the era's sharpest
+  intra-Reformed contest" — an argument inside the Reformed world, not a
+  separate lineage).
+- VII.16 Baptists' own relationsSummary explicitly denies Anabaptist descent
+  ("Anabaptist-resembling convictions arrived at largely independently —
+  contested scholarly line"), so Baptist and Anabaptist/Believers-Church were
+  built as two separate, non-overlapping streams rather than one.
+- Traced the Waldensian identity chain forward through continuesAs (IV.8 → V.16
+  → VI.10) to confirm all three belong in Reformed together — VI.10's own text
+  ("joins the Reformed tradition in 1532") is where the merger actually
+  happens; IV.8 and V.16 are the same continuing institution before that point.
+- VI.4 English Reformation named "Reformed influences" as formative but its own
+  continuesAs chain runs to the Anglican line (VII.20), not the Puritan/
+  dissenting one — kept out of Reformed on the project's own influence-vs-
+  identity distinction (edges/prose describe influence; continuesAs describes
+  identity; this project already draws that line for succession spines, and
+  it applies here too).
+- VIII.7 (the multi-nation missions entry, Serampore/Carey included) is
+  explicitly parented by FOUR traditions at once (Pietist, Moravian, Methodist,
+  Catholic) plus a named Baptist/Carey connection from VII.16's own text — too
+  diffuse to honestly belong to any single stream; left untagged rather than
+  force-fit.
+- VII.4 Moravian Church at Herrnhut demonstrably shaped Methodism ("decisive
+  influence on Wesley," confirmed both directions) but that's influence, not
+  membership in the same lineage cluster — excluded on the same principle as
+  the VIII.7 call.
+- Two genuine dual-memberships, same pattern as VII.24 in the first batch:
+  VIII.3 Stone-Campbell Restoration (explicit "Child of the Awakening +
+  Presbyterian line" — tagged both Reformed and Wesleyan/Holiness/Pentecostal)
+  and VIII.1 Black Church in America (explicit triple-named parentage
+  including both VII.16's Baptist line and VII.5's Methodist line — tagged
+  both Baptist and Wesleyan/Holiness/Pentecostal).
+- Anabaptist/Believers-Church is a thin, honestly-flagged case: only 2 entries
+  clear the bar (VI.3 The Anabaptist Movements; VII.3 Radical Pietism & the
+  Brethren, whose own text says it sits "between Pietism and Anabaptism").
+  Included because it does meet Mark's stated bar (2+ boxes, genuine content,
+  not name-matching) — but it's the thinnest stream shipped so far, worth
+  revisiting if more entries surface later.
+
+**Final counts** (32 unique entries, 34 tag-assignments counting the two
+duals): Reformed/Calvinist 14 (IV.8, V.16, VI.2, VI.5, VI.6, VI.8, VI.10,
+VI.26, VII.6, VII.22, VII.26, VIII.3, VIII.50, IX.6 — IX.6 kept despite being
+partly Lutheran too, since "Reformed" is one of its two explicitly named
+constituent lines and no Lutheran stream exists yet to hold it instead);
+Wesleyan/Holiness/Pentecostal 13 (VII.5, VII.10, VIII.1, VIII.2, VIII.3,
+VIII.4, VIII.6, VIII.34, IX.1, IX.2, IX.4, IX.11, IX.15); Baptist 5 (VII.16,
+VIII.1, VIII.35, VIII.51, IX.12); Anabaptist/Believers-Church 2 (VI.3, VII.3).
+
+**A real bug found and fixed during verification, not before shipping:**
+testing single-stream toggles gave correct counts (14/13/5/2, matching the
+census tags exactly), but activating a SECOND stream at the same time blew
+the count up to 203 nodes instead of the expected union (26). Root cause:
+`streamActive()` used an `&&`-chain that can short-circuit to `undefined`
+rather than `false` for untagged entries, and `Element.classList.toggle(cls,
+force)` treats an explicit `undefined` `force` as "argument omitted" — i.e.
+a genuine flip — not as `force=false`. So the first toggle call (from the
+all-on default) happened to look right by coincidence, but the second call
+flipped every already-correct node back the wrong way. Traced by comparing a
+direct in-browser evaluation of `streamActive()` (which read correctly, 26)
+against the actual DOM class state (203) to isolate the mismatch to specific
+untagged nodes, then instrumented `applyStreamToggle()` directly to catch the
+`act===undefined` case and its inconsistent effect depending on the class's
+prior state — that inconsistency (same falsy input, opposite class-state
+outcome depending on what was already there) is the signature of a flip bug,
+not a logic bug in the streamActive predicate itself. Fixed by forcing a real
+boolean at the source (`!!(...)`) rather than patching every call site.
+Re-verified: single counts unchanged (14/13/5/2), two-stream union correct
+(26 = 14+13−1 shared), three-stream union correct (30 = 14+13+5−2 shared),
+full reset returns to 257/no-filtering cleanly. This bug would not have been
+caught by the first batch's testing, since batch 1's three streams never
+overlapped and nothing there ever exercised two-active-streams-at-once.
+
+Full harness clean (257/0/0) before and after the fix. Same `streams[]`
+append pattern as batch 1 (no existing tags touched, `JSON.stringify(...,
+null, 1)` preserving the census's 1-space indent), same UI (`STREAMS` array
+in atlas-v3.html extended from 3 to 7 entries, no other UI changes needed —
+the spotlight/composition mechanics built in batch 1 already generalized).
+
+---
+
+## 2026-08-03 (Pass 4, streams build) — First three lineage streams shipped: Oriental Orthodox, Hesychast/Philokalia, Eastern Catholic/Uniate
+
+Mark's call after seeing the research agent's full candidate report: "start with
+those three." Before writing any code, independently re-derived the exact entry
+list for each stream directly against the live census (not the agent's prose),
+resolving three edge cases the agent's report didn't settle cleanly:
+
+- **Included II.14 Caucasian Albania in Oriental Orthodox** despite the agent
+  grouping it as peripheral — its own relationsSummary states it was "absorbed
+  into the Armenian catholicosate after 705," an unambiguous lineage link.
+- **Excluded II.11 / III.18 / V.18 Nubia** from Oriental Orthodox — II.11's own
+  relationsSummary explicitly says Nubia sat under "both rival communions'
+  missions at once," i.e. deliberately ambiguous per the census's own record,
+  not a clean membership.
+- **VII.24 tagged with BOTH `oriental-orthodox` and `eastern-catholic-uniate`**
+  — its own floorNote states a genuinely dual identity ("miaphysite communion +
+  the 1742 Catholic line inside one story"), not a transcription error.
+
+Final counts, all independently verified against relationsSummary/floorNote text
+before tagging: Oriental Orthodox 28 entries, Hesychast/Philokalia 11 entries
+(no exclusions — every candidate had strong explicit chain language), Eastern
+Catholic/Uniate 9 entries + VII.24's dual tag. 48 unique census entries touched.
+
+**Schema**: new `streams: [...]` array field on qualifying movement records in
+`world-census.json` (schemaVersion untouched — additive, backwards-compatible,
+same pattern as `laneOrder` already driving lanes). Re-wrote the file with
+`JSON.stringify(..., null, 1)` to match the census's existing 1-space-per-level
+indent convention — first attempt used 2-space indent and produced a 23,000-line
+noise diff; caught before committing, reverted, redone to a clean ~220-line diff.
+
+**UI**: a third independent toggle tier in `atlas-v3.html`, `#streamlegend`, below
+the lane/category legend. Opt-in spotlight model per Mark's own framing
+("highlighting a stream of boxes") — default OFF, multi-select, activating any
+stream fades every node/thread/tail not in an active stream. Reuses the lane
+toggle's fade-value convention (opacity .13 nodes / .05 art / .08 threads / 0
+labels) so streams compose with lane filtering, search, and the built-worlds
+toggle by simple independent dimming — no new combination logic needed, any
+active filter can dim a box, none un-dims one. Also surfaced stream membership
+in the click-through document (a small labeled line next to the tradition-family
+line) so the connection is legible in words, not just the highlight.
+
+Verified via the Playwright harness (0 overlap groups, 0 JS errors, all existing
+smoke checks pass) plus new targeted checks: Oriental-Orthodox-only toggle lights
+exactly 28 nodes, adding Hesychast/Philokalia brings it to 39 (28+11, confirming
+the two sets are disjoint as designed), toggling both off clears `streamfiltering`
+cleanly. Screenshots confirm the spotlight reads as connected chains threading
+down through the eras, at both 1280px desktop and 390px mobile (legend wraps to
+its own row, same touch-target sizing as the lane legend).
+
+Doctrinal-practice filters (women-in-leadership fully/mostly/not, elder
+plurality, governance structure) remain explicitly out of scope — a separate
+future feature per Mark's own scoping call, not touched here.
+
+---
+
+## 2026-08-03 (Pass 4, post-category-toggle) — Streams tier scoped: lineage now, doctrinal-practice filters deferred as a separate future feature
+
+Working through what a third UI tier ("streams," under the new
+Theme→Lane structure) should actually contain, Mark identified that
+Catholic's internal diversity is mostly institutional (religious orders
+under one hierarchy) while Protestant's is mostly theological (positions
+cutting across denominational lines) — a uniform streams model would be
+dishonest to how these traditions actually work. Working through
+candidates surfaced a real distinction between two different kinds of
+category:
+
+- **Lineage streams** — historically-connected clusters that grew from
+  shared roots (Calvinist/Reformed vs. Arminian/Wesleyan; Fundamentalist
+  vs. Liberal/Mainline vs. Evangelical; Anabaptist/believers-church;
+  Pentecostal/Charismatic; the Oriental Orthodox/non-Chalcedonian family).
+  Bar for inclusion (Mark): "if its highlighting a single box then its
+  not helping, if it is highlighting a stream of boxes then it is
+  valuable" — must genuinely connect 2+ existing entries, checked against
+  actual content, not just name-matching. A first name-pattern check
+  already shows Calvinist/Reformed connecting 4 entries and Arminian/
+  Wesleyan connecting 2; most named Catholic religious orders (Dominican,
+  Carthusian, Humiliati, Benedictine) are each currently just ONE entry
+  and would NOT clear this bar — only Franciscan and Carmelite (2 entries
+  each) currently would. Also surfaced: no Jesuit entry exists at all —
+  a real gap, same shape as the fundamentalism/Social Gospel misses found
+  earlier this session.
+- **Doctrinal-practice filters** — cross-cutting practice attributes that
+  could apply to almost any entry regardless of historical connection
+  (women in leadership — refined from a blunt complementarian/egalitarian
+  label, which is American-evangelical vocabulary most traditions
+  wouldn't self-apply, to an observable three-level practice scale:
+  fully/mostly/not; plurality-of-elders vs. single-pastor governance;
+  congregational vs. hierarchical/institutional polity). Different
+  research bar than lineage streams (honest-assessment confidence per
+  entry, not box-count) and different architecture (a filterable
+  attribute, not a lineage cluster).
+
+**Scope decision**: build lineage streams now (next: a proper content
+survey, not name-matching, checking all 257 entries for genuine 2+-box
+clusters). **Doctrinal-practice filters are deferred as their own,
+separate future feature** — not mixed into this pass.
+
+---
+
+## 2026-08-03 (Pass 4, post-lane-toggle 3) — Legend organized into 5 major categories over the existing 13 lanes
+
+Mark: "organize the lanes into major lanes (catholic, orthodox,
+protestant, other, outside, then lanes under those catagories. most users
+will think in those terms." Clarified scope first (legend/toggle UI only,
+vs. restructuring the chart's actual 13-lane rendering) — Mark confirmed
+the former: "the chart itself keeps its current 13 colors and toggle,
+its just an organizing meta category."
+
+**Mapping** (judgment calls named, not silently decided): Catholic =
+Latin West; Orthodox = Greek East + Caucasus (Armenian is technically
+Oriental not Eastern Orthodox, grouped here for general-audience
+legibility); Protestant = Protestant & Evangelical + Global Revival &
+Pentecostal (Pentecostalism sometimes treated as its own branch,
+grouped under Protestant here); Other = Origin, Syriac East & Asia,
+Africa, Cross-Family; Outside = Non-Nicene Traditions. The three bridge
+lanes attach to their first-listed parent's category (Latin/Prot→
+Catholic, Greek/Latin→Orthodox, Syriac/Prot→Other) rather than being
+duplicated under both parents.
+
+Built a `CATS` array (5 groups, each listing member lane keys + attached
+bridges) driving the legend's HTML structure (`.lanegroup` divs, each with
+a bold `catbtn` header + its member/bridge lane buttons) and a
+category-level click handler: clicking a header toggles ALL its member
+lanes together (all-on → all off; anything off → all on), with a genuine
+tri-state visual (fully on / `.mixed` / fully off) reflecting the actual
+aggregate state of its members. Verified directly in a real browser:
+clicking "Orthodox" correctly toggles both Greek East and Caucasus
+together; the attached Greek/Latin bridge correctly stays on via its OR
+logic (Latin West, its other parent, still on); re-enabling just Greek
+East individually correctly flips the category header to the mixed state
+rather than falsely showing fully-on or fully-off. Full harness clean
+(257/0/0) both before and after.
+
+Chart rendering, colors, and the underlying 13-lane data model are
+completely untouched — this is purely a legend/controls reorganization.
+
+---
+
+## 2026-08-03 (Pass 4, post-lane-toggle 2) — Status chip row replaced with one "Built worlds" toggle
+
+Mark: "remove the toggle and search function of the build status... leave
+just one toggle, built worlds - This would fade everything not currently
+built." Removed the four-way status chip group (Open/Planned/Under
+review/Outside the base, plus the "All" reset) and `m.statusWord` from
+the search haystack — replaced with a single toggle button using the same
+on/off mechanism the search box already had (folded into the existing
+`applyFilter()` as a boolean rather than building a third parallel
+system, since search-text and built-only are the same kind of filter
+dimension; lanes stayed their own independent system since that's a
+genuinely orthogonal axis).
+
+Verified directly: default off shows all 257 with no dimming; toggled on
+correctly isolates exactly the 6 Built & Live entries (matches
+`meta.liveCount`); composes correctly with search (searching "coptic"
+while Built-worlds is on correctly returns 0 — none of the 6 live worlds,
+all Phase-One entries, are Coptic-related, confirmed by checking the live
+roster directly rather than assuming); real mobile touch tap confirmed
+working (30px target, no layout issues, the earlier lane-legend wrap fix
+left this row uncrowded). `Design/tools/shoot.mjs` updated to test the new
+`#builtToggle` instead of the removed chip selector. Full harness clean
+(257/0/0).
+
+---
+
+## 2026-08-03 (Pass 4, post-lane-toggle) — Mobile check found and fixed a real gap: 8 of 13 lanes were unreachable
+
+Mark: "try it out on mobile." Tested with real touch emulation (Playwright
+mobile context: 390×844, `hasTouch`, iOS Safari UA), not just a narrow
+desktop viewport. Found a genuine problem: the legend's existing
+`overflow-x:auto` (fine when it was a passive color key) left only ~5 of
+13 lane buttons visible before running off the right edge of the screen —
+the rest were reachable only by scrolling a thin, easy-to-miss strip
+sideways. Touch targets also measured just 16px tall, well under normal
+touch-target guidance. The dim/highlight rendering itself was correct
+where reachable; discoverability was the real gap.
+
+**Fixed**, not just reported: added a `max-width:699.9px` rule (matching
+the existing mobile breakpoint already used elsewhere in this file) that
+wraps the legend into multiple rows instead of horizontal scroll, and
+raises button height to 30px. Verified directly: legend no longer
+overflows (`scrollWidth === clientWidth`), wraps to 4 rows, all 13 buttons
+now 30px tall, and a real touch tap on the previously-unreachable LAST
+button (Non-Nicene) correctly toggled it and dimmed its two entries on the
+chart. Full harness re-run clean (257/0/0) after the fix.
+
+---
+
+## 2026-08-03 (Pass 4, post-A4) — New feature: lane toggles on the legend
+
+Mark: "add a toggle feature to the lanes... default toggled on... multiple
+on/off at the same time... keep 1/2 lanes connected to both, so if either
+or both are on the 1/2 is on." Built directly in `atlas-v3.html` (not a
+Blueprint increment — a new post-B5 feature):
+
+- The 13 legend swatches became real `<button>` elements (keyboard-
+  focusable, `aria-pressed`), click-toggling a `laneOff` Set. Default empty
+  — all 13 on, zero visual change until something's actually toggled
+  (matches the existing calm-at-rest pattern from B4).
+- Multi-select confirmed: independent lanes toggle on/off in any
+  combination, verified directly (Syriac East + Africa off together,
+  Latin West untouched).
+- **Bridge lanes (the three `.5` families) are not independently
+  clickable — their state is COMPUTED as OR of their two named parents**,
+  exactly as asked: on if either or both parents are on, off only when
+  both are off. Verified directly in a real browser: toggling one parent
+  off leaves the bridge on; toggling both off turns the bridge off; toggling
+  either parent back on restores it. Bridge buttons carry a `title`
+  explaining which two families they follow, since they're visually
+  present but not independently interactive.
+- Reused the existing dim/highlight visual language (the same opacity
+  values B4's search/status filtering already established) via a new,
+  independent `lanefiltering`/`lane-on` class pair — composes with the
+  existing search/status-chip filter system rather than colliding with it
+  (different marker classes, different body class).
+- **Incidental fix, same edit**: the window-resize handler only ever
+  called `layout()`, silently dropping any active search/status filter on
+  resize (pre-existing, unrelated to this feature, found while touching
+  the same line). Now calls `layout(); applyLaneToggle(); applyFilter();`
+  together — lane-toggle state confirmed surviving a resize directly.
+
+Self-verified: full harness clean (257/0/0), plus targeted interactive
+tests for default state, single-toggle, both-bridge-logic branches,
+multi-select, and resize survival — all confirmed in a real headless
+browser, not just asserted.
+
+---
+
+## 2026-08-03 (Pass 4, post-A4) — Lane rename: "General" → "Cross-Family"
+
+Mark asked how many color-coded lanes exist (13; broken down by count),
+then what the single-entry "General" lane was (IX.18, Progressive
+Christianity — the census's only entry deliberately not assigned to one
+family, per its own why-text: "the project's own methodology refuses to
+judge it as a category"). "General" read as a leftover bucket ("didn't fit
+anywhere") when the truth is closer to "assigning it anywhere would have
+been dishonest." Mark: "cross-family, apply it" — mirrors the existing
+bridge-lane naming logic (a bridge spans two families; this spans all of
+them). Updated both the atlas's `FAM` array label and the census entry's
+own `laneLabel` field. Validator 0/0, harness clean (257/0/0).
+
+---
+
+## 2026-08-03 (Pass 4) — A4 CLOSED: the succession-spine walk complete, four chains standing
+
+Walked the refreshed candidate list pair by pair with Mark (recommended
+lean + reasoning each time, per his established format). Six new
+`continuesAs` writes landed, all validated 0/0 as applied, full harness
+clean throughout (257/0/0):
+
+- **II.7 → III.5** (Merovingian → Carolingian: dynastic transition, no
+  rupture)
+- **III.5 → IV.18** (Carolingian → Gregorian Reform: the post-Carolingian
+  "iron century" disclosed as a gap, not a break)
+- **III.6 → IV.6** (Iconophile → Athonite/Comnenian monasticism: post-
+  Iconoclasm reorganization, not a rupture)
+- **VIII.11 → IX.22** (Optina → the Russian New Martyrs/Catacomb Church:
+  1917 drove the same tradition underground, didn't replace it)
+- **VIII.29 → IX.23** (the Catholic institutional spine's live end: Vatican
+  II is a council of the church, not a break from it)
+
+The last two are written early into not-yet-run Era 10, same shape as the
+already-standing VIII.13→IX.10 precedent — to be ratified (or revisited)
+when Era 10's own Step 0 run happens.
+
+**Three pairs walked and deliberately left unlinked**, each for a
+distinct, real reason under the institutional-continuity convention: I.8
+→ II.7 and I.6 → II.5 (different KIND of thing, not the same institution
+narrowing — empire-wide pastoral tradition vs. one region; imperial
+church vs. a monastic movement); V.4 → VI.17 (a monastic-theological
+current absorbed into a much larger, differently-constituted governing
+structure at a real rupture point, the 1453 conquest).
+
+**Four complete chains now stand**, spanning up to eight straight eras:
+- Catholic institutional: `II.7 → III.5 → IV.18 → V.14 → VI.22 → VII.19 →
+  VIII.29 → IX.23` (Merovingian Gaul to the post-Vatican-II parish, seven
+  links, c.480 to present)
+- Orthodox monastic: `III.6 → IV.6 → V.4` (Iconophile to Hesychast/
+  Palamite, three links)
+- Orthodox parish/millet: `VI.17 → VII.18 → VIII.28` (Ottoman-era to the
+  national churches, three links — already standing before this walk)
+- Orthodox renewal: `VII.8 → VIII.11 → IX.22` (Paisius/Philokalia to the
+  Catacomb Church, three links)
+
+Prep doc (`CiC_Atlas_Succession_Spines_Candidates_2026-08-02.md`) and the
+Blueprint's A4 row both updated to CLOSED.
+
+---
+
+## 2026-08-03 (Pass 4, A4 walk interlude 2) — NEW BACKLOG ITEM: the influence-edge sweep; one concrete edge added now (Augustine → Calvin)
+
+Mid-A4-walk, Mark reframed the underlying question: "did the first
+theology and approach directly influence the second, then it's a line
+connection even if it's not a direct flow. i think calvinism was directly
+influenced by augustine." Correct and important, and distinct from A4's
+own question — `continuesAs` means identity (the same institution
+continuing); real, documented, direct theological influence with NO
+institutional continuity is what edges (type "transmitted to"/"formed")
+already exist for. Checked the specific example: **zero edges existed
+anywhere from I.8 (Latin Pastoral-Congregational Christianity, Augustine's
+own world) — a real, well-documented, currently-invisible gap.**
+
+**Scope decision**: this is a different, larger task than A4 (not bounded
+to a succession spine — any two entries could in principle have a missing
+influence line) and could be substantial. Mark: "a) keep A4 narrow, log
+the edge sweep for later." **The Augustine → Calvin edge itself added now**
+(census: 20 → 21 edges) since it was already confirmed and concrete —
+`transmitted to`, Documented confidence, citing Calvin's explicit
+dependence on Augustine's anti-Pelagian writings for total depravity,
+unconditional election, and irresistible grace. Validator 0/0, harness
+clean (257/0/0).
+
+**Next action, queued**: a systematic influence-edge completeness sweep —
+likely its own task brief (same pattern as the A3 status/why-field
+backlogs) given the potential scope, probably a Fable/Track-A job given
+it requires real historical judgment about what counts as "direct," not
+mechanical writing.
+
+---
+
+## 2026-08-03 (Pass 4, A4 walk interlude) — González completeness check confirms and sharpens the fundamentalism/Social Gospel gap: liberal/neo-orthodox academic theology is the same cluster's third piece
+
+Mark, mid-A4-walk: "as a check, take our list of movements and compare it
+to j gonzolasas list" (Justo González's *The Story of Christianity*, one
+of the six reference works this whole program cites). WebFetch was blocked
+(403) on both archive.org and Google Books, so the sweep ran on a real,
+partial search-verified chapter list for Volume 1 plus general reference
+knowledge for Volume 2, clearly held to that standard rather than
+overclaimed as a verbatim scrape — then checked systematically against
+all 257 census entries.
+
+**Result: the census holds up well against González, often more granular
+than his own single-narrative text** — Donatism, Arianism/Homoian,
+Cappadocians, Crusades, Avignon, Anabaptists, the English Reformation,
+Puritans, Methodism, 19th-c. missions, Pentecostalism, Pietism, the
+Confessing Church, Vatican II (IX.23), and liberation theology (IX.8,
+under its lived name — base communities — not its academic one) are all
+covered. Deism and the Thirty Years War checked and correctly absent (not
+Christian traditions in the census's own sense — an event and a
+philosophical current, not a row).
+
+**One real, significant finding**: the academic liberal-Protestant
+theological tradition has no row anywhere — Schleiermacher, historical-
+critical scholarship as a movement, Barth/neo-orthodoxy, Tillich and
+Bultmann's existentialist theology. Checked carefully, zero hits.
+**Folded into the Era 9 doc's existing fundamentalism/Social Gospel
+forward-flag rather than logged as a new, separate gap** — Mark: "yes,
+fold it in." All three are one story: the institutional (fundamentalism,
+Social Gospel) and intellectual (liberal/neo-orthodox theology) sides of
+the same fundamentalist-modernist rupture, currently invisible in the
+census between 1906 and 1974, feeding directly into what IX.18
+"Progressive Christianity" now calls itself contemporary-only. Updated
+directly in `CiC_Step0_Era9_V1_0.md` (header + the post-gate forward-flags
+section) so the A1.E10 sweep surveys the cluster as one connected
+question, not three independent candidates.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 9) — NEW STANDING RULE: the institutional-continuity convention (A4 prep refresh)
+
+Opened the A4 succession-spine walk (Mark: "let's work on A4") using the
+prepared candidate doc (`CiC_Atlas_Succession_Spines_Candidates_2026-08-02.md`)
+— found it five eras stale (written before Eras 5–9 froze) and refreshed it
+against the live census before presenting anything. That refresh surfaced a
+real pattern across every succession decision this program has made so
+far, consistent without anyone naming it as a rule until now. **Mark:
+"yes, log it as a standing rule."**
+
+**The institutional-continuity convention**: identity `continuesAs` chains
+follow a communion's own governing institution — the church-proper,
+parish, or see that carries formal continuity — even across large gaps,
+renamings, or region shifts, AS LONG AS the identity argument itself holds
+(same governing body, same communion, no rupture). Devotional, lay-piety,
+and monastic-renewal CURRENTS inside that same tradition — real,
+often deeply connected, but not the institution itself — stay prose-only
+(relationsSummary / exemplar-succession language), never identity, even
+when the family resemblance is close.
+
+**This wasn't invented today — it's what every prior gate has actually
+done, independently, without being named:**
+- **REMOVED, at the Era 6 gate**: V.10 (Late-Medieval Lay Parish Piety) →
+  VI.12 (Tridentine Parish Renewal) — Mark's own record states the
+  identity link was pulled ("43-year gap and region jump") and replaced
+  with prose exemplar-succession. V.10 is a lay-devotional current;
+  VI.12 sits on the institutional line instead.
+- **RULED, at the Era 8/9 seam**: VIII.12 (Kollyvades) ↔ VIII.28 — sibling/
+  renewal relation, explicitly not identity, carried forward unchanged.
+  VIII.12 is a monastic-renewal current, not the millet church itself.
+- **BUILT, gate by gate, without anyone stepping back to see it as one
+  spine**: the Catholic institutional line now runs unbroken IV.18 (Greg-
+  orian Reform) → V.14 (Avignon–Lateran V) → VI.22 (Tridentine Church) →
+  VII.19 (Ancien Régime) → VIII.29 (Long 19th Century) — five straight
+  eras, each link written at its own era's gate for its own reasons, that
+  turn out to form one continuous governing-church spine. Likewise the
+  Orthodox parish/millet line: VI.17 (Ottomans) → VII.18 (Second Act) →
+  VIII.28 (National Churches).
+- Meanwhile the RENEWAL currents inside these same traditions stay
+  correctly un-chained to each other across time (Optina, Paisius/
+  Philokalia, the Kollyvades, Hesychasm) — real kinship, prose only.
+
+**Applies going forward**: A1.E10 and A1.R12 both use this rule without
+re-litigating it; A4's remaining walk (below) applies it to the pairs
+still genuinely open.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 8) — A2.a CLOSED: all 8 shortName spot-check calls resolved one at a time
+
+Mark: "let work on 2a" — worked the review table's 8 flagged judgment
+calls one at a time (recommended option + real alternatives + why for
+each, per Mark's own established format from the B4/B5.g naming rounds).
+Discovered along the way that the table's own header was stale — it said
+"awaiting spot-check before these enter world-census.json," but the
+Blueprint's own A2.a row already said "applied to census 2026-08-02"; all
+257 entries already carry live shortName/informalName values. So this
+was a genuine spot-check of already-live public data, not a pre-launch
+review.
+
+**Outcomes — 2 changed, 6 confirmed as originally proposed:**
+- **IX.11**: "World Pentecostalism" → **"Global Pentecostal"** — keeps the
+  geographic specificity that distinguishes this entry (the Global
+  South's Pentecostal growth specifically) rather than the broader, less
+  precise original.
+- **VIII.27**: "Indian Revivals" → **"Kerala & NE India"** — Mark caught a
+  real ambiguity risk ("could be understood as American indian") that
+  this thread's own first-pass alternatives had missed; the region-explicit
+  fix also turned out more geographically accurate than a "South Asia"
+  option floated in discussion (the entry's region is entirely within
+  India — Kerala and the NE hills — not South Asia broadly, which would
+  have overclaimed territory the entry doesn't cover).
+- **IX.16, IX.18, IX.21, II.4, IX.10, VIII.15**: confirmed as-is, each
+  with a stated reason on the record (see the review table's per-item
+  resolution notes).
+
+Each change applied directly, validated (0/0), committed and pushed
+individually as it was decided — not batched. Review table and Blueprint
+A2.a row both updated to CLOSED.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 7) — why-field backlog CLOSED (97/97); a self-caused formatting bug found and fixed; one finding re-confirmed with a sharper citation
+
+Second managed Opus agent, same pattern as the statusDescription pass: task
+brief (`CiC_Atlas_V3_A3_WhyField_Backlog_Task_2026-08-03.md`) written first
+(the `why` field is a different register than `statusDescription` — makes
+the case for inclusion, not a status report; split 69 pure-boilerplate /
+28-with-real-content-needing-surgical-edit), agent ran it, this thread
+independently re-verified before committing.
+
+**97/97 written.** Diff exactly 97/97 line changes; a mechanical check
+confirmed 0 non-`why` lines touched. Validator 0/0 (re-checked
+independently). Detection query re-run independently: 0 remaining
+stale-and-Frozen; Era 10's 27 correctly untouched (genuinely still true
+there). Harness re-run independently: 257/0/0. Spot-read five entries the
+agent flagged as its least-confident cases (III.11, VII.11, II.4, IV.15,
+VIII.10) directly — all specific, honest about thin evidence rather than
+padded, and the two previously-flagged stale claims (IV.15's "silent
+since 622," "Continuation of II.10") are correctly not repeated anywhere
+in the new text.
+
+**Anti-duplication check, independently re-run**: max shared word-run
+between any entry's `why` and its own `statusDescription`, across all 257
+— **0**. (The agent's self-report claimed the same; verified rather than
+trusted.)
+
+**IV.15's stale relationsSummary — same finding as the prior pass, now
+with a sharper citation.** Independently confirmed: `III.20` (Georgian
+Revival — Tao-Klarjeti and Athos, 780–1000, era 4) carries
+`continuesAs: "the-georgian-golden-age"` — i.e. **III.20 is IV.15's actual
+identity predecessor by the census's own chain**, not II.10. Still not
+fixed (Frozen-adjacent text touch, Mark's call whenever this entry is next
+opened — same posture as before).
+
+**A real bug found in MY OWN work from earlier today, fixed directly.**
+The agent flagged missing sentence separators in several `relationsSummary`
+fields (e.g. VI.10: "...without losing its own memory Named line (Era 9
+Freeze)..." — no period between the original text and my appended clause).
+Traced to the Era 9 Freeze application script run earlier this session
+(Q7/Q8 ripple appends) — I concatenated `relationsSummary + ' ...'`
+without checking the original text ended in punctuation. **10 entries
+affected: VI.10, VII.5, VII.6, VII.7, VII.16, VIII.5, VIII.11, VIII.12,
+VIII.22, VIII.27.** Fixed directly in this pass (inserted the missing
+period at each junction, content otherwise unchanged) rather than deferred
+— mechanical, no judgment call, own mistake. Validator 0/0 after the fix;
+0 remaining instances on re-scan.
+
+**Harness baseline note**: `searchCopticMatches` moved 4→5 — IV.9's new
+`why` accurately mentions "the Coptic patriarchate" (matches its own
+`relationsSummary`'s "formal dependence on the Coptic patriarchate"), so
+the search now correctly surfaces it. A correct consequence of real
+content, not a regression — noting it since it's a changed recorded
+number in this program's own verification baseline.
+
+**Also flagged, not fixed** — VIII.10's `statusDescription` is notably
+thinner than its Era 9 siblings (a one-clause register note rather than
+the full "Reviewed at the gate, tiered..." paragraph the rest got); may be
+deliberate given its contested register status, may not be. Left for
+inspection, not resolved either way.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 6) — A3 status-description backlog CLOSED (96/96); two new findings logged, not fixed
+
+Mark: "you can launch this in your own thread and manage it" — an Opus
+agent ran the task brief (`CiC_Atlas_V3_A3_StatusDescription_Backlog_Task_
+2026-08-03.md`) against the live census, era by era; this thread reviewed
+its work independently before committing (diff scope, validator, harness,
+and direct spot-reads of five written entries) rather than trusting its
+self-report blind.
+
+**96 of 96 `statusDescription` fields written**, each grounded in that
+entry's own statusWord/floorNote/relationsSummary/dateRationale plus its
+era's Frozen Step 0 doc — Era 3 (11), 4 (12), 5 (13), 6 (10), 7 (18), 8
+(13), 9 (19). Diff is exactly 96 insertions/96 deletions, one line each —
+no incidental reformatting. Validator 0/0 (re-checked independently);
+detection query re-run independently: zero stale-and-Frozen remain; the 27
+in genuinely-unrun Era 10 correctly untouched. Full harness independently
+re-run: 257 nodes, 0 overlaps, 0 JS errors. Spot-read five entries directly
+(II.5, IV.5, IV.15, VIII.8, VIII.12) — specific, grounded, correct register,
+no padding on thin records (IV.5 stayed one honest sentence rather than
+being inflated).
+
+**Two genuine findings surfaced and deliberately left untouched, per the
+brief's own discipline (flag, don't silently resolve):**
+
+1. **The `why` field carries the identical staleness bug — 97 entries**
+   (the same 96, minus none, plus VIII.10 Adventism, whose
+   `statusDescription` was already fine but whose `why` still says "This
+   era's Step 0 hasn't run"). This is the MORE visible half of the original
+   bug — the click-document prints `why` immediately below
+   `statusDescription`, under "About this world," so right now a viewer
+   reads a correct paragraph followed by a contradictory one on 97
+   entries. **Same shape, same fix pattern, not yet started.**
+2. **IV.15 (Georgian Golden Age) carries a stale `relationsSummary`**:
+   "Continuation of II.10 - restores the Georgian lane, silent since 622"
+   — both halves are now wrong. The Era 4 gate seated **III.20 Georgian
+   Revival — Tao-Klarjeti and Athos (780–1000)** directly between II.10 and
+   IV.15 (1000–1245); the lane was not silent, and III.20 is the actual
+   intervening link. Verified independently (III.20 confirmed on file at
+   those exact dates). The new `statusDescription` was written without
+   repeating either stale claim. This is the same shape as the IX.20
+   stale-relations flag already on record from the Era 9 gate (Decision-
+   Log, Era 9 entry) — a single Frozen-adjacent text touch, Mark's to make
+   whenever this entry is next opened, not urgent.
+
+**Next action, Mark's call**: launch the `why`-field twin fix the same
+way (new Opus agent, same discipline) — the task brief pattern is proven
+and reusable; would need only a short addendum swapping the target field
+and its detection string.
+
+Mark asked why entries showed "Step 0 hasn't run yet" and got a real answer,
+not a design one. Root cause: `atlas-v3.html`'s click-document template
+computed its `eraState` note from a hardcoded `m.era<=2` cutoff — any era
+above 2 always said "has not yet run," regardless of the census's own
+`eras[]` array correctly recording eras 3–9 as Frozen. A dead giveaway was
+sitting in the code itself: `const deepDone=false; /* flips per era as A1
+Freezes land */` — a hook that was clearly meant to be wired up and never
+was. **Fixed**: `eraState` now reads the era's actual `stepStatus` text
+(`/FROZEN/` match) instead of a hardcoded number. Verified directly in a
+real browser against three cases — a Frozen Era 8 entry, a Phase-One Era 1
+entry, and a genuinely-not-yet-run Era 10 entry — all three now read
+correctly.
+
+**Fixing it surfaced a bigger, previously-vague item, now precisely
+quantified**: 96 of 257 entries (37%) carry a `statusDescription` field
+that is *entirely* the boilerplate sentence "The survey for this era has
+not yet run. No verdict exists — and none is implied." — even in Frozen
+eras, where it now sits directly beside the corrected note and visibly
+contradicts it. This isn't new scope; it matches "the A3 status-field
+harmonization backlog" already logged repeatedly as "now six eras deep"
+without a number attached — this is that number. NOT touched (real census
+content, not a template bug; the census-content discipline this whole
+program runs on applies here too). Presented to Mark as two honest paths —
+(1) a fast template-level mitigation that suppresses the boilerplate line
+when its era is Frozen, changing no census data, or (2) writing real
+per-entry status prose across the 96, which is Track A content work at the
+same weight as a Step 0 run — **awaiting his call, logged as open.**
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 4) — B5.g SHIPPED: the public name is "Church in History," nav label "Map"
+
+The naming arrived through a real one-at-a-time process with Mark, not a
+single pick — worth recording the path since the reasoning is as much the
+decision as the final words:
+
+1. Started from "Atlas" (already the working name) — Mark: doesn't quite
+   fit, "invokes pages of maps."
+2. Tried visual-metaphor names (Tapestry, River, Scroll, Chart) — Mark:
+   Tapestry "isn't bad but not descriptive enough."
+3. Mark reframed the whole brief: **"its the story of the church, gods
+   faithfulness, christian movements, moving through time"** — a
+   theological claim, not a visual one. Explored Story/Ebenezer/His
+   Story/Witnesses/salvation-history language against this.
+4. Mark raised the real constraint that cut through the poetry: **"the
+   challenge is the participant has to know what it is they are entering
+   to choose it."** Resolved by splitting the job — a plain, legible NAV
+   label vs. a fuller PAGE TITLE — rather than picking one word to do both.
+5. Landed on "Interactive Timeline of the Church," then narrowed the
+   adjective (interactive over scrolling/dynamic, per Mark's own legibility
+   test — "dynamic" is the vaguest, "scrolling" carries "doomscrolling"
+   baggage and only names one of several interactions).
+6. **A real correction from Mark mid-stream**: my "7 movements excluded"
+   answer undercounted — recomputed and the honest number is **39 of 257
+   (register + contested + excluded + outside-scope)**, including exactly
+   what Mark named from memory (LDS, and I.23 Homoian/"Arian"
+   Christianity — the Creed's own historical target). This didn't break
+   "Church" as the word; Mark's "Church" already meant the fuller story,
+   arguments and all — the glossary/icons carry the honesty regardless.
+7. "Church" confirmed BECAUSE it echoes **Church in Conversation** (the
+   org name) — not a separate metaphor.
+8. "Through" → **"in"** — completes the echo with "Church *in*
+   Conversation" (same preposition) and is the more accurate theological
+   word: God's faithfulness enacted *in* real history, not the church
+   passing *through* a neutral corridor. (Also independently the title of
+   a well-known church-history textbook, Kuiper's — Mark confirmed that
+   wasn't the reference, the org-name echo was.)
+9. **Branding rule applied**: no "The" before "Church," matching how
+   "Church in Conversation" itself takes no article.
+10. Nav label: **"Map"** over "Scrolling Map" — matches the single-word
+    nav register, and is more accurate than "Timeline" ever was (the
+    visualization has two real axes: time running down, region/family
+    lanes running across) — plus real precedent already sitting in the
+    project's own naming (this folder has been "Atlas-World-Map" since
+    before the rebuild).
+
+**Locked: page title "Church in History"; nav label "Map."** Shipped this
+pass — see the SHIPPED entry below for the execution record.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 3.5) — B5.g EXECUTED: ship flip complete
+
+- `cic-website/atlas.html` and `cic-website/world-atlas.html` rewritten as
+  minimal redirect stubs (`<meta http-equiv="refresh">` + `rel="canonical"`
+  + a plain fallback link) into `atlas-v3.html` — the old Story and Wall
+  Chart/Research Table content is retired from live traffic but preserved
+  in git history, not deleted.
+- `atlas-v3.html`: `<title>`, meta description, self-nav label/href, and
+  the stale "178 movements" search placeholder (→ 257) all updated.
+- All 6 outer pages (`index`, `about`, `whats-next`, `tour`,
+  `pilot-feedback`, `support` — the last one found only in this pass's own
+  sweep, missed by the earlier B5.g inventory) — nav label "Atlas" → "Map",
+  every `href="atlas.html"` → `href="atlas-v3.html"`.
+- Stale body-copy mentions of the retired name fixed for real accuracy,
+  not just cosmetics: `index.html`'s "Explore the Timeline" button →
+  "Explore the Map"; "Read more in the Atlas" → "Read more in Church in
+  History"; three explanatory paragraphs in `whats-next.html` that named
+  "the Atlas" directly; two internal code comments in `index.html`.
+- **Self-verified**: full harness clean (257 nodes, 0 overlaps, 0 JS
+  errors); both redirects confirmed firing correctly in a real headless
+  browser (final URL + title both land on the new page); all 6 outer
+  pages' nav confirmed pointing at `atlas-v3.html` with the "Map" label.
+- Blueprint B5.g row marked SHIPPED.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 3) — B4 BUILT FOR REAL: arrival ticks + label-on-trace live in atlas-v3.html
+
+Presented B4 one-at-a-time (Mark: "lets go one at a time with recomended
+option and alternatives and why") via a real choice with a stated lead lean
+(ship baseline) plus a fourth path ("build the real thing instead" —
+arrival-ticks/label-on-trace, what B4's own recipe actually asked for, which
+the three cosmetic variants didn't attempt). **Mark chose to build the real
+thing.**
+
+Implemented directly in `atlas-v3.html` (not a scratch variant this time —
+this is the shipped decision):
+- Landing dot → landing crossbar (`.tdot` circle → line), calm at rest,
+  bolder on trace; same class name kept so `trace()`/`untrace()` needed no
+  rework.
+- New `.thread-label` text element per edge: the relationship type in words
+  (`e.type`), invisible at rest, appears on trace, with a stroke-halo for
+  legibility over crossing lines in both themes. Directly serves the
+  honesty invariant (confidence/relationship always in words).
+- Base thread weight/color unchanged (baseline, not variant B or C).
+
+Self-verified: full 257-entry harness (0 overlaps, 0 JS errors) + a
+targeted screenshot on a real edge (Wittenberg → Anabaptists, "argued
+against") confirming both elements render and toggle correctly. B4 CLOSED.
+
+---
+
+## 2026-08-03 (Pass 4 cont'd 2) — A3 CONFIRMED; B5.g naming resolved as a low-risk default, ready to execute
+
+Mark asked "what's next" without yet answering B4's lean or B5.g's name.
+Closed one more genuinely automatic item and de-risked the other:
+
+- **A3 CONFIRMED.** The icon SVGs were already Mark-approved (B1/R11); the
+  only thing actually pending was formalizing the status→icon mapping table
+  as a paper trail. Checked it against all three places `atlas-v3.html`
+  computes it (`ST()`, the click-document logic, `stGroupOf()` for
+  search/filter) — all three agree. Written as
+  `Design/CiC_Atlas_V3_A3_StatusTaxonomy_Mapping_2026-08-03.md` and closed;
+  nothing in the running app changes.
+- **B5.g naming, checked against the record.** The Design Plan's phrase
+  "resolves the 'Choose a Tradition' collision" turned out to name a
+  DIFFERENT, already-tracked open item: that collision is between the live
+  `cic-poc` app's `WorldSelector.tsx` heading and the unbuilt Prototype B
+  search-first selector (Decision-Log, 2026-08-02 entry, item 2) — a
+  `cic-poc`/in-app naming question, not the public website atlas page. B5.g
+  only needs a name that doesn't ALSO collide with "Choose a Tradition,"
+  which is a much lower bar. The nav already says "Atlas" everywhere
+  (`index.html`, `tour.html`, etc.) and `atlas-v3.html`'s own `<title>` is
+  already "The Atlas — Church in Conversation." Proposed as a B0-style
+  default: **keep "Atlas"** as the public name — no collision, no new
+  decision required, ready to execute the moment Mark confirms (or doesn't
+  object).
+
+---
+
+## 2026-08-03 (Pass 4 cont'd) — B0 CONFIRMED; B4 real variant package sent; B5.g prep drafted
+
+Mark: "follow your recommendations," delegating the B0/B4 read from the prior
+turn.
+
+- **B0 CONFIRMED.** Closed directly — all three residuals (screen-anchored
+  families, accepted peak-density spill, live-hue-off-map) are already the
+  live `atlas-v3.html` behavior, just verified clean against the 257-entry
+  census. Freeze doc updated.
+- **B4**: rather than unilaterally rubber-stamp a visual-taste gate that's
+  explicitly Mark's, built the missing piece — R12 turned out to be one
+  resolved treatment, not the variant-comparison sheet B4's recipe calls
+  for. Built THREE real, working variants (not static mockups): baseline,
+  bolder stroke (2.5→3.1 resting / 3.6→4.4 hot), family-tinted thread color
+  (uniform gold → `famColor` of the edge's origin family). Filed as R14.
+  Self-verified: zero JS errors, identical resting/tracing mechanics across
+  all three. Honest finding: the deltas are subtle in a static screenshot —
+  consistent with the "calm at rest" brief, not a mockup failure. Arrival
+  ticks and label-on-trace flagged as NOT built (real per-edge SVG work,
+  not a CSS variant) rather than faked. **Stated lead lean: ship the
+  baseline (A) — a thread's "family" is ambiguous for edges spanning two
+  families, and tinting by origin-side-only would render a distinction the
+  census data doesn't actually assert (the honesty invariant).** Package at
+  `Design/CiC_Atlas_V3_R14_B4_LineWeight_Gate_2026-08-03.md`; gate queued
+  for Mark's pick (A/B/C, or request real arrival-ticks/label-on-trace).
+- **B5.g prep drafted** (not executed — ship flip is explicitly Mark-only
+  and public-facing/hard-to-reverse): inventoried every file needing a
+  link/redirect touch (`index.html`, `tour.html`, `whats-next.html`,
+  `about.html`, `pilot-feedback.html` all link `atlas.html`; `atlas.html`
+  and `world-atlas.html` become redirects to the new public path). Held
+  for Mark's naming call (the Design Plan's own flagged "Choose a
+  Tradition" collision) before any file touches.
+
+---
+
+## 2026-08-03 (Pass 4, model switch to Sonnet) — Track B self-verify loop closed against the 257-entry census; B0/B4 gates queued for Mark
+
+Mark switched this thread's model to Sonnet for template/implementation work
+("switch this thread to sonnet ... continue with building templates") and
+asked what's next on the Blueprint for eras 1–9. Findings: `atlas-v3.html`
+(B5) reads the census live (no inlined data) — the newly Frozen 257-entry,
+20-edge census (eras 3–9) required NO rebuild to render; it had simply never
+been verified past the 178-entry baseline. Built
+`Design/tools/shoot.mjs` (the harness the Blueprint named but hadn't been
+created yet: screenshots at 390/1280 × light/dark, geometric no-overlap
+check on `.node` boxes, interaction smoke) and ran it:
+
+- **257 nodes render, zero geometric overlaps across all four
+  viewport/scheme combinations, zero JS errors.**
+- Search "coptic" → 4 matches (was 3 at 178 entries; the Era 9 rename of
+  VIII.13 plus new entries account for the growth) — verified against the
+  page's real filter model (a non-hiding `.match`-class highlight + the
+  `#cnt` counter text, corrected after the harness's first draft wrongly
+  assumed a hide-based filter and mis-read it as "all 257 visible" — caught
+  and fixed before reporting).
+- "Open" chip → exactly 6 (the live-world count, unchanged, matches
+  `meta.liveCount`).
+- Hover card, click-document (sheet), and the 10-era jump rail all fire
+  correctly.
+
+**Two Track B gates were already built and are queued for Mark, surfaced
+now rather than left silent:**
+- **B0** (design base freeze) — one three-line confirmation
+  (`Design/CiC_Atlas_V3_Design_Base_R10_Freeze.md`): screen-anchored
+  families, accepted peak-density spill, live worlds' hue confined to
+  hover/click/app.
+- **B4** (line prominence) — R12 (`CiC_Atlas_V3_R12_Hover_Lines_2026-08-02.html`)
+  is a SINGLE resolved treatment (stroke-width 2.5/3.6 hot, already live in
+  `atlas-v3.html`), not the variant-comparison sheet the Blueprint's B4
+  recipe describes (stroke weight range / family-tint vs gold / arrival
+  ticks / label-on-trace) — flagged honestly rather than claimed as
+  satisfied; Mark can approve the resolved treatment as-is or ask for true
+  variants.
+
+Screenshots + `report.json` on disk at `Design/tools/shots/`.
+
+**Next action:** Mark's B0 + B4 gate decisions; then B5.g (ship flip)
+becomes live; A2.a spot-check (8 flagged calls) and A3's formal taxonomy-
+mapping gate remain small queued items.
+
+---
+
+## 2026-08-03 (Pass 3) — ERA 9 FROZEN by Mark; census 233→257; the register field's climax gate held
+
+**Decided (Mark): "approved/yes for the era nine rulings"** — the full package
+per the stated leans, after two review rounds (R1: 6 substantial incl. the
+living-flag defect caught at scale across the drafts; R2: 11/12 clean, one
+arithmetic residue fixed). Applied: all 24 candidates entered (the four
+big-church receivers VIII.28–31, the global-South block, the U&U register
+segment, the Taiping register row — its shelf ruled register over Outside-A4);
+ALL FIVE register dispositions RECORDED at own-text strength (VIII.16
+record-mandated and the register's FIRST A3-LED case — the machinery era 10's
+register rows inherit); the criterion's sixth–ninth live applications (VIII.10
+two window-specific findings, question stays on the register for era 10;
+VIII.18 the first OFFICE-DEFINED c2 run, question stays genuinely open;
+VIII.8 and VIII.23 CLEARED on the community limb); the register-cap convention
+RULED (living register rows cap at the era boundary; story-own ends keep —
+era 10's kin inherit a clean rule); VIII.17's phantom 1928 → 1906; VIII.20's
+window-fill start → 1848; the VIII.26/VIII.27 present-tails segmented at 1906
+(era-10 segments at the E10 gate); the VIII.13 rename; VIII.13→IX.10
+RATIFIED + twelve Frozen-Era-8 continuesAs writes + VIII.49→IX.20 + four
+deliberate NOT-writes (165/205/171-year gaps disclosed, not bridged); the
+Black Church's three parent lines named (incl. the Methodist parent the flag
+missed) + the census's 19th and 20th edges; the VII.23 and VI.25 living-flag
+fixes; the 149-item sources[] landed (139-[S] debt named). Validator 0/0;
+Playwright smoke 257 nodes, zero JS errors.
+
+**Mark's hesitation, recorded with the freeze (the heart of it):** "i think
+the research missed some significant movement beginnings. dispensationalism,
+fundamentalism and social gospel beginnings reshaped the evangelical
+landscape more than any other factors and to not have them recognized is a
+problem (even if they were developing in the late 1800s)." Checked against
+the census: dispensationalism IS carried (VIII.23 + IX.29 + the IX.32
+counter-culture); fundamentalism and the Social Gospel are NOT — nor is the
+mainline/liberal Protestant lane they jointly imply (IX.18 is contemporary-
+only). All three are now **MARK-MANDATED A1.E10 candidates** (era doc
+forward-flags, post-gate addition): their late-1800s beginnings (Niagara
+1876/1878, Princeton inerrancy 1881; Gladden 1886, Rauschenbusch, Sheldon
+1896) named as in-scope reach-backs; WWJD rides as inside content; the two
+sides of the fundamentalist–modernist rupture are natural candidates for the
+census's second "in tension with" edge.
+
+**Also decided this session (usage strategy):** Fable at 97% of the weekly
+window, two days in. Ruled path: freeze Era 9 on Fable now (done); interim
+week's work (Track B visuals, A3 harmonization, draft-base queue) may run on
+Opus/Sonnet; **Era 10 waits for next week's reset on the strongest model** —
+it is the living era, the hardest, and the Mark-gated living-era protocol
+addendum precedes its run. A handoff brief accompanies this freeze.
+
+**Next action:** living-era protocol addendum (Mark-gated) → A1.E10 → A1.R12.
+
+## 2026-08-03 (Pass 3) — ERA 8 FROZEN by Mark; census 221→233; six eras Frozen
+
+Mark's ruling, verbatim: **"yes to all, move forward."** Applied per the
+leans: all 12 candidates entered (the mandated Ottoman segment + the four
+structural receivers + the bridges + the U&U register entry with its two
+separate findings); the round-1800 artifact cluster replaced with honest
+1815 caps; the register-cap ruling made (VII.12 →1815); **both floor
+dispositions RECORDED** (VII.13 record-mandated, VII.12 proposed — the
+1808 Testimony anchor); **the Antonian c2 CONTESTED-ON-RECORD** (two
+limbs, Salve Antoniana cited, transmission condition named — the question
+stays open with its record); nine succession writes incl. **VI.24→VII.4
+identity across the hidden-seed century**; VII.8→VIII.11 ratified;
+VIII.13→IX.10 banked for E9's ratification sweep; the Kollyvades seam as
+proposed; the 98-item sources[] landed. Validator 233 movements, 0
+errors; atlas renders 233 nodes, zero JS errors.
+
+**Eras 3–8 are now Frozen. Census 178→233 across this run of gates.**
+Next: A1.E9 (1815–1906) — the census's densest register field (the ✦/✧
+remap's hardest ground), with the banked forward flags. Then the
+living-era protocol gate before A1.E10, and the Eras 1–2 revalidation.
+
+---
+
+## 2026-08-03 (Pass 3) — A1.E8 CLEARED FOR GATE after two review rounds; Era 8 gate package presented to Mark
+
+The Enlightenment & Awakening run (17 entries + 12 drafts) completed the
+loop: Round 1 (13 substantial — the heaviest round yet: a manufactured
+mandate, a mis-anchored floor disposition, a one-sided c2 run repeating
+the E7 defect, a misattributed-Frozen fork, two failed recomputations, a
+thrice-asserted analysis that didn't exist — + 12 cosmetic, all applied),
+Round 2 (four residues fixed at close; gate-eligible per the reviewer).
+
+- Section A: **VII.13's RECORD-MANDATED floor disposition** (its own why
+  assigns it; own-confession strength; the IV.13 Joachim-precedent named
+  on its c2 side) + **VII.12's PROPOSED sibling disposition** (anchored on
+  the 1808 *Testimony*, honestly un-mandated) + **the Antonian c2 run
+  two-limbed** (the *Salve Antoniana* cited; person-shaped vs
+  community-shaped; GENUINELY CONTESTED lean; Montanism cited only as the
+  un-ruled sibling) + the U&U two-thread analyses + the Quaker
+  off-register-on-purpose line.
+- 12 drafts (VII.18–VII.29): the mandated Ottoman segment (Jerusalem 1672
+  to Gregory V's 1821 hanging), the Ancien Régime church, the Georgian
+  C of E, the Synodal Russian church (Old Believers re-scoped as dissent),
+  the Church of the Desert, Melkite + Utrecht + Uniate bridges, Old
+  Dissent, the U&U register draft, Armenia, the Philippines segment.
+- Data finds: the round-1800 six-entry artifact cluster; the four-way
+  register-cap inconsistency; the second pre-gate chain write
+  (VIII.13→IX.10) banked for E9's ratification sweep.
+- **Nothing decided; census untouched (221, validator clean).** Nine
+  questions at Mark's gate.
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 7 FROZEN by Mark; census 212→221; five eras Frozen in one day
+
+Mark's ruling, verbatim: **"go with recommendations on all and move
+forward."** Applied per the stated leans:
+
+- **Q2**: all 9 candidates entered — Tridentine Church (the big-church
+  gap's third fix), Russian patriarchate century, Czech last century (to
+  c. 1627), Ethiopia Gragn-to-Fasilides, Remonstrants/Dort, Scandinavian
+  kingdoms, New Julfa, Carmelite reform ([S]-conditioned), Sulaqa schism.
+  **The VI.13 split HELD** (A5-now stands; Japan's arc confirmed inside).
+  Census 212→221.
+- **Q3**: all dates applied — Kongo **1491** back-extension landed; VI.4
+  extended to 1650 (the Stuart century absorbed); VI.6→1559; VI.16→c.
+  1540; string fixes; **both straddle violations SEGMENTED at 1650**
+  (VI.17, VI.19 — era-8+ receivers created at those gates); every
+  alternative branch was on the record.
+- **Q4 — VI.14 floor divergence FORMALLY RECORDED** (own-confession
+  strength; the register's cleanest case; recension caveat carried; the
+  victim-honesty line newly written into its record).
+- **Q5 — VI.16 c2 recorded as GENUINELY CONTESTED** (the criterion's
+  first two-limb case; question stays open with its record; Franck → A3).
+- **Q6**: eight succession writes onto Frozen Era 6, named-approved, incl.
+  **V.23→VI.18 direct** (same community/place/name; 82-year gap
+  disclosed). NOT written: VI.24→VII.4, VI.23→VII.7 (era 8's).
+- **Q7** ripples applied (Lucaris + Peć + interregnum on VI.17;
+  Augustinian seedbed on VI.1; Dort named twice with VI.9's scope line).
+- **Q8**: 122-item sources[] landed — the [S] verification debt (109
+  items) named and carried. Draft-base queue now 5+11+10+9 across four
+  eras.
+- Verification: validator 221 movements, 0 errors · atlas renders 221
+  nodes, zero JS errors.
+- **Eras 3–7 are now Frozen. Census 178→221 in one day.** Next: A1.E8
+  (1650–1815) with its banked forward flags (Roman + Anglican holes,
+  VII.7/VII.4 receivers, VI.17's era-8 segment, VI.19's segments,
+  VII.17/VI.13 scope seam, Old Believers at era 8, Armenian fallback
+  n/a — VI.28 entered).
+
+---
+
+## 2026-08-02 (Pass 3) — A1.E7 CLEARED FOR GATE after two review rounds; Era 7 gate package presented to Mark
+
+The Reformation-era run (21 entries — the largest pre-run roster yet — + 9
+drafts) completed the loop: Round 1 (6 substantial — a false census-content
+claim in the mandatory floor disposition, a one-sided c2 run corrected to
+two-limb contested, collapsed forks, dropped [S] hedges — + 12 cosmetic,
+all applied), Round 2 (three one-line residues fixed at close;
+gate-eligible per the reviewer's ruling).
+
+- Section A carries the era's two register runs, both Mark-gated: the
+  **VI.14 mandatory floor disposition** (own-confession strength — the
+  register's cleanest case; victim-honesty line proposed as a NEW
+  addition, recension caveat carried) and the **VI.16 c2 contest** (the
+  criterion's fourth live run and its first genuinely two-limb case:
+  person-defined origin-shape vs real transferability counter-evidence).
+- 9 drafts (VI.22–VI.30): Tridentine church (the big-church gap's third
+  fix), Russian patriarchate century, Czech last century, Ethiopia's
+  ordeal, Remonstrants/Dort, Scandinavian kingdoms, New Julfa, Carmelite
+  reform (Teresa), the 1552 Sulaqa schism. The VI.17/VI.19
+  straddle-violation segment forks and the VI.13 1491 back-extension land
+  at this gate; the VI.13 split question goes to Mark.
+- **Nothing decided; census untouched (212, validator clean).** Eight
+  questions at Mark's gate.
+
+---
+
+## 2026-08-02 (Pass 3) — Open note banked for A1.E10: Mark's caution on the living era
+
+Mark, verbatim in substance: **"we need to be careful with 10 to present. the
+dynamics of a current tradition gets much more complicated. it may be ok for
+the atlas, but historical rigor may be hard to define."** No decision taken;
+banked so the A1.E10 run inherits it.
+
+- Proposal on record [E]: A1.E10 runs under a **living-era protocol
+  addendum**, drafted + adversarially reviewed + MARK-GATED before the run
+  begins. Likely contents: A3 (interpretive fidelity) run for every entry —
+  the subtest built for contemporary movements, N/A in every era so far;
+  self-descriptions sourced from each tradition's own current statements,
+  dated; a B1 vocabulary extension for contemporary attestation (the
+  Documented/Widely Accepted ladder assumes a weathered record that does
+  not exist for the living); floor/register findings phrased with
+  present-tense humility (claims about living neighbors, not the dead);
+  ends stay honestly open (the unsealed-tail grammar already encodes this).
+- The conversation system is the era's unique methodological asset: for
+  living worlds, "internal voice" can include the tradition's own present
+  answer — properly framed, via the Construction Framework, never
+  informal (the standing scope discipline holds).
+- Era 9 (1815–1906) remains fully historical; the seam is living memory,
+  not the century mark.
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 6 FROZEN by Mark; census 202→212; four eras Frozen in one day
+
+Mark's ruling, verbatim: **"apply your recommendations and freeze era 6."**
+Applied per the stated leans, with two disclosure notes given in the same
+reply, open to correction: the **III.18→V.18 succession field is WITHHELD**
+(validator-forbidden under the chosen era-6 slot; the relation is V.18's
+named register line), and the **IV.8→VI.10 edge is KEPT** (the retire
+branch carried no lean — still open to Mark).
+
+- **Q2**: all 10 candidates entered — the Avignon–Schism–Constance papal
+  church + the Palaiologan church (both Schism-principal receivers, the
+  latter with continuesAs into VI.17's 1453 start), Alpine Waldensians,
+  CoE after Timur, terminal Nubia (era-6 slot), Franciscan Order era-6,
+  Bosnian Church (plain candidate, debate in floorNote, c. 1230s
+  standing-rule start as drafted), Armenia-to-Etchmiadzin, Maronite union
+  segment, pre-Portuguese Malabar. **Kongo resolved on the E7-scope-flag
+  branch — the era-6-entry branch knowingly foreclosed by this Freeze.**
+  Census 202→212.
+- **Q3**: dates applied w/ dateRationale (V.1 c. 1440; V.3/V.7/V.9 →1517;
+  V.9 start 1368; V.11/V.12 string+1466 fixes; V.6 origin note).
+- **Q4 — Lollardy person-defined check CLEARED** (its floorNote ordered
+  the run); **Q5 — Observant c2 CLEARED** (third live application;
+  "Savonarola alone would fail" kept verbatim in the floorNote).
+- **Q6**: V.10→VI.12 reclassified exemplar-succession (field removed,
+  prose carries it). **Q7**: V.6's Moravians-era error corrected in the
+  census text; era-7 Unitas hole flagged.
+- **Q8**: seven continuesAs writes onto Frozen Era-5 entries + V.15→VI.17
+  + the Hospitallers-on-Rhodes note on IV.11 — all named-approved.
+- **Q9** ripples applied (converso context on V.9 and inside V.14's
+  drafted text; Georgian/Syriac named-gap registers live in the era doc).
+- **Q10**: 76-item sources[] landed. Draft bases join the follow-up queue
+  (now Era 3's five + Era 5's eleven + Era 6's ten).
+- Verification: validator 212 movements, 0 errors · atlas renders 212
+  nodes, zero JS errors · meta + era stepStatus refreshed.
+- **Eras 3, 4, 5, and 6 are now Frozen. Census 178→212 in one day**, every
+  ruling Mark's, every date rationaled, eight adversarial review rounds on
+  file across four eras. Next: A1.E7 (1517–1650 — the Reformation era),
+  research pre-staging, with its banked forward flags.
+
+---
+
+## 2026-08-02 (Pass 3) — A1.E6 CLEARED FOR GATE after two review rounds; Era 6 gate package presented to Mark
+
+The Era 6 Step 0 run completed the loop: Round 1 (8 substantial — headlined
+by a validator-illegal Frozen succession write caught before it could reach
+the gate, plus a misattributed Freeze-record claim, five collapsed forks,
+the Kongo foreclosure, and the same three dropped Era-5 flags Era 5's own
+round had restored once — + 8 cosmetic, all applied), Round 2 (independent
+recompute; two one-line residues fixed at close, gate-eligible per the
+reviewer's ruling).
+
+- The era carries TWO criterion runs, both drafted lean-clear and
+  Mark-gated: Lollardy's person-defined check (its own floorNote ordered
+  it run) and the Observant c2 question (the criterion's third live
+  application; the Savonarola-alone boundary kept verbatim).
+- 10 candidate drafts (V.14–V.23): the Avignon–Schism–Constance papal
+  church + the Palaiologan church (both Schism principals' receivers),
+  Alpine Waldensians, the Franciscan order's own era-6 story, the Bosnian
+  Church with the identification debate honest, terminal Nubia (era-slot
+  fork with its write-legality interaction disclosed), and four thin
+  spine segments. Kongo 1491 goes to the gate as a three-branch fork with
+  the dies-at-Freeze branch named.
+- **Nothing decided; census untouched (202, validator clean).** Ten
+  questions at Mark's gate, incl. the consolidated Frozen-writes list.
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 5 FROZEN by Mark; census 191→202; the Schism rendered; the C2 criterion's first live clearing
+
+Mark's ruling, verbatim: **"apply your recommendations and freeze era 5"** —
+after the ten questions were presented with stated leans. All ten applied per
+the recommendations; one item deliberately NOT applied: **III.1→IV.22
+succession (the 375-year Church of the East gap) stays OPEN** — it was
+presented as "your call" with no lean, so the recommendations ruling does not
+cover it.
+
+- **Q2**: all 11 candidates entered — both **Great Schism principals**
+  (IV.17 Byzantine post-1054, IV.18 Latin Papal Church with the c. 1049
+  standing-rule extension granted), Kievan Rus' to 1240, Armenian Cilicia,
+  Syriac Renaissance, CoE under the Mongols (end 1317), Carmelites, Bogomil
+  register continuation, Outremer, Coptic golden age ([S]-conditioned —
+  named verification before any build), Humiliati. Census 191→202.
+- **Q3**: the census's **first "in tension with" edge** — the Schism itself,
+  IV.18→IV.17, Documented, both sides' own documents in the note, 1204
+  reading carried, 1965 lifting [S]. Edges 17→18.
+- **Q4**: dates applied with dateRationale (Victorines 1108–1246, Cathars
+  c. 1143–1321, Joachimites 1202, Georgia 1245); **IV.9 ended 1270 and
+  RENAMED "Zagwe Ethiopian Christianity"** (overlap fixed, name honest);
+  IV.16 keeps 1396 — the straddle rule's letter stands.
+- **Q5**: Cathar register retained; per-text finding recorded (dualism =
+  Liber only; coherence debate disclosed; non-endorsement language kept).
+- **Q6 — the Frozen C2 criterion's first live clearing**: Joachimite
+  c2:"question" → null; the finding on the record (communally carried;
+  Joachim the pen, not the resting-point). A5 status untouched.
+- **Q7**: Maronites keep 1100 + origin note. **Q8**: ripples applied incl.
+  the named Cluny-peak touch on Frozen III.10 (Mark's approval explicit in
+  the ruling). **Q9 — succession convention ADOPTED**: continuesAs is the
+  single identity carrier; six pairs landed (III.22→IV.17 · III.8→IV.19 ·
+  III.16→IV.20 · III.17→IV.21 · III.13→IV.24 · III.3→IV.26); IV.8→VI.10 and
+  IV.6→V.4 regularize at the A1.E6 gate. **Q10**: 96-item sources[] landed.
+- Verification: validator 202 movements, 18 edges, 0 errors · atlas renders
+  202 nodes, zero JS errors · meta refreshed (enforced).
+- **Eras 3, 4, and 5 are now Frozen.** Census 178→202 today, all
+  Mark-ruled, every date with a written rationale, every era
+  double-reviewed on file. Next: A1.E6 (research pre-staging), with its
+  inherited flag list (Waldensian hole, Franciscan shape, Nubia's end,
+  Bosnian question, III.1→IV.22, IV.8/IV.6 regularization).
+
+---
+
+## 2026-08-02 (Pass 3) — A1.E5 CLEARED FOR GATE after two review rounds; Era 5 gate package presented to Mark
+
+The Era 5 Step 0 run completed the loop: Round 1 (5 substantial — Cathar
+per-text overstatement, a collapsed IV.9 fork, V.7 sweep omission, IV.24
+silent window choice, 3 dropped survey flags — + 7 cosmetic, all applied),
+Round 2 (independent recompute; **CLEARED FOR GATE**, one cosmetic
+harmonized at close).
+
+- The era carries the census's two heaviest standing assignments, both
+  drafted and Mark-gated: the **Cathar floor disposition** (two-layer,
+  per-text: dualism text-established in the Liber only; coherence debate
+  disclosed) and the **first live run of the Frozen C2 criterion**
+  (Joachimites — draft finding: clears, communally carried).
+- 11 candidate drafts (IV.17–IV.27) headlined by both **Great Schism
+  principals** + the census's **first "in tension with" edge**; register
+  draft carries the Bogomils forward; [S]-conditioned Coptic golden age.
+- **Nothing decided; census untouched (191, validator clean).** Ten
+  questions at Mark's gate.
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 3 FROZEN by Mark; census 187→191; the first fully closed era run
+
+Mark's ruling, verbatim: **"apply your recommendations and freeze era 3"** —
+given after a source-grounded walkthrough of the open questions (the
+recommendations and their evidence are in the conversation record and the
+era doc's gate block).
+
+- **Q5**: Najran martyrs (523) routed inside II.9's story (Kaleb's
+  intervention is the connection; the event is richly attested, the ongoing
+  community is not) — **"pre-Islamic Arabian Christianity" flagged as a
+  future completeness question** (Najran + Ghassanids + al-Hirah together).
+- **Q8**: all four A5 ripples applied — II.5 region + Sinai; II.2 +
+  Ghassanid patronage line; II.3 + India-inside-communion line; II.10
+  "(607)"→"(609)" harmonized with the gated Dvin III end.
+- **Candidates II.14–II.17 ALL entered** (Caucasian Albania T3 · Latin
+  Africa under Byzantium T2 · Visigothic Iberia T2 · British-Welsh T3), each
+  with gate statusWord + dateRationale. **II.16→III.9 continuesAs applied**
+  per the recommendation (Mozarabic's relationsSummary already named
+  post-589 Iberia as its parent).
+- **FREEZE**: the 70-item sources[] landed on the 12 researched era-3
+  worlds. Follow-up flagged: the five gate-added entries (II.13–II.17) have
+  no source bases yet — queued as an A1.E3 addendum or A2.d item.
+- Q6 (Homoian A4) stands untouched — Mark-only, no deadline.
+- Verification: validator 191 movements, 0 errors · atlas-v3 renders 191
+  nodes, zero JS errors.
+- **Eras 3 and 4 are now both Frozen.** The atlas's census has grown
+  178→191 in one day's gates, every change Mark-ruled, every date carrying
+  a written rationale, every era run double-reviewed on file.
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 4 GATE: Mark rules "yes to all" (all eight questions); census 179→187; treated as the Era 4 Freeze
+
+Mark's ruling, verbatim: **"yes to all."** Three interpretation calls were
+stated to Mark in the same reply, open to his correction: the Cluny fork
+lands on the stated lead lean (**1109**); Bogomil Q4 lands on option (a);
+complete-gate approval incl. Q8 is treated as the **Era 4 Freeze** (sources
+landed accordingly).
+
+- **Q1** tier statusWords applied to the 14 entries.
+- **Q2** all EIGHT candidates entered: III.15 (622–843) + III.22 (843–1054)
+  Byzantine split, Bagratid Armenia, Syriac under Islam, Makurian Nubia,
+  Late Anglo-Saxon (793 via the approved Q3 coupling), Georgian Revival,
+  post-Aksumite Ethiopia. Census 179→187.
+- **Q3** all §5 dates applied with dateRationale: data-class III.7→916,
+  III.8→1054 (+string), III.12→c. 650–878; III.1→845, III.2→1009,
+  III.3→1013, III.4→793, III.5→751–888, III.9→1031, III.10→**1109**,
+  III.11 start→849.
+- **Q4** Bogomils: register retained; statusWord records the [S]-qualified
+  finding (one verified witness, two from-knowledge).
+- **Q5** A5/scope ripples as routed (all already carried in the entered
+  drafts; Maronite origin note stays era-record-only; no-receiver flags to
+  A1.E5).
+- **Q6 — STANDING RULE ADOPTED**: "an entry sits in the era where its
+  defining gravity-window lies, even when its start precedes the boundary."
+  Covers II.3 (424), Georgia (330), IX.2 (1904), III.4 (597), III.21 (615),
+  IV.6 (963), IV.15 (1000). **Closes Era 3's open Q7 and the A0-routed IX.2
+  anomaly** — no date edits required; it is a placement doctrine.
+- **Q7** eleven succession pairs land as continuesAs (validator allows
+  same-era): imperial spine II.13→III.15→III.22; II.2→III.17; II.4→III.16;
+  II.11→III.18; II.9→III.21→IV.9; II.10→III.20→IV.15; III.4→III.19;
+  III.7→III.8.
+- **Q8** the 79-item sources[] bases landed on the 14 era-4 entries — the
+  census's first sources[] landing (Era 3's 70 still await its own Freeze).
+- Verification: validator 187 movements, 0 errors · atlas-v3 renders 187
+  nodes, zero JS errors.
+- **Still open after this gate:** Era 3's Q5 (Najran/Himyar), Q8 (A5
+  ripples), candidates II.14–II.17, Era 3 whole-era Freeze + its sources
+  landing; the Homoian A4 standing question; A0.5 micro-rulings; the other
+  standing gate queue (B0, B4, A2.a spot-check, B5.g, A3).
+
+---
+
+## 2026-08-02 (Pass 3) — A1.E4 CLEARED FOR GATE after two review rounds; Era 4 gate package presented to Mark
+
+The Era 4 Step 0 run (`Design/StepZero-Eras/CiC_Step0_Era4_V1_0.md` + 8-draft
+candidate appendix) completed the loop: Round 1 (5 substantial — false
+III.7→III.8 edge claim, Bogomil evidence overstated, III.19 silent 793 start,
+IV.6 sweep omission, Q3 start-anchor mislabel — + 4 cosmetic, all applied),
+Round 2 (independent recompute incl. the split; **CLEARED FOR GATE**).
+
+- **Mark's two-world steer applied mid-review** (conversation, 2026-08-02:
+  "are there two worlds we can form"): the Byzantine imperial candidate split
+  at 843 (Triumph of Orthodoxy) into III.15 (622–843, Heraclian &
+  Iconoclast) + III.22 (843–1054, Macedonian); single-entry alternative
+  preserved at the gate; imperial spine II.13→III.15→III.22 to the A4 walk.
+- Headline Section A work: Bogomil floor disposition drafted at honest
+  [S]-qualified strength (one verified witness, two from-knowledge) with a
+  hold-for-verification option; Paulician Contested-Evidentiary stands.
+- **Nothing decided; census untouched (179, validator clean).** Eight
+  questions go to Mark: tier list · candidates (III.15+III.22 split headline,
+  III.16–III.21) · §5 dates (3 data-class + 2 start anchors + Cluny
+  1109/1049 fork) · Bogomil disposition · A5/scope ripples · start-before-era
+  instances → open Q7 rule · A4 spine list · sources[] landing.
+
+---
+
+## 2026-08-02 (Pass 3) — Open notes banked for A1.E5: the Great Schism's principals + a live demand signal
+
+From conversation with Mark (no decision taken; nothing changes now):
+
+- **Completeness note for the A1.E5 run:** Era 5 carries no Byzantine
+  patriarchal church entry (IV.6 is monastic only) and no Latin papal/
+  Gregorian Reform entry — the two principals of the 1054 schism are both
+  missing in the era that begins with it. The E5 run should propose both as
+  candidate entries, plus the census's **first "in tension with" edge**
+  between them (Documented; each side's own documents — Humbert's bull,
+  Cerularius's synodal response), with process honesty in the entry text
+  (1054 the symbolic break; 1204 what made it unhealable).
+- **B4 audiences signal, real demand:** a participant asked Mark (2026-08-01)
+  about the Great Schism and each side's perspective — unprompted live
+  interest in exactly these two worlds and in perspective-answering as a
+  feature. Carried as a B4 signal into the E5 run's Section B; also a
+  future-phase world-selection signal for building the two representatives
+  (representative construction stays with the Construction Framework
+  methodology, never informal).
+- Interim honesty: the atlas renders the schism today only as the frozen
+  1054 era boundary; as a relationship it appears only when census edges
+  carry it. Per-world perspectives reach participants through click-document
+  sources now, and through built representatives only when those worlds are
+  built.
+- **Mark's scope discipline (2026-08-02, verbatim in substance):** sources
+  matter because the schism's worlds must carry "not just the theological
+  driver … but the lived ecosystem, internal and external" — but that depth
+  is the conversation system's world-building concern (Construction
+  Framework), "not for us to worry about as this is a map." The atlas thread
+  stays on its task: entries, dates, edges, honest source pointers — no
+  world-building, no bias toward the theological headline in source-base
+  composition (B2's eight-lens ecology already encodes this).
+
+---
+
+## 2026-08-02 (Pass 3) — ERA 3 GATE: Mark rules Q1–Q4 YES; census updated to 179 movements
+
+Mark's ruling, verbatim: **"1 yes, 2 yes to the byzantine church, 3 yes, 4 yes."**
+
+- **Q1 — tier list FROZEN as proposed.** Census statusWords applied: Tier 1
+  (II.1, II.2, II.3, II.5, II.6, II.7) "Researched — strong candidate"; Tier 2
+  (II.4, II.8) "viable, secondary"; Tier 3 (II.9, II.10, II.11) "deferred,
+  richer window later". `status` field harmonization deferred to the A3
+  taxonomy gate, as the era doc proposed.
+- **Q2 — the Byzantine Imperial Church (Justinianic) ENTERS the census**
+  (II.13, `byzantine-imperial-church-justinianic`, 451–622, Tier 1). The
+  headline completeness gap closed. **Candidates II.14–II.17 were not named:
+  open, neither approved nor rejected.**
+- **Q3 — Lombard extension ADOPTED**: II.12 is now "Gothic, Vandal & Lombard
+  Homoian Christianity", end c. 680; floor-register status unchanged.
+- **Q4 — §5 date corrections APPLIED**, each with a `dateRationale` string
+  (A2.c rolling in per the blueprint): Armenia end 554 · Nubia end 652 ·
+  Syriac 636 · Judean Desert 614 · Aksum 451–615 (start corrected) ·
+  Georgia end 609. II.7 stays 620 (614 was noted as an alternative only).
+- Verification: validator 179 movements, 0 errors · atlas-v3 renders 179
+  nodes, Imperial Byzantium present, counter self-updates, zero JS errors.
+- **Still open, unnamed at the gate (Frozen discipline):** Q5 Najran/Himyar ·
+  Q6 Homoian A4 · Q7 start-before-era standing rule (II.3/Georgia/IX.2) ·
+  Q8 A5-ripple edits · candidates II.14–II.17 · the era's whole-Freeze
+  declaration (and with it §4's sources[] landing). Era 4 assembly (A1.E4)
+  is unblocked and next.
+
+---
+
+## 2026-08-02 (Pass 3) — A1.E3 CLEARED FOR GATE after three review rounds; Era 3 gate package presented to Mark
+
+The Era 3 Step 0 run (`Design/StepZero-Eras/CiC_Step0_Era3_V1_0.md` + candidate
+appendix) completed the build-cycle loop: Round 1 (6 substantial + 6 cosmetic,
+all applied), Round 2 (caught the applied sweep was still not arithmetic, the
+falsified Lombard 652 surviving in Q3/§1, and a borrowed Whitby 664 on the
+British-Welsh draft — all applied), Round 3 (independent recompute; **CLEARED
+FOR GATE**). All three review rounds exist as files beside the document.
+
+- Notable review-driven corrections: straddle sweep now enumerates all six
+  622-boundary crossings + the c. 450 boundary-rounding exemption + all five
+  candidates; Lombard extension proposes **c. 680** everywhere; British-Welsh
+  candidate re-dated **c. 451–768** (Elfoddw, Welsh Roman-Easter adoption —
+  Whitby 664 disowned on record as II.8's hinge, not this church's).
+- Also this pass: Era 4 research fully banked ([E]) — survey (9 candidates)
+  + source bases (79 items, 14 worlds, 28 [S] sub-flags); era 3+4 source-base
+  JSONs moved in-repo. Era 4 assembly waits behind this gate.
+- **Nothing decided; nothing touches the census.** Eight questions go to Mark:
+  tier list · candidate additions (II.13–II.17) · Lombard extension c. 680 ·
+  §5 date corrections (3 data-class incl. Aksum start 451) · Najran/Himyar
+  routing · Homoian A4 (standing) · start-before-era standing rule (II.3 /
+  Georgia / IX.2) · A5-ripple census edits. Era 3 Freezes only by Mark's
+  explicit ruling.
+
+---
+
+## 2026-08-02 (Pass 3) — FROZEN by Mark: the ten eras (A0) and the clean Criterion 2 text (A0.5) — the era runs are unblocked
+
+Mark's rulings, verbatim in substance: **"eras affirmed, keep 1906, freeze the
+criteria as written."**
+
+- **A0 CLOSED — all ten eras FROZEN as they stand**, 1650 and 1906 included
+  (the memo's two open questions resolved by affirmation; 1906 keeps Azusa as
+  the Global Church era's hinge, with the memo's checked numbers on record).
+  Residual not ruled at this gate: the IX.2 anomaly (start=1904, era=10) —
+  routed to the A1.E10 era run.
+- **A0.5 — the §1 Criterion 2 text FROZEN as written**, including the three
+  flagged drafter operationalizations ("small named set"; the own-claim
+  citation rule; the Contested-Evidentiary reroute), which "as written"
+  covers. Per the Frozen discipline, the reply does not freeze what it
+  doesn't name: §2 placement (a/b/c), Montanism's (a)/(b) fork, and
+  Novatianism's proposed reclassification remain open micro-rulings — the
+  I.25/I.26 census statuses change only when Mark rules them explicitly.
+- **Consequence: A1.E3–E10 are UNBLOCKED.** The per-era Step 0 runs begin
+  with Era 3 (The Age of Monks and Empires, 451–622), under the Frozen
+  criterion text and the affirmed era frame, per the Blueprint recipe.
+
+---
+
+## 2026-08-02 (Pass 3, full autonomy) — Blueprint executed through B5: the one atlas exists as a working page
+
+Mark granted full autonomy to execute the Blueprint ("move on with full
+autonomy to B5 and beyond"). Landed this stretch, each per its recipe with
+the Loop Protocol:
+
+- **A2.b** validator (`Design/tools/validate-census.mjs`) — green on every
+  census edit since.
+- **A2.a** shortName + informalName for all 178 (census, schemaVersion 2);
+  review table with 8 flagged judgment calls queued for Mark's spot-check.
+- **A0** era re-affirmation memo through TWO adversarial review rounds (both
+  on disk): Round 1 found 4 substantial defects (incl. a false census-impact
+  claim — 1906→1910 in fact moves 3 entries, Azusa itself among them;
+  1650→1648 moves zero) — revised; Round 2 independently re-verified every
+  number and CLEARED FOR GATE. Gate carries: 8 affirms, 2 questions (1650,
+  1906), and the IX.2 anomaly (start=1904, era=10) for Mark's ruling.
+- **A4 prep**: Catholic + Orthodox spine candidate walks with gap routing;
+  framing question on record (communion vs liveliest-thread).
+- **Census id fixed at source**: `imperial-and-juridical-christianity` →
+  `imperial-juridical-christianity` (validator green; the two page-level fix
+  maps become harmless no-ops).
+- **B0** freeze doc, **B3** click document (R13) — delivered earlier in the
+  stretch; **B5 BUILT**: `cic-website/atlas-v3.html` — the one atlas,
+  reading the census live (no inlined data), with search + four-icon status
+  chips + count, era jump rail, touch model (tap = hover card, second tap =
+  document), keyboard traversal + aria labels + reduced-motion + print
+  styles, tray + app hand-off generated from census ids. Verified [M]: zero
+  JS errors; 178 nodes/icons; search "coptic" → 3; Open chip → exactly the
+  6 live worlds; interview hand-off URL carries the corrected id. Page is
+  deliberately UNLINKED — B5.g (redirects, old pages retired, public name)
+  remains Mark's ship-flip gate.
+
+---
+
+## 2026-08-02 (Pass 2 close) — APPROVED by Mark: Rebuild Design Plan V1.0 + Build Blueprint V1.0; three scope rulings
+
+Mark moved the thread from struggle to build-planning ("re-build design plan
+first, then a blueprint for you to follow autonomously through an entire
+build") with six improvement areas: (1) era re-affirmation + Step 0 per era
+with deeper sourcing and a source base per world; (2) minimal box template +
+four status icons; (3) standard hover template; (4) standard click document
+with a revised status taxonomy; (5) more prominent influence lines; (6) the
+standing design-review-modify loop. Plan drafted in plan mode, grounded in a
+methodology sweep (Step 0 Methodology V1.0's Section A/B structure; the
+build-cycle review discipline — review rounds as files, Frozen only by Mark;
+Criterion 2's absence from codified Section A), and **approved**.
+
+**Three scope rulings by Mark during planning:**
+1. **Per-era Step 0 runs are era-level and AUTHORITATIVE** — a deliberate
+   amendment of the methodology's phase-level application. Each era's run
+   becomes the standing disposition record the atlas renders; release phases
+   still run their own Step 0 for build selection, starting from these.
+2. **Eras 1–2 revalidate only** — the Phase One Conclusion stays
+   authoritative; deeper sourcing enriches and flags, never re-decides
+   without his gate.
+3. **Exactly 4 status icons** (house · plans · question mark · closed door)
+   **in the tile, plus a page-bottom glossary in words**; finer distinctions
+   (willing-to-look-deeper; border vs clearly-out Nicene) carried in words on
+   hover/click, never by icon alone.
+
+**Standing documents produced (both Approved):**
+`CiC_Atlas_V3_Rebuild_Design_Plan_V1_0.md` and
+`CiC_Atlas_V3_Build_Blueprint_V1_0.md` — the blueprint carries the increment
+table (A0…A4, B0…B5.g), per-increment recipes, gates, the Loop Protocol, and
+autonomy boundaries. Future sessions execute from the blueprint; its status
+column is the build's ground truth.
+
+**Sync-ready for System Hub:** two new Gantt tracks (Atlas V3 Data &
+Methodology; Atlas V3 Product), first gates A0 era memo + B0/B1; the
+era-level-authoritative amendment for the Hub's methodology record; noted
+in passing [M]: L2D-System-Operations V1.2 is stale (five-world table vs the
+nine-world Phase One record) — Hub's queue, not this thread's.
+
+---
+
+## 2026-08-02 (Pass 2, in-session) — DECIDED by Mark: founder-prophet marks come off the map; C2 pair re-evaluated under clean criteria; Step 0 criteria re-look and remap opened
+
+Made live in conversation during the Pass 2 divergent/groan-zone session, on
+Mark's own words — logged immediately so it doesn't live only in chat. Context
+that prompted it: the census carries the ✦/✧ founder-prophet mark on **22 of
+178 entries**, but only **2** (Montanism I.25, Novatianism I.26) carry the hard
+"Excluded — Person-Defined (C2)" status; the ✧ "question to run" mark had
+spread to ten ordinary Pre-Survey Candidates (Taizé & Iona, Catholic Worker,
+the Chinese indigenous church, African-Initiated Churches, and more). Mark:
+"they are real movements... [the single-voice screen] needs to be a part of
+the explanation of why a world wasn't chosen to be built, but it's not a lane
+of division... we have overdone that — it can be a primarily
+single-influenced tradition but have multiple sources from other people that
+could qualify, and the Bethlehem Circle could be an example of that."
+
+**1. DECIDED — map presentation.** The ✦/✧ glyphs and "founder-prophet"
+language come off every front-facing surface: legends, rows, bands, cards,
+tooltips, on all three live views and in any v3 direction. The single-voice
+screening survives as **point-of-reading disclosure only** — inside each
+entry's click-through "why it isn't open" explanation, where the census's
+`why`/`floorNote` prose already carries it. (Note for implementers: there is
+no single-influence *lane* to remove — C2 entries already sit in their true
+historical lanes; this is a mark-system removal, not a lane change.)
+**Implementation waits for Pass 3** — Pass 2 is planning-only by Mark's
+instruction; nothing on the live surfaces changes yet.
+
+**2. DECIDED — the two hard C2 exclusions get re-evaluated under clean
+criteria.** Montanism and Novatianism's "Excluded — Person-Defined (C2)"
+status is not carried forward as settled; both go through the re-assessment
+below. (Montanism's own census entry already records a live question in its
+favor: Phrygian inscriptions may document a wider communal ecology.)
+
+**3. DECIDED — Step 0 criteria re-look and remap.** Mark: "we are going to
+re-look at the step 0 criteria and remap." The distinction that motivated it,
+recorded as the seed for that re-look (draft language, not yet the criterion):
+**authority resting on one person** (a movement whose own claim to legitimacy
+*is* a person's revelation or standing — what C2 was written for) is a
+different thing from **sourcing flowing through one pen** (a disclosed
+sourcing signal, never disqualifying — the Bethlehem Circle is the built,
+live precedent: primarily Jerome's pen, with Paula/Marcella/Eustochium as
+multiple real qualifying voices). A movement primarily shaped by one
+influence but carried by multiple qualifying communal voices, qualifies.
+**Boundary honored:** the criteria revision and the per-entry remap of all 22
+marked entries are Construction Framework / Step 0 methodology work — they
+happen under that discipline (with the re-assessment recorded per entry), not
+as a bulk edit to the census from this design thread. Until the remap runs,
+the census's c2 fields stay as data (historical record of the old flagging);
+they simply stop being rendered.
+
+**Sync-ready for System Hub:** a new methodology work item exists — "Step 0
+criteria re-look + 22-entry founder-prophet remap (incl. Montanism/Novatianism
+re-evaluation)" — decided by Mark 2026-08-02, not yet scheduled, owner TBD
+(Construction Framework side, not this thread).
+
+**Addendum, same session — DECIDED by Mark: the v3 design parameters (the
+five-property trade resolved).** Against the groan-zone statement that
+one-axis scrolling + all lanes on one screen + all individuals visible +
+legible names + true-scale time cannot all hold, Mark's calls, verbatim in
+substance: **true-scale time goes first** (sacrificed); **lineage legibility
+is untouchable**; **vertical scroll** is the one axis (lanes share the width,
+all on one screen, including phone — no second scroll axis, per his earlier
+in-session rule); and **the permanent screen is minimalist** — very little
+text at rest, **hover reveals more, click opens a standard description
+template for every world, built or not** (one uniform template skeleton for
+all 178 entries: name · dates · region · lane · status word + plain
+description · why open / why not · what survives · where it stands on the
+Creed · relations with confidence in words · actions where live). Design
+consequence recorded: with position ordering events rather than measuring
+years, movements render as compact nodes rather than lifespan-length bars —
+which dissolves most of the concurrency-width problem that drove Direction
+1's ~4,000px and Direction 3's 10px capsules, and gives lineage threads clean
+node-to-node anchors. A synthesis mockup embodying these four parameters
+(vertical braid geometry + ordinal time + minimal chrome + uniform template)
+was built for Mark's reaction in the same session — **convergence is checked
+back with Mark before anything is treated as the final direction**; build
+work remains Pass 3.
+
+**Second addendum, same session — Mark's correction: NOT at convergence;
+"still in struggle that will have some convergence and then some more
+divergence." Round 1 synthesis reactions, all his words in substance:**
+- **Box-and-tail wanted back.** The Round-1 synthesis reduced movements to
+  compact nodes; Mark misses Prototype C / Direction 1's grammar — a box at
+  the birth date with a descending tail marking the lifespan. Returns in
+  Round 2 (tail placed ordinally, since true-scale time stays sacrificed).
+- **Physical lanes go; color carries tradition.** "Not locked into physical
+  lanes but allow horizontal overlap, staying more true to the influence
+  vertical relationship than the major tradition lane… we use color to
+  distinguish the high-level tradition instead of physical bound lanes."
+  Layout should hug lineage (children pulled toward their influence
+  parents), which also kills the empty-lane whitespace ("a huge space in the
+  flow until the Reformation happens").
+- **Confirmed within the struggle:** the working line itself (Braided &
+  Minimal as base, yes); a `shortName` field added to the census for all 178
+  entries (yes — a Pass 3 data task, one pass over the census); and **"only
+  one atlas, done right"** — not Story + Wall Chart + Research Table as
+  parallel surfaces; the one atlas absorbs their jobs. (What of the Research
+  Table's scholar-filter role survives inside the one atlas is an open
+  struggle point, not yet asked or answered.)
+- **New tension this opens, deliberately unresolved:** color previously
+  carried STATUS (open/chosen/deferred/excluded…); if hue now carries
+  tradition family, status needs a different visual channel (fill/border
+  treatment within the family hue) — and the six live worlds' personal
+  representative colors (Chloe's violet, Theon's blue…) either yield to
+  family hue or break the rule. Round 2 renders family-hue-for-all to make
+  the tension visible; Mark has not ruled.
+
+**Third addendum, same session — two data-model principles DECIDED by Mark
+during the Rounds 5–7 layout struggle:**
+- **Entries are era-scoped; a tail straddles at most ONE era boundary.**
+  Mark: "worlds may straddle an era, but shouldn't be crossing three. We are
+  looking at specific movements and eras, not a forever… Eras 3–5 are all
+  pieces of a Catholic stream that is unbroken, but we are looking
+  specifically at what is happening inside those different eras — it
+  wouldn't be one Representative to cover 1,500 years." This matches the
+  census's own design (continuity carried by successor entries + recorded
+  edges, not by one entry's span). Visual consequence: a tail that reaches
+  its straddle limit fades with a "continues" cap and the next era's own
+  entry carries the stream; entries like Manichaeism (216–650, spanning four
+  map eras as one bar today) render era-scoped.
+- **Every tradition gets clear start AND end dates, bounded by
+  gravity-force shifts.** Mark: "all traditions should have clear starting
+  and ending dates and shift when significant gravity forces shift." Entry
+  windows close where the movement's significant gravities/forces shift (the
+  Construction Framework's own Doc_04/Doc_08 vocabulary), not at vague
+  century edges. Data consequence [M]: the census carries soft ends
+  ("3rd–7th c.", "400s", "1st–4th c.") that are now data debt — each needs a
+  definite year with a gravity-shift rationale. This folds into the already-
+  opened Step 0 re-look / remap workstream (this log, earlier today) — the
+  remap now covers founder-prophet re-marking AND date-boundary
+  rationalization, per entry, under methodology discipline. Visual
+  consequence: every tail eventually earns a definite closing seal at a real
+  gravity shift; unsealed fades should exist only at the present edge.
+
+**Full-census scale test (Round 9), measured [M]:** the R8 design carries
+all 178 movements / 10 eras at 1,760px canvas on a 1,280px desktop (990px on
+a 390px phone), ~11,000px tall, zero JS errors, 152 closing seals + 26
+unsealed streams (24 living traditions + 2 straddle-capped) running to the
+present edge. Families extended to the full 13-lane set (Protestant, Global
+Revival, three bridges, General). Visible data debt at scale: entries
+without a shortName ellipsize ("Recusant English Cathol…") — the approved
+shortName field is now demonstrably needed, not speculative.
+
+**Fourth addendum — DECIDED by Mark: identity succession renders as an
+unbroken stream.** "If you are looking at different tradition worlds within
+an ongoing stream by identity, like the Catholic church or Orthodox church,
+have the tail of the previous bounded world go into the top of the next
+era's tradition world without an ending block — it continues as a new world
+but ongoing church." Implemented in Round 10: the successor inherits the
+predecessor's exact slot, is born on its own tail, and no seal is drawn
+between them; the entry template gains "Continues from / Continues as"
+lines. **New census field required: `continuesAs`** — identity succession
+is a distinct relation from influence and must be carried in the data, not
+hand-drawn. Round 10 shipped eleven demo pairs (Church of the East chain
+×3, Coptic chain ×2 + the modern revival pair, Armenian, Aksumite,
+Ethiopian, the parish stream into Trent, Paisius→Optina) — **CONFIRMED by
+Mark in-session and written into `world-census.json` as `continuesAs` on
+the eleven predecessor entries** (11-line diff, same minimal-edit
+discipline as groundDark). The Catholic and Orthodox full spines remain
+open for Mark's pair-by-pair calls. Same session, Mark caught a date
+artifact the chart surfaced: Persian Church of the East (early) displays
+"to 451" with no start (reading like a one-year world); data carries
+start=300/end=451, with 300 an unconfirmed era-boundary estimate per the
+2026-07-22 log. Candidates under the gravity rule: c. 300 (attested
+communities) vs 410 (Synod of Seleucia-Ctesiphon — formal organization;
+seamless with Syriac Edessa's own 410 close). Mark's call, queued for the
+dates-rationalization pass. Chain gaps the exercise exposed are census-coverage findings
+in their own right [M]: e.g., no Syriac-lane entry between the Silk Road
+era (to c. 1000) and the Sayfo (1915), and no Latin parish entry between
+Trent (to 1610) and Vatican II (1962) that carries the parish identity —
+candidates for the completeness re-check already on the open list.
+
+**Layout finding from the same struggle, on record so it isn't re-derived:**
+straight never-overlapped tails with box-and-tail as one centered body have
+a hard geometric floor (~contemporaries × half-a-box ≈ 1,900px+ at Era-2
+density). Three of Mark's own moves dissolve it: era-scoped tails free
+their space every generation; boxes may lean over a gap with an ASYMMETRIC
+shoulder ("a moving to the tail") while the tail drops into a tight slot;
+and a box crossing its OWN family's ribbon is not an overlap — it's the
+family's river running behind its newest member (only other families'
+tails must stay clear). Round 7 embodies all three: 0 cross-family
+overlaps by geometric check, ~630px canvas on a 390px phone, ~1,520px on a
+1,280px desktop at the slice's peak (year ~397, 20 concurrent tails) —
+near one-screen, with residual spill only at peak-density rows. [M
+throughout; one known 1-overlap tuning bug on record for the build phase.]
+
+---
+
+## 2026-08-02 — Atlas v3 first build pass: IC-10 completed across all three views; two live defects fixed; three questions held open for Mark
+
+First construction pass of the v3 rebuild thread (branch
+`claude/christian-traditions-atlas-v3-x2egp6`). Everything below was verified
+against the running pages (local serve + light/dark screenshots of the Story,
+Wall Chart, and Research Table), not just written. [M] throughout unless marked.
+
+**APPLIED — IC-10 (approved era-ground palette) is now fully live, light and
+dark, on every Atlas surface.** The census (`world-census.json`) gained a
+`groundDark` field per era, carrying the canonical dark values from the
+Brand-Assets spec (`CiC_World_Icon_and_Table_Template_Spec_V0_1.md`
+§"Era-ground values", approved 2026-07-18); the existing light values were
+verified byte-for-byte against that spec before touching anything. `atlas.html`
+(Story) — which already had the light palette — now switches to the dark
+grounds in dark mode (its dark-mode CSS previously never touched `.st-era`, so
+dark readers saw the unadjusted light hex). `world-atlas.html` now renders the
+per-era grounds for the first time: as full-height era columns under the Wall
+Chart's timeline (lowest stacking layer, bands/edges/labels unchanged above
+them) and as tinted era-header bars in the Research Table. Both read
+`ground`/`groundDark` from the census — no hex value is duplicated into either
+page. Verified: warm-parchment Era I → cool blue-grey Era X progression is
+visibly legible at both ends of the chart, light and dark.
+
+**FIXED — the Story view's app hand-off silently failed for one world.** The
+census id `imperial-and-juridical-christianity` doesn't match the app's real
+world id `imperial-juridical-christianity` (no "and"). `index.html` already
+carried a `CENSUS_ID_FIX` map for exactly this; `atlas.html`'s `launch()` did
+not, so interviewing/adding Marius's world from the Story view launched the app
+without pre-selecting it. The same fix map is now applied in `atlas.html`'s
+`launch()`. Verified: the hand-off URL now carries
+`?worlds=imperial-juridical-christianity`. (Fixing the id at the source — the
+census/spreadsheet — remains the better long-term fix, but touches the census
+build chain; left on record rather than done quietly here.)
+
+**FIXED — the Wall Chart's relationship lines had already drifted from the
+census.** Its `EDGES` array was a second, hand-maintained copy of the edge set,
+and an audit found 4 of its 17 lines no longer matched the census's reviewed
+`edges` field (which the Story view renders live). The chart now derives its
+edges from the census at init (id → atlasId) and the hand array is deleted.
+Concretely, the chart **stopped drawing** four lines the census does not carry —
+I.3→II.5 (Desert → Chalcedonian Monasticism, Judean Desert & Gaza), I.3→II.1
+and I.2→II.1 (Desert/Alexandria → Cyrilline Miaphysite Egypt), IV.8→VI.2
+(Waldensians → Reformed Cities) — and **started drawing** the four the census
+does: I.3→III.6 (→ Iconophile Byzantine Monasticism), I.3→III.3 and I.2→III.3
+(→ Coptic Christianity under Early Islam), IV.8→VI.10 (→ the
+Waldensian-Reformed Union). Both versions of each claim are historically
+defensible prose; the decision here is only about source of truth — the map's
+own stated rule ("no relationship is drawn that the census does not carry")
+now actually holds on all surfaces. **If Mark wants any of the four dropped
+claims back, the move is to add them to the census `edges` field, once, not to
+any page.** Note for later: Prototype C embeds a *third* hand copy of the old
+6-edge Era 1–2 slice — fine for a frozen prototype, but the same drift class if
+it's ever promoted.
+
+**Small craft additions in the same pass:** desktop hover states on Story-view
+rows/cards (`@media (hover:hover)` — the rows were click-only with no hover
+affordance); the chart's edge-tooltip notes are now HTML-escaped.
+
+**NOT decided here — three questions carried to Mark, per his instruction that
+this thread raises them rather than resolves them:**
+
+1. **What "messy" means / Prototype C.** Prototype C
+   (`Design/CiC_World_Map_Redesign_Prototype_C_Unified_Grid_Timeline_2026-07-23.html`)
+   is now actually read and describable: a single unified canvas — no
+   lane-rows-by-era-columns grid — where each movement is a box pinned at its
+   start date with a status-colored span bar, influence lines flow from a bar's
+   underside into the influenced box, eras are full-width horizontal ground
+   bands, and detail opens in a right-side sheet. Built as a 26-entry Era 1–2
+   slice "proving the mechanic, not the full census." It has never been
+   reviewed or ruled on. The genuine v3 question for Mark: is C's unified-grid
+   mechanic the direction for the Wall Chart's replacement, a source of ideas
+   to merge (its start-date-box + span-bar reading is arguably clearer than the
+   current band-packing), or a dead end? [E: my read — worth a verdict before
+   any wholesale chart redesign, since "messy" most plausibly names the current
+   chart's band crowding at low zoom, which C's mechanic directly addresses.]
+2. **The "Choose a Tradition" name collision.** The live `cic-poc` app's plain
+   tile-grid heading (`WorldSelector.tsx`) and Prototype B's unbuilt
+   search-first selector share the name. Any v3 work touching either needs
+   Mark to pick disambiguated names first.
+3. **Tier A / Tier B scope.** The record disagrees with itself: the 2026-07-22
+   decision says Tiers A+B jointly ("two linked surfaces, not either/or"); the
+   Gantt only ever scheduled Tier A (task 463), and the 2026-08-01 framing
+   treats Tier B as unscoped. Both readings go to Mark; nothing in this pass
+   touched `cic-poc`. Related dead code, on record for that decision:
+   `world-atlas.html`'s `APPMODE` branch targets a `/world-map/` route that
+   exists nowhere in the app — left in place, since removing or wiring it is a
+   Tier B call.
+
+**Also open (rigor):** the only external completeness review on file ran
+against Census V0.2 (147 entries), not the current 178 — if "every identified
+Christian tradition" is meant as a checked claim, a second pass against the
+same reference works is still owed. [M: review-file coverage; the gap is a
+fact, whether to spend the pass is Mark's call.]
+
+---
+
 ## 2026-07-22 (later) — DECIDED: Story-view entries sort by start date within each lane; census gains real numeric start/end years
 
 **Mark's observation, looking at the Story view:** the order entries appear in within

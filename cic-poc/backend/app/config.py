@@ -74,6 +74,12 @@ class Settings(BaseSettings):
     # field - the registry itself is the on/off switch and the per-tester
     # allocation, so there's nothing to duplicate here.
 
+    # Max sessions EVENT_STORE keeps resident in memory at once (Wave 3,
+    # Engineering P1-4) - LRU-evicted beyond this; an evicted session
+    # rehydrates transparently from its durable JSONL log on next touch,
+    # so this bounds worst-case memory, not what a participant can reach.
+    event_store_max_sessions: int = 200
+
     # API Keys
     anthropic_api_key: str = ""
     openai_api_key: str = ""

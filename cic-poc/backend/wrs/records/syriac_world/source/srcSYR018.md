@@ -19,6 +19,8 @@ script: Grek
 licensed_for: EXCLUDED - not licensed for any voice use (Out-of-Boundary, carried from the registry row
   verbatim); retained as a registry row so the boundary decision stays checkable (Doc_02 SS8).
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Epiphanius's own subject (general heresiology) is not native to this world; his testimony
   (itself filtered through later followers' writings, per Doc_01 Sec. 5.1) is used only as evidentiary

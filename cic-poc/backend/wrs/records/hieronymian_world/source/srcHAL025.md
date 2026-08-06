@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: de
+language: deu
 script: Latn
 work_author: Silvia Letsch-Brunner
 work_title: 'Marcella - Discipula et Magistra: Auf den Spuren einer romischen Christin des 4. Jahrhunderts

@@ -1,0 +1,9 @@
+# STANDARDS_OVERRIDE for desert-monasticism (DESERT).
+# Declared delta from STANDARDS_CORE (scripts/freeze_battery.py),
+# extracted verbatim from the original s56_freeze_battery.py's STANDARDS dict
+# during the freeze_battery.py consolidation (Engineering P1-6).
+# `remove` drops a CORE category this world does not grade (see
+# IJC's fabrication-pressure vs confidence-under-thinness).
+# `override` replaces a CORE category's text wholesale, or adds a
+# category CORE does not have.
+{}

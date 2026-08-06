@@ -66,7 +66,7 @@ sources:
     own literacy (Doc_06 §2.2 [CT]).
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-27'
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
@@ -90,3 +90,5 @@ field_relations:
 CO-P2-03 term record (2026-07-27), authored from Doc_06 Part 2/3 (condensed-verbatim meanings; authored retrieve_when; plain-register voice_surface). Deferred edge: Doc_06 §2.2 also names Puritas Cordis (3.2) as related - not typed here because the Cassian source row is pending CO-P2-10(c).
 
 CO-P2-10(c) (2026-07-27): the deferred Puritas Cordis edge is now typed (srcDES026 exists).
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: mixed signal: 1/3 linked sources show active-discovery channels, 2/3 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

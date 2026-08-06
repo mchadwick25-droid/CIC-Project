@@ -138,7 +138,7 @@ voice_surface: God became human so that humanity might become god. We do not rec
   proposition to be qualified into safety - it is the plain expression of what the Incarnation is for.
 confidence:
   citation_specificity: B
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-27'
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
@@ -222,3 +222,5 @@ CO-P2-13 (2026-07-28): the Reciprocity Note's mutual cross-references now carry 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
 
 CO-P2-15 (2026-07-28): associated-with mirror(s) added toward the newly-authored governed-CT term record(s); see wrs/migrate/s62_alx_s29_co15.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: mixed signal: 2/5 linked sources show active-discovery channels, 3/5 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

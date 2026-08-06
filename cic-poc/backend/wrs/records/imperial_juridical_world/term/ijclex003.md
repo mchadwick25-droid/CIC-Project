@@ -101,7 +101,7 @@ conceptual_distance_note: 'GROUNDING (the enum''s free-text companion, carried h
   - the label is the flattening, not the referent.'
 confidence:
   citation_specificity: C
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   verification_date: '2026-07-31'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -130,3 +130,5 @@ Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridi
 This term's own theological logic (why *homoios* was held as a considered, scripturally-grounded position, not merely a lesser or incomplete confession) rests on a single fragmentary source (Auxentius, Registry row 23, Confidence C) and Hanson's modern reconstruction of the broader position — historically uncertain in its precise wording and full argument, but formationally central to this world's own honest reckoning with its own imperial-establishment decades (Doc_02 §7). This status applies to the World Meaning's own account of the position's internal logic specifically, not to the Documented institutional facts (the establishment's existence, its dates, its reversals) stated alongside it.
 
 [Final Assembly Instruction - parked at the S2.2-equivalent; typed home per the splitter docstring] Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied — this term's own historical content and institutional history are well-established (Hanson), even where its evaluation remains, appropriately, a live theological question this chunk does not resolve on the world's behalf.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

@@ -20,6 +20,8 @@ script: Syrc
 licensed_for: Theological method gravity (poetic/typological argument); anti-subordinationist Christology;
   general doctrinal-boundary work
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: 'Verified this session: edition and first complete English translation (Wickes 2015)
   confirmed via independent research.'

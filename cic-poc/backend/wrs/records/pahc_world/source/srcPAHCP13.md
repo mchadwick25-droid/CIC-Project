@@ -11,7 +11,7 @@ boundary_status: Excluded
 attribution_status: genuine
 level_of_description: work
 language: grc
-script: Latn
+script: Grek
 work_author: Palatine Hill, Rome
 work_title: Alexamenos graffito
 work_locus: c.200 CE
@@ -21,6 +21,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   to Yes per round-2 review: Contested confidence supporting a specific/vivid claim.] EXCLUSION REASON
   (registry, verbatim): Out-of-Boundary'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: D
+  formation_confidence: Contested
+priority_review_flag: true
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

@@ -58,6 +58,8 @@ export interface SessionResponse {
   messages: Message[];
   phase: ConversationPhase;
   turn_count: number;
+  world_id?: string | null;
+  world_ids?: string[];
 }
 
 export type ConversationPhase =
@@ -119,6 +121,31 @@ export interface LexiconTerm {
 
 export interface LexiconResponse {
   terms: LexiconTerm[];
+}
+
+// Wave 3 ending-screen rebuild: further-reading packs served from
+// backend/data/further_encounter_resources/{world_id}.json - the same
+// files the Facilitator's own sensed-closing resources offer reads.
+export interface FurtherReadingResource {
+  resource_id: string;
+  title: string;
+  author?: string;
+  publisher?: string;
+  year?: string;
+  type?: string;
+  locator?: string;
+  note?: string;
+  topic_tags?: string[];
+}
+
+export interface ResourcePack {
+  world_id: string;
+  world_offer_label: string;
+  resources: FurtherReadingResource[];
+}
+
+export interface ResourcesResponse {
+  packs: ResourcePack[];
 }
 
 // S5.4 - repository faces (Pass 1 §5.6).

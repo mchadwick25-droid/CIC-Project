@@ -19,6 +19,8 @@ language: syr
 script: Syrc
 licensed_for: Ascetic/qyama themes
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: B
 added: 2026-07-06, Doc_02 Step 2 pass
 verification_note: Existence and edition confirmed; not independently re-checked in full this session.
 ---

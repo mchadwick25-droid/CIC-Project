@@ -10,7 +10,7 @@ source_type: S
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: en
+language: eng
 script: Latn
 work_author: Bart D. Ehrman
 work_title: Apostolic Fathers (Loeb edition) / Lost Christianities
@@ -20,6 +20,10 @@ verification_note: 'Registry-carried assessment fields, verbatim: confidence_lev
   priority_review_flag=No. Notes: Loeb edition is core-relevant; Lost Christianities is adjacent (oriented
   to later heterodoxy)'
 discovery_channel: builder-prior-knowledge
+confidence:
+  citation_specificity: A
+  formation_confidence: Widely Accepted
+priority_review_flag: false
 added: 2026-07-31 (S6.2/PAHC S2.1, mechanical from data/pahc_world/source_registry.json)
 jobs:
 - 1

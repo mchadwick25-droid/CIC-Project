@@ -22,7 +22,10 @@ BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND))
 sys.path.insert(0, str(BACKEND / "scripts"))
 
-from s62_alx_freeze_battery import WORLD, _stream_turn  # noqa: E402
+import freeze_battery as fb  # noqa: E402
+from _battery import _stream_turn  # noqa: E402
+
+WORLD = fb.WORLDS["alx"].world_id
 
 OUTDIR = BACKEND.parents[1] / "Ministry" / "Technology" / "Pass2" / "trr"
 
@@ -58,9 +61,10 @@ def run():
         r = client.post("/api/session/start", json={"world_id": WORLD})
         r.raise_for_status()
         sid = r.json()["session_id"]
+        token = r.json()["session_token"]
         for msg in turns:
             pre = len(EVENT_STORE.events(sid))
-            speakers, texts = _stream_turn(client, sid, msg)
+            speakers, texts = _stream_turn(client, sid, msg, token)
             ev = [e.to_json() for e in EVENT_STORE.events(sid)][pre:]
             rows.append({"id": pid, "mode": "solo", "participant": msg,
                          "responses": [{"speaker": s, "text": texts.get(s, "")}
@@ -72,9 +76,10 @@ def run():
                     json={"world_ids": ["desert-monasticism", WORLD]})
     r.raise_for_status()
     sid = r.json()["session_id"]
+    token = r.json()["session_token"]
     for pid, msg in TABLE:
         pre = len(EVENT_STORE.events(sid))
-        speakers, texts = _stream_turn(client, sid, msg)
+        speakers, texts = _stream_turn(client, sid, msg, token)
         ev = [e.to_json() for e in EVENT_STORE.events(sid)][pre:]
         drift = []
         for e in ev:

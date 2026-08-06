@@ -8,6 +8,7 @@ import uuid
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlparse
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -71,6 +72,20 @@ def _multi_world_turn_floor() -> int:
         params = yaml.safe_load(params_path.read_text(encoding="utf-8"))
         return int(params["parameters"]["turn_floor_multi_world"]["value"])
     except Exception:
+        # This used to fail silently and identically whether the file was
+        # missing (a real deployment gap - see the Dockerfile's wrs/
+        # COPY lines) or just malformed. Both still fail open to the
+        # historical value, per the deployability rule above, but now at
+        # least the difference between "working as designed" and "the
+        # canonical parameters file didn't make it into this image" is
+        # visible in the logs instead of indistinguishable
+        # (2026-08-05 full-system review, Engineering P1-2).
+        logger.warning(
+            "wrs/parameters.yaml unreadable or malformed at %s - "
+            "falling back to the hardcoded turn_floor_multi_world=2",
+            Path(__file__).resolve().parents[1] / "wrs" / "parameters.yaml",
+            exc_info=True,
+        )
         return 2
 
 
@@ -192,6 +207,10 @@ class StartSessionRequest(BaseModel):
 
     world_id: str = "syriac-edessa-nisibis"  # For single-world (backwards compat)
     world_ids: list[str] = []  # For multi-world table (1-3 worlds)
+    # Wave 3 (Readiness P0-3b): the optional "what brings you here?" answer,
+    # stored for feedback correlation only - see sessions.persona in
+    # supabase_schema.sql. Never read by the graph; not participant_role.
+    persona: str | None = None
 
 
 class StartSessionResponse(BaseModel):
@@ -238,6 +257,24 @@ class PilotRequest(BaseModel):
     referred_by: str | None = None
 
 
+class PilotFeedbackRequest(BaseModel):
+    """Post-conversation feedback from cic-website/pilot-feedback.html - a
+    different thing from PilotRequest above (that's "I'd like to join",
+    this is "here's what a conversation I already had was actually like").
+    Every field but the form's own required-by-browser select is optional,
+    matching the form's own "answer whatever feels comfortable" framing."""
+
+    perspective: str | None = None
+    tradition: str | None = None
+    confusing: str | None = None
+    invented_or_overstated: str | None = None
+    what_it_opened: str | None = None
+    fundable_potential: str | None = None
+    anything_else: str | None = None
+    name: str | None = None
+    email: str | None = None
+
+
 class GenerateReferralRequest(BaseModel):
     """Identifies the referring tester by self-reported email, not a bearer
     token - see submit_referral_redemption's docstring for why."""
@@ -277,6 +314,12 @@ class SessionResponse(BaseModel):
     messages: list[dict]
     phase: str
     turn_count: int
+    # Added Wave 3 (Engineering P1-11): without these, a rehydrated session
+    # has no way to know which world(s)/representative(s) it was talking to -
+    # the reconnect endpoint existed but nothing in the frontend called it,
+    # so a page refresh always lost the conversation. See useConversation.ts.
+    world_id: str | None = None
+    world_ids: list[str] = []
 
 
 def state_to_messages(state: ConversationState) -> list[dict]:
@@ -421,6 +464,31 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     else:
         state = result
 
+    # Insert the sessions row check_and_reserve_session_slot's own docstring
+    # already claimed happens here - it didn't (2026-08-05 full-system
+    # review, Engineering P0-2). transcript_logging.write_transcript later
+    # upserts this same row by id, so this insert and that upsert can't
+    # race into a duplicate-key error; this just makes sure the row exists
+    # from turn zero, independent of pilot_logging_enabled, since session
+    # *counting* and transcript *capture* are different questions that
+    # sharing one flag was quietly conflating. Never blocks session start:
+    # a failed insert here is logged and swallowed, same fail-open
+    # discipline as write_transcript itself.
+    if supabase_configured() and user.user_id is not None:
+        from app.auth import _get_client  # local import: same pattern as this file's other Supabase call sites
+
+        try:
+            _get_client().table("sessions").insert({
+                "id": session_id,
+                "user_id": user.user_id,
+                "world_ids": world_ids,
+                "phase": state.phase,
+                "turn_count": state.turn_count,
+                "persona": request.persona,
+            }).execute()
+        except Exception:
+            logger.exception("sessions row insert failed for session %s", session_id)
+
     # Commit the session's opening to the event log: who was seated, the
     # facilitator's spoken reception/handoff, and the flow scalars the
     # graph run produced. The projection (EVENT_STORE.get_state) is now
@@ -484,6 +552,44 @@ async def submit_pilot_request(request: PilotRequest):
         ).execute()
     except Exception:
         raise HTTPException(status_code=500, detail="Something went wrong submitting your interest. Please try again or email hello@churchinconversation.org directly.")
+
+    return {"status": "received"}
+
+
+@app.post("/api/pilot/feedback")
+async def submit_pilot_feedback(request: PilotFeedbackRequest):
+    """
+    Record a post-conversation feedback submission
+    (cic-website/pilot-feedback.html's form). Added 2026-08-05 - the form
+    previously posted to a mailto: action, which is unreliable in modern
+    browsers and, per the full-system review (Readiness P1-9), was reaching
+    almost nobody.
+
+    A no-op (but still returns success, so the form doesn't show an error)
+    if Supabase isn't configured - same "off until configured" discipline
+    as submit_pilot_request above.
+    """
+    from app.auth import _get_client, supabase_configured
+
+    if not supabase_configured():
+        return {"status": "received"}
+
+    try:
+        _get_client().table("pilot_feedback").insert(
+            {
+                "perspective": request.perspective,
+                "tradition": request.tradition,
+                "confusing": request.confusing,
+                "invented_or_overstated": request.invented_or_overstated,
+                "what_it_opened": request.what_it_opened,
+                "fundable_potential": request.fundable_potential,
+                "anything_else": request.anything_else,
+                "name": request.name,
+                "email": request.email,
+            }
+        ).execute()
+    except Exception:
+        raise HTTPException(status_code=500, detail="Something went wrong submitting your feedback. Please try again or email info@churchinconversation.com directly.")
 
     return {"status": "received"}
 
@@ -617,16 +723,24 @@ async def redeem_referral(request: RedeemReferralRequest):
 # own hosted page collects the card), but a real open-redirect surface
 # riding on a legitimate payment flow. localhost stays allowed for local
 # dev against a real Stripe test-mode key.
-_ALLOWED_REDIRECT_PREFIXES = (
-    "https://churchinconversation.com",
-    "https://churchinconversation.org",
-    "http://localhost",
-    "http://127.0.0.1",
-)
+# _ALLOWED_REDIRECT_PREFIXES used to be matched with str.startswith(), which
+# a host like "churchinconversation.com.attacker.example" or
+# "localhost.attacker.example" also starts with - the exact open-redirect
+# this check exists to close. Compare the parsed hostname exactly instead
+# (2026-08-05, full-system review, Engineering P1-1).
+_ALLOWED_REDIRECT_HOSTS = {
+    "churchinconversation.com",
+    "www.churchinconversation.com",
+    "churchinconversation.org",
+    "www.churchinconversation.org",
+    "localhost",
+    "127.0.0.1",
+}
 
 
 def _validate_redirect_url(url: str) -> None:
-    if not url.startswith(_ALLOWED_REDIRECT_PREFIXES):
+    parsed = urlparse(url)
+    if parsed.scheme not in ("https", "http") or parsed.hostname not in _ALLOWED_REDIRECT_HOSTS:
         raise HTTPException(status_code=400, detail="Invalid redirect URL.")
 
 
@@ -1385,6 +1499,25 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
             turns_completed = 0
             spoken_this_round: list[str] = []
 
+        # A round the participant opened by naming one representative
+        # directly ("Marius, what did Leo actually claim?") should be able
+        # to end after that one answer. select_next_speaker already routes
+        # the opening turn to the addressed representative regardless of
+        # must_continue (nodes.py's direct-address detection runs before
+        # the must_continue check) - but until now, must_continue's own
+        # MIN_MULTI_WORLD_TURNS floor still forced a second, unaddressed
+        # voice into every round regardless, since it had no way to know
+        # the opening turn was already a complete, addressed answer rather
+        # than an opening volley expecting more voices. Detected once, on
+        # the participant's own message, since that's what select_next_speaker
+        # itself checks for the round's opening turn (2026-08-05 full-system
+        # review, Readiness P1-8).
+        round_was_direct_addressed = False
+        if is_multi_world and not is_modern_term_bridge:
+            from app.graph.nodes import detect_direct_address
+            round_was_direct_addressed = (
+                detect_direct_address(request.message, world_ids) is not None)
+
         try:
             while True:
                 # S4.6: a repair hit determines the round's FIRST speaker -
@@ -1416,7 +1549,8 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
                         # the selector as input (Pass 1 §6.5)
                         register_note=state.register_note,
                     )
-                    must_continue = turns_completed < MIN_MULTI_WORLD_TURNS
+                    must_continue = (turns_completed < MIN_MULTI_WORLD_TURNS
+                                      and not round_was_direct_addressed)
                     # S4.4a: the selector's REASON (or the deterministic
                     # direct-address note) comes back through the sink and
                     # is delivered to the selected speaker as a private
@@ -1579,6 +1713,61 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
         ])
         write_transcript(session_id, state)
 
+        # Wind-down sensing streams here, before "done" - deliberately NOT
+        # in the post-round invisible tail below. Unlike table checks
+        # (which only ever queue guidance for a LATER turn via
+        # pending_guidance, never anything the current participant sees),
+        # this one has to actually put a question in front of the
+        # participant to mean anything. Checking it after "done" used to
+        # just flip state.closing_stage to "anything_else_asked" with
+        # nobody having asked anything - the participant's own next,
+        # unrelated message then got silently classified as a reply to a
+        # question that was never sent, the visible failure being an
+        # unprompted resources offer arriving out of nowhere (2026-08-05
+        # full-system review, Readiness P1-4). Costs one extra classifier
+        # call's latency before "done", only on rounds where
+        # should_check_wind_down is already True (closing_stage=="none"
+        # and no higher-priority intercept fired) - a real tradeoff, but
+        # the alternative is a feature that has never once actually worked.
+        if should_check_wind_down:
+            try:
+                from app.graph.closing_sequence import classify_wind_down, stream_closing_turn
+                fired = classify_wind_down(state, request.message)
+                EVENT_STORE.append(session_id, "classifier_decision", {
+                    "classifier": "wind_down", "raw": bool(fired),
+                    "applied": bool(fired)})
+                if fired:
+                    yield sse({"type": "speaker_start", "speaker": "facilitator"})
+                    anything_else_msg = None
+                    for event in stream_closing_turn(state, "anything_else"):
+                        if event["type"] == "token":
+                            yield sse({
+                                "type": "token",
+                                "speaker": event["speaker"],
+                                "text": event["text"],
+                            })
+                        elif event["type"] == "complete":
+                            anything_else_msg = event["message"]
+                    yield sse({
+                        "type": "speaker_end",
+                        "speaker": "facilitator",
+                        "citations": None,
+                    })
+                    if anything_else_msg is not None:
+                        state.messages = list(state.messages) + [anything_else_msg]
+                        state.closing_stage = "anything_else_asked"
+                        EVENT_STORE.append_many(session_id, [
+                            ("spoken_message", serialize_message(anything_else_msg)),
+                            ("closing_stage_changed", {"stage": "anything_else_asked"}),
+                        ])
+                        write_transcript(session_id, state)
+            except Exception:
+                # Same fail-open discipline as the rest of this endpoint's
+                # invisible governance: a failed wind-down check must never
+                # break or delay the response the participant already has.
+                logger.exception(
+                    "wind-down anything-else turn failed for session %s", session_id)
+
         yield sse({"type": "done", "phase": state.phase, "turn_count": state.turn_count})
 
         # Everything below is invisible background governance the participant
@@ -1586,18 +1775,17 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
         # on the round loop's try/except above, which no longer wraps this
         # code now that it runs after "done") so a monitoring failure can
         # never surface as a broken response mid-stream; at worst this
-        # round's drift checks are silently skipped. Drift-checking and
-        # wind-down sensing get SEPARATE try/except blocks, not one shared
-        # one - they're independent concerns (dominance/convergence/drift
-        # is about correcting a LATER Representative turn; wind-down is
-        # about offering a graceful close) with no reason for a failure in
-        # one to silently take out the other too.
+        # round's drift checks are silently skipped.
         # S4.1: the invisible-governance tail lives in the governance
-        # layer - table checks + per-message drift + wind-down sensing,
-        # each half fail-open. S4.2: its findings are APPENDED to the
-        # event log - the read-latest-merge (and the race it hand-patched)
-        # is gone structurally; an append can never clobber a message that
-        # arrived after "done" went out.
+        # layer - table checks + per-message drift, each half fail-open.
+        # S4.2: its findings are APPENDED to the event log - the
+        # read-latest-merge (and the race it hand-patched) is gone
+        # structurally; an append can never clobber a message that arrived
+        # after "done" went out.
+        # Wind-down sensing used to live here too - moved above, before
+        # "done", 2026-08-05 (see the comment at that call site for why:
+        # this tail can only ever affect a LATER turn, and wind-down needs
+        # to affect this one).
         governance.run_post_round_governance(
             state, request.message,
             working_messages=working_messages,
@@ -1605,7 +1793,6 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
             turns_completed=turns_completed,
             world_ids=world_ids,
             is_multi_world=is_multi_world,
-            should_check_wind_down=should_check_wind_down,
             session_id=session_id,
         )
 
@@ -1635,6 +1822,8 @@ async def get_session(session_id: str,
         messages=state_to_messages(state),
         phase=state.phase,
         turn_count=state.turn_count,
+        world_id=state.world_id,
+        world_ids=state.world_ids or [],
     )
 
 
@@ -1865,6 +2054,55 @@ async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
     return LexiconResponse(terms=terms)
 
 
+class ResourcePack(BaseModel):
+    """One world's (or general's) further-reading list."""
+
+    world_id: str
+    world_offer_label: str
+    resources: list[dict]
+
+
+class ResourcesResponse(BaseModel):
+    """Response for the ending-screen further-reading list (Readiness P1-3/Wave 3)."""
+
+    packs: list[ResourcePack]
+
+
+@app.get("/api/resources", response_model=ResourcesResponse)
+async def get_resources(world_ids: str = ""):
+    """
+    Further-reading packs for the ending screen's takeaway artifact. Reuses the
+    same per-world JSON files and loader the Facilitator's own sensed-closing
+    resources offer already reads (app/graph/closing_sequence.py) - one source
+    of truth, no duplicated resource lists. `general` is always appended last,
+    matching that module's own append order.
+    """
+    from app.graph.closing_sequence import _load_resources
+
+    valid_world_ids = [w.id for w in AVAILABLE_WORLDS]
+    requested = [w for w in world_ids.split(",") if w]
+    for w in requested:
+        if w not in valid_world_ids:
+            raise HTTPException(status_code=400, detail=f"Invalid world_id: {w}")
+
+    packs = []
+    seen: set[str] = set()
+    for wid in [*requested, "general"]:
+        if wid in seen:
+            continue
+        seen.add(wid)
+        pack = _load_resources(wid)
+        if not pack:
+            continue
+        packs.append(ResourcePack(
+            world_id=pack.get("world_id", wid),
+            world_offer_label=pack.get("world_offer_label", wid),
+            resources=pack.get("resources", []),
+        ))
+
+    return ResourcesResponse(packs=packs)
+
+
 # ---------------------------------------------------------------------------
 # S5.4 - repository endpoints (Pass 1 §5.6): the browsable repository.
 # The same records the Representative speaks from, browsable with no
@@ -1995,9 +2233,21 @@ if _FRONTEND_DIST.is_dir():
     async def serve_frontend(full_path: str):
         """SPA catch-all: any path not already matched above serves index.html
         (client-side routing, if the app ever adds any, resolves from there) or
-        a same-named static file at the dist root (favicon.ico, icons, etc.)."""
-        candidate = _FRONTEND_DIST / full_path
-        if full_path and candidate.is_file():
+        a same-named static file at the dist root (favicon.ico, icons, etc.).
+
+        full_path is attacker-controlled (it's the literal rest of the URL,
+        via Starlette's `path` converter, which does not strip `..`). Joining
+        it onto _FRONTEND_DIST unresolved and trusting .is_file() is a path
+        traversal: `Path("/a/b") / "../../../etc/passwd"` stats straight
+        through to `/etc/passwd`, confirmed with a real file read in this
+        exact join pattern before this fix went in. Since the container runs
+        as root (no USER in the Dockerfile) with ANTHROPIC_API_KEY and other
+        secrets as env vars, an unresolved join here can reach
+        /proc/self/environ. Resolving the candidate and requiring it stay
+        under _FRONTEND_DIST closes that; anything that resolves outside
+        falls through to index.html, same as any other not-found path."""
+        candidate = (_FRONTEND_DIST / full_path).resolve()
+        if full_path and candidate.is_relative_to(_FRONTEND_DIST) and candidate.is_file():
             return FileResponse(candidate)
         return FileResponse(_FRONTEND_DIST / "index.html")
 

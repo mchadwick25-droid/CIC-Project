@@ -762,6 +762,77 @@ regeneration fixes actually close the gap to $0.50/hour the way the feasibility 
 
 ---
 
+## 2026-08-02 (same day, continued) — Stripe setup: payment methods confirmed; "donate" wording still open
+
+**Payment methods decided.** Individual giving flow (the keep-it-open gesture, and the future
+$8/month tier): cards, Apple Pay, Google Pay, and Link — all free to enable in the same Stripe
+integration, chosen for friction reduction over fee optimization at this scale. Explicitly not
+enabled: ACH/bank debit (friction outweighs fee savings for a casual small gift), PayPal (skip
+unless actually requested), Buy Now Pay Later (never — undercuts the steward-not-hero voice
+entirely), crypto. USD only for now. **Institutional payments are a different, later fork** —
+ACH/wire via Stripe Invoicing, built when the institutional-licensing tier (Phase 4) actually
+opens, not part of the current setup.
+
+**"Donate" wording — real answer given, not yet chosen between options.** Confirmed: "donate"
+does not legally or inherently imply nonprofit status (political contributions, GoFundMe, Twitch,
+Ko-fi all use it without deductibility) — the real risk is the same reasonable-expectation issue
+already fixed once on `support.html`, not a legal one. If "donate" is used, it needs the same
+plain non-deductibility disclosure already established elsewhere in this project, nearby. The
+already-finalized "keep the Table open" language sidesteps the question entirely and doesn't need
+a disclosure to feel complete. Neither chosen yet — flagged as open, not decided.
+
+**Next action:** Mark's call on the wording; payment methods are ready to hand to whichever build
+work actually wires up Stripe.
+
+---
+
+## 2026-08-02 (same day, continued) — Optional name field, anonymous by default
+
+**Decided.** Givers can optionally share their name; nothing required beyond what Stripe itself
+needs to process the payment (receipt email, etc.) — anonymous is the default, no friction added
+for anyone who wants to stay private. One optional, warmly-framed field ("Your name (optional) —
+let us know who to thank"), genuinely skippable, not a data-collection form. Distinguishes
+Stripe's own unavoidable baseline transaction data from this deliberate, participant-initiated
+field — only ever offered, never extracted.
+
+**Next action:** none — ready to hand to the Stripe build work alongside the payment-methods
+decision above.
+
+---
+
+## 2026-08-02 (same day, continued) — Stripe account miscategorized as accepting charitable contributions; corrected to Payments
+
+**Real problem, caught before it became a compliance issue.** Stripe kept requesting
+documentation about "our charity" and fundraising activity — impossible to satisfy honestly,
+since Faithways Studio, Inc. is a for-profit PBC, not a registered charity. Root cause: somewhere
+in setup, a "Payments or Contributions" choice was answered "Contributions," which appears to be
+Stripe's own internal category for charitable/nonprofit giving specifically, routing the account
+into charity-compliance review it doesn't qualify for and shouldn't be under. **Corrected to
+Payments** — the standard category for a for-profit business accepting money, voluntary or not.
+Same underlying mistake pattern as the earlier "Religious Organization" bank-form near-miss:
+accurate self-categorization, not documentation, is the fix. If Stripe still wants standard
+business verification, the real Articles of Incorporation and EIN are legitimate, already in hand,
+and answer that — charity-specific paperwork was never applicable and was never produced.
+
+**Next action:** watch for whether the charity-documentation requests actually stop now that the
+category is corrected; if Stripe pushes back further, that's worth bringing back here rather than
+trying to produce something to satisfy the original, inapplicable request.
+
+---
+
+## 2026-08-02 (same day, continued) — Stripe product wording set for the one-time and monthly gifts
+
+**Wording given, ready to paste into Stripe's product setup — applies the already-validated voice
+and amounts to this specific surface, not a new decision.** One-time product: "Keep the Table
+Open," $10 suggested, description built from the already-finalized "where this goes" language. Monthly
+product: "Keep the Table Open — Monthly," $8/month suggested, tied to the same concrete framing
+(makes real space for someone else, not a vague ask).
+
+**Next action:** none — ready to use as-is; Mark's own edit if either needs adjusting once it's
+actually in front of him in the Stripe product form.
+
+---
+
 ## 2026-07-27 (same day, continued) — A third signed document found with the same false-date problem, missed in the original sweep
 
 **Not caught in this thread's original 11-file scan — found via System Hub's own parallel work on

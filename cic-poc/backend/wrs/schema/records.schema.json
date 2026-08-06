@@ -28,7 +28,8 @@
         "verification_date": {"type": "string", "format": "date"},
         "evidentiary_weight": {"enum": ["load-bearing", "corroborating", "illustrative", "contested"]},
         "formation_confidence": {"enum": ["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]},
-        "derived_grade": {"enum": ["A", "B", "C", "D", "E"], "$comment": "derived, never hand-set (SS3.0)"}
+        "derived_grade": {"enum": ["A", "B", "C", "D", "E"], "$comment": "derived, never hand-set (SS3.0)"},
+        "divergence_note": {"type": "string", "$comment": "2026-08-05 (full-system review, Rigor P1-8): the record-level analogue of Syriac Doc_04's own Confidence/Gravity Cross-Check ('named explicitly, not resolved by upgrading'), one level down. Required by gate_confidence_source_crosscheck (wrs/gates/core.py) whenever formation_confidence=Documented but none of the record's own linked sources[] carry verification_state=verified-direct - names the gap between the evidentiary-tier claim and the sources' own re-verification state, rather than leaving it invisible and ungated."}
       },
       "additionalProperties": false
     },
@@ -135,7 +136,8 @@
         "comparandum_note": {"type": "string", "$comment": "carried forward"},
         "licensed_for": {"type": "string", "$comment": "carried forward - CiC's own contribution"},
         "verification_note": {"type": "string", "$comment": "carried forward - Description Control block"},
-        "added": {"type": "string", "$comment": "carried forward - Description Control block"}
+        "added": {"type": "string", "$comment": "carried forward - Description Control block"},
+        "priority_review_flag": {"type": "boolean", "$comment": "2026-08-05 (full-system review, Rigor P1-3): promoted to first-class from the registry-carried verification_note prose ('priority_review_flag=Yes/No') the record-native migration collapsed it into. Extraction, not new judgment - set only where the source row's own verification_note (or, pre-migration, its Source Registry row) states it explicitly; left unset where it does not. Feeds the priority-review queue alongside gate_priority_review_trigger (wrs/gates/core.py), which computes its own risk flag independently off discovery_channel/verification_state/evidentiary_weight - the two are related but not redundant: this field is the registry's own inherited call, the gate is the re-keyed rule applied to today's data."}
       },
       "unevaluatedProperties": false
     },

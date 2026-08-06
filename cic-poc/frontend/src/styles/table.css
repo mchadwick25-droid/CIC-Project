@@ -1019,6 +1019,41 @@ body {
   font-size: 0.9375rem;
 }
 
+/* why/citations: shipped in guided_starters.json for every entry, never
+   rendered until now (2026-08-05 full-system review, Readiness P1-2) -
+   the single most teacher-useful field in the dataset. why sits as a muted
+   subline under the topic; citations stay collapsed behind a disclosure so
+   the sheet's primary job (tap a question, start talking) isn't crowded by
+   provenance detail most visitors won't open. */
+.question-sheet__entry-why {
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  line-height: 1.35;
+}
+
+.question-sheet__citations {
+  margin: -2px 0 0;
+}
+
+.question-sheet__citations summary {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  cursor: pointer;
+  padding: 2px var(--spacing-md);
+  width: fit-content;
+}
+
+.question-sheet__citations summary:hover {
+  color: var(--color-primary);
+}
+
+.question-sheet__citations-list {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  padding: 0 var(--spacing-md);
+  margin: 2px 0 0;
+}
+
 .question-sheet__followups {
   display: flex;
   flex-wrap: wrap;
@@ -1174,6 +1209,38 @@ body {
   margin: var(--spacing-xl) auto 0;
 }
 
+.onboarding-screen__persona {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.onboarding-screen__persona-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  justify-content: center;
+}
+
+.onboarding-screen__persona-option {
+  display: inline-block;
+  margin: 0;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+}
+
+.onboarding-screen__persona-option--selected {
+  border-color: var(--color-representative-accent);
+  color: var(--color-representative-accent);
+  font-weight: 600;
+}
+
 /* ============================================
    ERROR & STATUS MESSAGES
    ============================================ */
@@ -1207,6 +1274,55 @@ body {
 .conversation-ended__feedback a {
   color: inherit;
   text-decoration: underline;
+}
+
+.conversation-ended__takeaway {
+  margin-bottom: var(--spacing-lg);
+}
+
+.conversation-ended__takeaway-note {
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-sm);
+  margin-bottom: 0;
+}
+
+.conversation-ended__reading {
+  text-align: left;
+  max-width: 32rem;
+  margin: 0 auto var(--spacing-lg);
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+.conversation-ended__reading-heading {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-sm) !important;
+}
+
+.conversation-ended__reading-pack {
+  margin-bottom: var(--spacing-sm);
+}
+
+.conversation-ended__reading-label {
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  margin-bottom: var(--spacing-xs) !important;
+}
+
+.conversation-ended__reading ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.conversation-ended__reading li {
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.conversation-ended__reading-note {
+  color: var(--color-text-muted);
 }
 
 /* ============================================
