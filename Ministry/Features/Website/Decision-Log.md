@@ -118,3 +118,32 @@ Cloudflare's auto-deploy completes. Deliberately scoped to only these two files;
 a large amount of unrelated, uncommitted work was sitting in the shared repo at push
 time (signed legal/entity documents, Gantt files, other threads' launch prompts) and
 was explicitly left untouched, not swept in.
+
+---
+
+## 2026-08-06 — Deploy confirmation: `support.html` "Get Involved" rebuild is live
+
+**Dispatch received** from the Funding Strategy thread: `support.html` rebuilt (door
+imagery, real $2-$5/hr cost figures, four-part response including a new Academic
+Review Fund, nav renamed "Support" → "Get Involved" sitewide, URL kept as
+`support.html` deliberately since that link was already given to Stripe), committed
+as `b0e5583` on `main`. Ask: confirm live status and complete the Cloudflare
+connection if it wasn't already done.
+
+**Verified, not assumed:** `b0e5583` confirmed on `origin/main`
+(`git merge-base --is-ancestor`). Checked the actual production URL directly —
+`churchinconversation.com/support.html` — title "Get Involved — Church in
+Conversation," headline "Help Us Open the Door a Little Wider," the real cost
+figures all present, no console errors. **Already live, confirmed — no deploy action
+needed.**
+
+**Context for why this worked cleanly:** earlier the same day, Mark found and fixed
+a real Cloudflare Worker misconfiguration — "Builds for non-production branches" was
+enabled with an unconditional `npx wrangler deploy` command, so every push to *any*
+branch (including a very active, unrelated Atlas branch) was deploying straight to
+production and repeatedly overwriting the live landing page with stale snapshots.
+Disabled now; `main`'s own pushes are deploying correctly since. This dispatch's
+clean, immediate live status is a direct result of that fix holding.
+
+**Next action:** none for this dispatch. Reported back to the Funding Strategy
+thread's session per its own completion-criteria convention.
