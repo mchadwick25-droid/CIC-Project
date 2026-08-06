@@ -6,17 +6,25 @@ corporation disclosure), per the Organizational Resolutions' own directive to th
 Treasurer. Two separate notices below, one per shareholder — not legal advice, a plain-language
 document meant to be sent directly, same spirit as everything else in this folder.
 
+**Correction, 2026-08-06:** this draft was written 2026-07-27 with a placeholder clearance date
+("July 27, 2026") before the actual transfers had cleared — the same premature-date pattern
+already caught and fixed on the Bylaws/Resolutions, IP Assignment, and Shareholder Agreement. The
+transfers have now genuinely cleared, on two different real dates: Susan's $20 on **July 31,
+2026**, Mark's $20 on **August 3, 2026**. Both notices below are corrected to their own real
+clearance date rather than a shared placeholder, and the notice issuance date itself is set to
+today, when these are actually being finalized and sent — not backdated to match either transfer.
+
 ---
 
 ## Notice to Mark Chadwick
 
 **To:** Mark Chadwick
 **From:** Faithways Studio, Inc.
-**Date:** July 27, 2026
+**Date:** August 6, 2026
 **Re: Notice of Issuance of Uncertificated Shares**
 
 This notice confirms that Faithways Studio, Inc. has issued **3,500,000 shares of common stock**
-to you, in exchange for cash payment of $20.00, received and cleared July 27, 2026. These shares
+to you, in exchange for cash payment of $20.00, received and cleared August 3, 2026. These shares
 are **uncertificated** — no paper stock certificate has been or will be issued unless the board
 later determines otherwise — and your ownership is reflected in the corporation's share register.
 
@@ -43,11 +51,11 @@ By: _______________________________  Date: ______________ (Susan Chadwick, Treas
 
 **To:** Susan Chadwick
 **From:** Faithways Studio, Inc.
-**Date:** July 27, 2026
+**Date:** August 6, 2026
 **Re: Notice of Issuance of Uncertificated Shares**
 
 This notice confirms that Faithways Studio, Inc. has issued **3,500,000 shares of common stock**
-to you, in exchange for cash payment of $20.00, received and cleared July 27, 2026. These shares
+to you, in exchange for cash payment of $20.00, received and cleared July 31, 2026. These shares
 are **uncertificated** — no paper stock certificate has been or will be issued unless the board
 later determines otherwise — and your ownership is reflected in the corporation's share register.
 

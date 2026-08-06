@@ -955,3 +955,36 @@ nonprofit-style categorization. **Not yet confirmed resolved** — submitted, aw
 setting Mark suspects is findable in the dashboard, correct it directly rather than relying on the
 written explanation alone. Separately, whenever Mark is ready: finish "Be Part of It" (the "what are
 they joining" question), then real Stripe checkout wiring for two designated funds.
+
+---
+
+## 2026-08-06 (same day, continued) — The $40 share purchase has cleared; Notices of Uncertificated Shares corrected and sent
+
+**The transfers referenced throughout this log as "initiated but NOT yet cleared" have now
+genuinely cleared, confirmed via Relay's own transaction confirmation emails — on two different
+real dates, not one shared date:** Susan's $20 (from USAA Classic Checking) cleared **July 31,
+2026**; Mark's $20 cleared **August 3, 2026**. The shares (3,500,000 each, per the existing
+Bylaws/Resolutions) are now fully, validly issued.
+
+**`CiC_Notice_of_Uncertificated_Shares_DRAFT_2026-07-27.md` had the same premature-date problem
+already caught on the Bylaws/Resolutions, IP Assignment, and Shareholder Agreement** — it was
+drafted 2026-07-27 with a placeholder clearance date of "July 27, 2026" for both shareholders,
+before either transfer had actually happened. Corrected in place with a dated note (not silently
+rewritten): each notice now carries its own real clearance date (Susan's July 31, Mark's August 3),
+and the notice issuance date itself set to 2026-08-06, when they were actually finalized — not
+backdated to either transfer. Two clean PDFs generated with the corrected dates
+(`Faithways_Studio_Notice_of_Shares_to_Mark_2026-08-06.pdf`,
+`..._to_Susan_2026-08-06.pdf`), text also given directly in chat per this project's established
+practice (Mark has flagged before that raw markdown/PDF-only isn't readable to him).
+
+**Sent as plain email, not formal mail** — the document's own closing note already anticipated
+this ("emailing each other a signed copy satisfies 'written notice' for a two-person, closely-held
+company"), so no new judgment call was needed. Mark confirmed sending is done.
+
+**Left open, not yet resolved:** the original 2026-07-27 PDFs (wrong placeholder date, never signed
+or sent, so no external reliance) still exist alongside the corrected versions — offered to delete
+them so only the correct dated copies remain; Mark hadn't answered either way as of this entry.
+
+**Next action:** none blocking — this closes out the last open item from the original Relay/share-
+issuance sequence first opened 2026-07-27. Whenever convenient, Mark's call on whether to delete the
+two superseded 2026-07-27 PDFs.
