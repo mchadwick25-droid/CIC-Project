@@ -892,3 +892,66 @@ log's own earlier entries):
 so nothing charges anyone until Mark completes the Stripe account/webhook/env-var checklist in
 that doc's Part C. **Next action:** Mark's own Stripe dashboard work; nothing here needs this
 thread's further input until that's done and real data exists to react to.
+
+---
+
+## 2026-08-06 — `support.html` rebuilt live with Mark; renamed "Get Involved"; Stripe restricted-business flag addressed
+
+**The page content was rebuilt from scratch, live, across an extended session — full derivation
+of every line is in this thread's own conversation, not repeated here.** Real inputs grounding the
+new copy: `CiC_Cost_Study_Per_Transaction_V0_1.md` (the $2/hour 1:1 and up-to-$5/hour 3-Representative
+figures, standard rates), the Atlas README (over 175 movements, ten confirmed eras, 70 CE to today),
+the Tour Experience Module Strategy doc (guided tours as produced content, not live generation — the
+basis for grouping Atlas + Tours as "less expensive features"), the actual filed Article III language
+("create safe spaces to explore faith and the story of Jesus," verified against
+`FaithwaysStudioAdditionalProvisions.txt`), and live-verified research on BibleProject's own framing
+(their "How Does the Bible's Story Lead to Jesus?" article — Israel's story reveals Jesus through
+honestly-told *failure*, not through greatness; adapted for this page into "the whole of Israel's
+story — its worship, its psalms, its exile, its need for a rescuer," balancing need against worship/
+psalms/exile per Mark's explicit direction rather than isolating on failure alone).
+
+**Structure, converged after many rounds:** title "Help Us Open the Door a Little Wider" (door
+imagery deliberately chosen over "more chairs at the Table" — both real options, door picked because
+it's already part of the brand and reads as the easier ask, not because chairs/Table was wrong) →
+what it actually costs → four-part response (bring cost down + improve quality; less expensive
+features — Atlas/Tours; Accessibility Fund — cost coverage, translation, more worlds/features;
+Academic Review Fund — external scholarly review) → "Why It's Worth It" (the Old Testament/Church
+parallel) → "Be Part of It" (currently the plain, functional version naming both funds; the more
+narrative "join us" framing was tried and explicitly rejected by Mark as too abstract — he wants to
+think about "what are they joining" further before that section gets revisited).
+
+**Two agent-assisted passes, both reviewed and revised live before anything shipped:** a
+marketing/comms research pass (general-purpose agent) compared the draft against BibleProject, Khan
+Academy, Wikimedia, Signal, and charity: water's real support pages, and an Opus tightening pass
+shortened an early, overlong version of the "Why It's Worth It" section. Neither agent's output was
+used verbatim — both were starting points Mark then edited hard (cutting contrast-pattern phrasing,
+fixing a "told itself" anthropomorphism in the caching explanation, correcting "nearly 180" to "over
+175" so the figure stays accurate as more worlds get built, "over ten" corrected to "ten" against the
+actual Atlas design doc, and more).
+
+**Shipped 2026-08-06, text only, per Mark's explicit scope call:** live-edited on `support.html`
+directly (`git diff` has the full before/after), verified rendering correctly in-browser before and
+after. The Stripe checkout code from the old version was **not** carried over — replaced with a plain
+"email us" contact prompt. The old version had one undifferentiated giving pool; real checkout for
+two separately-designated funds (Accessibility, Academic Review) is real follow-up work, not done
+here — the existing `/api/support/checkout` endpoint only supports one amount, not a fund selection.
+**Nav label changed sitewide** ("Support" → "Get Involved", all 8 pages that link here) and the page's
+own `<title>` tag updated to match. The URL/filename deliberately stayed `support.html` — not renamed
+to `get-involved.html` — specifically so the link already given to Stripe (see below) keeps working.
+
+**Separately, a real Stripe compliance matter surfaced and was resolved in the same session:** Stripe
+flagged the account under its "fundraising conducted by nonprofits, charities, political
+organizations, and businesses offering a reward in return for donation" restricted-business category
+(verified against Stripe's own published restricted-businesses policy), with payouts affected and a
+September 4, 2026 deadline. A full written response was drafted and submitted covering: the for-profit
+PBC entity status, the free/no-paywall product, the voluntary-contribution mechanism with nothing
+exchanged in return, the two named funds, the real (annual, not quarterly — verified against Article
+VII of the actual Articles of Incorporation) benefit-report requirement, and — in the form's final
+"request further review" field — Mark's own hypothesis that the account may have originally been set
+up with a "support" designation instead of "payment," which could be the root cause of the recurring
+nonprofit-style categorization. **Not yet confirmed resolved** — submitted, awaiting Stripe's response.
+
+**Next action:** watch for Stripe's reply to the resubmission; if the "support vs. payment" account
+setting Mark suspects is findable in the dashboard, correct it directly rather than relying on the
+written explanation alone. Separately, whenever Mark is ready: finish "Be Part of It" (the "what are
+they joining" question), then real Stripe checkout wiring for two designated funds.
