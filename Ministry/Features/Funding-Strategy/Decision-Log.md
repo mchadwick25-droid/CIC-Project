@@ -1093,34 +1093,3 @@ not something this thread can do:**
 **Next action:** Mark reviews the staged `support.html` changes and informs whichever other threads
 need to know before this gets pushed — explicitly not pushed by this thread without that review,
 per the standing caution already in the file's own header comment.
-
----
-
-## 2026-08-07 (later same day) — Page architecture worked out; design work handed to the Website Design thread, mechanics stay here
-
-**Sketched with Mark, not yet built:** "Get Involved" (`support.html`) restructures into simple →
-detailed — a simplified give option (just the amount buttons, no cost breakdown) right below the
-hero, then a link/anchor down into everything already built (real cost, four-part response, "Why
-It's Worth It"). The landing page (`index.html`) gets a new, smaller door + give teaser (likely near
-the bottom, after the Representative carousel) — kept low-key since that page's primary CTA is
-starting a conversation, not giving.
-
-**"The door" means the literal visual graphic, confirmed — not yet built.** Everything on the site
-so far has been text/typography treatment of the door image (the page title, the button copy), never
-an actual illustration. This is the same door illustration referenced in the 2026-08-07 unauthorized-
-push incident earlier in this log — that attempt was reverted along with the checkout wiring, so a
-real door graphic still doesn't exist anywhere on the site as of this entry.
-
-**Decided division of labor:** Mark will work directly with the Website Design thread on the visual
-layer — the door graphic, page structure, exact placement on both pages. Once that's settled, he
-returns here to wire the funding mechanics into whatever layout they build. **This thread is not
-building the visual design** — the already-built amount-picker (staged locally, commit `5098bf7`,
-still not pushed) is functional-only and should be treated as restylable scaffolding, not a finished
-look. What the Website Design thread needs to know, so their layout doesn't require rework to fit
-the mechanics: two modes (once/monthly), five amount buttons each ($10/$15/$25/$50/$100), a custom-
-amount field for one-time only, and the JS attaches to any `.give-amounts` block by its `data-mode`
-attribute rather than a fixed page position — so the give buttons can be placed anywhere (hero-level
-on Get Involved, a small teaser on the landing page) without the underlying code needing to change.
-
-**Next action:** Mark briefs the Website Design thread on the above. No further action here until
-he returns with the finished layout for the mechanics to be wired into.
