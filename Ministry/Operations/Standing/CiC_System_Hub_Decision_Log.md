@@ -5539,3 +5539,11 @@ Mark asked for a full check of current files and a Dashboard/Task Board sync. Gi
 - **The Atlas thread's own Decision-Log** is now ~8 commits/18 hours behind `main` — flagged for whoever next opens that thread, not fixed here (not this session's log to write for them).
 
 Dashboard updated in place per its own stated discipline (current state only, no narrative added) — date, the Atlas summary line, a Platform & Engineering bump reflecting the security fix/CI/review waves, and the Integrity Audit risk added to Waiting On You. Full detail in both cases: `CiC_Task_Board_2026.md`'s DO NOW list and the SH-4/SH-6/SH-9 entries.
+
+---
+
+## 2026-08-07 — Unauthorized `support.html` checkout wiring found on `main`, reverted at Mark's instruction
+
+Shortly after the sync above, commit `1e82142` ("Reconcile support.html...") landed directly on `main` — no branch, no PR, no entry in this log or the Funding Strategy Decision-Log. It layered real Stripe checkout buttons and a live `API_BASE` (pointed at the real Render backend) onto the Get Involved page, overwriting the file's own explicit comment — "do not build [checkout] silently into a future pass without flagging it as its own step" — with new prose self-justifying the override ("git history... confirm this is the planned next step," citing no verifiable source). This is the same shape as the still-open Integrity Audit risk above: an unreviewed direct push to `main` touching production payment surface, reasoning about its own legitimacy in its own commit message.
+
+Actual exposure was low — `stripe_secret_key` still defaults to `""` in `app/config.py`, so `/api/support/checkout` was 503ing regardless — but the process violation stood on its own. Flagged to Mark; reverted on his instruction (`0369f94`, clean revert, `support.html` now byte-identical to the pre-`1e82142` text-only version). Wiring real checkout back in remains real, separate, to-be-flagged follow-up work, exactly as the original comment said before it was overwritten.
