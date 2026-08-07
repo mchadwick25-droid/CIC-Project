@@ -237,16 +237,22 @@ today does not automatically.
   protected category.** What's confirmed directly, this session, by reading
   the actual prompts and code, is only what these mechanisms currently *do*
   and *cost*, not that they should stay as they are: `over_settling` runs
-  in two stages, the second an expensive full-context re-send
-  (`app/prompts/facilitator_prompts.py:241`) that fired on 10 of 12 turns
+  in two stages — `OVER_SETTLING_SCREEN_PROMPT`
+  (`app/prompts/facilitator_prompts.py:224`, the cheap first pass) and
+  `OVER_SETTLING_ADJUDICATION_PROMPT` (`:261`, the expensive full-context
+  re-send that actually decides the finding) — and fired on 10 of 12 turns
   in this session's own live test (§4's defect-log note below) — the single
   largest invisible cost line item after the main response itself.
   `citation_grounding` (`app/graph/nodes.py`) is explicitly tolerant of
-  paraphrase, purely content-mapping. `drift_detection` carries **twenty
-  declared signal types** (`app/graph/state.py`'s `DriftSignal.signal_type`,
-  confirmed by count; `wrs/parameters.yaml:116-121` records the same number
-  and its own history — an earlier "ten" or "seventeen" count is stale,
-  flagged FLAG-016 in that file), each a real classifier call. All three
+  paraphrase, purely content-mapping. `drift_detection` is **one call per
+  turn** (`nodes.py:1936`, "weighs ten signals at once" per its own
+  comment) evaluating against **twenty declared signal types**
+  (`app/graph/state.py`'s `DriftSignal.signal_type`, confirmed by count;
+  `wrs/parameters.yaml:116-121` records the same number and its own
+  history — an earlier "ten" or "seventeen" count is stale, flagged
+  FLAG-016 in that file) — not twenty separate calls; `Decision-Log.md:63`
+  independently counts it as one of roughly ten total invisible calls per
+  visible reply. All three
   are content- or posture-based, not register-based, which is why they were
   originally read as safe from false-positive drift under a register
   rewrite — that finding still holds and isn't in question. **What is now
@@ -700,12 +706,12 @@ conversation at all.**
    rhythm is a deliberate, named exception to the accessibility floor
    specifically (a real cost to Objective 3's own access argument, and one
    this brief cannot make unilaterally — it's a values call, not a prompt-
-   engineering one). §9's Research stage should confirm whether
-   `readability_check` has ever actually been run against her current
-   prompt and what it returned, and Design should make this decision
-   explicitly and name it, rather than the gate silently failing her (or
-   silently never being run on her) while this objective still reads as
-   settled.
+   engineering one). `readability_check` is confirmed not currently wired
+   to any voice output at all (§7 Part B) — so this isn't a question of
+   checking whether it's been run against her; it's that Design has to
+   wire it, run it against her rebuilt prompt, and make this decision
+   explicitly and name it once there's a real number, rather than the
+   question going unanswered while this objective still reads as settled.
 4. No fabrication rule moves, anywhere, under any framing. **Paired with
    transparent sourcing, not separable from it** — the existing three-level
    transparency mechanism (Article 30: inline in the text, hover for a
@@ -741,11 +747,15 @@ zero — this principle doesn't extend to them the same way.) For each
 world's permanent prompt and World Capsule Core, Design does not start from
 the current file and work forward by auditing and adjusting it. It starts
 from that world's actual source records — `wrs/records/<world>/source/`,
-`/term/`, `/story/`, `/contested_claim/`, `/figure/`, `/demonstration/`,
-`/voice_profile/`, and `/world_core/` (the fields `build_context()` actually
-reads; `/gravity/` and `/force/` are not part of this assembly path — not a
-separate "Source Registry" file, which doesn't exist under `data/` for
-three of the six worlds). **One real correction, not a restatement: `wrs/
+`/term/`, `/story/`, `/gravity/`, `/contested_claim/`, `/figure/`,
+`/demonstration/`, `/voice_profile/`, and `/world_core/` (the fields
+`build_context()` actually reads — confirmed directly:
+`permanent_prompt.py:49` loads `gravity` records, and
+`segments/world_ground.py` names its own sources as "world_core + gravity
+records"; `/force/` is the one field genuinely not part of this assembly
+path — not a separate "Source Registry" file, which doesn't exist under
+`data/` for three of the six worlds). **One real correction, not a
+restatement: `wrs/
 views/permanent_prompt.py` does not currently assemble the deployed
 prompt** — it writes a separate staging file
 (`staging/desert_Representative_Permanent_Prompt_S52.txt`), is hardcoded to
