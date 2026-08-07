@@ -164,6 +164,25 @@ does.
 
 ## 4. What NOT to rebuild — this is a voice rebuild, not a restart
 
+**Two genuinely different categories below, not one list — read them as
+different, because they get different treatment (2026-08-07 direction from
+Mark, correcting an earlier draft that treated everything here as equally
+off-limits).** Genuinely untouchable, no exceptions: the world/source
+layer's content, the no-fabrication apparatus, historical fact. Everything
+else that follows — the governance/monitoring layer specifically —
+**is not off-limits. It is explicitly open to scrutiny, the same as
+anything else this rebuild touches, because it's voice-generating apparatus
+too, not because it's assumed guilty.** Mark's own words: "I want anything
+that is voice generating scrutinized, not placed off limits." The real
+concern behind this: this system has accumulated real cost and real
+complexity in its governance/monitoring layer, and Mark's fear is some of
+it is making conversation harder to read, not just safer. Evaluate each
+mechanism below on its actual impact and cost, and ask directly whether the
+same rigor (grounded in source, never fabricating) is achievable a simpler
+or cheaper way — the *outcome* is the fixed requirement, never a specific
+mechanism used to get there, except where a mechanism itself is named
+untouchable below.
+
 - **The world/source layer's content** — lexicon chunks, story chunks,
   source registries. Confirmed good by Mark directly. Prose *style* inside
   the World Capsule Core files is explicitly in scope (§7); their
@@ -182,39 +201,59 @@ does.
   **and Papnoute's own version** ("you do not argue as an advocate arguing a
   case... whoever is speaking with you is free to leave this conversation
   exactly as they arrived" — missed in an earlier pass of this brief because
-  it isn't set off as its own labeled section). Not fabrication-related, but
-  a separate, deliberate, already-shared module — leave its content alone;
-  it's fine if register work touches its sentence rhythm the same way it
-  touches surrounding prose.
+  it isn't set off as its own labeled section). **Not one of the four
+  categories Mark named as genuinely fixed (source, no-fabrication, Table,
+  Facilitator) — this is a real open question, not silently assumed
+  protected.** It's not a cost/complexity mechanism the way the governance
+  layer below is (it's identity-shaping prose, not an extra LLM call or
+  check), and it answers to Encounter Over Persuasion directly (§3), which
+  argues for keeping its substance — but that's a reasoned guess this brief
+  is making, not something Mark has confirmed the way the other four are.
+  Design should confirm this explicitly rather than inherit the assumption:
+  its content stays as-is unless Mark says otherwise; register work may
+  touch its sentence rhythm the same way it touches surrounding prose,
+  which was already decided.
 - **Historical identity, era, and vocabulary content** in every permanent
   prompt — who each Representative is, what span they speak from, their
   world's real terms. This rebuild changes how something is said and what
   gets reached for, never the facts being spoken.
-- **The governance/monitoring layer.** Confirmed directly, this session, by
-  reading the actual prompts: `over_settling` (`app/prompts/
-  facilitator_prompts.py:241`, its own screen prompt states "tone is not a
-  limit... the question is whether the specific qualification this claim
-  needs is present, not whether the voice sounds modest"), `citation_grounding`
-  (`app/graph/nodes.py`, explicitly tolerant of paraphrase, purely
-  content-mapping), and `drift_detection`'s signals — **twenty declared
-  types** (`app/graph/state.py`'s `DriftSignal.signal_type`, confirmed by
-  count; `wrs/parameters.yaml:116-121` records the same number and its own
-  history — an earlier "ten" or "seventeen" count is stale, flagged FLAG-016
-  in that file) — are all content- or posture-based, not register-based.
-  Two of the twenty are worth naming here specifically since §7 Part B
-  cites them: `agreeing` (signal 3) and `over_producing` (signal 4) already
-  exist as declared types, covering agreement-drift and response-length
-  growth by name — see §7 Part B for what that changes about the "new
-  telemetry" framing. One exception worth empirical
-  attention, not redesign: `FLATTENING` ("sounds like educated generic
-  Christian voice with historical accent") is a holistic LLM judgment that
-  could plausibly read "plainer" as "more generic" — watch it in verification
-  (§8), don't design around a hypothetical.
+- **The governance/monitoring layer — open to full evaluation, not a
+  protected category.** What's confirmed directly, this session, by reading
+  the actual prompts and code, is only what these mechanisms currently *do*
+  and *cost*, not that they should stay as they are: `over_settling` runs
+  in two stages, the second an expensive full-context re-send
+  (`app/prompts/facilitator_prompts.py:241`) that fired on 10 of 12 turns
+  in this session's own live test (§4's defect-log note below) — the single
+  largest invisible cost line item after the main response itself.
+  `citation_grounding` (`app/graph/nodes.py`) is explicitly tolerant of
+  paraphrase, purely content-mapping. `drift_detection` carries **twenty
+  declared signal types** (`app/graph/state.py`'s `DriftSignal.signal_type`,
+  confirmed by count; `wrs/parameters.yaml:116-121` records the same number
+  and its own history — an earlier "ten" or "seventeen" count is stale,
+  flagged FLAG-016 in that file), each a real classifier call. All three
+  are content- or posture-based, not register-based, which is why they were
+  originally read as safe from false-positive drift under a register
+  rewrite — that finding still holds and isn't in question. **What is now
+  explicitly in question: whether each of these three earns its own cost
+  and complexity, or whether the same rigor is achievable more simply.**
+  Design should ask, for each: what specific failure does this actually
+  catch that a genuinely well-built, source-grounded voice (the product of
+  this whole rebuild) wouldn't already avoid on its own; is there a
+  cheaper mechanism (a lighter check, a sampled check, a single-stage
+  check instead of two) that catches the same failure; and if the honest
+  answer is "we still need this exact mechanism," say so with the reasoning
+  stated, not by default. `FLATTENING` (signal within `drift_detection`,
+  "sounds like educated generic Christian voice with historical accent") is
+  the one signal worth specific empirical attention beyond this general
+  evaluation — a holistic LLM judgment that could plausibly read "plainer"
+  as "more generic," watched in verification (§8).
 - **Confirmed inline glosses** (`app/prompts/confirmed_glosses.py`) — a
   small per-world whitelist requiring an exact fixed string for specific
-  terms, checked deterministically. Explicitly out of scope by its own
-  docstring: "the only place... an exact form is asked... everything else
-  about how you speak is unchanged."
+  terms, checked deterministically, cheap (no LLM call). Lower priority for
+  this evaluation than the three above given its low cost, but still real
+  voice-generating apparatus and still in scope for the same question: does
+  this constraint earn its keep, or would the rebuilt voice get the same
+  term-accuracy result without it.
 - **Retrieval ordering.** Tier-based sorting of retrieved documents before
   they reach the model is a real, confirmed-cheap follow-up
   (`doc.metadata["tier"]` already exists per chunk in `app/rag/
@@ -268,11 +307,15 @@ does.
      CT Contest Type below" — a dangling reference to an internal document
      no participant can see).
   2. `over_settling_adjudication` fired on 10 of 12 turns in this session's
-     live test — not a rare safety net in practice. Worth watching (§8)
-     since a "begin with substance, avoid generic hedging" voice
-     instruction pushes toward more unhedged claims, which is exactly what
-     this check screens for — but fixing the check itself is out of scope
-     here.
+     live test — not a rare safety net in practice, the largest invisible
+     cost line item this rebuild has, and, per the governance-layer
+     evaluation above, **no longer out of scope by default** — a
+     "begin with substance, avoid generic hedging" voice instruction pushes
+     toward more unhedged claims, which is exactly what this check screens
+     for, so its firing rate is likely to move as a direct result of this
+     rebuild's own work either way. Design should evaluate it as part of
+     the governance-layer scrutiny above, not treat it as a separate,
+     untouchable defect log entry.
 
 ## 5. The diagnosis — what's actually broken, and where
 
@@ -734,21 +777,24 @@ candidate for dropping. **What this license actually covers:** per-signal
 drift telemetry and the sustained-disagreement probe, both genuinely new
 verification proposals from this brief's own review process — Design may
 question, simplify, or drop either if it doesn't earn its cost, the same
-scrutiny applied to what six builds inherited. This does **not** extend to
-the no-fabrication apparatus, the witness-not-recruitment block (§4,
-untouchable under any framing), the existing three-level transparent-
-sourcing mechanism (§6 Objective 4 calls it "not separable" from
-no-fabrication — protected for the same reason fabrication itself is), or
-`citation_grounding`/`drift_detection`'s existing signals (§4, already
-justified as content-based). `over_settling` is the one real,
-already-measured exception, named plainly rather than left ambiguous:
-`over_settling_adjudication`'s second-stage check is the single largest
-invisible cost line item after the main response itself (§4,
-10-of-12-turns finding), and it genuinely is open for Design to raise with
-Mark directly — §4's "out of scope" framing predates this cost/complexity
-license and doesn't automatically survive it, but reopening it is Design's
-call to make explicitly, not something this brief decides for them either
-way.
+scrutiny applied to what six builds inherited. **This license now covers
+more than this section originally scoped, per Mark's own direct correction
+(2026-08-07): the governance/monitoring layer — `over_settling`,
+`citation_grounding`, `drift_detection` — is explicitly open to the same
+evaluation, not protected. See §4 for the actual charge to Design: evaluate
+each mechanism's real cost against what it actually catches, and ask
+whether the same rigor is achievable more simply, rather than assuming any
+of the three by default.** What genuinely stays fixed, no exception: the
+no-fabrication apparatus, and the existing three-level transparent-sourcing
+mechanism (§6 Objective 4 calls it "not separable" from no-fabrication —
+protected for the same reason fabrication itself is). The
+witness-not-recruitment block's status is a real open question, not a
+protected item either way — see §4's own note; don't assume it either
+belongs on this list or off it. `over_settling` specifically is the one
+already-measured, most consequential case: its second-stage check is the
+single largest invisible cost line item after the main response itself
+(§4, 10-of-12-turns finding) — evaluate it as part of the governance-layer
+charge above, not as a separate special case.
 
 - **Pilot first, isolated.** Rewrite the shared `_HOW_YOU_ENGAGE` block
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
@@ -1099,7 +1145,12 @@ world, informed by the standardized track's findings, is Fable's call.
    per-world pattern against the (now Fable-verified, not just
    this-thread-verified) diagnosis and this brief's objectives (§6). Produce
    both tracks explicitly: the standardized mechanism, and a stated
-   per-world adaptation approach for each of the six.
+   per-world adaptation approach for each of the six. **Also produce an
+   explicit, stated recommendation for each governance/monitoring mechanism
+   named in §4** (`over_settling`, `citation_grounding`, `drift_detection`,
+   `confirmed_glosses`) — keep as-is, simplify, replace, or drop, with the
+   reasoning given — rather than letting the evaluation §4 calls for happen
+   informally and produce no visible decision.
 3. **Blueprint** — sequence the risk-ordered per-world passes (§7) with a
    real verification checkpoint after the pilot and after each subsequent
    world — not just a final pass at the end.
