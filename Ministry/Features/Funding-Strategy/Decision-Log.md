@@ -1036,6 +1036,6 @@ running funds total technically feeds the app; the actual door visual/graphic an
 Relationship to SH-12: this is the interim answer for the phase before it; real pilot traffic and
 contribution data should inform that decision when it comes, not this thread.
 
-**Next action:** Mark's call on whether this gets dispatched to whichever thread owns `cic-poc`
-build work (same handoff pattern as the Cost Reduction Build Scope dispatch), or stays parked here
-until pilot data exists to react to.
+**Next action:** Mark is coordinating directly with the Pilot Spend/Usage Limit thread to launch a
+build thread — no dispatch document needed from here; this entry is the record of what was decided
+and why.
