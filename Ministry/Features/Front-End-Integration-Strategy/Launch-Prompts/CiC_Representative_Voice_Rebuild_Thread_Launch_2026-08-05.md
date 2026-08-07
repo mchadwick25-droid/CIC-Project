@@ -3,7 +3,7 @@
 Paste this into a fresh Fable thread. Fable is a capped, expensive
 resource — this prompt deliberately points at the brief and its review
 history rather than summarizing them, so nothing gets lost in a second
-layer of compression. The brief has been through four full Opus
+layer of compression. The brief has been through five full Opus
 adversarial rounds plus a targeted re-check since it was first drafted;
 read it as it stands today, not as an early draft.
 
@@ -27,6 +27,6 @@ read it as it stands today, not as an early draft.
 >
 > **Stage the work exactly as §9 describes: research → design → blueprint → build, in that order, each stage gated by two things, not one — an Opus adversarial pass per `Ministry/Operations/Standing/CiC_Adversarial_Review_Standard_Practice.md`, and then Mark's own direct review and approval before the next stage starts.** An adversarial "ready" is necessary, not sufficient. Research owns finding what it still needs beyond this brief's own reading list, specific to Interview-mode — the four studies named in §3 are the floor, not the ceiling. Per-world work is risk-ordered Albina → Marius → Theon → Papnoute → Chloe → Yausep, not build order.
 >
-> Before treating any claim in this brief as settled, verify it against the file/line it cites yourself — this document's own four-round review history is the direct evidence that claims which sound right don't always survive being checked, including some this thread's own earlier passes wrote. Read all four review files plus the targeted re-check (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_Opus_Adversarial_Review_Round1_2026-08-06.md` through `..._TargetedRecheck_2026-08-07.md`) so you're not re-discovering what's already been found and fixed.
+> Before treating any claim in this brief as settled, verify it against the file/line it cites yourself — this document's own five-round review history is the direct evidence that claims which sound right don't always survive being checked, including some this thread's own earlier passes wrote. Read all five review files plus the targeted re-check (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_Opus_Adversarial_Review_Round1_2026-08-06.md` through `..._Round5_2026-08-07.md`, plus `..._TargetedRecheck_2026-08-07.md`) so you're not re-discovering what's already been found and fixed.
 >
 > If the full scope genuinely doesn't fit the available Fable budget, stop at a clean boundary and say so plainly rather than compressing quality to finish.
