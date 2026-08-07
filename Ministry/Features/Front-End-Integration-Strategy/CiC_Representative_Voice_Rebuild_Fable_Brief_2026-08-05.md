@@ -183,6 +183,20 @@ or cheaper way — the *outcome* is the fixed requirement, never a specific
 mechanism used to get there, except where a mechanism itself is named
 untouchable below.
 
+**Stated as the general rule this whole section follows, not just for
+governance (2026-08-07, Mark's own words, generalizing the same
+distinction already applied above to witness-not-recruitment): founding
+principles and the outcomes already agreed to are solid — how the program
+gets there is open.** Concretely: the worlds themselves (source content,
+already covered above) are not open. Representative creation and voice
+interaction are — every mechanism, check, gate, or block that shapes how a
+voice gets built or how a conversation actually unfolds is available to
+redesign, replace, or remove, provided the outcome it exists to protect
+still holds. Nothing in this rebuild is tied to a specific enforcement
+protocol by default, including protocols this brief itself names or
+proposes — the requirement survives; the particular mechanism enforcing it
+today does not automatically.
+
 - **The world/source layer's content** — lexicon chunks, story chunks,
   source registries. Confirmed good by Mark directly. Prose *style* inside
   the World Capsule Core files is explicitly in scope (§7); their
