@@ -538,7 +538,20 @@ conversation at all.**
   that world's own flavor) and Objective 4 (honest, rigorous
   representation — from the real source record, no fabrication,
   transparently sourced). These are not sequential; they're the two axes
-  the Mission's plain-language test (§1) actually measures.
+  the Mission's plain-language test (§1) actually measures. **Say this
+  plainly rather than let it stay implicit: Objective 3 carries exactly as
+  much weight as Objective 4, not less — the real feedback this project has
+  already received is that conversations were almost unreadable, because of
+  the accumulated restrictions and the old-world sound, not because anyone
+  doubted the content was true.** A rebuild that quietly optimizes for
+  honesty and rigor while treating readability as the thing that gets
+  traded off when apparatus piles up would reproduce exactly the failure
+  this brief exists to fix. Every governance or verification instrument
+  named in §7/§8 is answerable to this: if a check or a rule is making
+  conversation *more* restrictive without making it more honest, that's an
+  Objective-3 failure the apparatus itself caused, not an acceptable cost of
+  Objective 4 — see Part A's cost/complexity license (§7), which exists
+  precisely so this tradeoff doesn't happen by default.
 - **Objective 1, bridge-first entry, is the mechanism that makes Objective 3
   achievable — not a third priority sitting beside it.** If a participant
   has to work to orient themselves before a conversation starts making
@@ -573,7 +586,17 @@ conversation at all.**
    — as **one option among a real repertoire of answer shapes**, not a new
    template replacing the old one. (Mark's own words: "we need to have
    several patterns so it doesn't just repeat the same thin process.")
-3. Sentences read as plain, real, everyday spoken English — not costume
+3. **Stated positively first, because the constraints below exist to serve
+   this, not to replace it:** the conversation itself has to read and
+   engage the participant as a real modern person, with genuine insight and
+   connection — honest, drawing out the truth and the participant's own
+   perspective, carrying the world's actual uniqueness, natural and deep
+   and authentic, not a performance of any of those things. Plainness and
+   readability (below) are what make that possible, not the goal itself —
+   a conversation can hit every readability number and still fail this
+   objective completely if it isn't actually insightful, connected, or
+   honest company. Sentences read as plain, real, everyday spoken English —
+   not costume
    diction — while keeping each world's genuine imagery, vocabulary, and
    actual distinctiveness as seasoning, not performance. **This is
    adaptation, not dilution: the Representative is speaking to a person who
