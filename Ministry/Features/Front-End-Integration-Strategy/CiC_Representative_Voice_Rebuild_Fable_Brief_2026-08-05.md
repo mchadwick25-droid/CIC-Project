@@ -164,51 +164,59 @@ does.
 
 ## 4. What NOT to rebuild — this is a voice rebuild, not a restart
 
-**Two genuinely different categories below, not one list — read them as
-different, because they get different treatment (2026-08-07 direction from
-Mark, correcting an earlier draft that treated everything here as equally
-off-limits).** Genuinely untouchable, no exceptions: the world/source
-layer's content, the no-fabrication apparatus, historical fact. Everything
-else that follows — the governance/monitoring layer specifically —
-**is not off-limits. It is explicitly open to scrutiny, the same as
-anything else this rebuild touches, because it's voice-generating apparatus
-too, not because it's assumed guilty.** Mark's own words: "I want anything
-that is voice generating scrutinized, not placed off limits." The real
-concern behind this: this system has accumulated real cost and real
-complexity in its governance/monitoring layer, and Mark's fear is some of
-it is making conversation harder to read, not just safer. Evaluate each
-mechanism below on its actual impact and cost, and ask directly whether the
-same rigor (grounded in source, never fabricating) is achievable a simpler
-or cheaper way — the *outcome* is the fixed requirement, never a specific
-mechanism used to get there, except where a mechanism itself is named
-untouchable below.
+**One rule governs this entire section, stated plainly (2026-08-07, Mark's
+own words, correcting two earlier drafts that each got this only partly
+right): the end goals are fixed. The *form* used to reach them is not, and
+this brief has been putting too much trust in form.** Concretely: no
+fabrication, ever, is fixed — that specific requirement never moves, under
+any framing. Genuine transparency about sourcing and confidence is fixed.
+The world/source layer's actual content and historical fact are fixed —
+not as mechanisms but as the ground truth itself, categorically different
+from a technique. **Nothing else is untouchable by default, including
+things this brief has elsewhere called untouchable — the fabrication-guard
+blocks' specific wording, the three-level sourcing apparatus's specific
+implementation, the fabrication-rate check's specific mechanism, every
+governance/monitoring check below.** Yes, fabrication guards — the
+requirement demands them. How they're built and worded is genuinely open,
+for better conversation quality and lower cost, the same as anything else
+"Representative creation and voice interaction" touches (Mark's own scope
+line: not the worlds, but everything about how a voice gets built and how
+a conversation unfolds). Whatever replaces a current mechanism has to
+actually still achieve the goal it existed for — verified, not assumed —
+but achieving it a different, better, or cheaper way is the point of this
+rebuild, not a risk to guard against.
 
-**Stated as the general rule this whole section follows, not just for
-governance (2026-08-07, Mark's own words, generalizing the same
-distinction already applied above to witness-not-recruitment): founding
-principles and the outcomes already agreed to are solid — how the program
-gets there is open.** Concretely: the worlds themselves (source content,
-already covered above) are not open. Representative creation and voice
-interaction are — every mechanism, check, gate, or block that shapes how a
-voice gets built or how a conversation actually unfolds is available to
-redesign, replace, or remove, provided the outcome it exists to protect
-still holds. Nothing in this rebuild is tied to a specific enforcement
-protocol by default, including protocols this brief itself names or
-proposes — the requirement survives; the particular mechanism enforcing it
-today does not automatically.
+**One scope boundary worth naming so Design doesn't reach past this
+brief's actual territory: the three-level transparency mechanism's
+front-end half — the hover/click UI in `CitationMarker.tsx`/
+`LexiconHighlight.tsx`** — belongs to a different workstream (front-end
+product strategy), not this one. What *is* in scope here is the prompt-
+level apparatus that feeds it: which source fields carry confidence and
+boundary information, and how a Representative's own language signals
+what's confidently attested versus reconstructed. Redesign that freely;
+leave the UI component alone, not because it's untouchable in principle,
+just because it isn't this thread's to rebuild.
 
 - **The world/source layer's content** — lexicon chunks, story chunks,
   source registries. Confirmed good by Mark directly. Prose *style* inside
   the World Capsule Core files is explicitly in scope (§7); their
   *content/sourcing* is not.
-- **The no-fabrication apparatus** — the near-verbatim shared "museum guide"
-  fabrication-guard block, literally present (verified by direct string
-  match) in **Yausep's and Marius's** permanent prompts only. Theon carries
-  the same mechanism fully reworded, not near-verbatim — a different figure
-  ("one who keeps the reading of a school long since scattered"), same
-  three-failure-mode structure — closer in kind to Papnoute's own
-  differently-worded version than to Yausep's/Marius's near-copies. Do not
-  edit, shorten, or soften any of the four under any framing.
+- **No fabrication, ever — the requirement itself, not the current blocks
+  enforcing it.** The requirement is genuinely fixed, absolute, under any
+  framing — a Representative never claims what the record doesn't support.
+  **How that gets taught to the model is open, the same as everything else
+  in this section's second category.** What currently exists: the
+  near-verbatim shared "museum guide" fabrication-guard block, literally
+  present (verified by direct string match) in **Yausep's and Marius's**
+  permanent prompts only; Theon carries the same mechanism fully reworded,
+  not near-verbatim — a different figure ("one who keeps the reading of a
+  school long since scattered"), same three-failure-mode structure —
+  closer in kind to Papnoute's own differently-worded version than to
+  Yausep's/Marius's near-copies. Rewrite any or all of the four if a
+  clearer, better, or cheaper way to teach zero-fabrication exists — but
+  whatever replaces a block has to be verified as at least as effective at
+  actually preventing fabrication, not just assumed to be because it reads
+  better.
 - **Witness, not recruitment — the requirement itself, not the current
   block enforcing it.** Corrected directly by Mark (2026-08-07): the
   requirement is genuinely fixed, not open for discussion — it comes from
@@ -712,11 +720,14 @@ conversation at all.**
    wire it, run it against her rebuilt prompt, and make this decision
    explicitly and name it once there's a real number, rather than the
    question going unanswered while this objective still reads as settled.
-4. No fabrication rule moves, anywhere, under any framing. **Paired with
-   transparent sourcing, not separable from it** — the existing three-level
-   transparency mechanism (Article 30: inline in the text, hover for a
-   summary, click for full detail — already built, `CitationMarker`/
-   `LexiconHighlight`) has to keep working honestly through this rebuild,
+4. No fabrication, ever, is fixed — the goal, not any particular mechanism
+   teaching it (§4). **Paired with transparent sourcing, not separable from
+   it** — genuine transparency about sourcing and confidence is the fixed
+   goal here too; the front-end half of how it's shown (Article 30: inline
+   in the text, hover for a summary, click for full detail —
+   `CitationMarker`/`LexiconHighlight`) is a different workstream's
+   territory (§4's scope note), so it has to keep working honestly through
+   this rebuild,
    including its one known real defect (the `key_sources` leak, §4) and its
    one open placement question (per-turn marker vs. something closer to
    per-story) — neither is this thread's job to fix, but both are this
@@ -814,27 +825,28 @@ candidate for dropping. **What this license actually covers:** per-signal
 drift telemetry and the sustained-disagreement probe, both genuinely new
 verification proposals from this brief's own review process — Design may
 question, simplify, or drop either if it doesn't earn its cost, the same
-scrutiny applied to what six builds inherited. **This license now covers
-more than this section originally scoped, per Mark's own direct correction
-(2026-08-07): the governance/monitoring layer — `over_settling`,
-`citation_grounding`, `drift_detection` — is explicitly open to the same
-evaluation, not protected. See §4 for the actual charge to Design: evaluate
-each mechanism's real cost against what it actually catches, and ask
-whether the same rigor is achievable more simply, rather than assuming any
-of the three by default.** What genuinely stays fixed, no exception: the
-no-fabrication apparatus, the witness-not-recruitment *requirement* (§4,
-Foundational Documents, settled ground), and the existing three-level
-transparent-sourcing mechanism (§6 Objective 4 calls it "not separable"
-from no-fabrication — protected for the same reason fabrication itself
-is). The witness-not-recruitment *block* is a different matter — its
-current wording is one implementation of the fixed requirement, not the
-requirement itself, and is rebuilt fresh like everything else in Part A's
-per-world work (§4's own note). `over_settling` specifically is the one
-already-measured, most consequential case among what's genuinely open:
-its second-stage check is the
-single largest invisible cost line item after the main response itself
-(§4, 10-of-12-turns finding) — evaluate it as part of the governance-layer
-charge above, not as a separate special case.
+scrutiny applied to what six builds inherited. **This license covers
+everything in this section, without named exceptions for specific
+mechanisms — per Mark's own direct correction (2026-08-07): the end goals
+are fixed, form is not, and this brief was putting too much trust in form.
+See §4's single governing rule.** What actually stays fixed is a short
+list of *goals*, not mechanisms: no fabrication, ever; genuine transparency
+about sourcing and confidence; the witness-not-recruitment *requirement*;
+the world/source layer's actual content and historical fact (not
+techniques, the ground truth itself). Every mechanism currently achieving
+any of those goals — the fabrication-guard blocks' wording, the
+witness-not-recruitment blocks' wording, the prompt-level sourcing/
+confidence apparatus, `over_settling`, `citation_grounding`,
+`drift_detection`, `confirmed_glosses` — is open to redesign, replace, or
+drop, provided whatever replaces it is verified to still achieve the goal
+it existed for. The one carve-out is a scope boundary, not a protection:
+the front-end transparency UI (`CitationMarker`/`LexiconHighlight`)
+belongs to a different workstream and isn't this thread's to touch (§4).
+`over_settling` specifically is the one already-measured, most
+consequential case: its second-stage check is the single largest invisible
+cost line item after the main response itself (§4, 10-of-12-turns
+finding) — evaluate it as part of this same license, not as a special
+case needing separate permission.
 
 - **Pilot first, isolated.** Rewrite the shared `_HOW_YOU_ENGAGE` block
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
@@ -883,10 +895,13 @@ charge above, not as a separate special case.
     actually reaches all of it). The *facts* those paragraphs carry — who
     each Representative is, what span they speak from, their world's real
     terms — are given, per §4, not rebuilt; only how those facts are said
-    is in scope. The fabrication-guard block stays completely untouched,
-    word for word (§4, no exception). The witness-not-recruitment
+    is in scope. The no-fabrication *requirement* — a Representative never
+    claims what the record doesn't support — is fixed; the current
+    fabrication-guard block enforcing it is not (§4): write it fresh if a
+    better, clearer, or cheaper way to teach it exists, verified to hold
+    the requirement just as firmly. The witness-not-recruitment
     *requirement* — a Representative never argues for its tradition, never
-    recruits — is equally fixed, but the current block enforcing it is not:
+    recruits — is equally fixed, and its current block is equally open:
     write it fresh from the requirement and the world's own sources, the
     same as everything else in this bullet, rather than preserving its
     current wording (§4's own note).
