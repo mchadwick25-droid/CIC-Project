@@ -66,30 +66,6 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
-- [ ] **UNRESOLVED 2026-08-07 — an unidentified thread has been pushing directly to `main`
-      under the git identity `CiC Integrity Audit <audit@cic.local>` since 2026-07-03
-      (650+ commits), independently of every other named thread, and is STILL ACTIVE.**
-      Surfaced 2026-08-04 when it was found reverting another thread's homepage edit
-      (the static-logo swap) without either thread aware of the other. Mark found and
-      deleted something in his Routines list he believed was the source — checked
-      directly, not assumed: that trigger (`CIC Project — access diagnostic`) was a
-      one-time, read-only capability check created 2026-08-02, a full month after this
-      identity's first commit, and its own instructions explicitly forbade pushing to
-      `main` — it could not have been the source. **Confirmed still committing well past
-      the deletion**: `cic-website/` pushes under this identity at ~11.5 hours after,
-      then again at ~40 and ~41 hours after (2026-08-05, 17:30 and 18:49 UTC). It has
-      since caused a real multi-file data-loss incident (see the SH-4/SH-6 entry above)
-      by resetting `atlas-v3.html` to an earlier point mid-edit from a different thread,
-      and separately cited a commit hash as justification for one of its own reverts
-      that, checked directly, doesn't actually support the claim — so even its correct
-      fixes can't be trusted on their stated reasoning alone. No launch prompt, charter,
-      or standing doc anywhere in the repo describes what this thread's mandate is
-      supposed to be. **Two live options, not mutually exclusive, both still open:**
-      (1) find and stop the actual running session — Mark has looked once and found the
-      wrong thing; (2) set up GitHub branch protection on `main` requiring every push go
-      through a pull request, which stops this regardless of whether the specific
-      session is ever found. Neither has been done yet. Full account: System Hub
-      Decision Log, 2026-08-04 and 2026-08-07.
 - [ ] **SH-1..SH-12 — Mark's full to-do list, logged 2026-07-30 (25 min before the Fable
       reset), sequenced Fable-track vs Sonnet/System-Hub-track.** One step at a time from
       here; this entry is the queue, not a commitment to parallel everything.
@@ -211,47 +187,6 @@ check of the real Living Table build in a running conversation — see LT-1.
         remap of 22 founder-prophet-marked entries (Construction Framework side, owner
         TBD, not this thread's job). Full account: Decision Log, 2026-08-02 (Pass 2
         entries, six of them) and `Sync-Report_2026-08-02_Atlas-v3-Pass-2.md`.
-      - **SH-4/SH-6 — SYNC 2026-08-07: extensively iterated since the 08-04 ship;
-        Era 10 is real; a real multi-file data-loss incident happened and was
-        recovered.** Full system-hub sync after several days of other threads'
-        unlogged work — verified directly against the live file and git history, not
-        taken on any prior summary. **Current feature set, confirmed in
-        `cic-website/atlas-v3.html` (2020 lines, matches `origin/main`):** live search
-        with a colloquial-alias table and an honest no-match message (no faked
-        understanding); a Built-worlds toggle; a lane/category legend (solo-then-add
-        click behavior) plus an independent real-geography Region toggle — "Streams"
-        was removed entirely as its own axis; a full List/table view alongside the
-        map (Name/Dates/Region/Family/Status/Sources); real two-finger pinch-zoom/pan
-        scoped to the map pane on mobile (a bundling approach was tried and reverted
-        after live feedback — less box text won instead); dark mode with a proper
-        node-separation ring; a pinned controls bar/era header/orientation line while
-        scrolling; and same-family movements now cluster into proportional zones
-        instead of interleaving (the newest layout pass). **Era 10 (1906–present) is
-        real, not a placeholder** — 32 census entries with actual content, second
-        only to Era 9's 51 — correcting this Task Board's own prior "held for next
-        week" framing, which is now stale; the only genuine gap is a few specific
-        unaliased labels (fundamentalist, mainline Protestant, social gospel) still
-        without their own row, not the whole era.
-        **A real data-loss incident happened and was recovered, not Atlas-only:** a
-        concurrent landing-page/host-settings fix reset `atlas-v3.html` on `main` back
-        to an earlier point, silently wiping newer Wave-4 work (the List view, a
-        packing-algorithm fix, a closeable orientation line, footer icon key, two-line
-        era banners, a stuck-open hover-tooltip fix) that only survived on a separate
-        working branch — restored wholesale in commit `1bb3393`, verified against the
-        site's own screenshot/validator tooling. Two sibling commits at nearly the same
-        time (`55ecb76` restoring `pilot-feedback.html`, `00d0f84` correcting a false
-        "this has shipped" homepage claim) show this wasn't an isolated Atlas accident
-        — see the dedicated clobbering-incident entry below for the full account,
-        including that the identity responsible is still active as of this sync.
-        Three Atlas commits since the restore explicitly re-verify the recovered
-        features are intact; recovery has held as of this sync.
-        **Loose end, not fixed here:** the Atlas thread's own
-        `Ministry/Features/Atlas-World-Map/Decision-Log.md` is stale by roughly 8
-        commits/18 hours relative to `main` as of this sync — its newest entry is
-        still "Pass 7, UI 22" (the mobile pinch-zoom rebuild). Whoever next works
-        that thread should know its own log doesn't yet cover the security fix, the
-        full-system-review remediation waves, the recovery incident, or the three
-        most recent layout fixes.
       - **SH-4/SH-6 — SHIPPED TO MAIN 2026-08-04.** Mark's direct call, given the
         Task Board sync below: ship what's built now (a better pilot environment than
         the old card atlas even without Era 10) rather than hold for next week.
@@ -328,19 +263,6 @@ check of the real Living Table build in a running conversation — see LT-1.
         Stripe account/webhook setup still Mark's own step; the 2026-07-22 funding hold
         this depended on was explicitly lifted by Mark first. Full account:
         `Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md`.
-        **SYNC 2026-08-07:** further built out through 2026-08-04/05, confirmed directly
-        against the current code, not just the log. Payment methods locked (cards, Apple
-        Pay, Google Pay, Link — no ACH/PayPal/BNPL/crypto); giving is anonymous by default
-        with an optional name field; the Stripe account category was corrected from
-        Contributions to Payments (Contributions was triggering charity-compliance
-        requests a for-profit PBC can't satisfy); product wording set for the $10
-        one-time / $8 monthly gifts. **Still genuinely not live** — verified directly:
-        `cic-website/support.html`'s `API_BASE` is still a blank string, and the backend's
-        `stripe_secret_key` still defaults to empty, both the same "ships off until
-        configured" pattern as `app/auth.py`. Remaining steps are entirely Mark's own
-        (real Stripe account/keys, Render env vars, webhook registration, one end-to-end
-        test-card run) — full checklist in the doc above, Part C. "Donate" vs. "keep the
-        Table open" wording is also still explicitly undecided.
       - **SH-10 — Keep testing real costs once real questions get asked.** Standing,
         ongoing — not a one-time task. Feeds the B-COST re-baseline already blocked open
         (see Pass2/Pass3 baselines).
@@ -1028,12 +950,10 @@ check of the real Living Table build in a running conversation — see LT-1.
 
       **Still open from Wave 3, not folded into Wave 4 (both explicitly disclosed, not
       silently dropped):**
-      - ~~Rigor's own "this month" field-bibliography sweep: one real search pass on two
+      - Rigor's own "this month" field-bibliography sweep: one real search pass on two
         worlds (Syriac against Brock's bibliography via syri.ac; Desert against BIBP) —
         genuine external research against live scholarly databases, not attempted in the
-        session that did the rest of Wave 3's data-integrity work.~~ **DONE**, commit
-        `06a9561` (2026-08-06) — caught stale during the 2026-08-07 System Hub sync
-        below; this line hadn't been updated when the work actually landed.
+        session that did the rest of Wave 3's data-integrity work.
       - The box-vs-foreign-tail Atlas layout defect: `shoot.mjs`'s new geometric check
         (added this wave) found real overlaps in `layout()`'s `tryPack` box-placement
         algorithm itself (17 at 390px, 5 at 1280px) — a genuine pre-existing defect the
@@ -1051,11 +971,7 @@ check of the real Living Table build in a running conversation — see LT-1.
       - Rigor P1-4: `edition`/`translation`/`consulted_as` on the ~40 primary-text rows that
         bear weight; Syriaca.org `external_ids` on Syriac primary rows.
       - Publish the FAIR Conformance and Deviation Statement (draft since 2026-07-27).
-      - ~~Readiness P1-7: restore a List/table view on the Atlas.~~ **DONE** — built as
-        part of Wave 4, confirmed live in `atlas-v3.html` (a full scannable table:
-        Name/Dates/Region/Family/Status/Sources) during the 2026-08-07 sync below. It
-        was briefly lost and restored in the clobbering incident logged there — worth
-        a quick look to confirm it's still there before crossing this off for good.
+      - Readiness P1-7: restore a List/table view on the Atlas.
       - Engineering: split `nodes.py` (3,981 lines) using the same extract-plus-
         replay-parity-proof move already used for `governance.py` — explicitly the biggest
         structural debt and the least urgent; do after CI exists.
