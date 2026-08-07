@@ -162,121 +162,109 @@ does.
     six-voice work itself (per finding on `table_discourse.py` in §4), just
     not the ground for a Table-mode redesign in this thread.
 
-## 4. What NOT to rebuild — this is a voice rebuild, not a restart
+## 4. What's fixed, and what's open — this is a voice rebuild, not a restart
 
-**One rule governs this entire section, stated plainly (2026-08-07, Mark's
-own words, correcting two earlier drafts that each got this only partly
-right): the end goals are fixed. The *form* used to reach them is not, and
-this brief has been putting too much trust in form.** Concretely: no
-fabrication, ever, is fixed — that specific requirement never moves, under
-any framing. Genuine transparency about sourcing and confidence is fixed.
-The world/source layer's actual content and historical fact are fixed —
-not as mechanisms but as the ground truth itself, categorically different
-from a technique. **Nothing else is untouchable by default, including
-things this brief has elsewhere called untouchable — the fabrication-guard
-blocks' specific wording, the three-level sourcing apparatus's specific
-implementation, the fabrication-rate check's specific mechanism, every
-governance/monitoring check below.** Yes, fabrication guards — the
-requirement demands them. How they're built and worded is genuinely open,
-for better conversation quality and lower cost, the same as anything else
-"Representative creation and voice interaction" touches (Mark's own scope
-line: not the worlds, but everything about how a voice gets built and how
-a conversation unfolds). Whatever replaces a current mechanism has to
-actually still achieve the goal it existed for — verified, not assumed —
-but achieving it a different, better, or cheaper way is the point of this
-rebuild, not a risk to guard against.
+**One rule governs this entire section (2026-08-07, Mark's own words,
+correcting two earlier drafts that each got this only partly right): the
+end goals are fixed. The *form* used to reach them is not, and this brief
+has been putting too much trust in form.** §4.1 is short because that's
+the real size of the constraint — four things, no more. §4.2 is long, but
+it isn't a second, quieter list of limits — it's what currently exists,
+read as context Design needs before rebuilding it, not permission to ask
+for.
 
-**One scope boundary worth naming so Design doesn't reach past this
-brief's actual territory: the three-level transparency mechanism's
-front-end half — the hover/click UI in `CitationMarker.tsx`/
-`LexiconHighlight.tsx`** — belongs to a different workstream (front-end
-product strategy), not this one. What *is* in scope here is the prompt-
-level apparatus that feeds it: which source fields carry confidence and
-boundary information, and how a Representative's own language signals
-what's confidently attested versus reconstructed. Redesign that freely;
-leave the UI component alone, not because it's untouchable in principle,
-just because it isn't this thread's to rebuild.
+### 4.1 What's actually fixed — four things, no more
 
-- **The world/source layer's content** — lexicon chunks, story chunks,
-  source registries. Confirmed good by Mark directly. Prose *style* inside
-  the World Capsule Core files is explicitly in scope (§7); their
-  *content/sourcing* is not.
-- **No fabrication, ever — the requirement itself, not the current blocks
-  enforcing it.** The requirement is genuinely fixed, absolute, under any
-  framing — a Representative never claims what the record doesn't support.
-  **How that gets taught to the model is open, the same as everything else
-  in this section's second category.** What currently exists: the
-  near-verbatim shared "museum guide" fabrication-guard block, literally
-  present (verified by direct string match) in **Yausep's and Marius's**
-  permanent prompts only; Theon carries the same mechanism fully reworded,
-  not near-verbatim — a different figure ("one who keeps the reading of a
-  school long since scattered"), same three-failure-mode structure —
-  closer in kind to Papnoute's own differently-worded version than to
-  Yausep's/Marius's near-copies. Rewrite any or all of the four if a
-  clearer, better, or cheaper way to teach zero-fabrication exists — but
-  whatever replaces a block has to be verified as at least as effective at
-  actually preventing fabrication, not just assumed to be because it reads
-  better.
-- **Witness, not recruitment — the requirement itself, not the current
-  block enforcing it.** Corrected directly by Mark (2026-08-07): the
-  requirement is genuinely fixed, not open for discussion — it comes from
-  the Foundational Documents (Encounter Over Persuasion, §3), settled
-  ground this rebuild doesn't reopen, the same tier as no-fabrication. **What
-  is open is how it gets enforced**, exactly like everything else in this
-  section's second category: the specific near-verbatim block currently
-  present, reworded per world, in **all six** files — Chloe's, Albina's,
-  Yausep's, Theon's, Marius's (which names it "SECTION 6 —
-  WITNESS-NOT-RECRUITMENT"), and Papnoute's own version ("you do not argue
-  as an advocate arguing a case... whoever is speaking with you is free to
-  leave this conversation exactly as they arrived" — missed in an earlier
-  pass of this brief because it isn't set off as its own labeled section) —
-  is one particular implementation of that requirement, not the
-  requirement itself. Per Part A's clean-rebuild mandate, Design writes
-  this fresh from the requirement and the world's actual sources, the same
-  as every other structural choice, rather than treating the current
-  block's specific wording as fixed. What must survive intact either way:
-  a Representative never argues for its tradition, never recruits — the
-  outcome, not this particular sentence structure achieving it.
-- **Historical identity, era, and vocabulary content** in every permanent
-  prompt — who each Representative is, what span they speak from, their
-  world's real terms. This rebuild changes how something is said and what
-  gets reached for, never the facts being spoken.
-- **The governance/monitoring layer — open to full evaluation, not a
-  protected category.** What's confirmed directly, this session, by reading
-  the actual prompts and code, is only what these mechanisms currently *do*
-  and *cost*, not that they should stay as they are: `over_settling` runs
-  in two stages — `OVER_SETTLING_SCREEN_PROMPT`
+- **No fabrication, ever.** A Representative never claims what the record
+  doesn't support. Absolute, under any framing.
+- **Genuine transparency about sourcing and confidence.** A participant can
+  find out what's confidently attested versus reconstructed.
+- **Witness, not recruitment.** A Representative never argues for its
+  tradition, never recruits — from the Foundational Documents (Encounter
+  Over Persuasion, §3), settled ground this rebuild doesn't reopen.
+- **The world/source layer's actual content and historical fact** —
+  lexicon chunks, story chunks, source registries, and, in every permanent
+  prompt, who each Representative is, what span they speak from, their
+  world's real terms. Confirmed good by Mark directly. This is ground
+  truth, not a technique — categorically different from everything in
+  §4.2. Prose *style* inside the World Capsule Core files is explicitly in
+  scope (§7); their *content/sourcing* is not.
+
+**One scope boundary, not a fifth fixed item — not protected, just not
+this thread's.** The three-level transparency mechanism's front-end
+half — the hover/click UI in `CitationMarker.tsx`/`LexiconHighlight.tsx` —
+belongs to a different workstream (front-end product strategy). What *is*
+in scope is the prompt-level apparatus feeding it: which source fields
+carry confidence and boundary information, and how a Representative's own
+language signals what's confidently attested versus reconstructed.
+Redesign that freely; leave the UI component alone because it isn't this
+thread's to rebuild, not because anything about it is untouchable in
+principle.
+
+### 4.2 Context for the open redesign — not constraints, what Design needs before rebuilding it
+
+Everything below describes a mechanism currently achieving one of §4.1's
+four fixed goals, or a process/scope note relevant to the rebuild. **None
+of it is a limit.** Rewrite, replace, simplify, or drop any of it —
+provided whatever replaces it is verified to still achieve the goal it
+existed for, not just assumed to because it reads better or costs less.
+
+- **Fabrication guards, current state.** The near-verbatim shared "museum
+  guide" fabrication-guard block, literally present (verified by direct
+  string match) in **Yausep's and Marius's** permanent prompts only; Theon
+  carries the same mechanism fully reworded, not near-verbatim — a
+  different figure ("one who keeps the reading of a school long since
+  scattered"), same three-failure-mode structure — closer in kind to
+  Papnoute's own differently-worded version than to Yausep's/Marius's
+  near-copies. Rewrite any or all of the four if a clearer, better, or
+  cheaper way to teach zero-fabrication exists — verified as at least as
+  effective, not just assumed to be.
+- **Witness-not-recruitment, current state.** Present, reworded per world,
+  in **all six** files — Chloe's, Albina's, Yausep's, Theon's, Marius's
+  (which names it "SECTION 6 — WITNESS-NOT-RECRUITMENT"), and Papnoute's
+  own version ("you do not argue as an advocate arguing a case... whoever
+  is speaking with you is free to leave this conversation exactly as they
+  arrived" — missed in an earlier pass of this brief because it isn't set
+  off as its own labeled section). Per Part A's clean-rebuild mandate,
+  Design writes this fresh from the requirement and the world's actual
+  sources, the same as every other structural choice, rather than treating
+  the current block's specific wording as fixed.
+- **The governance/monitoring layer — the biggest open question here, and
+  the one worth the most Design attention.** What's confirmed directly,
+  this session, by reading the actual prompts and code, is only what these
+  mechanisms currently *do* and *cost*, not that they should stay as they
+  are: `over_settling` runs in two stages — `OVER_SETTLING_SCREEN_PROMPT`
   (`app/prompts/facilitator_prompts.py:224`, the cheap first pass) and
   `OVER_SETTLING_ADJUDICATION_PROMPT` (`:261`, the expensive full-context
   re-send that actually decides the finding) — and fired on 10 of 12 turns
-  in this session's own live test (§4's defect-log note below) — the single
-  largest invisible cost line item after the main response itself.
-  `citation_grounding` (`app/graph/nodes.py`) is explicitly tolerant of
-  paraphrase, purely content-mapping. `drift_detection` is **one call per
-  turn** (`nodes.py:1936`, "weighs ten signals at once" per its own
-  comment) evaluating against **twenty declared signal types**
+  in this session's own live test (below) — the single largest invisible
+  cost line item after the main response itself. `citation_grounding`
+  (`app/graph/nodes.py`) is explicitly tolerant of paraphrase, purely
+  content-mapping. `drift_detection` is **one call per turn**
+  (`nodes.py:1936`, "weighs ten signals at once" per its own comment)
+  evaluating against **twenty declared signal types**
   (`app/graph/state.py`'s `DriftSignal.signal_type`, confirmed by count;
   `wrs/parameters.yaml:116-121` records the same number and its own
   history — an earlier "ten" or "seventeen" count is stale, flagged
   FLAG-016 in that file) — not twenty separate calls; `Decision-Log.md:63`
   independently counts it as one of roughly ten total invisible calls per
-  visible reply. All three
-  are content- or posture-based, not register-based, which is why they were
-  originally read as safe from false-positive drift under a register
-  rewrite — that finding still holds and isn't in question. **What is now
-  explicitly in question: whether each of these three earns its own cost
-  and complexity, or whether the same rigor is achievable more simply.**
-  Design should ask, for each: what specific failure does this actually
-  catch that a genuinely well-built, source-grounded voice (the product of
-  this whole rebuild) wouldn't already avoid on its own; is there a
-  cheaper mechanism (a lighter check, a sampled check, a single-stage
-  check instead of two) that catches the same failure; and if the honest
-  answer is "we still need this exact mechanism," say so with the reasoning
-  stated, not by default. `FLATTENING` (signal within `drift_detection`,
-  "sounds like educated generic Christian voice with historical accent") is
-  the one signal worth specific empirical attention beyond this general
-  evaluation — a holistic LLM judgment that could plausibly read "plainer"
-  as "more generic," watched in verification (§8).
+  visible reply. All three are content- or posture-based, not
+  register-based, which is why they were originally read as safe from
+  false-positive drift under a register rewrite — that finding still holds
+  and isn't in question. **What's genuinely in question: whether each of
+  these three earns its own cost and complexity, or whether the same rigor
+  is achievable more simply.** Design should ask, for each: what specific
+  failure does this actually catch that a genuinely well-built,
+  source-grounded voice (the product of this whole rebuild) wouldn't
+  already avoid on its own; is there a cheaper mechanism (a lighter check,
+  a sampled check, a single-stage check instead of two) that catches the
+  same failure; and if the honest answer is "we still need this exact
+  mechanism," say so with the reasoning stated, not by default.
+  `FLATTENING` (signal within `drift_detection`, "sounds like educated
+  generic Christian voice with historical accent") is the one signal worth
+  specific empirical attention beyond this general evaluation — a holistic
+  LLM judgment that could plausibly read "plainer" as "more generic,"
+  watched in verification (§8).
 - **Confirmed inline glosses** (`app/prompts/confirmed_glosses.py`) — a
   small per-world whitelist requiring an exact fixed string for specific
   terms, checked deterministically, cheap (no LLM call). Lower priority for
