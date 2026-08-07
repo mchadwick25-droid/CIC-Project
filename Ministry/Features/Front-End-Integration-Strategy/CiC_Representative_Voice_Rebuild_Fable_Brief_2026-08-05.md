@@ -195,24 +195,26 @@ untouchable below.
   three-failure-mode structure — closer in kind to Papnoute's own
   differently-worded version than to Yausep's/Marius's near-copies. Do not
   edit, shorten, or soften any of the four under any framing.
-- **The near-verbatim "witness not recruitment" block** — present, reworded
-  per world, in **all six** files, not five: Chloe's, Albina's, Yausep's,
-  Theon's, Marius's (which names it "SECTION 6 — WITNESS-NOT-RECRUITMENT"),
-  **and Papnoute's own version** ("you do not argue as an advocate arguing a
-  case... whoever is speaking with you is free to leave this conversation
-  exactly as they arrived" — missed in an earlier pass of this brief because
-  it isn't set off as its own labeled section). **Not one of the four
-  categories Mark named as genuinely fixed (source, no-fabrication, Table,
-  Facilitator) — this is a real open question, not silently assumed
-  protected.** It's not a cost/complexity mechanism the way the governance
-  layer below is (it's identity-shaping prose, not an extra LLM call or
-  check), and it answers to Encounter Over Persuasion directly (§3), which
-  argues for keeping its substance — but that's a reasoned guess this brief
-  is making, not something Mark has confirmed the way the other four are.
-  Design should confirm this explicitly rather than inherit the assumption:
-  its content stays as-is unless Mark says otherwise; register work may
-  touch its sentence rhythm the same way it touches surrounding prose,
-  which was already decided.
+- **Witness, not recruitment — the requirement itself, not the current
+  block enforcing it.** Corrected directly by Mark (2026-08-07): the
+  requirement is genuinely fixed, not open for discussion — it comes from
+  the Foundational Documents (Encounter Over Persuasion, §3), settled
+  ground this rebuild doesn't reopen, the same tier as no-fabrication. **What
+  is open is how it gets enforced**, exactly like everything else in this
+  section's second category: the specific near-verbatim block currently
+  present, reworded per world, in **all six** files — Chloe's, Albina's,
+  Yausep's, Theon's, Marius's (which names it "SECTION 6 —
+  WITNESS-NOT-RECRUITMENT"), and Papnoute's own version ("you do not argue
+  as an advocate arguing a case... whoever is speaking with you is free to
+  leave this conversation exactly as they arrived" — missed in an earlier
+  pass of this brief because it isn't set off as its own labeled section) —
+  is one particular implementation of that requirement, not the
+  requirement itself. Per Part A's clean-rebuild mandate, Design writes
+  this fresh from the requirement and the world's actual sources, the same
+  as every other structural choice, rather than treating the current
+  block's specific wording as fixed. What must survive intact either way:
+  a Representative never argues for its tradition, never recruits — the
+  outcome, not this particular sentence structure achieving it.
 - **Historical identity, era, and vocabulary content** in every permanent
   prompt — who each Representative is, what span they speak from, their
   world's real terms. This rebuild changes how something is said and what
@@ -269,8 +271,9 @@ untouchable below.
   directly (`main.py:156`), so `data/`'s six permanent-prompt and capsule
   files remain the real rebuild target — but a hand-edit to `data/` that
   isn't mirrored into the matching `wrs/records/` entry desyncs the record
-  layer the gates (including the readability gate in §7 Part B) read. §7's
-  per-world passes must update both files in the same pass.
+  layer `wrs/views/probe_parity.py` reads to check voice continuity — and,
+  if Design wires `readability_check` to voice as §7 Part B now asks, that
+  gate too. §7's per-world passes must update both files in the same pass.
 - **The existing interview-vs-table pacing distinction — real, but not where
   an earlier draft of this note placed it.** `REACTIVE_TURN_GUIDANCE`
   (`app/prompts/table_discourse.py:75`) carries no length ceiling and
@@ -724,12 +727,22 @@ zero — this principle doesn't extend to them the same way.) For each
 world's permanent prompt and World Capsule Core, Design does not start from
 the current file and work forward by auditing and adjusting it. It starts
 from that world's actual source records — `wrs/records/<world>/source/`,
-`/term/`, `/story/`, `/gravity/`, `/force/`, `/voice_profile/`, and
-`/world_core/` (the real per-world source material `wrs/views/
-permanent_prompt.py` already assembles the current deployed prompt from,
-per its own docstring: "same records → byte-identical outputs" — not a
+`/term/`, `/story/`, `/contested_claim/`, `/figure/`, `/demonstration/`,
+`/voice_profile/`, and `/world_core/` (the fields `build_context()` actually
+reads; `/gravity/` and `/force/` are not part of this assembly path — not a
 separate "Source Registry" file, which doesn't exist under `data/` for
-every world) — and from this brief's own principles (§1, §2, §6), and
+three of the six worlds). **One real correction, not a restatement: `wrs/
+views/permanent_prompt.py` does not currently assemble the deployed
+prompt** — it writes a separate staging file
+(`staging/desert_Representative_Permanent_Prompt_S52.txt`), is hardcoded to
+Desert (`desertcore001`/`desertvoice001`), and the other five worlds'
+record-to-prompt assemblers each open with their own `DELIBERATELY
+TEMPORARY` marker. `wrs/views/probe_parity.py` is what compares that
+assembled-from-records output against the real deployed prompt — and, per
+§7 Part B, four of six worlds already show that comparison failing. The
+records above are still the right thing for Design to build from; they are
+not yet what the live system actually runs on — and from this brief's own
+principles (§1, §2, §6), and
 writes the *prose, register, and delivery* fresh. **This changes how
 something is said, never the facts being spoken** (§4) — identity, era,
 and vocabulary *content* stay exactly what the records attest; what gets
@@ -785,13 +798,16 @@ evaluation, not protected. See §4 for the actual charge to Design: evaluate
 each mechanism's real cost against what it actually catches, and ask
 whether the same rigor is achievable more simply, rather than assuming any
 of the three by default.** What genuinely stays fixed, no exception: the
-no-fabrication apparatus, and the existing three-level transparent-sourcing
-mechanism (§6 Objective 4 calls it "not separable" from no-fabrication —
-protected for the same reason fabrication itself is). The
-witness-not-recruitment block's status is a real open question, not a
-protected item either way — see §4's own note; don't assume it either
-belongs on this list or off it. `over_settling` specifically is the one
-already-measured, most consequential case: its second-stage check is the
+no-fabrication apparatus, the witness-not-recruitment *requirement* (§4,
+Foundational Documents, settled ground), and the existing three-level
+transparent-sourcing mechanism (§6 Objective 4 calls it "not separable"
+from no-fabrication — protected for the same reason fabrication itself
+is). The witness-not-recruitment *block* is a different matter — its
+current wording is one implementation of the fixed requirement, not the
+requirement itself, and is rebuilt fresh like everything else in Part A's
+per-world work (§4's own note). `over_settling` specifically is the one
+already-measured, most consequential case among what's genuinely open:
+its second-stage check is the
 single largest invisible cost line item after the main response itself
 (§4, 10-of-12-turns finding) — evaluate it as part of the governance-layer
 charge above, not as a separate special case.
@@ -844,11 +860,12 @@ charge above, not as a separate special case.
     each Representative is, what span they speak from, their world's real
     terms — are given, per §4, not rebuilt; only how those facts are said
     is in scope. The fabrication-guard block stays completely untouched,
-    word for word (§4, no exception). The witness-not-recruitment block's
-    *content* stays untouched the same way — but §4 already permits
-    register work to reach its sentence rhythm the same as surrounding
-    prose, and that permission still holds here; "untouched" means the
-    substance, not a ban on the same register pass touching its phrasing.
+    word for word (§4, no exception). The witness-not-recruitment
+    *requirement* — a Representative never argues for its tradition, never
+    recruits — is equally fixed, but the current block enforcing it is not:
+    write it fresh from the requirement and the world's own sources, the
+    same as everything else in this bullet, rather than preserving its
+    current wording (§4's own note).
   - A reasoning-mode structure — Marius's precedent-first chancery mode,
     Yausep's stage-by-stage demonstration, Theon's surface-then-depth
     unfolding, etc. — earns its place only if the world's actual sources
@@ -873,9 +890,9 @@ charge above, not as a separate special case.
     standing exemption from writing her fresh like the other five.
   - Update the matching `wrs/records/<world>/voice_profile/` entry in the
     same pass, not as separate cleanup (see §4) — the running app reads
-    `data/`, but `wrs/views/probe_parity.py` and the readability gate (§7
-    Part B) compare against the record layer, and a `data/`-only edit
-    desyncs the two.
+    `data/`, but `wrs/views/probe_parity.py` compares against the record
+    layer (and, once wired to voice per §7 Part B, `readability_check`
+    would too), and a `data/`-only edit desyncs the two.
 - **Facilitator's three "distinct from period diction" occurrences**
   (`app/prompts/facilitator_prompts.py`, Acute Distress/Harmful Dynamic
   prompts, roughly lines 429/449/485) — fixed last, once all six permanent
@@ -994,11 +1011,16 @@ predictions as part of its own pass and found that none of them were
 measurable by that draft's verification plan — two of them, in fact, would
 have been actively mis-scored as improvements when they weren't. The fix is
 naming real instruments, not more prose:
-- **`readability_check` (`wrs/gates/core.py:211`)** — already built, already
-  wired to Part Five's own numbers (`wrs/parameters.yaml:101-114`). Run it
-  against baseline and rebuilt output for all six worlds; this is the
-  instrument that actually tests Objective 3, which no metric named here
-  tested before this revision.
+- **`readability_check` (`wrs/gates/core.py:211`)** — real, correctly built,
+  wired to Part Five's own numbers (`wrs/parameters.yaml:101-114`), but
+  **not currently connected to Representative voice generation at all**
+  (§7 Part B) — its only real callers are lexicon plain-explanations and
+  test fixtures. Wiring it to the six voice prompts is real Design work,
+  not a run-it-and-read-the-number step. Once connected, run it against
+  baseline and rebuilt output for all six worlds; it's a necessary
+  instrument for Objective 3, but not sufficient by itself (§6) — it tests
+  the accessibility floor, not the objective's actual, positive goal
+  (insight, connection, honesty), which still has no instrument here.
 - **The `fabrication_adjudication` rate**, counted, not eyeballed — already
   logged per-call (`log_llm_usage("fabrication_adjudication", ...)`,
   `nodes.py:2101`) and captured under that exact label by
@@ -1130,13 +1152,14 @@ world, informed by the standardized track's findings, is Fable's call.
    shows the failure live, so he answers the prior question (does prose
    instruction work at all) more cheaply than Papnoute answers the narrower
    one (do worked examples specifically work); (b) only then run the
-   Papnoute check; (c) confirm whether `readability_check` (§7 Part B) has
-   ever actually been run against the six current builds — a fact this
-   brief could not establish and must not be guessed at — and specifically
-   against Albina's, given Objective 3's own unresolved tension: if she
-   fails it, Design must explicitly decide (and record) whether her
-   sentence length comes down or she's named a deliberate exception, not
-   let the gate fail silently or go unrun; (d) treat the
+   Papnoute check; (c) `readability_check` (§7 Part B) is confirmed not
+   currently wired to any voice output, so "has it been run against the
+   six current builds" isn't the open question anymore — the real one is
+   what it returns once Design wires it, specifically against Albina's
+   rebuilt prompt, given Objective 3's own unresolved tension: if she fails
+   it, Design must explicitly decide (and record) whether her sentence
+   length comes down or she's named a deliberate exception, not let the
+   gate fail silently or go unrun; (d) treat the
    pilot's Albina `fabrication_adjudication` firing (finding C) as a real
    open interaction between Objectives 2 and 4, not a one-off. Live-test
    whatever the Research stage still finds underdetermined — don't inherit
