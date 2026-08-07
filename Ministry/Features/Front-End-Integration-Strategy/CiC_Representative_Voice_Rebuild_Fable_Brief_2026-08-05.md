@@ -648,6 +648,57 @@ conversation at all.**
 
 ### Part A — rebuild the six Representative voices
 
+**This is a clean rebuild, not an edit pass — read this before writing
+anything, it governs every bullet below.** Design does not start from the
+current permanent prompts and work forward by auditing and adjusting them.
+It starts from the world's actual sources — lexicon chunks, story chunks,
+the World Capsule Core's own content, the Source Registry (all confirmed
+good and frozen, §4) — and from this brief's own principles (§1, §2, §6),
+and writes fresh. The current permanent prompt is one input signal among
+several, no more privileged than the raw source material, not the document
+being edited. **No comparative diffing against the current prompt is part
+of the design process itself** — that's a §8 verification activity (the
+continuity-regression pass), a different purpose (checking the rebuilt
+voice against the deployed one for returning-participant continuity), not
+how the new voice gets built.
+
+This matters concretely, not just procedurally: Mark's own stated
+concern is that six builds have accumulated assumption rules that were
+never actually necessary — inherited because an earlier file already said
+them, not because the sources support them. **The test for keeping
+anything from a current prompt is never "it's already there" — it's "the
+source material actually supports it."** Albina's periodic rhythm, Marius's
+precedent-first reasoning, Yausep's stage-by-stage demonstration structure —
+if these are genuinely attested in the world's own real character, a clean
+build grounded in sources should re-derive them on its own, for the right
+reason, not inherit them by default. If something only survives in the
+current prompt because nobody ever questioned it, a clean rebuild is
+supposed to let it drop. Finding (A)'s own comparative read already argues
+Albina's rhythm is genuine, formation-accurate craft, not incidental
+archaism — that's evidence worth weighing during the rebuild, not a reason
+to skip re-deriving it from her actual sources.
+
+**The same license applies to cost and complexity, not just voice — say so
+explicitly rather than let it default to "add more."** This brief's own
+three adversarial-review rounds added real apparatus this week: readability
+enforcement, fabrication-rate tracking, per-signal drift telemetry,
+three-level-sourcing checks, sustained-disagreement probes,
+continuity-regression testing. None of it is fixed by default just because
+this document names it — Design has explicit license to question, simplify,
+or drop any of it if it doesn't earn its cost and complexity, the same
+scrutiny applied to what six builds inherited. This does **not** extend to
+the no-fabrication apparatus, the witness-not-recruitment block (§4,
+untouchable under any framing), or the existing governance layer
+(`over_settling`, `citation_grounding`, `drift_detection` — §4, already
+justified as content-based, not up for reconsideration here). One real,
+already-measured tension worth naming rather than silently resolving either
+way: `over_settling_adjudication`'s second-stage check is the single
+largest invisible cost line item after the main response itself (§4,
+10-of-12-turns finding), and §4 currently treats fixing the check itself as
+out of scope. Now that lowering cost and complexity is an explicit goal of
+this rebuild, Design should raise this tension with Mark directly rather
+than assume either "still out of scope" or "now in scope."
+
 - **Pilot first, isolated.** Rewrite the shared `_HOW_YOU_ENGAGE` block
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
   instruction to lead with Ecological Function material (and its
@@ -679,25 +730,38 @@ conversation at all.**
   in the cached prefix at equal weight to the permanent prompt on every
   turn, in the same elevated register, so a register fix that stops at the
   permanent prompt is capped by its own neighbor).
-  - Full diction/rhythm audit of both files — the elevated register runs
-    through more than the paragraph explicitly labeled "how you speak"
-    (confirmed by direct reading: identity, era, and vocabulary paragraphs
-    carry the same stylization). Content, fabrication-guard, and
-    witness-not-recruitment blocks untouched.
-  - Reconcile the new shape repertoire against that world's *own* existing
-    reasoning-mode paragraph — Marius's precedent-first chancery mode,
+  - Write each world's identity, era, vocabulary, register, and
+    reasoning-mode content fresh from its actual sources — not an audit of
+    the existing paragraph labeled "how you speak," since the elevated
+    register this brief diagnoses runs through more surface than that one
+    paragraph (confirmed by direct reading: identity, era, and vocabulary
+    paragraphs currently carry the same stylization, and a clean rebuild
+    starting from sources rather than editing that paragraph is what
+    actually reaches all of it). Content, fabrication-guard, and
+    witness-not-recruitment blocks untouched — these are re-included as
+    given, not rebuilt.
+  - A reasoning-mode structure — Marius's precedent-first chancery mode,
     Yausep's stage-by-stage demonstration, Theon's surface-then-depth
-    unfolding, etc. Each may host the repertoire cleanly or need explicit
-    adjustment; check per file, don't assume uniformity.
-  - Add worked `{{random_user}}`-style example dialogues to the five files
-    that lack them, in the *same* pass as the register edit — not a separate
-    polish layer. **The exact form these examples take (positive-only, or
-    paired with a contrastive/negative demonstration) is a Design-stage
-    decision, made only after the Research stage resolves the open question
-    in finding (C) — not prescribed here.**
-  - Albina keeps her periodic/hypotactic rhythm substantively — genuine
-    formation-accurate craft — but gets the same plain-vs-performed
-    naturalness audit on surrounding diction as the other five.
+    unfolding, etc. — earns its place only if the world's actual sources
+    support it, tested fresh, not carried forward because the current file
+    already has it. Where it re-derives genuinely, host the shape
+    repertoire (§6 Objective 2) inside it; where it doesn't, it's not a
+    "reconciliation" problem to solve, it's evidence the structure wasn't
+    load-bearing to begin with.
+  - Write worked `{{random_user}}`-style example dialogues for all six
+    worlds as part of this same fresh build (five currently lack them,
+    Papnoute doesn't — write his fresh too rather than treating him as
+    already done, so all six are built to the same standard). **The exact
+    form these examples take (positive-only, or paired with a
+    contrastive/negative demonstration) is a Design-stage decision, made
+    only after the Research stage resolves the open question in finding
+    (C) — not prescribed here.**
+  - Albina's periodic/hypotactic rhythm is kept substantively if it
+    re-derives from her actual sources during the fresh build — finding
+    (A)'s comparative read already argues it should (genuine,
+    formation-accurate craft, not incidental archaism) — but that's a
+    prediction to confirm against her sources during the rebuild, not a
+    standing exemption from writing her fresh like the other five.
   - Update the matching `wrs/records/<world>/voice_profile/` entry in the
     same pass, not as separate cleanup (see §4) — the running app reads
     `data/`, but `wrs/views/probe_parity.py` and the readability gate (§7
@@ -833,7 +897,12 @@ naming real instruments, not more prose:
   requirement — same probes run against the current, unrebuilt prompt and
   the rebuilt one, diffed directly, before this thread's output is treated
   as ready to ship, not only "does the rebuilt voice pass its own probes in
-  isolation."
+  isolation." **This is a verification activity, not a design one — it
+  doesn't contradict §7 Part A's "no comparatives" principle.** The rebuild
+  itself is built fresh from sources, never by editing the current prompt;
+  this pass exists afterward, to catch whether the fresh build broke
+  something a returning participant would notice, which is a different
+  question from how the build was produced.
 
 - Reuse `cic-poc/backend/scripts/mark_conversation_test.py` as the
   conversation-driving harness (real FastAPI backend, real Anthropic
@@ -904,17 +973,24 @@ that's what the individual-adaptation track is for, and deciding it per
 world, informed by the standardized track's findings, is Fable's call.
 
 1. **Research — starting with the actual question, not just this brief's
-   bug list.** Before any per-world work: what makes a conversation with a
+   bug list, and not limited to what this brief already thought to ask.**
+   Before any per-world work: what makes a conversation with a
    Representative genuinely good — engaging, clear, insightful, accurate and
    trustworthy not only in fact but in voice and feel, without becoming
    distracting? Ground this in the four studies named in §3, not from
    scratch — especially the Realness Study's persona-enactment and
    sustained-disagreement findings (now Objective 6) and the Persona
-   Framework Survey's ephemeral-vs-permanent example-dialogue question
-   (bearing directly on §7 Part A's worked-example plan). §5 below is real,
+   Framework Survey's genuinely mixed evidence on worked examples (bearing
+   directly on §7 Part A's worked-example plan). §5 below is real,
    verified, bug-level evidence about these six specific builds — treat it
    as supporting evidence for that larger question, not as the question
-   itself. Then, specifically, extend and stress-test §5's diagnosis before
+   itself. **Research owns identifying what else it needs, specific to
+   Interview-mode conversation quality — this brief's own reading list and
+   §5's diagnosis are the floor, not the ceiling.** If Research concludes
+   there's a real, specific gap this brief hasn't named, say so plainly and
+   go find it before Design starts, the same discipline that produced the
+   four studies already cited. Then, specifically, extend and stress-test
+   §5's diagnosis before
    treating any of it as ground to design on. At minimum: (a) check Mar Yausep against a
    FLAG-018-style probe first — he already carries a bridge-first
    instruction close to what this brief proposes project-wide and still
@@ -959,6 +1035,17 @@ brief itself already contained one claim (finding C's original "worked
 examples are the fix") that sounded right and didn't survive being tested
 live; assume the same risk is present in Research's and Design's own
 findings until checked.**
+
+**Mark's own review and approval gates every transition too, after the
+adversarial pass, not instead of it.** Order matters: adversarial review
+first, so factual and logical errors are caught before Mark spends time on
+it; then Mark reviews the (already-cleaned) stage output directly and
+approves before the next stage begins. Research doesn't hand off to Design,
+Design doesn't hand off to Blueprint, and Blueprint doesn't hand off to
+Build without both — an adversarial pass finding "ready" is a necessary
+condition for moving on, not a sufficient one. This is the single most
+important process fact in this brief, given Mark's own framing: "this is
+the most critical rebuild we have done."
 
 **Round 1 of this brief's own required Opus adversarial pass ran on
 2026-08-06** (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_Opus_
