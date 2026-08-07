@@ -988,3 +988,54 @@ them so only the correct dated copies remain; Mark hadn't answered either way as
 **Next action:** none blocking — this closes out the last open item from the original Relay/share-
 issuance sequence first opened 2026-07-27. Whenever convenient, Mark's call on whether to delete the
 two superseded 2026-07-27 PDFs.
+
+---
+
+## 2026-08-06 (same day, continued) — Pilot spend/access mechanism designed: the "door" as a real, felt mechanism, not just page imagery
+
+**Scope: bridges Phase 2 (pilot) through early growth, before the SH-12 tier system is built —
+replaces nothing about that eventual decision.** Brought to this thread fully designed, not drafted
+here; recorded because it's the funding/accessibility mechanism this thread owns, and because it
+directly reuses and extends the door imagery just built into `support.html` the same day.
+
+**The problem it solves:** nothing currently caps total pilot conversation volume — only a 60-turn
+cap per conversation. The Anthropic Console spending ceiling ($100–150 to start) is the invisible
+hard backstop protecting the bill regardless. This mechanism is the felt, product-level layer above
+that backstop — designed fresh, not an extension of the SH-12 tier/paywall direction.
+
+**The mechanism, in short:**
+- A "door" tracks headroom against **API spend specifically** — not the whole mission, not general
+  operating cost. The public door graphic on the giving page can (and does, as written) tell the
+  fuller accessible/rigorous/sustaining story; underneath it, the actual gate is just the
+  API-designated slice of contributions.
+- Stripe gifts plus informal friends-and-family asks roll into one running total Mark maintains by
+  hand. The dollar total itself is never shown to participants — only the door's resulting state.
+- A portion of each contribution (illustrative 70/30 or 80/20, not locked) counts toward the door;
+  the rest funds general sustaining cost, invisibly. **The page never states this split to the
+  giver** — confirmed consistent with how `support.html`'s "Be Part of It" section is currently
+  written (names the two funds, never the internal mechanics).
+- Usage narrows the door on a **rolling week**, not a lifetime drain — a heavy week closes it
+  faster, a light week lets it reopen on its own.
+- **Efficiency work (caching, cutting redundant model calls, cheaper non-runtime features like the
+  Atlas and guided tours) slows the closing rate — it never widens the door. Only funds raise it.**
+  This confirms the page's existing "bringing the cost down" and "less expensive features" bullets
+  are load-bearing to this mechanism, not just messaging.
+- A single large gift can snap the door open immediately; small gifts move it incrementally.
+- **The squeeze is tiered by conversation type, not by visitor:** the more expensive mode gives way
+  first — Living Table (3-person) restricts earlier and closes harder (illustrative: limited at 66%
+  closed, stopped at 90%) than 1:1 (full until 75%, stopped at 95%). Consistent with this thread's
+  own earlier cost-study finding that a third Representative roughly triples per-turn cost.
+- **No per-visitor, device, or IP tracking.** Fairness comes from the shared, type-tiered throttle
+  itself; Mark is the manual backstop for individual edge cases. Reasoned explicitly as the better
+  fit than a per-visitor cap at this scale (small, informal, no sign-in active) — a per-visitor cap
+  would add tracking/friction for a fairness problem the throttle already absorbs.
+
+**Explicitly not decided — real design/build work for later, not assumed or filled in here:** exact
+percentage thresholds and rolling-window math; the precise contribution split ratio; how Mark's
+running funds total technically feeds the app; the actual door visual/graphic and its build.
+Relationship to SH-12: this is the interim answer for the phase before it; real pilot traffic and
+contribution data should inform that decision when it comes, not this thread.
+
+**Next action:** Mark's call on whether this gets dispatched to whichever thread owns `cic-poc`
+build work (same handoff pattern as the Cost Reduction Build Scope dispatch), or stays parked here
+until pilot data exists to react to.
