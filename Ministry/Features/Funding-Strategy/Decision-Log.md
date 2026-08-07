@@ -1039,3 +1039,57 @@ contribution data should inform that decision when it comes, not this thread.
 **Next action:** Mark is coordinating directly with the Pilot Spend/Usage Limit thread to launch a
 build thread — no dispatch document needed from here; this entry is the record of what was decided
 and why.
+
+---
+
+## 2026-08-07 — Stripe approved; one-time and monthly give links added, then real checkout built (staged, NOT pushed)
+
+**Stripe account approved.** The restricted-business review from the 2026-08-06 entry above is
+resolved — payouts unblocked.
+
+**First pass (live, pushed):** two static Stripe Payment Links added to `support.html` — one-time
+("Help Open the Door Wider," Mark's own custom-amount Payment Link) and monthly ("Keep the Door
+Open"). Academic Review Fund reframed on the page as coming later, not a second live option, since
+only the Accessibility Fund is actually funded right now.
+
+**Real bug investigation, prompted by Mark noticing the monthly link only offered $10/month.**
+Turned out not to be a bug: Stripe's own "Customer chooses price" feature is documented as
+one-time-only — it explicitly does not support recurring payments, which is why a free-form amount
+works on the one-time link but not the monthly one. **Checked the actual codebase rather than
+assume:** `cic-poc/backend/app/giving.py` (built during the earlier SH-9 work) already solves this
+properly — it builds Stripe Checkout Sessions with inline `price_data` per request rather than
+using Stripe's dashboard-based pricing, which sidesteps the recurring/customer-chooses limitation
+entirely. It was never live because `STRIPE_SECRET_KEY` and `STRIPE_WEBHOOK_SECRET` were never set
+— not a code defect, an unfinished configuration step, explicitly marked "yours, not mine" in
+`CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md` Part C.
+
+**Amounts, decided live with Mark:** five tiers for both once and monthly — **$10 / $15 / $25 / $50
+/ $100** — matching what Mark configured directly on the Stripe monthly product. A custom "other $"
+amount is offered for one-time gifts only, matching what the standalone Payment Link already did
+and Stripe's own one-time/recurring asymmetry.
+
+**Built and committed locally, deliberately NOT pushed to `origin/main` yet — Mark's explicit
+instruction, specifically to avoid a repeat of the same-day unauthorized-checkout-wiring incident
+above.** `support.html`'s two static Payment Link buttons were replaced with a real amount-picker
+(5 buttons + custom field for once, 5 buttons for monthly) wired to `POST /api/support/checkout`,
+reusing the exact request shape `app/giving.py` already expects. Verified rendering and behavior in
+browser before committing: layout correct, clicking a button correctly triggers the graceful "not
+live yet" fallback (console clean, no errors) since `API_BASE` is still intentionally blank — same
+"off until configured" discipline as the rest of this flow.
+
+**What's still needed before this can actually go live — genuinely Mark's own dashboard/infra work,
+not something this thread can do:**
+1. **`STRIPE_SECRET_KEY`** — set as an env var on the `cic-poc` backend service on Render (test key
+   `sk_test_...` first).
+2. **`STRIPE_WEBHOOK_SECRET`** — from registering a webhook endpoint in the Stripe dashboard at
+   `https://<real-render-backend-domain>/api/support/webhook`, watching `checkout.session.completed`.
+3. **`CORS_ORIGINS`** on Render should include `churchinconversation.com`.
+4. Full test-mode run (fake card, confirm the webhook actually delivers and `[giving_completed]`
+   shows in Render's logs) **before** switching to live keys (`sk_live_...`, plus a *separate*
+   live-mode webhook registration and signing secret).
+5. Once 1–4 are done, set `const API_BASE = "";` in `support.html`'s own script to the real Render
+   URL — that line is the last piece, deliberately left blank until then.
+
+**Next action:** Mark reviews the staged `support.html` changes and informs whichever other threads
+need to know before this gets pushed — explicitly not pushed by this thread without that review,
+per the standing caution already in the file's own header comment.
