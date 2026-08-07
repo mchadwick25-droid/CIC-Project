@@ -67,7 +67,7 @@ does.
   not an "actual transcripts" claim this brief can't back up. **Treat that
   entry's entire findings list as superseded, not just the two lines its own
   note marks:** bullet 1 (the "100%" register claim), bullet 2 (finding B's
-  "every retrieved chunk" claim — actually 109 of 118 lexicon chunks, and
+  "every retrieved chunk" claim — actually 107 of 118 lexicon chunks, and
   story chunks under a different field name entirely), bullet 4 (the
   original worked-examples conclusion), and bullet 6 ("the three plainest
   worlds," contradicted by Yausep's own measured sentence length) are all
@@ -107,15 +107,32 @@ does.
     inventories from shipping persona systems (Character Card V1-V3,
     SillyTavern). Its own verdict on worked examples is **mixed, not
     industry-wide either direction — "it is not unanimous," the document's
-    own words.** Character Card's own spec allocates 0-32,000 characters to
-    example dialogue against 500 for description (Character.AI's real
-    production numbers match that ratio) — a strong signal *for* worked
-    examples as load-bearing, not evidence they're ephemeral. Two other
-    major vendors structure persona work almost entirely around named
-    traits instead. Read as genuine, unresolved evidence on both sides of
-    §7 Part A's worked-example plan, not as a reason to lean either way in
-    advance — Fable's Research stage still has to answer this for CiC's own
-    case, not import a verdict this survey doesn't actually give. Separately,
+    own words** — but two prior drafts of this citation each got the
+    specifics wrong in a different way, so read the actual tally directly:
+    five sources treat demonstration dialogue as required/first-class
+    (Google Conversation Design, Amazon Alexa, Salesforce, and, separately,
+    two facts about the character-card ecosystem itself — Character.AI's
+    own field limits, 32,000 characters for its Definition field against
+    500 for description, and the `mes_example` field's normative status,
+    Ali:Chat's whole authoring school built on it); two treat it as
+    secondary (Microsoft: "relegated to a scratch pad"; IBM: absent
+    entirely). **One genuine internal complication, not a simplification to
+    smooth over: the Character Card *spec itself*, as distinct from
+    Character.AI's own field limits, states `mes_example` "SHOULD... be
+    pruned to make room for actual conversation history"** — i.e., the
+    written spec calls it ephemeral even though Character.AI's actual
+    production numbers and the Ali:Chat community both treat it as
+    load-bearing in practice. Spec and practice disagree with each other on
+    this one point; cite them as two separate facts, not one. What's
+    actually unanimous across every source, for or against: description or
+    trait-adjectives come first, as the rubric, and dialogue — where used —
+    gets written and judged against them, never the reverse. And one clean,
+    single-direction, directly relevant data point: Anthropic's own
+    prompting guidance recommends 3-5 examples for steering output format,
+    tone, and structure. Read all of this as genuine, unresolved evidence
+    for §7 Part A's worked-example plan, not as a reason to lean either way
+    in advance — Fable's Research stage still has to answer this for CiC's
+    own case. Separately,
     `post_history_instructions` exists because instructions placed after
     conversation history carry measurably stronger weight than instructions
     before it — this one *is* a clean, single-direction finding, and
@@ -205,19 +222,32 @@ does.
   isn't mirrored into the matching `wrs/records/` entry desyncs the record
   layer the gates (including the readability gate in §7 Part B) read. §7's
   per-world passes must update both files in the same pass.
-- **The existing interview-vs-table turn-length tuning.** A solo Deep
-  Interview conversation and a multi-Representative Table conversation are
-  already, deliberately, held to different pacing — `REACTIVE_TURN_
-  GUIDANCE`'s length ceiling for a non-first speaker in a round,
-  `OPENING_TURN_LARGE_TABLE_GUIDANCE`'s own separate allowance for a
-  round's opening turn, and `table_discourse.py`'s per-world reasoning
-  reached because a crowded table has to stay readable one idea per turn,
-  while a solo conversation can afford more room to develop a single idea.
-  This predates the voice rebuild and is not itself in scope — but the
-  register work touches the same files this tuning lives in
-  (`_HOW_YOU_ENGAGE`, per-world reasoning-mode paragraphs), so it has to be
-  read and preserved deliberately, not overwritten as a side effect of a
-  register pass that never decided to change it.
+- **The existing interview-vs-table pacing distinction — real, but not where
+  an earlier draft of this note placed it.** `REACTIVE_TURN_GUIDANCE`
+  (`app/prompts/table_discourse.py:75`) carries no length ceiling and
+  explicitly refuses one: *"does not need to be brief for its own sake if
+  there is a real view to add... do not match your length to the turns
+  around you... speak at your own formation's measure even when it is
+  conspicuously shorter or longer."* `table_discourse.py` has no per-world
+  reasoning either — only `CROSS_WORLD_VOCABULARY_GUIDANCE`, about
+  terminology, not pacing. **The actual, only turn-length ceiling in the
+  system is `_HOW_YOU_ENGAGE`'s "A Turn Has a Measure"**
+  (`representative_prompts.py:59-60`: "default short: most turns are one to
+  two short paragraphs, and a turn should almost never exceed three") —
+  which is inside the exact block §7 Part A rewrites, not a separate file
+  to preserve alongside it. And the real asymmetry runs opposite to how
+  this note first described it: a solo Deep Interview turn gets *less*
+  injected guidance, not more restrictive pacing —
+  `reactive_turn_guidance = ""` for that path (`nodes.py:1140`), its own
+  comment recording that turn-shape guidance was deliberately folded into
+  `_HOW_YOU_ENGAGE` instead of kept as a separate block. **What this means
+  for scope:** there is no separate interview-vs-table mechanism sitting
+  outside `_HOW_YOU_ENGAGE` for the register rewrite to accidentally
+  collide with — the one real length instruction *is* inside the block
+  being rewritten, so §7 Part A's edit has to preserve "A Turn Has a
+  Measure" deliberately, and every new instruction §7 Part A adds pushes
+  length upward against exactly this ceiling — worth Design treating as a
+  real tension, not background noise.
 - **Two adjacent, already-diagnosed defects, deliberately not bundled here** —
   log them for Mark's own separate triage rather than fixing them as part of
   this thread:
@@ -288,28 +318,45 @@ existing instruction is the genuinely correct one and shouldn't be touched.
 reaches the model — and lexicon and story chunks carry it under different
 field names, which matters for how §7 has to word the instruction to use
 it.** Measured directly against every chunk file, not sampled:
-- **Lexicon chunks (118 total):** 109 of 118 carry an explicit `Ecological
-  Function` field (9 missing — 5 in Alexandria/Theon's own set, 2 each in
-  Syriac and PAHC); all 118 carry `Distortion Risk` (Modern Hearing vs.
-  World Hearing). `Tier` is present in each file's own front matter but is
+- **Lexicon chunks (118 total):** 107 of 118 carry an actual `Ecological
+  Function` field — not 109; the two remaining string matches
+  (`ijclex011_basilica.md`, `ijclex012_martyrium.md`, both Marius/IJC) are
+  chunks that mention "Ecological Function" only to record it was
+  **omitted** per their own Tier-3 template instruction, not chunks that
+  have the field. All 118 carry `Distortion Risk` (Modern Hearing vs. World
+  Hearing). `Tier` is present in each file's own front matter but is
   discarded by the lexicon parser before serialization — it survives only as
   `doc.metadata["tier"]` (`app/rag/indexer.py:227`), reachable for sorting
   (§4's retrieval-ordering note) but never as text the model actually reads.
-  **A real risk inside the 109 that do carry the field, worth Fable knowing
-  before "lead with Ecological Function" becomes an instruction: at least a
-  quarter of them carry internal build-process language, not participant-safe
-  insight.** `hal_lex11_exegesis-practiced-authority.md`'s own Ecological
-  Function field reads, verbatim: *"The evidentiary core of this world's one
-  Tensional gravity... this candidate was tested directly and found
-  insufficient to establish a difference in kind."* "Tensional gravity" and
-  "candidate... tested" are this project's own internal gravity-analysis
-  vocabulary (Doc_04/Doc_08 apparatus), not anything a participant should
-  ever hear spoken — and this field sits before Key Sources, so nothing
-  currently strips it before it reaches generation context. The Lenses Audit
-  (§3) independently measured this same leak across the corpus and found it
-  concentrated exactly where the risk-ordered build sequence starts —
-  Albina's own Hieronymian set. §7 Part A's instruction needs an explicit
-  filter for this, not just a pointer at the field name.
+
+  **Two distinct leaks, not one, and the second is worse than the first —
+  found by executing the actual serialization path, not by grepping for a
+  field name.** First: at least a quarter of the 107 Ecological-Function
+  chunks carry internal build-process language, not participant-safe
+  insight — `hal_lex11_exegesis-practiced-authority.md`'s field reads,
+  verbatim, *"The evidentiary core of this world's one Tensional gravity...
+  this candidate was tested directly and found insufficient to establish a
+  difference in kind."* "Tensional gravity" and "candidate... tested" are
+  this project's own internal gravity-analysis vocabulary (Doc_04/Doc_08
+  apparatus). Same pattern, different fields, in other worlds: `Related-
+  Terms Reciprocity Note` in Yausep's `syrlex005`/`syrlex008`, `Confidence:
+  Inferential-Thin` in Chloe's `pahclex012`/`pahclex013`.
+
+  Second, and structurally worse: `truncate_at` (`app/rag/sections.py:159-
+  160`) returns a chunk's body **completely unchanged** when it finds no
+  `Key Sources` marker to cut at — a fail-open, not a fail-safe. **Six
+  chunks have no marker at all**, so their entire body, including trailing
+  internal notes, reaches the model verbatim. `ijclex011_basilica.md` — one
+  of Marius's, an acceptance world — ends, unfiltered, with: *"## Final
+  Assembly Instruction — Completed per `L4-Templates/Deployment_Lexicon_
+  Chunk_Template.md` V1.0 (Tier 3: World Meaning brief, Ecological Function
+  and Key Sources omitted per Template instruction). No brackets or builder
+  notes remain. CT tag not applied."* This is a real gap in what the
+  project could otherwise treat as settled about how Key Sources stripping
+  works — it only strips when it finds something to strip at. §7 Part A's
+  leak filter (below) needs to cover both patterns, not just the
+  Ecological-Function field specifically — a filter scoped to one field
+  name misses the worse of the two.
 - **Story chunks (60 total):** all 60 carry the same instinct, but under a
   different name — `## Formation Ecology Connection`, not `Ecological
   Function`. None carry a `Distortion Risk` equivalent; no such field exists
@@ -525,17 +572,45 @@ conversation at all.**
    Concretely, that means holding to Part Five's own reading-level floor
    (Flesch-Kincaid grade 8-10, Flesch Reading Ease 60+) as an access
    requirement, not a style suggestion — a reader who isn't already fluent
-   in this register has to be able to get in at all. **Albina's periodic
-   rhythm is not an exemption from that floor.** Part Five's own text
-   already draws the line this needs: register elaborateness and
-   accessibility are separate axes, and "a world whose own sources are
-   rhetorically trained and elaborate should still keep its sentences
-   within the accessibility band — elaboration belongs in vocabulary,
-   imagery, and clause content, not in unbroken sentence length." Measured
-   today she runs 23.6 words/sentence — her periodic quality has to survive
-   being achieved through clause richness and vocabulary rather than raw
-   sentence length, a real design problem this rebuild has to actually
-   solve for her, not wave past.
+   in this register has to be able to get in at all. Part Five's own text
+   draws a real line here: register elaborateness and accessibility are
+   separate axes, and "a world whose own sources are rhetorically trained
+   and elaborate should still keep its sentences within the accessibility
+   band — elaboration belongs in vocabulary, imagery, and clause content,
+   not in unbroken sentence length." That reading of Part Five is right and
+   holds.
+
+   **What does NOT hold, and this brief should not assert a resolution it
+   doesn't actually have: "achieve her periodic quality through vocabulary
+   and clause richness instead of sentence length" is not a working fix,
+   it's arithmetically impossible at her measured length.**
+   `readability_check` computes Flesch-Kincaid from exactly two variables —
+   words per sentence and syllables per word. At Albina's measured 23.6
+   words/sentence, passing the grade-10 ceiling requires roughly 1.39 or
+   fewer syllables per word on average — *simpler* vocabulary than any of
+   the other five prompts currently run (they measure 1.34-1.47), not
+   richer. Richer vocabulary makes the score worse, not better; clause
+   *structure* (subordination, held qualifications) is invisible to the
+   formula entirely. The only lever that actually moves her score is
+   shortening her sentences — which is precisely the "kept substantively"
+   protection this objective states in its opening sentence, for a rhythm
+   this brief has argued elsewhere is genuine, formation-accurate craft,
+   not incidental archaism.
+
+   **This is a real, unresolved tension, not a solved problem — Fable's
+   Design stage has to actually decide it, with the tradeoff stated
+   plainly rather than assumed away:** either Albina's sentence length
+   comes down to pass the same floor the other five hold to (a real cost to
+   what makes her voice distinct), or this project decides her periodic
+   rhythm is a deliberate, named exception to the accessibility floor
+   specifically (a real cost to Objective 3's own access argument, and one
+   this brief cannot make unilaterally — it's a values call, not a prompt-
+   engineering one). §9's Research stage should confirm whether
+   `readability_check` has ever actually been run against her current
+   prompt and what it returned, and Design should make this decision
+   explicitly and name it, rather than the gate silently failing her (or
+   silently never being run on her) while this objective still reads as
+   settled.
 4. No fabrication rule moves, anywhere, under any framing. **Paired with
    transparent sourcing, not separable from it** — the existing three-level
    transparency mechanism (Article 30: inline in the text, hover for a
@@ -568,10 +643,12 @@ conversation at all.**
   instruction to lead with Ecological Function material (and its
   story-chunk equivalent, `Formation Ecology Connection` — see finding B,
   these are not the same field and need naming separately) **filtered for
-  the real risk finding B also names — roughly a quarter of Ecological
-  Function fields carry internal build-process vocabulary ("Tensional
-  gravity," "candidate... tested") that must never reach a participant, not
-  just topical material to lead with**; the shape
+  the two real risks finding B names — roughly a quarter of Ecological
+  Function fields carrying internal build-process vocabulary ("Tensional
+  gravity," "candidate... tested"), and a handful of chunks with no Key
+  Sources marker at all whose entire body, internal notes included, passes
+  through unfiltered — neither is topical material safe to lead with**; the
+  shape
   repertoire from objective 2 folded into the existing "Let the Question Set
   the Shape, Not a Habit" section as one option among several — story-first,
   question-behind-the-question, plain-and-short, consensus-then-contrast.
@@ -722,9 +799,9 @@ naming real instruments, not more prose:
   logged per-call (`log_llm_usage("fabrication_adjudication", ...)`,
   `nodes.py:2101`) and captured under that exact label by
   `mark_conversation_test.py`'s usage records. This is the actual instrument
-  for Objective 4, the one non-negotiable objective in this brief, which had
-  no metric at all before this revision — see finding (C)'s note on the
-  pilot's Albina firing for why this isn't hypothetical.
+  for Objective 4, one of the two parallel non-negotiable priorities named
+  in §6, which had no metric at all before this revision — see finding
+  (C)'s note on the pilot's Albina firing for why this isn't hypothetical.
 - **`over_settling_logging`'s confirmed rate** (`app/over_settling_
   logging.py`), reported separately from the raw `over_settling_
   adjudication` firing count §4 already names as expensive-but-expected.
@@ -771,7 +848,7 @@ naming real instruments, not more prose:
 - **Theon gets live-tested too — not silently skipped.** He was in neither
   the original three baselines nor this brief's acceptance pair, and
   Alexandria carries the single largest share of lexicon chunks missing an
-  Ecological Function field (5 of 9 project-wide, finding B) — the world
+  Ecological Function field (5 of 11 project-wide, finding B) — the world
   most exposed to §7 Part A's lead-with-insight instruction silently
   no-op'ing.
 - **A sustained-disagreement probe, run across multiple turns per world, not
@@ -836,7 +913,11 @@ world, informed by the standardized track's findings, is Fable's call.
    one (do worked examples specifically work); (b) only then run the
    Papnoute check; (c) confirm whether `readability_check` (§7 Part B) has
    ever actually been run against the six current builds — a fact this
-   brief could not establish and must not be guessed at; (d) treat the
+   brief could not establish and must not be guessed at — and specifically
+   against Albina's, given Objective 3's own unresolved tension: if she
+   fails it, Design must explicitly decide (and record) whether her
+   sentence length comes down or she's named a deliberate exception, not
+   let the gate fail silently or go unrun; (d) treat the
    pilot's Albina `fabrication_adjudication` firing (finding C) as a real
    open interaction between Objectives 2 and 4, not a one-off. Live-test
    whatever the Research stage still finds underdetermined — don't inherit
