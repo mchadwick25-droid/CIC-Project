@@ -68,16 +68,6 @@
 }
 .reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;color:var(--muted);text-align:right;margin:0 1.5rem}
 
-/* Three feature panels, replacing the old two-button row: Church in History,
-   the Shared Table, Keep the Door Open. Each a full stop on the page, not a
-   button crowded next to another — per Mark's direction. */
-.feature-panel{max-width:44rem;margin:0 auto;padding:3rem 1.5rem;border-top:1px solid var(--rule);text-align:center}
-.feature-panel .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--madder);font-weight:600;margin:0 0 .6rem}
-.feature-panel h2{font-size:1.5rem;margin:0 0 .8rem;text-wrap:balance;line-height:1.3}
-.feature-panel .sub{color:var(--muted);font-size:1.02rem;max-width:34rem;margin:0 auto 1.6rem;text-wrap:balance}
-.feature-panel.short .sub{margin:0 auto 1.4rem}
-
 /* Lightweight info sheet, opened on click */
 .reps-scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);opacity:0;pointer-events:none;
   transition:opacity .2s ease;z-index:30}
@@ -152,24 +142,11 @@
     <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now &mdash; we can't enforce this yet, only ask.</p>
   </section>
 
-  <section class="feature-panel" id="panel-atlas">
-    <p class="eyebrow">Church in History</p>
-    <h2>Explore the whole twenty centuries, not just what's built</h2>
-    <p class="sub">Research sources and information across the full span of Christian history &mdash; including traditions that haven't been built into a full conversation yet.</p>
-    <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
-  </section>
-
-  <section class="feature-panel" id="panel-shared-table">
-    <p class="eyebrow">The Table, Together</p>
-    <h2>Sit at the table with up to three other Christian traditions</h2>
-    <p class="sub">and have a conversation around your own questions and comments.</p>
-    <a class="btn secondary" id="table-link" href="atlas-v3.html">Start a Table Conversation</a>
-  </section>
-
-  <section class="feature-panel short" id="panel-door">
-    <p class="eyebrow">Keep the Door Open</p>
-    <p class="sub">Every conversation costs something to run &mdash; help us keep it open to more people who need it.</p>
-    <a class="btn secondary" href="support.html">Get Involved</a>
+  <section class="hero-actions-wrap">
+    <div class="hero-actions">
+      <a class="btn primary" id="launch-link" href="atlas-v3.html">Come and join us at the Table</a>
+      <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
+    </div>
   </section>
 </main>
 
@@ -199,10 +176,7 @@
 const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
 if (LIVE_APP_URL) {
-  // No world params: the app's own picker handles choosing up to three
-  // traditions for a shared table, same picker the multi-world hand-off
-  // already uses elsewhere on this site.
-  document.getElementById('table-link').href = LIVE_APP_URL;
+  document.getElementById('launch-link').href = LIVE_APP_URL;
 }
 
 // Representative carousel — reads the same data/world-census.json the
