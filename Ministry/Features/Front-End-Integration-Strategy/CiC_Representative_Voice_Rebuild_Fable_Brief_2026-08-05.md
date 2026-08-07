@@ -148,9 +148,19 @@ does.
     Permanent Prompt as an explicit ownership rule — "same information,
     different placement and form." Worth checking finding (B)'s own
     diagnosis against this precedent directly.
-  - `.../16_MultiParty_Dialogue_Architecture.md` — Facilitator/table-scoped,
-    lower priority for this single-voice rebuild, but real if the Research
-    stage finds the two threads interact.
+  - `.../16_MultiParty_Dialogue_Architecture.md` — Facilitator/table-scoped.
+    **Deliberately out of scope here, by explicit sequencing decision
+    (2026-08-07), not because it matters less.** Table-mode conversation
+    quality — engaging the participant as a real party at the table
+    alongside the Representatives, celebrating genuine consistency across
+    traditions, clearly surfacing genuine difference, reading whether a
+    participant wants the exchange more personal or more theological — is
+    named as equally critical to this rebuild's own single-voice work, and
+    is planned as a deliberate second phase once this one ships, using the
+    same research → design → blueprint → build discipline, not a lesser
+    follow-up. Still worth reading now for anything that bears on the
+    six-voice work itself (per finding on `table_discourse.py` in §4), just
+    not the ground for a Table-mode redesign in this thread.
 
 ## 4. What NOT to rebuild — this is a voice rebuild, not a restart
 
