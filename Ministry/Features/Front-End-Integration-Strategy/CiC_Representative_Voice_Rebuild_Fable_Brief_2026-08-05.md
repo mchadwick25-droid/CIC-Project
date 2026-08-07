@@ -203,11 +203,20 @@ principle.
 
 ### 4.2 Context for the open redesign — not constraints, what Design needs before rebuilding it
 
-Everything below describes a mechanism currently achieving one of §4.1's
-four fixed goals, or a process/scope note relevant to the rebuild. **None
-of it is a limit.** Rewrite, replace, simplify, or drop any of it —
+Two different kinds of bullets follow, and the "none of it is a limit"
+license below applies to only one of them. Most of what's here describes a
+mechanism currently achieving one of §4.1's four fixed goals — those are
+genuinely open: **rewrite, replace, simplify, or drop any of them,
 provided whatever replaces it is verified to still achieve the goal it
-existed for, not just assumed to because it reads better or costs less.
+existed for, not just assumed to because it reads better or costs less.**
+A few bullets are different in kind — retrieval ordering, the `wrs/`
+record-layer lockstep requirement, and the two handed-off defects aren't
+mechanisms achieving a §4.1 goal at all, they're process and scope notes
+with their own reasoning stated inline, and the interview-vs-table pacing
+bullet specifically instructs *preserving* "A Turn Has a Measure"
+deliberately. Read each bullet for what it actually says rather than
+assuming this section's general openness overrides a bullet's own explicit
+instruction.
 
 - **Fabrication guards, current state.** The near-verbatim shared "museum
   guide" fabrication-guard block, literally present (verified by direct
@@ -522,9 +531,10 @@ evidence, not a clean negative.
 
 **A second, more consequential pilot result belongs in this finding and
 hadn't made it into the brief before this revision.** On Albina's prototype
-run, the same pilot produced a `fabrication_adjudication` signal — the one
-governance check this brief names as completely out of scope and
-non-negotiable (§4, Objective 4) — on the exact turn where the prototype
+run, the same pilot produced a `fabrication_adjudication` signal — the
+instrument verifying the one goal this brief calls genuinely fixed with no
+exception (§4.1: no fabrication, ever; §6 Objective 4) — on the exact turn
+where the prototype
 told the Marcella story concretely, elsewhere in this thread's own process
 notes cited as a clear win for bridge-first storytelling. Checked directly:
 not a fabrication — it traces to a real source chunk
@@ -753,21 +763,10 @@ from that world's actual source records — `wrs/records/<world>/source/`,
 `segments/world_ground.py` names its own sources as "world_core + gravity
 records"; `/force/` is the one field genuinely not part of this assembly
 path — not a separate "Source Registry" file, which doesn't exist under
-`data/` for three of the six worlds). **One real correction, not a
-restatement: `wrs/
-views/permanent_prompt.py` does not currently assemble the deployed
-prompt** — it writes a separate staging file
-(`staging/desert_Representative_Permanent_Prompt_S52.txt`), is hardcoded to
-Desert (`desertcore001`/`desertvoice001`), and the other five worlds'
-record-to-prompt assemblers each open with their own `DELIBERATELY
-TEMPORARY` marker. `wrs/views/probe_parity.py` is what compares that
-assembled-from-records output against the real deployed prompt — and, per
-§7 Part B, four of six worlds already show that comparison failing. The
-records above are still the right thing for Design to build from; they are
-not yet what the live system actually runs on — and from this brief's own
-principles (§1, §2, §6), and
-writes the *prose, register, and delivery* fresh. **This changes how
-something is said, never the facts being spoken** (§4) — identity, era,
+`data/` for three of the six worlds) — and from this brief's own
+principles (§1, §2, §6), and writes the *prose, register, and delivery*
+fresh. **This changes how something is said, never the facts being
+spoken** (§4) — identity, era,
 and vocabulary *content* stay exactly what the records attest; what gets
 rebuilt is the sentence-level craft carrying that content, the same
 distinction §4 already draws for the rest of this rebuild. The current
@@ -779,6 +778,18 @@ continuity-regression pass, which already exists and already has run
 results — see §7 Part B), a different purpose (checking the rebuilt voice
 against the deployed one for returning-participant continuity), not how
 the new voice gets built.
+
+**One real correction about the source records above, not a restatement:
+`wrs/views/permanent_prompt.py` does not currently assemble the deployed
+prompt** — it writes a separate staging file
+(`staging/desert_Representative_Permanent_Prompt_S52.txt`), is hardcoded to
+Desert (`desertcore001`/`desertvoice001`), and the other five worlds'
+record-to-prompt assemblers each open with their own `DELIBERATELY
+TEMPORARY` marker. `wrs/views/probe_parity.py` is what compares that
+assembled-from-records output against the real deployed prompt — and, per
+§7 Part B, four of six worlds already show that comparison failing. The
+records above are still the right thing for Design to build from; they are
+not yet what the live system actually runs on.
 
 This matters concretely, not just procedurally: Mark's own stated
 concern is that six builds have accumulated assumption rules that were
@@ -807,34 +818,38 @@ plain-explanations and a test fixture, §7 Part B) — there is nothing yet to
 Continuity-regression testing is not new either — `wrs/views/probe_parity.py`
 already runs it for all six worlds, with real committed results (§7 Part B)
 that Design needs to read before deciding anything about it, not treat as
-an optional new instrument. Fabrication-rate tracking is the only real
-instrument for Objective 4, one of this brief's two non-negotiables — not a
-candidate for dropping. **What this license actually covers:** per-signal
-drift telemetry and the sustained-disagreement probe, both genuinely new
-verification proposals from this brief's own review process — Design may
-question, simplify, or drop either if it doesn't earn its cost, the same
-scrutiny applied to what six builds inherited. **This license covers
-everything in this section, without named exceptions for specific
-mechanisms — per Mark's own direct correction (2026-08-07): the end goals
-are fixed, form is not, and this brief was putting too much trust in form.
-See §4's single governing rule.** What actually stays fixed is a short
-list of *goals*, not mechanisms: no fabrication, ever; genuine transparency
-about sourcing and confidence; the witness-not-recruitment *requirement*;
-the world/source layer's actual content and historical fact (not
-techniques, the ground truth itself). Every mechanism currently achieving
-any of those goals — the fabrication-guard blocks' wording, the
-witness-not-recruitment blocks' wording, the prompt-level sourcing/
-confidence apparatus, `over_settling`, `citation_grounding`,
-`drift_detection`, `confirmed_glosses` — is open to redesign, replace, or
-drop, provided whatever replaces it is verified to still achieve the goal
-it existed for. The one carve-out is a scope boundary, not a protection:
-the front-end transparency UI (`CitationMarker`/`LexiconHighlight`)
-belongs to a different workstream and isn't this thread's to touch (§4).
-`over_settling` specifically is the one already-measured, most
-consequential case: its second-stage check is the single largest invisible
-cost line item after the main response itself (§4, 10-of-12-turns
-finding) — evaluate it as part of this same license, not as a special
-case needing separate permission.
+an optional new instrument. Per-signal drift telemetry and the
+sustained-disagreement probe are genuinely new verification proposals from
+this brief's own review process.
+
+**This license covers everything in this section, without named exceptions
+for specific mechanisms — per Mark's own direct correction (2026-08-07):
+the end goals are fixed, form is not, and this brief was putting too much
+trust in form. See §4's single governing rule.** What actually stays fixed
+is a short list of *goals*, not mechanisms: no fabrication, ever; genuine
+transparency about sourcing and confidence; the witness-not-recruitment
+*requirement*; the world/source layer's actual content and historical fact
+(not techniques, the ground truth itself). Every mechanism currently
+achieving any of those goals — **including fabrication-rate tracking's
+specific implementation** (the goal it verifies is fixed; the mechanism is
+not), the fabrication-guard blocks' wording, the witness-not-recruitment
+blocks' wording, the prompt-level sourcing/confidence apparatus,
+`over_settling`, `citation_grounding`, `drift_detection`,
+`confirmed_glosses`, the drift telemetry and disagreement-probe proposals
+above — is open to redesign, replace, or drop, provided whatever replaces
+it is verified to still achieve the goal it existed for, not just assumed
+to because it reads better or costs less. **Achieving a fixed goal a
+different, better, or cheaper way is the actual point of this rebuild, not
+a risk to guard against** — Mark's own scope line: this is not the worlds,
+it's everything about how a voice gets built and how a conversation
+unfolds, and none of it is off-limits by default. The one carve-out is a
+scope boundary, not a protection: the front-end transparency UI
+(`CitationMarker`/`LexiconHighlight`) belongs to a different workstream and
+isn't this thread's to touch (§4). `over_settling` specifically is the one
+already-measured, most consequential case: its second-stage check is the
+single largest invisible cost line item after the main response itself
+(§4, 10-of-12-turns finding) — evaluate it as part of this same license,
+not as a special case needing separate permission.
 
 - **Pilot first, isolated.** Rewrite the shared `_HOW_YOU_ENGAGE` block
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
