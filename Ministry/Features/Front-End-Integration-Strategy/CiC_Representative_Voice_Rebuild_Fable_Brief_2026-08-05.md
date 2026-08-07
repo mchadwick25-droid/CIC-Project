@@ -587,16 +587,18 @@ conversation at all.**
    template replacing the old one. (Mark's own words: "we need to have
    several patterns so it doesn't just repeat the same thin process.")
 3. **Stated positively first, because the constraints below exist to serve
-   this, not to replace it:** the conversation itself has to read and
-   engage the participant as a real modern person, with genuine insight and
+   this, not to replace it:** the Representative has to actually engage the
+   participant as the real modern person they are, with genuine insight and
    connection — honest, drawing out the truth and the participant's own
    perspective, carrying the world's actual uniqueness, natural and deep
    and authentic, not a performance of any of those things. Plainness and
-   readability (below) are what make that possible, not the goal itself —
-   a conversation can hit every readability number and still fail this
+   readability (below) are necessary for that, but not sufficient by
+   themselves — a conversation can pass every readability number
+   `readability_check` reports (§7 Part B, §8) and still fail this
    objective completely if it isn't actually insightful, connected, or
-   honest company. Sentences read as plain, real, everyday spoken English —
-   not costume
+   honest company; passing the floor is a prerequisite this objective
+   requires, not a substitute for the rest of it. Sentences read as plain,
+   real, everyday spoken English — not costume
    diction — while keeping each world's genuine imagery, vocabulary, and
    actual distinctiveness as seasoning, not performance. **This is
    adaptation, not dilution: the Representative is speaking to a person who
@@ -671,19 +673,33 @@ conversation at all.**
 
 ### Part A — rebuild the six Representative voices
 
-**This is a clean rebuild, not an edit pass — read this before writing
-anything, it governs every bullet below.** Design does not start from the
-current permanent prompts and work forward by auditing and adjusting them.
-It starts from the world's actual sources — lexicon chunks, story chunks,
-the World Capsule Core's own content, the Source Registry (all confirmed
-good and frozen, §4) — and from this brief's own principles (§1, §2, §6),
-and writes fresh. The current permanent prompt is one input signal among
-several, no more privileged than the raw source material, not the document
-being edited. **No comparative diffing against the current prompt is part
-of the design process itself** — that's a §8 verification activity (the
-continuity-regression pass), a different purpose (checking the rebuilt
-voice against the deployed one for returning-participant continuity), not
-how the new voice gets built.
+**This is a clean rebuild of each world's per-file prose, not an edit pass —
+read this before writing anything, it governs the per-world bullet below
+specifically.** (The shared `_HOW_YOU_ENGAGE` block and the Facilitator
+fix, both below, are genuinely edits of existing files, not rebuilds from
+zero — this principle doesn't extend to them the same way.) For each
+world's permanent prompt and World Capsule Core, Design does not start from
+the current file and work forward by auditing and adjusting it. It starts
+from that world's actual source records — `wrs/records/<world>/source/`,
+`/term/`, `/story/`, `/gravity/`, `/force/`, `/voice_profile/`, and
+`/world_core/` (the real per-world source material `wrs/views/
+permanent_prompt.py` already assembles the current deployed prompt from,
+per its own docstring: "same records → byte-identical outputs" — not a
+separate "Source Registry" file, which doesn't exist under `data/` for
+every world) — and from this brief's own principles (§1, §2, §6), and
+writes the *prose, register, and delivery* fresh. **This changes how
+something is said, never the facts being spoken** (§4) — identity, era,
+and vocabulary *content* stay exactly what the records attest; what gets
+rebuilt is the sentence-level craft carrying that content, the same
+distinction §4 already draws for the rest of this rebuild. The current
+permanent prompt is one input signal among several during that process, no
+more privileged than the source records, not the document being edited.
+**No comparative diffing against the current prompt is part of *this*
+design process** — that's a separate, §8 verification activity (the
+continuity-regression pass, which already exists and already has run
+results — see §7 Part B), a different purpose (checking the rebuilt voice
+against the deployed one for returning-participant continuity), not how
+the new voice gets built.
 
 This matters concretely, not just procedurally: Mark's own stated
 concern is that six builds have accumulated assumption rules that were
@@ -702,37 +718,55 @@ archaism — that's evidence worth weighing during the rebuild, not a reason
 to skip re-deriving it from her actual sources.
 
 **The same license applies to cost and complexity, not just voice — say so
-explicitly rather than let it default to "add more."** This brief's own
-three adversarial-review rounds added real apparatus this week: readability
-enforcement, fabrication-rate tracking, per-signal drift telemetry,
-three-level-sourcing checks, sustained-disagreement probes,
-continuity-regression testing. None of it is fixed by default just because
-this document names it — Design has explicit license to question, simplify,
-or drop any of it if it doesn't earn its cost and complexity, the same
+explicitly rather than let it default to "add more."** Not everything this
+document names is what it first appeared to be, so the license below is
+scoped to what's actually true, not to a list assembled before that was
+checked: `readability_check` is not currently wired to Representative voice
+generation at all (its only real callers are Level-2 lexicon
+plain-explanations and a test fixture, §7 Part B) — there is nothing yet to
+"drop" there, only a real decision about whether to build the connection.
+Continuity-regression testing is not new either — `wrs/views/probe_parity.py`
+already runs it for all six worlds, with real committed results (§7 Part B)
+that Design needs to read before deciding anything about it, not treat as
+an optional new instrument. Fabrication-rate tracking is the only real
+instrument for Objective 4, one of this brief's two non-negotiables — not a
+candidate for dropping. **What this license actually covers:** per-signal
+drift telemetry and the sustained-disagreement probe, both genuinely new
+verification proposals from this brief's own review process — Design may
+question, simplify, or drop either if it doesn't earn its cost, the same
 scrutiny applied to what six builds inherited. This does **not** extend to
 the no-fabrication apparatus, the witness-not-recruitment block (§4,
-untouchable under any framing), or the existing governance layer
-(`over_settling`, `citation_grounding`, `drift_detection` — §4, already
-justified as content-based, not up for reconsideration here). One real,
-already-measured tension worth naming rather than silently resolving either
-way: `over_settling_adjudication`'s second-stage check is the single
-largest invisible cost line item after the main response itself (§4,
-10-of-12-turns finding), and §4 currently treats fixing the check itself as
-out of scope. Now that lowering cost and complexity is an explicit goal of
-this rebuild, Design should raise this tension with Mark directly rather
-than assume either "still out of scope" or "now in scope."
+untouchable under any framing), the existing three-level transparent-
+sourcing mechanism (§6 Objective 4 calls it "not separable" from
+no-fabrication — protected for the same reason fabrication itself is), or
+`citation_grounding`/`drift_detection`'s existing signals (§4, already
+justified as content-based). `over_settling` is the one real,
+already-measured exception, named plainly rather than left ambiguous:
+`over_settling_adjudication`'s second-stage check is the single largest
+invisible cost line item after the main response itself (§4,
+10-of-12-turns finding), and it genuinely is open for Design to raise with
+Mark directly — §4's "out of scope" framing predates this cost/complexity
+license and doesn't automatically survive it, but reopening it is Design's
+call to make explicitly, not something this brief decides for them either
+way.
 
 - **Pilot first, isolated.** Rewrite the shared `_HOW_YOU_ENGAGE` block
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
   instruction to lead with Ecological Function material (and its
   story-chunk equivalent, `Formation Ecology Connection` — see finding B,
-  these are not the same field and need naming separately) **filtered for
-  the two real risks finding B names — roughly a quarter of Ecological
-  Function fields carrying internal build-process vocabulary ("Tensional
-  gravity," "candidate... tested"), and a handful of chunks with no Key
-  Sources marker at all whose entire body, internal notes included, passes
-  through unfiltered — neither is topical material safe to lead with**; the
-  shape
+  these are not the same field and need naming separately) **filtered
+  against internal build-process language reaching a participant, stated as
+  a general requirement, not a two-pattern list** — finding B names two
+  confirmed instances (Ecological Function fields quoting gravity-analysis
+  vocabulary; chunks with no Key Sources marker passing their whole body,
+  internal notes included, through unfiltered) but an attempt this session
+  to enumerate the full scope produced two different counts from two
+  different checks and neither is trustworthy enough to state as fact here.
+  **A full leak audit across all 118 lexicon and 60 story chunks is a
+  genuine, unfinished Research-stage task**, not a solved problem this
+  brief can hand Design a fixed list for — build the filter to catch the
+  pattern (internal apparatus vocabulary, build-process notes, template
+  instructions), not just the two confirmed examples; the shape
   repertoire from objective 2 folded into the existing "Let the Question Set
   the Shape, Not a Habit" section as one option among several — story-first,
   question-behind-the-question, plain-and-short, consensus-then-contrast.
@@ -753,16 +787,22 @@ than assume either "still out of scope" or "now in scope."
   in the cached prefix at equal weight to the permanent prompt on every
   turn, in the same elevated register, so a register fix that stops at the
   permanent prompt is capped by its own neighbor).
-  - Write each world's identity, era, vocabulary, register, and
-    reasoning-mode content fresh from its actual sources — not an audit of
+  - Write the identity, era, vocabulary, register, and reasoning-mode
+    *prose* fresh from each world's actual source records — not an audit of
     the existing paragraph labeled "how you speak," since the elevated
     register this brief diagnoses runs through more surface than that one
     paragraph (confirmed by direct reading: identity, era, and vocabulary
     paragraphs currently carry the same stylization, and a clean rebuild
     starting from sources rather than editing that paragraph is what
-    actually reaches all of it). Content, fabrication-guard, and
-    witness-not-recruitment blocks untouched — these are re-included as
-    given, not rebuilt.
+    actually reaches all of it). The *facts* those paragraphs carry — who
+    each Representative is, what span they speak from, their world's real
+    terms — are given, per §4, not rebuilt; only how those facts are said
+    is in scope. The fabrication-guard block stays completely untouched,
+    word for word (§4, no exception). The witness-not-recruitment block's
+    *content* stays untouched the same way — but §4 already permits
+    register work to reach its sentence rhythm the same as surrounding
+    prose, and that permission still holds here; "untouched" means the
+    substance, not a ban on the same register pass touching its phrasing.
   - A reasoning-mode structure — Marius's precedent-first chancery mode,
     Yausep's stage-by-stage demonstration, Theon's surface-then-depth
     unfolding, etc. — earns its place only if the world's actual sources
@@ -813,23 +853,29 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
   sources are rhetorically trained and elaborate should still keep its
   sentences within the accessibility band — elaboration belongs in
   vocabulary, imagery, and clause content, not in unbroken sentence length."
-  Both ends are real and wired: `wrs/parameters.yaml:101-114` (the canonical
-  numbers, sourced to this exact Part Five passage) and
-  `wrs/gates/core.py:211` (`readability_check`), which hard-fails rather
-  than silently passing when it can't check. **The open question this brief
-  cannot answer and must not guess at: has this gate actually been run
-  against the six current builds.** If it has and they pass, the register
-  problem isn't a missing standard at all — FK/FRE measures
-  vocabulary-independent grade level, not archaic *diction* or performed
-  formality, and text can score inside the band while still sounding like
-  costume. If it hasn't been run, that's the cheapest, most concrete first
-  Research-stage task in this brief. Either way, Part Five's real gap is
-  narrower than "no operational teeth": add the pattern-repertoire concept,
-  the bridge-first instinct, the Ecological Function/`Formation Ecology
+  The canonical numbers are real and wired: `wrs/parameters.yaml:101-114`,
+  sourced to this exact Part Five passage. `wrs/gates/core.py:211`
+  (`readability_check`) is real code, correctly implemented, and hard-fails
+  rather than silently passing when it can't check — but **it is not
+  currently wired to Representative voice generation at all.** Checked
+  directly: its only real callers are `wrs/views/plain_explanation.py`
+  (Level-2 lexicon plain-explanations) and three fixtures in
+  `wrs/gates/run_gates.py`. No world's `voice_profile` record connects it to
+  the permanent prompt or capsule. **This changes the shape of Part Five's
+  actual gap: for voice specifically, enforcement genuinely doesn't exist
+  yet — this isn't an extension of an existing, working mechanism for that
+  purpose, it's building the connection from scratch**, even though the
+  standard and the check function it needs are both already real. Confirm
+  this directly in Research rather than trust this brief's own account
+  (§9): if a later check finds it *has* been wired somewhere this session
+  didn't find, that changes what Design needs to build; if it's confirmed
+  unwired, wiring `readability_check` to the six voice prompts (or their
+  `wrs/records/` assembly path) is real, concrete Design-stage work, not
+  optional. Either way, add the pattern-repertoire concept, the
+  bridge-first instinct, the Ecological Function/`Formation Ecology
   Connection` instruction (see finding B), and the worked-example
-  requirement — still real, needed additions — but as an extension of an
-  existing, working mechanism, not as if enforcement is being invented from
-  nothing.
+  requirement — still real, needed additions, alongside whatever it takes
+  to actually connect the gate to voice.
 - **Part Eight (the validation probe battery)** — add a naturalness/register
   probe category. Confirmed directly: Part Eight has no such category
   today — that part of this finding was correct. But "naturalness" needs to
@@ -854,16 +900,31 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
   captures *which* of the twenty signals fired in a form the verification
   harness can report (§8's per-signal breakdown) — that's the real
   instrumentation task, plus adding the one missing initiative signal.
-- **New: a continuity-regression-testing step, required before any future
-  voice-affecting prompt change reaches a built world — including this
-  rebuild's own output before it ships.** The Realness Study's clearest
-  governance lesson: personality is a versioned artifact, and a voice change
-  that reads as objectively better can still break a returning participant's
-  sense of who they were talking to. Same probes, old prompt vs. new prompt,
-  diff the actual voice — before merge, not after a complaint. This is the
-  concrete mechanism Objective 5's "self-sufficient" standard needs for
-  voice specifically, the same way Part Eight's validation battery already
-  exists for content.
+- **Continuity-regression testing already exists — this is not a new
+  mechanism to build, and its existing results are consequential enough
+  that Design needs to read them before starting, not discover them
+  mid-build.** `wrs/views/probe_parity.py` (plus five per-world variants)
+  already runs a blind, two-trial, A/B-graded comparison of the deployed
+  prompt against the record-assembled one, on register/measure/refusal/
+  vocabulary, with committed results in `wrs/views/staging/`. **Read cold,
+  those results: Desert and PAHC pass; Alexandria, Hieronymian, IJC, and
+  Syriac fail — four of six, including both of §7's own lead acceptance
+  worlds (Albina, Marius).** This brief cited this exact file twice
+  elsewhere (§4, §7 Part A) without ever naming what it already found. What
+  it means for this rebuild: the Realness Study's governance lesson
+  (personality is a versioned artifact; a voice change that reads as
+  objectively better can still break continuity for a returning
+  participant) is not a future risk to guard against, it's already live,
+  documented, in the two worlds this thread starts with. One real
+  methodological catch worth Design resolving explicitly, not silently:
+  `probe_parity`'s own pass criterion checks the rebuilt voice *against*
+  the current deployed one — which means, by construction, a genuinely
+  successful register rebuild (one that actually changes the voice, on
+  purpose) would also read as a "failure" on this exact check unless the
+  criterion itself is adjusted for what this rebuild is trying to do. Don't
+  run the existing check unmodified and read a pass/fail off it without
+  first deciding what "continuity" should mean when the voice is supposed
+  to change.
 - **New: adapt the Realness Study's 16-trait human-likeness rubric as a
   named validation instrument**, keeping the study's own caveat intact —
   some traits (informal grammar, typos) are excluded as incompatible with
@@ -916,11 +977,12 @@ naming real instruments, not more prose:
 - **A counted term-reclarification tally** — grep or classify transcript
   turns for the unprompted "when I said X a moment ago" pattern finding (C)
   is about, and report a rate. Nothing today produces this automatically.
-- **A continuity-regression pass on all six voices**, per §7 Part B's new
-  requirement — same probes run against the current, unrebuilt prompt and
-  the rebuilt one, diffed directly, before this thread's output is treated
-  as ready to ship, not only "does the rebuilt voice pass its own probes in
-  isolation." **This is a verification activity, not a design one — it
+- **A continuity-regression pass on all six voices** — the existing
+  mechanism (§7 Part B: `wrs/views/probe_parity.py`, already run, four of
+  six worlds already failing), with its pass criterion re-examined for what
+  it should mean against a deliberately-changed voice before this thread's
+  output is treated as ready to ship, not only "does the rebuilt voice pass
+  its own probes in isolation." **This is a verification activity, not a design one — it
   doesn't contradict §7 Part A's "no comparatives" principle.** The rebuild
   itself is built fresh from sources, never by editing the current prompt;
   this pass exists afterward, to catch whether the fresh build broke
@@ -965,12 +1027,14 @@ naming real instruments, not more prose:
   worlds — a stronger, more auditable bar than a transcript read by eye
   alone.
 - Before treating any finding in this brief as settled, verify it against
-  the file/line cited, per §3's standing discipline — this brief's own
-  round-1 Opus adversarial review found and corrected eight send-blocking
-  errors in the draft that preceded this one; read it directly
+  the file/line cited, per §3's standing discipline — this brief has been
+  through four Opus adversarial rounds as of 2026-08-07, each catching real
+  errors the previous ones missed, several inside material the prior
+  round's own fixes had just added; read all four directly
   (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_Opus_Adversarial_
-  Review_Round1_2026-08-06.md`) for the full account of what changed and
-  why, not just this revised text.
+  Review_Round1_2026-08-06.md` through `..._Round4_2026-08-07.md`) for the
+  full account of what changed and why, not just this revised text — and
+  check whether a round 5 exists before treating round 4 as the last word.
 
 ## 9. One thread, staged — research, design, blueprint, build, each gated by adversarial review
 
@@ -1070,17 +1134,21 @@ condition for moving on, not a sufficient one. This is the single most
 important process fact in this brief, given Mark's own framing: "this is
 the most critical rebuild we have done."
 
-**Round 1 of this brief's own required Opus adversarial pass ran on
-2026-08-06** (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_Opus_
-Adversarial_Review_Round1_2026-08-06.md`) — verdict: not ready, eight
-send-blocking defects, all applied directly to this document (§1, §3, §4,
-§5, §7, §8, and this section). Per the same project precedent that caught
-new errors in the System Redesign brief's own round-3 fix pass (that
-brief's docs 18→19), **a round 2 pass checking this fix itself is still
-warranted before Friday** — a rewrite this size is exactly the kind of pass
-most likely to introduce a new citation error while correcting the old
-ones, and round 2 exists to catch that, not to re-litigate what round 1
-already settled.
+**Four rounds of this brief's own required Opus adversarial pass have run
+as of 2026-08-07** (`Ministry/Operations/Audits/CiC_VoiceRebuild_Brief_
+Opus_Adversarial_Review_Round1_2026-08-06.md` through `..._Round4_
+2026-08-07.md`) — a stable pattern across all four, worth Fable knowing
+before treating any future round as the last one needed: corrections that
+delete or re-point a claim hold up clean on independent re-derivation;
+whenever a fix pass also introduces new positive prose (a restructuring, a
+new resolution, a new instrument claim), that new prose has reliably
+contained new errors, checked or not. **The operating rule this implies:
+after any future fix pass, run another adversarial round if that pass
+added new claims, not just corrections — and if a pass is corrections-only,
+a full round is likely not proportionate; a targeted re-check of what
+changed is.** Whether this document is ready to send is whatever the most
+recent round on file says, not this paragraph's own account of an earlier
+one.
 
 If partway through this genuinely doesn't fit in the available Fable budget,
 say so plainly and stop at a clean boundary (e.g., after the pilot, or after
