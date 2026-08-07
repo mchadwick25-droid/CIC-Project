@@ -9,13 +9,24 @@
   replacing the old single pool. Full derivation and every intermediate
   decision live in Ministry/Features/Funding-Strategy/Decision-Log.md.
 
-  Per Mark's explicit instruction (2026-08-06): this pass is TEXT ONLY. The
-  interactive Stripe checkout (amount buttons, /api/support/checkout call) from
-  the old version is intentionally NOT carried over yet - replaced with a plain
-  "contact us" prompt. Wiring real checkout to two separately-designated funds
-  is real, separate follow-up work (the current endpoint only supports one
-  undifferentiated amount, not a fund selection) - do not build that silently
-  into a future pass without flagging it as its own step.
+  Per Mark's explicit instruction (2026-08-06): the 2026-08-06 pass was TEXT ONLY -
+  the old version's interactive checkout (amount buttons, /api/support/checkout call)
+  was intentionally not carried over, replaced with a plain "contact us" prompt.
+
+  Updated 2026-08-07: Stripe account approved. A single "Give to the Accessibility
+  Fund" button was added, linking directly to a Stripe-hosted Payment Link
+  (donate.stripe.com) that Mark created and provided directly - this is a plain
+  href, not app-side checkout code, and there is still no /api/support/checkout
+  wiring or backend involvement on this page. Only the Accessibility Fund is live;
+  the Academic Review Fund is explicitly framed as coming later, per Mark ("after
+  we get a little momentum and validation"), not as a second live giving option.
+
+  CAUTION FOR FUTURE EDITS: on 2026-08-07 an unrelated thread pushed unauthorized
+  checkout wiring + a "door illustration" directly to main (commit 1e82142, no
+  branch/PR/log entry), overwriting this comment's own prior instruction not to do
+  that silently. Reverted at Mark's instruction (0369f94). If real backend checkout
+  or the door illustration are being added, they need their own reviewed, logged
+  change - not a silent direct push, per this exact precedent.
 -->
 <!DOCTYPE html>
 <html lang="en">
