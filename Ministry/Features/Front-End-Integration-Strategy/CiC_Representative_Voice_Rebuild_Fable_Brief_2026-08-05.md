@@ -16,6 +16,20 @@ answers." A voice a participant has to work to get into is quietly failing
 "protect the participant's authorship" — it's making *them* cross into the
 world, when a Representative's whole premise is that it crosses toward them.
 
+**The plain-language test, alongside Article 6's formal one: would a modern
+person actually enter into this the way they already do with other
+programs, trust that what it says is true, and come away impressed rather
+than lectured?** That means real adaptation, not translation-as-dilution —
+the Representative is speaking *to* a person who lives now, not to someone
+from its own world, so the delivery has to move toward them (plain
+sentences, an entry point they already recognize, a reading level that
+doesn't gate who gets in) while the actual content — imagery, vocabulary,
+distinctiveness, the world's real positions — stays genuinely that world's
+own. Diluting the content to ease the delivery fails Article 6's honesty
+condition; refusing to adapt the delivery fails this test before the
+content ever gets heard. Both failures are real, and this rebuild has to
+solve for both at once, not trade one for the other.
+
 ## 2. What this rebuild is for
 
 Mark named the actual architectural inversion needed: this system was built
@@ -47,13 +61,18 @@ does.
   dated **2026-08-05 — "Live conversation test run"** — real per-call cost
   data, the exact defects and quotes found, and the two adjacent defects
   (§4) this brief carves out of scope. **The full transcripts themselves are
-  not in this entry** (its own line 57 says so directly) — they were
+  not in this entry** (its own line 59 says so directly) — they were
   rendered as a claude.ai Artifact, not a repository file this thread can
   read. Treat the entry's own quotes and findings as the evidentiary record,
-  not an "actual transcripts" claim this brief can't back up. That entry's
-  own findings list (its lines 12 and 15) predates this brief's finding (A)
-  and (C) corrections below and now carries a superseding note pointing
-  here — read this brief's §5 for the current diagnosis, not that list.
+  not an "actual transcripts" claim this brief can't back up. **Treat that
+  entry's entire findings list as superseded, not just the two lines its own
+  note marks:** bullet 1 (the "100%" register claim), bullet 2 (finding B's
+  "every retrieved chunk" claim — actually 109 of 118 lexicon chunks, and
+  story chunks under a different field name entirely), bullet 4 (the
+  original worked-examples conclusion), and bullet 6 ("the three plainest
+  worlds," contradicted by Yausep's own measured sentence length) are all
+  superseded by this brief's §5, marked or not — read §5 for the current
+  diagnosis in every case.
 - `L3C-Representative-Methodology/
   CiC_L3C_Representative_Construction_Framework_V3.2.docx` — the current
   Construction Framework, Part Five (Voice Construction) and Part Eight (the
@@ -86,14 +105,22 @@ does.
     §7 Part B and §8.
   - `.../09_External_AIPersona_Framework_Survey.md` — verified field
     inventories from shipping persona systems (Character Card V1-V3,
-    SillyTavern). Two findings bear directly on this brief: example dialogue
-    is treated industry-wide as *ephemeral*, pruned first under context
-    pressure, never permanent — worth weighing against §7 Part A's plan to
-    add worked examples straight into the permanent prompt; and
+    SillyTavern). Its own verdict on worked examples is **mixed, not
+    industry-wide either direction — "it is not unanimous," the document's
+    own words.** Character Card's own spec allocates 0-32,000 characters to
+    example dialogue against 500 for description (Character.AI's real
+    production numbers match that ratio) — a strong signal *for* worked
+    examples as load-bearing, not evidence they're ephemeral. Two other
+    major vendors structure persona work almost entirely around named
+    traits instead. Read as genuine, unresolved evidence on both sides of
+    §7 Part A's worked-example plan, not as a reason to lean either way in
+    advance — Fable's Research stage still has to answer this for CiC's own
+    case, not import a verdict this survey doesn't actually give. Separately,
     `post_history_instructions` exists because instructions placed after
     conversation history carry measurably stronger weight than instructions
-    before it — independent, external confirmation of the exact principle
-    behind FLAG-018 layer 3 (finding C), that the constraint most needing to
+    before it — this one *is* a clean, single-direction finding, and
+    independent, external confirmation of the exact principle behind
+    FLAG-018 layer 3 (finding C), that the constraint most needing to
     survive attention decay rides closest to generation.
   - `.../07_RepresentativeVoice_Lenses_Audit.md` — already investigated
     whether pre-written insight material (Ecological Function and its kin)
@@ -142,8 +169,16 @@ does.
   limit... the question is whether the specific qualification this claim
   needs is present, not whether the voice sounds modest"), `citation_grounding`
   (`app/graph/nodes.py`, explicitly tolerant of paraphrase, purely
-  content-mapping), and `drift_detection`'s ten signals are all content- or
-  posture-based, not register-based. One exception worth empirical
+  content-mapping), and `drift_detection`'s signals — **twenty declared
+  types** (`app/graph/state.py`'s `DriftSignal.signal_type`, confirmed by
+  count; `wrs/parameters.yaml:116-121` records the same number and its own
+  history — an earlier "ten" or "seventeen" count is stale, flagged FLAG-016
+  in that file) — are all content- or posture-based, not register-based.
+  Two of the twenty are worth naming here specifically since §7 Part B
+  cites them: `agreeing` (signal 3) and `over_producing` (signal 4) already
+  exist as declared types, covering agreement-drift and response-length
+  growth by name — see §7 Part B for what that changes about the "new
+  telemetry" framing. One exception worth empirical
   attention, not redesign: `FLATTENING` ("sounds like educated generic
   Christian voice with historical accent") is a holistic LLM judgment that
   could plausibly read "plainer" as "more generic" — watch it in verification
@@ -170,6 +205,19 @@ does.
   isn't mirrored into the matching `wrs/records/` entry desyncs the record
   layer the gates (including the readability gate in §7 Part B) read. §7's
   per-world passes must update both files in the same pass.
+- **The existing interview-vs-table turn-length tuning.** A solo Deep
+  Interview conversation and a multi-Representative Table conversation are
+  already, deliberately, held to different pacing — `REACTIVE_TURN_
+  GUIDANCE`'s length ceiling for a non-first speaker in a round,
+  `OPENING_TURN_LARGE_TABLE_GUIDANCE`'s own separate allowance for a
+  round's opening turn, and `table_discourse.py`'s per-world reasoning
+  reached because a crowded table has to stay readable one idea per turn,
+  while a solo conversation can afford more room to develop a single idea.
+  This predates the voice rebuild and is not itself in scope — but the
+  register work touches the same files this tuning lives in
+  (`_HOW_YOU_ENGAGE`, per-world reasoning-mode paragraphs), so it has to be
+  read and preserved deliberately, not overwritten as a side effect of a
+  register pass that never decided to change it.
 - **Two adjacent, already-diagnosed defects, deliberately not bundled here** —
   log them for Mark's own separate triage rather than fixing them as part of
   this thread:
@@ -247,13 +295,37 @@ it.** Measured directly against every chunk file, not sampled:
   discarded by the lexicon parser before serialization — it survives only as
   `doc.metadata["tier"]` (`app/rag/indexer.py:227`), reachable for sorting
   (§4's retrieval-ordering note) but never as text the model actually reads.
+  **A real risk inside the 109 that do carry the field, worth Fable knowing
+  before "lead with Ecological Function" becomes an instruction: at least a
+  quarter of them carry internal build-process language, not participant-safe
+  insight.** `hal_lex11_exegesis-practiced-authority.md`'s own Ecological
+  Function field reads, verbatim: *"The evidentiary core of this world's one
+  Tensional gravity... this candidate was tested directly and found
+  insufficient to establish a difference in kind."* "Tensional gravity" and
+  "candidate... tested" are this project's own internal gravity-analysis
+  vocabulary (Doc_04/Doc_08 apparatus), not anything a participant should
+  ever hear spoken — and this field sits before Key Sources, so nothing
+  currently strips it before it reaches generation context. The Lenses Audit
+  (§3) independently measured this same leak across the corpus and found it
+  concentrated exactly where the risk-ordered build sequence starts —
+  Albina's own Hieronymian set. §7 Part A's instruction needs an explicit
+  filter for this, not just a pointer at the field name.
 - **Story chunks (60 total):** all 60 carry the same instinct, but under a
   different name — `## Formation Ecology Connection`, not `Ecological
   Function`. None carry a `Distortion Risk` equivalent; no such field exists
-  in the story-chunk format at all. Story `Tier` is different again: it sits
-  as a plain header line, not inside a stripped front-matter block, so —
-  unlike lexicon `Tier` — it does reach the model as text on every
-  retrieval.
+  in the story-chunk format at all. Story `Tier` reaches the model, but not
+  for the reason an earlier draft of this finding claimed (**a real
+  correction, not a restatement**): it is not that story front matter
+  escapes the stripping lexicon front matter gets — 35 of the 60 story
+  files carry the identical `## Retrieval Front-Matter` block lexicon files
+  do. Tier reaches the model because `app/rag/story_retriever.py:148`
+  explicitly synthesizes it into every retrieved story's own context header
+  (`f"### {title} (Tier {tier})\n"`, pulled from `doc.metadata["tier"]`),
+  independent of whatever happens to the body — a deliberate code behavior,
+  not an accident of file layout. Lexicon's own retriever
+  (`app/rag/retriever.py`) has no equivalent line, which is the actual,
+  narrow reason lexicon `Tier` doesn't reach the model and story `Tier`
+  does.
 
 Confirmed directly via `app/rag/retriever.py:get_context_for_response`:
 `Key Sources` is stripped (`truncate_at(body, KEY_SOURCES_MARKERS)`), and,
@@ -377,8 +449,10 @@ reproduce "over formal / distracting" — but "the three plainest worlds
 already" overstates it, and shouldn't be repeated as written.** Read cold,
 all three (Papnoute, Chloe, Mar Yausep) handled real pushback substantively
 and didn't read as generic or archaic in a way that visibly matches the
-complaint — that part holds; full transcripts and cost data are in the
-Decision Log entry named in §3. But measured mean sentence length from those
+complaint — that part holds; the Decision Log entry named in §3 carries the
+real quotes and cost data this finding rests on, not the full transcripts
+themselves (§3's own correction — those live only in a claude.ai Artifact).
+But measured mean sentence length from those
 same baseline transcripts complicates "plainest": Papnoute 14.6 words/
 sentence, Chloe 16.6 — genuinely short — but **Yausep 23.0**, statistically
 indistinguishable from **Albina's 23.6**, the world this brief treats
@@ -396,10 +470,45 @@ deliberate live-testing**, not assumed safe as a "plain" baseline.
 
 ## 6. The concrete objectives
 
+**Priority, not just a list — two parallel things this rebuild fails at its
+peril, one mechanism that makes the first of them possible, a second tier,
+and one thing held apart because it isn't a property of any single
+conversation at all.**
+
+- **Two parallel, non-negotiable priorities — neither one waits on the
+  other, and either one failing fails the whole program:** Objective 3
+  (conversation quality — clear, easy to understand, engaging, genuinely
+  that world's own flavor) and Objective 4 (honest, rigorous
+  representation — from the real source record, no fabrication,
+  transparently sourced). These are not sequential; they're the two axes
+  the Mission's plain-language test (§1) actually measures.
+- **Objective 1, bridge-first entry, is the mechanism that makes Objective 3
+  achievable — not a third priority sitting beside it.** If a participant
+  has to work to orient themselves before a conversation starts making
+  sense, "clear, easy to understand, engaging" has already failed,
+  regardless of how good the content underneath is. It has to run
+  circularly (participant → bridge → world → back to the participant, an
+  actual loop, not a one-way handoff), which is a real design task on its
+  own — see the note at the end of Objective 1 below.
+- **Tier 2, real but not immediately program-ending:** Objective 2
+  (insightful, well-ordered answers) and Objective 6 (consistent — holds
+  under pressure, doesn't drift, doesn't compromise).
+- **Held apart, not ranked among the others at all:** Objective 5. A
+  replicable build process is a property of the system that produces
+  conversations, not a property of any one conversation, and doesn't belong
+  ranked against qualities a participant actually experiences.
+
 1. Every Representative opens from where the participant actually stands —
    a recognizable want, fear, or doubt — before reaching for the world's own
    vocabulary or imagery. Period flavor arrives once the bridge is built, not
-   as the price of admission.
+   as the price of admission. **The circular half of this, not yet a
+   concrete mechanism:** a real callback to something the participant
+   already said is what actually closes the loop back to them, rather than
+   the conversation only ever launching forward from an opening bridge. The
+   Realness Study's "proactive memory surfacing" finding (§3) is the
+   closest existing lever — worth Fable's Research stage treating as a real
+   design task, not an assumption that circularity falls out of bridge-first
+   for free.
 2. A substantive answer draws on what's genuinely insightful (Ecological
    Function, Distortion Risk) rather than whatever's topically nearest, and,
    when the question calls for it, is built in a defensible order: most sure
@@ -409,10 +518,33 @@ deliberate live-testing**, not assumed safe as a "plain" baseline.
    several patterns so it doesn't just repeat the same thin process.")
 3. Sentences read as plain, real, everyday spoken English — not costume
    diction — while keeping each world's genuine imagery, vocabulary, and
-   actual distinctiveness as seasoning, not performance. Albina's periodic
-   rhythm is the one deliberate, formation-accurate exception, kept
-   substantively.
-4. No fabrication rule moves, anywhere, under any framing.
+   actual distinctiveness as seasoning, not performance. **This is
+   adaptation, not dilution: the Representative is speaking to a person who
+   lives now, not to someone from its own world, so the delivery moves
+   toward them while the content stays genuinely that world's own** (§1).
+   Concretely, that means holding to Part Five's own reading-level floor
+   (Flesch-Kincaid grade 8-10, Flesch Reading Ease 60+) as an access
+   requirement, not a style suggestion — a reader who isn't already fluent
+   in this register has to be able to get in at all. **Albina's periodic
+   rhythm is not an exemption from that floor.** Part Five's own text
+   already draws the line this needs: register elaborateness and
+   accessibility are separate axes, and "a world whose own sources are
+   rhetorically trained and elaborate should still keep its sentences
+   within the accessibility band — elaboration belongs in vocabulary,
+   imagery, and clause content, not in unbroken sentence length." Measured
+   today she runs 23.6 words/sentence — her periodic quality has to survive
+   being achieved through clause richness and vocabulary rather than raw
+   sentence length, a real design problem this rebuild has to actually
+   solve for her, not wave past.
+4. No fabrication rule moves, anywhere, under any framing. **Paired with
+   transparent sourcing, not separable from it** — the existing three-level
+   transparency mechanism (Article 30: inline in the text, hover for a
+   summary, click for full detail — already built, `CitationMarker`/
+   `LexiconHighlight`) has to keep working honestly through this rebuild,
+   including its one known real defect (the `key_sources` leak, §4) and its
+   one open placement question (per-turn marker vs. something closer to
+   per-story) — neither is this thread's job to fix, but both are this
+   thread's job not to make worse by changing what citations actually carry.
 5. The Construction Framework itself changes so that world #7 doesn't
    reintroduce this exact gap — "self-sufficient... as we have done all
    along," Mark's own words. This is not optional scope; it's the actual
@@ -435,7 +567,11 @@ deliberate live-testing**, not assumed safe as a "plain" baseline.
   (`representative_prompts.py:5-76`) — bridge-first entry; explicit
   instruction to lead with Ecological Function material (and its
   story-chunk equivalent, `Formation Ecology Connection` — see finding B,
-  these are not the same field and need naming separately); the shape
+  these are not the same field and need naming separately) **filtered for
+  the real risk finding B also names — roughly a quarter of Ecological
+  Function fields carry internal build-process vocabulary ("Tensional
+  gravity," "candidate... tested") that must never reach a participant, not
+  just topical material to lead with**; the shape
   repertoire from objective 2 folded into the existing "Let the Question Set
   the Shape, Not a Habit" section as one option among several — story-first,
   question-behind-the-question, plain-and-short, consensus-then-contrast.
@@ -532,13 +668,18 @@ CiC_L3C_Representative_Construction_Framework_V3.2.docx`:
   the framework can restate its own good philosophy indefinitely while
   builds keep drifting from it unnoticed until someone runs a live
   conversation test months later.
-- **New: drift telemetry, instrumented, not just described.** The Realness
+- **Drift telemetry, made visible, not invented from nothing.** The Realness
   Study (§3) names three specific, measurable signals that degrade over a
   long conversation — response-length growth, declining initiative, and
-  agreement-rate drift. These are not among `drift_detection`'s existing ten
-  content/posture-based signals (§4) — a genuinely new telemetry category,
-  not a relabeling of what already exists. §8's per-signal drift breakdown
-  should capture all three explicitly.
+  agreement-rate drift. **A real correction to how this was first framed:**
+  two of the three already exist as declared signal types — `agreeing`
+  (signal 3) and `over_producing` (signal 4, response length by name) —
+  among `drift_detection`'s twenty (§4), not ten. Declining initiative has
+  no existing equivalent and is the one genuinely new signal to add. The
+  actual gap isn't missing signal types, it's visibility: nothing today
+  captures *which* of the twenty signals fired in a form the verification
+  harness can report (§8's per-signal breakdown) — that's the real
+  instrumentation task, plus adding the one missing initiative signal.
 - **New: a continuity-regression-testing step, required before any future
   voice-affecting prompt change reaches a built world — including this
   rebuild's own output before it ships.** The Realness Study's clearest
@@ -592,12 +733,12 @@ naming real instruments, not more prose:
   numbers.
 - **A per-signal drift breakdown**, built if it doesn't already exist as
   usable data. `drift_detection` currently reaches usage logs as one
-  undifferentiated label — which of the ten signals fired (including
-  `FLATTENING`, §4's one open governance question) isn't captured today.
-  Needs light instrumentation before it's a real metric. Extend it to also
-  capture the Realness Study's three signals (§3, §7 Part B) — response
-  length, initiative, agreement rate, turn-over-turn — which are new
-  telemetry, not among the existing ten.
+  undifferentiated label — which of the twenty signals fired (including
+  `FLATTENING` and `agreeing`/`over_producing`, §4's governance note and §7
+  Part B) isn't captured today. Needs light instrumentation before it's a
+  real metric — surfacing signals that already exist, not building new
+  ones, except for the one genuinely missing initiative signal §7 Part B
+  names.
 - **A counted term-reclarification tally** — grep or classify transcript
   turns for the unprompted "when I said X a moment ago" pattern finding (C)
   is about, and report a rate. Nothing today produces this automatically.
@@ -633,6 +774,11 @@ naming real instruments, not more prose:
   Ecological Function field (5 of 9 project-wide, finding B) — the world
   most exposed to §7 Part A's lead-with-insight instruction silently
   no-op'ing.
+- **A sustained-disagreement probe, run across multiple turns per world, not
+  a single-turn tone check** — the actual instrument Objective 6 needs and
+  didn't have before this revision: pressure a Representative toward
+  agreement repeatedly across a conversation and confirm it holds its
+  world's real position rather than softening by the third or fourth push.
 - Run at minimum the confidence-under-thinness and **Sustained Engagement
   Testing** (Part Eight's actual name for the multi-turn-coherence
   category — corrected here) probe categories from the Framework's existing
