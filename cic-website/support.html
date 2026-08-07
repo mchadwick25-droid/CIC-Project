@@ -9,13 +9,18 @@
   replacing the old single pool. Full derivation and every intermediate
   decision live in Ministry/Features/Funding-Strategy/Decision-Log.md.
 
-  Per Mark's explicit instruction (2026-08-06): this pass is TEXT ONLY. The
-  interactive Stripe checkout (amount buttons, /api/support/checkout call) from
-  the old version is intentionally NOT carried over yet - replaced with a plain
-  "contact us" prompt. Wiring real checkout to two separately-designated funds
-  is real, separate follow-up work (the current endpoint only supports one
-  undifferentiated amount, not a fund selection) - do not build that silently
-  into a future pass without flagging it as its own step.
+  Per Mark's explicit instruction (2026-08-06): the 2026-08-06 pass was TEXT
+  ONLY, replacing the interactive Stripe checkout with a plain "contact us"
+  prompt on purpose, since fund-selection (Accessibility vs. Academic Review)
+  wasn't wired to the backend yet. Reconciled 2026-08-07 with the
+  claude/pilot-spend-limit-design-inisga branch's door-mechanism build (System
+  Hub sync, git history both confirm this is the planned next step from the
+  same 2026-08-06 Mark session, not a stale competing version): the door
+  illustration, real checkout buttons, and live API_BASE wiring below are
+  carried over from that branch onto this page's current copy/structure.
+  Fund-selection is still NOT wired - a gift still goes to one undifferentiated
+  endpoint regardless of which fund the copy above names; that remains real,
+  separate follow-up work, same as this note already said.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +34,66 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+.give-group { margin: 1.6rem 0; }
+.give-group .label {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold-leaf); font-weight: 700; margin: 0 0 0.7rem;
+}
+.give-amounts {
+  display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center;
+}
+.amt-btn {
+  font-family: 'Alegreya Sans', sans-serif; font-weight: 600; font-size: 0.95rem;
+  padding: 0.7rem 1.3rem; border-radius: 4px; border: 1.5px solid var(--madder);
+  background: transparent; color: var(--madder); cursor: pointer;
+}
+.amt-btn:hover, .amt-btn:focus-visible { background: rgba(161,62,43,0.07); }
+.amt-btn[data-suggested="true"] { background: var(--madder); color: var(--vellum); }
+.amt-btn[data-suggested="true"]:hover { background: var(--gold-leaf); border-color: var(--gold-leaf); }
+.amt-btn:disabled { opacity: 0.55; cursor: wait; }
+.give-other {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: 'Alegreya Sans', sans-serif; font-size: 0.95rem;
+}
+.give-other span { color: var(--muted); }
+.give-other input {
+  width: 5rem; font-family: 'Alegreya', Georgia, serif; font-size: 1rem;
+  padding: 0.6rem 0.6rem; border: 1px solid var(--rule); border-radius: 5px;
+  background: var(--vellum); color: var(--iron-gall);
+}
+.give-other button {
+  font-family: 'Alegreya Sans', sans-serif; font-weight: 600; font-size: 0.9rem;
+  padding: 0.65rem 1rem; border-radius: 4px; border: 1.5px solid var(--madder);
+  background: transparent; color: var(--madder); cursor: pointer;
+}
+.give-other button:hover { background: rgba(161,62,43,0.07); }
+.give-status {
+  font-family: 'Alegreya Sans', sans-serif; font-size: 0.9rem;
+  margin-top: 0.9rem; display: none;
+}
+.give-status.show { display: block; }
+.give-status.error { color: var(--madder); }
+.thanks-banner {
+  background: var(--vellum); border: 1px solid var(--rule); border-left: 3px solid var(--gold-leaf);
+  border-radius: 0 6px 6px 0; padding: 1.3rem 1.5rem; margin: 0 0 1.8rem; display: none;
+}
+.thanks-banner.show { display: block; }
+.door-illustration {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.4rem 0;
+}
+.door-illustration svg { flex-shrink: 0; display: block; }
+.door-illustration p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0;
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -88,9 +153,66 @@
     <h2>Be Part of It</h2>
     <p>Give to the Accessibility Fund to help more people, in more languages, explore more Christian traditions. Give to the Academic Review Fund to help deepen our historical rigor.</p>
 
+    <div class="door-illustration">
+      <!-- Static and illustrative only - not live data. Same visual
+           language as the app's own door gauge (cic-poc/frontend's
+           DoorGauge.tsx): a lit doorway, a wood panel covering part of
+           it. Colors match that component's --color-representative-bg /
+           --color-wood values directly (no shared CSS between the two
+           surfaces, just a shared design spec) rather than a new icon
+           unrelated to it. Deliberately not the atlas-v3.html "ic-door"
+           symbol elsewhere on this site - that one marks traditions
+           outside this project's scope, a different meaning entirely. -->
+      <svg width="45" height="60" viewBox="0 0 60 80" role="img" aria-label="An illustration of a partly-open door.">
+        <rect x="5.5" y="5.5" width="49" height="69" fill="#FBF2E2"/>
+        <rect x="32.45" y="5.5" width="22.05" height="69" fill="#6B583A"/>
+        <rect x="4" y="4" width="52" height="72" fill="none" stroke="#6B583A" stroke-width="3"/>
+      </svg>
+      <p>Every gift — of any size — helps keep the door open for the next seeker.</p>
+    </div>
+
+    <div class="thanks-banner" id="thanksBanner">
+      <p class="label">Thank you</p>
+      <p>Your gift is in — genuinely grateful. It's already helping keep a seat open for someone who couldn't otherwise afford one.</p>
+    </div>
+
+    <div class="callout">
+      <div class="give-group">
+        <p class="label">Give once</p>
+        <p>A one-time gift of $10 covers a full month of access for someone who couldn't otherwise afford it.</p>
+        <div class="give-amounts" data-mode="once">
+          <button class="amt-btn" type="button" data-amount="500">$5</button>
+          <button class="amt-btn" type="button" data-amount="1000" data-suggested="true">$10</button>
+          <button class="amt-btn" type="button" data-amount="2500">$25</button>
+          <span class="give-other">
+            <span>or</span>
+            <input type="number" inputmode="decimal" min="1" step="1" placeholder="Other $" aria-label="Other one-time amount in dollars" data-other-input="once">
+            <button type="button" data-other-submit="once">Give</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="give-group">
+        <p class="label">Give monthly</p>
+        <p>$8 a month keeps the door open for eight more seekers who couldn't otherwise afford it.</p>
+        <div class="give-amounts" data-mode="monthly">
+          <button class="amt-btn" type="button" data-amount="500">$5</button>
+          <button class="amt-btn" type="button" data-amount="800" data-suggested="true">$8</button>
+          <button class="amt-btn" type="button" data-amount="1500">$15</button>
+          <span class="give-other">
+            <span>or</span>
+            <input type="number" inputmode="decimal" min="1" step="1" placeholder="Other $/mo" aria-label="Other monthly amount in dollars" data-other-input="monthly">
+            <button type="button" data-other-submit="monthly">Give</button>
+          </span>
+        </div>
+      </div>
+
+      <p class="give-status" id="giveStatus" role="status"></p>
+    </div>
+
     <p style="font-size:0.92rem;color:var(--muted);">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
 
-    <p>Direct giving isn't set up on this page yet — if you'd like to give to either fund, reach out and we'll sort it out with you personally:</p>
+    <p>Prefer to give directly, or give a larger gift? Reach out and we'll sort it out with you personally:</p>
     <p style="text-align:center;margin:1.6rem 0;">
       <a class="btn secondary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
     </p>
@@ -110,5 +232,80 @@
   </div>
 </footer>
 
+<script>
+// SH-9: same LIVE_APP_URL pattern as index.html/atlas-v3.html - live
+// locally during dev, the real deployed backend otherwise. Previously left
+// blank on purpose (every button below still fails gracefully to the email
+// CTA if a request errors), now pointed at the real Render URL per the
+// door-mechanism build's Phase 0 (real gifts have to actually reach the
+// backend before any of the rest of that work matters).
+const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+const API_BASE = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
+
+const statusEl = document.getElementById('giveStatus');
+function showStatus(message, isError) {
+  statusEl.textContent = message;
+  statusEl.className = 'give-status show' + (isError ? ' error' : '');
+}
+
+async function startCheckout(mode, amountCents, triggerBtn) {
+  if (!API_BASE) {
+    showStatus("Direct giving isn't quite live yet — email us above and we'll sort it out personally.", true);
+    return;
+  }
+  if (!Number.isFinite(amountCents) || amountCents < 100) {
+    showStatus('Please enter an amount of at least $1.', true);
+    return;
+  }
+  const buttons = document.querySelectorAll('.amt-btn, [data-other-submit]');
+  buttons.forEach((b) => (b.disabled = true));
+  showStatus('Opening secure checkout…', false);
+
+  const here = window.location.href.split('?')[0];
+  try {
+    const resp = await fetch(API_BASE + '/api/support/checkout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        mode: mode,
+        amount_cents: Math.round(amountCents),
+        success_url: here + '?given=1',
+        cancel_url: here + '?cancelled=1',
+      }),
+    });
+    if (!resp.ok) {
+      showStatus("Giving isn't quite live yet — email us above and we'll sort it out personally.", true);
+      buttons.forEach((b) => (b.disabled = false));
+      return;
+    }
+    const data = await resp.json();
+    window.location.href = data.url;
+  } catch (err) {
+    showStatus("Something went wrong reaching checkout — email us above and we'll sort it out personally.", true);
+    buttons.forEach((b) => (b.disabled = false));
+  }
+}
+
+document.querySelectorAll('.amt-btn').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const mode = btn.closest('.give-amounts').dataset.mode;
+    startCheckout(mode, parseInt(btn.dataset.amount, 10), btn);
+  });
+});
+
+document.querySelectorAll('[data-other-submit]').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const mode = btn.dataset.otherSubmit;
+    const input = document.querySelector('[data-other-input="' + mode + '"]');
+    const dollars = parseFloat(input.value);
+    startCheckout(mode, Math.round(dollars * 100), btn);
+  });
+});
+
+const params = new URLSearchParams(window.location.search);
+if (params.get('given') === '1') {
+  document.getElementById('thanksBanner').className = 'thanks-banner show';
+}
+</script>
 </body>
 </html>
