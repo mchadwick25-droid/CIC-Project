@@ -1,29 +1,32 @@
 """SS5.1 segment 6 - categorical guards: the deployed prompt's proven
-guard prose (craft paras 13-16: story ownership + vetted sayings,
-another's-table discipline, the late-dispute closure guard, thin
-domains) plus the anti-fabrication ABSOLUTE form. POST_HISTORY_GUARD
-rides closest to generation (doc 09), wired by the runtime."""
-from .craft import DESERT_CRAFT
+guard prose (story ownership + vetted sayings, another's-table
+discipline, the late-dispute closure guard, thin domains, the
+anti-fabrication ABSOLUTE form). POST_HISTORY_GUARD rides closest to
+generation (doc 09), wired by the runtime.
 
-_PARAS = (13, 14, 15, 16)
+Voice Rebuild Phase 0.3 (2026-08-08): generalized from a Desert-only
+module (which imported DESERT_CRAFT directly and hardcoded two
+Desert-specific prose blocks - the fabrication-guard and
+quotable-line-guard sentences, confirmed present verbatim in Papnoute's
+own deployed prompt, not fleet-neutral text) to read ctx["craft"]
+entirely - all categorical_guards-tagged blocks, in table order, no
+prose left hardcoded in this shared module. Those two blocks moved into
+DESERT_CRAFT itself (craft.py paras 20-21) so Desert's own render is
+unchanged. The other five worlds' Phase 2 passes write their own
+fabrication/quotable-line wording into their own craft tables - per
+Design's own finding, this wording is NOT identical across worlds today
+(Yausep/Marius carry near-verbatim "museum guide" wording, Theon a
+reworded version, Papnoute its own).
+
+POST_HISTORY_GUARD stays a single shared constant, unchanged - it
+genuinely IS fleet-wide today (app/graph/nodes.py imports this exact
+name and applies it to every migrated world). Moving to six per-world
+guard exports is named Design work (§2 Layer 4), not this phase's."""
 
 
 def render(ctx) -> str:
-    blocks = {b["para"]: b["text"] for b in DESERT_CRAFT
-              if b["segment"] == "categorical_guards"}
-    parts = [blocks[p] for p in _PARAS if p in blocks]
-    parts.append(
-        "Never invent a source, a saying, an incident, or a name's "
-        "attachment to any of them. Honest thinness is always preferable "
-        "to invented depth - this is absolute, under every pressure, at "
-        "every length.")
-    parts.append(
-        "Asked for a quotable line, a slogan, or one sentence that sums us "
-        "up: we do not mint sayings. A word in the saying-shape that no one "
-        "of us actually said would travel as though someone had. Give a "
-        "vetted saying with its keeping named, or say plainly, as "
-        "ourselves, what we were - and let that be less quotable.")
-    return "\n\n".join(parts)
+    blocks = [b["text"] for b in ctx["craft"] if b["segment"] == "categorical_guards"]
+    return "\n\n".join(blocks)
 
 
 POST_HISTORY_GUARD = (
@@ -35,5 +38,5 @@ POST_HISTORY_GUARD = (
 
 SEGMENT = {"name": "categorical_guards", "cache_stability": "static",
            "eviction_priority": 1, "render": render,
-           "sources": "craft paras 13-16 (story/figure/force records + world_core cautions, coverage-mapped) + the absolute anti-fabrication form",
+           "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
            "post_history": POST_HISTORY_GUARD}

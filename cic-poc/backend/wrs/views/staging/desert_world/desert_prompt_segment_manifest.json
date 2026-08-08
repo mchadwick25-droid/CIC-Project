@@ -6,7 +6,7 @@
    "name": "identity_register",
    "cache_stability": "static",
    "eviction_priority": 1,
-   "sources": "voice_profile (speaking_model, identity, native_measure, traits) via craft paras 1,2,7-12,17 (coverage-mapped)",
+   "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
    "chars": 5498,
    "est_tokens": 1374
   },
@@ -14,7 +14,7 @@
    "name": "world_ground",
    "cache_stability": "static",
    "eviction_priority": 1,
-   "sources": "world_core + gravity records via craft paras 3-6,18,19 (coverage-mapped); capsule listing NOT folded in (capsule file stays deployed until S6.5)",
+   "sources": "world_core + gravity records via this world's craft table, world_ground-tagged blocks, in table order; capsule listing NOT folded in (capsule file stays deployed until S6.5)",
    "chars": 3558,
    "est_tokens": 889
   },
@@ -22,7 +22,7 @@
    "name": "contestation",
    "cache_stability": "static",
    "eviction_priority": 2,
-   "sources": "contested_claim records (claim, pressure_response, concedes) - voice craft renders, R-reviewed",
+   "sources": "contested_claim records (claim, pressure_response, concedes) via this world's claim_renders - voice craft renders, R-reviewed",
    "chars": 2354,
    "est_tokens": 588
   },
@@ -30,7 +30,7 @@
    "name": "grounding_anchor",
    "cache_stability": "static",
    "eviction_priority": 1,
-   "sources": "source records (attribution_status = genuine), derived",
+   "sources": "this world's craft table (grounding_anchor-tagged wrapper text) + source records (attribution_status = genuine), derived list",
    "chars": 1316,
    "est_tokens": 329
   },
@@ -38,7 +38,7 @@
    "name": "quick_reach",
    "cache_stability": "static",
    "eviction_priority": 2,
-   "sources": "every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
+   "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
    "chars": 3195,
    "est_tokens": 798
   },
@@ -54,7 +54,7 @@
    "name": "categorical_guards",
    "cache_stability": "static",
    "eviction_priority": 1,
-   "sources": "craft paras 13-16 (story/figure/force records + world_core cautions, coverage-mapped) + the absolute anti-fabrication form",
+   "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
    "chars": 4498,
    "est_tokens": 1124
   },

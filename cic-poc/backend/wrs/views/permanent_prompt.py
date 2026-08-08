@@ -38,6 +38,7 @@ sys.path.insert(0, str(BACKEND))
 
 from chunk_views import load_records, STAGING  # noqa: E402
 from segments import ASSEMBLY_ORDER  # noqa: E402
+from segments.craft import DESERT_CLAIM_RENDERS, DESERT_CRAFT  # noqa: E402
 
 
 def build_context() -> dict:
@@ -51,6 +52,11 @@ def build_context() -> dict:
         "voice_profile": load_records("voice_profile")["desertvoice001"],
         "sources": load_records("source"),
         "demonstrations": load_records("demonstration"),
+        # Voice Rebuild Phase 0.3 (2026-08-08): the two keys the now-
+        # generalized identity/world_ground/guards/contestation segments
+        # read instead of importing Desert's own data directly.
+        "craft": DESERT_CRAFT,
+        "claim_renders": DESERT_CLAIM_RENDERS,
     }
 
 
