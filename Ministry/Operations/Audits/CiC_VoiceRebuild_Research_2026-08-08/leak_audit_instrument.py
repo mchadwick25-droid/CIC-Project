@@ -7,14 +7,18 @@ CiC_VoiceRebuild_Stage1_Research_Findings_2026-08-08.md, in two stages:
 
   Stage 1 (broad screen): wide pattern classes over serialized bodies —
   deliberately over-matching (it flags e.g. the by-design "modern hearing"
-  Distortion Risk language). Used ONLY for the no-Key-Sources-marker
-  fail-open list and as a candidate pool. Its file count (172) is NOT a
-  leak count and is not reported as one.
+  Distortion Risk language, plus tier meta-language, scholar references,
+  see-references). Used ONLY as a candidate pool; its file count (172,
+  emitted as broad_screen_files) is NOT a leak count and is not reported
+  as one. (The no-Key-Sources-marker fail-open list comes from the
+  serialization step itself, not from either pattern stage.)
 
   Stage 2 (refined classification): the APPARATUS pattern set — gravity
-  codes/numbering, Doc_/Force references, template & assembly language,
-  CT tags, tier meta-language, builder notes, strand codes — with
-  per-section attribution (nearest preceding heading/bold label). Produces
+  codes/numbering (incl. Tensional/Primary/Supporting), Doc_/Force
+  references, template & assembly language (Final Assembly Instruction,
+  L4-Templates, "per Template"), CT tags/Contest Type, Reciprocity Note,
+  builder notes / "No brackets", and strand codes — with per-section
+  attribution (nearest preceding heading/bold label). Produces
   leak_audit_apparatus_hits.json and the reported counts: files with >=1
   apparatus hit in serialized body (104/178), hits by section, files by
   world with per-world rates.
@@ -110,6 +114,25 @@ def serialized_story(f):
     return entry.content
 
 
+# Stage 1: the broad screen (candidate pool only — over-matches by design).
+BROAD_PATTERNS = [
+    re.compile(r"\b(?:Tensional|Primary|Supporting)\s+gravit|gravit(?:y|ies)\b", re.I),
+    re.compile(r"\bDoc[_ ]?0\d|\bDoc_\d"),
+    re.compile(r"\btemplate\b|L4-Templates|Final Assembly|per Template", re.I),
+    re.compile(r"\bTier[- ][123]\b|\btier justification\b", re.I),
+    re.compile(r"\bcandidate\b.{0,80}\btest(?:ed|ing)\b|\btest(?:ed|ing)\b.{0,80}\bcandidate\b", re.I | re.S),
+    re.compile(r"\bCT\b(?:\s+(?:tag|Contest))?|Contest Type"),
+    re.compile(r"\bbuilder(?:'s)? note|\bno brackets\b|\[TODO|\[NOTE", re.I),
+    re.compile(r"\bConfidence:\s*(?:Inferential|Attested|Thin|Reconstructed|Probable)", re.I),
+    re.compile(r"Reciprocity Note", re.I),
+    re.compile(r"\bFLAG-\d+"),
+    re.compile(r"\bSee [A-Z]{2,}\b|see .{0,40}\bbelow\b|see .{0,40}\babove\b", re.I),
+    re.compile(r"Construction Framework|Source Ecology|World Identification", re.I),
+    re.compile(r"\bscholar(?:s|ship)?\b|\bhistorian|\bacademic\b|\bmodern (?:scholar|historian|reader|hearing|assumption)", re.I),
+    re.compile(r"Retrieval Front-Matter|front[- ]matter", re.I),
+    re.compile(r"\bomitted\b.{0,60}\b(?:per|instruction)", re.I | re.S),
+]
+
 # Stage 2: the refined apparatus classification (the reported measure).
 APPARATUS = re.compile(
     r"\bgravity \d|\bgravit(?:y|ies) [A-Z]?\d|\bG0\d\b|\bC\d\b(?= \()"
@@ -126,9 +149,21 @@ def section_of(text, pos):
 
 
 apparatus_hits = {}
+broad_screen_files = set()
 no_ks_marker = []
 fa_files = []
 totals = Counter()
+
+def scan_body(fname, wdir, kind, body):
+    if any(rx.search(body) for rx in BROAD_PATTERNS):
+        broad_screen_files.add(fname)
+    if "Final Assembly Instruction" in body:
+        fa_files.append(fname)
+    secs = Counter(section_of(body, m.start())
+                   for m in APPARATUS.finditer(body))
+    if secs:
+        apparatus_hits[fname] = {"world": wdir, "kind": kind,
+                                 "sections": dict(secs)}
 
 for wdir, wid in WORLD_DIRS.items():
     migrated = wid in MIGRATED
@@ -137,23 +172,10 @@ for wdir, wid in WORLD_DIRS.items():
         body, no_marker = serialized_lexicon(f, migrated)
         if no_marker:
             no_ks_marker.append(f.name)
-        if "Final Assembly Instruction" in body:
-            fa_files.append(f.name)
-        secs = Counter(section_of(body, m.start())
-                       for m in APPARATUS.finditer(body))
-        if secs:
-            apparatus_hits[f.name] = {"world": wdir, "kind": "lex",
-                                      "sections": dict(secs)}
+        scan_body(f.name, wdir, "lex", body)
     for f in sorted((BACKEND / "data" / wdir / "story_chunks").glob("*.md")):
         totals[("story", wdir)] += 1
-        body = serialized_story(f)
-        if "Final Assembly Instruction" in body:
-            fa_files.append(f.name)
-        secs = Counter(section_of(body, m.start())
-                       for m in APPARATUS.finditer(body))
-        if secs:
-            apparatus_hits[f.name] = {"world": wdir, "kind": "story",
-                                      "sections": dict(secs)}
+        scan_body(f.name, wdir, "story", serialized_story(f))
 
 sec_counter = Counter()
 world_files = Counter()
@@ -179,6 +201,7 @@ summary = {
     "lexicon_total": lex_total,
     "story_total": story_total,
     "migrated_world_ids": sorted(MIGRATED),
+    "broad_screen_files": len(broad_screen_files),
     "apparatus_files": len(apparatus_hits),
     "apparatus_files_lex": sum(1 for d in apparatus_hits.values()
                                if d["kind"] == "lex"),

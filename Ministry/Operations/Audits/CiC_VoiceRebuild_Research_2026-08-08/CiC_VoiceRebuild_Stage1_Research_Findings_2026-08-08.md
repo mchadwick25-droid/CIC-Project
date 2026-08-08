@@ -14,8 +14,8 @@ governing question (what makes an Interview-mode conversation with a
 Representative genuinely good), the brief's §5 diagnosis extended and
 stress-tested against the live system, the open research tasks the brief and
 its five adversarial review rounds assigned to this stage, and the open
-questions handed to Design — each tied to a named instrument where the brief
-requires falsifiability (§8).
+questions handed to Design — each tied to a named instrument where the
+brief's §8 requires falsifiability.
 
 **What this stage is, per Mark's own framing (2026-08-08):** research to
 understand what was not working, in service of a deep rebuild of *how the
@@ -48,7 +48,7 @@ Method, stated so the adversarial pass can check it:
   and every LLM call are real. Instrument:
   `cic-poc/backend/scripts/voice_rebuild_research_probe.py`; results
   committed beside it.
-- **Background reading** (the four §3 studies, the eight prior review
+- **Background reading** (the four studies the brief's §3 names, the eight prior review
   files, the three governing .docx documents) was digested by subagents
   returning verbatim-quoted extracts; every load-bearing claim taken from
   those digests is cited to its file so the adversarial pass can spot-check.
@@ -276,8 +276,11 @@ finding; two narrow one, one extends one):
    (`hal_...Albina.txt:27`); Chloe — "Even your fullest answer stops at
    two short paragraphs" (`pahc_...Chloe.txt:31`); Yausep — "two or three
    short paragraphs at the very most" (`syr_...Yausep.txt:43`). A scan of
-   Theon's and Marius's files found no per-turn ceiling (both instruct
-   short *sentences*, not short turns). `_HOW_YOU_ENGAGE`'s "A Turn Has a
+   Theon's and Marius's files found no per-turn ceiling — both instruct
+   short *sentences*, not short turns, though Theon carries an unmeasured
+   shape constraint adjacent to one ("read with, not to lecture... two
+   travellers over one text," `alex_...Theon.txt:45`) that shapes turn
+   feel without setting a length. `_HOW_YOU_ENGAGE`'s "A Turn Has a
    Measure" is the only *shared* ceiling, not the only ceiling. This
    changes the shape of the open turn-length decision (§8): deleting the
    shared ceiling would leave only Theon and Marius without any stated
@@ -344,13 +347,16 @@ Three consequences, stated as findings:
   reserves for Design (§6 Objective 3) is therefore precisely about the
   gate's target artifact: wire it to *output*, not prompt text, or it will
   pass her while participants still can't read her. The unresolved values
-  decision (shorten her sentences vs name a deliberate exception) stands —
-  this measurement doesn't dissolve it, it locates it.
+  decision (brief §6 Objective 3 — shorten her sentences vs name a
+  deliberate exception) stands — this measurement doesn't dissolve it, it
+  locates it.
 - **Two prompt files fail: Marius (both numbers) and Yausep (FK 10.0,
   at the ceiling).** Marius failing both is consistent with finding A's
   read that his register-and-reasoning-mode entanglement is the deepest
-  per-file rebuild risk; Yausep's at-the-line failure matches finding D's
-  correction that he was never demonstrably plain.
+  per-file rebuild risk. Yausep's at-the-line file failure is consistent
+  in direction with finding D — though finding D's correction concerned
+  his measured *output* (23.0 words/sentence live), a different artifact
+  from the file measured here.
 - **The capsule layer is the register's second carrier, measured:** three
   of six capsules fail both numbers, and the worst file of all twelve is
   the capsule of the world with the second-plainest prompt (Chloe/PAHC).
@@ -376,13 +382,16 @@ SOURCES)` → `excise_section(QUICK MEANING)` for all six migrated worlds;
 story: front-matter parse → `_strip_voice_unsafe_sections`), in two
 stages: a deliberately over-matching broad screen (172 files flagged —
 that number includes by-design material like Distortion Risk's "modern
-hearing" language and is NOT a leak count; used only for the
-no-Key-Sources-marker detection and as a candidate pool), then a refined
-apparatus classification (gravity codes/numbering, Doc_/Force references,
-template/assembly language, CT tags, tier meta-language, builder notes,
-strand codes) with per-section attribution. Every count below reproduces
-from the single committed instrument (`leak_audit_instrument.py`, which
-writes `leak_audit_apparatus_hits.json`); flagged lines were sampled and
+hearing" language, tier meta-language, and scholar references, and is NOT
+a leak count; a candidate pool only), then a refined apparatus
+classification (gravity codes/numbering including Tensional/Primary/
+Supporting, Doc_/Force references, template and assembly language, CT
+tags, Reciprocity Notes, builder notes, strand codes) with per-section
+attribution. The no-Key-Sources-marker fail-open detection comes from the
+serialization step itself, not from either pattern stage. Every count
+below — including the 172 — reproduces from the single committed
+instrument (`leak_audit_instrument.py`, which writes
+`leak_audit_apparatus_hits.json`); flagged lines were sampled and
 classified by hand.
 
 **Headline results:**
@@ -392,10 +401,16 @@ classified by hand.
   context.** The brief's "at least a quarter of the 107
   Ecological-Function chunks" was a substantial undercount of the
   phenomenon's real extent. Reconciliation with Round 4's hand-verified
-  measurement (46 of 118 lexicon chunks): this instrument's lexicon count
-  (58) is a superset of that verified floor — the added pattern classes
-  (strand codes, tier meta-language, Reciprocity/template references)
-  account for the difference, and every Round-4 example re-flags here.
+  measurement (46 of 118 lexicon chunks): the two counts overlap heavily
+  but neither contains the other — Round 4's 46 includes two markerless
+  fail-open chunks (`pahclex012`, `pahclex013`) that carry no
+  apparatus-pattern text and so are counted here under the fail-open
+  class instead; this instrument's added pattern classes (strand codes,
+  Reciprocity/template references) account for part of the remaining
+  difference. What does reproduce exactly: every Round-4 named example
+  re-flags here, Round 4's 17-chunk uncovered-set distribution matches
+  file-for-file, and Desert's 9 flagged lexicon chunks are the same 9
+  files Round 4 counted.
 - **The contamination concentrates exactly where the rebuild wants to point
   the voice — by both denominators.** By raw hits: `Formation Ecology
   Connection` 152 (stories' insight field), `Ecological Function` 44
@@ -403,7 +418,8 @@ classified by hand.
   Instruction` 28, `Plural-Voices Note` 14. By files affected: Formation
   Ecology Connection 45 of 60 story files — decisively the worst;
   Ecological Function 33 of 107 lexicon files, comparable to Usage
-  Guidance's 20 of 60. Typical Formation Ecology Connection text reads
+  Guidance (20 files — a section that appears in both chunk types, so it
+  takes no single denominator). Typical Formation Ecology Connection text reads
   "This story directly generates gravity 1 (withdrawal) and gravity 7
   (..., Doc_08 Force 1B-ii)." An instruction to lead with this material,
   unfiltered, would push gravity-numbering apparatus directly into the
@@ -434,11 +450,13 @@ classified by hand.
   55%; Hieronymian 7/27 = 26%. No world is clean.
 
 **Two classification caveats, stated for the adversarial pass:** (1)
-pattern-matching over-flags; every pattern class was hand-sampled and the
-per-file JSON is committed for full inspection, but per-line true/false
-classification across all 104 files was not done exhaustively — the counts
-are "files containing at least one apparatus-pattern line in serialized
-body," an upper-bound-shaped measure whose examples were verified real.
+pattern-matching over-flags; every pattern class was hand-sampled, and the
+committed JSON carries per-file, per-section hit counts (the matched lines
+themselves are reproducible by running the committed instrument, not
+stored in the JSON), but per-line true/false classification across all
+104 files was not done exhaustively — the counts are "files containing at
+least one apparatus-pattern line in serialized body," an
+upper-bound-shaped measure whose examples were verified real.
 (2) Some flagged material is deliberately serialized and participant-safe
 in *content* while apparatus-flavored in *register* (e.g. "Contested."
 confidence labels); the committed JSON preserves section attribution so
@@ -490,8 +508,9 @@ its own file's instructions) are the clean half.
   ("Mar Simeon." — name first, story first).
 - **Unprompted term-reclarification opener: 1 of 8 turns, classified by
   manual read — the committed regex tally scored 0 of 8 and missed it**
-  (the opener's present-tense "When I speak of the qyama, I mean..." is
-  not among the regex's past-tense patterns; the automated tally is a
+  (the opener's form — a present-tense, true-referent sense-clarification,
+  "When I speak of the qyama, I mean..." — is not among the committed
+  patterns, which target other constructions; the automated tally is a
   floor, not the measure, and any future use of this instrument needs the
   manual-read pass this session did). Turn 2 (a question about baptism)
   opens by re-explaining qyama, spoken by him one turn earlier and never
@@ -547,7 +566,7 @@ condition (Yausep violating his own file's bridge-first instruction in
 2 of 8 turns as written, and exceeding the project's FK-10 reading floor —
 a proxy for his file's "each stage is its own short sentence"
 instruction, not the instruction itself — in 2 of 8 turns), on top of the
-four prior instances P3 lists.
+prior instances P3 lists.
 
 **Not settled:** that worked examples are *the cause* of Papnoute's clean
 run. His register is intrinsically the plainest and his file also carries
@@ -635,8 +654,9 @@ instrument), this stage leaves behind:
 | Per-signal drift breakdown | **Still missing** — confirmed: usage log carries one undifferentiated `drift_detection` label | Named Design-stage instrumentation task (light: surface which of the 20 fired) |
 | Declining-initiative signal | **Confirmed absent** from all 20 signal types | The one genuinely new signal to add (Design) |
 | First-sentence uptake tally | Partially covered by probe script's first-sentence capture; no automated classifier | Objective 1 instrument gap, named for Design |
-| Objective 3's positive goal (insight, connection, honesty) | **No instrument exists — the largest known instrument gap**, per the brief's own §8 concession and Round 4. Candidate: the §6 rubric's adopt/adapt traits as a structured human-read checklist | Named for Design; readability numbers are the floor, never this measure |
-| Objective 2×4 interaction (story-first vs genre-caveat fidelity) | `fabrication_adjudication` firing rate on story-led turns, plus manual read of whether a source's own Usage Guidance caveats survive into the telling | Named for Design — see §8 question 10 |
+| Sustained-disagreement probe | **Does not exist yet** — the brief's §8 specifies it; building it is Design-stage work | Objective 6: whether a Representative's position actually holds by the third or fourth push, across turns |
+| Objective-3 positive-goal instrument | **Does not exist — the largest known instrument gap**, per the brief's own §8 concession and Round 4; candidate: the §6 rubric's adopt/adapt traits as a structured human-read checklist | Objective 3's positive goal (insight, connection, honesty); readability numbers are the floor, never this measure |
+| Objective 2×4 interaction instrument | Composite, named for Design — see §8 question 10 | Story-first vs genre-caveat fidelity: `fabrication_adjudication` firing rate on story-led turns, plus manual read of whether a source's own Usage Guidance caveats survive into the telling |
 
 ---
 
@@ -740,8 +760,8 @@ happens by default:
    is the named interaction between a Tier-2 objective and a
    non-negotiable one.
 
-**Gaps Research names beyond the brief's reading list** (per §9's mandate
-to say so plainly): (a) the four unrecovered rubric traits + weights
+**Gaps Research names beyond the brief's reading list** (per the brief
+§9's mandate to say so plainly): (a) the four unrecovered rubric traits + weights
 (egress-blocked; one fetch from any network-open session closes it); (b)
 the brief's own open question — does brevity's advantage survive
 substantive dialogue — has no external answer and should be answered by
@@ -768,9 +788,10 @@ concentrated in two prompts (Marius failing both numbers, Yausep at the
 FK line) and three capsules — while Albina's problem is her output, not
 her file, which relocates (without resolving) the values decision
 reserved for Mark. The live probes gave the stage its sharpest
-single result: a currently-deployed world violating its own file's central
-voice instructions under measurement while the worked-example world held
-the same battery completely — prose-alone under-holds is now a measured
+single result: a currently-deployed world violating its own file's
+bridge-first instruction under measurement (with the reading floor
+exceeded as a proxy for its short-sentence prose) while the
+worked-example world held the same battery completely — prose-alone under-holds is now a measured
 fact, and the rebuild's real levers are placement, redundancy,
 demonstration, and code-side enforcement.
 
