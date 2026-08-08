@@ -47,8 +47,8 @@
    "cache_stability": "static",
    "eviction_priority": 5,
    "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 3, deterministic rank by strong-count desc then record id)",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 3137,
+   "est_tokens": 784
   },
   {
    "name": "categorical_guards",
@@ -79,14 +79,12 @@
  "budget": {
   "world_ground_est_tokens": 0,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 0
+  "static_total_est_tokens": 784
  },
  "quick_reach": "absent - craft table empty this phase (craft_hal.py)",
  "readability": {
-  "fk_grade": 0.0,
-  "fre": 0.0,
-  "violations": [
-   "FRE 0.0 < 60.0"
-  ]
+  "fk_grade": 5.46,
+  "fre": 81.49,
+  "violations": []
  }
 }
