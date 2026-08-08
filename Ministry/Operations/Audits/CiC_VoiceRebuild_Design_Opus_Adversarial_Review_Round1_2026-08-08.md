@@ -567,3 +567,30 @@ Stated plainly rather than softened toward approval, because three rounds on thi
 Nothing here re-opens a decision. F1 and F2 are deletions of superseded sentences; F3 is a parenthetical; F4 re-points a milestone the document has already chosen. The design underneath them — record-sourced assembly, the five layers, `ceiling_words`, the tiered gate, the escalated insight-field call, the fold-in-as-target capsule path — has now survived two adversarial passes at source and is, in my judgement, sound and ready to be built from.
 
 **Apply F1–F4, sweep F5–F7, and send it to Mark. No further adversarial round is warranted** — the remaining items are checkable by grepping this file's own quoted strings against the document, which is a verification, not a review.
+
+---
+
+## Sign-off verdict — commit `5e5871d`, 2026-08-08
+
+**READY for Mark's Design-stage sign-off. 0 P0, 0 P1, 3 P2 — a copy-edit, not a gate.**
+
+F1–F6 all landed, at every site, verified against source:
+
+- **F1** — §2's opening no longer contradicts part (3): the ceilings are now attributed to their S6.2 freeze sessions with the per-world rationale in the code comments, and `typical_words` is named a mean rather than the ceiling's source. Confirmed at `nodes.py:1596-1651`: ALX, HAL, SYR, PAHC and IJC each carry a dated freeze comment with its own reasoning.
+- **F2** — both stale sites re-pointed. §1 ground 3 is now *"the capsule reconciliation for all six (emitters exist; their generated output must come to define the deployed capsule)"*; §8 is keyed to the S6.5 fold-in with parallel-emit named as preserving the duplication until then. §0, §1 ground 3, §1's capsule paragraph and §8 now say the same thing.
+- **F3** — the invented attribution is gone, replaced with the true one: *"capsule parity is tracked by its own SECTION-level comparison, separate from `probe_parity`'s prompt-only harness"* — which is exactly what `capsule_prompt_views.py` and `probe_parity.py` say.
+- **F4** — §8's saving now arrives at the milestone §1 says delivers it.
+- **F5** — retry cost stated in §8, and stated well: *"One cost line runs the other way and is tracked, not hidden."*
+- **F6** — the four ambiguous `§4.1`s disambiguated: brief's at §2 Layer 1 and §3, this document's re-labelled `§4 item 1` at §7 and §9 item 1.
+
+No new contradiction found. §9's answer table matches every amended section; §8's cost summary matches the amended §0, §1, §2 and §5.
+
+**The three P2s, named for the record and not blocking:**
+
+1. §9 item 8 still points to `§4.3` while §7 and §9 item 1 moved to the `§4 item N` convention — one pointer left behind by its own sweep.
+2. §2's new parenthetical says the `typical_words` figures *"informed those calibrations."* True for Theon (the ALX comment cites `alexvoice001.native_measure` by name); inverted for Desert (the record's 60 was recorded *from* the runtime ceiling, per its own note); unsupported for Marius (the IJC freeze cites battery measurements of 251-256 mean / 389 max, not the record's self-declared provisional 120). And Desert's 60 predates the S6.2 sessions rather than being set at one. The load-bearing correction — means are not ceilings — is right, and part (3) carries the instruction.
+3. F7 was not applied: §0 still runs an em-dash into a new capitalized sentence, and §1 still warrants a content re-homing with the brief's style-only license.
+
+**Why this is a genuine ready and not a softened one.** Three passes on this document produced 6 P0 + 9 P1 + 10 P2 (Round 1), then 3 P0 + 6 P1 + 4 P2 (re-check), then 2 P0 + 2 P1 + 3 P2 (final). The curve is real, and each round's P0s were closed by opening the source rather than by rewording. What is left could not send Blueprint to do work that cannot be done or skip work that must be — the test this review has applied throughout. The design underneath — record-sourced assembly with a binding quality governor, the five voice layers, `ceiling_words` with behaviour-neutral migration, the tiered leak gate, the insight-field scope call escalated rather than assumed, and the capsule path decided as fold-in-target/parallel-emit-transition — has been checked at source three times and holds.
+
+**Recommendation: sign off, and fix the three P2s in the same pass that opens Blueprint.**

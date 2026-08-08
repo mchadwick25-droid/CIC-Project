@@ -293,9 +293,9 @@ already enforces length in code:** `HARD_CEILING_WORLDS`
 (`app/graph/nodes.py:1617`) is a live per-world word ceiling with
 regenerate-on-overage for all six worlds, each value set at the S6.2
 freeze sessions with its own per-world rationale recorded in the code
-comments (the records' `native_measure.typical_words` figures — Theon
-140, Marius 120, Desert 60 — informed those calibrations but are means,
-not the ceilings themselves; see part 3), with its own logging
+comments (the records' `native_measure.typical_words` figures are means, not
+the ceilings — see part 3; provenance varies per world, and Desert's 60
+was recorded *from* the ceiling, not the reverse), with its own logging
 (`app/length_ceiling_logging.py`). So the architecture question was
 never "where should the only brake live" — a code brake exists. The
 decision, three parts: (1) "A Turn Has a Measure" **stays in the shared
@@ -582,7 +582,8 @@ together.
    `_HOW_YOU_ENGAGE` mirroring repair_classifier's routing; per-world
    pressure_response content stays in contested_claim records (§2).
 8. **Restricted offer placement** — decided: shared block for the move
-   itself; Theon's demonstration carries the fleet's model of it (§2, §4.3).
+   itself; Theon's demonstration carries the fleet's model of it (§2,
+   §4 item 3).
 9. **Record-sourced assembly** — adopted with the quality governor
    binding (§1).
 10. **Objective 2×4 interaction** — designed: caveat-carried
