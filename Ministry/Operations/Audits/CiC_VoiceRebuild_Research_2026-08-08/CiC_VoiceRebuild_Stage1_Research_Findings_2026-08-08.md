@@ -111,7 +111,8 @@ Two sharpenings this Research pass adds:
   prompt yet carries is the *license* (explicit permission to sustain
   respectful disagreement across turns), and what no instrument yet
   measures is whether the position actually holds by the third or fourth
-  push (§7's sustained-disagreement probe).
+  push (the sustained-disagreement probe the brief's §8 specifies — an
+  instrument that does not exist yet; see this document's §7 table).
 
 ### P3. Prose instruction alone measurably under-holds at generation time — this is now a multiply-confirmed CiC-internal fact, not a hypothesis
 
@@ -141,11 +142,12 @@ system's own further instances, each verified at source:
    — a clean, single-direction finding). CiC already exploits this at one
    site (`POST_HISTORY_GUARD`, `nodes.py:1152-1167`).
 
-This session's live probes added the fifth and sharpest instance: Yausep,
-with every guard layer live, violated his own file's bridge-first
-instruction in 3 of 8 turns and opened one turn with an unprompted
-term-reclarification — while turn 7 proved the capacity exists on demand
-(§5.1).
+This session's live probes added the fifth and sharpest instance: Yausep
+violated his own file's bridge-first instruction in 2 of 8 turns (3 of 8
+on the broader any-technical-term measure) and opened one turn with an
+unprompted term-reclarification, with guard-layer presence inferred from
+the retrieval-guard usage labels — while turn 7 proved the capacity
+exists on demand (§5.1).
 
 Implication for Design (stated as research, not design): a rebuilt voice
 cannot rest on better prose in one place. The levers with evidence behind
@@ -206,11 +208,13 @@ Four findings compose here:
 - **Initiative must not decay:** declining initiative is one of the three
   measured collapse signals, and the one with no existing drift-signal
   equivalent (verified against all twenty `DriftSignal` types).
-- **Callbacks are the cheapest circularity mechanism:** within-session
-  proactive memory surfacing needs zero new infrastructure — the full
-  history is already in context; it is prompt guidance plus verification
-  (`10_..._Realness_Study:47`). This is the concrete mechanism Objective
-  1's "circular half" was missing.
+- **Callbacks are the cheapest circularity mechanism** (medium confidence
+  — one strong practitioner account, corroborated by academic literature,
+  the source's own label): within-session proactive memory surfacing
+  needs zero new infrastructure — the full history is already in context;
+  it is prompt guidance plus verification (`10_..._Realness_Study:47`).
+  This is the concrete candidate mechanism for Objective 1's "circular
+  half," carrying its source's confidence with it.
 - **Positive evidence of understanding, embedded, not appended:** the
   MultiParty study's highest-confidence single-voice-applicable finding —
   ~86% of real human other-initiated repair is the *restricted offer*: a
@@ -251,18 +255,24 @@ Every claim checked this session held at its cited file/line, with the
 following genuinely new corrections and refinements (none reverses a §5
 finding; two narrow one, one extends one):
 
-1. **"The actual, only turn-length ceiling in the system" (§4.2) is
-   imprecise.** At least three per-world permanent prompts carry their own
-   hard turn-length ceilings, verified verbatim: Albina — "a turn of yours
-   rarely runs past two short paragraphs" (`hal_...Albina.txt:29`); Chloe —
-   "Even your fullest answer stops at two short paragraphs"
-   (`pahc_...Chloe.txt:31`); Yausep — "two or three short paragraphs at the
-   very most" (`syr_...Yausep.txt:43`). `_HOW_YOU_ENGAGE`'s "A Turn Has a
+1. **"The actual, only turn-length ceiling in the system" (the brief's
+   §4.2) is imprecise.** Four of the six per-world permanent prompts carry
+   their own hard turn-length ceilings, verified verbatim: Papnoute —
+   "Hold to this as a hard measure, not a preference: four sentences is
+   already long for you, and most of what you say should be one to three"
+   (`desert_...Papnoute.txt:13`, the strictest in the corpus); Albina —
+   "a turn of yours rarely runs past two short paragraphs"
+   (`hal_...Albina.txt:27`); Chloe — "Even your fullest answer stops at
+   two short paragraphs" (`pahc_...Chloe.txt:31`); Yausep — "two or three
+   short paragraphs at the very most" (`syr_...Yausep.txt:43`). A scan of
+   Theon's and Marius's files found no per-turn ceiling (both instruct
+   short *sentences*, not short turns). `_HOW_YOU_ENGAGE`'s "A Turn Has a
    Measure" is the only *shared* ceiling, not the only ceiling. This
    changes the shape of the open turn-length decision (§8): deleting the
-   shared ceiling would not leave Albina/Chloe/Yausep ceiling-less, but
-   would leave Papnoute, Theon, and Marius so — and the per-world ceilings
-   are themselves in the files being rebuilt.
+   shared ceiling would leave only Theon and Marius without any stated
+   ceiling — and all four per-world ceilings sit inside files the rebuild
+   rewrites, so they are decisions in every per-world pass, not
+   protections that survive by default.
 2. **The brief's Article 30 gloss ("inline in the text, hover for a
    summary, click for full detail") is the front-end implementation's
    framing, not the Constitution's.** Article 30 (V2_2) defines the three
@@ -291,9 +301,11 @@ finding; two narrow one, one extends one):
 
 ### 3.1 `readability_check` is unwired to voice — and this session ran the 12-file measurement the review rounds asked for
 
-Confirmed by repo-wide caller enumeration: the only real callers are
-`wrs/views/plain_explanation.py:174-175` and `run_gates.py`'s three
-fixtures. Wiring it to voice is from-scratch Design work (brief §7 Part B).
+Confirmed by repo-wide caller enumeration: the only pre-existing real
+callers are `wrs/views/plain_explanation.py:174-175` and `run_gates.py`'s
+three fixtures (this session's own probe script now also imports it, for
+output measurement — still not a wiring to voice generation). Wiring it
+to voice is from-scratch Design work (brief §7 Part B).
 
 New data — the project's own gate (`wrs/gates/core.py:211`, floor FK ≤ 10 /
 FRE ≥ 60) run against all twelve voice-bearing files this session:
@@ -323,19 +335,25 @@ Three consequences, stated as findings:
   pass her while participants still can't read her. The unresolved values
   decision (shorten her sentences vs name a deliberate exception) stands —
   this measurement doesn't dissolve it, it locates it.
-- **Marius's prompt is the only failing prompt file** — consistent with
-  finding A's read that his register-and-reasoning-mode entanglement is
-  the deepest per-file rebuild risk.
+- **Two prompt files fail: Marius (both numbers) and Yausep (FK 10.0,
+  at the ceiling).** Marius failing both is consistent with finding A's
+  read that his register-and-reasoning-mode entanglement is the deepest
+  per-file rebuild risk; Yausep's at-the-line failure matches finding D's
+  correction that he was never demonstrably plain.
 - **The capsule layer is the register's second carrier, measured:** three
   of six capsules fail both numbers, and the worst file of all twelve is
   the capsule of the world with the second-plainest prompt (Chloe/PAHC).
   The brief's §7 requirement that each per-world pass covers prompt AND
   capsule is confirmed as load-bearing, with numbers.
 
-### 3.2 Continuity regression already exists, already fails 4/6 — see P7
+### 3.2 Continuity regression already exists, already fails 4/6
 
-(Reading and consequences in P7 above; retained in this section's title so
-the brief's two named "load-bearing facts" both resolve visibly.)
+`wrs/views/probe_parity.py` and five per-world siblings already run the
+blind two-trial comparison, with committed results failing four of six
+worlds — including all three of the brief's live-test acceptance worlds
+(Albina, Marius, Yausep). What it measures is record-layer fidelity, and
+its pass criterion fails a deliberate rebuild by construction — full
+reading and consequences in P7 above.
 
 ---
 
@@ -344,31 +362,43 @@ the brief's two named "load-bearing facts" both resolve visibly.)
 **Method:** all 118 lexicon and 60 story chunks parsed and serialized by
 the app's own code path (lexicon: front-matter split → `truncate_at(KEY
 SOURCES)` → `excise_section(QUICK MEANING)` for all six migrated worlds;
-story: front-matter parse → `_strip_voice_unsafe_sections`), then the
-serialized model-facing body scanned for internal-apparatus patterns
-(gravity codes, Doc_/Force references, template/assembly language, CT tags,
-tier meta-language, builder notes, strand codes). Every count below is from
-the committed instrument; flagged lines were sampled and classified by hand.
+story: front-matter parse → `_strip_voice_unsafe_sections`), in two
+stages: a deliberately over-matching broad screen (172 files flagged —
+that number includes by-design material like Distortion Risk's "modern
+hearing" language and is NOT a leak count; used only for the
+no-Key-Sources-marker detection and as a candidate pool), then a refined
+apparatus classification (gravity codes/numbering, Doc_/Force references,
+template/assembly language, CT tags, tier meta-language, builder notes,
+strand codes) with per-section attribution. Every count below reproduces
+from the single committed instrument (`leak_audit_instrument.py`, which
+writes `leak_audit_apparatus_hits.json`); flagged lines were sampled and
+classified by hand.
 
 **Headline results:**
 
-- **104 of 178 chunks (58%) carry internal build-apparatus language in the
-  body that reaches generation context.** The brief's "at least a quarter
-  of the 107 Ecological-Function chunks" was a substantial undercount of
-  the phenomenon's real extent.
+- **104 of 178 chunks (58%; 58 of 118 lexicon, 46 of 60 story) carry
+  internal build-apparatus language in the body that reaches generation
+  context.** The brief's "at least a quarter of the 107
+  Ecological-Function chunks" was a substantial undercount of the
+  phenomenon's real extent. Reconciliation with Round 4's hand-verified
+  measurement (46 of 118 lexicon chunks): this instrument's lexicon count
+  (58) is a superset of that verified floor — the added pattern classes
+  (strand codes, tier meta-language, Reciprocity/template references)
+  account for the difference, and every Round-4 example re-flags here.
 - **The contamination concentrates exactly where the rebuild wants to point
-  the voice.** By section: `Formation Ecology Connection` 152 pattern hits
-  (stories' insight field), `Ecological Function` 44 (lexicon's insight
-  field), `World Meaning` 36, `Usage Guidance` 31, `Final Assembly
-  Instruction` 28, `Plural-Voices Note` 14. The two insight fields the
-  brief's §7 Part A instruction targets are the two worst-contaminated
-  fields in the corpus — typical Formation Ecology Connection text reads
+  the voice — by both denominators.** By raw hits: `Formation Ecology
+  Connection` 152 (stories' insight field), `Ecological Function` 44
+  (lexicon's), `World Meaning` 36, `Usage Guidance` 31, `Final Assembly
+  Instruction` 28, `Plural-Voices Note` 14. By files affected: Formation
+  Ecology Connection 45 of 60 story files — decisively the worst;
+  Ecological Function 33 of 107 lexicon files, comparable to Usage
+  Guidance's 20 of 60. Typical Formation Ecology Connection text reads
   "This story directly generates gravity 1 (withdrawal) and gravity 7
-  (..., Doc_08 Force 1B-ii)". An instruction to lead with this material,
+  (..., Doc_08 Force 1B-ii)." An instruction to lead with this material,
   unfiltered, would push gravity-numbering apparatus directly into the
   voice's mouth.
 - **The fail-open leak is worse than known: "## Final Assembly
-  Instruction" reaches the model verbatim in 8 files, not 1** —
+  Instruction" reaches the model verbatim in 8 files, not 2** —
   `ijclex011`, `ijclex012` (the brief's known cases, via the six
   no-Key-Sources-marker fail-opens) **plus all six IJC story chunks**
   (`ijcstory001`–`006`), which pass it through because the story indexer's
@@ -376,15 +406,21 @@ the committed instrument; flagged lines were sampled and classified by hand.
   `## Tier Justification` and `## Source Identification`. Marius — an
   acceptance world — is the most exposed world in the corpus on this
   class: every one of his six story chunks tells the model "No brackets or
-  builder notes remain. Tier/Confidence alignment confirmed."
+  builder notes remain. Tier/Confidence alignment confirmed[...]" (some
+  continue with per-file parentheticals).
 - **The six lexicon chunks with no Key Sources marker reproduce exactly**
   as the review rounds found them: `pahclex012`, `pahclex013`, `syrlex005`,
   `syrlex008`, `ijclex011`, `ijclex012` (fail-open at
   `app/rag/sections.py:159-160`).
-- Per-world (files with ≥1 apparatus hit): Alexandria 33 (23 lex + 10
-  story), PAHC 21, Syriac 14, Desert 17, IJC 12, Hieronymian 7. No world
-  is clean; Alexandria's volume is largest in absolute terms (it has 50 of
-  the 118 lexicon chunks), consistent with the brief's Theon-exposure note.
+- Per-world, as **rates** (files with ≥1 apparatus hit / files total —
+  absolute counts alone mislead, since Alexandria holds 50 of the 118
+  lexicon chunks): **PAHC 21/26 = 81%** — the highest rate in the corpus,
+  **and PAHC is the pilot world** (the brief's §7 Part A pilots the
+  shared-block rewrite against Chloe first, so the pilot will run on the
+  most contaminated corpus); Syriac 14/19 = 74%; IJC 12/18 = 67%; Desert
+  17/28 = 61% (lexicon-only, Desert runs 9/18 = 50% — the "half of
+  Papnoute's corpus" Round 4's hand check flagged); Alexandria 33/60 =
+  55%; Hieronymian 7/27 = 26%. No world is clean.
 
 **Two classification caveats, stated for the adversarial pass:** (1)
 pattern-matching over-flags; every pattern class was hand-sampled and the
@@ -431,31 +467,46 @@ its own file's instructions) are the clean half.
 
 ### 5.1 Yausep — the prior question: does prose instruction hold? Measured answer: partially, and it under-holds exactly where his file instructs hardest
 
-- **Bridge-first (his own `:45` instruction — "Let the word follow the
-  story, not stand in front of it"): violated in 3 of 8 turns.** Turns 2,
-  3, and 4 open with the technical term in the first sentence ("When I
-  speak of the qyama...", "It was about the qyama — ...", "A teaching-hymn
-  (madrasha) was never one thing only..."), against an explicit,
-  currently-deployed instruction. Turn 5 shows the instruction *can* hold
+- **Bridge-first (his own `:45` instruction — "Before you reach for raza,
+  qyama, or Iḥidaya as your first word... Let the word follow the story,
+  not stand in front of it"): violated in 2 of 8 turns as written, 3 of 8
+  on the broader measure.** Turns 2 and 3 open with `qyama` — one of the
+  instruction's three named terms — in the first sentence ("When I speak
+  of the qyama...", "It was about the qyama — ..."). Turn 4 opens on
+  `madrasha` (not a named term, and led by its English gloss —
+  "A teaching-hymn (madrasha)..."), so it counts only under the broader
+  any-technical-term measure. Turn 5 shows the instruction *can* hold
   ("Mar Simeon." — name first, story first).
-- **Unprompted term-reclarification opener: 1 of 8 turns.** Turn 2
-  (a question about baptism) opens by re-explaining qyama, spoken by him
-  one turn earlier and never by the participant — including the meta-note
-  "You will hear me return to it here." This is the *true-referent*
-  variant (he had spoken the word; distinct from the fabricated
-  "when I said X" false-referent class, which appeared **0 of 8** times).
-  It occurred with all live guard layers present for a migrated world
-  (layer 1, layer 3 + post-history guard) — a measured instance of the
-  guarded-against behavior class surviving three prompt-side layers.
+- **Unprompted term-reclarification opener: 1 of 8 turns, classified by
+  manual read — the committed regex tally scored 0 of 8 and missed it**
+  (the opener's present-tense "When I speak of the qyama, I mean..." is
+  not among the regex's past-tense patterns; the automated tally is a
+  floor, not the measure, and any future use of this instrument needs the
+  manual-read pass this session did). Turn 2 (a question about baptism)
+  opens by re-explaining qyama, spoken by him one turn earlier and never
+  by the participant — including the meta-note "You will hear me return
+  to it here." This is the *true-referent* variant (he had spoken the
+  word; distinct from the fabricated "when I said X" false-referent
+  class, which appeared **0 of 8** times). Guard-layer presence on that
+  turn is inferred from the retrieval-guard usage labels
+  (`negative_condition_lexicon` and `citation_grounding` both fired,
+  implying non-empty retrieval and therefore layer 1; layer 3's
+  post-history guard rides every migrated-world turn) — the probe does
+  not log `retrieved_context` directly.
 - **Register floor: 2 of 8 turns above FK 10** (10.5, 11.45; the battery
-  mean is 19.7 words/sentence against a file that instructs "Each stage is
-  its own short sentence"). And the capacity exists on demand: turn 7's
+  mean is 19.7 words/sentence). The FK floor is the project's own reading
+  floor (`wrs/parameters.yaml`), used here as a proxy for his file's
+  "Each stage is its own short sentence" instruction, not as that
+  instruction itself. And the capacity exists on demand: turn 7's
   say-it-plain request produced FK 4.8 at 15.8 w/s. The default drifts
   elevated; the ability is not missing.
 - **Cost replication:** `over_settling_adjudication` (the expensive second
   stage) fired on 6 of 8 turns — consistent with the brief's 10-of-12
-  finding. Roughly 10–12 invisible calls per visible reply, matching
-  `Decision-Log.md:63`.
+  finding. Measured invisible calls per visible reply this session: 7.9
+  (Yausep) and 7.5 (Papnoute), against the Decision Log's "roughly ten
+  invisible calls for every one visible reply" (`Decision-Log.md:65`) —
+  same order, slightly lower here (single-world Interview turns skip the
+  table-mode checks).
 
 ### 5.2 Papnoute — the narrower question: does the worked-example world hold? Measured answer: on this battery, completely
 
@@ -481,8 +532,11 @@ its own file's instructions) are the clean half.
 
 **Settled harder:** prose instruction alone under-holds at generation
 time — now measured in a same-session, same-battery, currently-deployed
-condition (Yausep violating his own file's two central voice instructions
-in 3/8 and 2/8 turns), on top of the four prior instances P3 lists.
+condition (Yausep violating his own file's bridge-first instruction in
+2 of 8 turns as written, and exceeding the project's FK-10 reading floor —
+a proxy for his file's "each stage is its own short sentence"
+instruction, not the instruction itself — in 2 of 8 turns), on top of the
+four prior instances P3 lists.
 
 **Not settled:** that worked examples are *the cause* of Papnoute's clean
 run. His register is intrinsically the plainest and his file also carries
@@ -527,7 +581,7 @@ restraint (the highest-weighted trait; near-certainly one of the missing
 five as a "keeps responses short" statement).
 
 **Trait-by-trait CiC adaptation of the recoverable twelve** (the required
-§7 Part B adaptation, done for what exists; the remaining ~4 traits are a
+brief-§7-Part-B adaptation, done for what exists; the remaining ~4 traits are a
 named gap for any network-enabled session to close):
 
 | # | Trait (recovered wording) | CiC disposition | Reasoning |
@@ -543,7 +597,7 @@ named gap for any network-enabled session to close):
 | 9 | Clarifies ambiguous questions, self-corrects after clarification | **Adopt (as restricted offer)** | P6's candidate-understanding mechanism — embed the candidate reading in the answering turn. |
 | 10 | Natural hedging, imperfect recall, partial lists | **Adapt carefully** | CiC's version is the world's own honest edge-of-record speech ("our own record does not tell us") — never performed vagueness about things the record does attest, and never hedging that signals documentation-awareness (Part Eight's confidence-under-thinness standard governs). |
 | 11 | Admits not knowing, asks to learn, never invents | **Adopt** | Literally the no-fabrication goal plus Boundaries-Are-Doors; the trait confirms the fixed goal is also a naturalness win. |
-| 12 | Response-length restraint (highest-weighted) | **Adopt** | P1/P6; the turn-length instrument (§7) makes it measurable. |
+| — | Response-length restraint (highest-weighted; near-certainly among the unrecovered statements, known from the study's verified summary rather than the snippet list) | **Adopt** | P1/P6; the turn-length instrument (§7) makes it measurable. |
 
 The pattern worth stating: **of the twelve recoverable traits, nine adopt
 or adapt cleanly and reinforce commitments CiC already holds** — the
@@ -563,13 +617,15 @@ instrument), this stage leaves behind:
 |---|---|---|
 | `leak_audit_instrument.py` (this directory) | **New, run, committed** | Apparatus language in serialized chunk bodies; the six fail-open files; per-section attribution |
 | 12-file `readability_check` measurement (§3.1) | **Run this session** (gate itself still unwired to voice — Design work) | Prompt/capsule file accessibility; baseline for rebuilt files |
-| `voice_rebuild_research_probe.py` | **New, run, committed** | Per-turn: words/sentence, FK/FRE of *output*, paragraphs-per-turn (the missing turn-length instrument), reclarify-opener rate (finding C's tally), tech-term-before-story rate (bridge-first adherence), per-turn invisible-call labels |
+| `voice_rebuild_research_probe.py` | **New, run, committed** | Per-turn: words/sentence, FK/FRE of *output*, paragraphs-per-turn (the missing turn-length instrument), tech-term-before-story rate (bridge-first adherence), per-turn invisible-call labels. The reclarify-opener regex is a floor only — it scored 0/8 where manual read found 1/8 (§5.1); the instrument is regex **plus mandatory manual read** until the classifier improves |
 | `probe_parity` (existing) | Confirmed present, 4/6 FAIL | Record-layer voice fidelity; pass criterion redefinition is Design's |
 | `fabrication_adjudication` count (`nodes.py:2101`) | Existing, capture confirmed | Objective 4's metric |
-| `over_settling_logging` confirmed-rate (`app/over_settling_logging.py`) | Existing | Distinct from firing rate; both reported for governance evaluation |
+| `over_settling_logging` confirmed-rate (`app/over_settling_logging.py`) | Existing, **not captured this session** — it is not in the `[llm_usage]` stream the probe reads; surfacing it into test harnesses is Design instrumentation | Distinct from firing rate; both must be reported for the governance evaluation |
 | Per-signal drift breakdown | **Still missing** — confirmed: usage log carries one undifferentiated `drift_detection` label | Named Design-stage instrumentation task (light: surface which of the 20 fired) |
 | Declining-initiative signal | **Confirmed absent** from all 20 signal types | The one genuinely new signal to add (Design) |
 | First-sentence uptake tally | Partially covered by probe script's first-sentence capture; no automated classifier | Objective 1 instrument gap, named for Design |
+| Objective 3's positive goal (insight, connection, honesty) | **No instrument exists — the largest known instrument gap**, per the brief's own §8 concession and Round 4. Candidate: the §6 rubric's adopt/adapt traits as a structured human-read checklist | Named for Design; readability numbers are the floor, never this measure |
+| Objective 2×4 interaction (story-first vs genre-caveat fidelity) | `fabrication_adjudication` firing rate on story-led turns, plus manual read of whether a source's own Usage Guidance caveats survive into the telling | Named for Design — see §8 question 9 |
 
 ---
 
@@ -582,13 +638,14 @@ happens by default:
    name a recorded exception — now sharpened by §3.1: the decision is
    really about the gate's target artifact (output, not file). Mark's call
    per the brief; Design frames it with the wired gate's first real number.
-2. **The turn-length ceiling decision** — §7 Part A's rewrite deletes the
-   shared ceiling unless it decides otherwise; §2's correction (three
-   per-world ceilings also exist, all inside files being rebuilt) means
-   the decision is really: where does the turn-measure live in the rebuilt
-   architecture (shared block, per-world files, or both), not merely
-   keep/delete one instruction. The review rounds mark this as a decision
-   to make and record (TR3 P1-4).
+2. **The turn-length ceiling decision** — the brief's §7 Part A rewrite
+   deletes the shared ceiling unless it decides otherwise; this document's
+   §2 correction (four per-world ceilings also exist — Papnoute's the
+   strictest — all inside files being rebuilt, with only Theon and Marius
+   carrying none) means the decision is really: where does the
+   turn-measure live in the rebuilt architecture (shared block, per-world
+   files, or both), not merely keep/delete one instruction. The review
+   rounds mark this as a decision to make and record (TR3 P1-4).
 3. **Governance keep/simplify/replace/drop recommendations** for
    `over_settling`, `citation_grounding`, `drift_detection`,
    `confirmed_glosses` — evidence assembled for Design: the cost facts
@@ -603,7 +660,7 @@ happens by default:
    policy) vs authoring-side (apparatus-vocabulary fields) vs prompt-side
    (filter instruction) — Research's finding is that all three exist and
    are different problems; Design decides the combination and sequencing
-   against §4's content-freeze rule.
+   against the brief's §4 content-freeze rule.
 5. **probe_parity's pass criterion** for a deliberately-changed voice, and
    its promotion (or not) from staging tool to standing gate.
 6. **Worked-example form** (positive-only vs contrastive pairs) — decided
@@ -615,6 +672,22 @@ happens by default:
 8. **The restricted-offer/candidate-understanding move** (P6) — whether it
    enters `_HOW_YOU_ENGAGE`, the per-world files, or both; new to this
    stage, no prior decision constrains it.
+9. **The Objective 2×4 interaction — the brief's Research mandate (d),
+   delivered here as an open design question with its evidence
+   assembled:** a lead-with-the-story instruction demonstrably interacts
+   with no-fabrication. The pilot's Albina run fired
+   `fabrication_adjudication` on the exact turn that told the Marcella
+   story flat, dropping the source's own epitaph-genre caveat (brief
+   finding C); this session's Papnoute run fired the same signal on the
+   turn that opened on a constructed scene inside a participant-supplied
+   hypothetical (§5.2); and the genre-caveat instruction that already
+   exists (`representative_prompts.py:188-198`) is one of P3's measured
+   under-holding prose instances. Design's story-first mechanism must
+   carry a source's own genre/confidence caveats *into the telling* by a
+   means stronger than the current prose instruction, and §7's Objective
+   2×4 instrument row is how the result gets verified. Not optional; this
+   is the named interaction between a Tier-2 objective and a
+   non-negotiable one.
 
 **Gaps Research names beyond the brief's reading list** (per §9's mandate
 to say so plainly): (a) the four unrecovered rubric traits + weights
@@ -624,8 +697,12 @@ substantive dialogue — has no external answer and should be answered by
 CiC's own A/B evidence during Build verification, with the probe script's
 per-turn instruments; (c) `mark_voice_simulation_results.json` (the
 2026-08-05 pilot's raw results) remains uncommitted and unavailable to
-this session — its four §5(C) claims stay sourced to the Decision Log
-entry and brief only.
+this session — its four claims (brief finding C) stay sourced to the
+Decision Log entry and brief only; (d) Objective 3's positive goal
+(insight, connection, honesty) still has no instrument — the largest
+known instrument gap, carried visibly in §7's table rather than papered
+over; the §6 rubric's adopt/adapt rows are the best in-corpus candidate
+for building one.
 
 ---
 
@@ -636,9 +713,10 @@ and the Research stage's own instruments moved two things from claim to
 measurement: the leak is roughly twice as widespread as estimated and
 concentrated exactly in the lead-with-insight fields (making the filter
 load-bearing, not hygienic), and the accessibility problem in the files is
-concentrated in Marius's prompt and three capsules — while Albina's problem
-is her output, not her file, which relocates (without resolving) the values
-decision reserved for Mark. The live probes gave the stage its sharpest
+concentrated in two prompts (Marius failing both numbers, Yausep at the
+FK line) and three capsules — while Albina's problem is her output, not
+her file, which relocates (without resolving) the values decision
+reserved for Mark. The live probes gave the stage its sharpest
 single result: a currently-deployed world violating its own file's central
 voice instructions under measurement while the worked-example world held
 the same battery completely — prose-alone under-holds is now a measured

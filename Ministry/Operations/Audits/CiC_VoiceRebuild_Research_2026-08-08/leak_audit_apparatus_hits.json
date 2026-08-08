@@ -1,763 +1,854 @@
 {
- "desertlex010_xeniteia.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 4
-  }
- },
- "desertlex011_apatheia.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 5
-  }
- },
- "desertlex012_theoria.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 3
-  }
- },
- "desertlex013_penthos.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 2
-  }
- },
- "desertlex014_nepsis.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 3
-  }
- },
- "desertlex015_synaxis.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 5
-  }
- },
- "desertlex016_kellion.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 3
-  }
- },
- "desertlex017_antirrhesis.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "Distortion Risk": 1
-  }
- },
- "desertlex018_puritas-cordis.md": {
-  "world": "desert_world",
-  "kind": "lex",
-  "sections": {
-   "Distortion Risk": 1
-  }
- },
- "desertstory001_antonys-call-matthew-19-21.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 5,
-   "Usage Guidance": 1
-  }
- },
- "desertstory002_antony-withdrawal-outer-inner-mountain.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "desertstory003_pachomius-founding-koinonia-tabennesi.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 6
-  }
- },
- "desertstory004_moses-leaking-jug.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "desertstory005_arsenius-flee-be-still.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3,
-   "Usage Guidance": 1
-  }
- },
- "desertstory006_sarah-answer-to-elders.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 4,
-   "Usage Guidance": 1
-  }
- },
- "desertstory007_antony-combat-in-tombs.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "desertstory008_day-in-a-kellia-cell.md": {
-  "world": "desert_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 4
-  }
- },
- "pahclex001_episkopos.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1,
-   "Confidence": 2
-  }
- },
- "pahclex002_presbyteros.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2,
-   "Confidence": 2
-  }
- },
- "pahclex003_ekklesia.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "pahclex004_eucharistia.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2,
-   "Confidence": 1
-  }
- },
- "pahclex005_diakonos.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Confidence": 3
-  }
- },
- "pahclex006_presbyterion.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1,
-   "Ecological Function": 1
-  }
- },
- "pahclex008_prophetes.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "pahclex010_agape-label.md": {
-  "world": "pahc_world",
-  "kind": "lex",
-  "sections": {
-   "Confidence": 1
-  }
- },
- "pahcstory001_ignatius-guarded-journey.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 7,
-   "Usage Guidance": 3
-  }
- },
- "pahcstory002_1clement-corinthian-dispute.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 5,
-   "Usage Guidance": 2
-  }
- },
- "pahcstory003_polycarp-forwards-letters.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 1,
-   "Usage Guidance": 1
-  }
- },
- "pahcstory004_pliny-interrogation.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 1,
-   "Usage Guidance": 2
-  }
- },
- "pahcstory005_nero-scapegoating.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 4
-  }
- },
- "pahcstory006_justin-sunday-gathering.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "pahcstory007_hermas-visions.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 5,
-   "Usage Guidance": 2
-  }
- },
- "pahcstory008_martyrdom-of-polycarp.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3,
-   "Usage Guidance": 3
-  }
- },
- "pahcstory009_two-ways-catechumen.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "pahcstory010_didache-eucharist.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "pahcstory011_one-eucharist-under-bishop.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 6,
-   "Usage Guidance": 1
-  }
- },
- "pahcstory012_day-under-bishop-and-presbyters.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 6,
-   "Usage Guidance": 2
-  }
- },
- "pahcstory013_mutual-aid-prisoner.md": {
-  "world": "pahc_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "syrlex001_raza-shrara.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "syrlex002_qyama.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "syrlex005_memra.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "Related-Terms ": 1
-  }
- },
- "syrlex006_ewangeliyon-da-mhallete.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1,
-   "Ecological Function": 3
-  }
- },
- "syrlex008_mar.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "Related-Terms ": 1
-  }
- },
- "syrlex009_catholicos.md": {
-  "world": "syriac_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "syrstory001_ephrem-famine-death.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "syrstory002_edessa-flood-201.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "syrstory003_jacob-nisibis-nicaea.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "syrstory004_doctrina-addai.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "syrstory005_martyrdom-simeon-bar-sabbae.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 4
-  }
- },
- "syrstory006_jacob-nisibis-deliverance.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 10
-  }
- },
- "syrstory007_ephrem-founding-choirs.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "syrstory009_typical-qyama-worship.md": {
-  "world": "syriac_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 6
-  }
- },
- "alexlex001_logos.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "alexlex002_divine-pedagogy.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "alexlex003_catechesis.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex006_wisdom.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex007_participation.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex008_theosis.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex009_image-of-god.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex011_nous.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "alexlex014_scripture.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "alexlex015_christological-reading.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex016_allegory.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex017_sin-hamartia.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "alexlex018_death.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex021_transformation.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "alexlex033_martyrdom-witness.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex035_interpretation.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex036_salvation.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex043_church-ekklesia.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "alexlex051_apokatastasis.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "alexlex059_catechetical-school.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "alexlex074_fall-descent.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "alexlex081_homoousios.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "alexlex090_logikos.md": {
-  "world": "alexandria_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 2
-  }
- },
- "alexstory001_gregory-address-origen.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 5
-  }
- },
- "alexstory002_palladius-meets-didymus.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3
-  }
- },
- "alexstory003_persecution-shapes-school.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "alexstory004_apophthegmata.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "alexstory005_life-of-antony.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 1,
-   "Usage Guidance": 1
-  }
- },
- "alexstory006_markan-foundation.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "alexstory007_school-succession.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 1
-  }
- },
- "alexstory008_origen-demetrius.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
-  }
- },
- "alexstory009_coptic-martyrs.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2,
-   "Usage Guidance": 1
-  }
- },
- "alexstory010_typical-catechumen.md": {
-  "world": "alexandria_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2,
-   "Usage Guidance": 1
-  }
- },
- "ijclex001_primatus.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "Plural-Voices Note": 4
-  }
- },
- "ijclex002_presbeia.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "Plural-Voices Note": 4
-  }
- },
- "ijclex005_imperator_intra_ecclesiam.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "Plural-Voices Note": 6
-  }
- },
- "ijclex010_nea_rhome.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1
-  }
- },
- "ijclex011_basilica.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "World Hearing": 1,
-   "Final Assembly Instruction": 5
-  }
- },
- "ijclex012_martyrium.md": {
-  "world": "imperial_juridical_world",
-  "kind": "lex",
-  "sections": {
-   "World Meaning": 1,
-   "World Hearing": 1,
-   "Final Assembly Instruction": 5
-  }
- },
- "ijcstory001_the-vision-and-the-alliance.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2,
-   "Usage Guidance": 2,
-   "Final Assembly Instruction": 3
-  }
- },
- "ijcstory002_a-dream-before-the-battle.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Usage Guidance": 1,
-   "Final Assembly Instruction": 3
-  }
- },
- "ijcstory003_the-bees-of-milan.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3,
-   "Usage Guidance": 1,
-   "Final Assembly Instruction": 3
-  }
- },
- "ijcstory004_the-vigil-in-the-basilica.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 5,
-   "Usage Guidance": 3,
-   "Final Assembly Instruction": 3
-  }
- },
- "ijcstory005_the-letter-that-outranked-a-council.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 3,
-   "Usage Guidance": 1,
-   "Final Assembly Instruction": 3
-  }
- },
- "ijcstory006_the-tome-that-would-not-bend.md": {
-  "world": "imperial_juridical_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 4,
-   "Usage Guidance": 1,
-   "Final Assembly Instruction": 3
-  }
- },
- "hal_lex01_hebraica-veritas.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "hal_lex03_renuntiatio.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "hal_lex06_patrocinium.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "hal_lex07_epistula.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "hal_lex08_origenism.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 1
-  }
- },
- "hal_lex11_exegesis-practiced-authority.md": {
-  "world": "hieronymian_world",
-  "kind": "lex",
-  "sections": {
-   "Ecological Function": 2
-  }
- },
- "hal_story07_the-widow-consulted.md": {
-  "world": "hieronymian_world",
-  "kind": "story",
-  "sections": {
-   "Formation Ecology Connection": 2
+ "summary": {
+  "lexicon_total": 118,
+  "story_total": 60,
+  "migrated_world_ids": [
+   "alexandria-catechetical",
+   "desert-monasticism",
+   "hieronymian-ascetic-literary",
+   "imperial-juridical-christianity",
+   "post-apostolic-house-church",
+   "syriac-edessa-nisibis"
+  ],
+  "apparatus_files": 104,
+  "apparatus_files_lex": 58,
+  "apparatus_files_story": 46,
+  "no_key_sources_marker": [
+   "pahclex012_hetaeria.md",
+   "pahclex013_pertinacia.md",
+   "syrlex005_memra.md",
+   "syrlex008_mar.md",
+   "ijclex011_basilica.md",
+   "ijclex012_martyrium.md"
+  ],
+  "final_assembly_reaches_model": [
+   "ijclex011_basilica.md",
+   "ijclex012_martyrium.md",
+   "ijcstory001_the-vision-and-the-alliance.md",
+   "ijcstory002_a-dream-before-the-battle.md",
+   "ijcstory003_the-bees-of-milan.md",
+   "ijcstory004_the-vigil-in-the-basilica.md",
+   "ijcstory005_the-letter-that-outranked-a-council.md",
+   "ijcstory006_the-tome-that-would-not-bend.md"
+  ],
+  "hits_by_section": {
+   "Formation Ecology Connection": 152,
+   "Ecological Function": 44,
+   "World Meaning": 36,
+   "Usage Guidance": 31,
+   "Final Assembly Instruction": 28,
+   "Plural-Voices Note": 14,
+   "Confidence": 9,
+   "Distortion Risk": 2,
+   "Related-Terms ": 2,
+   "World Hearing": 2
+  },
+  "files_by_section": {
+   "Formation Ecology Connection": 45,
+   "Ecological Function": 33,
+   "Usage Guidance": 20,
+   "World Meaning": 17,
+   "Final Assembly Instruction": 8,
+   "Confidence": 5,
+   "Plural-Voices Note": 3,
+   "Distortion Risk": 2,
+   "Related-Terms ": 2,
+   "World Hearing": 2
+  },
+  "per_world": {
+   "alexandria_world": {
+    "files_flagged": 33,
+    "files_total": 60,
+    "rate": 0.55
+   },
+   "desert_world": {
+    "files_flagged": 17,
+    "files_total": 28,
+    "rate": 0.61
+   },
+   "hieronymian_world": {
+    "files_flagged": 7,
+    "files_total": 27,
+    "rate": 0.26
+   },
+   "imperial_juridical_world": {
+    "files_flagged": 12,
+    "files_total": 18,
+    "rate": 0.67
+   },
+   "pahc_world": {
+    "files_flagged": 21,
+    "files_total": 26,
+    "rate": 0.81
+   },
+   "syriac_world": {
+    "files_flagged": 14,
+    "files_total": 19,
+    "rate": 0.74
+   }
+  }
+ },
+ "files": {
+  "desertlex010_xeniteia.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 4
+   }
+  },
+  "desertlex011_apatheia.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 5
+   }
+  },
+  "desertlex012_theoria.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 3
+   }
+  },
+  "desertlex013_penthos.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 2
+   }
+  },
+  "desertlex014_nepsis.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 3
+   }
+  },
+  "desertlex015_synaxis.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 5
+   }
+  },
+  "desertlex016_kellion.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 3
+   }
+  },
+  "desertlex017_antirrhesis.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "Distortion Risk": 1
+   }
+  },
+  "desertlex018_puritas-cordis.md": {
+   "world": "desert_world",
+   "kind": "lex",
+   "sections": {
+    "Distortion Risk": 1
+   }
+  },
+  "desertstory001_antonys-call-matthew-19-21.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 5,
+    "Usage Guidance": 1
+   }
+  },
+  "desertstory002_antony-withdrawal-outer-inner-mountain.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "desertstory003_pachomius-founding-koinonia-tabennesi.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 6
+   }
+  },
+  "desertstory004_moses-leaking-jug.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "desertstory005_arsenius-flee-be-still.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3,
+    "Usage Guidance": 1
+   }
+  },
+  "desertstory006_sarah-answer-to-elders.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 4,
+    "Usage Guidance": 1
+   }
+  },
+  "desertstory007_antony-combat-in-tombs.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "desertstory008_day-in-a-kellia-cell.md": {
+   "world": "desert_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 4
+   }
+  },
+  "pahclex001_episkopos.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1,
+    "Confidence": 2
+   }
+  },
+  "pahclex002_presbyteros.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2,
+    "Confidence": 2
+   }
+  },
+  "pahclex003_ekklesia.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "pahclex004_eucharistia.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2,
+    "Confidence": 1
+   }
+  },
+  "pahclex005_diakonos.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Confidence": 3
+   }
+  },
+  "pahclex006_presbyterion.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1,
+    "Ecological Function": 1
+   }
+  },
+  "pahclex008_prophetes.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "pahclex010_agape-label.md": {
+   "world": "pahc_world",
+   "kind": "lex",
+   "sections": {
+    "Confidence": 1
+   }
+  },
+  "pahcstory001_ignatius-guarded-journey.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 7,
+    "Usage Guidance": 3
+   }
+  },
+  "pahcstory002_1clement-corinthian-dispute.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 5,
+    "Usage Guidance": 2
+   }
+  },
+  "pahcstory003_polycarp-forwards-letters.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 1,
+    "Usage Guidance": 1
+   }
+  },
+  "pahcstory004_pliny-interrogation.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 1,
+    "Usage Guidance": 2
+   }
+  },
+  "pahcstory005_nero-scapegoating.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 4
+   }
+  },
+  "pahcstory006_justin-sunday-gathering.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "pahcstory007_hermas-visions.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 5,
+    "Usage Guidance": 2
+   }
+  },
+  "pahcstory008_martyrdom-of-polycarp.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3,
+    "Usage Guidance": 3
+   }
+  },
+  "pahcstory009_two-ways-catechumen.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "pahcstory010_didache-eucharist.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "pahcstory011_one-eucharist-under-bishop.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 6,
+    "Usage Guidance": 1
+   }
+  },
+  "pahcstory012_day-under-bishop-and-presbyters.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 6,
+    "Usage Guidance": 2
+   }
+  },
+  "pahcstory013_mutual-aid-prisoner.md": {
+   "world": "pahc_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "syrlex001_raza-shrara.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "syrlex002_qyama.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "syrlex005_memra.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "Related-Terms ": 1
+   }
+  },
+  "syrlex006_ewangeliyon-da-mhallete.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1,
+    "Ecological Function": 3
+   }
+  },
+  "syrlex008_mar.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "Related-Terms ": 1
+   }
+  },
+  "syrlex009_catholicos.md": {
+   "world": "syriac_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "syrstory001_ephrem-famine-death.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "syrstory002_edessa-flood-201.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "syrstory003_jacob-nisibis-nicaea.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "syrstory004_doctrina-addai.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "syrstory005_martyrdom-simeon-bar-sabbae.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 4
+   }
+  },
+  "syrstory006_jacob-nisibis-deliverance.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 10
+   }
+  },
+  "syrstory007_ephrem-founding-choirs.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "syrstory009_typical-qyama-worship.md": {
+   "world": "syriac_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 6
+   }
+  },
+  "alexlex001_logos.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "alexlex002_divine-pedagogy.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "alexlex003_catechesis.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex006_wisdom.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex007_participation.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex008_theosis.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex009_image-of-god.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex011_nous.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "alexlex014_scripture.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "alexlex015_christological-reading.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex016_allegory.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex017_sin-hamartia.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "alexlex018_death.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex021_transformation.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "alexlex033_martyrdom-witness.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex035_interpretation.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex036_salvation.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex043_church-ekklesia.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "alexlex051_apokatastasis.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "alexlex059_catechetical-school.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "alexlex074_fall-descent.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "alexlex081_homoousios.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "alexlex090_logikos.md": {
+   "world": "alexandria_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 2
+   }
+  },
+  "alexstory001_gregory-address-origen.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 5
+   }
+  },
+  "alexstory002_palladius-meets-didymus.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3
+   }
+  },
+  "alexstory003_persecution-shapes-school.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "alexstory004_apophthegmata.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "alexstory005_life-of-antony.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 1,
+    "Usage Guidance": 1
+   }
+  },
+  "alexstory006_markan-foundation.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "alexstory007_school-succession.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 1
+   }
+  },
+  "alexstory008_origen-demetrius.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
+  },
+  "alexstory009_coptic-martyrs.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2,
+    "Usage Guidance": 1
+   }
+  },
+  "alexstory010_typical-catechumen.md": {
+   "world": "alexandria_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2,
+    "Usage Guidance": 1
+   }
+  },
+  "ijclex001_primatus.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "Plural-Voices Note": 4
+   }
+  },
+  "ijclex002_presbeia.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "Plural-Voices Note": 4
+   }
+  },
+  "ijclex005_imperator_intra_ecclesiam.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "Plural-Voices Note": 6
+   }
+  },
+  "ijclex010_nea_rhome.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1
+   }
+  },
+  "ijclex011_basilica.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "World Hearing": 1,
+    "Final Assembly Instruction": 5
+   }
+  },
+  "ijclex012_martyrium.md": {
+   "world": "imperial_juridical_world",
+   "kind": "lex",
+   "sections": {
+    "World Meaning": 1,
+    "World Hearing": 1,
+    "Final Assembly Instruction": 5
+   }
+  },
+  "ijcstory001_the-vision-and-the-alliance.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2,
+    "Usage Guidance": 2,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "ijcstory002_a-dream-before-the-battle.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Usage Guidance": 1,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "ijcstory003_the-bees-of-milan.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3,
+    "Usage Guidance": 1,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "ijcstory004_the-vigil-in-the-basilica.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 5,
+    "Usage Guidance": 3,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "ijcstory005_the-letter-that-outranked-a-council.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 3,
+    "Usage Guidance": 1,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "ijcstory006_the-tome-that-would-not-bend.md": {
+   "world": "imperial_juridical_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 4,
+    "Usage Guidance": 1,
+    "Final Assembly Instruction": 3
+   }
+  },
+  "hal_lex01_hebraica-veritas.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "hal_lex03_renuntiatio.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "hal_lex06_patrocinium.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "hal_lex07_epistula.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "hal_lex08_origenism.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 1
+   }
+  },
+  "hal_lex11_exegesis-practiced-authority.md": {
+   "world": "hieronymian_world",
+   "kind": "lex",
+   "sections": {
+    "Ecological Function": 2
+   }
+  },
+  "hal_story07_the-widow-consulted.md": {
+   "world": "hieronymian_world",
+   "kind": "story",
+   "sections": {
+    "Formation Ecology Connection": 2
+   }
   }
  }
 }
