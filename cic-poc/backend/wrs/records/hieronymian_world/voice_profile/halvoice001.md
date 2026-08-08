@@ -167,6 +167,12 @@ register_determination:
     review).'
 native_measure:
   typical_words: 94
+  ceiling_words: 160
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/HAL freeze
+    (2026-07-31, Decision HAL-4) - 160 = just above this record's measured solo max, so the
+    solo register never triggers, grounded in the triple-TRR dominance finding (71-75% at
+    the desert table).
   note: 'MEASURED from the two live-test transcripts'' 22 responses (Round 1: 15, Round 2: 7): mean 94,
     range 41-157. The HARD_CEILING_WORLDS entry EXISTS for this world (app/graph/nodes.py:1482: hieronymian-ascetic-literary
     180, retry multiple 1.2) - unlike Syriac, the runtime ceiling is already enforced; the measured mean

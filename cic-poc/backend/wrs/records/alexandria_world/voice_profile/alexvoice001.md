@@ -152,6 +152,13 @@ register_determination:
     or imagery'' (Phase 3 SS3, carried verbatim).'
 native_measure:
   typical_words: 140
+  ceiling_words: 160
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2 freeze fix
+    session (Mark's mandate, 2026-07-28) - 160 = this record's own measured max (typical_words
+    above) so the solo register never triggers, grounded in the TRR dominance finding (77-82%
+    of table speech, sitting truncated at 5/8 turns). The note below predates this addition and
+    still says no entry exists - stale, kept as-is pending this world's Phase 2 rebuild.
   note: 'NO HARD_CEILING_WORLDS entry exists for alexandria-catechetical (app/graph/nodes.py:1459 carries
     desert-monasticism 60 and hieronymian-ascetic-literary 180 only) - there is no runtime length ceiling
     for this world; recorded as data per SS3.8. The 140-word typical measure is MEASURED from the cleared

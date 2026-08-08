@@ -1614,35 +1614,52 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # grounded in the triple-TRR dominance finding (71-75% at the desert
     # table, a 195w table turn under the old 180@1.2 = 216 trigger that
     # never fired). The prior 180 predates the measured profile.
-    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
-                           "alexandria-catechetical": 160,
-                           # S6.2/SYR freeze (2026-07-28): 165 = the voice
-                           # profile's measured max (syrvoice001 native_measure,
-                           # range 41-165) so the solo register never triggers;
-                           # grounded in the TRR dominance finding (63-79%,
-                           # table turns to 1053w vs the 98w native measure)
-                           "syriac-edessa-nisibis": 165,
-                           # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
-                           # an ENFORCING ceiling, unlike the HAL/SYR
-                           # backstops - the battery measured the runtime
-                           # voice at 246-272w mean against pahcvoice001's
-                           # DESIGNED 70w typical and the prompt's own
-                           # two-short-paragraphs stop (~150w). 150 @ 1.5
-                           # (retry >225w) pulls the voice toward its own
-                           # designed measure; expected elevated retry rate
-                           # initially, re-measure at first production review.
-                           "post-apostolic-house-church": 150,
-                           # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
-                           # a MODERATE enforcing ceiling - no designed
-                           # answer cap exists (the prompt caps sentence
-                           # length; Section 4 stages the judgment), and
-                           # the battery measured 251-256w mean / 389 max.
-                           # 180 sits above the fleet band (the chancery's
-                           # numbered-points genre warrants more than the
-                           # household's handful) and below the measured
-                           # mean (pulls the long tail toward the staged
-                           # design). Re-measure at first production review.
-                           "imperial-juridical-christianity": 180}
+    # Voice Rebuild Phase 0.1 (2026-08-08): this dict literal is now a
+    # fallback only. The real source is each world's voice_profile record
+    # (native_measure.ceiling_words, see each record's ceiling_source field
+    # for the per-world freeze-session rationale preserved below in full) -
+    # read via repair_classifier.ceiling_words_map(), same lazy-import,
+    # fail-open discipline as the post_history_guard site above. The values
+    # below are IDENTICAL to what the records now carry; this dict exists so
+    # a record-read failure degrades to today's exact behavior, never to no
+    # ceiling at all.
+    #
+    # S6.2/SYR freeze (2026-07-28): 165 = the voice
+    # profile's measured max (syrvoice001 native_measure,
+    # range 41-165) so the solo register never triggers;
+    # grounded in the TRR dominance finding (63-79%,
+    # table turns to 1053w vs the 98w native measure)
+    #
+    # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
+    # an ENFORCING ceiling, unlike the HAL/SYR
+    # backstops - the battery measured the runtime
+    # voice at 246-272w mean against pahcvoice001's
+    # DESIGNED 70w typical and the prompt's own
+    # two-short-paragraphs stop (~150w). 150 @ 1.5
+    # (retry >225w) pulls the voice toward its own
+    # designed measure; expected elevated retry rate
+    # initially, re-measure at first production review.
+    #
+    # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
+    # a MODERATE enforcing ceiling - no designed
+    # answer cap exists (the prompt caps sentence
+    # length; Section 4 stages the judgment), and
+    # the battery measured 251-256w mean / 389 max.
+    # 180 sits above the fleet band (the chancery's
+    # numbered-points genre warrants more than the
+    # household's handful) and below the measured
+    # mean (pulls the long tail toward the staged
+    # design). Re-measure at first production review.
+    _CEILING_FALLBACK = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
+                         "alexandria-catechetical": 160,
+                         "syriac-edessa-nisibis": 165,
+                         "post-apostolic-house-church": 150,
+                         "imperial-juridical-christianity": 180}
+    try:
+        from app.graph.repair_classifier import ceiling_words_map
+        HARD_CEILING_WORLDS = ceiling_words_map() or _CEILING_FALLBACK
+    except Exception:
+        HARD_CEILING_WORLDS = _CEILING_FALLBACK
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
                                "alexandria-catechetical": 1.2,
                                "syriac-edessa-nisibis": 1.2,

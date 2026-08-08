@@ -93,6 +93,14 @@ register_determination:
     backward.'
 native_measure:
   typical_words: 120
+  ceiling_words: 180
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/IJC freeze
+    (2026-07-31, Decision IJC-5) as a MODERATE enforcing ceiling - no designed answer cap
+    exists in the prompt; the battery measured 251-256w mean / 389w max, and 180 sits above
+    the fleet band, below the measured mean, pulling the long tail toward the staged design.
+    The note below predates this addition and still says no entry exists - stale, kept as-is
+    pending this world's Phase 2 rebuild.
   note: 'PROVISIONAL PLANNING FIGURE, declared: the prompt caps SENTENCE length (''one finding, full stop''),
     never answer length - no designed word cap exists (the PAHC contrast). The freeze battery MEASURES
     the native measure; the ceiling decision rules (the HAL-4/PAHC-5 lane; no HARD_CEILING_WORLDS entry

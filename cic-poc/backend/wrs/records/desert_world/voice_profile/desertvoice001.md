@@ -117,6 +117,10 @@ register_determination:
     the inside.'''
 native_measure:
   typical_words: 60
+  ceiling_words: 60
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. No S6.2 freeze-session comment
+    is attached to this world's value there - it predates those sessions.
   note: Runtime hard ceiling for desert-monasticism is 60 words with regenerate-on-overage (HARD_CEILING_WORLDS,
     representative_prompts.py) - length discipline recorded as data per SS3.8. The Doc10 test exchanges
     predate this measure and run longer; their demonstration records score that honestly rather than retro-fitting.

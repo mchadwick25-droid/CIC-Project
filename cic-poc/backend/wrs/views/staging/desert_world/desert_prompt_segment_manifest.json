@@ -46,7 +46,7 @@
    "name": "demonstrations",
    "cache_stability": "static",
    "eviction_priority": 5,
-   "sources": "demonstration records (rubric-selected: no weak trait scores; cap 3)",
+   "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 3, deterministic rank by strong-count desc then record id)",
    "chars": 2888,
    "est_tokens": 722
   },

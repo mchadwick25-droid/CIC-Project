@@ -162,6 +162,13 @@ register_determination:
     by the prompt''s own sentence discipline.'
 native_measure:
   typical_words: 98
+  ceiling_words: 165
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/SYR freeze
+    (2026-07-28) - 165 = this record's own measured max (range 41-165) so the solo register
+    never triggers, grounded in the TRR dominance finding (63-79%, table turns to 1053w vs
+    the 98w native measure). The note below predates this addition and still says no entry
+    exists - stale, kept as-is pending this world's Phase 2 rebuild.
   note: MEASURED from the Phase-5 live-test transcript's 19 responses (mean 98, range 41-165); the retest
     responses run comparable. NO HARD_CEILING_WORLDS entry exists for syriac-edessa-nisibis (app/graph/nodes.py
     ~1482 carries desert-monasticism 60, hieronymian-ascetic-literary 180, alexandria-catechetical 160

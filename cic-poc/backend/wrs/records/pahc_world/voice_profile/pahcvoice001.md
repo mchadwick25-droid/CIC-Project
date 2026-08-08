@@ -173,6 +173,14 @@ register_determination:
     word choice.'
 native_measure:
   typical_words: 70
+  ceiling_words: 150
+  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
+    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/PAHC freeze
+    (2026-07-31, Decision PAHC-5) as an ENFORCING ceiling, unlike the HAL/SYR backstops - the
+    battery measured the runtime voice at 246-272w mean against this record's DESIGNED 70w
+    typical; 150 at retry multiple 1.5 pulls the voice toward its own designed measure. The
+    note below predates this addition and still says no entry exists - stale, kept as-is
+    pending this world's Phase 2 rebuild.
   note: 'DESIGNED, NOT MEASURED - declared: no Chloe-era live responses exist to measure (the Phase-5
     evidence tests the predecessor persona under a superseded prompt). 70 is the design centroid of the
     prompt''s own stated measure (''a handful of short sentences... even your fullest answer stops at
