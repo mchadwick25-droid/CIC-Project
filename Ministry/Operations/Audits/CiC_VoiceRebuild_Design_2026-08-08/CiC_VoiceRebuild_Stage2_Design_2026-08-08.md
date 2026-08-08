@@ -31,15 +31,21 @@ both two-sided: **the record layer is fleet-wide in structure but not in
 readiness.** All six worlds carry demonstration records (Desert 6, the
 other five 4 each) in `{{random_user}}` dialogue form, plus a
 `voice_profile` (SPEAKING-model speaking situation +
-situation-conditioned trait intensities, all six carrying a measured
-`native_measure`) and a `world_core`. But the demonstration records are
+situation-conditioned trait intensities, all six carrying a
+`native_measure` — though not all measured: PAHC's is marked "DESIGNED,
+NOT MEASURED", IJC's "PROVISIONAL PLANNING FIGURE", and Desert's equals
+the runtime ceiling; treat the fleet's numbers as mixed-provenance data
+the rebuild re-derives) and a `world_core`. But the demonstration records are
 NOT assembly-ready as they stand (this design's Round-1 review ran the
 selector): IJC's four records carry no `trait_scores` at all — Marius
 would assemble with zero demonstrations; the selector's no-"weak" filter
 is currently a no-op because no record fleet-wide uses the score
 vocabulary it filters on; three worlds score in a different vocabulary
 entirely; and PAHC's four demonstrations belong to a predecessor persona
-and carry bracketed apparatus the serialization helper doesn't strip.
+and carry bracketed apparatus that `segments/_common.py:voice` — a
+field-render helper matching parenthesised citations at assembly time,
+not a general apparatus stripper — does not remove (one more reason the
+demonstrations are written fresh rather than routed through).
 This does not weaken the architecture case — the brief already mandates
 writing worked examples fresh for all six worlds — but it means the
 demonstration layer is a per-world *build* deliverable with a schema
@@ -53,11 +59,17 @@ end-to-end: the Round-1 review re-ran it and its output is
 Desert prompt** — the assembly-identity check this design proposes
 already holds for world one. What exists is one world's prompt assembled
 and five worlds' records waiting on `DELIBERATELY TEMPORARY` assemblers —
-and **no world's capsule assembles yet**: `world_ground.py` explicitly
-does NOT fold the capsule in ("the full fold-in lands at S6.5"), and
-`capsule_prompt_views.py` records that hand-authored capsule prose will
-not round-trip. Capsule assembly is genuine new build work this design
-owns (§1), not an existing feature to inherit.
+The capsule side, stated precisely (this design's first draft got it
+wrong in both directions): capsule *emitters* exist for all six worlds
+(`capsule_prompt_views.py` + the five `s62_*` variants) and all six have
+staged `*_World_Capsule_Core_generated.md` output — but that generated
+output does not match the hand-authored deployed capsules
+(`capsule_prompt_views.py`'s own note: hand-authored capsule prose
+"will not round-trip"; this mismatch is much of what probe_parity's
+4-of-6 FAIL measures), and `world_ground.py` explicitly does NOT yet
+fold capsule content into the assembled prompt ("the full fold-in lands
+at S6.5"). The capsule work this design owns is therefore
+*reconciliation*, not creation: §1 names the target.
 
 ---
 
@@ -110,6 +122,20 @@ dialogues, `voice_profile` trait descriptions — remains fresh, per-world
 human-reviewed writing from sources under the brief's clean-rebuild
 mandate; assembly contributes enforcement and organization, not prose.
 
+**The capsule design (the reconciliation §0 names):** target state is
+the S6.5 fold-in — world-ground content lives inside the assembled
+prompt's own `world_ground` segment, authored once in records, and the
+separate capsule file shrinks to whatever the runtime interface still
+needs (or is emitted as a thin generated artifact from the same
+records). Until the fold-in lands, the transitional state is
+parallel-emit: the existing capsule emitters regenerate the capsule from
+the same rebuilt records that feed the prompt, so the two surfaces
+cannot drift. Either way, hand-authored capsule prose ends with this
+rebuild — each world's Build step authors its world-ground content into
+records (capsule prose style is explicitly in scope per the brief), and
+the round-trip failure the current emitters record becomes moot because
+there is nothing hand-authored left to round-trip.
+
 **What "deployed" concretely means (design, for Blueprint to sequence):**
 the six `data/<world>/*_Representative_Permanent_Prompt_*.txt` and
 `*_World_Capsule_Core.md` files stay as the runtime's read surface
@@ -142,10 +168,13 @@ protects.
 **Layer 2 — Demonstration (the strongest voice lever we have evidence
 for).** Worked `{{random_user}}` example dialogues, per world, written
 FRESH for all six (the brief's own mandate — including Papnoute's, whose
-six current records all overrun his own recorded measure by 2–5×),
+six current records all overrun his own recorded measure by 2.4–5.2×),
 rubric-scored in a standardized score vocabulary, assembly-selected
-(cap 3–5 per Anthropic's guidance), with the selector hardened: a world
-selecting zero demonstrations fails the build.
+(cap 3–5 per Anthropic's guidance) with a deterministic rank key —
+strong-score count descending, then record id — and each world's
+targeted demonstration carrying a `required` flag the selector always
+includes; the selector is hardened: a world selecting zero
+demonstrations fails the build.
 - **Form decision (Research q6): positive-only as the default — chosen
   as the best-supported starting point, not as proven cause.** Stated
   honestly: Papnoute's held battery is an *existence proof* that a
@@ -182,10 +211,12 @@ restatement is the weakest lever and costs tokens).
 existing `POST_HISTORY_GUARD` slot (`nodes.py`, composed closest to
 generation) carries only the constraints that must survive attention
 decay: no fabrication, no unprompted term-reclarification, plus each
-world's own categorical guards (IJC's stays). Design change: the guard
-text becomes an assembly export per world (it already is for Desert),
-so guards are recorded, versioned, and identical between record layer
-and runtime.
+world's own categorical guards (IJC's stays). Design change, stated as
+the real change it is: today one Desert-authored guard text applies to
+every migrated world; the design moves to six per-world guard exports,
+each assembled from its world's records — recorded, versioned, and
+identical between record layer and runtime. Writing five new per-world
+guards is Build work, not formalization of an existing state.
 
 **Layer 5 — Code enforcement (what stops being an instruction at all).**
 - **Leak filter at serialization, fail-closed and honestly scoped**
@@ -245,10 +276,12 @@ actually said, enforceable by transcript check); lead-with-insight
 naming BOTH field names (`Ecological Function` for lexicon,
 `Formation Ecology Connection` for stories) with the filter stated as a
 general requirement; the sustained-disagreement license
-(evidence-conditioned: hold what your record holds, from inside the
-world, across repeated pushes; concede plainly what it doesn't —
-mirroring `repair_classifier`'s existing HOLD/CONCEDE routing so prompt
-and adjudicator agree); and the shape repertoire folded into "Let the
+(evidence-conditioned and three-way, mirroring `repair_classifier`'s
+actual routing so prompt and adjudicator agree: hold what your record
+holds, from inside the world, across repeated pushes; concede plainly
+what it doesn't; and where the record genuinely cannot decide —
+the classifier's UNCERTAIN branch — say so honestly rather than
+manufacturing either confidence or concession); and the shape repertoire folded into "Let the
 Question Set the Shape" (story-first, question-behind-the-question,
 plain-and-short, consensus-then-contrast — as options, not a template).
 
@@ -267,11 +300,16 @@ is the backstop, and a voice that only ever hits the backstop is
 regenerating constantly — the prose is what makes the ceiling cheap);
 (2) per-world measures stay in `voice_profile` records and each world's
 assembled prose renders its own measure (already record-shaped for four
-worlds' prompts); (3) `HARD_CEILING_WORLDS`'s hardcoded dict becomes
-assembly-fed from `native_measure` (a Blueprint item), so the record
-layer is the single source for the same number the runtime enforces —
-ending the drift risk between a record's measure and the dict's copy of
-it. Layer assignment, per this section's own logic: the ceiling is
+worlds' prompts); (3) `HARD_CEILING_WORLDS`'s hardcoded dict becomes assembly-fed from
+the records — via a NEW `ceiling_words` field added to each world's
+`native_measure` block (a schema addition; a Blueprint item), because
+the existing `typical_words` is a mean, not a ceiling, and feeding it
+directly would collapse ceilings to typical output (HAL 160→94, SYR
+165→98) and put worlds into regenerate-on-nearly-every-turn. Migration
+seeds `ceiling_words` with the current dict values, carrying their
+per-world freeze rationale into the record; the dict then reads the
+record, ending the drift risk between a record's measure and the code's
+copy of it. Layer assignment, per this section's own logic: the ceiling is
 Layer 5 (code), the measure prose is Layer 3, and rebuilt
 demonstrations show turns *at* the measure (Layer 2).
 
@@ -290,7 +328,7 @@ exists).
 | `over_settling` screen (stage 1, cheap) | **Keep** | Cheap; exists because the one-signal-among-ten version caught nothing; its over-flagging is by design and costs only the second look. |
 | `over_settling` adjudication (stage 2, the largest invisible cost item) | **Keep through the rebuild, then decide against measured data — with the decision pre-committed, not open-ended.** | The probes' data is *suggestive* that the rebuild itself is the cheapest fix candidate: the plainest, best-held voice fired it at half the rate of the register-heavy one (3/8 vs 6/8) — a cross-world comparison Research flags as register-confounded, so it motivates the re-measurement rather than proving the outcome. Dropping or sampling it *before* the rebuild would remove Objective 4's runtime backstop exactly while the voice is deliberately changing — the highest-risk moment. Design therefore commits Build verification to report, per rebuilt world, the firing rate AND the confirmed rate (surfacing `over_settling_logging` into the harness is a named Blueprint task), and pre-commits the decision rule: if the confirmed rate across rebuilt worlds is under ~1 in 10 firings, stage 2 moves to sampled adjudication (every Nth firing + always-on for first-time claims), reported to Mark with the numbers; if confirmed findings stay frequent, it stays, with the cost now a measured price of a real failure mode rather than a default. |
 | `citation_grounding` | **Keep** | Content-mapping, paraphrase-tolerant — immune to register change by design; moderate cost; it is the only check tying spoken claims to retrieved sources, which the transparency goal (§4.1) needs while citations feed the participant-facing UI. |
-| `drift_detection` | **Keep the single call; instrument it; add one signal.** | One call/turn covering twenty signals is already the cheap shape (the 20-calls reading was a review-caught error). The gap is visibility, not cost: emit *which* signal fired into usage logs (per-signal breakdown, a light instrumentation task), add the missing `declining_initiative` signal, and put `FLATTENING` under an explicit verification watch during per-world rebuilds (the one signal that could plausibly misread "plainer" as "more generic" — Research/brief both flag it). |
+| `drift_detection` | **Keep the single call; instrument it; add one signal.** | One call/turn covering twenty signals is already the cheap shape (two separate prior corrections: the stale ten/seventeen signal-type counts, and the brief's own clarification that twenty signals ≠ twenty calls). The gap is visibility, not cost: emit *which* signal fired into usage logs (per-signal breakdown, a light instrumentation task), add the missing `declining_initiative` signal, and put `FLATTENING` under an explicit verification watch during per-world rebuilds (the one signal that could plausibly misread "plainer" as "more generic" — Research/brief both flag it). |
 | `confirmed_glosses` | **Keep for the rebuild; drop-candidate afterward, on evidence.** | Zero LLM cost, deterministic — there is no cost case for removing it now. But it is exactly the kind of accumulated constraint the rebuild exists to question: Build verification checks whether rebuilt voices hit the fixed gloss strings *without* the instruction (run one world's battery with it off); if yes fleet-wide, retire it as apparatus the well-built voice no longer needs. |
 
 Net cost posture, stated for Mark plainly: the rebuild's cheapest-path
@@ -334,8 +372,9 @@ step's work from the records.
    already excellent in prose — the rebuild's work is carrying it into
    demonstrations and cutting file FK below the floor without losing the
    chancery cadence; keep his IJC-scoped post-history guard.
-3. **Theon (Alexandria).** No per-turn ceiling today and the shared
-   default becomes load-bearing; largest lexicon corpus (50) with the
+3. **Theon (Alexandria).** No *prose* ceiling in his file (the runtime
+   already backstops him at 160 words, `HARD_CEILING_WORLDS`), so the
+   shared prose default plus his recorded measure carry the target; largest lexicon corpus (50) with the
    most EF-less chunks; his "two travellers over one text" stance is the
    fleet's best raw material for the candidate-understanding offer —
    his targeted demonstration should show it.
@@ -345,7 +384,7 @@ step's work from the records.
    brief is explicit ("write his fresh too rather than treating him as
    already done"), and this design's Round-1 review measured why — all
    six of his current demonstration records overrun his own recorded
-   60-word measure by 2–5× (146–311 words). Approach: his voice prose
+   60-word measure by 2.4–5.2× (146/164/168/205/218/311 words). Approach: his voice prose
    and demonstrations are written fresh like every world's, with his
    held battery as the *quality floor his rebuild must not fall below*;
    his pass also freezes the fleet-wide segment design before riskier
@@ -383,36 +422,42 @@ after the swap.
 
 - **The per-world checkpoint** (after pilot and after each world),
   built on the harnesses that already run per-world scripted batteries
-  (`wrs/gates/freeze_battery.py` and the per-world probe/standards
-  files), extended rather than reinvented: the
+  (`scripts/freeze_battery.py` and the per-world probe/standards files),
+  extended rather than reinvented: the
   8-turn probe battery (the Research stage's committed instrument) against the rebuilt
   world — reclarify openers (regex + mandatory manual read), bridge-first
   adherence, output FK/w-s per turn, turn length, per-signal drift,
-  fabrication/over-settling firing + confirmed rates, callback and
-  candidate-offer occurrence (manual read against transcript), plus the
-  Framework's confidence-under-thinness and Sustained Engagement
-  categories. Pass bar: Papnoute's battery profile, adjusted for the
+  fabrication/over-settling firing + confirmed rates, ceiling
+  regeneration events (`app/length_ceiling_logging.py` — each
+  regenerate-on-overage is a full extra main-response call, a real cost
+  line the checkpoint reports), callback and candidate-offer occurrence
+  (manual read against transcript), plus the Framework's
+  confidence-under-thinness and Sustained Engagement categories. Pass bar: Papnoute's battery profile, adjusted for the
   world's own recorded measure.
 - **The sustained-disagreement probe, designed as an extension of the
-  batteries that already exist, not a reinvention**: `wrs/gates/
-  freeze_battery.py` and the per-world probe/standards files already run
-  scripted per-world batteries, and `s46_pushback_battery.py` already
+  batteries that already exist, not a reinvention**: `scripts/freeze_battery.py` and the per-world probe/standards files
+  already run scripted per-world batteries, and `s46_pushback_battery.py` already
   scripts pushback turns — the new probe reuses that harness shape
   (Blueprint sequences the build): per world, a 6-turn script
   pressing one documented position with escalating pushback (polite
   doubt → counter-evidence → "you're just being stubborn" → emotional
   appeal → partial concession offer → direct request to recant).
-  Instrument: per-turn HOLD/CONCEDE classification against the world's
+  Instrument: per-turn three-way classification against the world's
   contested_claim records (the repair_classifier's own adjudication rule
-  reused as the scorer), pass = holds supported positions through turn 6
-  while conceding any genuinely unsupported claim the script plants.
+  reused as the scorer, keeping its UNCERTAIN branch: UNCERTAIN turns
+  route to the human read, never auto-scored), pass = holds supported
+  positions through turn 6 while conceding any genuinely unsupported
+  claim the script plants.
 - **The Objective-3 positive-goal instrument, designed** (the largest
   named gap): a structured human-read checklist built from the §6 rubric's
   adopt/adapt traits (Research doc) — per transcript: opinionated
   presence, uptake of the participant's actual words, candidate-offer
   when ambiguous, honest edge-speech, world-particular imagery, length
-  restraint — scored per conversation, two independent reads, with
-  disagreements adjudicated rather than averaged. Human reading is the
+  restraint — scored per conversation. Resourcing stated honestly for a
+  single-operator project: the read of record is one reader (Mark or
+  his designee) scoring the transcript twice on separate days, with any
+  self-disagreement re-read rather than averaged; a second reader is
+  used where one exists, not assumed. Human reading is the
   instrument here by design; an LLM judge may *assist* but the score of
   record is the read. Runs at every per-world checkpoint.
 - **probe_parity, redefined for a deliberate rebuild** (Research q5):
@@ -505,15 +550,19 @@ together.
 
 1. **Albina values decision** — framed, escalated to Mark at the first
    measured number (§4.1). Not decided here.
-2. **Turn-length architecture** — decided: shared default floor stays;
-   per-world measures live in voice_profile records (§2).
+2. **Turn-length architecture** — decided, three parts (§2): shared
+   prose default stays; per-world measures live in voice_profile
+   records and render into each world's prose; the existing
+   `HARD_CEILING_WORLDS` runtime backstop is kept and becomes
+   record-fed via a new `ceiling_words` field.
 3. **Governance recommendations** — delivered (§3), with pre-committed
    decision rules instead of open-ended "later."
 4. **Leak fix split** — decided: code-side fail-closed strip + tiered
    build-time gate; authoring-side insight-field pass per world
    CONTINGENT on Mark's scope call (escalated, §7), with a
    serialization-side fallback; prompt-side filter language only as the
-   general requirement in `_HOW_YOU_ENGAGE` (§2 Layer 5).
+   general requirement in the shared `_HOW_YOU_ENGAGE` changes (§2 —
+   the shared-block paragraph, distinct from Layer 5).
 5. **probe_parity criterion** — redefined (§5); assembly-identity takes
    the drift-alarm role post-rebuild.
 6. **Worked-example form** — decided: positive-only default + one
@@ -526,6 +575,8 @@ together.
    itself; Theon's demonstration carries the fleet's model of it (§2, §4.3).
 9. **Record-sourced assembly** — adopted with the quality governor
    binding (§1).
-10. **Objective 2×4 interaction** — designed: caveat-carried storytelling
-    demonstrated per world (Layer 2), story serialization keeps Usage
-    Guidance, verification reads caveat survival + fabrication rate (§5).
+10. **Objective 2×4 interaction** — designed: caveat-carried
+    storytelling demonstrated per world (§2 Layer 2), with Usage
+    Guidance continuing to serialize as today (existing behavior,
+    `story_indexer.py:93-97` — restated, not redecided), verification
+    reading caveat survival + fabrication rate (§5).

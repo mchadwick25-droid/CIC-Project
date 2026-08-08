@@ -364,3 +364,131 @@ The cheapest guard against the next round of this is mechanical and the document
 10. **P2s** as an editing pass, with the `§4.1` disambiguation done by grep.
 
 **Then re-check.** Per the brief's own standing rule: fixes 1, 3, 4 and 5 all require asserting *replacement facts about what code and records do*, which is the exact class this round found failing. A targeted re-check of those four hunks — run against the code, not read against the commit message — is proportionate. A full round is not.
+
+---
+
+# Addendum — targeted re-check of the fix pass (commit `937cc51`), 2026-08-08
+
+*Opus targeted re-check, per the Standard Practice's point 4 and this round's own closing instruction. Scope: `937cc51` ("Apply Design Round 1 adversarial findings…"), which claims all 6 P0s and 9 P1s. Aimed at the three failure classes this thread has proven: replacement facts in fix prose that carry new errors; a correction applied at one site while another site still carries the falsified claim; and reorganizations that change scope-reach.*
+
+*Verification method. Every replacement fact executed or opened at source, not read against the commit message. `HARD_CEILING_WORLDS`/`RETRY_TRIGGER_MULTIPLES` read whole at `nodes.py:1617-1651` including all six per-world freeze comments. All six `wrs/records/*/voice_profile/*.md` read at `native_measure` (`typical_words` **and** the provenance note). The six Desert demonstration dialogues parsed and the Representative's turns word-counted independently. `leak_audit_apparatus_hits.json` re-partitioned from scratch. `world_ground.py` and `capsule_prompt_views.py` docstrings re-read; `wrs/views/` enumerated for capsule emitters and `wrs/views/staging/` for their outputs. `scripts/` and `wrs/gates/` enumerated for the named batteries. `facilitator_prompts.py` grepped for the three contrast phrases. All four §1 code-side per-world configs opened at their definitions. The whole document grepped for each of Round 1's falsified claims.*
+
+## Bottom line
+
+**Not ready. Blueprint must not sequence §2's turn-measure part (3), §4.3, or §1's capsule effort estimate as written.**
+
+This is a real fix pass, not a cosmetic one — 4 of 6 P0s are substantially closed and all 9 P1s were attempted. But three replacement facts are new errors, one of them a live production-regression instruction, and one falsified claim survives verbatim at an uncorrected site.
+
+**3 new P0. 6 new P1. 4 new P2.**
+
+### Round 1 disposition, per finding
+
+| Finding | Landed? |
+|---|---|
+| P0-1 demonstration mechanism | **Yes**, at every site. §0 rewritten with all four defects, §1 ground 3 rewritten, §2 Layer 2 hardened, §4.4 rebuilt. All four defects independently re-verified: IJC 0 `trait_scores` in all four records; `"weak"` absent fleet-wide; three worlds (HAL/SYR/PAHC) in `PASS`-vocabulary; PAHC's six scores all `PASS (predecessor evidence)` with `[predecessor validation persona…]` inline. *Residue: the selector rank key (P0-1's fifth problem) is still unspecified — see R2-P1-6.* |
+| P0-2 Papnoute six-not-one | **Yes.** Counted the six dialogues myself: 146 / 164 / 168 / 218 / 205 / 311 Representative-turn words against `typical_words: 60`. §4.4's "all six… by 2–5× (146–311 words)" reproduces; "codify, not change" is gone from the document; the brief's own sentence is quoted. |
+| P0-3 capsule | **Partly — and the replacement fact is inverted.** §8's "already merged" is correctly gone. But see R2-P0-2, and the capsule design paragraph Round 1 asked for was never written (R2-P1-4). |
+| P0-4 turn measure | **Partly — three new errors.** Rationale correctly rebuilt around `HARD_CEILING_WORLDS`; Theon 140 / Marius 120 / Desert 60 all verified correct. But see R2-P0-1, R2-P0-3, R2-P1-1, R2-P1-3, R2-P1-5. |
+| P0-5 gate scope | **Yes.** Re-partitioned the committed JSON from scratch: 104 flagged, **23** with no hit in EF/FEC/Final Assembly (World Meaning 14, Plural-Voices 3, Distortion Risk 2, Confidence 2, Related-Terms 2; Desert 9, ALX 6, IJC 4, PAHC 2, SYR 2), **20** Usage Guidance (PAHC 8, IJC 6, ALX 3, Desert 3), and the two sets are **disjoint** — so the tiering arithmetic (61 hard-fail / 43 report-only) is sound and "~23" is exact. |
+| P0-6 insight-field license | **Yes — cleanly, and it is the best-executed fix in the pass.** Escalated to §7 as a named pre-Build Mark call, the brief's capsule-only limit stated, a serialization-side fallback given, §6 made contingent, §9 item 4 updated, and "the design does not proceed on the unlicensed reading" stated plainly. |
+| P1-1 … P1-5, P1-7, P1-8, P1-9 | **Yes.** Stage attributions: all five misattributions gone, the one correct use of "this stage" (§0) retained. Facilitator: three occurrences confirmed at `facilitator_prompts.py:429/449/485`. §1's four code-side configs all verified real — `HARD_CEILING_WORLDS` (`nodes.py:1617`), `app/prompts/confirmed_glosses.py`'s per-world lists, the IJC guard extension (`nodes.py:1174-1181`), and `_migrated_world_ids` (`repair_classifier.py:157`, docstring: *"Worlds with a world_core record - the compatibility gate"*). |
+| P1-6 existing batteries | **Yes in substance, no in the citation** — see R2-P1-2. |
+| P2 ×10 | **5 applied or moot, 5 not.** Applied: P2-5 (the loose measure descriptors are gone with the rewrite), P2-3 and P2-4 (now resolvable, since §2 Layer 5 discusses Usage Guidance and §9 item 4 names `_HOW_YOU_ENGAGE`), P2-10 (§6 124 → 171 words with both missing items), P2-9 partly. **Not applied: P2-1** (`§4.1` still ambiguous at three sites), **P2-2**, **P2-6**, **P2-7**, **P2-8**. Four of those five are fair to skip as polish. P2-2 is not — see R2-P2-2. |
+
+---
+
+## New P0
+
+### R2-P0-1. §2's turn-measure part (3) — "`HARD_CEILING_WORLDS` becomes assembly-fed from `native_measure`" — conflates a ceiling with a typical measure. Executed against the code's own freeze comments, it would cut five of six worlds' ceilings by 30–60% and put PAHC and IJC into regenerate-on-nearly-every-turn.
+
+§2: *"(3) `HARD_CEILING_WORLDS`'s hardcoded dict becomes assembly-fed from `native_measure` (a Blueprint item), so the record layer is the single source for **the same number** the runtime enforces — ending the drift risk between a record's measure and **the dict's copy of it**."*
+
+They are not the same number and the dict is not a copy. `native_measure.typical_words` is a **mean**; each ceiling was deliberately set at or above that world's measured **max**, or as a deliberate enforcing pull, and the code says so in each world's own freeze comment:
+
+| World | ceiling | `typical_words` | the code's own stated basis |
+|---|---|---|---|
+| Desert | 60 | 60 | the ceiling *is* the record's number (the one world where they match) |
+| Hieronymian | 160 | 94 | *"160 = just above the voice profile's measured solo max (range 41-157, mean 94) **so the solo register never triggers**"* |
+| Alexandria | 160 | 140 | *"160 = this record's own measured max"* (record: 123/138/166/136) |
+| Syriac | 165 | 98 | *"165 = the voice profile's measured max (range 41-165) so the solo register never triggers"* |
+| PAHC | 150 | 70 | *"an **ENFORCING** ceiling… the battery measured 246-272w mean against pahcvoice001's DESIGNED 70w typical and the prompt's own two-short-paragraphs stop (~150w)"* |
+| IJC | 180 | 120 | *"a MODERATE enforcing ceiling… the battery measured 251-256w mean / 389 max. 180 sits above the fleet band and below the measured mean"* |
+
+Feed `typical_words` in as written and HAL goes 160→94, SYR 165→98, ALX 160→140, PAHC 150→70, IJC 180→120. With `RETRY_TRIGGER_MULTIPLES` at 1.2/1.5 the retry thresholds become 113 / 118 / 168 / 105 / 180 words — against measured means of 94, 98, ~141, 246–272 and 251–256. PAHC and IJC would fire a **full main-response regeneration** on close to every turn; HAL and SYR would fire on exactly the solo turns the freeze decisions were written to protect. The design's own §2 names this hazard one sentence earlier (*"a voice that only ever hits the backstop is regenerating constantly"*) and then instructs the change that causes it.
+
+There is also no field to read: `native_measure` carries `typical_words` and a prose `note` only. The measured max the ceilings actually derive from exists **only inside the note's prose**. "Assembly-fed from `native_measure`" is not implementable as stated.
+
+**Why this blocks.** It is a numbered part of a decision §9 reports as closed, addressed to Blueprint as a named item, touching the live runtime for all six worlds.
+
+**Fix.** Either state the derivation rule (ceiling = the record's measured **max**, which requires adding a `max_words`/`range` field to `native_measure` first — name that as the Blueprint item), or keep the dict and add a build-time **consistency check** (ceiling ≥ measured max) instead of a feed. Do not describe the dict as a copy of `typical_words`.
+
+### R2-P0-2. §0's and §1's replacement fact — "**no world's capsule assembles yet**… genuine new build work" — is false. Six capsule assemblers exist and every one of the six worlds has a staged generated capsule.
+
+§0: *"and **no world's capsule assembles yet**… Capsule assembly is genuine new build work this design owns (§1), not an existing feature to inherit."* §1 ground 3: *"the capsule emitter for all six (**new work — no capsule assembles today**, §0)."*
+
+`wrs/views/` carries six capsule emitters — `capsule_prompt_views.py` (Desert) plus `s62_alx_`, `s62_hal_`, `s62_ijc_`, `s62_pahc_`, `s62_syr_capsule_prompt_views.py` — and `wrs/views/staging/` carries their outputs for all six worlds:
+
+```
+alexandria_world/alex_World_Capsule_Core_generated.md
+desert_world/desert_World_Capsule_Core_generated.md
+hieronymian_world/hal_World_Capsule_Core_generated.md
+imperial_juridical_world/ijc_World_Capsule_Core_generated.md
+pahc_world/pahc_World_Capsule_Core_generated.md
+syriac_world/syr_World_Capsule_Core_generated.md
+```
+
+They are `DELIBERATELY TEMPORARY` in exactly the sense the prompt-side S2.8 assemblers are — same docstring, same S5.2 successor, same "assembles from record FIELDS only." That is precisely the state §0 correctly describes for the **prompt** side ("five worlds' records waiting on `DELIBERATELY TEMPORARY` assemblers"). The capsule side is in the same place, not zero.
+
+This is Round 1's P0-1 error with the sign flipped: Round 1 caught an effort claim that was too optimistic ("a generalization, not an invention"); the fix over-corrected the capsule half into an effort claim that is too pessimistic, and it is the claim Blueprint sizes six worlds' capsule work from. The two true statements are (a) no capsule is **deployed** from assembly — `permanent_prompt.py` writes two prompt-side files only — and (b) `capsule_prompt_views.py` records that hand-authored capsule prose **will not round-trip**, which is the real difficulty and is a *fidelity* problem, not an *absence* problem. Both are already in §0's next clause and both verified verbatim; the "no capsule assembles" sentence is the only wrong part.
+
+**Fix.** Replace with: six temporary capsule assemblers exist and emit staged capsules for all six worlds; none is deployed; the S5.2-class real assembly and the non-round-tripping hand-authored prose are the actual work.
+
+### R2-P0-3. The falsified turn-ceiling claim survives verbatim at an uncorrected site: §4.3 still says Theon has no per-turn ceiling, contradicting the amended §2 three paragraphs earlier.
+
+§4.3: *"**Theon (Alexandria).** **No per-turn ceiling today** and the shared default becomes load-bearing…"*
+
+§2, amended: *"`HARD_CEILING_WORLDS`… is a live per-world word ceiling with regenerate-on-overage **for all six worlds**."* `nodes.py:1619` carries `"alexandria-catechetical": 160` with `RETRY_TRIGGER_MULTIPLES` 1.2, and `alexvoice001.md`'s own note records the configuring decision: *"A ceiling WAS configured at the S6.2 freeze fix session (Mark's mandate, 2026-07-28): HARD_CEILING_WORLDS 160 with retry multiple 1.2."*
+
+The claim is true only of Theon's **prompt file** (which I read — it states no numeric measure), which is exactly the prompt-file→record/runtime transposition Round 1's P0-4 named. The fix corrected the transposition in §2 and left it standing in §4, where it is the first stated fact of a per-world approach Build executes.
+
+**Fix.** "No measure stated in his prompt file today; his runtime ceiling is 160 @1.2 and his record's measure is 140 — the shared prose default and his assembled measure both have to be written against those."
+
+---
+
+## New P1
+
+- **R2-P1-1. "All six carrying a *measured* `native_measure`" (§0) and "each value derived from that world's *measured* `voice_profile` `native_measure`" (§2) are false for half the fleet.** Three of six are measured (HAL 94 from 22 responses; SYR 98 from 19; ALX 140 from the Round-2 retest). Desert's 60 is the *runtime ceiling* recorded as data. **PAHC's 70 is self-labelled "DESIGNED, NOT MEASURED - declared"**; **IJC's 120 is self-labelled "PROVISIONAL PLANNING FIGURE, declared."** Round 1's table carried these provenances; the fix flattened them to "measured." It matters because R2-P0-1's proposed feed would set two worlds' live ceilings from figures their own records disclaim.
+- **R2-P1-2. The one instrument path the fix added is wrong, twice.** §5 cites `wrs/gates/freeze_battery.py` (in both the checkpoint bullet and the sustained-disagreement bullet). `wrs/gates/` contains `core.py`, `run_gates.py`, `content_coverage.py`, `fixtures.py` — no battery. The file is **`scripts/freeze_battery.py`**, with `scripts/freeze_battery_probes/{alx,desert,hal,ijc,pahc,syr}.py` and `scripts/freeze_battery_standards/*.yaml`. Round 1 cited it correctly; the fix relocated it. `s46_pushback_battery.py` is cited without a path and is fairly described (its docstring: *"the pushback battery (blind, two-trial)… held-position and concession rates computed"*; two-turn cases, as Round 1 said). Against brief Part Eight's "instruments by name, not prose aspiration," a name that does not resolve is the failure mode.
+- **R2-P1-3. §9 item 2 was not updated and now under-reports its own section.** It still reads *"decided: shared default floor stays; per-world measures live in voice_profile records (§2)"* — the pre-fix two-part decision. §2's amended decision has three parts, and the third (the runtime ceiling) is the whole substance of P0-4. The answer table is where Mark and Blueprint read what was decided.
+- **R2-P1-4. §8's capsule token-saving still does not follow from §1's own chosen path, and P0-3's requested capsule design paragraph was never written.** §8: *"once the capsule emitter lands (new work, §0) — capsule and prompt stop duplicating world-ground content."* §1 chooses parallel-emit: the capsule files *"stay as the runtime's read surface"* and become build artifacts. A capsule regenerated from records still carries world-ground content and is still concatenated every turn — `world_ground.py` is explicit that the duplication ends at **S6.5's compatibility retirement**, not when an emitter exists. Round 1 asked the design to decide fold-in vs parallel-emit, say what record fields carry capsule content, and say what happens to the prose that will not round-trip. None of the three is anywhere in the document; the decision is still being made by omission, and the token claim is now attached to the wrong milestone.
+- **R2-P1-5. Two of P0-4's four fix items were dropped.** `length_ceiling_logging` appears once (§2) and is still **not named in §5**, whose per-world checkpoint lists "turn length" as a measured item — it is the built, per-world, denominatored instrument for exactly that. And **retry cost is still absent from §8 and from §3's 7.5–7.9 invisible-calls arithmetic**, though a ceiling retry is a full main-response regeneration and PAHC — the pilot — carries the one ceiling the code annotates as *"expected elevated retry rate initially."*
+- **R2-P1-6. The selector rank key is still unspecified while §2 still mandates the targeted demonstration.** §2 hardens the selector only against the zero case ("a world selecting zero demonstrations fails the build"). `_selected()` remains `sorted(demos)[:cap]`, so a newly authored `syrdemo005`/`alexdemo005` sorts last and is cut by the cap — the design still mandates an artifact its own mechanism will not reliably include. Round 1's fix asked for the rank key by name.
+
+---
+
+## New P2
+
+1. **Three `voice_profile` records assert that no `HARD_CEILING_WORLDS` entry exists for their world when one does** — `syrvoice001` ("NO… entry exists for syriac-edessa-nisibis"; 165 exists), `pahcvoice001` ("NO… entry exists"; 150 exists), `ijcvoice001` ("no HARD_CEILING_WORLDS entry exists for ijc"; 180 exists). `alexvoice001` contradicts itself within one note. Not the design's error, but the design now rests "the record layer is the single source" on fields whose own notes are stale about the runtime — worth a named Blueprint cleanup, and it is the concrete argument for the consistency-check option in R2-P0-1.
+2. **P2-2 (the `repair_classifier` third branch) is no longer polish.** §5 now makes the classifier's adjudication rule the *scorer* for the sustained-disagreement probe ("the repair_classifier's own adjudication rule reused as the scorer") while §2 still describes it as HOLD/CONCEDE. It routes SUPPORTED→HOLD, UNSUPPORTED→CONCEDE, **UNCERTAIN→no directive**. A three-way classifier used as a two-way pass/fail scorer will mis-score exactly the turns the classifier singles out as dangerous.
+3. **P2-1, P2-6, P2-7, P2-8 unapplied.** `§4.1` is still ambiguous at three sites (§2 Layer 1's "this is what §4.1 protects" and §3's "the transparency goal (§4.1)" mean the brief's; §7 and §9 item 1 mean this document's §4 item 1, which still has no numbered subsections). Fair as polish, but P2-1 was a grep-sized job.
+4. **Two small imprecisions in fix prose.** "overrun… by 2–5×" understates the top of its own range (311/60 = 5.2×; the parenthetical numbers make it checkable, so this is cosmetic). And §0 still calls `segments/_common.py:voice` "the serialization helper" — it is a field-render helper that runs at assembly and matches parenthesised apparatus only, which is the very reason it misses PAHC's square brackets in the sentence that cites it.
+
+---
+
+## What the fix pass got right, verified
+
+- **Every countable replacement fact re-derived independently and matched**: the six Desert word counts (146/164/168/218/205/311 vs a 60-word measure); the 23-file uncovered set and its per-section and per-world breakdown; the 20 Usage Guidance files and their disjointness from the 23; IJC's zero `trait_scores`; `"weak"` absent fleet-wide; the three-world `PASS`-vocabulary split; PAHC's predecessor-persona scores and bracketed apparatus; Theon 140 / Marius 120 / Desert 60; the three Facilitator contrast phrases at 429/449/485; all four §1 code-side per-world configs; `readability_check` at `wrs/gates/core.py:211`; `declining_initiative` genuinely absent from the codebase.
+- **Both capsule quotations are verbatim and correctly used** — `world_ground.py`'s *"the full fold-in lands at S6.5's compatibility retirement"* and `capsule_prompt_views.py`'s *"Hand-authored capsule prose will not round-trip."* The error at R2-P0-2 is in the sentence around them, not in them.
+- **P0-6 is a model of how to close a finding of that class**: the license claim removed at all three sites (Layer 5, §6, §9 item 4), the brief's actual limit stated, the decision moved to §7 as a pre-Build gate, a fallback designed so the escalation cannot stall Build, and the refusal to proceed stated in the document's own voice.
+- **No scope-reach regression found.** The Layer-5 re-tiering narrows what hard-fails but names the residue and its size, and the escalation in Layer 5(c) narrows the authoring pass to two named fields contingent on Mark — both moves shrink reach honestly rather than quietly.
+
+## Recommended fix list
+
+1. **R2-P0-1** — rewrite §2 part (3) as a derivation rule against the measured max (with the record field that must exist) or as a build-time consistency check. *Only item that touches live runtime behaviour.*
+2. **R2-P0-3** — §4.3's first clause. One sentence.
+3. **R2-P0-2** — §0 and §1's capsule sentences: six temporary emitters, none deployed, non-round-tripping prose is the real work.
+4. **R2-P1-4** — write the capsule design paragraph P0-3 asked for and re-point §8's bullet at S6.5 retirement, or drop the bullet.
+5. **R2-P1-1, R2-P1-2, R2-P1-3, R2-P1-5, R2-P1-6** — provenance wording, the `freeze_battery` path (×2), §9 item 2, `length_ceiling_logging` in §5 + retry cost in §8, the selector rank key. All mechanical.
+6. **R2-P2-2** then the rest of the P2s as one editing pass.
+
+**Then send.** Every item above is a sentence-level correction against a fact now established in this file; none re-opens a design decision except R2-P0-1, which re-opens one clause of one. A third adversarial round is not proportionate — a verification that these ten hunks say what the sources say is.
