@@ -138,3 +138,124 @@ After (1)–(3), §4 is sound and the document is ready to gate Design. Nothing 
 ---
 
 *Simulated review — informational only, not an Article 31 substitute.*
+
+---
+
+# Addendum — follow-up verification, 2026-08-08 (commits `503f74d` and `2c41473`)
+
+*Opus follow-up, same discipline, same document, dispatched after the two commits that landed on top of `598f69c`. Scope: (1) `503f74d`, a brand-new §8 question 9 (record-sourced assembly as the default architecture, per Mark's 2026-08-08 direction) plus a §0 purpose note plus the renumbering of the old question 9 → 10 — new positive prose that has never been checked; (2) `2c41473`, the fix pass applying this re-check's own 3 P1s and 9 P2s. Nothing else in the document was re-reviewed.*
+
+*Verification method. Every factual claim in the new §8 question 9 taken to source: `wrs/records/*/source/` counted per world with `find`; all twelve record subdirectories enumerated and counted per world; `wrs/views/permanent_prompt.py` and `wrs/views/chunk_views.py` read for the Desert-hardcoding and staging claims; brief §6's priority paragraph and Objective 5 read verbatim; the `wrs/` lockstep requirement located at `brief:297`; the rigor/bibliography sweep confirmed in `git log` on `cic-poc/backend/wrs/records`; `git diff --stat f4c15c8~2..HEAD -- cic-poc/` run to test §0's "nothing was changed this stage." For the fix pass: `leak_audit_instrument.py` executed and `git status` checked for a byte-identical regeneration; the pre-`598f69c` broad instrument re-run and its flagged set compared element-wise against the restored Stage 1; the `APPARATUS` regex re-decomposed per class; `Usage Guidance` occurrences counted across all 118 lexicon and 60 story chunks; the instrument grepped for any line-emitting code; all `§N` pointers re-extracted; every one of this re-check's twelve findings grepped at its site.*
+
+## Addendum bottom line
+
+**Not clean.** **0 P0, 4 P1, 7 P2.**
+
+**The instrument work is now genuinely and completely right, and it is worth saying so first.** `leak_audit_instrument.py` runs two real stages: `broad_screen_files: 172` and `apparatus_files: 104` both emit from the same execution, and re-running it leaves `git status` clean — the committed JSON is byte-identical to what the committed code produces, both numbers included. I also confirmed the restoration is *faithful* rather than coincidental: I re-ran the pre-`598f69c` broad instrument and compared sets, and the old "hits **or** markerless" definition and the new "hits only" definition flag exactly the same 172 files (every markerless file also carries a broad hit), so the restored Stage 1 is the same screen that historically produced the number, not a new screen tuned to hit it. All four of P1-1's specific complaints are closed: 172 is reproducible, `tier meta-language` has moved from the Stage 2 list to the Stage 1 list in both the docstring and §4 (matching the code, where it is a `BROAD_PATTERNS` entry and absent from `APPARATUS`), the Stage 2 prose list now matches the regex class-for-class, and both texts now say the no-Key-Sources-marker detection comes from the serialization step rather than from either pattern stage — which is where the code does it. P1-2's reconciliation is also correctly rewritten: "neither contains the other" is right, `pahclex012`/`pahclex013` are named and correctly reassigned to the fail-open class, and `tier meta-language` is gone from the added-classes list.
+
+**But the fix pass repeated this thread's signature failure twice, in the two places where it chose to write a new explanatory clause instead of deleting a false one** (P1-A-2 and P1-A-3 below) — and the new §8 question 9, being 400 words of brand-new positive prose, carries the round's only wrong number and a direct verbal contradiction with the section header it sits under.
+
+**The new §8 question 9 is substantively well-sourced.** Everything in it that I could take to source held except the record count: the Desert-only staging assembler is real (`STAGING = HERE/"staging"/"desert_world"`, hardcoded `desertcore001` / `desertvoice001` / `world_id: "desert-monasticism"`, writes to staging only, docstring's *"Deterministic: same records -> byte-identical outputs"* supporting the "deterministic assembly" framing); `probe_parity`'s 4-of-6 failure and its record-layer-fidelity reading are exactly as P7 and §3.2 already established, and the "records-vs-deployed drift this architecture ends structurally" inference follows from them; the `wrs/` lockstep requirement is real at `brief:297`; Objective 5 is genuinely *"The Construction Framework itself changes so that world #7 doesn't reintroduce this exact gap"*; and the quality-governance constraint's load-bearing citation is verbatim — brief §6 says *"Objective 3 carries exactly as much weight as Objective 4, not less."* The "recent rigor and bibliography sweeps" are real (`06a9561`, "Rigor: real field-bibliography sweep, Syriac (syri.ac) + Desert (BIBP)"). **The renumbering is clean**: whole-document grep returns exactly two `question N` pointers — §0's new note pointing at question 9 (the new item, correct) and §7's Objective-2×4 row pointing at question 10 (the renumbered item, correct). No dangling pointer to the old numbering anywhere. **§0's new purpose note is verifiably true**: `git diff --stat f4c15c8~2..HEAD -- cic-poc/` shows the entire Research stage added exactly two files, `voice_rebuild_research_probe.py` and its results JSON. No voice file, capsule, or pipeline was touched.
+
+---
+
+## P1 (addendum)
+
+### P1-A-1. §8 question 9's one quantitative claim is wrong. "26–41 source records per world" understates the largest world by 35 records.
+
+> *"the `wrs/records/<world>/` layer: **26–41 source records per world** plus term/story/gravity/contested_claim/figure/demonstration/voice_profile/world_core records…"*
+
+Counted directly (`find wrs/records/<world>/source -type f`, all `.md`):
+
+| World | source records |
+|---|---|
+| PAHC | **76** |
+| Syriac | **64** |
+| Imperial-Juridical | 41 |
+| Alexandria | 37 |
+| Desert | 26 |
+| Hieronymian | 26 |
+
+The true range is **26–76**. The stated ceiling of 41 excludes the two largest worlds, and PAHC — the world §4 has just identified as carrying the corpus's highest apparatus-leak rate (81%) and the world whose Representative is the brief's pilot — is nearly double the stated maximum. This is the only number in the new section, it is the section's evidence that the record layer is substantial enough to build on, and it is the classic shape: a replacement fact asserted in new prose without being counted.
+
+**Fix.** *"26–76 source records per world (Desert and Hieronymian 26, Alexandria 37, IJC 41, Syriac 64, PAHC 76)."* The corrected number strengthens the argument rather than weakening it.
+
+### P1-A-2. §4's caveat (1) was rewritten into a new false claim. Running the committed instrument does not produce the matched lines; it produces no lines at all.
+
+The previous caveat said the JSON was committed *"for full inspection"* — this re-check's P1-3 called that false because the JSON carries no matched text. The replacement:
+
+> *"the committed JSON carries per-file, per-section hit counts (**the matched lines themselves are reproducible by running the committed instrument**, not stored in the JSON)…"*
+
+Grepped the instrument for every output path: `write_text` at line 221 (summary + per-file section counts) and `print` at line 223 (summary). `scan_body` computes `section_of(body, m.start())` and **discards the match object**; no `m.group()`, no line slicing, no text capture anywhere in the file. Running the committed instrument emits exactly zero matched lines. A Design reader following the caveat's instruction will run the script and get the same JSON back.
+
+P1-3 offered two fixes: emit the lines, or say what the JSON actually supports. The commit took a third path that asserts a capability the code does not have — replacing a false claim about the JSON with a false claim about the script. The honest version is one clause shorter: *"(the matched lines are not stored; re-deriving them means re-running the `APPARATUS` regex against the serialized bodies yourself)."*
+
+### P1-A-3. §4's Usage Guidance denominator was replaced with a false statement about the corpus. `Usage Guidance` appears in zero lexicon chunks.
+
+Previous text (correct, merely ambiguously placed): *"comparable to Usage Guidance's 20 of 60."* This re-check's P2-9 asked for four words — "20 of 60 **story** files." The replacement:
+
+> *"comparable to Usage Guidance (20 files — **a section that appears in both chunk types, so it takes no single denominator**)."*
+
+Counted across the whole corpus: `Usage Guidance` appears in **60 of 60 story chunks and 0 of 118 lexicon chunks**. And all 20 flagged files carry it as a story section (`Counter({'story': 20})` from the committed JSON). The section does *not* appear in both chunk types; it takes a perfectly good single denominator, which is the one the document just deleted.
+
+This is strictly worse than the defect it fixed: a correctly-stated rate (20/60 = 33%, genuinely comparable to Ecological Function's 33/107 = 31%) was replaced by no rate at all plus a false premise. Restore the number and add the missing word.
+
+### P1-A-4. §8's own preamble says these are decisions that must not happen "by default." New question 9 installs a default architecture. The contradiction is verbal and sits four lines apart.
+
+§8's heading paragraph, **unchanged**:
+
+> *"Decisions this Research stage deliberately does NOT make, **listed so none happens by default**:"*
+
+New question 9:
+
+> *"Design evaluates **making the records the authored artifact and the deployed prompt a deterministic assembly from them** as **the default architecture, not one option among several**."*
+
+Item 9 is not an open question and does not pretend to be — it is Mark's 2026-08-08 direction, correctly labelled as such in its own first line, and it belongs in the document. But it is filed inside a numbered list whose header promises the opposite, and it is the only item in the list that fixes a starting position rather than leaving one open. Items 1–8 all read *"Design decides X"*; item 9 reads *"X is the default; Design evaluates it."* A Design reader scanning §8's header and then item 9 gets two opposite signals about whether the architecture is settled, in the one place where the answer has real consequences for what Design builds first.
+
+Round 3 and Round 5 on the brief both rated this same shape — a directive filed under a header that disclaims directives — as blocking. It is milder here because item 9 self-labels its provenance. **Fix**, one of three, all cheap: retitle §8 (*"Open questions and standing directions handed to Design"*), or move item 9 above the numbered list as a framed direction with the list renumbered back, or add one clause to §8's preamble: *"…listed so none happens by default — with the exception of item 9, which records a direction already given rather than a question left open."*
+
+---
+
+## P2 (addendum)
+
+1. **The instance miscount was suppressed at one site and left at the other.** §5.3 now reads *"on top of the prior instances P3 lists"* (the count simply deleted), but §1 P3 still reads *"This session's live probes added **the fifth** and sharpest instance"* against a list that enumerates **five** numbered items — it is the sixth. Same half-application shape the original finding described; the fix took the site the finding quoted and not the site it named.
+
+2. **The bare cross-document pointer this re-check named explicitly was not fixed, and a redundant duplicate was added beside it.** §3.1 line 347 still reads *"The Albina decision the brief reserves for Design **(§6 Objective 3)**"* — the exact bare pointer P2-1 flagged. Three lines below, the commit inserted a *second* reference to the same objective, this one prefixed: *"the unresolved values decision (**brief §6 Objective 3** — shorten her sentences…)."* So the document now names the same brief objective twice in one bullet, once bare and once prefixed. The other three named pointers were fixed correctly (§0's `the brief's §8`, `the four studies the brief's §3 names`, §8's `per the brief §9's mandate`). At least three further bare pointers to the *brief's* §5 remain unswept (lines 33, 63, 266 — *"Every §5 code/prompt claim,"* *"with §5's bug-level findings,"* *"none reverses a §5 finding"*), each of which resolves to a different section in this document. Neither this re-check nor the fix caught those; noting them so the next sweep is complete rather than a fourth partial one.
+
+3. **"Matches file-for-file" overstates the Round-4 distribution match by one world.** New §4 text: *"Round 4's 17-chunk uncovered-set distribution **matches file-for-file**."* Round 4's table is Desert 9 / Alexandria 5 / IJC 3 = 17; the instrument gives Desert 9 (the same 9, `World Meaning` 7 + `Distortion Risk` 2), IJC 3 (the same 3), Alexandria **6** in `World Meaning` = 18. Round 4 never lists the Alexandria filenames, so a file-for-file claim is not checkable for that row and is numerically off by one. This re-check's own wording was *"reproduces almost exactly… Alexandria 6 against Round 4's 5"*; the restatement dropped the qualifier. Write *"reproduces exactly for Desert and IJC and to within one file for Alexandria (6 here against Round 4's 5)."*
+
+4. **"The Research evidence assembled above already argues each piece" is true for three of the five pieces and false for two.** `probe_parity`'s 4-of-6, the enforcement-at-assembly-time argument (P3 + §3.1 + §4), and Objective 5's world-#7 point are all genuinely assembled above. But **the assembler's existence and its Desert-only staging scope appear nowhere above** — §4's only mention of `permanent_prompt.py` is its docstring's exclusion set — and **the `wrs/` lockstep requirement is never stated in this document at all** (it lives at `brief:297`). Both claims are true; I verified the assembler by reading the file. They are new facts presented as a recap, which is the framing that stops a reader from checking them. Say "verified this session" for the assembler and prefix the lockstep requirement to the brief.
+
+5. **The record-type enumeration omits `force`, the third-largest record class.** *"plus term/story/gravity/contested_claim/figure/demonstration/voice_profile/world_core records."* All eight named types exist and are populated in all six worlds. So do three unnamed ones: **`force` (10–18 records per world**, larger than `gravity`, `contested_claim`, `demonstration`, `figure`, `voice_profile` or `world_core` in every world), `quote` and `search_record`. Since the point of the sentence is that the record layer is rich enough to assemble from, understating it is self-defeating; add `force` at minimum.
+
+6. **§8 question 9 sends Design to §7 for an instrument §7 says does not exist.** *"the assembled output must pass the same instruments this stage built (§7 — the probe battery, output readability, **the naturalness rubric traits**, the sustained-disagreement probe when built)."* §7's own Objective-3 row says the naturalness-rubric checklist is a **candidate** for an instrument that does not exist, and the sustained-disagreement row (added by this same commit) says the same. The parenthetical's "when built" covers the second; the first is stated as though §7 already carries it. Extend the qualifier: *"…the naturalness rubric traits and the sustained-disagreement probe, both when built."*
+
+7. **§4's added-pattern-classes list is now accurate but incomplete.** *"this instrument's added pattern classes (strand codes, Reciprocity/template references) account for part of the remaining difference."* Decomposed per class, the files flagged **only** by classes absent from Round 4's tighter definition are six: `pahclex005` (strand), `ijclex010` (strand), `syrlex005` (Reciprocity), `syrlex008` (Reciprocity), and `pahclex010` and `alexlex011` — both on **CT tags**, a class the sentence does not name. Hedging to "part of" makes the statement true; adding "CT tags" makes it complete, and costs two words.
+
+---
+
+## What verified clean this addendum (re-derived, not trusted)
+
+**The two-stage instrument, end to end.** `python3 leak_audit_instrument.py` → `broad_screen_files: 172`, `apparatus_files: 104`, `apparatus_files_lex: 58`, `apparatus_files_story: 46`, section hits 152 / 44 / 36 / 31 / 28 / 14, files-by-section 45 / 33 / 20 / 17 / 8, per-world rates 0.81 / 0.74 / 0.67 / 0.61 / 0.55 / 0.26 — and `git status` clean afterward. Set-level check against the pre-`598f69c` broad instrument: the two definitions of "flagged" (hits-or-markerless vs hits-only) select **the same 172 files**, so Stage 1 is a faithful restoration, not a number reverse-engineered to match prose.
+
+**Docstring and §4 against the code, class by class.** `BROAD_PATTERNS` (15 regexes) contains `tier meta-language`, `scholar`/`historian`/`academic`/`modern hearing`, `see … below/above`, `Confidence: Inferential|Attested|…`, `FLAG-\d+`, `front-matter`, `Construction Framework` — matching the docstring's and §4's new Stage 1 description. `APPARATUS` contains gravity codes and named gravities (Tensional / Primary / Supporting), `Doc_0\d`, `Force \d[A-C]`, `Strand [A-C]`, `Final Assembly Instruction`, `L4-Templates`, `per Template`, `CT tag`, `Contest Type`, `Reciprocity Note`, `builder notes?`, `No brackets` — matching the new Stage 2 description, with no tier pattern. The no-marker list is computed in `serialized_lexicon` at line 101, outside both pattern stages, as both texts now say.
+
+**The remaining ten of this re-check's twelve findings landed correctly**: the Round-4 reconciliation rewrite (P1-2), the §1 P2 → §7 pointer, now resolving to a real **Sustained-disagreement probe** row (P2-2); §9's *"violating its own file's bridge-first instruction… with the reading floor exceeded as a proxy"* (P2-3); §3.1's Yausep bullet, now correctly scoping finding D to output and naming the artifact difference (P2-5); §5.1's regex-miss diagnosis, now *"a present-tense, true-referent sense-clarification… not among the committed patterns, which target other constructions"* (P2-6); §7's three new rows with Status and What-it-measures un-swapped (P2-7); §2.1's Theon note, quoting `alex_…Theon.txt:45` accurately (*"read with, not to lecture… two travellers over one text"* — verbatim against the file, with an honest elision) (P2-8).
+
+**§8 question 9's sourcing**, item by item: `wrs/views/permanent_prompt.py` hardcodes `desertcore001`, `desertvoice001`, `world_id: "desert-monasticism"` and writes only into `wrs/views/staging/desert_world/`; its docstring carries both the exclusion set and *"Deterministic: same records -> byte-identical outputs."* `brief:297` carries the lockstep requirement verbatim. `brief:611-637` carries *"Objective 3 carries exactly as much weight as Objective 4, not less"* and the "two parallel, non-negotiable priorities" framing. `brief:645` carries Objective 5's world-#7 clause. Twelve record subdirectories exist per world, all eight named ones populated in all six.
+
+**Renumbering and stage-scope claims.** Two `question N` references in the whole document, both correct after renumbering. `git diff --stat f4c15c8~2..HEAD -- cic-poc/`: two files, both new probe artifacts — §0's "nothing in any voice file, capsule, or pipeline was changed this stage" is exactly true.
+
+## Addendum fix list
+
+1. `26–41` → `26–76`, with the per-world list. **(P1-A-1)**
+2. Rewrite caveat (1)'s parenthetical to stop claiming the instrument emits lines. **(P1-A-2)**
+3. Restore "20 of 60 story files" and delete "appears in both chunk types." **(P1-A-3)**
+4. Reconcile §8's preamble with item 9 — one clause, three equally good options above. **(P1-A-4)**
+5. Sweep the seven P2s; items 1 and 2 are one-word edits at sites already named twice.
+
+Three of the four P1s are single-sentence repairs to sentences written in the last two commits, and none of them touches a measurement — the measurements, including the two that this thread spent two rounds on, are now correct and reproducible. **The document is one short editing pass from ready. A fourth adversarial pass is not warranted; whoever makes these edits should re-read §4's caveat and §8's preamble once against the code and the header respectively before committing.**
+
+---
+
+*Simulated review — informational only, not an Article 31 substitute.*

@@ -30,7 +30,7 @@ question 9.
 
 Method, stated so the adversarial pass can check it:
 
-- **Every §5 code/prompt claim relied on here was re-verified against the
+- **Every brief-§5 code/prompt claim relied on here was re-verified against the
   cited file/line in this session** — not carried forward on the brief's
   authority. Where a claim had already been double-verified by two or more
   review rounds (the Round 1–5 digest's "verified correct" list), that is
@@ -60,7 +60,7 @@ Method, stated so the adversarial pass can check it:
 
 ## 1. The governing question: what makes an Interview-mode Representative conversation genuinely good
 
-The brief's §9 makes this the Research stage's actual question, with §5's
+The brief's §9 makes this the Research stage's actual question, with the brief §5's
 bug-level findings as supporting evidence. The answer below is organized as
 seven principles. Each carries its evidence and its confidence; none is
 asserted bare. Together they are the ground Design should build on.
@@ -153,7 +153,7 @@ system's own further instances, each verified at source:
    — a clean, single-direction finding). CiC already exploits this at one
    site (`POST_HISTORY_GUARD`, `nodes.py:1152-1167`).
 
-This session's live probes added the fifth and sharpest instance: Yausep
+This session's live probes added the sharpest instance yet: Yausep
 violated his own file's bridge-first instruction in 2 of 8 turns (3 of 8
 on the broader any-technical-term measure) and opened one turn with an
 unprompted term-reclarification, with guard-layer presence inferred from
@@ -263,7 +263,7 @@ FAIL (2). Two readings the review rounds established, both carried here:
 ## 2. Verification of the brief's §5 diagnosis: what held, what needed correction
 
 Every claim checked this session held at its cited file/line, with the
-following genuinely new corrections and refinements (none reverses a §5
+following genuinely new corrections and refinements (none reverses a brief-§5
 finding; two narrow one, one extends one):
 
 1. **"The actual, only turn-length ceiling in the system" (the brief's
@@ -344,10 +344,10 @@ Three consequences, stated as findings:
 - **Albina's *file* is not her problem; her *output* is.** Her prompt is
   the third most accessible of the six and passes the gate; her measured
   live output ran 23.6 words/sentence. The Albina decision the brief
-  reserves for Design (§6 Objective 3) is therefore precisely about the
+  reserves for Design (brief §6 Objective 3) is therefore precisely about the
   gate's target artifact: wire it to *output*, not prompt text, or it will
   pass her while participants still can't read her. The unresolved values
-  decision (brief §6 Objective 3 — shorten her sentences vs name a
+  decision (shorten her sentences vs name a
   deliberate exception) stands — this measurement doesn't dissolve it, it
   locates it.
 - **Two prompt files fail: Marius (both numbers) and Yausep (FK 10.0,
@@ -406,10 +406,11 @@ classified by hand.
   fail-open chunks (`pahclex012`, `pahclex013`) that carry no
   apparatus-pattern text and so are counted here under the fail-open
   class instead; this instrument's added pattern classes (strand codes,
-  Reciprocity/template references) account for part of the remaining
+  CT tags, Reciprocity/template references) account for part of the remaining
   difference. What does reproduce exactly: every Round-4 named example
-  re-flags here, Round 4's 17-chunk uncovered-set distribution matches
-  file-for-file, and Desert's 9 flagged lexicon chunks are the same 9
+  re-flags here, Round 4's named uncovered files all re-flag and the per-world
+  distribution matches within one file (Alexandria counts 6 here against
+  Round 4's 5, whose filenames Round 4 did not list), and Desert's 9 flagged lexicon chunks are the same 9
   files Round 4 counted.
 - **The contamination concentrates exactly where the rebuild wants to point
   the voice — by both denominators.** By raw hits: `Formation Ecology
@@ -418,8 +419,8 @@ classified by hand.
   Instruction` 28, `Plural-Voices Note` 14. By files affected: Formation
   Ecology Connection 45 of 60 story files — decisively the worst;
   Ecological Function 33 of 107 lexicon files, comparable to Usage
-  Guidance (20 files — a section that appears in both chunk types, so it
-  takes no single denominator). Typical Formation Ecology Connection text reads
+  Guidance's 20 of 60 story files (the section appears only in story
+  chunks; all 20 flagged files are story files). Typical Formation Ecology Connection text reads
   "This story directly generates gravity 1 (withdrawal) and gravity 7
   (..., Doc_08 Force 1B-ii)." An instruction to lead with this material,
   unfiltered, would push gravity-numbering apparatus directly into the
@@ -450,10 +451,11 @@ classified by hand.
   55%; Hieronymian 7/27 = 26%. No world is clean.
 
 **Two classification caveats, stated for the adversarial pass:** (1)
-pattern-matching over-flags; every pattern class was hand-sampled, and the
-committed JSON carries per-file, per-section hit counts (the matched lines
-themselves are reproducible by running the committed instrument, not
-stored in the JSON), but per-line true/false classification across all
+pattern-matching over-flags; every pattern class was hand-sampled during
+this session, and the committed JSON carries per-file, per-section hit
+counts — matched line text is not stored anywhere (the committed regex
+and corpus make the matches recomputable, but the instrument as committed
+does not emit them) — and per-line true/false classification across all
 104 files was not done exhaustively — the counts are "files containing at
 least one apparatus-pattern line in serialized body," an
 upper-bound-shaped measure whose examples were verified real.
@@ -706,23 +708,29 @@ happens by default:
 9. **Record-sourced assembly as the default architecture to evaluate —
    Mark's direction, 2026-08-08, added before stage sign-off.** This
    rebuild takes advantage of the world record build-out already
-   completed (the `wrs/records/<world>/` layer: 26–41 source records per
-   world plus term/story/gravity/contested_claim/figure/demonstration/
-   voice_profile/world_core records, with recent rigor and bibliography
-   sweeps): the six worlds' information is already reorganized for
-   efficiency, and the voice rebuild should sit on it rather than beside
-   it. Design evaluates **making the records the authored artifact and
-   the deployed prompt a deterministic assembly from them** as the
-   default architecture, not one option among several. The Research
-   evidence assembled above already argues each piece: the assembler
-   exists as a Desert-only staging prototype (`wrs/views/
-   permanent_prompt.py`); `probe_parity`'s 4-of-6 failure is precisely
-   the records-vs-deployed drift this architecture ends structurally;
-   assembly time is where enforcement becomes code instead of
-   under-holding prose (P3) — leak filtering, the readability gate,
-   fail-closed stripping; the `wrs/` lockstep requirement dissolves
-   instead of being a discipline; and world #7 inherits the machine
-   (Objective 5).
+   completed (the `wrs/records/<world>/` layer: 26–76 source records per
+   world — PAHC 76, Syriac 64, IJC 41, Alexandria 37, Desert 26,
+   Hieronymian 26 — plus term/story/gravity/force/contested_claim/
+   figure/demonstration/quote/search_record/voice_profile/world_core
+   records, with recent rigor and bibliography sweeps): the six worlds'
+   information is already reorganized for efficiency, and the voice
+   rebuild should sit on it rather than beside it. Design evaluates
+   **making the records the authored artifact and the deployed prompt a
+   deterministic assembly from them** as the first candidate
+   architecture — a direction set by Mark, with the adopt/adapt/reject
+   decision still Design's to make and record explicitly, consistent
+   with this section's rule that no decision happens by default. The
+   evidence for each piece is verified — most in this document's own
+   findings, two directly against the brief and its review rounds: the
+   assembler exists as a Desert-only staging prototype
+   (`wrs/views/permanent_prompt.py`, per the brief's §7 Part A
+   correction, re-verified this stage); `probe_parity`'s 4-of-6 failure
+   (P7) is precisely the records-vs-deployed drift this architecture
+   ends structurally; assembly time is where enforcement becomes code
+   instead of under-holding prose (P3) — leak filtering, the readability
+   gate, fail-closed stripping; the `wrs/` lockstep requirement (brief
+   §4.2) dissolves instead of being a discipline; and world #7 inherits
+   the machine (Objective 5).
 
    **The governing constraint, stated with the same weight as the
    architecture itself: structure organizes and enforces — it never
@@ -732,10 +740,10 @@ happens by default:
    if the assembled voice is at least as natural, engaging, and genuinely
    that world's own as the best hand-authored alternative — measured, not
    assumed: the assembled output must pass the same instruments this
-   stage built (§7 — the probe battery, output readability, the
-   naturalness rubric traits, the sustained-disagreement probe when
-   built), with Papnoute's held battery (§5.2) as the working quality
-   bar. The voice prose *inside* the records (voice_profile, worked
+   stage built or named (§7 — the probe battery, output readability, the
+   §6 rubric traits once built into an instrument per §7's named
+   Objective-3 gap, the sustained-disagreement probe when built), with
+   Papnoute's held battery (§5.2) as the working quality bar. The voice prose *inside* the records (voice_profile, worked
    examples, register craft) remains fresh, per-world writing from
    sources — the clean-rebuild mandate applies to it unchanged; what
    assembly contributes is that this craft is written once, in the record
