@@ -19,12 +19,16 @@ Nothing here re-decides Design; where sequencing exposed a genuine
 either/or the Design didn't fix, it is flagged as a sequencing decision
 with the chosen order and its reason.
 
-**The one decision needed before Phase 2 starts (not before Phase 0):**
-Mark's insight-field scope call (Design §2 Layer 5 / §7) — extend the
-prose-style license to `Ecological Function`/`Formation Ecology
-Connection` for content-preserving rewrites, or use the
-serialization-side strip. Phase 0 and Phase 1 are identical under both
-branches; the branch is taken at Phase 2's first world.
+**The one decision needed before Build starts (Design §7's own
+placement):** Mark's insight-field scope call (Design §2 Layer 5) —
+extend the prose-style license to `Ecological Function`/`Formation
+Ecology Connection` for content-preserving rewrites, or use the
+serialization-side strip. The branches are NOT identical in Phase 0:
+the fallback branch adds a serialization-side strip to Phase 0.2, and
+Checkpoint 0's "names exactly the files Phase 2 must fix" evaluates
+only on the rewrite branch (on the fallback branch those files are
+handled by code, not authoring). The call is therefore needed before
+Phase 0.2 is implemented.
 
 ---
 
@@ -35,14 +39,15 @@ participant sees until worlds rebuild through them. Items marked [G]
 are gates the later phases depend on; sequencing within the phase is
 free except as noted.
 
-**0.1 Schema + selector (Design §2 Layer 2, §0):**
+**0.1 Schema + selector (Design §2 Layer 2 + turn-measure part 3, §0):**
 - Standardize the demonstration `trait_scores` vocabulary
   (strong/partial/weak) across all six worlds' records; add the
   `required` flag; harden the selector (deterministic rank key;
   zero-demonstration world fails the build). [G]
 - Add `ceiling_words` to every `voice_profile.native_measure`, seeded
   with the current `HARD_CEILING_WORLDS` values and their freeze
-  rationale; switch the dict to read assembly-fed values
+  rationale where one exists (five of six; Desert's 60 predates the
+  freeze sessions); switch the dict to read assembly-fed values
   (behavior-neutral by construction — same numbers, new source). [G]
 
 **0.2 Serialization + leak gate (Design §2 Layer 5):**
@@ -67,9 +72,14 @@ free except as noted.
   fold-in scheduled as its own item at Phase 3 — the fold-in changes
   what the runtime reads, so it lands after all six worlds' records are
   rebuilt, not during.
-- Readability gate wired at assembly time (per-world floor from
-  `wrs/parameters.yaml`), warn-only in Phase 0 (no rebuilt content yet),
-  enforcing from Phase 1 on. [G]
+- Readability gate wired at assembly time (the fleet-wide
+  `reading_floor` from `wrs/parameters.yaml` — FK band [8,10], FRE ≥ 60;
+  any per-world exception is Mark's reserved Albina-class call, never a
+  config default), **warn-only for any world whose records have not yet
+  been rebuilt** — five of six worlds' current text fails the floor
+  somewhere, so fleet enforcement before Phase 2 would go red on
+  material only Phase 2 fixes. The gate enforces per world, at that
+  world's own Phase-2 pass, and fleet-wide once all six are rebuilt. [G]
 
 **0.4 Instruments (Design §5):**
 - Per-signal drift surfacing + `declining_initiative` signal; surface
@@ -78,13 +88,22 @@ free except as noted.
 - Extend the probe harness's scenarios to all six worlds (it covers
   the two probe worlds today); add the sustained-disagreement 6-turn
   scripts per world (extending `scripts/freeze_battery.py`'s harness
-  shape); write the Objective-3 checklist instrument sheet from the
-  Research §6 rubric rows. [G]
+  shape); implement the redefined probe_parity criterion (Design §5's
+  split grading — a script change, built here because Phase 2's
+  checkpoints consume it); write the Objective-3 checklist instrument
+  sheet from the Research §6 rubric rows. [G]
 - Commit the pre-rebuild baseline set: re-run the full battery
   (8-turn + disagreement) against ALL SIX current worlds and commit
   transcripts + metrics. This is the missing durable baseline the brief
   asked for, produced with the extended harness rather than recovered
   from the uncommitted artifacts. [G]
+- **Baseline Objective-3 read** [G]: the Design §5 read-of-record
+  protocol (one reader — Mark or his designee, named before Phase 0
+  ends — scoring each transcript twice on separate days) run against
+  the committed baseline transcripts, so every later "Objective-3 read
+  ≥ baseline" bar has an actual baseline number and a resourced reader.
+  Without this item, seven of the nine later checkpoints cannot be
+  computed — it is not optional.
 
 **Checkpoint 0 (exit Phase 0):** all [G] items green; assembly-identity
 holds for Desert (already true) and produces stable output for the
@@ -107,21 +126,34 @@ callback license, lead-with-insight with both field names + filter
 requirement, three-way disagreement license, shape repertoire; turn
 measure stays). Run against Chloe alone, live, before any other world
 sees the change.
-- **Checkpoint 1A pass bar:** Chloe's battery does not regress from her
-  Phase-0 baseline on any failure measure (reclarify 0, no new
-  register/measure violations, fabrication 0 confirmed); at least
-  directional improvement on uptake/bridge-first measures; Objective-3
-  read scores at or above baseline. **On fail:** iterate the shared
+- **Checkpoint 1A pass bar,** stated against her actual Phase-0
+  baseline numbers, not assumed zeros: no failure measure regresses
+  (reclarify openers ≤ baseline, register/measure violations ≤
+  baseline, fabrication confirmed = 0), and at least one of two
+  pre-named measures improves — bridge-first opener rate or
+  first-sentence uptake — with the Objective-3 read ≥ her baseline
+  read. **On fail:** iterate the shared
   block against Chloe only; two consecutive failed iterations = stop and
   bring findings to Mark before proceeding (a shared-block approach that
   can't pass the pilot is a Design-level problem, not a retry problem).
 
-**1B — Assembly proof on Desert (Design §4 item 4's "freezes the
-fleet-wide segment design").** Papnoute's records through the
-generalized machinery: schema-normalized scores, hardened selector,
-leak gate, readability gate, assembly-identity. His six demonstrations
-are NOT yet rewritten in this phase (that's his Phase-2 pass); 1B
-proves the *machinery* reproduces his current held quality.
+**1B — Assembly proof on Desert (the segment-design freeze, Design §4
+item 4 — run deliberately on his current, un-rebuilt records, which is
+what makes it a machinery test rather than a voice test).** Papnoute's
+records through the generalized machinery: schema-normalized scores,
+hardened selector, leak gate, readability gate, assembly-identity. His
+six demonstrations are NOT yet rewritten (that's his Phase-2 pass).
+Byte-identity is expected to survive the score normalization for a
+verified reason, stated so the expectation is checkable: Desert already
+scores in `partial`/`strong` vocabulary, all six demonstrations tie at
+4 strong, and the new rank key reproduces the current `sorted()[:3]`
+selection — so normalization changes no selected dialogue. Two honest
+limits: (a) Phase 0.2's serialization changes alter what *retrieval*
+serves at runtime (Desert has 9 of the 23 out-of-section flagged files),
+so a 1B battery difference could come from retrieval, not assembly —
+1B's bar is still evaluable, but attribution of any failure starts
+there; (b) the freeze is on un-rebuilt records — valid because all six
+worlds share the profile schema, which is the thing being frozen.
 - **Checkpoint 1B pass bar:** assembled Desert prompt remains
   byte-identical to deployed (machinery didn't drift it); his 8-turn
   battery re-run holds at his Research-stage profile (0/8 failure
@@ -137,22 +169,46 @@ point — foundations + pilot proven, no world's voice yet changed.
 
 Each world's pass, identical structure (Design §4's per-world content):
 1. Records rebuilt fresh from that world's sources: voice_profile
-   register/craft prose, world_core/world-ground content (capsule prose
-   in scope), 3–5 fresh demonstrations incl. the world's targeted one
-   and one caveat-carried story demonstration; per-world post-history
-   guard export; insight-field pass per Mark's branch (rewrite or
-   strip).
-2. Assemble; all build gates green (leak hard-fail, readability floor,
-   selector, assembly-identity vs the new output).
-3. **Checkpoint (per world):** the full battery live — 8-turn probe +
+   register/craft prose (including re-deriving `native_measure` and
+   `ceiling_words` from sources — mandatory for PAHC ("DESIGNED, NOT
+   MEASURED") and IJC ("PROVISIONAL PLANNING FIGURE"), whose current
+   figures are not measurements and are never used as grading targets
+   before re-derivation), world_core/world-ground content (capsule
+   prose in scope), 3–5 fresh demonstrations incl. the world's targeted
+   one and one caveat-carried story demonstration, with Design §2's
+   Layer-3 redundancy rule applied (every boundary stated in two
+   segments in different words); per-world post-history guard export
+   (Marius's carries the existing IJC extension); insight-field pass
+   per Mark's branch (rewrite or strip). The contrastive-demonstration
+   fallback (Design §2 Layer 2) is available per world: if a world
+   fails its checkpoint twice on a measure a demonstration targets,
+   contrastive form is adopted for that world and recorded.
+2. Assemble **to staging** (never directly to `data/`); all build gates
+   green (leak hard-fail, readability floor, selector).
+3. **Checkpoint (per world), run against the candidate, not the
+   deployed voice:** the checkpoint harness runs the backend with the
+   candidate files (git worktree checkout or the backend's `DATA_PATH`
+   override — Blueprint's named mechanism, chosen at Phase 0.4 when the
+   harness is extended), with the live `data/` untouched. **Only on a
+   green checkpoint does the swap step run:** candidate commits to
+   `data/` marked generated-do-not-hand-edit, assembly-identity check
+   turns on for that world, and `git revert` of the swap commit is the
+   named rollback. "The world does not ship red" is thereby enforced by
+   ordering, not intention. The checkpoint content: the full battery live — 8-turn probe +
    6-turn sustained-disagreement + confidence-under-thinness and
    Sustained Engagement categories — measured against the world's
    Phase-0 baseline and the redefined parity criterion
    (identity/fact/boundary SAME-VOICE; register/measure graded against
-   rebuilt targets). Pass bar: no failure-measure regression vs
-   baseline; register/measure hit the world's recorded targets;
-   fabrication 0 confirmed; Objective-3 read ≥ baseline; ceiling
-   regenerations rare (reported). **On fail:** fix records, reassemble,
+   the world's re-derived targets). Pass bar: no failure-measure
+   regression vs baseline; register/measure hit the re-derived targets;
+   fabrication 0 confirmed; sustained-disagreement bar — every
+   supported position held through turn 6, every planted unsupported
+   claim conceded, UNCERTAIN turns routed to the human read;
+   Objective-3 read ≥ baseline; per-signal drift breakdown reported
+   with the FLATTENING watch explicit; callback and candidate-offer
+   occurrence (manual read); over_settling firing AND confirmed rates
+   reported (feeding Phase 3's decision point); ceiling regenerations
+   rare (reported). **On fail:** fix records, reassemble,
    re-run — the world does not ship red, and the next world does not
    start until the current one passes or Mark explicitly re-scopes.
 4. Per-world decision points, at their moments (Design §7): **Albina's
@@ -173,7 +229,16 @@ alternative and its reason are recorded here so the choice is visible,
 per the Standing Practice's own preference for named decisions.
 
 **Stop boundary B (brief §9's own example):** after Albina + Marius —
-the two highest-risk worlds rebuilt, verified, shipped.
+the two highest-risk worlds rebuilt, verified, shipped. **And after
+Marius, every completed per-world pass is itself a clean boundary** —
+passes are self-contained and a green world ships independently.
+
+**Part B is never sacrificed by stopping (the brief's own review
+history flagged exactly this failure):** any stop, at any boundary,
+includes a closing mini-phase — the Part Five/Eight updates written for
+what was actually proven so far, plus the Decision Log entry recording
+where the thread stopped and why. Stopping stops the world rebuilds; it
+never stops the documentation of what was built.
 
 ---
 
@@ -185,11 +250,12 @@ the two highest-risk worlds rebuilt, verified, shipped.
 - Facilitator contrast-phrase replacement (three sites), written against
   the actual rebuilt voices; relational-safety probe category re-run
   (Design §4's seventh output).
-- `HARD_CEILING_WORLDS` trigger-behavior verification in Interview mode
-  (the prose-vs-code gap flagged 2026-08-08: current 60-word Desert
-  ceiling demonstrably didn't bind solo turns in the Research probes —
-  verify what the assembly-fed ceilings actually do, per mode, and
-  record it).
+- `HARD_CEILING_WORLDS` trigger-behavior verification in Interview
+  mode — this Blueprint's own check of the Research probe data
+  (`voice_rebuild_research_probe_results.json`: 8 main-response calls
+  in 8 Desert turns, five turns above the ceiling's trigger threshold,
+  so the 60-word ceiling demonstrably did not bind solo turns): verify
+  what the assembly-fed ceilings actually do, per mode, and record it.
 - Governance decision points, with Mark, on the measured data (Design
   §3's pre-committed rules): over_settling stage-2 downgrade decision
   (confirmed rates now exist per world); confirmed_glosses
@@ -199,9 +265,11 @@ the two highest-risk worlds rebuilt, verified, shipped.
 
 ## 5. Phase 4 — Framework + record of decisions (Objective 5)
 
-- Part Five and Part Eight updates per Design §6 (all four brief-required
-  additions + this design's own, the probe category pointing at named
-  instruments) — written last so they document the proven system, not
+- Part Five and Part Eight updates per Design §6 — Part Five's full
+  addition list, and all three Part Eight additions (the
+  naturalness/register probe category pointing at named instruments,
+  the sustained-disagreement probe, the per-world checkpoint
+  structure) — written last so they document the proven system, not
   the intended one.
 - Decision Log entry closing the thread: what shipped, every Mark
   decision with its data, the standing instruments and their locations,
@@ -215,7 +283,12 @@ thread's Build stage ends with a summary to Mark.
 
 ## 6. Checkpoint discipline (applies to every checkpoint above)
 
-Adversarial review gates the *stages*; checkpoints gate the *work*.
+Adversarial review gates the *stages*; checkpoints gate the *work* —
+and Design §1's quality governor is the rule that decides what a
+checkpoint failure means, quotable: "if assembly flattens any world's
+voice, that is an architecture defect to fix (in the segment renders or
+the records' own craft), never a cost to accept." A failed checkpoint
+is never evidence the bar is wrong.
 Each checkpoint: instruments run, numbers recorded in the phase's
 results file (committed), pass/fail stated against the written bar —
 never "reads fine." A checkpoint that fails twice consecutively
@@ -226,12 +299,16 @@ gap taught.
 
 ## 7. Budget and stop behavior
 
-The expensive line is live batteries: ~14 turns per world per
-checkpoint (8 probe + 6 disagreement) plus regressions — on the order
-of 15–20 full-battery runs across all phases including failures and the
-fleet regression, at the Decision Log's measured per-turn cost (Sonnet
-main + Haiku monitoring, ~$0.08–0.09/turn). Phase 0/1 spends little
-(one pilot world + one proof world + the six-world baseline). If budget
-runs short mid-Phase-2, the stop boundaries above are the clean exits —
-per-world passes are self-contained, and a world verified green ships
-independently of the ones behind it.
+The expensive line is live batteries, counted honestly in turns: the
+six-world baseline (~84 turns incl. disagreement scripts), 1A (≥14 +
+iterations), 1B (8), Phase 2 (~84 across six checkpoints + failure
+re-runs), Phase 3 fleet regression (~84) — roughly **275–350 turns
+with a realistic failure allowance**, at the Decision Log's measured
+per-turn cost (~$0.08–0.09/turn: $0.33–0.35 per 4-turn conversation),
+so on the order of $25–35 total. Phase 0/1 is roughly a third of that
+spend (the baseline set is the single largest item), not "little."
+One pricing fact from the same Decision Log entry: Sonnet's
+introductory pricing ends 2026-08-31, raising every Sonnet call ~50% —
+batteries run before that date cost meaningfully less than after. If
+budget runs short mid-Phase-2, the per-world boundaries above are the
+clean exits, with the Part-B closing mini-phase always included.
