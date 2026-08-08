@@ -1151,7 +1151,11 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     try:
         from app.graph.repair_classifier import _migrated_world_ids
         if current_world_id in _migrated_world_ids():
-            from wrs.views.segments.guards import POST_HISTORY_GUARD
+            # Phase 2 (Blueprint SS3 step 1): per-world guard exports.
+            # post_history_guard_for() returns this world's own export
+            # where its Phase 2 pass has written one, else the shared
+            # constant - un-passed worlds are byte-identical to before.
+            from wrs.views.segments.guards import post_history_guard_for
             # FLAG-018 layer 3 (S5.6 sustained re-runs): the
             # no-unprompted-sense-clarification constraint survived only
             # partially when placed before the retrieved context (one
@@ -1160,7 +1164,7 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
             # must survive attention decay rides closest to generation -
             # is why it now ALSO rides here, composed at the wiring site
             # (the assembly's exported guard text itself is unchanged).
-            post_history_guard = POST_HISTORY_GUARD + (
+            post_history_guard = post_history_guard_for(current_world_id) + (
                 " And open on the question actually asked: no term "
                 "clarifications the participant did not ask for, and never "
                 "\"when I said X\" for a word this conversation has not "

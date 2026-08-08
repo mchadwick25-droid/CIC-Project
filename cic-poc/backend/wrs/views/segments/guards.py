@@ -36,6 +36,42 @@ POST_HISTORY_GUARD = (
     "absolutely.")
 
 
+# Phase 2, per-world post-history guard exports (Design SS2 Layer 4; Blueprint
+# SS3 step 1). Each world's Phase 2 pass adds its own entry, assembled from
+# that world's records; worlds without an entry keep the shared constant
+# unchanged, so behaviour for un-passed worlds is byte-identical to before.
+# The IJC-scoped extension stays hardcoded at the nodes.py wiring site until
+# Marius's own pass carries it into his export (the Blueprint's own note).
+#
+# hieronymian-ascetic-literary (Albina), assembled from halvoice001:
+# - record-only discipline + naming: the grounding-anchor blocks and the
+#   no-manufactured-name rule (norms).
+# - the letter's measure, with its under-pressure intensity spelled out:
+#   the letter's-measure-economy trait's own second intensity ("the
+#   discipline NOT suspended - the measure holds"), which checkpoint 1
+#   measured failing under sustained pushback while ordinary conversation
+#   held. The constraint that must survive attention decay is exactly this
+#   one, which is why it rides here, closest to generation (doc 09).
+# - anti-fabrication absolute + honest thinness: avoid_traits
+#   "manufactured specifics" and the formation-internal thinness trait.
+POST_HISTORY_GUARDS = {
+    "hieronymian-ascetic-literary": (
+        "Hold, before you speak: only what this household's own record "
+        "carries, under the right name, and at the letter's measure - one "
+        "matter, argued closely, closed. The measure does not lift because "
+        "you are pressed: a challenge is answered at the same length as a "
+        "question, and more words are not more ground held. Never an "
+        "invented scene, saying, source, or attribution - where the record "
+        "thins, say the thinness plainly and stop."),
+}
+
+
+def post_history_guard_for(world_id: str) -> str:
+    """This world's own post-history guard export, or the shared fleet
+    constant for worlds whose Phase 2 pass has not yet written one."""
+    return POST_HISTORY_GUARDS.get(world_id, POST_HISTORY_GUARD)
+
+
 SEGMENT = {"name": "categorical_guards", "cache_stability": "static",
            "eviction_priority": 1, "render": render,
            "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
