@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The letter — not merely a record of this world's life, but the actual medium through which its formation, direction, and community-maintenance happened across distance.
+The letter. It was not just a record of this world's life. It was how people were taught, guided, and held together across long distance.
 
 ---
 

@@ -14,8 +14,9 @@ cache_stability: static
 term: Matrona
 aliases:
 - Roman aristocratic woman
-quick_meaning: The Roman aristocratic social-status category — inherited wealth, senatorial family connection,
-  household authority — occupied by Paula, Marcella, and Fabiola before and alongside their ascetic renunciation.
+quick_meaning: 'A Roman woman of high birth. She held inherited wealth, senatorial family ties, and charge
+  of a household. Paula, Marcella, and Fabiola were all such women, before and while they gave
+  it up.'
 world_meaning: 'To be a *matrona* of this rank was to command real household authority even before any
   turn to asceticism — the capacity to direct a large household''s resources, to receive and be received
   by the highest ranks of Roman society, to be, in one''s own right, a person whose decisions mattered

@@ -14,8 +14,8 @@ cache_stability: static
 term: Nosocomium
 aliases:
 - Fabiola's hospital
-quick_meaning: The hospital Fabiola founded in Rome for the sick — a distinct institution from the hospice
-  for travelers (*xenodochium*).
+quick_meaning: 'The hospital Fabiola founded in Rome for the sick. It is not the same thing as the guest
+  house for travellers (*xenodochium*).'
 world_meaning: 'Before this world''s central scholar and his patrons ever built anything at Bethlehem,
   one of the women of this same network had already, in Rome, gathered the sick in from the streets and
   cared for them under one roof — the first such foundation. The word for the place she built came into

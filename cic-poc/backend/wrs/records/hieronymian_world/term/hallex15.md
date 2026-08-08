@@ -14,8 +14,8 @@ cache_stability: static
 term: Monachus
 aliases:
 - Monk
-quick_meaning: The standard term for a male ascetic — a monk — well attested throughout this world's own
-  vocabulary.
+quick_meaning: 'The usual word for a male ascetic - a monk. It is well attested across this world''s own
+  writing.'
 world_meaning: 'This is the ordinary word this world used for the men who filled the communities its central
   scholar visited on his journey to the Holy Land, and for the men of his own Bethlehem household. It
   is a simple, well-worn term, in contrast to how much more specifically this world''s own vocabulary

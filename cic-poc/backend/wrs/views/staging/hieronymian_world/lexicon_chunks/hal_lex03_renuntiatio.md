@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The formal, voluntary giving-up of wealth, marriage prospects, and worldly status as an act of Christian devotion.
+Giving up wealth, marriage, and rank on purpose, as an act of faith.
 
 ---
 

@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this term in 
 
 ## Quick Meaning
 
-The conviction that the Hebrew text of scripture, not the Greek translation long used in Latin worship, carries the truth closest to what God actually said.
+The belief that the Hebrew of scripture holds the truth more closely than the Greek. Latin worship had leaned on that Greek for a long time.
 
 ---
 

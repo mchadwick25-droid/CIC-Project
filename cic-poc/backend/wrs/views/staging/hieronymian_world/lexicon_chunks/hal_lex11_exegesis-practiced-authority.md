@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The recognition of someone as authoritative on disputed scriptural questions through demonstrated learning, exercised in person, apart from any clerical office — the standing at least one woman in this world held in her own right.
+Being trusted to settle hard questions about scripture because you have shown you can. It is earned by learning, not granted by office. At least one woman here held that standing in her own right.
 
 ---
 

@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The hospital Fabiola founded in Rome for the sick — a distinct institution from the hospice for travelers (*xenodochium*).
+The hospital Fabiola founded in Rome for the sick. It is not the same thing as the guest house for travellers (*xenodochium*).
 
 ---
 

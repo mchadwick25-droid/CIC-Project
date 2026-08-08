@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The voluntary, wealth-based relationship by which an aristocratic patron sustains a scholar's work — this world's actual authority structure, standing in place of church office.
+A rich patron pays for a scholar's work and keeps it going. In this world that bond, not church office, is where authority really sits.
 
 ---
 

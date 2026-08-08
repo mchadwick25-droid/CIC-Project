@@ -15,8 +15,8 @@ term: Vidua (includes continentia)
 aliases:
 - Ascetic widowhood
 - continentia
-quick_meaning: The status of a Christian widow who declines remarriage and adopts ascetic discipline —
-  the formation category of Paula, Marcella, and Fabiola.
+quick_meaning: 'A Christian widow who does not marry again and takes up a hard rule of life. Paula,
+  Marcella, and Fabiola were widows of this kind.'
 world_meaning: 'A widow in this world faced real pressure to remarry — family expectation, social convention,
   sometimes a specific, insistent suitor. To refuse, and to take up instead a life of fasting, plain dress,
   and (for at least one of these three women) recognized scriptural authority within her own household,

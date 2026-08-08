@@ -15,9 +15,9 @@ term: Exegesis (as practiced authority)
 aliases:
 - Marcella's exegetical authority
 - scriptural authority without office
-quick_meaning: The recognition of someone as authoritative on disputed scriptural questions through demonstrated
-  learning, exercised in person, apart from any clerical office — the standing at least one woman in this
-  world held in her own right.
+quick_meaning: 'Being trusted to settle hard questions about scripture because you have shown you can. It is
+  earned by learning, not granted by office. At least one woman here held that standing in her
+  own right.'
 world_meaning: 'In this world, being consulted on a hard scriptural question was itself a form of authority,
   and it did not require ordination to hold it. When the scholar who had trained a Roman household in
   this kind of reading left for the Holy Land, at least one member of that household did not lose the

@@ -15,8 +15,8 @@ term: Hebraica veritas
 aliases:
 - Hebrew truth
 - Hebrew textual authority
-quick_meaning: The conviction that the Hebrew text of scripture, not the Greek translation long used in
-  Latin worship, carries the truth closest to what God actually said.
+quick_meaning: 'The belief that the Hebrew of scripture holds the truth more closely than the Greek. Latin
+  worship had leaned on that Greek for a long time.'
 world_meaning: 'To hold to *Hebraica veritas* is to believe that when the word given to Moses or the prophets
   passed from Hebrew into Greek, something of its precision was lost — not through malice, but through
   the ordinary friction of moving between tongues — and that a scholar who returns to the Hebrew recovers

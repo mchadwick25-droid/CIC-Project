@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The stage of classical Latin grammatical and literary training — under the specific teacher Aelius Donatus — that equipped the community's central scholar for his later philological work.
+The stage of Latin schooling in grammar and literature. This world's scholar took it under a teacher named Aelius Donatus. It is what made his later work on words possible.
 
 ---
 

@@ -14,8 +14,7 @@ cache_stability: static
 term: Renuntiatio
 aliases:
 - Renunciation
-quick_meaning: The formal, voluntary giving-up of wealth, marriage prospects, and worldly status as an
-  act of Christian devotion.
+quick_meaning: 'Giving up wealth, marriage, and rank on purpose, as an act of faith.'
 world_meaning: 'To renounce, in this world, was not a single gesture but a sustained unmaking of one''s
   former position — the sale or redirection of inherited property, the closing-off of the marriage that
   would have secured a family''s alliances, the plain dress that announced, to anyone who had known the

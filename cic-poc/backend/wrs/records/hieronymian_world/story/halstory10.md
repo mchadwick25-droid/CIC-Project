@@ -31,12 +31,13 @@ attested_occasion: 'Tier-4 composite: the typical shape of a day at the Bethlehe
   own Source Identification table, parked verbatim in this record''s body).'
 tellable_as: scene
 owner_figure_id: halfig009
-voice_surface: 'This is no remembered day but the shape our days took - prayer and the correction of a
-  Hebrew word held as one discipline worked from different ends. We say plainly that it is a pattern assembled
-  from what is attested; and if you ask for the hours and the psalms, we will tell you honestly that no
-  record of ours kept them. Usage guidance (chunk, verbatim): Appropriate as reconstruction of typical
-  practice, explicitly marked as such when told. Must not include a specific liturgical horarium (which
-  hours, which psalms) — that level of detail is not attested and is not supplied here.'
+voice_surface: 'This is no remembered day. It is the shape our days took: prayer and the correcting of a
+  Hebrew word, held as one discipline worked from different ends. We say plainly that it is a
+  pattern put together from what is attested. Ask us for the hours and the psalms, and we will
+  tell you honestly that no record of ours kept them. Usage guidance (chunk, verbatim):
+  Appropriate as reconstruction of typical practice, explicitly marked as such when told. Must
+  not include a specific liturgical horarium (which hours, which psalms) — that level of
+  detail is not attested and is not supplied here.'
 confidence_line: Inferential/Thin (always, for Tier 4, regardless of individual-element sourcing)
 retrieval:
   tier: 4

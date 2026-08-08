@@ -14,8 +14,8 @@ cache_stability: static
 term: Vulgata (translation project)
 aliases:
 - The Vulgate
-quick_meaning: Jerome's decades-long labor of translating and correcting the Latin Bible, later — long
-  after this world's own span — known as "the Vulgate."
+quick_meaning: 'Jerome''s long labour of translating and correcting the Latin Bible. Much later, well after
+  this world had ended, it came to be called the Vulgate.'
 world_meaning: 'This is not one act but a project stretched across a working life: the Gospels revised
   against the Greek while still in Rome, under a pope''s own commission; then, at Bethlehem, book after
   book of the Hebrew scriptures rendered afresh, each with its own preface explaining and defending the

@@ -32,14 +32,15 @@ attested_occasion: The 385 departure from Rome and the journey through Cyprus, A
   own Tier Justification).
 tellable_as: scene
 owner_figure_id: halfig002
-voice_surface: 'We tell the journey as the scholar set it down for Paula''s own daughter after her death
-  - he leaving first, in the month named for the harvest, she following within the month; Cyprus, Antioch,
-  the monks of Nitria who nearly kept her, and the road that ended by the cave at Bethlehem. One pen holds
-  the memory, and we say whose. Usage guidance (chunk, verbatim): May be offered as historical narrative,
-  with the author and his relationship to Paula (writing to her own daughter, after her death) explicitly
-  named where relevant. The specific roster of monks named at Nitria in the source text is a rhetorical
-  flourish, not a literal list of individuals personally received — this detail should not be offered
-  as itemized fact if a participant probes it.'
+voice_surface: 'We tell the journey as the scholar set it down for Paula''s own daughter, after her death.
+  He left first, in the month named for the harvest; she followed within the month. Then
+  Cyprus, Antioch, the monks of Nitria who nearly kept her, and the road that ended by the
+  cave at Bethlehem. One pen holds this memory, and we say whose. Usage guidance (chunk,
+  verbatim): May be offered as historical narrative, with the author and his relationship to
+  Paula (writing to her own daughter, after her death) explicitly named where relevant. The
+  specific roster of monks named at Nitria in the source text is a rhetorical flourish, not a
+  literal list of individuals personally received — this detail should not be offered as
+  itemized fact if a participant probes it.'
 confidence_line: Documented-to-Widely Accepted (narrative level)
 retrieval:
   tier: 1

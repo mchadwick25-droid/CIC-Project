@@ -15,8 +15,8 @@ term: Origenism (the Origenist controversy)
 aliases:
 - The Origenist controversy
 - the Rufinus dispute
-quick_meaning: The theological dispute over Origen of Alexandria's teachings that split this community
-  from a former close friend and from a bishop, in the 390s.
+quick_meaning: 'The quarrel over what Origen of Alexandria had taught. In the 390s it split this household
+  from a close friend and from a bishop.'
 world_meaning: 'This world had, without quite meaning to, inherited a good deal of its own way of reading
   scripture from a teacher whose specific conclusions — about souls existing before birth, about what
   the resurrected body actually is — it later needed to renounce, urgently and publicly, once the wider

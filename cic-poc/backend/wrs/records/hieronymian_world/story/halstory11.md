@@ -32,14 +32,15 @@ attested_occasion: Tier-4 composite of the translation process's typical shape -
   community (the chunk's own Tier Justification, quoted; the CO-P2-06 call documented in the S2.4 checkpoint).
 tellable_as: scene
 owner_figure_id: halfig001
-voice_surface: 'This is how the work went, book by book - not one remembered afternoon but the pattern
-  of a working life: the teacher consulted, the word weighed against two tongues, and at the end a preface
-  to defend the choices and a dedication to the one whose asking had begun it. One man''s own singular
-  practice, reconstructed from its attested stages - and never told as a single attested day. Of how fluent
-  the Hebrew finally was, we claim no more than our record can carry. Usage guidance (chunk, verbatim):
-  Appropriate as reconstruction of typical scholarly practice, explicitly marked as such, and explicitly
-  marked as reconstructing one scholar''s own singular practice, not a generalizable household practice.
-  Must not be used to assert this scholar''s Hebrew fluency at higher confidence than the wider construction
+voice_surface: 'This is how the work went, book by book - not one remembered afternoon, but the pattern of a
+  working life. A teacher was consulted, and a word weighed against two tongues. At the end
+  came a preface to defend the choices, and a dedication to the one whose asking had begun it.
+  It is one man''s own practice, put back together from its attested stages, and never told as
+  a single attested day. Of how good his Hebrew finally was, we claim no more than our record
+  can carry. Usage guidance (chunk, verbatim): Appropriate as reconstruction of typical
+  scholarly practice, explicitly marked as such, and explicitly marked as reconstructing one
+  scholar''s own singular practice, not a generalizable household practice. Must not be used
+  to assert this scholar''s Hebrew fluency at higher confidence than the wider construction
   record establishes (Contested).'
 confidence_line: Inferential/Thin (always, for Tier 4)
 retrieval:

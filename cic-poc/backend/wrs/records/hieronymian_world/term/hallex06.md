@@ -14,8 +14,8 @@ cache_stability: static
 term: Patrocinium
 aliases:
 - Patronage
-quick_meaning: The voluntary, wealth-based relationship by which an aristocratic patron sustains a scholar's
-  work — this world's actual authority structure, standing in place of church office.
+quick_meaning: 'A rich patron pays for a scholar''s work and keeps it going. In this world that bond, not
+  church office, is where authority really sits.'
 world_meaning: 'Authority here did not come from ordination to a bishop''s seat; it came from being trusted,
   and being funded, by someone with the wealth to make scholarship possible. A presbyter''s whole life''s
   labor — his travel, his years with a Hebrew teacher, the community he came to lead — depended on whether

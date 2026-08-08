@@ -13,8 +13,8 @@ review_state: draft
 cache_stability: static
 term: Epistula
 aliases: []
-quick_meaning: The letter — not merely a record of this world's life, but the actual medium through which
-  its formation, direction, and community-maintenance happened across distance.
+quick_meaning: 'The letter. It was not just a record of this world''s life. It was how people were taught,
+  guided, and held together across long distance.'
 world_meaning: 'When a scholar and the household he directed no longer occupied the same city, a letter
   became more than news — it was how spiritual direction was actually delivered, how an argument about
   scripture was actually conducted, how a community that had physically split in two remained, in its

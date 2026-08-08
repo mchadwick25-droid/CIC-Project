@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The theological dispute over Origen of Alexandria's teachings that split this community from a former close friend and from a bishop, in the 390s.
+The quarrel over what Origen of Alexandria had taught. In the 390s it split this household from a close friend and from a bishop.
 
 ---
 
