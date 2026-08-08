@@ -9,13 +9,22 @@ confirmed ABSENT from Chloe's/PAHC's deployed prompt entirely, so
 reusing it unconditionally for every world would have injected
 Desert-authored prose into worlds that don't have this content today)
 to read ctx["craft"]'s grounding_anchor-tagged blocks for the wrapper
-text. A world whose craft table has no such block renders only the
-derived source list (or nothing, if it has none) - honest per-world
-behavior instead of a fleet-wide default."""
+text. A world whose craft table has no such block renders NOTHING AT
+ALL for this segment - confirmed by testing against PAHC's real source
+records, not assumed: rendering the derived list without its wrapper
+produced an orphaned fragment ("The genuinely attributed core of that
+record is small and known to us: ...") with no framing sentence, which
+is worse than omitting the segment. A wrapper is required for any
+content to render."""
 from ._common import voice  # noqa: F401  (kept: shared strip helper for future per-world use)
 
 
 def render(ctx) -> str:
+    blocks = {b.get("role"): b["text"] for b in ctx.get("craft", [])
+             if b["segment"] == "grounding_anchor"}
+    if "open" not in blocks:
+        return ""
+
     genuine = []
     for sid in sorted(ctx["sources"]):
         s = ctx["sources"][sid]
@@ -26,11 +35,7 @@ def render(ctx) -> str:
         if author or title:
             genuine.append(f"{author}{' - ' if author and title else ''}{title}")
 
-    blocks = {b.get("role"): b["text"] for b in ctx.get("craft", [])
-             if b["segment"] == "grounding_anchor"}
-    parts = []
-    if "open" in blocks:
-        parts.append(blocks["open"])
+    parts = [blocks["open"]]
     if genuine:
         parts.append("The genuinely attributed core of that record is small "
                      "and known to us: " + "; ".join(genuine[:8]) + ".")

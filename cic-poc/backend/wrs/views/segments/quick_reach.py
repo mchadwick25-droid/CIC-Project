@@ -9,13 +9,18 @@ Voice Rebuild Phase 0.3 (2026-08-08): the header sentence generalized
 from Desert-hardcoded text (confirmed present verbatim in Papnoute's
 deployed prompt at line 47, confirmed ABSENT from Chloe's/PAHC's) to
 ctx["craft"]'s quick_reach-tagged block. A world without one renders
-only the derived term list."""
+NOTHING AT ALL, same fix and same reason as grounding_anchor.py: a
+bare bulleted term list with no framing sentence is a fragment, not a
+faithful rendering of a world whose deployed prompt has no such
+listing at all (confirmed for PAHC)."""
 
 
 def render(ctx) -> str:
     header = next((b["text"] for b in ctx.get("craft", [])
                    if b["segment"] == "quick_reach"), None)
-    lines = [header] if header else []
+    if not header:
+        return ""
+    lines = [header]
     for tid, t in sorted(ctx["terms"].items()):
         qm = t.get("quick_meaning", "")
         if qm:
