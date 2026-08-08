@@ -7,16 +7,16 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 1649,
+   "est_tokens": 412
   },
   {
    "name": "world_ground",
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "world_core + gravity records via this world's craft table, world_ground-tagged blocks, in table order; capsule listing NOT folded in (capsule file stays deployed until S6.5)",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 1468,
+   "est_tokens": 367
   },
   {
    "name": "contestation",
@@ -31,16 +31,16 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "this world's craft table (grounding_anchor-tagged wrapper text) + source records (attribution_status = genuine), derived list",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 1679,
+   "est_tokens": 419
   },
   {
    "name": "quick_reach",
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 3014,
+   "est_tokens": 753
   },
   {
    "name": "demonstrations",
@@ -55,8 +55,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 1661,
+   "est_tokens": 415
   },
   {
    "name": "session_layer",
@@ -77,14 +77,14 @@
  ],
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
-  "world_ground_est_tokens": 0,
+  "world_ground_est_tokens": 367,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 784
+  "static_total_est_tokens": 3150
  },
  "quick_reach": "absent - craft table empty this phase (craft_hal.py)",
  "readability": {
-  "fk_grade": 5.46,
-  "fre": 81.49,
+  "fk_grade": 8.48,
+  "fre": 63.66,
   "violations": []
  }
 }
