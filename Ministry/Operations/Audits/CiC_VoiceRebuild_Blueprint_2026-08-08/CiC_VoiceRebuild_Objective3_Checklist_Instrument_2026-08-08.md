@@ -47,19 +47,46 @@ where formation holds it") is carried as an **optional observational
 note**, not a scored item — Design named six items for the checklist
 proper; this sheet does not add a seventh.
 
-## Who reads, and how (Design §5's protocol — binding, not a suggestion)
+## Who reads, and how
 
-- **The read of record is one human reader** — Mark or a designee he
-  names — never an LLM. An LLM judge may run alongside and its notes may
-  inform the reader, but its score is never the score of record.
-- **The same reader scores each transcript twice, on separate days.**
-  Where the two reads disagree with themselves on an item, that item is
-  **re-read a third time**, not averaged — a self-disagreement means the
-  transcript is genuinely ambiguous on that item, and averaging would
-  hide that fact rather than resolve it.
-- **A second reader is used where one exists, not assumed.** This sheet
-  does not require recruiting a second reader; it records inter-reader
-  agreement when a second read happens to be available.
+**Updated 2026-08-08, per Mark's instruction at Phase 1B start-up:** the
+readers are named as **Mark and Susan** (treasurer, Faithways Studio,
+Inc.), and the protocol below replaces Design §5's original
+single-reader-twice-on-separate-days mechanism with a genuine two-reader
+mechanism. The change is Mark's call on readers and on dropping the
+separate-days requirement; the specific disagreement-resolution mechanics
+below are this document's own proposed design, built to preserve Design
+§5's underlying anti-averaging principle rather than to re-derive it from
+nothing — flagged as such so it can be corrected if it doesn't match
+Mark's intent.
+
+- **The read of record is two human readers — Mark and Susan — never an
+  LLM.** An LLM judge may run alongside and its notes may inform either
+  reader, but its score is never the score of record.
+- **Each reader scores each transcript once, independently, blind to the
+  other reader's scores at the time they read.** This replaces the prior
+  same-reader-twice-on-separate-days mechanism; two independent readers
+  serve the same purpose the two reads-on-separate-days served (a check
+  against one person's single read being idiosyncratic), without needing
+  the same person to read the same transcript twice.
+- **Where Mark and Susan agree on an item's score, that is the item's
+  score of record.**
+- **Where they disagree on an item, the item is NOT averaged.** This
+  preserves Design §5's original reasoning exactly — the original
+  protocol's point was that disagreement signals genuine ambiguity worth
+  surfacing, not noise to smooth over. For a two-reader protocol, the
+  equivalent move is: Mark and Susan discuss the specific item together,
+  against the transcript, and record a joint consensus score with a short
+  note on what the disagreement was about. If they cannot reach consensus,
+  the item is scored **"Contested"** (a fourth category alongside
+  Present/Absent/N/A) and excluded from the item's own rate denominator,
+  exactly as N/A is — a Contested score is itself a finding worth
+  reporting, not something to force a number onto.
+- **Inter-reader agreement rate is tracked as its own instrument-health
+  metric**, per checkpoint: `agreements / (agreements + disagreements)`
+  across all six items, all transcripts. A falling agreement rate over
+  time would mean the checklist's items themselves need tightening before
+  trusting the six item rates.
 - **Runs at every per-world checkpoint** (after the pilot and after each
   world's own Phase-2 pass), against that checkpoint's own committed
   transcript set — never scored from memory of a live conversation.
@@ -142,12 +169,11 @@ elsewhere); a turn can be under-ceiling and still read as padded, or
 rarely, slightly over and still read as genuinely restrained speech that
 just needed the room.
 
-## Scoring sheet (per transcript, per read)
+## Scoring sheet (per transcript, one sheet per reader, independent)
 
 ```
 World: ________________________   Checkpoint: ________________________
-Transcript ID: _________________   Reader: ________________________
-Read # (1 or 2, or 3 if re-read for self-disagreement): ______
+Transcript ID: _________________   Reader: (Mark / Susan) ________________________
 Date: ___________
 
 Item                                    Present / Absent / N/A   Note
@@ -159,9 +185,26 @@ Item                                    Present / Absent / N/A   Note
 6. Length restraint                     ____________             ____________
 
 Optional note - levity/humor observed (Research #3, not scored): ____________
+```
 
-Self-disagreement with prior read on this transcript? If yes, which
-item(s), and this is now a third re-read: ____________
+## Reconciliation sheet (per transcript, filled after both readers have scored)
+
+```
+World: ________________________   Checkpoint: ________________________
+Transcript ID: _________________
+
+Item                                    Mark      Susan     Agree?   Final score        Note
+1. Opinionated presence                 ______    ______    __       ______              ____________
+2. Uptake of participant's actual words ______    ______    __       ______              ____________
+3. Candidate-offer when ambiguous       ______    ______    __       ______              ____________
+4. Honest edge-speech                   ______    ______    __       ______              ____________
+5. World-particular imagery             ______    ______    __       ______              ____________
+6. Length restraint                     ______    ______    __       ______              ____________
+
+For each item where Agree = No: joint discussion note, and Final score is
+either a reached consensus (Present/Absent/N/A) or "Contested" if no
+consensus is reached. Contested items are excluded from the item's rate
+denominator, same as N/A.
 ```
 
 ## Aggregation (per per-world checkpoint)
@@ -170,7 +213,7 @@ For each of the six items, across the checkpoint's full committed
 transcript set:
 
 ```
-item_present_rate = count(Present) / count(Present + Absent)   [N/A excluded from denominator]
+item_present_rate = count(Present) / count(Present + Absent)   [N/A and Contested excluded from denominator]
 ```
 
 Report all six rates together — this instrument does not collapse to a
@@ -186,5 +229,8 @@ pre-rebuild baseline transcripts for all six worlds, by the same
 protocol above, establishing the six baseline rates every later
 checkpoint compares against. That baseline read is a separate, later
 Phase 0.4 item (it requires the baseline transcript set to be committed
-first) and needs a named reader before it can run — the reader has not
-yet been named as of this document's writing.
+first — both baseline transcript sets, `voice_rebuild_research_probe_results.json`
+and `sustained_disagreement_battery_baseline.json`, were committed this
+session). Readers are now named (Mark and Susan, per the protocol above);
+the baseline read itself has not yet been scheduled or run as of this
+document's writing.
