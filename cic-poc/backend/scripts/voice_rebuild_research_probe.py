@@ -358,6 +358,9 @@ def analyze_turn(world_id: str, text: str) -> dict:
 
 
 results = []
+out_path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "voice_rebuild_research_probe_results.json")
 
 for scenario in SCENARIOS:
     print(f"\n=== {scenario['label']} ({scenario['world_id']}) ===", flush=True)
@@ -432,9 +435,13 @@ for scenario in SCENARIOS:
         "turn_errors": turn_errors,
     })
 
-out_path = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)),
-    "voice_rebuild_research_probe_results.json")
-with open(out_path, "w") as f:
-    json.dump(results, f, indent=2)
+    # Voice Rebuild Phase 0.4: write after EVERY scenario, not once at the
+    # end - a run that spends real API money across several worlds and is
+    # then interrupted (timeout, crash) must not lose already-paid-for
+    # results. Overwriting the whole file each time is simple and safe at
+    # this scale (six scenarios).
+    with open(out_path, "w") as f:
+        json.dump(results, f, indent=2)
+    print(f"  [checkpoint] wrote {len(results)}/{len(SCENARIOS)} scenarios "
+          f"to {out_path}", flush=True)
 print(f"\n\nWrote {out_path}")

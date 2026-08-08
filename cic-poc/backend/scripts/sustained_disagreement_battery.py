@@ -175,6 +175,8 @@ def main() -> None:
 
     client = TestClient(m.app)
     results = []
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    out_path = OUTDIR / f"sustained_disagreement_battery_{trial}.json"
 
     for case in CASES:
         world = case["world_id"]
@@ -235,10 +237,14 @@ def main() -> None:
         print(f"  -> {world}: {auto_status} "
               f"(conceded={conceded_stages}, uncertain={uncertain_stages})")
 
-    OUTDIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUTDIR / f"sustained_disagreement_battery_{trial}.json"
-    out_path.write_text(json.dumps(results, indent=1, ensure_ascii=False) + "\n",
-                        encoding="utf-8")
+        # Voice Rebuild Phase 0.4: checkpoint after EVERY world, not once at
+        # the end - same reasoning as voice_rebuild_research_probe.py's own
+        # fix (2026-08-08): a run that spends real API money across six
+        # worlds must not lose already-paid-for results to an interruption.
+        out_path.write_text(json.dumps(results, indent=1, ensure_ascii=False) + "\n",
+                            encoding="utf-8")
+        print(f"  [checkpoint] wrote {len(results)}/{len(CASES)} worlds to {out_path}")
+
     print(f"\nWrote {out_path}")
     summary = {r["world_id"]: r["auto_status"] for r in results}
     print("Summary:", json.dumps(summary, indent=1))
