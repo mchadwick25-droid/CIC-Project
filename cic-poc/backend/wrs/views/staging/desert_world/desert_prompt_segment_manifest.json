@@ -83,5 +83,10 @@
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
   "static_total_est_tokens": 5824
  },
- "quick_reach": "deliberately absent - S5.3 (R7), gated on B-PARROT per F3"
+ "quick_reach": "deliberately absent - S5.3 (R7), gated on B-PARROT per F3",
+ "readability": {
+  "fk_grade": 9.74,
+  "fre": 62.38,
+  "violations": []
+ }
 }

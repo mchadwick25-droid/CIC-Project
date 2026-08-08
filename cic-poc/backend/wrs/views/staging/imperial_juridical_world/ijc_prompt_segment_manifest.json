@@ -81,5 +81,12 @@
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
   "static_total_est_tokens": 0
  },
- "quick_reach": "absent - craft table empty this phase (craft_ijc.py)"
+ "quick_reach": "absent - craft table empty this phase (craft_ijc.py)",
+ "readability": {
+  "fk_grade": 0.0,
+  "fre": 0.0,
+  "violations": [
+   "FRE 0.0 < 60.0"
+  ]
+ }
 }

@@ -39,6 +39,9 @@ sys.path.insert(0, str(BACKEND))
 from chunk_views import load_records, STAGING  # noqa: E402
 from segments import ASSEMBLY_ORDER  # noqa: E402
 from segments.craft import DESERT_CLAIM_RENDERS, DESERT_CRAFT  # noqa: E402
+from segments.rebuilt_status import REBUILT  # noqa: E402
+
+WORLD_ID = "desert-monasticism"
 
 
 def build_context() -> dict:
@@ -63,6 +66,30 @@ def build_context() -> dict:
 def est_tokens(text: str) -> int:
     # the standing chars/4 estimate - reported, never billed
     return len(text) // 4
+
+
+def check_readability(prompt: str) -> dict:
+    """Voice Rebuild Phase 0.3: the fleet-wide reading_floor
+    (wrs/parameters.yaml) wired at assembly time. Warn-only until
+    REBUILT[WORLD_ID] is True (segments/rebuilt_status.py) - enforcing
+    against un-rebuilt text would go red on content only Phase 2 fixes."""
+    try:
+        from wrs.gates.core import readability_check
+    except ModuleNotFoundError:
+        print("\n[readability] SKIPPED - textstat not installed in this environment")
+        return {}
+    result = readability_check(prompt)
+    rebuilt = REBUILT.get(WORLD_ID, False)
+    if result["violations"]:
+        level = "ENFORCED FAIL" if rebuilt else "warning (not yet enforced - pre-rebuild text)"
+        print(f"\n[readability] {level}: FK {result['fk_grade']}, FRE {result['fre']}")
+        for v in result["violations"]:
+            print(f"  - {v}")
+        if rebuilt:
+            raise SystemExit(f"readability gate failed for {WORLD_ID} (rebuilt=True)")
+    else:
+        print(f"\n[readability] pass: FK {result['fk_grade']}, FRE {result['fre']}")
+    return result
 
 
 def assemble() -> tuple[str, dict]:
@@ -110,6 +137,7 @@ def assemble() -> tuple[str, dict]:
 
 def main() -> None:
     prompt, manifest = assemble()
+    manifest["readability"] = check_readability(prompt)
     STAGING.mkdir(parents=True, exist_ok=True)
     (STAGING / "desert_Representative_Permanent_Prompt_S52.txt").write_text(
         prompt, encoding="utf-8", newline="\n")

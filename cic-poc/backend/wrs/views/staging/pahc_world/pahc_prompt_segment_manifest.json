@@ -81,5 +81,10 @@
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
   "static_total_est_tokens": 3570
  },
- "quick_reach": "absent - confirmed not present in Chloe's deployed prompt (craft_pahc.py's own note)"
+ "quick_reach": "absent - confirmed not present in Chloe's deployed prompt (craft_pahc.py's own note)",
+ "readability": {
+  "fk_grade": 6.81,
+  "fre": 74.89,
+  "violations": []
+ }
 }
