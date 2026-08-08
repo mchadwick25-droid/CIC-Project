@@ -407,10 +407,10 @@ classified by hand.
   apparatus-pattern text and so are counted here under the fail-open
   class instead; this instrument's added pattern classes (strand codes,
   CT tags, Reciprocity/template references) account for part of the remaining
-  difference. What does reproduce exactly: every Round-4 named example
-  re-flags here, Round 4's named uncovered files all re-flag and the per-world
-  distribution matches within one file (Alexandria counts 6 here against
-  Round 4's 5, whose filenames Round 4 did not list), and Desert's 9 flagged lexicon chunks are the same 9
+  difference. What does reproduce: every Round-4 named example re-flags
+  here, the per-world uncovered-set distribution matches within one file
+  (Alexandria counts 6 here against Round 4's 5, whose filenames Round 4
+  did not list), and Desert's 9 flagged lexicon chunks are the same 9
   files Round 4 counted.
 - **The contamination concentrates exactly where the rebuild wants to point
   the voice — by both denominators.** By raw hits: `Formation Ecology
@@ -705,7 +705,7 @@ happens by default:
 8. **The restricted-offer/candidate-understanding move** (P6) — whether it
    enters `_HOW_YOU_ENGAGE`, the per-world files, or both; new to this
    stage, no prior decision constrains it.
-9. **Record-sourced assembly as the default architecture to evaluate —
+9. **Record-sourced assembly as the first candidate architecture to evaluate —
    Mark's direction, 2026-08-08, added before stage sign-off.** This
    rebuild takes advantage of the world record build-out already
    completed (the `wrs/records/<world>/` layer: 26–76 source records per

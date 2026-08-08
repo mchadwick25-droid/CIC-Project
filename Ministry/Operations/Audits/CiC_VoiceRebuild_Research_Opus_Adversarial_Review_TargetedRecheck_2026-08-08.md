@@ -259,3 +259,60 @@ Three of the four P1s are single-sentence repairs to sentences written in the la
 ---
 
 *Simulated review — informational only, not an Article 31 substitute.*
+
+---
+
+# Addendum 2 — final verification and stage verdict, 2026-08-08 (commit `2734c0a`)
+
+*Narrow scope: the commit applying this addendum's 4 P1s and 7 P2s. Every replacement fact re-checked against the source I derived it from, not against the addendum's own wording; every fix grepped at every site it was supposed to reach; the whole document re-swept for pointer resolution and for contradictions with unchanged text; the instrument re-run; §3.1's six prompt-file readability numbers re-derived from scratch this pass rather than carried on Round 1's authority.*
+
+## Did every finding land?
+
+**Yes — eleven of eleven, at every site, with one wording residue.**
+
+| Finding | Landed | Verified against |
+|---|---|---|
+| P1-A-1 record counts | ✓ | *"26–76 source records per world — PAHC 76, Syriac 64, IJC 41, Alexandria 37, Desert 26, Hieronymian 26"* — matches my `find` counts world-for-world, no transcription drift |
+| P1-A-2 matched lines | ✓ | *"matched line text is not stored anywhere (the committed regex and corpus make the matches recomputable, but the instrument as committed does not emit them)"* — true of the code; the false capability claim is gone |
+| P1-A-3 Usage Guidance | ✓ | *"20 of 60 story files (the section appears only in story chunks; all 20 flagged files are story files)"* — matches the corpus count (0 of 118 lexicon, 60 of 60 story) and the committed JSON's `Counter({'story': 20})` |
+| P1-A-4 preamble conflict | ✓ (body) | *"as the first candidate architecture — a direction set by Mark, with the adopt/adapt/reject decision still Design's to make and record explicitly, consistent with this section's rule that no decision happens by default."* "Not one option among several" is gone; §8's header and the item now agree |
+| P2-1 instance count | ✓ | §1 P3 now reads *"the sharpest instance yet"* — the count dropped rather than corrected, which is the right call for a list that may grow |
+| P2-2 bare pointers | ✓ | Complete sweep this time: `brief-§5` at lines 33/63/266, `(brief §6 Objective 3)` at 347 with the redundant duplicate removed. **Whole-document re-extraction: every remaining bare `§N` resolves inside this document.** The cross-reference defect that ran through four passes is closed |
+| P2-3 Alexandria one-file | ✓ | *"the per-world distribution matches within one file (Alexandria counts 6 here against Round 4's 5, whose filenames Round 4 did not list)"* — exactly the qualification I derived |
+| P2-4 "assembled above" | ✓ | Now *"most in this document's own findings, two directly against the brief and its review rounds"*, with the assembler sourced to *"the brief's §7 Part A correction, re-verified this stage"* and the lockstep to *"(brief §4.2)"* |
+| P2-5 record types | ✓ | `term/story/gravity/force/contested_claim/figure/demonstration/quote/search_record/voice_profile/world_core` — all eleven non-`source` subdirectories, matching the twelve I counted on disk |
+| P2-6 §7 instruments | ✓ | *"the §6 rubric traits once built into an instrument per §7's named Objective-3 gap, the sustained-disagreement probe when built"* — no longer claims §7 carries an instrument it says is missing |
+| P2-7 CT tags | ✓ | *"(strand codes, CT tags, Reciprocity/template references)"* — CT is the class behind 2 of the 6 only-added-class files |
+
+**Two new citations introduced by this commit, both checked, both correct.** *"the brief's §7 Part A correction"* for the Desert-only assembler: brief §7 Part A runs from line 760, and line 794 opens *"**One real correction about the source records above, not a restatement: `wrs/views/permanent_prompt.py` does not currently assemble the deployed prompt**"* — it is a correction, it is in §7 Part A, and it carries the staging file, the Desert hardcoding and the `DELIBERATELY TEMPORARY` markers verbatim. *"(brief §4.2)"* for the lockstep requirement: §4.2 spans lines 207–358 and the requirement is at line 297. Both resolve exactly.
+
+**No misquoted counts. No new contradiction with unchanged text.** I re-resolved every `§N` pointer in the document and re-read every site the commit touched against its neighbours. The one thing this commit could have broken — §8's preamble — is now the thing it explicitly reconciles.
+
+**One residue, P2-grade, named for honesty rather than for action.** §8 item 9's **bold title still reads "Record-sourced assembly as the *default* architecture to evaluate"** while its body now says "the first candidate architecture." The body carries the reconciliation and the title carries "to evaluate," so nothing false is asserted and the preamble conflict is genuinely resolved — but a reader skimming titles gets the older word. Two other editorial residues in the same class: §4's reconciliation says *"What does reproduce exactly:"* and then lists something that *"matches within one file"*, and states the Round-4-examples claim twice in one sentence. All three are copy-edits, not corrections. None changes a fact, a number, or an instruction to Design.
+
+## Independent re-derivation this pass
+
+`leak_audit_instrument.py` re-run: `git status` clean, `broad_screen_files: 172` and `apparatus_files: 104` both emitting from one execution. §3.1's six prompt-file numbers re-derived from scratch by importing `wrs.gates.core.readability_check` — Theon 6.16/78.92, Chloe 6.81/74.89, Albina 9.26/65.42, Papnoute 9.74/62.38, **Yausep 10.01/65.05 with `['FK grade 10.0 > 10.0']`**, **Marius 11.56/59.84 with both violations**. Every cell matches the table, and the "two failing prompt files" finding — the third P0 of Round 1 — is confirmed by the gate itself rather than by any prior pass's report of it.
+
+---
+
+## Bottom line for the whole document, per the Standard Practice's point 6
+
+**Ready for Mark's stage sign-off.**
+
+Stated as plainly as point 6 requires, and not softened because this is the fourth pass on the same artifact: **there is no P0 anywhere in this document, no P1 anywhere in this document, and every claim that four passes have put in question has been taken to primary source and reproduced.** Every finding raised across Research Round 1 (3 P0, 6 P1, 10 P2), this targeted re-check (3 P1, 9 P2) and its addendum (4 P1, 7 P2) — **42 findings** — is closed. What remains is three copy-edits.
+
+The specific things a Design reader can now rely on, each re-derived by this reviewer rather than accepted:
+
+- **The leak audit is fully reproducible.** One committed script, two real stages, `172` and `104` from the same run, a byte-identical JSON on regeneration, and a prose description that matches the code class-for-class. This was the defect that blocked the document at Round 1; it is not merely patched, it is the strongest instrument-provenance position anything in this thread has held.
+- **Every measurement reproduces**: the twelve-file readability table (re-derived this pass), the per-turn probe measures, the invisible-call rates, the bridge-first counts, the section and per-world leak figures, the corpus denominators, and the record-layer counts behind the new architecture direction.
+- **Every correction to the brief holds at source**, including the four per-world turn ceilings that the first two passes got wrong in two different ways.
+- **Cross-reference integrity is clean** for the first time in this thread's history: every bare `§N` resolves inside this document, every cross-document pointer is prefixed, and the two renumbered pointers both land.
+
+**What Mark should know is still open — not defects, but things the document itself names as unclosed**, and which sign-off endorses rather than resolves: Objective 3's positive goal still has no instrument (§7, §8(d)); the sustained-disagreement probe does not exist (§7); four rubric traits remain egress-blocked (§8(a)); `mark_voice_simulation_results.json` is still uncommitted, so brief finding C's four claims rest on the Decision Log and brief alone (§8(c)); and §8 item 9 records a direction from Mark whose adopt/adapt/reject decision is Design's. Each is disclosed in the document in the right place, which is the condition that makes sign-off honest rather than optimistic.
+
+**A further adversarial pass is not warranted and would not be a good use of the tier.** The pattern across four passes is now unambiguous and worth recording for the Design gate's dispatch: **quotations and deletions held on first application every time; new prose asserting a replacement fact, a causal explanation, or a description of what a script does failed on first application every time, and roughly half the time on second application too.** Design's dispatch should aim its skepticism at exactly that class — and at nothing else, because everything else in this thread's history has held.
+
+---
+
+*Simulated review — informational only, not an Article 31 substitute.*
