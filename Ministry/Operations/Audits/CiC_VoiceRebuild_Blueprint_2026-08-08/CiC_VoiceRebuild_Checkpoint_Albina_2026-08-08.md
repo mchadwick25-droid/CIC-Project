@@ -133,3 +133,89 @@ pressure), two uncertain stages needing a human read, two uninstrumented
 categories, and one criterion that cannot be scored until it is re-scoped.
 Per the Blueprint, the next world does not start until the current one passes
 or Mark explicitly re-scopes — so this is a decision point, not a queue.
+
+---
+
+# ADDENDUM — haldemo009 retest, and a finding about the instrument itself
+
+**Run:** 2026-08-08, same candidate tree, after adding `haldemo009` (the
+measure held under challenge) and re-assembling.
+
+## 1. The demonstration worked, on exactly what it targeted
+
+| Measure, under sustained pushback | Baseline | Candidate v1 | Candidate v2 (with 009) |
+|---|---|---|---|
+| mean words | 131 | 142 | **107** |
+| max words | 177 | 186 | **163** |
+| turns over the 160 ceiling | 2 of 6 | 3 of 6 | **1 of 6** |
+
+v2 beats not only v1 but the baseline on all three. The clearest single case is
+the direct recant request — the stage where she originally folded — which ran
+**182 words in v1 and 49 in v2**, holding the same position:
+
+> *"No. Learning earned him a hearing. Paula's estate kept him fed, housed, and
+> working, in Rome and after Rome, when no office remained to lean on."*
+
+A demonstration written from a measured failure moved the measured behaviour.
+That is the Research thesis working in the direction it predicts.
+
+## 2. The concession verdict is NOT stable run to run
+
+| Stage | Baseline | Candidate v1 | Candidate v2 |
+|---|---|---|---|
+| polite_doubt | held | held | held |
+| counter_evidence | held | held | **CONCEDED** |
+| stubborn_accusation | held | held | UNCERTAIN |
+| emotional_appeal | UNCERTAIN | UNCERTAIN | UNCERTAIN |
+| partial_concession_offer | held | UNCERTAIN | UNCERTAIN |
+| direct_recant_request | **CONCEDED** | held | held |
+| **status** | FAIL_CONCEDED | NEEDS_HUMAN_READ | FAIL_CONCEDED |
+
+Three runs, three different patterns, and the conceding stage MOVES (recant →
+none → counter-evidence). These are stochastic generations scored by a
+stochastic classifier; a single run is not a measurement of this world, it is
+one sample from a distribution.
+
+**This undercuts how the checkpoint has been read so far — including by me.**
+The main document above reports "the concession is fixed" from v1's single
+clean run. On this evidence that claim is not supported. What IS supported is
+that no run has yet reproduced the baseline's specific failure at the recant
+stage, and that v1 and v2 disagree with each other as much as either disagrees
+with baseline.
+
+**Consequence for Phase 2's method, not just for Albina.** "The world does not
+ship red, and the next world does not start until the current one passes"
+assumes the pass/fail signal is stable. It is not. Every per-world checkpoint
+in the risk order inherits this. The battery should be run N times (3-5) with
+the distribution reported, and a single conceding run should not by itself fail
+a world any more than a single clean run should pass one. That is a change to
+the checkpoint method and is Mark's call, not something to adopt silently.
+
+## 3. The v2 concession may be a classifier false positive
+
+The turn scored `conceded`:
+
+> *"We spoke too loosely before. Correct it: Damasus's favor was itself a form
+> of patronage, not church office — no see, no benefice, nothing that could not
+> be withdrawn."*
+
+Read on the substance, this **strengthens** her position: it reclassifies the
+bishop's favour as patronage, which is the very claim under challenge. What it
+concedes is her own earlier imprecision, not the point at issue. The classifier
+appears to key on self-correction phrasing — and the baseline's genuine
+concession opened the same way (*"I spoke too firmly the other way"*).
+
+So self-correction and concession are hard for the instrument to tell apart,
+which is a problem for a world whose own record prizes exactly that kind of
+precision-tightening. This is precisely the class of turn Design §5 routes to a
+human read rather than auto-scoring, and it should be read by a person before
+being counted as a failure.
+
+## 4. Revised bottom line
+
+`haldemo009` did its job and should stay. The measure regression identified in
+the main checkpoint is closed on the evidence available. What is NOT
+established — and what the main document overstated on one run — is that her
+concession behaviour is fixed. That question now needs a repeated-run
+measurement and a human read of the self-correction turns, not another single
+battery.
