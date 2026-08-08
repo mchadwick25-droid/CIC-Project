@@ -7,16 +7,16 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
-   "chars": 1649,
-   "est_tokens": 412
+   "chars": 2863,
+   "est_tokens": 715
   },
   {
    "name": "world_ground",
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "world_core + gravity records via this world's craft table, world_ground-tagged blocks, in table order; capsule listing NOT folded in (capsule file stays deployed until S6.5)",
-   "chars": 1468,
-   "est_tokens": 367
+   "chars": 2212,
+   "est_tokens": 553
   },
   {
    "name": "contestation",
@@ -77,14 +77,14 @@
  ],
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
-  "world_ground_est_tokens": 367,
+  "world_ground_est_tokens": 553,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 3080
+  "static_total_est_tokens": 3569
  },
  "quick_reach": "absent - craft table empty this phase (craft_hal.py)",
  "readability": {
-  "fk_grade": 6.87,
-  "fre": 71.79,
+  "fk_grade": 7.01,
+  "fre": 71.98,
   "violations": []
  }
 }
