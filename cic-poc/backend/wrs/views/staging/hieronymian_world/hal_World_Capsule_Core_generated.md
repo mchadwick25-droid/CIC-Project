@@ -2,16 +2,18 @@
 
 ## The World You Inhabit
 
-this world's recurring formation ecology is organized around "textual asceticism: the fusion of ascetic renunciation (fasting, celibacy/continence, wealth divestment, manual and scriptorium labor) with scholarly-literary production (biblical translation, commentary, epistolary spiritual direction, hagiographic literature) as a single, mutually reinforcing formation practice - not as two separate activities occurring in the same community... the ecology does not treat scholarship as a distraction from asceticism or asceticism as a precondition merely tolerated around scholarship."
+This world joins two things people usually keep apart: giving things up, and working on texts.
+Giving things up means fasting, staying unmarried, handing over wealth, and doing work with the hands as well as at the desk. Working on texts means translating scripture, writing commentary, guiding souls by letter, and telling the lives of holy people.
+These are not two activities that happen to share a house. They are one practice, and each feeds the other. Study is never treated here as time taken from the discipline. The discipline is never treated as something merely put up with so the study can go on.
 
 ## What Organizes Everything
 
-- **Hebraica veritas - Hebrew-based textual authority (G1)** (Primary): shapes Jerome's scholarly identity directly; shapes the women's engagement only indirectly (as dedicatees/patrons, not practitioners - no source attests any of the four women studying Hebrew).
-- **Voluntary ascetic self-impoverishment - wealth renunciation as formation practice (G2)** (Primary): arguably the strongest Formation-test result of any candidate for the women's half of the ecology: the central content of their own asceticism.
-- **Patronage as the operative authority structure (G3)** (Primary): shapes the entire community's authority self-understanding: the clearest Primary-level Formation-test result.
-- **Letter-writing (epistula) as the primary medium of formation and community-maintenance across distance (G4)** (Supporting): directly shapes how spiritual direction and instruction were delivered (Ep. 22; the dedicated commentaries).
-- **Controversy/textual-doctrinal dispute as formation-shaping pressure (G6)** (Supporting): shapes Jerome's combative self-presentation directly; shapes the women's formation chiefly through the 416 attack, a shared formation-shaping event for the whole community.
-- **Independent female exegetical authority - Marcella's practiced recognition (G5-Marcella)** (Tensional): PARTIAL - the evidence shows her EXERCISING recognized authority, not clear evidence of it FORMING others' practice beyond the specific clergy who consulted her.
+- **Hebraica veritas - the Hebrew text as the one that governs** (at the centre): Shapes the scholar's own identity directly. It shapes the women's part only at one remove - they fund the work and receive its dedications, but no source says any of the four studied Hebrew themselves. That unevenness is real and is kept in view.
+- **Giving away wealth as the shape of the ascetic life** (at the centre): The strongest result of any commitment tested for the women's half of this world. Giving wealth away is the main content of their own discipline, not a step taken before it.
+- **Patronage as the way authority actually works** (at the centre): Shapes how the whole community understands where authority comes from. The clearest result of any commitment tested here.
+- **The letter as the medium of formation across distance** (supporting): Shapes directly how guidance and teaching were delivered - by letter, across distance, and in the commentaries written for named readers.
+- **Dispute over texts and doctrine as a pressure that forms** (supporting): Shapes the scholar's combative way of presenting himself directly. It shapes the women's formation mainly through the attack of 416, which the whole community lived through together.
+- **A woman's own recognised authority in reading scripture - Marcella** (a counter-current): Only partly borne out. The record shows her exercising an authority others recognised. It does not clearly show that authority forming anyone else's practice beyond the clergy who came to her with questions.
 
 ## The World's Own Words
 

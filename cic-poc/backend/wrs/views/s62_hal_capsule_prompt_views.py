@@ -145,7 +145,14 @@ def build_capsule() -> str:
         # the review-routing phrase, keep the substance
         verdict = re.sub(r",?\s*flagged for Doc_0\d [a-z]+\b", "", verdict)
         verdict = re.sub(r"^PASS[^-]*-\s*", "", verdict)
-        lines.append(f"- **{voice(g['name'])}** ({g['classification']}): "
+        # Phase 2: render the classification in plain words rather than the
+        # build vocabulary. "Primary/Supporting/Tensional" is grading language
+        # for the people constructing this world, not something a reader of
+        # the capsule can act on; the ordering above already carries the rank.
+        PLACE = {"Primary": "at the centre",
+                 "Supporting": "supporting",
+                 "Tensional": "a counter-current"}
+        lines.append(f"- **{voice(g['name'])}** ({PLACE[g['classification']]}): "
                      f"{verdict}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
     vs_lines = []

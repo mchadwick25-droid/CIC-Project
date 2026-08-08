@@ -12,7 +12,7 @@ sources:
 - source_id: srcHAL009
 - source_id: srcHAL016
 id: halgrav006
-name: Controversy/textual-doctrinal dispute as formation-shaping pressure (G6)
+name: 'Dispute over texts and doctrine as a pressure that forms'
 classification: Supporting
 six_tests:
   repetition:
@@ -22,9 +22,9 @@ six_tests:
     verdict: PASS, strong - the community's self-definition (against Origenism, against the Septuagint
       traditionalists, against the Pelagian mob) depends heavily on these disputes (Doc_04 G6).
   formation:
-    verdict: PASS - shapes Jerome's combative self-presentation directly; shapes the women's formation
-      chiefly through the 416 attack, a shared formation-shaping event for the whole community (Doc_04
-      G6).
+    verdict: 'Shapes the scholar''s combative way of presenting himself directly. It shapes the women''s
+      formation mainly through the attack of 416, which the whole community lived through
+      together.'
   explanatory:
     verdict: PASS, strong - explains major turning points across the whole span (393-403 rupture; 416
       violence; the ongoing Augustine dispute) (Doc_04 G6).

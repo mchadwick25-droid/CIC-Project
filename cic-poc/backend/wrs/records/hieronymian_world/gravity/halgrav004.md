@@ -10,8 +10,7 @@ sources:
 - source_id: srcHAL001
 - source_id: srcHAL023
 id: halgrav004
-name: Letter-writing (epistula) as the primary medium of formation and community-maintenance across distance
-  (G4)
+name: 'The letter as the medium of formation across distance'
 classification: Supporting
 six_tests:
   repetition:
@@ -22,8 +21,8 @@ six_tests:
     verdict: PASS - G1's Augustine dispute, G5-M's known exercise (though the practice itself was partly
       in-person, per Ep. 127), and Rome/Bethlehem cohesion all depend on the medium (Doc_04 G4).
   formation:
-    verdict: PASS - directly shapes how spiritual direction and instruction were delivered (Ep. 22; the
-      dedicated commentaries) (Doc_04 G4).
+    verdict: 'Shapes directly how guidance and teaching were delivered - by letter, across distance, and
+      in the commentaries written for named readers.'
   explanatory:
     verdict: PASS, strong - explains how a geographically bipolar community maintained coherence at all
       (Doc_04 G4).

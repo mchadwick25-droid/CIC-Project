@@ -11,7 +11,7 @@ sources:
 - source_id: srcHAL017
 - source_id: srcHAL020
 id: halgrav002
-name: Voluntary ascetic self-impoverishment - wealth renunciation as formation practice (G2)
+name: 'Giving away wealth as the shape of the ascetic life'
 classification: Primary
 six_tests:
   repetition:
@@ -23,8 +23,8 @@ six_tests:
     verdict: PASS, strong - the Bethlehem foundation's funding, the pilgrim hospice, and Fabiola's Roman
       hospital all depend on this practice (Doc_04 G2).
   formation:
-    verdict: 'PASS, strong - arguably the strongest Formation-test result of any candidate for the women''s
-      half of the ecology: the central content of their own asceticism (Doc_04 G2).'
+    verdict: 'The strongest result of any commitment tested for the women''s half of this world. Giving
+      wealth away is the main content of their own discipline, not a step taken before it.'
   explanatory:
     verdict: PASS, strong - explains the funding structure (G3), the hospice, the hospital, and the family
       resistance (Doc_02 SS7.2) (Doc_04 G2).

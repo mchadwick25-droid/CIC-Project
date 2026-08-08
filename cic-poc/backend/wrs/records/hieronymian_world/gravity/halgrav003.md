@@ -11,7 +11,7 @@ sources:
 - source_id: srcHAL010
 - source_id: srcHAL001
 id: halgrav003
-name: Patronage as the operative authority structure (G3)
+name: 'Patronage as the way authority actually works'
 classification: Primary
 six_tests:
   repetition:
@@ -22,8 +22,8 @@ six_tests:
       on it (G1 depends on G3 for material possibility); the hospice and hospital (G2) are themselves
       patronage acts (Doc_04 G3).
   formation:
-    verdict: 'PASS, strong - shapes the entire community''s authority self-understanding (Doc_01 SS5.3):
-      the clearest Primary-level Formation-test result (Doc_04 G3).'
+    verdict: 'Shapes how the whole community understands where authority comes from. The clearest result
+      of any commitment tested here.'
   explanatory:
     verdict: PASS, strong - explains why Jerome's authority is precarious (the 384-385 crisis) and why
       the women hold real, not merely supportive, ecological weight (Doc_04 G3).
