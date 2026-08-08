@@ -492,3 +492,78 @@ The claim is true only of Theon's **prompt file** (which I read — it states no
 6. **R2-P2-2** then the rest of the P2s as one editing pass.
 
 **Then send.** Every item above is a sentence-level correction against a fact now established in this file; none re-opens a design decision except R2-P0-1, which re-opens one clause of one. A third adversarial round is not proportionate — a verification that these ten hunks say what the sources say is.
+
+---
+
+# Final addendum — verification of the second fix pass (commit `aacaac8`), 2026-08-08
+
+*Opus final verification, narrow scope: does `aacaac8` land the re-check addendum's 3 P0s / 6 P1s / 4 P2s plus Round 1's unapplied P2s, are its replacement facts true, and does the document now hang together. Method unchanged: every replacement fact executed or opened at source. `probe_parity.py` read whole and all six `*_probe_parity_result.json` verdicts re-tallied. `wrs/views/` re-enumerated for capsule emitters, `staging/` for their outputs. `nodes.py:1617-1651` and `repair_classifier.py:157` re-read. `alexvoice001` re-read at `native_measure`. The whole document re-grepped for each corrected claim.*
+
+## Bottom line
+
+**Not ready — but one editing pass from it, and no design decision re-opens.**
+
+Twelve of the fifteen findings landed cleanly, several of them well. What remains is one class only, and it is this thread's signature failure: **a claim corrected at the site it was flagged and left standing at the other sites, now contradicting its own correction.** Two claims, four sites. Plus one new attribution that isn't true.
+
+**2 P0. 2 P1. 3 P2.** Every one is a sentence deletion or a sentence rewrite against a fact already established in this file.
+
+### What landed, verified
+
+- **`ceiling_words` (R2-P0-1) — closed, and the design is right.** The diagnosis is correct (`typical_words` is a mean; the ceilings were set at or above measured max), the collapse figures are mine and reproduce (HAL 160→94, SYR 165→98), the remedy is a new field rather than a feed, and **migration seeding `ceiling_words` with the current dict values means the change is behaviour-neutral at landing** while carrying each freeze rationale into the record. That is a better answer than either option I offered.
+- **§4.3 Theon (R2-P0-3) — closed.** *"No prose ceiling in his file (the runtime already backstops him at 160 words, `HARD_CEILING_WORLDS`)"* — 160 verified at `nodes.py:1619`, and it is now consistent with §2.
+- **`native_measure` provenance (R2-P1-1) — closed at §0**, quoting the records verbatim: PAHC *"DESIGNED, NOT MEASURED"*, IJC *"PROVISIONAL PLANNING FIGURE"*, Desert's = the runtime ceiling. (Not at §2 — see F1.)
+- **`scripts/freeze_battery.py` (R2-P1-2) — closed at both sites.**
+- **§9 item 2 (R2-P1-3) — closed.** All three parts now reported, including the record-fed backstop.
+- **`length_ceiling_logging` (R2-P1-5, instrument half) — closed, and better than asked**: §5's checkpoint now reports ceiling regeneration events as *"a full extra main-response call, a real cost line."*
+- **Selector rank key (R2-P1-6) — closed.** Deterministic key (strong-score count desc, then id) plus a `required` flag that guarantees the targeted demonstration's selection — which is what makes §2's "one targeted demonstration per world" mandate actually deliverable.
+- **R2-P2-2 — closed at both sites.** The UNCERTAIN branch now appears in the `_HOW_YOU_ENGAGE` license *and* in §5's scorer (*"UNCERTAIN turns route to the human read, never auto-scored"*), matching `repair_classifier`'s actual three-way routing.
+- **Round 1's P2-6, P2-7, P2-8 — closed.** Layer 4 now states the real change (one Desert-authored guard applies to every migrated world today → six per-world exports, *"Build work, not formalization"*) — verified at `nodes.py:1152-1163`. The drift row now separates the two corrections. §5's Objective-3 read is stated honestly for a single operator.
+- **The precision sweep — closed.** 2.4–5.2× with all six counts (matches my own parse exactly), and `segments/_common.py:voice` correctly described as a field-render helper matching parenthesised citations at assembly time.
+- **The capsule design paragraph (R2-P1-4, structural half) — written, and its architecture is coherent.** "S6.5 fold-in as target, parallel-emit as transition" checks out against both modules: `world_ground.py` already declares the fold-in for S6.5's compatibility retirement, so the design adopts an existing planned end-state rather than inventing one; and the round-trip argument is sound — `capsule_prompt_views.py`'s failure is specifically about *hand-authored* prose, so a capsule emitted from records that Build authored has nothing left to round-trip. This is a real decision, made explicitly, where Round 1 found decision-by-omission.
+
+---
+
+## What still blocks
+
+### F1 (P0). §2's turn-measure paragraph now contradicts itself. Its opening sentence still carries the falsified claim; its part (3) — three sentences later — refutes it.
+
+Opening, unchanged: *"`HARD_CEILING_WORLDS`… is a live per-world word ceiling with regenerate-on-overage for all six worlds, **each value derived from that world's measured `voice_profile` `native_measure`** (all six records carry one — Theon 140, Marius 120, Desert 60…)."*
+
+Part (3), new: *"…because **the existing `typical_words` is a mean, not a ceiling**, and feeding it directly would collapse ceilings to typical output (HAL 160→94, SYR 165→98)."*
+
+Both cannot be true. If each dict value were derived from `native_measure`, feeding `native_measure` in could not change any of them. The correction was applied at §0 (provenance) and in part (3) (the mechanism) and left standing in the sentence that introduces the whole decision — the most-read sentence of the most-revised paragraph in the document. As written it also re-asserts the "measured" flattening R2-P1-1 corrected everywhere else.
+
+**Fix.** *"…for all six worlds, each value set at that world's own freeze against its measured range — at or above the measured max, or as a deliberate enforcing pull (PAHC, IJC) — never equal to its `typical_words` (Theon's record measure is 140 against a 160 ceiling; Marius's 120 against 180; only Desert's 60 coincides)."*
+
+### F2 (P0). "No capsule assembles today — new work" survives verbatim at §1 ground 3 and §8, contradicting the two paragraphs rewritten to correct it.
+
+§1 ground 3, unchanged: *"the capsule emitter for all six (**new work — no capsule assembles today, §0**)."*
+§8, unchanged: *"— once **the capsule emitter lands (new work, §0)** — capsule and prompt stop duplicating world-ground content."*
+
+Both cite `§0` — and §0 now says the opposite, in the document's own voice: *"capsule emitters exist for all six worlds (`capsule_prompt_views.py` + the five `s62_*` variants) and all six have staged `*_World_Capsule_Core_generated.md` output… The capsule work this design owns is therefore **reconciliation, not creation**."* §1's own new capsule paragraph, twenty lines below ground 3, says *"the **existing** capsule emitters regenerate the capsule…"*
+
+Re-verified: six emitters in `wrs/views/`, six staged generated capsules, one per world. §1 ground 3 is the effort-sizing list Blueprint reads; §8 is the cost claim Mark reads. Both are pointers into a section that refutes them.
+
+**Fix.** §1 ground 3: *"capsule reconciliation for all six (emitters exist and emit; their output does not match deployed — §0, and the capsule design paragraph below)."* §8: see F4.
+
+---
+
+## Also
+
+- **F3 (P1). New unverified attribution.** §0: *"…that generated output does not match the hand-authored deployed capsules (… **this mismatch is much of what probe_parity's 4-of-6 FAIL measures**)."* It is not. `probe_parity.py`'s own docstring: *"S2.8 probe-parity (P): **deployed prompt vs. generated prompt** - same voice?"*, and its design note: *"generation: … **system = the prompt text**."* No capsule is read anywhere in the harness. The four FAILs are voice categories from prompt comparison — ALX `scholarly-framework` + `self-referential`, HAL `naming-collision`, IJC `fabrication-tome-courier`, SYR `contested-identity` + `exact-quote` — none capsule-related. Capsule parity is a *separate* instrument: `capsule_prompt_views.py` says *"the S2.8 capsule parity is a **SECTION-level classified comparison**, recorded in the checkpoint artifact."* The 4-of-6 figure itself is right (I re-tallied all six verdicts). Only the causal link is invented — a plausible bridge sentence written to connect the new paragraph to an existing number. **Fix:** delete the parenthetical, or replace with the true instrument ("measured by the S2.8 capsule parity's section-level comparison, not by probe_parity").
+- **F4 (P1). §8's token saving is now keyed to a milestone §1 says won't deliver it.** Under the transition §1 chose, parallel-emit, a regenerated capsule still carries world-ground content and is still concatenated on every turn; §1 is explicit that the duplication ends at the **S6.5 fold-in**. So the saving arrives at the fold-in, not "once the capsule emitter lands." **Fix:** *"and — at the S6.5 fold-in (§1's target state, not the transitional parallel-emit) — capsule and prompt stop duplicating world-ground content."* This closes the substance half of R2-P1-4.
+- **F5 (P2). Retry cost still absent from §8 and from §3's 7.5–7.9 invisible-calls line.** §5 now reports regeneration events, which is the instrument half and the more important one; the arithmetic half is unchanged, and PAHC — the pilot — carries the one ceiling the code annotates as *"expected elevated retry rate initially."*
+- **F6 (P2). Round 1's P2-1 was not applied**, though the commit message claims the unapplied P2s. `§4.1` still means the brief's at §2 Layer 1 and §3's `citation_grounding` row, and this document's §4 item 1 at §7 and §9 item 1. Still a grep-sized job.
+- **F7 (P2). Two small things in the new capsule prose.** §0 runs an em-dash straight into a new capitalized sentence (*"…`DELIBERATELY TEMPORARY` assemblers —\nThe capsule side…"*). And §1's *"each world's Build step authors its world-ground content into records (capsule prose style is explicitly in scope per the brief)"* warrants a **content** move with a **style** license; for capsule files the brief does license style, so say re-homing preserves content and only the prose form is rewritten — the same distinction P0-6 was resolved on.
+
+---
+
+## Verdict for the Standing Practice's point 6
+
+**Not ready for Mark's Design-stage sign-off — by two sentences and a parenthetical.**
+
+Stated plainly rather than softened toward approval, because three rounds on this document have all turned on the same thing: this pass fixed the capsule claim in two places and the ceiling claim in two places, and left the older wording standing in four others, where it now reads as the document disagreeing with itself. A reader who starts at §1 ground 3 or §8 or the top of §2's turn-measure paragraph gets the pre-fix picture, and those are the three places Blueprint sizes work and Mark reads cost.
+
+Nothing here re-opens a decision. F1 and F2 are deletions of superseded sentences; F3 is a parenthetical; F4 re-points a milestone the document has already chosen. The design underneath them — record-sourced assembly, the five layers, `ceiling_words`, the tiered gate, the escalated insight-field call, the fold-in-as-target capsule path — has now survived two adversarial passes at source and is, in my judgement, sound and ready to be built from.
+
+**Apply F1–F4, sweep F5–F7, and send it to Mark. No further adversarial round is warranted** — the remaining items are checkable by grepping this file's own quoted strings against the document, which is a verification, not a review.

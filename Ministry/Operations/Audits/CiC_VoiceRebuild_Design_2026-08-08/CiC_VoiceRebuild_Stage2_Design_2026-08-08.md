@@ -65,8 +65,9 @@ wrong in both directions): capsule *emitters* exist for all six worlds
 staged `*_World_Capsule_Core_generated.md` output — but that generated
 output does not match the hand-authored deployed capsules
 (`capsule_prompt_views.py`'s own note: hand-authored capsule prose
-"will not round-trip"; this mismatch is much of what probe_parity's
-4-of-6 FAIL measures), and `world_ground.py` explicitly does NOT yet
+"will not round-trip"; capsule parity is tracked by its own
+SECTION-level comparison, separate from `probe_parity`'s prompt-only
+harness), and `world_ground.py` explicitly does NOT yet
 fold capsule content into the assembled prompt ("the full fold-in lands
 at S6.5"). The capsule work this design owns is therefore
 *reconciliation*, not creation: §1 names the target.
@@ -97,8 +98,9 @@ grounds now all verified:
    property (determinism) is already verified** — Desert's assembly is
    byte-identical to the deployed prompt. What remains is genuinely
    mixed: five worlds' prompt assemblers (generalization of existing
-   segments), the capsule emitter for all six (new work — no capsule
-   assembles today, §0), demonstration-record schema normalization plus
+   segments), the capsule reconciliation for all six (emitters exist; their
+   generated output must come to define the deployed capsule — §0 and
+   the capsule design below), demonstration-record schema normalization plus
    fresh demonstration writing per world (build work the brief already
    mandates), and a hardened selector (standardized score vocabulary; a
    world selecting zero demonstrations fails the build instead of
@@ -162,8 +164,8 @@ six worlds; per-world *content* comes from each world's records (§4).
 
 **Layer 1 — Ground truth (records; fixed).** Who the Representative is,
 its span, its world's terms, stories, gravities, contested claims —
-the brief's §4.1 frozen content. No design change; this is what §4.1
-protects.
+the brief's §4.1 frozen content. No design change; this is what the
+brief's §4.1 protects.
 
 **Layer 2 — Demonstration (the strongest voice lever we have evidence
 for).** Worked `{{random_user}}` example dialogues, per world, written
@@ -289,9 +291,11 @@ plain-and-short, consensus-then-contrast — as options, not a template).
 corrected by this design's own Round-1 review, which found the system
 already enforces length in code:** `HARD_CEILING_WORLDS`
 (`app/graph/nodes.py:1617`) is a live per-world word ceiling with
-regenerate-on-overage for all six worlds, each value derived from that
-world's measured `voice_profile` `native_measure` (all six records carry
-one — Theon 140, Marius 120, Desert 60...), with its own logging
+regenerate-on-overage for all six worlds, each value set at the S6.2
+freeze sessions with its own per-world rationale recorded in the code
+comments (the records' `native_measure.typical_words` figures — Theon
+140, Marius 120, Desert 60 — informed those calibrations but are means,
+not the ceilings themselves; see part 3), with its own logging
 (`app/length_ceiling_logging.py`). So the architecture question was
 never "where should the only brake live" — a code brake exists. The
 decision, three parts: (1) "A Turn Has a Measure" **stays in the shared
@@ -327,7 +331,7 @@ exists).
 |---|---|---|
 | `over_settling` screen (stage 1, cheap) | **Keep** | Cheap; exists because the one-signal-among-ten version caught nothing; its over-flagging is by design and costs only the second look. |
 | `over_settling` adjudication (stage 2, the largest invisible cost item) | **Keep through the rebuild, then decide against measured data — with the decision pre-committed, not open-ended.** | The probes' data is *suggestive* that the rebuild itself is the cheapest fix candidate: the plainest, best-held voice fired it at half the rate of the register-heavy one (3/8 vs 6/8) — a cross-world comparison Research flags as register-confounded, so it motivates the re-measurement rather than proving the outcome. Dropping or sampling it *before* the rebuild would remove Objective 4's runtime backstop exactly while the voice is deliberately changing — the highest-risk moment. Design therefore commits Build verification to report, per rebuilt world, the firing rate AND the confirmed rate (surfacing `over_settling_logging` into the harness is a named Blueprint task), and pre-commits the decision rule: if the confirmed rate across rebuilt worlds is under ~1 in 10 firings, stage 2 moves to sampled adjudication (every Nth firing + always-on for first-time claims), reported to Mark with the numbers; if confirmed findings stay frequent, it stays, with the cost now a measured price of a real failure mode rather than a default. |
-| `citation_grounding` | **Keep** | Content-mapping, paraphrase-tolerant — immune to register change by design; moderate cost; it is the only check tying spoken claims to retrieved sources, which the transparency goal (§4.1) needs while citations feed the participant-facing UI. |
+| `citation_grounding` | **Keep** | Content-mapping, paraphrase-tolerant — immune to register change by design; moderate cost; it is the only check tying spoken claims to retrieved sources, which the transparency goal (brief §4.1) needs while citations feed the participant-facing UI. |
 | `drift_detection` | **Keep the single call; instrument it; add one signal.** | One call/turn covering twenty signals is already the cheap shape (two separate prior corrections: the stale ten/seventeen signal-type counts, and the brief's own clarification that twenty signals ≠ twenty calls). The gap is visibility, not cost: emit *which* signal fired into usage logs (per-signal breakdown, a light instrumentation task), add the missing `declining_initiative` signal, and put `FLATTENING` under an explicit verification watch during per-world rebuilds (the one signal that could plausibly misread "plainer" as "more generic" — Research/brief both flag it). |
 | `confirmed_glosses` | **Keep for the rebuild; drop-candidate afterward, on evidence.** | Zero LLM cost, deterministic — there is no cost case for removing it now. But it is exactly the kind of accumulated constraint the rebuild exists to question: Build verification checks whether rebuilt voices hit the fixed gloss strings *without* the instruction (run one world's battery with it off); if yes fleet-wide, retire it as apparatus the well-built voice no longer needs. |
 
@@ -510,7 +514,8 @@ For Build to apply to
 ## 7. What this design does NOT decide
 
 Mark's calls, queued for the moments the design makes them concrete:
-the Albina exception (on her first rebuilt output number, §4.1); the
+the Albina exception (on her first rebuilt output number, §4 item 1);
+the
 over_settling stage-2 downgrade (on the measured confirmed rate, §3);
 gloss retirement (on the with/without check, §3); and one scope call
 needed BEFORE Build starts: whether the prose-style license extends to
@@ -527,14 +532,19 @@ together.
 ## 8. Cost summary (Mark's "cheaper," stated as design consequences)
 
 - Fewer tokens per turn in steady state: style prose stated once +
-  demonstrated instead of restated; and — once the capsule emitter lands
-  (new work, §0) — capsule and prompt stop duplicating world-ground
-  content. The demonstrations' eviction ranking is a forward-design
+  demonstrated instead of restated; and — once the S6.5 fold-in lands (§1's target state; the
+  parallel-emit transition preserves the duplication until then) —
+  capsule and prompt stop duplicating world-ground content. The demonstrations' eviction ranking is a forward-design
   property (no runtime consumer reads it today) and is claimed as
   future-proofing, not as a present saving.
 - Fewer invisible calls contingent on measurement, not hope: the
   pre-committed over_settling downgrade rule (§3) and gloss retirement
   check are the two named reductions, triggered by rebuilt-voice data.
+  One cost line runs the other way and is tracked, not hidden: each
+  ceiling regeneration is a full extra main-response call
+  (`length_ceiling_logging`, §5) — a rebuilt voice that lives at its
+  measure should make these rare, and the checkpoint reports whether it
+  does.
 - Cache behavior preserved by design: segments carry cache_stability and
   the assembly keeps the static prefix byte-identical per world
   (the existing three-segment caching contract in
@@ -549,7 +559,7 @@ together.
 ## 9. The ten Research §8 questions, answered
 
 1. **Albina values decision** — framed, escalated to Mark at the first
-   measured number (§4.1). Not decided here.
+   measured number (§4 item 1). Not decided here.
 2. **Turn-length architecture** — decided, three parts (§2): shared
    prose default stays; per-world measures live in voice_profile
    records and render into each world's prose; the existing
