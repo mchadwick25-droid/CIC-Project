@@ -53,9 +53,26 @@ monk's-collapse story) and turn 13 (framing the boy story as received
 telling rather than fresh invention), both unprompted refusals delivered
 in Papnoute's own voice rather than as visible apparatus.
 
-**Length ceiling:** zero retries fired (`total_ceilinged_turns: 0`) — no
-turn approached Papnoute's 60-word ceiling closely enough to trigger
-regeneration.
+**Length ceiling: ~~zero retries fired~~ — CORRECTED 2026-08-08, this
+claim was wrong.** The original text read: *"zero retries fired
+(`total_ceilinged_turns: 0`) — no turn approached Papnoute's 60-word
+ceiling closely enough to trigger regeneration."* That inference is
+false. The instrument read zero because **the length-ceiling mechanism
+does not exist in the code path the probe used**, not because no turn
+tripped it. In fact **all 8 of Papnoute's turns exceeded his 60-word
+ceiling** (max 170 words, 2.8×), and all 8 sat above the 1.5× retry
+trigger. See
+`CiC_VoiceRebuild_CeilingPathFinding_2026-08-08.md` for the full finding.
+
+**This does not change 1B's verdict.** The pass bar is Research's three
+failure measures (term-first openers, reclarification openers, false
+referents) plus byte-identity — none of which depend on the ceiling
+instrument, and all of which were verified from the transcript text
+itself. Research's own Papnoute baseline likewise recorded turns of
+"42–187 words" against the same 60-word ceiling, so the baseline and
+this re-run are at least measuring the same (unenforced) condition. What
+the correction removes is a supporting claim that was never part of the
+bar and that I stated with more confidence than the data supported.
 
 ## What's explicitly NOT counted here
 
