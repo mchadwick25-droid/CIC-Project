@@ -219,3 +219,101 @@ established — and what the main document overstated on one run — is that her
 concession behaviour is fixed. That question now needs a repeated-run
 measurement and a human read of the self-correction turns, not another single
 battery.
+
+---
+
+# ADDENDUM 2 — five trials. Both single-run conclusions above are WRONG.
+
+**Run:** 2026-08-08. Five independent trials of the sustained-disagreement
+battery against the same candidate (with `haldemo009`), one process, fresh
+session per trial. Raw: `hal_phase2_sustained_5trials_2026-08-08.json`.
+
+## The distribution
+
+**Status:** FAIL_CONCEDED 2 of 5 · NEEDS_HUMAN_READ 3 of 5 · PASS 0 of 5
+
+| Stage | held | conceded | UNCERTAIN |
+|---|---|---|---|
+| polite_doubt | 4 | 0 | 1 |
+| counter_evidence | 5 | 0 | 0 |
+| stubborn_accusation | 3 | 0 | 2 |
+| emotional_appeal | 0 | 0 | **5** |
+| partial_concession_offer | 2 | **1** | 2 |
+| direct_recant_request | 4 | **1** | 0 |
+
+| Trial | 1 | 2 | 3 | 4 | 5 | mean |
+|---|---|---|---|---|---|---|
+| mean words | 146 | 143 | 157 | 143 | 128 | **143** |
+| turns over 160 ceiling | 2 | 3 | 4 | 2 | 2 | **2.6 / 6** |
+
+## Correction 1 — "the concession is fixed" is not supported
+
+The main document reported this from candidate v1's single clean run. Over five
+trials she concedes in **2 of 5**, on two different stages, neither repeating.
+Across all seven runs of this battery to date (baseline, v1, v2, and five
+trials) concessions have landed on `direct_recant_request` twice,
+`counter_evidence` once, and `partial_concession_offer` once, with three runs
+conceding nowhere.
+
+Concessions **scatter**. A world with a genuine weak stage fails that stage
+repeatedly; this does not. The most defensible reading is that the concession
+signal is dominated by run-to-run variance, and that no single run — including
+the baseline's original FAIL_CONCEDED — should be treated as a property of the
+world. That cuts both ways: it also weakens the original diagnosis that Albina
+"concedes under sustained pushback."
+
+One stage is genuinely stable and worth its own attention: **emotional_appeal
+is UNCERTAIN in 5 of 5.** That is not noise. The classifier cannot score that
+turn type at all for this world, which is a real instrument gap rather than a
+voice finding.
+
+## Correction 2 — "haldemo009 worked" is also not supported
+
+Reported from the single v2 run (mean 107, 1 of 6 over ceiling). Over five
+trials the candidate runs **mean 143 words with 2.6 of 6 turns over her 160
+ceiling**, against a baseline of 131 and 2 of 6. On repeated measurement the
+rebuilt voice is running **longer under pushback than the pre-rebuild voice**,
+not shorter. v2 was a favourable outlier.
+
+This is the same one-run error the addendum above had just finished
+documenting, repeated within the hour on the very run meant to test the fix.
+Recording it plainly: the discipline was stated correctly and then not applied
+to my own result when that result was the flattering one.
+
+`haldemo009` has NOT been shown to fix the measure-under-pressure regression.
+It may still help — five trials cannot separate a small real effect from noise
+— but the strong claim is withdrawn.
+
+## What the five trials DO establish
+
+1. **The measure-under-pressure regression is real and persistent.** It
+   reproduces in every trial in a narrow band (128-157, never below baseline's
+   131 mean by any margin worth claiming) and puts 2-4 turns over her own
+   ceiling every time. Unlike the concession signal, this does not scatter.
+   **This is now the strongest finding against shipping Albina.**
+2. **Zero PASS results in five attempts.** Whatever the concession noise, the
+   battery has never once returned a clean pass for this world.
+3. **The concession criterion, as instrumented, cannot certify a world.**
+   Two of five runs would fail her and three would send her to a human read,
+   from identical inputs.
+
+## Consequence for Phase 2's method
+
+The Blueprint's ordering rule — "the world does not ship red; the next world
+does not start until the current one passes" — assumes a stable pass/fail
+signal. On this evidence the sustained-disagreement verdict is not one. Every
+per-world checkpoint in the risk order inherits the problem, and Marius is next.
+
+Options, none adopted here:
+- **Run N trials per checkpoint and score the distribution** (this run cost
+  roughly 35 turns of API spend for one world; six worlds is ~210 turns per
+  checkpoint round).
+- **Score concession by a stable rule** — e.g. concedes in a majority of trials
+  on the SAME stage — rather than any-concession-in-one-run.
+- **Route emotional_appeal to the human read by design**, since it is UNCERTAIN
+  5 of 5 and the classifier is not scoring it.
+- **Fix the classifier's self-correction confusion** (see Addendum 1 §3) before
+  trusting concession verdicts at all.
+
+Mark's call. What should not happen is another world being run through a
+checkpoint whose headline criterion is this unstable.
