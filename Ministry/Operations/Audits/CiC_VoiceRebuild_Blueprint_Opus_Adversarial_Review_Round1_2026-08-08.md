@@ -232,3 +232,105 @@ Stated plainly rather than softened. The Design underneath this reached READY af
 Nothing here re-opens a Design decision. P0-1 restores a placement the Design already made; P0-2 and P0-3 correct two clauses about one gate; P0-4 adds a resourcing line the Design already specified and the Blueprint dropped; P0-5 writes down a step the architecture already implies. The plan's shape — five phases, dual-track pilot, risk-ordered per-world passes with real per-world checkpoints, fleet closure, framework last — is right, and I would not restructure it.
 
 **Fix the five, land the twelve, sweep the eight, and send it to Mark.**
+
+---
+
+# Targeted re-check — commit `995fe2b`, 2026-08-08
+
+*Opus targeted re-check, narrow scope per the brief's own operating rule (a fix pass that adds new claims earns a re-check of what changed, not a full round). Question: did all 25 findings land at every site, are the replacement facts true, and did the fix introduce new contradictions? Method unchanged — every replacement fact executed or opened at source. The whole document re-grepped for each pre-fix string. `app/config.py` read whole at `Settings`, `WorldConfig`, the `worlds` property and the legacy properties; `.env.example` read; `app/main.py:153-158` re-read at `load_world_content`. Research §3.1's twelve-file readability table re-partitioned by world rather than by file. The §7 turn arithmetic re-summed against the document's own Phase-3 item list. Checkpoints enumerated and the Objective-3 consumers counted. `voice_rebuild_research_probe_results.json` re-checked against the new Phase-3 sentence.*
+
+## Bottom line
+
+**Not ready for Mark's Blueprint-stage sign-off — but one editing pass from it, and no design decision re-opens.**
+
+**1 new P0. 3 new P1. 4 new P2.**
+
+This is a strong fix pass. Twenty-one of twenty-five findings landed cleanly, several of them better than I asked: the staging-then-swap ordering closes P0-5 by construction rather than by exhortation, the Objective-3 baseline read is a gated Phase-0 item with a named reader and a stated consequence, the Part-B stop rule is written as a mini-phase that attaches to *every* boundary rather than as a caveat, and the Phase-2 checkpoint now carries the full Design §5 instrument list with the disagreement bar and the FLATTENING watch stated explicitly. Every one of the eight pre-fix strings I asked to be grepped is gone: `per-world floor` 0, `enforcing from Phase 1` 0, `identical under both branches` 0, `15–20` 0, `spends little` 0, `directional improvement` 0, `recorded targets` 0, `prose-vs-code` 0.
+
+**What blocks is one thing, and it is the named risk exactly: a replacement fact in fix prose.** The mechanism the new staging step names for running the checkpoint against the candidate does not exist. Setting it changes nothing, silently, and the harness reads the live deployed files — which reinstates the precise defect P0-5 was written to close, in the sentence written to close it.
+
+### Round 1 disposition, per finding
+
+| Finding | Landed? |
+|---|---|
+| **P0-1** insight-field branch claim | **Yes.** §0 now states the Design's own "before Build starts" placement, names the fallback's Phase-0.2 strip, and concedes Checkpoint 0's exit condition "evaluates only on the rewrite branch." The operative deadline ("before Phase 0.2 is implemented") is a sharper statement of the dependency than the Design's own, and is fair. *Residue: Checkpoint 0 itself was not made branch-aware — see N-P2-3.* |
+| **P0-2** per-world floor | **Yes, cleanly.** The fleet-wide `reading_floor` is quoted with its actual values (FK band [8,10], FRE ≥ 60 — matches `wrs/parameters.yaml` verbatim), and the reserved Albina call is protected in the same clause: *"never a config default."* |
+| **P0-3** enforcement boundary | **Yes.** "Warn-only for any world whose records have not yet been rebuilt… enforces per world, at that world's own Phase-2 pass, and fleet-wide once all six are rebuilt" — which is both correct and better scoped than my proposed fix, since it also names the fleet-wide end state. *One count in the new rationale is wrong — see N-P1-1, and it is my error before it is the document's.* |
+| **P0-4** Objective-3 baseline | **Yes, and well.** A [G] item, the Design §5 protocol quoted (one reader, twice, separate days), the reader named before Phase 0 ends, and the consequence stated as a fact rather than a hope: *"seven of the nine later checkpoints cannot be computed."* **That count is correct** — I enumerated the document's checkpoints: Checkpoint 0, 1A, 1B, six per-world, Final = 10 total, 9 after Checkpoint 0, of which 1A and the six per-world checkpoints (7) carry an Objective-3 bar; 1B and the Final checkpoint do not. |
+| **P0-5** deploy-before-checkpoint | **Structurally yes, mechanically no.** The ordering is right and closes the defect: assemble to staging → checkpoint against the candidate → swap only on green → `git revert` as rollback → generated-do-not-hand-edit marking, all present. But one of the two named ways to run the candidate does not work — **N-P0-1**. |
+| **P1-1** budget count | **Partly.** Restated honestly in turns with the derivation shown, and the "spends little" claim correctly inverted. But the component list omits four of Phase 3's five live-turn items — **N-P1-2**. |
+| **P1-2** three missing code-side configs | **One of three.** The IJC guard extension landed (*"Marius's carries the existing IJC extension"*). `confirmed_glosses` still appears once, still only as Phase 3's retirement check — Design §1's "per-world lists become assembly-fed" item is still absent. `_migrated_world_ids` still appears **zero** times. |
+| **P1-3** disagreement pass bar | **Yes.** *"Every supported position held through turn 6, every planted unsupported claim conceded, UNCERTAIN turns routed to the human read"* — matches Design §5 including the branch. |
+| **P1-4** truncated instrument list | **Yes, in full.** Per-signal drift with the FLATTENING watch explicit, callback and candidate-offer occurrence by manual read, and over_settling firing **and** confirmed rates with the Phase-3 consumer named. |
+| **P1-5** contrastive fallback + Layer 3 | **(a) Yes**, with a concrete trigger. **(b) Half** — the boundary-redundancy rule landed verbatim; Layer 3's second rule (a style default stated once and *demonstrated*, never restated) did not. |
+| **P1-6** probe_parity unsequenced | **Yes.** Now a Phase 0.4 [G] item, with the reason stated (*"built here because Phase 2's checkpoints consume it"*). |
+| **P1-7** Part B sacrificed by stopping | **Yes, better than asked.** Not a caveat but a closing mini-phase attached to any stop at any boundary, with the review history named. |
+| **P1-8** mixed-provenance measures | **Yes.** Re-derivation is mandatory for PAHC and IJC with their records' own disclaimers quoted, and the guard clause — *"never used as grading targets before re-derivation"* — closes the loop into the checkpoint, which now grades "re-derived targets." |
+| **P1-9** 1A bar | **Yes.** Baseline-relative on all three failure measures, with two pre-named improvement measures replacing "directional improvement." |
+| **P1-10** segment-freeze relocation | **Partly.** 1B now states the freeze is deliberately on un-rebuilt records and why. It still does not say that Design §4 item 4 places the freeze inside his *Phase-2 pass*, which is the fact a reader checking fidelity needs. |
+| **P1-11** PAHC's Layer-5 pilot property | **Not applied.** Design §4 item 5's *"exercises every Layer-5 mechanism at maximum load before any other world depends on them"* and Design §2 Layer 5's *"PAHC first at 81%, and it pilots"* remain contradicted by the insight-field pass landing fifth in risk order, and the sequencing note still claims to record "the one genuine either/or." |
+| **P1-12** Sonnet pricing step | **Yes**, with the date and the ~50% figure, sourced to the same entry. |
+| **P2 ×8** | **All eight applied.** Notably P2-1 (the invented "flagged 2026-08-08" provenance is replaced by the actual evidence, and the numbers are right — I re-checked: 8 `main_response` calls across 8 Desert turns, and turns 1–5 at 144/152/160/187/138 words against a 60×1.5 = 90-word trigger, so "five turns above the trigger" reproduces exactly); P2-3 (freeze rationale "where one exists (five of six; Desert's 60 predates the freeze sessions)" — correct); P2-8 (per-world boundaries named, and §7 now points at them rather than at the unreachable boundary A). |
+
+---
+
+## New P0
+
+### N-P0-1. The staging step's named override, `DATA_PATH`, is dead config. Setting it changes nothing — silently — and the checkpoint harness would read the live deployed prompt, reinstating the exact defect the step was written to close.
+
+Phase 2 step 3: *"the checkpoint harness runs the backend with the candidate files (git worktree checkout or **the backend's `DATA_PATH` override — Blueprint's named mechanism**, chosen at Phase 0.4 when the harness is extended), with the live `data/` untouched."*
+
+`.env.example` does carry a line that looks like this mechanism — `DATA_PATH=./data/syriac_world` — which is presumably where it came from. It is stale. Three independent facts in `app/config.py`, any one of which is sufficient:
+
+1. **`Settings` has no `data_path` field.** The only `data_path: Path` declaration (line 18) is on the `WorldConfig` dataclass, populated in code. `Settings.data_path` (lines 154–156) is a `@property`, under the comment *"Legacy properties for backwards compatibility (default to Syriac)"*, and pydantic-settings populates fields, not properties.
+2. **`model_config` sets `extra="ignore"`** (line 49), so an unmatched `DATA_PATH` in the environment or `.env` is dropped without an error. The failure is silent — no exception, no warning, no log line.
+3. **Dispositively, the runtime read chain never touches it.** `main.py:156`'s `load_world_content` → `settings.get_world_config(world_id).permanent_prompt_path` → `WorldConfig.data_path`, which the `worlds` property builds as **`self.data_base_path / entry.data_dir_name`** (line 129). The legacy `data_path` property is not in that chain for any world. Even if `DATA_PATH` were honoured, it would move nothing.
+
+**Why this blocks.** The whole point of the new ordering is *"run against the candidate, not the deployed voice."* Under the `DATA_PATH` option, the harness runs against the **deployed** voice, produces a green checkpoint for a candidate it never executed, and the swap step then ships an unmeasured voice to participants under a checkpoint that certified something else. That is worse than the pre-fix state, because the pre-fix state at least measured the thing it shipped.
+
+**Fix, and it is a rename.** The real override is **`DATA_BASE_PATH`** — a genuine `Settings` field (line 107, `data_base_path: Path = Path("./data")`), and a *root* swap, which is the right shape: point it at a candidate tree containing all six world directories and every world's prompt and capsule path follows. The git worktree option named alongside it also works, unmodified. Replace the name and, since the two options are not equivalent in what they carry, say which one Phase 0.4 picks rather than deferring it — see N-P1-3.
+
+---
+
+## New P1
+
+**N-P1-1. "Five of six worlds' current text fails the floor somewhere" is four of six — and this is my Round 1 error, transcribed faithfully.** Research §3.1's table lists **five failing files**: Marius prompt (11.6/59.8), Yausep prompt (10.0 at the line), Hieronymian capsule (11.5/59.0), IJC capsule (12.5/57.2), PAHC capsule (13.3/56.1). Partitioned by **world**, IJC contributes two of the five, so the failing worlds are IJC, Syriac, Hieronymian and PAHC — **four**. Alexandria (prompt 6.2 / capsule 7.8) and Desert (9.7 / 9.6) pass on both surfaces. My Round 1 P0-3 heading said "five of six worlds," while its own table listed five *files*; the fix prose reproduced the heading. Correct both. The finding's substance is unchanged — four failing worlds still redden a fleet-wide gate, and two of them (PAHC fifth, Yausep sixth) are not rebuilt until the end of Phase 2.
+
+**N-P1-2. §7's turn components sum to 274 and omit four of Phase 3's five live-turn items, so the range's floor (275) sits below the document's own zero-failure floor.** The stated components: baseline 84 + 1A 14 + 1B 8 + Phase 2 84 + fleet regression 84 = **274**, presented as *"roughly 275–350 turns with a realistic failure allowance."* But Phase 3 schedules four further live-turn items the list skips: the S6.5 *"spot batteries,"* the relational-safety probe category re-run, the `HARD_CEILING_WORLDS` trigger-behavior verification in Interview mode, and the `confirmed_glosses` without-arm on one world — ~40–45 turns at the floor. So the zero-failure floor is ~315–320, and the entire "realistic failure allowance" is the ~30 turns between there and 350 — against a checkpoint discipline that permits two consecutive failed iterations per checkpoint, where one failed per-world re-run alone costs 14. Separately, *"Phase 2 (~84 across six checkpoints)"* is itself a floor, because the Phase-2 checkpoint adds the confidence-under-thinness and Sustained Engagement categories *on top of* the 14. The restatement is a large improvement on 15–20 batteries and the per-turn derivation is now shown and correct ($0.33–0.35 ÷ 4 turns = $0.0825–0.0875). **Fix:** add a Phase-3 line (~40 turns beyond the fleet regression) and state ~320 as the zero-failure floor with 400–450 as the realistic figure; at $0.085 that is ~$34–38 before 31 August and ~$45–50 after the price step the same paragraph names. *(The "Phase 0/1 is roughly a third of that spend" claim survives recomputation: 106 of ~320 = 33%.)*
+
+**N-P1-3. The candidate tree has no indices, and neither staging step says to build them.** Under the rewrite branch, the insight-field pass edits `Ecological Function` / `Formation Ecology Connection` bodies inside `data/<world>/lexicon_chunks` and `story_chunks`. Retrieval does not read those files at turn time — it reads the vector stores under `vector_store_base_path`, a *separate* setting from `data_base_path`, built by `build_indices.py`. A candidate tree reached by worktree or `DATA_BASE_PATH` therefore carries the new prompt and capsule but the **old** retrieved chunk text, so the per-world checkpoint would measure a hybrid that never ships, and the lead-with-insight instruction — the thing the insight-field pass exists to make non-hollow — would be graded against un-rewritten fields. **Fix:** add to step 2, *"re-index the candidate tree's lexicon and story vector stores and point `vector_store_base_path` at them,"* and pick the worktree option if it is the one that carries indices more cleanly. This also decides N-P0-1's deferred choice, which is why the two should be fixed together.
+
+---
+
+## New P2
+
+1. **Layer 3's second rule is still missing.** Design §2 Layer 3 carries two: boundaries stated redundantly (landed), and *"any style default is stated once and demonstrated in Layer 2 rather than restated (prose restatement is the weakest lever and costs tokens)."* The second is the one that keeps Phase 2's fresh prose from re-growing the apparatus this rebuild exists to remove.
+2. **A new internal collision at "twice."** Phase 2 step 1: the contrastive fallback fires *"if a world fails its checkpoint twice on a measure a demonstration targets."* §6: *"a checkpoint that fails twice consecutively escalates to Mark with the data rather than iterating silently."* Both rules fire on the same event and neither yields. One clause fixes it — e.g. the contrastive adoption is one of the options put to Mark *at* that escalation, not an alternative to it.
+3. **P0-1's correction landed at §0 and not at Checkpoint 0 — this thread's signature failure mode, in miniature.** §0 now says Checkpoint 0's leak-gate condition *"evaluates only on the rewrite branch."* Checkpoint 0 itself still reads, unchanged, *"leak gate runs clean on hard-fail classes or names exactly the files Phase 2 must fix."* Honest at one site, stale at the other, and Checkpoint 0 is the one Build actually signs.
+4. **Two things in 1B's new prose.** (a) The byte-identity reasoning is transcribed correctly — Desert already in `partial`/`strong`, all six tie at 4 strong, the rank key reproduces `sorted()[:3]` — but the fragility caveat is not: the identity holds *because* the six happen to share a profile, so 1B should say the record **contents** are held constant and that a single re-score during normalization breaks the tie and voids the expectation. (b) Limit (b)'s *"all six worlds share the profile schema"* is ambiguous and false on one reading: true of `voice_profile` structure (Design §0: "fleet-wide in structure"), false of demonstration `trait_scores`, where Design §0 says IJC carries none at all and three worlds use a `PASS` vocabulary — which is the entire reason 0.1 exists. Say which schema.
+
+---
+
+## What I re-verified as true in the new prose
+
+- **The `$0.08–0.09/turn` derivation, now shown inline** — `$0.33–0.35 per 4-turn conversation` ÷ 4 = $0.0825–0.0875. Correct, correctly sourced, and (per Round 1) it does not inflate with battery length.
+- **"Seven of the nine later checkpoints"** — enumerated: 10 checkpoints, 9 after Checkpoint 0, 7 carrying an Objective-3 bar. Exact.
+- **The Phase-3 ceiling sentence** — `voice_rebuild_research_probe_results.json` re-parsed: 8 `main_response` calls in 8 Desert turns, turns 1–5 at 144/152/160/187/138 words against the 90-word trigger. "Five turns above the trigger threshold," "did not bind," and the file citation are all exact.
+- **The `reading_floor` values** — FK band [8,10], FRE ≥ 60, quoted correctly from `wrs/parameters.yaml`.
+- **Desert's freeze-rationale exception** — `nodes.py:1617-1645` carries dated S6.2 freeze comments for ALX, HAL, SYR, PAHC and IJC; Desert's `60` carries none. "Five of six" is right here.
+- **The Marius/IJC guard placement** — `nodes.py:1174-1181`'s IJC-scoped extension is real and is Marius's, and Design §4 item 2 says *"keep his IJC-scoped post-history guard."* The new parenthetical is accurate.
+- **`git revert` as the named rollback** — coherent with the swap being a commit to `data/`, and it is the right primitive given the files become generated artifacts.
+
+---
+
+## Verdict for the Standing Practice's point 6
+
+**Not ready for Mark's Blueprint-stage sign-off. One editing pass, and no design decision re-opens.**
+
+Stated plainly rather than softened toward approval, because the single P0 is the reason this gate exists: the sentence written to guarantee that a checkpoint measures the candidate names a mechanism that silently measures the deployed voice instead. That is not a proportionality call — it is a one-word rename (`DATA_PATH` → `DATA_BASE_PATH`), and until it is made, the plan's central safety property is false in one of its two branches.
+
+Everything else is small. Three P1s: a count I introduced myself (four worlds, not five), a turn total that omits Phase 3's non-regression batteries, and an indexing step the new staging path needs. Four P2s, all clause-sized, one of which — Checkpoint 0 left stale against §0's own correction — is worth fixing precisely because it is this thread's recurring shape.
+
+The plan underneath has now survived two passes at source. Its architecture-facing claims (assembly identity, the selector's behaviour on Desert's records, the ceiling's non-binding, the probe harness's coverage, the cost per turn) all reproduce. Its ordering — staging, checkpoint, swap-on-green, revert — is right, and it is the part I would have expected a fix pass to get wrong.
+
+**Rename the override, add the re-index step and the Phase-3 turns, apply the three unlanded residues (`_migrated_world_ids`, `confirmed_glosses`'s assembly feed, PAHC's Layer-5 pilot property), sweep the four P2s, and send it to Mark. No further adversarial round is warranted** — what remains is checkable by grepping this file's own quoted strings against the document, which is a verification, not a review.
