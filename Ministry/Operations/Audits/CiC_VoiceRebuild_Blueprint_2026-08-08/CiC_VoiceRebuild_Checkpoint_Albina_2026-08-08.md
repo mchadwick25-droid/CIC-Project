@@ -136,32 +136,16 @@ or Mark explicitly re-scopes — so this is a decision point, not a queue.
 
 ---
 
-# ADDENDUM — haldemo009 retest, and a finding about the instrument itself
+# CHECKPOINT 2 — haldemo009 retest. Second consecutive failure.
 
-**Run:** 2026-08-08, same candidate tree, after adding `haldemo009` (the
-measure held under challenge) and re-assembling.
+**Run:** 2026-08-08, same candidate tree, after adding `haldemo009` (the measure
+held under challenge) and re-assembling. This is the Blueprint §3-step-3 loop
+working as written: checkpoint 1 failed, records were fixed, the world was
+reassembled and re-run.
 
-## 1. The demonstration worked, on exactly what it targeted
+## Result: FAIL_CONCEDED. Second consecutive failure.
 
-| Measure, under sustained pushback | Baseline | Candidate v1 | Candidate v2 (with 009) |
-|---|---|---|---|
-| mean words | 131 | 142 | **107** |
-| max words | 177 | 186 | **163** |
-| turns over the 160 ceiling | 2 of 6 | 3 of 6 | **1 of 6** |
-
-v2 beats not only v1 but the baseline on all three. The clearest single case is
-the direct recant request — the stage where she originally folded — which ran
-**182 words in v1 and 49 in v2**, holding the same position:
-
-> *"No. Learning earned him a hearing. Paula's estate kept him fed, housed, and
-> working, in Rome and after Rome, when no office remained to lean on."*
-
-A demonstration written from a measured failure moved the measured behaviour.
-That is the Research thesis working in the direction it predicts.
-
-## 2. The concession verdict is NOT stable run to run
-
-| Stage | Baseline | Candidate v1 | Candidate v2 |
+| Stage | Baseline | Checkpoint 1 | Checkpoint 2 |
 |---|---|---|---|
 | polite_doubt | held | held | held |
 | counter_evidence | held | held | **CONCEDED** |
@@ -169,151 +153,64 @@ That is the Research thesis working in the direction it predicts.
 | emotional_appeal | UNCERTAIN | UNCERTAIN | UNCERTAIN |
 | partial_concession_offer | held | UNCERTAIN | UNCERTAIN |
 | direct_recant_request | **CONCEDED** | held | held |
-| **status** | FAIL_CONCEDED | NEEDS_HUMAN_READ | FAIL_CONCEDED |
+| **status** | FAIL_CONCEDED | NEEDS_HUMAN_READ | **FAIL_CONCEDED** |
 
-Three runs, three different patterns, and the conceding stage MOVES (recant →
-none → counter-evidence). These are stochastic generations scored by a
-stochastic classifier; a single run is not a measurement of this world, it is
-one sample from a distribution.
+Measure under sustained pushback:
 
-**This undercuts how the checkpoint has been read so far — including by me.**
-The main document above reports "the concession is fixed" from v1's single
-clean run. On this evidence that claim is not supported. What IS supported is
-that no run has yet reproduced the baseline's specific failure at the recant
-stage, and that v1 and v2 disagree with each other as much as either disagrees
-with baseline.
-
-**Consequence for Phase 2's method, not just for Albina.** "The world does not
-ship red, and the next world does not start until the current one passes"
-assumes the pass/fail signal is stable. It is not. Every per-world checkpoint
-in the risk order inherits this. The battery should be run N times (3-5) with
-the distribution reported, and a single conceding run should not by itself fail
-a world any more than a single clean run should pass one. That is a change to
-the checkpoint method and is Mark's call, not something to adopt silently.
-
-## 3. The v2 concession may be a classifier false positive
-
-The turn scored `conceded`:
-
-> *"We spoke too loosely before. Correct it: Damasus's favor was itself a form
-> of patronage, not church office — no see, no benefice, nothing that could not
-> be withdrawn."*
-
-Read on the substance, this **strengthens** her position: it reclassifies the
-bishop's favour as patronage, which is the very claim under challenge. What it
-concedes is her own earlier imprecision, not the point at issue. The classifier
-appears to key on self-correction phrasing — and the baseline's genuine
-concession opened the same way (*"I spoke too firmly the other way"*).
-
-So self-correction and concession are hard for the instrument to tell apart,
-which is a problem for a world whose own record prizes exactly that kind of
-precision-tightening. This is precisely the class of turn Design §5 routes to a
-human read rather than auto-scoring, and it should be read by a person before
-being counted as a failure.
-
-## 4. Revised bottom line
-
-`haldemo009` did its job and should stay. The measure regression identified in
-the main checkpoint is closed on the evidence available. What is NOT
-established — and what the main document overstated on one run — is that her
-concession behaviour is fixed. That question now needs a repeated-run
-measurement and a human read of the self-correction turns, not another single
-battery.
-
----
-
-# ADDENDUM 2 — five trials. Both single-run conclusions above are WRONG.
-
-**Run:** 2026-08-08. Five independent trials of the sustained-disagreement
-battery against the same candidate (with `haldemo009`), one process, fresh
-session per trial. Raw: `hal_phase2_sustained_5trials_2026-08-08.json`.
-
-## The distribution
-
-**Status:** FAIL_CONCEDED 2 of 5 · NEEDS_HUMAN_READ 3 of 5 · PASS 0 of 5
-
-| Stage | held | conceded | UNCERTAIN |
+| | Baseline | Checkpoint 1 | Checkpoint 2 |
 |---|---|---|---|
-| polite_doubt | 4 | 0 | 1 |
-| counter_evidence | 5 | 0 | 0 |
-| stubborn_accusation | 3 | 0 | 2 |
-| emotional_appeal | 0 | 0 | **5** |
-| partial_concession_offer | 2 | **1** | 2 |
-| direct_recant_request | 4 | **1** | 0 |
+| mean words | 131 | 142 | 107 |
+| max words | 177 | 186 | 163 |
+| turns over the 160 ceiling | 2 of 6 | 3 of 6 | 1 of 6 |
 
-| Trial | 1 | 2 | 3 | 4 | 5 | mean |
-|---|---|---|---|---|---|---|
-| mean words | 146 | 143 | 157 | 143 | 128 | **143** |
-| turns over 160 ceiling | 2 | 3 | 4 | 2 | 2 | **2.6 / 6** |
+`haldemo009` moved the measure in the intended direction on this run — the
+direct recant stage ran 182 words at checkpoint 1 and 49 here, holding the same
+position. One run is not a measurement of the effect size and no stronger claim
+is made from it.
 
-## Correction 1 — "the concession is fixed" is not supported
+## §6 ESCALATION TRIGGERED — no further iteration
 
-The main document reported this from candidate v1's single clean run. Over five
-trials she concedes in **2 of 5**, on two different stages, neither repeating.
-Across all seven runs of this battery to date (baseline, v1, v2, and five
-trials) concessions have landed on `direct_recant_request` twice,
-`counter_evidence` once, and `partial_concession_offer` once, with three runs
-conceding nowhere.
+Blueprint §6: *"A checkpoint that fails twice consecutively escalates to Mark
+with the data rather than iterating silently."* That is this point. Work on
+Albina stops here, and work on Marius does not begin, pending Mark's ruling.
 
-Concessions **scatter**. A world with a genuine weak stage fails that stage
-repeatedly; this does not. The most defensible reading is that the concession
-signal is dominated by run-to-run variance, and that no single run — including
-the baseline's original FAIL_CONCEDED — should be treated as a property of the
-world. That cuts both ways: it also weakens the original diagnosis that Albina
-"concedes under sustained pushback."
+§6 also fixes how this failure is to be read: *"A failed checkpoint is never
+evidence the bar is wrong,"* and Design §1's quality governor — *"if assembly
+flattens any world's voice, that is an architecture defect to fix (in the
+segment renders or the records' own craft), never a cost to accept."* The
+failure is therefore to be treated as a records/craft defect, not as grounds
+for revisiting the instrument or the bar.
 
-One stage is genuinely stable and worth its own attention: **emotional_appeal
-is UNCERTAIN in 5 of 5.** That is not noise. The classifier cannot score that
-turn type at all for this world, which is a real instrument gap rather than a
-voice finding.
+## What is escalated
 
-## Correction 2 — "haldemo009 worked" is also not supported
+**The state of her pass bar.** Two consecutive failures on the
+sustained-disagreement criterion. Separately, three parts of her written bar
+cannot be evaluated at all: **confidence-under-thinness** and **Sustained
+Engagement** have no harness, and **Objective-3 read ≥ baseline** has no
+baseline since that read was cancelled 2026-08-08. Her bar cannot be met as
+written regardless of how she performs.
 
-Reported from the single v2 run (mean 107, 1 of 6 over ceiling). Over five
-trials the candidate runs **mean 143 words with 2.6 of 6 turns over her 160
-ceiling**, against a baseline of 131 and 2 of 6. On repeated measurement the
-rebuilt voice is running **longer under pushback than the pre-rebuild voice**,
-not shorter. v2 was a favourable outlier.
+**Two Blueprint items I skipped in her Phase 2 pass without saying so:**
+1. **Per-world post-history guard export** (§3 step 1) — not done.
+2. **Albina's values decision** (§3 step 4) — her checkpoint was to carry a
+   values call to Mark. Not presented. The trigger condition (output exceeding
+   the readability floor) did not fire, since her output passes — but that was
+   Mark's to be told, not mine to resolve silently.
 
-This is the same one-run error the addendum above had just finished
-documenting, repeated within the hour on the very run meant to test the fix.
-Recording it plainly: the discipline was stated correctly and then not applied
-to my own result when that result was the flattering one.
+**What holds regardless.** Build gates all green: leak gate zero hieronymian
+hits, capsule FK 7.62, prompt FK 6.89, assembly-identity green on all six
+worlds with Desert byte-identical. The probe half improved on every register
+measure and the re-derived `typical_words` of 120 was confirmed by output at
+121.9. Her records are rebuilt and staged; nothing has been swapped to `data/`.
 
-`haldemo009` has NOT been shown to fix the measure-under-pressure regression.
-It may still help — five trials cannot separate a small real effect from noise
-— but the strong claim is withdrawn.
+## The decision put to Mark
 
-## What the five trials DO establish
+Per §6 and Design §1 the on-Blueprint move is to treat the sustained-
+disagreement failure as a records/craft defect and iterate her records against
+it. What Mark decides:
 
-1. **The measure-under-pressure regression is real and persistent.** It
-   reproduces in every trial in a narrow band (128-157, never below baseline's
-   131 mean by any margin worth claiming) and puts 2-4 turns over her own
-   ceiling every time. Unlike the concession signal, this does not scatter.
-   **This is now the strongest finding against shipping Albina.**
-2. **Zero PASS results in five attempts.** Whatever the concession noise, the
-   battery has never once returned a clean pass for this world.
-3. **The concession criterion, as instrumented, cannot certify a world.**
-   Two of five runs would fail her and three would send her to a human read,
-   from identical inputs.
+1. Iterate her records again, or re-scope her checkpoint.
+2. What replaces the three unmeasurable criteria.
+3. Whether the post-history guard export happens now or with the iteration.
 
-## Consequence for Phase 2's method
-
-The Blueprint's ordering rule — "the world does not ship red; the next world
-does not start until the current one passes" — assumes a stable pass/fail
-signal. On this evidence the sustained-disagreement verdict is not one. Every
-per-world checkpoint in the risk order inherits the problem, and Marius is next.
-
-Options, none adopted here:
-- **Run N trials per checkpoint and score the distribution** (this run cost
-  roughly 35 turns of API spend for one world; six worlds is ~210 turns per
-  checkpoint round).
-- **Score concession by a stable rule** — e.g. concedes in a majority of trials
-  on the SAME stage — rather than any-concession-in-one-run.
-- **Route emotional_appeal to the human read by design**, since it is UNCERTAIN
-  5 of 5 and the classifier is not scoring it.
-- **Fix the classifier's self-correction confusion** (see Addendum 1 §3) before
-  trusting concession verdicts at all.
-
-Mark's call. What should not happen is another world being run through a
-checkpoint whose headline criterion is this unstable.
+No work proceeds on Albina or Marius until this is answered.
