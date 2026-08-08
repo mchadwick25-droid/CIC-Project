@@ -17,6 +17,17 @@ its five adversarial review rounds assigned to this stage, and the open
 questions handed to Design — each tied to a named instrument where the brief
 requires falsifiability (§8).
 
+**What this stage is, per Mark's own framing (2026-08-08):** research to
+understand what was not working, in service of a deep rebuild of *how the
+six voices are built* — higher-quality conversation, cheaper — not a fix
+pass on the six current voices. Nothing in any voice file, capsule, or
+pipeline was changed this stage; every finding, including the ones shaped
+like bugs (the story strip-list gap, the fail-open chunks), is handed to
+Design as evidence about where the rebuilt build system should place its
+enforcement, and the rebuild leverages the completed world-record
+build-out (`wrs/records/`) as its information architecture — see §8
+question 9.
+
 Method, stated so the adversarial pass can check it:
 
 - **Every §5 code/prompt claim relied on here was re-verified against the
@@ -625,7 +636,7 @@ instrument), this stage leaves behind:
 | Declining-initiative signal | **Confirmed absent** from all 20 signal types | The one genuinely new signal to add (Design) |
 | First-sentence uptake tally | Partially covered by probe script's first-sentence capture; no automated classifier | Objective 1 instrument gap, named for Design |
 | Objective 3's positive goal (insight, connection, honesty) | **No instrument exists — the largest known instrument gap**, per the brief's own §8 concession and Round 4. Candidate: the §6 rubric's adopt/adapt traits as a structured human-read checklist | Named for Design; readability numbers are the floor, never this measure |
-| Objective 2×4 interaction (story-first vs genre-caveat fidelity) | `fabrication_adjudication` firing rate on story-led turns, plus manual read of whether a source's own Usage Guidance caveats survive into the telling | Named for Design — see §8 question 9 |
+| Objective 2×4 interaction (story-first vs genre-caveat fidelity) | `fabrication_adjudication` firing rate on story-led turns, plus manual read of whether a source's own Usage Guidance caveats survive into the telling | Named for Design — see §8 question 10 |
 
 ---
 
@@ -672,7 +683,47 @@ happens by default:
 8. **The restricted-offer/candidate-understanding move** (P6) — whether it
    enters `_HOW_YOU_ENGAGE`, the per-world files, or both; new to this
    stage, no prior decision constrains it.
-9. **The Objective 2×4 interaction — the brief's Research mandate (d),
+9. **Record-sourced assembly as the default architecture to evaluate —
+   Mark's direction, 2026-08-08, added before stage sign-off.** This
+   rebuild takes advantage of the world record build-out already
+   completed (the `wrs/records/<world>/` layer: 26–41 source records per
+   world plus term/story/gravity/contested_claim/figure/demonstration/
+   voice_profile/world_core records, with recent rigor and bibliography
+   sweeps): the six worlds' information is already reorganized for
+   efficiency, and the voice rebuild should sit on it rather than beside
+   it. Design evaluates **making the records the authored artifact and
+   the deployed prompt a deterministic assembly from them** as the
+   default architecture, not one option among several. The Research
+   evidence assembled above already argues each piece: the assembler
+   exists as a Desert-only staging prototype (`wrs/views/
+   permanent_prompt.py`); `probe_parity`'s 4-of-6 failure is precisely
+   the records-vs-deployed drift this architecture ends structurally;
+   assembly time is where enforcement becomes code instead of
+   under-holding prose (P3) — leak filtering, the readability gate,
+   fail-closed stripping; the `wrs/` lockstep requirement dissolves
+   instead of being a discipline; and world #7 inherits the machine
+   (Objective 5).
+
+   **The governing constraint, stated with the same weight as the
+   architecture itself: structure organizes and enforces — it never
+   generates voice, and efficiency is never taken out of conversation
+   quality or naturalness.** Objective 3 carries exactly the weight of
+   Objective 4 (brief §6), so record-sourced assembly is acceptable only
+   if the assembled voice is at least as natural, engaging, and genuinely
+   that world's own as the best hand-authored alternative — measured, not
+   assumed: the assembled output must pass the same instruments this
+   stage built (§7 — the probe battery, output readability, the
+   naturalness rubric traits, the sustained-disagreement probe when
+   built), with Papnoute's held battery (§5.2) as the working quality
+   bar. The voice prose *inside* the records (voice_profile, worked
+   examples, register craft) remains fresh, per-world writing from
+   sources — the clean-rebuild mandate applies to it unchanged; what
+   assembly contributes is that this craft is written once, in the record
+   layer, and enforced mechanically on the way to the model. If evidence
+   during Design shows assembly flattening voice quality anywhere, that
+   is an Objective-3 failure to fix in the architecture, not a cost to
+   accept for efficiency.
+10. **The Objective 2×4 interaction — the brief's Research mandate (d),
    delivered here as an open design question with its evidence
    assembled:** a lead-with-the-story instruction demonstrably interacts
    with no-fabrication. The pilot's Albina run fired
