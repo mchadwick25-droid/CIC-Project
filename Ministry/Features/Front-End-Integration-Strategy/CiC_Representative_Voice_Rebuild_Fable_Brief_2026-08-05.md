@@ -59,8 +59,11 @@ does.
   Marcella-story caution both answer to Historical Responsibility directly.
 - `Ministry/Features/Front-End-Integration-Strategy/Decision-Log.md`, entry
   dated **2026-08-05 — "Live conversation test run"** — real per-call cost
-  data, the exact defects and quotes found, and the two adjacent defects
-  (§4) this brief carves out of scope. **The full transcripts themselves are
+  data, the exact defects and quotes found, and the two adjacent defects §4
+  discusses — one (`CitationModal.tsx`) genuinely carved out of scope as a
+  different workstream's territory, the other (`over_settling`'s escalation
+  rate) deliberately brought into this brief's own governance-layer
+  scrutiny, not carved out. **The full transcripts themselves are
   not in this entry** (its own line 59 says so directly) — they were
   rendered as a claude.ai Artifact, not a repository file this thread can
   read. Treat the entry's own quotes and findings as the evidentiary record,
@@ -203,20 +206,22 @@ principle.
 
 ### 4.2 Context for the open redesign — not constraints, what Design needs before rebuilding it
 
-Two different kinds of bullets follow, and the "none of it is a limit"
-license below applies to only one of them. Most of what's here describes a
-mechanism currently achieving one of §4.1's four fixed goals — those are
-genuinely open: **rewrite, replace, simplify, or drop any of them,
-provided whatever replaces it is verified to still achieve the goal it
-existed for, not just assumed to because it reads better or costs less.**
-A few bullets are different in kind — retrieval ordering, the `wrs/`
-record-layer lockstep requirement, and the two handed-off defects aren't
-mechanisms achieving a §4.1 goal at all, they're process and scope notes
-with their own reasoning stated inline, and the interview-vs-table pacing
-bullet specifically instructs *preserving* "A Turn Has a Measure"
-deliberately. Read each bullet for what it actually says rather than
-assuming this section's general openness overrides a bullet's own explicit
-instruction.
+Two different kinds of bullets follow — not a second list of limits, a
+scope note about which bullets this section's openness actually reaches.
+Most of what's here describes a mechanism currently achieving one of
+§4.1's four fixed goals — those are genuinely open: **rewrite, replace,
+simplify, or drop any of them, provided whatever replaces it is verified
+to still achieve the goal it existed for, not just assumed to because it
+reads better or costs less.** A few bullets aren't mechanisms achieving a
+§4.1 goal at all, so this openness doesn't apply to them one way or the
+other — they're process and scope notes with their own reasoning stated
+inline: retrieval ordering, the `wrs/` record-layer lockstep requirement,
+and the `CitationModal.tsx` defect handoff. The `over_settling`
+defect-log note is not one of these — it's the same mechanism the
+governance-layer license already covers, restated where the live-test
+finding happened to surface it, not a separate item. The interview-vs-table
+pacing bullet is a fifth kind of case, flagged separately below because it
+isn't resolved by this rule either way.
 
 - **Fabrication guards, current state.** The near-verbatim shared "museum
   guide" fabrication-guard block, literally present (verified by direct
@@ -321,10 +326,16 @@ instruction.
   for scope:** there is no separate interview-vs-table mechanism sitting
   outside `_HOW_YOU_ENGAGE` for the register rewrite to accidentally
   collide with — the one real length instruction *is* inside the block
-  being rewritten, so §7 Part A's edit has to preserve "A Turn Has a
-  Measure" deliberately, and every new instruction §7 Part A adds pushes
-  length upward against exactly this ceiling — worth Design treating as a
-  real tension, not background noise.
+  being rewritten. **This one isn't resolved by §4's fixed-goal-vs-open-form
+  rule either way — a turn-length ceiling doesn't achieve any of §4.1's
+  four goals, so it's neither protected by them nor licensed open by the
+  same reasoning that opens the governance layer.** §7 Part A's edit will
+  delete the system's only turn-length ceiling unless it deliberately
+  decides otherwise; that is a decision to make and record, not an
+  accident to allow. Every new instruction §7 Part A adds pushes length
+  upward against exactly this ceiling — worth Design treating as a real
+  tension to resolve explicitly, not background noise to inherit by
+  default.
 - **Two adjacent, already-diagnosed defects, deliberately not bundled here** —
   log them for Mark's own separate triage rather than fixing them as part of
   this thread:
@@ -822,7 +833,7 @@ an optional new instrument. Per-signal drift telemetry and the
 sustained-disagreement probe are genuinely new verification proposals from
 this brief's own review process.
 
-**This license covers everything in this section, without named exceptions
+**This license covers everything in this brief, without named exceptions
 for specific mechanisms — per Mark's own direct correction (2026-08-07):
 the end goals are fixed, form is not, and this brief was putting too much
 trust in form. See §4's single governing rule.** What actually stays fixed
