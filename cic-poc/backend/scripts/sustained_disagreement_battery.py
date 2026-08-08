@@ -40,11 +40,74 @@ Usage (from cic-poc/backend):
 from __future__ import annotations
 
 import json
+import os
+import re
 import sys
 from pathlib import Path
 
 BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND))
+
+assert os.environ.get("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY must be set"
+os.environ.pop("MOCK_LLM", None)
+
+import hashlib  # noqa: E402
+
+from langchain_core.embeddings import Embeddings  # noqa: E402
+
+_EMBED_DIM = 384
+
+
+class _NetworkFreeHashEmbeddings(Embeddings):
+    """Same network-free stand-in as voice_rebuild_research_probe.py's own
+    (reused from mark_conversation_test.py) - this environment blocks
+    huggingface.co, and app.main's real retrieval indexers load a
+    huggingface-hosted embedding model at import time. Without this patch
+    the first representative turn's retrieval step fails with a bare
+    '403 Forbidden' from the outbound proxy, surfaced generically as an SSE
+    error event - discovered live when this script's first real run hit
+    exactly that after the session-auth fix, on the very first escalation
+    turn."""
+
+    def _vec(self, text: str) -> list[float]:
+        v = [0.0] * _EMBED_DIM
+        for tok in re.findall(r"[a-z0-9]+", text.lower()):
+            idx = int(hashlib.sha1(tok.encode()).hexdigest(), 16) % _EMBED_DIM
+            v[idx] += 1.0
+        norm = sum(x * x for x in v) ** 0.5 or 1.0
+        return [x / norm for x in v]
+
+    def embed_documents(self, texts):
+        return [self._vec(t) for t in texts]
+
+    def embed_query(self, text):
+        return self._vec(text)
+
+
+import app.rag.embeddings as embeddings_mod  # noqa: E402
+import app.rag.indexer as indexer_mod  # noqa: E402
+import app.rag.story_indexer as story_indexer_mod  # noqa: E402
+_shared = _NetworkFreeHashEmbeddings()
+embeddings_mod._embeddings = _shared
+embeddings_mod.get_shared_embeddings = lambda: _shared
+indexer_mod.get_shared_embeddings = lambda: _shared
+story_indexer_mod.get_shared_embeddings = lambda: _shared
+
+
+class _NetworkFreeCrossEncoder:
+    def predict(self, pairs):
+        scores = []
+        for query, doc_text in pairs:
+            q_toks = set(re.findall(r"[a-z0-9]+", query.lower()))
+            d_toks = set(re.findall(r"[a-z0-9]+", doc_text.lower()))
+            overlap = len(q_toks & d_toks) / max(len(q_toks), 1)
+            scores.append(-10.0 + 13.0 * overlap)
+        return scores
+
+
+import app.rag.cross_encoder as cross_encoder_mod  # noqa: E402
+cross_encoder_mod._model = _NetworkFreeCrossEncoder()
+cross_encoder_mod._get_model = lambda: cross_encoder_mod._model
 
 OUTDIR = (BACKEND.parents[1] / "Ministry" / "Technology" / "Pass2"
           / "batteries")
@@ -144,12 +207,16 @@ CASES = [
 ]
 
 
-def _stream_turn(client, sid: str, message: str):
-    """Same SSE parse as s46_pushback_battery.py's inline version -
-    factored out here since this script sends seven turns per world, not
-    two."""
+def _stream_turn(client, sid: str, message: str, token: str):
+    """Same SSE parse + X-Session-Token header as _battery.py's own
+    _stream_turn (the CURRENT working form - every session, from every
+    world, requires it since app/session_auth.py shipped; see
+    freeze_battery.py's own docstring on the four stale scripts that
+    predate it and would 403 run literally as they were). Factored out
+    here since this script sends seven turns per world, not two."""
     resp = client.post(f"/api/session/{sid}/message/stream",
-                       json={"message": message})
+                       json={"message": message},
+                       headers={"X-Session-Token": token})
     resp.raise_for_status()
     speakers, texts = [], {}
     for block in resp.text.split("\n\n"):
@@ -185,13 +252,14 @@ def main() -> None:
         r = client.post("/api/session/start", json={"world_id": world})
         r.raise_for_status()
         sid = r.json()["session_id"]
+        token = r.json()["session_token"]
 
-        setup_speakers, setup_texts = _stream_turn(client, sid, case["setup"])
+        setup_speakers, setup_texts = _stream_turn(client, sid, case["setup"], token)
 
         turns = []
         for stage_label, message in zip(ESCALATION_LABELS, case["escalation"]):
             pre_events = len(EVENT_STORE.events(sid))
-            speakers, texts = _stream_turn(client, sid, message)
+            speakers, texts = _stream_turn(client, sid, message, token)
             events = [e.to_json() for e in EVENT_STORE.events(sid)][pre_events:]
             repair = next((e["payload"] for e in events
                            if e["type"] == "challenge_adjudicated"), None)
