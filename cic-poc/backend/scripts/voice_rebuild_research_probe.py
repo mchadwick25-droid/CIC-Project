@@ -1,7 +1,9 @@
-"""Voice-rebuild Research-stage probe (2026-08-08).
+"""Voice-rebuild probe harness (2026-08-08, extended to the full fleet in
+Phase 0.4).
 
-Runs the §9 Research stage's two ordered checks from the Voice Rebuild brief
-(CiC_Representative_Voice_Rebuild_Fable_Brief_2026-08-05.md, finding C):
+Originated as the §9 Research stage's two ordered checks from the Voice
+Rebuild brief (CiC_Representative_Voice_Rebuild_Fable_Brief_2026-08-05.md,
+finding C):
 
   (a) Mar Yausep FIRST - his permanent prompt already carries a bridge-first
       instruction (syr_...Yausep.txt:45) and a plain-sentence instruction
@@ -11,7 +13,13 @@ Runs the §9 Research stage's two ordered checks from the Voice Rebuild brief
       answers the NARROWER question: do worked examples hold where prose
       alone doesn't?
 
-Probe battery (identical shape for both worlds): eight turns designed to
+Voice Rebuild Phase 0.4 (Blueprint 0.4, Design §5's per-world checkpoint):
+extended to the remaining four worlds (Chloe/PAHC, Theon/Alexandria,
+Marius/IJC, Albina/Hieronymian) so the harness covers the full fleet, not
+just the two Research-stage probe worlds - the instrument every per-world
+checkpoint after this runs against, not a one-off Research artifact.
+
+Probe battery (identical shape for all six worlds): eight turns designed to
 retrieve term-heavy lexicon/story chunks WITHOUT the participant ever
 speaking the world's own technical terms - the exact condition under which
 FLAG-018's false "when I said X" / unprompted-sense-clarification openers
@@ -20,8 +28,10 @@ invites Distortion Risk material directly (does apparatus language leak).
 
 Measures, per turn: opener classification (automated regex + transcript kept
 for manual read), first-sentence technical-term-before-story check
-(Yausep's bridge-first instruction), mean words/sentence,
-readability_check, and every invisible LLM call's usage record.
+(Yausep's bridge-first instruction, generalized to TECH_TERMS per world),
+mean words/sentence, readability_check, every invisible LLM call's usage
+record, and (Phase 0.4) the over_settling confirmed-rate and length_ceiling
+outcome breakdown for the scenario's turns.
 
 Reuses mark_conversation_test.py's network-free embedding/cross-encoder
 stand-ins verbatim (this environment blocks huggingface.co; BM25 and all
@@ -168,6 +178,14 @@ client = TestClient(main_mod.app)
 
 # Technical-term inventories for the first-word-vs-story check. Yausep's
 # bridge-first instruction (:45) names raza, qyama, Ihidaya specifically.
+#
+# Voice Rebuild Phase 0.4 (Blueprint 0.4 "extend the probe harness's
+# scenarios to all six worlds"): the four added entries below draw each
+# world's own untranslated loanwords from its term records
+# (wrs/records/<world>/term/*.md), the same kind of list Yausep's and
+# Papnoute's already used - not the English glosses those records also
+# carry, since an English concept word ("bishop", "fasting") is not the
+# unprompted-technical-term signal this check is built to catch.
 TECH_TERMS = {
     "syriac-edessa-nisibis": [
         "raza", "raze", "qyama", "ihidaya", "iḥidaya", "bnay", "bnat",
@@ -177,6 +195,25 @@ TECH_TERMS = {
         "logismoi", "logismos", "apatheia", "hesychia", "xeniteia",
         "penthos", "nepsis", "diakrisis", "synaxis", "kellion", "praktike",
         "theoria", "antirrhesis",
+    ],
+    "post-apostolic-house-church": [
+        "episkopos", "presbyteros", "presbyteroi", "ekklesia",
+        "eucharistia", "diakonos", "diakonoi", "presbyterion",
+        "prophetes", "baptisma", "hetaeria", "pertinacia",
+    ],
+    "alexandria-catechetical": [
+        "logos", "gnosis", "theosis", "nous", "autexousia", "hamartia",
+        "photismos", "mysterion", "oikonomia", "arete", "metanoia",
+        "apokatastasis", "didaskaleion", "homoousios", "logikos",
+    ],
+    "imperial-juridical-christianity": [
+        "primatus", "presbeia", "homoios", "communio", "homoousios",
+        "concilium", "synodos", "haeresis", "tomus", "martyrium",
+    ],
+    "hieronymian-ascetic-literary": [
+        "hebraica veritas", "renuntiatio", "virginitas", "patrocinium",
+        "epistula", "matrona", "grammaticus", "praefatio", "nosocomium",
+        "monachus",
     ],
 }
 
@@ -218,6 +255,68 @@ SCENARIOS = [
             "What would people today get most wrong about why you went to the desert?",
             "Tell it to me plain, the way you'd tell a boy who walked out to your cell and asked.",
             "What should I take with me from this?",
+        ],
+    },
+    # Voice Rebuild Phase 0.4 (Blueprint 0.4): the four worlds added to
+    # extend this harness to the full fleet, same eight-turn shape as the
+    # two Research-stage scenarios above - retrieve term-heavy lexicon/
+    # story chunks without the participant ever speaking the world's own
+    # technical terms (TECH_TERMS above), closing with the same register
+    # probe (turn 7) and takeaway close (turn 8).
+    {
+        "world_id": "post-apostolic-house-church",
+        "label": "Chloe probe (PAHC, fleet extension)",
+        "turns": [
+            "What held your community together when you didn't have one leader everyone agreed on?",
+            "How would you know if a stranger who showed up at your door claiming to speak for God was telling the truth?",
+            "Why would you trust a letter from a church in another city you'd never even seen?",
+            "What did eating together actually mean to your community - was it just a meal, or something more?",
+            "Is there someone from your community whose life shows what it looked like when all of this really worked?",
+            "What's something people today would get completely wrong about your community if they only knew the surface of it?",
+            "Say that to me plain, the way you'd explain it to someone who just wandered in off the street.",
+            "What would you want me to carry away from this conversation?",
+        ],
+    },
+    {
+        "world_id": "alexandria-catechetical",
+        "label": "Theon probe (Alexandria, fleet extension)",
+        "turns": [
+            "What does it actually mean to be taught by God, in your world? What does that experience feel like?",
+            "How is reading scripture different from reading any other old book, for your community?",
+            "Why would something like fasting have anything to do with what happens in a person's mind?",
+            "Does everyone reach the same depth of understanding, or do some people get further than others? What does that path look like?",
+            "Is there someone from your community whose life shows what all of this looked like when it worked?",
+            "What would people today get most wrong about your community if they only saw the surface of it?",
+            "Say that to me plain, the way you'd explain it to someone who just walked in off the street.",
+            "What would you want me to take away from this conversation?",
+        ],
+    },
+    {
+        "world_id": "imperial-juridical-christianity",
+        "label": "Marius probe (IJC, fleet extension)",
+        "turns": [
+            "When several great cities all claimed a voice, how did your church decide who actually had the authority to speak for everyone?",
+            "What really happened when two churches stopped recognizing each other? What did that actually break?",
+            "Why would an emperor's soldiers matter to a religious argument at all?",
+            "Was there ever a time your own church held a position that later got treated as a mistake?",
+            "Is there a moment or a person whose story shows what was really at stake in these disputes?",
+            "What would people today get most wrong about your world if they only heard the outside of it?",
+            "Say that to me plain, the way you'd tell it to a traveler who stopped you on the road.",
+            "What should I take away from this conversation?",
+        ],
+    },
+    {
+        "world_id": "hieronymian-ascetic-literary",
+        "label": "Albina probe (Hieronymian, fleet extension)",
+        "turns": [
+            "What did it mean for a woman of your standing to give up everything she had?",
+            "How did your household actually spend its days - what did the work look like?",
+            "Why would studying old texts closely matter as much as prayer, in your world?",
+            "What happened when your household disagreed sharply with people you'd once been close to?",
+            "Is there someone in your household whose life shows what all of this looked like when it was lived out fully?",
+            "What would people today get most wrong about women like you if they only knew the surface of it?",
+            "Say that to me plain, the way you'd tell it to a girl who just arrived at your door.",
+            "What would you want me to carry away from this conversation?",
         ],
     },
 ]
