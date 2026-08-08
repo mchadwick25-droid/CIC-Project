@@ -104,6 +104,61 @@ class UsageCapture(logging.Handler):
 
 logging.getLogger("cic.llm_usage").addHandler(UsageCapture())
 
+# Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): surface
+# over_settling_logging's confirmed-rate and length_ceiling_logging's
+# regeneration events into this harness, the same way usage_records already
+# surfaces [llm_usage] lines - both loggers were previously observation-only
+# with no committed artifact ever reading them back.
+over_settling_records = []
+length_ceiling_records = []
+
+
+class _TaggedLogCapture(logging.Handler):
+    """Generic [tag] key=value line capture, same parsing convention as
+    UsageCapture above - shared here rather than duplicated per tag."""
+
+    def __init__(self, tag: str, sink: list):
+        super().__init__()
+        self._prefix = f"[{tag}] "
+        self._sink = sink
+
+    def emit(self, record):
+        msg = record.getMessage()
+        if not msg.startswith(self._prefix):
+            return
+        fields = {}
+        for part in msg[len(self._prefix):].split():
+            if "=" in part:
+                k, v = part.split("=", 1)
+                fields[k] = v
+        self._sink.append(fields)
+
+
+logging.getLogger("cic.over_settling_decision").addHandler(
+    _TaggedLogCapture("over_settling_decision", over_settling_records))
+logging.getLogger("cic.length_ceiling").addHandler(
+    _TaggedLogCapture("length_ceiling", length_ceiling_records))
+
+
+def summarize_over_settling(records: list[dict]) -> dict:
+    screened = [r for r in records if r.get("screened") == "True"]
+    confirmed = [r for r in screened if r.get("confirmed") == "True"]
+    return {
+        "total_signal_calls": len(records),
+        "screened": len(screened),
+        "confirmed": len(confirmed),
+        "confirmed_rate_of_screened": (
+            round(len(confirmed) / len(screened), 3) if screened else None),
+    }
+
+
+def summarize_length_ceiling(records: list[dict]) -> dict:
+    by_outcome = {}
+    for r in records:
+        outcome = r.get("outcome", "unknown")
+        by_outcome[outcome] = by_outcome.get(outcome, 0) + 1
+    return {"total_ceilinged_turns": len(records), "by_outcome": by_outcome}
+
 from fastapi.testclient import TestClient  # noqa: E402
 import app.main as main_mod  # noqa: E402
 
@@ -208,6 +263,8 @@ results = []
 for scenario in SCENARIOS:
     print(f"\n=== {scenario['label']} ({scenario['world_id']}) ===", flush=True)
     usage_records.clear()
+    over_settling_records.clear()
+    length_ceiling_records.clear()
 
     r = client.post("/api/session/start", json={"world_id": scenario["world_id"]})
     if r.status_code != 200:
@@ -254,12 +311,25 @@ for scenario in SCENARIOS:
                       f"tech-first-sentence={a['technical_term_in_first_sentence']}",
                       flush=True)
 
+    over_settling_summary = summarize_over_settling(over_settling_records)
+    length_ceiling_summary = summarize_length_ceiling(length_ceiling_records)
+    print(f"  [over_settling] screened={over_settling_summary['screened']} "
+          f"confirmed={over_settling_summary['confirmed']} "
+          f"rate={over_settling_summary['confirmed_rate_of_screened']}",
+          flush=True)
+    print(f"  [length_ceiling] {length_ceiling_summary['by_outcome']}",
+          flush=True)
+
     results.append({
         "world_id": scenario["world_id"],
         "label": scenario["label"],
         "transcript": transcript,
         "turn_analyses": turn_analyses,
         "usage": list(usage_records),
+        "over_settling": over_settling_summary,
+        "over_settling_records": list(over_settling_records),
+        "length_ceiling": length_ceiling_summary,
+        "length_ceiling_records": list(length_ceiling_records),
         "turn_errors": turn_errors,
     })
 
