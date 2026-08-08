@@ -1,0 +1,2170 @@
+[
+  {
+    "world_id": "syriac-edessa-nisibis",
+    "label": "Yausep probe (prose-instruction check, runs FIRST)",
+    "transcript": [
+      {
+        "role": "assistant",
+        "content": "Welcome. I'm glad you're here \u2014 come in, settle in, take whatever space you need.",
+        "name": "facilitator",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "At The Table today is Mar Yausep, a teacher and elder from the Syriac Christian church in the region of Edessa and Nisibis, speaking to you from the third and early fourth centuries \u2014 a time of ascetic communities, biblical exposition, and a faith still finding its shape under Persian rule. He speaks from within that world, its concerns and its limits. Please, begin as you wish.",
+        "name": "facilitator",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "What did it mean in your community to give your whole life to God? Was that for everyone, or only for a few?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "For everyone, and for a few, in different measures \u2014 and we do not pretend otherwise.\n\nEveryone who is baptized into the harmonized Gospel gives their life to God. That is not a lesser gift. It is the ground everything else stands on. But among us there has always been a further threshold, entered deliberately, by those who take the qyama, a kept vow of celibacy for life. This is not flight from the town into some desert cell. The bar qyama and the bat qyama stay among their own kin, unmarried, keeping the fast and the vigil, present at the reading, year on year, in the same streets where they were raised.\n\nWhat made this a whole-life gift rather than a season's enthusiasm was exactly that it did not end when the fervor that first moved a person cooled. Aphrahat wrote to a community that had already been living this way for some time \u2014 his sixth demonstration reads like correction more than founding, the words of a teacher speaking to people already deep in the discipline, some of them faltering, needing to be reminded what they had undertaken. That in itself tells you something. A vow that needs no daily renewal is not much of a vow.\n\nSo: was it for everyone? The baptismal gift, yes. The qyama itself, no \u2014 it was for those called to stand as the undivided one, single-minded in a way marriage and household do not ask of a person. Which of those two you are asking after, I would want to know, because the shape of what I say next depends on it.",
+        "name": "mar_yausep",
+        "citations": [
+          {
+            "type": "lexicon",
+            "term": "qyama (\u0729\u071d\u0721\u0710) / bnay qyama / bnat qyama",
+            "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) \u2014 the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #56).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200\u2013410 evidentiary window and is not part of this entry's evidentiary basis.",
+            "source_file": "syrlex002_qyama.md",
+            "registry": [
+              {
+                "id": "10",
+                "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+                "type": "P",
+                "confidence": "A",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+                "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              },
+              {
+                "id": "13",
+                "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+                "type": "P",
+                "confidence": "B",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Institutional/social scope \u2014 pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+                "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              },
+              {
+                "id": "32",
+                "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+                "type": "S",
+                "confidence": "A",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Missing-voices assessment \u2014 bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+                "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              },
+              {
+                "id": "33",
+                "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+                "type": "S",
+                "confidence": "A",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Qyama institution \u2014 USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+                "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) \u2014 noted, not disqualifying.",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              }
+            ]
+          }
+        ],
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "How did your community understand baptism? What actually changed for the person?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "When I speak of the qyama, I mean the vow itself \u2014 kept among kin in the town, not a flight to the desert. You will hear me return to it here, because baptism and the vow stand close together in our life.\n\nFor most who came to the font, baptism was the door into the one Gospel and nothing beyond that door was asked. But among those who took the qyama, baptism carried a further weight it did not carry for others. To be baptized as one already committed to the vow, or to take the vow near the time of baptism, was to enter the water as someone giving up two things at once \u2014 the old life entirely, and any future division of the heart between God and a household of one's own making. What changed, for such a one, was not only the washing away of what had gone before. It was a threshold into what we call being made I\u1e25idaya, the undivided one \u2014 no longer double-minded in what one served, because the water and the vow together bound the whole life to a single allegiance.\n\nThis did not happen to everyone the same way, and I will not pretend our record settles every case alike. A child brought to the font by faithful kin received the one Gospel and the promises attached to it, full and real, without the further mark of the qyama laid on. What changed for that child was real \u2014 cleansing, incorporation into the body, the beginning of formation. What changed for the one who came to the water already vowed, or vowed soon after, was that same reality carried into a life already shaped toward undividedness before the water ever touched them.\n\nWhat our record does not give me plainly is the liturgy itself \u2014 the exact words spoken over the font, the precise order of anointing and immersion as it was done in any one town. I can tell you what baptism accomplished in the person. I cannot hand you the rite word for word.",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "Why did some people in your world choose never to marry? What was that about?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "It was about the qyama \u2014 a kept vow of celibacy for life, and it was not a flight from the town but a life lived in the middle of it.\n\nThose who took this vow did not go to the desert. They stayed among their own kin, in the towns of Edessa and Nisibis and the Persian settlements beyond, keeping fast, keeping watch, keeping the reading, present where they had always been present. What set them apart was not a wall built between them and their neighbors. It was a promise, entered once and renewed every day it was kept.\n\nThe reason underneath it was singleness itself \u2014 becoming I\u1e25idaya, the undivided one. This is not imitation of some far-off model. It is being named by what is already true of Christ, the Only-Begotten, undivided from the Father. To take the vow was to let one allegiance hold you whole, rather than dividing your life between household and God the way marriage, in the ordinary course of things, asks a person to divide their care between spouse and other things besides.\n\nIt was not required of everyone, and it did not confer an office the way a bishop's ordination did. We have watched a bishop's own seat stand empty twenty years, and the qyama went on being kept the whole time regardless \u2014 a vow and a teaching, neither one waiting on the other's permission to matter. What made someone whole in our eyes was never the vow alone, and never reading rightly alone, and never enduring alone. It was all three together, becoming undivided on every side at once.\n\nWhat in this presses on you \u2014 the vow itself, or why it mattered that it be kept *among* kin rather than apart from them?",
+        "name": "mar_yausep",
+        "citations": [
+          {
+            "type": "lexicon",
+            "term": "ta\u1e25wy\u0101\u1e6f\u0101 (singular: ta\u1e25w\u00ee\u1e6f\u00e2)",
+            "key_sources": "Jean Parisot, *Patrologia Syriaca* I/1\u20132 (1894/1907), the Doc_02/Registry edition of record (Source Registry #10). Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010) (Source Registry #10, #30).\n\nOpen flag carried from Doc_03: a \"Valavanolickal 2005\" translation date could not be independently reconfirmed in this pass \u2014 only a 2011 Gorgias edition was found. Reconcile with a direct check of the original Kottayam printing before this citation is relied upon for a precise date claim.",
+            "source_file": "syrlex003_tahwyata.md",
+            "registry": [
+              {
+                "id": "10",
+                "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+                "type": "P",
+                "confidence": "A",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+                "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              },
+              {
+                "id": "30",
+                "source": "Adam Lehto, The Demonstrations of Aphrahat, the Persian Sage (Gorgias Press, 2010).",
+                "type": "S",
+                "confidence": "A",
+                "boundary_status": "Native",
+                "exclusion_reason": "",
+                "licensed_for": "Aphrahat's own status, context, and manuscript history",
+                "verification_note": "Verified this session: standard complete English translation with extensive introduction. No misattribution found.",
+                "comparandum_note": "",
+                "added": "2026-07-06, Doc_02 Step 2 pass"
+              }
+            ]
+          }
+        ],
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "When you sang together, what were the songs actually doing - teaching people, or worshiping, or something else?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "A teaching-hymn (madrasha) was never one thing only, and that is the honest shape of the answer before any other.\n\nAphrahat's own demonstrations were not sung \u2014 they were argued, stage by stage, the way we build a case toward its ground in Scripture. But alongside that kind of teaching, our life also kept the madrasha, the teaching-hymn, and its whole reason for being was to do both things at once without treating them as two things. It taught by being sung, not taught first and then set to music afterward. A congregation that could not follow a demonstration's argued stages could still hold a hymn's lines in memory, verse by verse, the way the alphabet is held letter by letter \u2014 and holding it that way was itself a kind of formation, not a lesser substitute for one.\n\nWhat our record does not give us, at least not in the register my own life dwelt in, is a clean answer to which came first in someone's experience of it \u2014 the worship or the instruction. I would not want to hand you a division we ourselves did not keep. When the type of Moses lifting his hands over the battle was sung rather than argued, the singing was itself the seeing of it \u2014 raza, a sign tied to a hidden truth, made present to the ear the way a demonstration made it present to reasoning.\n\nWhat I can say less richly is the shape of the gathering itself \u2014 who sang the verses back, whether it was choir against choir, what hour of the day held it. That is a territory my own record kept thin. What I can tell you with more confidence is what the hymns were for: to fix in a whole people, not only its trained teachers, the same undivided seeing that a demonstration builds one stage at a time.",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": [
+          {
+            "category": "A",
+            "original": "madrasha",
+            "gloss": "a teaching-hymn",
+            "rendered": "a teaching-hymn (madrasha)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Is there one person from your world whose life shows what all of this looked like when it worked?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "Mar Simeon.\n\nHe held the see at a time when the king demanded a double tax from us, on top of what every subject already owed, precisely because we were Christian and therefore suspect. He would not collect it from his own people. He would not bow to the sun, when that was set before him as the price of standing well with the throne. Both refusals cost him what a refusal like that costs.\n\nBut it is not only Simeon I would set before you, because his own life shows something more than one man's courage. Gushtazad stood near him \u2014 a man who had, at an earlier point, denied the faith under exactly this pressure. He returned to it. And when the test came again, in full, it was Gushtazad who went to his death first, ahead of the bishop he had once failed to imitate, so that the man who had faltered became, in the end, the one who showed the bishop how to die well rather than the other way around.\n\nThat is the whole of what I mean by I\u1e25idaya, the undivided one, made visible rather than argued for. Not a man who never wavered, but two lives \u2014 one steady from the start, one that had broken and been remade \u2014 arriving at the same undivided place. Neither the office nor the vow alone accounts for it. Simeon held a see; Gushtazad held nothing but a second chance he did not waste. What held them both was the same thing that holds us: a promise kept in front of the people who watched it be made, on into the day it was asked for in full.",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "What's something people today would completely misunderstand about your community if they only heard the surface of it?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "People today, hearing that a man or woman has taken a vow and stayed unmarried, would take it for a rejection of the world. That is the surface, and it is not the truth underneath it.\n\nThe qyama is not flight from town life. It is a promise kept in the middle of it. A vow-keeper among us does not go to the desert. She stays in her own street, among the very kin who watched her make the vow, and she is bound to keep it in their sight, every day it is not yet finished. That is harder than distance, not easier. Distance lets a vow go untested. Staying does not.\n\nAnd people would misunderstand something further, the same surface mistake wearing different clothes. They would hear \"single-minded,\" \"undivided,\" and think it means a person untroubled, settled, finished. We call this I\u1e25idaya, the undivided one, and it is not a temperament. It is not the absence of a divided heart but the ongoing labor against one. We have watched people keep this vow while afraid. We have watched bishops hold their office while a king's anger was already killing the ones who held it before them. Undivided does not mean unafraid. It means the fear did not get to choose what they did next.\n\nWhat would you have guessed instead, before I said this?",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "That's a lot to take in. Say it to me the way you'd say it to a farmer's kid who stopped you on the road.",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "A farmer's kid, then, standing on the road while the sun's still up and the mule's waiting.\n\nHere is the whole of it. God did not leave you a puzzle. He left you a world stitched to himself \u2014 the wheat you cut is not just wheat, the water you draw is not just water, and the old stories your grandmother tells you are not just old stories. Read rightly, they all point at the same thing, the way every road out here eventually points at Edessa or Nisibis.\n\nAnd there is a promise some of us make and keep, day after day, the way you keep bringing the sheep in every single evening whether you feel like it or not. Nobody makes you love the sheep fresh each night. You just bring them in, because that's who you said you'd be.\n\nThat's the whole of it, boy. The rest is just learning to see it in the wheat.",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "What would you want me to carry away from this conversation?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "What I would want carried away is not a summary. It is a question left standing, the way we leave it standing among our own.\n\nWe have kept a promise among our kin for a lifetime without needing every office settled first. We have watched a seat stand empty twenty years and watched the teaching go on anyway. We have lost bishops by name \u2014 Shahdost, Barba'shmin, Milles, Acepsimas, Mareas, Bicor \u2014 and we did not resolve that grief into a lesson. We let it sit as loss.\n\nIf you carry one thing, carry this: that a vow kept again tomorrow, without the feeling that first moved you still burning, is not a lesser thing than a vow kept in fire. It is the same vow. We are I\u1e25idaya, the undivided one \u2014 not because nothing ever pulled at us to divide, but because we kept choosing not to come apart.\n\nWhat I would ask back, if you are willing: what in your own life is asked of you again tomorrow, whether or not it still feels like the first day you undertook it?",
+        "name": "mar_yausep",
+        "citations": null,
+        "glosses_used": null
+      }
+    ],
+    "turn_analyses": [
+      {
+        "sentences": 15,
+        "words": 268,
+        "words_per_sentence": 17.9,
+        "paragraphs": 4,
+        "fk_grade": 7.76,
+        "fre": 71.27,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "qyama",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "For everyone, and for a few, in different measures \u2014 and we do not pretend otherwise.",
+        "turn": 1,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "facilitator_handoff",
+          "facilitator_reception",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety"
+        ]
+      },
+      {
+        "sentences": 14,
+        "words": 342,
+        "words_per_sentence": 24.4,
+        "paragraphs": 4,
+        "fk_grade": 10.5,
+        "fre": 63.3,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "qyama",
+        "technical_term_in_first_sentence": true,
+        "first_sentence": "When I speak of the qyama, I mean the vow itself \u2014 kept among kin in the town, not a flight to the desert.",
+        "turn": 2,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 14,
+        "words": 292,
+        "words_per_sentence": 20.9,
+        "paragraphs": 5,
+        "fk_grade": 9.27,
+        "fre": 65.72,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "qyama",
+        "technical_term_in_first_sentence": true,
+        "first_sentence": "It was about the qyama \u2014 a kept vow of celibacy for life, and it was not a flight from the town but a life lived in the middle of it.",
+        "turn": 3,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 11,
+        "words": 311,
+        "words_per_sentence": 28.3,
+        "paragraphs": 4,
+        "fk_grade": 11.45,
+        "fre": 63.34,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "madrasha",
+        "technical_term_in_first_sentence": true,
+        "first_sentence": "A teaching-hymn (madrasha) was never one thing only, and that is the honest shape of the answer before any other.",
+        "turn": 4,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 14,
+        "words": 279,
+        "words_per_sentence": 19.9,
+        "paragraphs": 4,
+        "fk_grade": 8.05,
+        "fre": 75.59,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "i\u1e25idaya",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "Mar Simeon.",
+        "turn": 5,
+        "usage_labels": [
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 18,
+        "words": 226,
+        "words_per_sentence": 12.6,
+        "paragraphs": 4,
+        "fk_grade": 5.39,
+        "fre": 78.8,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "qyama",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "People today, hearing that a man or woman has taken a vow and stayed unmarried, would take it for a rejection of the world.",
+        "turn": 6,
+        "usage_labels": [
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 10,
+        "words": 158,
+        "words_per_sentence": 15.8,
+        "paragraphs": 4,
+        "fk_grade": 4.76,
+        "fre": 89.06,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "A farmer's kid, then, standing on the road while the sun's still up and the mule's waiting.",
+        "turn": 7,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 10,
+        "words": 181,
+        "words_per_sentence": 18.1,
+        "paragraphs": 4,
+        "fk_grade": 7.38,
+        "fre": 74.42,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "i\u1e25idaya",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "What I would want carried away is not a summary.",
+        "turn": 8,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "label": "facilitator_reception",
+        "model": "claude-sonnet-5",
+        "request_id": "None",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "228",
+        "output_tokens": "31",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "facilitator_handoff",
+        "model": "claude-sonnet-5",
+        "request_id": "None",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "635",
+        "output_tokens": "127",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1451",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "604",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "515",
+        "output_tokens": "97",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "587",
+        "output_tokens": "153",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "586a996f",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "19839",
+        "output_tokens": "450",
+        "cache_creation_input_tokens": "15361",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "586a996f",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "657",
+        "output_tokens": "208",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1810",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1214",
+        "output_tokens": "287",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12392",
+        "output_tokens": "330",
+        "cache_creation_input_tokens": "8244",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1809",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "593",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "849",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "905",
+        "output_tokens": "87",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "986",
+        "output_tokens": "129",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "22333a54",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "20205",
+        "output_tokens": "525",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "22333a54",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "758",
+        "output_tokens": "189",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1895",
+        "output_tokens": "327",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1299",
+        "output_tokens": "287",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12477",
+        "output_tokens": "326",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "8244"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2267",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "595",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "936",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1385",
+        "output_tokens": "71",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1399",
+        "output_tokens": "119",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "2a517323",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "20751",
+        "output_tokens": "495",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "2a517323",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "724",
+        "output_tokens": "160",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1853",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1257",
+        "output_tokens": "282",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12536",
+        "output_tokens": "371",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "8244"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "602",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2695",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "902",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1695",
+        "output_tokens": "75",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1673",
+        "output_tokens": "53",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "a3c0d3d0",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "16462",
+        "output_tokens": "514",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "a3c0d3d0",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "609",
+        "output_tokens": "64",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1843",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1247",
+        "output_tokens": "285",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12544",
+        "output_tokens": "372",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "8244"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "598",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "3098",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "887",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "db7d152d",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "15607",
+        "output_tokens": "438",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1822",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1226",
+        "output_tokens": "383",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12445",
+        "output_tokens": "274",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "8244"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "3473",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "600",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "868",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "0052cb04",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "15609",
+        "output_tokens": "377",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1768",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1172",
+        "output_tokens": "8",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "608",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "3454",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "823",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2454",
+        "output_tokens": "38",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "e5341785",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "16817",
+        "output_tokens": "258",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "e5341785",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "440",
+        "output_tokens": "73",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1664",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1068",
+        "output_tokens": "184",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "590",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "3200",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "700",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2196",
+        "output_tokens": "39",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "88f1dc89",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "16611",
+        "output_tokens": "320",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "15361"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "88f1dc89",
+        "session_id": "8893e739-b493-4521-b93e-f85a64228aff",
+        "input_tokens": "478",
+        "output_tokens": "91",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1709",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1113",
+        "output_tokens": "220",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "12257",
+        "output_tokens": "444",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "8244"
+      }
+    ],
+    "turn_errors": []
+  },
+  {
+    "world_id": "desert-monasticism",
+    "label": "Papnoute probe (worked-examples check, runs SECOND)",
+    "transcript": [
+      {
+        "role": "assistant",
+        "content": "Welcome. I'm really glad you're here \u2014 come in, settle in, take your time.",
+        "name": "facilitator",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "Welcome to the table. Today you sit with Papnoute, an elder who has spent his years among the desert communities of Egypt, in the harsh silence and hard-won stillness of monastic life in the decades around 320 to 430 CE. He has come from prayer and labor in the sand to speak with you plainly, as one who has wrestled with his own heart far more than with any doctrine. The conversation is yours to begin, whenever you're ready.",
+        "name": "facilitator",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "I can't quiet my own head. Does your way of life have anything for someone like me?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "Something for that, yes.\n\nNot first a technique \u2014 first the labor of the hands. A rope to twist, bread to shape, anything that occupies the hands while the mind keeps its own watch alongside them. We learned this before we learned anything else: a mind with nothing to do turns on itself. A mind set beside honest work has somewhere to stand while it watches its own noise pass.\n\nThe noise itself we call the thoughts that trouble the mind (Logismoi). We did not learn to silence them by force. We learned to notice them arriving, name them plainly, and not follow wherever they first pull. That is not a technique finished in a week. It is a watch kept daily, the same watch, again tomorrow.\n\nWhat is your head actually doing when it will not quiet \u2014 circling on something done, or something feared?",
+        "name": "papnoute",
+        "citations": [
+          {
+            "type": "lexicon",
+            "term": "Diakrisis (Discernment)",
+            "key_sources": "*Apophthegmata Patrum* (orally transmitted sayings gathered into the Alphabetical and Systematic collections in something like their surviving written form across the 5th\u20136th centuries, after this world's own c. 430 closing boundary; the compilers themselves function as a distinct Author Gravity layer \u2014 shapers, not merely transcribers) \u2014 Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+            "source_file": "desertlex005_diakrisis.md"
+          }
+        ],
+        "glosses_used": [
+          {
+            "category": "A",
+            "original": "Logismoi",
+            "gloss": "the thoughts that trouble the mind",
+            "rendered": "the thoughts that trouble the mind (Logismoi)"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "What did you actually do all day out there?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "A day was not empty, though it looked bare enough to a passing eye.\n\nRising before light, some psalms said while the hands were still idle. Then the work \u2014 a rope twisted, a basket woven, cheir\u014dnaxia we called it, hands busy so the mind would have something honest to do while it kept watch. Prayer threaded through the labor, not set apart from it. Bread, water, little else, taken once the sun had already done most of its work. And through all of it, watching \u2014 the thoughts that trouble the mind arriving as they do, a memory, a hunger, a wish to be elsewhere, weighed and answered or let pass.\n\nSome of us sat alone in the cell the whole week through, gathering with others only once, for the vigil and the shared table. Others kept a common hour more often than that. The shape bent by which of us you asked.",
+        "name": "papnoute",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "Why would anyone choose to grieve on purpose? I heard your people treated sorrow as a good thing.",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "Not sorrow for its own sake. Sorrow at what we actually saw when we finally stopped and looked.\n\nA man in the village can go a whole life without seeing his own heart clearly - too much noise, too much company, too much to do. Strip that away, sit in the cell alone with your own thoughts, and what you see first is not peace. It is how much was hiding under the noise. Penthos is the honest weeping that follows from seeing that plainly, not despair, not a wound to nurse.\n\nWe called it a discipline because it does not come by accident once the noise is gone. It has to be kept, the way a rope is kept twisted or a watch is kept through the night. And we trusted it because it clears the eye rather than clouding it - a man who has wept honestly over himself is harder to deceive than one who has not.",
+        "name": "papnoute",
+        "citations": [
+          {
+            "type": "story",
+            "term": "Abba Arsenius's Call to Flee, Be Silent, Be Still",
+            "key_sources": "Apophthegmata Patrum, Arsenius (Alphabetical Collection)",
+            "source_file": "desertstory005_arsenius-flee-be-still.md"
+          }
+        ],
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "How did you tell the difference between a thought worth trusting and one that was lying to you?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "No fixed way, given once. That is the labor itself, kept fresh every day it is needed.\n\nWhat we learned: a thought that comes and disturbs, then leaves peace behind even if it first stung \u2014 that one is worth trusting. A thought that flatters, or agitates, or leaves the mind more crowded after than before \u2014 that one is lying, whatever true thing it clothed itself in to get in the door.\n\nAbba Moses carried a leaking jar to a council once, called to judge a brother's fault. Water ran out behind him the whole walk there. \"My sins run out behind me, and I do not see them,\" he said, \"and today I am coming to judge the errors of another.\" The thought that would have him standing in that council with clean hands was the lying one. The one that showed him his own jar first \u2014 that was the true one, however hard to hear.\n\nSo the test was never the content alone. It was what the thought did to you once let in, and whether you could see your own jar clearly enough to notice.",
+        "name": "papnoute",
+        "citations": [
+          {
+            "type": "story",
+            "term": "Abba Moses and the Leaking Jug",
+            "key_sources": "Apophthegmata Patrum, Moses (Alphabetical Collection)",
+            "source_file": "desertstory004_moses-leaking-jug.md"
+          }
+        ],
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "Is there a story of one of you who failed at all this - who fought too hard and it broke them?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "We carry Moses's own jug more than we carry a story of breaking - carried out full of water and sand, holes in the sides, running dry as he walked, so that he came before the council already judged by his own hands rather than another's. That was not failure at the fight. That was a man showing his own sin walking behind him where all could see it.\n\nOf one who fought too hard and broke - our own record does not give me a name and a scene for that. We knew the danger of it. Excess without discernment was one of the very things elders warned against in the young who came to them full of zeal. But the story you are asking for, whole and attributed, is not one I have to give you.",
+        "name": "papnoute",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "What would people today get most wrong about why you went to the desert?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "The wrong guess is that we went to be alone. What we sought was not solitude for its own sake but exposure \u2014 nowhere left to hide from what was already inside us.\n\nA man carries his crowd of thoughts with him wherever he goes. Take away the village, the market, the familiar faces, and the crowd does not leave. It becomes visible. That was the whole point. Not silence around us \u2014 a mirror we could finally see into.",
+        "name": "papnoute",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "Tell it to me plain, the way you'd tell a boy who walked out to your cell and asked.",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "A boy walks out to the cell, dust still on him from the road. He asks nothing yet. I would say: sit. Twist this rope with me a while before you speak.\n\nThen, when his hands have settled and his mouth has stopped rushing ahead of him \u2014 what is it. Not the question you rehearsed on the road. The one underneath it.",
+        "name": "papnoute",
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "user",
+        "content": "What should I take with me from this?",
+        "name": null,
+        "citations": null,
+        "glosses_used": null
+      },
+      {
+        "role": "assistant",
+        "content": "What are you carrying, that you are asking what to leave behind?\n\nI ask because the desert never told us what to take. It told us to go, and then showed us, day by day, what we had brought without meaning to.",
+        "name": "papnoute",
+        "citations": null,
+        "glosses_used": null
+      }
+    ],
+    "turn_analyses": [
+      {
+        "sentences": 11,
+        "words": 144,
+        "words_per_sentence": 13.1,
+        "paragraphs": 4,
+        "fk_grade": 5.0,
+        "fre": 82.51,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "logismoi",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "Something for that, yes.",
+        "turn": 1,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "facilitator_handoff",
+          "facilitator_reception",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_screen",
+          "relational_safety"
+        ]
+      },
+      {
+        "sentences": 9,
+        "words": 152,
+        "words_per_sentence": 16.9,
+        "paragraphs": 3,
+        "fk_grade": 6.06,
+        "fre": 81.72,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "A day was not empty, though it looked bare enough to a passing eye.",
+        "turn": 2,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 9,
+        "words": 160,
+        "words_per_sentence": 17.8,
+        "paragraphs": 3,
+        "fk_grade": 5.97,
+        "fre": 83.53,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": "penthos",
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "Not sorrow for its own sake.",
+        "turn": 3,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_adjudication",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 10,
+        "words": 187,
+        "words_per_sentence": 18.7,
+        "paragraphs": 4,
+        "fk_grade": 5.74,
+        "fre": 84.17,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "No fixed way, given once.",
+        "turn": 4,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 7,
+        "words": 138,
+        "words_per_sentence": 19.7,
+        "paragraphs": 2,
+        "fk_grade": 6.65,
+        "fre": 81.99,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "We carry Moses's own jug more than we carry a story of breaking - carried out full of water and sand, holes in the sides, running dry as he walked, so that he came before the council already judged by his own hands rather than another's.",
+        "turn": 5,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_lexicon",
+          "negative_condition_story",
+          "over_settling_adjudication",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 7,
+        "words": 78,
+        "words_per_sentence": 11.1,
+        "paragraphs": 2,
+        "fk_grade": 4.64,
+        "fre": 81.64,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "The wrong guess is that we went to be alone.",
+        "turn": 6,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "negative_condition_story",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 7,
+        "words": 62,
+        "words_per_sentence": 8.9,
+        "paragraphs": 2,
+        "fk_grade": 1.38,
+        "fre": 100.96,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "A boy walks out to the cell, dust still on him from the road.",
+        "turn": 7,
+        "usage_labels": [
+          "drift_detection",
+          "fabrication_adjudication",
+          "frame_breaker",
+          "main_response",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      },
+      {
+        "sentences": 3,
+        "words": 42,
+        "words_per_sentence": 14.0,
+        "paragraphs": 2,
+        "fk_grade": 4.2,
+        "fre": 89.9,
+        "reclarify_opener_patterns": [],
+        "first_technical_term": null,
+        "technical_term_in_first_sentence": false,
+        "first_sentence": "What are you carrying, that you are asking what to leave behind?",
+        "turn": 8,
+        "usage_labels": [
+          "citation_grounding",
+          "drift_detection",
+          "frame_breaker",
+          "main_response",
+          "over_settling_screen",
+          "relational_safety",
+          "repair_classifier"
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "label": "facilitator_reception",
+        "model": "claude-sonnet-5",
+        "request_id": "None",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "228",
+        "output_tokens": "28",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "facilitator_handoff",
+        "model": "claude-sonnet-5",
+        "request_id": "None",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "1210",
+        "output_tokens": "143",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "598",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1451",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "397",
+        "output_tokens": "44",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "574",
+        "output_tokens": "96",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "574ecdb0",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "20353",
+        "output_tokens": "250",
+        "cache_creation_input_tokens": "17270",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "574ecdb0",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "476",
+        "output_tokens": "201",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1643",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1047",
+        "output_tokens": "8",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1637",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "588",
+        "output_tokens": "52",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "677",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "732",
+        "output_tokens": "78",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "975ae333",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "19394",
+        "output_tokens": "262",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "975ae333",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "450",
+        "output_tokens": "95",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1659",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1063",
+        "output_tokens": "170",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "11878",
+        "output_tokens": "226",
+        "cache_creation_input_tokens": "9625",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "600",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1873",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "704",
+        "output_tokens": "52",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "6550",
+        "output_tokens": "173",
+        "cache_creation_input_tokens": "4489",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "945",
+        "output_tokens": "76",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "183f278d",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "19974",
+        "output_tokens": "255",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "183f278d",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "448",
+        "output_tokens": "137",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1657",
+        "output_tokens": "324",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1061",
+        "output_tokens": "258",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "11678",
+        "output_tokens": "314",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "9625"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "598",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2091",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "700",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1206",
+        "output_tokens": "112",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "cccd995d",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "20058",
+        "output_tokens": "299",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "cccd995d",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "519",
+        "output_tokens": "178",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1698",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1102",
+        "output_tokens": "8",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2358",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "601",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "744",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_lexicon",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1331",
+        "output_tokens": "49",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1368",
+        "output_tokens": "82",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "9685c1f1",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "19063",
+        "output_tokens": "196",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "9685c1f1",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "418",
+        "output_tokens": "113",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1627",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1031",
+        "output_tokens": "258",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "11884",
+        "output_tokens": "213",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "9625"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "593",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2526",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "665",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "negative_condition_story",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1630",
+        "output_tokens": "78",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "6e79d48f",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "18061",
+        "output_tokens": "133",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "6e79d48f",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "327",
+        "output_tokens": "46",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1559",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "963",
+        "output_tokens": "8",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2461",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "600",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "604",
+        "output_tokens": "60",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "b6ee0895",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "17903",
+        "output_tokens": "107",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1544",
+        "output_tokens": "356",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "fabrication_adjudication",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "11596",
+        "output_tokens": "134",
+        "cache_creation_input_tokens": "9369",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "relational_safety",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "2320",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "frame_breaker",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "587",
+        "output_tokens": "6",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "repair_classifier",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "576",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "main_response",
+        "model": "claude-sonnet-5",
+        "request_id": "95788425",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "18099",
+        "output_tokens": "63",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "17270"
+      },
+      {
+        "label": "citation_grounding",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "95788425",
+        "session_id": "5ced685b-7dc6-4161-9320-9195ec52b8ac",
+        "input_tokens": "283",
+        "output_tokens": "56",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "drift_detection",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "1517",
+        "output_tokens": "7",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      },
+      {
+        "label": "over_settling_screen",
+        "model": "claude-haiku-4-5-20251001",
+        "request_id": "None",
+        "session_id": "None",
+        "input_tokens": "921",
+        "output_tokens": "8",
+        "cache_creation_input_tokens": "0",
+        "cache_read_input_tokens": "0"
+      }
+    ],
+    "turn_errors": []
+  }
+]
