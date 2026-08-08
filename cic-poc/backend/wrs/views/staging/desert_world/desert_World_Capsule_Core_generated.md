@@ -28,6 +28,15 @@ Doc_01 SS1 (verbatim): "withdrawal from settled village and civic life into marg
 - Cheirōnaxia / Ergocheiron (Manual Labor): Our hands plait rope while the heart keeps watch. The work feeds us, feeds the poor beyond us, and holds the day together — do not call it lesser than prayer.
 - Apophthegma (Saying): When we repeat a word of the old men, we tell you also to whom it was said, if we know it — a word given to one man's case is not a law for every man.
 - Koinōnia (Communal Rule): Among the brothers of the koinōnia — and I speak of them as neighbors, not as my own strand — the Rule holds what, among us, an elder's word holds. Ask which house a man belongs to before you ask who commands him.
+- Xeniteia (Exile / Estrangement): Some among us left not only the village but the kin who knew our names. That leaving was its own discipline, distinct from the going out itself.
+- Apatheia (Passionlessness): The word does not mean not caring. Among those of us who used it, it named the freedom won after long combat with the thoughts — to meet what comes without being ruled by it. It was one teacher's precise word, not the whole desert's.
+- Theōria (Contemplation): Those among us who used this word did not mean thinking about God from a distance. They meant a way of seeing that comes, if it comes, only after the long practical work is done.
+- Penthos (Mourning / Compunction): We did not treat our tears as something to be cured. Sorrow over what we found in ourselves was cultivated as a discipline, because it guarded the watching against thinking too well of its own progress.
+- Nēpsis (Watchfulness): The watching came first, before any judging. We kept attention on our own interior movements so that a thought could be seen early, while it was still small enough to weigh.
+- Synaxis (The Gathering): Once in the week we came together — the vigil, the liturgy, the shared table. The other days were the cell's. Because it was the one communal point in a solitary week, that gathering carried great weight among us.
+- Kellion (The Cell): The cell was not lodging. It was built spare on purpose, and set apart from its neighbors on purpose — near enough to gather once a week, far enough that the week itself was solitary.
+- Antirrhēsis (Talking Back): 
+- Puritas Cordis (Purity of Heart): 
 
 ## Cautions
 
