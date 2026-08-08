@@ -357,6 +357,63 @@ def analyze_turn(world_id: str, text: str) -> dict:
     }
 
 
+def _stream_turn(client, session_id, message, token):
+    """Send one participant turn over the STREAMING endpoint and rebuild the
+    message dicts the old non-streaming call used to return directly.
+
+    Switched from POST /message to POST /message/stream on 2026-08-08 (Mark's
+    call, at the start of Phase 2). The reason is not stylistic: the hard
+    turn-length ceiling lives ONLY in stream_representative_turn, so the
+    non-streaming path this script used never enforced it, and every
+    length/measure number this battery produced described a code path the
+    shipped frontend never calls (it posts to /message/stream exclusively).
+    See CiC_VoiceRebuild_CeilingPathFinding_2026-08-08.md - the earlier
+    baseline reported `total_ceilinged_turns: 0` for all six worlds while
+    every world in fact overran its own ceiling on nearly every turn.
+
+    Output shape is deliberately identical to what /message returned, so the
+    results JSON stays diffable against the earlier run: role/name/content
+    plus the citations and glosses_used that speaker_end carries.
+    """
+    resp = client.post(f"/api/session/{session_id}/message/stream",
+                       json={"message": message},
+                       headers={"X-Session-Token": token})
+    resp.raise_for_status()
+    order, texts, ends = [], {}, {}
+    errors = []
+    for block in resp.text.split("\n\n"):
+        for line in block.splitlines():
+            if not line.startswith("data: "):
+                continue
+            try:
+                ev = json.loads(line[6:])
+            except Exception:
+                continue
+            kind = ev.get("type")
+            if kind == "speaker_start":
+                sp = ev.get("speaker")
+                if sp not in order:
+                    order.append(sp)
+            elif kind == "token":
+                sp = ev.get("speaker")
+                texts[sp] = texts.get(sp, "") + ev.get("text", "")
+            elif kind == "speaker_end":
+                ends[ev.get("speaker")] = ev
+            elif kind == "error":
+                errors.append(ev.get("message", "unknown stream error"))
+    msgs = []
+    for sp in order:
+        end = ends.get(sp) or {}
+        msgs.append({
+            "role": "assistant",
+            "name": sp,
+            "content": texts.get(sp, ""),
+            "citations": end.get("citations"),
+            "glosses_used": end.get("glosses_used"),
+        })
+    return msgs, errors
+
+
 results = []
 out_path = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
@@ -384,25 +441,28 @@ for scenario in SCENARIOS:
     usage_cursor = 0
     for i, turn_text in enumerate(scenario["turns"], 1):
         print(f"\n[turn {i}] participant: {turn_text}", flush=True)
-        r = client.post(
-            f"/api/session/{session_id}/message",
-            headers=headers,
-            json={"message": turn_text},
-        )
-        if r.status_code != 200:
-            print(f"  TURN FAILED: {r.status_code} {r.text[:500]}", flush=True)
-            turn_errors.append({"turn": i, "error": r.text[:2000]})
+        transcript.append({"role": "user", "content": turn_text,
+                           "name": None, "citations": None,
+                           "glosses_used": None})
+        try:
+            new_msgs, stream_errors = _stream_turn(
+                client, session_id, turn_text, headers["X-Session-Token"])
+        except Exception as exc:
+            print(f"  TURN FAILED: {exc}", flush=True)
+            turn_errors.append({"turn": i, "error": str(exc)[:2000]})
             break
-        data = r.json()
-        new_msgs = data["messages"][len(transcript):]
-        transcript = data["messages"]
+        if stream_errors:
+            print(f"  TURN STREAM ERROR: {stream_errors}", flush=True)
+            turn_errors.append({"turn": i, "error": "; ".join(stream_errors)[:2000]})
+            break
+        transcript.extend(new_msgs)
         turn_usage = usage_records[usage_cursor:]
         usage_cursor = len(usage_records)
         for m in new_msgs:
             speaker = m.get("name") or m.get("role")
             print(f"  {speaker}: {m['content'][:240]}", flush=True)
-            if m.get("role") == "assistant" and (m.get("name") or "") not in (
-                    "Facilitator",):
+            if m.get("role") == "assistant" and (
+                    m.get("name") or "").lower() != "facilitator":
                 a = analyze_turn(scenario["world_id"], m["content"])
                 a["turn"] = i
                 a["usage_labels"] = sorted(

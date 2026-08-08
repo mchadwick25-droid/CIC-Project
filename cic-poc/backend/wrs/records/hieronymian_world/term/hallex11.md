@@ -27,11 +27,7 @@ world_meaning: 'In this world, being consulted on a hard scriptural question was
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: The evidentiary core of this world''s one Tensional gravity —
-  a genuine counter-current within the ecology that does not organize as broadly as the Primary gravities
-  but cannot be honestly omitted. Directly relevant to whether this world contains distinct internal strands
-  (it does not, on current evidence — this candidate was tested directly and found insufficient to establish
-  a difference in kind from the community''s dominant authority mode, only a difference in position).'
+  S2.3-equivalent per SS3.2 / FLAG-002]: The clearest evidence for the one real counter-current in this household''s life - a way of holding authority that runs against the main pattern without displacing it, and that cannot honestly be left out. It does not amount to a separate strand within the household: on what survives, this is the same kind of authority the traveling scholar holds, occupying a different position rather than being different in kind.'
 distortion_risk: '**Modern Hearing:**
 
   Risk of either overclaiming this as full independent theological authority equivalent to ordained office,
@@ -94,12 +90,7 @@ field_relations:
 - type: presupposes
   target_id: hallex05
   note: 'The standing is exercised from within the vidua category, not virginity (hal_lex05 EF, near-verbatim).
-    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The evidentiary core of this world''s
-    one Tensional gravity — a genuine counter-current within the ecology that does not organize as broadly
-    as the Primary gravities but cannot be honestly omitted. Directly relevant to whether this world contains
-    distinct internal strands (it does not, on current evidence — this candidate was tested directly and
-    found insufficient to establish a difference in kind from the community''s dominant authority mode,
-    only a difference in position).'
+    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The clearest evidence for the one real counter-current in this household''s life - a way of holding authority that runs against the main pattern without displacing it, and that cannot honestly be left out. It does not amount to a separate strand within the household: on what survives, this is the same kind of authority the traveling scholar holds, occupying a different position rather than being different in kind.'
 - type: tension-with
   target_id: hallex06
   note: 'This chunk''s EF: ''the evidentiary core of this world''s one Tensional gravity - a genuine counter-current

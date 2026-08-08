@@ -23,7 +23,7 @@ To hold to *Hebraica veritas* is to believe that when the word given to Moses or
 
 ## Ecological Function
 
-Anchors G1 (Primary gravity); the organizing commitment behind the whole translation project (*Vulgata*); the direct cause of the Augustine correspondence and the Oea controversy; presupposed by every commentary produced at Bethlehem.
+One of the commitments this household's whole life organizes around; the reason the translation work (*Vulgata*) was undertaken at all; the direct cause of both the Augustine correspondence and the trouble at Oea; assumed beneath every commentary produced at Bethlehem.
 
 ---
 

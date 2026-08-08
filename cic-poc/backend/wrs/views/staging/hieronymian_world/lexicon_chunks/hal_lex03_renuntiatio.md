@@ -23,7 +23,7 @@ To renounce, in this world, was not a single gesture but a sustained unmaking of
 
 ## Ecological Function
 
-Anchors G2 (Primary gravity); the material source of *patrocinium*; presupposed by *xenodochium* and *nosocomium*; central to *virginitas* and *vidua* as their practical expression.
+One of the commitments this household's whole life organizes around; where the means behind *patrocinium* actually come from; assumed beneath both the *xenodochium* and the *nosocomium*; and the practical form *virginitas* and *vidua* take when they are lived rather than merely professed.
 
 ---
 

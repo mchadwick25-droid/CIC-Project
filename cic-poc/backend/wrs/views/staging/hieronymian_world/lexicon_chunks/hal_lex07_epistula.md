@@ -23,7 +23,7 @@ When a scholar and the household he directed no longer occupied the same city, a
 
 ## Ecological Function
 
-Anchors G4 (Supporting gravity); the vehicle for nearly every other term in this lexicon; bridges the Rome/Bethlehem bipolar geography by definition.
+A commitment that carries the household's central ones rather than standing at the centre itself; the vehicle nearly every other word here travels by; and what joins Rome to Bethlehem at all.
 
 ---
 

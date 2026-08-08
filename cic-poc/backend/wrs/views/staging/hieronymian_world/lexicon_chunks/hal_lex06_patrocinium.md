@@ -23,7 +23,7 @@ Authority here did not come from ordination to a bishop's seat; it came from bei
 
 ## Ecological Function
 
-Anchors G3 (Primary gravity, the strongest bipolar-holding candidate in this world's ecology); the organizational bedrock of this community's authority structure; the direct basis for this world's differentiation from episcopal-authority formation worlds.
+One of the commitments this household's whole life organizes around, and the one that most holds its two homes - Rome and Bethlehem - together; the bedrock under how authority actually works here; and the clearest difference between this household and a world where authority runs through a bishop's office.
 
 ---
 
