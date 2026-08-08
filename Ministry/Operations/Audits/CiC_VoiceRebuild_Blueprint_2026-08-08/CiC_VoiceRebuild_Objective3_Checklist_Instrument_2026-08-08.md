@@ -222,15 +222,25 @@ read, not a gate); a checkpoint's Objective-3 standing is the six rates
 read together, with any single item's low rate investigated on its own
 terms rather than averaged away by the other five.
 
-**Baseline requirement (Blueprint 0.4's own [G] item):** before any
-per-world checkpoint's "Objective-3 read ≥ baseline" bar can be
-evaluated, this instrument must first be run against the committed
-pre-rebuild baseline transcripts for all six worlds, by the same
-protocol above, establishing the six baseline rates every later
-checkpoint compares against. That baseline read is a separate, later
-Phase 0.4 item (it requires the baseline transcript set to be committed
-first — both baseline transcript sets, `voice_rebuild_research_probe_results.json`
-and `sustained_disagreement_battery_baseline.json`, were committed this
-session). Readers are now named (Mark and Susan, per the protocol above);
-the baseline read itself has not yet been scheduled or run as of this
-document's writing.
+**Baseline requirement (Blueprint 0.4's own [G] item) — CANCELLED 2026-08-08,
+Mark's call:** the formal baseline run of this instrument (both readers,
+six scored items, across all 12 committed pre-rebuild transcripts) was
+started and then cancelled by Mark before either reader finished: too
+heavy a form for what it was worth ("way too complicated... take hours...
+the questions are just yes/no"). Not deferred, not paused — cancelled as
+a mechanism. Superseded by two lighter mechanisms instead: **specific
+questions asked and answered as they come up**, rather than a full
+structured pass, and **feedback gathered from the actual pilot** rather
+than a pre-rebuild reading exercise.
+
+**Consequence not yet resolved:** the Blueprint's own stated Phase 1A
+checkpoint bar — *"the Objective-3 read ≥ her [Chloe's] baseline
+read"* — assumed a baseline number this instrument would have produced.
+With the baseline run cancelled, that bar can't be evaluated as written.
+What replaces it (a different checkpoint criterion, pilot feedback used
+some other way, or something else) is Mark's call to make when Phase 1A
+is actually scoped — not decided or guessed at here.
+
+The six scored items, the reader protocol, and the scoring/reconciliation
+sheets above remain as designed, in case a lighter or partial use of this
+instrument is wanted later — only the full baseline run is cancelled.
