@@ -1893,9 +1893,15 @@ _SIGNAL_PRIORITY: list[str] = [
     "temporal_bleed", "anachronism", "over_settling",
     "cross_world_vocabulary", "manufactured_resolution", "convergence",
     "closing_synthesis", "apologetics", "smoothing", "flattening",
-    "agreeing", "dominance", "generating", "over_producing",
-    "length_ceiling", "question_stacking",
+    "agreeing", "declining_initiative", "dominance", "generating",
+    "over_producing", "length_ceiling", "question_stacking",
 ]
+# Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): declining_initiative
+# ranked beside "agreeing" - both are stance signals from the same Realness
+# Study naming (agreement-rate drift and declining initiative are two of
+# its three measurable naturalness-collapse signals), and neither puts
+# anything untrue or out-of-world in front of a participant the way the
+# signals ranked above them do.
 # kept as an alias: the monitor bottleneck's historical name for the list
 _MONITOR_SIGNAL_PRIORITY = _SIGNAL_PRIORITY
 _SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
@@ -1943,7 +1949,21 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     check_drift_for_message (used by the streaming endpoint's per-round
     monitoring pass, which checks every turn of a round tagged with its own
     speaker - see that function's docstring for why).
+
+    Thin wrapper around _detect_drift_signal_impl that logs the outcome
+    (Voice Rebuild Phase 0.4 - the per-signal breakdown Design §3/Blueprint
+    0.4 name as drift_detection's real gap, see app/drift_signal_logging.py)
+    without touching any of the impl's own return points or logic.
     """
+    from app.drift_signal_logging import log_drift_signal_outcome
+    signal = _detect_drift_signal_impl(response_text, world_id)
+    log_drift_signal_outcome(
+        world_id, signal.signal_type if signal else None,
+        signal.severity if signal else None)
+    return signal
+
+
+def _detect_drift_signal_impl(response_text: str, world_id: str | None = None) -> DriftSignal | None:
     llm = get_monitoring_llm()
     prompt = FACILITATOR_MONITORING_PROMPT.format(response=response_text)
     response = llm.invoke([
@@ -2005,10 +2025,16 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     # "smoothing" instead of surfacing under its real signal type. Kept
     # "anachronism" as an accepted alias since temporal_bleed is its
     # current name in the prompt but older sessions/tests may still emit it.
+    # Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): added
+    # "declining_initiative" - the Realness Study's third measurable
+    # naturalness-collapse signal (response-length growth and agreement-
+    # rate drift already exist as over_producing/agreeing; initiative had
+    # no equivalent - see FACILITATOR_MONITORING_PROMPT signal 11).
     valid_signals = [
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
         "first_person", "anachronism", "self_narration", "over_settling",
+        "declining_initiative",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
