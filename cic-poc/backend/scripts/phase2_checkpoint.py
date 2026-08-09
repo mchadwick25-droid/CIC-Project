@@ -776,8 +776,21 @@ def main() -> int:
         print("[cp] WARN - running against DEPLOYED data/, not a candidate "
               "tree. Set DATA_BASE_PATH to grade the rebuilt voice.")
 
+    # The mechanical pre/post-1A gate (Integration Design F3, adopted by Mark
+    # 2026-08-09): every artifact records a hash of the shared block it ran
+    # against, so "measured pre-1A or post-1A" is a recorded fact, never a
+    # memory. The Phase-1 gate that existed only in prose is the reason this
+    # exists.
+    import hashlib
+    from app.prompts.representative_prompts import _HOW_YOU_ENGAGE
+    block_sha = hashlib.sha256(_HOW_YOU_ENGAGE.encode("utf-8")).hexdigest()[:16]
+    print(f"[cp] shared block = sha256:{block_sha} "
+          f"({len(_HOW_YOU_ENGAGE.split())} words)")
+
     artifact = {"world_id": world_id, "checkpoint": args.checkpoint,
-                "candidate": candidate, "ceiling": ceiling}
+                "candidate": candidate, "ceiling": ceiling,
+                "shared_block_sha": block_sha,
+                "shared_block_words": len(_HOW_YOU_ENGAGE.split())}
 
     # Drift accumulates across every half - the bar's fabrication/FLATTENING
     # items are about the whole checkpoint, not one section of it - so the

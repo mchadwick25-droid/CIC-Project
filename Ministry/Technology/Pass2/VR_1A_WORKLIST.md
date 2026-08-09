@@ -15,6 +15,14 @@ Mark's text verbatim).
 Items marked **PENDING MARK** need his ruling before work starts; items
 marked **READY** are decided in substance and waiting on sequencing.
 
+**2026-08-09, Integration Design ADOPTED by Mark** — items 3 (instruments),
+4 (the read = six-dimension grid) and 10 (sequencing: fleet work first,
+remaining four worlds checkpoint once post-1A) are settled by adoption.
+The block rewrite (item 2) executed the same day: ten new constructive
+sections added (~1450 words), every defensive section intact, verified by
+mock run and gates; every checkpoint artifact now stamps the shared-block
+sha256 so pre/post-1A is a recorded fact.
+
 ---
 
 ## 1. Fix the Facilitator — READY (added by Mark, 2026-08-09)
@@ -33,7 +41,7 @@ records defect). Note the monitoring prompts (drift signals etc.) are
 model-facing, not participant-facing — only participant-visible turns
 are in scope.
 
-## 2. The shared `_HOW_YOU_ENGAGE` rewrite — READY in substance
+## 2. The shared `_HOW_YOU_ENGAGE` rewrite — **DONE 2026-08-09, verification pending**
 
 The Blueprint's original Phase-1A task, still unexecuted (the block
 predates the rebuild; none of Design §2's six additions are in it).
@@ -109,7 +117,7 @@ moved this substantially. Remaining call: (a) wiring/visibility fix only,
 (b) increase verbatim primary-source quoting in-voice (authoring cost,
 six worlds), or both.
 
-## 8. "What would people today get wrong" pattern — READY
+## 8. "What would people today get wrong" pattern — **DONE 2026-08-09** (via the block's new "You Do Not Know What Another Age Thinks" section)
 
 His informal-read catch, logged fleet-wide: Representatives answer with
 confident knowledge of what "modern people" think — an anachronistic
