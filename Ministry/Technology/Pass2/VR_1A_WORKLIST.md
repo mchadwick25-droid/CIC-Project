@@ -43,7 +43,7 @@ sha256 so pre/post-1A is a recorded fact.
 
 ---
 
-## 1. Fix the Facilitator — READY (added by Mark, 2026-08-09)
+## 1. Fix the Facilitator — **DONE 2026-08-09, live verification pending**
 
 The shared Facilitator voice (`app/prompts/facilitator_prompts.py`)
 **breaches the B2 floor in 3 of 3 measured runs** — FK 11.9/FRE 44.9,
@@ -58,6 +58,23 @@ breach never fails a world's checkpoint (shared component ≠ per-world
 records defect). Note the monitoring prompts (drift signals etc.) are
 model-facing, not participant-facing — only participant-visible turns
 are in scope.
+
+**Done 2026-08-09.** A shared `PLAIN_SPEECH` block now appends to all
+**16 participant-facing** facilitator prompts — reception, both handoffs,
+bridge, frame-breaker response, closing, anything-else, both resource
+prompts, the modern-term and epistemology bridges, and the four
+safety-path prompts (acute distress A1/A2 + continuation, harmful
+dynamic + continuation). The **model-facing** prompts are deliberately
+untouched and asserted so: monitoring, both adjudicators, over-settling
+screen, reroot, and both classifiers — nobody reads those.
+
+The instruction itself measures FK 6.52 / FRE 75.05 — it meets the
+standard it imposes. **Safety-path content is unchanged**: the block is
+appended, never edited into the reviewed crisis wording, and plain
+speech in a crisis serves those prompts' own purpose. **Still open:** a
+live run to confirm the facilitator-readability report clears the floor
+(the report fires on every checkpoint, so the next run of any world
+verifies it).
 
 ## 2. The shared `_HOW_YOU_ENGAGE` rewrite — **DONE 2026-08-09, verification pending**
 
