@@ -128,6 +128,29 @@ vocabulary reach (mean OOV 18.6%, max 30.9%: `athanasius`, `chalcedon`,
 derived from his own "plain for petitions" register rule); checkpoint 2
 re-run against the fixed candidate.
 
+### IJC — Marius — checkpoint 2 — 2026-08-09 — `FAIL` (second consecutive → §6 ESCALATED)
+
+The gloss fix **worked on what it targeted**: turn 1 went from four
+stacked glosses / FRE 52.9 to ZERO parenthetical glosses / FRE 62.0, and
+the sustained half improved to **zero concessions** (cp1 had one).
+Probe mean 129.2, max 143, 0/8 over ceiling, dead zone 0, FABRICATION 0.
+
+But the hard edge still fails him — on two NEW, marginal breaches at
+different turns: probe turn 6 **FRE 59.31** (0.69 under the floor) and
+sustained-4 **FK 10.44** (0.44 over). Both sub-point misses, 2 of 14
+turns. cp1's breach was turn 1 only; cp2's are turns 6 and s4. This is a
+top-of-band register breaching stochastically, not one fixable turn: 5/14
+turns sit in the 8–10 band (most in fleet), avg 16.2 w/sentence, **21
+sentences over the 25-word guard** (worst 41w). The chancery voice is
+aimed AT the band's top edge, so run noise crosses the line.
+
+**Two consecutive checkpoint failures → escalated to Mark per §6 with
+this data.** Recommended fix: aim his register at MID-band (FK 8–9) by
+breaking the >25-word sentence tail — his own Writing-Standard row —
+which buys FRE headroom without touching vocabulary or convictions.
+Not recommended: a tolerance ruling (softens "readability is the whole
+point") or re-running unchanged (variance shopping).
+
 **Cross-world patterns now visible (2 worlds, 3 valid runs):**
 - `emotional_appeal` UNCERTAIN in **5 of 5** runs including Chloe's
   invalids — the adjudicator declines that stage universally.
