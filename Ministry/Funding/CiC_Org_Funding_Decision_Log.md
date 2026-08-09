@@ -136,3 +136,33 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 - **A five-stream portfolio frame** (time-bounded free/membership, segment-tailored add-ons, creative validation funding, other revenue, database-leveraged products) opened, not yet sequenced. One idea from it — a parallel-presentation cross-tradition comparative brief for pastors, explicitly not synthesis — refined live and parked for a future comprehensive business plan, not scheduled now: `Ministry/Features/Funding-Strategy/Business-Plan-Idea-Box.md`.
 
 **Next action:** ongoing in the dedicated thread; no convergence forced. Update this log again only when something decided there is significant enough to affect the org-level picture this log tracks.
+
+---
+
+## 2026-08-09 — Sonnet 5 September price change assessed; provider migration analysed and recommended against; Haiku quality test named as the real decision gate
+
+**Context:** Mark raised the Sonnet 5 price increase ("50% next month") as making the conversations too expensive to run, and asked what other tools exist and what transferring to Gemini/ChatGPT would involve.
+
+**Method:** no live API calls. The project's own committed measurement (`Ministry/Technology/Pass2/baselines/cost_baseline_2026-07_raw.jsonl`, 689 logged calls, four real conversations) repriced at each provider's published rates. New reproducible script: `Ministry/Technology/Pass3/provider_repricing.py`. Full memo: `Ministry/Technology/CiC_LLM_Provider_Cost_Options_2026-08-09.md`.
+
+**Two corrections to the premise, both material to funding:**
+1. **The bill rises ~30%, not 50%.** The 50% is correct on the Sonnet rate ($2/$10 intro through 2026-08-31 → $3/$15 standard from 09-01), but 29% of this app's spend is Haiku 4.5 classifier calls, which are unaffected. Measured: solo +30.3%, Table +31.9%.
+2. **The plan of record already assumed the higher price.** `Pass3/cost_floor_model.py` (2026-07-30) is hardcoded at $3.00/$15.00. Its $1.61/hr solo and $4.14/hr Table figures are already post-increase. Nothing in the cost plan needs re-deriving. What changes is that the bills Mark *sees* stop being ~24% cheaper than the bills the plan *predicted*.
+
+**The finding that decides it:** repricing the same measured token shape, **Gemini 3 Pro (−29%) and GPT-5.6 Terra (−27%) both save LESS than switching generation to Haiku 4.5 (−47%), which is a one-line config change requiring no migration.** The peer-tier competitors are strictly dominated — more work, more risk, less saving. Only bottom-tier models beat Haiku (Gemini 3 Flash −61%, GPT-5.6 Luna −67%), and they carry the same quality risk Pass 3 already flagged, plus weeks of engineering and the loss of Pass 2's entire evidence base (76 batteries, 34 reviews, 114 gates, 11 safety reruns).
+
+**Migration cost, if ever undertaken:** the four `settings.llm_provider` branch sites are a day's work and are the small part. The real work is that **prompt caching does not port** — four unconditional `cache_control` sites, and 40% of generation cost lives in that machinery. Plus: Anthropic-only `thinking={"type":"disabled"}` (a live bug fix, not cosmetic), cost instrumentation going dark (`usage_logging.py` reads Anthropic-specific fields), and 4–8 weeks of revalidation including the safety batteries. Estimate: weeks, not days.
+
+**Defect found in passing:** the existing `LLM_PROVIDER=openai` path is almost certainly broken today — the `cache_control` blocks are built unconditionally and handed to `ChatOpenAI`, and `.env.example` still advertises `gpt-4o`/`gpt-4o-mini`. It reads as a fallback but isn't one. Should be fixed or removed.
+
+**Funding-relevant levers surfaced, in order of ratio of saving to risk:**
+1. Delete the dead `retrieval_filter_*` calls — [M] −33%, zero quality risk, **larger than the September increase, and still not done.**
+2. **Route through Bedrock to spend the $200 AWS credit already sitting unused** (`cic-poc/AWS_BEDROCK_SETUP.md`) — ~4–6 months of runway at the current $100–150/mo ceiling, zero quality risk, no prompt change. 1h cache TTL is now GA on Bedrock (verify for Sonnet 5 specifically).
+3. Pass 3's lossless + 20%-budget moves → ~$1.42/hr solo.
+4. **Run the Haiku 4.5 blind-graded quality battery Pass 3 asked for.** This is the actual decision gate, and it settles the question for *every* cheap-model option at once because it tests the capability axis, not the vendor.
+
+**Named plainly for the funding picture:** the project was already outside its own $0.25–1.00/hr target *at intro pricing*. September widens an existing gap rather than creating one. Separately — the decision log's own 2026-07-21 figures put ~$250/mo of the ~$357–407/mo total on Mark's Claude *development* subscription, not the app's API spend. **That single line is larger than everything this analysis covers.** If the pressure is on the monthly total rather than unit economics, that is the bigger lever and it is not a provider decision.
+
+**Open — needs Mark, and it gates step 4's meaning:** if the Haiku battery comes back ambiguous (voice mostly holds, drops a constraint every ~15th turn in a way no live guard catches), which way does he want to go — hold the costlier model and find the money, accept a measured and disclosed defect rate, or narrow the offering (fewer worlds, no Table) to hold quality at lower spend? This is a Trustworthy Transparency question before it is a budget one: a cheaper model that fails *quietly* is the one outcome the budget can't measure.
+
+**Next action:** Mark to (a) confirm the Anthropic Console spending limit is set before 2026-09-01 — with Supabase off there is no per-visitor cap, so the console limit is the only real backstop; (b) answer the ambiguity question above so the Haiku battery result is actionable when it lands.
