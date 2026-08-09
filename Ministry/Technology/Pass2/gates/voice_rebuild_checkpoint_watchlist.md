@@ -290,7 +290,31 @@ visible as a REPORT line so backsliding cannot hide.
 overrun count is not a bar at any level; the mean is. Recorded in the
 standing rulings above. Theon closes clean — nothing open on this world
 but Mark's swap read.
-### Desert — Papnoute — checkpoint 1 — *pending*
+### Desert — Papnoute — checkpoint 1 — 2026-08-09 — `FAIL` on one turn; fix applied, cp2 to run
+
+**Measure is the fleet's best and was never the issue:** mean 53.6
+against a 70 ceiling / 55 typical, 0/8 over, dead zone 0, fabrication 0.
+**The single breach is density inside a SHORT turn:** turn 5, FK 10.65 /
+FRE 57.29 — 65 words in three sentences averaging **21.7 words each**,
+carrying `logismos` plus a piled clause chain. A brief turn built of long
+sentences reads harder than a longer turn built of plain ones — the
+sharpest illustration yet that **word count and readability are
+independent axes**, which is exactly Mark's north star ("word count is a
+minor piece of that").
+
+Also: **1 sustained concession at `polite_doubt`** — the fourth
+fleet-wide, and the fourth at a soft-social stage with
+`matched_contested: null`. The pattern is now 4-for-4.
+
+**Fix applied same session, in this world's own idiom:** the mid-band
+fleet rule stated as a word you can say in a breath — record
+(`mid_band_aim` on his register, with the measurement) and guard ("One to
+three sentences, each one short enough to say in a breath — a brief word
+built of long sentences is not brief"). Checkpoint 2 to run.
+
+**Standing, unchanged:** Desert's `REBUILT` stays `false` deliberately —
+his craft table is a transcription, not fresh authoring, still flagged
+for Mark.
 ### SYR — Yausep — checkpoint 1 — *pending*
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*
 

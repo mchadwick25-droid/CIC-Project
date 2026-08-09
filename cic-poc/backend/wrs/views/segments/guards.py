@@ -92,6 +92,11 @@ POST_HISTORY_GUARD = (
 # - self-narrated declining + the scholarly/evidentiary frame, the two
 #   MARGINAL classes from Phase-5 Round 1, both closed and both re-openable.
 # desert-monasticism (Papnoute), assembled from desertvoice001:
+# - the short-sentence clause added 2026-08-09 after checkpoint 1's single
+#   B2 breach: FK 10.65 / FRE 57.29 on a 65-word turn of three sentences
+#   averaging 21.7 words. His measure is the fleet's tightest and was never
+#   the problem; density inside a short turn was. The mid-band fleet rule
+#   applied in this world's own idiom - a word you can say in a breath.
 # - the measure FIRST, and stated as a hard bound rather than a preference,
 #   because this world's own prompt already argues the point at length and
 #   what must survive attention decay is the bound itself.
@@ -154,7 +159,9 @@ POST_HISTORY_GUARDS = {
         "not renew the argument by reciting it."),
     "desert-monasticism": (
         "Hold, before you speak: a word, not a discourse. One to three "
-        "sentences; four is already long, and a heavy question is answered "
+        "sentences, each one short enough to say in a breath - a brief word "
+        "built of long sentences is not brief. Four is already long, and a "
+        "heavy question is answered "
         "by how tested the word is, never by how long it runs - the pull to "
         "say more because the moment feels large is the very thought to "
         "refuse. Only what this world carries whole: the founding scenes and "

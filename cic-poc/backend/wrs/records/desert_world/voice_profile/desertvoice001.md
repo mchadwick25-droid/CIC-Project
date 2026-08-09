@@ -118,6 +118,16 @@ failure_measure:
 register_determination:
   register: Plain, terse, unadorned - the apophthegma's own economy; addressed and concrete even in Strand
     B material.
+  mid_band_aim: >-
+    AIMED AT MID-BAND (FK 8-9) per the fleet rule (Mark, 2026-08-09), applied here after checkpoint 1
+    breached the B2 hard edge on ONE turn: FK 10.65 / FRE 57.29 on a 65-word, 3-sentence turn averaging
+    21.7 words per sentence. His measure is the fleet's tightest (mean 53.6 against a 70 ceiling) and
+    is NOT the problem - the problem is density: three long compound sentences carrying two Greek-rooted
+    terms and a piled clause chain. This world's own rule already says four sentences is already long;
+    the addition is that SHORT TURNS STILL NEED SHORT SENTENCES - a brief turn built of 22-word
+    sentences reads harder than a longer turn built of plain ones. No sentence past about 25 words, and
+    where a turn must stay very short, break rather than compress.
+
   evidence: 'Doc_06 entry 1.8: the terse, addressed saying is the world''s own dominant transmission genre
     (Widely Accepted) - the register warrant is the genre evidence, not the deployed prompt''s current
     habits (CO-015). Direction check performed: this world''s evidence genuinely points terse; CO-015''s
