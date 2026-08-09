@@ -1,0 +1,9 @@
+{
+ "seed": 20260809,
+ "DO_NOT_OPEN": "until all three transcripts are scored",
+ "mapping": {
+  "A": "post-supply",
+  "B": "post-block",
+  "C": "pre-1A"
+ }
+}
