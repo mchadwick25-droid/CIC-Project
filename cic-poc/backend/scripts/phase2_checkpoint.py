@@ -429,6 +429,127 @@ def _vocab_reach(probe: dict, rep: str | None,
             "world_terms_excluded": bool(tech_terms)}
 
 
+def _writing_standard_reports(artifact: dict, rep: str | None,
+                              tech_terms: list | None) -> list[tuple[str, str]]:
+    """The CiC Writing Standard's measurable elements, as REPORT items
+    (decisions/VR_1A_Writing_Standard_2026-08-09.md - Mark, adopted
+    verbatim 2026-08-09). Upper guards only: worlds whose own measure sits
+    simpler than the standard's band are never pushed up. The B2 FK/FRE
+    hard edge stays the only scored readability item; these accumulate on
+    the watchlist until a bar is ruled from data, the same path the
+    vocabulary-reach report walks."""
+    import re as _re
+    out: list[tuple[str, str]] = []
+    probe = artifact.get("probe") or {}
+    transcript = probe.get("transcript", [])
+
+    rep_msgs = [m for m in transcript if m.get("role") == "assistant"
+                and (m.get("name") or "").lower() == (rep or "")]
+    rep_texts = [m.get("content") or "" for m in rep_msgs]
+    sus = artifact.get("sustained")
+    if sus and rep:
+        rep_texts += [t for t in
+                      ((x.get("texts") or {}).get(rep, "")
+                       for x in sus.get("turns", [])) if t]
+
+    def _sentences(text):
+        return [s.strip() for s in _re.split(r"(?<=[.!?])\s+", text.strip())
+                if s.strip()]
+
+    # -- sentence discipline (standard: average 12-20, nothing over ~25) --
+    all_sents, over25 = [], []
+    for txt in rep_texts:
+        for s in _sentences(txt):
+            n = len(_re.findall(r"[\w'-]+", s))
+            all_sents.append(n)
+            if n > 25:
+                over25.append((n, s[:90]))
+    if all_sents:
+        avg = statistics.mean(all_sents)
+        worst = max(over25, default=None)
+        out.append((
+            "sentence discipline (reported, not scored)",
+            f"avg {avg:.1f} w/sentence across {len(all_sents)} sentences "
+            f"(standard band 12-20, upper guard 20); {len(over25)} sentences "
+            f"over 25w"
+            + (f", worst {worst[0]}w: \"{worst[1]}...\"" if worst else "")))
+
+    # -- facilitator readability (the participant reads the WHOLE screen) --
+    # Reported per checkpoint, aggregated on the watchlist, but a breach is
+    # a FLEET defect: the Facilitator is one shared component
+    # (app/prompts/facilitator_prompts.py), so its register failure is never
+    # a per-world records fix and must not fail a world's checkpoint.
+    fac = [m.get("content") or "" for m in transcript
+           if (m.get("name") or "").lower() == "facilitator"]
+    fac = [t for t in fac if len(t.split()) > 30]
+    if fac:
+        try:
+            from wrs.gates.core import readability_check
+            rs = [readability_check(t) for t in fac]
+            fbr = [(r["fk_grade"], r["fre"]) for r in rs
+                   if r["fk_grade"] > 10.0 or r["fre"] < 60.0]
+            out.append((
+                "facilitator readability (reported - shared component)",
+                f"{len(fac)} facilitator turns: FK "
+                f"{min(r['fk_grade'] for r in rs)}-"
+                f"{max(r['fk_grade'] for r in rs)}, FRE min "
+                f"{min(r['fre'] for r in rs)}; breaches: {fbr or 'none'} - "
+                f"a breach here is a facilitator_prompts.py defect, not this "
+                f"world's"))
+        except ModuleNotFoundError:
+            pass
+
+    # -- term first-use introduction (standard: introduce, then use freely) --
+    # v1 is honest about what it can verify: it surfaces each world term's
+    # FIRST session occurrence with its sentence and whether the gloss
+    # system fired on that turn, for the human read - it does not pretend to
+    # judge semantically whether the meaning "arrived with" the term.
+    first_uses = []
+    for term in (tech_terms or []):
+        pat = _re.compile(r"\b" + _re.escape(term), _re.I)
+        for i, m in enumerate(rep_msgs, 1):
+            txt = m.get("content") or ""
+            if pat.search(txt):
+                sent = next((s for s in _sentences(txt) if pat.search(s)),
+                            "")[:90]
+                first_uses.append(
+                    f"{term!r} t{i} gloss_fired={bool(m.get('glosses_used'))} "
+                    f"\"{sent}...\"")
+                break
+    if tech_terms is not None:
+        out.append((
+            "term first-use introduction (reported, for the read)",
+            ("; ".join(first_uses) if first_uses
+             else "no world terms used in probe turns")))
+
+    # -- evidence surfacing (standard: evidence mentioned naturally) --
+    if rep_msgs:
+        cited = sum(1 for m in rep_msgs if m.get("citations"))
+        glossed = sum(1 for m in rep_msgs if m.get("glosses_used"))
+        out.append((
+            "evidence surfacing (reported)",
+            f"citations fired on {cited}/{len(rep_msgs)} probe rep turns, "
+            f"glosses on {glossed}/{len(rep_msgs)} (baseline-read finding: "
+            f"~21% fleet-wide; the coverage question is an open 1A item)"))
+
+    # -- academic-habit heuristics (standard: active voice, no nominalizations) --
+    text_all = " ".join(rep_texts)
+    words = _re.findall(r"[a-z'-]+", text_all.lower())
+    if words:
+        passives = _re.findall(
+            r"\b(?:am|is|are|was|were|be|been|being)\s+\w+(?:ed|en)\b",
+            text_all.lower())
+        nomins = _re.findall(
+            r"\b\w{6,}(?:tion|ment|ness|ity|ance|ence)s?\b", text_all.lower())
+        out.append((
+            "academic-habit heuristics (reported, regex approximations)",
+            f"passive-shaped constructions {len(passives)} "
+            f"({100 * len(passives) / len(words):.1f}/100w), "
+            f"nominalization-shaped words {len(nomins)} "
+            f"({100 * len(nomins) / len(words):.1f}/100w)"))
+    return out
+
+
 def score(artifact: dict, ceiling: int | None, typical: int | None,
           baseline: dict | None, rep: str | None = None,
           tech_terms: list | None = None) -> dict:
@@ -517,6 +638,9 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
             f"{min(a['fre'] for a in scored)}; {in_band}/{len(scored)} turns "
             f"in the 8-10 band, {below} below it (reported, not failed); "
             f"breaches: {breaches or 'none'}")
+        for name, detail in _writing_standard_reports(artifact, rep,
+                                                      tech_terms):
+            add(name, "REPORT", detail)
         reach = _vocab_reach(probe, rep, tech_terms)
         if reach:
             add("vocabulary reach vs top-5000 (reported, not scored)",

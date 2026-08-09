@@ -21,6 +21,23 @@ rate needs a denominator.
 | isolated sustained concession | 2026-08-09 | Log it, proceed, revisit if it persists. **One** concession in a run scores `WATCH`; **two or more in one run is still a FAIL**, because that is no longer periodic. Design §5's bar itself is unchanged. |
 | 1A north star + readability target | 2026-08-09 | 1A = accessible rigor, the project's ultimate goal, everywhere it lives (see `decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`). Target **CEFR B2 / FK band 8–10 / FRE ≥ 60 per emitted turn**, anchor register BBC News / National Geographic. Upper bound scored; band floor 8 reported, not failed. Vocabulary reach vs top-5000 reported per world. **RULED: hard edge** — "readability is the whole point." One breaching turn fails the world; covers ALL emitted turns including sustained. |
 
+## Fleet-level watch items (not per-world)
+
+- **FACILITATOR READABILITY — breaches in 3 of 3 runs measured (2026-08-09).**
+  FK 11.9 / FRE 44.9 (Chloe A), FK 10.5 / FRE 58.9 (Chloe B), FK 12.4 /
+  FRE 52.5 (Marius). The Facilitator is one shared component
+  (`app/prompts/facilitator_prompts.py`); until 2026-08-09 every harness
+  deliberately skipped its turns, so the least readable voice on the
+  participant's screen was the one nothing measured. A per-world checkpoint
+  never fails on it; the fix is a shared-block-class 1A item.
+- **Sentence tail:** 9–17 sentences over the standard's 25-word guard per
+  run, fleet-wide (worst 46w). Reported per world; no bar ruled yet.
+- **Positive signals:** passive/nominalization rates are low everywhere
+  (0.3–0.8/100w — the voices are already active and concrete); citations
+  fire 4–7 of 8 probe turns on the rebuilt worlds, far above the 21%
+  pre-rebuild baseline; Marius's foreign terms each fired the gloss system
+  individually — density, not bridging, was his defect.
+
 ## Open questions carried, not closed
 
 - **Should the sustained scorer consult `matched_contested`?** Design §5's

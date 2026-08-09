@@ -1035,6 +1035,31 @@
     "detail": "FK 5.44-9.75, FRE min 52.88; 6/14 turns in the 8-10 band, 8 below it (reported, not failed); breaches: [(1, 9.75, 52.88)]"
    },
    {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 15.5 w/sentence across 111 sentences (standard band 12-20, upper guard 20); 17 sentences over 25w, worst 42w: \"Milan later told an emperor to his face that he stood within the Church, not above it - a ...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 12.4-12.4, FRE min 52.46; breaches: [(12.4, 52.46)] - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'primatus' t1 gloss_fired=True \"Rome held that a matter is settled at the apostle's own see - primacy, Rome's own authorit...\"; 'presbeia' t1 gloss_fired=True \"Constantinople held that rank follows the throne it stands beside - a rank of honor (presb...\"; 'homoios' t4 gloss_fired=True \"Similar to the Father (homoios) was not a stranger's error....\"; 'communio' t2 gloss_fired=False \"Both claims stand in our own record still, unreconciled, each side keeping the other in co...\"; 'homoousios' t4 gloss_fired=True \"Bishops holding instead that the Son is of one being with the Father (homoousios) were the...\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 7/8 probe rep turns, glosses on 4/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 11 (0.6/100w), nominalization-shaped words 13 (0.8/100w)"
+   },
+   {
     "check": "vocabulary reach vs top-5000 (reported, not scored)",
     "verdict": "REPORT",
     "detail": "mean OOV 18.6%, max 30.9%; hardest turn's out-of-list words: [\"apostle's\", 'athanasius', 'beside', 'chalcedon', 'constantinople', \"constantinople's\", 'defending', 'depose']; anchor: BBC News / National Geographic register"
@@ -1089,6 +1114,11 @@
   ],
   "awaiting_human": [
    "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
    "vocabulary reach vs top-5000 (reported, not scored)",
    "ceiling regenerations (reported, not scored)",
    "FLATTENING watch",
