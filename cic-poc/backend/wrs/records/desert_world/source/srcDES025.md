@@ -12,6 +12,7 @@ work_title: Build rendering of Arsenius's counsel 'fuge, tace, quiesce' as 'flee
 work_locus: 2026 (Doc_09a SS2.2; the assembled Permanent Prompt)
 source_type: M
 attribution_status: genuine
+in_world_record: false  # authored by this build, not a document this world produced; never named in the grounding anchor (grounding_anchor.py)
 level_of_description: item
 language: eng
 script: Latn

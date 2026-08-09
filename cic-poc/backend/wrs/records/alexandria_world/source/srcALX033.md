@@ -13,6 +13,7 @@ work_title: Build rendering of De incarnatione 54's formula as 'God became human
 work_locus: 2026 (the deployed lexicon chunks' own rendering)
 source_type: M
 attribution_status: genuine
+in_world_record: false  # authored by this build, not a document this world produced; never named in the grounding anchor (grounding_anchor.py)
 level_of_description: item
 language: eng
 script: Latn

@@ -18,6 +18,65 @@ is worse than omitting the segment. A wrapper is required for any
 content to render."""
 from ._common import voice  # noqa: F401  (kept: shared strip helper for future per-world use)
 
+# Voice Rebuild Phase 2, found during Marius's pass (2026-08-08).
+#
+# This list is spoken to the Representative as "the genuinely attributed
+# core of THIS WORLD'S OWN vetted record". The filter read
+# attribution_status alone, which answers a different question - whether
+# an attribution is genuine rather than pseudonymous - and says nothing
+# about whether a document belongs to the world at all. Two classes of
+# record therefore qualified as a world's own:
+#
+#   source_type 'S' - modern secondary scholarship (149 records fleet-
+#   wide). This was not hypothetical: Papnoute's DEPLOYED prompt named
+#   "David Brakke - Athanasius and the Politics of Asceticism (Oxford:
+#   Clarendon Press, 1995; reissued as ...)" and Rubenson's 1995 monograph
+#   inside his own record - publishers, years and reissue histories handed
+#   to a 4th-century monk as things his world wrote. Only Desert rendered
+#   any today; every other world was spared by sort order alone, not by
+#   the filter, since the list truncates at the first 8 by id.
+#
+#   build-authored artifacts - records whose author IS this build
+#   (srcDES025, the build's own English rendering of 'fuge, tace,
+#   quiesce', licensed paraphrase-only to a single anchor; srcALX033).
+#   These carry source_type 'M' and no field distinguished them, so they
+#   are now marked in_world_record: false at the record and honoured here.
+#   Excluding 'S' without this would have PROMOTED srcDES025 into
+#   Desert's rendered list - a worse leak than the one being fixed.
+#
+# P (primary) and M (material/documentary - papyri, archaeology, coinage)
+# both genuinely belong to a world's record and both stay.
+_NOT_OUR_RECORD = {"S"}
+
+
+def _renderable(s: dict) -> bool:
+    return (s.get("attribution_status") == "genuine"
+            and s.get("source_type") not in _NOT_OUR_RECORD
+            and s.get("in_world_record") is not False)
+
+
+def _cite(s: dict) -> str:
+    """Author and title as one spoken phrase.
+
+    Two render defects fixed here rather than by editing 254 records:
+    34 genuine records repeat the author inside work_title ("Eusebius of
+    Caesarea" + "Eusebius of Caesarea, Ecclesiastical History" rendered as
+    "Eusebius of Caesarea - Eusebius of Caesarea, ..."), which was ALL
+    EIGHT of Marius's entries; and 26 carry markdown asterisks, which are
+    typography for a page, not for a prompt that is spoken."""
+    author = (s.get("work_author") or "").strip()
+    title = (s.get("work_title") or s.get("title") or "").strip()
+    if author and title.startswith(author):
+        # Only a genuine repetition, never a possessive. "Jerome" +
+        # "Jerome's biblical commentaries" is one phrase, not the name
+        # twice; stripping it there yields "Jerome - 's biblical
+        # commentaries". Require a separator after the name.
+        rest = title[len(author):]
+        if rest[:1] in {",", ";", ":"} or rest[:3] in {" - ", " – "}:
+            title = rest.lstrip(" ,;:-–").strip()
+    joined = f"{author}{' - ' if author and title else ''}{title}"
+    return joined.replace("*", "")
+
 
 def render(ctx) -> str:
     blocks = {b.get("role"): b["text"] for b in ctx.get("craft", [])
@@ -28,12 +87,11 @@ def render(ctx) -> str:
     genuine = []
     for sid in sorted(ctx["sources"]):
         s = ctx["sources"][sid]
-        if s.get("attribution_status") != "genuine":
+        if not _renderable(s):
             continue
-        author = s.get("work_author") or ""
-        title = s.get("work_title") or s.get("title") or ""
-        if author or title:
-            genuine.append(f"{author}{' - ' if author and title else ''}{title}")
+        cite = _cite(s)
+        if cite:
+            genuine.append(cite)
 
     parts = [blocks["open"]]
     if genuine:

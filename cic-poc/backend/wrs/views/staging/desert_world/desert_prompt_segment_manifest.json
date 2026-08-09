@@ -31,8 +31,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "this world's craft table (grounding_anchor-tagged wrapper text) + source records (attribution_status = genuine), derived list",
-   "chars": 1316,
-   "est_tokens": 329
+   "chars": 882,
+   "est_tokens": 220
   },
   {
    "name": "quick_reach",
@@ -81,12 +81,12 @@
  "budget": {
   "world_ground_est_tokens": 889,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 5824
+  "static_total_est_tokens": 5715
  },
  "quick_reach": "deliberately absent - S5.3 (R7), gated on B-PARROT per F3",
  "readability": {
-  "fk_grade": 9.74,
-  "fre": 62.38,
+  "fk_grade": 9.58,
+  "fre": 63.12,
   "violations": []
  }
 }
