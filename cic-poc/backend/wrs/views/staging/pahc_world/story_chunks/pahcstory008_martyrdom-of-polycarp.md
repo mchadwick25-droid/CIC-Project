@@ -1,6 +1,8 @@
 Story-Title:    The Martyrdom of Polycarp
 World-Code:     pahc
 Tier:           3
+Signature:      yes
+Key-Line:       "Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?"
 Confidence:     Contested (general portrait and dating) / Inferential-Thin (specific claimed events)
 Source:         *Martyrdom of Polycarp* (Registry P16), traditional dating c. 155–156 CE; Eusebius's *Chronicon* dates it 167 CE; concluding chapters (20–22) widely regarded as later redactional additions. Framed within its own text as a letter from the church at Smyrna to the church at Philomelium.
 Retrieve-When:  Participant asks what a formed life looks like when tested to its limit; participant asks about martyrdom as an ideal within this tradition; participant asks about Polycarp specifically, following or alongside Story 003; conversation reaches G04 (Martyrdom as Meaning-Response) and needs its second, community-authored data point (alongside Story 001).

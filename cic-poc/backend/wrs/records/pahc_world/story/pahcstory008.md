@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?"
+signature: true
 review_state: draft
 cache_stability: static
 title: The Martyrdom of Polycarp

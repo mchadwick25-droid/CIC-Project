@@ -1,6 +1,8 @@
 Story-Title:    Pliny's Interrogation in Bithynia-Pontus
 World-Code:     pahc
 Tier:           1
+Signature:      yes
+Key-Line:       "sang a hymn to Christ"
 Confidence:     Documented (the letter and its basic content) / Contested (what the "ordinary meal" was; whether this reflects one standing legal condition or scattered local exposure)
 Source:         Pliny the Younger, *Letters* 10.96–97 (Registry P07), c. 111–113 CE.
 Retrieve-When:  Participant asks how Roman authorities actually treated Christians in this period; participant asks about G03 (State Pressure/Legal Precarity); participant asks what outside, non-Christian evidence exists for this world at all.

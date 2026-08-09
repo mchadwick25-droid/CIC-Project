@@ -1,6 +1,8 @@
 Story-Title:    The Two Ways: A Catechumen's Path to the Water
 World-Code:     pahc
 Tier:           4
+Signature:      yes
+Key-Line:       "whatever you do not want done to you, do not do to another"
 Confidence:     Inferential-Thin (always, per Tier 4) — underlying textual facts are Documented; network-wide adoption beyond the Didache's own community is not claimed
 Source:         See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).
 Retrieve-When:  Participant asks how someone joined this world's community, or what preparation before baptism looked like; participant asks about moral formation or the "Two Ways" ethical schema specifically; conversation needs a typical-practice entry point distinct from the eucharistic material in Stories 010/011.

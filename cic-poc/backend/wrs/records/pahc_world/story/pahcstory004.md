@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "sang a hymn to Christ"
+signature: true
 review_state: draft
 cache_stability: static
 title: Pliny's Interrogation in Bithynia-Pontus

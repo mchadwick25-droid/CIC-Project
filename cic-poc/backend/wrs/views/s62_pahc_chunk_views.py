@@ -182,10 +182,19 @@ def render_story(rec, body):
     dnrw_items = [d["text"] for d in (ret.get("do_not_retrieve_when") or [])]
     dnrw = "; ".join(dnrw_items) if dnrw_items else "—"
     locus = (rec.get("sources") or [{}])[0].get("locus", "")
+    # Key-Line / Signature: the palette supply-side (worklist 4b, Mark's
+    # license 2026-08-09, piloted on this world). key_line is a verbatim
+    # quotable line lifted from the record's OWN text - never authored at
+    # render time - so the voice can quote with validity and zero
+    # fabrication risk; signature marks the world's most distinctive
+    # stories for the curator's first reach. Both render into the chunk
+    # header the story indexer serializes, so they arrive with retrieval.
     parts = [fm_story([
         ("Story-Title", rec.get("title", "")),
         ("World-Code", "pahc"),
         ("Tier", str(ret.get("tier", 1))),
+        ("Signature", "yes" if rec.get("signature") else None),
+        ("Key-Line", ('"' + rec["key_line"] + '"') if rec.get("key_line") else None),
         ("Confidence", rec.get("confidence_line") or None),
         ("Source", locus),
         ("Retrieve-When", rw),

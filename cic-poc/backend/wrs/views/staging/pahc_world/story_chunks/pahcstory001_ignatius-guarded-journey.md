@@ -1,6 +1,8 @@
 Story-Title:    Ignatius's Guarded Journey to Rome
 World-Code:     pahc
 Tier:           1
+Signature:      yes
+Key-Line:       "I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ."
 Confidence:     Widely Accepted (the journey and its basic circumstances) / Contested (specific dating and authenticity — see Tier Justification)
 Source:         Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).
 Retrieve-When:  Participant asks about martyrdom or facing death for faith; participant asks how early Christian leaders understood church authority or the bishop's office; participant asks about G02 (translocal correspondence) or wants a concrete example of how scattered communities stayed connected; participant asks about boundary-drawing against rival teachers; conversation reaches the question of how confident we can be about "what early Christians really believed."

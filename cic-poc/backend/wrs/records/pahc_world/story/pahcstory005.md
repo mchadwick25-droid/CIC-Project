@@ -8,6 +8,7 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "not so much of the crime of arson as of hatred of the human race"
 review_state: draft
 cache_stability: static
 title: Nero's Fire and the First Scapegoating

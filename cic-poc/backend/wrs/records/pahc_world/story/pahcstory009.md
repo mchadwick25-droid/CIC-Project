@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "whatever you do not want done to you, do not do to another"
+signature: true
 review_state: draft
 cache_stability: static
 title: 'The Two Ways: A Catechumen''s Path to the Water'

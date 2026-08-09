@@ -1,6 +1,7 @@
 Story-Title:    The One Eucharist, Under the Bishop
 World-Code:     pahc
 Tier:           4
+Key-Line:       "just as wherever Jesus Christ is, there is the catholic church."
 Confidence:     Inferential-Thin (always, per Tier 4) — underlying instructional text is Documented; representativeness of settled practice vs. aspirational program is an open Strand Determination question
 Source:         See Source Identification below — Ignatius, *Philadelphians* 4 and *Smyrnaeans* 8 (Registry P03).
 Retrieve-When:  Participant asks about Strand A's eucharistic practice specifically; conversation reaches how G07 (Eucharist) fuses with G01 (Authority) and G05 (Boundary-Drawing) in Ignatius's own program; participant needs a Strand A counterpart to Story 006 or 010.

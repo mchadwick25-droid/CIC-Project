@@ -8,6 +8,7 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "in a word, he takes care of all who are in need."
 review_state: draft
 cache_stability: static
 title: A Sunday Gathering in Rome, As Justin Describes It

@@ -1,6 +1,7 @@
 Story-Title:    Nero's Fire and the First Scapegoating
 World-Code:     pahc
 Tier:           1
+Key-Line:       "not so much of the crime of arson as of hatred of the human race"
 Confidence:     Widely Accepted (the passage's basic authenticity) / Contested (whether a discrete, fire-linked persecution of Christians as a named group actually occurred)
 Source:         Tacitus, *Annals* 15.44 (Registry P08), written c. 116 CE describing events of 64 CE.
 Retrieve-When:  Participant asks why this world's formation logic is "argued, not inherited"; participant asks about this world's origin or generative starting point; participant asks about G03 (State Pressure) background or the loss of an eyewitness generation.

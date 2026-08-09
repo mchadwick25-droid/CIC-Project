@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ."
+signature: true
 review_state: draft
 cache_stability: static
 title: Ignatius's Guarded Journey to Rome

@@ -1,6 +1,7 @@
 Story-Title:    A Sunday Gathering in Rome, As Justin Describes It
 World-Code:     pahc
 Tier:           1
+Key-Line:       "in a word, he takes care of all who are in need."
 Confidence:     Widely Accepted (as an accurate description of Roman practice) / Contested (as a network-wide template)
 Source:         Justin Martyr, *First Apology* 65–67 (Registry P06), c. 153–157 CE.
 Retrieve-When:  Participant asks what a Sunday gathering actually looked like; participant asks about G07 (Liturgical Practice/Eucharist) from the Strand B/Roman side; participant wants a directly-attested (not reconstructed) worship description.
