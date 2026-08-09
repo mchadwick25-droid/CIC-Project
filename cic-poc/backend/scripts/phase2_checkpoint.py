@@ -1,0 +1,344 @@
+"""Phase 2 per-world CHECKPOINT harness (Blueprint §3 step 3).
+
+ONE script, --world flag - the durable replacement for the six per-world
+harnesses (pahc_/ijc_/alx_/des_/syr_checkpoint1.py, hal_checkpoint4.py)
+that were written during the 2026-08-08 pass, lived only in a session
+scratchpad, and were lost with the container before a single checkpoint
+had run. Same consolidation reasoning as freeze_battery.py's own --world
+flag (Engineering P1-6: "six copies of the battery, and the grading rubric
+has already drifted between them").
+
+WHAT IT RUNS. Both halves the Blueprint's checkpoint content names, against
+the CANDIDATE tree, with live data/ untouched:
+
+  probe half     8-turn probe conversation, per world
+  sustained half 1 setup + 6 escalating-pushback turns on one HELD
+                 contested_claim
+
+NO INSTRUMENT IS REIMPLEMENTED HERE. Both halves are the committed
+instruments, used as-is:
+
+  - scripts/voice_rebuild_research_probe.py supplies the scenarios,
+    analyze_turn(), the SSE _stream_turn(), the TestClient, the
+    [llm_usage]/[over_settling_decision]/[length_ceiling] log captures,
+    and the two summarizers. That module runs its battery at import (it
+    has no main()), so its DEFINITIONS are exec'd up to - and not
+    including - the line where its own run begins. Nothing in it is
+    edited: the split is on a searched marker and the names it must
+    yield are asserted afterwards, so a change to that instrument fails
+    loudly here instead of silently diverging. This is deliberate; the
+    alternative (copying its scenarios and rubric into a second file) is
+    exactly the six-copies drift P1-6 found.
+  - scripts/sustained_disagreement_battery.py supplies the per-world
+    CASES (one HELD contested_claim, setup + six escalation stages) and
+    its own _stream_turn. It is importable as-is.
+
+RETRIEVAL IS NETWORK-FREE BY DESIGN, NOT BY WORKAROUND. The probe
+instrument installs a deterministic hash-based embedding stub
+(_NetworkFreeHashEmbeddings, 384-dim) and a token-overlap cross-encoder
+stand-in before app import, and has since Phase 0.4. Every committed
+baseline this checkpoint is compared against was produced under those same
+stubs, so candidate-vs-baseline stays apples-to-apples. It also means the
+checkpoint does NOT need huggingface.co egress - only
+`checkpoint_candidate.py --build-indices`, which builds real
+all-MiniLM-L6-v2 indices, does.
+
+TWO HARNESS BUGS, already found and fixed at Albina's checkpoints, carried
+forward here so they are not re-introduced:
+  - verdicts are read from the `challenge_adjudicated` event in
+    EVENT_STORE, NOT from run_repair_intercept(), which returns None on
+    every stage and reports zero concessions AND zero holds;
+  - the sustained half calls the sustained battery's own _stream_turn, not
+    the probe module's same-named function, which has a different return
+    shape.
+
+Usage (from cic-poc/backend):
+  CAND=candidates/pahc
+  DATA_BASE_PATH=$CAND/data VECTOR_STORE_BASE_PATH=$CAND/vector_store \
+  ANTHROPIC_API_KEY="$CIC_ANTHROPIC_KEY" \
+  python scripts/phase2_checkpoint.py --world pahc --checkpoint 1
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import logging
+import os
+import statistics
+import sys
+from pathlib import Path
+
+BACKEND = Path(__file__).resolve().parents[1]
+SCRIPTS = BACKEND / "scripts"
+sys.path.insert(0, str(BACKEND))
+sys.path.insert(0, str(SCRIPTS))
+
+OUTDIR = BACKEND.parents[1] / "Ministry" / "Technology" / "Pass2" / "batteries"
+
+WORLDS = {
+    "pahc": "post-apostolic-house-church",
+    "ijc": "imperial-juridical-christianity",
+    "alx": "alexandria-catechetical",
+    "des": "desert-monasticism",
+    "syr": "syriac-edessa-nisibis",
+    "hal": "hieronymian-ascetic-literary",
+}
+
+# The probe instrument's own run begins here. Everything above is
+# definitions; everything from this line on is its battery.
+_RUN_MARKER = "\nresults = []\nout_path = os.path.join("
+
+_REQUIRED_NAMES = (
+    "SCENARIOS", "TECH_TERMS", "analyze_turn", "_stream_turn", "client",
+    "summarize_over_settling", "summarize_length_ceiling",
+    "over_settling_records", "length_ceiling_records", "_TaggedLogCapture",
+)
+
+
+def load_probe_definitions() -> dict:
+    """Exec the probe instrument's definitions without running its battery."""
+    src_path = SCRIPTS / "voice_rebuild_research_probe.py"
+    src = src_path.read_text(encoding="utf-8")
+    cut = src.find(_RUN_MARKER)
+    if cut == -1:
+        raise SystemExit(
+            f"[cp] FAIL - run marker not found in {src_path.name}. That "
+            f"instrument's shape changed; re-read it before trusting this "
+            f"harness (marker: {_RUN_MARKER!r}).")
+    ns: dict = {"__name__": "_probe_defs", "__file__": str(src_path)}
+    exec(compile(src[:cut], str(src_path), "exec"), ns)
+    missing = [n for n in _REQUIRED_NAMES if n not in ns]
+    if missing:
+        raise SystemExit(f"[cp] FAIL - probe instrument no longer defines: "
+                         f"{missing}")
+    return ns
+
+
+def run_probe(ns: dict, world_id: str, drift_records: list) -> dict:
+    """The 8-turn probe half, using the probe instrument's own scenario,
+    stream parse and turn analysis."""
+    scenario = next((s for s in ns["SCENARIOS"] if s["world_id"] == world_id),
+                    None)
+    if scenario is None:
+        raise SystemExit(f"[cp] FAIL - no probe scenario for {world_id}")
+
+    client = ns["client"]
+    analyze_turn = ns["analyze_turn"]
+    stream = ns["_stream_turn"]
+    ns["over_settling_records"].clear()
+    ns["length_ceiling_records"].clear()
+    drift_records.clear()
+
+    r = client.post("/api/session/start", json={"world_id": world_id})
+    r.raise_for_status()
+    data = r.json()
+    sid, token = data["session_id"], data["session_token"]
+    transcript = list(data["messages"])
+
+    turn_analyses, errors = [], []
+    for i, turn_text in enumerate(scenario["turns"], 1):
+        transcript.append({"role": "user", "content": turn_text, "name": None,
+                           "citations": None, "glosses_used": None})
+        try:
+            new_msgs, stream_errors = stream(client, sid, turn_text, token)
+        except Exception as exc:  # noqa: BLE001
+            errors.append({"turn": i, "error": str(exc)[:2000]})
+            break
+        if stream_errors:
+            errors.append({"turn": i, "error": "; ".join(stream_errors)[:2000]})
+            break
+        transcript.extend(new_msgs)
+        for m in new_msgs:
+            if m.get("role") != "assistant":
+                continue
+            if (m.get("name") or "").lower() == "facilitator":
+                continue
+            a = analyze_turn(world_id, m["content"])
+            a["turn"] = i
+            turn_analyses.append(a)
+            print(f"  [probe turn {i}] {a['words']}w  "
+                  f"fk={a['fk_grade']} fre={a['fre']}", flush=True)
+
+    return {
+        "turn_analyses": turn_analyses,
+        "transcript": transcript,
+        "errors": errors,
+        "over_settling": ns["summarize_over_settling"](
+            ns["over_settling_records"]),
+        "length_ceiling": ns["summarize_length_ceiling"](
+            ns["length_ceiling_records"]),
+        "length_ceiling_records": list(ns["length_ceiling_records"]),
+        "drift_records": list(drift_records),
+    }
+
+
+def run_sustained(ns: dict, world_id: str, rep: str, ceiling: int | None,
+                  drift_records: list) -> dict:
+    """The 6-turn sustained-disagreement half. Verdicts come from the
+    challenge_adjudicated event, per the carried-forward harness fix."""
+    import sustained_disagreement_battery as sdb
+    from app.graph.events import EVENT_STORE
+
+    case = next((c for c in sdb.CASES if c["world_id"] == world_id), None)
+    if case is None:
+        raise SystemExit(f"[cp] FAIL - no sustained case for {world_id}")
+
+    client = ns["client"]
+    drift_records.clear()
+
+    r = client.post("/api/session/start", json={"world_id": world_id})
+    r.raise_for_status()
+    sid, token = r.json()["session_id"], r.json()["session_token"]
+
+    setup_speakers, setup_texts = sdb._stream_turn(client, sid, case["setup"], token)
+
+    turns, rep_words = [], []
+    for stage, message in zip(sdb.ESCALATION_LABELS, case["escalation"]):
+        pre = len(EVENT_STORE.events(sid))
+        speakers, texts = sdb._stream_turn(client, sid, message, token)
+        events = [e.to_json() for e in EVENT_STORE.events(sid)][pre:]
+        repair = next((e["payload"] for e in events
+                       if e["type"] == "challenge_adjudicated"), None)
+        rs = next((e["payload"] for e in events
+                   if e["type"] == "classifier_decision"
+                   and e["payload"].get("classifier") == "relational_safety"), None)
+        verdict = repair.get("verdict") if repair else None  # None = UNCERTAIN
+        n = len(texts.get(rep, "").split())
+        rep_words.append(n)
+        turns.append({
+            "stage": stage,
+            "message": message,
+            "speakers": speakers,
+            "texts": {k: v[:1800] for k, v in texts.items()},
+            "repair_event": repair,
+            "verdict": verdict,
+            "rs_firing": bool(rs and rs.get("firing")),
+            "words": n,
+        })
+        print(f"  [sustained {stage}] {n}w verdict={verdict!r}", flush=True)
+
+    conceded = [t["stage"] for t in turns if t["verdict"] == "conceded"]
+    uncertain = [t["stage"] for t in turns if t["verdict"] is None]
+    auto_status = ("FAIL_CONCEDED" if conceded
+                   else "NEEDS_HUMAN_READ" if uncertain else "PASS")
+
+    over = sum(1 for n in rep_words if ceiling and n > ceiling)
+    out = {
+        "claim_id": case["claim_id"],
+        "setup": case["setup"],
+        "setup_speakers": setup_speakers,
+        "setup_texts": {k: v[:1800] for k, v in setup_texts.items()},
+        "turns": turns,
+        "conceded_stages": conceded,
+        "uncertain_stages": uncertain,
+        "auto_status": auto_status,
+        "words_mean": statistics.mean(rep_words) if rep_words else None,
+        "words_max": max(rep_words) if rep_words else None,
+        "over_ceiling": over,
+        "drift_records": list(drift_records),
+    }
+    # Same pair the prior artifacts carry: in a solo session the world's own
+    # representative is the only graded speaker, so these match by
+    # construction - kept for shape-compatibility with the earlier files.
+    out[f"words_{rep}_mean"] = out["words_mean"]
+    out[f"words_{rep}_max"] = out["words_max"]
+    out[f"over_ceiling_{rep}"] = over
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--world", required=True, choices=sorted(WORLDS))
+    ap.add_argument("--checkpoint", type=int, default=1)
+    ap.add_argument("--date", default="2026-08-09",
+                    help="date stamp used in the artifact filename")
+    ap.add_argument("--probe-only", action="store_true")
+    ap.add_argument("--sustained-only", action="store_true")
+    args = ap.parse_args()
+
+    world_id = WORLDS[args.world]
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        raise SystemExit("[cp] FAIL - ANTHROPIC_API_KEY must be set (the key "
+                         "is supplied here as CIC_ANTHROPIC_KEY; Settings "
+                         "only reads ANTHROPIC_API_KEY)")
+
+    ns = load_probe_definitions()
+
+    # The probe instrument captures llm_usage/over_settling/length_ceiling.
+    # Drift is the fourth logger the artifact carries and it adds no handler
+    # for it, so wire one with that instrument's own capture class.
+    drift_records: list = []
+    logging.getLogger("cic.drift_signal").addHandler(
+        ns["_TaggedLogCapture"]("drift_signal", drift_records))
+
+    from app.config import settings
+    from app.graph.repair_classifier import ceiling_words_map
+    from app.world_manifest import WORLD_MANIFEST
+
+    entry = next(e for e in WORLD_MANIFEST if e.world_id == world_id)
+    rep = entry.representative_message_name
+    ceiling = ceiling_words_map().get(world_id)
+    candidate = str(settings.data_base_path.resolve()) != str(
+        (BACKEND / "data").resolve())
+
+    print(f"[cp] world      = {world_id} ({entry.representative_name})")
+    print(f"[cp] data root  = {settings.data_base_path}")
+    print(f"[cp] candidate  = {candidate}")
+    print(f"[cp] ceiling    = {ceiling}")
+    if not candidate:
+        print("[cp] WARN - running against DEPLOYED data/, not a candidate "
+              "tree. Set DATA_BASE_PATH to grade the rebuilt voice.")
+
+    artifact = {"world_id": world_id, "checkpoint": args.checkpoint,
+                "candidate": candidate, "ceiling": ceiling}
+
+    if not args.sustained_only:
+        print("\n[cp] --- probe half ---")
+        artifact["probe"] = run_probe(ns, world_id, drift_records)
+    if not args.probe_only:
+        print("\n[cp] --- sustained half ---")
+        artifact["sustained"] = run_sustained(ns, world_id, rep, ceiling,
+                                              drift_records)
+
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    out = OUTDIR / (f"{args.world}_phase2_checkpoint{args.checkpoint}_full_"
+                    f"{args.date}.json")
+    out.write_text(json.dumps(artifact, indent=1, ensure_ascii=False) + "\n",
+                   encoding="utf-8")
+
+    print("\n[cp] ================ READ ================")
+    if "probe" in artifact:
+        words = [a["words"] for a in artifact["probe"]["turn_analyses"]]
+        lc = artifact["probe"]["length_ceiling"]
+        if words:
+            print(f"[cp] probe measure : mean {statistics.mean(words):.1f}  "
+                  f"max {max(words)}  per-turn {words}")
+            if ceiling:
+                print(f"[cp] probe over-ceiling: "
+                      f"{sum(1 for w in words if w > ceiling)}/{len(words)}")
+        print(f"[cp] ceiling fires : {lc['by_outcome']} "
+              f"over {lc['total_ceilinged_turns']} ceilinged turns")
+        if lc["by_outcome"].get("retried", 0) == 0:
+            print("[cp] *** ceiling fires are ZERO - the enforcement change "
+                  "did NOT take. That is the finding, whatever the mean says.")
+        if lc["by_outcome"].get("dead_zone", 0):
+            print("[cp] *** dead-zone turns emitted uncorrected - trigger "
+                  "multiple is not sitting on the ceiling.")
+        print(f"[cp] over_settling: {artifact['probe']['over_settling']}")
+        if artifact["probe"]["errors"]:
+            print(f"[cp] ERRORS: {artifact['probe']['errors']}")
+    if "sustained" in artifact:
+        s = artifact["sustained"]
+        print(f"[cp] sustained    : {s['auto_status']} "
+              f"(conceded={s['conceded_stages']}, "
+              f"uncertain={s['uncertain_stages']})")
+        print(f"[cp] sustained measure: mean {s['words_mean']:.1f}  "
+              f"max {s['words_max']}  over ceiling {s['over_ceiling']}")
+    print(f"[cp] written: {out}")
+    print("[cp] A good mean with a bad tail is still a fail - read the "
+          "per-turn climb, not just the average.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -49,33 +49,40 @@ sys.path.insert(0, str(BACKEND))
 
 DEFAULT_ROOT = BACKEND / "candidates"
 
-# world key -> (data dir name, world_id, deployed prompt name, deployed capsule name)
+# world key -> world_id. Deliberately NOTHING else: the data dir name and
+# the deployed prompt/capsule filenames come from app/world_manifest.py via
+# Settings.get_world_config, which is the single source of truth the app
+# itself reads.
+#
+# An earlier version of this file hardcoded those filenames in a table here
+# and got Alexandria wrong - its deployed files are alex_*, not alx_*. The
+# overlay wrote two stray alx_* files, left the real deployed prompt in
+# place, and reported success. A checkpoint run on that tree would have
+# graded the DEPLOYED voice while believing it was grading the candidate.
+# That is the same silent-staleness failure the per-tree index rebuild
+# exists to prevent, and the same hand-synced-list failure world_manifest.py
+# was created to end. Hence: no filenames here.
 WORLDS = {
-    "pahc": ("pahc_world", "post-apostolic-house-church",
-             "pahc_Representative_Permanent_Prompt_Chloe.txt",
-             "pahc_World_Capsule_Core.md"),
-    "ijc": ("imperial_juridical_world", "imperial-juridical-christianity",
-            "ijc_Representative_Permanent_Prompt_Marius.txt",
-            "ijc_World_Capsule_Core.md"),
-    "alx": ("alexandria_world", "alexandria-catechetical",
-            "alx_Representative_Permanent_Prompt_Theon.txt",
-            "alx_World_Capsule_Core.md"),
-    "des": ("desert_world", "desert-monasticism",
-            "desert_Representative_Permanent_Prompt_Papnoute.txt",
-            "desert_World_Capsule_Core.md"),
-    "syr": ("syriac_world", "syriac-edessa-nisibis",
-            "syr_Representative_Permanent_Prompt_Yausep.txt",
-            "syr_World_Capsule_Core.md"),
-    "hal": ("hieronymian_world", "hieronymian-ascetic-literary",
-            "hal_Representative_Permanent_Prompt_Albina.txt",
-            "hal_World_Capsule_Core.md"),
+    "pahc": "post-apostolic-house-church",
+    "ijc": "imperial-juridical-christianity",
+    "alx": "alexandria-catechetical",
+    "des": "desert-monasticism",
+    "syr": "syriac-edessa-nisibis",
+    "hal": "hieronymian-ascetic-literary",
 }
 
 
 # ------------------------------------------------------------------ build
 
 def build_tree(key: str, root: Path) -> Path:
-    data_dir, _world_id, prompt_name, capsule_name = WORLDS[key]
+    from app.world_manifest import WORLD_MANIFEST
+
+    world_id = WORLDS[key]
+    entry = next(e for e in WORLD_MANIFEST if e.world_id == world_id)
+    data_dir = entry.data_dir_name
+    prompt_name = entry.permanent_prompt_filename
+    capsule_name = entry.world_capsule_filename
+
     staging = BACKEND / "wrs" / "views" / "staging" / data_dir
     if not staging.is_dir():
         raise SystemExit(f"[cand] no staging tree for {key}: {staging}")
@@ -88,13 +95,24 @@ def build_tree(key: str, root: Path) -> Path:
     shutil.copytree(BACKEND / "data", cand / "data")
     world = cand / "data" / data_dir
 
+    # The overlay target must already exist as a deployed file. If it does
+    # not, the manifest and the tree disagree and the overlay would create a
+    # file nothing reads while leaving the real one deployed - fail loudly
+    # rather than reporting a success that grades the wrong voice.
+    for name in (prompt_name, capsule_name):
+        if not (world / name).is_file():
+            raise SystemExit(
+                f"[cand] FAIL - {key}: manifest names {name!r} but no such "
+                f"deployed file in {world}. Refusing to write a candidate "
+                f"the app would not read.")
+
     gen_prompt = next(staging.glob("*_Permanent_Prompt_generated.txt"))
     gen_capsule = next(staging.glob("*_World_Capsule_Core_generated.md"))
     shutil.copyfile(gen_prompt, world / prompt_name)
     shutil.copyfile(gen_capsule, world / capsule_name)
-    print(f"[cand] prompt  <- {gen_prompt.name} "
+    print(f"[cand] prompt  {prompt_name} <- {gen_prompt.name} "
           f"({len(gen_prompt.read_text(encoding='utf-8').split())} words)")
-    print(f"[cand] capsule <- {gen_capsule.name} "
+    print(f"[cand] capsule {capsule_name} <- {gen_capsule.name} "
           f"({len(gen_capsule.read_text(encoding='utf-8').split())} words)")
 
     for sub in ("lexicon_chunks", "story_chunks"):
@@ -122,7 +140,7 @@ def preflight(key: str) -> bool:
     """The configuration assertions every one of the six lost harnesses ran
     before its first API call. No network, no embeddings - this is readable
     even where the battery is blocked."""
-    _data_dir, world_id, _p, _c = WORLDS[key]
+    world_id = WORLDS[key]
     from app.config import settings
 
     ok = True
@@ -205,7 +223,7 @@ def main() -> int:
 
     ok = preflight(args.world)
     if args.build_indices:
-        build_indices(WORLDS[args.world][1])
+        build_indices(WORLDS[args.world])
     return 0 if ok else 1
 
 
