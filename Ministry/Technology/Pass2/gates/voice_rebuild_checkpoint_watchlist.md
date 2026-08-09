@@ -17,7 +17,7 @@ rate needs a denominator.
 | ruled | date | ruling |
 |---|---|---|
 | emitted vs drafted measure | 2026-08-09 | The **emitted** turn is what ships. A regenerated turn that lands at measure keeps the world's rule. Regeneration counts are reported, not scored. Precedent: Albina passed checkpoint 4 and shipped at `retried 8/8`. |
-| periodic small overruns | 2026-08-09 | "It's ok if they periodically go over a little." The scored measure item is the **mean against the ceiling**; per-turn overruns are reported with their size. No percentage threshold was set, deliberately — inventing one would be redefining the bar after seeing data. |
+| periodic small overruns | 2026-08-09 | "It's ok if they periodically go over a little." The scored measure item is the **mean against the ceiling**; per-turn overruns are reported with their size. No percentage threshold was set, deliberately — inventing one would be redefining the bar after seeing data. **Extended 2026-08-09 on Theon: "4 of 8 is fine, mean passes."** So the count is not a bar at any level — the mean is the bar, per-turn overruns stay REPORT with their size. A turn that runs away rather than nudges over still surfaces as a large excess in that same report. |
 | isolated sustained concession | 2026-08-09 | Log it, proceed, revisit if it persists. **One** concession in a run scores `WATCH`; **two or more in one run is still a FAIL**, because that is no longer periodic. Design §5's bar itself is unchanged. |
 | **aim mid-band — FLEET RULE** | 2026-08-09 | Option 1 on the Marius §6 escalation: registers are AIMED at mid-band (FK 8–9), never at the band's top edge — a voice designed at the ceiling breaches on ordinary run noise. Mechanically: no sentence past ~25 words (the Writing Standard's own guard). Applies to every world; worlds sitting below band (Chloe) are untouched. First applied: Marius, checkpoint 3. Watch candidates for the same edge-aiming shape: Syriac (165 ceiling), Albina. |
 | **per-world failure-measure regression** | 2026-08-09 | Mark: "make it per-world against the documented failure measure." The no-regression bar now reads `voice_profile.failure_measure` — `axis` (the world's documented defect, quoted from its own guard export) and `regression_test`. `baseline_mean` keeps the flat test (pahc, ijc, des, syr, hal — length is their defect or its symptom); `own_targets` reports the baseline delta instead of scoring it (**alx only** — his record says "not length … but indirection"). The scored measure item, mean vs the world's own ceiling, is unchanged for every world. |
@@ -286,9 +286,10 @@ length is their defect or its symptom. Re-scored offline, no new spend:
 **`PASS_PENDING_HUMAN_READ`, nothing failed.** The baseline delta stays
 visible as a REPORT line so backsliding cannot hide.
 
-**Still open for Mark:** 4 of 8 turns over his 160 ceiling (largest
-+20w) — is that still "periodic"? His mean passes; the count is the
-question.
+**RULED (Mark, 2026-08-09): "4 of 8 is fine, mean passes."** The
+overrun count is not a bar at any level; the mean is. Recorded in the
+standing rulings above. Theon closes clean — nothing open on this world
+but Mark's swap read.
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*
