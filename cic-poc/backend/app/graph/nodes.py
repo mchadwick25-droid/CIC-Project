@@ -1664,7 +1664,14 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         HARD_CEILING_WORLDS = ceiling_words_map() or _CEILING_FALLBACK
     except Exception:
         HARD_CEILING_WORLDS = _CEILING_FALLBACK
-    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
+    # hieronymian 1.2 -> 1.0 (Mark's ruling, 2026-08-08, Albina checkpoint 3):
+    # her sustained-pushback drafts land at 164-186 words - over her 160
+    # ceiling, under the old 192 trigger - the dead zone her own
+    # native_measure.dead_zone_note recorded. Four of checkpoint 3's five
+    # overruns sat exactly there while the same run's probe drafts (194-270)
+    # were all caught and corrected. At 1.0, any draft over the ceiling
+    # regenerates once. Per-world by design; the other five are unchanged.
+    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.0,
                                "alexandria-catechetical": 1.2,
                                "syriac-edessa-nisibis": 1.2,
                                "post-apostolic-house-church": 1.5,
