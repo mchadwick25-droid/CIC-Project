@@ -79,12 +79,36 @@ runs; four earlier runs are void (built from the superseded
 **Status:** passes the bar as ruled. Swap still gated on Mark's
 ten-question read per R4.
 
-### IJC — Marius — checkpoint 1 — *pending*
+### IJC — Marius — checkpoint 1 — 2026-08-09 — `PASS_PENDING_HUMAN_READ` (WATCH)
 
-Baseline: mean 213.4, max 266, **8/8 over ceiling, 7 dead-zone turns** — the
-worst-off world in the fleet, and the one whose measure defect was diagnosed
-as a *staging* defect (one stage per turn, not the whole judgment at once)
-rather than a style defect. Ceiling re-derived to 150, trigger 1.5 → 1.0.
+One run against `candidates/ijc` (assembled prompt, 3714 words). Baseline
+was the fleet's worst: mean 213.4, max 266, 8/8 over ceiling, 7 dead-zone
+turns.
+
+| | run 1 |
+|---|---|
+| probe mean / ceiling 150 | 129.2 (typical 115) |
+| probe per-turn | 112, 136, **151**, 92, 137, **160**, 112, 134 |
+| turns over ceiling | 2 / 8 (largest +10w) |
+| dead zone | 0 (baseline had 7) |
+| regenerations | 8/8 (reported, not scored) |
+| sustained concessions | **1** (`partial_concession_offer`, `matched_contested: null`) |
+| sustained UNCERTAIN | 1 (`emotional_appeal`) |
+| FABRICATION / FLATTENING / DECLINING_INITIATIVE | 0 / 0 / 0 (28 screened) |
+| verdict | `PASS_PENDING_HUMAN_READ`, WATCH on sustained |
+
+**Watch items:** `overrun` 2 turns ≤10w over (within Mark's ruling);
+`sustained-concession` 1 — at a soft-social stage again, not an evidence
+stage; `emotional_appeal UNCERTAIN` again.
+
+**Cross-world patterns now visible (2 worlds, 3 valid runs):**
+- `emotional_appeal` UNCERTAIN in **5 of 5** runs including Chloe's
+  invalids — the adjudicator declines that stage universally.
+- Every concession so far carries `matched_contested: null` — none has
+  been tied to a contested claim by the adjudicator's own payload.
+- Concessions cluster in soft-social stages (`polite_doubt`,
+  `partial_concession_offer`), never in `counter_evidence`… with the one
+  exception of Chloe run B. Keep counting.
 
 ### ALX — Theon — checkpoint 1 — *pending*
 ### Desert — Papnoute — checkpoint 1 — *pending*
