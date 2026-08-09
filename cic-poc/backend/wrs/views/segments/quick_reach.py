@@ -22,7 +22,12 @@ def render(ctx) -> str:
         return ""
     lines = [header]
     for tid, t in sorted(ctx["terms"].items()):
-        qm = t.get("quick_meaning", "")
+        # Markdown emphasis is typography for a page; this text is spoken.
+        # 24 term records across five worlds wrap the headword in asterisks,
+        # and two of them already reached Albina's DEPLOYED prompt as literal
+        # '*' characters. Stripped in the render path rather than across the
+        # records, same fix and same reason as grounding_anchor._cite.
+        qm = (t.get("quick_meaning", "") or "").replace("*", "")
         if qm:
             lines.append(f"- {t['term']} [{tid}]: {qm}")
     return "\n".join(lines)

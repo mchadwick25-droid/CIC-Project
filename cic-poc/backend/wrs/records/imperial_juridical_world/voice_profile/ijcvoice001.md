@@ -92,18 +92,54 @@ register_determination:
     TO the register - the genre is the world''s own documented practice, not an aesthetic choice imported
     backward.'
 native_measure:
-  typical_words: 120
-  ceiling_words: 180
-  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
-    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/IJC freeze
-    (2026-07-31, Decision IJC-5) as a MODERATE enforcing ceiling - no designed answer cap
-    exists in the prompt; the battery measured 251-256w mean / 389w max, and 180 sits above
-    the fleet band, below the measured mean, pulling the long tail toward the staged design.
-    The note below predates this addition and still says no entry exists - stale, kept as-is
-    pending this world's Phase 2 rebuild.
-  note: 'PROVISIONAL PLANNING FIGURE, declared: the prompt caps SENTENCE length (''one finding, full stop''),
-    never answer length - no designed word cap exists (the PAHC contrast). The freeze battery MEASURES
-    the native measure; the ceiling decision rules (the HAL-4/PAHC-5 lane; no HARD_CEILING_WORLDS entry
-    exists for ijc).'
+  typical_words: 115
+  ceiling_words: 150
+  ceiling_source: >-
+    RE-DERIVED at Phase 2 (2026-08-08), replacing the migrated 120/180. The old pair was
+    never derived: 120 was declared a PROVISIONAL PLANNING FIGURE and 180 was set
+    deliberately counter-empirically at the S6.2 freeze, chosen to sit BELOW a measured
+    251-256w mean in order to pull the long tail down. Neither came from this world's own
+    record.
+  derivation: >-
+    A survey of all 41 source records, world_core, story, term and the deployed prompt
+    found NO length evidence in this world's record, and that negative result is the
+    starting point rather than an obstacle. No source states the extent of any document.
+    No record calls any document brief, extended or terse. The single explicit length
+    statement is a NEGATION: ijclex009 says twice that what makes a Tome a Tome is the
+    standing of the issuing see, NOT its length, and flags reading 'tome' as 'long' as
+    precisely the modern error to avoid. The one genre the persona is built around - the
+    petition - is unattested: 41 rows, not one petition, rescript or chancery register.
+    So the measure cannot be read off a document, and any figure claiming to be is false.
+    What the record DOES document is a structure, in two independent places (deployed
+    prompt Section 4; this profile's own speaking_model.ends): judgment is delivered in
+    STAGES ACROSS TURNS - heard, then precedent recalled, then finding stated, and only
+    under further pressing what the finding leaves open - explicitly 'You do not deliver a
+    full judgment at once.' A native turn therefore carries ONE stage, not the whole
+    judgment. The second documented constraint is sentence-level: short pointable
+    sentences, one finding then a full stop, held under complexity. The measure is derived
+    from those two together - one stage, built of short pointable sentences - not from a
+    document's length. 115 is that stage; 150 allows the formal conciliar register its
+    fuller cadence without allowing a whole judgment at once.
+  measured_baseline: >-
+    Streaming re-baseline 2026-08-08, 8 turns: mean 215.9, max 269, 7 of 8 over the
+    then-current 180 ceiling - the worst overrun in the fleet. Read against the derivation
+    above, this is not a style preference running long: it is Marius delivering the entire
+    staged judgment in a single turn, which his own Section 4 forbids. The measure defect
+    and the staging defect are ONE defect, which is why this pass treats them together.
+  dead_zone_note: >-
+    The ceiling has never once fired for this world. RETRY_TRIGGER_MULTIPLES
+    (app/graph/nodes.py) sets IJC at 1.5, so with the old 180 ceiling the retry trigger sat
+    at 270 - and the baseline max was 269. All 8 turns landed in the dead zone 181-270:
+    over the ceiling, under the trigger, shipped uncorrected. That is a 90-word dead zone,
+    the widest in the fleet. Fixed the same way Albina's was at her checkpoint 4 (1.2 ->
+    1.0, which took her sustained mean to 128 with zero turns over ceiling): IJC goes to
+    1.0, so the trigger sits at the ceiling itself.
+  note: >-
+    Deliberately NOT set to the observed mean, and deliberately NOT left at 180. Setting a
+    target to measured behaviour ratifies the defect; leaving a ceiling the trigger can
+    never reach measures nothing. The prompt still caps SENTENCE length and not answer
+    length - that gap is real and stays real. This pass does not close it by adding another
+    prose restatement of the measure, which is the weakest lever and, per Design SS2 Layer
+    3, is stated ONCE here and carried by the demonstrations instead.
 ---
 Authored at the S6.2/IJC S2.7-equivalent (2026-07-31) from the deployed Marius prompt's own sections + Step10_Phase5_Boundary_Testing_Record.md (five rounds, Opus-graded from Round 4; every reproducible finding fixed and independently re-verified). The register/measure reasoning and the battery's REQUIRED reprobe list live in wrs/migrate/s62_ijc_s27.py.

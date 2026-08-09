@@ -39,7 +39,7 @@
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
-   "chars": 2735,
+   "chars": 2733,
    "est_tokens": 683
   },
   {

@@ -1671,11 +1671,18 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # overruns sat exactly there while the same run's probe drafts (194-270)
     # were all caught and corrected. At 1.0, any draft over the ceiling
     # regenerates once. Per-world by design; the other five are unchanged.
+    # imperial-juridical 1.5 -> 1.0 (Phase 2, Marius's pass, 2026-08-08): the
+    # same dead-zone fix, on the fleet's worst case. At 1.5 against the old
+    # 180 ceiling the trigger sat at 270 and his streaming baseline's max was
+    # 269 - all 8 turns over the ceiling, all 8 under the trigger, none ever
+    # regenerated. The ceiling had never fired for this world at all. His
+    # re-derived ceiling is 150 (native_measure), so at 1.0 the trigger sits
+    # on the ceiling itself. Per-world by design; the other four are unchanged.
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.0,
                                "alexandria-catechetical": 1.2,
                                "syriac-edessa-nisibis": 1.2,
                                "post-apostolic-house-church": 1.5,
-                               "imperial-juridical-christianity": 1.5}
+                               "imperial-juridical-christianity": 1.0}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
