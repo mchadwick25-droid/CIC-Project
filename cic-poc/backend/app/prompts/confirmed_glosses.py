@@ -141,8 +141,25 @@ def find_glosses_used(world_id: str, response_text: str) -> list[dict]:
     if not glosses:
         return []
     lowered = response_text.lower()
-    return [
-        {"category": g.category, "original": g.original, "gloss": g.gloss, "rendered": g.rendered}
-        for g in glosses
-        if g.rendered.lower() in lowered
-    ]
+    # Two-tier detection (gloss-firing fix, 2026-08-09). Tier 1, unchanged:
+    # the full rendered form appeared - the voice glossed inline. Tier 2,
+    # new: the ORIGINAL phrase appeared without its rendered form. Chloe's
+    # diagnosis showed why tier 2 must exist: her rebuilt plain register
+    # naturally says "the water" or "Two Ways" mid-sentence and correctly
+    # refuses the clunky exact-wording form - so detection reported 0/8 all
+    # day while her transparency-worthy vocabulary was on screen. When only
+    # the original fires, inline=False tells the UI to supply the modern
+    # reading itself (Three-Level Transparency doing its job) instead of
+    # the voice being forced to lecture. Voice stays natural; the bridge
+    # still reaches the participant.
+    out = []
+    for g in glosses:
+        if g.rendered.lower() in lowered:
+            out.append({"category": g.category, "original": g.original,
+                        "gloss": g.gloss, "rendered": g.rendered,
+                        "inline": True})
+        elif g.original.lower() in lowered:
+            out.append({"category": g.category, "original": g.original,
+                        "gloss": g.gloss, "rendered": g.rendered,
+                        "inline": False})
+    return out
