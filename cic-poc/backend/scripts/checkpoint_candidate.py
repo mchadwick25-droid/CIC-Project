@@ -149,10 +149,14 @@ def build_tree(key: str, root: Path) -> Path:
     # ijc's S52 is 3714 words and Marius's checkpoint record states "Assembled
     # prompt: 3,714 words".
     # ...and rather than copy that file, ASSEMBLE. The staged S52 is a
-    # snapshot and can lag the records it was rendered from - on a clean tree
-    # PAHC's staged file is already 23 words behind what its own assembler
-    # produces. Calling the assembler makes the candidate the records' current
-    # output by construction, which is the whole point of grading a candidate.
+    # snapshot and can lag the records it was rendered from. (An earlier
+    # version of this comment claimed PAHC's staged file was "23 words behind"
+    # - that was a tokenizer artifact, wc -w vs python split disagreeing on
+    # the same bytes; the 2026-08-09 audit found staging byte-identical to
+    # the assembler on every world. The principle stands anyway: assembling
+    # makes the candidate the records' current output BY CONSTRUCTION rather
+    # than by trusting a snapshot, and reports drift loudly if it ever
+    # appears.)
     prompt_text = assemble_prompt(key)
     gen_capsule = next(staging.glob("*_World_Capsule_Core_generated.md"))
     (world / prompt_name).write_text(prompt_text, encoding="utf-8")

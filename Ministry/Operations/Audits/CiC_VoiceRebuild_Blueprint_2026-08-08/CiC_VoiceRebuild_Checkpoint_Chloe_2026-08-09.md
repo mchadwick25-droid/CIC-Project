@@ -81,10 +81,12 @@ prompt: 3,714 words." It now reproduces exactly.
 `assembly_identity` checks the five unswapped worlds only for
 *determinism* — never against staging, and never against what a checkpoint
 actually loads. The fix is not "copy the other file": the staged S52 is
-itself a snapshot and can lag its own records (PAHC's is 23 words behind on
-a clean tree), so `build_tree` now **calls the assembler**, making the
-candidate the records' current output by construction and reporting staged
-drift when it finds it.
+itself a snapshot that could lag its records, so `build_tree` now **calls
+the assembler**, making the candidate the records' current output by
+construction and reporting staged drift when it finds it. (A "23 words
+behind" claim in the first version of this paragraph was a tokenizer
+artifact — `wc -w` vs Python split on identical bytes; the 2026-08-09
+audit found staging byte-identical to the assembler on every world.)
 
 **A records fix authored off the invalid runs was backed out.** Two of three
 invalid-prompt sustained runs showed a self-retraction opener ("I said too
