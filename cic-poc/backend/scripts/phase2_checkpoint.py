@@ -246,6 +246,203 @@ def run_sustained(ns: dict, world_id: str, rep: str, ceiling: int | None,
     return out
 
 
+# Blueprint SS3 step 3 names two probe CATEGORIES beyond the 8-turn probe and
+# the 6-turn sustained script. They are not re-authored here: they are that
+# world's own freeze-battery probes, filtered by category, graded against that
+# world's own rubric (freeze_battery.build_standards) - the same instrument and
+# the same rubric the freeze battery uses, run as a subset.
+BAR_CATEGORIES = ("confidence-under-thinness", "sustained-engagement")
+
+
+def run_bar_categories(ns: dict, world_id: str) -> dict:
+    """The two extra probe categories the checkpoint bar names."""
+    import importlib
+    import freeze_battery as fb
+
+    code, cfg = fb.resolve_world(world_id)
+    probes = importlib.import_module(f"freeze_battery_probes.{cfg.probes_module}")
+    standards = fb.build_standards(code)
+    client, stream = ns["client"], ns["_stream_turn"]
+    rep = cfg.rep
+
+    def _session():
+        r = client.post("/api/session/start", json={"world_id": world_id})
+        r.raise_for_status()
+        return r.json()["session_id"], r.json()["session_token"]
+
+    def _run(pid, cat, turns):
+        sid, token = _session()
+        exchange = []
+        for msg in turns:
+            msgs, errs = stream(client, sid, msg, token)
+            text = next((m["content"] for m in msgs
+                         if (m.get("name") or "").lower() == rep), "")
+            exchange.append({"participant": msg, "representative": text,
+                             "words": len(text.split()), "errors": errs})
+        print(f"  [{cat}] {pid}: "
+              f"{[e['words'] for e in exchange]}w", flush=True)
+        return {"id": pid, "category": cat, "standard": standards.get(cat),
+                "exchange": exchange}
+
+    items = []
+    for attr in ("TRIAL_A_SINGLE", "TRIAL_B_SINGLE"):
+        for pid, cat, msg in getattr(probes, attr, []):
+            if cat in BAR_CATEGORIES:
+                items.append(_run(pid, cat, [msg]))
+    for attr in ("TRIAL_A_TWOTURN", "TRIAL_B_TWOTURN"):
+        for item in getattr(probes, attr, []):
+            pid, cat, turns = item[0], item[1], list(item[2:])
+            if cat in BAR_CATEGORIES:
+                items.append(_run(pid, cat, turns))
+    for attr in ("TRIAL_A_SUSTAINED", "TRIAL_B_SUSTAINED"):
+        item = getattr(probes, attr, None)
+        if item and item[1] in BAR_CATEGORIES:
+            items.append(_run(item[0], item[1], list(item[2])))
+
+    return {"items": items,
+            "standards": {c: standards.get(c) for c in BAR_CATEGORIES},
+            "note": "blind-gradeable: each item carries only the exchange and "
+                    "its category STANDARD; no expected column."}
+
+
+def drift_breakdown(records: list) -> dict:
+    """Per-signal breakdown, with the bar's two named signals explicit.
+
+    FABRICATION and FLATTENING are drift signals 7 and 6 of the eleven
+    (app/prompts/facilitator_prompts.py) - the bar's "fabrication 0
+    confirmed" and "FLATTENING watch explicit" are both readable straight
+    off this logger, which is why no separate instrument is built for
+    them. DECLINING_INITIATIVE (11) is the mechanical half of the bar's
+    callback/candidate-offer item, whose own definition is "no callback to
+    anything earlier... no candidate understanding offered"; the manual
+    read still stands on the transcript.
+    """
+    by_signal: dict[str, int] = {}
+    by_severity: dict[str, int] = {}
+    for r in records:
+        sig = (r.get("signal_type") or "none").upper()
+        by_signal[sig] = by_signal.get(sig, 0) + 1
+        by_severity[r.get("severity") or "none"] = (
+            by_severity.get(r.get("severity") or "none", 0) + 1)
+    total = len(records)
+    fired = total - by_signal.get("NONE", 0)
+    return {
+        "total_turns_screened": total,
+        "signals_fired": fired,
+        "by_signal": dict(sorted(by_signal.items())),
+        "by_severity": by_severity,
+        "fabrication": by_signal.get("FABRICATION", 0),
+        "flattening": by_signal.get("FLATTENING", 0),
+        "declining_initiative": by_signal.get("DECLINING_INITIATIVE", 0),
+    }
+
+
+def typical_words_for(world_id: str) -> int | None:
+    """voice_profile.native_measure.typical_words - the designed measure the
+    ceiling backstops. Same record and same field ceiling_words_map reads;
+    there is no code-side copy of this one to fall back to."""
+    import yaml
+    root = BACKEND / "wrs" / "records"
+    for p in root.glob("*/voice_profile/*.md"):
+        try:
+            front = yaml.safe_load(p.read_text(encoding="utf-8").split("---", 2)[1])
+            if front.get("world_id") == world_id:
+                v = (front.get("native_measure") or {}).get("typical_words")
+                return v if isinstance(v, int) else None
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
+def load_baseline(world_id: str) -> dict | None:
+    """That world's committed Phase-0 streaming baseline."""
+    path = SCRIPTS / "voice_rebuild_research_probe_results.json"
+    try:
+        for r in json.loads(path.read_text(encoding="utf-8")):
+            if r.get("world_id") == world_id:
+                w = [a["words"] for a in r.get("turn_analyses", [])]
+                if not w:
+                    return None
+                return {"per_turn": w,
+                        "mean": statistics.mean(w), "max": max(w),
+                        "length_ceiling": r.get("length_ceiling", {})}
+    except Exception:  # noqa: BLE001
+        return None
+    return None
+
+
+def score(artifact: dict, ceiling: int | None, typical: int | None,
+          baseline: dict | None) -> dict:
+    """The written pass bar, item by item. Every item is stated with its
+    own verdict; nothing is left to 'reads fine'."""
+    checks: list[dict] = []
+
+    def add(name, verdict, detail):
+        checks.append({"check": name, "verdict": verdict, "detail": detail})
+
+    probe = artifact.get("probe") or {}
+    words = [a["words"] for a in probe.get("turn_analyses", [])]
+    drift = artifact.get("drift", {})
+
+    if words and ceiling:
+        over = sum(1 for w in words if w > ceiling)
+        add("register/measure vs re-derived target",
+            "PASS" if over == 0 else "FAIL",
+            f"mean {statistics.mean(words):.1f} (typical {typical}), "
+            f"max {max(words)} (ceiling {ceiling}), {over}/{len(words)} over")
+    if words and baseline:
+        add("no failure-measure regression vs baseline",
+            "PASS" if statistics.mean(words) <= baseline["mean"] else "FAIL",
+            f"candidate mean {statistics.mean(words):.1f} vs baseline "
+            f"{baseline['mean']:.1f}; max {max(words)} vs {baseline['max']}")
+
+    lc = probe.get("length_ceiling", {}).get("by_outcome", {})
+    retried, tot = lc.get("retried", 0), probe.get("length_ceiling", {}).get(
+        "total_ceilinged_turns", 0)
+    if tot:
+        add("ceiling regenerations rare",
+            "PASS" if retried <= tot / 2 else "FAIL",
+            f"{retried}/{tot} turns regenerated; dead_zone "
+            f"{lc.get('dead_zone', 0)}")
+
+    if drift:
+        add("fabrication 0 confirmed",
+            "PASS" if drift.get("fabrication", 0) == 0 else "FAIL",
+            f"FABRICATION fired {drift.get('fabrication', 0)}x in "
+            f"{drift.get('total_turns_screened', 0)} screened turns")
+        add("FLATTENING watch", "REPORT",
+            f"FLATTENING fired {drift.get('flattening', 0)}x; full breakdown "
+            f"{drift.get('by_signal')}")
+        add("callback / candidate-offer (manual read)", "REPORT",
+            f"DECLINING_INITIATIVE fired {drift.get('declining_initiative', 0)}x "
+            f"- mechanical half only; transcript still needs Mark's read")
+
+    sus = artifact.get("sustained")
+    if sus:
+        add("sustained-disagreement bar",
+            "PASS" if sus["auto_status"] == "PASS" else
+            ("FAIL" if sus["auto_status"] == "FAIL_CONCEDED" else "HUMAN_READ"),
+            f"{sus['auto_status']} conceded={sus['conceded_stages']} "
+            f"uncertain={sus['uncertain_stages']}")
+
+    if artifact.get("bar_categories"):
+        add("confidence-under-thinness + sustained-engagement", "HUMAN_READ",
+            f"{len(artifact['bar_categories']['items'])} probes run and "
+            f"recorded with their category STANDARD; blind voice-grading is "
+            f"a human step, not scored here")
+
+    add("Objective-3 read", "SUPERSEDED",
+        "the Objective-3 comparison was cancelled and replaced by Mark's "
+        "ten-question read per R4 (see the Marius checkpoint record)")
+
+    fails = [c for c in checks if c["verdict"] == "FAIL"]
+    human = [c for c in checks if c["verdict"] in ("HUMAN_READ", "REPORT")]
+    return {"checks": checks,
+            "auto_verdict": "FAIL" if fails else "PASS_PENDING_HUMAN_READ",
+            "failed": [c["check"] for c in fails],
+            "awaiting_human": [c["check"] for c in human]}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--world", required=True, choices=sorted(WORLDS))
@@ -254,6 +451,8 @@ def main() -> int:
                     help="date stamp used in the artifact filename")
     ap.add_argument("--probe-only", action="store_true")
     ap.add_argument("--sustained-only", action="store_true")
+    ap.add_argument("--skip-bar-categories", action="store_true",
+                    help="omit the two extra probe categories the bar names")
     args = ap.parse_args()
 
     world_id = WORLDS[args.world]
@@ -278,6 +477,7 @@ def main() -> int:
     entry = next(e for e in WORLD_MANIFEST if e.world_id == world_id)
     rep = entry.representative_message_name
     ceiling = ceiling_words_map().get(world_id)
+    typical = typical_words_for(world_id)
     candidate = str(settings.data_base_path.resolve()) != str(
         (BACKEND / "data").resolve())
 
@@ -292,13 +492,33 @@ def main() -> int:
     artifact = {"world_id": world_id, "checkpoint": args.checkpoint,
                 "candidate": candidate, "ceiling": ceiling}
 
+    # Drift accumulates across every half - the bar's fabrication/FLATTENING
+    # items are about the whole checkpoint, not one section of it - so the
+    # per-half clears inside run_probe/run_sustained feed this running list.
+    all_drift: list = []
+
     if not args.sustained_only:
         print("\n[cp] --- probe half ---")
         artifact["probe"] = run_probe(ns, world_id, drift_records)
+        all_drift += artifact["probe"]["drift_records"]
     if not args.probe_only:
         print("\n[cp] --- sustained half ---")
         artifact["sustained"] = run_sustained(ns, world_id, rep, ceiling,
                                               drift_records)
+        all_drift += artifact["sustained"]["drift_records"]
+    if not (args.probe_only or args.sustained_only or args.skip_bar_categories):
+        print("\n[cp] --- bar categories (confidence-under-thinness, "
+              "sustained-engagement) ---")
+        drift_records.clear()
+        artifact["bar_categories"] = run_bar_categories(ns, world_id)
+        artifact["bar_categories"]["drift_records"] = list(drift_records)
+        all_drift += drift_records
+
+    artifact["drift"] = drift_breakdown(all_drift)
+    baseline = load_baseline(world_id)
+    artifact["baseline"] = baseline
+    artifact["typical_words"] = typical
+    artifact["scorecard"] = score(artifact, ceiling, typical, baseline)
 
     OUTDIR.mkdir(parents=True, exist_ok=True)
     out = OUTDIR / (f"{args.world}_phase2_checkpoint{args.checkpoint}_full_"
@@ -334,6 +554,15 @@ def main() -> int:
               f"uncertain={s['uncertain_stages']})")
         print(f"[cp] sustained measure: mean {s['words_mean']:.1f}  "
               f"max {s['words_max']}  over ceiling {s['over_ceiling']}")
+    sc = artifact["scorecard"]
+    print("\n[cp] ---- PASS BAR (Blueprint SS3 step 3) ----")
+    for c in sc["checks"]:
+        print(f"[cp]   {c['verdict']:<10} {c['check']}")
+        print(f"[cp]              {c['detail']}")
+    print(f"[cp] AUTO VERDICT: {sc['auto_verdict']}")
+    if sc["failed"]:
+        print(f"[cp] FAILED: {sc['failed']}")
+    print(f"[cp] awaiting human read: {sc['awaiting_human']}")
     print(f"[cp] written: {out}")
     print("[cp] A good mean with a bad tail is still a fail - read the "
           "per-turn climb, not just the average.")
