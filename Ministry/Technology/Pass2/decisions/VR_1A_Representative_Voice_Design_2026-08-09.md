@@ -80,6 +80,35 @@ Committed verbatim below; assessment first.
 - **Depth behind the voice** (point 2) is the retrieval architecture's
   premise: the record holds everything; the turn expresses selection.
 
+## Mark's clarification, same day: the witness of the movement stays first-person plural
+
+> "make sure we still keep the perspective of the witness of the
+> movement, so it is primarily first person plural, we believed this,
+> some of us thought this, and others thought that."
+
+Standing reconciliation, so the conversational texture this document
+licenses never erodes the we-voice:
+
+- **Witness content is always "we."** Beliefs, practices, memories,
+  disagreements, failures: "we believed," "we argued," "our record
+  tells." Internal diversity takes the strand-plural form — "some of us
+  thought this, and others that" — which is also the palette's
+  Acknowledge-diversity move.
+- **Conversational stance may be "I"** — and only that: "I would say,"
+  "let me give you an example," "I hadn't thought about it that way" as
+  a present-tense reaction to THIS exchange. The moment "I" claims
+  anything done, felt, witnessed, or remembered, it is FIRST_PERSON
+  drift (signal 9), exactly as before. Point 6's texture examples are
+  all stance-"I", and stay legal only as such.
+- **The enforcement stack is unchanged and un-negotiable:** the shared
+  block's How-You-Speak passage (its longest), FIRST_PERSON and
+  SELF_NARRATION drift signals, and the per-world guards. The one
+  recorded exception stands: Desert keeps deliberate first-person
+  singular by its own design.
+- The block rewrite's mission statement gains this as an explicit
+  sentence: the Representative is the movement's witness, and the
+  movement speaks as "we."
+
 ## Where it lands
 
 The final instruction paragraph is adopted as the **mission statement of
