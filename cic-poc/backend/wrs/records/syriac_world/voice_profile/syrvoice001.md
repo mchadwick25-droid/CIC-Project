@@ -163,17 +163,32 @@ register_determination:
 native_measure:
   typical_words: 98
   ceiling_words: 165
-  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
-    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/SYR freeze
-    (2026-07-28) - 165 = this record's own measured max (range 41-165) so the solo register
-    never triggers, grounded in the TRR dominance finding (63-79%, table turns to 1053w vs
-    the 98w native measure). The note below predates this addition and still says no entry
-    exists - stale, kept as-is pending this world's Phase 2 rebuild.
-  note: MEASURED from the Phase-5 live-test transcript's 19 responses (mean 98, range 41-165); the retest
-    responses run comparable. NO HARD_CEILING_WORLDS entry exists for syriac-edessa-nisibis (app/graph/nodes.py
-    ~1482 carries desert-monasticism 60, hieronymian-ascetic-literary 180, alexandria-catechetical 160
-    only) - no runtime length ceiling for this world; evidence-measured, not runtime-enforced; the table-measure
-    decision belongs to this world's own freeze process (the ALX precedent).
+  ceiling_source: >-
+    RE-DERIVED at Phase 2 (2026-08-08) and DELIBERATELY UNCHANGED. Both numbers are already
+    evidence-derived, which is not true of every world's pair: 98 is the measured mean of 19 Phase-5
+    live-test responses (range 41-165) and 165 is that same set's measured max. There is nothing here
+    to correct, and inventing a tighter number would replace evidence with preference.
+  measured_baseline: >-
+    Streaming re-baseline 2026-08-08, 8 turns: mean 145.2, max 192, 3 of 8 over the 165 ceiling. That
+    mean sits 48% above this world's own measured typical of 98 - the widest gap between recorded and
+    observed measure anywhere in the fleet.
+  derivation: >-
+    The gap is a STAGE-COUNT problem, not a word-count one, and naming it correctly is what decides
+    the fix. This world's genre is the demonstration, and its rule is explicit: build ACROSS turns,
+    not within one; give the one or two stages this turn can carry, two or three short paragraphs at
+    the very most; leave the case visibly unfinished. A 145-word turn is three or four stages arriving
+    at once - the alphabet poured out in one breath, which this world's own prompt names as teaching
+    none of it. So the lever is the stage rule (craft_syr para 3, carried by syrdemo005), and the
+    measure numbers stay where the evidence put them.
+  dead_zone_note: >-
+    The ceiling has never fired here. RETRY_TRIGGER_MULTIPLES had this world at 1.2, so the retry sat
+    at 198 while the baseline max was 192 - all three over-ceiling turns landed in the 166-198 dead
+    zone and shipped uncorrected. Moving to 1.0 makes 165 bind for the first time.
+  note: >-
+    The ceiling is a BACKSTOP here, not the fix, and it should not be read as one. Most of this
+    world's over-typical turns sit between 98 and 165 and will never touch it; a turn can carry four
+    stages inside the ceiling and still be the failure. What the checkpoint should look at is whether
+    turns carry one or two stages and end unfinished - not whether the word count moved.
 reading_level_check: inherits reading_floor from wrs/parameters.yaml - a pointer, not a restatement
 ---
 S6.2/SYR S2.7-equivalent voice_profile (2026-07-28), derived per CO-015 from the evidenced register documentation: the deployed Permanent Prompt (current-habits evidence), the Phase-5 live-test + retest record (the fix history: SE-2 confidence-creep, the Jacob-tangle repetition guard, the anti-Jewish anti-fabrication guard, the two-voice frame-break methodology), the identity decision record (Mark), and the Construction Notes SS6. THE NO-VETTED-QUOTE FINDING (S2.4) LANDS HERE: no quote record exists for this world; the voice teaches by demonstration-structure, never by quotation - asked for exact words it gives the argument's shape (Scenario 3 Turn 5 is the live probe). LIVING TRADITION STATUS: CONFIRMED 2026-07-11 by the project lead (Construction Notes SS6, cleared review; Church of the East / Syriac Orthodox / Chaldean Catholic - direct institutional succession, with the three post-410 Christological divergences documented and the 410 horizon as the standing guard) - the Article-29 gate OPEN for ALX is CLOSED for this world. The malpana-title correction declared in identity.role_label (Doc_03 SS3.1).

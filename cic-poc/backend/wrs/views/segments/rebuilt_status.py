@@ -21,7 +21,7 @@ place to remember, not six assembler files."""
 REBUILT = {
     "desert-monasticism": False,
     "post-apostolic-house-church": False,
-    "syriac-edessa-nisibis": False,
+    "syriac-edessa-nisibis": True,
     "alexandria-catechetical": True,
     "imperial-juridical-christianity": True,
     "hieronymian-ascetic-literary": True,

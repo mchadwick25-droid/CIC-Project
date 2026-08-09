@@ -17,10 +17,9 @@ aliases:
 - this world's dominant Gospel text)
 - da-Mepharreshe (the later
 - contrasting "separated" four-Gospel form)
-quick_meaning: Throughout this world's core period, "the Gospel" meant a single continuous harmonized
-  narrative — Tatian's Diatessaron — not four separate books held in tension; Aphrahat quotes it and Ephrem
-  wrote a full commentary on it, though the specific vernacular name for this text is itself an unsettled
-  matter within this world's own evidentiary record.
+quick_meaning: 'Through our core years, the Gospel meant one continuous harmonised story - Tatian''s weaving - and not
+  four separate books held side by side. Aphrahat quotes it and Ephrem wrote a full commentary on it. What
+  our own tongues called that book is itself unsettled.'
 world_meaning: 'Throughout this world''s core period, "the Gospel" did not mean four discrete books held
   in tension with one another; it meant a single, continuous harmonized narrative — Tatian''s Diatessaron,
   composed around 172 CE — which functioned as the standard lectionary text in Syriac-speaking churches
@@ -101,12 +100,12 @@ confidence:
 field_relations:
 - type: associated-with
   target_id: syrlex001
-  note: 'Symmetric mirror of syrlex001''s edge: Ephrem''s Commentary applies the raza/shrara typological
-    method to this harmonized text (chunk Reciprocity Note; Doc_04 C5-C1 link). Chunk Ecological Function
-    (verbatim, absorbed per FLAG-002): This term anchors this world''s Supporting gravity C5 (Diatessaron
-    as Normative Harmonized Gospel, per Doc_04) and connects directly to the raza/shrara theological method
-    (C1) — Ephrem''s decision to write a full commentary on the harmonized text signals how central this
-    single-narrative experience of the Gospel was to his own typological reading practice.'
+  note: 'Symmetric mirror of syrlex001''s edge: Ephrem''s Commentary applies the raza/shrara typological method
+    to this harmonized text (chunk Reciprocity Note; Doc_04 C5-C1 link). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): This anchors the harmonised Gospel as the normative form among us,
+    and connects directly to the reading of symbol into truth: Ephrem''s choice to write a full commentary
+    on the harmonised text shows how central that single-narrative experience of the Gospel was to his own
+    typological reading.'
 contested_claim_ids:
 - syrclaim003
 ---

@@ -13,6 +13,8 @@ sources:
 id: syrgrav004
 name: Authority-Structure Ambiguity - Charismatic-Teacher Standing vs. Episcopal Legitimacy (C4)
 classification: Tensional
+capsule_name: 'Teacher and bishop'
+capsule_line: 'Authority never settled between the trusted teacher and the bishop''s office. We name this openly as unsettled rather than tidy it: what survives shows us the difficulty of seeing it, more than how it was actually lived.'
 six_tests:
   repetition:
     verdict: PASS - recurs across Doc_01's Strand Determination, the Persian succession material (multi-see

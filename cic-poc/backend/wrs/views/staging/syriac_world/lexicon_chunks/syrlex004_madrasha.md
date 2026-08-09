@@ -15,7 +15,7 @@ Force-LLM-Vote:       true — this term's Do-Not-Retrieve-When names a specific
 
 ## Quick Meaning
 
-The madrasha is Ephrem's dominant vehicle for theological argument — a sung, metered, often acrostic hymn built with refrains, meant to be performed rather than read, carrying an argument through melody and repetition rather than simply stating it; the genre itself was already established by Bardaisan and Mani before Ephrem took it up to answer them on their own ground.
+Ephrem's main vehicle for argument: a sung hymn, metered, often built on the alphabet, carried by refrains. It is made to be performed rather than read, and it carries its case through melody and repetition rather than simply stating it. Bardaisan and Mani were already using the form; Ephrem took it up to answer them on their own ground.
 
 ---
 
@@ -54,3 +54,5 @@ Note: it is accurate to call this "Ephrem's genre" as his dominant vehicle, but 
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with raza/shrara (the hermeneutic this genre performs) and memra (a sister verse genre, distinguished by meter, occasion of use, and — for memra specifically — a later genre-crystallization caveat). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined against this term's own linked sources[] and their discovery_channel disclosures, that value is CONFIRMED (not simply carried over unchecked). **Flagged as a judgment call**: mixed signal: 2/3 linked sources show active-discovery channels, 1/3 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

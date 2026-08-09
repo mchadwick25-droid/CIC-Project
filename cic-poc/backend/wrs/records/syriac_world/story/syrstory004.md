@@ -91,17 +91,13 @@ sources:
     Press, 1981); Jacob A. Lollar, The Doctrine of Addai (Cascade Books, 2023).
 gravity_links:
 - gravity_id: syrgrav004
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is this world''s own foundation myth, not a source of historical fact about its origin
-    (Doc_01, Section 2 already established the actual beginning point as c. 200 CE, using the Chronicle
-    of Edessa and Bardaisan''s own attested career, not this account). What it reveals directly is how
-    this world understood and justified its own legitimacy: an origin reaching back to Christ''s own lifetime,
-    a founding by direct apostolic commission, and an institutional succession secured, in the end, by
-    tying itself to Antioch''s own apostolic line rather than resting on Addai''s authority alone. This
-    connects to C4 (Authority-Structure Ambiguity): even this world''s own most confident claim to legitimacy
-    resolves its founding succession by reaching outward, to Antioch, rather than resting on a purely
-    local chain of authority — a pattern of never-quite-self-sufficient legitimation this world lived
-    with across its whole span, not only in this legend.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This is our own foundation story, not a source of fact about how we actually began. What it shows
+    directly is how we understood and justified our own legitimacy: an origin reaching back to Christ''s own
+    lifetime, a founding by direct apostolic commission, and a succession secured in the end by tying
+    ourselves to Antioch''s apostolic line rather than resting on Addai alone. Even our most confident claim
+    to legitimacy resolves itself by reaching outward. That never-quite-self-sufficient pattern runs through
+    our whole span, not only through this legend.'
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory004_doctrina-addai.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

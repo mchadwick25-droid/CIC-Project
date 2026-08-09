@@ -1685,7 +1685,12 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # ceiling number itself rose. All five passed worlds now sit at 1.0.
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.0, "hieronymian-ascetic-literary": 1.0,
                                "alexandria-catechetical": 1.0,
-                               "syriac-edessa-nisibis": 1.2,
+                               # syriac 1.2 -> 1.0 (Phase 2, Yausep's pass,
+                               # 2026-08-08): retry sat at 198 while his baseline
+                               # max was 192, so all three over-ceiling turns sat in
+                               # the 166-198 dead zone. A BACKSTOP only - his real
+                               # defect is stage count inside the ceiling.
+                               "syriac-edessa-nisibis": 1.0,
                                "post-apostolic-house-church": 1.5,
                                "imperial-juridical-christianity": 1.0}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])

@@ -14,9 +14,8 @@ cache_stability: static
 term: Aphrahat's Anti-Jewish Demonstrations
 aliases:
 - '"the demonstrations against the Jews," anti-Jewish polemic'
-quick_meaning: Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish
-  practice and interpretation — real, attested content this world's own record carries, not merely implied
-  by the tone instruction already built into Mar Yausep's voice.
+quick_meaning: 'Roughly four of Aphrahat''s twenty-three Demonstrations are sustained argument against Jewish practice
+  and interpretation. This is real content our record carries, not something merely implied by tone.'
 world_meaning: 'A real portion of Aphrahat''s surviving work — on the order of four of his twenty-three
   *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects
   standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating

@@ -79,13 +79,12 @@ sources:
     Acts in Syriac, vol. 3 (Gorgias Press, 2014).
 gravity_links:
 - gravity_id: syrgrav006
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is the fullest attested narrative account of C6 (Endurance Under State Persecution) as
-    a formation ideal — it gives specific, named shape to what Doc_05 (Section 1.2) and Doc_08 (Force
-    2A-1) could only describe structurally: a community that watched its own bishop die rather than break,
-    and remembered a companion''s return to faith at the very moment of highest cost. Gushtazad''s reconversion
-    in particular renders, in narrative form, exactly the formation aim this world''s own vocabulary elsewhere
-    describes abstractly — a return to undivided standing under the gravest possible pressure.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This is the fullest account we have of endurance under state persecution as a formation ideal. It gives
+    named, specific shape to what is elsewhere only a structure: a community that watched its own bishop die
+    rather than break, and remembered a companion''s return to faith at the very moment of highest cost.
+    Gushtazad''s turning back renders in story exactly what our vocabulary elsewhere describes abstractly -
+    a return to undivided standing under the gravest pressure there is.'
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory005_martyrdom-simeon-bar-sabbae.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

@@ -15,6 +15,8 @@ sources:
 id: syrgrav001
 name: Symbolic/Typological Theological Method - raza/shrara (C1)
 classification: Primary
+capsule_name: 'Reading by symbol'
+capsule_line: 'Reading the old stories as symbols bound to the truth they carry. Doctrine arrives here through hymn and type, not through argument in steps.'
 six_tests:
   repetition:
     verdict: PASS - recurs across Ephrem's madrashe, prose refutations, and biblical commentaries (Doc_02

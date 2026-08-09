@@ -14,29 +14,24 @@ cache_stability: static
 term: Catholicos / Catholicosate
 aliases:
 - '"Catholicos-Patriarch" (later fuller title)'
-quick_meaning: '"Catholicos" is not this world''s own contemporary title — it names an office and title
-  that later tradition retroactively applied to earlier Persian church leadership; using it for this world''s
-  own period (200–410 CE) without flagging the anachronism risks presenting a later, tidied-up succession
-  as though it were already in place and named at the time.'
-world_meaning: 'No one in this world''s own period called their Persian episcopal leader "Catholicos."
-  The title belongs to a later tradition that looked back on a genuinely unsettled situation — local leadership
-  without a single fixed head, contested claims to precedence — and organized it into a tidy, named succession.
+quick_meaning: 'Not a title of our own time. It names an office that later tradition laid back over earlier Persian
+  church leadership. Used for our years without that flag, it presents a tidied succession as though it
+  were already in place and already named.'
+world_meaning: 'No one in this world''s own period called their Persian episcopal leader "Catholicos." The title belongs
+  to a later tradition that looked back on a genuinely unsettled situation — local leadership without a
+  single fixed head, contested claims to precedence — and organized it into a tidy, named succession.
   Early Seleucia-Ctesiphon succession claims, including that Papa bar Aggai took the title "Catholicos"
-  around 315 CE, trace at least in part to the *Acts of Mari*, a text scholarship dates anywhere from
-  the sixth to as late as the eighth century — centuries after the events it describes. Papa bar Aggai''s
-  own claim to primacy over other Persian bishops was, in his own actual period, fiercely contested by
-  Miles of Susa and Aqib-Alaha of Karka d''Baith Slok, not a settled, uncontested office the way the later
-  title implies. A participant asking about this world''s Persian church leadership should hear real,
-  contested, locally-organized episcopal leadership — not an already-titled, already-unified office waiting
-  to be named.
-
-
-  [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: This entry does not anchor a native institution the way qyama
-  or Iḥidaya do — its function is corrective rather than constitutive. It intersects with Organizational
-  Ecology''s authority-structure ambiguity (C4, this world''s Tensional gravity) by naming one specific,
-  concrete way later tradition simplified a genuinely unsettled authority picture into a tidy title and
-  succession that this world''s own period did not yet have.'
+  around 315 CE, trace at least in part to the *Acts of Mari*, a text scholarship dates anywhere from the
+  sixth to as late as the eighth century — centuries after the events it describes. Papa bar Aggai''s own
+  claim to primacy over other Persian bishops was, in his own actual period, fiercely contested by Miles
+  of Susa and Aqib-Alaha of Karka d''Baith Slok, not a settled, uncontested office the way the later title
+  implies. A participant asking about this world''s Persian church leadership should hear real, contested,
+  locally-organized episcopal leadership — not an already-titled, already-unified office waiting to be
+  named. [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at
+  the S2.3-equivalent per SS3.2 / FLAG-002]: This entry does not anchor a native institution the way qyama
+  or Ihidaya do. Its function is corrective rather than constitutive. It names one concrete way later
+  tradition simplified a genuinely unsettled authority picture into a tidy title and succession that our
+  own period did not yet have.'
 distortion_risk: '**World Hearing:**
 
   This title is anachronistic before the fifth century for this world''s own period. Early succession
