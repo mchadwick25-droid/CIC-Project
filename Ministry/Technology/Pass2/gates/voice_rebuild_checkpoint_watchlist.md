@@ -315,7 +315,28 @@ built of long sentences is not brief"). Checkpoint 2 to run.
 **Standing, unchanged:** Desert's `REBUILT` stays `false` deliberately —
 his craft table is a transcription, not fresh authoring, still flagged
 for Mark.
-### SYR — Yausep — checkpoint 1 — *pending*
+### SYR — Yausep — checkpoint 1 — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`** (clean first pass)
+
+The first world to pass on its first checkpoint under the full 1A bar,
+nothing failed, nothing on watch.
+
+| | result |
+|---|---|
+| readability B2 HARD | **PASS** — FK 5.09–8.12, FRE min 66.0, zero breaches in 14 turns |
+| register/measure | **PASS** — mean 135.0 vs ceiling 165 (typical 98); max 162 |
+| no failure-measure regression | **PASS** — 135.0 vs baseline 143.1; max 162 vs 187 |
+| dead zone / fabrication / FLATTENING | 0 / 0 (28 screened) / 0 |
+| sustained | NEEDS_HUMAN_READ, **zero concessions**, 3 UNCERTAIN |
+
+His documented defect is stage count rather than word count, and he came
+in **below** baseline on the symptom while staying well inside his own
+ceiling. Three UNCERTAIN stages is the fleet's highest — routed to the
+read as always, not scored either way.
+
+**Watch, unresolved:** 15 sentences over the Writing Standard's 25-word
+guard, worst **46w** — the fleet's longest single sentence, in a world
+whose defect is stage count. Reported, no bar ruled; worth Mark's eye at
+the read.
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*
 
 Her checkpoint 4 measured a build **without** her contestation renders
