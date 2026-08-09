@@ -4,6 +4,7 @@
 Story-Title:    Abba Arsenius's Call to Flee, Be Silent, Be Still
 World-Code:     desert
 Tier:           2
+Key-Line:       "Arsenius, flee, be silent, be still"
 Confidence:     Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific court-tutor biographical frame)
 Source:         Apophthegmata Patrum, Arsenius (Alphabetical Collection)
 Retrieve-When:  participant asks why someone would leave a position of status or comfort for withdrawal; participant asks what hesychia (stillness) actually is, or how it is sought rather than merely described; conversation reaches gravity 1 (withdrawal) or gravity 3 (personal, directly-addressed guidance) in their most compressed, memorable form.

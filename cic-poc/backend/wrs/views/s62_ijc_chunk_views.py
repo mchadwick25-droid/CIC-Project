@@ -178,6 +178,10 @@ def render_story(rec, body):
         ("Story-Title", rec.get("title", "")),
         ("World-Code", "ijc"),
         ("Tier", str(ret.get("tier", 1))),
+        # Key-Line / Signature: palette supply-side (worklist 4b), rolled to
+        # this world 2026-08-09. Verbatim from the record's own text.
+        ("Signature", "yes" if rec.get("signature") else None),
+        ("Key-Line", ('"' + rec["key_line"] + '"') if rec.get("key_line") else None),
         ("Confidence", rec.get("confidence_line") or None),
         ("Source", rec.get("attested_occasion", "")),
         ("Retrieve-When", rw),

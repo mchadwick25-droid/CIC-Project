@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "no enemy shall ever rule over it."
+signature: true
 review_state: draft
 cache_stability: static
 title: The Correspondence of King Abgar, the Mission of Addai, and the Founding Succession

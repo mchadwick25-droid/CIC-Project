@@ -8,6 +8,7 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "Arsenius, flee, be silent, be still"
 review_state: draft
 cache_stability: static
 title: Abba Arsenius's Call to Flee, Be Silent, Be Still

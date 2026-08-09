@@ -4,6 +4,8 @@
 Story-Title:    Abba Moses and the Leaking Jug
 World-Code:     desert
 Tier:           2
+Signature:      yes
+Key-Line:       "My sins run out behind me, and I do not see them, and today I am coming to judge the errors of another."
 Confidence:     Widely Accepted (the saying's genuine place within the Apophthegmata tradition); Contested/Inferential (whether this specific incident occurred as narrated, versus condensing a general teaching pattern into one memorable scene)
 Source:         Apophthegmata Patrum, Moses (Alphabetical Collection)
 Retrieve-When:  participant asks about self-judgment, humility, or how this tradition handles the temptation to judge another's failing; conversation reaches gravity 5 (diakrisis) in its self-directed register; Representative needs the single most load-bearing, exactly-attested named story it carries.

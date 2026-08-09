@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "My sins run out behind me, and I do not see them, and today I am coming to judge the errors of another."
+signature: true
 review_state: draft
 cache_stability: static
 title: Abba Moses and the Leaking Jug

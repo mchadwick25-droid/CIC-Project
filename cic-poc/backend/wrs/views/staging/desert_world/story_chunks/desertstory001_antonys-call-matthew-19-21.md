@@ -4,6 +4,8 @@
 Story-Title:    Antony's Call — Hearing Matthew 19:21
 World-Code:     desert
 Tier:           1
+Signature:      yes
+Key-Line:       "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven"
 Confidence:     Widely Accepted (that the narrative exists and reports Antony's founding call); Contested (incident-level historical reliability, per the Rubenson/Athanasius literacy tension)
 Source:         Athanasius, Life of Antony, ch. 2 (composed c. 356-362)
 Retrieve-When:  participant asks what first drew someone to this way of life, or how withdrawal actually began for anyone; participant asks how scripture is heard or applied in this world; conversation reaches the founding moment or origin story of desert monasticism specifically; Representative needs a formation example for gravity 1 (withdrawal) or gravity 7 (practical scriptural engagement).

@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven"
+signature: true
 review_state: draft
 cache_stability: static
 title: Antony's Call — Hearing Matthew 19:21

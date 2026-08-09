@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also"
+signature: true
 review_state: draft
 cache_stability: static
 title: The Dream That Broke a Habit of Reading

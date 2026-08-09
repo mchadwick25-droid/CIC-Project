@@ -4,6 +4,8 @@
 Story-Title:          The Correspondence of King Abgar, the Mission of Addai, and the Founding Succession
 World-Code:           syr
 Tier:                 3
+Signature:            yes
+Key-Line:             "no enemy shall ever rule over it."
 Confidence:           Contested (as an account of what a formed life/community founding looks like); Inferential/Thin (for any specific event claimed as historical)
 Source:               Doctrina Addai (Teaching of Addai). Ed./trans. George Howard, The Teaching of Addai (Scholars Press, 1981); Jacob A. Lollar, The Doctrine of Addai (Cascade Books, 2023).
 Retrieve-When:        participant asks how this world tells its own founding story; participant asks about King Abgar, Addai, or this world's claimed apostolic origin; participant asks why this world believes its own community reaches back to the apostles.
