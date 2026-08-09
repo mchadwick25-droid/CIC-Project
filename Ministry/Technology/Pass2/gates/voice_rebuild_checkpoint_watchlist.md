@@ -501,3 +501,51 @@ commit: the resolution that registry always said it required.
 
 **Five of six live. Only Desert remains** — still correctly declared
 PENDING RE-CHECKPOINT, his checkpoint 2 running.
+
+---
+
+## The v2 pass (engagement demonstrations) — checkpoint rows
+
+One demonstration authored per world, each selected into its assembly,
+each displacing a prior demonstration from the cap-3 slot. All five worlds
+were declared in `PENDING_RECHECKPOINT` and **none swapped** until its own
+checkpoint reported.
+
+### IJC — Marius — checkpoint 5 (v2) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
+
+mean 117.9 vs ceiling 150 (typical 115), max 147 · readability **FK
+3.6–7.58, FRE min 65.38, breaches none** · no-regression vs baseline 213.4
+**PASS** · fabrication 0/27 · dead zone empty · **zero concessions**.
+6/8 turns regenerated. Citations 6/8, glosses 3/8.
+
+### ALX — Theon — checkpoint 2 (v2) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
+
+mean 147.4 vs ceiling 160 (typical 140), max 177 · readability **FK
+3.65–7.52, FRE min 70.73, breaches none** · fabrication 0/27 · dead zone
+empty · **zero concessions**. 1/8 over ceiling by 17w. Mean rose against
+baseline 131.0 — correctly **REPORT, not FAIL**: his record states his
+failure measure is indirection and explicitly not length. 8/8 regenerated.
+Citations 6/8, glosses 3/8. **His facilitator handoff turn breached** (see
+the fleet-level row above).
+
+### Desert — Papnoute — checkpoint 3 (v2) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
+
+mean 51.9 vs ceiling 70 — **inside his 55 typical** — max 63 · readability
+**FK 2.28–6.93, FRE min 77.33, breaches none** · no-regression vs baseline
+56.2 **PASS on both mean and max** · fabrication 0/32 · dead zone empty ·
+**zero concessions**. Facilitator turns clean in this run (FK 7.29–7.93,
+FRE min 68.34), so the handoff breach is **1 of 3 measured** since the fix,
+not a uniform regression.
+
+**Still 0/8 glosses** — citations 6/8, glosses 0/8, unchanged. The sharpest
+single transparency gap in the fleet. The v2 pass was never aimed at it;
+the glossary-supply item is.
+
+*Artifact-provenance note: the Desert artifact was swept into commit
+`140d0e1` (the repository-builder generalization) by a `git add -A`, and
+that commit's message does not mention it. Recorded here so the verdict is
+findable where a reader would look for it rather than only in an unrelated
+diff.*
+
+### SYR — Yausep — checkpoint 2 (v2) — running
+### HAL — Albina — checkpoint 6 (v2) — queued
