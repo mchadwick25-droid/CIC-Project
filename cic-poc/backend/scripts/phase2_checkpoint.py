@@ -400,10 +400,26 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
     retried, tot = lc.get("retried", 0), probe.get("length_ceiling", {}).get(
         "total_ceilinged_turns", 0)
     if tot:
-        add("ceiling regenerations rare",
-            "PASS" if retried <= tot / 2 else "FAIL",
+        # REPORTED, NOT SCORED - Mark's ruling, 2026-08-09: the EMITTED turn is
+        # what ships, so a regenerated turn that lands at measure keeps the
+        # world's rule. Scoring this as a fail was my error and it is
+        # contradicted by precedent: Albina passed checkpoint 4, took Mark's
+        # read and SHIPPED with retried 8/8 (first drafts 230-261 against a 160
+        # ceiling, emitted mean 117.5 - entirely retry output), and the fleet
+        # baselines show the same shape everywhere (desert 8/8, alx 8/8, syr
+        # 7/8). A check that fails the world already shipped is measuring the
+        # wrong thing. The number still matters as intelligence about whether
+        # demonstrations move DRAFTING, which is why it is reported loudly.
+        add("ceiling regenerations (reported, not scored)", "REPORT",
             f"{retried}/{tot} turns regenerated; dead_zone "
-            f"{lc.get('dead_zone', 0)}")
+            f"{lc.get('dead_zone', 0)}. Emitted is what ships (Mark, "
+            f"2026-08-09); cf. Albina shipped at 8/8. First drafts are the "
+            f"signal for whether Layer-2 demonstrations move drafting at all.")
+        add("dead zone empty",
+            "PASS" if lc.get("dead_zone", 0) == 0 else "FAIL",
+            f"{lc.get('dead_zone', 0)} turns emitted over ceiling but under "
+            f"trigger - uncorrected overruns are the defect the 1.0 trigger "
+            f"change exists to remove")
 
     if drift:
         add("fabrication 0 confirmed",
