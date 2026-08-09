@@ -136,3 +136,22 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 - **A five-stream portfolio frame** (time-bounded free/membership, segment-tailored add-ons, creative validation funding, other revenue, database-leveraged products) opened, not yet sequenced. One idea from it — a parallel-presentation cross-tradition comparative brief for pastors, explicitly not synthesis — refined live and parked for a future comprehensive business plan, not scheduled now: `Ministry/Features/Funding-Strategy/Business-Plan-Idea-Box.md`.
 
 **Next action:** ongoing in the dedicated thread; no convergence forced. Update this log again only when something decided there is significant enough to affect the org-level picture this log tracks.
+
+---
+
+## 2026-08-09 — Table cost feasibility (Phase 1 analysis): the table is a paid-tier feature or it is not affordable — with real numbers, awaiting Mark's accept/reject
+
+**Status:** Analysis, not a decision. Produced by the multi-Representative-table thread's Phase 1 (cost only, no code touched); full document at `Ministry/Technology/Table/T1_cost_feasibility_2026-08-09.md`, every figure reproducible via `t1_table_cost_model.py` beside it (reconciles against the committed B-COST log before it will run).
+
+**What the analysis found, in this log's terms:**
+
+- The honest measured table cost is **$0.197/round ($4.73/hr at fast pacing)** — Mark's "can't afford $5/hour" is confirmed real at the current shape, not rhetorical. (Two record corrections along the way: the report's $0.1585 averages in two free capped turns; the run notes' "≈$0.38/turn" headline double-bills cache tokens and is ~2× high.)
+- The recommended target architecture — two lossless fixes plus capping a round at 2 representative turns, a principle the table's own governance already states — lands at **$0.135/round ≈ $3.25/hr fast / $1.35/hr contemplative**. The honest floor for anything still deserving the name "table" (Sonnet voices, full safety stack, two voices per round) is **≈$0.11/round**.
+- **Against free-tier economics (the ~$1/user/month anchor the live ask copy is built on), the table cannot be done** — that would require gutting the second voice, the Sonnet voice fidelity, or the safety stack. This is the honest-floor answer the phase gate asked for.
+- **Against the paid tier (already decided 2026-07-31, SH-12 scope), it works:** a heavy user (weekly one-hour sitting) costs **$9–14/month**; worst-case single sitting is bounded at ~$6.80 by the existing 100-rep-turn cap. A **$15–19/month** Table tier carries the heavy user with margin; the anchored **$8/month supporter level** is break-even at ~2–3 table hours/month.
+
+**The heart of it:** the feature Mark killed a test run over does not need to die — but it only lives inside the pricing structure he already chose. The free tier's promise ("$10/month keeps the Table open for ten more seekers") stays honest precisely because the expensive room is the paid one.
+
+**Open for Mark:** accept or reject the Phase 1 criterion — table feasible at $0.135/round, paid-tier-only, priced at or above ~$15/month for unmetered weekly use (alternatives if that price is wrong for his people: per-sitting metering against the ~$6.80 bound, or measuring the cheaper-model variant before trusting it). Phase 2 (table quality/1A) stays gated until he answers.
+
+**Next action:** Mark reads T1 §6 and accepts/rejects the criterion; separately, re-run the cost baseline after the five world swaps + PR #9 land to replace the one estimated line with a measured one.
