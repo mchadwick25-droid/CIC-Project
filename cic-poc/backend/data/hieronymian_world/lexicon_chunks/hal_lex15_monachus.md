@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The standard term for a male ascetic — a monk — well attested throughout this world's own vocabulary.
+The usual word for a male ascetic - a monk. It is well attested across this world's own writing.
 
 ---
 

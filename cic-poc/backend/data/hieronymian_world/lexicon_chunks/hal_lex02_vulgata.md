@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-Jerome's decades-long labor of translating and correcting the Latin Bible, later — long after this world's own span — known as "the Vulgate."
+Jerome's long labour of translating and correcting the Latin Bible. Much later, well after this world had ended, it came to be called the Vulgate.
 
 ---
 

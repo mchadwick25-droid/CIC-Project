@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-Jerome's prefaces to his biblical translations and commentaries — not incidental front matter, but the genre where he explains and defends his whole method.
+Jerome's prefaces to his translations and commentaries. They are not throat-clearing at the front of a book. They are where he explains and defends his method.
 
 ---
 

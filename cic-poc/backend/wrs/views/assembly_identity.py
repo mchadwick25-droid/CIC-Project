@@ -36,12 +36,20 @@ sys.path.insert(0, str(BACKEND))
 
 DEPLOYED_DESERT = BACKEND / "data" / "desert_world" / "desert_Representative_Permanent_Prompt_Papnoute.txt"
 
+# Worlds still awaiting their Phase-2 pass: stability only.
 OTHER_WORLDS = [
     ("s62_pahc_permanent_prompt", "PAHC (Chloe)"),
     ("s62_alx_permanent_prompt", "Alexandria (Theon)"),
     ("s62_syr_permanent_prompt", "Syriac (Yausep)"),
     ("s62_ijc_permanent_prompt", "IJC (Marius)"),
-    ("s62_hal_permanent_prompt", "Hieronymian (Albina)"),
+]
+
+# Worlds whose Phase-2 pass has SHIPPED: deployed is the assembly's own
+# output, so byte-identity is the bar, exactly as for Desert. Hieronymian
+# joined at the 2026-08-08 swap (checkpoint 4 green, Mark's read of record).
+DEPLOYED_WORLDS = [
+    ("s62_hal_permanent_prompt", "Hieronymian (Albina)",
+     BACKEND / "data" / "hieronymian_world" / "hal_Representative_Permanent_Prompt_Albina.txt"),
 ]
 
 
@@ -71,8 +79,23 @@ def check_stable(module_name: str, label: str) -> bool:
     return False
 
 
+def check_deployed(module_name: str, label: str, deployed_path: Path) -> bool:
+    mod = importlib.import_module(module_name)
+    importlib.reload(mod)
+    prompt, _ = mod.assemble()
+    deployed = deployed_path.read_text(encoding="utf-8")
+    if prompt == deployed:
+        print(f"[assembly-identity] {label}: PASS - byte-identical to deployed")
+        return True
+    print(f"[assembly-identity] {label}: FAIL - assembly drifted from deployed "
+          f"({deployed_path})")
+    return False
+
+
 def main() -> int:
     results = [check_desert()]
+    for module_name, label, deployed_path in DEPLOYED_WORLDS:
+        results.append(check_deployed(module_name, label, deployed_path))
     for module_name, label in OTHER_WORLDS:
         results.append(check_stable(module_name, label))
     if all(results):

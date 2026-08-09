@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The theological dispute over grace, free will, and human capacity for sinlessness that produced a violent attack on this community's own monastery in 416.
+The quarrel over grace, free will, and whether a person can stop sinning. It led to a violent attack on this household's monastery in 416.
 
 ---
 
