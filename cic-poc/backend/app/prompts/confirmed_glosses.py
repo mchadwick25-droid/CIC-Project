@@ -43,6 +43,8 @@ period-specific word - the English half is already what the gloss itself
 says in different words.
 """
 
+import functools
+import re
 from dataclasses import dataclass
 
 
@@ -122,6 +124,27 @@ def get_gloss_guidance(world_id: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+@functools.lru_cache(maxsize=1)
+def _common_words() -> frozenset:
+    """The bundled top-5000 general-English list, used only to suppress a
+    plain-side pill on an everyday single word. Fails toward the EMPTY set,
+    which suppresses every single-word plain-side match - i.e. toward the
+    state that existed before this tier, never toward more pills."""
+    try:
+        from wrs.gates.core import _alias_freq_table
+        return frozenset(_alias_freq_table())
+    except Exception:  # noqa: BLE001
+        return frozenset()
+
+
+def _plain_side_eligible(gloss: str) -> bool:
+    words = gloss.lower().split()
+    if len(words) > 1:
+        return True
+    common = _common_words()
+    return bool(common) and words[0] not in common
+
+
 def find_glosses_used(world_id: str, response_text: str) -> list[dict]:
     """
     Real-detection pass, run after generation: which of this world's
@@ -152,14 +175,42 @@ def find_glosses_used(world_id: str, response_text: str) -> list[dict]:
     # reading itself (Three-Level Transparency doing its job) instead of
     # the voice being forced to lecture. Voice stays natural; the bridge
     # still reaches the participant.
+    #
+    # Tier 3, the PLAIN SIDE (2026-08-09). Papnoute fired 0 of 8 across two
+    # full checkpoints, and the diagnosis was not a matching bug: he never
+    # says his Greek at all. He says "stillness", "the cell", "the elder",
+    # "the gathering" - plain English, start to finish - where his lexicon
+    # holds hesychia, kellion, geron, synaxis. That is his register doing
+    # exactly what 1A asks of it, and it should not cost the reader the
+    # scholarship underneath. So when a voice uses the confirmed gloss's own
+    # modern phrase and never reaches for the period term, the pill still
+    # fires; the UI supplies the word this world had for it, and the road to
+    # the record. Voice stays plain; depth stays reachable.
+    #
+    # Bounded to glosses of at most 4 words, matched on word boundaries: a
+    # long gloss ("an elder, honored as a father in the faith") is a
+    # definition no one speaks, and matching it would only ever misfire.
+    #
+    # And a SINGLE-word gloss must be out of the general top-5000 to fire.
+    # The first run of this tier put a pill on "hope" (Alexandria's elpis) -
+    # an everyday word a reader does not stumble on, marked on every use.
+    # That is precisely the noise this whole area is supposed to avoid: a
+    # Representative who lectures, relocated into the interface. Distinctive
+    # single words ("stillness", "renunciation", "discernment") still fire.
     out = []
     for g in glosses:
         if g.rendered.lower() in lowered:
             out.append({"category": g.category, "original": g.original,
                         "gloss": g.gloss, "rendered": g.rendered,
-                        "inline": True})
+                        "inline": True, "plain_side": False})
         elif g.original.lower() in lowered:
             out.append({"category": g.category, "original": g.original,
                         "gloss": g.gloss, "rendered": g.rendered,
-                        "inline": False})
+                        "inline": False, "plain_side": False})
+        elif (len(g.gloss.split()) <= 4
+                and _plain_side_eligible(g.gloss)
+                and re.search(rf"\b{re.escape(g.gloss.lower())}\b", lowered)):
+            out.append({"category": g.category, "original": g.original,
+                        "gloss": g.gloss, "rendered": g.rendered,
+                        "inline": False, "plain_side": True})
     return out

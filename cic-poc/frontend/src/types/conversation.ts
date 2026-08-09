@@ -25,6 +25,13 @@ export interface GlossUsed {
   gloss: string;
   rendered: string;
   inline?: boolean;
+  /**
+   * Tier 3 (2026-08-09): the voice used the PLAIN phrase and never the period
+   * term - Papnoute says "stillness", never "hesychia". The matched text is
+   * therefore the gloss itself, and the pill's job inverts: it supplies the
+   * word this world had, rather than the modern reading of a word on screen.
+   */
+  plain_side?: boolean;
 }
 
 /**

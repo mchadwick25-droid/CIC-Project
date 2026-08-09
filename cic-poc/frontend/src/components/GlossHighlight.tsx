@@ -43,12 +43,18 @@ function figureToLexiconTerm(f: FigureUsed): LexiconTerm {
 }
 
 function glossToLexiconTerm(g: GlossUsed): LexiconTerm {
-  const quickMeaning =
-    g.category === 'A'
+  // Plain-side (tier 3): what is on screen is the ordinary English. The
+  // reader is not stuck on a hard word, so explaining one would be beside
+  // the point - what they are missing is that this world had its own word,
+  // and a way through to the record behind it.
+  const quickMeaning = g.plain_side
+    ? `This world's own word for this was "${g.original}."`
+    : g.category === 'A'
       ? `Confirmed reading: "${g.gloss}" - the period term is "${g.original}."`
       : `Confirmed reading: this phrase refers to ${g.gloss}.`;
-  const explanation =
-    g.category === 'A'
+  const explanation = g.plain_side
+    ? `The Representative said this plainly, which is how this world's own people would have wanted it understood. Behind the plain phrase sits a term they used among themselves - "${g.original}" - and the reading given here has been reviewed and confirmed, not improvised.`
+    : g.category === 'A'
       ? `This world has its own word for this - "${g.original}." The plain-language reading given here, "${g.gloss}," has been reviewed and confirmed as the accurate modern sense, not an improvised paraphrase.`
       : `This is how someone in this world would actually have named it - the phrase itself is genuine to the period, not modernized. "${g.gloss}" is what it refers to, confirmed against the historical record.`;
   return {
@@ -133,8 +139,12 @@ function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
     // participant still gets the confirmed modern reading from the UI -
     // Three-Level Transparency supplying the bridge the natural register
     // deliberately left unsaid.
-    const needle =
-      gloss.rendered && lowerText.includes(gloss.rendered.toLowerCase())
+    // Tier 3 (plain_side): neither the rendered form nor the period term is
+    // on screen - the plain phrase is what the reader actually sees, so it
+    // is what gets marked.
+    const needle = gloss.plain_side
+      ? gloss.gloss
+      : gloss.rendered && lowerText.includes(gloss.rendered.toLowerCase())
         ? gloss.rendered
         : gloss.original;
     if (!needle) continue;
@@ -147,7 +157,7 @@ function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
         index: foundAt,
         length: needle.length,
         term: glossToLexiconTerm(gloss),
-        key: `gloss-${gloss.original}`,
+        key: `gloss-${gloss.original}${gloss.plain_side ? '-plain' : ''}`,
       });
       fromIndex = foundAt + needle.length;
     }
