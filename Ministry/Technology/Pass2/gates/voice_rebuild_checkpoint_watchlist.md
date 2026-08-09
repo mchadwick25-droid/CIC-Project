@@ -90,6 +90,39 @@ rule, a variance target would produce performed variety.
 again, shorter." — a retry artifact leaking into the visible turn.
 Logged for the read; single occurrence, not yet a pattern.
 
+## Cross-world probe — first run, all six LIVE worlds, 2026-08-09
+
+Mark's "probably your best test", against the shipped fleet. Both halves
+green on both questions:
+
+| | "what does it mean to become a Christian" | "what did your people think a person is for" |
+|---|---|---|
+| **convergence** | FK 3.43–7.88 (spread 4.45), FRE min 65.6, **breaches none** | FK 3.46–5.93 (spread 2.47), FRE min 75.7, **breaches none** |
+| **divergence** | phrase overlap mean **0.000**, max **0.000** | mean **0.000**, max **0.000** |
+| length | 49–154w, each at its own measure | 53–149w |
+
+**All six inside the B2 floor. Not one shared 5-gram between any pair of
+worlds, on either question.** Converged accessibility with fully diverged
+witness — the success condition, not the FLATTENING failure.
+
+The distinctive-vocabulary column is the proof in plain sight. Same
+question, "what is a person for":
+
+- **Papnoute** — *"made to be reachable by the word that first calls, and
+  stripped down until nothing stands between us and it."* Antony, alone,
+  arrive.
+- **Chloe** — *"A person is made to choose… two roads, a way of life and a
+  way of death, a choice kept daily, not settled once."* Birth, death,
+  daily, either.
+- **Marius** — *"A person is not the emperor's to command. That is Ambrose
+  at the basilica door."* Ambrose, Augustine, basilica, belongs, command.
+- **Albina** — *"A person is for pointing past themselves… Not erased,
+  aimed outward."* Blaesilla, cave, chose, aimed.
+
+Four worlds, four answers a tenth-grader can read, no two remotely alike,
+each reaching only for its own witnesses. "The voice architecture is
+shared. The witness is not" — measured.
+
 ## Open questions carried, not closed
 
 - **Should the sustained scorer consult `matched_contested`?** Design §5's

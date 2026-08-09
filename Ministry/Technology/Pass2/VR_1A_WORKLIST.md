@@ -29,8 +29,10 @@ the standing scorer question (should the sustained bar consult
 `matched_contested`, now with **five** concessions fleet-wide, every one
 of them `null`); and the palette's instruments: the **variance probe is BUILT and RUN**
 (`scripts/variance_probe.py`, first run on Chloe 2026-08-09 — she chose a
-different witness every time, phrase overlap 0.000–0.007), leaving the
-**cross-world probe** as the last unbuilt instrument.
+different witness every time, phrase overlap 0.000–0.007), and the **cross-world probe is BUILT and RUN** against the live fleet
+(2026-08-09: all six inside the B2 floor, zero phrase overlap between any
+pair of worlds, on both questions). **Every instrument the 1A design
+called for now exists and has been run at least once.**
 
 **2026-08-09, Integration Design ADOPTED by Mark** — items 3 (instruments),
 4 (the read = six-dimension grid) and 10 (sequencing: fleet work first,
