@@ -702,6 +702,16 @@
     "detail": "candidate mean 111.5 vs baseline 176.2; max 149 vs 220"
    },
    {
+    "check": "readability B2 / FK 8-10 per emitted turn",
+    "verdict": "PASS",
+    "detail": "FK 3.21-7.35, FRE min 73.74; 0/8 turns in the 8-10 band, 8 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 12.9%, max 21.1%; hardest turn's out-of-list words: ['altar', 'assumptions', 'beasts', 'beside', 'bishop', 'corinth', 'corrected', 'deposed']; anchor: BBC News / National Geographic register"
+   },
+   {
     "check": "ceiling regenerations (reported, not scored)",
     "verdict": "REPORT",
     "detail": "6/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
@@ -742,6 +752,7 @@
   "watch": [],
   "awaiting_human": [
    "per-turn overruns (reported, not scored)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
    "ceiling regenerations (reported, not scored)",
    "FLATTENING watch",
    "callback / candidate-offer (manual read)",

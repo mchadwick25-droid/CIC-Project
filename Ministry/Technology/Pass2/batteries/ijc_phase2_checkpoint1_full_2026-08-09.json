@@ -1030,6 +1030,16 @@
     "detail": "candidate mean 129.2 vs baseline 213.4; max 160 vs 266"
    },
    {
+    "check": "readability B2 / FK 8-10 per emitted turn",
+    "verdict": "FAIL",
+    "detail": "FK 6.8-9.75, FRE min 52.88; 6/8 turns in the 8-10 band, 2 below it (reported, not failed); breaches: [(1, 9.75, 52.88)]"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 18.6%, max 30.9%; hardest turn's out-of-list words: [\"apostle's\", 'athanasius', 'beside', 'chalcedon', 'constantinople', \"constantinople's\", 'defending', 'depose']; anchor: BBC News / National Geographic register"
+   },
+   {
     "check": "ceiling regenerations (reported, not scored)",
     "verdict": "REPORT",
     "detail": "8/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
@@ -1070,13 +1080,16 @@
     "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
    }
   ],
-  "auto_verdict": "PASS_PENDING_HUMAN_READ",
-  "failed": [],
+  "auto_verdict": "FAIL",
+  "failed": [
+   "readability B2 / FK 8-10 per emitted turn"
+  ],
   "watch": [
    "sustained-disagreement bar"
   ],
   "awaiting_human": [
    "per-turn overruns (reported, not scored)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
    "ceiling regenerations (reported, not scored)",
    "FLATTENING watch",
    "callback / candidate-offer (manual read)",

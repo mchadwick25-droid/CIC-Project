@@ -385,8 +385,53 @@ def load_baseline(world_id: str) -> dict | None:
     return None
 
 
+def _vocab_reach(probe: dict, rep: str | None,
+                 tech_terms: list | None) -> dict | None:
+    """B2 vocabulary proxy (Mark's 1A target, 2026-08-09): share of a turn's
+    words outside the bundled top-5000 general-English list
+    (wrs/gates/english_top5000_v1.txt - offline, no network, the same table
+    the alias gates use). FK/FRE measure syllables and sentence length; this
+    is the half they cannot see - vocabulary familiarity, the thing a
+    non-native reader actually hits. World terms are excluded when a
+    TECH_TERMS list is supplied: a bridged world term is flavor, counted by
+    its own instrument, not a vocabulary failure. Report-only - no threshold
+    is invented; the anchor register is BBC News / National Geographic prose
+    and rates accumulate on the watchlist until a bar is set from data."""
+    import re as _re
+    try:
+        from wrs.gates.core import _alias_freq_table
+        table = _alias_freq_table()
+    except Exception:  # noqa: BLE001
+        return None
+    term_tokens: set = set()
+    for t in tech_terms or []:
+        term_tokens.update(_re.findall(r"[a-z']+", t.lower()))
+    rates, worst = [], (0.0, None, [])
+    for m in probe.get("transcript", []):
+        if m.get("role") != "assistant":
+            continue
+        if rep and (m.get("name") or "").lower() != rep:
+            continue
+        toks = _re.findall(r"[a-z']+", (m.get("content") or "").lower())
+        if len(toks) < 10:
+            continue
+        oov = [t for t in toks if t not in table and t not in term_tokens
+               and len(t) > 2]
+        rate = len(oov) / len(toks)
+        rates.append(rate)
+        if rate > worst[0]:
+            worst = (rate, m.get("name"), sorted(set(oov))[:8])
+    if not rates:
+        return None
+    return {"mean_oov_rate": round(statistics.mean(rates), 3),
+            "max_oov_rate": round(max(rates), 3),
+            "worst_turn_sample": worst[2],
+            "world_terms_excluded": bool(tech_terms)}
+
+
 def score(artifact: dict, ceiling: int | None, typical: int | None,
-          baseline: dict | None) -> dict:
+          baseline: dict | None, rep: str | None = None,
+          tech_terms: list | None = None) -> dict:
     """The written pass bar, item by item. Every item is stated with its
     own verdict; nothing is left to 'reads fine'."""
     checks: list[dict] = []
@@ -423,6 +468,40 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
             "PASS" if statistics.mean(words) <= baseline["mean"] else "FAIL",
             f"candidate mean {statistics.mean(words):.1f} vs baseline "
             f"{baseline['mean']:.1f}; max {max(words)} vs {baseline['max']}")
+
+    # 1A readability target - Mark's ruling, 2026-08-09: CEFR B2, FK band
+    # 8-10, anchor register "BBC News / National Geographic". The scored edge
+    # is the UPPER bound only (FK <= 10, FRE >= 60, per emitted turn): too
+    # hard fails the non-native reader the project exists to reach. The band
+    # floor of 8 is reported, not failed - the same philosophy the assembly
+    # gate has always documented ("too-simple is not the risk the floor
+    # guards"); FLATTENING, not FK, guards against emptiness. This is the
+    # per-TURN output form of the floor that until now was only enforced on
+    # the assembled prompt text.
+    analyses = probe.get("turn_analyses", [])
+    scored = [a for a in analyses
+              if a.get("fk_grade") is not None and a.get("fre") is not None]
+    if scored:
+        breaches = [(a["turn"], a["fk_grade"], a["fre"]) for a in scored
+                    if a["fk_grade"] > 10.0 or a["fre"] < 60.0]
+        in_band = sum(1 for a in scored if 8.0 <= a["fk_grade"] <= 10.0)
+        below = sum(1 for a in scored if a["fk_grade"] < 8.0)
+        add("readability B2 / FK 8-10 per emitted turn",
+            "PASS" if not breaches else "FAIL",
+            f"FK {min(a['fk_grade'] for a in scored)}-"
+            f"{max(a['fk_grade'] for a in scored)}, FRE min "
+            f"{min(a['fre'] for a in scored)}; {in_band}/{len(scored)} turns "
+            f"in the 8-10 band, {below} below it (reported, not failed); "
+            f"breaches: {breaches or 'none'}")
+        reach = _vocab_reach(probe, rep, tech_terms)
+        if reach:
+            add("vocabulary reach vs top-5000 (reported, not scored)",
+                "REPORT",
+                f"mean OOV {reach['mean_oov_rate']:.1%}, max "
+                f"{reach['max_oov_rate']:.1%}"
+                f"{'' if reach['world_terms_excluded'] else ' (world terms NOT excluded - offline re-score)'}; "
+                f"hardest turn's out-of-list words: {reach['worst_turn_sample']}; "
+                f"anchor: BBC News / National Geographic register")
 
     lc = probe.get("length_ceiling", {}).get("by_outcome", {})
     retried, tot = lc.get("retried", 0), probe.get("length_ceiling", {}).get(
@@ -578,7 +657,9 @@ def main() -> int:
     baseline = load_baseline(world_id)
     artifact["baseline"] = baseline
     artifact["typical_words"] = typical
-    artifact["scorecard"] = score(artifact, ceiling, typical, baseline)
+    artifact["scorecard"] = score(artifact, ceiling, typical, baseline,
+                                  rep=rep,
+                                  tech_terms=ns["TECH_TERMS"].get(world_id))
 
     OUTDIR.mkdir(parents=True, exist_ok=True)
     out = OUTDIR / (f"{args.world}_phase2_checkpoint{args.checkpoint}_full_"
