@@ -314,6 +314,31 @@ built of long sentences is not brief"). Checkpoint 2 to run.
 **Standing, unchanged:** Desert's `REBUILT` stays `false` deliberately —
 his craft table is a transcription, not fresh authoring, still flagged
 for Mark.
+
+### Desert — Papnoute — checkpoint 2 — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`** (WATCH)
+
+**The breath clause worked, and precisely.** The density fix moved the
+axis it targeted and left the measure alone:
+
+| | cp1 (FAIL) | **cp2** |
+|---|---|---|
+| readability breaches | **1** (FK 10.65 / FRE 57.29) | **0** |
+| FK range | 2.05–10.65 | **3.45–8.43** |
+| words/sentence, avg | (turn-5 case: 21.7) | **12.6** |
+| sentences over 25w | — | **3** (fleet's fewest by far) |
+| probe mean / max | 53.6 / 66 | **47.9 / 65** |
+| fabrication | 0 | 0 (32 screened) |
+
+Sentence average 12.6 is the fleet's lowest and sits at the bottom of
+the Writing Standard's own 12–20 band; his measure stayed the fleet's
+tightest and even came in **below** baseline (47.9 vs 56.2). Exactly the
+intended result: nothing changed but sentence density.
+
+**WATCH — 1 sustained concession at `counter_evidence`.** This is the
+**fifth fleet-wide**, and notably the *second* at an evidence stage
+rather than a soft-social one (Chloe run B was the first), which
+weakens the "soft-social only" reading of the pattern. Standing count:
+5 concessions across 5 worlds, **all with `matched_contested: null`.**
 ### SYR — Yausep — checkpoint 1 — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`** (clean first pass)
 
 The first world to pass on its first checkpoint under the full 1A bar,
