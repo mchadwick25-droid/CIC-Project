@@ -15,8 +15,7 @@ term: concilium (synodos)
 aliases:
 - synod
 - ecumenical council
-quick_meaning: A council is where bishops gather, under imperial summons, to settle what the whole church
-  must hold — and, in our own record, what a council settles does not always stay settled.
+quick_meaning: 'A gathering of bishops, called by the emperor, to settle what the whole church must hold. In our own record, what a council settles does not always stay settled.'
 world_meaning: 'We do not resolve our own deepest disputes by one bishop''s word alone, however great
   his see. We gather — hundreds of us, summoned by the emperor''s own authority to travel, at real cost,
   to one place — and there we argue, and vote, and issue canons that bind. This is our own chief instrument

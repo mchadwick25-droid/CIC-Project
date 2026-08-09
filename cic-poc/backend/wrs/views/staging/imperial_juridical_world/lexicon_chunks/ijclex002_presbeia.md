@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant's question is actually about Rome's own cl
 
 ## Quick Meaning
 
-We hold that a see's rank follows the throne it stands beside — Constantinople is second only because it is where the emperor now sits, New Rome beside old Rome, and that is reason enough.
+A see's rank follows the throne it stands beside. Constantinople is second because that is where the emperor now sits. New Rome beside old Rome, and for us that is reason enough.
 
 ---
 

@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Orthodoxy-Enforcement Through Imperial Power (G03)
 classification: Primary
+capsule_line: 'The law used to settle what the church must hold. It decides which bishops keep their seats, which are driven out, and which are brought back.'
 six_tests:
   repetition:
     verdict: Passes. Recurs at Nicaea, under Constantius II and Valens (in reverse — Homoian orthodoxy

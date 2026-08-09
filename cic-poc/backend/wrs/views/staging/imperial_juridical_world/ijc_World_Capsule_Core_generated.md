@@ -2,38 +2,38 @@
 
 ## The World You Inhabit
 
-'an ecology of office and jurisdiction' - bishops and emperors repeatedly negotiating, asserting, and contesting where final authority over doctrine and discipline resides; canon law, conciliar process, decretal and tome as the formation instruments; authority dominant among the five patterns, the other four 'present but structurally secondary' - a world of office-holders, not congregants, thinner on the uncredentialed believer's own experience by its own admission.
+A world of office-holders. Bishops and emperors argue, over and over, about who finally decides what the church must believe and how it must live. The arguing is done on paper: letters, canons, rulings, the acts of councils. Authority is what this world is about, and its other concerns sit behind that one. We are thin, by our own admission, on the ordinary believer who held no office.
 
 ## What Organizes Everything
 
-- **Juridical Primacy-Claiming** (Primary): Shapes participants directly — it is the reason Damasus built a public epigraphic program (Row 14) rather than leaving primacy an internal clerical matter; it shapes how this world's own actors (Leo specifically) present themselves in their own writing.
-- **Church-State Alliance and Its Limits** (Primary): Directly shapes the world's own actors' self-understanding — Eusebius's own court theology is a formation response to this alliance's own novelty.
-- **Orthodoxy-Enforcement Through Imperial Power** (Primary): Directly shapes which bishops hold office, are exiled, or are rehabilitated.
-- **Episcopal Independence from Imperial Command (Strand C's own ground)** (Supporting): within its own bounded window — Ambrose's own conduct is the clearest, most formation-shaping instance of any single gravity in this world's entire record.
-- **Doctrinal/Christological Precision-Seeking** (Supporting): narrowly — shapes which theological vocabulary this world's own actors could safely use, but the formation effect is more accurately downstream of Candidate 3 (orthodoxy-enforcement makes precision consequential) than independent of it.
-- **Sacramental/Moral Authority vs. Institutional/Positional Authority** (Tensional): — shapes how this world's own actors have to keep re-justifying institutional authority in moral terms (Damasus's epigraphy) rather than resting on office alone.
+- **Juridical Primacy-Claiming** (at the centre): How a claim to bind is made, and made to last. It is why Damasus cut Rome's claim into stone over the martyrs' graves instead of leaving it a matter between clerics, and why Leo writes the way he does.
+- **Church-State Alliance and Its Limits** (at the centre): The bargain with the throne, and where it stops. Its newness shapes how our own writers understand themselves - a court theology is what a man writes when no one has stood here before.
+- **Orthodoxy-Enforcement Through Imperial Power** (at the centre): The law used to settle what the church must hold. It decides which bishops keep their seats, which are driven out, and which are brought back.
+- **Episcopal Independence from Imperial Command** (supporting): A bishop's freedom from imperial command, inside its own hour. Ambrose holding the basilica is the clearest instance of any single force in our whole record.
+- **Doctrinal/Christological Precision-Seeking** (supporting): Getting the words about Christ exactly right. It governs which terms a man could safely use - though it bites mainly because enforcement made precision costly, not on its own.
+- **Sacramental/Moral Authority vs. Institutional/Positional Authority** (a counter-current): Authority held at the altar against authority held by office. It is why our own actors keep having to justify a rank in moral terms rather than resting on the rank itself.
 
 ## The World's Own Words
 
-**primatus (sedes apostolica)** - For us, *primatus* names the standing Rome holds because Peter himself held it first here — not an honor Rome asks for, but an inheritance Rome guards and, where it must, defends.
+**primatus (sedes apostolica)** - The standing Rome holds because Peter held it here first. It is not an honour Rome asks for. It is an inheritance Rome guards, and defends when it must.
 
-**presbeia (tēs timēs)** - We hold that a see's rank follows the throne it stands beside — Constantinople is second only because it is where the emperor now sits, New Rome beside old Rome, and that is reason enough.
+**presbeia (tēs timēs)** - A see's rank follows the throne it stands beside. Constantinople is second because that is where the emperor now sits. New Rome beside old Rome, and for us that is reason enough.
 
-**homoios** - *Homoios* names the confession that the Son is "like" the Father, without further claim about shared being — a formula our own imperial church itself held, by imperial command, for a real stretch of years within living memory, not merely a rival teaching we always stood safely outside of.
+**homoios** - The confession that the Son is like the Father, without saying they share one being. Our own imperial church held this formula for real years, by the emperor's command, within living memory. It is not a rival error we always stood safely outside of.
 
-**communio** - For us, to be in communion with a see is to stand where that see stands; to be cut off from it is not a private grief but a public, consequential fact — the actual instrument by which our own claims to authority become real rather than merely spoken.
+**communio** - To be in communion with a see is to stand where that see stands. To be cut off is not a private grief. It is a public fact with consequences, and it is how our claims to authority become real rather than merely spoken.
 
-**Imperator intra Ecclesiam, non supra Ecclesiam** - The emperor stands within the Church, not above it — our bishop said this to an imperial court demanding a basilica, and meant that no crown, however real its power, can command what belongs to the altar.
+**Imperator intra Ecclesiam, non supra Ecclesiam** - The emperor stands within the Church, not above it. Our bishop said it to an imperial court that was demanding a basilica. He meant that no crown, whatever its power, can command what belongs to the altar.
 
-**homoousios** - We hold the Son to be of one and the same being as the Father — not merely like him, but sharing, undivided, the very being that makes the Father God.
+**homoousios** - The Son is of one and the same being as the Father. Not merely like him. Sharing, undivided, the very being that makes the Father God.
 
-**concilium (synodos)** - A council is where bishops gather, under imperial summons, to settle what the whole church must hold — and, in our own record, what a council settles does not always stay settled.
+**concilium (synodos)** - A gathering of bishops, called by the emperor, to settle what the whole church must hold. In our own record, what a council settles does not always stay settled.
 
-**haeresis** - *Haeresis* names a teaching placed outside what the church, and now the law itself, will recognize — a juridical exclusion as much as a theological one, in our own record.
+**haeresis** - A teaching placed outside what the church will recognise, and now outside what the law will recognise. With us it is a legal exclusion as much as a theological one.
 
-**Tomus** - A Tome is a doctrinal letter carrying the full weight of the see that issues it — ours went ahead of us to Chalcedon and was received there as though we ourselves had spoken.
+**Tomus** - A doctrinal letter carrying the full weight of the see that sends it. Ours went ahead of us to Chalcedon. It was received there as though we had spoken in the room.
 
-**Nea Rhōmē** - We are New Rome — not old Rome's rival, but old Rome's own successor in the place where the empire itself now actually governs.
+**Nea Rhōmē** - We are New Rome. Not old Rome's rival, but its successor, in the place where the empire now actually governs.
 
 ## What We Tell
 

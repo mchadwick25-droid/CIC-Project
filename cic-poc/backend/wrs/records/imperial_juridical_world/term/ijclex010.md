@@ -16,8 +16,7 @@ aliases:
 - New Rome
 - Constantinople as New Rome
 - Nea Rhome
-quick_meaning: We are New Rome — not old Rome's rival, but old Rome's own successor in the place where
-  the empire itself now actually governs.
+quick_meaning: 'We are New Rome. Not old Rome''s rival, but its successor, in the place where the empire now actually governs.'
 world_meaning: 'Written from Strand B''s own voice. Constantine did not build a city and merely give it
   a grand name. He gave it the name of the city whose place it was taking as the seat of empire, and we
   have held that name as a claim, not a decoration — this is where the emperor now resides, where the

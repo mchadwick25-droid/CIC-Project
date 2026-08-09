@@ -39,16 +39,16 @@
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
-   "chars": 2847,
-   "est_tokens": 711
+   "chars": 2622,
+   "est_tokens": 655
   },
   {
    "name": "demonstrations",
    "cache_stability": "static",
    "eviction_priority": 5,
    "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 3, deterministic rank by strong-count desc then record id)",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 2389,
+   "est_tokens": 597
   },
   {
    "name": "categorical_guards",
@@ -79,12 +79,12 @@
  "budget": {
   "world_ground_est_tokens": 936,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 4511
+  "static_total_est_tokens": 5052
  },
  "quick_reach": "absent - craft table empty this phase (craft_ijc.py)",
  "readability": {
-  "fk_grade": 7.27,
-  "fre": 71.56,
+  "fk_grade": 6.34,
+  "fre": 74.63,
   "violations": []
  }
 }

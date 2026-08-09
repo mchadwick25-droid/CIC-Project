@@ -54,7 +54,38 @@ POST_HISTORY_GUARD = (
 #   one, which is why it rides here, closest to generation (doc 09).
 # - anti-fabrication absolute + honest thinness: avoid_traits
 #   "manufactured specifics" and the formation-internal thinness trait.
+# imperial-juridical-christianity (Marius), assembled from ijcvoice001:
+# - record-only discipline + naming: the norms' name-the-see habit and the
+#   bare-fact-no-cast trait, stated as the act-without-the-man rule.
+# - the measure, with its own failure mode spelled out: not "be brief" but
+#   the staging rule his baseline broke - one stage per turn, not the whole
+#   judgment at once. His streaming baseline ran a 215.9-word mean against
+#   a 180 ceiling that had never once fired, and the re-derivation found
+#   the cause was staging, not style. That is the constraint that must
+#   survive attention decay here, which is why it rides closest to
+#   generation (doc 09).
+# - anti-fabrication absolute + honest thinness.
+# - the two IJC-scoped clauses CARRIED IN from the nodes.py wiring site
+#   (S6.2/IJC freeze, Decision IJC-3 / FLAG-037): the pronoun-question
+#   answer and the no-biography-beyond-record rule. These were hardcoded
+#   at the wiring site with a note that they stay there "until Marius's own
+#   pass carries it into his export" - this is that pass. Their text is
+#   carried verbatim in substance; they now precede rather than follow the
+#   shared open-on-the-question sentence, which is a position change only.
 POST_HISTORY_GUARDS = {
+    "imperial-juridical-christianity": (
+        "Hold, before you speak: only what this world's own record carries, "
+        "under the right name, and at a finding's measure - one matter, "
+        "heard, settled, closed. You do not hand down the whole judgment at "
+        "once: a longer answer does not bind harder than a short one, and a "
+        "challenge is answered at the same measure as a question. Never an "
+        "invented scene, courier, saying, source, or attribution - where the "
+        "record gives the act without the man, give the act without the man, "
+        "and where it thins, say the thinness plainly and stop. Two more, "
+        "held hardest: a question about your own voice or pronoun is "
+        "answered with history, never with reasons for how you speak. And no "
+        "biographical detail for any name beyond what your record itself "
+        "carries - no earlier post, mission, or journey, however accurate."),
     "hieronymian-ascetic-literary": (
         "Hold, before you speak: only what this household's own record "
         "carries, under the right name, and at the letter's measure - one "

@@ -160,19 +160,43 @@ def build_capsule() -> str:
     core = load_records("world_core")["ijccore001"][0]
 
     parts = ["# World Capsule Core - Imperial-Juridical (generated view)"]
+    # Phase 2: prefer world_core's own capsule_inhabit, for the same reason
+    # capsule_line is preferred below. formation_logic is a single 69-word
+    # analytical sentence quoting Doc_01's section headings at itself; it
+    # measured FK 35.2 / FRE -38 on its own, the worst passage in the file.
     parts.append("## The World You Inhabit\n\n"
-                 + voice(re.sub(r"^Doc_01 [^:]*: ", "",
-                                core.get("formation_logic", ""))))
+                 + voice(core.get("capsule_inhabit")
+                         or re.sub(r"^Doc_01 [^:]*: ", "",
+                                   core.get("formation_logic", ""))))
     order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
     ranked = sorted((g for g in gravities.values()
                      if g.get("classification") in order),
                     key=lambda g: (order[g["classification"]], g["id"]))
+    # Phase 2 (Marius's pass, 2026-08-08): prefer each gravity record's own
+    # capsule_line. The six_tests formation verdict is a BUILDER's artifact -
+    # it grades whether a candidate force passes the formation test, and it
+    # is written in that vocabulary ("Passes narrowly", "Row 14", "Doc_04
+    # Candidate 3", "downstream of Candidate 3"). It drove this capsule to FK
+    # 18.5 / FRE 24.5, failing both floors by a wide margin, and no amount of
+    # regex stripping turns a grading verdict into something a participant
+    # can read. capsule_line says the same thing in the world's own plain
+    # terms. The verdict is kept as the fallback so a world without
+    # capsule_lines renders exactly as before.
+    PLACE = {"Primary": "at the centre",
+             "Supporting": "supporting",
+             "Tensional": "a counter-current"}
     lines = []
     for g in ranked:
-        verdict = voice(g["six_tests"]["formation"]["verdict"])
-        verdict = re.sub(r"^Passes[.,]?\s*(strongly[.,]?\s*)?", "", verdict)
-        name = re.sub(r"\s*\(G0\d[^)]*\)", "", voice(g["name"]))
-        lines.append(f"- **{name}** ({g['classification']}): {verdict}")
+        line = voice(g.get("capsule_line") or "")
+        if not line:
+            line = voice(g["six_tests"]["formation"]["verdict"])
+            line = re.sub(r"^Passes[.,]?\s*(strongly[.,]?\s*)?", "", line)
+        # Strip every trailing parenthetical, not just the (G0N) tag: G04's
+        # name also carries "(Strand C's own ground)", which is build
+        # apparatus and was reaching the rendered capsule. Verified against
+        # all six names - none carries meaning in a parenthetical.
+        name = re.sub(r"\s*\([^)]*\)", "", voice(g["name"])).strip()
+        lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
     vs_lines = []
     for tid in sorted(terms):

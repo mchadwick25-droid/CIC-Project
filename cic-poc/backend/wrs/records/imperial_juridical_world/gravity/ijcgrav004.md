@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Episcopal Independence from Imperial Command (Strand C's own ground) (G04)
 classification: Supporting
+capsule_line: 'A bishop''s freedom from imperial command, inside its own hour. Ambrose holding the basilica is the clearest instance of any single force in our whole record.'
 six_tests:
   repetition:
     verdict: 'Fails to pass strongly at the world level. Recurs robustly within Ambrose''s own career
