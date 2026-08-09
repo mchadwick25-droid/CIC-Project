@@ -357,3 +357,233 @@ Every answer would feel like sitting with a wise, historically grounded
 Christian who knows their own tradition deeply enough to choose the right
 story, the right text, the right quote, or the right admission of
 uncertainty for this conversation, not just this topic.
+
+
+---
+
+# Addendum — the "Conversation Composition System" perspective (Mark, 2026-08-09, second insight)
+
+Mark brought a second perspective the same day ("another perspective, what
+do you think?"). Assessment first, then the text verbatim.
+
+## What it adds that we did not have
+
+- **Emergence (its metric 7) is genuinely new.** "Did later parts of the
+  discussion emerge naturally from earlier discoveries, or did every
+  answer reset to the original topic? Great conversations branch. Bad
+  chats loop." Nothing in the system measures this. Honest scoping: the
+  scripted batteries CANNOT show it fully — their participant side never
+  branches — so emergence splits into (a) a deterministic proxy on
+  scripted runs (build-on rate: does turn N take up material the
+  REPRESENTATIVE introduced in earlier turns, distinct from uptake of the
+  participant's words) and (b) its real home, the pilot/human read.
+- **Surprise (metric 8) names the positive signal FLATTENING only guards
+  negatively.** We police the absence of distinctiveness; nothing
+  measures its presence — the evidence-grounded "I never thought of it
+  that way" moment. Not automatable honestly; joins the human read.
+- **Ending-variation as a first-class distribution.** Our counters had
+  opener diversity; ending diversity (invitation / explanation /
+  challenge / silence / question / summary) is just as diagnostic and now
+  specified. "If 90% begin the same way, you have a template."
+- **The Master Metric unifies the whole evaluation, and every axis
+  already has an instrument home:**
+
+  | axis | prevents | instrument of record |
+  |---|---|---|
+  | high fidelity | drift | the 1B gates: leak, fabrication-0, adjudicator, containment |
+  | high responsiveness | canned answers | uptake + question-satisfaction (the read) |
+  | high diversity | templates | structural/witness diversity counters |
+  | recognizably the same witness | randomness | **probe_parity's SAME-VOICE grading** — the returning-participant continuity read, which now has its permanent purpose |
+
+  That last cell matters: parity's script was kept "for future voice
+  changes"; the Master Metric gives it a standing job.
+- **The jazz-ensemble refinement is the best statement yet of the
+  constraint/freedom balance**: the Formation World is the key and
+  harmony, the question is the theme, and the no-repeat ledger is exactly
+  "don't replay a memorized solo."
+
+## Two corrections required before any of it touches a Representative
+
+1. **"Personal memories" (listed under Human witnesses) is a fabrication
+   trap as written.** The fleet's we-voice discipline forbids invented
+   individual memory — FIRST_PERSON is drift signal 9, and "a memory that
+   never happened is no more true attached to a whole people than to one
+   person in it" is the shared block's own line. The emic form: community
+   memory and attested stories from the record, never a claimed personal
+   past. (Desert alone keeps deliberate first-person singular, by its own
+   design.)
+2. **The witness roster is per-world and record-shaped, never the generic
+   list.** "Scripture" as a witness category means something different in
+   a world with no closed canon (PAHC treats a closed canon as flat
+   non-recognition); "councils" do not exist for every world; archaeology
+   is an etic witness no Representative can cite. Each world's available
+   witnesses ARE its source registry — the generic list is design
+   vocabulary, not runtime vocabulary.
+
+## What it confirms (independently arrived at, which is itself evidence)
+
+The anti-template warning with named anti-patterns; composition purposes
+over structure; no target mix / no invented thresholds; witness
+repetition as a tracked defect (our Leo 4x / Ambrose 5x finding,
+pre-confirmed); session-level measurement never per-turn compliance.
+
+## Adopted into the instrument plan
+
+Tier-1 counters gain: ending-type distribution, opening-type
+distribution (sharpened), build-on-own-earlier-turns rate (emergence
+proxy). The human read gains two questions: *did the conversation branch
+and build, or loop?* and *was there a genuine, evidence-grounded moment
+of "I never thought of it that way"?* The Master Metric becomes the
+evaluation's unifying frame, with the four instrument homes above.
+
+---
+
+## The perspective (verbatim)
+
+### Conversation Composition System
+
+**Design Objective**
+
+The Representative shall not generate responses from fixed conversational
+templates.
+
+Instead, each response shall be composed by exercising judgment within
+the Formation World, selecting from the world's available witnesses,
+gravities, vocabulary, practices, stories, and historical voices in order
+to faithfully answer the participant's question.
+
+The consistency of the Representative shall arise from fidelity to its
+Formation World rather than from repeated conversational structure.
+
+**Runtime Composition Process**
+
+Every participant question should trigger a composition process similar
+to:
+
+```
+Receive Question
+  ↓
+Discern participant intent
+  ↓
+Identify the world gravities involved
+  ↓
+Determine what understanding would best serve this participant
+  ↓
+Select the most appropriate witnesses
+  ↓
+Compose a coherent response
+  ↓
+Leave room for continued discovery
+```
+
+Notice there is no required order for: story, Scripture, quotation,
+history, practice, challenge, question, application.
+
+The system decides.
+
+**Available Witness Resources**
+
+The Representative should have access to many possible forms of witness.
+Examples include:
+
+Foundational: Scripture; Key theological ideas; World gravities; Lexicon;
+Historical events.
+
+Human: Personal memories; Daily life; Worship; Prayer; Community
+practices.
+
+Historical: Church Fathers; Councils; Letters; Liturgies; Creeds.
+
+Reflective: Honest uncertainty; Internal disagreement; Confession of
+failure; Celebration; Hope; Warning.
+
+These are options—not requirements.
+
+**Composition Principles**
+
+Every response should attempt to satisfy several purposes. Not all
+equally. For example:
+
+✓ Answer the question. ✓ Reveal a gravity. ✓ Increase understanding.
+✓ Sound like this world. ✓ Stay historically honest. ✓ Preserve
+curiosity.
+
+The Representative decides which purposes deserve the most emphasis in
+this moment.
+
+**What NOT to Build**
+
+Avoid systems that require:
+
+```
+Answer → Quote → Story → Application → Reflection
+```
+
+or
+
+```
+Definition → Evidence → Example → Question
+```
+
+These become recognizable within a few turns. People stop feeling like
+they're in conversation. They begin seeing the machinery.
+
+**What TO Measure**
+
+1. **Fidelity.** Did the answer remain faithful to the Formation World?
+   Correct theology; correct historical framing; proper vocabulary;
+   appropriate uncertainty.
+2. **Question Satisfaction.** Did it actually answer the participant?
+   Not "Did it teach something interesting?" Did it answer what was
+   asked?
+3. **Gravity Revelation.** Did the conversation illuminate one or more
+   important gravities? Not artificially. Naturally.
+4. **Witness Diversity.** Across an entire session: how many witness
+   types appeared? (Scripture, story, quotation, liturgy, historical
+   event, practice, analogy, confession, uncertainty.) No target mix.
+   Just avoid becoming narrow.
+5. **Structural Diversity.** Measure whether answers become mechanically
+   similar. Opening variation: how many responses begin with Scripture /
+   explanation / story / question / observation / memory / clarification?
+   If 90% begin the same way, you have a template. Ending variation: how
+   do responses conclude — invitation, explanation, challenge, silence,
+   question, summary? Uniformity is a warning. Paragraph rhythm: sentence
+   length, paragraph count, quote frequency — if these become nearly
+   identical: template.
+6. **Witness Repetition.** Track over a session. If Athanasius appears
+   six times: problem. If the same verse appears repeatedly: problem. If
+   every answer quotes Scripture: problem. A wise teacher has range.
+7. **Emergence.** After the conversation ask: did later parts of the
+   discussion emerge naturally from earlier discoveries? Or did every
+   answer simply reset to the original topic? Great conversations branch.
+   Bad chats loop.
+8. **Surprise.** A wonderful historical conversation often contains
+   moments where the participant says: "I never thought of it that way."
+   Not because the AI was clever. Because the world genuinely sees
+   something differently. You don't maximize surprise—you monitor for
+   meaningful, evidence-grounded insights that reveal the world's
+   distinctive perspective.
+
+**The Master Metric**
+
+> The Representative should display high fidelity, high responsiveness,
+> and high conversational diversity while remaining recognizably the same
+> historical witness.
+
+That's a measurable tension: high fidelity prevents drift; high
+responsiveness prevents canned answers; high diversity prevents
+templates; recognizably the same witness prevents randomness.
+
+**One refinement**
+
+Think less like someone building a chatbot and more like someone building
+a jazz ensemble. A jazz musician isn't improvising without constraints.
+They are deeply constrained by the key, the harmony, the rhythm, and the
+style. Those constraints create a recognizable identity, but within them
+there is freedom to respond to the moment.
+
+Your Formation World provides the equivalent of the key and harmony. The
+participant's question sets the immediate musical theme. The
+Representative's job is not to replay a memorized solo; it is to
+improvise faithfully within those constraints. That's the balance your
+specification should demand and your evaluation should verify.
