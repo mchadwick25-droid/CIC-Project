@@ -109,6 +109,18 @@ used demonstrations and deprioritize repeats, (b) require explicit
 callback framing on genuine re-use — (b) doubles as a live demo of the
 callback license.
 
+## 6b. PRE-SWAP for Chloe (and every world): transparency verified visible — OPEN, Mark 2026-08-09
+
+His read of the blinded transcripts surfaced it: "we still need to make
+sure the 3 level transparency and lexicon, story, quote, and general
+referencing are all working well." Findings: **citations fire 4/8 turns
+with full Article 30 payloads** (working — my read page had hidden them;
+now shown); **glosses fire 0/8 on every Chloe arm** — her lexicon
+surfacing never triggers at runtime and must be diagnosed and fixed
+BEFORE her swap; quote referencing now has supply (key_line) but
+coverage remains thin. No world ships until its transparency stack is
+verified firing AND visible to the participant.
+
 ## 7. Quotes / citation coverage — PENDING MARK, partially moved already
 
 His baseline read found citations firing on ~21% of turns fleet-wide.
