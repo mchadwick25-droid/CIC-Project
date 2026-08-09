@@ -62,14 +62,24 @@ function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
   const matches: Match[] = [];
   const lowerText = text.toLowerCase();
   for (const gloss of glosses) {
-    if (!gloss.rendered) continue;
-    const lowerRendered = gloss.rendered.toLowerCase();
+    // Tier-2 fallback (gloss-firing fix, 2026-08-09): when the voice used
+    // the ORIGINAL phrase naturally without the rendered inline form
+    // (backend marks these inline: false), highlight the original so the
+    // participant still gets the confirmed modern reading from the UI -
+    // Three-Level Transparency supplying the bridge the natural register
+    // deliberately left unsaid.
+    const needle =
+      gloss.rendered && lowerText.includes(gloss.rendered.toLowerCase())
+        ? gloss.rendered
+        : gloss.original;
+    if (!needle) continue;
+    const lowerNeedle = needle.toLowerCase();
     let fromIndex = 0;
     while (fromIndex <= lowerText.length) {
-      const foundAt = lowerText.indexOf(lowerRendered, fromIndex);
+      const foundAt = lowerText.indexOf(lowerNeedle, fromIndex);
       if (foundAt === -1) break;
-      matches.push({ index: foundAt, length: gloss.rendered.length, gloss });
-      fromIndex = foundAt + gloss.rendered.length;
+      matches.push({ index: foundAt, length: needle.length, gloss });
+      fromIndex = foundAt + needle.length;
     }
   }
   matches.sort((a, b) => a.index - b.index);

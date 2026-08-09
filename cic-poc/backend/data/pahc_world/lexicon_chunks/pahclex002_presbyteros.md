@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about priestly ordination in a later
 
 ## Quick Meaning
 
-The *presbyteroi* are the elders who share the community's governance — in some households as a council that holds the full trust themselves, in others gathered around a bishop whose leadership they support but do not replace.
+The elders who share the governing of a community. In some households they are a council holding the whole trust themselves. In others they gather around one overseer, supporting his leadership without replacing it.
 
 ---
 
@@ -30,7 +30,7 @@ We hold both patterns in our correspondence without either side declaring the ot
 
 ## Ecological Function
 
-This term works with episkopos to anchor the Authority Consolidation question (G01). Where episkopos carries the fuller Strand A/B institutional argument, presbyteros reveals the counterweight: the council model that existed before, alongside, and in some places instead of the single-bishop pattern.
+This term works with episkopos to anchor the question of who leads. Where episkopos carries the fuller institutional argument, presbyteros shows the counterweight: the council pattern, which existed before the single-bishop pattern, alongside it, and in some places instead of it.
 
 ---
 

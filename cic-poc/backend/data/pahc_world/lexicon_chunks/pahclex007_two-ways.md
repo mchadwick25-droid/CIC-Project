@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a modern catechesis program wi
 
 ## Quick Meaning
 
-Before the water, we teach the Two Ways: a way of life and a way of death lie open before every person, and walking one rather than the other is a choice kept, not a nature settled once for all.
+Before the water we teach the two ways. A way of life and a way of death lie open before every person. Walking one rather than the other is a choice kept daily, not a nature settled once and for all.
 
 ---
 

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about stubbornness in a general sens
 
 ## Quick Meaning
 
-*Pertinacia* — stubbornness, obstinacy — is what Pliny found punishable in Christians: not the content of their beliefs, but their refusal to recant when given the chance.
+Stubbornness. Obstinacy. It is what a magistrate found punishable in us - not what we believed, but our refusal to take it back when given the chance.
 
 ---
 

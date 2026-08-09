@@ -38,7 +38,6 @@ DEPLOYED_DESERT = BACKEND / "data" / "desert_world" / "desert_Representative_Per
 
 # Worlds still awaiting their Phase-2 pass: stability only.
 OTHER_WORLDS = [
-    ("s62_pahc_permanent_prompt", "PAHC (Chloe)"),
     ("s62_alx_permanent_prompt", "Alexandria (Theon)"),
     ("s62_syr_permanent_prompt", "Syriac (Yausep)"),
     ("s62_ijc_permanent_prompt", "IJC (Marius)"),
@@ -50,6 +49,13 @@ OTHER_WORLDS = [
 DEPLOYED_WORLDS = [
     ("s62_hal_permanent_prompt", "Hieronymian (Albina)",
      BACKEND / "data" / "hieronymian_world" / "hal_Representative_Permanent_Prompt_Albina.txt"),
+    # PAHC joined at the 2026-08-09 swap: checkpoint green on the full 1A
+    # bar three times over, Mark's blind paired read of record (4-5 on all
+    # six dimensions, all three arms), gloss firing fixed and verified.
+    # Deployed prompt is GENERATED - DO NOT HAND-EDIT; rollback is git
+    # revert of the swap commit.
+    ("s62_pahc_permanent_prompt", "PAHC (Chloe)",
+     BACKEND / "data" / "pahc_world" / "pahc_Representative_Permanent_Prompt_Chloe.txt"),
 ]
 
 # A deployed world whose assembly has DELIBERATELY moved ahead of what is

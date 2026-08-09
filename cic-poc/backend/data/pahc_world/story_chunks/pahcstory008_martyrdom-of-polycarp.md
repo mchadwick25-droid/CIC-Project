@@ -1,6 +1,8 @@
 Story-Title:    The Martyrdom of Polycarp
 World-Code:     pahc
 Tier:           3
+Signature:      yes
+Key-Line:       "Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?"
 Confidence:     Contested (general portrait and dating) / Inferential-Thin (specific claimed events)
 Source:         *Martyrdom of Polycarp* (Registry P16), traditional dating c. 155–156 CE; Eusebius's *Chronicon* dates it 167 CE; concluding chapters (20–22) widely regarded as later redactional additions. Framed within its own text as a letter from the church at Smyrna to the church at Philomelium.
 Retrieve-When:  Participant asks what a formed life looks like when tested to its limit; participant asks about martyrdom as an ideal within this tradition; participant asks about Polycarp specifically, following or alongside Story 003; conversation reaches G04 (Martyrdom as Meaning-Response) and needs its second, community-authored data point (alongside Story 001).
@@ -18,9 +20,7 @@ This is the tradition's own witness to what it believed formation could produce,
 
 ## Formation Ecology Connection
 
-This is the second and last data point supporting G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) — alongside Story 001, this is the entire evidentiary weight this gravity rests on in this world. It shows the formation ideal from the community's own side, complementing Story 001's first-person account: not simply how one man interpreted his own death, but how a whole community remembered and ritually reenacted the meaning of one leader's death for its own ongoing formation.
-
-The bone-collection scene and the annual gathering are themselves formation practice, not merely narrative decoration — they show the community actively building a commemorative rite around this story, which is itself evidence of how central this meaning-response was to Strand A's own formation logic.
+This is the second of only two accounts we have of a death read as meaning, and together they carry the whole weight of it. It shows the ideal from the community's side rather than the dying man's: not how one man understood his own death, but how a whole community remembered it, and built a yearly gathering around it. The collecting of the bones and the annual meeting are themselves formation, not decoration. A community was building a rite around this story, which is itself the measure of how much the meaning mattered to them.
 
 ## Tier Justification
 

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about modern deaconess orders with n
 
 ## Quick Meaning
 
-*Ministrae* is Pliny's Latin word for the servant-women he tortured — Christians in recognized service, though we do not know fully what they themselves would say about their own role.
+The Latin word a magistrate used for the servant-women he tortured. Christians in recognised service. What they themselves would have called that service, we do not know.
 
 ---
 

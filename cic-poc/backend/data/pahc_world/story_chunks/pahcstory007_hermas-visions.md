@@ -16,7 +16,7 @@ Hermas names Clement by name as a specific, named figure in this world's own tra
 
 ## Formation Ecology Connection
 
-This story feeds G01 (Authority Consolidation, Supporting) from its Strand B side — the named Clement/Grapte instruction in *Vision* 2.4.3 is direct evidence of Rome's own plural-role leadership pattern operating without a monarchical bishop. It also supplies this world's central penitential-formation material (Doc_05, Doc_07 §§2A, 2H) — a formation logic organized around a single, urgent, time-limited mercy for post-baptismal sin, distinct from anything in Strand A's surviving material.
+This shows the council pattern from inside the community that lived it: the instruction naming Clement and Grapte is direct evidence of Rome's own plural leadership working without a single bishop. It also carries our central material on repentance - a formation logic built around one urgent, time-limited mercy for sin after baptism, and quite distinct from anything the bishop-centred communities have left us.
 
 ## Tier Justification
 

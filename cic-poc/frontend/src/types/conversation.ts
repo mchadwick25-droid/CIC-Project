@@ -24,6 +24,7 @@ export interface GlossUsed {
   original: string;
   gloss: string;
   rendered: string;
+  inline?: boolean;
 }
 
 export interface Message {
