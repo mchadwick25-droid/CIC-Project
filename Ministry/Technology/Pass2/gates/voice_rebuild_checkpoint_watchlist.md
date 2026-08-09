@@ -340,9 +340,25 @@ likely next density case even though he passed clean.
 
 **SWAPPED AND LIVE (2026-08-09)** — byte-identical, deployed leak gate
 zero hits.
-### HAL — Albina — checkpoint 5 (re-run) — *pending*
+### HAL — Albina — checkpoint 5 (re-checkpoint) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
 
-Her checkpoint 4 measured a build **without** her contestation renders
-(`HAL_CLAIM_RENDERS` was `{}` through her entire pass). She is deployed and
-declared in `assembly_identity.PENDING_RECHECKPOINT`; removing that entry is
-part of her swap.
+The re-checkpoint her `PENDING_RECHECKPOINT` entry demanded: checkpoint 4
+measured a build **without** her contestation renders (`HAL_CLAIM_RENDERS`
+was `{}` through her entire pass). This run measured the build **with**
+them, on the post-1A block. Nothing failed, nothing on watch.
+
+| | cp4 (pre-contestation, pre-1A) | **cp5 (with renders, post-1A)** |
+|---|---|---|
+| probe mean / max | 117.5 / 148 | **110.5 / 132** |
+| readability B2 HARD | not yet instrumented | **PASS** — FK 2.57–9.9, FRE min 62.4, zero breaches |
+| no-regression vs baseline 140.5 | — | **PASS** |
+| sustained | FAIL_CONCEDED (1) | **zero concessions**, 3 UNCERTAIN |
+| fabrication | 0 | 0 (31 screened) |
+
+The ~900 tokens of new contestation voice cost her nothing and her
+sustained half **improved** — checkpoint 4's concession is gone. Her
+`PENDING_RECHECKPOINT` entry can be removed at her swap, which is what
+that registry always said resolution would look like.
+
+**Watch:** 16 sentences over the 25-word guard, worst 39w — the same
+density axis carried fleet-wide.
