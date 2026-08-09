@@ -71,10 +71,36 @@ screen, reroot, and both classifiers — nobody reads those.
 The instruction itself measures FK 6.52 / FRE 75.05 — it meets the
 standard it imposes. **Safety-path content is unchanged**: the block is
 appended, never edited into the reviewed crisis wording, and plain
-speech in a crisis serves those prompts' own purpose. **Still open:** a
-live run to confirm the facilitator-readability report clears the floor
-(the report fires on every checkpoint, so the next run of any world
-verifies it).
+speech in a crisis serves those prompts' own purpose. **Extended same day on Mark's correction:** "it does not have a
+glossary, so it shouldn't be pulling words, stories or quotes... it just
+talks in modern english and acts as a bridge... it should be much
+simpler." Two things followed.
+
+**(a) The role is now stated, not just implied.** The shared block leads
+with *Who You Are*: the bridge, no world of its own — no old vocabulary,
+no stories, no quotable lines, no tradition to speak from; never reach
+for a world's own word, story or quotation, because those belong to the
+representatives. Its work named plainly: welcome, introduce, translate a
+modern question inward, explain when a question comes from a later age,
+and **name it aloud when a view is being pressed on a representative
+rather than asked of them**. Then step back. (Architecturally this was
+already true — the Facilitator receives no retrieved context, no lexicon
+or story chunks — but nothing *told* it so.)
+
+**(b) The prompts themselves were the deeper defect.** They were written
+at **FK 11.3–11.5** — the instructions modelled the exact density they
+were meant to prevent, teaching the register by example. Simplified:
+handoff 11.35 → **7.22**, multi-handoff 11.29 → **7.04**, with every
+substantive constraint kept (name, place, period, invitation, no
+limitations talk, cautions-never-voiced). Reception 8.39 → 7.77,
+closing 8.71 → 7.95 via the shared block.
+
+**Still open:** a live run to confirm the report clears the floor — it
+fires on every checkpoint, so the next run of any world verifies it.
+Three participant-facing prompts remain dense and are deliberately
+untouched for now: frame-breaker response (FK 11.5), epistemology bridge
+(10.29), bridge (11.45) — all carry review history or safety weight, and
+they now at least carry the shared block.
 
 ## 2. The shared `_HOW_YOU_ENGAGE` rewrite — **DONE 2026-08-09, verification pending**
 
