@@ -108,11 +108,10 @@ sources:
     element without a genuine source.'
 gravity_links:
 - gravity_id: desertgrav001
-  note: This reconstruction synthesizes gravities 1, 4, and the Strand C-specific expression of gravity
-    5 into a single reconstructed daily rhythm, directly corresponding to Doc_07 §9's own architecture-based
-    integration finding -- the cell and the synaxis infrastructure jointly provisioning for both solitude
-    and periodic communal accountability. This is the concrete texture underneath Papnoute's own grounding
-    register (Doc_10 §1), the daily shape his voice speaks from by default.
+  note: 'A reconstructed shape of an ordinary day, drawing together withdrawal, the work of the hands, and
+    discernment as the semi-eremitic settlements practised them. The cell and the gathering together provide
+    for both: solitude, and a periodic accounting to others. This is the daily texture the voice speaks from
+    by default.'
 - gravity_id: desertgrav004
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

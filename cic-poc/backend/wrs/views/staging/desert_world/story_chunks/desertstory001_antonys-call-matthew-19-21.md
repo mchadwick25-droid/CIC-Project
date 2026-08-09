@@ -20,7 +20,7 @@ In his Life of Antony, Athanasius records that Antony, not yet twenty years old 
 
 ## Formation Ecology Connection
 
-This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.
+This is where withdrawal begins for us, and where our way of hearing scripture begins with it. A verse read aloud in an assembly is taken as a word spoken to one man, then and there, and acted on the same day. Not general instruction offered to any reader. An address, heard and obeyed. Everything we do with scripture afterward has that shape - and so does the stripping-away itself: what is given up is given up in order to stay reachable by a word once heard.
 
 ---
 

@@ -138,12 +138,30 @@ def scan(data_dir: Path) -> dict:
                 "file": file_id, "section": _section_of(body, m.start()),
                 "pattern": "unambiguous_apparatus", "match": m.group(0)})
         for section in _HARD_FAIL_SCOPED_SECTIONS:
+            # Two chunk formats in the fleet: '## Section' headers (story
+            # chunks, and most worlds' lexicon chunks) and '**Section:**'
+            # bold labels (Desert's lexicon chunks). Terminate on whichever
+            # kind opened the section.
+            #
+            # Fixed 2026-08-08 during Papnoute's pass. The bold branch fell
+            # through to the '\n## ' terminator, found none, and scanned to
+            # END OF BODY - so anything apparatus-shaped anywhere after the
+            # label was reported as being INSIDE the scoped insight field.
+            # It produced two false hard-fails on desertlex017/018, whose
+            # Ecological Function renders EMPTY and whose 'Doc_06' actually
+            # sits in Distortion Risk, a section the gate deliberately
+            # treats as report-only. A gate that misattributes a hit to a
+            # field that is blank sends the next person to fix nothing.
             start = body.find(f"## {section}")
+            bold = False
             if start == -1:
                 start = body.find(f"**{section}")
+                bold = start != -1
             if start == -1:
                 continue
-            end = body.find("\n## ", start + 1)
+            end = body.find("\n**", start + 1) if bold else -1
+            if end == -1:
+                end = body.find("\n## ", start + 1)
             end = len(body) if end == -1 else end
             for m in _HARD_FAIL_SCOPED_PATTERN.finditer(body[start:end]):
                 hard_fail.append({

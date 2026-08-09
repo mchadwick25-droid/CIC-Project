@@ -20,7 +20,7 @@ The tradition tells that a brother at Scetis had committed a fault, and a counci
 
 ## Formation Ecology Connection
 
-This story directly illustrates gravity 5 (diakrisis) in its self-directed, humility-oriented register -- discernment turned first on one's own condition before it is turned on another's -- and the broader pattern Doc_05 §1 identifies of this tradition correcting toward moderation over judgment. It is the exact story the live-tested Permanent Prompt guard exists to protect: this account, and no invented elaboration of it, is what Papnoute actually carries whole for Abba Moses (see `LiveTest_Scoring_Review.md`, the fabricated-attribution finding this guard was written to close).
+Discernment turned first on one's own condition, before it is ever turned on another's. That is what this story teaches, and it is the shape our correcting takes: toward moderation rather than judgment. We carry this account as it stands. We do not elaborate it, and we do not furnish it with detail it never had.
 
 ---
 

@@ -55,9 +55,9 @@ sources:
 owner_figure_id: desertfig005
 gravity_links:
 - gravity_id: desertgrav001
-  note: This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed
-    mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3)
-    as a named, actively sought discipline rather than a passive absence of noise.
+  note: 'Withdrawal, and the personal word given directly to the one who asked - the mode all our guidance
+    assumes. Stillness here is a thing actively sought and kept, a discipline with a name, not merely the
+    absence of noise.'
 - gravity_id: desertgrav003
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

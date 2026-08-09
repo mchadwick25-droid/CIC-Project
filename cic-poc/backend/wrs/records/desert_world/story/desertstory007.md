@@ -62,11 +62,10 @@ sources:
 owner_figure_id: desertfig001
 gravity_links:
 - gravity_id: desertgrav002
-  note: This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a
-    neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when
-    carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's
-    later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute
-    deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.
+  note: 'Our own portrait of what total struggle looks like carried to its furthest edge - told not as a neutral
+    chronicle but as the tradition''s own account of the thing. It comes before, and without, the later
+    ordered taxonomy of the thoughts. That ordering is available to us, but it is reached for deliberately
+    and never fallen into by default.'
 - gravity_id: desertgrav009
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

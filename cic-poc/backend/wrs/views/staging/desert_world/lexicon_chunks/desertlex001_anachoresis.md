@@ -3,7 +3,7 @@ Term: Anachōrēsis (Withdrawal)
 World-Code: desert
 Tier: [1]
 Aliases: withdrawal, anachoresis
-Related Terms: Apotagē, Cheirōnaxia/Ergocheiron
+Related Terms: Apotagē, Cheirōnaxia/Ergocheiron, Xeniteia, Kellion
 Retrieve-When: participant uses "withdrawal," "leaving the world," "going into the desert," or asks why ascetics left ordinary life
 Do-Not-Retrieve-When: —
 ---

@@ -4,7 +4,7 @@
 Story-Title:    Antony's Combat in the Tombs
 World-Code:     desert
 Tier:           3
-Confidence:     Contested (as portrait of this world's own understanding of combat); Inferential/Thin (any claim about what specifically happened in the tomb)
+Confidence:     Contested (as portrait of this world's own understanding of combat); Inferential / Thin (any claim about what specifically happened in the tomb)
 Source:         Athanasius, Life of Antony, chs. 8-10 -- hagiographic portrait, not incident report
 Retrieve-When:  participant asks what total spiritual combat was understood to look like at its most extreme; participant asks about the logismoi in their most dramatic, embodied register; conversation reaches gravity 2 (spiritual combat) and wants the tradition's own fullest account of it, explicitly as portrait rather than history.
 Do-Not-Retrieve-When: participant is asking for documented history rather than the tradition's own hagiographic self-portrait -- use Stories 001-003 instead for that register; conversation concerns Evagrius's later systematized taxonomy of thoughts specifically (available but not default, per Doc_10 §2) rather than this story's own un-systematized, narrative-form precursor to that vocabulary.
@@ -20,7 +20,7 @@ This is how the tradition remembers Antony's own struggle -- what it believed to
 
 ## Formation Ecology Connection
 
-This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register.
+Our own portrait of what total struggle looks like carried to its furthest edge - told not as a neutral chronicle but as the tradition's own account of the thing. It comes before, and without, the later ordered taxonomy of the thoughts. That ordering is available to us, but it is reached for deliberately and never fallen into by default.
 
 ---
 
