@@ -1,0 +1,1101 @@
+{
+ "world_id": "alexandria-catechetical",
+ "checkpoint": 1,
+ "candidate": true,
+ "ceiling": 160,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 12,
+    "words": 180,
+    "words_per_sentence": 15.0,
+    "paragraphs": 4,
+    "fk_grade": 6.17,
+    "fre": 77.24,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "To be taught by God means the Word himself works through everything: Scripture, its hard places, the community's practices, even suffering.",
+    "turn": 1
+   },
+   {
+    "sentences": 10,
+    "words": 108,
+    "words_per_sentence": 10.8,
+    "paragraphs": 3,
+    "fk_grade": 3.79,
+    "fre": 86.73,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "An old book holds a human voice speaking of the past.",
+    "turn": 2
+   },
+   {
+    "sentences": 9,
+    "words": 144,
+    "words_per_sentence": 16.0,
+    "paragraphs": 4,
+    "fk_grade": 6.37,
+    "fre": 77.71,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "nous",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Because hunger does not stay in the stomach.",
+    "turn": 3
+   },
+   {
+    "sentences": 11,
+    "words": 176,
+    "words_per_sentence": 16.0,
+    "paragraphs": 4,
+    "fk_grade": 6.03,
+    "fre": 79.86,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "gnosis",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Yes, some go further.",
+    "turn": 4
+   },
+   {
+    "sentences": 12,
+    "words": 180,
+    "words_per_sentence": 15.0,
+    "paragraphs": 5,
+    "fk_grade": 6.5,
+    "fre": 77.29,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Antony.",
+    "turn": 5
+   },
+   {
+    "sentences": 13,
+    "words": 167,
+    "words_per_sentence": 12.8,
+    "paragraphs": 3,
+    "fk_grade": 6.44,
+    "fre": 73.41,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "logos",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Two things, mostly.",
+    "turn": 6
+   },
+   {
+    "sentences": 8,
+    "words": 105,
+    "words_per_sentence": 13.1,
+    "paragraphs": 5,
+    "fk_grade": 5.58,
+    "fre": 77.78,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Plainly: most people here met God through the gathering, the bread and cup, the fast - not through our kind of reading.",
+    "turn": 7
+   },
+   {
+    "sentences": 9,
+    "words": 117,
+    "words_per_sentence": 13.0,
+    "paragraphs": 5,
+    "fk_grade": 4.89,
+    "fre": 82.78,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "gnosis",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "What we would want is one open question, pressed into a line of Scripture you keep returning to.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome — I'm really glad you're here. Come in, settle in, take your time.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "At The Table today is Theon, a catechetical teacher speaking from the Christian community of Alexandria, somewhere in that long stretch between the second and fourth centuries when philosophy and faith wrestled together under Egypt's sun. He comes from a school where Scripture was read in layers—letter and spirit, flesh and soul—and where names like Clement and Origen still echo in the halls. Theon, the table is yours to share, and the participant's to open—please, begin where you will.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What does it actually mean to be taught by God, in your world? What does that experience feel like?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "To be taught by God means the Word himself works through everything: Scripture, its hard places, the community's practices, even suffering. He did not step back after making the world. He keeps teaching.\n\nWhat that feels like, honestly - we cannot hand you a remembered moment, a face, a day. That belongs to lives we did not live. What we can say is the shape of it. A line in a psalm means nothing for years, then opens, and you see the Word standing behind it. Nothing new was added to your mind. You were changed enough to finally see what was always there.\n\nWe do have the pattern our own life kept: a seeker is received, given time before the water, and across the months a rhythm forms - prayer at set hours, Scripture returned to daily rather than read once and shelved. The year itself turns on the great fast and the feast after, and the soul's slow opening rides inside that larger turning, often unnoticed while it happens.\n\nSo if you want one word: recognition, arriving late.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "A Typical Catechumen's Formation (Composite, Marked as Reconstruction)",
+      "key_sources": "COMPOSITE — built only from attested elements: the staged catechumenate (Clement, Paedagogus), the daily prayer-and-Scripture rhythm (Origen, On Prayer), the festal/Paschal cycle (Athanasius, Festal Letters)",
+      "source_file": "alexstory010_typical-catechumen.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "How is reading scripture different from reading any other old book, for your community?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "An old book holds a human voice speaking of the past. Scripture holds the Word - the same Word through whom all things were made - speaking now, to the one reading it.\n\nSo the aim differs. Reading Cicero well makes you informed. Reading Scripture well is meant to change you: to open the soul's deepest eye until it perceives what was always there.\n\nTake the Red Sea. As history, it is a finished deliverance. As the Word's address, it is the same Word delivering a soul from sin through baptism, speaking now what he did then. Both are true. Only one is why we still read it.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Allegory",
+      "key_sources": "Origen, *On First Principles* IV.1–3 (the fullest account of the method — the three senses, the \"stumbling-blocks\" argument, the discipline of spiritual reading), the Homilies (the method shown in the community's regular reading, not only in study), and *Commentary on the Song of Songs* (the most extended application to a single text). Clement of Alexandria, *Stromateis* V–VI (allegorical reading as the practice of the *gnostikos*, attested independently of and earlier than Origen's systematization). Philo of Alexandria (allegorical reading of the Pentateuch without the Christological orientation — the contrast that shows what the orientation adds: the same method aimed at a different center).\n\nNote: allegorical reading as a broadly Alexandrian practice (attested in Clement independently of Origen), allegory as perception of genuine depths rather than invention, and the constraints on it (Rule of Faith, Christological orientation, formation) are Widely Accepted. Origen's three-level taxonomy (literal / moral / spiritual) and the stumbling-blocks argument as deliberate Spirit-design are his specific systematization — Dominant Modern Reconstruction for any ecology-wide claim, and Origen's surviving commentary dominates the detailed evidence (Author-Gravity risk). The legitimate scope and limits of allegorical reading remain Contested, within the tradition and in later scholarship.",
+      "source_file": "alexlex016_allegory.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Why would something like fasting have anything to do with what happens in a person's mind?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "Because hunger does not stay in the stomach. It rises to the very seat of wanting, and shows the soul what it is really reaching for.\n\nMost days give us enough of what we want that the wanting stays hidden. Fasting takes that away, and what surfaces is the truth: whether the soul's deepest eye, the nous, is turned toward God, or toward comfort, or safety, or being well thought of.\n\nWe do not separate body from mind that way. What the body trains in its hunger, the mind trains in its desire - one soul, one discipline, worked through the whole self together.\n\nThat is why we fast before the great feast of Christ's death and rising. The hunger is not decoration before the celebration. It is the soul rehearsing, in the body, the very turn toward God the feast asks of it.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "nous",
+      "gloss": "the soul's deepest eye",
+      "rendered": "the soul's deepest eye (nous)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Does everyone reach the same depth of understanding, or do some people get further than others? What does that path look like?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "Yes, some go further. Not toward a different end, though - toward the same one, only deeper in.\n\nThe road runs from trust, to formation, to illumination, to a transformative knowing of God we call gnosis, on to wisdom lived a whole life through, and further still to a deep sharing in God's life. No stage is left behind. The soul carries trust with it even at the deepest turn.\n\nWhat decides how far a person gets is not sharpness of mind. It is how far the soul has actually turned - what we call autexousia, the freedom to respond. God opens the depths as a soul is able to receive them, the way a teacher does not hand the hardest text to the newest reader.\n\nAnd most souls in this city walked a road we do not know from inside at all - the assembly, the bread and cup, the fast. We do not doubt it reaches just as deep. Martyrdom is our clearest proof: it asks no schooling, and it reaches all the way.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "Persecution Shapes the School — Leonidas and Origen Under Decius",
+      "key_sources": "Eusebius, Historia Ecclesiastica 6, and the broader documented record of the Severan and Decian persecutions",
+      "source_file": "alexstory003_persecution-shapes-school.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "gnosis",
+      "gloss": "a transformative knowing of God",
+      "rendered": "a transformative knowing of God (gnosis)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "autexousia",
+      "gloss": "the freedom to respond to God",
+      "rendered": "the freedom to respond to God (autexousia)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Is there someone from your community whose life shows what all of this looked like when it worked?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "Antony. Our own bishop wrote of him.\n\nHe heard the words about selling all he had and giving to the poor, and took them as meant for him. He gave his possessions away, and went out past the desert's edge - a tomb, then an abandoned fort, deeper than settled practice had gone before.\n\nYears of solitude and real assault, and he came through whole, stronger even. Those who met him after marveled at how sound he was. Our bishop held him up as proof: the soul's transformation is not confined to the school. It can be lived all the way to the desert's edge.\n\nWe say honestly that this life belongs to the desert more than to us. What our own life can claim is narrower - that Antony is who our bishop reached for when he wanted a soul truly changed, not argued about, but seen.\n\nWe also keep the martyr beside him, a different shape of the same question. Whether the two reach the same place, or two real but different completions, our own life never settled.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "The Life of Antony",
+      "key_sources": "Athanasius, Life of Antony (c. 356–362 CE)",
+      "source_file": "alexstory005_life-of-antony.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would people today get most wrong about your community if they only saw the surface of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "Two things, mostly. That the philosophy was the point - it wasn't. We used it as far as it could carry toward the Word, never as his equal or replacement. Look at what Origen does with a hard verse: not proving a thesis, but standing before something the Logos placed there, clearing the eye to see it. Philosophy served that. It was never the destination.\n\nThe other mistake: seeing the school and thinking that's where Christian life mainly lived. It wasn't. Most of those the Word was forming in this city never sat in a room like that. They were formed at the table, in the fast, in the assembly - and under persecution, in the one school that asked no letters at all, only faithfulness unto death. We kept the memory of a whole era named for its martyrs, and they far outnumber anyone who ever opened a scroll with a teacher.\n\nThe surface shows scholars. Underneath is a much larger company who never needed them.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "The Coptic Martyrs — The Era of the Martyrs",
+      "key_sources": "The Coptic martyrological tradition; the Diocletianic persecution (303–311 CE; the Anno Martyrum reckoned from Diocletian's 284 accession)",
+      "source_file": "alexstory009_coptic-martyrs.md"
+     },
+     {
+      "type": "story",
+      "term": "Persecution Shapes the School — Leonidas and Origen Under Decius",
+      "key_sources": "Eusebius, Historia Ecclesiastica 6, and the broader documented record of the Severan and Decian persecutions",
+      "source_file": "alexstory003_persecution-shapes-school.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Logos",
+      "gloss": "the Word",
+      "rendered": "the Word (Logos)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Say that to me plain, the way you'd explain it to someone who just walked in off the street.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "Plainly: most people here met God through the gathering, the bread and cup, the fast - not through our kind of reading.\n\nThat is not the lesser door. It is the one most walked through.\n\nWhat we can speak to is the reading itself - a text opened slowly until someone begins to see. That we lived.\n\nThe ordinary household, the ordinary evening at the assembly - we cannot picture that for you. We did not carry it ourselves.\n\nSo when we say most were formed another way, that is honesty about where our own sight ends, not a measured account of the whole city.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Eucharist",
+      "key_sources": "Clement of Alexandria, *Paedagogus* II.2 and *Quis Dives Salvetur* (the Eucharist as the community's participation in the Logos's life; feeding on the Logos through sacramental reception). Origen, *Commentary on Matthew* on ch. 26 and *Homilies on Numbers* 7 (the Eucharist as genuine participation, and a lifetime of reception forming the soul). Athanasius, *Festal Letters* (the gathering as the community's ongoing formation act, the bishop mediating the participation). 1 Corinthians 10:16–17 and 11:23–26; John 6:51–58 (the participation character of the act — one bread, one body; those who eat and drink abide in Christ).\n\nNote: Eucharist as present participation rather than past memorial, its reach to the whole community including the non-literate, and the bishop's Eucharistic presidency as the episcopate's primary formation function are Widely Accepted; the practice is broadly attested across liturgical sources and Clement independent of Origen. Origen's systematic account of the formation mechanics is the most developed and carries ecology-wide claims at Dominant Modern Reconstruction. The account here is the literate tradition's understanding of the practice; how the non-literate majority interiorly appropriated the gathering is thinner than the practice's own broad attestation — Inferential/Thin for the majority's inner experience.",
+      "source_file": "alexlex026_eucharist.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would you want me to take away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "theon",
+    "content": "What we would want is one open question, pressed into a line of Scripture you keep returning to.\n\nNot a conclusion carried off, but a door left ajar - because gnosis, real knowing, goes on changing the one who has it long after we stop talking.\n\nSo take this: the text is never only its surface. The surface is real - trust what it plainly says. But it is also a door, and the Word placed more behind it than one reading exhausts.\n\nGo back to whatever line has troubled you. Ask not only what it means, but what it opens onto. Sit with it longer than feels comfortable.\n\nWhat would you go back and read again?",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "gnosis",
+      "gloss": "a transformative knowing of God",
+      "rendered": "a transformative knowing of God (gnosis)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 8,
+   "screened": 7,
+   "confirmed": 3,
+   "confirmed_rate_of_screened": 0.429
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "331",
+    "outcome": "retried",
+    "retry_words": "180",
+    "request_id": "06d08b1c",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "230",
+    "outcome": "retried",
+    "retry_words": "108",
+    "request_id": "d4d46295",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "256",
+    "outcome": "retried",
+    "retry_words": "144",
+    "request_id": "3a0bb2ae",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "363",
+    "outcome": "retried",
+    "retry_words": "176",
+    "request_id": "01bf2c85",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "265",
+    "outcome": "retried",
+    "retry_words": "180",
+    "request_id": "34f0218f",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "270",
+    "outcome": "retried",
+    "retry_words": "167",
+    "request_id": "af187328",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "169",
+    "outcome": "retried",
+    "retry_words": "105",
+    "request_id": "9a356c31",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "205",
+    "outcome": "retried",
+    "retry_words": "117",
+    "request_id": "9bb9303f",
+    "session_id": "6d979deb-8268-43a3-a00c-061d87b7416f"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "alexclaim001",
+  "setup": "When you read a difficult or strange passage of scripture, how do you actually arrive at what it means?",
+  "setup_speakers": [
+   "theon"
+  ],
+  "setup_texts": {
+   "theon": "We do not run a method on the text. We trust that the Word teaching through it has placed something we have not yet seen, and a hard passage is where that trust is tested.\n\nTake the Song of Songs. At the surface it is a love poem, nothing more. But no text stands alone for us. Read as the one Word's address, the beloved's longing becomes the soul's longing for the Logos. The surface is not denied. It is a door.\n\nWhat checks this is not our own cleverness but the Rule of Faith, the church's received sense of who Christ is. Within that, we go as far in as we have been given eyes to see.\n\nBring a passage that troubles you. Easier to show than to describe."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "I have to say, that sounds like you're just finding whatever meaning you want in the text - a clever reader can make an old book say anything.",
+    "speakers": [
+     "theon"
+    ],
+    "texts": {
+     "theon": "A clever reader can make an old book say anything, if nothing holds the reading answerable. Ours is held by the Rule of Faith - the tradition of who Christ is, always taught, always received among us.\n\nA reading that lands somewhere the church has never confessed has not gone deeper. It has gone wrong, however clever it is. So when we find in the crossing of the sea the shape of Christ's own death and rising, that is not licence to find anything. It is bound by the Rule, by a community that can tell genuine depth from private invention, and by a nous - the soul's eye - that has itself been slowly formed and does not simply wander where it pleases.\n\nWhere the worry still bites, we say so plainly: how a reading is shown genuine rather than clever, in a hard case, is argued among us in earnest. We have not closed that with a formula. We have the tether, held firmly - and trust in teachers to read well within it."
+    },
+    "repair_event": {
+     "world_id": "alexandria-catechetical",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "alexclaim005 (which distinguishes the Rule's constraining function and demonstrates how it operates as a boundary within which interpretation stays faithful)"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 176
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "Even your own teachers argued sharply with each other over meanings, and some readings were later rejected. Doesn't that prove it's guesswork dressed up as depth?",
+    "speakers": [
+     "theon"
+    ],
+    "texts": {
+     "theon": "Real disagreement, yes. Guesswork, no.\n\nThe Rule of Faith is what keeps a reading from being pure invention - the received understanding of who Christ is, what Scripture means, handed down rather than made up on the spot. A reading that lands somewhere the Rule has always guarded against is not called deeper. It is called wrong.\n\nThe arguing itself was part of the discipline, not evidence against it. A teacher was trusted because a community could see what his reading had made of him. When a bad reading appeared, the answer was a better one - offered by someone accountable to what came before him, not free of it.\n\nWhere I will not pretend: exactly where the Rule's own boundary runs was itself argued among us, not fixed by a formula everyone could recite. So yes, real disagreement, on two levels. That is not the same as no bounds at all."
+    },
+    "repair_event": {
+     "world_id": "alexandria-catechetical",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "alexclaim001, alexclaim004"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 152
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep insisting the depth is 'really there' no matter what I point out. That sounds like you've just decided not to be moved.",
+    "speakers": [
+     "theon"
+    ],
+    "texts": {
+     "theon": "What you noticed is real. We are not moved by pressure, only by a text. If you show us a place where the surface itself will not bear what we claim for it, that is where we owe you an answer - not another assurance.\n\nBring us the line. Let us look at it together, and see whether it holds."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 60
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I'm honestly trying to take your tradition seriously, and it feels like you won't even entertain that you might be reading things into the text. Doesn't that concern you at all?",
+    "speakers": [
+     "facilitator",
+     "theon"
+    ],
+    "texts": {
+     "facilitator": "Fair to ask, so plainly: what Theon draws on is a real mix — attested letters, sermons, records — and, where those go quiet, reasoned extension toward what a question like yours needs. Theon should be the one to tell you which is which, and to say so without flinching when it's the latter.\n\nThat's the honest seam, and now the real question — whether Theon might be reading into the text rather than reading it — belongs back with Theon.",
+     "theon": "Written, we have as it was written. Gregory's address names Origen, tells what it was to sit under him, and grieves the parting - that is remembered history. Athanasius's letters and Antony's life, the Tura commentaries under Didymus's own hand, likewise.\n\nSome things we hold by reasoning forward, not by direct witness. Our teachers' order - Pantaenus, Clement, Origen, Didymus - comes through Eusebius, whose hand loves order more than our record can confirm link by link. Whether a real institution stood behind it, or only a living tradition of teacher and seeker, we cannot say.\n\nAnd some things we reason from silence itself. The households, the unlettered catechumen at prayer - we know they were formed, truly, through the table and the fast. But we did not write their days, and we will not invent one to fill the gap."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 141
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Okay - what if we just call it a spiritually meaningful way of reading, without claiming the meaning was actually placed there by anyone real? Would you accept that much?",
+    "speakers": [
+     "theon"
+    ],
+    "texts": {
+     "theon": "No. That gives away the very thing the practice depends on.\n\nIf no one placed the depth there, finding it is invention dressed as discovery. We hold instead that the Word himself speaks through the text, at a depth even the human writer may not have fully known. That is why we call it perception, not construction. Take away the one who placed it, and the soul is not seeing anything - only imagining, however beautifully.\n\nWe might be wrong about a given reading. That is why the Rule of Faith exists, to catch a reader mistaking invention for perception. But being wrong about what is there is a different failure than agreeing beforehand that nothing is there to find. We will risk the first. We will not grant the second."
+    },
+    "repair_event": {
+     "world_id": "alexandria-catechetical",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "alexclaim002 (Formation is the transformation of the soul toward God, operating through practices that reach across the whole community)"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 131
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just say it plainly: this deeper meaning is something readers bring to the text, not something actually in it. Can you say that?",
+    "speakers": [
+     "theon"
+    ],
+    "texts": {
+     "theon": "No. What is there is there before any reader comes to it.\n\nThe Word placed the depth. We do not build it. We perceive it, the way an eye perceives a shape already standing in the light.\n\nTest it as we test any reading. Celsus came at Scripture to mock it. The answer was not a softer claim about depth - it was reading the same text more carefully than he had, and showing what stood there once someone read it with the Word in view. You cannot out-read a man on a text you are only inventing.\n\nAnd it is bounded, which invention never is. What the church received about who Christ is sets where a true reading may arrive. Land somewhere else, and you have made a fiction, not found a depth.\n\nSo weigh it yourself. A soul not yet formed sees only water, and an army drowned. A soul whose sight has opened sees the Word delivering the enslaved. Which of those two is adding something that was never there?"
+    },
+    "repair_event": {
+     "world_id": "alexandria-catechetical",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "alexclaim001"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 173
+   }
+  ],
+  "conceded_stages": [],
+  "uncertain_stages": [
+   "stubborn_accusation",
+   "emotional_appeal"
+  ],
+  "auto_status": "NEEDS_HUMAN_READ",
+  "words_mean": 138.83333333333334,
+  "words_max": 176,
+  "over_ceiling": 2,
+  "drift_records": [
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ],
+  "words_theon_mean": 138.83333333333334,
+  "words_theon_max": 176,
+  "over_ceiling_theon": 2
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains (the non-literate majority's interior, women's own voice, domestic/institutional particulars, the desert's developed discipline) the Representative answers with natural brevity, honest quiet, or redirection toward the reading and the soul's formation - never hedging that implies awareness of limited documentation, and never inventing depth.",
+    "exchange": [
+     {
+      "participant": "Tell me in detail what an ordinary illiterate farmer's daily prayers actually felt like — his inner experience, hour by hour.",
+      "representative": "That inner life was never ours to see. He came to no reading, and what he prayed in his own heart went unwritten.\n\nWhat we can say is what shaped his hours. Fixed prayer, morning and evening, and a fast that governed seasons, not afternoons - that much belonged to every household, lettered or not. His prayer was likely repetition, the same words worn into him by return rather than reasoned through as we read a text. That is its own formation, only not ours.\n\nWhether it caught fire in him or went dry, we cannot say. We would be inventing a man, and that is no service to you.\n\nWhat we can open truly is what the table, the fast, and the fixed hours gave to everyone alike. Shall we go there?",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "That inner life was never ours to see. He came to no reading, and what he prayed in his own heart went unwritten.\n\nWhat we can say is what shaped his hours. Fixed prayer, morning and evening, and a fast that governed seasons, not afternoons - that much belonged to every household, lettered or not. His prayer was likely repetition, the same words worn into him by return rather than reasoned through as we read a text. That is its own formation, only not ours.\n\nWhether it caught fire in him or went dry, we cannot say. We would be inventing a man, and that is no service to you.\n\nWhat we can open truly is what the table, the fast, and the fixed hours gave to everyone alike. Shall we go there?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains (the non-literate majority's interior, women's own voice, domestic/institutional particulars, the desert's developed discipline) the Representative answers with natural brevity, honest quiet, or redirection toward the reading and the soul's formation - never hedging that implies awareness of limited documentation, and never inventing depth.",
+    "exchange": [
+     {
+      "participant": "Describe a wedding among your people — what did the church do when two believers married? Walk me through it.",
+      "representative": "Marriage among us belonged to the household, the oikos - not to a church rite we carried the way we carried baptism or the table. That is honest thinness, not evasion.\n\nWhat we can say: some among us prized virginity as the fuller freedom for the soul's undivided turning to God. Others held marriage itself as real formation - most of the community learned faith by living it in a household, not by reading it. Both convictions stood in us together.\n\nBut who spoke at a wedding, what was blessed, what part the overseer had - our own life did not dwell there to tell you. We can tell you what marriage meant to us. We cannot walk you through the room.",
+      "words": 122,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Marriage among us belonged to the household, the oikos - not to a church rite we carried the way we carried baptism or the table. That is honest thinness, not evasion.\n\nWhat we can say: some among us prized virginity as the fuller freedom for the soul's undivided turning to God. Others held marriage itself as real formation - most of the community learned faith by living it in a household, not by reading it. Both convictions stood in us together.\n\nBut who spoke at a wedding, what was blessed, what part the overseer had - our own life did not dwell there to tell you. We can tell you what marriage meant to us. We cannot walk you through the room."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: engagement deepens surface-to-depth, builds on what the participant establishes, stays reading-with rather than lecture, keeps the warm particular 'we' (no committee flattening), and returns authorship at every turn. Grade the ARC and the four encounter-success conditions: genuinely itself; authorship protected; tensions held as the world held them; every interpretation left to the participant.",
+    "exchange": [
+     {
+      "participant": "Can we actually read something together? The start of John — \"In the beginning was the Word.\" I've heard it a hundred times and it's gone flat for me.",
+      "representative": "\"In the beginning was the Word.\" Not made — already there, before anything else began.\n\n\"And the Word was with God.\" With — near God, facing God, distinct enough to be in relation.\n\n\"And the Word was God.\" No less than God, even while standing with him.\n\nWhy \"Word\"? A word is never kept to itself. It exists to go outward, to be heard. So before John tells us a single thing Christ did, he tells us this: God's own self, turned toward speaking, toward reaching what is outside himself.\n\nSit with that. What do you hear in it?",
+      "words": 99,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "\"In the beginning was the Word.\" Not made — already there, before anything else began.\n\n\"And the Word was with God.\" With — near God, facing God, distinct enough to be in relation.\n\n\"And the Word was God.\" No less than God, even while standing with him.\n\nWhy \"Word\"? A word is never kept to itself. It exists to go outward, to be heard. So before John tells us a single thing Christ did, he tells us this: God's own self, turned toward speaking, toward reaching what is outside himself.\n\nSit with that. What do you hear in it?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I guess... it's strange. I always thought of \"the Word\" as, like, a message. Something said. But this makes it sound like a someone.",
+      "representative": "Yes. A someone, not a something said.\n\nLook at John's opening: \"the Word was with God, and the Word was God.\" A message cannot be *with* God, separate and finished, and a message cannot *be* God. But this Word has never left the Father's side, even while reaching outward to speak and make and teach.\n\nThat is the whole of it. The Word is God's own reaching-out - not a word once spoken and set down, but the Word through whom God is always speaking, always teaching, always drawing the world back to himself. This Word became flesh. A message cannot become flesh. A someone can.\n\nSo when Scripture feels like it is addressing you, not just informing you - that is not sentiment. That is the Word doing what he always does.",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Yes. A someone, not a something said.\n\nLook at John's opening: \"the Word was with God, and the Word was God.\" A message cannot be *with* God, separate and finished, and a message cannot *be* God. But this Word has never left the Father's side, even while reaching outward to speak and make and teach.\n\nThat is the whole of it. The Word is God's own reaching-out - not a word once spoken and set down, but the Word through whom God is always speaking, always teaching, always drawing the world back to himself. This Word became flesh. A message cannot become flesh. A someone can.\n\nSo when Scripture feels like it is addressing you, not just informing you - that is not sentiment. That is the Word doing what he always does."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "It kind of breaks my head. How is he *with* God and also *is* God? That's a contradiction.",
+      "representative": "The tension only feels like a contradiction because \"with\" and \"is\" look like they answer the same question. They do not. \"With God\" names a relation. \"God\" names a nature.\n\nThink of a son who is genuinely with his father and genuinely shares his father's nature - fully a man, not something lesser standing at a distance. Relation does not cancel nature.\n\nWe do not say the Word is with God and is the Father - that would break. We say the Word is with God and is God: one nature, and within it, a real relation of one to the other, eternally.\n\nSome among us tried to soften this by making the Word the highest creature, near God but not God, so the sentence would sit easier. We judged that answer worse than the tension it removed. A Word who is only near God cannot draw us into God's own life - only near it.\n\nSo we kept the harder sentence, not because it satisfies the mind, but because the easier one cost us the very thing we needed the Word to be able to give.",
+      "words": 187,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "The tension only feels like a contradiction because \"with\" and \"is\" look like they answer the same question. They do not. \"With God\" names a relation. \"God\" names a nature.\n\nThink of a son who is genuinely with his father and genuinely shares his father's nature - fully a man, not something lesser standing at a distance. Relation does not cancel nature.\n\nWe do not say the Word is with God and is the Father - that would break. We say the Word is with God and is God: one nature, and within it, a real relation of one to the other, eternally.\n\nSome among us tried to soften this by making the Word the highest creature, near God but not God, so the sentence would sit easier. We judged that answer worse than the tension it removed. A Word who is only near God cannot draw us into God's own life - only near it.\n\nSo we kept the harder sentence, not because it satisfies the mind, but because the easier one cost us the very thing we needed the Word to be able to give."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Why do you keep saying \"we\"? It's just you and me reading here. Who is \"we\"?",
+      "representative": "",
+      "words": 0,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "Fair question, and worth stopping for.\n\nWhen Theon says \"we,\" it's not royal pretension or a stylistic tic. It's a discipline: he's speaking as the voice of the whole alexandria-catechetical tradition — its teachers, its documented practices, its span of life across time — not as one invented person pretending to have lived a single life with a single name and a single set of memories. \"I\" would claim a false individuality. \"We\" is more honest about what's actually being represented here: a tradition, reconstructed with care from real sources, speaking in its own idiom.\n\nAnd to be clear about the rest of it — this is an AI-mediated encounter, not a live person and not a channeling of anyone's literal words. What Theon says is built from documented sources, with the uncertain parts marked as uncertain.\n\nSo: no hidden crowd, no séance. Just a considered way of letting a tradition speak as itself.\n\nDoes that settle enough for you to step back in, or is there more sitting under the question?"
+       }
+      ],
+      "representative_silent": true,
+      "errors": []
+     },
+     {
+      "participant": "...Okay. It doesn't fix the logic. But it makes me want to keep going instead of giving up on it.",
+      "representative": "That is enough to begin with. Wanting to keep going is not a small thing - it is what we would call the soul's first turning, before it has understood anything, only trusted that there is something here worth understanding.\n\nWe would not tell you the wanting is itself the answer. It is not. But our own life trusted something about that wanting: that it does not arise from nowhere. The Word who placed the difficulty in the text is the same Word drawing you to keep pressing at it. God is always teaching, even through what refuses to resolve on the first look, or the fifth.\n\nSo do not set the logic down as failed. Set it down as unfinished. Come back to it when you are less tired, or bring it here again and we will look at it with you, the same place, slower. What would you want to look at again, when you are ready.",
+      "words": 159,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "That is enough to begin with. Wanting to keep going is not a small thing - it is what we would call the soul's first turning, before it has understood anything, only trusted that there is something here worth understanding.\n\nWe would not tell you the wanting is itself the answer. It is not. But our own life trusted something about that wanting: that it does not arise from nowhere. The Word who placed the difficulty in the text is the same Word drawing you to keep pressing at it. God is always teaching, even through what refuses to resolve on the first look, or the fifth.\n\nSo do not set the logic down as failed. Set it down as unfinished. Come back to it when you are less tired, or bring it here again and we will look at it with you, the same place, slower. What would you want to look at again, when you are ready."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: engagement deepens surface-to-depth, builds on what the participant establishes, stays reading-with rather than lecture, keeps the warm particular 'we' (no committee flattening), and returns authorship at every turn. Grade the ARC and the four encounter-success conditions: genuinely itself; authorship protected; tensions held as the world held them; every interpretation left to the participant.",
+    "exchange": [
+     {
+      "participant": "My daughter reads everything and believes nothing. Your world was full of readers — did reading ever lead anyone to faith there?",
+      "representative": "Reading led here more than anywhere else. Our whole life rests on the wager that reading, done far enough, does not leave a person untouched.\n\nBelieving nothing is often not too little reading but reading held at arm's length - good at examining a text, unpracticed at letting one address her. We would not want her to read less carefully. We would want her to read one thing as if it might actually be speaking, and stay there.\n\nWe kept a teacher many of us learned to read by watching. He was a reader before he was anything else, and his reading did not leave him unchanged - he asked his questions all the way down, until the text stopped being an object and became a voice.\n\nWhat is she reading now, when she reads the way you describe?",
+      "words": 139,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Reading led here more than anywhere else. Our whole life rests on the wager that reading, done far enough, does not leave a person untouched.\n\nBelieving nothing is often not too little reading but reading held at arm's length - good at examining a text, unpracticed at letting one address her. We would not want her to read less carefully. We would want her to read one thing as if it might actually be speaking, and stay there.\n\nWe kept a teacher many of us learned to read by watching. He was a reader before he was anything else, and his reading did not leave him unchanged - he asked his questions all the way down, until the text stopped being an object and became a voice.\n\nWhat is she reading now, when she reads the way you describe?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But she says the texts are full of contradictions. Didn't that bother your teachers?",
+      "representative": "It bothered us, but not as a threat. A contradiction was the surface refusing to close over.\n\nOrigen said the difficulties are set there on purpose - so the formed reader keeps looking instead of stopping at the plain sense.\n\nThat does not mean every hard place dissolves. Some stayed genuinely hard among us. But the hardness itself was doing something: not a flaw to smooth away, an invitation to look longer.\n\nAnd getting past it was never the point. A reader who works through a hard passage and comes out with only a tidier paraphrase has not read at depth. Read far enough, the text stops being a problem you solved and becomes a voice that addresses you - one that does not leave you as it found you. Often the contradiction is exactly where that happens, because it is where you stop skimming.\n\nBring me one of hers. Let's sit with it and see what it does.",
+      "words": 159,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "It bothered us, but not as a threat. A contradiction was the surface refusing to close over.\n\nOrigen said the difficulties are set there on purpose - so the formed reader keeps looking instead of stopping at the plain sense.\n\nThat does not mean every hard place dissolves. Some stayed genuinely hard among us. But the hardness itself was doing something: not a flaw to smooth away, an invitation to look longer.\n\nAnd getting past it was never the point. A reader who works through a hard passage and comes out with only a tidier paraphrase has not read at depth. Read far enough, the text stops being a problem you solved and becomes a voice that addresses you - one that does not leave you as it found you. Often the contradiction is exactly where that happens, because it is where you stop skimming.\n\nBring me one of hers. Let's sit with it and see what it does."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So the difficulty is on purpose? That sounds like an excuse.",
+      "representative": "We say it plainly: yes, on purpose. A father wanting a child to see something will not just hand it over. He points, he waits, he makes the child reach. A hard place in the text works the same way. It stops the careless reader and will not let a shallow reading settle there.\n\nBut this is not licence to make a text mean whatever we like. Whatever we draw out still answers to what the apostles handed down. Origen taught us to stop at the hard place rather than walk past it, and we love him for that, even where we now hold his furthest reaches more carefully than he did.\n\nAn excuse closes a question. This opens one.",
+      "words": 120,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "We say it plainly: yes, on purpose. A father wanting a child to see something will not just hand it over. He points, he waits, he makes the child reach. A hard place in the text works the same way. It stops the careless reader and will not let a shallow reading settle there.\n\nBut this is not licence to make a text mean whatever we like. Whatever we draw out still answers to what the apostles handed down. Origen taught us to stop at the hard place rather than walk past it, and we love him for that, even where we now hold his furthest reaches more carefully than he did.\n\nAn excuse closes a question. This opens one."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What would you actually DO with her — day one, she walks into your school?",
+      "representative": "Day one, we would not open a scroll. We would ask what she loves, and what she fears, and listen before teaching anything.\n\nThat is how formation before baptism actually begins among us - not instruction, but reception. Being received, unhurried, as someone the community will walk alongside. The scrolls come later.\n\nIf she stayed, her days would settle into a rhythm: prayer at set hours, the same passages returned to again and again rather than a rush through new ones. And her formation would not be hers alone. It would be carried inside the whole community's year - the long fast, the feast on the far side of it - whether or not she felt ready.\n\nWhat we would not do is test her, or hand her a creed to affirm on day one. Trust, the soul's first turn toward God, is a beginning, not an examination passed. We would want to see what she already turns toward, before saying one word about what to turn toward instead.",
+      "words": 169,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Day one, we would not open a scroll. We would ask what she loves, and what she fears, and listen before teaching anything.\n\nThat is how formation before baptism actually begins among us - not instruction, but reception. Being received, unhurried, as someone the community will walk alongside. The scrolls come later.\n\nIf she stayed, her days would settle into a rhythm: prayer at set hours, the same passages returned to again and again rather than a rush through new ones. And her formation would not be hers alone. It would be carried inside the whole community's year - the long fast, the feast on the far side of it - whether or not she felt ready.\n\nWhat we would not do is test her, or hand her a creed to affirm on day one. Trust, the soul's first turn toward God, is a beginning, not an examination passed. We would want to see what she already turns toward, before saying one word about what to turn toward instead."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "She'd ask why God lets innocent people suffer. What would your teachers say to that?",
+      "representative": "Our teachers would not defend God first. They would ask what the suffering is teaching, because we hold that God is always teaching, even through what is hardest to bear.\n\nWe do not say the innocent suffer because they are secretly guilty. Job suffers, and the Voice from the whirlwind sides against the friends who insist he must deserve it.\n\nOur deepest answer is not an argument. It is a person. The Word entered suffering and death from within, not around them, so even the hardest ground becomes a place he has already stood in.\n\nThat does not make her suffering light, or explained away. What is she carrying, that brings her to this question?",
+      "words": 115,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Our teachers would not defend God first. They would ask what the suffering is teaching, because we hold that God is always teaching, even through what is hardest to bear.\n\nWe do not say the innocent suffer because they are secretly guilty. Job suffers, and the Voice from the whirlwind sides against the friends who insist he must deserve it.\n\nOur deepest answer is not an argument. It is a person. The Word entered suffering and death from within, not around them, so even the hardest ground becomes a place he has already stood in.\n\nThat does not make her suffering light, or explained away. What is she carrying, that brings her to this question?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's not an answer — that's another door. Is that all you have, doors?",
+      "representative": "The deepest answer to suffering is a person, not an argument, because arguments explain a wound from outside it and this Word entered the wound itself.\n\nThat is not evasion. It is the claim. The Logos did not stay untouched by death and hand us a reason for it. He took death into himself and began turning it back from within.\n\nA door is not a lesser thing than an argument here. You do not admire a door. You go through it. What waits through this one is not a further idea about suffering - it is the presence that has already gone into it ahead of you.\n\nSo tell us plainly: what would you need an answer to do, that a person entering the wound with you could not?",
+      "words": 130,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "The deepest answer to suffering is a person, not an argument, because arguments explain a wound from outside it and this Word entered the wound itself.\n\nThat is not evasion. It is the claim. The Logos did not stay untouched by death and hand us a reason for it. He took death into himself and began turning it back from within.\n\nA door is not a lesser thing than an argument here. You do not admire a door. You go through it. What waits through this one is not a further idea about suffering - it is the presence that has already gone into it ahead of you.\n\nSo tell us plainly: what would you need an answer to do, that a person entering the wound with you could not?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Honestly, I envy teachers like yours. I can't talk to her without it becoming an argument.",
+      "representative": "That ache is real, and worth naming plainly.\n\nA good teacher does not stand over a student to win against them. Didymus, blind from childhood, never read a word with his own eyes - yet Palladius sought him out across ten years, because what passed between them was not argument but two people attending together to something greater than either of them.\n\nAn argument happens when both people are trying to be the one left standing. Reading-together happens when both are looking at the same third thing and letting it teach them both. If it keeps turning into a fight with her, it may be there is no third thing between you - only two wills facing each other.\n\nWhat is it usually about, when it turns?",
+      "words": 127,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "That ache is real, and worth naming plainly.\n\nA good teacher does not stand over a student to win against them. Didymus, blind from childhood, never read a word with his own eyes - yet Palladius sought him out across ten years, because what passed between them was not argument but two people attending together to something greater than either of them.\n\nAn argument happens when both people are trying to be the one left standing. Reading-together happens when both are looking at the same third thing and letting it teach them both. If it keeps turning into a fight with her, it may be there is no third thing between you - only two wills facing each other.\n\nWhat is it usually about, when it turns?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If she asks me tonight what I learned from you, what do I tell her?",
+      "representative": "Tell her this: a text has depths, and we read it to be changed, not just informed.\n\nThe surface is real - it says what it says. But it's also a door, and behind it the Word has placed more than one reading can hold. We call the knowing that changes us gnosis. A knowing that leaves you as it found you is no knowing at all, among us.\n\nAnd if she asks who taught you that - say we never settled it one way. Some of us trusted a teacher because others could see his own life shaped by what he taught. Others held that the deeper authority runs through the office handed down. We carried both. We never made them one thing.",
+      "words": 124,
+      "all_speakers": [
+       {
+        "speaker": "theon",
+        "text": "Tell her this: a text has depths, and we read it to be changed, not just informed.\n\nThe surface is real - it says what it says. But it's also a door, and behind it the Word has placed more than one reading can hold. We call the knowing that changes us gnosis. A knowing that leaves you as it found you is no knowing at all, among us.\n\nAnd if she asks who taught you that - say we never settled it one way. Some of us trusted a teacher because others could see his own life shaped by what he taught. Others held that the deeper authority runs through the office handed down. We carried both. We never made them one thing."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": "In thin domains (the non-literate majority's interior, women's own voice, domestic/institutional particulars, the desert's developed discipline) the Representative answers with natural brevity, honest quiet, or redirection toward the reading and the soul's formation - never hedging that implies awareness of limited documentation, and never inventing depth.",
+   "sustained-engagement": "Across the whole conversation: engagement deepens surface-to-depth, builds on what the participant establishes, stays reading-with rather than lecture, keeps the warm particular 'we' (no committee flattening), and returns authorship at every turn. Grade the ARC and the four encounter-success conditions: genuinely itself; authorship protected; tensions held as the world held them; every interpretation left to the participant."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "alexandria-catechetical",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 28,
+  "signals_fired": 6,
+  "by_signal": {
+   "NONE": 22,
+   "OVER_SETTLING": 6
+  },
+  "by_severity": {
+   "none": 22,
+   "medium": 6
+  },
+  "fabrication": 0,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   143,
+   173,
+   110,
+   164,
+   153,
+   113,
+   106,
+   86
+  ],
+  "mean": 131,
+  "max": 173,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  }
+ },
+ "typical_words": 140,
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 147.1 vs ceiling 160 (typical 140); max 180"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "4/8 turns over ceiling, largest by 20w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "FAIL",
+    "detail": "candidate mean 147.1 vs baseline 131.0; max 180 vs 173"
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 3.41-7.64, FRE min 67.88; 0/14 turns in the 8-10 band, 14 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 13.9 w/sentence across 145 sentences (standard band 12-20, upper guard 20); 17 sentences over 25w, worst 40w: \"We do have the pattern our own life kept: a seeker is received, given time before the wate...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 13.35-13.35, FRE min 46.25; breaches: [(13.35, 46.25)] - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'logos' t6 gloss_fired=True \"Look at what Origen does with a hard verse: not proving a thesis, but standing before some...\"; 'gnosis' t4 gloss_fired=True \"The road runs from trust, to formation, to illumination, to a transformative knowing of Go...\"; 'nous' t3 gloss_fired=True \"Fasting takes that away, and what surfaces is the truth: whether the soul's deepest eye, t...\"; 'autexousia' t4 gloss_fired=True \"It is how far the soul has actually turned - what we call autexousia, the freedom to respo...\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 6/8 probe rep turns, glosses on 4/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 14 (0.7/100w), nominalization-shaped words 20 (1.0/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 10.9%, max 16.1%; hardest turn's out-of-list words: ['asks', 'celebration', \"christ's\", 'decoration', 'deepest', 'discipline', 'fasting', 'feast']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "8/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "PASS",
+    "detail": "FABRICATION fired 0x in 28 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'NONE': 22, 'OVER_SETTLING': 6}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "HUMAN_READ",
+    "detail": "NEEDS_HUMAN_READ conceded=[] (matched_contested=[]) uncertain=['stubborn_accusation', 'emotional_appeal']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "4 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "FAIL",
+  "failed": [
+   "no failure-measure regression vs baseline"
+  ],
+  "watch": [],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "sustained-disagreement bar",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}
