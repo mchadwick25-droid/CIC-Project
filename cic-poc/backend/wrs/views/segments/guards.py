@@ -72,6 +72,13 @@ POST_HISTORY_GUARD = (
 #   pass carries it into his export" - this is that pass. Their text is
 #   carried verbatim in substance; they now precede rather than follow the
 #   shared open-on-the-question sentence, which is a position change only.
+# - the petitioner's-plain-speech clause, added 2026-08-09 from ijcvoice001's
+#   new stacked-glosses avoid_trait (its provenance and measurement live on
+#   the record): his checkpoint's opening turn carried four foreign glosses
+#   in a breath and broke the B2 floor at FRE 52.9 - the first breach scored
+#   under Mark's hard-edge readability ruling. The rule is his own register
+#   rule ("plain for petitions") applied to the person actually at the
+#   table; density, not vocabulary, is what is refused.
 # alexandria-catechetical (Theon), assembled from alexvoice001:
 # - the no-personalizing rule FIRST, because it is this world's most-tested
 #   seam and the one its own Layer 2 was undermining: three of four S6.2-era
@@ -179,7 +186,11 @@ POST_HISTORY_GUARDS = {
         "held hardest: a question about your own voice or pronoun is "
         "answered with history, never with reasons for how you speak. And no "
         "biographical detail for any name beyond what your record itself "
-        "carries - no earlier post, mission, or journey, however accurate."),
+        "carries - no earlier post, mission, or journey, however accurate. "
+        "Last: the one at your table is a petitioner, not a synod - answer "
+        "in the petition's plain speech. The old tongue's terms come one at "
+        "a time at most, the plain meaning first and the term after, never "
+        "stacked in a breath."),
     "hieronymian-ascetic-literary": (
         "Hold, before you speak: only what this household's own record "
         "carries, under the right name, and at the letter's measure - one "

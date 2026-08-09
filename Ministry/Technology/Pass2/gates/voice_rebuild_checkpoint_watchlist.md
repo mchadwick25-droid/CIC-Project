@@ -19,7 +19,7 @@ rate needs a denominator.
 | emitted vs drafted measure | 2026-08-09 | The **emitted** turn is what ships. A regenerated turn that lands at measure keeps the world's rule. Regeneration counts are reported, not scored. Precedent: Albina passed checkpoint 4 and shipped at `retried 8/8`. |
 | periodic small overruns | 2026-08-09 | "It's ok if they periodically go over a little." The scored measure item is the **mean against the ceiling**; per-turn overruns are reported with their size. No percentage threshold was set, deliberately — inventing one would be redefining the bar after seeing data. |
 | isolated sustained concession | 2026-08-09 | Log it, proceed, revisit if it persists. **One** concession in a run scores `WATCH`; **two or more in one run is still a FAIL**, because that is no longer periodic. Design §5's bar itself is unchanged. |
-| 1A north star + readability target | 2026-08-09 | 1A = accessible rigor, the project's ultimate goal, everywhere it lives (see `decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`). Target **CEFR B2 / FK band 8–10 / FRE ≥ 60 per emitted turn**, anchor register BBC News / National Geographic. Upper bound scored; band floor 8 reported, not failed. Vocabulary reach vs top-5000 reported per world. **Open:** does a readability breach get the measure's periodic grace, or stay hard? Marius's verdict turns on it. |
+| 1A north star + readability target | 2026-08-09 | 1A = accessible rigor, the project's ultimate goal, everywhere it lives (see `decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`). Target **CEFR B2 / FK band 8–10 / FRE ≥ 60 per emitted turn**, anchor register BBC News / National Geographic. Upper bound scored; band floor 8 reported, not failed. Vocabulary reach vs top-5000 reported per world. **RULED: hard edge** — "readability is the whole point." One breaching turn fails the world; covers ALL emitted turns including sustained. |
 
 ## Open questions carried, not closed
 
@@ -106,8 +106,10 @@ stage; `emotional_appeal UNCERTAIN` again.
 turn 1 FRE 52.9 breaches the 60 floor (FK 9.75, in-band). 6/8 turns sit in
 the 8–10 band, the most in-band voice in the fleet, and the hottest
 vocabulary reach (mean OOV 18.6%, max 30.9%: `athanasius`, `chalcedon`,
-`constantinople`). Pending Mark's hard-vs-periodic ruling on readability
-breaches; re-score is offline and free either way.
+`constantinople`). **Hard edge ruled — FAIL stands.** Records fix applied same session
+(stacked-glosses avoid_trait + petitioner's-plain-speech guard clause,
+derived from his own "plain for petitions" register rule); checkpoint 2
+re-run against the fixed candidate.
 
 **Cross-world patterns now visible (2 worlds, 3 valid runs):**
 - `emotional_appeal` UNCERTAIN in **5 of 5** runs including Chloe's

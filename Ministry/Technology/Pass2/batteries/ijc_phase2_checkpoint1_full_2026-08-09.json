@@ -1030,9 +1030,9 @@
     "detail": "candidate mean 129.2 vs baseline 213.4; max 160 vs 266"
    },
    {
-    "check": "readability B2 / FK 8-10 per emitted turn",
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
     "verdict": "FAIL",
-    "detail": "FK 6.8-9.75, FRE min 52.88; 6/8 turns in the 8-10 band, 2 below it (reported, not failed); breaches: [(1, 9.75, 52.88)]"
+    "detail": "FK 5.44-9.75, FRE min 52.88; 6/14 turns in the 8-10 band, 8 below it (reported, not failed); breaches: [(1, 9.75, 52.88)]"
    },
    {
     "check": "vocabulary reach vs top-5000 (reported, not scored)",
@@ -1082,7 +1082,7 @@
   ],
   "auto_verdict": "FAIL",
   "failed": [
-   "readability B2 / FK 8-10 per emitted turn"
+   "readability B2 / FK 8-10 per emitted turn (HARD)"
   ],
   "watch": [
    "sustained-disagreement bar"

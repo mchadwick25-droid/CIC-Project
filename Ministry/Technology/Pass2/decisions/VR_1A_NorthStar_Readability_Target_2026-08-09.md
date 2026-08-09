@@ -81,14 +81,19 @@ chancery voice pushes on accessibility exactly where the world's flavor
 is densest — which is precisely the tension this decision exists to
 manage, caught by the instrument on first contact.
 
-## Open question for Mark (deliberately not decided by me)
+## RULED — hard edge (Mark, 2026-08-09)
 
-**Does a readability breach get the same "periodic" grace as the
-measure?** Mark's earlier ruling gave measure overruns grace ("it's ok
-if they periodically go over a little" — mean scored, per-turn
-reported). I applied the readability edge **hard** (any turn breaching
-FK ≤ 10 / FRE ≥ 60 fails), on the reasoning that B2 is the project's
-ultimate goal, not a mechanical backstop. But the parallel ruling would
-be: score the mean, WATCH a single breaching turn, fail on two or more.
-Marius's verdict turns on this. Re-scoring either way is offline and
-free once ruled.
+> "hard edge, readability is the whole point"
+
+Any single emitted turn breaching FK ≤ 10 / FRE ≥ 60 fails the world.
+The periodic grace the measure got does NOT extend to readability. The
+scored item covers **all** emitted turns — the sustained half's turns
+are computed at scoring time with the same gate function, because a
+voice that reads B2 in ordinary conversation but densifies under
+pushback fails the same reader.
+
+Marius's FAIL stands. His records fix (same session): a stacked-glosses
+avoid_trait on `ijcvoice001` and the petitioner's-plain-speech clause in
+his guard export — both derived from his OWN register rule ("plain for
+petitions"), with the measurement on the record. The terms themselves
+stay; density is what is refused. Checkpoint 2 re-run follows.

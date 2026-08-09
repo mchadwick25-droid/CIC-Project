@@ -481,12 +481,36 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
     analyses = probe.get("turn_analyses", [])
     scored = [a for a in analyses
               if a.get("fk_grade") is not None and a.get("fre") is not None]
+    # "Per emitted turn" means ALL of them - the sustained half's turns are
+    # emitted too, and a voice that reads B2 in ordinary conversation but
+    # densifies under pushback fails the same reader. analyze_turn never ran
+    # on sustained turns, so their FK/FRE is computed here at scoring time
+    # with the same gate function the assembly floor uses. Turns under ~30
+    # words are skipped, matching analyze_turn's own too-short-to-score rule.
+    if sus_half := artifact.get("sustained"):
+        try:
+            from wrs.gates.core import readability_check
+            for i, t in enumerate(sus_half.get("turns", []), 1):
+                txt = next((v for k, v in (t.get("texts") or {}).items()
+                            if k != "facilitator"), "") if rep is None else \
+                    (t.get("texts") or {}).get(rep, "")
+                if len(txt.split()) > 30:
+                    r = readability_check(txt)
+                    scored = scored + [{"turn": f"sustained-{i}",
+                                        "fk_grade": r["fk_grade"],
+                                        "fre": r["fre"]}]
+        except ModuleNotFoundError:
+            pass
     if scored:
         breaches = [(a["turn"], a["fk_grade"], a["fre"]) for a in scored
                     if a["fk_grade"] > 10.0 or a["fre"] < 60.0]
         in_band = sum(1 for a in scored if 8.0 <= a["fk_grade"] <= 10.0)
         below = sum(1 for a in scored if a["fk_grade"] < 8.0)
-        add("readability B2 / FK 8-10 per emitted turn",
+        # Hard edge - Mark's ruling, 2026-08-09: "hard edge, readability is
+        # the whole point." A single breaching turn fails the world; the
+        # periodic grace the measure got does NOT extend here, because B2 is
+        # the goal the project exists for, not a mechanical backstop.
+        add("readability B2 / FK 8-10 per emitted turn (HARD)",
             "PASS" if not breaches else "FAIL",
             f"FK {min(a['fk_grade'] for a in scored)}-"
             f"{max(a['fk_grade'] for a in scored)}, FRE min "

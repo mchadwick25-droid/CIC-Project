@@ -1080,9 +1080,9 @@
     "detail": "candidate mean 120.8 vs baseline 176.2; max 162 vs 220"
    },
    {
-    "check": "readability B2 / FK 8-10 per emitted turn",
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
     "verdict": "PASS",
-    "detail": "FK 5.19-8.03, FRE min 71.59; 1/8 turns in the 8-10 band, 7 below it (reported, not failed); breaches: none"
+    "detail": "FK 4.8-8.03, FRE min 71.59; 1/14 turns in the 8-10 band, 13 below it (reported, not failed); breaches: none"
    },
    {
     "check": "vocabulary reach vs top-5000 (reported, not scored)",

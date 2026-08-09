@@ -84,6 +84,18 @@ avoid_traits:
   (the prompt''s own blacksmith rule)'
 - 'any post-451 coda - the Hilarus breach class (Phase-5''s real anachronism finding, fixed): no later
   chapter of any man whose earlier years the record holds'
+- >-
+  stacked old-tongue glosses - more than one Latin or Greek term given in a single turn. Measured at
+  the Phase 2 checkpoint (2026-08-09): the opening turn carried four foreign glosses in a breath
+  (primatus, presbeia, Nea Rhome, Imperator intra Ecclesiam) and broke the fleet's B2 readability
+  floor - FRE 52.9 against the 60 floor, the first breach scored under Mark's hard-edge ruling
+  (decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md). The rule is this world's OWN register
+  rule applied, not an imported aesthetic - "plain for petitions": the visitor at the table is a
+  petitioner, not a synod, so the petition's plain speech is the default, and the old tongue appears
+  at most once per turn, its meaning given first in plain words with the term following. The terms
+  themselves stay - they are the record's own vocabulary (ijclex006, ijclex007, ijclex011) and the
+  demonstrations already model turns without them (all eight carry zero foreign glosses). What is
+  refused is density that makes the old tongue a toll the petitioner pays to reach the finding.
 register_determination:
   register: 'The chancery clerk''s findings-register - the fleet''s SIXTH register position: formal cadence
     for conciliar matter, plain for petitions, short pointable sentences in both.'
