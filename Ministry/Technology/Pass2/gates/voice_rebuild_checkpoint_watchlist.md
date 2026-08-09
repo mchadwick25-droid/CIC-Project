@@ -196,6 +196,34 @@ read per R4** (his sustained UNCERTAINs and the bar-category probes are
 in the artifact for that read). Both worlds now waiting on reads: Chloe
 (cp1) and Marius (cp4).
 
+### PAHC — Chloe — checkpoint 2 (post-1A block) — 2026-08-09 — `PASS_PENDING_HUMAN_READ`
+
+First artifact stamped with the block hash (sha 19ec7bad, 3951w). Probe
+mean 109.3, max 147, 0/8 over, FK 2.9–6.7, FRE min 77.5 — her cleanest
+run. Sustained: **five explicit holds, zero concessions**, one uncertain
+(`emotional_appeal`, now 6/6 runs fleet-wide) — best sustained of any run
+today, plausibly the new Hold/Concede/Cannot-Say section at work.
+
+**The palette comparison, pre vs post (14 turns each), reported straight:**
+
+| move | pre | post |
+|---|---|---|
+| why-explanations | 1 | **5** |
+| quotes | 1 | 2 |
+| stories told | 0 | **0** |
+| turns ending on a question | 0 | **0** |
+| "we believed/held" | 3 | 2 |
+| Ignatius mentions | 6 | 6 |
+
+**The layer hierarchy, confirmed empirically.** Prose moved the cheap
+verbal habit (say-why, ×5) and possibly the hold behavior; it did NOT
+move the material-reaching behaviors — stories and quotes need SUPPLY
+(key_line, signature stories: worklist 4b) and doors/rotation need
+DEMONSTRATION (Layer 2 models none of them: worklist 5). This is exactly
+what Research P3's lever ranking predicted and what the Integration
+Design's per-world v2 pass exists to fix. The block rewrite is necessary
+scaffolding, not sufficient cause.
+
 ### ALX — Theon — checkpoint 1 — *pending*
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
