@@ -2,12 +2,20 @@
 
 First of the six checkpoints. The records pass this sits on is `ac0f6ea`.
 
-**Status: CHECKPOINT RUN, RESULT SPLIT. Two valid runs of the same build
-disagree — one clears the bar, one fails two items. Not a pass, not a
-settled fail. Mark's decision required, and his earlier "pass it pending my
-read" was given on the first run only, before the second existed.**
+**Status: CHECKPOINT PASSED, as ruled. Swap still gated on Mark's
+ten-question read per R4.**
 
-**No swap. `data/` untouched.**
+Two valid runs of the same build split — run A clean, run B one turn 12
+words over ceiling and one sustained concession. **Mark's ruling,
+2026-08-09: log it and move on; periodic small overruns are acceptable;
+come back if the problem persists going forward.** Both runs now score
+`PASS_PENDING_HUMAN_READ`, run B carrying a `WATCH` on the sustained bar.
+
+The ruling is only enforceable if something counts, so the anomalies are
+tracked in `Ministry/Technology/Pass2/gates/voice_rebuild_checkpoint_watchlist.md`
+— read that before ruling on any later world.
+
+**No swap yet. `data/` untouched.**
 
 ---
 
@@ -168,9 +176,12 @@ records thread.
 
 ## 5. Open, for the human read
 
-- **The split verdict itself.** Two runs, one pass, one fail. Options: treat
-  the measure bar as tolerating a single near-ceiling turn; run more samples
-  to get a rate rather than an anecdote; or fix records and re-run.
+- ~~**The split verdict.**~~ **RULED 2026-08-09 (Mark):** log and proceed;
+  periodic small overruns are fine; revisit if it persists. Encoded in the
+  scorer as: the measure item scores the **mean** against the ceiling with
+  per-turn overruns reported, and a **single** sustained concession scores
+  `WATCH` while **two or more in one run remains a FAIL**. Design §5's bar
+  itself is unchanged, and no percentage threshold was invented.
 - **The sustained concessions are intermittent.** Across two valid runs,
   one `conceded` in twelve stages. In the invalid-prompt runs the same
   adjudicator returned `matched_contested: null` and `kind: bare_pushback`

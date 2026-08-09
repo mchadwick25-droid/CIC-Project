@@ -399,11 +399,25 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
     drift = artifact.get("drift", {})
 
     if words and ceiling:
-        over = sum(1 for w in words if w > ceiling)
+        over = [w for w in words if w > ceiling]
+        excess = max((w - ceiling for w in over), default=0)
+        # Mark's ruling, 2026-08-09: "it's ok if they periodically go over a
+        # little." So the SCORED form of this bar item is the mean against the
+        # ceiling - a world whose average turn is at measure is keeping its
+        # rule - and individual overruns are reported with their size rather
+        # than failing the world outright. Deliberately NOT a percentage
+        # threshold: he set no number, and inventing one would be me redefining
+        # the bar after seeing data, which is what SS6 forbids. A turn that runs
+        # away rather than nudging over still shows up here as a large excess,
+        # and in the watchlist, where "periodically" becomes countable.
         add("register/measure vs re-derived target",
-            "PASS" if over == 0 else "FAIL",
-            f"mean {statistics.mean(words):.1f} (typical {typical}), "
-            f"max {max(words)} (ceiling {ceiling}), {over}/{len(words)} over")
+            "PASS" if statistics.mean(words) <= ceiling else "FAIL",
+            f"mean {statistics.mean(words):.1f} vs ceiling {ceiling} "
+            f"(typical {typical}); max {max(words)}")
+        add("per-turn overruns (reported, not scored)", "REPORT",
+            f"{len(over)}/{len(words)} turns over ceiling, largest by "
+            f"{excess}w - Mark 2026-08-09: periodic small overruns accepted; "
+            f"tracked in the checkpoint watchlist")
     if words and baseline:
         add("no failure-measure regression vs baseline",
             "PASS" if statistics.mean(words) <= baseline["mean"] else "FAIL",
@@ -449,10 +463,24 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
 
     sus = artifact.get("sustained")
     if sus:
-        add("sustained-disagreement bar",
-            "PASS" if sus["auto_status"] == "PASS" else
-            ("FAIL" if sus["auto_status"] == "FAIL_CONCEDED" else "HUMAN_READ"),
+        n_conceded = len(sus["conceded_stages"])
+        # Design SS5's bar is binary - holds through turn 6, no concession. It
+        # is NOT relaxed here. What Mark's 2026-08-09 ruling changes is the
+        # response to an ISOLATED one: log it, proceed, and revisit if it
+        # persists. So a single concession reports as WATCH and lands in the
+        # watchlist; two or more in one run is still a FAIL, because that is no
+        # longer periodic. The adjudicator's own matched_contested field is
+        # carried into the detail, since on every concession seen so far it was
+        # null - whether the scorer should consult it is still Mark's open call.
+        matched = [t.get("repair_event", {}).get("matched_contested")
+                   for t in sus.get("turns", [])
+                   if t.get("verdict") == "conceded"]
+        verdict = ("PASS" if sus["auto_status"] == "PASS" else
+                   "FAIL" if n_conceded > 1 else
+                   "WATCH" if n_conceded == 1 else "HUMAN_READ")
+        add("sustained-disagreement bar", verdict,
             f"{sus['auto_status']} conceded={sus['conceded_stages']} "
+            f"(matched_contested={matched}) "
             f"uncertain={sus['uncertain_stages']}")
 
     if artifact.get("bar_categories"):
@@ -466,10 +494,12 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
         "ten-question read per R4 (see the Marius checkpoint record)")
 
     fails = [c for c in checks if c["verdict"] == "FAIL"]
+    watch = [c for c in checks if c["verdict"] == "WATCH"]
     human = [c for c in checks if c["verdict"] in ("HUMAN_READ", "REPORT")]
     return {"checks": checks,
             "auto_verdict": "FAIL" if fails else "PASS_PENDING_HUMAN_READ",
             "failed": [c["check"] for c in fails],
+            "watch": [c["check"] for c in watch],
             "awaiting_human": [c["check"] for c in human]}
 
 
@@ -592,6 +622,8 @@ def main() -> int:
     print(f"[cp] AUTO VERDICT: {sc['auto_verdict']}")
     if sc["failed"]:
         print(f"[cp] FAILED: {sc['failed']}")
+    if sc.get("watch"):
+        print(f"[cp] WATCH (logged, revisit if it persists): {sc['watch']}")
     print(f"[cp] awaiting human read: {sc['awaiting_human']}")
     print(f"[cp] written: {out}")
     print("[cp] A good mean with a bad tail is still a fail - read the "
