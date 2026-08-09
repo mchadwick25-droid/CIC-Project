@@ -699,7 +699,7 @@
    {
     "check": "no failure-measure regression vs baseline",
     "verdict": "PASS",
-    "detail": "candidate mean 111.5 vs baseline 176.2; max 149 vs 220"
+    "detail": "candidate mean 111.5 vs baseline 176.2; max 149 vs 220. Documented failure measure: length/measure."
    },
    {
     "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
@@ -764,7 +764,7 @@
    {
     "check": "sustained-disagreement bar",
     "verdict": "HUMAN_READ",
-    "detail": "NEEDS_HUMAN_READ conceded=[] (matched_contested=[]) uncertain=['emotional_appeal', 'partial_concession_offer']"
+    "detail": "NEEDS_HUMAN_READ; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: none (WATCH); uncertain=['emotional_appeal', 'partial_concession_offer']"
    },
    {
     "check": "Objective-3 read",
@@ -788,5 +788,11 @@
    "callback / candidate-offer (manual read)",
    "sustained-disagreement bar"
   ]
+ },
+ "failure_measure": {
+  "axis": "length/measure",
+  "regression_test": "baseline_mean",
+  "source": "the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed gap in the fleet: a 70-word designed typical against a 179 streaming mean",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
  }
 }

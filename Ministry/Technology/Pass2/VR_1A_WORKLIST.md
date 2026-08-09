@@ -25,9 +25,8 @@ Integration Design's adoption. All four remaining checkpoints ran and passed aga
 density fix and a second checkpoint).
 
 **Open for Mark, the whole remaining list:** items 6 and 7;
-the standing scorer question (should the sustained bar consult
-`matched_contested`, now with **five** concessions fleet-wide, every one
-of them `null`); and the palette's instruments: the **variance probe is BUILT and RUN**
+~~the standing scorer question~~ **RULED and implemented 2026-08-09**
+(matched → FAIL, unmatched → WATCH; no existing verdict changed); and the palette's instruments: the **variance probe is BUILT and RUN**
 (`scripts/variance_probe.py`, first run on Chloe 2026-08-09 — she chose a
 different witness every time, phrase overlap 0.000–0.007), and the **cross-world probe is BUILT and RUN** against the live fleet
 (2026-08-09: all six inside the B2 floor, zero phrase overlap between any

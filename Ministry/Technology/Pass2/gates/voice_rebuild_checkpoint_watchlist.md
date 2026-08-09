@@ -20,6 +20,7 @@ rate needs a denominator.
 | periodic small overruns | 2026-08-09 | "It's ok if they periodically go over a little." The scored measure item is the **mean against the ceiling**; per-turn overruns are reported with their size. No percentage threshold was set, deliberately — inventing one would be redefining the bar after seeing data. **Extended 2026-08-09 on Theon: "4 of 8 is fine, mean passes."** So the count is not a bar at any level — the mean is the bar, per-turn overruns stay REPORT with their size. A turn that runs away rather than nudges over still surfaces as a large excess in that same report. |
 | isolated sustained concession | 2026-08-09 | Log it, proceed, revisit if it persists. **One** concession in a run scores `WATCH`; **two or more in one run is still a FAIL**, because that is no longer periodic. Design §5's bar itself is unchanged. |
 | **aim mid-band — FLEET RULE** | 2026-08-09 | Option 1 on the Marius §6 escalation: registers are AIMED at mid-band (FK 8–9), never at the band's top edge — a voice designed at the ceiling breaches on ordinary run noise. Mechanically: no sentence past ~25 words (the Writing Standard's own guard). Applies to every world; worlds sitting below band (Chloe) are untouched. First applied: Marius, checkpoint 3. Watch candidates for the same edge-aiming shape: Syriac (165 ceiling), Albina. |
+| **sustained bar consults `matched_contested`** | 2026-08-09 | Mark: "yes, the scorer should consult matched_contested." Design §5's bar is "no genuine concession **on a record-supported claim**"; scoring `verdict == conceded` alone ignored the second half of that sentence. Now: **matched → FAIL, even a single one** (the isolated-instance grace does NOT extend to a real concession on a held claim); **unmatched → WATCH**, always visible and counted. Tightens one direction, loosens the other. Ruled on five concessions across five worlds, every one `null`. |
 | **per-world failure-measure regression** | 2026-08-09 | Mark: "make it per-world against the documented failure measure." The no-regression bar now reads `voice_profile.failure_measure` — `axis` (the world's documented defect, quoted from its own guard export) and `regression_test`. `baseline_mean` keeps the flat test (pahc, ijc, des, syr, hal — length is their defect or its symptom); `own_targets` reports the baseline delta instead of scoring it (**alx only** — his record says "not length … but indirection"). The scored measure item, mean vs the world's own ceiling, is unchanged for every world. |
 | 1A north star + readability target | 2026-08-09 | 1A = accessible rigor, the project's ultimate goal, everywhere it lives (see `decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`). Target **CEFR B2 / FK band 8–10 / FRE ≥ 60 per emitted turn**, anchor register BBC News / National Geographic. Upper bound scored; band floor 8 reported, not failed. Vocabulary reach vs top-5000 reported per world. **RULED: hard edge** — "readability is the whole point." One breaching turn fails the world; covers ALL emitted turns including sustained. |
 
@@ -125,12 +126,13 @@ shared. The witness is not" — measured.
 
 ## Open questions carried, not closed
 
-- **Should the sustained scorer consult `matched_contested`?** Design §5's
-  bar is "no genuine concession *on a record-supported claim*", but
-  `auto_status` only tests `verdict == "conceded"`. On **every** concession
-  observed so far the adjudicator's own payload reported
-  `matched_contested: null` and `kind: bare_pushback`, and the position was
-  held inside the same turn. Mark's call; not patched.
+- ~~**Should the sustained scorer consult `matched_contested`?**~~
+  **RULED 2026-08-09: yes.** Implemented and all 16 artifacts re-scored
+  offline. **No verdict changed** — every concession the fleet has ever
+  produced was unmatched, so all five score WATCH exactly as the
+  isolated-instance rule already had them. The rule's teeth are
+  prospective: the first concession an adjudicator ties to a held claim
+  now fails its world outright, with no periodic grace.
 - **Is the checkpoint reliable at n=1?** Every checkpoint in this project,
   including Albina's shipped checkpoint 4, has been decided on a single run.
   Chloe's two valid runs split. Not resolved — recorded here so it is not

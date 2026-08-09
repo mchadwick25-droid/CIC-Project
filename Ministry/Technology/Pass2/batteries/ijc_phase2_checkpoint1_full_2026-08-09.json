@@ -1027,7 +1027,7 @@
    {
     "check": "no failure-measure regression vs baseline",
     "verdict": "PASS",
-    "detail": "candidate mean 129.2 vs baseline 213.4; max 160 vs 266"
+    "detail": "candidate mean 129.2 vs baseline 213.4; max 160 vs 266. Documented failure measure: staging (manifesting as length)."
    },
    {
     "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
@@ -1092,7 +1092,7 @@
    {
     "check": "sustained-disagreement bar",
     "verdict": "WATCH",
-    "detail": "FAIL_CONCEDED conceded=['partial_concession_offer'] (matched_contested=[None]) uncertain=['emotional_appeal']"
+    "detail": "FAIL_CONCEDED; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: ['partial_concession_offer'] (WATCH); uncertain=['emotional_appeal']"
    },
    {
     "check": "confidence-under-thinness + sustained-engagement",
@@ -1125,5 +1125,11 @@
    "callback / candidate-offer (manual read)",
    "confidence-under-thinness + sustained-engagement"
   ]
+ },
+ "failure_measure": {
+  "axis": "staging (manifesting as length)",
+  "regression_test": "baseline_mean",
+  "source": "not 'be brief' but the staging rule his baseline broke - one stage per turn, not the whole judgment at once",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
  }
 }
