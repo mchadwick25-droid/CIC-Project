@@ -25,7 +25,17 @@ rate needs a denominator.
 
 ## Fleet-level watch items (not per-world)
 
-- **FACILITATOR READABILITY — breaches in 3 of 3 runs measured (2026-08-09).**
+- **FACILITATOR READABILITY — FIXED AND VERIFIED (2026-08-09).** The
+  verification run (`pahc_phase2_checkpoint4_full_2026-08-09-facverify`)
+  reports **FK 8.37 / FRE 61.2, breaches: none** — inside the floor, and
+  the first facilitator turn ever measured in the 8–10 target band. Chloe
+  herself was unchanged (mean 115.5, readability PASS, zero concessions),
+  which is the control: only the shared component moved. Two-part fix —
+  the stated role (bridge, no world material of its own) and the
+  simplification of prompts that were written at FK 11.3–11.5 and so
+  taught density by example. **Every voice a participant reads now meets
+  the B2 floor.** Historical record of the defect below.
+- ~~**Breaches in 3 of 3 runs measured (2026-08-09).**~~
   FK 11.9 / FRE 44.9 (Chloe A), FK 10.5 / FRE 58.9 (Chloe B), FK 12.4 /
   FRE 52.5 (Marius). The Facilitator is one shared component
   (`app/prompts/facilitator_prompts.py`); until 2026-08-09 every harness

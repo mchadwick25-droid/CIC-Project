@@ -24,9 +24,7 @@ Integration Design's adoption. All four remaining checkpoints ran and passed aga
 (Theon after Mark's per-world failure-measure ruling; Papnoute after his
 density fix and a second checkpoint).
 
-**Open for Mark, the whole remaining list:** item 1 (the **Facilitator**
-— the one voice still breaching the B2 floor in every run measured, and
-now the only known accessibility defect in the system); items 6 and 7;
+**Open for Mark, the whole remaining list:** items 6 and 7;
 the standing scorer question (should the sustained bar consult
 `matched_contested`, now with **five** concessions fleet-wide, every one
 of them `null`); and the palette's real instruments — the variance probe
@@ -43,7 +41,7 @@ sha256 so pre/post-1A is a recorded fact.
 
 ---
 
-## 1. Fix the Facilitator — **DONE 2026-08-09, live verification pending**
+## 1. Fix the Facilitator — **DONE AND VERIFIED 2026-08-09** (FK 12.4 → **8.37**, FRE 52.5 → **61.2**, breaches none)
 
 The shared Facilitator voice (`app/prompts/facilitator_prompts.py`)
 **breaches the B2 floor in 3 of 3 measured runs** — FK 11.9/FRE 44.9,
@@ -95,8 +93,10 @@ substantive constraint kept (name, place, period, invitation, no
 limitations talk, cautions-never-voiced). Reception 8.39 → 7.77,
 closing 8.71 → 7.95 via the shared block.
 
-**Still open:** a live run to confirm the report clears the floor — it
-fires on every checkpoint, so the next run of any world verifies it.
+**VERIFIED 2026-08-09** by `pahc_phase2_checkpoint4_full_2026-08-09-facverify`:
+**FK 8.37 / FRE 61.2, breaches none** — inside the floor and in the 8–10
+target band. Chloe unchanged in the same run (control held: only the
+shared component moved).
 Three participant-facing prompts remain dense and are deliberately
 untouched for now: frame-breaker response (FK 11.5), epistemology bridge
 (10.29), bridge (11.45) — all carry review history or safety weight, and
