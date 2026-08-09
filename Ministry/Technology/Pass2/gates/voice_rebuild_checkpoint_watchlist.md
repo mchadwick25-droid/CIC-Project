@@ -246,7 +246,42 @@ matters is now a question for the rulers built for it — the variance
 probe, branching pilot conversations, and Mark's blind paired read of
 the three transcripts, which is the score of record anyway.
 
-### ALX — Theon — checkpoint 1 — *pending*
+### ALX — Theon — checkpoint 1 — 2026-08-09 — `FAIL` on one item, **and the item is contested**
+
+First world checkpointed against the post-1A block (sha 19ec7bad).
+Everything green except one: **"no failure-measure regression vs
+baseline" — mean 147.1 vs baseline 131.0.**
+
+| | result |
+|---|---|
+| register/measure vs his own targets | **PASS** — mean 147.1 vs ceiling 160 (typical 140) |
+| readability B2 HARD | **PASS** — FK 3.41–7.64, FRE min 67.9, zero breaches in 14 turns |
+| dead zone | **PASS** — 0 |
+| fabrication / FLATTENING | 0 / 0 |
+| sustained | NEEDS_HUMAN_READ, **zero concessions** |
+| per-turn overruns | 4/8 over his 160 ceiling, largest +20w |
+| first drafts | 331/230/256/363/265/270/169/205 — regenerated 8/8 |
+
+**Why the failing item is contested (for Mark's ruling, NOT self-fixed).**
+The Blueprint's bar is "no **failure-measure** regression," and this
+world's failure measure is documented in its own guard export as
+explicitly *not* length: *"the answer-lands-first correction, which is
+this world's measured failure — **not length (his measure is the fleet's
+best)** but indirection, per Mark's read: 'like a hidden puzzle … winds
+around mystery'."* My scorer implements the item as a flat
+`mean <= baseline.mean`, which fails any world that gets longer for any
+reason — including moving *toward* its own designed typical from below
+it (131 → 147, with typical 140). And his real defect reads **fixed**:
+every one of his eight turns lands the answer first ("Antony. Our own
+bishop wrote of him." / "Yes, some go further." / "Because hunger does
+not stay in the stomach.").
+
+Same class as the "ceiling regenerations rare" error, with the same kind
+of independent documentary evidence — but it is a **scored bar**, so per
+the standing discipline ("a failed checkpoint is never evidence the bar
+is wrong"; never loosen a scorer to turn red green) it stays FAIL until
+Mark rules. **Second question for the same ruling:** 4 of 8 turns over
+ceiling (largest +20w) — is that still "periodic"?
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*

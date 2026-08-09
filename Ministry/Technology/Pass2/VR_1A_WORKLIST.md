@@ -15,6 +15,16 @@ Mark's text verbatim).
 Items marked **PENDING MARK** need his ruling before work starts; items
 marked **READY** are decided in substance and waiting on sequencing.
 
+**STATE AS OF 2026-08-09 END OF DAY.** Chloe and Marius are **SWAPPED AND
+LIVE** (`assembly_identity` byte-identical, deployed leak gate zero hits
+for both). Items 2, 4b, 5, 6b(Chloe), 8 are done; 3, 4, 10 settled by the
+Integration Design's adoption. The four remaining checkpoints ran against
+the post-1A block: **Theon FAIL on one contested item** (see the
+watchlist — needs Mark's ruling, deliberately not self-fixed), Papnoute /
+Yausep / Albina-recheckpoint in flight. **Open for Mark:** the two Theon
+rulings, item 1 (Facilitator — still breaching in every run measured),
+items 6 and 7.
+
 **2026-08-09, Integration Design ADOPTED by Mark** — items 3 (instruments),
 4 (the read = six-dimension grid) and 10 (sequencing: fleet work first,
 remaining four worlds checkpoint once post-1A) are settled by adoption.
@@ -81,7 +91,7 @@ dual-audience principle explicitly — two questions per transcript:
 scholarship* (historian/pastor/seminary reader). The second audience is
 currently tested by nothing.
 
-## 4b. Palette supply-side (curator's collection) — PENDING MARK
+## 4b. Palette supply-side (curator's collection) — **LICENSED + PILOTED ON CHLOE 2026-08-09** (key_line + signature on 7 story records, rendered into chunk headers; session flavor ledger deliberately deferred until repetition exists to manage)
 
 Three records/runtime pieces the palette depends on: **`key_line`** — one
 pre-vetted quotable line per story/source record (quotes are rare because
@@ -93,7 +103,7 @@ ledger** — runtime memory of stories/quotes/figures used, re-use taking
 callback framing (folds item 6's option (b) in). Records-schema pieces
 are Mark's license, as frozen ground truth.
 
-## 5. Layer 2 engagement demonstrations — PENDING MARK (decision 3)
+## 5. Layer 2 engagement demonstrations — **LICENSED + PILOTED ON CHLOE 2026-08-09** (`pahcdemo007`: story-with-caveat + key_line quoted + ends on a real question; selector now picks three DIFFERENT shapes. Rolls to other worlds with their v2 passes.)
 
 One per world: **the hardest thing this world holds, said so a newcomer
 understands it, without softening** — the Writing Standard's "complex
@@ -109,7 +119,7 @@ used demonstrations and deprioritize repeats, (b) require explicit
 callback framing on genuine re-use — (b) doubles as a live demo of the
 callback license.
 
-## 6b. PRE-SWAP for Chloe (and every world): transparency verified visible — OPEN, Mark 2026-08-09
+## 6b. Transparency verified visible — **CLOSED FOR CHLOE 2026-08-09** (backend two-tier gloss detection 0/8→4/8; `GlossHighlight` falls back to the original phrase for `inline:false`; citations verified wired end to end). Still REQUIRED per world before each swap.
 
 His read of the blinded transcripts surfaced it: "we still need to make
 sure the 3 level transparency and lexicon, story, quote, and general
