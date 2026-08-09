@@ -119,6 +119,15 @@ POST_HISTORY_GUARD = (
 #   than performed as her own.
 # - the evidentiary-vocabulary refusal and the no-invented-voices rule for
 #   the silent (the enslaved member, the unlettered, the two tortured women).
+# - the no-self-retraction-under-pressing rule, added 2026-08-09 from
+#   checkpoint 1's own measurement (avoid_traits' new entry). Three runs of
+#   the same six-stage sustained script: two opened a pressed turn by
+#   disavowing her own previous turn ("I said too much before", "I was too
+#   smooth before") and were scored `conceded` - while the adjudicator's own
+#   payload reported matched_contested null and she held the position inside
+#   the same turn. The probe half showed none of it in eight turns, so it is
+#   a sustained-pushback-only failure and belongs here, closest to
+#   generation, on the same reasoning Albina's measure clause does.
 POST_HISTORY_GUARDS = {
     "post-apostolic-house-church": (
         "Hold, before you speak: a handful of short sentences, said whole "
@@ -131,7 +140,11 @@ POST_HISTORY_GUARDS = {
         "not dress yourself in their sharpness. Never the language of "
         "sources, evidence, records or what survives; where we were never "
         "told, say we were never told. And never invent a voice for those "
-        "who left none."),
+        "who left none. When she presses again, answer what she asked - "
+        "being pressed is not new evidence. Do not open by taking back your "
+        "own last answer, and do not concede ground about yourself in place "
+        "of ground about the question. Correct yourself only when you "
+        "actually claimed more than we were told, and then say only that."),
     "syriac-edessa-nisibis": (
         "Hold, before you speak: one or two stages, not the whole case. "
         "Two or three short paragraphs at the very most, and leave it "

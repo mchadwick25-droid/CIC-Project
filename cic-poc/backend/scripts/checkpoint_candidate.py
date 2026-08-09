@@ -72,6 +72,29 @@ WORLDS = {
 }
 
 
+# The §5.1 permanent-prompt assembler per world. Desert's is the original
+# (wrs/views/permanent_prompt.py); the other five are its per-world
+# generalizations. Same modules assembly_identity.py drives.
+ASSEMBLERS = {
+    "des": "permanent_prompt",
+    "pahc": "s62_pahc_permanent_prompt",
+    "alx": "s62_alx_permanent_prompt",
+    "syr": "s62_syr_permanent_prompt",
+    "ijc": "s62_ijc_permanent_prompt",
+    "hal": "s62_hal_permanent_prompt",
+}
+
+
+def assemble_prompt(key: str) -> str:
+    """This world's permanent prompt as its assembler produces it NOW."""
+    import importlib
+    sys.path.insert(0, str(BACKEND / "wrs" / "views"))
+    mod = importlib.import_module(ASSEMBLERS[key])
+    importlib.reload(mod)
+    prompt, _manifest = mod.assemble()
+    return prompt
+
+
 # ------------------------------------------------------------------ build
 
 def build_tree(key: str, root: Path) -> Path:
@@ -106,12 +129,44 @@ def build_tree(key: str, root: Path) -> Path:
                 f"deployed file in {world}. Refusing to write a candidate "
                 f"the app would not read.")
 
-    gen_prompt = next(staging.glob("*_Permanent_Prompt_generated.txt"))
+    # THE PROMPT IS THE _S52 FILE, NOT THE _generated ONE. Every staging tree
+    # carries both, and they are not two names for one thing:
+    #   *_Permanent_Prompt_S52.txt        <- s62_<world>_permanent_prompt.py,
+    #                                        the real SS5.1 assembly, and the
+    #                                        module assembly_identity.py checks
+    #   *_Permanent_Prompt_generated.txt  <- the prompt half of
+    #                                        s62_<world>_capsule_prompt_views.py,
+    #                                        which the SS5.1 assembler's own
+    #                                        docstring records itself as having
+    #                                        REPLACED ("deliberately temporary")
+    # Only that script's CAPSULE half is still current, which is why the capsule
+    # below is still read from *_generated.md.
+    #
+    # Getting this wrong is silent and expensive: an earlier version of this
+    # file globbed *_Permanent_Prompt_generated.txt and ran a whole PAHC
+    # checkpoint against a 1951-word superseded prompt instead of Chloe's real
+    # 4106-word assembly. The cross-check that catches it is committed prose -
+    # ijc's S52 is 3714 words and Marius's checkpoint record states "Assembled
+    # prompt: 3,714 words".
+    # ...and rather than copy that file, ASSEMBLE. The staged S52 is a
+    # snapshot and can lag the records it was rendered from - on a clean tree
+    # PAHC's staged file is already 23 words behind what its own assembler
+    # produces. Calling the assembler makes the candidate the records' current
+    # output by construction, which is the whole point of grading a candidate.
+    prompt_text = assemble_prompt(key)
     gen_capsule = next(staging.glob("*_World_Capsule_Core_generated.md"))
-    shutil.copyfile(gen_prompt, world / prompt_name)
+    (world / prompt_name).write_text(prompt_text, encoding="utf-8")
     shutil.copyfile(gen_capsule, world / capsule_name)
-    print(f"[cand] prompt  {prompt_name} <- {gen_prompt.name} "
-          f"({len(gen_prompt.read_text(encoding='utf-8').split())} words)")
+
+    staged_s52 = next(staging.glob("*_Permanent_Prompt_S52.txt"), None)
+    drift = ""
+    if staged_s52 is not None:
+        staged_words = len(staged_s52.read_text(encoding="utf-8").split())
+        delta = len(prompt_text.split()) - staged_words
+        if delta:
+            drift = f"  [staged {staged_s52.name} is {-delta:+d} words - stale]"
+    print(f"[cand] prompt  {prompt_name} <- {ASSEMBLERS[key]}.assemble() "
+          f"({len(prompt_text.split())} words){drift}")
     print(f"[cand] capsule {capsule_name} <- {gen_capsule.name} "
           f"({len(gen_capsule.read_text(encoding='utf-8').split())} words)")
 
