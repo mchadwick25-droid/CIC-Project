@@ -224,6 +224,28 @@ what Research P3's lever ranking predicted and what the Integration
 Design's per-world v2 pass exists to fix. The block rewrite is necessary
 scaffolding, not sufficient cause.
 
+### PAHC — Chloe — checkpoint 3 (supply pilot) — 2026-08-09 — `PASS_PENDING_HUMAN_READ` (WATCH)
+
+Fidelity clean again: probe mean 109.2, max 141, 0/8 over, readability
+HARD item PASS. Sustained: 1 concession (`partial_concession_offer`) —
+**the third fleet-wide, all at soft-social stages, all
+`matched_contested: null`; the pattern is strengthening, keep counting.**
+
+**The pilot's measurement lesson, reported straight:** the precise
+key-line instrument found Polycarp's "Eighty-six years" quoted in ALL
+THREE Chloe runs — the story chunk's own text already carried it to the
+voice before `key_line` existed. Questions-anywhere ran flat (4/3/4).
+The 8-probe battery has exactly ONE story-inviting slot, and the voice
+was already filling it — **the scripted battery is saturated as a ruler
+for palette movement.** What visibly changed post-supply is qualitative:
+figure diversification (Polycarp 2→4), turn 7's hospitality opener
+("Come in, sit. What would you like told plain?"), turn 1's
+letters-and-table story opener. The supply landed safely (no fidelity
+cost, leak gate green) and the demo shaped real turns; whether it
+matters is now a question for the rulers built for it — the variance
+probe, branching pilot conversations, and Mark's blind paired read of
+the three transcripts, which is the score of record anyway.
+
 ### ALX — Theon — checkpoint 1 — *pending*
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
