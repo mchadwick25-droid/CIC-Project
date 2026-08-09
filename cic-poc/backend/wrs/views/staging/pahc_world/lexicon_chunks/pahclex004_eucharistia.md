@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about modern eucharistic theology or
 
 ## Quick Meaning
 
-The *eucharistia* is the thanksgiving — the meal of bread and cup over which we give thanks, returning to that table again and again to be re-formed into the body we belong to.
+The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again and again to be formed once more into the body we belong to.
 
 ---
 
@@ -30,7 +30,7 @@ What it means to refuse a rival teacher's separate table — set up instead of o
 
 ## Ecological Function
 
-This term anchors the Liturgical Practice gravity (G07), which the ecological reconstruction treats as doing the heaviest lifting of any single practice in this world. It also ties directly into G01 (Authority Consolidation) through the question of who presides.
+This term anchors what happens at the table, which carries more formation weight than any other single practice among us. It also ties straight back to the question of who leads, through the question of who presides.
 
 ---
 

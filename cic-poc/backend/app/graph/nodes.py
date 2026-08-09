@@ -1691,7 +1691,13 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                                # the 166-198 dead zone. A BACKSTOP only - his real
                                # defect is stage count inside the ceiling.
                                "syriac-edessa-nisibis": 1.0,
-                               "post-apostolic-house-church": 1.5,
+                               # pahc 1.5 -> 1.0 (Phase 2, Chloe's pass,
+                               # 2026-08-08): her 150 was set as an ENFORCING
+                               # ceiling and never fired once - retry sat at 225
+                               # against a 223 max, so all six overruns were
+                               # dead-zone. Widest designed-to-observed gap in the
+                               # fleet (179 mean against a 70 designed typical).
+                               "post-apostolic-house-church": 1.0,
                                "imperial-juridical-christianity": 1.0}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)

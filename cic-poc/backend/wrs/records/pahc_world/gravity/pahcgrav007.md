@@ -13,6 +13,8 @@ sources:
 id: pahcgrav007
 name: Liturgical Practice (Eucharist) as Site of Variation and Convergence (G07)
 classification: Primary
+capsule_name: 'The table'
+capsule_line: 'Giving thanks over bread and cup. It forms us more than anything else we do, and its order genuinely varies from house to house. The table is what is constant, not any one shape of it.'
 six_tests:
   repetition:
     verdict: PASS, strongly - three independent voices, cross-regional (the Didache, Ignatius, Justin)

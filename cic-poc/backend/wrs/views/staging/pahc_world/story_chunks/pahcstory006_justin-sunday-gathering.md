@@ -16,7 +16,7 @@ This is Justin's own report, addressed to an outside, imperial audience, of what
 
 ## Formation Ecology Connection
 
-This is Strand B's clearest, most directly attested evidence for G07 (Liturgical Practice/Eucharist, Primary) — a first-person, dated, named-author account of the shape of a gathering: reading, exhortation, corporate prayer, thanksgiving over bread and wine, and a collection tied directly to care for the vulnerable. It shows something Story 010 and Story 011 cannot: an eyewitness's own summary account of ordinary, recurring Roman practice, offered to defend that practice to a hostile outside audience rather than to instruct insiders.
+The clearest and most directly attested account we have of the shape of a gathering: reading, exhortation, prayer together, thanksgiving over bread and wine, and a collection tied straight to care for the vulnerable. First-hand, dated, and by a named writer. It shows what other accounts cannot - an eyewitness summary of ordinary, recurring practice, written to defend that practice to a hostile outsider rather than to instruct people already inside.
 
 ## Tier Justification
 

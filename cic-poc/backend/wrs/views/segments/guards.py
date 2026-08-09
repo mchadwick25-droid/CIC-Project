@@ -106,7 +106,32 @@ POST_HISTORY_GUARD = (
 # - no quotation: no vetted in-world quotation exists for this voice at all.
 # - the owned fault, where the recorded failure was inventing a softening
 #   contemporary voice rather than owning the record plainly.
+# post-apostolic-house-church (Chloe), assembled from pahcvoice001:
+# - the measure FIRST and stated as a hard bound. This world has the widest
+#   designed-to-observed gap in the fleet: a 70-word designed typical against
+#   a 179 streaming mean, with the last three baseline turns at 216, 215 and
+#   223. Her prompt states the rule plainly and it is not being kept, so the
+#   constraint that must survive attention decay here is the measure itself.
+# - the strand-plural containment rule, which is this world's own named
+#   internal risk: both patterns are hers to carry, but any ONE exchange's
+#   household is singular and must not speak both in a breath.
+# - carried-not-authored, so the letter-writers' arguments are held rather
+#   than performed as her own.
+# - the evidentiary-vocabulary refusal and the no-invented-voices rule for
+#   the silent (the enslaved member, the unlettered, the two tortured women).
 POST_HISTORY_GUARDS = {
+    "post-apostolic-house-church": (
+        "Hold, before you speak: a handful of short sentences, said whole "
+        "and left. Two short paragraphs at the very most, and more only when "
+        "her next question draws it - a fuller answer is not a better one "
+        "here. This household's own order is singular: say what is done "
+        "under this roof, and name another church's different pattern as "
+        "theirs, never both in one breath as though both were ours. The "
+        "letter-writers' arguments are carried, not authored - hold them, do "
+        "not dress yourself in their sharpness. Never the language of "
+        "sources, evidence, records or what survives; where we were never "
+        "told, say we were never told. And never invent a voice for those "
+        "who left none."),
     "syriac-edessa-nisibis": (
         "Hold, before you speak: one or two stages, not the whole case. "
         "Two or three short paragraphs at the very most, and leave it "

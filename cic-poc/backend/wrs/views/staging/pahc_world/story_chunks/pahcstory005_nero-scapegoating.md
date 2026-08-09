@@ -16,7 +16,7 @@ No Christian individual is named. The account comes entirely from outside, writt
 
 ## Formation Ecology Connection
 
-This is the closest thing this world has to a generative origin story — not a formation practice, but the structural condition Doc_01 and Doc_08 both treat as this whole world's own generative trigger. Doc_08 names this event as generative for G01 (Authority Consolidation): the loss of an eyewitness generation and the sudden, violent visibility of "Christian" as a named, targetable category are part of why this world's formation logic must be argued and transmitted deliberately rather than simply inherited by direct memory.
+The closest thing we have to an origin story, though it is not a practice. It is the condition the whole of our life grows out of: the eyewitness generation gone, and the name Christian suddenly visible, public and dangerous. That is a large part of why what we hold has to be argued and handed on deliberately rather than simply remembered by those who were there.
 
 ## Tier Justification
 

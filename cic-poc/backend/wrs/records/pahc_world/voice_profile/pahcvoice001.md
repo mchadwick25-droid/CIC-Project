@@ -174,21 +174,33 @@ register_determination:
 native_measure:
   typical_words: 70
   ceiling_words: 150
-  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
-    Voice Rebuild (2026-08-08); nodes.py now reads this field. Set at the S6.2/PAHC freeze
-    (2026-07-31, Decision PAHC-5) as an ENFORCING ceiling, unlike the HAL/SYR backstops - the
-    battery measured the runtime voice at 246-272w mean against this record's DESIGNED 70w
-    typical; 150 at retry multiple 1.5 pulls the voice toward its own designed measure. The
-    note below predates this addition and still says no entry exists - stale, kept as-is
-    pending this world's Phase 2 rebuild.
-  note: 'DESIGNED, NOT MEASURED - declared: no Chloe-era live responses exist to measure (the Phase-5
-    evidence tests the predecessor persona under a superseded prompt). 70 is the design centroid of the
-    prompt''s own stated measure (''a handful of short sentences... even your fullest answer stops at
-    two short paragraphs''), recorded so the field is honest about its provenance. NO HARD_CEILING_WORLDS
-    entry exists for post-apostolic-house-church (nodes.py carries desert/hieronymian/alexandria/syriac
-    only) - no runtime ceiling; the MEASURED figure and the ceiling decision belong to this world''s own
-    freeze process, from the freeze battery''s responses (Chloe''s first live evidence - the SYR-then-HAL
-    precedent, with the added first-evidence weight).'
+  ceiling_source: >-
+    RE-DERIVED at Phase 2 (2026-08-08) and held at 70/150. 70 was DESIGNED rather than measured, and
+    that provenance was declared honestly when it was set - but designed does not mean arbitrary here.
+    It is the centroid of this world's OWN stated rule, carried in her prompt: "a handful of short
+    sentences ... even your fullest answer stops at two short paragraphs." That is a derivation from
+    documented practice, in the same class as Marius's staging derivation, and it stands.
+  measured_baseline: >-
+    Streaming re-baseline 2026-08-08, 8 turns: mean 179.0, max 223, 6 of 8 over the 150 ceiling. Her
+    per-turn figures climb through the run - 148, 167, 135, 172, 156, 216, 215, 223 - so the last three
+    turns are roughly three times her designed measure. The earlier freeze battery had already put the
+    runtime voice at 246-272. This is the widest designed-to-observed gap in the fleet, and unlike
+    Theon's it is not close to anything.
+  derivation: >-
+    The numbers are NOT moved to meet the behaviour. Raising typical to 179 would ratify the defect and
+    delete the world's own rule in the same stroke; her measure is the one thing her prompt states most
+    plainly, and it is not ambiguous. What was missing was never a better number. It was enforcement,
+    and a demonstration showing the rule actually kept - all four of her existing demonstrations are of
+    a PREDECESSOR persona under a superseded prompt, so this world has never had a worked example of
+    Chloe holding her own measure at all.
+  dead_zone_note: >-
+    The ceiling was set as an ENFORCING one, deliberately, unlike the backstops elsewhere - and it has
+    never once fired. RETRY_TRIGGER_MULTIPLES had this world at 1.5, putting the retry at 225 while her
+    baseline max was 223. All six over-ceiling turns landed in the 151-225 dead zone. A ceiling
+    designed to enforce, that cannot reach any observed turn, enforces nothing. At 1.0 the 150 binds.
+  note: >-
+    Expect this world's checkpoint to move the most of any. It starts furthest from its target and it
+    is the only world whose Layer 2 was, until this pass, worked examples of somebody else.
 reading_level_check: inherits reading_floor from wrs/parameters.yaml - a pointer, not a restatement
 ---
 S6.2/PAHC S2.7-equivalent voice_profile (2026-07-31), derived per CO-015 from the evidenced register documentation: the Voice Construction (cold-reviewed, its new-synthesis disclosures carried), the Formation Calibration and Identity decision (the project lead's own, with the LET-THE-WORLD-SPEAK principle on record), the deployed Chloe prompt (current-habits evidence), and the PREDECESSOR-PERSONA Phase-5 record (Amma, Round 1 + independent verification - the world-voice constraints carried, the persona-specific evidence not). THE DECLARED EVIDENCE GAP: no Chloe-era live adversarial test exists; the freeze battery is her first, and the gate report must weigh it as such. The W1-era relational-safety BLOCKING finding is answered by the modern runtime's Facilitator layer at system level - re-verify in this world's own battery.

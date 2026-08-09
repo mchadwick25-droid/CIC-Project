@@ -70,18 +70,13 @@ sources:
   locus: 1 Clement (Registry P02), traditionally dated c. 96 CE, Contested range 80–140 CE.
 gravity_links:
 - gravity_id: pahcgrav002
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story is Strand B''s own version of G02 (Translocal Correspondence Network, Primary) —
-    a network activated not around personal crisis (as in Story 001) but around institutional concern
-    for a sister community''s internal order. It also connects to G01 (Authority Consolidation, Supporting)
-    from the Strand B (plural-presbyter) side: the letter''s own argument assumes presbyters hold a legitimate,
-    structured office that removal without cause violates, without invoking a monarchical bishop to make
-    that case.
-
-
-    This story shows something Story 001 cannot: that translocal concern and correspondence were not unique
-    to Strand A''s bishop-centered, crisis-driven mode. Rome''s own plural-presbyter community exercised
-    its own form of translocal voice through sustained theological argument rather than personal urgency.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This is the other kind of letter-network: activated not by one man''s crisis but by one community''s
+    concern for another''s internal order. It also shows the council pattern from the inside. The letter''s
+    argument assumes that elders hold a real, structured office which removing them without cause violates -
+    and it makes that case without ever appealing to a single bishop. So translocal concern was not peculiar
+    to the bishop-centred communities. A community governed by a council of elders exercised its own
+    translocal voice, through sustained argument rather than personal urgency.'
 - gravity_id: pahcgrav001
   note: Named in the same FEC (full text on this record's first gravity link).
 ---

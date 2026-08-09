@@ -18,7 +18,7 @@ Nowhere in this order does anyone tell the story of a supper, a betrayal, or a b
 
 ## Formation Ecology Connection
 
-This story is a distinct evidentiary strand within G07 (Liturgical Practice/Eucharist, Primary) — deliberately not merged with Story 006's Roman account or Story 011's Strand A account, per the diversity-first discipline Doc_02 §4 establishes. It shows this world's own internal liturgical diversity at its sharpest: a community giving thanks in the same broad category of practice (bread, cup, thanksgiving) but organizing that practice around an entirely different theological center — gathering and knowledge rather than institution and sacrifice.
+A distinct account of the thanksgiving, deliberately kept separate from the Roman one and from the bishop-centred one rather than merged with them. It shows our internal variety at its sharpest: a community giving thanks within the same broad practice - bread, cup, thanksgiving - but organising it around an entirely different centre. Gathering and knowledge, rather than office and sacrifice.
 
 ## Tier Justification
 

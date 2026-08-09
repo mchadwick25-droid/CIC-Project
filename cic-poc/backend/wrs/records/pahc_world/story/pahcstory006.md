@@ -79,13 +79,12 @@ sources:
   locus: Justin Martyr, *First Apology* 65–67 (Registry P06), c. 153–157 CE.
 gravity_links:
 - gravity_id: pahcgrav007
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is Strand B''s clearest, most directly attested evidence for G07 (Liturgical Practice/Eucharist,
-    Primary) — a first-person, dated, named-author account of the shape of a gathering: reading, exhortation,
-    corporate prayer, thanksgiving over bread and wine, and a collection tied directly to care for the
-    vulnerable. It shows something Story 010 and Story 011 cannot: an eyewitness''s own summary account
-    of ordinary, recurring Roman practice, offered to defend that practice to a hostile outside audience
-    rather than to instruct insiders.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5): The
+    clearest and most directly attested account we have of the shape of a gathering: reading, exhortation,
+    prayer together, thanksgiving over bread and wine, and a collection tied straight to care for the
+    vulnerable. First-hand, dated, and by a named writer. It shows what other accounts cannot - an
+    eyewitness summary of ordinary, recurring practice, written to defend that practice to a hostile
+    outsider rather than to instruct people already inside.'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory006_justin-sunday-gathering.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

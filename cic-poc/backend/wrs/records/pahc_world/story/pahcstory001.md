@@ -100,20 +100,15 @@ sources:
     CE (reign of Trajan).'
 gravity_links:
 - gravity_id: pahcgrav002
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story is this world''s single most concentrated illustration of three confirmed gravities
-    at once. It shows G02 (Translocal Correspondence Network, Primary) in its most vivid form — a network
-    activated in real time around one man''s crisis, with delegations traveling to meet him and letters
-    moving ahead of him. It shows G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) as a
-    lived stance, not an abstract doctrine: Ignatius does not merely accept death, he interprets it as
-    the means by which his formation completes. And it shows G05 (Boundary-Drawing vs. Rivals, Tensional,
-    Strand A only) in the urgency with which Ignatius presses one-bishop unity precisely because he believes
-    rival teaching is a live threat to communities he will not see again.
-
-
-    This story does formation work a lexicon entry cannot do: it shows why "one bishop, one altar" was
-    not merely an administrative preference for at least one Strand A voice, but something argued for
-    by a man who believed he was about to die for it.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This is our single most concentrated picture of three things at once. It shows the network of letters at
+    its most vivid - activated in real time around one man''s crisis, with delegations travelling to meet
+    him and letters moving ahead of him. It shows a death interpreted, not merely accepted: he reads his own
+    dying as the thing that completes his formation. And it shows why he presses one bishop, one altar so
+    hard - because he believes rival teaching is a live danger to communities he will never see again. A
+    lexicon entry cannot do that work. It shows that one bishop, one altar was not an administrative
+    preference for the communities that held it, but something argued for by a man who thought he was about
+    to die for it.'
 - gravity_id: pahcgrav004
   note: Named in the same FEC (full text on this record's first gravity link).
 - gravity_id: pahcgrav005

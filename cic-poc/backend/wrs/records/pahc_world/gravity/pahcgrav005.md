@@ -11,6 +11,8 @@ sources:
 id: pahcgrav005
 name: Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic (G05; Strand A only)
 classification: Tensional
+capsule_name: 'Drawing the line'
+capsule_line: 'Refusing those who say the Lord''s flesh was only appearance. The refusal is urgent, and it is not the same in every house - it belongs most sharply to the communities with one overseer.'
 six_tests:
   repetition:
     verdict: WEAK - essentially one voice (Ignatius) within the Native Registry (Doc_04 G05).

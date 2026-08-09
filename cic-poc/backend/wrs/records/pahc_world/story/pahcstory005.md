@@ -71,13 +71,11 @@ sources:
   locus: Tacitus, *Annals* 15.44 (Registry P08), written c. 116 CE describing events of 64 CE.
 gravity_links:
 - gravity_id: pahcgrav001
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is the closest thing this world has to a generative origin story — not a formation practice,
-    but the structural condition Doc_01 and Doc_08 both treat as this whole world''s own generative trigger.
-    Doc_08 names this event as generative for G01 (Authority Consolidation): the loss of an eyewitness
-    generation and the sudden, violent visibility of "Christian" as a named, targetable category are part
-    of why this world''s formation logic must be argued and transmitted deliberately rather than simply
-    inherited by direct memory.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5): The
+    closest thing we have to an origin story, though it is not a practice. It is the condition the whole of
+    our life grows out of: the eyewitness generation gone, and the name Christian suddenly visible, public
+    and dangerous. That is a large part of why what we hold has to be argued and handed on deliberately
+    rather than simply remembered by those who were there.'
 - gravity_id: pahcgrav003
   note: Named in the same FEC (full text on this record's first gravity link).
 ---

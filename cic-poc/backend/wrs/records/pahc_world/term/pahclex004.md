@@ -16,8 +16,8 @@ aliases:
 - eucharist
 - thanksgiving
 - the Lord's Supper
-quick_meaning: The *eucharistia* is the thanksgiving — the meal of bread and cup over which we give thanks,
-  returning to that table again and again to be re-formed into the body we belong to.
+quick_meaning: 'The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again
+  and again to be formed once more into the body we belong to.'
 world_meaning: 'Whatever else has been decided or left open among us, we gather to give thanks over bread
   and cup. The meal itself does more of our community''s ongoing forming than anything else we do. We
   return to it again and again, and each return is not merely a repetition but a re-making of who we are
@@ -116,9 +116,9 @@ field_relations:
 - type: associated-with
   target_id: pahclex001
   note: 'The chunk''s own EF: G07 anchored, tying directly into G01 through who presides. Chunk Ecological
-    Function (verbatim, absorbed per FLAG-002): This term anchors the Liturgical Practice gravity (G07),
-    which the ecological reconstruction treats as doing the heaviest lifting of any single practice in
-    this world. It also ties directly into G01 (Authority Consolidation) through the question of who presides.'
+    Function (verbatim, absorbed per FLAG-002): This term anchors what happens at the table, which carries
+    more formation weight than any other single practice among us. It also ties straight back to the
+    question of who leads, through the question of who presides.'
 - type: associated-with
   target_id: pahclex003
   note: Symmetric mirror of pahclex003's edge (letter and table).

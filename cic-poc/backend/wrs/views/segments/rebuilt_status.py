@@ -20,7 +20,7 @@ place to remember, not six assembler files."""
 # to pass the floor under enforcement before its flag moved.
 REBUILT = {
     "desert-monasticism": False,
-    "post-apostolic-house-church": False,
+    "post-apostolic-house-church": True,
     "syriac-edessa-nisibis": True,
     "alexandria-catechetical": True,
     "imperial-juridical-christianity": True,

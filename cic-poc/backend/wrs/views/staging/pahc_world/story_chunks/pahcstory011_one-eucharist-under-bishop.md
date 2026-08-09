@@ -16,7 +16,7 @@ A member formed this way would refuse, Ignatius's instruction implies, to attend
 
 ## Formation Ecology Connection
 
-This story is Strand A's own version of G07 (Liturgical Practice/Eucharist, Primary), fused explicitly with G01 (Authority Consolidation, Supporting) and G05 (Boundary-Drawing vs. Rivals, Tensional) — Doc_04's own Dependency-test finding is that this instruction functions simultaneously as an authority claim and a boundary claim: unity around one eucharist is not separable, in Ignatius's own argument, from unity around one bishop and exclusion of rival teaching.
+This is the bishop-centred communities' own version of the thanksgiving, and it is fused with the question of who leads and where the boundary falls. The instruction works as an authority claim and a boundary claim at the same time: in this argument, unity around one eucharist cannot be separated from unity around one bishop, or from shutting out rival teaching.
 
 ## Tier Justification
 

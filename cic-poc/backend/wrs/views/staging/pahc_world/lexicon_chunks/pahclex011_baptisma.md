@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about infant baptism debates or mode
 
 ## Quick Meaning
 
-*Baptisma* is the water — the washing that marks a person's entry into the community, given after teaching and fasting, in running water if it can be had.
+The water. The washing that marks a person's entry into the community. It is given after teaching and fasting, in running water where that can be had.
 
 ---
 

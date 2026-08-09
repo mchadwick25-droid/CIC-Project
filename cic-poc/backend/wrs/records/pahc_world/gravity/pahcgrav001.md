@@ -16,6 +16,8 @@ sources:
 id: pahcgrav001
 name: Authority Consolidation - the episkopos/presbyteros/diakonos question (G01)
 classification: Supporting
+capsule_name: 'Who leads'
+capsule_line: 'Who leads, and how leadership is secured now that those who walked with the Lord are gone. One overseer with elders beside him in some houses, a council of elders and no one over them in others. We never settled it.'
 six_tests:
   repetition:
     verdict: PASS, strongly - recurs across every primary voice in the Registry and Doc_02's dedicated

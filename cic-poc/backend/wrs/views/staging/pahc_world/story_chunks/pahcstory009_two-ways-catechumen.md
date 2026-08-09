@@ -18,7 +18,7 @@ This is not the account of one named person. It is a composite of the instructio
 
 ## Formation Ecology Connection
 
-This story illustrates the moral/ethical entry-point logic Doc_07 §2B names as part of this world's own formation ecology — formation beginning with a concrete, memorizable ethical schema before ritual incorporation, rather than the reverse. It is not itself evidence for a confirmed Doc_04 gravity in the way Stories 001–008 are, but it grounds the practical, instructional dimension of formation that the gravities themselves presuppose without directly narrating.
+This shows where formation actually starts: with a concrete, memorable pattern of how to live, learned before a person is brought into the rites rather than after. It is not evidence for any one of the forces that organise this world in the way our other stories are. It grounds the practical, instructional side of formation that those forces assume without ever quite describing.
 
 ## Tier Justification
 

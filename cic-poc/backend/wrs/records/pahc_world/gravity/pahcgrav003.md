@@ -15,6 +15,8 @@ sources:
 id: pahcgrav003
 name: State Pressure / Legal Precarity (G03)
 classification: Supporting
+capsule_name: 'The magistrate''s reach'
+capsule_line: 'Real, local, lethal exposure, under law nobody was sure of - not a systematic hunt across the empire, but a danger that could arrive in one town and not the next.'
 six_tests:
   repetition:
     verdict: PASS - four separate outside/hostile witnesses plus Ignatius's own corpus (Doc_04 G03).
