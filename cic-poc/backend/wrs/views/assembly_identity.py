@@ -90,12 +90,46 @@ DEPLOYED_WORLDS = [
 # silent swap of un-checkpointed voice content, which is worse. Instead the
 # delta is declared here, reported loudly on every run WITH its size, and
 # does not fail the build. Removing the entry is part of the swap.
-# EMPTY as of 2026-08-09: every declared delta has been resolved the way
-# this registry always said it must be - by re-running the checkpoint and
-# swapping, never by quietly shipping or by deleting the entry. Desert's
-# replaced demonstrations and Albina's contestation renders were both
-# carried here, both measured, both swapped.
-PENDING_RECHECKPOINT: dict[str, str] = {}
+# Emptied once on 2026-08-09 - every earlier declared delta was resolved the
+# way this registry always said it must be, by re-running the checkpoint and
+# swapping, never by quietly shipping or by deleting the entry (Desert's
+# replaced demonstrations, Albina's contestation renders). Refilled the same
+# day by the v2 pass rolling from the Chloe pilot to the other five worlds.
+# Chloe is deliberately NOT here: her v2 material was already checkpointed
+# and swapped, so her assembly stays byte-identical to deployed.
+_V2 = ("v2 pass rolled from the Chloe pilot (worklist 4b + 5): an engagement "
+       "demonstration authored for this world and selected into the assembly, "
+       "displacing one prior demonstration from the cap-3 slot. ")
+PENDING_RECHECKPOINT: dict[str, str] = {
+    "Desert": _V2 + (
+        "desertdemo010 (Abba Moses and the leaking jug, told at the fleet's "
+        "tightest measure with its own key_line quoted and a question back), "
+        "plus four story records gaining key_line/signature which now render "
+        "into the retrieved chunk headers. Displaces desertdemo009."),
+    "Hieronymian (Albina)": _V2 + (
+        "haldemo010 (the Ciceronian dream, its single-interested-witness "
+        "limit carried in the telling, key_line quoted, question back), plus "
+        "halstory08 gaining key_line/signature. Displaces haldemo007 from the "
+        "third slot; haldemo010 deliberately carries that record's "
+        "caveat-in-the-telling function forward on different material."),
+    "IJC (Marius)": _V2 + (
+        "ijcdemo009 (the vigil in the basilica, told as a story with the "
+        "attested/not-attested line drawn inside the telling, question back). "
+        "No key_line: this world's story records carry zero quoted lines, and "
+        "none was invented. Displaces ijcdemo006."),
+    "SYR (Yausep)": _V2 + (
+        "syrdemo008 (the Abgar-Addai founding account told as this world's "
+        "own account of itself, held there under 'so you made it up', "
+        "question back) - and NO quoted line anywhere, because this world's "
+        "guard holds that no line of its teaching survives word for word. A "
+        "key_line briefly applied to syrstory004 was backed out for the same "
+        "reason. Displaces syrdemo007."),
+    "Alexandria (Theon)": _V2 + (
+        "alexdemo008 (Leonidas and Origen under persecution, the weaker "
+        "particulars weighed inside the telling, answer-first throughout, "
+        "question back). No key_line: this world's ten story records carry "
+        "zero quoted lines, and none was invented. Displaces alexdemo007."),
+}
 
 
 def check_desert() -> bool:

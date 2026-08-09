@@ -18,8 +18,18 @@ marked **READY** are decided in substance and waiting on sequencing.
 **STATE AS OF 2026-08-09 END OF DAY — ALL SIX WORLDS LIVE.** **All six worlds are SWAPPED AND LIVE** — Chloe, Marius, Yausep, Theon,
 Albina, Papnoute. `assembly_identity` reports byte-identical for all six;
 the deployed leak gate reports **GATE PASSED fleet-wide**;
-`PENDING_RECHECKPOINT` and `OTHER_WORLDS` are both **empty**, each
-resolved the way its own registry said it must be. Items 2, 4b, 5, 6b(Chloe), 8 are done; 3, 4, 10 settled by the
+`OTHER_WORLDS` is **empty**.
+
+**`PENDING_RECHECKPOINT` refilled the same day, deliberately**, by the v2
+pass rolling from the Chloe pilot to the other five worlds (items 4b and
+5). Five worlds now have an assembly ahead of what is deployed — +53 to
++216 words — each declared with its reason, each reported loudly on every
+gate run, none swapped. Chloe is not among them: her v2 material was
+already checkpointed and swapped, so she stays byte-identical. **Do not
+swap any of the five until its checkpoint re-runs** — that is what the
+registry has meant every previous time it was filled.
+
+Items 2, 4b, 5, 6b(Chloe), 8 are done; 3, 4, 10 settled by the
 Integration Design's adoption. All four remaining checkpoints ran and passed against the post-1A block
 (Theon after Mark's per-world failure-measure ruling; Papnoute after his
 density fix and a second checkpoint).
@@ -144,7 +154,22 @@ dual-audience principle explicitly — two questions per transcript:
 scholarship* (historian/pastor/seminary reader). The second audience is
 currently tested by nothing.
 
-## 4b. Palette supply-side (curator's collection) — **LICENSED + PILOTED ON CHLOE 2026-08-09** (key_line + signature on 7 story records, rendered into chunk headers; session flavor ledger deliberately deferred until repetition exists to manage)
+## 4b. Palette supply-side (curator's collection) — **ROLLED TO ALL SIX 2026-08-09** (Chloe 7 story records; Desert 4, Hieronymian 1 added on rollout; IJC/SYR/ALX carry none, honestly)
+
+**Rollout finding, recorded rather than papered over.** Of the five
+remaining worlds, only **Desert** and **Hieronymian** carry genuine
+quoted material in their story text. Four Desert records and one
+Hieronymian record gained a `key_line`, each asserted verbatim against
+its own record's `text` at write time. **IJC (6 story records) and
+Alexandria (10 story records) carry zero quoted lines**, and none was
+invented for either — the Article 30 rule is that a citation points at
+something real. **Syriac** was the sharpest case: a `key_line` was
+applied to `syrstory004` and then **backed out**, because that world's
+own post-history guard holds that *no line of our teaching survives word
+for word*. Supply cannot manufacture what the record does not have; item
+7's remaining call is now better informed for it.
+
+*Original scope:*
 
 Three records/runtime pieces the palette depends on: **`key_line`** — one
 pre-vetted quotable line per story/source record (quotes are rare because
@@ -156,7 +181,39 @@ ledger** — runtime memory of stories/quotes/figures used, re-use taking
 callback framing (folds item 6's option (b) in). Records-schema pieces
 are Mark's license, as frozen ground truth.
 
-## 5. Layer 2 engagement demonstrations — **LICENSED + PILOTED ON CHLOE 2026-08-09** (`pahcdemo007`: story-with-caveat + key_line quoted + ends on a real question; selector now picks three DIFFERENT shapes. Rolls to other worlds with their v2 passes.)
+## 5. Layer 2 engagement demonstrations — **ROLLED TO ALL SIX 2026-08-09** (`pahcdemo007` pilot + `ijcdemo009`, `alexdemo008`, `desertdemo010`, `syrdemo008`, `haldemo010`; every world's selector now picks three DIFFERENT shapes)
+
+**Rollout, 2026-08-09.** One engagement demonstration authored per
+remaining world, each verified selected into its assembly, each inside
+its own world's `typical_words` on every turn, all thirty Representative
+turns measured (not hand-counted) and readability-clean:
+
+| record | world | shape | words/turn | FK / FRE |
+|---|---|---|---|---|
+| `ijcdemo009` | Marius | the vigil in the basilica; attested/not-attested drawn inside the telling | 93, 96, 82 (typ 115) | 4.80 / 83.4 |
+| `alexdemo008` | Theon | Leonidas and Origen; weaker particulars weighed in the telling, answer-first | 112, 105, 76 (typ 140) | 5.19 / 85.2 |
+| `desertdemo010` | Papnoute | Abba Moses and the leaking jug; key_line quoted whole, nothing added after | 45, 38, 42 (typ 55) | 3.50 / 91.9 |
+| `syrdemo008` | Yausep | the Abgar–Addai founding account held as account, not history | 79, 63, 78 (typ 98) | 5.96 / 76.6 |
+| `haldemo010` | Albina | the Ciceronian dream; one interested witness named in the telling | 78, 87, 77 (typ 120) | 4.21 / 89.9 |
+
+Every one ends on a genuine question back to the visitor — the behaviour
+the post-1A measurement found at **zero** across every measured run and
+which prose alone did not move. Zero readability violations; zero turns
+over typical, let alone over ceiling. Displacements are recorded in
+`PENDING_RECHECKPOINT`: 009 displaces `ijcdemo006`, 008 `alexdemo007`,
+010 `desertdemo009`, 008 `syrdemo007`, 010 `haldemo007` (that last one
+deliberately carrying `haldemo007`'s caveat-in-the-telling function
+forward on different material, so the Blueprint's required kind stays in
+the assembled prompt).
+
+**Two honest constraints held rather than worked around.** Yausep's demo
+carries **no quoted line at all** — his guard holds that no line of his
+teaching survives word for word, and a `key_line` briefly applied to
+`syrstory004` was **backed out** for the same reason. Marius's and
+Theon's carry none either, because their story records contain zero
+quoted lines and none was invented.
+
+*Original scope:*
 
 One per world: **the hardest thing this world holds, said so a newcomer
 understands it, without softening** — the Writing Standard's "complex
