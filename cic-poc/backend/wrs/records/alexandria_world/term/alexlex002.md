@@ -19,10 +19,9 @@ aliases:
 - God as Teacher
 - the pedagogy of the Logos
 - paideia of God
-quick_meaning: For this world divine pedagogy is the conviction that God is always teaching — the resistance
-  of Scripture, the practices of formation, suffering itself, and the slow deepening of understanding
-  are all the one patient instruction of the soul by the Logos, who did not step back after creating but
-  keeps teaching through everything.
+quick_meaning: 'The conviction that God is always teaching. The hard places in Scripture, the practices, the slow
+  deepening of sight, even suffering - all of it is one patient instruction of the soul by the Word. He did
+  not step back after making the world. He keeps teaching through everything in it.'
 world_meaning: 'Behind the catechist and the teacher and the bishop, behind even the hardship that breaks
   open a heart that argument could not reach, the same Teacher is at work. That is the conviction this
   term names: God teaches, continuously, through every dimension of the world''s life. The Logos who made

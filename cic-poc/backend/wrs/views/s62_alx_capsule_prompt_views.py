@@ -134,17 +134,32 @@ def build_capsule() -> str:
     core = load_records("world_core")["alexcore001"][0]
 
     parts = ["# World Capsule Core - Alexandria (generated view)"]
+    # Phase 2 (Theon's pass, 2026-08-08): prefer world_core's own
+    # capsule_inhabit. formation_logic quotes Doc_01's section at itself and
+    # measured FK 26.9 / FRE -28 alone, the worst passage in the file.
     parts.append("## The World You Inhabit\n\n"
-                 + voice(re.sub(r"^Doc_01 [^:]*: ", "",
-                                core.get("formation_logic", ""))))
+                 + voice(core.get("capsule_inhabit")
+                         or re.sub(r"^Doc_01 [^:]*: ", "",
+                                   core.get("formation_logic", ""))))
     order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
     ranked = sorted((g for g in gravities.values()
                      if g["classification"] in order),
                     key=lambda g: (order[g["classification"]], g["id"]))
+    # Phase 2: prefer each gravity's own capsule_line. The six_tests
+    # formation verdict is a BUILDER's grading artifact ("PASS (strong)",
+    # "Eusebius screen applied", "Inferential-Thin"), not something a
+    # participant can read; the classification words are grading vocabulary
+    # too, and the ordering already carries the rank. Verdict kept as the
+    # fallback so a world without capsule_lines renders as before.
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
     lines = []
     for g in ranked:
-        lines.append(f"- **{voice(g['name'])}** ({g['classification']}): "
-                     f"{voice(g['six_tests']['formation']['verdict'])}")
+        line = voice(g.get("capsule_line") or "")
+        if not line:
+            line = voice(g["six_tests"]["formation"]["verdict"])
+        name = re.sub(r"\s*\([^)]*\)", "", voice(g["name"])).strip()
+        lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
     vs_lines = []
     for tid in sorted(terms):

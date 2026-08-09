@@ -18,10 +18,9 @@ aliases:
 - partaking
 - partaking of God
 - real sharing
-quick_meaning: 'For this world participation is what the whole formation sequence arrives at — not nearness
-  to God but real sharing in the divine life itself: through grace and the Logos''s incarnation the soul
-  genuinely takes part in the life of the one who made it, not by becoming God but by becoming truly what
-  God intended a creature to be.'
+quick_meaning: 'What the whole formation sequence arrives at. Not nearness to God but real sharing in his life. Through
+  grace, and through the Word made flesh, the soul genuinely takes part in the life of the one who made it.
+  Not by becoming God. By becoming truly what a creature was meant to be.'
 world_meaning: 'When this world says the soul participates in the divine life, it is not reaching for
   a metaphor. Something real is shared. The word is placed carefully between two failures the ecology
   refuses. On one side is the soul that merely *approaches* God across a gap that never closes — near,

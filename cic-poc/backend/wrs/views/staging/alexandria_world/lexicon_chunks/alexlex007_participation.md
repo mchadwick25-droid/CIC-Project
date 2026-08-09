@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant means "participation" in an ordinary socia
 
 ## Quick Meaning
 
-For this world participation is what the whole formation sequence arrives at — not nearness to God but real sharing in the divine life itself: through grace and the Logos's incarnation the soul genuinely takes part in the life of the one who made it, not by becoming God but by becoming truly what God intended a creature to be.
+What the whole formation sequence arrives at. Not nearness to God but real sharing in his life. Through grace, and through the Word made flesh, the soul genuinely takes part in the life of the one who made it. Not by becoming God. By becoming truly what a creature was meant to be.
 
 ---
 

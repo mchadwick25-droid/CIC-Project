@@ -16,10 +16,9 @@ aliases:
 - divine Reason
 - Christ as Word
 - ho logos
-quick_meaning: For this world the Logos is the eternal Word and Reason of God through whom all things
-  were made, through whom God teaches, through whom Scripture speaks, and toward whom the soul is drawn
-  back — identified with Christ, so that learning, Scripture, worship, and formation are not four activities
-  but one movement toward a single reality.
+quick_meaning: 'The eternal Word and Reason of God. All things were made through him. God teaches through him, Scripture
+  speaks through him, and the soul is drawn back toward him. He is Christ. That is why learning, Scripture,
+  worship and formation are not four things among us but one movement toward one reality.'
 world_meaning: 'The Logos is not a Greek abstraction the church borrowed to sound respectable. It is the
   confession that the opening of John''s Gospel names the deepest truth there is about reality: that at
   the root of everything is the Word, the divine Reason through whom all things were made and in whom

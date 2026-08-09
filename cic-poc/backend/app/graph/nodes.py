@@ -1670,8 +1670,15 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # regenerated. The ceiling had never fired for this world at all. His
     # re-derived ceiling is 150 (native_measure), so at 1.0 the trigger sits
     # on the ceiling itself. Per-world by design; the other four are unchanged.
+    # alexandria-catechetical 1.2 -> 1.0 (Phase 2, Theon's pass, 2026-08-08).
+    # His 160 ceiling was set at the S6.2 freeze to EQUAL his own measured
+    # max, explicitly "so the solo register never triggers" - a ceiling built
+    # not to bind. At 1.2 the retry sat at 192 and his baseline's two
+    # over-ceiling turns (167, 177) both landed in the 161-192 dead zone, so
+    # it never fired. The number is sound and evidence-derived; only its
+    # enforcement changes. Length is NOT this world's defect.
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.0,
-                               "alexandria-catechetical": 1.2,
+                               "alexandria-catechetical": 1.0,
                                "syriac-edessa-nisibis": 1.2,
                                "post-apostolic-house-church": 1.5,
                                "imperial-juridical-christianity": 1.0}

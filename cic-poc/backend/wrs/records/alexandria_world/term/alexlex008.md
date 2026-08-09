@@ -18,10 +18,9 @@ aliases:
 - becoming god
 - being made god-like
 - restoration to the image
-quick_meaning: For this world theosis is the horizon toward which the whole formation life moves — not
-  that the soul becomes God, but that through the Logos's incarnation and real participation the human
-  person is restored to what God intended (the image and likeness) and drawn into ever-deeper communion
-  with the divine life that is the soul's true home.
+quick_meaning: 'The horizon the whole formation life moves toward. Not that the soul becomes God. That through the Word
+  made flesh, and real sharing in his life, the person is restored to what God intended and drawn ever
+  deeper into the life that is the soul''s true home.'
 world_meaning: 'The formula is audacious and is best stated plainly: God became human so that humanity
   might become god. The tradition did not first hear it from Athanasius — Clement had already spoken of
   the *gnostikos* "becoming god," and Origen of the soul''s ascent, so it comes down as long-held rather

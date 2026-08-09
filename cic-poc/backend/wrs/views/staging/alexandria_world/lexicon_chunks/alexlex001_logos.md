@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is using "logos" in an unrelated modern/lingui
 
 ## Quick Meaning
 
-For this world the Logos is the eternal Word and Reason of God through whom all things were made, through whom God teaches, through whom Scripture speaks, and toward whom the soul is drawn back — identified with Christ, so that learning, Scripture, worship, and formation are not four activities but one movement toward a single reality.
+The eternal Word and Reason of God. All things were made through him. God teaches through him, Scripture speaks through him, and the soul is drawn back toward him. He is Christ. That is why learning, Scripture, worship and formation are not four things among us but one movement toward one reality.
 
 ---
 

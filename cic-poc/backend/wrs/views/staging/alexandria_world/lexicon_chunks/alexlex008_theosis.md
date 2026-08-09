@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant needs the *mechanism* of change (retrieve 
 
 ## Quick Meaning
 
-For this world theosis is the horizon toward which the whole formation life moves — not that the soul becomes God, but that through the Logos's incarnation and real participation the human person is restored to what God intended (the image and likeness) and drawn into ever-deeper communion with the divine life that is the soul's true home.
+The horizon the whole formation life moves toward. Not that the soul becomes God. That through the Word made flesh, and real sharing in his life, the person is restored to what God intended and drawn ever deeper into the life that is the soul's true home.
 
 ---
 

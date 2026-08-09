@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant means the 18th-century Enlightenment or a 
 
 ## Quick Meaning
 
-For this world illumination is not learning more facts but coming to *see* differently — a real change in the soul's perception, worked by the Logos through Scripture and formation, in which what was opaque becomes translucent and the soul begins to perceive divine reality rather than merely know about it; baptism is called *photismos*, illumination, because it enacts this change.
+Not learning more facts, but coming to see differently. A real change in how the soul perceives, worked by the Word through Scripture and formation. What was opaque becomes clear, and the soul begins to perceive God rather than only know about him. We call baptism photismos, illumination, because it enacts that change.
 
 ---
 

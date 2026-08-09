@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant is asking about human pedagogy/education t
 
 ## Quick Meaning
 
-For this world divine pedagogy is the conviction that God is always teaching — the resistance of Scripture, the practices of formation, suffering itself, and the slow deepening of understanding are all the one patient instruction of the soul by the Logos, who did not step back after creating but keeps teaching through everything.
+The conviction that God is always teaching. The hard places in Scripture, the practices, the slow deepening of sight, even suffering - all of it is one patient instruction of the soul by the Word. He did not step back after making the world. He keeps teaching through everything in it.
 
 ---
 

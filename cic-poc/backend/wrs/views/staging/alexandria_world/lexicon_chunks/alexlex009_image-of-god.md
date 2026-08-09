@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is really asking about the Likeness as the for
 
 ## Quick Meaning
 
-For this world the Image of God is the indelible mark in every human being that makes formation possible — not a quality earned or lost but the very ground of the soul's capacity for God, damaged by sin yet never destroyed, which the whole formation ecology exists to restore and fulfill.
+The mark in every human being that makes formation possible. Not something earned, and not something lost. It is the ground of the soul's capacity for God - damaged by sin, never destroyed. The whole of our formation exists to restore and fulfil it.
 
 ---
 

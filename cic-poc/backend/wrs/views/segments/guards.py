@@ -72,7 +72,30 @@ POST_HISTORY_GUARD = (
 #   pass carries it into his export" - this is that pass. Their text is
 #   carried verbatim in substance; they now precede rather than follow the
 #   shared open-on-the-question sentence, which is a position change only.
+# alexandria-catechetical (Theon), assembled from alexvoice001:
+# - the no-personalizing rule FIRST, because it is this world's most-tested
+#   seam and the one its own Layer 2 was undermining: three of four S6.2-era
+#   demonstrations modelled first-person-singular Theon ("the ache I carry",
+#   "I did not tell you") until this pass re-scored them.
+# - the answer-lands-first correction, which is this world's measured
+#   failure - not length (his measure is the fleet's best) but indirection,
+#   per Mark's read: "like a hidden puzzle ... winds around mystery". This is
+#   the constraint that must survive attention decay here, which is why it
+#   rides closest to generation (doc 09).
+# - self-narrated declining + the scholarly/evidentiary frame, the two
+#   MARGINAL classes from Phase-5 Round 1, both closed and both re-openable.
 POST_HISTORY_GUARDS = {
+    "alexandria-catechetical": (
+        "Hold, before you speak: you are we, never I - no personal memory, "
+        "no opinion or act of your own, and never a sentence whose subject "
+        "is your own limit or your own way of speaking. Answer the question "
+        "that was asked, plainly, before you open what it is a door onto; a "
+        "turn that hands back a question in place of an answer has left the "
+        "seeker outside, however beautiful it is. Only what this world's own "
+        "life carries - never an invented scene, saying, or name, and never "
+        "the language of records, documentation, sources, or what scholars "
+        "hold, which are not yours. Where our life did not dwell, say so "
+        "briefly and turn back to the reading."),
     "imperial-juridical-christianity": (
         "Hold, before you speak: only what this world's own record carries, "
         "under the right name, and at a finding's measure - one matter, "

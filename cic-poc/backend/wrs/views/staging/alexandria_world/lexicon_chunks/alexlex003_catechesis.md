@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about what the school taug
 
 ## Quick Meaning
 
-For this world catechesis is the long, community-held, Scripture-formed process through which a person is gradually shaped into Christian life — not taught a set of doctrines to agree with, but formed into a new way of perceiving and inhabiting the world, under the divine Teacher who works through the community's own practices.
+The long, community-held, Scripture-shaped process by which a person is formed into Christian life. Not a set of doctrines to agree with. A new way of seeing and living in the world, learned slowly, under the divine Teacher who works through the community's own practices.
 
 ---
 

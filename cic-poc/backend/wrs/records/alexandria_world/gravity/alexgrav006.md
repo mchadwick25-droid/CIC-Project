@@ -13,6 +13,7 @@ sources:
 id: alexgrav006
 name: Teacher-Bishop Authority Tension (T1)
 classification: Tensional
+capsule_line: 'The teacher''s authority against the bishop''s. One rests on wisdom others can see; the other on the office handed down. They stood side by side for generations, and we never made them one thing.'
 six_tests:
   repetition:
     verdict: 'PASS - Gravity_Index Candidates row T1 (the full explicit six-test grid, absorbed at S2.5);

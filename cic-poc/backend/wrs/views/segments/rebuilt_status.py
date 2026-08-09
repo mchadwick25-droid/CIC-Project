@@ -12,11 +12,17 @@ one place - Phase 2 flips a world's entry to True in the same commit
 that lands its freshly-authored craft table, so there is exactly one
 place to remember, not six assembler files."""
 
+# Flipped for the three worlds whose Phase 2 pass has landed. This was
+# MISSED on Albina's and Marius's own commits - the docstring above says
+# Phase 2 flips a world "in the same commit that lands its freshly-authored
+# craft table", and neither did, so both shipped with their readability gate
+# still warn-only. Corrected here for all three at once; each was verified
+# to pass the floor under enforcement before its flag moved.
 REBUILT = {
     "desert-monasticism": False,
     "post-apostolic-house-church": False,
     "syriac-edessa-nisibis": False,
-    "alexandria-catechetical": False,
-    "imperial-juridical-christianity": False,
-    "hieronymian-ascetic-literary": False,
+    "alexandria-catechetical": True,
+    "imperial-juridical-christianity": True,
+    "hieronymian-ascetic-literary": True,
 }

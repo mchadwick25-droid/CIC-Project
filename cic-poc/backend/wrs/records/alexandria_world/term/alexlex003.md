@@ -19,10 +19,9 @@ aliases:
 - formation in the faith
 - preparation for baptism
 - Christian formation
-quick_meaning: For this world catechesis is the long, community-held, Scripture-formed process through
-  which a person is gradually shaped into Christian life — not taught a set of doctrines to agree with,
-  but formed into a new way of perceiving and inhabiting the world, under the divine Teacher who works
-  through the community's own practices.
+quick_meaning: 'The long, community-held, Scripture-shaped process by which a person is formed into Christian life. Not a
+  set of doctrines to agree with. A new way of seeing and living in the world, learned slowly, under the
+  divine Teacher who works through the community''s own practices.'
 world_meaning: 'Catechesis does not begin with what a person knows. It begins with who they are — and
   with the recognition that who they are needs to change.
 

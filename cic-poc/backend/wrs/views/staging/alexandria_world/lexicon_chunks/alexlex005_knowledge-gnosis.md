@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant is asking specifically about the Gnostic m
 
 ## Quick Meaning
 
-For this world gnosis is not a secret teaching and not information mastered — it is the transformative knowing of God that illumination produces, a real sharing in divine reality in which the soul knows more deeply and is changed more deeply at once, because genuinely knowing God and being genuinely transformed are a single movement.
+Not a secret teaching, and not information mastered. It is the knowing of God that illumination produces, and it changes the one who knows. To know God truly and to be truly changed are a single movement, not two.
 
 ---
 

@@ -18,9 +18,9 @@ aliases:
 - wisdom of God
 - Christian wisdom
 - mature wisdom
-quick_meaning: 'For this world wisdom is what formation produces in a person over a lifetime — not a body
-  of knowledge held, but a condition of the soul visible in how one perceives, loves, speaks, and lives:
-  genuine knowledge of God grown all the way into a life.'
+quick_meaning: 'What formation produces in a person over a lifetime. Not a body of knowledge held, but a condition of the
+  soul. You see it in how someone perceives, loves, speaks and lives. It is real knowledge of God grown all
+  the way into a life.'
 world_meaning: 'Wisdom cannot be acquired. It can only be grown.
 
 

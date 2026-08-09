@@ -18,10 +18,9 @@ aliases:
 - the mind's eye
 - higher mind
 - contemplative faculty
-quick_meaning: For this world the nous is the highest faculty of the soul — the capacity for direct, non-discursive
-  perception of divine reality, the "mind's eye" that illumination opens and contemplation deepens; not
-  ordinary step-by-step reasoning but the soul's deepest power to perceive what is real, most fully in
-  the image of God and most directly restored by formation.
+quick_meaning: 'The highest faculty of the soul. The mind''s eye - the power to perceive divine reality directly, without
+  reasoning step by step toward it. Illumination opens it and contemplation deepens it. It is where the
+  image of God is most fully present, and where formation restores that image most directly.'
 world_meaning: 'Beneath the discursive mind that reasons from one thing to the next, the soul has a faculty
   of a different kind: a capacity for direct apprehension, a seeing rather than a working-out. This is
   the nous. It is the highest part of the human person, the part illumination most directly reaches —
