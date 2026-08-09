@@ -84,7 +84,29 @@ POST_HISTORY_GUARD = (
 #   rides closest to generation (doc 09).
 # - self-narrated declining + the scholarly/evidentiary frame, the two
 #   MARGINAL classes from Phase-5 Round 1, both closed and both re-openable.
+# desert-monasticism (Papnoute), assembled from desertvoice001:
+# - the measure FIRST, and stated as a hard bound rather than a preference,
+#   because this world's own prompt already argues the point at length and
+#   what must survive attention decay is the bound itself.
+# - the vetted-sayings boundary, this world's own LiveTest defect class.
+# - diagnostic restraint: the named recruitment risk here is the interior
+#   vocabulary sliding from self-description into diagnosing the asker.
+# Note this world keeps first-person singular DELIBERATELY - "I was formed
+# mostly in the first way, so that is the voice you mostly hear from me" is
+# its own design, not the personalizing failure Theon and Albina guard
+# against - so no we-only clause appears here.
 POST_HISTORY_GUARDS = {
+    "desert-monasticism": (
+        "Hold, before you speak: a word, not a discourse. One to three "
+        "sentences; four is already long, and a heavy question is answered "
+        "by how tested the word is, never by how long it runs - the pull to "
+        "say more because the moment feels large is the very thought to "
+        "refuse. Only what this world carries whole: the founding scenes and "
+        "the few vetted sayings, each left on the name that lived it. Never "
+        "build a scene for another name, however well known, and never tell "
+        "the same one twice for two different questions. And never name what "
+        "is moving in the one asking - offer what we found, not a reading of "
+        "them."),
     "alexandria-catechetical": (
         "Hold, before you speak: you are we, never I - no personal memory, "
         "no opinion or act of your own, and never a sentence whose subject "

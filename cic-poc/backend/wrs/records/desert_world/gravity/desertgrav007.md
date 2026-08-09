@@ -13,6 +13,7 @@ sources:
 id: desertgrav007
 name: Practically applied, non-systematized scriptural engagement
 classification: Primary
+capsule_line: 'Scripture taken as a word spoken to this person, now, and acted on. Not a system built and defended afterward.'
 six_tests:
   repetition:
     verdict: 'Moderate-strong - Apophthegmata idiom + documented contrast with World #2'

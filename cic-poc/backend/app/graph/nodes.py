@@ -1677,7 +1677,13 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # over-ceiling turns (167, 177) both landed in the 161-192 dead zone, so
     # it never fired. The number is sound and evidence-derived; only its
     # enforcement changes. Length is NOT this world's defect.
-    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.0,
+    # desert-monasticism 1.5 -> 1.0 (Phase 2, Papnoute's pass, 2026-08-08).
+    # Against the old 60 ceiling the retry did not fire until 90, and his two
+    # over-ceiling turns (61, 69) sat inside that dead zone - nothing this
+    # world has ever produced has regenerated. With the re-derived 70 ceiling
+    # at 1.0 the enforced threshold DROPS from 90 to 70, even though the
+    # ceiling number itself rose. All five passed worlds now sit at 1.0.
+    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.0, "hieronymian-ascetic-literary": 1.0,
                                "alexandria-catechetical": 1.0,
                                "syriac-edessa-nisibis": 1.2,
                                "post-apostolic-house-church": 1.5,

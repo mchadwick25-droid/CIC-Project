@@ -116,14 +116,36 @@ register_determination:
     no surviving source narratively dramatizes an elder-register voice describing cenobitic life from
     the inside.'''
 native_measure:
-  typical_words: 60
-  ceiling_words: 60
-  ceiling_source: Migrated from HARD_CEILING_WORLDS (app/graph/nodes.py) at Phase 0 of the
-    Voice Rebuild (2026-08-08); nodes.py now reads this field. No S6.2 freeze-session comment
-    is attached to this world's value there - it predates those sessions.
-  note: Runtime hard ceiling for desert-monasticism is 60 words with regenerate-on-overage (HARD_CEILING_WORLDS,
-    representative_prompts.py) - length discipline recorded as data per SS3.8. The Doc10 test exchanges
-    predate this measure and run longer; their demonstration records score that honestly rather than retro-fitting.
+  typical_words: 55
+  ceiling_words: 70
+  ceiling_source: >-
+    RE-DERIVED at Phase 2 (2026-08-08), replacing a migrated 60/60. The old pair was incoherent as a
+    pair - typical and ceiling were the SAME number, so the record described no headroom at all - and
+    the 60 was inherited from HARD_CEILING_WORLDS with no derivation attached; the field itself
+    recorded that no freeze-session comment existed for it.
+  derivation: >-
+    Both numbers now come from this world's own two sources of evidence, which agree. The prompt states
+    the rule in the world's own terms: "four sentences is already long for you, and most of what you
+    say should be one to three." The streaming re-baseline of 2026-08-08 measured a mean of 56.8 and a
+    max of 69 across 8 turns. So typical 55 is the measured centre and the one-to-three-sentence rule;
+    ceiling 70 is the measured top of the natural spread and roughly the four-sentence bound the world
+    itself calls "already long".
+  measured_baseline: >-
+    Streaming re-baseline 2026-08-08, 8 turns: mean 56.8, max 69, 2 of 8 over the old 60. This is the
+    tightest measure in the fleet by a wide margin, and Mark's own read of the transcripts was "Desert
+    is well done". The measure is NOT this world's problem and this pass does not treat it as one.
+  dead_zone_note: >-
+    READ THE DIRECTION OF THIS CHANGE CAREFULLY: the ceiling number goes UP, 60 to 70, and the
+    ENFORCED threshold comes DOWN, 90 to 70. RETRY_TRIGGER_MULTIPLES had this world at 1.5, so against
+    the old 60 the retry did not fire until 90 - and the baseline's two overruns, at 61 and 69, sat
+    inside that 61-90 dead zone and shipped uncorrected. Nothing this world has ever produced has
+    regenerated. At 1.0 against 70, the ceiling binds for the first time, at a threshold 20 words
+    below where enforcement actually sat before.
+  note: >-
+    Deliberately NOT tightened further. Setting the ceiling at or near the measured mean would
+    regenerate a large share of ordinary turns and would fight behaviour that is already correct;
+    the apophthegma's economy is holding on its own. What was broken here was the record's internal
+    coherence and the enforcement, not the voice.
 reading_level_check: inherits reading_floor from wrs/parameters.yaml (Flesch-Kincaid grade band 8-10,
   Reading Ease >= 60; CO-015) - a pointer, not a restatement
 ---

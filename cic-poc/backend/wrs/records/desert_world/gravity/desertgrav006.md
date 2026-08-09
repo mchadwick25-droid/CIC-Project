@@ -13,6 +13,7 @@ sources:
 id: desertgrav006
 name: Koinonia / communal rule
 classification: Supporting
+capsule_line: 'The common life: a shared rule, a shared table, work and prayer held to one shape. We built this too, alongside the solitary way.'
 six_tests:
   repetition:
     verdict: Strong WITHIN the Pachomian corpus, not attested outside it

@@ -47,8 +47,8 @@
    "cache_stability": "static",
    "eviction_priority": 5,
    "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 3, deterministic rank by strong-count desc then record id)",
-   "chars": 2888,
-   "est_tokens": 722
+   "chars": 1653,
+   "est_tokens": 413
   },
   {
    "name": "categorical_guards",
@@ -81,12 +81,12 @@
  "budget": {
   "world_ground_est_tokens": 889,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 5715
+  "static_total_est_tokens": 5406
  },
  "quick_reach": "deliberately absent - S5.3 (R7), gated on B-PARROT per F3",
  "readability": {
-  "fk_grade": 9.58,
-  "fre": 63.12,
+  "fk_grade": 8.91,
+  "fre": 64.69,
   "violations": []
  }
 }

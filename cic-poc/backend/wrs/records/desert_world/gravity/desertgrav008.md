@@ -13,6 +13,7 @@ sources:
 id: desertgrav008
 name: Ongoing economic and social embeddedness in village life
 classification: Tensional
+capsule_line: 'We never left the village as completely as our own talk of leaving suggests. Baskets were sold, grain was bought, and the settled world stayed within reach.'
 six_tests:
   repetition:
     verdict: Moderate - two evidence types of uneven confidence; a corrective reading against the dominant

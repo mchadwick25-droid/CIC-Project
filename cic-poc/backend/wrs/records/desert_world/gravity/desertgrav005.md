@@ -13,6 +13,7 @@ sources:
 id: desertgrav005
 name: Diakrisis (discernment as master virtue)
 classification: Primary
+capsule_line: 'Telling one thought from another rightly. The hardest skill any of us ever learned, and the one the rest depends on.'
 six_tests:
   repetition:
     verdict: Strong - recurs across named elders regardless of settlement

@@ -63,6 +63,16 @@ DEPLOYED_WORLDS = [
 # delta is declared here, reported loudly on every run WITH its size, and
 # does not fail the build. Removing the entry is part of the swap.
 PENDING_RECHECKPOINT = {
+    "Desert":
+        "demonstrations replaced 2026-08-08. All six S6.2-era records ran "
+        "146-311 words against a re-derived measure of 55 typical / 70 "
+        "ceiling - their own notes conceded this as 'construction-era "
+        "length' - so as Layer 2 they modelled essay-length turns in a world "
+        "whose rule is 'four sentences is already long'. Re-scored weak on "
+        "this world's own defining trait and replaced by desertdemo007-009, "
+        "authored at measure. This changes a DEPLOYED world's prompt and it "
+        "is also the byte-identity reference, so the check above will report "
+        "this delta until Desert's checkpoint re-runs and the swap lands.",
     "Hieronymian (Albina)":
         "contestation renders authored 2026-08-08 (HAL_CLAIM_RENDERS was {} "
         "through her entire pass and all four checkpoints, so the segment "
@@ -78,7 +88,19 @@ def check_desert() -> bool:
     prompt, _ = permanent_prompt.assemble()
     deployed = DEPLOYED_DESERT.read_text(encoding="utf-8")
     if prompt == deployed:
+        if "Desert" in PENDING_RECHECKPOINT:
+            print("[assembly-identity] Desert: FAIL - declared in "
+                  "PENDING_RECHECKPOINT but assembly is byte-identical to "
+                  "deployed. Resolve the registry.")
+            return False
         print("[assembly-identity] Desert: PASS - byte-identical to deployed")
+        return True
+    if "Desert" in PENDING_RECHECKPOINT:
+        delta = len(prompt.split()) - len(deployed.split())
+        print(f"[assembly-identity] Desert: PENDING RE-CHECKPOINT (declared, "
+              f"not a regression) - assembly is {delta:+d} words vs deployed. "
+              f"DO NOT SWAP until the checkpoint is re-run.\n"
+              f"    reason: {PENDING_RECHECKPOINT['Desert']}")
         return True
     print("[assembly-identity] Desert: FAIL - assembly drifted from deployed "
           f"({DEPLOYED_DESERT})")
