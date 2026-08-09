@@ -121,6 +121,20 @@ BEFORE her swap; quote referencing now has supply (key_line) but
 coverage remains thin. No world ships until its transparency stack is
 verified firing AND visible to the participant.
 
+### 6b verification result (2026-08-09, static wiring check)
+
+**Citations: VERIFIED wired end to end** — `MessageBubble` passes
+`message.citations` to `CitationMarker`/`CitationModal`; payloads proven
+rich in the artifacts. **Glosses: one frontend change needed for tier-2**
+— `GlossHighlight.tsx` highlights only occurrences of each gloss's
+`rendered` string (its own line 51), so an `inline: false` gloss (original
+phrase spoken naturally, rendered form absent — Chloe's whole case) passes
+to the frontend and renders NOTHING. Fix: in the matching loop, fall back
+to `g.original` when the rendered string is absent, and add optional
+`inline?: boolean` to `GlossUsed` in `types/conversation.ts`. ~5 lines,
+then a live browser check as the pilot's first click. Chloe's swap waits
+on this.
+
 ## 7. Quotes / citation coverage — PENDING MARK, partially moved already
 
 His baseline read found citations firing on ~21% of turns fleet-wide.
