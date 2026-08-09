@@ -65,15 +65,15 @@ sources:
     condemnation)
 gravity_links:
 - gravity_id: alexgrav006
-  note: 'This is the best-known illustration of T1 (Teacher–Bishop), the tension between authority grounded
-    in demonstrated wisdom and authority grounded in apostolic office — the two are not the same, and
-    this story shows what happens when they cannot be reconciled. It is illustration, not foundation:
-    T1''s own confirmation rests on the broader, better-attested pattern of structural coexistence between
-    the school and the episcopate (Pantaenus and Clement alongside the bishops of their day; Didymus alongside
-    Athanasius), not on this single Eusebius-mediated episode (Doc_04 §3.6). It also touches T3 (Speculative-Freedom
-    vs. Doctrinal-Boundary): whatever the specific charges, the underlying pattern — a teacher whose reach
-    exceeded what the settled boundary could comfortably hold — sits at the same site as the broader Origen
-    inheritance this world carries as treasure-and-unease (Doc_04 §3.6).'
+  note: 'This is the best-known illustration of the tension between authority grounded in demonstrated wisdom and
+    authority grounded in apostolic office - the two are not the same, and this story shows what happens when
+    they cannot be reconciled. It is illustration, not foundation: that tension is confirmed by the broader,
+    better-attested pattern of school and episcopate coexisting structurally (Pantaenus and Clement alongside
+    the bishops of their day; Didymus alongside Athanasius), not by this single Eusebius-mediated episode. It
+    also touches the tension between speculative freedom and doctrinal boundary: whatever the specific
+    charges, the underlying pattern - a teacher whose reach exceeded what the settled boundary could
+    comfortably hold - sits at the same site as the broader Origen inheritance this world carries as
+    treasure-and-unease.'
 - gravity_id: alexgrav008
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

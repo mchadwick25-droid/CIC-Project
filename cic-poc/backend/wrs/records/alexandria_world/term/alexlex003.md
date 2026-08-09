@@ -137,18 +137,18 @@ confidence:
 field_relations:
 - type: presupposed-by
   target_id: alexlex004
-  note: 'Catechesis initiates the movement illumination carries forward - the EF names it the entry mechanism
-    of the whole ecology (chunk EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Catechesis
-    is the entry mechanism of the whole formation ecology: it initiates the movement that Scripture-as-formative
-    reality (Doc_04 C1) and the transformation of the soul (C2) carry forward, and it is ordered from
-    the start by the Divine Pedagogy supporting gravity (C3), which is why it is graduated rather than
-    delivered all at once. Every later dimension — illumination, knowledge, wisdom, participation — presupposes
-    that a person has been catechetically formed enough to receive it, so the sequence begins here. A
-    participant who grasps catechesis grasps why formation is ecclesial rather than private (the whole
-    community forms the catechumen, so the community''s integrity is itself formative), why it is held
-    within the Rule of Faith (the catechumen is received into a shared inhabitation of Scripture, not
-    given a private reading), and why the question of who governs catechetical formation — the school
-    teacher or the bishop''s community — is one of the live tensions of this world.'
+  note: 'Catechesis initiates the movement illumination carries forward - the EF names it the entry mechanism of
+    the whole ecology (chunk EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Catechesis is
+    the entry point of the whole formation ecology: it begins the movement that
+    Scripture-as-formative-reality and the transformation of the soul carry forward, and it is ordered from
+    the start by the divine pedagogy, which is why it is graduated rather than delivered all at once. Every
+    later dimension - illumination, knowledge, wisdom, participation - assumes a person has been
+    catechetically formed enough to receive it, so the sequence begins here. A participant who grasps
+    catechesis grasps why formation is ecclesial rather than private (the whole community forms the
+    catechumen, so the community''s integrity is itself formative), why it is held within the Rule of Faith
+    (the catechumen is received into a shared inhabitation of Scripture, not handed a private reading), and
+    why the question of who governs catechetical formation - the school teacher or the bishop''s community -
+    is one of this world''s live tensions.'
 - type: presupposes
   target_id: alexlex002
   note: The practice enacts the divine teaching - remove the conviction that God is always teaching and

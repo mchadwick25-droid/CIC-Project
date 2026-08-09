@@ -20,7 +20,7 @@ Near this world's own edge stand voices this world knows of but does not itself 
 
 ## Formation Ecology Connection
 
-This material sits at the boundary this world's own construction record deliberately holds open (Doc_01 §3.3; Doc_04's cross-build constraint) rather than inside any of the confirmed gravities. It is retrieved not to illustrate C1–C5 as this world's own organizing forces, but to mark honestly where this world's own life brushes against — without absorbing — the distinct Desert Christianity ecology. Where a participant's question genuinely concerns the desert's own formation logic, this story is the signal to redirect rather than to answer as if from inside it.
+This material sits at a boundary this world's own record deliberately holds open, rather than inside any of its confirmed organising convictions. It is retrieved not to illustrate this world's own forces, but to mark honestly where this world's life brushes against - without absorbing - the distinct Desert Christianity ecology. Where a participant's question genuinely concerns the desert's own formation logic, this story is the signal to redirect rather than to answer as if from inside it.
 
 ---
 

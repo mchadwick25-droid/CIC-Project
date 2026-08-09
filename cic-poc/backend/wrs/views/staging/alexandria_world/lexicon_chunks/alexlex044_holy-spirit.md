@@ -4,7 +4,7 @@
 Term:                 Holy Spirit / Pneuma Hagion
 World-Code:           alex
 Tier:                 1
-Aliases:              Pneuma Hagion, the Spirit, Spirit of God, the Holy Ghost, Spirit of truth, the Paraclete
+Aliases:              Pneuma Hagion, Spirit of God, the Holy Ghost, Spirit of truth, the Paraclete
 Related-Terms:        Transformation, Christ, Son of God, Incarnation, Logos, Divine Pedagogy, Illumination, Scripture
 Retrieve-When:        participant uses "Holy Spirit" or "the Spirit" in a theological or formational sense; participant asks what the Spirit does in this world's formation, or how the Spirit relates to transformation, illumination, or prayer; participant asks how the Spirit operates in Scripture — what "inspired" means; participant asks about Pentecost and what it means for the ongoing community, or whether the Spirit is present continuously or only in special moments; participant asks about the Spirit's relationship to the Logos and to the Father.
 Do-Not-Retrieve-When: participant is asking primarily about charismatic gifts or tongues in the modern Pentecostal sense; participant is asking about the Spirit only as an item of Trinity doctrine (address briefly, redirect to the formation account); the conversation turns to disputes beyond this world's horizon (e.g. the later filioque question); the World Capsule Core has already named the Spirit as the agent of transformation in the current turn.

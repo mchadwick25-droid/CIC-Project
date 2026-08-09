@@ -137,15 +137,15 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: alexlex037
-  note: 'The witness is a turning gone deep - faith held to the end (chunk WM: a soul whose turning toward
-    God has gone so deep). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Martyrdom/Witness
-    is the formation act that most directly shows the ecology reaches the whole community, not only its
-    educated members. A participant who grasps it grasps why the two-mode account of death is load-bearing
-    (without it the martyr''s choice would be irrational), why the community''s honoring of its martyrs
-    is itself a formation act (it keeps the witness present in the community''s identity between persecutions),
-    and why the ecology''s full account of formation needs both poles — the gradual contemplative path
-    and the martyr''s single moment — held in tension, since neither alone captures the whole. This is
-    the Martyrdom–Contemplative Tensional Gravity as a live structural feature, not a problem to be resolved.'
+  note: 'The witness is a turning gone deep - faith held to the end (chunk WM: a soul whose turning toward God has
+    gone so deep). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Martyrdom and witness is the
+    formation act that most directly shows the ecology reaches the whole community, not only its educated
+    members. A participant who grasps it grasps why the two-mode account of death is load-bearing (without it
+    the martyr''s choice would be irrational), why the community''s honouring of its martyrs is itself a
+    formation act (it keeps the witness present in the community''s identity between persecutions), and why a
+    full account of formation here needs both poles - the gradual contemplative path and the martyr''s single
+    moment - held in tension, since neither alone captures the whole. This tension is a live structural
+    feature of the world, not a problem to be resolved.'
 - type: associated-with
   target_id: alexlex018
   note: 'CO-P2-13 (Mark, 2026-07-28): the chunks'' own mutual Related-Terms cross-reference, typed as

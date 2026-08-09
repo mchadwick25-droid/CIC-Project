@@ -109,15 +109,14 @@ confidence:
 field_relations:
 - type: presupposed-by
   target_id: alexlex002
-  note: 'Divine pedagogy is the Logos teaching continuously - the EF names the Logos as the theological
-    ground of both Primary gravities (chunk EF, Doc_04 C4). Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): The Logos is the integrating center of the whole ecology (the Logos-Centered Unity
-    supporting gravity, Doc_04 C4): it is the theological ground of both Primary gravities — it is what
-    makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed
-    into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as
-    preparation, why Scripture is read for depth, why worship and learning belong together, and why the
-    incarnation (the homoousios) is load-bearing rather than decorative — remove the Logos and the ecology
-    fragments into four disconnected domains.'
+  note: 'Divine pedagogy is the Logos teaching continuously - the EF names the Logos as the theological ground of
+    both Primary gravities (chunk EF, Doc_04 C4). Chunk Ecological Function (verbatim, absorbed per
+    FLAG-002): The Logos is the integrating centre of the whole ecology: he is the theological ground of the
+    two forces that organise everything here - what makes Scripture formative (Scripture is where the Logos
+    speaks) and what the soul is being transformed into the likeness of. A participant who grasps the Logos
+    grasps why this world treats philosophy as preparation, why Scripture is read for depth, why worship and
+    learning belong together, and why the incarnation is load-bearing rather than decorative. Remove the
+    Logos and the ecology fragments into four disconnected domains.'
 - type: presupposed-by
   target_id: alexlex004
   note: Illumination is worked by the Logos through Scripture and formation (chunk QM).

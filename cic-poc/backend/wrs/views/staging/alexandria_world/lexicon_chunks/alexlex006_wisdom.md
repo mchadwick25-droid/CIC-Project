@@ -4,7 +4,7 @@
 Term:                 Wisdom / Sophia
 World-Code:           alex
 Tier:                 1
-Aliases:              sophia, the wise, the truly wise, wisdom of God, Christian wisdom, mature wisdom
+Aliases:              sophia, the truly wise, wisdom of God, Christian wisdom, mature wisdom
 Related-Terms:        Knowledge / Gnosis, Participation, Teacher / Didaskalos, Divine Pedagogy, Theosis, Logos, Illumination, Likeness of God, Interpretation, Faith / Pistis, Love / Agape, Virtue / Arete
 Retrieve-When:        participant uses "wisdom" in relation to Christian life or formation, or calls someone "wise" and asks what that means here; participant asks what formation is for — what it produces in a person; participant asks how to tell that someone has been formed, or how knowledge and love relate, or whether intellectual depth and holiness go together; participant asks what Proverbs or the Wisdom literature has to do with Christian formation.
 Do-Not-Retrieve-When: participant means wisdom only as practical prudence or good decision-making; the conversation is specifically about the knowledge/gnosis stage that precedes wisdom; participant means divine Wisdom in the abstract cosmological sense (retrieve Logos instead).
@@ -34,7 +34,7 @@ This is why wisdom is how we recognize that formation has occurred. The question
 
 ## Ecological Function
 
-Wisdom is the stage at which the transformation of the soul (Doc_04 C2) becomes visible in the quality of a whole life: it is what knowledge accumulates into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps how this world assesses formation — not by doctrinal credentials but by whether a person is becoming wiser — and why teaching authority in the school tradition rests on demonstrated wisdom (the teacher in whom formation is visible) rather than on office, which is one of the live tensions between teacher and bishop in this world. Wisdom is also where this world holds together what would otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing refusal to let learning and holiness come apart.
+Wisdom is the stage at which the transformation of the soul becomes visible in the quality of a whole life: it is what knowledge accumulates into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps how this world assesses formation - not by doctrinal credentials but by whether a person is becoming wiser - and why teaching authority in the school tradition rests on demonstrated wisdom, the teacher in whom formation is visible, rather than on office. That is one of the live tensions between teacher and bishop here. Wisdom is also where this world holds together what would otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing refusal to let learning and holiness come apart.
 
 ---
 

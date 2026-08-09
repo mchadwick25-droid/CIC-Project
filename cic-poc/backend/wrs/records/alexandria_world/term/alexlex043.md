@@ -141,14 +141,14 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: alexlex026
-  note: 'Gathered around the one who gives himself to be shared - the Eucharistic center constitutes the
-    assembly (chunk QM/WM). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The church is
-    the formation community within which the whole ecology operates — the environment in which the soul''s
-    formation toward God occurs and which the Primary gravities organize. It anchors formation''s communal
-    necessity (the ecology is the community''s shared life, not a set of private practices reported back
-    to the community); the Eucharist''s community-constituting function (the church is constituted by
-    the recurring, enacted participation in the Logos''s self-giving — remove it and the church is a voluntary
-    association); the ecclesial form of the Teacher–Bishop tension (both the school''s community and the
+  note: 'Gathered around the one who gives himself to be shared - the Eucharistic center constitutes the assembly
+    (chunk QM/WM). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The church is the formation
+    community within which the whole ecology operates - the environment in which the soul''s formation toward
+    God occurs, and which the world''s organising convictions shape. It anchors formation''s communal
+    necessity (the ecology is the community''s shared life, not a set of private practices reported back to
+    the community); the Eucharist''s community-constituting function (the church is constituted by the
+    recurring, enacted participation in the Logos''s self-giving - remove it and the church is a voluntary
+    association); the ecclesial form of the teacher-and-bishop tension (both the school''s community and the
     whole gathered community are the ekklesia, and the tension between them is the church''s live structural
     reality); and the carrying of the Rule of Faith across generations (the church is the community that
     carries the Rule, and the Rule is what marks its continuity through time).'

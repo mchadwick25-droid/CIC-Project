@@ -71,6 +71,15 @@ _HARD_FAIL_ANYWHERE = re.compile(
     r"Final Assembly Instruction|L4-Templates|per Template|"
     r"Completed per `|No brackets or builder notes remain|CT tag (?:not )?applied",
     re.I)
+# Checked and deliberately NOT added here (2026-08-08, Theon's pass): the
+# "[Verification State Re-grade ... Rigor P1-1 fix]" provenance paragraphs
+# that appear at the end of some lexicon chunk FILES. They look like an
+# apparatus leak the gate cannot see, and they are not: every one sits
+# AFTER "## Key Sources", and both this gate and app/rag/retriever.py
+# truncate there, so the text never reaches generation. Verified directly
+# against the two deployed instances (hal_lex08, hal_lex11) - present in
+# the file, absent from the served context. The gate's scope is what ships
+# to the model, and that scope is correct.
 
 # HARD-FAIL, scoped: gravity/Doc_/Force apparatus is only disallowed
 # inside the two fields Phase 2 authors fresh under the license.

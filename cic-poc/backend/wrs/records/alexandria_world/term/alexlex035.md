@@ -166,18 +166,18 @@ field_relations:
 - type: presupposed-by
   target_id: alexlex016
   note: 'Allegory is the method within the discipline (alexlex016 EF; chunk EF). Chunk Ecological Function
-    (verbatim, absorbed per FLAG-002): Interpretation is the school tradition''s primary formation mode
-    — the complementary channel to what sacramental participation, household formation, and martyr-witness
-    give the whole community — and it is how Scripture''s genuine depth (Doc_04 C1) is actually reached.
-    A participant who grasps interpretation grasps why the catechetical school exists (interpretation
-    at the depth the school pursues requires teacher accompaniment and the forming of the nous over time),
-    why teaching authority rests on the quality of the teacher''s formed perception rather than on office,
-    and how the always-present supporting gravities show up in practice: the Logos-Centered Unity (C4)
-    is met in every interpretive encounter, since to read the text is to meet the one who integrates the
-    whole ecology, and the Divine Pedagogy (C3) governs how interpretation unfolds — the teacher teaching
-    *through* Scripture''s difficulty rather than around it, trusting the difficulty as the divine Teacher''s
-    design. Interpretation is the general discipline of which Scripture, Christological Reading, and Allegory
-    name the theological ground, the orienting conviction, and the specific practice.'
+    (verbatim, absorbed per FLAG-002): Interpretation is the school tradition''s primary formation mode - the
+    complementary channel to what sacramental participation, household formation, and martyr-witness give the
+    whole community - and it is how Scripture''s genuine depth is actually reached. A participant who grasps
+    interpretation grasps why the catechetical school exists (interpretation at the depth the school pursues
+    requires a teacher''s accompaniment and the forming of the nous over time), why teaching authority rests
+    on the quality of the teacher''s formed perception rather than on office, and how the always-present
+    supporting convictions show up in practice: the Logos-centred unity is met in every interpretive
+    encounter, since to read the text is to meet the one who integrates the whole ecology, and the divine
+    pedagogy governs how interpretation unfolds, the teacher teaching through Scripture''s difficulty rather
+    than around it, trusting the difficulty as the divine Teacher''s design. Interpretation is the general
+    discipline of which Scripture, Christological Reading, and Allegory name the theological ground, the
+    orienting conviction, and the specific practice.'
 - type: presupposes
   target_id: alexlex014
   note: The discipline is exercised on the address itself (chunk QM).

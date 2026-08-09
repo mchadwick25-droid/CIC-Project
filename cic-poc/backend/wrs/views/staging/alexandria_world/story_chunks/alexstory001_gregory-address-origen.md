@@ -20,7 +20,7 @@ There is a student's own account, kept among us, of what it was to sit under thi
 
 ## Formation Ecology Connection
 
-This is the paradigm case of C5 (Learning-Formation Integration — the conviction that to know truly is to be changed) rendered as a lived relationship rather than a claim: the student names the teaching itself as what altered him, not information added to an unchanged mind. It equally illustrates C1 (Scripture as Deep Formative Reality) in its structural claim that philosophical training clears the ground and Scripture is read last, at the deepest register, once the soul is prepared to receive it — and C2 (Transformation of the Soul Toward God), since the account's whole shape is conversion, not instruction. It is the ecology's clearest attestation of the accompaniment mode of formation (Doc_05 §5; Doc_07 §1E) — the teacher as a fellow-traveller further up the same road, not a dispenser of content.
+This is the paradigm case of the conviction that to know truly is to be changed, rendered as a lived relationship rather than a claim: the student names the teaching itself as what altered him, not information added to an unchanged mind. It equally shows Scripture treated as deep formative reality, in its structural claim that philosophical training clears the ground and Scripture is read last, at the deepest register, once the soul is prepared to receive it - and the transformation of the soul toward God, since the account's whole shape is conversion rather than instruction. It is this world's clearest attestation of formation by accompaniment: the teacher as a fellow-traveller further up the same road, not a dispenser of content.
 
 ---
 

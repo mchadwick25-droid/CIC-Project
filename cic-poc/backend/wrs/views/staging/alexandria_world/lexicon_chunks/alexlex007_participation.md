@@ -4,7 +4,7 @@
 Term:                 Participation
 World-Code:           alex
 Tier:                 1
-Aliases:              methexis, sharing in divine life, communion, partaking, partaking of God, real sharing
+Aliases:              methexis, sharing in divine life, partaking, partaking of God, real sharing
 Related-Terms:        Wisdom / Sophia, Theosis, Transformation, Eucharist, Logos, Knowledge / Gnosis, Illumination, Image of God, Soul / Psyche, Likeness of God, Freedom / Autexousia, Resurrection, Christ, Son of God, Baptism, Fasting, Prayer, Martyrdom / Witness, Household / Oikos, Salvation, Love / Agape, Incarnation, Virtue / Arete, Church / Ekklesia, Hope / Elpis
 Retrieve-When:        participant asks what the goal of formation actually is, or what "sharing in God's life" means; participant hears "participation" as mere involvement/taking part; conversation reaches the Eucharist's meaning, 2 Peter 1:4, the vine and branches, or why the incarnation is necessary for this world's account of salvation.
 Do-Not-Retrieve-When: the participant means "participation" in an ordinary social/organizational sense with no theological bearing; Theosis (the horizon) is the more precise term already surfaced.
@@ -30,7 +30,7 @@ And because it is participation in the *Logos*, it is never solitary. The soul s
 
 ## Ecological Function
 
-Participation is the operational term for what the second Primary gravity (Transformation) is *for* — it names both the mechanism and the goal at once: the soul is being transformed *into* real sharing in God. It anchors the purpose of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology (one participates through the community), and the necessity of the incarnation (participation requires that the Logos be truly God).
+Participation is the operational term for what the transformation of the soul is for - it names the mechanism and the goal at once: the soul is being transformed into real sharing in God. It anchors the purpose of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology (one participates through the community), and the necessity of the incarnation, since participation requires that the Logos be truly God.
 
 ---
 

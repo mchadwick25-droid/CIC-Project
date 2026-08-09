@@ -4,7 +4,7 @@
 Term:                 Nous
 World-Code:           alex
 Tier:                 1
-Aliases:              intellect, mind, spiritual intellect, the mind's eye, higher mind, contemplative faculty
+Aliases:              intellect, spiritual intellect, the mind's eye, higher mind, contemplative faculty
 Related-Terms:        Soul / Psyche, Illumination, Repentance / Metanoia, Image of God, Likeness of God, Knowledge / Gnosis, Scripture, Allegory, Prayer, Interpretation, Apokatastasis, Fall / Descent, Logikos / Rational Nature
 Retrieve-When:        participant uses "nous," "intellect," or "the mind" in a spiritual sense; participant asks what faculty perceives God, or hears "intellect" as ordinary reasoning; conversation reaches contemplation, the image of God as the soul's highest part, or Origen's account of the soul and its contested status.
 Do-Not-Retrieve-When: the participant means "mind" in a modern cognitive-science sense with no bearing on contemplative perception; the participant is asking specifically about Evagrian ascetic theology (that layer is desert-attributed — see below).

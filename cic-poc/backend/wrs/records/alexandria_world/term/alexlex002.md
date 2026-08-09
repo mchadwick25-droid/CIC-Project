@@ -105,13 +105,12 @@ field_relations:
 - type: presupposes
   target_id: alexlex001
   note: 'The pedagogy is the Logos''s own continuing speech - remove the Logos and ''God teaches through
-    everything'' loses its subject (chunk WM/EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002):
-    Divine Pedagogy is the explanatory-framework supporting gravity (Doc_04 C3): it makes the two Primary
-    gravities intelligible as one divine activity. It grounds *why* Scripture forms, *why* transformation
-    is gradual, *why* suffering forms, and *why* the human teacher''s authority is real but derivative
-    — the teacher teaches under the Teacher (which is the root of the Teacher–Bishop tension). It is classified
-    Supporting, not Primary, because it organizes no practice of its own; it is the frame within which
-    the others are understood.'
+    everything'' loses its subject (chunk WM/EF). Chunk Ecological Function (verbatim, absorbed per
+    FLAG-002): Divine Pedagogy is the explanatory frame that makes the two organising forces intelligible as
+    one divine activity. It grounds why Scripture forms, why transformation is gradual, why suffering forms,
+    and why the human teacher''s authority is real but derivative - the teacher teaches under the Teacher,
+    which is the root of the teacher-and-bishop tension. It is supporting rather than organising because it
+    directs no practice of its own; it is the frame within which the others are understood.'
 - type: presupposed-by
   target_id: alexlex003
   note: 'Catechesis is divine pedagogy''s human-scale enactment - the EF: pedagogy makes the gravities

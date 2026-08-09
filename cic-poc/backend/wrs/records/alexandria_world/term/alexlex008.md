@@ -105,13 +105,11 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: alexlex007
-  note: 'Theosis is what real participation opens onto (chunk EF: anchors the sequence''s eschatological
-    horizon). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Theosis anchors the eschatological
-    horizon of the whole sequence and gives the Transformation gravity its *direction*. Note carefully:
-    in this build''s gravity discovery (Doc_04) theosis is classified a **Formation Dynamic, not a gravity**
-    — it names *where* transformation goes, not *how* it is organized, and it directs no formation practice
-    of its own. Keep it distinct from Transformation (the organizing gravity, which is the *how*): theosis
-    is the horizon; transformation is the movement toward it.'
+  note: 'Theosis is what real participation opens onto (chunk EF: anchors the sequence''s eschatological horizon).
+    Chunk Ecological Function (verbatim, absorbed per FLAG-002): Theosis anchors the eschatological horizon
+    of the whole sequence and gives transformation its direction. Hold it distinct from transformation
+    itself: theosis names where transformation goes, not how it is organised, and it directs no formation
+    practice of its own. Theosis is the horizon; transformation is the movement toward it.'
 - type: presupposes
   target_id: alexlex001
   note: The formula runs through the incarnate Logos (chunk WM/Key Sources).

@@ -4,7 +4,7 @@
 Term:                 Church / Ekklesia
 World-Code:           alex
 Tier:                 1
-Aliases:              ekklesia, the assembly, the congregation, the community, the Christian community, the body of Christ, the gathered community
+Aliases:              ekklesia, the congregation, the Christian community, the body of Christ, the gathered community
 Related-Terms:        Eucharist, Household / Oikos, Bishop / Episkopos, Participation, Baptism, Teacher / Didaskalos, Rule of Faith / Regula Fidei
 Retrieve-When:        participant uses "church" in a theological or formational sense; participant asks what the church is and what it is for, or why formation cannot be private; participant asks about the relation between an individual's formation and the community; participant asks about the church as both school tradition and whole gathered community, what gathers it, or whether it is primarily an institution or something else.
 Do-Not-Retrieve-When: participant is asking about a specific local congregation's practical life; about church governance structures beyond this world's scope; or primarily about the bishop's role (retrieve Bishop).
@@ -34,7 +34,7 @@ And belonging to the church is not holding membership in an organization. It is 
 
 ## Ecological Function
 
-The church is the formation community within which the whole ecology operates — the environment in which the soul's formation toward God occurs and which the Primary gravities organize. It anchors formation's communal necessity (the ecology is the community's shared life, not a set of private practices reported back to the community); the Eucharist's community-constituting function (the church is constituted by the recurring, enacted participation in the Logos's self-giving — remove it and the church is a voluntary association); the ecclesial form of the Teacher–Bishop tension (both the school's community and the whole gathered community are the ekklesia, and the tension between them is the church's live structural reality); and the carrying of the Rule of Faith across generations (the church is the community that carries the Rule, and the Rule is what marks its continuity through time).
+The church is the formation community within which the whole ecology operates - the environment in which the soul's formation toward God occurs, and which the world's organising convictions shape. It anchors formation's communal necessity (the ecology is the community's shared life, not a set of private practices reported back to the community); the Eucharist's community-constituting function (the church is constituted by the recurring, enacted participation in the Logos's self-giving - remove it and the church is a voluntary association); the ecclesial form of the teacher-and-bishop tension (both the school's community and the whole gathered community are the ekklesia, and the tension between them is the church's live structural reality); and the carrying of the Rule of Faith across generations (the church is the community that carries the Rule, and the Rule is what marks its continuity through time).
 
 ---
 

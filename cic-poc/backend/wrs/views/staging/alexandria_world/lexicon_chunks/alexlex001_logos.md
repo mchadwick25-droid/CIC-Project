@@ -4,7 +4,7 @@
 Term:                 Logos
 World-Code:           alex
 Tier:                 1
-Aliases:              the Word, the eternal Word, divine Reason, the Son, Christ as Word, ho logos
+Aliases:              divine Reason, Christ as Word, ho logos
 Related-Terms:        Divine Pedagogy, Illumination, Scripture, Christological Reading, Theosis, Resurrection, Word of God, Incarnation, Knowledge / Gnosis, Participation, Catechesis, Wisdom / Sophia, Image of God, Allegory, Christ, Son of God, Eucharist, Faith / Pistis, Love / Agape, Oikonomia, Holy Spirit / Pneuma Hagion, Logikos / Rational Nature
 Retrieve-When:        participant uses "Logos," "the Word," "divine reason," or asks how reason relates to faith in this world; participant asks what holds Alexandrian theology together, or why philosophy is treated as preparation rather than threat; conversation reaches John 1, the incarnation, or how Scripture, learning, and worship connect.
 Do-Not-Retrieve-When: participant is using "logos" in an unrelated modern/linguistic sense with no theological bearing; the World Capsule Core has already surfaced the Logos as integrating center in the current turn.
@@ -30,7 +30,7 @@ And this Word did not stay distant. The eternal Logos truly entered human nature
 
 ## Ecological Function
 
-The Logos is the integrating center of the whole ecology (the Logos-Centered Unity supporting gravity, Doc_04 C4): it is the theological ground of both Primary gravities — it is what makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as preparation, why Scripture is read for depth, why worship and learning belong together, and why the incarnation (the homoousios) is load-bearing rather than decorative — remove the Logos and the ecology fragments into four disconnected domains.
+The Logos is the integrating centre of the whole ecology: he is the theological ground of the two forces that organise everything here - what makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as preparation, why Scripture is read for depth, why worship and learning belong together, and why the incarnation is load-bearing rather than decorative. Remove the Logos and the ecology fragments into four disconnected domains.
 
 ---
 

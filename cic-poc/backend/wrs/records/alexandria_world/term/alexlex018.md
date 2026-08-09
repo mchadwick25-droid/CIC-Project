@@ -148,13 +148,13 @@ field_relations:
   target_id: alexlex017
   note: 'Death follows sin''s turning with a logic that needs no further cause (chunk WM). Chunk Ecological
     Function (verbatim, absorbed per FLAG-002): Death names the specific consequence of sin whose reversal
-    the rest of the arc answers, and it does so in two modes. It anchors the precision of Resurrection
-    (which addresses spiritual death primarily and physical death consequently, in that order), the coherence
-    of the martyrdom-as-formation account (Doc_05 §5 — rational only if death first means spiritual separation),
-    the urgency of the whole formation ecology (its practices are the reversal of the dying sin has begun),
-    and the therapeutic/medical frame that governs the ecology (Christ as Physician, formation as medicine,
-    the soul as patient) — a frame that only makes sense if spiritual death is a real illness and formation
-    its treatment.'
+    the rest of the arc answers, and it does so in two modes. It anchors the precision of resurrection, which
+    addresses spiritual death primarily and physical death consequently, in that order. It anchors the
+    coherence of the martyrdom-as-formation account, which is rational only if death first means spiritual
+    separation. It anchors the urgency of the whole formation ecology, whose practices are the reversal of
+    the dying sin has begun. And it anchors the medical frame that governs the ecology - Christ as Physician,
+    formation as medicine, the soul as patient - a frame that only makes sense if spiritual death is a real
+    illness and formation its treatment.'
 - type: presupposed-by
   target_id: alexlex019
   note: Resurrection answers death's two modes in the same order (alexlex019 WM).

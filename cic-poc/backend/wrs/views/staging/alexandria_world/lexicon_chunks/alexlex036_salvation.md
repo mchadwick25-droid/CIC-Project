@@ -4,7 +4,7 @@
 Term:                 Salvation
 World-Code:           alex
 Tier:                 1
-Aliases:              soteriology, being saved, deliverance, healing, rescue, wholeness, the saved condition
+Aliases:              soteriology, being saved, deliverance, wholeness, the saved condition
 Related-Terms:        Restoration, Incarnation, Sin / Hamartia, Death, Resurrection, Participation, Theosis, Transformation, Repentance / Metanoia, Oikonomia, Hope / Elpis
 Retrieve-When:        participant asks what "saved" means here, or assumes a legal/courtroom frame (guilt, acquittal, penalty); participant asks how salvation relates to healing or transformation; conversation reaches the incarnation's purpose, the problem sin poses, or why this world does not organize salvation around forgiveness.
 Do-Not-Retrieve-When: the participant is asking narrowly about the mechanism of ongoing change (retrieve Transformation) or the goal (retrieve Theosis) and the therapeutic frame has already been surfaced.
@@ -30,7 +30,7 @@ So salvation is not a single moment but the whole arc — from repentance, throu
 
 ## Ecological Function
 
-Salvation names what the entire formation ecology accomplishes — it is the second Primary gravity at the level of the whole ecology's purpose. It anchors the coherence of the salvation-arc vocabulary (Sin → Death → Resurrection → Restoration → Transformation), the stakes of the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis (the arc's horizon).
+Salvation names what the entire formation ecology accomplishes - the transformation of the soul stated at the level of the whole ecology's purpose. It anchors the coherence of the salvation-arc vocabulary (sin, death, resurrection, restoration, transformation), the stakes of the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis, the arc's horizon.
 
 ---
 

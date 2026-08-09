@@ -56,12 +56,11 @@ sources:
   locus: Eusebius, Historia Ecclesiastica 2.16 (Mark the Evangelist as founder)
 gravity_links:
 - gravity_id: alexgrav004
-  note: 'This story functions less as an illustration of a specific gravity than as the ground of this
-    world''s own identity-claim within the wider Church (Doc_01 §7–8) — it is the foundational-legitimacy
-    counterpart to the intellectual-formation gravities (C1–C5) rather than a direct instance of any one
-    of them. Where it touches a gravity at all, it is C4 (Logos-Centered Unity) in its broadest sense:
-    the claim situates this world''s own life within the one apostolic movement the Logos initiated, rather
-    than as a separate or derivative development.'
+  note: 'This story works less as an illustration of any one organising conviction than as the ground of this
+    world''s identity-claim within the wider Church - the foundational-legitimacy counterpart to its
+    convictions about intellectual formation rather than a direct instance of any of them. Where it touches
+    one at all, it is the Logos-centred unity in its broadest sense: the claim situates this world''s life
+    within the one apostolic movement the Logos began, rather than as a separate or derivative development.'
 confidence_line: Contested (as tradition) / Inferential-Thin (as event)
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory006_markan-foundation.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).

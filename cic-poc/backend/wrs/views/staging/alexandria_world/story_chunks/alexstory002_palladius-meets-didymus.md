@@ -20,7 +20,7 @@ A visitor to Alexandria, later in this world's life, tells us of going to see th
 
 ## Formation Ecology Connection
 
-Illustrates C1 (Scripture as Deep Formative Reality) at its sharpest edge: the deep reading this world prizes is shown here to be a capacity of the soul, not merely a skill of the eyes — the text's depths are perceived, not decoded. It equally illustrates the accompaniment mode of formation (Doc_05 §5) continuing across the whole span into the late horizon, and C5's own documented late-horizon attenuation (Doc_04 §3.5; the C5↔T2 interaction, §6): the story attests that even at the school tradition's late edge, when C5's living force was documented to be attenuating, the teacher-student encounter it names remained sought out and real.
+Shows Scripture as deep formative reality at its sharpest edge: the deep reading this world prizes is shown here to be a capacity of the soul, not merely a skill of the eyes - the text's depths are perceived, not decoded. It equally shows formation by accompaniment continuing across the whole span into the late horizon, at a point when the living force of learning-as-formation was already thinning: even at the school tradition's late edge, the teacher-student encounter it names remained sought out and real.
 
 ---
 

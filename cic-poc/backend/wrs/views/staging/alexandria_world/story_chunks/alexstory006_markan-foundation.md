@@ -20,7 +20,7 @@ This world tells of its own beginning the way a household tells of its own found
 
 ## Formation Ecology Connection
 
-This story functions less as an illustration of a specific gravity than as the ground of this world's own identity-claim within the wider Church (Doc_01 §7–8) — it is the foundational-legitimacy counterpart to the intellectual-formation gravities (C1–C5) rather than a direct instance of any one of them. Where it touches a gravity at all, it is C4 (Logos-Centered Unity) in its broadest sense: the claim situates this world's own life within the one apostolic movement the Logos initiated, rather than as a separate or derivative development.
+This story works less as an illustration of any one organising conviction than as the ground of this world's identity-claim within the wider Church - the foundational-legitimacy counterpart to its convictions about intellectual formation rather than a direct instance of any of them. Where it touches one at all, it is the Logos-centred unity in its broadest sense: the claim situates this world's life within the one apostolic movement the Logos began, rather than as a separate or derivative development.
 
 ---
 

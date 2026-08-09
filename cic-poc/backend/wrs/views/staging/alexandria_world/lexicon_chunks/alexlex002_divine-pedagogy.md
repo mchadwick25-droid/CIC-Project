@@ -30,7 +30,7 @@ The formation this pedagogy works is cumulative, not a ladder of rungs left behi
 
 ## Ecological Function
 
-Divine Pedagogy is the explanatory-framework supporting gravity (Doc_04 C3): it makes the two Primary gravities intelligible as one divine activity. It grounds *why* Scripture forms, *why* transformation is gradual, *why* suffering forms, and *why* the human teacher's authority is real but derivative — the teacher teaches under the Teacher (which is the root of the Teacher–Bishop tension). It is classified Supporting, not Primary, because it organizes no practice of its own; it is the frame within which the others are understood.
+Divine Pedagogy is the explanatory frame that makes the two organising forces intelligible as one divine activity. It grounds why Scripture forms, why transformation is gradual, why suffering forms, and why the human teacher's authority is real but derivative - the teacher teaches under the Teacher, which is the root of the teacher-and-bishop tension. It is supporting rather than organising because it directs no practice of its own; it is the frame within which the others are understood.
 
 ---
 
