@@ -155,3 +155,30 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 **Open for Mark:** accept or reject the Phase 1 criterion — table feasible at $0.135/round, paid-tier-only, priced at or above ~$15/month for unmetered weekly use (alternatives if that price is wrong for his people: per-sitting metering against the ~$6.80 bound, or measuring the cheaper-model variant before trusting it). Phase 2 (table quality/1A) stays gated until he answers.
 
 **Next action:** Mark reads T1 §6 and accepts/rejects the criterion; separately, re-run the cost baseline after the five world swaps + PR #9 land to replace the one estimated line with a measured one.
+
+---
+
+## 2026-08-09 — Two-tier pricing shape set as working direction; 5-seat table conditionally approved into the research tier; homeschool bridge scoped
+
+**Status:** Mark's working direction, confirmed in conversation — not final pricing. Built directly on this morning's Table Phase 1 cost analysis (`Ministry/Technology/Table/T1_cost_feasibility_2026-08-09.md`); all dollar figures assume the A3 target architecture ($0.135/table round) and standard API pricing.
+
+**Decided as working direction:**
+
+1. **Multi-voice Table is subscription-only** (re-confirms 2026-07-31). Seats stay at **3 at launch, with a "coming soon" tease for 5.**
+2. **The 5-seat cap raise is conditionally approved — this is a deliberate, recorded reopening of S6.2's hard-cap-at-3, not a silent reversal.** The ground shifted: Phase 1 showed cost tracks rep-turns-per-round, not seats — under round discipline, a 5-seat round costs ≈ the same as a 3-seat one. Mark's own framing: "if they can imagine five voices they can have it for very limited increase — it's about choices for the participant." Conditions before the cap moves: (a) the A3 round-shape discipline ships, (b) a 5-voice room passes an actual test (the system has never run one). When it lands, it lands as the research tier's headline feature, not the base tier.
+3. **Tier 1 — $15/month:** ~2× free-tier interview time (~100 solo turns) + ~45 table rounds (≈ three one-hour sittings), 3-seat tables. Caps metered in **rounds, not wall-clock hours** (hours punish contemplative readers; rounds track cost). Caps sized to Mark's formula: max-out API ≈ $12.45 = fee covers cost + 20%. Max-out leaves ~$1.75/subscriber after Stripe; realistic 40–60% utilization leaves **~$7–9/subscriber/month** for the operation. The margin lives in under-utilization — the 20% is only the never-lose-money floor.
+4. **Launch gate, non-negotiable:** the A3 cost shape (two lossless fixes + round cap) must ship before this tier launches. At today's measured $0.197/round, a maxed $15 subscriber is underwater before Stripe's cut.
+5. **Tier 2 — research/academic, ~$29/month:** the 5-seat comparative table (gated per item 2), the transparency apparatus surfaced as a feature (Level 2/3 audit trails, citations, confidence labels, per-world source ecologies — already built as data, near-zero cost to serve), transcript export with citations, curriculum walks, ~2× tier-1 caps. Max-out API ~$24 keeps the +20% formula; realistic utilization leaves **~$15–18/subscriber/month** — this tier is where real margin lives.
+6. **Homeschool bridge (Mark, this session): a modified track, not just tier-2 access — add a purpose-built curriculum, and use the Atlas heavily** (the 178-movement census as teaching material). Co-op/classroom pack (pooled family/group cap, ~+$10–15/mo) as the bridge rung toward institutional licenses. Economics note: curriculum and Atlas are build-cost, not serve-cost — one-time authorship served nearly free, and curriculum-path traffic is exactly where the SH-11 answer bank serves cheapest. Design note: the Atlas itself stays public/free (it is the marketing engine); the homeschool product builds ON it, it does not gate it.
+7. **Salaries are explicitly NOT funded by these tiers** until roughly 700–1,000 subscribers; the salary engine remains the institutional rung ($1,200–5,000/yr), per the existing funding ladder. The tiers fund infrastructure, Mark's dev costs (~$250/mo covered around 30–40 realistic subscribers), features, and the accessibility pool.
+8. **The giving door continues alongside the tiers:** donations open Table time for those who can't pay — at A3, $10 ≈ three one-hour sittings. **Ask-copy recalibration required:** "$10/month keeps the Table open for ten more seekers" is built on the ~$1/user/month solo anchor and is NOT true of table time (~10× dearer); table-framed giving needs its own honest line.
+
+**The heart of it:** two tensions were named and belong in every downstream design conversation. (1) Pay-to-pray — the answer chosen is a *visible* giving door ("someone gave, so this seat is open"), not a paywall with a quiet scholarship form; same cost, different spiritual statement. (2) The homeschool market partly wants catechesis; CiC's convictions are Encounter Over Persuasion. The pitch is "your student meets the sources and the tensions, not a settled narrative" — distinctive to thoughtful educators, disappointing to buyers wanting doctrine-safe content. Which educator CiC is for must be decided out loud before marketing copy exists.
+
+**Open gates / next actions:**
+- Define the free tier's monthly allowance (currently uncapped monthly; ~50 solo turns/mo is the working assumption behind "+100%"). Prerequisite for everything above.
+- SH-12 scope now includes rounds-based monthly metering, not just subscription status.
+- **Minors/safety design pass before any homeschool marketing:** relational safety was designed and tested for adult seekers; parental account structure, under-18 behavior, COPPA/consent all need deliberate answers. The homeschool curriculum work should pair with this pass, since the curriculum is what puts students in front of the system.
+- Homeschool curriculum scoping: what it covers, how it uses the Atlas and the Guided-Questions base, who authors and reviews it (Article 31 implications if it makes historical claims).
+- Ask-copy recalibration for table-framed giving.
+- Mark's final word on the price points themselves ($15/$29 are working numbers).
