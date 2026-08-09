@@ -90,18 +90,12 @@ DEPLOYED_WORLDS = [
 # silent swap of un-checkpointed voice content, which is worse. Instead the
 # delta is declared here, reported loudly on every run WITH its size, and
 # does not fail the build. Removing the entry is part of the swap.
-PENDING_RECHECKPOINT = {
-    "Desert":
-        "demonstrations replaced 2026-08-08. All six S6.2-era records ran "
-        "146-311 words against a re-derived measure of 55 typical / 70 "
-        "ceiling - their own notes conceded this as 'construction-era "
-        "length' - so as Layer 2 they modelled essay-length turns in a world "
-        "whose rule is 'four sentences is already long'. Re-scored weak on "
-        "this world's own defining trait and replaced by desertdemo007-009, "
-        "authored at measure. This changes a DEPLOYED world's prompt and it "
-        "is also the byte-identity reference, so the check above will report "
-        "this delta until Desert's checkpoint re-runs and the swap lands.",
-}
+# EMPTY as of 2026-08-09: every declared delta has been resolved the way
+# this registry always said it must be - by re-running the checkpoint and
+# swapping, never by quietly shipping or by deleting the entry. Desert's
+# replaced demonstrations and Albina's contestation renders were both
+# carried here, both measured, both swapped.
+PENDING_RECHECKPOINT: dict[str, str] = {}
 
 
 def check_desert() -> bool:

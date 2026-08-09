@@ -15,15 +15,23 @@ Mark's text verbatim).
 Items marked **PENDING MARK** need his ruling before work starts; items
 marked **READY** are decided in substance and waiting on sequencing.
 
-**STATE AS OF 2026-08-09 END OF DAY.** Chloe and Marius are **SWAPPED AND
-LIVE** (`assembly_identity` byte-identical, deployed leak gate zero hits
-for both). Items 2, 4b, 5, 6b(Chloe), 8 are done; 3, 4, 10 settled by the
-Integration Design's adoption. The four remaining checkpoints ran against
-the post-1A block: **Theon FAIL on one contested item** (see the
-watchlist — needs Mark's ruling, deliberately not self-fixed), Papnoute /
-Yausep / Albina-recheckpoint in flight. **Open for Mark:** the two Theon
-rulings, item 1 (Facilitator — still breaching in every run measured),
-items 6 and 7.
+**STATE AS OF 2026-08-09 END OF DAY — ALL SIX WORLDS LIVE.** **All six worlds are SWAPPED AND LIVE** — Chloe, Marius, Yausep, Theon,
+Albina, Papnoute. `assembly_identity` reports byte-identical for all six;
+the deployed leak gate reports **GATE PASSED fleet-wide**;
+`PENDING_RECHECKPOINT` and `OTHER_WORLDS` are both **empty**, each
+resolved the way its own registry said it must be. Items 2, 4b, 5, 6b(Chloe), 8 are done; 3, 4, 10 settled by the
+Integration Design's adoption. All four remaining checkpoints ran and passed against the post-1A block
+(Theon after Mark's per-world failure-measure ruling; Papnoute after his
+density fix and a second checkpoint).
+
+**Open for Mark, the whole remaining list:** item 1 (the **Facilitator**
+— the one voice still breaching the B2 floor in every run measured, and
+now the only known accessibility defect in the system); items 6 and 7;
+the standing scorer question (should the sustained bar consult
+`matched_contested`, now with **five** concessions fleet-wide, every one
+of them `null`); and the palette's real instruments — the variance probe
+and cross-world probe — which the saturated 8-question battery cannot
+substitute for.
 
 **2026-08-09, Integration Design ADOPTED by Mark** — items 3 (instruments),
 4 (the read = six-dimension grid) and 10 (sequencing: fleet work first,

@@ -334,6 +334,10 @@ the Writing Standard's own 12–20 band; his measure stayed the fleet's
 tightest and even came in **below** baseline (47.9 vs 56.2). Exactly the
 intended result: nothing changed but sentence density.
 
+**SWAPPED AND LIVE (2026-08-09).** Byte-identical, deployed leak gate
+**GATE PASSED fleet-wide**, and his `PENDING_RECHECKPOINT` entry removed
+— leaving that registry **empty for the first time.**
+
 **WATCH — 1 sustained concession at `counter_evidence`.** This is the
 **fifth fleet-wide**, and notably the *second* at an evidence stage
 rather than a soft-social one (Chloe run B was the first), which
