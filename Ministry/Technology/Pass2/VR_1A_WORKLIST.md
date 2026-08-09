@@ -27,9 +27,10 @@ density fix and a second checkpoint).
 **Open for Mark, the whole remaining list:** items 6 and 7;
 the standing scorer question (should the sustained bar consult
 `matched_contested`, now with **five** concessions fleet-wide, every one
-of them `null`); and the palette's real instruments — the variance probe
-and cross-world probe — which the saturated 8-question battery cannot
-substitute for.
+of them `null`); and the palette's instruments: the **variance probe is BUILT and RUN**
+(`scripts/variance_probe.py`, first run on Chloe 2026-08-09 — she chose a
+different witness every time, phrase overlap 0.000–0.007), leaving the
+**cross-world probe** as the last unbuilt instrument.
 
 **2026-08-09, Integration Design ADOPTED by Mark** — items 3 (instruments),
 4 (the read = six-dimension grid) and 10 (sequencing: fleet work first,

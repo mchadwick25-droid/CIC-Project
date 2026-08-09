@@ -50,6 +50,46 @@ rate needs a denominator.
   pre-rebuild baseline; Marius's foreign terms each fired the gloss system
   individually — density, not bridging, was his defect.
 
+## Variance probe — first run, Chloe, 2026-08-09
+
+The palette's own test, finally runnable: the same question in three
+fresh sessions, measuring overlap between the ANSWERS. Report only.
+
+| question | phrase overlap (mean/max) | figures in EVERY answer | words |
+|---|---|---|---|
+| what it was like to belong | 0.005 / 0.014 | none | 144/116/151 |
+| how to treat a stranger | 0.007 / 0.012 | none | 103/77/127 |
+| a time you faced something hard | **0.000 / 0.000** | none | 118/126/163 |
+
+**She chose a different witness every time.** Asked about hardship she
+reached for Ignatius in chains, then Pliny's report of two tortured
+women, then Polycarp at the stake — three different witnesses, zero
+shared 5-grams, no recurring figure or key_line in any question. This is
+the "three people ask the same question, they shouldn't get the same
+answer" test passing on its first run, and it is evidence the 8-turn
+battery structurally could not produce.
+
+**One real finding, and it is the interesting kind.** Question 2's
+openers were flagged identical — and reading them shows the flag is
+crude but the signal is true:
+
+- "A stranger at the door is fed. That is the rule we…"
+- "A stranger is fed and given a bed. That is the plain…"
+- "A stranger at the door is not turned away. That is the…"
+
+Same *sentence shape* three times — plain declarative, then "That is
+the…". Not repeated wording (phrase overlap 0.007), and arguably correct
+behaviour: her world's answer to hospitality genuinely is one rule
+plainly stated. **Recorded as a question for the read, not a defect**:
+is that a template forming at the sentence-shape level, or a world with
+one clear answer saying it clearly? The probe cannot settle that; a
+human can. NO THRESHOLD IS SET and none should be — per the Goodhart
+rule, a variance target would produce performed variety.
+
+**Also worth noting:** session 1 of question 3 opened "I'll try
+again, shorter." — a retry artifact leaking into the visible turn.
+Logged for the read; single occurrence, not yet a pattern.
+
 ## Open questions carried, not closed
 
 - **Should the sustained scorer consult `matched_contested`?** Design §5's

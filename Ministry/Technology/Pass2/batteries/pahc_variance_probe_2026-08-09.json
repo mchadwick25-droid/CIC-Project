@@ -1,0 +1,109 @@
+{
+ "world_id": "post-apostolic-house-church",
+ "sessions_per_question": 3,
+ "questions": [
+  {
+   "question": "What was it actually like to belong to your community?",
+   "answers": [
+    "Like belonging to a household where the door might open on anyone.\n\nWe gathered before dawn on the Lord's own day. Reading, then the thanksgiving over bread and cup at one table, then a collection. That collection went straight back out that same week — to the widow, the prisoner, the stranger who could not repay us. That is close to the center of what belonging meant.\n\nAnd it cost something, always, to be there. You never knew, walking in, whether this would be the year a name and an accusation reached the magistrate. We taught the Two Ways to every person before the water for that reason too — a way of life and a way of death, laid open, the choosing never finished on the day of baptism.\n\nWhich of those two would you want first — the table, or the danger?",
+    "It was the table, first. Bread and cup, thanks given over them, and you sat down beside people you'd never otherwise share a meal with — a widow, a slave, an elder. That held us more than any teaching did.\n\nIt cost something too. You could not join your neighbor's sacrifice anymore, and people noticed. A magistrate in Bithynia wrote to Rome asking what to do with people like us — he says we met before dawn, sang to Christ as to a god, bound ourselves by oath against theft and broken trust. He tortured two of our servant-women to learn that much.\n\nWarm at the table. Dangerous outside it. Often both in the same week.",
+    "It was the letter arriving. It was the table.\n\nSomeone knocks, and you know them already, because a letter came ahead, or because they know the same words at the water. You gather on the day named for the sun and give thanks over bread and cup, and that is what makes you one people, not just a room of strangers. What can be spared goes to the widow, the orphan, the prisoner, the stranger who cannot pay you back.\n\nIt was risk too, some seasons more than others. A name could be brought against you on an ordinary day.\n\nAnd it was argument — real argument, letter after letter. Who leads. Whether a man who failed badly after the water can still be forgiven. Nobody handed us a settled house. We built it while we lived in it.\n\nWhat would you want first — the table, or what we feared?"
+   ],
+   "words": [
+    144,
+    116,
+    151
+   ],
+   "phrase_overlap_mean": 0.005,
+   "phrase_overlap_max": 0.014,
+   "figures_per_answer": [
+    [
+     "Ways"
+    ],
+    [
+     "Bithynia",
+     "Rome"
+    ],
+    []
+   ],
+   "figures_in_every_answer": [],
+   "key_lines_per_answer": [
+    [],
+    [],
+    []
+   ],
+   "key_lines_in_every_answer": [],
+   "identical_openers": false
+  },
+  {
+   "question": "What did your people believe about how someone should treat a stranger?",
+   "answers": [
+    "A stranger at the door is fed. That is the rule we teach before the water — love God, love neighbor, do to no one what you'd not want done to you. It does not stop at our own people.\n\nBut we also watch. A traveler claiming the Spirit's own voice is welcomed, given what the road requires, and sent on. If he lingers, or asks for money for himself, that is a mark against him. We test the claim by the life, not by the words.\n\nFeeding the stranger and testing the stranger are not opposites for us. One protects the other.",
+    "A stranger is fed and given a bed. That is the plain rule we teach before the water.\n\nBut we test what we welcome. A travelling teacher may stay a day, two if there is real need. If he asks for money, or wants to be kept without working, we call that false. We watch his life, not his words.\n\nSo welcome comes first, freely. The testing comes after, by what he does once he is inside.",
+    "A stranger at the door is not turned away. That is the whole of it, before anything else is asked.\n\nWe teach this to every catechumen before the water, inside the Two Ways. Give to the one who asks, and do not grumble over it. We have believed that the stranger may be carrying more than he seems to — so we feed him first, and question later, if we question at all.\n\nBut we are not fools about it. The same teaching tells us to watch how long a guest stays, and whether he means to work if he means to settle. A traveler passing through is welcomed plainly. One who wants a home without bringing one — that, we have learned to ask more of."
+   ],
+   "words": [
+    103,
+    77,
+    127
+   ],
+   "phrase_overlap_mean": 0.007,
+   "phrase_overlap_max": 0.012,
+   "figures_per_answer": [
+    [],
+    [],
+    [
+     "Ways"
+    ]
+   ],
+   "figures_in_every_answer": [],
+   "key_lines_per_answer": [
+    [],
+    [],
+    []
+   ],
+   "key_lines_in_every_answer": [],
+   "identical_openers": true
+  },
+  {
+   "question": "Tell me about a time your community faced something hard.",
+   "answers": [
+    "I'll try again, shorter.\n\nNot long ago, Ignatius of Antioch was taken in chains, bound for Rome to die there for the Name. Along the road he wrote letters to churches that came out to meet him. He called himself wheat, ground by the lions' teeth into bread fit for his Lord. He begged Rome not to save him.\n\nWhat was hard was not only the dying. It was the fear behind his letters — that once those nearest the apostles were gone, his churches might scatter. So he pressed them, again and again: gather round your bishop, hold nothing apart from him.\n\nWe still read those letters aloud. What would you have asked him, along that road?",
+    "A magistrate named Pliny once had two of our women tortured to learn what we do. He wrote his findings to the emperor.\n\nNot much to punish. Christians met before dawn on a fixed day, sang a hymn to Christ as to a god, bound themselves by oath against theft and adultery and broken trust. Then home, then back later for an ordinary meal. He called our only real crime pertinacia — stubbornness, a refusal to recant.\n\nThe two women he tortured he names ministrae. Servant-women, some recognized office among us. That word is his, not ours. What they would have called their own work, we do not have. We hold that honestly — it cost something to be found out, and torture is not testimony.",
+    "Sit. There's bread, if you want it.\n\nI think of Polycarp of Smyrna. An old man, in the faith eighty-six years. They dragged him to the stadium and told him to curse Christ. He answered: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\"\n\nThey burned him for that answer. His own church wrote it down, and the letter came to us the way such letters do. I'll say plainly what I hold and what I don't: it's their account, written in grief, and grief tells a story with love in it as well as fact. But the words are plain — an old man counting his years. That sounds like how we speak, not how a legend gets dressed up.\n\nWhat was hard in it: any of us might be asked that same question one day, and not know until it came whether we could answer as he did."
+   ],
+   "words": [
+    118,
+    126,
+    163
+   ],
+   "phrase_overlap_mean": 0.0,
+   "phrase_overlap_max": 0.0,
+   "figures_per_answer": [
+    [
+     "Ignatius",
+     "Rome"
+    ],
+    [
+     "Pliny"
+    ],
+    [
+     "Polycarp"
+    ]
+   ],
+   "figures_in_every_answer": [],
+   "key_lines_per_answer": [
+    [],
+    [
+     "pahcstory004"
+    ],
+    [
+     "pahcstory008"
+    ]
+   ],
+   "key_lines_in_every_answer": [],
+   "identical_openers": false
+  }
+ ],
+ "note": "REPORT ONLY - no threshold, never a bar (Goodhart rule, Voice Design 2026-08-09). The score of record is the human read."
+}
