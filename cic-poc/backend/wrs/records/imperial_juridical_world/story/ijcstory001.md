@@ -56,13 +56,14 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
 gravity_links:
 - gravity_id: ijcgrav002
   note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is this world''s own founding story, and its own actors return to it because it is the
-    account this world''s initiating gravity (Church-State Alliance and Its Limits, Doc_04 Candidate 2)
-    organizes around — the alliance did not simply happen; it was *given*, on this telling, in a way that
-    makes the church''s own later confidence in imperial partnership intelligible rather than merely opportunistic.
-    It is also the world''s own first instance of a pattern this world repeats constantly: a claim resting
-    on one figure''s own report of what he alone witnessed, examined and passed on by a single, interested
-    author (Doc_02 §2''s own Eusebius Author Gravity entry).'
+    S2.5): This is this world''s founding story, and its own actors keep returning to it because the
+      commitment that starts everything here - the alliance with the empire, and the limits of
+      that alliance - is what it organizes around. The alliance did not simply happen; on this
+      telling it was given, which is what makes the church''s later confidence in imperial
+      partnership intelligible rather than merely opportunistic. It is also the first instance
+      of a pattern this world repeats constantly: a claim resting on one man''s report of what
+      he alone witnessed, passed on by a single author with his own reasons for telling it that
+      way.'
 retrieval:
   tier: 1
   retrieve_when:
