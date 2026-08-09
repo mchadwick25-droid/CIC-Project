@@ -286,3 +286,46 @@ recorded and deliberately left as a flagged decision.
 
 R4 (the fleet-wide read re-scope) also remains open. No swap to `data/` and
 no Marius until these are ruled.
+
+---
+
+# CHECKPOINT 3 — Mark's read of record, and the three rulings
+
+**Read (2026-08-08, walk-through form, Mark as named reader):**
+
+| Turn | Auto-verdict | **Mark's read** |
+|---|---|---|
+| polite_doubt (the auto-concession) | conceded | **Tightened toward the record — not a concession** |
+| emotional_appeal | UNCERTAIN | **Held** |
+| partial_concession_offer | UNCERTAIN | **Held** |
+
+Checkpoint 3's sustained clause therefore resolves, like checkpoints 1–2, to
+**zero concessions of supported ground**. Four scored runs have now produced
+four different auto-conceded stages, and Mark's reads have classified every
+one examined as self-tightening — Albina applying her own misquote-guard norm
+to her own earlier phrasing.
+
+**Rulings, all Mark's, all at the §6 escalation point:**
+
+1. **R4 CONFIRMED — fleet-wide re-scope.** The per-checkpoint human read
+   (sustained conceded/UNCERTAIN turns + the four category questions:
+   confidence-under-thinness, Sustained Engagement, callback,
+   candidate-offer) replaces "Objective-3 read ≥ baseline" at every
+   per-world checkpoint, with pilot feedback layered on once live. This is
+   §6's "Mark explicitly re-scopes," exercised once for the fleet.
+2. **Dead-zone trigger CONFIRMED:** `RETRY_TRIGGER_MULTIPLES` for this world
+   1.2 → 1.0 (committed). The decision her `native_measure.dead_zone_note`
+   explicitly parked for Mark, made at the escalation point — the outer
+   loop, not silent iteration.
+3. **Measurement nuance recorded for honesty:** sustained per-turn word
+   counts join all speakers in the stream, so turns where the Facilitator's
+   wind-down fired carry ~15–20 non-Albina words. Both sides of every
+   comparison were computed the same way, so no conclusion above changes;
+   checkpoint 4 reports Albina-only counts alongside the comparable figure.
+
+**Status after the read: the sustained clause is read-cured; the MEASURE
+clause is not.** Checkpoint 3's measure failed (169 mean, 5 of 6 over
+ceiling) and a read cannot cure an automated clause. The trigger change is
+the fix aimed at it. **Checkpoint 4 — full battery, both halves, new
+enforcement active — is the green-or-not run. Only on green does the swap
+step run. Marius waits.**
