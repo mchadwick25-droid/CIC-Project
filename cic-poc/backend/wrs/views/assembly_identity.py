@@ -38,7 +38,6 @@ DEPLOYED_DESERT = BACKEND / "data" / "desert_world" / "desert_Representative_Per
 
 # Worlds still awaiting their Phase-2 pass: stability only.
 OTHER_WORLDS = [
-    ("s62_alx_permanent_prompt", "Alexandria (Theon)"),
     ("s62_syr_permanent_prompt", "Syriac (Yausep)"),
 ]
 
@@ -63,6 +62,18 @@ DEPLOYED_WORLDS = [
     # HAND-EDIT; rollback is git revert of the swap commit.
     ("s62_ijc_permanent_prompt", "IJC (Marius)",
      BACKEND / "data" / "imperial_juridical_world" / "ijc_Representative_Permanent_Prompt_Marius.txt"),
+    # SYR joined at the 2026-08-09 swap: checkpoint 1 clean on its FIRST run
+    # under the full 1A bar - zero breaches in 14 turns, zero concessions,
+    # below baseline on his documented failure measure's symptom.
+    ("s62_syr_permanent_prompt", "SYR (Yausep)",
+     BACKEND / "data" / "syriac_world" / "syr_Representative_Permanent_Prompt_Yausep.txt"),
+    # ALX joined at the 2026-08-09 swap: checkpoint 1 green after Mark's
+    # per-world failure-measure ruling (his record states his defect is
+    # indirection, NOT length); readability clean across 14 turns, zero
+    # concessions, and the documented defect reads cured - all eight turns
+    # land the answer first.
+    ("s62_alx_permanent_prompt", "Alexandria (Theon)",
+     BACKEND / "data" / "alexandria_world" / "alex_Representative_Permanent_Prompt_Theon.txt"),
 ]
 
 # A deployed world whose assembly has DELIBERATELY moved ahead of what is

@@ -22,7 +22,7 @@ After the ascension, the apostle Judas Thomas sends Addai — one of the seventy
 
 ## Formation Ecology Connection
 
-This is this world's own foundation myth, not a source of historical fact about its origin (Doc_01, Section 2 already established the actual beginning point as c. 200 CE, using the Chronicle of Edessa and Bardaisan's own attested career, not this account). What it reveals directly is how this world understood and justified its own legitimacy: an origin reaching back to Christ's own lifetime, a founding by direct apostolic commission, and an institutional succession secured, in the end, by tying itself to Antioch's own apostolic line rather than resting on Addai's authority alone. This connects to C4 (Authority-Structure Ambiguity): even this world's own most confident claim to legitimacy resolves its founding succession by reaching outward, to Antioch, rather than resting on a purely local chain of authority — a pattern of never-quite-self-sufficient legitimation this world lived with across its whole span, not only in this legend.
+This is our own foundation story, not a source of fact about how we actually began. What it shows directly is how we understood and justified our own legitimacy: an origin reaching back to Christ's own lifetime, a founding by direct apostolic commission, and a succession secured in the end by tying ourselves to Antioch's apostolic line rather than resting on Addai alone. Even our most confident claim to legitimacy resolves itself by reaching outward. That never-quite-self-sufficient pattern runs through our whole span, not only through this legend.
 
 ---
 

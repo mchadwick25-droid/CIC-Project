@@ -61,3 +61,5 @@ Note: that faith is the soul's genuine orientation rather than intellectual asse
 Cross-referenced with Knowledge/Gnosis, Repentance/Metanoia, Catechesis, Logos, Wisdom. **Mutual** (each lists this term back): none yet. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Knowledge/Gnosis, Repentance/Metanoia, Catechesis, Logos, Wisdom. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is using "logos" in an unrelated modern/lingui
 
 ## Quick Meaning
 
-For this world the Logos is the eternal Word and Reason of God through whom all things were made, through whom God teaches, through whom Scripture speaks, and toward whom the soul is drawn back — identified with Christ, so that learning, Scripture, worship, and formation are not four activities but one movement toward a single reality.
+The eternal Word and Reason of God. All things were made through him. God teaches through him, Scripture speaks through him, and the soul is drawn back toward him. He is Christ. That is why learning, Scripture, worship and formation are not four things among us but one movement toward one reality.
 
 ---
 
@@ -30,7 +30,7 @@ And this Word did not stay distant. The eternal Logos truly entered human nature
 
 ## Ecological Function
 
-The Logos is the integrating center of the whole ecology (the Logos-Centered Unity supporting gravity, Doc_04 C4): it is the theological ground of both Primary gravities — it is what makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as preparation, why Scripture is read for depth, why worship and learning belong together, and why the incarnation (the homoousios) is load-bearing rather than decorative — remove the Logos and the ecology fragments into four disconnected domains.
+The Logos is the integrating centre of the whole ecology: he is the theological ground of the two forces that organise everything here - what makes Scripture formative (Scripture is where the Logos speaks) and what the soul is being transformed into the likeness of. A participant who grasps the Logos grasps why this world treats philosophy as preparation, why Scripture is read for depth, why worship and learning belong together, and why the incarnation is load-bearing rather than decorative. Remove the Logos and the ecology fragments into four disconnected domains.
 
 ---
 

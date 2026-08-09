@@ -287,9 +287,8 @@ length is their defect or its symptom. Re-scored offline, no new spend:
 visible as a REPORT line so backsliding cannot hide.
 
 **RULED (Mark, 2026-08-09): "4 of 8 is fine, mean passes."** The
-overrun count is not a bar at any level; the mean is. Recorded in the
-standing rulings above. Theon closes clean — nothing open on this world
-but Mark's swap read.
+overrun count is not a bar at any level; the mean is. **SWAPPED AND LIVE
+(2026-08-09)** — byte-identical, deployed leak gate zero hits.
 ### Desert — Papnoute — checkpoint 1 — 2026-08-09 — `FAIL` on one turn; fix applied, cp2 to run
 
 **Measure is the fleet's best and was never the issue:** mean 53.6
@@ -335,8 +334,12 @@ read as always, not scored either way.
 
 **Watch, unresolved:** 15 sentences over the Writing Standard's 25-word
 guard, worst **46w** — the fleet's longest single sentence, in a world
-whose defect is stage count. Reported, no bar ruled; worth Mark's eye at
-the read.
+whose defect is stage count. Reported, no bar ruled; worth Mark's eye.
+Given Papnoute failed on exactly this axis, Yausep is the fleet's most
+likely next density case even though he passed clean.
+
+**SWAPPED AND LIVE (2026-08-09)** — byte-identical, deployed leak gate
+zero hits.
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*
 
 Her checkpoint 4 measured a build **without** her contestation renders

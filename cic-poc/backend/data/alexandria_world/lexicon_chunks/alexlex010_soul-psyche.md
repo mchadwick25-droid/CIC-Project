@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means the nous specifically as the faculty of 
 
 ## Quick Meaning
 
-For this world the soul is not a ghost inhabiting a body — it is the whole human person understood as a being made for God: the image-bearer, animated through the body, oriented toward God by nature, and being restored toward the likeness of the one in whose image it was made.
+Not a ghost living inside a body. The whole human person, understood as a being made for God: the image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness of the one whose image it bears.
 
 ---
 
