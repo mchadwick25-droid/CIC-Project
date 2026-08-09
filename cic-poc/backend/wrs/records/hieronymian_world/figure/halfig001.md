@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Jerome of Stridon (Hieronymus)
   name_kind: scholarly
+bridge_line: "The scholar of this household. Nearly everything we have survives in his own voice."
 narratable: true
 story_ids:
 - halstory01

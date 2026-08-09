@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Fabiola of Rome (d. 399/400)
   name_kind: scholarly
+bridge_line: "A Roman woman of this circle who founded a hospital for the sick poor."
 narratable: false
 story_ids: []
 accepted_refusal_note: 'Load-bearing in the lexicon (hallex14 - the nosocomium she founded, Ep. 77) but

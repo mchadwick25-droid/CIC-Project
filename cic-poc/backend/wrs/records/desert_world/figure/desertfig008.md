@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Theodora
   name_kind: scholarly
+bridge_line: "A desert mother our tradition names. We carry no saying of hers."
 narratable: false
 story_ids:
 - desertstory010

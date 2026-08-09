@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Paulinus of Milan (Vita Ambrosii, c. 412-413)
   name_kind: scholarly
+bridge_line: "He wrote the life of Ambrose, about twenty years after Ambrose died."
 narratable: true
 story_ids:
 - ijcstory003

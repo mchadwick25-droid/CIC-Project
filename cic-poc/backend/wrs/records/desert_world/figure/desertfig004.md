@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Moses (of Scetis)
   name_kind: scholarly
+bridge_line: "An elder at Scetis, remembered for refusing to judge another man's fault."
 narratable: true
 story_ids:
 - desertstory004

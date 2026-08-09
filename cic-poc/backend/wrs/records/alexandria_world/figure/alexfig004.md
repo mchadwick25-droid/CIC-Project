@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Gregory Thaumaturgus (the Wonderworker)
   name_kind: scholarly
+bridge_line: "A student who wrote a farewell speech describing how Origen taught."
 narratable: true
 story_ids:
 - alexstory001

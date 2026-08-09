@@ -142,6 +142,7 @@ export function MessageBubble({ message, termMap, onTermClick, onCitationClick, 
                     <ComposedLine
                       line={line || '\u00A0'}
                       glossesUsed={message.glosses_used}
+                      figuresUsed={message.figures_used}
                       termMap={termMap}
                       allowedTermKeys={perLineAllowedKeys[index]}
                       onGlossClick={onTermClick}

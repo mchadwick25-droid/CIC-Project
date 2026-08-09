@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Eusebius of Caesarea (c. 260-339)
   name_kind: scholarly
+bridge_line: "A bishop and historian. He wrote the emperor's life years after the events."
 narratable: true
 story_ids:
 - ijcstory001

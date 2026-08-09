@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Origen of Alexandria (Origenes Adamantius)
   name_kind: scholarly
+bridge_line: "Our greatest teacher and reader of Scripture. Later ages argued over how far he went."
 narratable: true
 story_ids:
 - alexstory008

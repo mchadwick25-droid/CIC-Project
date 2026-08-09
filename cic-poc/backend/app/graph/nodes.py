@@ -39,6 +39,7 @@ from app.prompts.facilitator_prompts import (
     get_representative_name,
 )
 from app.prompts.confirmed_glosses import find_glosses_used
+from app.prompts.figure_bridge import find_figures_used
 from app.prompts.representative_prompts import (
     REACTIVE_CONTINUATION_PROMPT,
     REPRESENTATIVE_CONTINUATION_PROMPT,
@@ -1481,6 +1482,11 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     glosses_used = find_glosses_used(ctx["current_world_id"], response_text)
     if glosses_used:
         message_kwargs["glosses_used"] = glosses_used
+    # The name bridge (2026-08-09). Same contract as glosses: run AFTER
+    # generation, decorate what was said, never influence what gets said.
+    figures_used = find_figures_used(ctx["current_world_id"], response_text)
+    if figures_used:
+        message_kwargs["figures_used"] = figures_used
 
     return {
         "messages": [

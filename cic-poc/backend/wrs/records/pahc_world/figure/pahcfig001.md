@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Ignatius of Antioch (middle recension)
   name_kind: scholarly
+bridge_line: "A bishop of Antioch, taken to Rome to die. Seven of his letters survive."
 narratable: true
 story_ids:
 - pahcstory001

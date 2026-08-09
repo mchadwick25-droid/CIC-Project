@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Marcella of Rome (d. 410/411)
   name_kind: scholarly
+bridge_line: "A Roman widow whose house became a centre of study. Clergy brought her their questions."
 narratable: true
 story_ids:
 - halstory05

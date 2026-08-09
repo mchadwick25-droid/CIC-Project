@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: John, brother of Pachomius
   name_kind: scholarly
+bridge_line: "Pachomius's brother, remembered as the first to join him."
 narratable: false
 story_ids: []
 attribution_note: Named within desertstory003's text as first to join; no story of his own in this world's

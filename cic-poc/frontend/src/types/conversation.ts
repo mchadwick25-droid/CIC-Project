@@ -27,12 +27,27 @@ export interface GlossUsed {
   inline?: boolean;
 }
 
+/**
+ * The name bridge (2026-08-09). A person the Representative named, with one
+ * plain sentence saying who they were - drawn from that world's own figure
+ * record, never spoken by the voice itself. Mark's live-site read found names
+ * (Aphrahat, Pachomius, Blaesilla) reaching the reader with nothing at all,
+ * and the gloss table structurally cannot carry them: it is vocabulary.
+ */
+export interface FigureUsed {
+  figure_id: string;
+  display_name: string;
+  matched: string;
+  bridge_line: string;
+}
+
 export interface Message {
   role: 'user' | 'assistant';
   content: string;
   name?: string | null;
   citations?: Citation[] | null;
   glosses_used?: GlossUsed[] | null;
+  figures_used?: FigureUsed[] | null;
 }
 
 export interface StartSessionResponse {

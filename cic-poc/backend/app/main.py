@@ -355,9 +355,11 @@ def state_to_messages(state: ConversationState) -> list[dict]:
 
         citations = None
         glosses_used = None
+        figures_used = None
         if hasattr(msg, "additional_kwargs"):
             citations = msg.additional_kwargs.get("citations") or None
             glosses_used = msg.additional_kwargs.get("glosses_used") or None
+            figures_used = msg.additional_kwargs.get("figures_used") or None
 
         result.append({
             "role": role,
@@ -365,6 +367,7 @@ def state_to_messages(state: ConversationState) -> list[dict]:
             "name": name,
             "citations": citations,
             "glosses_used": glosses_used,
+            "figures_used": figures_used,
         })
 
     return result
@@ -1651,6 +1654,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
                     "speaker": new_message.name,
                     "citations": new_message.additional_kwargs.get("citations"),
                     "glosses_used": new_message.additional_kwargs.get("glosses_used"),
+                    "figures_used": new_message.additional_kwargs.get("figures_used"),
                 })
 
                 # Cost/latency backstop only - not a target. Most rounds

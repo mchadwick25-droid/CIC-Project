@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Paula of Rome (347-404)
   name_kind: scholarly
+bridge_line: "A wealthy Roman widow who founded and paid for the houses at Bethlehem."
 narratable: true
 story_ids:
 - halstory01

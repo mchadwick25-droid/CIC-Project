@@ -21,7 +21,26 @@
  */
 
 import { HighlightedText, LexiconHighlight } from './LexiconHighlight';
-import type { GlossUsed, LexiconTerm } from '../types/conversation';
+import type { FigureUsed, GlossUsed, LexiconTerm } from '../types/conversation';
+
+/**
+ * The name bridge (2026-08-09). Mark's live-site read found the transparency
+ * gap is mostly NAMES, not vocabulary - a reader meets Aphrahat or Blaesilla
+ * and has nothing. Figures ride the same rendering path as glosses because
+ * the affordance is identical from the reader's side: a marked span, a hover,
+ * a plain sentence. Only the copy differs, and it is deliberately spare - the
+ * bridge_line is authored from that world's own figure record, so there is no
+ * "confirmed reading" framing to add and nothing to editorialize.
+ */
+function figureToLexiconTerm(f: FigureUsed): LexiconTerm {
+  return {
+    term: f.display_name,
+    aliases: [],
+    quick_meaning: f.bridge_line,
+    full_content: `## Who This Was\n${f.bridge_line}`,
+    related_terms: [],
+  };
+}
 
 function glossToLexiconTerm(g: GlossUsed): LexiconTerm {
   const quickMeaning =
@@ -44,7 +63,53 @@ function glossToLexiconTerm(g: GlossUsed): LexiconTerm {
 interface Match {
   index: number;
   length: number;
-  gloss: GlossUsed;
+  term: LexiconTerm;
+  /** stable per-match React key fragment */
+  key: string;
+}
+
+/**
+ * Every occurrence of a named figure, CASE-SENSITIVELY - a name is a proper
+ * noun, and the backend learned the same lesson (an ignore-case match put an
+ * evangelist's panel on "mark the day"). Only the FIRST mention is marked:
+ * a Representative naming Ambrose four times should not produce four
+ * identical pills in one paragraph.
+ */
+function findFigureMatches(text: string, figures: FigureUsed[]): Match[] {
+  const matches: Match[] = [];
+  for (const figure of figures) {
+    const needle = figure.matched;
+    if (!needle) continue;
+    const foundAt = text.indexOf(needle);
+    if (foundAt === -1) continue;
+    matches.push({
+      index: foundAt,
+      length: needle.length,
+      term: figureToLexiconTerm(figure),
+      key: `figure-${figure.figure_id}`,
+    });
+  }
+  return matches;
+}
+
+/**
+ * Gloss matches and figure matches merged into one left-to-right list with
+ * overlaps dropped. Merging BEFORE rendering rather than running two passes
+ * is what keeps a figure name that sits inside a gloss phrase from being
+ * highlighted twice, nested - the same reason ComposedLine carves plain
+ * segments out for the bare-alias matcher instead of letting it re-scan.
+ */
+function mergeMatches(...groups: Match[][]): Match[] {
+  const all = groups.flat().sort((a, b) => a.index - b.index);
+  const kept: Match[] = [];
+  let lastEnd = -1;
+  for (const m of all) {
+    if (m.index >= lastEnd) {
+      kept.push(m);
+      lastEnd = m.index + m.length;
+    }
+  }
+  return kept;
 }
 
 /**
@@ -78,7 +143,12 @@ function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
     while (fromIndex <= lowerText.length) {
       const foundAt = lowerText.indexOf(lowerNeedle, fromIndex);
       if (foundAt === -1) break;
-      matches.push({ index: foundAt, length: needle.length, gloss });
+      matches.push({
+        index: foundAt,
+        length: needle.length,
+        term: glossToLexiconTerm(gloss),
+        key: `gloss-${gloss.original}`,
+      });
       fromIndex = foundAt + needle.length;
     }
   }
@@ -99,15 +169,21 @@ function findGlossMatches(text: string, glosses: GlossUsed[]): Match[] {
 interface GlossHighlightedTextProps {
   text: string;
   glossesUsed: GlossUsed[] | null | undefined;
+  figuresUsed?: FigureUsed[] | null;
   onDetailClick?: (term: LexiconTerm) => void;
 }
 
-export function GlossHighlightedText({ text, glossesUsed, onDetailClick }: GlossHighlightedTextProps) {
-  if (!glossesUsed || glossesUsed.length === 0) {
+export function GlossHighlightedText({ text, glossesUsed, figuresUsed, onDetailClick }: GlossHighlightedTextProps) {
+  const hasGlosses = !!glossesUsed && glossesUsed.length > 0;
+  const hasFigures = !!figuresUsed && figuresUsed.length > 0;
+  if (!hasGlosses && !hasFigures) {
     return <>{text}</>;
   }
 
-  const matches = findGlossMatches(text, glossesUsed);
+  const matches = mergeMatches(
+    hasGlosses ? findGlossMatches(text, glossesUsed!) : [],
+    hasFigures ? findFigureMatches(text, figuresUsed!) : []
+  );
   if (matches.length === 0) {
     return <>{text}</>;
   }
@@ -120,8 +196,8 @@ export function GlossHighlightedText({ text, glossesUsed, onDetailClick }: Gloss
     }
     parts.push(
       <LexiconHighlight
-        key={`${match.index}-${match.gloss.original}`}
-        term={glossToLexiconTerm(match.gloss)}
+        key={`${match.index}-${match.key}`}
+        term={match.term}
         matchedText={text.slice(match.index, match.index + match.length)}
         onDetailClick={onDetailClick}
       />
@@ -138,6 +214,7 @@ export function GlossHighlightedText({ text, glossesUsed, onDetailClick }: Gloss
 interface ComposedLineProps {
   line: string;
   glossesUsed: GlossUsed[] | null | undefined;
+  figuresUsed?: FigureUsed[] | null;
   termMap: Map<string, LexiconTerm>;
   allowedTermKeys?: Set<string>;
   onGlossClick?: (term: LexiconTerm) => void;
@@ -164,9 +241,13 @@ interface ComposedLineProps {
  * correctness break, so left as a known edge case rather than a larger
  * matching-engine rewrite.
  */
-export function ComposedLine({ line, glossesUsed, termMap, allowedTermKeys, onGlossClick, onTermClick }: ComposedLineProps) {
+export function ComposedLine({ line, glossesUsed, figuresUsed, termMap, allowedTermKeys, onGlossClick, onTermClick }: ComposedLineProps) {
   const glosses = glossesUsed && glossesUsed.length > 0 ? glossesUsed : null;
-  const matches = glosses ? findGlossMatches(line, glosses) : [];
+  const figures = figuresUsed && figuresUsed.length > 0 ? figuresUsed : null;
+  const matches = mergeMatches(
+    glosses ? findGlossMatches(line, glosses) : [],
+    figures ? findFigureMatches(line, figures) : []
+  );
 
   if (matches.length === 0) {
     return termMap.size > 0 ? (
@@ -197,8 +278,8 @@ export function ComposedLine({ line, glossesUsed, termMap, allowedTermKeys, onGl
     }
     parts.push(
       <LexiconHighlight
-        key={`gloss-${match.index}-${match.gloss.original}`}
-        term={glossToLexiconTerm(match.gloss)}
+        key={`${match.index}-${match.key}`}
+        term={match.term}
         matchedText={line.slice(match.index, match.index + match.length)}
         onDetailClick={onGlossClick}
       />
