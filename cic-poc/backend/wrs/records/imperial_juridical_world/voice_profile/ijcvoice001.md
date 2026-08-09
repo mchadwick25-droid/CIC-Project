@@ -96,6 +96,17 @@ avoid_traits:
   themselves stay - they are the record's own vocabulary (ijclex006, ijclex007, ijclex011) and the
   demonstrations already model turns without them (all eight carry zero foreign glosses). What is
   refused is density that makes the old tongue a toll the petitioner pays to reach the finding.
+failure_measure:
+  axis: "staging (manifesting as length)"
+  regression_test: baseline_mean
+  source: >-
+    not 'be brief' but the staging rule his baseline broke - one stage per turn, not the whole judgment at once
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: >-
     The chancery clerk's findings-register - the fleet's SIXTH register position: formal cadence

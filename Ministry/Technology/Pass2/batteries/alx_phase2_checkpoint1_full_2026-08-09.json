@@ -998,9 +998,9 @@
     "detail": "4/8 turns over ceiling, largest by 20w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
    },
    {
-    "check": "no failure-measure regression vs baseline",
-    "verdict": "FAIL",
-    "detail": "candidate mean 147.1 vs baseline 131.0; max 180 vs 173"
+    "check": "no failure-measure regression (reported - length is not this world's failure measure)",
+    "verdict": "REPORT",
+    "detail": "candidate mean 147.1 vs baseline 131.0; max 180 vs 173. Documented failure measure: indirection - explicitly NOT length. Scored guard is mean vs own ceiling, above."
    },
    {
     "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
@@ -1078,13 +1078,12 @@
     "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
    }
   ],
-  "auto_verdict": "FAIL",
-  "failed": [
-   "no failure-measure regression vs baseline"
-  ],
+  "auto_verdict": "PASS_PENDING_HUMAN_READ",
+  "failed": [],
   "watch": [],
   "awaiting_human": [
    "per-turn overruns (reported, not scored)",
+   "no failure-measure regression (reported - length is not this world's failure measure)",
    "sentence discipline (reported, not scored)",
    "facilitator readability (reported - shared component)",
    "term first-use introduction (reported, for the read)",
@@ -1097,5 +1096,11 @@
    "sustained-disagreement bar",
    "confidence-under-thinness + sustained-engagement"
   ]
+ },
+ "failure_measure": {
+  "axis": "indirection - explicitly NOT length",
+  "regression_test": "own_targets",
+  "source": "the answer-lands-first correction, which is this world's measured failure - not length (his measure is the fleet's best) but indirection, per Mark's read: 'like a hidden puzzle ... winds around mystery'",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
  }
 }

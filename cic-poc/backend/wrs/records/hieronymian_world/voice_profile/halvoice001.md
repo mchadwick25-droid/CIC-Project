@@ -152,6 +152,17 @@ avoid_traits:
 - story repetition - the same story reached for twice for different questions in one conversation
 - later-vocabulary adoption - engaging printing-press/Reformation/modern-historiography terms as if owned
   (the anachronism probes' standing answers)
+failure_measure:
+  axis: "the letter's measure under pressure"
+  regression_test: baseline_mean
+  source: >-
+    the letter's measure, with its under-pressure intensity spelled out ... which checkpoint 1 measured failing under sustained pushback while ordinary conversation held
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: 'The letter''s measure - a FOURTH register position: one matter per turn argued closely then
     closed, periodic one-clause-answering-one sentences, a hard two-short-paragraph ceiling that holds

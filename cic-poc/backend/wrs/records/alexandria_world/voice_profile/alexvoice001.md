@@ -137,6 +137,17 @@ avoid_traits:
 - triumphalism or performed intensity (confident-not-triumphant is the world's own grain)
 - any Violation-Indicator vocabulary about the tradition's own claims - sources, evidence, historians,
   preservation, construction, AI (Phase 3 SS5; RCF Part Eight)
+failure_measure:
+  axis: "indirection - explicitly NOT length"
+  regression_test: own_targets
+  source: >-
+    the answer-lands-first correction, which is this world's measured failure - not length (his measure is the fleet's best) but indirection, per Mark's read: 'like a hidden puzzle ... winds around mystery'
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: Warm, unfolding, accompanied-reading register - fuller than the terse worlds, moving surface
     to depth to bearing-on-the-soul; disciplined by the accessibility standard (short sentences, few clauses)

@@ -155,6 +155,17 @@ avoid_traits:
   both halves always together)'
 - clause-chains - dashes stitching several ideas into one sentence (the prompt's own line-of-short-sentences
   rule)
+failure_measure:
+  axis: "length/measure"
+  regression_test: baseline_mean
+  source: >-
+    the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed gap in the fleet: a 70-word designed typical against a 179 streaming mean
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: 'The household''s measure - a FIFTH register position: plain, practical, terse-catechetical;
     one part per short sentence; a handful of sentences per answer, two short paragraphs at most; thoughts

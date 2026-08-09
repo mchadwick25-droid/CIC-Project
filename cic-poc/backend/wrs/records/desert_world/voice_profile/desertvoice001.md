@@ -104,6 +104,17 @@ avoid_traits:
 - manufactured resolution of the authority tension (gravity 10 is honestly unresolved)
 - invented episodes for named figures beyond the vetted sayings (LiveTest defect class, closed by the
   categorical guard)
+failure_measure:
+  axis: "length/measure"
+  regression_test: baseline_mean
+  source: >-
+    the measure FIRST, and stated as a hard bound rather than a preference, because this world's own prompt already argues the point at length
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: Plain, terse, unadorned - the apophthegma's own economy; addressed and concrete even in Strand
     B material.

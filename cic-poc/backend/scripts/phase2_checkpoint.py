@@ -351,6 +351,28 @@ def drift_breakdown(records: list) -> dict:
     }
 
 
+def failure_measure_for(world_id: str) -> dict | None:
+    """voice_profile.failure_measure - what THIS world's documented defect
+    actually is, and therefore which regression test applies to it.
+
+    Mark's ruling 2026-08-09: the no-regression bar is tested per world
+    against its documented failure measure, not a flat mean-vs-baseline.
+    The ruling came from Theon: his guard export records his failure as
+    "not length (his measure is the fleet's best) but indirection", yet a
+    flat mean<=baseline failed him for moving 131 -> 147 with a designed
+    typical of 140 - i.e. for moving TOWARD his own target from below it.
+    Worlds whose defect IS length keep the baseline test unchanged."""
+    import yaml
+    for p in (BACKEND / "wrs" / "records").glob("*/voice_profile/*.md"):
+        try:
+            front = yaml.safe_load(p.read_text(encoding="utf-8").split("---", 2)[1])
+            if front.get("world_id") == world_id:
+                return front.get("failure_measure")
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
 def typical_words_for(world_id: str) -> int | None:
     """voice_profile.native_measure.typical_words - the designed measure the
     ceiling backstops. Same record and same field ceiling_words_map reads;
@@ -552,7 +574,8 @@ def _writing_standard_reports(artifact: dict, rep: str | None,
 
 def score(artifact: dict, ceiling: int | None, typical: int | None,
           baseline: dict | None, rep: str | None = None,
-          tech_terms: list | None = None) -> dict:
+          tech_terms: list | None = None,
+          failure_measure: dict | None = None) -> dict:
     """The written pass bar, item by item. Every item is stated with its
     own verdict; nothing is left to 'reads fine'."""
     checks: list[dict] = []
@@ -585,10 +608,24 @@ def score(artifact: dict, ceiling: int | None, typical: int | None,
             f"{excess}w - Mark 2026-08-09: periodic small overruns accepted; "
             f"tracked in the checkpoint watchlist")
     if words and baseline:
-        add("no failure-measure regression vs baseline",
-            "PASS" if statistics.mean(words) <= baseline["mean"] else "FAIL",
-            f"candidate mean {statistics.mean(words):.1f} vs baseline "
-            f"{baseline['mean']:.1f}; max {max(words)} vs {baseline['max']}")
+        fm = failure_measure or {}
+        test = fm.get("regression_test", "baseline_mean")
+        axis = fm.get("axis", "undocumented - defaulting to baseline_mean")
+        delta = f"candidate mean {statistics.mean(words):.1f} vs baseline " \
+                f"{baseline['mean']:.1f}; max {max(words)} vs {baseline['max']}"
+        if test == "own_targets":
+            # Length is NOT this world's documented failure measure, so a
+            # longer mean is not a regression here. The scored guard is the
+            # measure item above (mean vs this world's own ceiling); the
+            # baseline delta is reported so backsliding stays visible.
+            add("no failure-measure regression (reported - length is not this "
+                "world's failure measure)", "REPORT",
+                f"{delta}. Documented failure measure: {axis}. Scored guard "
+                f"is mean vs own ceiling, above.")
+        else:
+            add("no failure-measure regression vs baseline",
+                "PASS" if statistics.mean(words) <= baseline["mean"] else "FAIL",
+                f"{delta}. Documented failure measure: {axis}.")
 
     # 1A readability target - Mark's ruling, 2026-08-09: CEFR B2, FK band
     # 8-10, anchor register "BBC News / National Geographic". The scored edge
@@ -818,9 +855,11 @@ def main() -> int:
     baseline = load_baseline(world_id)
     artifact["baseline"] = baseline
     artifact["typical_words"] = typical
+    artifact["failure_measure"] = failure_measure_for(world_id)
     artifact["scorecard"] = score(artifact, ceiling, typical, baseline,
                                   rep=rep,
-                                  tech_terms=ns["TECH_TERMS"].get(world_id))
+                                  tech_terms=ns["TECH_TERMS"].get(world_id),
+                                  failure_measure=artifact["failure_measure"])
 
     OUTDIR.mkdir(parents=True, exist_ok=True)
     out = OUTDIR / (f"{args.world}_phase2_checkpoint{args.checkpoint}_full_"

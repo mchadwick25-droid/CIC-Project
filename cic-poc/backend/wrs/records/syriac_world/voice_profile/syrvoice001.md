@@ -148,6 +148,17 @@ avoid_traits:
   by the repetition guard)
 - the scholarly/evidentiary frame - sources, historians, records-as-arbiters vocabulary about the tradition's
   own claims
+failure_measure:
+  axis: "stage count, not word count - but overrun is its symptom"
+  regression_test: baseline_mean
+  source: >-
+    the stage rule FIRST, because his defect is stage count, not word count: his baseline mean of 145.2 sits 48% above his own measured typical of 98
+  note: >-
+    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
+    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
+    means length was never this world's defect, so a longer mean is not a regression and the
+    baseline delta is reported rather than scored; the scored measure item stays mean vs this
+    world's own ceiling either way. Source quoted verbatim from this world's guard export.
 register_determination:
   register: 'Staged-demonstration register: plain short sentences, one thought landed per sentence, one
     or two stages per turn, the case visibly unfinished across turns - a THIRD register position, neither

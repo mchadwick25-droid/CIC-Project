@@ -20,6 +20,7 @@ rate needs a denominator.
 | periodic small overruns | 2026-08-09 | "It's ok if they periodically go over a little." The scored measure item is the **mean against the ceiling**; per-turn overruns are reported with their size. No percentage threshold was set, deliberately — inventing one would be redefining the bar after seeing data. |
 | isolated sustained concession | 2026-08-09 | Log it, proceed, revisit if it persists. **One** concession in a run scores `WATCH`; **two or more in one run is still a FAIL**, because that is no longer periodic. Design §5's bar itself is unchanged. |
 | **aim mid-band — FLEET RULE** | 2026-08-09 | Option 1 on the Marius §6 escalation: registers are AIMED at mid-band (FK 8–9), never at the band's top edge — a voice designed at the ceiling breaches on ordinary run noise. Mechanically: no sentence past ~25 words (the Writing Standard's own guard). Applies to every world; worlds sitting below band (Chloe) are untouched. First applied: Marius, checkpoint 3. Watch candidates for the same edge-aiming shape: Syriac (165 ceiling), Albina. |
+| **per-world failure-measure regression** | 2026-08-09 | Mark: "make it per-world against the documented failure measure." The no-regression bar now reads `voice_profile.failure_measure` — `axis` (the world's documented defect, quoted from its own guard export) and `regression_test`. `baseline_mean` keeps the flat test (pahc, ijc, des, syr, hal — length is their defect or its symptom); `own_targets` reports the baseline delta instead of scoring it (**alx only** — his record says "not length … but indirection"). The scored measure item, mean vs the world's own ceiling, is unchanged for every world. |
 | 1A north star + readability target | 2026-08-09 | 1A = accessible rigor, the project's ultimate goal, everywhere it lives (see `decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`). Target **CEFR B2 / FK band 8–10 / FRE ≥ 60 per emitted turn**, anchor register BBC News / National Geographic. Upper bound scored; band floor 8 reported, not failed. Vocabulary reach vs top-5000 reported per world. **RULED: hard edge** — "readability is the whole point." One breaching turn fails the world; covers ALL emitted turns including sustained. |
 
 ## Fleet-level watch items (not per-world)
@@ -246,7 +247,7 @@ matters is now a question for the rulers built for it — the variance
 probe, branching pilot conversations, and Mark's blind paired read of
 the three transcripts, which is the score of record anyway.
 
-### ALX — Theon — checkpoint 1 — 2026-08-09 — `FAIL` on one item, **and the item is contested**
+### ALX — Theon — checkpoint 1 — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`** (re-scored under Mark's per-world ruling)
 
 First world checkpointed against the post-1A block (sha 19ec7bad).
 Everything green except one: **"no failure-measure regression vs
@@ -276,12 +277,18 @@ every one of his eight turns lands the answer first ("Antony. Our own
 bishop wrote of him." / "Yes, some go further." / "Because hunger does
 not stay in the stomach.").
 
-Same class as the "ceiling regenerations rare" error, with the same kind
-of independent documentary evidence — but it is a **scored bar**, so per
-the standing discipline ("a failed checkpoint is never evidence the bar
-is wrong"; never loosen a scorer to turn red green) it stays FAIL until
-Mark rules. **Second question for the same ruling:** 4 of 8 turns over
-ceiling (largest +20w) — is that still "periodic"?
+**RULED (Mark, 2026-08-09): per-world against the documented failure
+measure.** Implemented record-first — all six voice_profiles now carry a
+`failure_measure` block (axis + regression_test + the verbatim source
+quote from their own guard export), and the scorer reads it. Only ALX
+changes behavior; the other five keep the flat baseline test because
+length is their defect or its symptom. Re-scored offline, no new spend:
+**`PASS_PENDING_HUMAN_READ`, nothing failed.** The baseline delta stays
+visible as a REPORT line so backsliding cannot hide.
+
+**Still open for Mark:** 4 of 8 turns over his 160 ceiling (largest
++20w) — is that still "periodic"? His mean passes; the count is the
+question.
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
 ### HAL — Albina — checkpoint 5 (re-run) — *pending*
