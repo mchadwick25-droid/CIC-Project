@@ -174,6 +174,28 @@ clause on record + guard ("pressure does not formalize your tongue"),
 checkpoint 4 running. Also logged: over_settling confirmed rate jumped to
 4/7 screened (57%) this run — highest seen; watch.
 
+### IJC — Marius — checkpoint 4 — 2026-08-09 — `PASS_PENDING_HUMAN_READ`
+
+**The hard edge is green across all 14 emitted turns.** Probe FK 4.4–9.2,
+FRE min 64.2, mean 112.9 (typical 115), max 150, 0/8 over ceiling, dead
+zone 0. Sustained: zero concessions (four holds, the two standing
+UNCERTAINs), one 160w turn (+10, within ruling). Fabrication 0,
+FLATTENING 0. The register work is visible in trend across four
+checkpoints: sentence avg 16.2 → 13.5 → **12.5**; >25w sentences 21 → 11
+→ **9**; OOV 18.7% → **15.8%**; breaches 1 → 2 → 1 → **0**. The
+mid-band fleet rule plus the pressed-register clause cured the
+stochastic-edge failure — cp3's only breach was a pushback turn, and
+under the pressed clause the pushback turns came in clean. First drafts
+still regenerate 5/8 (emitted is what ships).
+
+Three turns under ceiling without retry — first world to show the prose
+rule partially carrying without the code brake.
+
+**Status: passes the bar as ruled. Swap gated on Mark's ten-question
+read per R4** (his sustained UNCERTAINs and the bar-category probes are
+in the artifact for that read). Both worlds now waiting on reads: Chloe
+(cp1) and Marius (cp4).
+
 ### ALX — Theon — checkpoint 1 — *pending*
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
