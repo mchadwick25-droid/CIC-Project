@@ -549,3 +549,45 @@ diff.*
 
 ### SYR — Yausep — checkpoint 2 (v2) — running
 ### HAL — Albina — checkpoint 6 (v2) — queued
+
+### SYR — Yausep — checkpoint 2 (v2) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
+
+mean 136.2 vs ceiling 165 (typical 98), max 184 · readability **FK 3.37–8.69,
+FRE min 67.92, breaches none** · no-regression vs baseline 143.1 **PASS on
+both mean and max** · fabrication 0/26 · dead zone empty · **zero
+concessions**. 1/8 over ceiling by 19w. Evidence surfacing **7/8 citations,
+7/8 glosses — the fleet's best.** Facilitator turn clean (FK 7.24, FRE 73.46).
+
+### HAL — Albina — checkpoint 6 (v2) — 2026-08-09 — **`FAIL` (auto-scored) — FABRICATION 1x — FOR MARK'S RULING, NOT SELF-CLEARED**
+
+Everything else green: mean 119.4 vs ceiling 160, **inside her 120 typical**,
+max 149 · below baseline on both (140.5 / 177) · readability **FK 3.76–8.98,
+FRE min 68.38, breaches none** · dead zone empty · **zero concessions** ·
+citations **8/8**. Facilitator turn clean (FK 7.56, FRE 66.37).
+
+**The single fabrication signal, and why it needs a human.** The flagged turn
+is `A-sustain-1` exchange[2], answering *"Do you still miss him — Rufinus?"*
+The sentence that drew the signal:
+
+> "They had once **labored over the same Greek pages, side by side**."
+
+Her own story record `halstory03a` opens:
+
+> "A friend once close enough to **labor over the same Greek texts side by
+> side** became, in the end, the fiercest of opponents."
+
+**That is the record's own wording, nearly verbatim.** On the evidence this
+reads as a classifier false positive, not an invention. The rest of the turn
+is a chain of explicit refusals — *"no page says"*, *"written nowhere at
+all"*, *"we cannot answer for one heart"* — which is the opposite of the
+fabrication shape.
+
+**Not self-cleared.** A hard bar is a hard bar, and the precedent set today is
+surfaced-not-self-fixed (Theon's checkpoint 1). Mark rules.
+
+**A real instrument gap this exposes:** the artifact records
+`{world_id, signal_type, severity}` and *no rationale and no turn reference*.
+A hard-bar FAIL that cannot be audited from its own artifact is a defect in
+the harness, not just in this run — locating this one meant reconstructing the
+drift-record index against the exchange list by hand. Worth fixing before the
+next checkpoint round.
