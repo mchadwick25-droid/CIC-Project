@@ -34,8 +34,26 @@ rate needs a denominator.
   which is the control: only the shared component moved. Two-part fix —
   the stated role (bridge, no world material of its own) and the
   simplification of prompts that were written at FK 11.3–11.5 and so
-  taught density by example. **Every voice a participant reads now meets
-  the B2 floor.** Historical record of the defect below.
+  taught density by example. ~~**Every voice a participant reads now meets
+  the B2 floor.**~~ **That claim was too broad and is corrected here.**
+  Historical record of the defect below.
+- **FACILITATOR — ONE BREACH SINCE THE FIX, on the HANDOFF turn
+  (2026-08-09, Theon's v2 checkpoint).** FK 9.48 / **FRE 52.6**, against a
+  60 floor. Two facilitator measurements now exist since the fix and one
+  of them breaches, so "every voice meets the floor" was a claim made on
+  a single run and should not have been written that broadly. The
+  mechanism is legible in the text itself — the handoff's second sentence
+  runs 33 words with three nested clauses: *"He speaks from across a long
+  span, roughly 150 to 400 CE, a time when Alexandria was a great meeting
+  place of scripture, philosophy, and teaching."* The template was
+  simplified (11.35 → 7.22); what it GENERATES on a world with a long
+  span and a compound self-description is not. Deliberately **not fixed
+  mid-run**, per Mark's own standing rule ("log it and move on… if we see
+  the problem persisting going forward we can come back"): Desert, Syriac
+  and Hieronymian each report a facilitator turn in the checkpoints still
+  running, so the call gets made on five data points rather than two. A
+  breach here never fails a world — it is a `facilitator_prompts.py`
+  defect.
 - ~~**Breaches in 3 of 3 runs measured (2026-08-09).**~~
   FK 11.9 / FRE 44.9 (Chloe A), FK 10.5 / FRE 58.9 (Chloe B), FK 12.4 /
   FRE 52.5 (Marius). The Facilitator is one shared component
