@@ -51,6 +51,56 @@ with intent.
   the shared-block rewrite (1A worklist item 2). The block's existing
   defensive sections stand; this is the positive palette they lacked.
 
+## Measurement and design (the engineering answer to Mark's "how do you measure and design it")
+
+**Design — each piece goes to the layer that can actually carry it,**
+the same five-layer logic the Design already uses:
+
+| layer | what it carries |
+|---|---|
+| Layer 3 — the block rewrite | the palette as *availability* and the protocol as *intent*: discern which of your world's gravities this question really touches and let the answer reveal it; ask which witness answers best; conclude with openness. Written as purposes, never as a checklist. |
+| Layer 1 — records (supply) | `key_line` quotable lines; witness/signature tagging on stories; the gravities already ARE the intent map; two ambiguous probes per world so clarify/candidate-offer become testable. |
+| Layer 2 — demonstrations | **the anti-template trick: each world's selected demonstrations deliberately model DIFFERENT moves** — one story-led, one plain-truth-led, one ending on a real question back. Variety is demonstrated, never described. This is how you teach a palette without teaching a template: the examples differ from each other. |
+| Layer 4 — guard | only the categoricals: never an invented story or quote (already absolute), one flavor element at a time (the Marius density lesson generalized). |
+| Layer 5 — runtime | the session flavor ledger (stories/quotes/figures used; re-use takes callback framing); witness-variety in retrieval's served set; the existing drift monitors keep the failure sides. |
+
+**Measurement — three tiers, all session-level, never per-turn
+compliance:**
+
+1. **Deterministic counters** (offline, no spend — prototyped 2026-08-09,
+   which is how the 0-stories/1-quote/0-doors evidence was produced):
+   move-usage rates (story-markers, quotes, question-backs, emic
+   uncertainty admissions, why-clauses, vocabulary introductions with
+   bridge, diversity acknowledgments); a palette-diversity index
+   (distinct moves per session); shape variance (turn-length spread,
+   opener-type diversity, flag 3+ consecutive same-shape turns — the
+   block's own uniform-shape warning made countable); repetition
+   (figure-name counts, phrase-overlap pairs, story-chunk re-serves from
+   the retrieval audit events).
+2. **LLM-assisted tagging** (cheap, assists only): per-turn move tags and
+   *which gravity the turn revealed*, checked against the world's own
+   gravity list — giving a gravity-coverage report across sessions (one
+   gravity always dominating is the encyclopedic rut at intent level).
+   Per Design §5's own rule: a judge may assist, the score of record is
+   the human read.
+3. **The human read** (score of record): the paired read gains two
+   palette questions — *did this feel like sitting with a person who
+   chose, or querying a database?* and *by the end, did you know not
+   just what they believed but why it made sense to them?* (protocol
+   item 7 as a question).
+
+**Plus one new cheap battery the palette uniquely needs — the variance
+probe:** the same 3 questions run in 3 fresh sessions each, measuring
+witness/story/phrasing overlap *between sessions*. "Three people ask the
+same question; they shouldn't receive identical responses" is testable in
+exactly this shape, and no existing battery ever re-asks a question.
+
+**The bar:** no invented thresholds. The pre/post-1A paired comparison is
+the bar — moves currently at zero (stories, quotes, doors) become
+nonzero, palette diversity rises, with no fidelity regression anywhere.
+Rates accumulate on the watchlist with every checkpoint, same as
+readability did.
+
 ---
 
 ## Mark's insight (verbatim)

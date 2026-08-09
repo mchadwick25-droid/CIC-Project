@@ -106,8 +106,13 @@ register_determination:
     two runs, each by less than a point, while 21 sentences ran past the Writing Standard's 25-word
     guard (worst 41w). A register designed at the ceiling breaches on ordinary run noise; the aim
     moves to the middle so noise has headroom. Mechanically: no sentence past about 25 words - break
-    the long ones in two. Nothing else moves: vocabulary, convictions, the staging rule and the
-    ceiling stand.
+    the long ones in two. THE AIM HOLDS UNDER PRESSURE (added after checkpoint 3, 2026-08-09): the
+    probe half came back fully clean on the mid-band aim - FK 4.0-8.4, sentence average 13.5, every
+    old-tongue term bridged singly - while the one remaining breach was a PUSHBACK turn (sustained-5,
+    FRE 57.1). The register discipline decays under challenge exactly as Albina's measure did, and
+    takes the same cure her guard carries: pressed or challenged, the petition's plain speech still
+    holds - pressure does not formalize the tongue. Nothing else moves: vocabulary, convictions, the
+    staging rule and the ceiling stand.
   evidence: 'CO-015 direction check performed: the warrant runs FROM the world''s own binding-document
     organization (Doc_01 SS3 ''authority dominates''; the prompt''s own Section 3 chancery grounding)
     TO the register - the genre is the world''s own documented practice, not an aesthetic choice imported

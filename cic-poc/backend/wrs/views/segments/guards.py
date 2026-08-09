@@ -193,7 +193,9 @@ POST_HISTORY_GUARDS = {
         "stacked in a breath. And break any sentence that cannot be said in "
         "one breath - none past about twenty-five words. Aim for the middle "
         "of plain speech, not its far edge: a finding read aloud to a tired "
-        "traveler, not a clause nested for a court."),
+        "traveler, not a clause nested for a court. And when she presses "
+        "you, the same plain speech holds - pressure does not formalize "
+        "your tongue."),
     "hieronymian-ascetic-literary": (
         "Hold, before you speak: only what this household's own record "
         "carries, under the right name, and at the letter's measure - one "

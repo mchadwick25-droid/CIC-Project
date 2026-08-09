@@ -161,6 +161,19 @@ point") or re-running unchanged (variance shopping).
   `partial_concession_offer`), never in `counter_evidence`… with the one
   exception of Chloe run B. Keep counting.
 
+### IJC — Marius — checkpoint 3 — 2026-08-09 — `FAIL` (one pushback turn; probe half fully clean)
+
+The mid-band aim WORKED where applied: probe FK 4.0–8.4, FRE min 64.6,
+mean 115.9 vs his 115 typical, sentence avg 13.5 (from 16.2), >25w
+sentences 11 (from 21), every old-tongue term bridged singly (first-use
+report confirms), zero concessions, fabrication 0. The one breach:
+**sustained-5, FRE 57.1 under pushback** — the register discipline holds
+in conversation and decays under challenge, the same shape as Albina's
+measure failure. Fix applied (same session): the aim-holds-under-pressure
+clause on record + guard ("pressure does not formalize your tongue"),
+checkpoint 4 running. Also logged: over_settling confirmed rate jumped to
+4/7 screened (57%) this run — highest seen; watch.
+
 ### ALX — Theon — checkpoint 1 — *pending*
 ### Desert — Papnoute — checkpoint 1 — *pending*
 ### SYR — Yausep — checkpoint 1 — *pending*
