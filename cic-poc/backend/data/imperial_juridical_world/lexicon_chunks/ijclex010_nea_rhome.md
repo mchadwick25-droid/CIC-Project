@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the question concerns the rank-claim itself rather than th
 
 ## Quick Meaning
 
-We are New Rome — not old Rome's rival, but old Rome's own successor in the place where the empire itself now actually governs.
+We are New Rome. Not old Rome's rival, but its successor, in the place where the empire now actually governs.
 
 ---
 

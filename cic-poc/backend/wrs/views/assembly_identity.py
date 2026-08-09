@@ -40,7 +40,6 @@ DEPLOYED_DESERT = BACKEND / "data" / "desert_world" / "desert_Representative_Per
 OTHER_WORLDS = [
     ("s62_alx_permanent_prompt", "Alexandria (Theon)"),
     ("s62_syr_permanent_prompt", "Syriac (Yausep)"),
-    ("s62_ijc_permanent_prompt", "IJC (Marius)"),
 ]
 
 # Worlds whose Phase-2 pass has SHIPPED: deployed is the assembly's own
@@ -56,6 +55,14 @@ DEPLOYED_WORLDS = [
     # revert of the swap commit.
     ("s62_pahc_permanent_prompt", "PAHC (Chloe)",
      BACKEND / "data" / "pahc_world" / "pahc_Representative_Permanent_Prompt_Chloe.txt"),
+    # IJC joined at the 2026-08-09 swap: checkpoint 4 green on the full 1A
+    # bar (readability hard edge PASS across all 14 emitted turns after the
+    # four-checkpoint register cure: mid-band fleet rule + petitioner's
+    # plain speech + pressure-does-not-formalize), zero concessions,
+    # fabrication 0, Mark's swap call in session. GENERATED - DO NOT
+    # HAND-EDIT; rollback is git revert of the swap commit.
+    ("s62_ijc_permanent_prompt", "IJC (Marius)",
+     BACKEND / "data" / "imperial_juridical_world" / "ijc_Representative_Permanent_Prompt_Marius.txt"),
 ]
 
 # A deployed world whose assembly has DELIBERATELY moved ahead of what is

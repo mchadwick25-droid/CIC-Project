@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant's real question is about the standoff's ow
 
 ## Quick Meaning
 
-For us, a basilica is not only a building — it is the physical ground on which the question of who commands the church's own space, emperor or bishop, was actually fought and, that night, held.
+Not only a building. It is the ground where the question of who commands the church's own space, emperor or bishop, was actually fought out. That night, it was held.
 
 ---
 

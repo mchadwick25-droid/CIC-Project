@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant is asking about Arius's own original teach
 
 ## Quick Meaning
 
-*Homoios* names the confession that the Son is "like" the Father, without further claim about shared being — a formula our own imperial church itself held, by imperial command, for a real stretch of years within living memory, not merely a rival teaching we always stood safely outside of.
+The confession that the Son is like the Father, without saying they share one being. Our own imperial church held this formula for real years, by the emperor's command, within living memory. It is not a rival error we always stood safely outside of.
 
 ---
 
