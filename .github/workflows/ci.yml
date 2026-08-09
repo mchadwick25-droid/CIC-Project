@@ -23,6 +23,26 @@ jobs:
           node-version: "20"
       - run: node Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs cic-website/data/world-census.json
 
+  repository-views-current:
+    # Added 2026-08-09. The repository/sources views are GENERATED
+    # (wrs/views/repository.py) and had drifted five days behind their own
+    # records without anything noticing - the builder had a --check mode from
+    # the start and nothing ever ran it. A generated view nobody verifies is
+    # a stale view; this is the cheapest possible guard (bare python + pyyaml,
+    # no models, no secrets, no network).
+    name: Repository views current (all six worlds)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cic-poc/backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python wrs/views/repository.py --check
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest

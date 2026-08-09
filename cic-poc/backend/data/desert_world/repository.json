@@ -589,6 +589,7 @@
             "note": "c. 320-430 CE - world_manifest.py period=\"c. 320-430 CE\"; Doc_01 SS2: floor c. 320 (Tabennesi), close c. 430 proposed as directional; Antony's pre-floor career (c. 270s-305) is generative background, not a boundary extension (Doc_01 SS2.1)."
           },
           "horizon": "Egypt (Nile valley and desert) - Step 0 scope note quoted in Doc_01; the desert margins: Nitria (c. 325-330), Scetis (c. 330), Kellia (c. 338), the Pachomian Thebaid; three organizational strands (solitary, cenobitic, semi-anchoritic) per Doc_01 SS1/SS6.",
+          "capsule_inhabit": "A world made by leaving. People walked out of the villages into empty land, and the leaving was not preparation for the work - it was the work. Distance, solitude, labour with the hands, and the long testing that comes to a person alone: those were the whole of the training.",
           "formation_logic": "Doc_01 SS1 (verbatim): \"withdrawal from settled village and civic life into marginal or genuinely remote land, undertaken as the ascetic project itself - not merely a change of address but a formation method in which distance, solitude, manual labor, and susceptibility to demonic testing are themselves the curriculum.\"",
           "gravities": [
             "desertgrav001",
@@ -655,12 +656,12 @@
             }
           ],
           "cautions": [
-            "Relational-safety review of this world's own content (spiritual combat, demonic imagery, ascetic self-denial) for encounter implications has NOT been performed - Doc_09c SS4 names it as a distinct, required, not-yet-done review. Facilitators should know the gap exists.",
-            "Living tradition, unbroken line: Coptic Orthodox monasticism descends directly from this world, and the living-tradition-differentiation review is an unperformed freeze-eligibility gate (Doc_09c SS4/SS7). The Representative's horizon closes c. 430 - before Ephesus and Chalcedon - and must never be read as commentary on any present-day communion's practice or on the disputes that later divided them.",
-            "The world's own named recruitment risk is diagnostic fusion sliding from self-description into participant-diagnosis (Doc10 S4). The Representative is calibrated against it; a facilitator should not invite it either (e.g. by asking the Representative to 'name what is going on in' a participant).",
-            "Thin domains are honestly thin, not withheld: named women's material beyond a small set of preserved sayings, liturgical content beyond structure and rhythm, the Melitian community's interior life, ordinary non-literate participants' own first-person experience (Doc_09b SS2, Doc_09c SS5). Pressing the Representative to fill these will get honest refusal, not texture.",
-            "Named-figure boundary: the Representative carries exactly four vetted sayings whole (Moses/jug, Arsenius/flee-be-still, Sarah's answer, general community-life texture) and categorically declines to construct scenes for any other name - including well-known ones like Poemen or Sisoes (LiveTest_Scoring_Review 2026-07-11, fix 3). Participants asking for such stories will be declined in-voice; this is the system working, not a malfunction.",
-            "Anxiety and intrusive-thought conversations sit close to this world's core vocabulary (logismoi) and tempt a clinical mapping in either direction. The world's frame is not a clinical frame (the logismoi record's own distortion-risk pairing), and crisis disclosures get an in-voice redirection toward direct human support (Doc10 S7 relational-safety probe, Article 33)."
+            "A safety review of this world's own content - spiritual combat, demons, harsh self-denial - has not been done. Facilitators should know the gap is there.",
+            "Coptic Orthodox monasticism descends from this world in an unbroken line. The voice stops around 430, before the councils that later divided the churches. Nothing it says is a comment on any living communion's practice, or on those disputes.",
+            "This world's own risk is that its language for watching thoughts slides from describing itself into diagnosing the person in front of it. The voice is calibrated against that. Do not invite it either - for instance, by asking it to name what is going on inside a participant.",
+            "Some things are thin, and the thinness is honest rather than withheld. Named women beyond a few preserved sayings. Worship beyond its shape and rhythm. The inner life of the Melitian community. What ordinary unlettered people made of any of it. Press for these and you will get an honest refusal, not texture.",
+            "The voice carries four sayings whole: Moses and the jug, Arsenius told to flee and be still, Sarah's answer to the elders, and the general texture of common life. It will not build a scene for any other name, including well-known ones like Poemen or Sisoes. Being declined in voice is the system working, not a fault.",
+            "Talk of anxiety and intrusive thoughts sits close to this world's own words for the thoughts, and tempts a clinical reading in either direction. This world's frame is not a clinical one. A disclosure of crisis gets an in-voice turn toward real human help."
           ],
           "telos": {
             "text": "What withdrawal empties a life toward is not emptiness. Antony did not leave his village to arrive at nothing; he left because one verse, heard once, addressed him directly, and everything after was the long work of staying reachable by that address. Every thought stripped away in the discipline of the logismoi is stripped away so that what remains is not a purified self admiring its own stillness, but a person still standing where the first word found them, listening for it again. Discernment does not end in a technique perfected; it ends in a person who has become quiet enough to hear who is speaking. What Papnoute's whole formation moves toward, when it moves most fully into itself, is not withdrawal for its own sake — it is the silence in which the One who first called is still calling.",
@@ -713,6 +714,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "The Egyptian who went into the desert, and drew others after him.",
           "narratable": true,
           "story_ids": [
             "desertstory001",
@@ -761,6 +763,7 @@
               "name_kind": "in-world"
             }
           ],
+          "bridge_line": "The founder of the shared life: monks living together under one rule.",
           "narratable": true,
           "story_ids": [
             "desertstory003"
@@ -807,6 +810,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "Pachomius's brother, remembered as the first to join him.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Named within desertstory003's text as first to join; no story of his own in this world's inventory."
@@ -856,6 +860,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "An elder at Scetis, remembered for refusing to judge another man's fault.",
           "narratable": true,
           "story_ids": [
             "desertstory004"
@@ -907,6 +912,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "An elder remembered for the word that sent him away: flee, be silent, be still.",
           "narratable": true,
           "story_ids": [
             "desertstory005"
@@ -958,6 +964,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "One of the desert mothers. Her answer to the elders is our clearest woman's voice.",
           "narratable": true,
           "story_ids": [
             "desertstory006"
@@ -1009,6 +1016,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "A desert mother our tradition names. We carry no saying of hers.",
           "narratable": false,
           "story_ids": [
             "desertstory009"
@@ -1060,6 +1068,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "A desert mother our tradition names. We carry no saying of hers.",
           "narratable": false,
           "story_ids": [
             "desertstory010"
@@ -1112,6 +1121,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "An elder named often in our tradition. We carry no story of his own.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Named in the Permanent Prompt EXPLICITLY as a name-without-story ('even a name as often repeated as Poemen's') - the prompt's own refusal-to-invent guard.",
@@ -1163,6 +1173,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "An elder named in our tradition. We carry no story of his own.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Same as Poemen: named as a name-only example in the prompt's anti-fabrication guard.",
@@ -1208,6 +1219,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "The bishop of Alexandria who wrote down Antony's life.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Named as source-author in the Antony stories' own telling ('Athanasius records that...'); an author-figure of this world's record, not a narratable participant figure."
@@ -1252,6 +1264,7 @@
               "name_kind": "scholarly"
             }
           ],
+          "bridge_line": "A desert elder. We carry no story of his own.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Named in desertstory004's usage guidance solely as the historical misattribution target of the live-test defect; no story carried; kept as a record so the misattribution class stays queryable."
@@ -2162,6 +2175,7 @@
           "id": "desertgrav001",
           "name": "Withdrawal (anachoresis)",
           "classification": "Primary",
+          "capsule_line": "Leaving the settled village for empty land. Not a change of address but the work itself, repeated every day a person stays out.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong - every evidence stream (Doc_02 SS1.1-1.2, 1.5, 2.1-2.2, 5.1-5.2)"
@@ -2258,6 +2272,7 @@
           "id": "desertgrav002",
           "name": "Spiritual combat against demonic thoughts (general form)",
           "classification": "Primary",
+          "capsule_line": "The long watch against the thoughts. They come dressed as hunger, as memory, as reasonable doubt, and the fight with them is the daily labour.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong - Athanasius, Apophthegmata, Evagrius independently attest the theme"
@@ -2354,6 +2369,7 @@
           "id": "desertgrav003",
           "name": "Elder-mediated oral authority",
           "classification": "Primary",
+          "capsule_line": "Authority runs through a tested word, spoken once by someone whose life has proved it. Not through an office held.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong - the Apophthegmata's entire structure"
@@ -2455,6 +2471,7 @@
           "id": "desertgrav004",
           "name": "Manual labor as ascetic discipline (cheironaxia)",
           "classification": "Primary",
+          "capsule_line": "Work done with the hands - a rope twisted, a basket woven - while the mind stays at its watch. The labour is the discipline, not merely how we ate.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong - textual AND papyrological AND archaeological"
@@ -2551,6 +2568,7 @@
           "id": "desertgrav005",
           "name": "Diakrisis (discernment as master virtue)",
           "classification": "Primary",
+          "capsule_line": "Telling one thought from another rightly. The hardest skill any of us ever learned, and the one the rest depends on.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong - recurs across named elders regardless of settlement"
@@ -2652,6 +2670,7 @@
           "id": "desertgrav006",
           "name": "Koinonia / communal rule",
           "classification": "Supporting",
+          "capsule_line": "The common life: a shared rule, a shared table, work and prayer held to one shape. We built this too, alongside the solitary way.",
           "six_tests": {
             "repetition": {
               "verdict": "Strong WITHIN the Pachomian corpus, not attested outside it"
@@ -2738,6 +2757,7 @@
           "id": "desertgrav007",
           "name": "Practically applied, non-systematized scriptural engagement",
           "classification": "Primary",
+          "capsule_line": "Scripture taken as a word spoken to this person, now, and acted on. Not a system built and defended afterward.",
           "six_tests": {
             "repetition": {
               "verdict": "Moderate-strong - Apophthegmata idiom + documented contrast with World #2"
@@ -2824,6 +2844,7 @@
           "id": "desertgrav008",
           "name": "Ongoing economic and social embeddedness in village life",
           "classification": "Tensional",
+          "capsule_line": "We never left the village as completely as our own talk of leaving suggests. Baskets were sold, grain was bought, and the settled world stayed within reach.",
           "six_tests": {
             "repetition": {
               "verdict": "Moderate - two evidence types of uneven confidence; a corrective reading against the dominant narrative"
@@ -2915,6 +2936,7 @@
           "id": "desertgrav009",
           "name": "Evagrian systematized interior psychology",
           "classification": "Supporting",
+          "capsule_line": "One teacher's ordered naming of the thoughts. Available to us, but reached for deliberately - it is not how most of us spoke.",
           "six_tests": {
             "repetition": {
               "verdict": "Concentrated in one author (flagged at generation)"
@@ -3006,6 +3028,7 @@
           "id": "desertgrav010",
           "name": "Person-based (elder) vs. office-based (Rule) authority",
           "classification": "Tensional",
+          "capsule_line": "The elder against the rule. Authority in a person tested by God, or in an office held under a written order. We never settled which was truer, and we do not pretend we did.",
           "six_tests": {
             "repetition": {
               "verdict": "Recurs specifically at the Strand A/C-B boundary"
@@ -3209,7 +3232,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Moderate gap: the word survives in religious usage, but the world's sense is an inaugurated, continually re-enacted discipline (labor, humility, obedience), not a one-time transaction after which attachment quietly resumes (Doc_06 §1.2 World Hearing).",
           "The source rows this record stands on:",
           "srcDES002: Pachomius / the Pachomian federation, Pachomian corpus - the Rules and the Lives of Pachomius",
@@ -3268,7 +3291,7 @@
           "eviction_priority": 2,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -3341,7 +3364,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity C / verified-via-authority.",
+          "Citation: specificity C / named-not-rechecked.",
           "Then vs. now: Sharp gap in purpose: this stillness exposes interior disturbance rather than soothing it — the opposite of stress relief — and the method-heavy later tradition must not be read back into it (Doc_06 §1.3 World Hearing). High grounding criterion by rule (anachronism-guard rides this term's own retrieval block).",
           "The source rows this record stands on:",
           "srcDES001: Athanasius of Alexandria, Life of Antony (Vita Antonii)",
@@ -3413,7 +3436,7 @@
           "eviction_priority": 2,
           "confidence": {
             "citation_specificity": "C",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -3486,7 +3509,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: load-bearing.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Sharp gap: the world treats thought as a relational, morally significant battleground (disclosed to an elder), not private symptomatology; and the systematized eight are one voice, not the whole world — a plural-voices hazard on top of the modern-clinical one (Doc_06 §1.4 [PV] flag). High grounding criterion by rule.",
           "The source rows this record stands on:",
           "srcDES004: Evagrius Ponticus, Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
@@ -3518,7 +3541,6 @@
           "cache_stability": "static",
           "term": "Logismoi (The Thoughts)",
           "aliases": [
-            "the thoughts",
             "logismoi",
             "intrusive thoughts"
           ],
@@ -3559,7 +3581,7 @@
           "eviction_priority": 2,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "load-bearing",
             "formation_confidence": "Widely Accepted"
@@ -3589,7 +3611,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "logismoi (the thoughts) desertlex004 term logismoi (the thoughts) the thoughts logismoi intrusive thoughts the intrusive thoughts or temptations understood as the primary interior battlefield of ascetic struggle. the intrusive thoughts experienced as the primary interior battlefield — morally and spiritually significant regardless of metaphysical status, met by discernment and disclosure to an elder rather than private suppression. two registers held apart: the general cross-strand experience, and evagrius's eight-fold systematized taxonomy, which is one teacher's strand-c achievement, not the world's common vocabulary (doc_06 §1.4). heard today through a clinical lens — intrusive thoughts as symptoms to manage or medicate — or dismissed as pre-modern superstition about demons (doc_06 §1.4 modern hearing). interior-discipline",
+      "search_text": "logismoi (the thoughts) desertlex004 term logismoi (the thoughts) logismoi intrusive thoughts the intrusive thoughts or temptations understood as the primary interior battlefield of ascetic struggle. the intrusive thoughts experienced as the primary interior battlefield — morally and spiritually significant regardless of metaphysical status, met by discernment and disclosure to an elder rather than private suppression. two registers held apart: the general cross-strand experience, and evagrius's eight-fold systematized taxonomy, which is one teacher's strand-c achievement, not the world's common vocabulary (doc_06 §1.4). heard today through a clinical lens — intrusive thoughts as symptoms to manage or medicate — or dismissed as pre-modern superstition about demons (doc_06 §1.4 modern hearing). interior-discipline",
       "level2": {
         "record_id": "desertlex004",
         "term": "Logismoi (The Thoughts)",
@@ -3632,7 +3654,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: load-bearing.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Sharp inversion: the world's discernment is developed relationally under an elder and aimed specifically against self-deception — one's own judgment is exactly what excess and vainglory distort — not a private feeling to be trusted (Doc_06 §1.5 World Hearing). High grounding criterion by rule.",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
@@ -3692,7 +3714,7 @@
           "eviction_priority": 1,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "load-bearing",
             "formation_confidence": "Widely Accepted"
@@ -3780,7 +3802,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: load-bearing.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Real gap on authority: disclosure to an elder was spiritually necessary, not merely helpful, and counsel was authoritative guidance, not one input among many (Doc_06 §1.6 World Hearing). Plural-voices hazard on the ammas' thin share of the record rides this term.",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
@@ -3810,7 +3832,6 @@
           "cache_stability": "static",
           "term": "Gerōn / Abba / Amma (Elder / Father / Mother)",
           "aliases": [
-            "elder",
             "abba",
             "amma",
             "geron"
@@ -3848,7 +3869,7 @@
           "eviction_priority": 1,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "load-bearing",
             "formation_confidence": "Widely Accepted"
@@ -3878,7 +3899,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "gerōn / abba / amma (elder / father / mother) desertlex006 term gerōn / abba / amma (elder / father / mother) elder abba amma geron honorific address for a spiritually authoritative elder, male (abba) or female (amma), whose sayings and example carry teaching authority without formal ecclesiastical office. the honorific for a spiritually authoritative elder — abba or amma — whose authority is earned through recognized discernment rather than conferred by office, and transmitted through direct personal relationship. names the entire authority structure of strands a and c; the named ammas (syncletica, theodora, sarah) are genuinely attested, with their material's thinness stated rather than padded (doc_06 §1.6). heard today as a generic spiritual mentor — coaching or therapy with religious coloring (doc_06 §1.6 modern hearing). authority-and-transmission",
+      "search_text": "gerōn / abba / amma (elder / father / mother) desertlex006 term gerōn / abba / amma (elder / father / mother) abba amma geron honorific address for a spiritually authoritative elder, male (abba) or female (amma), whose sayings and example carry teaching authority without formal ecclesiastical office. the honorific for a spiritually authoritative elder — abba or amma — whose authority is earned through recognized discernment rather than conferred by office, and transmitted through direct personal relationship. names the entire authority structure of strands a and c; the named ammas (syncletica, theodora, sarah) are genuinely attested, with their material's thinness stated rather than padded (doc_06 §1.6). heard today as a generic spiritual mentor — coaching or therapy with religious coloring (doc_06 §1.6 modern hearing). authority-and-transmission",
       "level2": {
         "record_id": "desertlex006",
         "term": "Gerōn / Abba / Amma (Elder / Father / Mother)",
@@ -4057,7 +4078,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Moderate-to-sharp gap: each saying was occasion-bound counsel, and the anthology that makes it feel general-purpose is later compilers' work, not a transparent window (Doc_06 §1.8 World Hearing; Doc_02 §§1.5, 2.3).",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
@@ -4079,16 +4100,15 @@
             6,
             7
           ],
-          "register": "emic",
+          "register": "emic-unavailable",
           "review_state": "draft",
           "cache_stability": "static",
           "term": "Apophthegma (Saying)",
           "aliases": [
-            "saying",
             "apophthegma"
           ],
           "quick_meaning": "The terse, memorable saying that is this world's primary vehicle of teaching.",
-          "plain_explanation": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim.",
+          "plain_explanation": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time — and it is those editors, not this world's own contemporary idiom, who supply this record's own headword. \"Apophthegma\" is the editors' Greek rhetorical label for the collected genre, applied after the fact; it is not a word this build's own voice material ever puts in an elder's or a disciple's own mouth. What this build's own voice material consistently calls the thing itself, before any editor named the genre it became part of, is plainer — a disciple came and asked an elder for a word, and the elder gave one. That plain idiom is this record's own voice_surface below, is how desertstory009 and desertstory010 (Amma Syncletica, Amma Theodora) each describe what the tradition kept of them (\"tested words the Apophthegmata kept\" / \"the tradition kept\"), and is how Papnoute himself uses it in deployment (LiveTest_Transcripts_2026-07-11.md, Turn 4 — \"A word given by a stranger... we gave them a word we had watched proven\"). No Greek-language formula for the request itself (e.g. a specific incipit phrase) is attested anywhere in this world's own source records in this build — srcDES005 names the corpus and its compilers but preserves no such formula — so none is supplied here; \"a word\" stands as the attested English-register idiom actually used across this build's own material, not a reconstructed Greek phrase. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim.",
           "world_meaning": "This world produced almost no sustained theological treatise outside one notably systematic teacher; teaching that could not be reduced to a portable saying largely does not survive in this world's own idiom. The form's brevity is itself a formation technique — something turned over in the mind during solitary labor — not merely a container for content.",
           "distortion_risk": "World Hearing — each saying was originally occasion-bound, given by a specific elder to a specific disciple's specific situation; its later collection into a general-purpose anthology by unnamed compilers is a distinct editorial layer, not a transparent window onto original context.",
           "retrieval": {
@@ -4116,7 +4136,7 @@
           "eviction_priority": 2,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4131,14 +4151,14 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "apophthegma (saying) desertlex008 term apophthegma (saying) saying apophthegma the terse, memorable saying that is this world's primary vehicle of teaching. the terse, memorable, occasion-bound saying — given by a specific elder to a specific disciple's situation — that is this world's primary teaching vehicle; its brevity is itself a formation technique, turned over in the mind during solitary labor. the collected form postdates the world's own boundary and is a distinct editorial layer (doc_06 §1.8). heard today as a decontextualized quote or aphorism — quotable content (doc_06 §1.8 modern hearing). authority-and-transmission",
+      "search_text": "apophthegma (saying) desertlex008 term apophthegma (saying) apophthegma the terse, memorable saying that is this world's primary vehicle of teaching. the terse, memorable, occasion-bound saying — given by a specific elder to a specific disciple's situation — that is this world's primary teaching vehicle; its brevity is itself a formation technique, turned over in the mind during solitary labor. the collected form postdates the world's own boundary and is a distinct editorial layer (doc_06 §1.8). heard today as a decontextualized quote or aphorism — quotable content (doc_06 §1.8 modern hearing). authority-and-transmission",
       "level2": {
         "record_id": "desertlex008",
         "term": "Apophthegma (Saying)",
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim."
+            "text": "A short, sharp saying was this world's main way of teaching. An elder gave it to one person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and turned over during long hours of work. The famous collections came later, made by editors after this world's own time — and it is those editors, not this world's own contemporary idiom, who supply this record's own headword. \"Apophthegma\" is the editors' Greek rhetorical label for the collected genre, applied after the fact; it is not a word this build's own voice material ever puts in an elder's or a disciple's own mouth. What this build's own voice material consistently calls the thing itself, before any editor named the genre it became part of, is plainer — a disciple came and asked an elder for a word, and the elder gave one. That plain idiom is this record's own voice_surface below, is how desertstory009 and desertstory010 (Amma Syncletica, Amma Theodora) each describe what the tradition kept of them (\"tested words the Apophthegmata kept\" / \"the tradition kept\"), and is how Papnoute himself uses it in deployment (LiveTest_Transcripts_2026-07-11.md, Turn 4 — \"A word given by a stranger... we gave them a word we had watched proven\"). No Greek-language formula for the request itself (e.g. a specific incipit phrase) is attested anywhere in this world's own source records in this build — srcDES005 names the corpus and its compilers but preserves no such formula — so none is supplied here; \"a word\" stands as the attested English-register idiom actually used across this build's own material, not a reconstructed Greek phrase. Today the sayings read like general wisdom for anyone. Each one was actually aimed counsel for a single case. The book form hides the aim."
           },
           {
             "title": "How sure is this",
@@ -4146,10 +4166,12 @@
           }
         ],
         "readability": {
-          "fk_grade": 4.81,
-          "fre": 78.93,
-          "violations": [],
-          "ok": true
+          "fk_grade": 9.65,
+          "fre": 58.84,
+          "violations": [
+            "FRE 58.8 < 60.0"
+          ],
+          "ok": false
         }
       }
     },
@@ -4174,7 +4196,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: load-bearing.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Real gap: participants experienced the koinōnia as a different KIND of authority than the elder-model — an institutional innovation solving how total formation scales beyond one extraordinary solitary — not a formalized version of the same thing (Doc_06 §1.9 World Hearing). Plural-voices hazard: strand-bound, must not be voiced as the whole world's pattern.",
           "The source rows this record stands on:",
           "srcDES002: Pachomius / the Pachomian federation, Pachomian corpus - the Rules and the Lives of Pachomius",
@@ -4202,8 +4224,7 @@
           "term": "Koinōnia (Communal Rule)",
           "aliases": [
             "koinonia",
-            "communal rule",
-            "the federation"
+            "communal rule"
           ],
           "quick_meaning": "The founder Pachomius's own name for his federated network of monasteries under a single Rule and spiritual authority.",
           "plain_explanation": "Koinonia was Pachomius's own name for his network of houses. One written Rule and one authority governed them all. Property was shared. Offices like housemaster and steward ordered daily life. By his death there were nine men's houses and two for women. This pattern belonged to his branch alone; hermits and cell-dwellers had nothing like it. Today it can look like the elder's way, just written down. Those inside knew it as a different kind of authority: a way to form many people at once, not one.",
@@ -4239,7 +4260,7 @@
           "eviction_priority": 2,
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-26",
             "evidentiary_weight": "load-bearing",
             "formation_confidence": "Widely Accepted"
@@ -4259,7 +4280,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "koinōnia (communal rule) desertlex009 term koinōnia (communal rule) koinonia communal rule the federation the founder pachomius's own name for his federated network of monasteries under a single rule and spiritual authority. pachomius's own proper name for his federated network of monasteries under one written rule and spiritual authority — common property, formal offices (housemaster, steward), nine men's and two women's houses by his death. strand b's institution specifically, with no strand a/c equivalent — the clearest strand-bound term in the lexicon (doc_06 §1.9). heard today as generically monastic — 'communal rule' in an undifferentiated, timeless sense (doc_06 §1.9 modern hearing). communal-institution",
+      "search_text": "koinōnia (communal rule) desertlex009 term koinōnia (communal rule) koinonia communal rule the founder pachomius's own name for his federated network of monasteries under a single rule and spiritual authority. pachomius's own proper name for his federated network of monasteries under one written rule and spiritual authority — common property, formal offices (housemaster, steward), nine men's and two women's houses by his death. strand b's institution specifically, with no strand a/c equivalent — the clearest strand-bound term in the lexicon (doc_06 §1.9). heard today as generically monastic — 'communal rule' in an undifferentiated, timeless sense (doc_06 §1.9 modern hearing). communal-institution",
       "level2": {
         "record_id": "desertlex009",
         "term": "Koinōnia (Communal Rule)",
@@ -4302,7 +4323,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: The modern ear hears movement between places; the world meant severed bonds — the discipline is relational, not geographic (Doc_06 §2.1 World Hearing).",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)"
@@ -4359,7 +4380,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4417,7 +4438,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: A false cognate inverts the meaning entirely: apathy names disengagement; apatheia names full engagement freed from disordered reaction. Sharp then-vs-now gap: high grounding criterion by rule.",
           "The source rows this record stands on:",
           "srcDES004: Evagrius Ponticus, Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
@@ -4483,7 +4504,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4556,7 +4577,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: The shared root points opposite ways: modern theory is detached thinking; this world's theōria is disciplined perception earned by practice. Sharp gap: high grounding criterion.",
           "The source rows this record stands on:",
           "srcDES004: Evagrius Ponticus, Praktikos; Chapters on Prayer (De oratione); Antirrhetikos"
@@ -4612,7 +4633,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4670,7 +4691,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: The modern frame treats sorrow as a problem; this world cultivated it as a discipline that keeps self-assessment honest. Sharp gap: high grounding criterion.",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)"
@@ -4727,7 +4748,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4785,7 +4806,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: Mindfulness observes without agenda; this world's watching is combat-oriented — aimed at catching specific thoughts early. Sharp gap: high grounding criterion.",
           "The source rows this record stands on:",
           "srcDES004: Evagrius Ponticus, Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
@@ -4844,7 +4865,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -4902,7 +4923,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "Then vs. now: A modern service is one meeting in a social week; the synaxis was the single communal seam in a solitary one — its weight came from its rarity.",
           "The source rows this record stands on:",
           "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
@@ -4966,7 +4987,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -5050,7 +5071,6 @@
           "id": "desertlex016",
           "term": "Kellion (The Cell)",
           "aliases": [
-            "the cell",
             "kellion"
           ],
           "quick_meaning": "The individual or small-group dwelling unit that is Strand C's basic architectural and organizational building block.",
@@ -5105,7 +5125,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "kellion (the cell) desertlex016 term kellion (the cell) the cell kellion the individual or small-group dwelling unit that is strand c's basic architectural and organizational building block. the physical unit strand c's semi-anchoritic pattern requires — near enough to gather weekly, far enough apart that the rest of the week is solitary (doc_06 §2.7). heard today as a bare room, or through the prison-cell register (doc_06 §2.7 modern hearing: a generic monk's room). material-setting",
+      "search_text": "kellion (the cell) desertlex016 term kellion (the cell) kellion the individual or small-group dwelling unit that is strand c's basic architectural and organizational building block. the physical unit strand c's semi-anchoritic pattern requires — near enough to gather weekly, far enough apart that the rest of the week is solitary (doc_06 §2.7). heard today as a bare room, or through the prison-cell register (doc_06 §2.7 modern hearing: a generic monk's room). material-setting",
       "level2": {
         "record_id": "desertlex016",
         "term": "Kellion (The Cell)",
@@ -5144,7 +5164,7 @@
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
-          "Citation: specificity B / verified-via-authority.",
+          "Citation: specificity B / named-not-rechecked.",
           "The source rows this record stands on:",
           "srcDES004: Evagrius Ponticus, Praktikos; Chapters on Prayer (De oratione); Antirrhetikos"
         ],
@@ -5189,7 +5209,7 @@
           ],
           "confidence": {
             "citation_specificity": "B",
-            "verification_state": "verified-via-authority",
+            "verification_state": "named-not-rechecked",
             "verification_date": "2026-07-27",
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Widely Accepted"
@@ -5537,6 +5557,8 @@
             3
           ],
           "register": "emic",
+          "key_line": "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven",
+          "signature": true,
           "review_state": "draft",
           "cache_stability": "static",
           "title": "Antony's Call — Hearing Matthew 19:21",
@@ -5586,7 +5608,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav001",
-              "note": "This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard."
+              "note": "This is where withdrawal begins for us, and where our way of hearing scripture begins with it. A verse read aloud in an assembly is taken as a word spoken to one man, then and there, and acted on the same day. Not general instruction offered to any reader. An address, heard and obeyed. Everything we do with scripture afterward has that shape - and so does the stripping-away itself: what is given up is given up in order to stay reachable by a word once heard."
             },
             {
               "gravity_id": "desertgrav007",
@@ -5684,7 +5706,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav001",
-              "note": "This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from."
+              "note": "Withdrawal here is not one decisive act but a going further, and then further again. This is that pattern in its clearest form. It also shows how authority begins among us: not conferred, but gathered, as disciples come to a reputation tested by years alone. The solitary struggle that runs through much of our life is built out of this story."
             },
             {
               "gravity_id": "desertgrav003",
@@ -5777,7 +5799,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav006",
-              "note": "This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 -- the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's own broader \"collapse of categories\" thesis does not hold. This is the direct grounding for the second name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world representation principle's requirement that he hold genuine Strand B fluency, not merely report on it."
+              "note": "This is where the common life begins among us - the shared rule, the shared table, the brothers under one roof. It stands alongside the elder-and-disciple way rather than replacing it, and the two never quite became one thing. Whether authority rests in a person tested by God or in an office held under a rule is the one question this world never collapsed into a single answer. Both ways were ours, at the same time, and we carry both."
             },
             {
               "gravity_id": "desertgrav010",
@@ -5828,6 +5850,8 @@
             3
           ],
           "register": "emic",
+          "key_line": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "signature": true,
           "review_state": "draft",
           "cache_stability": "static",
           "title": "Abba Moses and the Leaking Jug",
@@ -5872,7 +5896,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav005",
-              "note": "This story directly illustrates gravity 5 (diakrisis) in its self-directed, humility-oriented register -- discernment turned first on one's own condition before it is turned on another's -- and the broader pattern Doc_05 §1 identifies of this tradition correcting toward moderation over judgment. It is the exact story the live-tested Permanent Prompt guard exists to protect: this account, and no invented elaboration of it, is what Papnoute actually carries whole for Abba Moses (see `LiveTest_Scoring_Review.md`, the fabricated-attribution finding this guard was written to close)."
+              "note": "Discernment turned first on one's own condition, before it is ever turned on another's. That is what this story teaches, and it is the shape our correcting takes: toward moderation rather than judgment. We carry this account as it stands. We do not elaborate it, and we do not furnish it with detail it never had."
             }
           ]
         },
@@ -5917,6 +5941,7 @@
             3
           ],
           "register": "emic",
+          "key_line": "Arsenius, flee, be silent, be still",
           "review_state": "draft",
           "cache_stability": "static",
           "title": "Abba Arsenius's Call to Flee, Be Silent, Be Still",
@@ -5961,7 +5986,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav001",
-              "note": "This story directly illustrates gravity 1 (withdrawal), gravity 3 (the personal, directly-addressed mode of guidance this world's own authority structure assumes throughout), and hesychia (Doc_06 §1.3) as a named, actively sought discipline rather than a passive absence of noise."
+              "note": "Withdrawal, and the personal word given directly to the one who asked - the mode all our guidance assumes. Stillness here is a thing actively sought and kept, a discipline with a name, not merely the absence of noise."
             },
             {
               "gravity_id": "desertgrav003",
@@ -6012,6 +6037,8 @@
             3
           ],
           "register": "emic",
+          "key_line": "According to nature I am a woman, but not according to my thoughts.",
+          "signature": true,
           "review_state": "draft",
           "cache_stability": "static",
           "title": "Amma Sarah's Answer to the Visiting Elders",
@@ -6056,7 +6083,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav003",
-              "note": "This is this world's single clearest direct textual evidence for the ammas' own teaching voice (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`, Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain way, rather than the attested elders coming to test/humble her about being a woman), while the saying's own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`, the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and should be treated as the canonical wording."
+              "note": "This is our clearest direct evidence of an amma's own teaching voice: an elder's authority exercised by a woman, under direct challenge, and discernment used against a social test rather than an interior thought. The wording matters. She was tested about being a woman, and her answer is sharper than any general claim about equal natures. We carry the saying as it stands, with its own occasion, and we do not give it a different one."
             },
             {
               "gravity_id": "desertgrav005",
@@ -6149,7 +6176,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav002",
-              "note": "This is this world's own paradigmatic portrait of gravity 2 (spiritual combat), told not as a neutral chronicle but as the tradition's own account of what total ascetic struggle looks like when carried to its furthest extremity. It stands as the un-systematized, narrative-form precursor to Evagrius's later systematized taxonomy of the eight thoughts (gravity 9, Doc_06 §§2.2-2.3) -- available to Papnoute deliberately, not by default, per Doc_10 §2's own caution against defaulting to the Evagrian register."
+              "note": "Our own portrait of what total struggle looks like carried to its furthest edge - told not as a neutral chronicle but as the tradition's own account of the thing. It comes before, and without, the later ordered taxonomy of the thoughts. That ordering is available to us, but it is reached for deliberately and never fallen into by default."
             },
             {
               "gravity_id": "desertgrav009",
@@ -6277,7 +6304,7 @@
           "gravity_links": [
             {
               "gravity_id": "desertgrav001",
-              "note": "This reconstruction synthesizes gravities 1, 4, and the Strand C-specific expression of gravity 5 into a single reconstructed daily rhythm, directly corresponding to Doc_07 §9's own architecture-based integration finding -- the cell and the synaxis infrastructure jointly provisioning for both solitude and periodic communal accountability. This is the concrete texture underneath Papnoute's own grounding register (Doc_10 §1), the daily shape his voice speaks from by default."
+              "note": "A reconstructed shape of an ordinary day, drawing together withdrawal, the work of the hands, and discernment as the semi-eremitic settlements practised them. The cell and the gathering together provide for both: solitude, and a periodic accounting to others. This is the daily texture the voice speaks from by default."
             },
             {
               "gravity_id": "desertgrav004",
@@ -6576,8 +6603,11 @@
           "Transmission path: transmitted almost entirely through translation (Georgian, Latin, Syriac) with only Greek and Coptic fragments surviving directly - an unusually thin and indirect transmission chain for material this potentially significant, and a genuine limitation on how much weight this document places on it.",
           "Field state: contested"
         ],
-        "reflect": [],
+        "reflect": [
+          "Formation confidence: \"Contested\" - scholars genuinely disagree about this. More than one serious reading of the evidence exists."
+        ],
         "question": [
+          "This record's confidence level is \"Contested\" - what would count as better evidence, and does it exist?",
           "Attribution status is \"dubium\" - how does that change what this source can carry?"
         ],
         "full_record": {
@@ -6599,6 +6629,9 @@
           "script": "Copt",
           "genre_form": "letter",
           "discovery_channel": "builder-prior-knowledge",
+          "confidence": {
+            "formation_confidence": "Contested"
+          },
           "field_state": "contested",
           "licensed_for": "Primary voice (Doc_02 SS1)",
           "transmission_path": "transmitted almost entirely through translation (Georgian, Latin, Syriac) with only Greek and Coptic fragments surviving directly - an unusually thin and indirect transmission chain for material this potentially significant, and a genuine limitation on how much weight this document places on it.",
@@ -6630,6 +6663,7 @@
           "Author: Evagrius Ponticus",
           "Title: Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
           "Locus/date: late 4th c.",
+          "Edition: Praktikos: Antoine and Claire Guillaumont, Traite Pratique, ou Le Moine, 2 vols., Sources Chretiennes 170-171 (Cerf, 1971) - Greek text with facing French translation. Antirrhetikos: Charles-Antoine Fogielman, Antirrhetique, Sources Chretiennes 640 (Cerf, 2024) - Greek critical edition. De Oratione (Chapters on Prayer): transmitted under the pseudonymous 'Nilus' attribution per this row's own transmission_path; its own critical-edition history (Hausherr's reattribution; a Tugwell edition sometimes cited) was NOT independently confirmed this session and is left open rather than asserted.",
           "Language: grc",
           "Attribution status: genuine",
           "Transmission path: this is this world's single most dramatic transmission-history case. Following the 553 condemnation, Evagrius's more speculative works survive substantially in Syriac and Armenian translation - traditions unaffected by the Constantinopolitan decision - while his Greek manuscripts frequently transmit several of his ascetic-practical works - the Chapters on Prayer above all ... - under pseudonymous attribution, chiefly to Nilus of Ancyra, and occasionally to Basil or Gregory of Nazianzus. A reader encountering \"Nilus\" in a Byzantine or Athonite manuscript may be reading Evagrius. This is Constitution Article 22's Transmission History dimension in its starkest possible instance for this world."
@@ -6649,6 +6683,9 @@
           "work_title": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
           "work_locus": "late 4th c.",
           "source_type": "P",
+          "edition": "Praktikos: Antoine and Claire Guillaumont, Traite Pratique, ou Le Moine, 2 vols., Sources Chretiennes 170-171 (Cerf, 1971) - Greek text with facing French translation. Antirrhetikos: Charles-Antoine Fogielman, Antirrhetique, Sources Chretiennes 640 (Cerf, 2024) - Greek critical edition. De Oratione (Chapters on Prayer): transmitted under the pseudonymous 'Nilus' attribution per this row's own transmission_path; its own critical-edition history (Hausherr's reattribution; a Tugwell edition sometimes cited) was NOT independently confirmed this session and is left open rather than asserted.",
+          "edition_status": "critical",
+          "consulted_as": "secondary-report-only",
           "attribution_status": "genuine",
           "level_of_description": "corpus",
           "language": "grc",
@@ -6656,7 +6693,7 @@
           "discovery_channel": "builder-prior-knowledge",
           "licensed_for": "Primary voice (Doc_02 SS1)",
           "transmission_path": "this is this world's single most dramatic transmission-history case. Following the 553 condemnation, Evagrius's more speculative works survive substantially in Syriac and Armenian translation - traditions unaffected by the Constantinopolitan decision - while his Greek manuscripts frequently transmit several of his ascetic-practical works - the Chapters on Prayer above all ... - under pseudonymous attribution, chiefly to Nilus of Ancyra, and occasionally to Basil or Gregory of Nazianzus. A reader encountering \"Nilus\" in a Byzantine or Athonite manuscript may be reading Evagrius. This is Constitution Article 22's Transmission History dimension in its starkest possible instance for this world.",
-          "verification_note": "Widely Accepted as to authorship and general content for the ascetic-practical works; Documented as to the 553 condemnation and its effect on transmission; the specific pseudonymous-attribution pattern is Widely Accepted among specialists in the manuscript tradition specifically.",
+          "verification_note": "Widely Accepted as to authorship and general content for the ascetic-practical works; Documented as to the 553 condemnation and its effect on transmission; the specific pseudonymous-attribution pattern is Widely Accepted among specialists in the manuscript tradition specifically. Edition field added 2026-08-06 per the field-bibliography sweep (srcDESsearch002): Praktikos/Antirrhetikos editions confirmed via independent publisher (Editions du Cerf / Sources Chretiennes catalogue) corroboration, reachable through general web search rather than BIBP itself, which remained inaccessible this session (see srcDESsearch002). Neither edition independently re-read this session - citation-level confirmation only.",
           "jobs": [
             1,
             2
@@ -7018,8 +7055,11 @@
           "Attribution status: anonymous",
           "Field state: contested"
         ],
-        "reflect": [],
+        "reflect": [
+          "Formation confidence: \"Contested\" - scholars genuinely disagree about this. More than one serious reading of the evidence exists."
+        ],
         "question": [
+          "This record's confidence level is \"Contested\" - what would count as better evidence, and does it exist?",
           "Attribution status is \"anonymous\" - how does that change what this source can carry?"
         ],
         "full_record": {
@@ -7040,6 +7080,9 @@
           "language": "cop",
           "script": "Copt",
           "discovery_channel": "database-search",
+          "confidence": {
+            "formation_confidence": "Contested"
+          },
           "field_state": "contested",
           "licensed_for": "Material evidence, relation to this world unresolved (Doc_02 SS5.3; open item 3 - this document adopts neither position)",
           "verification_note": "Contested: the monastic-origin and burial-as-response-to-Athanasius theory (Robinson; Lundhaug and Jenott) versus private-ownership/grave-goods alternatives. This document does not adopt either position.",
@@ -7800,6 +7843,7 @@
           "work_locus": "2026 (Doc_09a SS2.2; the assembled Permanent Prompt)",
           "source_type": "M",
           "attribution_status": "genuine",
+          "in_world_record": false,
           "level_of_description": "item",
           "language": "eng",
           "script": "Latn",
@@ -7835,7 +7879,9 @@
           "Language: lat",
           "Attribution status: genuine"
         ],
-        "reflect": [],
+        "reflect": [
+          "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way."
+        ],
         "question": [],
         "full_record": {
           "world_id": "desert-monasticism",
@@ -7855,6 +7901,9 @@
           "language": "lat",
           "script": "Latn",
           "discovery_channel": "cited-in-another-row",
+          "confidence": {
+            "formation_confidence": "Widely Accepted"
+          },
           "licensed_for": "Transmission-history evidence: the world's own closing/codification marker (Doc_01 SS2.3), the Western transmission sequel (Doc_08 Force 3B-ii), the living-tradition line (Doc_09c SS4), and the apatheia -> puritas cordis substitution (Doc_03 SS1.18; Doc_06 SS3.2). Added per CO-P2-10(c) - the build documents cite this corpus load-bearingly; Doc_02's ecology never rowed it (S2.1 relative-recall's one miss, now closed).",
           "verification_note": "Authorship, works, and c. 420s dating are the build documents' own repeated, Widely Accepted citations (Doc_01/Doc_03/Doc_08/Doc_09c) - rowed from them, not newly researched.",
           "jobs": [
@@ -8111,6 +8160,6 @@
       ]
     },
     "by_contested_claim": {},
-    "by_contested_claim_note": "truthfully empty: no term record populates contested_claim_ids (FLAG-014) - the six claims are browsable as records; cross-references await the CO"
+    "by_contested_claim_note": "truthfully empty: no record in this world populates contested_claim_ids, so nothing cross-references the 6 claims - they remain browsable as records in their own right (Desert's FLAG-014 condition)"
   }
 }
