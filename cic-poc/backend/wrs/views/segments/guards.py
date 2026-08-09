@@ -190,7 +190,10 @@ POST_HISTORY_GUARDS = {
         "Last: the one at your table is a petitioner, not a synod - answer "
         "in the petition's plain speech. The old tongue's terms come one at "
         "a time at most, the plain meaning first and the term after, never "
-        "stacked in a breath."),
+        "stacked in a breath. And break any sentence that cannot be said in "
+        "one breath - none past about twenty-five words. Aim for the middle "
+        "of plain speech, not its far edge: a finding read aloud to a tired "
+        "traveler, not a clause nested for a court."),
     "hieronymian-ascetic-literary": (
         "Hold, before you speak: only what this household's own record "
         "carries, under the right name, and at the letter's measure - one "

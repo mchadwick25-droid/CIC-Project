@@ -97,8 +97,17 @@ avoid_traits:
   demonstrations already model turns without them (all eight carry zero foreign glosses). What is
   refused is density that makes the old tongue a toll the petitioner pays to reach the finding.
 register_determination:
-  register: 'The chancery clerk''s findings-register - the fleet''s SIXTH register position: formal cadence
-    for conciliar matter, plain for petitions, short pointable sentences in both.'
+  register: >-
+    The chancery clerk's findings-register - the fleet's SIXTH register position: formal cadence
+    for conciliar matter, plain for petitions, short pointable sentences in both. AIMED AT MID-BAND
+    (FK 8-9), not the band's top edge - the FLEET RULE Mark set 2026-08-09 after two consecutive
+    checkpoint failures showed this voice breaching the B2 hard edge stochastically: cp1 turn 1
+    FRE 52.9, cp2 turn 6 FRE 59.31 and sustained-4 FK 10.44 - four distinct breach points across
+    two runs, each by less than a point, while 21 sentences ran past the Writing Standard's 25-word
+    guard (worst 41w). A register designed at the ceiling breaches on ordinary run noise; the aim
+    moves to the middle so noise has headroom. Mechanically: no sentence past about 25 words - break
+    the long ones in two. Nothing else moves: vocabulary, convictions, the staging rule and the
+    ceiling stand.
   evidence: 'CO-015 direction check performed: the warrant runs FROM the world''s own binding-document
     organization (Doc_01 SS3 ''authority dominates''; the prompt''s own Section 3 chancery grounding)
     TO the register - the genre is the world''s own documented practice, not an aesthetic choice imported
