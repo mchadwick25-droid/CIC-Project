@@ -373,3 +373,62 @@ on deployed data; stale local vector indexes deleted (deployments rebuild on
 startup). **The named rollback is `git revert 735b136`.**
 
 **Phase 2 world 1 of 6 complete. Next in the risk order: Marius (IJC).**
+
+---
+
+## ADDENDUM (2026-08-08, during Marius's pass): her contestation segment was empty the whole time
+
+**What was found.** `HAL_CLAIM_RENDERS` was `{}` in `craft_hal.py` through
+her entire Phase 2 pass and all four checkpoints. `contestation.py` reads
+`ctx["claim_renders"]` and returns `""` when that mapping is empty, so the
+segment whose stated job is *"what we hold when pushed, what we concede,
+how we characteristically respond"* rendered **nothing** for Albina, in
+every run recorded above.
+
+Desert has six renders. Marius now has five. Albina had none.
+
+**How it surfaced.** While authoring Marius's craft table I wrote a comment
+asserting that contestation renders from the `contested_claim` records
+themselves. That was false. Checking it is what exposed the gap.
+
+**What it does and does not change.**
+
+- It does **not** invalidate anything above. She passed the bar that was
+  actually run, and Mark's read of record stands unaltered. The
+  measurements are real measurements of the build that existed.
+- It **does** mean the sustained-disagreement result — the clause this
+  world escalated on, failed twice, and finally satisfied — was produced
+  with the segment designed to carry contested-claim behaviour switched
+  off. Her holding came from the post-history guard and the
+  demonstrations alone. That is a materially thinner build than the
+  architecture intends, and the fact that it passed anyway is interesting
+  rather than reassuring.
+
+**What was done.** Five renders authored from `halclaim001-005`
+(claim / pressure_response / concedes) in her own register, 120–139 words
+each, inside her 160 ceiling. Assembled prompt: 2,679 → 3,342 words,
+readability still green at FK 6.9 / FRE 73.04, apparatus sweep clean
+(`Doc_0N` 0, `halforce` 0, `Author Gravity` 0, asterisks 0).
+
+**What was NOT done: she is not swapped.** This is ~900 tokens of new
+voice content in a deployed world, and what checkpoint 4 measured was a
+build without it. Adding it **re-opens her checkpoint** rather than
+closing anything. `data/hieronymian_world` is untouched; commit `735b136`
+remains the deployed state and its rollback is unchanged.
+
+To keep that visible rather than trusting memory, `assembly_identity.py`
+gains a `PENDING_RECHECKPOINT` registry. Albina is declared in it with a
+reason, and every run now prints:
+
+```
+[assembly-identity] Hieronymian (Albina): PENDING RE-CHECKPOINT (declared,
+not a regression) - assembly is +663 words vs deployed. DO NOT SWAP until
+the checkpoint is re-run.
+```
+
+The registry checks both directions: a declared world whose assembly is
+byte-identical to deployed **fails**, so a stale entry left behind after a
+swap cannot pass silently. Verified by test, with the deployed file
+restored byte-identical afterward.
+
+**Her re-checkpoint is queued behind the same API key as Marius's.**

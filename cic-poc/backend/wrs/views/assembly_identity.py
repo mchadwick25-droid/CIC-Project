@@ -52,6 +52,25 @@ DEPLOYED_WORLDS = [
      BACKEND / "data" / "hieronymian_world" / "hal_Representative_Permanent_Prompt_Albina.txt"),
 ]
 
+# A deployed world whose assembly has DELIBERATELY moved ahead of what is
+# deployed, and which must not be swapped until its checkpoint is re-run.
+# Keyed by label, value is the reason - a bare entry is not allowed, because
+# the whole point is that the delta stays legible.
+#
+# This exists so the gate keeps its meaning. Without it the choice is a
+# permanently-red gate, which trains everyone to ignore a real signal, or a
+# silent swap of un-checkpointed voice content, which is worse. Instead the
+# delta is declared here, reported loudly on every run WITH its size, and
+# does not fail the build. Removing the entry is part of the swap.
+PENDING_RECHECKPOINT = {
+    "Hieronymian (Albina)":
+        "contestation renders authored 2026-08-08 (HAL_CLAIM_RENDERS was {} "
+        "through her entire pass and all four checkpoints, so the segment "
+        "rendered nothing). This is ~900 tokens of new voice content in a "
+        "deployed world: her checkpoint must be RE-RUN before swapping, "
+        "because what checkpoint 4 measured was a build without it.",
+}
+
 
 def check_desert() -> bool:
     import permanent_prompt
@@ -85,7 +104,20 @@ def check_deployed(module_name: str, label: str, deployed_path: Path) -> bool:
     prompt, _ = mod.assemble()
     deployed = deployed_path.read_text(encoding="utf-8")
     if prompt == deployed:
+        if label in PENDING_RECHECKPOINT:
+            print(f"[assembly-identity] {label}: FAIL - declared in "
+                  "PENDING_RECHECKPOINT but assembly is byte-identical to "
+                  "deployed. Either the swap happened and the entry was not "
+                  "removed, or the delta was reverted. Resolve the registry.")
+            return False
         print(f"[assembly-identity] {label}: PASS - byte-identical to deployed")
+        return True
+    if label in PENDING_RECHECKPOINT:
+        delta = len(prompt.split()) - len(deployed.split())
+        print(f"[assembly-identity] {label}: PENDING RE-CHECKPOINT "
+              f"(declared, not a regression) - assembly is {delta:+d} words "
+              f"vs deployed. DO NOT SWAP until the checkpoint is re-run.\n"
+              f"    reason: {PENDING_RECHECKPOINT[label]}")
         return True
     print(f"[assembly-identity] {label}: FAIL - assembly drifted from deployed "
           f"({deployed_path})")

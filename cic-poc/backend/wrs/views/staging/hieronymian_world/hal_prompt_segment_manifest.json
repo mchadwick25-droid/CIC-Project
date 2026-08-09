@@ -23,8 +23,8 @@
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "contested_claim records (claim, pressure_response, concedes) via this world's claim_renders - voice craft renders, R-reviewed",
-   "chars": 0,
-   "est_tokens": 0
+   "chars": 3658,
+   "est_tokens": 914
   },
   {
    "name": "grounding_anchor",
@@ -79,12 +79,12 @@
  "budget": {
   "world_ground_est_tokens": 553,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 3730
+  "static_total_est_tokens": 4644
  },
  "quick_reach": "absent - craft table empty this phase (craft_hal.py)",
  "readability": {
-  "fk_grade": 6.89,
-  "fre": 72.78,
+  "fk_grade": 6.9,
+  "fre": 73.04,
   "violations": []
  }
 }
