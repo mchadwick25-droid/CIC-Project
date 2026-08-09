@@ -362,3 +362,10 @@ that registry always said resolution would look like.
 
 **Watch:** 16 sentences over the 25-word guard, worst 39w — the same
 density axis carried fleet-wide.
+
+**SWAPPED AND LIVE (2026-08-09)** — byte-identical, deployed leak gate
+zero hits, and her `PENDING_RECHECKPOINT` entry removed in the same
+commit: the resolution that registry always said it required.
+
+**Five of six live. Only Desert remains** — still correctly declared
+PENDING RE-CHECKPOINT, his checkpoint 2 running.

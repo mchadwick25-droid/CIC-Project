@@ -38,13 +38,17 @@ DEPLOYED_DESERT = BACKEND / "data" / "desert_world" / "desert_Representative_Per
 
 # Worlds still awaiting their Phase-2 pass: stability only.
 OTHER_WORLDS = [
-    ("s62_syr_permanent_prompt", "Syriac (Yausep)"),
 ]
 
 # Worlds whose Phase-2 pass has SHIPPED: deployed is the assembly's own
 # output, so byte-identity is the bar, exactly as for Desert. Hieronymian
 # joined at the 2026-08-08 swap (checkpoint 4 green, Mark's read of record).
 DEPLOYED_WORLDS = [
+    # Re-swapped 2026-08-09 after checkpoint 5: the build WITH her
+    # contestation renders, on the post-1A block. Her PENDING_RECHECKPOINT
+    # entry is removed in this same commit - the resolution that registry
+    # always said it required. Zero concessions (cp4 had one), readability
+    # clean, fabrication 0.
     ("s62_hal_permanent_prompt", "Hieronymian (Albina)",
      BACKEND / "data" / "hieronymian_world" / "hal_Representative_Permanent_Prompt_Albina.txt"),
     # PAHC joined at the 2026-08-09 swap: checkpoint green on the full 1A
@@ -97,12 +101,6 @@ PENDING_RECHECKPOINT = {
         "authored at measure. This changes a DEPLOYED world's prompt and it "
         "is also the byte-identity reference, so the check above will report "
         "this delta until Desert's checkpoint re-runs and the swap lands.",
-    "Hieronymian (Albina)":
-        "contestation renders authored 2026-08-08 (HAL_CLAIM_RENDERS was {} "
-        "through her entire pass and all four checkpoints, so the segment "
-        "rendered nothing). This is ~900 tokens of new voice content in a "
-        "deployed world: her checkpoint must be RE-RUN before swapping, "
-        "because what checkpoint 4 measured was a build without it.",
 }
 
 
