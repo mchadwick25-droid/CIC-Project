@@ -37,12 +37,25 @@ are in scope.
 
 The Blueprint's original Phase-1A task, still unexecuted (the block
 predates the rebuild; none of Design §2's six additions are in it).
-Content now comes from two sources: Design §2's list (bridge-first entry,
-candidate-understanding offer, callback license, lead-with-insight with
-both field names, three-way disagreement license, shape repertoire) and
+Content now comes from three sources: Design §2's list (bridge-first
+entry, candidate-understanding offer, callback license, lead-with-insight
+with both field names, three-way disagreement license, shape repertoire),
 the Writing Standard (explain before naming; one idea per paragraph,
 pause; define terms naturally; transparent uncertainty in the emic
-register). Sequencing is item 10.
+register), and the **Conversation Palette + Response Composition Protocol**
+(`decisions/VR_1A_Conversation_Palette_2026-08-09.md`, Mark verbatim) —
+the constructive half: sixteen truthful moves available never mandatory,
+intent over pattern (the gravity index IS the hidden-opportunity map),
+sources as witnesses ("which witness best answers this question?"), the
+curator principle as governing sentence. The block's existing defensive
+sections stand. Measurement is session-level palette diversity, never
+per-turn structure compliance.
+
+Evidence the constructive half is needed (measured 2026-08-09, 16 probe
+turns across two worlds): 0 turns tell a story, 1 carries a quotation,
+0 end with a question back (DECLINING_INITIATIVE blind to it — fired 0),
+'we believed/held' lands in only 2 of 8 turns per world, and Marius names
+Leo 4x / Ambrose 5x in 8 turns with no session memory anywhere.
 
 ## 3. Engagement instruments — PENDING MARK (reassessment decision 1)
 
@@ -59,6 +72,18 @@ dual-audience principle explicitly — two questions per transcript:
 *could you follow it easily* (newcomer) and *do you recognize careful
 scholarship* (historian/pastor/seminary reader). The second audience is
 currently tested by nothing.
+
+## 4b. Palette supply-side (curator's collection) — PENDING MARK
+
+Three records/runtime pieces the palette depends on: **`key_line`** — one
+pre-vetted quotable line per story/source record (quotes are rare because
+anti-fabrication rightly suppresses invented ones; supply, not
+permission, is the fix; schema addition, same pattern as ceiling_words);
+**witness variety** — the same theme answerable from more than one
+witness so evidence can vary across conversations; **session flavor
+ledger** — runtime memory of stories/quotes/figures used, re-use taking
+callback framing (folds item 6's option (b) in). Records-schema pieces
+are Mark's license, as frozen ground truth.
 
 ## 5. Layer 2 engagement demonstrations — PENDING MARK (decision 3)
 
