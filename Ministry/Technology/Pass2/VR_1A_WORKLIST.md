@@ -339,6 +339,81 @@ broad/foundational questions as their own category.** Worth adding as a permanen
 class once this specific instance is fixed, not just patched once and left untested going
 forward.
 
+### RESOLVED — scope is ALL SIX, and the layer is the demonstrations (2026-08-10, Voice Rebuild thread)
+
+Mark ran the identical question against the other five and brought all six back. **It is
+the shared-block branch, not Papnoute-specific** — but the mechanism is narrower and more
+fixable than "the short-answer instruction has no substance floor."
+
+**Every world answered a *displaced* question:**
+
+| world | what it actually answered |
+|---|---|
+| Papnoute | what Jesus meant for *our vocation* |
+| Albina | what he meant to *our scholarship*, then "go read the Gospels" |
+| Marius | what *the councils ruled* about him |
+| Yausep | how *we read* him in Scripture |
+| Theon | what *the catechesis outlines* about him |
+| Chloe | how *we gather* around him |
+
+Six angles on a person nobody describes. **Across all six answers the cross appears three
+times, always obliquely, and the resurrection not once.** No ministry, no teaching, no
+parables. The only nativity is Albina's "child in the cave," and it is there as a fact
+about Jerome's biography rather than about Jesus.
+
+**Why it is not simply record coverage.** Christological coverage per world varies more
+than tenfold — imperial-juridical 103/103 records, syriac 75/133, alexandria 73/159,
+pahc 42/147, hieronymian 20/103, desert 14/112 — and answer quality tracks it loosely, so
+Desert's near-empty store is a real compounding cause. But Marius has **100% coverage and
+a 150-word ceiling** and still produced a conciliar formula rather than a person. Coverage
+alone does not explain the displacement.
+
+**The layer that does: the demonstrations.** All 52 demonstration records across the fleet
+were read for the participant question each one models. They cover adversarial probes
+("isn't that religious hatred", "are you an AI", "what's your evidence"), institutional
+questions, daily practice, historiographic challenge, pastoral distress, and
+world-distinctive topics (Origen, Jerome's Hebrew, Leo's Tome, Nicaea, withdrawal).
+**Not one models a foundational question of Christian faith** — no "who was Jesus," no
+"what do you believe," no "what is the gospel." The closest, "what did it mean in your
+community to give your whole life to God," is again a practice question.
+
+Layer 2 of the five-layer voice design therefore teaches every world, by 52 worked
+examples, that a question is answered *from your distinctive angle*. Asked about the one
+thing all six hold in common, each reaches for the only move it has been shown.
+
+**A structural finding that explains why nothing caught this.** Desert has twelve record
+types — gravity, force, contested_claim, term, story, figure, quote, world_core,
+voice_profile, demonstration, source, search_record — and every one is a *differentiator*.
+A search of all six worlds' `world_core` for "shared Christian / whole Church / held in
+common / catholic" returns **zero hits**. The store has a schema for difference and none
+for the shared center, so the center falls between the worlds.
+
+**A shared-center record was proposed and REJECTED by Mark**, correctly: it would open the
+door to a Representative speaking outside its own sources, which is the integrity line the
+whole project rests on. **The demonstration fix respects that line and is strictly better
+for it** — a demonstration is authored *from that world's own records* (desertdemo010's own
+note: "the material is desertstory004's own text and its own key_line verbatim, nothing
+invented"). Foundational-question demonstrations would have each world answer the center
+**in** its idiom from its **own attested sources**, instead of substituting its idiom
+**for** the center. The fix is more in-world, not less.
+
+Where a world cannot author one because the material genuinely is not in its store — Desert
+at 14/112 — that failure is itself the signal, and the remedy is still in-world: Desert's
+own source registry already carries **the Letters of Antony (`srcDES003`)** and the *Life
+of Antony*, the most theologically substantive material the world has, never mined into
+records. Desert can speak about Christ; its record store cannot.
+
+**Confirms this item's own closing observation** — no probe battery tests broad/foundational
+questions as a category. That gap is now measured, not suspected: 52 demonstrations, zero.
+
+**What shipped, and what deliberately did not.** `858aff0d` adds a mode-aware ceiling
+mechanism (interview vs table), per Mark's ruling that "interview gets more room than table
+when it's warranted" — the Blueprint's own open Phase 3 item. It is **behavior-neutral and
+is not a prompt patch**: no world declares an interview number yet, all six still resolve
+interview == table, and each world's number is left to its own build with a derivation
+field, exactly as `ceiling_words` already carries. Nothing about this item's substance
+defect was patched ad hoc, per Mark's ruling above.
+
 **Cross-reference:** logged as a blocking DO NOW item on the Task Board (2026-08-10 entry)
 so it's visible outside this thread. A real but unrelated UI bug was also found and fixed
 in the same session (`CitationMarker.tsx` tooltip-width mismatch, `8141947e`) — separate
