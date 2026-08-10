@@ -1848,6 +1848,34 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         # class. Fail-open: if the regeneration also fails or the check
         # errors, the draft stands and post-round governance still
         # watches, exactly as before.
+        # Repair transcript-format leakage BEFORE anything else looks at
+        # the draft: a leading "Chloe:" and, more seriously, another
+        # world's dialogue written inside this turn (measured in every
+        # Haiku arm, zero in both Sonnet arms - see
+        # app/speaker_label_repair.py for the numbers and why this is a
+        # deterministic repair rather than another prompt sentence).
+        # First, because the fabrication gate below should judge what
+        # will actually be SPOKEN, not a draft carrying another voice's
+        # words - which is also the exact material most likely to look
+        # ungrounded against THIS world's record.
+        if full_text:
+            from app.speaker_label_repair import repair_speaker_labels
+            _seated = (state.world_ids if len(state.world_ids) > 0
+                       else [state.world_id])
+            _others = [get_representative_name(w) for w in _seated
+                       if w and w != ctx["current_world_id"]]
+            _repaired = repair_speaker_labels(
+                full_text, get_representative_name(ctx["current_world_id"]),
+                [n for n in _others if n],
+                world_id=ctx["current_world_id"], request_id=request_id,
+                session_id=state.session_id)
+            if _repaired != full_text:
+                # The buffered branch re-yields from `pieces`, so the
+                # repaired text has to replace them wholesale - streaming
+                # the original pieces would put the artifact back on the
+                # participant's screen.
+                full_text, pieces = _repaired, [_repaired]
+
         if full_text and _fabrication_gate_applies(settings.llm_model):
             from app.fabrication_gate_logging import (
                 OUTCOME_CHECK_FAILED, OUTCOME_CLEAN, OUTCOME_REGEN_EMPTY,
