@@ -1799,6 +1799,49 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                 word_count, OUTCOME_UNDER,
                 request_id=request_id, session_id=state.session_id,
             )
+        # T2 fabrication gate (2026-08-10, Mark's ruling on the blind-read
+        # watchlist: every flagged class passes EXCEPT the invented
+        # vignette - particular people, relationships, or events spoken as
+        # communal memory with nothing in the record behind them; that
+        # class gets a countermeasure). The existing screen+adjudicator
+        # runs here PRE-EMISSION on the already-buffered draft instead of
+        # only post-hoc: check_drift_for_message returns a fabrication
+        # signal only when the adjudicator did NOT rule the draft grounded
+        # (grounded verdicts return None), so a surviving flag earns one
+        # corrective regeneration before anything is spoken - the length-
+        # retry pattern applied to the fabrication bar. Scoped to Haiku
+        # voices: the ruled class arose only there, Sonnet's flags were
+        # retrieval-miss false positives, and the extra pre-emission
+        # latency is not charged to a model that did not produce the
+        # class. Fail-open: if the regeneration also fails or the check
+        # errors, the draft stands and post-round governance still
+        # watches, exactly as before.
+        if full_text and "haiku" in (settings.llm_model or "").lower():
+            try:
+                _fab_sig = check_drift_for_message(
+                    ctx["current_world_id"], full_text)
+            except Exception:
+                _fab_sig = None
+            if _fab_sig is not None and _fab_sig.signal_type == "fabrication":
+                print(
+                    f"[fabrication_gate] {ctx['current_world_id']} draft "
+                    f"flagged ({_fab_sig.severity}) pre-emission - "
+                    "regenerating once.")
+                _fab_corrective = HumanMessage(content=(
+                    "Stop. Part of that answer told of particular people, "
+                    "relationships, or events as if our community remembers "
+                    "them, and our record does not hold them. Answer the "
+                    "same question again speaking only from what our record "
+                    "actually carries - a real story from it, or our "
+                    "community's honest \"we were never told.\" Invent no "
+                    "person and no scene."))
+                _fab_text, _fab_pieces = _generate_once(
+                    messages + [AIMessage(content=full_text), _fab_corrective])
+                if _fab_text:
+                    print(
+                        f"[fabrication_gate] {ctx['current_world_id']} "
+                        f"regenerated ({len(_fab_text.split())} words).")
+                    full_text, pieces = _fab_text, _fab_pieces
         for piece in pieces:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
     else:

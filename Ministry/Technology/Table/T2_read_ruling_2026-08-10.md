@@ -32,10 +32,18 @@ would never catch and its not an integrity or trust problem."
 
 **Explicitly NOT settled by this ruling:**
 
-- **The 1B fabrication watchlist** (adjudicated-extrinsic signals on
-  BOTH models, quoted per turn in `T2_read_key_2026-08-10.md`):
-  PENDING MARK — either ruled on their texts (Albina precedent) or
-  logged as deferred to pilot monitoring. Asked 2026-08-10.
+- ~~The 1B fabrication watchlist: PENDING MARK~~ **RULED 2026-08-10,
+  same day, on the side-by-side evidence
+  (`T2_fabrication_side_by_side_2026-08-10.md`): "pass on all but #3,
+  add the countermeasure for that class."** Entries #1/#2 are grounded
+  retrieval-miss false positives; the abstraction class (#4–#8) passes
+  as WATCH; entry #3 (the invented vignette — particular people and
+  events spoken as communal memory with nothing in the record) is the
+  one blocked class. **Countermeasure implemented the same day: the
+  fabrication gate** — the existing screen+adjudicator run pre-emission
+  on the buffered draft, Haiku voices only, one corrective regeneration
+  on a surviving flag, fail-open (nodes.py, `[fabrication_gate]` log
+  lines; verification arm `haiku-v4-guard-fabgate-table`).
 - **Solo Deep Interview on Haiku** — the read covered the Table only.
   "Everything to Haiku" includes the free tier's solo mode, which is
   unmeasured on Haiku; the existing solo checkpoint instrument covers
