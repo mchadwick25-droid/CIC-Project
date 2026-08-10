@@ -2117,9 +2117,17 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     """
     from app.drift_signal_logging import log_drift_signal_outcome
     signal = _detect_drift_signal_impl(response_text, world_id)
+    # T3/B6: a flagged signal now carries its own rationale and a head of
+    # the turn that drew it, so a hard-bar finding can be ruled from its
+    # own artifact instead of reconstructed by log position (see
+    # drift_signal_logging's docstring for the three times that cost).
+    # Only on a fire: a clean turn's text is not evidence of anything and
+    # would put every ordinary turn in the log twice.
     log_drift_signal_outcome(
         world_id, signal.signal_type if signal else None,
-        signal.severity if signal else None)
+        signal.severity if signal else None,
+        description=signal.description if signal else None,
+        flagged_head=response_text if signal else None)
     return signal
 
 

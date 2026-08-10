@@ -37,10 +37,18 @@ if not logger.handlers:
     logger.addHandler(_handler)
 
 
+# How much of a flagged turn rides on the line. Long enough to identify
+# the turn and see what earned the flag; short enough to stay a log line.
+FLAGGED_HEAD_CHARS = 240
+
+
 def log_drift_signal_outcome(
     world_id: str | None,
     signal_type: str | None,
     severity: str | None,
+    *,
+    description: str | None = None,
+    flagged_head: str | None = None,
 ) -> None:
     """
     Log one _detect_drift_signal() call's outcome.
@@ -55,11 +63,40 @@ def log_drift_signal_outcome(
         outcomes rather than only the interesting cases.
     severity: "low" | "medium" | "high" when signal_type is set; None when
         clean.
+    description (T3/B6): the signal's own rationale - for an adjudicated
+        fabrication this is where "Adjudication: extrinsic - <reason>"
+        lives, appended by _detect_drift_signal. Newlines are flattened so
+        one signal stays one line.
+    flagged_head (T3/B6): the first FLAGGED_HEAD_CHARS of the turn that
+        drew the signal.
+
+    Why the last two exist. A hard-bar signal that cannot be audited from
+    its own artifact has cost this project real time three times now: at
+    Albina's checkpoint (2026-08-09), where locating a single fabrication
+    flag meant reconstructing the drift-record index against the exchange
+    list by hand and the commit recorded it as "a defect in the
+    instrument, not just this run"; again when ruling the T2 blind-read
+    watchlist, where every flagged turn had to be recovered by log
+    POSITION against round markers; and again in cell 6, where the
+    fabrication gate's own screens were indistinguishable from the
+    post-round watch's. The gate's line already carries its head
+    (app/fabrication_gate_logging.py); this closes the same gap on the
+    watch that flags everything else.
+
+    PARSING NOTE for harnesses: the scalar fields stay strict key=value
+    and come FIRST, so the existing whitespace-splitting capture
+    (scripts/voice_rebuild_research_probe.py's _TaggedLogCapture) keeps
+    reading them unchanged. The two free-text fields are quoted reprs and
+    come LAST; read them with a regex, not a whitespace split, which will
+    otherwise stop at their first space.
     """
     try:
+        desc = (description or "").replace("\n", " ").strip()
+        head = (flagged_head or "").replace("\n", " ").strip()[:FLAGGED_HEAD_CHARS]
         logger.info(
-            "[drift_signal] world_id=%s signal_type=%s severity=%s",
-            world_id, signal_type or "none", severity or "none",
+            "[drift_signal] world_id=%s signal_type=%s severity=%s "
+            "description=%r flagged_head=%r",
+            world_id, signal_type or "none", severity or "none", desc, head,
         )
     except Exception:
         pass

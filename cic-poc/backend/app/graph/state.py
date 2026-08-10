@@ -48,6 +48,17 @@ class DriftSignal:
     # and "question_stacking" are multi-representative-table signals and are
     # always attributed to a specific world_id.
     world_id: Optional[str] = None
+    # T3/B6: a head of the turn that drew this signal. A hard-bar finding
+    # that cannot be audited from its own record has cost this project real
+    # time three times (Albina's checkpoint 2026-08-09, whose commit called
+    # it "a defect in the instrument, not just this run"; the T2 watchlist
+    # ruling; cell 6's ambiguous counts) - every one of them reconstructed
+    # the offending text by hand from log position. Optional with a default
+    # so every existing construction site, every stored event, and every
+    # replay of a log written before this field existed stay valid
+    # unchanged (events.py rebuilds these with DriftSignal(**payload)).
+    # Bounded at the writer, not here - see governance.py's own note.
+    flagged_head: Optional[str] = None
 
 
 @dataclass

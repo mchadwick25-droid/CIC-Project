@@ -37,6 +37,13 @@ import asyncio
 from dataclasses import dataclass, field
 
 
+# T3/B6: how much of a flagged turn is stored on a durable drift event.
+# Matched to app/drift_signal_logging.FLAGGED_HEAD_CHARS so the log line
+# and the event carry the same amount, and a reader comparing them is not
+# left wondering which one truncated.
+DRIFT_FLAGGED_HEAD_CHARS = 240
+
+
 @dataclass
 class PreTurnOutcome:
     is_epistemology_bridge: bool = False
@@ -332,6 +339,14 @@ def run_post_round_governance(
             signal = check_drift_for_message(msg_world_id, msg.content)
             if signal is None:
                 continue
+            # T3/B6: attach a head of the turn that drew the signal, so the
+            # session's own event log can be read for a ruling instead of
+            # the offending text being reconstructed by hand against the
+            # exchange list (Albina's checkpoint, the T2 watchlist, cell 6
+            # - three times). Bounded HERE, at the writer, because this
+            # payload is durable: an unbounded turn would put a full
+            # representative answer into every drift event forever.
+            signal.flagged_head = str(msg.content)[:DRIFT_FLAGGED_HEAD_CHARS]
             new_drift_signals.append(signal)
             if signal.severity in ("medium", "high"):
                 guidance_items.append((msg_world_id, signal.signal_type,
@@ -340,9 +355,15 @@ def run_post_round_governance(
 
         tail_events: list[tuple[str, dict]] = []
         if new_drift_signals:
+            # T3/B6: flagged_head joins the payload. Safe to add because
+            # events.py rebuilds these with DriftSignal(**payload) and the
+            # field is optional with a default - so an event written
+            # before this change still replays, and one written after
+            # replays into the same shape.
             tail_events.append(("drift_signals_appended", {"signals": [
                 {"signal_type": s.signal_type, "description": s.description,
-                 "severity": s.severity, "world_id": s.world_id}
+                 "severity": s.severity, "world_id": s.world_id,
+                 "flagged_head": s.flagged_head}
                 for s in new_drift_signals]}))
         for wid, stype, sev, text in guidance_items:
             tail_events.append(("guidance_queued", {
