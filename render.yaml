@@ -127,6 +127,12 @@ services:
       #    measured, so both breakpoints in _cached_system_message should
       #    still cache - but confirm cache_read is non-zero in the
       #    [llm_usage] lines rather than assuming it.
+      #    CONFIRMED 2026-08-10 from Chloe's Haiku checkpoint log, measured
+      #    not assumed: of 68 main_response calls, 67 carried non-zero
+      #    cache_read averaging 12,820 tokens, against a single ~13k cache
+      #    write. Caching behaves exactly as on Sonnet; the 4096-token
+      #    minimum prefix is not a problem at this prompt size. WATCH ITEM
+      #    2 IS CLOSED.
       # 3. First checkpoint ON Haiku (2026-08-10, Chloe): hard bars all held
       #    (mean 115.2 vs Sonnet 115.5, zero breaches/concessions/fabrication,
       #    regeneration 6/8 - unchanged from Sonnet); citations fell 7/8->3/8
