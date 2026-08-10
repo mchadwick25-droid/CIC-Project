@@ -31,6 +31,62 @@ services:
         sync: false
       - key: CORS_ORIGINS
         sync: false
+      # Conversation tracking. Added 2026-08-09 after Mark confirmed he DOES
+      # want conversations tracked (not necessarily tied to a name), and a
+      # direct read of the code found nothing durable was actually storing
+      # them in this deployment.
+      #
+      # THE GAP, verified in code rather than assumed:
+      #   - OnboardingScreen.tsx tells EVERY participant, unconditionally,
+      #     "Your conversation in this session is being saved and cataloged
+      #     ... reviewed by the project team", and links a privacy page
+      #     stating what is stored and how to request deletion.
+      #   - The durable audit log (events.py _persist_supabase, the
+      #     session_events table) is correctly UN-gated from
+      #     PILOT_LOGGING_ENABLED - but it still returns early when
+      #     supabase_configured() is False.
+      #   - supabase_configured() is just bool(url and service_key), and
+      #     THIS FILE DECLARED NEITHER - unlike ANTHROPIC_API_KEY and
+      #     CORS_ORIGINS above, which are declared sync:false precisely so
+      #     the dashboard is known to be their source.
+      #   - The only other durability is JSONL at
+      #     transcripts/events/<session_id>.jsonl, and this service declares
+      #     NO disk/volume and the Dockerfile no VOLUME - so it is ephemeral
+      #     container storage, wiped on every restart and every redeploy.
+      #
+      # Net effect until these are set: the app promises participants a
+      # catalogued conversation and keeps it only until the next redeploy.
+      #
+      # Declaring them sync:false changes NO behaviour on its own - an unset
+      # value leaves supabase_configured() False exactly as today. It makes
+      # the requirement visible instead of silent. Mark sets the real values
+      # in the Render dashboard (Settings -> Environment); account actions
+      # are his.
+      #
+      # ANONYMITY IS PRESERVED, which is what Mark asked for. Configuring
+      # Supabase does NOT force sign-in: auth.py's get_current_user returns
+      # the anonymous placeholder when Supabase is configured but no token
+      # is offered ("sign-in is an ask for this pilot, not a requirement").
+      # sessions.user_id is nullable and set only for a signed-in
+      # participant (main.py:477), so anonymous conversations are stored
+      # against a session UUID with no name attached.
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      # The human-readable transcript view (sessions + messages tables via
+      # transcript_logging.py) - "the human-readable transcript view Mark
+      # actually reviews", per that module's own docstring. Separate from
+      # the session_events audit log above, and gated on this flag AND
+      # Supabase, so with Supabase unset this remains a no-op.
+      #
+      # The module's stated precondition for turning this on - "only enable
+      # for an actual tester pilot where the onboarding text already
+      # discloses this" - is already met: the cataloging disclosure in
+      # OnboardingScreen.tsx is unconditional and shipped, and links the
+      # privacy page. Turned on 2026-08-09 at Mark's direction.
+      - key: PILOT_LOGGING_ENABLED
+        value: "true"
       - key: LLM_PROVIDER
         value: anthropic
       # Representative/Facilitator GENERATION model. Moved from
