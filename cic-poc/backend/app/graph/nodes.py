@@ -72,6 +72,26 @@ def _is_large_table_opening(state: ConversationState, is_reactive: bool) -> bool
     return len(world_ids) > 1 and len(world_ids) >= LARGE_TABLE_THRESHOLD
 
 
+def _fabrication_gate_applies(model: str | None) -> bool:
+    """True when this generation model gets the pre-emission fabrication
+    gate (T3/B1; settings.fabrication_gate_models, default haiku-only).
+
+    Entries are matched as lowercase substrings so a dated model id needs
+    no config edit. An empty list disables the gate outright.
+
+    Note the gate can only run where a draft is BUFFERED - i.e. inside
+    stream_representative_turn's ceilinged branch. A world with no hard
+    ceiling streams token by token, so there is no complete draft to
+    judge before the participant reads it. All six live worlds carry a
+    ceiling today (repair_classifier.ceiling_words_map), so this is not
+    currently a gap; it would become one the moment a world ships without
+    one, which is why it is written down here rather than assumed.
+    """
+    configured = settings.fabrication_gate_models or []
+    lowered = (model or "").lower()
+    return any(entry.lower() in lowered for entry in configured if entry)
+
+
 from app.graph.world_sources import load_world_sources
 from app.rag import LexiconRetriever, StoryRetriever
 from app.rag.retrieval_mode import ADJUDICATION
@@ -1170,25 +1190,37 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
                 "clarifications the participant did not ask for, and never "
                 "\"when I said X\" for a word this conversation has not "
                 "actually spoken.")
-            # T2 cell 5 (2026-08-10, Mark): the numeric measure rides in
-            # the guard slot - prevention over the paid retry. Same
-            # placement logic as the clause above (S5.2/FLAG-018: the
-            # instruction that must survive attention decay rides closest
-            # to generation); measured need: conversational tables fire
-            # the ceiling retry on ~80-90% of turns in BOTH models, and
-            # the smaller model's retries mostly fail (35/49 still over).
-            # Experimental at the wiring site; graduates to the per-world
-            # POST_HISTORY_GUARDS exports via candidates if adopted.
-            try:
-                from app.graph.repair_classifier import ceiling_words_map
-                _measure = (ceiling_words_map() or {}).get(current_world_id)
-            except Exception:
-                _measure = None
-            if _measure:
-                post_history_guard += (
-                    f" Hold this turn to about {_measure} words at most - "
-                    "your own world's measure. Land inside it the first "
-                    "time: fewer sentences, not less said.")
+            # T2 cell 5's numeric-measure clause was REMOVED here at
+            # T3/B1 (2026-08-10) rather than graduated into the per-world
+            # exports as the blueprint anticipated. The blueprint item
+            # assumed the clause was carrying something; reading the
+            # exports while implementing it showed it was not:
+            #   * Redundant. Five of the six POST_HISTORY_GUARDS entries
+            #     already state that world's measure in that world's own
+            #     voice, in this same slot - Desert's "a word, not a
+            #     discourse. One to three sentences... Four is already
+            #     long" against a 70-word ceiling; Chloe's "a handful of
+            #     short sentences... two short paragraphs at the very
+            #     most"; Yausep's "one or two stages, not the whole
+            #     case"; Marius's "none past about twenty-five words".
+            #     The clause appended a mechanical restatement of prose
+            #     that was already there.
+            #   * Measured null. Cell 5 (Haiku, with the clause) fired 55
+            #     ceiling retries against cell 4's 60 without it, same
+            #     overrun distribution, retries still failing 36/55 -
+            #     inside run-to-run variance, no effect.
+            #   * Register conflict. Bolting "about 70 words at most"
+            #     onto prose written in the world's own idiom is exactly
+            #     the mechanical-instruction shape the Writing Standard
+            #     and the voice design keep out of these guards.
+            # Graduating it would have written permanent bloat into six
+            # worlds' exports, through candidates and checkpoints, for a
+            # measured zero. Recorded rather than quietly dropped: this
+            # corrects a call the T3 design made ("kept - measured-
+            # harmless") on evidence that arrived while building it. The
+            # length finding itself is unchanged and still open - Haiku
+            # runs fuller than these ceilings and prompting does not fix
+            # it (design §3 accepts the retry cost for the pilot).
             # The IJC-scoped extension that used to be hardcoded here
             # (S6.2/IJC freeze, 2026-07-31, Decision IJC-3 / FLAG-037 - two
             # Phase-5-fixed classes leaking under full-context dilution) now
@@ -1816,17 +1848,27 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         # class. Fail-open: if the regeneration also fails or the check
         # errors, the draft stands and post-round governance still
         # watches, exactly as before.
-        if full_text and "haiku" in (settings.llm_model or "").lower():
+        if full_text and _fabrication_gate_applies(settings.llm_model):
+            from app.fabrication_gate_logging import (
+                OUTCOME_CHECK_FAILED, OUTCOME_CLEAN, OUTCOME_REGEN_EMPTY,
+                OUTCOME_REGENERATED, log_fabrication_gate_outcome,
+            )
+            _fab_words = len(full_text.split())
+            _fab_failed = False
             try:
                 _fab_sig = check_drift_for_message(
                     ctx["current_world_id"], full_text)
             except Exception:
-                _fab_sig = None
-            if _fab_sig is not None and _fab_sig.signal_type == "fabrication":
-                print(
-                    f"[fabrication_gate] {ctx['current_world_id']} draft "
-                    f"flagged ({_fab_sig.severity}) pre-emission - "
-                    "regenerating once.")
+                # Fail-open: a gate that cannot run must never cost the
+                # participant their turn. The post-round watch still sees
+                # this turn, exactly as it did before the gate existed.
+                _fab_sig, _fab_failed = None, True
+            if _fab_failed:
+                log_fabrication_gate_outcome(
+                    ctx["current_world_id"], OUTCOME_CHECK_FAILED,
+                    first_draft_words=_fab_words, flagged_head=full_text,
+                    request_id=request_id, session_id=state.session_id)
+            elif _fab_sig is not None and _fab_sig.signal_type == "fabrication":
                 _fab_corrective = HumanMessage(content=(
                     "Stop. Part of that answer told of particular people, "
                     "relationships, or events as if our community remembers "
@@ -1837,11 +1879,27 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                     "person and no scene."))
                 _fab_text, _fab_pieces = _generate_once(
                     messages + [AIMessage(content=full_text), _fab_corrective])
+                # An empty regeneration keeps the first draft (same
+                # discipline as the length-ceiling retry above) and is
+                # logged as its own outcome rather than as a success: it
+                # still fired, still cost a call, and still spoke the
+                # flagged draft.
+                log_fabrication_gate_outcome(
+                    ctx["current_world_id"],
+                    OUTCOME_REGENERATED if _fab_text else OUTCOME_REGEN_EMPTY,
+                    severity=_fab_sig.severity, first_draft_words=_fab_words,
+                    regenerated_words=len(_fab_text.split()) if _fab_text else 0,
+                    flagged_head=full_text, request_id=request_id,
+                    session_id=state.session_id)
                 if _fab_text:
-                    print(
-                        f"[fabrication_gate] {ctx['current_world_id']} "
-                        f"regenerated ({len(_fab_text.split())} words).")
                     full_text, pieces = _fab_text, _fab_pieces
+            else:
+                # Logged so the fire rate has a denominator - cell 6's
+                # did not, which is half of why this module exists.
+                log_fabrication_gate_outcome(
+                    ctx["current_world_id"], OUTCOME_CLEAN,
+                    first_draft_words=_fab_words, request_id=request_id,
+                    session_id=state.session_id)
         for piece in pieces:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
     else:

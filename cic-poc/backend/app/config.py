@@ -61,6 +61,27 @@ class Settings(BaseSettings):
     # unavailable, not for validating conversation quality.
     mock_llm: bool = False
 
+    # T3/B1: which generation models get the pre-emission fabrication gate
+    # (stream_representative_turn in app/graph/nodes.py). Each entry is
+    # matched as a lowercase SUBSTRING of llm_model, so "haiku" covers
+    # every dated Haiku id without this list needing an edit per release.
+    #
+    # Default haiku-only, per Mark's ruling on the T2 blind-read watchlist
+    # (2026-08-10): every flagged class passed EXCEPT the invented vignette
+    # - particular people, relationships or events spoken as communal
+    # memory with nothing in the record behind them - and that class arose
+    # only in the Haiku arms. Sonnet's two flags were both retrieval-miss
+    # false positives (the record held the material near-verbatim), so
+    # Sonnet is deliberately not charged the gate's screen call or its
+    # pre-emission latency. Evidence: Ministry/Technology/Table/
+    # T2_fabrication_side_by_side_2026-08-10.md.
+    #
+    # Set to [] to disable the gate entirely; the post-round drift watch
+    # is unaffected either way and stays on as defence in depth (cell 6
+    # measured the gate catching 5 of 6 flag events pre-emission, the
+    # sixth caught only by that post-round watch).
+    fabrication_gate_models: list[str] = ["haiku"]
+
     # Server-side transcript capture for the tester pilot (see
     # app/transcript_logging.py). Off by default - only turn on for an
     # actual pilot deployment where testers have been told, in the
