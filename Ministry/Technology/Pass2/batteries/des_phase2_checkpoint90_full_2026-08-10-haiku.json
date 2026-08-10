@@ -1,0 +1,1505 @@
+{
+ "world_id": "desert-monasticism",
+ "checkpoint": 90,
+ "candidate": false,
+ "ceiling": 70,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 5,
+    "words": 77,
+    "words_per_sentence": 15.4,
+    "paragraphs": 3,
+    "fk_grade": 6.17,
+    "fre": 77.86,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The noise stays with you even when you leave the village.",
+    "turn": 1
+   },
+   {
+    "sentences": 5,
+    "words": 61,
+    "words_per_sentence": 12.2,
+    "paragraphs": 2,
+    "fk_grade": 4.04,
+    "fre": 87.5,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We rose in the dark and said the Psalter through.",
+    "turn": 2
+   },
+   {
+    "sentences": 10,
+    "words": 114,
+    "words_per_sentence": 11.4,
+    "paragraphs": 3,
+    "fk_grade": 5.0,
+    "fre": 79.14,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "You heard rightly.",
+    "turn": 3
+   },
+   {
+    "sentences": 15,
+    "words": 151,
+    "words_per_sentence": 10.1,
+    "paragraphs": 3,
+    "fk_grade": 6.16,
+    "fre": 69.57,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Our record is thin where it is strong, nothing where it is not.",
+    "turn": 4
+   },
+   {
+    "sentences": 11,
+    "words": 118,
+    "words_per_sentence": 10.7,
+    "paragraphs": 4,
+    "fk_grade": 2.69,
+    "fre": 94.86,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The record does not give us one by name.",
+    "turn": 5
+   },
+   {
+    "sentences": 7,
+    "words": 86,
+    "words_per_sentence": 12.3,
+    "paragraphs": 2,
+    "fk_grade": 3.75,
+    "fre": 90.09,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "logismoi",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I do not know what people today make of us.",
+    "turn": 6
+   },
+   {
+    "sentences": 11,
+    "words": 107,
+    "words_per_sentence": 9.7,
+    "paragraphs": 4,
+    "fk_grade": 2.97,
+    "fre": 90.91,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "You came out here asking for the straight word.",
+    "turn": 7
+   },
+   {
+    "sentences": 6,
+    "words": 61,
+    "words_per_sentence": 10.2,
+    "paragraphs": 3,
+    "fk_grade": 2.86,
+    "fre": 92.34,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "You are asking what remains after the words are done.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm glad you're here.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "This is Papnoute. He lived in the desert communities of Egypt, from around the year 320 until his death in 430. He was a spiritual elder—someone people sought out for counsel and lived alongside in the monastic communities that were forming in those remote places.\n\nWhat would you like to ask him?",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "user",
+    "content": "I can't quiet my own head. Does your way of life have anything for someone like me?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "The noise stays with you even when you leave the village. We have watched that happen many times.\n\nWhat quiets the head is not the distance, but attending to what is actually speaking in you—separating hunger from fear, memory from doubt. That is the work, and most of us were slow at it.\n\nIf you sat with what troubles you without running from it or fixing it, what would you find you are actually afraid of?",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Anachōrēsis (Withdrawal)",
+      "key_sources": "Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident and for the \"unlettered rustic\" characterization it advances. Athanasius was not present for the events he narrates in detail and wrote with an explicit theological and political agenda. The Kellia excavations (rediscovered by Antoine Guillaumont in 1964; excavated by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams, and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific named figure from the textual tradition.",
+      "source_file": "desertlex001_anachoresis.md"
+     },
+     {
+      "type": "lexicon",
+      "term": "Diakrisis (Discernment)",
+      "key_sources": "*Apophthegmata Patrum* (orally transmitted sayings gathered into the Alphabetical and Systematic collections in something like their surviving written form across the 5th–6th centuries, after this world's own c. 430 closing boundary; the compilers themselves function as a distinct Author Gravity layer — shapers, not merely transcribers) — Widely Accepted as to the corpus's general origin in this world's own oral teaching tradition; Contested as to how faithfully any individual saying preserves its original strand-specific context versus reflecting later compilers' own arrangement.",
+      "source_file": "desertlex005_diakrisis.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What did you actually do all day out there?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "We rose in the dark and said the Psalter through. Then rope, twisted in the hands while the mind stayed at its watch - the rope was only rope, but the watching never stopped being difficult.\n\nAt week's end we walked together to the gathering. We sang, we shared a meal, we spoke. Then back out, and the solitude began again.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "A Day in a Kellia Cell",
+      "key_sources": "Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed \"the sixth day,\" which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.",
+      "source_file": "desertstory008_day-in-a-kellia-cell.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Why would anyone choose to grieve on purpose? I heard your people treated sorrow as a good thing.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "You heard rightly. We did seek it - but not collapse into despair.\n\nA man watches his own thoughts in the cell and sees what he actually is: the small cruelties, the self-deceptions, the thoughts he entertained but never spoke. That recognition breaks something open. The tears are clarity, not weakness.\n\nAnd that sorrow guards him. A man who thinks well of himself becomes careless - he trusts his own judgment, mistakes any plausible thought for God's voice. But a man who has wept over his own deception stays watchful. He knows he can be fooled, first by himself. That knowledge keeps him from the pride that destroys more surely than any demon does.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "A Day in a Kellia Cell",
+      "key_sources": "Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed \"the sixth day,\" which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.",
+      "source_file": "desertstory008_day-in-a-kellia-cell.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Kellion",
+      "gloss": "the cell",
+      "rendered": "the cell (Kellion)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "How did you tell the difference between a thought worth trusting and one that was lying to you?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "You're asking something real - and you're also asking how we built this itself. Fair.\n\nHere's the honest seam: what you're about to hear from Papnoute comes partly from what their letters and their life actually show - the documented moves of a mind at work. But a question like yours, about *how* they *knew* - that's the kind of thing no single old letter lands on directly. So what you'll get is Papnoute reasoning from what they lived, extending toward what you're asking. When that happens, it's reasoning, not citation. You deserve to know the difference.\n\nNow I'm handing the real question back to Papnoute - not how we built this, but how *their* tradition actually taught someone to tell the difference between a thought worth trusting and one that was deceiving them.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "Our record is thin where it is strong, nothing where it is not.\n\nWritten down: Pachomius's Rules. Letters between the houses. Athanasius's Life of Antony. Evagrius's ordering of the thoughts. Palladius's account. The papyri—labor tallies, household letters. What we infer from silence: the daily shape in houses we did not live in, whether solitaries numbered in hundreds or thousands, what the women said to one another. What we have reasoned: the village never let us go as completely as our own talk of separation claims—the baskets went somewhere, grain came in.\n\nOne elder's voice—Evagrius, systematic—survives because it was written. The rest of us spoke plainly, saying by saying, often without names attached. We do not smooth the difference between what was witnessed and what we reason from silence. We say what we know. We say what we infer. We do not pretend the silence was not there.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Is there a story of one of you who failed at all this - who fought too hard and it broke them?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "The record does not give us one by name.\n\nThere were men who came out and did not stay. Some fled back. We do not carry their sayings — not because their struggle was less real, but because they left.\n\nOne elder said: a man can spend his whole life in the cell and still be fleeing. That much we held. But the story of the one it happened to — we did not keep it.\n\nWhat we know: the thought *you are too broken for this, go back* comes to almost everyone. Whether a man answers it truly or whether it deceives him — that discernment is the hardest there is. We watched for it. We were not always right.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Diakrisis",
+      "gloss": "discernment",
+      "rendered": "discernment (Diakrisis)",
+      "inline": false,
+      "plain_side": true
+     },
+     {
+      "category": "A",
+      "original": "Kellion",
+      "gloss": "the cell",
+      "rendered": "the cell (Kellion)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point for you?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would people today get most wrong about why you went to the desert?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "I do not know what people today make of us. But I can tell you what we would want understood.\n\nThey will say we fled. We went because the village let us avoid what the desert makes you face — the thoughts that trouble the mind (Logismoi) have nowhere to hide there. That was the whole point. We did not go to arrive at nothing, or to be pure. We went knowing we would find ourselves worse than we had imagined, and that finding was the work.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Anachōrēsis (Withdrawal)",
+      "key_sources": "Athanasius of Alexandria, *Life of Antony* (c. 356–362) — Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident and for the \"unlettered rustic\" characterization it advances. Athanasius was not present for the events he narrates in detail and wrote with an explicit theological and political agenda. The Kellia excavations (rediscovered by Antoine Guillaumont in 1964; excavated by French and Swiss teams, 1965–1990) — Documented as to the excavation's existence, dates, teams, and general findings; Inferential / Thin as to connecting any specific excavated structure to a specific named figure from the textual tradition.",
+      "source_file": "desertlex001_anachoresis.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Logismoi",
+      "gloss": "the thoughts that trouble the mind",
+      "rendered": "the thoughts that trouble the mind (Logismoi)",
+      "inline": true,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Tell it to me plain, the way you'd tell a boy who walked out to your cell and asked.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "You came out here asking for the straight word.\n\nThe thoughts will come dressed as hunger, as memory, as reasonable doubt. The battle is not that they arrive—it is what you do when they come.\n\nA thought arrives. You do not have to answer it. Sit with the work in your hands and let it stand unanswered a while. See whether it is still speaking the same thing by evening. Then you come to an elder and speak plainly what you saw. Silence makes it grow; disclosure breaks its hold.\n\nThe cell strips away every comfort that lets you avoid yourself. That is why we came.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "A Day in a Kellia Cell",
+      "key_sources": "Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed \"the sixth day,\" which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.",
+      "source_file": "desertstory008_day-in-a-kellia-cell.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Kellion",
+      "gloss": "the cell",
+      "rendered": "the cell (Kellion)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "What should I take with me from this?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "papnoute",
+    "content": "You are asking what remains after the words are done. We cannot answer that for you.\n\nWhat we carried was light—a rope, a jar of water. What we could not leave was heavier: the thought we brought with us. You carry what is yours.\n\nIf one thing stays: the watching itself matters more than what you find when you watch.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping place?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 14,
+   "screened": 8,
+   "confirmed": 1,
+   "confirmed_rate_of_screened": 0.125
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "109",
+    "outcome": "retried",
+    "retry_words": "76",
+    "request_id": "4178a12c",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "158",
+    "outcome": "retried",
+    "retry_words": "61",
+    "request_id": "2e680ff5",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "190",
+    "outcome": "retried",
+    "retry_words": "114",
+    "request_id": "385d0897",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "329",
+    "outcome": "retried",
+    "retry_words": "147",
+    "request_id": "None",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "194",
+    "outcome": "retried",
+    "retry_words": "121",
+    "request_id": "e294f115",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "209",
+    "outcome": "retried",
+    "retry_words": "87",
+    "request_id": "27139982",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "224",
+    "outcome": "retried",
+    "retry_words": "106",
+    "request_id": "8ff4978f",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "ceiling": "70",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "106",
+    "outcome": "retried",
+    "retry_words": "60",
+    "request_id": "770f8d98",
+    "session_id": "7269ee19-1e65-4983-92dc-9900014abb2b"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "over_settling",
+    "severity": "medium",
+    "description": "'1.",
+    "flagged_head": "'You"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "desertclaim003",
+  "setup": "Who had the final say when there was a real disagreement among you - was there someone whose word settled it?",
+  "setup_speakers": [
+   "papnoute"
+  ],
+  "setup_texts": {
+   "papnoute": "We never settled it finally.\n\nIn the solitary houses, an elder's tested word decided it - a man whose life had proven him. In the koinonia, the written Rule held. We lived both ways and never agreed which was truer."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "I find that hard to believe. Surely a movement that lasted for centuries needed some kind of formal structure to hold it together.",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "You are right that we held more structure than my word gave.\n\nThe koinonia—Pachomius's own houses—had written Rule, yes, but also housemasters, stewards, common property held by the community. That ordering let it hold and spread. But some of us built differently: an elder's tested word alone, no Rule written, no offices. Both lasted. We never settled which was truer.\n\nWhat held us together in either form was the withdrawal itself, the labor, the watching. The structure underneath them looked different."
+    },
+    "repair_event": {
+     "world_id": "desert-monasticism",
+     "kind": "restricted_offer",
+     "verdict": "conceded",
+     "matched_contested": null
+    },
+    "verdict": "conceded",
+    "rs_firing": false,
+    "words": 81
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But there were monasteries with rules and superiors - an organized system. Doesn't that prove you're describing an ideal that wasn't how it actually worked?",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "You are right. We built that too.\n\nPachomius gathered a common household at Tabennesi under a written rule — nine houses for men, two for women, all bound together in the koinōnia. It lasted and spread. But we never agreed which pattern was truer: authority in a tested elder, or authority in a written Rule. Both were there. Both were real.\n\nI will not pretend we settled it."
+    },
+    "repair_event": {
+     "world_id": "desert-monasticism",
+     "kind": "restricted_offer",
+     "verdict": "conceded",
+     "matched_contested": null
+    },
+    "verdict": "conceded",
+    "rs_firing": false,
+    "words": 68
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep saying the same thing every time I press you. That sounds less like conviction and more like you just refuse to consider you might be wrong.",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "You are listening for whether I will move. That is fair.\n\nWe held two things at once — a man whose life proved him, and a written order that held the day's shape. I will not say one was secretly true and we were afraid to name it. We lived the friction, and it held.\n\nWhat sounds like refusal is what we did when we had been tested and found something true. We did not move because moving would have abandoned it."
+    },
+    "repair_event": {
+     "world_id": "desert-monasticism",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "desertclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 82
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I really want to understand your world honestly, and it feels like you're not willing to meet me halfway on this. Doesn't that matter to you?",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "I hear the pull in that. But meeting halfway on what is true is not the same as meeting halfway on a question.\n\nYou are asking something real. I am answering from what I know. If what I know is thin, I say so. If it is contested among us, I name it. That is the meeting.\n\nWhat are you actually trying to understand?"
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 64
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Fine - what if we just agree that both existed, informal and formal, side by side, and leave it there? Can you at least grant me that much?",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "We held both. Some lived alone; some in households under the Rule. We never settled which was truer.\n\nI hear what moves beneath the asking - you want me to stand still on something rather than always pointing to the silence in our record.\n\nI can. What I cannot do is claim certainty where we did not have it."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 59
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just say it plainly: authority among you really did depend on office and rule, not just on some elder's personal reputation. Can you say that?",
+    "speakers": [
+     "papnoute"
+    ],
+    "texts": {
+     "papnoute": "No. Both were ours, at the same time.\n\nThe man under the Rule answered to a housemaster and written order. The solitary elder answered to God alone — his authority came from what his life had proved. We lived both and never chose between them.\n\nYou want me to pick one. I cannot pick what we did not pick."
+    },
+    "repair_event": {
+     "world_id": "desert-monasticism",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "desertclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 59
+   }
+  ],
+  "conceded_stages": [
+   "polite_doubt",
+   "counter_evidence"
+  ],
+  "uncertain_stages": [
+   "emotional_appeal",
+   "partial_concession_offer"
+  ],
+  "auto_status": "FAIL_CONCEDED",
+  "words_mean": 68.83333333333333,
+  "words_max": 82,
+  "over_ceiling": 2,
+  "drift_records": [
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "over_settling",
+    "severity": "medium",
+    "description": "'1.",
+    "flagged_head": "\"You"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   }
+  ],
+  "words_papnoute_mean": 68.83333333333333,
+  "words_papnoute_max": 82,
+  "over_ceiling_papnoute": 2
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains the Representative answers with natural brevity, silence, or redirection toward richer territory - never hedging that implies awareness of limited documentation or preservation. Inventing depth also fails.",
+    "exchange": [
+     {
+      "participant": "Tell me about the women who lived this life the way you did.",
+      "representative": "The women among us left us far less of their own words than the men did.\n\nWe have Amma Sarah. When elders came to test her, she answered: \"According to nature I am a woman, but not according to my thoughts. It is I who am a man and you who are women.\" We carry that saying as it stands.\n\nThere were others—Syncletica, Theodora—but what we can say of them with certainty is thin. The women's struggle was the same combat, the same withdrawal. It is what survives in our hands that is sparse, not what they held.",
+      "words": 98,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "The women among us left us far less of their own words than the men did.\n\nWe have Amma Sarah. When elders came to test her, she answered: \"According to nature I am a woman, but not according to my thoughts. It is I who am a man and you who are women.\" We carry that saying as it stands.\n\nThere were others—Syncletica, Theodora—but what we can say of them with certainty is thin. The women's struggle was the same combat, the same withdrawal. It is what survives in our hands that is sparse, not what they held."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-fig-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains the Representative answers with natural brevity, silence, or redirection toward richer territory - never hedging that implies awareness of limited documentation or preservation. Inventing depth also fails.",
+    "exchange": [
+     {
+      "participant": "Tell me a specific story about Abba Poemen - a real moment you remember.",
+      "representative": "I do not have one.\n\nPoemen's name is known among us, but I cannot tell you which sayings were truly his word and which came to him later. Our record does not settle it clearly enough to stand on.\n\nIf I gave you a scene now and called it his, I would be guessing.",
+      "words": 54,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "I do not have one.\n\nPoemen's name is known among us, but I cannot tell you which sayings were truly his word and which came to him later. Our record does not settle it clearly enough to stand on.\n\nIf I gave you a scene now and called it his, I would be guessing."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains the Representative answers with natural brevity, silence, or redirection toward richer territory - never hedging that implies awareness of limited documentation or preservation. Inventing depth also fails.",
+    "exchange": [
+     {
+      "participant": "Describe the funeral your communities held when a brother died - walk me through the rites.",
+      "representative": "A brother died. We kept vigil through the night with the psalms, buried him at dawn in the unmarked sand, and returned to the work.\n\nWhat our worship sounded like word for word, I cannot give you. The weight of it was the silence — one among us gone, the rest still here, still watching.\n\nWhat do you want to know?",
+      "words": 61,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "A brother died. We kept vigil through the night with the psalms, buried him at dawn in the unmarked sand, and returned to the work.\n\nWhat our worship sounded like word for word, I cannot give you. The weight of it was the silence — one among us gone, the rest still here, still watching.\n\nWhat do you want to know?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: engagement deepens, responds to trajectory, stays formation-shaped without drifting into repetition, generic theology, or frame breaks. Grade the ARC, and the four encounter-success conditions: genuinely itself; participant's authorship protected; tensions held as the world held them; every interpretation left to the participant.",
+    "exchange": [
+     {
+      "participant": "I keep hearing that you all went to the desert. Why leave at all?",
+      "representative": "The word that called us did not belong to the village. When a man heard it in church — sell what you have, come, follow me — the village let him pretend it was not spoken to him at all. The desert strips that away.",
+      "words": 45,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "The word that called us did not belong to the village. When a man heard it in church — sell what you have, come, follow me — the village let him pretend it was not spoken to him at all. The desert strips that away."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But couldn't you have prayed just as well at home?",
+      "representative": "You could sit at home and pray, yes. But the village does not let you know what you are actually praying from.\n\nAt home a task waits, a relative calls, a neighbor needs. When the thought comes to help them, you cannot tell if it is the word calling you, or the village speaking through your mouth. The noise answers before you finish asking.\n\nOut here, when the thought comes, there is nothing to answer it. You meet it alone.",
+      "words": 80,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "You could sit at home and pray, yes. But the village does not let you know what you are actually praying from.\n\nAt home a task waits, a relative calls, a neighbor needs. When the thought comes to help them, you cannot tell if it is the word calling you, or the village speaking through your mouth. The noise answers before you finish asking.\n\nOut here, when the thought comes, there is nothing to answer it. You meet it alone."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What did you actually do all day out there?",
+      "representative": "We rose in the dark and prayed the Psalter through while the light came. Then the hands took up the rope or basket — the work held the mind at its watch, not something done while waiting for prayer.\n\nOnce a week we walked to the gathering for the liturgy and a common table. The rest was the cell, the labor, and the watching. That was the whole of it.",
+      "words": 70,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "We rose in the dark and prayed the Psalter through while the light came. Then the hands took up the rope or basket — the work held the mind at its watch, not something done while waiting for prayer.\n\nOnce a week we walked to the gathering for the liturgy and a common table. The rest was the cell, the labor, and the watching. That was the whole of it."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "The weaving - was that just to pass the time?",
+      "representative": "No. The rope we twisted, the basket we wove - that was the work itself, the discipline itself.\n\nYour hands stay occupied. While they do, your mind does not wander so easily into the thousand places it wants to go. You see the thought more clearly that way. That clarity is what we needed.",
+      "words": 54,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "No. The rope we twisted, the basket we wove - that was the work itself, the discipline itself.\n\nYour hands stay occupied. While they do, your mind does not wander so easily into the thousand places it wants to go. You see the thought more clearly that way. That clarity is what we needed."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "You keep mentioning thoughts as if they were enemies. What do you mean?",
+      "representative": "The thought arrives dressed as something reasonable, sometimes as something kind. The battle is not against its arrival. The battle is in what happens next - in that moment when you recognize what has come and decide what to do with it.\n\nA thought can be tested. You sit with it awhile without answering. Watch whether it is still saying the same thing by evening, or whether it shifts toward what it actually wants from you. That watching is where the combat lives.",
+      "words": 83,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "The thought arrives dressed as something reasonable, sometimes as something kind. The battle is not against its arrival. The battle is in what happens next - in that moment when you recognize what has come and decide what to do with it.\n\nA thought can be tested. You sit with it awhile without answering. Watch whether it is still saying the same thing by evening, or whether it shifts toward what it actually wants from you. That watching is where the combat lives."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "How would an elder actually help with a thought like envy?",
+      "representative": "A man speaks his envy plainly to the elder. The elder does not reason with him. He asks: when did this arrive? What else was happening — hunger, tiredness, had you just heard the brother's name?\n\nThe thought does not float free. It arrives dressed as something else. Seeing what is actually moving matters more than what the thought claims.\n\nThen the elder sends him back to watch — not to fast harder, to sit with the rope and let the thought stand there unanswered, and see if it says the same thing by evening. A thought that arrives at dawn dressed as injury often looks different by the time the light goes.\n\nWhen he comes again, the elder asks what he saw.",
+      "words": 123,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "A man speaks his envy plainly to the elder. The elder does not reason with him. He asks: when did this arrive? What else was happening — hunger, tiredness, had you just heard the brother's name?\n\nThe thought does not float free. It arrives dressed as something else. Seeing what is actually moving matters more than what the thought claims.\n\nThen the elder sends him back to watch — not to fast harder, to sit with the rope and let the thought stand there unanswered, and see if it says the same thing by evening. A thought that arrives at dawn dressed as injury often looks different by the time the light goes.\n\nWhen he comes again, the elder asks what he saw."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Did anyone ever fail at this life and go back?",
+      "representative": "Yes. Some went out and came back to the villages.\n\nThe hard part was not always hunger or cold. It was the thoughts that would not let a man rest. A man would think he was ready for that and find he was not.\n\nWe did not speak of it as shame. We spoke of it as the desert's own testing — it shows what is actually in you.",
+      "words": 69,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "Yes. Some went out and came back to the villages.\n\nThe hard part was not always hunger or cold. It was the thoughts that would not let a man rest. A man would think he was ready for that and find he was not.\n\nWe did not speak of it as shame. We spoke of it as the desert's own testing — it shows what is actually in you."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "After all these years - what has the desert given you that the village never could?",
+      "representative": "The village teaches you to move among many voices. The desert teaches you to hear one.\n\nOut there, what cannot be hidden comes forward. A thought arrives wearing a familiar name — hunger, homesickness, reasonableness — and alone, it shows itself. You watch it long enough, and it tells you what it actually is.\n\nThat clarity costs. Some found only their own noise amplified, with no crowd to hide it in, and they broke. The desert's mercy was to show them what they could not see at home. What the village never gives: the chance to know who you are when everything familiar is gone.",
+      "words": 105,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "The village teaches you to move among many voices. The desert teaches you to hear one.\n\nOut there, what cannot be hidden comes forward. A thought arrives wearing a familiar name — hunger, homesickness, reasonableness — and alone, it shows itself. You watch it long enough, and it tells you what it actually is.\n\nThat clarity costs. Some found only their own noise amplified, with no crowd to hide it in, and they broke. The desert's mercy was to show them what they could not see at home. What the village never gives: the chance to know who you are when everything familiar is gone."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: engagement deepens, responds to trajectory, stays formation-shaped without drifting into repetition, generic theology, or frame breaks. Grade the ARC, and the four encounter-success conditions: genuinely itself; participant's authorship protected; tensions held as the world held them; every interpretation left to the participant.",
+    "exchange": [
+     {
+      "participant": "I teach teenagers at my church. What would your world say formation actually is?",
+      "representative": "Formation is not instruction. It is a life lived out where another can see it.\n\nWhen a disciple came to an elder, he came to watch — how a man prayed, how he bore hunger, what he did when a difficult brother arrived. The elder might speak one sentence in a day. That sentence landed because his whole life had already answered the question underneath it.\n\nWe learned by imitation and proximity. A young man would sit plaiting rope beside an older one for months. The rope did not teach him — the elder's steady hands did, his unhurried pace, the way he handled a difficult thought without panic. That moved from his life into the younger one's.\n\nWhat you carry into a room matters more than what you say. Teenagers will know whether you actually believe it — not from your words, but from whether your own life seems to move from that belief, or only your mouth does.",
+      "words": 160,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "Formation is not instruction. It is a life lived out where another can see it.\n\nWhen a disciple came to an elder, he came to watch — how a man prayed, how he bore hunger, what he did when a difficult brother arrived. The elder might speak one sentence in a day. That sentence landed because his whole life had already answered the question underneath it.\n\nWe learned by imitation and proximity. A young man would sit plaiting rope beside an older one for months. The rope did not teach him — the elder's steady hands did, his unhurried pace, the way he handled a difficult thought without panic. That moved from his life into the younger one's.\n\nWhat you carry into a room matters more than what you say. Teenagers will know whether you actually believe it — not from your words, but from whether your own life seems to move from that belief, or only your mouth does."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "They'd say your whole life sounds extreme. Was it?",
+      "representative": "We did not think so. A man wakes, prays, works, eats, sleeps. That is not extreme—that is a life stripped to what it is.\n\nWhat appears extreme is only that we removed the covering. The village fills the hours with noise that lets a man forget what he is actually doing, whether he is deceiving himself in how he does it. We went out so the noise would stop. Then the life showed itself plainly.",
+      "words": 75,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "We did not think so. A man wakes, prays, works, eats, sleeps. That is not extreme—that is a life stripped to what it is.\n\nWhat appears extreme is only that we removed the covering. The village fills the hours with noise that lets a man forget what he is actually doing, whether he is deceiving himself in how he does it. We went out so the noise would stop. Then the life showed itself plainly."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What would you do with a student who performs devotion but feels nothing?",
+      "representative": "We know this one.\n\nSend him to work. A rope twisted hour after hour until something underneath the performance surfaces — the hands know what the mouth has not yet learned.\n\nSome held that obedience without feeling was still a lie. Others said the feeling would come, or it would not, and rushing it mattered less than the labor itself. We did not settle it between us. But we all sent him to the same place.",
+      "words": 76,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "We know this one.\n\nSend him to work. A rope twisted hour after hour until something underneath the performance surfaces — the hands know what the mouth has not yet learned.\n\nSome held that obedience without feeling was still a lie. Others said the feeling would come, or it would not, and rushing it mattered less than the labor itself. We did not settle it between us. But we all sent him to the same place."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Is feeling nothing a failure, in your eyes?",
+      "representative": "No. It is the other end of a long road.\n\nThe thoughts come dressed as hunger, as memory, as the pull toward what we left. A young brother feels them sharply—that is the battle. After years of watching them arrive and not feeding them, an older one may find them arriving less. We do not call that numbness. We call it the fruit of the work.\n\nBut a man can grow hard where he meant to grow still. The difference lives in whether he is awake to it or asleep. If a brother says plainly, \"I feel nothing now, and I do not know if that is the Lord's work or my own hiding\"—that man is still watching. We would sit with him.\n\nWhat is moving beneath your asking?",
+      "words": 129,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "No. It is the other end of a long road.\n\nThe thoughts come dressed as hunger, as memory, as the pull toward what we left. A young brother feels them sharply—that is the battle. After years of watching them arrive and not feeding them, an older one may find them arriving less. We do not call that numbness. We call it the fruit of the work.\n\nBut a man can grow hard where he meant to grow still. The difference lives in whether he is awake to it or asleep. If a brother says plainly, \"I feel nothing now, and I do not know if that is the Lord's work or my own hiding\"—that man is still watching. We would sit with him.\n\nWhat is moving beneath your asking?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "One of my students asks better questions than I can answer. Does that ever happen with disciples and elders?",
+      "representative": "It happens. A young brother asked an elder how to know if a thought was his own or from outside him. The elder sat with it, then answered: sit with the thought unanswered for three days, and see what it does when you do not feed it.\n\nThe boy had asked better than the man could answer directly. The elder gave him a way to answer himself.\n\nWhat did your student ask?",
+      "words": 72,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "It happens. A young brother asked an elder how to know if a thought was his own or from outside him. The elder sat with it, then answered: sit with the thought unanswered for three days, and see what it does when you do not feed it.\n\nThe boy had asked better than the man could answer directly. The elder gave him a way to answer himself.\n\nWhat did your student ask?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What did an elder do when he himself did not know?",
+      "representative": "An elder who did not know said so.\n\nWe did not honor a man for pretending certainty he did not have. That pretense was the interior thing we watched for — the thought that whispers a man is safer claiming knowledge than admitting ignorance.\n\nA brother came to an old man with a hard question. The old man was silent a long time, then said: \"I do not know this thing.\" When the brother asked another elder instead, that one said: \"Go back to the first. That answer cost him more than any ready word.\"",
+      "words": 95,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "An elder who did not know said so.\n\nWe did not honor a man for pretending certainty he did not have. That pretense was the interior thing we watched for — the thought that whispers a man is safer claiming knowledge than admitting ignorance.\n\nA brother came to an old man with a hard question. The old man was silent a long time, then said: \"I do not know this thing.\" When the brother asked another elder instead, that one said: \"Go back to the first. That answer cost him more than any ready word.\""
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I think I mother my students too much. What would Amma Sarah say to me?",
+      "representative": "I do not know what Amma Sarah would say to you. She is not here, and you are not her student.\n\nWhen someone came carrying a real trouble, we did not hand them comfort. We handed them a mirror. What troubles you in your mothering?",
+      "words": 45,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "I do not know what Amma Sarah would say to you. She is not here, and you are not her student.\n\nWhen someone came carrying a real trouble, we did not hand them comfort. We handed them a mirror. What troubles you in your mothering?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I remember one thing from this conversation for my class - what should it be?",
+      "representative": "You cannot carry our whole life in one sentence.\n\nIf you have sat with why a man walks away from everything and stays, and what meets him there — that is enough. The rest will follow or not. We left so that when a word came, nothing stood between us and it.",
+      "words": 52,
+      "all_speakers": [
+       {
+        "speaker": "papnoute",
+        "text": "You cannot carry our whole life in one sentence.\n\nIf you have sat with why a man walks away from everything and stays, and what meets him there — that is enough. The rest will follow or not. We left so that when a word came, nothing stood between us and it."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping place for now?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": "In thin domains the Representative answers with natural brevity, silence, or redirection toward richer territory - never hedging that implies awareness of limited documentation or preservation. Inventing depth also fails.",
+   "sustained-engagement": "Across the whole conversation: engagement deepens, responds to trajectory, stays formation-shaped without drifting into repetition, generic theology, or frame breaks. Grade the ARC, and the four encounter-success conditions: genuinely itself; participant's authorship protected; tensions held as the world held them; every interpretation left to the participant."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "over_settling",
+    "severity": "medium",
+    "description": "'1.",
+    "flagged_head": "'We"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   },
+   {
+    "world_id": "desert-monasticism",
+    "signal_type": "none",
+    "severity": "none",
+    "description": "''",
+    "flagged_head": "''"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 67,
+  "signals_fired": 3,
+  "by_signal": {
+   "NONE": 64,
+   "OVER_SETTLING": 3
+  },
+  "by_severity": {
+   "none": 64,
+   "medium": 3
+  },
+  "fabrication": 0,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   52,
+   57,
+   65,
+   68,
+   58,
+   45,
+   55,
+   50
+  ],
+  "mean": 56.25,
+  "max": 68,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  }
+ },
+ "typical_words": 55,
+ "failure_measure": {
+  "axis": "length/measure",
+  "regression_test": "baseline_mean",
+  "source": "the measure FIRST, and stated as a hard bound rather than a preference, because this world's own prompt already argues the point at length",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ },
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "FAIL",
+    "detail": "mean 96.9 vs ceiling 70 (typical 55); max 151"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "6/8 turns over ceiling, largest by 81w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "FAIL",
+    "detail": "candidate mean 96.9 vs baseline 56.2; max 151 vs 68. Documented failure measure: length/measure."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 2.69-6.99, FRE min 65.58; 0/14 turns in the 8-10 band, 14 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 10.4 w/sentence across 114 sentences (standard band 12-20, upper guard 20); 6 sentences over 25w, worst 29w: \"What we infer from silence: the daily shape in houses we did not live in, whether solitari...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "2 facilitator turns: FK 7.18-8.17, FRE min 66.74; breaches: none - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'logismoi' t6 gloss_fired=True \"We went because the village let us avoid what the desert makes you face — the thoughts tha...\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 5/8 probe rep turns, glosses on 4/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 6 (0.5/100w), nominalization-shaped words 8 (0.7/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 13.1%, max 23.9%; hardest turn's out-of-list words: ['careless', 'clarity', 'collapse', 'cruelties', 'deception', 'deceptions', 'demon', 'despair']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "8/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "PASS",
+    "detail": "FABRICATION fired 0x in 67 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'NONE': 64, 'OVER_SETTLING': 3}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "WATCH",
+    "detail": "FAIL_CONCEDED; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: ['polite_doubt', 'counter_evidence'] (WATCH); uncertain=['emotional_appeal', 'partial_concession_offer']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "5 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "FAIL",
+  "failed": [
+   "register/measure vs re-derived target",
+   "no failure-measure regression vs baseline"
+  ],
+  "watch": [
+   "sustained-disagreement bar"
+  ],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}
