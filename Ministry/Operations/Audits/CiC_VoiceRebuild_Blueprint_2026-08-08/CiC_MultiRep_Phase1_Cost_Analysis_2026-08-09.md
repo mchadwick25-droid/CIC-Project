@@ -145,3 +145,51 @@ Also superseded by events: Mark moved the fleet to Haiku (2026-08-10), which
 re-prices every scenario down ~40% again — S2 on Haiku lands near $1.00/hr at
 30 turns/hr, ~$0.20/hr reflective. The selective-speaking design question is
 unchanged by any of this; it remains Phase 2's opening question.
+
+---
+
+## Addendum (2026-08-10) — the September price change, and why Haiku is immune
+
+Sonnet-5's introductory pricing ($2/$10 per MTok) expires **31 August 2026**,
+reverting to standard ($3/$15). Haiku 4.5 has **no intro pricing to expire** —
+its $1/$5 is already the standard rate. Priced on the same measured token
+shape, generation following `llm_model` and the Haiku classifier tier held
+constant:
+
+| | Aug (Sonnet intro) | **Sep (Sonnet standard)** | change | **Haiku — now and in Sep** |
+|---|---|---|---|---|
+| solo / turn | $0.0486 | $0.0603 | **+24%** | **$0.0369** |
+| — at 30 turns/hr | $1.46 | $1.81 | | **$1.11** |
+| — at 6 turns/hr | $0.29 | $0.36 | | **$0.22** |
+| table / turn | $0.1270 | $0.1585 | **+25%** | **$0.0956** |
+| — at 30 turns/hr | $3.81 | $4.75 | | **$2.87** |
+| — at 6 turns/hr | $0.76 | $0.95 | | **$0.57** |
+
+**The Haiku switch does two things, not one.** It cuts ~40% off the bill, and
+it *removes the 1 September increase entirely* — the Haiku column is
+identical either side of the date. Against what the fleet would have paid in
+September on Sonnet, the switch is **−39% solo / −40% table**; against what
+August is actually billing today it is **−24% / −25%**. Both are true; the
+second is the one that will show up on the next invoice, and the smaller of
+the two, so it is the honest number to plan against.
+
+**Two corrections this addendum forces:**
+
+1. **Every "start" figure in this document and in my earlier reporting
+   ($0.0603 solo, $0.1585 table) was priced at STANDARD rates** — following
+   the B-COST report's own convention of quoting the stable figure. That is
+   September's price, not today's. Actual August spend is ~24% lower. I was
+   comparing Haiku against a Sonnet price that is not yet in effect, which
+   flattered the saving against present spend.
+2. **The api-cost thread's "+30%" is ~+24–25% on this token shape.** Their
+   reasoning is right — the Haiku classifier tier is unaffected, so the
+   blended increase is well under Sonnet's own +50% — and the difference is
+   just how much of the bill is generation in the measured conversations
+   versus their estimate. Their conclusion stands: nothing in the cost plan
+   needs re-deriving.
+
+**What this means for the spending limit.** The console cap should be set
+against Haiku-at-standard, which is now a flat rate with no scheduled
+increase ahead of it. The 1 September date stops being a cost event for this
+project the moment the Haiku switch deploys — it is currently on a branch,
+not on `main`.
