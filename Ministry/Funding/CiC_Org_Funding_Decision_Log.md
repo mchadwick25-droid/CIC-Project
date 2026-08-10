@@ -182,3 +182,17 @@ Dated entries. Each records what was decided (or what's still open), the reasoni
 - Homeschool curriculum scoping: what it covers, how it uses the Atlas and the Guided-Questions base, who authors and reviews it (Article 31 implications if it makes historical claims).
 - Ask-copy recalibration for table-framed giving.
 - Mark's final word on the price points themselves ($15/$29 are working numbers).
+
+---
+
+## 2026-08-10 — Tiers deferred to after pilot phases 1 and 2; everything free for testing
+
+**Status:** Mark's decision, in his own words: *"we will implement the tier after the pilot 1 and 2 phases of implementation. for now everything is free for testing."*
+
+**What this changes from yesterday's entry.** The 2026-08-09 two-tier shape ($15 base, ~$29 research, 5-seat gated, homeschool track) stands as the working *direction* — its timing moves. Nothing is gated during the pilot; the Table stays open to everyone, which is also what the standing 2026-07-31 product-shape decision already said. SH-12's subscription infrastructure and rounds-based metering come off the near-term critical path entirely.
+
+**The consequence worth holding, because it is a cost decision now and not a pricing one.** With everything free and the account layer deliberately off, there is no per-visitor cap. The real backstops during the pilot are the Anthropic Console spending limit, the per-conversation turn caps already in code (40 representative turns solo, 100 at a table), and the pilot tester registry. That promotes the Haiku voice switch from a margin optimisation to **the single largest cost control of the free period** — measured at roughly half the per-round cost of Sonnet, rising to ~60% cheaper once Sonnet's intro pricing ends 2026-08-31 — and unlike a tier it requires no new infrastructure, only a one-line deploy config change.
+
+**Also corrected today:** the go-live picture in `CiC_Go_Live_Cost_Model_V0_1.md` (2026-07-21) says the app "is fully built but not yet hosted anywhere," with hosting as "the literal, entire gap." That is no longer true — the service is live and Blueprint-managed at cic-poc.onrender.com, the website points at it, and the Voice Rebuild merged to main on 2026-08-10. Going live is now about what reaches main, not about standing anything up.
+
+**Next action:** none in this workstream — tiers resume after pilot phase 2. Pilot recruitment and the logging-disclosure text are the live dependencies, tracked with the technology thread.

@@ -101,11 +101,24 @@ name-bridge pills rendered per speaker in a real browser, once, by a
 human. PR #9's honest note stands: three transparency surfaces have
 never been human-rendered.
 
-## B9 — Metering (SH-12 scope, separate workstream)
+## B9 — Metering — DEFERRED 2026-08-10, off the critical path
 
-Rounds-based monthly caps per the funding log's tier decision
-(2026-08-09). Referenced here so the build doesn't invent a second
-metering; not this blueprint's deliverable.
+**Mark, 2026-08-10: "we will implement the tier after the pilot 1 and 2
+phases of implementation. for now everything is free for testing."**
+Consistent with the standing 2026-07-31 decision (Table open to everyone
+through the pilot, paid-tier only at public launch). Rounds-based
+metering rides with SH-12 when tiers arrive; nothing here waits on it,
+and no interim metering should be invented.
+
+**What this moves onto the cost side, and it is worth naming:** with
+everything free and Supabase auth deliberately off, there is no
+per-visitor cap. During the pilot the real backstops are (1) the
+Anthropic Console spending limit, (2) the per-conversation caps in
+app/message_cap.py (40 representative turns solo, 100 table), and (3)
+the pilot tester registry (pilot_tester_codes.json) where it is used.
+That makes the Haiku switch the single largest cost control in the free
+period rather than a margin optimisation - it roughly halves burn per
+round, and unlike a tier it needs no new infrastructure.
 
 ## B10 — Cost re-baseline
 
