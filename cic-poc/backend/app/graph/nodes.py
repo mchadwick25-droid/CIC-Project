@@ -1374,6 +1374,11 @@ def filter_grounded_citations(
     app/rag/batch_evaluate.py already uses for retrieval filtering, reused
     here rather than reinvented.
 
+    Returns EVERY candidate, each tagged `grounded: True|False` - tier 1
+    ("drawn on") and tier 2 ("consulted") respectively. It no longer drops
+    the tier-2 set; see the two-tier note at the return statement for why,
+    and for the honesty constraint that governs how tier 2 may be displayed.
+
     Fails open toward the ORIGINAL unfiltered list on any error (LLM call
     failure, unparseable response) and per-citation on an unparsed line -
     matching this codebase's own stated philosophy for exactly this shape of
@@ -1427,10 +1432,34 @@ Use the same numbering as above. Do not add commentary outside these lines."""
         if match.group(2).upper() == "USED":
             used_positions.add(position)
 
-    return [
-        c for i, c in enumerate(citations_payload, start=1)
-        if i not in parsed_positions or i in used_positions
-    ]
+    # TWO-TIER (2026-08-10). Previously this DISCARDED every NOT_USED source,
+    # which threw away half of a graded judgement and made the participant-
+    # facing citation count binary. The same defect, in the same shape, was
+    # fixed for glosses twice already: Chloe fired 0/8 because detection was
+    # all-or-nothing (fixed -> 4/8), and Papnoute 0/8 because he never says
+    # his Greek at all (plain-side tier -> 3/8). Citations were the third
+    # instance and the last one still discarding information.
+    #
+    #   tier 1  "drawn on"   - USED, or unparsed (fail-open, as before)
+    #   tier 2  "consulted"  - retrieved and judged relevant to this turn,
+    #                          but the answer is not specifically traceable
+    #                          to it. Kept, flagged, and worded differently.
+    #
+    # The distinction is load-bearing, not cosmetic. filter_grounded_citations
+    # exists because the 2026-08-01 live sweep found citations with no visible
+    # connection to the turn's text in 3 of 5 worlds; showing a tier-2 source
+    # AS IF the answer drew on it would re-open exactly that defect. A tier-2
+    # entry promises only what it says: this was consulted.
+    #
+    # Costs nothing: the verdict is already produced, and the model, prompt
+    # and call count are unchanged. What changes is that we stop throwing the
+    # weaker half away.
+    out = []
+    for i, c in enumerate(citations_payload, start=1):
+        entry = dict(c)
+        entry["grounded"] = (i not in parsed_positions) or (i in used_positions)
+        out.append(entry)
+    return out
 
 
 def representative_engages(state: ConversationState, is_reactive: bool = False,

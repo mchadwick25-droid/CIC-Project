@@ -22,23 +22,42 @@ function registryTag(entry: RegistryEntry): string {
 }
 
 export function CitationModal({ citations, onClose }: CitationModalProps) {
+  // Two-tier (2026-08-10) - drawn-on first, consulted after, each saying
+  // only what is true of it. See the Citation type for why the wording
+  // difference is load-bearing rather than decorative.
+  const isDrawnOn = (c: Citation) => c.grounded !== false;
+  const drawnOn = citations.filter(isDrawnOn);
+  const consulted = citations.filter((c) => !isDrawnOn(c));
+  const ordered = [...drawnOn, ...consulted];
+
   return (
     <Level3Panel onClose={onClose}>
       <div className="lexicon-modal__header">
         <h2>Sources for This Turn</h2>
         <p className="lexicon-modal__aliases">
-          {citations.length} {citations.length === 1 ? 'source' : 'sources'} grounded this response
+          {drawnOn.length} {drawnOn.length === 1 ? 'source' : 'sources'} drawn on in this response
+          {consulted.length > 0 && (
+            <>; {consulted.length} more consulted but not specifically drawn on</>
+          )}
         </p>
       </div>
 
       <div className="lexicon-modal__content">
-        {citations.map((citation, index) => (
-          <div key={index} className="lexicon-modal__section citation-modal__entry">
+        {ordered.map((citation, index) => (
+          <div
+            key={index}
+            className={`lexicon-modal__section citation-modal__entry${
+              isDrawnOn(citation) ? '' : ' citation-modal__entry--consulted'
+            }`}
+          >
             <h3 className="lexicon-modal__section-title">
               <span className={`citation-tooltip__kind citation-tooltip__kind--${citation.type || 'lexicon'}`}>
                 {citation.type === 'story' ? 'Story' : 'Term'}
               </span>{' '}
               {citation.term}
+              {!isDrawnOn(citation) && (
+                <span className="citation-modal__tier"> — consulted for this turn</span>
+              )}
             </h3>
             <div className="lexicon-modal__section-content">
               <p>{citation.key_sources}</p>
