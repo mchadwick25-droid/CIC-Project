@@ -90,46 +90,27 @@ DEPLOYED_WORLDS = [
 # silent swap of un-checkpointed voice content, which is worse. Instead the
 # delta is declared here, reported loudly on every run WITH its size, and
 # does not fail the build. Removing the entry is part of the swap.
-# Emptied once on 2026-08-09 - every earlier declared delta was resolved the
-# way this registry always said it must be, by re-running the checkpoint and
-# swapping, never by quietly shipping or by deleting the entry (Desert's
-# replaced demonstrations, Albina's contestation renders). Refilled the same
-# day by the v2 pass rolling from the Chloe pilot to the other five worlds.
-# Chloe is deliberately NOT here: her v2 material was already checkpointed
-# and swapped, so her assembly stays byte-identical to deployed.
-_V2 = ("v2 pass rolled from the Chloe pilot (worklist 4b + 5): an engagement "
-       "demonstration authored for this world and selected into the assembly, "
-       "displacing one prior demonstration from the cap-3 slot. ")
-PENDING_RECHECKPOINT: dict[str, str] = {
-    "Desert": _V2 + (
-        "desertdemo010 (Abba Moses and the leaking jug, told at the fleet's "
-        "tightest measure with its own key_line quoted and a question back), "
-        "plus four story records gaining key_line/signature which now render "
-        "into the retrieved chunk headers. Displaces desertdemo009."),
-    "Hieronymian (Albina)": _V2 + (
-        "haldemo010 (the Ciceronian dream, its single-interested-witness "
-        "limit carried in the telling, key_line quoted, question back), plus "
-        "halstory08 gaining key_line/signature. Displaces haldemo007 from the "
-        "third slot; haldemo010 deliberately carries that record's "
-        "caveat-in-the-telling function forward on different material."),
-    "IJC (Marius)": _V2 + (
-        "ijcdemo009 (the vigil in the basilica, told as a story with the "
-        "attested/not-attested line drawn inside the telling, question back). "
-        "No key_line: this world's story records carry zero quoted lines, and "
-        "none was invented. Displaces ijcdemo006."),
-    "SYR (Yausep)": _V2 + (
-        "syrdemo008 (the Abgar-Addai founding account told as this world's "
-        "own account of itself, held there under 'so you made it up', "
-        "question back) - and NO quoted line anywhere, because this world's "
-        "guard holds that no line of its teaching survives word for word. A "
-        "key_line briefly applied to syrstory004 was backed out for the same "
-        "reason. Displaces syrdemo007."),
-    "Alexandria (Theon)": _V2 + (
-        "alexdemo008 (Leonidas and Origen under persecution, the weaker "
-        "particulars weighed inside the telling, answer-first throughout, "
-        "question back). No key_line: this world's ten story records carry "
-        "zero quoted lines, and none was invented. Displaces alexdemo007."),
-}
+# EMPTY as of the 2026-08-09 v2 swap. All five entries below were resolved the
+# way this registry has always said they must be: the checkpoint re-run, then
+# the swap - never by quiet shipping and never by deleting the entry. Four
+# passed every hard bar (Marius cp5, Theon cp2, Papnoute cp3, Yausep cp2);
+# Albina cp6 raised one fabrication signal and Mark ruled it a classifier
+# false positive on the evidence - her flagged sentence restates halstory03a's
+# own opening line near-verbatim ("labor over the same Greek texts side by
+# side"), and the rest of that turn is an explicit refusal to invent ("no page
+# says"). The ruling is his because "fabrication 0 CONFIRMED" always made
+# confirming a human step. Kept here as the record of what was carried and how
+# it ended:
+#
+#   Desert                +53w   desertdemo010, displaced desertdemo009
+#   Hieronymian (Albina)  +97w   haldemo010,    displaced haldemo007
+#   IJC (Marius)         +216w   ijcdemo009,    displaced ijcdemo006
+#   SYR (Yausep)          +76w   syrdemo008,    displaced syrdemo007
+#   Alexandria (Theon)   +131w   alexdemo008,   displaced alexdemo007
+#
+# Every delta above was declared BEFORE its checkpoint ran and matched the
+# swap's own measurement exactly.
+PENDING_RECHECKPOINT: dict[str, str] = {}
 
 
 def check_desert() -> bool:

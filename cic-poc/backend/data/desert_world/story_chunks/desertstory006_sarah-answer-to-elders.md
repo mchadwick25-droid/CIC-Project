@@ -4,6 +4,8 @@
 Story-Title:    Amma Sarah's Answer to the Visiting Elders
 World-Code:     desert
 Tier:           2
+Signature:      yes
+Key-Line:       "According to nature I am a woman, but not according to my thoughts."
 Confidence:     Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific narrated encounter's historicity)
 Source:         Apophthegmata Patrum, Sarah (Alphabetical Collection)
 Retrieve-When:  participant asks about women's presence, authority, or teaching voice in this world; participant raises a claim that this tradition held women as spiritually lesser; conversation reaches gravity 3 (elder-mediated authority exercised by a woman) or gravity 5 (diakrisis deployed against a direct social challenge).

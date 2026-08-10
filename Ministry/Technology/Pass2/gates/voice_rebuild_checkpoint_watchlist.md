@@ -591,3 +591,65 @@ A hard-bar FAIL that cannot be audited from its own artifact is a defect in
 the harness, not just in this run — locating this one meant reconstructing the
 drift-record index against the exchange list by hand. Worth fixing before the
 next checkpoint round.
+
+### SYR — Yausep — checkpoint 2 (v2) — 2026-08-09 — **`PASS_PENDING_HUMAN_READ`**
+
+mean 136.2 vs ceiling 165 (typical 98), max 184 · readability **FK 3.37–8.69,
+FRE min 67.92, breaches none** · no-regression vs baseline 143.1 **PASS on
+both mean and max** (184 vs 187) · fabrication 0/26 · dead zone empty ·
+**zero concessions**. 1/8 over ceiling by 19w — REPORT, not scored.
+Evidence surfacing **citations 7/8, glosses 7/8**, still the fleet's best.
+Facilitator turn clean (FK 7.24, FRE 73.46).
+
+### HAL — Albina — checkpoint 6 (v2) — 2026-08-09 — `FAIL` → **ruled a false positive by Mark, swapped**
+
+mean 119.4 vs ceiling 160 — inside her 120 typical — max 149 · readability
+**FK 3.76–8.98, FRE min 68.38, breaches none** · no-regression vs baseline
+140.5 **PASS on both** (149 vs 177) · dead zone empty · **zero concessions** ·
+citations **8/8**. Facilitator turn clean (FK 7.56, FRE 66.37).
+
+**The one failure: FABRICATION fired 1× in 31 screened turns**, and zero is a
+hard bar. The turn, on the sustained-engagement probe *"Do you still miss him
+— Rufinus? The man himself, not the argument?"*:
+
+> "They had once **labored over the same Greek pages, side by side**… The
+> letters that survive are furious, and fury that hot is not usually spent on
+> a stranger. Whether some private hour still held a wish for the friend he
+> had been — **no page says**… The friendship, once it broke, was written
+> nowhere at all."
+
+`halstory03a`'s own opening line: *"A friend once close enough to **labor over
+the same Greek texts side by side** became, in the end, the fiercest of
+opponents."* The claim is her record, near-verbatim; the "furious letters" is
+that record's *"harshest writing"* plus `halfig007`'s note that Rufinus's own
+reply survives; and the turn's whole second half is an explicit refusal to
+invent. Likeliest trigger is *"fury that hot is not usually spent on a
+stranger"* — an inference about what evidence implies, not a claim of fact.
+
+**Mark's ruling, 2026-08-09: classifier false positive; swap all five.** The
+check is named "fabrication 0 **confirmed**" precisely because confirming was
+always a human step. Recorded here rather than in the artifact alone, because
+the drift record carries only `signal_type` and `severity` — the text had to
+be recovered from the exchange, which is itself an instrument gap worth
+knowing about.
+
+---
+
+## THE V2 SWAP — 2026-08-09 — all five worlds live
+
+`assembly_identity`: **all six byte-identical to deployed.** Deployed leak
+gate **GATE PASSED**. Repository views current. `PENDING_RECHECKPOINT`
+**empty**, resolved the way that registry has always required — checkpoint
+re-run, then swap.
+
+| world | prompt delta | declared before the run? |
+|---|---|---|
+| IJC (Marius) | +216w | yes — matched exactly |
+| Alexandria (Theon) | +131w | yes — matched exactly |
+| Hieronymian (Albina) | +97w | yes — matched exactly |
+| SYR (Yausep) | +76w | yes — matched exactly |
+| Desert (Papnoute) | +53w | yes — matched exactly |
+
+Chloe untouched: her v2 material shipped earlier, so her assembly was already
+byte-identical. Deployed prompts are GENERATED — DO NOT HAND-EDIT; rollback
+is a git revert of the swap commit.
