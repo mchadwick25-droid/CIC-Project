@@ -31,9 +31,12 @@ any record explicitly flagged `required: true` (each world's Phase 2
 build authors exactly one - its targeted demonstration, aimed at that
 world's own measured failure - always included). Rank key: strong-score
 count descending, then record id (deterministic; no dependency on
-dict/glob ordering). Capped (default 3; a world's own assembler may
-raise this to 5 once it has that many qualifying records, per Design's
-3-5 range)."""
+dict/glob ordering). Capped (default 4, raised from 3 on Mark's ruling
+2026-08-10 so the foundational-question demonstrations - worklist item
+11 - select WITHOUT displacing a discipline demo; at cap 3 every one of
+the four that selected pushed out a demo modeling a checkpointed
+behavior, and Albina's did not select at all. Still inside Design's 3-5
+range; a world's own assembler may raise further to 5)."""
 from ._common import voice
 
 _CANONICAL_SCORES = {"strong", "partial", "weak"}
@@ -56,7 +59,7 @@ def _eligible(demo: dict) -> bool:
     return _is_canonical(demo) and "weak" not in _scores(demo)
 
 
-def _selected(demos: dict, cap: int = 3) -> list:
+def _selected(demos: dict, cap: int = 4) -> list:
     items = [demos[did] for did in sorted(demos)]
     required = [d for d in items if d.get("required") and _eligible(d)]
     ranked = sorted(
@@ -97,5 +100,5 @@ SEGMENT = {"name": "demonstrations", "cache_stability": "static",
            "eviction_priority": 5, "render": render,
            "sources": "demonstration records (rubric-selected: canonical "
                       "strong/partial/weak vocabulary, no weak trait "
-                      "score, or required=true; cap 3, deterministic "
+                      "score, or required=true; cap 4, deterministic "
                       "rank by strong-count desc then record id)"}

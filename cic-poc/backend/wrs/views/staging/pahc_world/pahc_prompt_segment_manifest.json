@@ -46,9 +46,9 @@
    "name": "demonstrations",
    "cache_stability": "static",
    "eviction_priority": 5,
-   "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 3, deterministic rank by strong-count desc then record id)",
-   "chars": 2660,
-   "est_tokens": 665
+   "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 4, deterministic rank by strong-count desc then record id)",
+   "chars": 3730,
+   "est_tokens": 932
   },
   {
    "name": "categorical_guards",
@@ -79,12 +79,12 @@
  "budget": {
   "world_ground_est_tokens": 1360,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 5917
+  "static_total_est_tokens": 6184
  },
  "quick_reach": "absent - confirmed not present in Chloe's deployed prompt (craft_pahc.py's own note)",
  "readability": {
-  "fk_grade": 6.48,
-  "fre": 75.31,
+  "fk_grade": 6.37,
+  "fre": 75.85,
   "violations": []
  }
 }
