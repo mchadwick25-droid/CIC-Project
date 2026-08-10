@@ -89,7 +89,40 @@ def _multi_world_turn_floor() -> int:
         return 2
 
 
+def _multi_world_turn_ceiling() -> int:
+    """T3/B2: the per-round ceiling (MAX_MULTI_WORLD_TURNS), read from
+    wrs/parameters.yaml's `turn_ceiling_multi_world.value` - the second
+    runtime consumer of the canonical parameters file, following the
+    floor above. The entry carries this number's full provenance,
+    including why an earlier cap of 4 was a different decision from this
+    one (reliability then, reading load now).
+
+    Fail-open, like the floor - a deployment must never fail to serve
+    because a parameters file is missing. The fallback is 4, NOT the
+    pre-B2 value of 6: a missing file should not silently restore a
+    reading load the design decided against, and 4 is a bound this
+    system already ran under in production for months. Same logging
+    discipline as the floor, so "working as designed" and "the
+    parameters file didn't make it into this image" stay
+    distinguishable.
+    """
+    try:
+        import yaml
+        params_path = Path(__file__).resolve().parents[1] / "wrs" / "parameters.yaml"
+        params = yaml.safe_load(params_path.read_text(encoding="utf-8"))
+        return int(params["parameters"]["turn_ceiling_multi_world"]["value"])
+    except Exception:
+        logger.warning(
+            "wrs/parameters.yaml unreadable or malformed at %s - "
+            "falling back to the hardcoded turn_ceiling_multi_world=4",
+            Path(__file__).resolve().parents[1] / "wrs" / "parameters.yaml",
+            exc_info=True,
+        )
+        return 4
+
+
 _TURN_FLOOR_MULTI_WORLD = _multi_world_turn_floor()
+_TURN_CEILING_MULTI_WORLD = _multi_world_turn_ceiling()
 
 
 def _message_events(msgs) -> list[tuple[str, dict]]:
@@ -1243,8 +1276,17 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
     # turn_floor_multi_world - the first runtime consumer of the
     # canonical parameters file (see _multi_world_turn_floor above).
     # Its retirement to a per-conversation contract is S4.4b, after M3.
+    # T3/B2 (2026-08-10): the ceiling now reads
+    # wrs/parameters.yaml's turn_ceiling_multi_world - 4, lowered from 6
+    # on READING LOAD, which is a different ground from the reliability
+    # cap of 4 described above and does not reopen it (that cause was
+    # root-caused, fixed, and re-tested clean; see the parameters entry,
+    # which carries both histories so neither can be mistaken for the
+    # other). Measured: table rounds ran 3.4-4.8 representative turns and
+    # repeatedly hit the 6-turn ceiling, leaving 600-700 words between a
+    # participant's turn and their next chance to speak.
     MIN_MULTI_WORLD_TURNS = _TURN_FLOOR_MULTI_WORLD
-    MAX_MULTI_WORLD_TURNS = 6
+    MAX_MULTI_WORLD_TURNS = _TURN_CEILING_MULTI_WORLD
 
     def sse(event: dict) -> str:
         return f"data: {json.dumps(event)}\n\n"

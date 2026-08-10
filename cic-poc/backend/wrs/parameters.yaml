@@ -3,8 +3,11 @@
 # code. Every entry carries its governing-source citation; a value with no
 # source is a defect, not a guess (S1.4's R check). Governing documents gain
 # POINTERS to this file in Phase 6 (S5.5/S6.1, wording per Mark) - no
-# governing document was edited by S1.4. Runtime code does not read this
-# file yet; S4.4a is the named first runtime consumer (F9), S6.4 the second.
+# governing document was edited by S1.4. Runtime consumers, as of
+# 2026-08-10: turn_floor_multi_world (S4.4a/F9, the first) and
+# turn_ceiling_multi_world (T3/B2, the second) - both read by
+# app/main.py, both fail-open, both shipped to production by the
+# Dockerfile's explicit COPY of this file.
 #
 # Entry shape: value(s) + source (where the number is authoritatively set
 # today: a governing document, verified code location, or Pass 1's verified
@@ -66,10 +69,38 @@ parameters:
       with larger lexicons (Alexandria) migrate.
 
   turn_ceiling_multi_world:
-    value: 6
+    value: 4  # LIVE since T3/B2, 2026-08-10 - see status below
+    previous_value: 6  # kept for history, per this file's never-in-place-edit convention
     source: >-
-      cic-poc/backend/app/main.py - MAX_MULTI_WORLD_TURNS = 6 (same block;
-      "cost/latency backstop only - not a target"; verified 2026-07-26).
+      cic-poc/backend/app/main.py - MAX_MULTI_WORLD_TURNS (local constant
+      inside send_message_stream, "cost/latency backstop only - not a
+      target"; verified 2026-07-26 at 6). T3/B2 (2026-08-10) made the
+      runtime READ this entry, the way turn_floor_multi_world is read -
+      main.py's _multi_world_turn_ceiling(), the second runtime consumer
+      of this file.
+    status: >-
+      LOWERED 6 -> 4 at T3/B2 (2026-08-10), by the Table design
+      (Ministry/Technology/Table/T3_design_2026-08-10.md SS3) under Mark's
+      delegation. Ground: READING LOAD. Measured table rounds ran 3.4-4.8
+      representative turns and repeatedly hit the 6-turn ceiling, leaving
+      600-700 words between one participant turn and their next chance to
+      speak (six measured cells, Ministry/Technology/Table/runs/). Cost is
+      explicitly NOT the ground - Haiku voices clear the tier arithmetic
+      uncapped (T1).
+    notes: >-
+      THIS IS NOT THE OLD RELIABILITY CAP, and the distinction must survive
+      or a future reader will think a fixed bug was re-opened. This constant
+      was ORIGINALLY 4 because 6-turn rounds chained 15+ sequential calls and
+      produced truncated or empty late turns. That cause was root-caused to
+      extended-thinking silently consuming a capped call's token budget, was
+      fixed project-wide, and the cap was restored to 6 after a clean
+      2026-07-13 three-world re-test (one round ended naturally at 4, one ran
+      the full 6 with all turns substantial, no truncation, no errors). The
+      reliability question is settled and stays settled; 4 returns on
+      unrelated reading-load grounds. That same re-test recorded 6-turn rounds
+      at ~150s end to end against ~60-90s at 4, which the new ground only
+      reinforces. Pilot feedback can move this number either way - it is one
+      edit here, no code change.
 
   conversation_turn_cap:
     value: 20
