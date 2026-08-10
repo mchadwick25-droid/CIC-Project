@@ -96,6 +96,40 @@ check of the real Living Table build in a running conversation — see LT-1.
       System Hub rulings, not fixes, and they gate the model flip. (2) The table thread's
       *"one review nobody has done"* — a clean-room read of the combined diff — must be
       done by someone who wrote **neither** workstream. Neither authoring thread can do it.
+- [ ] **NEW 2026-08-10 — GO-LIVE HELD: a real content-quality defect found live on the
+      deployed site during the A3 transparency check, not a rendering bug.** Mark asked
+      Papnoute (Desert) "who was Jesus" as a first, foundational question — solo, clean
+      conversation. Full answer: *"Christ is the one we left everything to follow. Antony
+      heard him say it in church — sell what you have, come, follow me — and took it as
+      spoken to him. He gave away what he had and went out. What made you ask?"* That is
+      not a simplified answer about who Jesus is — it substitutes Antony's biography for
+      the question asked, and never characterizes Jesus at all.
+      **This isn't a style disagreement — it fails the design's own stated bar.**
+      `Ministry/Technology/Pass2/decisions/VR_1A_Representative_Voice_Design_2026-08-09.md`
+      §9 ("Accessibility without dilution") gives a worked example of exactly this failure
+      mode and a worked example of the target: too simplified is *"They believed Jesus
+      changes you"*; accessible-but-rigorous is *"We believed salvation meant more than
+      having our sins forgiven. Christ was bringing us into God's life and changing what we
+      were becoming."* Papnoute's actual answer does not reach even the doc's own
+      "too simplified" example — it isn't a thin answer to the question, it is not an
+      answer to the question. The doc's own measurement tension (A. Accessible ↔
+      Sophisticated — "does it still contain genuine theological substance?") is the
+      instrument that should have caught this and did not, because nothing has yet tested
+      broad/foundational questions specifically as their own category.
+      **Mark's ruling: hold go-live until this is fixed. Log it for the Voice Rebuild
+      thread; do not patch the prompt ad hoc outside that thread's own checkpoint
+      discipline.** Mark is separately running the same "who was Jesus" question against
+      the other five Representatives (solo, first question, same controlled setup) to
+      determine whether this is a shared-block defect (all six thin) or Papnoute/Desert-
+      specific (isolated) — that result determines whether the fix is one shared-block
+      change or a per-world one. Full write-up and evidence:
+      `Ministry/Technology/Pass2/VR_1A_WORKLIST.md`, item 11.
+      **Everything else in A3 passed**: two-tier citations (drawn-on vs. consulted)
+      confirmed rendering correctly with real content; a real but minor UI bug found and
+      fixed in the same session (`CitationMarker.tsx`'s tooltip-width constant, 280px vs.
+      the CSS's actual 260px, causing the hover tooltip to render partly off-screen —
+      `8141947e`). This DO NOW item is the content defect specifically, not the rendering
+      check as a whole.
 - [ ] **UNRESOLVED 2026-08-07 — an unidentified thread has been pushing directly to `main`
       under the git identity `CiC Integrity Audit <audit@cic.local>` since 2026-07-03
       (650+ commits), independently of every other named thread, and is STILL ACTIVE.**

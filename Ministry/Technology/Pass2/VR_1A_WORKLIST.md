@@ -285,6 +285,65 @@ remaining four world checkpoints, so Chloe's and Marius's completed runs
 become the pre-1A arm of the paired read and the remaining worlds are
 checkpointed once, against the post-1A block. Cheaper than six-then-redo.
 
+## 11. Foundational/broad questions get no theological substance — PENDING MARK, GO-LIVE HELD
+
+**Found 2026-08-10, live on the deployed site, during the go-live checklist's A3
+transparency check** (Mark reading real citations/glosses/name-bridge pills at a live
+conversation — not a scripted probe). First question to a fresh solo Papnoute session:
+*"who was Jesus."* Full answer:
+
+> "Christ is the one we left everything to follow. Antony heard him say it in church —
+> sell what you have, come, follow me — and took it as spoken to him. He gave away what he
+> had and went out. What made you ask?"
+
+This does not answer the question. It isn't a simplified or accessible answer about who
+Jesus is — it substitutes Antony's own calling story for any characterization of Jesus at
+all: no nature, no teaching, no identity, nothing beyond "the one we left everything to
+follow." Mark's own words: *"this is not an appropriate answer and has me deeply
+concerned... just because its short and easier to reach doesnt mean it is a good answer."*
+
+**This is measured against the design's own stated bar, not a taste call.**
+`decisions/VR_1A_Representative_Voice_Design_2026-08-09.md` §9, "Accessibility without
+dilution" — *"Simplify the expression. Do not simplify the world"* — gives this exact
+worked pair:
+
+> Too simplified: "They believed Jesus changes you."
+> Accessible but rigorous: "We believed salvation meant more than having our sins
+> forgiven. Christ was bringing us into God's life and changing what we were becoming."
+
+Papnoute's actual answer does not reach even the "too simplified" example — that example
+is at least an answer to the question asked. The doc's own measurement tension (under "How
+I would measure this," tension A: *"Accessible ↔ Sophisticated. Can someone understand it
+on the first reading? But does it still contain genuine theological substance?"*) is the
+instrument built to catch exactly this, and it has never been run against broad/
+foundational questions specifically — every probe and checkpoint battery to date tests
+narrower, world-specific questions, not "who was Jesus," "what is God," "why does any of
+this matter" — the questions a real first-time participant is most likely to actually ask.
+
+**Not self-fixed. Mark's ruling, verbatim: hold go-live until this is fixed; log it here;
+do not patch the prompt ad hoc outside this thread's own checkpoint discipline.**
+
+**Open, and the next concrete step**: Mark is running the identical question ("who was
+Jesus," solo, first question, same controlled setup) against the other five
+Representatives to determine scope before any fix is designed:
+- If **all six** give similarly substance-thin answers → the defect is almost certainly in
+  the shared block (`_HOW_YOU_ENGAGE`, item 2 above) or the shared "short answer first" /
+  "depth behind the voice" instructions (§2–3 of the Voice Design doc) being applied
+  without a floor on foundational-question substance — one shared-block fix, fleet-wide
+  re-checkpoint.
+- If it's **isolated to Papnoute/Desert** → specific to his own permanent prompt or the
+  Desert voice profile's register — a per-world fix, per-world re-checkpoint.
+
+Whichever it is, the real gap this surfaces either way: **no existing probe battery tests
+broad/foundational questions as their own category.** Worth adding as a permanent probe
+class once this specific instance is fixed, not just patched once and left untested going
+forward.
+
+**Cross-reference:** logged as a blocking DO NOW item on the Task Board (2026-08-10 entry)
+so it's visible outside this thread. A real but unrelated UI bug was also found and fixed
+in the same session (`CitationMarker.tsx` tooltip-width mismatch, `8141947e`) — separate
+from this item, does not block on it and isn't blocked by it.
+
 ---
 
 *Cross-references: fleet watch items live in
