@@ -32,7 +32,7 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
   // rather than via a one-time device/viewport check.
   const lastPointerTypeRef = useRef<string>('mouse');
 
-  const TOOLTIP_WIDTH = 280;
+  const TOOLTIP_WIDTH = 260; // must match .citation-tooltip's width in table.css
   const VIEWPORT_MARGIN = 12;
 
   useEffect(() => {
