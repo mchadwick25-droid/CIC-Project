@@ -670,3 +670,48 @@ Whether that blocks fleet-wide Haiku certification is Mark's read. Five
 worlds remain uncertified on Haiku (~$1.10 each); watch especially SYR/HAL/
 ALX, whose ceilings sit at their Sonnet-measured maxima, and the FRE margin,
 which one world's thinness does not yet make a pattern.
+
+---
+
+## HAIKU FLEET CERTIFICATION — 2026-08-10 — **4 of 6 worlds FAIL a hard bar**
+
+All six re-run on `claude-haiku-4-5-20251001` (Mark's cost decision). Same
+battery, same bars, ~$1.10/world.
+
+| world | mean S→H | ceiling | breaches | fab | regen | citations | glosses | verdict |
+|---|---|---|---|---|---|---|---|---|
+| Chloe | 115.5 → 115.2 | 150 | none | 0 | 7→6 | 7/8 → 3/8 | 4→3 | **PASS** |
+| Marius | 117.9 → 123.4 | 150 | none | 0→**1** | 6→6 | 6/8 → **1/8** | 3→5 | **FAIL** (fabrication) |
+| Theon | 147.4 → **171.6** | 160 | none | 0 | 8→7 | 6/8 → 3/8 | 3→5 | **FAIL** (measure) |
+| Papnoute | 51.9 → **88.0** | 70 | none | 0 | **2→6** | 6/8 → 4/8 | 0→1 | **FAIL** (measure ×2) |
+| Yausep | 136.2 → 115.5 | 165 | none | 0 | 7→5 | 7/8 → **8/8** | 7→3 | **PASS** |
+| Albina | 119.4 → **167.1** | 160 | none | 0 | 7→8 | 8/8 → 8/8 | 0→5 | **FAIL** (measure ×2) |
+
+**THE HEADLINE IS MEASURE, NOT CITATIONS.** Three worlds now average *above
+their own ceilings* — Theon 171.6/160, Albina 167.1/160, Papnoute 88.0/70 —
+despite heavy regeneration (7/8, 8/8, 6/8). The ceiling machinery fires and
+still lands over. Papnoute is the sharpest: his mean rose 69% against a
+baseline of 56.2, his max hit 156 against a ceiling of 70, and his
+regeneration rate tripled (2/8 → 6/8), which also erodes the cost saving the
+switch was made for. The api-cost thread predicted exactly this — "a ceiling
+set precisely at one model's measured maximum has zero margin against a
+different model."
+
+**Readability holds fleet-wide**: zero breaches on all six. But FRE margins
+thinned toward the 60 floor on three (Theon 60.95, Chloe 61.89, Albina 62.51).
+
+**Citations 40/48 → 27/48**, and world-specific rather than universal —
+Yausep *rose* 7→8 and Albina held 8/8, while Marius collapsed 6→1. **Glosses
+IMPROVED fleet-wide, 17/48 → 22/48.**
+
+**A CORRECTION TO THIS THREAD'S OWN TWO-WORLD READ.** After Chloe and Marius
+I reported "Haiku costs citations and nothing else measurable in 1A." That
+was wrong, and wrong because those two worlds happen to be the ones whose
+measure held. With all six in, measure is the dominant failure and citations
+are the secondary one. Two of six is not a fleet.
+
+**Not covered by Mark's stated tolerance.** "A small drop after 15 turns" and
+"ambiguous result is a PASS" govern *voice quality*; a world averaging above
+its own ceiling on a scored bar is not an ambiguous result. The two-tier
+citation fix (2026-08-10) addresses the citation half and is NOT reflected
+here — these runs predate it.
