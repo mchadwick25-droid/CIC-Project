@@ -66,6 +66,36 @@ check of the real Living Table build in a running conversation — see LT-1.
 
 ## 🔴 DO NOW (all dependencies clear — priority order)
 
+- [ ] **2026-08-10 — THREE-THREAD GO-LIVE, System Hub 8–9 coordinating. One merge order,
+      one model switch, three workstreams that must move together.** The governing
+      constraint, which no thread can see from inside itself: **there is only one model
+      setting.** `render.yaml`'s `LLM_MODEL` is Blueprint-managed (a dashboard edit gets
+      overwritten) and governs interview AND table alike — so the two workstreams' Haiku
+      switches are the same switch, one commit, one deploy, both modes.
+      **The three documents, and where each actually lives:**
+      - **Merge order + gates + rollback (governs all three threads):**
+        `Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md` — ⚠ **on branch
+        `claude/fable-table-cost-analysis-ynunno` ONLY, not on `main`.** Until it lands,
+        no thread reading `main` can see the order it is supposed to follow. Merging it
+        is the cheapest possible unblock and should happen first.
+      - **Interview/Voice Rebuild status, gates, and what ships unresolved:**
+        `Ministry/Operations/Standing/Launch-Prompts/CiC_VoiceRebuild_System_Hub_Update_2026-08-10.md`
+        — **on `main`**, 12 sections. §4 fleet certification, §7 readiness findings,
+        §8 branch protection, §9 the four blockers, §10 what has never been tested.
+      - **Both decisions of 2026-08-10 with their reasoning:** `CiC_System_Hub_Decision_Log.md`,
+        final entry.
+      **State as of this entry:** interview upgrades are **merged to `main`** (`c6fb7e9f`)
+      and live on Sonnet — that is the checklist's Step 1, done. Production model was
+      briefly Haiku (11:38–~11:55) and is **reverted to `claude-sonnet-5`** (`21e6842c`),
+      restoring the checklist's rule that the model switch lands last and alone.
+      **Step 2 — PR #10 → `main` — is unblocked and is the next move.**
+      **Two things that cross thread boundaries and should not stay behind them:**
+      (1) interview fleet certification on Haiku is **3 of 6 PASS** — Theon, Papnoute and
+      Albina carry open rulings (readability breach *inside* the target band; two hairline
+      measure regressions; two fabrication signals, one of which predates Haiku). These are
+      System Hub rulings, not fixes, and they gate the model flip. (2) The table thread's
+      *"one review nobody has done"* — a clean-room read of the combined diff — must be
+      done by someone who wrote **neither** workstream. Neither authoring thread can do it.
 - [ ] **UNRESOLVED 2026-08-07 — an unidentified thread has been pushing directly to `main`
       under the git identity `CiC Integrity Audit <audit@cic.local>` since 2026-07-03
       (650+ commits), independently of every other named thread, and is STILL ACTIVE.**

@@ -11,6 +11,42 @@ messages on `claude/cic-voice-rebuild-handoff-fjwrt4`; this is what needs tracki
 
 ---
 
+## ⚠ STATUS ADDENDUM — added after this document was written. Read before §1.
+
+**Two things below are now out of date, and one of them inverts.** This document was
+written at ~11:30 on 2026-08-10; the merge happened at 11:38 and the table workstream's
+checklist reached this thread afterwards. Corrections, in the order they matter:
+
+1. **§1 is now FALSE where it says `main` does not have this work.** The branch was
+   merged to `main` at Mark's instruction — commit **`c6fb7e9f`** — and deployed. §9's
+   fourth blocker ("merge the branch to `main` and deploy") is **DONE**. Everything §1
+   says about the *content* of the branch remains accurate; only its location changed.
+
+2. **The Haiku switch was reverted the same day — `main` is back on `claude-sonnet-5`**
+   (commit `21e6842c`). This is a **sequencing** fix, not a reversal of the cost
+   decision, and it is the single most important thing on this page for anyone acting
+   on §4, §5 or §6. **There is only one model setting and it governs interview AND table
+   alike** — `render.yaml` is Blueprint-managed — so this thread's Haiku switch was also
+   the table's. The table workstream measured a **Haiku-only** public-transcript
+   isolation breach (up to 21% of table turns; zero on Sonnet) whose repair is in PR #10
+   and **not** in `main`. Every Haiku measurement in §4–§6 stands; what changed is that
+   the flip must land **last and alone**, after PR #10 is merged and `main` is verified
+   on Sonnet.
+
+3. **This document is no longer the whole picture.** The order all three threads follow
+   is `Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md` — which as of writing
+   exists **only on `claude/fable-table-cost-analysis-ynunno`**, not on `main`. Getting
+   it onto `main` is the cheapest unblock available. Both 2026-08-10 decisions, with
+   reasoning, are the final entry in `CiC_System_Hub_Decision_Log.md`.
+
+4. **One defect closed after §10 was written**, and it is the first thing §10's
+   never-run-in-a-browser gap actually produced: `cic-poc/frontend/src/index.css` — the
+   whole two-tier citation stylesheet — was imported by nothing, so Vite never bundled
+   it and a *consulted* source rendered identically to a *drawn-on* one. Fixed in
+   `a1fd87ac`. §10's other two untested paths are unchanged and still open.
+
+---
+
 ## 1. The headline, because everything else depends on it
 
 **`main` does not have this work. The live site does not have this work.**
