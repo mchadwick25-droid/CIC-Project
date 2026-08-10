@@ -1718,6 +1718,14 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # world has ever produced has regenerated. With the re-derived 70 ceiling
     # at 1.0 the enforced threshold DROPS from 90 to 70, even though the
     # ceiling number itself rose. All five passed worlds now sit at 1.0.
+    # How many corrective regenerations a single turn may spend before the
+    # shortest draft seen is accepted. 2, not 1 (the old implicit value) and
+    # not unbounded: each attempt is a full generation, and the measured
+    # first-retry compliance rate is 29-76% depending on world, so a second
+    # attempt recovers most of the remainder while capping worst-case turn
+    # cost at 3 generations.
+    _MAX_LENGTH_RETRIES = 2
+
     RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.0, "hieronymian-ascetic-literary": 1.0,
                                "alexandria-catechetical": 1.0,
                                # syriac 1.2 -> 1.0 (Phase 2, Yausep's pass,
@@ -1759,20 +1767,53 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                 f"(ceiling {ceiling}, trigger {ceiling * retry_trigger_multiple:.0f}) - "
                 "regenerating once."
             )
-            corrective = HumanMessage(content=(
-                f"Your answer just now ran to {word_count} words; your own "
-                f"measure holds at most {ceiling}. Say the same thing again, holding to "
-                "it - fewer sentences, not less said."
-            ))
-            retry_text, retry_pieces = _generate_once(
-                messages + [AIMessage(content=full_text), corrective]
-            )
-            if retry_text:
-                print(
-                    f"[length_ceiling] {ctx['current_world_id']} retry produced "
-                    f"{len(retry_text.split())} words."
+            # BOUNDED RETRY, up to _MAX_LENGTH_RETRIES (2026-08-10). This
+            # used to regenerate exactly once and then accept whatever came
+            # back WITHOUT CHECKING WHETHER IT COMPLIED. Measured from the
+            # Haiku fleet certification, share of CORRECTED drafts still over
+            # ceiling: Theon 20/28, Papnoute 20/30, Marius 17/28, Albina
+            # 14/31, Yausep 5/21 - and Chloe 11/32 on the SONNET-certified
+            # build, which is how we know this is a pre-existing enforcement
+            # gap that Haiku exposed rather than caused.
+            #
+            # This is the lever Chloe's own voice_profile named when she ran
+            # long against her measure: "The numbers are NOT moved to meet the
+            # behaviour... What was missing was never a better number. It was
+            # enforcement." Three of six worlds state their measure in their
+            # own prompt (Papnoute's "four sentences is already long for you",
+            # Albina's epistula warrant, Chloe's "two short paragraphs"), so
+            # raising their numbers to match a model would delete the rule
+            # the world itself states.
+            #
+            # Still bounded, and still honest about giving up: each attempt
+            # costs a full generation, so this caps at _MAX_LENGTH_RETRIES and
+            # then KEEPS THE SHORTEST draft seen rather than the last one -
+            # the last is arbitrary, the shortest is the best available
+            # against the bar we are enforcing. Every attempt is logged.
+            best_text, best_pieces = full_text, pieces
+            retry_text = None
+            for attempt in range(1, _MAX_LENGTH_RETRIES + 1):
+                corrective = HumanMessage(content=(
+                    f"Your answer just now ran to {len(best_text.split())} words; your own "
+                    f"measure holds at most {ceiling}. Say the same thing again, holding to "
+                    "it - fewer sentences, not less said."
+                ))
+                retry_text, retry_pieces = _generate_once(
+                    messages + [AIMessage(content=best_text), corrective]
                 )
-                full_text, pieces = retry_text, retry_pieces
+                if not retry_text:
+                    break
+                retry_words = len(retry_text.split())
+                print(
+                    f"[length_ceiling] {ctx['current_world_id']} retry {attempt} produced "
+                    f"{retry_words} words (ceiling {ceiling})."
+                )
+                if retry_words < len(best_text.split()):
+                    best_text, best_pieces = retry_text, retry_pieces
+                if retry_words <= ceiling:
+                    break
+            if best_text is not full_text or retry_text:
+                full_text, pieces = best_text, best_pieces
             # Logged whether or not the retry came back with text: an empty
             # retry still fired (and still cost a call), and the first
             # draft is kept in that case - retry_words=0 records exactly
