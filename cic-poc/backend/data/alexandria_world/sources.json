@@ -1,0 +1,1008 @@
+{
+  "view": "sources.json - FAIR export (S5.4, Pass 1 SS5.6)",
+  "world_id": "alexandria-catechetical",
+  "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
+  "id_scheme": "record ids are stable within this repository (srcALX0nn; referenced by every record's sources[] rows)",
+  "source_count": 37,
+  "sources": [
+    {
+      "id": "srcALX001",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Clement of Alexandria",
+      "work_title": "Protreptikos; Paedagogus; Stromateis",
+      "work_locus": "c. 150-215",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Greek text survives reasonably directly; the Stromateis is textually difficult but not adversarially transmitted.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX002",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Origen",
+      "work_title": "Surviving corpus (commentaries, homilies, De principiis, Contra Celsum)",
+      "work_locus": "c. 185-254; Caesarea from c. 231-234",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "A large part of his corpus survives only in Latin translation - Rufinus, who softened doctrinally suspect passages, and Jerome, who (after turning against him) quoted him to discredit him. Fine-grained claims about Origen's precise positions must be held with this adversarial/edited transmission in view.",
+      "field_state": "contested",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX003",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Athanasius",
+      "work_title": "Anti-Arian corpus; Festal Letters; apologetic and pastoral works",
+      "work_locus": "c. 296-373; post-Nicene concentration",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Well-transmitted in Greek, with significant Coptic and Syriac witnesses expanding the corpus (Brakke).",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX004",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Athanasius",
+      "work_title": "Life of Antony",
+      "work_locus": "c. 356-362",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Within living memory of its subject; hagiographic conventions (call narrative, temptation sequence, exemplary death) shape the whole.",
+      "field_state": "contested",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX005",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Didymus the Blind",
+      "work_title": "Tura commentaries (Psalms, Job, Zechariah)",
+      "work_locus": "c. 313-398; recovered 1941",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Lost for centuries after his posthumous association with condemned Origenism; recovered only in the 20th century (the Tura find, 1941).",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX006",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Dionysius of Alexandria",
+      "work_title": "Letters and fragments (via Eusebius)",
+      "work_locus": "bishop c. 248-264",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Doubly mediated - his own selection of what to write, then Eusebius's selection of what to preserve; almost nothing survives unmediated.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX007",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Gregory Thaumaturgus",
+      "work_title": "Address of Thanksgiving to Origen",
+      "work_locus": "delivered c. 238",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Direct Greek manuscript transmission, no adversarial translation layer - but the authenticity and dating were questioned by Nautin and reaffirmed by later scholarship (Markschies, Mitchell), so the c. 238 dating is carried with that named caveat.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX008",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Philo of Alexandria",
+      "work_title": "Corpus (diagnostic use only)",
+      "work_locus": "c. 20 BCE - c. 50 CE",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Jewish, pre-horizon, and absent from the evidence streams.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX009",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Eusebius of Caesarea",
+      "work_title": "Ecclesiastical History",
+      "work_locus": "c. 260-339; HE early 4th c.",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "The Greek text survives reasonably directly; the risk is interpretive, not textual - the danger is trusting his construction of institutional order, not a corrupted text.",
+      "field_state": "contested",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX010",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Palladius",
+      "work_title": "Lausiac History",
+      "work_locus": "c. 419-420; author c. 363-420s",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Survives in multiple Greek recensions with live textual scholarship and later editorial accretions - attribution of specific material to Palladius's own witness is not always secure.",
+      "field_state": "contested",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX011",
+      "world_id": "alexandria-catechetical",
+      "work_author": "anonymous compilers",
+      "work_title": "Apophthegmata Patrum",
+      "work_locus": "collected late 4th-5th c.",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": "The collection tradition is well-attested; individual attributions (Antony, Macarius, Poemen, and others, plus anonymous material) carry only moderate confidence.",
+      "field_state": "contested",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX012",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Jerome",
+      "work_title": "On Illustrious Men; Letters",
+      "work_locus": "late 4th c.",
+      "edition": null,
+      "translation": null,
+      "language": "lat",
+      "script": "Latn",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "Direct Latin transmission; the interpretive risk is positional, not textual.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX013",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Frances M. Young",
+      "work_title": "Biblical Exegesis and the Formation of Christian Culture (Cambridge UP, 1997)",
+      "work_locus": "1997",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX014",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Annewies van den Hoek",
+      "work_title": "Clement of Alexandria and His Use of Philo in the Stromateis (Brill, 1988)",
+      "work_locus": "1988",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX015",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Henry Chadwick",
+      "work_title": "Early Christian Thought and the Classical Tradition (Clarendon, 1966); Origen: Contra Celsum (CUP, 1953)",
+      "work_locus": "1966; 1953",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX016",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Andrew Louth",
+      "work_title": "The Origins of the Christian Mystical Tradition: From Plato to Denys (Clarendon, 1981; 2nd ed. 2007)",
+      "work_locus": "1981/2007",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX017",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Rowan Williams",
+      "work_title": "Arius: Heresy and Tradition (DLT 1987; rev. SCM 2001)",
+      "work_locus": "1987/2001",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX018",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Samuel Rubenson",
+      "work_title": "The Letters of St. Antony (Lund 1990; Fortress 1995)",
+      "work_locus": "1990/1995",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX019",
+      "world_id": "alexandria-catechetical",
+      "work_author": "David Brakke",
+      "work_title": "Athanasius and the Politics of Asceticism (Clarendon, 1995); Demons and the Making of the Monk (Harvard, 2006)",
+      "work_locus": "1995; 2006",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX020",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Birger A. Pearson",
+      "work_title": "Gnosticism and Christianity in Roman and Coptic Egypt (T&T Clark, 2004)",
+      "work_locus": "2004",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX021",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Ewa Wipszycka",
+      "work_title": "The Alexandrian Church: People and Institutions (JJP Suppl. 25, 2015); Moines et communautes monastiques en Egypte (JJP Suppl. 11, 2009)",
+      "work_locus": "2015; 2009",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX022",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Roger S. Bagnall",
+      "work_title": "Egypt in Late Antiquity (Princeton UP, 1993)",
+      "work_locus": "1993",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX023",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Peter Brown",
+      "work_title": "The World of Late Antiquity (1971); The Body and Society (1988)",
+      "work_locus": "1971; 1988",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX024",
+      "world_id": "alexandria-catechetical",
+      "work_author": "David T. Runia",
+      "work_title": "Philo in Early Christian Literature: A Survey (Van Gorcum/Fortress, 1993)",
+      "work_locus": "1993",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX025",
+      "world_id": "alexandria-catechetical",
+      "work_author": "(documentary corpus)",
+      "work_title": "Oxyrhynchus and Fayum/Delta papyri (Christian content)",
+      "work_locus": "2nd-4th c. papyri",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "M",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": "Fragmentary, frequently decontextualized, but direct where Christian content is identifiable.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX026",
+      "world_id": "alexandria-catechetical",
+      "work_author": "(archaeological corpus)",
+      "work_title": "Egyptian Christian archaeology (baptisteries, church buildings, funerary evidence)",
+      "work_locus": "3rd-5th c. sites",
+      "edition": null,
+      "translation": null,
+      "language": "und",
+      "script": "Zyyy",
+      "source_type": "M",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": "Alexandria's own remains are fragmentary (continuous rebuilding, coastal subsidence); the usable archaeology is elsewhere in Egypt.",
+      "field_state": null,
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX027",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Athanasius",
+      "work_title": "On the Incarnation (De incarnatione)",
+      "work_locus": "early career, before c. 328 (conventional; dating debated)",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX028",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Clement of Alexandria",
+      "work_title": "Quis Dives Salvetur (Who Is the Rich Man That Shall Be Saved?)",
+      "work_locus": "c. 190-210",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX029",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Council of Nicaea",
+      "work_title": "The Nicene Creed",
+      "work_locus": "325 CE",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX030",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Ignatius of Antioch",
+      "work_title": "Letters",
+      "work_locus": "early 2nd c. (pre-horizon)",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX031",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Irenaeus of Lyon",
+      "work_title": "Against Heresies",
+      "work_locus": "c. 180 (pre/extra-horizon)",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX032",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Tertullian",
+      "work_title": "Prescription Against Heretics",
+      "work_locus": "c. 200 (extra-horizon, Latin North Africa)",
+      "edition": null,
+      "translation": null,
+      "language": "lat",
+      "script": "Latn",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX033",
+      "world_id": "alexandria-catechetical",
+      "work_author": "this build (CiC Alexandria migration)",
+      "work_title": "Build rendering of De incarnatione 54's formula as 'God became human so that humanity might become god'",
+      "work_locus": "2026 (the deployed lexicon chunks' own rendering)",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "M",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "S2.4-equivalent quote work (wrs/migrate/s62_alx_s24.py; the CO-P2-08 truthful-translation-row convention)",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX034",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Christopher Haas",
+      "work_title": "Alexandria in Late Antiquity: Topography and Social Conflict (Johns Hopkins UP, 1997)",
+      "work_locus": "1997",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX035",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Henri Crouzel",
+      "work_title": "Origene (1985; ET Origen, 1989)",
+      "work_locus": "1985/1989",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX036",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Eric Osborn",
+      "work_title": "Clement of Alexandria (Cambridge UP, 2005)",
+      "work_locus": "2005",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcALX037",
+      "world_id": "alexandria-catechetical",
+      "work_author": "Colin H. Roberts",
+      "work_title": "Manuscript, Society and Belief in Early Christian Egypt (Schweich Lectures; OUP, 1979)",
+      "work_locus": "1979",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
+        "date": "2026-07-27"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    }
+  ]
+}

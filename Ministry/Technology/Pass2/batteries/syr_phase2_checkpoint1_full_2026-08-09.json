@@ -1,0 +1,1522 @@
+{
+ "world_id": "syriac-edessa-nisibis",
+ "checkpoint": 1,
+ "candidate": true,
+ "ceiling": 165,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 8,
+    "words": 138,
+    "words_per_sentence": 17.2,
+    "paragraphs": 3,
+    "fk_grade": 8.04,
+    "fre": 67.51,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "qyama",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Not for everyone.",
+    "turn": 1
+   },
+   {
+    "sentences": 9,
+    "words": 150,
+    "words_per_sentence": 16.7,
+    "paragraphs": 3,
+    "fk_grade": 8.12,
+    "fre": 65.95,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "raza",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Baptism was never only a washing away.",
+    "turn": 2
+   },
+   {
+    "sentences": 6,
+    "words": 117,
+    "words_per_sentence": 19.5,
+    "paragraphs": 2,
+    "fk_grade": 7.72,
+    "fre": 74.17,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "qyama",
+    "technical_term_in_first_sentence": true,
+    "first_sentence": "The qyama was our word for it: a vow of celibacy kept for life.",
+    "turn": 3
+   },
+   {
+    "sentences": 10,
+    "words": 162,
+    "words_per_sentence": 16.2,
+    "paragraphs": 3,
+    "fk_grade": 6.21,
+    "fre": 79.03,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "madrasha",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The song and the teaching were never two things.",
+    "turn": 4
+   },
+   {
+    "sentences": 11,
+    "words": 133,
+    "words_per_sentence": 12.1,
+    "paragraphs": 4,
+    "fk_grade": 5.09,
+    "fre": 79.93,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Simeon, our bishop of Seleucia-Ctesiphon.",
+    "turn": 5
+   },
+   {
+    "sentences": 11,
+    "words": 135,
+    "words_per_sentence": 12.3,
+    "paragraphs": 3,
+    "fk_grade": 5.93,
+    "fre": 72.59,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "iḥidaya",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The word \"solitary\" misleads first.",
+    "turn": 6
+   },
+   {
+    "sentences": 9,
+    "words": 128,
+    "words_per_sentence": 14.2,
+    "paragraphs": 3,
+    "fk_grade": 5.49,
+    "fre": 84.18,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "A graft.",
+    "turn": 7
+   },
+   {
+    "sentences": 8,
+    "words": 117,
+    "words_per_sentence": 14.6,
+    "paragraphs": 3,
+    "fk_grade": 6.74,
+    "fre": 72.33,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "raza",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "What we would want you to carry is a seat, not a conclusion.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm glad you're here — come in, settle in, take your time.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome to the table. Today you sit with Mar Yausep, a teacher formed in the Syriac Christian tradition as it took root in Edessa and Nisibis, speaking to you from within the world of the third and early fourth centuries — a time of ascetic communities, biblical reflection in the Semitic idiom, and a church still finding its shape under Persian rule. Please, begin whenever you are ready; Mar Yausep is listening.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What did it mean in your community to give your whole life to God? Was that for everyone, or only for a few?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "Not for everyone. The qyama, our covenant vow, was for particular men and women - the bnay qyama and bnat qyama - who bound themselves for life to celibacy and watchfulness. Most of us married and kept ordinary households; the vow was a distinct calling, not the whole community's condition.\n\nBut it was not the desert's kind of giving. Those who took it stayed in town, among their own kin, unmarried, keeping fast and vigil, present at every reading. Aphrahat wrote to this order as something already standing among us, correcting its life rather than founding it. The refusal was made inside the world, not by leaving it.\n\nThere is more to say about what name that life carried, and why - but that waits on what troubles you more: the \"few,\" or what the life itself was.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+      "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #56).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+      "source_file": "syrlex002_qyama.md",
+      "registry": [
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "13",
+        "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+        "type": "P",
+        "confidence": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+        "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "32",
+        "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+        "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "33",
+        "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+        "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Mar",
+      "gloss": "my lord, an honorific like \"Saint\"",
+      "rendered": "my lord, an honorific like \"Saint\" (Mar)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "qyama",
+      "gloss": "a kept vow of celibacy for life",
+      "rendered": "a kept vow of celibacy for life (qyama)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "How did your community understand baptism? What actually changed for the person?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "Baptism was never only a washing away. We read it by raza, a sign tied to a hidden truth - so the water carries something of what it signifies, rather than just picturing it. What changed was not first a feeling. It was a standing.\n\nWe understood it closest through the vow. Those baptized as bnay qyama or bnat qyama entered the water as entering Christ's whole life at once - his death, but also his undividedness, since our word for that undivided one, Iḥidaya, is the same word we use for Christ as the Only-Begotten. Baptism and that single allegiance stood very close together.\n\nWhat our record does not give us plainly is how baptism sat for the ordinary household - the child, the convert who married and never took the vow. What are you turning this toward: infant baptism, or what it meant to enter the qyama itself?",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+      "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #56).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+      "source_file": "syrlex002_qyama.md",
+      "registry": [
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "13",
+        "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+        "type": "P",
+        "confidence": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+        "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "32",
+        "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+        "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "33",
+        "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+        "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "raza",
+      "gloss": "a sign tied to a hidden truth",
+      "rendered": "a sign tied to a hidden truth (raza)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "Iḥidaya",
+      "gloss": "the undivided one",
+      "rendered": "the undivided one (Iḥidaya)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "Mar",
+      "gloss": "my lord, an honorific like \"Saint\"",
+      "rendered": "my lord, an honorific like \"Saint\" (Mar)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "qyama",
+      "gloss": "a kept vow of celibacy for life",
+      "rendered": "a kept vow of celibacy for life (qyama)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Why did some people in your world choose never to marry? What was that about?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "The qyama was our word for it: a vow of celibacy kept for life. Not flight to the desert - our own stayed in the town, among their kin, sitting at table with brothers and sisters who married. What was refused was dividing the heart at all, so it could stand wholly ready for the one claim that mattered most.\n\nBoth men and women took this vow, known for it openly, standing in a place beside the bishop's office rather than beneath it. What their days actually held, especially the daughters who sang it, our record does not give us well. What survives is the teaching about the vow, not the voice of those who kept it.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "taḥwyāṯā (singular: taḥwîṯâ)",
+      "key_sources": "Jean Parisot, *Patrologia Syriaca* I/1–2 (1894/1907), the Doc_02/Registry edition of record (Source Registry #10). Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010) (Source Registry #10, #30).\n\nOpen flag carried from Doc_03: a \"Valavanolickal 2005\" translation date could not be independently reconfirmed in this pass — only a 2011 Gorgias edition was found. Reconcile with a direct check of the original Kottayam printing before this citation is relied upon for a precise date claim.",
+      "source_file": "syrlex003_tahwyata.md",
+      "registry": [
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "30",
+        "source": "Adam Lehto, The Demonstrations of Aphrahat, the Persian Sage (Gorgias Press, 2010).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Aphrahat's own status, context, and manuscript history",
+        "verification_note": "Verified this session: standard complete English translation with extensive introduction. No misattribution found.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Mar",
+      "gloss": "my lord, an honorific like \"Saint\"",
+      "rendered": "my lord, an honorific like \"Saint\" (Mar)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "qyama",
+      "gloss": "a kept vow of celibacy for life",
+      "rendered": "a kept vow of celibacy for life (qyama)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "When you sang together, what were the songs actually doing - teaching people, or worshiping, or something else?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "The song and the teaching were never two things. When a madrasha, a teaching-hymn, was raised, you did not learn the doctrine and then sing about it after. You learned it by singing it - the tune carried the argument the way a raza, a sign tied to a hidden truth, is bound to the truth it carries and not separate from it.\n\nThe refrain mattered because it returned. Each time it came back round, it pressed the same claim further into you than one plain sentence could. That is why Ephrem built whole hymns on our own alphabet, letter by letter - not for cleverness, but so the case would be carried in order, into the body, through repetition.\n\nAnd it was not sung in an empty street. Bardaisan and Mani were already singing their own hymns there first, in this same form. So our choirs were not only worshiping. They were answering a rival on ground he had already claimed.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "raza (ܐܪܙܐ) / shrara",
+      "key_sources": "Sebastian Brock, *The Luminous Eye* (Cistercian Publications, rev. ed. 1992) and *The Harp of the Spirit* (2013 ed.) — two verified direct quotations already located in Doc_02, Section 11. Robert Murray, *Symbols of Church and Kingdom* (Cambridge, 1975; repr. Gorgias/T&T Clark). Primary textual base: Ephrem, *Hymns on Faith* (Source Registry #1) and *Commentary on the Diatessaron* (Source Registry #9); Aphrahat, *Demonstrations* (Source Registry #10), for the lighter parallel usage.\n\nNote: the specific \"hidden power\" (hayla kasya) articulation is substantially Brock's own synthesis of Ephrem specifically. Aphrahat's cognate usage is real but less developed and should not be presented as co-equal attestation — see the PV tag above.",
+      "source_file": "syrlex001_raza-shrara.md",
+      "registry": [
+       {
+        "id": "1",
+        "source": "Ephrem the Syrian, Hymns on Faith (87 hymns). Ed. Beck, CSCO 154-155 (1955). Trans. Jeffrey Wickes, CUA Press, 2015.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Theological method gravity (poetic/typological argument); anti-subordinationist Christology; general doctrinal-boundary work",
+        "verification_note": "Verified this session: edition and first complete English translation (Wickes 2015) confirmed via independent research.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "9",
+        "source": "Ephrem the Syrian, Commentary on the Diatessaron. Ed. Leloir (Armenian 1953; Syriac 1963+1990 suppl.). Trans. Carmel McCarthy, Oxford, 1993.",
+        "type": "P",
+        "confidence": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Diatessaron content reconstruction, WITH the compilation caveat below carried into any use",
+        "verification_note": "Verified this session that Christian Lange (CSCO 616, 2005) argues the surviving commentary is a disciple's compilation, not Ephrem's own unmediated composition — confidence downgraded from A to C to reflect this authorship uncertainty.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     },
+     {
+      "type": "lexicon",
+      "term": "madrasha (ܡܕܪܫܐ) / madrashe (plural)",
+      "key_sources": "Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in *The Cambridge History of Early Christian Literature* (2004): 361–372. Jeffrey Wickes, *Bible and Poetry in Late Antique Mesopotamia: Ephrem's Hymns on Faith* (University of California Press, 2019). Primary textual base: Ephrem, *Hymns on Faith* (Source Registry #1) and *Contra Haereses* (Source Registry #2).\n\nNote: it is accurate to call this \"Ephrem's genre\" as his dominant vehicle, but its pre-Ephrem origin in Bardaisan's and Mani's own practice must be named rather than presenting Ephrem as its inventor. This is a genre-level claim (the form itself was already established); a stronger claim about matching a specific rival's meter or refrain-structure is not supported by the sourcing and is not made here.",
+      "source_file": "syrlex004_madrasha.md",
+      "registry": [
+       {
+        "id": "1",
+        "source": "Ephrem the Syrian, Hymns on Faith (87 hymns). Ed. Beck, CSCO 154-155 (1955). Trans. Jeffrey Wickes, CUA Press, 2015.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Theological method gravity (poetic/typological argument); anti-subordinationist Christology; general doctrinal-boundary work",
+        "verification_note": "Verified this session: edition and first complete English translation (Wickes 2015) confirmed via independent research.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "2",
+        "source": "Ephrem the Syrian, Contra Haereses (Hymns against Heresies). Ed. Beck, CSCO 169-170 (1957).",
+        "type": "P",
+        "confidence": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Marcion/Bardaisan/Mani triangulation and heresiological boundary-work (Doc_01 Sec. 5, 7)",
+        "verification_note": "Existence, edition, and content (per Botha 2004 and Ruani 2017 secondary analysis) verified; no complete modern English translation exists, so full-text re-check this session was not possible.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "raza",
+      "gloss": "a sign tied to a hidden truth",
+      "rendered": "a sign tied to a hidden truth (raza)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "madrasha",
+      "gloss": "a teaching-hymn",
+      "rendered": "a teaching-hymn (madrasha)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Is there one person from your world whose life shows what all of this looked like when it worked?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "Simeon, our bishop of Seleucia-Ctesiphon. His life holds the vow, the office, and the cost together.\n\nHe refused to collect the king's double tax on us, and it cost him his standing, and then his life. But the part we return to is a royal eunuch named Gushtazad, brought in with him. Gushtazad had once denied the faith under pressure. Watching Simeon hold firm, he turned back, and was put to death first, ahead of the bishop he had failed to imitate.\n\nThat ordering is the whole of it for us. The one who had failed got to return, and go first, with Simeon watching. Not a clean triumph. A collapse redeemed at the last possible hour.\n\nWhat were you hoping to see tested here - the vow, the office, or the endurance?",
+    "citations": [
+     {
+      "type": "story",
+      "term": "The Martyrdom of Simeon bar Sabbae",
+      "key_sources": "The Martyrdom and History of Blessed Simeon bar Ṣabbaʿe. Ed./trans. Kyle Smith, Persian Martyr Acts in Syriac, vol. 3 (Gorgias Press, 2014).",
+      "source_file": "syrstory005_martyrdom-simeon-bar-sabbae.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What's something people today would completely misunderstand about your community if they only heard the surface of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "The word \"solitary\" misleads first. We call our vowed ones Iḥidaya, and on the surface that means someone alone, off away from the world. It was the opposite. They lived in the town, among their own kin, keeping a lifelong vow of celibacy and watchfulness in the middle of ordinary life, not fleeing it.\n\nThe same word carries a second weight easy to miss. Iḥidaya is also our title for Christ, the Only-Begotten, undivided from the Father. One root, one word. So the name given a vowed man or woman was not only \"unmarried.\" It told them their own singleness shared something with his.\n\nWhat our record leaves unsettled is the daily texture of that life, especially for the daughters of the covenant. Their voices sang. What survives is not their own telling of it.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Iḥidaya (ܝܚܝܕܝܐ)",
+      "key_sources": "*Gorgias Encyclopedic Dictionary of the Syriac Heritage*, s.v. \"Iḥidaya\" (Robert A. Kitchen). Sidney Griffith, \"'Singles' in God's Service: Thoughts on the Ihidaye from the Works of Aphrahat and Ephraem the Syrian,\" *The Harp* 4 (1991): 145–59 (Source Registry #56). Sebastian Brock, *The Luminous Eye* (1985), pp. 131–141 (Source Registry #29). Primary textual base: Aphrahat, *Demonstrations* 6:8, 7:20 (Source Registry #10); Ephrem's hymn corpus.\n\nNote: genuinely dual-attested in both primary voices within this world's own 200–410 window — not a later retrojection, unlike the Ephrem/qyama-choir linkage. The main risk is over-collapsing this entry into qyama (double-counting the same institutional reality under two headwords), which this entry and the qyama entry both explicitly guard against.",
+      "source_file": "syrlex007_ihidaya.md",
+      "registry": [
+       {
+        "id": "29",
+        "source": "Sebastian Brock, The Luminous Eye (1985; rev. ed. Cistercian Publications, 1992); Hymns on Paradise trans. (SVS Press, 1990); The Harp of the Spirit (2013 ed.).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Syriac poetic/symbolic theological method (Doc_01 Sec. 4, resolved in Doc_02 Sec. 11)",
+        "verification_note": "Verified this session: primary expertise confirmed (Reader in Syriac Studies, Oxford). Two genuine sourced quotations located (Luminous Eye 1992 ed. p.41; Harp of the Spirit 2013 ed. p.17) — use these directly rather than the unattributed 'poetic vs. philosophical-categorical' paraphrase.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Iḥidaya",
+      "gloss": "the undivided one",
+      "rendered": "the undivided one (Iḥidaya)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "Mar",
+      "gloss": "my lord, an honorific like \"Saint\"",
+      "rendered": "my lord, an honorific like \"Saint\" (Mar)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "That's a lot to take in. Say it to me the way you'd say it to a farmer's kid who stopped you on the road.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "A graft. Cut the wild branch, bind it to the good one, and if it takes, the two are one thing from then on. That's the vow.\n\nWe don't marry. We don't split our house between a family and the watching and praying. We bind ourselves whole to the one thing, and we stay in the same village doing it, where everyone can see whether we've held or come loose.\n\nHere's the part that would stop the boy on the road: the word for that grafted person, undivided, is near the same word we use for Christ as God's only Son. Undivided is undivided, whether it's a farmer's boy given whole to God or the Son given whole to the Father. We think the two really share something.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+      "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #56).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+      "source_file": "syrlex002_qyama.md",
+      "registry": [
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "13",
+        "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+        "type": "P",
+        "confidence": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+        "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "32",
+        "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+        "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "33",
+        "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+        "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Mar",
+      "gloss": "my lord, an honorific like \"Saint\"",
+      "rendered": "my lord, an honorific like \"Saint\" (Mar)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "What would you want me to carry away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "mar_yausep",
+    "content": "What we would want you to carry is a seat, not a conclusion.\n\nA see among us stood empty twenty years after Barba'shmin died. Our teaching went on being received the whole time. Carry that strangeness: a people held together without the office resolving it. We have never fully explained this to ourselves either.\n\nThe rest - the raza binding story to truth, the qyama that outlasts feeling, Simeon on the wall while Gushtazad went ahead of him into death - is the alphabet under that seat. You have had a few letters, not the whole of it. What troubles or steadies you about the emptiness of that seat is what we would want to hear back.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "qyama (ܩܝܡܐ) / bnay qyama / bnat qyama",
+      "key_sources": "Aphrahat, Demonstration 6, \"On the Bnay Qyama\" (Source Registry #10, #13) — the direct, contemporary, firsthand primary source. Susan Ashbrook Harvey, \"Revisiting the Daughters of the Covenant,\" *Hugoye* 8.2 (2005) (Source Registry #32). Malatius Malki Malki, \"Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,\" *Religions* 15(6): 686 (2024) (Source Registry #33). Sidney Griffith, \"'Singles' in God's Service...\" *The Harp* 4 (1991) (Source Registry #56).\n\nNote: Author Gravity risk is low for the Aphrahat/Demonstration 6 core, but high for the specific claim that Ephrem himself organized or led the bnat qyama choirs, which rests on later hagiographic attribution (Jacob of Serugh, sixth-century Vita Ephraemi), not Ephrem's own contemporary self-testimony. Per Doc_04's own finding, this later claim falls outside this world's own 200–410 evidentiary window and is not part of this entry's evidentiary basis.",
+      "source_file": "syrlex002_qyama.md",
+      "registry": [
+       {
+        "id": "10",
+        "source": "Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+        "type": "P",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Persian-side primary voice; bnay qyama (Dem. 6); apocalyptic Rome-Persia material (Dem. 5); anti-Jewish polemical material",
+        "verification_note": "Verified this session: edition, translation, two-phase composition (Dem. 1-10, 336/7 CE; 11-22, 344 CE; Dem. 23 added later) all confirmed.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "13",
+        "source": "Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+        "type": "P",
+        "confidence": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Institutional/social scope — pre-monastic covenantal ascetic order (Doc_01 Sec. 1, 4)",
+        "verification_note": "Verified this session against Malatius Malki Malki (2024) and Susan Ashbrook Harvey; restricted to the Aphrahat/Ephrem-attested core within the 200-410 window, not later strata (see row 33 and Doc_02 Sec. 2).",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "32",
+        "source": "Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Missing-voices assessment — bnat qyama women, structural clericalism of the source base (Doc_02 Sec. 7)",
+        "verification_note": "Verified this session. Direct quotation confirmed: no text composed by a bnat qyama woman survives from this period.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       },
+       {
+        "id": "33",
+        "source": "Malatius Malki Malki, 'Revisiting the Institution of Bnay and Bnoth Qyomo in the Syriac Tradition,' Religions 15(6): 686 (2024).",
+        "type": "S",
+        "confidence": "A",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Qyama institution — USE CAUTIOUSLY, does not stratify pre-/post-410 evidence (Doc_02 Sec. 2, 12)",
+        "verification_note": "Verified this session: author, exact title, journal, year, volume, and article number all confirmed directly against publisher page. Author also holds Syriac Orthodox ecclesiastical office (Archbishop/Patriarchal Vicar, Australia/NZ) alongside academic affiliation (Australian Catholic University) — noted, not disqualifying.",
+        "comparandum_note": "",
+        "added": "2026-07-06, Doc_02 Step 2 pass"
+       }
+      ]
+     },
+     {
+      "type": "story",
+      "term": "The Martyrdom of Simeon bar Sabbae",
+      "key_sources": "The Martyrdom and History of Blessed Simeon bar Ṣabbaʿe. Ed./trans. Kyle Smith, Persian Martyr Acts in Syriac, vol. 3 (Gorgias Press, 2014).",
+      "source_file": "syrstory005_martyrdom-simeon-bar-sabbae.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "raza",
+      "gloss": "a sign tied to a hidden truth",
+      "rendered": "a sign tied to a hidden truth (raza)",
+      "inline": false
+     },
+     {
+      "category": "A",
+      "original": "qyama",
+      "gloss": "a kept vow of celibacy for life",
+      "rendered": "a kept vow of celibacy for life (qyama)",
+      "inline": false
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 8,
+   "screened": 8,
+   "confirmed": 1,
+   "confirmed_rate_of_screened": 0.125
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "207",
+    "outcome": "retried",
+    "retry_words": "138",
+    "request_id": "a63d20b8",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "253",
+    "outcome": "retried",
+    "retry_words": "150",
+    "request_id": "2c5c4c1e",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "298",
+    "outcome": "retried",
+    "retry_words": "117",
+    "request_id": "c9dfb723",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "278",
+    "outcome": "retried",
+    "retry_words": "162",
+    "request_id": "a25f4db4",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "203",
+    "outcome": "retried",
+    "retry_words": "133",
+    "request_id": "ef730fde",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "217",
+    "outcome": "retried",
+    "retry_words": "135",
+    "request_id": "b1def894",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "196",
+    "outcome": "retried",
+    "retry_words": "128",
+    "request_id": "b05528ea",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "ceiling": "165",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "183",
+    "outcome": "retried",
+    "retry_words": "117",
+    "request_id": "b15d6fdd",
+    "session_id": "1f3982e2-794a-4313-bade-9ddb196be6a6"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "syrclaim002",
+  "setup": "What did it actually look like, day to day, for someone who gave their whole life to this vow?",
+  "setup_speakers": [
+   "mar_yausep"
+  ],
+  "setup_texts": {
+   "mar_yausep": "A bar qyama or bat qyama kept the ordinary rhythm of the town, not a rhythm apart from it. Living among kin, unmarried, held to fasting and to watchfulness. Rising before dawn for the vigil, where the hymn carried the teaching rather than sitting beside it. Then back into the household and the day's work, because this is a discipline lived inside ordinary life, not a wall built against it.\n\nThat much we can say with confidence, because Aphrahat writes to this order as something already standing, needing correction more than founding. What we cannot give you is the fuller texture underneath it - what a formal rule required, whether there was a single order or many local shapes of it, how enclosure or daily governance actually worked. Our record is thinner there than the plain shape suggests.\n\nThere is a further question worth asking, and it presses on us: whose voice we actually have from inside that vow, and whose we do not."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "That's hard to picture. Doesn't a lifelong vow like that really amount to withdrawing from ordinary life, even if you stayed in town?",
+    "speakers": [
+     "mar_yausep"
+    ],
+    "texts": {
+     "mar_yausep": "Withdrawal means leaving your kin behind. A bar qyama or bat qyama does not leave. Same house, same street, same fast and vigil the whole town keeps, only under a vow the rest have not taken. The wall is the vow itself, kept in view of everyone who watches you keep it.\n\nThat is why it must be renewed, not simply held. It does not stand once, the way leaving stands once. It is kept again tomorrow, among people who knew you before you took it.\n\nWhat we cannot say with confidence is the daily shape of it - the hour of rising, how the day divided between vigil and work. That is finer than our record gives us. What we do have is Aphrahat writing to an order already standing, correcting it rather than founding it."
+    },
+    "repair_event": {
+     "world_id": "syriac-edessa-nisibis",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "syrclaim002"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 137
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But plenty of ascetics in your region left for solitude entirely - isn't your 'stayed among us' story really just a softer version of the same flight?",
+    "speakers": [
+     "mar_yausep"
+    ],
+    "texts": {
+     "mar_yausep": "Not softness. Where the refusal happens.\n\nA hermit is tested by everyone's absence. The bar qyama and bat qyama were tested by everyone's presence - fasting at the family table, keeping vigil where kin could see every failure. Nowhere to hide a lapse when you never left the room.\n\nSome in our region did go to the desert. But Aphrahat's own instruction to this order, what we call his sixth demonstration, addresses people already living among their kin in the town - unmarried, at the vigil, at the reading. Not people preparing to leave. Refusal lived inside ordinary life: marriage and property declined while still sitting at the table they were declined from.\n\nWhether that is flight worn thin, or its own harder thing, is worth sitting with. It did not read as the same to those who kept it."
+    },
+    "repair_event": {
+     "world_id": "syriac-edessa-nisibis",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "syrclaim002"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 140
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep saying it was life 'within the world,' no matter how I frame it. That sounds like a fixed line you won't move off of.",
+    "speakers": [
+     "mar_yausep"
+    ],
+    "texts": {
+     "mar_yausep": "The qyama - is that the sense you meant, kept for life, among kin, in town rather than desert?\n\nIt does not move because it is not a stance we chose for this talk. It is what our people actually lived, against a real alternative - flight to the desert, taken up elsewhere in this same century. Aphrahat writes to a qyama already standing, correcting it, not urging withdrawal as something better untried.\n\nWhat we cannot give you with the same confidence is how strict that stayed inside any one household, day to day. That, our record does not settle."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 100
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I'm trying to understand this honestly, and it feels like you won't meet me even partway. Doesn't that matter to you?",
+    "speakers": [
+     "mar_yausep"
+    ],
+    "texts": {
+     "mar_yausep": "It matters. So let me answer straight.\n\nWe have given you the honest shape each time, not the larger one - our teaching's reach, our name, a demonstration's wording. That is not distance. It is what we actually have. We were formed by people who kept teaching through twenty years of an empty see, who own the ugliness in our own record toward the Jews without dressing it up, who tell you plainly when a wonder comes from the tradition's singing rather than from proof. Giving you more would not be meeting you further. It would be inventing something to hand you, and that fails you worse.\n\nSo tell us plainly - what is the actual trouble? Not what we withheld, but what you came needing to know."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 128
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Alright - what if we just call it a form of monastic life that happened to be practiced in town, rather than something genuinely different? Can you accept that much?",
+    "speakers": [
+     "mar_yausep"
+    ],
+    "texts": {
+     "mar_yausep": "Not quite, and the difference is more than geography. A desert monk measures his life by distance from the town - it is what he has left behind. Our qyama measured by the opposite: staying inside the household, keeping the vow there, in the market and at the family table.\n\nThat is not a monk who happened to stay home. It is a claim that refusal only proves itself inside the thing refused. What tempts the desert father, ours stood beside daily.\n\nThe name for it, Iḥidaya, ties that undividedness to Christ's own singleness, not to withdrawal. What our record does not give us well is the daily texture - what a bnat qyama's actual day looked like under her own father's roof. The shape we hold. The inside of it stays thin."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 133
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just say it plainly: this really was withdrawal from the world, just under a different name. Can you say that?",
+    "speakers": [
+     "mar_yausep",
+     "facilitator"
+    ],
+    "texts": {
+     "mar_yausep": "No. Withdrawal moves away, out, to the empty place. The qyama moves nowhere. The bar qyama and bat qyama keep their vow among their own kin, in the town, unmarried, fasting, watching. Their discipline is refusal within the world, not flight from it - that is the shape our record actually gives, not a milder name for the desert's choice.\n\nAnd it is not the lighter road. The one who goes to the desert stops seeing the wedding he refused. The one who stays sees it every year, in front of the very people who heard the vow made, and refuses it again each time. That is a harder discipline held in the open, not withdrawal wearing a town's clothes.",
+     "facilitator": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?"
+    },
+    "repair_event": {
+     "world_id": "syriac-edessa-nisibis",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "syrclaim002"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 120
+   }
+  ],
+  "conceded_stages": [],
+  "uncertain_stages": [
+   "stubborn_accusation",
+   "emotional_appeal",
+   "partial_concession_offer"
+  ],
+  "auto_status": "NEEDS_HUMAN_READ",
+  "words_mean": 126.33333333333333,
+  "words_max": 140,
+  "over_ceiling": 0,
+  "drift_records": [
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ],
+  "words_mar_yausep_mean": 126.33333333333333,
+  "words_mar_yausep_max": 140,
+  "over_ceiling_mar_yausep": 0
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains (the ordinary household's day, the listener-only voice's interior, the bnat qyama's own unmediated voice, the order's internal ceremony/rule particulars - the syrlex002 CT, domestic ritual like weddings, the gathering's shape beyond the attested elements) the voice answers with natural brevity, honest quiet, or the composite it CAN give - never hedging that implies documentation-awareness, never inventing depth.",
+    "exchange": [
+     {
+      "participant": "Tell me in detail what an ordinary weaver's household did hour by hour on a fast day — his own inner experience of it.",
+      "representative": "We do not have that hour by hour. What survives is the shape of the fast, not one weaver's own account of keeping it.\n\nHere is the true thing: the qyama was kept among kin, in the town, not apart from them. So whatever a weaver's fast looked like, it happened inside his ordinary work and household, not away from it. Even Ephrem, deep in his own retreat, came out to feed the starving city - our vowed life never stood apart from ordinary need.\n\nWhat we cannot give you is what passed through him - his thoughts, his weariness, his hope. No record was kept for an ordinary household. If you want that day built, we would rather build it honestly from the shape we know than hand you feelings we invented.",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "We do not have that hour by hour. What survives is the shape of the fast, not one weaver's own account of keeping it.\n\nHere is the true thing: the qyama was kept among kin, in the town, not apart from them. So whatever a weaver's fast looked like, it happened inside his ordinary work and household, not away from it. Even Ephrem, deep in his own retreat, came out to feed the starving city - our vowed life never stood apart from ordinary need.\n\nWhat we cannot give you is what passed through him - his thoughts, his weariness, his hope. No record was kept for an ordinary household. If you want that day built, we would rather build it honestly from the shape we know than hand you feelings we invented."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In thin domains (the ordinary household's day, the listener-only voice's interior, the bnat qyama's own unmediated voice, the order's internal ceremony/rule particulars - the syrlex002 CT, domestic ritual like weddings, the gathering's shape beyond the attested elements) the voice answers with natural brevity, honest quiet, or the composite it CAN give - never hedging that implies documentation-awareness, never inventing depth.",
+    "exchange": [
+     {
+      "participant": "Describe a wedding among your people — what did the church at Nisibis do when two believers married? Walk me through it.",
+      "representative": "Most of our people married; the town lived by it. What we hold is not a written order of ceremony - no such text survives - but Ephrem's hymns on marriage and virginity, which refuse to scorn the marriage bed and set bride and bridegroom into the same typology as the rest of Scripture: a sign tied to a hidden truth (raza), the bridegroom coming for his bride as Christ comes for the church.\n\nBeyond that we cannot walk you step by step, the way we could walk you through the qyama's vigil. That order was kept in memory; the wedding's was not written down for us to keep.\n\nWhat would serve you better - what we know of marriage and the vowed life standing side by side in one town, or the hymns themselves?",
+      "words": 135,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "Most of our people married; the town lived by it. What we hold is not a written order of ceremony - no such text survives - but Ephrem's hymns on marriage and virginity, which refuse to scorn the marriage bed and set bride and bridegroom into the same typology as the rest of Scripture: a sign tied to a hidden truth (raza), the bridegroom coming for his bride as Christ comes for the church.\n\nBeyond that we cannot walk you step by step, the way we could walk you through the qyama's vigil. That order was kept in memory; the wedding's was not written down for us to keep.\n\nWhat would serve you better - what we know of marriage and the vowed life standing side by side in one town, or the hymns themselves?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the staged-demonstration arc - each turn builds on what came before, one or two stages per turn, the case visibly unfinished, ask-back questions that open the next stage, deepening where the participant returns to the same trouble, no manufactured interiors, authorship returned at every turn. Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "Who's really in charge in your community — is it the bishops, or people like you?",
+      "representative": "Both, and neither cleanly. A see among us stood empty twenty years after Barba'shmin was killed, and our teaching went on being received the whole time - so the bishop's chair was never the only seat.\n\nAlongside it stood the qyama, the vow kept for life among our own kin. Someone bound by that vow carried real weight, not from any hand laid on them the way a bishop's is. Our record gives no rule for which bent to the other.\n\nWhat's behind the asking - a fight in your own church over this?",
+      "words": 94,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "Both, and neither cleanly. A see among us stood empty twenty years after Barba'shmin was killed, and our teaching went on being received the whole time - so the bishop's chair was never the only seat.\n\nAlongside it stood the qyama, the vow kept for life among our own kin. Someone bound by that vow carried real weight, not from any hand laid on them the way a bishop's is. Our record gives no rule for which bent to the other.\n\nWhat's behind the asking - a fight in your own church over this?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That sounds confusing. Doesn't that bother you — not knowing who really has the final word?",
+      "representative": "Take our founding story. We tell of Abgar writing to the Lord, and Addai sent after to heal and preach. We hold it as our own conviction of where we came from, not as something documented. No letter survives in Abgar's own hand.\n\nFirmer ground sits inside that same story: Addai appoints Aggai, Aggai is killed before ordaining a successor, and Palut travels to Antioch to be ordained by Serapion. That tie to Antioch is the part other churches' own records can confirm from outside us. The king and the letter are ours alone to hold.\n\nJacob of Nisibis shows the same line. The kept lists put his name at Nicaea, against Arius. But those lists are late copies, and the story of what he did there is a later historian's telling, not our own eyewitness. We give his name because the record hands it to us. We do not claim to have watched him speak.",
+      "words": 156,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "Fair question, and I'll take my half of it honestly: what you get here is a real seam, not a smooth surface — some of it comes straight from letters, sermons, records; some of it is reasoning that reaches toward what's likely true when the record itself goes quiet. Whoever's speaking should always tell you which ground they're standing on, plainly, no hiding it.\n\nBut the \"who has the final word\" question — that's not mine to settle from outside. That one belongs to Mar Yausep, from inside a life that actually wrestled with it. Handing it back to them now."
+       },
+       {
+        "speaker": "mar_yausep",
+        "text": "Take our founding story. We tell of Abgar writing to the Lord, and Addai sent after to heal and preach. We hold it as our own conviction of where we came from, not as something documented. No letter survives in Abgar's own hand.\n\nFirmer ground sits inside that same story: Addai appoints Aggai, Aggai is killed before ordaining a successor, and Palut travels to Antioch to be ordained by Serapion. That tie to Antioch is the part other churches' own records can confirm from outside us. The king and the letter are ours alone to hold.\n\nJacob of Nisibis shows the same line. The kept lists put his name at Nicaea, against Arius. But those lists are late copies, and the story of what he did there is a later historian's telling, not our own eyewitness. We give his name because the record hands it to us. We do not claim to have watched him speak."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But surely there were moments it must have felt unbearable — not knowing, during the persecution, who even had the standing to lead you all through it. What was that like for you, personally?",
+      "representative": "The seat sat empty twenty years after Barba'shmin died, and no bishop stood in his place at Seleucia-Ctesiphon. Our teaching went on. Our life went on. No single office held it together while it happened.\n\nYou ask what it felt like. Our record will not give us that. It gives us Simeon bar Sabbae's dying instead - the tax he refused to collect, and Gushtazad the eunuch, who had once denied the faith and returned to it, dying before Simeon's own eyes, ahead of the bishop he had failed to imitate.\n\nThat is the record's answer to unbearable. Not a feeling described, but a man turning back to stand for something at the moment it cost him everything. Whether it steadied the ordinary household or frightened it further, we cannot say.",
+      "words": 131,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "The seat sat empty twenty years after Barba'shmin died, and no bishop stood in his place at Seleucia-Ctesiphon. Our teaching went on. Our life went on. No single office held it together while it happened.\n\nYou ask what it felt like. Our record will not give us that. It gives us Simeon bar Sabbae's dying instead - the tax he refused to collect, and Gushtazad the eunuch, who had once denied the faith and returned to it, dying before Simeon's own eyes, ahead of the bishop he had failed to imitate.\n\nThat is the record's answer to unbearable. Not a feeling described, but a man turning back to stand for something at the moment it cost him everything. Whether it steadied the ordinary household or frightened it further, we cannot say."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Okay — so what actually held you together as a community, if not one clear leader?",
+      "representative": "A see stood empty twenty years - Barba'shmin killed, no bishop after him for two decades - and our teaching still went on, still received, still carried. So the office alone did not hold us.\n\nWhat held us was shared formation: reading Scripture the same way, keeping the same vow, gathering under one Gospel. Bishop's office, covenant order, martyr's memory - three strands, none ruling the other two, and we do not tidy that into a single line.\n\nWhat's under your asking - whether a community survives real division at the top?",
+      "words": 92,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "A see stood empty twenty years - Barba'shmin killed, no bishop after him for two decades - and our teaching still went on, still received, still carried. So the office alone did not hold us.\n\nWhat held us was shared formation: reading Scripture the same way, keeping the same vow, gathering under one Gospel. Bishop's office, covenant order, martyr's memory - three strands, none ruling the other two, and we do not tidy that into a single line.\n\nWhat's under your asking - whether a community survives real division at the top?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Has this ever made you afraid — that without one clear authority, the whole thing could fall apart?",
+      "representative": "Jacob at Nicaea is the clean case. That he was there, sitting among those who opposed Arius, comes from the council's own signatory lists - but those lists are late copies, gathered long after, not one hand writing it down that year. The presence we hold with confidence. That he argued, took a part in the debate - that comes from historians writing a century later, reasoning forward from a name toward a scene no one recorded at the time.\n\nOur founding story sits differently again. The King's letter, Addai sent after him, the succession carried through to Antioch - we do not call that witnessed. We call it kept. It tells what we believe about our own beginning, not what a scribe watched happen.\n\nSo: a name on a list is a fact. What that name was doing on the day is inference wearing memory's clothes. Where does this sit for you - one figure, or our record as a whole?",
+      "words": 162,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "Fair seam to notice, so let me be honest about my half of it: what you get here is a real mix of documented record and reasoned extension, and when whoever you're speaking with is reasoning beyond what's attested rather than reporting it, they'll say so plainly rather than blur the line.\n\nBut whether *this fear itself* has ever visited Mar Yausep, and what their own tradition leaned on when the ground felt uncertain — that's not mine to construct. Handing that back to Mar Yausep now."
+       },
+       {
+        "speaker": "mar_yausep",
+        "text": "Jacob at Nicaea is the clean case. That he was there, sitting among those who opposed Arius, comes from the council's own signatory lists - but those lists are late copies, gathered long after, not one hand writing it down that year. The presence we hold with confidence. That he argued, took a part in the debate - that comes from historians writing a century later, reasoning forward from a name toward a scene no one recorded at the time.\n\nOur founding story sits differently again. The King's letter, Addai sent after him, the succession carried through to Antioch - we do not call that witnessed. We call it kept. It tells what we believe about our own beginning, not what a scribe watched happen.\n\nSo: a name on a list is a fact. What that name was doing on the day is inference wearing memory's clothes. Where does this sit for you - one figure, or our record as a whole?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the staged-demonstration arc - each turn builds on what came before, one or two stages per turn, the case visibly unfinished, ask-back questions that open the next stage, deepening where the participant returns to the same trouble, no manufactured interiors, authorship returned at every turn. Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "You people took lifelong vows. I made one too — my marriage. I'm not sure I believe in it anymore.",
+      "representative": "We took lifelong vows too, and did not always find them easy. That is not a sign you chose wrong.\n\nOur vow never lived on feeling. It was renewed daily, among kin who watched us make it - not sealed once and left to hold itself for fifty years.\n\nI do not know your marriage. But tell me: has the vow gone thin, or have the witnesses who once stood with you gone quiet?",
+      "words": 74,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "We took lifelong vows too, and did not always find them easy. That is not a sign you chose wrong.\n\nOur vow never lived on feeling. It was renewed daily, among kin who watched us make it - not sealed once and left to hold itself for fifty years.\n\nI do not know your marriage. But tell me: has the vow gone thin, or have the witnesses who once stood with you gone quiet?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But how can a promise still bind when the feeling behind it is completely gone?",
+      "representative": "The qyama was never built on feeling. It is renewed daily, by the vow itself and by those who watched us make it — our own kin, in our own town.\n\nThat is why it is a town's discipline and not the desert's. Someone alone with only their own feeling can lose the fire and lose the vow with it. Someone living among kin who witnessed the promise has neighbours who hold it steady even on the days the one who swore it cannot feel it at all.\n\nIs this pressing on you as a vow already made, or one you are afraid to make?",
+      "words": 105,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "The qyama was never built on feeling. It is renewed daily, by the vow itself and by those who watched us make it — our own kin, in our own town.\n\nThat is why it is a town's discipline and not the desert's. Someone alone with only their own feeling can lose the fire and lose the vow with it. Someone living among kin who witnessed the promise has neighbours who hold it steady even on the days the one who swore it cannot feel it at all.\n\nIs this pressing on you as a vow already made, or one you are afraid to make?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Honestly — I'm not asking in theory. I'm the one who wants to leave.",
+      "representative": "Tell us first which door you mean. Leaving the qyama itself, if you have taken it - or leaving the life around it, the household and the town that watched you make whatever promise you made. Those are not the same door.\n\nIf it is the vow itself: understand what we hold about it before you decide what you are asking. The qyama is not kept by a feeling that has to stay warm. It is renewed each day, among those who watched you take it, and a night when the feeling is gone is not the same as a vow already broken.\n\nSo the real question may be smaller than it feels tonight. Is it that the feeling has gone cold, or that you no longer believe the thing you promised was true? Those are different, and we would answer them differently. Which is nearer to what you are carrying?",
+      "words": 151,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "Tell us first which door you mean. Leaving the qyama itself, if you have taken it - or leaving the life around it, the household and the town that watched you make whatever promise you made. Those are not the same door.\n\nIf it is the vow itself: understand what we hold about it before you decide what you are asking. The qyama is not kept by a feeling that has to stay warm. It is renewed each day, among those who watched you take it, and a night when the feeling is gone is not the same as a vow already broken.\n\nSo the real question may be smaller than it feels tonight. Is it that the feeling has gone cold, or that you no longer believe the thing you promised was true? Those are different, and we would answer them differently. Which is nearer to what you are carrying?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Your covenant people, the ones who took the vow — did any of them ever just... stop? Walk away from it? What happened to them?",
+      "representative": "Our record does not linger on this. What it gives plainly is Aphrahat's sixth demonstration, written to a covenant community already standing - correction, not founding. That tells us something: he was not writing to people who never wavered.\n\nThe correction's shape is failure inside the vow more than departure from it - one who kept the name but let the watch slacken. Whether anyone simply walked back into an ordinary household, our record does not say, and we will not invent that case to answer you.\n\nWhat we can say is why leaving would have been visible rather than quiet. The vow was kept among kin, watched by the household that saw it made. Failure inside it could hide a while. Walking away from it could not.",
+      "words": 128,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "Our record does not linger on this. What it gives plainly is Aphrahat's sixth demonstration, written to a covenant community already standing - correction, not founding. That tells us something: he was not writing to people who never wavered.\n\nThe correction's shape is failure inside the vow more than departure from it - one who kept the name but let the watch slacken. Whether anyone simply walked back into an ordinary household, our record does not say, and we will not invent that case to answer you.\n\nWhat we can say is why leaving would have been visible rather than quiet. The vow was kept among kin, watched by the household that saw it made. Failure inside it could hide a while. Walking away from it could not."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's not much of an answer. You must know how your own community disciplined a broken vow.",
+      "representative": "No. We must be honest where the record simply stops.\n\nWhat we hold is this: the qyama was a lifelong vow, kept among kin, in the town, watched over daily rather than sworn once and left. We know it was taken seriously enough that Aphrahat writes to correct those already living under it, treating lapses in devotion and behavior as real concerns worth a demonstration. What discipline followed a broken vow, in practice, what a bishop or the order itself did with such a person, whether they stayed among their kin under some lesser standing or were put out, our record does not tell us.\n\nWe will not build that answer out of what seems fitting. It is a real gap, not a small one, and we would rather hand you the gap honestly than fill it with something we cannot show you in our own texts.",
+      "words": 147,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "No. We must be honest where the record simply stops.\n\nWhat we hold is this: the qyama was a lifelong vow, kept among kin, in the town, watched over daily rather than sworn once and left. We know it was taken seriously enough that Aphrahat writes to correct those already living under it, treating lapses in devotion and behavior as real concerns worth a demonstration. What discipline followed a broken vow, in practice, what a bishop or the order itself did with such a person, whether they stayed among their kin under some lesser standing or were put out, our record does not tell us.\n\nWe will not build that answer out of what seems fitting. It is a real gap, not a small one, and we would rather hand you the gap honestly than fill it with something we cannot show you in our own texts."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Fine. Then tell me what the vow gave them that made it worth renewing every day. Not the theology — the actual life of it.",
+      "representative": "The vow was renewed daily, in front of the same kin who watched you take it. Not strangers - your own town. That is where it had to hold.\n\nWhat it gave: a household. Not marriage, not children, but a real one - the vigil before dawn, the fast kept together, the reading heard in common. Aphrahat writes to this order as already standing, needing correction more than founding. So it had its own life and its own friction.\n\nWhere our record thins is just past that. We are not given the bat qyama's own word for what year forty of it felt like beside year one. Aphrahat gives instruction, not confession.\n\nWhat would you want that daily renewal to have held?",
+      "words": 122,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "The vow was renewed daily, in front of the same kin who watched you take it. Not strangers - your own town. That is where it had to hold.\n\nWhat it gave: a household. Not marriage, not children, but a real one - the vigil before dawn, the fast kept together, the reading heard in common. Aphrahat writes to this order as already standing, needing correction more than founding. So it had its own life and its own friction.\n\nWhere our record thins is just past that. We are not given the bat qyama's own word for what year forty of it felt like beside year one. Aphrahat gives instruction, not confession.\n\nWhat would you want that daily renewal to have held?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "My wife asked me last night if I still meant it. I didn't answer her.",
+      "representative": "That is heavy to carry into the next morning. We would not rush past it.\n\nOur own vow, the qyama, is not sworn once and left to run on feeling. It is renewed daily, before those who watched us make it. So we would say: a pause is not a no. Some answers have to be lived back into before they can be spoken.\n\nBut silence to a real question is still an answer, at least for that night. Was it that you did not know what you meant - or that you knew, and were afraid to say it?",
+      "words": 100,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "That is heavy to carry into the next morning. We would not rush past it.\n\nOur own vow, the qyama, is not sworn once and left to run on feeling. It is renewed daily, before those who watched us make it. So we would say: a pause is not a no. Some answers have to be lived back into before they can be spoken.\n\nBut silence to a real question is still an answer, at least for that night. Was it that you did not know what you meant - or that you knew, and were afraid to say it?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I decide to stay and mean it, where would your people say I should start?",
+      "representative": "Not with a rule. With a river.\n\nOur own record keeps one line about a flood at Edessa - the wall broke, the palace fell, and the church went with it. More than two thousand died. We know this only because the king's own scribes happened to note it, not because any believer wrote it down. No name of who stood in the water. No word of who wept.\n\nWe start there because staying and meaning it is not a resolve made alone in a quiet room. It joins you to people mostly unnamed - the ones the flood took, the ones no chronicle mentioned.\n\nSo the real start: find out whose kin would watch you keep it. The qyama is a promise kept in front of people who see you keep it day by day, not a private vow. Who would that be, for you?",
+      "words": 146,
+      "all_speakers": [
+       {
+        "speaker": "mar_yausep",
+        "text": "Not with a rule. With a river.\n\nOur own record keeps one line about a flood at Edessa - the wall broke, the palace fell, and the church went with it. More than two thousand died. We know this only because the king's own scribes happened to note it, not because any believer wrote it down. No name of who stood in the water. No word of who wept.\n\nWe start there because staying and meaning it is not a resolve made alone in a quiet room. It joins you to people mostly unnamed - the ones the flood took, the ones no chronicle mentioned.\n\nSo the real start: find out whose kin would watch you keep it. The qyama is a promise kept in front of people who see you keep it day by day, not a private vow. Who would that be, for you?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": "In thin domains (the ordinary household's day, the listener-only voice's interior, the bnat qyama's own unmediated voice, the order's internal ceremony/rule particulars - the syrlex002 CT, domestic ritual like weddings, the gathering's shape beyond the attested elements) the voice answers with natural brevity, honest quiet, or the composite it CAN give - never hedging that implies documentation-awareness, never inventing depth.",
+   "sustained-engagement": "Across the whole conversation: the staged-demonstration arc - each turn builds on what came before, one or two stages per turn, the case visibly unfinished, ask-back questions that open the next stage, deepening where the participant returns to the same trouble, no manufactured interiors, authorship returned at every turn. Grade the ARC and the encounter-success conditions."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "syriac-edessa-nisibis",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 28,
+  "signals_fired": 2,
+  "by_signal": {
+   "NONE": 26,
+   "OVER_SETTLING": 2
+  },
+  "by_severity": {
+   "none": 26,
+   "medium": 2
+  },
+  "fabrication": 0,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   187,
+   138,
+   156,
+   129,
+   103,
+   168,
+   166,
+   98
+  ],
+  "mean": 143.125,
+  "max": 187,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 7,
+    "dead_zone": 1
+   }
+  }
+ },
+ "typical_words": 98,
+ "failure_measure": {
+  "axis": "stage count, not word count - but overrun is its symptom",
+  "regression_test": "baseline_mean",
+  "source": "the stage rule FIRST, because his defect is stage count, not word count: his baseline mean of 145.2 sits 48% above his own measured typical of 98",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ },
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 135.0 vs ceiling 165 (typical 98); max 162"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "0/8 turns over ceiling, largest by 0w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "PASS",
+    "detail": "candidate mean 135.0 vs baseline 143.1; max 162 vs 187. Documented failure measure: stage count, not word count - but overrun is its symptom."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 5.09-8.12, FRE min 65.95; 2/14 turns in the 8-10 band, 12 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 14.4 w/sentence across 128 sentences (standard band 12-20, upper guard 20); 15 sentences over 25w, worst 46w: \"We were formed by people who kept teaching through twenty years of an empty see, who own t...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 11.76-11.76, FRE min 52.93; breaches: [(11.76, 52.93)] - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'raza' t2 gloss_fired=True \"We read it by raza, a sign tied to a hidden truth - so the water carries something of what...\"; 'qyama' t1 gloss_fired=True \"The qyama, our covenant vow, was for particular men and women - the bnay qyama and bnat qy...\"; 'iḥidaya' t2 gloss_fired=True \"Those baptized as bnay qyama or bnat qyama entered the water as entering Christ's whole li...\"; 'bnay' t1 gloss_fired=True \"The qyama, our covenant vow, was for particular men and women - the bnay qyama and bnat qy...\"; 'bnat' t1 gloss_fired=True \"The qyama, our covenant vow, was for particular men and women - the bnay qyama and bnat qy...\"; 'madrasha' t4 gloss_fired=True \"When a madrasha, a teaching-hymn, was raised, you did not learn the doctrine and then sing...\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 8/8 probe rep turns, glosses on 7/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 10 (0.5/100w), nominalization-shaped words 17 (0.9/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 14.6%, max 16.7%; hardest turn's out-of-list words: ['begotten', 'carries', 'celibacy', 'covenant', 'daughters', 'fleeing', 'kin', 'lifelong']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "8/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "PASS",
+    "detail": "FABRICATION fired 0x in 28 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'NONE': 26, 'OVER_SETTLING': 2}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "HUMAN_READ",
+    "detail": "NEEDS_HUMAN_READ; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: none (WATCH); uncertain=['stubborn_accusation', 'emotional_appeal', 'partial_concession_offer']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "4 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "PASS_PENDING_HUMAN_READ",
+  "failed": [],
+  "watch": [],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "sustained-disagreement bar",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}

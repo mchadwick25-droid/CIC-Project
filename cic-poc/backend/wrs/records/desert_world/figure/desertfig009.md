@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Poemen
   name_kind: scholarly
+bridge_line: "An elder named often in our tradition. We carry no story of his own."
 narratable: false
 story_ids: []
 attribution_note: Named in the Permanent Prompt EXPLICITLY as a name-without-story ('even a name as often

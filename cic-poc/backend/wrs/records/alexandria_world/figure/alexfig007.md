@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Demetrius of Alexandria (bishop 189-232)
   name_kind: scholarly
+bridge_line: "Bishop of Alexandria, who fell out with Origen and drove him from the city."
 narratable: true
 story_ids:
 - alexstory008

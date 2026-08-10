@@ -13,6 +13,8 @@ sources:
 id: pahcgrav002
 name: Translocal Correspondence Network (G02)
 classification: Primary
+capsule_name: 'The letters'
+capsule_line: 'Letters carried between churches. This is what holds us together across cities, in place of any central structure - and under pressure it moved more, not less.'
 six_tests:
   repetition:
     verdict: PASS, strongly, across both regions - three independent voices/events (Doc_04 G02).

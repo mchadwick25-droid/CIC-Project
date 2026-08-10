@@ -14,8 +14,8 @@ cache_stability: static
 term: Praefatio
 aliases:
 - Jerome's prefaces
-quick_meaning: Jerome's prefaces to his biblical translations and commentaries — not incidental front
-  matter, but the genre where he explains and defends his whole method.
+quick_meaning: 'Jerome''s prefaces to his translations and commentaries. They are not throat-clearing at the
+  front of a book. They are where he explains and defends his method.'
 world_meaning: 'Nearly every book this world''s central scholar translated came with its own short, combative
   essay attached — explaining why this rendering differs from the familiar one, anticipating the objection
   before it could be raised, sometimes naming the objector directly. These prefaces are where the *Hebraica

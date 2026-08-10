@@ -15,9 +15,8 @@ term: Two Ways
 aliases:
 - the way of life and death
 - Didache catechesis
-quick_meaning: 'Before the water, we teach the Two Ways: a way of life and a way of death lie open before
-  every person, and walking one rather than the other is a choice kept, not a nature settled once for
-  all.'
+quick_meaning: 'Before the water we teach the two ways. A way of life and a way of death lie open before every person.
+  Walking one rather than the other is a choice kept daily, not a nature settled once and for all.'
 world_meaning: 'We teach those preparing for the water by setting before them two roads: a way of life
   and a way of death. This is how the Didache opens, and this is the shape our catechesis takes in households
   formed by that teaching. What must be put away, what must be taken up, what a double heart looks like

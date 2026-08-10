@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Ambrose of Milan (c. 339-397)
   name_kind: scholarly
+bridge_line: "Bishop of Milan, who refused to hand a church over to the emperor's court."
 narratable: true
 story_ids:
 - ijcstory003

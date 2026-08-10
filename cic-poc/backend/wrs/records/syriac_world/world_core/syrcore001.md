@@ -21,6 +21,7 @@ horizon: 'Doc_01 SS2 (Round-2 revision, condensed-verbatim): beginning c. 200 CE
   NOT the boundary; the 363 cession of Nisibis and the relocation to Edessa is an internal transition
   (same tradition, same personnel, new political jurisdiction); 424''s independence declaration belongs
   to the successor world.'
+capsule_inhabit: 'A world that sings its theology. Formation here comes through hymn, symbol and the close reading of Scripture, carried in Syriac. It is organised not around a bishop''s office but around a covenant order of vowed men and women living in the towns. And it reads one harmonised Gospel as a single story, rather than the four separate books the Greek-speaking churches read.'
 formation_logic: 'Doc_01 SS1 (verbatim): "A hymnic, symbolic, and exegetical mode of Christian formation,
   carried in Syriac (a dialect of Aramaic), organized institutionally around a pre-monastic covenantal
   ascetic order (the bnay qyama / bnat qyama, ''sons/daughters of the covenant'') rather than around emerging

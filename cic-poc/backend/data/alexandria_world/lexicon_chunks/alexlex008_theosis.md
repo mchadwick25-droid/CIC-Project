@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant needs the *mechanism* of change (retrieve 
 
 ## Quick Meaning
 
-For this world theosis is the horizon toward which the whole formation life moves — not that the soul becomes God, but that through the Logos's incarnation and real participation the human person is restored to what God intended (the image and likeness) and drawn into ever-deeper communion with the divine life that is the soul's true home.
+The horizon the whole formation life moves toward. Not that the soul becomes God. That through the Word made flesh, and real sharing in his life, the person is restored to what God intended and drawn ever deeper into the life that is the soul's true home.
 
 ---
 
@@ -30,7 +30,7 @@ And theosis is a *horizon*, not a possession. It is real and present now, wherev
 
 ## Ecological Function
 
-Theosis anchors the eschatological horizon of the whole sequence and gives the Transformation gravity its *direction*. Note carefully: in this build's gravity discovery (Doc_04) theosis is classified a **Formation Dynamic, not a gravity** — it names *where* transformation goes, not *how* it is organized, and it directs no formation practice of its own. Keep it distinct from Transformation (the organizing gravity, which is the *how*): theosis is the horizon; transformation is the movement toward it.
+Theosis anchors the eschatological horizon of the whole sequence and gives transformation its direction. Hold it distinct from transformation itself: theosis names where transformation goes, not how it is organised, and it directs no formation practice of its own. Theosis is the horizon; transformation is the movement toward it.
 
 ---
 

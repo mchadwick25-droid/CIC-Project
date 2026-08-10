@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Tacitus (Annals 15.44)
   name_kind: scholarly
+bridge_line: "A Roman historian, not a Christian. He recorded Nero blaming Christians for the fire."
 narratable: true
 story_ids:
 - pahcstory005

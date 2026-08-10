@@ -15,9 +15,8 @@ term: prophetes (προφήτης)
 aliases:
 - prophet
 - prophets
-quick_meaning: The *prophetes* is one who speaks under the Spirit's prompting — welcomed when genuine,
-  tested when doubtful, and in some places already giving way to the more stable offices of bishop and
-  presbyter.
+quick_meaning: 'One who speaks as the Spirit prompts. Welcomed where genuine, tested where doubtful. In some places
+  already giving way to the steadier offices of overseer and elder.'
 world_meaning: 'Prophets still move among us — those who speak under the Spirit''s prompting, who arrive
   at a household and may preside at the thanksgiving if they are genuine. The Didache gives careful instructions
   for testing them: let a prophet speak in the Spirit, but if he asks for money for himself, or if he
@@ -95,10 +94,10 @@ confidence:
 field_relations:
 - type: tension-with
   target_id: pahclex001
-  note: 'The chunk''s own EF: G01 ''from a different angle - the shift from charismatic, itinerant authority
-    to settled, local office''; symmetric mirror on pahclex001. Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): This term connects to the question of Authority Consolidation (G01) from a different
-    angle: the shift from charismatic, itinerant authority to settled, local office.'
+  note: 'The chunk''s own EF: G01 ''from a different angle - the shift from charismatic, itinerant authority to
+    settled, local office''; symmetric mirror on pahclex001. Chunk Ecological Function (verbatim, absorbed
+    per FLAG-002): This term comes at the question of who leads from a different angle: the shift from
+    wandering, charismatic authority to settled, local office.'
 - type: associated-with
   target_id: pahclex005
   note: Didache 15:1 appoints bishops AND deacons for they too conduct the ministry of the prophets and

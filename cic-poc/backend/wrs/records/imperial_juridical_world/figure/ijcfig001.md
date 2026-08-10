@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Constantine I (r. 306-337)
   name_kind: scholarly
+bridge_line: "The first Roman emperor to back the Christians. He ruled from 306 to 337."
 narratable: true
 story_ids:
 - ijcstory001

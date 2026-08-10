@@ -18,7 +18,7 @@ Together, these two outside accounts — one mocking, one defending — describe
 
 ## Formation Ecology Connection
 
-This story illustrates a mutual-aid practice loosely adjacent to G02 (Translocal Correspondence Network) and G03 (State Pressure/Legal Precarity), though it is not classified as direct evidence for either named gravity specifically — the connection is real but not as tightly load-bearing as Stories 001–008's connections to their respective gravities, and this is stated plainly rather than overclaimed. It shows something no other story in this repository shows as clearly: organized, funded, cross-community material solidarity around a member under existential threat, attested (however unwillingly) from outside the community itself.
+This shows a practice of mutual aid that sits near both the letter-network and the pressure from the state, without being straightforward evidence for either. The connection is real but looser than our other stories', and we say so rather than claim more. What it does show, more clearly than anything else we hold, is organised and funded material solidarity across communities for one member under threat of death - attested, however unwillingly, from outside us.
 
 ## Tier Justification
 

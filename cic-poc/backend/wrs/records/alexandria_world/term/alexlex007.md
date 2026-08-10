@@ -18,10 +18,9 @@ aliases:
 - partaking
 - partaking of God
 - real sharing
-quick_meaning: 'For this world participation is what the whole formation sequence arrives at — not nearness
-  to God but real sharing in the divine life itself: through grace and the Logos''s incarnation the soul
-  genuinely takes part in the life of the one who made it, not by becoming God but by becoming truly what
-  God intended a creature to be.'
+quick_meaning: 'What the whole formation sequence arrives at. Not nearness to God but real sharing in his life. Through
+  grace, and through the Word made flesh, the soul genuinely takes part in the life of the one who made it.
+  Not by becoming God. By becoming truly what a creature was meant to be.'
 world_meaning: 'When this world says the soul participates in the divine life, it is not reaching for
   a metaphor. Something real is shared. The word is placed carefully between two failures the ecology
   refuses. On one side is the soul that merely *approaches* God across a gap that never closes — near,
@@ -108,11 +107,11 @@ field_relations:
   target_id: alexlex006
   note: 'Participation expresses the condition wisdom names (chunk EF: mechanism and goal of the Transformation
     gravity). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Participation is the operational
-    term for what the second Primary gravity (Transformation) is *for* — it names both the mechanism and
-    the goal at once: the soul is being transformed *into* real sharing in God. It anchors the purpose
-    of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology
-    (one participates through the community), and the necessity of the incarnation (participation requires
-    that the Logos be truly God).'
+    term for what the transformation of the soul is for - it names the mechanism and the goal at once: the
+    soul is being transformed into real sharing in God. It anchors the purpose of the whole sequence, the
+    formative function of the Eucharist, the non-individualism of the ecology (one participates through the
+    community), and the necessity of the incarnation, since participation requires that the Logos be truly
+    God.'
 - type: presupposed-by
   target_id: alexlex008
   note: Theosis is participation's horizon - restored likeness through real sharing (alexlex008 QM).

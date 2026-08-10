@@ -143,6 +143,10 @@ def render_story_chunk(story: dict) -> str:
         f"Story-Title:    {story['title']}",
         "World-Code:     desert",
         f"Tier:           {story['narrative_tier']['tier']}",
+        # Key-Line / Signature: palette supply-side (worklist 4b), rolled to
+        # this world 2026-08-09. Verbatim from the record's own text.
+        *( [f"Signature:      yes"] if story.get("signature") else [] ),
+        *( [f'Key-Line:       "{story["key_line"]}"'] if story.get("key_line") else [] ),
         f"Confidence:     {confidence}",
         f"Source:         {source_line}",
         f"Retrieve-When:  {rw}",

@@ -68,12 +68,12 @@ sources:
     persecutions
 gravity_links:
 - gravity_id: alexgrav009
-  note: 'The clearest concrete anchor for T4 (Martyrdom vs. Contemplative-Ascent), showing the tension
-    is not abstract: the same teacher whose contemplative, scholarly formation this world treasures also
-    endured what martyrdom actually cost, in his own body and his own household. It also illustrates C3
-    (Divine Pedagogy) at its hardest edge — the conviction that even suffering teaches is not asserted
-    here as doctrine but shown pressing on an actual life — and connects to Doc_08''s ongoing force of
-    persecution (2A-3), which this world experienced as formation''s sharpest and most concrete pressure.'
+  note: 'The clearest concrete anchor for the tension between martyrdom and contemplative ascent, showing that
+    tension is not abstract: the same teacher whose contemplative, scholarly formation this world treasures
+    also endured what martyrdom actually cost, in his own body and his own household. It also shows the
+    divine pedagogy at its hardest edge - the conviction that even suffering teaches is not asserted here as
+    doctrine but shown pressing on an actual life - and connects to the ongoing pressure of persecution,
+    which this world experienced as formation''s sharpest and most concrete pressure.'
 - gravity_id: alexgrav003
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

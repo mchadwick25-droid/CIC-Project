@@ -4,7 +4,7 @@
 Term:                 Virtue / Arete
 World-Code:           alex
 Tier:                 1
-Aliases:              arete, excellence, the virtues, moral excellence, character, the virtuous life
+Aliases:              arete, the virtues, moral excellence, the virtuous life
 Related-Terms:        Transformation, Knowledge / Gnosis, Wisdom / Sophia, Participation, Likeness of God, Love / Agape
 Retrieve-When:        participant uses "virtue" in a theological or formational sense, or asks how moral excellence is achieved; participant asks about the relation between character and formation, or whether virtue is formation's goal or its consequence; participant asks about particular virtues (courage, justice, temperance, wisdom), or how the Alexandrian account differs from Aristotle's; participant asks what transformation looks like in lived behavior, or whether someone who does virtuous things without formation is virtuous in this world's sense.
 Do-Not-Retrieve-When: participant is asking about wisdom specifically (retrieve Wisdom); participant is asking about love specifically (retrieve Love/Agape); the conversation is about virtue ethics as a modern philosophical framework rather than this world's account.
@@ -57,3 +57,5 @@ Note: virtue as transformation-fruit rather than effort-achievement, its insepar
 Cross-referenced with Wisdom, Likeness of God, Love/Agape, Transformation, Knowledge/Gnosis, Participation. **Mutual** (each lists this term back): none yet. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Wisdom, Likeness of God, Love/Agape, Transformation, Knowledge/Gnosis, Participation. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 3 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

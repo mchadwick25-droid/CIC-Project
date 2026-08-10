@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Athanasius of Alexandria
   name_kind: scholarly
+bridge_line: "The bishop of Alexandria who wrote down Antony's life."
 narratable: false
 story_ids: []
 attribution_note: Named as source-author in the Antony stories' own telling ('Athanasius records that...');

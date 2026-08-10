@@ -14,8 +14,7 @@ cache_stability: static
 term: haeresis
 aliases:
 - heresy
-quick_meaning: '*Haeresis* names a teaching placed outside what the church, and now the law itself, will
-  recognize — a juridical exclusion as much as a theological one, in our own record.'
+quick_meaning: 'A teaching placed outside what the church will recognise, and now outside what the law will recognise. With us it is a legal exclusion as much as a theological one.'
 world_meaning: 'A teaching does not become *haeresis* for us merely because a bishop disagrees with it.
   It becomes *haeresis* when the church, gathered and confirmed, declares it so — and, in our own world''s
   own record, increasingly, when the emperor''s own law then gives that declaration legal force and consequence.

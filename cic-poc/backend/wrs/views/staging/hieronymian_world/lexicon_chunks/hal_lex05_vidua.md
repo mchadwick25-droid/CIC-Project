@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The status of a Christian widow who declines remarriage and adopts ascetic discipline — the formation category of Paula, Marcella, and Fabiola.
+A Christian widow who does not marry again and takes up a hard rule of life. Paula, Marcella, and Fabiola were widows of this kind.
 
 ---
 

@@ -13,6 +13,7 @@ sources:
 id: alexgrav002
 name: Transformation of the Soul Toward God (C2)
 classification: Primary
+capsule_line: 'The turning of the soul toward God. This is formation itself, named as what it is.'
 six_tests:
   repetition:
     verdict: PASS (strong) - Streams 4, 2, 3, 1, 12; three figures, all phases (Doc_04 SS3.2).

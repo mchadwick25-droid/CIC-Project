@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Sarah (of the Nile/Scetis tradition)
   name_kind: scholarly
+bridge_line: "One of the desert mothers. Her answer to the elders is our clearest woman's voice."
 narratable: true
 story_ids:
 - desertstory006

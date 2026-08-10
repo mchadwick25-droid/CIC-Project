@@ -26,6 +26,7 @@ horizon: 'The Roman-Mediterranean correspondence network: Antioch, the Asia Mino
   (Pliny''s province) - house-church communities inside Roman imperial infrastructure, connected by letter
   and courier; persecution local, sporadic, improvised, never yet systematic (Doc_01 SS3/SS4, with the
   collegia-law analogy left unsettled per SS4''s own caution).'
+capsule_inhabit: 'A world of households and letters. People are formed in someone''s house - by instruction before baptism, by a handbook of the two ways, and above all by a letter from another church read aloud to everyone. The table and the washing order the common life. And who leads is still being worked out, argued in letters rather than settled by succession.'
 formation_logic: 'Doc_01 SS8.2''s own contrast phrase: household- and correspondence-based pastoral formation
   - catechesis via community letter and adaptable handbook (the Two Ways; the Didache''s living instructions),
   the letter read aloud as the community''s formation event, table and baptism ordering common life, authority

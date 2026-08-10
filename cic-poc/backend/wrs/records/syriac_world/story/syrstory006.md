@@ -41,21 +41,10 @@ attested_occasion: 'The siege-deliverance tradition: Theodoret (HE II.26/30; HR 
   note) - tradition Contested, the specific event Inferential-Thin (Tier 3).'
 tellable_as: scene
 owner_figure_id: syrfig003
-voice_surface: 'We tell the deliverance as the tradition sings it - the old bishop on the wall, the smallest
-  of afflictions asked for and sent. Our own teacher put the city''s survival into hymns; the story''s
-  marvels we carry as the tradition''s own telling, not as the record''s proof. Usage guidance (chunk,
-  verbatim): The Representative may offer this as the tradition''s own memory of the city''s deliverance,
-  careful to preserve the correct roles: "It is said that when the enemy camped against our walls, Ephrem
-  himself urged Jacob our bishop to climb the tower and pray, and that Jacob''s prayer, not our own strength,
-  sent the enemy from the field — and it was left to us to sing of it after." The Representative must
-  never present Ephrem as the one who performed the miracle; if a participant states or assumes this,
-  the Representative should gently correct the roles within the story rather than let the misattribution
-  stand uncorrected.
+voice_surface: |-
+  We tell the deliverance as the tradition sings it: the old bishop on the wall, the smallest of afflictions asked for and sent. Our own teacher put the city's survival into hymns. The marvels we carry as the tradition's own telling, not as proof. Usage guidance (chunk, verbatim): The Representative may offer this as the tradition's own memory of the city's deliverance, careful to preserve the correct roles: "It is said that when the enemy camped against our walls, Ephrem himself urged Jacob our bishop to climb the tower and pray, and that Jacob's prayer, not our own strength, sent the enemy from the field — and it was left to us to sing of it after." The Representative must never present Ephrem as the one who performed the miracle; if a participant states or assumes this, the Representative should gently correct the roles within the story rather than let the misattribution stand uncorrected.
 
-
-  **Additional guidance:** This story should be handled with the same care given to any Tier 3 miracle
-  account — offered as the tradition''s own memory of deliverance, not as verified historical fact about
-  mosquitoes routing an army.'
+  **Additional guidance:** This story should be handled with the same care given to any Tier 3 miracle account — offered as the tradition's own memory of deliverance, not as verified historical fact about mosquitoes routing an army.
 confidence_line: Contested (as tradition); Inferential/Thin (as a specific historical event)
 retrieval:
   tier: 3
@@ -81,4 +70,4 @@ sources:
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory006_jacob-nisibis-deliverance.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
-[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story gives narrative shape to how this world's own record remembers surviving under the contested Roman-Persian Mesopotamian frontier condition Doc_08 documents structurally as Force 1A-2, which names Nisibis specifically as occupying "a third, unstable position — contested repeatedly through the 3rd century, fixed as Roman only from 298 (Peace of Nisibis), and ceded to Persia in 363." **Correction (Round 1 review):** an earlier draft of this paragraph cited Force 2A-1 for this connection; Force 2A-1 is Doc_08's own name for Sasanian state persecution of Christians inside Persia (the poll-tax campaign, Simeon bar Sabbae, the twenty-year primatial vacancy) — a related but distinct phenomenon from the military sieges of Nisibis this story concerns. Doc_08 does not document the sieges themselves as a named force; Force 1A-2 is the closest structural antecedent it actually contains, and is cited here instead. It also illuminates the qyama-adjacent, non-episcopal teaching role this world's Representative construction has settled on (a teacher who urges and commemorates, rather than a bishop who acts with singular authority) — Ephrem's own place in this story is exactly that of the teacher who prompts and later sings of deliverance, not the one who works it. **Correction (2026-07-08, Doc_09 Validation Layer):** an earlier draft of this sentence used "malpana" as a settled descriptor of this role; Doc_03, Section 3.1 found no direct textual attestation of Ephrem holding this specific title within this world's own 200–410 window, tracing the association instead to later hagiographic tradition. "Teacher" is used here without that title, consistent with Doc_03's finding.
+[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This gives narrative shape to how we remember surviving on a contested frontier. Nisibis held an unstable third position: fought over through the third century, fixed as Roman only from 298, and given up to Persia in 363. The sieges themselves are not something our record holds as a single named pressure; this story is the nearest thing to it. It also shows the teaching role this world actually knows - one who urges, and later sings of deliverance, rather than a bishop who acts with singular authority. Ephrem's place in the story is exactly that.

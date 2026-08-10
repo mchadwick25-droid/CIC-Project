@@ -4,7 +4,7 @@
 Term:                 Soul / Psyche
 World-Code:           alex
 Tier:                 1
-Aliases:              psyche, the soul, the human soul, the inner person, the self before God
+Aliases:              psyche, the human soul, the inner person, the self before God
 Related-Terms:        Image of God, Nous, Likeness of God, Freedom / Autexousia, Participation, Sin / Hamartia, Transformation, Baptism, Fasting, Martyrdom / Witness, Household / Oikos
 Retrieve-When:        participant uses "soul" in any formational or theological sense; participant asks what part of a person the practices are forming, or whether Christian life is about the soul or the whole person; participant asks about body and soul, what survives death, or what the resurrection restores; participant is anxious that the body is irrelevant to formation, or asks what is being healed in Christian life.
 Do-Not-Retrieve-When: participant means the nous specifically as the faculty of spiritual perception (retrieve Nous); participant asks specifically about what was given in creation (retrieve Image of God); the World Capsule Core has already surfaced the soul as formation subject in the current turn.
@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means the nous specifically as the faculty of 
 
 ## Quick Meaning
 
-For this world the soul is not a ghost inhabiting a body — it is the whole human person understood as a being made for God: the image-bearer, animated through the body, oriented toward God by nature, and being restored toward the likeness of the one in whose image it was made.
+Not a ghost living inside a body. The whole human person, understood as a being made for God: the image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness of the one whose image it bears.
 
 ---
 

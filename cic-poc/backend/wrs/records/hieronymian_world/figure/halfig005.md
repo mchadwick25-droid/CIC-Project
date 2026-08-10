@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Blaesilla of Rome (d. 384)
   name_kind: scholarly
+bridge_line: "Paula's elder daughter, who died after severe fasting. Rome blamed her teacher."
 narratable: true
 story_ids:
 - halstory02

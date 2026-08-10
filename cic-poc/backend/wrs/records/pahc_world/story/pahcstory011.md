@@ -8,6 +8,7 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "just as wherever Jesus Christ is, there is the catholic church."
 review_state: draft
 cache_stability: static
 title: The One Eucharist, Under the Bishop
@@ -74,12 +75,11 @@ sources:
   locus: See Source Identification below — Ignatius, *Philadelphians* 4 and *Smyrnaeans* 8 (Registry P03).
 gravity_links:
 - gravity_id: pahcgrav007
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story is Strand A''s own version of G07 (Liturgical Practice/Eucharist, Primary), fused
-    explicitly with G01 (Authority Consolidation, Supporting) and G05 (Boundary-Drawing vs. Rivals, Tensional)
-    — Doc_04''s own Dependency-test finding is that this instruction functions simultaneously as an authority
-    claim and a boundary claim: unity around one eucharist is not separable, in Ignatius''s own argument,
-    from unity around one bishop and exclusion of rival teaching.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This is the bishop-centred communities'' own version of the thanksgiving, and it is fused with the
+    question of who leads and where the boundary falls. The instruction works as an authority claim and a
+    boundary claim at the same time: in this argument, unity around one eucharist cannot be separated from
+    unity around one bishop, or from shutting out rival teaching.'
 - gravity_id: pahcgrav001
   note: Named in the same FEC (full text on this record's first gravity link).
 - gravity_id: pahcgrav005

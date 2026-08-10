@@ -15,9 +15,8 @@ term: agape (as label)
 aliases:
 - love-feast
 - agape meal
-quick_meaning: '*Agape* names the common meal — love''s own name given to an ordinary act of feeding people
-  at one table — though whether it is the same as the eucharist, a separate meal, or something else is
-  not yet settled among us.'
+quick_meaning: 'Love''s own name, given to the common meal - an ordinary act of feeding people at one table. Whether it
+  is the same as the thanksgiving, or a separate meal, or something else again, is not settled among us.'
 world_meaning: 'We share a meal that goes by love''s own name: agape. What we do at that table — feeding
   the stranger, the widow, the orphan, alongside the household — is called love because it is love made
   visible in bread and cup shared.

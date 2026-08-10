@@ -24,6 +24,28 @@ export interface GlossUsed {
   original: string;
   gloss: string;
   rendered: string;
+  inline?: boolean;
+  /**
+   * Tier 3 (2026-08-09): the voice used the PLAIN phrase and never the period
+   * term - Papnoute says "stillness", never "hesychia". The matched text is
+   * therefore the gloss itself, and the pill's job inverts: it supplies the
+   * word this world had, rather than the modern reading of a word on screen.
+   */
+  plain_side?: boolean;
+}
+
+/**
+ * The name bridge (2026-08-09). A person the Representative named, with one
+ * plain sentence saying who they were - drawn from that world's own figure
+ * record, never spoken by the voice itself. Mark's live-site read found names
+ * (Aphrahat, Pachomius, Blaesilla) reaching the reader with nothing at all,
+ * and the gloss table structurally cannot carry them: it is vocabulary.
+ */
+export interface FigureUsed {
+  figure_id: string;
+  display_name: string;
+  matched: string;
+  bridge_line: string;
 }
 
 export interface Message {
@@ -32,6 +54,7 @@ export interface Message {
   name?: string | null;
   citations?: Citation[] | null;
   glosses_used?: GlossUsed[] | null;
+  figures_used?: FigureUsed[] | null;
 }
 
 export interface StartSessionResponse {

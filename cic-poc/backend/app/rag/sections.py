@@ -51,6 +51,23 @@ KEY_SOURCES_MARKERS: tuple[str, ...] = (
     "## Key Sources", "**Key Sources:**", "**Key Sources**",
 )
 
+# Voice Rebuild Phase 0.2 (2026-08-08): the fail-closed fallback for
+# truncate_at, below. A chunk missing a Key Sources marker entirely used
+# to pass its whole tail through unfiltered (the fail-open bug the
+# Research-stage leak audit found live in 6 chunks). These are the two
+# apparatus-only trailing sections the audit found actually occurring in
+# those 6 files - Final Assembly Instruction (IJC's two) and Related-
+# Terms Reciprocity Note (Syriac's two; its own text talks about "runtime
+# recognizability" and "completeness," builder language, not voice). Both
+# conventions listed per this module's own rule, though only the fenced
+# form is attested in the corpus today.
+TRAILING_APPARATUS_MARKERS: tuple[str, ...] = (
+    "## Final Assembly Instruction", "**Final Assembly Instruction:**",
+    "**Final Assembly Instruction**",
+    "## Related-Terms Reciprocity Note", "**Related-Terms Reciprocity Note:**",
+    "**Related-Terms Reciprocity Note**",
+)
+
 
 @dataclass(frozen=True)
 class Section:
@@ -146,7 +163,8 @@ def excise_section(body: str, markers: tuple[str, ...]) -> str:
     return f"{head}\n\n{tail}" if tail else head
 
 
-def truncate_at(body: str, markers: tuple[str, ...]) -> str:
+def truncate_at(body: str, markers: tuple[str, ...], *,
+                fail_closed: bool = True) -> str:
     """`body` up to (not including) the named section - everything from that
     section to the end of the body is dropped.
 
@@ -155,6 +173,27 @@ def truncate_at(body: str, markers: tuple[str, ...]) -> str:
     excise_section this never needs the section's END, which is why the old
     hand-rolled Key Sources strip was correct for both conventions and the
     Quick Meaning strip beside it was not.
+
+    fail_closed (Voice Rebuild Phase 0.2, 2026-08-08): when none of
+    `markers` matches, the body used to pass through unfiltered - fail-open,
+    and the reason 6 chunks with no Key Sources marker at all were shipping
+    their build-apparatus tail verbatim (the Research-stage leak audit's
+    own finding). Fail-closed instead checks TRAILING_APPARATUS_MARKERS as
+    a fallback and cuts at whichever candidate - primary or fallback -
+    appears EARLIEST by position (not by which tuple it came from; a chunk
+    could in principle carry both). Only when nothing in either tuple
+    appears at all does the body pass through unchanged - the genuinely
+    clean case, not a failure to detect one. Pass fail_closed=False to
+    restore the old behavior for a caller that needs it (none do today).
     """
     section = find_section(body, markers)
-    return body if section is None else body[:section.start].rstrip()
+    if section is not None:
+        return body[:section.start].rstrip()
+    if not fail_closed:
+        return body
+    earliest = None
+    for marker in TRAILING_APPARATUS_MARKERS:
+        pos = body.find(marker)
+        if pos != -1 and (earliest is None or pos < earliest):
+            earliest = pos
+    return body if earliest is None else body[:earliest].rstrip()

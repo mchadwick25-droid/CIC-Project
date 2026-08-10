@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Simeon bar Sabba'e, bishop of Seleucia-Ctesiphon
   name_kind: scholarly
+bridge_line: "A bishop in the Persian empire, put to death when the king turned on us."
 narratable: true
 story_ids:
 - syrstory005

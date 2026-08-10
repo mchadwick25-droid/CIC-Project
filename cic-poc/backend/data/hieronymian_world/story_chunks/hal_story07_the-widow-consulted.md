@@ -14,7 +14,7 @@ This is how the household remembers one widow among us: after the traveling scho
 
 ## Formation Ecology Connection
 
-The evidentiary core of the Tensional gravity in this world's confirmed ecology — a genuine counter-current of independent female authority that does not organize as broadly as the Primary gravities, but which this world's own record does not let the household forget. Central to the strand-tension question this world's own construction had to test directly (resolved: her authority is the same underlying currency as the traveling scholar's, held in a different, materially independent position — not a rival structure).
+The clearest evidence for the one real counter-current in this household's life - an independent authority held by a woman, running against the main pattern without displacing it, which this household's own record does not let it forget. Her authority is the same underlying currency as the traveling scholar's, held in a different and materially independent position - not a rival structure.
 
 ## Tier Justification
 

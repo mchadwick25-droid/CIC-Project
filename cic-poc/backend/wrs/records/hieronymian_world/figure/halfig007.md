@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Rufinus of Aquileia
   name_kind: scholarly
+bridge_line: "A friend who became an opponent. His side of the quarrel survives in his own words."
 narratable: true
 story_ids:
 - halstory03a

@@ -15,9 +15,7 @@ term: martyrium
 aliases:
 - martyr shrine
 - martyr cult
-quick_meaning: For us, a martyr's shrine is where the dead who kept the faith under persecution are honored
-  — and, in our own see's hands specifically, where that honor is also made to speak for this see's own
-  standing.
+quick_meaning: 'A shrine where the dead who kept the faith under persecution are honoured. In our own see''s hands it does something more: the honour is made to speak for this see''s own standing.'
 world_meaning: See Quick Meaning above. This world's own use of the term is narrower than a fuller devotional
   treatment would give it — here it functions chiefly as an instrument of *primatus*, not as an independently
   developed devotional practice in its own right (Doc_05 §3, §10).

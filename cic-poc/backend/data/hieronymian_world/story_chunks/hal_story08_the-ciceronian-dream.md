@@ -1,6 +1,8 @@
 Story-Title:    The Dream That Broke a Habit of Reading
 World-Code:     hal
 Tier:           3
+Signature:      yes
+Key-Line:       "You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also"
 Confidence:     Widely Accepted (the tension it dramatizes); Inferential/Thin (the dream as reported event)
 Source:         Jerome, Epistula 22, to Eustochium
 Retrieve-When:  Participant asks about the tension between classical learning and Christian renunciation; participant asks about a formative dream or crisis of conscience; participant asks why this household is wary of, or still uses, classical literature.

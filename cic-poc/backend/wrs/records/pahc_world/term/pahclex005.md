@@ -15,8 +15,7 @@ term: diakonos (διάκονος)
 aliases:
 - deacon
 - servant
-quick_meaning: The *diakonoi* are those set apart to serve — carrying help to the widow, the prisoner,
-  the stranger who cannot repay.
+quick_meaning: 'Those set apart to serve. They carry help to the widow, the prisoner, and the stranger who cannot repay.'
 world_meaning: 'Those set apart to serve among us — the diakonoi — do work that sits closer to our household''s
   hospitality than to the harder arguments the letter-writers carry. They bring help to the widow, the
   orphan, the prisoner, the stranger who has nowhere else to eat. Their service is not a lower rank on

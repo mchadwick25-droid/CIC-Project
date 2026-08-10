@@ -13,6 +13,7 @@ sources:
 id: alexgrav001
 name: Scripture as Deep Formative Reality (C1)
 classification: Primary
+capsule_line: 'Scripture read at depth is how a person is shaped here. The reader is changed by the reading, not merely informed.'
 six_tests:
   repetition:
     verdict: PASS (strong) - recurs across Streams 1, 2, 3, 4, 5; four partly-independent figures (Clement,

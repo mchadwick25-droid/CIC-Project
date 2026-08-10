@@ -36,7 +36,7 @@ And the turning-back is possible only because the damage is directional, not tot
 
 ## Ecological Function
 
-Sin sets the problem the entire salvation arc answers; without a precise account of it, none of what follows — Death, Resurrection, Restoration, Transformation — reads correctly. It anchors the Death entry (death is what the soul undergoes once it has turned from the source of its life), it gives the whole formation ecology its purpose (every practice is at some level the re-orientation of desire), it makes Repentance intelligible (a directional condition is answered by a directional turn — *metanoia*), and it ties directly to Freedom (the soul turned away because it was free to, which is why formation works with the soul's freedom rather than over it). This is the second Primary gravity, Salvation (Doc_04), seen from its problem-side.
+Sin sets the problem the entire salvation arc answers; without a precise account of it, none of what follows - death, resurrection, restoration, transformation - reads correctly. It anchors the entry on death (death is what the soul undergoes once it has turned from the source of its life), it gives the whole formation ecology its purpose (every practice is at some level the re-orientation of desire), it makes repentance intelligible (a directional condition answered by a directional turn, metanoia), and it ties directly to freedom (the soul turned away because it was free to, which is why formation works with the soul's freedom rather than over it). This is salvation seen from its problem-side.
 
 ---
 

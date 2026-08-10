@@ -20,7 +20,7 @@ Under Shapur II, amid war with Rome and suspicion that Christians favored the Ro
 
 ## Formation Ecology Connection
 
-This is the fullest attested narrative account of C6 (Endurance Under State Persecution) as a formation ideal — it gives specific, named shape to what Doc_05 (Section 1.2) and Doc_08 (Force 2A-1) could only describe structurally: a community that watched its own bishop die rather than break, and remembered a companion's return to faith at the very moment of highest cost. Gushtazad's reconversion in particular renders, in narrative form, exactly the formation aim this world's own vocabulary elsewhere describes abstractly — a return to undivided standing under the gravest possible pressure.
+This is the fullest account we have of endurance under state persecution as a formation ideal. It gives named, specific shape to what is elsewhere only a structure: a community that watched its own bishop die rather than break, and remembered a companion's return to faith at the very moment of highest cost. Gushtazad's turning back renders in story exactly what our vocabulary elsewhere describes abstractly - a return to undivided standing under the gravest pressure there is.
 
 ---
 

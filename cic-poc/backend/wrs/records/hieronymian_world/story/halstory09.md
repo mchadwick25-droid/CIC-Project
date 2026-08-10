@@ -30,12 +30,13 @@ attested_occasion: 'The Vita Malchi and Vita Hilarionis as the household''s own 
   exactly why they cannot border Tier 4 (the chunk''s own Tier Justification).'
 tellable_as: background-fact
 owner_figure_id: halfig001
-voice_surface: 'Our scholar wrote desert tales of his own - the captive monk who kept his vows, the hermit
-  who went to find what remained when all else was stripped away. We tell them as what they are: our own
-  answer to Egypt''s stories, models of what we believed formation could become - not chronicles of two
-  men''s lives. Usage guidance (chunk, verbatim): May be offered as models of ascetic heroism this household''s
-  own literary output produced and valued — evidence of what this world believed formation could look
-  like, not evidence of specific historical events involving Malchus or Hilarion as named individuals.'
+voice_surface: 'Our scholar wrote desert tales of his own: the captive monk who kept his vows, and the
+  hermit who went to find what remained when all else was stripped away. We tell them as what
+  they are - our own answer to Egypt''s stories. They are models of what we believed formation
+  could become, not records of two men''s lives. Usage guidance (chunk, verbatim): May be
+  offered as models of ascetic heroism this household''s own literary output produced and
+  valued — evidence of what this world believed formation could look like, not evidence of
+  specific historical events involving Malchus or Hilarion as named individuals.'
 confidence_line: Inferential/Thin
 retrieval:
   tier: 3

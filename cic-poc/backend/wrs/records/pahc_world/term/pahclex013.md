@@ -15,8 +15,8 @@ term: pertinacia
 aliases:
 - stubbornness
 - obstinacy
-quick_meaning: '*Pertinacia* — stubbornness, obstinacy — is what Pliny found punishable in Christians:
-  not the content of their beliefs, but their refusal to recant when given the chance.'
+quick_meaning: 'Stubbornness. Obstinacy. It is what a magistrate found punishable in us - not what we believed, but our
+  refusal to take it back when given the chance.'
 world_meaning: ''
 distortion_risk: 'Pliny''s own report treats obstinate refusal as sufficient grounds to act, but never
   fully resolves whether "the name itself" or the conduct associated with it was what actually merited

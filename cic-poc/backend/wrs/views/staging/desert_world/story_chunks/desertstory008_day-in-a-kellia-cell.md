@@ -4,7 +4,7 @@
 Story-Title:    A Day in a Kellia Cell
 World-Code:     desert
 Tier:           4
-Confidence:     Inferential/Thin (always, per the Story Repository Chunk Template's own rule for Tier 4, regardless of individual element quality)
+Confidence:     Inferential / Thin (always, per the Story Repository Chunk Template's own rule for Tier 4, regardless of individual element quality)
 Source:         Reconstruction assembled from independently attested elements -- see Source Identification below. Corrected 2026-07-23: the gathering day was originally misnamed "the sixth day," which reads as period vocabulary but actually used a modern day-counting convention and contradicted this same reconstruction's own sourced Saturday-to-Sunday rhythm -- corrected to name the sourced days directly. Noted here, not silently fixed, in keeping with this project's own transparency commitment.
 Retrieve-When:  participant asks what an ordinary day actually looked like, in concrete terms, for a semi-anchoritic ascetic; conversation reaches Strand C's own daily rhythm specifically -- Papnoute's own grounding register; Representative needs to render the synaxis, manual labor, and Psalter recitation as lived texture rather than abstract description.
 Do-Not-Retrieve-When: participant asks for specifics beyond what is sourced here (diet, exact hours, personal routine) -- an earlier draft's diet detail was removed for lack of sourcing and must not be reintroduced; participant is asking about Strand A's solitary pattern (Stories 001-002, 007) or Strand B's cenobitic pattern (Story 003) specifically, since this reconstruction is Strand C-specific.
@@ -20,7 +20,7 @@ In a typical day for someone formed in this tradition at Kellia, the day would o
 
 ## Formation Ecology Connection
 
-This reconstruction synthesizes gravities 1, 4, and the Strand C-specific expression of gravity 5 into a single reconstructed daily rhythm, directly corresponding to Doc_07 §9's own architecture-based integration finding -- the cell and the synaxis infrastructure jointly provisioning for both solitude and periodic communal accountability. This is the concrete texture underneath Papnoute's own grounding register (Doc_10 §1), the daily shape his voice speaks from by default.
+A reconstructed shape of an ordinary day, drawing together withdrawal, the work of the hands, and discernment as the semi-eremitic settlements practised them. The cell and the gathering together provide for both: solitude, and a periodic accounting to others. This is the daily texture the voice speaks from by default.
 
 ---
 

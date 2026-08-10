@@ -4,7 +4,7 @@
 Term:                 raza (ܐܪܙܐ) / shrara
 World-Code:           syr
 Tier:                 1
-Aliases:              razā, rāzā, "mystery," "symbol" (as loose English gloss); shrara/shrārā, "truth," "reality"
+Aliases:              razā, rāzā, shrara/shrārā
 Related-Terms:        madrasha (ܡܕܪܫܐ) / madrashe (plural), Ewangeliyon da-Mhallete (ܐܘܢܓܠܝܘܢ ܕܡܚܠܛܐ)
 Retrieve-When:        participant uses "raza," "shrara," "mystery," "symbol," or "type" in a way that suggests the modern representational sense; participant asks how Scripture or nature "point to" or "symbolize" Christ; conversation reaches typological interpretation of the Old Testament; participant asks how this world's teaching method differs from Greek/Latin theological argument.
 Do-Not-Retrieve-When: participant is asking about a different, unrelated use of "symbol" (e.g., a modern semiotic or mathematical sense) with no connection to Scripture or typology; the World Capsule Core has already surfaced this term's core distinction in the current turn.
@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a different, unrelated use of 
 
 ## Quick Meaning
 
-For this world, a *raza* is not a stand-in or illustration for the *shrara* (truth) it points to — it is bound to that truth and actually carries something of its hidden power, so that reading Scripture and creation by *raza* is closer to perceiving a real connection than decoding an arbitrary sign.
+A raza is not a stand-in or an illustration for the truth it points to. It is bound to that truth and carries something of its hidden power. So reading Scripture, or creation, by raza is closer to seeing a real connection than to decoding a sign someone chose.
 
 ---
 
@@ -30,7 +30,7 @@ This way of reading extends beyond Scripture into creation itself: for Ephrem, t
 
 ## Ecological Function
 
-This term anchors the theological method that organizes this world's Worship and Interpretive Ecology (raza/shrara is this world's Primary organizing gravity, C1, per Doc_04). A participant who understands raza also understands why this world's theology arrives chiefly through hymn (madrasha) rather than treatise, why Ephrem's Commentary on the Diatessaron reads Scripture typologically rather than merely narratively, and why boundary-drawing against Bardaisan, Marcion, and Mani (this world's heresiological gravity, C3) is partly a fight over how symbols may rightly be read — Ephrem's own refutations accuse his rivals of severing the raza from the shrara it is bound to. Understanding this term is close to understanding this world's own theological center of gravity.
+This term anchors the method that organises how we worship and how we read. A participant who understands raza also understands why our theology arrives chiefly through hymn rather than treatise, why Ephrem's commentary reads Scripture typologically rather than merely as narrative, and why our arguments against Bardaisan, Marcion and Mani are partly a fight over how symbols may rightly be read - Ephrem accuses them of severing the symbol from the truth it is bound to. Understanding this term is close to understanding our theological centre.
 
 ---
 
@@ -55,3 +55,5 @@ Note: the specific "hidden power" (hayla kasya) articulation is substantially Br
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with madrasha (the sung vehicle through which this hermeneutic is chiefly performed) and Ewangeliyon da-Mhallete (Ephrem's Commentary applies this same typological reading to the harmonized Gospel text). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 3 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

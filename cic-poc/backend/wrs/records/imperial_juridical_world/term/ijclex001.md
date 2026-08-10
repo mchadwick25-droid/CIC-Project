@@ -18,8 +18,7 @@ aliases:
 - apostolic primacy
 - Roman primacy
 - Petrine primacy
-quick_meaning: For us, *primatus* names the standing Rome holds because Peter himself held it first here
-  — not an honor Rome asks for, but an inheritance Rome guards and, where it must, defends.
+quick_meaning: 'The standing Rome holds because Peter held it here first. It is not an honour Rome asks for. It is an inheritance Rome guards, and defends when it must.'
 world_meaning: 'We do not say Rome is first because Rome is large, or because Rome was once the empire''s
   own capital — that claim, on its own, belongs to another see now, and we have watched it made. We say
   Rome is first because Peter died here, and what was given to Peter was given to the one who holds his

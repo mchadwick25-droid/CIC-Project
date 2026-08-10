@@ -1,6 +1,8 @@
 Story-Title:    The Two Ways: A Catechumen's Path to the Water
 World-Code:     pahc
 Tier:           4
+Signature:      yes
+Key-Line:       "whatever you do not want done to you, do not do to another"
 Confidence:     Inferential-Thin (always, per Tier 4) — underlying textual facts are Documented; network-wide adoption beyond the Didache's own community is not claimed
 Source:         See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).
 Retrieve-When:  Participant asks how someone joined this world's community, or what preparation before baptism looked like; participant asks about moral formation or the "Two Ways" ethical schema specifically; conversation needs a typical-practice entry point distinct from the eucharistic material in Stories 010/011.
@@ -18,7 +20,7 @@ This is not the account of one named person. It is a composite of the instructio
 
 ## Formation Ecology Connection
 
-This story illustrates the moral/ethical entry-point logic Doc_07 §2B names as part of this world's own formation ecology — formation beginning with a concrete, memorizable ethical schema before ritual incorporation, rather than the reverse. It is not itself evidence for a confirmed Doc_04 gravity in the way Stories 001–008 are, but it grounds the practical, instructional dimension of formation that the gravities themselves presuppose without directly narrating.
+This shows where formation actually starts: with a concrete, memorable pattern of how to live, learned before a person is brought into the rites rather than after. It is not evidence for any one of the forces that organise this world in the way our other stories are. It grounds the practical, instructional side of formation that those forces assume without ever quite describing.
 
 ## Tier Justification
 

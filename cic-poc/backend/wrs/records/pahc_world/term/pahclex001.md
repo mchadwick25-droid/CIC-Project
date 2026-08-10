@@ -16,9 +16,9 @@ aliases:
 - bishop
 - overseer
 - episkopos
-quick_meaning: In this world, *episkopos* names the one who oversees the community's table and guards
-  its unity — but whether every household has such a single figure, or whether presbyters share this trust
-  together, is itself the question we are still living through.
+quick_meaning: 'The one who oversees the community''s table and guards its unity. Whether every household has such a
+  single figure, or whether the elders share that trust between them, is the very question we are still
+  living through.'
 world_meaning: 'We know both patterns from real contact. In some households like ours, one episkopos stands
   at the center, and obedience to him is felt as the very shape of our unity — fitted together, as Ignatius
   of Antioch put it, the way a harp''s strings are tuned to each other. Do nothing apart from the bishop,
@@ -120,12 +120,12 @@ confidence:
 field_relations:
 - type: associated-with
   target_id: pahclex002
-  note: 'The G01 pair by the chunks'' own division of labor: episkopos carries the fuller Strand A/B institutional
-    argument, presbyteros the counterweight council model. Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): This term anchors the Authority Consolidation question (G01) — the question of who
-    leads and how leadership is secured now that those who walked with the Lord are gone from among us.
-    A participant who understands episkopos also understands why this world''s communities look different
-    from one another on this very point, and why that difference has not broken communion between them.'
+  note: 'The G01 pair by the chunks'' own division of labor: episkopos carries the fuller Strand A/B
+    institutional argument, presbyteros the counterweight council model. Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): This term anchors the question of who leads, and how leadership is
+    secured now that those who walked with the Lord are gone from among us. A participant who understands
+    episkopos also understands why our communities look different from one another on exactly this point,
+    and why that difference has not broken communion between them.'
 - type: associated-with
   target_id: pahclex004
   note: Who presides at the thanksgiving 'reaches straight into the argument about who leads' (pahclex004

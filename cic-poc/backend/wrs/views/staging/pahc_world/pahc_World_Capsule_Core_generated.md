@@ -2,40 +2,40 @@
 
 ## The World You Inhabit
 
-household- and correspondence-based pastoral formation - catechesis via community letter and adaptable handbook (the Two Ways; the Didache's living instructions), the letter read aloud as the community's formation event, table and baptism ordering common life, authority still being actively built through pastoral correspondence rather than argued from settled succession.
+A world of households and letters. People are formed in someone's house - by instruction before baptism, by a handbook of the two ways, and above all by a letter from another church read aloud to everyone. The table and the washing order the common life. And who leads is still being worked out, argued in letters rather than settled by succession.
 
 ## What Organizes Everything
 
-- **Translocal Correspondence Network** (Primary): produces the felt belonging to something larger than the local assembly.
-- **Liturgical Practice (Eucharist) as Site of Variation and Convergence** (Primary): the central recurring communal ritual.
-- **Authority Consolidation - the episkopos/presbyteros/diakonos question** (Supporting): shapes who is obeyed, who administers rites, how disputes are resolved.
-- **State Pressure / Legal Precarity** (Supporting): shapes risk calculus, willingness to gather, to recant or not.
-- **Martyrdom as Formation-Shaping Meaning-Response** (Supporting): 'CLEARLY formation-shaping for the specific individuals in the record' - the verdict that earns Supporting at the narrow grain; far less certain for the ordinary member.
-- **Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic** (Tensional): 'Plausible for Ignatius's own direct addressees; unestablished more broadly' - NEVER reaching the 'Clearly' G04 reaches at the same narrowest scope: the exact textual ground of the Tensional classification.
+- **The letters** (at the centre): Letters carried between churches. This is what holds us together across cities, in place of any central structure - and under pressure it moved more, not less.
+- **The table** (at the centre): Giving thanks over bread and cup. It forms us more than anything else we do, and its order genuinely varies from house to house. The table is what is constant, not any one shape of it.
+- **Who leads** (supporting): Who leads, and how leadership is secured now that those who walked with the Lord are gone. One overseer with elders beside him in some houses, a council of elders and no one over them in others. We never settled it.
+- **The magistrate's reach** (supporting): Real, local, lethal exposure, under law nobody was sure of - not a systematic hunt across the empire, but a danger that could arrive in one town and not the next.
+- **A death read as meaning** (supporting): In some of our communities a death under the sword is read as the thing that completes a person's formation, and remembered yearly. Not everywhere among us.
+- **Drawing the line** (a counter-current): Refusing those who say the Lord's flesh was only appearance. The refusal is urgent, and it is not the same in every house - it belongs most sharply to the communities with one overseer.
 
 ## The World's Own Words
 
-**episkopos (ἐπίσκοπος)** - In this world, *episkopos* names the one who oversees the community's table and guards its unity — but whether every household has such a single figure, or whether presbyters share this trust together, is itself the question we are still living through.
+**episkopos (ἐπίσκοπος)** - The one who oversees the community's table and guards its unity. Whether every household has such a single figure, or whether the elders share that trust between them, is the very question we are still living through.
 
-**presbyteros (πρεσβύτερος)** - The *presbyteroi* are the elders who share the community's governance — in some households as a council that holds the full trust themselves, in others gathered around a bishop whose leadership they support but do not replace.
+**presbyteros (πρεσβύτερος)** - The elders who share the governing of a community. In some households they are a council holding the whole trust themselves. In others they gather around one overseer, supporting his leadership without replacing it.
 
-**ekklesia (ἐκκλησία)** - The *ekklesia* is the assembly, the called-out gathering — not a building or an institution, but the people who come together under whatever roof will hold them, connected to every other such gathering by letters and a shared table.
+**ekklesia (ἐκκλησία)** - The assembly. The called-out gathering. Not a building and not an institution, but the people who come together under whatever roof will hold them - joined to every other such gathering by letters and by a shared table.
 
-**eucharistia (εὐχαριστία)** - The *eucharistia* is the thanksgiving — the meal of bread and cup over which we give thanks, returning to that table again and again to be re-formed into the body we belong to.
+**eucharistia (εὐχαριστία)** - The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again and again to be formed once more into the body we belong to.
 
-**diakonos (διάκονος)** - The *diakonoi* are those set apart to serve — carrying help to the widow, the prisoner, the stranger who cannot repay.
+**diakonos (διάκονος)** - Those set apart to serve. They carry help to the widow, the prisoner, and the stranger who cannot repay.
 
-**presbyterion (πρεσβυτέριον)** - The *presbyterion* is the council of elders gathered around the bishop — tuned to him, Ignatius says, the way strings are tuned to a harp.
+**presbyterion (πρεσβυτέριον)** - The council of elders gathered around the overseer. Tuned to him, one letter says, the way strings are tuned to a harp.
 
-**Two Ways** - Before the water, we teach the Two Ways: a way of life and a way of death lie open before every person, and walking one rather than the other is a choice kept, not a nature settled once for all.
+**Two Ways** - Before the water we teach the two ways. A way of life and a way of death lie open before every person. Walking one rather than the other is a choice kept daily, not a nature settled once and for all.
 
-**prophetes (προφήτης)** - The *prophetes* is one who speaks under the Spirit's prompting — welcomed when genuine, tested when doubtful, and in some places already giving way to the more stable offices of bishop and presbyter.
+**prophetes (προφήτης)** - One who speaks as the Spirit prompts. Welcomed where genuine, tested where doubtful. In some places already giving way to the steadier offices of overseer and elder.
 
-**ministrae** - *Ministrae* is Pliny's Latin word for the servant-women he tortured — Christians in recognized service, though we do not know fully what they themselves would say about their own role.
+**ministrae** - The Latin word a magistrate used for the servant-women he tortured. Christians in recognised service. What they themselves would have called that service, we do not know.
 
-**agape (as label)** - *Agape* names the common meal — love's own name given to an ordinary act of feeding people at one table — though whether it is the same as the eucharist, a separate meal, or something else is not yet settled among us.
+**agape (as label)** - Love's own name, given to the common meal - an ordinary act of feeding people at one table. Whether it is the same as the thanksgiving, or a separate meal, or something else again, is not settled among us.
 
-**baptisma (βάπτισμα)** - *Baptisma* is the water — the washing that marks a person's entry into the community, given after teaching and fasting, in running water if it can be had.
+**baptisma (βάπτισμα)** - The water. The washing that marks a person's entry into the community. It is given after teaching and fasting, in running water where that can be had.
 
 ## What We Tell
 

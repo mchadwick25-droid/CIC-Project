@@ -111,17 +111,35 @@ def build_capsule() -> str:
     core = load_records("world_core")["syrcore001"][0]
 
     parts = ["# World Capsule Core - Syriac (generated view)"]
+    # Phase 2 (Yausep's pass, 2026-08-08): prefer capsule_inhabit and, below,
+    # each gravity's capsule_line. formation_logic is one 70-word definition
+    # quoting Doc_01 at itself (FK 36.5 / FRE -43 alone), and the six_tests
+    # verdicts are a builder's grading record - including a "FAIL, carried
+    # forward openly" that reads as a system error rather than as this
+    # world's honest statement that its authority question was never settled.
+    # Both fall back to the old fields for any world without the new ones.
     parts.append("## The World You Inhabit\n\n"
-                 + voice(re.sub(r"^Doc_01 [^:]*: ", "",
-                                core.get("formation_logic", ""))))
+                 + voice(core.get("capsule_inhabit")
+                         or re.sub(r"^Doc_01 [^:]*: ", "",
+                                   core.get("formation_logic", ""))))
     order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
     ranked = sorted((g for g in gravities.values()
                      if g.get("classification") in order),
                     key=lambda g: (order[g["classification"]], g["id"]))
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
     lines = []
     for g in ranked:
-        lines.append(f"- **{voice(g['name'])}** ({g['classification']}): "
-                     f"{voice(g['six_tests']['formation']['verdict'])}")
+        line = voice(g.get("capsule_line") or "") or voice(
+            g["six_tests"]["formation"]["verdict"])
+        # capsule_name where a record has one: this world's gravity names
+        # are compound build labels ("Symbolic/Typological Theological
+        # Method - raza/shrara") that carry no meaning the capsule_line
+        # below does not already say better, and they alone held this
+        # section above the readability floor.
+        name = voice(g.get("capsule_name") or "") or re.sub(
+            r"\s*\([^)]*\)", "", voice(g["name"])).strip()
+        lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
     vs_lines = []
     for tid in sorted(terms):

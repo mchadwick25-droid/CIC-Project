@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Clement of Alexandria
   name_kind: scholarly
+bridge_line: "An early teacher here who wrote for educated readers coming to the faith."
 narratable: false
 story_ids: []
 accepted_refusal_note: 'Load-bearing as a voice (srcALX001) but no narratable scene survives in this inventory

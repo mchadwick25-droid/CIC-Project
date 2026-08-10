@@ -28,7 +28,7 @@ The bees left honey where they had touched him, so the story is told, or so it w
 
 ## Formation Ecology Connection
 
-This story does not tell us anything documented about Ambrose's own childhood — this world's own record has no reliable window into that at all (Doc_05 §1's own honestly-thin Human Ecology finding applies here as much as anywhere). What it does show is how this world's own later memory of Ambrose worked: a figure whose adult eloquence and confrontational leverage (Doc_04 Candidate 4) was, within a generation of his death, already being read backward into an infancy that had to have announced it. This is a genuine instance of this world's own memory-construction practice (Doc_05 §7) applied to an individual life rather than an institutional program.
+This story tells us nothing documented about Ambrose's childhood - this world's record has no reliable window into that at all. What it does show is how this world's later memory of him worked: a man whose adult eloquence and willingness to face down power was, within a generation of his death, already being read backward into an infancy that had to have announced it. It is a genuine instance of how this world built memory, applied to one life rather than to an institution.
 
 ---
 

@@ -148,18 +148,17 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: alexlex015
-  note: 'The method operates under the orientation - allegory''s moves are governed by Christological
-    Reading (alexlex015 WM: orientation governs method). Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): Allegory is the primary interpretive method through which Scripture''s genuine depths
-    (Doc_04 C1) are actually reached in the school tradition''s practice, and it is what makes that tradition
-    a school of Scripture: reading Scripture''s deeper meaning is at the same time the formation of the
-    nous and the growth of the soul toward God, so learning and formation are one act rather than two.
-    A participant who grasps allegory grasps the cluster Scripture → Christological Reading → Allegory
-    as a single reality — the living voice, the orientation toward the one who speaks, and the practice
-    that reaches the depths — and grasps why teaching authority here rests on the quality of the teacher''s
-    formed perception (the teacher shows the student how to perceive, and so forms the capacity to perceive)
-    rather than on office. Allegory is also one of the main sites where the freedom to explore Scripture''s
-    depths presses against the growing post-Nicene pressure on where those depths may legitimately arrive.'
+  note: 'The method operates under the orientation - allegory''s moves are governed by Christological Reading
+    (alexlex015 WM: orientation governs method). Chunk Ecological Function (verbatim, absorbed per FLAG-002):
+    Allegory is the primary method through which Scripture''s genuine depths are actually reached in the
+    school tradition''s practice, and it is what makes that tradition a school of Scripture: reading
+    Scripture''s deeper meaning is at the same time the formation of the nous and the growth of the soul
+    toward God, so learning and formation are one act rather than two. A participant who grasps allegory
+    grasps the cluster Scripture, Christological Reading, Allegory as a single reality - the living voice,
+    the orientation toward the one who speaks, and the practice that reaches the depths - and grasps why
+    teaching authority here rests on the quality of the teacher''s formed perception rather than on office.
+    Allegory is also one of the main sites where the freedom to explore Scripture''s depths presses against
+    the growing post-Nicene pressure on where those depths may legitimately arrive.'
 - type: presupposes
   target_id: alexlex014
   note: The depths reached are Scripture's own - the method presupposes the address (chunk EF).

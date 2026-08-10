@@ -11,7 +11,7 @@ sources:
 - source_id: srcHAL012
 - source_id: srcHAL010
 id: halgrav005
-name: Independent female exegetical authority - Marcella's practiced recognition (G5-Marcella)
+name: 'A woman''s own recognised authority in reading scripture - Marcella'
 classification: Tensional
 six_tests:
   repetition:
@@ -22,8 +22,9 @@ six_tests:
     verdict: PARTIAL - narrowly dependency-linked (the Roman clergy's specific disputes), not shown to
       be depended upon by other ecological dimensions the way G1/G3 are (Doc_04 G5).
   formation:
-    verdict: PARTIAL - the evidence shows her EXERCISING recognized authority, not clear evidence of it
-      FORMING others' practice beyond the specific clergy who consulted her (Doc_04 G5).
+    verdict: 'Only partly borne out. The record shows her exercising an authority others recognised. It
+      does not clearly show that authority forming anyone else''s practice beyond the clergy who
+      came to her with questions.'
   explanatory:
     verdict: PASS, with the circularity noted - explains why Doc_01's strand-tension exists at all (the
       candidate explains a tension the candidate itself creates) (Doc_04 G5).

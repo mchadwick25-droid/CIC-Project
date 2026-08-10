@@ -13,6 +13,7 @@ sources:
 id: desertgrav009
 name: Evagrian systematized interior psychology
 classification: Supporting
+capsule_line: 'One teacher''s ordered naming of the thoughts. Available to us, but reached for deliberately - it is not how most of us spoke.'
 six_tests:
   repetition:
     verdict: Concentrated in one author (flagged at generation)

@@ -13,6 +13,7 @@ sources:
 id: alexgrav003
 name: Divine Pedagogy (C3)
 classification: Supporting
+capsule_line: 'God is always teaching. Difficulty is not a flaw to smooth away but an invitation to look longer.'
 six_tests:
   repetition:
     verdict: PASS - Streams 2, 4, 5, 1 (Doc_04 SS3.3).

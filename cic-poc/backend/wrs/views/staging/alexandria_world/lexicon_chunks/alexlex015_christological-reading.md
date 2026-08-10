@@ -38,7 +38,7 @@ Not everything here is settled, and we do not pretend it is. How much of the Old
 
 ## Ecological Function
 
-Christological Reading is the interpretive orientation that makes Scripture-as-address (Doc_04 C1) operable in practice, and it is grounded in the Logos-Centered Unity (C4): because the Logos who speaks through the text is the one integrating reality of the whole ecology, reading toward him is how the unity of Scripture is realized in interpretation rather than merely asserted. A participant who grasps this orientation grasps why the Old and New Testaments form one address rather than two collections joined by accident, why the allegorical method needs this orientation to be anything other than arbitrary (allegory oriented toward Christ perceives the one always speaking; allegory without it is only a technique), and why the Rule of Faith functions here as a Christological constraint — a reading that does not arrive at the Christ the community confesses has missed what Scripture is about.
+Christological Reading is the interpretive orientation that makes Scripture-as-address workable in practice, and it is grounded in the Logos-centred unity: because the Logos who speaks through the text is the one integrating reality of the whole ecology, reading toward him is how the unity of Scripture is realised in interpretation rather than merely asserted. A participant who grasps this orientation grasps why the Old and New Testaments form one address rather than two collections joined by accident, why allegory needs this orientation to be anything other than arbitrary (allegory oriented toward Christ perceives the one always speaking; allegory without it is only a technique), and why the Rule of Faith functions here as a Christological constraint - a reading that does not arrive at the Christ the community confesses has missed what Scripture is about.
 
 ---
 
@@ -65,3 +65,5 @@ Note: the orientation of reading Scripture toward Christ as the Logos's address,
 Cross-referenced with Logos, Scripture, Allegory, Illumination, Divine Pedagogy. **Mutual** (each lists this term back): Scripture, Allegory. **One-directional** (this term lists them; they do not list it back yet — deployment-layer reciprocity-completion items, per Doc_06 §4 flag-don't-hide): Logos, Illumination, Divine Pedagogy. **Not yet built as chunks** (Tier-2 / governed-CT entries): none.
 
 CO-P2-14 (2026-07-28): the Reciprocity Note's one-directional completion items completed as associated-with pairs; see wrs/migrate/s62_alx_s29_co14.py.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 4 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

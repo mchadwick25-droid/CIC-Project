@@ -13,6 +13,7 @@ sources:
 id: desertgrav002
 name: Spiritual combat against demonic thoughts (general form)
 classification: Primary
+capsule_line: 'The long watch against the thoughts. They come dressed as hunger, as memory, as reasonable doubt, and the fight with them is the daily labour.'
 six_tests:
   repetition:
     verdict: Strong - Athanasius, Apophthegmata, Evagrius independently attest the theme

@@ -15,8 +15,8 @@ term: Hebraica veritas
 aliases:
 - Hebrew truth
 - Hebrew textual authority
-quick_meaning: The conviction that the Hebrew text of scripture, not the Greek translation long used in
-  Latin worship, carries the truth closest to what God actually said.
+quick_meaning: 'The belief that the Hebrew of scripture holds the truth more closely than the Greek. Latin
+  worship had leaned on that Greek for a long time.'
 world_meaning: 'To hold to *Hebraica veritas* is to believe that when the word given to Moses or the prophets
   passed from Hebrew into Greek, something of its precision was lost — not through malice, but through
   the ordinary friction of moving between tongues — and that a scholar who returns to the Hebrew recovers
@@ -31,9 +31,7 @@ world_meaning: 'To hold to *Hebraica veritas* is to believe that when the word g
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: Anchors G1 (Primary gravity); the organizing commitment behind
-  the whole translation project (*Vulgata*); the direct cause of the Augustine correspondence and the
-  Oea controversy; presupposed by every commentary produced at Bethlehem.'
+  S2.3-equivalent per SS3.2 / FLAG-002]: One of the commitments this household''s whole life organizes around; the reason the translation work (*Vulgata*) was undertaken at all; the direct cause of both the Augustine correspondence and the trouble at Oea; assumed beneath every commentary produced at Bethlehem.'
 distortion_risk: '**Modern Hearing:**
 
   A modern participant is likely to hear this as a straightforwardly correct scholarly method — "of course
@@ -102,10 +100,7 @@ field_relations:
 - type: presupposed-by
   target_id: hallex02
   note: 'The translation project is this principle''s material product (hal_lex02''s own EF: ''The material
-    product of Hebraica veritas''). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors
-    G1 (Primary gravity); the organizing commitment behind the whole translation project (*Vulgata*);
-    the direct cause of the Augustine correspondence and the Oea controversy; presupposed by every commentary
-    produced at Bethlehem.'
+    product of Hebraica veritas''). Chunk Ecological Function (verbatim, absorbed per FLAG-002): One of the commitments this household''s whole life organizes around; the reason the translation work (*Vulgata*) was undertaken at all; the direct cause of both the Augustine correspondence and the trouble at Oea; assumed beneath every commentary produced at Bethlehem.'
 - type: presupposes
   target_id: hallex13
   note: The prefaces are 'where the Hebraica veritas commitment is actually argued, book by book, not

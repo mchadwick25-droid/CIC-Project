@@ -12,7 +12,7 @@ sources:
 - source_id: srcHAL009
 - source_id: srcHAL013
 id: halgrav001
-name: Hebraica veritas - Hebrew-based textual authority (G1)
+name: 'Hebraica veritas - the Hebrew text as the one that governs'
 classification: Primary
 six_tests:
   repetition:
@@ -22,9 +22,9 @@ six_tests:
     verdict: PASS, strong - the Vulgate project, the community's Hebrew-study practice, and the Augustine/Oea
       controversy all depend on this principle (Doc_04 G1).
   formation:
-    verdict: PASS, but ASYMMETRIC, flagged for Doc_05 proportionality - shapes Jerome's scholarly identity
-      directly; shapes the women's engagement only indirectly (as dedicatees/patrons, not practitioners
-      - no source attests any of the four women studying Hebrew) (Doc_04 G1).
+    verdict: 'Shapes the scholar''s own identity directly. It shapes the women''s part only at one
+      remove - they fund the work and receive its dedications, but no source says any of the
+      four studied Hebrew themselves. That unevenness is real and is kept in view.'
   explanatory:
     verdict: PASS, strong - explains the Vulgate project, the Augustine dispute, and Jerome's self-presentation
       as scholarly authority (Doc_04 G1).

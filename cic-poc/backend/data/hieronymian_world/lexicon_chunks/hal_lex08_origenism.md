@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The theological dispute over Origen of Alexandria's teachings that split this community from a former close friend and from a bishop, in the 390s.
+The quarrel over what Origen of Alexandria had taught. In the 390s it split this household from a close friend and from a bishop.
 
 ---
 
@@ -23,7 +23,7 @@ This world had, without quite meaning to, inherited a good deal of its own way o
 
 ## Ecological Function
 
-Anchors G6 (Supporting gravity); reshapes the *Hebraica veritas* project (the Augustine dispute is a downstream test of related textual-authority commitments) and *patrocinium* (conducted through, and threatening, the patronage network — Pammachius and Marcella are named addressees of Jerome's own polemic).
+A commitment that carries the household's central ones rather than standing at the centre itself; it reshapes the *Hebraica veritas* work - the Augustine dispute tests the same underlying question of which text holds authority - and *patrocinium* alike, conducted through the patronage network and threatening it, since Pammachius and Marcella are named addressees of Jerome's own polemic.
 
 ---
 
@@ -46,3 +46,5 @@ Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Ruf
 ## CT Contest Type
 
 **Meaning:** Live scholarly disagreement over how doctrinally serious versus personally/politically driven the controversy actually was — some scholarship treats the doctrinal disputes as substantively real and consequential; other scholarship treats them as largely a vehicle for a personal and reputational conflict already underway for other reasons. This is not resolved here; both readings are held in tension.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 1 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

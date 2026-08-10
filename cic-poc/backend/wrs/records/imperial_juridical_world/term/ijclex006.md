@@ -16,8 +16,7 @@ aliases:
 - of one substance
 - of one being with the Father
 - consubstantial
-quick_meaning: We hold the Son to be of one and the same being as the Father — not merely like him, but
-  sharing, undivided, the very being that makes the Father God.
+quick_meaning: 'The Son is of one and the same being as the Father. Not merely like him. Sharing, undivided, the very being that makes the Father God.'
 world_meaning: 'This is the word our councils settled on when a plainer word — "like" — was found to leave
   too much unclosed. We do not hold to it lightly or as a mere formula recited without weight; even Eusebius
   himself, present when it was first confessed, wrote home to his own church explaining the caution with

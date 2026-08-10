@@ -16,7 +16,7 @@ It is a small, practical act, described in a single line, but it tells us someth
 
 ## Formation Ecology Connection
 
-This is a small, concrete data point for G02 (Translocal Correspondence Network, Primary) — one of its three founding data points. Where Story 001 shows the network activated by crisis and Story 002 shows it activated by institutional concern, this story shows its ordinary, almost administrative operation: collecting, requesting, and forwarding letters as a routine act of care between communities.
+A small, concrete point about the letter-network, and one of the few we have. Where one story shows the network moving in a crisis and another shows it moving over a community's internal order, this one shows it in its ordinary, almost administrative working: collecting, requesting and forwarding letters as a routine act of care between communities.
 
 ## Tier Justification
 

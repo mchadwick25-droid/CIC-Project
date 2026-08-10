@@ -13,6 +13,7 @@ sources:
 id: desertgrav003
 name: Elder-mediated oral authority
 classification: Primary
+capsule_line: 'Authority runs through a tested word, spoken once by someone whose life has proved it. Not through an office held.'
 six_tests:
   repetition:
     verdict: Strong - the Apophthegmata's entire structure

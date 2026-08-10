@@ -15,8 +15,8 @@ term: Origenism (the Origenist controversy)
 aliases:
 - The Origenist controversy
 - the Rufinus dispute
-quick_meaning: The theological dispute over Origen of Alexandria's teachings that split this community
-  from a former close friend and from a bishop, in the 390s.
+quick_meaning: 'The quarrel over what Origen of Alexandria had taught. In the 390s it split this household
+  from a close friend and from a bishop.'
 world_meaning: 'This world had, without quite meaning to, inherited a good deal of its own way of reading
   scripture from a teacher whose specific conclusions — about souls existing before birth, about what
   the resurrected body actually is — it later needed to renounce, urgently and publicly, once the wider
@@ -28,10 +28,7 @@ world_meaning: 'This world had, without quite meaning to, inherited a good deal 
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: Anchors G6 (Supporting gravity); reshapes the *Hebraica veritas*
-  project (the Augustine dispute is a downstream test of related textual-authority commitments) and *patrocinium*
-  (conducted through, and threatening, the patronage network — Pammachius and Marcella are named addressees
-  of Jerome''s own polemic).'
+  S2.3-equivalent per SS3.2 / FLAG-002]: A commitment that carries the household''s central ones rather than standing at the centre itself; it reshapes the *Hebraica veritas* work - the Augustine dispute tests the same underlying question of which text holds authority - and *patrocinium* alike, conducted through the patronage network and threatening it, since Pammachius and Marcella are named addressees of Jerome''s own polemic.'
 distortion_risk: '**Modern Hearing:**
 
   Risk of reading this as a purely abstract theological disagreement, missing its personal and political
@@ -88,10 +85,7 @@ field_relations:
 - type: associated-with
   target_id: hallex09
   note: 'The two controversies anchor G6 together (hal_lex09 EF: ''Anchors G6 alongside Origenism'') -
-    association, no hierarchy. Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors G6
-    (Supporting gravity); reshapes the *Hebraica veritas* project (the Augustine dispute is a downstream
-    test of related textual-authority commitments) and *patrocinium* (conducted through, and threatening,
-    the patronage network — Pammachius and Marcella are named addressees of Jerome''s own polemic).'
+    association, no hierarchy. Chunk Ecological Function (verbatim, absorbed per FLAG-002): A commitment that carries the household''s central ones rather than standing at the centre itself; it reshapes the *Hebraica veritas* work - the Augustine dispute tests the same underlying question of which text holds authority - and *patrocinium* alike, conducted through the patronage network and threatening it, since Pammachius and Marcella are named addressees of Jerome''s own polemic.'
 - type: associated-with
   target_id: hallex01
   note: 'This chunk''s EF: the controversy ''reshapes the Hebraica veritas project (the Augustine dispute

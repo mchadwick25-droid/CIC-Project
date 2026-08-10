@@ -12,6 +12,8 @@ sources:
 id: pahcgrav004
 name: Martyrdom as Formation-Shaping Meaning-Response (G04; Strand A only)
 classification: Supporting
+capsule_name: 'A death read as meaning'
+capsule_line: 'In some of our communities a death under the sword is read as the thing that completes a person''s formation, and remembered yearly. Not everywhere among us.'
 six_tests:
   repetition:
     verdict: WEAK relative to G01-G03 - exactly two data points (Ignatius's own voice; the Martyrdom of

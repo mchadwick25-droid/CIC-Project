@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a modern presbytery or denomin
 
 ## Quick Meaning
 
-The *presbyterion* is the council of elders gathered around the bishop — tuned to him, Ignatius says, the way strings are tuned to a harp.
+The council of elders gathered around the overseer. Tuned to him, one letter says, the way strings are tuned to a harp.
 
 ---
 
@@ -28,7 +28,7 @@ But this way of speaking belongs to Ignatius and to communities shaped by his le
 
 ## Ecological Function
 
-This term specifies a particular form the Authority Consolidation question (G01) takes in communities with a single bishop. It marks the difference between a bishop who acts alone and one who acts with a council.
+This term names one particular form the question of who leads takes in communities that have a single bishop. It marks the difference between a bishop who acts alone and one who acts with a council.
 
 ---
 

@@ -2,7 +2,7 @@
 Term: Koinōnia (Communal Rule)
 World-Code: desert
 Tier: [1]
-Aliases: koinonia, communal rule, the federation
+Aliases: koinonia, communal rule
 Related Terms: Apotagē, Gerōn/Abba/Amma
 Retrieve-When: participant asks about communal/rule-based monastic life specifically
 Do-Not-Retrieve-When: this world's more solitary ascetics are the topic — koinōnia does not apply to them

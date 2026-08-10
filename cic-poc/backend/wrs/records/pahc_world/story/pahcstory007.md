@@ -80,12 +80,12 @@ sources:
   locus: '*Shepherd of Hermas* (Registry P05), composite composition c. 90–150 CE.'
 gravity_links:
 - gravity_id: pahcgrav001
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story feeds G01 (Authority Consolidation, Supporting) from its Strand B side — the named
-    Clement/Grapte instruction in *Vision* 2.4.3 is direct evidence of Rome''s own plural-role leadership
-    pattern operating without a monarchical bishop. It also supplies this world''s central penitential-formation
-    material (Doc_05, Doc_07 §§2A, 2H) — a formation logic organized around a single, urgent, time-limited
-    mercy for post-baptismal sin, distinct from anything in Strand A''s surviving material.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This shows the council pattern from inside the community that lived it: the instruction naming Clement
+    and Grapte is direct evidence of Rome''s own plural leadership working without a single bishop. It also
+    carries our central material on repentance - a formation logic built around one urgent, time-limited
+    mercy for sin after baptism, and quite distinct from anything the bishop-centred communities have left
+    us.'
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory007_hermas-visions.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 

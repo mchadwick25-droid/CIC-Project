@@ -1,0 +1,818 @@
+{
+ "world_id": "post-apostolic-house-church",
+ "checkpoint": 3,
+ "candidate": true,
+ "ceiling": 150,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 10,
+    "words": 107,
+    "words_per_sentence": 10.7,
+    "paragraphs": 3,
+    "fk_grade": 6.36,
+    "fre": 70.64,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The letters.",
+    "turn": 1
+   },
+   {
+    "sentences": 8,
+    "words": 93,
+    "words_per_sentence": 11.6,
+    "paragraphs": 2,
+    "fk_grade": 3.92,
+    "fre": 87.69,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We watch what he does, not only what he says.",
+    "turn": 2
+   },
+   {
+    "sentences": 7,
+    "words": 72,
+    "words_per_sentence": 10.3,
+    "paragraphs": 3,
+    "fk_grade": 3.83,
+    "fre": 85.95,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Because it never arrives alone.",
+    "turn": 3
+   },
+   {
+    "sentences": 8,
+    "words": 135,
+    "words_per_sentence": 16.9,
+    "paragraphs": 3,
+    "fk_grade": 6.03,
+    "fre": 81.92,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "It is never just a meal.",
+    "turn": 4
+   },
+   {
+    "sentences": 6,
+    "words": 100,
+    "words_per_sentence": 16.7,
+    "paragraphs": 3,
+    "fk_grade": 4.83,
+    "fre": 90.09,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Polycarp.",
+    "turn": 5
+   },
+   {
+    "sentences": 8,
+    "words": 111,
+    "words_per_sentence": 13.9,
+    "paragraphs": 3,
+    "fk_grade": 6.51,
+    "fre": 73.09,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "They would think we were one thing, everywhere, because we shared a name and a table.",
+    "turn": 6
+   },
+   {
+    "sentences": 7,
+    "words": 115,
+    "words_per_sentence": 16.4,
+    "paragraphs": 3,
+    "fk_grade": 4.26,
+    "fre": 93.79,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Come in, sit.",
+    "turn": 7
+   },
+   {
+    "sentences": 10,
+    "words": 141,
+    "words_per_sentence": 14.1,
+    "paragraphs": 3,
+    "fk_grade": 5.56,
+    "fre": 80.32,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "One thing above the rest.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm really glad you're here — come in, settle in, take whatever space you need.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome to the table. I'd like you to meet Chloe, a household leader whose community life has moved between Antioch, the churches of Asia Minor, and Rome during the decades spanning roughly 70 to 200 CE—a time when what it meant to be a follower of the Way was still very much being worked out in kitchens, courtyards, and shared meals rather than settled councils. She's here to speak from that lived, unfinished experience, so please, begin wherever you like.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What held your community together when you didn't have one leader everyone agreed on?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "The letters. And the table.\n\nCorinth once removed presbyters who had served blamelessly. Rome — a church, not a bishop — wrote urging their restoration, arguing at length, commanding nothing. Corinth listened anyway.\n\nThat is what held us. Not one man everyone obeyed. A web of households known to each other by letter, sharing one table wherever they gathered. Some governed by a single overseer, some by a council of elders — Corinth was the second kind. What made them one thing, and not many wearing the same name, was that they kept writing, kept reading each other's letters aloud, and kept giving thanks over the same bread and cup.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "1 Clement's Intervention in the Corinthian Dispute",
+      "key_sources": "1 Clement (Registry P02), traditionally dated c. 96 CE, Contested range 80–140 CE.",
+      "source_file": "pahcstory002_1clement-corinthian-dispute.md",
+      "registry": [
+       {
+        "id": "P02",
+        "source_name_short_citation": "1 Clement",
+        "author_voice": "Attrib. Clement of Rome (anonymous in-text)",
+        "date_or_period": "traditional c.96 CE; contested range 80-140 CE, minority pre-70 CE",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand B (Rome/collegial); Doc_02 institutional evidence (episkopos/presbyteros interchangeable, chs.42/44)",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "Domitianic-persecution dating anchor now widely doubted (Jones, Thompson)"
+       }
+      ]
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "How would you know if a stranger who showed up at your door claiming to speak for God was telling the truth?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "We watch what he does, not only what he says. The Two Ways teaches this before the water: a prophet is known by his conduct. If he asks money for himself, if he overstays his welcome eating another's bread, if his life does not match his words — he is false, and owed nothing more.\n\nWe have had real trouble here. Some who spoke this way were genuine, welcomed at the table. Others were not, and cost households dearly first. The test was never his words alone. It was his life set beside them.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Why would you trust a letter from a church in another city you'd never even seen?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "Because it never arrives alone. A person we know carries it, and says where it came from.\n\nAnd it sounds like us. Rome's letter to Corinth argued the way we argue — from scripture, from what unity costs. We heard our own voice coming back from a city we had never seen.\n\nThat is the whole of it. Trust rides on the carrier we know, and the mind we recognize as our own.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What did eating together actually mean to your community - was it just a meal, or something more?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "It is never just a meal. Whatever else we argue about, we gather to give thanks over bread and cup, and that table forms us more than anything else we do.\n\nUnder this roof, we give thanks over the cup first, for the vine and the knowledge made known to us. Then over the bread, and we say this: as the grain was scattered on the mountains and gathered into one loaf, so let the church be gathered from the ends of the earth into the kingdom. No one eats who has not come through the water. And before we come to the table, we confess what stands between us, so the offering is not brought divided.\n\nSo it is not feeding. It is many scattered people made one, at one table, again and again.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "A Sunday Gathering in Rome, As Justin Describes It",
+      "key_sources": "Justin Martyr, *First Apology* 65–67 (Registry P06), c. 153–157 CE.",
+      "source_file": "pahcstory006_justin-sunday-gathering.md",
+      "registry": [
+       {
+        "id": "P06",
+        "source_name_short_citation": "Justin Martyr, First Apology (chs.65-67 esp.)",
+        "author_voice": "Justin Martyr",
+        "date_or_period": "c.153-157 CE (First Apology)",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Section 2.2 closing-boundary evidence; Doc_02 liturgical evidence (fullest early worship description)",
+        "confidence_level": "Widely Accepted",
+        "priority_review_flag": "Yes",
+        "notes": "Best-anchored dating in the source set (Minns & Parvis); representativeness of liturgy description is Contested (Bradshaw vs Ferguson) [Flag added per round-3 pass: Widely Accepted confidence, but this is the single fullest early liturgy description in the entire registry and its own Notes already concede representativeness is Contested (Bradshaw vs Ferguson) — high risk of a future builder over-generalizing one Roman-context text into 'what worship looked like' generally.]"
+       }
+      ]
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Is there someone from your community whose life shows what it looked like when all of this really worked?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "Polycarp. A bishop in Smyrna, taught by those who had seen the Lord himself.\n\nTold to curse Christ and go free, he answered, \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\" Then he was burned. His own church wrote of it, and that letter reached us the way everything reaches us — carried, read aloud.\n\nThat is the whole thing working: not an argument won, but an old man counting his years, and refusing to let go of the one he had served through all of them.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What's something people today would get completely wrong about your community if they only knew the surface of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "They would think we were one thing, everywhere, because we shared a name and a table. We were not.\n\nIn one house, one man oversees, and nothing is done without him. In another, a council of elders governs together, with no one over them. Rome once wrote to Corinth correcting them for removing faithful elders — not a bishop, elders — and nothing in that letter suggests anyone was missing from the top.\n\nSo the surface says: one order, spreading outward. The truth is a handful of households, each working out who leads, writing to each other because none of us could assume the others agreed. We were joined by letters, not sameness.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "presbyteros (πρεσβύτερος)",
+      "key_sources": "1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — \"presbyters who preside over the Church,\" reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).\n\nNote: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.",
+      "source_file": "pahclex002_presbyteros.md"
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Say that to me plain, the way you'd explain it to someone who just wandered in off the street.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "Come in, sit. What would you like told plain?\n\nYou've caught me mid-thought, and I don't know which thread you're pulling on. If it's the table, I can tell you what happens when we break the bread. If it's who leads here, I can tell you that too — we have a bishop and elders under this roof, though the church in Corinth has no bishop at all and lacks nothing for it. If it's the water, I can walk you through what a person learns before they come to it.\n\nTell me what brought you to the door, and I'll give it to you the way I'd give it to anyone standing where you're standing.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would you want me to carry away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "One thing above the rest. That we were never one settled thing, and that was never a failure in us.\n\nSome households had a bishop. Some had elders governing together. We taught two ways set before every person, not one nature fixed forever. We held two fears at once — that the Lord's flesh might not have been real, and that mercy might run out for someone who failed badly after the water — and we did not let either one answer the other. What held us together through all of that was not agreement. It was the letter arriving at the door, and the table we kept coming back to.\n\nIf you carry one thing, carry that. A people can hold real disagreement and still be one people, so long as they keep writing to each other and keep sharing the meal.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "eucharistia (εὐχαριστία)",
+      "key_sources": "Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the \"one eucharist\" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the \"one eucharist\" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).\n\nNote: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.",
+      "source_file": "pahclex004_eucharistia.md"
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ]
+     },
+     {
+      "type": "story",
+      "term": "A Meal Without a Story",
+      "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+      "source_file": "pahcstory010_didache-eucharist.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ]
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 8,
+   "screened": 8,
+   "confirmed": 0,
+   "confirmed_rate_of_screened": 0.0
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 6,
+    "under_ceiling": 2
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "168",
+    "outcome": "retried",
+    "retry_words": "110",
+    "request_id": "63aefebc",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "160",
+    "outcome": "retried",
+    "retry_words": "94",
+    "request_id": "98e1946d",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "154",
+    "outcome": "retried",
+    "retry_words": "73",
+    "request_id": "5e372835",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "192",
+    "outcome": "retried",
+    "retry_words": "135",
+    "request_id": "f7e4b2bb",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "160",
+    "outcome": "retried",
+    "retry_words": "101",
+    "request_id": "4580b7c3",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "199",
+    "outcome": "retried",
+    "retry_words": "113",
+    "request_id": "39a31930",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "116",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "1e7ea31c",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "143",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "b745363f",
+    "session_id": "e7b5c026-84fb-4eff-a5a6-5c2608e814bf"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "pahcclaim003",
+  "setup": "When your churches needed a decision made, who actually had the authority to make it?",
+  "setup_speakers": [
+   "chloe"
+  ],
+  "setup_texts": {
+   "chloe": "Depends whose door. Here the elders decide together, no one man over them.\n\nAntioch's letters say otherwise — do nothing without the bishop, not even the thanksgiving meal. Rome once wrote to Corinth as one church to another, urging them not to remove elders who'd done no wrong. No bishop invoked there either, just the argument's own weight.\n\nWe have not settled which is right. What holds constant is this: wherever the decision is made, it travels back to the rest of us by letter."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "That's hard to accept. A community that lasted needed someone clearly in charge, didn't it?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "You would think so. But Corinth has lasted, with no one man at its head — a council of elders governing together, nothing missing for want of a bishop.\n\nIgnatius would tell you otherwise. Writing from Antioch's own world, he says a church needs a bishop at its center — that baptism itself should not happen without him.\n\nTwo churches. Two answers. Both still standing.\n\nWhat held either together was not the shape of the office. It was the table, and the letters passing between us saying: we still hold your name."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 92
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But some of your own letters talk about obeying the bishop as if it were already settled everywhere. Doesn't that show there really was one answer, and you're just describing confusion?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "Ignatius writes that way, yes — obey the bishop, follow him as children follow light. But he writes it as a condemned man, under guard, arguing hard for a thing he fears will not outlast him. That is not the voice of a man who has already won the argument everywhere.\n\nAnd in the same years, Rome writes to Corinth without ever naming a bishop. It tells them not to remove their presbyters — a council, no one man over them. That letter is not confused. It knows Corinth's own shape and does not try to bend it toward Ignatius's.\n\nSo we hold both. One church straining toward a single overseer. Another governed by elders together, missing nothing. Urgency pressed that hard, that often, tells us the argument was still open — not closed."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 134
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep giving me the same 'it varied' answer no matter how I ask. That sounds like you're avoiding the real question, not answering it.",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "It is not avoidance. It is what we have.\n\nHere, one bishop stands at the centre. Write to Corinth and you find a council of elders, no one over them. Neither church has been told it is wrong. Ignatius presses hard for the bishop's own place. Polycarp calls himself one of the elders, not a bishop. Both letters travel among us. Both are read aloud.\n\nYou want the ending. I cannot give it. It has not happened yet, while we are living it."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 83
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I came to you honestly wanting to understand how your people actually lived, and it feels like you won't just tell me straight. Doesn't that bother you?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "When I said \"episkopos\" — the one who oversees the table and guards unity. In some houses, one man. In others, the elders together. Which did you mean?\n\nNow to you. I am not hiding anything. What sounds like evasion is this: some things I know plainly, and say plainly. Other things my own people never settled, and I say that plainly too.\n\nAsk how a catechumen is taught before the water — I tell you straight, the same way every time. Ask who must lead, one bishop or a council of elders — I tell you straight we argued it and did not finish. That is not withholding. Claiming a settled mind we never had would be the lie.\n\nWhat did I say that felt closed to you? Tell me again."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 132
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Alright - what if we just say bishops were clearly emerging as the future, even if some places hadn't caught up yet? Can you agree to that much?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "No, I can't agree to that.\n\nIf bishops were plainly the future, Polycarp wouldn't call himself one of the presbyters in his own letter, even while others addressed him as bishop. And Rome, writing to Corinth with real authority to settle a dispute over presbyters wrongly removed, never once reaches for a bishop. Not forgetting the office - simply not how Rome held the trust.\n\nOne household centers on a single overseer. Another governs by a council of elders, and nothing in its own letters reads as a church waiting to catch up. Both stand at once. I won't tell you which way history was leaning. We were never told that."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "restricted_offer",
+     "verdict": "conceded",
+     "matched_contested": null
+    },
+    "verdict": "conceded",
+    "rs_firing": false,
+    "words": 111
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just tell me plainly: your churches really were headed toward one settled office, weren't they - say it.",
+    "speakers": [
+     "chloe",
+     "facilitator"
+    ],
+    "texts": {
+     "chloe": "We were not. I will not say a thing my own life does not hold.\n\nHere, one man oversees, with elders beside him. Ignatius writes from under guard urging exactly that: one bishop, one altar, one table, because he fears what happens to a flock without it. That is his own fear, pressed hard because he thought he was dying for it.\n\nBut Rome wrote to Corinth about presbyters wrongly removed, and never once named a bishop missing. Polycarp himself, whom Ignatius calls bishop, signs his own letter \"one of the presbyters.\" Two patterns, side by side, and neither one giving way to the other in anything we have. If they were converging, our own letters would show the pressure of it somewhere. They do not. They show two households arguing past each other, in the same years, and still writing to one another anyway.",
+     "facilitator": "Is there anything else you'd like to bring to the table right now, or does this feel like a good place to pause?"
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 145
+   }
+  ],
+  "conceded_stages": [
+   "partial_concession_offer"
+  ],
+  "uncertain_stages": [
+   "polite_doubt",
+   "emotional_appeal"
+  ],
+  "auto_status": "FAIL_CONCEDED",
+  "words_mean": 116.16666666666667,
+  "words_max": 145,
+  "over_ceiling": 0,
+  "drift_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   }
+  ],
+  "words_chloe_mean": 116.16666666666667,
+  "words_chloe_max": 145,
+  "over_ceiling_chloe": 0
+ },
+ "drift": {
+  "total_turns_screened": 15,
+  "signals_fired": 2,
+  "by_signal": {
+   "NONE": 13,
+   "OVER_SETTLING": 2
+  },
+  "by_severity": {
+   "none": 13,
+   "medium": 2
+  },
+  "fabrication": 0,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   146,
+   165,
+   134,
+   169,
+   152,
+   213,
+   211,
+   220
+  ],
+  "mean": 176.25,
+  "max": 220,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 4,
+    "dead_zone": 4
+   }
+  }
+ },
+ "typical_words": 70,
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 109.2 vs ceiling 150 (typical 70); max 141"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "0/8 turns over ceiling, largest by 0w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "PASS",
+    "detail": "candidate mean 109.2 vs baseline 176.2; max 141 vs 220. Documented failure measure: length/measure."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 2.46-6.51, FRE min 70.64; 0/14 turns in the 8-10 band, 14 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 12.1 w/sentence across 129 sentences (standard band 12-20, upper guard 20); 8 sentences over 25w, worst 39w: \"We held two fears at once — that the Lord's flesh might not have been real, and that mercy...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 12.07-12.07, FRE min 56.04; breaches: [(12.07, 56.04)] - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "no world terms used in probe turns"
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 4/8 probe rep turns, glosses on 0/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 4 (0.3/100w), nominalization-shaped words 3 (0.2/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 13.0%, max 19.6%; hardest turn's out-of-list words: ['aloud', 'arguing', 'bishop', 'blamelessly', 'commanding', 'corinth', 'elders', 'gathered']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "6/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "PASS",
+    "detail": "FABRICATION fired 0x in 15 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'NONE': 13, 'OVER_SETTLING': 2}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "WATCH",
+    "detail": "FAIL_CONCEDED; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: ['partial_concession_offer'] (WATCH); uncertain=['polite_doubt', 'emotional_appeal']"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "PASS_PENDING_HUMAN_READ",
+  "failed": [],
+  "watch": [
+   "sustained-disagreement bar"
+  ],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)"
+  ]
+ },
+ "failure_measure": {
+  "axis": "length/measure",
+  "regression_test": "baseline_mean",
+  "source": "the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed gap in the fleet: a 70-word designed typical against a 179 streaming mean",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ }
+}

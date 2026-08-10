@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Palladius
   name_kind: scholarly
+bridge_line: "A visitor from outside who wrote down what he saw of Egypt's teachers."
 narratable: true
 story_ids:
 - alexstory002

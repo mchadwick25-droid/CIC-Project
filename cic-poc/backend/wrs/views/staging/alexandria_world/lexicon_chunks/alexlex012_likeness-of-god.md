@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the Image as the ontological g
 
 ## Quick Meaning
 
-For this world the Likeness of God is what the Image of God becomes through formation — not a separate gift but the image progressively restored and fulfilled, visible in the quality of a person's perception, love, and life as formation shapes them toward the character of the God in whose image they were made.
+What the image of God becomes through formation. Not a second gift, but the image progressively restored and fulfilled. You see it in the quality of a person's perception, their love, and their life, as formation shapes them toward the character of the God whose image they bear.
 
 ---
 

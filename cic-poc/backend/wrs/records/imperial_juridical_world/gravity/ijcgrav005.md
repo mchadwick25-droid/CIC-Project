@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Doctrinal/Christological Precision-Seeking (G05)
 classification: Supporting
+capsule_line: 'Getting the words about Christ exactly right. It governs which terms a man could safely use - though it bites mainly because enforcement made precision costly, not on its own.'
 six_tests:
   repetition:
     verdict: Passes. Recurs at every council in this world's own window. (Doc_04 Candidate 5)

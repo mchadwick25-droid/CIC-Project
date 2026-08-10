@@ -17,9 +17,9 @@ aliases:
 - the human soul
 - the inner person
 - the self before God
-quick_meaning: 'For this world the soul is not a ghost inhabiting a body — it is the whole human person
-  understood as a being made for God: the image-bearer, animated through the body, oriented toward God
-  by nature, and being restored toward the likeness of the one in whose image it was made.'
+quick_meaning: 'Not a ghost living inside a body. The whole human person, understood as a being made for God: the
+  image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness
+  of the one whose image it bears.'
 world_meaning: 'There is a misunderstanding to clear away before the soul can be understood. It is easy
   to picture the soul as a kind of inner resident — a spirit lodged in flesh, waiting to be freed from
   its material prison and returned to where it truly belongs. That is not what *psyche* means for us.

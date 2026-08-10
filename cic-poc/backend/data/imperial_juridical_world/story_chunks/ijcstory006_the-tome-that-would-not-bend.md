@@ -30,7 +30,7 @@ The settlement that was meant to close this world's own long argument over where
 
 ## Formation Ecology Connection
 
-This is this world's own closing evidentiary instance for Candidate 1 (Doc_04, Doc_08 Force 3B-1) — the primacy-claiming gravity's own final, most public collision, and the moment Doc_01's own Strand Determination finding (Strands A and B, never reconciled throughout this world's own window) becomes visible as a single dated event rather than a standing structural fact inferred from the record. It is this world's own natural closing story.
+This is the closing instance of the primacy claim in this world - its final and most public collision, and the moment when the unreconciled split running through this world's whole span becomes visible as one dated event rather than a structural fact inferred from the record. It is this world's natural closing story.
 
 ---
 

@@ -14,8 +14,7 @@ cache_stability: static
 term: Virginitas
 aliases:
 - Consecrated virginity
-quick_meaning: Consecrated, lifelong sexual continence, held in this world as the highest form of Christian
-  formation available to a woman.
+quick_meaning: 'A lifelong vow not to marry. This world held it as the highest path open to a woman.'
 world_meaning: 'Virginity here was not merely the absence of marriage; it was understood as a state nearer
   to what the redeemed life will finally be — a foretaste, kept now, of a condition not yet arrived for
   everyone else. To choose it was to choose against the ordinary shape a senatorial daughter''s life was

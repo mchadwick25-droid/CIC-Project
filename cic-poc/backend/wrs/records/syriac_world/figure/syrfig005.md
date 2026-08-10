@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Addai (Thaddeus of Edessa, foundation legend)
   name_kind: scholarly
+bridge_line: "The teacher our founding account says was sent to Edessa. That account is a later legend."
 narratable: true
 story_ids:
 - syrstory004

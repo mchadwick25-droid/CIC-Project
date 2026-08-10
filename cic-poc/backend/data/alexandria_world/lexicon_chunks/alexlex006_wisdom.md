@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means wisdom only as practical prudence or goo
 
 ## Quick Meaning
 
-For this world wisdom is what formation produces in a person over a lifetime — not a body of knowledge held, but a condition of the soul visible in how one perceives, loves, speaks, and lives: genuine knowledge of God grown all the way into a life.
+What formation produces in a person over a lifetime. Not a body of knowledge held, but a condition of the soul. You see it in how someone perceives, loves, speaks and lives. It is real knowledge of God grown all the way into a life.
 
 ---
 
@@ -34,7 +34,7 @@ This is why wisdom is how we recognize that formation has occurred. The question
 
 ## Ecological Function
 
-Wisdom is the stage at which the transformation of the soul (Doc_04 C2) becomes visible in the quality of a whole life: it is what knowledge accumulates into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps how this world assesses formation — not by doctrinal credentials but by whether a person is becoming wiser — and why teaching authority in the school tradition rests on demonstrated wisdom (the teacher in whom formation is visible) rather than on office, which is one of the live tensions between teacher and bishop in this world. Wisdom is also where this world holds together what would otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing refusal to let learning and holiness come apart.
+Wisdom is the stage at which the transformation of the soul becomes visible in the quality of a whole life: it is what knowledge accumulates into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps how this world assesses formation - not by doctrinal credentials but by whether a person is becoming wiser - and why teaching authority in the school tradition rests on demonstrated wisdom, the teacher in whom formation is visible, rather than on office. That is one of the live tensions between teacher and bishop here. Wisdom is also where this world holds together what would otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing refusal to let learning and holiness come apart.
 
 ---
 

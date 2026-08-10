@@ -16,9 +16,7 @@ aliases:
 - Homoian
 - like the Father
 - the Dated Creed formula
-quick_meaning: '*Homoios* names the confession that the Son is "like" the Father, without further claim
-  about shared being — a formula our own imperial church itself held, by imperial command, for a real
-  stretch of years within living memory, not merely a rival teaching we always stood safely outside of.'
+quick_meaning: 'The confession that the Son is like the Father, without saying they share one being. Our own imperial church held this formula for real years, by the emperor''s command, within living memory. It is not a rival error we always stood safely outside of.'
 world_meaning: 'We do not tell this part of our own history the easy way. There was a time — within the
   lifetime of bishops some of us knew, under an emperor whose word still bound the whole church by law
   — when to hold that the Son is *homoios*, like the Father, and to refuse the older word that binds him

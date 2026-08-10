@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a modern denominational bishop
 
 ## Quick Meaning
 
-In this world, *episkopos* names the one who oversees the community's table and guards its unity — but whether every household has such a single figure, or whether presbyters share this trust together, is itself the question we are still living through.
+The one who oversees the community's table and guards its unity. Whether every household has such a single figure, or whether the elders share that trust between them, is the very question we are still living through.
 
 ---
 
@@ -28,7 +28,7 @@ What presses on both patterns alike, without settling which is right, is a felt 
 
 ## Ecological Function
 
-This term anchors the Authority Consolidation question (G01) — the question of who leads and how leadership is secured now that those who walked with the Lord are gone from among us. A participant who understands episkopos also understands why this world's communities look different from one another on this very point, and why that difference has not broken communion between them.
+This term anchors the question of who leads, and how leadership is secured now that those who walked with the Lord are gone from among us. A participant who understands episkopos also understands why our communities look different from one another on exactly this point, and why that difference has not broken communion between them.
 
 ---
 

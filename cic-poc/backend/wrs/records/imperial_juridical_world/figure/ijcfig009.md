@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Athanasius of Alexandria
   name_kind: scholarly
+bridge_line: "An Alexandrian bishop. We have Julius's letter only because he copied it out."
 narratable: false
 story_ids: []
 attribution_note: 'PRESERVER ONLY - the transmission channel for Julius''s letter (quoted in Apologia

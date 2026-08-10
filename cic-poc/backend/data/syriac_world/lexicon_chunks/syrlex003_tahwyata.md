@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Ephrem's writings (this term i
 
 ## Quick Meaning
 
-A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for his twenty-three doctrinal treatises — conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — several built on the twenty-two-letter Syriac acrostic so the alphabet itself scaffolds the argument in memory; he also calls the same works "Letters" on occasion, so this was not his only way of naming them.
+Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. Several are built on the twenty-two letters of the Syriac alphabet, so the alphabet itself holds the argument in order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.
 
 ---
 
@@ -47,3 +47,5 @@ Open flag carried from Doc_03: a "Valavanolickal 2005" translation date could no
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with qyama (Demonstration 6 is a taḥwîṯâ) and Iḥidaya (attested within the taḥwyāṯā, e.g. Dem. 6:8, Dem. 7:20). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

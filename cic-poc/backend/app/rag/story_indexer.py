@@ -95,7 +95,15 @@ class StoryIndexer:
     # Peregrinus himself") that the Representative does need: any
     # meta-scholarship language inside that section is fixed at the
     # chunk-authoring level instead, case by case.
-    _VOICE_UNSAFE_SECTIONS = ("## Tier Justification", "## Source Identification")
+    # Voice Rebuild Phase 0.2 (2026-08-08): "## Final Assembly Instruction"
+    # added - the Research-stage leak audit found it reaching the model
+    # verbatim in all six IJC story chunks (e.g. "No brackets or builder
+    # notes remain. Tier/Confidence alignment confirmed...") because it
+    # wasn't in this list. Always the chunk's last section in every
+    # instance found, so this closes cleanly with no change to the
+    # strip logic below.
+    _VOICE_UNSAFE_SECTIONS = ("## Tier Justification", "## Source Identification",
+                              "## Final Assembly Instruction")
 
     def _strip_voice_unsafe_sections(self, text: str) -> str:
         """Remove construction-record-only sections from Representative-facing content."""

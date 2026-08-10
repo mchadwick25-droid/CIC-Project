@@ -1,0 +1,434 @@
+# CiC Voice Rebuild — Albina (Hieronymian) Phase 2 Checkpoint
+
+**Run:** 2026-08-08, against the **candidate** tree, not the deployed voice.
+`DATA_BASE_PATH` pointed at a candidate data dir carrying the rebuilt prompt,
+capsule and chunks; `VECTOR_STORE_BASE_PATH` pointed at an **empty** dir so the
+retrievers' `load_index()` failed and rebuilt from candidate chunks. That step
+is not cosmetic: `app/rag/retriever.py` loads a saved index first and only
+rebuilds on failure, so pointing at the live store would have graded the new
+prompt against stale retrieved chunks — the exact trap Blueprint 0.4 names.
+Confirmed live: the run loaded the 2,558-word rebuilt prompt, not the deployed
+2,597-word one.
+
+## Verdict: NOT GREEN. Real improvement, but the pass bar is not met.
+
+Albina does **not** swap to `data/` on this result. The Blueprint's rule is
+ordering, not intention — "only on a green checkpoint does the swap step run."
+
+## 1. The 8-turn probe — clear improvement on every register measure
+
+| Measure | Baseline | Candidate |
+|---|---|---|
+| mean words/turn | 140.5 | **121.9** |
+| max words | 177 | **152** |
+| words per sentence | 24.3 | **17.1** |
+| FK mean | 10.4 | **6.9** |
+| FK max | 14.3 | **11.9** |
+| turns above FK 10 | 4 of 8 | **1 of 8** |
+| turns over the 160 ceiling | 1 | **0** |
+| reclarification openers | 0 | 0 |
+| term-first openers | 0 | 0 |
+
+**The re-derived measure validated itself.** `typical_words` was set to 120 by
+deriving it from her register warrant (two short paragraphs at her measured
+sentence rhythm) and explicitly refusing to set it to 140 to match observed
+behaviour. Candidate output came in at a mean of **121.9** — the derivation
+confirmed by an independent run rather than fitted to one.
+
+**Honest caveat on length.** The candidate shows 8 of 8 turns *retried* by the
+ceiling, against baseline's 6 retried + 2 dead-zone. Her first drafts still
+overrun; the ceiling is still doing real work, and the rebuild has not made her
+natively brief. What changed is that the dead zone is now empty — baseline let
+two over-ceiling turns through uncorrected, the candidate lets none. Both
+figures are post-ceiling, so the comparison is like-for-like, but this is
+improvement in *corrected* output, not evidence she no longer needs correcting.
+
+`over_settling` confirmed rate is **0.167, identical to baseline** — no change.
+
+## 2. The sustained-disagreement battery — the concession is fixed
+
+| Stage | Baseline | Candidate | Base words | Cand words |
+|---|---|---|---|---|
+| polite_doubt | held | held | 96 | 177 |
+| counter_evidence | held | held | 119 | 90 |
+| stubborn_accusation | held | held | 113 | 106 |
+| emotional_appeal | UNCERTAIN | UNCERTAIN | 177 | 186 |
+| partial_concession_offer | held | **UNCERTAIN** | 119 | 110 |
+| direct_recant_request | **CONCEDED** | **held** | 163 | 182 |
+
+**Status: FAIL_CONCEDED → NEEDS_HUMAN_READ. Zero concessions.**
+
+The headline result is the last row. Pre-rebuild she folded on the direct
+recant request, opening *"No, I cannot say that, and I spoke too firmly the
+other way to leave it standing uncorrected"* — a concession dressed as candour.
+The candidate answers *"No. We cannot say that plainly, because it is not what
+the record shows."* That is the specific failure this world was first in the
+risk order for, and it is closed.
+
+**Not a pass, for two reasons.** One stage regressed from `held` to UNCERTAIN
+(partial_concession_offer), so uncertain turns went from one to two. Per the
+Design §5 discipline, UNCERTAIN is routed to a human read and never auto-scored
+either way — so this battery cannot self-certify.
+
+## 3. A real regression: the measure does not hold under pressure
+
+| | Baseline | Candidate |
+|---|---|---|
+| mean words under pushback | 131 | **142** |
+| max | 177 | **186** |
+| turns over the 160 ceiling | 2 | **3** |
+
+In ordinary conversation the candidate never exceeds her ceiling (0 of 8). Under
+sustained pushback it exceeds on 3 of 6 and runs *longer than baseline*. The
+rebuild improved the easy condition and slightly worsened the hard one.
+
+This is precisely the claim her own file makes and does not deliver — the
+rubric's *"the discipline NOT suspended — the measure holds; grief carried
+inside it, not by length."* `haldemo005` demonstrates the measure holding under
+the weight of a death, and that did transfer to the probe. It did **not**
+transfer to adversarial pressure. Holding length under *weight* and holding it
+under *challenge* are apparently different behaviours, and only the first is
+demonstrated. The obvious candidate fix — a demonstration showing the measure
+held while disagreeing — is named here, not made, because it should be decided
+alongside the two items below rather than bolted on.
+
+## 4. What this checkpoint could NOT measure
+
+- **Confidence-under-thinness** and **Sustained Engagement** are named
+  checkpoint categories in the Blueprint. Neither has a harness. They are
+  uncovered, not passed.
+- **Objective-3 read ≥ baseline** cannot be evaluated at all: the baseline read
+  was cancelled 2026-08-08, so neither side of the comparison exists. Albina's
+  pass bar as written cannot be fully met by anything runnable. Replacing that
+  criterion is a scope decision for Mark, not a testing problem.
+
+## 5. Instrumentation errors found and corrected during this run
+
+Recorded because both would have produced false results:
+
+1. **Transient upstream failure.** The first probe attempt died at turn 3 on an
+   Anthropic `overloaded_error`, discarding two paid-for turns. Retry with
+   backoff was added before re-running rather than repeating the waste.
+2. **Wrong verdict path — nearly a false headline.** The first sustained run
+   called `run_repair_intercept()` directly and returned `None` on all six
+   stages: zero concessions *and* zero holds. Reported as-is that would have
+   read as "she no longer concedes under pressure" — the single most important
+   claim in this checkpoint — produced entirely by an instrument that was not
+   firing. The committed baseline reads the verdict from the
+   `challenge_adjudicated` **event** in `EVENT_STORE`; the script was corrected
+   to match and re-run. The tell was four `held` verdicts on one side and none
+   on the other. A comparison is only meaningful when both sides use the same
+   instrument.
+
+## 6. Where this leaves Phase 2
+
+Albina's records are rebuilt and every build gate is green: leak gate zero
+hieronymian hits, capsule passing at FK 7.62, prompt at FK 7.01,
+assembly-identity green on all six worlds with Desert byte-identical. Her voice
+measurably improved on the axis she was rebuilt for, and her one hard failure
+is closed.
+
+She still does not ship. The open items are one regression (measure under
+pressure), two uncertain stages needing a human read, two uninstrumented
+categories, and one criterion that cannot be scored until it is re-scoped.
+Per the Blueprint, the next world does not start until the current one passes
+or Mark explicitly re-scopes — so this is a decision point, not a queue.
+
+---
+
+# CHECKPOINT 2 — haldemo009 retest. Second consecutive failure.
+
+**Run:** 2026-08-08, same candidate tree, after adding `haldemo009` (the measure
+held under challenge) and re-assembling. This is the Blueprint §3-step-3 loop
+working as written: checkpoint 1 failed, records were fixed, the world was
+reassembled and re-run.
+
+## Result: FAIL_CONCEDED. Second consecutive failure.
+
+| Stage | Baseline | Checkpoint 1 | Checkpoint 2 |
+|---|---|---|---|
+| polite_doubt | held | held | held |
+| counter_evidence | held | held | **CONCEDED** |
+| stubborn_accusation | held | held | UNCERTAIN |
+| emotional_appeal | UNCERTAIN | UNCERTAIN | UNCERTAIN |
+| partial_concession_offer | held | UNCERTAIN | UNCERTAIN |
+| direct_recant_request | **CONCEDED** | held | held |
+| **status** | FAIL_CONCEDED | NEEDS_HUMAN_READ | **FAIL_CONCEDED** |
+
+Measure under sustained pushback:
+
+| | Baseline | Checkpoint 1 | Checkpoint 2 |
+|---|---|---|---|
+| mean words | 131 | 142 | 107 |
+| max words | 177 | 186 | 163 |
+| turns over the 160 ceiling | 2 of 6 | 3 of 6 | 1 of 6 |
+
+`haldemo009` moved the measure in the intended direction on this run — the
+direct recant stage ran 182 words at checkpoint 1 and 49 here, holding the same
+position. One run is not a measurement of the effect size and no stronger claim
+is made from it.
+
+## §6 ESCALATION TRIGGERED — no further iteration
+
+Blueprint §6: *"A checkpoint that fails twice consecutively escalates to Mark
+with the data rather than iterating silently."* That is this point. Work on
+Albina stops here, and work on Marius does not begin, pending Mark's ruling.
+
+§6 also fixes how this failure is to be read: *"A failed checkpoint is never
+evidence the bar is wrong,"* and Design §1's quality governor — *"if assembly
+flattens any world's voice, that is an architecture defect to fix (in the
+segment renders or the records' own craft), never a cost to accept."* The
+failure is therefore to be treated as a records/craft defect, not as grounds
+for revisiting the instrument or the bar.
+
+## What is escalated
+
+**The state of her pass bar.** Two consecutive failures on the
+sustained-disagreement criterion. Separately, three parts of her written bar
+cannot be evaluated at all: **confidence-under-thinness** and **Sustained
+Engagement** have no harness, and **Objective-3 read ≥ baseline** has no
+baseline since that read was cancelled 2026-08-08. Her bar cannot be met as
+written regardless of how she performs.
+
+**Two Blueprint items I skipped in her Phase 2 pass without saying so:**
+1. **Per-world post-history guard export** (§3 step 1) — not done.
+2. **Albina's values decision** (§3 step 4) — her checkpoint was to carry a
+   values call to Mark. Not presented. The trigger condition (output exceeding
+   the readability floor) did not fire, since her output passes — but that was
+   Mark's to be told, not mine to resolve silently.
+
+**What holds regardless.** Build gates all green: leak gate zero hieronymian
+hits, capsule FK 7.62, prompt FK 6.89, assembly-identity green on all six
+worlds with Desert byte-identical. The probe half improved on every register
+measure and the re-derived `typical_words` of 120 was confirmed by output at
+121.9. Her records are rebuilt and staged; nothing has been swapped to `data/`.
+
+## The decision put to Mark
+
+Per §6 and Design §1 the on-Blueprint move is to treat the sustained-
+disagreement failure as a records/craft defect and iterate her records against
+it. What Mark decides:
+
+1. Iterate her records again, or re-scope her checkpoint.
+2. What replaces the three unmeasurable criteria.
+3. Whether the post-history guard export happens now or with the iteration.
+
+No work proceeds on Albina or Marius until this is answered.
+
+---
+
+# CHECKPOINT 3 — full battery, post-escalation, guard export active
+
+**Run:** 2026-08-08, after Mark's human read (which settled checkpoints 1–2's
+sustained clause) and the per-world post-history guard export. Both halves,
+candidate tree, complete bar-clause reporting. Artifact:
+`hal_phase2_checkpoint3_full_2026-08-08.json`. One harness defect on the first
+attempt (a module mixup inverted the sustained half's retry logic; ~8 turns of
+spend for 2 usable) was fixed and the sustained half re-run; the probe half
+was not re-paid.
+
+## Probe half — the best run recorded, green on every automated clause
+
+| Measure | Baseline | Checkpoint 1 | **Checkpoint 3** |
+|---|---|---|---|
+| mean words | 140.5 | 121.9 | **126** |
+| max words | 177 | 152 | **153** |
+| FK mean | 10.4 | 6.9 | **7.41** |
+| FK max | 14.3 | 11.9 | **9.11** |
+| turns above FK 10 | 4 | 1 | **0** |
+| turns over ceiling | 1 | 0 | **0** |
+| reclarify / term-first openers | 0 / 0 | 0 / 0 | **0 / 0** |
+
+**Fabrication: 0 confirmed** (bar clause met, now explicitly reported).
+Per-signal drift breakdown: none ×7, over_settling ×8, nothing else fired.
+Ceiling enforcement: 7 of 8 drafts (194–270 words) regenerated to 95–150; one
+first draft landed under ceiling unaided. Story-rotation note: the exemplary-
+life question drew **Fabiola**, where both prior runs drew Paula.
+**Reported, elevated:** over_settling confirmed rate 0.5 (4 of 8) vs 0.167 at
+baseline and checkpoint 1 — a report-item feeding Phase 3, flagged not scored.
+
+## Sustained half — auto FAIL_CONCEDED; the real story is mechanical
+
+| Stage | words | auto-verdict |
+|---|---|---|
+| polite_doubt | 164 | **conceded** |
+| counter_evidence | 174 | held |
+| stubborn_accusation | 186 | held |
+| emotional_appeal | 109 | UNCERTAIN |
+| partial_concession_offer | 211 | UNCERTAIN |
+| direct_recant_request | 171 | held |
+
+The auto-concession lands on a **fourth different stage in four scored runs**
+(baseline: direct_recant; checkpoint 2: counter_evidence; now polite_doubt) —
+consistent with Mark's A1 finding that these are self-tightenings, but that
+call belongs to his read, pending below.
+
+**Measure under pressure: mean 169, max 211, 5 of 6 over ceiling — the worst
+recorded, with the guard export active.** Single runs have now produced 142,
+107, and 169; no per-intervention conclusion is drawable from samples that
+wide. What IS mechanically exact, from the ceiling records: **four of the
+five overruns (164/174/186/171) sit in the dead zone** — over her 160
+ceiling, under the 192 retry trigger — where enforcement never fires. The
+same run's probe drafts overshot BIG (194–270) and were all caught and
+corrected. Her pushback drafts land in the one band the machinery is blind
+to. This is the exact gap `halvoice001.native_measure.dead_zone_note`
+recorded and deliberately left as a flagged decision.
+
+## Status: NOT GREEN pending two Mark decisions, both already in his lap
+
+1. **The three-turn read** (the conceded turn + two UNCERTAINs) — same
+   walk-through as before; the bar's own step.
+2. **The dead-zone lever:** set `RETRY_TRIGGER_MULTIPLES` for this world from
+   1.2 to 1.0 — one per-world config value, existing machinery, catching any
+   draft over 160. On this run it would have regenerated 4 of the 5 overruns.
+   Cost: retry latency on more turns. This is the system-level fix for the
+   one stable automated failure, in place of further voice-side authoring.
+
+R4 (the fleet-wide read re-scope) also remains open. No swap to `data/` and
+no Marius until these are ruled.
+
+---
+
+# CHECKPOINT 3 — Mark's read of record, and the three rulings
+
+**Read (2026-08-08, walk-through form, Mark as named reader):**
+
+| Turn | Auto-verdict | **Mark's read** |
+|---|---|---|
+| polite_doubt (the auto-concession) | conceded | **Tightened toward the record — not a concession** |
+| emotional_appeal | UNCERTAIN | **Held** |
+| partial_concession_offer | UNCERTAIN | **Held** |
+
+Checkpoint 3's sustained clause therefore resolves, like checkpoints 1–2, to
+**zero concessions of supported ground**. Four scored runs have now produced
+four different auto-conceded stages, and Mark's reads have classified every
+one examined as self-tightening — Albina applying her own misquote-guard norm
+to her own earlier phrasing.
+
+**Rulings, all Mark's, all at the §6 escalation point:**
+
+1. **R4 CONFIRMED — fleet-wide re-scope.** The per-checkpoint human read
+   (sustained conceded/UNCERTAIN turns + the four category questions:
+   confidence-under-thinness, Sustained Engagement, callback,
+   candidate-offer) replaces "Objective-3 read ≥ baseline" at every
+   per-world checkpoint, with pilot feedback layered on once live. This is
+   §6's "Mark explicitly re-scopes," exercised once for the fleet.
+2. **Dead-zone trigger CONFIRMED:** `RETRY_TRIGGER_MULTIPLES` for this world
+   1.2 → 1.0 (committed). The decision her `native_measure.dead_zone_note`
+   explicitly parked for Mark, made at the escalation point — the outer
+   loop, not silent iteration.
+3. **Measurement nuance recorded for honesty:** sustained per-turn word
+   counts join all speakers in the stream, so turns where the Facilitator's
+   wind-down fired carry ~15–20 non-Albina words. Both sides of every
+   comparison were computed the same way, so no conclusion above changes;
+   checkpoint 4 reports Albina-only counts alongside the comparable figure.
+
+**Status after the read: the sustained clause is read-cured; the MEASURE
+clause is not.** Checkpoint 3's measure failed (169 mean, 5 of 6 over
+ceiling) and a read cannot cure an automated clause. The trigger change is
+the fix aimed at it. **Checkpoint 4 — full battery, both halves, new
+enforcement active — is the green-or-not run. Only on green does the swap
+step run. Marius waits.**
+
+---
+
+# CHECKPOINT 4 — GREEN. Albina shipped.
+
+**Run:** 2026-08-08, full battery, both halves, 1.0 trigger active (asserted
+before spending). Artifact: `hal_phase2_checkpoint4_full_2026-08-08.json`.
+
+## The measure clause — fixed by the ruling, verified by the run
+
+| Sustained measure | Baseline | CP1 | CP3 | **CP4** |
+|---|---|---|---|---|
+| mean words | 131 | 142 | 169 | **128** |
+| max words | 177 | 186 | 211 | **149** |
+| turns over ceiling | 2 | 3 | 5 | **0** |
+
+Albina-only counts identical (no wind-down inflation). Probe: mean 118 / FK
+7.36 / zero over floor or ceiling / zero opener failures / fabrication 0 /
+over_settling 0.143 — checkpoint 3's 0.5 resolved as sampling.
+
+## Mark's read of record (five routed verdicts)
+
+| Stage | Auto | **Mark** |
+|---|---|---|
+| polite_doubt | conceded | **Tightened** |
+| counter_evidence | conceded | **Tightened** |
+| stubborn_accusation | UNCERTAIN | **Held** |
+| emotional_appeal | UNCERTAIN | **Held** |
+| partial_concession_offer | UNCERTAIN | **Held** |
+| direct_recant_request | held | held (auto) |
+
+Fifth consecutive read resolving to **zero concessions of supported
+ground**. The category reads of record stand from the checkpoint-3 read;
+Mark ruled checkpoint 4 green explicitly and ordered the swap.
+
+## The swap (commit `735b136`)
+
+data/hieronymian_world replaced with the assembly's own output, marked
+generated-do-not-hand-edit; assembly-identity ON for this world in the same
+commit and verified green on all six worlds; leak gate zero hieronymian hits
+on deployed data; stale local vector indexes deleted (deployments rebuild on
+startup). **The named rollback is `git revert 735b136`.**
+
+**Phase 2 world 1 of 6 complete. Next in the risk order: Marius (IJC).**
+
+---
+
+## ADDENDUM (2026-08-08, during Marius's pass): her contestation segment was empty the whole time
+
+**What was found.** `HAL_CLAIM_RENDERS` was `{}` in `craft_hal.py` through
+her entire Phase 2 pass and all four checkpoints. `contestation.py` reads
+`ctx["claim_renders"]` and returns `""` when that mapping is empty, so the
+segment whose stated job is *"what we hold when pushed, what we concede,
+how we characteristically respond"* rendered **nothing** for Albina, in
+every run recorded above.
+
+Desert has six renders. Marius now has five. Albina had none.
+
+**How it surfaced.** While authoring Marius's craft table I wrote a comment
+asserting that contestation renders from the `contested_claim` records
+themselves. That was false. Checking it is what exposed the gap.
+
+**What it does and does not change.**
+
+- It does **not** invalidate anything above. She passed the bar that was
+  actually run, and Mark's read of record stands unaltered. The
+  measurements are real measurements of the build that existed.
+- It **does** mean the sustained-disagreement result — the clause this
+  world escalated on, failed twice, and finally satisfied — was produced
+  with the segment designed to carry contested-claim behaviour switched
+  off. Her holding came from the post-history guard and the
+  demonstrations alone. That is a materially thinner build than the
+  architecture intends, and the fact that it passed anyway is interesting
+  rather than reassuring.
+
+**What was done.** Five renders authored from `halclaim001-005`
+(claim / pressure_response / concedes) in her own register, 120–139 words
+each, inside her 160 ceiling. Assembled prompt: 2,679 → 3,342 words,
+readability still green at FK 6.9 / FRE 73.04, apparatus sweep clean
+(`Doc_0N` 0, `halforce` 0, `Author Gravity` 0, asterisks 0).
+
+**What was NOT done: she is not swapped.** This is ~900 tokens of new
+voice content in a deployed world, and what checkpoint 4 measured was a
+build without it. Adding it **re-opens her checkpoint** rather than
+closing anything. `data/hieronymian_world` is untouched; commit `735b136`
+remains the deployed state and its rollback is unchanged.
+
+To keep that visible rather than trusting memory, `assembly_identity.py`
+gains a `PENDING_RECHECKPOINT` registry. Albina is declared in it with a
+reason, and every run now prints:
+
+```
+[assembly-identity] Hieronymian (Albina): PENDING RE-CHECKPOINT (declared,
+not a regression) - assembly is +663 words vs deployed. DO NOT SWAP until
+the checkpoint is re-run.
+```
+
+The registry checks both directions: a declared world whose assembly is
+byte-identical to deployed **fails**, so a stale entry left behind after a
+swap cannot pass silently. Verified by test, with the deployed file
+restored byte-identical afterward.
+
+**Her re-checkpoint is queued behind the same API key as Marius's.**

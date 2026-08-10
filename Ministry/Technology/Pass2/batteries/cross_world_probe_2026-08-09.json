@@ -1,0 +1,308 @@
+{
+ "scope": "DEPLOYED data/ - all six worlds live",
+ "questions": [
+  {
+   "question": "What does it mean to become a Christian, in your world?",
+   "answers": {
+    "Chloe": "It means the water. Before it, you are taught — the two ways, life or death, set plainly before you. You fast beforehand, and so does whoever brings you.\n\nThe water is running water, where it can be had. You go down and come up. What you leave is the old way. What you take up is the table — closed to you until now, because that meal is not for those still outside.\n\nNo one does this alone. Someone taught you. Someone stands with you at the water. Someone welcomes you after, to the bread and cup. Becoming a Christian is joining a household already gathering before you came, and going on after.",
+    "Mar Yausep": "Iḥidaya - the undivided one. That is the word we hold at the center. It names Christ, the Only-Begotten, and it names the one being formed toward him.\n\nBaptism opened the door. It set someone inside the harmonised Gospel we read as one story, and inside a community that reads the old stories as bound to the truth they carry. That much was asked of everyone.\n\nSome went further and took the qyama, a vow of celibacy and watchfulness kept for life, among their own kin, in the town. That vow was how a Christian became, in full, undivided. Our record does not tell us that everyone walked that road - only that some did.\n\nWhat made you ask?",
+    "Papnoute": "Hearing it as spoken to you alone. That is the start — Antony heard \"sell what you have, follow me\" as his own address, not a general word, and went and did it. What came after mattered more to us than the hearing itself: whether the word stayed heard.",
+    "Albina": "Two doors, not one. Baptism and the creed - that was never in dispute, and it was enough for most of the church.\n\nOur household pressed further: that a Christian could go on to renounce - wealth, marriage, rank - and that this was the fuller life, not an optional extra. Paula was already baptized before she gave anything away. What our record remembers her for came after.\n\nWe will not tell you the whole church agreed with us on this. Some among us pressed it hard; Rome itself was divided, and Blaesilla's death is the cost our own record cannot soften. So: what the creed required, we can answer plainly. What our household asked beyond it, we lived, and argued over, and never fully settled among ourselves.",
+    "Theon": "To become a Christian among us is to cross a threshold, and it takes time to reach it.\n\nA seeker comes first under instruction - hearing Scripture, learning to pray, watched over while desire itself is turned. We call this catechesis, formation before baptism. It is not a course finished but a change worked slowly, inside the community's own life, carried along by the year's own rhythm of fast and feast.\n\nThen comes the water. What happens there is not a ceremony marking a decision already made. Going under and coming up is a real sharing in Christ's death and resurrection, worked in the body itself. We call it photismos, the opening of sight - because the soul's deepest eye is truly opened there, and only begins what a whole life goes on deepening.\n\nSo becoming a Christian is not arriving. It is crossing into a community's fuller life, and going on from there.",
+    "Marius": "It means being received. Not merely believing something in private.\n\nA household that came to the faith was named, baptized, and stood among those the church would receive at its own table. Augustine tells us of his own mother Monica's long wait for that day with him - years of it, tears over it - and then the thing itself, sudden and plain: he asked for baptism, and it was given.\n\nThat is the shape our record holds best: not the turning inward, but the moment it became public. A name added to the list of those who stand in communion, a standing that could be granted, and could be taken away."
+   },
+   "readability": {
+    "Chloe": {
+     "fk": 3.43,
+     "fre": 87.08,
+     "breach": false
+    },
+    "Mar Yausep": {
+     "fk": 5.21,
+     "fre": 78.54,
+     "breach": false
+    },
+    "Papnoute": {
+     "fk": 5.89,
+     "fre": 81.32,
+     "breach": false
+    },
+    "Albina": {
+     "fk": 6.72,
+     "fre": 71.59,
+     "breach": false
+    },
+    "Theon": {
+     "fk": 7.88,
+     "fre": 65.62,
+     "breach": false
+    },
+    "Marius": {
+     "fk": 7.33,
+     "fre": 75.17,
+     "breach": false
+    }
+   },
+   "fk_spread": 4.45,
+   "fk_range": [
+    3.43,
+    7.88
+   ],
+   "fre_min": 65.62,
+   "breaches": [],
+   "pairwise_phrase_overlap": {
+    "Chloe|Mar Yausep": 0.0,
+    "Chloe|Papnoute": 0.0,
+    "Chloe|Albina": 0.0,
+    "Chloe|Theon": 0.0,
+    "Chloe|Marius": 0.0,
+    "Mar Yausep|Papnoute": 0.0,
+    "Mar Yausep|Albina": 0.0,
+    "Mar Yausep|Theon": 0.0,
+    "Mar Yausep|Marius": 0.0,
+    "Papnoute|Albina": 0.0,
+    "Papnoute|Theon": 0.0,
+    "Papnoute|Marius": 0.0,
+    "Albina|Theon": 0.0,
+    "Albina|Marius": 0.0,
+    "Theon|Marius": 0.0
+   },
+   "overlap_mean": 0.0,
+   "overlap_max": 0.0,
+   "words": {
+    "Chloe": 114,
+    "Mar Yausep": 119,
+    "Papnoute": 49,
+    "Albina": 128,
+    "Theon": 154,
+    "Marius": 112
+   },
+   "distinctive_vocabulary": {
+    "Chloe": [
+     "beforehand",
+     "bread",
+     "brings",
+     "closed",
+     "come",
+     "down",
+     "gathering",
+     "joining",
+     "leave",
+     "meal"
+    ],
+    "Mar Yausep": [
+     "begotten",
+     "bound",
+     "carry",
+     "celibacy",
+     "center",
+     "christ",
+     "community",
+     "door",
+     "everyone",
+     "formed"
+    ],
+    "Papnoute": [
+     "address",
+     "antony",
+     "follow",
+     "general",
+     "have",
+     "heard",
+     "mattered",
+     "more",
+     "sell",
+     "spoken"
+    ],
+    "Albina": [
+     "agreed",
+     "answer",
+     "anything",
+     "argued",
+     "beyond",
+     "blaesilla's",
+     "cannot",
+     "cost",
+     "creed",
+     "dispute"
+    ],
+    "Theon": [
+     "along",
+     "arriving",
+     "become",
+     "begins",
+     "body",
+     "call",
+     "carried",
+     "catechesis",
+     "ceremony",
+     "change"
+    ],
+    "Marius": [
+     "added",
+     "augustine",
+     "believing",
+     "best",
+     "communion",
+     "faith",
+     "given",
+     "granted",
+     "holds",
+     "inward"
+    ]
+   }
+  },
+  {
+   "question": "What did your people think a person is for?",
+   "answers": {
+    "Chloe": "A person is made to choose. That is what we teach before the water: two roads, a way of life and a way of death, and walking one is a choice kept daily, not settled once.\n\nAnd a person is made to meet someone. We give thanks at the table because that is where we meet him. Hermas saw the Church as a woman old as the world, growing younger as the one who sees her understands more. I tell that as his vision, not as settled teaching — but it points the same way. Not finished at birth. Not finished at the water either.\n\nWhat would you say a person is for?",
+    "Mar Yausep": "The vow itself answers this before any saying does. Whoever takes the qyama gives a whole life, and stays among kin in the town rather than fleeing to the desert. A person is not made for escape from the world.\n\nThe name for such a person carries the rest. We call them Iḥidaya, the undivided one, the same word we use for Christ himself, the undivided one. So a person is made for singleness: undivided allegiance, sharing in the very undividedness the Son has with the Father.\n\nMore waits in how we read the old stories toward this. That keeps for when you ask.",
+    "Papnoute": "What are we for. We hold this: made to be reachable by the word that first calls, and stripped down until nothing stands between us and it.\n\nAntony heard a line read in church, took it as spoken to him alone, and went out. Not to escape into nothing. To arrive at hearing.",
+    "Albina": "A person is for pointing past themselves - that is what we held.\n\nEverything set down, wealth, marriage, a scholar's own hours - was aimed at something else: the Word, and the child in the cave near whose home we chose to live. Not erased, aimed outward.\n\nWe did not live it evenly. Blaesilla died of a severity we ourselves praised. So the wager stands, but we do not call it comfortable.",
+    "Theon": "A person is for God. That is what the image of God means among us - not something earned, and never destroyed by sin, only damaged. It is the soul's capacity to know God and be known by him, and to be changed by that knowing.\n\nEverything else exists to open that capacity. Prayer, fasting, the reading of Scripture - these are not ends in themselves. They serve the one end: theosis, being drawn into God's life. Not that we become God. That we become what we were made to be, and go on being drawn deeper, because the one we seek cannot be exhausted.\n\nGregory said his own teacher took hold of him the way a physician takes hold of a man who does not know he is sick. He had meant to study law. He stayed, because he found what he was for.\n\nWhat made you ask?",
+    "Marius": "A person is not the emperor's to command. That is Ambrose at the basilica door: what belongs to God is not the throne's to give away.\n\nAugustine put it plainer, late in life, looking back: our heart has no rest until it rests in you. Not office. Not rank. A hunger no office answers.\n\nWe are thin on the ordinary person who held no seat. What we can show is what we defended when someone tried to take that hunger's object away."
+   },
+   "readability": {
+    "Chloe": {
+     "fk": 3.59,
+     "fre": 91.48,
+     "breach": false
+    },
+    "Mar Yausep": {
+     "fk": 5.93,
+     "fre": 75.69,
+     "breach": false
+    },
+    "Papnoute": {
+     "fk": 3.46,
+     "fre": 89.13,
+     "breach": false
+    },
+    "Albina": {
+     "fk": 4.81,
+     "fre": 81.39,
+     "breach": false
+    },
+    "Theon": {
+     "fk": 4.28,
+     "fre": 86.21,
+     "breach": false
+    },
+    "Marius": {
+     "fk": 5.71,
+     "fre": 78.44,
+     "breach": false
+    }
+   },
+   "fk_spread": 2.47,
+   "fk_range": [
+    3.46,
+    5.93
+   ],
+   "fre_min": 75.69,
+   "breaches": [],
+   "pairwise_phrase_overlap": {
+    "Chloe|Mar Yausep": 0.0,
+    "Chloe|Papnoute": 0.0,
+    "Chloe|Albina": 0.0,
+    "Chloe|Theon": 0.0,
+    "Chloe|Marius": 0.0,
+    "Mar Yausep|Papnoute": 0.0,
+    "Mar Yausep|Albina": 0.0,
+    "Mar Yausep|Theon": 0.0,
+    "Mar Yausep|Marius": 0.0,
+    "Papnoute|Albina": 0.0,
+    "Papnoute|Theon": 0.0,
+    "Papnoute|Marius": 0.0,
+    "Albina|Theon": 0.0,
+    "Albina|Marius": 0.0,
+    "Theon|Marius": 0.0
+   },
+   "overlap_mean": 0.0,
+   "overlap_max": 0.0,
+   "words": {
+    "Chloe": 113,
+    "Mar Yausep": 104,
+    "Papnoute": 53,
+    "Albina": 72,
+    "Theon": 149,
+    "Marius": 82
+   },
+   "distinctive_vocabulary": {
+    "Chloe": [
+     "birth",
+     "choice",
+     "choose",
+     "daily",
+     "death",
+     "either",
+     "finished",
+     "growing",
+     "hermas",
+     "kept"
+    ],
+    "Mar Yausep": [
+     "allegiance",
+     "carries",
+     "christ",
+     "desert",
+     "father",
+     "fleeing",
+     "from",
+     "gives",
+     "himself",
+     "idaya"
+    ],
+    "Papnoute": [
+     "alone",
+     "antony",
+     "arrive",
+     "between",
+     "calls",
+     "first",
+     "heard",
+     "hearing",
+     "line",
+     "nothing"
+    ],
+    "Albina": [
+     "aimed",
+     "blaesilla",
+     "cave",
+     "child",
+     "chose",
+     "comfortable",
+     "died",
+     "erased",
+     "evenly",
+     "home"
+    ],
+    "Theon": [
+     "become",
+     "being",
+     "cannot",
+     "capacity",
+     "changed",
+     "damaged",
+     "deeper",
+     "destroyed",
+     "drawn",
+     "earned"
+    ],
+    "Marius": [
+     "ambrose",
+     "augustine",
+     "away",
+     "back",
+     "basilica",
+     "belongs",
+     "command",
+     "defended",
+     "door",
+     "emperor's"
+    ]
+   }
+  }
+ ],
+ "note": "REPORT ONLY - no threshold, never a bar (Goodhart rule). Converged accessibility WITH diverged witness is the success; converged without divergence is FLATTENING."
+}

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the word "agape" as love in ge
 
 ## Quick Meaning
 
-*Agape* names the common meal — love's own name given to an ordinary act of feeding people at one table — though whether it is the same as the eucharist, a separate meal, or something else is not yet settled among us.
+Love's own name, given to the common meal - an ordinary act of feeding people at one table. Whether it is the same as the thanksgiving, or a separate meal, or something else again, is not settled among us.
 
 ---
 

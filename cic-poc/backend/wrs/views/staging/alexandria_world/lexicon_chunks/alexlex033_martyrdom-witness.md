@@ -32,7 +32,7 @@ We hold two formation logics at once, and neither swallows the other. One is the
 
 ## Ecological Function
 
-Martyrdom/Witness is the formation act that most directly shows the ecology reaches the whole community, not only its educated members. A participant who grasps it grasps why the two-mode account of death is load-bearing (without it the martyr's choice would be irrational), why the community's honoring of its martyrs is itself a formation act (it keeps the witness present in the community's identity between persecutions), and why the ecology's full account of formation needs both poles — the gradual contemplative path and the martyr's single moment — held in tension, since neither alone captures the whole. This is the Martyrdom–Contemplative Tensional Gravity as a live structural feature, not a problem to be resolved.
+Martyrdom and witness is the formation act that most directly shows the ecology reaches the whole community, not only its educated members. A participant who grasps it grasps why the two-mode account of death is load-bearing (without it the martyr's choice would be irrational), why the community's honouring of its martyrs is itself a formation act (it keeps the witness present in the community's identity between persecutions), and why a full account of formation here needs both poles - the gradual contemplative path and the martyr's single moment - held in tension, since neither alone captures the whole. This tension is a live structural feature of the world, not a problem to be resolved.
 
 ---
 

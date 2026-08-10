@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant's question is about martyr devotion broadl
 
 ## Quick Meaning
 
-For us, a martyr's shrine is where the dead who kept the faith under persecution are honored — and, in our own see's hands specifically, where that honor is also made to speak for this see's own standing.
+A shrine where the dead who kept the faith under persecution are honoured. In our own see's hands it does something more: the honour is made to speak for this see's own standing.
 
 ---
 

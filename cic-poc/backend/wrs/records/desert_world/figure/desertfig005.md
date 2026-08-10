@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Arsenius (the Great)
   name_kind: scholarly
+bridge_line: "An elder remembered for the word that sent him away: flee, be silent, be still."
 narratable: true
 story_ids:
 - desertstory005

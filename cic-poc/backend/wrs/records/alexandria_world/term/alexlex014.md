@@ -106,12 +106,12 @@ field_relations:
   target_id: alexlex001
   note: 'Scripture forms because the Logos speaks in it (chunk EF: the primary vehicle of the first Primary
     gravity). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Scripture is the primary vehicle
-    of the first Primary gravity (Scripture as Deep Formative Reality, Doc_04 C1): nearly every other
-    practice takes Scripture as its content or is organized around hearing it. A participant who understands
-    Scripture-as-address understands the whole interpretive tradition (the reader is helped to perceive,
-    not taught to decode), the formation sequence (the text forms the one who encounters it), the liturgical
-    ecology (worship is where Scripture is heard by all), and the Rule of Faith (the boundary within which
-    the reading stays faithful).'
+    of the conviction that Scripture is deep formative reality: nearly every other practice takes Scripture
+    as its content or is organised around hearing it. A participant who understands Scripture-as-address
+    understands the whole interpretive tradition (the reader is helped to perceive, not taught to decode),
+    the formation sequence (the text forms the one who encounters it), the liturgical ecology (worship is
+    where Scripture is heard by all), and the Rule of Faith (the boundary within which the reading stays
+    faithful).'
 - type: presupposed-by
   target_id: alexlex015
   note: Christological Reading is the orientation that makes Scripture-as-address operable (alexlex015

@@ -63,12 +63,12 @@ sources:
     reckoned from Diocletian's 284 accession)
 gravity_links:
 - gravity_id: alexgrav009
-  note: This story illustrates T4 (Martyrdom vs. Contemplative-Ascent), and Doc_04 §3.6 names T4 as the
-    one gravity in this world's whole ecology whose evidence plausibly reached every stratum of the community,
-    not only the literate and learned — though the martyr's own interior remains Inferential-Thin even
-    so. It stands alongside Antony's contemplative pole (alexstory005) as this world's two competing pictures
-    of a completed formed life. It also connects to Doc_08's ongoing force of persecution (2A-3) at its
-    most severe and widely-felt instance across the whole span.
+  note: 'This story illustrates the tension between martyrdom and contemplative ascent, which is the one tension
+    in this world''s whole ecology whose evidence plausibly reached every stratum of the community, not only
+    the literate and learned - though the martyr''s own interior remains thin even so. It stands alongside
+    Antony''s contemplative pole as one of this world''s two competing pictures of a completed formed life.
+    It also connects to the ongoing pressure of persecution at its most severe and widely-felt instance
+    across the whole span.'
 confidence_line: Documented (the persecution as event) / Contested (the specific martyr acts)
 ---
 Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/story_chunks/alexstory009_coptic-martyrs.md` (mapping in `wrs/migrate/s62_alx_s24.py`; Story Text / Tier Justification / Usage Guidance verbatim; occasion/owner/frame authored per Desert S2.4 conventions).

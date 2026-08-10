@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Antony of Egypt
   name_kind: scholarly
+bridge_line: "The Egyptian monk whose life Athanasius wrote."
 narratable: true
 story_ids:
 - alexstory005

@@ -4,7 +4,7 @@
 Term:                 Fall / Descent
 World-Code:           alex
 Tier:                 2
-Aliases:              the fall, the descent of souls, pre-cosmic fall, the cooling of the noes
+Aliases:              the descent of souls, pre-cosmic fall, the cooling of the noes
 Related-Terms:        Nous, Apokatastasis, Logikos / Rational Nature
 Retrieve-When:        participant asks about Origen's pre-existence or pre-cosmic fall teaching; participant asks what 'the Alexandrian view of the Fall' was; the Nous term's territory deepens toward what the soul originally was (alexlex011's speculative stratum)
 Do-Not-Retrieve-When: the participant asks about sin, death, or fallenness as lived and confessed - retrieve alexlex017/018/036 territory, not the speculative stratum; the participant asks about the later condemnations as settled history - beyond the horizon; the voice knows the unease, not the verdict

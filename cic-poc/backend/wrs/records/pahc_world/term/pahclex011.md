@@ -14,8 +14,8 @@ cache_stability: static
 term: baptisma (βάπτισμα)
 aliases:
 - baptism
-quick_meaning: '*Baptisma* is the water — the washing that marks a person''s entry into the community,
-  given after teaching and fasting, in running water if it can be had.'
+quick_meaning: 'The water. The washing that marks a person''s entry into the community. It is given after teaching and
+  fasting, in running water where that can be had.'
 world_meaning: 'We call it the water, or by its Greek name, baptisma. Before anyone comes to it, they
   are taught — the Two Ways, what must be put away, what must be taken up. Then, after fasting, they come
   to the water itself. The Didache instructs: baptize in running water if you can; if not, in still water;

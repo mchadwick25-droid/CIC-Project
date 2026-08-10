@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Athanasius of Alexandria
   name_kind: scholarly
+bridge_line: "Bishop of Alexandria. He wrote the life of Antony."
 narratable: true
 story_ids:
 - alexstory005

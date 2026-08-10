@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Ephrem the Syrian (Ephraem Syrus)
   name_kind: scholarly
+bridge_line: "Our best known teacher and hymn writer, at Nisibis and later Edessa."
 narratable: true
 story_ids:
 - syrstory001

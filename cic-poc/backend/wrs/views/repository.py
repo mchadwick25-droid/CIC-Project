@@ -24,17 +24,31 @@ THE RIGHTS GATE (FLAG-013, fail-closed - the load-bearing rule):
   is CiC's own wording, not third-party text - it renders, with its
   apparatus, exactly as the running app already publishes it.
 
-Outputs (generated views, SS3.9 - regenerate, never hand-edit):
-  data/desert_world/repository.json   browse/search index + per-record faces
-  data/desert_world/sources.json      FAIR machine-readable source export
+GENERALIZED TO ALL SIX WORLDS (2026-08-09). This builder was hardcoded to
+Desert - `WORLD_ID = "desert-monasticism"`, `DATA_DIR = data/desert_world` -
+so `data/<world>/repository.json` existed for exactly one world of six. The
+app degrades silently on its absence (app/main.py checks `repo_path.exists()`
+and moves on), which is why nothing ever surfaced: for five Representatives
+the third level of Article 30 transparency - click a term, read the record
+and its sources - was not broken, it was never built. Mark found the gap from
+the reader's side on the live site the same day.
+
+Nothing about the rights gate or the render layer changes here; `level3.py`
+and `plain_explanation.py` were already world-agnostic (they take records as
+arguments). Only the scoping moves.
+
+Outputs (generated views, SS3.9 - regenerate, never hand-edit), per world:
+  data/<world>/repository.json   browse/search index + per-record faces
+  data/<world>/sources.json      FAIR machine-readable source export
 
 Deterministic: same records -> byte-identical outputs. `--check` mode
 re-renders and byte-compares without writing (the definitions.json
 convention from S4.5).
 
 Usage (from cic-poc/backend):
-  python wrs/views/repository.py            # write both views
-  python wrs/views/repository.py --check    # verify deployed views current
+  python wrs/views/repository.py                 # write all six worlds
+  python wrs/views/repository.py --world des     # one world
+  python wrs/views/repository.py --check         # verify deployed views current
 """
 from __future__ import annotations
 
@@ -49,12 +63,47 @@ for p in (str(HERE), str(BACKEND)):
     if p not in sys.path:
         sys.path.insert(0, p)
 
-from chunk_views import load_records  # noqa: E402
 from plain_explanation import render_plain_explanation  # noqa: E402
 from level3 import render_level3, _title  # noqa: E402
 
-WORLD_ID = "desert-monasticism"
-DATA_DIR = BACKEND / "data" / "desert_world"
+import yaml  # noqa: E402
+
+# key -> (world_id, records dir, deployed data dir). The records dir name is
+# not carried by the world manifest, which is why it is spelled out here; the
+# data dir is asserted against the manifest at run time so this table can
+# never quietly disagree with what the app reads.
+WORLDS = {
+    "pahc": ("post-apostolic-house-church", "pahc_world", "pahc_world"),
+    "ijc": ("imperial-juridical-christianity", "imperial_juridical_world",
+            "imperial_juridical_world"),
+    "alx": ("alexandria-catechetical", "alexandria_world", "alexandria_world"),
+    "des": ("desert-monasticism", "desert_world", "desert_world"),
+    "syr": ("syriac-edessa-nisibis", "syriac_world", "syriac_world"),
+    "hal": ("hieronymian-ascetic-literary", "hieronymian_world",
+            "hieronymian_world"),
+}
+
+
+def load_records(records_root: Path, subdir: str) -> dict[str, dict]:
+    """Records of one type for one world.
+
+    Same parse as chunk_views.load_records, which this replaces: that one
+    closes over a module-level Desert RECORDS constant, so importing it was
+    the single thing pinning this builder to one world. A missing subdir
+    yields {} rather than raising - four of the six worlds carry no `quote`
+    records at all, and that absence is a fact about the record set, not an
+    error.
+    """
+    out: dict[str, dict] = {}
+    d = records_root / subdir
+    if not d.is_dir():
+        return out
+    for p in sorted(d.glob("*.md")):
+        parts = p.read_text(encoding="utf-8").split("---\n")
+        rec = yaml.safe_load(parts[1])
+        rec["_body"] = "---\n".join(parts[2:])
+        out[rec["id"]] = rec
+    return out
 
 RECORD_SUBDIRS = (
     "term", "story", "quote", "figure", "gravity", "force",
@@ -162,11 +211,11 @@ def _search_text(rec: dict, title: str) -> str:
     return " ".join(parts).lower()
 
 
-def build_repository() -> dict:
+def build_repository(world_id: str, records_root: Path) -> dict:
     all_records: dict[str, dict] = {}
     by_type: dict[str, dict] = {}
     for sub in RECORD_SUBDIRS:
-        recs = load_records(sub)
+        recs = load_records(records_root, sub)
         by_type[sub] = recs
         all_records.update(recs)
     sources = by_type["source"]
@@ -217,9 +266,16 @@ def build_repository() -> dict:
 
         entries.append(entry)
 
+    claim_note = (
+        "truthfully empty: no record in this world populates "
+        f"contested_claim_ids, so nothing cross-references the "
+        f"{len(by_type['contested_claim'])} claims - they remain browsable as "
+        "records in their own right (Desert's FLAG-014 condition)"
+    ) if not by_claim else None
+
     return {
         "view": "repository (S5.4, Pass 1 SS5.6)",
-        "world_id": WORLD_ID,
+        "world_id": world_id,
         "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
         "rights_rule": (
             "fail-closed: third-party-derived text renders only on an "
@@ -232,27 +288,41 @@ def build_repository() -> dict:
             "by_source": {k: sorted(set(v)) for k, v in sorted(by_source.items())},
             "by_figure": {k: sorted(set(v)) for k, v in sorted(by_figure.items())},
             "by_contested_claim": {k: sorted(set(v)) for k, v in sorted(by_claim.items())},
-            "by_contested_claim_note": (
-                "truthfully empty: no term record populates "
-                "contested_claim_ids (FLAG-014) - the six claims are "
-                "browsable as records; cross-references await the CO"),
+            # present ONLY when the index is empty - the note exists to
+            # explain an emptiness, and five of the six worlds do populate
+            # contested_claim_ids, so carrying it everywhere would state a
+            # falsehood about them.
+            **({"by_contested_claim_note": claim_note} if claim_note else {}),
         },
     }
 
 
 # ---------------------------------------------------------------- FAIR export
 
-def build_sources_json() -> dict:
+def _id_prefix(ids: list) -> str:
+    """The shared leading run of the source ids, with the varying tail shown
+    as n's - e.g. srcDES001/srcDES002 -> 'srcDESnnn'. Derived rather than
+    declared so a world whose ids do not follow the pattern reports what it
+    actually has instead of a comfortable fiction."""
+    if not ids:
+        return "no source records"
+    first, last = ids[0], ids[-1]
+    i = 0
+    while i < min(len(first), len(last)) and first[i] == last[i]:
+        i += 1
+    return first[:i] + "n" * (len(first) - i)
+
+def build_sources_json(world_id: str, records_root: Path) -> dict:
     """sources.json - the FAIR export (SS5.6): stable ids, machine-readable,
     external identifiers, stated rights. Beside the existing
     source_registry.json convention, not replacing it."""
-    sources = load_records("source")
+    sources = load_records(records_root, "source")
     rows = []
     for sid in sorted(sources):
         s = sources[sid]
         rows.append({
             "id": sid,
-            "world_id": WORLD_ID,
+            "world_id": world_id,
             "work_author": s.get("work_author"),
             "work_title": s.get("work_title"),
             "work_locus": s.get("work_locus"),
@@ -279,13 +349,16 @@ def build_sources_json() -> dict:
                          "full-text display (FLAG-013 fail-closed)"),
             },
         })
+    # the id prefix is READ from the record set, never assumed: the six
+    # worlds do not share a scheme (srcDESnnn, srcIJCnn, srcPAHCPnn...).
+    prefix = _id_prefix(sorted(rows and [r["id"] for r in rows] or []))
     return {
         "view": "sources.json - FAIR export (S5.4, Pass 1 SS5.6)",
-        "world_id": WORLD_ID,
+        "world_id": world_id,
         "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
         "id_scheme": (
             "record ids are stable within this repository "
-            "(srcDESnnn; referenced by every record's sources[] rows)"),
+            f"({prefix}; referenced by every record's sources[] rows)"),
         "source_count": len(rows),
         "sources": rows,
     }
@@ -299,25 +372,53 @@ def _dump(obj: dict) -> str:
 
 def main(argv: list[str]) -> int:
     check = "--check" in argv
-    outputs = {
-        DATA_DIR / "repository.json": _dump(build_repository()),
-        DATA_DIR / "sources.json": _dump(build_sources_json()),
-    }
+    keys = sorted(WORLDS)
+    if "--world" in argv:
+        want = argv[argv.index("--world") + 1]
+        if want not in WORLDS:
+            print(f"unknown world {want!r} - choose from {keys}")
+            return 2
+        keys = [want]
+
+    # the data dir this writes into must be the one the app reads, or the
+    # view lands where nothing looks for it - the exact failure an earlier
+    # candidate-tree bug produced by writing alx_* files beside the real
+    # alex_* ones and reporting success.
+    from app.world_manifest import WORLD_MANIFEST
+    manifest = {e.world_id: e.data_dir_name for e in WORLD_MANIFEST}
+
+    outputs: dict[Path, str] = {}
+    for key in keys:
+        world_id, records_dirname, data_dirname = WORLDS[key]
+        expected = manifest.get(world_id)
+        if expected != data_dirname:
+            print(f"FAIL - {key}: table says data dir {data_dirname!r}, "
+                  f"manifest says {expected!r}. Refusing to write a view the "
+                  f"app would not read.")
+            return 2
+        records_root = BACKEND / "wrs" / "records" / records_dirname
+        data_dir = BACKEND / "data" / data_dirname
+        outputs[data_dir / "repository.json"] = _dump(
+            build_repository(world_id, records_root))
+        outputs[data_dir / "sources.json"] = _dump(
+            build_sources_json(world_id, records_root))
+
     stale = []
     for path, text in outputs.items():
         if check:
             current = path.read_text(encoding="utf-8") if path.exists() else None
             if current != text:
-                stale.append(path.name)
+                stale.append(f"{path.parent.name}/{path.name}")
         else:
             path.write_text(text, encoding="utf-8", newline="\n")
-            print(f"written: {path}")
+            recs = text.count('"id":')
+            print(f"written: {path.relative_to(BACKEND)}  ({recs} ids)")
     if check:
         if stale:
             print(f"STALE: {', '.join(stale)} - regenerate with "
                   "python wrs/views/repository.py")
             return 1
-        print("current: repository.json, sources.json byte-match regeneration")
+        print(f"current: {len(outputs)} views byte-match regeneration")
     return 0
 
 

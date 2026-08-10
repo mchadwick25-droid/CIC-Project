@@ -13,6 +13,7 @@ sources:
 id: alexgrav007
 name: Learning-Community (School-Breadth) Tension (T2)
 classification: Tensional
+capsule_line: 'The depth open to the student against the breadth of the whole worshipping community. The world held this tension itself - and most of those formed here were formed on the side we can see least.'
 six_tests:
   repetition:
     verdict: 'PASS - Gravity_Index Candidates row T2 (the full explicit six-test grid, absorbed at S2.5);

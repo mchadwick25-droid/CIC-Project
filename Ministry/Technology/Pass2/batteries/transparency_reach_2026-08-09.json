@@ -1,0 +1,262 @@
+{
+ "scope": "committed checkpoint artifacts - zero API cost",
+ "worlds": {
+  "alx": {
+   "world_id": "alexandria-catechetical",
+   "artifact": "alx_phase2_checkpoint1_full_2026-08-09.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 4,
+   "turns_with_a_citation": 6,
+   "glosses_that_fired": {
+    "gnosis": 2,
+    "nous": 1,
+    "autexousia": 1,
+    "Logos": 1
+   },
+   "confirmed_gloss_count": 29,
+   "lexicon_term_count": 50,
+   "unbridged_hard_words": {
+    "wasn't": 2,
+    "shelved": 1,
+    "unnoticed": 1,
+    "perceives": 1,
+    "stomach": 1,
+    "celebration": 1,
+    "rehearsing": 1,
+    "possessions": 1,
+    "solitude": 1,
+    "assault": 1,
+    "marveled": 1,
+    "thesis": 1,
+    "mistake": 1,
+    "unto": 1,
+    "outnumber": 1,
+    "scroll": 1,
+    "ajar": 1,
+    "exhausts": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Cicero": 1
+   }
+  },
+  "des": {
+   "world_id": "desert-monasticism",
+   "artifact": "des_phase2_checkpoint2_full_2026-08-09.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 0,
+   "turns_with_a_citation": 5,
+   "glosses_that_fired": {},
+   "confirmed_gloss_count": 11,
+   "lexicon_term_count": 18,
+   "unbridged_hard_words": {
+    "rope": 4,
+    "ruin": 2,
+    "belonged": 1,
+    "grieve": 1,
+    "grieves": 1,
+    "wept": 1,
+    "sorrow": 1,
+    "antony's": 1,
+    "lean": 1,
+    "vigils": 1,
+    "moderation": 1,
+    "crowded": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Psalter": 1,
+    "Pachomius": 1,
+    "Cassian": 1
+   }
+  },
+  "hal": {
+   "world_id": "hieronymian-ascetic-literary",
+   "artifact": "hal_phase2_checkpoint5_full_2026-08-09.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 1,
+   "turns_with_a_citation": 8,
+   "glosses_that_fired": {
+    "Matrona": 1
+   },
+   "confirmed_gloss_count": 13,
+   "lexicon_term_count": 15,
+   "unbridged_hard_words": {
+    "paula": 3,
+    "monastery": 3,
+    "senatorial": 2,
+    "purse": 2,
+    "convent": 2,
+    "renounce": 2,
+    "patrons": 2,
+    "fortune": 2,
+    "chased": 2,
+    "cave": 2,
+    "servants": 1,
+    "epitaph": 1,
+    "heirs": 1,
+    "vanish": 1,
+    "timetable": 1,
+    "unmaking": 1,
+    "blaesilla": 1,
+    "blamed": 1,
+    "praised": 1,
+    "resurrected": 1,
+    "urgently": 1,
+    "harshest": 1,
+    "friendship": 1,
+    "barely": 1,
+    "mastery": 1,
+    "subtraction": 1,
+    "paula's": 1,
+    "scholar's": 1,
+    "admired": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Bethlehem": 2,
+    "Origen's": 1
+   }
+  },
+  "ijc": {
+   "world_id": "imperial-juridical-christianity",
+   "artifact": "ijc_phase2_checkpoint5_full_2026-08-09-v2.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 3,
+   "turns_with_a_citation": 6,
+   "glosses_that_fired": {
+    "homoios": 2,
+    "primatus": 1,
+    "presbeia": 1,
+    "homoousios": 1
+   },
+   "confirmed_gloss_count": 11,
+   "lexicon_term_count": 12,
+   "unbridged_hard_words": {
+    "throne": 3,
+    "ambrose": 3,
+    "milan": 2,
+    "grave": 2,
+    "julius": 1,
+    "deposed": 1,
+    "legate": 1,
+    "throne's": 1,
+    "favoring": 1,
+    "surround": 1,
+    "seize": 1,
+    "singing": 1,
+    "disagreed": 1,
+    "apostle's": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Milan": 1
+   }
+  },
+  "pahc": {
+   "world_id": "post-apostolic-house-church",
+   "artifact": "pahc_phase2_checkpoint4_full_2026-08-09-facverify.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 4,
+   "turns_with_a_citation": 7,
+   "glosses_that_fired": {
+    "the water": 4,
+    "Two Ways": 1,
+    "ekklesia": 1,
+    "eucharistia": 1
+   },
+   "confirmed_gloss_count": 15,
+   "lexicon_term_count": 13,
+   "unbridged_hard_words": {
+    "stranger's": 2,
+    "tearing": 1,
+    "blameless": 1,
+    "tears": 1,
+    "differed": 1,
+    "persuaded": 1,
+    "mercy": 1,
+    "foreigner's": 1,
+    "remade": 1,
+    "presiding": 1,
+    "widows": 1,
+    "orphans": 1,
+    "prays": 1,
+    "maranatha": 1,
+    "polycarp": 1,
+    "stadium": 1,
+    "curse": 1,
+    "blaspheme": 1,
+    "cleverness": 1,
+    "haven't": 1,
+    "widow": 1,
+    "catechumen": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Corinth": 4,
+    "Eighty": 2,
+    "Smyrna": 1,
+    "Maranatha": 1
+   }
+  },
+  "syr": {
+   "world_id": "syriac-edessa-nisibis",
+   "artifact": "syr_phase2_checkpoint1_full_2026-08-09.json",
+   "representative_turns": 8,
+   "turns_with_a_gloss": 7,
+   "turns_with_a_citation": 8,
+   "glosses_that_fired": {
+    "Mar": 5,
+    "qyama": 4,
+    "raza": 3,
+    "Iḥidaya": 2,
+    "madrasha": 1
+   },
+   "confirmed_gloss_count": 9,
+   "lexicon_term_count": 10,
+   "unbridged_hard_words": {
+    "simeon": 3,
+    "unmarried": 2,
+    "singing": 2,
+    "alphabet": 2,
+    "aphrahat": 1,
+    "washing": 1,
+    "baptized": 1,
+    "dividing": 1,
+    "sing": 1,
+    "tune": 1,
+    "refrain": 1,
+    "cleverness": 1,
+    "sung": 1,
+    "bardaisan": 1,
+    "choirs": 1,
+    "ctesiphon": 1,
+    "eunuch": 1,
+    "denied": 1,
+    "triumph": 1,
+    "redeemed": 1,
+    "misleads": 1,
+    "fleeing": 1,
+    "graft": 1,
+    "marry": 1,
+    "praying": 1,
+    "we've": 1,
+    "grafted": 1,
+    "it's": 1,
+    "farmer's": 1,
+    "outlasts": 1,
+    "steadies": 1
+   },
+   "discriminator": "out-of-list (top-5000, after morphology), not covered by any confirmed gloss or lexicon term, and present in at most 2 of the 6 worlds' record corpora",
+   "named_figures_unbridged": {
+    "Gushtazad": 3,
+    "Ephrem": 1,
+    "Mani": 1,
+    "Seleucia": 1,
+    "Barba'shmin": 1,
+    "Simeon": 1
+   }
+  }
+ },
+ "note": "REPORT ONLY - no threshold, never a bar (Goodhart rule). An unbridged hard word is a candidate for authoring judgement, not a defect count. Driving coverage up by glossing everything would produce a Representative who lectures, which is the failure this report exists to avoid, not to cause."
+}

@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant is asking specifically about the Eucharist
 
 ## Quick Meaning
 
-For us, to be in communion with a see is to stand where that see stands; to be cut off from it is not a private grief but a public, consequential fact — the actual instrument by which our own claims to authority become real rather than merely spoken.
+To be in communion with a see is to stand where that see stands. To be cut off is not a private grief. It is a public fact with consequences, and it is how our claims to authority become real rather than merely spoken.
 
 ---
 

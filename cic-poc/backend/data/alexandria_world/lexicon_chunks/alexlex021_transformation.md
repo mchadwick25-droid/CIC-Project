@@ -30,7 +30,7 @@ Transformation also carries the whole arc of the soul's story: sin as mis-orient
 
 ## Ecological Function
 
-Transformation is the operational name of the second Primary gravity (Transformation of the Soul Toward God, Doc_04 C2) — what that gravity is actually doing in souls. It anchors the internal logic of the formation sequence and gives every practice its purpose: each practice is not a task to complete but a channel *through which* transformation is occurring. It connects the salvation arc (Sin→Death→Resurrection→Restoration) to the present life of the soul and points it toward Participation and Theosis.
+Transformation is the operational name for what the transformation of the soul toward God is actually doing in souls. It anchors the internal logic of the formation sequence and gives every practice its purpose: each practice is not a task to complete but a channel through which transformation is occurring. It connects the salvation arc - sin, death, resurrection, restoration - to the present life of the soul, and points it toward participation and theosis.
 
 ---
 

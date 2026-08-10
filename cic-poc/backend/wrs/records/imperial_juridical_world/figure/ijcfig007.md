@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Leo I (bp. 440-461)
   name_kind: scholarly
+bridge_line: "A bishop of Rome. His letter on Christ's two natures was read at Chalcedon."
 narratable: true
 story_ids:
 - ijcstory006

@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Abgar V (the correspondence legend; Doc_01 SS2's own identification)
   name_kind: scholarly
+bridge_line: "The king of Edessa who, our founding account says, wrote to Jesus."
 narratable: true
 story_ids:
 - syrstory004

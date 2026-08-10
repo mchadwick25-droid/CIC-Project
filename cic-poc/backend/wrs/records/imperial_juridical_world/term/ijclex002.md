@@ -16,8 +16,7 @@ aliases:
 - prerogative of honor
 - primacy of honor
 - New Rome's rank
-quick_meaning: We hold that a see's rank follows the throne it stands beside — Constantinople is second
-  only because it is where the emperor now sits, New Rome beside old Rome, and that is reason enough.
+quick_meaning: 'A see''s rank follows the throne it stands beside. Constantinople is second because that is where the emperor now sits. New Rome beside old Rome, and for us that is reason enough.'
 world_meaning: 'When the fathers gathered at Constantinople, they did not pretend that our own city held
   the standing it now holds because an apostle once walked its streets — no apostle did. We are not ashamed
   of that; we do not need it to be true. Our city''s standing is real for a different and, we hold, no

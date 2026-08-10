@@ -16,10 +16,9 @@ aliases:
 - razā
 - rāzā
 - shrara/shrārā
-quick_meaning: For this world, a *raza* is not a stand-in or illustration for the *shrara* (truth) it
-  points to — it is bound to that truth and actually carries something of its hidden power, so that reading
-  Scripture and creation by *raza* is closer to perceiving a real connection than decoding an arbitrary
-  sign.
+quick_meaning: 'A raza is not a stand-in or an illustration for the truth it points to. It is bound to that truth and
+  carries something of its hidden power. So reading Scripture, or creation, by raza is closer to seeing a
+  real connection than to decoding a sign someone chose.'
 world_meaning: 'To read by raza is to hold that the world itself, and Scripture within it, is woven through
   with real connections that a properly formed eye can perceive — not connections invented by a clever
   interpreter, but connections that are already there, waiting to be seen. A raza is not a symbol in the
@@ -135,14 +134,12 @@ field_relations:
   target_id: syrlex004
   note: 'The madrasha is the sung vehicle through which this hermeneutic is chiefly performed (chunk Reciprocity
     Note; Doc_04 C1). Chunk Ecological Function (verbatim, absorbed per FLAG-002): This term anchors the
-    theological method that organizes this world''s Worship and Interpretive Ecology (raza/shrara is this
-    world''s Primary organizing gravity, C1, per Doc_04). A participant who understands raza also understands
-    why this world''s theology arrives chiefly through hymn (madrasha) rather than treatise, why Ephrem''s
-    Commentary on the Diatessaron reads Scripture typologically rather than merely narratively, and why
-    boundary-drawing against Bardaisan, Marcion, and Mani (this world''s heresiological gravity, C3) is
-    partly a fight over how symbols may rightly be read — Ephrem''s own refutations accuse his rivals
-    of severing the raza from the shrara it is bound to. Understanding this term is close to understanding
-    this world''s own theological center of gravity.'
+    method that organises how we worship and how we read. A participant who understands raza also
+    understands why our theology arrives chiefly through hymn rather than treatise, why Ephrem''s commentary
+    reads Scripture typologically rather than merely as narrative, and why our arguments against Bardaisan,
+    Marcion and Mani are partly a fight over how symbols may rightly be read - Ephrem accuses them of
+    severing the symbol from the truth it is bound to. Understanding this term is close to understanding our
+    theological centre.'
 - type: associated-with
   target_id: syrlex006
   note: 'The chunks'' own mutual Related-Terms cross-reference (both Reciprocity Notes attest the pair):

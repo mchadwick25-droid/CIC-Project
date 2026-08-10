@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: 1 Clement's anonymous corporate author (traditionally 'Clement of Rome')
   name_kind: scholarly
+bridge_line: "The church at Rome, writing as one church to another. The letter names no author."
 narratable: true
 story_ids:
 - pahcstory002

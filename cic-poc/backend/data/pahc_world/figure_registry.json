@@ -1,0 +1,77 @@
+[
+ {
+  "figure_id": "pahcfig001",
+  "display_name": "Ignatius, bishop of Antioch",
+  "names": [
+   "Ignatius of Antioch (middle recension)",
+   "Ignatius, bishop of Antioch",
+   "Ignatius"
+  ],
+  "bridge_line": "A bishop of Antioch, taken to Rome to die. Seven of his letters survive.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig002",
+  "display_name": "the church at Rome (the voice of the letter to Corinth)",
+  "names": [
+   "1 Clement's anonymous corporate author (traditionally 'Clement of Rome')",
+   "the church at Rome (the voice of the letter to Corinth)"
+  ],
+  "bridge_line": "The church at Rome, writing as one church to another. The letter names no author.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig003",
+  "display_name": "Polycarp of Smyrna",
+  "names": [
+   "Polycarp (Letter to the Philippians; Martyrdom of Polycarp)",
+   "Polycarp of Smyrna",
+   "Polycarp"
+  ],
+  "bridge_line": "A church leader at Smyrna, burned for refusing to curse Christ. His own letter survives.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig004",
+  "display_name": "Hermas",
+  "names": [
+   "Hermas (Shepherd of Hermas, Rome)",
+   "Hermas"
+  ],
+  "bridge_line": "A freed slave in Rome who wrote down his own visions.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig005",
+  "display_name": "Justin",
+  "names": [
+   "Justin Martyr (First Apology)",
+   "Justin Martyr",
+   "Justin"
+  ],
+  "bridge_line": "A Christian teacher. He described our Sunday worship in a letter to the emperor.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig006",
+  "display_name": "Pliny, the governor who questioned us",
+  "names": [
+   "Pliny, the governor who questioned us",
+   "Pliny the Younger (Letters 10.96-97)",
+   "Pliny"
+  ],
+  "bridge_line": "A Roman governor, not a Christian. He questioned Christians and reported to the emperor.",
+  "narratable": true
+ },
+ {
+  "figure_id": "pahcfig007",
+  "display_name": "Tacitus, the historian who recorded the fire",
+  "names": [
+   "Tacitus, the historian who recorded the fire",
+   "Tacitus (Annals 15.44)",
+   "Tacitus"
+  ],
+  "bridge_line": "A Roman historian, not a Christian. He recorded Nero blaming Christians for the fire.",
+  "narratable": true
+ }
+]
