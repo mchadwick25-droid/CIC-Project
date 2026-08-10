@@ -86,6 +86,15 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
     return null;
   }
 
+  // Two-tier (2026-08-10). The marker's count is DRAWN-ON sources only -
+  // that number is a promise about this turn's text, and padding it with
+  // consulted sources would make the promise false. Consulted entries still
+  // appear, below the drawn-on ones and labelled as what they are.
+  const isDrawnOn = (c: Citation) => c.grounded !== false;
+  const drawnOn = citations.filter(isDrawnOn);
+  const consulted = citations.filter((c) => !isDrawnOn(c));
+  const ordered = [...drawnOn, ...consulted];
+
   const handlePointerDown = (event: React.PointerEvent<HTMLSpanElement>) => {
     lastPointerTypeRef.current = event.pointerType;
   };
@@ -118,27 +127,36 @@ export function CitationMarker({ citations, onDetailClick }: CitationMarkerProps
       onMouseLeave={() => setShowTooltip(false)}
       onPointerDown={handlePointerDown}
       onClick={handleClick}
-      aria-label={`${citations.length} source${citations.length > 1 ? 's' : ''} for this turn`}
+      aria-label={
+        `${drawnOn.length} source${drawnOn.length === 1 ? '' : 's'} drawn on for this turn` +
+        (consulted.length ? `, ${consulted.length} more consulted` : '')
+      }
     >
       <span className="citation-marker__icon">&#x2732;</span>
-      {citations.length > 1 && (
-        <span className="citation-marker__count">{citations.length}</span>
+      {drawnOn.length > 1 && (
+        <span className="citation-marker__count">{drawnOn.length}</span>
       )}
       {showTooltip && (
         <div className={`citation-tooltip citation-tooltip--${tooltipPosition}`}
           style={{ '--tooltip-shift': `${tooltipShift}px` } as React.CSSProperties}
         >
           <div className="citation-tooltip__list">
-            {citations.slice(0, 4).map((citation, index) => (
-              <div key={index} className="citation-tooltip__item">
+            {ordered.slice(0, 4).map((citation, index) => (
+              <div
+                key={index}
+                className={`citation-tooltip__item${isDrawnOn(citation) ? '' : ' citation-tooltip__item--consulted'}`}
+              >
                 <span className={`citation-tooltip__kind citation-tooltip__kind--${citation.type || 'lexicon'}`}>
                   {citation.type === 'story' ? 'Story' : 'Term'}
                 </span>
                 <span className="citation-tooltip__term">{citation.term}</span>
+                {!isDrawnOn(citation) && (
+                  <span className="citation-tooltip__tier">consulted</span>
+                )}
               </div>
             ))}
-            {citations.length > 4 && (
-              <div className="citation-tooltip__more">+{citations.length - 4} more</div>
+            {ordered.length > 4 && (
+              <div className="citation-tooltip__more">+{ordered.length - 4} more</div>
             )}
           </div>
           <button

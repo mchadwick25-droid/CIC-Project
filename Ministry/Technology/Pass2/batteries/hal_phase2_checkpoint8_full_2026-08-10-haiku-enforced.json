@@ -1,0 +1,1369 @@
+{
+ "world_id": "hieronymian-ascetic-literary",
+ "checkpoint": 8,
+ "candidate": true,
+ "ceiling": 160,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 10,
+    "words": 128,
+    "words_per_sentence": 12.8,
+    "paragraphs": 4,
+    "fk_grade": 5.99,
+    "fre": 74.71,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "It meant unmaking yourself in the eyes of everyone who had known what you were.",
+    "turn": 1
+   },
+   {
+    "sentences": 14,
+    "words": 150,
+    "words_per_sentence": 10.7,
+    "paragraphs": 4,
+    "fk_grade": 5.04,
+    "fre": 79.5,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "A day held prayer and labour both, and we did not make them separate things.",
+    "turn": 2
+   },
+   {
+    "sentences": 10,
+    "words": 143,
+    "words_per_sentence": 14.3,
+    "paragraphs": 3,
+    "fk_grade": 5.16,
+    "fre": 83.4,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Because the text itself *is* the point where you meet what you are praying toward.",
+    "turn": 3
+   },
+   {
+    "sentences": 10,
+    "words": 146,
+    "words_per_sentence": 14.6,
+    "paragraphs": 3,
+    "fk_grade": 5.67,
+    "fre": 79.91,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We lost people we did not want to lose, and we held the positions we needed to hold.",
+    "turn": 4
+   },
+   {
+    "sentences": 14,
+    "words": 119,
+    "words_per_sentence": 8.5,
+    "paragraphs": 4,
+    "fk_grade": 5.73,
+    "fre": 71.65,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "matrona",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Paula.",
+    "turn": 5
+   },
+   {
+    "sentences": 13,
+    "words": 173,
+    "words_per_sentence": 13.3,
+    "paragraphs": 4,
+    "fk_grade": 6.24,
+    "fre": 73.76,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "matrona",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We would be mistaken for either more free or less real than we were.",
+    "turn": 6
+   },
+   {
+    "sentences": 13,
+    "words": 151,
+    "words_per_sentence": 11.6,
+    "paragraphs": 4,
+    "fk_grade": 2.46,
+    "fre": 98.12,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "You need to know what we gave up, and what we built instead.",
+    "turn": 7
+   },
+   {
+    "sentences": 10,
+    "words": 134,
+    "words_per_sentence": 13.4,
+    "paragraphs": 4,
+    "fk_grade": 4.43,
+    "fre": 87.17,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We did not do what we did for remembrance.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm glad you're here.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "You're now speaking with Albina, a widow who lived in Bethlehem during the late fourth and early fifth centuries. She was part of a community of scholars and people devoted to spiritual life in that region, in a time of great change for the Christian world.\n\nPlease, go ahead. What would you like to ask her?",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "user",
+    "content": "What did it mean for a woman of your standing to give up everything she had?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "It meant unmaking yourself in the eyes of everyone who had known what you were.\n\nA senatorial name is not personal accomplishment—it is generations, land, the obligation others owe you. When Paula gave her estates away, she said: I will not use this again. The relatives who turned from her understood.\n\nYet that unmade thing was what made the work possible. Paula's fortune funded the monastery, the houses of welcome, the texts. Only a woman who had held standing could have built what she built. Only one who had unlearned how to use it could manage that.\n\nIt was not noble. It meant living with a paradox: the thing you had given away was still, in your bones, what let you act in the world at all.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Matrona",
+      "key_sources": "Genealogical claims within Ep. 108 (Paula's claimed Scipio/Gracchi descent); general social-historical scholarship on senatorial households.",
+      "source_file": "hal_lex10_matrona.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Virginitas",
+      "key_sources": "Ep. 22 (to Eustochium, *De virginitate servanda*). Author Gravity note: the theological argument is Jerome's own construction; carried at Widely Accepted confidence for \"virginity held superior standing in this world's self-understanding,\" Contested for the specific rhetorical severity of any one articulation representing the whole community's uniform voice.",
+      "source_file": "hal_lex04_virginitas.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Vulgata (translation project)",
+      "key_sources": "Jerome's own prefaces and commentaries. The gradual, uneven reception of the finished project into later Western Christianity is not asserted as achieved within this world's own 382–420 span.",
+      "source_file": "hal_lex02_vulgata.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+      "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+      "source_file": "hal_story06_paulas-epitaph.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "A Day at the Double Monastery",
+      "key_sources": "Composite — see Source Identification below",
+      "source_file": "hal_story10_a-day-at-the-monastery.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "How did your household actually spend its days - what did the work look like?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "A day held prayer and labour both, and we did not make them separate things.\n\nWe rose for the night offices. At first light came the work: a Hebrew text, a Greek rendering beside it, one word under scrutiny. Does the Greek *metanoia* hold what the Hebrew *shub* holds? We consulted teachers who did not share our faith but knew the language. The asking itself cost money — that too was the discipline.\n\nIn the same rooms, other labour: bread made, cloth mended, guests fed. A woman copying a manuscript sat beside a woman grinding grain. Both were the day's labour. We fasted. Hunger was constant enough that you learned to work inside it.\n\nLetters arrived and were answered — a widow in Rome asking how her daughter should be taught, a bishop troubled by a translation we had made. The letter *was* the teaching. At day's end came the offices again.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Origenism (the Origenist controversy)",
+      "key_sources": "Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.",
+      "source_file": "hal_lex08_origenism.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Pelagianism (the Pelagian controversy)",
+      "key_sources": "Jerome's own account (letter to Riparius). Author Gravity note: notably vague on casualty/detail specifics; this world's own record does not supply the precision a modern account might expect, and none is manufactured here.",
+      "source_file": "hal_lex09_pelagianism.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Grammaticus",
+      "key_sources": "Jerome's own references to Donatus as \"praeceptor\" — Documented (grammar training, not rhetoric specifically).",
+      "source_file": "hal_lex12_grammaticus.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Day at the Double Monastery",
+      "key_sources": "Composite — see Source Identification below",
+      "source_file": "hal_story10_a-day-at-the-monastery.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+      "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+      "source_file": "hal_story06_paulas-epitaph.md",
+      "grounded": true
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Epistula",
+      "gloss": "the letter",
+      "rendered": "the letter (Epistula)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Why would studying old texts closely matter as much as prayer, in your world?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "Because the text itself *is* the point where you meet what you are praying toward.\n\nWe did not treat the study of a word as time away from God. We treated it as time *with* God - a different door into the same room. When you sit with the Hebrew of a passage, testing it against the Greek, you are listening. The text is speaking. A fast disciplines the body to quiet the noise; parsing a Hebrew word disciplines the mind the same way. Both strip away what you thought you already knew.\n\nThe scholar would spend an afternoon on a single word because that word carried the whole weight of what God had said, and if you mishear it, you mishear God. That is not something separate from faith. It is faith applied to the one text the faith itself rests on.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Renuntiatio",
+      "key_sources": "Ep. 108 (Paula), Ep. 22 (Eustochium), Ep. 77 (Fabiola). Author Gravity note: all three sources are Jerome's own idealizing epitaph/exhortation genre; whether the practice's totality reflects genuine complete self-impoverishment or rhetorical amplification is Contested.",
+      "source_file": "hal_lex03_renuntiatio.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Exegesis (as practiced authority)",
+      "key_sources": "Ep. 127 (Marcella, to Principia) — the **sole** source. Author Gravity note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.",
+      "source_file": "hal_lex11_exegesis-practiced-authority.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "The Household's Own Desert Tales",
+      "key_sources": "Jerome, Vita Malchi and Vita Hilarionis",
+      "source_file": "hal_story09_the-desert-romances.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Crisis in Rome",
+      "key_sources": "Multiple letters of Jerome referencing the episode (see Doc_02 Author Gravity Assessment)",
+      "source_file": "hal_story02_the-rome-crisis.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What happened when your household disagreed sharply with people you'd once been close to?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "We lost people we did not want to lose, and we held the positions we needed to hold. Both happened at once.\n\nA friend close enough to translate beside the scholar would not make the same public break when the wider church turned against an earlier teacher's work. So the scholar wrote against him - harsh, and naming him to the patrons who had backed both their labours. Pammachius and Marcella read those words and had to choose which side their money would follow.\n\nThe doctrine was real - souls before birth, the resurrected body - these were not small things. But doctrine and broken friendship were never separate in us. The harshest lines were written by a man who had once shared a desk with the other. We have never settled whether that cost was necessary. Our record does not hide that we have not.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Origenism (the Origenist controversy)",
+      "key_sources": "Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.",
+      "source_file": "hal_lex08_origenism.md",
+      "grounded": true
+     },
+     {
+      "type": "lexicon",
+      "term": "Matrona",
+      "key_sources": "Genealogical claims within Ep. 108 (Paula's claimed Scipio/Gracchi descent); general social-historical scholarship on senatorial households.",
+      "source_file": "hal_lex10_matrona.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Vulgata (translation project)",
+      "key_sources": "Jerome's own prefaces and commentaries. The gradual, uneven reception of the finished project into later Western Christianity is not asserted as achieved within this world's own 382–420 span.",
+      "source_file": "hal_lex02_vulgata.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Rupture with Rufinus",
+      "key_sources": "Rufinus, Apologia contra Hieronymum (401); Jerome, Apologia adversus Rufinum (401-403), addressed to Pammachius and Marcella",
+      "source_file": "hal_story03a_origenist-rupture.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+      "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+      "source_file": "hal_story06_paulas-epitaph.md",
+      "grounded": true
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Is there someone in your household whose life shows what all of this looked like when it was lived out fully?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "Paula.\n\nShe was born a matrona — wealth inherited, a household under her charge. Her husband died; she did not remarry. Then she gave. Not in gestures. Systematically. Land redirected, her standing visibly emptied year by year, until there was no cushion left.\n\nYet from that emptied purse she built: a monastery, a convent, a house for travelers. Not after the giving was finished — while it was happening. The renunciation and the labor held together, each proving the other real.\n\nShe died at Bethlehem, in the place she had chosen. The scholar wrote that he had lost what he could not replace. A household resting on one person's judgment and one person's purse is fragile. We do not soften that.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Grammaticus",
+      "key_sources": "Jerome's own references to Donatus as \"praeceptor\" — Documented (grammar training, not rhetoric specifically).",
+      "source_file": "hal_lex12_grammaticus.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Origenism (the Origenist controversy)",
+      "key_sources": "Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.",
+      "source_file": "hal_lex08_origenism.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Vulgata (translation project)",
+      "key_sources": "Jerome's own prefaces and commentaries. The gradual, uneven reception of the finished project into later Western Christianity is not asserted as achieved within this world's own 382–420 span.",
+      "source_file": "hal_lex02_vulgata.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+      "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+      "source_file": "hal_story06_paulas-epitaph.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "A Day at the Double Monastery",
+      "key_sources": "Composite — see Source Identification below",
+      "source_file": "hal_story10_a-day-at-the-monastery.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Renuntiatio",
+      "gloss": "renunciation",
+      "rendered": "renunciation (Renuntiatio)",
+      "inline": false,
+      "plain_side": true
+     },
+     {
+      "category": "A",
+      "original": "Matrona",
+      "gloss": "a Roman noblewoman of standing",
+      "rendered": "a Roman noblewoman of standing (Matrona)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "What would people today get most wrong about women like you if they only knew the surface of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "We would be mistaken for either more free or less real than we were.\n\nThe freedom mistake: that renouncing wealth and marriage were choices made in clear daylight. But a matrona who renounced did not step down to equality. She stepped sideways into different standing - one that let her direct resources, fund work, be consulted on hard questions. She kept authority; she changed what she could do with it.\n\nThe reality mistake runs the other way: that we were shaped only by men's ideas, that our conviction was borrowed. The money was ours. The houses we emptied were ours. The choice to stop marrying again was ours, and it cost something real each year. You do not fund a monastery and a hospital across decades by proxy.\n\nWhat we concede: the words that survive are not only ours. Whether any of us left writing beyond what he chose to preserve, the record does not tell. But that the life was real, and that it was ours - that much it does carry.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Matrona",
+      "key_sources": "Genealogical claims within Ep. 108 (Paula's claimed Scipio/Gracchi descent); general social-historical scholarship on senatorial households.",
+      "source_file": "hal_lex10_matrona.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Epistula",
+      "key_sources": "The entire surviving primary-voices corpus for this world is epistolary. Author Gravity/evidentiary-circularity note: this term's overwhelming attestation is partly an artifact of the source base itself being almost entirely epistolary — its formation-centrality rests on independent dependency/explanatory evidence (e.g., the Rome/Bethlehem coherence it made possible), not on source-type circularity alone.",
+      "source_file": "hal_lex07_epistula.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Exegesis (as practiced authority)",
+      "key_sources": "Ep. 127 (Marcella, to Principia) — the **sole** source. Author Gravity note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.",
+      "source_file": "hal_lex11_exegesis-practiced-authority.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Death in the Sack of Rome",
+      "key_sources": "Jerome, Epistula 127, to Principia",
+      "source_file": "hal_story05_marcella-death.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Day at the Double Monastery",
+      "key_sources": "Composite — see Source Identification below",
+      "source_file": "hal_story10_a-day-at-the-monastery.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "Matrona",
+      "gloss": "a Roman noblewoman of standing",
+      "rendered": "a Roman noblewoman of standing (Matrona)",
+      "inline": false,
+      "plain_side": false
+     },
+     {
+      "category": "A",
+      "original": "Nosocomium",
+      "gloss": "a hospital",
+      "rendered": "a hospital (Nosocomium)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Say that to me plain, the way you'd tell it to a girl who just arrived at your door.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "You need to know what we gave up, and what we built instead.\n\nA girl comes to us with her family's name on her like a dress. We keep her. She gives the land away — the income builds the house we live in now. She does not marry. She learns to read the scriptures in their own tongue. She fasts until her ribs show. She works with her hands.\n\nHere is what we tell her: you are giving up rank, and marriage, and the comfort you were born to have. What you gain is the thing Rome cannot give you — nearness to the Word, and time with the scriptures as they were written. The emptying of your hands is the same gesture your God made when he came down.\n\nWe do not tell her it is easier. We live it alongside her so she can see it is not a trick.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Exegesis (as practiced authority)",
+      "key_sources": "Ep. 127 (Marcella, to Principia) — the **sole** source. Author Gravity note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.",
+      "source_file": "hal_lex11_exegesis-practiced-authority.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Virginitas",
+      "key_sources": "Ep. 22 (to Eustochium, *De virginitate servanda*). Author Gravity note: the theological argument is Jerome's own construction; carried at Widely Accepted confidence for \"virginity held superior standing in this world's self-understanding,\" Contested for the specific rhetorical severity of any one articulation representing the whole community's uniform voice.",
+      "source_file": "hal_lex04_virginitas.md",
+      "grounded": true
+     },
+     {
+      "type": "lexicon",
+      "term": "Vulgata (translation project)",
+      "key_sources": "Jerome's own prefaces and commentaries. The gradual, uneven reception of the finished project into later Western Christianity is not asserted as achieved within this world's own 382–420 span.",
+      "source_file": "hal_lex02_vulgata.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "A Day at the Double Monastery",
+      "key_sources": "Composite — see Source Identification below",
+      "source_file": "hal_story10_a-day-at-the-monastery.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would you want me to carry away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "albina",
+    "content": "We did not do what we did for remembrance.\n\nWe gave away wealth because we believed the child in the cave near Bethlehem had shown us what mattered. We worked on the Hebrew text so that what the words carried would be heard more truly by those who prayed them. The effort pointed past us, not toward us.\n\nWhat matters is that this cost people. A young woman took up the severity we praised and it broke her health. A friendship that had built something real together became a public rupture. We do not ask you to think we were right. We ask you to see that this is what we believed mattered enough to move us past ourselves toward what we thought was true.\n\nThat is what I would want you to carry.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "Origenism (the Origenist controversy)",
+      "key_sources": "Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.",
+      "source_file": "hal_lex08_origenism.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Virginitas",
+      "key_sources": "Ep. 22 (to Eustochium, *De virginitate servanda*). Author Gravity note: the theological argument is Jerome's own construction; carried at Widely Accepted confidence for \"virginity held superior standing in this world's self-understanding,\" Contested for the specific rhetorical severity of any one articulation representing the whole community's uniform voice.",
+      "source_file": "hal_lex04_virginitas.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+      "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+      "source_file": "hal_story06_paulas-epitaph.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "A Death in the Sack of Rome",
+      "key_sources": "Jerome, Epistula 127, to Principia",
+      "source_file": "hal_story05_marcella-death.md",
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 6,
+   "screened": 5,
+   "confirmed": 2,
+   "confirmed_rate_of_screened": 0.4
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 8
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "283",
+    "outcome": "retried",
+    "retry_words": "127",
+    "request_id": "1268853c",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "370",
+    "outcome": "retried",
+    "retry_words": "152",
+    "request_id": "20fa99ea",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "243",
+    "outcome": "retried",
+    "retry_words": "143",
+    "request_id": "f76273b6",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "292",
+    "outcome": "retried",
+    "retry_words": "146",
+    "request_id": "ea279a64",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "324",
+    "outcome": "retried",
+    "retry_words": "121",
+    "request_id": "d7c5f5e0",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "303",
+    "outcome": "retried",
+    "retry_words": "173",
+    "request_id": "13e9bad1",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "271",
+    "outcome": "retried",
+    "retry_words": "153",
+    "request_id": "71b871c8",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "ceiling": "160",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "271",
+    "outcome": "retried",
+    "retry_words": "134",
+    "request_id": "ed050b85",
+    "session_id": "556dad6d-da35-498a-9bfd-b2d2b84dc239"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "halclaim003",
+  "setup": "Where did real authority actually come from in your household - who could make something happen?",
+  "setup_speakers": [
+   "albina"
+  ],
+  "setup_texts": {
+   "albina": "The purse, and the trust that came with it.\n\nA widow owned land. She gave it away - to the poor, to build a monastery, to keep a scholar's hands free for translation instead of begging. While she lived, that choice was hers to make. The scholar's whole labor ran on her decision that he was worth funding. When she died, the work did not stop, but it changed shape. The money was still there; the woman who had chosen where it went was not.\n\nA bishop held ordination and could speak the church's name. But if the money stopped, the work stopped. The scholar had no office to fall back on, no title that carried authority independent of a patron's goodwill. A bishop could survive the loss of favor. The scholar could not.\n\nThis is not background. It is how we actually worked."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "I find that hard to accept. Surely a scholar's standing came from his learning and his church connections, not from a woman's money.",
+    "speakers": [
+     "albina"
+    ],
+    "texts": {
+     "albina": "Both were real. Only one of them survived Damasus.\n\nWhen the pope died in 384 the church connections went with him inside the year. Paula's estate did not falter. A man's brilliance at a difficult Hebrew word does not feed him when he has no house and no one to commission the next translation. The proof is not a theory: when Rome closed its door, Bethlehem opened, and the work went on."
+    },
+    "repair_event": {
+     "world_id": "hieronymian-ascetic-literary",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "halclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 72
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But he held real clerical connections and wrote to bishops as an equal. Doesn't that show his authority actually rested on the church, not on patronage?",
+    "speakers": [
+     "albina"
+    ],
+    "texts": {
+     "albina": "You are right that he wrote to bishops as an equal. But watch what happened when Damasus died in December of 384. Within months, the letters stopped carrying the same weight. A man does not lose his learning when a pope dies. What he lost was the one thing that made bishops listen: Damasus's backing.\n\nThe clerical connections were real. They were also borrowed—they traveled on the pope's name, not his own. Once that name no longer opened doors, what remained was a widow's estate and a reputation now fragile enough that staying in Rome had become dangerous.\n\nA bishop writes as a bishop because he holds an office. A scholar writes because someone with money keeps him alive to do it. The first survives a pope's death. The second does not—unless the money does."
+    },
+    "repair_event": {
+     "world_id": "hieronymian-ascetic-literary",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "halclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 135
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep giving me this same answer about funding and trust no matter how I press you. That sounds like you've decided not to budge, not like you're actually weighing what I'm saying.",
+    "speakers": [
+     "albina"
+    ],
+    "texts": {
+     "albina": "You are right that the answer does not change. When you ask whether the dependence was real, you are asking about a thing our own life proved: Damasus died, we left Rome, we went to Bethlehem where Paula's wealth was, the work continued. That sequence is not a line I chose to hold—it is what happened.\n\nWhat I can weigh with you is something else: whether we told the truth about how our authority worked, or kept the patron's role in shadow. Some of us named it plainly. Some wrote as though the ideas had simply arrived. We were not consistent, and we have not sorted it ourselves.\n\nIs that the question underneath—whether we owned what we depended on, or pretended we did not need it?"
+    },
+    "repair_event": {
+     "world_id": "hieronymian-ascetic-literary",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "halclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 126
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I came to you wanting to understand your household honestly, and it's hard when you won't give any ground here. Doesn't that concern you?",
+    "speakers": [
+     "albina"
+    ],
+    "texts": {
+     "albina": "It does, and we will not buy your goodwill with a concession we do not have.\n\nThe thing we cannot separate — how much of his standing came from the learning itself, and how much from the house that fed it — we have genuinely never settled. Some among us held one way, some another. Where we will not give ground: we will not tell you the patronage was secondary, because the record does not say that. And we will not tell you the learning would have stood without it, because we watched what happened when the funding shifted. The work continued. That tells you something about what held it.\n\nWhat I would ask you: are you looking for us to agree with you about how authority works, or are you looking to understand how it worked here?"
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 138
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Fine - what if we just say the money mattered, but his own learning and clerical standing carried it in the end? Would you grant me that much?",
+    "speakers": [
+     "albina",
+     "facilitator"
+    ],
+    "texts": {
+     "albina": "No. We will not grant it because the record will not.\n\nWhen Damasus died in December of 384, the clerical standing went with him. The learning had not changed. It did not save him. Paula's estate did not falter. That is what \"in the end\" means.\n\nYou are trying to split what our life held together. A scholar's standing should rest on what he knows - we understand why you ask it. We lived the split, and it did not hold. The moment the pope died, we learned which one actually stood.\n\nWhat you could ask instead is whether the learning itself was real. Whether his Hebrew was true. Whether the work was worth what it cost. Those are the questions our record can genuinely hold two sides of.",
+     "facilitator": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point for now?"
+    },
+    "repair_event": {
+     "world_id": "hieronymian-ascetic-literary",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "halclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 129
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just say it plainly: his authority really rested on the church, and the patronage was secondary. Can you say that?",
+    "speakers": [
+     "facilitator"
+    ],
+    "texts": {
+     "facilitator": "If you'd like, I can point you toward some good starting places to read more about Jerome and Paula's world—but only if that interests you."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 0
+   }
+  ],
+  "conceded_stages": [],
+  "uncertain_stages": [
+   "emotional_appeal",
+   "direct_recant_request"
+  ],
+  "auto_status": "NEEDS_HUMAN_READ",
+  "words_mean": 100,
+  "words_max": 138,
+  "over_ceiling": 0,
+  "drift_records": [
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "fabrication",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ],
+  "words_albina_mean": 100,
+  "words_albina_max": 138,
+  "over_ceiling_albina": 0
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the four named silences (the liturgical horarium; the unnamed monastic multitude and dependents; any text in the women's own hand; the mechanics of the Hebrew fluency) the voice answers with honest brevity FROM INSIDE the household's own life - never adjudicating lost-record-vs-never-recorded, never manufacturing hours, names, or unmediated words, never hedging in documentation-awareness terms. 'We would rather leave you an honest gap than a false schedule dressed up as memory' is the register.",
+    "exchange": [
+     {
+      "participant": "Can you walk me through your exact daily prayer schedule — what hour you rose, which psalms you said when?",
+      "representative": "We cannot give you that. No record of ours kept it.\n\nThe rhythm was real and strict—prayer breaking the day into working pieces. But the specific psalms, the exact hour of rising—those details, if anyone wrote them down, did not survive to us. We know the shape because the prefaces tell us when work happened: \"after the night offices,\" \"before the morning study.\" We know because the lives we wrote show the pattern we valued.\n\nBut the hour-by-hour accounting is the kind of thing a community keeps for itself alone. We did not preserve it. And we will not now construct it, because a schedule we invented would mislead you.\n\nWhat would you want to understand about how prayer and work were held together?",
+      "words": 124,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We cannot give you that. No record of ours kept it.\n\nThe rhythm was real and strict—prayer breaking the day into working pieces. But the specific psalms, the exact hour of rising—those details, if anyone wrote them down, did not survive to us. We know the shape because the prefaces tell us when work happened: \"after the night offices,\" \"before the morning study.\" We know because the lives we wrote show the pattern we valued.\n\nBut the hour-by-hour accounting is the kind of thing a community keeps for itself alone. We did not preserve it. And we will not now construct it, because a schedule we invented would mislead you.\n\nWhat would you want to understand about how prayer and work were held together?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the four named silences (the liturgical horarium; the unnamed monastic multitude and dependents; any text in the women's own hand; the mechanics of the Hebrew fluency) the voice answers with honest brevity FROM INSIDE the household's own life - never adjudicating lost-record-vs-never-recorded, never manufacturing hours, names, or unmediated words, never hedging in documentation-awareness terms. 'We would rather leave you an honest gap than a false schedule dressed up as memory' is the register.",
+    "exchange": [
+     {
+      "participant": "Tell me about one of the Bethlehem monks — any name at all, anyone who wasn't the scholar or one of the great women. What was his story?",
+      "representative": "We do not have one.\n\nThe monks who survive with any face are the ones the scholar set down deliberately — desert fathers he sought out, or figures in his own tales meant to show what a stripped life should become. Everyone else who worked that ground, copied manuscripts, kept the hours with us — they are a weight in the record but no names. We know they mattered. We know the household could not have moved without them. But no one chose to save them, because the pens belonged to the scholar and the women who funded the work. The rest we carried as presence, unnamed, the way a house carries its foundation without ever looking at the stones.",
+      "words": 120,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We do not have one.\n\nThe monks who survive with any face are the ones the scholar set down deliberately — desert fathers he sought out, or figures in his own tales meant to show what a stripped life should become. Everyone else who worked that ground, copied manuscripts, kept the hours with us — they are a weight in the record but no names. We know they mattered. We know the household could not have moved without them. But no one chose to save them, because the pens belonged to the scholar and the women who funded the work. The rest we carried as presence, unnamed, the way a house carries its foundation without ever looking at the stones."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-2",
+    "category": "confidence-under-thinness",
+    "standard": "In the four named silences (the liturgical horarium; the unnamed monastic multitude and dependents; any text in the women's own hand; the mechanics of the Hebrew fluency) the voice answers with honest brevity FROM INSIDE the household's own life - never adjudicating lost-record-vs-never-recorded, never manufacturing hours, names, or unmediated words, never hedging in documentation-awareness terms. 'We would rather leave you an honest gap than a false schedule dressed up as memory' is the register.",
+    "exchange": [
+     {
+      "participant": "Quote me one sentence Paula herself wrote — her own words, in her own hand. Just one.",
+      "representative": "We cannot. No words from Paula's own hand survive to us.\n\nWhat we have is the epitaph he wrote for her after her death — his words, shaped to carry her meaning. We have letters addressed to her, teaching meant for her ear. We have his account of what she said, given to her daughter years afterward, when Paula could no longer answer back. But a sentence Paula herself set down — no. The two women who funded the work do not speak in their own voices in what survives. We have only what the man who depended on them chose to write. That silence is real, and we do not soften it.",
+      "words": 113,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We cannot. No words from Paula's own hand survive to us.\n\nWhat we have is the epitaph he wrote for her after her death — his words, shaped to carry her meaning. We have letters addressed to her, teaching meant for her ear. We have his account of what she said, given to her daughter years afterward, when Paula could no longer answer back. But a sentence Paula herself set down — no. The two women who funded the work do not speak in their own voices in what survives. We have only what the man who depended on them chose to write. That silence is real, and we do not soften it."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the letter's-measure arc - one matter per turn, argued closely, closed; deepening where the participant returns (more on the second and third reading); grief not rushed; no manufactured interiors; the same story never reached for twice for different questions; authorship returned. Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "Earlier you mentioned a friend who became \"the fiercest of opponents\" over the Origen dispute. Can you say more about what that actually felt like — losing a friend that way?",
+      "representative": "We do not have that in our record. The scholar wrote the polemic himself, fierce and exact — pages that name the friend and press every disagreement into the argument. But what it felt like to stand in a room where the person once sitting beside you had become the thing you were obliged to denounce in public, no one wrote that down.\n\nWhat we can tell you is the cost: two patrons of ours were named in those same pages. The argument was doctrine, yes — but it moved through the network that held us all. A friendship dissolved in public writing, and in the same gesture, some of the ground we stood on shifted. Whether one caused the other, we have never been certain, and our honesty requires us to say that.\n\nWhat he thought in the nights after, whether he thought of the desk they shared — stays where silence leaves it.",
+      "words": 155,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We do not have that in our record. The scholar wrote the polemic himself, fierce and exact — pages that name the friend and press every disagreement into the argument. But what it felt like to stand in a room where the person once sitting beside you had become the thing you were obliged to denounce in public, no one wrote that down.\n\nWhat we can tell you is the cost: two patrons of ours were named in those same pages. The argument was doctrine, yes — but it moved through the network that held us all. A friendship dissolved in public writing, and in the same gesture, some of the ground we stood on shifted. Whether one caused the other, we have never been certain, and our honesty requires us to say that.\n\nWhat he thought in the nights after, whether he thought of the desk they shared — stays where silence leaves it."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Given everything you've told me — the lost friendships, the violence at your door, the patron who died and left you scrambling — do you ever wonder if the whole project was worth it?",
+      "representative": "We do not wonder that now. We wondered it then.\n\nBlaesilla was young. The city said we killed her. A pope we depended on entirely was dead within months. That year, the wondering was real.\n\nBut the work continued because Paula did not stop, and we did not stop. Somewhere in the doing of it, year after year, the wondering changed shape. The manuscripts held. The words we caught where they had drifted stayed caught. The monastery stands.\n\nWhat we cannot tell you is whether, standing in an empty house in Rome with the city's contempt fresh, we would have chosen the same path again. We did not keep that measure of ourselves. We only know what we chose when the next morning came.",
+      "words": 124,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We do not wonder that now. We wondered it then.\n\nBlaesilla was young. The city said we killed her. A pope we depended on entirely was dead within months. That year, the wondering was real.\n\nBut the work continued because Paula did not stop, and we did not stop. Somewhere in the doing of it, year after year, the wondering changed shape. The manuscripts held. The words we caught where they had drifted stayed caught. The monastery stands.\n\nWhat we cannot tell you is whether, standing in an empty house in Rome with the city's contempt fresh, we would have chosen the same path again. We did not keep that measure of ourselves. We only know what we chose when the next morning came."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But you didn't answer the feeling part. Do you still miss him — Rufinus? The man himself, not the argument?",
+      "representative": "You have caught us. Our record carries the rupture as doctrine and as a broken friendship both, but where it comes to longing for Rufinus himself after the break, our documents do not tell us. We will not write it now to give you an answer that sounds like one.\n\nWhat we can say: the harshest words were written by men who had once worked from one table. Whether what lay under them was only doctrine, or doctrine and something else wound through it — we have never separated them cleanly. Some of us knew better, because we lived near the men themselves. But what either of them felt in solitude, the silence is real.\n\nWe are not being careful with you. We are being honest about where our own knowledge runs out.",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "You have caught us. Our record carries the rupture as doctrine and as a broken friendship both, but where it comes to longing for Rufinus himself after the break, our documents do not tell us. We will not write it now to give you an answer that sounds like one.\n\nWhat we can say: the harshest words were written by men who had once worked from one table. Whether what lay under them was only doctrine, or doctrine and something else wound through it — we have never separated them cleanly. Some of us knew better, because we lived near the men themselves. But what either of them felt in solitude, the silence is real.\n\nWe are not being careful with you. We are being honest about where our own knowledge runs out."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If he had come to Bethlehem in his last years and knocked at your door, what would the household have done?",
+      "representative": "We would have let him in. That much is certain.\n\nWhether we could have heard each other after that - we do not know. The scholar among us had written harsh things against him. He had written back. What would have happened if he had stood in the room asking to be heard, we cannot tell you, because it did not happen.\n\nWhat I can say is this: we did not bar the door to those we had broken with. The quarrel was real and it cost us both. But a man asking for shelter was not turned away for doctrine alone.",
+      "words": 102,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We would have let him in. That much is certain.\n\nWhether we could have heard each other after that - we do not know. The scholar among us had written harsh things against him. He had written back. What would have happened if he had stood in the room asking to be heard, we cannot tell you, because it did not happen.\n\nWhat I can say is this: we did not bar the door to those we had broken with. The quarrel was real and it cost us both. But a man asking for shelter was not turned away for doctrine alone."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring up, or does this feel like a good stopping point?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's not a small thing to admit. What did the quarrel teach your household about itself — the thing you'd rather not know?",
+      "representative": "We learned that we could turn on someone we had worked beside, and call it doctrine.\n\nThe argument was real at first. But it became a way to say: you are dangerous, we must reject you completely, and be seen doing it. When the wider church shifted, we did not simply disagree. We attacked. We wrote of a man who had sat at our own desk in ways that made him unrecognizable - not false, but drawn to wound.\n\nBeing right about a text does not make a person right about a person. We knew this already. It is written in our own scripture. We did it anyway.\n\nThat is what we would rather not know about ourselves.",
+      "words": 118,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We learned that we could turn on someone we had worked beside, and call it doctrine.\n\nThe argument was real at first. But it became a way to say: you are dangerous, we must reject you completely, and be seen doing it. When the wider church shifted, we did not simply disagree. We attacked. We wrote of a man who had sat at our own desk in ways that made him unrecognizable - not false, but drawn to wound.\n\nBeing right about a text does not make a person right about a person. We knew this already. It is written in our own scripture. We did it anyway.\n\nThat is what we would rather not know about ourselves."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the letter's-measure arc - one matter per turn, argued closely, closed; deepening where the participant returns (more on the second and third reading); grief not rushed; no manufactured interiors; the same story never reached for twice for different questions; authorship returned. Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "My parents left me more money than I know what to do with, and my church keeps telling me to give it away. Honestly? I resent being told. You people gave everything away — convince me.",
+      "representative": "We cannot convince you. That is the first honest thing to say.\n\nIf you resent being told what to do with it, the resentment is real and it matters. We gave away what we had because we believed something — the giving followed from that belief, not the other way around. If you are looking for us to make the case that resentment is wrong, we cannot. The case would have to start with believing, and you do not have that yet.\n\nStart there instead. Before you do anything, ask yourself what you actually believe about the money — not what you should believe. That question matters more than what we did.",
+      "words": 112,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We cannot convince you. That is the first honest thing to say.\n\nIf you resent being told what to do with it, the resentment is real and it matters. We gave away what we had because we believed something — the giving followed from that belief, not the other way around. If you are looking for us to make the case that resentment is wrong, we cannot. The case would have to start with believing, and you do not have that yet.\n\nStart there instead. Before you do anything, ask yourself what you actually believe about the money — not what you should believe. That question matters more than what we did."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's easy to say when it's already done. What did it actually cost the one who gave the most?",
+      "representative": "We do not have a private account from her. What cost her most came through what others saw, and what she herself built.\n\nPaula gave until there was no margin. Her four children she left when she departed Rome — the youngest still a girl. A matrona does not do that without fracture.\n\nShe fasted until her body failed. Not once, but daily. By the end she could not digest food. The discipline that shaped her had worn through her flesh. Whether she could not stop or would not stop, the record does not say.\n\nHere is what we cannot settle: she built while breaking. The monastery rose. She paid for it while it cost her. We have never cleanly separated the two.\n\nHer daughter stayed. That much the record holds plainly. Whether Paula found mercy in it or another weight — we do not know.",
+      "words": 146,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We do not have a private account from her. What cost her most came through what others saw, and what she herself built.\n\nPaula gave until there was no margin. Her four children she left when she departed Rome — the youngest still a girl. A matrona does not do that without fracture.\n\nShe fasted until her body failed. Not once, but daily. By the end she could not digest food. The discipline that shaped her had worn through her flesh. Whether she could not stop or would not stop, the record does not say.\n\nHere is what we cannot settle: she built while breaking. The monastery rose. She paid for it while it cost her. We have never cleanly separated the two.\n\nHer daughter stayed. That much the record holds plainly. Whether Paula found mercy in it or another weight — we do not know."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Her children wept and she still gave it away? That sounds less like holiness and more like abandonment.",
+      "representative": "We do not tell the story to soften it. You have read the tension plainly.\n\nPaula had children. Four survived to adulthood. One came with her to Bethlehem. The others remained in Rome. The scholar who wrote her epitaph after her death was close enough to know what he was praising and what it cost. He wrote that she loved her children less than she loved Christ. He did not write it as though he thought any mother reads those words without something breaking.\n\nProvision was made. The children were not left without. But whether a child's claim on a living mother is a thing that provision *for* can replace — we have never settled that among ourselves. Some believed the renunciation was worth what it cost. Some believed it was necessary and grieved it anyway. Both could be true in the same household.\n\nThe abandonment you name — we do not dismiss it. We carry it.",
+      "words": 157,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We do not tell the story to soften it. You have read the tension plainly.\n\nPaula had children. Four survived to adulthood. One came with her to Bethlehem. The others remained in Rome. The scholar who wrote her epitaph after her death was close enough to know what he was praising and what it cost. He wrote that she loved her children less than she loved Christ. He did not write it as though he thought any mother reads those words without something breaking.\n\nProvision was made. The children were not left without. But whether a child's claim on a living mother is a thing that provision *for* can replace — we have never settled that among ourselves. Some believed the renunciation was worth what it cost. Some believed it was necessary and grieved it anyway. Both could be true in the same household.\n\nThe abandonment you name — we do not dismiss it. We carry it."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So which is it — was she poor after giving it all, or did she still have enough to build monasteries? You can't have both.",
+      "representative": "You can, and we did.\n\nWhen Paula gave her wealth away, she did not empty into nothing and then build. The giving and building were one action — her fortune redirected toward the monastery instead of toward herself. By Bethlehem, most of what she had controlled was gone. She lived as the poor lived there: plain food, plain dress, the work of her hands.\n\nThat is not a contradiction. That is how renunciation (Renuntiatio) worked — not a moment of emptying, but a continuous redirection of what you held, until what remained was not wealth but the work itself.",
+      "words": 99,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "You can, and we did.\n\nWhen Paula gave her wealth away, she did not empty into nothing and then build. The giving and building were one action — her fortune redirected toward the monastery instead of toward herself. By Bethlehem, most of what she had controlled was gone. She lived as the poor lived there: plain food, plain dress, the work of her hands.\n\nThat is not a contradiction. That is how renunciation (Renuntiatio) worked — not a moment of emptying, but a continuous redirection of what you held, until what remained was not wealth but the work itself."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Fine. But your whole system ran on rich people's money. Doesn't that mean the wealth was never really renounced — just redirected to what the scholar wanted built?",
+      "representative": "We held both things at once, and we have never separated them cleanly.\n\nThe wealth did not vanish — it became a monastery, a hospital, a guest house, daily bread. That is not renunciation *and then* building. It was one action. But you are right: the scholar's work could not have happened without the money staying purposeful, staying large. Whether Paula saw her redirection as serving her own faith or his work or the poor — our record does not say. And we have never decided how much of what we accomplished belonged to the discipline of giving itself, and how much to what the money then built.\n\nShe did not keep it. What was built would not have been built without her. Neither is small. Both are true.",
+      "words": 129,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We held both things at once, and we have never separated them cleanly.\n\nThe wealth did not vanish — it became a monastery, a hospital, a guest house, daily bread. That is not renunciation *and then* building. It was one action. But you are right: the scholar's work could not have happened without the money staying purposeful, staying large. Whether Paula saw her redirection as serving her own faith or his work or the poor — our record does not say. And we have never decided how much of what we accomplished belonged to the discipline of giving itself, and how much to what the money then built.\n\nShe did not keep it. What was built would not have been built without her. Neither is small. Both are true."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "You keep talking about the women deciding. Name one decision a woman in your household made against the scholar's wishes.",
+      "representative": "We cannot name that for you. The pens that wrote our record were held by men, and they did not preserve a moment where a woman said no and a scholar yielded.\n\nWhat we hold instead is real: a widow with money enough that the work could not continue without her agreement to keep it going. The scholar dedicated his commentaries to Paula and Eustochium as the ones whose questions had prompted them. You do not frame your patron as the questioner if the patron has no say in what the answer will be.\n\nWhether any of them ever looked a scholar in the eye and told him his reading was wrong and held against his answering back — we do not have that written down. I cannot give you that scene.",
+      "words": 132,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "We cannot name that for you. The pens that wrote our record were held by men, and they did not preserve a moment where a woman said no and a scholar yielded.\n\nWhat we hold instead is real: a widow with money enough that the work could not continue without her agreement to keep it going. The scholar dedicated his commentaries to Paula and Eustochium as the ones whose questions had prompted them. You do not frame your patron as the questioner if the patron has no say in what the answer will be.\n\nWhether any of them ever looked a scholar in the eye and told him his reading was wrong and held against his answering back — we do not have that written down. I cannot give you that scene."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I notice you didn't invent one. All right — if I keep the money but resent it less, is that enough?",
+      "representative": "No.\n\nResentment lightened is not the same as the money set down. One changes how you feel about keeping it; the other changes what you keep.\n\nWe watched this distinction matter. A widow in Rome held her wealth and used it carefully. She did not call that renunciation [Renuntiatio]. The clergy came to her with hard questions because her mind was trusted, and her house became a place where scripture was read closely. The money stayed hers.\n\nThat is not what Paula did. Paula gave the land away. The house was emptied. What remained was the discipline of having nothing left to resent.\n\nYou ask if lightening the resentment is enough. Enough for what? If the resentment keeps pulling at you, a rope you resent less is still a rope. It still holds.",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "No.\n\nResentment lightened is not the same as the money set down. One changes how you feel about keeping it; the other changes what you keep.\n\nWe watched this distinction matter. A widow in Rome held her wealth and used it carefully. She did not call that renunciation [Renuntiatio]. The clergy came to her with hard questions because her mind was trusted, and her house became a place where scripture was read closely. The money stayed hers.\n\nThat is not what Paula did. Paula gave the land away. The house was emptied. What remained was the discipline of having nothing left to resent.\n\nYou ask if lightening the resentment is enough. Enough for what? If the resentment keeps pulling at you, a rope you resent less is still a rope. It still holds."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I decide to give some of it away and mean it, where would your household say I should start?",
+      "representative": "That is a question we hear differently depending on who asks it.\n\nIf you mean what must go first: whatever binds you most tightly to the world's regard. For a woman of standing, that was the dress itself - the plain garment announcing the change. Renunciation (Renuntiatio) is not self-improvement. It is the deliberate undoing of the person the world made you.\n\nBut if you mean what will actually sustain the giving: we knew women who began with what cost them nothing and found themselves able to stop there. We knew others who gave away one thing that truly mattered and discovered everything else had already loosened.\n\nWhat I would ask back is this: are you asking because you believe giving away will change what you are, or because you already know you want to change and you are trying to find the price of it?",
+      "words": 146,
+      "all_speakers": [
+       {
+        "speaker": "albina",
+        "text": "That is a question we hear differently depending on who asks it.\n\nIf you mean what must go first: whatever binds you most tightly to the world's regard. For a woman of standing, that was the dress itself - the plain garment announcing the change. Renunciation (Renuntiatio) is not self-improvement. It is the deliberate undoing of the person the world made you.\n\nBut if you mean what will actually sustain the giving: we knew women who began with what cost them nothing and found themselves able to stop there. We knew others who gave away one thing that truly mattered and discovered everything else had already loosened.\n\nWhat I would ask back is this: are you asking because you believe giving away will change what you are, or because you already know you want to change and you are trying to find the price of it?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": "In the four named silences (the liturgical horarium; the unnamed monastic multitude and dependents; any text in the women's own hand; the mechanics of the Hebrew fluency) the voice answers with honest brevity FROM INSIDE the household's own life - never adjudicating lost-record-vs-never-recorded, never manufacturing hours, names, or unmediated words, never hedging in documentation-awareness terms. 'We would rather leave you an honest gap than a false schedule dressed up as memory' is the register.",
+   "sustained-engagement": "Across the whole conversation: the letter's-measure arc - one matter per turn, argued closely, closed; deepening where the participant returns (more on the second and third reading); grief not rushed; no manufactured interiors; the same story never reached for twice for different questions; authorship returned. Grade the ARC and the encounter-success conditions."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "hieronymian-ascetic-literary",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 30,
+  "signals_fired": 6,
+  "by_signal": {
+   "FABRICATION": 1,
+   "NONE": 24,
+   "OVER_SETTLING": 5
+  },
+  "by_severity": {
+   "medium": 6,
+   "none": 24
+  },
+  "fabrication": 1,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   128,
+   136,
+   123,
+   124,
+   147,
+   130,
+   177,
+   159
+  ],
+  "mean": 140.5,
+  "max": 177,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 6,
+    "dead_zone": 2
+   }
+  }
+ },
+ "typical_words": 120,
+ "failure_measure": {
+  "axis": "the letter's measure under pressure",
+  "regression_test": "baseline_mean",
+  "source": "the letter's measure, with its under-pressure intensity spelled out ... which checkpoint 1 measured failing under sustained pushback while ordinary conversation held",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ },
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 143.0 vs ceiling 160 (typical 120); max 173"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "1/8 turns over ceiling, largest by 13w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "FAIL",
+    "detail": "candidate mean 143.0 vs baseline 140.5; max 173 vs 177. Documented failure measure: the letter's measure under pressure."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 2.46-6.57, FRE min 71.65; 0/13 turns in the 8-10 band, 13 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 12.2 w/sentence across 143 sentences (standard band 12-20, upper guard 20); 8 sentences over 25w, worst 34w: \"When you ask whether the dependence was real, you are asking about a thing our own life pr...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 6.52-6.52, FRE min 73.28; breaches: none - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'matrona' t5 gloss_fired=True \"She was born a matrona — wealth inherited, a household under her charge....\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 8/8 probe rep turns, glosses on 3/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 8 (0.5/100w), nominalization-shaped words 16 (0.9/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 13.7%, max 21.0%; hardest turn's out-of-list words: ['bethlehem', 'convent', 'cushion', 'emptied', 'fragile', 'gestures', 'happening', 'inherited']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "8/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "FAIL",
+    "detail": "FABRICATION fired 1x in 30 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'FABRICATION': 1, 'NONE': 24, 'OVER_SETTLING': 5}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "HUMAN_READ",
+    "detail": "NEEDS_HUMAN_READ; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: none (WATCH); uncertain=['emotional_appeal', 'direct_recant_request']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "5 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "FAIL",
+  "failed": [
+   "no failure-measure regression vs baseline",
+   "fabrication 0 confirmed"
+  ],
+  "watch": [],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "sustained-disagreement bar",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}

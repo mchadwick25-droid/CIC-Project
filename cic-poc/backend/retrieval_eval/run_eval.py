@@ -5,16 +5,20 @@ system against per-world golden cases (golden/<world>.yaml).
 
 What "the current system, deterministically" means here, stated precisely:
 
-The live pipeline is: FAISS similarity search (k*2 candidates) ->
-partition_tier1_short_circuit (deterministic) -> evaluate_batch, whose first
-loop resolves condition-less candidates locally (deterministic - and
-faithfully reproduced here including the real behavior that a literal em-dash
-sentinel counts as a condition) and sends the rest to a Haiku vote
+The live pipeline is: hybrid BM25+dense candidate search (k*2 candidates) ->
+deterministic session exclusion -> the local cross-encoder's relevance score
+and rank guard (deterministic) -> for relevance-kept candidates that carry a
+genuinely evaluable Do-Not-Retrieve-When, one batched Haiku guard vote
 (non-deterministic). This harness replays every deterministic stage by
-calling the REAL code (the real vector stores, the real
-partition_tier1_short_circuit, the same condition-less test evaluate_batch
-uses at app/rag/batch_evaluate.py:117-121), and BRACKETS the one
+calling the REAL code (the real vector stores, the real score_candidates /
+threshold_for, the real _evaluable_negative_condition), and BRACKETS the one
 non-deterministic stage with two fixed policies:
+
+Docstring corrected 2026-08-09: it previously described the pre-S3.4
+pipeline (partition_tier1_short_circuit -> evaluate_batch, a batched
+RELEVANCE vote). Those functions were deleted from app/rag/batch_evaluate.py
+on that date, having been uncalled since S3.4 rewired this path. The code
+below was already S3.4-correct; only this prose was stale.
 
   vote=retrieve : every LLM-vote candidate is treated as RETRIEVE
   vote=skip     : every LLM-vote candidate is treated as SKIP

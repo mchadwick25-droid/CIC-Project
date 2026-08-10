@@ -163,11 +163,42 @@ def summarize_over_settling(records: list[dict]) -> dict:
 
 
 def summarize_length_ceiling(records: list[dict]) -> dict:
+    """Fire rate by outcome, plus the two numbers the 2026-08-10 Haiku
+    certification could not recover from its own artifacts.
+
+    extra_generations is the COST of enforcement: every retry attempt is a
+    full main_response call billed under the same label as the first, so a
+    run's real overhead is this count, not the number of turns that
+    retried. compliance is measured against emitted_words - what actually
+    reached the participant - because the mechanism keeps the SHORTEST
+    draft it saw and not the last, so scoring the final attempt understates
+    how often enforcement held.
+
+    Both degrade rather than crash on records written before those fields
+    existed: attempts falls back to 1 per retried turn (the old mechanism's
+    fixed behaviour) and emitted_words to retry_words. Those fallbacks make
+    old artifacts comparable, not exact - a pre-2026-08-10 log cannot
+    distinguish one attempt from two, because it did not record it.
+    """
     by_outcome = {}
+    attempts = 0
+    emitted_ok = emitted_seen = 0
     for r in records:
         outcome = r.get("outcome", "unknown")
         by_outcome[outcome] = by_outcome.get(outcome, 0) + 1
-    return {"total_ceilinged_turns": len(records), "by_outcome": by_outcome}
+        if outcome != "retried":
+            continue
+        attempts += int(r.get("attempts") or 1)
+        words = r.get("emitted_words") or r.get("retry_words")
+        if words not in (None, "None"):
+            emitted_seen += 1
+            emitted_ok += int(int(words) <= int(r["ceiling"]))
+    return {
+        "total_ceilinged_turns": len(records),
+        "by_outcome": by_outcome,
+        "extra_generations": attempts,
+        "emitted_within_ceiling": f"{emitted_ok}/{emitted_seen}",
+    }
 
 from fastapi.testclient import TestClient  # noqa: E402
 import app.main as main_mod  # noqa: E402

@@ -14,3 +14,6 @@ four_checkpoints_2026-08-09.log
 variance_probe.log
 cross_world.log
 v2_checkpoints.log
+haiku_checkpoint.log
+haiku_five.log
+haiku_enforced.log
