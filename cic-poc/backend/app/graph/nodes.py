@@ -1170,6 +1170,25 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
                 "clarifications the participant did not ask for, and never "
                 "\"when I said X\" for a word this conversation has not "
                 "actually spoken.")
+            # T2 cell 5 (2026-08-10, Mark): the numeric measure rides in
+            # the guard slot - prevention over the paid retry. Same
+            # placement logic as the clause above (S5.2/FLAG-018: the
+            # instruction that must survive attention decay rides closest
+            # to generation); measured need: conversational tables fire
+            # the ceiling retry on ~80-90% of turns in BOTH models, and
+            # the smaller model's retries mostly fail (35/49 still over).
+            # Experimental at the wiring site; graduates to the per-world
+            # POST_HISTORY_GUARDS exports via candidates if adopted.
+            try:
+                from app.graph.repair_classifier import ceiling_words_map
+                _measure = (ceiling_words_map() or {}).get(current_world_id)
+            except Exception:
+                _measure = None
+            if _measure:
+                post_history_guard += (
+                    f" Hold this turn to about {_measure} words at most - "
+                    "your own world's measure. Land inside it the first "
+                    "time: fewer sentences, not less said.")
             # The IJC-scoped extension that used to be hardcoded here
             # (S6.2/IJC freeze, 2026-07-31, Decision IJC-3 / FLAG-037 - two
             # Phase-5-fixed classes leaking under full-context dilution) now
