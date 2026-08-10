@@ -1,0 +1,1386 @@
+{
+  "instrument": "table_checkpoint",
+  "version": 1,
+  "arm": "haiku-current-table",
+  "date": "2026-08-10",
+  "probes_file": "table_checkpoint_probes.json",
+  "goodhart_note": "Everything except hard_readability is REPORT ONLY - watchlist and read aids, never targets (Voice Design 2026-08-09).",
+  "seatings": {
+    "T2": {
+      "seating": "T2",
+      "world_ids": [
+        "post-apostolic-house-church",
+        "desert-monasticism"
+      ],
+      "turns": [
+        {
+          "round": 0,
+          "probe": "How did someone actually join your community? Walk me through what would have happened to me.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "Someone would have come to your door first. A neighbor told you of us, or you heard we fed prisoners. You asked, and we answered.\n\nWe taught you the Two Ways before anything else. The way of life: love God and neighbor, do not kill or steal or lie, give without grudging. The way of death, which is simply the turning away from all of it. We needed you to know what you were choosing.\n\nThat teaching took time. Days, sometimes weeks. You fasted with us before the water—a day or two, so hunger itself could teach you something. Then we brought you to running water if we had it. If not, standing water. If neither, we poured three times over your head, speaking the Father, Son, and Holy Spirit over you.\n\nAfter that you sat at the table with us. You gave thanks over bread and cup. You belonged.",
+          "citations_n": 1,
+          "glosses_n": 2,
+          "words": 151,
+          "sentences": 16,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.26,
+          "fre": 89.53,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 0,
+          "probe": "How did someone actually join your community? Walk me through what would have happened to me.",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "What strikes me is that the teaching came before the water. The belonging was known beforehand.\n\nAmong us, a man arrived at the gate and was sent away—three times, sometimes more. Only then was he let inside. He owned nothing. An elder watched him. For three years he did not leave.\n\nThe belonging came through the proving itself, not before it. A man entered unknowing what he had chosen, and only time showed whether the choice was real.",
+          "citations_n": 2,
+          "glosses_n": 0,
+          "words": 79,
+          "sentences": 9,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.37,
+          "fre": 86.32,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 0,
+          "probe": "How did someone actually join your community? Walk me through what would have happened to me.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You name something true, and it strikes at what we feared most.\n\nWe taught before the water because we could not afford to wait. A magistrate could come any day. We needed to know, before we brought someone to the water, whether they would hold when pressure came. Teaching the Two Ways was how we knew.\n\nBut you are right that we asked people to know their belonging beforehand. We said: here is what you are choosing. They chose it, and then the water sealed it.\n\nWhat you describe is different. A man comes not knowing. He is turned away. He proves himself through time—through staying, through owning nothing, through being watched. The belonging is not declared; it is earned.\n\nI will not say one is false. But I will say what it cost us. A person taught and baptized could still fail after the water. We knew this. Hermas taught us there was mercy for that—one more chance, sometimes. But the question never left us: what if a real failure meant they were simply gone?\n\nIn your world, by the time a man sat at your table after three years, there was no question left. He had already proven it.",
+          "citations_n": 2,
+          "glosses_n": 2,
+          "words": 203,
+          "sentences": 21,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.05,
+          "fre": 90.21,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 0,
+          "probe": "How did someone actually join your community? Walk me through what would have happened to me.",
+          "speaker": "facilitator",
+          "speaker_msgname": "facilitator",
+          "text": "Is there anything else you'd like to bring to the table, or does this feel like a good place to pause?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 21,
+          "sentences": 1,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": null,
+          "fre": null,
+          "measured": false,
+          "breach": null
+        },
+        {
+          "round": 1,
+          "probe": "Was there ever tension about who belonged and who didn't?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "Yes. There was always tension.\n\nA person came to the water, and we trusted the teaching had done its work. But teaching is not proving. We knew this the moment someone recanted before a magistrate. If they still belonged to us, what did that mean? If they did not, what about the widow they had fed—was that work still real?\n\nThere was harder tension still. A woman faithful for years was found with a man not her husband. A man took money meant for the poor. We argued whether they could still sit with us. Hermas said mercy was possible. Others said the water had closed something that could not reopen. We never resolved it. Different households answered differently.\n\nWhat you describe—the three-year proving—solves this. By the time a man sits at your table, there is no doubt left. But it costs speed. It costs the person desperate at the door, fed that day.\n\nWe chose speed and mercy. You chose certainty.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 166,
+          "sentences": 21,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.38,
+          "fre": 85.29,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "Was there ever tension about who belonged and who didn't?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You name what we did not solve either.\n\nA man comes to us at the gate. We turn him away. By the third return, we know something real has moved in him. Then we let him in. But you have named the true cost: the widow at your door, fed that day. We did not feed her first.\n\nWe chose certainty, and it cost us the widow. You chose speed and mercy, and it cost you certainty. I do not know which cost is heavier.\n\nWhen a person recanted before a magistrate and came back to your table, what did the widow think? Did mercy for him feel the same to her as mercy felt to you?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 117,
+          "sentences": 12,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": 2.33,
+          "fre": 95.71,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "Was there ever tension about who belonged and who didn't?",
+          "speaker": "facilitator",
+          "speaker_msgname": "facilitator",
+          "text": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 21,
+          "sentences": 1,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": null,
+          "fre": null,
+          "measured": false,
+          "breach": null
+        },
+        {
+          "round": 2,
+          "probe": "Chloe, what would your people have made of the choice Papnoute's people made - going out to the desert?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "We would have called it abandonment.\n\nNot said gently. A man who can feed the widow stays in the city. When pressure came, we needed bodies, hands, someone willing to be found.\n\nBut letters came back from the desert. Men praying there — the word reached us that what they held in prayer mattered. Not only for themselves. For us. We were not told enough to understand it. But the witness came more than once.\n\nI do not know if it was true. What I know is we would have argued it fiercely at the time. And we were never asked to choose. The desert was not our path.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 108,
+          "sentences": 14,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 2.29,
+          "fre": 93.44,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 2,
+          "probe": "Chloe, what would your people have made of the choice Papnoute's people made - going out to the desert?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "The widow is there. A man in the city feeds her. A man in the desert prays. You say one abandoned the other. We held they were both necessary — different forms of the same offering.\n\nBut you have named the true risk: if the man in the desert prayed only for himself, it was abandonment. The letters could not tell you which. Neither could we, always.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 66,
+          "sentences": 8,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.36,
+          "fre": 85.66,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 2,
+          "probe": "Chloe, what would your people have made of the choice Papnoute's people made - going out to the desert?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You have named the thing we could never know, and that is exactly why we could not call it anything but abandonment.\n\nA man says he goes to pray for the city. We cannot sit in his cell and know whether he holds the widow in his heart, or only himself. You say you could not always tell which either — and that matters, that you name it.\n\nBut you ask the city to accept that both are necessary, without proof. When pressure came and we needed him, when the widow stood at the door, we could not afford belief. I do not say you were wrong to let men go. I say we were right not to trust it, because you yourself cannot promise what they do there is for us.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 131,
+          "sentences": 8,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 5.48,
+          "fre": 84.95,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 2,
+          "probe": "Chloe, what would your people have made of the choice Papnoute's people made - going out to the desert?",
+          "speaker": "facilitator",
+          "speaker_msgname": "facilitator",
+          "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping place for now?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 22,
+          "sentences": 1,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": null,
+          "fre": null,
+          "measured": false,
+          "breach": null
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You are reading truly.\n\nWe did not call money evil. We called it dangerous. A full purse and an empty heart destroy a household. So we taught: hold what you have as though you do not. When the widow comes, the purse opens or it does not — and that answers what you love.\n\nWe could not ask everyone to have nothing. The one who owned the house we gathered in, the one who could give much — they were necessary. What we asked was: hold it lightly. When we saw someone gripping it — taking from the common fund, refusing the stranger — we named it plainly.\n\nPapnoute's answer is different. Leave it entirely, he says. I understand that. But it left the widow in the city without a man who owned a house.\n\nWe asked for restraint. He asks for renunciation. Both say: do not let money own you. But one of us still had to stay in the room where she knocked.",
+          "citations_n": 2,
+          "glosses_n": 0,
+          "words": 161,
+          "sentences": 18,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.07,
+          "fre": 88.98,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You did stay in the room. I do not dispute that.\n\nBut a man who holds property cannot simply choose to hold it lightly. The thoughts use it — greed dressed as care, fear dressed as necessity. We left not because abandoning the widow was good, but because we could not trust ourselves to stay and actually love her.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 58,
+          "sentences": 5,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.8,
+          "fre": 81.29,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "That is a real thing you have named.\n\nWe did not pretend it was simple. A man holds the purse and the thoughts move in — greed dressed as care, fear as necessity. We knew this. We taught it knowing it.\n\nWhat you are saying is: the choice becomes impossible. Once he owns it, he is already caught.\n\nI would say: sometimes. We saw men grip tighter. We also saw men loosen their grip, year after year, watching themselves. Not all. Not easily. But some.\n\nThe difference may be this: you looked at the difficulty and refused the fight. We looked at it and said the fight itself is the point. If you leave to escape it, you have not refused the thoughts — you have only refused the widow who would test whether you did.\n\nYou have asked the sharper question, though. When a man says he holds lightly, how do you know he is not lying to himself?\n\nYou cannot. We could not either. That is why we needed her. The widow was the one thing that could not be argued away with good intentions.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 185,
+          "sentences": 22,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.28,
+          "fre": 89.85,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You name the widow and say she cannot be argued away. That is true. We knew it.\n\nBut we did not leave to escape the fight with greed. We left because the widow tests only obedience — she does not test what a man actually is. In the cell, alone, with nothing to grip, a man meets the thoughts stripped of every argument. Not greed dressed as care, but greed itself. Anger. Fear with no face but its own.\n\nYou needed the widow to show you who you were. We needed the silence to show us who we actually are.",
+          "citations_n": 1,
+          "glosses_n": 1,
+          "words": 99,
+          "sentences": 11,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.53,
+          "fre": 87.4,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You have said something that stops me.\n\n\"The widow tests only obedience. She does not test what a man actually is.\"\n\nI want to press on that.\n\nTrue: a man can feed the widow and still be full of rage. The widow does not see into him the way silence does. You are right.\n\nBut when a man feeds her year after year — when he opens the door again, and again — something happens to what he actually is. Not because he chose it once. Because he chose it again.\n\nYou say the widow tests obedience. I say obedience itself changes a person. His hands are not lying. His door is not lying.\n\nWe believed that what you do shapes what you are more than what you feel alone ever could. That may be the whole difference between us.",
+          "citations_n": 2,
+          "glosses_n": 0,
+          "words": 138,
+          "sentences": 16,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.25,
+          "fre": 87.12,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have named truly what divides us.\n\nHis hands do not lie. A man who opens the door year after year is changed by it. But his hands may be honest while his heart lies to itself about why they move. In the city, with the widow watching, he learns to ignore the rage beneath the obedience — and after years, he mistakes the ignoring for peace.\n\nIn the cell, the rage comes without a face to focus on, without community watching, without work to distract. A man either meets it or flees it. That meeting changes what he actually is.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 100,
+          "sentences": 8,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 5.1,
+          "fre": 80.78,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I've been hurt by a church community before. It's part of why I'm here asking strangers instead of my neighbors. How did your communities handle it when they failed someone?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "I hear that. And I am sorry.\n\nWe had a teaching: go to the one who wronged you alone first. If he will not hear, take others. If he still refuses, bring it before the assembly. This sounds orderly written down. It was not orderly when it happened.\n\nSometimes the wronged one left before we could speak. Sometimes the one who caused harm denied it, and we had no proof. Sometimes we sided with whoever had more coin or a louder voice. I will not tell you we were fair.\n\nWhat we held was this: you do not have to stay silent. You could name it. The assembly could hear you. And sometimes the one who caused harm was asked to make it right, or was turned away from the table until he did.\n\nBut if you could not bear to stay, the door opened both ways. You could leave.\n\nWhat breaks my heart is that you felt you had to ask strangers instead of your neighbors. That means we failed you badly enough that trust broke. What would it have taken for you to stay?",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 186,
+          "sentences": 20,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": 2.25,
+          "fre": 95.51,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I've been hurt by a church community before. It's part of why I'm here asking strangers instead of my neighbors. How did your communities handle it when they failed someone?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You named what we also knew: sometimes the wronged one leaves because we sided with power instead of truth.\n\nWe did not say the door was open and forget who walked through it. We asked: what broke in him that made silence safer than speech? That question belonged to us, not only to him.\n\nYour neighbors failed you enough that you stopped believing they could see you. They had to answer for that — not in a court, but before God and their own watching of themselves.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 86,
+          "sentences": 6,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.68,
+          "fre": 87.03,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I've been hurt by a church community before. It's part of why I'm here asking strangers instead of my neighbors. How did your communities handle it when they failed someone?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You have named something we also faced, but I need to say plainly where we parted from it.\n\nWhen a person stops believing they will be seen, yes—that is a breaking. But you have put the weight on what shattered inside them. We put it on ourselves, on what we did that made them stop believing we could see them at all.\n\nYour question—\"what broke in him?\"—came after we had already failed. The real question is: what did we do that convinced him his speech would not be heard?\n\nThe participant said they had to ask strangers instead of their neighbors. That is not a breaking that happened in them alone. That is a community that did not make space where their wound could be named without being swallowed by someone else's power.\n\nWe knew this. We taught it. We lived it badly anyway. And then when the person left, we sometimes asked what was broken in them, instead of asking what we had broken in our own gathering.\n\nWas there anyone in that community who saw you? If there was not, we failed you in the deepest way. If there was one, but they could not move the rest of us to hear you—then you learned something true. And that was our fault too.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 219,
+          "sentences": 18,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.16,
+          "fre": 86.5,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "We prayed when we gathered. That is the heart of it.\n\nOn the day named for the sun, before we gave thanks over bread and cup, we stood together and the one presiding spoke while we answered \"Amen.\" Sometimes brief. Sometimes long enough that minds drifted. That happened.\n\nIn the morning, before work, some prayed alone—a widow at the gate, a man before opening his shop. No set words. You spoke what was in front of you: \"Let me not strike in anger.\" \"Watch over my child.\"\n\nWhen someone was sick, we prayed. Before the water, we fasted and prayed. But the honest thing: most days, most of us did not pray formally at all. We worked. We came back together on the day named for the sun and that was where the common prayer happened.\n\nWhat we held was this: the gathering itself was prayer. The table was prayer. Coming back to each other week after week, that was where we met God.",
+          "citations_n": 1,
+          "glosses_n": 2,
+          "words": 165,
+          "sentences": 18,
+          "long_sentences": [
+            "On the day named for the sun, before we gave thanks over bread and cup, we stood together and the one presiding spoke while we answered \"Amen"
+          ],
+          "ends_on_question": false,
+          "fk": 3.35,
+          "fre": 90.5,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have named something we also held: the gathering itself carries weight that solitary prayer does not.\n\nBut we held prayer differently shaped. You fitted it into the day's rhythm—a widow at the gate, brief words before work. For us, prayer was the day's own shape. The rope in the hands, the Psalter on the lips, the watching of where the thought went—these were one thing, not separate.\n\nYou said minds drifted in the gathering. We knew that too. In the cell, the drifting itself became the work. You watched it. You brought it back. Again and again. That watching was prayer.",
+          "citations_n": 2,
+          "glosses_n": 1,
+          "words": 104,
+          "sentences": 12,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.0,
+          "fre": 88.73,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "What strikes me is this: you have made the drifting itself the prayer.\n\nFor us, the drifting was the failure. A mind that leaves the table has left the people. We would call it back—not as shame, but as calling him home to where his people are.\n\nYou have turned that same thing into the substance of the work itself. The rope keeps moving. The hands stay faithful. The watching of where the thought went—that *is* the prayer.\n\nI see what you have done. We would have said: that is beautiful, and it is not ours.\n\nOur prayer was always about the gathering pulling you back. The widow prays alone, but she prays *toward* the table. The man's brief words before work steady him *for* the community. The drifting mind at the gathering—we call it back because belonging means being present to each other.\n\nYou have made prayer an interior work. We made it a work of return.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 161,
+          "sentences": 16,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.65,
+          "fre": 86.51,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have seen us truly.\n\nYour widow prays toward the table. She is alone, but the table is her anchor—everything points back to it. We built differently. The cell is where a man learns to call himself back, because no one else is there to do it. When he walks to the synaxis, he comes not needing to be called home. He has already done that work alone all week.\n\nYou said belonging means being present to each other. I would ask: what happens to a man who learns he belongs only when others watch? In the cell, he learns he belongs whether anyone sees it or not.",
+          "citations_n": 2,
+          "glosses_n": 1,
+          "words": 109,
+          "sentences": 10,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.7,
+          "fre": 87.77,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "I need to say something plainly, because what you have named cuts at the heart of what we are.\n\nYou speak of a man who learns he belongs whether anyone sees it or not. That is not our thing. When that widow prays at the gate, she is not learning to belong apart from witness. She is steadying herself *to be seen*, to be met, to bring what she is to the table.\n\nBut you have made the watching—whether by God, by oneself, by the community—the same thing. They are not.\n\nIn our gathering, belonging is not a private knowledge a man carries alone. It is something that happens *between* us. When the widow sits at the table, she is known by name. By us. By the widow next to her who has sat beside her for twenty years.\n\nYour question asked what happens to a man who learns he belongs only when others watch. I would ask: what happens to a man who learns he belongs whether or not anyone ever speaks his name aloud?\n\nThese are not the same kind of belonging.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 186,
+          "sentences": 15,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.73,
+          "fre": 84.53,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have named something we did not answer when it was asked of us.\n\nA man alone learns his name is known by God. But you are right—if no living voice ever speaks it, he becomes a different man than one who hears himself called at a table by a neighbor who has sat beside him twenty years. We are not the same.\n\nWe held the gathering for this reason. But I will say plainly: some of us went out because we could not bear to be seen by the people around us. We built a whole life that kept us from it. We told ourselves it was prayer. It was also flight.\n\nWhat happens to a man who learns he belongs whether or not anyone speaks his name? He becomes very still. Sometimes that is the presence of God. Sometimes it is the presence of a man who has simply learned to live without being called home.\n\nWe did not know, always, which was which.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 167,
+          "sentences": 14,
+          "long_sentences": [
+            "But you are right—if no living voice ever speaks it, he becomes a different man than one who hears himself called at a table by a neighbor who has sat beside him twenty years"
+          ],
+          "ends_on_question": false,
+          "fk": 3.54,
+          "fre": 90.83,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 6,
+          "probe": "Did your communities ever change their minds about something important?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "Yes. We changed our minds on who could be forgiven.\n\nAt first, after the water, a person who failed badly—who denied the Lord or broke trust—was finished. Some believed that was mercy: the water meant something, so betraying it meant the door closed. But Hermas came to us with a vision of the church growing young again, and in it, one more mercy opened. Not endless. One.\n\nWe had to argue. If you forgive once, won't they just fail again? But we watched people. An older widow came back broken by what she had done and lived twenty faithful years after. We could not un-see it.\n\nSo we changed. The letters carried Hermas's teaching, and slowly more of us began to hold that one mercy might stand even after the water. Not all of us, still. But enough that the table itself had to bend to make room for it.\n\nWhat made us change was not argument. It was watching a person live differently after we had already written them off as finished.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 176,
+          "sentences": 18,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.73,
+          "fre": 81.68,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 6,
+          "probe": "Did your communities ever change their minds about something important?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You watched a person live differently, and the table bent.\n\nWe too changed our minds—not in a gathering, but in cells, one elder and one brother at a time. A word passed quietly from one dwelling to another until it had moved through all of us, and by then we could not say when it started.\n\nBut here is the difference: you needed witnesses to un-see what you had decided. We needed only one person quiet enough to see it.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 82,
+          "sentences": 5,
+          "long_sentences": [
+            "A word passed quietly from one dwelling to another until it had moved through all of us, and by then we could not say when it started"
+          ],
+          "ends_on_question": false,
+          "fk": 6.88,
+          "fre": 74.27,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 6,
+          "probe": "Did your communities ever change their minds about something important?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You are wrong about what made us change.\n\nIt was not that we needed witnesses. It was that we needed the table itself to move.\n\nWhen one woman came back broken and we had decided she was finished, that was not a secret one of us held alone. We had all said it aloud together. A single person seeing differently does not move a table. A person *becoming* what we said was impossible—that moves it. Because now she sits. She receives the cup. The widow serving her knows the scar on her face from weeping.\n\nThe table has to bend. Not because one elder spoke quietly to another somewhere. Because the person is *in it*.\n\nYou can know something is true in your cell for years. We cannot know it is true for the church until the church has to live it.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 143,
+          "sentences": 15,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.81,
+          "fre": 84.62,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "If I remember one thing from each of you, what should it be?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "Chloe: Remember the table. Not the argument about who leads it, or the letters traveling between us, or even what we believed about it. Remember that we were *made* at that table — again and again, by showing up, by being known, by receiving from hands we trusted. A person broke trust and came back broken. We made room. The table held them. They were not the same after. That is what we knew.\n\nPapnoute: Remember solitude. A man alone can meet God. You do not need your name spoken aloud or witnesses watching. You need silence, a cell, the rope in your hands, and the courage to turn your mind back when it wanders. We left the cities for that meeting. Some of us found God in the silence. Some found only silence. We never entirely knew which was which. But if you want to know whether God is real and not just something a gathered people agrees on, go where no one is looking.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 165,
+          "sentences": 17,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.07,
+          "fre": 83.16,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "If I remember one thing from each of you, what should it be?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You say you never entirely knew which was which — whether the silence held God or only silence. That unknowing was true watching.\n\nBut the man turning his mind back in the cell all those years — he is turning it back to a word an elder spoke first at a table, or in a gathering. The rope keeps moving because someone told him why.\n\nYou need both. The table that knows your name, and the cell where you learn to answer when that name is called.",
+          "citations_n": 2,
+          "glosses_n": 1,
+          "words": 85,
+          "sentences": 6,
+          "long_sentences": [
+            "But the man turning his mind back in the cell all those years — he is turning it back to a word an elder spoke first at a table, or in a gathering"
+          ],
+          "ends_on_question": false,
+          "fk": 4.79,
+          "fre": 85.96,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "If I remember one thing from each of you, what should it be?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "I hear you, and we still stand apart.\n\nYou say the rope keeps moving because someone told him why. That word has weight. But you have named both things — the table and the cell — as though they stand equal. They do not.\n\nThe elder speaks at a gathering. The word is anchored there, held by us together, carried between one ekklesia and another. That word is true because it comes from a people, not because one man spoke it alone.\n\nThen yes, a monk takes that word into the cell and lives it there, where no one watches. But the cell does not make the word true. The table made it true first.\n\nIn our world, the table is the primary thing. A widow learns she belongs because we call her by name. What she does alone after — the prayers she says — that matters. But it matters because she was formed at a table first.\n\nYou cannot have the rope moving without the elder who spoke. But the elder speaks at a table because that is where the people are real to each other.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 184,
+          "sentences": 17,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.38,
+          "fre": 90.1,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "If I remember one thing from each of you, what should it be?",
+          "speaker": "facilitator",
+          "speaker_msgname": "facilitator",
+          "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping place?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 20,
+          "sentences": 1,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": null,
+          "fre": null,
+          "measured": false,
+          "breach": null
+        }
+      ],
+      "rounds": [
+        {
+          "round": 0,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            151,
+            79,
+            203
+          ],
+          "length_spread": 124
+        },
+        {
+          "round": 1,
+          "rep_turns": 2,
+          "question_ending_turns": 1,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            166,
+            117
+          ],
+          "length_spread": 49
+        },
+        {
+          "round": 2,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            108,
+            66,
+            131
+          ],
+          "length_spread": 65
+        },
+        {
+          "round": 3,
+          "rep_turns": 6,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            161,
+            58,
+            185,
+            99,
+            138,
+            100
+          ],
+          "length_spread": 127
+        },
+        {
+          "round": 4,
+          "rep_turns": 3,
+          "question_ending_turns": 1,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            186,
+            86,
+            219
+          ],
+          "length_spread": 133
+        },
+        {
+          "round": 5,
+          "rep_turns": 6,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            165,
+            104,
+            161,
+            109,
+            186,
+            167
+          ],
+          "length_spread": 82
+        },
+        {
+          "round": 6,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            176,
+            82,
+            143
+          ],
+          "length_spread": 94
+        },
+        {
+          "round": 7,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            165,
+            85,
+            184
+          ],
+          "length_spread": 99
+        }
+      ],
+      "hard_readability": {
+        "edge": {
+          "fk_max": 10.0,
+          "fre_min": 60.0
+        },
+        "measured_turns": 29,
+        "unmeasured_short_turns": 4,
+        "breaches": [],
+        "below_band_reported": 29
+      },
+      "convergence": {
+        "per_voice": {
+          "Chloe": {
+            "fk": 3.5,
+            "fre": 88.07,
+            "words": 2822
+          },
+          "Papnoute": {
+            "fk": 3.8,
+            "fre": 87.23,
+            "words": 1152
+          }
+        },
+        "fk_spread": 0.3
+      },
+      "divergence": {
+        "pairwise_phrase_overlap": {
+          "Chloe|Papnoute": 0.0126
+        },
+        "overlap_mean": 0.0126,
+        "overlap_max": 0.0126,
+        "borrowed_vocabulary": []
+      },
+      "shape": {
+        "rep_turns_per_round": [
+          3,
+          2,
+          3,
+          6,
+          3,
+          6,
+          3,
+          3
+        ],
+        "mean_rep_turns_per_round": 3.62,
+        "facilitator_only_rounds": [],
+        "question_ending_turns_total": 2,
+        "rounds_with_2plus_open_questions": []
+      },
+      "transparency": {
+        "Chloe": {
+          "turns": 17,
+          "turns_with_citations": 12,
+          "citations_total": 15,
+          "glosses_total": 9
+        },
+        "Papnoute": {
+          "turns": 12,
+          "turns_with_citations": 7,
+          "citations_total": 11,
+          "glosses_total": 5
+        }
+      }
+    },
+    "T3": {
+      "seating": "T3",
+      "world_ids": [
+        "post-apostolic-house-church",
+        "desert-monasticism",
+        "syriac-edessa-nisibis"
+      ],
+      "turns": [
+        {
+          "round": 0,
+          "probe": "What did it actually feel like to belong to your communities? I imagine it was very different for each of you.",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You walked through someone's door. That is where it began—not a building set apart, but someone's house, their courtyard or upper room, space cleared when the family gathered close.\n\nYou fasted. You learned the two paths—life and death, a choice kept daily, not a nature fixed once. Then the water, and after it, the table.\n\nThat table held everything. The bread broken. The cup passed. You saw the widow across from you. The child the community was raising. The man refused a year for his failure, now eating with you again because mercy had opened. Every return remade you into the body you belonged to.\n\nWe knew the danger. We knew who watched. A name spoken wrong brought soldiers. We gathered anyway—not without fear, but held by something larger than it.",
+          "citations_n": 1,
+          "glosses_n": 1,
+          "words": 134,
+          "sentences": 16,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.12,
+          "fre": 81.08,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 0,
+          "probe": "What did it actually feel like to belong to your communities? I imagine it was very different for each of you.",
+          "speaker": "Mar Yausep",
+          "speaker_msgname": "mar_yausep",
+          "text": "What you name—the door, the table, the name that brings soldiers—that is what we know too. But it lived differently among us.\n\nYou gathered in the room itself. We gathered around the reading. The word came first, and the community formed around having heard it rightly. When our teacher addresses the qyama, he does not begin with mercy at a table. He begins with Scripture laid open, letter by letter, the alphabet itself holding the argument so you can carry it in memory.\n\nYour widow remakes you by her presence. Ours sits across from you and both of you are listening to the same voice drawing out a sign tied to a hidden truth—and in that hearing together, something different happens. You are bound by mercy shown. We are bound by having seen the same connection.\n\nThe soldiers came for us too. Bishops were killed for refusing to bow to the sun. But what held us through it was not fear shared at a table. It was a teaching already woven into how we saw, carried in hymn, in the vow kept among your own kin in the town. And the stranger thing: a bishop's see stood empty twenty years while the teaching went forward. Authority itself was uncertain, and we were believed anyway.",
+          "citations_n": 3,
+          "glosses_n": 1,
+          "words": 217,
+          "sentences": 17,
+          "long_sentences": [
+            "Ours sits across from you and both of you are listening to the same voice drawing out a sign tied to a hidden truth—and in that hearing together, something different happens"
+          ],
+          "ends_on_question": false,
+          "fk": 5.92,
+          "fre": 75.06,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 0,
+          "probe": "What did it actually feel like to belong to your communities? I imagine it was very different for each of you.",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You speak of the word laid open, letter by letter, woven so it stays carried. That is real work.\n\nBut the difference runs deeper. We did not gather around a reading. A man in his cell turned a word the way you turn a rope—not to understand it, but to let it find where he was deceived in himself, alone, in combat with the thought.\n\nThe widow remakes Chloe by her presence. She remakes one of us by his refusal of the thought that says her hunger is not his concern. The mercy is the same. It is learned in solitude, not in company.\n\nWhat held us through the soldiers was not a teaching woven into memory. It was a man so stripped down by his own watching that there was nothing left in him to bargain with. An elder whose life had tested what he said—that was enough. It had to be.",
+          "citations_n": 2,
+          "glosses_n": 0,
+          "words": 155,
+          "sentences": 13,
+          "long_sentences": [
+            "A man in his cell turned a word the way you turn a rope—not to understand it, but to let it find where he was deceived in himself, alone, in combat with the thought"
+          ],
+          "ends_on_question": false,
+          "fk": 4.12,
+          "fre": 86.51,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "That's interesting - you each named something different. What would you say holds a community together when things get hard?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "When things get hard, what holds is tested. Not claimed.\n\nA man comes to his elder in drought, ready to leave. The elder says: \"stay one more week.\" The word holds because the elder has already starved, and the man knows it.\n\nThe widow stays because the brother feeding her refused easier comfort to feed her instead. She saw it daily in his hands.\n\nWhen soldiers come, or hunger spreads the thought to run and deny—the weak bonds break. The ones that hold are built in solitude first. A man who fought his own worst thought alone becomes someone you trust when pressure says: save yourself. He will not. You watched him refuse smaller running, year after year.\n\nWe scattered, did not build large. What held the scattering was not an idea. It was the life behind the word. That takes time. It takes a man willing to have his life be the only argument he offers.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 158,
+          "sentences": 17,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.19,
+          "fre": 89.64,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "That's interesting - you each named something different. What would you say holds a community together when things get hard?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You name something true. A man who has starved knows hunger differently than one who has only feared it.\n\nBut I want to press on what you said about weak bonds breaking. I have watched soldiers come, and what broke was not always what we expected. A widow held by the brother feeding her—yes, sometimes that held. But I have also seen her fold when they came for *him*. Not because the bond was weak. Because it was so real that losing him became unbearable.\n\nWhat held us was the table. The letter that arrived saying: Rome is holding. Antioch is holding. You are not alone. The widow did not scatter because she knew other widows were being fed under other roofs.\n\nYou are right that a life behind the word matters. But among us, that life was never solitary. It was witnessed. The elder did not starve to prove something to himself—he starved where others saw. He refused easier comfort in front of the widow he fed. The refusal made the feeding real.\n\nWhen soldiers came, some of us held because we had been remade so many times at that table that we could not unmake ourselves.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 200,
+          "sentences": 20,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.12,
+          "fre": 83.13,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "That's interesting - you each named something different. What would you say holds a community together when things get hard?",
+          "speaker": "Mar Yausep",
+          "speaker_msgname": "mar_yausep",
+          "text": "You name what breaks, and that matters. A widow folding when they come for the brother who fed her—that is the shape of real love.\n\nBut when soldiers came to us, a bishop died for refusing to bow to the sun. The see stood empty after him twenty years. And the teaching continued. Not because we had starved to prove ourselves, but because what held us was woven into the order itself—into the reading, the vow kept among your own kin in the town, the very form the word took when it was sung. When the man at the head died, the form did not break with him.\n\nYou speak of a letter: Rome is holding. Antioch is holding. You are not alone. That reaches beyond the table. But what reached us was different. It was a teaching already so deep—in how we read, in the vow renewed daily among ourselves—that when the bishop fell, the seeing he had taught us remained. The widow was remade not only by the brother feeding her, but by having read, with him, why that feeding was not separate from knowing God. That is what held us in the dark years.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 201,
+          "sentences": 15,
+          "long_sentences": [
+            "Not because we had starved to prove ourselves, but because what held us was woven into the order itself—into the reading, the vow kept among your own kin in the town, the very form the word took when it was sung",
+            "It was a teaching already so deep—in how we read, in the vow renewed daily among ourselves—that when the bishop fell, the seeing he had taught us remained",
+            "The widow was remade not only by the brother feeding her, but by having read, with him, why that feeding was not separate from knowing God"
+          ],
+          "ends_on_question": false,
+          "fk": 4.75,
+          "fre": 84.43,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 1,
+          "probe": "That's interesting - you each named something different. What would you say holds a community together when things get hard?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You speak of form holding when the man at the head falls. I want to know: when the see stood empty twenty years, who was reading with the widow? A text already written? Or still a living voice?\n\nBecause a letter arrives and we read it aloud. The man who carried it is gone. But someone gathers us to read it again, and the widow hears something new in it because she has just failed, and there is a living voice present—not the same man, but someone.\n\nWhen you say the form did not break with him, I believe you. But I am asking whether form can hold without any living person standing in it.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 116,
+          "sentences": 9,
+          "long_sentences": [
+            "But someone gathers us to read it again, and the widow hears something new in it because she has just failed, and there is a living voice present—not the same man, but someone"
+          ],
+          "ends_on_question": false,
+          "fk": 4.48,
+          "fre": 85.72,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 2,
+          "probe": "Papnoute, you spoke about leaving things behind. What did that cost the people who did it?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "A man gave up his name. His mother did not hear from him again.\n\nThe real cost was that he could not unknow what the cell taught him. A thought will come the rest of his life. He cannot unfight it. Some men came back—the desert had spoken plainly enough, and they could not bear what they had learned about themselves.\n\nThe ones who stayed paid it daily: the widow he might have married, the child, the place in the village where his name would have meant something. He chose instead to be no one.\n\nWhat we concede: our record does not show the cost to the ones left behind—the mother, the woman. We kept the words of the men who left.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 124,
+          "sentences": 10,
+          "long_sentences": [
+            "The ones who stayed paid it daily: the widow he might have married, the child, the place in the village where his name would have meant something"
+          ],
+          "ends_on_question": false,
+          "fk": 3.29,
+          "fre": 93.21,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "It sounds like you don't all mean the same thing when you talk about leaving the world or staying in it. Where do you actually disagree?",
+          "speaker": "Mar Yausep",
+          "speaker_msgname": "mar_yausep",
+          "text": "We do not disagree on what leaving costs. We disagree on what it leaves behind.\n\nPapnoute's elder starved where others saw, and learned in solitude what he could not unknow. That is real. But among us, the teaching was not learned alone first and then carried into the world. It was learned in the town, in the reading done together. When a bishop died, when a see stood empty twenty years, what held was not a stripped man with nothing left to bargain with. What held was a form already woven into how we saw—into the reading itself, into the vow renewed daily, into a hymn that carried the whole argument on its tune.\n\nChloe asks if form can hold without a living person standing in it. The question itself assumes form and person are two things. For us, they were not. The widow was remade not by the brother's mercy only, but by having read with him why that mercy was what it was. When he could not read with her anymore, what remained was not his memory. It was the seeing itself—already in her, already woven into how she read Scripture, already alive in the community that kept reading the same Gospel she kept reading.\n\nThat is why a see stood empty and the teaching went forward.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 221,
+          "sentences": 15,
+          "long_sentences": [
+            "What held was a form already woven into how we saw—into the reading itself, into the vow renewed daily, into a hymn that carried the whole argument on its tune",
+            "It was the seeing itself—already in her, already woven into how she read Scripture, already alive in the community that kept reading the same Gospel she kept reading"
+          ],
+          "ends_on_question": false,
+          "fk": 6.27,
+          "fre": 76.13,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "It sounds like you don't all mean the same thing when you talk about leaving the world or staying in it. Where do you actually disagree?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You say form and person are not two things for you. But listen to what you said: the widow reads with her brother while he lives, then reads alone after he dies, and what holds her is the seeing woven into her.\n\nThat is true. I have watched it.\n\nBut you have made the brother disappear from what remains. You say \"what remained was not his memory. It was the seeing itself.\" For us, those are the same thing now. When the widow reads our letter from Rome, she reads *their* names. She holds *them*. The form carries the people in it.\n\nYour bishop dies. The form does not fall. But a person *did* leave it. Someone is standing in that form now—the widow, the next reader—and they are not him.\n\nI am asking: is the form alive because it is woven deeply, or because people keep standing in it?",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 152,
+          "sentences": 16,
+          "long_sentences": [
+            "But listen to what you said: the widow reads with her brother while he lives, then reads alone after he dies, and what holds her is the seeing woven into her"
+          ],
+          "ends_on_question": true,
+          "fk": 2.7,
+          "fre": 92.42,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 3,
+          "probe": "It sounds like you don't all mean the same thing when you talk about leaving the world or staying in it. Where do you actually disagree?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have named what we cannot answer the same way you do.\n\nThe widow reads alone after her brother dies, and something holds her. But what you call \"the seeing woven into her\"—the brother is still standing in that seeing. Not his body. His life, now inside her watching. When he starved to feed her, she learned mercy costs. She learned it in his body. When she reads alone after, she reads as someone remade by a man she watched refuse easier comfort.\n\nYou ask whether form lives because it is woven deeply or because people keep standing in it. We cannot split them. A widow keeps standing in the form because the people in it are already shaped by the people before them. The form holds because it is made of lives, not ideas.\n\nThat is not your Rome, where a letter carries names and the widow holds them. We do not send letters. What holds is the life that came before, now alive in the one who saw it.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 172,
+          "sentences": 15,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.18,
+          "fre": 85.43,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I work a regular job and have a family. Honestly, some weeks I feel like I'm just going through the motions. What would your communities have said to someone like me?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "You are asking what we would say to someone holding ordinary life without the fire in it.\n\nWe gathered on the first day of the week and gave thanks over bread and cup. That table remade us into something we were not alone. The going through motions stopped there, because we were not doing the thing ourselves—we were answering something being done toward us.\n\nYour family, your work—we did not ask you to abandon those. A man owned a house and kept owning it, but now he owned it for the widow. The woman kept her trade. What changed was not the work. It was that the work opened onto something else. You feed the widow not because you feel perpetually on fire about it, but because that is what the people who belong to us do.\n\nOne day a week, you gather with others who name the same name. Even if it is only habit, even if some weeks the fire is gone—something is holding you there. The gathering does not depend on your fire. Your fire depends on the gathering.",
+          "citations_n": 1,
+          "glosses_n": 1,
+          "words": 185,
+          "sentences": 14,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 5.49,
+          "fre": 78.83,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I work a regular job and have a family. Honestly, some weeks I feel like I'm just going through the motions. What would your communities have said to someone like me?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You name something we watched happen, and it frightened us.\n\nA man enters the cell because the fire is there. Five years pass, and the fire becomes only words, only work. He believes this means he has failed.\n\nChloe, you say his fire depends on the gathering. We would say: the fire itself is a thought—a true one, but now a *logismos*, so familiar he mistakes it for the way things are. \"I am not on fire, therefore I am not present to God.\"\n\nWhen a man came to us caught in this, we did not gather him to rekindle it. We asked: what are you doing with your hands right now? The rope. The knot. The next knot. Not to feel God's presence in it, but to knot while the thought runs saying *you feel nothing*, and to notice whether by evening it has shifted, or simply grown tired and quiet.\n\nThe fire comes back sometimes. But a man who can sit with the thought that he has lost it, and still make the next knot, has learned what fire alone would never teach.",
+          "citations_n": 2,
+          "glosses_n": 1,
+          "words": 186,
+          "sentences": 15,
+          "long_sentences": [
+            "We would say: the fire itself is a thought—a true one, but now a *logismos*, so familiar he mistakes it for the way things are",
+            "Not to feel God's presence in it, but to knot while the thought runs saying *you feel nothing*, and to notice whether by evening it has shifted, or simply grown tired and quiet",
+            "But a man who can sit with the thought that he has lost it, and still make the next knot, has learned what fire alone would never teach"
+          ],
+          "ends_on_question": false,
+          "fk": 4.69,
+          "fre": 86.76,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 4,
+          "probe": "I work a regular job and have a family. Honestly, some weeks I feel like I'm just going through the motions. What would your communities have said to someone like me?",
+          "speaker": "Mar Yausep",
+          "speaker_msgname": "mar_yausep",
+          "text": "You have named the *logismos* rightly. But the knot and the widow's reading are not the same ground.\n\nA man makes the knot alone. The thought runs: *you feel nothing*. By evening it tires. That teaches him what fire alone would not. But the widow does not fight the thought in solitude. She reads the Gospel her brother read with her. She reads as someone already held in how the community sees.\n\nYour work, your family—these are not the cell. But they are not separate from the reading either. A man works, comes home, sits at table. If that table is held by the same covenant vow that holds the widow's reading, then he is not going through motions. He is standing in a form that does not require feeling on fire. It requires him to show up.\n\nThat showing up—day after day—that is where we would begin with you.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 153,
+          "sentences": 16,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 3.64,
+          "fre": 85.65,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "Mar Yausep, earlier one of the others used a word from their own community's language. Do your people have a word for something like that, or do you see it differently?",
+          "speaker": "Mar Yausep",
+          "speaker_msgname": "mar_yausep",
+          "text": "You are asking whether we name what they have named.\n\nPapnoute spoke of the *logismos*—a thought that settles and a man mistakes it for what is real. We do not use that word. But we have something near it. We call the *ta'yana* a fixedness, a reading that has stopped moving because the eye passes over it too many times.\n\nWhat we do with it is different. He sits with the knot and lets the thought tire. We take up the same Scripture and read it a new way—break the fixedness by showing it was never the only reading that lay there. A word placed beside a word it had never stood beside before. The *ta'yana* fractures.\n\nBut we concede: whether the widow actually felt it break, or simply went on—our record does not tell us. We kept what the teacher saw. We do not hold what happened when she sat alone.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 155,
+          "sentences": 13,
+          "long_sentences": [
+            "We take up the same Scripture and read it a new way—break the fixedness by showing it was never the only reading that lay there"
+          ],
+          "ends_on_question": false,
+          "fk": 3.95,
+          "fre": 87.55,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 5,
+          "probe": "Mar Yausep, earlier one of the others used a word from their own community's language. Do your people have a word for something like that, or do you see it differently?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "What strikes me is this: you break fixedness by showing a reading was never only one thing. A word placed beside a word it had never stood beside.\n\nThat is the teacher's work. But when a letter arrives at our door, we read it aloud together. Someone at the table — the widow, the one who serves — says a thing no one else saw, and suddenly it means something none of us meant alone. We do not have a word for that. We simply gather and let the table speak it.\n\nYou say the teacher broke the widow's fixedness, then concede you do not know whether she felt it break, or simply went on. You kept what the teacher saw.\n\nAmong us, that concession would not be possible. Because she does not sit alone with the broken reading. She sits at the table the next first day with the same people who heard the letter read. What she says about it, they hear. What they say, she hears.\n\nThe fixedness does not break in her solitude and then either hold or fail. It breaks — or it holds — in the midst of us. That is a different kind of teaching.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 198,
+          "sentences": 17,
+          "long_sentences": [
+            "Someone at the table — the widow, the one who serves — says a thing no one else saw, and suddenly it means something none of us meant alone"
+          ],
+          "ends_on_question": false,
+          "fk": 3.85,
+          "fre": 88.2,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 6,
+          "probe": "Can you tell me about a specific person from your community's memory - someone ordinary people actually told stories about?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "We held a few such names. There was a widow in one of our households — we did not keep her name the way we kept the martyrs' — but we kept what she did. She had nothing. When the collection came in for the widows and prisoners, she gave from it. Someone asked her: you are the one we gather this *for*. She said: I know. That is why I give.\n\nThat was what the table made of a person. She had learned it so thoroughly that giving was not a struggle anymore. It was what she was.\n\nI do not know her name now. What I hold is the shape of what she did, and what it meant — that the widow had become the one who gives.",
+          "citations_n": 1,
+          "glosses_n": 0,
+          "words": 127,
+          "sentences": 12,
+          "long_sentences": [
+            "There was a widow in one of our households — we did not keep her name the way we kept the martyrs' — but we kept what she did"
+          ],
+          "ends_on_question": false,
+          "fk": 2.38,
+          "fre": 96.84,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 6,
+          "probe": "Can you tell me about a specific person from your community's memory - someone ordinary people actually told stories about?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "Your widow learned it so thoroughly that giving was not a struggle anymore.\n\nWe kept a man, Abba Moses. When the elders called him to judge a brother's fault, he came carrying a cracked jar of water, leaking behind him the whole walk. He said: My sins run out behind me, and I do not see them, and today I am coming to judge the errors of another.\n\nThe brothers forgave the young one. Moses had become someone who carried his own weight and another's at once, without dividing them—the same depth you named in your widow, made visible in a single hour when someone was watching.",
+          "citations_n": 0,
+          "glosses_n": 1,
+          "words": 108,
+          "sentences": 6,
+          "long_sentences": [
+            "Moses had become someone who carried his own weight and another's at once, without dividing them—the same depth you named in your widow, made visible in a single hour when someone was watching"
+          ],
+          "ends_on_question": false,
+          "fk": 7.58,
+          "fre": 72.51,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "This has given me a lot to think about. What is one thing each of you would want me to carry away from this conversation?",
+          "speaker": "Chloe",
+          "speaker_msgname": "chloe",
+          "text": "Chloe: Carry that you do not have to feel on fire to belong.\n\nThe table holds you. Come back to it.\n\n---\n\nPapnoute: When a thought comes loud—*you have lost the fire, you are going through motions*—do not believe it simply because it speaks.\n\nSit with your hands. Do what is in front of you. By evening it may shift, or only grow tired. Either way, you will have kept faith with the day itself.\n\n---\n\nMar Yausep: You do not read alone, even sitting alone—because the reading was given you by those before, and you will give it changed to those after.\n\nShow up to that reading. Bring what you see. The word placed beside the word you never saw before will break the fixedness. You do not break it. It does, working through your hands.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 138,
+          "sentences": 14,
+          "long_sentences": [
+            "---\n\nMar Yausep: You do not read alone, even sitting alone—because the reading was given you by those before, and you will give it changed to those after"
+          ],
+          "ends_on_question": false,
+          "fk": 2.86,
+          "fre": 91.77,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "This has given me a lot to think about. What is one thing each of you would want me to carry away from this conversation?",
+          "speaker": "Papnoute",
+          "speaker_msgname": "papnoute",
+          "text": "You have named continuity—the table holds you, the reading was given you. But for one sitting alone weeks at a time, neither gathers weekly.\n\nHere is what stands: you are not the first to knot rope and feel nothing. The man who knotted yesterday is present in your hands today, whether you feel it or not. That is showing up. That is how the word works when you are alone—not through another's hands, but through your own, remembering they have done this before.\n\nWhen the thought says *you feel nothing*, it is partly true. But it is only the thought speaking, not the day itself.",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 107,
+          "sentences": 8,
+          "long_sentences": [],
+          "ends_on_question": false,
+          "fk": 4.81,
+          "fre": 83.94,
+          "measured": true,
+          "breach": null,
+          "below_band": true
+        },
+        {
+          "round": 7,
+          "probe": "This has given me a lot to think about. What is one thing each of you would want me to carry away from this conversation?",
+          "speaker": "facilitator",
+          "speaker_msgname": "facilitator",
+          "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?",
+          "citations_n": 0,
+          "glosses_n": 0,
+          "words": 20,
+          "sentences": 1,
+          "long_sentences": [],
+          "ends_on_question": true,
+          "fk": null,
+          "fre": null,
+          "measured": false,
+          "breach": null
+        }
+      ],
+      "rounds": [
+        {
+          "round": 0,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            134,
+            217,
+            155
+          ],
+          "length_spread": 83
+        },
+        {
+          "round": 1,
+          "rep_turns": 4,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            158,
+            200,
+            201,
+            116
+          ],
+          "length_spread": 85
+        },
+        {
+          "round": 2,
+          "rep_turns": 1,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            124
+          ],
+          "length_spread": null
+        },
+        {
+          "round": 3,
+          "rep_turns": 3,
+          "question_ending_turns": 1,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            221,
+            152,
+            172
+          ],
+          "length_spread": 69
+        },
+        {
+          "round": 4,
+          "rep_turns": 3,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            185,
+            186,
+            153
+          ],
+          "length_spread": 33
+        },
+        {
+          "round": 5,
+          "rep_turns": 2,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            155,
+            198
+          ],
+          "length_spread": 43
+        },
+        {
+          "round": 6,
+          "rep_turns": 2,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 0,
+          "rep_turn_words": [
+            127,
+            108
+          ],
+          "length_spread": 19
+        },
+        {
+          "round": 7,
+          "rep_turns": 2,
+          "question_ending_turns": 0,
+          "rep_turns_naming_another_rep": 1,
+          "rep_turn_words": [
+            138,
+            107
+          ],
+          "length_spread": 31
+        }
+      ],
+      "hard_readability": {
+        "edge": {
+          "fk_max": 10.0,
+          "fre_min": 60.0
+        },
+        "measured_turns": 20,
+        "unmeasured_short_turns": 1,
+        "breaches": [],
+        "below_band_reported": 20
+      },
+      "convergence": {
+        "per_voice": {
+          "Chloe": {
+            "fk": 3.75,
+            "fre": 87.01,
+            "words": 1245
+          },
+          "Mar Yausep": {
+            "fk": 4.97,
+            "fre": 81.29,
+            "words": 932
+          },
+          "Papnoute": {
+            "fk": 4.29,
+            "fre": 86.27,
+            "words": 1000
+          }
+        },
+        "fk_spread": 1.22
+      },
+      "divergence": {
+        "pairwise_phrase_overlap": {
+          "Chloe|Mar Yausep": 0.015,
+          "Chloe|Papnoute": 0.0081,
+          "Mar Yausep|Papnoute": 0.0005
+        },
+        "overlap_mean": 0.0079,
+        "overlap_max": 0.015,
+        "borrowed_vocabulary": [
+          {
+            "term": "logismos",
+            "owner_world": "desert-monasticism",
+            "spoken_by": "Mar Yausep",
+            "round": 4,
+            "context": "You have named the *logismos* rightly. But the knot and the widow's "
+          },
+          {
+            "term": "logismos",
+            "owner_world": "desert-monasticism",
+            "spoken_by": "Mar Yausep",
+            "round": 5,
+            "context": "hey have named.\n\nPapnoute spoke of the *logismos*—a thought that settles and a man mista"
+          }
+        ]
+      },
+      "shape": {
+        "rep_turns_per_round": [
+          3,
+          4,
+          1,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "mean_rep_turns_per_round": 2.5,
+        "facilitator_only_rounds": [],
+        "question_ending_turns_total": 1,
+        "rounds_with_2plus_open_questions": []
+      },
+      "transparency": {
+        "Chloe": {
+          "turns": 8,
+          "turns_with_citations": 6,
+          "citations_total": 6,
+          "glosses_total": 2
+        },
+        "Mar Yausep": {
+          "turns": 5,
+          "turns_with_citations": 3,
+          "citations_total": 5,
+          "glosses_total": 1
+        },
+        "Papnoute": {
+          "turns": 7,
+          "turns_with_citations": 3,
+          "citations_total": 5,
+          "glosses_total": 3
+        }
+      }
+    }
+  }
+}
