@@ -1,0 +1,21 @@
+
+/* Two-tier citations (2026-08-10). A consulted source was retrieved and
+   judged relevant to the turn, but the answer is not specifically traceable
+   to it. It must not read like a drawn-on source - the grounding filter
+   exists because a live sweep found citations with no visible connection to
+   the text in 3 of 5 worlds, and styling the two alike would re-open that.
+   Recessive, not hidden: still reachable, visibly weaker. */
+.citation-tooltip__item--consulted,
+.citation-modal__entry--consulted {
+  opacity: 0.72;
+}
+.citation-tooltip__tier,
+.citation-modal__tier {
+  font-size: 0.78em;
+  font-style: italic;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+.citation-tooltip__tier {
+  margin-left: 0.35em;
+}

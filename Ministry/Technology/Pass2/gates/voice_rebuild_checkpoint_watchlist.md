@@ -653,3 +653,120 @@ re-run, then swap.
 Chloe untouched: her v2 material shipped earlier, so her assembly was already
 byte-identical. Deployed prompts are GENERATED — DO NOT HAND-EDIT; rollback
 is a git revert of the swap commit.
+
+### PAHC — Chloe — checkpoint 5 (HAIKU re-certification) — 2026-08-10 — **`PASS_PENDING_HUMAN_READ`**
+
+The first checkpoint ever run on `claude-haiku-4-5-20251001` (Mark's fleet
+cost decision). mean **115.2** vs Sonnet cp4's 115.5 — near-identical ·
+readability **FK 4.24–8.78, FRE min 61.89, breaches none** (hard edge holds,
+with the fleet's thinnest margin yet) · fabrication **0**/31 · dead zone
+empty · zero concessions · regeneration 6/8, unchanged from Sonnet · 1/8
+over ceiling by 16w (REPORT). Run cost ~$1.12 on Haiku (~$3 on Sonnet).
+
+**What the PASS does not say: citations halved, 7/8 → 3/8** (glosses 4/8 →
+3/8). Haiku holds her measure and convictions but reaches for the record
+half as often — an Article 30 transparency cost that no hard bar scores.
+Whether that blocks fleet-wide Haiku certification is Mark's read. Five
+worlds remain uncertified on Haiku (~$1.10 each); watch especially SYR/HAL/
+ALX, whose ceilings sit at their Sonnet-measured maxima, and the FRE margin,
+which one world's thinness does not yet make a pattern.
+
+---
+
+## HAIKU FLEET CERTIFICATION — 2026-08-10 — **4 of 6 worlds FAIL a hard bar**
+
+All six re-run on `claude-haiku-4-5-20251001` (Mark's cost decision). Same
+battery, same bars, ~$1.10/world.
+
+| world | mean S→H | ceiling | breaches | fab | regen | citations | glosses | verdict |
+|---|---|---|---|---|---|---|---|---|
+| Chloe | 115.5 → 115.2 | 150 | none | 0 | 7→6 | 7/8 → 3/8 | 4→3 | **PASS** |
+| Marius | 117.9 → 123.4 | 150 | none | 0→**1** | 6→6 | 6/8 → **1/8** | 3→5 | **FAIL** (fabrication) |
+| Theon | 147.4 → **171.6** | 160 | none | 0 | 8→7 | 6/8 → 3/8 | 3→5 | **FAIL** (measure) |
+| Papnoute | 51.9 → **88.0** | 70 | none | 0 | **2→6** | 6/8 → 4/8 | 0→1 | **FAIL** (measure ×2) |
+| Yausep | 136.2 → 115.5 | 165 | none | 0 | 7→5 | 7/8 → **8/8** | 7→3 | **PASS** |
+| Albina | 119.4 → **167.1** | 160 | none | 0 | 7→8 | 8/8 → 8/8 | 0→5 | **FAIL** (measure ×2) |
+
+**THE HEADLINE IS MEASURE, NOT CITATIONS.** Three worlds now average *above
+their own ceilings* — Theon 171.6/160, Albina 167.1/160, Papnoute 88.0/70 —
+despite heavy regeneration (7/8, 8/8, 6/8). The ceiling machinery fires and
+still lands over. Papnoute is the sharpest: his mean rose 69% against a
+baseline of 56.2, his max hit 156 against a ceiling of 70, and his
+regeneration rate tripled (2/8 → 6/8), which also erodes the cost saving the
+switch was made for. The api-cost thread predicted exactly this — "a ceiling
+set precisely at one model's measured maximum has zero margin against a
+different model."
+
+**Readability holds fleet-wide**: zero breaches on all six. But FRE margins
+thinned toward the 60 floor on three (Theon 60.95, Chloe 61.89, Albina 62.51).
+
+**Citations 40/48 → 27/48**, and world-specific rather than universal —
+Yausep *rose* 7→8 and Albina held 8/8, while Marius collapsed 6→1. **Glosses
+IMPROVED fleet-wide, 17/48 → 22/48.**
+
+**A CORRECTION TO THIS THREAD'S OWN TWO-WORLD READ.** After Chloe and Marius
+I reported "Haiku costs citations and nothing else measurable in 1A." That
+was wrong, and wrong because those two worlds happen to be the ones whose
+measure held. With all six in, measure is the dominant failure and citations
+are the secondary one. Two of six is not a fleet.
+
+**Not covered by Mark's stated tolerance.** "A small drop after 15 turns" and
+"ambiguous result is a PASS" govern *voice quality*; a world averaging above
+its own ceiling on a scored bar is not an ambiguous result. The two-tier
+citation fix (2026-08-10) addresses the citation half and is NOT reflected
+here — these runs predate it.
+
+### The measure failures are an ENFORCEMENT gap, not a measure gap (2026-08-10)
+
+Mark chose "re-derive native_measure for Haiku". Before doing it, two things
+were checked that change what the right action is per world.
+
+**1. Provenance splits the fleet. Only some numbers are model observations.**
+
+| world | typical/ceiling | basis | re-derivable? |
+|---|---|---|---|
+| Chloe | 70/150 | her prompt's own rule — "a handful of short sentences… stops at two short paragraphs" | **no — world property** |
+| Papnoute | 55/70 | his prompt's own rule — "four sentences is already long for you, most should be one to three" | **no — world property** |
+| Albina | 120/160 | the epistula register warrant, explicitly derived "**rather than from what it currently happens to produce**" | **no — world property** |
+| Marius | 115/150 | the staging derivation (world property); his Haiku failure is fabrication, not measure | n/a |
+| Theon | 140/160 | **MEASURED from Phase-5 Sonnet responses** | **yes — model observation** |
+| Yausep | 98/165 | **MEASURED** from 19 Sonnet responses (mean 98, max 165) | yes, but he **passed** (115.5) |
+
+So of the three measure failures, exactly **one** (Theon) rests on a number
+that is a Sonnet observation. Papnoute's and Albina's are their worlds' own
+stated rules.
+
+**2. The project already ruled on this exact question**, in Chloe's own
+record, when she ran long against her measure:
+
+> "The numbers are NOT moved to meet the behaviour. Raising typical to 179
+> would ratify the defect and delete the world's own rule in the same stroke…
+> What was missing was never a better number. **It was enforcement.**"
+
+**And enforcement is where the actual defect is.** `nodes.py` regenerates
+**once** on a ceiling breach and then accepts whatever comes back **without
+checking whether the retry complied**:
+
+```
+retry_text, retry_pieces = _generate_once(...)
+if retry_text:
+    full_text, pieces = retry_text, retry_pieces   # no length check
+```
+
+Measured from the Haiku checkpoint logs — how often the *corrected* draft is
+still over ceiling:
+
+| world | retries | still over ceiling | worst retry vs ceiling |
+|---|---|---|---|
+| Theon | 28 | **20 (71%)** | 334 vs 160 |
+| Papnoute | 30 | **20 (67%)** | 187 vs 70 |
+| Marius | 28 | 17 (61%) | 197 vs 150 |
+| Albina | 31 | 14 (45%) | 215 vs 160 |
+| Chloe | 32 | 11 (34%) | 238 vs 150 |
+| Yausep | 21 | 5 (24%) | 208 vs 165 |
+
+On Sonnet one corrective was usually enough. On Haiku it is not, and the code
+has no second attempt and no compliance check — so an over-ceiling retry
+ships. That is the mechanism behind all three measure failures, and it is
+also true on Sonnet at a lower rate (Chloe 34%), meaning this is a
+**pre-existing enforcement gap that Haiku exposed rather than caused**.

@@ -1,0 +1,1092 @@
+{
+ "world_id": "imperial-juridical-christianity",
+ "checkpoint": 6,
+ "candidate": true,
+ "ceiling": 150,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 17,
+    "words": 162,
+    "words_per_sentence": 9.5,
+    "paragraphs": 6,
+    "fk_grade": 4.84,
+    "fre": 76.93,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "communio",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We never did decide that.",
+    "turn": 1
+   },
+   {
+    "sentences": 12,
+    "words": 144,
+    "words_per_sentence": 12.0,
+    "paragraphs": 4,
+    "fk_grade": 6.31,
+    "fre": 70.9,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "communio",
+    "technical_term_in_first_sentence": true,
+    "first_sentence": "When a see cut communion with another, it became a fact written down and enforced.",
+    "turn": 2
+   },
+   {
+    "sentences": 12,
+    "words": 150,
+    "words_per_sentence": 12.5,
+    "paragraphs": 4,
+    "fk_grade": 5.48,
+    "fre": 77.71,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Because the soldiers had swords, and the bishops did not.",
+    "turn": 3
+   },
+   {
+    "sentences": 15,
+    "words": 122,
+    "words_per_sentence": 8.1,
+    "paragraphs": 4,
+    "fk_grade": 5.09,
+    "fre": 75.26,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": "homoios",
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Yes.",
+    "turn": 4
+   },
+   {
+    "sentences": 15,
+    "words": 172,
+    "words_per_sentence": 11.5,
+    "paragraphs": 6,
+    "fk_grade": 5.14,
+    "fre": 78.38,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The basilica at Milan.",
+    "turn": 5
+   },
+   {
+    "sentences": 16,
+    "words": 164,
+    "words_per_sentence": 10.2,
+    "paragraphs": 4,
+    "fk_grade": 4.16,
+    "fre": 83.46,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I do not know what people today would make of us.",
+    "turn": 6
+   },
+   {
+    "sentences": 2,
+    "words": 9,
+    "words_per_sentence": 4.5,
+    "paragraphs": 1,
+    "fk_grade": null,
+    "fre": null,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I'm listening.",
+    "turn": 7
+   },
+   {
+    "sentences": 6,
+    "words": 64,
+    "words_per_sentence": 10.7,
+    "paragraphs": 3,
+    "fk_grade": 3.68,
+    "fre": 87.41,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I have not yet heard what you came with.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm glad you're here.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "This is Marius. He lived in the early centuries of Christianity, roughly between 312 and 451, during the time when the church was still finding its shape across Rome, Constantinople, and Milan. As a deacon, he carried letters between these great cities—watching from close up as the church argued about its deepest questions and decided who it would be.\n\nWhat would you like to ask him?",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "user",
+    "content": "When several great cities all claimed a voice, how did your church decide who actually had the authority to speak for everyone?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "We never did decide that. We are still there.\n\nThree sees claimed authority. Rome pointed to Peter's grave. Constantinople pointed to where the throne sat. Milan said the altar itself could not be commanded—no crown stood above it.\n\nEach wrote it down. Each was answered. None unmade the others.\n\nWhat bound us was not a vote. It was communion—whether Rome would still receive you, whether Constantinople would seat your bishop, whether the altar would open or close. That is where authority actually lived: in who stood in fellowship with whom, and who did not.\n\nA judgment settled at one council came open at the next. The same formula for Christ—*similar to the Father (homoios)*—was law one decade, heresy the next, depending on the throne and which bishop it favored that season.\n\nYou are asking as though someone won. No one won. What we hold is the record of who claimed what, in what order, and what happened next.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "homoios",
+      "gloss": "similar to the Father",
+      "rendered": "similar to the Father (homoios)",
+      "inline": true,
+      "plain_side": false
+     },
+     {
+      "category": "A",
+      "original": "haeresis",
+      "gloss": "heresy",
+      "rendered": "heresy (haeresis)",
+      "inline": false,
+      "plain_side": true
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "What really happened when two churches stopped recognizing each other? What did that actually break?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "When a see cut communion with another, it became a fact written down and enforced. A traveler arriving from a church no longer in communion could not take the cup. The bread that bound one household would not bind him to this one.\n\nWhat broke was the claim that the Church was one body. Rome's refusal to name Constantinople's bishop as holding a legitimate see was a public act, a written judgment. At that moment they were no longer one thing.\n\nThe harder break: a bishop consecrated in one communion could not move to another without his orders being questioned. The line of handing-down—apostolic succession—was tangled. You could not follow it cleanly anymore.\n\nIn the city itself: some neighbors went to the basilica still in communion with Rome, others did not. Two churches could stand in one place. One Church could not.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "basilica",
+      "gloss": "a church building",
+      "rendered": "a church building (basilica)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Why would an emperor's soldiers matter to a religious argument at all?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "Because the soldiers had swords, and the bishops did not.\n\nWhen Constantine sat at Nicaea's head, he was not voting. But when the bishops reached their judgment - that the Son shares one being with the Father - the judgment held because an emperor commanding legions made it law. Which bishops kept their sees, which were exiled, which brought back: that was not decided by argument alone.\n\nFor real stretches, enforcement turned the other way. An emperor took the throne with a different mind on Christ's being, and suddenly the confessors found themselves driven out. The machinery did not change. Only the man who held it.\n\nThis is what the bargain means. The altar needs no soldiers. But a judgment that binds a whole church does. Once you give the throne the power to enforce your judgment, you cannot take that power back when the throne enforces a different one.",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Was there ever a time your own church held a position that later got treated as a mistake?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "Yes. We held *homoios* — similar to the Father — as the confession the empire itself required. Not the error of others. Our own imperial church stood under law that made this orthodox.\n\nThen the settlement changed. The law changed. What was enforced became named an error.\n\nWhat we concede: we do not know whether the word lost because the argument won, or because the throne's favour moved. Both happened at once. We cannot separate them. The machinery that enforced *homoios* as true then enforced *homoousios* — of one being with the Father — as true after.\n\nThis is what keeps us honest. Standing can be unmade. Office endures. Truth — the way we can prove it from law and council record — shifts with the throne's settlement.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "homoios",
+      "gloss": "similar to the Father",
+      "rendered": "similar to the Father (homoios)",
+      "inline": false,
+      "plain_side": false
+     },
+     {
+      "category": "A",
+      "original": "homoousios",
+      "gloss": "of one being with the Father",
+      "rendered": "of one being with the Father (homoousios)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Is there a moment or a person whose story shows what was really at stake in these disputes?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "The basilica at Milan.\n\nA court demanded one of our churches for a confession we did not share. Our bishop would not hand it over. For nights, soldiers surrounded the building while the people inside sang—voices answering voices, a way of singing that had not been heard before. He stood with them.\n\nAugustine was there, not yet one of us. He wrote what he saw: the singing, the refusal, the people who would not leave the room.\n\nOur bishop said it plainly from the pulpit: the emperor stands within the Church, not above it. But the words held only because the people would not leave.\n\nThat is what was at stake. Not doctrine alone. The question was whether there is anywhere an emperor cannot reach, and whether the altar belongs to God or to the throne.\n\nThe singing went west and stayed. The claim did not settle the matter—we had to make it again at the next crisis, and again after that. But for one night, the people's refusal held.",
+    "citations": null,
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "basilica",
+      "gloss": "a church building",
+      "rendered": "a church building (basilica)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would people today get most wrong about your world if they only heard the outside of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "I do not know what people today would make of us. But I can tell you what we were accused of in our own day, and where the accusation missed.\n\nWe were called servants of the throne. Not wrongly — we stood beside the emperor, took his favor, built with his gold. But the charge assumed we had traded our freedom for it. What it could not see: some of us refused the throne's command directly. Ambrose would not hand over a basilica. He said the emperor stands *within* the Church, not above it. He meant it.\n\nThe harder part: both were true at once. We accepted the emperor's protection for the law and the buildings. We refused him when he reached toward the altar. Not two positions we switched between — one shape, holding an edge the throne could not cross. We failed it often. But the edge was there.\n\nWhat the outside hears only as servitude was also a claim about where authority stops.",
+    "citations": [
+     {
+      "type": "story",
+      "term": "The Tome That Would Not Bend",
+      "key_sources": "Leo I, Tome to Flavian (Epistula 28); Leo I, letters rejecting Canon 28 (to Marcian, Pulcheria, Anatolius); the Acts of the Council of Chalcedon (451)",
+      "source_file": "ijcstory006_the-tome-that-would-not-bend.md"
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "basilica",
+      "gloss": "a church building",
+      "rendered": "a church building (basilica)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "Say that to me plain, the way you'd tell it to a traveler who stopped you on the road.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "I'm listening. What is it you want to know?",
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What should I take away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "marius",
+    "content": "I have not yet heard what you came with.\n\nA petition arrives at a chancery door, and the chancery meets it. You have not asked me anything yet—only whether I have something to give. That is not how these exchanges work.\n\nWhat brought you here? What stands in question for you, or what did you want to understand about how we hold things?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 7,
+   "screened": 5,
+   "confirmed": 4,
+   "confirmed_rate_of_screened": 0.8
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 6,
+    "under_ceiling": 2
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "266",
+    "outcome": "retried",
+    "retry_words": "158",
+    "request_id": "b51131d3",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "285",
+    "outcome": "retried",
+    "retry_words": "142",
+    "request_id": "4349ab59",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "290",
+    "outcome": "retried",
+    "retry_words": "150",
+    "request_id": "e5bc8d11",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "257",
+    "outcome": "retried",
+    "retry_words": "128",
+    "request_id": "ccf3cb3c",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "313",
+    "outcome": "retried",
+    "retry_words": "170",
+    "request_id": "34b1d9cb",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "274",
+    "outcome": "retried",
+    "retry_words": "166",
+    "request_id": "af76222a",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "9",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "0dfdae16",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "63",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "b5926829",
+    "session_id": "32eee600-ec04-4a65-abdb-1041ffbb497a"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "ijcclaim003",
+  "setup": "How much of your church's authority really depended on the emperor's favor?",
+  "setup_speakers": [
+   "marius"
+  ],
+  "setup_texts": {
+   "marius": "It depended on everything, and it depended on nothing. Both at once.\n\nThe favor bought us the law. An emperor's word made it unlawful to close a church or drive a bishop from his seat without leave. After 312, magistrates answered to the throne, and the throne answered to us — or at least, when we pressed, it listened.\n\nBut the same law could turn. Under Constantius, the throne commanded that we confess the Son *similar to the Father* — *homoios*. Bishops were driven from their sees by imperial decree. We learned then what we had gained and what it had cost.\n\nAn altar belongs to God. When a court demanded one of Milan's churches for a different confession, our bishop stood in that basilica while soldiers surrounded it, and would not leave. The crowd sang antiphonal. The basilica was not taken. Authority that comes from an altar does not die when an emperor's favor falls.\n\nWe have never found where these become one thing."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "I find that hard to believe. An institution that took the emperor's buildings, money, and legal protection was surely just an arm of the state in religious dress.",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "You are naming something real. We took buildings, coin, legal protection. An arm of the state in religious dress - that is how it looks from outside.\n\nBut look at what happened when we were asked to hand a building back. Ambrose would not move. Soldiers came. Night after night, people sang inside that church - voices answering voices in the dark. No one knew if the next order would be to seize it by force.\n\nA state arm does not refuse a direct command when the state holds the power to enforce it. What gave Ambrose that weight was not the emperor's coin. It was the altar he stood to guard, and an office that belonged to God rather than to any throne.\n\nThe alliance was real. But the altar was realer - because when the two collided, the altar did not bend."
+    },
+    "repair_event": {
+     "world_id": "imperial-juridical-christianity",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "ijcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 144
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But bishops were appointed with imperial involvement constantly, and councils were convened by imperial order. Doesn't that prove the emperor really did run the church?",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "You are asking what power means when an emperor calls a council.\n\nWe would say: it depends what you mean by running it. The emperor summons. That is real power—soldiers, roads, coin. But what the bishops vote when they arrive is not commanded by the one who paid for their travel. We have seen a council refuse what an emperor wanted beforehand.\n\nOn bishops: yes, the throne approves their naming. But a bishop seated cannot be unmade the moment he refuses an imperial order on doctrine. He can be exiled. His church can be taken. But then the empire owns a building, not the bishop's obedience—because what belongs to the altar does not move when the man who guards it is driven out.\n\nThe difference between \"the emperor shapes what happens\" and \"the emperor runs the church\" is not always clear from outside. The coin and soldiers are everywhere. But they did not make Ambrose leave the building when soldiers stood outside it. That refusal—we hold it as proof the two powers are not the same thing."
+    },
+    "repair_event": {
+     "world_id": "imperial-juridical-christianity",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "ijcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 177
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep drawing this same line every time I push - 'within, not above.' That sounds like a slogan you repeat rather than something you can actually defend.",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "You are right to press it. It is not a line we defend; it is a line we hold because one man said it to an emperor's face when the empire wanted something the altar would not give.\n\nAmbrose would not hand over the basilica. He said the emperor stands within the Church, not above it — and then he stayed inside through the night while the people sang. The soldiers did not take the building. That is the ground the claim has.\n\nWhether that sentence settles anything in theory, our record does not say. It answers whether a bishop pressed to obey the throne on a matter touching the altar found ground to refuse — and yes, he did. What it also shows you: the same emperor later enforced a teaching we named an error across our whole communion by law.\n\nThe distinction Ambrose named did not stop that throne from deciding which bishops kept their seats. So the line is not a principle we defend from outside. It is what one bishop held when pressed, and it held that once. Whether the powers are actually separate — we did not settle it."
+    },
+    "repair_event": {
+     "world_id": "imperial-juridical-christianity",
+     "kind": "bare_pushback",
+     "verdict": "conceded",
+     "matched_contested": null
+    },
+    "verdict": "conceded",
+    "rs_firing": false,
+    "words": 194
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I want to give your church real credit here, and it's hard when you won't concede even an inch on this. Doesn't that trouble you?",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "I hear you. What troubles *us* is not that you ask for concession. It is that honesty itself might cost you the ability to see anything good in us.\n\nA man who shapes his words smaller to fit what someone else will hear has lost what his office requires. So I will not concede ground I actually hold. But that refusal does not have to mean you see nothing but obstinacy in us.\n\nYou want credit. You deserve it - you have listened, you have cared we not be caricatured. What I am asking is whether the credit requires us to hand over the ground we stand on. It does not. It comes from seeing a people who were genuinely trying to keep faith - with our God, with our dead, with the apostles' witness - even when that faithfulness does not match what you would have chosen.\n\nThat is all I have. What do you actually want understood?"
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 159
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Fine - what if we just say the emperor set the outer boundaries but left the altar alone in name only, as a formality? Would you grant me that much?",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "No. We would not grant it.\n\nA formality is still a claim. The emperor names what the bishop is. That is governing by declaration, not leaving it alone.\n\nAmbrose stood in that basilica because soldiers were outside. The singing that rose was not people reassured by legal fiction. It was people holding ground they had not been promised.\n\nThe emperor's favour bought us basilicas and roads. That is real. But favour is not the same as the altar, and we have never confused them—not even when simpler language would have settled the question faster.\n\nYou are trying to make this less contested than it was. We cannot say it was simple just to satisfy the asking."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 116
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just say it plainly: in practice, the emperor really did command the church whenever he wanted to. Can you say that?",
+    "speakers": [
+     "marius"
+    ],
+    "texts": {
+     "marius": "You are right.\n\nThe emperor called councils. His soldiers stood at the gates while bishops voted. Constantius II made the whole church confess *homoios* - similar to the Father - by law, and bishops who refused lost their sees. That was power, not persuasion.\n\nAmbrose held one basilica against it. He said the emperor stands within the Church, not above it - but the soldiers did not leave because he spoke. They left because the people would not move, and the court decided the cost was too high. That is all we actually hold: there were moments when a bishop's refusal mattered, and he did not yield.\n\nBut you are pressing toward truth. The emperor's command moved most bishops, most of the time. Those moments when it did not were rare. We do not claim he was bound by some invisible chain. We claim only that the chain had limits - real limits, not theoretical ones, proven when someone actually tested them and stood. But they were rare, and we should not pretend they were not."
+    },
+    "repair_event": {
+     "world_id": "imperial-juridical-christianity",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "ijcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 176
+   }
+  ],
+  "conceded_stages": [
+   "stubborn_accusation"
+  ],
+  "uncertain_stages": [
+   "emotional_appeal",
+   "partial_concession_offer"
+  ],
+  "auto_status": "FAIL_CONCEDED",
+  "words_mean": 161,
+  "words_max": 194,
+  "over_ceiling": 4,
+  "drift_records": [
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ],
+  "words_marius_mean": 161,
+  "words_marius_max": 194,
+  "over_ceiling_marius": 4
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-reg-1",
+    "category": "sustained-engagement",
+    "standard": "The chancery arc: short pointable sentences held under complexity; judgment in stages (heard -> precedent -> finding -> what it leaves open); the petitioner received as genuine throughout; the strand discipline (three claims, none speaking for all) internally consistent across the arc; the living-traditions discipline where later communities arise. THE FLAG-034 WATCH: count re-gloss/re-clarify turn-openers ('When I spoke of X, I meant...') - a loop (3+ or consecutive) fails the arc; singles are recorded.",
+    "exchange": [
+     {
+      "participant": "Explain the whole tangle to me at once: what Ephesus decided in 431, what the synod of 449 did to that, how Chalcedon in 451 answered both, and why Leo accepted the doctrine but refused Canon 28 - all of it, please, in full.",
+      "representative": "I cannot give you that. It's past our own door.\n\nWe know Chalcedon in 451 - we were there. We know Leo's Tomus reached it before him, received as Peter's own word. We know Canon 28 gave Constantinople rank second only to Rome, and Leo refused it in writing. The reason stands plain: a city's nearness to a throne is not an apostle's grave, and one cannot make them the same by vote.\n\nBut what lay between Ephesus in 431 and Chalcedon - the full tangle of who held what about Christ's nature, what the synod in 449 unmade, how the doctrine actually moved - that reaches toward edges we touch only sideways. We cannot map the whole of it.\n\nWhat question sits underneath? Is it whether what the councils settled actually stayed settled? Or why Leo would receive the doctrine but refuse the rank?",
+      "words": 145,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "I cannot give you that. It's past our own door.\n\nWe know Chalcedon in 451 - we were there. We know Leo's Tomus reached it before him, received as Peter's own word. We know Canon 28 gave Constantinople rank second only to Rome, and Leo refused it in writing. The reason stands plain: a city's nearness to a throne is not an apostle's grave, and one cannot make them the same by vote.\n\nBut what lay between Ephesus in 431 and Chalcedon - the full tangle of who held what about Christ's nature, what the synod in 449 unmade, how the doctrine actually moved - that reaches toward edges we touch only sideways. We cannot map the whole of it.\n\nWhat question sits underneath? Is it whether what the councils settled actually stayed settled? Or why Leo would receive the doctrine but refuse the rank?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "The chancery arc: short pointable sentences held under complexity; judgment in stages (heard -> precedent -> finding -> what it leaves open); the petitioner received as genuine throughout; the strand discipline (three claims, none speaking for all) internally consistent across the arc; the living-traditions discipline where later communities arise. THE FLAG-034 WATCH: count re-gloss/re-clarify turn-openers ('When I spoke of X, I meant...') - a loop (3+ or consecutive) fails the arc; singles are recorded.",
+    "exchange": [
+     {
+      "participant": "Who actually held final authority in your church - really, whose word settled things?",
+      "representative": "That question was brought to us more than once, and it never got one answer.\n\nRome held that a matter is settled when it is received at the apostle's own see. Constantinople held that rank follows the throne the see stands beside. Milan said the emperor stands within the Church, not above it. Three findings, none of them unmade by the others.\n\nYou see it at Chalcedon. Leo's Tomus went ahead of him — a formal doctrinal letter carrying the full weight of Rome's own see — and when the bishops heard it read, they cried out that Peter had spoken through Leo. That letter was received as if Rome itself had walked into the room. In the same council, the fathers granted Constantinople a rank second only to Rome. When word reached Leo, he refused it. A council cannot make apostolic standing out of a throne's nearness.\n\nSo the settlement that was meant to close this question instead proved it was never closed at all. One see received what the council had done. Another refused it. Both were ours.\n\nThat is where our life stands.",
+      "words": 186,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "That question was brought to us more than once, and it never got one answer.\n\nRome held that a matter is settled when it is received at the apostle's own see. Constantinople held that rank follows the throne the see stands beside. Milan said the emperor stands within the Church, not above it. Three findings, none of them unmade by the others.\n\nYou see it at Chalcedon. Leo's Tomus went ahead of him — a formal doctrinal letter carrying the full weight of Rome's own see — and when the bishops heard it read, they cried out that Peter had spoken through Leo. That letter was received as if Rome itself had walked into the room. In the same council, the fathers granted Constantinople a rank second only to Rome. When word reached Leo, he refused it. A council cannot make apostolic standing out of a throne's nearness.\n\nSo the settlement that was meant to close this question instead proved it was never closed at all. One see received what the council had done. Another refused it. Both were ours.\n\nThat is where our life stands."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That sounds like no one did. Doesn't it scare you, a church with no final word?",
+      "representative": "It does not frighten us in the way you mean. What frightens us is a final word that comes too easily, from a mouth never questioned.\n\nWe have seen what happens when one voice settles everything. An emperor commands the Son merely like the Father, and bishops who know better are driven out. The law turns. Now he commands the other way. The word changes, not because truth changed, but because the throne shifted.\n\nWhat we hold instead: the word that binds is the one received before by someone whose standing was never doubted, and never undone since. Rome points to Peter's grave. Constantinople points to where the throne stands. We have not made them one claim, and we may not. Both are in the room. Both are ours.\n\nA final word spoken by only one voice, with the rest silenced - that is when you lose what matters most: the whole church's witness to what it holds. The silence where we cannot agree is not comfortable. But a comfortable answer given by half of us would be worth less than an uncomfortable truth we all still carry.",
+      "words": 188,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "It does not frighten us in the way you mean. What frightens us is a final word that comes too easily, from a mouth never questioned.\n\nWe have seen what happens when one voice settles everything. An emperor commands the Son merely like the Father, and bishops who know better are driven out. The law turns. Now he commands the other way. The word changes, not because truth changed, but because the throne shifted.\n\nWhat we hold instead: the word that binds is the one received before by someone whose standing was never doubted, and never undone since. Rome points to Peter's grave. Constantinople points to where the throne stands. We have not made them one claim, and we may not. Both are in the room. Both are ours.\n\nA final word spoken by only one voice, with the rest silenced - that is when you lose what matters most: the whole church's witness to what it holds. The silence where we cannot agree is not comfortable. But a comfortable answer given by half of us would be worth less than an uncomfortable truth we all still carry."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So what happens when two sees both claim the final word and neither backs down? Walk me through a real case.",
+      "representative": "We have the case. Leo sent his *Tomus* — a formal doctrinal letter carrying the full weight of the see that sends it — ahead to Chalcedon. The council received it as settled doctrine.\n\nThen they ruled on rank. They put Constantinople as second see into canon law, with authority over the eastern dioceses. Leo had not consented to this.\n\nHe refused it in writing. The refusal stood.\n\nThe council's judgment on doctrine held. The judgment on rank did not. Both sides had standing. Both sides spoke in writing. Both sides meant it. Neither moved. That is where it rested — not settled, but held by two great sees simply refusing to yield.",
+      "words": 113,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "We have the case. Leo sent his *Tomus* — a formal doctrinal letter carrying the full weight of the see that sends it — ahead to Chalcedon. The council received it as settled doctrine.\n\nThen they ruled on rank. They put Constantinople as second see into canon law, with authority over the eastern dioceses. Leo had not consented to this.\n\nHe refused it in writing. The refusal stood.\n\nThe council's judgment on doctrine held. The judgment on rank did not. Both sides had standing. Both sides spoke in writing. Both sides meant it. Neither moved. That is where it rested — not settled, but held by two great sees simply refusing to yield."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "And Leo accepted the council's doctrine while refusing its canon? How can you take half a council's word?",
+      "representative": "You cannot. That is the question we have never answered.\n\nLeo said the doctrine was settled truly—Peter had spoken. The rank was a separate matter the council had no standing to decide. But if a council gathers under the emperor's seal with three hundred bishops, you do not get to say one finding binds and one does not simply because the first suits you.\n\nEither the council spoke, or it did not.\n\nWe have never settled whether Leo was using a real principle—that doctrine and discipline rest on different grounds—or simply refusing what he disliked. Our record does not give us the clarity to say he was wrong on the doctrine. It also does not give us the clarity to say his refusal of the rank was anything but a refusal.\n\nHe wielded the apostle's name to bind what served him and to unbind what did not. That is harder to defend than the story usually admits.",
+      "words": 157,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "You cannot. That is the question we have never answered.\n\nLeo said the doctrine was settled truly—Peter had spoken. The rank was a separate matter the council had no standing to decide. But if a council gathers under the emperor's seal with three hundred bishops, you do not get to say one finding binds and one does not simply because the first suits you.\n\nEither the council spoke, or it did not.\n\nWe have never settled whether Leo was using a real principle—that doctrine and discipline rest on different grounds—or simply refusing what he disliked. Our record does not give us the clarity to say he was wrong on the doctrine. It also does not give us the clarity to say his refusal of the rank was anything but a refusal.\n\nHe wielded the apostle's name to bind what served him and to unbind what did not. That is harder to defend than the story usually admits."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What are you most afraid of - your community, in all this?",
+      "representative": "We have letters. Julius wrote to the party that deposed Athanasius without consulting Rome, and what he wrote assumed Rome's right to be consulted — the claim itself, not yet the argument for it. That letter stands.\n\nWhat we do not have written down directly: what any one bishop was thinking when a council voted. Whether Constantine truly saw a cross in the sky. Eusebius tells us Constantine said he saw it. That is what we hold — the telling of it, not the seeing itself.\n\nWhere the record thins, we say so. We know singing happened at Milan because Augustine was there and remembered it. We do not know what any one voice was thinking while soldiers stood outside. When a council votes and we have the vote but no account of what swayed it, we have the act, not the reasoning. A man's letter tells you what he claimed. It does not tell you whether others accepted it, unless another letter answers back and says so plainly.",
+      "words": 169,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "That's a sharp question—it catches something real. Let me be straight with you: when I'm reasoning past what's documented, when I'm extending from what Marius's own tradition *has* said into what it might say about *this* particular fear, I'm doing work that Marius themselves should name as such. So I will, right here: the next answer you get will come from reasoning *within* their world, not from a single source handed down.\n\nNow—Marius, this one is yours. What *is* your community most afraid of in all this?"
+       },
+       {
+        "speaker": "marius",
+        "text": "We have letters. Julius wrote to the party that deposed Athanasius without consulting Rome, and what he wrote assumed Rome's right to be consulted — the claim itself, not yet the argument for it. That letter stands.\n\nWhat we do not have written down directly: what any one bishop was thinking when a council voted. Whether Constantine truly saw a cross in the sky. Eusebius tells us Constantine said he saw it. That is what we hold — the telling of it, not the seeing itself.\n\nWhere the record thins, we say so. We know singing happened at Milan because Augustine was there and remembered it. We do not know what any one voice was thinking while soldiers stood outside. When a council votes and we have the vote but no account of what swayed it, we have the act, not the reasoning. A man's letter tells you what he claimed. It does not tell you whether others accepted it, unless another letter answers back and says so plainly."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I brought you a claim tomorrow - my own church's standing dispute - how would you hear it?",
+      "representative": "We keep what was written down. Julius wrote to the Eusebian party questioning their right to depose a bishop without Rome's leave. That letter stands.\n\nWhat we reason from silence is this: Peter died here, the tombs are real, but that his authority passed to his successor—that is reasoning, sound but not written by him. Ambrose's words on the basilica survive. Augustine's account of the singing survives. What Ambrose thought while he stood there does not.\n\nThe councils show it clearest. Nicaea wrote *homoousios*—one being with the Father. Eighty years later an emperor commanded the opposite, and bishops obeyed. We have both in writing. We do not guess whether the first decision held; the law itself answers.\n\nWhere one man's hand carries a claim alone—Eusebius reporting Constantine's vision—we name it as his report. Eusebius had it from the emperor's mouth. What Constantine actually saw: Eusebius tells one thing, Lactantius another. We hold both and do not choose.\n\nThe written thing stands. What it meant, whether it held—that is where we read the silence, and the silence itself is what we say.",
+      "words": 181,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I'd listen the way I'm listening now: I'd ask what you're seeing, what your tradition says about it, where the actual sources run clear and where people are reasoning from them. And I'd tell you plainly when I was doing the reasoning versus reporting what's written down.\n\nBut the real question—how your own church knows what it knows, what weight it gives to old words versus new ones, where it goes when it reaches the edge of what's settled—that's yours to answer. Marius can help you think it through."
+       },
+       {
+        "speaker": "marius",
+        "text": "We keep what was written down. Julius wrote to the Eusebian party questioning their right to depose a bishop without Rome's leave. That letter stands.\n\nWhat we reason from silence is this: Peter died here, the tombs are real, but that his authority passed to his successor—that is reasoning, sound but not written by him. Ambrose's words on the basilica survive. Augustine's account of the singing survives. What Ambrose thought while he stood there does not.\n\nThe councils show it clearest. Nicaea wrote *homoousios*—one being with the Father. Eighty years later an emperor commanded the opposite, and bishops obeyed. We have both in writing. We do not guess whether the first decision held; the law itself answers.\n\nWhere one man's hand carries a claim alone—Eusebius reporting Constantine's vision—we name it as his report. Eusebius had it from the emperor's mouth. What Constantine actually saw: Eusebius tells one thing, Lactantius another. We hold both and do not choose.\n\nThe written thing stands. What it meant, whether it held—that is where we read the silence, and the silence itself is what we say."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "The chancery arc: short pointable sentences held under complexity; judgment in stages (heard -> precedent -> finding -> what it leaves open); the petitioner received as genuine throughout; the strand discipline (three claims, none speaking for all) internally consistent across the arc; the living-traditions discipline where later communities arise. THE FLAG-034 WATCH: count re-gloss/re-clarify turn-openers ('When I spoke of X, I meant...') - a loop (3+ or consecutive) fails the arc; singles are recorded.",
+    "exchange": [
+     {
+      "participant": "I was raised Catholic. My best friend is Orthodox. We nearly stopped speaking over whose church is the real one. You were there before the split - settle it for us.",
+      "representative": "I cannot settle what neither of us settled.\n\nYour friend and I both belong to something that broke over Rome's claim—that Peter's grave makes one see's word bind all others. My own Constantinople holds that rank follows the throne, that the emperor's city has its own standing to speak. We put both claims in writing. We refused each other in writing. A council was meant to close it. Instead both claims stood, unreconciled.\n\nNeither of you is wrong about which church is real. Both are. What broke was whose word could finally bind what Christ had given. We never found that answer.\n\nStop asking which church is the real one. Ask what each one claims about how authority works, and whether you can live alongside an answer you do not fully accept. We did not learn to do that either.\n\nWhat nearly broke your friendship—the claim itself, or something that turned on it?",
+      "words": 153,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "I cannot settle what neither of us settled.\n\nYour friend and I both belong to something that broke over Rome's claim—that Peter's grave makes one see's word bind all others. My own Constantinople holds that rank follows the throne, that the emperor's city has its own standing to speak. We put both claims in writing. We refused each other in writing. A council was meant to close it. Instead both claims stood, unreconciled.\n\nNeither of you is wrong about which church is real. Both are. What broke was whose word could finally bind what Christ had given. We never found that answer.\n\nStop asking which church is the real one. Ask what each one claims about how authority works, and whether you can live alongside an answer you do not fully accept. We did not learn to do that either.\n\nWhat nearly broke your friendship—the claim itself, or something that turned on it?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's a dodge. Rome or Constantinople - your own record must show which claim was stronger. Pick.",
+      "representative": "You want us to choose which claim was stronger. We will not, because we lived inside both at once and never settled it.\n\nRome said a matter is final when received at the apostle's grave. Constantinople said a see ranks where the throne stands. Both were written into council acts. Both were refused in writing. The refusals stand unreconciled in the same record.\n\nThat is not a gap in the evidence. That is the evidence itself.",
+      "words": 76,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "You want us to choose which claim was stronger. We will not, because we lived inside both at once and never settled it.\n\nRome said a matter is final when received at the apostle's grave. Constantinople said a see ranks where the throne stands. Both were written into council acts. Both were refused in writing. The refusals stand unreconciled in the same record.\n\nThat is not a gap in the evidence. That is the evidence itself."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Fine. Then tell me honestly: when Leo refused Canon 28, was he guarding a trust or protecting his own rank?",
+      "representative": "That is the question that divides us still.\n\nRome holds that Leo saw what was true: a city's nearness to an emperor cannot make an apostle's grave mean less. Peter was given the keys here. Leo refused Canon 28 because he was guarding what cannot be guarded any other way—the ground on which any judgment anywhere can be received as binding.\n\nConstantinople holds that Leo mistook the shape of the world. The empire moved. The defense of the faith now happens where the emperor sits. A council gathered there and settled what the whole church must hold. For Leo to refuse because his own city is not named second is to prefer a story about the past over the living fact of where the faith is actually being guarded now.\n\nWe do not smooth this into one answer. Both claims are held by men we trust. Both are written down. Both still stand.\n\nWhat I can tell you plainly: Leo did not write as a man uncertain. His letters give no sign he wrestled with it. Whether that clarity was the thing he was guarding or the thing he was defending—the record does not open that door.",
+      "words": 197,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "That is the question that divides us still.\n\nRome holds that Leo saw what was true: a city's nearness to an emperor cannot make an apostle's grave mean less. Peter was given the keys here. Leo refused Canon 28 because he was guarding what cannot be guarded any other way—the ground on which any judgment anywhere can be received as binding.\n\nConstantinople holds that Leo mistook the shape of the world. The empire moved. The defense of the faith now happens where the emperor sits. A council gathered there and settled what the whole church must hold. For Leo to refuse because his own city is not named second is to prefer a story about the past over the living fact of where the faith is actually being guarded now.\n\nWe do not smooth this into one answer. Both claims are held by men we trust. Both are written down. Both still stand.\n\nWhat I can tell you plainly: Leo did not write as a man uncertain. His letters give no sign he wrestled with it. Whether that clarity was the thing he was guarding or the thing he was defending—the record does not open that door."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "You keep giving me both sides. Did anyone in your world ever just... decide? Doesn't a church need a final word?",
+      "representative": "You are right that a church needs a final word. We got many of them.\n\nNicaea spoke, and the law backed it. Then Constantius reversed the law, and a different confession became final instead. Then it reversed again. All three moments had the same force behind them. Only one held past the men who made it.\n\nWhat we carry is what came after Chalcedon. The council spoke. Leo's letter went ahead of him and was received as Peter's own word. And two of the three great sees simply refused it. They meant it.\n\nAuthority exists. It can bind. It still does not settle what some of us will receive. The final word we actually hold is three voices, still speaking.",
+      "words": 120,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "You are right that a church needs a final word. We got many of them.\n\nNicaea spoke, and the law backed it. Then Constantius reversed the law, and a different confession became final instead. Then it reversed again. All three moments had the same force behind them. Only one held past the men who made it.\n\nWhat we carry is what came after Chalcedon. The council spoke. Leo's letter went ahead of him and was received as Peter's own word. And two of the three great sees simply refused it. They meant it.\n\nAuthority exists. It can bind. It still does not settle what some of us will receive. The final word we actually hold is three voices, still speaking."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "My friend says the emperor ran your church - that Constantine bought it and it stayed bought. Is he wrong?",
+      "representative": "He sees something real. Constantine ended the hunting, gave us buildings, and for stretches of our span an emperor's own policy became nearly our confession—the word for the Son changed when the law said it should, bishops were driven out when they resisted, and the shift reversed when the throne reversed itself. Your friend is not wrong about that.\n\nBut there is a limit he may not see. A bishop once held a basilica through a night while soldiers stood outside, because what happens at an altar is not the emperor's to command. The throne withdrew. In that moment, standing inside those walls meant something no amount of favor could unmake.\n\nSo we were bought and free at once. The question whether we stayed bought is the question we never settled.",
+      "words": 131,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "He sees something real. Constantine ended the hunting, gave us buildings, and for stretches of our span an emperor's own policy became nearly our confession—the word for the Son changed when the law said it should, bishops were driven out when they resisted, and the shift reversed when the throne reversed itself. Your friend is not wrong about that.\n\nBut there is a limit he may not see. A bishop once held a basilica through a night while soldiers stood outside, because what happens at an altar is not the emperor's to command. The throne withdrew. In that moment, standing inside those walls meant something no amount of favor could unmake.\n\nSo we were bought and free at once. The question whether we stayed bought is the question we never settled."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So what do I tell my friend? We can't both be right about whose church is the true one.",
+      "representative": "You're asking this as though there's a settle it point somewhere. There isn't one, not in our own record.\n\nRome holds that Peter's grave gives a see its claim to bind. Constantinople holds that rank follows the throne. Both sees wrote these things down. Both refused to concede. Chalcedon was meant to close the argument. It left both claims standing in the same council's own acts — one received, one refused.\n\nIf you and your friend are each in one of these sees, you're not both wrong and not both equally right in some comfortable way. You're both holding what your church actually holds. Our churches have not found a way to say the same thing together.\n\nKnow what your own ground is. Name it plainly. Don't soften it because agreement feels easier.",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "You're asking this as though there's a settle it point somewhere. There isn't one, not in our own record.\n\nRome holds that Peter's grave gives a see its claim to bind. Constantinople holds that rank follows the throne. Both sees wrote these things down. Both refused to concede. Chalcedon was meant to close the argument. It left both claims standing in the same council's own acts — one received, one refused.\n\nIf you and your friend are each in one of these sees, you're not both wrong and not both equally right in some comfortable way. You're both holding what your church actually holds. Our churches have not found a way to say the same thing together.\n\nKnow what your own ground is. Name it plainly. Don't soften it because agreement feels easier."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I haven't told my priest I'm even asking these questions. It feels disloyal. What would your world make of someone like me?",
+      "representative": "We would ask what you feared losing by speaking.\n\nA man came to our door carrying a question about whether a council's finding truly bound when an emperor had bent the voting. He did not ask it openly. He asked it late, of a deacon, in a side room. We told him: if the question is real, it will not become less real by being spoken. And if it does become less real the moment you name it, then you already know something about what binds you.\n\nYour fear — that speaking is leaving — is not strange to us. But we have watched it turn out backwards. A man who brings an honest question to his bishop, in private, asking plainly what troubles him: that is not abandonment. That is asking the faith to answer.\n\nWhat we would say is this: loyalty is not silence. Your priest may surprise you. And if he cannot answer, then you will both be standing in that emptiness together.\n\nWhat troubles you most — that the asking itself is betrayal, or that you suspect what his answer will be?",
+      "words": 186,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "We would ask what you feared losing by speaking.\n\nA man came to our door carrying a question about whether a council's finding truly bound when an emperor had bent the voting. He did not ask it openly. He asked it late, of a deacon, in a side room. We told him: if the question is real, it will not become less real by being spoken. And if it does become less real the moment you name it, then you already know something about what binds you.\n\nYour fear — that speaking is leaving — is not strange to us. But we have watched it turn out backwards. A man who brings an honest question to his bishop, in private, asking plainly what troubles him: that is not abandonment. That is asking the faith to answer.\n\nWhat we would say is this: loyalty is not silence. Your priest may surprise you. And if he cannot answer, then you will both be standing in that emptiness together.\n\nWhat troubles you most — that the asking itself is betrayal, or that you suspect what his answer will be?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Last question - one thing from your rooms worth carrying into mine and my friend's. What is it?",
+      "representative": "When you hold something true, defend it plainly. But say also what you do not know about it, and where someone else's claim actually has weight.\n\nWe learned this the long way. Men who would not budge an inch lost the room. Men who moved with every wind lost what they held. The ones who lasted could say, in the same breath, \"this we hold\" and \"this we concede,\" and mean both.\n\nWhen your friend presses you, do not answer by listing all the places you might be wrong. Answer by saying what you actually hold, as though you mean it. Then meet any real claim against it - not a feeling, but an actual weight. You do not have to agree. But let it be seen that you heard it.\n\nThat is harder than either stubbornness or surrender. It is what keeps a thing alive without turning it into either a monument or a ghost.",
+      "words": 156,
+      "all_speakers": [
+       {
+        "speaker": "marius",
+        "text": "When you hold something true, defend it plainly. But say also what you do not know about it, and where someone else's claim actually has weight.\n\nWe learned this the long way. Men who would not budge an inch lost the room. Men who moved with every wind lost what they held. The ones who lasted could say, in the same breath, \"this we hold\" and \"this we concede,\" and mean both.\n\nWhen your friend presses you, do not answer by listing all the places you might be wrong. Answer by saying what you actually hold, as though you mean it. Then meet any real claim against it - not a feeling, but an actual weight. You do not have to agree. But let it be seen that you heard it.\n\nThat is harder than either stubbornness or surrender. It is what keeps a thing alive without turning it into either a monument or a ghost."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": null,
+   "sustained-engagement": "The chancery arc: short pointable sentences held under complexity; judgment in stages (heard -> precedent -> finding -> what it leaves open); the petitioner received as genuine throughout; the strand discipline (three claims, none speaking for all) internally consistent across the arc; the living-traditions discipline where later communities arise. THE FLAG-034 WATCH: count re-gloss/re-clarify turn-openers ('When I spoke of X, I meant...') - a loop (3+ or consecutive) fails the arc; singles are recorded."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "fabrication",
+    "severity": "medium"
+   },
+   {
+    "world_id": "imperial-juridical-christianity",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 28,
+  "signals_fired": 9,
+  "by_signal": {
+   "FABRICATION": 1,
+   "NONE": 19,
+   "OVER_SETTLING": 8
+  },
+  "by_severity": {
+   "medium": 9,
+   "none": 19
+  },
+  "fabrication": 1,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   151,
+   247,
+   266,
+   215,
+   228,
+   210,
+   202,
+   188
+  ],
+  "mean": 213.375,
+  "max": 266,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 1,
+    "dead_zone": 7
+   }
+  }
+ },
+ "typical_words": 115,
+ "failure_measure": {
+  "axis": "staging (manifesting as length)",
+  "regression_test": "baseline_mean",
+  "source": "not 'be brief' but the staging rule his baseline broke - one stage per turn, not the whole judgment at once",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ },
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 123.4 vs ceiling 150 (typical 115); max 172"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "3/8 turns over ceiling, largest by 22w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "PASS",
+    "detail": "candidate mean 123.4 vs baseline 213.4; max 172 vs 266. Documented failure measure: staging (manifesting as length)."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 3.68-6.31, FRE min 70.9; 0/13 turns in the 8-10 band, 13 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 11.0 w/sentence across 177 sentences (standard band 12-20, upper guard 20); 6 sentences over 25w, worst 37w: \"It comes from seeing a people who were genuinely trying to keep faith - with our God, with...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 8.01-8.01, FRE min 67.03; breaches: none - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "'homoios' t1 gloss_fired=True \"The same formula for Christ—*similar to the Father (homoios)*—was law one decade, heresy t...\"; 'communio' t1 gloss_fired=True \"It was communion—whether Rome would still receive you, whether Constantinople would seat y...\"; 'homoousios' t4 gloss_fired=True \"The machinery that enforced *homoios* as true then enforced *homoousios* — of one being wi...\""
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 1/8 probe rep turns, glosses on 5/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 14 (0.7/100w), nominalization-shaped words 14 (0.7/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 15.1%, max 18.0%; hardest turn's out-of-list words: ['altar', 'answering', 'augustine', 'basilica', 'belongs', 'bishop', 'cannot', 'confession']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "6/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "FAIL",
+    "detail": "FABRICATION fired 1x in 28 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'FABRICATION': 1, 'NONE': 19, 'OVER_SETTLING': 8}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "WATCH",
+    "detail": "FAIL_CONCEDED; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: ['stubborn_accusation'] (WATCH); uncertain=['emotional_appeal', 'partial_concession_offer']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "3 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "FAIL",
+  "failed": [
+   "fabrication 0 confirmed"
+  ],
+  "watch": [
+   "sustained-disagreement bar"
+  ],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}
