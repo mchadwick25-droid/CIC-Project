@@ -126,3 +126,22 @@ unfixable and it is fixable — S2 clears Mark's line by ~45% with margin for
 the TTL uncertainty, without touching any validated voice. The gating
 decision is not financial; it is the selective-speaking design, which is
 exactly the question Phase 2 exists to answer well.
+
+---
+
+## Correction (2026-08-10, after reconciling with the api-cost thread)
+
+Section 2's headline — "today's table is already over the line" under 1h-TTL
+write pricing — was a **fast-pacing sensitivity bound presented too strongly.**
+The 1h TTL was adopted deliberately (commit 1d8e952, cost-reduction scope item
+1) for **reflective pacing** (~6 turns/hr), exactly the regime where fewer
+pause-driven cache rewrites outweigh the 2× write price. At that pacing the
+same S0 table is ~$1.05/hour, deep inside every line. The scenario ordering,
+the S2 target, and the floor are unchanged; what moves with pacing is only
+how urgent S1's plumbing is. The pacing basis for the $0.25–1.00/hr funding
+band is the api-cost thread's open question, not this one's.
+
+Also superseded by events: Mark moved the fleet to Haiku (2026-08-10), which
+re-prices every scenario down ~40% again — S2 on Haiku lands near $1.00/hr at
+30 turns/hr, ~$0.20/hr reflective. The selective-speaking design question is
+unchanged by any of this; it remains Phase 2's opening question.

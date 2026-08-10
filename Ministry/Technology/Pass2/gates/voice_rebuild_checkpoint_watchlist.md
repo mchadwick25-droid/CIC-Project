@@ -653,3 +653,20 @@ re-run, then swap.
 Chloe untouched: her v2 material shipped earlier, so her assembly was already
 byte-identical. Deployed prompts are GENERATED — DO NOT HAND-EDIT; rollback
 is a git revert of the swap commit.
+
+### PAHC — Chloe — checkpoint 5 (HAIKU re-certification) — 2026-08-10 — **`PASS_PENDING_HUMAN_READ`**
+
+The first checkpoint ever run on `claude-haiku-4-5-20251001` (Mark's fleet
+cost decision). mean **115.2** vs Sonnet cp4's 115.5 — near-identical ·
+readability **FK 4.24–8.78, FRE min 61.89, breaches none** (hard edge holds,
+with the fleet's thinnest margin yet) · fabrication **0**/31 · dead zone
+empty · zero concessions · regeneration 6/8, unchanged from Sonnet · 1/8
+over ceiling by 16w (REPORT). Run cost ~$1.12 on Haiku (~$3 on Sonnet).
+
+**What the PASS does not say: citations halved, 7/8 → 3/8** (glosses 4/8 →
+3/8). Haiku holds her measure and convictions but reaches for the record
+half as often — an Article 30 transparency cost that no hard bar scores.
+Whether that blocks fleet-wide Haiku certification is Mark's read. Five
+worlds remain uncertified on Haiku (~$1.10 each); watch especially SYR/HAL/
+ALX, whose ceilings sit at their Sonnet-measured maxima, and the FRE margin,
+which one world's thinness does not yet make a pattern.
