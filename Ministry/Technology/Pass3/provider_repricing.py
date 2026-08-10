@@ -80,10 +80,12 @@ RAW = os.path.join(REPO, "Ministry", "Technology", "Pass2", "baselines",
 # The 1h TTL cannot be modelled by swapping the rate alone: it changes the
 # COUNTS as well (fewer re-writes, each at 2.0x instead of 1.25x). Anthropic
 # writes below are therefore 1.25x, matching the counts they multiply.
-# cost_floor_model.py's own A2 move analysed the 1h switch properly and found
-# it a NET LOSS at the measured pause rate; that the deployed code now sets
-# 1h anyway is worth reconciling against fresh measurement, and is logged as
-# an open item rather than silently priced here either way.
+# cost_floor_model.py's A2 move found the 1h switch a net loss at the
+# measured FAST pacing while saying it "flips positive as soon as real
+# contemplative pacing pushes pauses past 1.6x" - and commit 1d8e952
+# (2026-08-02) adopted 1h on exactly that basis, measuring a reflective-pace
+# (6 turns/hr) conversation from $0.77/hr to $0.50/hr. The two agree; they
+# answer the question at two different pacings. See STEP 5.
 #
 # Gemini's explicit cache charges the write at the base input rate plus a
 # separate per-hour storage charge (modelled in STEP 3, not here). GPT-5.6
@@ -346,6 +348,13 @@ print("""  CORRECTED 2026-08-09. The first version of this block claimed removin
     [E] same, but generation on Haiku 4.5                 ~$0.63/hr   -61%
     [E] same, but generation on Gemini 3 Flash            ~$0.55/hr   -66%
 
+  PACING BASIS - read before quoting any $/hr figure from this file:
+    every $/hr here is 30 turns/hr solo, 24 table (cost_floor_model.py's
+    TPH). The funding model's $0.50/hr target is quoted at 6 turns/hr
+    reflective. At 6 turns/hr the solo figures below divide by 5. Settle
+    which pacing the target band assumes before declaring success or
+    failure against it.
+
   Two things follow:
     1. There is no large no-risk saving left on the shelf. The Anthropic-
        side tuning that remains (A1/A3/B1/B2, plus B3 at the Table) is
@@ -368,11 +377,21 @@ print("""  CORRECTED 2026-08-09. The first version of this block claimed removin
   almost exactly (52% uncached input / 15% output vs its 52% / 14%) - a
   cross-check that was not passing before this correction.
 
-  WHAT IS STILL OPEN, and it is a real question rather than a rounding
-  item: the deployed code sets ttl="1h" NOW, and cost_floor_model.py's own
-  A2 move found the 1h TTL to be a NET LOSS at the measured pause rate
-  (break-even is 1.6 writes per initial write; the run measured 1.5). Either
-  pacing changed, or 1h was adopted against that finding. A 1h TTL cannot be
-  modelled by swapping the rate alone - it changes the re-write COUNTS too -
-  so this needs one fresh measurement, not arithmetic. Worth folding into
-  the same live run as the Haiku battery, since both need only a key.""")
+  AND THE 1h QUESTION IS ALSO SETTLED - there was never a contradiction.
+  Commit 1d8e952 (2026-08-02) bumped the three cache_control sites from 5m
+  to 1h as Item 1 of CiC_Cost_Reduction_Build_Scope_2026-08-02.md, backed by
+  a Funding Strategy feasibility study measuring a REFLECTIVE-PACE (6
+  turns/hr) 1:1 conversation from $0.77/hr to $0.50/hr on that change alone.
+  cost_floor_model.py's A2 said exactly this: a net loss at the measured
+  fast pacing, but "it flips positive as soon as real contemplative pacing
+  pushes pauses past 1.6x". A2 and the 2026-08-02 decision agree; they were
+  answering the question at two different pacings. Nothing to reconcile.
+
+  WHAT THAT LEAVES OPEN IS A BASIS QUESTION, and it is bigger than the TTL.
+  This script and cost_floor_model.py both price per hour at 30 turns/hr
+  (solo) and 24 (table). The cost-reduction scope and the funding model
+  price at 6 turns/hr reflective. Those denominators differ by 4-5x, so a
+  "$/hr" figure from this file and a "$/hr" figure from the funding model
+  are NOT the same unit and must not be compared directly. Whichever pacing
+  the $0.25-1.00/hr target band was actually set against decides whether
+  this app is in band today - see the note printed below.""")
