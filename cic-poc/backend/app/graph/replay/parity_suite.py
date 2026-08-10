@@ -123,15 +123,21 @@ def run_case(client, case, mode_tag):
                     json={"world_ids": worlds} if len(worlds) > 1
                           else {"world_id": worlds[0]})
     r.raise_for_status()
-    sid = r.json()["session_id"]
+    body = r.json()
+    sid = body["session_id"]
+    # session_auth.py: /message and /message/stream are possession-gated on
+    # X-Session-Token since this suite's tapes/snapshots were built - a
+    # request without it now 403s before reaching any of the boundaries
+    # this suite actually exists to check.
+    auth_headers = {"X-Session-Token": body["session_token"]}
     if kind == "plain":
         resp = client.post(f"/api/session/{sid}/message",
-                           json={"message": message})
+                           json={"message": message}, headers=auth_headers)
         resp.raise_for_status()
         return outcome_plain(resp.json(),
                              mask_facilitator_text=(name == "P2-plain-framebreaker"))
     resp = client.post(f"/api/session/{sid}/message/stream",
-                       json={"message": message})
+                       json={"message": message}, headers=auth_headers)
     resp.raise_for_status()
     return outcome_stream(resp.text)
 
