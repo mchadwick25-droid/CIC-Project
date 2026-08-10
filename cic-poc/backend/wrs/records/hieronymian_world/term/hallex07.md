@@ -13,8 +13,8 @@ review_state: draft
 cache_stability: static
 term: Epistula
 aliases: []
-quick_meaning: The letter — not merely a record of this world's life, but the actual medium through which
-  its formation, direction, and community-maintenance happened across distance.
+quick_meaning: 'The letter. It was not just a record of this world''s life. It was how people were taught,
+  guided, and held together across long distance.'
 world_meaning: 'When a scholar and the household he directed no longer occupied the same city, a letter
   became more than news — it was how spiritual direction was actually delivered, how an argument about
   scripture was actually conducted, how a community that had physically split in two remained, in its
@@ -24,8 +24,7 @@ world_meaning: 'When a scholar and the household he directed no longer occupied 
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: Anchors G4 (Supporting gravity); the vehicle for nearly every
-  other term in this lexicon; bridges the Rome/Bethlehem bipolar geography by definition.'
+  S2.3-equivalent per SS3.2 / FLAG-002]: A commitment that carries the household''s central ones rather than standing at the centre itself; the vehicle nearly every other word here travels by; and what joins Rome to Bethlehem at all.'
 distortion_risk: '**Modern Hearing:**
 
   Risk of reading letters as secondary evidence *about* the community''s life, rather than as the actual
@@ -81,9 +80,7 @@ field_relations:
 - type: associated-with
   target_id: hallex02
   note: 'Symmetric mirror of hallex02''s edge: the translation project''s dedications, book by book, are
-    epistulae. Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors G4 (Supporting gravity);
-    the vehicle for nearly every other term in this lexicon; bridges the Rome/Bethlehem bipolar geography
-    by definition.'
+    epistulae. Chunk Ecological Function (verbatim, absorbed per FLAG-002): A commitment that carries the household''s central ones rather than standing at the centre itself; the vehicle nearly every other word here travels by; and what joins Rome to Bethlehem at all.'
 - type: associated-with
   target_id: hallex06
   note: 'Symmetric mirror of hallex06''s edge: patronage conducted by letter across the bipolar geography

@@ -33,18 +33,10 @@ attested_occasion: 'Nicaea, 325: Jacob bishop of Nisibis (from c. 309) among the
   remembered him for (chunk Story Text/front matter).'
 tellable_as: background-fact
 owner_figure_id: syrfig003
-voice_surface: 'We name Jacob among those who stood at Nicaea because the kept lists carry his name -
-  and we say plainly that the lists are late copies, and the memory of his part against Arius is a later
-  historian''s remembering. Usage guidance (chunk, verbatim): The Representative may draw on this as part
-  of the tradition''s own memory of Jacob: "Jacob, our bishop of Nisibis, stood at Nicaea among those
-  who would not bend to Arius''s teaching." The Representative should not claim firsthand or contemporary
-  documentary certainty for this — if pressed, it may be acknowledged as what the tradition remembers
-  of him rather than an unbroken eyewitness record.
+voice_surface: |-
+  We name Jacob among those who stood at Nicaea, because the kept lists carry his name. We also say plainly what those lists are: late copies. And the memory of his part against Arius is a later historian's, not ours. Usage guidance (chunk, verbatim): The Representative may draw on this as part of the tradition's own memory of Jacob: "Jacob, our bishop of Nisibis, stood at Nicaea among those who would not bend to Arius's teaching." The Representative should not claim firsthand or contemporary documentary certainty for this — if pressed, it may be acknowledged as what the tradition remembers of him rather than an unbroken eyewitness record.
 
-
-  **Additional guidance:** Keep this story distinct from the siege-deliverance legend (Tier 3) in any
-  single telling — conflating a comparatively well-attested institutional fact with a clearly legendary
-  miracle account would blur a distinction this world''s own evidence requires holding onto.'
+  **Additional guidance:** Keep this story distinct from the siege-deliverance legend (Tier 3) in any single telling — conflating a comparatively well-attested institutional fact with a clearly legendary miracle account would blur a distinction this world's own evidence requires holding onto.
 confidence_line: Widely Accepted (attendance and anti-Arian stance); Contested (specific attribution —
   no contemporary 4th-century document independently confirms it)
 retrieval:
@@ -88,14 +80,13 @@ sources:
     assessment of the wider Jacob dossier)'
 gravity_links:
 - gravity_id: syrgrav004
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story ties Nisibis — and through Jacob, Ephrem''s own formation as his traditional student
-    — to the wider imperial-conciliar church at the very moment (325 CE) that church was defining itself
-    against Arianism, even though this world''s own formation logic (Doc_07, Section 2B) runs on a poetic-typological
-    method quite unlike the philosophical-categorical mode of the Nicene debates themselves. It is a modest
-    but real data point for C4 (Authority-Structure Ambiguity): Jacob''s own episcopal standing is, in
-    this one instance, unusually well-external-attested compared to the ambiguity Doc_04/07 found surrounding
-    Aphrahat''s status — a contrast worth preserving rather than flattening.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This ties Nisibis, and through Jacob the formation of Ephrem as his student, to the wider imperial
+    church at the very moment that church was defining itself against Arius - even though our own way of
+    doing theology runs on poetry and type, quite unlike the philosophical categories of those debates. It
+    is also a modest point about authority among us: Jacob''s standing as bishop is, in this one case,
+    unusually well attested from outside, in contrast to the ambiguity around Aphrahat''s. That contrast is
+    worth keeping rather than flattening.'
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory003_jacob-nisibis-nicaea.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Pliny the Younger (Letters 10.96-97)
   name_kind: scholarly
+bridge_line: "A Roman governor, not a Christian. He questioned Christians and reported to the emperor."
 narratable: true
 story_ids:
 - pahcstory004

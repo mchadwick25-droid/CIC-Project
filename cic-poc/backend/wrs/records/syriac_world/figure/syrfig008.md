@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Basil of Caesarea
   name_kind: scholarly
+bridge_line: "A bishop from outside our tradition. He appears only inside a later legend about Ephrem."
 narratable: true
 story_ids:
 - syrstory008

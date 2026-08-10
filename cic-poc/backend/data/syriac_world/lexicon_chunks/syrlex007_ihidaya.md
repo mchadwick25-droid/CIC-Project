@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant's question is already fully answered by th
 
 ## Quick Meaning
 
-Iḥidaya names, in one word, both this world's ascetic and celibate designation — "single-minded," undivided in allegiance though living communally, not in physical isolation — and the Syriac christological title for Christ as "Only-Begotten"; because both senses share the same root, an ascetic's own singleness is heard as participating in Christ's own undividedness from the Father.
+One word carrying two things. It is our name for the ascetic: single-minded, undivided in allegiance, though living among others rather than in isolation. And it is our title for Christ as the Only-Begotten. The root is the same, so an ascetic's singleness is heard as sharing in Christ's own undividedness from the Father.
 
 ---
 

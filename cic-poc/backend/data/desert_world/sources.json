@@ -2,7 +2,7 @@
   "view": "sources.json - FAIR export (S5.4, Pass 1 SS5.6)",
   "world_id": "desert-monasticism",
   "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
-  "id_scheme": "record ids are stable within this repository (srcDESnnn; referenced by every record's sources[] rows)",
+  "id_scheme": "record ids are stable within this repository (srcDES0nn; referenced by every record's sources[] rows)",
   "source_count": 26,
   "sources": [
     {
@@ -92,7 +92,7 @@
       "work_author": "Evagrius Ponticus",
       "work_title": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
       "work_locus": "late 4th c.",
-      "edition": null,
+      "edition": "Praktikos: Antoine and Claire Guillaumont, Traite Pratique, ou Le Moine, 2 vols., Sources Chretiennes 170-171 (Cerf, 1971) - Greek text with facing French translation. Antirrhetikos: Charles-Antoine Fogielman, Antirrhetique, Sources Chretiennes 640 (Cerf, 2024) - Greek critical edition. De Oratione (Chapters on Prayer): transmitted under the pseudonymous 'Nilus' attribution per this row's own transmission_path; its own critical-edition history (Hausherr's reattribution; a Tugwell edition sometimes cited) was NOT independently confirmed this session and is left open rather than asserted.",
       "translation": null,
       "language": "grc",
       "script": "Grek",

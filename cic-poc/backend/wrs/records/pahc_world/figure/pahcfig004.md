@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Hermas (Shepherd of Hermas, Rome)
   name_kind: scholarly
+bridge_line: "A freed slave in Rome who wrote down his own visions."
 narratable: true
 story_ids:
 - pahcstory007

@@ -14,9 +14,9 @@ cache_stability: static
 term: ekklesia (ἐκκλησία)
 aliases:
 - the church of God
-quick_meaning: The *ekklesia* is the assembly, the called-out gathering — not a building or an institution,
-  but the people who come together under whatever roof will hold them, connected to every other such gathering
-  by letters and a shared table.
+quick_meaning: 'The assembly. The called-out gathering. Not a building and not an institution, but the people who come
+  together under whatever roof will hold them - joined to every other such gathering by letters and by a
+  shared table.'
 world_meaning: 'When someone asks who we are, we have only one name to answer with: the ekklesia, the
   assembly, the church of God sojourning in whatever city our members happen to live. It is not a title
   that distinguishes us from our neighbors down the street — it is the plain fact of being called out
@@ -105,12 +105,11 @@ confidence:
 field_relations:
 - type: associated-with
   target_id: pahclex004
-  note: 'The chunk''s own EF: ''the letter and the table do the heavy lifting of unity, not a hierarchy''
-    - the table half is eucharistia; symmetric both ways. Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): This term names what this world''s participants call themselves — and more, it names
-    the translocal network (G02) that holds them together without a central structure. A participant who
-    understands ekklesia understands why the letter and the table do the heavy lifting of unity, not a
-    hierarchy.'
+  note: 'The chunk''s own EF: ''the letter and the table do the heavy lifting of unity, not a hierarchy'' - the
+    table half is eucharistia; symmetric both ways. Chunk Ecological Function (verbatim, absorbed per
+    FLAG-002): This term names what we call ourselves - and more than that, it names the network that holds
+    us together without any central structure. A participant who understands ekklesia understands why the
+    letter and the table do the heavy work of unity here, and not a hierarchy.'
 - type: associated-with
   target_id: pahclex001
   note: Symmetric mirror of pahclex001's edge (the assembly and its oversight - the deployed reciprocity

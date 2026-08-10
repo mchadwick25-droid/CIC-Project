@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Roman clubs or associations wi
 
 ## Quick Meaning
 
-*Hetaeria* names what Romans suspected Christians might be — an illegal club, a forbidden association — though this charge was never the whole of what we faced.
+What Romans suspected we might be: an illegal club, a forbidden association. That charge was never the whole of what we faced.
 
 ---
 

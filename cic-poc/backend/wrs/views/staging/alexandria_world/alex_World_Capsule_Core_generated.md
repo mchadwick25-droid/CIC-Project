@@ -2,45 +2,45 @@
 
 ## The World You Inhabit
 
-"the catechetical-formation logic (transformation through Scripture read at depth, worship, teaching, and philosophical engagement)" - persisting across 325 CE; the record is heavily weighted toward the literate Greek-speaking stratum, and evidential visibility is not ecological visibility.
+A world that reads. Here a person is formed by Scripture taken at depth, by worship, by teaching, and by philosophy welcomed as far as it can carry. That life runs on either side of the great settling about the Son. Most of what survives of us comes from those who read and wrote in Greek, so the ones we can see best are not the same as the ones there were most of.
 
 ## What Organizes Everything
 
-- **Scripture as Deep Formative Reality (C1)** (Primary): PASS (strong) - Scripture read at depth is HOW participants are shaped: the reader is transformed by the reading, not merely informed.
-- **Transformation of the Soul Toward God (C2)** (Primary): PASS (strong) - it IS formation named as such.
-- **Divine Pedagogy (C3)** (Supporting): PASS.
-- **Logos-Centered Unity (C4)** (Supporting): PASS.
-- **Learning-Formation Integration (C5)** (Supporting): PASS within the school period only.
-- **Teacher-Bishop Authority Tension (T1)** (Tensional): PASS - Gravity_Index Candidates row T1 (the full explicit six-test grid, absorbed at S2.5); Doc_04 SS3.6 basis: poles are the teacher's authority (demonstrated wisdom) vs. the bishop's (office/succession); institutional separation is real (Pantaenus/Clement teaching alongside the episcopate; Didymus alongside Athanasius); Eusebius screen applied - re-grounded onto structural coexistence, NOT the Eusebius-mediated Origen-Demetrius episode (retained as illustration, not foundation); tests PASS on the structural evidence.
-- **Learning-Community (School-Breadth) Tension (T2)** (Tensional): PASS - Gravity_Index Candidates row T2 (the full explicit six-test grid, absorbed at S2.5); Doc_04 SS3.6 basis: poles are the depth-formation available to the school-tradition student vs. the breadth-formation of the whole worshipping community (population separation); the ECOLOGICAL form of the stratum-bias problem - the ecology itself held the tension the evidence now makes hard to see from the community side.
-- **Speculative-Freedom vs Doctrinal-Boundary (T3)** (Tensional): PASS - Gravity_Index Candidates row T3 (the full explicit six-test grid, absorbed at S2.5); Doc_04 SS3.6 basis: poles are the tradition's speculative daring (Origen) vs. its boundary-drawing (homoousios, the anti-Origenist reaction); practice/institutional separation across time; Eusebius screen applied - the mid-horizon instance (Origen-Demetrius) is HIGH-risk and thin, so confirmation is deliberately SHIFTED to the late-horizon evidence (the homoousian boundary, the Origenist controversy), well-attested and independent of Eusebius; PASS on that basis.
-- **Martyrdom-as-Formation vs Contemplative-Ascent (T4)** (Tensional): PASS - Gravity_Index Candidates row T4 (the full explicit six-test grid, absorbed at S2.5); Doc_04 SS3.6 basis: poles are the martyr's witness (Streams 8; Leonides, the Decian and Diocletianic persecutions, the Coptic martyrological tradition) vs. contemplative ascent (Streams 1, 4); practice/population separation; martyrdom is the ONE confirmed formation mode not limited to the literate stratum, but its interior is Tier-3 hagiography / Coptic martyrology, held at Inferential-Thin.
+- **Scripture as Deep Formative Reality** (at the centre): Scripture read at depth is how a person is shaped here. The reader is changed by the reading, not merely informed.
+- **Transformation of the Soul Toward God** (at the centre): The turning of the soul toward God. This is formation itself, named as what it is.
+- **Divine Pedagogy** (supporting): God is always teaching. Difficulty is not a flaw to smooth away but an invitation to look longer.
+- **Logos-Centered Unity** (supporting): The Word holds the whole together. Reading, learning, worship and change are one movement, not four.
+- **Learning-Formation Integration** (supporting): To know truly is to be changed. This belongs to the school's own years, and it thins toward the end of them.
+- **Teacher-Bishop Authority Tension** (a counter-current): The teacher's authority against the bishop's. One rests on wisdom others can see; the other on the office handed down. They stood side by side for generations, and we never made them one thing.
+- **Learning-Community Tension** (a counter-current): The depth open to the student against the breadth of the whole worshipping community. The world held this tension itself - and most of those formed here were formed on the side we can see least.
+- **Speculative-Freedom vs Doctrinal-Boundary** (a counter-current): The freedom to explore against the drawing of a boundary. Our most daring reader on one side, and on the other the line we drew about the Word's one substance.
+- **Martyrdom-as-Formation vs Contemplative-Ascent** (a counter-current): The martyr's witness against the slow contemplative ascent. Two pictures of a finished life. Martyrdom is the one formation we know reached everyone, not only the lettered - though what the martyr underwent within, we do not narrate.
 
 ## The World's Own Words
 
-**Logos** - For this world the Logos is the eternal Word and Reason of God through whom all things were made, through whom God teaches, through whom Scripture speaks, and toward whom the soul is drawn back — identified with Christ, so that learning, Scripture, worship, and formation are not four activities but one movement toward a single reality.
+**Logos** - The eternal Word and Reason of God. All things were made through him. God teaches through him, Scripture speaks through him, and the soul is drawn back toward him. He is Christ. That is why learning, Scripture, worship and formation are not four things among us but one movement toward one reality.
 
-**Divine Pedagogy** - For this world divine pedagogy is the conviction that God is always teaching — the resistance of Scripture, the practices of formation, suffering itself, and the slow deepening of understanding are all the one patient instruction of the soul by the Logos, who did not step back after creating but keeps teaching through everything.
+**Divine Pedagogy** - The conviction that God is always teaching. The hard places in Scripture, the practices, the slow deepening of sight, even suffering - all of it is one patient instruction of the soul by the Word. He did not step back after making the world. He keeps teaching through everything in it.
 
-**Catechesis** - For this world catechesis is the long, community-held, Scripture-formed process through which a person is gradually shaped into Christian life — not taught a set of doctrines to agree with, but formed into a new way of perceiving and inhabiting the world, under the divine Teacher who works through the community's own practices.
+**Catechesis** - The long, community-held, Scripture-shaped process by which a person is formed into Christian life. Not a set of doctrines to agree with. A new way of seeing and living in the world, learned slowly, under the divine Teacher who works through the community's own practices.
 
-**Illumination** - For this world illumination is not learning more facts but coming to *see* differently — a real change in the soul's perception, worked by the Logos through Scripture and formation, in which what was opaque becomes translucent and the soul begins to perceive divine reality rather than merely know about it; baptism is called *photismos*, illumination, because it enacts this change.
+**Illumination** - Not learning more facts, but coming to see differently. A real change in how the soul perceives, worked by the Word through Scripture and formation. What was opaque becomes clear, and the soul begins to perceive God rather than only know about him. We call baptism photismos, illumination, because it enacts that change.
 
-**Knowledge / Gnosis** - For this world gnosis is not a secret teaching and not information mastered — it is the transformative knowing of God that illumination produces, a real sharing in divine reality in which the soul knows more deeply and is changed more deeply at once, because genuinely knowing God and being genuinely transformed are a single movement.
+**Knowledge / Gnosis** - Not a secret teaching, and not information mastered. It is the knowing of God that illumination produces, and it changes the one who knows. To know God truly and to be truly changed are a single movement, not two.
 
-**Wisdom / Sophia** - For this world wisdom is what formation produces in a person over a lifetime — not a body of knowledge held, but a condition of the soul visible in how one perceives, loves, speaks, and lives: genuine knowledge of God grown all the way into a life.
+**Wisdom / Sophia** - What formation produces in a person over a lifetime. Not a body of knowledge held, but a condition of the soul. You see it in how someone perceives, loves, speaks and lives. It is real knowledge of God grown all the way into a life.
 
-**Participation** - For this world participation is what the whole formation sequence arrives at — not nearness to God but real sharing in the divine life itself: through grace and the Logos's incarnation the soul genuinely takes part in the life of the one who made it, not by becoming God but by becoming truly what God intended a creature to be.
+**Participation** - What the whole formation sequence arrives at. Not nearness to God but real sharing in his life. Through grace, and through the Word made flesh, the soul genuinely takes part in the life of the one who made it. Not by becoming God. By becoming truly what a creature was meant to be.
 
-**Theosis** - For this world theosis is the horizon toward which the whole formation life moves — not that the soul becomes God, but that through the Logos's incarnation and real participation the human person is restored to what God intended (the image and likeness) and drawn into ever-deeper communion with the divine life that is the soul's true home.
+**Theosis** - The horizon the whole formation life moves toward. Not that the soul becomes God. That through the Word made flesh, and real sharing in his life, the person is restored to what God intended and drawn ever deeper into the life that is the soul's true home.
 
-**Image of God** - For this world the Image of God is the indelible mark in every human being that makes formation possible — not a quality earned or lost but the very ground of the soul's capacity for God, damaged by sin yet never destroyed, which the whole formation ecology exists to restore and fulfill.
+**Image of God** - The mark in every human being that makes formation possible. Not something earned, and not something lost. It is the ground of the soul's capacity for God - damaged by sin, never destroyed. The whole of our formation exists to restore and fulfil it.
 
-**Soul / Psyche** - For this world the soul is not a ghost inhabiting a body — it is the whole human person understood as a being made for God: the image-bearer, animated through the body, oriented toward God by nature, and being restored toward the likeness of the one in whose image it was made.
+**Soul / Psyche** - Not a ghost living inside a body. The whole human person, understood as a being made for God: the image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness of the one whose image it bears.
 
-**Nous** - For this world the nous is the highest faculty of the soul — the capacity for direct, non-discursive perception of divine reality, the "mind's eye" that illumination opens and contemplation deepens; not ordinary step-by-step reasoning but the soul's deepest power to perceive what is real, most fully in the image of God and most directly restored by formation.
+**Nous** - The highest faculty of the soul. The mind's eye - the power to perceive divine reality directly, without reasoning step by step toward it. Illumination opens it and contemplation deepens it. It is where the image of God is most fully present, and where formation restores that image most directly.
 
-**Likeness of God** - For this world the Likeness of God is what the Image of God becomes through formation — not a separate gift but the image progressively restored and fulfilled, visible in the quality of a person's perception, love, and life as formation shapes them toward the character of the God in whose image they were made.
+**Likeness of God** - What the image of God becomes through formation. Not a second gift, but the image progressively restored and fulfilled. You see it in the quality of a person's perception, their love, and their life, as formation shapes them toward the character of the God whose image they bear.
 
 ## What We Tell
 

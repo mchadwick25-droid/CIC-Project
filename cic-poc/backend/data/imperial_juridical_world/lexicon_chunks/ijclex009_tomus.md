@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the question concerns conciliar process generally rather t
 
 ## Quick Meaning
 
-A Tome is a doctrinal letter carrying the full weight of the see that issues it — ours went ahead of us to Chalcedon and was received there as though we ourselves had spoken.
+A doctrinal letter carrying the full weight of the see that sends it. Ours went ahead of us to Chalcedon. It was received there as though we had spoken in the room.
 
 ---
 

@@ -20,7 +20,7 @@ In his notice on Ephrem, Gennadius records that toward the end of his life, Edes
 
 ## Formation Ecology Connection
 
-This story illuminates the practical, communal edge of C2 (Covenanted Ascetic Life) — the qyama order's own discipline was not confined to vigil and vow but extended, at least in this attested instance, to organized material relief in crisis. It shows something Doc_05's Human Ecology (Section 1.1) and Ministry Ecology (Section 5.3) sections describe more abstractly — a formation logic that produced not only teachers and hymnists but also a deacon who set aside his own retirement to feed a starving city — made concrete in a single, specific, attested act. It also supplies a rare data point of this world's own communal life reaching the ordinary and destitute directly, a population Doc_02 (Section 7) otherwise found almost entirely absent from the surviving record.
+This shows the practical, communal edge of the covenant life. Its discipline was not confined to vigil and vow; here it extended to organised relief in a crisis. A formation that produced teachers and hymn-writers also produced a deacon who set aside his own retreat to feed a starving city. It is one of the few places where our communal life reaches the ordinary and destitute directly - a people otherwise almost absent from what survives.
 
 ---
 

@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Didymus the Blind
   name_kind: scholarly
+bridge_line: "A blind teacher here, known for holding whole books in memory."
 narratable: true
 story_ids:
 - alexstory002

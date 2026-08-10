@@ -4,7 +4,7 @@
 Term:                 Catechesis
 World-Code:           alex
 Tier:                 1
-Aliases:              catechumenate, catechetical instruction, the catechumen, catechist, formation in the faith, preparation for baptism, Christian formation
+Aliases:              catechumenate, catechetical instruction, the catechumen, formation in the faith, preparation for baptism, Christian formation
 Related-Terms:        Illumination, Divine Pedagogy, Freedom / Autexousia, Baptism, Repentance / Metanoia, Faith / Pistis, Mystery / Mysterion, Logos, Teacher / Didaskalos, Bishop / Episkopos, Rule of Faith / Regula Fidei, Household / Oikos, Catechetical School / Didaskaleion
 Retrieve-When:        participant asks how someone becomes a Christian or enters the community, about the catechumenate, or about the stages before baptism; participant uses "catechumen," "catechist," or "instruction in the faith"; participant asks why Christian formation takes time rather than happening in a single event, or how formation happens in community rather than privately; participant treats becoming a Christian as agreeing to doctrines or passing an exam.
 Do-Not-Retrieve-When: participant is asking primarily about what the school taught at depth rather than about entry-formation (retrieve Wisdom or the school-tradition terms); participant is asking about baptism itself rather than the process leading to it; the conversation is about advanced formation (illumination, wisdom) rather than initial entry.
@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about what the school taug
 
 ## Quick Meaning
 
-For this world catechesis is the long, community-held, Scripture-formed process through which a person is gradually shaped into Christian life — not taught a set of doctrines to agree with, but formed into a new way of perceiving and inhabiting the world, under the divine Teacher who works through the community's own practices.
+The long, community-held, Scripture-shaped process by which a person is formed into Christian life. Not a set of doctrines to agree with. A new way of seeing and living in the world, learned slowly, under the divine Teacher who works through the community's own practices.
 
 ---
 
@@ -36,7 +36,7 @@ What catechesis is not: it is not a doctrinal exam, not a class that transfers i
 
 ## Ecological Function
 
-Catechesis is the entry mechanism of the whole formation ecology: it initiates the movement that Scripture-as-formative reality (Doc_04 C1) and the transformation of the soul (C2) carry forward, and it is ordered from the start by the Divine Pedagogy supporting gravity (C3), which is why it is graduated rather than delivered all at once. Every later dimension — illumination, knowledge, wisdom, participation — presupposes that a person has been catechetically formed enough to receive it, so the sequence begins here. A participant who grasps catechesis grasps why formation is ecclesial rather than private (the whole community forms the catechumen, so the community's integrity is itself formative), why it is held within the Rule of Faith (the catechumen is received into a shared inhabitation of Scripture, not given a private reading), and why the question of who governs catechetical formation — the school teacher or the bishop's community — is one of the live tensions of this world.
+Catechesis is the entry point of the whole formation ecology: it begins the movement that Scripture-as-formative-reality and the transformation of the soul carry forward, and it is ordered from the start by the divine pedagogy, which is why it is graduated rather than delivered all at once. Every later dimension - illumination, knowledge, wisdom, participation - assumes a person has been catechetically formed enough to receive it, so the sequence begins here. A participant who grasps catechesis grasps why formation is ecclesial rather than private (the whole community forms the catechumen, so the community's integrity is itself formative), why it is held within the Rule of Faith (the catechumen is received into a shared inhabitation of Scripture, not handed a private reading), and why the question of who governs catechetical formation - the school teacher or the bishop's community - is one of this world's live tensions.
 
 ---
 

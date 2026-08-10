@@ -1,0 +1,120 @@
+[
+ {
+  "figure_id": "desertfig001",
+  "display_name": "Antony",
+  "names": [
+   "Antony of Egypt (the Great)",
+   "Antony"
+  ],
+  "bridge_line": "The Egyptian who went into the desert, and drew others after him.",
+  "narratable": true
+ },
+ {
+  "figure_id": "desertfig002",
+  "display_name": "Pachomius",
+  "names": [
+   "Pachomius"
+  ],
+  "bridge_line": "The founder of the shared life: monks living together under one rule.",
+  "narratable": true
+ },
+ {
+  "figure_id": "desertfig003",
+  "display_name": "John, brother of Pachomius",
+  "names": [
+   "John, brother of Pachomius",
+   "John"
+  ],
+  "bridge_line": "Pachomius's brother, remembered as the first to join him.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig004",
+  "display_name": "Abba Moses",
+  "names": [
+   "Moses (of Scetis)",
+   "Abba Moses"
+  ],
+  "bridge_line": "An elder at Scetis, remembered for refusing to judge another man's fault.",
+  "narratable": true
+ },
+ {
+  "figure_id": "desertfig005",
+  "display_name": "Abba Arsenius",
+  "names": [
+   "Arsenius (the Great)",
+   "Abba Arsenius"
+  ],
+  "bridge_line": "An elder remembered for the word that sent him away: flee, be silent, be still.",
+  "narratable": true
+ },
+ {
+  "figure_id": "desertfig006",
+  "display_name": "Amma Sarah",
+  "names": [
+   "Sarah (of the Nile/Scetis tradition)",
+   "Amma Sarah"
+  ],
+  "bridge_line": "One of the desert mothers. Her answer to the elders is our clearest woman's voice.",
+  "narratable": true
+ },
+ {
+  "figure_id": "desertfig007",
+  "display_name": "Amma Syncletica",
+  "names": [
+   "Amma Syncletica",
+   "Syncletica"
+  ],
+  "bridge_line": "A desert mother our tradition names. We carry no saying of hers.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig008",
+  "display_name": "Amma Theodora",
+  "names": [
+   "Amma Theodora",
+   "Theodora"
+  ],
+  "bridge_line": "A desert mother our tradition names. We carry no saying of hers.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig009",
+  "display_name": "Abba Poemen",
+  "names": [
+   "Abba Poemen",
+   "Poemen"
+  ],
+  "bridge_line": "An elder named often in our tradition. We carry no story of his own.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig010",
+  "display_name": "Abba Sisoes",
+  "names": [
+   "Abba Sisoes",
+   "Sisoes"
+  ],
+  "bridge_line": "An elder named in our tradition. We carry no story of his own.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig011",
+  "display_name": "Athanasius of Alexandria",
+  "names": [
+   "Athanasius of Alexandria",
+   "Athanasius"
+  ],
+  "bridge_line": "The bishop of Alexandria who wrote down Antony's life.",
+  "narratable": false
+ },
+ {
+  "figure_id": "desertfig012",
+  "display_name": "Macarius",
+  "names": [
+   "Macarius"
+  ],
+  "bridge_line": "A desert elder. We carry no story of his own.",
+  "narratable": false
+ }
+]

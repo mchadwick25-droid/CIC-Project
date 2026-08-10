@@ -150,14 +150,24 @@ def build_capsule() -> str:
     terms = _terms_by_id()
     parts = ["# World Capsule Core (generated view) - Desert Monasticism",
              "", "## The World You Inhabit", "",
-             str(core.get("formation_logic", "")), "",
+             str(core.get("capsule_inhabit") or core.get("formation_logic", "")), "",
              "## What Organizes Everything", ""]
+    # Phase 2 (Papnoute's pass, 2026-08-08): prefer capsule_inhabit and each
+    # gravity's capsule_line. The six_tests verdicts are a BUILDER's grading
+    # record - "Direct; Strong - explains candidate 8's economic-embeddedness
+    # evidence" - and this section measured FK 50.3 / FRE -84 on its own, by
+    # far the worst passage in any world's capsule. The verdicts stay as the
+    # fallback so a world without capsule_lines renders exactly as before.
     order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
     for g in sorted(gravities.values(),
                     key=lambda g: (order.get(g.get("classification"), 3), g["id"])):
-        parts.append(f"- **{g['name']}** ({g['classification']}): "
-                     f"{g['six_tests']['formation']['verdict']}; "
-                     f"{g['six_tests']['explanatory']['verdict']}")
+        line = g.get("capsule_line") or (
+            f"{g['six_tests']['formation']['verdict']}; "
+            f"{g['six_tests']['explanatory']['verdict']}")
+        place = PLACE.get(g.get("classification"), g.get("classification", ""))
+        parts.append(f"- **{g['name']}** ({place}): {line}")
     parts += ["", "## The World's Own Words", ""]
     for t in terms.values():
         parts.append(f"- {t['term']}: {t.get('voice_surface', '')}")

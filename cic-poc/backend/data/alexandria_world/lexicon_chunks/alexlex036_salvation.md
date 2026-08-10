@@ -30,7 +30,7 @@ So salvation is not a single moment but the whole arc — from repentance, throu
 
 ## Ecological Function
 
-Salvation names what the entire formation ecology accomplishes — it is the second Primary gravity at the level of the whole ecology's purpose. It anchors the coherence of the salvation-arc vocabulary (Sin → Death → Resurrection → Restoration → Transformation), the stakes of the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis (the arc's horizon).
+Salvation names what the entire formation ecology accomplishes - the transformation of the soul stated at the level of the whole ecology's purpose. It anchors the coherence of the salvation-arc vocabulary (sin, death, resurrection, restoration, transformation), the stakes of the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis, the arc's horizon.
 
 ---
 

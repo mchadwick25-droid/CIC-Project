@@ -25,8 +25,7 @@ text: 'This is how the household remembers one widow among us: after the traveli
 attested_occasion: 'Marcella''s standing as the household remembers it (Ep. 127, written after her death,
   for the scholar''s own partly self-vindicating purposes): clergy bringing their hardest scriptural questions
   to her own house on her own authority once the scholar had left Rome - THE single most Author-Gravity-constrained
-  story in this repository (single-source, Contested, post-mortem; the chunk''s own words), and the evidentiary
-  core of the ecology''s one Tensional gravity.'
+  story in this repository (single-source, Contested, post-mortem; the chunk''s own words), and the clearest evidence for the one real counter-current in this household''s life.'
 tellable_as: scene
 owner_figure_id: halfig003
 voice_surface: 'We tell of the widow the clergy consulted carefully, for the memory comes to us in one
@@ -59,13 +58,8 @@ sources:
 gravity_links:
 - gravity_id: halgrav005
   note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): The evidentiary core of the Tensional gravity in this world''s confirmed ecology — a genuine
-    counter-current of independent female authority that does not organize as broadly as the Primary gravities,
-    but which this world''s own record does not let the household forget. Central to the strand-tension
-    question this world''s own construction had to test directly (resolved: her authority is the same
-    underlying currency as the traveling scholar''s, held in a different, materially independent position
-    — not a rival structure).'
+    S2.5): The clearest evidence for the one real counter-current in this household''s life - an independent authority held by a woman, running against the main pattern without displacing it, which this household''s own record does not let it forget. Her authority is the same underlying currency as the traveling scholar''s, held in a different and materially independent position - not a rival structure.'
 ---
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story07_the-widow-consulted.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
-[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] The evidentiary core of the Tensional gravity in this world's confirmed ecology — a genuine counter-current of independent female authority that does not organize as broadly as the Primary gravities, but which this world's own record does not let the household forget. Central to the strand-tension question this world's own construction had to test directly (resolved: her authority is the same underlying currency as the traveling scholar's, held in a different, materially independent position — not a rival structure).
+[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] The clearest evidence for the one real counter-current in this household's life - an independent authority held by a woman, running against the main pattern without displacing it, which this household's own record does not let it forget. Her authority is the same underlying currency as the traveling scholar's, held in a different and materially independent position - not a rival structure.

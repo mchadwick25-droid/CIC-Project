@@ -22,6 +22,7 @@ horizon: Rome, Constantinople, Milan - the three sees whose office-holders answe
   linguistic halves of the empire (Latin Rome/Milan, Greek Constantinople - distinctive in the portfolio);
   late Roman and early Byzantine imperial elite culture; the empire's own fragmentation after 395 and
   the Homoian imperial-establishment decades (Constantius II, Valens) inside the window (Doc_01 SS2).
+capsule_inhabit: 'A world of office-holders. Bishops and emperors argue, over and over, about who finally decides what the church must believe and how it must live. The arguing is done on paper: letters, canons, rulings, the acts of councils. Authority is what this world is about, and its other concerns sit behind that one. We are thin, by our own admission, on the ordinary believer who held no office.'
 formation_logic: 'Doc_01 SS3''s own phrase: ''an ecology of office and jurisdiction'' - bishops and emperors
   repeatedly negotiating, asserting, and contesting where final authority over doctrine and discipline
   resides; canon law, conciliar process, decretal and tome as the formation instruments; authority dominant

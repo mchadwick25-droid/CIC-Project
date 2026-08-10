@@ -28,7 +28,7 @@ The letter survives only because Athanasius himself, defending his own restored 
 
 ## Formation Ecology Connection
 
-This is Strand A's own earliest attested data point (Doc_02 §1) — a generation before Damasus, this world's own primacy claim already existed in practice, not merely as a later invention read backward onto an earlier period. It directly grounds Doc_04's Candidate 1 (Juridical Primacy-Claiming) and shows the claim's own characteristic form from its first attested instance: not a request, but an assumption that Rome's own judgment is a standing later judgments must reckon with.
+This is the earliest attested instance of Rome's primacy claim in practice - a generation before Damasus, and so not a later invention read backward onto an earlier period. It grounds the juridical primacy-claiming commitment, and it shows that claim's characteristic form from its first appearance: not a request, but an assumption that Rome's judgment is a standing which later judgments must reckon with.
 
 ---
 

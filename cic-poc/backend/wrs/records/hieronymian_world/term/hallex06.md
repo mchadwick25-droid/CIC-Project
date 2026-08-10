@@ -14,8 +14,8 @@ cache_stability: static
 term: Patrocinium
 aliases:
 - Patronage
-quick_meaning: The voluntary, wealth-based relationship by which an aristocratic patron sustains a scholar's
-  work — this world's actual authority structure, standing in place of church office.
+quick_meaning: 'A rich patron pays for a scholar''s work and keeps it going. In this world that bond, not
+  church office, is where authority really sits.'
 world_meaning: 'Authority here did not come from ordination to a bishop''s seat; it came from being trusted,
   and being funded, by someone with the wealth to make scholarship possible. A presbyter''s whole life''s
   labor — his travel, his years with a Hebrew teacher, the community he came to lead — depended on whether
@@ -26,9 +26,7 @@ world_meaning: 'Authority here did not come from ordination to a bishop''s seat;
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: Anchors G3 (Primary gravity, the strongest bipolar-holding candidate
-  in this world''s ecology); the organizational bedrock of this community''s authority structure; the
-  direct basis for this world''s differentiation from episcopal-authority formation worlds.'
+  S2.3-equivalent per SS3.2 / FLAG-002]: One of the commitments this household''s whole life organizes around, and the one that most holds its two homes - Rome and Bethlehem - together; the bedrock under how authority actually works here; and the clearest difference between this household and a world where authority runs through a bishop''s office.'
 distortion_risk: '**Modern Hearing:**
 
   Risk of reading "patronage" as a minor financial detail, secondary to the "real" spiritual/scholarly
@@ -84,10 +82,7 @@ field_relations:
 - type: presupposes
   target_id: hallex03
   note: 'Renounced wealth is this relationship''s material source (hal_lex03 EF; the Desert material-source-of/presupposes
-    pairing). Chunk Ecological Function (verbatim, absorbed per FLAG-002): Anchors G3 (Primary gravity,
-    the strongest bipolar-holding candidate in this world''s ecology); the organizational bedrock of this
-    community''s authority structure; the direct basis for this world''s differentiation from episcopal-authority
-    formation worlds.'
+    pairing). Chunk Ecological Function (verbatim, absorbed per FLAG-002): One of the commitments this household''s whole life organizes around, and the one that most holds its two homes - Rome and Bethlehem - together; the bedrock under how authority actually works here; and the clearest difference between this household and a world where authority runs through a bishop''s office.'
 - type: presupposes
   target_id: hallex10
   note: Matrona standing is the precondition - 'the social-historical precondition for renunciation and

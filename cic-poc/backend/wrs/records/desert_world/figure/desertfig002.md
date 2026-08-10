@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Pachomius
   name_kind: in-world
+bridge_line: "The founder of the shared life: monks living together under one rule."
 narratable: true
 story_ids:
 - desertstory003

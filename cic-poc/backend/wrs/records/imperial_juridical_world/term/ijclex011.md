@@ -15,8 +15,7 @@ term: basilica (as contested institutional space)
 aliases:
 - church building
 - basilica standoff
-quick_meaning: For us, a basilica is not only a building — it is the physical ground on which the question
-  of who commands the church's own space, emperor or bishop, was actually fought and, that night, held.
+quick_meaning: 'Not only a building. It is the ground where the question of who commands the church''s own space, emperor or bishop, was actually fought out. That night, it was held.'
 world_meaning: See Quick Meaning above; this term's own fuller treatment lives in the *Imperator intra
   Ecclesiam* entry, of which this is one physical, load-bearing detail.
 distortion_risk: in this world's own 386 record specifically, the building itself is inseparable from

@@ -11,6 +11,7 @@ review_state: draft
 names:
 - name: Macarius
   name_kind: scholarly
+bridge_line: "A desert elder. We carry no story of his own."
 narratable: false
 story_ids: []
 attribution_note: Named in desertstory004's usage guidance solely as the historical misattribution target

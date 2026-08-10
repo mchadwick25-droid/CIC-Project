@@ -20,7 +20,7 @@ The Chronicle of Edessa reports that in the month of Tishrin (November) of the y
 
 ## Formation Ecology Connection
 
-This is this world's own earliest institutional trace of a physical church building (Doc_01, Section 2; Doc_02, Section 5) — the anchor point for the beginning of this world's attested community life at Edessa. It illuminates how thoroughly this world's own memory of itself depends on archive rather than testimony: even its earliest self-report survives only because a royal court recorded a flood, not because any Christian voice spoke for the community's own experience of the disaster. This connects directly to Doc_05's own finding (Section 2.2) that this world's memory is, at its origin point, "memory of memory" — archivally preserved rather than eyewitnessed.
+This is our earliest institutional trace of an actual church building, and so the anchor point for the beginning of our attested life at Edessa. It also shows how far our memory of ourselves rests on archive rather than testimony: even this earliest self-report survives because a royal court recorded a flood, not because any Christian voice spoke for what the community lived through. At its origin point our memory is memory of memory - preserved in a record rather than witnessed.
 
 ---
 

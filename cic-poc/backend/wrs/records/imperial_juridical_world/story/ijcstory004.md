@@ -57,15 +57,14 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
 gravity_links:
 - gravity_id: ijcgrav004
   note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This story is this world''s own clearest instance of worship functioning as the *lived mechanism*
-    of resistance itself, not merely a devotional practice running alongside institutional confrontation
-    (Doc_05 §3, §3a; Doc_07 §6) — the singing is not incidental color to the standoff, it is what the
-    standoff was actually made of, hour by hour. It directly grounds Doc_04''s Candidate 4 (Episcopal
-    Independence from Imperial Command) and Candidate 6 (the Sacramental/Moral vs. Institutional/Positional
-    Authority tension), and it is this world''s own single richest piece of evidence for what an ordinary
-    congregant''s affective experience of Strand C''s own confrontation might have been (Doc_05 §3a) —
-    fear and solidarity, sustained by shared voice, under a threat that never fully resolved itself one
-    way or the other while it lasted.'
+    S2.5): This is the clearest instance in this world of worship working as the actual mechanism of
+      resistance, not a devotional practice running alongside a confrontation. The singing is
+      not colour added to the standoff; hour by hour it is what the standoff was made of. It
+      grounds two of this world''s commitments at once - a bishop''s independence from imperial
+      command, and the tension between authority held sacramentally and authority held by
+      position - and it is the richest evidence we have of what an ordinary person in that
+      basilica might actually have felt: fear and solidarity together, carried by shared voice,
+      under a threat that never fully resolved while it lasted.'
 retrieval:
   tier: 1
   retrieve_when:

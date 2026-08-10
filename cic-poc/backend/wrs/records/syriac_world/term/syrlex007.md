@@ -15,10 +15,10 @@ term: Iḥidaya (ܝܚܝܕܝܐ)
 aliases:
 - '"the Solitary," "the Single One," "Only-Begotten" (christological sense)'
 - monogenes (Greek parallel)
-quick_meaning: Iḥidaya names, in one word, both this world's ascetic and celibate designation — "single-minded,"
-  undivided in allegiance though living communally, not in physical isolation — and the Syriac christological
-  title for Christ as "Only-Begotten"; because both senses share the same root, an ascetic's own singleness
-  is heard as participating in Christ's own undividedness from the Father.
+quick_meaning: 'One word carrying two things. It is our name for the ascetic: single-minded, undivided in allegiance,
+  though living among others rather than in isolation. And it is our title for Christ as the
+  Only-Begotten. The root is the same, so an ascetic''s singleness is heard as sharing in Christ''s own
+  undividedness from the Father.'
 world_meaning: 'Iḥidaya carries a double duty that this world holds as one word rather than two separate
   ideas. On one side, it names an ascetic and celibate designation for this world''s consecrated elite
   — "single-minded," undivided in allegiance to God, living communally rather than in physical isolation

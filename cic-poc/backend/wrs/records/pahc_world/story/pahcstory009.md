@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "whatever you do not want done to you, do not do to another"
+signature: true
 review_state: draft
 cache_stability: static
 title: 'The Two Ways: A Catechumen''s Path to the Water'
@@ -91,7 +93,7 @@ sources:
 ---
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory009_two-ways-catechumen.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 
-[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story illustrates the moral/ethical entry-point logic Doc_07 §2B names as part of this world's own formation ecology — formation beginning with a concrete, memorizable ethical schema before ritual incorporation, rather than the reverse. It is not itself evidence for a confirmed Doc_04 gravity in the way Stories 001–008 are, but it grounds the practical, instructional dimension of formation that the gravities themselves presuppose without directly narrating.
+[Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This shows where formation actually starts: with a concrete, memorable pattern of how to live, learned before a person is brought into the rites rather than after. It is not evidence for any one of the forces that organise this world in the way our other stories are. It grounds the practical, instructional side of formation that those forces assume without ever quite describing.
 
 [Source Identification - the composite's own element-to-source table, parked verbatim (CO-P2-06 composite convention)] **Element from Story Text:** The Two Ways schema (Way of Life / Way of Death) as pre-baptismal teaching.
 **Source:** Didache chs. 1–6.

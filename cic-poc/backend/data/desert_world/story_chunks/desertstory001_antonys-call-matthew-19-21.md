@@ -4,6 +4,8 @@
 Story-Title:    Antony's Call — Hearing Matthew 19:21
 World-Code:     desert
 Tier:           1
+Signature:      yes
+Key-Line:       "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven"
 Confidence:     Widely Accepted (that the narrative exists and reports Antony's founding call); Contested (incident-level historical reliability, per the Rubenson/Athanasius literacy tension)
 Source:         Athanasius, Life of Antony, ch. 2 (composed c. 356-362)
 Retrieve-When:  participant asks what first drew someone to this way of life, or how withdrawal actually began for anyone; participant asks how scripture is heard or applied in this world; conversation reaches the founding moment or origin story of desert monasticism specifically; Representative needs a formation example for gravity 1 (withdrawal) or gravity 7 (practical scriptural engagement).
@@ -20,7 +22,7 @@ In his Life of Antony, Athanasius records that Antony, not yet twenty years old 
 
 ## Formation Ecology Connection
 
-This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture heard as immediate personal command, not general instruction offered to any reader. It is also the direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away of withdrawal in exactly this pattern of staying reachable by an address once heard.
+This is where withdrawal begins for us, and where our way of hearing scripture begins with it. A verse read aloud in an assembly is taken as a word spoken to one man, then and there, and acted on the same day. Not general instruction offered to any reader. An address, heard and obeyed. Everything we do with scripture afterward has that shape - and so does the stripping-away itself: what is given up is given up in order to stay reachable by a word once heard.
 
 ---
 

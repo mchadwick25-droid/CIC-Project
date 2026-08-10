@@ -20,7 +20,7 @@ Late in this world's life, under an emperor determined to break the Church's hol
 
 ## Formation Ecology Connection
 
-This story illustrates T4 (Martyrdom vs. Contemplative-Ascent), and Doc_04 §3.6 names T4 as the one gravity in this world's whole ecology whose evidence plausibly reached every stratum of the community, not only the literate and learned — though the martyr's own interior remains Inferential-Thin even so. It stands alongside Antony's contemplative pole (alexstory005) as this world's two competing pictures of a completed formed life. It also connects to Doc_08's ongoing force of persecution (2A-3) at its most severe and widely-felt instance across the whole span.
+This story illustrates the tension between martyrdom and contemplative ascent, which is the one tension in this world's whole ecology whose evidence plausibly reached every stratum of the community, not only the literate and learned - though the martyr's own interior remains thin even so. It stands alongside Antony's contemplative pole as one of this world's two competing pictures of a completed formed life. It also connects to the ongoing pressure of persecution at its most severe and widely-felt instance across the whole span.
 
 ---
 

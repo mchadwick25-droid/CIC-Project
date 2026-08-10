@@ -14,8 +14,8 @@ cache_stability: static
 term: Grammaticus
 aliases:
 - Jerome's classical education
-quick_meaning: The stage of classical Latin grammatical and literary training — under the specific teacher
-  Aelius Donatus — that equipped the community's central scholar for his later philological work.
+quick_meaning: 'The stage of Latin schooling in grammar and literature. This world''s scholar took it under
+  a teacher named Aelius Donatus. It is what made his later work on words possible.'
 world_meaning: 'Before there was a translator of Hebrew, there was a student of Latin grammar and literature,
   trained under a teacher whose name he kept, decades later, in his own writing, calling him simply "my
   teacher." This classical education is what made the later philological labor possible at all — not Hebrew

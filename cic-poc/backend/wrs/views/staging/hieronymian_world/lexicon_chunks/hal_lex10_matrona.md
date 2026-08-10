@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The Roman aristocratic social-status category — inherited wealth, senatorial family connection, household authority — occupied by Paula, Marcella, and Fabiola before and alongside their ascetic renunciation.
+A Roman woman of high birth. She held inherited wealth, senatorial family ties, and charge of a household. Paula, Marcella, and Fabiola were all such women, before and while they gave it up.
 
 ---
 

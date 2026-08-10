@@ -105,12 +105,12 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: alexlex020
-  note: 'Salvation-as-healing runs on the restorative conviction (chunk EF). Chunk Ecological Function
-    (verbatim, absorbed per FLAG-002): Salvation names what the entire formation ecology accomplishes
-    — it is the second Primary gravity at the level of the whole ecology''s purpose. It anchors the coherence
-    of the salvation-arc vocabulary (Sin → Death → Resurrection → Restoration → Transformation), the stakes
-    of the incarnation (only if the Logos is truly God can he heal from within), and the connection to
-    theosis (the arc''s horizon).'
+  note: 'Salvation-as-healing runs on the restorative conviction (chunk EF). Chunk Ecological Function (verbatim,
+    absorbed per FLAG-002): Salvation names what the entire formation ecology accomplishes - the
+    transformation of the soul stated at the level of the whole ecology''s purpose. It anchors the coherence
+    of the salvation-arc vocabulary (sin, death, resurrection, restoration, transformation), the stakes of
+    the incarnation (only if the Logos is truly God can he heal from within), and the connection to theosis,
+    the arc''s horizon.'
 - type: presupposes
   target_id: alexlex039
   note: The healing enters through the Logos's incarnation (chunk QM).

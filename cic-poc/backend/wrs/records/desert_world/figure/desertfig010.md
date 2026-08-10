@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Sisoes
   name_kind: scholarly
+bridge_line: "An elder named in our tradition. We carry no story of his own."
 narratable: false
 story_ids: []
 attribution_note: 'Same as Poemen: named as a name-only example in the prompt''s anti-fabrication guard.'

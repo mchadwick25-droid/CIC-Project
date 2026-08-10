@@ -17,9 +17,7 @@ aliases:
 - in communion
 - out of communion
 - ecclesiastical fellowship
-quick_meaning: For us, to be in communion with a see is to stand where that see stands; to be cut off
-  from it is not a private grief but a public, consequential fact — the actual instrument by which our
-  own claims to authority become real rather than merely spoken.
+quick_meaning: 'To be in communion with a see is to stand where that see stands. To be cut off is not a private grief. It is a public fact with consequences, and it is how our claims to authority become real rather than merely spoken.'
 world_meaning: 'A letter can assert a great deal. What makes an assertion bind is whether the one who
   receives it still stands in communion with the one who sent it, or has been placed outside it. This
   is not, for us, a separate question from the sacramental one — to be outside communion is to be outside

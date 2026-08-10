@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Augustine of Hippo
   name_kind: scholarly
+bridge_line: "A bishop in Africa, outside this household. His own letters survive."
 narratable: true
 story_ids:
 - halstory03

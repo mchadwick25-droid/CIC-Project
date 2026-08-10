@@ -15,8 +15,8 @@ term: presbyterion (πρεσβυτέριον)
 aliases:
 - council of elders
 - presbytery
-quick_meaning: The *presbyterion* is the council of elders gathered around the bishop — tuned to him,
-  Ignatius says, the way strings are tuned to a harp.
+quick_meaning: 'The council of elders gathered around the overseer. Tuned to him, one letter says, the way strings are
+  tuned to a harp.'
 world_meaning: 'Ignatius speaks of the presbyterion — the gathered body of presbyters — as something that
   should be harmonized with the bishop the way a harp''s strings are tuned together. This council supports
   and surrounds the bishop''s leadership, neither replacing him nor merely following instructions. Where
@@ -89,8 +89,8 @@ field_relations:
   target_id: pahclex001
   note: 'The chunk''s own EF: the form G01 takes ''in communities with a single bishop'' - the council-around
     exists only where the bishop does. Chunk Ecological Function (verbatim, absorbed per FLAG-002): This
-    term specifies a particular form the Authority Consolidation question (G01) takes in communities with
-    a single bishop. It marks the difference between a bishop who acts alone and one who acts with a council.'
+    term names one particular form the question of who leads takes in communities that have a single bishop.
+    It marks the difference between a bishop who acts alone and one who acts with a council.'
 - type: associated-with
   target_id: pahclex002
   note: Symmetric mirror of pahclex002's edge (the same elders, differently configured).

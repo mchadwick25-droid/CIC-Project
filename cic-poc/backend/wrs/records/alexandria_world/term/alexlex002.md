@@ -19,10 +19,9 @@ aliases:
 - God as Teacher
 - the pedagogy of the Logos
 - paideia of God
-quick_meaning: For this world divine pedagogy is the conviction that God is always teaching — the resistance
-  of Scripture, the practices of formation, suffering itself, and the slow deepening of understanding
-  are all the one patient instruction of the soul by the Logos, who did not step back after creating but
-  keeps teaching through everything.
+quick_meaning: 'The conviction that God is always teaching. The hard places in Scripture, the practices, the slow
+  deepening of sight, even suffering - all of it is one patient instruction of the soul by the Word. He did
+  not step back after making the world. He keeps teaching through everything in it.'
 world_meaning: 'Behind the catechist and the teacher and the bishop, behind even the hardship that breaks
   open a heart that argument could not reach, the same Teacher is at work. That is the conviction this
   term names: God teaches, continuously, through every dimension of the world''s life. The Logos who made
@@ -105,13 +104,12 @@ field_relations:
 - type: presupposes
   target_id: alexlex001
   note: 'The pedagogy is the Logos''s own continuing speech - remove the Logos and ''God teaches through
-    everything'' loses its subject (chunk WM/EF). Chunk Ecological Function (verbatim, absorbed per FLAG-002):
-    Divine Pedagogy is the explanatory-framework supporting gravity (Doc_04 C3): it makes the two Primary
-    gravities intelligible as one divine activity. It grounds *why* Scripture forms, *why* transformation
-    is gradual, *why* suffering forms, and *why* the human teacher''s authority is real but derivative
-    — the teacher teaches under the Teacher (which is the root of the Teacher–Bishop tension). It is classified
-    Supporting, not Primary, because it organizes no practice of its own; it is the frame within which
-    the others are understood.'
+    everything'' loses its subject (chunk WM/EF). Chunk Ecological Function (verbatim, absorbed per
+    FLAG-002): Divine Pedagogy is the explanatory frame that makes the two organising forces intelligible as
+    one divine activity. It grounds why Scripture forms, why transformation is gradual, why suffering forms,
+    and why the human teacher''s authority is real but derivative - the teacher teaches under the Teacher,
+    which is the root of the teacher-and-bishop tension. It is supporting rather than organising because it
+    directs no practice of its own; it is the frame within which the others are understood.'
 - type: presupposed-by
   target_id: alexlex003
   note: 'Catechesis is divine pedagogy''s human-scale enactment - the EF: pedagogy makes the gravities

@@ -30,13 +30,15 @@ horizon: 'A generational close: every voice constituting the Jerome-and-the-wome
   to the community identified (SS6, ''a significant evidentiary gap''); the women''s own unmediated voice
   structurally absent, every account through Jerome''s hand alone (SS7.3, the Article-20 affirmative duty
   verbatim-in-substance).'
-formation_logic: 'Doc_01 SS5.1 verbatim: this world''s recurring formation ecology is organized around
-  "textual asceticism: the fusion of ascetic renunciation (fasting, celibacy/continence, wealth divestment,
-  manual and scriptorium labor) with scholarly-literary production (biblical translation, commentary,
-  epistolary spiritual direction, hagiographic literature) as a single, mutually reinforcing formation
-  practice - not as two separate activities occurring in the same community... the ecology does not treat
-  scholarship as a distraction from asceticism or asceticism as a precondition merely tolerated around
-  scholarship."'
+formation_logic: 'This world joins two things people usually keep apart: giving things up, and working on texts.
+
+  Giving things up means fasting, staying unmarried, handing over wealth, and doing work with
+  the hands as well as at the desk. Working on texts means translating scripture, writing
+  commentary, guiding souls by letter, and telling the lives of holy people.
+
+  These are not two activities that happen to share a house. They are one practice, and each
+  feeds the other. Study is never treated here as time taken from the discipline. The
+  discipline is never treated as something merely put up with so the study can go on.'
 gravities:
 - halgrav001
 - halgrav002

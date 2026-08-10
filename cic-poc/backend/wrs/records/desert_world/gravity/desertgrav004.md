@@ -13,6 +13,7 @@ sources:
 id: desertgrav004
 name: Manual labor as ascetic discipline (cheironaxia)
 classification: Primary
+capsule_line: 'Work done with the hands - a rope twisted, a basket woven - while the mind stays at its watch. The labour is the discipline, not merely how we ate.'
 six_tests:
   repetition:
     verdict: Strong - textual AND papyrological AND archaeological

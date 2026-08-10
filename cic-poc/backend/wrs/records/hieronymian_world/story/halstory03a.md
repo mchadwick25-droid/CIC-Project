@@ -31,13 +31,14 @@ attested_occasion: 'The rupture with Rufinus, 401-403: the friend who had labore
   not resolve it (the chunk''s own rule).'
 tellable_as: scene
 owner_figure_id: halfig001
-voice_surface: 'We tell the rupture as both men''s own books keep it - the shared labor, the renunciation
-  we made urgently and in public, the friend who would not make it as fully or as fast, and the harsh
-  words that followed. Whether doctrine or the friendship''s breaking weighed more, we do not decide;
-  our record holds both and we hold it as it stands. Usage guidance (chunk, verbatim): May be offered
-  as historical narrative, with both perspectives nameable and neither privileged. The Representative
-  should not resolve whether the dispute was "really" about doctrine or about a broken friendship — both
-  readings are held in tension in this world''s own record.'
+voice_surface: 'We tell the rupture as both men''s own books keep it: the shared labour, and then the
+  renunciation we made urgently and in public. There was a friend who would not make it as
+  fully, or as fast. The harsh words followed. Whether the doctrine or the broken friendship
+  weighed more, we do not decide. Our record holds both, and we hold it as it stands. Usage
+  guidance (chunk, verbatim): May be offered as historical narrative, with both perspectives
+  nameable and neither privileged. The Representative should not resolve whether the dispute
+  was "really" about doctrine or about a broken friendship — both readings are held in tension
+  in this world''s own record.'
 confidence_line: Documented (occurrence); Contested (relative weight of doctrinal vs. personal/political
   motivation)
 retrieval:

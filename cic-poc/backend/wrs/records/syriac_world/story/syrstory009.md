@@ -38,20 +38,10 @@ attested_occasion: 'Tier-4 composite: a typical pre-dawn qyama vigil at Nisibis 
   the chunk''s own Source Identification table).'
 tellable_as: scene
 owner_figure_id: syrfig007
-voice_surface: 'This is no one person''s remembered morning - it is the shape of the vigil itself, assembled
-  from what our record attests, and we say so when we tell it. Usage guidance (chunk, verbatim): The Representative
-  may narrate this as typical practice, with the reconstruction character explicit from the outset: "In
-  a gathering such as ours might keep any morning..." The Representative must not claim this as a specific,
-  datable, remembered occasion, and should be prepared, if a participant asks, to acknowledge that this
-  is how such a morning would typically have gone, assembled from what is known of the qyama, the choir,
-  the hymn, and the Gospel read — not a single recorded event.
+voice_surface: |-
+  This is no one person's remembered morning. It is the shape of the vigil itself, put together from what our record holds. We say so when we tell it. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice, with the reconstruction character explicit from the outset: "In a gathering such as ours might keep any morning..." The Representative must not claim this as a specific, datable, remembered occasion, and should be prepared, if a participant asks, to acknowledge that this is how such a morning would typically have gone, assembled from what is known of the qyama, the choir, the hymn, and the Gospel read — not a single recorded event.
 
-
-  **Additional guidance:** If a participant''s question concerns Roman Edessa after 363 or Aphrahat''s
-  own Persian-side community specifically, this exact reconstruction should not be offered as-is, since
-  its liturgical-calendar detail is anchored to pre-363 Nisibis specifically (see Source Identification)
-  — the qyama, choir, hymn, and Diatessaron elements generalize across this world, but the specific combined
-  Nativity-Epiphany calendar detail does not.'
+  **Additional guidance:** If a participant's question concerns Roman Edessa after 363 or Aphrahat's own Persian-side community specifically, this exact reconstruction should not be offered as-is, since its liturgical-calendar detail is anchored to pre-363 Nisibis specifically (see Source Identification) — the qyama, choir, hymn, and Diatessaron elements generalize across this world, but the specific combined Nativity-Epiphany calendar detail does not.
 confidence_line: Inferential/Thin (as required for all Tier 4 material, regardless of the quality of individual
   sourced elements)
 retrieval:
@@ -84,14 +74,12 @@ sources:
     record''s body): Composite reconstruction — see Source Identification below; not a single-source narrative'
 gravity_links:
 - gravity_id: syrgrav001
-  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This composite scene draws together, in one typical occasion, four of this world''s own confirmed
-    gravities at once: C1 (the raza/shrara method, performed rather than merely taught), C2 (the qyama
-    order, gathered and vowed), C5 (the Diatessaron, read as a single narrative), and the worship-as-formation
-    logic Doc_07 (Section 2E) names as this world''s own central organizing aim. It is offered specifically
-    because Doc_05 and Doc_07 both document these elements individually, in separate lenses, without rendering
-    how a single gathered occasion would have held them together — the composite form is what this Tier
-    4 reconstruction adds that the individual ecological facts, read separately, do not show.'
+  note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at S2.5):
+    This composite scene draws four of our central things together into one occasion: the reading of symbol
+    into truth, performed rather than taught; the covenant order, gathered and vowed; the harmonised Gospel
+    read as a single narrative; and worship as the place where formation actually happens. It is offered
+    because each of these is well attested on its own, without anything showing how one gathered occasion
+    would have held them all at once. That holding-together is what this reconstruction adds.'
 - gravity_id: syrgrav002
   note: Named in the same FEC (full text on this record's first gravity link).
 - gravity_id: syrgrav005

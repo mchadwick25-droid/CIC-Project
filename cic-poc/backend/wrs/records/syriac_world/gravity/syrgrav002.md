@@ -14,6 +14,8 @@ sources:
 id: syrgrav002
 name: Covenanted Ascetic Life - qyama / bnay-bnat qyama / Ihidaya (C2)
 classification: Primary
+capsule_name: 'The covenant vow'
+capsule_line: 'The covenant vow: celibacy and watchfulness kept for life, in the town among one''s own kin, not out in the desert.'
 six_tests:
   repetition:
     verdict: PASS - Aphrahat Dem 6 (direct) + the Ihidaya material (both authors, directly; Doc_03 1.7)

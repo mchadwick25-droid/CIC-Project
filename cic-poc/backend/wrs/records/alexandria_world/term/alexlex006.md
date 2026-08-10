@@ -18,9 +18,9 @@ aliases:
 - wisdom of God
 - Christian wisdom
 - mature wisdom
-quick_meaning: 'For this world wisdom is what formation produces in a person over a lifetime — not a body
-  of knowledge held, but a condition of the soul visible in how one perceives, loves, speaks, and lives:
-  genuine knowledge of God grown all the way into a life.'
+quick_meaning: 'What formation produces in a person over a lifetime. Not a body of knowledge held, but a condition of the
+  soul. You see it in how someone perceives, loves, speaks and lives. It is real knowledge of God grown all
+  the way into a life.'
 world_meaning: 'Wisdom cannot be acquired. It can only be grown.
 
 
@@ -125,16 +125,16 @@ field_relations:
 - type: presupposes
   target_id: alexlex005
   note: 'Wisdom is gnosis reached through a whole life - the sequence''s own order (chunk EF). Chunk Ecological
-    Function (verbatim, absorbed per FLAG-002): Wisdom is the stage at which the transformation of the
-    soul (Doc_04 C2) becomes visible in the quality of a whole life: it is what knowledge accumulates
-    into and what participation expresses, oriented toward the horizon of theosis. A participant who grasps
-    wisdom grasps how this world assesses formation — not by doctrinal credentials but by whether a person
-    is becoming wiser — and why teaching authority in the school tradition rests on demonstrated wisdom
-    (the teacher in whom formation is visible) rather than on office, which is one of the live tensions
-    between teacher and bishop in this world. Wisdom is also where this world holds together what would
-    otherwise split apart: the intellectual depth of real knowledge of God and the moral transformation
-    that love of God produces. Knowledge without love has not yet become wisdom, so wisdom is the standing
-    refusal to let learning and holiness come apart.'
+    Function (verbatim, absorbed per FLAG-002): Wisdom is the stage at which the transformation of the soul
+    becomes visible in the quality of a whole life: it is what knowledge accumulates into and what
+    participation expresses, oriented toward the horizon of theosis. A participant who grasps wisdom grasps
+    how this world assesses formation - not by doctrinal credentials but by whether a person is becoming
+    wiser - and why teaching authority in the school tradition rests on demonstrated wisdom, the teacher in
+    whom formation is visible, rather than on office. That is one of the live tensions between teacher and
+    bishop here. Wisdom is also where this world holds together what would otherwise split apart: the
+    intellectual depth of real knowledge of God and the moral transformation that love of God produces.
+    Knowledge without love has not yet become wisdom, so wisdom is the standing refusal to let learning and
+    holiness come apart.'
 - type: presupposed-by
   target_id: alexlex007
   note: Participation expresses what wisdom has become - the EF ties wisdom to what participation expresses

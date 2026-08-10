@@ -15,8 +15,8 @@ term: Pelagianism (the Pelagian controversy)
 aliases:
 - The 416 attack
 - the Pelagian mob attack
-quick_meaning: The theological dispute over grace, free will, and human capacity for sinlessness that
-  produced a violent attack on this community's own monastery in 416.
+quick_meaning: 'The quarrel over grace, free will, and whether a person can stop sinning. It led to a
+  violent attack on this household''s monastery in 416.'
 world_meaning: 'This controversy did not stay confined to argument. In 416, whatever combination of theological
   conviction and local grievance had built up around this dispute turned physical: a mob attacked the
   Bethlehem monastery itself, buildings burned, and — by report — at least one member of the community

@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the conversation concerns Strand A's or Strand B's own cla
 
 ## Quick Meaning
 
-The emperor stands within the Church, not above it — our bishop said this to an imperial court demanding a basilica, and meant that no crown, however real its power, can command what belongs to the altar.
+The emperor stands within the Church, not above it. Our bishop said it to an imperial court that was demanding a basilica. He meant that no crown, whatever its power, can command what belongs to the altar.
 
 ---
 

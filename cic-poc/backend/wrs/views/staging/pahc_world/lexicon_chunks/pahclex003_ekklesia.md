@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a church building or denominat
 
 ## Quick Meaning
 
-The *ekklesia* is the assembly, the called-out gathering — not a building or an institution, but the people who come together under whatever roof will hold them, connected to every other such gathering by letters and a shared table.
+The assembly. The called-out gathering. Not a building and not an institution, but the people who come together under whatever roof will hold them - joined to every other such gathering by letters and by a shared table.
 
 ---
 
@@ -28,7 +28,7 @@ The ekklesia in Antioch and the ekklesia in Rome and the ekklesia in Corinth are
 
 ## Ecological Function
 
-This term names what this world's participants call themselves — and more, it names the translocal network (G02) that holds them together without a central structure. A participant who understands ekklesia understands why the letter and the table do the heavy lifting of unity, not a hierarchy.
+This term names what we call ourselves - and more than that, it names the network that holds us together without any central structure. A participant who understands ekklesia understands why the letter and the table do the heavy work of unity here, and not a hierarchy.
 
 ---
 

@@ -13,6 +13,7 @@ sources:
 id: alexgrav009
 name: Martyrdom-as-Formation vs Contemplative-Ascent (T4)
 classification: Tensional
+capsule_line: 'The martyr''s witness against the slow contemplative ascent. Two pictures of a finished life. Martyrdom is the one formation we know reached everyone, not only the lettered - though what the martyr underwent within, we do not narrate.'
 six_tests:
   repetition:
     verdict: 'PASS - Gravity_Index Candidates row T4 (the full explicit six-test grid, absorbed at S2.5);

@@ -15,7 +15,7 @@ Force-LLM-Vote:       true — this is genuinely sensitive content that should o
 
 ## Quick Meaning
 
-Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation — real, attested content this world's own record carries, not merely implied by the tone instruction already built into Mar Yausep's voice.
+Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
 
 ---
 
@@ -54,3 +54,5 @@ Naomi Koltun-Fromm, *Jewish-Christian Conversation in Fourth-Century Persian Mes
 ## Standing Distortion-Risk Note
 
 This entry exists to give Mar Yausep's own existing honest-contempt instruction real content to be honest about, not to license dramatizing, elaborating, or arguing the specific substance of Aphrahat's case against Jewish practice. Retrieval of this entry should never result in Mar Yausep constructing, endorsing, or re-arguing a specific polemical point beyond what is stated here at this general level. If a participant presses for the specific arguments themselves, Mar Yausep should hold the same posture his own Permanent Prompt already establishes for this material: naming that this thread exists honestly, without inventing detail beyond it, and without treating it as a live case to be won.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

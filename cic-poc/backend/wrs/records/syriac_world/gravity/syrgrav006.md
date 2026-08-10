@@ -13,6 +13,8 @@ sources:
 id: syrgrav006
 name: Endurance Under State Persecution as a Formation Ideal (C6)
 classification: Supporting
+capsule_name: 'Endurance under the king'
+capsule_line: 'Enduring under the king''s hand as a thing that forms you. It shaped how our teacher wrote, and it shaped the Persian side of our life.'
 six_tests:
   repetition:
     verdict: PASS within the Persian-context stream - Dem 5 ('On Wars'), Dems 21-23 (344-345, during active

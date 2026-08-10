@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the conversation is really about homoios or the Homoian im
 
 ## Quick Meaning
 
-We hold the Son to be of one and the same being as the Father — not merely like him, but sharing, undivided, the very being that makes the Father God.
+The Son is of one and the same being as the Father. Not merely like him. Sharing, undivided, the very being that makes the Father God.
 
 ---
 

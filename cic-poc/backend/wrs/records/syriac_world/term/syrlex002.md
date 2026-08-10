@@ -16,10 +16,9 @@ aliases:
 - bar qyama
 - bat qyama (singular forms)
 - '"sons/daughters of the covenant"'
-quick_meaning: The qyama is this world's own committed, celibate order of "sons and daughters of the covenant"
-  — men and women who take a lifelong vow but remain resident among their own kin in town rather than
-  withdrawing to the desert, making this world's asceticism a discipline practiced in the middle of ordinary
-  community life rather than a flight from it.
+quick_meaning: 'The committed, celibate order of the sons and daughters of the covenant. Men and women who take a
+  lifelong vow and then stay among their own kin, in the town, rather than withdrawing to the desert. Our
+  discipline is practised in the middle of ordinary community life, not in flight from it.'
 world_meaning: 'To take the qyama is to stand for a promise that does not end: not a season of youth to
   be outgrown, but a lifelong undertaking, entered by both men (bnay qyama) and women (bnat qyama). This
   is a town''s own askesis, not the desert''s — the bar qyama and bat qyama live among their kin, unmarried,
@@ -128,17 +127,15 @@ confidence:
 field_relations:
 - type: associated-with
   target_id: syrlex007
-  note: 'Near-synonym in Aphrahat''s own usage (Dem 6:8, 7:20) - the two entries are read alongside each
-    other, deliberately NOT merged (both chunks'' own double-counting guard); association, no hierarchy.
-    Chunk Ecological Function (verbatim, absorbed per FLAG-002): The qyama is one of this world''s two
-    Primary organizing gravities (C2, Covenanted Ascetic Life, per Doc_04), alongside the raza/shrara
-    theological method (C1). It anchors this world''s distinctive formation logic — a lifelong vow lived
-    in town rather than desert withdrawal — and connects directly to Iḥidaya, the "Single One" designation
-    Aphrahat uses as a near-synonym for qyama membership. Doc_04''s own Interaction finding records that
-    the qyama''s charismatic, vow-based standing functioned as an authority pathway running alongside,
-    not merely beneath, ordained episcopal office — meaning a participant who understands the qyama also
-    understands part of why this world''s authority structure remained genuinely ambiguous (C4) rather
-    than settled around office alone.'
+  note: 'Near-synonym in Aphrahat''s own usage (Dem 6:8, 7:20) - the two entries are read alongside each other,
+    deliberately NOT merged (both chunks'' own double-counting guard); association, no hierarchy. Chunk
+    Ecological Function (verbatim, absorbed per FLAG-002): The qyama is one of the two things that organise
+    this world, alongside the reading of symbol into truth. It anchors our distinctive formation: a lifelong
+    vow lived in the town rather than by withdrawal into the desert. It connects directly to Ihidaya, the
+    Single One, which Aphrahat uses as a near-synonym for membership in it. The standing that vow conferred
+    ran alongside ordained office rather than beneath it - so a participant who understands the qyama also
+    understands part of why authority among us stayed genuinely unsettled rather than resolving around
+    office alone.'
 - type: presupposes
   target_id: syrlex003
   note: This entry's primary evidentiary source (Demonstration 6) is itself one of Aphrahat's taḥwyāṯā

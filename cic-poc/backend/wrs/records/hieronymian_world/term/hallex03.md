@@ -14,8 +14,7 @@ cache_stability: static
 term: Renuntiatio
 aliases:
 - Renunciation
-quick_meaning: The formal, voluntary giving-up of wealth, marriage prospects, and worldly status as an
-  act of Christian devotion.
+quick_meaning: 'Giving up wealth, marriage, and rank on purpose, as an act of faith.'
 world_meaning: 'To renounce, in this world, was not a single gesture but a sustained unmaking of one''s
   former position — the sale or redirection of inherited property, the closing-off of the marriage that
   would have secured a family''s alliances, the plain dress that announced, to anyone who had known the
@@ -27,9 +26,7 @@ world_meaning: 'To renounce, in this world, was not a single gesture but a susta
 
 
   [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
-  S2.3-equivalent per SS3.2 / FLAG-002]: Anchors G2 (Primary gravity); the material source of *patrocinium*;
-  presupposed by *xenodochium* and *nosocomium*; central to *virginitas* and *vidua* as their practical
-  expression.'
+  S2.3-equivalent per SS3.2 / FLAG-002]: One of the commitments this household''s whole life organizes around; where the means behind *patrocinium* actually come from; assumed beneath both the *xenodochium* and the *nosocomium*; and the practical form *virginitas* and *vidua* take when they are lived rather than merely professed.'
 distortion_risk: '**Modern Hearing:**
 
   Likely to read renunciation as a private spiritual discipline, comparable to modern voluntary simplicity
@@ -83,8 +80,7 @@ field_relations:
   target_id: hallex06
   note: 'Renounced wealth is what a patron sustains a scholar''s work WITH - ''the material source of
     patrocinium'' in this chunk''s own EF words. Chunk Ecological Function (verbatim, absorbed per FLAG-002):
-    Anchors G2 (Primary gravity); the material source of *patrocinium*; presupposed by *xenodochium* and
-    *nosocomium*; central to *virginitas* and *vidua* as their practical expression.'
+    One of the commitments this household''s whole life organizes around; where the means behind *patrocinium* actually come from; assumed beneath both the *xenodochium* and the *nosocomium*; and the practical form *virginitas* and *vidua* take when they are lived rather than merely professed.'
 - type: presupposed-by
   target_id: hallex06
   note: Mirror of hallex06's presupposes edge (the Desert material-source-of/presupposes pairing).

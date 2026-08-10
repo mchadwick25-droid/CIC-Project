@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "According to nature I am a woman, but not according to my thoughts."
+signature: true
 review_state: draft
 cache_stability: static
 title: Amma Sarah's Answer to the Visiting Elders
@@ -62,17 +64,11 @@ sources:
 owner_figure_id: desertfig006
 gravity_links:
 - gravity_id: desertgrav003
-  note: This is this world's single clearest direct textual evidence for the ammas' own teaching voice
-    (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised
-    here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather
-    than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased
-    inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`,
-    Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live
-    adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain
-    way, rather than the attested elders coming to test/humble her about being a woman), while the saying's
-    own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`,
-    the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and
-    should be treated as the canonical wording.
+  note: 'This is our clearest direct evidence of an amma''s own teaching voice: an elder''s authority exercised by
+    a woman, under direct challenge, and discernment used against a social test rather than an interior
+    thought. The wording matters. She was tested about being a woman, and her answer is sharper than any
+    general claim about equal natures. We carry the saying as it stands, with its own occasion, and we do not
+    give it a different one.'
 - gravity_id: desertgrav005
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant means "participation" in an ordinary socia
 
 ## Quick Meaning
 
-For this world participation is what the whole formation sequence arrives at — not nearness to God but real sharing in the divine life itself: through grace and the Logos's incarnation the soul genuinely takes part in the life of the one who made it, not by becoming God but by becoming truly what God intended a creature to be.
+What the whole formation sequence arrives at. Not nearness to God but real sharing in his life. Through grace, and through the Word made flesh, the soul genuinely takes part in the life of the one who made it. Not by becoming God. By becoming truly what a creature was meant to be.
 
 ---
 
@@ -30,7 +30,7 @@ And because it is participation in the *Logos*, it is never solitary. The soul s
 
 ## Ecological Function
 
-Participation is the operational term for what the second Primary gravity (Transformation) is *for* — it names both the mechanism and the goal at once: the soul is being transformed *into* real sharing in God. It anchors the purpose of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology (one participates through the community), and the necessity of the incarnation (participation requires that the Logos be truly God).
+Participation is the operational term for what the transformation of the soul is for - it names the mechanism and the goal at once: the soul is being transformed into real sharing in God. It anchors the purpose of the whole sequence, the formative function of the Eucharist, the non-individualism of the ecology (one participates through the community), and the necessity of the incarnation, since participation requires that the Logos be truly God.
 
 ---
 

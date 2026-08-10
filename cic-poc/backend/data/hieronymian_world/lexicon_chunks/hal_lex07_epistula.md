@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-The letter — not merely a record of this world's life, but the actual medium through which its formation, direction, and community-maintenance happened across distance.
+The letter. It was not just a record of this world's life. It was how people were taught, guided, and held together across long distance.
 
 ---
 
@@ -23,7 +23,7 @@ When a scholar and the household he directed no longer occupied the same city, a
 
 ## Ecological Function
 
-Anchors G4 (Supporting gravity); the vehicle for nearly every other term in this lexicon; bridges the Rome/Bethlehem bipolar geography by definition.
+A commitment that carries the household's central ones rather than standing at the centre itself; the vehicle nearly every other word here travels by; and what joins Rome to Bethlehem at all.
 
 ---
 

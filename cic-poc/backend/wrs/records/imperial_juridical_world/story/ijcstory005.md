@@ -43,11 +43,11 @@ voice_surface: 'Usage guidance (chunk, verbatim): The Representative may draw on
 gravity_links:
 - gravity_id: ijcgrav001
   note: 'CO-P2-04: the chunk''s Formation Ecology Connection, verbatim (the S2.4 parking, converted at
-    S2.5): This is Strand A''s own earliest attested data point (Doc_02 §1) — a generation before Damasus,
-    this world''s own primacy claim already existed in practice, not merely as a later invention read
-    backward onto an earlier period. It directly grounds Doc_04''s Candidate 1 (Juridical Primacy-Claiming)
-    and shows the claim''s own characteristic form from its first attested instance: not a request, but
-    an assumption that Rome''s own judgment is a standing later judgments must reckon with.'
+    S2.5): This is the earliest attested instance of Rome''s primacy claim in practice - a generation
+      before Damasus, and so not a later invention read backward onto an earlier period. It
+      grounds the juridical primacy-claiming commitment, and it shows that claim''s
+      characteristic form from its first appearance: not a request, but an assumption that
+      Rome''s judgment is a standing which later judgments must reckon with.'
 retrieval:
   tier: 1
   retrieve_when:

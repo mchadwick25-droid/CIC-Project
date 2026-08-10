@@ -23,6 +23,34 @@ jobs:
           node-version: "20"
       - run: node Ministry/Features/Atlas-World-Map/Design/tools/validate-census.mjs cic-website/data/world-census.json
 
+  repository-views-current:
+    # Added 2026-08-09. The repository/sources views are GENERATED
+    # (wrs/views/repository.py) and had drifted five days behind their own
+    # records without anything noticing - the builder had a --check mode from
+    # the start and nothing ever ran it. A generated view nobody verifies is
+    # a stale view; this is the cheapest possible guard (bare python + pyyaml,
+    # no models, no secrets, no network).
+    name: Repository views current (all six worlds)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cic-poc/backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # textstat is NOT optional here despite this job touching no models:
+      # a term record's Level 2 face runs through plain_explanation, which
+      # readability-checks its own output (wrs/gates/core.readability_check).
+      # The first version of this job installed pyyaml alone and failed on
+      # the runner - my local "bare interpreter" check had textstat already
+      # installed from earlier in the same session, so the dependency was
+      # invisible to me and visible to CI. That is the job earning its place
+      # on its first run.
+      - run: pip install pyyaml textstat
+      - run: python wrs/views/repository.py --check
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest

@@ -11,7 +11,7 @@ Do-Not-Retrieve-When: The World Capsule Core has already addressed this in the c
 
 ## Quick Meaning
 
-Consecrated, lifelong sexual continence, held in this world as the highest form of Christian formation available to a woman.
+A lifelong vow not to marry. This world held it as the highest path open to a woman.
 
 ---
 

@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Juridical Primacy-Claiming (G01)
 classification: Primary
+capsule_line: 'How a claim to bind is made, and made to last. It is why Damasus cut Rome''s claim into stone over the martyrs'' graves instead of leaving it a matter between clerics, and why Leo writes the way he does.'
 six_tests:
   repetition:
     verdict: Passes strongly. Recurs across every decade of this world's own window with an unbroken evidentiary

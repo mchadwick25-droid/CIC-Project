@@ -18,9 +18,9 @@ aliases:
 - created in God's image
 - image of the Logos
 - the divine image in the human person
-quick_meaning: For this world the Image of God is the indelible mark in every human being that makes formation
-  possible — not a quality earned or lost but the very ground of the soul's capacity for God, damaged
-  by sin yet never destroyed, which the whole formation ecology exists to restore and fulfill.
+quick_meaning: 'The mark in every human being that makes formation possible. Not something earned, and not something
+  lost. It is the ground of the soul''s capacity for God - damaged by sin, never destroyed. The whole of
+  our formation exists to restore and fulfil it.'
 world_meaning: 'Everything we say about the human person — the soul''s structure, the nous''s reach, the
   freedom to turn, the possibility of being transformed — rests on one conviction: we are made in the
   image of God. This is not a graceful way of saying that we are impressive among the animals, or that
@@ -128,17 +128,17 @@ confidence:
 field_relations:
 - type: presupposed-by
   target_id: alexlex012
-  note: 'The likeness is the image''s goal - given mark, grown resemblance (alexlex012 WM: the two Genesis
-    words held distinct). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The Image of God
-    is the foundational anthropological claim the whole cluster presupposes: without it the anthropology
-    has no ground. It is what makes formation intelligible (the image is damaged but present, so it can
-    be restored rather than created from scratch); it is why the soul is the subject of formation (the
-    soul is the image-bearer); it is why the nous is the soul''s highest faculty (the nous is where the
-    image of the Logos is most legible, most wounded, and most directly restored); and it is what the
-    likeness is the fulfillment of. It also carries the anthropological dimension of the Logos-Centered
-    Unity (Doc_04): the ecology coheres around the Logos because human nature is itself Logos-shaped —
-    every genuine human capacity for truth, love, and communion is a reflection of the Word. Grasp the
-    image and one grasps why this world treats the human being as made-for-God rather than merely dignified.'
+  note: 'The likeness is the image''s goal - given mark, grown resemblance (alexlex012 WM: the two Genesis words
+    held distinct). Chunk Ecological Function (verbatim, absorbed per FLAG-002): The Image of God is the
+    foundational claim about human beings that the whole cluster presupposes; without it the anthropology has
+    no ground. It is what makes formation intelligible - the image is damaged but present, so it can be
+    restored rather than created from scratch. It is why the soul is the subject of formation, the soul being
+    the image-bearer. It is why the nous is the soul''s highest faculty, the place where the image of the
+    Logos is most legible, most wounded, and most directly restored. And it is what the likeness is the
+    fulfilment of. It also carries the human dimension of the Logos-centred unity: the ecology coheres around
+    the Logos because human nature is itself Logos-shaped, and every genuine human capacity for truth, love,
+    and communion reflects the Word. Grasp the image and one grasps why this world treats the human being as
+    made-for-God rather than merely dignified.'
 - type: presupposed-by
   target_id: alexlex010
   note: 'The soul is the image-bearer - its whole anthropology stands on the image (alexlex010 QM; chunk

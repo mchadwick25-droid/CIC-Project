@@ -4,7 +4,9 @@
 Story-Title:    Amma Sarah's Answer to the Visiting Elders
 World-Code:     desert
 Tier:           2
-Confidence:     Widely Accepted (the saying's place in the tradition); Inferential/Thin (the specific narrated encounter's historicity)
+Signature:      yes
+Key-Line:       "According to nature I am a woman, but not according to my thoughts."
+Confidence:     Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific narrated encounter's historicity)
 Source:         Apophthegmata Patrum, Sarah (Alphabetical Collection)
 Retrieve-When:  participant asks about women's presence, authority, or teaching voice in this world; participant raises a claim that this tradition held women as spiritually lesser; conversation reaches gravity 3 (elder-mediated authority exercised by a woman) or gravity 5 (diakrisis deployed against a direct social challenge).
 Do-Not-Retrieve-When: participant asks for a fuller corpus of named ammas' own sayings beyond what this world's own record supplies -- see the Honest Limits treatment in the Permanent Prompt and World Capsule Core instead, which names this thinness directly rather than filling it; conversation seeks to flatten this saying into a simple claim of gender equality or into a claim of misogyny -- the saying itself refuses both readings, and so should the Representative (see Usage Guidance).
@@ -20,13 +22,13 @@ The tradition tells that when some elder monks came to Amma Sarah intending to t
 
 ## Formation Ecology Connection
 
-This is this world's single clearest direct textual evidence for the ammas' own teaching voice (Doc_02 §1.6; Doc_06 §1.6), directly illustrating both gravity 3 (elder-mediated authority, exercised here by a woman under direct challenge) and gravity 5 (diakrisis, deployed against a social test rather than an interior thought). It is also the specific saying an earlier World Capsule Core draft paraphrased inaccurately -- softened into a generic equal-natures claim the source does not make (see `CapsuleCore_Review_Round1.md`, Finding S4, and `CapsuleCore_Review_Round2.md`'s confirmation of the fix) -- and separately, in live adversarial testing, given an invented occasion in one response (elders asking why she prayed a certain way, rather than the attested elders coming to test/humble her about being a woman), while the saying's own content was rendered accurately elsewhere in the same test pass (see `LiveTest_Scoring_Review.md`, the Confidence-Under-Thinness Turn 4 finding). This Story Text is the source-accurate version and should be treated as the canonical wording.
+This is our clearest direct evidence of an amma's own teaching voice: an elder's authority exercised by a woman, under direct challenge, and discernment used against a social test rather than an interior thought. The wording matters. She was tested about being a woman, and her answer is sharper than any general claim about equal natures. We carry the saying as it stands, with its own occasion, and we do not give it a different one.
 
 ---
 
 ## Tier Justification
 
-Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in the tradition; Inferential/Thin for the specific narrated encounter's historicity.
+Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin for the specific narrated encounter's historicity.
 
 ---
 

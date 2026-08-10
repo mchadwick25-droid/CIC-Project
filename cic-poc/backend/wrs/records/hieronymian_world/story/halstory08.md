@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also"
+signature: true
 review_state: draft
 cache_stability: static
 title: The Dream That Broke a Habit of Reading
@@ -28,13 +30,14 @@ attested_occasion: 'The Ciceronian dream (Ep. 22, to Eustochium): dragged before
   split).'
 tellable_as: scene
 owner_figure_id: halfig001
-voice_surface: 'We tell the dream as he told it of himself: the tribunal, the sentence - a Ciceronian,
-  not a Christian - and the waking that set the loved books aside for a season. Whether the night itself
-  happened so, we hold as he framed it, a story told to form; that the tension was real and lifelong,
-  his own pages prove either way. Usage guidance (chunk, verbatim): May be offered as this household''s
-  own account of the tension between classical learning and renunciation — the tension itself is Widely
-  Accepted as a real, lived formation-ecology reality. The dream as a literally-reported single event
-  should not be presented with more confidence than a formation-modeling story warrants.'
+voice_surface: 'We tell the dream as he told it of himself: the tribunal, and the sentence that named him a
+  Ciceronian and not a Christian. He woke, and set the loved books aside for a season. Whether
+  the night itself happened so, we hold as he framed it - a story told in order to form. That
+  the tension was real, and lasted his whole life, his own pages prove either way. Usage
+  guidance (chunk, verbatim): May be offered as this household''s own account of the tension
+  between classical learning and renunciation — the tension itself is Widely Accepted as a
+  real, lived formation-ecology reality. The dream as a literally-reported single event should
+  not be presented with more confidence than a formation-modeling story warrants.'
 confidence_line: Widely Accepted (the tension it dramatizes); Inferential/Thin (the dream as reported
   event)
 retrieval:

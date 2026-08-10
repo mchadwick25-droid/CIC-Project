@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a modern diaconate structure w
 
 ## Quick Meaning
 
-The *diakonoi* are those set apart to serve — carrying help to the widow, the prisoner, the stranger who cannot repay.
+Those set apart to serve. They carry help to the widow, the prisoner, and the stranger who cannot repay.
 
 ---
 

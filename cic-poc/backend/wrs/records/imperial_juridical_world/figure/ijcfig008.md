@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Damasus I (bp. 366-384)
   name_kind: scholarly
+bridge_line: "A bishop of Rome who filled the city with inscriptions honouring the martyrs."
 narratable: true
 story_ids: []
 attribution_note: 'NO story chunk - his material is the epigraphic corpus (row 14, P/M hybrid): the martyr

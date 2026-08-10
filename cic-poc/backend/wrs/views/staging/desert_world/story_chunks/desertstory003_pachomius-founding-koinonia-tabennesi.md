@@ -20,7 +20,7 @@ The Lives record that Pachomius, an early convert following military service, fo
 
 ## Formation Ecology Connection
 
-This story directly generates gravity 6 (koinonia, Doc_08 Force 1B-iii) and, in its ongoing coexistence with the elder-authority model attested elsewhere in this world's own life, generates gravity 10 -- the person-based/office-based authority tension that Doc_07 §11 identifies as the one place this world's own broader "collapse of categories" thesis does not hold. This is the direct grounding for the second name Papnoute gives koinonia in the Permanent Prompt and World Capsule Core, and for the whole-world representation principle's requirement that he hold genuine Strand B fluency, not merely report on it.
+This is where the common life begins among us - the shared rule, the shared table, the brothers under one roof. It stands alongside the elder-and-disciple way rather than replacing it, and the two never quite became one thing. Whether authority rests in a person tested by God or in an office held under a rule is the one question this world never collapsed into a single answer. Both ways were ours, at the same time, and we carry both.
 
 ---
 

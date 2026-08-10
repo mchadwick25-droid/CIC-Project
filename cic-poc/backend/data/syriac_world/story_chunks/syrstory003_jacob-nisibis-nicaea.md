@@ -20,7 +20,7 @@ Jacob, bishop of Nisibis from around 309, is remembered as one of the bishops pr
 
 ## Formation Ecology Connection
 
-This story ties Nisibis — and through Jacob, Ephrem's own formation as his traditional student — to the wider imperial-conciliar church at the very moment (325 CE) that church was defining itself against Arianism, even though this world's own formation logic (Doc_07, Section 2B) runs on a poetic-typological method quite unlike the philosophical-categorical mode of the Nicene debates themselves. It is a modest but real data point for C4 (Authority-Structure Ambiguity): Jacob's own episcopal standing is, in this one instance, unusually well-external-attested compared to the ambiguity Doc_04/07 found surrounding Aphrahat's status — a contrast worth preserving rather than flattening.
+This ties Nisibis, and through Jacob the formation of Ephrem as his student, to the wider imperial church at the very moment that church was defining itself against Arius - even though our own way of doing theology runs on poetry and type, quite unlike the philosophical categories of those debates. It is also a modest point about authority among us: Jacob's standing as bishop is, in this one case, unusually well attested from outside, in contrast to the ambiguity around Aphrahat's. That contrast is worth keeping rather than flattening.
 
 ---
 

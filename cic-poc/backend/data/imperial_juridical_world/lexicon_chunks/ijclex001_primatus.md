@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the participant's question is actually about Constantinopl
 
 ## Quick Meaning
 
-For us, *primatus* names the standing Rome holds because Peter himself held it first here — not an honor Rome asks for, but an inheritance Rome guards and, where it must, defends.
+The standing Rome holds because Peter held it here first. It is not an honour Rome asks for. It is an inheritance Rome guards, and defends when it must.
 
 ---
 

@@ -13,6 +13,7 @@ sources:
 id: desertgrav010
 name: Person-based (elder) vs. office-based (Rule) authority
 classification: Tensional
+capsule_line: 'The elder against the rule. Authority in a person tested by God, or in an office held under a written order. We never settled which was truer, and we do not pretend we did.'
 six_tests:
   repetition:
     verdict: Recurs specifically at the Strand A/C-B boundary

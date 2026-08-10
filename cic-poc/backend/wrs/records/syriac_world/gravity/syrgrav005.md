@@ -14,6 +14,8 @@ sources:
 id: syrgrav005
 name: The Diatessaron as Normative Harmonized Gospel (C5)
 classification: Supporting
+capsule_name: 'One harmonised Gospel'
+capsule_line: 'One harmonised Gospel, read as a single continuous story. A different experience of the Gospel than four separate books make.'
 six_tests:
   repetition:
     verdict: PASS - attested in both Aphrahat and Ephrem, independently (Doc_04 C5).

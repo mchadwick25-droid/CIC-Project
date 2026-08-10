@@ -20,7 +20,7 @@ Both are reconstructions of what it would have meant to live inside each of this
 
 ## Formation Ecology Connection
 
-This is the most fully composite story in this repository, built specifically to hold Strand A and Strand B side by side rather than resolve them into one picture. It connects to G01 (Authority Consolidation, Supporting), G07 (Liturgical Practice, Primary), and G02 (Translocal Correspondence Network, Primary) simultaneously, since both strands' own correspondence (Ignatius's letters; 1 Clement; Hermas) is what makes each side of this comparison possible at all. This is Doc_05's own inhabited-voice reconstruction (§1.1, §5.1, §6.1, §6.3), built under the Writing-From-Inside Principle (Constitution Article 23), carried here into Tier 4 register.
+This is the most composite thing we hold, built to keep the two patterns side by side rather than resolve them into one picture. It touches who leads, what happens at the table, and the letters between communities all at once - because it is the correspondence of both kinds of community that makes the comparison possible at all. It is a reconstruction, and it says so.
 
 ## Tier Justification
 

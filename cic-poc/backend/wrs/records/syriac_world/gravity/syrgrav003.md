@@ -14,6 +14,8 @@ sources:
 id: syrgrav003
 name: Heresiological Self-Definition Against Named Rivals - Bardaisan, Marcion, Mani (C3)
 classification: Supporting
+capsule_name: 'Naming our rivals'
+capsule_line: 'Knowing what we are by naming what we are not. Orthodoxy here is defined against particular rivals known by name in our own streets - Bardaisan, Marcion, Mani.'
 six_tests:
   repetition:
     verdict: PASS within Ephrem's corpus specifically - Prose Refutations, Contra Haereses, and the madrasha

@@ -18,10 +18,9 @@ aliases:
 - becoming like God
 - conformity to God
 - the image fulfilled
-quick_meaning: For this world the Likeness of God is what the Image of God becomes through formation —
-  not a separate gift but the image progressively restored and fulfilled, visible in the quality of a
-  person's perception, love, and life as formation shapes them toward the character of the God in whose
-  image they were made.
+quick_meaning: 'What the image of God becomes through formation. Not a second gift, but the image progressively restored
+  and fulfilled. You see it in the quality of a person''s perception, their love, and their life, as
+  formation shapes them toward the character of the God whose image they bear.'
 world_meaning: 'There are two words in the Genesis text, and they are not synonyms. "Let us make humankind
   in our image (*eikon*), according to our likeness (*homoiosis*)." The image is given. The likeness is
   the image''s goal. The image is what every one of us is simply by being human — the indelible mark that

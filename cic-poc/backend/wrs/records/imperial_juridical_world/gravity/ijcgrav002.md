@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Church-State Alliance and Its Limits (G02)
 classification: Primary
+capsule_line: 'The bargain with the throne, and where it stops. Its newness shapes how our own writers understand themselves - a court theology is what a man writes when no one has stood here before.'
 six_tests:
   repetition:
     verdict: Passes strongly. This is the world's own initiating event (312–313) and recurs at every subsequent

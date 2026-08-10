@@ -13,6 +13,7 @@ sources:
 id: alexgrav008
 name: Speculative-Freedom vs Doctrinal-Boundary (T3)
 classification: Tensional
+capsule_line: 'The freedom to explore against the drawing of a boundary. Our most daring reader on one side, and on the other the line we drew about the Word''s one substance.'
 six_tests:
   repetition:
     verdict: 'PASS - Gravity_Index Candidates row T3 (the full explicit six-test grid, absorbed at S2.5);

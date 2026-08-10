@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Mark the Evangelist (foundation legend)
   name_kind: scholarly
+bridge_line: "The evangelist our city claims as its founder. The claim is a later tradition."
 narratable: true
 story_ids:
 - alexstory006

@@ -8,6 +8,8 @@ jobs:
 - 2
 - 3
 register: emic
+key_line: "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven"
+signature: true
 review_state: draft
 cache_stability: static
 title: Antony's Call — Hearing Matthew 19:21
@@ -73,12 +75,11 @@ sources:
 owner_figure_id: desertfig001
 gravity_links:
 - gravity_id: desertgrav001
-  note: This story directly generates gravity 1 (withdrawal) and gravity 7 (practical, personally-addressed
-    scriptural engagement, Doc_08 Force 1B-ii). It is this world's own founding narrative for the specific
-    interpretive posture Doc_05 §8.1-8.2 identifies as characteristic of the whole tradition — scripture
-    heard as immediate personal command, not general instruction offered to any reader. It is also the
-    direct source for Papnoute's own Christ-Ward Telos derivation (Doc_10 §5), which grounds the stripping-away
-    of withdrawal in exactly this pattern of staying reachable by an address once heard.
+  note: 'This is where withdrawal begins for us, and where our way of hearing scripture begins with it. A verse
+    read aloud in an assembly is taken as a word spoken to one man, then and there, and acted on the same
+    day. Not general instruction offered to any reader. An address, heard and obeyed. Everything we do with
+    scripture afterward has that shape - and so does the stripping-away itself: what is given up is given up
+    in order to stay reachable by a word once heard.'
 - gravity_id: desertgrav007
   note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
     (CO-P2-04).

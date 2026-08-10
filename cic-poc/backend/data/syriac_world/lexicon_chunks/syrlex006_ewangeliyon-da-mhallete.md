@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant asks specifically about the Peshitta (a distin
 
 ## Quick Meaning
 
-Throughout this world's core period, "the Gospel" meant a single continuous harmonized narrative — Tatian's Diatessaron — not four separate books held in tension; Aphrahat quotes it and Ephrem wrote a full commentary on it, though the specific vernacular name for this text is itself an unsettled matter within this world's own evidentiary record.
+Through our core years, the Gospel meant one continuous harmonised story - Tatian's weaving - and not four separate books held side by side. Aphrahat quotes it and Ephrem wrote a full commentary on it. What our own tongues called that book is itself unsettled.
 
 ---
 
@@ -28,7 +28,7 @@ The specific vernacular name "Ewangeliyon da-Mhallete," distinguishing this harm
 
 ## Ecological Function
 
-This term anchors this world's Supporting gravity C5 (Diatessaron as Normative Harmonized Gospel, per Doc_04) and connects directly to the raza/shrara theological method (C1) — Ephrem's decision to write a full commentary on the harmonized text signals how central this single-narrative experience of the Gospel was to his own typological reading practice.
+This anchors the harmonised Gospel as the normative form among us, and connects directly to the reading of symbol into truth: Ephrem's choice to write a full commentary on the harmonised text shows how central that single-narrative experience of the Gospel was to his own typological reading.
 
 ---
 
@@ -57,3 +57,5 @@ Cross-referenced with raza/shrara (Ephrem's Commentary applies the typological m
 ## CT Contest Type
 
 **Meaning / historical scope.** The specific vernacular name's earliest secure attestation is contested in the scholarship. Theodoret of Cyrrhus (bishop 423–457) describes confiscating "more than two hundred such books" in the 420s–430s, but his account is in Greek and never actually uses the Syriac phrase "da-Mhallete" — it attests the Diatessaron's suppression, not the vernacular name specifically. Per Matthew Crawford's peer-reviewed work, the name's earliest secure Syriac witness may instead be an anonymous gloss in the Syriac translation of Eusebius's *Ecclesiastical History*, roughly contemporary with, not clearly later than, Theodoret's account. The honest position is that this name's dating is unresolved, not settled to a specific point either before or after this world's own 410 boundary.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `named-not-rechecked`: all 2 linked source(s) show discovery_channel=builder-prior-knowledge (named from the builder's own prior knowledge, not independently investigated this session).

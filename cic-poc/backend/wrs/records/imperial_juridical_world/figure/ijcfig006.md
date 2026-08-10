@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Julius I (bp. 337-352)
   name_kind: scholarly
+bridge_line: "A bishop of Rome. His letter of 341 is our earliest claim of Rome's standing."
 narratable: true
 story_ids:
 - ijcstory005

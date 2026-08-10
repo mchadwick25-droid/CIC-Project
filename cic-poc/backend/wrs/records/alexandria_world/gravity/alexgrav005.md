@@ -13,6 +13,7 @@ sources:
 id: alexgrav005
 name: Learning-Formation Integration (C5)
 classification: Supporting
+capsule_line: 'To know truly is to be changed. This belongs to the school''s own years, and it thins toward the end of them.'
 six_tests:
   repetition:
     verdict: PASS with caveats on temporal distribution (Doc_04 SS3.5).

@@ -1,0 +1,369 @@
+{
+  "world_id": "hieronymian-ascetic-literary",
+  "candidate": true,
+  "turn_analyses": [
+    {
+      "sentences": 9,
+      "words": 152,
+      "words_per_sentence": 16.9,
+      "paragraphs": 4,
+      "fk_grade": 6.15,
+      "fre": 80.45,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "It meant something different at the start than at the end, and we have never smoothed that over.",
+      "turn": 1
+    },
+    {
+      "sentences": 8,
+      "words": 142,
+      "words_per_sentence": 17.8,
+      "paragraphs": 3,
+      "fk_grade": 7.23,
+      "fre": 74.17,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "A day of prayer and a day spent on one Hebrew word were the same discipline to us, worked from opposite ends.",
+      "turn": 2
+    },
+    {
+      "sentences": 4,
+      "words": 114,
+      "words_per_sentence": 28.5,
+      "paragraphs": 3,
+      "fk_grade": 11.93,
+      "fre": 59.87,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "We held the two labors as one thing, because a mistranslated word is a wrong foundation for prayer, and correcting it was devotion worked at the desk instead of on the knees.",
+      "turn": 3
+    },
+    {
+      "sentences": 7,
+      "words": 106,
+      "words_per_sentence": 15.1,
+      "paragraphs": 2,
+      "fk_grade": 7.68,
+      "fre": 66.48,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "Rufinus once labored beside our scholar over the same Greek texts - that was the friendship.",
+      "turn": 4
+    },
+    {
+      "sentences": 6,
+      "words": 101,
+      "words_per_sentence": 16.8,
+      "paragraphs": 1,
+      "fk_grade": 6.72,
+      "fre": 76.55,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "Paula, above all others.",
+      "turn": 5
+    },
+    {
+      "sentences": 8,
+      "words": 132,
+      "words_per_sentence": 16.5,
+      "paragraphs": 2,
+      "fk_grade": 8.18,
+      "fre": 65.39,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "The surface makes it sound like patronage bought a dedication - a receipt.",
+      "turn": 6
+    },
+    {
+      "sentences": 11,
+      "words": 137,
+      "words_per_sentence": 12.5,
+      "paragraphs": 4,
+      "fk_grade": 2.88,
+      "fre": 96.63,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "We would tell her: you have brought too much with you.",
+      "turn": 7
+    },
+    {
+      "sentences": 7,
+      "words": 91,
+      "words_per_sentence": 13.0,
+      "paragraphs": 3,
+      "fk_grade": 4.75,
+      "fre": 83.66,
+      "reclarify_opener_patterns": [],
+      "first_technical_term": null,
+      "technical_term_in_first_sentence": false,
+      "first_sentence": "Not a sentence.",
+      "turn": 8
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "What did it mean for a woman of your standing to give up everything she had?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "It meant something different at the start than at the end, and we have never smoothed that over.\n\nAt the start it meant a name still opened doors - Paula's giving was watched and argued over in Rome because everyone knew what she had been. Marcella never left Rome at all; she kept her house and was watched daily by people who remembered her before.\n\nAt the end, her epitaph tells us Paula gave until the household could not say where the wealth had gone - and still raised a monastery, a convent, a house of welcome, from that same emptied purse. We do not choose between total poverty and the capacity still to build. The record holds both.\n\nWhat it cost her in the moment, in her own words - we do not have. The epitaph shows what a formed life looks like. It is not a transcript of the giving.",
+      "citations": [
+        {
+          "type": "story",
+          "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+          "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+          "source_file": "hal_story06_paulas-epitaph.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "How did your household actually spend its days - what did the work look like?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "A day of prayer and a day spent on one Hebrew word were the same discipline to us, worked from opposite ends.\n\nThe pattern: common prayer held the day together. Around it ran the household's ordinary work - bread, sickness, guests coming and going with letters. And beside that, the scholarly labor - a Hebrew teacher paid though he did not share our faith, a word in the Greek weighed against the Hebrew, a translation set down and later defended.\n\nWe cannot give you the hours themselves - which psalm, in what order against the study. No record of ours kept that, and we will not invent one. What we hold is only this: no one among us called the fasting the discipline and the scholarship its reward. It was one labor, worked by hand and by mind in the same day.",
+      "citations": [
+        {
+          "type": "story",
+          "term": "A Day at the Double Monastery",
+          "key_sources": "Composite \u2014 see Source Identification below",
+          "source_file": "hal_story10_a-day-at-the-monastery.md"
+        },
+        {
+          "type": "story",
+          "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+          "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+          "source_file": "hal_story06_paulas-epitaph.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "Why would studying old texts closely matter as much as prayer, in your world?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "We held the two labors as one thing, because a mistranslated word is a wrong foundation for prayer, and correcting it was devotion worked at the desk instead of on the knees.\n\nThat is why a woman giving away her fortune and a scholar weighing one Hebrew word against its Greek cousin were doing the same discipline: setting down the easy thing for the true one.\n\nNot all of us agreed the Hebrew should govern over the Greek the church had prayed for centuries - some held a word sanctified by long use should not be unsettled by a scholar's correction. That argument never fully closed among us, even as the work went on.",
+      "citations": [
+        {
+          "type": "lexicon",
+          "term": "Exegesis (as practiced authority)",
+          "key_sources": "Ep. 127 (Marcella, to Principia) \u2014 the **sole** source. Author Gravity note: single-source, Contested, authored by Jerome after the subject's death for his own partly self-vindicating purposes. This is the single most Author-Gravity-constrained entry in this lexicon.",
+          "source_file": "hal_lex11_exegesis-practiced-authority.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "What happened when your household disagreed sharply with people you'd once been close to?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "Rufinus once labored beside our scholar over the same Greek texts - that was the friendship. The dispute was over Origen's teachings: souls before this life, what the resurrected body is. We had absorbed those without quite noticing, in our own early formation. When the church turned against them, we had to renounce urgently and in public. Rufinus would not turn as fully or as fast, and our harshest writing after that was aimed at him - naming, in the process, two of our own patrons, Pammachius and Marcella.\n\nWe do not decide whether the doctrine or the friendship weighed more. Our record holds both, unresolved.",
+      "citations": [
+        {
+          "type": "lexicon",
+          "term": "Origenism (the Origenist controversy)",
+          "key_sources": "Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401\u2013403). Author Gravity note: both sides are adversarial; neither account of the dispute's substance is privileged over the other.",
+          "source_file": "hal_lex08_origenism.md"
+        },
+        {
+          "type": "story",
+          "term": "The Rupture with Rufinus",
+          "key_sources": "Rufinus, Apologia contra Hieronymum (401); Jerome, Apologia adversus Rufinum (401-403), addressed to Pammachius and Marcella",
+          "source_file": "hal_story03a_origenist-rupture.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "Is there someone in your household whose life shows what all of this looked like when it was lived out fully?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "Paula, above all others. Roman nobility, wealth beyond most households, given away until her own family could not say where it had gone - and from that same emptied purse, a monastery, a convent, a house of welcome for travelers still rose at Bethlehem. We do not choose between those two facts. The epitaph that holds them, the scholar's own, was written to mourn her and to teach through her, so it shows a formed life rather than a logged one. That is not falsehood. It is a portrait, made by someone who loved her, and we carry it as that.",
+      "citations": [
+        {
+          "type": "story",
+          "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+          "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+          "source_file": "hal_story06_paulas-epitaph.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "What would people today get most wrong about women like you if they only knew the surface of it?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "The surface makes it sound like patronage bought a dedication - a receipt. It did not. Marcella's own house was where clergy brought hard questions, because her judgment was trusted, not because her purse was open; Paula's epitaph sets her Hebrew beside her fasting, one discipline, not two.\n\nWhat we are less comfortable admitting: that trust never became office. No one ordained Marcella. The scholar dedicated commentaries to her and to Paula by name, but never, so far as our record shows, wrote as to an equal in Hebrew rather than a patron who had asked well. Both are true in our own record - real authority sought out, and a standing that never quite settled. We have not decided which is the truer measure, and we will not pretend we have.",
+      "citations": null,
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "Say that to me plain, the way you'd tell it to a girl who just arrived at your door."
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "We would tell her: you have brought too much with you.\n\nNot the chest of clothes \u2014 that we could ask her to leave at the door easily enough. What we mean is the assumption that giving things up comes before the real work. It does not. The setting-down is the discipline, not the doorway to it.\n\nAnd we would tell her one thing more, which she will not want to hear yet: none of it is for her name. Not the giving, not the fasting, not the Hebrew word she will one day learn to weigh. We did not do this to be thought generous or learned. She may not understand why that matters until the days grow long \u2014 but it is why they hold up when they do.\n\nThat much, at the door. The rest waits.",
+      "citations": [
+        {
+          "type": "story",
+          "term": "A Day at the Double Monastery",
+          "key_sources": "Composite \u2014 see Source Identification below",
+          "source_file": "hal_story10_a-day-at-the-monastery.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "user",
+      "content": "What would you want me to carry away from this conversation?"
+    },
+    {
+      "role": "assistant",
+      "name": "albina",
+      "content": "Not a sentence. We would not want one carried out of here to stand alone - we have seen what happens when our own words travel without the reasons that made them true.\n\nThe nearer thing: giving wealth away and weighing a Hebrew word were one labor to us, never two, ranked one above the other. Carry that unranking.\n\nAnd carry the thinness. Our own record runs out in real places - what Paula thought in her last week, no one wrote. We will not paint what we were not given.",
+      "citations": [
+        {
+          "type": "lexicon",
+          "term": "Renuntiatio",
+          "key_sources": "Ep. 108 (Paula), Ep. 22 (Eustochium), Ep. 77 (Fabiola). Author Gravity note: all three sources are Jerome's own idealizing epitaph/exhortation genre; whether the practice's totality reflects genuine complete self-impoverishment or rhetorical amplification is Contested.",
+          "source_file": "hal_lex03_renuntiatio.md"
+        },
+        {
+          "type": "story",
+          "term": "What a Formed Life Looked Like (Paula's Epitaph)",
+          "key_sources": "Jerome, Epistula 108 (Epitaphium Sanctae Paulae)",
+          "source_file": "hal_story06_paulas-epitaph.md"
+        }
+      ],
+      "glosses_used": null
+    },
+    {
+      "role": "assistant",
+      "name": "facilitator",
+      "content": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?",
+      "citations": null,
+      "glosses_used": null
+    }
+  ],
+  "errors": [],
+  "over_settling": {
+    "total_signal_calls": 7,
+    "screened": 6,
+    "confirmed": 1,
+    "confirmed_rate_of_screened": 0.167
+  },
+  "length_ceiling": {
+    "total_ceilinged_turns": 8,
+    "by_outcome": {
+      "retried": 8
+    }
+  },
+  "length_ceiling_records": [
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "270",
+      "outcome": "retried",
+      "retry_words": "152",
+      "request_id": "a3b73e53",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "241",
+      "outcome": "retried",
+      "retry_words": "142",
+      "request_id": "37ebd0b5",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "250",
+      "outcome": "retried",
+      "retry_words": "114",
+      "request_id": "b7e65e1e",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "220",
+      "outcome": "retried",
+      "retry_words": "106",
+      "request_id": "93d1cab3",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "246",
+      "outcome": "retried",
+      "retry_words": "101",
+      "request_id": "2a66a330",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "218",
+      "outcome": "retried",
+      "retry_words": "132",
+      "request_id": "c6586b0c",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "254",
+      "outcome": "retried",
+      "retry_words": "139",
+      "request_id": "bf89a530",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    },
+    {
+      "world_id": "hieronymian-ascetic-literary",
+      "ceiling": "160",
+      "trigger_multiple": "1.2",
+      "first_draft_words": "208",
+      "outcome": "retried",
+      "retry_words": "91",
+      "request_id": "3bc8b343",
+      "session_id": "ce358d23-b37a-4dc3-afee-1add4545808b"
+    }
+  ]
+}

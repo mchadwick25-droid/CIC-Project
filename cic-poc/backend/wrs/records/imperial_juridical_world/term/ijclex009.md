@@ -16,8 +16,7 @@ aliases:
 - Tome
 - Leo's Tome
 - the Tome to Flavian
-quick_meaning: A Tome is a doctrinal letter carrying the full weight of the see that issues it — ours
-  went ahead of us to Chalcedon and was received there as though we ourselves had spoken.
+quick_meaning: 'A doctrinal letter carrying the full weight of the see that sends it. Ours went ahead of us to Chalcedon. It was received there as though we had spoken in the room.'
 world_meaning: 'We do not always need to gather a council to settle what must be settled. When the question
   of Christ''s own two natures had to be answered clearly, our own see set it down in a single letter
   — not a private opinion offered for the bishops to weigh, but a statement carrying this see''s own standing

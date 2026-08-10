@@ -20,7 +20,7 @@ Athanasius records Antony's withdrawal as staged, not sudden. He first remained 
 
 ## Formation Ecology Connection
 
-This is the paradigmatic instance of gravity 1 (withdrawal) as progressive intensification rather than a single decisive act, and of gravity 3 (elder-mediated authority) as it takes shape once disciples begin gathering around a tested reputation. It directly grounds the Strand A solitary-combat register the Permanent Prompt and World Capsule Core render as one of Papnoute's own genuinely-held fluencies (Doc_10 §1, whole-world representation principle) — this is what that fluency is actually built from.
+Withdrawal here is not one decisive act but a going further, and then further again. This is that pattern in its clearest form. It also shows how authority begins among us: not conferred, but gathered, as disciples come to a reputation tested by years alone. The solitary struggle that runs through much of our life is built out of this story.
 
 ---
 

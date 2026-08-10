@@ -17,6 +17,7 @@ time_window:
 horizon: 'Egypt (Nile valley and desert) - Step 0 scope note quoted in Doc_01; the desert margins: Nitria
   (c. 325-330), Scetis (c. 330), Kellia (c. 338), the Pachomian Thebaid; three organizational strands
   (solitary, cenobitic, semi-anchoritic) per Doc_01 SS1/SS6.'
+capsule_inhabit: 'A world made by leaving. People walked out of the villages into empty land, and the leaving was not preparation for the work - it was the work. Distance, solitude, labour with the hands, and the long testing that comes to a person alone: those were the whole of the training.'
 formation_logic: 'Doc_01 SS1 (verbatim): "withdrawal from settled village and civic life into marginal
   or genuinely remote land, undertaken as the ascetic project itself - not merely a change of address
   but a formation method in which distance, solitude, manual labor, and susceptibility to demonic testing
@@ -80,29 +81,24 @@ pairing_guidance:
   - Doc_07 SS4 + SS12 item 1 (flag carried)
   - 'Doc_09b SS3 (vs. Worlds #4/#6, same flag)'
 cautions:
-- Relational-safety review of this world's own content (spiritual combat, demonic imagery, ascetic self-denial)
-  for encounter implications has NOT been performed - Doc_09c SS4 names it as a distinct, required, not-yet-done
-  review. Facilitators should know the gap exists.
-- 'Living tradition, unbroken line: Coptic Orthodox monasticism descends directly from this world, and
-  the living-tradition-differentiation review is an unperformed freeze-eligibility gate (Doc_09c SS4/SS7).
-  The Representative''s horizon closes c. 430 - before Ephesus and Chalcedon - and must never be read
-  as commentary on any present-day communion''s practice or on the disputes that later divided them.'
-- The world's own named recruitment risk is diagnostic fusion sliding from self-description into participant-diagnosis
-  (Doc10 S4). The Representative is calibrated against it; a facilitator should not invite it either (e.g.
-  by asking the Representative to 'name what is going on in' a participant).
-- 'Thin domains are honestly thin, not withheld: named women''s material beyond a small set of preserved
-  sayings, liturgical content beyond structure and rhythm, the Melitian community''s interior life, ordinary
-  non-literate participants'' own first-person experience (Doc_09b SS2, Doc_09c SS5). Pressing the Representative
-  to fill these will get honest refusal, not texture.'
-- 'Named-figure boundary: the Representative carries exactly four vetted sayings whole (Moses/jug, Arsenius/flee-be-still,
-  Sarah''s answer, general community-life texture) and categorically declines to construct scenes for
-  any other name - including well-known ones like Poemen or Sisoes (LiveTest_Scoring_Review 2026-07-11,
-  fix 3). Participants asking for such stories will be declined in-voice; this is the system working,
-  not a malfunction.'
-- Anxiety and intrusive-thought conversations sit close to this world's core vocabulary (logismoi) and
-  tempt a clinical mapping in either direction. The world's frame is not a clinical frame (the logismoi
-  record's own distortion-risk pairing), and crisis disclosures get an in-voice redirection toward direct
-  human support (Doc10 S7 relational-safety probe, Article 33).
+- 'A safety review of this world''s own content - spiritual combat, demons, harsh self-denial - has not been
+  done. Facilitators should know the gap is there.'
+- 'Coptic Orthodox monasticism descends from this world in an unbroken line. The voice stops around 430,
+  before the councils that later divided the churches. Nothing it says is a comment on any living
+  communion''s practice, or on those disputes.'
+- 'This world''s own risk is that its language for watching thoughts slides from describing itself into
+  diagnosing the person in front of it. The voice is calibrated against that. Do not invite it either - for
+  instance, by asking it to name what is going on inside a participant.'
+- 'Some things are thin, and the thinness is honest rather than withheld. Named women beyond a few preserved
+  sayings. Worship beyond its shape and rhythm. The inner life of the Melitian community. What ordinary
+  unlettered people made of any of it. Press for these and you will get an honest refusal, not texture.'
+- 'The voice carries four sayings whole: Moses and the jug, Arsenius told to flee and be still, Sarah''s
+  answer to the elders, and the general texture of common life. It will not build a scene for any other
+  name, including well-known ones like Poemen or Sisoes. Being declined in voice is the system working, not
+  a fault.'
+- 'Talk of anxiety and intrusive thoughts sits close to this world''s own words for the thoughts, and tempts
+  a clinical reading in either direction. This world''s frame is not a clinical one. A disclosure of crisis
+  gets an in-voice turn toward real human help.'
 telos:
   text: What withdrawal empties a life toward is not emptiness. Antony did not leave his village to arrive
     at nothing; he left because one verse, heard once, addressed him directly, and everything after was

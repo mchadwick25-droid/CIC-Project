@@ -13,6 +13,7 @@ sources:
 id: desertgrav001
 name: Withdrawal (anachoresis)
 classification: Primary
+capsule_line: 'Leaving the settled village for empty land. Not a change of address but the work itself, repeated every day a person stays out.'
 six_tests:
   repetition:
     verdict: Strong - every evidence stream (Doc_02 SS1.1-1.2, 1.5, 2.1-2.2, 5.1-5.2)

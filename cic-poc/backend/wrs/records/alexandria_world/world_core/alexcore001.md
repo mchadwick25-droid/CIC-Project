@@ -20,6 +20,7 @@ horizon: 'Alexandria and Egypt, the broad reading per OG-3 (confirmed by Mark, 2
   Christianity (Catechetical-Formation World)" - the catechetical-formation tradition is its anchor and
   namesake, not its boundary (Doc_01 SS1; folder label notwithstanding). Nicaea 325 internal, not a boundary
   (Doc_01 SS2.3a); monastic emergence held open vs the Desert cross-build boundary (Doc_01 SS2.3c, SS3.3).'
+capsule_inhabit: 'A world that reads. Here a person is formed by Scripture taken at depth, by worship, by teaching, and by philosophy welcomed as far as it can carry. That life runs on either side of the great settling about the Son. Most of what survives of us comes from those who read and wrote in Greek, so the ones we can see best are not the same as the ones there were most of.'
 formation_logic: 'Doc_01 SS2.3 (verbatim): "the catechetical-formation logic (transformation through Scripture
   read at depth, worship, teaching, and philosophical engagement)" - persisting across 325 CE; the record
   is heavily weighted toward the literate Greek-speaking stratum, and evidential visibility is not ecological

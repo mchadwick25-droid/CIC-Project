@@ -1,6 +1,8 @@
 Story-Title:    Pliny's Interrogation in Bithynia-Pontus
 World-Code:     pahc
 Tier:           1
+Signature:      yes
+Key-Line:       "sang a hymn to Christ"
 Confidence:     Documented (the letter and its basic content) / Contested (what the "ordinary meal" was; whether this reflects one standing legal condition or scattered local exposure)
 Source:         Pliny the Younger, *Letters* 10.96–97 (Registry P07), c. 111–113 CE.
 Retrieve-When:  Participant asks how Roman authorities actually treated Christians in this period; participant asks about G03 (State Pressure/Legal Precarity); participant asks what outside, non-Christian evidence exists for this world at all.
@@ -18,9 +20,7 @@ Trajan's reply, also preserved, instructs Pliny not to seek out Christians activ
 
 ## Formation Ecology Connection
 
-This is this world's clearest evidence for G03 (State Pressure/Legal Precarity, Supporting) — not a systematic empire-wide persecution, but real, local, lethal exposure operating under genuine legal uncertainty even among Roman officials themselves. It also supplies this world's only outside description of internal practice — however filtered, it is the sole non-Christian eyewitness account of a gathering, its oath, and its shared meal.
-
-This story does formation work no internal source can do: it shows how this world's own practices looked to an outsider with the power of life and death, and what that outsider found alarming (or, notably, did not).
+Our clearest evidence of what pressure from the state actually looked like: not a systematic empire-wide persecution, but real, local, lethal exposure, under legal uncertainty that reached the officials themselves. It is also the only description we have of our own practice from outside - the sole non-Christian eyewitness account of a gathering, its oath and its shared meal. It does work no inside source can do. It shows how our practices looked to a man with the power of life and death over us, and what he found alarming - and, just as tellingly, what he did not.
 
 ## Tier Justification
 

@@ -13,6 +13,7 @@ sources:
 id: alexgrav004
 name: Logos-Centered Unity (C4)
 classification: Supporting
+capsule_line: 'The Word holds the whole together. Reading, learning, worship and change are one movement, not four.'
 six_tests:
   repetition:
     verdict: PASS - across ~all streams (Doc_04 SS3.4).

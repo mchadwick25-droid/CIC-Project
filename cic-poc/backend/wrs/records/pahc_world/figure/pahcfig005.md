@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Justin Martyr (First Apology)
   name_kind: scholarly
+bridge_line: "A Christian teacher. He described our Sunday worship in a letter to the emperor."
 narratable: true
 story_ids:
 - pahcstory006

@@ -11,6 +11,7 @@ register: etic
 review_state: draft
 name: Sacramental/Moral Authority vs. Institutional/Positional Authority (G06)
 classification: Tensional
+capsule_line: 'Authority held at the altar against authority held by office. It is why our own actors keep having to justify a rank in moral terms rather than resting on the rank itself.'
 six_tests:
   repetition:
     verdict: Passes as a persistent tension, not a resolved position — visible in Ambrose's own direct

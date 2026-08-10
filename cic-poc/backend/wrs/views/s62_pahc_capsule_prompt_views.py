@@ -192,20 +192,31 @@ def build_capsule() -> str:
 
     parts = ["# World Capsule Core - Post-Apostolic House-Church "
              "(generated view)"]
+    # Phase 2 (Chloe's pass, 2026-08-08): prefer capsule_inhabit and, below,
+    # each gravity's capsule_name/capsule_line. formation_logic quotes
+    # Doc_01's own contrast phrase and measured FK 29.4 / FRE -23 alone; the
+    # six_tests verdicts are builder grading. Both fall back to the old
+    # fields for any world that has not authored the new ones.
     parts.append("## The World You Inhabit\n\n"
-                 + voice(re.sub(r"^Doc_01 [^:]*: ", "",
-                                core.get("formation_logic", ""))))
+                 + voice(core.get("capsule_inhabit")
+                         or re.sub(r"^Doc_01 [^:]*: ", "",
+                                   core.get("formation_logic", ""))))
     order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
     ranked = sorted((g for g in gravities.values()
                      if g.get("classification") in order),
                     key=lambda g: (order[g["classification"]], g["id"]))
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
     lines = []
     for g in ranked:
-        verdict = voice(g["six_tests"]["formation"]["verdict"])
-        verdict = re.sub(r",?\s*flagged for Doc_0\d [a-z]+\b", "", verdict)
-        verdict = re.sub(r"^PASS[^-]*-\s*", "", verdict)
-        name = re.sub(r"\s*\(G0\d[^)]*\)", "", voice(g["name"]))
-        lines.append(f"- **{name}** ({g['classification']}): {verdict}")
+        line = voice(g.get("capsule_line") or "")
+        if not line:
+            line = voice(g["six_tests"]["formation"]["verdict"])
+            line = re.sub(r",?\s*flagged for Doc_0\d [a-z]+\b", "", line)
+            line = re.sub(r"^PASS[^-]*-\s*", "", line)
+        name = voice(g.get("capsule_name") or "") or re.sub(
+            r"\s*\([^)]*\)", "", voice(g["name"])).strip()
+        lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
     vs_lines = []
     for tid in sorted(terms):

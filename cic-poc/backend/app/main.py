@@ -355,9 +355,11 @@ def state_to_messages(state: ConversationState) -> list[dict]:
 
         citations = None
         glosses_used = None
+        figures_used = None
         if hasattr(msg, "additional_kwargs"):
             citations = msg.additional_kwargs.get("citations") or None
             glosses_used = msg.additional_kwargs.get("glosses_used") or None
+            figures_used = msg.additional_kwargs.get("figures_used") or None
 
         result.append({
             "role": role,
@@ -365,6 +367,7 @@ def state_to_messages(state: ConversationState) -> list[dict]:
             "name": name,
             "citations": citations,
             "glosses_used": glosses_used,
+            "figures_used": figures_used,
         })
 
     return result
@@ -1651,6 +1654,7 @@ async def send_message_stream(session_id: str, request: SendMessageRequest,
                     "speaker": new_message.name,
                     "citations": new_message.additional_kwargs.get("citations"),
                     "glosses_used": new_message.additional_kwargs.get("glosses_used"),
+                    "figures_used": new_message.additional_kwargs.get("figures_used"),
                 })
 
                 # Cost/latency backstop only - not a target. Most rounds
@@ -1997,6 +2001,32 @@ class LexiconResponse(BaseModel):
     terms: list[LexiconTerm]
 
 
+def _record_id_for_chunk(stem: str, repo_record_ids: set[str]) -> str | None:
+    """The record id a lexicon chunk filename points at, or None.
+
+    Generated views name files `<record_id>_<slug>.md`, so the id is normally
+    the stem's first underscore-separated segment. Hieronymian breaks that:
+    its chunks are `hal_lex01_hebraica-veritas.md` while its records are
+    `hallex01` - one extra underscore - so the first-segment rule yielded
+    "hal", matched nothing, and left all 15 of Albina's terms unlinked even
+    once her repository view existed. Found by checking link resolution per
+    world rather than by trusting that one world's convention was the rule.
+
+    So: try progressively longer prefixes of the stem, both underscored and
+    with the underscores removed, and take the first the repository view
+    confirms. This CANNOT invent a link - membership in `repo_record_ids` is
+    still the only thing that authorises one, which is the same guard the
+    original single-candidate version relied on (and which is why the
+    mismatch failed safe rather than linking Albina's terms to nothing).
+    """
+    parts = stem.split("_")
+    for n in range(1, len(parts) + 1):
+        for candidate in ("_".join(parts[:n]), "".join(parts[:n])):
+            if candidate in repo_record_ids:
+                return candidate
+    return None
+
+
 @app.get("/api/lexicon", response_model=LexiconResponse)
 async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
     """
@@ -2038,8 +2068,7 @@ async def get_lexicon(world_id: str = "syriac-edessa-nisibis"):
         # for the fenced-front-matter worlds; see Pass 1 SS3.2)
         quick_meaning = entry.quick_meaning
 
-        candidate_id = file_path.stem.split("_")[0]
-        record_id = candidate_id if candidate_id in repo_record_ids else None
+        record_id = _record_id_for_chunk(file_path.stem, repo_record_ids)
 
         terms.append(LexiconTerm(
             term=entry.term,

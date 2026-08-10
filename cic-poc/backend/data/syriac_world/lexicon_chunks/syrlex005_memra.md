@@ -27,3 +27,5 @@ Within this world's own 200–410 window, "memra" names a small, narrowly authen
 ## Related-Terms Reciprocity Note
 
 Cross-referenced with madrasha (sister verse genre, distinguished by meter and — for madrasha — sung/refrain structure against memra's recited couplets). Entry lists this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` corrected from the fleet-wide default `verified-via-authority` to `unverified`, cross-checked against this term's own linked sources[] and their discovery_channel disclosures. **Flagged as a judgment call**: no sources[] linkage at all in this record; cannot confirm any verification was performed; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.

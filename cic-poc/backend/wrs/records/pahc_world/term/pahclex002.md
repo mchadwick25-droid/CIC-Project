@@ -15,9 +15,9 @@ term: presbyteros (πρεσβύτερος)
 aliases:
 - presbyter
 - priest
-quick_meaning: The *presbyteroi* are the elders who share the community's governance — in some households
-  as a council that holds the full trust themselves, in others gathered around a bishop whose leadership
-  they support but do not replace.
+quick_meaning: 'The elders who share the governing of a community. In some households they are a council holding the
+  whole trust themselves. In others they gather around one overseer, supporting his leadership without
+  replacing it.'
 world_meaning: 'We call them presbyteroi, elders, and what they do among us depends on where we stand.
   In Rome, when the church there wrote to Corinth to settle a quarrel, they spoke of presbyters removed
   from their office — not of a bishop deposed. The whole weight of that letter''s correction fell on the
@@ -114,11 +114,10 @@ confidence:
 field_relations:
 - type: associated-with
   target_id: pahclex001
-  note: 'Symmetric mirror of pahclex001''s edge (the G01 pair). Chunk Ecological Function (verbatim, absorbed
-    per FLAG-002): This term works with episkopos to anchor the Authority Consolidation question (G01).
-    Where episkopos carries the fuller Strand A/B institutional argument, presbyteros reveals the counterweight:
-    the council model that existed before, alongside, and in some places instead of the single-bishop
-    pattern.'
+  note: 'Symmetric mirror of pahclex001''s edge (the G01 pair). Chunk Ecological Function (verbatim, absorbed per
+    FLAG-002): This term works with episkopos to anchor the question of who leads. Where episkopos carries
+    the fuller institutional argument, presbyteros shows the counterweight: the council pattern, which
+    existed before the single-bishop pattern, alongside it, and in some places instead of it.'
 - type: associated-with
   target_id: pahclex006
   note: 'The same elders differently configured: the presbyterion is the Strand-A gathered form of this

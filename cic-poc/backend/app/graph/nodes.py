@@ -39,6 +39,7 @@ from app.prompts.facilitator_prompts import (
     get_representative_name,
 )
 from app.prompts.confirmed_glosses import find_glosses_used
+from app.prompts.figure_bridge import find_figures_used
 from app.prompts.representative_prompts import (
     REACTIVE_CONTINUATION_PROMPT,
     REPRESENTATIVE_CONTINUATION_PROMPT,
@@ -1151,7 +1152,11 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
     try:
         from app.graph.repair_classifier import _migrated_world_ids
         if current_world_id in _migrated_world_ids():
-            from wrs.views.segments.guards import POST_HISTORY_GUARD
+            # Phase 2 (Blueprint SS3 step 1): per-world guard exports.
+            # post_history_guard_for() returns this world's own export
+            # where its Phase 2 pass has written one, else the shared
+            # constant - un-passed worlds are byte-identical to before.
+            from wrs.views.segments.guards import post_history_guard_for
             # FLAG-018 layer 3 (S5.6 sustained re-runs): the
             # no-unprompted-sense-clarification constraint survived only
             # partially when placed before the retrieved context (one
@@ -1160,26 +1165,18 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
             # must survive attention decay rides closest to generation -
             # is why it now ALSO rides here, composed at the wiring site
             # (the assembly's exported guard text itself is unchanged).
-            post_history_guard = POST_HISTORY_GUARD + (
+            post_history_guard = post_history_guard_for(current_world_id) + (
                 " And open on the question actually asked: no term "
                 "clarifications the participant did not ask for, and never "
                 "\"when I said X\" for a word this conversation has not "
                 "actually spoken.")
-            # S6.2/IJC freeze (2026-07-31, Decision IJC-3 / FLAG-037):
-            # two Phase-5-fixed classes leaked under full-context
-            # dilution in the freeze battery despite explicit prompt
-            # prohibitions - the same attention-decay dynamic FLAG-018
-            # layer 3 answered at this exact wiring site. IJC-scoped;
-            # the fleet-wide question stays on the flag.
-            if current_world_id == "imperial-juridical-christianity":
-                post_history_guard += (
-                    " Two more, held hardest: a question about your own "
-                    "voice or pronoun is answered with history, never "
-                    "with reasons for how you speak. And no biographical "
-                    "detail for any name beyond what your record itself "
-                    "carries - no earlier post, mission, or journey, "
-                    "however accurate - where the record gives the act "
-                    "without the man, give the act without the man.")
+            # The IJC-scoped extension that used to be hardcoded here
+            # (S6.2/IJC freeze, 2026-07-31, Decision IJC-3 / FLAG-037 - two
+            # Phase-5-fixed classes leaking under full-context dilution) now
+            # lives in that world's own POST_HISTORY_GUARDS entry, carried
+            # there by Marius's Phase 2 pass exactly as this site's own note
+            # said it would be. No world-specific prose remains at the
+            # wiring site; the fleet-wide question stays on the flag.
     except Exception:
         post_history_guard = ""
 
@@ -1485,6 +1482,11 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     glosses_used = find_glosses_used(ctx["current_world_id"], response_text)
     if glosses_used:
         message_kwargs["glosses_used"] = glosses_used
+    # The name bridge (2026-08-09). Same contract as glosses: run AFTER
+    # generation, decorate what was said, never influence what gets said.
+    figures_used = find_figures_used(ctx["current_world_id"], response_text)
+    if figures_used:
+        message_kwargs["figures_used"] = figures_used
 
     return {
         "messages": [
@@ -1614,40 +1616,95 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # grounded in the triple-TRR dominance finding (71-75% at the desert
     # table, a 195w table turn under the old 180@1.2 = 216 trigger that
     # never fired). The prior 180 predates the measured profile.
-    HARD_CEILING_WORLDS = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
-                           "alexandria-catechetical": 160,
-                           # S6.2/SYR freeze (2026-07-28): 165 = the voice
-                           # profile's measured max (syrvoice001 native_measure,
-                           # range 41-165) so the solo register never triggers;
-                           # grounded in the TRR dominance finding (63-79%,
-                           # table turns to 1053w vs the 98w native measure)
-                           "syriac-edessa-nisibis": 165,
-                           # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
-                           # an ENFORCING ceiling, unlike the HAL/SYR
-                           # backstops - the battery measured the runtime
-                           # voice at 246-272w mean against pahcvoice001's
-                           # DESIGNED 70w typical and the prompt's own
-                           # two-short-paragraphs stop (~150w). 150 @ 1.5
-                           # (retry >225w) pulls the voice toward its own
-                           # designed measure; expected elevated retry rate
-                           # initially, re-measure at first production review.
-                           "post-apostolic-house-church": 150,
-                           # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
-                           # a MODERATE enforcing ceiling - no designed
-                           # answer cap exists (the prompt caps sentence
-                           # length; Section 4 stages the judgment), and
-                           # the battery measured 251-256w mean / 389 max.
-                           # 180 sits above the fleet band (the chancery's
-                           # numbered-points genre warrants more than the
-                           # household's handful) and below the measured
-                           # mean (pulls the long tail toward the staged
-                           # design). Re-measure at first production review.
-                           "imperial-juridical-christianity": 180}
-    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.5, "hieronymian-ascetic-literary": 1.2,
-                               "alexandria-catechetical": 1.2,
-                               "syriac-edessa-nisibis": 1.2,
-                               "post-apostolic-house-church": 1.5,
-                               "imperial-juridical-christianity": 1.5}
+    # Voice Rebuild Phase 0.1 (2026-08-08): this dict literal is now a
+    # fallback only. The real source is each world's voice_profile record
+    # (native_measure.ceiling_words, see each record's ceiling_source field
+    # for the per-world freeze-session rationale preserved below in full) -
+    # read via repair_classifier.ceiling_words_map(), same lazy-import,
+    # fail-open discipline as the post_history_guard site above. The values
+    # below are IDENTICAL to what the records now carry; this dict exists so
+    # a record-read failure degrades to today's exact behavior, never to no
+    # ceiling at all.
+    #
+    # S6.2/SYR freeze (2026-07-28): 165 = the voice
+    # profile's measured max (syrvoice001 native_measure,
+    # range 41-165) so the solo register never triggers;
+    # grounded in the TRR dominance finding (63-79%,
+    # table turns to 1053w vs the 98w native measure)
+    #
+    # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
+    # an ENFORCING ceiling, unlike the HAL/SYR
+    # backstops - the battery measured the runtime
+    # voice at 246-272w mean against pahcvoice001's
+    # DESIGNED 70w typical and the prompt's own
+    # two-short-paragraphs stop (~150w). 150 @ 1.5
+    # (retry >225w) pulls the voice toward its own
+    # designed measure; expected elevated retry rate
+    # initially, re-measure at first production review.
+    #
+    # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
+    # a MODERATE enforcing ceiling - no designed
+    # answer cap exists (the prompt caps sentence
+    # length; Section 4 stages the judgment), and
+    # the battery measured 251-256w mean / 389 max.
+    # 180 sits above the fleet band (the chancery's
+    # numbered-points genre warrants more than the
+    # household's handful) and below the measured
+    # mean (pulls the long tail toward the staged
+    # design). Re-measure at first production review.
+    _CEILING_FALLBACK = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
+                         "alexandria-catechetical": 160,
+                         "syriac-edessa-nisibis": 165,
+                         "post-apostolic-house-church": 150,
+                         "imperial-juridical-christianity": 180}
+    try:
+        from app.graph.repair_classifier import ceiling_words_map
+        HARD_CEILING_WORLDS = ceiling_words_map() or _CEILING_FALLBACK
+    except Exception:
+        HARD_CEILING_WORLDS = _CEILING_FALLBACK
+    # hieronymian 1.2 -> 1.0 (Mark's ruling, 2026-08-08, Albina checkpoint 3):
+    # her sustained-pushback drafts land at 164-186 words - over her 160
+    # ceiling, under the old 192 trigger - the dead zone her own
+    # native_measure.dead_zone_note recorded. Four of checkpoint 3's five
+    # overruns sat exactly there while the same run's probe drafts (194-270)
+    # were all caught and corrected. At 1.0, any draft over the ceiling
+    # regenerates once. Per-world by design; the other five are unchanged.
+    # imperial-juridical 1.5 -> 1.0 (Phase 2, Marius's pass, 2026-08-08): the
+    # same dead-zone fix, on the fleet's worst case. At 1.5 against the old
+    # 180 ceiling the trigger sat at 270 and his streaming baseline's max was
+    # 269 - all 8 turns over the ceiling, all 8 under the trigger, none ever
+    # regenerated. The ceiling had never fired for this world at all. His
+    # re-derived ceiling is 150 (native_measure), so at 1.0 the trigger sits
+    # on the ceiling itself. Per-world by design; the other four are unchanged.
+    # alexandria-catechetical 1.2 -> 1.0 (Phase 2, Theon's pass, 2026-08-08).
+    # His 160 ceiling was set at the S6.2 freeze to EQUAL his own measured
+    # max, explicitly "so the solo register never triggers" - a ceiling built
+    # not to bind. At 1.2 the retry sat at 192 and his baseline's two
+    # over-ceiling turns (167, 177) both landed in the 161-192 dead zone, so
+    # it never fired. The number is sound and evidence-derived; only its
+    # enforcement changes. Length is NOT this world's defect.
+    # desert-monasticism 1.5 -> 1.0 (Phase 2, Papnoute's pass, 2026-08-08).
+    # Against the old 60 ceiling the retry did not fire until 90, and his two
+    # over-ceiling turns (61, 69) sat inside that dead zone - nothing this
+    # world has ever produced has regenerated. With the re-derived 70 ceiling
+    # at 1.0 the enforced threshold DROPS from 90 to 70, even though the
+    # ceiling number itself rose. All five passed worlds now sit at 1.0.
+    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.0, "hieronymian-ascetic-literary": 1.0,
+                               "alexandria-catechetical": 1.0,
+                               # syriac 1.2 -> 1.0 (Phase 2, Yausep's pass,
+                               # 2026-08-08): retry sat at 198 while his baseline
+                               # max was 192, so all three over-ceiling turns sat in
+                               # the 166-198 dead zone. A BACKSTOP only - his real
+                               # defect is stage count inside the ceiling.
+                               "syriac-edessa-nisibis": 1.0,
+                               # pahc 1.5 -> 1.0 (Phase 2, Chloe's pass,
+                               # 2026-08-08): her 150 was set as an ENFORCING
+                               # ceiling and never fired once - retry sat at 225
+                               # against a 223 max, so all six overruns were
+                               # dead-zone. Widest designed-to-observed gap in the
+                               # fleet (179 mean against a 70 designed typical).
+                               "post-apostolic-house-church": 1.0,
+                               "imperial-juridical-christianity": 1.0}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
@@ -1876,9 +1933,15 @@ _SIGNAL_PRIORITY: list[str] = [
     "temporal_bleed", "anachronism", "over_settling",
     "cross_world_vocabulary", "manufactured_resolution", "convergence",
     "closing_synthesis", "apologetics", "smoothing", "flattening",
-    "agreeing", "dominance", "generating", "over_producing",
-    "length_ceiling", "question_stacking",
+    "agreeing", "declining_initiative", "dominance", "generating",
+    "over_producing", "length_ceiling", "question_stacking",
 ]
+# Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): declining_initiative
+# ranked beside "agreeing" - both are stance signals from the same Realness
+# Study naming (agreement-rate drift and declining initiative are two of
+# its three measurable naturalness-collapse signals), and neither puts
+# anything untrue or out-of-world in front of a participant the way the
+# signals ranked above them do.
 # kept as an alias: the monitor bottleneck's historical name for the list
 _MONITOR_SIGNAL_PRIORITY = _SIGNAL_PRIORITY
 _SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
@@ -1926,7 +1989,21 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     check_drift_for_message (used by the streaming endpoint's per-round
     monitoring pass, which checks every turn of a round tagged with its own
     speaker - see that function's docstring for why).
+
+    Thin wrapper around _detect_drift_signal_impl that logs the outcome
+    (Voice Rebuild Phase 0.4 - the per-signal breakdown Design §3/Blueprint
+    0.4 name as drift_detection's real gap, see app/drift_signal_logging.py)
+    without touching any of the impl's own return points or logic.
     """
+    from app.drift_signal_logging import log_drift_signal_outcome
+    signal = _detect_drift_signal_impl(response_text, world_id)
+    log_drift_signal_outcome(
+        world_id, signal.signal_type if signal else None,
+        signal.severity if signal else None)
+    return signal
+
+
+def _detect_drift_signal_impl(response_text: str, world_id: str | None = None) -> DriftSignal | None:
     llm = get_monitoring_llm()
     prompt = FACILITATOR_MONITORING_PROMPT.format(response=response_text)
     response = llm.invoke([
@@ -1988,10 +2065,16 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     # "smoothing" instead of surfacing under its real signal type. Kept
     # "anachronism" as an accepted alias since temporal_bleed is its
     # current name in the prompt but older sessions/tests may still emit it.
+    # Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): added
+    # "declining_initiative" - the Realness Study's third measurable
+    # naturalness-collapse signal (response-length growth and agreement-
+    # rate drift already exist as over_producing/agreeing; initiative had
+    # no equivalent - see FACILITATOR_MONITORING_PROMPT signal 11).
     valid_signals = [
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
         "first_person", "anachronism", "self_narration", "over_settling",
+        "declining_initiative",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's

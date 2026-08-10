@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Aphrahat the Persian Sage
   name_kind: scholarly
+bridge_line: "A Persian teacher. His twenty-three written demonstrations survive; no story of his days does."
 narratable: false
 story_ids: []
 accepted_refusal_note: 'Load-bearing as a voice (srcSYR010 - the twenty-three tahwyata, incl. Demonstration

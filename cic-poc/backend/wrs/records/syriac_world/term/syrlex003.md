@@ -14,10 +14,9 @@ cache_stability: static
 term: 'taḥwyāṯā (singular: taḥwîṯâ)'
 aliases:
 - '"Demonstrations" (conventional English title)'
-quick_meaning: A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for his twenty-three doctrinal treatises
-  — conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — several
-  built on the twenty-two-letter Syriac acrostic so the alphabet itself scaffolds the argument in memory;
-  he also calls the same works "Letters" on occasion, so this was not his only way of naming them.
+quick_meaning: 'Aphrahat''s own word for his twenty-three treatises, usually called Demonstrations in English. Several
+  are built on the twenty-two letters of the Syriac alphabet, so the alphabet itself holds the argument in
+  order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.'
 world_meaning: 'A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat''s own term for the twenty-three doctrinal and
   exhortatory treatises conventionally titled "Demonstrations" in English, corresponding to the Greek
   apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary

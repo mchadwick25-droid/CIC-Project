@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Lactantius (c. 250-325)
   name_kind: scholarly
+bridge_line: "A Christian writer whose account of the same battle was written earlier, and differs."
 narratable: true
 story_ids:
 - ijcstory002

@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Julia Eustochium (c. 368-418/419/420)
   name_kind: scholarly
+bridge_line: "Paula's daughter, who took a vow of virginity and went with her to Bethlehem."
 narratable: true
 story_ids:
 - halstory01

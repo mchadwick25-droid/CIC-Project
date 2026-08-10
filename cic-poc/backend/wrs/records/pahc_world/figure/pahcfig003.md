@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Polycarp (Letter to the Philippians; Martyrdom of Polycarp)
   name_kind: scholarly
+bridge_line: "A church leader at Smyrna, burned for refusing to curse Christ. His own letter survives."
 narratable: true
 story_ids:
 - pahcstory003

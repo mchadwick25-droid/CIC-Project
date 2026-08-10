@@ -16,8 +16,8 @@ aliases:
 - servant-women
 - female ministers
 - deaconesses
-quick_meaning: '*Ministrae* is Pliny''s Latin word for the servant-women he tortured — Christians in recognized
-  service, though we do not know fully what they themselves would say about their own role.'
+quick_meaning: 'The Latin word a magistrate used for the servant-women he tortured. Christians in recognised service.
+  What they themselves would have called that service, we do not know.'
 world_meaning: 'We know this word from the outside — from Pliny, the Roman governor who wrote to the emperor
   Trajan asking how to handle Christians brought before him. He mentions that he tortured two ministrae,
   servant-women, to find out what Christians actually did. The word is his, not ours.

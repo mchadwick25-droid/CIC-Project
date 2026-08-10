@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the question is really about a specific confession's own c
 
 ## Quick Meaning
 
-*Haeresis* names a teaching placed outside what the church, and now the law itself, will recognize — a juridical exclusion as much as a theological one, in our own record.
+A teaching placed outside what the church will recognise, and now outside what the law will recognise. With us it is a legal exclusion as much as a theological one.
 
 ---
 

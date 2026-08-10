@@ -236,10 +236,17 @@ def render_story(rec, body):
     j = locus.find("): ")
     if locus.startswith("Composite - elements per") and j >= 0:
         locus = locus[j + 3:]
+    # Key-Line / Signature: the palette supply-side (worklist 4b), rolled to
+    # this world 2026-08-09. key_line is a verbatim quotable line lifted from
+    # the record's OWN text - never authored at render time - so the voice can
+    # quote with validity and zero fabrication risk; signature marks this
+    # world's most distinctive stories for the curator's first reach.
     parts = [fm_story([
         ("Story-Title", rec.get("title", "")),
         ("World-Code", "hal"),
         ("Tier", str(ret.get("tier", 1))),
+        ("Signature", "yes" if rec.get("signature") else None),
+        ("Key-Line", ('"' + rec["key_line"] + '"') if rec.get("key_line") else None),
         ("Confidence", rec.get("confidence_line") or None),
         ("Source", locus),
         ("Retrieve-When", rw),

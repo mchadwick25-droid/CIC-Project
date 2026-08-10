@@ -171,6 +171,35 @@ def _migrated_world_ids() -> frozenset[str]:
     return frozenset(out)
 
 
+@lru_cache(maxsize=1)
+def ceiling_words_map() -> dict[str, int]:
+    """Voice Rebuild Phase 0.1: the record-fed replacement for nodes.py's
+    HARD_CEILING_WORLDS dict literal. Reads voice_profile.native_measure.
+    ceiling_words per world - a field added to all six records at Phase 0,
+    seeded from the dict's own values so the migration is behavior-neutral
+    (same numbers, new source; see each record's ceiling_source field for
+    per-world freeze-session provenance). Same glob-and-parse shape as
+    _migrated_world_ids above; same fail-open discipline - a world whose
+    record can't be read simply carries no ceiling, exactly as an absent
+    dict entry did before this migration."""
+    out: dict[str, int] = {}
+    try:
+        for p in _RECORDS_ROOT.glob("*/voice_profile/*.md"):
+            try:
+                front = yaml.safe_load(
+                    p.read_text(encoding="utf-8").split("---", 2)[1])
+                world_id = front.get("world_id")
+                ceiling = (front.get("native_measure") or {}).get(
+                    "ceiling_words")
+                if world_id and isinstance(ceiling, int):
+                    out[world_id] = ceiling
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return out
+
+
 @lru_cache(maxsize=8)
 def _contested_claims(world_id: str) -> tuple:
     """(id, claim, pressure_response) triples for a world's contested_claim

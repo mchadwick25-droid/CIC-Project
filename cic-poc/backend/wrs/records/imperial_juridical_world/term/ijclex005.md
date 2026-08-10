@@ -16,9 +16,7 @@ aliases:
 - the emperor is within the Church, not over it
 - Ambrose's formula
 - the Auxentius sermon formula
-quick_meaning: The emperor stands within the Church, not above it — our bishop said this to an imperial
-  court demanding a basilica, and meant that no crown, however real its power, can command what belongs
-  to the altar.
+quick_meaning: 'The emperor stands within the Church, not above it. Our bishop said it to an imperial court that was demanding a basilica. He meant that no crown, whatever its power, can command what belongs to the altar.'
 world_meaning: 'They asked for a building. We did not give it, and our bishop told them why, standing
   where he could be heard: the emperor is a son of the Church, not her master. He may ask what any believer
   may ask. He may not command what no believer may command. A palace belongs to the emperor; a church

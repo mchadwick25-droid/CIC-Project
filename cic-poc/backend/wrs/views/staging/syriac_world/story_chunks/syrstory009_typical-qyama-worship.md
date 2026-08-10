@@ -20,7 +20,7 @@ Before dawn, those bound by the qyama — men and women who have taken the vow, 
 
 ## Formation Ecology Connection
 
-This composite scene draws together, in one typical occasion, four of this world's own confirmed gravities at once: C1 (the raza/shrara method, performed rather than merely taught), C2 (the qyama order, gathered and vowed), C5 (the Diatessaron, read as a single narrative), and the worship-as-formation logic Doc_07 (Section 2E) names as this world's own central organizing aim. It is offered specifically because Doc_05 and Doc_07 both document these elements individually, in separate lenses, without rendering how a single gathered occasion would have held them together — the composite form is what this Tier 4 reconstruction adds that the individual ecological facts, read separately, do not show.
+This composite scene draws four of our central things together into one occasion: the reading of symbol into truth, performed rather than taught; the covenant order, gathered and vowed; the harmonised Gospel read as a single narrative; and worship as the place where formation actually happens. It is offered because each of these is well attested on its own, without anything showing how one gathered occasion would have held them all at once. That holding-together is what this reconstruction adds.
 
 ---
 

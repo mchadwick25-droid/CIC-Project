@@ -20,7 +20,7 @@ Do-Not-Retrieve-When: the question concerns one council's specific content rathe
 
 ## Quick Meaning
 
-A council is where bishops gather, under imperial summons, to settle what the whole church must hold — and, in our own record, what a council settles does not always stay settled.
+A gathering of bishops, called by the emperor, to settle what the whole church must hold. In our own record, what a council settles does not always stay settled.
 
 ---
 

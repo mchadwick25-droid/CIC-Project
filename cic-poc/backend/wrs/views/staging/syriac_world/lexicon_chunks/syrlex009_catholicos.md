@@ -14,19 +14,19 @@ Do-Not-Retrieve-When: participant is asking about the Roman/Edessene side of thi
 
 ## Quick Meaning
 
-"Catholicos" is not this world's own contemporary title — it names an office and title that later tradition retroactively applied to earlier Persian church leadership; using it for this world's own period (200–410 CE) without flagging the anachronism risks presenting a later, tidied-up succession as though it were already in place and named at the time.
+Not a title of our own time. It names an office that later tradition laid back over earlier Persian church leadership. Used for our years without that flag, it presents a tidied succession as though it were already in place and already named.
 
 ---
 
 ## World Meaning
 
-No one in this world's own period called their Persian episcopal leader "Catholicos." The title belongs to a later tradition that looked back on a genuinely unsettled situation — local leadership without a single fixed head, contested claims to precedence — and organized it into a tidy, named succession. Early Seleucia-Ctesiphon succession claims, including that Papa bar Aggai took the title "Catholicos" around 315 CE, trace at least in part to the *Acts of Mari*, a text scholarship dates anywhere from the sixth to as late as the eighth century — centuries after the events it describes. Papa bar Aggai's own claim to primacy over other Persian bishops was, in his own actual period, fiercely contested by Miles of Susa and Aqib-Alaha of Karka d'Baith Slok, not a settled, uncontested office the way the later title implies. A participant asking about this world's Persian church leadership should hear real, contested, locally-organized episcopal leadership — not an already-titled, already-unified office waiting to be named.
+No one in this world's own period called their Persian episcopal leader "Catholicos." The title belongs to a later tradition that looked back on a genuinely unsettled situation — local leadership without a single fixed head, contested claims to precedence — and organized it into a tidy, named succession. Early Seleucia-Ctesiphon succession claims, including that Papa bar Aggai took the title "Catholicos" around 315 CE, trace at least in part to the *Acts of Mari*, a text scholarship dates anywhere from the sixth to as late as the eighth century — centuries after the events it describes. Papa bar Aggai's own claim to primacy over other Persian bishops was, in his own actual period, fiercely contested by Miles of Susa and Aqib-Alaha of Karka d'Baith Slok, not a settled, uncontested office the way the later title implies. A participant asking about this world's Persian church leadership should hear real, contested, locally-organized episcopal leadership — not an already-titled, already-unified office waiting to be named. [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the S2.3-equivalent per SS3.2 / FLAG-002]: This entry does not anchor a native institution the way qyama or Ihidaya do. Its function is corrective rather than constitutive. It names one concrete way later tradition simplified a genuinely unsettled authority picture into a tidy title and succession that our own period did not yet have.
 
 ---
 
 ## Ecological Function
 
-This entry does not anchor a native institution the way qyama or Iḥidaya do — its function is corrective rather than constitutive. It intersects with Organizational Ecology's authority-structure ambiguity (C4, this world's Tensional gravity) by naming one specific, concrete way later tradition simplified a genuinely unsettled authority picture into a tidy title and succession that this world's own period did not yet have.
+This entry does not anchor a native institution the way qyama or Ihidaya do. Its function is corrective rather than constitutive. It names one concrete way later tradition simplified a genuinely unsettled authority picture into a tidy title and succession that our own period did not yet have.
 
 ---
 
@@ -61,3 +61,5 @@ No reciprocal cross-reference asserted by design — this entry is a standalone 
 ## Standing Distortion-Risk Note
 
 This is not an ordinary vocabulary candidate promoted from this world's own attested usage — it is included specifically because it is the kind of term likely to be projected backward onto this world's own period by a participant or a later document, when it is in fact a retrojection (Doc_03, Section 2.1). Any Representative or later construction document using "Catholicos" for this world's own period should either avoid the term or explicitly flag it as later terminology applied to an earlier office.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined and CONFIRMED (not simply carried over unchecked): all 1 linked source(s) show an active-discovery channel (not builder-prior-knowledge).

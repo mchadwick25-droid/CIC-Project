@@ -41,25 +41,10 @@ attested_occasion: 'Jacob of Serugh''s memorial homily (c. 500, roughly 125 year
   split; Doc_02 SS3''s correction), told as Jacob''s remembering (Tier 3).'
 tellable_as: scene
 owner_figure_id: syrfig001
-voice_surface: 'We tell this as a later teacher''s loving memory of ours - Jacob of Serugh remembering
-  Ephrem setting the daughters of the covenant to sing. What is firsthand with us is the singing itself
-  and Aphrahat''s covenant-order; that Ephrem founded the choirs is the memory''s claim, and we name whose
-  memory it is. Usage guidance (chunk, verbatim): The Representative may offer this as the tradition''s
-  own memory of how the teaching reached the people: "It is remembered that Ephrem, seeing the people
-  drawn toward Bardaisan''s and Mani''s own songs, gathered the daughters of the covenant and gave them
-  true words to sing in the same manner, so the very form our rivals used to spread their error became
-  the means of teaching the truth instead." The Representative should not present this as an eyewitness
-  or contemporary report of Ephrem''s own lifetime, and should not claim this level of detail about Ephrem''s
-  personal leadership if asked to distinguish sharply between what this world''s own earliest record shows
-  and what later memory added — the bnat qyama choirs performing Ephrem''s hymns is well attested; Ephrem''s
-  personal founding and direction of them specifically is this later tradition''s own claim.
+voice_surface: |-
+  We tell this as a later teacher's loving memory of ours. Jacob of Serugh remembered Ephrem setting the daughters of the covenant to sing. What is firsthand with us is the singing itself, and the covenant order. That Ephrem founded the choirs is the memory's claim, and we name whose memory it is. Usage guidance (chunk, verbatim): The Representative may offer this as the tradition's own memory of how the teaching reached the people: "It is remembered that Ephrem, seeing the people drawn toward Bardaisan's and Mani's own songs, gathered the daughters of the covenant and gave them true words to sing in the same manner, so the very form our rivals used to spread their error became the means of teaching the truth instead." The Representative should not present this as an eyewitness or contemporary report of Ephrem's own lifetime, and should not claim this level of detail about Ephrem's personal leadership if asked to distinguish sharply between what this world's own earliest record shows and what later memory added — the bnat qyama choirs performing Ephrem's hymns is well attested; Ephrem's personal founding and direction of them specifically is this later tradition's own claim.
 
-
-  **Additional guidance:** This is a figure of some delicacy for construction purposes — it is the richest
-  and most thematically central story in this repository, and also the one most explicitly flagged by
-  this project''s own prior documents as needing careful temporal handling. The Representative should
-  feel free to draw on it richly as memory and formation-ideal, while never presenting its specific claim
-  about Ephrem''s own personal role as established in-window fact.'
+  **Additional guidance:** This is a figure of some delicacy for construction purposes — it is the richest and most thematically central story in this repository, and also the one most explicitly flagged by this project's own prior documents as needing careful temporal handling. The Representative should feel free to draw on it richly as memory and formation-ideal, while never presenting its specific claim about Ephrem's own personal role as established in-window fact.
 confidence_line: Contested (as tradition about Ephrem's own role); Inferential/Thin (as a specific historical
   event)
 retrieval:

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Old Testament prophets or mode
 
 ## Quick Meaning
 
-The *prophetes* is one who speaks under the Spirit's prompting — welcomed when genuine, tested when doubtful, and in some places already giving way to the more stable offices of bishop and presbyter.
+One who speaks as the Spirit prompts. Welcomed where genuine, tested where doubtful. In some places already giving way to the steadier offices of overseer and elder.
 
 ---
 
@@ -28,7 +28,7 @@ But even as the Didache speaks of prophets, it also instructs communities to app
 
 ## Ecological Function
 
-This term connects to the question of Authority Consolidation (G01) from a different angle: the shift from charismatic, itinerant authority to settled, local office.
+This term comes at the question of who leads from a different angle: the shift from wandering, charismatic authority to settled, local office.
 
 ---
 

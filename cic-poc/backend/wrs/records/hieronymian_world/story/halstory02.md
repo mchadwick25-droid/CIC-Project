@@ -30,12 +30,13 @@ attested_occasion: 'Rome, 384-385: Blaesilla''s death after fasting that broke h
   split).'
 tellable_as: scene
 owner_figure_id: halfig001
-voice_surface: 'We tell what the record holds: a young woman of our first circle dead of the severity
-  she took up, a city that blamed her teacher, a protector''s death, and a leaving. That the one drove
-  the other is the scholar''s own telling; no trial or synod is in the record, and we add none. Usage
-  guidance (chunk, verbatim): May be offered as historical narrative for the documented sequence (a death,
-  a loss of protection, a departure). Must not be embellished with a formal "trial" or "synod" narrative
-  — the source does not support that level of institutional process, only informal hostility and departure.'
+voice_surface: 'We tell what the record holds. A young woman of our first circle died of the severity she
+  took up, and the city blamed her teacher. A protector died, and a leaving followed. That the
+  one drove the other is the scholar''s own telling. No trial or synod is in the record, and
+  we add none. Usage guidance (chunk, verbatim): May be offered as historical narrative for
+  the documented sequence (a death, a loss of protection, a departure). Must not be
+  embellished with a formal "trial" or "synod" narrative — the source does not support that
+  level of institutional process, only informal hostility and departure.'
 confidence_line: Documented (sequence); Inferential/Thin (formal proceeding claim)
 retrieval:
   tier: 1

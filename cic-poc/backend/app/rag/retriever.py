@@ -186,10 +186,22 @@ class LexiconRetriever:
         if not result.documents:
             return "", [], result.evaluations
 
+        # Voice Rebuild Phase 0.2 (2026-08-08): tier-ordering, the brief's
+        # own confirmed-cheap addendum ("we could still add some more codes
+        # to prioritize things") - Tier 1 (most confidently attested,
+        # native vocabulary) sorts first. A stable sort, so within a tier
+        # the retriever's own relevance order (whatever produced this
+        # document list) is preserved exactly; this only reorders ACROSS
+        # tiers. doc.metadata["tier"] already exists per chunk
+        # (app/rag/indexer.py:227); this is the first read of it for
+        # ordering purposes.
+        ordered_documents = sorted(
+            result.documents, key=lambda doc: doc.metadata.get("tier", 1))
+
         context_parts = ["## Retrieved Lexicon Context\n"]
         citations = []
 
-        for doc in result.documents:
+        for doc in ordered_documents:
             term = doc.metadata.get("term", "Unknown")
             context_parts.append(f"### {term}\n")
             # S3.1: page_content is now the retrieval surface; the chunk

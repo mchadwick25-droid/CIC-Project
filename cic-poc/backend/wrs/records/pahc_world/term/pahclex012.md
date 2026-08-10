@@ -15,8 +15,8 @@ term: hetaeria
 aliases:
 - illegal club
 - collegium
-quick_meaning: '*Hetaeria* names what Romans suspected Christians might be — an illegal club, a forbidden
-  association — though this charge was never the whole of what we faced.'
+quick_meaning: 'What Romans suspected we might be: an illegal club, a forbidden association. That charge was never the
+  whole of what we faced.'
 world_meaning: ''
 distortion_risk: 'The legal category was uncertain — Christians were sometimes treated as an illegal association,
   but the charge was never straightforward or uniform.

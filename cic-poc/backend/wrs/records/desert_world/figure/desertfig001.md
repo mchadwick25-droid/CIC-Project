@@ -13,6 +13,7 @@ names:
   name_kind: in-world
 - name: Antony of Egypt (the Great)
   name_kind: scholarly
+bridge_line: "The Egyptian who went into the desert, and drew others after him."
 narratable: true
 story_ids:
 - desertstory001
