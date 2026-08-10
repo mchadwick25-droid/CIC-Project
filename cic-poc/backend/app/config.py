@@ -52,7 +52,25 @@ class Settings(BaseSettings):
 
     # LLM Configuration
     llm_provider: Literal["anthropic", "openai"] = "anthropic"
-    llm_model: str = "claude-sonnet-5"
+    # Representative/Facilitator GENERATION model (get_llm in
+    # app/graph/nodes.py). The classifier/monitoring tier is separate and
+    # hardcoded - see get_monitoring_llm - so changing this does NOT change
+    # what the safety and routing classifiers run on.
+    #
+    # Moved off claude-sonnet-5 on 2026-08-09 at Mark's direction, on cost:
+    # generation is 71% of spend and Haiku 4.5 is -47% of the whole bill on
+    # the measured token shape. Shipped ahead of the blind-graded quality
+    # battery Pass 3 asked for, against a stated tolerance for "a small
+    # drop"; the reasoning, the risk and what to watch are recorded at
+    # length in render.yaml (the deployed source of truth for this value)
+    # and Ministry/Technology/CiC_LLM_Provider_Cost_Options_2026-08-09.md.
+    #
+    # NB: generation and monitoring now run the SAME model string. Nothing
+    # in the app depends on them differing, but any cost analysis that
+    # splits calls by model rather than by log LABEL will silently report
+    # zero generation calls - Pass3/provider_repricing.py was fixed for
+    # this on the same date.
+    llm_model: str = "claude-haiku-4-5-20251001"
     # When true, every LLM call in the backend (representative/facilitator
     # generation, all classifiers, retrieval filtering) is replaced with a
     # zero-cost mock (see app/mock_llm.py) - no network call, no API spend.

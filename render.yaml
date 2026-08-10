@@ -33,5 +33,43 @@ services:
         sync: false
       - key: LLM_PROVIDER
         value: anthropic
+      # Representative/Facilitator GENERATION model. Moved from
+      # claude-sonnet-5 to Haiku 4.5 on 2026-08-09 at Mark's direction, on
+      # cost: repricing the committed cost baseline puts this at -47% of
+      # the whole bill (see Ministry/Technology/Pass3/provider_repricing.py
+      # and CiC_LLM_Provider_Cost_Options_2026-08-09.md). Generation is 71%
+      # of spend, so this one line is the entire available saving short of
+      # a provider migration - and it beats migrating to Gemini 3 Pro or
+      # GPT-5.6 Terra, both of which save less for weeks of work.
+      #
+      # SHIPPED AHEAD OF ITS QUALITY GATE, deliberately and on the record.
+      # Pass 3 (cost_floor_model.py Step 7) declined to recommend this
+      # blind: the prompts carry ~55 distinct prohibitive constructions
+      # plus 7 worked WRONG/RIGHT pairs, and dense negative-constraint
+      # instruction-following over long context is where a smaller model
+      # degrades first. None of the three real-time blocking checks covers
+      # that axis - the post-hoc detectors only queue guidance for a LATER
+      # turn - so a tier failure reaches the participant before anything
+      # catches it. Mark's stated tolerance (2026-08-09): "ok with a
+      # cheaper and a small drop after 15 turns."
+      #
+      # REVERTING IS THIS ONE LINE. Put claude-sonnet-5 back and redeploy;
+      # nothing else in the app is model-specific.
+      #
+      # THE TWO THINGS TO WATCH, both measurable from logs already emitted:
+      # 1. Regeneration rate. Every world in HARD_CEILING_WORLDS
+      #    (nodes.py ~1617) has a ceiling calibrated against a SONNET-
+      #    measured voice profile. A regeneration costs MORE than the
+      #    original turn (it re-sends the whole prompt plus the discarded
+      #    draft), and Desert already regenerated on 80% of turns on
+      #    Sonnet. If Haiku's length adherence is worse, the extra
+      #    regenerations eat the saving. app/length_ceiling_logging.py
+      #    already emits a machine-parseable line per outcome - count it
+      #    before concluding this switch saved anything.
+      # 2. Cache behaviour. Haiku 4.5's minimum cacheable prefix is 4096
+      #    tokens vs Sonnet's 1024. The representative prefix is ~15.2k
+      #    measured, so both breakpoints in _cached_system_message should
+      #    still cache - but confirm cache_read is non-zero in the
+      #    [llm_usage] lines rather than assuming it.
       - key: LLM_MODEL
-        value: claude-sonnet-5
+        value: claude-haiku-4-5-20251001

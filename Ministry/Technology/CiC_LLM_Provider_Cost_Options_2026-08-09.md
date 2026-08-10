@@ -15,16 +15,16 @@ Two things are true and they pull in opposite directions.
 
 **But the bill does not move 50%, and the plan already assumed the higher number.**
 
-- **The bill moves +30%, not +50%.** [M] 29% of this app's spend is Haiku 4.5 classifier calls, which are completely unaffected. Repricing the measured baseline: **solo +30.3%, Table +31.9%.**
+- **The bill moves +30%, not +50%.** [M] 30% of this app's spend is Haiku 4.5 classifier calls, which are completely unaffected. Repricing the measured baseline: **solo +29.7%, Table +31.4%.**
 - **The plan of record was already priced at $3/$15.** `Ministry/Technology/Pass3/cost_floor_model.py` (2026-07-30) has `"claude-sonnet-5": (3.00, 15.00, 3.75, 0.30)` hardcoded in its `PRICING` dict. Every figure it produced — $1.61/hr solo, $4.14/hr Table current; ~$1.35/$2.08 after the stacked moves — is **already a post-increase figure.** Nothing in the cost plan needs re-deriving because of September 1.
 
 What actually changes on September 1 is that the bills Mark *sees* stop being 24% cheaper than the bills the plan *predicted*. That is a real and unwelcome thing. It is not a new problem — it is the arrival of the problem Pass 3 already documented and did not solve.
 
 | [M] measured baseline, dead code excluded | Solo | Table (3 worlds) |
 |---|---|---|
-| At intro rates (what has been billed) | $1.27/hr | $3.38/hr |
-| From September 1 | $1.65/hr | $4.45/hr |
-| Change | **+30.3%** | **+31.9%** |
+| At intro rates (what has been billed) | $1.18/hr | $3.00/hr |
+| From September 1 | $1.53/hr | $3.95/hr |
+| Change | **+29.7%** | **+31.4%** |
 | Stated target band | $0.25–1.00/hr | $0.25–1.00/hr |
 
 The honest framing: **this project was already outside its own cost target at intro pricing.** September 1 widens a gap that was already there. That matters, because it means "switch provider to absorb the increase" is aiming at the wrong number — absorbing 30% still leaves you outside the band.
@@ -35,15 +35,15 @@ The honest framing: **this project was already outside its own cost target at in
 
 [M] From the measured baseline, with the known-dead `retrieval_filter_*` calls excluded:
 
-- **Generation — `get_llm()`, 76 calls — is 71% of the bill.**
-- **Classifiers — `get_monitoring_llm()`, 353 calls on Haiku 4.5 — are 29%.**
+- **Generation — `get_llm()`, 76 calls — is 70% of the bill.**
+- **Classifiers — `get_monitoring_llm()`, 353 calls on Haiku 4.5 — are 30%.**
 
-Within generation: uncached input 47%, cache write 28%, cache read 12%, **output only 13%.**
+Within generation: uncached input 52%, cache write 20%, cache read 13%, **output only 15%.**
 
 Two consequences, both load-bearing:
 
 1. **A provider swap that touches only `get_llm()` captures ~all of the available saving.** The classifier tier is already on the cheapest sensible model; nothing on any provider's menu meaningfully beats Haiku 4.5 for a call that returns one word.
-2. **40% of generation cost is prompt-cache mechanics.** That is not incidental — it is the direct result of deliberate engineering (`_cached_system_message`, `_cached_adjudication_message`, the `table_discourse` breakpoint split). **That engineering is Anthropic-shaped and does not port.** Section 4 returns to this; it is the single most underestimated line in any migration estimate.
+2. **33% of generation cost is prompt-cache mechanics.** That is not incidental — it is the direct result of deliberate engineering (`_cached_system_message`, `_cached_adjudication_message`, the `table_discourse` breakpoint split). **That engineering is Anthropic-shaped and does not port.** Section 4 returns to this; it is the single most underestimated line in any migration estimate.
 
 ---
 
@@ -53,22 +53,22 @@ Two consequences, both load-bearing:
 
 | Generation model | Total | Solo $/hr | Table $/hr | vs. Sonnet 5 (Sep 1) | Work to adopt |
 |---|---|---|---|---|---|
-| Sonnet 5 (Sep 1) | $3.14 | 1.65 | 4.45 | — | none (status quo) |
-| Sonnet 5 (intro, today) | $2.39 | 1.27 | 3.38 | −23.7% | expires Aug 31 |
-| Opus 5 | $4.62 | 2.42 | 6.61 | +47.4% | none |
-| **Haiku 4.5** | **$1.65** | **0.88** | **2.30** | **−47.4%** | **one config line** |
-| Gemini 3 Pro | $2.22 | 1.20 | 3.07 | −29.1% | full migration |
-| Gemini 3 Flash | $1.24 | 0.67 | 1.68 | −60.6% | full migration |
-| GPT-5.6 Terra | $2.28 | 1.22 | 3.16 | −27.4% | full migration |
-| GPT-5.6 Luna | $1.04 | 0.57 | 1.42 | −66.7% | full migration |
+| Sonnet 5 (Sep 1) | $2.84 | 1.53 | 3.95 | — | none (status quo) |
+| Sonnet 5 (intro, today) | $2.18 | 1.18 | 3.00 | −23.4% | expires Aug 31 |
+| Opus 5 | $4.17 | 2.23 | 5.83 | +46.7% | none |
+| **Haiku 4.5** | **$1.51** | **0.83** | **2.06** | **−46.7%** | **one config line** |
+| Gemini 3 Pro | $2.16 | 1.18 | 2.96 | −23.8% | full migration |
+| Gemini 3 Flash | $1.18 | 0.65 | 1.58 | −58.5% | full migration |
+| GPT-5.6 Terra | $2.22 | 1.20 | 3.05 | −22.0% | full migration |
+| GPT-5.6 Luna | $0.99 | 0.55 | 1.31 | −65.3% | full migration |
 
 **The finding that should drive the decision:**
 
-> **Gemini 3 Pro (−29%) and GPT-5.6 Terra (−27%) are both *worse deals than Haiku 4.5* (−47%), which requires no migration at all.**
+> **Gemini 3 Pro (−24%) and GPT-5.6 Terra (−22%) are both *worse deals than Haiku 4.5* (−47%), which requires no migration at all.**
 
 The peer-tier competitors — the ones you'd reach for if the worry is that a smaller model can't hold the Representative's voice — save *less* than a one-line config change, while costing weeks of engineering and a full revalidation. They are strictly dominated. Migrating to Gemini 3 Pro or GPT-5.6 Terra to save money is not a close call; it's a mistake.
 
-Only two options beat Haiku 4.5: **Gemini 3 Flash (−61%)** and **GPT-5.6 Luna (−67%)**. Both are bottom-tier models. Which puts the real decision in sharp focus, and it is not a provider decision at all:
+Only two options beat Haiku 4.5: **Gemini 3 Flash (−59%)** and **GPT-5.6 Luna (−65%)**. Both are bottom-tier models. Which puts the real decision in sharp focus, and it is not a provider decision at all:
 
 **The question is not "which company." It is "can a small model hold a Representative?" Pass 3 already asked that question, and deliberately refused to answer it for you.** From `cost_floor_model.py` Step 7, on the Haiku option:
 
@@ -85,7 +85,7 @@ That warning applies with **more** force to Gemini 3 Flash and GPT-5.6 Luna than
 
 It doesn't overturn the ranking (~1–4% of a Flash session, 5–15% on Pro), but it means Gemini's headline rate flatters it — and it **penalises exactly the slow, contemplative pacing this project says it wants.** Gemini's *implicit* cache has no storage charge but no hit guarantee either, which is the worse trade for a prompt that has been deliberately engineered to be byte-stable.
 
-**[S] Tokenizer.** Every count above is a Sonnet-5-tokenizer count, and Anthropic states that tokenizer emits ~30% more tokens for the same text than its predecessor. Gemini and OpenAI tokenize this prose differently and generally more compactly, so a straight token-for-token reprice probably *understates* their advantage. At −20% tokens, Gemini 3 Flash lands at −63% and Luna at −68%. **Unvalidated in either direction.** One hour of work settles it — run the actual permanent prompts through each provider's own tokenizer — and no figure here should be quoted to anyone outside the project until that's done.
+**[S] Tokenizer.** Every count above is a Sonnet-5-tokenizer count, and Anthropic states that tokenizer emits ~30% more tokens for the same text than its predecessor. Gemini and OpenAI tokenize this prose differently and generally more compactly, so a straight token-for-token reprice probably *understates* their advantage. At −20% tokens, Gemini 3 Flash lands at −61% and Luna at −66%. **Unvalidated in either direction.** One hour of work settles it — run the actual permanent prompts through each provider's own tokenizer — and no figure here should be quoted to anyone outside the project until that's done.
 
 ---
 
@@ -98,7 +98,7 @@ The `AWS_BEDROCK_SETUP.md` estimate ("four call sites branch on `settings.llm_pr
 - Four constructor sites: `graph/nodes.py:197` (`get_llm`), `graph/nodes.py:276` (`get_monitoring_llm`), `rag/retriever.py:84`, `rag/story_retriever.py:55`. These are the only four places in the codebase that read `settings.llm_provider`. Worth collapsing into one factory while in there.
 
 **Tier 2 — the part that gets underestimated (1–2 weeks)**
-- **Prompt caching does not port.** Four sites build Anthropic-shaped `cache_control` blocks — `nodes.py:1328`, `:1333`, `:2152`, `repair_classifier.py:254` — and **none of them is guarded by a provider check.** They run unconditionally. On Gemini, explicit caching is a separate `cachedContents` resource with its own lifecycle, TTL management and storage billing — a different architecture, not a different field name. On OpenAI, caching is automatic and prefix-based, so the careful two-breakpoint split in `_cached_system_message` (static prompt / reactive guidance / dynamic context) becomes meaningless and has to be re-reasoned. **40% of generation cost lives in this machinery.** A migration that ports the models but not the caching doesn't save 61% — it can easily save nothing.
+- **Prompt caching does not port.** Four sites build Anthropic-shaped `cache_control` blocks — `nodes.py:1328`, `:1333`, `:2152`, `repair_classifier.py:254` — and **none of them is guarded by a provider check.** They run unconditionally. On Gemini, explicit caching is a separate `cachedContents` resource with its own lifecycle, TTL management and storage billing — a different architecture, not a different field name. On OpenAI, caching is automatic and prefix-based, so the careful two-breakpoint split in `_cached_system_message` (static prompt / reactive guidance / dynamic context) becomes meaningless and has to be re-reasoned. **33% of generation cost lives in this machinery.** A migration that ports the models but not the caching doesn't save 59% — it can easily save nothing.
 - **⚠️ Corollary worth knowing now: the existing `openai` provider option is almost certainly broken today.** Those unconditional `cache_control` blocks get handed to `ChatOpenAI` whenever `LLM_PROVIDER=openai`. The `.env.example` still advertises `gpt-4o` / `gpt-4o-mini` — models from two generations back. **"We already support OpenAI" is a config value, not a working path.** Verifiable in ten minutes with `MOCK_LLM=false` and any key. Whatever else is decided, this should either be fixed or removed, because it currently reads as a fallback that isn't one.
 - **`thinking={"type": "disabled"}`** (`nodes.py:203`, `:285`) is an Anthropic-only kwarg, and it is not cosmetic — it's the fix for a live-diagnosed bug where interleaved thinking blocks ate the `max_tokens` budget and truncated reactive turns mid-sentence. Every provider needs its own equivalent, and Gemini 3 Flash has thinking on by default and bills it as output.
 - **`app/usage_logging.py`** reads `cache_creation_input_tokens` / `cache_read_input_tokens` — explicitly documented there as Anthropic-specific and outside LangChain's standardised shape. **On migration, cost visibility goes dark** — exactly the instrumentation gap that file was written in July to close.
@@ -156,7 +156,9 @@ This was a misreading on my part, not an error in the cost model. `cost_floor_mo
 
 **What this changes about the recommendation:** the sequence below is unchanged in order, but step 1 is now done and was worth nothing, so **there is no large no-risk saving left on the shelf.** The remaining Anthropic-side tuning is worth ~12%, worth doing, and not the answer. That makes the Haiku decision more load-bearing than section 6 originally implied, not less — it is now the *only* move that reaches the target band.
 
-*Reconciliation item, flagged not resolved:* this analysis prices cache writes at the 1-hour rate (2.0× base) because `_cached_system_message` sets `ttl="1h"`; `cost_floor_model.py` prices them at the 5-minute rate (1.25×) and treats a 1h TTL as a *prospective* move. Both cannot be right about the run that produced the baseline. Hence $1.65/hr here vs $1.61/hr there. Small, moves no conclusion, should be settled the moment a live key exists rather than carried forward in two places.
+*Reconciliation item — **now resolved, against this analysis.** Every figure above was re-derived on 2026-08-09 as a result, which is why they differ slightly from the version first issued.* This analysis originally priced cache writes at the 1-hour rate (2.0×) because `_cached_system_message` sets `ttl="1h"`; `cost_floor_model.py` and `scripts/cost_baseline_runner.py` both price them at the 5-minute rate (1.25×). The committed run notes settle it — `cost_baseline_2026-07_run_notes.md` note 2 records a **330-second pause expiring the cache** (C3 turn 5 cache_read 15,737 → turn 6 cache_read 0, full prefix re-paid), and only a 5-minute TTL does that. The baseline's cache counts are 5-minute counts and are now priced at 1.25× here too. The other two tools were right. Cross-check that now passes and did not before: this analysis's generation token mix (52% uncached input / 15% output) matches `cost_floor_model.py`'s own Step 2 (52% / 14%).
+
+**Still genuinely open, and it is a question rather than a rounding item:** the deployed code sets `ttl="1h"` *now*, yet `cost_floor_model.py`'s A2 move analysed that switch and found it a **net loss** at the measured pause rate (break-even 1.6 re-writes per initial write; the run measured 1.5). Either pacing changed or 1h was adopted against that finding. It can't be settled by arithmetic — a 1h TTL changes the re-write *counts*, not just the rate — so it needs one fresh measurement. Fold it into the same live run as the Haiku battery; both need only a key.
 
 ---
 

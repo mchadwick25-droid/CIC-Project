@@ -24,7 +24,10 @@ PRICING VERIFIED 2026-08-09 (all $/MTok, standard/non-batch):
     sonnet-5, from   2026-09-01    in 3.00  out 15.00  cw5m 3.75  cr 0.30
     haiku-4.5                      in 1.00  out  5.00  cw5m 1.25  cr 0.10
     opus-5                         in 5.00  out 25.00  cw5m 6.25  cr 0.50
-    1h cache write = 2.0x base input (the TTL this app actually sets).
+    Writes are priced at the 5-MINUTE rate (1.25x) throughout, because the
+    committed run notes show this baseline was measured under a 5m TTL.
+    The deployed code now sets ttl="1h" (2.0x); see the RATES comment for
+    why that cannot be applied to these counts by swapping the rate.
 
   Google Gemini (ai.google.dev pricing; blocked from direct fetch here, so
   taken from aggregator agreement across benchlm/costgoat/pricepertoken)
@@ -61,19 +64,40 @@ REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
 RAW = os.path.join(REPO, "Ministry", "Technology", "Pass2", "baselines",
                    "cost_baseline_2026-07_raw.jsonl")
 
-# (input, output, cache_write_multiplier_used_by_this_app, cache_read)
-# cache-write column is the ABSOLUTE $/MTok this app would pay, i.e. the 1h
-# write rate where the provider has one and the app sets ttl=1h.
+# (input, output, cache_write, cache_read) - absolute $/MTok.
+#
+# CACHE-WRITE BASIS, corrected 2026-08-09. This first priced Anthropic writes
+# at the 1-hour rate (2.0x base) because nodes.py._cached_system_message sets
+# ttl="1h" today. That was wrong for THIS log. The committed run notes
+# (Pass2/baselines/cost_baseline_2026-07_run_notes.md, note 2) record the
+# measurement as textbook 5-minute behaviour: C3 turn 5 cache_read 15,737 ->
+# a 330-second pause -> turn 6 cache_read 0 with the full 15,737 re-paid as a
+# write. A 5.5-minute pause only expires a 5-minute cache. The app was on the
+# 5m TTL when this was measured, so its cache_creation counts are 5m counts
+# and must be priced at 1.25x - which is what cost_floor_model.py and
+# scripts/cost_baseline_runner.py both do. They were right; this was not.
+#
+# The 1h TTL cannot be modelled by swapping the rate alone: it changes the
+# COUNTS as well (fewer re-writes, each at 2.0x instead of 1.25x). Anthropic
+# writes below are therefore 1.25x, matching the counts they multiply.
+# cost_floor_model.py's own A2 move analysed the 1h switch properly and found
+# it a NET LOSS at the measured pause rate; that the deployed code now sets
+# 1h anyway is worth reconciling against fresh measurement, and is logged as
+# an open item rather than silently priced here either way.
+#
+# Gemini's explicit cache charges the write at the base input rate plus a
+# separate per-hour storage charge (modelled in STEP 3, not here). GPT-5.6
+# bills writes at 1.25x input, same shape as Anthropic.
 RATES = {
-    # provider-model             in     out     cw(1h)   cr
-    "sonnet-5 (intro, now)":   (2.00,  10.00,   4.00,   0.20),
-    "sonnet-5 (from Sep 1)":   (3.00,  15.00,   6.00,   0.30),
-    "haiku-4.5":               (1.00,   5.00,   2.00,   0.10),
-    "opus-5":                  (5.00,  25.00,  10.00,   0.50),
-    "gemini-3-pro":            (2.00,  12.00,   2.00,   0.20),
-    "gemini-3-flash":          (0.50,   3.00,   0.50,   0.05),
-    "gpt-5.6-terra":           (2.00,  12.00,   2.50,   0.20),
-    "gpt-5.6-luna":            (0.20,   1.20,   0.25,   0.02),
+    # provider-model             in     out     cw      cr
+    "sonnet-5 (intro, now)":   (2.00,  10.00,  2.50,   0.20),
+    "sonnet-5 (from Sep 1)":   (3.00,  15.00,  3.75,   0.30),
+    "haiku-4.5":               (1.00,   5.00,  1.25,   0.10),
+    "opus-5":                  (5.00,  25.00,  6.25,   0.50),
+    "gemini-3-pro":            (2.00,  12.00,  2.00,   0.20),
+    "gemini-3-flash":          (0.50,   3.00,  0.50,   0.05),
+    "gpt-5.6-terra":           (2.00,  12.00,  2.50,   0.20),
+    "gpt-5.6-luna":            (0.20,   1.20,  0.25,   0.02),
 }
 
 # Gemini explicit-cache STORAGE, $/MTok/hour. Anthropic and OpenAI have no
@@ -105,9 +129,58 @@ def hdr(t):
 rows = [json.loads(l) for l in open(RAW)]
 llm = [r for r in rows if r.get("kind") == "llm_call" and r["label"] not in DEAD]
 
-# Split the measured shape into the two routing tiers the code already has.
-gen = [r for r in llm if r["model"] == "claude-sonnet-5"]
-clf = [r for r in llm if r["model"] != "claude-sonnet-5"]
+# Every label whose call site constructs get_llm() - i.e. the GENERATION
+# tier, billed at settings.llm_model. Everything else goes through
+# get_monitoring_llm() (or the retrievers' filter_llm) and is billed at the
+# hardcoded classifier model. Derived by reading the log_llm_usage() call
+# sites in app/graph/nodes.py, app/main.py and app/graph/*.
+#
+# Split by LABEL, not by model string. It used to be `model ==
+# "claude-sonnet-5"`, which broke silently on 2026-08-09 the moment
+# generation moved to Haiku 4.5: both tiers then report the same model and
+# a model-based split reports ZERO generation calls, quietly zeroing 71% of
+# the bill. The assertion below is the guard - it fails loudly on any
+# future baseline containing a label this set does not know about.
+GEN_LABELS = {
+    "main_response",
+    "facilitator_reception",
+    "facilitator_handoff",
+    "facilitator_bridge",
+    "facilitator_close",
+    "frame_breaker_response",
+    "frame_breaker_response_plain",
+    "relational_safety_response",
+    "modern_term_bridge_facilitator_turn",
+    "closing_turn_resources_offer",
+    "closing_turn_resources_show",
+    "closing_turn_sensed_close",
+}
+CLF_LABELS = {
+    "frame_breaker", "relational_safety", "epistemology_bridge",
+    "modern_term_bridge", "wind_down", "drift_detection",
+    "over_settling_screen", "over_settling_adjudication",
+    "fabrication_adjudication", "turn_selector", "turn_type_router",
+    "convergence_check", "reroot_guidance", "citation_grounding",
+    "closing_reply_classifier",
+    "negative_condition_lexicon", "negative_condition_story",
+}
+
+unknown = {r["label"] for r in llm} - GEN_LABELS - CLF_LABELS
+assert not unknown, (
+    f"unclassified log labels {sorted(unknown)} - add each to GEN_LABELS or "
+    "CLF_LABELS by checking whether its log_llm_usage() call site builds "
+    "get_llm() (generation) or get_monitoring_llm() (classifier). Do NOT "
+    "guess from the model string; both tiers can run the same model."
+)
+
+gen = [r for r in llm if r["label"] in GEN_LABELS]
+clf = [r for r in llm if r["label"] in CLF_LABELS]
+
+# The baseline predates the 2026-08-09 switch, so on THIS log the two
+# splits must still agree. Keeps the label sets honest against the one
+# measurement where both methods are valid.
+assert gen == [r for r in llm if r["model"] == "claude-sonnet-5"], \
+    "label-based split disagrees with the baseline's own model split"
 
 
 def shape(rs):
@@ -283,11 +356,23 @@ print("""  CORRECTED 2026-08-09. The first version of this block claimed removin
        nally further for weeks of work. That gap is the whole case
        against migrating.
 
-  NB - a reconciliation item for the next live measurement. This script
-  prices cache writes at the 1-hour rate (2.0x base) because the code sets
-  ttl="1h" in _cached_system_message; cost_floor_model.py prices them at
-  the 5-minute rate (1.25x) and treats a 1h TTL as a prospective move.
-  Both cannot be right about the run that produced the baseline. Hence
-  this script's $1.65/hr solo vs the cost model's $1.61/hr. The difference
-  is small and does not move any conclusion here, but it should be settled
-  the moment a live key exists rather than carried forward twice.""")
+  NB - the cache-TTL discrepancy this script previously flagged is now
+  RESOLVED, against this script. It priced cache writes at the 1h rate
+  (2.0x) because the deployed code sets ttl="1h"; cost_floor_model.py and
+  cost_baseline_runner.py priced them at 5m (1.25x). The committed run
+  notes settle it: the 2026-07-26 measurement shows a 330-second pause
+  expiring the cache, which only a 5-minute TTL does. The counts in this
+  log are 5m counts and are now priced at 1.25x here too, matching the
+  other two tools. Solo TRUE CURRENT accordingly moves $1.65 -> $1.53/hr,
+  and the generation token mix now matches cost_floor_model.py's Step 2
+  almost exactly (52% uncached input / 15% output vs its 52% / 14%) - a
+  cross-check that was not passing before this correction.
+
+  WHAT IS STILL OPEN, and it is a real question rather than a rounding
+  item: the deployed code sets ttl="1h" NOW, and cost_floor_model.py's own
+  A2 move found the 1h TTL to be a NET LOSS at the measured pause rate
+  (break-even is 1.6 writes per initial write; the run measured 1.5). Either
+  pacing changed, or 1h was adopted against that finding. A 1h TTL cannot be
+  modelled by swapping the rate alone - it changes the re-write COUNTS too -
+  so this needs one fresh measurement, not arithmetic. Worth folding into
+  the same live run as the Haiku battery, since both need only a key.""")
