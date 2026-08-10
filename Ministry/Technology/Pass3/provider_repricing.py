@@ -247,20 +247,47 @@ print("""  [!] Unvalidated in either direction. Worth one hour of measurement
       tokenizer) before any figure here is quoted to anyone.""")
 
 hdr("STEP 5 - MIGRATION vs THE MOVES ALREADY ON THE SHELF")
-print("""  cost_floor_model.py already costed a stack of Anthropic-side moves that
-  need no provider change at all. Setting them side by side, per SOLO hour:
+print("""  CORRECTED 2026-08-09. The first version of this block claimed removing
+  the dead retrieval_filter_* calls was a -33% saving still available to
+  take. That was wrong twice over, and the error was mine, not the cost
+  model's - cost_floor_model.py's Step 1 is headed "dead code out, LIVE
+  PATH IN" and its "TRUE CURRENT" line already means "what the code costs
+  today". Verified directly against the source:
 
-    [M] measured, dead code still in, Sep-1 rates      ~$2.42/hr
-    [E] dead retrieval_filter_* removed                 ~$1.61/hr   -33%
-    [E] + A1/A3 lossless + B1/B2 (the 20% budget)       ~$1.42/hr   -41%
-    [E] same, but generation on Gemini 3 Flash          ~$0.55/hr   -77%
-    [E] same, but generation on Haiku 4.5               ~$0.63/hr   -74%
+    - S3.4 (Pass 1 R6) had ALREADY removed the batched relevance vote.
+      The functions that made those calls (evaluate_batch, _run_batch,
+      partition_tier1_short_circuit in app/rag/batch_evaluate.py) sat
+      uncalled in the file until they were deleted 2026-08-09. Nothing in
+      app/rag/pipeline.py ever imported them. The saving was banked before
+      this analysis started.
+    - The magnitude was wrong too. -33% came from dividing against the
+      wrong baseline. Correctly: the dead calls were 15.6% of the measured
+      run; net of the live negative_condition call that replaced them
+      (+$0.0828), the already-realised saving is ~11%, not 33%.
 
-  Two things follow, and they point in different directions:
-    1. The single largest UNAMBIGUOUS win is still deleting dead code and
-       capping Table rounds. It costs nothing, risks nothing, and it is not
-       done yet. Provider migration cannot be justified until it is.
-    2. Beyond that, no stack of Anthropic-side tuning reaches the stated
-       $0.25-1.00/hr band. Only a cheaper generation model does. That is
-       true whether the cheaper model is Haiku 4.5 or a competitor - and
-       Haiku 4.5 requires ZERO migration work, only a config change.""")
+  What is actually left, per SOLO hour, at Sep-1 rates:
+
+    [M] committed baseline, as measured 2026-07          ~$1.81/hr
+    [E] TRUE CURRENT - what the code costs today          ~$1.61/hr   (banked)
+    [E] + A1/A3 lossless + B1/B2 (the 20% budget)         ~$1.42/hr   -12%
+    [E] same, but generation on Haiku 4.5                 ~$0.63/hr   -61%
+    [E] same, but generation on Gemini 3 Flash            ~$0.55/hr   -66%
+
+  Two things follow:
+    1. There is no large no-risk saving left on the shelf. The Anthropic-
+       side tuning that remains (A1/A3/B1/B2, plus B3 at the Table) is
+       worth ~12% and is worth doing, but it is not the answer.
+    2. Nothing short of a cheaper generation model reaches the stated
+       $0.25-1.00/hr band. Haiku 4.5 gets there and requires ZERO
+       migration work, only a config change; Gemini 3 Flash gets margi-
+       nally further for weeks of work. That gap is the whole case
+       against migrating.
+
+  NB - a reconciliation item for the next live measurement. This script
+  prices cache writes at the 1-hour rate (2.0x base) because the code sets
+  ttl="1h" in _cached_system_message; cost_floor_model.py prices them at
+  the 5-minute rate (1.25x) and treats a 1h TTL as a prospective move.
+  Both cannot be right about the run that produced the baseline. Hence
+  this script's $1.65/hr solo vs the cost model's $1.61/hr. The difference
+  is small and does not move any conclusion here, but it should be settled
+  the moment a live key exists rather than carried forward twice.""")

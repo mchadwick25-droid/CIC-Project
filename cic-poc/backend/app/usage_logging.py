@@ -59,7 +59,12 @@ def log_llm_usage(
 
     label: which call this was - e.g. "main_response", "frame_breaker",
         "relational_safety", "epistemology_bridge", "modern_term_bridge",
-        "wind_down", "retrieval_filter_lexicon", "retrieval_filter_story".
+        "wind_down", "negative_condition_lexicon",
+        "negative_condition_story". The retrieval labels were
+        "retrieval_filter_lexicon"/"_story" until S3.4 replaced the batched
+        relevance vote with the local cross-encoder; the committed cost
+        baseline predates that change and still carries the old labels, so
+        a log line bearing one is from before 2026-08-09 by definition.
     response: the LangChain message object returned by .invoke() (an
         AIMessage), or - for a streamed call - the accumulated chunk built
         by summing every AIMessageChunk yielded during the stream (see

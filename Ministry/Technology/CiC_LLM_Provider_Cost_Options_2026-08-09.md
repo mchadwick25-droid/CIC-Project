@@ -132,13 +132,41 @@ That last point is the trap. Every figure in Section 3 assumes identical token s
 
 ---
 
+## 5b. Correction — logged same day, before anything was acted on
+
+**Two things in the first version of section 6 were wrong, and both mattered.** Mark asked for step 1 to be executed; verifying the code before deleting anything is what surfaced them.
+
+**The dead `retrieval_filter_*` saving was already banked, not available.** S3.4 (Pass 1 R6) had already replaced the batched relevance vote with the local cross-encoder. The functions that made those calls — `evaluate_batch`, `_run_batch`, `partition_tier1_short_circuit` in `app/rag/batch_evaluate.py` — had been sitting **uncalled** in the file ever since; `app/rag/pipeline.py` imports only `Candidate`, `_evaluable_negative_condition` and `evaluate_negative_conditions`, and never imported the others. The calls stopped being made at S3.4. They appear in the committed baseline only because that log predates the rewiring.
+
+This was a misreading on my part, not an error in the cost model. `cost_floor_model.py`'s Step 1 is headed *"dead code out, **live path in**"*, and its "TRUE CURRENT" line already means "what the code costs today." I read an accounting adjustment as a to-do.
+
+**The magnitude was also wrong.** The −33% came from dividing against the wrong baseline. Correctly: the dead calls were **15.6%** of the measured run; net of the live `negative_condition` call that replaced them (+$0.0828), the already-realised saving is **~11%**.
+
+**What was actually done, 2026-08-09:** the three uncalled functions deleted (115 lines), plus `TIER1_SHORT_CIRCUIT_RANK`. Verified: the file compiles, and every name `pipeline.py` imports still exists. Two stale docstrings corrected in the same pass — `retrieval_eval/run_eval.py`, which described the pre-S3.4 pipeline and named functions that no longer exist, and `usage_logging.py`, which still advertised the retired labels. **Dollar effect: zero.** This is hygiene, and it removes a misleading label from the codebase so the next cost reading can't repeat the mistake.
+
+**Corrected position, per solo hour at September rates:**
+
+| | $/hr | |
+|---|---|---|
+| [M] Committed baseline, as measured July | ~$1.81 | |
+| [E] **True current — what the code costs today** | **~$1.61** | already banked |
+| [E] + A1/A3 lossless + B1/B2 (the 20% budget) | ~$1.42 | −12% available |
+| [E] same, generation on Haiku 4.5 | ~$0.63 | −61% |
+| [E] same, generation on Gemini 3 Flash | ~$0.55 | −66% |
+
+**What this changes about the recommendation:** the sequence below is unchanged in order, but step 1 is now done and was worth nothing, so **there is no large no-risk saving left on the shelf.** The remaining Anthropic-side tuning is worth ~12%, worth doing, and not the answer. That makes the Haiku decision more load-bearing than section 6 originally implied, not less — it is now the *only* move that reaches the target band.
+
+*Reconciliation item, flagged not resolved:* this analysis prices cache writes at the 1-hour rate (2.0× base) because `_cached_system_message` sets `ttl="1h"`; `cost_floor_model.py` prices them at the 5-minute rate (1.25×) and treats a 1h TTL as a *prospective* move. Both cannot be right about the run that produced the baseline. Hence $1.65/hr here vs $1.61/hr there. Small, moves no conclusion, should be settled the moment a live key exists rather than carried forward in two places.
+
+---
+
 ## 6. Recommendation
 
 **Do not migrate providers. Not yet, and probably not to Gemini or OpenAI at all.** Not because Anthropic deserves loyalty — because the arithmetic says the peer-tier competitors save less than a config flip you already have available, and the sub-tier competitors carry the same quality risk as Haiku 4.5 while also costing weeks of work and voiding Pass 2's entire evidence base.
 
 Sequenced by ratio of saving to risk:
 
-1. **Delete the dead `retrieval_filter_*` calls.** [M] −33%, no participant-visible change, no quality risk. **This is the single largest unambiguous win available and it is still not done.** It alone is larger than the September increase.
+1. ~~**Delete the dead `retrieval_filter_*` calls.**~~ **Done 2026-08-09 — and worth $0.** See section 5b: the saving was already banked at S3.4; only uncalled code remained. Corrected magnitude was ~11%, not −33%, and it was realised before this analysis began.
 2. **Route through Bedrock to spend the $200 AWS credit.** Buys 4–6 months of runway at zero quality risk. Verify 1h TTL for Sonnet 5 first.
 3. **Apply the Pass 3 lossless + 20%-budget moves (A1, A3, B1, B2, B3).** [E] to ~$1.42/hr solo.
 4. **Run the Haiku 4.5 quality test Pass 3 asked for.** Re-run the S4.3 blind-graded battery with Haiku-generated Representative turns against the same graders, plus the safety batteries. It needs a live key and nothing else. **This is the decision gate** — it settles the only question that matters, and it settles it for *every* cheap-model option at once, because it's testing the capability axis, not the vendor.
@@ -149,7 +177,19 @@ Sequenced by ratio of saving to risk:
 
 ---
 
-## 7. One question back
+## 7. The question — answered 2026-08-09
+
+**Mark's answer, verbatim: "im ok with a cheaper and a small drop after 15 turns."**
+
+Recorded as a real decision, and it settles the gate in advance: **an ambiguous Haiku result is a PASS, not a re-run.** The battery is now a measurement of *how large* the drop is, not a yes/no on whether any drop is tolerable. That is a meaningful narrowing — it means step 4 can no longer stall.
+
+Three things follow, and the third is the one that needs Mark's eye:
+
+1. **Take Haiku 4.5 unless the battery shows something worse than "small."** The decision reverses the default: previously an ambiguous result meant hold Sonnet; now it means ship Haiku. What still stops it is a *category* failure, not a frequency one — a relational-safety or acute-distress miss is not a "small drop," and that battery is a separate pass/fail with no tolerance band. Worth being explicit that "cheaper is fine" was said about voice and constraint adherence, not about the distress path.
+2. **The battery still has to run, and it now has a threshold to measure against.** "Small" needs a number before the run, not after — otherwise whatever comes back gets read as small. Proposal: ≤1 constraint drop per 15 Representative turns on the S4.3 blind-graded shape, judged by the same graders, with zero safety-category misses. If it lands there, take Haiku and stop spending on this question.
+3. **The honest cost of this decision is not in the budget — it's in what participants are told.** A known, accepted defect rate is compatible with Trustworthy Transparency *only if it is disclosed.* Right now nothing in the participant-facing copy says the Representative can be wrong at a measured rate. Once the battery produces a number, that number should reach the onboarding or the confidence labelling in some form. **That is the piece of this decision I'd flag hardest** — accepting the drop is defensible; accepting it silently is the thing the project's own convictions rule out. It needs no decision today, but it should not be discovered later.
+
+### The original question, retained for the record
 
 The mechanics above are answerable with measurement. This one isn't, and it decides step 4's meaning before the battery is ever run:
 
