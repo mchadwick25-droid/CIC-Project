@@ -172,6 +172,56 @@ def _migrated_world_ids() -> frozenset[str]:
 
 
 @lru_cache(maxsize=1)
+def interview_ceiling_words_map() -> dict[str, int]:
+    """Per-world ceiling for INTERVIEW (solo) turns, read from
+    voice_profile.native_measure.interview_ceiling_words.
+
+    Why a second number exists (2026-08-10, Mark's ruling: "interview gets
+    more room than table when it's warranted"). Until now there was ONE
+    ceiling per world, applied byte-identically whether a Representative
+    was one of three voices competing for the floor or the only person in
+    the room. Every ceiling was derived under table conditions, where
+    brevity is what lets three voices fit; in an interview nothing is
+    competing, and the same number reads as a Representative who has
+    little to say. Measured trigger: asked "who was Jesus" solo, Papnoute
+    answered in ~40 words against his 70 ceiling - his world's sayings
+    register applied to a question the world also answers in letters.
+
+    The Blueprint asked for exactly this and it was never done - Phase 3,
+    still open: "HARD_CEILING_WORLDS trigger-behavior verification in
+    Interview mode ... verify what the assembly-fed ceilings actually do,
+    PER MODE, and record it."
+
+    DELIBERATELY EMPTY UNTIL A WORLD DECLARES ONE. A world's measure is a
+    voice decision belonging to its own build and its own sources - the
+    same line that keeps a Representative inside its record store. This
+    function supplies the mechanism; the numbers are authored per world,
+    in-world, with a derivation field like ceiling_words already carries.
+    A world with no interview_ceiling_words keeps its single ceiling in
+    both modes, which is today's exact behavior.
+
+    Same glob-and-parse shape and same fail-open discipline as
+    ceiling_words_map below.
+    """
+    out: dict[str, int] = {}
+    try:
+        for p in _RECORDS_ROOT.glob("*/voice_profile/*.md"):
+            try:
+                front = yaml.safe_load(
+                    p.read_text(encoding="utf-8").split("---", 2)[1])
+                world_id = front.get("world_id")
+                ceiling = (front.get("native_measure") or {}).get(
+                    "interview_ceiling_words")
+                if world_id and isinstance(ceiling, int):
+                    out[world_id] = ceiling
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return out
+
+
+@lru_cache(maxsize=1)
 def ceiling_words_map() -> dict[str, int]:
     """Voice Rebuild Phase 0.1: the record-fed replacement for nodes.py's
     HARD_CEILING_WORLDS dict literal. Reads voice_profile.native_measure.

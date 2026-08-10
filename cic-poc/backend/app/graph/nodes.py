@@ -1743,6 +1743,25 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
                                "post-apostolic-house-church": 1.0,
                                "imperial-juridical-christianity": 1.0}
     ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
+    # MODE-AWARE CEILING (2026-08-10, Mark's ruling: interview gets more
+    # room than table WHEN WARRANTED). Every ceiling above was derived
+    # under table conditions, where brevity is what lets three voices fit,
+    # and was then applied byte-identically to a solo interview where
+    # nothing is competing for the floor - a gap the Blueprint's own Phase 3
+    # asked to verify per mode and nobody had. A world only gets the
+    # interview number if its own voice_profile declares one, so this
+    # changes nothing until a world's build authors it in-world with a
+    # derivation, exactly as ceiling_words already is. No declaration ->
+    # single ceiling in both modes -> today's behavior.
+    if len(getattr(state, "world_ids", None) or []) <= 1:
+        try:
+            from app.graph.repair_classifier import interview_ceiling_words_map
+            _interview = interview_ceiling_words_map().get(
+                ctx["current_world_id"])
+        except Exception:
+            _interview = None
+        if isinstance(_interview, int) and _interview > 0:
+            ceiling = _interview
     retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
 
     if ceiling:
