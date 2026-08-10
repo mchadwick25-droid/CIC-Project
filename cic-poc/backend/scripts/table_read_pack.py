@@ -210,6 +210,33 @@ def main() -> int:
         key.append("")
 
     logs_dir = Path(args.logs_dir)
+    key += ["## Measured cost per arm (same 16 rounds; retries and all "
+            "governance included)", "",
+            "| arm | now (Sonnet intro) | Sept 1+ (Sonnet standard) | "
+            "ceiling fires |", "|---|---|---|---|"]
+    import re as _re
+    _PAT = _re.compile(r"\[llm_usage\] label=(\S+) model=(\S+).*?input_tokens="
+                       r"(\d+) output_tokens=(\d+) cache_creation_input_tokens="
+                       r"(\d+) cache_read_input_tokens=(\d+)")
+    _STD, _INTRO, _HAIKU = (3, 15, 3.75, .30), (2, 10, 2.50, .20), (1, 5, 1.25, .10)
+    for arm in arms:
+        log = logs_dir / ARM_LOGS.get(arm, "")
+        if not log.exists():
+            continue
+        txt = log.read_text(encoding="utf-8", errors="replace")
+        recs = [(m.group(2), int(m.group(3)), int(m.group(4)),
+                 int(m.group(5)), int(m.group(6))) for m in _PAT.finditer(txt)]
+        fires = txt.count("regenerating once")
+
+        def _tot(sonnet):
+            t = 0.0
+            for model, i, o, cw, cr in recs:
+                r = _HAIKU if "haiku" in model else sonnet
+                t += ((i - cr - cw) * r[0] + o * r[1] + cw * r[2] + cr * r[3]) / 1e6
+            return t
+        key.append(f"| {arm} | ${_tot(_INTRO)/16:.4f}/round | "
+                   f"${_tot(_STD)/16:.4f}/round | {fires} |")
+    key.append("")
     key += ["## 1B watchlist — adjudicated fabrication signals, for ruling",
             "Each entry is a post-adjudication survivor (grounded verdicts",
             "log nothing). Precedent: Albina's flag was ruled a classifier",
