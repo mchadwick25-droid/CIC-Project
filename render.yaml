@@ -31,9 +31,106 @@ services:
         sync: false
       - key: CORS_ORIGINS
         sync: false
+      # Conversation tracking. Added 2026-08-09 after Mark confirmed he DOES
+      # want conversations tracked (not necessarily tied to a name), and a
+      # direct read of the code found nothing durable was actually storing
+      # them in this deployment.
+      #
+      # THE GAP, verified in code rather than assumed:
+      #   - OnboardingScreen.tsx tells EVERY participant, unconditionally,
+      #     "Your conversation in this session is being saved and cataloged
+      #     ... reviewed by the project team", and links a privacy page
+      #     stating what is stored and how to request deletion.
+      #   - The durable audit log (events.py _persist_supabase, the
+      #     session_events table) is correctly UN-gated from
+      #     PILOT_LOGGING_ENABLED - but it still returns early when
+      #     supabase_configured() is False.
+      #   - supabase_configured() is just bool(url and service_key), and
+      #     THIS FILE DECLARED NEITHER - unlike ANTHROPIC_API_KEY and
+      #     CORS_ORIGINS above, which are declared sync:false precisely so
+      #     the dashboard is known to be their source.
+      #   - The only other durability is JSONL at
+      #     transcripts/events/<session_id>.jsonl, and this service declares
+      #     NO disk/volume and the Dockerfile no VOLUME - so it is ephemeral
+      #     container storage, wiped on every restart and every redeploy.
+      #
+      # Net effect until these are set: the app promises participants a
+      # catalogued conversation and keeps it only until the next redeploy.
+      #
+      # Declaring them sync:false changes NO behaviour on its own - an unset
+      # value leaves supabase_configured() False exactly as today. It makes
+      # the requirement visible instead of silent. Mark sets the real values
+      # in the Render dashboard (Settings -> Environment); account actions
+      # are his.
+      #
+      # ANONYMITY IS PRESERVED, which is what Mark asked for. Configuring
+      # Supabase does NOT force sign-in: auth.py's get_current_user returns
+      # the anonymous placeholder when Supabase is configured but no token
+      # is offered ("sign-in is an ask for this pilot, not a requirement").
+      # sessions.user_id is nullable and set only for a signed-in
+      # participant (main.py:477), so anonymous conversations are stored
+      # against a session UUID with no name attached.
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      # The human-readable transcript view (sessions + messages tables via
+      # transcript_logging.py) - "the human-readable transcript view Mark
+      # actually reviews", per that module's own docstring. Separate from
+      # the session_events audit log above, and gated on this flag AND
+      # Supabase, so with Supabase unset this remains a no-op.
+      #
+      # The module's stated precondition for turning this on - "only enable
+      # for an actual tester pilot where the onboarding text already
+      # discloses this" - is already met: the cataloging disclosure in
+      # OnboardingScreen.tsx is unconditional and shipped, and links the
+      # privacy page. Turned on 2026-08-09 at Mark's direction.
+      - key: PILOT_LOGGING_ENABLED
+        value: "true"
       - key: LLM_PROVIDER
         value: anthropic
-      # Mark's cost decision 2026-08-10: Haiku fleet-wide, with a spending
-      # limit set console-side. Sonnet remains one line away as rollback.
+      # Representative/Facilitator GENERATION model. Moved from
+      # claude-sonnet-5 to Haiku 4.5 on 2026-08-09 at Mark's direction, on
+      # cost: repricing the committed cost baseline puts this at -47% of
+      # the whole bill (see Ministry/Technology/Pass3/provider_repricing.py
+      # and CiC_LLM_Provider_Cost_Options_2026-08-09.md). Generation is 71%
+      # of spend, so this one line is the entire available saving short of
+      # a provider migration - and it beats migrating to Gemini 3 Pro or
+      # GPT-5.6 Terra, both of which save less for weeks of work.
+      #
+      # SHIPPED AHEAD OF ITS QUALITY GATE, deliberately and on the record.
+      # Pass 3 (cost_floor_model.py Step 7) declined to recommend this
+      # blind: the prompts carry ~55 distinct prohibitive constructions
+      # plus 7 worked WRONG/RIGHT pairs, and dense negative-constraint
+      # instruction-following over long context is where a smaller model
+      # degrades first. None of the three real-time blocking checks covers
+      # that axis - the post-hoc detectors only queue guidance for a LATER
+      # turn - so a tier failure reaches the participant before anything
+      # catches it. Mark's stated tolerance (2026-08-09): "ok with a
+      # cheaper and a small drop after 15 turns."
+      #
+      # REVERTING IS THIS ONE LINE. Put claude-sonnet-5 back and redeploy;
+      # nothing else in the app is model-specific.
+      #
+      # THE TWO THINGS TO WATCH, both measurable from logs already emitted:
+      # 1. Regeneration rate. Every world in HARD_CEILING_WORLDS
+      #    (nodes.py ~1617) has a ceiling calibrated against a SONNET-
+      #    measured voice profile. A regeneration costs MORE than the
+      #    original turn (it re-sends the whole prompt plus the discarded
+      #    draft), and Desert already regenerated on 80% of turns on
+      #    Sonnet. If Haiku's length adherence is worse, the extra
+      #    regenerations eat the saving. app/length_ceiling_logging.py
+      #    already emits a machine-parseable line per outcome - count it
+      #    before concluding this switch saved anything.
+      # 2. Cache behaviour. Haiku 4.5's minimum cacheable prefix is 4096
+      #    tokens vs Sonnet's 1024. The representative prefix is ~15.2k
+      #    measured, so both breakpoints in _cached_system_message should
+      #    still cache - but confirm cache_read is non-zero in the
+      #    [llm_usage] lines rather than assuming it.
+      # 3. First checkpoint ON Haiku (2026-08-10, Chloe): hard bars all held
+      #    (mean 115.2 vs Sonnet 115.5, zero breaches/concessions/fabrication,
+      #    regeneration 6/8 - unchanged from Sonnet); citations fell 7/8->3/8
+      #    and FRE margin thinned to 61.89 vs the 60 floor. The watch items
+      #    above are live questions, not hypotheticals.
       - key: LLM_MODEL
         value: claude-haiku-4-5-20251001
