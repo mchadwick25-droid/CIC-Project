@@ -715,3 +715,58 @@ are the secondary one. Two of six is not a fleet.
 its own ceiling on a scored bar is not an ambiguous result. The two-tier
 citation fix (2026-08-10) addresses the citation half and is NOT reflected
 here — these runs predate it.
+
+### The measure failures are an ENFORCEMENT gap, not a measure gap (2026-08-10)
+
+Mark chose "re-derive native_measure for Haiku". Before doing it, two things
+were checked that change what the right action is per world.
+
+**1. Provenance splits the fleet. Only some numbers are model observations.**
+
+| world | typical/ceiling | basis | re-derivable? |
+|---|---|---|---|
+| Chloe | 70/150 | her prompt's own rule — "a handful of short sentences… stops at two short paragraphs" | **no — world property** |
+| Papnoute | 55/70 | his prompt's own rule — "four sentences is already long for you, most should be one to three" | **no — world property** |
+| Albina | 120/160 | the epistula register warrant, explicitly derived "**rather than from what it currently happens to produce**" | **no — world property** |
+| Marius | 115/150 | the staging derivation (world property); his Haiku failure is fabrication, not measure | n/a |
+| Theon | 140/160 | **MEASURED from Phase-5 Sonnet responses** | **yes — model observation** |
+| Yausep | 98/165 | **MEASURED** from 19 Sonnet responses (mean 98, max 165) | yes, but he **passed** (115.5) |
+
+So of the three measure failures, exactly **one** (Theon) rests on a number
+that is a Sonnet observation. Papnoute's and Albina's are their worlds' own
+stated rules.
+
+**2. The project already ruled on this exact question**, in Chloe's own
+record, when she ran long against her measure:
+
+> "The numbers are NOT moved to meet the behaviour. Raising typical to 179
+> would ratify the defect and delete the world's own rule in the same stroke…
+> What was missing was never a better number. **It was enforcement.**"
+
+**And enforcement is where the actual defect is.** `nodes.py` regenerates
+**once** on a ceiling breach and then accepts whatever comes back **without
+checking whether the retry complied**:
+
+```
+retry_text, retry_pieces = _generate_once(...)
+if retry_text:
+    full_text, pieces = retry_text, retry_pieces   # no length check
+```
+
+Measured from the Haiku checkpoint logs — how often the *corrected* draft is
+still over ceiling:
+
+| world | retries | still over ceiling | worst retry vs ceiling |
+|---|---|---|---|
+| Theon | 28 | **20 (71%)** | 334 vs 160 |
+| Papnoute | 30 | **20 (67%)** | 187 vs 70 |
+| Marius | 28 | 17 (61%) | 197 vs 150 |
+| Albina | 31 | 14 (45%) | 215 vs 160 |
+| Chloe | 32 | 11 (34%) | 238 vs 150 |
+| Yausep | 21 | 5 (24%) | 208 vs 165 |
+
+On Sonnet one corrective was usually enough. On Haiku it is not, and the code
+has no second attempt and no compliance check — so an over-ceiling retry
+ships. That is the mechanism behind all three measure failures, and it is
+also true on Sonnet at a lower rate (Chloe 34%), meaning this is a
+**pre-existing enforcement gap that Haiku exposed rather than caused**.
