@@ -77,7 +77,16 @@ class Settings(BaseSettings):
     # two honest regressions: citations 7/8 -> 3/8 and thinner FRE margin
     # (min 61.89 vs the 60 floor). Fleet-wide certification pending the other
     # five worlds (~$1.10/world on Haiku).
-    llm_model: str = "claude-haiku-4-5-20251001"
+    #
+    # REVERTED TO SONNET 2026-08-10, same day, on SEQUENCING not cost. The
+    # table workstream measured a Haiku-only public-transcript isolation
+    # breach (up to 21% of table turns; zero on Sonnet) whose repair sits
+    # in PR #10, not in main. This one setting governs solo AND table, so
+    # the interview thread's switch was also the table's. Re-flip only per
+    # Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md - after
+    # PR #10 is in main and main is verified on Sonnet. Full reasoning in
+    # render.yaml, which is the deployed source of truth for this value.
+    llm_model: str = "claude-sonnet-5"
     # When true, every LLM call in the backend (representative/facilitator
     # generation, all classifiers, retrieval filtering) is replaced with a
     # zero-cost mock (see app/mock_llm.py) - no network call, no API spend.

@@ -138,5 +138,26 @@ services:
       #    regeneration 6/8 - unchanged from Sonnet); citations fell 7/8->3/8
       #    and FRE margin thinned to 61.89 vs the 60 floor. The watch items
       #    above are live questions, not hypotheticals.
+      # REVERTED TO SONNET 2026-08-10 11:5x, same day it shipped. Not a
+      # reversal of the cost decision - a sequencing fix. The table
+      # workstream measured a HAIKU-ONLY defect this thread could not see:
+      # a Representative writing another world's dialogue inside its own
+      # turn, breaching the public-transcript isolation Facilitator
+      # Governance calls "the boundary that makes the table
+      # constitutionally sound". Zero occurrences in both Sonnet arms, up
+      # to 21% of turns in every Haiku arm. The repair is deterministic
+      # and ready, but it is in PR #10 and NOT in main - and this one
+      # setting governs solo AND table alike, so flipping the model for
+      # the interview thread flipped it for the table too.
+      #
+      # Their governing rule, which this restores: the model switch lands
+      # LAST and ALONE, after everything else is verified on Sonnet, so a
+      # post-switch failure is a one-line revert rather than an
+      # untangling. It went in first instead, inside a 23-commit merge.
+      # The order is the point; put it back and re-flip in sequence.
+      #
+      # Re-flip to claude-haiku-4-5-20251001 only when PR #10 is in main
+      # and main has been verified on Sonnet - see
+      # Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md.
       - key: LLM_MODEL
-        value: claude-haiku-4-5-20251001
+        value: claude-sonnet-5
