@@ -52,6 +52,40 @@ class Settings(BaseSettings):
 
     # LLM Configuration
     llm_provider: Literal["anthropic", "openai"] = "anthropic"
+    # Representative/Facilitator GENERATION model (get_llm in
+    # app/graph/nodes.py). The classifier/monitoring tier is separate and
+    # hardcoded - see get_monitoring_llm - so changing this does NOT change
+    # what the safety and routing classifiers run on.
+    #
+    # Moved off claude-sonnet-5 on 2026-08-09 at Mark's direction, on cost:
+    # generation is 71% of spend and Haiku 4.5 is -47% of the whole bill on
+    # the measured token shape. Shipped ahead of the blind-graded quality
+    # battery Pass 3 asked for, against a stated tolerance for "a small
+    # drop"; the reasoning, the risk and what to watch are recorded at
+    # length in render.yaml (the deployed source of truth for this value)
+    # and Ministry/Technology/CiC_LLM_Provider_Cost_Options_2026-08-09.md.
+    #
+    # NB: generation and monitoring now run the SAME model string. Nothing
+    # in the app depends on them differing, but any cost analysis that
+    # splits calls by model rather than by log LABEL will silently report
+    # zero generation calls - Pass3/provider_repricing.py was fixed for
+    # this on the same date.
+    #
+    # First re-certification evidence (this thread, 2026-08-10): Chloe's full
+    # checkpoint re-ran ON Haiku - every hard bar held (mean 115.2 vs Sonnet's
+    # 115.5, readability breaches none, fabrication 0, zero concessions), with
+    # two honest regressions: citations 7/8 -> 3/8 and thinner FRE margin
+    # (min 61.89 vs the 60 floor). Fleet-wide certification pending the other
+    # five worlds (~$1.10/world on Haiku).
+    #
+    # REVERTED TO SONNET 2026-08-10, same day, on SEQUENCING not cost. The
+    # table workstream measured a Haiku-only public-transcript isolation
+    # breach (up to 21% of table turns; zero on Sonnet) whose repair sits
+    # in PR #10, not in main. This one setting governs solo AND table, so
+    # the interview thread's switch was also the table's. Re-flip only per
+    # Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md - after
+    # PR #10 is in main and main is verified on Sonnet. Full reasoning in
+    # render.yaml, which is the deployed source of truth for this value.
     llm_model: str = "claude-sonnet-5"
     # When true, every LLM call in the backend (representative/facilitator
     # generation, all classifiers, retrieval filtering) is replaced with a

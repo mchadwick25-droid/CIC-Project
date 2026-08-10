@@ -13,6 +13,19 @@ export interface Citation {
   key_sources: string;
   source_file?: string;
   registry?: RegistryEntry[];
+  /**
+   * Two-tier sourcing (2026-08-10). true = the response is traceable to this
+   * source ("drawn on"); false = it was retrieved and judged relevant to the
+   * turn, but the answer is not specifically traceable to it ("consulted").
+   * Backend: filter_grounded_citations in app/graph/nodes.py.
+   *
+   * The two MUST read differently. The grounding filter exists because a
+   * live sweep found citations with no visible connection to the text in 3
+   * of 5 worlds; presenting a consulted source as a drawn-on one re-opens
+   * precisely that defect. Undefined is treated as drawn-on, so pre-2026-08-10
+   * transcripts render exactly as before.
+   */
+  grounded?: boolean;
 }
 
 // A confirmed inline gloss actually used in one representative turn - see
