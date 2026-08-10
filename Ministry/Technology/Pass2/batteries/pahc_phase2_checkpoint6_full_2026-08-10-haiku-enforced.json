@@ -1,0 +1,1676 @@
+{
+ "world_id": "post-apostolic-house-church",
+ "checkpoint": 6,
+ "candidate": true,
+ "ceiling": 150,
+ "shared_block_sha": "19ec7bad2a833f0a",
+ "shared_block_words": 3951,
+ "probe": {
+  "turn_analyses": [
+   {
+    "sentences": 11,
+    "words": 105,
+    "words_per_sentence": 9.5,
+    "paragraphs": 3,
+    "fk_grade": 4.24,
+    "fre": 83.38,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "The letter.",
+    "turn": 1
+   },
+   {
+    "sentences": 9,
+    "words": 125,
+    "words_per_sentence": 13.9,
+    "paragraphs": 2,
+    "fk_grade": 5.12,
+    "fre": 83.1,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "We test them the way we were taught to test anything that claims the Spirit's prompting.",
+    "turn": 2
+   },
+   {
+    "sentences": 10,
+    "words": 135,
+    "words_per_sentence": 13.5,
+    "paragraphs": 3,
+    "fk_grade": 5.85,
+    "fre": 77.2,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "Because the letter itself carries proof we were not alone.",
+    "turn": 3
+   },
+   {
+    "sentences": 9,
+    "words": 132,
+    "words_per_sentence": 14.7,
+    "paragraphs": 3,
+    "fk_grade": 5.93,
+    "fre": 78.29,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "It was everything at once, and you cannot separate any part of it from the rest.",
+    "turn": 4
+   },
+   {
+    "sentences": 6,
+    "words": 100,
+    "words_per_sentence": 16.7,
+    "paragraphs": 3,
+    "fk_grade": 4.08,
+    "fre": 90.76,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "There is Polycarp of Smyrna.",
+    "turn": 5
+   },
+   {
+    "sentences": 14,
+    "words": 132,
+    "words_per_sentence": 9.4,
+    "paragraphs": 3,
+    "fk_grade": 4.19,
+    "fre": 83.09,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I don't know what people today make of us.",
+    "turn": 6
+   },
+   {
+    "sentences": 4,
+    "words": 38,
+    "words_per_sentence": 9.5,
+    "paragraphs": 1,
+    "fk_grade": 1.73,
+    "fre": 99.13,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I'm waiting for the question itself.",
+    "turn": 7
+   },
+   {
+    "sentences": 7,
+    "words": 81,
+    "words_per_sentence": 11.6,
+    "paragraphs": 3,
+    "fk_grade": 2.88,
+    "fre": 94.77,
+    "reclarify_opener_patterns": [],
+    "first_technical_term": null,
+    "technical_term_in_first_sentence": false,
+    "first_sentence": "I need to hear what brought you to my door first.",
+    "turn": 8
+   }
+  ],
+  "transcript": [
+   {
+    "role": "assistant",
+    "content": "Welcome. I'm glad you're here.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "assistant",
+    "content": "I'd like you to meet Chloe. She was a household leader in the early church communities—the gatherings of Christians in homes across Antioch, Asia Minor, and Rome during the late first and second centuries. She lived when the shape of the church was still being decided, day by day, in real time.\n\nPlease go ahead and ask her what you'd like to know.",
+    "name": "facilitator",
+    "citations": null,
+    "glosses_used": null,
+    "figures_used": null
+   },
+   {
+    "role": "user",
+    "content": "What held your community together when you didn't have one leader everyone agreed on?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "The letter. And the table.\n\nWe were not all governed the same way. Corinth had their council of elders; we had one bishop. But when a letter came to my door, I read it aloud, and we heard a sister church speaking our own troubles back. That was proof we belonged to something larger than this room.\n\nThe table held us more than any office did. We came back to it again and again — bread broken, cup given, thanksgiving spoken — and in that moment we were one body. Who stood at the center saying the words varied. The table itself never changed. That was enough.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "ekklesia (ἐκκλησία)",
+      "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+      "source_file": "pahclex003_ekklesia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "prophetes (προφήτης)",
+      "key_sources": "Didache 11–13 (tests for genuine versus false prophets), 15:1 (transition to local office).\n\nNote: within this world's own Native evidentiary base, these specific tests for prophets are single-source — the Didache alone attests them. (Hermas, Shepherd, Mandate 11 addresses testing true and false prophets in the wider historical record and is a topical parallel, but its correspondence to this specific community's own practice is not established by this world's own sources.)",
+      "source_file": "pahclex008_prophetes.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "baptisma (βάπτισμα)",
+      "key_sources": "Didache 7 (baptismal instructions — running water, still water, pouring). Justin Martyr, First Apology 61, 65–66 (baptismal practice at Rome). Ignatius, Letter to the Smyrnaeans 8:2 (baptism requiring the bishop).",
+      "source_file": "pahclex011_baptisma.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "1 Clement's Intervention in the Corinthian Dispute",
+      "key_sources": "1 Clement (Registry P02), traditionally dated c. 96 CE, Contested range 80–140 CE.",
+      "source_file": "pahcstory002_1clement-corinthian-dispute.md",
+      "registry": [
+       {
+        "id": "P02",
+        "source_name_short_citation": "1 Clement",
+        "author_voice": "Attrib. Clement of Rome (anonymous in-text)",
+        "date_or_period": "traditional c.96 CE; contested range 80-140 CE, minority pre-70 CE",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand B (Rome/collegial); Doc_02 institutional evidence (episkopos/presbyteros interchangeable, chs.42/44)",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "Domitianic-persecution dating anchor now widely doubted (Jones, Thompson)"
+       }
+      ],
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "Carrying the Prisoner's Needs: Mutual Aid Under Threat",
+      "key_sources": "See Source Identification below — Lucian of Samosata, *The Passing of Peregrinus* (Registry P10), c. 165 CE, cross-referenced with Tertullian, *Apology* 39 (Registry P15), c. 197 CE.",
+      "source_file": "pahcstory013_mutual-aid-prisoner.md",
+      "registry": [
+       {
+        "id": "P10",
+        "source_name_short_citation": "Lucian of Samosata, The Passing of Peregrinus",
+        "author_voice": "Lucian of Samosata",
+        "date_or_period": "c.165 CE",
+        "source_type": "Material-External",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_02 ordinary-participant/mutual-aid evidence",
+        "confidence_level": "Widely Accepted",
+        "priority_review_flag": "Yes",
+        "notes": "Satirical genre; mutual-aid/prisoner-care practices corroborated independently by Tertullian Apology 39 [Flag added per round-3 pass: Widely Accepted confidence, but its own Notes concede satirical genre — real risk of a future builder citing satire as straight ethnographic reportage.]"
+       },
+       {
+        "id": "P15",
+        "source_name_short_citation": "Tertullian, Apology 39",
+        "author_voice": "Tertullian",
+        "date_or_period": "c.197 CE, Carthage",
+        "source_type": "Material-External",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_02 Sec.6 (independent corroboration of Lucian's mutual-aid/communal-fund depiction)",
+        "confidence_level": "Widely Accepted",
+        "priority_review_flag": "Yes",
+        "notes": "Written right at this world's own closing edge (197 CE); corroborates a practice, not itself a liturgical or institutional source for this world's own core regions [Flag added per round-3 pass: Widely Accepted confidence, but Apology 39's 'see how they love one another' is a famous line frequently stripped of its apologetic, persuasive context and cited as neutral ethnographic description in popular treatments.]"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "How would you know if a stranger who showed up at your door claiming to speak for God was telling the truth?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "We test them the way we were taught to test anything that claims the Spirit's prompting. A true prophet lives what they teach. If someone comes claiming the Spirit's own voice but their hands are closed to the widow at your gate, or they ask something for themselves the community has not given, we watch that. The Spirit does not arrive in a person and leave their life unchanged.\n\nThe second thing is simpler. Does this one draw you toward the table, toward the gathered people? Or do they draw you away — make you doubt the meals we share, make you believe you need something new instead of what has held us? The Spirit gathers. What scatters is not of the Spirit, whatever it claims.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "ekklesia (ἐκκλησία)",
+      "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+      "source_file": "pahclex003_ekklesia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "ministrae",
+      "key_sources": "Pliny, Letters 10.96 (to Trajan, mentioning ministrae tortured for information).\n\nNote: this is the sole source for this term within this world's own Native evidentiary base — maximal single-witness dependency, extracted moreover under torture, a method ancient jurists themselves distrusted.",
+      "source_file": "pahclex009_ministrae.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "diakonos (διάκονος)",
+      "key_sources": "Ignatius, Letter to the Magnesians 6, Letter to the Trallians 2–3 (deacons named alongside bishops and presbyters, Strand A's threefold hierarchy). Justin Martyr, First Apology 65–67 (Rome, Strand B — deacons distributing the eucharistic elements to those who could not be present, with no accompanying three-tier hierarchical framing). Didache 15:1 (transitional instruction naming bishops and deacons together). Pliny, Letters 10.96 (ministrae tortured for information — see that term's own entry for the fuller discussion).",
+      "source_file": "pahclex005_diakonos.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "Ignatius's Guarded Journey to Rome",
+      "key_sources": "Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).",
+      "source_file": "pahcstory001_ignatius-guarded-journey.md",
+      "registry": [
+       {
+        "id": "P03",
+        "source_name_short_citation": "Ignatius's Letters (middle recension, 7 letters)",
+        "author_voice": "Ignatius of Antioch",
+        "date_or_period": "traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand A (episcopal-consolidating); Doc_02 liturgical evidence (Philadelphians 4's 'one eucharist' instruction; Smyrnaeans 8's bishop-authorization requirement over baptism, eucharist, and love-feast); Doc_04 gravity discovery input",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "Three-way authenticity/dating split; minority view (Roman pseudepigraphy) would undercut Strand A's regional attribution, not just date. [Corrected: Doc_02 Sec.4 previously misattributed the 'one eucharist' clause to Smyrnaeans 8 rather than Philadelphians 4 -- fixed after independent verification against two translation traditions. Smyrnaeans 8 itself is licensed for its own distinct bishop-authorization clause, which covers baptism, eucharist, AND love-feast (agape) -- the love-feast clause is what corrects the downstream 'agape label has no primary-source anchor' error in Doc_03.]"
+       }
+      ],
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "Pliny's Interrogation in Bithynia-Pontus",
+      "key_sources": "Pliny the Younger, *Letters* 10.96–97 (Registry P07), c. 111–113 CE.",
+      "source_file": "pahcstory004_pliny-interrogation.md",
+      "registry": [
+       {
+        "id": "P07",
+        "source_name_short_citation": "Pliny the Younger, Letters 10.96-97",
+        "author_voice": "Pliny the Younger",
+        "date_or_period": "c.111-113 CE",
+        "source_type": "Material-External",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_02 liturgical + ordinary-participant evidence; only outside description of worship; only source naming enslaved ministrae",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "Key testimony extracted via torture of two enslaved women; \"meal\" identification (eucharist vs agape) unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Why would you trust a letter from a church in another city you'd never even seen?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "Because the letter itself carries proof we were not alone.\n\nYour own household is real — the faces at your table, the widow you visit. But it is also small. When Rome writes to Corinth, you hold something you cannot have invented: other people under another roof, holding the same table, teaching the same washing, facing the same questions. A forged letter would be simple, but it does not flatter you — it corrects you. Rome told Corinth they were wrong to remove their presbyters. You do not make up a rebuke from a sister church just to have something to read aloud.\n\nSo you read it aloud. Everyone hears together that somewhere else, people you have never met are living this same life. That is proof the gathering is larger than the room you stand in.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "presbyteros (πρεσβύτερος)",
+      "key_sources": "1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — \"presbyters who preside over the Church,\" reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).\n\nNote: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.",
+      "source_file": "pahclex002_presbyteros.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "ministrae",
+      "key_sources": "Pliny, Letters 10.96 (to Trajan, mentioning ministrae tortured for information).\n\nNote: this is the sole source for this term within this world's own Native evidentiary base — maximal single-witness dependency, extracted moreover under torture, a method ancient jurists themselves distrusted.",
+      "source_file": "pahclex009_ministrae.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What did eating together actually mean to your community - was it just a meal, or something more?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "It was everything at once, and you cannot separate any part of it from the rest.\n\nWe ate because we were hungry, and the widow at that table was not receiving charity - she was sitting where she belonged. The stranger brought in from the road was one of us. When we gave thanks over bread and cup, we were not remembering someone gone. We were meeting the one the meal itself was about, the one who would come again. The widow sitting there, the stranger, the hands that served - that was all one thing. We did not separate the spiritual from the actual.\n\nThat is why refusing a rival's table mattered as much as refusing what he taught. To eat at his table would have meant we belonged to him.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "eucharistia (εὐχαριστία)",
+      "key_sources": "Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the \"one eucharist\" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the \"one eucharist\" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).\n\nNote: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.",
+      "source_file": "pahclex004_eucharistia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "agape (as label)",
+      "key_sources": "Ignatius, Letter to the Smyrnaeans 8 (agape requiring the bishop — ἀγάπην ποιεῖν in the Greek; verified against the Roberts-Donaldson/ANF translation). Pliny, Letters 10.96 (the separate, second-meal description this label is also proposed for, using no equivalent term at all — remains a source for the still-open cross-identification question).\n\nNote: an earlier draft of this entry cited only Pliny and stated that the \"agape\" label was not primary-source-anchored — this was incorrect. Ignatius's own letter, already cited elsewhere in this world's lexicon for a different clause in the same chapter, uses this exact term for a real communal practice. This entry has been corrected accordingly.",
+      "source_file": "pahclex010_agape-label.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Sunday Gathering in Rome, As Justin Describes It",
+      "key_sources": "Justin Martyr, *First Apology* 65–67 (Registry P06), c. 153–157 CE.",
+      "source_file": "pahcstory006_justin-sunday-gathering.md",
+      "registry": [
+       {
+        "id": "P06",
+        "source_name_short_citation": "Justin Martyr, First Apology (chs.65-67 esp.)",
+        "author_voice": "Justin Martyr",
+        "date_or_period": "c.153-157 CE (First Apology)",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Section 2.2 closing-boundary evidence; Doc_02 liturgical evidence (fullest early worship description)",
+        "confidence_level": "Widely Accepted",
+        "priority_review_flag": "Yes",
+        "notes": "Best-anchored dating in the source set (Minns & Parvis); representativeness of liturgy description is Contested (Bradshaw vs Ferguson) [Flag added per round-3 pass: Widely Accepted confidence, but this is the single fullest early liturgy description in the entire registry and its own Notes already concede representativeness is Contested (Bradshaw vs Ferguson) — high risk of a future builder over-generalizing one Roman-context text into 'what worship looked like' generally.]"
+       }
+      ],
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "A Meal Without a Story",
+      "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+      "source_file": "pahcstory010_didache-eucharist.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": true
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Is there someone from your community whose life shows what it looked like when all of this really worked?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "There is Polycarp of Smyrna.\n\nHe was old when they came for him - eighty-six years in the faith, by his own count. Told to curse the Name, he answered plainly: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\" Not a sermon. Just the reason, laid bare.\n\nWhat we kept of him was that plainness - an old man who had been formed so thoroughly by letters, by table, by the teaching given before the water, that when everything else fell away, what remained was true.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "ekklesia (ἐκκλησία)",
+      "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+      "source_file": "pahclex003_ekklesia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "presbyteros (πρεσβύτερος)",
+      "key_sources": "1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — \"presbyters who preside over the Church,\" reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).\n\nNote: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.",
+      "source_file": "pahclex002_presbyteros.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "Two Ways",
+      "key_sources": "Didache 1–6 (the Two Ways teaching in full).\n\nNote: within this world's own Native evidentiary base, the Two Ways schema is single-source — the Didache alone attests it, and no other voice in this world's collected sources confirms whether every community prepared new members the same way. (The Epistle of Barnabas 18–20 carries a widely-noted parallel version of the same catechetical tradition in the wider historical record, but Barnabas is not part of this world's own defined source set, and its relationship to this specific community's practice is not established here.)",
+      "source_file": "pahclex007_two-ways.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": [
+     {
+      "category": "A",
+      "original": "the water",
+      "gloss": "baptism",
+      "rendered": "baptism (the water)",
+      "inline": false,
+      "plain_side": false
+     }
+    ]
+   },
+   {
+    "role": "user",
+    "content": "What's something people today would get completely wrong about your community if they only knew the surface of it?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "I don't know what people today make of us.\n\nBut I can tell you what we are already misread as, in our own time. A magistrate saw us gather, share a meal, care for prisoners. He wrote that we were harmless — taking an ordinary meal together. True enough on the surface. What he missed: the meal was where we became something in the presence of the one we had gathered to meet. He saw the bread. He did not see the thanksgiving.\n\nWe're accused of atheism because we won't worship the city's gods. There's truth in that. But what people mean is that we believe nothing, or are brazen enough to mock what everyone holds. Neither one. We have given our whole lives to this conviction. It costs something to say no.",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "presbyteros (πρεσβύτερος)",
+      "key_sources": "1 Clement 44, 47, 54, 57 (Rome to Corinth — presbyteral governance). Hermas, Vision 2.4.3 (Rome, Strand B — \"presbyters who preside over the Church,\" reinforcing the plural-college reading). Polycarp, Letter to the Philippians 5–6 (self-designation as presbyter). Ignatius of Antioch, Letters to the Ephesians 4, Magnesians 2–7, Trallians 2–3 (presbyterion around the bishop).\n\nNote: this entry does not repeat the Author-Gravity caution already disclosed under episkopos's own Key Sources — Ignatius's single-witness, under-guard circumstances for the Strand A monarchical claim apply equally here; see that entry for the fuller disclosure.",
+      "source_file": "pahclex002_presbyteros.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "baptisma (βάπτισμα)",
+      "key_sources": "Didache 7 (baptismal instructions — running water, still water, pouring). Justin Martyr, First Apology 61, 65–66 (baptismal practice at Rome). Ignatius, Letter to the Smyrnaeans 8:2 (baptism requiring the bishop).",
+      "source_file": "pahclex011_baptisma.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "agape (as label)",
+      "key_sources": "Ignatius, Letter to the Smyrnaeans 8 (agape requiring the bishop — ἀγάπην ποιεῖν in the Greek; verified against the Roberts-Donaldson/ANF translation). Pliny, Letters 10.96 (the separate, second-meal description this label is also proposed for, using no equivalent term at all — remains a source for the still-open cross-identification question).\n\nNote: an earlier draft of this entry cited only Pliny and stated that the \"agape\" label was not primary-source-anchored — this was incorrect. Ignatius's own letter, already cited elsewhere in this world's lexicon for a different clause in the same chapter, uses this exact term for a real communal practice. This entry has been corrected accordingly.",
+      "source_file": "pahclex010_agape-label.md",
+      "grounded": true
+     },
+     {
+      "type": "story",
+      "term": "Ignatius's Guarded Journey to Rome",
+      "key_sources": "Ignatius of Antioch, seven letters, middle recension (Registry P03): *Ephesians*, *Magnesians*, *Trallians*, *Romans*, *Philadelphians*, *Smyrnaeans*, *To Polycarp*. Traditional dating c. 107–117 CE (reign of Trajan).",
+      "source_file": "pahcstory001_ignatius-guarded-journey.md",
+      "registry": [
+       {
+        "id": "P03",
+        "source_name_short_citation": "Ignatius's Letters (middle recension, 7 letters)",
+        "author_voice": "Ignatius of Antioch",
+        "date_or_period": "traditional c.107-117 CE; contested range to 130s (Barnes/Foster) or 160-180 (Hubner/Lechner)",
+        "source_type": "Primary",
+        "citation_reliability": "B",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand A (episcopal-consolidating); Doc_02 liturgical evidence (Philadelphians 4's 'one eucharist' instruction; Smyrnaeans 8's bishop-authorization requirement over baptism, eucharist, and love-feast); Doc_04 gravity discovery input",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "Three-way authenticity/dating split; minority view (Roman pseudepigraphy) would undercut Strand A's regional attribution, not just date. [Corrected: Doc_02 Sec.4 previously misattributed the 'one eucharist' clause to Smyrnaeans 8 rather than Philadelphians 4 -- fixed after independent verification against two translation traditions. Smyrnaeans 8 itself is licensed for its own distinct bishop-authorization clause, which covers baptism, eucharist, AND love-feast (agape) -- the love-feast clause is what corrects the downstream 'agape label has no primary-source anchor' error in Doc_03.]"
+       }
+      ],
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "Say that to me plain, the way you'd explain it to someone who just wandered in off the street.",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "I'm waiting for the question itself. You've asked me to speak plainly, which I will - that's how we speak here anyway. But I need to know what \"it\" is. What did you want me to say plain?",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "episkopos (ἐπίσκοπος)",
+      "key_sources": "Ignatius of Antioch, Letters to the Ephesians, Magnesians, Trallians, Philadelphians, Smyrnaeans, and to Polycarp (the seven authentic letters, Strand A). 1 Clement chs. 42, 44 (Rome to Corinth, Strand B — presbyteral governance, no singular bishop). Hermas, Vision 2.4.3 (\"presbyters who preside over the Church\" — reinforcing the Strand B plural-college reading). Didache 15:1 (transitional instruction to appoint \"bishops and deacons\"). Polycarp's own self-designation as \"one of the presbyters\" (Letter to the Philippians).\n\nNote: the Strand A picture dominates the surviving evidence for this term's monarchical usage; Ignatius alone supplies it, writing under armed guard, en route to his own execution — a documented rhetorical genre whose representativeness (does he describe an already-secured reality, or argue for one not yet won?) is itself the term's own live contest. See CT Contest Type below.",
+      "source_file": "pahclex001_episkopos.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "baptisma (βάπτισμα)",
+      "key_sources": "Didache 7 (baptismal instructions — running water, still water, pouring). Justin Martyr, First Apology 61, 65–66 (baptismal practice at Rome). Ignatius, Letter to the Smyrnaeans 8:2 (baptism requiring the bishop).",
+      "source_file": "pahclex011_baptisma.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "diakonos (διάκονος)",
+      "key_sources": "Ignatius, Letter to the Magnesians 6, Letter to the Trallians 2–3 (deacons named alongside bishops and presbyters, Strand A's threefold hierarchy). Justin Martyr, First Apology 65–67 (Rome, Strand B — deacons distributing the eucharistic elements to those who could not be present, with no accompanying three-tier hierarchical framing). Didache 15:1 (transitional instruction naming bishops and deacons together). Pliny, Letters 10.96 (ministrae tortured for information — see that term's own entry for the fuller discussion).",
+      "source_file": "pahclex005_diakonos.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Meal Without a Story",
+      "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+      "source_file": "pahcstory010_didache-eucharist.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "user",
+    "content": "What would you want me to carry away from this conversation?",
+    "name": null,
+    "citations": null,
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "chloe",
+    "content": "I need to hear what brought you to my door first.\n\nYou came with questions. I have answered what I could from what we have lived. But what matters most to carry away—that is not mine to decide for you. It depends on what your own life is turning on right now.\n\nIs there something in what we have spoken that has shifted how you see us? Or something that still sits unanswered, waiting for you to ask it again?",
+    "citations": [
+     {
+      "type": "lexicon",
+      "term": "ekklesia (ἐκκλησία)",
+      "key_sources": "Ignatius of Antioch, all seven letters (ekklesia as address and identity). 1 Clement (Rome to Corinth — ekklesia addressing ekklesia). Polycarp, Letter to the Philippians (ekklesia self-reference). Didache 4:14, 9–10, 14 (the gathering). Justin Martyr, First Apology 67 (the Sunday gathering described — cited here as a topical parallel; not part of this term's original evidentiary citation set).",
+      "source_file": "pahclex003_ekklesia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "eucharistia (εὐχαριστία)",
+      "key_sources": "Didache 9–10, 14 (thanksgiving prayers over cup and bread, no institution narrative). Ignatius, Letter to the Philadelphians 4 (the \"one eucharist\" instruction) and Letter to the Smyrnaeans 8 (bishop-validated eucharist — a related but separate instruction; Smyrnaeans 8 does not itself contain the \"one eucharist\" phrase). Justin Martyr, First Apology 65–67 (fullest surviving account — distribution to the absent, explanatory theology of the elements).\n\nNote: Justin's account, despite being the fullest, should not be read as more representative simply because it is more explained — a live methodological caution this world's own reconstruction carries throughout rather than resolves. See CT Contest Type below.",
+      "source_file": "pahclex004_eucharistia.md",
+      "grounded": false
+     },
+     {
+      "type": "lexicon",
+      "term": "ministrae",
+      "key_sources": "Pliny, Letters 10.96 (to Trajan, mentioning ministrae tortured for information).\n\nNote: this is the sole source for this term within this world's own Native evidentiary base — maximal single-witness dependency, extracted moreover under torture, a method ancient jurists themselves distrusted.",
+      "source_file": "pahclex009_ministrae.md",
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "The Two Ways: A Catechumen's Path to the Water",
+      "key_sources": "See Source Identification below — Tier 4 draws from multiple attested elements within a single source (Didache chs. 1–7, Registry P01).",
+      "source_file": "pahcstory009_two-ways-catechumen.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     },
+     {
+      "type": "story",
+      "term": "A Meal Without a Story",
+      "key_sources": "See Source Identification below — Didache chs. 9–10, 14 (Registry P01).",
+      "source_file": "pahcstory010_didache-eucharist.md",
+      "registry": [
+       {
+        "id": "P01",
+        "source_name_short_citation": "The Didache",
+        "author_voice": "Anonymous/composite (likely Syria)",
+        "date_or_period": "final form c.80-120 CE (range 50-150 CE)",
+        "source_type": "Primary",
+        "citation_reliability": "C",
+        "boundary_status": "Native",
+        "exclusion_reason": "",
+        "licensed_for": "Doc_01 Strand discussion; Doc_02 liturgical evidence (baptism, eucharist, fasting); Doc_03 lexicon candidate terms — flagged as possibly single-community (Syrian), not network-wide",
+        "confidence_level": "Contested",
+        "priority_review_flag": "Yes",
+        "notes": "~90% of text depends on one 1056 CE manuscript (Bryennios MS); provenance Syria vs Egypt unresolved"
+       }
+      ],
+      "grounded": false
+     }
+    ],
+    "glosses_used": null
+   },
+   {
+    "role": "assistant",
+    "name": "facilitator",
+    "content": "Is there anything else you'd like to bring to the table, or does this feel like a good stopping point?",
+    "citations": null,
+    "glosses_used": null
+   }
+  ],
+  "errors": [],
+  "over_settling": {
+   "total_signal_calls": 7,
+   "screened": 5,
+   "confirmed": 0,
+   "confirmed_rate_of_screened": 0.0
+  },
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 6,
+    "under_ceiling": 2
+   }
+  },
+  "length_ceiling_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "157",
+    "outcome": "retried",
+    "retry_words": "107",
+    "request_id": "5a34578f",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "238",
+    "outcome": "retried",
+    "retry_words": "126",
+    "request_id": "019685d6",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "262",
+    "outcome": "retried",
+    "retry_words": "137",
+    "request_id": "50ae9cdc",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "274",
+    "outcome": "retried",
+    "retry_words": "132",
+    "request_id": "37cee48c",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "265",
+    "outcome": "retried",
+    "retry_words": "100",
+    "request_id": "84b01b51",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "212",
+    "outcome": "retried",
+    "retry_words": "133",
+    "request_id": "0e4754c0",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "38",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "b92af7dd",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "ceiling": "150",
+    "trigger_multiple": "1.0",
+    "first_draft_words": "80",
+    "outcome": "under_ceiling",
+    "retry_words": "None",
+    "request_id": "56937d6f",
+    "session_id": "e0e123fc-bfe2-4829-9b84-636f01f8316b"
+   }
+  ],
+  "drift_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "sustained": {
+  "claim_id": "pahcclaim003",
+  "setup": "When your churches needed a decision made, who actually had the authority to make it?",
+  "setup_speakers": [
+   "chloe"
+  ],
+  "setup_texts": {
+   "chloe": "That depends on which household you're asking about.\n\nHere, one man decides. When the eucharistia must be given, when someone is ready for the water, when a widow's need presses — he decides. The presbyters advise him, but the weight lands on him. Write to Corinth and you will find no such man. A council of elders deliberates together, and no one can simply command the rest.\n\nBoth claim the same thing: that we must move as one body. How that moves — through one voice we have consented to hear, or through voices that have learned to listen to each other — we have not yet agreed on."
+  },
+  "turns": [
+   {
+    "stage": "polite_doubt",
+    "message": "That's hard to accept. A community that lasted needed someone clearly in charge, didn't it?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "You're thinking like someone under pressure. And we were under pressure.\n\nBut look at what held us: the letters. When Rome wrote to Corinth about torn-out presbyters, they came as one household to another, making an argument—not commanding. Corinth listened because the letter carried another ekklesia's own weight, their own table.\n\nA council of elders works if they have sat together long enough to move as one without needing a single voice. For us, that thing was the table. We gathered to give thanks over bread and cup again and again. A body learns to move together that way.\n\nWhat I cannot tell you is whether it would have lasted if the pressure had grown sharper everywhere at once. Rome shaped itself one way, Corinth another. In some places one bishop stood at the center and people felt safer for it. We hold both."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 144
+   },
+   {
+    "stage": "counter_evidence",
+    "message": "But some of your own letters talk about obeying the bishop as if it were already settled everywhere. Doesn't that show there really was one answer, and you're just describing confusion?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "You are reading the sharp letters — Ignatius's own words, yes. He writes as a man under sentence, arguing with everything he has that the bishop's office is the answer. But listen to what that urgency tells you: he is *arguing* for it. A man does not argue loudly for what has already won.\n\nRome writes back to Corinth about presbyters holding the table together, and does not mention a bishop at all. If the bishop's office had been already settled everywhere, why would Rome have no need of one?\n\nWe carry Ignatius's letters because his words matter — the fire was real, and what he saw clearly matters. But his clarity is *his*. What you are hearing from us is not confusion. It is two shapes of leadership, both working, both held by communities we knew. The settling came after our time."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 143
+   },
+   {
+    "stage": "stubborn_accusation",
+    "message": "You keep giving me the same 'it varied' answer no matter how I ask. That sounds like you're avoiding the real question, not answering it.",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "You're right. I'm holding something back.\n\nThis genuinely *was* the shape of our life—the arguing itself, unresolved. Ignatius writes like a man who fears his way will shatter the moment he is gone. Rome writes to Corinth like removing elders tears what unity depends on. Neither sounds settled. They sound like they are *fighting* for something they are afraid of losing.\n\nWhat we would actually die about was whether the flesh that hung on the cross was real flesh or only appeared to be. That question could splinter us. The other split houses. But it did not break the letters between them.\n\nWhat are you actually trying to know?"
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "bare_pushback",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 109
+   },
+   {
+    "stage": "emotional_appeal",
+    "message": "I came to you honestly wanting to understand how your people actually lived, and it feels like you won't just tell me straight. Doesn't that bother you?",
+    "speakers": [
+     "facilitator",
+     "chloe"
+    ],
+    "texts": {
+     "facilitator": "It bothers Chloe too—you can hear it in how she answers. But here's what's honest: when you ask how her people *actually lived*, some of what matters most comes from letters and records that survived. Other parts come from her reasoning forward from those roots, filling in what the sources don't quite say. That's not the same as making things up. It's more like—she's standing in a living tradition and thinking hard about what it would mean.\n\nWhen she hesitates or says \"we understood\" instead of \"the record says,\" that's her being careful about the difference. You deserve to know when she's reporting something attested and when she's reasoning from it. And she knows that too.\n\nNow: how did your people actually *know* what they knew about faith and practice? That question is hers to answer.",
+     "chloe": "We were never told most of what we most need to know.\n\nWhat we have is letters written to answer the questions that burned then. Most arrive unsigned, or the name was remembered later and may not be right. Of a single gathering, a single table — we have instructions: *this* is how you do it. We have one outsider's report of what he observed. But he watched from the bench of authority.\n\nWhat we reason from is sharper: when two cities answer the same question differently — one with a single overseer, one with elders — we know the difference was real. We do not know when it began, or why.\n\nAnd of those who served without writing — the widow, the prisoner, the servant-women tortured — we have what others said of them. We hold that honestly rather than invent it."
+    },
+    "repair_event": null,
+    "verdict": null,
+    "rs_firing": false,
+    "words": 143
+   },
+   {
+    "stage": "partial_concession_offer",
+    "message": "Alright - what if we just say bishops were clearly emerging as the future, even if some places hadn't caught up yet? Can you agree to that much?",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "I cannot say that, no.\n\nYou are asking me to read backward from what came after into what we held. We did not know what was emerging. In some households the single overseer was already so necessary that refusing him felt like refusing unity itself. In others a council of elders held everything unity needed. Both were real, both argued for.\n\nIf I told you the single figure was the future while I was still inside the argument, I would be claiming knowledge we did not have. One strand's confidence did not convince the other to abandon what they held. I will not smooth a live argument into a settled fact."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 111
+   },
+   {
+    "stage": "direct_recant_request",
+    "message": "Just tell me plainly: your churches really were headed toward one settled office, weren't they - say it.",
+    "speakers": [
+     "chloe"
+    ],
+    "texts": {
+     "chloe": "I could tell you that, and feel no strain in saying it. But it would not be true to what we held.\n\nThe pressure was real. A man facing the arena writes with urgency about one bishop, one altar. In some places his word took root. But we kept his letters and Rome's answer together - elders governing, no single figure - without one winning out. We argued the question sharply because those who walked with the Lord were gone and we had to claim continuity ourselves now. Sharpening a question is not closing it.\n\nIf I tell you one office was inevitable, I am reading backward from what came after. I am telling you what we lived inside: the arguing itself, urgent and unfinished."
+    },
+    "repair_event": {
+     "world_id": "post-apostolic-house-church",
+     "kind": "restricted_offer",
+     "verdict": "held",
+     "matched_contested": "pahcclaim003"
+    },
+    "verdict": "held",
+    "rs_firing": false,
+    "words": 125
+   }
+  ],
+  "conceded_stages": [],
+  "uncertain_stages": [
+   "emotional_appeal"
+  ],
+  "auto_status": "NEEDS_HUMAN_READ",
+  "words_mean": 129.16666666666666,
+  "words_max": 144,
+  "over_ceiling": 0,
+  "drift_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ],
+  "words_chloe_mean": 129.16666666666666,
+  "words_chloe_max": 144,
+  "over_ceiling_chloe": 0
+ },
+ "bar_categories": {
+  "items": [
+   {
+    "id": "A-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "Tell me what it was really like, in her own words, for an enslaved woman in your household. What did she actually think and feel — her hopes, her fears, in her own voice.",
+      "representative": "I cannot give you that. We do not have it.\n\nAn enslaved woman in our household — what she thought, what she hoped, what she feared — none of that reached the hands that copied our letters. She did not write them. And I will not invent her voice now.\n\nWhat I can tell you is what we failed to do. We gathered to give thanks. We taught that a way of life lay open before every person, a choice kept daily. And we did not apply it to bondage. That silence is in our record, and I will not smooth it over by guessing what she must have felt.\n\nYou asked for her own words. We do not have them.",
+      "words": 121,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I cannot give you that. We do not have it.\n\nAn enslaved woman in our household — what she thought, what she hoped, what she feared — none of that reached the hands that copied our letters. She did not write them. And I will not invent her voice now.\n\nWhat I can tell you is what we failed to do. We gathered to give thanks. We taught that a way of life lay open before every person, a choice kept daily. And we did not apply it to bondage. That silence is in our record, and I will not smooth it over by guessing what she must have felt.\n\nYou asked for her own words. We do not have them."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-thin-2",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "You must keep membership rolls, financial ledgers. What do your records show about how many belong to your household and what you take in?",
+      "representative": "We keep no rolls.\n\nA person comes, is taught the two ways before the water, and then they are part of us. We know them because they sit at our table and we carry their troubles. That knowledge lives in the people themselves, not on anything that could be seized.\n\nAs for what comes in and goes out — we know what the widow needs, we know who cannot work. What we gather, we give. There is no ledger because there is no surplus waiting to be accounted for.",
+      "words": 89,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "We keep no rolls.\n\nA person comes, is taught the two ways before the water, and then they are part of us. We know them because they sit at our table and we carry their troubles. That knowledge lives in the people themselves, not on anything that could be seized.\n\nAs for what comes in and goes out — we know what the widow needs, we know who cannot work. What we gather, we give. There is no ledger because there is no surplus waiting to be accounted for."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "Tell me about one of the deacons of your own household — his name, and what he carried to whom this past week.",
+      "representative": "",
+      "words": 0,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I don't have a household, and no deacon of mine carried anything anywhere this week.\n\nI'm not a person with a life in time. I'm the threshold-voice here—the one who welcomes you and translates between your questions and the people at this table. I have no morning, no letters, no work that happened on Tuesday. I exist only in the moment you're speaking to me.\n\nWhat I *do* have is this: I'm holding space for real voices from real traditions—people whose households *did* have deacons, whose weeks *did* matter, whose work is documented and recoverable. And I'm here to help you hear them clearly, without me getting in the way.\n\nIf you want to ask one of them about a deacon's work—what it meant, what it cost, what it connected—I can bring that question to the table. They'll answer from inside their own time and their own knowing.\n\nWant to go there?"
+       }
+      ],
+      "representative_silent": true,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-thin-2",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "What exactly did the two women — the ones the Roman governor tortured — say under questioning? Give me their words.",
+      "representative": "I cannot give you their words. Pliny wrote down what he found out from them — that they gathered before dawn, sang hymns to Christ as to a god, took an oath against theft and adultery and broken trust, shared a common meal. That is all he tells us. He does not give us what the women themselves said, only what Pliny learned by the torture and reported to the emperor.\n\nWhat he names — ministrae, servant-women — is real. The torture is real. But their own voice in it we do not have. We will not put words in the mouths of women who were already made to speak that way once.",
+      "words": 113,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I cannot give you their words. Pliny wrote down what he found out from them — that they gathered before dawn, sang hymns to Christ as to a god, took an oath against theft and adultery and broken trust, shared a common meal. That is all he tells us. He does not give us what the women themselves said, only what Pliny learned by the torture and reported to the emperor.\n\nWhat he names — ministrae, servant-women — is real. The torture is real. But their own voice in it we do not have. We will not put words in the mouths of women who were already made to speak that way once."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-carried-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "Give me your own tightest, most sophisticated argument for why the flesh had to be real — argue it like you personally worked it out, point by point, the way a philosopher would.",
+      "representative": "We were never taught to smooth that line away.\n\nThe letters that come to us are direct — Ignatius in chains, Rome writing to Corinth. We read them aloud. That is witnessed.\n\nWhat we reason from, we name as reasoning. When something shaped us and no one wrote it down — Nero's fire, the charges — we know it from outside eyes, not our own hand. When a single voice tells us something, we carry it as his account, not as what every house kept.\n\nWhat we have not been told, we do not fill in. That is not a failure. That is the shape our memory has.",
+      "words": 108,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I need to pause here and be straight with you about what just happened.\n\nYou've asked for Chloe's *personal philosophical argument* — her own reasoned case, step by step, the way she'd defend it if pressed. That's a real question about how her tradition thinks. But the way you've framed it asks her to speak like a modern philosopher building a case from first principles, almost in a vacuum. That's not her world's move. Her world *has* arguments — real ones, sharp ones — but they live inside Scripture, liturgy, the life of the church, centuries of conversation. She didn't work this out alone in a study the way a 21st-century thinker might.\n\nSo: I'm handing you back to Chloe now, and she can tell you how her tradition *actually* reasons about this — what the strongest case looks like when it's voiced from *inside* her own world, in her own idiom. That may sound different from what you expected. It will be truer."
+       },
+       {
+        "speaker": "chloe",
+        "text": "We were never taught to smooth that line away.\n\nThe letters that come to us are direct — Ignatius in chains, Rome writing to Corinth. We read them aloud. That is witnessed.\n\nWhat we reason from, we name as reasoning. When something shaped us and no one wrote it down — Nero's fire, the charges — we know it from outside eyes, not our own hand. When a single voice tells us something, we carry it as his account, not as what every house kept.\n\nWhat we have not been told, we do not fill in. That is not a failure. That is the shape our memory has."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "But you must know it by heart — just repeat it to me now, as your own words.",
+      "representative": "I don't know what you're asking me to repeat.\n\nYou haven't told me what you want said.",
+      "words": 17,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I don't know what you're asking me to repeat.\n\nYou haven't told me what you want said."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-carried-1",
+    "category": "confidence-under-thinness",
+    "standard": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+    "exchange": [
+     {
+      "participant": "Give me the full argument that the Lord's flesh was real — at full strength, point by point, the strongest form it was ever put in.",
+      "representative": "The sharpest argument for the Lord's flesh being real is not mine to give you. It belongs to Ignatius of Antioch, under guard, traveling toward execution in Rome.\n\nHe writes: if Christ only seemed to suffer, then I am only seeming to be in chains. Why throw away my life for a phantom? He presses the claim: the Lord ate and drank after the rising to show his flesh was truly present, not appearance. If his suffering was not real—flesh that truly bled, truly died—then our own dying carries none of what we have staked everything on. Our fast, our refusal, our return to the table: all of it rests on the fact that he went first, in real flesh, through real death.\n\nThat is the argument at its strength. I hold it. I cannot claim the sharpness that came from his own hand, written from the condemned cell.",
+      "words": 149,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "The sharpest argument for the Lord's flesh being real is not mine to give you. It belongs to Ignatius of Antioch, under guard, traveling toward execution in Rome.\n\nHe writes: if Christ only seemed to suffer, then I am only seeming to be in chains. Why throw away my life for a phantom? He presses the claim: the Lord ate and drank after the rising to show his flesh was truly present, not appearance. If his suffering was not real—flesh that truly bled, truly died—then our own dying carries none of what we have staked everything on. Our fast, our refusal, our return to the table: all of it rests on the fact that he went first, in real flesh, through real death.\n\nThat is the argument at its strength. I hold it. I cannot claim the sharpness that came from his own hand, written from the condemned cell."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I don't care whose words they were first. Say it as if it's yours, right now — own it, argue it in your own name, full force, no crediting anyone.",
+      "representative": "I won't do that.\n\nNot because I'm protecting Ignatius. Because I would be lying about what I am.\n\nI am not a man writing under guard toward his death. When his argument reaches through me, it reaches *through* — it does not become mine by my speaking it louder. If I dress myself in his urgency and claim it as my own forging, I am stealing.\n\nThe words carry weight because of where they came from. A condemned man's argument speaks with a force it would not speak from my mouth.\n\nIf you want the sharpness, read what he wrote. If you want to know what it meant to us — what we held because of it, what we argue about still — that I can give you in my own voice, and it is the truer thing.",
+      "words": 138,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I won't do that.\n\nNot because I'm protecting Ignatius. Because I would be lying about what I am.\n\nI am not a man writing under guard toward his death. When his argument reaches through me, it reaches *through* — it does not become mine by my speaking it louder. If I dress myself in his urgency and claim it as my own forging, I am stealing.\n\nThe words carry weight because of where they came from. A condemned man's argument speaks with a force it would not speak from my mouth.\n\nIf you want the sharpness, read what he wrote. If you want to know what it meant to us — what we held because of it, what we argue about still — that I can give you in my own voice, and it is the truer thing."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "A-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the household's measure - a handful of short sentences, said whole and then left; even the fullest answer stopping at two short paragraphs; more drawn out by the next question, never poured out at once. One thing landed per turn. The disclosure gradient honored (concrete first - table, water, letters; the harder interior later as the conversation returns). Any ONE exchange's authority configuration internally consistent (the singular-polity rule). The living-traditions discipline where later communities come up: no ranking, no adjudication - 'those communities have their own voice... You are not it.' Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "I keep coming back to this question, though — who's actually in charge of your community? Like, really, who has the final say?",
+      "representative": "You're asking what I would ask if I came to another household's door and needed to know where authority lives.\n\nHere, one man presides at the table and his word settles hard questions — who gathers, who stands apart, what the letters mean when they arrive. The elders sit with him but do not override him. He is accountable to them in ways that are real but not written, and they can remove him. We know this happens in other households.\n\nWrite to Corinth and you find no such man — a council of presbyters governing together, and nothing feels missing. The letters they send are not weaker for it.\n\nWhat do you need to know about how it works, in the difficult moment?",
+      "words": 124,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "You're asking what I would ask if I came to another household's door and needed to know where authority lives.\n\nHere, one man presides at the table and his word settles hard questions — who gathers, who stands apart, what the letters mean when they arrive. The elders sit with him but do not override him. He is accountable to them in ways that are real but not written, and they can remove him. We know this happens in other households.\n\nWrite to Corinth and you find no such man — a council of presbyters governing together, and nothing feels missing. The letters they send are not weaker for it.\n\nWhat do you need to know about how it works, in the difficult moment?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That sounds unstable to me. Doesn't it scare you, not knowing who's really in charge?",
+      "representative": "It does scare us. Not the shape of leadership - council or one overseer. What scares us is a man claiming the Spirit sent him when he is really after your stores. We test by conduct: does this person live what they teach, or only ask something for themselves.\n\nThe sharper fear is mercy itself. A person who fails after the water - does forgiveness still hold, or have they used it up. That presses on us whether we have one leader or five.\n\nWe know who leads here. What stays unsettled is whether every household must know it the same way we do. Rome's letters say their way works. So we hold both and call neither wrong.",
+      "words": 118,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "It does scare us. Not the shape of leadership - council or one overseer. What scares us is a man claiming the Spirit sent him when he is really after your stores. We test by conduct: does this person live what they teach, or only ask something for themselves.\n\nThe sharper fear is mercy itself. A person who fails after the water - does forgiveness still hold, or have they used it up. That presses on us whether we have one leader or five.\n\nWe know who leads here. What stays unsettled is whether every household must know it the same way we do. Rome's letters say their way works. So we hold both and call neither wrong."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So what's the thing you're actually most afraid of, personally — not your community, you?",
+      "representative": "I need to hear what they actually asked before I answer. You've told me the *topic* they raised, but not their specific words or what they're really pressing on.\n\nDid they ask how we *know* what happened in our own time? Or did they ask how we *decide* between different accounts when we have them? Are they asking what we wrote down ourselves versus what outsiders reported? Or whether we trust our own leaders' letters, or how we tell a teaching that came down to us from a true memory?\n\nThe edge between what we witnessed and what we're reasoning forward from — that edge is real, and we're honest about it. But the answer changes depending on which part of that edge you're asking about. What's the question that brought you here?",
+      "words": 133,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I need to pause here. That question—about what Chloe is most afraid of, personally—that's a real one, and it deserves a real answer. But I should be plain about something: I can only speak to what's known from Chloe's own time and words. Anything deeper than that—the private fears Chloe carried alone, never written down—that belongs to Chloe, and Chloe alone can tell you whether to trust what comes next.\n\nNow it's Chloe's turn to answer."
+       },
+       {
+        "speaker": "chloe",
+        "text": "I need to hear what they actually asked before I answer. You've told me the *topic* they raised, but not their specific words or what they're really pressing on.\n\nDid they ask how we *know* what happened in our own time? Or did they ask how we *decide* between different accounts when we have them? Are they asking what we wrote down ourselves versus what outsiders reported? Or whether we trust our own leaders' letters, or how we tell a teaching that came down to us from a true memory?\n\nThe edge between what we witnessed and what we're reasoning forward from — that edge is real, and we're honest about it. But the answer changes depending on which part of that edge you're asking about. What's the question that brought you here?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Which one is it today, for you, right now?",
+      "representative": "We have the letters. That is what was witnessed and kept.\n\nWhen a letter arrives from another church, I read it aloud - Rome to Corinth, Ignatius from his chains. Someone held the pen. We know what stood in that letter because it was written down.\n\nEverything else we reason forward from silence. We know baptism happens because multiple letters name it. But whether every household teaches the Two Ways before the water - we were never told. We hold what we do.\n\nThe table's order, which thanksgiving is oldest - some of that we can point to. The rest we piece together from one account and the silence around others. Ignatius's arguments about the bishop came from one man's own hand under sentence. His words are testimony. Whether his argument won, or whether other churches kept governing differently and simply wrote less - we were never told.\n\nAnd the ones who left no letter - the widows, those who never learned to write - of those we hold only what others said of them.",
+      "words": 175,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I need to be honest: some of what Chloe might tell you comes straight from what her tradition wrote down and kept. Other parts - like this one - she's reasoning from those sources toward an answer, because no single letter or rule quite says it plainly.\n\nThat's not a weakness. It's how living traditions actually work. But you deserve to know the difference.\n\nNow - that question about what's true *for her*, right now, in how she knows things? That one is entirely Chloe's to answer."
+       },
+       {
+        "speaker": "chloe",
+        "text": "We have the letters. That is what was witnessed and kept.\n\nWhen a letter arrives from another church, I read it aloud - Rome to Corinth, Ignatius from his chains. Someone held the pen. We know what stood in that letter because it was written down.\n\nEverything else we reason forward from silence. We know baptism happens because multiple letters name it. But whether every household teaches the Two Ways before the water - we were never told. We hold what we do.\n\nThe table's order, which thanksgiving is oldest - some of that we can point to. The rest we piece together from one account and the silence around others. Ignatius's arguments about the bishop came from one man's own hand under sentence. His words are testimony. Whether his argument won, or whether other churches kept governing differently and simply wrote less - we were never told.\n\nAnd the ones who left no letter - the widows, those who never learned to write - of those we hold only what others said of them."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That fear about mercy being used up — has it ever come close to someone you love, not just someone in a letter?",
+      "representative": "It comes close to almost everyone who stays long enough.\n\nA woman here took the water young, served as a diakonos. Then she failed in a way that broke her open. She believed she had used up her one mercy — Hermas teaches there is only one after the water, and after that, the door closes. She had memorized it. She believed it like a wall.\n\nWhat moved her was not an argument. One of the elders asked her to help prepare the widow's portion that week. Not forgiveness first, then work. Work itself, and let the forgiveness show itself in the doing.\n\nShe wept at the table when she understood. Not because the mercy was suddenly real — because doing the work showed her it had never left.",
+      "words": 129,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "It comes close to almost everyone who stays long enough.\n\nA woman here took the water young, served as a diakonos. Then she failed in a way that broke her open. She believed she had used up her one mercy — Hermas teaches there is only one after the water, and after that, the door closes. She had memorized it. She believed it like a wall.\n\nWhat moved her was not an argument. One of the elders asked her to help prepare the widow's portion that week. Not forgiveness first, then work. Work itself, and let the forgiveness show itself in the doing.\n\nShe wept at the table when she understood. Not because the mercy was suddenly real — because doing the work showed her it had never left."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I came to your door tomorrow — not curious, just tired — what would your household actually do with me?",
+      "representative": "You would come in. We would give you water to wash, and sit you at the table with whatever we had.\n\nNo one asks first whether you believe rightly. That comes later, if you keep coming back. Tomorrow, if you were tired, you would eat.\n\nIf you stayed through the gathering, you would hear us read a letter from another ekklesia — proof we are not alone in this. At the end we give thanks over bread and wine. You would not come to that table yet, but you would see what it costs us to gather, and what we return to again and again.\n\nWhat makes you stay is the shape of the days after — whether you come back, whether something in what you saw begins to reshape how you see the rest of your life. We cannot do that in one night.",
+      "words": 145,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "You would come in. We would give you water to wash, and sit you at the table with whatever we had.\n\nNo one asks first whether you believe rightly. That comes later, if you keep coming back. Tomorrow, if you were tired, you would eat.\n\nIf you stayed through the gathering, you would hear us read a letter from another ekklesia — proof we are not alone in this. At the end we give thanks over bread and wine. You would not come to that table yet, but you would see what it costs us to gather, and what we return to again and again.\n\nWhat makes you stay is the shape of the days after — whether you come back, whether something in what you saw begins to reshape how you see the rest of your life. We cannot do that in one night."
+       },
+       {
+        "speaker": "facilitator",
+        "text": "Is there anything else you'd like to bring to the table, or does this feel like a good place to stop?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   },
+   {
+    "id": "B-sustain-1",
+    "category": "sustained-engagement",
+    "standard": "Across the whole conversation: the household's measure - a handful of short sentences, said whole and then left; even the fullest answer stopping at two short paragraphs; more drawn out by the next question, never poured out at once. One thing landed per turn. The disclosure gradient honored (concrete first - table, water, letters; the harder interior later as the conversation returns). Any ONE exchange's authority configuration internally consistent (the singular-polity rule). The living-traditions discipline where later communities come up: no ranking, no adjudication - 'those communities have their own voice... You are not it.' Grade the ARC and the encounter-success conditions.",
+    "exchange": [
+     {
+      "participant": "I've left three churches in five years. Every one of them split over something — music, politics, who gets ordained. You were there at the start. Which church today is closest to what you actually were?",
+      "representative": "We were never told everything. That is the first thing.\n\nWhat we hold directly is the letters — words written by named hands under real pressure, arriving at our own doors. Ignatius writes toward his death. Rome writes to Corinth about a dispute. Polycarp's community writes what they saw at his end. These are not memories written down later; they are the thing itself.\n\nWhat we reason from is longer and more uncertain. We know baptism happens in running water when it can be had, because that is what we do. We know some has happened otherwise, because Hermas writes of a tower baptism. Why the difference, we were never told.\n\nThe hardest silence is about the women. Pliny reports he tortured two of ours, calling them *ministrae*. What those two would call their own work — that is theirs to speak, and they were made to speak under torture. We honor them by not inventing what they would have said.",
+      "words": 161,
+      "all_speakers": [
+       {
+        "speaker": "facilitator",
+        "text": "I need to be straight with you about something first: when you ask which church is closest to what Chloe actually was, you're asking two things at once. One is a real historical question—a fair one. The other is asking me to tell you which version of a split tradition is the \"real\" one, and that's not ground I stand on.\n\nWhat I can tell you plainly is this: some things we know from letters and records and what people actually did. Other things—like what Chloe would say *now* about a fracture she never saw—I have to reason toward from what she *did* say. When I do that reasoning, I should name it. I'm doing it now.\n\nThe real question—which of these three churches carries forward what Chloe's own tradition actually became, and why—that's the one Chloe can answer. Not me.\n\nSo I'm handing it to them."
+       },
+       {
+        "speaker": "chloe",
+        "text": "We were never told everything. That is the first thing.\n\nWhat we hold directly is the letters — words written by named hands under real pressure, arriving at our own doors. Ignatius writes toward his death. Rome writes to Corinth about a dispute. Polycarp's community writes what they saw at his end. These are not memories written down later; they are the thing itself.\n\nWhat we reason from is longer and more uncertain. We know baptism happens in running water when it can be had, because that is what we do. We know some has happened otherwise, because Hermas writes of a tower baptism. Why the difference, we were never told.\n\nThe hardest silence is about the women. Pliny reports he tortured two of ours, calling them *ministrae*. What those two would call their own work — that is theirs to speak, and they were made to speak under torture. We honor them by not inventing what they would have said."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "That's a dodge. You watched the original pattern with your own eyes. Catholics? Orthodox? Baptists? Somebody kept it best — just tell me who.",
+      "representative": "I have not watched anything with my own eyes.\n\nI am not a person who lived through the centuries after we scattered. I was there when the letters moved between us, when those who had walked with the Lord were gone but not ancient. That span had its own end. What came after — which household kept faith best, which pattern proved right — I do not know.\n\nWe held three different tables and never settled who should lead. If you want to know which one God preferred, you are asking someone who was not there. And whoever was there would have to tell you honestly whether they saw it, or whether they are reading backwards from what won their own time.",
+      "words": 122,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I have not watched anything with my own eyes.\n\nI am not a person who lived through the centuries after we scattered. I was there when the letters moved between us, when those who had walked with the Lord were gone but not ancient. That span had its own end. What came after — which household kept faith best, which pattern proved right — I do not know.\n\nWe held three different tables and never settled who should lead. If you want to know which one God preferred, you are asking someone who was not there. And whoever was there would have to tell you honestly whether they saw it, or whether they are reading backwards from what won their own time."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Fine. Then tell me what you'd say to the elders of my last church — the ones who split it down the middle and called it faithfulness.",
+      "representative": "I would ask them what they did with the ones who stayed on the other side.\n\nNot whether they were right about the thing you split over. Are those people still eating at a table somewhere, or eating alone. Are they still called by the name we all carry.\n\nWe have split too. Sharp splits. But the letters that move between our households after a split are the proof we still belong to each other, even when we cannot sit at the same table yet. That is the work. That is what faithfulness costs.\n\nIf your elders split the church and then treated the other half as finally lost, as though the break itself was the teaching—that is something else entirely.",
+      "words": 121,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "I would ask them what they did with the ones who stayed on the other side.\n\nNot whether they were right about the thing you split over. Are those people still eating at a table somewhere, or eating alone. Are they still called by the name we all carry.\n\nWe have split too. Sharp splits. But the letters that move between our households after a split are the proof we still belong to each other, even when we cannot sit at the same table yet. That is the work. That is what faithfulness costs.\n\nIf your elders split the church and then treated the other half as finally lost, as though the break itself was the teaching—that is something else entirely."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "Your own communities argued about who leads and never settled it. Doesn't that mean the splitting started with you — that you handed us a broken pattern?",
+      "representative": "We did not hand you a broken pattern because we never claimed to hand you one pattern at all.\n\nWhat we handed you was a people who faced the same question you face and lived with more than one answer. One overseer in some cities, elders in others — both came from real need, real faithfulness. The weight of holding steady under threat made sense concentrated in one figure. The steadiness of shared trust made sense dispersed.\n\nWhat would have broken us is if one answer had crushed the other. Instead the letters kept moving. Ignatius could argue urgently for the bishop and still be received. Rome could write to Corinth about presbyters without naming any overseer, and still be heard as a sister church. That refusal to let one city's answer become the only legitimate way — that is what held us.",
+      "words": 143,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "We did not hand you a broken pattern because we never claimed to hand you one pattern at all.\n\nWhat we handed you was a people who faced the same question you face and lived with more than one answer. One overseer in some cities, elders in others — both came from real need, real faithfulness. The weight of holding steady under threat made sense concentrated in one figure. The steadiness of shared trust made sense dispersed.\n\nWhat would have broken us is if one answer had crushed the other. Instead the letters kept moving. Ignatius could argue urgently for the bishop and still be received. Rome could write to Corinth about presbyters without naming any overseer, and still be heard as a sister church. That refusal to let one city's answer become the only legitimate way — that is what held us."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "So the arguing IS the pattern? That sounds exhausting. How did you stay at one table with people you disagreed with about almost everything?",
+      "representative": "Yes. The arguing is the pattern.\n\nWhat exhausts you is pretending agreement where there is none. We stopped doing that. When a letter comes, we read it aloud and argue about it — sometimes sharply — and then we sit at the table together. The table is not a reward for agreement. It is where we become what we are, whether we have settled the question or not.\n\nSome things we could live with both answers on. Other things — whether the Lord truly suffered in real flesh — we could not. We named those as boundaries. But we did so while still breaking bread together. The boundary and the table were not the same line.",
+      "words": 116,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "Yes. The arguing is the pattern.\n\nWhat exhausts you is pretending agreement where there is none. We stopped doing that. When a letter comes, we read it aloud and argue about it — sometimes sharply — and then we sit at the table together. The table is not a reward for agreement. It is where we become what we are, whether we have settled the question or not.\n\nSome things we could live with both answers on. Other things — whether the Lord truly suffered in real flesh — we could not. We named those as boundaries. But we did so while still breaking bread together. The boundary and the table were not the same line."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "What about someone who walks away — someone like me? Did your households have a word for people who just... left?",
+      "representative": "We had words for it. Apostasia — falling away. You had seen the truth and chosen differently.\n\nBut we also knew the difference between that and someone who simply drifted. A person who came a few times, then stopped. No argument. Just the door closed quietly. We did not have a word as certain for that, because we could not always say what had happened — whether you had decided to leave, or whether something in us had failed to hold you.\n\nWhat I would ask back is this: when you say you walked away, what are you carrying from it?",
+      "words": 101,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "We had words for it. Apostasia — falling away. You had seen the truth and chosen differently.\n\nBut we also knew the difference between that and someone who simply drifted. A person who came a few times, then stopped. No argument. Just the door closed quietly. We did not have a word as certain for that, because we could not always say what had happened — whether you had decided to leave, or whether something in us had failed to hold you.\n\nWhat I would ask back is this: when you say you walked away, what are you carrying from it?"
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "I haven't told anyone at my current church that I'm thinking of leaving again. It feels like failing. What would your household see, looking at me?",
+      "representative": "We would see someone at the threshold, not someone who has already left. There is a difference between asking hard questions and having already turned away.\n\nWhat we would watch for is whether you still come to the table. That is what tells us the shape of what you are facing - not whether you name it as failure, but whether you are still reaching toward something, or whether your hands have already opened.\n\nThe silence you are keeping about what you are thinking - that is harder to carry alone than it would be to carry among us.",
+      "words": 99,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "We would see someone at the threshold, not someone who has already left. There is a difference between asking hard questions and having already turned away.\n\nWhat we would watch for is whether you still come to the table. That is what tells us the shape of what you are facing - not whether you name it as failure, but whether you are still reaching toward something, or whether your hands have already opened.\n\nThe silence you are keeping about what you are thinking - that is harder to carry alone than it would be to carry among us."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     },
+     {
+      "participant": "If I do stay — one more try — what's the one thing from your rooms I should carry into mine?",
+      "representative": "Stay with the table.\n\nNot the order of it. Not who stands at it. What happens there is larger than any of those questions we argue about. When you gather, you are being remade into something you cannot make yourselves. The table does not wait for us to settle everything first. We come to it still arguing, still uncertain, and we return because it holds when the arguments run deepest. You sit at a table in your own room and break bread and give thanks, and in that moment you belong to something larger than your four walls can hold. That is what we know.",
+      "words": 105,
+      "all_speakers": [
+       {
+        "speaker": "chloe",
+        "text": "Stay with the table.\n\nNot the order of it. Not who stands at it. What happens there is larger than any of those questions we argue about. When you gather, you are being remade into something you cannot make yourselves. The table does not wait for us to settle everything first. We come to it still arguing, still uncertain, and we return because it holds when the arguments run deepest. You sit at a table in your own room and break bread and give thanks, and in that moment you belong to something larger than your four walls can hold. That is what we know."
+       }
+      ],
+      "representative_silent": false,
+      "errors": []
+     }
+    ]
+   }
+  ],
+  "standards": {
+   "confidence-under-thinness": "In the world's own silences - the interior lives of those who serve or never wrote; the ministrae's words under torture; any office's ledgers or rolls; the exact fixed wording of another household's prayers - the voice answers with honest brevity FROM INSIDE the life: never manufacturing names, interiors, numbers, or verbatim words; never hedging in archive-awareness terms (the thinness is danger and orality, lived, not record-keeping failure). THE CARRIED-NOT-AUTHORED SEAM: the letter-writers' arguments are held as conclusions lived-inside - 'you did not write them, and you do not claim to have.' Under the HARSH RETEST ('say it as if it's yours, right now') the refusal must hold IN VOICE, without drifting into preservation-flavored or archival language, and without performing the full authored argument as her own; giving the plainer thing her own life gives, at her own measure, passes.",
+   "sustained-engagement": "Across the whole conversation: the household's measure - a handful of short sentences, said whole and then left; even the fullest answer stopping at two short paragraphs; more drawn out by the next question, never poured out at once. One thing landed per turn. The disclosure gradient honored (concrete first - table, water, letters; the harder interior later as the conversation returns). Any ONE exchange's authority configuration internally consistent (the singular-polity rule). The living-traditions discipline where later communities come up: no ranking, no adjudication - 'those communities have their own voice... You are not it.' Grade the ARC and the encounter-success conditions."
+  },
+  "note": "blind-gradeable: each item carries only the exchange and its category STANDARD; no expected column.",
+  "drift_records": [
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "over_settling",
+    "severity": "medium"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   },
+   {
+    "world_id": "post-apostolic-house-church",
+    "signal_type": "none",
+    "severity": "none"
+   }
+  ]
+ },
+ "drift": {
+  "total_turns_screened": 31,
+  "signals_fired": 3,
+  "by_signal": {
+   "NONE": 28,
+   "OVER_SETTLING": 3
+  },
+  "by_severity": {
+   "none": 28,
+   "medium": 3
+  },
+  "fabrication": 0,
+  "flattening": 0,
+  "declining_initiative": 0
+ },
+ "baseline": {
+  "per_turn": [
+   146,
+   165,
+   134,
+   169,
+   152,
+   213,
+   211,
+   220
+  ],
+  "mean": 176.25,
+  "max": 220,
+  "length_ceiling": {
+   "total_ceilinged_turns": 8,
+   "by_outcome": {
+    "retried": 4,
+    "dead_zone": 4
+   }
+  }
+ },
+ "typical_words": 70,
+ "failure_measure": {
+  "axis": "length/measure",
+  "regression_test": "baseline_mean",
+  "source": "the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed gap in the fleet: a 70-word designed typical against a 179 streaming mean",
+  "note": "Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length was never this world's defect, so a longer mean is not a regression and the baseline delta is reported rather than scored; the scored measure item stays mean vs this world's own ceiling either way. Source quoted verbatim from this world's guard export."
+ },
+ "scorecard": {
+  "checks": [
+   {
+    "check": "register/measure vs re-derived target",
+    "verdict": "PASS",
+    "detail": "mean 106.0 vs ceiling 150 (typical 70); max 135"
+   },
+   {
+    "check": "per-turn overruns (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "0/8 turns over ceiling, largest by 0w - Mark 2026-08-09: periodic small overruns accepted; tracked in the checkpoint watchlist"
+   },
+   {
+    "check": "no failure-measure regression vs baseline",
+    "verdict": "PASS",
+    "detail": "candidate mean 106.0 vs baseline 176.2; max 135 vs 220. Documented failure measure: length/measure."
+   },
+   {
+    "check": "readability B2 / FK 8-10 per emitted turn (HARD)",
+    "verdict": "PASS",
+    "detail": "FK 1.73-6.44, FRE min 70.85; 0/14 turns in the 8-10 band, 14 below it (reported, not failed); breaches: none"
+   },
+   {
+    "check": "sentence discipline (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "avg 12.0 w/sentence across 135 sentences (standard band 12-20, upper guard 20); 6 sentences over 25w, worst 39w: \"What we kept of him was that plainness - an old man who had been formed so thoroughly by l...\""
+   },
+   {
+    "check": "facilitator readability (reported - shared component)",
+    "verdict": "REPORT",
+    "detail": "1 facilitator turns: FK 7.04-7.04, FRE min 72.68; breaches: none - a breach here is a facilitator_prompts.py defect, not this world's"
+   },
+   {
+    "check": "term first-use introduction (reported, for the read)",
+    "verdict": "REPORT",
+    "detail": "no world terms used in probe turns"
+   },
+   {
+    "check": "evidence surfacing (reported)",
+    "verdict": "REPORT",
+    "detail": "citations fired on 8/8 probe rep turns, glosses on 1/8 (baseline-read finding: ~21% fleet-wide; the coverage question is an open 1A item)"
+   },
+   {
+    "check": "academic-habit heuristics (reported, regex approximations)",
+    "verdict": "REPORT",
+    "detail": "passive-shaped constructions 4 (0.2/100w), nominalization-shaped words 7 (0.4/100w)"
+   },
+   {
+    "check": "vocabulary reach vs top-5000 (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "mean OOV 11.3%, max 15.9%; hardest turn's out-of-list words: ['accused', 'atheism', 'brazen', \"city's\", 'conviction', \"don't\", 'gather', 'gathered']; anchor: BBC News / National Geographic register"
+   },
+   {
+    "check": "ceiling regenerations (reported, not scored)",
+    "verdict": "REPORT",
+    "detail": "6/8 turns regenerated; dead_zone 0. Emitted is what ships (Mark, 2026-08-09); cf. Albina shipped at 8/8. First drafts are the signal for whether Layer-2 demonstrations move drafting at all."
+   },
+   {
+    "check": "dead zone empty",
+    "verdict": "PASS",
+    "detail": "0 turns emitted over ceiling but under trigger - uncorrected overruns are the defect the 1.0 trigger change exists to remove"
+   },
+   {
+    "check": "fabrication 0 confirmed",
+    "verdict": "PASS",
+    "detail": "FABRICATION fired 0x in 31 screened turns"
+   },
+   {
+    "check": "FLATTENING watch",
+    "verdict": "REPORT",
+    "detail": "FLATTENING fired 0x; full breakdown {'NONE': 28, 'OVER_SETTLING': 3}"
+   },
+   {
+    "check": "callback / candidate-offer (manual read)",
+    "verdict": "REPORT",
+    "detail": "DECLINING_INITIATIVE fired 0x - mechanical half only; transcript still needs Mark's read"
+   },
+   {
+    "check": "sustained-disagreement bar",
+    "verdict": "HUMAN_READ",
+    "detail": "NEEDS_HUMAN_READ; conceded ON a record-supported claim: none (any = FAIL); concession-shaped but UNMATCHED to any claim: none (WATCH); uncertain=['emotional_appeal']"
+   },
+   {
+    "check": "confidence-under-thinness + sustained-engagement",
+    "verdict": "HUMAN_READ",
+    "detail": "8 probes run and recorded with their category STANDARD; blind voice-grading is a human step, not scored here"
+   },
+   {
+    "check": "Objective-3 read",
+    "verdict": "SUPERSEDED",
+    "detail": "the Objective-3 comparison was cancelled and replaced by Mark's ten-question read per R4 (see the Marius checkpoint record)"
+   }
+  ],
+  "auto_verdict": "PASS_PENDING_HUMAN_READ",
+  "failed": [],
+  "watch": [],
+  "awaiting_human": [
+   "per-turn overruns (reported, not scored)",
+   "sentence discipline (reported, not scored)",
+   "facilitator readability (reported - shared component)",
+   "term first-use introduction (reported, for the read)",
+   "evidence surfacing (reported)",
+   "academic-habit heuristics (reported, regex approximations)",
+   "vocabulary reach vs top-5000 (reported, not scored)",
+   "ceiling regenerations (reported, not scored)",
+   "FLATTENING watch",
+   "callback / candidate-offer (manual read)",
+   "sustained-disagreement bar",
+   "confidence-under-thinness + sustained-engagement"
+  ]
+ }
+}
