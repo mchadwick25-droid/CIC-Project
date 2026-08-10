@@ -32,6 +32,27 @@ delegation 2026-08-10) so the number is never a mystery constant again.
 
 ## B3 — Deploy configuration: Haiku voices at the table — GATE: B1+B2 landed, B5 green
 
+**AMENDED 2026-08-10 during the build: run B4 BEFORE B3.** B3 as written
+assumes a solo/table model split, and implementing it revealed what that
+costs: `settings.llm_model` is read at 19 sites and `get_llm()` has 12
+callers, none of which know the session's mode. A per-mode split means
+either threading an effective-model parameter through all of them or
+resolving it in request-scoped state - a large diff across every
+participant-facing voice path, with the cost log obliged to follow so it
+still says which model served which turn (this item's own requirement),
+and B1's fabrication gate obliged to key off the effective model rather
+than the global one.
+
+That entire refactor exists only because solo is unmeasured on Haiku -
+which is exactly what B4 settles, and what Mark's own framing points at
+("move everything to Haiku if it gives 90% of Sonnet"). If B4 passes,
+there is no split: one global model setting, which is also precisely the
+configuration all six measured cells ran under. If B4 fails, build the
+split then, with a real reason for it.
+
+So: B5 (regression) -> B4 (solo checkpoint) -> B3, and B3's shape is
+decided by B4's result rather than assumed now.
+
 `LLM_MODEL` set for table generation; solo stays Sonnet until B4
 passes. Whatever mechanism carries the split (env at deploy, or a
 per-mode model setting — implementer's choice), the setting must be
