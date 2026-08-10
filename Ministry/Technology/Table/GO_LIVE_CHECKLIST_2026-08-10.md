@@ -4,6 +4,29 @@
 converging on one runtime and one model switch. This is the single merge
 order, the gates, the owners, and the rollback for each step.
 
+> **AMENDED 2026-08-10 — Mark's decision: TWO SEPARATE EVENTS.**
+> **Phase A: go live on Sonnet.** **Phase B: migrate to Haiku, later,
+> once Phase A is working.** Steps 1–3 below are Phase A; step 4 is
+> Phase B and does not happen on the same day.
+>
+> **There is nothing to "revert" for Phase A.** Production already runs
+> `claude-sonnet-5` and always has — `render.yaml` pins it. Going live on
+> Sonnet means *no model change is performed at all*. Nobody should go
+> looking for a revert to execute; the Haiku work simply stays unlanded.
+>
+> **What this changes:** B4 (the six solo Haiku checkpoints) comes OFF
+> the critical path for go-live and becomes Phase B's evidence. The two
+> open human gates — parity suite, transparency render — stay required
+> for Phase A, because they verify the code being deployed, not the
+> model.
+>
+> **The cost consequence, stated so it is a decision and not a
+> surprise:** staying on Sonnet past 2026-08-31 means the free pilot runs
+> at roughly $0.29/round instead of $0.12. With tiers deferred and no
+> per-visitor cap, the Anthropic Console spending limit is the only real
+> ceiling on that. Phase B's timing now has a dollar consequence attached
+> to it.
+
 **The governing rule: the model switch lands LAST and ALONE.** Everything
 else merges first and is verified on Sonnet. If something breaks after
 the switch, it is the model, and the fix is a one-line revert instead of
@@ -83,7 +106,7 @@ the model is not a variable.**
 
 **Rollback:** revert whichever merge the failure points at.
 
-## Step 4 — The model switch, alone
+## Step 4 — PHASE B: the model switch, alone, on a later day
 
 **Owner:** this workstream (it is a repo edit, not a dashboard change).
 
