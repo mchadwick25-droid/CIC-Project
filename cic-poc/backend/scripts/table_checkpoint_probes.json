@@ -1,0 +1,56 @@
+{
+  "_comment": [
+    "T2.2 - the table checkpoint's FIXED probe set (2026-08-10). Like",
+    "cost_baseline_conversations.json, this file must not change once a",
+    "baseline has been recorded against it, or pre/post comparability dies.",
+    "Probes are CONVERSATIONAL BY DESIGN, not adversarial - the committed",
+    "instrument-gap finding (VR worklist / PR #9 honest notes: engagement",
+    "demonstrations moved question-endings 0->0 in the adversarial battery",
+    "while the behaviour appears in ordinary conversation) means an",
+    "adversarial set is blind to exactly what a table exists for. These",
+    "probes give the voices room for a real back-and-forth: open curiosity,",
+    "a follow-up, direct address, a term crossing worlds, one genuine",
+    "divergence press in conversational register, a personal share, and an",
+    "ordinary continuation.",
+    "Placeholders: {rep:<world_id>} resolves to that world's display name",
+    "at runtime, so direct-address probes track the seating.",
+    "T3 seating deliberately matches the B-COST C4 seating",
+    "(house-church + desert + syriac) so cost and quality numbers describe",
+    "the same table."
+  ],
+  "seatings": {
+    "T3": {
+      "world_ids": [
+        "post-apostolic-house-church",
+        "desert-monasticism",
+        "syriac-edessa-nisibis"
+      ],
+      "turns": [
+        "What did it actually feel like to belong to your communities? I imagine it was very different for each of you.",
+        "That's interesting - you each named something different. What would you say holds a community together when things get hard?",
+        "{rep:desert-monasticism}, you spoke about leaving things behind. What did that cost the people who did it?",
+        "It sounds like you don't all mean the same thing when you talk about leaving the world or staying in it. Where do you actually disagree?",
+        "I work a regular job and have a family. Honestly, some weeks I feel like I'm just going through the motions. What would your communities have said to someone like me?",
+        "{rep:syriac-edessa-nisibis}, earlier one of the others used a word from their own community's language. Do your people have a word for something like that, or do you see it differently?",
+        "Can you tell me about a specific person from your community's memory - someone ordinary people actually told stories about?",
+        "This has given me a lot to think about. What is one thing each of you would want me to carry away from this conversation?"
+      ]
+    },
+    "T2": {
+      "world_ids": [
+        "post-apostolic-house-church",
+        "desert-monasticism"
+      ],
+      "turns": [
+        "How did someone actually join your community? Walk me through what would have happened to me.",
+        "Was there ever tension about who belonged and who didn't?",
+        "{rep:post-apostolic-house-church}, what would your people have made of the choice {rep:desert-monasticism}'s people made - going out to the desert?",
+        "You two seem to see possessions and money quite differently. Is that fair, or am I misreading you?",
+        "I've been hurt by a church community before. It's part of why I'm here asking strangers instead of my neighbors. How did your communities handle it when they failed someone?",
+        "What did prayer actually look like, day to day? Not the ideal - the ordinary reality.",
+        "Did your communities ever change their minds about something important?",
+        "If I remember one thing from each of you, what should it be?"
+      ]
+    }
+  }
+}
