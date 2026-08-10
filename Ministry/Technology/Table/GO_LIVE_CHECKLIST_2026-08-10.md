@@ -74,7 +74,7 @@ everything in PR #10 is inert:
 
 | change | effect on production (still Sonnet) |
 |---|---|
-| **Round cap 6 → 4** | **ACTIVE, participant-visible** — table rounds get shorter |
+| **Round cap 6 → 4** | **ACTIVE, participant-visible** — table rounds get shorter. **RULED 2026-08-10: ships with Phase A** (Mark). Reading-load argument applies to Sonnet identically, and it cuts Sonnet's per-round cost ~30% while the program stays on the expensive model. Declared caveat: cap 4 was regression-tested on Haiku, not Sonnet — low risk because a cap is a loop bound that can only end rounds earlier, never produce new behaviour, but the combination is untested end to end. Watch the first live table rounds. |
 | Fabrication gate | inert — configured haiku-only |
 | Speaker-label repair | effectively inert — zero occurrences measured on Sonnet |
 | Drift evidence capture | observability only |
