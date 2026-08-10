@@ -1792,7 +1792,9 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
             # against the bar we are enforcing. Every attempt is logged.
             best_text, best_pieces = full_text, pieces
             retry_text = None
+            attempts_run = 0
             for attempt in range(1, _MAX_LENGTH_RETRIES + 1):
+                attempts_run = attempt
                 corrective = HumanMessage(content=(
                     f"Your answer just now ran to {len(best_text.split())} words; your own "
                     f"measure holds at most {ceiling}. Say the same thing again, holding to "
@@ -1818,10 +1820,20 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
             # retry still fired (and still cost a call), and the first
             # draft is kept in that case - retry_words=0 records exactly
             # that rather than hiding the call.
+            #
+            # attempts_run is the COST field: each attempt is a full
+            # main_response call billed under the same label as the first,
+            # so without it the marginal cost of this bounded retry is not
+            # recoverable from any artifact. emitted_words is what actually
+            # shipped, which is NOT retry_words whenever a second attempt
+            # came back longer than the first - the loop keeps the shortest
+            # draft, and compliance has to be read against what shipped.
             log_length_ceiling_outcome(
                 ctx["current_world_id"], ceiling, retry_trigger_multiple,
                 word_count, OUTCOME_RETRIED,
                 retry_words=len(retry_text.split()) if retry_text else 0,
+                attempts=attempts_run,
+                emitted_words=len(full_text.split()) if full_text else 0,
                 request_id=request_id, session_id=state.session_id,
             )
         elif full_text and word_count > ceiling:

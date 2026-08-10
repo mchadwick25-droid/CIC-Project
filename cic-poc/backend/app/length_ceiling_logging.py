@@ -76,6 +76,8 @@ def log_length_ceiling_outcome(
     outcome: str,
     retry_words: int | None = None,
     *,
+    attempts: int = 0,
+    emitted_words: int | None = None,
     request_id: str | None = None,
     session_id: str | None = None,
 ) -> None:
@@ -98,10 +100,32 @@ def log_length_ceiling_outcome(
         All three are logged, including the ordinary under-ceiling case,
         so a fire rate has a real denominator rather than one inferred
         from a separate count of turns.
-    retry_words: the regenerated answer's word count, when outcome is
+    retry_words: the word count of the LAST retry attempt, when outcome is
         OUTCOME_RETRIED; None otherwise. Recorded because "the retry
         fired" and "the retry actually reached the ceiling" are different
         facts, and only the first is currently visible anywhere.
+        NB the last attempt is not necessarily the one that shipped - the
+        mechanism keeps the SHORTEST draft it saw, not the last - so read
+        this as "where the final attempt landed", and read emitted_words
+        for what the participant actually got.
+    attempts: how many retry generations actually ran for this turn. 0 for
+        OUTCOME_UNDER and OUTCOME_DEAD_ZONE (neither regenerates), 1 or 2
+        for OUTCOME_RETRIED under the current _MAX_LENGTH_RETRIES.
+        THIS IS THE COST FIELD. Every attempt is a full main_response call
+        billed under the same label as the first, so without this the
+        marginal cost of the bounded retry is not recoverable from any
+        committed artifact - which is exactly the gap the 2026-08-10 Haiku
+        certification hit when it tried to price the enforcement it had
+        just validated. Logged for all three outcomes so the average has a
+        real denominator rather than one inferred from a separate count.
+    emitted_words: the word count of the draft that actually reached the
+        participant, whichever attempt it came from. For OUTCOME_UNDER and
+        OUTCOME_DEAD_ZONE this equals first_draft_words. For
+        OUTCOME_RETRIED it is min(first draft, every retry) and can differ
+        from retry_words whenever a second attempt came back longer than
+        the first. Compliance - "did enforcement hold?" - must be measured
+        against THIS field, not retry_words; measuring against the last
+        attempt understates it.
     request_id / session_id: whatever identifiers are already flowing
         through the call site, passed straight through unchanged, so a
         turn's ceiling outcome can be joined back to its own [llm_usage]
@@ -110,10 +134,12 @@ def log_length_ceiling_outcome(
     try:
         logger.info(
             "[length_ceiling] world_id=%s ceiling=%s trigger_multiple=%s "
-            "first_draft_words=%s outcome=%s retry_words=%s request_id=%s "
-            "session_id=%s",
+            "first_draft_words=%s outcome=%s retry_words=%s attempts=%s "
+            "emitted_words=%s request_id=%s session_id=%s",
             world_id, ceiling, trigger_multiple, first_draft_words, outcome,
             retry_words if retry_words is not None else "None",
+            attempts,
+            emitted_words if emitted_words is not None else first_draft_words,
             request_id, session_id,
         )
     except Exception:
