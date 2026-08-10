@@ -52,7 +52,12 @@ class Settings(BaseSettings):
 
     # LLM Configuration
     llm_provider: Literal["anthropic", "openai"] = "anthropic"
-    llm_model: str = "claude-sonnet-5"
+    # Mark's cost decision, 2026-08-10: the fleet moves to Haiku with a
+    # spending limit. Solo drops $1.81 -> $1.11/hr, table $4.75 -> $2.87/hr
+    # (repriced from the committed B-COST log). All six voices were VALIDATED
+    # on Sonnet, so the guarantees are unmeasured on Haiku until a checkpoint
+    # re-certifies them - Chloe's Haiku checkpoint is that evidence.
+    llm_model: str = "claude-haiku-4-5-20251001"
     # When true, every LLM call in the backend (representative/facilitator
     # generation, all classifiers, retrieval filtering) is replaced with a
     # zero-cost mock (see app/mock_llm.py) - no network call, no API spend.
