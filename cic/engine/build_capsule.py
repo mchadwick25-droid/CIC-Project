@@ -66,11 +66,20 @@ def build_capsule(world_key: str) -> str:
             r"\s*\([^)]*\)", "", voice(g["name"])).strip()
         lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
     parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
+    # Per-world capsule term policy (each world's proven builder differed:
+    # Syriac took tiers 1-2 uncapped; Alexandria tier 1 with world_meaning,
+    # first 12). Carried as data on the world table, not as code forks.
+    tp = w.get("capsule_terms", {"tiers": [1, 2], "require_world_meaning": False, "cap": None})
     vs_lines = []
     for tid in sorted(terms):
         t = terms[tid]
-        if (t.get("retrieval") or {}).get("tier") in (1, 2):
-            vs_lines.append(f"**{t['term']}** - {voice(t['quick_meaning'])}")
+        if (t.get("retrieval") or {}).get("tier") not in tp["tiers"]:
+            continue
+        if tp["require_world_meaning"] and not t.get("world_meaning"):
+            continue
+        vs_lines.append(f"**{t['term']}** - {voice(t['quick_meaning'])}")
+    if tp["cap"]:
+        vs_lines = vs_lines[:tp["cap"]]
     parts.append("## The World's Own Words\n\n" + "\n\n".join(vs_lines))
     st_lines = []
     for sid in sorted(stories):

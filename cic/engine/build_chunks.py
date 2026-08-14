@@ -256,6 +256,115 @@ def _ambient_slug(title):
 
 
 
+# --------------------------------------------------------------
+# Alexandria chunk style, carried verbatim from its proven view
+# (each world's deployed chunk FORMAT evolved separately; the
+# renderer variant is selected per world by chunk_style)
+# --------------------------------------------------------------
+ALX_EF_MARK = ("Chunk Ecological Function (verbatim, absorbed per "
+           "FLAG-002): ")
+ALX_USAGE_MARK = "Usage guidance (chunk, verbatim): "
+ALX_PARK_RE = re.compile(
+    r"\[([^\]]+?) — parked at the S2\.2-equivalent[^\]]*\]\s*", re.S)
+
+
+def parked_sections_alx(body: str):
+    """Extract the parked sections: [(title, text), ...] in body order."""
+    hits = list(ALX_PARK_RE.finditer(body))
+    out = []
+    for i, m in enumerate(hits):
+        start = m.end()
+        end = hits[i + 1].start() if i + 1 < len(hits) else len(body)
+        text = body[start:end]
+        # trim trailing migration notes (S2.5/S2.6 appends)
+        for stop in ("\n\nS2.5-equivalent (", "\n\nS2.6-equivalent (",
+                     "\n\nCO-P2-13 (", "\n\nMigrated at"):
+            j = text.find(stop)
+            if j >= 0:
+                text = text[:j]
+        title = m.group(1)
+        if title.startswith("Related-Terms Reciprocity Note"):
+            title = "Related-Terms Reciprocity Note"
+        out.append((title, text.strip()))
+    return out
+
+
+def render_lexicon_alx(rec, body, term_names, world_code):
+    ret = rec.get("retrieval") or {}
+    rw = "; ".join(ret.get("retrieve_when") or [])
+    dnrw_items = [d["text"] for d in (ret.get("do_not_retrieve_when") or [])]
+    dnrw = "; ".join(dnrw_items) if dnrw_items else "—"
+    related, seen = [], set()
+    for e in rec.get("field_relations") or []:
+        t = e.get("target_id")
+        if t and t not in seen and t in term_names:
+            seen.add(t)
+            related.append(term_names[t])
+    ef = ""
+    for e in rec.get("field_relations") or []:
+        note = e.get("note") or ""
+        j = note.find(ALX_EF_MARK)
+        if j >= 0:
+            ef = note[j + len(ALX_EF_MARK):].strip()
+            break
+    parts = [fm_block([
+        ("Term", rec.get("term", "")),
+        ("World-Code", world_code),
+        ("Tier", str(ret.get("tier", 1))),
+        ("Aliases", ", ".join(rec.get("aliases") or [])),
+        ("Related-Terms", ", ".join(related)),
+        ("Retrieve-When", rw),
+        ("Do-Not-Retrieve-When", dnrw),
+    ])]
+    parts.append("## Quick Meaning\n\n" + rec.get("quick_meaning", ""))
+    parts.append("## World Meaning\n\n" + rec.get("world_meaning", ""))
+    if ef:
+        parts.append("## Ecological Function\n\n" + ef)
+    dr = "\n\n".join(x for x in (rec.get("modern_hearing", ""),
+                                 rec.get("distortion_risk", "")) if x)
+    parts.append("## Distortion Risk\n\n" + dr)
+    key_sources = " ".join(s.get("author_gravity_note", "").strip()
+                           for s in rec.get("sources") or [])
+    parts.append("## Key Sources\n\n" + key_sources.strip())
+    for title, text in parked_sections_alx(body):
+        parts.append(f"## {title}\n\n{text}")
+    return "\n\n---\n\n".join(parts) + "\n"
+
+
+def render_story_alx(rec, world_code):
+    ret = rec.get("retrieval") or {}
+    rw = "; ".join(ret.get("retrieve_when") or [])
+    dnrw_items = [d["text"] for d in (ret.get("do_not_retrieve_when") or [])]
+    dnrw = "; ".join(dnrw_items) if dnrw_items else "—"
+    locus = (rec.get("sources") or [{}])[0].get("locus", "")
+    parts = [fm_block([
+        ("Story-Title", rec.get("title", "")),
+        ("World-Code", world_code),
+        ("Tier", str(ret.get("tier", 1))),
+        # Key-Line / Signature: palette supply-side (worklist 4b), rolled to
+        # this world 2026-08-09. Verbatim from the record's own text.
+        ("Signature", "yes" if rec.get("signature") else None),
+        ("Key-Line", ('"' + rec["key_line"] + '"') if rec.get("key_line") else None),
+        ("Confidence", rec.get("confidence_line") or None),  # CO-P2-16
+        ("Source", locus),
+        ("Retrieve-When", rw),
+        ("Do-Not-Retrieve-When", dnrw),
+    ])]
+    parts.append("## Story Text\n\n" + rec.get("text", ""))
+    links = rec.get("gravity_links") or []
+    if links:
+        parts.append("## Formation Ecology Connection\n\n" + links[0]["note"])
+    parts.append("## Tier Justification\n\n"
+                 + (rec.get("narrative_tier") or {}).get("justification", ""))
+    vs = rec.get("voice_surface", "")
+    j = vs.find(ALX_USAGE_MARK)
+    usage = vs[j + len(ALX_USAGE_MARK):].strip() if j >= 0 else ""
+    parts.append("## Usage Guidance\n\n" + usage)
+    return "\n\n---\n\n".join(parts) + "\n"
+
+
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--world", required=True, choices=sorted(WORLDS))
@@ -272,11 +381,16 @@ def main() -> int:
 
     out_root = ROOT / "deploy" / args.world
     counts = {}
+    style = w.get("chunk_style", "syr")
+    if style == "alx":
+        lex_render = lambda rec, body: render_lexicon_alx(rec, body, term_names, world_code)
+        story_render = lambda rec, body: render_story_alx(rec, world_code)
+    else:
+        lex_render = lambda rec, body: render_lexicon(rec, body, term_names, world_code)
+        story_render = lambda rec, body: render_story(rec, body, world_code)
     for sub, items, render in (
-            ("lexicon_chunks", terms,
-             lambda rec, body: render_lexicon(rec, body, term_names, world_code)),
-            ("story_chunks", stories,
-             lambda rec, body: render_story(rec, body, world_code)),
+            ("lexicon_chunks", terms, lex_render),
+            ("story_chunks", stories, story_render),
             ("ambient_chunks", ambient,
              lambda rec, body: render_ambient(rec, world_code))):
         out = out_root / sub
