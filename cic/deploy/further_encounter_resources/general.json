@@ -1,0 +1,40 @@
+{
+  "world_id": "general",
+  "world_offer_label": "the wider story these worlds sit inside",
+  "_comment": "Cross-cutting broad-stroke histories, offered when a participant wants the big picture rather than one world. VERIFIED.",
+  "resources": [
+    {
+      "resource_id": "chadwick-early-church",
+      "title": "The Early Church",
+      "author": "Henry Chadwick",
+      "publisher": "Penguin (History of the Church, vol. 1)",
+      "year": "",
+      "type": "survey",
+      "locator": "ISBN 9780140231991",
+      "note": "A short, accessible history from Christianity's origins to Jerome and Augustine — spans all the worlds at the table.",
+      "topic_tags": ["overview"]
+    },
+    {
+      "resource_id": "gonzalez-story-1",
+      "title": "The Story of Christianity, Vol. 1: The Early Church to the Dawn of the Reformation",
+      "author": "Justo L. González",
+      "publisher": "HarperOne",
+      "year": "",
+      "type": "survey",
+      "locator": "",
+      "note": "The most accessible narrative church history. (Confirm the edition ISBN before final print.)",
+      "topic_tags": ["overview"]
+    },
+    {
+      "resource_id": "wilken-first-thousand",
+      "title": "The First Thousand Years: A Global History of Christianity",
+      "author": "Robert Louis Wilken",
+      "publisher": "Yale University Press",
+      "year": "2012",
+      "type": "survey",
+      "locator": "ISBN 9780300198386",
+      "note": "A global, readable narrative of Christianity's first millennium.",
+      "topic_tags": ["overview", "global"]
+    }
+  ]
+}
