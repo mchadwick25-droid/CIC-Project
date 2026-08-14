@@ -132,6 +132,7 @@
         "display_permitted": {"type": "boolean"},
         "source_type": {"enum": ["P", "S", "M", "L"], "$comment": "carried forward: Type"},
         "boundary_status": {"enum": ["Native", "Excluded"], "$comment": "carried forward"},
+        "in_world_record": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/grounding_anchor.py - false marks a source authored by this build (not a document the world produced), never named in the grounding anchor"},
         "exclusion_reason": {"enum": ["Out-of-Boundary", "Named Comparandum"], "$comment": "carried forward"},
         "comparandum_note": {"type": "string", "$comment": "carried forward"},
         "licensed_for": {"type": "string", "$comment": "carried forward - CiC's own contribution"},
@@ -199,6 +200,8 @@
         "attested_occasion": {"type": "string"},
         "tellable_as": {"enum": ["scene", "background-fact", "allusion-only"]},
         "voice_surface": {"type": "string"},
+        "key_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py and the per-world chunk views - the chunk's rendered Key Line"},
+        "signature": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py ('Signature' front-matter line)"},
         "retrieval": {"$ref": "#/$defs/retrieval_block"},
         "confidence_line": {"type": "string", "$comment": "CO-P2-16 (Mark, 2026-07-28): the deployed story chunks' Confidence front-matter line, verbatim - LIVE metadata (story_retriever injects it into generation context); backfilled from the chunks, no record home existed"}, "gravity_links": {
           "type": "array",
@@ -251,6 +254,8 @@
         },
         "classification": {"enum": ["Primary", "Supporting", "Tensional", "not-advanced"]},
         "confidence_crosscheck": {"type": "string"},
+        "capsule_name": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views - the gravity's short capsule display name"},
+        "capsule_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the one voiced capsule line preferred over formation_logic"},
         "interaction": {
           "type": "array",
           "items": {
@@ -323,6 +328,7 @@
           }
         },
         "narratable": {"type": "boolean"},
+        "bridge_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by figure_registry.py (2026-08-09 name bridge) - the participant-facing one-sentence 'who this is'; only figures carrying it ship in figure_registry.json"},
         "accepted_refusal_note": {"type": "string", "$comment": "CO-P2-07 (Mark, 2026-07-27): documents a deliberate decision that this prompt-named figure stays refusal-only (no story authored, the guard's refusal is the design); presence quiets the narratability gate by documented decision, not suppression"},
         "story_ids": {"type": "array", "items": {"type": "string"}},
         "attribution_note": {"type": "string"}
@@ -405,12 +411,27 @@
         "avoid_traits": {"type": "array", "items": {"type": "string"}, "$comment": "SS3.8 negative constraints: paired trait vocabulary (traits we avoid) - author/reviewer instrument, never the safety-class categorical guards"},
         "register_determination": {
           "type": "object",
-          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"}},
+          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"},
+            "mid_band_aim": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - documents the fleet mid-band reading-level rule (Mark, 2026-08-09) applied to this voice"}},
           "additionalProperties": false
         },
         "native_measure": {
           "type": "object",
-          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"}},
+          "$comment": "schema catch-up (2026-08-14 audit): ceiling_words/ceiling_source/dead_zone_note/interview_ceiling_words are LIVE runtime fields (read per-turn via repair_classifier.ceiling_words_map and interview_ceiling_words_map); derivation/measured_baseline are measurement provenance",
+          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"},
+            "ceiling_words": {"type": "integer"},
+            "interview_ceiling_words": {"type": "integer"},
+            "ceiling_source": {"type": "string"},
+            "derivation": {"type": "string"},
+            "measured_baseline": {"type": "string"},
+            "dead_zone_note": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "failure_measure": {
+          "type": "object",
+          "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - the regression test behind this voice's measured failure mode",
+          "properties": {"axis": {"type": "string"}, "regression_test": {"type": "string"},
+            "source": {"type": "string"}, "note": {"type": "string"}},
           "additionalProperties": false
         },
         "reading_level_check": {"type": "string", "$comment": "inherits the floor from wrs/parameters.yaml reading_floor - a pointer, not a restatement (SS3.8)"},
@@ -441,13 +462,15 @@
             "properties": {
               "trait": {"type": "string"},
               "score": {"type": "string"},
-              "note": {"type": "string"}
+              "note": {"type": "string"},
+              "phase2_note": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): re-score provenance, no code consumer - the Phase 2 pass's re-scoring rationale, kept beside the score it revised"}
             },
             "required": ["trait", "score"],
             "additionalProperties": false
           }
         },
-        "situation_tag": {"type": "string"}
+        "situation_tag": {"type": "string"},
+        "required": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/demonstrations.py - a required: true demonstration always ships in the prompt's demonstration segment regardless of rank"}
       },
       "unevaluatedProperties": false
     },
@@ -468,6 +491,7 @@
         },
         "horizon": {"type": "string"},
         "formation_logic": {"type": "string"},
+        "capsule_inhabit": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the voiced 'inhabit' opening preferred over formation_logic"},
         "gravities": {"type": "array", "items": {"type": "string"}},
         "pairing_guidance": {
           "type": "array",

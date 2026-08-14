@@ -167,6 +167,13 @@ def gate_field_completion(records: dict, profile: str = "default") -> list:
         if required is None:
             continue  # profile doesn't constrain this type (e.g. backfill)
         for f in required:
+            # A not-advanced gravity documents a candidate Doc_04 did NOT
+            # advance (the schema keeps them as required records); the
+            # six-test battery is what advancing would have been, so its
+            # absence is the record's meaning, not a gap.
+            if f == "six_tests" and rt == "gravity" \
+                    and r.get("classification") == "not-advanced":
+                continue
             if not _present(r, f):
                 out.append(f"{rid} ({rt}, {profile}): required field missing/empty: {f}")
         if rt == "gravity" and _present(r, "six_tests") and len(r["six_tests"]) < 6:
