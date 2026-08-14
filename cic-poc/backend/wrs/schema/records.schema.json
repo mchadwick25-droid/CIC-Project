@@ -51,7 +51,7 @@
       "properties": {
         "id": {"type": "string", "minLength": 1},
         "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
-        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters"]},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters", "ambient"]},
         "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
         "register": {"enum": ["emic", "etic", "emic-unavailable"]},
         "confidence": {"$ref": "#/$defs/confidence"},
@@ -63,7 +63,8 @@
         "grounding_criterion": {"enum": ["low", "standard", "high"], "$comment": "derived by rule (SS3.0/SS6.4), never hand-tagged"},
         "review_state": {"enum": ["draft", "cleared-review", "approved-to-proceed", "frozen"]},
         "review_artifact": {"type": "string", "$comment": "SS3.0: a review that clears a record names the saved review artifact (CO-020)"},
-        "schema_version": {"type": "integer", "minimum": 1}
+        "schema_version": {"type": "integer", "minimum": 1},
+        "source_register": {"enum": ["native-constitutive", "native-ambient", "inherited", "comparandum-excluded"], "$comment": "Four-register framework (document-set redesign, 2026-08-14): which register governs what the voice may do with this record's content. Absent = native-constitutive (the historical default for everything migrated before the field existed) - do not mass-backfill. 'register' (emic/etic) is a different axis: insider-vs-outsider terminology, untouched. ambient records MUST carry native-ambient (gate_field_completion); inherited marks received Scripture spoken as our own with the inheritance visible."}
       },
       "required": ["id", "world_id", "record_type", "schema_version"]
     },
@@ -519,6 +520,19 @@
           "required": ["text", "status"],
           "additionalProperties": false
         }
+      },
+      "unevaluatedProperties": false
+    },
+    "ambient": {
+      "$comment": "Document-set redesign step 5 (2026-08-14): Native-Ambient's home - the material/social common life of the place (prices, food, travel, household, street, water, siege). By DESIGN this type has no owner_figure_id, no gravity_links, no story/figure link fields: the register may not anchor a gravity, carry a formation claim, or be attributed to a named person of this world, and unevaluatedProperties:false makes those links structurally impossible rather than merely forbidden. Every record cites Native sources; gate_field_completion requires the full set; the chunk view carries the common-life marking into retrieval.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "ambient"},
+        "title": {"type": "string", "minLength": 1},
+        "text": {"type": "string", "minLength": 1, "$comment": "the texture itself, written as the common life of the place - never on a named person's lips"},
+        "ambient_domain": {"enum": ["food-and-famine", "water-and-flood", "trade-and-travel", "household-and-family", "street-and-city", "language-and-school", "work-and-money", "war-and-frontier", "sickness-and-death", "calendar-and-festival"], "$comment": "coarse routing facet for coverage review, not a retrieval key"},
+        "period_note": {"type": "string", "$comment": "when within the world's window this texture holds, and any drift across it"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"}
       },
       "unevaluatedProperties": false
     },

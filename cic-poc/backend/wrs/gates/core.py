@@ -63,6 +63,15 @@ def gate_referential_integrity(records: dict) -> list:
             sid = link.get("source_id")
             if sid and sid not in records:
                 out.append(f"{rid}: sources[] -> {sid} does not resolve")
+            # Four-register firewall (redesign step 5, 2026-08-14): a record
+            # that feeds retrievable chunks may never stand on an Excluded
+            # source - the Comparandum firewall held structurally only by
+            # omission before this check existed.
+            elif sid and r.get("record_type") in ("term", "story", "ambient") \
+                    and records[sid].get("boundary_status") == "Excluded":
+                out.append(f"{rid}: sources[] -> {sid} is boundary_status="
+                           f"Excluded - chunk-feeding records may not cite "
+                           f"an Excluded source")
         # CO-P2-04: story-to-gravity links (gate STRENGTHENED - a new
         # reference class checked; no existing check weakened)
         for link in r.get("gravity_links") or []:
@@ -125,6 +134,11 @@ PROFILES = {
                    "layer_worlds_own_experience", "layer_formation_impact",
                    "layer4", "sources"],
         "figure": ["names", "narratable"],
+        # Redesign step 5 (2026-08-14): Native-Ambient's own bar - texture
+        # without a source is invented texture, and unmarked texture can be
+        # mistaken for a named voice's own claim.
+        "ambient": ["title", "text", "ambient_domain", "period_note",
+                     "sources", "retrieval", "source_register"],
         "contested_claim": ["claim", "held_against", "concedes",
                              "pressure_response", "divergence_partners"],
         "voice_profile": ["speaking_model", "trait_rubric",
@@ -178,6 +192,12 @@ def gate_field_completion(records: dict, profile: str = "default") -> list:
                 out.append(f"{rid} ({rt}, {profile}): required field missing/empty: {f}")
         if rt == "gravity" and _present(r, "six_tests") and len(r["six_tests"]) < 6:
             out.append(f"{rid}: six_tests carries {len(r['six_tests'])}/6 verdicts")
+        # Redesign step 5 (2026-08-14): the register marking must be RIGHT,
+        # not merely present - an ambient record claiming any other register
+        # would smuggle texture past the four-register rules.
+        if rt == "ambient" and r.get("source_register") not in (None, "native-ambient"):
+            out.append(f"{rid}: ambient record carries source_register="
+                       f"{r.get('source_register')!r} - must be native-ambient")
     return out
 
 
