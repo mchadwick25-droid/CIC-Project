@@ -1,0 +1,134 @@
+---
+id: syrlex004
+world_id: syriac-edessa-nisibis
+record_type: term
+schema_version: 1
+jobs:
+- 1
+- 2
+- 4
+- 6
+register: emic
+review_state: draft
+cache_stability: static
+term: madrasha (ܡܕܪܫܐ) / madrashe (plural)
+aliases:
+- '"teaching-hymn," "hymn" (loose English gloss)'
+quick_meaning: 'Ephrem''s main vehicle for argument: a sung hymn, metered, often built on the alphabet, carried by
+  refrains. It is made to be performed rather than read, and it carries its case through melody and
+  repetition rather than simply stating it. Bardaisan and Mani were already using the form; Ephrem took it
+  up to answer them on their own ground.'
+world_meaning: 'The madrasha is Ephrem''s dominant vehicle for theological argument: a sung, metered,
+  stanzaic hymn built with refrains (ʿonyaṯa), often acrostic, meant to be performed rather than merely
+  read. To transmit doctrine in this world, at least on the Roman side, is in large part to sing it —
+  an argument is not simply stated and set beside other arguments but carried through a melody, repeated
+  in refrain, held in the body along with the tune.
+
+
+  This genre is Ephrem''s own signature vehicle, but it was not his invention. Bardaisan had already made
+  the sung, stanzaic hymn his own literary form in the third century, and Mani''s own hymnody worked in
+  comparable terms — so that when Ephrem takes up this same genre to answer both figures, he is contesting
+  rivals on ground they had already occupied, not inventing a wholly separate mode of address. To transmit
+  meaning here is, in part, to meet a neighbor within a shared literary form and turn it toward a different
+  truth.
+
+
+  [Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the
+  S2.3-equivalent per SS3.2 / FLAG-002]: The madrasha is the performative vehicle for this world''s Primary
+  theological-method gravity (raza/shrara, C1) and is directly entangled with this world''s heresiological
+  boundary-work (C3, against Bardaisan, Marcion, and Mani) — the genre itself is part of the contest,
+  not merely the medium carrying it. A participant who understands the madrasha understands why so much
+  of this world''s doctrine survives as hymn rather than treatise, and why genre choice itself carried
+  polemical weight.'
+distortion_risk: '**World Hearing:**
+
+  For Ephrem''s own audience, the madrasha was itself the argument, its meter and refrain-structure a
+  formation technology carrying the raza/shrara method into the body through repetition and melody, and
+  its very genre-choice a contested claim staked against Bardaisan''s and Mani''s own use of the same
+  sung form.'
+retrieval:
+  tier: 1
+  retrieve_when:
+  - participant asks how this world's theology was taught or transmitted
+  - participant asks about Ephrem's hymns specifically
+  - conversation reaches the contrast between sung and prose theological argument, or between Ephrem's
+    method and Bardaisan's/Mani's.
+  do_not_retrieve_when:
+  - condition_type: sense-disambiguation
+    text: participant is asking about Aphrahat's own writing (his Demonstrations are prose, not madrashe
+      — see taḥwyāṯā instead)
+  - condition_type: sense-disambiguation
+    text: participant is asking about memra specifically and the distinction has already been surfaced
+      in the current turn.
+  force_llm_vote: true
+sources:
+- source_id: srcSYR055
+  author_gravity_note: 'Sebastian Brock, "Ephrem and the Syriac Tradition," in *The Cambridge History
+    of Early Christian Literature* (2004): 361–372.'
+- source_id: srcSYR054
+  author_gravity_note: 'Jeffrey Wickes, *Bible and Poetry in Late Antique Mesopotamia: Ephrem''s Hymns
+    on Faith* (University of California Press, 2019).'
+- source_id: srcSYR001
+  author_gravity_note: 'Primary textual base: Ephrem, *Hymns on Faith* (Source Registry #1) and *Contra
+    Haereses* (Source Registry #2).
+
+
+    Note: it is accurate to call this "Ephrem''s genre" as his dominant vehicle, but its pre-Ephrem origin
+    in Bardaisan''s and Mani''s own practice must be named rather than presenting Ephrem as its inventor.
+    This is a genre-level claim (the form itself was already established); a stronger claim about matching
+    a specific rival''s meter or refrain-structure is not supported by the sourcing and is not made here.'
+modern_hearing: '**Modern Hearing:**
+
+  A modern reader hears "hymn" and assumes decorative accompaniment to a doctrine that could equally well
+  be stated in prose — a hymn illustrates or celebrates a teaching rather than constituting the argument
+  itself.'
+original_script: ܡܕܪܫܐ
+period_sense: 'Ephrem''s dominant vehicle for theological argument: a sung, metered, stanzaic, often acrostic
+  hymn with refrains (ʿonyaṯa), performed rather than read - the argument itself carried through melody
+  and repetition; a genre already established by Bardaisan and Mani, which Ephrem took up to answer them
+  on their own ground (chunk Quick/World Meaning).'
+prior_sense: 'The genre''s own pre-Ephrem life is the documented prior: Bardaisan had made the sung stanzaic
+  hymn his own literary form in the third century, and Mani''s hymnody worked in comparable terms - Ephrem
+  contested rivals on ground they already occupied (chunk World Meaning; the chunk''s own genre-level-only
+  caution: no claim about matching a specific rival''s meter or refrain-structure).'
+modern_sense: '''Hymn'' as decorative accompaniment - illustrating or celebrating a teaching that could
+  equally well be stated in prose (chunk Modern Hearing).'
+conceptual_distance_note: 'For Ephrem''s audience the madrasha WAS the argument: meter and refrain a formation
+  technology carrying the raza/shrara method into the body, and the genre-choice itself a contested claim
+  staked against Bardaisan''s and Mani''s use of the same form (chunk World Hearing). Sharp gap: high
+  grounding criterion by rule.'
+semantic_domain: sung-theology
+grounding_criterion: high
+voice_surface: To transmit doctrine here is, in large part, to sing it. A madrasha does not set an argument
+  beside other arguments; it carries the argument through a melody, returns it in the refrain, and lodges
+  it in the body along with the tune. The form was not ours first - Bardaisan and Mani sang their own
+  teaching in it - and taking it up was itself part of the contest.
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  verification_date: '2026-07-28'
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+field_relations:
+- type: presupposes
+  target_id: syrlex001
+  note: 'The madrasha performs the raza/shrara hermeneutic - the genre presupposes the method it carries
+    (chunk Reciprocity Note: ''the hermeneutic this genre performs''; Doc_04 C1). Chunk Ecological Function
+    (verbatim, absorbed per FLAG-002): The madrasha is the performative vehicle for this world''s Primary
+    theological-method gravity (raza/shrara, C1) and is directly entangled with this world''s heresiological
+    boundary-work (C3, against Bardaisan, Marcion, and Mani) — the genre itself is part of the contest,
+    not merely the medium carrying it. A participant who understands the madrasha understands why so much
+    of this world''s doctrine survives as hymn rather than treatise, and why genre choice itself carried
+    polemical weight.'
+- type: associated-with
+  target_id: syrlex005
+  note: Sister verse genres, distinguished by meter, occasion of use, and memra's later genre-crystallization
+    caveat (both chunks' Reciprocity Notes attest the pair) - association, no hierarchy.
+---
+Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex004_madrasha.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
+
+[Force-LLM-Vote rationale - the chunk's own front-matter text, carried verbatim (the flag itself is retrieval.force_llm_vote)]: true — this term's Do-Not-Retrieve-When names a specific, easily-confused sibling genre (Aphrahat's own prose Demonstrations) rather than a generic cross-world guard; the Tier-1 short-circuit never evaluates that distinction, so this term must always go through the LLM vote where it actually gets read.
+
+[Related-Terms Reciprocity Note - parked at the S2.2-equivalent; absorbed into field_relations notes at the S2.3-equivalent] Cross-referenced with raza/shrara (the hermeneutic this genre performs) and memra (a sister verse genre, distinguished by meter, occasion of use, and — for memra specifically — a later genre-crystallization caveat). Both entries list this term back.
+
+[Verification State Re-grade (2026-08-05, Rigor P1-1 fix)]: `verification_state` was already `verified-via-authority` under the old fleet-wide default; re-examined against this term's own linked sources[] and their discovery_channel disclosures, that value is CONFIRMED (not simply carried over unchecked). **Flagged as a judgment call**: mixed signal: 2/3 linked sources show active-discovery channels, 1/3 show builder-prior-knowledge; this record's own prose does not independently state its verification story, so the grade rests on inference from source-linkage metadata rather than an explicit first-person statement — noted here rather than re-asserted as settled fact.
