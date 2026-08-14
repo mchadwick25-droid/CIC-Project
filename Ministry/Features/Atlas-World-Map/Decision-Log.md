@@ -144,6 +144,363 @@ debt, the A3 statusWord harmonization backlog, the IX.16 split's drafted row).
 
 ---
 
+## 2026-08-05 (Pass 7, UI 29) — Same-family movements clustered into proportional zones instead of interleaved across the canvas
+
+**Mark:** "can we do a better job of having the same lanes (catholic,
+orthodox, etc.) nearer each other and not all mixed in with each other."
+The heart of it: color is how this map says *family*. A family whose
+boxes are sprayed across the full width doesn't read as a family at all
+-- a participant can't see a tradition holding together through an era,
+which is one of the few things a picture of history can do that a list
+can't.
+
+**Measured before diagnosing anything:** Era 9 has 51 movements across 9
+families but 32 left-to-right family transitions when its rows are
+sorted by x, against a theoretical minimum of 8 -- same-family members
+were roughly 4x more scattered than they needed to be. The complaint was
+real and quantified before a line was written.
+
+**Two compounding causes, traced against real named cases rather than
+guessed at:**
+
+1. `tryPack` gave every family present in an era exactly ONE anchor
+point, regardless of how many members that family actually had that era.
+Era 9's oversubscribed Protestant & Evangelical block (~20 members) and
+its single-member Caucasus entry got equally-sized shares of the anchor
+row. Traced live: `armenian-christianity-zartonk`, Era 9's only Caucasus
+entry, wanted x=362 and landed at x=2047 -- the pitch grid near the
+shared anchor row was already claimed by the oversubscribed families
+packed into the same evenly-spaced points, so its free-gap search fell
+through to whatever slot was left, deep inside unrelated families.
+
+2. The parent-position blend weights the parent 0.55 against the
+family's 0.45, so a movement whose parent belongs to a DIFFERENT family
+-- common and entirely legitimate (`alexandria-catechetical`/Africa
+descends from `post-apostolic-house-church`/Origin) -- can be dragged
+clean out of its own family's territory. Traced: without a clamp its
+want came out at 332 instead of its own Africa zone's ~583–697, landing
+it inside Origin's cluster and taking Era 1 from its achievable
+4-transition minimum up to 6.
+
+**Fix, both halves at once.** Each family now gets a ZONE sized in
+proportion to its actual era-native member count (stacked-bar style, in
+`FAM`'s own k-order, so a family tends to occupy the same relative
+stripe from one era to the next), with each member targeting a point
+spread across ITS family's zone by birth order instead of every member
+converging on one shared point -- so the free-gap search seats
+same-family boxes next to each other rather than scattering the overflow
+into whoever's anchor happened to be nearby. And the parent-blended
+`want` is re-clamped back into the movement's own family zone: a
+foreign-family parent still biases where WITHIN the zone a child lands
+(still nearer the parent's side of it) without breaking the family block
+apart. Identity succession still overrides the clamp -- it has the
+stronger, more specific claim on a column.
+
+**The costs, disclosed rather than buried.** Family transitions across
+all ten eras at 1280px dropped from ~161 to 150, with the wins
+concentrated exactly where the scattering was worst (era 7: 18→14, era
+8: 16→14, era 9: 32→29, era 10: 24→23) -- but eras 1 and 2 each
+REGRESSED by one. Small eras are highly sensitive to the residual
+tension between the parent pull and the zone clamp, and that is stated
+here rather than averaged out of sight. Canvas width: 1280px desktop
+unchanged at 2840px; 390px mobile grew 2010 → 2250px (+11.9%). Giving
+every family real proportional room costs width -- that's the honest
+trade, made two commits after UI 27 spent its whole effort winning width
+back, and taken deliberately because the eras where scattering was worst
+are the eras where legibility was worst.
+
+**Verified independently, not by trusting the implementing agent's own
+report:** the family-transitions measurement was re-run directly and
+returned identical numbers; `git diff` was read to confirm the
+foreign-tail exclusion computation has no reintroduced same-family
+exemption (the exact defect Wave 4 fixed and UI 27 tuned) and that none
+of the List view, hover-tip, sticky-header or era-banner code from UI
+23–28 was touched; visual spot-check on Era 9 shows same-hue tails now
+grouped in contiguous bands instead of scattered. `shoot.mjs` unaffected
+(foreignTailOverlaps 0, overlapGroups 0, jsErrors none, 257 nodes);
+`validate-census.mjs` 0/0.
+
+**Next action:** none pending. The eras 1–2 one-transition regression is
+the live loose end -- worth revisiting only if the residual parent-pull/
+zone-clamp tension shows up somewhere a participant would notice, since
+on eras that small the difference is one box.
+
+---
+
+## 2026-08-05 (Pass 7, UI 28) — Controls bar, era header and orientation line pinned while scrolling right; a sticky element as wide as its container is just `static`
+
+**Mark:** "can we have the header and era dividers slide to over the
+open screen so we don't lose the information if we scroll right." A
+direct consequence of the desktop canvas legitimately running wider than
+one screen -- UI 27 brought the width back down, but back down to
+2840px, not to viewport width. Scroll right into a crowded era and you
+lost the search box, every filter, and the era label at the same time:
+no way to tell which era you were in, what its dates were, or to search
+your way out. Losing your bearings is the specific failure this whole
+map exists to prevent.
+
+**Confirmed before touching anything:** a real wheel-scroll test put
+`#controls` and `#orientText` at `left:-1560px` at max scroll -- fully
+gone, not merely drifting. `position:sticky` only tracks scroll within
+an element's own containing block, and both were ordinary
+viewport-width page-flow siblings even though `#wrap` (nested several
+levels down) is what makes the whole page scrollable to the canvas's
+real width. Era headers already worked, since `.erahead` genuinely spans
+the full canvas (`left:0;right:0`) -- but `.bar`, the visible
+title/tag/dates box inside it, sat at the far-left edge of that span
+with nothing holding it in view, so it got `position:sticky;left:.8rem`
+on the horizontal axis only (vertical position still comes from
+`.erahead`'s own `top:${y}px`, set once per era in JS).
+
+**The wrong turn, recorded because it is the instructive part.** The
+first attempt widened the sticky element itself -- `#controls` set to
+the canvas width. That made it WORSE, not better: zero sticky effect,
+computed `position` still reporting "sticky" while it tracked scroll 1:1
+exactly like a static element. The rule that fell out of it: **a sticky
+element needs SLACK -- room between its own width and its containing
+block's width -- or it has nowhere to travel; one exactly as wide as its
+containing block is `position:static` in all but name.** `#orientText`
+had been working all along for precisely that reason: its PARENT
+(`#orient`) is what gets widened while the paragraph itself stays
+narrow. So `#controls` now sits inside a new dedicated `#controlsWrap`,
+widened to canvas width `W` in `layout()`, with `#controls` itself
+capped near viewport width (`max-width:100vw`, plus matching caps on
+`.row1` and `#filterPanel`) so the actual buttons and search stay
+compact instead of stretching into a mostly-empty wide wrapper.
+Widening `<main>` would have given the same slack and was rejected: it
+would also have stretched the footer and glossary prose to an
+unreadable line length.
+
+**How the wrong turn ended: an isolated minimal-HTML reproduction** -- a
+sticky div inside a container of exactly its own width -- rather than
+another round of reasoning against the full page. That settled the
+"sticky needs slack" question in one shot, where reasoning about the
+real file had already produced one confident wrong answer. Worth
+reaching for earlier next time: this file is large enough that arguing
+about it from the inside is slower than building a five-line copy of the
+thing in question.
+
+**A testing-method note worth carrying forward:** `window.scrollTo()`
+gave unreliable, truncated scroll positions while checking this -- far
+enough short of the true maximum to make a broken state look partly
+working. `page.mouse.wheel()` produced realistic, full-range results,
+and the final verification used it out to the true max `scrollX` of
+1560px. On this page, drive horizontal scroll with the wheel, not
+`scrollTo`.
+
+**Desktop only, by design.** Mobile never needed it: since UI 22 the
+wide content lives inside `#mapViewport`'s own contained pinch-zoom
+pane, not the page's own scroll. Confirmed unaffected --
+`#controlsWrap` and `#controls` both report 390px on a 390px viewport.
+
+**Verified:** `shoot.mjs` unaffected (foreignTailOverlaps 0,
+overlapGroups 0, jsErrors none, 257 nodes, mobilePinchChangedScale
+true); `validate-census.mjs` 0/0; wheel-scroll to the true max scrollX
+confirms `#controls`, `#orientText` and the era header all stay pinned
+at left:0/12.8px throughout the scroll, not just partway into it.
+
+---
+
+## 2026-08-05 (Pass 7, UI 27) — Canvas-width regression: one spacing constant had been doing two different jobs
+
+**Mark:** "on the desktop the width is no longer fitting on one page." A
+real regression, and one this session caused: the Wave 4 box-vs-foreign-
+tail overlap fix (44 → 0 overlaps) correctly stopped exempting
+same-family ribbons from each other's box-clearance zones, and the
+canvas paid for it.
+
+**Root cause:** the exclusion-zone formula was reusing `GAPb` -- the
+12px tail-to-tail PITCH constant -- as the box-clearance buffer too, on
+top of a full `NW/2` box half-width. One constant serving two
+conceptually different purposes, so every excluded ribbon was
+double-charged for clearance. With same-family exemptions gone, each of
+the ~23 concurrent movements in the densest era paid that extra 12px on
+both sides; the canvas ballooned from 2600px to 4640px at a 1280px
+viewport, nearly double. `GAPb`'s job is tail-to-tail spacing on the
+pitch grid. It was never the right number for "a box must not visually
+touch a foreign tail."
+
+**Fix:** split the two purposes into two constants. `boxClear=4` now
+carries box-vs-foreign-tail clearance on its own, empirically tuned as
+the smallest value that still holds `foreignTailOverlaps` at 0 -- 2px
+was tried and reintroduced 2 real overlaps, so the floor was measured
+rather than assumed. The canvas came back to 2840px/2010px at 1280/390px
+-- close to the pre-fix baseline instead of nearly double it -- with the
+overlap fix itself completely untouched. Which was the whole point:
+overlapping boxes and tails are a correctness failure and a
+double-width canvas is a usability failure, and the fix had to keep the
+first solved while undoing the second.
+
+**Worth keeping:** neither number is derivable from first principles;
+both were found by measuring. The durable part of this entry is that the
+two costs are now independently tunable, so the next time either one
+needs to move it can move without silently paying for the other.
+
+**Verified:** `shoot.mjs` unaffected (foreignTailOverlaps 0,
+overlapGroups 0, jsErrors none, 257 nodes); `validate-census.mjs` 0/0;
+`#wrap` width measured at both 1280px and 390px before and after.
+
+---
+
+## 2026-08-05 (Pass 7, UI 26) — Hover tip stuck open and following the cursor: paired enter/leave replaced with state re-derived on every move
+
+**The report:** "it sticks open and follows the arrow around and i cant
+get it to close." That is two failures in one sentence, and the second
+is the serious one -- a tooltip you cannot dismiss stops being a hint
+and becomes an obstruction that trails the cursor across the whole map,
+with a page reload as the only exit. Everything this map asks a
+participant to do is pointing at things; a mode where pointing makes it
+worse is disqualifying.
+
+**Root cause, found rather than guessed.** The tip's hide logic lived in
+a `pointerout` listener that only fired when its event target was inside
+a `.node`. But `layout()`/`relayout()` -- triggered by resize, the
+filter toggle, and the list/map toggle -- fully REMOVES and rebuilds
+every `.node` element on every call, a behavior already documented in
+`relayout()`'s own comment for an unrelated opacity bug. If that rebuild
+happens while a node is hovered, the DOM element is destroyed without
+ever dispatching a leave event, orphaning `tip.style.display="block"`
+permanently; and the old `pointermove` handler had no check that the
+pointer was still over anything at all, so it dutifully kept
+repositioning whatever was left showing -- which is exactly the "follows
+the arrow around" half of the report. The same gap existed for thread
+hover: `#art`'s `pointerover` had no hide path whatsoever.
+
+**The shape of the fix matters more than the fix.** The tempting move
+was to add another leave path to the paired enter/leave state machine.
+Instead the pairing was removed: a single `pointermove` handler now
+re-derives hover state fresh on every move via `ev.target.closest()` --
+node, thread, or neither -- with one `__hoverKey` recording what the tip
+currently shows, and a `pointerleave` safety net for leaving the canvas
+outright. This is self-healing rather than stateful: even if a relayout
+silently destroys the hovered element mid-gesture, the very next move
+(which always fires, because it depends on no paired event) correctly
+detects that the pointer is no longer over anything and closes the tip.
+A state machine that can desynchronise from a DOM that rebuilds itself
+underneath it was the bug; not having one is the fix, and that
+generalizes past this one handler.
+
+**Verified:** `shoot.mjs` unaffected (hoverTipVisible true,
+foreignTailOverlaps 0, overlapGroups 0, jsErrors none);
+`validate-census.mjs` 0/0; and a targeted Playwright reproduction of the
+exact mechanism rather than of the symptom -- hover a node, destroy and
+replace its element with no leave event (what a relayout does
+mid-hover), then move off it -- confirms the tip now hides on the very
+next move, precisely where the old code left it stuck, and that hovering
+a fresh node afterwards still works normally.
+
+---
+
+## 2026-08-05 (Pass 7, UI 25) — Era banners to two lines on desktop; the tag joins the title line
+
+**Mark's follow-up:** on desktop the era banner -- era number, title,
+tag, dates, key events -- was wrapping to three lines even though there
+was plenty of horizontal room going unused. The era banners are the
+map's ruler: they're what tells a participant where in history they
+currently are, and three lines of banner per era is three lines of
+history not on screen, repeated ten times down the page.
+
+**The fix, and the near-miss inside it.** The forced flex line-break
+lived on `.tag` (`flex-basis:100%`) -- needed on mobile, where that line
+is genuinely tight. The obvious move, putting `flex-basis:100%` on
+`.dates` instead, would have claimed the whole row for `.dates` alone
+and pushed `.events` onto a third line, arriving at the same three-line
+result by a different route. So the break is carried by a dedicated
+zero-height `.linebreak` spacer placed before `.dates`: it consumes the
+remainder of the tag's row, and `.dates`/`.events` keep their natural
+widths and share the fresh row after it. Result on desktop: era + title
++ tag on line one, dates + events on line two.
+
+**Gated at the 700px threshold `layout()` already uses** for its own
+mobile/desktop box sizing, deliberately, so this page has one
+mobile/desktop boundary rather than a second one that could drift out of
+step with the first. Mobile keeps the original three-line wrap -- the
+`.linebreak` spacer stays `display:none` there, because title and tag
+together overflow a narrow screen.
+
+**Verified:** `shoot.mjs` unaffected (foreignTailOverlaps 0,
+overlapGroups 0, jsErrors none, 257 nodes); `validate-census.mjs` 0/0;
+manual Playwright check at 1280px and at the 700px threshold edge
+confirms two clean lines even on the longest title/tag pair (Era III);
+mobile at 390px unchanged.
+
+---
+
+## 2026-08-05 (Pass 7, UI 24) — "Reading the marks" icon key moved back down to the footer, ten minutes after UI 23
+
+**Mark's follow-up to UI 23, same session.** The icon-by-icon key ("what
+every icon means") had been pulled UP above the fold for the same
+Accessibility P0-1 finding, auto-opening once per browser on first
+visit, because before that the map's only explanation sat in the footer
+below the entire ten-era canvas. With UI 23's always-visible
+`#orientText` line now carrying first-visit orientation on its own, the
+fuller key was doing that job a second time and charging permanent space
+at the top for it.
+
+**Decided:** the `<details>` block moved back down beside the existing
+footer paragraph -- where it originally lived -- and the
+auto-open-on-first-visit behavior was dropped along with it. That
+behavior was scoped entirely to being above the fold; in a footer it
+means nothing, so the key is now an ordinary closed-by-default
+disclosure like everything else down there. The heart of the call: a
+first-time participant needs one sentence telling them how to read the
+picture, not a full glossary before they've seen anything; the glossary
+is what you go looking for once you're curious, and the footer is where
+people go looking.
+
+**Named plainly, because it partly reverses a Wave 1 accessibility fix
+and should not be read later as a regression of it.** P0-1's actual
+finding was that the map had no explanation above the fold at all; the
+`#orientText` line answers that and stays. What moved is the
+supplementary depth, not the orientation. The commit left a comment in
+the file recording the full round trip -- footer → top for P0-1 → footer
+again the same day -- so the next reader doesn't "fix" it back without
+knowing why it travelled.
+
+**Verified:** `shoot.mjs` unaffected (foreignTailOverlaps 0,
+overlapGroups 0, jsErrors none, 257 nodes); `validate-census.mjs` 0/0;
+manual Playwright check confirms it renders closed in the footer and
+opens on click.
+
+---
+
+## 2026-08-05 (Pass 7, UI 23) — The always-visible orientation line made closeable, remembered per browser
+
+**Where this and UI 24 sit.** The above-the-fold orientation line
+("Time runs downward — each box marks a tradition at its birth, and its
+tail traces its lifetime below it…") is Accessibility P0-1 from the
+2026-08-05 full-system review, Wave 1. It and the "Reading the marks"
+icon key were on the page again as part of re-implementing that work
+FORWARD rather than recovering it: a landing-page/hosting versioning
+problem had left the live site missing a batch of prior Atlas work --
+Mark's own words, recorded at UI 2: *"everytime we make a change it
+reverts back to an old version of the landing page."* Reverting the page
+to an older version would have dragged the rest of the site backwards
+with it, so the lost work was rebuilt going forward instead. The commits
+themselves record only the P0-1 provenance; the incident is written down
+here so the run of UI 23–29 reads correctly later.
+
+**The problem with an always-visible orientation line:** it is exactly
+right on the first visit and steadily wrong after that. It is screen
+space the map should have, charged again on every return, to explain
+something the participant has already learned. Orientation is a gift you
+give once; after that it's furniture.
+
+**Fix:** a small `×` close control on the line itself, with the
+dismissal remembered per browser in `localStorage`
+(`cic_atlas_orient_text_dismissed`) -- the same once-per-browser pattern
+already used for the "Reading the marks" auto-open. First-time visitors
+lose nothing at all; returning visitors get the space back permanently,
+by their own choice rather than by a guess about how many visits count
+as "learned it."
+
+**Verified:** `shoot.mjs` unaffected (foreignTailOverlaps 0,
+overlapGroups 0, jsErrors none, 257 nodes); `validate-census.mjs` 0/0;
+manual Playwright check confirms the line is visible by default, hides
+on click, and stays hidden across a reload.
+
+---
+
 ## 2026-08-05 (Pass 7, UI 22) — Mobile pinch-zoom rebuilt map-only, ending six rounds on the whole-page-zoom approach
 
 **The report that closed out the whole-page-zoom line:** "the x works

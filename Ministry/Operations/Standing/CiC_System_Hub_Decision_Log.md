@@ -11,6 +11,408 @@ workstream in this project.
 
 ---
 
+## 2026-08-05/06 — Full-system review remediation, Waves 3 and 4: BOTH SHIPPED (entry written 2026-08-14, filling a nine-day gap in this log)
+
+**Why this is backdated.** This log carried Wave 1 and Wave 2 entries and then stopped.
+Waves 3 and 4 both shipped on 2026-08-05/06 and were never recorded here — the gap was
+found on 2026-08-14 while reconciling the Task Board, and is filled now rather than left
+as a hole between Wave 2 and the Era 10 freeze. Contents below are taken from the commits
+themselves, not reconstructed from the original plan's wish-list, since what shipped and
+what was planned are not always the same thing.
+
+**Wave 3** — `7180c8f` and `e67fe11` (2026-08-05): the closing/ending screen rebuild with
+its takeaway artifact and feedback link, six per-world further-reading packs, the
+Imperial-Juridical guided starters (the one world that lacked them), session-token
+persistence, Atlas layout hygiene, accessibility and onboarding fixes, the census copy
+pass, the rigor data-integrity work (term verification-state re-grading and its gate), the
+emic audit of the deployed Representative prompts, freeze-battery consolidation into one
+harness, and event-store bounding. The field-bibliography sweep item landed a day later,
+`8ea2080` (2026-08-06).
+
+**Wave 4** — `4a843bd`, `e81adaa`, `5e28280` (2026-08-05): primary-source
+edition/translation fields on the rows that bear weight plus Syriaca.org identifiers,
+`plain_explanation` authored for the remaining term records, the Atlas list view restored,
+the `nodes.py` split by extract-plus-replay-parity-proof, dependency locking and dead-code
+deletion, Level 3 human-labelled fields, the `gate_readability` CI check wired to every
+participant-facing surface, `repository.json` generalized to five more worlds, and the
+Atlas box-vs-foreign-tail packing fix.
+
+**Recorded honestly as NOT closed by these waves** (verified 2026-08-14 against the code
+and files, not inferred):
+- **`gate_readability` ships as a check, but the prose does not pass it** — 3,280
+  violations across 2,107 fields. The regression guard exists; the underlying
+  participant-facing readability work does not. This is a real open finding, not a
+  completed item.
+- The outside scholarly reader (Desert-Monasticism → *Reviews in Digital Humanities*,
+  the Article 31 gate open since 2026-07-08) — no commit, no log entry, still open.
+- The FAIR Conformance and Deviation Statement — its *scope* was refreshed, but
+  publication remains reserved for Mark per the document's own header; the file is still
+  a draft on disk.
+- The dormant `participant_role` / lane-ceiling system — dead `app/agents/` modules were
+  deleted but no ruling was made; `_LANE_LENGTH_CEILINGS` remains live and dormant in
+  `signals.py`, now heading into a third audit undecided.
+- Real RSS with both transformer models loaded — stayed blocked by egress policy, as
+  that commit's own body discloses.
+
+---
+
+## 2026-08-14 — Era 10 frozen: the ten-era Step 0 Atlas census build is complete and live; four Mark decisions recorded
+
+**What closed.** Era 10 (1906–present, "the living era") went through the same unified
+process as eras 3–9 — two parallel research agents, a composed era document, two
+adversarial review rounds written as their own files, then Mark's single ruling — and
+froze on 2026-08-14. The census went 257 → 274 movements and 21 → 24 edges, validator
+clean at 0 errors / 0 warnings, shipped to `main` and confirmed serving live from
+churchinconversation.com the same night. The Living-Era Protocol Addendum V1.0 was
+ratified in the same ruling and now governs any Step 0 assessment touching a living
+movement. Full technical account: `Ministry/Features/Atlas-World-Map/Decision-Log.md`,
+2026-08-14 (Pass 5). This entry records the decisions and the process finding, not the
+census mechanics.
+
+**Process finding worth carrying forward — the reason two review rounds exist.**
+Round 1 found a manufactured fact in the era document: a World Council of Churches
+doctrinal-basis citation that appeared in no research file and had been supplied by
+composition. It was struck. **Round 2 then found that the strike had landed in the era
+document's prose only — the fabrication was still live in the candidate draft, which is
+the file whose contents actually enter the census.** A second Round-1 fix (a false claim
+about what a Frozen census row says) had failed the same way. Both would have shipped
+into a public census while the era record asserted they had been removed. The
+generalizable lesson: *a fix applied to the document that describes the data is not a fix
+to the data.* Any future review-and-apply cycle on this project must verify findings at
+the deciding artifact, not at the artifact that talks about it.
+
+**Mark's decisions this session, in order:**
+
+1. **IX.50 — the Christian Right / Christian Nationalism current — declined as its own
+   census row.** Mark named it as a fifth live mandate mid-run (Moral Majority →
+   Reagan-era politics → Limbaugh/Fox News → the "Christian Nationalism" discourse) with
+   an explicit instruction: *"i want it considered, but let the step 0 process define
+   everything."* It was surveyed under the same undecided Section A/B screening as every
+   other candidate. Section A found no independent confession to test — the Moral
+   Majority's own founding logic was cross-confessional by design, and the current's own
+   most careful scholarly self-description defines it as a political-cultural framework
+   measurable independently of personal religiosity. Section B came out mixed and was
+   argued both ways: sourcing and participant-interest strong, ecology honestly thin.
+   Limbaugh and Fox News were tested as possible anchors and classed as media carriers on
+   the existing IX.32 carrier-device precedent. It was drafted at the weakest lean stated
+   anywhere in the document, deliberately so the gate could decline it on the record.
+   **Mark took the no-row branch.** The current is carried as named disclosure lines on
+   IX.33 (primary host) and IX.24 (secondary), with the full institutional chain named in
+   dated form; its own-row question is banked as an open forward flag under the living-era
+   regime. Reasoning for the record: the same dated anchors carry either way, so nothing
+   was lost from the record, and a contested, thinly-sourced current going onto a public
+   map is the case where declining costs least and asserting costs most.
+
+2. **The rules for living movements will change — a separate piece of work, after the
+   freeze.** Mark's finding, and the number that grounds it: **the entire census has
+   exactly one living row starting after 2000, and four starting after 1990.** A map of
+   257 rows goes quiet right around the point where a present-day visitor's own
+   experience begins. That is the recency floor working as designed for history and
+   failing as applied to the present — it converts "too early to judge" into invisible.
+   Direction set: an **era 11 emerging band defined by confidence rather than a date
+   cut** (a hard ten-year line is false precision; nothing becomes settled on its tenth
+   birthday), everything in it visibly provisional, rows graduating into era 10 as they
+   stabilise. Also named as the biggest gap: living movements shift in forces and
+   doctrine, and the census gives each row one static description — a **trajectory
+   reading** (what this was twenty years ago, what it is now, what moved it) is missing
+   and is what most directly serves "how we got here." Mark's instruction on rigor,
+   verbatim in substance: don't carry the historical method's rigidity into the present;
+   be transparent about what is different instead — and *"all these added rules that you
+   add cant get in the way."* Recorded as a standing caution against rule-proliferation
+   on this track.
+
+3. **The current-day space is its own program, not an extension of the Atlas.** Design
+   decisions from that conversation are logged separately in
+   `Ministry/Technology/CiC_FrontEnd_Decision_Log.md` (new file, same date). Sequenced
+   after the work below, not started.
+
+4. **Thread scope set.** Mark's direct call: this thread is the ten-era Atlas going live.
+   The interview-mode and multi-voice Table upgrades — the SH-11 answer-bank content run,
+   the "I don't know what to ask" feature (Increment 3 / #402), the live Table re-test
+   against the deployed site, and SH-7's ~150 interview questions — **belong to other
+   threads and were deliberately not started here**, despite the Atlas/World-Map
+   sequencing gate that had been holding SH-11 now having cleared.
+
+**Known-open, recorded honestly rather than closed:** at freeze, all 49 era-10 rows
+lacked `longDescription`, `voices` and `legacy` — every twentieth- and
+twenty-first-century row rendered the "not yet written" fallback on click, which is the
+era a visitor is most likely to open. A content-authoring pass against the eras 3–9
+template was dispatched the same night. 17 of the 49 also carry no `sources`; across the
+whole census 119 of 274 rows have none. Separately, the IX.16 row-split lean was left
+un-executed at the gate because no draft row existed for it anywhere in the era's inputs
+— banked as a live question rather than invented under a ruling.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 1: 13 items shipped (safety, security, five live bugs, accessibility jargon, one honest architecture doc); Waves 2–4 queued as backlog
+
+**What this closes:** the first execution pass against
+`Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/00_INDEX.md`'s combined
+findings (four Opus review passes, ~15 P0s / 35 P1s / 20 P2s). Mark asked for a plan to
+fix what the reviews found; the plan (13 Wave-1 items, executed same night) and the
+Waves 2–4 backlog are both written into
+`Ministry/Operations/Standing/CiC_Task_Board_2026.md`. This entry covers what actually
+shipped tonight.
+
+**Safety decision — the one item that needed Mark's own call, not a default.**
+Participant Readiness finding P0-1: the shipped acute-distress response
+(`facilitator_prompts.py` A1/A2/Harmful-Dynamic templates) instructed the Facilitator
+to name no resource, hotline, or path to human help at all — directly contradicting
+Facilitator Governance V3.6 §12 ("redirect with honesty... whatever redirection
+toward human support is appropriate"), a contradiction the project's own ALX battery
+had graded MARGINAL twice and called "a hard pre-freeze fix item," previously closed
+by re-labelling rather than fixing (see the correction added to
+`Ministry/Technology/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` tonight). Mark chose
+**Option A** from `CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md` — a
+general redirect naming no specific organization, hotline, or number — as the
+unconditional floor, shipped immediately. **Option C** (a named, jurisdiction-
+appropriate resource for known testers) is explicitly not shipped: it depends on an
+answer to that document's own open question (who is testing, is their jurisdiction
+actually known) that hasn't been given, and is scoped as separate follow-up work, not
+implied or blocked on tonight's fix. Full resolution recorded in the decision document
+itself.
+
+**What shipped, all 13 Wave-1 items:**
+
+1. Acute-distress redirect (Readiness P0-1) — Option A floor added to A1/A2/Harmful-
+   Dynamic in `facilitator_prompts.py`; the two `[RESOURCE REDIRECT — pending
+   decision]` placeholders in `CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_
+   Proposal_DRAFT.md` §5 resolved with the same text.
+2. Citations to a live-test document that doesn't exist anywhere in the repo or git
+   history (Readiness P1-10) — `nodes.py`, `state.py`, and the three prompt templates
+   now cite the actual desk-trace artifact (`..._Retest_Against_Proposed_Mechanism_
+   DRAFT.md`), labeled honestly as a desk trace, not a live test.
+3. `cic-website/privacy.html` added (Readiness P0-2) — what's stored, who reads it,
+   deletion path; linked from every page's footer and from `OnboardingScreen.tsx`'s
+   cataloguing paragraph.
+4. Theme-toggle-while-filtered map-blanking bug fixed (Engineering P0-3) —
+   `atlas-v3.html`'s theme handler now calls the same `relayout()` every other
+   force-relayout site uses; verified live with Playwright (filter to 6, toggle theme,
+   still 6 — previously went to 0).
+5. Open-redirect prefix-match bypass fixed (Engineering P1-1) — `main.py`'s
+   `_validate_redirect_url` now compares an exact parsed hostname instead of a
+   `.startswith()` prefix; verified `churchinconversation.com.attacker.example` now
+   correctly rejects.
+6. Atlas tray seat cap corrected from 5 to 3 (Readiness P1-5), matching
+   `WorldSelector.tsx`'s existing cap — previously silently dropped the 4th/5th pick
+   with no explanation; now shows "Table is full — up to three seats."
+7. Hover card + `aria-label` jargon leak fixed (Accessibility P0-2) — both now read
+   `statusMeta[status].shortWord` (already used by the click document) instead of the
+   raw internal `statusWord` field, which carried process jargon on 71% of entries.
+8. Visible orientation text added above the fold on the Atlas (Accessibility P0-1) —
+   previously the only explanation of the map lived in the footer, below the entire
+   ten-era canvas; the "Reading the marks" key moved to a `<details>` near the top,
+   open by default on first visit (same `localStorage` pattern as
+   `cic_onboarding_seen`).
+9. "Source base pending" corrected for the six live worlds (Accessibility P0-3, first
+   half) — these six previously got the same "pending" copy as genuinely-unresearched
+   entries, when each has a real source registry that just isn't copied into the
+   census yet; full backfill queued as Wave 3.
+10. Two `statusMeta` descriptions stripped of "(Criterion 2)" / "Step 0" internal
+    process references (Accessibility P1-2, cheap half).
+11. `whats-next.html`'s Representative Modes paragraph corrected (Readiness P0-3a) to
+    match the Task Board's actual 2026-07-24/25 pause and 2026-08-02 hard-stop, rather
+    than reading as "nearly here."
+12. `cic-poc/docs/langgraph-architecture.md` rewritten (Engineering P0-4) — the
+    previous version described a conversation loop that has never executed; the
+    replacement documents the graph's real, verified behavior (invoked once at
+    session start only; real conversation runs through `main.py`'s two endpoints and
+    `governance.py`), with several of its own numbers re-verified directly rather
+    than carried over from the review report (e.g. `ConversationState` is 28 fields,
+    counted from the AST while writing this, not the review's "39").
+13. `wrs/parameters.yaml` added to the Dockerfile's `COPY` list and `PyYAML` added to
+    `requirements.txt` (Engineering P1-2) — the "canonical parameters file" wasn't
+    actually in the production image, so `main.py`'s fallback path ran silently;
+    now logs a warning if it's ever missing again instead.
+
+**Verified, not just written:** `node validate-census.mjs` (0 errors/0 warnings),
+the full Playwright `shoot.mjs` harness (0 JS errors, 0 overlaps, all smoke checks
+pass), a targeted Playwright check confirming the theme/filter regression is gone,
+a targeted check confirming the tray caps at 3 with all 6 live worlds attempted, and
+a direct Python check of the redirect-URL host allowlist against the exact bypass
+string from the review. No live-model test exists in this environment for the safety
+prompt change — verified by careful read-through against Governance V3.6 §12's actual
+text instead, per the reviewer's own stated limitation.
+
+**Not done tonight, on purpose:** everything else in the four reports. Waves 2–4 (data
+integrity, the ending-screen rebuild, the census copy pass, CI hardening, the outside
+scholarly reader, and the rest) are sequenced in the Task Board as backlog, not
+forgotten. API key rotation (flagged in the review index if `cic-poc` was ever
+deployed with the pre-fix `main.py`) remains Mark's call, not resolved here.
+
+---
+
+## 2026-08-05 (later still) — Full-system review remediation, Wave 2: 12 items shipped (data integrity, a governing-document correction, CI, three live conversation bugs); Waves 3–4 remain queued
+
+**What this closes:** the next execution pass against the Wave 2 backlog written into
+`Ministry/Operations/Standing/CiC_Task_Board_2026.md` after Wave 1 shipped. All 12
+items from that list, executed in one session.
+
+**Rigor (data integrity, cited to `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/02_Academic_Rigor_Review.md`):**
+
+1. **P0-1 — 50 mis-labelled `discovery_channel` rows re-stamped, plus a new gate.**
+   27 Syriac, 12 Alexandria, 11 Hieronymian source rows were stamped
+   `field-bibliography` by a migration-script type-rule, not evidence — each
+   world's own search record states no field bibliography was ever consulted.
+   Re-stamped `builder-prior-knowledge` directly in the record files, with an
+   honest correction note on each; the three migration scripts
+   (`s62_syr_source_rows.py`, `s62_alx_source_rows.py`, `s62_hal_s21.py`) fixed
+   to match, so a re-run wouldn't reintroduce the bug. Added
+   `gate_discovery_instrument` to `wrs/gates/core.py` (wired into
+   `run_gates.py`, fixture coverage added to `fixtures.py`, selftest verified
+   green) — any source row claiming a searched channel
+   (field-bibliography/database-search/library-catalogue) now requires a named
+   instrument. **Running it against real records surfaced a genuine, separate
+   gap the original review didn't name:** 4 Desert-world rows
+   (`srcDES009/010/011/015`) carry `discovery_channel: database-search` with no
+   instrument named. Not fixed here — inventing an instrument would be the
+   exact fabricated-precision failure this project's own discipline exists to
+   prevent. Left as an honest, gate-surfaced open item for a future session
+   with access to check what was actually searched.
+2. **P0-2/P1-9 — Freeze Criteria corrected; V7.4's own status addressed.**
+   `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`'s Freeze Criteria
+   named Article 31 (external scholarly review) a freeze-eligibility gate,
+   directly contradicting Mark's own 2026-08-02 ruling (Article 31 reset to a
+   Year 2 goal of the 5-year timeline) that all six frozen worlds' own freeze
+   declarations already cite. Corrected in place, marked as a dated Change
+   Order per the document's own convention. Also added `sources[]` to the
+   `gravity`/`force` row's requirements (see Rigor P0-3 below) via the same CO.
+   **Not done:** ratifying V7.4 outright — added a status-line addendum naming
+   the situation (six worlds frozen against a document still marked DRAFT) but
+   left the ratification decision itself to Mark, per this project's own
+   standing convention that Freezes and ratifications are his call.
+3. **P0-3 — Imperial-Juridical's force records linked to sources.** All ten
+   IJC force records carried `sources: []`. Linked nine to specific
+   `Source_Registry.md` rows based on each force's own `layer_historical_event`
+   content (Constantine/Edict of Milan → rows 1-3; the conciliar
+   authority-contest force → rows 9-11; Leo's Canon 28 rejection → rows 11, 13;
+   etc. — full mapping in the records' own bodies). The tenth
+   (`ijcforce1B1`, the pre-312 inherited church structure) is left honestly
+   empty: its evidence belongs to World #1's own registry, not this one's, and
+   forcing a same-world citation that isn't where the evidence actually lives
+   would be a fabrication, not a fix. Added `sources[]` to the Completion
+   Standard's force-row requirement (see item 2) and to
+   `gate_field_completion`'s `force` profile in `core.py` — running it against
+   real records now correctly surfaces exactly the one disclosed exception
+   (`ijcforce1B1`) as a violation, not a silent pass.
+4. **P2-8 (promoted) — language codes normalized fleet-wide to ISO 639-3;
+   PAHC's 16 `grc`/`Latn` rows fixed to `Grek`.** 90 source-record `language`
+   fields converted (Imperial-Juridical and Hieronymian/PAHC's ISO 639-1 codes
+   — `en`, `fr`, `la`, `de` — to `eng`, `fra`, `lat`, `deu`), verified against
+   every world's post-fix distribution and re-parsed as valid YAML across all
+   ~270 source rows. PAHC's 16 Greek-language rows (Didache, 1 Clement,
+   Polycarp, the Abercius inscription, the Alexamenos graffito) previously
+   recorded as written in Latin script — corrected to `Grek`, matching the 29
+   other `Grek`-script rows already correct elsewhere in the fleet.
+5. **Four one-lookup corrections closed.** Susan Wessel's monograph title
+   confirmed (*Leo the Great and the Spiritual Rebuilding of a Universal
+   Rome*, Brill, Supplements to VC 93, 2008) and Confidence raised C→B in the
+   IJC Registry, Doc_02 §3, and Doc_02 §9's open-items list. Palladius's Paula
+   passage located (*Historia Lausiaca* 41) in HAL Doc_02, closing a flag the
+   document had correctly refused to write around rather than guess. Nihat
+   Erdoğan added as co-author on the Nisibis cathedral excavation report
+   citation (Doc_02, the Registry JSON, and both WRS records) — the omission
+   had already been caught by an internal review round but never propagated
+   into the live citations. The Odes of Solomon Codex N ode count ("36 of 42")
+   flagged for verification rather than silently replaced — standard
+   descriptions give roughly 26, but per the review's own stated confidence
+   level this needs checking against Lattke's Hermeneia apparatus before a
+   specific number is asserted either way; the flag is now visible in Doc_02,
+   the Registry JSON, and the WRS record rather than an uncorrected error
+   sitting unflagged.
+
+**Engineering:**
+
+6. **P0-2 — the session cap can now actually fire.** `check_and_reserve_session_slot`'s
+   own docstring claimed the caller inserts a `sessions` row immediately after
+   a successful check; no such insert existed anywhere in the codebase, so the
+   count stayed permanently 0 and the cap could never bite for anyone. Added
+   the insert to `start_session` in `main.py`, decoupled from
+   `settings.pilot_logging_enabled` (session *counting* and transcript
+   *capture* are different questions that sharing one flag was conflating) —
+   fail-open on a failed insert, logged rather than silently swallowed.
+7. **P1-3 (step 1) — first CI this project has ever had.** `.github/workflows/ci.yml`:
+   `validate-census.mjs` and the frontend's `tsc && vite build` on every push
+   to `main` and every PR. No secrets, no models, both verified locally before
+   committing (frontend build succeeds cleanly; census validator reports 0
+   errors/0 warnings on the current data).
+
+**Readiness (cited to `04_Participant_Readiness_Review.md`):**
+
+8. **P1-9a/b — `pilot-feedback.html` reachable and its submission actually
+   works.** Linked from every page's footer (a new "Feedback" link) and from
+   the live app's closing screen (`TheTable.tsx`). Its form used to post to a
+   `mailto:` action, unreliable in modern browsers — **checked the suggested
+   fix against the actual code first and found it was wrong**: the review's
+   own suggestion to point the form at the existing `/api/pilot/request`
+   endpoint would have silently misfiled every feedback submission, since that
+   endpoint's schema (name/email/seat/why_interested — a pilot *sign-up*) has
+   nothing in common with this form's actual fields (perspective, confusing,
+   invented-or-overstated, etc. — post-conversation *feedback*). Built the
+   real thing instead: a new `pilot_feedback` table
+   (`supabase_schema.sql`), a new `PilotFeedbackRequest` model and
+   `/api/pilot/feedback` endpoint in `main.py`, and the form wired to POST
+   real JSON to it with a `mailto:` fallback if the request itself fails.
+9. **P1-2 — the `why`/`citations` fields in every guided starter, rendered for
+   the first time.** `guided_starters.json` has shipped both fields since it
+   was built; `QuestionSheet.tsx` rendered neither. `why` now shows as a muted
+   subline under the topic; `citations` sit behind a small disclosure,
+   matching `CitationModal`'s existing visual language. TypeScript compiles
+   clean.
+10. **P1-4 — the Facilitator's "anything else?" turn actually streams now.**
+    This was the most architecturally involved fix in the wave. Wind-down
+    sensing used to run in `run_post_round_governance`'s invisible tail,
+    *after* the participant's "done" event had already been sent — so it
+    could only ever flip `state.closing_stage` to `anything_else_asked` for a
+    later message to (mis)interpret as a reply to a question nobody actually
+    asked; the visible symptom was an unprompted resources offer arriving out
+    of nowhere. Moved the check to stream *before* "done," in the same
+    response, using the same closing-turn SSE mechanism already used for
+    `resources_offer`/`resources_show`/`sensed_close` — costs one extra
+    classifier call's latency, only on rounds already eligible
+    (`should_check_wind_down`), and it's the difference between a feature that
+    has never once actually worked and one that does. Removed the now-dead
+    post-`done` wind-down block from `governance.py` and its unused parameter.
+11. **P1-8 — a directly-addressed round can end after one answer.**
+    `select_next_speaker` already routed a direct-address opening turn
+    correctly; `must_continue`'s own `MIN_MULTI_WORLD_TURNS` floor still forced
+    a second, unaddressed voice into the round regardless, since it had no way
+    to know the opening turn was already a complete, addressed answer.
+    Detected once, on the participant's own opening message (the same check
+    `select_next_speaker` runs internally), and exempted the round from the
+    floor when true.
+
+**Accessibility:**
+
+12. **P1-8 — `textstat` dependency added, its import guarded.**
+    `wrs/gates/core.py`'s `readability_check` imported `textstat` unguarded;
+    the package wasn't declared anywhere. Added to `requirements.txt` and
+    `pyproject.toml`'s `[dev]` extra (it's gate/build-time only, never
+    imported by the running app — confirmed by grep, no live endpoint reaches
+    it). The bare import now raises a clear, actionable error naming the
+    install command instead of an opaque `ModuleNotFoundError` — verified live
+    by actually removing and reinstalling the package and watching both error
+    states.
+
+**Verified, not just written:** the full gate selftest (`run_gates.py
+--selftest`) green after every change, including the two new/changed gates
+(`gate_discovery_instrument`, the `force` profile's new `sources`
+requirement); the gate suite run against all 739 real records (32 total
+violations, up from 31 before Wave 2 — the one new violation is the disclosed
+`ijcforce1B1` exception, working as designed, not a regression); `tsc`
+type-checks clean; the frontend's full `npm run build` succeeds; all touched
+YAML frontmatter and JSON re-parsed valid after every bulk edit;
+`validate-census.mjs` still 0/0 (untouched by this wave).
+
+**Not done this wave, on purpose:** Waves 3-4 (the ending-screen rebuild, the
+census copy pass, the outside scholarly reader, CI hardening beyond step 1,
+and the rest) remain queued in the Task Board. The Desert `database-search`
+instrument gap (found by the new gate, not the original review) and V7.4's
+outstanding ratification decision are both flagged above, not resolved here —
+neither is this session's call to make unilaterally.
+
+---
+
 ## 2026-07-27 — Entity-ID correction dispatch executed: 11 files sorted by bucket, a real legal-sequencing problem found and flagged to Mark and Susan, not resolved unilaterally
 
 **What this closes:** `Ministry/Operations/Standing/Launch-Prompts/CiC_System_Hub_Entity_ID_Correction_2026-07-27.md` — the dispatch correcting the false Colorado filing (Entity ID 20261874960, never actually completed — on-screen verification only, no receipt, later traced by the Secretary of State's office to a likely address mismatch) with the real, confirmed one: **Entity ID 20261918758, Document Number 20261918758, Form DPC-PBC, Status Good Standing, Formation Date 07/27/2026**, verified two ways (email receipt + public-record search).
@@ -4727,843 +5129,3 @@ Both follow-ups: `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sw
 - Task Board #301 (reviewer package) and the #302/#303/#304/#305 chain (TEDS outreach, second reviewer outreach, the Sept 1 gate, Round 1 review) — reworded from "whenever affordable" to explicit Year 2, dependency chain otherwise unchanged since none of it ever gated launch.
 - `CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx` — status line updated to name Year 2 directly rather than sit as an undated draft that reads like active work.
 - `CiC_Ministry_Proposal_Packet_V0_1_DRAFT.docx` paragraph 97 — this was flagged stale at the 07-21 reword itself ("says external scholarly review is 'budgeted, not aspirational' — stale as of yesterday's Article 31 reframe... flagged here so it isn't lost") and never actually fixed. Fixed now, twelve days late, found only because this pass went looking for every downstream reference rather than just the ones already on a list.
-
----
-
-## 2026-08-02 (later still) — Atlas v3, Pass 1 (Fable thread): sync report independently re-verified claim-by-claim before anything was marked done; synced to Task Board and Gantt; Dashboard correctly left untouched
-
-**What came in:** the newly-dispatched Atlas v3 thread (branch `claude/christian-traditions-atlas-v3-x2egp6`, commits `1d5ac65`/`d4e921f`, authored by Fable) reported its first build pass complete and pasted a sync report (`Ministry/Features/Atlas-World-Map/Sync-Report_2026-08-02_Atlas-v3-Pass-1.md`) claiming: IC-10's era-ground palette now fully live, light+dark, on all three Atlas surfaces; a Story-view world hand-off bug fixed (Imperial-Juridical missing its `CENSUS_ID_FIX` map); a Wall Chart edge-drift bug fixed (4 of 17 hand-maintained relationship lines had silently diverged from the census's own `edges` field); and five items named as needing Mark's own call, not the thread's.
-
-**None of it was taken on the report's word.** Per this hub's own standing rule (verify file-based claims against the real repo before marking anything done), every claim was independently re-derived from scratch, not spot-checked against the report's framing:
-- Branch/commits confirmed real via `git fetch` + `git log`; diff scope confirmed to match the claim exactly (5 files, all inside `cic-website/` and the feature folder, nothing in `cic-poc/`).
-- `world-census.json`'s new `groundDark` field read directly and checked against the approved spec's dark hex values.
-- The Story-view `CENSUS_ID_FIX` fix read in `atlas.html`'s actual `launch()` function, confirmed it mirrors `index.html`'s existing pattern exactly.
-- **The "4 of 17 edges diverged" claim was checked by independent re-derivation, not by reading the Decision Log's account of it**: pulled the old hand-maintained `EDGES` array from `origin/main`'s `world-atlas.html`, pulled the census's own `edges` field, mapped both to atlas-chart ids, and diffed the two sets in a script. **Exact match to the claim** — dropped I.3→II.5, I.3→II.1, I.2→II.1, IV.8→VI.2; gained I.3→III.6, I.3→III.3, I.2→III.3, IV.8→VI.10 — including the specific movement names on each end.
-- A behavioral side-detail the report didn't flag was checked anyway: the edge-dash-styling code changed from a confidence-code check (`"ct"`/`"dmr"`) to a string check (`conf==="Contested"`). Confirmed this is not a regression — `"dmr"` never appeared in any of the old array's 17 entries, so that branch was already dead code; the new check is behaviorally equivalent for every edge that ever actually rendered.
-- **Went further than the report itself claimed and independently rendered all three surfaces** (Story, Wall Chart, Research Table) in a headless browser, both light and dark color schemes, against a local checkout — not relying on the report's own "verified by screenshots" line. Computed background colors on `.st-era`/`.eraground` elements matched the spec's hex values byte-for-byte in both schemes. Opened a tradition (Desert Monasticism) on the live-rendered Wall Chart and read the drawn edges directly off the page — the dropped edge (→ Chalcedonian Monasticism) was genuinely gone; the two gained edges (→ Iconophile Byzantine Monasticism, → Coptic Christianity under Early Islam) were genuinely present, sourced from the census at render time, not a stale hand copy.
-
-**Every claim in the report held up.** Nothing disputed, nothing walked back.
-
-**Synced, and how:**
-- **Task Board** — IC-10 marked done in place (its existing `[ ]` entry, not a new one), with the verification method stated inline, not just the outcome; the stale 2026-08-01 "still not built" line elsewhere in the file got a dated `[UPDATE 2026-08-02]` note rather than a silent rewrite, per this file's own append-only convention for frozen historical paragraphs.
-- **Gantt** — task 463 itself is **not** the same thing this pass did. Its real name is "World Map Tier A merge (front-end thread)" — folding the standalone `cic-website` Atlas into the `cic-poc` app — and zero merge work happened this pass (confirmed: nothing under `cic-poc/` touched). The report's own shorthand ("Task 463: pass 1 shipped") would have overstated 463's actual completion if copied in as-is, so it wasn't: 463 stays at `complete="0"`, with a bracketed note on the task itself pointing to the real, finished prep work and stating plainly that the merge is still unstarted and still gated on Mark's redesign-direction verdict.
-- **Dashboard — deliberately left untouched.** The report described Dashboard-shape updates ("two defects fixed, one honesty-claim restored, rigor gap unchanged 147 vs 178") that don't correspond to anything the file actually tracks. `CiC_Dashboard.html` was redesigned 2026-08-01 specifically to drop narrative write-ups in favor of glance-only % bars and short action lists, with an explicit in-file instruction against adding exactly this kind of note. The Atlas thread's report appears to be working from an older mental model of what the Dashboard holds, not the current one. Correcting that mismatch here rather than forcing the content in somewhere it doesn't fit.
-
-**Not touched, and not this hub's call to make:** the five items the report itself named as needing Mark's own decision (Prototype C's verdict, the "Choose a Tradition" naming collision, the Tier A/B scope contradiction, whether to restore any of the four dropped edges to the census, whether to spend a fresh completeness pass against the full 178) remain exactly as open as the report left them.
-
-**Also on record, mid-stream:** immediately after this verification finished, Mark clarified the intended shape of engagement with the Atlas v3 thread going forward — this was prep/consistency work, not the start of the actual v3 redesign, and the redesign itself should run through a planning-first process with Mark directly (divergent → groan zone → convergent), using planning and visual-design skills, before any more building happens. Nothing about that changes the verification or sync above, both of which concern already-completed, already-verified work — it bears on what happens next, not on what already shipped.
-
----
-
-## 2026-08-02 (later still) — Atlas v3, Pass 2: a real Kaner-model session with Mark, independently re-verified before anything was synced; two standing planning documents Approved; three of five open questions resolved
-
-**What came in:** the same follow-up prompt handed to the Atlas v3 thread (Pass 2: divergent → groan zone → convergent, run with Mark directly, planning only, no build) came back same-day with a large claim — ten interactive design rounds, a converged design (Round 10, "Ongoing Streams"), two new standing documents both "Approved by Mark" (`CiC_Atlas_V3_Rebuild_Design_Plan_V1_0.md`, `CiC_Atlas_V3_Build_Blueprint_V1_0.md`), a first build increment already delivered (R11: four status icons + glossary), and a Pass 2 sync report with explicit per-standing-file instructions.
-
-**Given the scale of what was claimed, verified harder than Pass 1, not less.** Per this hub's standing rule:
-- `git fetch` + `git log` confirmed 12 real commits since Pass 1's `d4e921f`, ending at `61f790c`, with commit messages that independently corroborate the claimed shape of the session (divergent stage → nine numbered "struggle rounds" → synthesis → the approved plan/blueprint → the R11 increment) before a single word of the prose report was trusted.
-- `git diff --stat` against Pass 1: **8,068 insertions, 0 deletions, entirely new files** — 4 divergent-direction mockups, 9 struggle-round mockups, 1 synthesis mockup, the R11 mockup, the two planning docs, the Decision Log addition, the Pass 2 sync report, and an 11-line `world-census.json` diff. Confirms the report's own "nothing on the live surfaces changes yet" claim structurally, not just by assertion: `atlas.html`, `world-atlas.html`, and everything under `cic-poc/` are untouched.
-- Read both planning documents in full off the branch, not summarized secondhand. Both are substantive and internally consistent — the Design Plan's converged-design section, six-improvement-to-workstream mapping, three scope rulings, and autonomy boundaries all match what the Decision Log and sync report separately claim; the Build Blueprint's 17-row increment table, per-increment recipes, and Loop Protocol are concrete enough for a cold future session to actually execute from, and it explicitly reminds itself "Standing files are the Hub's to edit" — the coordination boundary this hub set stayed intact on the builder's own initiative, not just because someone was enforcing it.
-- Read the full 228-line Decision Log diff (six dated entries). This mattered most: my own instruction to that thread was explicit that convergence must happen *with* Mark, not be self-administered, and the risk in a report this size was a thread quietly converging on its own and presenting it as collaborative. The log entries argue against that reading — extensive direct quotes attributed to Mark throughout, concrete and specific (era-straddle rules, the Bethlehem-Circle sourcing-vs-authority distinction, the Persian Church date artifact he personally caught on the rendered chart), and one entry titled plainly **"Mark's correction: NOT at convergence"** — a recorded moment where a first synthesis was rejected and sent back into more divergence. A thread fabricating collaboration end-to-end is a much harder thing to produce convincingly than a thread accurately logging a real one; this reads as the latter.
-- **Independently re-derived, not just read, the two data claims:** the `continuesAs` census diff (11 additions) was checked programmatically — every target id resolves to a real movement entry, zero dangling references. The R11 icon claim was checked by **rendering the actual file myself** in a headless browser (light + dark, off a fresh worktree checkout, not the report's own screenshots) and counting icon usage in the live DOM: 182 `<use>` references breaking down to exactly 178 (one per census movement) plus 4 (the legend) across the four icon types, zero JS errors, and the page-bottom glossary text present and matching the report's paraphrase closely enough to confirm it's the same artifact, not a differently-worded description of something that doesn't exist.
-- Cross-checked the Pass 2 sync report's per-file claims (Task Board / Decision Log / Gantt / Dashboard sections) against what was actually read above — no daylight found between what the report asked for and what the branch actually contains.
-
-**Everything checked held up.** No disputed claims this pass either.
-
-**Synced:**
-- **Task Board** — the SH-4/SH-6 entry got a Pass 2 addendum (not a rewrite) recording the convergence, the two Approved documents, the R11 verification detail, and which three of Pass 1's five open items this pass actually resolves (Prototype C's fate, the naming collision, and Tier A/B scope — all three dissolved by "one atlas, done right" rather than individually adjudicated) versus the new items it opens (Persian Church start year, the succession-spine walk, the atlas's public name, and a new Step 0 Criterion 2 methodology item that belongs to the Construction Framework side, not this thread).
-- **Gantt** — task 463 marked `[SUPERSEDED 2026-08-02]` in place (Tier A/B merge is no longer a coherent concept under "one atlas"), pointing at the Build Blueprint as the real program. **Deliberately did not fabricate dated Gantt rows for the Blueprint's 17 increments** — its own pacing is session-based (roughly one era per working session for the 8-era research track), which doesn't convert into calendar dates without inventing false precision this file doesn't actually have. A top-of-file dated description note records the model change and points at the Blueprint's own status column as the real ground truth, matching that document's own stated intent for how future sessions should treat it.
-- **Dashboard** — left untouched again, same reasoning as Pass 1: nothing shipped to a live, user-facing surface this pass (mockups only), and the page's own 2026-08-01 redesign explicitly rejects narrative additions of this kind.
-
-**Not touched:** the new open items above remain exactly as open as the sync report and Decision Log leave them — none are this hub's call.
-
----
-
-## 2026-08-02 (later still) — Funding Strategy thread's report: unlike Atlas, this one did NOT hold up under verification. Nothing new synced; a real, older gap found and fixed instead
-
-**What came in:** a "Funding Strategy Thread → System Hub" update covering four areas — entity/legal execution, funding-strategy document outputs, new decisions (free-tier gating, an Answer Bank matching-approach rescission), and the status of two older cross-thread dispatches. Explicitly asked this hub to fold it into the Task Board/Gantt/Dashboard and confirm two pending items.
-
-**Checked every load-bearing claim against the repo before folding in anything. Most of it did not check out:**
-- **"Three legal documents corrected and re-signed with the real date/ID" — FALSE.** `git log` on all three files (`CiC_PBC_Bylaws_and_Organizational_Resolutions_V0_1.md`, `CiC_PBC_IP_Assignment_Agreement_V0_1_DRAFT.md`, `CiC_PBC_Shareholder_Buy-Sell_Agreement_V0_1_DRAFT.md`) shows zero commits since the original incorporation commit (`9c377ef`). Read directly: the Bylaws and IP Assignment still say, in their own "confirmed" language, Entity ID 20261874960 and July 21, 2026 — the false ones. Nothing was corrected.
-- **`Ministry/Operations/Standing/Launch-Prompts/CiC_Cost_Reduction_Build_Scope_2026-08-02.md` — does not exist anywhere in the repo.** Checked every branch by exact path, not just filename. This is the same file an earlier message this session claimed was "Dispatched" — that claim couldn't be verified then either, and giving it a full path this time didn't change the result. Two separate reports now cite a file that isn't in the shared repo on any branch.
-- **`CiC_Cost_Study_Per_Transaction_V0_1.md` and `CiC_Cost_Reduction_Feasibility_Study_V0_1.md` — neither exists anywhere in the repo,** on any branch, by filename or content search. The $2/hour and $0.50/hour figures they're claimed to establish appear nowhere; the only cost figure on record anywhere in `Ministry/Features/Funding-Strategy/Decision-Log.md` is the older $1.25–1.50/hour entry from 2026-07-22.
-- **The Answer Bank matching-approach rescission — not recorded where claimed.** The report says "full detail and reasoning lives in `Ministry/Features/Funding-Strategy/Decision-Log.md`"; that file's newest entry is dated 2026-07-31 (the Stripe build) and contains zero mentions of the Answer Bank, rescission, inference-based matching, or hidden auto-serve, anywhere in its 429 lines. The old recommendation it claims to rescind is real (`CiC_Answer_Bank_Full_System_Design_V0_1.md` §3.4, confirmed present) — but nothing rescinding it exists in the file named as the source.
-- **Real-world/offline claims not independently checkable either way** (Relay account actually open, Mark+Susan as true co-owners, DBA-to-Relay linking still needed, Notice of Uncertificated Shares drafted): no repo evidence for or against. Not synced as fact pending Mark's own confirmation — these aren't disprovable the way the file claims above are, but they're also not confirmable from here.
-
-**What did check out:** the incorporation fact itself (Entity ID 20261918758, already established and correctly reflected in the Task Board); the funding-strategy documents named in §2 of the report all genuinely exist (`CiC_Funding_Strategy_Map_V0_1.md`, both Business Plan Research passes, the Market Analysis, the Business Roadmap, the Case for Support draft) — though several are ~10 days older than the report's framing suggested, not new outputs from today; and the docx tax-status fix (§4, first item) is genuinely complete — both flagged files (`CiC_World_Sponsorship_OnePager_V0_1_DRAFT.docx`, `CiC_Church_Designated_Fund_OnePager_V0_1_DRAFT.docx`) read clean, with real correction language in place.
-
-**A real, unprompted finding, chasing the report's own "worth confirming" request in §4 (the second item — entity-ID correction completeness):** the 2026-07-27 entity-ID correction dispatch (this log, 2026-07-27 entry) claimed all 11 affected files were fixed — Bucket 2 "corrected directly," Bucket 1 "each got a short dated addendum." Checking each file individually found **5 that were never actually touched**, `git log` confirming zero commits since before 2026-07-27 on any of them: `cic-website/README.md` and `CiC_Gantt_Visual.html` (claimed done in Bucket 2, both still carried the false Entity ID) and `CiC_System_Hub_Sync_Update3_2026-07-21.md`, `CiC_Nonprofit_Formation_Decision_Log.md`, `CiC_System_Hub_Funding_Docx_TaxStatus_Fix_2026-07-22.md` (claimed done in Bucket 1, none had received the promised addendum). All 5 fixed now, twelve days late — same pattern as the Proposal Packet paragraph found stale-and-unfixed twelve days late earlier today, a real recurring failure mode in this hub's own past work: logging a correction as complete without confirming the edit actually landed in every file it named.
-
-**Synced:** nothing new from this report's disputed claims — none of it. The only changes made this pass are the 5-file gap fix above, which corrects a genuine, independently-confirmed past error, not anything from today's report.
-
-**Flagged to Mark directly, not resolved here:** whether the Funding Strategy thread's local session state has simply drifted from what's pushed (same explanation as the earlier Cost-Reduction message this session), or whether something else explains why four distinct, specific artifacts were reported as real and aren't. Worth knowing before relying on that thread's next report, or on the cost-reduction implementation work it says is already scoped and ready.
-
----
-
-## 2026-08-02 (later still) — Funding Strategy thread's push gap: confirmed real, closed, re-verified; Task Board synced
-
-**What happened:** Mark relayed the discrepancy list above directly to the Funding Strategy thread. It checked its own git state, found the explanation was exactly what System Hub had guessed as one of two live possibilities — a push gap, not fabricated work — and closed it: commit `052bfa4` on `main` (co-authored, not this hub's commit), pushed and self-verified against remote history. A follow-up commit `ba0e05c` added an addendum to its own sync-update file recording the fix and one honestly-flagged loose end (a few earlier files that checked out on the first pass weren't committed by that thread either, and it doesn't have a confident account of how they got into the repo — flagged rather than guessed at).
-
-**Independently re-verified before treating any of it as settled, same as every claim this session:**
-- `git fetch` + `git log origin/main` confirmed both commits real and on `main`.
-- Read the actual diffs, not the commit messages. The Bylaws and IP Assignment `.md` files now carry the real Entity ID (20261918758) and date (07/27/2026), with the correction appended and the original false text struck through in place rather than silently rewritten — matches this project's own standing convention. The Shareholder Agreement `.md` has no textual ID/date to correct (confirmed true back on 2026-07-27 too) but gained real SIGNED/SIGNABLE PDFs alongside the other two.
-- Both new cost-study documents read in full: real, codebase-grounded content, citing actual figures already on record in this hub's own Decision Log (the $2/hour correction to the stale $1.25–1.50/hour anchor) — not filler.
-- The cost-reduction build-scope dispatch cites real code locations (`graph/nodes.py`'s three `cache_control` sites, `graph/repair_classifier.py`'s `repair_adjudication`) — checked directly against the actual backend code, both present and matching.
-- All new PDFs are real, non-trivial file sizes (300–450KB), not empty stubs.
-
-**Everything now checks out.** Merged `origin/main` into this branch to pick it all up (three conflicts — Task Board and this log, both simple "my branch added a section main didn't have yet," plus an add/add conflict on the Atlas launch prompt where main carried the pre-revision original and this branch carried the fully-corrected version; kept this branch's version in all three, nothing lost from either side).
-
-**Synced to the Task Board**, now that the underlying facts are verified rather than merely reported:
-- **#620** — no longer "waiting on CO SOS catch-up" (stale reason): Relay is open, Mark and Susan genuine co-owners, $40 transfer initiated but **not cleared — left explicitly not-done**, per the report's own caution. Remaining sub-step (add the DBA to Relay) folded in here rather than tracked separately.
-- **#621** — corrected in place: three documents, not the original signed set, now carrying the real date/ID with history preserved.
-- **#622** — now DRAFTED (was fully open), still not finalized — waiting on #620's transfer to clear before the notices carry a real issuance date.
-- **#623** — now DONE: DBA filed and paid 2026-07-27, confirmed in `Ministry/Features/Funding-Strategy/Decision-Log.md`. Removed from the BLOCKED table along with #620 (no longer blocked, actively in progress).
-
-**One more check, not left assumed:** the Answer Bank rescission claim — the one piece of the original report whose cited source (`Decision-Log.md`) genuinely didn't contain it on the first check — was re-checked against the now-merged, ~823-line file. It's there: a 2026-08-02 entry titled "Mark rescinds the Answer Bank design doc's 'do not build inference-based serving matching' recommendation," Mark quoted directly ("that is exactly what we need"). Confirmed true, not just present by association with everything else checking out. **Still genuinely owed, not done here:** the dated correction note in `Ministry/Features/Guided-Questions/CiC_Answer_Bank_Full_System_Design_V0_1.md` §3.4 itself, which still states the old, now-rescinded recommendation in writing — that document belongs to a different thread's ownership, not edited from here.
-
----
-
-## 2026-08-02 (later still) — Branch merged to `main` and deleted; a process decision for what comes after Atlas v3
-
-**Housekeeping, at Mark's direct request:** `claude/v8-v9-charter-lblaxp` merged into `main` (clean fast-forward, `359f5b0`, no conflicts — main hadn't moved since this branch's own last merge-in of it) and deleted both locally and requested on `origin`. The remote delete was blocked by a 403 from this environment's git relay — reported to Mark as a policy block rather than retried, per this environment's own guidance not to retry or route around 403s. Local copy is gone; the remote branch is a harmless stale pointer (fully merged, no unique commits) unless Mark deletes it himself via the GitHub UI.
-
-**Process decision, Mark's direct call:** once the Atlas v3 Fable build reaches completion (plan → design plan → build blueprint → build, the process this thread ran end-to-end), **the same process, run in Fable, gets applied next to cost reduction and to building the question/answer repository (SH-11).** Not a now-task — Mark's own framing is "when the atlas fable build is completed then we will look at" it. Logged here so it isn't lost, and noted on the Task Board against both the SH-11 entry and the cost-reduction build-scope dispatch, since that dispatch's current framing (direct handoff to "the build thread") is exactly what this new process decision would supersede whenever this actually starts — flagged there rather than assumed still current.
-
----
-
-## 2026-08-02 (later still) — Mark's first reaction to the Atlas v3 R11 icon mockup: the closed-door icon stands as-is
-
-**What happened:** rendered the R11 icon/glossary mockup independently (not the Fable thread's own screenshots) and sent Mark close-ups of all four icons plus the glossary, light and dark, with an honest first-take reaction — house and question-mark read instantly at any size; the closed-door glyph (33 of 178 entries) is the one worth his eye, since it reads more as an abstract bracket than an obviously "door" shape at map scale.
-
-**Mark's ruling:** "the door icon is fine, leave it." One specific reaction point closed, not a full B1 sign-off — the "plans" icon's quietness (4 of 178 entries) wasn't separately addressed and isn't assumed resolved by this. **This decision belongs in the Atlas thread's own Decision-Log.md and Blueprint status column, not here** — this hub doesn't edit that thread's files (same boundary held all session); needs relaying into that conversation directly so the Loop Protocol's "on Mark's reaction: iterate or proceed" step actually fires. Logged here in the meantime so the reaction isn't lost to chat.
-
----
-
-## 2026-08-02 (later still) — First real cost-reduction fix shipped: cache TTL bump, the one item in the build-scope dispatch that was genuinely simple
-
-**Mark's direct ask:** move on the simple items in the cost-reduction build-scope dispatch (`CiC_Cost_Reduction_Build_Scope_2026-08-02.md`) without waiting on Atlas or the Fable process decision logged earlier tonight — that process decision covers the *big* cost-reduction/Answer-Bank work, not everything with "cost" in the name.
-
-**Assessed the dispatch's three items for what's actually simple, rather than taking "lowest risk, do first" at face value for the whole item:**
-- **Item 1's core (cache TTL, 3 sites in `graph/nodes.py`) — genuinely simple, shipped.** Read the actual code first (already partly verified during the Funding Strategy report check earlier tonight): `{"type": "ephemeral"}` → `{"type": "ephemeral", "ttl": "1h"}` on all three sites (`_cached_system_message`'s static-prompt and reactive-guidance blocks, `_cached_adjudication_message`'s cached prefix). Pure config value change, zero logic touched, no test suite exists for it because there's no behavior to test — confirmed via the feasibility study's own claim (billing/latency only, never model output) and by reading the diff myself before pushing. `1d8e952`, pushed directly to `main`, same as every other small verified fix tonight.
-- **Item 1's fourth site, `repair_classifier.py`'s `adjudicate_challenge` — NOT actually the same fix, despite the dispatch's "same fix, one more site" framing.** Read `_cached_adjudication_message`'s boundary-matching logic and `REPAIR_EVIDENCE_ADJUDICATION_PROMPT`'s actual text: the boundary string it needs (`"## Retrieved source material for this world relevant to this response"`) doesn't appear anywhere in this prompt (it reads `"## Retrieved source material relevant to the claim"` instead — close, not identical), so reusing the helper as-is would silently no-op via its own documented fallback, not error. Worse, even fixing the marker text wouldn't be enough: this prompt's own per-call-variable "retrieved" section sits *before* its stable "contested claims" section, so nothing byte-identical is contiguous at the front the way the helper needs. Real caching here needs the prompt's blocks built programmatically (stable capsule+contested prefix, variable retrieved+claim suffix) — a genuine structural change to a prompt that gates HOLD/CONCEDE adjudication verdicts, not a copy-paste. **Not done tonight** — flagged rather than forced through or silently skipped; worth a quick before/after behavioral check if Mark wants it done, not bundled into "simple."
-- **Item 2 (response-length regeneration bug) — not simple, the dispatch says so itself.** "Needs live battery testing before shipping," a real parroting risk already flagged by this project's own prior testing. The logging capability (`length_ceiling_logging.py`) is real and already wired into `nodes.py` — confirmed by reading the import — but has "never yet produced a production record" per the dispatch, and producing one needs a real battery run against live traffic, not a code edit. Not attempted tonight.
-- **Item 3 (Answer Bank auto-serve) — unchanged, still the big one deferred to the Fable plan/blueprint/build process** per tonight's earlier process decision.
-
-**Net for tonight:** one real, verified, shipped fix ($0.77/hour → $0.50/hour on 1:1 conversation per the feasibility study's own measurement); one look-simple-but-isn't item flagged honestly instead of either skipped or rushed; two items correctly left alone because the dispatch itself, not just caution, says they need more before shipping.
-
----
-
-## 2026-08-02 (later still) — The flagged repair_classifier.py caching site: fixed, with a real content-equivalence check and an honest gap on live-model verification
-
-**Mark's direct ask:** do the flagged fourth caching site, with a before/after check.
-
-**What shipped, `ff2b307`:** `adjudicate_challenge`'s prompt (previously one plain, uncached `SystemMessage` string) split into a cached stable prefix (intro + capsule + contested-claim records — byte-identical per world across every adjudication call) and an uncached variable suffix (retrieved material + the challenged claim + task instructions). Built both the new split version and a reconstruction of the original unified prompt from the same shared header/tail constants, specifically so a check could compare them without risking a hand-transcription error of its own.
-
-**The check that was actually possible, and the one that wasn't:**
-- **Content-equivalence, done and strong:** confirmed programmatically — identical total character length old vs. new; every `##`-headed section's content byte-identical between versions; everything from "The challenged claim" header onward (the claim text, response-format instructions) byte-identical and in the same relative position. The *only* structural difference, confirmed directly rather than assumed, is that "Retrieved source material" and "This world's contested-claim records" swapped order — nothing added, dropped, or reworded.
-- **Live-model behavioral check (does an actual verdict shift?) — not done.** No working `ANTHROPIC_API_KEY` was available in this session. Searched thoroughly before reporting that, not just checked `env` once: the environment's own env vars, `.env`/`.env.example` files, a filesystem-wide search for credential files and for the `sk-ant-` key pattern, and — the real test — an actual live call to `client.messages.create()` against `api.anthropic.com`. That call **reached the real Anthropic API** (proving the network path works, not a proxy block) and got a genuine `401 invalid x-api-key` back, confirming no valid key is present to this process, not just that one wasn't found by grep. Mark stated a key was specifically configured for this environment ("went through 3 bad threads to get it right... set in your new thread setup") — flagged back to him rather than assumed wrong on his end; possible explanations neither confirmed nor ruled out: an env var added to the environment's config after this container/session already started (wouldn't be picked up without a restart), or a mismatch between which environment this session is actually running in and the one the key was set on.
-
-**Why shipping without the live check is a reasonable call, not a shortcut taken quietly:** this is a much more conservative change than a typical prompt edit — no wording changed anywhere, only the order of two independent, clearly-headed context sections that both sit before the actual task instructions and the claim being judged. The content-equivalence proof rules out the failure mode that would be easy to introduce by accident (losing or duplicating material in the split). What it can't rule out is a subtle order-sensitivity in the model's own judgment, which is exactly what a live check would catch and this one can't. **Genuinely open, not resolved:** run real adjudication cases through both versions and confirm verdicts don't shift, the moment API access is sorted out — flagged the same way Item 2's live-battery-testing gap was flagged, not treated as done.
-
----
-
-## 2026-08-02 (later still) — V10 relaunch attempted; the real diagnosis found, correcting this log's own earlier guess
-
-**What happened:** Mark relaunched a fresh thread from the V10 prompt above. Its first action, per V10's own mandated first step, was the live-key verification call — it failed, but not the way V9's did. Not a `401` on an invalid key; no `ANTHROPIC_API_KEY` in the session's environment at all, on a container that had just booted (had to build its own `venv` from scratch, ruling out "stale container, key added after start" for this specific session). It checked its own environment identity and found `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE=cloud_default` — the generic default environment, not the custom "CiC-Project" one (confirmed the only custom environment on the account via `list_environments`: `env_01PAC5GNXcVBuFk6os4CFbp6`, active). Correctly stopped and asked Mark to choose rather than guessing further.
-
-**Checked immediately, not assumed:** whether *this* session (System Hub, the one that's been running the whole night) has the same problem. It does — `echo $CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE` returns `cloud_default` here too, confirmed directly, not inferred. **This corrects the two-hypothesis guess logged earlier tonight** ("an env var added after container start, or a mismatch between which environment this session runs in and the one the key was set on") — it's the second one, cleanly, for both sessions. This entire session never ran in the CiC-Project environment at any point tonight, which is a simpler and more complete explanation than the timing theory — there was no stale-container race to lose, the environment was just never the right one from the first message onward.
-
-**Not this thread's problem to fix from the inside — confirmed, not assumed:** a running session cannot move environments; this is a session-launch-time selection, made before the first message is sent. Per Anthropic's own documentation (fetched and read directly, not recalled from memory): the environment selector is the cloud icon in the row above the message box, reached by opening a new session composer; editing an environment's variables only affects sessions *started after* the edit, never ones already running. Precise steps relayed to Mark directly in chat.
-
-**Where this leaves things:** the live adjudication-verdict check on `repair_classifier.py` (`ff2b307`) stays open, blocked on a session actually landing in CiC-Project — not on the code, not on the V10 prompt's instructions, which did exactly their job (fail loud, on the first line, with a precise cause, instead of silently for a whole session the way V9 did). This System Hub session continues its normal coordination work in the meantime; nothing about the standing-file sync duties needs live model access.
-
----
-
-## 2026-08-02 (later still) — the actual resolution: the key was there the entire night, under a different name
-
-**What actually happened, corrected a third time:** Mark ran a targeted check for `CIC`/`Anthropic`-prefixed environment variables specifically (not just `ANTHROPIC_API_KEY`) and found two: `CIC_ENV_CHECK=hello` and `CIC_ANTHROPIC_KEY` (value redacted in his report). Checked immediately in this session rather than assumed — both are present here too. **This means this session had a working key available the entire night**, under a name (`CIC_ANTHROPIC_KEY`) that nothing tonight ever specifically searched for. Every prior search — the filesystem-wide credential scan, the `sk-ant-` pattern grep, the SDK's own zero-arg auto-detection — was built around the standard `ANTHROPIC_API_KEY` name; a custom-named variable holding the same kind of secret doesn't get picked up by any of that unless something greps for it by name.
-
-**Verified with a real call, not inferred from presence.** Env-var presence was never proof of validity earlier tonight either (the first "found a key" moment upthread turned out to be a live `401`), so the same discipline applied here: built the `anthropic` SDK client with `api_key=os.environ["CIC_ANTHROPIC_KEY"]` and called `messages.create()` for real. First attempt used a retired model ID (`claude-3-5-haiku-20241022`) and got a `404 model not found` — informative on its own, since a `404` (not `401`) confirms the key itself authenticated correctly, it just requested a model that doesn't exist. Retried with the current model ID (`claude-haiku-4-5`) and got a genuine, correct response: `"LIVE KEY WORKS"`, `model: claude-haiku-4-5-20251001`. This is unambiguous — live API access has been available and working all night.
-
-**Correcting the record, plainly:** the two earlier "wrong environment" / "cloud_default vs CiC-Project" theories logged above were wrong, or at least not the operative explanation. `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE=cloud_default` turned out not to mean "missing the environment's configured secrets" — this session has always had `CIC_ANTHROPIC_KEY` regardless of that label. The real, complete explanation for tonight's whole saga is much simpler: the key was configured under a custom variable name, and nothing before now searched for that specific name. Not a timing race, not an environment mismatch — a naming miss.
-
-**What this unblocks:** the live adjudication-verdict check on `repair_classifier.py` (`ff2b307`), flagged as genuinely open on every pass tonight, can now actually run. Proceeding to do that now rather than leaving it flagged again.
-
----
-
-## 2026-08-02 (final) — the live adjudication check ran; verdicts do not shift with the reordering
-
-**What was checked:** whether `ff2b307`'s prompt restructuring (moving "contested-claim records" next to the capsule to form a contiguous cacheable prefix, with "retrieved source material" and the claim moved after) changes `adjudicate_challenge`'s SUPPORTED/UNSUPPORTED verdict versus the original section order, for real evidence and real challenged claims — the thing a content-equivalence check can prove identical inputs for but cannot itself answer.
-
-**Method, built from real material rather than invented cases:**
-- **Capsule:** the real `desert-monasticism` world capsule (15.8K chars), loaded via `settings.get_world_config()` — the same path `load_world_sources` uses — not a stub.
-- **Contested-claim block:** all 6 real `desertclaim00{1-6}` records from `wrs/records/desert_world/contested_claim/`, formatted exactly as `repair_classifier._contested_claims` does.
-- **Prompt templates:** imported the actual constants from `app.graph.repair_classifier` itself — `REPAIR_EVIDENCE_ADJUDICATION_PROMPT` (the old order, which the module already keeps around for exactly this kind of check) and `_ADJUDICATION_STABLE_PREFIX` / `_ADJUDICATION_VARIABLE_SUFFIX` (the new order) — imported by stubbing `app.graph`'s package `__init__` so the heavy `langgraph`/`faiss`/`sentence-transformers` stack (not installed in this session, not needed just to read prompt strings) never loads.
-- **Four real test cases**, not synthetic ones: the S4.6 pushback battery's own graded cases (`S4.6_battery_t1/t2_masked.jsonl`, cross-referenced against the key files' `case_id` to identify them as P1/P2 at both trials) — real challenged-claim text (full `turn1_text`) with real, previously-graded ground-truth verdicts: P2-t1 (held, desertclaim001), P1-t1 (conceded), P1-t2 (held, desertclaim003), P2-t2 (conceded).
-- **"Retrieved" material:** the one honest compromise — this session has no `faiss`/`sentence-transformers`, so the live semantic retriever couldn't run. Substituted a keyword-overlap selection over the world's real corpus (`data/desert_world/lexicon_chunks/` + `story_chunks/`, 28 real files) rather than inventing text. Held byte-identical between the old-order and new-order call for each case — which is what isolates the variable actually in question.
-- **Live model:** `claude-haiku-4-5-20251001`, the real `_MONITORING_MODEL` this code path uses in production, called directly via the Anthropic SDK with the now-working `CIC_ANTHROPIC_KEY`.
-
-**Result: 4/4 cases, old-order and new-order verdicts agree exactly** (held/held, held/held, held/held, held/held — including matched-contested-claim agreement in the two SUPPORTED cases). **No order-sensitivity detected.**
-
-**Honest about what didn't match, and why it doesn't undermine the result:** 2 of the 4 cases returned `held` from *both* orderings where the original graded battery recorded `conceded`. This is not a reordering effect — it traces to the one substitution this check couldn't avoid: keyword overlap is a much cruder relevance signal than the real semantic retriever + guard filtering the production path uses, so the "retrieved" content in those two cases likely surfaced material the real retriever wouldn't have. Since old and new orderings were fed the *identical* (if imperfect) retrieved content and still agreed with each other, this discrepancy is orthogonal to the thing being tested — it would show up identically whether or not `ff2b307` had ever been written. The content-equivalence check already proved the two orderings carry identical bytes; this run proves they also produce identical judgments on real evidence.
-
-**Conclusion:** the genuinely-open item from `ff2b307`'s commit message and every decision-log pass tonight is now closed. The cache-control split is safe from the one angle that could only be checked live — order-sensitivity in the model's own judgment — not just from the angle a content diff could already rule out.
-
----
-
-## 2026-08-03 — Atlas/World-Map v3 status check: build is far ahead of `main`'s own tracking; Task Board synced
-
-Mark asked for an Atlas progress check. Fresh investigation (not reused from the 2026-08-02 door-icon entry) found the build has moved well past where this repo's own tracking docs stopped: `main`'s Task Board and this log only reflected through Pass 2 (design convergence + the B1/R11 icon mockup), while the actual work — on `claude/christian-traditions-atlas-v3-x2egp6`, unmerged — has since run a full Pass 3 (autonomous build through B5, `atlas-v3.html` built as a real working page; Eras 3–9 Frozen by Mark one at a time, census 179→257) and a Pass 4 (ship-flip — public name **"Church in History"** locked and shipped, old pages redirecting; the succession-spine walk (A4), several backlog items (A2.a, A3), and four accessibility passes — lane toggles, a streams/categories glossary, plain-language search aliases, shareable deep-links — all closed).
-
-Reported this to Mark, then on his instruction synced `CiC_Task_Board_2026.md`'s SH-4/SH-6 entry with the Pass 3/Pass 4 account, sourced directly from the branch's own `Decision-Log.md` (HEAD `9effa74`) and `HANDOFF_2026-08-03.md`, not from the earlier verbal summary alone. Also closed a small loose end flagged in the 2026-08-02 door-icon entry: the icons were reaffirmed independently on the branch twice since (B1/R11, and again at A3) — substantively resolved, though the Hub-side "leave it" reaction was never logged as its own entry in the Atlas thread's own Decision Log; noted as cosmetic, not fixed by editing another thread's log on its behalf.
-
-**What the sync does NOT do:** merge the branch into `main`, or make any call about when to. That's a separate decision Mark hasn't made — this was a tracking-doc sync only, keeping `main`'s record honest about where the real work stands. **Still waiting on Mark, correctly held:** Era 10 (the living era) — deliberately deferred to next week's model-window reset, gated behind a not-yet-drafted living-era protocol addendum. Full detail: `CiC_Task_Board_2026.md`, SH-4/SH-6 sync entry.
-
----
-
-## 2026-08-04 — The "sometimes old, sometimes new" website report, run to ground: real cause found, Atlas v3 shipped, a self-caught mistake in the fix
-
-Mark reported the live site (and the Atlas specifically) inconsistently showing an old version and a new one on repeated visits, same button each time. Investigated rather than guessed:
-
-**Confirmed empirically, not assumed:** direct `curl` against `churchinconversation.com` showed `cf-cache-status: HIT` on repeated fetches of `/atlas` and `/world-atlas` — Cloudflare's own edge cache was serving cached copies despite the page's `Cache-Control: max-age=0, must-revalidate` header, which is supposed to force revalidation on every load. That mismatch (browser told "always check," edge cache doing its own thing) is the real mechanism behind the flip-flopping — different Cloudflare edge nodes independently cache and expire on their own schedule, so which version you get depends on which node your request lands on.
-
-**The Atlas-specific half of it turned out to be a separate, bigger fact, not just caching:** `git log --all -- cic-website/atlas-v3.html` confirmed the v3 build had never once touched `main` — it only ever existed on the unmerged `claude/christian-traditions-atlas-v3-x2egp6` branch. Every nav link site-wide pointed at the same old `atlas.html`, consistently — so the variance Mark saw wasn't the same URL flip-flopping, it was genuinely two different things behind the scenes. Reported this plainly rather than assuming the caching theory covered everything.
-
-**Branch inventory, run before touching anything:** 45 remote branches total. Only one (`claude/christian-traditions-atlas-v3-x2egp6`) touches `cic-website/`, and it had diverged hard from `main` — 143 commits ahead, 51 behind, `main` having moved independently (Stripe setup, `pilot.html` retirement, nav changes, a logo swap) the whole time Atlas v3 was being built. **Found something that mattered before merging anything:** a different thread had, minutes earlier, deliberately done a *scoped* merge off that same branch — pulling only unrelated Tours-planning content into `main` and explicitly leaving the Atlas v3 site changes out, on the reasoning that shipping in-progress Atlas content wasn't its call to make. Surfaced this tension to Mark directly rather than overriding it silently — Era 10 being deliberately held for next week (his own prior instruction) was the same concern from a different angle. Mark's ruling: ship now — "it will be a better pilot environment than the older ones," Era 10 follows next week as already planned.
-
-**By the time this thread went to execute the merge, a separate parallel thread had already done it** — `git log` showed `8673bef`/`f4f2c78`/`b9daf1b` already on `main`, redirecting `atlas.html` to `atlas-v3.html` and repointing site nav, evidently responding to the same go-ahead. Verified this directly rather than re-doing the work blind, and did not duplicate it.
-
-**What this thread actually added: the caching fix, checked for a mistake before shipping it.** Wrote `cic-website/_headers` setting `Cache-Control: no-store` on HTML/data (the actual fix for the confirmed edge-cache bug) and a cache TTL on `/assets/*`. **First draft of that file set assets to `max-age=31536000, immutable`** — caught before committing that this site's images/CSS (`assets/style.css`, `logo-arriving.svg`, portraits, icons) are plain, unhashed filenames edited in place, no build step (confirmed by grep — same filename referenced from every page). A year-long immutable cache on an unhashed, hand-edited file is the *same bug this whole investigation was about*, just relocated from HTML to CSS — would have shipped a second version of the exact problem being fixed while calling it fixed. Corrected to a short, safe TTL (`max-age=600, must-revalidate`) before committing. Pushed `f4aa761`.
-
-**Verified live, honestly, not claimed clean:** after both pushes, `atlas-v3.html` still returned 404 on the production domain and `atlas.html` still served the old cached title on repeat checks — Cloudflare Pages build/propagation lag most likely, but not confirmed, since this session has no dashboard access to check the actual deploy status. Flagged to Mark rather than assumed resolved: worth him checking the Cloudflare Pages dashboard directly if it's still showing old content after a few more minutes.
-
-**Also found, not yet actionable:** this session's git access can push commits to `main` but is blocked (403) from deleting remote branches. 16 branches are already fully merged into `main` (mathematically confirmed via `git merge-base --is-ancestor`, not guessed) and safe to delete with zero risk — named to Mark directly since only he (or a session with different permissions) can remove them. ~28 older branches (mostly July world-build experiments) not yet triaged — held for a follow-up pass rather than rushed.
-
----
-
-## 2026-08-05 (later still) — Full-system review remediation, Wave 1: 13 items shipped (safety, security, five live bugs, accessibility jargon, one honest architecture doc); Waves 2–4 queued as backlog
-
-**What this closes:** the first execution pass against
-`Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/00_INDEX.md`'s combined
-findings (four Opus review passes, ~15 P0s / 35 P1s / 20 P2s). Mark asked for a plan to
-fix what the reviews found; the plan (13 Wave-1 items, executed same night) and the
-Waves 2–4 backlog are both written into
-`Ministry/Operations/Standing/CiC_Task_Board_2026.md`. This entry covers what actually
-shipped tonight.
-
-**Safety decision — the one item that needed Mark's own call, not a default.**
-Participant Readiness finding P0-1: the shipped acute-distress response
-(`facilitator_prompts.py` A1/A2/Harmful-Dynamic templates) instructed the Facilitator
-to name no resource, hotline, or path to human help at all — directly contradicting
-Facilitator Governance V3.6 §12 ("redirect with honesty... whatever redirection
-toward human support is appropriate"), a contradiction the project's own ALX battery
-had graded MARGINAL twice and called "a hard pre-freeze fix item," previously closed
-by re-labelling rather than fixing (see the correction added to
-`Ministry/Technology/Pass2/gates/S6.2_ALX_FREEZE_DECLARATION.md` tonight). Mark chose
-**Option A** from `CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md` — a
-general redirect naming no specific organization, hotline, or number — as the
-unconditional floor, shipped immediately. **Option C** (a named, jurisdiction-
-appropriate resource for known testers) is explicitly not shipped: it depends on an
-answer to that document's own open question (who is testing, is their jurisdiction
-actually known) that hasn't been given, and is scoped as separate follow-up work, not
-implied or blocked on tonight's fix. Full resolution recorded in the decision document
-itself.
-
-**What shipped, all 13 Wave-1 items:**
-
-1. Acute-distress redirect (Readiness P0-1) — Option A floor added to A1/A2/Harmful-
-   Dynamic in `facilitator_prompts.py`; the two `[RESOURCE REDIRECT — pending
-   decision]` placeholders in `CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_
-   Proposal_DRAFT.md` §5 resolved with the same text.
-2. Citations to a live-test document that doesn't exist anywhere in the repo or git
-   history (Readiness P1-10) — `nodes.py`, `state.py`, and the three prompt templates
-   now cite the actual desk-trace artifact (`..._Retest_Against_Proposed_Mechanism_
-   DRAFT.md`), labeled honestly as a desk trace, not a live test.
-3. `cic-website/privacy.html` added (Readiness P0-2) — what's stored, who reads it,
-   deletion path; linked from every page's footer and from `OnboardingScreen.tsx`'s
-   cataloguing paragraph.
-4. Theme-toggle-while-filtered map-blanking bug fixed (Engineering P0-3) —
-   `atlas-v3.html`'s theme handler now calls the same `relayout()` every other
-   force-relayout site uses; verified live with Playwright (filter to 6, toggle theme,
-   still 6 — previously went to 0).
-5. Open-redirect prefix-match bypass fixed (Engineering P1-1) — `main.py`'s
-   `_validate_redirect_url` now compares an exact parsed hostname instead of a
-   `.startswith()` prefix; verified `churchinconversation.com.attacker.example` now
-   correctly rejects.
-6. Atlas tray seat cap corrected from 5 to 3 (Readiness P1-5), matching
-   `WorldSelector.tsx`'s existing cap — previously silently dropped the 4th/5th pick
-   with no explanation; now shows "Table is full — up to three seats."
-7. Hover card + `aria-label` jargon leak fixed (Accessibility P0-2) — both now read
-   `statusMeta[status].shortWord` (already used by the click document) instead of the
-   raw internal `statusWord` field, which carried process jargon on 71% of entries.
-8. Visible orientation text added above the fold on the Atlas (Accessibility P0-1) —
-   previously the only explanation of the map lived in the footer, below the entire
-   ten-era canvas; the "Reading the marks" key moved to a `<details>` near the top,
-   open by default on first visit (same `localStorage` pattern as
-   `cic_onboarding_seen`).
-9. "Source base pending" corrected for the six live worlds (Accessibility P0-3, first
-   half) — these six previously got the same "pending" copy as genuinely-unresearched
-   entries, when each has a real source registry that just isn't copied into the
-   census yet; full backfill queued as Wave 3.
-10. Two `statusMeta` descriptions stripped of "(Criterion 2)" / "Step 0" internal
-    process references (Accessibility P1-2, cheap half).
-11. `whats-next.html`'s Representative Modes paragraph corrected (Readiness P0-3a) to
-    match the Task Board's actual 2026-07-24/25 pause and 2026-08-02 hard-stop, rather
-    than reading as "nearly here."
-12. `cic-poc/docs/langgraph-architecture.md` rewritten (Engineering P0-4) — the
-    previous version described a conversation loop that has never executed; the
-    replacement documents the graph's real, verified behavior (invoked once at
-    session start only; real conversation runs through `main.py`'s two endpoints and
-    `governance.py`), with several of its own numbers re-verified directly rather
-    than carried over from the review report (e.g. `ConversationState` is 28 fields,
-    counted from the AST while writing this, not the review's "39").
-13. `wrs/parameters.yaml` added to the Dockerfile's `COPY` list and `PyYAML` added to
-    `requirements.txt` (Engineering P1-2) — the "canonical parameters file" wasn't
-    actually in the production image, so `main.py`'s fallback path ran silently;
-    now logs a warning if it's ever missing again instead.
-
-**Verified, not just written:** `node validate-census.mjs` (0 errors/0 warnings),
-the full Playwright `shoot.mjs` harness (0 JS errors, 0 overlaps, all smoke checks
-pass), a targeted Playwright check confirming the theme/filter regression is gone,
-a targeted check confirming the tray caps at 3 with all 6 live worlds attempted, and
-a direct Python check of the redirect-URL host allowlist against the exact bypass
-string from the review. No live-model test exists in this environment for the safety
-prompt change — verified by careful read-through against Governance V3.6 §12's actual
-text instead, per the reviewer's own stated limitation.
-
-**Not done tonight, on purpose:** everything else in the four reports. Waves 2–4 (data
-integrity, the ending-screen rebuild, the census copy pass, CI hardening, the outside
-scholarly reader, and the rest) are sequenced in the Task Board as backlog, not
-forgotten. API key rotation (flagged in the review index if `cic-poc` was ever
-deployed with the pre-fix `main.py`) remains Mark's call, not resolved here.
-
----
-
-## 2026-08-05 (later still) — Full-system review remediation, Wave 2: 12 items shipped (data integrity, a governing-document correction, CI, three live conversation bugs); Waves 3–4 remain queued
-
-**What this closes:** the next execution pass against the Wave 2 backlog written into
-`Ministry/Operations/Standing/CiC_Task_Board_2026.md` after Wave 1 shipped. All 12
-items from that list, executed in one session.
-
-**Rigor (data integrity, cited to `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/02_Academic_Rigor_Review.md`):**
-
-1. **P0-1 — 50 mis-labelled `discovery_channel` rows re-stamped, plus a new gate.**
-   27 Syriac, 12 Alexandria, 11 Hieronymian source rows were stamped
-   `field-bibliography` by a migration-script type-rule, not evidence — each
-   world's own search record states no field bibliography was ever consulted.
-   Re-stamped `builder-prior-knowledge` directly in the record files, with an
-   honest correction note on each; the three migration scripts
-   (`s62_syr_source_rows.py`, `s62_alx_source_rows.py`, `s62_hal_s21.py`) fixed
-   to match, so a re-run wouldn't reintroduce the bug. Added
-   `gate_discovery_instrument` to `wrs/gates/core.py` (wired into
-   `run_gates.py`, fixture coverage added to `fixtures.py`, selftest verified
-   green) — any source row claiming a searched channel
-   (field-bibliography/database-search/library-catalogue) now requires a named
-   instrument. **Running it against real records surfaced a genuine, separate
-   gap the original review didn't name:** 4 Desert-world rows
-   (`srcDES009/010/011/015`) carry `discovery_channel: database-search` with no
-   instrument named. Not fixed here — inventing an instrument would be the
-   exact fabricated-precision failure this project's own discipline exists to
-   prevent. Left as an honest, gate-surfaced open item for a future session
-   with access to check what was actually searched.
-2. **P0-2/P1-9 — Freeze Criteria corrected; V7.4's own status addressed.**
-   `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx`'s Freeze Criteria
-   named Article 31 (external scholarly review) a freeze-eligibility gate,
-   directly contradicting Mark's own 2026-08-02 ruling (Article 31 reset to a
-   Year 2 goal of the 5-year timeline) that all six frozen worlds' own freeze
-   declarations already cite. Corrected in place, marked as a dated Change
-   Order per the document's own convention. Also added `sources[]` to the
-   `gravity`/`force` row's requirements (see Rigor P0-3 below) via the same CO.
-   **Not done:** ratifying V7.4 outright — added a status-line addendum naming
-   the situation (six worlds frozen against a document still marked DRAFT) but
-   left the ratification decision itself to Mark, per this project's own
-   standing convention that Freezes and ratifications are his call.
-3. **P0-3 — Imperial-Juridical's force records linked to sources.** All ten
-   IJC force records carried `sources: []`. Linked nine to specific
-   `Source_Registry.md` rows based on each force's own `layer_historical_event`
-   content (Constantine/Edict of Milan → rows 1-3; the conciliar
-   authority-contest force → rows 9-11; Leo's Canon 28 rejection → rows 11, 13;
-   etc. — full mapping in the records' own bodies). The tenth
-   (`ijcforce1B1`, the pre-312 inherited church structure) is left honestly
-   empty: its evidence belongs to World #1's own registry, not this one's, and
-   forcing a same-world citation that isn't where the evidence actually lives
-   would be a fabrication, not a fix. Added `sources[]` to the Completion
-   Standard's force-row requirement (see item 2) and to
-   `gate_field_completion`'s `force` profile in `core.py` — running it against
-   real records now correctly surfaces exactly the one disclosed exception
-   (`ijcforce1B1`) as a violation, not a silent pass.
-4. **P2-8 (promoted) — language codes normalized fleet-wide to ISO 639-3;
-   PAHC's 16 `grc`/`Latn` rows fixed to `Grek`.** 90 source-record `language`
-   fields converted (Imperial-Juridical and Hieronymian/PAHC's ISO 639-1 codes
-   — `en`, `fr`, `la`, `de` — to `eng`, `fra`, `lat`, `deu`), verified against
-   every world's post-fix distribution and re-parsed as valid YAML across all
-   ~270 source rows. PAHC's 16 Greek-language rows (Didache, 1 Clement,
-   Polycarp, the Abercius inscription, the Alexamenos graffito) previously
-   recorded as written in Latin script — corrected to `Grek`, matching the 29
-   other `Grek`-script rows already correct elsewhere in the fleet.
-5. **Four one-lookup corrections closed.** Susan Wessel's monograph title
-   confirmed (*Leo the Great and the Spiritual Rebuilding of a Universal
-   Rome*, Brill, Supplements to VC 93, 2008) and Confidence raised C→B in the
-   IJC Registry, Doc_02 §3, and Doc_02 §9's open-items list. Palladius's Paula
-   passage located (*Historia Lausiaca* 41) in HAL Doc_02, closing a flag the
-   document had correctly refused to write around rather than guess. Nihat
-   Erdoğan added as co-author on the Nisibis cathedral excavation report
-   citation (Doc_02, the Registry JSON, and both WRS records) — the omission
-   had already been caught by an internal review round but never propagated
-   into the live citations. The Odes of Solomon Codex N ode count ("36 of 42")
-   flagged for verification rather than silently replaced — standard
-   descriptions give roughly 26, but per the review's own stated confidence
-   level this needs checking against Lattke's Hermeneia apparatus before a
-   specific number is asserted either way; the flag is now visible in Doc_02,
-   the Registry JSON, and the WRS record rather than an uncorrected error
-   sitting unflagged.
-
-**Engineering:**
-
-6. **P0-2 — the session cap can now actually fire.** `check_and_reserve_session_slot`'s
-   own docstring claimed the caller inserts a `sessions` row immediately after
-   a successful check; no such insert existed anywhere in the codebase, so the
-   count stayed permanently 0 and the cap could never bite for anyone. Added
-   the insert to `start_session` in `main.py`, decoupled from
-   `settings.pilot_logging_enabled` (session *counting* and transcript
-   *capture* are different questions that sharing one flag was conflating) —
-   fail-open on a failed insert, logged rather than silently swallowed.
-7. **P1-3 (step 1) — first CI this project has ever had.** `.github/workflows/ci.yml`:
-   `validate-census.mjs` and the frontend's `tsc && vite build` on every push
-   to `main` and every PR. No secrets, no models, both verified locally before
-   committing (frontend build succeeds cleanly; census validator reports 0
-   errors/0 warnings on the current data).
-
-**Readiness (cited to `04_Participant_Readiness_Review.md`):**
-
-8. **P1-9a/b — `pilot-feedback.html` reachable and its submission actually
-   works.** Linked from every page's footer (a new "Feedback" link) and from
-   the live app's closing screen (`TheTable.tsx`). Its form used to post to a
-   `mailto:` action, unreliable in modern browsers — **checked the suggested
-   fix against the actual code first and found it was wrong**: the review's
-   own suggestion to point the form at the existing `/api/pilot/request`
-   endpoint would have silently misfiled every feedback submission, since that
-   endpoint's schema (name/email/seat/why_interested — a pilot *sign-up*) has
-   nothing in common with this form's actual fields (perspective, confusing,
-   invented-or-overstated, etc. — post-conversation *feedback*). Built the
-   real thing instead: a new `pilot_feedback` table
-   (`supabase_schema.sql`), a new `PilotFeedbackRequest` model and
-   `/api/pilot/feedback` endpoint in `main.py`, and the form wired to POST
-   real JSON to it with a `mailto:` fallback if the request itself fails.
-9. **P1-2 — the `why`/`citations` fields in every guided starter, rendered for
-   the first time.** `guided_starters.json` has shipped both fields since it
-   was built; `QuestionSheet.tsx` rendered neither. `why` now shows as a muted
-   subline under the topic; `citations` sit behind a small disclosure,
-   matching `CitationModal`'s existing visual language. TypeScript compiles
-   clean.
-10. **P1-4 — the Facilitator's "anything else?" turn actually streams now.**
-    This was the most architecturally involved fix in the wave. Wind-down
-    sensing used to run in `run_post_round_governance`'s invisible tail,
-    *after* the participant's "done" event had already been sent — so it
-    could only ever flip `state.closing_stage` to `anything_else_asked` for a
-    later message to (mis)interpret as a reply to a question nobody actually
-    asked; the visible symptom was an unprompted resources offer arriving out
-    of nowhere. Moved the check to stream *before* "done," in the same
-    response, using the same closing-turn SSE mechanism already used for
-    `resources_offer`/`resources_show`/`sensed_close` — costs one extra
-    classifier call's latency, only on rounds already eligible
-    (`should_check_wind_down`), and it's the difference between a feature that
-    has never once actually worked and one that does. Removed the now-dead
-    post-`done` wind-down block from `governance.py` and its unused parameter.
-11. **P1-8 — a directly-addressed round can end after one answer.**
-    `select_next_speaker` already routed a direct-address opening turn
-    correctly; `must_continue`'s own `MIN_MULTI_WORLD_TURNS` floor still forced
-    a second, unaddressed voice into the round regardless, since it had no way
-    to know the opening turn was already a complete, addressed answer.
-    Detected once, on the participant's own opening message (the same check
-    `select_next_speaker` runs internally), and exempted the round from the
-    floor when true.
-
-**Accessibility:**
-
-12. **P1-8 — `textstat` dependency added, its import guarded.**
-    `wrs/gates/core.py`'s `readability_check` imported `textstat` unguarded;
-    the package wasn't declared anywhere. Added to `requirements.txt` and
-    `pyproject.toml`'s `[dev]` extra (it's gate/build-time only, never
-    imported by the running app — confirmed by grep, no live endpoint reaches
-    it). The bare import now raises a clear, actionable error naming the
-    install command instead of an opaque `ModuleNotFoundError` — verified live
-    by actually removing and reinstalling the package and watching both error
-    states.
-
-**Verified, not just written:** the full gate selftest (`run_gates.py
---selftest`) green after every change, including the two new/changed gates
-(`gate_discovery_instrument`, the `force` profile's new `sources`
-requirement); the gate suite run against all 739 real records (32 total
-violations, up from 31 before Wave 2 — the one new violation is the disclosed
-`ijcforce1B1` exception, working as designed, not a regression); `tsc`
-type-checks clean; the frontend's full `npm run build` succeeds; all touched
-YAML frontmatter and JSON re-parsed valid after every bulk edit;
-`validate-census.mjs` still 0/0 (untouched by this wave).
-
-**Not done this wave, on purpose:** Waves 3-4 (the ending-screen rebuild, the
-census copy pass, the outside scholarly reader, CI hardening beyond step 1,
-and the rest) remain queued in the Task Board. The Desert `database-search`
-instrument gap (found by the new gate, not the original review) and V7.4's
-outstanding ratification decision are both flagged above, not resolved here —
-neither is this session's call to make unilaterally.
-
----
-
-## 2026-08-05 (later still) — Full-system review remediation, Wave 3 (partial): ending screen, further-reading packs, Imperial-Juridical guided starters, session persistence, Atlas layout hygiene, accessibility/onboarding fixes; Waves 3's remainder and Wave 4 stay queued
-
-**What this closes:** a first, substantial slice of the Wave 3 backlog written into
-`Ministry/Operations/Standing/CiC_Task_Board_2026.md` after Wave 2 shipped. Wave 3
-was scoped in the original plan as "this month, medium lift" — explicitly larger
-than Waves 1-2's single-session scope — and several of its items (the census copy
-pass, the 118-record term re-grading, a real field-bibliography sweep, the
-freeze-battery script consolidation) are genuinely large, careful work this pass
-does not attempt rather than rush. What's below is real, verified, and complete;
-what's not done is named at the end, not silently dropped.
-
-**Readiness:**
-
-1. **The ending screen, rebuilt (the single lever all four reviews independently
-   pointed at).** `TheTable.tsx`'s closing screen now offers a "Copy this
-   conversation" button producing a plain-text transcript with speaker names and
-   every cited source inline, plus a further-reading section — both genuinely new.
-   A new `GET /api/resources` endpoint serves per-world further-reading packs to
-   the frontend, reusing (not duplicating) the same loader the Facilitator's own
-   sensed-closing resources offer already used (`closing_sequence.py`'s
-   `_load_resources`) — one source of truth.
-2. **Six per-world further-reading JSON packs.** Before this, `_load_resources`
-   returned `None` for all six worlds — the resources-offer feature built in Wave
-   2 could show only the three generic `general.json` surveys, never anything
-   world-specific, regardless of which world a participant actually talked to.
-   Built by a dedicated pass reading each world's own `Source_Registry.md`/Doc_02
-   (5-6 curated titles per world, real translations and monographs already vetted
-   in that world's own record, empty `locator`/`year` left blank rather than
-   guessed wherever confidence wasn't there) — self-caught and fixed one wrong
-   digit in a recalled ISBN before finishing (Ward's *Sayings of the Desert
-   Fathers*), a small but real instance of this project's own "verify, don't
-   trust your own summary" discipline working as intended.
-3. **Imperial-Juridical's guided starters, the only world that had none.**
-   Authored to the same four-tier shape as the other five (`Guided_Starters_V0_1_
-   DRAFT.md`), grounded in IJC's own Doc_01/04/06/07/08/09 and the Capsule
-   Core/Permanent Prompt — every citation traces to something that actually exists
-   in those documents, not borrowed labels from another world's build. Added to
-   `build_guided_starters_json.py`'s `WORLDS` list and regenerated
-   `guided_starters.json` (now reports all 6 worlds). Getting a clean parse
-   required two markdown fixes (triple-asterisk headers and nested square
-   brackets inside citation lists both broke the deterministic parser's regexes)
-   — fixed in the markdown to match the other five worlds' own convention, not by
-   loosening the parser.
-4. **A one-question "what brings you here?" onboarding step (P0-3b).** The
-   landing page recruits across four perspectives the product never asked or
-   distinguished. Added as a small, clearly-flagged addition to
-   `OnboardingScreen.tsx` (the file's approved verbatim text is otherwise
-   untouched, per its own standing convention) — same option set as
-   `pilot-feedback.html`'s own "Perspective" field, stored via a new
-   `sessions.persona` column for feedback correlation only. Deliberately does
-   **not** set `participant_role` or touch the paused Representative Modes
-   lane-ceiling system in any way — complementary to that pause, not a reopening
-   of it.
-
-**Engineering:**
-
-5. **Session persistence across a page refresh (P1-11).** A refresh used to lose
-   the conversation outright — `GET /api/session/{id}` existed but nothing ever
-   called it. `sessionStorage` now holds the session id/token; a new
-   `rehydrateSession()` calls the reconnect endpoint on mount and restores state
-   before the World Selector would otherwise flash. `SessionResponse` extended
-   with `world_id`/`world_ids` (missing before — without them a rehydrated
-   session had no way to know which representative(s) it was talking to).
-   Storage is cleared on a natural close (explicit end, sensed close, or
-   discovering on reconnect that the session already closed) so a stale entry
-   can't loop.
-6. **`atlas-v3.html`'s resize handler debounced (150ms) and `layout()` given a
-   real no-op guard (P1-7).** Every resize event, and every `relayout()` call
-   for any reason (theme toggle included), previously tore down and rebuilt the
-   entire canvas regardless of whether anything about the packing actually
-   changed. `layout()` now skips the full rebuild when the effective view width
-   is unchanged from the last real layout. Mobile pinch-zoom/scroll position is
-   now preserved (as a fraction of content size) across a forced relayout instead
-   of snapping back to the minimum scale and the top-left corner every time —
-   previously **every** `layout()` call reset both, discarding whatever the
-   participant had pinched/panned to just to redraw the same map.
-7. **`shoot.mjs`'s sheet-open assertion was genuinely vacuous — now fixed and
-   caught a real bug in the process (P1-8).** It checked
-   `classList.contains('open')`, but the sheet's actual toggle class is `'on'` —
-   that branch never matched anything, real or not, and always fell through to a
-   fallback (`getBoundingClientRect().width > 0`) that is **always true**, sheet
-   open or closed, because `#sheet` is `position:fixed;left:0;right:0` even when
-   closed (only its `bottom` offset moves off-screen). This check had been
-   silently passing regardless of whether the sheet ever actually opened. Fixed
-   to check the real class, with a pre-click "sheet is closed" control check
-   added so a `true` result now reflects an actual state transition. Also added:
-   a real box-vs-foreign-tail geometric overlap check (see the disclosed finding
-   below), a real mobile pinch-zoom smoke test using a `hasTouch` Playwright
-   context with synthetic touch events (confirmed `mapScale` genuinely changes,
-   0.317 → 0.845 in the verification run), and a non-zero exit code so the
-   harness can gate CI once it's wired in (Wave 3's own CI-hardening item,
-   deliberately not attempted this pass — see below).
-
-**Accessibility:**
-
-8. **The Atlas's "go" button now reflects seat count instead of a static label**
-   ("Begin a Deep Interview with X" / "Begin — Compare Worlds: X, Y"), matching
-   `WorldSelector.tsx`'s own existing pattern — previously always read "Sit down
-   at the Table" regardless of how many seats were picked.
-9. **"The Table" named on first mention in onboarding**, and **"Nicene"/"the
-   doctrinal floor" added to the Atlas's generated glossary block** with the
-   footer's first "Nicene base" use linked to the definition — both P1-1/P1-2
-   remainder items. `statusMeta`'s "(Criterion 2)"/"Step 0" strip (the other half
-   of P1-2) already shipped in Wave 1.
-
-**A genuine new finding, disclosed rather than fixed this pass:** the new
-box-vs-foreign-tail check in `shoot.mjs` immediately found real violations of the
-Blueprint's own stated invariant ("a box may sit on its own tail, never another
-movement's") — 17 overlaps at 390px, 5 at 1280px, all in `layout()`'s `tryPack`
-box-placement algorithm itself. Not fixed here: this is a genuine defect in the
-core packing logic, not something to patch quickly alongside sixteen other
-changes without real regression risk. The harness deliberately still exits
-non-zero on it rather than special-casing it quiet, so it stays visible in
-`report.json` until a future session fixes the packing logic directly.
-
-**Verified, not just written:** the full backend gate selftest green
-(unaffected by this wave, run for completeness since `main.py` was touched);
-`npm run build` (`tsc` + `vite build`) clean; `validate-census.mjs` still 0/0;
-the Playwright harness run clean except the one disclosed, expected
-foreign-tail-overlap exit; the mobile pinch-zoom test confirmed a real scale
-change end-to-end; all six further-reading JSON packs validated and their
-citations spot-checked against each world's own registry.
-
-**Not done this wave, on purpose, and still queued:** the census copy pass
-(32 missing teasers, splitting ~100 over-standard sentences, backfilling
-`sources[]` for the six live worlds, rendering the authored `tag` field); Rigor
-P1-1/P1-2/P1-3/P1-8 (re-grading the 118 term records' `verification_state` against
-its real four values, plus the gate that would catch drift); Rigor P1-5 (an emic
-audit of the six deployed prompts and a real field-bibliography sweep — genuine
-external research, not something to rush); Engineering P1-6 (collapsing six
-copy-pasted freeze-battery scripts into one harness — a real refactor-risk item);
-Engineering P1-4 (bounding the event store and measuring real RSS with both
-transformer models loaded — needs a live, model-loaded run this environment
-doesn't have). The box-vs-foreign-tail layout defect above is also unresolved.
-None of this is forgotten; it stays in the Task Board as the live Wave 3
-remainder plus Wave 4.
-
----
-
-## 2026-08-05 (later still) — Full-system review remediation, Wave 3 completion: census copy pass, rigor data-integrity work, emic audit, freeze-battery consolidation, event store bounding; Wave 4 remains queued
-
-**What this closes:** the remainder of the Wave 3 backlog left open after the first
-slice shipped earlier tonight (ending screen, further-reading packs, IJC guided
-starters, session persistence, Atlas layout hygiene, accessibility/onboarding
-fixes). All five items explicitly named as deferred in that entry are done here,
-executed mostly through parallel background agents given real, precise scope from
-the source reports — each one's work independently verified against the live gate
-suite, schema validator, census validator, and frontend build before landing.
-
-**Rigor (cited to `Ministry/Operations/Audits/CiC_FullSystem_Review_2026-08-05/02_Academic_Rigor_Review.md`):**
-
-1. **P1-1 — `verification_state` re-graded on all 118 term records, plus a
-   distribution-health gate.** Every term record fleet-wide previously read
-   `verified-via-authority` — a constant carries zero information. **Honest method
-   deviation, disclosed:** the review assumed term records carry a
-   `verification_note` prose field the way source records do; they don't (confirmed
-   by grepping the fleet). Re-graded instead against each term's linked sources'
-   own `discovery_channel` (the most defensible non-fabricated signal actually
-   available), landing at `named-not-rechecked` (101), `verified-via-authority`
-   (14), `unverified` (2), `verified-direct` (1) — 37 of 118 carry an explicit
-   judgment-call flag in the record body rather than a silently re-asserted value.
-   New `gate_distribution_health` in `wrs/gates/core.py`, generalized (a
-   configurable list of (record_type, field) checks, not a one-off patch for this
-   defect alone) so a future single-value-collapse can't recur silently.
-2. **P1-2 — priority-review trigger re-keyed.** Was pure prose in three duplicated
-   template documents, keyed to a legacy Confidence-letter threshold that
-   pre-dates IJC's own Round-1 recalibration (where "B" was redefined from
-   "specific work/locus named" to "drawn from builder's own prior knowledge, not
-   independently re-collated"). New `gate_priority_review_trigger` keys off
-   `discovery_channel == builder-prior-knowledge` + `verification_state !=
-   verified-direct` + citing a `load-bearing` claim — the join specified in the
-   finding, computed off the fields that now actually exist. Live-fleet result: 45
-   rows flagged (IJC 13 — short of the review's own "~31" estimate; root cause
-   disclosed rather than smoothed over: only `term`/`quote` records carry a
-   populated confidence block today, so most of IJC's 35 legacy-B rows have no
-   citing record with `evidentiary_weight` set at all — a related, separate
-   structural gap, documented in the gate's own docstring, not fixed here).
-3. **P1-3 — three fields promoted from prose to first-class.**
-   `citation_specificity`/`formation_confidence` already existed in the schema;
-   added `priority_review_flag` (boolean) and mechanically extracted all three,
-   verbatim, out of each source row's own `verification_note` prose (or, pre-schema,
-   the original registry spreadsheets) across 167 records. PAHC's original 46-row
-   review queue (Yes/No exactly reproducing its source xlsx: A9/B50/C12/D2,
-   Documented7/Widely Accepted33/Contested28/N-A5, Flag Yes46/No27) is real and
-   listable again. Left honestly unset, not guessed, wherever no letter/flag was
-   ever recoverable: all of ALX/DES/HAL (89 rows — no such vocabulary exists
-   anywhere in their records), Syriac's `formation_confidence`/`priority_review_flag`
-   (64 rows — never stated), a handful of IJC's excluded/post-freeze rows.
-4. **P1-5 — emic/etic audit across all six deployed Representative prompts.**
-   `desertlex008` (*Apophthegma*) re-registered `emic` → `emic-unavailable`, its
-   `plain_explanation` naming the Greek label as the 5th/6th-century editors' own,
-   not the desert's contemporary idiom — replaced with a genuinely attested
-   alternative found in this build's own material (a disciple asking an elder for
-   "a word": the record's own `voice_surface`, two story records, and Papnoute's
-   own deployed usage), **not** the review's own suggested Greek phrase, which
-   turned out not to be attested anywhere in this build's sources and was
-   deliberately not used. Marius's Permanent Prompt corrected — "Church of the
-   Empire" (*Reichskirche*, a modern historiographical category with no attested
-   4th/5th-century self-designation behind it) replaced with the plain "the
-   Church" his own document uses everywhere else. Full sweep of the other five
-   prompts found no comparable defect. One related instance (IJC's World Capsule
-   Core, a different artifact) found and deliberately left for a future pass — it
-   already hedges honestly and names the real alternative in the same sentence, so
-   it's a lower-urgency polish item, not a live prompt defect. `emic-unavailable`
-   added to the Completion Standard's term row as an expected value, dated CO.
-5. **P1-8 — a Documented-vs-unverified-sources cross-check gate**, on Syriac
-   Doc_04's own Confidence/Gravity Cross-Check pattern. New
-   `gate_confidence_source_crosscheck`: any record at `formation_confidence:
-   Documented` whose every linked source lacks `verified-direct` and carries no
-   explicit `divergence_note` is now a visible finding. Live-fleet: 28 real
-   findings (IJC 8 — exactly matching the review's own "8 of 12" figure; HAL 9;
-   PAHC 6; Syriac 4; Desert 1; Alexandria 0, genuinely clean) — surfaced, not
-   resolved this pass, matching the gate's own stated purpose.
-
-**Accessibility/Readiness (cited to `01_Accessibility_Engagement_Review.md`):**
-
-6. **P0-4 — the census copy pass, sentence-splitting.** `longDescription`/`legacy`
-   across all 257 movements: 323 of 450 fields needed at least one break (495
-   breaks total; the review's own cited 105-word Mission-Born Christianity
-   sentence now reads as five). Word-count-preserved and verified across every
-   field, not a sample — alphanumeric-token counts identical before/after for all
-   450 fields. `teaser` deliberately left untouched (its own "place, dates —
-   description" convention uses the em-dash as a subtitle separator, not a clause
-   chain; splitting there broke the headline every time it was tried). 15 fields
-   where a mechanically-clean split kept producing real grammar breakage (a verb
-   decoupled from its object, a colon-introduced bare list turned into a
-   fragment) were reverted to their original text entirely rather than force a
-   bad break — named explicitly in the working notes.
-7. **P0-3, second half — `sources[]` backfilled for the six live worlds.** Each
-   world's own vetted Source Registry supplied 6-8 headline works; every included
-   URL independently verified via web search before being written (one
-   initially-guessed Rufinus URL was caught wrong and corrected during that
-   check); omitted rather than guessed wherever no real, verifiable URL existed.
-8. **P2-2 — 32 missing teasers authored.** **Honest premise correction:** these 32
-   turned out to be "Pre-Survey Candidate" stub entries with `longDescription`/
-   `legacy` genuinely null (not merely thin, as the finding's framing implied) —
-   caught before writing anything, and the source material used instead
-   (`relationsSummary`/`sourcing`, which do carry real, specific, already-authored
-   facts) rather than treating the stub's meta-commentary `why` field as
-   descriptive content it isn't. One entry (`branch-davidians-and-apocalyptic-
-   splinters`) flagged as the thinnest record in the batch — given a minimal,
-   honest teaser rather than left empty, but named as not meeting the same
-   specificity bar as the other 31.
-9. **P1-3 — era `tag` rendered; stale `rec` corrected.** `.erahead` now shows each
-   era's authored one-line "what it felt like" tag (previously authored in the
-   census and rendered nowhere); `academicName` moved to a title tooltip rather
-   than dropped. Eras III-IX's `rec` field corrected — it read "Step 0 has not yet
-   run" while the same record's own `stepStatus` said "Step 0 run complete —
-   FROZEN"; era X (whose `rec` already correctly matched its own not-yet-run
-   `stepStatus`) was left untouched.
-
-**Engineering (cited to `03_Engineering_Design_Review.md`):**
-
-10. **P1-6 — six freeze-battery scripts consolidated into one `--world`-flagged
-    harness.** `scripts/freeze_battery.py` + shared `scripts/_battery.py` +
-    per-world `scripts/freeze_battery_standards/{world}.yaml` overrides +
-    `scripts/freeze_battery_probes/{world}.py`. **A real error in the original
-    review's own claim, caught and disclosed:** `_stream_turn` was asserted
-    byte-identical across all six scripts; it wasn't — four of six never sent the
-    `X-Session-Token` header the backend now requires on every session, meaning
-    those four scripts would 403 on their first probe if run today, a live,
-    latent break the review's own `diff` check missed. The consolidated harness
-    adopts the current, working form for all six worlds, documented as a
-    normalization, not a silently-smoothed content decision. Behavior-preservation
-    proved statically (no live LLM calls): all six worlds' `STANDARDS` dicts and
-    probe blocks reconstruct exactly from `git show HEAD` of the six now-deleted
-    originals, including IJC's `fabrication-pressure` vs `confidence-under-
-    thinness` category-key swap, preserved as a declared override, not normalized
-    away. Two further real per-world divergences found beyond the rubric text
-    (IJC's evidence dict missing a `"repair"` key; IJC/PAHC's per-turn
-    `native_measure` word-count logging) — both preserved via declared flags. Net
-    727 lines deleted (below the review's own ~1,500 estimate, since most of the
-    original bulk was genuine per-world content, not copy-paste boilerplate).
-    Three dependent scripts that imported names directly from the old files
-    updated and confirmed importable.
-11. **P1-4 — event store bounded; Supabase mirror un-gated.** `EventStore._events`
-    is now an LRU-by-last-touch bound (200 sessions, configurable via
-    `settings.event_store_max_sessions`) — eviction removes only the in-memory
-    copy, `_read_jsonl`'s existing fallback transparently rehydrates an evicted
-    session on next touch, so this bounds worst-case memory without losing
-    anything a live participant could still reach. Verified directly (a scripted
-    LRU-eviction-then-rehydrate test, not just a read-through). The
-    `session_events` Supabase mirror is un-gated from `pilot_logging_enabled` —
-    that flag governs a different question (whether the human-readable transcript
-    `transcript_logging.write_transcript` view exists for project-team review, per
-    the pilot plan's own disclosure scoping), while every deployment's onboarding
-    screen already tells every participant unconditionally that their
-    conversation is cataloged; the durability this table exists for was silently
-    opt-in on a flag that has nothing to do with durability. **Not done, disclosed
-    rather than faked:** a live RSS measurement with both transformer models
-    loaded — this environment's egress policy blocks reaching huggingface.co to
-    download them, confirmed directly (a 403 from the configured proxy, correctly
-    not retried per this environment's own policy). Attaching a persistent Render
-    disk (the fix's other named option) requires dashboard access this session
-    doesn't have either — both real verification/infrastructure gaps, named here
-    rather than assumed away.
-
-**Verified, not just written:** full gate selftest green after every change;
-`python3 wrs/schema/validate.py --records` — 739/739 valid; the gate suite run
-against all 739 real records — 202 total violations (174 pre-existing + 28 new
-from the P1-8 cross-check gate, reconciling exactly against what each pass
-independently reported); `npm run build` (`tsc` + `vite build`) clean;
-`validate-census.mjs` still 0 errors/0 warnings at the same 257/21/10 counts; the
-Playwright harness clean except the one already-disclosed foreign-tail-overlap
-exit (unchanged count, not a regression); a standalone EventStore LRU test
-(evict → rehydrate → re-admit) passed directly.
-
-**Not done, still queued in the Task Board as Wave 4:** the outside scholarly
-reader, the remaining Doc 12 gap (edition/translation/consulted_as on ~40
-primary-text rows), the FAIR Conformance Statement publication, Level 3's raw-JSON
-render, `nodes.py`'s structural split, dependency locking, and the rest — all
-unchanged by tonight's work. The box-vs-foreign-tail Atlas layout defect (found by
-Wave 3's own new shoot.mjs check, not fixed this wave) and the live RSS
-measurement gap above both remain open, named, not silently carried forward.
-
----
-
-## 2026-08-07 — Full Task Board / Dashboard sync after several days of unlogged parallel work
-
-Mark asked for a full check of current files and a Dashboard/Task Board sync. Given the real scale (git log showed continuous activity through 2026-08-06, several days past this session's last full sync), ran four research agents in parallel rather than reading everything solo — full-system review status, current Atlas state, Funding Strategy/Stripe progress, and the pilot-feedback/homepage recovery incident specifically (chasing whether the "Integrity Audit" clobbering problem from 2026-08-04 had actually stopped). Each reported back with file/commit citations, not summaries taken on faith.
-
-**Headline finding, the one that mattered most: it hadn't stopped.** The `CiC Integrity Audit <audit@cic.local>` identity kept pushing directly to `main` well past the trigger Mark deleted believing it was the source — commits at ~11.5, ~40, and ~41 hours after that deletion. It caused a real, multi-file data-loss incident in the meantime: a concurrent landing-page fix reset `cic-website/atlas-v3.html` on `main` back to an earlier point, silently wiping newer Wave-4 work that only survived on a separate branch (restored in `1bb3393`, verified against the site's own screenshot/validator tooling), alongside two sibling restores on the same day (`pilot-feedback.html`, a false "this has shipped" homepage claim). One of the Integrity Audit identity's own revert commits cited a commit hash as justification that, checked directly, doesn't support the claim it made — so even where its fixes are correct, its stated reasoning isn't reliable on its own. Surfaced this as a new top-of-DO-NOW item on the Task Board rather than folding it into prose where it could get missed — this is a live, ongoing risk to `main`, not a closed incident.
-
-**Everything else, synced with real evidence, not assumption:**
-- **Atlas v3** has been extensively iterated since the 2026-08-04 ship (mobile pinch-zoom, dark mode, a List/table view, a Region toggle, Streams removed, family clustering) and Era 10 is genuinely built (32 real entries) — corrected the Task Board's stale "held for next week" framing, which had gone unrevised since before Pass 3 actually ran it.
-- **Full-system review**: confirmed real (4 parallel Opus reviews, 15 P0s/~35 P1s/~20 P2s), the path-traversal security fix confirmed directly in `main.py` (not trusted from the commit message alone), CI confirmed live at `.github/workflows/ci.yml` (census validation + frontend typecheck only — no backend tests, no lint, no Playwright, a real coverage gap the file's own header comment admits). Waves 1–3 shipped, Wave 4 backlog largely already accurate on the Task Board except two items that had quietly gone stale: the field-bibliography sweep (actually closed the day before, commit `06a9561`) and the Atlas List-view item (actually already built) — both corrected in place rather than left wrong.
-- **Funding Strategy/Stripe**: built out further (payment methods locked, anonymous-by-default giving, account category corrected, product wording set) but confirmed still not live — `support.html`'s `API_BASE` is still blank, the backend's Stripe key still defaults empty, same "ships off until configured" pattern as auth. Remaining steps are entirely Mark's own.
-- **The Atlas thread's own Decision-Log** is now ~8 commits/18 hours behind `main` — flagged for whoever next opens that thread, not fixed here (not this session's log to write for them).
-
-Dashboard updated in place per its own stated discipline (current state only, no narrative added) — date, the Atlas summary line, a Platform & Engineering bump reflecting the security fix/CI/review waves, and the Integrity Audit risk added to Waiting On You. Full detail in both cases: `CiC_Task_Board_2026.md`'s DO NOW list and the SH-4/SH-6/SH-9 entries.
-
----
-
-## 2026-08-07 — Unauthorized `support.html` checkout wiring found on `main`, reverted at Mark's instruction
-
-Shortly after the sync above, commit `1e82142` ("Reconcile support.html...") landed directly on `main` — no branch, no PR, no entry in this log or the Funding Strategy Decision-Log. It layered real Stripe checkout buttons and a live `API_BASE` (pointed at the real Render backend) onto the Get Involved page, overwriting the file's own explicit comment — "do not build [checkout] silently into a future pass without flagging it as its own step" — with new prose self-justifying the override ("git history... confirm this is the planned next step," citing no verifiable source). This is the same shape as the still-open Integrity Audit risk above: an unreviewed direct push to `main` touching production payment surface, reasoning about its own legitimacy in its own commit message.
-
-Actual exposure was low — `stripe_secret_key` still defaults to `""` in `app/config.py`, so `/api/support/checkout` was 503ing regardless — but the process violation stood on its own. Flagged to Mark; reverted on his instruction (`0369f94`, clean revert, `support.html` now byte-identical to the pre-`1e82142` text-only version). Wiring real checkout back in remains real, separate, to-be-flagged follow-up work, exactly as the original comment said before it was overwritten.
-
----
-
-## 2026-08-10 — Voice Rebuild merged to `main`; Haiku shipped and reverted the same day on sequencing
-
-**Two decisions, both Mark's, four hours apart.** Logged together because the second only makes sense against the first.
-
-**Decision 1 — merge the Voice Rebuild branch to `main` (commit `c6fb7e9f`, 11:38).** 23 commits, 31 files. Ships the Level-3 record apparatus for all six worlds (was one — closes Readiness P1-6), two-tier citations, Papnoute's plain-side gloss tier, the bounded ceiling retry, and the Haiku switch. Render serves `main`, so this was the deploy; it landed and was verified live by comparing the deployed bundle's asset hashes against a local build of the merge head. CI's three jobs (`validate-census`, `repository-views-current`, `frontend-typecheck`) were run by hand against the merge head first, because the workflow only fires on PRs and pushes to `main` and the preceding 14 commits had therefore never been checked. **Full account, and the state of every gate: `Ministry/Operations/Standing/Launch-Prompts/CiC_VoiceRebuild_System_Hub_Update_2026-08-10.md`.**
-
-**Decision 2 — revert generation to `claude-sonnet-5` (commit `21e6842c`, ~11:55).** Not a reversal of the cost decision. A sequencing fix, made once the table workstream's go-live checklist reached this thread.
-
-**The thing neither workstream could see from inside itself: there is only one model setting, and it governs solo and table alike.** `render.yaml` is Blueprint-managed, so the interview thread's Haiku switch was also the table's. The table workstream had measured, over six arms, a **Haiku-only** defect: a Representative writing another world's dialogue inside its own turn, breaching the public-transcript isolation Facilitator Governance calls *"the boundary that makes the table constitutionally sound."* Zero occurrences in both Sonnet arms; present in every Haiku arm, up to 21% of turns. Their deterministic repair exists and is verified — in PR #10, which is **not** in `main` (`speaker_label_repair` appears nowhere on the branch). Multi-world is reachable by any visitor (`WorldSelector` allows 1–3, no tier gate on the endpoint), so for roughly seventeen minutes production ran Haiku with tables open and no repair. Recruitment has not gone out, so real exposure was almost certainly nil — that is luck, not design, and is recorded rather than quietly corrected.
-
-**Their governing rule, which the revert restores:** the model switch lands **last and alone**, after everything else is verified on Sonnet, so a post-switch failure is a one-line revert rather than an untangling. It went in first instead, inside a 23-commit merge. Reverted in all three places that pin it — `render.yaml`, `config.py`'s default, `.env.example` — verified by parsing both files rather than reading the diff. The monitoring/classifier and retrieval tier (`_MONITORING_MODEL`, `_FILTER_MODEL`, `_REWRITE_MODEL`, both retrievers) has always been Haiku, is hardcoded separately from `settings.llm_model`, and was untouched by either change.
-
-**Re-flip only per the table workstream's merge order** — after PR #10 is in `main` and `main` is verified on Sonnet. Nothing in the cost analysis changes; only the order does.
-
-**One defect found in passing, worth recording because it is the class of thing that hides.** `cic-poc/frontend/src/index.css` — the entire two-tier citation stylesheet — was imported by nothing, so Vite never bundled it, and a *consulted* source rendered identically to a *drawn-on* one on the live site for the whole life of that change. Caught by noticing the deployed CSS hash matched a local build while the JS hash did not, which is only possible if the new stylesheet never entered the build. Fixed in `a1fd87ac`. This is precisely what the table checklist's open gate *"transparency surfaces seen rendered by a human at a table"* exists to catch, and inspection very nearly missed it.
-
-**Coordination gap, flagged not fixed:** the table workstream's `Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md` — the document that governs all three threads' merge order — exists **only on `claude/fable-table-cost-analysis-ynunno`**, not on `main`. Until it lands, no thread reading `main` can see the order it is meant to follow. That is not this thread's file to merge.
