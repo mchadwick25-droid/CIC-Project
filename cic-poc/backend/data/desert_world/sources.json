@@ -20,6 +20,9 @@
       "external_ids": [],
       "transmission_path": "the Greek text survives complete; an early Latin translation (Evagrius of Antioch, not to be confused with Evagrius Ponticus) circulated within a generation and is the version that reached the West, including Augustine. This means most of this world's international reception ran through a translator's hand, not the Greek original - a transmission dependency this document flags rather than assumes away.",
       "field_state": null,
+      "registry_row": "1",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -47,6 +50,9 @@
       "external_ids": [],
       "transmission_path": "a documented, multi-stage translation chain (Coptic -> Greek -> Jerome's Latin for the Rules; multiple independent Coptic and Greek recensions for the Lives) - each stage a real opportunity for editorial shaping that this world's own most internally-produced textual evidence has already passed through before reaching modern readers.",
       "field_state": null,
+      "registry_row": "2",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -74,6 +80,9 @@
       "external_ids": [],
       "transmission_path": "transmitted almost entirely through translation (Georgian, Latin, Syriac) with only Greek and Coptic fragments surviving directly - an unusually thin and indirect transmission chain for material this potentially significant, and a genuine limitation on how much weight this document places on it.",
       "field_state": "contested",
+      "registry_row": "3",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -101,6 +110,9 @@
       "external_ids": [],
       "transmission_path": "this is this world's single most dramatic transmission-history case. Following the 553 condemnation, Evagrius's more speculative works survive substantially in Syriac and Armenian translation - traditions unaffected by the Constantinopolitan decision - while his Greek manuscripts frequently transmit several of his ascetic-practical works - the Chapters on Prayer above all ... - under pseudonymous attribution, chiefly to Nilus of Ancyra, and occasionally to Basil or Gregory of Nazianzus. A reader encountering \"Nilus\" in a Byzantine or Athonite manuscript may be reading Evagrius. This is Constitution Article 22's Transmission History dimension in its starkest possible instance for this world.",
       "field_state": null,
+      "registry_row": "4",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -128,6 +140,9 @@
       "external_ids": [],
       "transmission_path": "oral transmission across at least one, likely several, generations before written compilation; the compilers themselves function as a distinct Author Gravity layer (shapers, not merely transcribers) and should be assessed with the Framework's Narrative Source Author Gravity criteria, not treated as a neutral archive.",
       "field_state": null,
+      "registry_row": "5",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -155,6 +170,9 @@
       "external_ids": [],
       "transmission_path": "identical mechanism to Section 1.5; no independent transmission stream exists for the ammas' material.",
       "field_state": null,
+      "registry_row": "6",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -182,6 +200,9 @@
       "external_ids": [],
       "transmission_path": "the Greek original is complicated by an extensive later reception history, including a considerably expanded Latin recension; textual criticism of the Lausiac History's manuscript tradition is itself a specialist field this document has not independently adjudicated.",
       "field_state": null,
+      "registry_row": "7",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -209,6 +230,9 @@
       "external_ids": [],
       "transmission_path": "an early and unusually well-documented case - the relationship between the Greek original and Rufinus's Latin version was itself historically disputed (an older view, since superseded, held Rufinus's Latin was the original and the Greek a back-translation); the now-dominant scholarly view ... following C. Butler's philological demonstration, holds the Greek is original and Rufinus's Latin a translation-with-additions.",
       "field_state": "majority",
+      "registry_row": "8",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -236,6 +260,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "9",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "database-search",
         "instrument": null,
@@ -263,6 +290,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "10",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "database-search",
         "instrument": null,
@@ -290,6 +320,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": "contested",
+      "registry_row": "11",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "database-search",
         "instrument": null,
@@ -317,6 +350,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "12",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "step0-seed-list",
         "instrument": null,
@@ -344,6 +380,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "13",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "step0-seed-list",
         "instrument": null,
@@ -371,6 +410,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "14",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "step0-seed-list",
         "instrument": null,
@@ -398,6 +440,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "15",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "database-search",
         "instrument": null,
@@ -425,6 +470,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "16",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -452,6 +500,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "17",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "followed from Doc_02 SS1.3's own citation of Gould's counter-position; citation verified against academic.oup.com",
@@ -479,6 +530,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "18",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "followed from Doc_02 SS1.2's version-priority debate (Rousseau and Veilleux's differing positions, via Doc_01 SS10); publication verified by web search",
@@ -506,6 +560,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": "contested",
+      "registry_row": "19",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "followed from Doc_02 SS5.3's named position-holders; verified via Google Books/Semantic Scholar",
@@ -533,6 +590,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "20",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "field-bibliography",
         "instrument": "reference-work sweep (critical-edition coverage check for the world's central text); verified against sourceschretiennes.org/collection/sc400 (edition based on ~50 collated manuscripts)",
@@ -560,6 +620,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "21",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "field-bibliography",
         "instrument": "reference-work sweep (standard-translation coverage check for the world's central corpus); verified via Cambridge Core review citation",
@@ -587,6 +650,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "22",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "field-bibliography",
         "instrument": "reference-work sweep; verified against global.oup.com product page",
@@ -614,6 +680,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "23",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "field-bibliography",
         "instrument": "reference-work sweep; publication corroborated via web references (not publisher-direct)",
@@ -641,6 +710,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "24",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "field-bibliography",
         "instrument": "reference-work sweep + Coptic Congress preliminary bibliography; citation corroborated via recent scholarly bibliographies",
@@ -668,6 +740,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "25",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -695,6 +770,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "26",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "cited-in-another-row",
         "instrument": null,

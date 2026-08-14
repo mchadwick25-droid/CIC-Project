@@ -5,7 +5,7 @@ Term:                 Catholicos / Catholicosate
 World-Code:           syr
 Tier:                 2
 Aliases:              "Catholicos-Patriarch" (later fuller title)
-Related-Terms:        (none — see note)
+Related-Terms:        Mar (ܡܪܝ)
 Retrieve-When:        participant asks who led the Persian church, or uses "Catholicos" as though it were this world's own contemporary title for its Persian episcopal leadership.
 Do-Not-Retrieve-When: participant is asking about the Roman/Edessene side of this world, where this title has no relevance at all; participant is asking about a later period (post-410) where "Catholicos" is the accurate and non-anachronistic term.
 ```

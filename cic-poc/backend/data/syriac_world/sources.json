@@ -20,6 +20,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "1",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -47,6 +50,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "2",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -74,6 +80,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "3",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -101,6 +110,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "4",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -128,6 +140,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "5",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -155,6 +170,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "6",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -182,6 +200,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "7",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -209,6 +230,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "8",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -236,6 +260,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "9",
+      "confidence": "C",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -263,6 +290,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "10",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -290,6 +320,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "11",
+      "confidence": "C",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -317,6 +350,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "12",
+      "confidence": "D",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -344,6 +380,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "13",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -371,6 +410,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "14",
+      "confidence": "A",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -398,6 +440,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "15",
+      "confidence": "C",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -425,6 +470,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "16",
+      "confidence": "C",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -452,6 +500,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "17",
+      "confidence": "A",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -479,6 +530,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "18",
+      "confidence": "B",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -506,6 +560,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "19",
+      "confidence": "A",
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -539,6 +596,9 @@
       ],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "20",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -566,6 +626,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "21",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -593,6 +656,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "22",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -620,6 +686,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "23",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -647,6 +716,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "24",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -674,6 +746,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "25",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -701,6 +776,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "26",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -728,6 +806,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "27",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -755,6 +836,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "28",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -782,6 +866,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "29",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -809,6 +896,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "30",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -836,6 +926,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "31",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -863,6 +956,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "32",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -890,6 +986,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "33",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -917,6 +1016,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "34",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -944,6 +1046,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "35",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -971,6 +1076,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "36",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -998,6 +1106,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "37",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1025,6 +1136,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "38",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1052,6 +1166,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "39",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1079,6 +1196,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "40",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1106,6 +1226,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "41",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1133,6 +1256,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "42",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1160,6 +1286,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "43",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1187,6 +1316,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "44",
+      "confidence": "A",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1214,6 +1346,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "45",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1241,6 +1376,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "46",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1268,6 +1406,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "47",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1295,6 +1436,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "48",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1322,6 +1466,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "49",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1349,6 +1496,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "50",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1376,6 +1526,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "51",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1403,6 +1556,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "52",
+      "confidence": "B",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1430,6 +1586,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "53",
+      "confidence": "C",
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -1457,6 +1616,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "54",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1484,6 +1646,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "55",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1511,6 +1676,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "56",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1538,6 +1706,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "57",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "Doc_02 SS3 / Doc_03 SS1.2 correction-text read during sweep adjudication (the corrected qyama-specific Griffith citations)",
@@ -1565,6 +1736,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "58",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1592,6 +1766,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "59",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1619,6 +1796,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "60",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1646,6 +1826,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "61",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 19 Syriac chunks: 10 lexicon Key Sources sections + 9 story front-matter Source lines, diffed against the S2.1 rows with the nearest composite row strings pulled verbatim for adjudication; wrs/migrate/s62_syr_sweep.py)",
@@ -1673,6 +1856,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "62",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_SYR_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
@@ -1700,6 +1886,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "63",
+      "confidence": null,
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_SYR_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
@@ -1727,6 +1916,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "64",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_SYR_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",

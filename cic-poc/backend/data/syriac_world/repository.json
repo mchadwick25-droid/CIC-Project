@@ -3,7 +3,7 @@
   "world_id": "syriac-edessa-nisibis",
   "generated_by": "wrs/views/repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 122,
+  "record_count": 132,
   "records": [
     {
       "id": "srcSYR001",
@@ -3471,6 +3471,598 @@
       "search_text": "\"asceticism in the church of syria: the hermeneutics of early syrian monasticism,\" in asceticism, ed. wimbush/valantasis (oxford up, 1995) srcsyr064 source sidney griffith \"asceticism in the church of syria: the hermeneutics of early syrian monasticism,\" in asceticism, ed. wimbush/valantasis (oxford up, 1995) 1995"
     },
     {
+      "id": "syramb001",
+      "record_type": "ambient",
+      "title": "The Daisan and the flood of 201",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb001",
+        "record_type": "ambient",
+        "title": "The Daisan and the flood of 201",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR021: Chronicle of Edessa (anonymous, composed c. 540s CE, sole surviving ms. Vatican Syriac 163; reports a church destroyed in the 201 CE flood).",
+          "  Author Gravity - Chronicle of Edessa §1: the archive flood report of November 201 - night flood of the Daisan, destruction in the palace of King Abgar, damage to \"the temple of the church of the Christians,\" many deaths. The one detailed civic document of the city's early window.",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": the Daisan's course through the city, its winter-torrent character, the citadel, springs and fish pools - the urban topography this record describes as common life."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb001",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The Daisan and the flood of 201",
+          "ambient_domain": "water-and-flood",
+          "period_note": "The flood is a dated civic event (November 201 CE, from the city archive report the Chronicle of Edessa preserves); the river's character and the city's water-life hold across the whole 200-410 window. The archive report's incidental mention of a Christian meeting-place is carried here only as civic fact - what it implies about the church's early standing is Native-Constitutive ground and lives with the source records, not here.",
+          "sources": [
+            {
+              "source_id": "srcSYR021",
+              "author_gravity_note": "Chronicle of Edessa §1: the archive flood report of November 201 - night flood of the Daisan, destruction in the palace of King Abgar, damage to \"the temple of the church of the Christians,\" many deaths. The one detailed civic document of the city's early window."
+            },
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": the Daisan's course through the city, its winter-torrent character, the citadel, springs and fish pools - the urban topography this record describes as common life."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Edessa lived beside a river with a name that meant \"the Leaper.\" The Daisan skirted the city walls, mild most of the year, and in some winters it rose without warning. The city kept an archive, and one report survived in it: in November of the year 201, after days of rain, the river burst into the sleeping city by night. It tore through the great palace of the king, drowned people in their houses - the report counts the dead in the thousands - and damaged, among the buildings it struck, the meeting-place of the Christians. The city rebuilt; kings dug channels, raised dikes, and set watchmen on the water. Below the citadel hill, springs fed pools of fish that people held in reverence long before and long after any one teacher's lifetime. To live in this city was to live with water that gave gardens and orchards in a dry land, and could take the whole lower town in a night.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about the city itself - its river, walls, weather, or what living in Edessa was physically like",
+              "participant asks about floods, water, or natural disaster in this world"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the daisan and the flood of 201 syramb001 ambient the daisan and the flood of 201 common life of the place, not the teaching of any one voice. edessa lived beside a river with a name that meant \"the leaper.\" the daisan skirted the city walls, mild most of the year, and in some winters it rose without warning. the city kept an archive, and one report survived in it: in november of the year 201, after days of rain, the river burst into the sleeping city by night. it tore through the great palace of the king, drowned people in their houses - the report counts the dead in the thousands - and damaged, among the buildings it struck, the meeting-place of the christians. the city rebuilt; kings dug channels, raised dikes, and set watchmen on the water. below the citadel hill, springs fed pools of fish that people held in reverence long before and long after any one teacher's lifetime. to live in this city was to live with water that gave gardens and orchards in a dry land, and could take the whole lower town in a night."
+    },
+    {
+      "id": "syramb002",
+      "record_type": "ambient",
+      "title": "A caravan city between two empires",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb002",
+        "record_type": "ambient",
+        "title": "A caravan city between two empires",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": the city's site and walls, the citadel with its paired columns, the funerary mosaics of prosperous families, and its position on the east-west routes - the study this record's urban texture rests on.",
+          "srcSYR038: Fergus Millar, The Roman Near East, 31 BC-AD 337 (Harvard UP, 1993).",
+          "  Author Gravity - Millar, The Roman Near East: Edessa's passage from Abgarid client kingdom to Roman colonia; the frontier road system; the mixed civic world of Roman Mesopotamia. Licenses the imperial-administration frame around Segal's city-level detail."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb002",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "A caravan city between two empires",
+          "ambient_domain": "street-and-city",
+          "period_note": "Holds across the whole 200-410 window, with one hinge: Edessa passed from client kingdom to Roman provincial city in the early third century (colonia status under the Severans), so \"the king's city\" is early-window texture and \"the governor's city\" later.",
+          "sources": [
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": the city's site and walls, the citadel with its paired columns, the funerary mosaics of prosperous families, and its position on the east-west routes - the study this record's urban texture rests on."
+            },
+            {
+              "source_id": "srcSYR038",
+              "author_gravity_note": "Millar, The Roman Near East: Edessa's passage from Abgarid client kingdom to Roman colonia; the frontier road system; the mixed civic world of Roman Mesopotamia. Licenses the imperial-administration frame around Segal's city-level detail."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Edessa sat where roads crossed: west over the Euphrates toward Antioch and the Roman sea, east toward Nisibis and the Persian lands. Caravans watered there; the city grew prosperous handling what passed through. A citadel hill stood over the town, crowned with two great columns that could be seen from the plain. Within living memory of this world's first generations, Edessa had its own kings - the house of Abgar - and then the kings were gone and a Roman governor's writ ran instead, with the city restyled a Roman colonia. Wealthy families laid mosaic portraits of themselves in their family tombs, robed and named in the city's own Syriac letters. Walls, gates, marketplaces, gardens fed by the springs and the river - and always the awareness, in both Edessa and Nisibis, that the frontier between the two great powers lay close enough that the roads carrying trade could carry armies the same season.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks where this world was, what the city looked like, or who ruled it",
+              "participant asks about Rome, Persia, or living between empires as everyday experience"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "a caravan city between two empires syramb002 ambient a caravan city between two empires common life of the place, not the teaching of any one voice. edessa sat where roads crossed: west over the euphrates toward antioch and the roman sea, east toward nisibis and the persian lands. caravans watered there; the city grew prosperous handling what passed through. a citadel hill stood over the town, crowned with two great columns that could be seen from the plain. within living memory of this world's first generations, edessa had its own kings - the house of abgar - and then the kings were gone and a roman governor's writ ran instead, with the city restyled a roman colonia. wealthy families laid mosaic portraits of themselves in their family tombs, robed and named in the city's own syriac letters. walls, gates, marketplaces, gardens fed by the springs and the river - and always the awareness, in both edessa and nisibis, that the frontier between the two great powers lay close enough that the roads carrying trade could carry armies the same season."
+    },
+    {
+      "id": "syramb003",
+      "record_type": "ambient",
+      "title": "Nisibis under siege, and the year the city was handed over",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb003",
+        "record_type": "ambient",
+        "title": "Nisibis under siege, and the year the city was handed over",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR004: Ephrem the Syrian, Carmina Nisibena (77 hymns). Ed. Beck, CSCO 218-219 (1961) and 240-241 (1963).",
+          "  Author Gravity - Ephrem, Carmina Nisibena 1-3, 13-21: contemporary witness to the sieges of Nisibis and the city's deliverance, including the river turned against the walls in 350. Cited here ONLY as attestation that these civic events happened and were lived through - the hymns' own theological reading of them belongs to the constitutive register, not to this record.",
+          "srcSYR048: Kyle Smith, Constantine and the Captive Christians of Persia (University of California Press, 2016).",
+          "  Author Gravity - Kyle Smith, Constantine and the Captive Christians of Persia: the Roman-Persian frontier wars of the fourth century, deportations and captives, and the 363 settlement that ceded Nisibis - the historical frame around the sieges."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb003",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Nisibis under siege, and the year the city was handed over",
+          "ambient_domain": "war-and-frontier",
+          "period_note": "Mid-fourth-century texture: three Persian sieges of Nisibis (337/8, 346, 350) and the 363 treaty surrender with the departure of the population. The hymns that witness the sieges are Native-Constitutive voice material; this record carries only the civic experience - walls, water, fear, refugees - as the common life of the frontier towns.",
+          "sources": [
+            {
+              "source_id": "srcSYR004",
+              "author_gravity_note": "Ephrem, Carmina Nisibena 1-3, 13-21: contemporary witness to the sieges of Nisibis and the city's deliverance, including the river turned against the walls in 350. Cited here ONLY as attestation that these civic events happened and were lived through - the hymns' own theological reading of them belongs to the constitutive register, not to this record."
+            },
+            {
+              "source_id": "srcSYR048",
+              "author_gravity_note": "Kyle Smith, Constantine and the Captive Christians of Persia: the Roman-Persian frontier wars of the fourth century, deportations and captives, and the 363 settlement that ceded Nisibis - the historical frame around the sieges."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. In the middle of the fourth century, Nisibis stood siege three times in thirteen years. The townspeople knew the drill of a frontier city: grain stored inside the walls, cisterns guarded, the plain outside given up to the enemy's camp. In the great siege, the besiegers dammed the river and sent its weight against the wall until a breach opened - and still the city did not fall. Then, without a battle, everything changed: after a failed Roman campaign in 363, the peace terms handed Nisibis to Persia, and its people were made to leave. Families packed what could be carried and walked west - to Amida, to Edessa - refugees from a city that had never been taken. Edessa absorbed them. For the rest of this world's window, \"the frontier\" was not a line on anyone's map; it was the memory of columns of neighbors on the road, and the knowledge that a treaty signed far away could empty a home.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about war, sieges, soldiers, or safety as everyday realities",
+              "participant asks what happened to Nisibis or what it was like when the Persians came"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nisibis under siege, and the year the city was handed over syramb003 ambient nisibis under siege, and the year the city was handed over common life of the place, not the teaching of any one voice. in the middle of the fourth century, nisibis stood siege three times in thirteen years. the townspeople knew the drill of a frontier city: grain stored inside the walls, cisterns guarded, the plain outside given up to the enemy's camp. in the great siege, the besiegers dammed the river and sent its weight against the wall until a breach opened - and still the city did not fall. then, without a battle, everything changed: after a failed roman campaign in 363, the peace terms handed nisibis to persia, and its people were made to leave. families packed what could be carried and walked west - to amida, to edessa - refugees from a city that had never been taken. edessa absorbed them. for the rest of this world's window, \"the frontier\" was not a line on anyone's map; it was the memory of columns of neighbors on the road, and the knowledge that a treaty signed far away could empty a home."
+    },
+    {
+      "id": "syramb004",
+      "record_type": "ambient",
+      "title": "Bread, harvest, and the famine years",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb004",
+        "record_type": "ambient",
+        "title": "Bread, harvest, and the famine years",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR034: Joseph P. Amar, The Syriac Vita Tradition of Ephrem the Syrian (CSCO 629-630, Peeters, 2011).",
+          "  Author Gravity - Amar, The Syriac Vita Tradition of Ephrem: the famine of 372-3 at Edessa as the setting of the Vita's relief episode - cited here only for the famine itself as dated civic event (hoarded grain, the poor dying in public, porticoes as shelter appear in that tradition's telling); every claim about the named teacher's part in it stays with syrstory001.",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": the city's agricultural setting - gardens, orchards, rain-fed grain land - and its recurring vulnerability to dearth."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb004",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Bread, harvest, and the famine years",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Rain-fed grain dependence holds across the whole window; the dated instance is the famine at Edessa of 372-3 attested in the Vita tradition. The famous relief story attached to a named teacher in that famine is a STORY record (Native-Constitutive, syrstory001); this record carries only the shared civic experience of dearth, which is what the whole city lived.",
+          "sources": [
+            {
+              "source_id": "srcSYR034",
+              "author_gravity_note": "Amar, The Syriac Vita Tradition of Ephrem: the famine of 372-3 at Edessa as the setting of the Vita's relief episode - cited here only for the famine itself as dated civic event (hoarded grain, the poor dying in public, porticoes as shelter appear in that tradition's telling); every claim about the named teacher's part in it stays with syrstory001."
+            },
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": the city's agricultural setting - gardens, orchards, rain-fed grain land - and its recurring vulnerability to dearth."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The towns of this world ate from the land around them: rain-fed grain from the plain, bread as the meal's center, gardens and orchards watered by spring and river, oil and wine coming in along the roads. That dependence had an edge. When the winter rains failed, the countryside emptied into the cities, and the cities discovered how thin the margin was. In one remembered famine at Edessa, late in this world's window, those with grain held it back while its price climbed, and the poor died in the open - in the streets and under the public porticoes where they sheltered. Relief, when it came, was organized the way everything civic was organized: beds set up, distributions made, the dead buried at common expense. A good year erased none of the memory. Everyone in these towns, whatever their allegiance, knew that bread was the daily question and that a failed sky could turn a city inside out in a season.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what people ate, how they got food, or what happened when harvests failed",
+              "participant asks about poverty, hunger, or how the city treated its poor"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "bread, harvest, and the famine years syramb004 ambient bread, harvest, and the famine years common life of the place, not the teaching of any one voice. the towns of this world ate from the land around them: rain-fed grain from the plain, bread as the meal's center, gardens and orchards watered by spring and river, oil and wine coming in along the roads. that dependence had an edge. when the winter rains failed, the countryside emptied into the cities, and the cities discovered how thin the margin was. in one remembered famine at edessa, late in this world's window, those with grain held it back while its price climbed, and the poor died in the open - in the streets and under the public porticoes where they sheltered. relief, when it came, was organized the way everything civic was organized: beds set up, distributions made, the dead buried at common expense. a good year erased none of the memory. everyone in these towns, whatever their allegiance, knew that bread was the daily question and that a failed sky could turn a city inside out in a season."
+    },
+    {
+      "id": "syramb005",
+      "record_type": "ambient",
+      "title": "Merchants and the road east",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb005",
+        "record_type": "ambient",
+        "title": "Merchants and the road east",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR062: The Acts of Thomas (with the Hymn of the Pearl), early 3rd c., Edessa",
+          "  Author Gravity - Acts of Thomas, opening frame: the merchant Habban buying a carpenter on behalf of an Indian king and sailing east - an Edessene narrative that takes long-distance trade, slave purchase, and craft labor for granted as the furniture of its world. Cited for that assumed furniture only.",
+          "srcSYR038: Fergus Millar, The Roman Near East, 31 BC-AD 337 (Harvard UP, 1993).",
+          "  Author Gravity - Millar, The Roman Near East: the caravan routes of Roman Mesopotamia, frontier exchange between the empires, and Nisibis' role as a designated trading point - the administrative frame for the road-and-caravan texture."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb005",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Merchants and the road east",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Trade texture holds across the window. The Acts of Thomas is an Edessene composition of the early third century - its merchant frame is cited as evidence of the world this storytelling assumed (sea trade to India, the buying and selling of skilled labor), not as history of the apostle; everything the Acts carries as formation material stays constitutive.",
+          "sources": [
+            {
+              "source_id": "srcSYR062",
+              "author_gravity_note": "Acts of Thomas, opening frame: the merchant Habban buying a carpenter on behalf of an Indian king and sailing east - an Edessene narrative that takes long-distance trade, slave purchase, and craft labor for granted as the furniture of its world. Cited for that assumed furniture only."
+            },
+            {
+              "source_id": "srcSYR038",
+              "author_gravity_note": "Millar, The Roman Near East: the caravan routes of Roman Mesopotamia, frontier exchange between the empires, and Nisibis' role as a designated trading point - the administrative frame for the road-and-caravan texture."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. These were trading towns, and everyone lived within earshot of the roads. Caravans came up from the Euphrates crossings and went east through Nisibis toward Persia; in the peace terms between the empires, Nisibis was named a point where the two sides' merchants should meet and trade, so that commerce could be watched and taxed. Silk, spices, and fine goods moved west; coin, cloth, and manufactures moved east. The city's own storytellers took this world of movement for granted: a tale written in Edessa in this period opens, without any need of explanation, with a merchant buying a skilled carpenter on commission for a king in India and taking ship for the east. Travel was slow, bought with silver, and full of risk - but it was ordinary. A townsman might never leave his quarter, yet he handled goods from a month's journey away and heard road-news from farther still.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about trade, merchants, travel, money, or how far people moved",
+              "participant asks how goods or news reached the city, or what lay east of it"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "merchants and the road east syramb005 ambient merchants and the road east common life of the place, not the teaching of any one voice. these were trading towns, and everyone lived within earshot of the roads. caravans came up from the euphrates crossings and went east through nisibis toward persia; in the peace terms between the empires, nisibis was named a point where the two sides' merchants should meet and trade, so that commerce could be watched and taxed. silk, spices, and fine goods moved west; coin, cloth, and manufactures moved east. the city's own storytellers took this world of movement for granted: a tale written in edessa in this period opens, without any need of explanation, with a merchant buying a skilled carpenter on commission for a king in india and taking ship for the east. travel was slow, bought with silver, and full of risk - but it was ordinary. a townsman might never leave his quarter, yet he handled goods from a month's journey away and heard road-news from farther still."
+    },
+    {
+      "id": "syramb006",
+      "record_type": "ambient",
+      "title": "The town household",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb006",
+        "record_type": "ambient",
+        "title": "The town household",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR013: Bnay qyama / bnat qyama institutional attestation within this world's own window: Aphrahat, Demonstration 6 (337 CE, earliest named source) and Ephrem's hymn corpus (bnat qyama performing his madrashe as women's choirs).",
+          "  Author Gravity - The bnay/bnat qyama institutional attestation (Aphrahat, Dem. 6 within it): covenant members living in town households - including the warned-against arrangement of vowed men and women sharing a roof - which is direct evidence of the household setting itself.",
+          "srcSYR032: Susan Ashbrook Harvey, 'Revisiting the Daughters of the Covenant,' Hugoye 8.2 (2005); 'Spoken Words, Voiced Silence,' JECS 9 (2001).",
+          "  Author Gravity - Harvey on the Daughters of the Covenant: women's vowed life lived inside the town and its congregation - service, singing, household residence - the social texture of female covenant membership.",
+          "srcSYR052: Arthur Vööbus, History of Asceticism in the Syrian Orient: A Contribution to the History of Culture in the Near East, CSCO Subsidia 81 (Louvain, 1958-1988).",
+          "  Author Gravity - Vööbus, History of Asceticism in the Syrian Orient: the pre-monastic, in-town character of early Syrian ascetic life - vowed members embedded in households and congregations rather than withdrawn communities."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb006",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The town household",
+          "ambient_domain": "household-and-family",
+          "period_note": "Holds across the window. The qyama as institution - its vow, meaning, and formation weight - is Native-Constitutive (syrlex002 and its sources); this record carries only the MATERIAL shape the sources attest: vowed members living inside ordinary town households among married kin, not in separated communities, through this world's whole window.",
+          "sources": [
+            {
+              "source_id": "srcSYR013",
+              "author_gravity_note": "The bnay/bnat qyama institutional attestation (Aphrahat, Dem. 6 within it): covenant members living in town households - including the warned-against arrangement of vowed men and women sharing a roof - which is direct evidence of the household setting itself."
+            },
+            {
+              "source_id": "srcSYR032",
+              "author_gravity_note": "Harvey on the Daughters of the Covenant: women's vowed life lived inside the town and its congregation - service, singing, household residence - the social texture of female covenant membership."
+            },
+            {
+              "source_id": "srcSYR052",
+              "author_gravity_note": "Vööbus, History of Asceticism in the Syrian Orient: the pre-monastic, in-town character of early Syrian ascetic life - vowed members embedded in households and congregations rather than withdrawn communities."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. There were no monasteries in these towns in this world's window. A household was the ordinary container of every kind of life: married couples and their children, unmarried kin, the old, servants where a family had means - and, woven among them, the men and women under vow. A vowed daughter might keep her father's house her whole life; vowed men lived in the town, worked, and were seen daily in its streets and congregation. The arrangements were close enough to ordinary life that the community's own teachers had to warn against households where vowed men and vowed women shared a roof - a warning that is itself evidence of how embedded in the household world the vowed life was. Women under vow served the congregation and sang; their place was public and audible, inside the town's ordinary week. Family, workshop, congregation, and vow all happened within a few streets of each other, under the same roofs.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how people lived day to day - houses, families, who lived with whom",
+              "participant asks whether the vowed lived in monasteries or apart from their families"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the town household syramb006 ambient the town household common life of the place, not the teaching of any one voice. there were no monasteries in these towns in this world's window. a household was the ordinary container of every kind of life: married couples and their children, unmarried kin, the old, servants where a family had means - and, woven among them, the men and women under vow. a vowed daughter might keep her father's house her whole life; vowed men lived in the town, worked, and were seen daily in its streets and congregation. the arrangements were close enough to ordinary life that the community's own teachers had to warn against households where vowed men and vowed women shared a roof - a warning that is itself evidence of how embedded in the household world the vowed life was. women under vow served the congregation and sang; their place was public and audible, inside the town's ordinary week. family, workshop, congregation, and vow all happened within a few streets of each other, under the same roofs."
+    },
+    {
+      "id": "syramb007",
+      "record_type": "ambient",
+      "title": "Speech, writing, and the city archive",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb007",
+        "record_type": "ambient",
+        "title": "Speech, writing, and the city archive",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": Syriac as the city's own dialect of Aramaic and its script in inscriptions and mosaics; the presence of Greek; schools and letters in the city's life.",
+          "srcSYR020: Doctrina Addai (Abgar-Addai foundation legend).",
+          "  Author Gravity - Doctrina Addai: its narrative appeals to the record-house of Edessa - the city archive - as the place where such accounts were kept. Cited only as evidence that civic record-keeping was a familiar institution the story could lean on; the legend itself is constitutive material.",
+          "srcSYR038: Fergus Millar, The Roman Near East, 31 BC-AD 337 (Harvard UP, 1993).",
+          "  Author Gravity - Millar, The Roman Near East: the documentary bilingualism of Roman Mesopotamia - Syriac alongside Greek in legal and administrative use on this frontier."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb007",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Speech, writing, and the city archive",
+          "ambient_domain": "language-and-school",
+          "period_note": "Holds across the window. What was READ and memorized in Christian teaching - and what that reading meant - is Native-Constitutive; this record carries only the linguistic and documentary environment: the city's own Aramaic, Greek alongside it, writing and archives as civic furniture.",
+          "sources": [
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": Syriac as the city's own dialect of Aramaic and its script in inscriptions and mosaics; the presence of Greek; schools and letters in the city's life."
+            },
+            {
+              "source_id": "srcSYR020",
+              "author_gravity_note": "Doctrina Addai: its narrative appeals to the record-house of Edessa - the city archive - as the place where such accounts were kept. Cited only as evidence that civic record-keeping was a familiar institution the story could lean on; the legend itself is constitutive material."
+            },
+            {
+              "source_id": "srcSYR038",
+              "author_gravity_note": "Millar, The Roman Near East: the documentary bilingualism of Roman Mesopotamia - Syriac alongside Greek in legal and administrative use on this frontier."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The speech of these towns was Aramaic - the local dialect that Edessa's own scribes wrote in a script of their own, the letters that appear under the mosaic portraits in the family tombs. Greek lived alongside it: the language of the western administration, of some commerce and some schooling, so that a legal deed might carry both tongues. Writing was ordinary civic furniture. Edessa kept a record-house, and its people thought of the archive as the natural place where a true account of anything important would be found filed - a story written in this city could send its readers there for confirmation as casually as pointing down a street. Boys who were schooled learned by copying and by memory, aloud; most people met the written word through a reader's voice rather than their own eyes. A city that sang and recited did so from a deep habit: memory was the common book.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what language people spoke or wrote, or whether people could read",
+              "participant asks about schools, archives, letters, or how records were kept"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "speech, writing, and the city archive syramb007 ambient speech, writing, and the city archive common life of the place, not the teaching of any one voice. the speech of these towns was aramaic - the local dialect that edessa's own scribes wrote in a script of their own, the letters that appear under the mosaic portraits in the family tombs. greek lived alongside it: the language of the western administration, of some commerce and some schooling, so that a legal deed might carry both tongues. writing was ordinary civic furniture. edessa kept a record-house, and its people thought of the archive as the natural place where a true account of anything important would be found filed - a story written in this city could send its readers there for confirmation as casually as pointing down a street. boys who were schooled learned by copying and by memory, aloud; most people met the written word through a reader's voice rather than their own eyes. a city that sang and recited did so from a deep habit: memory was the common book."
+    },
+    {
+      "id": "syramb008",
+      "record_type": "ambient",
+      "title": "The Mygdonius, the gardens, and a dated baptistery",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb008",
+        "record_type": "ambient",
+        "title": "The Mygdonius, the gardens, and a dated baptistery",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR022: Nisibis excavated baptistery (securely dated) and reconstructed five-aisled cathedral plan (Kayaalp's own inferential reconstruction from partial remains), datable 313/320-359/360 CE.",
+          "  Author Gravity - The excavated Nisibis baptistery, securely dated by inscription (359/60, under bishop Vologeses), and the reconstructed five-aisled cathedral plan. The source record's own license: citable as secure dated fact WITHOUT qualification.",
+          "srcSYR036: Elif Keser Kayaalp and Nihat Erdoğan, 'The Cathedral Complex at Nisibis,' Anatolian Studies 63 (2013).",
+          "  Author Gravity - Keser Kayaalp and Erdoğan, \"The Cathedral Complex at Nisibis\": the archaeology of the complex - the baptistery's survival, the cathedral's plan and scale in the city's fabric."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb008",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The Mygdonius, the gardens, and a dated baptistery",
+          "ambient_domain": "street-and-city",
+          "period_note": "Nisibis texture, mid-fourth century anchored: the baptistery inscription is securely dated 359/60 CE. What baptism MEANT is Native-Constitutive; this record carries the building, the date, and the watered city as material fact - the one piece of this world's ground a participant can still stand in front of.",
+          "sources": [
+            {
+              "source_id": "srcSYR022",
+              "author_gravity_note": "The excavated Nisibis baptistery, securely dated by inscription (359/60, under bishop Vologeses), and the reconstructed five-aisled cathedral plan. The source record's own license: citable as secure dated fact WITHOUT qualification."
+            },
+            {
+              "source_id": "srcSYR036",
+              "author_gravity_note": "Keser Kayaalp and Erdoğan, \"The Cathedral Complex at Nisibis\": the archaeology of the complex - the baptistery's survival, the cathedral's plan and scale in the city's fabric."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Nisibis drank from the Mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. Inside those walls, in the years just after the great sieges, the Christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 670 of the Greeks - 359 and 360 by our count - under the bishop Vologeses. The building still stands. Beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. A congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. Whatever else changed when the city passed to Persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what Nisibis was like, or what physically survives of this world",
+              "participant asks where the community met, or about church buildings as buildings"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the mygdonius, the gardens, and a dated baptistery syramb008 ambient the mygdonius, the gardens, and a dated baptistery common life of the place, not the teaching of any one voice. nisibis drank from the mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. inside those walls, in the years just after the great sieges, the christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 670 of the greeks - 359 and 360 by our count - under the bishop vologeses. the building still stands. beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. a congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. whatever else changed when the city passed to persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched."
+    },
+    {
+      "id": "syramb009",
+      "record_type": "ambient",
+      "title": "Family tombs and the faces of the dead",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb009",
+        "record_type": "ambient",
+        "title": "Family tombs and the faces of the dead",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": the rock-cut family tombs around the city and their mosaic floors - named family portraits in Syriac lettering, the reclining- banquet and family-group scenes - the city's own funerary culture in its own script."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb009",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Family tombs and the faces of the dead",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Edessa texture, second to fourth century: the funerary mosaics and rock-cut family tombs Segal documents. Christian teaching about death and resurrection is Native-Constitutive; this record carries only the burial customs of the city as shared material culture.",
+          "sources": [
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": the rock-cut family tombs around the city and their mosaic floors - named family portraits in Syriac lettering, the reclining- banquet and family-group scenes - the city's own funerary culture in its own script."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The dead of Edessa lay close to the living. Families cut tomb-chambers into the rock of the hills around the city, and the prosperous floored them with mosaic: father, mother, and children pictured together in their best robes, each figure labeled by name in the city's own lettering, sometimes gathered as if at a banquet couch. A family visited its tomb across generations; burial was a household matter before it was anyone's doctrine, and the chamber in the rock was part of a family's standing, like its house. Mourning was public and audible in the manner of the whole region - the procession, the lament, the gathered kin. Around these customs the city's several communities differed in what they taught about the dead; the rock chambers, the named portraits, and the family gathered to remember were the ground they differed on.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how people buried their dead, mourned, or marked graves",
+              "participant asks about tombs, cemeteries, or what happened when someone died"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "family tombs and the faces of the dead syramb009 ambient family tombs and the faces of the dead common life of the place, not the teaching of any one voice. the dead of edessa lay close to the living. families cut tomb-chambers into the rock of the hills around the city, and the prosperous floored them with mosaic: father, mother, and children pictured together in their best robes, each figure labeled by name in the city's own lettering, sometimes gathered as if at a banquet couch. a family visited its tomb across generations; burial was a household matter before it was anyone's doctrine, and the chamber in the rock was part of a family's standing, like its house. mourning was public and audible in the manner of the whole region - the procession, the lament, the gathered kin. around these customs the city's several communities differed in what they taught about the dead; the rock chambers, the named portraits, and the family gathered to remember were the ground they differed on."
+    },
+    {
+      "id": "syramb010",
+      "record_type": "ambient",
+      "title": "Neighbors of other allegiances",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "syramb010",
+        "record_type": "ambient",
+        "title": "Neighbors of other allegiances",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcSYR020: Doctrina Addai (Abgar-Addai foundation legend).",
+          "  Author Gravity - Doctrina Addai: its polemic names the cults of Edessa - Nebo and Bel among them - cited here only as attestation that these cults were present and publicly practiced in the city the text addresses.",
+          "srcSYR035: J.B. Segal, Edessa, 'The Blessed City' (Oxford, 1970).",
+          "  Author Gravity - Segal, Edessa \"The Blessed City\": the city's pagan cults (the planets, Nebo and Bel, the sacred fish pools), its Jewish community, and the mixed religious life of the streets across the period.",
+          "srcSYR031: Naomi Koltun-Fromm, Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation (Gorgias, 2011); Hermeneutics of Holiness (Oxford, 2010).",
+          "  Author Gravity - Koltun-Fromm, Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: the substantial, established Jewish communities of Mesopotamia as the Christian community's permanent neighbors - cited for their presence and proximity as social fact."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syramb010",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Neighbors of other allegiances",
+          "ambient_domain": "street-and-city",
+          "period_note": "Holds across the window. This record describes the plural RELIGIOUS STREETSCAPE as social fact only. The community's own arguments with these neighbors - against the old gods, with the synagogue, against Marcion, Bardaisan, and Mani - are Native-Constitutive polemic (srcSYR002/007, syrlex010) and are NOT carried here; nothing in this record licenses a formation claim about any of these groups.",
+          "sources": [
+            {
+              "source_id": "srcSYR020",
+              "author_gravity_note": "Doctrina Addai: its polemic names the cults of Edessa - Nebo and Bel among them - cited here only as attestation that these cults were present and publicly practiced in the city the text addresses."
+            },
+            {
+              "source_id": "srcSYR035",
+              "author_gravity_note": "Segal, Edessa \"The Blessed City\": the city's pagan cults (the planets, Nebo and Bel, the sacred fish pools), its Jewish community, and the mixed religious life of the streets across the period."
+            },
+            {
+              "source_id": "srcSYR031",
+              "author_gravity_note": "Koltun-Fromm, Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: the substantial, established Jewish communities of Mesopotamia as the Christian community's permanent neighbors - cited for their presence and proximity as social fact."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. No one in these towns lived only among their own. The old gods kept their temples and their feast days: Nebo and Bel had their worship in Edessa, the planets their devotees, and the fish pools below the citadel their reverence. The Jewish communities of Mesopotamia were old, large, and settled - synagogue, school, and trade standing in the same streets, speaking a sister Aramaic, reading many of the same Scriptures. And the followers of other Christian teachers - of Marcion, of Bardaisan, later of Mani - met in their own gatherings, sometimes larger than any other in a given town. A market day mixed all of them. Neighbors of different allegiances bought from the same stalls, drew the same water, buried their dead in the same hills, and knew one another's festivals by the noise and the smoke. Whatever any community taught inside its own walls, the street itself belonged to everyone and to no one.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks who else lived in the city - pagans, Jews, other sects - as neighbors",
+              "participant asks whether everyone in the city was Christian"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "neighbors of other allegiances syramb010 ambient neighbors of other allegiances common life of the place, not the teaching of any one voice. no one in these towns lived only among their own. the old gods kept their temples and their feast days: nebo and bel had their worship in edessa, the planets their devotees, and the fish pools below the citadel their reverence. the jewish communities of mesopotamia were old, large, and settled - synagogue, school, and trade standing in the same streets, speaking a sister aramaic, reading many of the same scriptures. and the followers of other christian teachers - of marcion, of bardaisan, later of mani - met in their own gatherings, sometimes larger than any other in a given town. a market day mixed all of them. neighbors of different allegiances bought from the same stalls, drew the same water, buried their dead in the same hills, and knew one another's festivals by the noise and the smoke. whatever any community taught inside its own walls, the street itself belonged to everyone and to no one."
+    },
+    {
       "id": "syrclaim001",
       "record_type": "contested_claim",
       "title": "A raza is bound to the shrara it signifies and carries something of that truth's own hi...",
@@ -6712,7 +7304,12 @@
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: corroborating.",
           "Citation: specificity B / unverified.",
-          "Then vs. now: A retrojection gap: the fully developed verse-homily genre is a fifth/sixth-century crystallization (Narsai, Jacob of Serugh), after this world's own 410 boundary, and not attested for Aphrahat at all - this world's own memra is a handful of authenticated Ephrem pieces in a bare metrical form. Standard grounding: genre-history correction, anachronism-guard shaped."
+          "Then vs. now: A retrojection gap: the fully developed verse-homily genre is a fifth/sixth-century crystallization (Narsai, Jacob of Serugh), after this world's own 410 boundary, and not attested for Aphrahat at all - this world's own memra is a handful of authenticated Ephrem pieces in a bare metrical form. Standard grounding: genre-history correction, anachronism-guard shaped.",
+          "The source rows this record stands on:",
+          "srcSYR055: Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in The Cambridge History of Early Christian Literature (2004): 361-372",
+          "  Author Gravity - Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in *The Cambridge History of Early Christian Literature* (2004). Licenses this record's own \"per Brock\" authenticity claim: the six memre \"On Faith\" and the Nicomedia memra definitely Ephrem's, a few others probably or less certainly genuine (period_sense and world_meaning already state this; the source line was missing, not the source - gap closed 2026-08-14, redesign execution step 4).",
+          "srcSYR045: Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). Ed./trans. Joseph Amar, Patrologia Orientalis 47.1 (1995).",
+          "  Author Gravity - Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). The attested post-410 crystallization of the developed verse-homily genre that sense_evolution names - evidence FOR the record's \"not yet a named genre in our window\" boundary, not for in-window usage."
         ],
         "question": [
           "The pre-world sense above is marked UNVERIFIED against a registry source - what would verifying it change?"
@@ -6753,7 +7350,16 @@
             ],
             "force_llm_vote": false
           },
-          "sources": [],
+          "sources": [
+            {
+              "source_id": "srcSYR055",
+              "author_gravity_note": "Sebastian Brock, \"Ephrem and the Syriac Tradition,\" in *The Cambridge History of Early Christian Literature* (2004). Licenses this record's own \"per Brock\" authenticity claim: the six memre \"On Faith\" and the Nicomedia memra definitely Ephrem's, a few others probably or less certainly genuine (period_sense and world_meaning already state this; the source line was missing, not the source - gap closed 2026-08-14, redesign execution step 4)."
+            },
+            {
+              "source_id": "srcSYR045",
+              "author_gravity_note": "Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). The attested post-410 crystallization of the developed verse-homily genre that sense_evolution names - evidence FOR the record's \"not yet a named genre in our window\" boundary, not for in-window usage."
+            }
+          ],
           "original_script": "ܡܐܡܪܐ",
           "period_sense": "Within this world's own 200-410 window, a small, narrowly authenticated set of verse compositions by Ephrem in couplets and single syllabic meter (per Brock: the six memre 'On Faith' and the Nicomedia memra definitely his; a few others probably or less certainly genuine) - not yet the named 'verse homily' genre of later tradition (chunk Quick Meaning and Distortion Risk).",
           "prior_sense": "The ordinary Syriac word for a discourse or utterance is the inherited surface - a builder note, UNVERIFIED against this build's own docs, which treat the term only at genre level (Doc_03 SS1.5).",
@@ -7124,7 +7730,10 @@
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
           "Evidentiary weight: illustrative.",
           "Citation: specificity B / unverified.",
-          "Then vs. now: A dating caution on a compound, not a conceptual gap: the honorific is real and low-controversy as a linguistic fact (Aphrahat called 'Mar Jacob, the Persian sage' in a 510 CE colophon - itself post-window), but the specific compound 'Mar Ephrem' within the window is unconfirmed and may be a later veneration-driven convention. Low grounding: included for runtime recognizability, the chunk says, not because it organizes the ecology."
+          "Then vs. now: A dating caution on a compound, not a conceptual gap: the honorific is real and low-controversy as a linguistic fact (Aphrahat called 'Mar Jacob, the Persian sage' in a 510 CE colophon - itself post-window), but the specific compound 'Mar Ephrem' within the window is unconfirmed and may be a later veneration-driven convention. Low grounding: included for runtime recognizability, the chunk says, not because it organizes the ecology.",
+          "The source rows this record stands on:",
+          "srcSYR010: Aphrahat, Demonstrations 1-23. Ed. Jean Parisot, Patrologia Syriaca I/1-2 (1894, 1907). Trans. Adam Lehto, Gorgias Press, 2010 (complete); also Valavanolickal, Gorgias, 2005.",
+          "  Author Gravity - Aphrahat, Demonstrations (ed. Parisot, PS I/1-2). Licenses the record's one concrete attestation: the 510 CE colophon of the Demonstrations' own manuscript tradition calling Aphrahat \"Mar Jacob, the Persian sage\" (quick_meaning already states this; the source line was missing, not the source - gap closed 2026-08-14, redesign execution step 4). The broader \"broadly attested honorific\" claim rides the corpus-wide emic usage, and the distortion_risk caution (no confirmed \"Mar Ephrem\" within the window) stands unchanged."
         ],
         "question": [],
         "full_record": {
@@ -7162,7 +7771,12 @@
             ],
             "force_llm_vote": false
           },
-          "sources": [],
+          "sources": [
+            {
+              "source_id": "srcSYR010",
+              "author_gravity_note": "Aphrahat, Demonstrations (ed. Parisot, PS I/1-2). Licenses the record's one concrete attestation: the 510 CE colophon of the Demonstrations' own manuscript tradition calling Aphrahat \"Mar Jacob, the Persian sage\" (quick_meaning already states this; the source line was missing, not the source - gap closed 2026-08-14, redesign execution step 4). The broader \"broadly attested honorific\" claim rides the corpus-wide emic usage, and the distortion_risk caution (no confirmed \"Mar Ephrem\" within the window) stands unchanged."
+            }
+          ],
           "original_script": "ܡܪܝ",
           "period_sense": "An honorific title-prefix, 'my lord,' used across Syriac Christianity for bishops, saints, and revered teachers (roughly parallel to 'Saint') - broadly attested for this world, but NOT confirmed as attached to Ephrem's own name during his lifetime (chunk Quick Meaning).",
           "prior_sense": "The ordinary Aramaic address 'my lord' (mar + first-person suffix) - a secular honorific whose ecclesial use is a specialization of everyday deference, per the chunk's own gloss.",
@@ -7178,7 +7792,13 @@
             "evidentiary_weight": "illustrative",
             "formation_confidence": "Widely Accepted"
           },
-          "field_relations": []
+          "field_relations": [
+            {
+              "type": "associated-with",
+              "target_id": "syrlex009",
+              "note": "Same semantic field of leadership address: Mar is the living honorific prefix; Catholicos the later office-title laid back over the same Persian church leadership. Symmetric mirror of syrlex009's edge (gap closed 2026-08-14, redesign execution step 4)."
+            }
+          ]
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
@@ -7301,7 +7921,13 @@
             "evidentiary_weight": "corroborating",
             "formation_confidence": "Contested"
           },
-          "field_relations": [],
+          "field_relations": [
+            {
+              "type": "associated-with",
+              "target_id": "syrlex008",
+              "note": "Same semantic field of leadership address: Mar is the living honorific prefix this world actually spoke for its bishops and revered teachers; Catholicos is the later office-title laid back over the same Persian church leadership (this record's own anachronism flag). Symmetric mirror on syrlex008 (gap closed 2026-08-14, redesign execution step 4)."
+            }
+          ],
           "contested_claim_ids": [
             "syrclaim004"
           ]
@@ -8317,6 +8943,7 @@
         "syrforce2B2"
       ],
       "srcSYR004": [
+        "syramb003",
         "syrforce1A2",
         "syrstory006"
       ],
@@ -8353,6 +8980,7 @@
         "syrlex002",
         "syrlex003",
         "syrlex007",
+        "syrlex008",
         "syrstory009"
       ],
       "srcSYR011": [
@@ -8363,6 +8991,7 @@
         "syrstory009"
       ],
       "srcSYR013": [
+        "syramb006",
         "syrclaim002",
         "syrforce1B2",
         "syrgrav002"
@@ -8372,12 +9001,18 @@
         "syrgrav003"
       ],
       "srcSYR020": [
+        "syramb007",
+        "syramb010",
         "syrstory004"
       ],
       "srcSYR021": [
+        "syramb001",
         "syrforce1A1",
         "syrforce1A2",
         "syrstory002"
+      ],
+      "srcSYR022": [
+        "syramb008"
       ],
       "srcSYR023": [
         "syrforce1A1",
@@ -8408,10 +9043,12 @@
         "syrlex010"
       ],
       "srcSYR031": [
+        "syramb010",
         "syrclaim005",
         "syrlex010"
       ],
       "srcSYR032": [
+        "syramb006",
         "syrclaim002",
         "syrgrav002",
         "syrlex002",
@@ -8422,9 +9059,26 @@
         "syrgrav002",
         "syrlex002"
       ],
+      "srcSYR034": [
+        "syramb004"
+      ],
       "srcSYR035": [
+        "syramb001",
+        "syramb002",
+        "syramb004",
+        "syramb007",
+        "syramb009",
+        "syramb010",
         "syrforce1A1",
         "syrforce1A2"
+      ],
+      "srcSYR036": [
+        "syramb008"
+      ],
+      "srcSYR038": [
+        "syramb002",
+        "syramb005",
+        "syramb007"
       ],
       "srcSYR042": [
         "syrclaim004",
@@ -8446,6 +9100,7 @@
       ],
       "srcSYR045": [
         "syrforce3B2",
+        "syrlex005",
         "syrstory007"
       ],
       "srcSYR046": [
@@ -8454,6 +9109,7 @@
         "syrstory005"
       ],
       "srcSYR048": [
+        "syramb003",
         "syrforce2A1"
       ],
       "srcSYR049": [
@@ -8469,11 +9125,15 @@
         "syrgrav004",
         "syrstory008"
       ],
+      "srcSYR052": [
+        "syramb006"
+      ],
       "srcSYR054": [
         "syrlex004"
       ],
       "srcSYR055": [
-        "syrlex004"
+        "syrlex004",
+        "syrlex005"
       ],
       "srcSYR056": [
         "syrlex002",
@@ -8492,6 +9152,9 @@
       ],
       "srcSYR061": [
         "syrstory008"
+      ],
+      "srcSYR062": [
+        "syramb005"
       ]
     },
     "by_figure": {

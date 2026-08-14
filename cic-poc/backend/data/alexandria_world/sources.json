@@ -20,6 +20,9 @@
       "external_ids": [],
       "transmission_path": "Greek text survives reasonably directly; the Stromateis is textually difficult but not adversarially transmitted.",
       "field_state": null,
+      "registry_row": "1",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -47,6 +50,9 @@
       "external_ids": [],
       "transmission_path": "A large part of his corpus survives only in Latin translation - Rufinus, who softened doctrinally suspect passages, and Jerome, who (after turning against him) quoted him to discredit him. Fine-grained claims about Origen's precise positions must be held with this adversarial/edited transmission in view.",
       "field_state": "contested",
+      "registry_row": "2",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -74,6 +80,9 @@
       "external_ids": [],
       "transmission_path": "Well-transmitted in Greek, with significant Coptic and Syriac witnesses expanding the corpus (Brakke).",
       "field_state": null,
+      "registry_row": "3",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -101,6 +110,9 @@
       "external_ids": [],
       "transmission_path": "Within living memory of its subject; hagiographic conventions (call narrative, temptation sequence, exemplary death) shape the whole.",
       "field_state": "contested",
+      "registry_row": "4",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -128,6 +140,9 @@
       "external_ids": [],
       "transmission_path": "Lost for centuries after his posthumous association with condemned Origenism; recovered only in the 20th century (the Tura find, 1941).",
       "field_state": null,
+      "registry_row": "5",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -155,6 +170,9 @@
       "external_ids": [],
       "transmission_path": "Doubly mediated - his own selection of what to write, then Eusebius's selection of what to preserve; almost nothing survives unmediated.",
       "field_state": null,
+      "registry_row": "6",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -182,6 +200,9 @@
       "external_ids": [],
       "transmission_path": "Direct Greek manuscript transmission, no adversarial translation layer - but the authenticity and dating were questioned by Nautin and reaffirmed by later scholarship (Markschies, Mitchell), so the c. 238 dating is carried with that named caveat.",
       "field_state": null,
+      "registry_row": "7",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -209,6 +230,9 @@
       "external_ids": [],
       "transmission_path": "Jewish, pre-horizon, and absent from the evidence streams.",
       "field_state": null,
+      "registry_row": "8",
+      "confidence": null,
+      "boundary_status": "Excluded",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -236,6 +260,9 @@
       "external_ids": [],
       "transmission_path": "The Greek text survives reasonably directly; the risk is interpretive, not textual - the danger is trusting his construction of institutional order, not a corrupted text.",
       "field_state": "contested",
+      "registry_row": "9",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -263,6 +290,9 @@
       "external_ids": [],
       "transmission_path": "Survives in multiple Greek recensions with live textual scholarship and later editorial accretions - attribution of specific material to Palladius's own witness is not always secure.",
       "field_state": "contested",
+      "registry_row": "10",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -290,6 +320,9 @@
       "external_ids": [],
       "transmission_path": "The collection tradition is well-attested; individual attributions (Antony, Macarius, Poemen, and others, plus anonymous material) carry only moderate confidence.",
       "field_state": "contested",
+      "registry_row": "11",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -317,6 +350,9 @@
       "external_ids": [],
       "transmission_path": "Direct Latin transmission; the interpretive risk is positional, not textual.",
       "field_state": null,
+      "registry_row": "12",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -344,6 +380,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "13",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -371,6 +410,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "14",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -398,6 +440,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "15",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -425,6 +470,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "16",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -452,6 +500,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "17",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -479,6 +530,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "18",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -506,6 +560,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "19",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -533,6 +590,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "20",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -560,6 +620,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "21",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -587,6 +650,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "22",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -614,6 +680,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "23",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -641,6 +710,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "24",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -668,6 +740,9 @@
       "external_ids": [],
       "transmission_path": "Fragmentary, frequently decontextualized, but direct where Christian content is identifiable.",
       "field_state": null,
+      "registry_row": "25",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -695,6 +770,9 @@
       "external_ids": [],
       "transmission_path": "Alexandria's own remains are fragmentary (continuous rebuilding, coastal subsidence); the usable archaeology is elsewhere in Egypt.",
       "field_state": null,
+      "registry_row": "26",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -722,6 +800,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "27",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -749,6 +830,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "28",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -776,6 +860,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "29",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -803,6 +890,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "30",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -830,6 +920,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "31",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -857,6 +950,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "32",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "deployed-chunk Key-Sources sweep (grep over the 45 data/alexandria_world/lexicon_chunks Key Sources sections, diffed against srcALX001-026; wrs/migrate/s62_alx_sweep.py)",
@@ -884,6 +980,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "33",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.4-equivalent quote work (wrs/migrate/s62_alx_s24.py; the CO-P2-08 truthful-translation-row convention)",
@@ -911,6 +1010,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "34",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
@@ -938,6 +1040,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "35",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
@@ -965,6 +1070,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "36",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",
@@ -992,6 +1100,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "37",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S2.1b relative-recall + PRESS check (reviews/S6.2_ALX_s21b_coverage.md) - standard specialist expectations named independently of Doc_02's own list",

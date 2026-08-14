@@ -25,13 +25,44 @@ ID_PATTERN = re.compile(r"#?([A-Za-z]?\d+)")
 
 @lru_cache(maxsize=None)
 def _load_registry(world_id: str) -> dict[str, dict]:
-    """Load and index a world's source registry by row id (cached per world)."""
-    path = settings.get_world_config(world_id).source_registry_path
-    if not path.exists():
-        return {}
+    """Load and index a world's source registry by row id (cached per world).
 
-    rows = json.loads(path.read_text(encoding="utf-8"))
-    return {row["id"]: row for row in rows}
+    Redesign step 6 (2026-08-14): sources.json (the records-generated FAIR
+    export) is now the preferred backing - it carries every source record,
+    where the frozen source_registry.json extract had fallen behind it
+    (references past its last row silently failed to resolve). Worlds that
+    still ship only source_registry.json keep working unchanged.
+    """
+    cfg = settings.get_world_config(world_id)
+    path = cfg.source_registry_path
+    if path.exists():
+        # a world still shipping the frozen extract keeps its exact
+        # historical behavior, letter-prefixed row ids ("P03") included
+        rows = json.loads(path.read_text(encoding="utf-8"))
+        return {row["id"]: row for row in rows}
+
+    # A world whose registry extract has been retired (Syriac first,
+    # 2026-08-14) resolves from the records-generated FAIR export instead -
+    # which carries EVERY source record, where the frozen extract had
+    # fallen behind (references past its last row silently failed).
+    fair = cfg.data_path / "sources.json"
+    if not fair.exists():
+        return {}
+    data = json.loads(fair.read_text(encoding="utf-8"))
+    indexed = {}
+    for row in data.get("sources") or []:
+        key = row.get("registry_row")
+        if key:
+            # keep the resolver's historical row shape on top of the FAIR
+            # fields so every existing consumer keeps reading the keys it
+            # always read
+            indexed[str(key)] = {
+                **row,
+                "id": str(key),
+                "source": row.get("work_title"),
+                "type": row.get("source_type"),
+            }
+    return indexed
 
 
 def extract_referenced_ids(text: str) -> list[str]:

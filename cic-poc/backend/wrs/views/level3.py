@@ -51,7 +51,7 @@ def _title(rec: dict) -> str:
     rt = rec.get("record_type")
     if rt == "term":
         return rec.get("term", rec.get("id", ""))
-    if rt == "story":
+    if rt in ("story", "ambient"):
         return rec.get("title", rec.get("id", ""))
     if rt == "quote":
         return f"Saying - {rec.get('locus', rec.get('id', ''))}"
