@@ -113,6 +113,7 @@ field_relations:
 - type: presupposed-by
   target_id: syrlex010
   note: Mirror of syrlex010's presupposes edge (the anti-Jewish subset presupposes the corpus).
+chunk_slug: tahwyata
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex003_tahwyata.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

@@ -15,6 +15,8 @@ WORLDS = {
         "craft_id": "syrcraft001",
         "prompt_filename": "syr_Representative_Permanent_Prompt_Yausep.txt",
         "capsule_filename": "syr_World_Capsule_Core.md",
+        "capsule_display_name": "Syriac",
+        "world_code": "syr",
         "rebuilt": True,
     },
 }

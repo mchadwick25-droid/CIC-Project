@@ -108,6 +108,7 @@ field_relations:
     typological reading.'
 contested_claim_ids:
 - syrclaim003
+chunk_slug: ewangeliyon-da-mhallete
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex006_ewangeliyon-da-mhallete.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

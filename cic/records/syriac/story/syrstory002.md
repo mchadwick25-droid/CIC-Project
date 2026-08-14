@@ -77,6 +77,7 @@ sources:
   locus: Chronicle of Edessa, entry for Seleucid year 513 (201 CE). Ed. Ignatius Guidi, "Chronicon Edessenum,"
     Chronica Minora I, CSCO Scriptores Syri ser. 3, vol. 4 (1903); Eng. trans. B.H. Cowper, Journal of
     Sacred Literature, n.s. vol. 5 (1864/65), 28-45.
+chunk_slug: edessa-flood-201
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory002_edessa-flood-201.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

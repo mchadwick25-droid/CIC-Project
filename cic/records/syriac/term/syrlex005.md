@@ -76,6 +76,7 @@ field_relations:
   target_id: syrlex004
   note: Sister verse genre, distinguished by meter and - for madrasha - sung/refrain structure against
     memra's recited couplets (chunk Reciprocity Note); symmetric mirror of syrlex004's edge.
+chunk_slug: memra
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex005_memra.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

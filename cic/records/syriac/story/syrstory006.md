@@ -67,6 +67,7 @@ sources:
 - source_id: srcSYR004
   locus: Theodoret of Cyrrhus, Historia Ecclesiastica II.26/30 and Historia Religiosa I (5th c.); corroborating
     detail from Ephrem's own Carmina Nisibena, ed. Edmund Beck, CSCO 218-219 (1961)
+chunk_slug: jacob-nisibis-deliverance
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory006_jacob-nisibis-deliverance.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

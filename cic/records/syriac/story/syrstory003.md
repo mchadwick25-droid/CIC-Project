@@ -87,6 +87,7 @@ gravity_links:
     is also a modest point about authority among us: Jacob''s standing as bishop is, in this one case,
     unusually well attested from outside, in contrast to the ambiguity around Aphrahat''s. That contrast is
     worth keeping rather than flattening.'
+chunk_slug: jacob-nisibis-nicaea
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory003_jacob-nisibis-nicaea.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

@@ -111,6 +111,7 @@ gravity_links:
     hymn-writers also produced a deacon who set aside his own retreat to feed a starving city. It is one of
     the few places where our communal life reaches the ordinary and destitute directly - a people otherwise
     almost absent from what survives.'
+chunk_slug: ephrem-famine-death
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory001_ephrem-famine-death.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

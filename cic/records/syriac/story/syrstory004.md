@@ -99,6 +99,7 @@ gravity_links:
     ourselves to Antioch''s apostolic line rather than resting on Addai alone. Even our most confident claim
     to legitimacy resolves itself by reaching outward. That never-quite-self-sufficient pattern runs through
     our whole span, not only through this legend.'
+chunk_slug: doctrina-addai
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory004_doctrina-addai.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

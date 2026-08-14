@@ -84,6 +84,7 @@ gravity_links:
   note: Named in the same FEC (full text on this record's first gravity link).
 - gravity_id: syrgrav005
   note: Named in the same FEC (full text on this record's first gravity link).
+chunk_slug: typical-qyama-worship
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory009_typical-qyama-worship.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 

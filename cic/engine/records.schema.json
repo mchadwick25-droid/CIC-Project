@@ -148,6 +148,7 @@
       "allOf": [{"$ref": "#/$defs/envelope"}],
       "properties": {
         "record_type": {"const": "term"},
+        "chunk_slug": {"type": "string", "$comment": "clean-room rebuild (2026-08-14): the deployed chunk filename's slug half - the record's own retrieval-file identity, captured as data so the one generic chunk builder needs no deployed directory to name its files"},
         "term": {"type": "string"},
         "aliases": {"type": "array", "items": {"type": "string"}},
         "alias_generic_override_note": {"type": "string", "$comment": "VG-1b (Voice-Governance Addendum SS5.6): term-level documented exception for deliberately-generic aliases (the bare Death/Christ/Prayer class) - names which alias(es) and why; the alias-safety gate REPORTS it, never silently excludes the term. Term-level by design: aliases is array<string> with no per-item slot, and promoting it would be the frozen-world sweep SS7 forbids."},
@@ -186,6 +187,7 @@
       "allOf": [{"$ref": "#/$defs/envelope"}],
       "properties": {
         "record_type": {"const": "story"},
+        "chunk_slug": {"type": "string", "$comment": "clean-room rebuild (2026-08-14): the deployed chunk filename's slug half - the record's own retrieval-file identity, captured as data so the one generic chunk builder needs no deployed directory to name its files"},
         "title": {"type": "string"},
         "narrative_tier": {
           "type": "object",

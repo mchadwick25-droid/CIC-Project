@@ -124,6 +124,7 @@ field_relations:
   target_id: syrlex005
   note: Sister verse genres, distinguished by meter, occasion of use, and memra's later genre-crystallization
     caveat (both chunks' Reciprocity Notes attest the pair) - association, no hierarchy.
+chunk_slug: madrasha
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex004_madrasha.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

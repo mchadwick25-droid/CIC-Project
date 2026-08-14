@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+"""The clean system's ONE capsule builder, for every world.
+
+Carried from the old tree's proven per-world capsule assembler (its
+capsule half; the 'generated prompt' half was superseded by the segment
+assembly in build_prompt.py and stays behind). World-generic: ids and
+the display name come from the world table.
+
+  python cic/engine/build_capsule.py --world syriac
+  python cic/engine/build_capsule.py --world syriac --parity DEPLOYED.md
+"""
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(HERE))
+
+from build_prompt import load_records  # noqa: E402
+from worlds import WORLDS  # noqa: E402
+
+APPARATUS = re.compile(
+    r"\s*\((?:[^)]*(?:Doc_|SS\d|Phase\s?\d|CO-0|CO-P2|Article\s?\d|"
+    r"syrlex|syrdemo|syrstory|syrgrav|syrforce|syrclaim|srcSYR|RCF|"
+    r"nodes\.py|Retest|retest|scorer|the S2\.\d|FLAG-\d|"
+    r"Construction Notes|project-lead|the chunk|chunk |deployed prompt|guide parable|deletion test)[^)]*)\)")
+
+
+def voice(text: str) -> str:
+    out = APPARATUS.sub("", text or "")
+    out = re.sub(r"\s{2,}", " ", out)
+    return out.strip()
+
+
+def build_capsule(world_key: str) -> str:
+    w = WORLDS[world_key]
+    records_root = ROOT / "records" / w["records_dir"]
+    terms = load_records(records_root, "term")
+    gravities = load_records(records_root, "gravity")
+    stories = load_records(records_root, "story")
+    core = load_records(records_root, "world_core")[w["world_core_id"]]
+
+    parts = [f"# World Capsule Core - {w['capsule_display_name']} (generated view)"]
+    # Prefer capsule_inhabit and each gravity's capsule_line (the Phase 2
+    # voice fields); fall back to the older fields for any world without
+    # them - carried behavior, unchanged.
+    parts.append("## The World You Inhabit\n\n"
+                 + voice(core.get("capsule_inhabit")
+                         or re.sub(r"^Doc_01 [^:]*: ", "",
+                                   core.get("formation_logic", ""))))
+    order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
+    ranked = sorted((g for g in gravities.values()
+                     if g.get("classification") in order),
+                    key=lambda g: (order[g["classification"]], g["id"]))
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
+    lines = []
+    for g in ranked:
+        line = voice(g.get("capsule_line") or "") or voice(
+            g["six_tests"]["formation"]["verdict"])
+        name = voice(g.get("capsule_name") or "") or re.sub(
+            r"\s*\([^)]*\)", "", voice(g["name"])).strip()
+        lines.append(f"- **{name}** ({PLACE[g['classification']]}): {line}")
+    parts.append("## What Organizes Everything\n\n" + "\n".join(lines))
+    vs_lines = []
+    for tid in sorted(terms):
+        t = terms[tid]
+        if (t.get("retrieval") or {}).get("tier") in (1, 2):
+            vs_lines.append(f"**{t['term']}** - {voice(t['quick_meaning'])}")
+    parts.append("## The World's Own Words\n\n" + "\n\n".join(vs_lines))
+    st_lines = []
+    for sid in sorted(stories):
+        s = stories[sid]
+        vsurf = s.get("voice_surface", "").split(" Usage guidance")[0]
+        st_lines.append(f"- {voice(s.get('title', ''))}: {voice(vsurf)}")
+    parts.append("## What We Tell\n\n" + "\n".join(st_lines))
+    return "\n\n".join(parts) + "\n"
+
+
+def main() -> int:
+    p = argparse.ArgumentParser()
+    p.add_argument("--world", required=True, choices=sorted(WORLDS))
+    p.add_argument("--parity", help="deployed capsule file to byte-compare against")
+    args = p.parse_args()
+    capsule = build_capsule(args.world)
+    out_dir = ROOT / "deploy" / args.world
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / WORLDS[args.world]["capsule_filename"]
+    out.write_text(capsule, encoding="utf-8", newline="\n")
+    print(f"wrote {out}")
+    if args.parity:
+        deployed = Path(args.parity).read_text(encoding="utf-8")
+        if capsule == deployed:
+            print("PARITY: byte-identical to deployed")
+            return 0
+        print("PARITY: FAIL - built capsule differs from deployed")
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

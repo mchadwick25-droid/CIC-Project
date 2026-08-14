@@ -85,6 +85,7 @@ gravity_links:
     rather than break, and remembered a companion''s return to faith at the very moment of highest cost.
     Gushtazad''s turning back renders in story exactly what our vocabulary elsewhere describes abstractly -
     a return to undivided standing under the gravest pressure there is.'
+chunk_slug: martyrdom-simeon-bar-sabbae
 ---
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory005_martyrdom-simeon-bar-sabbae.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
