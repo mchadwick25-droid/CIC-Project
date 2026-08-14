@@ -31,7 +31,11 @@ WORLDS = [
     },
     {
         "world_id": "syriac-edessa-nisibis",
-        "file": "World-Builds/Syriac-Christianity-Edessa-Nisibis/Guided_Starters_V0_1_DRAFT.md",
+        # Document-set redesign step 2 (2026-08-14): the starters document's
+        # canonical home is now a record; the body is the draft verbatim, so
+        # parsing is unchanged. Other worlds migrate the same way at their turn.
+        "file": "cic-poc/backend/wrs/records/syriac_world/guided_starters/syrstarters001.md",
+        "record": True,
     },
     {
         "world_id": "imperial-juridical-christianity",
@@ -131,6 +135,10 @@ def main():
     for w in WORLDS:
         path = REPO / w["file"]
         text = path.read_text(encoding="utf-8")
+        if w.get("record"):
+            # A record home: strip the YAML front-matter fence; the body is
+            # the starters document verbatim.
+            text = text.split("\n---\n", 1)[1]
         # Strip HTML editorial comments before parsing -- they're authoring notes
         # (e.g. rejected-phrasing history for a safety fix), never participant-facing
         # content, and must never leak into follow-up/answer text.

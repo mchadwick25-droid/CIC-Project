@@ -51,7 +51,7 @@
       "properties": {
         "id": {"type": "string", "minLength": 1},
         "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
-        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record"]},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters"]},
         "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
         "register": {"enum": ["emic", "etic", "emic-unavailable"]},
         "confidence": {"$ref": "#/$defs/confidence"},
@@ -519,6 +519,14 @@
           "required": ["text", "status"],
           "additionalProperties": false
         }
+      },
+      "unevaluatedProperties": false
+    },
+    "guided_starters": {
+      "$comment": "Document-set redesign step 2 (2026-08-14): one per world - the Guided Starters document, body verbatim in the record body (the canonical home; scripts/build_guided_starters_json.py parses it into the frontend JSON). Frees the last live World-Builds file dependency.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "guided_starters"}
       },
       "unevaluatedProperties": false
     },
