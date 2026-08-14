@@ -84,18 +84,57 @@ def build_capsule(world_key: str) -> str:
     st_lines = []
     for sid in sorted(stories):
         s = stories[sid]
-        vsurf = s.get("voice_surface", "").split(" Usage guidance")[0]
-        st_lines.append(f"- {voice(s.get('title', ''))}: {voice(vsurf)}")
+        if w.get("capsule_story_style") == "title-only":
+            st_lines.append(f"- {voice(s.get('title', ''))}")
+        else:
+            vsurf = s.get("voice_surface", "").split(" Usage guidance")[0]
+            st_lines.append(f"- {voice(s.get('title', ''))}: {voice(vsurf)}")
     parts.append("## What We Tell\n\n" + "\n".join(st_lines))
     return "\n\n".join(parts) + "\n"
 
+
+
+
+def build_capsule_desert(world_key: str) -> str:
+    """Desert's own capsule shape, carried verbatim from its proven builder:
+    different header order, raw (un-voiced) fields, every term as its
+    voice_surface line, and a Cautions close instead of What We Tell."""
+    w = WORLDS[world_key]
+    records_root = ROOT / "records" / w["records_dir"]
+    core = load_records(records_root, "world_core")[w["world_core_id"]]
+    gravities = load_records(records_root, "gravity")
+    terms = load_records(records_root, "term")
+    parts = [f"# World Capsule Core (generated view) - {w['capsule_display_name']}",
+             "", "## The World You Inhabit", "",
+             str(core.get("capsule_inhabit") or core.get("formation_logic", "")), "",
+             "## What Organizes Everything", ""]
+    order = {"Primary": 0, "Supporting": 1, "Tensional": 2}
+    PLACE = {"Primary": "at the centre", "Supporting": "supporting",
+             "Tensional": "a counter-current"}
+    for g in sorted(gravities.values(),
+                    key=lambda g: (order.get(g.get("classification"), 3), g["id"])):
+        line = g.get("capsule_line") or (
+            f"{g['six_tests']['formation']['verdict']}; "
+            f"{g['six_tests']['explanatory']['verdict']}")
+        place = PLACE.get(g.get("classification"), g.get("classification", ""))
+        parts.append(f"- **{g['name']}** ({place}): {line}")
+    parts += ["", "## The World's Own Words", ""]
+    for t in terms.values():
+        parts.append(f"- {t['term']}: {t.get('voice_surface', '')}")
+    parts += ["", "## Cautions", ""]
+    for c in core.get("cautions", []):
+        parts.append(f"- {c}")
+    return "\n".join(parts) + "\n"
 
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--world", required=True, choices=sorted(WORLDS))
     p.add_argument("--parity", help="deployed capsule file to byte-compare against")
     args = p.parse_args()
-    capsule = build_capsule(args.world)
+    if WORLDS[args.world].get("capsule_style") == "desert":
+        capsule = build_capsule_desert(args.world)
+    else:
+        capsule = build_capsule(args.world)
     out_dir = ROOT / "deploy" / args.world
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / WORLDS[args.world]["capsule_filename"]

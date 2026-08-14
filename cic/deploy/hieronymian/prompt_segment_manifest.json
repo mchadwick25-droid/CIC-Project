@@ -1,0 +1,88 @@
+{
+ "view": "permanent_prompt (clean engine, one builder for every world)",
+ "world_id": "hieronymian-ascetic-literary",
+ "segments": [
+  {
+   "name": "identity_register",
+   "cache_stability": "static",
+   "eviction_priority": 1,
+   "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
+   "chars": 2863,
+   "est_tokens": 715
+  },
+  {
+   "name": "world_ground",
+   "cache_stability": "static",
+   "eviction_priority": 1,
+   "sources": "world_core + gravity records via this world's craft table, world_ground-tagged blocks, in table order; capsule listing NOT folded in (capsule file stays deployed until S6.5)",
+   "chars": 2212,
+   "est_tokens": 553
+  },
+  {
+   "name": "contestation",
+   "cache_stability": "static",
+   "eviction_priority": 2,
+   "sources": "contested_claim records (claim, pressure_response, concedes) via this world's claim_renders - voice craft renders, R-reviewed",
+   "chars": 3658,
+   "est_tokens": 914
+  },
+  {
+   "name": "grounding_anchor",
+   "cache_stability": "static",
+   "eviction_priority": 1,
+   "sources": "this world's craft table (grounding_anchor-tagged wrapper text) + source records (attribution_status = genuine), derived list",
+   "chars": 1679,
+   "est_tokens": 419
+  },
+  {
+   "name": "quick_reach",
+   "cache_stability": "static",
+   "eviction_priority": 2,
+   "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
+   "chars": 2733,
+   "est_tokens": 683
+  },
+  {
+   "name": "demonstrations",
+   "cache_stability": "static",
+   "eviction_priority": 5,
+   "sources": "demonstration records (rubric-selected: canonical strong/partial/weak vocabulary, no weak trait score, or required=true; cap 4, deterministic rank by strong-count desc then record id)",
+   "chars": 5486,
+   "est_tokens": 1371
+  },
+  {
+   "name": "categorical_guards",
+   "cache_stability": "static",
+   "eviction_priority": 1,
+   "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
+   "chars": 1661,
+   "est_tokens": 415
+  },
+  {
+   "name": "session_layer",
+   "cache_stability": "session",
+   "eviction_priority": 3,
+   "sources": "runtime: table composition; priority layer; other seated worlds' term lists",
+   "chars": 0,
+   "est_tokens": 0
+  },
+  {
+   "name": "turn_layer",
+   "cache_stability": "turn",
+   "eviction_priority": 4,
+   "sources": "runtime: retrieval, guidance queue head, reactive guidance, private directive",
+   "chars": 0,
+   "est_tokens": 0
+  }
+ ],
+ "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
+ "budget": {
+  "world_ground_est_tokens": 553,
+  "static_total_est_tokens": 5070
+ },
+ "readability": {
+  "fk_grade": 6.79,
+  "fre": 73.97,
+  "violations": []
+ }
+}

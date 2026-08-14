@@ -1,0 +1,789 @@
+{
+  "view": "sources.json - FAIR export (S5.4, Pass 1 SS5.6)",
+  "world_id": "desert-monasticism",
+  "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
+  "id_scheme": "record ids are stable within this repository (srcDES0nn; referenced by every record's sources[] rows)",
+  "source_count": 26,
+  "sources": [
+    {
+      "id": "srcDES001",
+      "world_id": "desert-monasticism",
+      "work_author": "Athanasius of Alexandria",
+      "work_title": "Life of Antony (Vita Antonii)",
+      "work_locus": "c. 356-362",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "the Greek text survives complete; an early Latin translation (Evagrius of Antioch, not to be confused with Evagrius Ponticus) circulated within a generation and is the version that reached the West, including Augustine. This means most of this world's international reception ran through a translator's hand, not the Greek original - a transmission dependency this document flags rather than assumes away.",
+      "field_state": null,
+      "registry_row": "1",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES002",
+      "world_id": "desert-monasticism",
+      "work_author": "Pachomius / the Pachomian federation",
+      "work_title": "Pachomian corpus - the Rules and the Lives of Pachomius",
+      "work_locus": "4th c.; Rules in Jerome's Latin 404 CE",
+      "edition": null,
+      "translation": null,
+      "language": "cop",
+      "script": "Copt",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "a documented, multi-stage translation chain (Coptic -> Greek -> Jerome's Latin for the Rules; multiple independent Coptic and Greek recensions for the Lives) - each stage a real opportunity for editorial shaping that this world's own most internally-produced textual evidence has already passed through before reaching modern readers.",
+      "field_state": null,
+      "registry_row": "2",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES003",
+      "world_id": "desert-monasticism",
+      "work_author": "Antony (attributed)",
+      "work_title": "The Letters of Antony (seven letters)",
+      "work_locus": "4th c.",
+      "edition": null,
+      "translation": null,
+      "language": "cop",
+      "script": "Copt",
+      "source_type": "P",
+      "attribution_status": "dubium",
+      "external_ids": [],
+      "transmission_path": "transmitted almost entirely through translation (Georgian, Latin, Syriac) with only Greek and Coptic fragments surviving directly - an unusually thin and indirect transmission chain for material this potentially significant, and a genuine limitation on how much weight this document places on it.",
+      "field_state": "contested",
+      "registry_row": "3",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES004",
+      "world_id": "desert-monasticism",
+      "work_author": "Evagrius Ponticus",
+      "work_title": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos",
+      "work_locus": "late 4th c.",
+      "edition": "Praktikos: Antoine and Claire Guillaumont, Traite Pratique, ou Le Moine, 2 vols., Sources Chretiennes 170-171 (Cerf, 1971) - Greek text with facing French translation. Antirrhetikos: Charles-Antoine Fogielman, Antirrhetique, Sources Chretiennes 640 (Cerf, 2024) - Greek critical edition. De Oratione (Chapters on Prayer): transmitted under the pseudonymous 'Nilus' attribution per this row's own transmission_path; its own critical-edition history (Hausherr's reattribution; a Tugwell edition sometimes cited) was NOT independently confirmed this session and is left open rather than asserted.",
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "this is this world's single most dramatic transmission-history case. Following the 553 condemnation, Evagrius's more speculative works survive substantially in Syriac and Armenian translation - traditions unaffected by the Constantinopolitan decision - while his Greek manuscripts frequently transmit several of his ascetic-practical works - the Chapters on Prayer above all ... - under pseudonymous attribution, chiefly to Nilus of Ancyra, and occasionally to Basil or Gregory of Nazianzus. A reader encountering \"Nilus\" in a Byzantine or Athonite manuscript may be reading Evagrius. This is Constitution Article 22's Transmission History dimension in its starkest possible instance for this world.",
+      "field_state": null,
+      "registry_row": "4",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES005",
+      "world_id": "desert-monasticism",
+      "work_author": "anonymous compilers (5th-6th c.)",
+      "work_title": "Apophthegmata Patrum (Sayings of the Desert Fathers)",
+      "work_locus": "oral origins in-window; compiled 5th-6th c.",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": "oral transmission across at least one, likely several, generations before written compilation; the compilers themselves function as a distinct Author Gravity layer (shapers, not merely transcribers) and should be assessed with the Framework's Narrative Source Author Gravity criteria, not treated as a neutral archive.",
+      "field_state": null,
+      "registry_row": "5",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES006",
+      "world_id": "desert-monasticism",
+      "work_author": "Syncletica, Theodora, Sarah (attributed)",
+      "work_title": "The ammas' sayings within the Apophthegmata tradition",
+      "work_locus": "oral origins in-window; compiled 5th-6th c.",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "attributed-later",
+      "external_ids": [],
+      "transmission_path": "identical mechanism to Section 1.5; no independent transmission stream exists for the ammas' material.",
+      "field_state": null,
+      "registry_row": "6",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES007",
+      "world_id": "desert-monasticism",
+      "work_author": "Palladius of Galatia",
+      "work_title": "Lausiac History",
+      "work_locus": "c. 419-420",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": "the Greek original is complicated by an extensive later reception history, including a considerably expanded Latin recension; textual criticism of the Lausiac History's manuscript tradition is itself a specialist field this document has not independently adjudicated.",
+      "field_state": null,
+      "registry_row": "7",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES008",
+      "world_id": "desert-monasticism",
+      "work_author": "anonymous (Mount of Olives community); Rufinus of Aquileia (Latin adaptation)",
+      "work_title": "Historia Monachorum in Aegypto (Greek, c. 394-395) with Rufinus's Latin translation/adaptation (c. 403)",
+      "work_locus": "c. 394-395 / c. 403",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "P",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": "an early and unusually well-documented case - the relationship between the Greek original and Rufinus's Latin version was itself historically disputed (an older view, since superseded, held Rufinus's Latin was the original and the Greek a back-translation); the now-dominant scholarly view ... following C. Butler's philological demonstration, holds the Greek is original and Rufinus's Latin a translation-with-additions.",
+      "field_state": "majority",
+      "registry_row": "8",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES009",
+      "world_id": "desert-monasticism",
+      "work_author": "French and Swiss archaeological teams (Antoine Guillaumont, discovery 1964)",
+      "work_title": "The Kellia excavations (1965-1990)",
+      "work_locus": "site c. 125 km2, 1,500+ structures",
+      "edition": null,
+      "translation": null,
+      "language": "und",
+      "script": null,
+      "source_type": "M",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "9",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "database-search",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES010",
+      "world_id": "desert-monasticism",
+      "work_author": "Paieous, Nepheros, and correspondents (Melitian community, Hipponon)",
+      "work_title": "The Nepheros archive (4th-c. papyrological correspondence)",
+      "work_locus": "4th c., Heracleopolite nome",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": "Grek",
+      "source_type": "M",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "10",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "database-search",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES011",
+      "world_id": "desert-monasticism",
+      "work_author": "unknown (contested Pachomian-proximity theory)",
+      "work_title": "The Nag Hammadi codices (discovered 1945)",
+      "work_locus": "Upper Egypt, near the Pachomian federation's territory",
+      "edition": null,
+      "translation": null,
+      "language": "cop",
+      "script": "Copt",
+      "source_type": "M",
+      "attribution_status": "anonymous",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": "contested",
+      "registry_row": "11",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "database-search",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES012",
+      "world_id": "desert-monasticism",
+      "work_author": "David Brakke",
+      "work_title": "Athanasius and the Politics of Asceticism (Oxford: Clarendon Press, 1995; reissued as Athanasius and Asceticism, Johns Hopkins University Press, 1998); Demons and the Making of the Monk: Spiritual Combat in Early Christianity (Harvard University Press, 2006)",
+      "work_locus": "1995/2006",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "12",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "step0-seed-list",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES013",
+      "world_id": "desert-monasticism",
+      "work_author": "Samuel Rubenson",
+      "work_title": "The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995; originally published with the subtitle Origenist Theology, Monastic Tradition and the Making of a Saint, Lund University Press, 1990)",
+      "work_locus": "1990/1995",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "13",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "step0-seed-list",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES014",
+      "world_id": "desert-monasticism",
+      "work_author": "Douglas Burton-Christie",
+      "work_title": "The Word in the Desert: Scripture and the Quest for Holiness in Early Christian Monasticism (Oxford University Press, 1993)",
+      "work_locus": "1993",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "14",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "step0-seed-list",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES015",
+      "world_id": "desert-monasticism",
+      "work_author": "James Goehring",
+      "work_title": "Ascetics, Society, and the Desert: Studies in Early Egyptian Monasticism (Trinity Press International, 1999)",
+      "work_locus": "1999",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "15",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "database-search",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES016",
+      "world_id": "desert-monasticism",
+      "work_author": "Philip Rousseau",
+      "work_title": "Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985)",
+      "work_locus": "1985",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "16",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES017",
+      "world_id": "desert-monasticism",
+      "work_author": "Graham Gould",
+      "work_title": "The Desert Fathers on Monastic Community (Oxford Early Christian Studies, Oxford University Press, 1993)",
+      "work_locus": "1993",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "17",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "followed from Doc_02 SS1.3's own citation of Gould's counter-position; citation verified against academic.oup.com",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES018",
+      "world_id": "desert-monasticism",
+      "work_author": "Armand Veilleux (trans.)",
+      "work_title": "Pachomian Koinonia, 3 vols. (Cistercian Publications, 1980-1982)",
+      "work_locus": "1980-1982",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "18",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "followed from Doc_02 SS1.2's version-priority debate (Rousseau and Veilleux's differing positions, via Doc_01 SS10); publication verified by web search",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES019",
+      "world_id": "desert-monasticism",
+      "work_author": "Hugo Lundhaug and Lance Jenott",
+      "work_title": "The Monastic Origins of the Nag Hammadi Codices (Mohr Siebeck, 2015)",
+      "work_locus": "2015",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": "contested",
+      "registry_row": "19",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "backward-snowball",
+        "instrument": "followed from Doc_02 SS5.3's named position-holders; verified via Google Books/Semantic Scholar",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES020",
+      "world_id": "desert-monasticism",
+      "work_author": "G.J.M. Bartelink (ed.)",
+      "work_title": "Athanase d'Alexandrie, Vie d'Antoine - introduction, texte critique, traduction, notes et index (Sources Chretiennes 400, Cerf, 1994)",
+      "work_locus": "SC 400, 1994",
+      "edition": null,
+      "translation": null,
+      "language": "fra",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "20",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "field-bibliography",
+        "instrument": "reference-work sweep (critical-edition coverage check for the world's central text); verified against sourceschretiennes.org/collection/sc400 (edition based on ~50 collated manuscripts)",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES021",
+      "world_id": "desert-monasticism",
+      "work_author": "Benedicta Ward (trans.)",
+      "work_title": "The Sayings of the Desert Fathers: The Alphabetical Collection (Mowbray, 1975)",
+      "work_locus": "1975",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "21",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "field-bibliography",
+        "instrument": "reference-work sweep (standard-translation coverage check for the world's central corpus); verified via Cambridge Core review citation",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES022",
+      "world_id": "desert-monasticism",
+      "work_author": "William Harmless",
+      "work_title": "Desert Christians: An Introduction to the Literature of Early Monasticism (Oxford University Press, 2004)",
+      "work_locus": "2004",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "22",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "field-bibliography",
+        "instrument": "reference-work sweep; verified against global.oup.com product page",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES023",
+      "world_id": "desert-monasticism",
+      "work_author": "Derwas J. Chitty",
+      "work_title": "The Desert a City: An Introduction to the Study of Egyptian and Palestinian Monasticism under the Christian Empire (Blackwell, 1966)",
+      "work_locus": "1966",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "23",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "field-bibliography",
+        "instrument": "reference-work sweep; publication corroborated via web references (not publisher-direct)",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES024",
+      "world_id": "desert-monasticism",
+      "work_author": "Ewa Wipszycka",
+      "work_title": "The Second Gift of the Nile: Monks and Monasteries in Late Antique Egypt (JJP Supplement, 2018)",
+      "work_locus": "2018",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "24",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "field-bibliography",
+        "instrument": "reference-work sweep + Coptic Congress preliminary bibliography; citation corroborated via recent scholarly bibliographies",
+        "date": "2026-07-26"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES025",
+      "world_id": "desert-monasticism",
+      "work_author": "this build (CiC World #3 construction)",
+      "work_title": "Build rendering of Arsenius's counsel 'fuge, tace, quiesce' as 'flee, be silent, be still'",
+      "work_locus": "2026 (Doc_09a SS2.2; the assembled Permanent Prompt)",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "M",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "25",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES026",
+      "world_id": "desert-monasticism",
+      "work_author": "John Cassian",
+      "work_title": "De institutis coenobiorum (Institutes); Collationes (Conferences)",
+      "work_locus": "c. 420s (within the world's closing window, Doc_01 SS2.3)",
+      "edition": null,
+      "translation": null,
+      "language": "lat",
+      "script": "Latn",
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "26",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "cited-in-another-row",
+        "instrument": null,
+        "date": null
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    }
+  ]
+}
