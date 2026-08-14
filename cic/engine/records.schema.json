@@ -51,7 +51,7 @@
       "properties": {
         "id": {"type": "string", "minLength": 1},
         "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
-        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters", "ambient"]},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters", "ambient", "craft"]},
         "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
         "register": {"enum": ["emic", "etic", "emic-unavailable"]},
         "confidence": {"$ref": "#/$defs/confidence"},
@@ -533,6 +533,33 @@
         "ambient_domain": {"enum": ["food-and-famine", "water-and-flood", "trade-and-travel", "household-and-family", "street-and-city", "language-and-school", "work-and-money", "war-and-frontier", "sickness-and-death", "calendar-and-festival"], "$comment": "coarse routing facet for coverage review, not a retrieval key"},
         "period_note": {"type": "string", "$comment": "when within the world's window this texture holds, and any drift across it"},
         "retrieval": {"$ref": "#/$defs/retrieval_block"}
+      },
+      "unevaluatedProperties": false
+    },
+    "craft": {
+      "$comment": "Clean-room rebuild (2026-08-14): one per world - the voice craft table as DATA. Each paragraph carries its prompt segment tag; claim_renders maps contested_claim ids to their voiced renders. This is what replaces six per-world assembler modules with one generic engine: the per-world part of a prompt is a record, not code.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "craft"},
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "para": {"type": "integer", "minimum": 1},
+              "segment": {"enum": ["identity_register", "world_ground", "contestation", "grounding_anchor", "quick_reach", "demonstrations", "categorical_guards"]},
+              "role": {"enum": ["open", "close"]},
+              "text": {"type": "string", "minLength": 1}
+            },
+            "required": ["para", "segment", "text"],
+            "additionalProperties": false
+          }
+        },
+        "claim_renders": {
+          "type": "object",
+          "additionalProperties": {"type": "string", "minLength": 1}
+        }
       },
       "unevaluatedProperties": false
     },
