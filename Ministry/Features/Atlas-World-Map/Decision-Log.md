@@ -13,6 +13,137 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-14 (Pass 5) — ERA 10 FROZEN by Mark; census 257→274; the Living-Era Protocol ratified; the ten-era Step-0 build COMPLETE
+
+**Decided (Mark): "freeze what is there"** — which under this project's
+standing convention means apply each gate question's stated lead lean, every
+question carrying one precisely so the ruling is unambiguous. Applied across
+all twelve questions of `CiC_Step0_Era10_V1_0.md` §6, after two review rounds
+(R1: 8 substantial; R2: 9 substantial, its central lesson being that two R1
+fixes had landed in the era doc's prose while the identical defect stayed live
+in the candidate JSON that actually enters the census).
+
+**Q1 — the Living-Era Protocol Addendum V1.0 RATIFIED AND FROZEN**, all six of
+its own §5 sub-questions per their stated leans (the frame and merits-based
+living definition; R1–R2 per-entry A3 with dated own-voice citation; R3's
+CD/CR grades with the validator's confidence vocabulary untouched; R4–R6
+humility, safety, ends and the verified-anchor bar; R7's recency floor; R8–R10
+boundaries and review teeth). Its own header is stamped ratified. The A1.E10
+run had operated under it; ratification at its own gate makes that
+retroactively lawful, and it now governs every Step 0 assessment touching a
+living movement — the census has no successor era to keep era 10 honest, so
+the regime does.
+
+**Q3 — SEVENTEEN candidates entered, IX.33–IX.49; census 257→274.** The
+Mark-mandated fundamentalist–modernist cluster (IX.33 Fundamentalism, IX.34
+the Social Gospel, IX.35 the Mainline Century — the three pieces of Mark's own
+Era-9-gate hesitation, one connected story); the live-session mandates (IX.36
+New Calvinism with R7's recency stated in the open, IX.48 American Orthodoxy,
+IX.49 Hebrew Roots as the weakest of the seventeen, drafted so declining it
+would have been on the record); the banked-flag executions (IX.37 Indonesia
+and IX.38 NE India/Mar Thoma per the Frozen E9 Q3 fork, IX.39 Malankara
+completing the scope note written into Frozen VIII.27, IX.40 Georgia answering
+the E9 gap ruling's own condition, IX.41/IX.42 the two Stone-Campbell wings
+with the third stream disclosed in-row, IX.44 completing Frozen VIII.10's
+charged case); the completeness finds (IX.43 the Black Church in the twentieth
+century — the roster's largest single hole, IX.45 the charismatic renewal,
+IX.46 the WCC, IX.47 the Catholic 1906–1962 segment). **IX.50 (the Christian
+Right / Christian Nationalism current) was HELD — deliberately excluded from
+this pass, pending a separate direct ruling from Mark.** Nothing was pre-wired
+for it: no row, no relations lines, and neither of the IX.24 or IX.33
+disclosure clauses that ride its own question (Q12 held in full). The two
+structural boundary leans were applied: the Frozen-era-9 register rows'
+era-10 segments (LDS/JW/Christian Science/Christadelphians) deferred to
+one-line disclosures at a later gate rather than given rows now, and
+MacArthur/Grace to You placed as named lines in IX.33's continuation lane
+rather than packed into IX.36.
+
+**Q2/Q4/Q5/Q6 — the era's own record.** Tier list and statusWords frozen, with
+the living-era clause the addendum requires: every frozen status on a living
+row now says on its face that it is a dated reading. Dates: the
+era-boundary-is-present reading of the Frozen register-cap convention; the
+eleven-row living/end mismatch classification (3 documented-terminus, 6
+episode-end, 2 unsupported artifact) with its nine rationale writes; IX.15's
+1993 end → present (no such event exists in either research run — the
+addendum's own predicted first case, confirmed); IX.16 start → 1914; IX.17 →
+1929–1993, both ends of a window-fill band replaced; IX.3's end → 1977 on
+Luwum's martyrdom, the one case where a documented event could replace a soft
+decade-end; IX.4's start deepened to the 1880s; IX.10 kept at the 1940s with
+the Girgis material disclosed rather than absorbed; IX.28's end kept with its
+rationale saying plainly that it is a judgment, not a terminus; IX.29's
+31-year overlap acknowledged and kept. Every changed date carries its
+`dateRationale` with the "(Era 10 Freeze, Mark, 2026-08-14)" stamp. Register
+dispositions RECORDED — IX.15 the era's one record-mandated case, staged per
+body, with UPCI's Articles cited by Manual year and **PAW's and ALJC's gaps
+recorded OPEN and named rather than filled**, and its argued `c2:null` counted
+as the criterion's fourteenth live application (a clear by inapplicability).
+The criterion's TENTH through SIXTEENTH live applications recorded in
+ascending roster order — IX.4, IX.5, IX.7, IX.14, IX.15, IX.16, IX.26 — with
+IX.17 the one stated exclusion, and the Frozen VIII.10 completion recorded
+both ways (the finding on IX.44, a one-line closure note on the Frozen row).
+
+**Q7/Q8 — successions and edges.** VIII.11→IX.22, found in the file but
+unlisted in the Frozen E9 record, RATIFIED. Five Frozen-era writes riding
+adoption: VIII.26→IX.37, VIII.27→IX.38, VIII.1→IX.43, VIII.25→IX.46, and the
+VIII.29 re-point (VIII.29→IX.47→IX.23 replacing VIII.29→IX.23 — a Frozen-write
+amendment, named rather than made silently), plus the era-10-internal
+IX.9→IX.48. Both named NOT-writes honored: no VIII.3 chain write (identity
+cannot split two ways), and no VIII.32→IX.27 write — that relation stands as
+kin with its nine-year 1906–1915 seam DISCLOSED, the census-corrected finding
+that overturned the survey's "seamless" reading. Three edges written, census
+21→24: the census's second "in tension with" edge, IX.33↔IX.35, graded
+Documented on both sides' own dated rupture texts (1910 / 1922 / 1923 / 1924),
+with the Social Gospel named inside the note rather than given a second edge;
+and the two VIII.3 'formed' edges to IX.41 and IX.42, both graded Documented
+on the verified 1906 federal-census listing — a grade the Round 2 review
+supplied because the validator requires one on every edge and "left to Mark's
+call" would have written two edges it rejects.
+
+**Q9/Q10/Q11 — the row-level work.** IX.31 (Deconstruction) is the recency
+floor's first live case and it fails the marker's time prong; it is RETAINED
+by Mark's hand-selection with the recency named on the row's own record and
+logged here, on institutionalization legible across independent sources, a
+survived founder-adjacent transition, and this row's unique stake — the map
+here maps its own visitors. The R4 prose sweep's words applied to all thirteen
+flagged rows, including IX.24's `regions[]` coding fix; **the IX.20 stale-line
+replacement text was BANKED and NOT written, exactly as the question
+required** — a Frozen-adjacent touch for whenever that row is next opened. The
+sources[] landing confirmed in its true split shape: the 167 row-keyed items
+onto this era's 32 existing rows, the 44 extra-topic items riding their
+candidates as inline anchors, with X.10's base banked to the MacArthur forward
+flag.
+
+**The one item stopped rather than guessed at: IX.16's row-split lean.** Q5's
+mild lean was to split Iglesia ni Cristo out to its own register row. That is
+not executable as written at this gate — no draft entry for the new row exists
+anywhere in the era's inputs, so applying it would mean inventing a whole
+field set rather than copying one; it would take the census to 275 against
+this gate's own stated 257→274 arithmetic; and it would need an atlasId out of
+the same numbering space IX.50 is being held in. Everything else in Q5 is
+applied, including the per-body floorNote clauses that question says land
+either way. The split is banked forward as a live, un-executed question needing
+a drafted row.
+
+**Verification:** validator 274 movements, 24 edges, 10 eras — 0 errors, 0
+warnings. Counts re-derived directly from the census rather than taken from
+the era doc, whose arithmetic two review rounds had already caught out
+repeatedly.
+
+**This completes the ten-era Step-0 build.** Eras 3–10 are Frozen; the census
+has run 178→274 across this sequence of gates. Era 10 has no successor era to
+bank flags to, which is exactly why the Living-Era Protocol was ratified with
+it: the regime, not a future era run, is what keeps a Frozen reading of a
+living story honest.
+
+**Next action:** Mark's direct ruling on IX.50 (adopt as a Tier-3 row with its
+B2 thinness in its own copy and the IX.33/IX.24 disclosure lines, or no row at
+all with those lines only) → A1.R12 (Eras 1–2 revalidation, carrying the five
+pre-gate chain writes and the Augustine→Geneva edge) → the standing
+maintenance lanes (the seven-era draft-base queue, the CHC9 TOC verification
+debt, the A3 statusWord harmonization backlog, the IX.16 split's drafted row).
+
+---
+
 ## 2026-08-05 (Pass 7, UI 22) — Mobile pinch-zoom rebuilt map-only, ending six rounds on the whole-page-zoom approach
 
 **The report that closed out the whole-page-zoom line:** "the x works
