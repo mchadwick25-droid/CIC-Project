@@ -3,8 +3,484 @@
   "world_id": "post-apostolic-house-church",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 137,
+  "record_count": 145,
   "records": [
+    {
+      "id": "pahcamb001",
+      "record_type": "ambient",
+      "title": "The apartment city",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb001",
+        "record_type": "ambient",
+        "title": "The apartment city",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCS12: Wayne Meeks, The First Urban Christians",
+          "  Author Gravity - Meeks, The First Urban Christians: the social fabric of the cities the movement lived in - insulae, workshops, households, the streets' density.",
+          "srcPAHCS28: L. Michael White, Building God's House in the Roman World",
+          "  Author Gravity - White, Building God's House in the Roman World: what rooms were physically available for meeting - dining rooms, workshops, courtyards - before any purpose-built hall existed."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb001",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The apartment city",
+          "ambient_domain": "street-and-city",
+          "period_note": "Holds across the c. 70-150 window: the urban fabric of the empire's big cities, Rome above all. What the assembly DID in its rooms is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcPAHCS12",
+              "author_gravity_note": "Meeks, The First Urban Christians: the social fabric of the cities the movement lived in - insulae, workshops, households, the streets' density."
+            },
+            {
+              "source_id": "srcPAHCS28",
+              "author_gravity_note": "White, Building God's House in the Roman World: what rooms were physically available for meeting - dining rooms, workshops, courtyards - before any purpose-built hall existed."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The cities of this world were vertical and crowded. Most people rented: a room or two in an apartment block, stairs shared with strangers, a brazier for cooking, water carried up from the street fountain, the noise of neighbors through every wall. Shops and workshops opened onto the street with the family living behind or above the counter. A prosperous household's house - with its dining room and courtyard - was the exception, and the largest such dining room held perhaps a few dozen people reclining or standing close. There were no halls to hire and no quarter of one's own; whatever a group of ordinary people did together, it did in somebody's rented room, somebody's shop, or somebody's house, at the mercy of the landlord and the neighbors' ears.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what the city or people's homes were like",
+              "participant asks where and in what kind of rooms people could meet"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the apartment city pahcamb001 ambient the apartment city common life of the place, not the teaching of any one voice. the cities of this world were vertical and crowded. most people rented: a room or two in an apartment block, stairs shared with strangers, a brazier for cooking, water carried up from the street fountain, the noise of neighbors through every wall. shops and workshops opened onto the street with the family living behind or above the counter. a prosperous household's house - with its dining room and courtyard - was the exception, and the largest such dining room held perhaps a few dozen people reclining or standing close. there were no halls to hire and no quarter of one's own; whatever a group of ordinary people did together, it did in somebody's rented room, somebody's shop, or somebody's house, at the mercy of the landlord and the neighbors' ears."
+    },
+    {
+      "id": "pahcamb002",
+      "record_type": "ambient",
+      "title": "Slaves and freedmen in the household",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb002",
+        "record_type": "ambient",
+        "title": "Slaves and freedmen in the household",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCS35: Jennifer Glancy, Slavery in Early Christianity",
+          "  Author Gravity - Glancy, Slavery in Early Christianity: slavery as the pervasive condition of urban labor and household life in exactly these communities' world.",
+          "srcPAHCS38: Kyle Harper, Demographic estimates of Roman slavery",
+          "  Author Gravity - Demographic scholarship on Roman slavery: the sheer scale - a substantial fraction of the urban population enslaved or freed.",
+          "srcPAHCP05: Hermas (Rome), Shepherd of Hermas",
+          "  Author Gravity - The Shepherd of Hermas: its author a former slave in business after freedom - cited only as attestation that such lives stood inside these congregations."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb002",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Slaves and freedmen in the household",
+          "ambient_domain": "household-and-family",
+          "period_note": "Holds across the window: the empire's household structure as social fact. What the community TAUGHT slaves and masters is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcPAHCS35",
+              "author_gravity_note": "Glancy, Slavery in Early Christianity: slavery as the pervasive condition of urban labor and household life in exactly these communities' world."
+            },
+            {
+              "source_id": "srcPAHCS38",
+              "author_gravity_note": "Demographic scholarship on Roman slavery: the sheer scale - a substantial fraction of the urban population enslaved or freed."
+            },
+            {
+              "source_id": "srcPAHCP05",
+              "author_gravity_note": "The Shepherd of Hermas: its author a former slave in business after freedom - cited only as attestation that such lives stood inside these congregations."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Slavery was the ordinary machinery of these cities. A large share of everyone a person passed in the street was enslaved or had been: household servants, workshop labor, secretaries, nurses, managers of their owners' businesses. Slaves could hold responsibility and money in practice while owning nothing in law; freedmen carried their former owner's name and often kept working in the same trade, some rising to real prosperity. Families were interwoven with it at every level - children raised by enslaved nurses, marriages spanning statuses, a household's slaves present at everything the household did. One of this world's own books was written by a man who had been sold in childhood and freed; nothing about that biography would have surprised any reader. It was how the cities worked.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about slaves, freedmen, or how households were organized",
+              "participant asks who belonged to a household in this world"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "slaves and freedmen in the household pahcamb002 ambient slaves and freedmen in the household common life of the place, not the teaching of any one voice. slavery was the ordinary machinery of these cities. a large share of everyone a person passed in the street was enslaved or had been: household servants, workshop labor, secretaries, nurses, managers of their owners' businesses. slaves could hold responsibility and money in practice while owning nothing in law; freedmen carried their former owner's name and often kept working in the same trade, some rising to real prosperity. families were interwoven with it at every level - children raised by enslaved nurses, marriages spanning statuses, a household's slaves present at everything the household did. one of this world's own books was written by a man who had been sold in childhood and freed; nothing about that biography would have surprised any reader. it was how the cities worked."
+    },
+    {
+      "id": "pahcamb003",
+      "record_type": "ambient",
+      "title": "Before dawn, then the workday",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb003",
+        "record_type": "ambient",
+        "title": "Before dawn, then the workday",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCP07: Pliny the Younger, Pliny the Younger, Letters 10.96-97",
+          "  Author Gravity - Pliny, Letters 10.96: gatherings before daylight on a fixed day, dispersing and reassembling later for ordinary, harmless food - an outside magistrate's dated record of the schedule; everything about the meetings' MEANING stays with this world's own records.",
+          "srcPAHCS12: Wayne Meeks, The First Urban Christians",
+          "  Author Gravity - Meeks, The First Urban Christians: the working lives - trades, shops, patronage hours - that made dawn the only free hour."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb003",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Before dawn, then the workday",
+          "ambient_domain": "work-and-money",
+          "period_note": "Early second century, anchored by an outside official's own report: the meeting hour and the working day around it.",
+          "sources": [
+            {
+              "source_id": "srcPAHCP07",
+              "author_gravity_note": "Pliny, Letters 10.96: gatherings before daylight on a fixed day, dispersing and reassembling later for ordinary, harmless food - an outside magistrate's dated record of the schedule; everything about the meetings' MEANING stays with this world's own records."
+            },
+            {
+              "source_id": "srcPAHCS12",
+              "author_gravity_note": "Meeks, The First Urban Christians: the working lives - trades, shops, patronage hours - that made dawn the only free hour."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The working day owned everyone. Shops opened early; labor was hired by the day at first light; clients waited at patrons' doors in the morning hours; the afternoon ran on until baths and supper. A group of working people who wanted an hour together had to steal it from the edges - and an outside official, reporting what arrested members of such a group told him, recorded exactly that: they met on a fixed day before daylight, went off to the day's business, and came together again later to share ordinary food. Nothing in the schedule would have puzzled any tradesman. Dawn was when free time existed. The empire's cities granted no weekend; a community's calendar had to fit inside a working city's, in the dark hours the workday did not want.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks when and how often people could meet, or about work and trades",
+              "participant asks what an ordinary day looked like for these communities' members"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "before dawn, then the workday pahcamb003 ambient before dawn, then the workday common life of the place, not the teaching of any one voice. the working day owned everyone. shops opened early; labor was hired by the day at first light; clients waited at patrons' doors in the morning hours; the afternoon ran on until baths and supper. a group of working people who wanted an hour together had to steal it from the edges - and an outside official, reporting what arrested members of such a group told him, recorded exactly that: they met on a fixed day before daylight, went off to the day's business, and came together again later to share ordinary food. nothing in the schedule would have puzzled any tradesman. dawn was when free time existed. the empire's cities granted no weekend; a community's calendar had to fit inside a working city's, in the dark hours the workday did not want."
+    },
+    {
+      "id": "pahcamb004",
+      "record_type": "ambient",
+      "title": "Travelers and the open road",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb004",
+        "record_type": "ambient",
+        "title": "Travelers and the open road",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCP01: Anonymous/composite (likely Syria), The Didache",
+          "  Author Gravity - The Didache: its instructions presuppose a steady stream of traveling strangers arriving and needing decisions - cited for the traffic, not the rules.",
+          "srcPAHCS13: Roger Gehring, House Church and Mission",
+          "  Author Gravity - House Church and Mission: travel and hospitality as the movement's connective tissue across cities."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb004",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Travelers and the open road",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Holds across the window: the mobility the community's own manuals legislate for. The RULES for receiving travelers are Native-Constitutive; the traffic is the ambient fact.",
+          "sources": [
+            {
+              "source_id": "srcPAHCP01",
+              "author_gravity_note": "The Didache: its instructions presuppose a steady stream of traveling strangers arriving and needing decisions - cited for the traffic, not the rules."
+            },
+            {
+              "source_id": "srcPAHCS13",
+              "author_gravity_note": "House Church and Mission: travel and hospitality as the movement's connective tissue across cities."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The roads and sea lanes of the empire were busy, and these communities lived on them. Traders, craftsmen following work, couriers, families relocating - ordinary mobility brought a constant traffic of strangers through every city, and a network of small assemblies meant a constant traffic of arriving brothers: a weaver from another province with a letter of introduction, a teacher passing through, someone claiming to be either one. Community manuals of this world legislate for exactly this - how many days a traveler stays, what he may ask for - which is itself the best evidence of how often the knock came. Hospitality was a room, a loaf, and an introduction to work; the empire's roads delivered both guests and news, and every assembly was a node in a web it could not see the whole of.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about travel, roads, or strangers arriving from other cities",
+              "participant asks how scattered communities stayed connected"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "travelers and the open road pahcamb004 ambient travelers and the open road common life of the place, not the teaching of any one voice. the roads and sea lanes of the empire were busy, and these communities lived on them. traders, craftsmen following work, couriers, families relocating - ordinary mobility brought a constant traffic of strangers through every city, and a network of small assemblies meant a constant traffic of arriving brothers: a weaver from another province with a letter of introduction, a teacher passing through, someone claiming to be either one. community manuals of this world legislate for exactly this - how many days a traveler stays, what he may ask for - which is itself the best evidence of how often the knock came. hospitality was a room, a loaf, and an introduction to work; the empire's roads delivered both guests and news, and every assembly was a node in a web it could not see the whole of."
+    },
+    {
+      "id": "pahcamb005",
+      "record_type": "ambient",
+      "title": "Hearing, not reading",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb005",
+        "record_type": "ambient",
+        "title": "Hearing, not reading",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCS37: William Harris, Ancient Literacy",
+          "  Author Gravity - Harris, Ancient Literacy: the era's literacy - a minority skill, concentrated by class and trade.",
+          "srcPAHCS39: Keith Hopkins, Congregational literacy estimate applying Harris to c.100 CE Christian groups",
+          "  Author Gravity - The congregational literacy estimate applying that scholarship to c. 100 CE assemblies: a handful of readers per gathering."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb005",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Hearing, not reading",
+          "ambient_domain": "language-and-school",
+          "period_note": "Holds across the window: literacy rates and reading-aloud as the era's information technology. What was READ is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcPAHCS37",
+              "author_gravity_note": "Harris, Ancient Literacy: the era's literacy - a minority skill, concentrated by class and trade."
+            },
+            {
+              "source_id": "srcPAHCS39",
+              "author_gravity_note": "The congregational literacy estimate applying that scholarship to c. 100 CE assemblies: a handful of readers per gathering."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Most people of this world could not read, and nothing about that was shameful - it was the ordinary condition. Letters, contracts, and books were technologies operated by specialists: a scribe for hire in the forum, a literate slave, the one or two members of an assembly whose trade required letters. Anything written reached the group through a voice - a letter from another city was read aloud to the gathered room, and the reader's stumbling or skill was part of the event. Memory did the work writing does now: sayings, songs, and stories were carried in heads, corrected by the room's older members. Ownership of a book was rare and notable; the community's texts lived less on papyrus than in the hour of hearing them, repeated week after week until everyone held them.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks whether people could read, or how texts and letters were shared",
+              "participant asks how teachings circulated without books in every hand"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "hearing, not reading pahcamb005 ambient hearing, not reading common life of the place, not the teaching of any one voice. most people of this world could not read, and nothing about that was shameful - it was the ordinary condition. letters, contracts, and books were technologies operated by specialists: a scribe for hire in the forum, a literate slave, the one or two members of an assembly whose trade required letters. anything written reached the group through a voice - a letter from another city was read aloud to the gathered room, and the reader's stumbling or skill was part of the event. memory did the work writing does now: sayings, songs, and stories were carried in heads, corrected by the room's older members. ownership of a book was rare and notable; the community's texts lived less on papyrus than in the hour of hearing them, repeated week after week until everyone held them."
+    },
+    {
+      "id": "pahcamb006",
+      "record_type": "ambient",
+      "title": "Burying one another",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb006",
+        "record_type": "ambient",
+        "title": "Burying one another",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCS30: Eric Rebillard, The Care of the Dead in Late Antiquity",
+          "  Author Gravity - Bodel, The Care of the Dead in Late Antiquity: how the cities actually handled death - burial clubs, common pits for the poor, family tombs along the roads.",
+          "srcPAHCS51: Giovanni Battista De Rossi / Joseph Wilpert, Walked-back 1st-century Christian catacomb claims",
+          "  Author Gravity - The walked-back first-century catacomb claims: no separate Christian cemeteries this early - the community's dead lay in the city's ordinary burial landscape."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb006",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Burying one another",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Holds across the window: urban death and burial as shared custom. Christian teaching about the dead is Native-Constitutive; the walked-back catacomb datings keep this record honest about what did NOT yet exist.",
+          "sources": [
+            {
+              "source_id": "srcPAHCS30",
+              "author_gravity_note": "Bodel, The Care of the Dead in Late Antiquity: how the cities actually handled death - burial clubs, common pits for the poor, family tombs along the roads."
+            },
+            {
+              "source_id": "srcPAHCS51",
+              "author_gravity_note": "The walked-back first-century catacomb claims: no separate Christian cemeteries this early - the community's dead lay in the city's ordinary burial landscape."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Death in these cities was frequent, public, and expensive to dignify. Funerals moved through the streets; tombs lined the roads outside every gate, from family monuments to the trench graves of the poor; ordinary tradespeople joined burial clubs that collected dues and guaranteed a member a decent funeral and a niche. There were no Christian cemeteries in this world's window - that came later - so the community's dead lay in the common landscape: a family tomb if the family had one, a club's columbarium, a plain grave. What a poor assembly could do, it did the way any burial club did - dues, hands, and attendance - and being carried to the grave by people who knew your name was, in these cities, a real inheritance to leave.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how the dead were buried or what funerals were like",
+              "participant asks whether Christians had their own cemeteries"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "burying one another pahcamb006 ambient burying one another common life of the place, not the teaching of any one voice. death in these cities was frequent, public, and expensive to dignify. funerals moved through the streets; tombs lined the roads outside every gate, from family monuments to the trench graves of the poor; ordinary tradespeople joined burial clubs that collected dues and guaranteed a member a decent funeral and a niche. there were no christian cemeteries in this world's window - that came later - so the community's dead lay in the common landscape: a family tomb if the family had one, a club's columbarium, a plain grave. what a poor assembly could do, it did the way any burial club did - dues, hands, and attendance - and being carried to the grave by people who knew your name was, in these cities, a real inheritance to leave."
+    },
+    {
+      "id": "pahcamb007",
+      "record_type": "ambient",
+      "title": "The supper table",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb007",
+        "record_type": "ambient",
+        "title": "The supper table",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCP07: Pliny the Younger, Pliny the Younger, Letters 10.96-97",
+          "  Author Gravity - Pliny, Letters 10.96: 'ordinary and harmless food' - an outsider's phrase for the shared meal, cited for the food's ordinariness.",
+          "srcPAHCS12: Wayne Meeks, The First Urban Christians",
+          "  Author Gravity - Meeks, The First Urban Christians: the urban diet and the mechanics of a shared supper in a household room."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb007",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The supper table",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Holds across the window: what 'ordinary food' meant in an urban room. The meal's MEANING is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcPAHCP07",
+              "author_gravity_note": "Pliny, Letters 10.96: 'ordinary and harmless food' - an outsider's phrase for the shared meal, cited for the food's ordinariness."
+            },
+            {
+              "source_id": "srcPAHCS12",
+              "author_gravity_note": "Meeks, The First Urban Christians: the urban diet and the mechanics of a shared supper in a household room."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The food of these gatherings was the food of the city: bread above all, olives, oil, cheese, vegetables in season, salted fish, porridge, watered wine - meat rarely, since meat was festival food and much of the market's meat came from temple sacrifices, which raised its own questions. A shared supper meant everyone bringing what they could to a room with one small hearth: cold food mostly, the host's lamps burning, thirty people's worth of loaves on a table built for a family. An outside official who investigated such meals recorded, with evident anticlimax, that the food was ordinary and harmless. It was. The cities ate simply, and a community's table looked like its neighbors' tables, only more crowded and better shared.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what people ate or what the shared meals were like as meals",
+              "participant asks about food, markets, or meat offered to idols as daily matters"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the supper table pahcamb007 ambient the supper table common life of the place, not the teaching of any one voice. the food of these gatherings was the food of the city: bread above all, olives, oil, cheese, vegetables in season, salted fish, porridge, watered wine - meat rarely, since meat was festival food and much of the market's meat came from temple sacrifices, which raised its own questions. a shared supper meant everyone bringing what they could to a room with one small hearth: cold food mostly, the host's lamps burning, thirty people's worth of loaves on a table built for a family. an outside official who investigated such meals recorded, with evident anticlimax, that the food was ordinary and harmless. it was. the cities ate simply, and a community's table looked like its neighbors' tables, only more crowded and better shared."
+    },
+    {
+      "id": "pahcamb008",
+      "record_type": "ambient",
+      "title": "What the neighbors said",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "pahcamb008",
+        "record_type": "ambient",
+        "title": "What the neighbors said",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcPAHCP08: Tacitus, Tacitus, Annals 15.44",
+          "  Author Gravity - Tacitus, Annals 15.44: the movement as a Roman historian's aside - a 'mischievous superstition' hated for its supposed misanthropy - cited as reputation, not fact.",
+          "srcPAHCP09: Suetonius, Suetonius, Life of Claudius 25.4 / Life of Nero 16.2",
+          "  Author Gravity - Suetonius: the expulsion over 'Chrestus' and the passing slur - the movement as an administrative nuisance in Roman eyes.",
+          "srcPAHCS32: Robert Louis Wilken, The Christians as the Romans Saw Them",
+          "  Author Gravity - Wilken, The Christians as the Romans Saw Them: the whole outside view assembled - what the streets actually thought they knew."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcamb008",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "What the neighbors said",
+          "ambient_domain": "street-and-city",
+          "period_note": "Late first to early second century, anchored by the outside sources themselves: rumor and reputation as street-level fact. This world's ANSWER to the rumors is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcPAHCP08",
+              "author_gravity_note": "Tacitus, Annals 15.44: the movement as a Roman historian's aside - a 'mischievous superstition' hated for its supposed misanthropy - cited as reputation, not fact."
+            },
+            {
+              "source_id": "srcPAHCP09",
+              "author_gravity_note": "Suetonius: the expulsion over 'Chrestus' and the passing slur - the movement as an administrative nuisance in Roman eyes."
+            },
+            {
+              "source_id": "srcPAHCS32",
+              "author_gravity_note": "Wilken, The Christians as the Romans Saw Them: the whole outside view assembled - what the streets actually thought they knew."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. To their neighbors, these assemblies were a rumor. The street knew that certain people met early, would not join the temples' festivals, and called each other brother and sister; from there gossip did its work - talk of secret suppers, of bodies and blood, of a founder executed in a province, of stubbornness that insulted the gods and might draw their anger onto the whole street. Roman writers passed the movement in a line or two: a mischievous superstition, a nuisance over someone called Chrestus, people convicted of hating humankind. None of it was investigation; all of it was reputation. Living in these cities meant living inside that talk - buying from, working beside, and renting from neighbors who had heard things about you, and mostly let it lie until some bad year wanted a cause.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what outsiders or neighbors thought of the community",
+              "participant asks about rumors, gossip, or hostility in daily life"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "what the neighbors said pahcamb008 ambient what the neighbors said common life of the place, not the teaching of any one voice. to their neighbors, these assemblies were a rumor. the street knew that certain people met early, would not join the temples' festivals, and called each other brother and sister; from there gossip did its work - talk of secret suppers, of bodies and blood, of a founder executed in a province, of stubbornness that insulted the gods and might draw their anger onto the whole street. roman writers passed the movement in a line or two: a mischievous superstition, a nuisance over someone called chrestus, people convicted of hating humankind. none of it was investigation; all of it was reputation. living in these cities meant living inside that talk - buying from, working beside, and renting from neighbors who had heard things about you, and mostly let it lie until some bad year wanted a cause."
+    },
     {
       "id": "pahcclaim001",
       "record_type": "contested_claim",
@@ -10200,6 +10676,7 @@
     },
     "by_source": {
       "srcPAHCP01": [
+        "pahcamb004",
         "pahcclaim002",
         "pahccore001",
         "pahcforce1B2",
@@ -10277,6 +10754,7 @@
         "pahcstory012"
       ],
       "srcPAHCP05": [
+        "pahcamb002",
         "pahcclaim003",
         "pahcforce2B1",
         "pahcforce2B2",
@@ -10300,6 +10778,8 @@
         "pahcstory006"
       ],
       "srcPAHCP07": [
+        "pahcamb003",
+        "pahcamb007",
         "pahcclaim004",
         "pahcclaim005",
         "pahccore001",
@@ -10313,12 +10793,14 @@
         "pahcstory004"
       ],
       "srcPAHCP08": [
+        "pahcamb008",
         "pahcforce1A2",
         "pahcforce2A1",
         "pahcgrav003",
         "pahcstory005"
       ],
       "srcPAHCP09": [
+        "pahcamb008",
         "pahcforce2A1",
         "pahcgrav003"
       ],
@@ -10337,6 +10819,38 @@
       ],
       "srcPAHCS05": [
         "pahcforce3B1"
+      ],
+      "srcPAHCS12": [
+        "pahcamb001",
+        "pahcamb003",
+        "pahcamb007"
+      ],
+      "srcPAHCS13": [
+        "pahcamb004"
+      ],
+      "srcPAHCS28": [
+        "pahcamb001"
+      ],
+      "srcPAHCS30": [
+        "pahcamb006"
+      ],
+      "srcPAHCS32": [
+        "pahcamb008"
+      ],
+      "srcPAHCS35": [
+        "pahcamb002"
+      ],
+      "srcPAHCS37": [
+        "pahcamb005"
+      ],
+      "srcPAHCS38": [
+        "pahcamb002"
+      ],
+      "srcPAHCS39": [
+        "pahcamb005"
+      ],
+      "srcPAHCS51": [
+        "pahcamb006"
       ]
     },
     "by_figure": {

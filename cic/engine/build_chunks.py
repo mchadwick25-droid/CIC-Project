@@ -210,9 +210,17 @@ def render_ambient(rec, world_code):
     rw = "; ".join(ret.get("retrieve_when") or [])
     dnrw_items = [d["text"] for d in (ret.get("do_not_retrieve_when") or [])]
     dnrw = "; ".join(dnrw_items) if dnrw_items else "—"
-    regs = "; ".join(
-        f"Source Registry #{int(s['source_id'][6:])}"
-        for s in rec.get("sources") or [])
+    def _reg_cite(sid):
+        # id shapes differ per world: srcSYR021 -> "Source Registry #21";
+        # srcPAHCP03 -> "Registry P03" (the letter-keyed convention its
+        # own resolver rows use). Strip "src" + the alpha world prefix.
+        import re as _re
+        tail = _re.match(r"src[A-Z]+?([A-Z]?\d+)$", sid)
+        token = tail.group(1) if tail else sid
+        if token[0].isalpha():
+            return f"Registry {token}"
+        return f"Source Registry #{int(token)}"
+    regs = "; ".join(_reg_cite(s["source_id"]) for s in rec.get("sources") or [])
     parts = [fm_block([
         ("Ambient-Title", rec.get("title", "")),
         ("World-Code", world_code),

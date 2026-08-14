@@ -55,8 +55,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
-   "chars": 1661,
-   "est_tokens": 415
+   "chars": 2277,
+   "est_tokens": 569
   },
   {
    "name": "session_layer",
@@ -78,11 +78,11 @@
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
   "world_ground_est_tokens": 553,
-  "static_total_est_tokens": 5070
+  "static_total_est_tokens": 5224
  },
  "readability": {
-  "fk_grade": 6.79,
-  "fre": 73.97,
+  "fk_grade": 6.82,
+  "fre": 74.16,
   "violations": []
  }
 }

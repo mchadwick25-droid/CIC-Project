@@ -3,8 +3,460 @@
   "world_id": "hieronymian-ascetic-literary",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 90,
+  "record_count": 98,
   "records": [
+    {
+      "id": "halamb001",
+      "record_type": "ambient",
+      "title": "The great houses of Rome",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb001",
+        "record_type": "ambient",
+        "title": "The great houses of Rome",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL017: Kate Cooper, The Virgin and the Bride (Harvard, 1996/1999)",
+          "  Author Gravity - Clark, The Virgin and the Bride: the aristocratic household - property, marriage strategy, widowhood, the women who controlled great fortunes - as the social world this literature addresses.",
+          "srcHAL015: Stefan Rebenich, Jerome (Routledge, 2002); Hieronymus und sein Kreis (1992)",
+          "  Author Gravity - Rebenich, Jerome and his circle: the prosopography - who these households were, their wealth and connections - as historical frame."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb001",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The great houses of Rome",
+          "ambient_domain": "household-and-family",
+          "period_note": "Late fourth century, Rome: the senatorial household world this circle formed inside. The circle's own choices within it are Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL017",
+              "author_gravity_note": "Clark, The Virgin and the Bride: the aristocratic household - property, marriage strategy, widowhood, the women who controlled great fortunes - as the social world this literature addresses."
+            },
+            {
+              "source_id": "srcHAL015",
+              "author_gravity_note": "Rebenich, Jerome and his circle: the prosopography - who these households were, their wealth and connections - as historical frame."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The households this world moved through were among the richest in the empire: town houses on Rome's hills with reception halls, libraries, and staffs of dozens; estates in several provinces feeding rents to the city; marriages arranged as alliances between fortunes. A widow of such a house controlled real power - property, patronage, dependents - and her remarriage or refusal to remarry was family politics of the first order. Daily life ran on ceremony: the morning greeting of dependents, the litter through the streets, dinners where placement announced rank. Children were raised by nurses and tutors; the silk, the jewels, and the inherited plate were not decoration but the family's standing made visible. Every renunciation this world became famous for was measured against exactly this scale of what was being renounced.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about wealth, great families, or households in Rome",
+              "participant asks what the women of this circle gave up or controlled"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the great houses of rome halamb001 ambient the great houses of rome common life of the place, not the teaching of any one voice. the households this world moved through were among the richest in the empire: town houses on rome's hills with reception halls, libraries, and staffs of dozens; estates in several provinces feeding rents to the city; marriages arranged as alliances between fortunes. a widow of such a house controlled real power - property, patronage, dependents - and her remarriage or refusal to remarry was family politics of the first order. daily life ran on ceremony: the morning greeting of dependents, the litter through the streets, dinners where placement announced rank. children were raised by nurses and tutors; the silk, the jewels, and the inherited plate were not decoration but the family's standing made visible. every renunciation this world became famous for was measured against exactly this scale of what was being renounced."
+    },
+    {
+      "id": "halamb002",
+      "record_type": "ambient",
+      "title": "Making a book",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb002",
+        "record_type": "ambient",
+        "title": "Making a book",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL013: Megan Hale Williams, The Monk and the Book (Chicago, 2006)",
+          "  Author Gravity - Williams, The Monk and the Book: the material production behind this world's scholarship - shorthand writers, copyists, parchment, the costs, the funding of it all as a patronage operation."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb002",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Making a book",
+          "ambient_domain": "work-and-money",
+          "period_note": "Holds across the window: book production as craft and expense. What was WRITTEN is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL013",
+              "author_gravity_note": "Williams, The Monk and the Book: the material production behind this world's scholarship - shorthand writers, copyists, parchment, the costs, the funding of it all as a patronage operation."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. A book in this world was manufactured by hand at real expense. An author of standing dictated to shorthand writers; their tablets went to copyists who produced the fair parchment copy; every further copy meant another copyist's weeks. Parchment, ink, and skilled hands all cost; a scholarly enterprise of any size - with reference texts to consult, in several languages, and secretaries on permanent staff - ran on a patron's money as surely as any workshop. Libraries traveled in crates. Loaning an exemplar for copying was a favor between friends and a known channel for both circulation and sabotage, since a hostile copyist could corrupt as easily as copy. When this world's letters speak of sending a book, they mean an object one household's labor made and another's messenger carried.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how books were made, copied, or paid for",
+              "participant asks about libraries, secretaries, or the labor behind scholarship"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "making a book halamb002 ambient making a book common life of the place, not the teaching of any one voice. a book in this world was manufactured by hand at real expense. an author of standing dictated to shorthand writers; their tablets went to copyists who produced the fair parchment copy; every further copy meant another copyist's weeks. parchment, ink, and skilled hands all cost; a scholarly enterprise of any size - with reference texts to consult, in several languages, and secretaries on permanent staff - ran on a patron's money as surely as any workshop. libraries traveled in crates. loaning an exemplar for copying was a favor between friends and a known channel for both circulation and sabotage, since a hostile copyist could corrupt as easily as copy. when this world's letters speak of sending a book, they mean an object one household's labor made and another's messenger carried."
+    },
+    {
+      "id": "halamb003",
+      "record_type": "ambient",
+      "title": "The road east",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb003",
+        "record_type": "ambient",
+        "title": "The road east",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL001: Jerome, The Epistulae (Letters) of Jerome - incl. Ep. 22 (384, to Eustochium, De virginitate servanda, with the 'Ciceronian, not a Christian' dream); Ep. 46 ('Paula and Eustochium to Marcella' - Widely Accepted as Jerome's own composition in the women's names, per Nautin and Cain); the Marcella correspondence; Ep. 77 (399, obituary for Fabiola); Ep. 107 (to Laeta, on the younger Paula's education); Ep. 108 (404, Epitaphium Sanctae Paulae); Ep. 127 (412, obituary for Marcella, to Principia)",
+          "  Author Gravity - Jerome's letters (the Paula travel material): the actual route - Rome to the East by ship and stages, the holy-places circuit, Egypt extension - cited for the traveling itself.",
+          "srcHAL011: Andrew Cain, Jerome's Epitaph on Paula (OUP, 2013)",
+          "  Author Gravity - Cain, Jerome's Epitaph on Paula: the journey narrative as our fullest itinerary of an aristocratic pilgrimage - ports, stages, escorts, and expenses."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb003",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The road east",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Anchored 380s: the pilgrimage route as this circle's own letters and epitaphs describe traveling it. The MEANING of pilgrimage is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL001",
+              "author_gravity_note": "Jerome's letters (the Paula travel material): the actual route - Rome to the East by ship and stages, the holy-places circuit, Egypt extension - cited for the traveling itself."
+            },
+            {
+              "source_id": "srcHAL011",
+              "author_gravity_note": "Cain, Jerome's Epitaph on Paula: the journey narrative as our fullest itinerary of an aristocratic pilgrimage - ports, stages, escorts, and expenses."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Travel east from Rome meant the sea: down to the port, a ship as the season allowed, island stages across the Aegean, then the Syrian coast and the roads down through Palestine. A great household traveled as a moving establishment - servants, escorts, letters of introduction to bishops and governors along the way, funds arranged through connections. The holy places had become an itinerary with known stations, local guides, and lodgings for the traffic; a devout party might extend into Egypt to see the settlements there. The journey took months and consumed serious money. Pilgrims' parties, traders, imperial couriers, and church business all moved along the same lanes, and a well-connected traveler's arrival in any port was news that ran ahead by letter.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about travel, the journey east, or pilgrimage as travel",
+              "participant asks how people got from Rome to the Holy Land"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the road east halamb003 ambient the road east common life of the place, not the teaching of any one voice. travel east from rome meant the sea: down to the port, a ship as the season allowed, island stages across the aegean, then the syrian coast and the roads down through palestine. a great household traveled as a moving establishment - servants, escorts, letters of introduction to bishops and governors along the way, funds arranged through connections. the holy places had become an itinerary with known stations, local guides, and lodgings for the traffic; a devout party might extend into egypt to see the settlements there. the journey took months and consumed serious money. pilgrims' parties, traders, imperial couriers, and church business all moved along the same lanes, and a well-connected traveler's arrival in any port was news that ran ahead by letter."
+    },
+    {
+      "id": "halamb004",
+      "record_type": "ambient",
+      "title": "Bethlehem outside the church door",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb004",
+        "record_type": "ambient",
+        "title": "Bethlehem outside the church door",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL011: Andrew Cain, Jerome's Epitaph on Paula (OUP, 2013)",
+          "  Author Gravity - Cain, Jerome's Epitaph on Paula: the Bethlehem establishment - monasteries, the hostel for travelers, building on the pilgrim road - as described placement and works.",
+          "srcHAL008: Palladius of Galatia, Lausiac History (the Paula-circle material)",
+          "  Author Gravity - The Lausiac History's Paula-circle material: the settlement at Bethlehem inside the wider Palestinian monastic landscape."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb004",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Bethlehem outside the church door",
+          "ambient_domain": "street-and-city",
+          "period_note": "From the 380s: the small town and its pilgrim economy. What the monasteries WERE - their rule and life - is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL011",
+              "author_gravity_note": "Cain, Jerome's Epitaph on Paula: the Bethlehem establishment - monasteries, the hostel for travelers, building on the pilgrim road - as described placement and works."
+            },
+            {
+              "source_id": "srcHAL008",
+              "author_gravity_note": "The Lausiac History's Paula-circle material: the settlement at Bethlehem inside the wider Palestinian monastic landscape."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Bethlehem in this world's years was a small hill town with one enormous fact: the basilica over the cave, and the pilgrim traffic it drew. The town lived on that traffic - lodgings, guides, sellers of provisions, the road up from the coast delivering parties in season. New establishments rose beside it built with Roman money: houses for vowed men and for vowed women, and a hostel on the road so that travelers, as the founders put it, should not lack the welcome their Lord's own family once lacked there. Around it lay ordinary Judaea: villages, olive terraces, shepherds' hills, Jerusalem an easy ride away with its own far larger pilgrim machinery. Latin, Greek, Syriac, and Aramaic could all be heard in one market. It was a working town that world-famous neighbors had moved into.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what Bethlehem or the Holy Land settlements were like",
+              "participant asks about pilgrims, the holy places, or the town around the monastery"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "bethlehem outside the church door halamb004 ambient bethlehem outside the church door common life of the place, not the teaching of any one voice. bethlehem in this world's years was a small hill town with one enormous fact: the basilica over the cave, and the pilgrim traffic it drew. the town lived on that traffic - lodgings, guides, sellers of provisions, the road up from the coast delivering parties in season. new establishments rose beside it built with roman money: houses for vowed men and for vowed women, and a hostel on the road so that travelers, as the founders put it, should not lack the welcome their lord's own family once lacked there. around it lay ordinary judaea: villages, olive terraces, shepherds' hills, jerusalem an easy ride away with its own far larger pilgrim machinery. latin, greek, syriac, and aramaic could all be heard in one market. it was a working town that world-famous neighbors had moved into."
+    },
+    {
+      "id": "halamb005",
+      "record_type": "ambient",
+      "title": "The social season",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb005",
+        "record_type": "ambient",
+        "title": "The social season",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL001: Jerome, The Epistulae (Letters) of Jerome - incl. Ep. 22 (384, to Eustochium, De virginitate servanda, with the 'Ciceronian, not a Christian' dream); Ep. 46 ('Paula and Eustochium to Marcella' - Widely Accepted as Jerome's own composition in the women's names, per Nautin and Cain); the Marcella correspondence; Ep. 77 (399, obituary for Fabiola); Ep. 107 (to Laeta, on the younger Paula's education); Ep. 108 (404, Epitaphium Sanctae Paulae); Ep. 127 (412, obituary for Marcella, to Principia)",
+          "  Author Gravity - Jerome's Roman letters (the Ep. 22 world): the salutation round, the dinners, the fashionable clergy, the widow's public life - cited for the customs described, never for the letters' verdicts on them.",
+          "srcHAL015: Stefan Rebenich, Jerome (Routledge, 2002); Hieronymus und sein Kreis (1992)",
+          "  Author Gravity - Rebenich: the social mechanics of aristocratic Christian Rome - patronage, visits, and reputation as the frame this circle operated in."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb005",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The social season",
+          "ambient_domain": "calendar-and-festival",
+          "period_note": "Late fourth century, Rome: the aristocratic round this world's letters satirize and navigate. The satire's TARGET-JUDGMENTS are Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL001",
+              "author_gravity_note": "Jerome's Roman letters (the Ep. 22 world): the salutation round, the dinners, the fashionable clergy, the widow's public life - cited for the customs described, never for the letters' verdicts on them."
+            },
+            {
+              "source_id": "srcHAL015",
+              "author_gravity_note": "Rebenich: the social mechanics of aristocratic Christian Rome - patronage, visits, and reputation as the frame this circle operated in."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Aristocratic Rome ran on a social calendar. Mornings began with the salutation - dependents and friends received in rank order; days were paid out in visits, litters crossing the city between houses; dinners were instruments of alliance, with guest lists read as declarations. The churches had joined the round: fashionable congregations, clergy who dined well and knew whose atrium to appear in, funerals and feast days as society events drawing the whole connected world. A great lady's day was public business - her dress, her escort, which widows and virgins gathered in her hall, which teacher read with them. This world's own letters describe that round in merciless detail, precisely because everyone addressed lived inside it and every choice about it was legible to the whole city.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about Roman society, visits, dinners, or the social round",
+              "participant asks how fashionable Christianity looked in the city"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the social season halamb005 ambient the social season common life of the place, not the teaching of any one voice. aristocratic rome ran on a social calendar. mornings began with the salutation - dependents and friends received in rank order; days were paid out in visits, litters crossing the city between houses; dinners were instruments of alliance, with guest lists read as declarations. the churches had joined the round: fashionable congregations, clergy who dined well and knew whose atrium to appear in, funerals and feast days as society events drawing the whole connected world. a great lady's day was public business - her dress, her escort, which widows and virgins gathered in her hall, which teacher read with them. this world's own letters describe that round in merciless detail, precisely because everyone addressed lived inside it and every choice about it was legible to the whole city."
+    },
+    {
+      "id": "halamb006",
+      "record_type": "ambient",
+      "title": "Teaching a child letters",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb006",
+        "record_type": "ambient",
+        "title": "Teaching a child letters",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL001: Jerome, The Epistulae (Letters) of Jerome - incl. Ep. 22 (384, to Eustochium, De virginitate servanda, with the 'Ciceronian, not a Christian' dream); Ep. 46 ('Paula and Eustochium to Marcella' - Widely Accepted as Jerome's own composition in the women's names, per Nautin and Cain); the Marcella correspondence; Ep. 77 (399, obituary for Fabiola); Ep. 107 (to Laeta, on the younger Paula's education); Ep. 108 (404, Epitaphium Sanctae Paulae); Ep. 127 (412, obituary for Marcella, to Principia)",
+          "  Author Gravity - Jerome's letter on a girl's upbringing (the Laeta letter): boxwood or ivory letters as toys, praise for right guesses, learning by play, the nurse's speech shaping the child's - cited for the era's teaching customs the advice adapts."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb006",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Teaching a child letters",
+          "ambient_domain": "language-and-school",
+          "period_note": "Around 400, from a letter of practical advice: the era's literate childrearing as custom. The PROGRAM of sacred formation built on it is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL001",
+              "author_gravity_note": "Jerome's letter on a girl's upbringing (the Laeta letter): boxwood or ivory letters as toys, praise for right guesses, learning by play, the nurse's speech shaping the child's - cited for the era's teaching customs the advice adapts."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Children of the lettered classes learned to read at home, and the methods were domestic and gentle: alphabet letters carved in boxwood or ivory given as toys, named in songs, jumbled and reassembled as a game; a child praised for right guesses and coaxed, not beaten, at that age; writing taught by guiding the small hand over letters cut into a tablet. The nurse mattered - her accent and grammar would become the child's - and households chose her accordingly. A tutor followed for grammar proper, then the established authors. All of it assumed a household with leisure, staff, and books. This world's own advice on raising a girl works entirely with these ordinary tools, redirected to a new curriculum - which is itself evidence of how standard the tools were.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how children learned to read or were educated",
+              "participant asks about nurses, tutors, or childhood in these households"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "teaching a child letters halamb006 ambient teaching a child letters common life of the place, not the teaching of any one voice. children of the lettered classes learned to read at home, and the methods were domestic and gentle: alphabet letters carved in boxwood or ivory given as toys, named in songs, jumbled and reassembled as a game; a child praised for right guesses and coaxed, not beaten, at that age; writing taught by guiding the small hand over letters cut into a tablet. the nurse mattered - her accent and grammar would become the child's - and households chose her accordingly. a tutor followed for grammar proper, then the established authors. all of it assumed a household with leisure, staff, and books. this world's own advice on raising a girl works entirely with these ordinary tools, redirected to a new curriculum - which is itself evidence of how standard the tools were."
+    },
+    {
+      "id": "halamb007",
+      "record_type": "ambient",
+      "title": "Mourning in public",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb007",
+        "record_type": "ambient",
+        "title": "Mourning in public",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL017: Kate Cooper, The Virgin and the Bride (Harvard, 1996/1999)",
+          "  Author Gravity - Clark, The Virgin and the Bride: death, mourning, and commemoration in the senatorial world - the funeral as family theater, the widow's mourning as public status.",
+          "srcHAL010: Andrew Cain, The Letters of Jerome (OUP, 2009)",
+          "  Author Gravity - Cain, The Letters of Jerome: the consolation letter as a working genre - evidence of the mourning customs (crowds, laments, processions) the genre addresses."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb007",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Mourning in public",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Late fourth century, Rome: death and mourning as the great families performed them. Any named death this circle grieved belongs to its own story records.",
+          "sources": [
+            {
+              "source_id": "srcHAL017",
+              "author_gravity_note": "Clark, The Virgin and the Bride: death, mourning, and commemoration in the senatorial world - the funeral as family theater, the widow's mourning as public status."
+            },
+            {
+              "source_id": "srcHAL010",
+              "author_gravity_note": "Cain, The Letters of Jerome: the consolation letter as a working genre - evidence of the mourning customs (crowds, laments, processions) the genre addresses."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Death among the great families of Rome was a public performance. The body lay in state in the house; the funeral procession crossed the city with hired musicians, torches, and the household in mourning dress; the crowd assessed the turnout as frankly as at any games. Women's mourning was expected to be loud - laments, torn hair, the display of grief as the measure of love - and consolation had become a literary industry, with letters of comfort composed for circulation. Commemoration continued the theater: anniversary observances, inscriptions, doles to the poor in the dead's name. A family's dead remained part of its public standing. Every quieter grief this world attempted was conducted in front of that expectation, and judged against it by the whole watching city.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about funerals, mourning, or how death was marked",
+              "participant asks what public grief looked like in Rome"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "mourning in public halamb007 ambient mourning in public common life of the place, not the teaching of any one voice. death among the great families of rome was a public performance. the body lay in state in the house; the funeral procession crossed the city with hired musicians, torches, and the household in mourning dress; the crowd assessed the turnout as frankly as at any games. women's mourning was expected to be loud - laments, torn hair, the display of grief as the measure of love - and consolation had become a literary industry, with letters of comfort composed for circulation. commemoration continued the theater: anniversary observances, inscriptions, doles to the poor in the dead's name. a family's dead remained part of its public standing. every quieter grief this world attempted was conducted in front of that expectation, and judged against it by the whole watching city."
+    },
+    {
+      "id": "halamb008",
+      "record_type": "ambient",
+      "title": "Two tables",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "halamb008",
+        "record_type": "ambient",
+        "title": "Two tables",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcHAL001: Jerome, The Epistulae (Letters) of Jerome - incl. Ep. 22 (384, to Eustochium, De virginitate servanda, with the 'Ciceronian, not a Christian' dream); Ep. 46 ('Paula and Eustochium to Marcella' - Widely Accepted as Jerome's own composition in the women's names, per Nautin and Cain); the Marcella correspondence; Ep. 77 (399, obituary for Fabiola); Ep. 107 (to Laeta, on the younger Paula's education); Ep. 108 (404, Epitaphium Sanctae Paulae); Ep. 127 (412, obituary for Marcella, to Principia)",
+          "  Author Gravity - Jerome's letters: the society dinner described from observation - courses, wines, delicacies - and the ascetic regimen prescribed in detail - bread, vegetables, oil, the fasts - cited for the two tables as material fact.",
+          "srcHAL013: Megan Hale Williams, The Monk and the Book (Chicago, 2006)",
+          "  Author Gravity - Williams, The Monk and the Book: the Bethlehem community's provisioning as a working establishment - the practical table behind the ideal one."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halamb008",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Two tables",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Late fourth century: the banquet table and the ascetic table as the letters describe both. The MEANING of fasting is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcHAL001",
+              "author_gravity_note": "Jerome's letters: the society dinner described from observation - courses, wines, delicacies - and the ascetic regimen prescribed in detail - bread, vegetables, oil, the fasts - cited for the two tables as material fact."
+            },
+            {
+              "source_id": "srcHAL013",
+              "author_gravity_note": "Williams, The Monk and the Book: the Bethlehem community's provisioning as a working establishment - the practical table behind the ideal one."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Rome's banquets were engineering: multiple courses, birds and fish brought at expense, wines vintaged and discussed, the meal built to display the house. Against that table this world set another: bread, garden vegetables, oil, watered wine or none, fish sometimes, meat rarely or never; fasts that skipped meals or days on a fixed calendar, eased for the sick, the old, and the traveling. In Bethlehem the community's table was institutional - regular, plain, provisioned like any establishment feeding many mouths daily, from gardens, markets, and purchased stores. Both tables were real and everyone in this world had eaten at both; the letters can describe a fashionable dinner course by course precisely because their writers had reclined through many before renouncing them.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what people ate, at banquets or under the fasting rule",
+              "participant asks about the practical side of fasting and the community's meals"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "two tables halamb008 ambient two tables common life of the place, not the teaching of any one voice. rome's banquets were engineering: multiple courses, birds and fish brought at expense, wines vintaged and discussed, the meal built to display the house. against that table this world set another: bread, garden vegetables, oil, watered wine or none, fish sometimes, meat rarely or never; fasts that skipped meals or days on a fixed calendar, eased for the sick, the old, and the traveling. in bethlehem the community's table was institutional - regular, plain, provisioned like any establishment feeding many mouths daily, from gardens, markets, and purchased stores. both tables were real and everyone in this world had eaten at both; the letters can describe a fashionable dinner course by course precisely because their writers had reclined through many before renouncing them."
+    },
     {
       "id": "halclaim001",
       "record_type": "contested_claim",
@@ -7032,6 +7484,10 @@
     },
     "by_source": {
       "srcHAL001": [
+        "halamb003",
+        "halamb005",
+        "halamb006",
+        "halamb008",
         "halclaim001",
         "halclaim002",
         "halclaim003",
@@ -7094,6 +7550,9 @@
         "halgrav006",
         "halstory03a"
       ],
+      "srcHAL008": [
+        "halamb004"
+      ],
       "srcHAL009": [
         "halclaim001",
         "halforce2A2",
@@ -7103,6 +7562,7 @@
         "halstory03"
       ],
       "srcHAL010": [
+        "halamb007",
         "halclaim003",
         "halclaim005",
         "halforce2A4",
@@ -7110,12 +7570,18 @@
         "halgrav003",
         "halgrav005"
       ],
+      "srcHAL011": [
+        "halamb003",
+        "halamb004"
+      ],
       "srcHAL012": [
         "halclaim005",
         "halforce1B1",
         "halgrav005"
       ],
       "srcHAL013": [
+        "halamb002",
+        "halamb008",
         "halclaim001",
         "halgrav001"
       ],
@@ -7125,6 +7591,8 @@
         "halforce2A4"
       ],
       "srcHAL015": [
+        "halamb001",
+        "halamb005",
         "halclaim003",
         "halforce1A2",
         "halforce2A1",
@@ -7137,6 +7605,8 @@
         "halgrav006"
       ],
       "srcHAL017": [
+        "halamb001",
+        "halamb007",
         "halclaim002",
         "halforce1A1",
         "halgrav002"

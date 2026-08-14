@@ -3,8 +3,460 @@
   "world_id": "imperial-juridical-christianity",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 91,
+  "record_count": 99,
   "records": [
+    {
+      "id": "ijcamb001",
+      "record_type": "ambient",
+      "title": "Basilicas in the streetscape",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb001",
+        "record_type": "ambient",
+        "title": "Basilicas in the streetscape",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC37: Old St. Peter's Basilica (Constantinian construction)",
+          "  Author Gravity - Old St. Peter's: the Constantinian basilica as construction fact - scale, imperial funding, siting over the cemetery on the Vatican hill.",
+          "srcIJC38: Milan basilica complex (Basilica Nova/Vetus; Basilica Portiana)",
+          "  Author Gravity - The Milan basilica complex: multiple great churches in one late-antique capital's fabric - the buildings this world's own conflicts were fought over, cited as buildings."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb001",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Basilicas in the streetscape",
+          "ambient_domain": "street-and-city",
+          "period_note": "Fourth century onward, anchored by standing archaeology: the buildings as civic fact. What was DONE in them is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC37",
+              "author_gravity_note": "Old St. Peter's: the Constantinian basilica as construction fact - scale, imperial funding, siting over the cemetery on the Vatican hill."
+            },
+            {
+              "source_id": "srcIJC38",
+              "author_gravity_note": "The Milan basilica complex: multiple great churches in one late-antique capital's fabric - the buildings this world's own conflicts were fought over, cited as buildings."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. In this world's cities the church became architecture on an imperial scale. Basilicas rose with public money: halls longer than any temple, marble columns reused from older monuments, gold on the ceilings, forecourts and fountains, whole processional routes organized around them. Rome's great shrine church went up over an old roadside cemetery on the Vatican hill; Milan held several such halls at once, close enough that a person could walk between them in an afternoon. These were the biggest interior spaces most people would ever stand in, and they belonged to the city's daily geography - landmarks for directions, shelter from weather, sites of crowds, employment for builders, mosaicists, and doorkeepers. A child of this world grew up assuming that the church, like the law, came in monumental stone.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what the churches or cities physically looked like",
+              "participant asks about basilicas, buildings, or the scale of church construction"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "basilicas in the streetscape ijcamb001 ambient basilicas in the streetscape common life of the place, not the teaching of any one voice. in this world's cities the church became architecture on an imperial scale. basilicas rose with public money: halls longer than any temple, marble columns reused from older monuments, gold on the ceilings, forecourts and fountains, whole processional routes organized around them. rome's great shrine church went up over an old roadside cemetery on the vatican hill; milan held several such halls at once, close enough that a person could walk between them in an afternoon. these were the biggest interior spaces most people would ever stand in, and they belonged to the city's daily geography - landmarks for directions, shelter from weather, sites of crowds, employment for builders, mosaicists, and doorkeepers. a child of this world grew up assuming that the church, like the law, came in monumental stone."
+    },
+    {
+      "id": "ijcamb002",
+      "record_type": "ambient",
+      "title": "The emperor's sign in every purse",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb002",
+        "record_type": "ambient",
+        "title": "The emperor's sign in every purse",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC36: Constantinian chi-rho/labarum coinage (numismatic evidence)",
+          "  Author Gravity - The chi-rho and labarum coinage: the sign on the empire's money as numismatic fact - minted, circulated, handled in every market transaction."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb002",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The emperor's sign in every purse",
+          "ambient_domain": "work-and-money",
+          "period_note": "Fourth century, anchored by the coins themselves. What the sign MEANT is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC36",
+              "author_gravity_note": "The chi-rho and labarum coinage: the sign on the empire's money as numismatic fact - minted, circulated, handled in every market transaction."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Money carried the new order into every hand. From Constantine's reign the mints put the chi-rho - the wreathed sign the emperor had adopted - onto coins alongside the imperial portrait, and the coins went where coins go: wages, taxes, market stalls, dice games, the poor-box. A farmer who never heard a sermon handled the sign weekly; a money-changer sorted it by weight without a thought. Older coins with older gods stayed in circulation beside it for decades, so a single purse could hold Jupiter, the deified emperors, and the chi-rho together - which was, in miniature, the empire's own condition. Coinage was the one image everyone touched. What the state stamped on it was the quietest, most constant announcement of what the state had become.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about money, coins, wages, or markets",
+              "participant asks how ordinary people encountered the empire's conversion"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the emperor's sign in every purse ijcamb002 ambient the emperor's sign in every purse common life of the place, not the teaching of any one voice. money carried the new order into every hand. from constantine's reign the mints put the chi-rho - the wreathed sign the emperor had adopted - onto coins alongside the imperial portrait, and the coins went where coins go: wages, taxes, market stalls, dice games, the poor-box. a farmer who never heard a sermon handled the sign weekly; a money-changer sorted it by weight without a thought. older coins with older gods stayed in circulation beside it for decades, so a single purse could hold jupiter, the deified emperors, and the chi-rho together - which was, in miniature, the empire's own condition. coinage was the one image everyone touched. what the state stamped on it was the quietest, most constant announcement of what the state had become."
+    },
+    {
+      "id": "ijcamb003",
+      "record_type": "ambient",
+      "title": "Law posted in the forum",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb003",
+        "record_type": "ambient",
+        "title": "Law posted in the forum",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC16: *Theodosian Code*, Book 16 (esp. 16.1.2, Edict of Thessalonica \"Cunctos populos,\" 380)",
+          "  Author Gravity - Theodosian Code Book 16: imperial religious law as promulgated text - edicts issued, posted, read aloud, and compiled - cited for law as public medium.",
+          "srcIJC41: Fergus Millar, A Greek Roman Empire: Power and Belief under Theodosius II (408-450) (Berkeley, 2006)",
+          "  Author Gravity - Millar, A Greek Roman Empire: how imperial law actually moved - petitions up, rescripts down, posting and reading as the machinery of government."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb003",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Law posted in the forum",
+          "ambient_domain": "language-and-school",
+          "period_note": "Late fourth to fifth century, anchored by the codified laws themselves. The laws' theological CONTENT and this world's judgment of it are Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC16",
+              "author_gravity_note": "Theodosian Code Book 16: imperial religious law as promulgated text - edicts issued, posted, read aloud, and compiled - cited for law as public medium."
+            },
+            {
+              "source_id": "srcIJC41",
+              "author_gravity_note": "Millar, A Greek Roman Empire: how imperial law actually moved - petitions up, rescripts down, posting and reading as the machinery of government."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Imperial law was a public, physical thing. An edict traveled from the court as a letter, was received by governors, read aloud by heralds, posted in fora on whitened boards, and copied by notaries for anyone who paid; later the accumulated laws were gathered into great codified books. Ordinary life ran through this machinery - taxes, inheritance, market weights, army levies - so the reading of a new law in the forum was ordinary civic weather. In this world's lifetime, laws about worship itself joined that traffic and were posted on the same boards: which assemblies might meet, who might hold property, what a person's confession meant for their legal standing. Religion had entered the medium everyone already lived in - the posted, heralded, enforceable text.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how laws worked, how people learned of them, or about government",
+              "participant asks what it meant that religion became a matter of law"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "law posted in the forum ijcamb003 ambient law posted in the forum common life of the place, not the teaching of any one voice. imperial law was a public, physical thing. an edict traveled from the court as a letter, was received by governors, read aloud by heralds, posted in fora on whitened boards, and copied by notaries for anyone who paid; later the accumulated laws were gathered into great codified books. ordinary life ran through this machinery - taxes, inheritance, market weights, army levies - so the reading of a new law in the forum was ordinary civic weather. in this world's lifetime, laws about worship itself joined that traffic and were posted on the same boards: which assemblies might meet, who might hold property, what a person's confession meant for their legal standing. religion had entered the medium everyone already lived in - the posted, heralded, enforceable text."
+    },
+    {
+      "id": "ijcamb004",
+      "record_type": "ambient",
+      "title": "The new capital",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb004",
+        "record_type": "ambient",
+        "title": "The new capital",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC39: Gilbert Dagron, Naissance d'une capitale: Constantinople et ses institutions de 330 a 451 (Paris, 1974)",
+          "  Author Gravity - Dagron, Naissance d'une capitale: Constantinople's institutions - senate, hippodrome, grain supply, building program - the city as founded machinery.",
+          "srcIJC41: Fergus Millar, A Greek Roman Empire: Power and Belief under Theodosius II (408-450) (Berkeley, 2006)",
+          "  Author Gravity - Millar, A Greek Roman Empire: the capital as the empire's working center under Theodosius II - court, bureaucracy, and the traffic they drew."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb004",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The new capital",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Fourth to fifth century: Constantinople as civic machine. The see's ecclesial CLAIMS are Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC39",
+              "author_gravity_note": "Dagron, Naissance d'une capitale: Constantinople's institutions - senate, hippodrome, grain supply, building program - the city as founded machinery."
+            },
+            {
+              "source_id": "srcIJC41",
+              "author_gravity_note": "Millar, A Greek Roman Empire: the capital as the empire's working center under Theodosius II - court, bureaucracy, and the traffic they drew."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. A new capital was built inside a single lifetime. Constantinople rose on the straits with everything a capital needs made to order: a senate, a hippodrome for the races, a palace, harbors, and a grain fleet from Egypt whose arrival the city watched the way farmers watch weather - the bread dole depended on it. Everything flowed toward the new center: marble, officials, petitioners, relics, ambitious men of every profession. The court's presence made the city a machine for careers; the hippodrome factions gave it its riots; the bread ships gave it its anxieties. For this world the city's rise mattered doubly, because rank follows the capital - but the city itself, the roaring, subsidized, brand-new metropolis, was simply where the empire now happened.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about Constantinople, the capital, or the empire's center",
+              "participant asks about the grain fleet, the hippodrome, or the court's city"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the new capital ijcamb004 ambient the new capital common life of the place, not the teaching of any one voice. a new capital was built inside a single lifetime. constantinople rose on the straits with everything a capital needs made to order: a senate, a hippodrome for the races, a palace, harbors, and a grain fleet from egypt whose arrival the city watched the way farmers watch weather - the bread dole depended on it. everything flowed toward the new center: marble, officials, petitioners, relics, ambitious men of every profession. the court's presence made the city a machine for careers; the hippodrome factions gave it its riots; the bread ships gave it its anxieties. for this world the city's rise mattered doubly, because rank follows the capital - but the city itself, the roaring, subsidized, brand-new metropolis, was simply where the empire now happened."
+    },
+    {
+      "id": "ijcamb005",
+      "record_type": "ambient",
+      "title": "Bishops on the imperial roads",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb005",
+        "record_type": "ambient",
+        "title": "Bishops on the imperial roads",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC28: T.D. Barnes, T.D. Barnes, *Constantine and Eusebius* (1981)",
+          "  Author Gravity - Barnes, Constantine and Eusebius: the first great council's logistics - the emperor's summons, the public post placed at bishops' disposal, hundreds traveling.",
+          "srcIJC32: Richard Price and Michael Gaddis (trans.), *The Acts of the Council of Chalcedon* (Translated Texts for Historians, 2005)",
+          "  Author Gravity - Price and Gaddis, The Acts of Chalcedon: the developed machinery - hundreds of bishops, their retinues, imperial officials, stenographers - a council as a traveling institution."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb005",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Bishops on the imperial roads",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Fourth to fifth century: council travel as logistics. What the councils DECIDED is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC28",
+              "author_gravity_note": "Barnes, Constantine and Eusebius: the first great council's logistics - the emperor's summons, the public post placed at bishops' disposal, hundreds traveling."
+            },
+            {
+              "source_id": "srcIJC32",
+              "author_gravity_note": "Price and Gaddis, The Acts of Chalcedon: the developed machinery - hundreds of bishops, their retinues, imperial officials, stenographers - a council as a traveling institution."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. When the emperor summoned a council, the roads filled with bishops. The imperial post - relays of horses and lodgings normally reserved for state business - was opened to them; old men who had never left their provinces crossed the empire at government expense, each with secretaries, deacons, and baggage. A great council assembled hundreds of bishops in one provincial city for months: lodgings found, markets strained, stenographers recording sessions, couriers running drafts to the court. Locals watched the church arrive as a traffic phenomenon. The bishops themselves learned the empire bodily - its distances, its inns, its harbor delays - and a see's real weight could be read in how its man traveled and who met him at each stage. Doctrine moved at the speed of the imperial roads.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how councils physically happened or how bishops traveled",
+              "participant asks about the imperial post, roads, or the logistics of church business"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "bishops on the imperial roads ijcamb005 ambient bishops on the imperial roads common life of the place, not the teaching of any one voice. when the emperor summoned a council, the roads filled with bishops. the imperial post - relays of horses and lodgings normally reserved for state business - was opened to them; old men who had never left their provinces crossed the empire at government expense, each with secretaries, deacons, and baggage. a great council assembled hundreds of bishops in one provincial city for months: lodgings found, markets strained, stenographers recording sessions, couriers running drafts to the court. locals watched the church arrive as a traffic phenomenon. the bishops themselves learned the empire bodily - its distances, its inns, its harbor delays - and a see's real weight could be read in how its man traveled and who met him at each stage. doctrine moved at the speed of the imperial roads."
+    },
+    {
+      "id": "ijcamb006",
+      "record_type": "ambient",
+      "title": "Feast days at the martyrs' graves",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb006",
+        "record_type": "ambient",
+        "title": "Feast days at the martyrs' graves",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC14: Damasus, Damasus, epigraphic martyr inscriptions (Filocalian script; *Inscriptiones Christianae Urbis Romae* corpus)",
+          "  Author Gravity - The Damasine epigrams: marble verses installed at the martyrs' graves in Rome's cemeteries - the shrines as physically monumentalized destinations.",
+          "srcIJC31: Charles Pietri, Charles Pietri, *Roma Christiana* (1976)",
+          "  Author Gravity - Pietri, Roma Christiana: the festal calendar and shrine traffic of Christian Rome - anniversaries, crowds, and the cemetery feasts as the city's rhythm."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb006",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Feast days at the martyrs' graves",
+          "ambient_domain": "calendar-and-festival",
+          "period_note": "Later fourth century, anchored by the inscriptions in the ground: the shrine calendar as civic custom. The CULT's theology is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcIJC14",
+              "author_gravity_note": "The Damasine epigrams: marble verses installed at the martyrs' graves in Rome's cemeteries - the shrines as physically monumentalized destinations."
+            },
+            {
+              "source_id": "srcIJC31",
+              "author_gravity_note": "Pietri, Roma Christiana: the festal calendar and shrine traffic of Christian Rome - anniversaries, crowds, and the cemetery feasts as the city's rhythm."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Rome's year gained a second calendar: the anniversaries of the martyrs, each a feast at a grave. On the day, crowds went out to the cemeteries along the roads - a walk, a vigil, lamps, the tomb dressed, vendors trailing the crowds as vendors do. The graves themselves were being monumentalized: shafts widened for access, marble facings, and verses in beautiful lettering set up so pilgrims could read who lay there and why it mattered. Families had always feasted at their dead's tombs; the martyrs' days folded that old custom into a public festival cycle that filled roads and emptied neighborhoods. A person of this world kept time by these days as much as by the old civic festivals - which continued alongside, so that the two calendars shared the same year and competed for the same crowds.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about festivals, feast days, or visits to the martyrs' shrines",
+              "participant asks how the year was organized or what holidays looked like"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "feast days at the martyrs' graves ijcamb006 ambient feast days at the martyrs' graves common life of the place, not the teaching of any one voice. rome's year gained a second calendar: the anniversaries of the martyrs, each a feast at a grave. on the day, crowds went out to the cemeteries along the roads - a walk, a vigil, lamps, the tomb dressed, vendors trailing the crowds as vendors do. the graves themselves were being monumentalized: shafts widened for access, marble facings, and verses in beautiful lettering set up so pilgrims could read who lay there and why it mattered. families had always feasted at their dead's tombs; the martyrs' days folded that old custom into a public festival cycle that filled roads and emptied neighborhoods. a person of this world kept time by these days as much as by the old civic festivals - which continued alongside, so that the two calendars shared the same year and competed for the same crowds."
+    },
+    {
+      "id": "ijcamb007",
+      "record_type": "ambient",
+      "title": "Jewish neighbors under the same law",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb007",
+        "record_type": "ambient",
+        "title": "Jewish neighbors under the same law",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC17: *Theodosian Code*, Book 16.8 (mixed restrictive/protective legislation concerning Jewish communities)",
+          "  Author Gravity - Theodosian Code 16.8: the mixed legislation on Jewish communities - protections of synagogues and worship standing beside new restrictions - cited as the LEGAL texture of coexistence, with no claim past the statutes."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb007",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Jewish neighbors under the same law",
+          "ambient_domain": "street-and-city",
+          "period_note": "Late fourth to fifth century, anchored by the legal texts: coexistence as legal and street fact. This world's own polemic and theology about Judaism are Native-Constitutive and are NOT carried here.",
+          "sources": [
+            {
+              "source_id": "srcIJC17",
+              "author_gravity_note": "Theodosian Code 16.8: the mixed legislation on Jewish communities - protections of synagogues and worship standing beside new restrictions - cited as the LEGAL texture of coexistence, with no claim past the statutes."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The empire's cities kept their Jewish communities through this whole world's window - old congregations with synagogues, courts of their own for internal matters, patriarchs whose dignity imperial law recognized. The law books show coexistence as the daily default and show it under pressure at once: statutes protecting synagogues from seizure and worship from disruption stand beside new prohibitions - on holding certain offices, on certain marriages, on building new synagogues - accumulating decade by decade. Street reality moved with and sometimes ahead of the statutes: markets and neighborhoods shared, festivals mutually audible, and violence flaring in some cities with the law arriving afterward to rule on what the mob had done. A person of this world lived among Jewish neighbors whose standing was real, legally armored, and visibly narrowing.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks who else lived in the cities or about Jewish communities",
+              "participant asks whether everyone in the empire was Christian"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "jewish neighbors under the same law ijcamb007 ambient jewish neighbors under the same law common life of the place, not the teaching of any one voice. the empire's cities kept their jewish communities through this whole world's window - old congregations with synagogues, courts of their own for internal matters, patriarchs whose dignity imperial law recognized. the law books show coexistence as the daily default and show it under pressure at once: statutes protecting synagogues from seizure and worship from disruption stand beside new prohibitions - on holding certain offices, on certain marriages, on building new synagogues - accumulating decade by decade. street reality moved with and sometimes ahead of the statutes: markets and neighborhoods shared, festivals mutually audible, and violence flaring in some cities with the law arriving afterward to rule on what the mob had done. a person of this world lived among jewish neighbors whose standing was real, legally armored, and visibly narrowing."
+    },
+    {
+      "id": "ijcamb008",
+      "record_type": "ambient",
+      "title": "The city's bread",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcamb008",
+        "record_type": "ambient",
+        "title": "The city's bread",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcIJC39: Gilbert Dagron, Naissance d'une capitale: Constantinople et ses institutions de 330 a 451 (Paris, 1974)",
+          "  Author Gravity - Dagron, Naissance d'une capitale: Constantinople's grain supply and bread distributions - the dole as founded institution.",
+          "srcIJC35: Peter Brown, Peter Brown, *The Rise of Western Christendom*",
+          "  Author Gravity - Brown, The Rise of Western Christendom: the late-antique city's food anxieties and the church's growing place in provision and famine relief - cited for the civic frame."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcamb008",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The city's bread",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Fourth to fifth century: the provisioning of the great cities as daily fact.",
+          "sources": [
+            {
+              "source_id": "srcIJC39",
+              "author_gravity_note": "Dagron, Naissance d'une capitale: Constantinople's grain supply and bread distributions - the dole as founded institution."
+            },
+            {
+              "source_id": "srcIJC35",
+              "author_gravity_note": "Brown, The Rise of Western Christendom: the late-antique city's food anxieties and the church's growing place in provision and famine relief - cited for the civic frame."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The great cities of this world ate political bread. Rome and Constantinople both ran distributions: grain shipped in state fleets, stored in public warehouses, issued as loaves to entitled citizens on a schedule - an entitlement that attached to residence and was bought, sold, and inherited like property. A late fleet meant prices jumping and crowds gathering; prefects' careers ended over bread. Around the entitled core, everyone else bought from bakers whose prices the market and the harvest set. In these same decades the churches were becoming provisioners themselves - poor rolls, granaries, distributions of their own - entering a civic function the cities already understood. Bread was government in this world, visibly: the most ordinary object in the house arrived by fleet, warehouse, and law.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what people ate or how the great cities were fed",
+              "participant asks about the bread dole, famine, or food and politics"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the city's bread ijcamb008 ambient the city's bread common life of the place, not the teaching of any one voice. the great cities of this world ate political bread. rome and constantinople both ran distributions: grain shipped in state fleets, stored in public warehouses, issued as loaves to entitled citizens on a schedule - an entitlement that attached to residence and was bought, sold, and inherited like property. a late fleet meant prices jumping and crowds gathering; prefects' careers ended over bread. around the entitled core, everyone else bought from bakers whose prices the market and the harvest set. in these same decades the churches were becoming provisioners themselves - poor rolls, granaries, distributions of their own - entering a civic function the cities already understood. bread was government in this world, visibly: the most ordinary object in the house arrived by fleet, warehouse, and law."
+    },
     {
       "id": "ijcclaim001",
       "record_type": "contested_claim",
@@ -6987,6 +7439,7 @@
         "ijcstory006"
       ],
       "srcIJC14": [
+        "ijcamb006",
         "ijcclaim001",
         "ijcforce2B2",
         "ijcgrav001",
@@ -7001,6 +7454,7 @@
         "ijclex004"
       ],
       "srcIJC16": [
+        "ijcamb003",
         "ijcclaim003",
         "ijcclaim005",
         "ijcforce2A1",
@@ -7008,6 +7462,9 @@
         "ijcgrav003",
         "ijcgrav007",
         "ijclex008"
+      ],
+      "srcIJC17": [
+        "ijcamb007"
       ],
       "srcIJC22": [
         "ijcstory003"
@@ -7020,13 +7477,18 @@
         "ijcgrav004"
       ],
       "srcIJC28": [
+        "ijcamb005",
         "ijcgrav001"
       ],
       "srcIJC29": [
         "ijcgrav001"
       ],
       "srcIJC31": [
+        "ijcamb006",
         "ijcgrav001"
+      ],
+      "srcIJC32": [
+        "ijcamb005"
       ],
       "srcIJC33": [
         "ijcclaim004",
@@ -7039,15 +7501,29 @@
         "ijcgrav004"
       ],
       "srcIJC35": [
+        "ijcamb008",
         "ijcforce2A2",
         "ijcforce3A2"
       ],
+      "srcIJC36": [
+        "ijcamb002"
+      ],
       "srcIJC37": [
+        "ijcamb001",
         "ijclex011"
       ],
       "srcIJC38": [
+        "ijcamb001",
         "ijcgrav004",
         "ijclex011"
+      ],
+      "srcIJC39": [
+        "ijcamb004",
+        "ijcamb008"
+      ],
+      "srcIJC41": [
+        "ijcamb003",
+        "ijcamb004"
       ]
     },
     "by_figure": {

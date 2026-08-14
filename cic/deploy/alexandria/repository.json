@@ -3,8 +3,466 @@
   "world_id": "alexandria-catechetical",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 149,
+  "record_count": 157,
   "records": [
+    {
+      "id": "alexamb001",
+      "record_type": "ambient",
+      "title": "The harbor city",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb001",
+        "record_type": "ambient",
+        "title": "The harbor city",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX034: Christopher Haas, Alexandria in Late Antiquity: Topography and Social Conflict (Johns Hopkins UP, 1997)",
+          "  Author Gravity - Haas, Alexandria in Late Antiquity: the city's topography - harbors, the Pharos, the great streets, the quarters and their communities - the urban frame this record describes.",
+          "srcALX022: Roger S. Bagnall, Egypt in Late Antiquity (Princeton UP, 1993)",
+          "  Author Gravity - Bagnall, Egypt in Late Antiquity: Alexandria as Egypt's gate - the grain trade, the Nile traffic feeding the port, the administrative machinery."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb001",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The harbor city",
+          "ambient_domain": "street-and-city",
+          "period_note": "Holds across the 180-400 window: the city's site and commercial life. What the city's Christian school taught is Native-Constitutive and stays with its own records.",
+          "sources": [
+            {
+              "source_id": "srcALX034",
+              "author_gravity_note": "Haas, Alexandria in Late Antiquity: the city's topography - harbors, the Pharos, the great streets, the quarters and their communities - the urban frame this record describes."
+            },
+            {
+              "source_id": "srcALX022",
+              "author_gravity_note": "Bagnall, Egypt in Late Antiquity: Alexandria as Egypt's gate - the grain trade, the Nile traffic feeding the port, the administrative machinery."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Alexandria faced the sea. Two harbors worked day and night beneath the Pharos, whose fire could be seen far out over the water; the grain of Egypt came down the Nile and left these docks in fleets for Rome, and later for Constantinople. Two great colonnaded streets crossed the city, and the quarters between them each had their own life - Greeks, Egyptians, Jews, and every trading people of the sea mixed in the markets. It was a city of size and noise and rivalry, proud of its learning and quick to riot. A person of this world walked to gatherings through streets where every language of the Mediterranean could be heard and every god of it had an altar somewhere.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what Alexandria was like, its harbor, streets, or who lived there",
+              "participant asks about the city's size, trade, or its mix of peoples"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the harbor city alexamb001 ambient the harbor city common life of the place, not the teaching of any one voice. alexandria faced the sea. two harbors worked day and night beneath the pharos, whose fire could be seen far out over the water; the grain of egypt came down the nile and left these docks in fleets for rome, and later for constantinople. two great colonnaded streets crossed the city, and the quarters between them each had their own life - greeks, egyptians, jews, and every trading people of the sea mixed in the markets. it was a city of size and noise and rivalry, proud of its learning and quick to riot. a person of this world walked to gatherings through streets where every language of the mediterranean could be heard and every god of it had an altar somewhere."
+    },
+    {
+      "id": "alexamb002",
+      "record_type": "ambient",
+      "title": "The plague years",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb002",
+        "record_type": "ambient",
+        "title": "The plague years",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX006: Dionysius of Alexandria, Letters and fragments (via Eusebius)",
+          "  Author Gravity - The mid-third-century letters preserved via Eusebius: the pestilence in the city described as an eyewitness civic fact - houses with their dead, the river and harbors implicated, public mourning everywhere.",
+          "srcALX009: Eusebius of Caesarea, Ecclesiastical History",
+          "  Author Gravity - Eusebius, Ecclesiastical History: the transmission home of those letters and the wider frame of famine, war, and plague in the third-century city."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb002",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The plague years",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Anchored mid-third century: the great pestilence described in the bishop of Alexandria's own surviving letters (via the church history). What the community TAUGHT about death, and any praise of its own conduct, is Native-Constitutive; this record carries the shared civic catastrophe.",
+          "sources": [
+            {
+              "source_id": "srcALX006",
+              "author_gravity_note": "The mid-third-century letters preserved via Eusebius: the pestilence in the city described as an eyewitness civic fact - houses with their dead, the river and harbors implicated, public mourning everywhere."
+            },
+            {
+              "source_id": "srcALX009",
+              "author_gravity_note": "Eusebius, Ecclesiastical History: the transmission home of those letters and the wider frame of famine, war, and plague in the third-century city."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Plague came to Alexandria more than once, and one visitation in the middle of the third century was remembered in writing by people who lived through it. There was no house without its dead, the account says. Mourning filled the city; the healthy fled the sick; bodies went unburied in the streets. Famine and civil strife ran alongside the disease, and the city's population shrank so sharply that men wrote of counting fewer citizens from childhood to old age than had once been counted in a single generation's rolls. Sickness on that scale was not an interruption of the city's life. For those years it was the city's life, the shared weather of every quarter and every allegiance.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about disease, plague, or death as everyday realities in this world",
+              "participant asks what happened when the city suffered catastrophe"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the plague years alexamb002 ambient the plague years common life of the place, not the teaching of any one voice. plague came to alexandria more than once, and one visitation in the middle of the third century was remembered in writing by people who lived through it. there was no house without its dead, the account says. mourning filled the city; the healthy fled the sick; bodies went unburied in the streets. famine and civil strife ran alongside the disease, and the city's population shrank so sharply that men wrote of counting fewer citizens from childhood to old age than had once been counted in a single generation's rolls. sickness on that scale was not an interruption of the city's life. for those years it was the city's life, the shared weather of every quarter and every allegiance."
+    },
+    {
+      "id": "alexamb003",
+      "record_type": "ambient",
+      "title": "The table and the banquet",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb003",
+        "record_type": "ambient",
+        "title": "The table and the banquet",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX001: Clement of Alexandria, Protreptikos; Paedagogus; Stromateis",
+          "  Author Gravity - Clement's Paedagogus: its chapters on eating, drinking, and feasting legislate for a real banquet culture - couches, courses, imported delicacies, wine, entertainments - cited as evidence of the customs presupposed, never for the counsel itself.",
+          "srcALX028: Clement of Alexandria, Quis Dives Salvetur (Who Is the Rich Man That Shall Be Saved?)",
+          "  Author Gravity - Quis Dives Salvetur: addressed to the propertied - evidence that wealth and its table stood inside the community's own membership."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb003",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The table and the banquet",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Second-to-third-century texture: the banquet culture this world's own conduct manual addresses presupposes. The manual's TEACHING about that culture is Native-Constitutive; this record carries only the customs the teaching took for granted.",
+          "sources": [
+            {
+              "source_id": "srcALX001",
+              "author_gravity_note": "Clement's Paedagogus: its chapters on eating, drinking, and feasting legislate for a real banquet culture - couches, courses, imported delicacies, wine, entertainments - cited as evidence of the customs presupposed, never for the counsel itself."
+            },
+            {
+              "source_id": "srcALX028",
+              "author_gravity_note": "Quis Dives Salvetur: addressed to the propertied - evidence that wealth and its table stood inside the community's own membership."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The prosperous of Alexandria dined reclining, in courses, and a teacher of this world could name the whole spread from observation: shellfish and Sicilian lampreys, birds brought from far coasts, sweet wines, honeyed cakes, the professional entertainers who came in after the tables were cleared. Guests wore garlands; slaves poured; invitations mapped the city's friendships and rivalries. Ordinary households ate far more simply - bread, oil, fish from the harbors, lentils, the vegetables of the Delta - and everyone, rich and poor, lived by the same rhythm of market days and Nile seasons. The banquet was where the city's wealth performed itself, and everyone in this world, whether they ever reclined at one, knew exactly what happened there.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what people ate or what meals and banquets were like",
+              "participant asks about wealth, luxury, or how the rich lived in this city"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the table and the banquet alexamb003 ambient the table and the banquet common life of the place, not the teaching of any one voice. the prosperous of alexandria dined reclining, in courses, and a teacher of this world could name the whole spread from observation: shellfish and sicilian lampreys, birds brought from far coasts, sweet wines, honeyed cakes, the professional entertainers who came in after the tables were cleared. guests wore garlands; slaves poured; invitations mapped the city's friendships and rivalries. ordinary households ate far more simply - bread, oil, fish from the harbors, lentils, the vegetables of the delta - and everyone, rich and poor, lived by the same rhythm of market days and nile seasons. the banquet was where the city's wealth performed itself, and everyone in this world, whether they ever reclined at one, knew exactly what happened there."
+    },
+    {
+      "id": "alexamb004",
+      "record_type": "ambient",
+      "title": "Dress, baths, and the daily body",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb004",
+        "record_type": "ambient",
+        "title": "Dress, baths, and the daily body",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX001: Clement of Alexandria, Protreptikos; Paedagogus; Stromateis",
+          "  Author Gravity - Clement's Paedagogus: chapters on clothing, jewelry, cosmetics, hair, and the baths - a detailed inventory of the city's body culture, cited for the customs presupposed, never for the counsel."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb004",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Dress, baths, and the daily body",
+          "ambient_domain": "household-and-family",
+          "period_note": "Second-to-third-century texture from the same conduct manual: the body culture it addresses. Its counsel is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcALX001",
+              "author_gravity_note": "Clement's Paedagogus: chapters on clothing, jewelry, cosmetics, hair, and the baths - a detailed inventory of the city's body culture, cited for the customs presupposed, never for the counsel."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The baths were part of an Alexandrian day - men's hours and women's hours, the water warmed, attendants for hire, the baths a place to be seen and to talk business as much as to wash. The prosperous dressed to be read: purple-dyed cloth, gold set with stones, hair built and dyed, cosmetics laid on with practiced skill, rings carrying seals for signing. Mirrors, hairpins, perfume flasks - the furniture of a household's morning. A teacher of this world could catalogue all of it from daily sight. Poorer households knew the same culture from below: plain wool, a single garment mended, the public fountain instead of the bath's warm rooms on most days. The body was public in this city, and everyone dressed for the streets they had to walk.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how people dressed, bathed, or cared for their bodies",
+              "participant asks about daily routines of households in the city"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "dress, baths, and the daily body alexamb004 ambient dress, baths, and the daily body common life of the place, not the teaching of any one voice. the baths were part of an alexandrian day - men's hours and women's hours, the water warmed, attendants for hire, the baths a place to be seen and to talk business as much as to wash. the prosperous dressed to be read: purple-dyed cloth, gold set with stones, hair built and dyed, cosmetics laid on with practiced skill, rings carrying seals for signing. mirrors, hairpins, perfume flasks - the furniture of a household's morning. a teacher of this world could catalogue all of it from daily sight. poorer households knew the same culture from below: plain wool, a single garment mended, the public fountain instead of the bath's warm rooms on most days. the body was public in this city, and everyone dressed for the streets they had to walk."
+    },
+    {
+      "id": "alexamb005",
+      "record_type": "ambient",
+      "title": "Papyrus and the written everyday",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb005",
+        "record_type": "ambient",
+        "title": "Papyrus and the written everyday",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX025: (documentary corpus), Oxyrhynchus and Fayum/Delta papyri (Christian content)",
+          "  Author Gravity - The Oxyrhynchus and Delta papyri with Christian content: letters, lists, and documents of ordinary believers - writing as everyday practice, recovered from the towns' own rubbish heaps.",
+          "srcALX037: Colin H. Roberts, Manuscript, Society and Belief in Early Christian Egypt (Schweich Lectures; OUP, 1979)",
+          "  Author Gravity - Roberts, Manuscript, Society and Belief: the material culture of early Christian books in Egypt - codex over roll, the abbreviated sacred names - as physical writing habits."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb005",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Papyrus and the written everyday",
+          "ambient_domain": "language-and-school",
+          "period_note": "Holds across the window; the papyri are documentary finds from Egypt's towns. What Christians WROTE as teaching is Native-Constitutive; this record carries writing as ordinary furniture.",
+          "sources": [
+            {
+              "source_id": "srcALX025",
+              "author_gravity_note": "The Oxyrhynchus and Delta papyri with Christian content: letters, lists, and documents of ordinary believers - writing as everyday practice, recovered from the towns' own rubbish heaps."
+            },
+            {
+              "source_id": "srcALX037",
+              "author_gravity_note": "Roberts, Manuscript, Society and Belief: the material culture of early Christian books in Egypt - codex over roll, the abbreviated sacred names - as physical writing habits."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Egypt wrote on papyrus, and the dry ground kept what it wrote. From the towns up the river survive the ordinary papers of people of this world: private letters commending a traveler, greetings between kin, accounts, receipts, lists. Christians wrote as their neighbors wrote - the same formulas of greeting, the same abbreviations a scribe's hand fell into - and their letters sit in the finds beside tax rolls and marriage contracts. Their books took a form the trade found unfashionable: the codex, leaves bound like a notebook, where the booksellers' classics kept to the roll. A reader held scripture the way a tradesman held his accounts. Most people met any written word through a voice reading aloud; a letter from a distant brother was a small public event, read to the gathered house.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks whether people could read and write, or how letters and books worked",
+              "participant asks what physical books or writing looked like in this world"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "papyrus and the written everyday alexamb005 ambient papyrus and the written everyday common life of the place, not the teaching of any one voice. egypt wrote on papyrus, and the dry ground kept what it wrote. from the towns up the river survive the ordinary papers of people of this world: private letters commending a traveler, greetings between kin, accounts, receipts, lists. christians wrote as their neighbors wrote - the same formulas of greeting, the same abbreviations a scribe's hand fell into - and their letters sit in the finds beside tax rolls and marriage contracts. their books took a form the trade found unfashionable: the codex, leaves bound like a notebook, where the booksellers' classics kept to the roll. a reader held scripture the way a tradesman held his accounts. most people met any written word through a voice reading aloud; a letter from a distant brother was a small public event, read to the gathered house."
+    },
+    {
+      "id": "alexamb006",
+      "record_type": "ambient",
+      "title": "A city of lectures",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb006",
+        "record_type": "ambient",
+        "title": "A city of lectures",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX034: Christopher Haas, Alexandria in Late Antiquity: Topography and Social Conflict (Johns Hopkins UP, 1997)",
+          "  Author Gravity - Haas, Alexandria in Late Antiquity: the city's intellectual institutions and their public place in civic life.",
+          "srcALX023: Peter Brown, The World of Late Antiquity (1971); The Body and Society (1988)",
+          "  Author Gravity - Brown, The World of Late Antiquity / The Body and Society: the late-antique culture of the teacher, the lecture hall, and the traveling student as a Mediterranean-wide social fact, at its densest in cities like this one."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb006",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "A city of lectures",
+          "ambient_domain": "language-and-school",
+          "period_note": "Second-to-third-century texture: the city's school culture as civic institution. This world's OWN school - its teachers, curriculum, and formation - is Native-Constitutive and lives with its records.",
+          "sources": [
+            {
+              "source_id": "srcALX034",
+              "author_gravity_note": "Haas, Alexandria in Late Antiquity: the city's intellectual institutions and their public place in civic life."
+            },
+            {
+              "source_id": "srcALX023",
+              "author_gravity_note": "Brown, The World of Late Antiquity / The Body and Society: the late-antique culture of the teacher, the lecture hall, and the traveling student as a Mediterranean-wide social fact, at its densest in cities like this one."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Alexandria sold learning the way other cities sold grain. The Museum's fame was old; lecture halls, hired teachers, and private tutors filled the city, and young men traveled by sea to study there as a matter of course. A teacher's reputation was a public asset, argued over in the streets like a charioteer's; students attached themselves to a master, followed him for years, and carried his name afterward like a family name. Grammar, rhetoric, philosophy, medicine, mathematics - each had its teachers and its fee. The habit of the lecture, the habit of the question pressed in public, the habit of following an argument for the pleasure of it: these were civic customs, the air of the place, before they belonged to anyone's school in particular.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about education, schools, teachers, or students in the city",
+              "participant asks why this world's community took the shape of a school"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "a city of lectures alexamb006 ambient a city of lectures common life of the place, not the teaching of any one voice. alexandria sold learning the way other cities sold grain. the museum's fame was old; lecture halls, hired teachers, and private tutors filled the city, and young men traveled by sea to study there as a matter of course. a teacher's reputation was a public asset, argued over in the streets like a charioteer's; students attached themselves to a master, followed him for years, and carried his name afterward like a family name. grammar, rhetoric, philosophy, medicine, mathematics - each had its teachers and its fee. the habit of the lecture, the habit of the question pressed in public, the habit of following an argument for the pleasure of it: these were civic customs, the air of the place, before they belonged to anyone's school in particular."
+    },
+    {
+      "id": "alexamb007",
+      "record_type": "ambient",
+      "title": "The river's year",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb007",
+        "record_type": "ambient",
+        "title": "The river's year",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX022: Roger S. Bagnall, Egypt in Late Antiquity (Princeton UP, 1993)",
+          "  Author Gravity - Bagnall, Egypt in Late Antiquity: the Nile flood cycle, the grain economy, taxation in kind, and the years when the flood failed - the material rhythm of all Egyptian life.",
+          "srcALX009: Eusebius of Caesarea, Ecclesiastical History",
+          "  Author Gravity - Eusebius, Ecclesiastical History: famine alongside plague and war in the third-century city - the civic record of dearth."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb007",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The river's year",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Holds across the window: Egypt's agricultural rhythm as every inhabitant knew it. Third-century crisis years anchored by the church history's own account.",
+          "sources": [
+            {
+              "source_id": "srcALX022",
+              "author_gravity_note": "Bagnall, Egypt in Late Antiquity: the Nile flood cycle, the grain economy, taxation in kind, and the years when the flood failed - the material rhythm of all Egyptian life."
+            },
+            {
+              "source_id": "srcALX009",
+              "author_gravity_note": "Eusebius, Ecclesiastical History: famine alongside plague and war in the third-century city - the civic record of dearth."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. All Egypt lived by the river's year. The Nile rose in summer, drowned the fields it fed, and left them black and ready; the height of the flood was measured anxiously, because a few cubits short meant hunger the following year and a few too many meant ruin of another kind. Alexandria felt the river at one remove - the city ate from the valley's harvest and taxed it, and the grain fleets it sent abroad were the empire's bread. When the flood failed, or war interrupted the valley, the greatest city of the East learned dearth like any village: prices climbing, the poor pressed first, grain hoarded and guarded. Everyone in this world, however learned, knew the year as the river's year.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about farming, the Nile, harvests, or where food came from",
+              "participant asks what happened in famine years"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the river's year alexamb007 ambient the river's year common life of the place, not the teaching of any one voice. all egypt lived by the river's year. the nile rose in summer, drowned the fields it fed, and left them black and ready; the height of the flood was measured anxiously, because a few cubits short meant hunger the following year and a few too many meant ruin of another kind. alexandria felt the river at one remove - the city ate from the valley's harvest and taxed it, and the grain fleets it sent abroad were the empire's bread. when the flood failed, or war interrupted the valley, the greatest city of the east learned dearth like any village: prices climbing, the poor pressed first, grain hoarded and guarded. everyone in this world, however learned, knew the year as the river's year."
+    },
+    {
+      "id": "alexamb008",
+      "record_type": "ambient",
+      "title": "The city's dead",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "alexamb008",
+        "record_type": "ambient",
+        "title": "The city's dead",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcALX026: (archaeological corpus), Egyptian Christian archaeology (baptisteries, church buildings, funerary evidence)",
+          "  Author Gravity - Egyptian Christian archaeology: funerary evidence - burial grounds, chapels, and the material record of Christian dead in Egypt.",
+          "srcALX034: Christopher Haas, Alexandria in Late Antiquity: Topography and Social Conflict (Johns Hopkins UP, 1997)",
+          "  Author Gravity - Haas, Alexandria in Late Antiquity: the necropolis districts flanking the city and the funerary trades that worked them."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "alexamb008",
+          "world_id": "alexandria-catechetical",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The city's dead",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Holds across the window: Egyptian and Greek funerary custom in and around the city. Christian teaching about death and resurrection is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcALX026",
+              "author_gravity_note": "Egyptian Christian archaeology: funerary evidence - burial grounds, chapels, and the material record of Christian dead in Egypt."
+            },
+            {
+              "source_id": "srcALX034",
+              "author_gravity_note": "Haas, Alexandria in Late Antiquity: the necropolis districts flanking the city and the funerary trades that worked them."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Alexandria kept its dead at its edges: necropolis districts east and west of the walls, old and vast, cut with tombs in every fashion the city's mixed peoples had brought - Greek chamber tombs, Egyptian embalmers' workshops still practicing an ancient trade, humble pit graves for the poor. Funerals moved through the streets with mourners and, among the old families, hired lament. Egyptian habit kept the dead close and tended: visits, offerings of food, the grave as a place a family returned to. Christians buried rather than burned, gathered their dead together where they could, and in time built chapels among the graves. The customs of grief - procession, lament, the meal at the tomb - were the city's shared inheritance before any community's teaching touched them.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how the dead were buried or mourned",
+              "participant asks about tombs, embalming, or funerals in Egypt"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the city's dead alexamb008 ambient the city's dead common life of the place, not the teaching of any one voice. alexandria kept its dead at its edges: necropolis districts east and west of the walls, old and vast, cut with tombs in every fashion the city's mixed peoples had brought - greek chamber tombs, egyptian embalmers' workshops still practicing an ancient trade, humble pit graves for the poor. funerals moved through the streets with mourners and, among the old families, hired lament. egyptian habit kept the dead close and tended: visits, offerings of food, the grave as a place a family returned to. christians buried rather than burned, gathered their dead together where they could, and in time built chapels among the graves. the customs of grief - procession, lament, the meal at the tomb - were the city's shared inheritance before any community's teaching touched them."
+    },
     {
       "id": "alexclaim001",
       "record_type": "contested_claim",
@@ -16747,6 +17205,8 @@
     },
     "by_source": {
       "srcALX001": [
+        "alexamb003",
+        "alexamb004",
         "alexclaim001",
         "alexclaim002",
         "alexclaim004",
@@ -16984,6 +17444,9 @@
         "alexlex042",
         "alexstory005"
       ],
+      "srcALX006": [
+        "alexamb002"
+      ],
       "srcALX007": [
         "alexlex059",
         "alexstory001"
@@ -16992,6 +17455,8 @@
         "alexlex015"
       ],
       "srcALX009": [
+        "alexamb002",
+        "alexamb007",
         "alexclaim004",
         "alexforce1A1",
         "alexforce1A2",
@@ -17048,8 +17513,19 @@
         "alexclaim004",
         "alexlex059"
       ],
+      "srcALX022": [
+        "alexamb001",
+        "alexamb007"
+      ],
+      "srcALX023": [
+        "alexamb006"
+      ],
       "srcALX025": [
+        "alexamb005",
         "alexstory009"
+      ],
+      "srcALX026": [
+        "alexamb008"
       ],
       "srcALX027": [
         "alexlex001",
@@ -17078,6 +17554,7 @@
         "alexlex045"
       ],
       "srcALX028": [
+        "alexamb003",
         "alexlex026",
         "alexlex043"
       ],
@@ -17105,6 +17582,14 @@
       ],
       "srcALX033": [
         "alexq001"
+      ],
+      "srcALX034": [
+        "alexamb001",
+        "alexamb006",
+        "alexamb008"
+      ],
+      "srcALX037": [
+        "alexamb005"
       ]
     },
     "by_figure": {

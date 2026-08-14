@@ -3,8 +3,466 @@
   "world_id": "desert-monasticism",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 99,
+  "record_count": 107,
   "records": [
+    {
+      "id": "desertamb001",
+      "record_type": "ambient",
+      "title": "The cell as a dwelling",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb001",
+        "record_type": "ambient",
+        "title": "The cell as a dwelling",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES009: French and Swiss archaeological teams (Antoine Guillaumont, discovery 1964), The Kellia excavations (1965-1990)",
+          "  Author Gravity - The Kellia excavations: hundreds of hermitages surveyed and dug - mud-brick rooms around small courtyards, oratories, kitchens, wells, low walls - the desert dwelling as archaeology, citable as material fact.",
+          "srcDES022: William Harmless, Desert Christians: An Introduction to the Literature of Early Monasticism (Oxford University Press, 2004)",
+          "  Author Gravity - Harmless, Desert Christians: the settlement pattern of the monastic sites - cells within walking distance of church and neighbor - as the literature's own background."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb001",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The cell as a dwelling",
+          "ambient_domain": "household-and-family",
+          "period_note": "Fourth-to-fifth-century texture, anchored by excavation: the physical cell. What the cell MEANT - the discipline of staying in it - is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcDES009",
+              "author_gravity_note": "The Kellia excavations: hundreds of hermitages surveyed and dug - mud-brick rooms around small courtyards, oratories, kitchens, wells, low walls - the desert dwelling as archaeology, citable as material fact."
+            },
+            {
+              "source_id": "srcDES022",
+              "author_gravity_note": "Harmless, Desert Christians: the settlement pattern of the monastic sites - cells within walking distance of church and neighbor - as the literature's own background."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. A cell was a built thing: mud brick, usually two or three small rooms off a little walled courtyard, a niche for prayer, a mat, a lamp, a water jar, sometimes a well shared between neighbors. The excavated settlements show them scattered like a thin village - near enough to a neighbor to walk to, far enough not to hear him. A man built his own or took over one left empty, patched the roof after the rare rains, kept a small store of bread and salt, and worked at his handcraft by the door's light. Nothing about the building was strange to an Egyptian villager; it was a farm laborer's hut set down where no farm was. The strangeness was only in where it stood and how long a man stayed in it.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what a cell was like, where monks lived, or what they owned",
+              "participant asks about the physical, practical side of desert dwelling"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the cell as a dwelling desertamb001 ambient the cell as a dwelling common life of the place, not the teaching of any one voice. a cell was a built thing: mud brick, usually two or three small rooms off a little walled courtyard, a niche for prayer, a mat, a lamp, a water jar, sometimes a well shared between neighbors. the excavated settlements show them scattered like a thin village - near enough to a neighbor to walk to, far enough not to hear him. a man built his own or took over one left empty, patched the roof after the rare rains, kept a small store of bread and salt, and worked at his handcraft by the door's light. nothing about the building was strange to an egyptian villager; it was a farm laborer's hut set down where no farm was. the strangeness was only in where it stood and how long a man stayed in it."
+    },
+    {
+      "id": "desertamb002",
+      "record_type": "ambient",
+      "title": "Bread, salt, and water",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb002",
+        "record_type": "ambient",
+        "title": "Bread, salt, and water",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
+          "  Author Gravity - The Apophthegmata: dried loaves, salt, water, the occasional cooked lentils or a few vegetables, the relaxations for guests - the diet appears throughout as the assumed furniture of the life, cited as that furniture only.",
+          "srcDES024: Ewa Wipszycka, The Second Gift of the Nile: Monks and Monasteries in Late Antique Egypt (JJP Supplement, 2018)",
+          "  Author Gravity - Wipszycka, The Second Gift of the Nile: the economics of monastic provisioning - where the bread actually came from and how it reached the desert."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb002",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Bread, salt, and water",
+          "ambient_domain": "food-and-famine",
+          "period_note": "Holds across the window: the desert diet as the sayings themselves take it for granted. Fasting's MEANING is Native-Constitutive; this record carries the food itself.",
+          "sources": [
+            {
+              "source_id": "srcDES005",
+              "author_gravity_note": "The Apophthegmata: dried loaves, salt, water, the occasional cooked lentils or a few vegetables, the relaxations for guests - the diet appears throughout as the assumed furniture of the life, cited as that furniture only."
+            },
+            {
+              "source_id": "srcDES024",
+              "author_gravity_note": "Wipszycka, The Second Gift of the Nile: the economics of monastic provisioning - where the bread actually came from and how it reached the desert."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The food of the desert was bread - flat dried loaves, baked hard so they would keep for months, softened in water to be eaten. With it, salt; water from the well or carried in; sometimes lentils or a little oil; green things rarely; wine known but watched. Loaves came from the valley - bought at market, earned by handwork, or baked in batches at the bigger settlements - and a man stored his supply in the cell and counted it. Two loaves a day was ordinary; the old and the sick were fed more and told to eat. When a guest came, the pot went on and the rule of the day bent to the meal, because a traveler had crossed desert to arrive. Hunger was never mysterious here. Everyone knew exactly what bread cost and how far a sack of it had walked.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what monks ate and drank, or how food reached the desert",
+              "participant asks about fasting's practical shape - the meals themselves"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "bread, salt, and water desertamb002 ambient bread, salt, and water common life of the place, not the teaching of any one voice. the food of the desert was bread - flat dried loaves, baked hard so they would keep for months, softened in water to be eaten. with it, salt; water from the well or carried in; sometimes lentils or a little oil; green things rarely; wine known but watched. loaves came from the valley - bought at market, earned by handwork, or baked in batches at the bigger settlements - and a man stored his supply in the cell and counted it. two loaves a day was ordinary; the old and the sick were fed more and told to eat. when a guest came, the pot went on and the rule of the day bent to the meal, because a traveler had crossed desert to arrive. hunger was never mysterious here. everyone knew exactly what bread cost and how far a sack of it had walked."
+    },
+    {
+      "id": "desertamb003",
+      "record_type": "ambient",
+      "title": "Rope, baskets, and wages",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb003",
+        "record_type": "ambient",
+        "title": "Rope, baskets, and wages",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
+          "  Author Gravity - The Apophthegmata: plaited palm, rope, baskets, the harvest hire, selling at the villages - the economy appears everywhere as background fact, cited as that fact.",
+          "srcDES015: James Goehring, Ascetics, Society, and the Desert: Studies in Early Egyptian Monasticism (Trinity Press International, 1999)",
+          "  Author Gravity - Goehring, Ascetics, Society, and the Desert: the monks' real economic embeddedness in the Nile valley - markets, wages, and trade between desert and village."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb003",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Rope, baskets, and wages",
+          "ambient_domain": "work-and-money",
+          "period_note": "Holds across the window: the handwork economy the sayings assume. Work's MEANING in the life is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcDES005",
+              "author_gravity_note": "The Apophthegmata: plaited palm, rope, baskets, the harvest hire, selling at the villages - the economy appears everywhere as background fact, cited as that fact."
+            },
+            {
+              "source_id": "srcDES015",
+              "author_gravity_note": "Goehring, Ascetics, Society, and the Desert: the monks' real economic embeddedness in the Nile valley - markets, wages, and trade between desert and village."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The desert worked for its bread. Palm fronds came up from the valley in bundles; a man soaked them, split them, and plaited rope and baskets through the day's hours, and the finished goods went back down to the villages to be sold or bartered for loaves. Some went out at harvest and hired themselves to the fields like any laborer, and were paid like any laborer. Prices were known and discussed; a basket was worth so much, a day's reaping so much, and cheating a monk at market was as possible as cheating anyone. The coin or grain that came back bought bread, covered a guest, or went to the poor of the villages. The desert had no separate economy - it hung from the valley's one, by a rope of its own plaiting.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks how monks earned a living, what work they did, or about money",
+              "participant asks whether the desert depended on the settled land"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "rope, baskets, and wages desertamb003 ambient rope, baskets, and wages common life of the place, not the teaching of any one voice. the desert worked for its bread. palm fronds came up from the valley in bundles; a man soaked them, split them, and plaited rope and baskets through the day's hours, and the finished goods went back down to the villages to be sold or bartered for loaves. some went out at harvest and hired themselves to the fields like any laborer, and were paid like any laborer. prices were known and discussed; a basket was worth so much, a day's reaping so much, and cheating a monk at market was as possible as cheating anyone. the coin or grain that came back bought bread, covered a guest, or went to the poor of the villages. the desert had no separate economy - it hung from the valley's one, by a rope of its own plaiting."
+    },
+    {
+      "id": "desertamb004",
+      "record_type": "ambient",
+      "title": "The valley at the desert's edge",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb004",
+        "record_type": "ambient",
+        "title": "The valley at the desert's edge",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES024: Ewa Wipszycka, The Second Gift of the Nile: Monks and Monasteries in Late Antique Egypt (JJP Supplement, 2018)",
+          "  Author Gravity - Wipszycka, The Second Gift of the Nile: the monastic settlements' actual placement relative to the valley, its villages, and its river traffic.",
+          "srcDES008: anonymous (Mount of Olives community); Rufinus of Aquileia (Latin adaptation), Historia Monachorum in Aegypto (Greek, c. 394-395) with Rufinus's Latin translation/adaptation (c. 403)",
+          "  Author Gravity - Historia Monachorum in Aegypto: a real journey among the settlements - distances, guides, dangers, hospitality along the way - travel texture from a traveling account."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb004",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The valley at the desert's edge",
+          "ambient_domain": "trade-and-travel",
+          "period_note": "Holds across the window: the geography every desert dweller lived with.",
+          "sources": [
+            {
+              "source_id": "srcDES024",
+              "author_gravity_note": "Wipszycka, The Second Gift of the Nile: the monastic settlements' actual placement relative to the valley, its villages, and its river traffic."
+            },
+            {
+              "source_id": "srcDES008",
+              "author_gravity_note": "Historia Monachorum in Aegypto: a real journey among the settlements - distances, guides, dangers, hospitality along the way - travel texture from a traveling account."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The desert of the monks began where the black land stopped: a line a person could stand on, one foot in the sown, one in the sand. The valley was never far - a walk of hours, not weeks, for most settlements - and its life ran alongside: villages, canals, harvest and tax seasons, boats working the river. Travelers came out from the valley to visit the settlements, hiring guides, carrying water, sometimes losing the track; accounts of such journeys count the days between settlements and name the dangers - thirst, robbers, wrong turnings. Monks went the other way for markets and festivals and were known figures in the villages. The two worlds faced each other across that line every day, each entirely visible to the other.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks where the desert was, how far from towns, or how people traveled to it",
+              "participant asks about the relation between monks and the villages"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the valley at the desert's edge desertamb004 ambient the valley at the desert's edge common life of the place, not the teaching of any one voice. the desert of the monks began where the black land stopped: a line a person could stand on, one foot in the sown, one in the sand. the valley was never far - a walk of hours, not weeks, for most settlements - and its life ran alongside: villages, canals, harvest and tax seasons, boats working the river. travelers came out from the valley to visit the settlements, hiring guides, carrying water, sometimes losing the track; accounts of such journeys count the days between settlements and name the dangers - thirst, robbers, wrong turnings. monks went the other way for markets and festivals and were known figures in the villages. the two worlds faced each other across that line every day, each entirely visible to the other."
+    },
+    {
+      "id": "desertamb005",
+      "record_type": "ambient",
+      "title": "Letters to the settlements",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb005",
+        "record_type": "ambient",
+        "title": "Letters to the settlements",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES010: Paieous, Nepheros, and correspondents (Melitian community, Hipponon), The Nepheros archive (4th-c. papyrological correspondence)",
+          "  Author Gravity - The Nepheros archive: actual fourth-century letters from lay people to a monastic figure and his community - requests for prayer mixed with business, family news, and goods - correspondence as documentary fact."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb005",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Letters to the settlements",
+          "ambient_domain": "language-and-school",
+          "period_note": "Fourth-century texture anchored by a documentary find: lay letters to a monastic community. The spiritual COUNSEL exchanged is Native-Constitutive; this record carries the correspondence habit itself.",
+          "sources": [
+            {
+              "source_id": "srcDES010",
+              "author_gravity_note": "The Nepheros archive: actual fourth-century letters from lay people to a monastic figure and his community - requests for prayer mixed with business, family news, and goods - correspondence as documentary fact."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. People wrote to the desert. A surviving bundle of fourth-century letters shows the traffic: laymen and women writing to a settlement with requests for prayer set beside entirely practical matters - goods to be sent, business to be minded, family troubles reported, greetings passed to named brothers. The letters use the ordinary politeness of Egyptian correspondence; they assume the monks read them, answer them, and act on them. Papyrus, ink, and a boatman or traveler willing to carry the packet connected a cell to a household two days' journey away. The desert was inside the country's web of letters like any village, and a settlement of some reputation handled a steady post.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks whether monks had contact with families or the outside world",
+              "participant asks about letters, messages, or how news reached the desert"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "letters to the settlements desertamb005 ambient letters to the settlements common life of the place, not the teaching of any one voice. people wrote to the desert. a surviving bundle of fourth-century letters shows the traffic: laymen and women writing to a settlement with requests for prayer set beside entirely practical matters - goods to be sent, business to be minded, family troubles reported, greetings passed to named brothers. the letters use the ordinary politeness of egyptian correspondence; they assume the monks read them, answer them, and act on them. papyrus, ink, and a boatman or traveler willing to carry the packet connected a cell to a household two days' journey away. the desert was inside the country's web of letters like any village, and a settlement of some reputation handled a steady post."
+    },
+    {
+      "id": "desertamb006",
+      "record_type": "ambient",
+      "title": "Guests at the door",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb006",
+        "record_type": "ambient",
+        "title": "Guests at the door",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES008: anonymous (Mount of Olives community); Rufinus of Aquileia (Latin adaptation), Historia Monachorum in Aegypto (Greek, c. 394-395) with Rufinus's Latin translation/adaptation (c. 403)",
+          "  Author Gravity - Historia Monachorum: an entire account built from visiting - parties of travelers received, lodged, fed, and sent on from settlement to settlement.",
+          "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
+          "  Author Gravity - The Apophthegmata: the knock at the door as a constant of the life - the pot set on, the fast broken for the guest - cited as the practice's ordinariness."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb006",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Guests at the door",
+          "ambient_domain": "calendar-and-festival",
+          "period_note": "Holds across the window: the visiting traffic the literature itself is made from. What hospitality MEANT is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcDES008",
+              "author_gravity_note": "Historia Monachorum: an entire account built from visiting - parties of travelers received, lodged, fed, and sent on from settlement to settlement."
+            },
+            {
+              "source_id": "srcDES005",
+              "author_gravity_note": "The Apophthegmata: the knock at the door as a constant of the life - the pot set on, the fast broken for the guest - cited as the practice's ordinariness."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The desert had visitors the way a shrine has pilgrims. Parties came up from the cities and even from across the sea - the curious, the devout, the desperate - and the settlements received them: water for feet, the pot set on, a mat for the night, an escort to the next settlement. Whole books were written by such travelers, counting the days and naming their hosts. Local traffic was thicker still: villagers bringing sick relatives, buyers for baskets, young men testing the life, families visiting a son. A famous elder's door could be as busy as a magistrate's. However fiercely a man guarded his solitude, the knock at the door was part of the desert's week, and everyone had a store of bread against it.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about visitors, pilgrims, or hospitality in the desert",
+              "participant asks whether the solitary life was actually solitary"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "guests at the door desertamb006 ambient guests at the door common life of the place, not the teaching of any one voice. the desert had visitors the way a shrine has pilgrims. parties came up from the cities and even from across the sea - the curious, the devout, the desperate - and the settlements received them: water for feet, the pot set on, a mat for the night, an escort to the next settlement. whole books were written by such travelers, counting the days and naming their hosts. local traffic was thicker still: villagers bringing sick relatives, buyers for baskets, young men testing the life, families visiting a son. a famous elder's door could be as busy as a magistrate's. however fiercely a man guarded his solitude, the knock at the door was part of the desert's week, and everyone had a store of bread against it."
+    },
+    {
+      "id": "desertamb007",
+      "record_type": "ambient",
+      "title": "Sickness and burial in the sand",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb007",
+        "record_type": "ambient",
+        "title": "Sickness and burial in the sand",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
+          "  Author Gravity - The Apophthegmata: the sick nursed in their cells, elders tended in their last years, the dead wrapped and buried by their neighbors - practical care as pervasive background.",
+          "srcDES007: Palladius of Galatia, Lausiac History",
+          "  Author Gravity - The Lausiac History: illness, old age, and death among the settlements as an eyewitness's repeated subject."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb007",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "Sickness and burial in the sand",
+          "ambient_domain": "sickness-and-death",
+          "period_note": "Holds across the window: illness, age, and burial as the life's practical facts. The teaching about death is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcDES005",
+              "author_gravity_note": "The Apophthegmata: the sick nursed in their cells, elders tended in their last years, the dead wrapped and buried by their neighbors - practical care as pervasive background."
+            },
+            {
+              "source_id": "srcDES007",
+              "author_gravity_note": "The Lausiac History: illness, old age, and death among the settlements as an eyewitness's repeated subject."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. Sickness in the desert was nursed by neighbors. A man too ill to work was fed from other men's stores; the settlements kept their old alive for years past their strength, carrying water and bread to cells whose owners could no longer walk. Fevers came up from the valley; eyes failed in the glare and the smoke; the ordinary diseases of the country did not respect the boundary of the sand. When a man died, his neighbors washed and wrapped the body, said the psalms, and buried him in the sand or the rock near his cell, often before the day was out, as the climate demanded. Graves were plain and mostly unmarked. The practical shape of dying here was a village's shape, transplanted - neighbors' hands, quick burial, and the survivors dividing what little the cell held.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks what happened when monks fell sick, grew old, or died",
+              "participant asks about burial or care for the dying in the desert"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "sickness and burial in the sand desertamb007 ambient sickness and burial in the sand common life of the place, not the teaching of any one voice. sickness in the desert was nursed by neighbors. a man too ill to work was fed from other men's stores; the settlements kept their old alive for years past their strength, carrying water and bread to cells whose owners could no longer walk. fevers came up from the valley; eyes failed in the glare and the smoke; the ordinary diseases of the country did not respect the boundary of the sand. when a man died, his neighbors washed and wrapped the body, said the psalms, and buried him in the sand or the rock near his cell, often before the day was out, as the climate demanded. graves were plain and mostly unmarked. the practical shape of dying here was a village's shape, transplanted - neighbors' hands, quick burial, and the survivors dividing what little the cell held."
+    },
+    {
+      "id": "desertamb008",
+      "record_type": "ambient",
+      "title": "The week's shape",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertamb008",
+        "record_type": "ambient",
+        "title": "The week's shape",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [],
+        "reflect": [
+          "The source rows this record stands on:",
+          "srcDES005: anonymous compilers (5th-6th c.), Apophthegmata Patrum (Sayings of the Desert Fathers)",
+          "  Author Gravity - The Apophthegmata: the week alone and the weekend gathering as the assumed calendar of the semi-anchoritic settlements - cited as schedule only.",
+          "srcDES017: Graham Gould, The Desert Fathers on Monastic Community (Oxford Early Christian Studies, Oxford University Press, 1993)",
+          "  Author Gravity - The Desert Fathers on Monastic Community: the institutional rhythm of cell and synaxis across the settlement types."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertamb008",
+          "world_id": "desert-monasticism",
+          "record_type": "ambient",
+          "schema_version": 1,
+          "source_register": "native-ambient",
+          "register": "etic",
+          "review_state": "draft",
+          "cache_stability": "static",
+          "title": "The week's shape",
+          "ambient_domain": "calendar-and-festival",
+          "period_note": "Holds across the window: the weekly schedule as institutional fact. What the gathering MEANT - its worship and teaching - is Native-Constitutive.",
+          "sources": [
+            {
+              "source_id": "srcDES005",
+              "author_gravity_note": "The Apophthegmata: the week alone and the weekend gathering as the assumed calendar of the semi-anchoritic settlements - cited as schedule only."
+            },
+            {
+              "source_id": "srcDES017",
+              "author_gravity_note": "The Desert Fathers on Monastic Community: the institutional rhythm of cell and synaxis across the settlement types."
+            }
+          ],
+          "text": "Common life of the place, not the teaching of any one voice. The desert kept a week. Five days a man was at his cell - work, prayer, bread at the ninth hour, no one's voice but his own and a neighbor's through the wall of silence. On the weekend the settlement walked to its church: the gathering, the common meal, the exchange of finished handwork for the next week's palm and loaves, news traded, disputes aired, the sick reported. Then the file of men walked back out to their doors carrying bread and rope-fiber, and the silence closed again for five days. Villages within reach kept the same feast days everyone in Egypt kept, and the settlements marked the great ones. Time out here was not shapeless; it was a wheel of seven days, and every man knew which day it was by what his hands were doing.",
+          "retrieval": {
+            "tier": 3,
+            "retrieve_when": [
+              "participant asks about the weekly routine or how time was organized in the desert",
+              "participant asks when monks gathered and when they were alone"
+            ],
+            "do_not_retrieve_when": []
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the week's shape desertamb008 ambient the week's shape common life of the place, not the teaching of any one voice. the desert kept a week. five days a man was at his cell - work, prayer, bread at the ninth hour, no one's voice but his own and a neighbor's through the wall of silence. on the weekend the settlement walked to its church: the gathering, the common meal, the exchange of finished handwork for the next week's palm and loaves, news traded, disputes aired, the sick reported. then the file of men walked back out to their doors carrying bread and rope-fiber, and the silence closed again for five days. villages within reach kept the same feast days everyone in egypt kept, and the settlements marked the great ones. time out here was not shapeless; it was a wheel of seven days, and every man knew which day it was by what his hands were doing."
+    },
     {
       "id": "desertclaim001",
       "record_type": "contested_claim",
@@ -8058,6 +8516,11 @@
         "desertlex017"
       ],
       "srcDES005": [
+        "desertamb002",
+        "desertamb003",
+        "desertamb006",
+        "desertamb007",
+        "desertamb008",
         "desertclaim002",
         "desertclaim003",
         "desertclaim004",
@@ -8095,13 +8558,17 @@
         "desertstory010"
       ],
       "srcDES007": [
+        "desertamb007",
         "desertlex015",
         "desertstory008"
       ],
       "srcDES008": [
+        "desertamb004",
+        "desertamb006",
         "desertlex015"
       ],
       "srcDES009": [
+        "desertamb001",
         "desertclaim001",
         "desertclaim004",
         "desertlex001",
@@ -8110,6 +8577,7 @@
         "desertstory008"
       ],
       "srcDES010": [
+        "desertamb005",
         "desertclaim001",
         "desertclaim004",
         "desertforce1Ai",
@@ -8131,7 +8599,11 @@
         "desertlex011"
       ],
       "srcDES015": [
+        "desertamb003",
         "desertclaim001"
+      ],
+      "srcDES017": [
+        "desertamb008"
       ],
       "srcDES018": [
         "desertstory003"
@@ -8148,6 +8620,13 @@
         "desertstory004",
         "desertstory005",
         "desertstory006"
+      ],
+      "srcDES022": [
+        "desertamb001"
+      ],
+      "srcDES024": [
+        "desertamb002",
+        "desertamb004"
       ],
       "srcDES025": [
         "desertq002"
