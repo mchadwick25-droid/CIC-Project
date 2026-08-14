@@ -37,6 +37,13 @@ class WorldConfig:
         return self.data_path / "story_chunks"
 
     @property
+    def ambient_chunks_path(self) -> Path:
+        # Native-Ambient texture (redesign step 5, 2026-08-14). Worlds that
+        # have not built ambient content simply have no directory here -
+        # indexing skips it and nothing else changes.
+        return self.data_path / "ambient_chunks"
+
+    @property
     def source_registry_path(self) -> Path:
         return self.data_path / "source_registry.json"
 

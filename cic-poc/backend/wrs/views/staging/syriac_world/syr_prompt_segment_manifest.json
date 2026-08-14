@@ -55,8 +55,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
-   "chars": 4822,
-   "est_tokens": 1205
+   "chars": 5559,
+   "est_tokens": 1389
   },
   {
    "name": "session_layer",
@@ -79,12 +79,12 @@
  "budget": {
   "world_ground_est_tokens": 567,
   "world_ground_budget": "3000-5000 (§5.1; today's capsule folded in)",
-  "static_total_est_tokens": 5950
+  "static_total_est_tokens": 6134
  },
  "quick_reach": "absent - craft table empty this phase (craft_syr.py)",
  "readability": {
-  "fk_grade": 7.34,
-  "fre": 70.53,
+  "fk_grade": 7.39,
+  "fre": 70.67,
   "violations": []
  }
 }

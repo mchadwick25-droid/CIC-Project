@@ -186,7 +186,10 @@ class LexiconIndexer:
 
         main_content = main_content.strip()
         return LexiconEntry(
-            term=front_matter.get("term", ""),
+            # An ambient chunk titles itself Ambient-Title instead of Term;
+            # the title fills the same retrieval-surface slot.
+            term=front_matter.get("term", "")
+                 or front_matter.get("ambient_title", ""),
             world_code=front_matter.get("world_code", "syr"),
             tier=int(tier_raw) if tier_raw.isdigit() else 1,
             tags=parse_list(front_matter.get("tags", "")),
@@ -246,9 +249,18 @@ Quick meaning: {entry.quick_meaning}
         if lexicon_path is None:
             lexicon_path = settings.lexicon_chunks_path
 
-        # Parse all lexicon files
+        # Parse all lexicon files - plus the sibling ambient_chunks
+        # directory where a world has one (Native-Ambient texture,
+        # redesign step 5, 2026-08-14). Ambient chunks share the fenced
+        # front-matter format and ride the SAME index and retrieval path:
+        # no new per-turn calls, and the chunk's own Register line and
+        # Voice Rule travel inside its content payload.
+        chunk_files = sorted(lexicon_path.glob("*.md"))
+        ambient_dir = lexicon_path.parent / "ambient_chunks"
+        if ambient_dir.is_dir():
+            chunk_files += sorted(ambient_dir.glob("*.md"))
         entries = []
-        for file_path in sorted(lexicon_path.glob("*.md")):
+        for file_path in chunk_files:
             entry = self.parse_lexicon_file(file_path)
             entries.append(entry)
             # Some terms contain native-script characters (e.g. Syriac) the
