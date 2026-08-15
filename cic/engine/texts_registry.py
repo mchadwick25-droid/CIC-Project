@@ -245,6 +245,17 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Epistula 28, source_type P, no translation row cited yet) and the Canon 28 rejection "
               "letters (srcIJC13). Same shape as npnf211/Cassian/desert and npnf213/Aphrahat-Ephraim/"
               "syriac. Not acted on here - no translation row or quote drawn from it yet."),
+    TextEntry("npnf214_seven-ecumenical-councils.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 14: The Seven Ecumenical Councils (Percival ed./trans.). Completes "
+              "the full NPNF2 set (01-14). The most direct hit yet: THREE of imperial_juridical's own "
+              "load-bearing primary sources are Acts and Canons rows with no English translation cited "
+              "- srcIJC09 (Council of Nicaea, 325, 'initiating event'), srcIJC10 (Constantinople I, "
+              "381, Canon 3, 'Strand B founding evidence'), and srcIJC11 (Chalcedon, 451, Canon 28, "
+              "'the world's own closing event'). This volume is the standard English translation of "
+              "all three. Not acted on here - no translation row or quote drawn from it yet, but this "
+              "is the strongest candidate in the vendored set so far for deepening imperial_juridical "
+              "further, given how central all three councils are to the world's own gravity/figure/"
+              "contested-claim structure (per a broad grep, not just the source rows)."),
 )
 
 
