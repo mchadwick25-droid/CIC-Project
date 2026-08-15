@@ -237,6 +237,14 @@ ENTRIES: tuple[TextEntry, ...] = (
               "npnf104/204 ThML swap); no special-casing was needed. The third of the three Cappadocian "
               "Fathers (after npnf207 Gregory Nazianzen and npnf208 Basil) now has primary text "
               "vendored for the not-yet-built 'Cappadocian Nicene Pastoral-Monastic Tradition' world."),
+    TextEntry("npnf212_leo-great-gregory-great.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 12: Leo the Great, Gregory the Great. A third file this session "
+              "that maps directly onto an EXISTING built world's already-cited primary source: Leo I "
+              "is imperial_juridical's ijcfig007, and this volume carries the standard English "
+              "translation of his letters and sermons - including the Tome to Flavian (srcIJC12, "
+              "Epistula 28, source_type P, no translation row cited yet) and the Canon 28 rejection "
+              "letters (srcIJC13). Same shape as npnf211/Cassian/desert and npnf213/Aphrahat-Ephraim/"
+              "syriac. Not acted on here - no translation row or quote drawn from it yet."),
 )
 
 
