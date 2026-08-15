@@ -30,6 +30,8 @@ now sitting here if one is ever wanted.
 
 | `anf05_hippolytus-cyprian-caius-novatian.txt` | ANF vol. 5: Hippolytus, Cyprian, Caius, Novatian, Appendix (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Hippolytus, Cyprian |
 
+| `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt` | ANF vol. 6: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius, Methodius, Arnobius (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | note: this volume's own "Julius" is Julius Africanus the chronographer, NOT Julius I of Rome |
+
 NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
 Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
 Post-Nicene Fathers series instead. Checked directly in anf02: every
