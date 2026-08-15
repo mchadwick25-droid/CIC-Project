@@ -83,8 +83,11 @@ ENTRIES: tuple[TextEntry, ...] = (
               "structures, and a node's own skip-tag status must not be applied to its `tail` text - "
               "both mistakes were made and caught live during this swap, on the Smyrnaeans and "
               "Martyrdom-of-Polycarp passages respectively, before anything was recommitted."),
-    TextEntry("anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt", "Mark", "2026-08-15",
-              "Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria."),
+    TextEntry("anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml", "Mark", "2026-08-15",
+              "Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria. Swapped from "
+              "the plain-text rendering the same day, as anf01 was - no record cited the old .txt file "
+              "(this volume's own zero-citation status, unchanged), so this swap needed no "
+              "re-verification of any existing quote."),
     TextEntry("anf03_tertullian.txt", "Mark", "2026-08-15",
               "Carries Tertullian's Apologeticus, the primary text srcPAHCP15 already cites in pahc "
               "('Tertullian, Apology 39'). No quote record was in this session's worklist, so none "
