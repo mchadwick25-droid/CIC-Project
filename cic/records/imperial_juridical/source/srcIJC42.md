@@ -13,7 +13,9 @@ attribution_status: genuine
 level_of_description: work
 language: eng
 script: Latn
-work_author: Archibald Robertson (ed. and trans.); Philip Schaff and Henry Wace (series eds.)
+work_author: John Henry Newman (trans., Oxford Library of the Fathers, Historical Tracts of S. Athanasius,
+  1843), reprinted with corrections by Archibald Robertson for this edition; Philip Schaff and Henry
+  Wace (series eds.)
 work_title: 'Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters
   (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)'
 work_locus: '1892'
@@ -42,16 +44,17 @@ rights_status: 'PUBLIC DOMAIN, and display_permitted is set true on that basis: 
   determination made on publication date alone; Mark should confirm it before the first public render,
   and any modern reprint carrying new editorial matter is NOT covered by it.'
 display_permitted: true
-verification_note: 'Added so this world''s quote records can carry a real translation_used reference -
-  the gap that has kept Check B inert here (0 quote records, T3-B''s finding). NOTHING HAS BEEN VERIFIED
-  AGAINST THIS EDITION: no text host was reachable from this session, so no wording has been transcribed
-  or compared, and this world carries no verbatim ancient text of its own to check against either. Two
-  things a human must settle at the volume before a quote record is authored here. First, the wording
-  itself, at its locus. Second, the per-work translator attribution: NPNF2-04 contains both Robertson''s
-  and Newman''s translations of different Athanasian works, and which of them rendered the Apologia
-  contra Arianos should be read off the volume rather than inferred. Note also the doubled mediation
-  srcIJC04 already flags - Julius''s words reach us through Athanasius''s own apologetic quotation, so a
-  quote record here voices Julius at two removes and should say so.'
+verification_note: 'SUPERSEDED 2026-08-15, same day: Mark supplied the CCEL text directly (its own header
+  states Rights: Public Domain), closing both open questions this note originally raised. TRANSLATOR:
+  read directly out of the volume''s own Editorial Preface and §2 (Translations) rather than inferred -
+  "Mr. Robertson''s Preface explains the care and respect with which the translation... of Cardinal
+  Newman [have] been treated, in reprinting them"; the Historical Tracts (Newman''s Oxford Library of the
+  Fathers volume, 1843) are where the Defence Against the Arians / Apologia contra Arianos originates,
+  per Newman''s own cross-referenced introduction to them (p. 7564 in the vendored text). So this is
+  Newman''s translation, Robertson-corrected, not Robertson''s own - work_author corrected accordingly.
+  WORDING: verified direct against the vendored text at cic/texts/npnf204_athanasius-select-works-letters.txt
+  - see ijcq001. Note also the doubled mediation srcIJC04 already flags: Julius''s words reach us through
+  Athanasius''s own apologetic quotation, so ijcq001 voices Julius at two removes and says so.'
 added: 2026-08-15 (T3 follow-on; Mark''s text decision)
 ---
 Added 2026-08-15 as the translation row this world's quote records require, following Mark's selection of Julius I's letter of 341 as the text. Bibliographic data verified by web search; the volume itself has not been consulted and no wording has been checked against it - see `verification_note`. Rights posture is the inverse of pahc's Holmes row: public domain, `display_permitted: true`, stated on publication-date grounds in `rights_status`.

@@ -38,6 +38,8 @@ now sitting here if one is ever wanted.
 
 | `anf09_gospel-of-peter-diatessaron-origen-commentaries.txt` | ANF vol. 9: Gospel of Peter, Diatessaron of Tatian, Apocalypse of Peter, Testament of Abraham, Apology of Aristides, Epistles of Clement (complete), Origen Commentaries on John/Matthew. CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Origen commentaries |
 
+| `npnf204_athanasius-select-works-letters.txt` | Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Schaff/Wace eds.; Christian Literature Publishing Co., 1892). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcIJC42` | Julius I's letter of 341 (via Athanasius) - closes the last inert Check B cell |
+
 NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
 Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
 Post-Nicene Fathers series instead. Checked directly in anf02: every
