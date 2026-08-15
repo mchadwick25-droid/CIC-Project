@@ -244,7 +244,13 @@ ENTRIES: tuple[TextEntry, ...] = (
               "translation of his letters and sermons - including the Tome to Flavian (srcIJC12, "
               "Epistula 28, source_type P, no translation row cited yet) and the Canon 28 rejection "
               "letters (srcIJC13). Same shape as npnf211/Cassian/desert and npnf213/Aphrahat-Ephraim/"
-              "syriac. Not acted on here - no translation row or quote drawn from it yet."),
+              "syriac. FOLLOW-UP (2026-08-15, same day): srcIJC12's Tome to Flavian was covered "
+              "separately via srcIJC46, scoped to its text as preserved in npnf214's Acts of "
+              "Chalcedon (see ijcq004). srcIJC13's Canon 28 correspondence got srcIJC47, a translation "
+              "row citing this volume (translator: Charles Lett Feltoe, confirmed from the volume's "
+              "own preface signature) - but srcIJC47 is honestly marked NOT wording-verified, since no "
+              "specific letter among the many to Marcian/Pulcheria/Anatolius has been individually "
+              "pinned down and checked. That remains future work before any quote can cite it."),
     TextEntry("npnf214_seven-ecumenical-councils.xml", "Mark", "2026-08-15",
               "NPNF Series II, Vol. 14: The Seven Ecumenical Councils (Percival ed./trans.). Completes "
               "the full NPNF2 set (01-14). The most direct hit yet: THREE of imperial_juridical's own "
