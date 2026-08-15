@@ -234,7 +234,11 @@ ENTRIES: tuple[TextEntry, ...] = (
               "(Lehto, Gorgias Press 2010; Valavanolickal, Gorgias Press 2005) are BOTH modern and "
               "in-copyright - Gwynn's translation in this volume (1898) is public domain, the same "
               "shape as pahc's earlier Holmes-to-ANF swap this session, given the 'free tools, no "
-              "budget' constraint. Not acted on here - no translation row or quote drawn from it yet."),
+              "budget' constraint. FOLLOW-UP (2026-08-15, same day): srcSYR065 now cites this volume "
+              "(div1 iii) as a public-domain translation alternative, display_permitted true - added "
+              "alongside srcSYR010, not replacing it. Honestly marked NOT wording-verified (no desert "
+              "or syriac quote currently cites Ephraim or Aphrahat text at all); a specific passage "
+              "still needs to be found before any quote can cite it."),
     TextEntry("npnf205_gregory-nyssa-dogmatic-treatises.txt", "Mark", "2026-08-15",
               "NPNF Series II, Vol. 5: Gregory of Nyssa: Dogmatic Treatises, Etc. Supplied as plain "
               "text, not ThML - Mark reported the ThML export 'not working' for this volume. The "
