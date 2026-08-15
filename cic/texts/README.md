@@ -55,7 +55,7 @@ and Against the Donatists | Public Domain | Mark | 2026-08-15 | - |
 | `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` | NPNF-211. Sulpitius Severus, Vincent of Lerins, John Cassian | Public Domain | Mark | 2026-08-15 | - |
 | `npnf212_leo-great-gregory-great.xml` | NPNF-212. Leo the Great, Gregory the Great | Public Domain | Mark | 2026-08-15 | - |
 | `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` | NPNF-213. Gregory the Great (II), Ephraim Syrus, Aphrahat | Public Domain | Mark | 2026-08-15 | - |
-| `npnf214_seven-ecumenical-councils.xml` | NPNF2-14. The Seven Ecumenical Councils | Public Domain | Mark | 2026-08-15 | - |
+| `npnf214_seven-ecumenical-councils.xml` | NPNF2-14. The Seven Ecumenical Councils | Public Domain | Mark | 2026-08-15 | `ijcq004`, `srcIJC46` |
 
 Notes carried over per file:
 
