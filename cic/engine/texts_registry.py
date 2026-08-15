@@ -96,11 +96,15 @@ ENTRIES: tuple[TextEntry, ...] = (
               "the swap, so nothing needed re-verification."),
     TextEntry("anf04_tertullian4-minucius-felix-commodian-origen1-2.txt", "Mark", "2026-08-15",
               "Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2."),
-    TextEntry("anf05_hippolytus-cyprian-caius-novatian.txt", "Mark", "2026-08-15",
+    TextEntry("anf05_hippolytus-cyprian-caius-novatian.xml", "Mark", "2026-08-15",
               "Hippolytus, Cyprian, Caius, Novatian. Carries ~82 of Cyprian's own letters plus On the "
               "Lapsed, On the Mortality, and Pontius's Life of Cyprian - primary-source material for "
               "the not-yet-built Latin Pastoral-Congregational Christianity world (census: "
-              "'Selected - Not Yet Built')."),
+              "'Selected - Not Yet Built'). Swapped from the plain-text rendering the same day, as "
+              "anf01/02/03 were - zero citations before the swap, so nothing needed re-verification. "
+              "Structured letter/chapter ids here would matter directly once that world is built: "
+              "Cyprian's ~82 letters are individually addressable rather than needing to be located "
+              "by reading forward through flowing prose."),
     TextEntry("anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt", "Mark",
               "2026-08-15",
               "This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - "
