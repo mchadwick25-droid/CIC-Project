@@ -212,6 +212,15 @@ ENTRIES: tuple[TextEntry, ...] = (
               "named in the same not-yet-built world - between this volume and npnf207, two of the "
               "three Cappadocians now have primary text vendored (Gregory of Nyssa, NPNF2-05, does "
               "not yet). Vendored for future reference; no quote or source record cites it yet."),
+    TextEntry("npnf211_sulpitius-severus-vincent-lerins-cassian.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 11: Sulpitius Severus, Vincent of Lerins, John Cassian. Supplied "
+              "with no accompanying text. John Cassian (Institutes, Conferences) is desert's own "
+              "srcDES026 - a Latin primary-source row never independently re-collated, cited "
+              "load-bearingly by four of that world's build documents (Doc_01, Doc_03, Doc_08, "
+              "Doc_09c) per its own verification_note. This volume supplies the standard English "
+              "translation of exactly that corpus - the first vendored file this session that maps "
+              "directly onto an EXISTING world's already-cited source row rather than adding a fresh "
+              "one. No translation row or quote yet drawn from it; that is future work, not done here."),
 )
 
 
