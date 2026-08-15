@@ -124,8 +124,10 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Addai) - not drawn on so far; that figure's own record already treats him as legend, "
               "not history. Swapped from the plain-text rendering the same day, as anf01/02/03/05/06/07 "
               "were - zero citations before the swap, so nothing needed re-verification."),
-    TextEntry("anf09_gospel-of-peter-diatessaron-origen-commentaries.txt", "Mark", "2026-08-15",
-              "Origen's Commentaries on John and Matthew, among others."),
+    TextEntry("anf09_gospel-of-peter-diatessaron-origen-commentaries.xml", "Mark", "2026-08-15",
+              "Origen's Commentaries on John and Matthew, among others. Swapped from the plain-text "
+              "rendering the same day, as anf01/02/03/05/06/07/08 were - zero citations before the "
+              "swap, so nothing needed re-verification."),
     TextEntry("npnf204_athanasius-select-works-letters.txt", "Mark", "2026-08-15",
               "The volume srcIJC42 was scoped for from the start. Closed the last inert Check B cell "
               "in the fleet (ijcq001, Julius I's letter of 341)."),

@@ -33,7 +33,13 @@ committing them would be redistribution.
     and Minor Writers, Methodius, Arnobius | Public Domain | Mark | 2026-08-15 | - |
 | `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies | Public Domain | Mark | 2026-08-15 | `pahcq005`, `srcPAHCS63` |
 | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age | Public Domain | Mark | 2026-08-15 | - |
-| `anf09_gospel-of-peter-diatessaron-origen-commentaries.txt` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The | Public Domain | Mark | 2026-08-15 | - |
+| `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The
+ Apocalypse of Peter, the Vision of Paul, The Apocalypse of the Virgin
+ and Sedrach, The Testament of Abraham, The Acts of Xanthippe and
+ Polyxena, The Narrative of Zosimus, The Apology of Aristides, The
+ Epistles of Clement (complete text), Origen’s Commentary on John,
+ Books 1–10, and Commentary on Matthew, Books 1, 2, and
+ 10–14. | Public Domain | Mark | 2026-08-15 | - |
 | `npnf204_athanasius-select-works-letters.txt` | NPNF2-04. Athanasius: Select Works and Letters | Public Domain | Mark | 2026-08-15 | `ijcq001`, `srcIJC42` |
 
 Notes carried over per file:
@@ -46,7 +52,7 @@ Notes carried over per file:
 - **`anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`** -- This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - NOT Julius I of Rome (srcIJC04/srcIJC42). Swapped from the plain-text rendering the same day, as anf01/02/03/05 were - zero citations before the swap, so nothing needed re-verification.
 - **`anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`** -- Carries the Didache, published too late for ANF vol. 1 - closed the deferred gap srcPAHCS62 named. Translator for the Didache specifically: Isaac H. Hall and John T. Napier (Sunday-School Times, 1884), not the volume's general editors. Swapped from the plain-text rendering the same day, as anf01/02/03/05/06 were - unlike those, this one had an existing quote (pahcq005) and source (srcPAHCS63) citing it, so both were re-verified against the XML with the tail-aware element walker before the swap, not just before it was trusted: the committed wording matched exactly.
 - **`anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`** -- Carries Abgar/Edessa correspondence material, relevant to syriac world (syrfig005, Addai) - not drawn on so far; that figure's own record already treats him as legend, not history. Swapped from the plain-text rendering the same day, as anf01/02/03/05/06/07 were - zero citations before the swap, so nothing needed re-verification.
-- **`anf09_gospel-of-peter-diatessaron-origen-commentaries.txt`** -- Origen's Commentaries on John and Matthew, among others.
+- **`anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`** -- Origen's Commentaries on John and Matthew, among others. Swapped from the plain-text rendering the same day, as anf01/02/03/05/06/07/08 were - zero citations before the swap, so nothing needed re-verification.
 - **`npnf204_athanasius-select-works-letters.txt`** -- The volume srcIJC42 was scoped for from the start. Closed the last inert Check B cell in the fleet (ijcq001, Julius I's letter of 341).
 
 Not records: nothing here is schema-validated or read by the runtime. These are reference copies for verification, cited by the `source`/`quote` records that carry the bibliographic and wording claims.
