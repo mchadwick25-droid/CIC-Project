@@ -308,6 +308,15 @@ ENTRIES: tuple[TextEntry, ...] = (
               "\"vii.1.LXXV\", titled \"From Jerome\" in Augustine's own numbering - confirming "
               "srcHAL009's own cross-reference note. Not acted on here - no translation row or quote "
               "drawn from it yet, but both gaps flagged for this volume are now closeable."),
+    TextEntry("npnf102_augustine-city-of-god-christian-doctrine.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 2: St. Augustine's City of God and Christian Doctrine. Supplied "
+              "with no accompanying text. Completes the full 8-volume NPNF1 Augustine set (01-08, all "
+              "now vendored). No built world currently cites City of God or De Doctrina Christiana "
+              "directly (a title-text search turned up only unrelated modern secondary sources whose "
+              "titles happen to share the phrase 'Christian Doctrine' - srcIJC33, srcPAHCS25 - not "
+              "Augustine's work). Vendored for future reference, most plausibly for the "
+              "not-yet-built Latin Pastoral-Congregational and Donatism worlds flagged earlier this "
+              "session; no quote or source record cites it yet."),
 )
 
 
