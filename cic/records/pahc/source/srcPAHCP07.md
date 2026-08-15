@@ -10,7 +10,7 @@ source_type: M
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: grc
+language: lat
 script: Grek
 work_author: Pliny the Younger
 work_title: Pliny the Younger, Letters 10.96-97

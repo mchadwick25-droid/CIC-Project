@@ -10,7 +10,7 @@ source_type: M
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
-language: grc
+language: lat
 script: Grek
 work_author: Tacitus
 work_title: Tacitus, Annals 15.44
