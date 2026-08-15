@@ -306,8 +306,10 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Ambrose's antiphonal singing) is in the Confessions section; hieronymian's srcHAL009 "
               "(Jerome's Ep. 112 = Augustine's Ep. 75) is present as Letter LXXV, div3 id="
               "\"vii.1.LXXV\", titled \"From Jerome\" in Augustine's own numbering - confirming "
-              "srcHAL009's own cross-reference note. Not acted on here - no translation row or quote "
-              "drawn from it yet, but both gaps flagged for this volume are now closeable."),
+              "srcHAL009's own cross-reference note. FOLLOW-UP (2026-08-15, same day): srcIJC08 "
+              "closed via srcIJC48 and ijcq008 ('add a quote from Confessions 9.7') - a new figure, "
+              "ijcfig010 (Augustine, narratable: false, voice-only), was created since none existed. "
+              "hieronymian's srcHAL009 remains open - located but not yet quoted."),
     TextEntry("npnf102_augustine-city-of-god-christian-doctrine.xml", "Mark", "2026-08-15",
               "NPNF Series I, Vol. 2: St. Augustine's City of God and Christian Doctrine. Supplied "
               "with no accompanying text. Completes the full 8-volume NPNF1 Augustine set (01-08, all "
