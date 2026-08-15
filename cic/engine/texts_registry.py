@@ -221,6 +221,22 @@ ENTRIES: tuple[TextEntry, ...] = (
               "translation of exactly that corpus - the first vendored file this session that maps "
               "directly onto an EXISTING world's already-cited source row rather than adding a fresh "
               "one. No translation row or quote yet drawn from it; that is future work, not done here."),
+    TextEntry("npnf213_gregory-great-ephraim-syrus-aphrahat.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 13: Gregory the Great (II), Ephraim Syrus, Aphrahat. A second file "
+              "that maps directly onto an EXISTING world's already-cited primary sources: Ephraim "
+              "Syrus (syriac's syrfig002) and Aphrahat (srcSYR010/srcSYR013, Demonstrations 1-23) are "
+              "both major syriac figures. Notable: srcSYR010's currently-cited English translations "
+              "(Lehto, Gorgias Press 2010; Valavanolickal, Gorgias Press 2005) are BOTH modern and "
+              "in-copyright - Gwynn's translation in this volume (1898) is public domain, the same "
+              "shape as pahc's earlier Holmes-to-ANF swap this session, given the 'free tools, no "
+              "budget' constraint. Not acted on here - no translation row or quote drawn from it yet."),
+    TextEntry("npnf205_gregory-nyssa-dogmatic-treatises.txt", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 5: Gregory of Nyssa: Dogmatic Treatises, Etc. Supplied as plain "
+              "text, not ThML - Mark reported the ThML export 'not working' for this volume. The "
+              "registry has handled both formats since its first vendored files (before the anf01-10/"
+              "npnf104/204 ThML swap); no special-casing was needed. The third of the three Cappadocian "
+              "Fathers (after npnf207 Gregory Nazianzen and npnf208 Basil) now has primary text "
+              "vendored for the not-yet-built 'Cappadocian Nicene Pastoral-Monastic Tradition' world."),
 )
 
 
