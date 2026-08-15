@@ -26,6 +26,8 @@ language corrected grc->lat earlier this session). No quote record for
 Tertullian was in this session's worklist, but the translation edition is
 now sitting here if one is ever wanted.
 
+| `anf04_tertullian4-minucius-felix-commodian-origen1-2.txt` | ANF vol. 4: Tertullian Pt. 4; Minucius Felix; Commodian; Origen Pts. 1-2 (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Origen parts 1-2 among others |
+
 NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
 Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
 Post-Nicene Fathers series instead. Checked directly in anf02: every
