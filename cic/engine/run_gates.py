@@ -97,6 +97,68 @@ def run_records(records_dir: Path, voice_material: str) -> int:
     return 0
 
 
+def selftest() -> int:
+    """Prove every gate can PASS a clean set and FAIL a seeded defect.
+
+    gates.py's own docstring has promised this mode since the clean-room
+    rebuild ("its --selftest mode runs every gate against the committed
+    clean and seeded-defect fixtures"), and gate_fixtures.py has carried
+    the fixtures the whole time with ZERO importers anywhere in the repo.
+    So the file that states the rule - "A gate that never fails checks
+    nothing" - was itself never run. This wires it.
+
+    Three assertions, not two. The third is the one that keeps this honest
+    as the fleet grows: every gate the runner executes must HAVE fixtures.
+    Without it a new gate joins GATES, is never exercised, and the selftest
+    still reports green - which is the same vacuous pass mechanism_coverage
+    exists to catch, reappearing one level up. It caught exactly that on
+    its first run: mechanism_coverage had no fixtures until this commit.
+    """
+    import gate_fixtures as fx
+
+    seeded = fx.seeded_sets()
+    # Gates whose clean set is not the shared one - their subject matter
+    # postdates clean_set()'s own fixtures.
+    clean_for = {"mechanism_coverage": fx.mechanism_coverage_clean()}
+    failures, checked = [], 0
+
+    missing = sorted(set(GATES) - set(seeded))
+    if missing:
+        failures.append(f"gate(s) with NO fixtures at all: {', '.join(missing)} "
+                        f"- a gate that is never exercised proves nothing")
+
+    # DETECTION, not blocking. A finding counts whether it lands as a
+    # violation or behind _NOTE_PREFIX: whether a gate blocks is a severity
+    # decision (mechanism_coverage is advisory by Mark's 2026-08-15 call),
+    # while whether it can SEE its defect is what a selftest exists to
+    # prove. Counting violations alone made all three coverage seeds look
+    # like passes on this mode's first run - an advisory gate would have
+    # been permanently unprovable.
+    for name, fn in GATES.items():
+        clean = clean_for.get(name, fx.clean_set())
+        vm = fx.CLEAN_VOICE_MATERIAL
+        findings = fn(clean, vm)
+        checked += 1
+        if findings:
+            failures.append(f"{name}: clean set should PASS, got "
+                            f"{len(findings)} finding(s): {findings[0]}")
+        for label, records in seeded.get(name, []):
+            findings = fn(records, vm)
+            checked += 1
+            if not findings:
+                failures.append(f"{name}: seeded defect should FAIL but "
+                                f"passed - {label}")
+
+    print(f"selftest: {checked} case(s) across {len(GATES)} gate(s)")
+    if failures:
+        print(f"\nFAIL: {len(failures)} problem(s)")
+        for f in failures:
+            print("  -", f)
+        return 1
+    print("OK: every gate passes its clean set and fails every seeded defect")
+    return 0
+
+
 def _fleet_counts() -> dict:
     """{world_key: {gate: count}} across every world worlds.py declares."""
     from worlds import WORLDS
@@ -208,7 +270,12 @@ def main():
     p.add_argument("--update-baseline", action="store_true",
                    help="rewrite gate_baseline.json from the current fleet "
                         "state - a deliberate, committed act")
+    p.add_argument("--selftest", action="store_true",
+                   help="prove every gate passes a clean fixture and fails "
+                        "its seeded defects (exit 1 on any failure)")
     args = p.parse_args()
+    if args.selftest:
+        return selftest()
     if args.update_baseline:
         return update_baseline()
     if args.check:

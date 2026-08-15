@@ -259,7 +259,46 @@ def seeded_sets():
         ("all term records carry the same confidence.verification_state (the P1-1 shape)", u1),
         ("all source records carry the same boundary_status", u2),
     ]
+
+    # mechanism coverage (T3-D/T3-G, 2026-08-15). One seed per declared
+    # dependency in mechanism_dependencies.py, reconstructing the real
+    # fleet defects the gate was built from: desert carries 13 figures and
+    # not one attested date, pahc has no quote records at all. Uses its own
+    # clean set (mechanism_coverage_clean) rather than clean_set(), whose
+    # fixture figures and quotes predate all three dependencies - the same
+    # per-gate clean-fixture pattern confidence_crosscheck_clean_pair and
+    # rule_c_clean already follow.
+    m1 = mechanism_coverage_clean()
+    m1["fixfigA"] = {k: v for k, v in m1["fixfigA"].items() if k != "dates"}
+    m2 = mechanism_coverage_clean()
+    del m2["fixqA"]
+    m3 = mechanism_coverage_clean()
+    m3["fixfigA"] = {k: v for k, v in m3["fixfigA"].items() if k != "bridge_line"}
+    s["mechanism_coverage"] = [
+        ("figures exist but none carry a date (the desert 0/13 shape)", m1),
+        ("no quote records at all (the pahc shape)", m2),
+        ("figures exist but none carry a bridge_line", m3),
+    ]
     return s
+
+
+def mechanism_coverage_clean():
+    """Every dependency in mechanism_dependencies.py satisfied, minimally.
+
+    Deliberately NOT built on clean_set(): its `_fig` predates bridge_line
+    and `dates`, and its `_quote` carries no text_translation, so the shared
+    clean set fails all three coverage dependencies. Extending _fig/_quote
+    instead would push new fields into every other gate's seeded sets -
+    distribution_health in particular fails on a field whose values are
+    uniform across records, so silently adding one to the shared fixture is
+    how a fixture file starts breaking gates it was meant to prove.
+    """
+    fig = _fig("fixfigA", "Abba Fixture", True, [])
+    fig["bridge_line"] = "A fixture figure, named so the bridge has something to render."
+    fig["dates"] = {"kind": "life", "display": "d. 399"}
+    quote = _quote("fixqA")
+    quote["text_translation"] = "A licensed saying, recorded for the fixture."
+    return {r["id"]: r for r in [fig, quote]}
 
 
 # -------------------------------------------------- alias safety (VG-1b)

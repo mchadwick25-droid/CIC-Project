@@ -84,6 +84,11 @@ jobs:
       - run: pip install pyyaml jsonschema
       - run: python cic/engine/validate.py
       - run: python cic/checks/isolation.py
+      # Proves each gate still passes a clean fixture and fails its seeded
+      # defects - and that every gate HAS fixtures. Runs before --check
+      # deliberately: a green ratchet means nothing if the gates behind it
+      # have quietly stopped firing.
+      - run: python cic/engine/run_gates.py --selftest
       - run: python cic/engine/run_gates.py --check
 
   frontend-typecheck:
