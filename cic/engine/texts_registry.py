@@ -220,7 +220,12 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Doc_09c) per its own verification_note. This volume supplies the standard English "
               "translation of exactly that corpus - the first vendored file this session that maps "
               "directly onto an EXISTING world's already-cited source row rather than adding a fresh "
-              "one. No translation row or quote yet drawn from it; that is future work, not done here."),
+              "one. FOLLOW-UP (2026-08-15, same day): srcDES027 now cites this volume as srcDES026's "
+              "translation row (translator: Rev. Edgar C. S. Gibson, confirmed from the volume's own "
+              "Cassian-specific title page, distinct from the shared volume-level header). Honestly "
+              "marked NOT wording-verified in srcDES027 - srcDES026 is a corpus-level citation with no "
+              "single locus pinned down yet, so there is nothing to check this translation's wording "
+              "against. No quote drawn from it."),
     TextEntry("npnf213_gregory-great-ephraim-syrus-aphrahat.xml", "Mark", "2026-08-15",
               "NPNF Series II, Vol. 13: Gregory the Great (II), Ephraim Syrus, Aphrahat. A second file "
               "that maps directly onto an EXISTING world's already-cited primary sources: Ephraim "
