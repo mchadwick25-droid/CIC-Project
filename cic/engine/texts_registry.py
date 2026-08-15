@@ -187,6 +187,13 @@ ENTRIES: tuple[TextEntry, ...] = (
               "built worlds' figure registries - this volume is their primary text, vendored for "
               "future use rather than an immediate quote request. No quote or source record cites it "
               "yet."),
+    TextEntry("npnf203_theodoret-jerome-gennadius-rufinus.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 3: Theodoret, Jerome, Gennadius, & Rufinus: Historical Writings. "
+              "Supplied with no accompanying text, continuing the NPNF2 church-historian run "
+              "(npnf201 Eusebius, npnf202 Socrates/Sozomen). Theodoret and Rufinus were both named "
+              "earlier this session as figures in Mark's wider CCEL listing not yet connected to any "
+              "of the six built worlds' figure registries. Vendored for future reference; no quote or "
+              "source record cites it yet."),
 )
 
 
