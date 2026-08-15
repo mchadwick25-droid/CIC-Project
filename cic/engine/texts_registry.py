@@ -157,6 +157,15 @@ ENTRIES: tuple[TextEntry, ...] = (
               "with the tail-aware element walker before the swap; the letter itself is cleanly its own "
               "titled sub-division here ('Letter of Julius to the Eusebians at Antioch'), an even "
               "cleaner boundary than the paragraph-number locus the plain text required."),
+    TextEntry("npnf210_ambrose-select-works-letters.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 10: Ambrose: Select Works and Letters. Supplied for ijcq002 - "
+              "deepening imperial_juridical past its single Julius quote. Closed reading this volume "
+              "found a real misattribution risk before it was committed: a strong, verbatim line on "
+              "'the Church belongs to God' looked like the obvious candidate for the basilica-standoff "
+              "quote, found by a raw text search, but tracing its actual element ancestry showed it "
+              "belongs to a different work entirely - Concerning Repentance, Book II - not the Sermon "
+              "Against Auxentius. Discarded before use; ijcq002 cites only text confirmed, by walking "
+              "the tree, to sit inside the correct sermon."),
 )
 
 
