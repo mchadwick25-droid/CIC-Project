@@ -111,10 +111,14 @@ ENTRIES: tuple[TextEntry, ...] = (
               "NOT Julius I of Rome (srcIJC04/srcIJC42). Swapped from the plain-text rendering the same "
               "day, as anf01/02/03/05 were - zero citations before the swap, so nothing needed "
               "re-verification."),
-    TextEntry("anf07_lactantius-apostolic-constitutions-didache-liturgies.txt", "Mark", "2026-08-15",
+    TextEntry("anf07_lactantius-apostolic-constitutions-didache-liturgies.xml", "Mark", "2026-08-15",
               "Carries the Didache, published too late for ANF vol. 1 - closed the deferred gap "
               "srcPAHCS62 named. Translator for the Didache specifically: Isaac H. Hall and John T. "
-              "Napier (Sunday-School Times, 1884), not the volume's general editors."),
+              "Napier (Sunday-School Times, 1884), not the volume's general editors. Swapped from the "
+              "plain-text rendering the same day, as anf01/02/03/05/06 were - unlike those, this one "
+              "had an existing quote (pahcq005) and source (srcPAHCS63) citing it, so both were "
+              "re-verified against the XML with the tail-aware element walker before the swap, not "
+              "just before it was trusted: the committed wording matched exactly."),
     TextEntry("anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt", "Mark", "2026-08-15",
               "Carries Abgar/Edessa correspondence material, relevant to syriac world (syrfig005, "
               "Addai) - not drawn on so far; that figure's own record already treats him as legend, "

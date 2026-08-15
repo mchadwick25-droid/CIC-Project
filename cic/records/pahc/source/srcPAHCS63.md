@@ -41,7 +41,7 @@ rights_status: 'PUBLIC DOMAIN: the underlying 1884 translation and its 1886 repu
 display_permitted: true
 verification_note: 'Added so pahcq005 (the Didache quote deferred at the original quote-authoring pass,
   2026-08-15, specifically because ANF vol. 1 does not carry this text) could be written. VERIFIED DIRECT:
-  the passage was read from the vendored text itself (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.txt),
+  the passage was read from the vendored text itself (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml),
   not from a secondary quotation - see pahcq005.'
 added: 2026-08-15 (T3 follow-on; Mark supplied ANF vol. 7)
 ---
