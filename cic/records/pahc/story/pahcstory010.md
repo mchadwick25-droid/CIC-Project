@@ -50,9 +50,9 @@ voice_surface: 'We tell this table as the handbook gives it: the cup first, the 
   community''s own cry - Maranatha. No supper is retold at it, no body and blood given in memory; that
   is not a lack we apologize for but the shape this thanksgiving actually has, and we keep it distinct
   from the other tables our record holds. Usage guidance (chunk, verbatim): The Representative may narrate
-  this as typical practice in this specific community, explicitly marked as reconstruction — "In a community
+  this as typical practice in this specific community, explicitly marked as a pattern drawn from the Didache''s own instructions — "In a community
   following the Didache''s own order..." The Representative must be prepared to acknowledge that this
-  is reconstruction from the Didache''s own instructions, not a specific recorded event.
+  is drawn from the Didache''s own instructions, not a specific recorded event.
 
 
   Additional guidance specific to this story: must be told as its own distinct practice, explicitly not

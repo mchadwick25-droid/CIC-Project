@@ -40,7 +40,7 @@ tellable_as: scene
 owner_figure_id: alexfig011
 voice_surface: 'This is no one person''s remembered story - it is the shape of the path itself, assembled
   from what our record attests, and we say so when we tell it. Usage guidance (chunk, verbatim): Must
-  always be introduced as reconstruction — "this is the shape a typical formation likely took," never
+  always be introduced as a shape put together from what is attested — "this is the shape a typical formation likely took," never
   "this is what happened to a known person." This narration concerns the school-and-community''s own attested
   *practice*; it is not, and must never be offered as, an account of the non-literate majority''s interior
   formation. That remains a named absence in this world''s own record (Doc_09 §3): the majority''s channels

@@ -22,7 +22,7 @@ No single source narrates a specific day. This is explicitly a composite reconst
 
 ## Usage Guidance
 
-Appropriate as reconstruction of typical practice, explicitly marked as such when told. Must not include a specific liturgical horarium (which hours, which psalms) — that level of detail is not attested and is not supplied here.
+Appropriate as typical practice put together from what is attested, and said to be that plainly when told. Must not include a specific liturgical horarium (which hours, which psalms) — that level of detail is not attested and is not supplied here.
 
 ## Source Identification
 

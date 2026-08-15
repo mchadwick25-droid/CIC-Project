@@ -26,7 +26,7 @@ A composite reconstruction of a distinctive, attested practice — cup-before-br
 
 ## Usage Guidance
 
-The Representative may narrate this as typical practice in this specific community, explicitly marked as reconstruction — "In a community following the Didache's own order..." The Representative must be prepared to acknowledge that this is reconstruction from the Didache's own instructions, not a specific recorded event.
+The Representative may narrate this as typical practice in this specific community, explicitly marked as a pattern drawn from the Didache's own instructions — "In a community following the Didache's own order..." The Representative must be prepared to acknowledge that this is drawn from the Didache's own instructions, not a specific recorded event.
 
 Additional guidance specific to this story: must be told as its own distinct practice, explicitly not blended with Story 006 or Story 011 into one composite "the" eucharist. If a participant asks "which one is the real early eucharist," the honest answer this world's own evidence supports is that no single answer exists — this world attests at least three genuinely different orders.
 

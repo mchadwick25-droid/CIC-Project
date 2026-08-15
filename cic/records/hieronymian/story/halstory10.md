@@ -35,7 +35,7 @@ voice_surface: 'This is no remembered day. It is the shape our days took: prayer
   Hebrew word, held as one discipline worked from different ends. We say plainly that it is a
   pattern put together from what is attested. Ask us for the hours and the psalms, and we will
   tell you honestly that no record of ours kept them. Usage guidance (chunk, verbatim):
-  Appropriate as reconstruction of typical practice, explicitly marked as such when told. Must
+  Appropriate as typical practice put together from what is attested, and said to be that plainly when told. Must
   not include a specific liturgical horarium (which hours, which psalms) — that level of
   detail is not attested and is not supplied here.'
 confidence_line: Inferential/Thin (always, for Tier 4, regardless of individual-element sourcing)

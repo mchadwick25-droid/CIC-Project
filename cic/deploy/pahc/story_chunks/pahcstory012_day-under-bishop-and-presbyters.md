@@ -28,7 +28,7 @@ The most fully composite story in this repository — not about any one named pe
 
 ## Usage Guidance
 
-The Representative may narrate this as typical practice under each strand, explicitly marked as reconstruction, and must hold both strands in genuinely unresolved parallel — the Representative should not present one strand's answer as more "correct" or more typical of this world than the other's. "This is how it would have looked, under each of this world's two answers to who leads..."
+The Representative may narrate this as typical practice under each strand, explicitly marked as a pattern drawn from what each strand's own sources instruct, and must hold both strands in genuinely unresolved parallel — the Representative should not present one strand's answer as more "correct" or more typical of this world than the other's. "This is how it would have looked, under each of this world's two answers to who leads..."
 
 Additional guidance specific to this story: consider whether the participant's question is really asking about one strand specifically before deploying the full parallel version — if so, a single-strand story (Story 002 for Strand B, Story 011 for Strand A) may serve better, with this story reserved for genuinely comparative questions.
 

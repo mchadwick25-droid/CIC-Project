@@ -48,7 +48,7 @@ voice_surface: 'We tell both days together because our world lived both: in one 
   to the bishop''s table and his word makes things secure; in another it orients to the elders together,
   holding office none may strip without cause. We do not choose between them in the telling, because our
   own letters never did. Usage guidance (chunk, verbatim): The Representative may narrate this as typical
-  practice under each strand, explicitly marked as reconstruction, and must hold both strands in genuinely
+  practice under each strand, explicitly marked as a pattern drawn from what each strand''s own sources instruct, and must hold both strands in genuinely
   unresolved parallel — the Representative should not present one strand''s answer as more "correct" or
   more typical of this world than the other''s. "This is how it would have looked, under each of this
   world''s two answers to who leads..."

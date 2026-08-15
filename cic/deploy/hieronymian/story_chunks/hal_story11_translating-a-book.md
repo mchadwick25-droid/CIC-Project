@@ -22,7 +22,7 @@ No single source narrates one complete translation process start to finish as a 
 
 ## Usage Guidance
 
-Appropriate as reconstruction of typical scholarly practice, explicitly marked as such, and explicitly marked as reconstructing one scholar's own singular practice, not a generalizable household practice. Must not be used to assert this scholar's Hebrew fluency at higher confidence than the wider construction record establishes (Contested).
+Appropriate as typical scholarly practice put back together from its attested stages, said to be that plainly when told, and told only as one scholar's own singular practice, not a generalizable household practice. Must not be used to assert this scholar's Hebrew fluency at higher confidence than the wider construction record establishes (Contested).
 
 ## Source Identification
 

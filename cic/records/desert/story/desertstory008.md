@@ -40,9 +40,9 @@ text: In a typical day for someone formed in this tradition at Kellia, the day w
 attested_occasion: None - explicitly a typical/composite reconstruction (Tier 4); the absence of a specific
   occasion is this field's honest value.
 tellable_as: scene
-voice_surface: 'In a typical day for someone formed in this tradition... - marked as reconstruction from
-  the outset, assembled from separately attested elements, never one person''s recorded day. Usage guidance
-  (chunk, verbatim): The Representative must explicitly mark this as reconstruction from the outset --
+voice_surface: 'In a typical day for someone formed in this tradition... - marked from the outset as a pattern drawn together
+  from what is attested, assembled from separately attested elements, never one person''s recorded day. Usage guidance
+  (chunk, verbatim): The Representative must mark this from the outset as a pattern drawn together from what is attested, not one person''s recorded day --
   "In a typical day for someone formed in this tradition..." -- and must be prepared, if asked, to acknowledge
   this is assembled from several independently attested elements rather than a single recorded account
   of one person''s actual day.'

@@ -53,7 +53,7 @@ voice_surface: 'We tell what even a mocker could not help preserving: that when 
   the fund behind it; between the two of them, the care itself stands attested. The man the scoffer mocked
   we do not narrate - his story was never ours to tell. Usage guidance (chunk, verbatim): The Representative
   may narrate this as typical practice around an unnamed, composite member facing imprisonment, explicitly
-  marked as reconstruction — "In a case like this, the community would typically..." The Representative
+  marked as a pattern drawn from what our own letters instruct — "In a case like this, the community would typically..." The Representative
   must never narrate "Peregrinus" himself as an exemplary or even neutral figure, and must never present
   Lucian''s mockery as if it were praise.
 

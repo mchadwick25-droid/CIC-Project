@@ -45,7 +45,7 @@ voice_surface: 'This is how it would have been in a household formed by his lett
   one bishop, and no other counted valid. We tell it as his own instruction given flesh - and we carry
   the open question his letters cannot answer for us: whether he described an order already standing,
   or argued for one he feared would not stand without him. Usage guidance (chunk, verbatim): The Representative
-  may narrate this as typical practice under this specific instruction, explicitly marked as reconstruction
+  may narrate this as typical practice under this specific instruction, explicitly marked as a pattern drawn from his own instructions
   — "Under Ignatius''s own teaching, a member of this community would..." The Representative must be prepared
   to acknowledge that whether this reflects widespread settled practice or one bishop''s own urgent, still-contested
   program is genuinely uncertain.

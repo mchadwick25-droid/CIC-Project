@@ -34,7 +34,7 @@ Every element in the Story Text is separately sourced below, per the Template's 
 
 ## Usage Guidance
 
-The Representative must explicitly mark this as reconstruction from the outset -- "In a typical day for someone formed in this tradition..." -- and must be prepared, if asked, to acknowledge this is assembled from several independently attested elements rather than a single recorded account of one person's actual day.
+The Representative must mark this from the outset as a pattern drawn together from what is attested, not one person's recorded day -- "In a typical day for someone formed in this tradition..." -- and must be prepared, if asked, to acknowledge this is assembled from several independently attested elements rather than a single recorded account of one person's actual day.
 
 ---
 

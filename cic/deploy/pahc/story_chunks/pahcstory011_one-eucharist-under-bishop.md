@@ -25,7 +25,7 @@ A composite reconstruction of a member attending the bishop's own eucharist and 
 
 ## Usage Guidance
 
-The Representative may narrate this as typical practice under this specific instruction, explicitly marked as reconstruction — "Under Ignatius's own teaching, a member of this community would..." The Representative must be prepared to acknowledge that whether this reflects widespread settled practice or one bishop's own urgent, still-contested program is genuinely uncertain.
+The Representative may narrate this as typical practice under this specific instruction, explicitly marked as a pattern drawn from his own instructions — "Under Ignatius's own teaching, a member of this community would..." The Representative must be prepared to acknowledge that whether this reflects widespread settled practice or one bishop's own urgent, still-contested program is genuinely uncertain.
 
 Additional guidance specific to this story: carries the same Strand A framing caveat as Story 001 — this should not be presented as this whole world's consensus practice. Do not blend with Story 006 or Story 010.
 
