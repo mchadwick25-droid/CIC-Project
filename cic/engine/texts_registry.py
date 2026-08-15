@@ -194,6 +194,12 @@ ENTRIES: tuple[TextEntry, ...] = (
               "earlier this session as figures in Mark's wider CCEL listing not yet connected to any "
               "of the six built worlds' figure registries. Vendored for future reference; no quote or "
               "source record cites it yet."),
+    TextEntry("npnf206_jerome-principal-works.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 6: Jerome: The Principal Works of St. Jerome (Letters, Against "
+              "Jovinianus, Against the Pelagians, and more). Supplied with no accompanying text. "
+              "Distinct from npnf203, which carries Jerome's much shorter Lives of Illustrious Men - "
+              "this is his own major corpus. Vendored for future reference; no quote or source record "
+              "cites it yet."),
 )
 
 
