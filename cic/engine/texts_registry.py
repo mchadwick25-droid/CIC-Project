@@ -379,6 +379,22 @@ ENTRIES: tuple[TextEntry, ...] = (
               "to the file after gate_texts_registry correctly flagged it as unverifiable - the RTF "
               "conversion carried no such header of its own, unlike the CCEL page exports used "
               "elsewhere in this registry."),
+    TextEntry("addai_doctrine-of-addai.txt", "Mark", "2026-08-15",
+              "The Doctrine of Addai, from Roger Pearse's 'morefathers' collection - identified as "
+              "essential for closing syriac's srcSYR020 (the Abgar-Addai foundation legend, cited "
+              "across gravity/figure/source/story/world_core records, currently consulted_as: "
+              "secondary-report-only, citing only modern in-copyright editions - Howard 1981, Lollar "
+              "2023). Supplied first as pasted chat text (withdrawn, same reason as Palladius), then "
+              "as an actual DOCX file attachment, converted mechanically via python-docx - no content "
+              "passed through model-generated output. The page's own explicit public-domain "
+              "declaration ('transcribed by Roger Pearse... copy freely') is present in the file "
+              "itself, confirmed by grep. TRANSLATOR NOTE: unlike Palladius, this page does not credit "
+              "a translator within its own text; the 1876 Phillips attribution rests on external "
+              "bibliographic grounds only and is flagged as such in the file's own prepended header, "
+              "not asserted as independently confirmed. A short bibliographic header was prepended for "
+              "the same reason as npnf205/Palladius - the DOCX conversion carried none of its own, and "
+              "the page's own rights line sits at the file's end, past gate_texts_registry's read "
+              "window."),
 )
 
 
