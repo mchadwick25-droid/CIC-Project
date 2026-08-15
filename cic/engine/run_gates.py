@@ -34,6 +34,7 @@ GATES = {
     "distribution_health": lambda r, vm: core.gate_distribution_health(r),
     "confidence_source_crosscheck":
         lambda r, vm: core.gate_confidence_source_crosscheck(r),
+    "mechanism_coverage": lambda r, vm: core.gate_mechanism_coverage(r),
 }
 
 

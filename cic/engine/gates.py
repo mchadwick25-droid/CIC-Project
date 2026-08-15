@@ -736,3 +736,62 @@ def split_alias_reports(entries: list) -> tuple:
     exception reports (SS5.6), printed but never counted as violations."""
     notes = [e for e in entries if e.startswith(_NOTE_PREFIX)]
     return [e for e in entries if not e.startswith(_NOTE_PREFIX)], notes
+
+
+# ------------------------------------------------------- mechanism coverage
+
+
+def gate_mechanism_coverage(records: dict) -> list:
+    """Tier 3, T3-B: does this world carry what its runtime mechanisms read?
+
+    Every other gate here validates the records that EXIST. None of them
+    asks whether the records a runtime mechanism depends on exist at all,
+    and that gap is measurable: across the six built worlds, five of twelve
+    (world x Tier-2 check) cells have a check running with nothing to check
+    against, pahc has both inert, and every gate reported green throughout.
+    Correctly - a world with no quote records has no quote record to fail.
+    This gate closes that specific hole and nothing else.
+
+    Reads its dependency list from mechanism_dependencies.py (T3-A), which
+    is deliberately NOT part of this package: declaring a new mechanism is
+    an ordinary change, while changing this gate's behaviour is bound by
+    the gate-integrity rule at the top of this file.
+
+    REPORTS ZERO-COVERAGE ONLY. A dependency satisfied by even one record
+    passes here, even at 1-of-12: no floor has been set, and inventing one
+    inside a gate would be exactly the "assume the threshold" move the
+    completion standard's own SS D refuses ("thresholds set only once real
+    baselines exist"). Floors are a separate, later decision made from this
+    gate's own numbers - see coverage_report.py for the fleet view those
+    numbers come from.
+
+    Distinguishes the two zero cases, because they call for different work:
+    no records of the type at all (author some) versus records that exist
+    but none carrying the needed content (fill a field in).
+
+    Fails CLOSED on its own import error, unlike the gloss loader's fail-
+    open above. A coverage gate that reports green when it could not run is
+    the precise defect it exists to catch.
+    """
+    try:
+        from mechanism_dependencies import coverage
+    except Exception as exc:  # noqa: BLE001
+        return [f"mechanism_dependencies.py could not be loaded ({exc!r}) - "
+                f"coverage is UNKNOWN, not green"]
+
+    out = []
+    for dep, n_satisfying, n_of_type in coverage(records):
+        if n_satisfying:
+            continue
+        if n_of_type == 0:
+            shortfall = (f"no {dep.record_type} records exist for this world "
+                         f"at all")
+        else:
+            shortfall = (f"0 of {n_of_type} {dep.record_type} record(s) carry "
+                         f"{dep.requirement}")
+        out.append(
+            f"{dep.label}: {shortfall} - the mechanism runs and cannot "
+            f"function. Inert-{dep.inert_mode}: {dep.inert_consequence} "
+            f"[reads {dep.record_type}.{dep.field}]"
+        )
+    return out
