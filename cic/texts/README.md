@@ -34,6 +34,8 @@ now sitting here if one is ever wanted.
 
 | `anf07_lactantius-apostolic-constitutions-didache-liturgies.txt` | ANF vol. 7: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies (1886). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS63` | **The Didache** (Hall/Napier trans., 1884) - closes the deferred gap srcPAHCS62 named |
 
+| `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt` | ANF vol. 8: The Twelve Patriarchs, Excerpts and Epistles, The Clementina, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age (Edinburgh: T&T Clark). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | note: carries Abgar/Edessa correspondence material - potentially relevant to syriac world (syrfig005, Addai), not drawn on this session |
+
 NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
 Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
 Post-Nicene Fathers series instead. Checked directly in anf02: every
