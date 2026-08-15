@@ -180,6 +180,13 @@ ENTRIES: tuple[TextEntry, ...] = (
               "by Richardson for Life of Constantine) under one shared <DC.Creator> block - checked "
               "per-chapter rather than assumed from the volume-level header, the same discipline that "
               "caught srcIJC42's Newman/Robertson split."),
+    TextEntry("npnf202_socrates-sozomen-ecclesiastical-histories.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 2: Socrates and Sozomenus Ecclesiastical Histories. Supplied with "
+              "no accompanying text. Socrates Scholasticus and Sozomen were both named earlier this "
+              "session as figures in Mark's wider CCEL listing not yet connected to any of the six "
+              "built worlds' figure registries - this volume is their primary text, vendored for "
+              "future use rather than an immediate quote request. No quote or source record cites it "
+              "yet."),
 )
 
 
