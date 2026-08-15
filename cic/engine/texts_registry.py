@@ -88,10 +88,12 @@ ENTRIES: tuple[TextEntry, ...] = (
               "the plain-text rendering the same day, as anf01 was - no record cited the old .txt file "
               "(this volume's own zero-citation status, unchanged), so this swap needed no "
               "re-verification of any existing quote."),
-    TextEntry("anf03_tertullian.txt", "Mark", "2026-08-15",
+    TextEntry("anf03_tertullian.xml", "Mark", "2026-08-15",
               "Carries Tertullian's Apologeticus, the primary text srcPAHCP15 already cites in pahc "
               "('Tertullian, Apology 39'). No quote record was in this session's worklist, so none "
-              "was written, but the translation edition is available if one is ever wanted."),
+              "was written, but the translation edition is available if one is ever wanted. Swapped "
+              "from the plain-text rendering the same day, as anf01/anf02 were - zero citations before "
+              "the swap, so nothing needed re-verification."),
     TextEntry("anf04_tertullian4-minucius-felix-commodian-origen1-2.txt", "Mark", "2026-08-15",
               "Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2."),
     TextEntry("anf05_hippolytus-cyprian-caius-novatian.txt", "Mark", "2026-08-15",
