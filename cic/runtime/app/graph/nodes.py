@@ -1598,6 +1598,168 @@ Use the same lettering as above. Do not add commentary outside these lines."""
             pass
 
 
+# A parenthetical is treated as carrying an attested DATE only if it holds
+# an isolated 3-4 digit number - a real year in this build's whole range
+# (189-461 AD). This is deliberately narrower than "any parenthetical with
+# a digit in it": pahc and syriac both carry non-date parentheticals that
+# would otherwise false-positive - "Pliny the Younger (Letters 10.96-97)",
+# "Tacitus (Annals 15.44)" - whose numbers are all 1-2 digits (10, 96, 97,
+# 15, 44), never 3-4, so they never match. Every real date string surveyed
+# across all six worlds' registries ("d. 399/400", "c. 340-397", "bishop
+# 189-232", "r. 306-337"...) carries at least one 3-4 digit token.
+_DATED_NAME_PATTERN = re.compile(r"\([^)]*\b\d{3,4}\b[^)]*\)")
+
+_FIGURE_CHRONOLOGY_LINE_PATTERN = re.compile(
+    r"^\s*([A-Za-z])\.\s*(CONSISTENT|CONTRADICTION)\s*:?\s*(.*)$", re.IGNORECASE)
+
+
+def check_figure_chronology(
+    world_id: str | None,
+    response_text: str,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """
+    Tier 2, Check A (grounding gate, scoped 2026-08-15) - PHASE 0, SHADOW
+    MODE ONLY. Logs whether a generated turn's mentions of a bridged
+    figure contradict that figure's own attested date, drawn straight from
+    the registry find_figures_used already matches against
+    (cic/engine/build_figure_registry.py); changes nothing about what
+    ships. See app/groundedness_logging.py for why shadow mode comes first.
+
+    The concrete failure this targets: the "What Improved" review round
+    found a live turn conflate two Hieronymian figures with each other's
+    biography. Both figures' correct dates already sit in
+    figure_registry.json ("Fabiola of Rome (d. 399/400)", "Marcella of
+    Rome (d. 410/411)") - the record was never wrong, the generated turn
+    was. This check re-reads the same registry find_figures_used already
+    proved matches correctly, and asks whether the turn's own claims about
+    a named figure square with that figure's attested date.
+
+    Reuses find_figures_used for matching (never reinvented here) and
+    figure_bridge.figure_registry for the full dated name string
+    find_figures_used's own return shape omits. A figure the turn names
+    but whose registry entry carries no parenthetical date at all is not
+    checkable and is simply skipped, not flagged - most figures across
+    this build's six registries carry no date string yet (see the
+    coverage survey in this check's own scoping notes), and an absent
+    date is a records gap, not a generated-text finding.
+
+    One batched Haiku call judges CONSISTENT/CONTRADICTION per dated
+    figure against the actual response text - the same lettered-item
+    shape check_quotation_grounding already runs just above, adapted from
+    "does this span match a candidate" to "does this turn's treatment of
+    this figure contradict its one attested fact."
+
+    Fails open on any error: an unparsed or failed judge call logs
+    OUTCOME_CHECK_FAILED and returns without raising - this function has
+    no ship-path to fall back to because in Phase 0 it never touches the
+    ship path at all, only its own log line.
+    """
+    from app.groundedness_logging import (
+        OUTCOME_ALL_CONSISTENT, OUTCOME_CHECK_FAILED, OUTCOME_CONTRADICTION,
+        OUTCOME_NO_DATED_FIGURES, OUTCOME_NO_FIGURES,
+        log_figure_chronology_contradiction, log_figure_chronology_outcome,
+    )
+    from app.prompts.figure_bridge import figure_registry
+
+    try:
+        if not world_id:
+            log_figure_chronology_outcome(
+                world_id, OUTCOME_NO_FIGURES,
+                request_id=request_id, session_id=session_id)
+            return
+
+        figures = find_figures_used(world_id, response_text)
+        if not figures:
+            log_figure_chronology_outcome(
+                world_id, OUTCOME_NO_FIGURES,
+                request_id=request_id, session_id=session_id)
+            return
+
+        registry_by_id = {e["figure_id"]: e for e in figure_registry(world_id)}
+        dated: list[tuple[str, dict, str]] = []
+        for fig in figures:
+            entry = registry_by_id.get(fig["figure_id"])
+            if not entry:
+                continue
+            for name in entry.get("names") or []:
+                if _DATED_NAME_PATTERN.search(name):
+                    dated.append((chr(65 + len(dated)), fig, name))
+                    break
+
+        if not dated:
+            log_figure_chronology_outcome(
+                world_id, OUTCOME_NO_DATED_FIGURES,
+                request_id=request_id, session_id=session_id)
+            return
+
+        figures_block = "\n".join(
+            f"{letter}. {fig['display_name']} - attested: {attested}"
+            for letter, fig, attested in dated
+        )
+        prompt = f"""A representative's response is below, followed by a lettered list of figures it named, each with that figure's attested date or dates of activity (already verified - treat it as fact). For EACH figure, decide independently: does the response's own treatment of that figure - anything it says about when they lived, died, or were active, or any biographical detail it attaches to them - contradict their attested date, or is it consistent (including cases where the response says nothing about timing at all, which is consistent by default)?
+
+Response:
+{response_text}
+
+Figures named, with their attested dates:
+
+{figures_block}
+
+For EACH lettered figure, answer CONTRADICTION: <brief reason> only if the response makes a claim about that figure that conflicts with their attested date (including attributing another figure's known biography or dates to them); otherwise CONSISTENT.
+
+Respond with exactly {len(dated)} lines, one per figure:
+A. CONSISTENT
+or
+A. CONTRADICTION: <brief reason>
+
+Use the same lettering as above. Do not add commentary outside these lines."""
+
+        try:
+            llm = get_monitoring_llm()
+            response = llm.invoke(prompt)
+            log_llm_usage("figure_chronology", response, _MONITORING_MODEL,
+                           request_id=request_id, session_id=session_id)
+        except Exception:
+            log_figure_chronology_outcome(
+                world_id, OUTCOME_CHECK_FAILED, figures_checked=len(dated),
+                request_id=request_id, session_id=session_id)
+            return
+
+        contradictions: dict[str, str] = {}
+        for line in response.content.strip().split("\n"):
+            match = _FIGURE_CHRONOLOGY_LINE_PATTERN.match(line)
+            if not match:
+                continue
+            if match.group(2).upper() == "CONTRADICTION":
+                contradictions[match.group(1).upper()] = match.group(3).strip()
+
+        contradicted_count = 0
+        for letter, fig, attested in dated:
+            if letter in contradictions:
+                contradicted_count += 1
+                log_figure_chronology_contradiction(
+                    world_id, fig["figure_id"], fig["display_name"], attested,
+                    contradictions[letter],
+                    request_id=request_id, session_id=session_id)
+
+        outcome = OUTCOME_CONTRADICTION if contradicted_count else OUTCOME_ALL_CONSISTENT
+        log_figure_chronology_outcome(
+            world_id, outcome, figures_checked=len(dated),
+            figures_consistent=len(dated) - contradicted_count,
+            figures_contradicted=contradicted_count,
+            request_id=request_id, session_id=session_id)
+    except Exception:
+        try:
+            log_figure_chronology_outcome(
+                world_id, OUTCOME_CHECK_FAILED,
+                request_id=request_id, session_id=session_id)
+        except Exception:
+            pass
+
+
 def representative_engages(state: ConversationState, is_reactive: bool = False,
                             request_id: str | None = None) -> dict:
     """
@@ -1656,6 +1818,12 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     # touch message_kwargs, does not gate this turn. See
     # check_quotation_grounding's own docstring and app/groundedness_logging.py.
     check_quotation_grounding(
+        ctx["current_world_id"], response_text,
+        request_id=request_id, session_id=state.session_id,
+    )
+    # Tier 2 Check A, PHASE 0 SHADOW MODE (2026-08-15) - see
+    # check_figure_chronology's own docstring and app/groundedness_logging.py.
+    check_figure_chronology(
         ctx["current_world_id"], response_text,
         request_id=request_id, session_id=state.session_id,
     )
@@ -2071,6 +2239,12 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # Tier 2 Check B, PHASE 0 SHADOW MODE (2026-08-15) - see the
     # non-streaming call site above for the full note.
     check_quotation_grounding(
+        ctx["current_world_id"], full_text,
+        request_id=request_id, session_id=state.session_id,
+    )
+    # Tier 2 Check A, PHASE 0 SHADOW MODE (2026-08-15) - see the
+    # non-streaming call site above for the full note.
+    check_figure_chronology(
         ctx["current_world_id"], full_text,
         request_id=request_id, session_id=state.session_id,
     )

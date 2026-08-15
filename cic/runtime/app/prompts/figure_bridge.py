@@ -50,6 +50,24 @@ def _registry(world_id: str) -> tuple:
     return tuple(entries)
 
 
+def figure_registry(world_id: str) -> tuple:
+    """Public accessor for the full per-world registry - every attested
+    `names` string for every bridged figure, dates included.
+
+    find_figures_used deliberately strips this down to `display_name` and
+    the single `matched` surface form, because that is all the UI panel
+    needs. Tier 2 Check A (app.graph.nodes.check_figure_chronology) needs
+    the opposite: given a figure find_figures_used already matched, look
+    up that SAME figure_id's full entry to read its dated name string
+    ("Fabiola of Rome (d. 399/400)") as ground truth. Exposing the
+    registry itself - rather than teaching find_figures_used to return
+    more than the UI needs, or duplicating its matching logic here - keeps
+    the one proven matcher the only place that logic lives, exactly the
+    split quote_index.licensed_quotes already keeps from its own spans.
+    """
+    return _registry(world_id)
+
+
 def find_figures_used(world_id: str, response_text: str) -> list[dict]:
     """Which bridged figures this response actually named.
 

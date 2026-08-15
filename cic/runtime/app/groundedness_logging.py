@@ -107,3 +107,72 @@ def log_unlicensed_quotation(
         )
     except Exception:
         pass
+
+
+# ---------------------------------------------------------------------------
+# Tier 2, Check A - figure chronology (app.graph.nodes.check_figure_chronology).
+# Same two-line-per-turn discipline as Check B just above: one summary line
+# every turn the check runs on (including the clean case, for a real
+# denominator), one detail line per actual finding, carrying enough text
+# for a human to judge it without re-running anything.
+# ---------------------------------------------------------------------------
+
+# Mutually exclusive per-turn outcomes.
+OUTCOME_NO_FIGURES = "no_figures"                # nothing bridged in the turn - nothing to check
+OUTCOME_NO_DATED_FIGURES = "no_dated_figures"    # figures named, but none carry an attested date in the registry
+OUTCOME_ALL_CONSISTENT = "all_consistent"        # every dated figure's mentions matched its attested date
+OUTCOME_CONTRADICTION = "contradiction"          # at least one dated figure's mentions contradicted its attested date
+
+
+def log_figure_chronology_outcome(
+    world_id: str | None,
+    outcome: str,
+    *,
+    figures_checked: int = 0,
+    figures_consistent: int = 0,
+    figures_contradicted: int = 0,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """Log one check_figure_chronology() call's outcome, one line, every
+    turn the check runs on - see this module's docstring for why the clean
+    case (OUTCOME_NO_FIGURES / OUTCOME_NO_DATED_FIGURES / OUTCOME_ALL_CONSISTENT)
+    is logged too, not just findings.
+    """
+    try:
+        logger.info(
+            "[groundedness_figure] world_id=%s outcome=%s figures_checked=%d "
+            "figures_consistent=%d figures_contradicted=%d request_id=%s "
+            "session_id=%s",
+            world_id, outcome, figures_checked, figures_consistent,
+            figures_contradicted, request_id, session_id,
+        )
+    except Exception:
+        pass
+
+
+def log_figure_chronology_contradiction(
+    world_id: str | None,
+    figure_id: str,
+    display_name: str,
+    attested: str,
+    reason: str,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """Log one specific CONTRADICTION finding - the figure's attested dated
+    name string (the ground truth) plus the judge's stated reason, so a
+    reviewer can judge the finding from the log line alone.
+    """
+    try:
+        preview = reason[:200].replace("\n", " ")
+        logger.info(
+            "[groundedness_figure_contradiction] world_id=%s figure_id=%s "
+            "display_name=%s attested=%r request_id=%s session_id=%s "
+            "reason=%r",
+            world_id, figure_id, display_name, attested, request_id,
+            session_id, preview,
+        )
+    except Exception:
+        pass
