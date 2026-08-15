@@ -119,10 +119,11 @@ ENTRIES: tuple[TextEntry, ...] = (
               "had an existing quote (pahcq005) and source (srcPAHCS63) citing it, so both were "
               "re-verified against the XML with the tail-aware element walker before the swap, not "
               "just before it was trusted: the committed wording matched exactly."),
-    TextEntry("anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt", "Mark", "2026-08-15",
+    TextEntry("anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml", "Mark", "2026-08-15",
               "Carries Abgar/Edessa correspondence material, relevant to syriac world (syrfig005, "
               "Addai) - not drawn on so far; that figure's own record already treats him as legend, "
-              "not history."),
+              "not history. Swapped from the plain-text rendering the same day, as anf01/02/03/05/06/07 "
+              "were - zero citations before the swap, so nothing needed re-verification."),
     TextEntry("anf09_gospel-of-peter-diatessaron-origen-commentaries.txt", "Mark", "2026-08-15",
               "Origen's Commentaries on John and Matthew, among others."),
     TextEntry("npnf204_athanasius-select-works-letters.txt", "Mark", "2026-08-15",
