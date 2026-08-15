@@ -31,9 +31,12 @@ discovery_instrument: 'Mark''s request, 2026-08-15 ("add a quote from Confession
 discovery_date: '2026-08-15'
 licensed_for: 'srcIJC08''s own exact license: eyewitness testimony to Ambrose''s conduct during the 386
   basilica standoff (the antiphonal psalm-singing, the vigil kept by the pious people, "prepared to die
-  with their bishop") - Confessions, Book IX, Chapter VII specifically. SCOPED TO THIS CHAPTER ONLY, not
-  the whole Confessions and not Augustine''s Letters (a separate translator and a separate concern -
-  see srcHAL009 in hieronymian for that correspondence, not licensed here).'
+  with their bishop"; and, WIDENED 2026-08-15 for ijcq009, the very next paragraph - Ambrose''s vision
+  revealing the martyrs Gervasius and Protasius and his translation of their relics, narrated as part of
+  the same 386 conflict, its stated purpose being "to repress the feminine but royal fury") - Confessions,
+  Book IX, Chapter VII specifically. SCOPED TO THIS CHAPTER ONLY, not the whole Confessions and not
+  Augustine''s Letters (a separate translator and a separate concern - see srcHAL009 in hieronymian for
+  that correspondence, not licensed here).'
 rights_status: 'PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1886
   (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture
   as every other ANF/NPNF row in this build.'
@@ -43,7 +46,8 @@ verification_note: 'Wording verified DIRECT against the vendored text at
   id="vi.IX.VII-p2" - see ijcq008. srcIJC08 itself (the primary-source row this translation serves)
   was never independently re-collated before this session per its own verification_note ("drawn from
   this build''s own historical knowledge") - this is the first time its wording has actually been
-  checked against a source text.'
+  checked against a source text. UPDATE, same day: paragraph id="vi.IX.VII-p4" (the martyrs''
+  discovery) is now likewise wording-verified against ijcq009.'
 added: 2026-08-15 (T3 follow-on; Mark's Confessions 9.7 request)
 ---
 Added 2026-08-15 as the translation row for srcIJC08 (Augustine, Confessions 9.7) and ijcq008. First
