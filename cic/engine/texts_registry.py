@@ -359,6 +359,26 @@ ENTRIES: tuple[TextEntry, ...] = (
               "different collection entirely, not this one); the volume's own title, read directly "
               "rather than assumed from memory, is the actual record here. Still zero citations "
               "across all six built worlds. Vendored for future reference."),
+    TextEntry("palladius_lausiac-history_clarke1918.txt", "Mark", "2026-08-15",
+              "Palladius of Galatia, The Lausiac History, trans. W.K. Lowther Clarke (SPCK, "
+              "'Translations of Christian Literature' series, 1918), from Roger Pearse's 'morefathers' "
+              "CCEL collection - identified as the essential item closing desert's srcDES007 (a "
+              "primary-source row, Greek original, no translation cited, cited load-bearingly across "
+              "desert's search_record/story/ambient/force). Supplied first as pasted chat text (too "
+              "long to safely retype through model output; withdrawn), then as an actual RTF file "
+              "attachment, converted mechanically to plain text via the striprtf library - no content "
+              "passed through model-generated output at any point, avoiding both the practical "
+              "output-length problem and any reproduction concern. Structural integrity confirmed "
+              "(142 CHAPTER markers = 71 in the table of contents + 71 in the body). Public domain: "
+              "Clarke's translation was published 1918, long out of US copyright; Pearse's own "
+              "transcriptions of his 'morefathers' pages are separately declared public domain "
+              "site-wide (confirmed explicitly on the companion Doctrine of Addai page from the same "
+              "collection, sent in the same conversation: 'transcribed by Roger Pearse... all material "
+              "on this page is in the public domain - copy freely'). A short bibliographic header "
+              "(title/creator/rights, matching npnf205's plain-text header convention) was prepended "
+              "to the file after gate_texts_registry correctly flagged it as unverifiable - the RTF "
+              "conversion carried no such header of its own, unlike the CCEL page exports used "
+              "elsewhere in this registry."),
 )
 
 
