@@ -323,6 +323,28 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Augustine's work). Vendored for future reference, most plausibly for the "
               "not-yet-built Latin Pastoral-Congregational and Donatism worlds flagged earlier this "
               "session; no quote or source record cites it yet."),
+    TextEntry("npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 9: St. Chrysostom: On the Priesthood; Ascetic Treatises; Select "
+              "Homilies and Letters; Homilies on the Statutes. Begins the NPNF1 Chrysostom set "
+              "(vols. 9-14, the other half of NPNF1 alongside the now-complete 8-volume Augustine "
+              "set). CHECKED, not assumed: John Chrysostom has zero citations across all six built "
+              "worlds' source and figure records - confirmed by grep, matching the earlier finding "
+              "this session that he, like the Cappadocians, has no organic tie to any of the six "
+              "worlds' own time_windows. Vendored purely for future world-building; no quote or "
+              "source record cites it."),
+    TextEntry("npnf110_chrysostom-homilies-matthew.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 10: St. Chrysostom: Homilies on the Gospel of Saint Matthew. Same "
+              "status as npnf109 - no built world cites Chrysostom. Vendored for future reference."),
+    TextEntry("npnf111_chrysostom-homilies-acts-romans.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 11: St. Chrysostom: Homilies on the Acts of the Apostles and the "
+              "Epistle to the Romans. Same status as npnf109 - no built world cites Chrysostom. "
+              "Vendored for future reference."),
+    TextEntry("npnf112_chrysostom-homilies-corinthians.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 12: St. Chrysostom: Homilies on the Epistles of Paul to the "
+              "Corinthians. Same status as npnf109 - no built world cites Chrysostom. Vendored for "
+              "future reference. Four of six NPNF1 Chrysostom volumes now vendored (09-12); vols. "
+              "13 (Galatians-Philemon) and 14 (Hebrews; Gregory Thaumaturgus; Apollinaris) not yet "
+              "supplied."),
 )
 
 
