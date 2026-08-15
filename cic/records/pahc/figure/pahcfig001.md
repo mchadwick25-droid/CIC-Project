@@ -13,6 +13,16 @@ names:
   name_kind: in-world
 - name: Ignatius of Antioch (middle recension)
   name_kind: scholarly
+dates:
+  kind: work
+  display: letters traditionally dated c. 107-117; redated to the 130s-140s by one camp and to 160-180 by another; authenticity itself disputed
+  approximate: true
+  note: >-
+    In-build attestation (T3-E): pahcstory001 gives the traditional c. 107-117 for the seven letters,
+    srcPAHCS10 licenses the "130s-140s camp", and pahcclaim003 carries the 160-180 reading in which the
+    letters are a later composition using Ignatius as vehicle. No start_year/end_year deliberately - the
+    three positions are not a range, and collapsing them to one would settle in a data field the
+    three-way dispute this record requires every telling to carry. Bounds the LETTERS, not the man.
 bridge_line: "A bishop of Antioch, taken to Rome to die. Seven of his letters survive."
 narratable: true
 story_ids:

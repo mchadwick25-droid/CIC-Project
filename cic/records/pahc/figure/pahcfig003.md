@@ -13,6 +13,15 @@ names:
   name_kind: in-world
 - name: Polycarp (Letter to the Philippians; Martyrdom of Polycarp)
   name_kind: scholarly
+dates:
+  kind: life
+  display: martyred c. 155-156 by the traditional dating; Eusebius's Chronicon dates it 167
+  end_year: 156
+  approximate: true
+  note: >-
+    In-build attestation (T3-E): pahcstory008's locus carries both readings verbatim - "traditional
+    dating c. 155-156 CE; Eusebius's Chronicon dates it 167 CE". display keeps both; end_year holds the
+    traditional date as a machine-comparable bound only. Death date only - no birth date is attested here.
 bridge_line: "A church leader at Smyrna, burned for refusing to curse Christ. His own letter survives."
 narratable: true
 story_ids:

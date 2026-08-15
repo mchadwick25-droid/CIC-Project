@@ -7,7 +7,15 @@
    "Ephrem"
   ],
   "bridge_line": "Our best known teacher and hymn writer, at Nisibis and later Edessa.",
-  "narratable": true
+  "narratable": true,
+  "dates": {
+   "kind": "floruit",
+   "display": "corpus 350s-373",
+   "start_year": 350,
+   "end_year": 373,
+   "approximate": true,
+   "note": "In-build attestation (T3-E): syrgrav001 spans \"Ephrem's whole corpus (350s-373)\". These bound the surviving corpus, not his life; no birth date is attested in this build."
+  }
  },
  {
   "figure_id": "syrfig002",
@@ -17,7 +25,15 @@
    "Aphrahat"
   ],
   "bridge_line": "A Persian teacher. His twenty-three written demonstrations survive; no story of his days does.",
-  "narratable": false
+  "narratable": false,
+  "dates": {
+   "kind": "floruit",
+   "display": "Demonstrations composed 336/7-345",
+   "start_year": 336,
+   "end_year": 345,
+   "approximate": true,
+   "note": "In-build attestation (T3-E), transcribed not supplied: syrgrav001 dates \"Aphrahat's earlier Demonstrations (336/7-345)\" and syrforce1B2 fixes Demonstration 6 at 337. These bound his known WRITING, not his life - no birth or death date is attested anywhere in this build, and this record's own bridge_line says no story of his days survives."
+  }
  },
  {
   "figure_id": "syrfig003",

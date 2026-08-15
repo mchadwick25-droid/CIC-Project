@@ -13,6 +13,17 @@ names:
   name_kind: in-world
 - name: Aphrahat the Persian Sage
   name_kind: scholarly
+dates:
+  kind: floruit
+  display: Demonstrations composed 336/7-345
+  start_year: 336
+  end_year: 345
+  approximate: true
+  note: >-
+    In-build attestation (T3-E), transcribed not supplied: syrgrav001 dates "Aphrahat's earlier
+    Demonstrations (336/7-345)" and syrforce1B2 fixes Demonstration 6 at 337. These bound his known
+    WRITING, not his life - no birth or death date is attested anywhere in this build, and this
+    record's own bridge_line says no story of his days survives.
 bridge_line: "A Persian teacher. His twenty-three written demonstrations survive; no story of his days does."
 narratable: false
 story_ids: []

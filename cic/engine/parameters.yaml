@@ -323,6 +323,16 @@ metrics:
       syriac 0/8 INERT, 1, 7/8.
       Not a sampled baseline - a full census of the admitted fleet,
       re-derivable exactly: python cic/engine/coverage_report.py
+      SUPERSEDED THE SAME DAY by the T3-E backfill, and kept rather than
+      overwritten per this file's never-in-place-edit convention - the
+      movement is the new fact, not an erasure of the old one. After
+      T3-D/T3-E filled 13 figure records (2 transcribed from the figures'
+      own prose, 6 from attestations elsewhere in the build, 5 from
+      reference works and flagged UNVERIFIED in-record): Check A now reads
+      alexandria 5/12, desert 2/13, hieronymian 5/9, imperial_juridical
+      9/9, pahc 3/8, syriac 4/8 - inert nowhere. Fleet inert cells 5 -> 2,
+      both remaining ones Check B's missing quote records
+      (imperial_juridical and pahc), which no figure work can close.
     gate_status: >-
       definitional-gate (0 inert) IN NATURE - a mechanism at zero coverage
       cannot function, which is a fact about the mechanism rather than a

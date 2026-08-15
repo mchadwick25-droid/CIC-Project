@@ -13,6 +13,17 @@ names:
   name_kind: in-world
 - name: Moses (of Scetis)
   name_kind: scholarly
+dates:
+  kind: life
+  display: c. 330-405
+  start_year: 330
+  end_year: 405
+  approximate: true
+  note: >-
+    UNVERIFIED (T3-E), and the weakest provenance in this set: reference-work lookup 2026-08-15, NOT
+    verified against a primary edition and carried nowhere in this build - a corpus search for this
+    figure alongside any year returned nothing at all. The traditions also vary on his death. Scholar
+    recheck required before this is treated as attested.
 bridge_line: "An elder at Scetis, remembered for refusing to judge another man's fault."
 narratable: true
 story_ids:

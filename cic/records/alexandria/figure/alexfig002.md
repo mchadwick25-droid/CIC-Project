@@ -13,6 +13,16 @@ names:
   name_kind: in-world
 - name: Clement of Alexandria
   name_kind: scholarly
+dates:
+  kind: floruit
+  display: Alexandrian activity c. 180s-202
+  start_year: 180
+  end_year: 202
+  approximate: true
+  note: >-
+    In-build attestation (T3-E): alexcore001's own time_window note fixes "Clement's Alexandrian
+    activity c. 180s-202 as the earliest richly-attested formation activity", and alexforce1A3 has him
+    arriving c. 180. Bounds his activity in this world, not his life.
 bridge_line: "An early teacher here who wrote for educated readers coming to the faith."
 narratable: false
 story_ids: []

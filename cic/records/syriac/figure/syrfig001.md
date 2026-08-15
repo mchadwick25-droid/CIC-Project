@@ -13,6 +13,15 @@ names:
   name_kind: in-world
 - name: Ephrem the Syrian (Ephraem Syrus)
   name_kind: scholarly
+dates:
+  kind: floruit
+  display: corpus 350s-373
+  start_year: 350
+  end_year: 373
+  approximate: true
+  note: >-
+    In-build attestation (T3-E): syrgrav001 spans "Ephrem's whole corpus (350s-373)". These bound the
+    surviving corpus, not his life; no birth date is attested in this build.
 bridge_line: "Our best known teacher and hymn writer, at Nisibis and later Edessa."
 narratable: true
 story_ids:
