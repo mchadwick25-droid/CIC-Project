@@ -50,8 +50,14 @@ ROOT = HERE.parent  # cic/
 TEXTS_DIR = ROOT / "texts"
 RECORDS_DIR = ROOT / "records"
 
-_RIGHTS_LINE = re.compile(r"Rights:\s*(.+)")
-_TITLE_LINE = re.compile(r"Title:\s*(.+)")
+# Two conventions seen across what's actually been vendored, both CCEL's
+# own: the plain-text export's "Rights: Public Domain" line, and ThML XML's
+# own <DC.Rights>Public Domain</DC.Rights> Dublin-Core element - found only
+# by reading the real anf01 XML header, not assumed from the .txt
+# convention. Order matters (first alternative wins the same group number
+# either way, since only one can match a given header).
+_RIGHTS_LINE = re.compile(r"Rights:\s*(.+)|<DC\.Rights>\s*([^<]+)")
+_TITLE_LINE = re.compile(r"Title:\s*(.+)|<DC\.Title>\s*([^<]+)")
 
 
 @dataclass(frozen=True)
@@ -64,7 +70,19 @@ class TextEntry:
 
 # What CANNOT be read off the file itself or computed from the records.
 ENTRIES: tuple[TextEntry, ...] = (
-    TextEntry("anf01_apostolic-fathers-justin-irenaeus.txt", "Mark", "2026-08-15"),
+    TextEntry("anf01_apostolic-fathers-justin-irenaeus.xml", "Mark", "2026-08-15",
+              "CCEL's native ThML source, SWAPPED IN 2026-08-15 for the plain-text rendering that "
+              "originally carried this id - same volume, same rights basis, verified byte-identical "
+              "on all four passages already committed as quote records (pahcq001-004) before the "
+              "swap. Structurally better for this build's own purposes: shorter/longer/Syriac "
+              "recensions are addressable by id (e.g. v.v.iv-p1 vs v.v.iv-p4 for Romans 4), and "
+              "footnotes are their own <note> elements rather than interleaved apparatus text - both "
+              "real friction points hand-transcribing the plain text had already hit. Extracting text "
+              "correctly requires walking element trees properly, not naive regex: a lazy `<p>...</p>` "
+              "match truncates early against nested <note><p class=\"endnote\">...</p></note> "
+              "structures, and a node's own skip-tag status must not be applied to its `tail` text - "
+              "both mistakes were made and caught live during this swap, on the Smyrnaeans and "
+              "Martyrdom-of-Polycarp passages respectively, before anything was recommitted."),
     TextEntry("anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt", "Mark", "2026-08-15",
               "Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria."),
     TextEntry("anf03_tertullian.txt", "Mark", "2026-08-15",
@@ -98,11 +116,16 @@ ENTRIES: tuple[TextEntry, ...] = (
 )
 
 
-def read_header(path: Path, lines: int = 30) -> str:
-    """The file's own first N lines - generous on purpose. Two of the ten real
-    files here have titles that wrap across 4-6 lines before the Rights: line
-    appears; an 8-line window (this module's first draft) missed both and
-    would have false-flagged two genuinely public-domain files as unverified.
+def read_header(path: Path, lines: int = 100) -> str:
+    """The file's own first N lines - generous on purpose, and widened twice
+    now for two different real reasons. Two of the ten plain-text files have
+    titles that wrap across 4-6 lines before the Rights: line appears; an
+    8-line window (this module's first draft) missed both and would have
+    false-flagged two genuinely public-domain files as unverified. Then the
+    anf01 XML swap: ThML's own <DC.Rights> Dublin-Core element sits at line
+    68 in that file's real header, well past the 30-line window that had
+    covered every plain-text file fine - widened to 100 with margin for
+    other ThML files' own varying metadata-block length.
     """
     out = []
     with path.open(encoding="utf-8", errors="replace") as f:
@@ -119,18 +142,27 @@ def rights_declared(header: str) -> str | None:
     checked fresh every run, not trusted from whatever note accompanied the
     file when it was vendored."""
     m = _RIGHTS_LINE.search(header)
-    return m.group(1).strip() if m else None
+    if not m:
+        return None
+    return (m.group(1) or m.group(2)).strip()  # exactly one alternative matches
 
 
 def title_declared(header: str) -> str | None:
     m = _TITLE_LINE.search(header)
-    return m.group(1).strip() if m else None
+    if not m:
+        return None
+    return (m.group(1) or m.group(2)).strip()
 
 
 def discovered_files() -> list[str]:
     """What is ACTUALLY sitting in cic/texts/ right now, not what ENTRIES
     claims - the two are cross-checked in report(), not assumed to agree."""
-    return sorted(p.name for p in TEXTS_DIR.glob("*.txt"))
+    # Both plain-text renderings and CCEL's native ThML XML source live here
+    # now (the anf01 swap, 2026-08-15) - a *.txt-only glob went blind to the
+    # first .xml file added and silently reported it as a missing file, a
+    # real bug caught live while doing that swap, not a hypothetical one.
+    return sorted(p.name for p in TEXTS_DIR.iterdir()
+                  if p.is_file() and p.suffix in (".txt", ".xml"))
 
 
 def citing_records(filename: str) -> list[str]:

@@ -22,7 +22,7 @@ committing them would be redistribution.
 
 | file | title (from the file's own header) | rights | supplied | added | cited by |
 |---|---|---|---|---|---|
-| `anf01_apostolic-fathers-justin-irenaeus.txt` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahcq001`, `pahcq002`, `pahcq003`, `pahcq004` |
+| `anf01_apostolic-fathers-justin-irenaeus.xml` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahcq001`, `pahcq002`, `pahcq003`, `pahcq004` |
 | `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt` | ANF02. Fathers of the Second Century: Hermas, Tatian, | Public Domain | Mark | 2026-08-15 | - |
 | `anf03_tertullian.txt` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | - |
 | `anf04_tertullian4-minucius-felix-commodian-origen1-2.txt` | ANF04. Fathers of the Third Century: Tertullian, Part Fourth; | Public Domain | Mark | 2026-08-15 | - |
@@ -35,6 +35,7 @@ committing them would be redistribution.
 
 Notes carried over per file:
 
+- **`anf01_apostolic-fathers-justin-irenaeus.xml`** -- CCEL's native ThML source, SWAPPED IN 2026-08-15 for the plain-text rendering that originally carried this id - same volume, same rights basis, verified byte-identical on all four passages already committed as quote records (pahcq001-004) before the swap. Structurally better for this build's own purposes: shorter/longer/Syriac recensions are addressable by id (e.g. v.v.iv-p1 vs v.v.iv-p4 for Romans 4), and footnotes are their own <note> elements rather than interleaved apparatus text - both real friction points hand-transcribing the plain text had already hit. Extracting text correctly requires walking element trees properly, not naive regex: a lazy `<p>...</p>` match truncates early against nested <note><p class="endnote">...</p></note> structures, and a node's own skip-tag status must not be applied to its `tail` text - both mistakes were made and caught live during this swap, on the Smyrnaeans and Martyrdom-of-Polycarp passages respectively, before anything was recommitted.
 - **`anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt`** -- Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria.
 - **`anf03_tertullian.txt`** -- Carries Tertullian's Apologeticus, the primary text srcPAHCP15 already cites in pahc ('Tertullian, Apology 39'). No quote record was in this session's worklist, so none was written, but the translation edition is available if one is ever wanted.
 - **`anf04_tertullian4-minucius-felix-commodian-origen1-2.txt`** -- Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2.
