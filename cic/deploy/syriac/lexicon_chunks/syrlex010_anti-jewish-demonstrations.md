@@ -15,7 +15,7 @@ Force-LLM-Vote:       true — this is genuinely sensitive content that should o
 
 ## Quick Meaning
 
-Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
+Roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
 
 ---
 

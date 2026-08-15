@@ -14,7 +14,7 @@ cache_stability: static
 term: Aphrahat's Anti-Jewish Demonstrations
 aliases:
 - '"the demonstrations against the Jews," anti-Jewish polemic'
-quick_meaning: Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against
+quick_meaning: Roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against
   Jewish practice and interpretation. This is real content our record carries, not something merely implied
   by tone.
 world_meaning: 'A real portion of Aphrahat''s surviving work — on the order of ten of his twenty-three
