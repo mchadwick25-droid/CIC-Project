@@ -13,6 +13,15 @@ names:
   name_kind: in-world
 - name: Hermas (Shepherd of Hermas, Rome)
   name_kind: scholarly
+dates:
+  kind: work
+  display: the Shepherd composed c. 90-150, possibly in stages
+  start_year: 90
+  end_year: 150
+  approximate: true
+  note: 'Transcribed from this record''s own attribution_note (T3-E): the composite-composition dating
+    stays open. These bound the WORK, not the man - hence kind: work - so nothing the voice says about
+    when Hermas himself lived or died conflicts with them. His own dates are not attested in this build.'
 bridge_line: "A freed slave in Rome who wrote down his own visions."
 narratable: true
 story_ids:

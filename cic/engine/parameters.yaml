@@ -262,6 +262,39 @@ metrics:
       answered the honest state of this metric is that the ladder is
       designed, schema-valid, and unused - and recording that is worth
       more than a number invented to fill the row.
+  - name: figure_demand_reach
+    definition: >-
+      which of a world's figures participants actually MEET - distinct
+      figures named across sampled turns, and how many of those carry no
+      attested date. The number backfill priority is set from: a figure
+      nobody is ever introduced to does not need a chronology authored for
+      it.
+    instrument: >-
+      ongoing, from runtime: the [groundedness_figure_undated] line
+      check_figure_chronology writes per turn (added T3-E, 2026-08-15,
+      after finding Phase 0 logged figures_checked only - i.e. the figures
+      it COULD check - so a figure named with no date left no trace and
+      this question was unanswerable from the logs already being written).
+      Before any live traffic existed, sampled offline by generating turns
+      per world and running find_figures_used over them.
+    baseline: >-
+      B-DEMAND, MEASURED 2026-08-15. 42 turns (6 worlds x 7 ordinary
+      participant questions, no retrieval chunks, claude-sonnet-5); 22
+      named at least one figure. 20 distinct figures named out of 59 in the
+      build - 34% reach - and 12 of those 20 carry no attested date. So the
+      demand-ranked backfill is 12 figures rather than all 40 undated: a
+      70% reduction, over a steep ordering (Aphrahat 4 turns, Ignatius 3,
+      Antony 3, then a tail of single mentions). Sample skew stated plainly:
+      2 of the 7 questions ask about people directly, so this is an upper
+      bound on how often a figure surfaces per turn, not an average.
+      One finding a raw coverage count hides: alexandria's ONLY dated
+      figure (Demetrius) was never named once, while all four alexandria
+      figures that WERE named carry no date - its 1-of-12 coverage sits
+      entirely on a figure no participant meets.
+    gate_status: >-
+      observational - tracked, never gates a freeze by itself. An input to
+      mechanism_coverage_depth's floor rather than a threshold of its own:
+      reach says WHICH records matter, not how many a world must carry.
   - name: machine_gate_failure_count
     definition: "gate failures at first run - a health indicator; a gate that never fails is checking nothing"
     instrument: S1.3 wrs_gates run reports

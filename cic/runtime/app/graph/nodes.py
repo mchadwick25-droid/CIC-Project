@@ -1696,6 +1696,7 @@ def check_figure_chronology(
         OUTCOME_ALL_CONSISTENT, OUTCOME_CHECK_FAILED, OUTCOME_CONTRADICTION,
         OUTCOME_NO_DATED_FIGURES, OUTCOME_NO_FIGURES,
         log_figure_chronology_contradiction, log_figure_chronology_outcome,
+        log_named_undated_figures,
     )
     from app.prompts.figure_bridge import figure_registry
 
@@ -1715,6 +1716,7 @@ def check_figure_chronology(
 
         registry_by_id = {e["figure_id"]: e for e in figure_registry(world_id)}
         dated: list[tuple[str, dict, str]] = []
+        undated: list[str] = []
         for fig in figures:
             entry = registry_by_id.get(fig["figure_id"])
             if not entry:
@@ -1729,10 +1731,20 @@ def check_figure_chronology(
             attested = _figure_attested_date(entry)
             if attested:
                 dated.append((chr(65 + len(dated)), fig, attested))
+            else:
+                undated.append(fig["figure_id"])
+
+        # T3-E demand signal: a figure named with no attested date leaves no
+        # other trace, and "which undated figures do participants actually
+        # meet" is what makes backfilling by demand possible instead of
+        # backfilling all 40. Logged whether or not anything was checkable.
+        log_named_undated_figures(
+            world_id, undated, request_id=request_id, session_id=session_id)
 
         if not dated:
             log_figure_chronology_outcome(
                 world_id, OUTCOME_NO_DATED_FIGURES,
+                figures_undated=len(undated),
                 request_id=request_id, session_id=session_id)
             return
 
@@ -1793,6 +1805,7 @@ Use the same lettering as above. Do not add commentary outside these lines."""
             world_id, outcome, figures_checked=len(dated),
             figures_consistent=len(dated) - contradicted_count,
             figures_contradicted=contradicted_count,
+            figures_undated=len(undated),
             request_id=request_id, session_id=session_id)
     except Exception:
         try:

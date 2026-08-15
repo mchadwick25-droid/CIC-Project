@@ -46,7 +46,13 @@
    "Simeon bar Sabbae"
   ],
   "bridge_line": "A bishop in the Persian empire, put to death when the king turned on us.",
-  "narratable": true
+  "narratable": true,
+  "dates": {
+   "kind": "life",
+   "display": "martyred 341 by the traditional date, disputed (Kosinski/Burgess argue c. 344)",
+   "end_year": 341,
+   "note": "Transcribed from this record's own attribution_note (T3-E), not supplied from outside it. The dispute is live and load-bearing - the downstream succession chain shifts with it (Doc_02 SS11) - so `display` carries both positions and neither is settled here. end_year holds the traditional date purely as a machine-comparable bound; `approximate` is omitted rather than guessed, because one candidate is a transmitted date and the other a scholarly estimate, and no single flag is true of both."
+  }
  },
  {
   "figure_id": "syrfig005",

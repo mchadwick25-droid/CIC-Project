@@ -124,6 +124,41 @@ OUTCOME_ALL_CONSISTENT = "all_consistent"        # every dated figure's mentions
 OUTCOME_CONTRADICTION = "contradiction"          # at least one dated figure's mentions contradicted its attested date
 
 
+def log_named_undated_figures(
+    world_id: str | None,
+    figure_ids: list,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """Figures a turn NAMED that carry no attested date - the backfill
+    demand signal (T3-E).
+
+    Added 2026-08-15 after finding that Phase 0 could not answer the
+    question T3-E was designed around. check_figure_chronology logged
+    figures_checked, which counts only the figures it COULD check; a figure
+    named with no date left no trace at all, so "which undated figures do
+    participants actually meet" - the whole basis for backfilling by demand
+    rather than exhaustively - was unanswerable from the logs the check was
+    already writing.
+
+    One line per turn, not per figure: the ids are what a worklist needs,
+    and a turn naming five undated figures is one observation of each, not
+    five log lines' worth of event.
+    """
+    try:
+        if not figure_ids:
+            return
+        logger.info(
+            "[groundedness_figure_undated] world_id=%s count=%d request_id=%s "
+            "session_id=%s figures=%s",
+            world_id, len(figure_ids), request_id, session_id,
+            ",".join(figure_ids),
+        )
+    except Exception:
+        pass
+
+
 def log_figure_chronology_outcome(
     world_id: str | None,
     outcome: str,
@@ -131,6 +166,7 @@ def log_figure_chronology_outcome(
     figures_checked: int = 0,
     figures_consistent: int = 0,
     figures_contradicted: int = 0,
+    figures_undated: int = 0,
     request_id: str | None = None,
     session_id: str | None = None,
 ) -> None:
@@ -142,10 +178,10 @@ def log_figure_chronology_outcome(
     try:
         logger.info(
             "[groundedness_figure] world_id=%s outcome=%s figures_checked=%d "
-            "figures_consistent=%d figures_contradicted=%d request_id=%s "
-            "session_id=%s",
+            "figures_consistent=%d figures_contradicted=%d figures_undated=%d "
+            "request_id=%s session_id=%s",
             world_id, outcome, figures_checked, figures_consistent,
-            figures_contradicted, request_id, session_id,
+            figures_contradicted, figures_undated, request_id, session_id,
         )
     except Exception:
         pass
