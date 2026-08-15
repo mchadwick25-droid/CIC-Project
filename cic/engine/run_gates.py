@@ -45,15 +45,30 @@ def run_records(records_dir: Path, voice_material: str) -> int:
         records[rec["id"]] = rec
     vm = Path(voice_material).read_text(encoding="utf-8") if voice_material else ""
     total = 0
+    advisory_total = 0
     for name, fn in GATES.items():
         v = fn(records, vm)
         v, notes = core.split_alias_reports(v)
         total += len(v)
+        advisory_total += len(notes)
         print(f"## {name}: {len(v)} violation(s)"
-              + (f" (+{len(notes)} documented-exception note(s))" if notes else ""))
+              + (f" (+{len(notes)} advisory)" if notes else ""))
         for x in v:
             print(" -", x)
-    print(f"\nTOTAL: {total} violation(s) across {len(records)} records")
+        # Advisory findings are PRINTED, not just counted. split_alias_reports
+        # has always documented them as "printed but never counted"; this
+        # runner counted them and printed nothing, so the whole advisory
+        # channel was write-only - a gate could report a real finding and the
+        # operator would see a bare number. Fixed here so the channel is
+        # usable by any gate that needs to report without blocking
+        # (mechanism_coverage is the first).
+        for x in notes:
+            # "~" already marks the line advisory; the in-string prefix the
+            # gate used to route it here would just repeat that.
+            print(" ~", x[len(core._NOTE_PREFIX):].lstrip())
+    print(f"\nTOTAL: {total} violation(s)"
+          + (f", {advisory_total} advisory" if advisory_total else "")
+          + f" across {len(records)} records")
     return 0
 
 

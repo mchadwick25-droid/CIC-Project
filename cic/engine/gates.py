@@ -757,6 +757,16 @@ def gate_mechanism_coverage(records: dict) -> list:
     an ordinary change, while changing this gate's behaviour is bound by
     the gate-integrity rule at the top of this file.
 
+    ADVISORY, by Mark's decision 2026-08-15: every finding here is emitted
+    behind _NOTE_PREFIX, so it prints in full but never enters the
+    runner's violation TOTAL. That decision is encoded here rather than
+    left to the runner's current always-exit-0 behaviour on purpose - the
+    moment anything gives the runner teeth, a finding sitting in the
+    ordinary violation count would become blocking by default and silently
+    reverse the decision. Promoting coverage to blocking is therefore a
+    one-line change AT THIS GATE, made deliberately, when a floor exists to
+    promote it against.
+
     REPORTS ZERO-COVERAGE ONLY. A dependency satisfied by even one record
     passes here, even at 1-of-12: no floor has been set, and inventing one
     inside a gate would be exactly the "assume the threshold" move the
@@ -776,6 +786,10 @@ def gate_mechanism_coverage(records: dict) -> list:
     try:
         from mechanism_dependencies import coverage
     except Exception as exc:  # noqa: BLE001
+        # NOT advisory - this one is a real violation. The gate being unable
+        # to run is a defect in the gate, not a coverage shortfall in a
+        # world, and it must not be filed under the same "known, accepted"
+        # heading as the findings it exists to report.
         return [f"mechanism_dependencies.py could not be loaded ({exc!r}) - "
                 f"coverage is UNKNOWN, not green"]
 
@@ -790,8 +804,8 @@ def gate_mechanism_coverage(records: dict) -> list:
             shortfall = (f"0 of {n_of_type} {dep.record_type} record(s) carry "
                          f"{dep.requirement}")
         out.append(
-            f"{dep.label}: {shortfall} - the mechanism runs and cannot "
-            f"function. Inert-{dep.inert_mode}: {dep.inert_consequence} "
-            f"[reads {dep.record_type}.{dep.field}]"
+            f"{_NOTE_PREFIX} {dep.label}: {shortfall} - the mechanism runs "
+            f"and cannot function. Inert-{dep.inert_mode}: "
+            f"{dep.inert_consequence} [reads {dep.record_type}.{dep.field}]"
         )
     return out
