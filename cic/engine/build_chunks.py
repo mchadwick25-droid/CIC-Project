@@ -213,11 +213,14 @@ def render_ambient(rec, world_code):
     def _reg_cite(sid):
         # id shapes differ per world: srcSYR021 -> "Source Registry #21";
         # srcPAHCP03 -> "Registry P03" (the letter-keyed convention its
-        # own resolver rows use). Strip "src" + the alpha world prefix.
-        import re as _re
-        tail = _re.match(r"src[A-Z]+?([A-Z]?\d+)$", sid)
-        token = tail.group(1) if tail else sid
-        if token[0].isalpha():
+        # own resolver rows use). The world prefix must be stripped whole -
+        # a lazy match leaves a prefix letter glued to the token.
+        prefix = {"syr": "SYR", "alex": "ALX", "desert": "DES",
+                  "hal": "HAL", "ijc": "IJC", "pahc": "PAHC"}.get(world_code)
+        token = sid[3:]
+        if prefix and token.startswith(prefix):
+            token = token[len(prefix):]
+        if token[:1].isalpha():
             return f"Registry {token}"
         return f"Source Registry #{int(token)}"
     regs = "; ".join(_reg_cite(s["source_id"]) for s in rec.get("sources") or [])

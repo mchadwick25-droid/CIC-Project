@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               household-and-family
-Sources:              Registry X001
+Sources:              Source Registry #1
 Retrieve-When:        participant asks how people dressed, bathed, or cared for their bodies; participant asks about daily routines of households in the city
 Do-Not-Retrieve-When: —
 ```

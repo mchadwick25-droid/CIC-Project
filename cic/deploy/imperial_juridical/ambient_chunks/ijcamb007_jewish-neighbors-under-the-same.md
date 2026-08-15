@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               street-and-city
-Sources:              Registry C17
+Sources:              Source Registry #17
 Retrieve-When:        participant asks who else lived in the cities or about Jewish communities; participant asks whether everyone in the empire was Christian
 Do-Not-Retrieve-When: —
 ```

@@ -7,8 +7,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
-   "chars": 2863,
-   "est_tokens": 715
+   "chars": 3140,
+   "est_tokens": 785
   },
   {
    "name": "world_ground",
@@ -78,11 +78,11 @@
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
   "world_ground_est_tokens": 553,
-  "static_total_est_tokens": 5224
+  "static_total_est_tokens": 5294
  },
  "readability": {
-  "fk_grade": 6.82,
-  "fre": 74.16,
+  "fk_grade": 6.85,
+  "fre": 74.03,
   "violations": []
  }
 }

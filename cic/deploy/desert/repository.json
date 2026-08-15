@@ -3,7 +3,7 @@
   "world_id": "desert-monasticism",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 107,
+  "record_count": 110,
   "records": [
     {
       "id": "desertamb001",
@@ -1579,7 +1579,7 @@
               "name_kind": "scholarly"
             }
           ],
-          "bridge_line": "An elder named often in our tradition. We carry no story of his own.",
+          "bridge_line": "An elder our tradition names often - much is carried under his name, and none of it is in the handful we hold vetted here.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Named in the Permanent Prompt EXPLICITLY as a name-without-story ('even a name as often repeated as Poemen's') - the prompt's own refusal-to-invent guard.",
@@ -1631,7 +1631,7 @@
               "name_kind": "scholarly"
             }
           ],
-          "bridge_line": "An elder named in our tradition. We carry no story of his own.",
+          "bridge_line": "An elder our tradition names often - much is carried under his name, and none of it is in the handful we hold vetted here.",
           "narratable": false,
           "story_ids": [],
           "attribution_note": "Same as Poemen: named as a name-only example in the prompt's anti-fabrication guard.",
@@ -5959,7 +5959,7 @@
           "Locus: Apophthegmata Patrum, Sarah (Alphabetical Collection).",
           "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
           "Translation used: srcDES021.",
-          "License basis: verbatim."
+          "License basis: paraphrase-only."
         ],
         "reflect": [
           "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
@@ -5983,7 +5983,7 @@
           "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
           "locus": "Apophthegmata Patrum, Sarah (Alphabetical Collection)",
           "translation_used": "srcDES021",
-          "license": "verbatim",
+          "license": "paraphrase-only",
           "confidence": {
             "citation_specificity": "B",
             "verification_state": "verified-via-authority",
@@ -5995,6 +5995,177 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "saying - apophthegmata patrum, sarah (alphabetical collection) desertq003 quote apophthegmata patrum, sarah (alphabetical collection)"
+    },
+    {
+      "id": "desertq004",
+      "record_type": "quote",
+      "title": "Saying - Apophthegmata Patrum, Moses 6 (Alphabetical Collection)",
+      "rights": {
+        "gated_fields": [
+          "text_translation"
+        ],
+        "basis": "withheld: srcDES021 states no display permission (unset is denied - FLAG-013)"
+      },
+      "level3": {
+        "record_id": "desertq004",
+        "record_type": "quote",
+        "title": "Saying - Apophthegmata Patrum, Moses 6 (Alphabetical Collection)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: desertfig004.",
+          "Locus: Apophthegmata Patrum, Moses 6 (Alphabetical Collection).",
+          "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "Translation used: srcDES021.",
+          "License basis: paraphrase-only."
+        ],
+        "reflect": [
+          "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity B / verified-via-authority."
+        ],
+        "question": [],
+        "full_record": {
+          "world_id": "desert-monasticism",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "id": "desertq004",
+          "speaker_or_author": "desertfig004",
+          "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "locus": "Apophthegmata Patrum, Moses 6 (Alphabetical Collection)",
+          "translation_used": "srcDES021",
+          "license": "paraphrase-only",
+          "confidence": {
+            "citation_specificity": "B",
+            "verification_state": "verified-via-authority",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Widely Accepted"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - apophthegmata patrum, moses 6 (alphabetical collection) desertq004 quote apophthegmata patrum, moses 6 (alphabetical collection)"
+    },
+    {
+      "id": "desertq005",
+      "record_type": "quote",
+      "title": "Saying - Apophthegmata Patrum, Antony 4 (Alphabetical Collection); spoken to Abba Poemen",
+      "rights": {
+        "gated_fields": [
+          "text_translation"
+        ],
+        "basis": "withheld: srcDES021 states no display permission (unset is denied - FLAG-013)"
+      },
+      "level3": {
+        "record_id": "desertq005",
+        "record_type": "quote",
+        "title": "Saying - Apophthegmata Patrum, Antony 4 (Alphabetical Collection); spoken to Abba Poemen",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: desertfig001.",
+          "Locus: Apophthegmata Patrum, Antony 4 (Alphabetical Collection); spoken to Abba Poemen.",
+          "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "Translation used: srcDES021.",
+          "License basis: paraphrase-only."
+        ],
+        "reflect": [
+          "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity B / verified-via-authority."
+        ],
+        "question": [],
+        "full_record": {
+          "world_id": "desert-monasticism",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "id": "desertq005",
+          "speaker_or_author": "desertfig001",
+          "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "locus": "Apophthegmata Patrum, Antony 4 (Alphabetical Collection); spoken to Abba Poemen",
+          "translation_used": "srcDES021",
+          "license": "paraphrase-only",
+          "confidence": {
+            "citation_specificity": "B",
+            "verification_state": "verified-via-authority",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Widely Accepted"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - apophthegmata patrum, antony 4 (alphabetical collection); spoken to abba poemen desertq005 quote apophthegmata patrum, antony 4 (alphabetical collection); spoken to abba poemen"
+    },
+    {
+      "id": "desertq006",
+      "record_type": "quote",
+      "title": "Saying - Apophthegmata Patrum, Macarius 19 (Alphabetical Collection)",
+      "rights": {
+        "gated_fields": [
+          "text_translation"
+        ],
+        "basis": "withheld: srcDES021 states no display permission (unset is denied - FLAG-013)"
+      },
+      "level3": {
+        "record_id": "desertq006",
+        "record_type": "quote",
+        "title": "Saying - Apophthegmata Patrum, Macarius 19 (Alphabetical Collection)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: desertfig012.",
+          "Locus: Apophthegmata Patrum, Macarius 19 (Alphabetical Collection).",
+          "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "Translation used: srcDES021.",
+          "License basis: paraphrase-only."
+        ],
+        "reflect": [
+          "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity B / verified-via-authority."
+        ],
+        "question": [],
+        "full_record": {
+          "world_id": "desert-monasticism",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "id": "desertq006",
+          "speaker_or_author": "desertfig012",
+          "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "locus": "Apophthegmata Patrum, Macarius 19 (Alphabetical Collection)",
+          "translation_used": "srcDES021",
+          "license": "paraphrase-only",
+          "confidence": {
+            "citation_specificity": "B",
+            "verification_state": "verified-via-authority",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Widely Accepted"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - apophthegmata patrum, macarius 19 (alphabetical collection) desertq006 quote apophthegmata patrum, macarius 19 (alphabetical collection)"
     },
     {
       "id": "desertstory001",
@@ -8617,6 +8788,9 @@
         "desertclaim005",
         "desertq001",
         "desertq003",
+        "desertq004",
+        "desertq005",
+        "desertq006",
         "desertstory004",
         "desertstory005",
         "desertstory006"
@@ -8637,6 +8811,7 @@
     },
     "by_figure": {
       "desertfig001": [
+        "desertq005",
         "desertstory001",
         "desertstory002",
         "desertstory007"
@@ -8646,6 +8821,7 @@
       ],
       "desertfig004": [
         "desertq001",
+        "desertq004",
         "desertstory004"
       ],
       "desertfig005": [
@@ -8661,6 +8837,9 @@
       ],
       "desertfig008": [
         "desertstory010"
+      ],
+      "desertfig012": [
+        "desertq006"
       ],
       "desertfig013": [
         "desertstory008"

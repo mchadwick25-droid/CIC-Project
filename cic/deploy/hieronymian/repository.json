@@ -3,7 +3,7 @@
   "world_id": "hieronymian-ascetic-literary",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 98,
+  "record_count": 99,
   "records": [
     {
       "id": "halamb001",
@@ -5081,6 +5081,54 @@
       }
     },
     {
+      "id": "halq001",
+      "record_type": "quote",
+      "title": "Saying - Jerome, Ep. 22.15 (the Matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in Adversus Iovinianum 1.3 and defended in Ep. 48/49 after Pammachius tried to withdraw copies",
+      "rights": {
+        "gated_fields": [
+          "text_translation"
+        ],
+        "basis": "withheld: srcHAL001 states no display permission (unset is denied - FLAG-013)"
+      },
+      "level3": {
+        "record_id": "halq001",
+        "record_type": "quote",
+        "title": "Saying - Jerome, Ep. 22.15 (the Matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in Adversus Iovinianum 1.3 and defended in Ep. 48/49 after Pammachius tried to withdraw copies",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: halfig001.",
+          "Locus: Jerome, Ep. 22.15 (the Matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in Adversus Iovinianum 1.3 and defended in Ep. 48/49 after Pammachius tried to withdraw copies.",
+          "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "Translation used: srcHAL001.",
+          "License basis: paraphrase-only."
+        ],
+        "reflect": [
+          "Citation: specificity B / verified-via-authority."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halq001",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "quote",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "translation_used": "srcHAL001",
+          "locus": "Jerome, Ep. 22.15 (the Matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in Adversus Iovinianum 1.3 and defended in Ep. 48/49 after Pammachius tried to withdraw copies",
+          "speaker_or_author": "halfig001",
+          "license": "paraphrase-only",
+          "confidence": {
+            "verification_state": "verified-via-authority",
+            "verification_date": "2026-08-14",
+            "citation_specificity": "B"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - jerome, ep. 22.15 (the matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in adversus iovinianum 1.3 and defended in ep. 48/49 after pammachius tried to withdraw copies halq001 quote jerome, ep. 22.15 (the matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in adversus iovinianum 1.3 and defended in ep. 48/49 after pammachius tried to withdraw copies"
+    },
+    {
       "id": "halstory01",
       "record_type": "story",
       "title": "The Departure from Rome and the Journey to Bethlehem",
@@ -7517,6 +7565,7 @@
         "hallex12",
         "hallex14",
         "hallex15",
+        "halq001",
         "halstory01",
         "halstory02",
         "halstory04",
@@ -7632,6 +7681,7 @@
     },
     "by_figure": {
       "halfig001": [
+        "halq001",
         "halstory01",
         "halstory02",
         "halstory03",

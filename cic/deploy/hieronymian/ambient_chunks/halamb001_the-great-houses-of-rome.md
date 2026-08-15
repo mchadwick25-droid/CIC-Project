@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               household-and-family
-Sources:              Registry L017; Registry L015
+Sources:              Source Registry #17; Source Registry #15
 Retrieve-When:        participant asks about wealth, great families, or households in Rome; participant asks what the women of this circle gave up or controlled
 Do-Not-Retrieve-When: —
 ```

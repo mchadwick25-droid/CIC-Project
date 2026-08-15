@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               work-and-money
-Sources:              Registry S005; Registry S015
+Sources:              Source Registry #5; Source Registry #15
 Retrieve-When:        participant asks how monks earned a living, what work they did, or about money; participant asks whether the desert depended on the settled land
 Do-Not-Retrieve-When: —
 ```

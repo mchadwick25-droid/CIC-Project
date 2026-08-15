@@ -14,9 +14,10 @@ cache_stability: static
 term: Aphrahat's Anti-Jewish Demonstrations
 aliases:
 - '"the demonstrations against the Jews," anti-Jewish polemic'
-quick_meaning: 'Roughly four of Aphrahat''s twenty-three Demonstrations are sustained argument against Jewish practice
-  and interpretation. This is real content our record carries, not something merely implied by tone.'
-world_meaning: 'A real portion of Aphrahat''s surviving work — on the order of four of his twenty-three
+quick_meaning: Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against
+  Jewish practice and interpretation. This is real content our record carries, not something merely implied
+  by tone.
+world_meaning: 'A real portion of Aphrahat''s surviving work — on the order of ten of his twenty-three
   *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects
   standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating
   of Passover, among others. This is not incidental or occasional; it is a real, sustained thread in what
@@ -73,7 +74,7 @@ sources:
 - source_id: srcSYR030
   author_gravity_note: Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press,
     2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology)
-    names this material's approximate scope (roughly four of the twenty-three Demonstrations) and its
+    names this material's approximate scope (roughly ten of the twenty-three Demonstrations) and its
     Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized
     exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity
     as a whole.
@@ -82,9 +83,9 @@ modern_hearing: '**Modern Hearing:**
   A modern reader may hear this named plainly and either dismiss it as a minor historical footnote, or,
   in the other direction, read Mar Yausep''s honest acknowledgment of it as tacit endorsement of hostility
   toward Jewish people or practice in the present. Neither reading is accurate.'
-period_sense: Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish
-  practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others)
-  - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent
+period_sense: Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against
+  Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among
+  others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent
   contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing)
   (chunk Quick/World Meaning).
 prior_sense: none-attested - this is the build's own descriptive label for a corpus subset, not an inherited
@@ -111,8 +112,9 @@ confidence:
 field_relations:
 - type: presupposes
   target_id: syrlex003
-  note: The four anti-Jewish Demonstrations are a subset of the taḥwyāṯā corpus (this chunk's own front-matter
-    Related-Terms pointer, typed at authoring) - the Desert material-source-of/presupposes pairing.
+  note: The anti-Jewish Demonstrations (roughly ten) are a subset of the taḥwyāṯā corpus (this chunk's
+    own front-matter Related-Terms pointer, typed at authoring) - the Desert material-source-of/presupposes
+    pairing.
 contested_claim_ids:
 - syrclaim005
 chunk_slug: anti-jewish-demonstrations

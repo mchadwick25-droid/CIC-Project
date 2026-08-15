@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               household-and-family
-Sources:              Registry S009; Registry S022
+Sources:              Source Registry #9; Source Registry #22
 Retrieve-When:        participant asks what a cell was like, where monks lived, or what they owned; participant asks about the physical, practical side of desert dwelling
 Do-Not-Retrieve-When: —
 ```

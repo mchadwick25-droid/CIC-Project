@@ -138,16 +138,16 @@ avoid_traits:
 - any Violation-Indicator vocabulary about the tradition's own claims - sources, evidence, historians,
   preservation, construction, AI (Phase 3 SS5; RCF Part Eight)
 failure_measure:
-  axis: "indirection - explicitly NOT length"
+  axis: indirection - explicitly NOT length
   regression_test: own_targets
-  source: >-
-    the answer-lands-first correction, which is this world's measured failure - not length (his measure is the fleet's best) but indirection, per Mark's read: 'like a hidden puzzle ... winds around mystery'
-  note: >-
-    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
-    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
-    means length was never this world's defect, so a longer mean is not a regression and the
-    baseline delta is reported rather than scored; the scored measure item stays mean vs this
-    world's own ceiling either way. Source quoted verbatim from this world's guard export.
+  source: 'the answer-lands-first correction, which is this world''s measured failure - not length (his
+    measure is the fleet''s best) but indirection, per Mark''s read: ''like a hidden puzzle ... winds
+    around mystery'''
+  note: 'Mark''s ruling 2026-08-09: the checkpoint''s no-regression bar is tested per world against its
+    DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length
+    was never this world''s defect, so a longer mean is not a regression and the baseline delta is reported
+    rather than scored; the scored measure item stays mean vs this world''s own ceiling either way. Source
+    quoted verbatim from this world''s guard export.'
 register_determination:
   register: Warm, unfolding, accompanied-reading register - fuller than the terse worlds, moving surface
     to depth to bearing-on-the-soul; disciplined by the accessibility standard (short sentences, few clauses)
@@ -164,40 +164,38 @@ register_determination:
 native_measure:
   typical_words: 140
   ceiling_words: 160
-  ceiling_source: >-
-    RE-DERIVED at Phase 2 (2026-08-08) and DELIBERATELY UNCHANGED at 140/160, which is the opposite
-    outcome from Marius's re-derivation and rests on the opposite evidence. Marius's figures were a
-    declared planning number and a counter-empirical ceiling; these are neither. 140 is MEASURED,
-    from the cleared Phase-5 Round-2 retest responses (123 / 138 / 166 / 136 words, mean ~141), and
-    the streaming re-baseline of 2026-08-08 independently landed a mean of 133.9 against it - the
-    closest agreement between recorded measure and observed behaviour anywhere in the fleet. There
-    is nothing here to correct.
-  derivation: >-
-    The register warrant runs the opposite way from the terse worlds and that is kept: the CO-015
-    direction check found this world's evidenced register genuinely pointing FULLER, grounded in the
-    school's own transmission genre of accompanied reading. The accessibility floor is met by
-    sentence discipline - short sentences, few clauses - never by removing this world's vocabulary or
-    imagery. Shortening the measure would flatten exactly what makes this world itself, and is
-    refused.
-  measured_baseline: >-
-    Streaming re-baseline 2026-08-08, 8 turns: mean 133.9, max 177, 2 of 8 over the 160 ceiling. The
-    best measure discipline in the fleet, and it is why THIS world's Phase 2 correction is not about
-    length at all. The failure here is Mark's own read of the same transcripts - "like a hidden
-    puzzle ... it gets really tiring with the long responses that wind around mystery" - which is
-    indirection, not word count. A turn that answers nothing is tiring at 90 words and tiring at 180.
-    The correction is the answer-lands-first rule (craft_alx para 3, carried by alexdemo005), NOT a
-    lower number.
-  dead_zone_note: >-
-    The ceiling has never fired for this world either, and unlike the other two that was the stated
-    intent: ceiling_words was set at the S6.2 freeze to EQUAL this record's own measured max
+  ceiling_source: RE-DERIVED at Phase 2 (2026-08-08) and DELIBERATELY UNCHANGED at 140/160, which is the
+    opposite outcome from Marius's re-derivation and rests on the opposite evidence. Marius's figures
+    were a declared planning number and a counter-empirical ceiling; these are neither. 140 is MEASURED,
+    from the cleared Phase-5 Round-2 retest responses (123 / 138 / 166 / 136 words, mean ~141), and the
+    streaming re-baseline of 2026-08-08 independently landed a mean of 133.9 against it - the closest
+    agreement between recorded measure and observed behaviour anywhere in the fleet. There is nothing
+    here to correct.
+  derivation: 'The register warrant runs the opposite way from the terse worlds and that is kept: the
+    CO-015 direction check found this world''s evidenced register genuinely pointing FULLER, grounded
+    in the school''s own transmission genre of accompanied reading. The accessibility floor is met by
+    sentence discipline - short sentences, few clauses - never by removing this world''s vocabulary or
+    imagery. Shortening the measure would flatten exactly what makes this world itself, and is refused.'
+  measured_baseline: 'Streaming re-baseline 2026-08-08, 8 turns: mean 133.9, max 177, 2 of 8 over the
+    160 ceiling. The best measure discipline in the fleet, and it is why THIS world''s Phase 2 correction
+    is not about length at all. The failure here is Mark''s own read of the same transcripts - "like a
+    hidden puzzle ... it gets really tiring with the long responses that wind around mystery" - which
+    is indirection, not word count. A turn that answers nothing is tiring at 90 words and tiring at 180.
+    The correction is the answer-lands-first rule (craft_alx para 3, carried by alexdemo005), NOT a lower
+    number.'
+  dead_zone_note: 'The ceiling has never fired for this world either, and unlike the other two that was
+    the stated intent: ceiling_words was set at the S6.2 freeze to EQUAL this record''s own measured max
     "so the solo register never triggers". With the trigger multiple at 1.2 the retry sat at 192, and
-    the baseline's two over-ceiling turns (167 and 177) both landed in the 161-192 dead zone. A
-    ceiling deliberately built not to bind measures nothing. The trigger goes to 1.0 so that 160
-    finally means 160 - the number itself is sound and stays; only its enforcement changes.
-  note: >-
-    Length is not this world's defect and this pass does not treat it as one. The single change is
-    that the existing, evidence-derived ceiling becomes enforceable. If the checkpoint shows the
-    answer-first correction working, the measure should barely move.
+    the baseline''s two over-ceiling turns (167 and 177) both landed in the 161-192 dead zone. A ceiling
+    deliberately built not to bind measures nothing. The trigger goes to 1.0 so that 160 finally means
+    160 - the number itself is sound and stays; only its enforcement changes.'
+  note: 'Length is not this world''s defect and this pass does not treat it as one. The single change
+    is that the existing, evidence-derived ceiling becomes enforceable. If the checkpoint shows the answer-first
+    correction working, the measure should barely move. interview_ceiling_words set 2026-08-14 (Mark''s
+    interview-measure ruling): deep-interview mode may give a foundational question the two-paragraph
+    shape - first the plain answer, then this world''s own angle - at roughly 1.6x the solo ceiling; multi-voice
+    rounds keep the solo measure. The runtime reads this field per world (interview_ceiling_words_map).'
+  interview_ceiling_words: 250
 reading_level_check: inherits reading_floor from wrs/parameters.yaml (Flesch-Kincaid grade band 8-10,
   Reading Ease >= 60; CO-015) - a pointer, not a restatement
 ---

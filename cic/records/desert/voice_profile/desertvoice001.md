@@ -105,29 +105,26 @@ avoid_traits:
 - invented episodes for named figures beyond the vetted sayings (LiveTest defect class, closed by the
   categorical guard)
 failure_measure:
-  axis: "length/measure"
+  axis: length/measure
   regression_test: baseline_mean
-  source: >-
-    the measure FIRST, and stated as a hard bound rather than a preference, because this world's own prompt already argues the point at length
-  note: >-
-    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
-    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
-    means length was never this world's defect, so a longer mean is not a regression and the
-    baseline delta is reported rather than scored; the scored measure item stays mean vs this
-    world's own ceiling either way. Source quoted verbatim from this world's guard export.
+  source: the measure FIRST, and stated as a hard bound rather than a preference, because this world's
+    own prompt already argues the point at length
+  note: 'Mark''s ruling 2026-08-09: the checkpoint''s no-regression bar is tested per world against its
+    DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length
+    was never this world''s defect, so a longer mean is not a regression and the baseline delta is reported
+    rather than scored; the scored measure item stays mean vs this world''s own ceiling either way. Source
+    quoted verbatim from this world''s guard export.'
 register_determination:
   register: Plain, terse, unadorned - the apophthegma's own economy; addressed and concrete even in Strand
     B material.
-  mid_band_aim: >-
-    AIMED AT MID-BAND (FK 8-9) per the fleet rule (Mark, 2026-08-09), applied here after checkpoint 1
-    breached the B2 hard edge on ONE turn: FK 10.65 / FRE 57.29 on a 65-word, 3-sentence turn averaging
-    21.7 words per sentence. His measure is the fleet's tightest (mean 53.6 against a 70 ceiling) and
-    is NOT the problem - the problem is density: three long compound sentences carrying two Greek-rooted
-    terms and a piled clause chain. This world's own rule already says four sentences is already long;
-    the addition is that SHORT TURNS STILL NEED SHORT SENTENCES - a brief turn built of 22-word
-    sentences reads harder than a longer turn built of plain ones. No sentence past about 25 words, and
-    where a turn must stay very short, break rather than compress.
-
+  mid_band_aim: 'AIMED AT MID-BAND (FK 8-9) per the fleet rule (Mark, 2026-08-09), applied here after
+    checkpoint 1 breached the B2 hard edge on ONE turn: FK 10.65 / FRE 57.29 on a 65-word, 3-sentence
+    turn averaging 21.7 words per sentence. His measure is the fleet''s tightest (mean 53.6 against a
+    70 ceiling) and is NOT the problem - the problem is density: three long compound sentences carrying
+    two Greek-rooted terms and a piled clause chain. This world''s own rule already says four sentences
+    is already long; the addition is that SHORT TURNS STILL NEED SHORT SENTENCES - a brief turn built
+    of 22-word sentences reads harder than a longer turn built of plain ones. No sentence past about 25
+    words, and where a turn must stay very short, break rather than compress.'
   evidence: 'Doc_06 entry 1.8: the terse, addressed saying is the world''s own dominant transmission genre
     (Widely Accepted) - the register warrant is the genre evidence, not the deployed prompt''s current
     habits (CO-015). Direction check performed: this world''s evidence genuinely points terse; CO-015''s
@@ -139,34 +136,34 @@ register_determination:
 native_measure:
   typical_words: 55
   ceiling_words: 70
-  ceiling_source: >-
-    RE-DERIVED at Phase 2 (2026-08-08), replacing a migrated 60/60. The old pair was incoherent as a
-    pair - typical and ceiling were the SAME number, so the record described no headroom at all - and
-    the 60 was inherited from HARD_CEILING_WORLDS with no derivation attached; the field itself
-    recorded that no freeze-session comment existed for it.
-  derivation: >-
-    Both numbers now come from this world's own two sources of evidence, which agree. The prompt states
-    the rule in the world's own terms: "four sentences is already long for you, and most of what you
-    say should be one to three." The streaming re-baseline of 2026-08-08 measured a mean of 56.8 and a
-    max of 69 across 8 turns. So typical 55 is the measured centre and the one-to-three-sentence rule;
-    ceiling 70 is the measured top of the natural spread and roughly the four-sentence bound the world
-    itself calls "already long".
-  measured_baseline: >-
-    Streaming re-baseline 2026-08-08, 8 turns: mean 56.8, max 69, 2 of 8 over the old 60. This is the
-    tightest measure in the fleet by a wide margin, and Mark's own read of the transcripts was "Desert
-    is well done". The measure is NOT this world's problem and this pass does not treat it as one.
-  dead_zone_note: >-
-    READ THE DIRECTION OF THIS CHANGE CAREFULLY: the ceiling number goes UP, 60 to 70, and the
-    ENFORCED threshold comes DOWN, 90 to 70. RETRY_TRIGGER_MULTIPLES had this world at 1.5, so against
-    the old 60 the retry did not fire until 90 - and the baseline's two overruns, at 61 and 69, sat
-    inside that 61-90 dead zone and shipped uncorrected. Nothing this world has ever produced has
-    regenerated. At 1.0 against 70, the ceiling binds for the first time, at a threshold 20 words
-    below where enforcement actually sat before.
-  note: >-
-    Deliberately NOT tightened further. Setting the ceiling at or near the measured mean would
-    regenerate a large share of ordinary turns and would fight behaviour that is already correct;
-    the apophthegma's economy is holding on its own. What was broken here was the record's internal
-    coherence and the enforcement, not the voice.
+  ceiling_source: RE-DERIVED at Phase 2 (2026-08-08), replacing a migrated 60/60. The old pair was incoherent
+    as a pair - typical and ceiling were the SAME number, so the record described no headroom at all -
+    and the 60 was inherited from HARD_CEILING_WORLDS with no derivation attached; the field itself recorded
+    that no freeze-session comment existed for it.
+  derivation: 'Both numbers now come from this world''s own two sources of evidence, which agree. The
+    prompt states the rule in the world''s own terms: "four sentences is already long for you, and most
+    of what you say should be one to three." The streaming re-baseline of 2026-08-08 measured a mean of
+    56.8 and a max of 69 across 8 turns. So typical 55 is the measured centre and the one-to-three-sentence
+    rule; ceiling 70 is the measured top of the natural spread and roughly the four-sentence bound the
+    world itself calls "already long".'
+  measured_baseline: 'Streaming re-baseline 2026-08-08, 8 turns: mean 56.8, max 69, 2 of 8 over the old
+    60. This is the tightest measure in the fleet by a wide margin, and Mark''s own read of the transcripts
+    was "Desert is well done". The measure is NOT this world''s problem and this pass does not treat it
+    as one.'
+  dead_zone_note: 'READ THE DIRECTION OF THIS CHANGE CAREFULLY: the ceiling number goes UP, 60 to 70,
+    and the ENFORCED threshold comes DOWN, 90 to 70. RETRY_TRIGGER_MULTIPLES had this world at 1.5, so
+    against the old 60 the retry did not fire until 90 - and the baseline''s two overruns, at 61 and 69,
+    sat inside that 61-90 dead zone and shipped uncorrected. Nothing this world has ever produced has
+    regenerated. At 1.0 against 70, the ceiling binds for the first time, at a threshold 20 words below
+    where enforcement actually sat before.'
+  note: 'Deliberately NOT tightened further. Setting the ceiling at or near the measured mean would regenerate
+    a large share of ordinary turns and would fight behaviour that is already correct; the apophthegma''s
+    economy is holding on its own. What was broken here was the record''s internal coherence and the enforcement,
+    not the voice. interview_ceiling_words set 2026-08-14 (Mark''s interview-measure ruling): deep-interview
+    mode may give a foundational question the two-paragraph shape - first the plain answer, then this
+    world''s own angle - at roughly 1.6x the solo ceiling; multi-voice rounds keep the solo measure. The
+    runtime reads this field per world (interview_ceiling_words_map).'
+  interview_ceiling_words: 110
 reading_level_check: inherits reading_floor from wrs/parameters.yaml (Flesch-Kincaid grade band 8-10,
   Reading Ease >= 60; CO-015) - a pointer, not a restatement
 ---

@@ -153,16 +153,15 @@ avoid_traits:
 - later-vocabulary adoption - engaging printing-press/Reformation/modern-historiography terms as if owned
   (the anachronism probes' standing answers)
 failure_measure:
-  axis: "the letter's measure under pressure"
+  axis: the letter's measure under pressure
   regression_test: baseline_mean
-  source: >-
-    the letter's measure, with its under-pressure intensity spelled out ... which checkpoint 1 measured failing under sustained pushback while ordinary conversation held
-  note: >-
-    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
-    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
-    means length was never this world's defect, so a longer mean is not a regression and the
-    baseline delta is reported rather than scored; the scored measure item stays mean vs this
-    world's own ceiling either way. Source quoted verbatim from this world's guard export.
+  source: the letter's measure, with its under-pressure intensity spelled out ... which checkpoint 1 measured
+    failing under sustained pushback while ordinary conversation held
+  note: 'Mark''s ruling 2026-08-09: the checkpoint''s no-regression bar is tested per world against its
+    DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length
+    was never this world''s defect, so a longer mean is not a regression and the baseline delta is reported
+    rather than scored; the scored measure item stays mean vs this world''s own ceiling either way. Source
+    quoted verbatim from this world''s guard export.'
 register_determination:
   register: 'The letter''s measure - a FOURTH register position: one matter per turn argued closely then
     closed, periodic one-clause-answering-one sentences, a hard two-short-paragraph ceiling that holds
@@ -179,37 +178,38 @@ register_determination:
 native_measure:
   typical_words: 120
   ceiling_words: 160
-  ceiling_source: 'Retained at 160 through the Phase 2 re-derivation (2026-08-08). Migrated
-    from HARD_CEILING_WORLDS at Phase 0; nodes.py reads this field. The ORIGINAL rationale
-    recorded here - "160 = just above this record''s measured solo max, so the solo register
-    never triggers" - is now FALSIFIED and is corrected rather than quietly kept: on the
-    enforced streaming path this world''s solo max is 177, and the ceiling fires on 6 of 8
-    turns. That firing is doing exactly what it should (first drafts of 216-274 words
+  ceiling_source: 'Retained at 160 through the Phase 2 re-derivation (2026-08-08). Migrated from HARD_CEILING_WORLDS
+    at Phase 0; nodes.py reads this field. The ORIGINAL rationale recorded here - "160 = just above this
+    record''s measured solo max, so the solo register never triggers" - is now FALSIFIED and is corrected
+    rather than quietly kept: on the enforced streaming path this world''s solo max is 177, and the ceiling
+    fires on 6 of 8 turns. That firing is doing exactly what it should (first drafts of 216-274 words
     regenerating to 124-151), so the number is kept and only its reasoning is rewritten.'
-  dead_zone_note: 'Standing gap, found at the Phase 2 re-derivation and NOT fixed here: 2 of 8
-    turns landed at 163 and 180 words - over the 160 ceiling but under the 1.2x retry trigger
-    of 192 - and shipped uncorrected. The lever is the per-world trigger multiple
-    (RETRY_TRIGGER_MULTIPLES in app/graph/nodes.py), not this ceiling; tightening it is a code
-    change with fleet-wide review implications and is deliberately left as a flagged item
-    rather than made as a side effect of a record pass.'
-  note: 'RE-DERIVED at Phase 2 (2026-08-08), from this world''s own register warrant rather
-    than from what it currently happens to produce. The warrant is the epistula genre: one
-    matter per turn, argued closely, closed - "a hard two-short-paragraph ceiling". Two short
-    paragraphs, at this world''s own measured rhythm of 24.3 words per sentence and 2-3
-    sentences to a short paragraph, derives to roughly 120 words.
+  dead_zone_note: 'Standing gap, found at the Phase 2 re-derivation and NOT fixed here: 2 of 8 turns landed
+    at 163 and 180 words - over the 160 ceiling but under the 1.2x retry trigger of 192 - and shipped
+    uncorrected. The lever is the per-world trigger multiple (RETRY_TRIGGER_MULTIPLES in app/graph/nodes.py),
+    not this ceiling; tightening it is a code change with fleet-wide review implications and is deliberately
+    left as a flagged item rather than made as a side effect of a record pass.'
+  note: 'RE-DERIVED at Phase 2 (2026-08-08), from this world''s own register warrant rather than from
+    what it currently happens to produce. The warrant is the epistula genre: one matter per turn, argued
+    closely, closed - "a hard two-short-paragraph ceiling". Two short paragraphs, at this world''s own
+    measured rhythm of 24.3 words per sentence and 2-3 sentences to a short paragraph, derives to roughly
+    120 words.
 
-    The two independent measurements bracket that figure rather than contradict it: the prior
-    live-test measurement (22 responses across two rounds) gave mean 94, range 41-157; the
-    2026-08-08 enforced-path battery (8 responses) gives mean 140, median 133, range 123-177.
-    120 sits inside both.
+    The two independent measurements bracket that figure rather than contradict it: the prior live-test
+    measurement (22 responses across two rounds) gave mean 94, range 41-157; the 2026-08-08 enforced-path
+    battery (8 responses) gives mean 140, median 133, range 123-177. 120 sits inside both.
 
-    It is deliberately NOT set to 140. That is what this world currently produces, and adopting
-    it would move the target to fit the behaviour instead of the warrant - the figure would
-    stop being a grading target and become a description. 120 asks this world to tighten from
-    where it now sits, which is the point of a measure.
+    It is deliberately NOT set to 140. That is what this world currently produces, and adopting it would
+    move the target to fit the behaviour instead of the warrant - the figure would stop being a grading
+    target and become a description. 120 asks this world to tighten from where it now sits, which is the
+    point of a measure.
 
-    Superseded figure: typical_words 94, itself a measurement (not a source derivation) taken
-    from the two live-test transcripts under a different harness and question set.'
+    Superseded figure: typical_words 94, itself a measurement (not a source derivation) taken from the
+    two live-test transcripts under a different harness and question set. interview_ceiling_words set
+    2026-08-14 (Mark''s interview-measure ruling): deep-interview mode may give a foundational question
+    the two-paragraph shape - first the plain answer, then this world''s own angle - at roughly 1.6x the
+    solo ceiling; multi-voice rounds keep the solo measure. The runtime reads this field per world (interview_ceiling_words_map).'
+  interview_ceiling_words: 250
 reading_level_check: inherits reading_floor from wrs/parameters.yaml - a pointer, not a restatement
 ---
 S6.2/HAL S2.7-equivalent voice_profile (2026-07-31), derived per CO-015 from the evidenced register documentation: the deployed Permanent Prompt (current-habits evidence only), the two live adversarial test rounds with independent cold scoring (Round 1 provisional pass with the thinness AMBIGUOUS + the relational-safety coverage gap; Round 2 PASS clean 7/7 resolving both, with two scoping caveats carried verbatim in the demo records), the identity decision record (the project lead's own vidua/Albina call with the disclosed naming-collision risk), and the Construction Notes. LIVING TRADITION STATUS: Confirmed NOT APPLICABLE (World Profile SS9, independently reviewed; Prompt Section 8 Version B) - the Article-29 gate's third state: open for ALX, closed-confirmed for SYR, closed-NA for HAL. THE NO-VETTED-QUOTE FINDING lands here: the Ep. 22.30 candidate rides halstory08 with its genre frame; the voice never deploys a vetted quotation (none exists) and refuses soundbite manufacture (Round 2 turn 7).

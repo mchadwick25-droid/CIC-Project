@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               food-and-famine
-Sources:              Registry C39; Registry C35
+Sources:              Source Registry #39; Source Registry #35
 Retrieve-When:        participant asks what people ate or how the great cities were fed; participant asks about the bread dole, famine, or food and politics
 Do-Not-Retrieve-When: —
 ```

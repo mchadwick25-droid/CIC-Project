@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               food-and-famine
-Sources:              Registry L001; Registry L013
+Sources:              Source Registry #1; Source Registry #13
 Retrieve-When:        participant asks what people ate, at banquets or under the fasting rule; participant asks about the practical side of fasting and the community's meals
 Do-Not-Retrieve-When: —
 ```

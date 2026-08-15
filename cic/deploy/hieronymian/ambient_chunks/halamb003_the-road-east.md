@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               trade-and-travel
-Sources:              Registry L001; Registry L011
+Sources:              Source Registry #1; Source Registry #11
 Retrieve-When:        participant asks about travel, the journey east, or pilgrimage as travel; participant asks how people got from Rome to the Holy Land
 Do-Not-Retrieve-When: —
 ```

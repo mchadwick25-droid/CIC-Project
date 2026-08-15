@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               language-and-school
-Sources:              Registry X025; Registry X037
+Sources:              Source Registry #25; Source Registry #37
 Retrieve-When:        participant asks whether people could read and write, or how letters and books worked; participant asks what physical books or writing looked like in this world
 Do-Not-Retrieve-When: —
 ```

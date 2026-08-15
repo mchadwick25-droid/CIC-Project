@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               trade-and-travel
-Sources:              Registry C39; Registry C41
+Sources:              Source Registry #39; Source Registry #41
 Retrieve-When:        participant asks about Constantinople, the capital, or the empire's center; participant asks about the grain fleet, the hippodrome, or the court's city
 Do-Not-Retrieve-When: —
 ```

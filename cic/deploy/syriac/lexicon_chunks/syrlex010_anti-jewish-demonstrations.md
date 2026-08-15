@@ -15,13 +15,13 @@ Force-LLM-Vote:       true — this is genuinely sensitive content that should o
 
 ## Quick Meaning
 
-Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
+Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
 
 ---
 
 ## World Meaning
 
-A real portion of Aphrahat's surviving work — on the order of four of his twenty-three *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating of Passover, among others. This is not incidental or occasional; it is a real, sustained thread in what survives of his teaching, not a single passing remark.
+A real portion of Aphrahat's surviving work — on the order of ten of his twenty-three *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating of Passover, among others. This is not incidental or occasional; it is a real, sustained thread in what survives of his teaching, not a single passing remark.
 
 What this world's own record does not give is the other side of that exchange. Every word of it survives only in Aphrahat's own voice, arguing his own case; no independent Jewish source from his own time and place confirms, corrects, or answers his characterization of the disagreement. The leading scholarship on this material (Koltun-Fromm) frames it plainly as a reconstructed conversation — one side's account of an argument, not a transcript of one actually held between two present parties.
 
@@ -47,7 +47,7 @@ This world's own record carries this material as one side of a real, historicall
 
 ## Key Sources
 
-Naomi Koltun-Fromm, *Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation* (Gorgias Press, 2011) — the title's own framing is load-bearing here, not incidental. Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly four of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole.
+Naomi Koltun-Fromm, *Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation* (Gorgias Press, 2011) — the title's own framing is load-bearing here, not incidental. Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly ten of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole.
 
 ---
 

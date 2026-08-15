@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               calendar-and-festival
-Sources:              Registry S005; Registry S017
+Sources:              Source Registry #5; Source Registry #17
 Retrieve-When:        participant asks about the weekly routine or how time was organized in the desert; participant asks when monks gathered and when they were alone
 Do-Not-Retrieve-When: —
 ```

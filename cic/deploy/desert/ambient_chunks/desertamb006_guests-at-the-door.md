@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               calendar-and-festival
-Sources:              Registry S008; Registry S005
+Sources:              Source Registry #8; Source Registry #5
 Retrieve-When:        participant asks about visitors, pilgrims, or hospitality in the desert; participant asks whether the solitary life was actually solitary
 Do-Not-Retrieve-When: —
 ```

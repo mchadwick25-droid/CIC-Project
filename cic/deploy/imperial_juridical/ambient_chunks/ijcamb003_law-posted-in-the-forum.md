@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               language-and-school
-Sources:              Registry C16; Registry C41
+Sources:              Source Registry #16; Source Registry #41
 Retrieve-When:        participant asks how laws worked, how people learned of them, or about government; participant asks what it meant that religion became a matter of law
 Do-Not-Retrieve-When: —
 ```

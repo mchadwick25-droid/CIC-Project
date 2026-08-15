@@ -7,8 +7,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
-   "chars": 3583,
-   "est_tokens": 895
+   "chars": 3991,
+   "est_tokens": 997
   },
   {
    "name": "world_ground",
@@ -39,8 +39,8 @@
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
-   "chars": 3424,
-   "est_tokens": 856
+   "chars": 3468,
+   "est_tokens": 867
   },
   {
    "name": "demonstrations",
@@ -78,11 +78,11 @@
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
   "world_ground_est_tokens": 567,
-  "static_total_est_tokens": 6134
+  "static_total_est_tokens": 6247
  },
  "readability": {
-  "fk_grade": 7.39,
-  "fre": 70.67,
+  "fk_grade": 7.4,
+  "fre": 70.7,
   "violations": []
  }
 }

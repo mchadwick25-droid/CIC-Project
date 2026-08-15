@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               trade-and-travel
-Sources:              Registry S024; Registry S008
+Sources:              Source Registry #24; Source Registry #8
 Retrieve-When:        participant asks where the desert was, how far from towns, or how people traveled to it; participant asks about the relation between monks and the villages
 Do-Not-Retrieve-When: —
 ```

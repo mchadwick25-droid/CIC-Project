@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               calendar-and-festival
-Sources:              Registry C14; Registry C31
+Sources:              Source Registry #14; Source Registry #31
 Retrieve-When:        participant asks about festivals, feast days, or visits to the martyrs' shrines; participant asks how the year was organized or what holidays looked like
 Do-Not-Retrieve-When: —
 ```

@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               food-and-famine
-Sources:              Registry X001; Registry X028
+Sources:              Source Registry #1; Source Registry #28
 Retrieve-When:        participant asks what people ate or what meals and banquets were like; participant asks about wealth, luxury, or how the rich lived in this city
 Do-Not-Retrieve-When: —
 ```

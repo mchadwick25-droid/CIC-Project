@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               sickness-and-death
-Sources:              Registry X026; Registry X034
+Sources:              Source Registry #26; Source Registry #34
 Retrieve-When:        participant asks how the dead were buried or mourned; participant asks about tombs, embalming, or funerals in Egypt
 Do-Not-Retrieve-When: —
 ```

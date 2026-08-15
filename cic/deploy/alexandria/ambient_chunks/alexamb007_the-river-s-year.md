@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               food-and-famine
-Sources:              Registry X022; Registry X009
+Sources:              Source Registry #22; Source Registry #9
 Retrieve-When:        participant asks about farming, the Nile, harvests, or where food came from; participant asks what happened in famine years
 Do-Not-Retrieve-When: —
 ```

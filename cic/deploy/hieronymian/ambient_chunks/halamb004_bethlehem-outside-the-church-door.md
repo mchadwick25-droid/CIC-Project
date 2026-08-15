@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               street-and-city
-Sources:              Registry L011; Registry L008
+Sources:              Source Registry #11; Source Registry #8
 Retrieve-When:        participant asks what Bethlehem or the Holy Land settlements were like; participant asks about pilgrims, the holy places, or the town around the monastery
 Do-Not-Retrieve-When: —
 ```

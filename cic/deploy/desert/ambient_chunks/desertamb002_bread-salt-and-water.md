@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               food-and-famine
-Sources:              Registry S005; Registry S024
+Sources:              Source Registry #5; Source Registry #24
 Retrieve-When:        participant asks what monks ate and drank, or how food reached the desert; participant asks about fasting's practical shape - the meals themselves
 Do-Not-Retrieve-When: —
 ```

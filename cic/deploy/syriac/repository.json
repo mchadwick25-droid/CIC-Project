@@ -3,7 +3,7 @@
   "world_id": "syriac-edessa-nisibis",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 132,
+  "record_count": 133,
   "records": [
     {
       "id": "srcSYR001",
@@ -3932,7 +3932,7 @@
               "author_gravity_note": "Keser Kayaalp and Erdoğan, \"The Cathedral Complex at Nisibis\": the archaeology of the complex - the baptistery's survival, the cathedral's plan and scale in the city's fabric."
             }
           ],
-          "text": "Common life of the place, not the teaching of any one voice. Nisibis drank from the Mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. Inside those walls, in the years just after the great sieges, the Christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 670 of the Greeks - 359 and 360 by our count - under the bishop Vologeses. The building still stands. Beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. A congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. Whatever else changed when the city passed to Persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched.",
+          "text": "Common life of the place, not the teaching of any one voice. Nisibis drank from the Mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. Inside those walls, in the years just after the great sieges, the Christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 671 of the Greeks - 359 and 360 by our count - under the bishop Vologeses. The building still stands. Beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. A congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. Whatever else changed when the city passed to Persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched.",
           "retrieval": {
             "tier": 3,
             "retrieve_when": [
@@ -3944,7 +3944,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the mygdonius, the gardens, and a dated baptistery syramb008 ambient the mygdonius, the gardens, and a dated baptistery common life of the place, not the teaching of any one voice. nisibis drank from the mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. inside those walls, in the years just after the great sieges, the christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 670 of the greeks - 359 and 360 by our count - under the bishop vologeses. the building still stands. beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. a congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. whatever else changed when the city passed to persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched."
+      "search_text": "the mygdonius, the gardens, and a dated baptistery syramb008 ambient the mygdonius, the gardens, and a dated baptistery common life of the place, not the teaching of any one voice. nisibis drank from the mygdonius, the river that watered its ringed gardens and orchards - the same water that a besieging army once dammed and turned against the walls. inside those walls, in the years just after the great sieges, the christian community put up a baptistery of cut stone, and the builders set the date in an inscription: the year 671 of the greeks - 359 and 360 by our count - under the bishop vologeses. the building still stands. beside it rose a great church whose plan - five aisles wide - could be traced by later excavators in the city's fabric. a congregation that built in dated stone at that scale was a public body in its city: visible, propertied, planning to stay. whatever else changed when the city passed to persia a few years later, the stones and their date stayed put, the one fragment of this world's daily ground that can still be touched."
     },
     {
       "id": "syramb009",
@@ -6997,7 +6997,7 @@
         "title": "taḥwyāṯā (singular: taḥwîṯâ)",
         "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
         "observe": [
-          "Sense in this world: Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis; conventionally 'Demonstrations'), several built on the twenty-two-letter Syriac acrostic so the alphabet scaffolds the argument in memory; he also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning).",
+          "Sense in this world: Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis; conventionally 'Demonstrations'), the twenty-two forming one acrostic, a letter each, so the alphabet scaffolds the argument in memory; he also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning).",
           "Sense before this world: The word's ordinary sense - a showing, a reasoned demonstration or proof, corresponding to the Greek apodeixis (the chunk's own gloss) - which Aphrahat's usage applies as a self-designation rather than transforms.",
           "How it is heard today: 'Demonstrations' assumed to be simply an English descriptor with no native-language equivalent, or assumed to be Aphrahat's only name for his own work (chunk combined Modern/World Hearing)."
         ],
@@ -7031,8 +7031,8 @@
           "aliases": [
             "\"Demonstrations\" (conventional English title)"
           ],
-          "quick_meaning": "Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. Several are built on the twenty-two letters of the Syriac alphabet, so the alphabet itself holds the argument in order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.",
-          "world_meaning": "A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for the twenty-three doctrinal and exhortatory treatises conventionally titled \"Demonstrations\" in English, corresponding to the Greek apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary sense, though Aphrahat also refers to his own works as \"Letters\" on occasion, and this alternate self-designation should be carried alongside taḥwyāṯā rather than treated as though the demonstration-title were his sole way of naming his own work. Each taḥwîṯâ works systematically through its subject, several of them built on the twenty-two-letter Syriac acrostic, so that the alphabet itself becomes a scaffold for holding an argument in the memory across its full length.\n\n[Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the S2.3-equivalent per SS3.2 / FLAG-002]: This is Aphrahat's own genre self-designation, load-bearing specifically for how his corpus should be described and cited, and it is the textual home of Demonstration 6 (the qyama's primary evidentiary source) and of the Iḥidaya title as Aphrahat uses it. A participant who understands this term understands that Aphrahat's own writings carry their own native name distinct from the modern English \"Demonstrations\" convention.",
+          "quick_meaning": "Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. Several are strung together on the twenty-two letters of the Syriac alphabet - one letter opening each - so the alphabet itself holds the argument in order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.",
+          "world_meaning": "A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for the twenty-three doctrinal and exhortatory treatises conventionally titled \"Demonstrations\" in English, corresponding to the Greek apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary sense, though Aphrahat also refers to his own works as \"Letters\" on occasion, and this alternate self-designation should be carried alongside taḥwyāṯā rather than treated as though the demonstration-title were his sole way of naming his own work. Each taḥwîṯâ works systematically through its subject, and the twenty-two together form a single acrostic - each opens on its own letter, alaph through taw, and a twenty-third begins the alphabet again - so that the alphabet itself becomes a scaffold for holding an argument in the memory across its full length.\n\n[Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the S2.3-equivalent per SS3.2 / FLAG-002]: This is Aphrahat's own genre self-designation, load-bearing specifically for how his corpus should be described and cited, and it is the textual home of Demonstration 6 (the qyama's primary evidentiary source) and of the Iḥidaya title as Aphrahat uses it. A participant who understands this term understands that Aphrahat's own writings carry their own native name distinct from the modern English \"Demonstrations\" convention.",
           "distortion_risk": "**Modern Hearing / World Hearing:** A modern reader who encounters \"Demonstrations\" as a title may assume this is simply an English descriptor with no native-language equivalent, or may assume it is Aphrahat's only way of naming his own work; in this world, taḥwîṯâ is Aphrahat's own genre-term corresponding to the Greek apodeixis, and he also called the same works \"Letters\" on occasion — the naming was not fixed to one term even in his own usage.",
           "retrieval": {
             "tier": 2,
@@ -7060,13 +7060,13 @@
             }
           ],
           "original_script": "ܬܚܘܝܬܐ",
-          "period_sense": "Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis; conventionally 'Demonstrations'), several built on the twenty-two-letter Syriac acrostic so the alphabet scaffolds the argument in memory; he also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning).",
+          "period_sense": "Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis; conventionally 'Demonstrations'), the twenty-two forming one acrostic, a letter each, so the alphabet scaffolds the argument in memory; he also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning).",
           "prior_sense": "The word's ordinary sense - a showing, a reasoned demonstration or proof, corresponding to the Greek apodeixis (the chunk's own gloss) - which Aphrahat's usage applies as a self-designation rather than transforms.",
           "modern_sense": "'Demonstrations' assumed to be simply an English descriptor with no native-language equivalent, or assumed to be Aphrahat's only name for his own work (chunk combined Modern/World Hearing).",
           "conceptual_distance_note": "A naming-convention gap rather than a conceptual chasm: the corrective is that the corpus carries its own native name AND that Aphrahat's own naming was plural (taḥwyāṯā and 'Letters'). Standard grounding: the entry is load-bearing for citation practice, not for a lived-concept distortion.",
           "semantic_domain": "genre-self-designation",
           "grounding_criterion": "standard",
-          "voice_surface": "Aphrahat called his own works taḥwyāṯā - demonstrations, a showing of the thing - and sometimes letters; each works through its subject in order, several strung on the twenty-two letters of the alphabet so that memory itself has a rail to hold the argument by.",
+          "voice_surface": "Aphrahat called his own works taḥwyāṯā - demonstrations, a showing of the thing - and sometimes letters; each works through its subject in order, the twenty-two strung on the twenty-two letters, one each so that memory itself has a rail to hold the argument by.",
           "confidence": {
             "citation_specificity": "A",
             "verification_state": "named-not-rechecked",
@@ -7110,14 +7110,14 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "taḥwyāṯā (singular: taḥwîṯâ) syrlex003 term taḥwyāṯā (singular: taḥwîṯâ) \"demonstrations\" (conventional english title) aphrahat's own word for his twenty-three treatises, usually called demonstrations in english. several are built on the twenty-two letters of the syriac alphabet, so the alphabet itself holds the argument in order and in memory. he sometimes calls the same works letters, so this was not his only name for them. aphrahat's own genre-term for his twenty-three doctrinal treatises (greek apodeixis; conventionally 'demonstrations'), several built on the twenty-two-letter syriac acrostic so the alphabet scaffolds the argument in memory; he also called the same works 'letters' - the naming was not fixed to one term even in his own usage (chunk quick/world meaning). 'demonstrations' assumed to be simply an english descriptor with no native-language equivalent, or assumed to be aphrahat's only name for his own work (chunk combined modern/world hearing). genre-self-designation",
+      "search_text": "taḥwyāṯā (singular: taḥwîṯâ) syrlex003 term taḥwyāṯā (singular: taḥwîṯâ) \"demonstrations\" (conventional english title) aphrahat's own word for his twenty-three treatises, usually called demonstrations in english. several are strung together on the twenty-two letters of the syriac alphabet - one letter opening each - so the alphabet itself holds the argument in order and in memory. he sometimes calls the same works letters, so this was not his only name for them. aphrahat's own genre-term for his twenty-three doctrinal treatises (greek apodeixis; conventionally 'demonstrations'), the twenty-two forming one acrostic, a letter each, so the alphabet scaffolds the argument in memory; he also called the same works 'letters' - the naming was not fixed to one term even in his own usage (chunk quick/world meaning). 'demonstrations' assumed to be simply an english descriptor with no native-language equivalent, or assumed to be aphrahat's only name for his own work (chunk combined modern/world hearing). genre-self-designation",
       "level2": {
         "record_id": "syrlex003",
         "term": "taḥwyāṯā (singular: taḥwîṯâ)",
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis. Conventionally 'Demonstrations'), several built on the twenty-two-letter Syriac acrostic so the alphabet scaffolds the argument in memory. He also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning)."
+            "text": "Aphrahat's own genre-term for his twenty-three doctrinal treatises (Greek apodeixis. Conventionally 'Demonstrations'), the twenty-two forming one acrostic, a letter each, so the alphabet scaffolds the argument in memory. He also called the same works 'Letters' - the naming was not fixed to one term even in his own usage (chunk Quick/World Meaning)."
           },
           {
             "title": "How sure is this",
@@ -7129,11 +7129,11 @@
           }
         ],
         "readability": {
-          "fk_grade": 10.38,
-          "fre": 48.6,
+          "fk_grade": 10.05,
+          "fre": 51.26,
           "violations": [
-            "FK grade 10.4 > 10.0",
-            "FRE 48.6 < 60.0"
+            "FK grade 10.0 > 10.0",
+            "FRE 51.3 < 60.0"
           ],
           "ok": false
         }
@@ -7986,7 +7986,7 @@
         "title": "Aphrahat's Anti-Jewish Demonstrations",
         "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
         "observe": [
-          "Sense in this world: Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning).",
+          "Sense in this world: Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning).",
           "Sense before this world: none-attested - this is the build's own descriptive label for a corpus subset, not an inherited term with a prior sense; the record register is the corpus itself.",
           "How it is heard today: Either dismissed as a minor historical footnote, or Mar Yausep's honest acknowledgment misread as tacit endorsement of hostility toward Jewish people or practice in the present - neither reading accurate (chunk Modern Hearing)."
         ],
@@ -7999,7 +7999,7 @@
           "srcSYR031: Naomi Koltun-Fromm, Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation (Gorgias, 2011); Hermeneutics of Holiness (Oxford, 2010).",
           "  Author Gravity - Naomi Koltun-Fromm, *Jewish-Christian Conversation in Fourth-Century Persian Mesopotamia: A Reconstructed Conversation* (Gorgias Press, 2011) — the title's own framing is load-bearing here, not incidental.",
           "srcSYR030: Adam Lehto, The Demonstrations of Aphrahat, the Persian Sage (Gorgias Press, 2010).",
-          "  Author Gravity - Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly four of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole."
+          "  Author Gravity - Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly ten of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole."
         ],
         "question": [
           "A contested claim rides on this term: \"A real portion of our teacher's surviving work - on the order of four of the twenty-three Demonstrations - argues against Jewish practice and interpretation: circumcision, the Sabbath, dietary law, the dating of Passover. We name this plainly as our own record's real, sustained thread, carrying real contempt; we own it as our own life's fault, without inventing a companion account of others among us who warned against it, and without an answering Jewish voice to set beside it - for none survives in our record.\" - who contests it, and on what evidence?"
@@ -8022,8 +8022,8 @@
           "aliases": [
             "\"the demonstrations against the Jews,\" anti-Jewish polemic"
           ],
-          "quick_meaning": "Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.",
-          "world_meaning": "A real portion of Aphrahat's surviving work — on the order of four of his twenty-three *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating of Passover, among others. This is not incidental or occasional; it is a real, sustained thread in what survives of his teaching, not a single passing remark.\n\nWhat this world's own record does not give is the other side of that exchange. Every word of it survives only in Aphrahat's own voice, arguing his own case; no independent Jewish source from his own time and place confirms, corrects, or answers his characterization of the disagreement. The leading scholarship on this material (Koltun-Fromm) frames it plainly as a reconstructed conversation — one side's account of an argument, not a transcript of one actually held between two present parties.\n\nMar Yausep's own formation already carries an honest posture toward this: he owns the contempt his own record shows plainly, as his own life's fault, without inventing a companion account of others among his own community who warned against it or felt otherwise at the time. He does not soften it, and he does not have — nor does he invent — an answering Jewish voice to set beside his own.\n\n[Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the S2.3-equivalent per SS3.2 / FLAG-002]: This entry does not anchor a native gravity the way *raza*/*shrara* or *qyama* do — its function is to give real, retrievable substance to a tone and a caution that already exist elsewhere in this world's construction (Mar Yausep's own Permanent Prompt; the honest-contempt instruction it already carries), rather than leaving that instruction to describe a body of content this world's runtime otherwise has no access to at all.",
+          "quick_meaning": "Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.",
+          "world_meaning": "A real portion of Aphrahat's surviving work — on the order of ten of his twenty-three *Demonstrations* — is addressed against Jewish practice and scriptural interpretation, engaging subjects standard to this kind of exchange in his period: circumcision, the Sabbath, dietary law, and the dating of Passover, among others. This is not incidental or occasional; it is a real, sustained thread in what survives of his teaching, not a single passing remark.\n\nWhat this world's own record does not give is the other side of that exchange. Every word of it survives only in Aphrahat's own voice, arguing his own case; no independent Jewish source from his own time and place confirms, corrects, or answers his characterization of the disagreement. The leading scholarship on this material (Koltun-Fromm) frames it plainly as a reconstructed conversation — one side's account of an argument, not a transcript of one actually held between two present parties.\n\nMar Yausep's own formation already carries an honest posture toward this: he owns the contempt his own record shows plainly, as his own life's fault, without inventing a companion account of others among his own community who warned against it or felt otherwise at the time. He does not soften it, and he does not have — nor does he invent — an answering Jewish voice to set beside his own.\n\n[Ecological Function - parked at the S2.2-equivalent; restructured into typed field_relations at the S2.3-equivalent per SS3.2 / FLAG-002]: This entry does not anchor a native gravity the way *raza*/*shrara* or *qyama* do — its function is to give real, retrievable substance to a tone and a caution that already exist elsewhere in this world's construction (Mar Yausep's own Permanent Prompt; the honest-contempt instruction it already carries), rather than leaving that instruction to describe a body of content this world's runtime otherwise has no access to at all.",
           "distortion_risk": "**World Hearing:**\nThis world's own record carries this material as one side of a real, historically situated argument this community understood itself to be having — not as a settled verdict on Judaism, and not as content with any bearing on how Jewish people or practice should be regarded today. Mar Yausep speaks of it, when asked, as a real and regrettable feature of his own community's record, not as an argument he is prepared to renew or defend on its merits.",
           "retrieval": {
             "tier": 2,
@@ -8051,11 +8051,11 @@
             },
             {
               "source_id": "srcSYR030",
-              "author_gravity_note": "Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly four of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole."
+              "author_gravity_note": "Adam Lehto, *The Demonstrations of Aphrahat, the Persian Sage* (Gorgias Press, 2010), for the primary text and its two-phase composition. This world's own Doc_02 (Source Ecology) names this material's approximate scope (roughly ten of the twenty-three Demonstrations) and its Representativeness as genuinely contested — Koltun-Fromm's own reading treats it as a live, localized exchange specific to Aphrahat's own community, not a generic literary topos speaking for Persian Christianity as a whole."
             }
           ],
           "modern_hearing": "**Modern Hearing:**\nA modern reader may hear this named plainly and either dismiss it as a minor historical footnote, or, in the other direction, read Mar Yausep's honest acknowledgment of it as tacit endorsement of hostility toward Jewish people or practice in the present. Neither reading is accurate.",
-          "period_sense": "Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning).",
+          "period_sense": "Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning).",
           "prior_sense": "none-attested - this is the build's own descriptive label for a corpus subset, not an inherited term with a prior sense; the record register is the corpus itself.",
           "modern_sense": "Either dismissed as a minor historical footnote, or Mar Yausep's honest acknowledgment misread as tacit endorsement of hostility toward Jewish people or practice in the present - neither reading accurate (chunk Modern Hearing).",
           "conceptual_distance_note": "The record carries one side of a real, historically situated argument - not a settled verdict on Judaism, and not content with any bearing on how Jewish people or practice should be regarded today; the Representative names it as a real and regrettable feature of his community's record, never an argument to renew (chunk World Hearing + Standing Distortion-Risk Note, parked verbatim in this record's body). High grounding: sensitivity plus force_llm_vote gating.",
@@ -8073,7 +8073,7 @@
             {
               "type": "presupposes",
               "target_id": "syrlex003",
-              "note": "The four anti-Jewish Demonstrations are a subset of the taḥwyāṯā corpus (this chunk's own front-matter Related-Terms pointer, typed at authoring) - the Desert material-source-of/presupposes pairing."
+              "note": "The anti-Jewish Demonstrations (roughly ten) are a subset of the taḥwyāṯā corpus (this chunk's own front-matter Related-Terms pointer, typed at authoring) - the Desert material-source-of/presupposes pairing."
             }
           ],
           "contested_claim_ids": [
@@ -8083,14 +8083,14 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "aphrahat's anti-jewish demonstrations syrlex010 term aphrahat's anti-jewish demonstrations \"the demonstrations against the jews,\" anti-jewish polemic roughly four of aphrahat's twenty-three demonstrations are sustained argument against jewish practice and interpretation. this is real content our record carries, not something merely implied by tone. roughly four of aphrahat's twenty-three demonstrations are sustained argument against jewish practice and interpretation (circumcision, sabbath, dietary law, the dating of passover, among others) - a real, attested thread of the record, surviving only in aphrahat's own voice with no independent contemporary jewish source answering it (koltun-fromm's 'reconstructed conversation' framing, load-bearing) (chunk quick/world meaning). either dismissed as a minor historical footnote, or mar yausep's honest acknowledgment misread as tacit endorsement of hostility toward jewish people or practice in the present - neither reading accurate (chunk modern hearing). polemical-record",
+      "search_text": "aphrahat's anti-jewish demonstrations syrlex010 term aphrahat's anti-jewish demonstrations \"the demonstrations against the jews,\" anti-jewish polemic roughly roughly ten of aphrahat's twenty-three demonstrations are sustained argument against jewish practice and interpretation. this is real content our record carries, not something merely implied by tone. roughly roughly ten of aphrahat's twenty-three demonstrations are sustained argument against jewish practice and interpretation (circumcision, sabbath, dietary law, the dating of passover, among others) - a real, attested thread of the record, surviving only in aphrahat's own voice with no independent contemporary jewish source answering it (koltun-fromm's 'reconstructed conversation' framing, load-bearing) (chunk quick/world meaning). either dismissed as a minor historical footnote, or mar yausep's honest acknowledgment misread as tacit endorsement of hostility toward jewish people or practice in the present - neither reading accurate (chunk modern hearing). polemical-record",
       "level2": {
         "record_id": "syrlex010",
         "term": "Aphrahat's Anti-Jewish Demonstrations",
         "sections": [
           {
             "title": "What it meant in this world",
-            "text": "Roughly four of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning)."
+            "text": "Roughly roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation (circumcision, Sabbath, dietary law, the dating of Passover, among others) - a real, attested thread of the record, surviving ONLY in Aphrahat's own voice with no independent contemporary Jewish source answering it (Koltun-Fromm's 'reconstructed conversation' framing, load-bearing) (chunk Quick/World Meaning)."
           },
           {
             "title": "How sure is this",
@@ -8102,15 +8102,63 @@
           }
         ],
         "readability": {
-          "fk_grade": 15.59,
-          "fre": 24.83,
+          "fk_grade": 15.67,
+          "fre": 24.58,
           "violations": [
-            "FK grade 15.6 > 10.0",
-            "FRE 24.8 < 60.0"
+            "FK grade 15.7 > 10.0",
+            "FRE 24.6 < 60.0"
           ],
           "ok": false
         }
       }
+    },
+    {
+      "id": "syrq001",
+      "record_type": "quote",
+      "title": "Saying - Aphrahat, Demonstration 8 (On the Resurrection of the Dead), with the Spirit-deposit teaching at Dem. 6.14",
+      "rights": {
+        "gated_fields": [
+          "text_translation"
+        ],
+        "basis": "withheld: srcSYR010 states no display permission (unset is denied - FLAG-013)"
+      },
+      "level3": {
+        "record_id": "syrq001",
+        "record_type": "quote",
+        "title": "Saying - Aphrahat, Demonstration 8 (On the Resurrection of the Dead), with the Spirit-deposit teaching at Dem. 6.14",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: syrfig002.",
+          "Locus: Aphrahat, Demonstration 8 (On the Resurrection of the Dead), with the Spirit-deposit teaching at Dem. 6.14.",
+          "Text: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "Translation used: srcSYR010.",
+          "License basis: paraphrase-only."
+        ],
+        "reflect": [
+          "Citation: specificity B / verified-via-authority."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "syrq001",
+          "world_id": "syriac-edessa-nisibis",
+          "record_type": "quote",
+          "schema_version": 1,
+          "register": "emic",
+          "review_state": "draft",
+          "text_translation": "[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]",
+          "translation_used": "srcSYR010",
+          "locus": "Aphrahat, Demonstration 8 (On the Resurrection of the Dead), with the Spirit-deposit teaching at Dem. 6.14",
+          "speaker_or_author": "syrfig002",
+          "license": "paraphrase-only",
+          "confidence": {
+            "verification_state": "verified-via-authority",
+            "verification_date": "2026-08-14",
+            "citation_specificity": "B"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - aphrahat, demonstration 8 (on the resurrection of the dead), with the spirit-deposit teaching at dem. 6.14 syrq001 quote aphrahat, demonstration 8 (on the resurrection of the dead), with the spirit-deposit teaching at dem. 6.14"
     },
     {
       "id": "syrstory001",
@@ -9000,6 +9048,7 @@
         "syrlex003",
         "syrlex007",
         "syrlex008",
+        "syrq001",
         "syrstory009"
       ],
       "srcSYR011": [
@@ -9181,6 +9230,9 @@
         "syrstory001",
         "syrstory007",
         "syrstory008"
+      ],
+      "syrfig002": [
+        "syrq001"
       ],
       "syrfig003": [
         "syrstory003",

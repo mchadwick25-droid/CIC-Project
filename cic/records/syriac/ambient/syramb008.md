@@ -27,7 +27,7 @@ text: >-
   river that watered its ringed gardens and orchards - the same water that a besieging army once
   dammed and turned against the walls. Inside those walls, in the years just after the great sieges,
   the Christian community put up a baptistery of cut stone, and the builders set the date in an
-  inscription: the year 670 of the Greeks - 359 and 360 by our count - under the bishop Vologeses. The
+  inscription: the year 671 of the Greeks - 359 and 360 by our count - under the bishop Vologeses. The
   building still stands. Beside it rose a great church whose plan - five aisles wide - could be traced
   by later excavators in the city's fabric. A congregation that built in dated stone at that scale was
   a public body in its city: visible, propertied, planning to stay. Whatever else changed when the

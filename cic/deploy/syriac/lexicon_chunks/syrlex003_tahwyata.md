@@ -14,13 +14,13 @@ Do-Not-Retrieve-When: participant is asking about Ephrem's writings (this term i
 
 ## Quick Meaning
 
-Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. Several are built on the twenty-two letters of the Syriac alphabet, so the alphabet itself holds the argument in order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.
+Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. Several are strung together on the twenty-two letters of the Syriac alphabet - one letter opening each - so the alphabet itself holds the argument in order and in memory. He sometimes calls the same works Letters, so this was not his only name for them.
 
 ---
 
 ## World Meaning
 
-A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for the twenty-three doctrinal and exhortatory treatises conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary sense, though Aphrahat also refers to his own works as "Letters" on occasion, and this alternate self-designation should be carried alongside taḥwyāṯā rather than treated as though the demonstration-title were his sole way of naming his own work. Each taḥwîṯâ works systematically through its subject, several of them built on the twenty-two-letter Syriac acrostic, so that the alphabet itself becomes a scaffold for holding an argument in the memory across its full length.
+A taḥwîṯâ (plural taḥwyāṯā) is Aphrahat's own term for the twenty-three doctrinal and exhortatory treatises conventionally titled "Demonstrations" in English, corresponding to the Greek apodeixis — a reasoned, sustained demonstration of a point rather than a homily or a letter in the ordinary sense, though Aphrahat also refers to his own works as "Letters" on occasion, and this alternate self-designation should be carried alongside taḥwyāṯā rather than treated as though the demonstration-title were his sole way of naming his own work. Each taḥwîṯâ works systematically through its subject, and the twenty-two together form a single acrostic - each opens on its own letter, alaph through taw, and a twenty-third begins the alphabet again - so that the alphabet itself becomes a scaffold for holding an argument in the memory across its full length.
 
 ---
 

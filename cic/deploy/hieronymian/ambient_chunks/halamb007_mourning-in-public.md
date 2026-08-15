@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               sickness-and-death
-Sources:              Registry L017; Registry L010
+Sources:              Source Registry #17; Source Registry #10
 Retrieve-When:        participant asks about funerals, mourning, or how death was marked; participant asks what public grief looked like in Rome
 Do-Not-Retrieve-When: —
 ```

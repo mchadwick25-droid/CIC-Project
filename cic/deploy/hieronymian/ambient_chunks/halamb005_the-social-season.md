@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               calendar-and-festival
-Sources:              Registry L001; Registry L015
+Sources:              Source Registry #1; Source Registry #15
 Retrieve-When:        participant asks about Roman society, visits, dinners, or the social round; participant asks how fashionable Christianity looked in the city
 Do-Not-Retrieve-When: —
 ```

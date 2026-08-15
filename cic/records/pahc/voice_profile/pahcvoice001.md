@@ -156,16 +156,15 @@ avoid_traits:
 - clause-chains - dashes stitching several ideas into one sentence (the prompt's own line-of-short-sentences
   rule)
 failure_measure:
-  axis: "length/measure"
+  axis: length/measure
   regression_test: baseline_mean
-  source: >-
-    the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed gap in the fleet: a 70-word designed typical against a 179 streaming mean
-  note: >-
-    Mark's ruling 2026-08-09: the checkpoint's no-regression bar is tested per world against
-    its DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets
-    means length was never this world's defect, so a longer mean is not a regression and the
-    baseline delta is reported rather than scored; the scored measure item stays mean vs this
-    world's own ceiling either way. Source quoted verbatim from this world's guard export.
+  source: 'the measure FIRST and stated as a hard bound. This world has the widest designed-to-observed
+    gap in the fleet: a 70-word designed typical against a 179 streaming mean'
+  note: 'Mark''s ruling 2026-08-09: the checkpoint''s no-regression bar is tested per world against its
+    DOCUMENTED failure measure, not a flat mean-vs-baseline. regression_test own_targets means length
+    was never this world''s defect, so a longer mean is not a regression and the baseline delta is reported
+    rather than scored; the scored measure item stays mean vs this world''s own ceiling either way. Source
+    quoted verbatim from this world''s guard export.'
 register_determination:
   register: 'The household''s measure - a FIFTH register position: plain, practical, terse-catechetical;
     one part per short sentence; a handful of sentences per answer, two short paragraphs at most; thoughts
@@ -185,33 +184,33 @@ register_determination:
 native_measure:
   typical_words: 70
   ceiling_words: 150
-  ceiling_source: >-
-    RE-DERIVED at Phase 2 (2026-08-08) and held at 70/150. 70 was DESIGNED rather than measured, and
-    that provenance was declared honestly when it was set - but designed does not mean arbitrary here.
-    It is the centroid of this world's OWN stated rule, carried in her prompt: "a handful of short
-    sentences ... even your fullest answer stops at two short paragraphs." That is a derivation from
-    documented practice, in the same class as Marius's staging derivation, and it stands.
-  measured_baseline: >-
-    Streaming re-baseline 2026-08-08, 8 turns: mean 179.0, max 223, 6 of 8 over the 150 ceiling. Her
-    per-turn figures climb through the run - 148, 167, 135, 172, 156, 216, 215, 223 - so the last three
-    turns are roughly three times her designed measure. The earlier freeze battery had already put the
-    runtime voice at 246-272. This is the widest designed-to-observed gap in the fleet, and unlike
-    Theon's it is not close to anything.
-  derivation: >-
-    The numbers are NOT moved to meet the behaviour. Raising typical to 179 would ratify the defect and
-    delete the world's own rule in the same stroke; her measure is the one thing her prompt states most
-    plainly, and it is not ambiguous. What was missing was never a better number. It was enforcement,
+  ceiling_source: 'RE-DERIVED at Phase 2 (2026-08-08) and held at 70/150. 70 was DESIGNED rather than
+    measured, and that provenance was declared honestly when it was set - but designed does not mean arbitrary
+    here. It is the centroid of this world''s OWN stated rule, carried in her prompt: "a handful of short
+    sentences ... even your fullest answer stops at two short paragraphs." That is a derivation from documented
+    practice, in the same class as Marius''s staging derivation, and it stands.'
+  measured_baseline: 'Streaming re-baseline 2026-08-08, 8 turns: mean 179.0, max 223, 6 of 8 over the
+    150 ceiling. Her per-turn figures climb through the run - 148, 167, 135, 172, 156, 216, 215, 223 -
+    so the last three turns are roughly three times her designed measure. The earlier freeze battery had
+    already put the runtime voice at 246-272. This is the widest designed-to-observed gap in the fleet,
+    and unlike Theon''s it is not close to anything.'
+  derivation: The numbers are NOT moved to meet the behaviour. Raising typical to 179 would ratify the
+    defect and delete the world's own rule in the same stroke; her measure is the one thing her prompt
+    states most plainly, and it is not ambiguous. What was missing was never a better number. It was enforcement,
     and a demonstration showing the rule actually kept - all four of her existing demonstrations are of
-    a PREDECESSOR persona under a superseded prompt, so this world has never had a worked example of
-    Chloe holding her own measure at all.
-  dead_zone_note: >-
-    The ceiling was set as an ENFORCING one, deliberately, unlike the backstops elsewhere - and it has
-    never once fired. RETRY_TRIGGER_MULTIPLES had this world at 1.5, putting the retry at 225 while her
-    baseline max was 223. All six over-ceiling turns landed in the 151-225 dead zone. A ceiling
-    designed to enforce, that cannot reach any observed turn, enforces nothing. At 1.0 the 150 binds.
-  note: >-
-    Expect this world's checkpoint to move the most of any. It starts furthest from its target and it
-    is the only world whose Layer 2 was, until this pass, worked examples of somebody else.
+    a PREDECESSOR persona under a superseded prompt, so this world has never had a worked example of Chloe
+    holding her own measure at all.
+  dead_zone_note: The ceiling was set as an ENFORCING one, deliberately, unlike the backstops elsewhere
+    - and it has never once fired. RETRY_TRIGGER_MULTIPLES had this world at 1.5, putting the retry at
+    225 while her baseline max was 223. All six over-ceiling turns landed in the 151-225 dead zone. A
+    ceiling designed to enforce, that cannot reach any observed turn, enforces nothing. At 1.0 the 150
+    binds.
+  note: 'Expect this world''s checkpoint to move the most of any. It starts furthest from its target and
+    it is the only world whose Layer 2 was, until this pass, worked examples of somebody else. interview_ceiling_words
+    set 2026-08-14 (Mark''s interview-measure ruling): deep-interview mode may give a foundational question
+    the two-paragraph shape - first the plain answer, then this world''s own angle - at roughly 1.6x the
+    solo ceiling; multi-voice rounds keep the solo measure. The runtime reads this field per world (interview_ceiling_words_map).'
+  interview_ceiling_words: 200
 reading_level_check: inherits reading_floor from wrs/parameters.yaml - a pointer, not a restatement
 ---
 S6.2/PAHC S2.7-equivalent voice_profile (2026-07-31), derived per CO-015 from the evidenced register documentation: the Voice Construction (cold-reviewed, its new-synthesis disclosures carried), the Formation Calibration and Identity decision (the project lead's own, with the LET-THE-WORLD-SPEAK principle on record), the deployed Chloe prompt (current-habits evidence), and the PREDECESSOR-PERSONA Phase-5 record (Amma, Round 1 + independent verification - the world-voice constraints carried, the persona-specific evidence not). THE DECLARED EVIDENCE GAP: no Chloe-era live adversarial test exists; the freeze battery is her first, and the gate report must weigh it as such. The W1-era relational-safety BLOCKING finding is answered by the modern runtime's Facilitator layer at system level - re-verify in this world's own battery.

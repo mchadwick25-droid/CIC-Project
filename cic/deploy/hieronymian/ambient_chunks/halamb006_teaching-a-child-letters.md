@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               language-and-school
-Sources:              Registry L001
+Sources:              Source Registry #1
 Retrieve-When:        participant asks how children learned to read or were educated; participant asks about nurses, tutors, or childhood in these households
 Do-Not-Retrieve-When: —
 ```

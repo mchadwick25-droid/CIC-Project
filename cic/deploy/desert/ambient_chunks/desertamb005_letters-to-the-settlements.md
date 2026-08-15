@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               language-and-school
-Sources:              Registry S010
+Sources:              Source Registry #10
 Retrieve-When:        participant asks whether monks had contact with families or the outside world; participant asks about letters, messages, or how news reached the desert
 Do-Not-Retrieve-When: —
 ```

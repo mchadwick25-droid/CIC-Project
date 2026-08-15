@@ -7,8 +7,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "voice_profile (speaking_model, identity, native_measure, traits) via this world's craft table, identity_register-tagged blocks, in table order",
-   "chars": 5498,
-   "est_tokens": 1374
+   "chars": 5736,
+   "est_tokens": 1434
   },
   {
    "name": "world_ground",
@@ -55,8 +55,8 @@
    "cache_stability": "static",
    "eviction_priority": 1,
    "sources": "story/figure/force records + world_core cautions via this world's craft table, categorical_guards-tagged blocks, in table order (incl. the absolute anti-fabrication form)",
-   "chars": 5011,
-   "est_tokens": 1252
+   "chars": 5030,
+   "est_tokens": 1257
   },
   {
    "name": "session_layer",
@@ -78,11 +78,11 @@
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
   "world_ground_est_tokens": 889,
-  "static_total_est_tokens": 5741
+  "static_total_est_tokens": 5806
  },
  "readability": {
-  "fk_grade": 8.59,
-  "fre": 66.17,
+  "fk_grade": 8.51,
+  "fre": 66.54,
   "violations": []
  }
 }

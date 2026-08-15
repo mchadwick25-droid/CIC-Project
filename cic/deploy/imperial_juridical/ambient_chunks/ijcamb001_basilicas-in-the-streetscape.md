@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               street-and-city
-Sources:              Registry C37; Registry C38
+Sources:              Source Registry #37; Source Registry #38
 Retrieve-When:        participant asks what the churches or cities physically looked like; participant asks about basilicas, buildings, or the scale of church construction
 Do-Not-Retrieve-When: —
 ```

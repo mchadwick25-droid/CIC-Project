@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               street-and-city
-Sources:              Registry X034; Registry X022
+Sources:              Source Registry #34; Source Registry #22
 Retrieve-When:        participant asks what Alexandria was like, its harbor, streets, or who lived there; participant asks about the city's size, trade, or its mix of peoples
 Do-Not-Retrieve-When: —
 ```

@@ -6,7 +6,7 @@ World-Code:           desert
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               sickness-and-death
-Sources:              Registry S005; Registry S007
+Sources:              Source Registry #5; Source Registry #7
 Retrieve-When:        participant asks what happened when monks fell sick, grew old, or died; participant asks about burial or care for the dying in the desert
 Do-Not-Retrieve-When: —
 ```

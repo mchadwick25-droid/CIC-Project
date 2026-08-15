@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               language-and-school
-Sources:              Registry X034; Registry X023
+Sources:              Source Registry #34; Source Registry #23
 Retrieve-When:        participant asks about education, schools, teachers, or students in the city; participant asks why this world's community took the shape of a school
 Do-Not-Retrieve-When: —
 ```

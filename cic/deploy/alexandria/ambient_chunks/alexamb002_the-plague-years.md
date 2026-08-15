@@ -6,7 +6,7 @@ World-Code:           alex
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               sickness-and-death
-Sources:              Registry X006; Registry X009
+Sources:              Source Registry #6; Source Registry #9
 Retrieve-When:        participant asks about disease, plague, or death as everyday realities in this world; participant asks what happened when the city suffered catastrophe
 Do-Not-Retrieve-When: —
 ```

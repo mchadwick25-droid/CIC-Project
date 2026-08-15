@@ -6,7 +6,7 @@ World-Code:           hal
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               work-and-money
-Sources:              Registry L013
+Sources:              Source Registry #13
 Retrieve-When:        participant asks how books were made, copied, or paid for; participant asks about libraries, secretaries, or the labor behind scholarship
 Do-Not-Retrieve-When: —
 ```

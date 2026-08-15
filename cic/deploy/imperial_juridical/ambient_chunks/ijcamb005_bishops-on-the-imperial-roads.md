@@ -6,7 +6,7 @@ World-Code:           ijc
 Register:             Native-Ambient - the common life of the place, not the teaching of a named voice
 Tier:                 3
 Domain:               trade-and-travel
-Sources:              Registry C28; Registry C32
+Sources:              Source Registry #28; Source Registry #32
 Retrieve-When:        participant asks how councils physically happened or how bishops traveled; participant asks about the imperial post, roads, or the logistics of church business
 Do-Not-Retrieve-When: —
 ```
