@@ -28,7 +28,9 @@ committing them would be redistribution.
 | `anf04_tertullian4-minucius-felix-commodian-origen1-2.txt` | ANF04. Fathers of the Third Century: Tertullian, Part Fourth; | Public Domain | Mark | 2026-08-15 | - |
 | `anf05_hippolytus-cyprian-caius-novatian.xml` | ANF05. Fathers of the Third Century: Hippolytus,
     Cyprian, Caius, Novatian, Appendix | Public Domain | Mark | 2026-08-15 | - |
-| `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt` | ANF06. Fathers of the Third Century: Gregory Thaumaturgus, | Public Domain | Mark | 2026-08-15 | - |
+| `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml` | ANF06. Fathers of the Third Century: Gregory
+    Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius,
+    and Minor Writers, Methodius, Arnobius | Public Domain | Mark | 2026-08-15 | - |
 | `anf07_lactantius-apostolic-constitutions-didache-liturgies.txt` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, | Public Domain | Mark | 2026-08-15 | `pahcq005`, `srcPAHCS63` |
 | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The | Public Domain | Mark | 2026-08-15 | - |
 | `anf09_gospel-of-peter-diatessaron-origen-commentaries.txt` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The | Public Domain | Mark | 2026-08-15 | - |
@@ -41,7 +43,7 @@ Notes carried over per file:
 - **`anf03_tertullian.xml`** -- Carries Tertullian's Apologeticus, the primary text srcPAHCP15 already cites in pahc ('Tertullian, Apology 39'). No quote record was in this session's worklist, so none was written, but the translation edition is available if one is ever wanted. Swapped from the plain-text rendering the same day, as anf01/anf02 were - zero citations before the swap, so nothing needed re-verification.
 - **`anf04_tertullian4-minucius-felix-commodian-origen1-2.txt`** -- Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2.
 - **`anf05_hippolytus-cyprian-caius-novatian.xml`** -- Hippolytus, Cyprian, Caius, Novatian. Carries ~82 of Cyprian's own letters plus On the Lapsed, On the Mortality, and Pontius's Life of Cyprian - primary-source material for the not-yet-built Latin Pastoral-Congregational Christianity world (census: 'Selected - Not Yet Built'). Swapped from the plain-text rendering the same day, as anf01/02/03 were - zero citations before the swap, so nothing needed re-verification. Structured letter/chapter ids here would matter directly once that world is built: Cyprian's ~82 letters are individually addressable rather than needing to be located by reading forward through flowing prose.
-- **`anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt`** -- This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - NOT Julius I of Rome (srcIJC04/srcIJC42).
+- **`anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`** -- This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - NOT Julius I of Rome (srcIJC04/srcIJC42). Swapped from the plain-text rendering the same day, as anf01/02/03/05 were - zero citations before the swap, so nothing needed re-verification.
 - **`anf07_lactantius-apostolic-constitutions-didache-liturgies.txt`** -- Carries the Didache, published too late for ANF vol. 1 - closed the deferred gap srcPAHCS62 named. Translator for the Didache specifically: Isaac H. Hall and John T. Napier (Sunday-School Times, 1884), not the volume's general editors.
 - **`anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt`** -- Carries Abgar/Edessa correspondence material, relevant to syriac world (syrfig005, Addai) - not drawn on so far; that figure's own record already treats him as legend, not history.
 - **`anf09_gospel-of-peter-diatessaron-origen-commentaries.txt`** -- Origen's Commentaries on John and Matthew, among others.

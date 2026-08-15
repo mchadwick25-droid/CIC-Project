@@ -105,10 +105,12 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Structured letter/chapter ids here would matter directly once that world is built: "
               "Cyprian's ~82 letters are individually addressable rather than needing to be located "
               "by reading forward through flowing prose."),
-    TextEntry("anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt", "Mark",
+    TextEntry("anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml", "Mark",
               "2026-08-15",
               "This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - "
-              "NOT Julius I of Rome (srcIJC04/srcIJC42)."),
+              "NOT Julius I of Rome (srcIJC04/srcIJC42). Swapped from the plain-text rendering the same "
+              "day, as anf01/02/03/05 were - zero citations before the swap, so nothing needed "
+              "re-verification."),
     TextEntry("anf07_lactantius-apostolic-constitutions-didache-liturgies.txt", "Mark", "2026-08-15",
               "Carries the Didache, published too late for ANF vol. 1 - closed the deferred gap "
               "srcPAHCS62 named. Translator for the Didache specifically: Isaac H. Hall and John T. "
