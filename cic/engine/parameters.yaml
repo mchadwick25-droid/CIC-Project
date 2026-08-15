@@ -236,6 +236,61 @@ metrics:
     instrument: S1.3 wrs_gates run reports
     baseline: accumulates from S1.3
     gate_status: observational
+  - name: mechanism_coverage_inert_count
+    definition: >-
+      count of a world's declared runtime-mechanism dependencies
+      (cic/engine/mechanism_dependencies.py) satisfied by ZERO records - i.e.
+      mechanisms that run against that world and can find nothing to work
+      with. Distinct from field_completion_rate, which asks whether the
+      records that EXIST are complete; this asks whether the records a
+      mechanism depends on exist at all.
+    instrument: >-
+      cic/engine/gates.py gate_mechanism_coverage (T3-B), per world via
+      run_gates.py; fleet view via cic/engine/coverage_report.py
+    baseline: >-
+      B-COVER, MEASURED 2026-08-15 (T3-B). Six worlds x three declared
+      dependencies = 18 cells, 5 inert. Per world, as
+      (dated figures / figures, quote records, bridge lines / figures):
+      alexandria 1/12, 1, 10/12;
+      desert 0/13 INERT, 6, 12/13;
+      hieronymian 5/9, 1, 8/9;
+      imperial_juridical 8/9, 0 INERT, 9/9;
+      pahc 0/8 INERT, 0 INERT, 7/8;
+      syriac 0/8 INERT, 1, 7/8.
+      Not a sampled baseline - a full census of the admitted fleet,
+      re-derivable exactly: python cic/engine/coverage_report.py
+    gate_status: >-
+      definitional-gate (0 inert) IN NATURE - a mechanism at zero coverage
+      cannot function, which is a fact about the mechanism rather than a
+      tunable judgement, so SS11-D's "settable now, definitionally" applies.
+      ADVISORY ONLY IN FORCE by Mark's decision 2026-08-15, encoded at the
+      gate behind _NOTE_PREFIX so findings print in full without entering the
+      violation TOTAL. Five cells currently fail it. Promotion to blocking is
+      a deliberate change at gate_mechanism_coverage, never a side effect of
+      the runner gaining teeth elsewhere.
+  - name: mechanism_coverage_depth
+    definition: >-
+      coverage ABOVE the inert boundary - what a world needs for a mechanism
+      to work WELL, not merely to run. alexandria clears the inert gate with
+      1 of 12 figures dated and is still the thinnest live coverage in the
+      fleet; nothing currently distinguishes that from hieronymian's 5 of 9.
+    instrument: same as mechanism_coverage_inert_count
+    baseline: >-
+      none yet. The inert boundary is now measured (B-COVER); depth is not,
+      because depth is only meaningful against how often a mechanism is
+      actually exercised, which no baseline yet records.
+    gate_status: >-
+      TBD-pending-baseline. Deliberately NOT set at T3-F: SS11-D's rule is
+      that thresholds are set once from real baselines and that setting
+      numbers today is the fabricated-baseline risk SS10 exists to avoid -
+      which is exactly what picking a depth floor from six worlds' record
+      counts alone would be. Two named inputs unblock it, neither of which
+      exists yet, both arriving from the same place: (1) Tier 2 Phase-0 log
+      volume, giving each check's real false-positive rate at a known
+      coverage level - the same evidence Phase 1 gating waits on; (2) demand
+      data from those logs, showing WHICH figures and quotes live turns
+      actually reach for, since a floor on a world's total records is the
+      wrong shape if participants only ever meet eight of its figures.
   - name: cost_per_turn
     definition: "real per-turn/per-conversation spend at true rates; cache-read fraction; calls-per-turn by model tier"
     instrument: scripts/cost_baseline_runner.py over usage logs (S1.1a instrumentation)
