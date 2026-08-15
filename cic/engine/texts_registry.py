@@ -164,6 +164,60 @@ class Row:
     citing: list[str] = field(default_factory=list)
 
 
+def registry_problems(entries: tuple, discovered: list, headers: dict) -> list:
+    """PURE - no file I/O, no import of anything that touches disk. entries:
+    TextEntry tuples (what's declared). discovered: filenames actually found
+    under cic/texts/ (what's real). headers: {filename: its own header text},
+    already read by the caller. Returns violation strings.
+
+    Split out from report()/the live gate deliberately, for T3-G's own
+    reason: "a gate that never fails checks nothing" only means something if
+    the gate can be handed a KNOWN-BROKEN case and shown to catch it. A
+    version of this logic that always reads the real cic/texts/ directory
+    can only ever be fixture-tested against whatever that directory's real
+    state happens to be right now (today, genuinely clean) - which proves
+    nothing about whether the CHECK is correct, only that nobody has broken
+    anything yet. This function takes plain data instead, so gate_fixtures.py
+    can hand it a literal broken case with no real file on disk at all.
+
+    THREE integrity checks, deliberately not four. Missing rights line,
+    undeclared file, orphaned ENTRIES row are real mistakes with a knowable
+    right answer - today's baseline is genuinely zero, so any of the three
+    appearing is new, current-moment state worth catching immediately, not
+    legacy debt to grandfather (the reasoning that made mechanism_coverage
+    advisory does not apply here). Whether a vendored file has been CITED
+    YET is deliberately NOT a fourth check here: an unexploited volume is
+    not a mistake, and turning it into a violation would be inventing a
+    threshold nobody asked for - exactly the "assume the floor" move
+    mechanism_coverage's own docstring already refuses for the same reason.
+    Citation counts stay in report()'s informational output only.
+    """
+    problems = []
+    declared = {e.filename for e in entries}
+    found = set(discovered)
+    for name in sorted(declared - found):
+        problems.append(f"{name}: declared in ENTRIES but no file present in cic/texts/")
+    for name in sorted(found - declared):
+        problems.append(f"{name}: file present in cic/texts/ but no ENTRIES row - "
+                        f"undeclared vendoring")
+    for name in sorted(declared & found):
+        r = rights_declared(headers.get(name, ""))
+        if not (r and "public domain" in r.lower()):
+            problems.append(f"{name}: no verifiable public-domain rights line found in its "
+                            f"own header ({r!r}) - do not treat as cleared for use")
+    return problems
+
+
+def registry_problems_live() -> list:
+    """The real check: ENTRIES against whatever is actually sitting in
+    cic/texts/ right now, headers read fresh. This is what gate_texts_registry
+    (gates.py) and report() below both call - one place this logic lives,
+    so the CLI report and the gate's verdict can never quietly disagree."""
+    discovered = discovered_files()
+    headers = {name: read_header(TEXTS_DIR / name) for name in discovered}
+    return registry_problems(ENTRIES, discovered, headers)
+
+
 def build_rows() -> list[Row]:
     by_name = {e.filename: e for e in ENTRIES}
     names = sorted(set(by_name) | set(discovered_files()))
@@ -185,22 +239,14 @@ def build_rows() -> list[Row]:
 
 def report() -> int:
     rows = build_rows()
-    problems = []
     namecol = max(len(r.filename) for r in rows) + 2
     print(f"{'file':<{namecol}}{'rights':<16}{'cited by':<10}")
     print("-" * (namecol + 26))
     for r in rows:
         if not r.exists:
-            problems.append(f"{r.filename}: in ENTRIES but no file present in {TEXTS_DIR}")
             print(f"{r.filename:<{namecol}}{'MISSING FILE':<16}")
             continue
-        if r.entry is None:
-            problems.append(f"{r.filename}: file present in {TEXTS_DIR} but no ENTRIES row - "
-                            f"undeclared vendoring")
         ok = bool(r.rights and "public domain" in r.rights.lower())
-        if not ok:
-            problems.append(f"{r.filename}: no verifiable public-domain rights line found in its "
-                            f"own header ({r.rights!r}) - do not treat as cleared for use")
         rights_mark = r.rights if ok else f"UNVERIFIED ({r.rights!r})"
         print(f"{r.filename:<{namecol}}{rights_mark:<16}{len(r.citing):<10}")
 
@@ -209,6 +255,7 @@ def report() -> int:
     for name in uncited:
         print(f"  - {name}")
 
+    problems = registry_problems_live()
     if problems:
         print(f"\n{len(problems)} problem(s):")
         for p in problems:

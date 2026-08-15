@@ -809,3 +809,60 @@ def gate_mechanism_coverage(records: dict) -> list:
             f"{dep.inert_consequence} [reads {dep.record_type}.{dep.field}]"
         )
     return out
+
+
+# ---------------------------------------------------------- texts registry
+
+
+def gate_texts_registry(records: dict) -> list:  # noqa: ARG001 - see below
+    """Does cic/texts/ (the vendored public-domain reference corpus) match
+    what texts_registry.py's ENTRIES declares it should?
+
+    IGNORES `records` ENTIRELY, unlike every other gate here - a deliberate
+    choice, not an oversight, and the one thing about this gate worth
+    reading before touching it. This is a hygiene check on a directory of
+    vendored TEXT FILES and a Python-level manifest (texts_registry.ENTRIES),
+    neither of which any single world's own record set determines. The
+    per-world `records` argument the runner always passes exists to keep
+    this gate's call signature uniform with the other eleven, nothing more.
+
+    ONE CONSEQUENCE OF IGNORING records worth naming explicitly, so a future
+    reader of gate_baseline.json is not confused by it: because this check
+    is fleet-wide and does not vary by world, it returns the SAME violation
+    count for every world in a single --check run. That is correct, not a
+    bug - a torn rights line or an unregistered file is equally true
+    regardless which world's report you happen to be reading, and the
+    redundancy means a regression here trips every world's ratchet at once
+    rather than hiding in whichever world nobody happened to check.
+
+    THREE checks, not four - see texts_registry.registry_problems' own
+    docstring for the reasoning. In short: a declared-but-missing file, an
+    undeclared-but-present file, and an unverifiable rights line are real
+    mistakes with a knowable right answer. Whether a vendored volume has
+    been cited by anything YET is not a mistake, and is deliberately kept
+    out of this gate for the same reason mechanism_coverage refuses to
+    invent a coverage floor - it stays in texts_registry.py's own report()
+    as information, never a violation here.
+
+    REGULAR, not advisory - the one deliberate difference from
+    mechanism_coverage worth naming, not an inconsistency. mechanism_coverage
+    is advisory because it describes PRE-EXISTING gaps this session found
+    already sitting in the six worlds' own records - debt to surface, not
+    something to block on immediately. This gate describes something with a
+    genuinely clean baseline as of the day it was written: zero problems,
+    verified. There is no legacy debt to grandfather here, so a violation
+    is new, current-moment state (someone vendored a file and forgot to
+    register it, or a header's rights line doesn't say what was claimed) -
+    exactly the shape of thing this package's other gates already block on
+    without ceremony.
+
+    Fails CLOSED on its own error, matching mechanism_coverage's own
+    precedent: a hygiene check that cannot run is a defect in the check,
+    not a clean pass.
+    """
+    try:
+        from texts_registry import registry_problems_live
+        return registry_problems_live()
+    except Exception as exc:  # noqa: BLE001
+        return [f"texts_registry.py could not be loaded/run ({exc!r}) - "
+                f"cic/texts/ state is UNKNOWN, not clean"]

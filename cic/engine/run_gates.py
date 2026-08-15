@@ -36,7 +36,17 @@ GATES = {
     "confidence_source_crosscheck":
         lambda r, vm: core.gate_confidence_source_crosscheck(r),
     "mechanism_coverage": lambda r, vm: core.gate_mechanism_coverage(r),
+    "texts_registry": lambda r, vm: core.gate_texts_registry(r),
 }
+
+# Gates whose real behaviour does not depend on the `records` dict the
+# runner always passes - texts_registry checks cic/texts/ against its own
+# ENTRIES manifest, which no world's own record set determines. Varying
+# `records` cannot exercise a defect in a gate like this (the seeded-set
+# trick every other gate's test relies on), so selftest() tests these
+# through a separate, explicit path instead of the generic per-gate loop -
+# see selftest()'s own comment at the exemption for why.
+BESPOKE_TESTED = {"texts_registry"}
 
 
 BASELINE_PATH = HERE / "gate_baseline.json"
@@ -113,8 +123,23 @@ def selftest() -> int:
     still reports green - which is the same vacuous pass mechanism_coverage
     exists to catch, reappearing one level up. It caught exactly that on
     its first run: mechanism_coverage had no fixtures until this commit.
+
+    BESPOKE_TESTED gates skip the generic loop and get an explicit test
+    block below instead - not exempted from proof, tested a different way.
+    texts_registry ignores the `records` dict entirely (it checks cic/texts/
+    against its own ENTRIES manifest, which no world's records determine),
+    so varying `records` between a clean and a seeded case cannot change
+    its output at all - the generic loop's whole mechanism for proving a
+    gate can fail simply does not apply to it. Silently letting it run
+    through the generic loop anyway would look like a valid test while
+    actually asserting nothing about the gate's real logic - the clean
+    case would only ever be checking today's real, incidentally-clean
+    cic/texts/ state, and the seeded case would use fixture `records` the
+    gate never reads, so it could never observe a failure. Both problems
+    disappear by testing the gate's own pure function directly instead.
     """
     import gate_fixtures as fx
+    import texts_registry as tr
 
     seeded = fx.seeded_sets()
     # Gates whose clean set is not the shared one - their subject matter
@@ -122,7 +147,7 @@ def selftest() -> int:
     clean_for = {"mechanism_coverage": fx.mechanism_coverage_clean()}
     failures, checked = [], 0
 
-    missing = sorted(set(GATES) - set(seeded))
+    missing = sorted(set(GATES) - set(seeded) - BESPOKE_TESTED)
     if missing:
         failures.append(f"gate(s) with NO fixtures at all: {', '.join(missing)} "
                         f"- a gate that is never exercised proves nothing")
@@ -135,6 +160,8 @@ def selftest() -> int:
     # like passes on this mode's first run - an advisory gate would have
     # been permanently unprovable.
     for name, fn in GATES.items():
+        if name in BESPOKE_TESTED:
+            continue
         clean = clean_for.get(name, fx.clean_set())
         vm = fx.CLEAN_VOICE_MATERIAL
         findings = fn(clean, vm)
@@ -148,6 +175,29 @@ def selftest() -> int:
             if not findings:
                 failures.append(f"{name}: seeded defect should FAIL but "
                                 f"passed - {label}")
+
+    # texts_registry, bespoke: test registry_problems() (the pure function)
+    # directly, with literal data - no real file on disk, no dependency on
+    # cic/texts/'s current actual state, exactly the property the generic
+    # loop needed but could not get for this gate.
+    _CLEAN_H = "Title: Fixture\nRights: Public Domain\n"
+    _BAD_H = "Title: Fixture\n(no rights line)\n"
+    _ENTRY = tr.TextEntry("fixture.txt", "test", "2026-08-15")
+    tr_cases = [
+        ("clean", (_ENTRY,), ["fixture.txt"], {"fixture.txt": _CLEAN_H}, False),
+        ("orphaned ENTRIES row (declared, file missing)", (_ENTRY,), [], {}, True),
+        ("undeclared file (present, no ENTRIES row)", (), ["fixture.txt"],
+         {"fixture.txt": _CLEAN_H}, True),
+        ("unverifiable rights line", (_ENTRY,), ["fixture.txt"],
+         {"fixture.txt": _BAD_H}, True),
+    ]
+    for label, entries, discovered, headers, expect_problems in tr_cases:
+        findings = tr.registry_problems(entries, discovered, headers)
+        checked += 1
+        if bool(findings) != expect_problems:
+            failures.append(f"texts_registry: {label} - expected "
+                            f"{'a finding' if expect_problems else 'no finding'}, "
+                            f"got {findings!r}")
 
     print(f"selftest: {checked} case(s) across {len(GATES)} gate(s)")
     if failures:
