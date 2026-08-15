@@ -52,7 +52,7 @@ verification_note: 'SUPERSEDED 2026-08-15, same day: Mark supplied the CCEL text
   Fathers volume, 1843) are where the Defence Against the Arians / Apologia contra Arianos originates,
   per Newman''s own cross-referenced introduction to them (p. 7564 in the vendored text). So this is
   Newman''s translation, Robertson-corrected, not Robertson''s own - work_author corrected accordingly.
-  WORDING: verified direct against the vendored text at cic/texts/npnf204_athanasius-select-works-letters.txt
+  WORDING: verified direct against the vendored text at cic/texts/npnf204_athanasius-select-works-letters.xml
   - see ijcq001. Note also the doubled mediation srcIJC04 already flags: Julius''s words reach us through
   Athanasius''s own apologetic quotation, so ijcq001 voices Julius at two removes and says so.'
 added: 2026-08-15 (T3 follow-on; Mark''s text decision)

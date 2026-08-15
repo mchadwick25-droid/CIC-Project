@@ -139,9 +139,24 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Origen's Commentaries on John and Matthew, among others. Swapped from the plain-text "
               "rendering the same day, as anf01/02/03/05/06/07/08 were - zero citations before the "
               "swap, so nothing needed re-verification."),
-    TextEntry("npnf204_athanasius-select-works-letters.txt", "Mark", "2026-08-15",
+    TextEntry("npnf104_augustine-anti-manichaean-anti-donatist.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 4: Augustine - The Writings Against the Manichaeans (and Against the "
+              "Donatists). Arrived first labeled 'npnf204' by mistake - its own <DC.Title> read directly "
+              "from the file caught the mismatch before anything was touched (it is Series I vol. 4, "
+              "NPNF1-04, not Series II vol. 4 / Athanasius). No quote record cites it and none is "
+              "planned yet, but it is real, useful primary-source material in its own right: Augustine's "
+              "own anti-Donatist writings are, per the census's own note on the not-yet-built Donatism "
+              "world, the primary route by which Donatist voices (Donatus, Petilian, Tyconius) survive "
+              "at all - 'known only through Augustine's quotations.' A future Donatism world would need "
+              "this volume's own doubly-mediated quoting discipline, the same shape already proven for "
+              "Julius's letter (license only the quoted portion, leave the surrounding corpus Excluded)."),
+    TextEntry("npnf204_athanasius-select-works-letters.xml", "Mark", "2026-08-15",
               "The volume srcIJC42 was scoped for from the start. Closed the last inert Check B cell "
-              "in the fleet (ijcq001, Julius I's letter of 341)."),
+              "in the fleet (ijcq001, Julius I's letter of 341). Swapped from the plain-text rendering "
+              "the same day as the ANF set - ijcq001's committed wording re-verified against the XML "
+              "with the tail-aware element walker before the swap; the letter itself is cleanly its own "
+              "titled sub-division here ('Letter of Julius to the Eusebians at Antioch'), an even "
+              "cleaner boundary than the paragraph-number locus the plain text required."),
 )
 
 
