@@ -13,9 +13,18 @@ provenance header must say so. In-copyright editions (Holmes 2007, Ward
 1975) are referenced by `source` record and never vendored — committing
 them would be redistribution.
 
-| file | edition | source record |
-|---|---|---|
-| `anf01_apostolic-fathers-justin-irenaeus.txt` | Ante-Nicene Fathers vol. 1 (Roberts & Donaldson eds.; Coxe, American ed.; Christian Literature Publishing Co., Buffalo, 1885). CCEL proofed transcription; its header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS62` |
+| file | edition | source record | covers |
+|---|---|---|---|
+| `anf01_apostolic-fathers-justin-irenaeus.txt` | Ante-Nicene Fathers vol. 1 (Roberts & Donaldson eds.; Coxe, American ed.; Buffalo, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS62` | Ignatius, Polycarp (letter + Martyrdom), 1 Clement, Justin Martyr |
+| `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt` | Ante-Nicene Fathers vol. 2: Fathers of the Second Century (same eds./publisher, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria |
+
+NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
+Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
+Post-Nicene Fathers series instead. Checked directly in anf02: every
+"Julius" occurrence in the file is Julius Africanus (the chronographer) or
+Julius Caesar, not Julius I of Rome — confirming the volume cannot carry
+his 341 letter to the Eusebians (needed for `srcIJC04`/`srcIJC42`), which
+is why a separate NPNF vol. 4 supply is still needed.
 
 Not records: nothing here is schema-validated or read by the runtime. These
 are reference copies for verification, cited by the `source` records that
