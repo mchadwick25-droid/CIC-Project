@@ -1,53 +1,48 @@
 # Vendored public-domain source texts
 
 Full text of editions this build's quote records cite, committed so that
-wording can be verified *reproducibly* — by any session, at any time,
+wording can be verified *reproducibly* -- by any session, at any time,
 without network access. That matters here for a specific reason: the
 sandbox this project's agents run in blocks every patristic text host
 (ccel.org, newadvent.org, wikisource, archive.org, gutenberg, tertullian.org),
 so before these files existed a quote record could not be verified at all
 and `gate_quote_fidelity_recording` had nothing honest to record.
 
+**This file is GENERATED, not hand-edited** -- run
+`python cic/engine/texts_registry.py --write-readme` after vendoring a new
+file or adding an ENTRIES row in that module. Editing this table directly
+will be overwritten the next time it runs.
+
 PUBLIC DOMAIN ONLY. Every file here must be out of copyright, and its own
-provenance header must say so. In-copyright editions (Holmes 2007, Ward
-1975) are referenced by `source` record and never vendored — committing
-them would be redistribution.
+provenance header must say so -- the `rights` column below is read fresh
+from each file's own header every time this report runs, not trusted from
+a claim made when the file was added. In-copyright editions (Holmes 2007,
+Ward 1975) are referenced by `source` record and never vendored --
+committing them would be redistribution.
 
-| file | edition | source record | covers |
-|---|---|---|---|
-| `anf01_apostolic-fathers-justin-irenaeus.txt` | Ante-Nicene Fathers vol. 1 (Roberts & Donaldson eds.; Coxe, American ed.; Buffalo, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS62` | Ignatius, Polycarp (letter + Martyrdom), 1 Clement, Justin Martyr |
-| `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt` | Ante-Nicene Fathers vol. 2: Fathers of the Second Century (same eds./publisher, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria |
+| file | title (from the file's own header) | rights | supplied | added | cited by |
+|---|---|---|---|---|---|
+| `anf01_apostolic-fathers-justin-irenaeus.txt` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahcq001`, `pahcq002`, `pahcq003`, `pahcq004` |
+| `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt` | ANF02. Fathers of the Second Century: Hermas, Tatian, | Public Domain | Mark | 2026-08-15 | - |
+| `anf03_tertullian.txt` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | - |
+| `anf04_tertullian4-minucius-felix-commodian-origen1-2.txt` | ANF04. Fathers of the Third Century: Tertullian, Part Fourth; | Public Domain | Mark | 2026-08-15 | - |
+| `anf05_hippolytus-cyprian-caius-novatian.txt` | ANF05. Fathers of the Third Century: Hippolytus, Cyprian, Caius, | Public Domain | Mark | 2026-08-15 | - |
+| `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt` | ANF06. Fathers of the Third Century: Gregory Thaumaturgus, | Public Domain | Mark | 2026-08-15 | - |
+| `anf07_lactantius-apostolic-constitutions-didache-liturgies.txt` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, | Public Domain | Mark | 2026-08-15 | `pahcq005`, `srcPAHCS63` |
+| `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The | Public Domain | Mark | 2026-08-15 | - |
+| `anf09_gospel-of-peter-diatessaron-origen-commentaries.txt` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The | Public Domain | Mark | 2026-08-15 | - |
+| `npnf204_athanasius-select-works-letters.txt` | NPNF2-04. Athanasius: Select Works and Letters | Public Domain | Mark | 2026-08-15 | `ijcq001`, `srcIJC42` |
 
-| `anf03_tertullian.txt` | Ante-Nicene Fathers vol. 3: Latin Christianity: Its Founder, Tertullian (Roberts, Donaldson, Menzies eds.; 1885/1896). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet, but see note | Tertullian: Apologetic, Anti-Marcion, Ethical works |
+Notes carried over per file:
 
-NOTE ON anf03: carries Tertullian's Apologeticus (the Apology) - the
-PRIMARY TEXT srcPAHCP15 already cites in pahc ("Tertullian, Apology 39",
-language corrected grc->lat earlier this session). No quote record for
-Tertullian was in this session's worklist, but the translation edition is
-now sitting here if one is ever wanted.
+- **`anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt`** -- Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria.
+- **`anf03_tertullian.txt`** -- Carries Tertullian's Apologeticus, the primary text srcPAHCP15 already cites in pahc ('Tertullian, Apology 39'). No quote record was in this session's worklist, so none was written, but the translation edition is available if one is ever wanted.
+- **`anf04_tertullian4-minucius-felix-commodian-origen1-2.txt`** -- Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2.
+- **`anf05_hippolytus-cyprian-caius-novatian.txt`** -- Hippolytus, Cyprian, Caius, Novatian. Carries ~82 of Cyprian's own letters plus On the Lapsed, On the Mortality, and Pontius's Life of Cyprian - primary-source material for the not-yet-built Latin Pastoral-Congregational Christianity world (census: 'Selected - Not Yet Built').
+- **`anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt`** -- This volume's own 'Julius' is Julius Africanus the chronographer, a named author here - NOT Julius I of Rome (srcIJC04/srcIJC42).
+- **`anf07_lactantius-apostolic-constitutions-didache-liturgies.txt`** -- Carries the Didache, published too late for ANF vol. 1 - closed the deferred gap srcPAHCS62 named. Translator for the Didache specifically: Isaac H. Hall and John T. Napier (Sunday-School Times, 1884), not the volume's general editors.
+- **`anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt`** -- Carries Abgar/Edessa correspondence material, relevant to syriac world (syrfig005, Addai) - not drawn on so far; that figure's own record already treats him as legend, not history.
+- **`anf09_gospel-of-peter-diatessaron-origen-commentaries.txt`** -- Origen's Commentaries on John and Matthew, among others.
+- **`npnf204_athanasius-select-works-letters.txt`** -- The volume srcIJC42 was scoped for from the start. Closed the last inert Check B cell in the fleet (ijcq001, Julius I's letter of 341).
 
-| `anf04_tertullian4-minucius-felix-commodian-origen1-2.txt` | ANF vol. 4: Tertullian Pt. 4; Minucius Felix; Commodian; Origen Pts. 1-2 (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Origen parts 1-2 among others |
-
-| `anf05_hippolytus-cyprian-caius-novatian.txt` | ANF vol. 5: Hippolytus, Cyprian, Caius, Novatian, Appendix (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Hippolytus, Cyprian |
-
-| `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.txt` | ANF vol. 6: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius, Methodius, Arnobius (1885). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | note: this volume's own "Julius" is Julius Africanus the chronographer, NOT Julius I of Rome |
-
-| `anf07_lactantius-apostolic-constitutions-didache-liturgies.txt` | ANF vol. 7: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies (1886). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS63` | **The Didache** (Hall/Napier trans., 1884) - closes the deferred gap srcPAHCS62 named |
-
-| `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.txt` | ANF vol. 8: The Twelve Patriarchs, Excerpts and Epistles, The Clementina, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age (Edinburgh: T&T Clark). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | note: carries Abgar/Edessa correspondence material - potentially relevant to syriac world (syrfig005, Addai), not drawn on this session |
-
-| `anf09_gospel-of-peter-diatessaron-origen-commentaries.txt` | ANF vol. 9: Gospel of Peter, Diatessaron of Tatian, Apocalypse of Peter, Testament of Abraham, Apology of Aristides, Epistles of Clement (complete), Origen Commentaries on John/Matthew. CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Origen commentaries |
-
-| `npnf204_athanasius-select-works-letters.txt` | Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Schaff/Wace eds.; Christian Literature Publishing Co., 1892). CCEL proofed; `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcIJC42` | Julius I's letter of 341 (via Athanasius) - closes the last inert Check B cell |
-
-NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
-Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
-Post-Nicene Fathers series instead. Checked directly in anf02: every
-"Julius" occurrence in the file is Julius Africanus (the chronographer) or
-Julius Caesar, not Julius I of Rome — confirming the volume cannot carry
-his 341 letter to the Eusebians (needed for `srcIJC04`/`srcIJC42`), which
-is why a separate NPNF vol. 4 supply is still needed.
-
-Not records: nothing here is schema-validated or read by the runtime. These
-are reference copies for verification, cited by the `source` records that
-carry the bibliographic data.
+Not records: nothing here is schema-validated or read by the runtime. These are reference copies for verification, cited by the `source`/`quote` records that carry the bibliographic and wording claims.
