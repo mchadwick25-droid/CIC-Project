@@ -296,6 +296,18 @@ ENTRIES: tuple[TextEntry, ...] = (
               "(Augustine, Confessions 9.7) needs the Confessions - both live in NPNF1-01, which none "
               "of these five volumes is; NOT among the files supplied this round. Vendored for future "
               "reference; no quote or source record cites any of the five yet."),
+    TextEntry("npnf101_augustine-confessions-letters.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 1: The Confessions and Letters of St. Augustine. Supplied with no "
+              "accompanying text, closing the gap flagged in the npnf108 ENTRIES note. TRANSLATOR "
+              "checked per-work at the volume's own section headers, not assumed: J.G. Pilkington for "
+              "the Confessions, Rev. J.G. Cunningham for the Letters - two distinct translators, the "
+              "same per-work check that caught srcIJC42's and srcIJC45's translator splits. Confirmed "
+              "content for BOTH flagged citations: imperial_juridical's srcIJC08 (Confessions 9.7, "
+              "Ambrose's antiphonal singing) is in the Confessions section; hieronymian's srcHAL009 "
+              "(Jerome's Ep. 112 = Augustine's Ep. 75) is present as Letter LXXV, div3 id="
+              "\"vii.1.LXXV\", titled \"From Jerome\" in Augustine's own numbering - confirming "
+              "srcHAL009's own cross-reference note. Not acted on here - no translation row or quote "
+              "drawn from it yet, but both gaps flagged for this volume are now closeable."),
 )
 
 
