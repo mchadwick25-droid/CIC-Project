@@ -166,6 +166,20 @@ ENTRIES: tuple[TextEntry, ...] = (
               "belongs to a different work entirely - Concerning Repentance, Book II - not the Sermon "
               "Against Auxentius. Discarded before use; ijcq002 cites only text confirmed, by walking "
               "the tree, to sit inside the correct sermon."),
+    TextEntry("npnf201_eusebius-church-history-life-of-constantine.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, "
+              "Oration in Praise of Constantine. Supplied with no accompanying text, read as continuing "
+              "'deepen imperial_juridical' (Julius, then Ambrose, now Eusebius) - ijcq003. Found a real "
+              "scoping mismatch, not a misattribution: the world's only prior Eusebius source row "
+              "(srcIJC02) cites 'esp. 4.24' and licenses a different claim ('bishop of those outside') "
+              "than the vision-under-oath account ijcstory001 actually attests. Rather than stretch "
+              "srcIJC02 to cover it, the chapter was located independently by title search (Book I, "
+              "ch. 28) and two new, narrowly-scoped rows written (srcIJC44 primary, srcIJC45 "
+              "translation); srcIJC02 itself was left untouched. Also notable: this volume's two works "
+              "have different translators (McGiffert for Church History, a Bagster translation revised "
+              "by Richardson for Life of Constantine) under one shared <DC.Creator> block - checked "
+              "per-chapter rather than assumed from the volume-level header, the same discipline that "
+              "caught srcIJC42's Newman/Robertson split."),
 )
 
 
