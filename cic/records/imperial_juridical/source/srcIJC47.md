@@ -52,9 +52,11 @@ verification_note: 'LOCUS NOW IDENTIFIED, 2026-08-15 (same day follow-up to Mark
   third, against Constantinople''s claim). This is an exact match for srcIJC13''s own description ("to
   Marcian, Pulcheria, Anatolius") - all three named addressees, one dated dispatch. Wording read
   directly from cic/texts/npnf212_leo-great-gregory-great.xml with the same tail-aware ElementTree
-  walker used throughout this session; not yet checked against a committed quote (none exists yet for
-  this row), so verification_state stays short of the srcIJC46 standard until a quote is authored from
-  it, but the locus question Mark asked is now fully answered.'
+  walker used throughout this session. UPDATE, same day: Letter CVI (div3 id="ii.iv.ci", paragraph
+  id="ii.iv.ci-p15") is now wording-verified against ijcq005 ("add a quote from Letter CVI") - the
+  "ipso facto null and void" sentence, confirmed to sit inside this specific letter and no other.
+  Letters CIV and CV remain located but not yet quoted from, at the same standard srcIJC46 met only
+  after ijcq004 was written.'
 added: 2026-08-15 (T3 follow-on; Mark's "other fixes" request)
 ---
 Added 2026-08-15 as a translation row for srcIJC13 (Leo's Canon 28 rejection correspondence), closing
