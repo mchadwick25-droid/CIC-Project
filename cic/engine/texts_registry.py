@@ -94,8 +94,19 @@ ENTRIES: tuple[TextEntry, ...] = (
               "was written, but the translation edition is available if one is ever wanted. Swapped "
               "from the plain-text rendering the same day, as anf01/anf02 were - zero citations before "
               "the swap, so nothing needed re-verification."),
-    TextEntry("anf04_tertullian4-minucius-felix-commodian-origen1-2.txt", "Mark", "2026-08-15",
-              "Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2."),
+    TextEntry("anf04_tertullian4-minucius-felix-commodian-origen1-2.xml", "Mark", "2026-08-15",
+              "Tertullian Pt. 4, Minucius Felix, Commodian, Origen Pts. 1-2. Swapped from the plain-text "
+              "rendering the same day, as anf01/02/03/05/06/07/08/09 were - zero citations before the "
+              "swap, so nothing needed re-verification."),
+    TextEntry("anf10_bibliographic-synopsis-general-index.xml", "Mark", "2026-08-15",
+              "NEW, not a swap - this volume was never vendored as plain text. A finding aid, not "
+              "primary source content: Biographical Synopsis, Index of Subjects, Index of Texts, and "
+              "the General Index to the whole Ante-Nicene Fathers set - 66KB against the 3-4.5MB of "
+              "every content volume, 11 top-level divs with no chapter/letter text of its own. Its "
+              "'cited by' count will legitimately stay at zero permanently, unlike every other volume "
+              "here where zero means only 'not yet drawn on' - this one carries nothing a quote record "
+              "could ever cite as translation_used. Kept for its actual use: faster location of "
+              "passages across the other nine volumes when authoring future quotes."),
     TextEntry("anf05_hippolytus-cyprian-caius-novatian.xml", "Mark", "2026-08-15",
               "Hippolytus, Cyprian, Caius, Novatian. Carries ~82 of Cyprian's own letters plus On the "
               "Lapsed, On the Mortality, and Pontius's Life of Cyprian - primary-source material for "
