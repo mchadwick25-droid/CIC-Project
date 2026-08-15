@@ -13,6 +13,14 @@ names:
   name_kind: in-world
 - name: Fabiola of Rome (d. 399/400)
   name_kind: scholarly
+dates:
+  kind: life
+  display: d. 399/400
+  end_year: 400
+  approximate: false
+  note: 'Death in 399 or 400; the sources do not settle between them, so `display` is authoritative and
+    end_year records the later candidate only as a machine-comparable bound - the more permissive one
+    for any "was she alive in year X" question.'
 bridge_line: "A Roman woman of this circle who founded a hospital for the sick poor."
 narratable: false
 story_ids: []

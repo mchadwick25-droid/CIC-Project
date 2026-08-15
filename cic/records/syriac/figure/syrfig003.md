@@ -13,6 +13,14 @@ names:
   name_kind: in-world
 - name: Jacob (Mar Yaqub) of Nisibis, bishop from c. 309
   name_kind: scholarly
+dates:
+  kind: episcopate
+  display: bishop of Nisibis from c. 309
+  start_year: 309
+  approximate: true
+  note: 'No end_year, deliberately: his death date is a genuine primary-source conflict this record
+    carries open (see attribution_note). Recording either candidate here would settle in a data field
+    what the record refuses to settle in prose.'
 bridge_line: "Bishop of Nisibis from about 309. Our sources disagree on when he died."
 narratable: true
 story_ids:

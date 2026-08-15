@@ -120,13 +120,23 @@ def build(world_id: str) -> list[dict]:
         names = [n.get("name", "") for n in (fm.get("names") or [])]
         in_world = next((n.get("name") for n in (fm.get("names") or [])
                          if n.get("name_kind") == "in-world"), None)
-        out.append({
+        entry = {
             "figure_id": fm["id"],
             "display_name": in_world or (names[0] if names else fm["id"]),
             "names": _match_forms(names),
             "bridge_line": line,
             "narratable": bool(fm.get("narratable")),
-        })
+        }
+        # T3-D (2026-08-15): the structured chronology slot, carried through
+        # verbatim for check_figure_chronology (Tier 2 Check A). Emitted ONLY
+        # when the record has one - an absent key means "this figure has no
+        # attested date", which is the majority case (45 of 59 records) and
+        # must stay distinguishable from an empty one. This is apparatus, not
+        # participant-facing text, so it is deliberately not run through the
+        # _APPARATUS check that guards bridge_line: nothing renders it.
+        if fm.get("dates"):
+            entry["dates"] = fm["dates"]
+        out.append(entry)
     return out
 
 

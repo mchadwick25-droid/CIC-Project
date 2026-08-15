@@ -66,6 +66,17 @@ _YEAR_IN_PARENS = re.compile(r"\([^)]*\b\d{3,4}\b[^)]*\)")
 
 
 def _figure_has_attested_date(rec: dict) -> bool:
+    """Structured `dates` (T3-D) first, the legacy name string as fallback.
+
+    Both count as coverage, because both are readable by Check A - a world
+    is not less covered for having authored its dates before the structured
+    slot existed. The fallback is what keeps hieronymian at 5/9 and
+    imperial_juridical at 8/9 through this change rather than dropping them
+    to 0 and manufacturing a fleet-wide regression out of a schema addition.
+    """
+    dates = rec.get("dates")
+    if isinstance(dates, dict) and (dates.get("display") or "").strip():
+        return True
     return any(_YEAR_IN_PARENS.search(n.get("name") or "")
                for n in (rec.get("names") or []))
 
@@ -110,9 +121,10 @@ DEPENDENCIES: tuple[Dependency, ...] = (
         mechanism="app.graph.nodes.check_figure_chronology",
         label="Tier 2 Check A (figure chronology)",
         record_type="figure",
-        field="names[].name",
-        requirement="a name string carrying a parseable year, e.g. "
-                    "'Fabiola of Rome (d. 399/400)'",
+        field="dates.display (or a year in names[].name)",
+        requirement="a structured `dates` block (T3-D), or - legacy - a name "
+                    "string with a parseable year like 'Fabiola of Rome "
+                    "(d. 399/400)'",
         predicate=_figure_has_attested_date,
         inert_mode=INERT_SILENT,
         inert_consequence="every turn logs outcome=no_dated_figures, which "

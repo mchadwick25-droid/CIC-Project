@@ -338,7 +338,28 @@
         "bridge_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by figure_registry.py (2026-08-09 name bridge) - the participant-facing one-sentence 'who this is'; only figures carrying it ship in figure_registry.json"},
         "accepted_refusal_note": {"type": "string", "$comment": "CO-P2-07 (Mark, 2026-07-27): documents a deliberate decision that this prompt-named figure stays refusal-only (no story authored, the guard's refusal is the design); presence quiets the narratability gate by documented decision, not suppression"},
         "story_ids": {"type": "array", "items": {"type": "string"}},
-        "attribution_note": {"type": "string"}
+        "attribution_note": {"type": "string"},
+        "dates": {
+          "type": "object",
+          "$comment": "T3-D (2026-08-15): the chronology slot this record type never had. Consumed by check_figure_chronology (Tier 2 Check A) via figure_registry.json. Until now the only place a figure's dates could live was inside a scholarly `names[].name` display string, which this type's unevaluatedProperties:false made the ONLY option rather than a choice - so Check A had to regex a year out of prose. That undercounts today: syriac's 'Jacob (Mar Yaqub) of Nisibis, bishop from c. 309' carries a real date the parenthetical-only regex cannot see. Optional, deliberately: 45 of 59 figures carry no year anywhere, and requiring this would fail them all. Coverage is mechanism_coverage's question (T3-B), not this schema's.",
+          "properties": {
+            "kind": {
+              "enum": ["life", "reign", "episcopate", "floruit", "work"],
+              "$comment": "WHAT the span measures, and load-bearing rather than descriptive: 5 of the 14 dated figures in the corpus carry an office, not a lifespan ('r. 306-337', 'bp. 440-461'), and one carries a TEXT's date, not the person's at all ('Paulinus of Milan (Vita Ambrosii, c. 412-413)'). A checker comparing a turn's 'when did they live' against an episcopate span would manufacture contradictions that are not there - which would make Check A worse than the regex it replaces, not better."
+            },
+            "display": {
+              "type": "string",
+              "minLength": 1,
+              "$comment": "The authoritative human form, and what the grounding judge is actually shown - 'd. 399/400', 'bishop from c. 309'. Required rather than derived from the integers below, because deriving it discards exactly the uncertainty the sources carry: '399/400' is two candidate years, not a range, and 'c. 368-418/419/420' is not reconstructible from any pair of ints."
+            },
+            "start_year": {"type": "integer"},
+            "end_year": {"type": "integer", "$comment": "start_year/end_year are OPTIONAL and are the machine-comparable form for future deterministic checks (e.g. a figure outside world_core.time_window). Many attestations are one-sided ('d. 384', 'bishop from c. 309') or ambiguous, so a record may carry display alone; nothing may assume both are present."},
+            "approximate": {"type": "boolean", "$comment": "the 'c.' - the years are the scholarly estimate, not a documented date"},
+            "note": {"type": "string"}
+          },
+          "required": ["kind", "display"],
+          "additionalProperties": false
+        }
       },
       "unevaluatedProperties": false
     },

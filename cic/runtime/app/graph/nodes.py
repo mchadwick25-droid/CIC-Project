@@ -1612,6 +1612,41 @@ _DATED_NAME_PATTERN = re.compile(r"\([^)]*\b\d{3,4}\b[^)]*\)")
 _FIGURE_CHRONOLOGY_LINE_PATTERN = re.compile(
     r"^\s*([A-Za-z])\.\s*(CONSISTENT|CONTRADICTION)\s*:?\s*(.*)$", re.IGNORECASE)
 
+# What the judge is shown for each `dates.kind`. Spelled out rather than
+# passed as a bare enum value because the judge is reading English, and
+# "episcopate 440-461" invites the same category error as an unlabelled
+# span: the phrasing has to make plain that the years bound an OFFICE, not
+# a life, or a turn about when someone was born reads as a contradiction.
+_DATE_KIND_PHRASING = {
+    "life": "life dates",
+    "reign": "dates of reign, not lifespan",
+    "episcopate": "dates of office, not lifespan",
+    "floruit": "period of activity",
+    "work": "date of the work, not the person's lifespan",
+}
+
+
+def _figure_attested_date(entry: dict) -> str | None:
+    """The chronology line for one registry entry, or None if it has none.
+
+    Prefers the structured `dates` block (T3-D) and falls back to the legacy
+    parenthetical-year-in-a-name scan, so figures dated before the slot
+    existed keep working unchanged. The fallback is not deprecated dead
+    weight: 14 of the corpus's figures are still dated only that way, and
+    the structured field is being filled in by demand rather than in one
+    sweep (T3-E).
+    """
+    dates = entry.get("dates")
+    if isinstance(dates, dict):
+        display = (dates.get("display") or "").strip()
+        if display:
+            qualifier = _DATE_KIND_PHRASING.get(dates.get("kind"))
+            return f"{display} - {qualifier}" if qualifier else display
+    for name in entry.get("names") or []:
+        if _DATED_NAME_PATTERN.search(name):
+            return name
+    return None
+
 
 def check_figure_chronology(
     world_id: str | None,
@@ -1684,10 +1719,16 @@ def check_figure_chronology(
             entry = registry_by_id.get(fig["figure_id"])
             if not entry:
                 continue
-            for name in entry.get("names") or []:
-                if _DATED_NAME_PATTERN.search(name):
-                    dated.append((chr(65 + len(dated)), fig, name))
-                    break
+            # T3-D (2026-08-15): the structured `dates` block wins where the
+            # record carries one. It states WHAT the span measures, which the
+            # name string never could - 5 of the corpus's 14 dated figures
+            # carry an office rather than a lifespan ("bp. 440-461") and one
+            # carries a text's date, not the person's ("Vita Ambrosii,
+            # c. 412-413"). Handing the judge a bare span with no kind is how
+            # a check manufactures contradictions that are not there.
+            attested = _figure_attested_date(entry)
+            if attested:
+                dated.append((chr(65 + len(dated)), fig, attested))
 
         if not dated:
             log_figure_chronology_outcome(
@@ -1699,7 +1740,7 @@ def check_figure_chronology(
             f"{letter}. {fig['display_name']} - attested: {attested}"
             for letter, fig, attested in dated
         )
-        prompt = f"""A representative's response is below, followed by a lettered list of figures it named, each with that figure's attested date or dates of activity (already verified - treat it as fact). For EACH figure, decide independently: does the response's own treatment of that figure - anything it says about when they lived, died, or were active, or any biographical detail it attaches to them - contradict their attested date, or is it consistent (including cases where the response says nothing about timing at all, which is consistent by default)?
+        prompt = f"""A representative's response is below, followed by a lettered list of figures it named, each with that figure's attested dates (already verified - treat them as fact). For EACH figure, decide independently: does the response's own treatment of that figure contradict its attested dates, or is it consistent (including cases where the response says nothing about timing at all, which is consistent by default)?
 
 Response:
 {response_text}
@@ -1708,7 +1749,9 @@ Figures named, with their attested dates:
 
 {figures_block}
 
-For EACH lettered figure, answer CONTRADICTION: <brief reason> only if the response makes a claim about that figure that conflicts with their attested date (including attributing another figure's known biography or dates to them); otherwise CONSISTENT.
+READ WHAT EACH SPAN MEASURES. An entry may be labelled as dates of office, dates of reign, a period of activity, or the date of a written work rather than a lifespan. Where it is, the span does NOT bound the person's life, and a claim about their birth, death, or age FALLING OUTSIDE IT IS NOT A CONTRADICTION - someone was necessarily born before they took office and often died after leaving it. Only a claim conflicting with what that span actually measures counts. Judge an unlabelled span as life dates.
+
+For EACH lettered figure, answer CONTRADICTION: <brief reason> only if the response makes a claim about that figure that conflicts with their attested dates (including attributing another figure's known biography or dates to them); otherwise CONSISTENT.
 
 Respond with exactly {len(dated)} lines, one per figure:
 A. CONSISTENT
