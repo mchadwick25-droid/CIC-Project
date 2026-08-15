@@ -59,8 +59,13 @@ verification_note: 'LOCUS NOW IDENTIFIED, 2026-08-15 (same day follow-up to Mark
   paragraph id="ii.iv.ci-p15") is wording-verified against ijcq005 ("add a quote from Letter CVI") -
   the "ipso facto null and void" sentence, confirmed to sit inside this specific letter and no other.
   Letter CIV (div3 id="ii.iv.xcix", paragraph id="ii.iv.xcix-p12") is now likewise wording-verified
-  against ijcq006. Letter CV remains located but not yet quoted from, at the same standard srcIJC46 met only
-  after ijcq004 was written.'
+  against ijcq006. FINAL UPDATE, same day: Letter CV (div3 id="ii.iv.c", paragraph id="ii.iv.c-p11")
+  is now wording-verified against ijcq007 ("add a quote from Letter CV to Pulcheria too") - "by the
+  blessed Apostle Peter''s authority we absolutely dis-annul in comprehensive terms." The same
+  header-vs-body check applied first (this letter''s own section II/III headings at paragraph ids
+  "ii.iv.c-p7" and "ii.iv.c-p10" are Percival/Feltoe''s editorial paraphrase, not Leo''s text, and were
+  not used). All three letters in the 22 May 452 dispatch (CIV/CV/CVI) are now wording-verified against
+  a quote each - this row has reached the full srcIJC46 standard.'
 added: 2026-08-15 (T3 follow-on; Mark's "other fixes" request)
 ---
 Added 2026-08-15 as a translation row for srcIJC13 (Leo's Canon 28 rejection correspondence), closing
