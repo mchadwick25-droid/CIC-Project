@@ -38,12 +38,12 @@ rights_status: 'PUBLIC DOMAIN, and display_permitted is set true on that basis: 
   Roger Pearse... all material on this page is in the public domain - copy freely"), confirmed on the
   companion Doctrine of Addai page from the same collection supplied in the same conversation.'
 display_permitted: true
-verification_note: 'NOT YET WORDING-VERIFIED against any specific committed quote or key_line. This
-  is a corpus-level translation row, matching srcDES007''s own corpus-level scope (desert''s citations
-  reference the work broadly - Nitria population figures, the general narrative record - not a single
-  quotable passage). A specific chapter and passage would need to be located and checked before any
-  quote can cite this row, the same honest limitation recorded in srcDES027 (Cassian) and srcSYR065
-  (Aphrahat/Ephraim) added earlier the same day.'
+verification_note: 'UPDATE, same day: wording-verified against desertq007 ("add a quote for Palladius
+  too") - the closing sentence of the Prologue, confirmed at line 193 of
+  cic/texts/palladius_lausiac-history_clarke1918.txt. This single passage does not exhaust the row''s
+  corpus-level scope (desert''s existing citations - Nitria population figures, the general narrative
+  record - remain unverified against specific loci beyond this one), but the row has moved past the
+  "nothing checked yet" state srcDES027 and srcSYR065 were left in earlier the same day.'
 added: 2026-08-15 (T3 follow-on; Mark's Lausiac History supply)
 ---
 Added 2026-08-15 as the translation row for srcDES007 (Palladius, Lausiac History), closing the
