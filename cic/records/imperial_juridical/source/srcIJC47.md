@@ -43,19 +43,23 @@ verification_note: 'LOCUS NOW IDENTIFIED, 2026-08-15 (same day follow-up to Mark
   Pulcheria, and Anatolius by content (not title alone, since most concern other subjects - Eutyches,
   the Alexandrian succession, Antioch) for canon/privilege language. Found a matched trio, all dated
   22 May 452 and carried by the same legates (Lucian the bishop, Basil the deacon): Letter CIV to
-  Marcian ("The city of Constantinople, royal though it be, can never be raised to Apostolic rank...
+  Marcian ("Let him not disdain a city which is royal, though he cannot make it an Apostolic See...
   the privileges of the churches determined by the canons of the holy Fathers... cannot be overthrown
-  by any unscrupulous act, nor disturbed by any innovation"); Letter CV to Pulcheria (companion letter,
-  same complaint); Letter CVI to Anatolius himself, the strongest and most explicit of the three ("if
-  anywhere men venture upon what is contrary to their decrees, it is ipso facto null and void" -
-  addressing Canon 28 directly, invoking the Nicene canons'' fixed order of Alexandria second, Antioch
-  third, against Constantinople''s claim). This is an exact match for srcIJC13''s own description ("to
-  Marcian, Pulcheria, Anatolius") - all three named addressees, one dated dispatch. Wording read
-  directly from cic/texts/npnf212_leo-great-gregory-great.xml with the same tail-aware ElementTree
-  walker used throughout this session. UPDATE, same day: Letter CVI (div3 id="ii.iv.ci", paragraph
-  id="ii.iv.ci-p15") is now wording-verified against ijcq005 ("add a quote from Letter CVI") - the
-  "ipso facto null and void" sentence, confirmed to sit inside this specific letter and no other.
-  Letters CIV and CV remain located but not yet quoted from, at the same standard srcIJC46 met only
+  by any unscrupulous act, nor disturbed by any innovation" - paragraph id="ii.iv.xcix-p12", the letter
+  body itself; NOTE, corrected same day: this row originally quoted paragraph id="ii.iv.xcix-p11"
+  instead, a section-III editorial summary heading in Percival/Feltoe''s own convention, not Leo''s
+  translated text - caught while sourcing ijcq006 and fixed here); Letter CV to Pulcheria (companion
+  letter, same complaint); Letter CVI to Anatolius himself, the strongest and most explicit of the
+  three ("if anywhere men venture upon what is contrary to their decrees, it is ipso facto null and
+  void" - addressing Canon 28 directly, invoking the Nicene canons'' fixed order of Alexandria second,
+  Antioch third, against Constantinople''s claim). This is an exact match for srcIJC13''s own
+  description ("to Marcian, Pulcheria, Anatolius") - all three named addressees, one dated dispatch.
+  Wording read directly from cic/texts/npnf212_leo-great-gregory-great.xml with the same tail-aware
+  ElementTree walker used throughout this session. UPDATE, same day: Letter CVI (div3 id="ii.iv.ci",
+  paragraph id="ii.iv.ci-p15") is wording-verified against ijcq005 ("add a quote from Letter CVI") -
+  the "ipso facto null and void" sentence, confirmed to sit inside this specific letter and no other.
+  Letter CIV (div3 id="ii.iv.xcix", paragraph id="ii.iv.xcix-p12") is now likewise wording-verified
+  against ijcq006. Letter CV remains located but not yet quoted from, at the same standard srcIJC46 met only
   after ijcq004 was written.'
 added: 2026-08-15 (T3 follow-on; Mark's "other fixes" request)
 ---
