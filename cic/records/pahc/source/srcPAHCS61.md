@@ -5,8 +5,10 @@ record_type: source
 schema_version: 1
 register: etic
 review_state: draft
-disposition: in-use
+disposition: removed-from-use
 source_type: S
+consulted_as: translation
+edition_status: none-consulted
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
@@ -36,9 +38,16 @@ rights_status: 'In copyright: Baker Academic, 2007. display_permitted is deliber
   (Ward, 1975). Quote text traced to this edition may be compared internally by the grounding checks but
   must not be rendered to a participant or into the public repository unless permission is obtained and
   recorded here.'
-verification_note: 'Added so this world''s quote records can carry a real translation_used reference, the
-  gap that has kept Check B inert here (0 quote records, T3-B''s own finding). NOTHING HAS BEEN VERIFIED
-  AGAINST THIS EDITION. The volume is in copyright and not available to this session, so no wording
+verification_note: 'SUPERSEDED IN USE, 2026-08-15, the same day it was added: Mark''s constraint that
+  the project runs on free tools with no budget puts this volume out of reach, and srcPAHCS62 (Ante-Nicene
+  Fathers vol. 1, 1885) is the operational translation row instead. Kept rather than deleted, per this
+  build''s convention for settled inputs - the supersession is the new fact, not an erasure of the choice.
+  This remains the STANDING PREFERENCE on scholarship: modern, facing Greek, current apparatus, where ANF
+  is a dated Victorian rendering. If it ever becomes affordable, quote records should be re-verified
+  against it and moved here - and note that doing so would flip their rights posture from displayable
+  back to denied, which is a real cost, not only a gain. edition_status is none-consulted because that is
+  literally true: the volume has never been opened for this project.
+  NOTHING HAS BEEN VERIFIED AGAINST THIS EDITION. The volume is in copyright and not available to this session, so no wording
   comparison has been performed: the seven English key_lines already carried in this world''s story records
   (pahcstory001/004/005/006/008/009/011) are of UNRECORDED translation provenance and must NOT be assumed
   to be Holmes''s rendering. Authoring a quote record against this row still requires a human to open the

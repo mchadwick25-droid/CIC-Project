@@ -7,6 +7,7 @@ register: etic
 review_state: draft
 disposition: in-use
 source_type: S
+consulted_as: translation
 boundary_status: Native
 attribution_status: genuine
 level_of_description: work
