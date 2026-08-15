@@ -18,6 +18,14 @@ them would be redistribution.
 | `anf01_apostolic-fathers-justin-irenaeus.txt` | Ante-Nicene Fathers vol. 1 (Roberts & Donaldson eds.; Coxe, American ed.; Buffalo, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | `srcPAHCS62` | Ignatius, Polycarp (letter + Martyrdom), 1 Clement, Justin Martyr |
 | `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.txt` | Ante-Nicene Fathers vol. 2: Fathers of the Second Century (same eds./publisher, 1885). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet | Shepherd of Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria |
 
+| `anf03_tertullian.txt` | Ante-Nicene Fathers vol. 3: Latin Christianity: Its Founder, Tertullian (Roberts, Donaldson, Menzies eds.; 1885/1896). CCEL proofed transcription; header states `Rights: Public Domain`. Supplied by Mark 2026-08-15. | none yet, but see note | Tertullian: Apologetic, Anti-Marcion, Ethical works |
+
+NOTE ON anf03: carries Tertullian's Apologeticus (the Apology) - the
+PRIMARY TEXT srcPAHCP15 already cites in pahc ("Tertullian, Apology 39",
+language corrected grc->lat earlier this session). No quote record for
+Tertullian was in this session's worklist, but the translation edition is
+now sitting here if one is ever wanted.
+
 NOT IN THIS SERIES: anything post-Nicaea (325 CE) by definition — Athanasius,
 Julius I of Rome, Ambrose, Leo I, etc. belong to the companion Nicene and
 Post-Nicene Fathers series instead. Checked directly in anf02: every
