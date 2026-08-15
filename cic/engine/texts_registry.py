@@ -343,8 +343,22 @@ ENTRIES: tuple[TextEntry, ...] = (
               "NPNF Series I, Vol. 12: St. Chrysostom: Homilies on the Epistles of Paul to the "
               "Corinthians. Same status as npnf109 - no built world cites Chrysostom. Vendored for "
               "future reference. Four of six NPNF1 Chrysostom volumes now vendored (09-12); vols. "
-              "13 (Galatians-Philemon) and 14 (Hebrews; Gregory Thaumaturgus; Apollinaris) not yet "
-              "supplied."),
+              "13 and 14 not yet supplied (their contents corrected below, at npnf114 - the original "
+              "guess here for vol. 14's title was wrong, caught when the actual file arrived)."),
+    TextEntry("npnf113_chrysostom-homilies-galatians-philemon.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 13: St. Chrysostom: Homilies on Galatians, Ephesians, Philippians, "
+              "Colossians, Thessalonians, Timothy, Titus, and Philemon. Re-checked: still zero "
+              "citations across all six built worlds' source and figure records. Vendored for future "
+              "reference."),
+    TextEntry("npnf114_chrysostom-homilies-john-hebrews.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 14: St. Chrysostom: Homilies on the Gospel of St. John and the "
+              "Epistle to the Hebrews. Completes the full NPNF1 set (01-14) - the 8-volume Augustine "
+              "set and the 6-volume Chrysostom set are both now entirely vendored. CORRECTION: the "
+              "npnf112 ENTRIES note above guessed this volume's contents as 'Hebrews; Gregory "
+              "Thaumaturgus; Apollinaris' - wrong on both counts (that description belongs to a "
+              "different collection entirely, not this one); the volume's own title, read directly "
+              "rather than assumed from memory, is the actual record here. Still zero citations "
+              "across all six built worlds. Vendored for future reference."),
 )
 
 
