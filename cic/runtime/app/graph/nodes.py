@@ -1462,6 +1462,142 @@ Use the same numbering as above. Do not add commentary outside these lines."""
     return out
 
 
+_QUOTATION_GROUNDING_LINE_PATTERN = re.compile(
+    r"^\s*([A-Za-z])\.\s*(MATCH|NONE)\s*:?\s*(\d+)?", re.IGNORECASE)
+
+
+def check_quotation_grounding(
+    world_id: str | None,
+    response_text: str,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """
+    Tier 2, Check B (grounding gate, scoped 2026-08-15) - PHASE 0, SHADOW
+    MODE ONLY. Logs every quotation-marked span in a generated turn as
+    grounded or not against this world's own licensed quote records
+    (cic/engine/build_quotes_index.py); changes nothing about what ships.
+    See app/groundedness_logging.py's module docstring for why shadow mode
+    comes first and what graduates it to an active gate.
+
+    Same governing shape as filter_grounded_citations just above: detecting
+    WHICH text is quoted is deterministic (quotation marks - see
+    app.prompts.quote_index.extract_quoted_spans); judging whether a found
+    span is genuinely the SAME saying as a licensed candidate is not (real
+    quotation is routinely paraphrased a word or two), so that half is one
+    batched Haiku call, the same numbered-candidate shape
+    filter_grounded_citations already runs in production, just inverted -
+    here the response's own quoted spans are the items being judged,
+    against the world's licensed quotes as candidates, rather than the
+    other way around.
+
+    A world with no licensed quotes yet (quote_index.licensed_quotes
+    returns empty) skips the LLM call entirely: every quoted span is
+    UNLICENSED by definition when there is nothing to match against, and
+    that is itself the useful Phase-0 signal - which worlds are being
+    quoted from live but have no quote records authored at all.
+
+    Fails open on any error: an unparsed or failed judge call logs
+    OUTCOME_CHECK_FAILED and returns without raising, exactly
+    filter_grounded_citations's own "fail toward the state that existed
+    before the guard" - this function has no citations_payload/ship-path
+    to fall back to because in Phase 0 it never touches the ship path at
+    all, only its own log line.
+    """
+    from app.groundedness_logging import (
+        OUTCOME_ALL_MATCHED, OUTCOME_CHECK_FAILED, OUTCOME_NO_QUOTES,
+        OUTCOME_UNLICENSED, REASON_JUDGE_NO_MATCH, REASON_NO_CANDIDATES,
+        log_quotation_grounding_outcome, log_unlicensed_quotation,
+    )
+    from app.prompts.quote_index import extract_quoted_spans, licensed_quotes
+
+    try:
+        spans = extract_quoted_spans(response_text)
+        if not spans:
+            log_quotation_grounding_outcome(
+                world_id, OUTCOME_NO_QUOTES,
+                request_id=request_id, session_id=session_id)
+            return
+
+        candidates = licensed_quotes(world_id) if world_id else ()
+        if not candidates:
+            for span in spans:
+                log_unlicensed_quotation(
+                    world_id, span, REASON_NO_CANDIDATES,
+                    request_id=request_id, session_id=session_id)
+            log_quotation_grounding_outcome(
+                world_id, OUTCOME_UNLICENSED, spans_checked=len(spans),
+                spans_matched=0, spans_unlicensed=len(spans),
+                request_id=request_id, session_id=session_id)
+            return
+
+        spans_block = "\n".join(
+            f"{chr(65 + i)}. {span}" for i, span in enumerate(spans))
+        candidates_block = "\n".join(
+            f"{i}. {c.get('text_translation', '')}"
+            for i, c in enumerate(candidates, start=1))
+        prompt = f"""A representative's response quoted the following passage(s) verbatim (marked by quotation marks in the response). For EACH quoted passage, decide independently: does it match, or closely paraphrase, one of the numbered candidate quotations below - the SAME saying, even if worded slightly differently - or does it correspond to none of them?
+
+Quoted passage(s) from the response:
+{spans_block}
+
+Candidate quotations already licensed for this world:
+
+{candidates_block}
+
+For EACH lettered passage, answer MATCH: <candidate number> if it is genuinely the same saying as that candidate, or NONE if it does not correspond to any candidate listed.
+
+Respond with exactly {len(spans)} lines, one per passage:
+A. MATCH: N
+or
+A. NONE
+
+Use the same lettering as above. Do not add commentary outside these lines."""
+
+        try:
+            llm = get_monitoring_llm()
+            response = llm.invoke(prompt)
+            log_llm_usage("quotation_grounding", response, _MONITORING_MODEL,
+                           request_id=request_id, session_id=session_id)
+        except Exception:
+            log_quotation_grounding_outcome(
+                world_id, OUTCOME_CHECK_FAILED, spans_checked=len(spans),
+                request_id=request_id, session_id=session_id)
+            return
+
+        matched_letters: set[str] = set()
+        for line in response.content.strip().split("\n"):
+            match = _QUOTATION_GROUNDING_LINE_PATTERN.match(line)
+            if not match:
+                continue
+            if match.group(2).upper() == "MATCH" and match.group(3):
+                matched_letters.add(match.group(1).upper())
+
+        unlicensed_count = 0
+        for i, span in enumerate(spans):
+            letter = chr(65 + i)
+            if letter not in matched_letters:
+                unlicensed_count += 1
+                log_unlicensed_quotation(
+                    world_id, span, REASON_JUDGE_NO_MATCH,
+                    request_id=request_id, session_id=session_id)
+
+        outcome = OUTCOME_UNLICENSED if unlicensed_count else OUTCOME_ALL_MATCHED
+        log_quotation_grounding_outcome(
+            world_id, outcome, spans_checked=len(spans),
+            spans_matched=len(spans) - unlicensed_count,
+            spans_unlicensed=unlicensed_count,
+            request_id=request_id, session_id=session_id)
+    except Exception:
+        try:
+            log_quotation_grounding_outcome(
+                world_id, OUTCOME_CHECK_FAILED,
+                request_id=request_id, session_id=session_id)
+        except Exception:
+            pass
+
+
 def representative_engages(state: ConversationState, is_reactive: bool = False,
                             request_id: str | None = None) -> dict:
     """
@@ -1516,6 +1652,13 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     figures_used = find_figures_used(ctx["current_world_id"], response_text)
     if figures_used:
         message_kwargs["figures_used"] = figures_used
+    # Tier 2 Check B, PHASE 0 SHADOW MODE (2026-08-15). Logs only - does not
+    # touch message_kwargs, does not gate this turn. See
+    # check_quotation_grounding's own docstring and app/groundedness_logging.py.
+    check_quotation_grounding(
+        ctx["current_world_id"], response_text,
+        request_id=request_id, session_id=state.session_id,
+    )
 
     return {
         "messages": [
@@ -1925,6 +2068,12 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     glosses_used = find_glosses_used(ctx["current_world_id"], full_text)
     if glosses_used:
         message_kwargs["glosses_used"] = glosses_used
+    # Tier 2 Check B, PHASE 0 SHADOW MODE (2026-08-15) - see the
+    # non-streaming call site above for the full note.
+    check_quotation_grounding(
+        ctx["current_world_id"], full_text,
+        request_id=request_id, session_id=state.session_id,
+    )
 
     ai_message = AIMessage(
         content=full_text,
