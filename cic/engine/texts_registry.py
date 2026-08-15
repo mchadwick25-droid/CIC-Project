@@ -271,6 +271,31 @@ ENTRIES: tuple[TextEntry, ...] = (
               "is the strongest candidate in the vendored set so far for deepening imperial_juridical "
               "further, given how central all three councils are to the world's own gravity/figure/"
               "contested-claim structure (per a broad grep, not just the source rows)."),
+    TextEntry("npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 3: St. Augustine: On the Holy Trinity, Doctrinal Treatises, Moral "
+              "Treatises. Part of a five-file Augustine batch supplied together ('here are the "
+              "augustine sources'), continuing npnf104 (Anti-Manichaean/Anti-Donatist, vendored "
+              "earlier this session). Vendored for future reference; no quote or source record cites "
+              "it yet."),
+    TextEntry("npnf105_augustine-anti-pelagian-writings.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 5: St. Augustine: Anti-Pelagian Writings. Part of the same batch. "
+              "Vendored for future reference; no quote or source record cites it yet."),
+    TextEntry("npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 6: St. Augustine: Sermon on the Mount; Harmony of the Gospels; "
+              "Homilies on the Gospels. Part of the same batch. Vendored for future reference; no "
+              "quote or source record cites it yet."),
+    TextEntry("npnf107_augustine-homilies-john-soliloquies.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 7: St. Augustine: Homilies on the Gospel of John; Homilies on the "
+              "First Epistle of John; Soliloquies. Part of the same batch. Vendored for future "
+              "reference; no quote or source record cites it yet."),
+    TextEntry("npnf108_augustine-exposition-psalms.xml", "Mark", "2026-08-15",
+              "NPNF Series I, Vol. 8: St. Augustine: Exposition on the Book of Psalms. Part of the "
+              "same batch. Two existing load-bearing citations are close but not fully covered by this "
+              "batch: hieronymian's srcHAL009 (the Jerome-Augustine correspondence, Jerome's Ep. 112 = "
+              "Augustine's Ep. 75) needs Augustine's Letters, and imperial_juridical's srcIJC08 "
+              "(Augustine, Confessions 9.7) needs the Confessions - both live in NPNF1-01, which none "
+              "of these five volumes is; NOT among the files supplied this round. Vendored for future "
+              "reference; no quote or source record cites any of the five yet."),
 )
 
 
