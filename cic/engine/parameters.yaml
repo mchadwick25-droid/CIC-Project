@@ -231,6 +231,37 @@ metrics:
     instrument: review artifacts audit (CO-020/CO-022 discipline)
     baseline: six-world defect ledger (historical)
     gate_status: observational (target 0)
+  - name: review_state_ladder_use
+    definition: >-
+      how many of the four review_state rungs the schema defines
+      (draft -> cleared-review -> approved-to-proceed -> frozen) the record
+      corpus actually uses. The ladder is the only machine-readable answer
+      to "which records has a human actually vetted" - the question that
+      stops being answerable by memory somewhere well short of a hundred
+      worlds.
+    instrument: >-
+      one pass over cic/records/**/*.md reading each record's front-matter
+      review_state; no tool required, the field sits on the envelope so
+      every record type carries it
+    baseline: >-
+      B-LADDER, MEASURED 2026-08-15. 832 of 832 records carry the field and
+      all 832 read `draft` - one rung of four ever used, uniformly across
+      all seven record directories. Nothing has ever been advanced. Not for
+      want of review: several adversarial review rounds have run and
+      produced committed record fixes (the syrlex003 / syrlex010
+      quick_meaning corrections of 2026-08-15 among them), and none of that
+      work is visible in any record's own state.
+    gate_status: >-
+      observational - tracked, never gates a freeze by itself. Deliberately
+      NOT made a gate at T3-G, on the same reasoning that shaped the
+      ratchet: a check firing on every world on every run with no available
+      remedy is one people learn to ignore, and no remedy exists yet
+      because the governing decision has not been made. Two questions,
+      neither answerable from the data and both Mark's: what evidence
+      advances a record past `draft`, and who may do it. Until they are
+      answered the honest state of this metric is that the ladder is
+      designed, schema-valid, and unused - and recording that is worth
+      more than a number invented to fill the row.
   - name: machine_gate_failure_count
     definition: "gate failures at first run - a health indicator; a gate that never fails is checking nothing"
     instrument: S1.3 wrs_gates run reports
