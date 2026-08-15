@@ -200,6 +200,18 @@ ENTRIES: tuple[TextEntry, ...] = (
               "Distinct from npnf203, which carries Jerome's much shorter Lives of Illustrious Men - "
               "this is his own major corpus. Vendored for future reference; no quote or source record "
               "cites it yet."),
+    TextEntry("npnf207_cyril-jerusalem-gregory-nazianzen.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 7: Cyril of Jerusalem, Gregory Nazianzen. Supplied with no "
+              "accompanying text. Gregory Nazianzen is one of the three Cappadocian Fathers named in "
+              "the census's 'Cappadocian Nicene Pastoral-Monastic Tradition' world (Selected, Not Yet "
+              "Built) - primary text for that world's own figures, not yet built. Vendored for future "
+              "reference; no quote or source record cites it yet."),
+    TextEntry("npnf208_basil-letters-select-works.xml", "Mark", "2026-08-15",
+              "NPNF Series II, Vol. 8: Basil: Letters and Select Works. Supplied with no accompanying "
+              "text alongside npnf207. Basil of Caesarea is a second of the three Cappadocian Fathers "
+              "named in the same not-yet-built world - between this volume and npnf207, two of the "
+              "three Cappadocians now have primary text vendored (Gregory of Nyssa, NPNF2-05, does "
+              "not yet). Vendored for future reference; no quote or source record cites it yet."),
 )
 
 
