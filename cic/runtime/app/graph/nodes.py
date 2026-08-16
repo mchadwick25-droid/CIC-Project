@@ -1250,6 +1250,11 @@ def _prepare_representative_turn(state: ConversationState, is_reactive: bool = F
         post_history_guard=post_history_guard,
     )
 
+    # Local import, matching build_public_transcript's own pattern above -
+    # app.graph.events imports from this module, so a top-level import
+    # would close the cycle.
+    from app.graph.events import spoken_events_from_messages
+
     # For multi-world, add the public transcript and guidance on encountering
     # other voices. This changes every turn (new transcript each time), so it
     # belongs in dynamic_prompt, not the cached static block.
@@ -1297,7 +1302,16 @@ PUBLIC TRANSCRIPT:
     # static block. The 2+10 block-truncation window caps its growth, so
     # per-turn cost stays flat with conversation length rather than
     # rising with it.
-    elif public_transcript:
+    elif public_transcript and len(
+            spoken_events_from_messages(state.messages)) > 1:
+        # The length check is load-bearing, not defensive. On the opening
+        # turn the transcript is non-empty - it already holds the
+        # participant's first message, the very one being answered, which
+        # arrives separately in the continuation. Injecting it here would
+        # hand the Representative that message twice under a heading
+        # asserting a conversation that has not happened yet. Caught by
+        # tests/test_solo_conversation_memory.py::
+        # test_first_turn_adds_no_history_block.
         dynamic_prompt += f"""
 
 # This Conversation So Far
