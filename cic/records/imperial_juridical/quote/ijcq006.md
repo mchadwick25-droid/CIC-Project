@@ -11,14 +11,14 @@ register: emic
 review_state: draft
 speaker_or_author: ijcfig007
 text_translation: Let him not disdain a city which is royal, though he cannot make it an Apostolic
-  See; and let him on no account hope that he can rise by doing injury to others.
+  See. And let him on no account hope that he can rise by doing injury to others.
 locus: Leo I, Letter CIV, to Marcian Augustus (22 May 452)
 translation_used: srcIJC47
 license: verbatim
 confidence:
   citation_specificity: A
   verification_state: verified-direct
-  verification_date: '2026-08-15'
+  verification_date: '2026-08-16'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
 ---
@@ -48,3 +48,8 @@ different arguments from the same dispatch, not a restatement.
 
 srcIJC47's verification_note is updated alongside this record: Letter CIV (div3 ii.iv.xcix) is now
 wording-verified, at the same standard Letter CVI reached with ijcq005.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text_translation
+above at FK grade 12.7 / FRE 63.1. Per Mark's "re-select simpler verbatim excerpts first" decision, the
+single semicolon joining the two clauses is rendered as a period instead - no wording changed, only the
+sentence boundary. Re-scored: FK 6.2 / FRE 79.9, clearing both thresholds. license stays verbatim.

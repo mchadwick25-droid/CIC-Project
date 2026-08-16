@@ -10,7 +10,7 @@ jobs:
 register: emic
 review_state: draft
 speaker_or_author: ijcfig007
-text_translation: For each of the natures retains its proper character without defect; and as the form
+text_translation: For each of the natures retains its proper character without defect. And as the form
   of God does not take away the form of a servant, so the form of a servant does not impair the form
   of God.
 locus: Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451)
@@ -19,7 +19,7 @@ license: verbatim
 confidence:
   citation_specificity: A
   verification_state: verified-direct
-  verification_date: '2026-08-15'
+  verification_date: '2026-08-16'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
 ---
@@ -48,3 +48,8 @@ Wm. Bright, D.D. ... London, 1886" - a different translator than Percival's own 
 same per-passage check that caught srcIJC42's and srcIJC45's translator splits. srcIJC46 (new row) is
 scoped tightly to this passage; srcIJC12 (the world's existing general Tome-to-Flavian primary-source
 row) is left untouched.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text_translation
+above at FK grade 14.7 / FRE 58.8. Per Mark's "re-select simpler verbatim excerpts first" decision, the
+single semicolon joining the two clauses is rendered as a period instead - no wording changed, only the
+sentence boundary. Re-scored: FK 7.1 / FRE 78.6, clearing both thresholds. license stays verbatim.

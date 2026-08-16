@@ -5,17 +5,16 @@ record_type: quote
 schema_version: 1
 register: emic
 review_state: draft
-text_translation: But if your Jews said, either through malice or ignorance, as you yourself suggest,
-  that the word is in the Hebrew text which is found in the Greek and Latin versions, it is evident
-  that they were either unacquainted with Hebrew, or have been pleased to say what was not true, in
-  order to make sport of the gourd-planters.
+text_translation: If, therefore, in translating word for word, I had put the word "ciceia," no one
+  would know what it meant; if I had used the word "gourd," I would have said what is not found in
+  the Hebrew. I therefore put down "ivy," that I might not differ from all other translators.
 translation_used: srcHAL027
 locus: Jerome, Letter LXXV (= Ep. 112), to Augustine, §22, a.d. 404 (the Oea "ivy/gourd" incident)
 speaker_or_author: halfig001
 license: verbatim
 confidence:
   verification_state: verified-direct
-  verification_date: '2026-08-15'
+  verification_date: '2026-08-16'
   citation_specificity: A
   evidentiary_weight: load-bearing
   formation_confidence: Documented
@@ -43,3 +42,14 @@ imperial_juridical: Letter LXXV is Jerome's own complete letter, preserved here 
 catalogued within Augustine's own published correspondence under Augustine's numbering (Ep. 75) rather
 than Jerome's own (Ep. 112) - a cataloguing accident of transmission, not a quotation-within-a-work the
 way Athanasius's Apologia embeds Julius.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text_translation
+above at FK grade 23.0 / FRE 35.1. Per Mark's "re-select simpler verbatim excerpts first" decision, this
+record now quotes a different two-sentence span from the SAME already-verified paragraph
+(id="vii.1.LXXV-p89") - Jerome's own explanation of why he chose "ivy" over the alternatives ("ciceia"
+would mean nothing to a reader; "gourd" isn't in the Hebrew), rather than his accusation that Augustine's
+informants don't know Hebrew. Both spans are genuinely Jerome's, in the same paragraph, defending the
+same translation choice; this one happens to score far better (FK 8.8 / FRE 77.9, clearing both
+thresholds) while arguably matching halcore001's own "testing a word against its Hebrew source" theme
+even more directly, since it is Jerome's own lexical reasoning rather than a rhetorical jab at his
+critics. license stays verbatim - no wording altered, only a different genuine excerpt selected.

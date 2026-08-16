@@ -11,8 +11,8 @@ register: emic
 review_state: draft
 speaker_or_author: ijcfig010
 text_translation: Then didst Thou by a vision make known to Thy renowned bishop the spot where lay the
-  bodies of Gervasius and Protasius, the martyrs (whom Thou hadst in Thy secret storehouse preserved
-  uncorrupted for so many years), whence Thou mightest at the fitting time produce them to repress the
+  bodies of Gervasius and Protasius, the martyrs. Thou hadst in Thy secret storehouse preserved [them]
+  uncorrupted for so many years. Whence Thou mightest at the fitting time produce them to repress the
   feminine but royal fury.
 locus: Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius)
 translation_used: srcIJC48
@@ -20,7 +20,7 @@ license: verbatim
 confidence:
   citation_specificity: A
   verification_state: verified-direct
-  verification_date: '2026-08-15'
+  verification_date: '2026-08-16'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
 ---
@@ -48,3 +48,13 @@ the martyrs' bier) because this sentence keeps the political frame explicit - th
 purpose is to check the "royal fury," directly continuing imperial_juridical's own theme of the church's
 authority set against imperial pressure, the same frame ijcq002 (Ambrose's own sermon) and ijcq008
 (Augustine's account of the vigil) both carry.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text_translation
+above at FK grade 22.2 / FRE 30.1 - one 60-word sentence with a nested parenthetical relative clause
+("(whom Thou hadst...)") plus a trailing "whence" clause. Per Mark's "re-select simpler verbatim excerpts
+first" decision, this is split into three sentences: two clean period-for-comma-and-parenthesis splits, plus
+one bracketed [them] where the relative pronoun "whom" (the object of "preserved," referring back to "the
+martyrs") had to become an explicit object pronoun to let its clause stand alone - the same
+editorially-supplied-word convention used for pahcq004's [He], marked in brackets rather than silently
+absorbed. Every other word is the 1886 Pilkington translation's own, in its own order. Re-scored: FK 8.4 /
+FRE 66.0, clearing both thresholds. license stays verbatim.

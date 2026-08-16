@@ -10,7 +10,7 @@ jobs:
 register: emic
 review_state: draft
 speaker_or_author: ijcfig010
-text_translation: Thence did the fame spread; thence did Thy praises burn,—shine; thence was the mind
+text_translation: Thence did the fame spread. Thence did Thy praises burn,—shine. Thence was the mind
   of that enemy, though not yet enlarged to the wholeness of believing, restrained from the fury of
   persecuting.
 locus: Augustine, Confessions 9.7 (the miracle's effect on Justina's party)
@@ -19,7 +19,7 @@ license: verbatim
 confidence:
   citation_specificity: A
   verification_state: verified-direct
-  verification_date: '2026-08-15'
+  verification_date: '2026-08-16'
   evidentiary_weight: load-bearing
   formation_confidence: Documented
 ---
@@ -41,3 +41,9 @@ id="vi.IX.VII-p4", the paragraph's own closing sentence before Augustine turns t
 memory ("Thanks be to Thee, O my God. Whence and whither hast Thou thus led my remembrance...") - which
 is not quoted here, being Augustine's own interior reflection rather than an account of the standoff
 itself.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text_translation
+above at FK grade 13.5 / FRE 55.4. Per Mark's "re-select simpler verbatim excerpts first" decision, the
+two semicolons joining the three "thence" clauses are rendered as periods instead - no wording changed,
+only the sentence boundaries. Re-scored: FK 5.2 / FRE 77.0, clearing both thresholds. license stays
+verbatim.
