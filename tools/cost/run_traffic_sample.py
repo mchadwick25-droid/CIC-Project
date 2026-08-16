@@ -71,6 +71,29 @@ def preflight() -> None:
     worst outcome available, so buy the check up front - it is free, and
     on a warm cache it costs a second.
     """
+    # Import every app module first. Several deps are imported lazily inside
+    # functions (app/rag/hybrid.py's rank_bm25 is imported inside
+    # candidate_search), so app boot, /health and /api/session/start all pass
+    # without them and the failure lands on the first real turn - after the
+    # session started and the facilitator calls were billed.
+    print("preflight: importing app modules ...", flush=True)
+    import importlib, pkgutil, pathlib
+    app_dir = pathlib.Path(__file__).resolve().parents[2] / "cic/runtime/app"
+    missing = []
+    for mod in pkgutil.walk_packages([str(app_dir)], prefix="app."):
+        try:
+            importlib.import_module(mod.name)
+        except ModuleNotFoundError as exc:
+            missing.append(f"{mod.name}: {exc}")
+        except Exception:
+            pass          # import-time errors that are not missing deps are
+                          # the app's business, not this check's
+    if missing:
+        sys.exit("preflight FAILED - missing dependencies:\n  "
+                 + "\n  ".join(missing)
+                 + "\n\npip install -r cic/runtime/requirements.txt"
+                   "\nNothing was spent.")
+
     print("preflight: loading retrieval models ...", flush=True)
     try:
         from app.rag.embeddings import get_shared_embeddings

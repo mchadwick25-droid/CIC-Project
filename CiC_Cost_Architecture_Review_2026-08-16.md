@@ -3,6 +3,11 @@
 Independent pass over `cic/records`, `cic/engine`, `cic/runtime/app`.
 Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88-4705-acbe-d53a5ad091b0
 
+> **Revised 2026-08-16 (second revision) after running 48 turns of real
+> traffic through the app.** Everything below that was estimated is now
+> measured; see [Measured on real traffic](#measured-on-real-traffic-48-turns-2026-08-16).
+> Every projection in this document was too pessimistic, again.
+>
 > **Revised 2026-08-16 after running the cache verification test.** The first
 > version of this document suspected a runtime cache failure. That was wrong —
 > the cache works. The root cause is the cost calculator, which was listed
@@ -17,14 +22,84 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    `input_tokens` as the *total* input with `cache_read` as a subset;
    the raw Anthropic block reports them as additive. Summing all three
    overstates `main_response` by **2.6x**.
-3. **True cost today is ~$0.53/hour, not $1.09.** The gap is 43%, not 73%.
-4. **$0.30/hour IS reachable on Sonnet 5** — classifier surgery + halved
-   retrieval + pilot concurrency lands exactly on the line, at intro pricing.
+3. **True cost today is $0.372/hour — measured, not modelled.** Not $1.09,
+   and not the $0.53 this document estimated before the traffic sample ran.
+4. **$0.30/hour is reachable, but only by removing both the relational-safety
+   classifier and drift detection.** Every cheap lever together lands at
+   $0.349; the last 16% has to come out of the apparatus. That is the
+   conscious quality trade-off, stated plainly, with the arithmetic below.
 5. **Sonnet 5 pricing is stable at $2/$10.** Verified against the live model
    docs 2026-08-16: flat pricing, no introductory expiry. An earlier draft of
    this review warned of a 2026-08-31 cliff, drawn from a stale cached table;
    **withdrawn**. There is no deadline on the voice-model decision.
 6. **Safety mechanisms are not where the money is** (3.2% of spend).
+
+## Measured on real traffic (48 turns, 2026-08-16)
+
+4 sessions x 12 newcomer questions, 2 worlds x 2 consecutive sessions. 48/48
+turns returned 200. Raw log and analyzer output: `tools/cost/samples/`.
+Spend: ~$1.49.
+
+**$0.03103/turn — $0.372/hour at 12 turns/hour.** Every estimate in this
+document was high. The double-count factor measured **2.39x**, confirming
+finding 2 on live data rather than a replica.
+
+| | $/turn | share | $/hour |
+|---|---:|---:|---:|
+| `main_response` | 0.01360 | 43.8% | 0.163 |
+| `over_settling_adjudication` | 0.00478 | 15.4% | 0.057 |
+| `relational_safety` | 0.00238 | 7.7% | 0.029 |
+| `drift_detection` | 0.00224 | 7.2% | 0.027 |
+| `over_settling_screen` | 0.00204 | 6.6% | 0.024 |
+| *12 smaller labels* | 0.00599 | 19.3% | 0.072 |
+| **TOTAL** | **0.03103** | | **0.372** |
+
+`main_response` is 44% of spend and is the floor: **$0.163/hour before any
+apparatus runs at all.** A $0.30 budget leaves $0.137/hour for everything
+else; everything else currently costs $0.209.
+
+### The route to $0.30, priced on measurements
+
+| cut | $/turn saved | $/hour | $/yr @1000h | running $/hour |
+|---|---:|---:|---:|---:|
+| — | | | | 0.372 |
+| fold the screen into the adjudicator | 0.00098 | 0.012 | 141 | 0.361 |
+| drop groundedness shadow checks | 0.00099 | 0.012 | 143 | 0.349 |
+| drop `drift_detection` | 0.00224 | 0.027 | 323 | 0.322 |
+| drop `relational_safety` | 0.00238 | 0.029 | 343 | **0.293** |
+
+The first two are free — one is a design simplification that also removes a
+class of miss, the other is a shadow check with a graduation date already on
+it. They get to **$0.349**. The last two are the apparatus itself. **There is
+no arrangement of cheap levers that reaches $0.30.** Taking the last 16%
+means deciding that drift detection and the relational-safety classifier are
+not worth $0.056/hour between them — which is the trade-off to make
+consciously, not a saving to find.
+
+### Two things the sample settles that the model could not
+
+**Cache pooling is structural, not lucky — 16.0x.** Sessions 3 and 5 (the
+second on each world) wrote **zero** cache tokens; they read entirely off the
+first session's prefix. But sessions 1 and 4, running cold, still pooled
+**11x on their own** — the prefix is written once and read by all 12 turns.
+Priced honestly: if no session ever pooled with another, cost rises to
+**$0.409/hour**, +10%. Pooling is not a concurrency bet.
+
+**Turns per hour is the biggest single uncertainty in this document.** The
+$/turn is measured; the 12-turns-per-hour divisor is assumed.
+
+| turns/hour | $/hour |
+|---:|---:|
+| 8 | 0.248 |
+| 10 | 0.310 |
+| **12** | **0.372** |
+| 15 | 0.465 |
+| 20 | 0.621 |
+
+At 20 turns/hour, the full apparatus-cutting programme above still lands at
+$0.489. **A faster conversational pace moves the cost more than every lever
+in this review combined.** If $0.30/hour is a hard ceiling, this number
+deserves measuring on real participants before any apparatus is cut for it.
 
 ## Verification test (live, ~12 cents)
 
@@ -312,6 +387,12 @@ every turn would — and every screen false-negative is a miss the adjudicator
 never gets to see. The two-stage design is currently the worst of both: you
 pay for the gate and still adjudicate four turns in five.
 
+**Now measured: 82% fire rate (95% CI 68%-90%) on 44 screened turns — the
+break-even is 60%, and the interval clears it.** Confirm rate 28% (16%-44%):
+26 of 36 flags cleared by the adjudicator. The sample no longer blocks this
+decision. Per-world: 73% fire / 38% confirm on post-apostolic-house-church,
+91% / 20% on syriac-edessa-nisibis.
+
 **I did not change it.** `app/over_settling_logging.py` states the rule
 directly — tightening the screen "trades directly against Article 5 rigor"
 and is "not a decision to make on a guess" — and the only sample that exists
@@ -452,11 +533,19 @@ ledger removes the need to choose.
   adjudication figure corrected by its own cache ratio.
 - Retrieved-context tokens derived at the ratio exact static counts imply
   (3.26 chars/token); ~±5%. Output measured at 296-390 tok in the live test.
-- The full app was not run — the test replicates `get_llm` and
-  `_cached_system_message` but not retrieval, the graph, or the classifiers.
-  Total spend for this review: ~12 cents.
-- Tested against langchain-anthropic 1.5.6. The clean tree carries no
-  dependency manifest, so I could not confirm the version you run.
+- ~~The full app was not run~~ — **superseded**: 48 turns ran through the
+  real app, graph, retrieval and classifiers on 2026-08-16. Total spend for
+  this review: ~$1.61.
+- The traffic sample covers **2 of 6 worlds** and 12 fixed newcomer
+  questions. Real participants vary more; the fire rate and the per-turn cost
+  could both move on the other four worlds.
+- **12 turns/hour is assumed, never measured.** It is the largest lever on
+  the headline number and the one thing here with no evidence behind it.
+- Tested against langchain-anthropic 1.5.6, now pinned in
+  `cic/runtime/requirements.txt` — which was missing `rank-bm25` until the
+  traffic run hit it. That dep is imported lazily inside `candidate_search`,
+  so the app booted, `/health` passed and `/api/session/start` succeeded
+  without it; only a real turn exposed it.
 
 ## Incidental (product, not cost)
 

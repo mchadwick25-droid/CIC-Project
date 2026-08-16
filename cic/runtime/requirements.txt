@@ -5,6 +5,9 @@
 # the runtime was verified to boot on (app imports, /health 200,
 # /api/session/start reaches a live Anthropic call).
 #
+# Verified 2026-08-16 by importing every module under app/ - not just
+# app.main - which is what catches lazily-imported deps like rank-bm25.
+#
 # NOTE: the retrieval stack downloads two models from huggingface.co on first
 # use (all-MiniLM-L6-v2, cross-encoder/ms-marco-MiniLM-L-6-v2) and caches
 # them. That host must be reachable, or every turn fails in retrieval.
@@ -21,6 +24,11 @@ langchain-community==0.4.2
 langchain-huggingface==1.2.2
 faiss-cpu==1.15.0
 sentence-transformers==5.7.0
+# app/rag/hybrid.py - BM25 half of hybrid candidate search. Imported lazily
+# inside candidate_search(), so a missing copy survives app boot, /health and
+# /api/session/start and only fails on the first real turn's retrieval. That
+# is exactly how it was missed when this manifest was first recovered.
+rank-bm25==0.2.2
 anthropic==0.122.0
 pyyaml==6.0.1
 
