@@ -59,10 +59,37 @@ fold: the two-stage path is equally unstable, which means today a
 participant's turn gets a correction or does not, partly at random. The
 measured 82% fire rate and 28% confirm rate are single draws too.
 
-Until this tool replays each turn N times per path and compares
-distributions rather than draws, treat its verdict as a smoke test: a large
-PAIR ONLY count is worth investigating, a small one is noise, and neither
-should flip settings.over_settling_folded on its own.
+Use --reps 3 or more. A single draw is a smoke test, not a measurement.
+
+THE --reps 3 RESULT (56 turns, 2026-08-16) - see samples/
+--------------------------------------------------------
+                                pair      fold
+    total confirmations           27        40
+    turns confirmed on EVERY draw  2         2
+    turns confirmed on SOME draws 16        24
+    self-consistency             71%       57%
+
+    stable regressions (pair always / fold never): 0
+    stable gains       (fold always / pair never): 1
+
+No stable regressions - the three that blocked the single-draw run were
+variance, as suspected. But the honest reading is not "the fold wins": the
+two paths have the SAME stable core of 2 turns, and the fold's extra 13
+confirmations per draw come almost entirely from turns it does not confirm
+reliably. It finds more by being noisier, and it is less self-consistent
+than the check it would replace (57% vs 71%).
+
+The dominant finding is not about the fold at all: **this check does not
+reproduce itself on 29-43% of turns**, whichever variant runs. A
+participant's turn gets a correction or does not, partly at random, and the
+82% fire rate and 28% confirm rate the whole cost case rests on are single
+draws of a process this noisy.
+
+Likeliest cause, and the cheapest thing to test next: `get_monitoring_llm`
+sets no `temperature` at all, so every classifier in the system - both
+over-settling stages, relational safety, drift, frame-breaker - runs at the
+API default. Pin it and re-run this tool before deciding anything about the
+fold.
 """
 from __future__ import annotations
 
@@ -112,6 +139,9 @@ def main() -> None:
     ap.add_argument("--json-out", default="", help="write full untruncated "
                     "detail here; the printed report truncates, and a "
                     "disagreement cannot be diagnosed from 150 characters")
+    ap.add_argument("--reps", type=int, default=1, help="draws per path per "
+                    "turn. Neither path is deterministic, so --reps 1 is a "
+                    "smoke test; 3+ is a measurement.")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -133,7 +163,8 @@ def main() -> None:
     worlds = Counter(w for w, _ in plan)
     print(f"{len(plan)} turns from {len(found)} session(s): "
           + ", ".join(f"{w}x{n}" for w, n in worlds.items()))
-    print(f"estimated spend ~${len(plan) * 0.011:.2f}")
+    print(f"{args.reps} draw(s) per path per turn")
+    print(f"estimated spend ~${len(plan) * 0.011 * args.reps:.2f}")
     if args.dry_run:
         print("\n--dry-run: nothing sent.")
         return
@@ -141,62 +172,76 @@ def main() -> None:
     from app.graph.nodes import (_adjudicate_over_settling, _folded_over_settling,
                                  _screen_over_settling)
 
-    tally = Counter()
-    disagreements = []
-    records = []
+    per_turn = []
 
     for i, (world_id, text) in enumerate(plan, 1):
-        # --- the pair, exactly as production runs it today ---
-        screened = _screen_over_settling(text)
-        if screened is None:
-            pair = None                     # screen cleared: never adjudicated
-        else:
-            verdict = _adjudicate_over_settling(text, world_id, screened)
-            pair = verdict if isinstance(verdict, str) and verdict else None
+        pair_hits, fold_hits, pair_limits, fold_limits = 0, 0, [], []
+        screen_fired = 0
+        for _ in range(args.reps):
+            screened = _screen_over_settling(text)
+            screen_fired += screened is not None
+            pair = None
+            if screened is not None:
+                verdict = _adjudicate_over_settling(text, world_id, screened)
+                pair = verdict if isinstance(verdict, str) and verdict else None
+            if pair:
+                pair_hits += 1
+                pair_limits.append(pair)
 
-        # --- the fold ---
-        outcome = _folded_over_settling(text, world_id)
-        fold = outcome[1] if isinstance(outcome, tuple) else None
-        fold_candidates = outcome[0] if isinstance(outcome, tuple) else None
+            outcome = _folded_over_settling(text, world_id)
+            fold = outcome[1] if isinstance(outcome, tuple) else None
+            if fold:
+                fold_hits += 1
+                fold_limits.append(fold)
 
-        if pair and fold:
-            bucket = "BOTH CONFIRMED"
-        elif fold and not pair:
-            bucket = "FOLD ONLY"
-        elif pair and not fold:
-            bucket = "PAIR ONLY"
-        else:
-            bucket = "BOTH CLEAR"
-        tally[bucket] += 1
-        tally["screen_fired"] += screened is not None
+        per_turn.append({"i": i, "world_id": world_id, "turn": text,
+                         "reps": args.reps, "screen_fired": screen_fired,
+                         "pair_hits": pair_hits, "fold_hits": fold_hits,
+                         "pair_limits": pair_limits, "fold_limits": fold_limits})
+        print(f"  [{i}/{len(plan)}] {world_id[:22]:24}"
+              f"pair {pair_hits}/{args.reps}   fold {fold_hits}/{args.reps}")
 
-        if bucket != "BOTH CLEAR":
-            disagreements.append((i, world_id, bucket, text, pair, fold,
-                                  screened is not None))
-        records.append({"i": i, "world_id": world_id, "bucket": bucket,
-                        "turn": text, "screen_fired": screened is not None,
-                        "screen_candidates": screened,
-                        "pair_limit": pair, "fold_limit": fold,
-                        "fold_candidates": fold_candidates})
-        print(f"  [{i}/{len(plan)}] {world_id[:22]:24}{bucket}")
+    records = per_turn
+    reps = args.reps
+
+    def unstable(hits):
+        return 0 < hits < reps
+
+    pair_unstable = sum(unstable(t["pair_hits"]) for t in per_turn)
+    fold_unstable = sum(unstable(t["fold_hits"]) for t in per_turn)
+    pair_total = sum(t["pair_hits"] for t in per_turn)
+    fold_total = sum(t["fold_hits"] for t in per_turn)
+    # "Stable" = the path agreed with itself on every draw. A majority rule
+    # would hide exactly the instability this is measuring.
+    pair_stable = [t for t in per_turn if t["pair_hits"] == reps]
+    fold_stable = [t for t in per_turn if t["fold_hits"] == reps]
+    regressions = [t for t in per_turn if t["pair_hits"] == reps and t["fold_hits"] == 0]
+    gains = [t for t in per_turn if t["fold_hits"] == reps and t["pair_hits"] == 0]
 
     n = len(plan)
-    print(f"\n{'':4}{'bucket':18}{'n':>5}{'share':>9}")
-    for bucket in ("BOTH CONFIRMED", "FOLD ONLY", "PAIR ONLY", "BOTH CLEAR"):
-        c = tally[bucket]
-        print(f"{'':4}{bucket:18}{c:5}{c/n:9.0%}")
-    print(f"\n  blind screen fired on {tally['screen_fired']}/{n} "
-          f"({tally['screen_fired']/n:.0%})")
+    print(f"\nFINDINGS ACROSS {reps} DRAW(S) OF {n} TURNS")
+    print(f"{'':4}{'':22}{'pair':>10}{'fold':>10}")
+    print(f"{'':4}{'total confirmations':22}{pair_total:10}{fold_total:10}")
+    print(f"{'':4}{'mean per draw':22}{pair_total/reps:10.1f}{fold_total/reps:10.1f}")
+    print(f"{'':4}{'turns confirmed always':22}{len(pair_stable):10}{len(fold_stable):10}")
+    print(f"{'':4}{'turns confirmed sometimes':22}{pair_unstable:10}{fold_unstable:10}")
 
-    if disagreements:
-        print("\nDETAIL")
-        for i, world, bucket, text, pair, fold, fired in disagreements:
-            print(f"\n  [{i}] {world}  {bucket}  (screen fired: {fired})")
-            print(f"      turn: {text[:110]}...")
-            if pair:
-                print(f"      pair: {pair[:150]}")
-            if fold:
-                print(f"      fold: {fold[:150]}")
+    print("\nSELF-CONSISTENCY (same turn, same code, repeated draws)")
+    for label, uns in (("pair", pair_unstable), ("fold", fold_unstable)):
+        agree = n - uns
+        print(f"    {label}: agreed with itself on {agree}/{n} turns ({agree/n:.0%}); "
+              f"flipped on {uns}")
+
+    print("\nSTABLE DISAGREEMENTS (the only ones worth acting on)")
+    print(f"    pair always / fold never : {len(regressions)}   <- regressions")
+    print(f"    fold always / pair never : {len(gains)}   <- gains")
+    for label, rows in (("REGRESSION", regressions), ("GAIN", gains)):
+        for t in rows:
+            print(f"\n  {label} [{t['i']}] {t['world_id']}")
+            print(f"      turn: {t['turn'][:110]}...")
+            src = t["pair_limits"] or t["fold_limits"]
+            if src:
+                print(f"      limit: {src[0][:170]}")
 
     if args.json_out:
         with open(args.json_out, "w", encoding="utf-8") as fh:
@@ -204,31 +249,28 @@ def main() -> None:
         print(f"\n  full detail written to {args.json_out}")
 
     print("\nVERDICT")
-    findings = tally["BOTH CONFIRMED"] + tally["FOLD ONLY"] + tally["PAIR ONLY"]
-    if findings == 0:
-        print("  NO FINDINGS ON EITHER SIDE. This replay has not tested the")
-        print("  fold - it has only shown both paths agree that ordinary")
-        print("  traffic is ordinary. Do not read it as agreement. Replay")
-        print("  more turns, or turns known to carry the defect.")
-    elif tally["PAIR ONLY"] > 0:
-        print(f"  BLOCKED on this draw. The fold scored {tally['PAIR ONLY']} fewer "
-              "finding(s) than the pair.")
-        print("  Before treating that as a regression, re-run those turns with")
-        print("  --only: neither path is deterministic (see the module header),")
-        print("  and findings that do not reproduce are variance, not loss.")
-        print("  Cost is not a reason to ship a check that finds less. Read the")
-        print("  detail above: if Phase 1 failed to enumerate the claim, the")
-        print("  enumeration instruction is what needs work, not the ruling.")
+    if reps < 3:
+        print(f"  {reps} draw(s) per path is a smoke test, not a measurement -")
+        print("  neither path is deterministic. Re-run with --reps 3.")
+    elif pair_total == 0 and fold_total == 0:
+        print("  NO FINDINGS ON EITHER SIDE across every draw. This replay has")
+        print("  not tested the fold. Replay more turns, or turns known to")
+        print("  carry the defect.")
+    elif regressions:
+        print(f"  BLOCKED. {len(regressions)} turn(s) where the pair confirmed on every")
+        print("  draw and the fold on none. That is a stable loss, not variance.")
+        print("  Read the limits above: if the fold's Phase 1 never enumerated")
+        print("  the claim, the enumeration instruction needs work, not the ruling.")
     else:
-        print(f"  The fold reproduced {tally['BOTH CONFIRMED']} of the pair's "
-              f"{tally['BOTH CONFIRMED']} finding(s) and lost none.")
-        if tally["FOLD ONLY"]:
-            print(f"  It also found {tally['FOLD ONLY']} the blind screen missed - "
-                  "direct evidence")
-            print("  of the screen false-negative rate, which cannot be measured")
-            print("  any other way once a turn has been screened out.")
-        print(f"\n  On {n} turns this is suggestive, not conclusive - findings are")
-        print("  sparse in ordinary traffic. Weigh it as evidence, not proof.")
+        print(f"  No stable regressions. The fold confirmed {fold_total} times across")
+        print(f"  {reps} draws against the pair's {pair_total}, and found {len(gains)} finding(s)")
+        print("  the pair never made on any draw.")
+        worse = max(pair_unstable, fold_unstable)
+        if worse > n * 0.1:
+            print(f"\n  BUT both paths are unstable ({pair_unstable} and {fold_unstable} turns flip")
+            print("  between draws). A check that answers differently on the same")
+            print("  turn is a quality problem in its own right, independent of")
+            print("  which variant ships - worth deciding on before the flag.")
 
 
 if __name__ == "__main__":

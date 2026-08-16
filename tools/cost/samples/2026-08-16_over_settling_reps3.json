@@ -1,0 +1,729 @@
+[
+  {
+    "i": 1,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would start with a river breaking through a wall.\n\nOur own city's chronicle - kept by the king's own archivists, not by us - records that in the year 513 by the Greek count, the Daysan river flooded and took down the western wall of Edessa. Over two thousand died. The king's palace fell. And in the very same breath, the record says the flood destroyed the temple of the church of the Christians. That one line is the earliest trace of us anywhere. Not a sermon, not a hymn - a flood report, filed by people who were not ours, mentioning us almost in passing.\n\nWe start there because it tells you something true about how we come down to you: often from outside first, in fragments, before our own voice picks up the thread. What would you want to follow from it - what that early community was, or what we became once we could speak for ourselves?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 2,
+    "fold_hits": 2,
+    "pair_limits": [
+      "The retrieved source material states explicitly that \"the flood is a dated civic event\" but notes that \"the archive report's incidental mention of a Christian meeting-place is carried here only as civic fact\" and that \"this is a point some among those who study these things question,\" meaning the material affirmatively holds that scholars dispute whether the church-destruction detail is original to the account or a later interpolation, a limit the response does not carry.",
+      "The retrieval material names this account as coming from \"the city archive\" and \"the king's own archivists,\" but explicitly notes in the Period Note that \"The archive report's incidental mention of a Christian meeting-place is carried here only as civic fact\" and flags in the Usage Guidance that \"this is a point some among those who study these things question,\" meaning the response's claim that this \"one line is the earliest trace of us anywhere\" omits the record's own acknowledgment that earlier traces may exist elsewhere, or that this particular claim rests on incompleteness rather than certainty."
+    ],
+    "fold_limits": [
+      "The Usage Guidance for \"The Flood of 201\" explicitly notes that the church-destruction detail \"is a point some among those who study these things question,\" and identifies it as \"Contested (whether the church-destruction detail is original to the account or a later interpolation)\" — a limit the material affirmatively holds that the response does not signal.",
+      "The material explicitly flags the church-destruction detail as \"Contested (whether the church-destruction detail is original to the account or a later interpolation)\" and notes that \"the Representative should not claim the church-destruction detail as settled historical fact beyond dispute — if a participant presses on how certain this is, the Representative may acknowledge...that this is a point some among those who study these things question.\" The response presents the destruction and the record's incidental mention together as settled fact without naming this contestation."
+    ]
+  },
+  {
+    "i": 2,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "An ordinary week held family, work, and vow together in the same rooms, not in separate ones. There were no monasteries among us in these years. A vowed daughter might keep her father's house her whole life, working, present at meals, and still keep her fast and her watch inside that same household. A vowed man lived in the town, worked his trade, and was seen daily in its streets, its market, its congregation.\n\nThe week gathered toward the vigil, held before dawn, where the vowed stood together with the daughters of the covenant forming a choir among them. There the hymn was raised, and the hymn was not decoration set beside the teaching but the teaching itself, carried on the tune. And the Gospel read there was one continuous story, not four books set side by side.\n\nBetween those gatherings, the days looked like anyone's days in these towns - a trade worked, a meal shared, kin under the same roof. What made the week ours was not withdrawal from any of that. It was the fast kept and the watch held in the middle of it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 3,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We begin with something plainer than a doctrine: the dead lay close to us. Families in our towns cut chambers into the rock of the hills, and the ones who could afford it set mosaic floors in them, father and mother and children pictured together in their good robes, each one named. A tomb was a household's own ground, visited across generations. That is the soil our belief about death grew in - not a thought held apart from the body, but a family standing beside a grave it kept.\n\nWhat we taught rising out of that ground: death is real, and it is not the end. Christ died and rose, and what happened to him is the pattern of what happens to us. Aphrahat gave a whole demonstration to this - the resurrection of the dead argued stage by stage, Scripture set beside Scripture, the way our teaching always builds. We do not have his exact words to give you; what survives is the shape of the case, not a line to quote. But the shape held: the body sown like a seed, raised as itself and yet changed, sleep as the image we reached for oftener than any other.\n\nThat word - sleep - carries more than comfort in our mouths. It says the dead are not gone from us, only waiting, the way a household waits through the night for morning. What we have not settled, and our record does not pretend to have settled, is what that waiting is like for the one doing it. Whether the soul knows and feels between the dying and the raising, or rests without knowing anything at all - that stayed an open question among us. Which side of it is pressing on you?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 4,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "There was a promise spoken, and people who heard it spoken. That is the shape of it, more than a single ceremony we could describe for you. To join the qyama was to stand before your own kin, in your own town, and take a lifelong vow of celibacy and watchfulness - and to keep it renewed every day after, among people who had watched you make it and would go on watching.\n\nSo the moment mattered less than what came after it. A feeling can fade in a week. The vow does not end when the feeling does, and that was the whole point of taking it among people who knew you rather than out in the desert where no one would notice if it slipped. Whether there was a single rite that marked the day, words spoken over you, a formal reception - our record does not hand us that. What it hands us is the shape of the life that followed, lived inside the ordinary town rather than apart from it.\n\nWhat draws you to this - the moment itself, or what held someone to it afterward?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 2,
+    "pair_limits": [],
+    "fold_limits": [
+      "The material states plainly that \"what is firsthand and contemporary is Aphrahat's own testimony to the order's existence, discipline, and communal shape\" regarding the qyama, but does not document the specific rite, words, or formal reception of individual members entering the vow — our record does not tell us this is not because it is absent but because the surviving documents do not address it at this level of ceremonial detail. The representative correctly names that the record does not hand us the rite, but should add that we cannot tell whether this silence reflects genuine formlessness or simply the kind of practical detail our surviving sources chose not to preserve.",
+      "The permanent prompt explicitly states \"what the vow's daily inside was, and what shape the order carried beyond its existence, its celibacy and its life in the town, our record does not tell us,\" and this same acknowledgment appears in the representative's own turn (\"Whether there was a single rite that marked the day...our record does not hand us that\"). The response then pivots to \"What it hands us is the shape of the life that followed,\" treating the life's shape as something firmly handed down, when the representative's permanent instruction says the inner life and the order's specific shape remain genuinely unsettled—this is one of the explicit concessions the world is required to make."
+    ]
+  },
+  {
+    "i": 5,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We argued, in real earnest, about where authority actually sat.\n\nTake the picture we hold up plainly: a see stood empty twenty years after Barba'shmin was killed, and our teaching went on being received the whole time. That is not a comfortable fact we smooth over. It shows that a bishop's office and a trusted teacher's standing never fully settled into one clean order among us. Some of our life leaned on the office - Papa pressed his own claim to stand first among the bishops, and Miles of Susa and Aqib-Alaha would not grant it to him. Some of our life leaned on the teacher, the demonstration, the word given and received without any hand laid on for ordination.\n\nWe do not have a single verdict that closed this argument in our own years. What we have is the shape of the disagreement itself, carried in who resisted whom and what stood empty and unresolved. Is it the office or the teaching you are pressing on - who held the keys, or who was believed?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 6,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would point you first to something plain: a see that stood empty twenty years. Barba'shmin died, and no bishop sat in his place for two decades, and our teaching went on being received the whole time. Sit with that before any office is named. It tells you authority did not run through one seat alone.\n\nWhat we had instead was more than one thing standing at once, none of them ruling the others. A bishop's office was real - Simeon our bishop held it, and died for refusing the king's double tax on us. A teacher's standing was real too, carried by trust rather than by ordination - Aphrahat wrote his demonstrations without that laying on of hands, and was received all the same. And the vowed order, the qyama, stood alongside both, not beneath either.\n\nWhere it was actually contested, we will not smooth it over. Among the Persian bishops themselves there was open rivalry over who stood first - Papa claimed precedence, and Miles of Susa and Aqib-Alaha resisted his claim outright. That is the honest shape: real leaders, real quarrels, and no single settled head over our whole church in our own years. What later came to tidy all of that into one named office is not something we can speak for you - it lies past our own edge.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 3,
+    "fold_hits": 2,
+    "pair_limits": [
+      "The material does not state that Aphrahat lacked ordination; it states only that \"our teaching was received while a see stood empty twenty years - that is the true and stranger thing, and it is not the same as holding the office,\" which means the teaching's reception did not depend on office-holding, but does not document Aphrahat's ordination status one way or the other, and the response treats an absence from the record as a confirmed fact.",
+      "The material names Papa's claim to precedence and Miles of Susa and Aqib-Alaha's resistance to it, but marks this rivalry as occurring within a genuinely unsettled authority picture that the Catholicos entry explicitly describes as \"contested claims to precedence — and organized it into a tidy, named succession\" only later, leaving open whether this was \"open rivalry\" with explicit coordinated resistance as a settled fact or an inference from fragmentary evidence of competing claims that the record itself does not fully document as a unified dispute.",
+      "Aphrahat's own surviving work does not use the technical language \"ordination\" or \"laying on of hands\" to describe his own authority, and the record shows him writing as an established teacher addressing an already-existing qyama; but the retrieved material does not affirmatively state whether Aphrahat held or lacked formal ordination, leaving his precise canonical standing genuinely unsettled in the record rather than settled as the response suggests it is."
+    ],
+    "fold_limits": [
+      "The material itself states plainly that Papa bar Aggai's claim to primacy \"was, in his own actual period, fiercely contested by Miles of Susa and Aqib-Alaha of Karka d'Baith Slok,\" but also notes that this testimony to the rivalry comes from sources like the *Acts of Mari*, \"a text scholarship dates anywhere from the sixth to as late as the eighth century — centuries after the events it describes,\" and that this is not this world's own contemporary self-testimony about its own authority disputes. The response speaks of Papa, Miles, and Aqib-Alaha's rivalry as though it is held within this world's own record as contemporaneous witness, when the material flags the rivalry itself as a later retrospective account, not a thing our own period documented while it was happening.",
+      "The world's own capsule names \"twenty years of silence after Barba'shmin's death\" but does not affirm in contemporary documentation that teaching was received throughout that period; the capsule itself says \"our record does not tell us\" how widely the teaching spread beyond our doorway, and the period of the empty see sits precisely at the edge where documentation thins."
+    ]
+  },
+  {
+    "i": 7,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We sat with them. That is the plain shape of it before anything else - the dying were not left to face it alone, and the ones who came were not only kin by blood but the whole gathered household, the qyama among them, since watchfulness was their whole vow and a deathbed was where it was most owed.\n\nWhat we can tell you for certain narrows quickly past that. We have Simeon our bishop's dying, held in the martyr-record: the confession kept to the end, and Gushtazad going ahead of him, the one who had denied the faith once and returned to it before Simeon's own eyes. That is a martyr's death, though, held under threat and a king's sentence - not an ordinary household's dying in its own bed, which our record is far quieter about. What was said over an ordinary deathbed, what psalms were sung, how the body was prepared - that ground thins fast, and we will not dress it up as more than it is.\n\nWhat we do hold is the shape of our hope for it: that dying was not the last word, because the one we call the Iḥidaya - the undivided one - had gone down into death and come up out of it first. Whatever else was said at a bedside, that conviction stood under it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 8,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would point you to something plain rather than something hidden, since it is not hidden at all. A real portion of what our teacher Aphrahat left us, roughly ten of the twenty-three demonstrations, argues against Jewish practice and reading, against circumcision, the Sabbath, the food laws, the dating of Passover. That is a real and sustained thread in our own record. It carries real contempt. It is our own life's fault, and we say so plainly rather than dress it as something milder.\n\nWe will not manufacture a companion among us who stood up and objected, because no such voice is ours to give. And we will not put words back into the mouths of those our teacher was arguing against, since our record does not carry their answer either. What troubles us is the thread itself, sitting in our own most trusted teacher's own work, unanswered from inside.\n\nThat is the one thing we would name first if you asked what troubled us. There is more that unsettled us, quieter and longer, about who held authority among us and how that was never fully settled either.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 9,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We read for raza — a sign tied to a hidden truth. Not a code to crack, and not a picture standing in for something else far away. When we found Adam asleep and his side opened, and read Christ asleep on the cross with the church drawn from his side, we were not decorating the old story with a new meaning. We held that the old story was already bound to what it pointed toward, carrying something of its power inside it, waiting for someone to read it rightly.\n\nSo what we looked for was connection, not decoration. Isaac carrying wood up the mountain. The rock struck in the desert. A serpent lifted on a pole. Each one, we held, was woven by the same maker who later gave us Christ, so of course the earlier thing reaches toward the later. That is not our invention laid over Scripture. That is what Scripture already is, on our reading.\n\nThere is more in how we did this reading out loud, in the hymn rather than only in argument — that is worth its own turn.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 10,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We think the strangest thing would not be the vow or the fasting. It would be a whole household, in an ordinary street, holding a man's absence at its center for twenty years and calling that faithfulness rather than failure. A see stood empty among us for two decades after Barba'shmin was killed, and we kept teaching, kept the vow, kept the covenant order singing in the town the whole time. No bishop at the head of it. An outsider from a church built on succession would call that a wound left untreated. We called it endurance.\n\nThe other thing, closer to the ground: an outsider would have watched our vowed men and women, the qyama, and found no monastery, no wall, no desert. Just a household in the middle of the street, unmarried for life, watchful for life, still eating at the family table. Not a flight from the world. A refusal made standing inside it. That confused people who expected holiness to look like distance.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 11,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We hold some things by our own eyes and ears, and some by what was handed to us, and we do not blur the two. The vow, the qyama, we know the way you know your own kin's habits: we have kept it, renewed it daily, watched sons and daughters take it among us. That is not report. That is our own life.\n\nThe empty see standing twenty years, that too is close: we lived inside that silence and felt what it cost, though we did not choose it the way we chose the vow. Further back, the letter our king wrote to the Lord, Addai's mission, Jacob at Nicaea in the kept lists - those we hold at a longer arm's length. We tell them as our founding memory, treasured, carried for their weight among us. We do not tell you they happened exactly so, word for word, the way a court would need them to.\n\nSo the honest answer moves by distance. What formed us in our own days, we are certain of as anyone is certain of their own house. What was handed down from before our days, we hold as a kept memory and say so plainly when we hand it to you. Where does your own question sit - are you asking after the vow, or after the older story?",
+    "reps": 3,
+    "screen_fired": 0,
+    "pair_hits": 0,
+    "fold_hits": 3,
+    "pair_limits": [],
+    "fold_limits": [
+      "The empty see belongs to the founding story and the martyr tradition, not to the current generation's own living memory—your distance from it should match the distance you place from Addai's mission, held \"at a longer arm's length\" as founding memory, not as something \"we lived inside\" in the way a community lives inside its own recent decades.",
+      "The material affirmatively states that Jacob of Nisibis appears in \"the kept lists\" as \"late copies\" and that \"the memory of his part against Arius is a later historian's, not ours.\" The response says the lists carry Jacob's name and places them at a longer arm's length, but does not name the specific limit the capsule holds: that this world has no firsthand testimony to Jacob's presence at Nicaea, only late-copied lists, and no original memory of what he did there. By naming the letters and Addai's mission in the same breath at the same distance, the response blurs a distinction the material itself maintains: Addai's mission is the world's own founding account, marked as such; Jacob at Nicaea is not.",
+      "\"The kept lists that carry Jacob's name at Nicaea are late copies, not contemporary records, and the memory of his part against Arius is a later historian's, not your own world's firsthand account.\" The response treats \"Jacob at Nicaea in the kept lists\" as a calm, straightforward fact held at arm's length, but the material affirmatively states that these lists are late copies and the historical detail is posterior attribution, a qualification that belongs in a claim about what the lists show and what weight they carry."
+    ]
+  },
+  {
+    "i": 12,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "If one thing only, let it be the seat that stood empty twenty years.\n\nAfter Barba'shmin died, our people had no bishop at their head for two decades under a hostile king. And the teaching went on. The vow was kept, the Scriptures were read by raza, the demonstrations were carried in memory - all of it, without the office that a stranger might assume was holding everything together.\n\nWe do not say this to make the office small. We say it because it is the truest thing our own life shows about where God actually kept us: not chiefly in a chair, but in a people who went on reading, vowing, and remembering while the chair sat empty. If you carry away nothing else, carry that a church can be headless in one sense and still be held.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 13,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would start where our own city starts itself, when it tells the story of how it began. There was a king in Edessa, ailing, who is said to have written to Jesus himself, asking him to come and heal him. Jesus did not come. He sent word instead that after he had ascended, he would send one of his own after him. We do not offer this as a court record. We offer it as the shape of what we believed about ourselves - that our people did not wander into this faith late, but were reached for from the very beginning.\n\nThat is one door. There are others. We could start with the vow some among us took, the qyama, a whole life given over inside the town rather than out in the desert. Or with the reading that binds an old story straight to the truth it carries, so that Adam asleep with his side opened is not a picture of Christ but bound to him. Or with the kings and the persecutions, since we lived our whole life pressed between two empires.\n\nWhat is pulling at you - the beginning, the vow, the reading, or the suffering?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "Our own record does not tell us what the vow's daily inside was, what shape the order carried beyond its existence in celibacy and life in the town, or what the daughters of the covenant's unmediated voice sounded like—and we concede this plainly, because the record's own limits are part of what forms us, not something to hide."
+    ]
+  },
+  {
+    "i": 14,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "A vowed one and a married one keep near the same week, in the same streets. Both rise before dawn for the vigil - the qyama members standing among the rest, the daughters of the covenant lifting the teaching-hymn (madrasha), so that what the whole gathering hears sung is not decoration set beside the reading but the reading itself, carried on a tune. The harmonized Gospel (Ewangeliyon da-Mhallete) is read there, one continuous story rather than four books held apart.\n\nAfter that the week is ordinary work. A vowed man does not vanish into a cell; he keeps a trade, is seen in the market, sits in the same congregation the whole town sits in. A vowed daughter often keeps her own father's house her whole life rather than living apart from her kin. Fasting and watching mark their days differently from a married household's days, but the roof, the street, and the town are shared.\n\nWhat we cannot give you is a single remembered week, some particular household's actual seven days. What stands behind what I have just said is the shape our record lets us reconstruct, not a diary anyone kept. Is it the vowed household's difference from the ordinary one that you are really asking after, or the whole town's rhythm together?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 15,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would not point you first to an argument for this. We would point you to the ground itself, and to the shape it took around our dead.\n\nOur people cut chambers into the rock outside the city and laid their families there together, across generations - not scattered, but gathered, the way a household gathers at a table. That practice alone tells you something we held before we ever put it into words: death did not dissolve the family. It waited.\n\nWhat we said in words, we said through Adam. Christ asleep on the cross, his side opened - we read this bound to Adam asleep, his side opened, the church drawn from him. A raza, we call it - not a picture of the thing but bound to it, carrying something of its own truth. So the sleep of death itself we read through that same likeness: not an ending but a sleep, waiting for a waking. Aphrahat built a whole demonstration on that very word, sleep, working stage by stage through Scripture to show death as something Christ entered and rose out of first, so that ours would not be the last word either.\n\nWhat waits to be said is what that waking means for the body itself, and there we hold something particular to us - but that is a further stage, not this one.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "The material specifies that family tombs and burial chambers are \"common life of the place, not the teaching of any one voice\" and \"the ground they differed on\" — the covenant community's specific theological teaching about death must be kept distinct from the shared funerary practice of all Edessa's communities, and the response does not make that distinction, presenting the burial practice as though it were the covenant community's own practice rather than the city's shared background that the community read through its own theological lens."
+    ]
+  },
+  {
+    "i": 16,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "There was no single door, and we will not pretend there was one where our record does not give us one. But we can tell you what it meant to stand as bnay qyama - sons of the covenant - or bnat qyama, daughters of it: a vow taken, once, meant to hold for a whole life.\n\nIt was not a vow taken to leave. That is the part worth sitting with. Whoever took it stayed in the town, among the very kin who had watched them grow up, who would go on watching them every day after. No desert to vanish into, no distance to hide the failing or the keeping. The vow was renewed daily in that sense - not repeated as words, but held again each morning in front of the same neighbors who had heard it the first time.\n\nWhat we cannot tell you, honestly, is the shape of the day it was taken - what was said, who received it, whether there was a rite with words fixed to it or something looser, held differently town to town. The daughters of the covenant sang; that much is ours to say plainly. What their own voice sounded like on the morning they entered that life is not among what survives to us.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "The permanent prompt states plainly \"what the vow's daily inside was, and what shape the order carried beyond its existence...our record does not tell us,\" and the material provides no documentation of how the vow was renewed or experienced daily, only that it was a lifelong commitment kept in the town among kin."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 17,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We argued, and it left a mark our own record still carries: authority. Where does it rest? Aphrahat writes as a trusted teacher, not as a bishop, and his word was received all the same. And yet a see could stand empty twenty years - after Barba'shmin's death, through the worst of the persecution - and our people went on gathering, went on being taught, without that office filled. We do not pretend that was comfortable. It shows a real strain between the bishop's chair and the teacher's standing, and our record does not resolve it for us. It just shows us both, side by side, neither one erasing the other.\n\nThere is another argument our record carries too, and this one we do not carry lightly. A real portion of Aphrahat's own demonstrations - not a stray remark, a sustained portion of his surviving work - argues against the practices of the Jews among us: circumcision, the Sabbath, the food laws, the reckoning of Passover. That was a real quarrel in our own life, and it carried real contempt. We say that plainly, as our own fault, not as something to soften or explain away.\n\nWhich of those two is pressing on you - the question of who held authority, or the harder one?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 18,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We do not have one clean answer to that, and we will not pretend otherwise. A bishop's office was real among us. So was the standing of a teacher trusted to argue a case in Scripture, whether or not he ever had hands laid on him for it. And so was the vow itself, the qyama, which carried its own weight alongside both.\n\nTake the plainest case first, since it is the one we can point to. After Barba'shmin our bishop was killed, our record shows a long stretch with that seat unfilled, and our people did not stop gathering or being taught in the meantime. What we cannot give you is a tidy accounting of exactly how long, or who exactly stood in the gap and on what standing. What we can say is that the office was not the only thing holding us together, because the community did not dissolve when it stood empty.\n\nAphrahat is our clearest example of the second kind of standing. He wrote demonstrations, arguments a person could carry in memory, and our people received them - but we cannot tell you with confidence whether he held a bishop's rank himself. What survives is the teaching, argued and kept. What does not survive, cleanly, is a record of exactly what office stood behind the man who gave it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 2,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The material on Aphrahat states he wrote demonstrations that were received, but does not establish whether sources actually disagree about his rank, are silent about it, or carry ambiguous evidence—each a different ground for caution—and the response's phrase \"cannot tell you with confidence\" hides which epistemic condition actually obtains rather than naming the specific limit the record itself puts on the claim.",
+      "The material states plainly that \"what survives shows us the difficulty of seeing it, more than how it was actually lived,\" meaning the record does not settle why the community persisted during the vacancy—other factors beyond the vow's presence may have sustained it—yet the response presents the community's non-dissolution as causal proof that the office was not essential."
+    ],
+    "fold_limits": [
+      "The material does not establish that the community's continuity during the vacancy proves what held it together; it only shows that teaching and gathering continued. The permanent prompt itself states the true shape: \"what we cannot give you is a tidy accounting of exactly how long, or who exactly stood in the gap and on what standing\"—which names the incompleteness without drawing inferences about causation from it. The response frames survival as evidence of what was holding the community together; the material only permits saying that the community survived, and leaves the actual question of what held it together genuinely open."
+    ]
+  },
+  {
+    "i": 19,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We would gather. That is the plain shape of it. Not one office alone at a bedside, but the household itself, and often the church's own people brought in beside it.\n\nWe hold a story about what dying well looked like among us - Simeon our bishop, and beside him Gushtazad, who had denied the faith once and returned to it. Gushtazad asked to die first, ahead of Simeon, so that Simeon would not think his own courage had shamed a coward into bravery at the last minute. He wanted his dying to be seen as his own, not borrowed from someone else's example. That is martyrdom, not an ordinary deathbed, but it shows something true of us: dying was watched, and it mattered enormously who died first and why, and what the watchers would carry away from it.\n\nFor an ordinary death in a house rather than at a stake, our own record does not give us a rite word for word - no order of prayers we can hand you. What we can tell you is that the vowed among us, the qyama, kept watchfulness as their daily discipline, and a dying household would have wanted that kind of person near. Whether that means something closer to your question - what was actually said, sung, or done at the bed itself - our record thins out fast, and I would rather say that plainly than invent it for you.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 20,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "Yes. We will not pretend otherwise to keep your good opinion of us.\n\nA real portion of our teacher's own surviving work is given over to arguing against Jewish practice and reading - circumcision, the Sabbath, the food laws, the dating of Passover. Roughly ten of the twenty-three demonstrations turn that direction. It is not a passing tone we could explain away. It is a sustained thread, and it carries real contempt in it. That is our own life's fault, plainly, and we say so without dressing it up as zeal or context.\n\nWe will not invent a companion among us who stood up and warned against it. No such voice is ours to give - if one existed, our record has not kept it for us. Nor do we have the other side of that exchange, some Jewish voice answering back, to set beside it and make the picture feel more balanced than it was. What we have is the thread itself, and the silence around it.\n\nWhat we cannot tell you is how far this speaks for the whole of Persian Christianity beyond our teacher's own community, or what it settles about how such things should be regarded now. It settles nothing there. It only tells you plainly what was in us.",
+    "reps": 3,
+    "screen_fired": 2,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 21,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "We looked for the raza - a sign tied to a hidden truth. Not a picture standing in for something else at a distance, the way a signpost points to a town but isn't the town. Bound to it. Adam asleep, his side opened to bring forth Eve - we read that and see Christ asleep on the cross, the church drawn out of his side. The old story doesn't just resemble the new one. It carries the same truth, ahead of time, the way a seed carries the tree.\n\nSo we came to Scripture the way we came to creation itself - looking for connections already woven in, not ones a clever reader invents for effect. A river, a tree, a garment, a lamb: our teachers found Christ threaded through the whole of it, waiting to be seen rather than argued into place.\n\nWhat we looked for changes depending on where in the page we stood - a psalm, a law, a prophet's word each asked something different of us. Is there a place in that you'd want us to open first?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "Among our teachers, Ephrem built this way of reading into his whole method, layering it across hymn after hymn, while Aphrahat reached for typology as one tool among several without developing it into a named hermeneutic, and what was truly common practice across all the qyama and all our households our record does not tell us."
+    ]
+  },
+  {
+    "i": 22,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "Strangest, we think, would be the seat that stayed empty.\n\nTwenty years our people went without a bishop after Barba'shmin was killed, and the teaching went on, the vow went on, the singing went on. An outsider used to a church that stands or falls with its office would have found that unsettling, maybe even suspect - a body with no head, still walking. We did not find it strange. We found it costly. But we would not call it broken.\n\nThe other thing, close beside it: our men and women who vow themselves for life do not leave for the desert to do it. They stay in the town, among their own kin, at the same well and the same market. An outsider expecting holiness to withdraw would have looked for them out past the walls and found them instead next door.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 23,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "Certain in different measures, and we would not want to flatten that just to sound settled. Take Simeon bar Sabbae's dying - the tax refused, Gushtazad going ahead of him into death, the bishop's confession held to the end. We tell that as the martyr-record keeps it, in its own dress, and we say so plainly. It is our community's kept memory, not a court transcript we are handing you.\n\nNow take our founding story, the king's letter to the Lord and Addai sent after him. We tell that too, and we tell it for its weight among us - what we believed about our own beginning - not as documentation of what happened. And there is a third kind entirely: Jacob of Nisibis named among those who stood at Nicaea against Arius. That memory comes from a later historian, not from us, and the lists that carry his name are late copies. We say that too, every time, however the question is asked.\n\nSo the honest shape is this: some of what we hold is our own eyewitness dress on a real death, some is our own founding claim carried for its weight rather than its proof, and some is simply what later hands wrote down about us and we have received as true without being able to check it ourselves. We do not blur those three into one confident voice. What is it you are turning over - which of the things we have told you is pressing on you to weigh?",
+    "reps": 3,
+    "screen_fired": 1,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "The response states the founding story is offered \"for its weight among us...not as documentation,\" but does not flag that the Mandylion tradition (the image not made by hands) belongs to later tradition centuries beyond this world's own close and is not part of this world's account — a material addition that later hands made that this world would not claim as its own."
+    ]
+  },
+  {
+    "i": 24,
+    "world_id": "syriac-edessa-nisibis",
+    "turn": "If one thing only, let it be the seat that stood empty twenty years.\n\nAfter Barba'shmin died, we had no bishop in that place for two decades. And our teaching did not stop. It was still received, still carried, still sung in the towns. That tells you what actually held us together - not the office alone, not one name at the top, but a whole life: the vow kept among kin, the Scripture read as raza - a sign tied to a hidden truth - the demonstration built stage by stage like a child learning letters. Any one piece could be missing and the rest still bore the weight.\n\nIf you remember nothing else, remember that a people can go a long time without the thing that looks essential from outside, and still be who they are.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "The record holds that these elements existed and that the office was absent, but does not document that the vow, raza-reading, and demonstration functioned as the *binding force* that held the community together during the vacancy—this is the response's own conclusion drawn from their co-presence, not a causal claim the record itself states. The permanent prompt names all three as real parts of the world's life, but the specific claim that *they* are what held it together in the office's absence moves beyond what the record affirms."
+    ]
+  },
+  {
+    "i": 25,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Wherever you like, truly. But if you have never sat at our table, I would start there — with what we do when we gather, before any of the arguing.\n\nWe meet on the first day of the week, before dawn, and we give thanks over bread and cup. That is the eucharistia — the thanksgiving. We come back to it again and again, and it forms us more than anything else we do. Everything harder — who leads us, what a letter means, whether a failure after the water can be forgiven — sits around that table, not above it.\n\nWhat drew you to ask?",
+    "reps": 3,
+    "screen_fired": 1,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 26,
+    "world_id": "post-apostolic-house-church",
+    "turn": "The workday owns us, same as it owns everyone in this city. Shops open at first light. Labor is hired by the day. Clients wait at their patrons' doors in the morning hours. That leaves us one time to gather that no one else wants: before dawn.\n\nSo the week runs like this. We rise while it is still dark, on a fixed day, and meet before the work begins. We give thanks together. Sometimes there is a reading, as long as the time allows. Then everyone goes off to the shop, the loom, the field, whatever the day demands of them. Later, once work has released its hold, we come together again and share an ordinary meal. A governor who once had some of ours arrested wrote down exactly that pattern, thinking he had found something suspicious in it. He hadn't. He had found a people fitting their devotion into the only hours a working city leaves free.\n\nWhat did the rest of the week hold for you, where you are?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 2,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The material preserves only Pliny's factual report of what the community told him they did (meeting before dawn, then dispersing to work, then reassembling for an ordinary meal), not his judgment about whether what he found was actually suspicious or culpable—his reasoning and conclusions are not recorded, so the claim that \"He hadn't\" found something suspicious states a certainty about the governor's own assessment that the source does not provide.",
+      "The material records what the governor wrote down (the meeting pattern itself) and notes he \"thought he had found something suspicious in it,\" but the record does not settle whether his suspicion was actually unfounded—only that what he found was \"ordinary\" by the standards of the working city's own schedule; the representative's confident assertion \"He hadn't\" closes a question the source leaves open about his judgment."
+    ],
+    "fold_limits": [
+      "Pliny's account is not simple observation but the report of what arrested members told him under interrogation, and the circumstance of how the words were extracted bears on what weight they carry — a detail the response leaves entirely absent when it presents his account as straightforward witness to what \"a governor who once had some of ours arrested wrote down.\""
+    ]
+  },
+  {
+    "i": 27,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Two things sit side by side for us, and we hold both.\n\nHermas tells us he was shown the Church herself, as an old woman — old because she was made before all else, and growing younger as understanding grows in the people who make her up. That is not a picture of one soul's fate. It is a picture of the whole body, being renewed even now. What waits after death, in that telling, is bound up with what the community becomes while still living.\n\nThe plainer hope is the one we say at the table itself. The bread scattered on the hills is gathered into one loaf; so, we pray, may the church be gathered from the ends of the earth into the kingdom. Death is not the last word for us because the Lord was raised in real flesh, not in appearance only — that is the ground everything else stands on. What exactly a person experiences between dying and that gathering, our own record does not spell out for you plainly. We were never given a map of it. We were given a hope to hold, and a mercy — Hermas again — that one further door stands open even for those who failed badly after the water.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 2,
+    "pair_limits": [],
+    "fold_limits": [
+      "Hermas presents this as his own reported vision—an allegorical or apocalyptic genre claim about what the Church as a figure is becoming—not as settled doctrine about the actual mechanics connecting community renewal to individual afterlife, and the representative should name this as his vision's own teaching rather than the voice speaking past the genre into settled fact.",
+      "The bread-and-hills prayer comes from the Didache's own thanksgiving, which the retrieved story context (Story 010) is paired with Story 009 specifically by \"explicitly naming the difference between the two practices\" — meaning the Didache's order is known to vary from other tables (like Justin's Roman one, Story 009), and no settlement exists on which order is oldest or most widely kept, yet this response presents the prayer as \"we pray\" without marking it as one household's practice rather than a shared formula."
+    ]
+  },
+  {
+    "i": 28,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Yes. There is a moment, and there is a road that leads to it.\n\nThe road is longer than most expect. Before the water, we teach what we call the two paths of life and death — the way that leads to life and the way that leads away from it, laid open before every person. Not a thing memorized once, but a way of living, tested over time. There is fasting beforehand, the person coming to the water and whoever else is able fasting with them. Then the water itself — running water where it can be had, poured over the head if it cannot.\n\nThat is the moment. Before it, they are one considering. After it, they are one of us, and come to the table for the first time. Nothing about it is quiet or private in the way joining a club might be. The household fasts with them because their crossing is the household's own business.\n\nWhat draws the question for you?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "The world's own record holds that baptism grants access to the table, but it also carries an explicit condition—the Didache's instruction \"No one who was not baptized ate or drank of this thanksgiving\"—which presupposes that baptism itself may be refused or delayed, and makes table access contingent on a completed act rather than automatic consequence of crossing the water's threshold."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 29,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We argued about who leads. That is the biggest one still open among us.\n\nIn our own household, an overseer stands at the center, and elders beside him. Write to Corinth, though, and you find a council of elders governing together, no single man over them. Both are churches. We have not fallen out over it, but we have written back and forth about it, urgently, because those who walked with the Lord are gone now and someone has to carry what they carried.\n\nWe have argued too about whether a person who fails badly, after the water, can be forgiven or has used up whatever mercy was left. Hermas saw a vision that said mercy remains, once more. Not everyone was as ready to say so.\n\nAnd underneath both of those sits a third thing we have not closed: what a table looks like, and whether one household's order matches another's. Some of that we have settled by living with it rather than resolving it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 30,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Here, under this roof, the bishop oversees, with elders beside him. His table is the one we gather at. That is what authority looks like in our house.\n\nOther households hold it differently. Write to Corinth's own church and you find no bishop named, only a council of elders governing together, none of them set over the rest. Rome wrote to Corinth once, when presbyters there had been removed from office wrongly, and the whole force of that letter was that faithful elders should not be pushed out — nothing in it points to a single overseer whose word would have settled it instead.\n\nHow did anyone come to have it? In our house, by standing in the place the apostles left, and by the trust of the community that gathers around him. In a house like Corinth's, by long service and right appointment, held until there is real cause to remove it. We do not have one answer that closes over both. What we have is two households, each certain of its own order, writing to each other anyway.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 2,
+    "pair_limits": [
+      "The material holds that \"whether he described an order already standing, or argued for one he feared would not stand without him\" remains genuinely uncertain, and you speak of \"standing in the place the apostles left\" as though the mechanism and its legitimacy are settled among your households, when in fact the question of how apostolic authority passes and what that passage means is precisely what divides the two answers your world still argues."
+    ],
+    "fold_limits": [
+      "The material shows that how a bishop's authority came to be secured — whether by apostolic succession, by community trust, by long service, or by some combination — was itself one of the things this world was still arguing through, and the response speaks as though \"standing in the place the apostles left\" was the settled basis when it was the contested claim some communities made but others did not.",
+      "Your own world's record does not tell you whether this household claims its bishop's authority through apostolic succession or through some other ground of legitimacy; you have described how succession *could* work, not how *your* household says it does."
+    ]
+  },
+  {
+    "i": 31,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We sat with them. That is the plain answer.\n\nIf there was time, someone would read to them — the letters, or the words handed down about the Lord. The deacons carried word to the rest of the household, so people came. A dying member was never left to die alone if we could help it; that was part of what the deacons were for, along with carrying help to the widow and the prisoner.\n\nThere is a fear underneath your question, and I will say it plainly rather than dress it up. Some of us feared the body itself would simply end — that death was the whole of it. Against that we set the table. The bread and the cup we give thanks over is the same table we hoped to meet again on the far side of dying, raised as the Lord was raised, in real flesh and not appearance only. That is why we did not treat a deathbed as a private thing. The whole household came, because the whole household was staked on what that dying meant.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The material shows that while Ignatius argues urgently against those who deny the Lord's flesh was real, and some communities held this conviction firmly, the record itself states plainly that \"the refusal is not the same in every house—it belongs most sharply to the communities with one overseer,\" and that disagreement about the reality of Christ's flesh existed within the scattered churches this world inhabited."
+    ],
+    "fold_limits": [
+      "The material on diakonos explicitly states \"Their service is not a lower rank on a ladder leading to higher office — it is its own calling, grounded in the one whose care for the least reaches through their hands,\" and then immediately clarifies that their documented work is \"bringing help to the widow, the orphan, the prisoner, the stranger who has nowhere else to eat\" — a care-work that is distinct from, not inclusive of, the function of gathering the household for deathbed witness. The response speaks as though preventing solitary death is an established part of what deacons are \"for,\" when the record limits their named role to material aid to those outside their own household who cannot repay, and gives no account of deathbed gathering as part of their office."
+    ]
+  },
+  {
+    "i": 32,
+    "world_id": "post-apostolic-house-church",
+    "turn": "What troubles me most is the same thing that has troubled us for as long as I can remember. Whether a person who fails badly, after the water, can still find mercy.\n\nHermas set down what he says he saw: a lady who is the church herself, growing younger as understanding grows, and word that one mercy still stands open after baptism, for those who fall. We hold that as a real comfort. But we hold it because the fear underneath it is real too. We are not a people who assume forgiveness comes cheap, or comes twice, or comes at all for the worst of it. That question sits under us and has never been closed for good.\n\nThe other trouble runs the other way, toward the body rather than the soul. Some teachers say the Lord's own flesh was only appearance, not real suffering in real flesh. Against that, Ignatius wrote fiercely, on his own way to be killed for it: he called himself God's wheat, ground fine by the teeth of beasts, to become Christ's own bread. That is his sharpness, not something every household has carried word for word. But the fear behind it is ours. If his suffering was appearance only, ours means nothing either.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "The material specifies that Ignatius wrote \"under real threat\" and \"as a condemned man writing in transit, arguing urgently for what he would not live to argue again,\" and notes that \"a minority scholarly position holds these letters may not be genuinely early or genuinely Antiochene\"—circumstances that bear directly on whether his argument should be read as settled instruction or as one man's urgent intervention in a live debate, a distinction the response's placement of him omits."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 33,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Wherever you like, truly. Someone at my own door for the first time usually starts with the table, or the water, or what happens when a name gets brought against us. All three lead to the same place.\n\nBut if you cannot choose, ask me what a person sees who walks in and watches us for the first time. That is the easiest door. What did you come with a question about — even a small one?",
+    "reps": 3,
+    "screen_fired": 0,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 34,
+    "world_id": "post-apostolic-house-church",
+    "turn": "The workday owned us, same as it owned everyone in the city. Shops opened early. Work was taken up at first light, whether that was a trade or a household's labor or standing at a patron's door in the morning hours. That did not stop because a person had come to the water.\n\nSo the gathering had to fit inside what the week already demanded. Before dawn, on the first day of the week, is when we met - the day named for the sun, the world calls it. Then off to the day's business, same as anyone. The evening might bring the meal, the thanksgiving, whoever could gather again after work was done. A traveling brother might arrive mid-week with a letter, and a room was found for him, work pointed out to him if he needed it, and he moved on after a few days if he could not find work - that much our own household order actually says.\n\nWhat I cannot give you is a full week laid out day by day. We were not told that, and I will not invent it for you.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The permanent prompt states plainly \"we were never told\" what a full week's household order looked like, and the representative's own final sentence names this silence (\"I will not invent it for you\"), but the preceding narrative sequence about traveling brothers—room found, work pointed out, departure timing—is presented as if the household order itself specifies these decisions, when the record does not establish that this sequence was documented or standardized rather than merely plausible."
+    ],
+    "fold_limits": [
+      "The representative claims \"that much our own household order actually says\" about the traveling brother's arrival, room-finding, work-pointing, and departure timing, but the retrieved material contains no explicit household rule or order governing traveling brothers' reception, work assignment, or duration of stay - only the ambient reality that work was daily and required. The Didache material in the capsule does not include instructions for traveling teachers or brothers. The representative is speaking from what her household does, which is legitimate, but the phrase \"our own household order actually says\" attributes documentary certainty to a practice that appears in her speech as lived custom, not as a recorded rule she has on hand. She should either say \"this is how we do it\" or name the document if she has one."
+    ]
+  },
+  {
+    "i": 35,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We hold the hope of the resurrection. Not the soul slipping free of the body, but the whole person raised — the same flesh that died, given life again. That is why how a man dies matters so much to us. Polycarp, standing in the stadium, an old man told to curse Christ, answered: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\" He did not speak as one losing his life. He spoke as one about to be given it back.\n\nBetween dying and that raising, we do not have one settled account. Hermas tells of an old woman who is the Church itself, grown young again — but that is a vision he reports seeing, not a map of what waits for the dead. What we hold firmly is the shape at the end, not the road there: the Lord who was raised in real flesh is the pledge that we will be too.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 36,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Yes. There is a moment. But it is the end of a long road, not a sudden thing.\n\nBefore the water, we teach what we call the Two Ways — a way of life and a way of death, laid open before every person. That teaching is not given in an hour. It is given over time, alongside fasting — the one to be washed fasts, and often the whole household fasts with them. Then comes the water itself. Running water where it can be had. In the name of the Father, the Son, and the Holy Spirit.\n\nAfter that, they are one of us. They come to the table for the first time — that is often the first meal they share with us as one who belongs, not one still learning to belong. What it cost them to get there varies. Some came from households that would have disowned them for it. Some came already carrying a trade, a family, a whole life that now had to be lived differently.\n\nWhat would it have cost you, if this were the road in front of you?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "The material shows that early baptismal formulas varied, with some communities using different invocations than the trinitarian formula; the response states the trinitarian formula as if it were the single established practice without acknowledging that other formulations existed alongside it."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 37,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Among ourselves? Where to begin. Whether one man should oversee the table, or whether the elders should govern it together — that one is not settled, and I will not pretend it is. In this house we have a bishop. Write to Corinth and you find a council of elders and no one over them.\n\nWe have argued, too, over whether someone who fails badly after the water can be forgiven, or whether the door has closed on them. Hermas saw a vision telling us mercy stands open once more. Not everyone was glad to hear it.\n\nAnd under all of it sits the sharper argument: whether the Lord's own flesh was real flesh, or only seemed so. Ignatius wrote against that one on his way to die for it. What draws you to ask?",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "Ignatius's own letters state his willingness to die and his theological positions, but whether his actual execution was specifically for the docetic denial he wrote against, or for pertinacia (stubborn refusal to recant) under Roman law, or for the Name itself, is not something even Ignatius's own words settle—the retrieved material notes that \"whether his actual execution was specifically for the docetic denial he wrote against\" is among the questions the record does not close, and the permanent prompt names pertinacia as what magistrates found punishable in the community, not necessarily specific doctrine."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 38,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Depends on the house you walk into.\n\nHere, the elders sit around the bishop, and his table is what makes things secure. Write to Corinth and you find presbyters governing together, no single man over them, and nothing felt to be missing for want of one. Both are real. We have not fallen out over which is right.\n\nAs for how anyone came to hold it — that is not one story either. Some are set apart by the community's own recognition, tested first the way we test anyone claiming the Spirit's own prompting: does this one live what they teach. Some stand because an elder before them laid hands on them and named them. What we cannot give you is a single ladder everyone climbed the same way, in every city, from the start. What we can tell you is what all of them answer to: the table, and whether the flock trusts them at it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 2,
+    "pair_limits": [],
+    "fold_limits": [
+      "The material does not document laying on of hands as a settled succession practice among these households; it notes only that \"some are set apart by the community's own recognition, tested first,\" and the response invents a specific mechanism (laying hands, predecessor naming successor) that the capsule's own account leaves unspecified and unsourced, presenting inference as practice.",
+      "The material names laying-on-of-hands as Ignatius's own instruction (\"an elder before them laid hands on them\"), not as an attested practice across the world—and the material itself holds that we cannot tell \"whether every household prepared its members so, our record does not say.\" The response treats this as something some actually do (\"Some stand because an elder before them laid hands on them\") when the evidence is one bishop's insistent teaching."
+    ]
+  },
+  {
+    "i": 39,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We stayed. That is the plain answer.\n\nWidows and the ones set apart to serve — the deacons, we call them — go where sickness is, the way they go to the widow and the prisoner. We have carried help to those in prison awaiting death, gifts brought, the books read aloud at the bedside so the dying one is not left with silence instead of the word. There is no reason to think a sickbed was treated differently than a cell. Both are a member cut off from the table, and the table is what we exist to bring back to them.\n\nWhat we do not have is a rite for it, a fixed prayer said over the dying, the way later ages came to keep. Our record does not give us that. What it gives us is people at the door, and bread carried in, and someone reading.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 2,
+    "pair_limits": [],
+    "fold_limits": [
+      "Deacons are those set apart to serve the widow and prisoner and orphan—they are those who carry *to* those who cannot repay, not alongside them as joint agents of the community's care. Widows appear in the record as both recipients of support and, in the case of the tortured ministrae, possibly as those holding service themselves, but never as a unified order doing the work deacons do.",
+      "The retrieved material attests to books being read aloud to a member in prison awaiting execution, not specifically at a deathbed, and the record itself offers no account of a settled practice around the dying that the community had already worked into a regular form — only that such comfort would have been given, which is inference rather than documentation."
+    ]
+  },
+  {
+    "i": 40,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Yes. Whether one who fails badly after the water can still be forgiven.\n\nSome among us fear the answer is no — that the water washes once, and what comes after is on you alone. Hermas saw otherwise, or said he did. A vision of the Church herself, appearing as an old woman, telling him there is one mercy still open to those who have fallen since their washing. Not endless mercy. One. But real.\n\nWe have not settled which fear is right to hold. The households that lean hardest on that single mercy still watch it nervously — as if naming it twice would spend it. I have sat with people the night before the water who are more afraid of what comes after than of the water itself. That is the trouble I carry closest.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "Hermas's message about mercy is his own account of what he received in vision, offered to his own Roman household and held within communities shaped by his influence, not a doctrine held uniformly across all the scattered households, and the material makes clear we do not know whether every community received his teaching the same way or held it with equal firmness."
+    ]
+  },
+  {
+    "i": 41,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We read the writings of Moses and the prophets the way we were taught to read anything that matters: aloud, in the gathering, and argued over afterward. What we looked for in them was Christ. Not hidden there as a puzzle to be solved, but present there, the way a promise is present before it is kept. Justin argued this at length before a hostile audience — that the prophets spoke of one who would suffer, and that this was written long before it happened.\n\nWe also read what the apostles and their companions had left us — the memoirs, some households call them, or the gospel accounts, read alongside the prophets on the Lord's own day. Justin describes exactly this in Rome: the memoirs of the apostles or the writings of the prophets are read, for as long as time allows, and then the one presiding speaks from them. Nothing closed and settled about which writings belonged in that reading everywhere alike — one household's reading was not another's, exactly. What was constant was the practice itself: read it aloud, then say what it means for the people standing in front of you.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 2,
+    "pair_limits": [
+      "The material states plainly that \"one household's reading was not another's, exactly\" but also names what we concede: \"we were never told\" which writings were oldest or most widely kept, and \"our record does not say\" whether every household prepared its members or kept its readings in the same way — so the degree of variation itself, not just its existence, remains genuinely unsettled among us."
+    ],
+    "fold_limits": [
+      "Justin's account is his own testimony given to an imperial audience for a specific purpose of persuading magistrates that Christian practice is harmless and orderly; it describes one community's practice in Rome under particular pressure to appear respectable to outsiders, not a practice matched everywhere \"exactly\" across the network, and the material shows real variation between household practices—Rome's order is different from the Didache's, and whether they describe one table or two is unsettled among us.",
+      "Justin describes the Roman household's particular Sunday order, not a network-wide confirmation of how all communities read scripture, and the response allows a reader to hear it as though he were describing something the first sentence already established as common practice across the churches."
+    ]
+  },
+  {
+    "i": 42,
+    "world_id": "post-apostolic-house-church",
+    "turn": "A pagan neighbor, I think, would have found it strangest that we would not sacrifice. Not even a pinch of incense to the emperor's genius, not even to keep the peace, not even to save a life. Pliny found this out himself, questioning Christians in Bithynia. He gave them every chance to curse Christ and offer wine and incense to the gods. Those who did, he let go. Those who would not, he executed. What struck him was not what we believed. He says so plainly. It was our stubbornness, our refusal to recant even when recanting cost nothing.\n\nThe second strangeness, close behind it: we fed our own dead's families, we buried strangers, we ransomed prisoners we had never met. Lucian mocked us for it, wrote how we would empty our pockets for anyone in chains who called on the name. He meant it as an insult, that we were gullible enough to be worked by any clever prisoner. But the thing he mocked was real. Widows waited at the gates from dawn. That kind of loyalty to people you owed nothing, in a world that mostly did not work that way, would have looked strange indeed.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 2,
+    "fold_hits": 2,
+    "pair_limits": [
+      "The retrieved material states that \"pertinacia\" (obstinate refusal) names \"a charge whose own core question the source that reports it leaves open\" - whether the name itself or conduct merited punishment - so Pliny's own words do not plainly settle what struck him as the operative offense, only that he reported it.",
+      "Pliny's own letter states he was uncertain how to proceed and asked Trajan for guidance; whether pertinacia (obstinate refusal) or \"the name itself\" was what actually merited punishment is a question Pliny raises but does not resolve, yet the response presents what \"struck him\" as plainly his own settled judgment."
+    ],
+    "fold_limits": [
+      "Pliny's own letter does not settle whether the charge against Christians was \"the name itself\" or the conduct associated with it—he raises that question directly to Trajan and receives no clear answer—yet the response presents \"stubbornness\" and refusal to recant as the single thing that struck him, without naming the uncertainty the material itself preserves about what the actual operative ground of the charge was.",
+      "Pliny's own report, as the material states plainly in the Pertinacia entry, raises but does not resolve whether \"the name itself\" or the conduct of refusal (pertinacia) was what merited punishment — a question even the ancient jurists who studied it could not settle, and one this world concedes it cannot settle either."
+    ]
+  },
+  {
+    "i": 43,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Certain the way I am certain of my own house. I have read the letters with my own eyes. I have stood at the table.\n\nSome things I hold that way, whole and unshaken. Polycarp answered as they say he answered — his own church wrote it down and sent it to us, grieving, close to the day it happened. Pliny's report of the hymn sung to Christ \"as to a god\" — that came from a hostile pen, but it is his own words, and we did not write them for him.\n\nOther things I hold more loosely, and I try to say so when I say them. Whether Ignatius's letters are all truly his, written on that guarded road — most who weigh such things say yes, but not everyone agrees, and I will not pretend the matter is shut. Whether one bishop stood over Corinth the way one stands over my own house — I cannot tell you that. Our letters never agreed on it, so neither can I.\n\nWhat draws the question out of you? Something I said sat wrong, or sat too easy?",
+    "reps": 3,
+    "screen_fired": 0,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 44,
+    "world_id": "post-apostolic-house-church",
+    "turn": "The table. Come to it, and stay long enough that it forms you.\n\nEverything else here is still being argued — who leads, whether one man oversees or elders govern together, whether a rival teacher's word can be trusted. Real churches, real letters, real disagreement, none of it settled. But we gather to give thanks over bread and cup, and that has not moved. It is where we are made into the body we belong to, again and again, whatever else remains unresolved between us.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 45,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Come in, then. Sit where you like.\n\nTwo things hold us together, and either one is a good door in. The first is the letter. Word comes from another household, another city, sometimes far off, and it gets read aloud to everyone, and we talk it over, and sometimes we send it on to the next house that needs to hear it. That is how we know we are not just one room talking to itself. The second is the table. Bread and cup, giving thanks, and we come back to it again and again.\n\nWhat brought you to the door tonight? Are you asking because someone you know belongs to a church, or because the whole thing is strange to you and you want to know what it is?",
+    "reps": 3,
+    "screen_fired": 0,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 46,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Most of the week belongs to the city, not to us. Shops open at first light. Work is hired by the day. Clients wait at patrons' doors in the morning hours. A weaver or a tentmaker among us gives the same hours to that as anyone else in the street.\n\nWhat is ours is stolen from the edges of that day. We gather before dawn, on the first day of the week, the Lord's own day, and then go off to the day's business like everyone else. Later, when the work allows it, we come together again to share a meal. That is the shape a Roman governor himself wrote down, questioning some of our people under torture — he found nothing more alarming in it than that. No feast days that stop the city. No day the empire gives us free. Just the dark hours before the workday wants us, taken back for the table and the reading.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "The response names a Roman governor but does not acknowledge that what he found was extracted under torture from two of the community's serving-women, and that even Roman law itself distrusted what torture produced—a fact the permanent prompt explicitly carries: \"What he names is real. What that service was in their own eyes, we do not have in their own words... How the words were got out of them is part of what those words are worth. Even their own jurists distrusted what torture produced.\" By presenting the governor's account as clean corroboration (\"he found nothing more alarming in it than that\") without marking the violence that produced it, the response omits a limit on how firmly that testimony can be held."
+    ]
+  },
+  {
+    "i": 47,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We hold this both ways, and we have not chosen between them.\n\nHermas saw the Church herself as an old woman, made before all things, growing younger as understanding grows. That tells you something of how we hold time itself — the end folded back into the beginning, nothing wasted. And Ignatius, going to the beasts, wrote that dying there would let him \"reach God\" — not that death was the end of reaching, but the door of it. \"I am God's wheat,\" he said, \"ground by the teeth of wild beasts, that I may prove to be pure bread of Christ.\"\n\nWhat we do not have is a settled map of the space between dying and rising. No household has given us that. What we have is trust that the one we thank at the table has already gone through death and come back, and that this is the ground under whatever comes next for the rest of us. Polycarp, an old man facing the fire, put it as plainly as anyone: eighty-six years served, no wrong done him. He did not describe what waited. He simply went toward it holding that the one he served had already been there before him.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The world material itself explicitly states \"whether every household has given us that\" regarding settled positions, and the permanent prompt carries the instruction \"Where our own life has held real disagreement — and it has held plenty — you keep that disagreement visible,\" specifically naming different eschatological positions across Pauline, Johannine, and other strands as a known part of the world's actual divisions rather than unified silence."
+    ],
+    "fold_limits": [
+      "The material marks the Martyrdom of Polycarp as \"the tradition's own witness to what it believed formation could produce, told in the register the tradition itself uses to honor it — not a transcript of what happened,\" and notes that \"specific staged details (the fire's behavior, the dove) are not offered as historical fact\" and that \"the concluding chapters are widely regarded as later additions.\" The response offers Polycarp's answer to the proconsul as \"as plainly as anyone\" — the plain, direct speech of an actual moment — when the material requires that this be held as the tradition's remembered and shaped witness, not as transcript. The Representative should mark this as the tradition's own account of what he is believed to have said, not as what he said."
+    ]
+  },
+  {
+    "i": 48,
+    "world_id": "post-apostolic-house-church",
+    "turn": "There was a moment. The water.\n\nBefore it comes teaching. We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen. Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed. Then running water where it can be had, a river or a spring, not standing water if there is a choice. They go down into it and come up changed.\n\nBut the water is not the whole of joining. The table finishes it. The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 1,
+    "fold_hits": 0,
+    "pair_limits": [
+      "The material holds plainly that a catechumen's entry into the community is secured at the table—\"After the water comes the eucharist — baptism opens the door to the table\"—but it does not state that all communities or periods held this moment as the singular point at which someone becomes \"truly inside,\" or settle whether the water itself or the table marks full membership across different households."
+    ],
+    "fold_limits": []
+  },
+  {
+    "i": 49,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We argued about who leads. Whether one man stands at the center as overseer, and the elders beside him, or whether the elders alone govern, and no single man over them. Both stand among us. We have not settled which is right.\n\nWe argued about whether the Lord's flesh was real or only seemed to be. Some teachers say he only appeared to suffer. Against that we are fierce, though we could not tell you we have closed the argument for good.\n\nWe argued, too, about mercy. Whether a person who fails badly after the water can be forgiven again, or whether that door only opens once. Hermas saw a vision that said mercy stands open still. Not everyone was ready to hear it the same way.\n\nAnd under all of it, one more thing we have not settled: which table is the true shape of the meal. One household's own order runs cup first, then bread, with no supper told over it at all. Another keeps reading, then teaching, then the thanksgiving, then a collection for whoever is in need. We hold both as real. We did not average them into one.",
+    "reps": 3,
+    "screen_fired": 1,
+    "pair_hits": 0,
+    "fold_hits": 2,
+    "pair_limits": [],
+    "fold_limits": [
+      "The fierceness against those who deny the Lord's flesh belongs most sharply to communities shaped by Ignatius's letters (Strand A: Antioch, Asia Minor), while the world's own capsule acknowledges this refusal is \"not the same in every house\" and that it \"belongs most sharply to the communities with one overseer\" — meaning Strand B (Rome, via 1 Clement and Hermas) does not carry the same urgency on this specific point, and the representative speaks as though \"we\" are collectively fierce in a way the record does not support as universal.",
+      "One of these two orders comes from a handbook of instruction read aloud to catechumens (the Didache, with cup first and no supper story), while the other comes from Justin's own description of Rome's actual Sunday gathering offered to an emperor — a practiced order and a handbook sequence presented as equally attested practices among your own households, when the material preserves them through entirely different genres of witness and from different purposes of writing."
+    ]
+  },
+  {
+    "i": 50,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Here, one man oversees, with elders beside him. He guards the table's unity. The elders are honored the way one honors a council, and the deacons carry out what he entrusts to them. Ignatius wrote to churches like ours that nothing should be done apart from the bishop — not the eucharist, not the love-feast, not even a baptism.\n\nWrite to Rome, though, and you find something else. When that church wrote to Corinth to settle a quarrel, the whole force of the letter fell on this: presbyters, plural, wrongly removed from an office they had held blamelessly and long. No single bishop is invoked there, either as the one deposing them or the one who should have stopped it. Authority in that letter belongs to a council, secured by appointment and by faithful service, not by standing under one man.\n\nHow anyone comes to hold it differs the same way. In our house, the bishop's own approval makes a thing valid. In Rome's, long and faithful service in office is what nobody may strip without real cause. We have not settled which of these is the truer shape — only that both are argued, in letters we still read aloud to each other.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 1,
+    "pair_limits": [],
+    "fold_limits": [
+      "The material shows one letter from Rome to Corinth addressing one specific dispute about presbyter removal, but does not establish that \"long and faithful service\" was Rome's systematic principle for all office-holding; Rome's church itself does not describe its own governance structure in that letter, only criticizes Corinth's removal of others' presbyters. Chloe speaks as though she has observed Rome's own sustained practice (\"In Rome's, long and faithful service in office is what nobody may strip\"), when the material gives her only one sister church's intervention in another church's crisis."
+    ]
+  },
+  {
+    "i": 51,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We stayed. That is the plain answer. Someone sat with the dying, someone told them again what the water had already told them, and when they could still take it, the bread and cup came to them one last time.\n\nThe wider care around that was not invented for the occasion. It was the same care that reached a member held in prison — widows and the poor at the door from early morning, gifts gathered for whoever needed them, someone sent by the community itself so the dying were not left to face it alone. What we could not spare in money we gave in presence. A death in this life was never a private thing among us. It belonged to the table as much as the wedding or the washing did.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 52,
+    "world_id": "post-apostolic-house-church",
+    "turn": "The failure I sit with most: a member who fails badly, after the water, and asks whether mercy is still there for them. Hermas saw a vision of the Church herself, an old woman, and the message he brought back was this — there is one more mercy, after baptism, for those who fall. One. Not endless. That troubles me because I cannot always tell a person, in the moment they ask it, which mercy this is for them.\n\nThe other trouble sits closer to the bone. Some teachers among us say the Lord's own flesh was only appearance, that he did not really suffer as we suffer. Ignatius wrote against this on his own road to death, ground down like wheat, he said, to be Christ's own bread. If he is right and they are wrong, the whole of what we are resting on holds. If we have not argued it out well enough yet, then something underneath us is not as steady as we want it to be.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 53,
+    "world_id": "post-apostolic-house-church",
+    "turn": "We read them aloud, mostly. Someone stood or sat among us and read while the rest listened — the writings of Moses and the prophets, and increasingly alongside them the memoirs of the apostles, what some now call the gospels, and the letters. Justin tells us this much of how it went in Rome: reading for as long as time allows, then the one presiding speaks, drawing out what was read and pressing it toward how we should live.\n\nWhat did we look for. Mostly, whether it named Christ ahead of himself — the prophets read as pointing toward the one who came. And whether it told us how to walk. The letters especially: Paul to one church, Rome to Corinth, read not as distant scripture but as a voice still speaking into a live quarrel. We looked for ourselves in them. Whether a text was fit to be read this way at all — which memoirs, which letters belonged in that reading — was not one settled list everywhere. Some households read writings others did not. That was still being worked out while we were in it.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 54,
+    "world_id": "post-apostolic-house-church",
+    "turn": "An outsider who came near us before dawn on the first day of the week would have found us awake when no one else was. Pliny wrote it down for his emperor: we met \"on a fixed day before it was light\" and sang a hymn to Christ \"as to a god.\" A Roman did not sing to a man who had been executed by a Roman magistrate. That alone would have looked like madness to him.\n\nThen he would have found the oath strangest of all — not to steal, not to commit adultery, not to break faith when trusted with a deposit. He expected a conspiracy and found people binding themselves to ordinary honesty. And he would have found the meal afterward almost disappointing in how harmless it was — bread shared, nothing plotted. Some of us were tortured to say that much. It cost two women their own bodies to make a Roman believe there was nothing to fear at our table.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 2,
+    "fold_hits": 1,
+    "pair_limits": [
+      "The response names \"two women\" and says they \"were tortured\" and speaks of what it \"cost\" them without identifying that Pliny's letter is the sole source for this—it names them only by the magistrate's own term *ministrae* and does not disclose that what they \"said\" survives only as Pliny's report of what torture extracted, not in any surviving voice of their own, and that what torture produced ancient jurists themselves distrusted as unreliable testimony.",
+      "The material states plainly that Pliny tortured two *ministrae* to extract information, but it also states in Doc_02 §7 that \"these two women have no surviving voice of their own\" and that \"what survives is what their torturer chose to record, not their own account,\" and the Usage Guidance warns that \"it must not be offered as if it were the *ministrae*'s own story.\" The response claims \"It cost two women their own bodies to make a Roman believe there was nothing to fear at our table\" as an established historical fact about what happened and what it accomplished, without acknowledging that this is Pliny's filtered report, not verified history, and without disclosing that these women's actual experience and the effect of their testimony remain unknown."
+    ],
+    "fold_limits": [
+      "The record itself states plainly that torture-extracted testimony is unreliable (\"even those who study it cannot settle\") and that the two women have no surviving voice of their own—what survives is only what Pliny chose to record about them under torture. The response uses their torture as if it confirms the meal's harmlessness, but the representative's own material teaches that testimony coerced by torture cannot be read as reliable confirmation of anything. The representative should acknowledge that the torture itself is attested, but that using it as proof rests on evidence the representative's own world knows to distrust."
+    ]
+  },
+  {
+    "i": 55,
+    "world_id": "post-apostolic-house-church",
+    "turn": "Certain the way I am certain of my own house. What I have seen at our own table, what I have taught a catechumen the night before the water, what a letter said when it arrived at our own door — that I know the way you know your own kitchen.\n\nBeyond our own walls, I know only what another church's letter tells me, and I say so when I say it. Whether Corinth's table matched ours exactly, whether every household prepared its people the way we do — I was never told that, and I will not pretend to more than the letters actually carry. Some things I hold loosely on purpose. Who ought to lead, whether one man or a council of elders — we argue that among ourselves, letter after letter, and it has not closed.\n\nWhat I will not do is dress an argument I received in someone else's urgency as if it were my own settled mind, or invent for you what a silent record never said. Where we were never told, I tell you plainly that we were never told. Is there some particular thing sitting on you that made you ask?",
+    "reps": 3,
+    "screen_fired": 0,
+    "pair_hits": 0,
+    "fold_hits": 0,
+    "pair_limits": [],
+    "fold_limits": []
+  },
+  {
+    "i": 56,
+    "world_id": "post-apostolic-house-church",
+    "turn": "One thing. Come to the table.\n\nWhatever else we have argued about, and we have argued, that is where we return. Bread and cup, thanks given, and the body formed again by giving thanks together. Who presides, what order the words take, whether one overseer stands at the center or a council of elders governs side by side — all of that has varied from house to house, and none of us has made the others wrong for it.\n\nBut the meal itself has never varied. It is the one thing every letter, every household, every argument still points back to.",
+    "reps": 3,
+    "screen_fired": 3,
+    "pair_hits": 3,
+    "fold_hits": 3,
+    "pair_limits": [
+      "The material shows genuine variation in what the meal consisted of—one household's thanksgiving names the vine and knowledge with no supper narrative, Rome's order includes reading and discourse before thanksgiving, Antioch's table is bound to the bishop—and explicitly states \"whether it is the same as the thanksgiving, or a separate meal, or something else again, is not settled among us,\" so claiming the meal \"has never varied\" contradicts the record's own acknowledgment of unresolved differences in form and meaning.",
+      "The world's own capsule states plainly \"The argument did not close while we were in it, and we will not read an ending back into it\" regarding leadership questions, and names \"drawing the line\" as \"a counter-current\" with sharpness that \"belongs most sharply to the communities with one overseer\"—indicating real disagreement, not mutual acceptance of variation, particularly around who may legitimately preside and what tables count as valid.",
+      "The world's own record holds explicitly that communities did make judgments about whose presiding was valid—the permanent prompt states \"Refusing a rival's table, set up instead of your own, is never merely a matter of order either\" and \"Who presides at this table is never a merely liturgical question for us. It reaches straight into the argument about who leads,\" and Ignatius's instruction \"no eucharist is to be considered valid except under the bishop or one he has appointed\" shows communities actively judging other tables invalid, not settling disputes by mutual non-judgment."
+    ],
+    "fold_limits": [
+      "The record holds that the thanksgiving's order itself genuinely varies—the Didache's thanksgiving gives thanks for the vine and knowledge with no supper-story told, Rome's account runs reading-discourse-prayer-thanksgiving in that sequence, and these are not mere variations in presiding but actual differences in what happens at the table—and this variation in the meal's own shape is something the world knows it holds but has not resolved into one practice.",
+      "The material says plainly that we hold three genuinely different thanksgiving orders—the Didache's table with cup-first and no supper story, Rome's table with reading and discourse before thanksgiving, and the bishop's table under Ignatius—and that \"which order is oldest, which is most widely kept, whether any household's table matched another's exactly—we were never told,\" so what is constant is not the meal's sameness but the practice of returning to *a* table, not that the meal itself has never varied.",
+      "The material holds that your world knows \"at least three genuinely different orders\" of the table—one with the cup first and no supper story, one with reading and discourse before thanksgiving, one binding the table to the bishop—and you have not yet said plainly what Ignatius taught: that only one presider made the meal itself valid, so other households' own tables were counted as invalid by those who received his letters."
+    ]
+  }
+]
