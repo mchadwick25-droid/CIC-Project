@@ -100,7 +100,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <header style="display:flex;flex-direction:column;gap:1.1rem">
   <div class="eyebrow">Church in Conversation · Independent cost &amp; architecture review</div>
   <h1>Where the money actually goes</h1>
-  <p class="lede">A fresh pass over <code>cic/</code>, now settled by measurement rather than modelling. Forty-eight turns of real traffic ran through the real app on 16 August. True cost is <strong>$0.372/hour</strong> — not the reported $1.09, and not the $0.53 this review estimated before the sample ran. The $0.30 target is reachable, but not on cheap levers.</p>
+  <p class="lede">A fresh pass over <code>cic/</code>, now settled by measurement rather than modelling. Forty-eight turns of real traffic ran through the real app on 16 August. A turn costs <strong>$0.03103</strong> — measured, against a reported figure that was roughly double. What an <em>hour</em> costs depends on how fast people talk, and that is the one thing still unmeasured: $0.372 at the twelve-turns-an-hour this project has always assumed, $0.93 at thirty.</p>
   <div class="meta">
     <span>16 August 2026 · second revision</span><span>Scope: <code>cic/records</code>, <code>cic/engine</code>, <code>cic/runtime/app</code></span><span>Single-voice mode</span><span>Branch <code>claude/cic-cost-architecture-review-6j5et0</code></span>
   </div>
@@ -108,9 +108,9 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 
 <div class="stats">
   <div class="stat"><span class="k">Reported</span><span class="v bad">$1.09</span><span class="n">per hour · cached tokens charged twice</span></div>
-  <div class="stat"><span class="k">Measured</span><span class="v warn">$0.372</span><span class="n">48 live turns · $0.03103/turn</span></div>
-  <div class="stat"><span class="k">Cheap levers exhausted</span><span class="v warn">$0.349</span><span class="n">nothing of substance removed</span></div>
-  <div class="stat"><span class="k">Apparatus cut</span><span class="v good">$0.293</span><span class="n">safety + drift removed · a real trade</span></div>
+  <div class="stat"><span class="k">Measured</span><span class="v good">$0.031</span><span class="n">per turn · 48 live turns · solid</span></div>
+  <div class="stat"><span class="k">At 12 turns/hour</span><span class="v warn">$0.372</span><span class="n">the assumed pace · $0.349 with free levers</span></div>
+  <div class="stat"><span class="k">At 30 turns/hour</span><span class="v bad">$0.93</span><span class="n">pace has never been measured</span></div>
 </div>
 
 <section>
@@ -118,11 +118,11 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <ol>
     <li><strong>The prompt cache works.</strong> A live two-turn test returned a clean 17,565-token <code>cache_read</code> on the second call, on both the streaming and non-streaming paths, at the 1-hour TTL. My first pass suspected a runtime cache failure. It was wrong, and it is withdrawn.</li>
     <li><strong>The cost calculator double-charges cached tokens.</strong> LangChain reports <code>input_tokens</code> as the <em>total</em> input, with <code>cache_read</code> as a subset of it — the raw Anthropic block reports the two as additive. A calculator that sums all three overstates spend. Estimated at 2.6×; <span class="delta"><span class="was">2.6×</span><span class="arw">→</span><span class="now">2.39×</span></span> measured across 440 real calls.</li>
-    <li><strong>True cost is $0.372/hour, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
+    <li><strong>A turn costs $0.03103, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
     <li><strong>$0.30/hour is reachable only by removing the relational-safety classifier and drift detection.</strong> Every free lever together stops at $0.349. The last 16% has to come out of the apparatus. That is a quality decision to take consciously, not a saving waiting to be found.</li>
     <li><strong>Safety is ~10% of spend, not 3.2%</strong> — corrected by measurement, and it cuts against the position this review argued. See <a href="#safety">the correction</a>.</li>
     <li><strong>Sonnet 5 pricing is stable at $2/$10.</strong> Verified against the live docs: flat pricing, no introductory expiry. An earlier draft warned of a 31 August cliff drawn from a stale cached table; withdrawn. There is no deadline on the voice-model decision.</li>
-    <li><strong>The largest uncertainty left is not a lever at all.</strong> Turns-per-hour is assumed, never measured, and it moves the headline further than everything in this document combined.</li>
+    <li><strong>The largest uncertainty left is not a lever at all.</strong> Twelve turns an hour assumes <strong>four minutes of thinking and typing per question</strong> — measured out of the event logs, and never checked against a real participant. At a one-minute pause the system costs $0.913/hour, not $0.372.</li>
   </ol>
 </section>
 
@@ -180,15 +180,42 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <h3>Cache pooling is structural, not lucky — 16.0×</h3>
   <p>The second session on each world wrote <strong>zero</strong> cache tokens; it read entirely off the first session's prefix. But the cold sessions still pooled <strong>11× on their own</strong>, because one prefix serves all twelve turns of a session. Priced honestly: if no session ever pooled with another, cost rises to <strong>$0.409/hour</strong> — ten percent. This is not a bet on concurrency.</p>
 
-  <h3>Turns-per-hour is now the biggest number in this document</h3>
-  <p>The $/turn is measured. The twelve-turns-per-hour divisor is assumed, and always has been.</p>
+  <h3>Turns-per-hour is the biggest number in this document</h3>
+  <p>The $/turn is measured. The twelve-turns-per-hour divisor is assumed, and always has been. Decomposing a turn from the session event logs — which already timestamp everything — shows what that assumption contains.</p>
   <div class="scroll">
     <table>
-      <thead><tr><th class="n">Turns/hour</th><th class="n">8</th><th class="n">10</th><th class="n">12</th><th class="n">15</th><th class="n">20</th></tr></thead>
-      <tbody><tr><td class="n">$/hour</td><td class="n">0.248</td><td class="n">0.310</td><td class="n"><strong>0.372</strong></td><td class="n">0.465</td><td class="n">0.621</td></tr></tbody>
+      <thead><tr><th>Component of one turn</th><th class="n">Median</th><th class="wrap-ok">How it is known</th></tr></thead>
+      <tbody>
+        <tr><td>Wait for the answer</td><td class="n">11s</td><td class="wrap-ok">Measured</td></tr>
+        <tr><td>Post-response classifiers</td><td class="n">9s</td><td class="wrap-ok">Measured — overlaps reading, so not additive</td></tr>
+        <tr><td>Reading the reply</td><td class="n">~51s</td><td class="wrap-ok">Estimated — 188 words at 220 wpm</td></tr>
+        <tr class="hit"><td><strong>Thinking and typing</strong></td><td class="n"><strong>?</strong></td><td class="wrap-ok"><strong>Cannot be derived from a log a script wrote</strong></td></tr>
+      </tbody>
     </table>
   </div>
-  <p>At twenty turns an hour, the full apparatus-cutting programme above still lands at $0.489. <strong>A faster conversational pace moves cost further than every lever in this review combined.</strong> If $0.30/hour is a hard ceiling, this deserves measuring on real participants before anything is cut for it.</p>
+  <div class="callout warn">
+    <div class="eyebrow">The assumption, stated in units anyone can judge</div>
+    <p><strong>Twelve turns an hour means a 300-second turn — and therefore about four minutes of thinking and typing per question, on every question, for twelve questions straight.</strong> That is what every $/hour figure in this document rests on. It is a claim about people, and it has never been checked against any.</p>
+    <p class="note">Robust to the one estimate inside it: 3.6 minutes at 150 wpm, 4.1 at 260. Reading speed is not what is uncertain here.</p>
+  </div>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="n">Compose time</th><th class="n">Turn</th><th class="n">Turns/hour</th><th class="n">$/hour</th><th class="n">$/yr @1,000h</th></tr></thead>
+      <tbody>
+        <tr><td class="n">0s</td><td class="n">62s</td><td class="n">57.7</td><td class="n">1.792</td><td class="n">21,503</td></tr>
+        <tr><td class="n">30s</td><td class="n">92s</td><td class="n">39.0</td><td class="n">1.210</td><td class="n">14,517</td></tr>
+        <tr><td class="n">60s</td><td class="n">122s</td><td class="n">29.4</td><td class="n">0.913</td><td class="n">10,957</td></tr>
+        <tr><td class="n">120s</td><td class="n">182s</td><td class="n">19.7</td><td class="n">0.613</td><td class="n">7,352</td></tr>
+        <tr class="hit"><td class="n"><strong>238s</strong></td><td class="n"><strong>300s</strong></td><td class="n"><strong>11.9</strong></td><td class="n"><strong>0.369</strong></td><td class="n"><strong>4,434</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The machine floor is 181 turns an hour — nobody can go faster than the system answers — so the ceiling is not the constraint. The constraint is entirely human, and entirely unmeasured. <strong>A faster conversational pace moves cost further than every lever in this review combined.</strong></p>
+
+  <h3>The unit itself is worth questioning</h3>
+  <p><strong>$/turn is what the architecture controls. $/hour is $/turn multiplied by how fast people talk.</strong> A system that looks cheaper per hour may simply be a slower one — and pace is not waste. A participant who asked thirty questions got more conversation than one who asked twelve, and paid for it.</p>
+  <p>If the budget is really <em>N conversations</em>, a twelve-turn conversation costs <strong>$0.37 at any pace</strong> and this entire uncertainty disappears. If it is really <em>hours of access given away</em>, pace is the dominant term and no amount of apparatus-cutting substitutes for knowing it. That is a question about what is being promised to participants, not a question about the code.</p>
+  <p class="note">Nothing needs building to settle it. <code>events.py</code> already persists every event with a timestamp, in production as in test, and <code>analyze_pacing.py</code> reads them — it detects a scripted log and refuses to report one as pacing. A single pilot session of a dozen real turns is enough. This needs one person, not a sample.</p>
 </section>
 
 <hr>
@@ -249,7 +276,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <section>
   <h2>What I would do, in order</h2>
   <ol>
-    <li><strong>Measure turns-per-hour on real participants.</strong> It outweighs every item below it. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
+    <li><strong>Put one real participant through one session.</strong> That settles turns-per-hour, which outweighs every item below it — and the tooling and logging for it already exist. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
     <li><strong>Fix the cost calculator.</strong> Uncached input is <code>input_tokens − cache_read − cache_creation</code>, or read the raw block where available. Every figure downstream depends on it.</li>
     <li><strong>Fold detection into the adjudicator</strong> and drop the screen stage. Cheaper, and it removes a class of miss. A prompt redesign, not a config change.</li>
     <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.349 and $0.293. Whichever way it goes, it should be chosen rather than discovered.</li>
@@ -263,7 +290,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <h2>What I could not verify</h2>
   <ul>
     <li><strong>The traffic sample covers two of six worlds</strong> and twelve fixed newcomer questions. Real participants vary more; both the fire rate and the per-turn cost could move on the other four.</li>
-    <li><strong>Turns-per-hour is assumed, never measured.</strong> It is the largest lever on the headline number and the one thing here with no evidence behind it.</li>
+    <li><strong>Composition time is the one unmeasured input left</strong>, and it is the largest term in the headline. The machine side is now measured exactly and reading is bounded by estimate; what remains needs a human. Plausible values put the real figure anywhere between $0.37 and $0.91/hour.</li>
     <li><strong>The cost calculator itself is not in the repo</strong> — it lived in a prior session's scratchpad. I proved the trap exists and priced it against live measurements, but I could not read the code that produced $0.091.</li>
     <li><strong>The requirements manifest was incomplete until the traffic run.</strong> <code>rank-bm25</code> is imported lazily inside <code>candidate_search</code>, so the app booted, <code>/health</code> passed and session start succeeded without it. Only a real turn exposed the gap — which is the argument for running real turns.</li>
   </ul>
