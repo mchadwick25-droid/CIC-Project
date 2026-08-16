@@ -1874,16 +1874,18 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     # Tier 2 Check B, PHASE 0 SHADOW MODE (2026-08-15). Logs only - does not
     # touch message_kwargs, does not gate this turn. See
     # check_quotation_grounding's own docstring and app/groundedness_logging.py.
-    check_quotation_grounding(
-        ctx["current_world_id"], response_text,
-        request_id=request_id, session_id=state.session_id,
-    )
+    if settings.groundedness_shadow_checks:
+        check_quotation_grounding(
+            ctx["current_world_id"], response_text,
+            request_id=request_id, session_id=state.session_id,
+        )
     # Tier 2 Check A, PHASE 0 SHADOW MODE (2026-08-15) - see
     # check_figure_chronology's own docstring and app/groundedness_logging.py.
-    check_figure_chronology(
-        ctx["current_world_id"], response_text,
-        request_id=request_id, session_id=state.session_id,
-    )
+    if settings.groundedness_shadow_checks:
+        check_figure_chronology(
+            ctx["current_world_id"], response_text,
+            request_id=request_id, session_id=state.session_id,
+        )
 
     return {
         "messages": [
@@ -2295,16 +2297,18 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         message_kwargs["glosses_used"] = glosses_used
     # Tier 2 Check B, PHASE 0 SHADOW MODE (2026-08-15) - see the
     # non-streaming call site above for the full note.
-    check_quotation_grounding(
-        ctx["current_world_id"], full_text,
-        request_id=request_id, session_id=state.session_id,
-    )
+    if settings.groundedness_shadow_checks:
+        check_quotation_grounding(
+            ctx["current_world_id"], full_text,
+            request_id=request_id, session_id=state.session_id,
+        )
     # Tier 2 Check A, PHASE 0 SHADOW MODE (2026-08-15) - see the
     # non-streaming call site above for the full note.
-    check_figure_chronology(
-        ctx["current_world_id"], full_text,
-        request_id=request_id, session_id=state.session_id,
-    )
+    if settings.groundedness_shadow_checks:
+        check_figure_chronology(
+            ctx["current_world_id"], full_text,
+            request_id=request_id, session_id=state.session_id,
+        )
 
     ai_message = AIMessage(
         content=full_text,

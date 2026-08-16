@@ -146,7 +146,7 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 | A · strip builder apparatus from retrieved chunks **(SHIPPED)** | **improves** | 0.031 | 31 | 367 |
 | B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
 | C · over-settling adjudicator 78% -> 30% **(BLOCKED)** | trades recall | 0.022 | 22 | 261 |
-| D · retire the two shadow-mode checks | neutral | 0.018 | 18 | 216 |
+| D · shadow-mode checks — off-switch shipped, **not retired** | neutral | 0.003–0.011 | 3–11 | **39–132** |
 | E · trim `_HOW_YOU_ENGAGE` by 40% | test it | 0.018 | 18 | 221 |
 | F · pool cache writes (20 sessions/window) | none | 0.057 | 57 | 682 |
 | **Sonnet 5, all of A-F** | — | **0.326** | **326** | **3,907** |
@@ -210,6 +210,33 @@ carries attribution honesty. Tier/confidence remain in front-matter metadata.
    does not fix** — `desertlex018` has literally empty `**World Meaning:**`
    and `**Ecological Function:**` fields. Worth an authoring pass
    independent of cost.
+
+### D · Cheaper than estimated; off-switch instead of deletion — SHIPPED
+
+Measured 2026-08-16 with `count_tokens`, worst-case world for each: the
+quotation prompt is **411 tokens** (Desert, 6 licensed candidates, 2 spans),
+the chronology prompt **253** (Imperial Juridical, 9 dated figures). Both
+already skip the LLM call when there is nothing to check — no quoted spans,
+no licensed candidates, no *dated* figure named. Fleet-wide there are only
+**15 licensed quotes and 21 dated figures across 53**, so the skip path is
+the common one.
+
+| fire rate | $/turn | $/hr | $/yr @1000h |
+|---|---:|---:|---:|
+| every turn (upper bound) | 0.000914 | 0.011 | 132 |
+| realistic ~30% | 0.000274 | 0.003 | 39 |
+
+**$39–132/yr, not the $216 the ledger credited.** These were scoped
+2026-08-15 — one day before this review — as Phase 0 for grounding gates, and
+grounded citation is the claim the whole project rests on. Deleting them now
+trades that sample for roughly a dollar a week.
+
+Shipped instead: `settings.groundedness_shadow_checks` (default `True`)
+guarding all four call sites, with the graduation criterion and a
+**2026-11-15 review date** recorded where the setting lives. The real failure
+mode for a shadow check is not its cost, it is running forever without ever
+graduating; that is what the flag and the date prevent. Set it `False` to bank
+the cost immediately, no code change.
 
 ### C · The screen is past its own break-even — but do not retune it yet
 
@@ -290,7 +317,10 @@ ledger removes the need to choose.
    by the whole cache-write amortisation.
 5. **Leave the voice on Sonnet.** No deadline and no forcing function;
    $892/yr is the wrong price for the citation regression.
-6. **Retire the two shadow-mode checks on a date.**
+6. ~~**Retire the two shadow-mode checks**~~ — measured at $39-132/yr, not
+   $216. Too cheap to be worth losing the Phase 0 grounding sample one day
+   after it started. Off-switch and a 2026-11-15 review date shipped instead
+   (`groundedness_shadow_checks`); flip it if you want the money now.
 
 ## Not verified
 

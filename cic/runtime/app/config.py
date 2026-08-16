@@ -115,6 +115,32 @@ class Settings(BaseSettings):
     # field - the registry itself is the on/off switch and the per-tester
     # allocation, so there's nothing to duplicate here.
 
+    # Tier 2 groundedness checks (check_quotation_grounding,
+    # check_figure_chronology in app/graph/nodes.py), scoped 2026-08-15 and
+    # running in PHASE 0 SHADOW MODE: they log and gate nothing.
+    #
+    # Measured 2026-08-16 with count_tokens, on the worst-case world for
+    # each: the quotation prompt is 411 tokens (Desert, 6 licensed
+    # candidates, 2 spans) and the chronology prompt 253 (Imperial
+    # Juridical, 9 dated figures). Both skip the LLM call entirely when
+    # there is nothing to check - no quoted spans, no licensed candidates,
+    # no DATED figure named - so on Haiku they cost between $39/yr at a
+    # realistic fire rate and $132/yr if every turn tripped both, against
+    # 1,000 conversation-hours a month.
+    #
+    # That is cheap enough that switching them off is not worth losing the
+    # Phase 0 sample they exist to gather, and grounded citation is the
+    # claim this whole project rests on. The flag exists for the OTHER
+    # failure - a shadow check that quietly runs forever without ever
+    # graduating. Set it False to bank the cost immediately, no code change.
+    #
+    # GRADUATION CRITERION: once the sample is large enough to state a
+    # false-positive rate per check, either promote the check to an active
+    # gate or delete it. Review by 2026-11-15 (three months from scoping);
+    # if neither has happened by then, the honest move is to turn this off
+    # and stop paying for data nobody is reading.
+    groundedness_shadow_checks: bool = True
+
     # Anthropic prompt-cache TTL for the two cacheable prefixes (the
     # Representative's static prompt in _cached_system_message, and the
     # source-fed adjudication prefix in _cached_adjudication_message).
