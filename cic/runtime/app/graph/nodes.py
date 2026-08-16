@@ -1273,6 +1273,43 @@ PUBLIC TRANSCRIPT:
 {public_transcript}
 """
 
+    # Single-world (Deep Interview) gets the same record under its own
+    # framing. Before this, solo turns were sent exactly two messages -
+    # the cached system prompt and the participant's latest line - so the
+    # Representative could not see its own prior turns or the
+    # participant's. Every continuity instruction in _HOW_YOU_ENGAGE
+    # ("Recall What They Have Given You", "Formation Deepens Over Time",
+    # the same-story-twice rule, the same-shaped-turns self-check) was
+    # unexecutable by construction: a voice answering each question cold
+    # restates rather than deepens, and reaches for its strongest story
+    # every time.
+    #
+    # The post_history_guard's "never 'when I said X' for a word this
+    # conversation has not actually spoken" stays exactly as written. It
+    # was added because the model, shown no history, invented callbacks
+    # to exchanges that never happened; with the record present that
+    # instruction stops being a suppression and becomes true by
+    # construction - the words it may refer back to are now in front of
+    # it.
+    #
+    # Same placement rule as multi-world above: this changes every turn,
+    # so it belongs in dynamic_prompt and must NOT enter the cached
+    # static block. The 2+10 block-truncation window caps its growth, so
+    # per-turn cost stays flat with conversation length rather than
+    # rising with it.
+    elif public_transcript:
+        dynamic_prompt += f"""
+
+# This Conversation So Far
+
+Below is the record of what has been said in this conversation — the participant's words and your own. It is the same conversation you have been having; you are not meeting them for the first time.
+
+Read it before you answer. What they have already told you is yours to use, and what you have already said is yours to build on rather than repeat.
+
+THIS CONVERSATION:
+{public_transcript}
+"""
+
     # S4.4a: the selector's private directive to this specific speaker -
     # the REASON line become a consumer (or the deterministic direct-
     # address note). Injected like reroot guidance: invisible to the
