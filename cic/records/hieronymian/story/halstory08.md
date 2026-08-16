@@ -18,10 +18,10 @@ narrative_tier:
   justification: An autobiographical dream-vision embedded within an exhortatory letter — attributed to
     the scholar's own reported experience, genre-shaped (the dream-vision is a recognized period rhetorical
     device), datable but not independently verifiable as a literal event.
-text: 'The household remembers a dream one of its scholars once had, and told of himself: dragged before
-  a judge and asked what he was, he answered that he was a Christian — and was told, "You lie. You are
-  a Ciceronian, not a Christian; for where your treasure is, there will your heart be also." He woke changed,
-  the household says, and set aside for a long while the classical books he had loved since boyhood, though
+text: 'The household remembers a dream one of its scholars once had, and told of himself. Dragged before
+  a judge and asked what he was, he answered that he was a Christian. He was told, "You lie. You are a
+  Ciceronian, not a Christian; for where your treasure is, there will your heart be also." He woke changed,
+  the household says. He set aside for a long while the classical books he had loved since boyhood, though
   he never fully escaped the training that had shaped how he thought and wrote.'
 attested_occasion: 'The Ciceronian dream (Ep. 22, to Eustochium): dragged before a judge, ''You lie. You
   are a Ciceronian, not a Christian'' - the scholar''s own reported dream, told of himself inside an exhortatory
@@ -60,3 +60,12 @@ chunk_filename: hal_story08_the-ciceronian-dream.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story08_the-ciceronian-dream.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the formation-logic tension between classical literary training and ascetic renunciation — a tension this household holds without resolving, since the same scholar's later work draws constantly on the rhetorical skill that same classical training gave him.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 10.9 (FRE 70.2 already clear) - a colon-joined opening sentence and an "and set aside" closing
+clause. Per Mark's decision to extend the readability pass to story records, the colon and the "and set
+aside" clause each become their own sentence. The signature key_line quotation - "You lie. You are a
+Ciceronian, not a Christian; for where your treasure is, there will your heart be also." - is preserved
+character for character, as are the tribunal setting, the boyhood books set aside, and the closing point
+that the classical training was never fully escaped. Re-scored: FK 5.1 / FRE 85.4, clearing the FK
+threshold with FRE still well clear.

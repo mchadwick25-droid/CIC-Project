@@ -32,9 +32,9 @@ text: 'Writing to the emperor and the Roman Senate in his own defense of Christi
   gather together in one place. The records of the apostles, or the writings of the prophets, are read
   for as long as time allows. Then the one presiding gives a discourse, exhorting the people to imitate
   these good examples. Then all stand together and offer prayers. Bread and wine mixed with water are
-  brought, and the president offers prayers and thanksgivings "according to his ability," and the people
-  assent, saying "Amen." Those present who have means, and are willing, give what they choose, and this
-  collection is given to the one presiding, who cares for orphans and widows, the sick, prisoners, and
+  brought. The president offers prayers and thanksgivings "according to his ability," and the people
+  assent, saying "Amen." Those present who have means, and are willing, give what they choose. This
+  collection is given to the one presiding. He cares for orphans and widows, the sick, prisoners, and
   strangers sojourning among them — "in a word, he takes care of all who are in need."
 
 
@@ -91,3 +91,14 @@ chunk_slug: justin-sunday-gathering
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory006_justin-sunday-gathering.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is Strand B's clearest, most directly attested evidence for G07 (Liturgical Practice/Eucharist, Primary) — a first-person, dated, named-author account of the shape of a gathering: reading, exhortation, corporate prayer, thanksgiving over bread and wine, and a collection tied directly to care for the vulnerable. It shows something Story 010 and Story 011 cannot: an eyewitness's own summary account of ordinary, recurring Roman practice, offered to defend that practice to a hostile outside audience rather than to instruct insiders.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field's FK
+grade at 10.1 (FRE was already 62.0, above the floor). Only one sentence needed work: a 50-word sentence
+joining two comma-linked clauses ("Bread and wine...are brought, and the president offers...") and a
+further comma-linked pair ("Those present...give what they choose, and this collection is given..., who
+cares for..."). Per Mark's decision to extend the readability pass to story records, this sentence is
+split into four short ones along its own existing clause boundaries (one clause per sentence, in the
+same order); no plain-synonym substitution was needed - the rest of the record already read cleanly. All
+four embedded direct quotations ("we," "according to his ability," "Amen," and the load-bearing key_line
+"in a word, he takes care of all who are in need") are untouched, word for word. No fact, hedge, or
+attribution is dropped. Re-scored: FK 7.7 / FRE 67.9, clearing both thresholds.

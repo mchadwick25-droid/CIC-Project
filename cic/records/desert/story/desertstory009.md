@@ -18,11 +18,11 @@ narrative_tier:
     Inferential / Thin for any claim beyond what the surviving sayings themselves state. No individual
     saying of hers is vetted into this build''s record - which is why this record licenses allusion only,
     never scene-telling or quotation (CO-P2-07).'
-text: The tradition preserves sayings under Amma Syncletica's name - she is one of the named mothers whose
-  tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed
-  sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole;
-  what can be told is that she is real, named, and attested, and that her material is thin - said plainly
-  rather than filled.
+text: The tradition preserves sayings under Amma Syncletica's name. She is one of the named mothers whose
+  tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus
+  as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her
+  individual sayings whole. What can be told is that she is real, named, and attested. Her material is
+  thin. This is said plainly, rather than filled in.
 attested_occasion: None carried - her attestation in this build is corpus-level (the ammas' sayings within
   the Apophthegmata tradition, srcDES006); no individual saying with its occasion is vetted into the record.
 tellable_as: allusion-only
@@ -51,3 +51,12 @@ chunk_slug: amma-syncletica-among-the-named-mothers
 CO-P2-07 allusion-only story record (2026-07-27): attested-fact text only - no saying invented, no material imported from outside the build's record.
 
 S3.4 (2026-07-27): beyond-Sarah guard added as an evaluable DNRW - the record's own retrieve-when scope, now enforceable (the cross-encoder cannot read scoping semantics; the guard vote can).
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 16.8 / FRE 35.7 - two dash/semicolon-joined sentences each carrying a chain of qualifying clauses.
+Per Mark's decision to extend the readability pass to story records, both are split at their own existing
+dash and semicolon boundaries into shorter sentences, plus one plain-synonym substitution ("transmitted"
+-> "passed down"). No hedge or claim is dropped - the honest-thinness framing ("real, named, and attested,"
+"her material is thin," "said plainly rather than filled in") and the attestation basis (the same
+later-compiled apparatus as the male-attributed sayings, a much smaller surviving sample, no individual
+saying carried whole) are unchanged. Re-scored: FK 6.7 / FRE 65.8, clearing both thresholds.

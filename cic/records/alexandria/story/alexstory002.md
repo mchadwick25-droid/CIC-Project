@@ -20,16 +20,16 @@ narrative_tier:
     The account is internally consistent with the independently attested fact of Didymus''s blindness
     and his standing as a teacher in Alexandria in this period.'
 text: A visitor to Alexandria, later in this world's life, tells us of going to see the blind teacher
-  four times over ten years, seeking him out the way one seeks out someone whose sight has gone but whose
-  seeing has not. He tells us Didymus had lost his eyes as a small child, before he had learned even his
-  letters, and so had never read a word with his own eyes in his whole life — and that this had not closed
-  a single door his formation needed open. The visitor tells us Didymus explained it himself, likening
-  his blindness to the blindness of the mice and ants and other small creatures who have no eyes at all
-  and yet find what they need; if such creatures may still possess what they need without sight, he reasoned,
-  why should he grieve for the loss of eyes that are shared even by gnats and flies, when he possessed
-  instead the eyes that the saints see God with — eyes by which the deep things of God are perceived?
-  He heard the man discourse from memory on Scripture with the same command another might bring to a scroll
-  open on the table before him.
+  four times over ten years. He sought him out the way one seeks out someone whose sight has gone but
+  whose seeing has not. He tells us Didymus had lost his eyes as a small child, before he had learned
+  even his letters. So he had never read a word with his own eyes in his whole life. But this had not
+  closed a single door his formation needed open. The visitor tells us Didymus explained it himself,
+  likening his blindness to the blindness of the mice and ants and other small creatures who have no
+  eyes at all and yet find what they need. If such creatures may still possess what they need without
+  sight, he reasoned, why should he grieve for the loss of eyes that are shared even by gnats and flies?
+  Instead, he possessed the eyes that the saints see God with, the eyes by which the deep things of God
+  are perceived. He heard the man discourse from memory on Scripture with the same command another might
+  bring to a scroll open on the table before him.
 attested_occasion: Palladius's personal visits to the blind teacher Didymus in Alexandria, recounted in
   the Lausiac History (c. 419-420) as direct testimony.
 tellable_as: scene
@@ -77,3 +77,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 18.8 / FRE 49.5 - four sentences stacked with semicolons, em-dashes, and stringed "and so ...
+and that" clauses (the mice-and-ants reasoning sentence alone ran a semicolon into a "when he possessed"
+subordinate clause into an em-dash aside ending in a question mark). Per Mark's decision to extend the
+readability pass to story records, each sentence is split at its own existing semicolon, em-dash, or
+conjunction boundary, and the trailing "when he possessed instead" clause is turned into its own sentence
+opening "Instead, he possessed" so it can stand alone. No fact, hedge, or attribution is dropped - Palladius's
+"tells us" framing, the four visits over ten years, Didymus's childhood blindness before he learned his
+letters, the mice-and-ants-and-gnats-and-flies reasoning, and the closing image of Scripture held from
+memory are all unchanged. Re-scored: FK 7.9 / FRE 78.1, clearing both thresholds.

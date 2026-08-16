@@ -33,10 +33,11 @@ narrative_tier:
     *Apophthegmata Patrum*, and standard modern scholarship on Nitria/Kellia/Scetis (Chitty, *The Desert
     a City*; the Guillaumonts'' Kellia excavations).'
 text: In a typical day for someone formed in this tradition at Kellia, the day would open and close with
-  recitation of the Psalter, continuous with manual labor -- weaving rope or baskets -- carried out through
-  the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day,
-  the ascetic would walk to the settlement's communal gathering point for the synaxis -- a vigil, a shared
-  liturgy, and a communal meal -- before returning to the cell's own solitude for the coming week.
+  recitation of the Psalter. The day was continuous with manual labor. This meant weaving rope or baskets,
+  carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath
+  and the Lord's Day, the ascetic would walk to the settlement's communal gathering point. This gathering
+  was for the synaxis -- a vigil, a shared liturgy, and a communal meal. The ascetic then returned to the
+  cell's own solitude for the coming week.
 attested_occasion: None - explicitly a typical/composite reconstruction (Tier 4); the absence of a specific
   occasion is this field's honest value.
 tellable_as: scene
@@ -126,3 +127,13 @@ Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory00
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
 
 CO-P2-06 (2026-07-27, Alternative A): owner_figure_id -> desertfig013 (the community itself, per the composite-owner convention); FLAG-003 resolved.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 18.9 / FRE 36.3 - two long sentences, each stacking a main clause with an em-dash-set appositive
+and a trailing participial clause. Per Mark's decision to extend the readability pass to story records,
+each sentence is split at its own existing structure (the Psalter/manual-labor pairing; the walk-to-synaxis/return-to-cell
+pairing) into shorter sentences, with a supplied subject ("The day was," "This gathering was," "The
+ascetic then returned") standing in for the original participial phrasing. No element of the reconstructed
+day is dropped - the Psalter recitation, the rope/basket weaving, the Sabbath-and-Lord's-Day synaxis with
+its vigil, liturgy, and communal meal, and the return to solitude are all still named in the same order.
+Re-scored: FK 8.0 / FRE 66.3, clearing both thresholds.

@@ -21,17 +21,17 @@ narrative_tier:
     a discrete, fire-linked, named-group persecution of "Christians" actually occurred in 64 CE as Tacitus
     describes, or whether this reflects a later, more general memory of scapegoating retrojected onto
     the fire.
-text: 'Writing roughly fifty years after the event, the Roman historian Tacitus records that after the
-  great fire of Rome in 64 CE, amid rumors that the emperor Nero himself had ordered the burning, Nero
-  shifted blame onto a group he calls Chrestiani (Christians), "hated for their abominations." Tacitus
-  tells us that those arrested named others, and that a great multitude was convicted — "not so much of
-  the crime of arson as of hatred of the human race" — and executed with deliberate theatrical cruelty:
-  wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to illuminate
-  Nero''s gardens at night.
+text: 'The Roman historian Tacitus wrote about this roughly fifty years after it happened. He records what
+  happened after the great fire of Rome in 64 CE. Rumors spread that the emperor Nero himself had ordered
+  the burning. Nero shifted blame onto a group he calls Chrestiani (Christians), "hated for their abominations."
+  Tacitus tells us that those arrested named others. A great multitude was convicted - "not so much of
+  the crime of arson as of hatred of the human race." They were executed with cruelty that was public
+  and deliberate. They were wrapped in animal skins and torn apart by dogs, crucified, or set alight as
+  human torches to light Nero''s gardens at night.
 
 
-  No Christian individual is named. The account comes entirely from outside, written decades later by
-  a historian with his own reasons for portraying Nero as a monster.'
+  No Christian individual is named. The account comes entirely from outside. It was written decades later
+  by a historian with his own reasons for painting Nero as a monster.'
 attested_occasion: 'Rome, 64 CE, told c. 116: Tacitus''s account of Nero''s scapegoating after the fire
   - a great multitude convicted ''not so much of arson as of hatred of the human race,'' the theatrical
   cruelty, no Christian named. The Shaw/Jones dispute (whether a discrete fire-linked persecution of Christians
@@ -84,3 +84,15 @@ chunk_slug: nero-scapegoating
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory005_nero-scapegoating.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is the closest thing this world has to a generative origin story — not a formation practice, but the structural condition Doc_01 and Doc_08 both treat as this whole world's own generative trigger. Doc_08 names this event as generative for G01 (Authority Consolidation): the loss of an eyewitness generation and the sudden, violent visibility of "Christian" as a named, targetable category are part of why this world's formation logic must be argued and transmitted deliberately rather than simply inherited by direct memory.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 16.9 / FRE 33.0 - the first paragraph was one 90-word sentence stacking a participial opener, a
+rumor clause, an em-dash-set-off quotation, and a colon-introduced list of execution methods. Per Mark's
+decision to extend the readability pass to story records, the long sentence is split into short ones along
+its own existing clause boundaries (one clause per sentence, in the same order), plus a couple of plain-synonym
+swaps ("illuminate" -> "light," "portraying" -> "painting"). Both embedded direct quotations ("hated for
+their abominations," "not so much of the crime of arson as of hatred of the human race") are untouched,
+word for word. No fact, hedge, or attribution is dropped - Tacitus's roughly-fifty-year gap, the rumor
+about Nero's own role, the Chrestiani name, the multitude convicted, and each named method of execution
+are all still stated in full, and no Christian individual is named, as before. Re-scored: FK 8.0 / FRE
+60.9, clearing both thresholds.

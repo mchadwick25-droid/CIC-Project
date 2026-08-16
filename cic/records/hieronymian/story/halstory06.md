@@ -18,11 +18,11 @@ narrative_tier:
     words are put in her mouth — follows genre conventions of idealization and cannot be treated as historical
     reporting of specific scenes.
 text: 'This is how the household remembers the widow Paula — not merely what happened to her, but what
-  her life was held up to show: a woman of senatorial birth who gave away what she had until her own household
-  could no longer easily say where the wealth had gone, and who still, from that same emptied purse, raised
-  a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these
-  two things — total poverty, or the capacity still to build — was truer. Both are told together, without
-  resolving the tension between them.'
+  her life was held up to show. She was a woman of senatorial birth who gave away what she had until
+  her own household could no longer easily say where the wealth had gone. Yet she still, from that same
+  emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does
+  not ask which of these two things — total poverty, or the capacity still to build — was truer. Both
+  are told together, without resolving the tension between them.'
 attested_occasion: 'The Epitaphium Sanctae Paulae (Ep. 108) as formation portrait: senatorial birth, wealth
   given until the household could not say where it had gone, and still - from the same emptied purse -
   a monastery, a convent, a house of welcome raised; the bare death date (26 January 404) Tier-1-adjacent,
@@ -64,3 +64,11 @@ chunk_filename: hal_story06_paulas-epitaph.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story06_paulas-epitaph.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the ascetic self-impoverishment gravity at its richest, and the memory-structures/formation-narrative dimension of this world's ecology — the epitaph-letter genre does formation work by showing what a well-formed life looks like, not merely recording what happened.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 14.0 / FRE 53.7 - a colon-joined lead sentence with a trailing "and who still" clause. Per Mark's
+decision to extend the readability pass to story records, the colon becomes a period and the "and who
+still" clause becomes its own sentence with "Yet" carrying the contrast forward. No fact, hedge, or
+qualifier is dropped - Paula's senatorial birth, the emptied wealth, the monastery/convent/hostel she
+still raised, and the household's refusal to decide which fact was truer are all unchanged. Re-scored:
+FK 8.9 / FRE 67.4, clearing both thresholds.

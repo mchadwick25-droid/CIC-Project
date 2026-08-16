@@ -28,18 +28,18 @@ narrative_tier:
     supernatural-content claim are two different things, and only the first is what Tier 1 confidence
     here rests on.'
 text: 'Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions.
-  In the first, an elderly woman appears to him, who he later learns represents the Church itself, grown
+  In the first, an elderly woman appears to him. He later learns she represents the Church itself, grown
   old because she was created first, before all things. In a later vision, she grows younger and more
-  radiant as Hermas''s own understanding and the Church''s own renewal progress. Through her, and later
-  through a figure called the Shepherd, Hermas is given a message that becomes the center of his book:
-  that God has granted one — and only one — opportunity for repentance after baptism for those who have
-  fallen into serious sin, and that this mercy is offered now, before a final closing of that door.
+  radiant, as Hermas''s own understanding and the Church''s own renewal progress. Through her, and later
+  through a figure called the Shepherd, Hermas is given a message that becomes the center of his book.
+  God has granted one - and only one - opportunity for repentance after baptism for those who have fallen
+  into serious sin. This mercy is offered now, before a final closing of that door.
 
 
-  Hermas names Clement by name as a specific, named figure in this world''s own tradition (*Vision* 2.4.3),
-  instructed to send copies of the visions to other cities, and Grapte, instructed to exhort the widows
-  and orphans — placing Hermas''s own household squarely inside Rome''s own plural-leadership pattern,
-  addressed to specific, named roles rather than to a single bishop.'
+  Hermas names Clement by name as a specific, named figure in this world''s own tradition (*Vision* 2.4.3).
+  Clement is instructed to send copies of the visions to other cities. Grapte is instructed to exhort
+  the widows and orphans. This places Hermas''s own household squarely inside Rome''s own plural-leadership
+  pattern, addressed to specific, named roles rather than to a single bishop.'
 attested_occasion: 'Rome, composite composition c. 90-150: Hermas''s own reported visions - the Church
   as an elderly woman growing younger, the Shepherd, the one urgent post-baptismal repentance offered
   before the door closes; Clement and Grapte named to specific roles (Vision 2.4.3), Rome''s plural-leadership
@@ -91,3 +91,14 @@ chunk_slug: hermas-visions
 Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/story_chunks/pahcstory007_hermas-visions.md` (mapping in `wrs/migrate/s62_pahc_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; sources extracted mechanically from the Source line's own Registry tags; occasion/owner/frame authored per the fleet S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story feeds G01 (Authority Consolidation, Supporting) from its Strand B side — the named Clement/Grapte instruction in *Vision* 2.4.3 is direct evidence of Rome's own plural-role leadership pattern operating without a monarchical bishop. It also supplies this world's central penitential-formation material (Doc_05, Doc_07 §§2A, 2H) — a formation logic organized around a single, urgent, time-limited mercy for post-baptismal sin, distinct from anything in Strand A's surviving material.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 14.1 / FRE 47.6 - the first paragraph carried a relative clause ("who he later learns represents...")
+and a colon-introduced en-dash-set-off enumeration, and the second paragraph was one 65-word sentence chaining
+two parenthetical asides into an em-dash-introduced summary clause. Per Mark's decision to extend the
+readability pass to story records, both long sentences are split into short ones along their own existing
+clause boundaries (one clause per sentence, in the same order); the relative pronoun "who" is replaced with
+"He later learns she..." since the clause needed its own subject to stand alone, following this project's
+standard convention for splitting a subject-less relative clause. No fact, hedge, or attribution is dropped
+- the elderly-woman vision, the Shepherd, the one-time post-baptismal mercy, and the named Clement/Grapte
+instruction are all still stated in full. Re-scored: FK 8.8 / FRE 61.0, clearing both thresholds.

@@ -22,11 +22,11 @@ narrative_tier:
     core. Nicaea attendance specifically, however, is the best-attested single claim within that dossier,
     distinct from and more secure than the miracle material treated separately at Tier 3.
 text: Jacob, bishop of Nisibis from around 309, is remembered as one of the bishops present at the Council
-  of Nicaea in 325, standing among those who opposed the Arian teaching. The surviving lists of Nicene
-  signatories that record his name are late, composite manuscripts, reconstructed by modern scholarship
-  rather than a single contemporary document, and place him at the seventy-seventh position among the
-  assembled bishops. Later church historians, writing a century or more afterward, remembered him specifically
-  for his part in resisting Arius's teaching at the council.
+  of Nicaea in 325. He stood among those who opposed the Arian teaching. The lists of signers that survive
+  and record his name are late. They are composite manuscripts, pieced together by modern scholars rather
+  than a single document from that time. These lists place him at the seventy-seventh position among the
+  gathered bishops. Later church historians wrote a century or more afterward. They remembered him for
+  his part in standing against Arius's teaching at the council.
 attested_occasion: 'Nicaea, 325: Jacob bishop of Nisibis (from c. 309) among the signatories - the surviving
   lists are late composite manuscripts reconstructed by modern scholarship (Honigmann, position 77), and
   no contemporary fourth-century document independently confirms the anti-Arian role later historians
@@ -92,3 +92,13 @@ chunk_slug: jacob-nisibis-nicaea
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory003_jacob-nisibis-nicaea.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story ties Nisibis — and through Jacob, Ephrem's own formation as his traditional student — to the wider imperial-conciliar church at the very moment (325 CE) that church was defining itself against Arianism, even though this world's own formation logic (Doc_07, Section 2B) runs on a poetic-typological method quite unlike the philosophical-categorical mode of the Nicene debates themselves. It is a modest but real data point for C4 (Authority-Structure Ambiguity): Jacob's own episcopal standing is, in this one instance, unusually well-external-attested compared to the ambiguity Doc_04/07 found surrounding Aphrahat's status — a contrast worth preserving rather than flattening.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (three
+sentences, the second and third each stacking multiple appositive and participial clauses) at FK grade
+16.9 / FRE 25.7. Per Mark's decision to extend the readability pass to story records, the three sentences
+are split into seven shorter ones along their own existing clause boundaries, with a few plain-synonym
+swaps ("reconstructed" -> "pieced together," "assembled" -> "gathered," "resisting" -> "standing against").
+No fact, name, or hedge is dropped - Jacob's bishopric from around 309, his presence at Nicaea in 325,
+the lateness and composite nature of the signatory lists, the seventy-seventh position, and the "later
+historian, not contemporary" hedge on the anti-Arian attribution are all unchanged. Re-scored: FK 8.2 /
+FRE 60.4, clearing both thresholds.

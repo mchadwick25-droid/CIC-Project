@@ -19,14 +19,15 @@ narrative_tier:
     This is identity-bearing tradition, structurally comparable to other early churches'' apostolic-foundation
     claims (Rome''s Peter-and-Paul tradition, Edessa''s Addai tradition), and is offered on the same footing:
     real as a claim this community makes about itself, not documented as a first-century event.'
-text: 'This world tells of its own beginning the way a household tells of its own founding: not as a matter
-  it argues, but as a thing it simply knows about itself. The account it keeps is that Mark, the evangelist
-  who wrote the second Gospel and who had been a companion of Peter, came to this city and first proclaimed
-  the Gospel here, establishing the church that would grow into the community this world''s own life belongs
-  to. The tradition does not dwell on the details of the visit — it is stated more than narrated, a claim
-  of origin rather than a scene. What matters to those who hold it is what it establishes: that this city''s
-  Christian life reaches back to the apostolic generation itself, through a companion of one of the Twelve,
-  and is not a later or lesser thing than the churches that trace themselves to Peter or Paul directly.'
+text: 'This world tells of its own beginning the way a household tells of its own founding. It is not a matter
+  it argues, but a thing it simply knows about itself. The account it keeps is that Mark came to this city
+  and first proclaimed the Gospel here. [He was] the evangelist who wrote the second Gospel and who had
+  been a companion of Peter. His work established the church that would grow into the community this world''s
+  own life belongs to. The tradition does not dwell on the details of the visit. It is stated more than
+  narrated, a claim of origin rather than a scene. What matters to those who hold it is what it establishes.
+  This city''s Christian life reaches back to the apostolic generation itself, through a companion of one
+  of the Twelve. And it is not a later or lesser thing than the churches that trace themselves to Peter
+  or Paul directly.'
 attested_occasion: The Markan foundation as first clearly asserted by Eusebius (HE 2.16, early 4th c.)
   - a later foundation-narrative carrying identity weight, not documented 1st-century history (Doc_01
   §2.2).
@@ -69,3 +70,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 15.8 / FRE 50.2 - four sentences, each built on a colon or em-dash introducing a long trailing
+clause (the "Mark, the evangelist who ... and who ... came ... establishing ..." sentence alone carried
+three stacked relative and participial clauses). Per Mark's decision to extend the readability pass to
+story records, each sentence is split at its own existing colon, em-dash, or relative-clause boundary,
+with one bracketed supplied word ([He was]) standing in for the missing subject of the "evangelist who
+wrote ..." clause. No fact, hedge, or attribution is dropped - Mark's identity as the evangelist and
+companion of Peter, his coming to the city and first proclaiming the Gospel there, the tradition's own
+"stated more than narrated" caution, and the closing claim of standing alongside Rome's Peter-and-Paul
+tradition are all unchanged. Re-scored: FK 6.8 / FRE 74.5, clearing both thresholds.

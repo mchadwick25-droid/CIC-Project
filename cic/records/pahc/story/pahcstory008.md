@@ -30,28 +30,28 @@ narrative_tier:
     does not treat that as a defect to be smoothed over. Per the Framework''s own discipline, the account
     of what a formed life looks like is itself genuine formation-ecology evidence, even where specific
     narrated details (the fire''s behavior, the dove) cannot be treated as historical reporting.'
-text: 'This is how the tradition remembers Polycarp — what the community that had known him believed a
-  life fully given to this world''s formation logic could become, even to its very end. The church at
-  Smyrna tells the story of Polycarp, aged bishop, refused flight when his own community begged him to
-  go into hiding, then withdrew briefly at their urging before being betrayed by someone in his own household
-  under torture. Brought before the proconsul and told to swear by the emperor''s fortune, curse Christ,
-  and be spared, Polycarp answers: "Eighty-six years I have served him, and he has done me no wrong. How
-  can I blaspheme my King who saved me?"
+text: 'This is how the tradition remembers Polycarp. It is what the community that had known him believed
+  a life fully given to this world''s formation logic could become, even to its very end. The church at
+  Smyrna tells the story of Polycarp, an aged bishop. He refused flight when his own community begged
+  him to go into hiding. He then withdrew briefly at their urging. He was betrayed by someone in his own
+  household, under torture. He was brought before the proconsul and told to swear by the emperor''s fortune,
+  curse Christ, and be spared. Polycarp answers: "Eighty-six years I have served him, and he has done me
+  no wrong. How can I blaspheme my King who saved me?"
 
 
-  The tradition tells us the crowd called for a lion, then for fire; that the fire, when lit, arched around
-  him "like a ship''s sail filled by the wind" without touching him, so that he had to be finished with
-  a dagger; that the wound produced not blood but such a quantity that it quenched the fire around it,
-  and that a dove flew out — a detail many manuscripts do not carry, and which even ancient copyists disputed.
-  The community tells us they gathered his bones afterward, "more precious than the finest gold," to keep
-  at his tomb and gather there each year on the day of his death — his *dies natalis*, his birthday into
-  true life — "both in memory of those who have already fought the contest, and for the training and preparation
-  of those who will do so."
+  The tradition tells us the crowd called for a lion, then for fire. The fire, when lit, arched around
+  him "like a ship''s sail filled by the wind" without touching him, so he had to be finished with a dagger.
+  The wound produced not blood but such a quantity that it quenched the fire around it, and a dove flew
+  out. This is a detail many manuscripts do not carry, and which even ancient copyists disputed. The community
+  tells us they gathered his bones afterward, "more precious than the finest gold." They kept the bones
+  at his tomb and gathered there each year on the day of his death, his *dies natalis*, his birthday into
+  true life. They did this "both in memory of those who have already fought the contest, and for the training
+  and preparation of those who will do so."
 
 
-  This is the tradition''s own witness to what it believed formation could produce, told in the register
-  the tradition itself uses to honor it — not a transcript of what happened, but a testimony to what it
-  meant.'
+  This is the tradition''s own witness to what it believed formation could produce. It is told in the
+  register the tradition itself uses to honor him. It is not a transcript of what happened, but a testimony
+  to what it meant.'
 attested_occasion: 'Smyrna''s letter to Philomelium (trad. c. 155-156; Eusebius 167; chs. 20-22 widely
   held later additions): Polycarp''s arrest, the eighty-six-years answer, the fire like a ship''s sail,
   the dagger, the disputed dove, the bones ''more precious than the finest gold'' and the annual gathering
@@ -112,3 +112,16 @@ Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/sto
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is the second and last data point supporting G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) — alongside Story 001, this is the entire evidentiary weight this gravity rests on in this world. It shows the formation ideal from the community's own side, complementing Story 001's first-person account: not simply how one man interpreted his own death, but how a whole community remembered and ritually reenacted the meaning of one leader's death for its own ongoing formation.
 
 The bone-collection scene and the annual gathering are themselves formation practice, not merely narrative decoration — they show the community actively building a commemorative rite around this story, which is itself evidence of how central this meaning-response was to Strand A's own formation logic.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 16.9 / FRE 47.5 - the text ran a string of em-dash and semicolon-joined clauses across all three
+paragraphs, most notably one 90-word semicolon chain narrating the fire, the dagger, the wound, and the
+dove as a single sentence. Per Mark's decision to extend the readability pass to story records, these long
+sentences are split into short ones along their own existing clause boundaries (one clause per sentence,
+in the same order); no plain-synonym substitution was needed. The full key_line quotation ("Eighty-six
+years I have served him...") and every other embedded direct quotation ("like a ship's sail filled by the
+wind," "more precious than the finest gold," "both in memory of those who have already fought the contest,
+and for the training and preparation of those who will do so") are untouched, word for word, as is the
+*dies natalis* term. No fact, hedge, or attribution is dropped - the betrayal by a household member, the
+disputed dove detail, and the tradition-not-transcript framing are all still stated in full. Re-scored:
+FK 6.7 / FRE 75.3, clearing both thresholds.

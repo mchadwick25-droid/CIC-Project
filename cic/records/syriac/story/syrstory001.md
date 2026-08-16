@@ -57,12 +57,12 @@ narrative_tier:
     source ecology is structurally literary and theological rather than narrative-historical, and it means
     no story in this repository claims the strongest available tier. See Doc_09, Section 2, Tier distribution.'
 text: In his notice on Ephrem, Gennadius records that toward the end of his life, Edessa was struck by
-  famine. Ephrem, already known as a deacon and teacher within the city's ascetic community, came out
-  from the discipline of his own retirement to organize relief for those suffering the famine — securing
-  what provision he could for them and seeing to their care directly rather than through others. He died
-  not long after, in the same year, worn by this labor on behalf of the starving. Gennadius dates this
-  to the reign of the emperors Valens, Gratian, and the elder Valentinian — placing Ephrem's death in
-  373.
+  famine. Ephrem was already known as a deacon and teacher within the city's ascetic community. He came
+  out from the discipline of his own retirement to organize relief for those suffering the famine. He
+  secured what provision he could for them and saw to their care directly rather than through others. He
+  died not long after, in the same year, worn by this labor on behalf of the starving. Gennadius dates
+  this to the reign of the emperors Valens, Gratian, and the elder Valentinian. This places Ephrem's death
+  in 373.
 attested_occasion: The Edessa famine of 373 and Ephrem's death soon after organizing relief - Gennadius
   of Marseille's Supplement notice (c. 470s-490s), the SOLE source for the claim; Jerome's genuinely in-window
   entry (392/3) does not corroborate the famine or the manner of death (the chunk's own Tier Justification,
@@ -116,3 +116,11 @@ chunk_slug: ephrem-famine-death
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory001_ephrem-famine-death.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story illuminates the practical, communal edge of C2 (Covenanted Ascetic Life) — the qyama order's own discipline was not confined to vigil and vow but extended, at least in this attested instance, to organized material relief in crisis. It shows something Doc_05's Human Ecology (Section 1.1) and Ministry Ecology (Section 5.3) sections describe more abstractly — a formation logic that produced not only teachers and hymnists but also a deacon who set aside his own retirement to feed a starving city — made concrete in a single, specific, attested act. It also supplies a rare data point of this world's own communal life reaching the ordinary and destitute directly, a population Doc_02 (Section 7) otherwise found almost entirely absent from the surviving record.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (five
+sentences, several stacking appositive and participial clauses) at FK grade 12.1 / FRE 54.4. Per Mark's
+decision to extend the readability pass to story records, the sentences are split into seven shorter ones
+along their own existing clause boundaries; no word is changed. No fact or hedge is dropped - Gennadius as
+the sole named source, Ephrem's status as deacon and teacher, his coming out of retirement to organize
+relief, his death soon after "worn by this labor," and the 373 dating via the named emperors are all
+unchanged. Re-scored: FK 7.6 / FRE 68.2, clearing both thresholds.

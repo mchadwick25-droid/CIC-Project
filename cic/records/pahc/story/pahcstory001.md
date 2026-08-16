@@ -28,24 +28,24 @@ narrative_tier:
     160–180 CE position. This story''s Tier 1 classification follows the majority position but does not
     erase the minority one — see Usage Guidance.'
 text: 'In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed
-  guard — "ten leopards," he calls his soldiers, "who only get worse the better they are treated" — on
-  the long overland journey toward Rome, where he expected to be thrown to wild beasts in the arena. Writing
-  from stops along that route, he tells us that churches came out to meet him: delegations from Ephesus,
-  Magnesia, Tralles met him at Smyrna; the church at Rome received a letter sent ahead of him, urging
-  them not to intervene to save his life. "Let me be food for the wild beasts," he writes, "through which
-  I can reach God... I am God''s wheat, and I am being ground by the teeth of wild beasts, that I may
-  prove to be pure bread of Christ."
+  guard. "Ten leopards," he calls his soldiers, "who only get worse the better they are treated." He was
+  sent on the long overland journey toward Rome, where he expected to be thrown to wild beasts in the
+  arena. Writing from stops along that route, he tells us that churches came out to meet him. Delegations
+  from Ephesus, Magnesia, and Tralles met him at Smyrna. The church at Rome received a letter sent ahead
+  of him, urging them not to intervene to save his life. "Let me be food for the wild beasts," he writes,
+  "through which I can reach God... I am God''s wheat, and I am being ground by the teeth of wild beasts,
+  that I may prove to be pure bread of Christ."
 
 
   Along the way he wrote at least seven letters that survive, addressing controversies in the churches
-  he passed or heard from — insisting that each community gather around one bishop, one altar, one eucharist,
-  and pressing this instruction with real urgency, as a man who believed his own approaching death gave
+  he passed or heard from. He insisted that each community gather around one bishop, one altar, one eucharist.
+  He pressed this instruction with real urgency, as a man who believed his own approaching death gave
   his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches
-  ahead, and thanks Polycarp of Smyrna''s community by name for their hospitality.
+  ahead. And he thanks Polycarp of Smyrna''s community by name for their hospitality.
 
 
-  This is a condemned man''s own account, written in transit, of what he believed his death would mean
-  and what he believed the churches receiving his letters needed to hear before it happened.'
+  This is a condemned man''s own account, written in transit. It tells what he believed his death would
+  mean, and what he believed the churches receiving his letters needed to hear before it happened.'
 attested_occasion: 'Ignatius''s guarded journey toward the Roman arena (trad. c. 107-117, under Trajan):
   the seven letters written in transit - delegations meeting him at Smyrna, the letter sent ahead to Rome
   begging no rescue, the one-bishop instruction pressed with a condemned man''s urgency. The three-way
@@ -122,3 +122,16 @@ Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/sto
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story is this world's single most concentrated illustration of three confirmed gravities at once. It shows G02 (Translocal Correspondence Network, Primary) in its most vivid form — a network activated in real time around one man's crisis, with delegations traveling to meet him and letters moving ahead of him. It shows G04 (Martyrdom as Meaning-Response, Supporting, Strand A only) as a lived stance, not an abstract doctrine: Ignatius does not merely accept death, he interprets it as the means by which his formation completes. And it shows G05 (Boundary-Drawing vs. Rivals, Tensional, Strand A only) in the urgency with which Ignatius presses one-bishop unity precisely because he believes rival teaching is a live threat to communities he will not see again.
 
 This story does formation work a lexicon entry cannot do: it shows why "one bishop, one altar" was not merely an administrative preference for at least one Strand A voice, but something argued for by a man who believed he was about to die for it.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 14.8 / FRE 52.5 - the first paragraph was one 100-word sentence chaining two em-dash asides, a
+colon-introduced enumeration, and a semicolon-joined pair; the second paragraph chained an em-dash aside
+into a further conjunction. Per Mark's decision to extend the readability pass to story records, both
+long sentences are split into short ones along their own existing clause boundaries (one clause per sentence,
+in the same order); no plain-synonym substitution was needed. Every embedded direct quotation is untouched,
+word for word, including the load-bearing key_line - "I am God's wheat, and I am being ground by the teeth
+of wild beasts, that I may prove to be pure bread of Christ" - and "ten leopards," "who only get worse
+the better they are treated," and "Let me be food for the wild beasts... through which I can reach God."
+No fact, hedge, or attribution is dropped - the delegations from Ephesus, Magnesia, and Tralles, the letter
+sent ahead to Rome, the seven surviving letters, the one-bishop-one-altar instruction, and the request
+to Polycarp are all still stated in full. Re-scored: FK 7.4 / FRE 72.6, clearing both thresholds.

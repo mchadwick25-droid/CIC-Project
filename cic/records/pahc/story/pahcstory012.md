@@ -18,26 +18,27 @@ narrative_tier:
     answers, drawing across four separate primary sources. Every specific claim traces to an already-attested
     instruction or argument in one of those four sources; see Source Identification below.
 text: 'This is how it would have been, in the typical life of someone formed under each of this world''s
-  two structurally parallel answers to the question of who leads.
+  two parallel answers to the question of who leads.
 
 
-  In a community formed like Ignatius''s own churches, a member''s day would orient around the bishop:
-  attendance at the bishop''s own eucharist as the only valid one, deference to the bishop as one would
-  to Jesus Christ himself, presbyters honored "as the council of the apostles" and deacons as entrusted
-  with "the ministry of Jesus Christ" — every significant act of communal life, from baptism to the love-feast,
-  checked against a single, named, visible authority whose approval made it secure and valid.
+  In a community formed like Ignatius''s own churches, a member''s day would orient around the bishop.
+  The bishop''s own eucharist was the only valid one to attend. Members owed him deference, as one would
+  to Jesus Christ himself. Presbyters were honored "as the council of the apostles," and deacons were
+  entrusted with "the ministry of Jesus Christ." This covered every significant act of communal life,
+  from baptism to the love-feast. Each act was checked against a single, named, visible authority. His
+  approval made it secure and valid.
 
 
-  In a community formed like Rome''s own — the Rome that produced 1 Clement, that Hermas addresses through
-  named figures like Clement and Grapte rather than a single bishop, whose *Vision* 2.4.3 assumes plural,
-  distinguishable roles without ever naming one bishop over the rest — a member''s day would orient differently:
-  toward a council of presbyters holding office by legitimate appointment and long service, removable
-  only for genuine cause (as 1 Clement''s own argument insists), with authority distributed across recognized
-  elders rather than concentrated in one visible figure.
+  In a community formed like Rome''s own, a member''s day would orient differently. This was the Rome
+  that produced 1 Clement, the Rome Hermas addresses through named figures like Clement and Grapte rather
+  than a single bishop. Its *Vision* 2.4.3 assumes plural, separate roles. It never names one bishop over
+  the rest. The day oriented instead toward a council of presbyters, holding office by proper appointment
+  and long service. They were removable only for real cause, as 1 Clement''s own argument insists. Authority
+  was spread across recognized elders, rather than held by one visible person.
 
 
-  Both are reconstructions of what it would have meant to live inside each of this world''s own answers
-  — neither is presented as more original, more correct, or more typical than the other.'
+  Both are reconstructions of what it would have meant to live inside each of this world''s own answers.
+  Neither is presented as more original, more correct, or more typical than the other.'
 attested_occasion: 'The repository''s most fully composite story (across P02/P03/P04/P05): a member''s
   day under each of the two strands held side by side - the bishop-anchored day and the presbyter-council
   day - ''neither presented as more original, more correct, or more typical'' (the chunk''s own rule;
@@ -118,3 +119,16 @@ Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/sto
 
 **Element from Story Text:** The synthesis holding both strands in explicit parallel as this world's own two structurally comparable answers.
 **Source:** Doc_05 §§1.1, 5.1, 6.1, 6.3 (this world's own prior inhabited-voice reconstruction, itself built from the same four primary sources above).
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 21.7 / FRE 21.0 - each of its two strand paragraphs was a single colon-and-em-dash-joined sentence
+stacking a full enumeration of practice details into one clause. Per Mark's decision to extend the readability
+pass to story records, both long sentences are split into short ones along their own existing clause
+boundaries (one clause per sentence, in the same order), plus a few plain-synonym swaps ("structurally
+parallel" -> "parallel," "distinguishable" -> "separate," "legitimate appointment" -> "proper appointment,"
+"concentrated in one visible figure" -> "held by one visible person"). Both embedded direct quotations
+("as the council of the apostles," "the ministry of Jesus Christ") are untouched, word for word. No fact,
+hedge, or attribution is dropped - the bishop-anchored strand (Ignatius) and the presbyter-council strand
+(Rome, 1 Clement, Hermas's named Clement and Grapte) are both still described in full, and the closing
+"neither is presented as more original, more correct, or more typical" rule is unchanged. Re-scored: FK
+8.0 / FRE 61.4, clearing both thresholds.

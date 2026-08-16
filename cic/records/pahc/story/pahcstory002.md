@@ -18,18 +18,17 @@ narrative_tier:
     is traditional (first attested by later writers, not self-declared in the text), which is why Confidence
     is Widely Accepted for the intervention itself but Contested for the precise date, since dating arguments
     partly rest on assumptions about Clement's own identity and career.
-text: 'In this letter, the church at Rome — writing anonymously in its own text, though later tradition
-  names Clement as its author — tells us that the church at Corinth had removed certain presbyters from
-  office who had served blamelessly. The letter addresses this directly: it argues at length that the
-  Corinthians'' action was a departure from proper order, drawing on scriptural example after scriptural
-  example of jealousy and strife destroying what unity had built, and it urges the restoration of the
-  deposed presbyters.
+text: 'In this letter, the church at Rome tells us that the church at Corinth had removed certain presbyters
+  from office who had served blamelessly. Rome wrote anonymously in its own text, though later tradition
+  names Clement as its author. The letter addresses this directly. It argues at length that the Corinthians''
+  action was a departure from proper order. It draws on scriptural example after scriptural example of
+  jealousy and strife destroying what unity had built. And it urges the restoration of the deposed presbyters.
 
 
-  The letter does not claim any formal jurisdiction over Corinth — it does not command, in the register
-  of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one
-  church writing to another out of concern. Rome''s own letter tells us Rome believed disputes in a sister
-  church were its business to address, even without institutional authority to compel a result.'
+  The letter does not claim any formal authority over Corinth. It does not command, in the register of
+  a later church authority. Instead it appeals, at length and with real theological seriousness. It writes
+  as one church to another, out of concern. Rome''s own letter tells us Rome believed disputes in a sister
+  church were its own business. This was true even without power to compel a result.'
 attested_occasion: 'Rome''s letter to Corinth (trad. c. 96; contested range 80-140): presbyters removed
   without cause, and a sister church''s long, scripture-laden appeal for their restoration - appealing,
   never commanding; anonymous in its own text, ''Clement'' a traditional attribution the letter itself
@@ -86,3 +85,12 @@ Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/sto
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story is Strand B's own version of G02 (Translocal Correspondence Network, Primary) — a network activated not around personal crisis (as in Story 001) but around institutional concern for a sister community's internal order. It also connects to G01 (Authority Consolidation, Supporting) from the Strand B (plural-presbyter) side: the letter's own argument assumes presbyters hold a legitimate, structured office that removal without cause violates, without invoking a monarchical bishop to make that case.
 
 This story shows something Story 001 cannot: that translocal concern and correspondence were not unique to Strand A's bishop-centered, crisis-driven mode. Rome's own plural-presbyter community exercised its own form of translocal voice through sustained theological argument rather than personal urgency.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 18.4 / FRE 28.5 - each paragraph carried one 55-70 word sentence stacking an em-dash aside and a
+colon-introduced multi-clause argument. Per Mark's decision to extend the readability pass to story records,
+both long sentences are split into short ones along their own existing clause boundaries (one clause per
+sentence, in the same order), plus one plain-synonym swap ("formal jurisdiction" -> "formal authority").
+No fact, hedge, or attribution is dropped - Rome's anonymous authorship and the later Clement attribution,
+the removal of blameless presbyters, the scriptural argument, and Rome's own claim to have no power to
+compel Corinth are all still stated in full. Re-scored: FK 7.9 / FRE 61.0, clearing both thresholds.

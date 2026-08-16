@@ -20,16 +20,17 @@ narrative_tier:
     conventions as other hagiography in this inventory: real evidence of what the community believed faithful
     witness looked like, not historical reporting of individual events. This event-versus-acts split mirrors
     the same discipline applied at alexstory003.'
-text: Late in this world's life, under an emperor determined to break the Church's hold on the empire
-  once and for all, a persecution fell on Egypt with a severity the earlier pressures had not matched.
-  It struck widely — not only teachers and bishops, as earlier persecutions had concentrated on, but ordinary
-  believers across every rank of the community, so that this world's own reckoning of time came, from
-  that point, to be counted from the years of this persecution's beginning rather than by any other marker.
-  The tradition kept by the wider church of Egypt names many who were killed for their faith in these
-  years and holds their witness as central to what it means to have been faithful under ultimate pressure.
-  What this persecution reached, unlike the schools and the reading-rooms, was the whole breadth of the
-  community — the believers this world's other stories cannot otherwise reach, formed not through Scripture
-  read at depth but through the same fire that reached the teacher generations before.
+text: Late in this world's life, a persecution fell on Egypt with a severity the earlier pressures had
+  not matched. It came under an emperor determined to break the Church's hold on the empire once and
+  for all. It struck widely, not only teachers and bishops, as earlier persecutions had concentrated
+  on. It also struck ordinary believers across every rank of the community. So this world's own reckoning
+  of time changed. From that point on, years were counted from this persecution's beginning, rather than
+  by any other marker. The tradition kept by the wider church of Egypt names many who were killed for
+  their faith in these years. It holds their witness as central to what it means to have been faithful
+  under ultimate pressure. What this persecution reached, unlike the schools and the reading-rooms, was
+  the whole breadth of the community. [These are] the believers this world's other stories cannot otherwise
+  reach. They were formed not through Scripture read at depth but through the same fire that reached
+  the teacher generations before.
 attested_occasion: The Coptic martyr memory - the Diocletianic persecution (303-311) remembered so deeply
   the Coptic church dates its calendar (Anno Martyrum) from Diocletian's accession (284).
 tellable_as: scene
@@ -77,3 +78,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 18.7 / FRE 35.3 - four sentences, each stacking a lead-in clause onto a long "so that ... rather
+than" or "and holds ... " tail. Per Mark's decision to extend the readability pass to story records, each
+sentence is split at its own existing comma, "but," or "and" boundary, plus one light rewording ("came ...
+to be counted" -> "changed. From that point on, years were counted") to let the reckoning-of-time clause
+stand as its own sentence, and one bracketed supplied phrase ([These are]) for a clause with no subject of
+its own. No fact, hedge, or attribution is dropped - the emperor, the persecution's unmatched severity, its
+reach past teachers and bishops into every rank of believers, the calendar reckoned from its start, the
+church's kept tradition of the martyrs' names, and the closing claim that this persecution alone reached
+the whole community are all unchanged. Re-scored: FK 8.4 / FRE 62.6, clearing both thresholds.

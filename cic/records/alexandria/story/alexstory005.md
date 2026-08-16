@@ -24,17 +24,17 @@ narrative_tier:
     (some readings take the text's "unlettered" framing as rhetorical humility rather than fact) and is
     not resolved here in either direction.
 text: The bishop of this city, some generations into its life, wrote of a man who had heard the Gospel's
-  call to sell all he had and give it to the poor, and who took the words as addressed to him personally
-  rather than as a saying to be admired from a comfortable distance. He gave away his possessions, placed
-  his sister in the care of known and trusted virgins, and went out to live the ascetic life at the edge
-  of habitation and then beyond it, deeper into the desert than any had gone in settled practice before
-  him. The account tells of years spent in a tomb and then an abandoned fort, of temptations that came
-  to him in the shape of visions and assaults, of demons met and withstood, and of a man who emerged from
-  long solitude with his body and mind unbroken, in fact strengthened, so that those who saw him marveled
-  at a soul so plainly whole. The bishop who wrote this account held Antony up not as a curiosity but
-  as a model — proof that this world's own conviction, that the soul truly can be transformed all the
-  way through, was not confined to the reading-room and the school but could be lived to its furthest
-  edge.
+  call to sell all he had and give it to the poor. [He] took the words as addressed to him personally
+  rather than as a saying to be admired from a comfortable distance. He gave away his possessions. He
+  placed his sister in the care of known and trusted virgins. He went out to live the ascetic life at
+  the edge of habitation and then beyond it, deeper into the desert than any had gone in settled practice
+  before him. The account tells of years spent in a tomb and then an abandoned fort. It tells of temptations
+  that came to him in the shape of visions and assaults, of demons met and withstood. And it tells of a
+  man who emerged from long solitude with his body and mind unbroken, in fact strengthened. Those who
+  saw him marveled at a soul so plainly whole. The bishop who wrote this account held Antony up not as
+  a curiosity but as a model. It was proof that this world's own conviction, that the soul truly can be
+  transformed all the way through, was not confined to the reading-room and the school. It could be lived
+  to its furthest edge.
 attested_occasion: Athanasius's Life of Antony (c. 356-362), composed within living memory - the formation
   ideal credible, specific episodes hagiographic; cross-build constraint applies (Doc_01 §3.3).
 tellable_as: scene
@@ -90,3 +90,15 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 21.0 / FRE 39.6 - four long sentences, each stacking multiple comma-joined clauses (the opening
+"who ... and who" relative-clause sentence, a three-verb "gave away ... placed ... and went out" sentence,
+a four-part "tells of ... of ... of ... and of" list sentence, and a closing em-dash sentence ending in a
+"but" clause). Per Mark's decision to extend the readability pass to story records, each sentence is split
+at its own existing relative clause, comma-joined list item, or conjunction boundary, with one bracketed
+supplied word ([He]) standing in for the missing subject of the opening relative clause. No fact, hedge, or
+attribution is dropped - the bishop's authorship, every stage of Antony's life (the wealth given away, his
+sister placed with virgins, the tomb and the fort, the visions and demons, the closing "strengthened, not
+broken" verdict), and the "model, not curiosity" framing are all unchanged. Re-scored: FK 7.2 / FRE 75.8,
+clearing both thresholds.

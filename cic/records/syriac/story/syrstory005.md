@@ -26,15 +26,15 @@ narrative_tier:
     as religious persecution specifically provoked by Constantine's conversion is itself a later, 5th-century
     East Syrian theological construction rather than a straightforward 4th-century reality — a scholarly
     point this document carries rather than smooths over.
-text: Under Shapur II, amid war with Rome and suspicion that Christians favored the Roman side, a double
-  poll-tax was laid on the Christians of Persia. Simeon, bishop of Seleucia-Ctesiphon, refused to collect
-  it on the king's behalf. He was arrested and brought before the king at Karka d-Ledan. Among those brought
-  with him was Gushtazad, a royal eunuch who had years before renounced his own faith under pressure;
-  seeing Simeon stand firm, Gushtazad returned to the faith he had abandoned, and was put to death before
-  Simeon's own eyes — the first to die, going ahead of the bishop he had once failed to imitate. Simeon
-  himself was given more than one occasion to recant, to bow to the sun as the king demanded, and refused
-  each time. He was beheaded, along with priests named Ḥananya and Abdhaykla, for holding to the confession
-  he would not set down.
+text: Under Shapur II, Rome and Persia were at war, and Christians were suspected of favoring the Roman
+  side. A double poll-tax was laid on the Christians of Persia. Simeon, bishop of Seleucia-Ctesiphon, refused
+  to collect it on the king's behalf. He was arrested and brought before the king at Karka d-Ledan. Among
+  those brought with him was Gushtazad, a royal eunuch who had years before renounced his own faith under
+  pressure. Seeing Simeon stand firm, Gushtazad returned to the faith he had abandoned. He was put to death
+  before Simeon's own eyes — the first to die, going ahead of the bishop he had once failed to imitate.
+  Simeon himself was given more than one occasion to recant, to bow to the sun as the king demanded. He
+  refused each time. He was beheaded, along with priests named Ḥananya and Abdhaykla, for holding to the
+  confession he would not set down.
 attested_occasion: 'The Persian martyr act (Smith''s edition): under Shapur II''s double poll-tax, Simeon
   bishop of Seleucia-Ctesiphon refuses to collect, is tried at Karka d-Ledan, sees the returned apostate
   Gushtazad die first, and is beheaded with the priests Hananya and Abdhaykla; the traditional 341 date
@@ -90,3 +90,12 @@ chunk_slug: martyrdom-simeon-bar-sabbae
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory005_martyrdom-simeon-bar-sabbae.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is the fullest attested narrative account of C6 (Endurance Under State Persecution) as a formation ideal — it gives specific, named shape to what Doc_05 (Section 1.2) and Doc_08 (Force 2A-1) could only describe structurally: a community that watched its own bishop die rather than break, and remembered a companion's return to faith at the very moment of highest cost. Gushtazad's reconversion in particular renders, in narrative form, exactly the formation aim this world's own vocabulary elsewhere describes abstractly — a return to undivided standing under the gravest possible pressure.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (six
+sentences, the first and fourth each stacking multiple clauses joined by commas, "and," and a semicolon)
+at FK grade 11.1 / FRE 58.8. Per Mark's decision to extend the readability pass to story records, those two
+sentences are split along their own existing clause boundaries into five shorter ones; no word is changed.
+No fact or hedge is dropped - the double poll-tax under Shapur II, Simeon's refusal to collect it, the trial
+at Karka d-Ledan, Gushtazad's earlier apostasy and reconversion and death "before Simeon's own eyes," and
+Simeon's own repeated refusal to recant before being beheaded with Ḥananya and Abdhaykla are all unchanged.
+Re-scored: FK 7.4 / FRE 68.7, clearing both thresholds.

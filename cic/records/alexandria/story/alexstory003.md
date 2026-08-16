@@ -25,16 +25,16 @@ narrative_tier:
     and broadly credible, but the narrated particulars (the boy''s intention, the mother''s specific act)
     lean Contested rather than Documented. This event-versus-particulars split is stated explicitly, as
     required, and this is a split-confidence composite story by design (Doc_09 §1).'
-text: 'The teacher''s own father was taken and killed for the faith when the teacher was still a young
-  man, early in this world''s life, in a persecution under an emperor determined to make an example of
-  the city''s Christians. We are told the son, still a boy, wished to follow his father to the same death
-  and was kept from it only because his mother, having no other way to hold him back, hid his clothes
-  so he could not leave the house. The household''s property was seized with the father''s death, and
-  the family was left in want. Decades later, when a fiercer persecution reached the city again under
-  another emperor, it fell on the teacher himself, now old and renowned: he was bound, put to torture
-  designed to break rather than kill him outright, and held for a long imprisonment — enduring it, we
-  are told, without yielding what his tormentors wanted from him. He did not die in that imprisonment,
-  but what it did to his body he carried the rest of his life, which by then was not long.'
+text: 'The teacher''s own father was taken and killed for the faith. This happened when the teacher was
+  still a young man, early in this world''s life, in a persecution under an emperor determined to make
+  an example of the city''s Christians. We are told the son, still a boy, wished to follow his father to
+  the same death. He was kept from it only because his mother, having no other way to hold him back, hid
+  his clothes so he could not leave the house. The household''s property was seized with the father''s
+  death, and the family was left in want. Decades later, a fiercer persecution reached the city again
+  under another emperor. It fell on the teacher himself, now old and renowned. He was bound, put to torture
+  designed to break rather than kill him outright, and held for a long imprisonment. We are told he endured
+  it without yielding what his tormentors wanted from him. He did not die in that imprisonment. But what
+  it did to his body, he carried for the rest of his life, which by then was not long.'
 attested_occasion: The recurring persecution episodes (Severan c. 202, Decian 249-251, Diocletianic 303-311)
   as they bore on the school's life - a pattern across the horizon, not one event.
 tellable_as: background-fact
@@ -86,3 +86,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 14.6 / FRE 55.1 - five sentences, several stacking a "when ... in a" or "and ... having ... hid"
+chain onto an already long main clause, and one sentence running a colon into a three-part "bound, put to
+torture ... and held" list ending in an em-dash aside. Per Mark's decision to extend the readability pass
+to story records, each sentence is split at its own existing comma, colon, em-dash, or conjunction
+boundary. No fact, hedge, or attribution is dropped - Leonidas's martyrdom, the "we are told" framing on
+both the boy's wish to follow him and the hidden clothes, the household's seized property, Origen's later
+Decian imprisonment and torture "designed to break rather than kill," and the closing note that he did not
+die but carried the damage the rest of his shortened life are all unchanged. Re-scored: FK 6.9 / FRE 75.4,
+clearing both thresholds.

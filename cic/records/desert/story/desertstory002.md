@@ -19,11 +19,11 @@ narrative_tier:
     as Story 001's own Rubenson/Athanasius tension.
 text: Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village,
   under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to
-  what came to be called the outer mountain, at Pispir, where he remained in near-total seclusion for
-  some twenty years, before at last emerging to instruct the disciples who had by then gathered near him,
-  drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation
-  now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea, where he spent
-  most of what remained of his life.
+  what came to be called the outer mountain, at Pispir. There he remained in near-total seclusion for
+  some twenty years. At last he emerged to instruct the disciples who had by then gathered near him, drawn
+  by report of his life. Later still, seeking greater solitude from the crowds his own reputation now
+  drew, he withdrew further, to an inner mountain between the Nile and the Red Sea. There he spent most
+  of what remained of his life.
 attested_occasion: 'The staged withdrawal: near the village under an older ascetic, the tombs, the outer
   mountain at Pispir (c. 286) with emergence c. 305, the inner mountain from c. 311-313 (Vita chs. 3-14,
   49-50; Doc_01 SS2.1).'
@@ -74,3 +74,13 @@ chunk_slug: antony-withdrawal-outer-inner-mountain
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory002_antony-withdrawal-outer-inner-mountain.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 11.5 (FRE 62.1 already clear) - two long sentences, each stacking a "where...before...emerging"
+or "seeking...he withdrew...where" chain onto a main clause. Per Mark's decision to extend the readability
+pass to story records, only FK needed correction, so each sentence is split at its own existing "where"
+clause boundary into shorter sentences, with no word substitutions needed. No fact is dropped - the staged,
+not-sudden framing, the village/tombs/outer-mountain/inner-mountain sequence, the c. twenty years of
+near-total seclusion at Pispir, the disciples gathering by reputation, and the further withdrawal to the
+inner mountain between the Nile and the Red Sea are all still named in the same order. Re-scored: FK 6.6 /
+FRE 75.7, clearing both thresholds (FRE was already clear and remains so).

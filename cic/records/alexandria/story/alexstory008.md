@@ -20,16 +20,16 @@ narrative_tier:
     objection was the true cause or a pretext, the fairness of the proceedings). This story earns Contested/Inferential-Thin
     rather than a higher tier precisely because the structural shape is credible while the specific content
     of the dispute is not independently corroborated.
-text: 'The teacher whose reading opened more of the Scriptures than almost any other had, for years, taught
-  and traveled with wide respect, sought out even by bishops in other cities for his learning. But in
-  his own city, his relationship with the bishop who governed it came, in time, to a breaking point. The
-  bishop convened a council and moved against him — the tradition remembers ordination irregularities
+text: 'The teacher whose reading opened more of the Scriptures than almost any other had taught and traveled
+  for years with wide respect. [He] was sought out even by bishops in other cities for his learning. But
+  in his own city, his relationship with the bishop who governed it came, in time, to a breaking point.
+  The bishop convened a council and moved against him. The tradition remembers ordination irregularities
   and doctrinal concerns raised against him, though the precise grounds and their fairness are not preserved
   with confidence. The teacher was condemned by his own bishop and left the city he had taught in for
-  decades, continuing his work from Caesarea instead, where he would remain honored and productive for
-  the rest of his life. What the tradition preserves clearly is the fact of the rupture and its cost:
-  a teacher of undisputed learning, driven from the city his whole teaching life had been rooted in, by
-  the one authority that could not be out-argued by learning alone.'
+  decades. He continued his work from Caesarea instead, where he would remain honored and productive for
+  the rest of his life. What the tradition preserves clearly is the fact of the rupture and its cost.
+  [It shows] a teacher of undisputed learning, driven from the city his whole teaching life had been rooted
+  in, by the one authority that could not be out-argued by learning alone.'
 attested_occasion: 'Origen''s rupture with bishop Demetrius (c. 231-234): ordination abroad, condemnation
   at Alexandria, departure to Caesarea - via Eusebius (HE VI) with his institutional screen active.'
 tellable_as: scene
@@ -85,3 +85,15 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 15.0 / FRE 46.2 - five sentences, several stacking a comma-joined participial clause or an
+em-dash/colon aside onto an already long main clause (the opening sentence alone ran a relative clause
+into a "for years, taught and traveled ... sought out" participial tail). Per Mark's decision to extend
+the readability pass to story records, each sentence is split at its own existing comma, em-dash, or
+colon boundary, with two bracketed supplied words ([He], [It shows]) standing in for clauses that had
+no subject of their own. No fact, hedge, or attribution is dropped - the teacher's wide-respected
+reputation, the bishop-convened council, the tradition's own hedge that the ordination charges and their
+fairness "are not preserved with confidence," the condemnation and departure to Caesarea, and the closing
+claim that no amount of learning could out-argue apostolic office are all unchanged. Re-scored: FK 9.3 /
+FRE 62.3, clearing both thresholds.

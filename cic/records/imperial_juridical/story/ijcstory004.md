@@ -11,25 +11,25 @@ register: emic
 review_state: draft
 cache_stability: static
 title: The Vigil in the Basilica
-text: 'The imperial court wanted a basilica — one of Milan''s own churches, handed over for the worship
-  of a confession this world''s own record would come to call *homoios*, not the Nicene faith the community
-  itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers
-  came and stood around the building. Instead, he stayed inside with them, and they stayed with him, not
-  knowing on any given night whether the soldiers outside had orders only to surround, or orders to take
-  the building by force.
+text: 'The imperial court wanted a basilica. [This meant] one of Milan''s own churches, handed over for
+  the worship of a confession this world''s own record would come to call *homoios*, not the Nicene faith
+  the community itself held. Ambrose would not give it. He would not command the people to leave it either,
+  when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed
+  with him. [Neither knew] on any given night whether the soldiers outside had orders only to surround,
+  or orders to take the building by force.
 
 
   Through that time, so Augustine himself later remembered — present in that same city, though not yet
   given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing
-  the Eastern churches already knew and Milan had not yet learned: voices answering voices, back and forth,
-  so that the waiting did not have to be endured in silence. Augustine says plainly that it was then,
-  in that vigil, that this manner of singing took root in the West, kept up now "to this very day," carried
-  far beyond that one basilica and that one crisis.
+  the Eastern churches already knew and Milan had not yet learned. [It was] voices answering voices, back
+  and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it
+  was then, in that vigil, that this manner of singing took root in the West. [It is] kept up now "to this
+  very day," carried far beyond that one basilica and that one crisis.
 
 
   The court did not take the building. Ambrose preached, in the middle of it, that the emperor is within
-  the Church, not above it — that a palace belongs to the emperor, but a church belongs to the priest
-  to guard, and no soldier''s presence changes whose it is to give away.'
+  the Church, not above it. [He said] that a palace belongs to the emperor, but a church belongs to the
+  priest to guard, and no soldier''s presence changes whose it is to give away.'
 confidence_line: Documented (the standoff and the singing); Widely Accepted (the full emotional texture,
   resting on Augustine's eyewitness account)
 attested_occasion: Ambrose of Milan, Sermo contra Auxentium (preached during the standoff itself); Augustine,
@@ -86,3 +86,13 @@ Migrated at the S6.2/IJC S2.4-equivalent (2026-07-31) from `data/imperial_juridi
 [Formation Ecology Connection - parked at the S2.4-equivalent; converted to gravity_links at the S2.5-equivalent per CO-P2-04] This story is this world's own clearest instance of worship functioning as the *lived mechanism* of resistance itself, not merely a devotional practice running alongside institutional confrontation (Doc_05 §3, §3a; Doc_07 §6) — the singing is not incidental color to the standoff, it is what the standoff was actually made of, hour by hour. It directly grounds Doc_04's Candidate 4 (Episcopal Independence from Imperial Command) and Candidate 6 (the Sacramental/Moral vs. Institutional/Positional Authority tension), and it is this world's own single richest piece of evidence for what an ordinary congregant's affective experience of Strand C's own confrontation might have been (Doc_05 §3a) — fear and solidarity, sustained by shared voice, under a threat that never fully resolved itself one way or the other while it lasted.
 
 [Final Assembly Instruction - parked verbatim as assembly provenance] Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 11.4 / FRE 61.8 - several long sentences joining multiple clauses at a dash or colon (the
+basilica demand, the vigil's uncertainty, the antiphonal singing, and Ambrose's own sermon). Per Mark's
+decision to extend the readability pass to story records, each sentence is split at its own existing
+dash or colon boundary, with four bracketed supplied subjects ("[This meant]", "[Neither knew]", "[It
+was]"/"[It is]", "[He said]") added where a resulting clause had no subject of its own. No fact, hedge,
+quotation, or attribution is dropped - the *homoios* confession, the standoff, Augustine's own eyewitness
+attribution and his "to this very day" quotation, and Ambrose's sermon are all unchanged. Re-scored: FK
+7.7 / FRE 72.2, clearing both thresholds.

@@ -18,12 +18,12 @@ narrative_tier:
     §10; Doc_02 §1.2) that this document does not adjudicate. This story is held at Tier 1 for the broad,
     cross-recension-consistent outline -- founding date range, house count, membership scale at Pachomius's
     death -- rather than for incident-level detail specific to any single recension.
-text: The Lives record that Pachomius, an early convert following military service, founded the first
-  cenobitic community at Tabennesi in the Thebaid around 320, joined initially by his own brother John
-  and then by additional companions. He established a written Rule, common property held by the community
-  rather than by any individual, and a working hierarchy of housemasters and stewards to keep the community's
-  shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men
-  and two for women.
+text: The Lives record that Pachomius was an early convert who had served in the military. He founded
+  the first cenobitic community at Tabennesi in the Thebaid around 320. The community was joined at first
+  by his own brother John, and then by additional companions. He established a written Rule. Property
+  was held in common by the community rather than by any individual. He also set up a working hierarchy
+  of housemasters and stewards. This kept the community's shared life ordered. By the time of his death
+  in 346, the koinonia had grown to nine houses for men and two for women.
 attested_occasion: The founding at Tabennesi c. 320, joined first by his brother John; by his death in
   346, nine houses for men and two for women (the Lives, cross-recension outline).
 tellable_as: scene
@@ -76,3 +76,13 @@ chunk_slug: pachomius-founding-koinonia-tabennesi
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory003_pachomius-founding-koinonia-tabennesi.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 15.1 / FRE 38.3 - three sentences, the first two each stacking an appositive or list onto a main
+clause. Per Mark's decision to extend the readability pass to story records, the founding sentence is
+split at its own appositive boundary, and the Rule/property/hierarchy list is split into one sentence
+per item, with one plain-synonym substitution ("initially" -> "at first"). No fact is dropped - the
+military-service background, the founding at Tabennesi c. 320, the brother John and later companions,
+the written Rule, common property, the housemaster/steward hierarchy, and the nine-houses-for-men/two-for-women
+figure at his 346 death are all still named in the same order. Re-scored: FK 7.4 / FRE 64.2, clearing
+both thresholds.

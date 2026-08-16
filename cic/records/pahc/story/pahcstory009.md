@@ -23,18 +23,18 @@ narrative_tier:
     below.
 text: 'This is how it would have been, in the typical life of someone entering this community through
   the path the Didache itself lays out. Before anything else, the one preparing for baptism would be taught
-  the Two Ways: the Way of Life, beginning with love of God and neighbor and the Golden Rule turned into
-  a rule of restraint — "whatever you do not want done to you, do not do to another" — running through
-  concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, lying, and
-  reaching further into practical generosity, almsgiving, and how to treat those in need without grudging.
-  And the Way of Death, listed by contrast as a catalog of the vices that Way rejects.
+  the Two Ways. The Way of Life began with love of God and neighbor, and the Golden Rule turned into a
+  rule of restraint: "whatever you do not want done to you, do not do to another." It ran through concrete
+  instruction against murder, adultery, magic, abortion, exposure of infants, theft, and lying. It reached
+  further into practical generosity, almsgiving, and how to treat those in need without grudging. The
+  Way of Death was listed by contrast, as a catalog of the vices that Way rejects.
 
 
   Once this teaching had been given, "having first recited all these things," the one preparing would
-  be baptized — in running water if it could be found, but cold standing water if not, and if neither
-  was available, water poured three times over the head, in the name of the Father, Son, and Holy Spirit.
-  Before the baptism, both the one baptizing and the one being baptized, and any others who were able,
-  were told to fast — the one being baptized fasting one or two days before.
+  be baptized. This was done in running water if it could be found, but cold standing water if not. If
+  neither was available, water was poured three times over the head, in the name of the Father, Son, and
+  Holy Spirit. Before the baptism, both the one baptizing and the one being baptized, and any others who
+  were able, were told to fast. The one being baptized fasted one or two days before.
 
 
   This is not the account of one named person. It is a composite of the instructions the Didache itself
@@ -107,3 +107,16 @@ Migrated at the S6.2/PAHC S2.4-equivalent (2026-07-31) from `data/pahc_world/sto
 
 **Element from Story Text:** The Way of Death catalog, listed by contrast as the vices that Way rejects.
 **Source:** Didache 5:1 (the Way of Death catalog itse
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 15.5 / FRE 44.7 - the first paragraph ran a single 95-word sentence chaining two em-dash asides
+and a colon-introduced enumeration across both Ways, and the second paragraph chained an em-dash list of
+water-source fallbacks. Per Mark's decision to extend the readability pass to story records, both long
+sentences are split into short ones along their own existing clause boundaries (one clause per sentence,
+in the same order); no plain-synonym substitution was needed. The embedded direct quotations (the Golden
+Rule, "whatever you do not want done to you, do not do to another," and "having first recited all these
+things") are untouched, word for word. No fact, hedge, or attribution is dropped - the full prohibition
+list, the almsgiving instruction, the Way of Death catalog, the three-tier water fallback (running, cold
+standing, threefold pouring), the Trinitarian baptismal formula, and the pre-baptismal fasting instruction
+for both baptizer and baptized are all still stated in full. Re-scored: FK 9.2 / FRE 62.3, clearing both
+thresholds.

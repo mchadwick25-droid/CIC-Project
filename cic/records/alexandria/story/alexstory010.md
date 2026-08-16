@@ -21,18 +21,17 @@ narrative_tier:
     attested elements into a single narrated passage — is the reconstructive move, and it is marked as
     such rather than offered as remembered history. This meets Tier 4''s criteria exactly: historically
     grounded, explicitly labeled, never claiming the status of a documented individual account.'
-text: 'Offered explicitly as a picture of the shape of things, not a known person''s history: a seeker
-  comes to this world''s own community wanting to know God, and is received first as a catechumen, given
-  time and staged instruction before ever approaching the water — the tradition is explicit that formation
-  here is not a single decision but a passage with stages, each one preparing the ground for the next.
-  Across the months of that preparation, the rhythm of an ordinary day is shaped by prayer at set points
-  and Scripture returned to again and again, not read once and set aside but taken up daily as something
-  inexhaustible. The year itself carries its own larger rhythm, turning on the great fast and the feast
-  that follows it, so that the catechumen''s own formation is carried inside a community-wide cycle that
-  does not pause for any one person''s readiness but that any person''s readiness is drawn along by. This
-  is the shape this world''s own attested sources describe when they describe formation in practice —
-  not any one person''s particular story, but the pattern a great many particular stories, had we them,
-  would likely have shared.'
+text: 'Offered explicitly as a picture of the shape of things, not a known person''s history. A seeker comes to
+  this world''s own community wanting to know God. [He] is received first as a catechumen, given time and
+  staged instruction before ever approaching the water. The tradition is explicit that formation here is not a
+  single decision but a passage with stages. Each one prepares the ground for the next. Across the months of
+  that preparation, the rhythm of an ordinary day is shaped by prayer at set points. Scripture is returned to
+  again and again, not read once and set aside. It is taken up daily as something inexhaustible. The year
+  itself carries its own larger rhythm, turning on the great fast and the feast that follows it. So the
+  catechumen''s own formation is carried inside a community-wide cycle. That cycle does not pause for any one
+  person''s readiness. But any person''s readiness is drawn along by it. This is the shape this world''s own
+  attested sources describe when they describe formation in practice. It is not any one person''s particular
+  story. It is the pattern a great many particular stories, had we them, would likely have shared.'
 attested_occasion: 'Tier-4 composite: a typical catechumen''s formation path assembled only from attested
   elements (catechumenal stages, scrutinies, baptism at Pascha); no single attested person - the composite
   is the community''s own pattern (CO-P2-06 convention).'
@@ -101,3 +100,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 21.6 / FRE 26.8 - a single opening colon-and-em-dash sentence describing the catechumenate, followed
+by three more long sentences each layering multiple clauses (a prayer-and-Scripture sentence joined by "and,"
+a year-cycle sentence joined by "so that ... but that," and a closing em-dash sentence). Per Mark's decision
+to extend the readability pass to story records, each sentence is split at its own existing colon, em-dash,
+comma, or conjunction boundary, with one bracketed supplied word ([He]) standing in for the missing subject
+of a clause that had none of its own, and "prepares" substituted for the participle "preparing" where a
+clause needed its own verb to stand alone. No fact, hedge, or qualifier is dropped - the staged catechumenate,
+the daily prayer-and-Scripture rhythm, the fast-and-feast cycle, and the closing "shape, not any one person's
+story" framing are all unchanged. Re-scored: FK 7.7 / FRE 63.5, clearing both thresholds.

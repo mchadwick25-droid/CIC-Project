@@ -21,8 +21,8 @@ narrative_tier:
     not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin
     for the specific court-tutor biographical frame.
 text: 'The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople,
-  prayed for guidance, and heard a voice say: "Arsenius, flee the company of men and you will be saved."
-  Having withdrawn to Egypt, he prayed again, and heard: "Arsenius, flee, be silent, be still -- these
+  prayed for guidance. He heard a voice say: "Arsenius, flee the company of men and you will be saved."
+  Having withdrawn to Egypt, he prayed again. He heard: "Arsenius, flee, be silent, be still -- these
   are the roots of sinlessness."'
 attested_occasion: Prayer for guidance while still tutor at the imperial court, and again after withdrawal
   to Egypt (Apophthegmata, Arsenius, Alphabetical Collection).
@@ -67,3 +67,11 @@ chunk_slug: arsenius-flee-be-still
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory005_arsenius-flee-be-still.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 12.5 / FRE 54.3 - two sentences each joining "prayed...and heard [quote]" with a comma-and-conjunction.
+Per Mark's decision to extend the readability pass to story records, each "and heard" clause is split off
+into its own sentence at its own existing conjunction boundary. Every quoted word, in both of the voice's
+sayings, is unchanged character-for-character. No fact or hedge is dropped - the court-tutor setting at
+Constantinople, the withdrawal to Egypt, "the tradition tells," and both quoted sayings in full are all
+unchanged. Re-scored: FK 7.2 / FRE 68.3, clearing both thresholds.

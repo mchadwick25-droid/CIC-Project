@@ -19,7 +19,7 @@ narrative_tier:
 text: 'In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet
   Jonah sits beneath a plant for shade. Where the congregation had always heard "gourd," the corrected
   word, closer to the Hebrew, gave "ivy" — a climbing vine, not a gourd-plant. The change was small. The
-  reaction was not: the people took it as tampering with scripture they trusted, and the disturbance reached
+  reaction was not. The people took it as tampering with scripture they trusted. The disturbance reached
   as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press
   it more than once.'
 attested_occasion: 'Oea: a bishop reads the corrected text of Jonah - ''ivy'' where the congregation had
@@ -64,3 +64,11 @@ chunk_filename: hal_story03_the-oea-incident.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story03_the-oea-incident.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the *Hebraica veritas* gravity at its most concrete and costly — not an abstract scholarly preference but a change that could unsettle an actual congregation's prayer, and a dispute conducted, by letter, with one of the era's most respected bishops. Also illuminates the epistula gravity: this dispute was conducted entirely through correspondence.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 10.3 (FRE 62.1 already clear) - a colon-joined closing sentence with an "and" clause joining
+two independent thoughts. Per Mark's decision to extend the readability pass to story records, the colon
+and the "and" become period breaks, giving the congregation's reaction and Augustine's response each
+their own sentence. Both quoted words ("gourd," "ivy"), Augustine's name and location, and the point
+that he pressed the concern more than once are unchanged. Re-scored: FK 7.3 / FRE 69.7, clearing the FK
+threshold with FRE still well clear.

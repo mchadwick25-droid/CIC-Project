@@ -18,13 +18,13 @@ narrative_tier:
     by an interested party and single-sourced. Meets Tier 1's core test of direct textual attestation
     with a named author and identifiable social location.
 text: 'In his letter to Eustochium, written to mark her mother''s death, the scholar among us records
-  the journey plainly: how he himself left Rome first, in the month named for the harvest, and how Paula
-  and her daughter followed within a month, sailing from the port below the city. He tells of the stop
-  at Cyprus, where the bishop there received them; of the slower road through Antioch and down into Palestine
-  and Egypt; of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished,
-  and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned
-  back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by
-  the cave where the Lord was born.'
+  the journey plainly. He left Rome first, in the month named for the harvest. Paula and her daughter
+  followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where
+  the bishop there received them. He tells of the slower road through Antioch and down into Palestine
+  and Egypt. He tells of Nitria, where a bishop and countless monks came out to meet them, and where
+  Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells
+  us she turned back toward Jerusalem instead, and that from there the household settled at last near
+  Bethlehem, by the cave where the Lord was born.'
 attested_occasion: The 385 departure from Rome and the journey through Cyprus, Antioch, Egypt (Nitria
   - where Paula wished, and was refused, to stay), and Palestine to Bethlehem - as Jerome records it in
   Ep. 108, the epitaph letter written to Eustochium near the time of Paula's 404 death; named author,
@@ -72,3 +72,11 @@ chunk_filename: hal_story01_departure-from-rome.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story01_departure-from-rome.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the patronage gravity (the journey and its funding depended entirely on Paula's own wealth) and the bipolar Rome/Bethlehem geography that organizes this world's whole structure. Shows the physical, costly reality behind the abstract fact of "relocation" — a household uprooting itself deliberately, twice over (once from Rome, once from the temptation to remain in Egypt), in pursuit of a single settled place to do its work.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 17.8 / FRE 47.2 - a colon-joined lead sentence followed by a semicolon-chained enumeration of
+the journey's stops. Per Mark's decision to extend the readability pass to story records, the colon and
+each semicolon become period breaks, with "He tells of..." repeated to keep each stop (Cyprus, the road
+through Antioch, Egypt, and Nitria) its own sentence. No name, place, or qualifier is dropped - the bishop
+at Cyprus, the monks at Nitria, and Paula's wish and refusal to stay there are unchanged. Re-scored: FK
+7.7 / FRE 73.8, clearing both thresholds.

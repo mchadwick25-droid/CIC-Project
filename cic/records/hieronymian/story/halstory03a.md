@@ -17,13 +17,13 @@ narrative_tier:
     the Oea incident, an unusually two-sided story in this world's evidence base. The relative weight
     of doctrine versus personal and political motivation in the underlying dispute is genuinely, actively
     contested in the scholarship this construction draws on, and this story does not resolve that contest.
-text: A friend once close enough to labor over the same Greek texts side by side became, in the end, the
-  fiercest of opponents. The dispute concerned teachings associated with an earlier Alexandrian scholar,
-  Origen — on whether souls existed before this life, on what the resurrected body actually is — teachings
-  this household had absorbed, without quite noticing, from its own early formation. When the wider church
-  turned decisively against those teachings, this household had to renounce them urgently and in public,
-  and the friend who would not make the same renunciation as fully or as fast became, from then on, the
-  target of some of this household's own harshest writing.
+text: A friend once close enough to work over the same Greek texts side by side became, in the end, the
+  fiercest of opponents. The dispute concerned teachings linked to an earlier Alexandrian scholar, Origen.
+  It turned on whether souls existed before this life, and on what the resurrected body actually is.
+  These were teachings this household had absorbed, without quite noticing, from its own early formation.
+  When the wider church turned firmly against those teachings, this household had to renounce them fast
+  and in public. The friend who would not make the same renunciation as fully or as fast became, from
+  then on, the target of some of this household's own harshest writing.
 attested_occasion: 'The rupture with Rufinus, 401-403: the friend who had labored over the same Greek
   texts becomes the fiercest opponent as the church turns against Origen''s teachings - both Apologiae
   survive (Rufinus 401; Jerome 401-403, addressed to Pammachius and Marcella); occurrence Documented,
@@ -76,3 +76,12 @@ chunk_filename: hal_story03a_origenist-rupture.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story03a_origenist-rupture.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the controversy/dispute gravity directly, and reshapes both the *Hebraica veritas* gravity (the wider textual-authority project) and the patronage gravity (this dispute was conducted through, and threatened, the network of patrons this household depended on — the addressees of the household's own polemic include two of its own patrons). Shows this world's characteristic way of holding an inherited intellectual debt: absorbed early, renounced later, at real relational cost.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 17.0 / FRE 38.0 - one long dash-interrupted sentence and a final sentence with two joined
+clauses. Per Mark's decision to extend the readability pass to story records, the em-dash-bounded relative
+clause becomes its own two sentences, and the closing "and the friend..." clause splits from the renunciation
+clause it followed. Two plain-synonym swaps were made ("labor"->"work," "decisively"/"urgently"->"firmly"/"fast");
+"renunciation," the Origen dispute's substance (souls before this life, the resurrected body), and the
+attribution to this household's own harshest writing are all unchanged. Re-scored: FK 9.0 / FRE 64.2,
+clearing both thresholds.

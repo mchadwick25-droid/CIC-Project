@@ -19,13 +19,12 @@ narrative_tier:
     Tier 3, the tradition's own account of what a formed life looks like at its most extreme, rather than
     Tier 1 documented history, precisely because the narrative register itself signals portrait rather
     than incident report.
-text: This is how the tradition remembers Antony's own struggle -- what it believed total combat against
-  the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for
-  solitary combat, where he is assailed by demons taking the form of beasts, beating him nearly to death,
-  and later by a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed
-  emerging from these confrontations progressively strengthened rather than destroyed, until at last a
-  vision of light comes to him, understood as divine aid arriving only once his own struggle had been
-  sufficiently proven.
+text: This is how the tradition remembers Antony's own struggle. It shows what the tradition believed total
+  combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned
+  tomb for solitary combat. There, demons in the form of beasts assail him. They beat him nearly to death.
+  Later, he has a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed
+  emerging from these clashes stronger each time, not destroyed. At last a vision of light comes to him.
+  This is understood as divine aid, arriving only once his own struggle had been proven enough.
 attested_occasion: Solitary enclosure in the tombs (Vita Antonii chs. 8-10) - the tradition's own portrait
   register, not incident report.
 tellable_as: scene
@@ -74,3 +73,14 @@ chunk_slug: antony-combat-in-tombs
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory007_antony-combat-in-tombs.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 17.3 / FRE 31.1 - a long relative-clause-stacked sentence describing the tomb combat, plus a
+second sentence chaining a main clause to an "until at last" clause. Per Mark's decision to extend the
+readability pass to story records, both are split at their own existing clause boundaries (the "where"
+and "and later" clauses; the "until" clause), with two plain-synonym substitutions ("progressively
+strengthened" -> "stronger each time," "sufficiently proven" -> "proven enough"). No element of the
+portrait is dropped - the abandoned tomb, the demons as beasts beating him nearly to death, the later
+vision of demons as wild animals filling the tomb, the progressive strengthening, and the culminating
+vision of light as divine aid are all still named, and the framing ("this is how the tradition remembers,"
+"portrays," "understood as") is unchanged. Re-scored: FK 7.4 / FRE 62.5, clearing both thresholds.

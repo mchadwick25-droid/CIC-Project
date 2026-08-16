@@ -23,18 +23,18 @@ narrative_tier:
     author, identifiable social location, historically credible) more fully than any other story in this
     inventory.'
 text: 'There is a student''s own account, kept among us, of what it was to sit under this teacher. He
-  tells us he did not come to Caesarea already resolved to stay — he had meant to press on toward Beirut,
+  tells us he did not come to Caesarea already resolved to stay. He had meant to press on toward Beirut,
   to study law, and go home. But the teacher took hold of him the way a skilled physician takes hold of
-  a sick man who does not yet know he is sick: not by lecturing him toward a conclusion, but by asking
-  the kind of questions that will not let a mind rest where it was resting. He tells us the teacher praised
-  philosophy and urged every kind of learning on him, holding nothing in reserve as too dangerous to study
-  — geometry, astronomy, the whole range of Greek thought — and that this immersion was not an end in
-  itself but a clearing of the ground, so that Scripture, read last and read hardest, could be received
-  rightly once the soul had first been trained to think. He tells us of the friendship that grew in the
-  years of this study: not a master issuing verdicts from above, but a guide walking a road himself, further
-  up it than his student, letting the student see what he saw by staying near enough to see it too. And
-  when the years of study closed and the parting came, he tells us it grieved him the way a soul grieves
-  losing its own sun.'
+  a sick man who does not yet know he is sick. He did this not by lecturing him toward a conclusion, but
+  by asking the kind of questions that will not let a mind rest where it was resting. He tells us the teacher
+  praised philosophy and urged every kind of learning on him, holding nothing in reserve as too dangerous
+  to study - geometry, astronomy, the whole range of Greek thought. He tells us this immersion was not
+  an end in itself but a clearing of the ground. Scripture, read last and read hardest, could then be
+  received rightly, once the soul had first been trained to think. He tells us of the friendship that
+  grew in the years of this study. It was not a master issuing verdicts from above, but a guide walking
+  a road himself, further up it than his student. The guide let the student see what he saw, by staying
+  near enough to see it too. And when the years of study closed and the parting came, he tells us it grieved
+  him the way a soul grieves losing its own sun.'
 attested_occasion: Gregory's formal address of thanksgiving at the close of his years of study under Origen
   at Caesarea, c. 238 CE (Address of Thanksgiving; Nautin dating caveat carried).
 tellable_as: scene
@@ -95,3 +95,14 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 15.3 / FRE 57.0 - six sentences, several stacking a colon or pair of em-dashes onto an already
+long clause (the physician-simile sentence alone ran a colon into a "not by ... but by" contrast; the
+philosophy-and-learning sentence ran two em-dashes and an "and that ... so that" chain). Per Mark's
+decision to extend the readability pass to story records, each sentence is split at its own existing
+colon, em-dash, or conjunction boundary. No fact, hedge, or attribution is dropped - Gregory's own "he
+tells us" framing throughout, his original intent to study law at Beirut, the physician simile, the full
+range of subjects named (geometry, astronomy, Greek thought), the "clearing the ground for Scripture"
+claim, the friendship-as-fellow-traveler image, and the closing grief-at-parting simile are all unchanged.
+Re-scored: FK 7.5 / FRE 77.7, clearing both thresholds.

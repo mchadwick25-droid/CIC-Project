@@ -15,11 +15,11 @@ narrative_tier:
   tier: 1
   justification: Named author, near-contemporary account, but notably vague on specifics — the vagueness
     itself is part of the honest historical record, not a gap to be filled with invented detail.
-text: A dispute that had, until then, stayed in argument and letters — over grace, over whether a person
-  could, by their own effort, live without sin — arrived one year at this household's own door as a mob.
-  Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward,
-  is strikingly vague on the particulars — how many came, exactly what was lost, exactly who died — a
-  silence this household has never filled in with more than what he actually said.
+text: 'A dispute had, until then, stayed in argument and letters — over grace, over whether a person could,
+  by their own effort, live without sin. One year it arrived at this household''s own door as a mob. Buildings
+  burned. At least one member of the household died. The scholar among us, writing of it afterward, is
+  strikingly vague on the particulars: how many came, exactly what was lost, exactly who died. This household
+  has never filled that silence in with more than what he actually said.'
 attested_occasion: '416: the Pelagian dispute arrives at the Bethlehem monastery as a mob - buildings
   burned, at least one of the household dead; Jerome''s own account (the letter to Riparius) is ''strikingly
   vague on the particulars'', and the household has never filled the silence in (occurrence Documented;
@@ -59,3 +59,10 @@ chunk_filename: hal_story04_the-pelagian-attack.md
 Migrated at the S6.2/HAL S2.4-equivalent (2026-07-31) from `data/hieronymian_world/story_chunks/hal_story04_the-pelagian-attack.md` (mapping in `wrs/migrate/s62_hal_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX-SYR S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] Illuminates the controversy/dispute gravity as an ending-adjacent force: this is the clearest instance in this world's own record of doctrinal dispute becoming physical danger. Shows this household's own restraint in the face of trauma — the source itself does not dwell on detail, and this document does not manufacture what the source withholds.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 12.4 / FRE 56.7 - a dash-interrupted opening sentence and a dash-interrupted closing sentence.
+Per Mark's decision to extend the readability pass to story records, both em-dash-set clauses become
+their own sentences at the em-dash boundary. No fact or hedge is dropped - the mob, the burned buildings,
+at least one death, and Jerome's own strikingly vague, un-supplemented account are all unchanged.
+Re-scored: FK 8.0 / FRE 68.2, clearing both thresholds.

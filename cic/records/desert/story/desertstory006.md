@@ -17,9 +17,9 @@ narrative_tier:
   tier: 2
   justification: Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in
     the tradition; Inferential / Thin for the specific narrated encounter's historicity.
-text: 'The tradition tells that when some elder monks came to Amma Sarah intending to test or humble her,
-  saying, "Be careful not to become conceited, thinking to yourself, ''Look, anchorites are coming to
-  see me, a mere woman,''" she answered: "According to nature I am a woman, but not according to my thoughts.
+text: 'The tradition tells that some elder monks came to Amma Sarah intending to test or humble her. [They]
+  said, "Be careful not to become conceited, thinking to yourself, ''Look, anchorites are coming to see
+  me, a mere woman.''" She answered: "According to nature I am a woman, but not according to my thoughts.
   It is I who am a man and you who are women."'
 attested_occasion: Visiting elder monks coming to test or humble her as a woman (Apophthegmata, Sarah,
   Alphabetical Collection).
@@ -77,3 +77,15 @@ chunk_slug: sarah-answer-to-elders
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory006_sarah-answer-to-elders.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 13.6 / FRE 55.4 - one long sentence chaining "when...came...saying [quote], she answered: [quote]"
+into a single comma-spliced structure. Per Mark's decision to extend the readability pass to story records,
+the sentence is split at the "she answered" boundary (colon-to-period, matching the halstory11/alexstory007
+convention), with a bracketed [They] supplying the subject for the elders' reported speech, the same
+editorially-supplied-word convention used elsewhere in this project (e.g. ijcq009's [them]). Every quoted
+word, in both the elders' challenge and Sarah's answer, is unchanged character-for-character; only the
+closing punctuation of the elders' quote moves from a comma to a period to end the new sentence cleanly.
+No hedge or attribution is dropped - "the tradition tells," the elders' intent to test or humble her,
+and Sarah's full two-sentence answer are all unchanged. Re-scored: FK 7.1 / FRE 73.2, clearing both
+thresholds.

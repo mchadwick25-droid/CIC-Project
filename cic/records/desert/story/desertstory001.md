@@ -24,13 +24,13 @@ narrative_tier:
     register is a restrained incident report, not a hagiographic portrait — contrast Story 007 (Antony''s
     Combat in the Tombs), drawn from the same Vita but carrying clear hagiographic genre markers this
     story does not.'
-text: 'In his Life of Antony, Athanasius records that Antony, not yet twenty years old and recently orphaned,
-  entered church one day not long after reflecting on how the apostles left everything to follow Christ.
-  He heard the Gospel being read: "If you would be perfect, go, sell what you possess and give to the
-  poor, and you will have treasure in heaven; and come, follow me." Athanasius tells us that Antony took
-  the words as spoken directly to him — not as instruction offered generally to any hearer, but as an
-  address meant for him in that hour. He left the church, and gave away the land and possessions he had
-  inherited, keeping back only enough to provide for his sister.'
+text: 'In his Life of Antony, Athanasius records that Antony was not yet twenty years old and recently
+  orphaned. [He] entered church one day, not long after reflecting on how the apostles left everything
+  to follow Christ. He heard the Gospel being read: "If you would be perfect, go, sell what you possess
+  and give to the poor, and you will have treasure in heaven; and come, follow me." Athanasius tells us
+  that Antony took the words as spoken directly to him. They were not instruction offered generally to
+  any hearer, but an address meant for him in that hour. He left the church. He gave away the land and
+  possessions he had inherited, keeping back only enough to provide for his sister.'
 attested_occasion: Hearing Matthew 19:21 read in church, not yet twenty and recently orphaned (Vita Antonii
   ch. 2).
 tellable_as: scene
@@ -88,3 +88,14 @@ chunk_slug: antonys-call-matthew-19-21
 Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory001_antonys-call-matthew-19-21.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
 
 CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 13.1 / FRE 54.4 - two long sentences, one stacking an appositive onto a main clause, the other
+chaining an em-dash "not...but..." contrast and a compound verb onto a main clause. Per Mark's decision
+to extend the readability pass to story records, both are split at their own existing structure, with a
+bracketed [He] supplying the subject for the entered-church clause (the same editorially-supplied-word
+convention used elsewhere in this project, e.g. ijcq009's [them]) and the em-dash contrast and compound
+verb each becoming their own sentence. No fact, quotation, or hedge is dropped - Antony's age and recent
+orphaning, the Matthew 19:21 quotation in full, Athanasius's attribution ("Athanasius records," "Athanasius
+tells us"), the address-not-general-instruction distinction, and the sister exception are all unchanged.
+Re-scored: FK 8.1 / FRE 67.8, clearing both thresholds.

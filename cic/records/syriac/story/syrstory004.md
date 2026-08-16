@@ -29,24 +29,23 @@ narrative_tier:
     as a set-piece, a martyred second bishop), and valuable as evidence of what this community believed
     about its own legitimacy rather than as a report of what happened.'
 text: 'This is the account this world tells of its own beginning. King Abgar, ailing, sends his archivist
-  Hanan to Jerusalem, where Hanan witnesses the works of Jesus and brings back a report. Abgar writes
-  to Jesus, asking him to come and heal him, and offering Edessa as a refuge from those who seek his life.
-  Jesus, in reply, declines to come himself, but promises that after he has ascended he will send one
-  of his own to Abgar — and blesses the city itself, so that "no enemy shall ever rule over it." Hanan,
-  who is also the king''s painter, makes a portrait of Jesus and carries it back, and Abgar receives it
-  with great honor.
+  Hanan to Jerusalem. There, Hanan witnesses the works of Jesus and brings back a report. Abgar writes to
+  Jesus, asking him to come and heal him. He offers Edessa as a refuge from those who seek his life. Jesus,
+  in reply, declines to come himself. He promises that after he has ascended, he will send one of his own
+  to Abgar. He blesses the city itself, so that "no enemy shall ever rule over it." Hanan, who is also the
+  king''s painter, makes a portrait of Jesus and carries it back. Abgar receives it with great honor.
 
 
-  After the ascension, the apostle Judas Thomas sends Addai — one of the seventy-two — to Edessa. Addai
-  lodges with a Jew named Tobia, heals Abgar and the nobles of the city, and is received openly. He preaches
-  to the king, telling among other things the story of how the empress Protonike, wife of the emperor
-  Claudius, discovered the true cross at Jerusalem; and he preaches to the people, denouncing the old
-  gods of the city — Bel, Nebo, and the goddess Tar''atha — and calling them to the one true God. Before
-  he dies, Addai appoints Aggai as his successor. Aggai is later killed — struck down for refusing to
-  make ceremonial hats demanded of him by a rival claimant to authority — before he can himself ordain
-  a successor. It falls to Palut to travel to Antioch, where he is ordained by Serapion of Antioch, tying
-  Edessa''s own church, through this ordination, to the wider apostolic succession running back through
-  Antioch to Peter.'
+  After the ascension, the apostle Judas Thomas sends Addai to Edessa. Addai is one of the seventy-two.
+  Addai lodges with a Jew named Tobia. He heals Abgar and the nobles of the city, and is received openly.
+  He preaches to the king, telling among other things the story of how the empress Protonike, wife of the
+  emperor Claudius, discovered the true cross at Jerusalem. He also preaches to the people, denouncing the
+  old gods of the city — Bel, Nebo, and the goddess Tar''atha — and calling them to the one true God. Before
+  he dies, Addai appoints Aggai as his successor. Aggai is later killed, struck down for refusing to make
+  ceremonial hats demanded of him by a rival claimant to authority. This happens before he can himself
+  ordain a successor. It falls to Palut to travel to Antioch, where he is ordained by Serapion of Antioch.
+  Through this ordination, Edessa''s own church is tied to the wider apostolic succession running back
+  through Antioch to Peter.'
 attested_occasion: 'The Doctrina Addai''s foundation account (the received text): Abgar''s correspondence
   with Jesus, the mission of Addai, the succession Addai-Aggai-Palut with Palut''s ordination at Antioch
   under Serapion - this world''s own telling of its beginning, Contested as formation-account and Inferential-Thin
@@ -104,3 +103,13 @@ chunk_slug: doctrina-addai
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory004_doctrina-addai.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This is this world's own foundation myth, not a source of historical fact about its origin (Doc_01, Section 2 already established the actual beginning point as c. 200 CE, using the Chronicle of Edessa and Bardaisan's own attested career, not this account). What it reveals directly is how this world understood and justified its own legitimacy: an origin reaching back to Christ's own lifetime, a founding by direct apostolic commission, and an institutional succession secured, in the end, by tying itself to Antioch's own apostolic line rather than resting on Addai's authority alone. This connects to C4 (Authority-Structure Ambiguity): even this world's own most confident claim to legitimacy resolves its founding succession by reaching outward, to Antioch, rather than resting on a purely local chain of authority — a pattern of never-quite-self-sufficient legitimation this world lived with across its whole span, not only in this legend.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (two
+long paragraphs, several sentences stacking multiple clauses joined by commas, "and," semicolons, and
+em-dash asides) at FK grade 12.0 / FRE 53.7. Per Mark's decision to extend the readability pass to story
+records, the sentences are split into many shorter ones along their own existing clause and semicolon
+boundaries; no word is changed, and the embedded quotation "no enemy shall ever rule over it" is preserved
+exactly. No name or claim is dropped - Abgar, Hanan, Jesus's declining-but-promising reply, Judas Thomas,
+Addai, Tobia, Protonike's cross discovery, the denounced gods Bel, Nebo, and Tar'atha, Aggai's death over
+the ceremonial hats, and Palut's ordination at Antioch under Serapion are all unchanged. Re-scored: FK
+7.4 / FRE 66.0, clearing both thresholds.

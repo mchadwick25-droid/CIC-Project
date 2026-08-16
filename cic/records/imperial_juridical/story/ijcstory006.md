@@ -12,22 +12,23 @@ review_state: draft
 cache_stability: static
 title: The Tome That Would Not Bend
 text: 'Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled
-  bishops heard it read, they are recorded as crying out that Peter had spoken through Leo — the letter
-  received not as one opinion weighed against others, but as a settled word carrying the weight of the
-  see that sent it.
+  bishops heard it read, they are recorded as crying out that Peter had spoken through Leo. [The letter
+  was] received not as one opinion weighed against others, but as a settled word carrying the weight of
+  the see that sent it.
 
 
-  But the same council, in the same session, granted Constantinople a rank second only to Rome — not because
-  Peter had ever set foot there, but because the city stood beside the emperor''s own throne, and had
-  come, in the fathers'' own reasoning, to be New Rome. When word reached Leo, he would not receive it.
-  His own legate had already objected at the council itself. Leo''s own letters afterward make the ground
-  of his refusal plain: rank secured by nearness to a throne is not the same kind of claim as rank secured
-  by an apostle''s own grave, and a council cannot make the two the same claim by voting.
+  But the same council, in the same session, granted Constantinople a rank second only to Rome. [This
+  was] not because Peter had ever set foot there, but because the city stood beside the emperor''s own
+  throne, and had come, in the fathers'' own reasoning, to be New Rome. When word reached Leo, he would
+  not receive it. His own legate had already objected at the council itself. Leo''s own letters afterward
+  make the ground of his refusal plain. Rank secured by nearness to a throne is not the same kind of claim
+  as rank secured by an apostle''s own grave, and a council cannot make the two the same claim by voting.
 
 
   The settlement that was meant to close this world''s own long argument over where authority finally
-  rests instead left it open — the council''s own council chamber holding, in the end, both a claim received
-  as though Peter himself had spoken, and a claim refused as though it had never been made.'
+  rests instead left it open. [This left] the council''s own council chamber holding, in the end, both
+  a claim received as though Peter himself had spoken, and a claim refused as though it had never been
+  made.'
 confidence_line: Documented
 attested_occasion: Leo I, Tome to Flavian (Epistula 28); Leo I, letters rejecting Canon 28 (to Marcian,
   Pulcheria, Anatolius); the Acts of the Council of Chalcedon (451)
@@ -75,3 +76,13 @@ Migrated at the S6.2/IJC S2.4-equivalent (2026-07-31) from `data/imperial_juridi
 [Formation Ecology Connection - parked at the S2.4-equivalent; converted to gravity_links at the S2.5-equivalent per CO-P2-04] This is this world's own closing evidentiary instance for Candidate 1 (Doc_04, Doc_08 Force 3B-1) — the primacy-claiming gravity's own final, most public collision, and the moment Doc_01's own Strand Determination finding (Strands A and B, never reconciled throughout this world's own window) becomes visible as a single dated event rather than a standing structural fact inferred from the record. It is this world's own natural closing story.
 
 [Final Assembly Instruction - parked verbatim as assembly provenance] Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 11.6 / FRE 61.7 - four long sentences, each joining multiple clauses at a dash or colon (the
+Tome's reception, the Canon 28 grant, Leo's refusal, and the closing unreconciled-claim summary). Per
+Mark's decision to extend the readability pass to story records, each sentence is split at its own
+existing dash or colon boundary, with three bracketed supplied subjects ("[The letter was]", "[This
+was]", "[This left]") added where a resulting clause had no subject of its own. No fact, hedge,
+quotation, or attribution is dropped - the Tome's reception at Chalcedon, Canon 28's own reasoning, Leo's
+rejection and his legate's objection, and the closing unreconciled-claim framing are all unchanged.
+Re-scored: FK 8.0 / FRE 71.4, clearing both thresholds.
