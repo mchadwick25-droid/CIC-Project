@@ -403,12 +403,13 @@ ENTRIES: tuple[TextEntry, ...] = (
               "source for Donatism, one of the census's three 'Selected - Not Yet Built' worlds. No "
               "built world currently cites Optatus or the Donatists at all (confirmed by grep) - pure "
               "future world-building material. Converted mechanically via python-docx, no content "
-              "passed through model-generated output. RIGHTS NOTE (differs from other Pearse-sourced "
-              "files this session): no explicit page-level public-domain declaration was found within "
-              "this transcription, unlike Palladius and the Doctrine of Addai - rights status rests on "
-              "the 1917 publication date and the source collection's general practice, recorded "
-              "honestly (not assumed confirmed) in the file's own prepended header. Translator name "
-              "likewise not found within the transcription itself; attributed to Vassall-Phillips on "
+              "passed through model-generated output. RIGHTS: the DOCX conversion itself carried no "
+              "rights statement (unlike Palladius and the Doctrine of Addai, whose transcriptions "
+              "included one); Mark confirmed the source page's own footer directly, 2026-08-15: "
+              "'This text was transcribed by Roger Pearse, Ipswich, UK, 2006. All material on this "
+              "page is in the public domain - copy freely.' Now recorded in the file's own header "
+              "alongside the 1917-publication-date grounds already noted. Translator name still not "
+              "found within the transcription itself; attributed to Vassall-Phillips on "
               "external bibliographic grounds only."),
 )
 
