@@ -32,7 +32,10 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    docs 2026-08-16: flat pricing, no introductory expiry. An earlier draft of
    this review warned of a 2026-08-31 cliff, drawn from a stale cached table;
    **withdrawn**. There is no deadline on the voice-model decision.
-6. **Safety mechanisms are not where the money is** (3.2% of spend).
+6. **Safety mechanisms are ~10% of spend, not 3.2%** — corrected by
+   measurement. The dollar figure held ($0.037/hour, estimated $0.035); the
+   *share* tripled because the denominator fell. At $0.372/hour they are no
+   longer a rounding error, and $0.30 cannot be reached without them.
 
 ## Measured on real traffic (48 turns, 2026-08-16)
 
@@ -196,9 +199,20 @@ they are cheap and load-bearing for the project's central claim.
 
 ## Safety disagreement
 
-Facts: relational safety + frame breaker = $0.21 across all six test
-conversations, 3.2% of spend, ~$0.035/hour. Removing them covers ~1/10 of the
-gap. The cost argument does not survive contact with the numbers.
+Facts, now measured (48 turns, 2026-08-16): `relational_safety` $0.00238/turn
+and `frame_breaker` $0.00066/turn — **$0.037/hour, 9.8% of spend**.
+
+The estimate above this line said $0.035/hour and 3.2%, and both halves are
+instructive. The dollar figure was right within 6%. The *share* was wrong by
+3x, because it was taken against an inflated total. **This strengthens Mark's
+argument, not mine.** At $1.09/hour safety was a rounding error and "the cost
+argument does not survive contact with the numbers" was fair. At $0.372/hour
+it is a tenth of spend, it is the single largest cuttable line after the
+adjudicator, and — see the route to $0.30 above — the target is unreachable
+while it stays. The cost argument survives now. It just arrives as a
+trade-off rather than a saving: $0.037/hour buys the protection, and whether
+that is worth 12% of the budget is Mark's call to make with the real number
+in front of him.
 
 Substance: declining outright was the wrong move — it is Mark's product and
 his duty of care to define. But keyword-triggered distress detection is
