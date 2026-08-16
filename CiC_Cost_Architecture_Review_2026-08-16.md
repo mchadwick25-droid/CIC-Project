@@ -143,7 +143,7 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 
 | Lever | Quality | $/hr | $/mo | $/yr |
 |---|---|---:|---:|---:|
-| A · strip builder apparatus from retrieved chunks | **improves** | 0.041 | 41 | 496 |
+| A · strip builder apparatus from retrieved chunks **(SHIPPED)** | **improves** | 0.031 | 31 | 367 |
 | B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
 | C · over-settling adjudicator 78% -> 30% | neutral | 0.039 | 39 | 463 |
 | D · retire the two shadow-mode checks | neutral | 0.018 | 18 | 216 |
@@ -152,14 +152,16 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 | **Sonnet 5, all of A-F** | — | **0.326** | **326** | **3,907** |
 | Haiku 4.5, all of A-F | costs citations | 0.251 | 251 | 3,015 |
 
-**A-F is worth $2,462/yr and requires no voice change.** Haiku on top saves a
+**A-F is worth ~$2,330/yr and requires no voice change.** (A came in at $367
+rather than the estimated $496 - stories already stripped two of the sections
+at index time, which the first estimate double-counted.) Haiku on top saves a
 further $892/yr, permanently — the whole price of the Sonnet voice, against a
 measured citation regression of 7/8 -> 3/8. **Recommendation: keep Sonnet.**
 Grounded citation is the project's central claim and $892/yr is not the right
 price for halving it when the target is already met without it.
 One penny per hour = $120/year at this volume.
 
-### A · Most of what retrieval sends is builder apparatus
+### A · Most of what retrieval sends is builder apparatus — SHIPPED 2026-08-16
 
 Measured across every deployed chunk, as the model receives it after the
 existing Key Sources / Quick Meaning excisions:
@@ -170,13 +172,44 @@ Story chunks — Story Text 29.5% | Tier Justification 25.0% | Usage Guidance
 Lexicon chunks — World Meaning 52.5% | Distortion Risk 23.1% | Ecological
 Function 15.8%
 
-Only 29.5% of a story chunk is the story. **`Distortion Risk` is the section
-that caused FLAG-018** — the voice read it as a task and opened turns with
+**Measured after implementation: the retrieved payload falls 34.1%**, 3,291 ->
+2,168 tokens/turn, plus ~150 tokens from the retired FLAG-018 instruction =
+1,273 uncached tokens/turn, $367/yr at 1,000 hours/month.
+
+**`Distortion Risk` is the section that caused FLAG-018** — the voice read it as a task and opened turns with
 unprompted term clarifications; the compensating instruction still ships in
 the dynamic prompt on every turn. Strip the apparatus at build time and the
-defect source, the compensating instruction, and 40% of the uncached payload
-all go together. Keep Usage Guidance and Source Identification (the prompt
-depends on both); tier/confidence remain in front-matter metadata.
+defect source, the compensating instruction, and a third of the uncached
+payload all go together. Removed on **coherence** grounds before cost: the
+section reads "A modern reader hears X...", handing the voice explicit
+knowledge of how a modern participant thinks, which is exactly what the
+permanent prompt's Total Embeddedness rule forbids.
+
+Kept, though they read like apparatus by name: **Usage Guidance** and **Absent
+Story Note** both carry anti-fabrication constraints the voice needs ("should
+receive honest brevity, not an invented timetable"); **Plural-Voices Note**
+carries attribution honesty. Tier/confidence remain in front-matter metadata.
+
+#### Two defects found while implementing
+
+1. **`find_section` under-reported fenced sections containing bold
+   sub-labels.** `"\n\n**"` is a section-end marker, so `## Distortion Risk`
+   ended at its own `**Modern Hearing:**` — reported extent 2.3% of the
+   lexicon pool against a true 23%. Excising it would have removed the
+   heading and left the body in place. Fenced sections now end only at
+   `"\n---"` or `"\n## "`. Verified byte-identical on the existing Quick
+   Meaning + Key Sources path across all 118 lexicon chunks.
+
+2. **Eight chunks have no `World Meaning` section, or an empty one** —
+   `pahclex012`, `pahclex013`, `syrlex005`, `syrlex008`, `desertlex013`,
+   `desertlex017`, `desertlex018`, `ijclex011`. Their entire substance sits
+   inside the apparatus, so stripping it shipped a zero-character body: the
+   same Article 5 grounding failure `sections.py` was written to prevent.
+   `excise_sections` now refuses any excision that would drop a body below
+   `MIN_VOICE_BODY_CHARS`. **This is a records defect the guard contains but
+   does not fix** — `desertlex018` has literally empty `**World Meaning:**`
+   and `**Ecological Function:**` fields. Worth an authoring pass
+   independent of cost.
 
 ### B · Safety: gate it, don't remove it
 
@@ -209,8 +242,7 @@ ledger removes the need to choose.
 
 ## Recommended order
 
-0. **Strip builder apparatus from the deployed chunks** (lever A) — largest
-   single saving, improves quality, removes a known defect source.
+0. ~~**Strip builder apparatus**~~ — **DONE**, shipped 2026-08-16. $367/yr.
 1. **Fix the cost calculator.** Uncached input =
    `usage_metadata["input_tokens"] - cache_read - cache_creation`, or read the
    raw block where available. Then re-price the saved clean-round logs — that
