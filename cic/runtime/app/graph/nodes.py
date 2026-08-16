@@ -281,6 +281,10 @@ def get_monitoring_llm(max_tokens: int | None = None):
         kwargs = {
             "model": "claude-haiku-4-5-20251001",
             "anthropic_api_key": settings.anthropic_api_key,
+            # Pinned, not left at the API default - see
+            # settings.monitoring_temperature for the measurement that
+            # prompted it. Applies to every classifier this factory serves.
+            "temperature": settings.monitoring_temperature,
         }
         if max_tokens:
             kwargs["max_tokens"] = max_tokens

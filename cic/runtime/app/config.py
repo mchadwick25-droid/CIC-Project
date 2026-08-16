@@ -155,6 +155,24 @@ class Settings(BaseSettings):
     # risk is named in OVER_SETTLING_SCREEN_PROMPT: an earlier version of
     # this check that read a turn and judged it as a whole "caught nothing".
     # Cost is not a reason to ship a check that finds less.
+    # Sampling temperature for the monitoring/classifier model. Previously
+    # unset, which meant every classifier in the system ran at the API
+    # default - both over-settling stages, relational safety, drift
+    # detection, frame-breaker, wind-down.
+    #
+    # Measured 2026-08-16 (tools/cost/compare_over_settling.py --reps 3, 56
+    # turns): the OVER_SETTLING check did not reproduce its own verdict on
+    # 29-43% of turns. Same turn, same code, different answer. That makes a
+    # participant's correction partly a coin flip, and it makes every rate
+    # this project has measured - the 82% fire rate, the 28% confirm rate -
+    # a single draw of a noisy process.
+    #
+    # These classifiers emit one CATEGORY line, not prose; there is nothing
+    # for sampling variety to contribute. 0.0 is the right default and the
+    # setting exists so it can be moved without a deploy if some classifier
+    # turns out to want otherwise.
+    monitoring_temperature: float = 0.0
+
     over_settling_folded: bool = False
 
     groundedness_shadow_checks: bool = True
