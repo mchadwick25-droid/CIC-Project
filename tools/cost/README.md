@@ -43,3 +43,14 @@ Neither script makes a billable API call.
   same world inside the window reads the same block. A single-session test
   can never show it, which is why per-hour cost looks worse in testing than
   in production.
+
+- `analyze_over_settling.py` — turns the `[over_settling_decision]` log into a
+  decision about the screen's sensitivity. Reports fire rate, confirm rate per
+  world, and prices the two-stage design against adjudicating unconditionally.
+  Refuses to recommend a retune below 200 turns. Makes no API calls.
+
+      python3 tools/cost/analyze_over_settling.py backend.log
+
+  Measured token shape (2026-08-16, count_tokens): adjudication cached head
+  8,831 tok fleet mean, screen prompt 869 tok. The screen only pays for
+  itself below a 60% fire rate.

@@ -145,7 +145,7 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 |---|---|---:|---:|---:|
 | A · strip builder apparatus from retrieved chunks **(SHIPPED)** | **improves** | 0.031 | 31 | 367 |
 | B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
-| C · over-settling adjudicator 78% -> 30% | neutral | 0.039 | 39 | 463 |
+| C · over-settling adjudicator 78% -> 30% **(BLOCKED)** | trades recall | 0.022 | 22 | 261 |
 | D · retire the two shadow-mode checks | neutral | 0.018 | 18 | 216 |
 | E · trim `_HOW_YOU_ENGAGE` by 40% | test it | 0.018 | 18 | 221 |
 | F · pool cache writes (20 sessions/window) | none | 0.057 | 57 | 682 |
@@ -211,6 +211,42 @@ carries attribution honesty. Tier/confidence remain in front-matter metadata.
    and `**Ecological Function:**` fields. Worth an authoring pass
    independent of cost.
 
+### C · The screen is past its own break-even — but do not retune it yet
+
+Measured 2026-08-16 with `count_tokens`: the adjudication's cached head is
+**8,831 tokens** (fleet mean) and the screen prompt is **869**. Pricing the
+two-stage design on Haiku at those numbers:
+
+| fire rate | adjudication | + screen | $/turn | $/yr @1000h |
+|---:|---:|---:|---:|---:|
+| 100% | 0.00518 | 0.00150 | 0.00668 | 962 |
+| **78% (measured)** | 0.00435 | 0.00150 | **0.00585** | **842** |
+| 50% | 0.00329 | 0.00150 | 0.00479 | 689 |
+| 30% | 0.00253 | 0.00150 | 0.00403 | 581 |
+
+**C as scoped (78% -> 30%) is worth $261/yr, not $463** — lever A already
+took part of it by shrinking the evidence block the adjudicator re-retrieves.
+
+The larger finding: **a gate that fires on 78% of turns is past the point
+where it can pay for itself.** The screen only earns its keep below a **60%**
+fire rate. At the measured 78% it costs ~$96/yr *more* than adjudicating
+every turn would — and every screen false-negative is a miss the adjudicator
+never gets to see. The two-stage design is currently the worst of both: you
+pay for the gate and still adjudicate four turns in five.
+
+**I did not change it.** `app/over_settling_logging.py` states the rule
+directly — tightening the screen "trades directly against Article 5 rigor"
+and is "not a decision to make on a guess" — and the only sample that exists
+is 63 turns from one round whose transcripts are gone. Retuning a safety
+mechanism on 63 turns is exactly the guess that docstring forbids. Dropping
+the screen instead would need the adjudicator to do detection and judgment in
+one pass, which is a prompt redesign, not a config change.
+
+What unblocks it: the instrumentation is already wired and has never been run
+on real traffic. Collect ~200+ turns with logging on, then
+`tools/cost/analyze_over_settling.py` prints the fire rate, the confirm rate
+per world, and the verdict against the break-even.
+
 ### B · Safety: gate it, don't remove it
 
 `classify_relational_safety` ships a 1,593-token prompt on every turn, plus a
@@ -248,7 +284,7 @@ ledger removes the need to choose.
    raw block where available. Then re-price the saved clean-round logs — that
    gives true per-world figures rather than my fleet-mean model. Nothing else
    here is worth doing until this is right.
-2. **Tighten the over-settling screen** (fires 78%, confirms 20%).
+2. **Tighten the over-settling screen** — **BLOCKED ON DATA**, see below.
 3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.
