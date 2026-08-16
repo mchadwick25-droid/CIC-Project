@@ -92,6 +92,8 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 .ladder tr.floor td{border-top:1px solid var(--rule)}
 .ladder tr.target td{background:var(--amber-soft)}
 .ladder tr.target td:first-child{box-shadow:inset 3px 0 0 var(--amber)}
+.ladder tr.dead td{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
+.ladder tr.dead td:last-child{text-decoration:none;color:var(--rust);font-weight:650}
 .note{font-size:.85rem;color:var(--muted);max-width:44rem}
 </style>
 
@@ -109,7 +111,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <div class="stats">
   <div class="stat"><span class="k">Reported</span><span class="v bad">$1.09</span><span class="n">per hour · cached tokens charged twice</span></div>
   <div class="stat"><span class="k">Measured</span><span class="v good">$0.031</span><span class="n">per turn · 48 live turns · solid</span></div>
-  <div class="stat"><span class="k">At 12 turns/hour</span><span class="v warn">$0.372</span><span class="n">the assumed pace · $0.349 with free levers</span></div>
+  <div class="stat"><span class="k">At 12 turns/hour</span><span class="v warn">$0.372</span><span class="n">the assumed pace · $0.305 with every lever cut</span></div>
   <div class="stat"><span class="k">At 30 turns/hour</span><span class="v bad">$0.93</span><span class="n">pace has never been measured</span></div>
 </div>
 
@@ -119,8 +121,9 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     <li><strong>The prompt cache works.</strong> A live two-turn test returned a clean 17,565-token <code>cache_read</code> on the second call, on both the streaming and non-streaming paths, at the 1-hour TTL. My first pass suspected a runtime cache failure. It was wrong, and it is withdrawn.</li>
     <li><strong>The cost calculator double-charges cached tokens.</strong> LangChain reports <code>input_tokens</code> as the <em>total</em> input, with <code>cache_read</code> as a subset of it — the raw Anthropic block reports the two as additive. A calculator that sums all three overstates spend. Estimated at 2.6×; <span class="delta"><span class="was">2.6×</span><span class="arw">→</span><span class="now">2.39×</span></span> measured across 440 real calls.</li>
     <li><strong>A turn costs $0.03103, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
-    <li><strong>$0.30/hour is reachable only by removing the relational-safety classifier and drift detection.</strong> Every free lever together stops at $0.349. The last 16% has to come out of the apparatus. That is a quality decision to take consciously, not a saving waiting to be found.</li>
+    <li><strong>$0.30/hour is not reachable at twelve turns an hour.</strong> <span class="delta"><span class="was">$0.293</span><span class="arw">→</span><span class="now">$0.305</span></span> — cutting <em>every</em> lever in this review, including deleting the relational-safety classifier and drift detection outright, still lands above the target. The one remaining free cut was built, measured over 56 turns × 3 draws, and <a href="#screen">rejected on evidence</a>. What moves the number now is conversational pace, not apparatus.</li>
     <li><strong>Safety is ~10% of spend, not 3.2%</strong> — corrected by measurement, and it cuts against the position this review argued. The gate meant to fix it was then built and <strong>failed its own test 0/16</strong>; a transcript trim worth $69/year shipped in its place. See <a href="#safety">the correction</a>.</li>
+    <li><strong>The over-settling check does not reproduce its own verdict on 29–43% of turns.</strong> Same turn, same code, three draws, three different answers — in the version running in production, not the alternative. A participant's correction is partly a coin flip. One cause was a sampling temperature nobody had ever set; pinning it recovered about a third of the instability and left the rest. Every rate on this page is a single draw of that process.</li>
     <li><strong>Sonnet 5 pricing is stable at $2/$10.</strong> Verified against the live docs: flat pricing, no introductory expiry. An earlier draft warned of a 31 August cliff drawn from a stale cached table; withdrawn. There is no deadline on the voice-model decision.</li>
     <li><strong>The largest uncertainty left is not a lever at all.</strong> Twelve turns an hour assumes <strong>four minutes of thinking and typing per question</strong> — measured out of the event logs, and never checked against a real participant. At a one-minute pause the system costs $0.913/hour, not $0.372.</li>
   </ol>
@@ -158,17 +161,17 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
       <thead><tr><th>Cut</th><th class="n">$/turn saved</th><th class="n">$/yr @1,000h</th><th class="n">Running $/hour</th></tr></thead>
       <tbody>
         <tr><td>Measured today</td><td class="n">—</td><td class="n">—</td><td class="n">0.372</td></tr>
-        <tr><td>Fold the screen into the adjudicator</td><td class="n">0.00098</td><td class="n">141</td><td class="n">0.361</td></tr>
-        <tr class="floor"><td>Drop the groundedness shadow checks</td><td class="n">0.00099</td><td class="n">143</td><td class="n">0.349</td></tr>
-        <tr><td>Drop <code>drift_detection</code></td><td class="n">0.00224</td><td class="n">323</td><td class="n">0.322</td></tr>
-        <tr class="target"><td>Drop <code>relational_safety</code></td><td class="n">0.00238</td><td class="n">343</td><td class="n">0.293</td></tr>
+        <tr class="dead"><td>Fold the screen into the adjudicator</td><td class="n">0.00098</td><td class="n">141</td><td class="n">rejected</td></tr>
+        <tr class="floor"><td>Drop the groundedness shadow checks</td><td class="n">0.00099</td><td class="n">143</td><td class="n">0.360</td></tr>
+        <tr><td>Drop <code>drift_detection</code></td><td class="n">0.00224</td><td class="n">323</td><td class="n">0.334</td></tr>
+        <tr class="target"><td>Drop <code>relational_safety</code></td><td class="n">0.00238</td><td class="n">343</td><td class="n">0.305</td></tr>
       </tbody>
     </table>
   </div>
-  <p>The first two are genuinely free. One is a design simplification that removes a class of miss along with the cost; the other is a shadow check that already carries an off-switch and a 15 November review date. They reach <strong>$0.349</strong> and stop.</p>
+  <p>The first line is gone. It was the only cut on this ladder that cost no mechanism — a design simplification that looked like it removed a class of miss along with $141 a year. It was built, A/B'd against the path it would replace over 56 turns × 3 draws, and it <a href="#screen">loses a real finding every draw</a>. What remains free is the shadow checks, which already carry an off-switch and a 15 November review date. They reach <strong>$0.360</strong> and stop.</p>
   <div class="callout warn">
     <div class="eyebrow">The honest part</div>
-    <p><strong>There is no arrangement of cheap levers that reaches $0.30.</strong> Taking the last 16% means deciding that drift detection and the relational-safety classifier are not worth $0.056/hour between them. That is the trade-off to make consciously — it is not a saving to find.</p>
+    <p><strong>$0.30/hour is not reachable at this pace by any arrangement of these levers.</strong> Deleting drift detection <em>and</em> the relational-safety classifier — the whole apparatus argument, conceded in full — lands at $0.305. The target is not a lever problem. It is a pace problem, and pace has never been measured.</p>
   </div>
 </section>
 
@@ -230,7 +233,28 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   </div>
   <p>The interval clears the break-even, so the sample is conclusive and the decision is no longer blocked on data. <strong>A gate that fires on four turns in five cannot pay for itself</strong> — and every screen false-negative is a miss the adjudicator never sees. The two-stage design is currently the worst of both: you pay for the gate and still adjudicate most turns.</p>
   <p class="note">Per world: 73% fire / 38% confirm on post-apostolic-house-church; 91% / 20% on syriac-edessa-nisibis. Forty-eight turns is enough for this comparison and no more — the confirm-rate interval stays wide, and narrowing it is a separate, larger sample.</p>
-  <p><strong>I still did not change it.</strong> <code>over_settling_logging.py</code> states the rule: tightening the screen trades directly against Article 5 rigor, and folding detection into the adjudicator is a prompt redesign rather than a config change. The data now justifies doing that work; it does not do the work.</p>
+  <p><strong>I did not retune the screen.</strong> <code>over_settling_logging.py</code> states the rule: tightening it trades directly against Article 5 rigor. What the data justified instead was the redesign — folding detection into the adjudicator, one source-fed call that enumerates candidate claims and rules on them. So I built it, behind a flag, with a harness that replays real recorded turns through both paths.</p>
+
+  <h3>The fold was built, measured, and rejected</h3>
+  <div class="stats">
+    <div class="stat"><span class="k">Self-consistency</span><span class="v bad">57–79%</span><span class="n">neither path reproduces its own verdict</span></div>
+    <div class="stat"><span class="k">Stable regressions</span><span class="v warn">1</span><span class="n">of 56 turns · pair confirms every draw, fold never</span></div>
+    <div class="stat"><span class="k">Saving forgone</span><span class="v">$117</span><span class="n">per year</span></div>
+  </div>
+  <p>Three things came out of running it, in ascending order of how much they matter.</p>
+  <ol>
+    <li><strong>Neither path is deterministic.</strong> Replaying the same turn three times gave three different answers on 29–43% of turns — in the two-stage path that runs in production as much as in the fold. The first single-draw comparison showed three regressions; none of them reproduced. A single-draw A/B of an LLM classifier measures nothing.</li>
+    <li><strong>Nobody had ever set a temperature.</strong> <code>get_monitoring_llm</code> passed none, so every classifier in the system — both over-settling stages, relational safety, drift, frame-breaker, wind-down — ran at the API default. Pinning it to 0 took the pair from 71% to 79% self-consistency and the fold from 57% to 66%, and left a third of turns still flipping. At 12k tokens of context, temperature 0 is not determinism; the 1k-token screen <em>is</em> now byte-identical across draws.</li>
+    <li><strong>One stable regression survived, and it is structural.</strong> With the noise down, one turn was confirmed by the pair on every draw and by the fold on none. Rather than argue about it I printed both paths' actual words.</li>
+  </ol>
+  <div class="callout warn">
+    <div class="eyebrow">Why the fold loses it</div>
+    <p>The fold's enumeration phase lists the disputed claim <em>verbatim</em>, every draw. Its ruling phase clears it, every draw, the same way: <em>"the representative speaks from inside a household … does not claim it as universal."</em> Both paths read <strong>37 of 37 identical retrieved chunks</strong>, so this is not retrieval drift.</p>
+    <p>What separates them is one line each writes about the same sentence. The blind screen has read no sources, so the only concern it can name is that the claim is <em>stated more firmly than a contested thing should be</em> — which is the question the adjudicator must then answer against the record. The fold has already read the sources when it enumerates, and frames its concern as <em>"is this universal across households?"</em> — a question with a stock answer that always clears. The ruling phase then answers the question the enumeration phase asked.</p>
+    <p><strong>So the screen's contribution is not the filtering the cost case measured. At an 82% fire rate it demonstrably fails at filtering. Its contribution is blindness — and blindness cannot be restored by instruction inside a single call that reads the sources before it writes a word.</strong> The prompt says "finish the first phase before beginning the second". It cannot.</p>
+  </div>
+  <p>One real finding lost per 56 turns is worth more than $117 a year. The flag stays off. The code, the harness and the diagnosis stay in the tree as the record of a decision made on evidence rather than on either instinct.</p>
+  <p class="note">The larger finding is not about the fold. A check that answers differently on the same turn decides whether a participant gets corrected, partly at random — and it is what every rate on this page is a single draw of. That is now the open question in this area, and it is worth more than any dollar left in this document.</p>
 </section>
 
 <hr>
@@ -321,8 +345,8 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <ol>
     <li><strong>Put one real participant through one session.</strong> That settles turns-per-hour, which outweighs every item below it — and the tooling and logging for it already exist. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
     <li><strong>Fix the cost calculator.</strong> Uncached input is <code>input_tokens − cache_read − cache_creation</code>, or read the raw block where available. Every figure downstream depends on it.</li>
-    <li><strong>Fold detection into the adjudicator</strong> and drop the screen stage. Cheaper, and it removes a class of miss. A prompt redesign, not a config change.</li>
-    <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.349 and $0.293. Whichever way it goes, it should be chosen rather than discovered.</li>
+    <li><strong>Find out why the over-settling check disagrees with itself</strong> on a third of turns. Temperature is pinned now and it was only part of it. This outranks every remaining dollar on the page: it decides whether a participant's turn gets corrected. <span class="note">(Folding the screen into the adjudicator — the item that stood here — is done and rejected. Do not retune the screen either.)</span></li>
+    <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.360 and $0.305 — which no longer reaches the target either way. Whichever way it goes, it should be chosen rather than discovered.</li>
     <li><strong>Leave the voice on Sonnet.</strong> No deadline, no forcing function, and $892/year is the wrong price for a citation regression.</li>
   </ol>
 </section>

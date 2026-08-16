@@ -24,10 +24,13 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    overstates `main_response` by **2.6x**.
 3. **True cost today is $0.372/hour — measured, not modelled.** Not $1.09,
    and not the $0.53 this document estimated before the traffic sample ran.
-4. **$0.30/hour is reachable, but only by removing both the relational-safety
-   classifier and drift detection.** Every cheap lever together lands at
-   $0.349; the last 16% has to come out of the apparatus. That is the
-   conscious quality trade-off, stated plainly, with the arithmetic below.
+4. **$0.30/hour is not reachable at 12 turns/hour.** Cutting *every* lever in
+   this review — including deleting both the relational-safety classifier and
+   drift detection outright — lands at **$0.305**. The one remaining "free"
+   cut, folding the over-settling screen into the adjudicator, was built,
+   measured over 56 turns × 3 draws, and rejected: it loses a real finding
+   every draw to save $117/yr. What moves the number now is conversational
+   pace, not apparatus — and pace has never been measured.
 5. **Sonnet 5 pricing is stable at $2/$10.** Verified against the live model
    docs 2026-08-16: flat pricing, no introductory expiry. An earlier draft of
    this review warned of a 2026-08-31 cliff, drawn from a stale cached table;
@@ -36,6 +39,13 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    measurement. The dollar figure held ($0.037/hour, estimated $0.035); the
    *share* tripled because the denominator fell. At $0.372/hour they are no
    longer a rounding error, and $0.30 cannot be reached without them.
+7. **The over-settling check does not reproduce its own verdict on 29–43% of
+   turns** — found while A/B-ing the fold, and it is about the code running
+   in production, not the alternative. Same turn, same code, different
+   answer: a participant's correction is partly a coin flip. One cause was an
+   unset sampling temperature, now pinned (`settings.monitoring_temperature`);
+   that recovered roughly a third of the instability and left the rest. Every
+   rate in this document is a single draw of that process.
 
 ## Measured on real traffic (48 turns, 2026-08-16)
 
@@ -66,18 +76,22 @@ else; everything else currently costs $0.209.
 | cut | $/turn saved | $/hour | $/yr @1000h | running $/hour |
 |---|---:|---:|---:|---:|
 | — | | | | 0.372 |
-| fold the screen into the adjudicator | 0.00098 | 0.012 | 141 | 0.361 |
-| drop groundedness shadow checks | 0.00099 | 0.012 | 143 | 0.349 |
-| drop `drift_detection` | 0.00224 | 0.027 | 323 | 0.322 |
-| drop `relational_safety` | 0.00238 | 0.029 | 343 | **0.293** |
+| ~~fold the screen into the adjudicator~~ | ~~0.00098~~ | ~~0.012~~ | ~~141~~ | **built, measured, rejected** |
+| drop groundedness shadow checks | 0.00099 | 0.012 | 143 | 0.360 |
+| drop `drift_detection` | 0.00224 | 0.027 | 323 | 0.334 |
+| drop `relational_safety` | 0.00238 | 0.029 | 343 | **0.305** |
 
-The first two are free — one is a design simplification that also removes a
-class of miss, the other is a shadow check with a graduation date already on
-it. They get to **$0.349**. The last two are the apparatus itself. **There is
-no arrangement of cheap levers that reaches $0.30.** Taking the last 16%
-means deciding that drift detection and the relational-safety classifier are
-not worth $0.056/hour between them — which is the trade-off to make
-consciously, not a saving to find.
+**The first line is gone.** The fold was built, measured against the two-stage
+path over 56 turns × 3 draws, and rejected on evidence — it loses a real
+finding, every draw, for $117/yr (section C). That single line was the only
+"free" cut in the route that did not cost a mechanism.
+
+What remains: the shadow checks are free — a graduation date is already on
+them. The other two are the apparatus itself. **Cutting every lever in this
+review now lands at $0.305, not $0.293.** $0.30/hour is not reachable at
+12 turns/hour by any arrangement of these levers, including the ones that
+delete safety mechanisms outright. Whether it is reachable at all is a
+question about conversational pace, not about apparatus — see below.
 
 ### Two things the sample settles that the model could not
 
@@ -100,7 +114,7 @@ $/turn is measured; the 12-turns-per-hour divisor is assumed.
 | 20 | 0.621 |
 
 At 20 turns/hour, the full apparatus-cutting programme above still lands at
-$0.489. **A faster conversational pace moves the cost more than every lever
+$0.508. **A faster conversational pace moves the cost more than every lever
 in this review combined.**
 
 ### What 12 turns/hour actually assumes
@@ -498,6 +512,62 @@ traffic, 66%–86% would already have cleared the break-even. It does not count,
 for a reason that has nothing to do with sample size — the transcripts are
 gone, it was a single round, and none of it can be re-derived.
 
+#### The fold was built, measured, and rejected
+
+The measurement said the gate does not pay for itself, so I built the
+alternative it implied: one source-fed call that enumerates candidate claims
+and rules on them, behind `settings.over_settling_folded`, with an A/B harness
+(`tools/cost/compare_over_settling.py`) that replays real recorded turns
+through both paths.
+
+**The flag stays off.** Three things came out of running it, in order of how
+much they matter.
+
+**1. Neither path reproduces its own verdict.** Replaying the same turn three
+times gave three different answers on 29–43% of turns. Not the fold — *the
+check*, in the shape that runs in production today. A participant's turn gets
+a correction or does not, partly at random, and every rate in this document —
+the 82% fire rate, the 28% confirm rate — is a single draw of a process that
+noisy.
+
+**2. Part of that was an unset temperature.** `get_monitoring_llm` set no
+`temperature` at all, so every classifier in the system — both over-settling
+stages, relational safety, drift, frame-breaker, wind-down — ran at the API
+default. Pinning it to 0 (`settings.monitoring_temperature`) took the pair
+from 71% to 79% self-consistency and the fold from 57% to 66%. It did not fix
+it: a third of turns still flip. At 12k tokens of context, temperature 0 is
+not determinism. The blind screen, at 1k tokens, *is* now byte-identical
+across draws.
+
+**3. The fold loses a real finding, and the reason is structural.** With the
+noise reduced, one stable regression remained: a turn the two-stage path
+confirmed on every draw and the fold on none. Rather than argue about it I
+opened it up (`tools/cost/diagnose_over_settling.py`, which prints both
+paths' actual words for one turn).
+
+The fold's Phase 1 enumerates the disputed claim *verbatim*, every draw. Its
+Phase 2 clears it, every draw, with the same move: *"the representative speaks
+from inside a household … does not claim it as universal."* Both paths read
+**37 of 37 identical retrieved chunks**, so this is not retrieval drift.
+
+What separates them is one line each path writes about the same sentence. The
+blind screen has read no sources, so the only concern it can name is that the
+claim is *stated more firmly than a contested thing should be* — which is the
+question the adjudicator then has to answer against the record. The fold has
+already read the sources when it writes Phase 1, and frames its concern as
+*"is this universal across households?"* — a question with a stock answer that
+always clears. Phase 2 then answers the question Phase 1 asked.
+
+**So the screen's contribution is not the filtering the cost case measured.
+At an 82% fire rate it demonstrably fails at filtering. Its contribution is
+blindness — and blindness cannot be restored by instruction inside a single
+forward pass that reads the sources before it writes a word.** The prompt
+says "finish the first phase before beginning the second". It cannot.
+
+The fold saves **$117/yr**. One real finding lost per 56 turns costs more than
+that. The code, the flag, the harness and the diagnosis all stay in the tree
+as the record of a decision made on evidence rather than on either instinct.
+
 ### B · The gate design does not survive contact with the code — REJECTED
 
 I proposed this one and it was wrong. Three findings, all from reading the
@@ -720,7 +790,18 @@ ledger removes the need to choose.
    raw block where available. Then re-price the saved clean-round logs — that
    gives true per-world figures rather than my fleet-mean model. Nothing else
    here is worth doing until this is right.
-2. **Tighten the over-settling screen** — **BLOCKED ON DATA**, see below.
+2. ~~**Tighten the over-settling screen**~~ — **MEASURED AND CLOSED.** The
+   82% fire rate (CI 68–90%) settled it: the gate is past its 60% break-even.
+   The implied fix, folding the screen into the adjudicator, was then built
+   and A/B'd over 56 turns × 3 draws and **rejected** — the screen's value
+   turns out to be blindness, not filtering, and blindness does not survive
+   the fold (section C). Do not retune the screen either: it is now the one
+   deterministic classifier in the system. Total available saving here was
+   $117/yr.
+2a. **Stabilise the check itself.** The real finding: it does not reproduce
+   its own verdict on 29–43% of turns. Temperature is pinned now; the rest
+   is unexplained and is worth more than any remaining dollar in this
+   document, because it decides whether a participant's turn gets corrected.
 3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.

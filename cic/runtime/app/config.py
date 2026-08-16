@@ -139,22 +139,8 @@ class Settings(BaseSettings):
     # gate or delete it. Review by 2026-11-15 (three months from scoping);
     # if neither has happened by then, the honest move is to turn this off
     # and stop paying for data nobody is reading.
-    # Fold the OVER_SETTLING screen into the adjudicator: one source-fed
-    # call that enumerates candidates and rules on them, instead of a blind
-    # screen feeding a second pass.
-    #
-    # Justified by measurement (2026-08-16, 44 real turns): the screen fires
-    # on 82% of turns, 95% CI 68-90%, against a 60% break-even - so the gate
-    # costs more than it turns away. The larger reason is the miss class: a
-    # turn the blind screen clears never reaches the adjudicator, and that
-    # false-negative rate is unmeasured and unmeasurable while the screen
-    # exists, because a cleared turn leaves no trace.
-    #
-    # DEFAULT OFF until the A/B in tools/cost/compare_over_settling.py shows
-    # the folded call reproduces the pair's findings on real traffic. The
-    # risk is named in OVER_SETTLING_SCREEN_PROMPT: an earlier version of
-    # this check that read a turn and judged it as a whole "caught nothing".
-    # Cost is not a reason to ship a check that finds less.
+    groundedness_shadow_checks: bool = True
+
     # Sampling temperature for the monitoring/classifier model. Previously
     # unset, which meant every classifier in the system ran at the API
     # default - both over-settling stages, relational safety, drift
@@ -173,9 +159,47 @@ class Settings(BaseSettings):
     # turns out to want otherwise.
     monitoring_temperature: float = 0.0
 
+    # Fold the OVER_SETTLING screen into the adjudicator: one source-fed
+    # call that enumerates candidates and rules on them, instead of a blind
+    # screen feeding a second pass.
+    #
+    # Justified by measurement (2026-08-16, 44 real turns): the screen fires
+    # on 82% of turns, 95% CI 68-90%, against a 60% break-even - so the gate
+    # costs more than it turns away. The larger reason is the miss class: a
+    # turn the blind screen clears never reaches the adjudicator, and that
+    # false-negative rate is unmeasured and unmeasurable while the screen
+    # exists, because a cleared turn leaves no trace.
+    #
+    # DEFAULT OFF until the A/B in tools/cost/compare_over_settling.py shows
+    # the folded call reproduces the pair's findings on real traffic. The
+    # risk is named in OVER_SETTLING_SCREEN_PROMPT: an earlier version of
+    # this check that read a turn and judged it as a whole "caught nothing".
+    # Cost is not a reason to ship a check that finds less.
+    #
+    # MEASURED AND REJECTED, 2026-08-16. 56 turns x 3 draws at temperature 0
+    # (samples/2026-08-16_over_settling_reps3_temp0.md): one stable
+    # regression, turn 48 - the pair confirmed on every draw, the fold on
+    # none. Diagnosed rather than argued (samples/2026-08-16_turn48_
+    # diagnosis.md): the fold's Phase 1 enumerates the disputed claim
+    # verbatim every time, and Phase 2 clears it every time with the same
+    # move - "speaks from inside a household, does not claim it as
+    # universal". Both paths saw 37 of 37 IDENTICAL retrieved chunks, so
+    # this is not retrieval drift.
+    #
+    # The reason is structural. The blind screen has read no sources, so the
+    # concern it writes can only be "this is stated more firmly than a
+    # contested thing should be" - which the adjudicator must then rule on
+    # against the record. The fold has already read the sources when it
+    # writes Phase 1, and frames its concern as "is this universal across
+    # households?", a question with a stock answer that always clears.
+    #
+    # So the screen's contribution is not the filtering the cost case
+    # measured - at 82% it fails at that - it is BLINDNESS, and blindness is
+    # not restorable by instruction inside one forward pass that reads the
+    # sources before it writes a word. The fold saves $117/yr against the
+    # two-stage path. One real finding lost per 56 turns costs more than
+    # that. Leave this False; the code and the harness stay as the record.
     over_settling_folded: bool = False
-
-    groundedness_shadow_checks: bool = True
 
     # Anthropic prompt-cache TTL for the two cacheable prefixes (the
     # Representative's static prompt in _cached_system_message, and the

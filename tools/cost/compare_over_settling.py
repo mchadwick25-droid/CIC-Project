@@ -90,6 +90,45 @@ sets no `temperature` at all, so every classifier in the system - both
 over-settling stages, relational safety, drift, frame-breaker - runs at the
 API default. Pin it and re-run this tool before deciding anything about the
 fold.
+
+TEMPERATURE PINNED, RE-RUN (56 turns x 3 draws, 2026-08-16) - see samples/
+--------------------------------------------------------------------------
+                                  pair            fold
+                            default temp0   default temp0
+    total confirmations          27    22      40    44
+    turns confirmed EVERY draw    2     3       2     6
+    turns that flip between draws16    12      24    19
+    self-consistency            71%   79%     57%   66%
+    stable regressions                         0     1
+    stable gains                               1     4
+
+Pinning temperature to 0 helped both paths and settled neither: a third of
+the turns still flip. It sharpened the comparison rather than resolving it -
+with less noise the fold shows MORE stable findings (6 vs 3) and 4 stable
+gains, and one stable regression, turn 48, the same turn that failed the
+original single-draw run.
+
+VERDICT ON THE FOLD: rejected, on turn 48 - see diagnose_over_settling.py
+------------------------------------------------------------------------
+That regression was diagnosed rather than argued about. The fold's Phase 1
+enumerates the disputed claim verbatim on every draw; Phase 2 clears it on
+every draw, always by the same move ("speaks from inside a household, does
+not claim it as universal"). The two paths saw 37 of 37 IDENTICAL retrieved
+chunks, so this is not retrieval drift.
+
+What separates them is the Concern each path writes for that same claim. The
+blind screen has read no sources, so all it can name is that the claim is
+stated more firmly than a contested thing should be - the question the
+adjudicator must then rule on against the record. The fold has already read
+the sources when it writes Phase 1, and frames its concern as "is this
+universal across households?", which has a stock answer that always clears.
+
+The screen's value is therefore not the filtering the cost case measured -
+at an 82% fire rate it demonstrably fails at that - it is BLINDNESS, and
+blindness cannot be restored by instruction inside one forward pass that
+reads the sources before it writes a word. The flag stays off, and the
+~$250/yr the fold would save is not worth one real finding lost per 56 turns
+plus a less self-consistent check.
 """
 from __future__ import annotations
 

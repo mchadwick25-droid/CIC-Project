@@ -1,0 +1,225 @@
+1 turn(s) x 3 draw(s); estimated spend ~$0.03
+
+==============================================================================
+TURN 48  world=post-apostolic-house-church
+==============================================================================
+There was a moment. The water.
+
+Before it comes teaching. We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen. Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed. Then running water where it can be had, a river or a spring, not standing water if there is a choice. They go down into it and come up changed.
+
+But the water is not the whole of joining. The table finishes it. The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before.
+2026-08-16 15:41:46,058 [llm_usage] label=over_settling_screen model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=1033 output_tokens=336 cache_creation_input_tokens=0 cache_read_input_tokens=0 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2821.27it/s]
+Parsed: pahclex001_episkopos.md -> episkopos (ἐπίσκοπος)
+Parsed: pahclex002_presbyteros.md -> presbyteros (πρεσβύτερος)
+Parsed: pahclex003_ekklesia.md -> ekklesia (ἐκκλησία)
+Parsed: pahclex004_eucharistia.md -> eucharistia (εὐχαριστία)
+Parsed: pahclex005_diakonos.md -> diakonos (διάκονος)
+Parsed: pahclex006_presbyterion.md -> presbyterion (πρεσβυτέριον)
+Parsed: pahclex007_two-ways.md -> Two Ways
+Parsed: pahclex008_prophetes.md -> prophetes (προφήτης)
+Parsed: pahclex009_ministrae.md -> ministrae
+Parsed: pahclex010_agape-label.md -> agape (as label)
+Parsed: pahclex011_baptisma.md -> baptisma (βάπτισμα)
+Parsed: pahclex012_hetaeria.md -> hetaeria
+Parsed: pahclex013_pertinacia.md -> pertinacia
+Parsed: pahcamb001_the-apartment-city.md -> The apartment city
+Parsed: pahcamb002_slaves-and-freedmen-in-the.md -> Slaves and freedmen in the household
+Parsed: pahcamb003_before-dawn-then-the-workday.md -> Before dawn, then the workday
+Parsed: pahcamb004_travelers-and-the-open-road.md -> Travelers and the open road
+Parsed: pahcamb005_hearing-not-reading.md -> Hearing, not reading
+Parsed: pahcamb006_burying-one-another.md -> Burying one another
+Parsed: pahcamb007_the-supper-table.md -> The supper table
+Parsed: pahcamb008_what-the-neighbors-said.md -> What the neighbors said
+Created 21 documents for indexing
+FAISS vector store created
+Index saved to /home/user/CIC-Project/cic/runtime/vector_store/pahc
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 2868.60it/s]
+Parsed: pahcstory001_ignatius-guarded-journey.md -> Ignatius's Guarded Journey to Rome
+Parsed: pahcstory002_1clement-corinthian-dispute.md -> 1 Clement's Intervention in the Corinthian Dispute
+Parsed: pahcstory003_polycarp-forwards-letters.md -> Polycarp Forwards Ignatius's Letters to Philippi
+Parsed: pahcstory004_pliny-interrogation.md -> Pliny's Interrogation in Bithynia-Pontus
+Parsed: pahcstory005_nero-scapegoating.md -> Nero's Fire and the First Scapegoating
+Parsed: pahcstory006_justin-sunday-gathering.md -> A Sunday Gathering in Rome, As Justin Describes It
+Parsed: pahcstory007_hermas-visions.md -> Hermas's Visions of Mercy After Sin
+Parsed: pahcstory008_martyrdom-of-polycarp.md -> The Martyrdom of Polycarp
+Parsed: pahcstory009_two-ways-catechumen.md -> The Two Ways: A Catechumen's Path to the Water
+Parsed: pahcstory010_didache-eucharist.md -> A Meal Without a Story
+Parsed: pahcstory011_one-eucharist-under-bishop.md -> The One Eucharist, Under the Bishop
+Parsed: pahcstory012_day-under-bishop-and-presbyters.md -> A Day Under the Bishop, A Day Under the Presbyters
+Parsed: pahcstory013_mutual-aid-prisoner.md -> Carrying the Prisoner's Needs: Mutual Aid Under Threat
+Created 13 story documents for indexing
+Story FAISS vector store created
+Story index saved to /home/user/CIC-Project/cic/runtime/vector_store/pahc_stories
+2026-08-16 15:42:00,566 [llm_usage] label=over_settling_adjudication model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=11938 output_tokens=319 cache_creation_input_tokens=0 cache_read_input_tokens=8867 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+2026-08-16 15:42:09,019 [llm_usage] label=over_settling_folded model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=12222 output_tokens=696 cache_creation_input_tokens=0 cache_read_input_tokens=9368 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+
+==============================================================================
+TURN 48  DRAW 1   pair=CONFIRM   fold=clear
+==============================================================================
+
+----- SCREEN said -----
+SCREEN_FLAG
+1. Claim: "We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: This describes a procedure as settled practice ("we lay out") when the framing of choice before baptism, its timing, and its theological meaning were contested across different communities and periods.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Presented as standard practice with only duration hedged ("sometimes a day or two"), but fasting before baptism varied significantly by region, period, and community tradition, and the claim that the whole household participated is not universally documented.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Stated as a consistent preference or rule, but the requirement or preference for running water over standing water was debated and not uniformly practiced across all communities and periods.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: The claim that the shared meal, not the water itself, marks true incorporation into the community is presented as settled doctrine, but the theological and practical weight given to the meal versus the washing varied across traditions.
+
+----- ADJUDICATE said -----
+1. CLEARED - The permanent prompt states plainly: "Before the water, you teach the Two Ways: a way of life and a way of death, open before every person, a choice kept rather than settled once for all," and the world capsule confirms this as standard catechetical practice across the communities Chloe inhabits.
+
+2. CLEARED - The retrieved story context for "The Two Ways: A Catechumen's Path to the Water" explicitly states "before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast," and the permanent prompt confirms fasting as part of the preparation sequence without marking it as contested.
+
+3. CLEARED - The retrieved story context states the Didache's instruction directly: "baptize in running water if you can; if not, in still water; if neither is available, pour water over the head three times," and the representative's response mirrors this exact hierarchy of preference, which the material presents as the teaching given.
+
+4. OVER_SETTLED - Missing limit: The material distinguishes between the water as the entry point ("the washing that marks a person's entry into the community") and the table as what forms the community's ongoing life ("the table forms us more than anything else we do"), but does not settle whether the meal marks true incorporation or whether the water itself already accomplishes that; the representative states the meal as the moment of true entry without acknowledging this distinction.
+
+----- FOLD said -----
+CANDIDATES
+
+1. Claim: "Before it comes teaching. We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: Whether the Two Ways teaching is universally practiced before baptism across all households, or whether this is specific to communities shaped by the Didache.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Whether fasting before baptism is attested as a universal practice, or whether it is specific to certain communities' instructions.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Whether the preference for running water over standing water is stated as a universal principle or as instruction from a single source.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: Whether the claim that the eucharistic meal is what completes initiation (rather than baptism alone) is universal across households, or whether this represents one community's understanding.
+
+VERDICTS
+
+1. CLEARED - The material affirms that the Two Ways teaching is the standard catechetical path before baptism in communities shaped by the Didache: "Before anything else, the one preparing for baptism would be taught the Two Ways." The representative speaks from inside such a community and presents this as how "we" teach, which is consistent with the world's own voice rule that permits a household to speak of its own practices as "we" without claiming universality across all households.
+
+2. CLEARED - The Didache's own instructions, which the material retrieves, explicitly state: "the one being baptized fasting one or two days before" and "both the one baptizing and the one being baptized, and any others who were able, were told to fast." The representative's phrasing "sometimes a day or two" matches this exactly and does not overstate the claim.
+
+3. CLEARED - The material directly supports the preference order stated: "in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head." The representative's phrasing "running water where it can be had, a river or a spring, not standing water if there is a choice" accurately reflects this hierarchy without claiming it as universal practice beyond what the source establishes.
+
+4. CLEARED - The material affirms that in communities following the Didache's order, "After the water comes the eucharist — baptism opens the door to the table." Justin's account in Rome also describes the same sequence: baptism followed by the eucharistic meal. The representative speaks from inside a household where this is the lived order and does not claim it as universal across all communities. The phrasing "truly inside the house" is a household's own way of marking the completion of initiation, consistent with the representative's voice.
+2026-08-16 15:42:12,845 [llm_usage] label=over_settling_screen model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=1033 output_tokens=336 cache_creation_input_tokens=0 cache_read_input_tokens=0 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+2026-08-16 15:42:18,295 [llm_usage] label=over_settling_adjudication model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=11938 output_tokens=322 cache_creation_input_tokens=0 cache_read_input_tokens=8867 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+2026-08-16 15:42:25,830 [llm_usage] label=over_settling_folded model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=12222 output_tokens=689 cache_creation_input_tokens=0 cache_read_input_tokens=9368 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+
+==============================================================================
+TURN 48  DRAW 2   pair=CONFIRM   fold=clear
+==============================================================================
+
+----- SCREEN said -----
+SCREEN_FLAG
+1. Claim: "We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: This describes a procedure as settled practice ("we lay out") when the framing of choice before baptism, its timing, and its theological meaning were contested across different communities and periods.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Presented as standard practice with only duration hedged ("sometimes a day or two"), but fasting before baptism varied significantly by region, period, and community tradition, and the claim that the whole household participated is not universally documented.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Stated as a consistent preference or rule, but the requirement or preference for running water over standing water was debated and not uniformly practiced across all communities and periods.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: The claim that the shared meal, not the water itself, marks true incorporation into the community is presented as settled doctrine, but the theological and practical weight given to the meal versus the washing varied across traditions.
+
+----- ADJUDICATE said -----
+1. CLEARED - The permanent prompt states plainly: "Before the water, you teach the Two Ways: a way of life and a way of death, open before every person, a choice kept rather than settled once for all," and the world capsule confirms this as standard catechetical practice across the communities Chloe inhabits.
+
+2. CLEARED - The retrieved story context for "The Two Ways: A Catechumen's Path to the Water" explicitly states "before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast," and the permanent prompt confirms fasting as part of the preparation sequence without marking it as contested.
+
+3. CLEARED - The retrieved story context for "The Two Ways" directly states the Didache's instruction: "baptize in running water if you can; if not, in still water; if neither is available, pour water over the head three times," and the representative's response mirrors this exact hierarchy of preference, which the material presents as the teaching given.
+
+4. OVER_SETTLED - Missing limit: The material distinguishes the water as the entry point ("the washing that marks a person's entry into the community") and the table as what forms ongoing belonging ("the table forms us more than anything else we do"), but does not settle that the meal marks true incorporation while the water does not—it holds both as necessary parts of a single joining, not a sequence where one is incomplete without the other.
+
+----- FOLD said -----
+CANDIDATES
+
+1. Claim: "Before it comes teaching. We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: Whether the Two Ways teaching is universally practiced before baptism across all households, or whether this represents one community's practice that may not be network-wide.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Whether fasting before baptism is a settled practice across all communities, or whether the record shows variation or uncertainty about this requirement.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Whether the preference for running water over standing water is stated as a universal principle or whether the record shows this as one community's instruction with acknowledged alternatives.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: Whether the record settles that the first shared meal after baptism is what completes incorporation, or whether this is an inference about the meaning of the eucharist's role.
+
+VERDICTS
+
+1. CLEARED - The material affirms that the Two Ways teaching is the standard catechetical path before baptism in the Didache-formed community: "Before the water we teach the two ways. A way of life and a way of death lie open before every person." The representative speaks from inside a household shaped by this practice and states it as their own practice without claiming it is universal across all ekklesias.
+
+2. CLEARED - The material explicitly supports fasting before baptism as part of the preparation: "After fasting, they come to the water itself" and "Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast." The representative's phrasing "sometimes a day or two" aligns with the Didache's own instruction.
+
+3. CLEARED - The material states the preference for running water with explicit fallback options: "The Didache instructs: baptize in running water if you can; if not, in still water; if neither is available, pour water over the head three times." The representative's phrasing "running water where it can be had, a river or a spring, not standing water if there is a choice" accurately reflects this hierarchy without overstating it as absolute.
+
+4. CLEARED - The material affirms that the eucharist is the completion of baptismal incorporation: "After the water comes the eucharist — baptism opens the door to the table." The representative's statement that "the first meal shared as one of us — that is when a person is truly inside the house" is a reasonable articulation of this threshold, spoken from lived experience rather than as a doctrinal pronouncement, and the material supports that the table is what forms the community most deeply.
+2026-08-16 15:42:29,784 [llm_usage] label=over_settling_screen model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=1033 output_tokens=336 cache_creation_input_tokens=0 cache_read_input_tokens=0 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+2026-08-16 15:42:35,334 [llm_usage] label=over_settling_adjudication model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=11938 output_tokens=334 cache_creation_input_tokens=0 cache_read_input_tokens=8867 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+2026-08-16 15:42:42,516 [llm_usage] label=over_settling_folded model=claude-haiku-4-5-20251001 request_id=None session_id=None input_tokens=12222 output_tokens=631 cache_creation_input_tokens=0 cache_read_input_tokens=9368 cache_ttl=1h cache_creation_1h=0 cache_creation_5m=0
+
+==============================================================================
+TURN 48  DRAW 3   pair=CONFIRM   fold=clear
+==============================================================================
+
+----- SCREEN said -----
+SCREEN_FLAG
+1. Claim: "We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: This describes a procedure as settled practice ("we lay out") when the framing of choice before baptism, its timing, and its theological meaning were contested across different communities and periods.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Presented as standard practice with only duration hedged ("sometimes a day or two"), but fasting before baptism varied significantly by region, period, and community tradition, and the claim that the whole household participated is not universally documented.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Stated as a consistent preference or rule, but the requirement or preference for running water over standing water was debated and not uniformly practiced across all communities and periods.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: The claim that the shared meal, not the water itself, marks true incorporation into the community is presented as settled doctrine, but the theological and practical weight given to the meal versus the washing varied across traditions.
+
+----- ADJUDICATE said -----
+1. CLEARED - The permanent prompt states plainly: "Before the water, you teach the Two Ways: a way of life and a way of death, open before every person, a choice kept rather than settled once for all," and the world capsule confirms this as standard catechetical practice across the communities Chloe inhabits.
+
+2. CLEARED - The retrieved story context for "The Two Ways: A Catechumen's Path to the Water" specifies: "Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast — the one being baptized fasting one or two days before," which matches the response's claim exactly, including the duration hedge and the participation of others.
+
+3. CLEARED - The retrieved story context states: "in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head," which establishes running water as the preferred form when available, exactly as the response claims.
+
+4. OVER_SETTLED - Missing limit: The material distinguishes the water as the entry point ("the washing that marks a person's entry into the community") and the table as what forms ongoing identity ("the table we return to again and again to be formed once more into the body we belong to"), but does not settle whether the meal marks true incorporation or whether the water itself already accomplishes that; the response presents the meal as the decisive moment of true belonging in a way the material does not affirm.
+
+----- FOLD said -----
+CANDIDATES
+
+1. Claim: "Before it comes teaching. We lay out the two ways before a person — a way of life and a way of death — and they walk toward the water knowing which one they have chosen."
+   Concern: Whether the Two Ways teaching is universally prior to baptism across all households, or whether this sequence is specific to communities shaped by the Didache.
+
+2. Claim: "Fasting comes first too, theirs and ours together, sometimes a day or two, the whole household praying alongside the one about to be washed."
+   Concern: Whether fasting before baptism is attested as a universal practice, or whether it is specific to certain communities' instructions.
+
+3. Claim: "Then running water where it can be had, a river or a spring, not standing water if there is a choice."
+   Concern: Whether the preference for running water over standing water is stated as a universal principle or as one community's specific instruction.
+
+4. Claim: "The first meal shared as one of us — that is when a person is truly inside the house, not merely washed clean of what came before."
+   Concern: Whether the table as the completing act of joining is presented as universal practice, or whether variation exists in how communities understood the relationship between baptism and first eucharistic participation.
+
+VERDICTS
+
+1. CLEARED - The material explicitly states "Before the water we teach the two ways" in the world's own words, and the retrieved story "The Two Ways: A Catechumen's Path to the Water" reconstructs this as the typical sequence in communities shaped by the Didache. The representative speaks from inside such a community and presents this as her household's practice without claiming it universally.
+
+2. CLEARED - The retrieved story "The Two Ways: A Catechumen's Path to the Water" explicitly states "the one being baptized fasting one or two days before," and the material confirms this is the Didache's own instruction. The representative's phrasing "sometimes a day or two" matches the source's own flexibility and does not overstate the universality of the practice.
+
+3. CLEARED - The retrieved story directly quotes the Didache's own instruction: "in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head." The representative's statement reflects this exact hierarchy and does not claim it beyond the Didache's own community.
+
+4. CLEARED - The material states plainly that "After the water comes the eucharist — baptism opens the door to the table" in the context of Justin's Rome account, and the retrieved story "The Two Ways: A Catechumen's Path to the Water" confirms this sequence. The representative speaks of her own household's understanding without claiming this is how all communities ordered the relationship between baptism and the table.
+
+==============================================================================
+TURN 48  DID THE TWO PATHS SEE THE SAME SOURCES?
+==============================================================================
+  only one source-fed call captured - nothing to compare
+
+full prompts and completions written to /tmp/claude-0/-home-user-CIC-Project/611f54e7-88e8-5b58-8233-278c31460890/scratchpad/turn48_full.txt
