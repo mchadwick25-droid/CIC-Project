@@ -25,3 +25,7 @@ Neither script makes a billable API call.
   `measure_prompt_tokens.py`. Result on 2026-08-16: cache confirmed working
   (17,565-token read on call 2); LangChain's `input_tokens` is the TOTAL,
   raw Anthropic's is the uncached remainder (115). Do not sum the two.
+
+- `trim_ledger.py` — the A-F trim ledger priced at 1,000 conversation-hours
+  per month, cumulative. Adjust `HOURS` for a different volume. One penny per
+  hour is $120/year at that scale.

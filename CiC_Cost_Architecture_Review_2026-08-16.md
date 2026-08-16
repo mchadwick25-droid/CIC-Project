@@ -139,16 +139,86 @@ Keep the classifier; replace the generated response with fixed written text
 approved once by Mark and a clinician. Better detection than keywords, no
 model improvising in the highest-stakes moment, most of the cost gone.
 
+## Trim ledger at 1,000 conversation-hours/month (12,000 turns)
+
+Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
+
+| Lever | Quality | $/hr | $/mo | $/yr |
+|---|---|---:|---:|---:|
+| A · strip builder apparatus from retrieved chunks | **improves** | 0.041 | 41 | 496 |
+| B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
+| C · over-settling adjudicator 78% -> 30% | neutral | 0.039 | 39 | 463 |
+| D · retire the two shadow-mode checks | neutral | 0.018 | 18 | 216 |
+| E · trim `_HOW_YOU_ENGAGE` by 40% | test it | 0.018 | 18 | 221 |
+| F · pool cache writes (20 sessions/window) | none | 0.057 | 57 | 682 |
+| **Sonnet 5, all of A-F, intro pricing** | — | **0.326** | **326** | **3,907** |
+| Sonnet 5, all of A-F, from 2026-09-01 | — | 0.400 | 400 | 4,798 |
+| Haiku 4.5, all of A-F | citations | 0.251 | 251 | 3,015 |
+
+**A-F is worth $2,462/yr and requires no voice change.** Haiku on top saves a
+further $892/yr at intro pricing, $1,783/yr after September — that is the
+actual price of the Sonnet voice, to weigh against citations 7/8 -> 3/8.
+One penny per hour = $120/year at this volume.
+
+### A · Most of what retrieval sends is builder apparatus
+
+Measured across every deployed chunk, as the model receives it after the
+existing Key Sources / Quick Meaning excisions:
+
+Story chunks — Story Text 29.5% | Tier Justification 25.0% | Usage Guidance
+22.6% | Formation Ecology Connection 16.5% | Source Identification 5.2%
+
+Lexicon chunks — World Meaning 52.5% | Distortion Risk 23.1% | Ecological
+Function 15.8%
+
+Only 29.5% of a story chunk is the story. **`Distortion Risk` is the section
+that caused FLAG-018** — the voice read it as a task and opened turns with
+unprompted term clarifications; the compensating instruction still ships in
+the dynamic prompt on every turn. Strip the apparatus at build time and the
+defect source, the compensating instruction, and 40% of the uncached payload
+all go together. Keep Usage Guidance and Source Identification (the prompt
+depends on both); tier/confidence remain in front-matter metadata.
+
+### B · Safety: gate it, don't remove it
+
+`classify_relational_safety` ships a 1,593-token prompt on every turn, plus a
+transcript window that grows through the session — by turn 12 it is the most
+expensive classifier in the stack. $384/yr spent almost entirely on people
+who were never in difficulty.
+
+Half the proposed fix already exists: relational safety and frame-breaking
+already run once per turn at the facilitator layer in `classify_pre_turn`,
+before any representative is invoked, not duplicated per world.
+
+The other half — phrase triggering — is the real change. A deterministic gate
+in front of the classifier, firing on ~8% of turns, cuts the line ~92% with
+detection unchanged. **Design constraint that decides whether it works:** the
+subject matter is death, martyrdom and suffering, so a topic-keyed filter
+fires constantly. It must key on *first-person self-reference + distress
+marker*: "The martyrs longed for death" silent, "I've stopped seeing the
+point" fires. That is also the distinction missing from the earlier
+disagreement — the objection was to a narrow keyword list with poor recall,
+not to gating as such.
+
+### On hybrid
+
+Already hybrid and correctly so: Sonnet generates the voice, Haiku runs all
+13-15 classifier calls. One quality-critical call, already the only one on
+the expensive model. Routing by turn type is the remaining option and is not
+advisable — voice consistency across a conversation is the product. The
+ledger removes the need to choose.
+
 ## Recommended order
 
-1. **Fix the cost calculator first.** Uncached input =
+0. **Strip builder apparatus from the deployed chunks** (lever A) — largest
+   single saving, improves quality, removes a known defect source.
+1. **Fix the cost calculator.** Uncached input =
    `usage_metadata["input_tokens"] - cache_read - cache_creation`, or read the
    raw block where available. Then re-price the saved clean-round logs — that
    gives true per-world figures rather than my fleet-mean model. Nothing else
    here is worth doing until this is right.
 2. **Tighten the over-settling screen** (fires 78%, confirms 20%).
-3. **Cut the retrieval budget** — k=3 lexicon + k=2 story on 10-50 entry
-   corpora. This is the difference between $0.35 and $0.30.
+3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.
 5. **Run the Haiku citation battery during August** — not because budget
