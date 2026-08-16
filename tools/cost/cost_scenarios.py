@@ -1,4 +1,5 @@
-S_I,SO_I=2.0,10.0; S_S,SO_S=3.0,15.0; H,HO=1.0,5.0
+# Sonnet 5 = $2/$10 per MTok, flat (verified live 2026-08-16, no expiry).
+S_I,SO_I=2.0,10.0; H,HO=1.0,5.0
 STATIC=17837; DYN=4343; CONT=300; OUT=330; TURNS=12
 def main(pin,pout,dyn=DYN,sess=1):
     return (STATIC*pin*0.1/1e6                      # cache read
@@ -22,8 +23,6 @@ rows=[
  ("T3  T2 + retrieval halved",                          main(S_I,SO_I,dyn=DYN/2,sess=20)+CL_CUT),
  ("T4  T1 + Haiku voice",                               main(H,HO)+CL_CUT),
  ("T5  T4 at pilot scale",                              main(H,HO,sess=20)+CL_CUT),
- ("T6  T3 after 2026-09-01 (Sonnet standard)",          main(S_S,SO_S,dyn=DYN/2,sess=20)+CL_CUT),
- ("T7  T5 after 2026-09-01 (Haiku unaffected)",         main(H,HO,sess=20)+CL_CUT),
 ]
 print(f"{'scenario':44}{'$/turn':>9}{'$/hour':>9}  target")
 for n,v in rows:

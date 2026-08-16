@@ -20,9 +20,10 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
 3. **True cost today is ~$0.53/hour, not $1.09.** The gap is 43%, not 73%.
 4. **$0.30/hour IS reachable on Sonnet 5** — classifier surgery + halved
    retrieval + pilot concurrency lands exactly on the line, at intro pricing.
-5. **It does not survive 2026-08-31.** Standard pricing puts that same config
-   at ~$0.37/hour. Haiku 4.5 holds $0.25/hour and is unaffected. The model
-   decision is now a September decision, decidable on quality not budget.
+5. **Sonnet 5 pricing is stable at $2/$10.** Verified against the live model
+   docs 2026-08-16: flat pricing, no introductory expiry. An earlier draft of
+   this review warned of a 2026-08-31 cliff, drawn from a stale cached table;
+   **withdrawn**. There is no deadline on the voice-model decision.
 6. **Safety mechanisms are not where the money is** (3.2% of spend).
 
 ## Verification test (live, ~12 cents)
@@ -77,8 +78,6 @@ The token model is sound; the caching line is what refuses to reconcile.
 | T3 | + retrieval halved — **Sonnet meets target** | 0.0251 | **0.30** |
 | T4 | T1 + Haiku 4.5 voice | 0.0241 | **0.29** |
 | T5 | T4 + pilot scale | 0.0212 | **0.25** |
-| T6 | T3 after 2026-09-01 (Sonnet standard) | 0.0312 | 0.37 |
-| T7 | T5 after 2026-09-01 (Haiku unaffected) | 0.0212 | **0.25** |
 
 On true numbers the classifier stack is ~$0.022/turn — about half the real
 bill, a larger share than the original figures implied. The saving is
@@ -97,8 +96,8 @@ between T2 and T3. The lever was mis-sized, not irrelevant.
    is correct as logging; the error is downstream, in treating LangChain's
    `input_tokens` as uncached-only. Because streaming never populates the raw
    Anthropic block, there is no signal that anything is off.
-2. **Generation model** (~$0.13/hour). No longer the only route to target,
-   but the only one that survives 1 September. Already tried
+2. **Generation model** (~$0.13/hour). Now purely discretionary — not needed
+   to reach target and not forced by pricing. Already tried
    and reverted 2026-08-10 — on a Haiku-only *table*-mode transcript
    isolation breach (up to 21% of table turns), not on cost and not on solo
    quality. Single-voice mode builds no public transcript. Chloe's Haiku
@@ -107,7 +106,6 @@ between T2 and T3. The lever was mis-sized, not irrelevant.
 3. **Classifier stack is 13–15 Haiku calls/turn, not ~10** (~$0.14/hour
    recoverable). Concentrated in `over_settling_adjudication`, which fires on
    78% of turns and confirms on 20%.
-4. **Intro-pricing cliff 2026-08-31** (~$0.21/hour if nothing changes).
 5. **Cost/hour falls with concurrency** (~$0.04/hour). The 1h cache entry is
    keyed on prefix, not session, so it is shared across all sessions on a
    world within the window.
@@ -151,13 +149,14 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 | D · retire the two shadow-mode checks | neutral | 0.018 | 18 | 216 |
 | E · trim `_HOW_YOU_ENGAGE` by 40% | test it | 0.018 | 18 | 221 |
 | F · pool cache writes (20 sessions/window) | none | 0.057 | 57 | 682 |
-| **Sonnet 5, all of A-F, intro pricing** | — | **0.326** | **326** | **3,907** |
-| Sonnet 5, all of A-F, from 2026-09-01 | — | 0.400 | 400 | 4,798 |
-| Haiku 4.5, all of A-F | citations | 0.251 | 251 | 3,015 |
+| **Sonnet 5, all of A-F** | — | **0.326** | **326** | **3,907** |
+| Haiku 4.5, all of A-F | costs citations | 0.251 | 251 | 3,015 |
 
 **A-F is worth $2,462/yr and requires no voice change.** Haiku on top saves a
-further $892/yr at intro pricing, $1,783/yr after September — that is the
-actual price of the Sonnet voice, to weigh against citations 7/8 -> 3/8.
+further $892/yr, permanently — the whole price of the Sonnet voice, against a
+measured citation regression of 7/8 -> 3/8. **Recommendation: keep Sonnet.**
+Grounded citation is the project's central claim and $892/yr is not the right
+price for halving it when the target is already met without it.
 One penny per hour = $120/year at this volume.
 
 ### A · Most of what retrieval sends is builder apparatus
@@ -221,8 +220,8 @@ ledger removes the need to choose.
 3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.
-5. **Run the Haiku citation battery during August** — not because budget
-   forces it now, but because 1 September does.
+5. **Leave the voice on Sonnet.** No deadline and no forcing function;
+   $892/yr is the wrong price for the citation regression.
 6. **Retire the two shadow-mode checks on a date.**
 
 ## Not verified

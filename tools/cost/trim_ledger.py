@@ -1,4 +1,6 @@
-S,SO=2.0,10.0; SS,SSO=3.0,15.0; H,HO=1.0,5.0
+# Sonnet 5 = $2/$10 per MTok, flat. Verified against the live model docs
+# 2026-08-16: no introductory expiry.
+S,SO=2.0,10.0; H,HO=1.0,5.0
 HOURS=1000; TURNS=12; TPM=HOURS*TURNS          # turns / month
 STATIC=17837; DYN=4343; CONT=300; OUT=330
 ADJ=0.00523; SMALL=0.0169                       # true classifier costs /turn
@@ -31,9 +33,8 @@ show(rows)
 son = main(S,SO,st,dy,sess)+cl
 hai = main(H,HO,st,dy,sess)+cl
 print(f"\n{'':52}{'$/turn':>9}{'$/hour':>8}{'$/mo':>8}{'$/yr':>9}")
-for n,v in [("SONNET 5, all of A-F, intro pricing",son),
-            ("SONNET 5, all of A-F, from 2026-09-01", main(SS,SSO,st,dy,sess)+cl),
-            ("HAIKU 4.5, all of A-F (any date)",hai)]:
+for n,v in [("SONNET 5, all of A-F",son),
+            ("HAIKU 4.5, all of A-F",hai)]:
     print(f"{n:52}{v:9.5f}{v*TURNS:8.3f}{v*TPM:8.0f}{v*TPM*12:9,.0f}")
 print(f"\nAnnual saving, A-F only, no voice change: ${(base-son)*TPM*12:,.0f}")
 print(f"Additional annual saving if voice -> Haiku:  ${(son-hai)*TPM*12:,.0f}")

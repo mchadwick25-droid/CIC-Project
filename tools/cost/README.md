@@ -12,8 +12,8 @@ Supporting scripts for `CiC_Cost_Architecture_Review_2026-08-16.md`.
   files to `POST /v1/messages/count_tokens`, which is free.
 
 - `cost_scenarios.py` — the scenario ladder in the review (T0-T7). Edit the price
-  constants at the top when Sonnet 5 leaves introductory pricing on
-  2026-09-01 ($2/$10 -> $3/$15 per MTok).
+  constants at the top if rates change. Sonnet 5 is $2/$10 per MTok flat -
+  verified against the live model docs 2026-08-16, no introductory expiry.
 
 Neither script makes a billable API call.
 
