@@ -86,6 +86,11 @@ field_relations:
   target_id: ijclex009
   note: The Tome builds on this settlement (the EF's own 'what those institutions act to protect'); inverse
     pair with ijclex009's presupposes.
+- type: presupposed-by
+  target_id: ijclex013
+  note: 'Added 2026-08-16 (T3 gospel-question follow-on): pro nobis states what the one who is of one
+    being with the Father did; correctly saying what he accomplished depends on correctly saying who he
+    is first. Inverse pair with ijclex013''s presupposes.'
 contested_claim_ids:
 - ijcclaim004
 ---
