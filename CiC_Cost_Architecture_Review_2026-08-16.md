@@ -3,22 +3,48 @@
 Independent pass over `cic/records`, `cic/engine`, `cic/runtime/app`.
 Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88-4705-acbe-d53a5ad091b0
 
+> **Revised 2026-08-16 after running the cache verification test.** The first
+> version of this document suspected a runtime cache failure. That was wrong —
+> the cache works. The root cause is the cost calculator, which was listed
+> there as the "most likely benign explanation" and is now confirmed.
+
 ## Short version
 
-1. **The payload was misdiagnosed.** The ~21–23k tokens per `main_response`
-   call is the *total* input, not an uncached block. ~79% is the static
-   per-world prompt, which the code correctly marks cacheable. Retrieved
-   lexicon/story content is only ~19%.
-2. **Measured cost is consistent with the cache not paying off.** A working
-   cache predicts ~$0.021/turn for `main_response`; the measurement was
-   ~$0.063. That gap is worth more than the whole classifier stack.
-3. **$0.30/hour is not reachable on Sonnet 5.** Cache fixed + classifiers cut
-   hard lands ~$0.40/hour today, ~$0.52 from 1 September. Haiku 4.5 as the
-   voice model is the only lever that clears the target.
-4. **Sonnet 5 intro pricing ends 2026-08-31** ($2/$10 -> $3/$15 per MTok).
-   Current measurements understate the September bill by 50% on generation.
-5. **Safety mechanisms are not where the money is** (3.2% of spend). Whatever
-   the policy call, it is not a budget decision.
+1. **The prompt cache works.** A live two-turn test returned a clean
+   17,565-token `cache_read` on the second call, on both the streaming and
+   non-streaming paths, at the 1h TTL.
+2. **The cost calculator double-charges cached tokens.** LangChain reports
+   `input_tokens` as the *total* input with `cache_read` as a subset;
+   the raw Anthropic block reports them as additive. Summing all three
+   overstates `main_response` by **2.6x**.
+3. **True cost today is ~$0.53/hour, not $1.09.** The gap is 43%, not 73%.
+4. **$0.30/hour IS reachable on Sonnet 5** — classifier surgery + halved
+   retrieval + pilot concurrency lands exactly on the line, at intro pricing.
+5. **It does not survive 2026-08-31.** Standard pricing puts that same config
+   at ~$0.37/hour. Haiku 4.5 holds $0.25/hour and is unaffected. The model
+   decision is now a September decision, decidable on quality not budget.
+6. **Safety mechanisms are not where the money is** (3.2% of spend).
+
+## Verification test (live, ~12 cents)
+
+Replicating `get_llm(max_tokens=1200)` and `_cached_system_message` verbatim
+against the real Syriac static prompt; `tools/cost/verify_prompt_cache.py`.
+
+| Call | Path | LangChain `input_tokens` | Raw API `input_tokens` | cache_creation | cache_read |
+|---|---|---:|---:|---:|---:|
+| A1 | stream, 1h | 17,680 | (not populated) | 17,565 | 0 |
+| A2 | stream, 1h | 17,680 | (not populated) | 0 | **17,565** |
+| A3 | invoke, 1h | 17,680 | **115** | 0 | **17,565** |
+
+A3 is the decisive row. The raw Anthropic block reports `input_tokens: 115` —
+the genuinely uncached remainder. LangChain reports 17,680 for the same call,
+because its `input_tokens` is the total with `cache_read` nested inside
+`input_token_details`. Streaming never populates the raw block at all, so the
+production path only ever exposes LangChain's total.
+
+On A2 a calculator summing the three reports $0.0418; true cost $0.0067
+(6.3x, inflated because the test's dynamic block was deliberately small).
+On a realistic production turn the overstatement settles at **2.6x**.
 
 ## Measured token shape (exact static counts via free `count_tokens`)
 
@@ -40,29 +66,39 @@ capsule + a second full retrieval to Haiku (~15,000 tok at $1/MTok) on 78% of
 turns => ~$0.0117/turn. The prior session measured 12.7% of $0.091 = $0.0116.
 The token model is sound; the caching line is what refuses to reconcile.
 
-## Route to $0.30 (12 turns/hour, cumulative)
+## Route to $0.30 (12 turns/hour, output measured at ~330 tok)
 
-| Step | Change | $/turn | $/hour |
+| Step | Configuration | $/turn | $/hour |
 |---|---|---:|---:|
-| S0 | Today, as measured | 0.0910 | 1.09 |
-| S1 | Cache reads landing, Sonnet kept | 0.0440 | 0.53 |
-| S2 | + Haiku 4.5 voice | 0.0334 | 0.40 |
-| S3 | + classifier surgery | 0.0223 | **0.27** |
-| S4 | Classifier surgery, Sonnet kept | 0.0329 | 0.40 |
-| S5 | S4 after 2026-09-01 pricing | 0.0436 | 0.52 |
-| S6 | S3 at pilot scale (20 sessions/world) | 0.0194 | 0.23 |
+| R0 | As reported (double-counted) | 0.0910 | 1.09 |
+| T0 | **True today**, no changes | 0.0442 | 0.53 |
+| T1 | + classifier surgery | 0.0351 | 0.42 |
+| T2 | + pilot scale (20 sessions/world) | 0.0295 | 0.35 |
+| T3 | + retrieval halved — **Sonnet meets target** | 0.0251 | **0.30** |
+| T4 | T1 + Haiku 4.5 voice | 0.0241 | **0.29** |
+| T5 | T4 + pilot scale | 0.0212 | **0.25** |
+| T6 | T3 after 2026-09-01 (Sonnet standard) | 0.0312 | 0.37 |
+| T7 | T5 after 2026-09-01 (Haiku unaffected) | 0.0212 | **0.25** |
 
-Deleting *every* classifier while changing nothing else leaves $0.75/hour.
-The handoff's 18.6% arithmetic was right; that road does not reach the target.
+On true numbers the classifier stack is ~$0.022/turn — about half the real
+bill, a larger share than the original figures implied. The saving is
+concentrated in one line (`over_settling_adjudication`), not spread thin.
+
+Self-correction: the first version dismissed retrieval trimming as worth only
+$0.05/hour. That is still the number, but against a corrected $0.53 baseline
+where the static block bills at a tenth, retrieval is one of the few
+components still paying full freight — and $0.05/hour is exactly the margin
+between T2 and T3. The lever was mis-sized, not irrelevant.
 
 ## Findings, ranked by money
 
-1. **Caching implemented but apparently not paying off** (~$0.50/hour).
-   `_cached_system_message` and `_cached_adjudication_message` both split
-   correctly at the stable/volatile boundary with 1h TTL; both generation
-   paths use them; the static block clears the 1,024-token minimum. Design is
-   right, arithmetic does not reconcile. **Verify before changing anything.**
-2. **Generation model** (~$0.13/hour on top of a fixed cache). Already tried
+1. **Cost calculator double-counts cached tokens** (no real spend; makes
+   every cost decision wrong by ~2x). Confirmed by live test. `log_llm_usage`
+   is correct as logging; the error is downstream, in treating LangChain's
+   `input_tokens` as uncached-only. Because streaming never populates the raw
+   Anthropic block, there is no signal that anything is off.
+2. **Generation model** (~$0.13/hour). No longer the only route to target,
+   but the only one that survives 1 September. Already tried
    and reverted 2026-08-10 — on a Haiku-only *table*-mode transcript
    isolation breach (up to 21% of table turns), not on cost and not on solo
    quality. Single-voice mode builds no public transcript. Chloe's Haiku
@@ -105,28 +141,37 @@ model improvising in the highest-stakes moment, most of the cost gone.
 
 ## Recommended order
 
-1. Verify the cache: two consecutive turns, read `cache_read_input_tokens`.
-   ~15 min, ~$0.15.
-2. Audit the cost calculator: LangChain's `usage_metadata["input_tokens"]`
-   is *total* input with `cache_read`/`cache_creation` as subsets — not
-   additive buckets like the raw Anthropic block. A calculator that sums all
-   three overcharges cached tokens by roughly the observed gap. Most likely
-   benign explanation; rule it out first.
-3. Decide Sonnet vs Haiku on **citations**, not cost. Re-run the citation
-   battery on Haiku, single-voice, all six worlds.
-4. Classifier surgery.
-5. Re-baseline before 2026-09-01.
+1. **Fix the cost calculator first.** Uncached input =
+   `usage_metadata["input_tokens"] - cache_read - cache_creation`, or read the
+   raw block where available. Then re-price the saved clean-round logs — that
+   gives true per-world figures rather than my fleet-mean model. Nothing else
+   here is worth doing until this is right.
+2. **Tighten the over-settling screen** (fires 78%, confirms 20%).
+3. **Cut the retrieval budget** — k=3 lexicon + k=2 story on 10-50 entry
+   corpora. This is the difference between $0.35 and $0.30.
+4. **Measure at concurrency.** A single-session test overstates per-turn cost
+   by the whole cache-write amortisation.
+5. **Run the Haiku citation battery during August** — not because budget
+   forces it now, but because 1 September does.
+6. **Retire the two shadow-mode checks on a date.**
 
 ## Not verified
 
-- Prior session's raw transcripts were container-local and are gone; the
-  $0.091 could not be re-derived directly, only reconciled against the two
-  percentages quoted in the handoff.
-- Output tokens estimated at 250/turn from recorded voice-profile word counts
-  against a 1,200 cap. Higher real output strengthens the Haiku case.
+- **The cost calculator itself is not in the repo** — it lived in the prior
+  session's scratchpad. I proved the trap exists and priced it against live
+  measurements, and the naive model reproduces the reported $0.0625 to within
+  8%, but I could not read the code that produced $0.091. Re-pricing the
+  saved logs settles it.
+- Classifier costs are scaled, not re-measured: small classifiers taken at
+  measured value (no caching, so unaffected by the double-count); the
+  adjudication figure corrected by its own cache ratio.
 - Retrieved-context tokens derived at the ratio exact static counts imply
-  (3.26 chars/token); ~±5%.
-- The app was not run. No billable API calls were made for this review.
+  (3.26 chars/token); ~±5%. Output measured at 296-390 tok in the live test.
+- The full app was not run — the test replicates `get_llm` and
+  `_cached_system_message` but not retrieval, the graph, or the classifiers.
+  Total spend for this review: ~12 cents.
+- Tested against langchain-anthropic 1.5.6. The clean tree carries no
+  dependency manifest, so I could not confirm the version you run.
 
 ## Incidental (product, not cost)
 
