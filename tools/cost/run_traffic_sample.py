@@ -61,6 +61,40 @@ QUESTIONS = [
 ]
 
 
+def preflight() -> None:
+    """Load the two retrieval models before spending anything.
+
+    They are fetched from huggingface.co on first use and cached. If that
+    host is unreachable the failure otherwise lands mid-run, after turns
+    have already been billed, as a bare httpx.ProxyError from inside the
+    graph. Paying for a partial sample and then throwing it away is the
+    worst outcome available, so buy the check up front - it is free, and
+    on a warm cache it costs a second.
+    """
+    print("preflight: loading retrieval models ...", flush=True)
+    try:
+        from app.rag.embeddings import get_shared_embeddings
+        get_shared_embeddings().embed_query("preflight")
+        from app.rag.cross_encoder import score_candidates  # noqa: F401
+        from sentence_transformers import CrossEncoder
+        CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2").predict(
+            [("preflight", "preflight")])
+    except ModuleNotFoundError as exc:
+        sys.exit(f"preflight FAILED: {exc}\n"
+                 "Run from cic/runtime with PYTHONPATH=. and the deps in\n"
+                 "cic/runtime/requirements.txt installed. Nothing was spent.")
+    except Exception as exc:
+        sys.exit(
+            f"preflight FAILED: {type(exc).__name__}: {exc}\n\n"
+            "The retrieval stack needs all-MiniLM-L6-v2 and\n"
+            "cross-encoder/ms-marco-MiniLM-L-6-v2 from huggingface.co.\n"
+            "A 403 here means the network policy denies that host - run this\n"
+            "where HF is reachable, or warm the cache there once and copy\n"
+            "~/.cache/huggingface across. Nothing was spent."
+        )
+    print("preflight: OK\n")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sessions", type=int, default=4,
@@ -80,6 +114,8 @@ def main() -> None:
     if not key:
         sys.exit("set CIC_ANTHROPIC_KEY (or ANTHROPIC_API_KEY)")
     os.environ["ANTHROPIC_API_KEY"] = key
+
+    preflight()
 
     from app.world_manifest import all_world_ids
     known = all_world_ids()

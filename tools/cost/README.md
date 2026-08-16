@@ -83,6 +83,15 @@ Neither script makes a billable API call.
   **Cannot run in the Claude Code web sandbox.** Retrieval downloads
   `all-MiniLM-L6-v2` and `cross-encoder/ms-marco-MiniLM-L-6-v2` from
   huggingface.co on first use, and that host is denied by egress policy there
-  (`httpx.ProxyError: 403`). Run it anywhere HF is reachable. Everything up to
-  retrieval is verified: the app boots, `/health` is 200, and
+  (`httpx.ProxyError: 403`, re-confirmed 2026-08-16 against
+  `huggingface.co`, `cdn-lfs.huggingface.co`; `pypi.org`, `github.com` and
+  `api.anthropic.com` are all reachable, so it is that host specifically).
+  There is no cached copy to fall back on and no pre-built FAISS index in the
+  repo, so the index build needs the embedder too. Run it anywhere HF is
+  reachable, or warm `~/.cache/huggingface` there once and copy it across.
+  Everything up to retrieval is verified: the app boots, `/health` is 200, and
   `/api/session/start` completes against the live API.
+
+  A **preflight** loads both models before the first session starts, so a
+  blocked host costs nothing instead of failing mid-run with turns already
+  billed.
