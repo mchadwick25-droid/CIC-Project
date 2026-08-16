@@ -321,9 +321,25 @@ the screen instead would need the adjudicator to do detection and judgment in
 one pass, which is a prompt redesign, not a config change.
 
 What unblocks it: the instrumentation is already wired and has never been run
-on real traffic. Collect ~200+ turns with logging on, then
-`tools/cost/analyze_over_settling.py` prints the fire rate, the confirm rate
-per world, and the verdict against the break-even.
+on real traffic. **48 turns is enough** — four sessions of twelve, about $2.
+That is not a round number: at a fire rate near 78% the 95% Wilson interval on
+48 turns is 63%–87%, which clears the 60% break-even, and the per-turn cost and
+token shape converge sooner still. Two hundred turns would only narrow 63%–87%
+to 72%–83% — a tighter number about a question already answered. What 48 turns
+will *not* settle is the confirm rate, whose interval stays roughly 9%–34%; that
+is a separate, larger sample and not what the cost decision turns on.
+
+`tools/cost/analyze_over_settling.py` now enforces this properly. It prints the
+interval, declares INCONCLUSIVE only when the break-even actually falls inside
+it, and in that case computes how many turns *would* resolve it rather than
+asserting a fixed bar. If the true rate sits near 60% no affordable sample
+separates the two designs — which is itself the answer, because it means they
+cost the same and the choice is a rigor decision, not a price one.
+
+One honest note on the 63-turn round: had its 78% come from clean independent
+traffic, 66%–86% would already have cleared the break-even. It does not count,
+for a reason that has nothing to do with sample size — the transcripts are
+gone, it was a single round, and none of it can be re-derived.
 
 ### B · The gate design does not survive contact with the code — REJECTED
 

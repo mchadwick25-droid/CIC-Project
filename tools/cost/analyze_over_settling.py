@@ -61,6 +61,38 @@ def break_even() -> float:
     return lo
 
 
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """95% Wilson score interval for k successes in n trials.
+
+    Wilson rather than the normal approximation because the whole question
+    here is whether a rate near 0.6-0.8 is distinguishable from a threshold
+    on a sample of a few dozen - exactly where the normal approximation is
+    worst and can put the bound above 1.0.
+    """
+    if n <= 0:
+        return 0.0, 1.0
+    p = k / n
+    d = 1 + z * z / n
+    c = (p + z * z / (2 * n)) / d
+    h = z / d * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5)
+    return max(0.0, c - h), min(1.0, c + h)
+
+
+def _n_to_resolve(p: float, threshold: float, cap: int = 2000) -> int | None:
+    """Smallest n at which an observed rate of p would clear `threshold`.
+
+    Answers "how many more turns" honestly instead of quoting a round
+    number: it walks n upward until the Wilson interval around p stops
+    straddling the break-even. Returns None if that never happens below
+    `cap`, which is the real finding when p sits on the threshold.
+    """
+    for n in range(10, cap + 1, 2):
+        lo, hi = wilson(round(p * n), n)
+        if threshold < lo or threshold > hi:
+            return n
+    return None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("logfile")
@@ -107,10 +139,27 @@ def main() -> None:
     print(f"  no screen, adjudicate  ${nogate:.5f}/turn   ${yr(nogate):,.0f}/yr")
     print(f"  screen break-even fire rate: {be:.0%}")
 
+    lo, hi = wilson(tot["screened"], tot["turns"])
+    print(f"\n  fire rate {fire:.0%}, 95% CI {lo:.0%}-{hi:.0%} on {tot['turns']} turns")
+
     print("\nVERDICT")
-    if tot["turns"] < 200:
-        print(f"  SAMPLE TOO SMALL ({tot['turns']} turns). The screen's sensitivity trades")
-        print("  directly against Article 5 rigor; do not retune on this. Collect more.")
+    if lo <= be <= hi:
+        # The sample size that matters is not a round number, it is whatever
+        # separates the observed rate from the break-even. A rate far from
+        # the threshold settles in a few dozen turns; one near it may never
+        # settle at any affordable sample - and that itself is the answer
+        # (the two designs cost the same, so pick on rigor, not on price).
+        print(f"  INCONCLUSIVE. The break-even ({be:.0%}) lies inside the confidence")
+        print(f"  interval ({lo:.0%}-{hi:.0%}), so this sample cannot say which side the")
+        print("  true fire rate falls on. The screen's sensitivity trades directly")
+        print("  against Article 5 rigor; do not retune on this.")
+        need = _n_to_resolve(fire, be)
+        if need:
+            print(f"  At the observed rate, ~{need} turns would resolve it "
+                  f"({tot['turns']} so far).")
+        else:
+            print("  At the observed rate no affordable sample resolves it - which")
+            print("  means the two designs cost about the same. Decide on rigor.")
     elif fire > be:
         print(f"  The screen fires more often ({fire:.0%}) than it can pay for ({be:.0%}).")
         print(f"  It is costing ${yr(now - nogate):,.0f}/yr against adjudicating every turn,")
@@ -120,7 +169,9 @@ def main() -> None:
     else:
         print(f"  The screen pays for itself: fires {fire:.0%}, break-even {be:.0%}. Leave it.")
     if tot["screened"] and conf < 0.35:
-        print(f"  Confirm rate is {conf:.0%} - {tot['cleared']} of {tot['screened']} flags cleared.")
+        clo, chi = wilson(tot["confirmed"], tot["screened"])
+        print(f"  Confirm rate is {conf:.0%} (95% CI {clo:.0%}-{chi:.0%}) - "
+              f"{tot['cleared']} of {tot['screened']} flags cleared.")
         print("  That is the screen's designed-in false-positive rate. Judge it against")
         print("  what a miss costs, not against the flag count.")
 

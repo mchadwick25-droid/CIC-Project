@@ -13,18 +13,31 @@ than a result.
 
     export CIC_ANTHROPIC_KEY=sk-ant-...          # or ANTHROPIC_API_KEY
     cd cic/runtime
-    PYTHONPATH=. python3 ../../tools/cost/run_traffic_sample.py --sessions 17 --out /tmp/sample.log
+    PYTHONPATH=. python3 ../../tools/cost/run_traffic_sample.py --out /tmp/sample.log
 
     python3 ../../tools/cost/analyze_usage_log.py      /tmp/sample.log
     python3 ../../tools/cost/analyze_over_settling.py  /tmp/sample.log
 
-Cost: roughly $0.04 per turn on Sonnet 5, so ~$8 for 200 turns. --dry-run
-prints the plan and spends nothing. --max-spend aborts if the running total
-passes a ceiling.
+Cost: roughly $0.04 per turn on Sonnet 5, so ~$2 for the 48-turn default.
+--dry-run prints the plan and spends nothing. --max-spend aborts if the
+running total passes a ceiling.
 
-Sessions are spread across all six worlds and run back to back, which is what
-makes the pooling factor meaningful: several sessions on one world inside the
-1h cache window is the production shape a single-session test cannot show.
+WHY 48 TURNS AND NOT 200
+------------------------
+The bar is not a round number, it is whatever separates the fire rate from
+the 60% break-even. At a rate near 78% a 48-turn sample already excludes 60%
+(95% CI roughly 65%-87%); the per-turn cost and token shape converge far
+sooner than that. Only a rate sitting close to the threshold needs hundreds
+of turns - and analyze_over_settling.py now says so itself, reporting the
+interval and the n that would resolve it rather than enforcing a fixed bar.
+Run the default, read the verdict, extend only if it comes back INCONCLUSIVE.
+
+WHY THE SESSIONS CONCENTRATE ON TWO WORLDS
+------------------------------------------
+The cache pools on the prompt prefix, which is per-world. Spreading four
+sessions over six worlds would measure four cold caches and prove nothing
+about pooling. Two worlds x two back-to-back sessions inside the 1h window
+is the smallest shape where the second session shows the pooled read.
 """
 from __future__ import annotations
 import argparse, logging, os, sys, time
@@ -50,9 +63,14 @@ QUESTIONS = [
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--sessions", type=int, default=17,
-                    help="17 x 12 turns = 204, just over the 200-turn bar")
+    ap.add_argument("--sessions", type=int, default=4,
+                    help="4 x 12 turns = 48; enough to separate a ~78%% fire "
+                         "rate from the 60%% break-even (see module docstring)")
     ap.add_argument("--turns", type=int, default=12)
+    ap.add_argument("--worlds", default=None,
+                    help="comma-separated world ids to cycle through. "
+                         "Default: the first two, so sessions pool on a warm "
+                         "cache instead of measuring cold prefixes.")
     ap.add_argument("--out", default="traffic_sample.log")
     ap.add_argument("--max-spend", type=float, default=15.0)
     ap.add_argument("--dry-run", action="store_true")
@@ -64,8 +82,20 @@ def main() -> None:
     os.environ["ANTHROPIC_API_KEY"] = key
 
     from app.world_manifest import all_world_ids
-    worlds = all_world_ids()
-    plan = [worlds[i % len(worlds)] for i in range(a.sessions)]
+    known = all_world_ids()
+    if a.worlds:
+        worlds = [w.strip() for w in a.worlds.split(",") if w.strip()]
+        unknown = [w for w in worlds if w not in known]
+        if unknown:
+            sys.exit(f"unknown world id(s): {', '.join(unknown)}\n"
+                     f"known: {', '.join(known)}")
+    else:
+        worlds = known[:2]
+    # Consecutive sessions on the SAME world, not round-robin: the pooled
+    # cache read only shows up when the second session starts inside the
+    # first's 1h window on the same prefix.
+    per_world = -(-a.sessions // len(worlds))
+    plan = [w for w in worlds for _ in range(per_world)][:a.sessions]
     total = a.sessions * a.turns
     print(f"{a.sessions} sessions x {a.turns} turns = {total} turns")
     print(f"worlds: {', '.join(f'{w}x{plan.count(w)}' for w in worlds)}")

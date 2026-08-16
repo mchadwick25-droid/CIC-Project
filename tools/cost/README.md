@@ -47,7 +47,10 @@ Neither script makes a billable API call.
 - `analyze_over_settling.py` — turns the `[over_settling_decision]` log into a
   decision about the screen's sensitivity. Reports fire rate, confirm rate per
   world, and prices the two-stage design against adjudicating unconditionally.
-  Refuses to recommend a retune below 200 turns. Makes no API calls.
+  Reports the fire rate with a 95% Wilson interval and refuses to recommend a
+  retune while that interval straddles the 60% break-even — and when it does,
+  says how many turns would actually resolve it rather than quoting a fixed
+  bar. Makes no API calls.
 
       python3 tools/cost/analyze_over_settling.py backend.log
 
@@ -56,20 +59,26 @@ Neither script makes a billable API call.
   itself below a 60% fire rate.
 
 - `run_traffic_sample.py` — **drives real conversations and spends money**
-  (~$0.04/turn; 204 turns ≈ $8). Runs N sessions × 12 newcomer questions
-  across all six worlds through the app's own endpoints, capturing both the
-  `[llm_usage]` and `[over_settling_decision]` streams into one file for the
-  two analyzers above. `--dry-run` costs nothing; `--max-spend` aborts on a
-  ceiling.
+  (~$0.04/turn; the 48-turn default ≈ $2). Runs N sessions × 12 newcomer
+  questions through the app's own endpoints, capturing both the `[llm_usage]`
+  and `[over_settling_decision]` streams into one file for the two analyzers
+  above. `--dry-run` costs nothing; `--max-spend` aborts on a ceiling.
 
       cd cic/runtime
-      PYTHONPATH=. python3 ../../tools/cost/run_traffic_sample.py --sessions 17 --out /tmp/sample.log
+      PYTHONPATH=. python3 ../../tools/cost/run_traffic_sample.py --out /tmp/sample.log
       python3 ../../tools/cost/analyze_usage_log.py     /tmp/sample.log
       python3 ../../tools/cost/analyze_over_settling.py /tmp/sample.log
 
-  Sessions run back to back across the six worlds on purpose: several sessions
-  per world inside one 1h cache window is the production shape, and the only
-  way the pooling factor becomes measurable.
+  48 turns, not 200: at a fire rate near 78% that already excludes the 60%
+  break-even (95% CI ≈ 65%–87%), and the cost/token shape converges sooner
+  still. Only a rate sitting near the threshold needs hundreds of turns, and
+  the analyzer says so when it sees one. Run the default, read the verdict,
+  extend with `--sessions` only on INCONCLUSIVE.
+
+  Sessions run back to back and concentrate on two worlds by default: the
+  cache pools on the per-world prompt prefix, so spreading four sessions over
+  six worlds would measure four cold caches and prove nothing about pooling.
+  `--worlds a,b,c` overrides the selection.
 
   **Cannot run in the Claude Code web sandbox.** Retrieval downloads
   `all-MiniLM-L6-v2` and `cross-encoder/ms-marco-MiniLM-L-6-v2` from
