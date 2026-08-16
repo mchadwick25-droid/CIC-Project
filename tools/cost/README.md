@@ -96,6 +96,26 @@ Neither script makes a billable API call.
   blocked host costs nothing instead of failing mid-run with turns already
   billed.
 
+- `analyze_pacing.py` — turns session event logs into **turns-per-hour**, the
+  multiplier every $/hour figure in the review depends on and the only one
+  never measured. Reads `transcripts/events/*.jsonl`, which the app already
+  writes in production; needs no new instrumentation.
+
+      python3 tools/cost/analyze_pacing.py 'cic/runtime/transcripts/events/*.jsonl'
+
+  It decomposes a turn into wait-for-answer, post-response tail, and human
+  time, and **refuses to report a scripted run as pacing** — a log written by
+  `run_traffic_sample.py` has ~0s of human time by construction. On such a log
+  it reports the machine floor (181 turns/hour) and projects $/hour against
+  composition time instead. On real participant sessions it reports the
+  measured rate with an interquartile range. Makes no API calls.
+
+  Measured on the 2026-08-16 sample: 11s to the answer, 9s of post-response
+  classifiers that overlap reading rather than delaying it, and ~51s of
+  estimated reading at 188 words. Which means **12 turns/hour implies four
+  minutes of thinking and typing per question** — the assumption the whole
+  cost model rests on.
+
 ## The published review
 
 `cost-review-artifact.html` is the source for the published artifact at

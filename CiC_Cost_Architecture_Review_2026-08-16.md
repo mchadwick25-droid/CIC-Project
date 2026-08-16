@@ -101,8 +101,70 @@ $/turn is measured; the 12-turns-per-hour divisor is assumed.
 
 At 20 turns/hour, the full apparatus-cutting programme above still lands at
 $0.489. **A faster conversational pace moves the cost more than every lever
-in this review combined.** If $0.30/hour is a hard ceiling, this number
-deserves measuring on real participants before any apparatus is cut for it.
+in this review combined.**
+
+### What 12 turns/hour actually assumes
+
+`tools/cost/analyze_pacing.py` decomposes a turn from the session event logs,
+which already timestamp every event. Measured on the 48-turn sample:
+
+| component | median | how known |
+|---|---:|---|
+| wait for the answer | 11s | measured |
+| post-response classifiers | 9s | measured — overlaps reading, not additive |
+| reading the reply | ~51s | estimated: 188 words at 220 wpm |
+| **thinking and typing** | **?** | **cannot be derived from a scripted log** |
+
+A turn is `11s + max(reading, 9s) + compose`. Which means:
+
+> **12 turns/hour implies a 300-second turn, and therefore ~238 seconds — four
+> minutes — of thinking and typing per question, on every question, for twelve
+> questions straight.**
+
+That is the assumption under every $/hour figure in this document. It is a
+claim about people, and it has never been checked against any. It is also
+robust to the one estimate inside it: at 150 wpm it implies 3.6 minutes, at
+260 wpm 4.1 minutes. Reading speed is not what is uncertain here.
+
+| compose time | turn | turns/hour | $/hour | $/yr @1,000h |
+|---:|---:|---:|---:|---:|
+| 0s | 62s | 57.7 | 1.792 | 21,503 |
+| 30s | 92s | 39.0 | 1.210 | 14,517 |
+| 60s | 122s | 29.4 | 0.913 | 10,957 |
+| 120s | 182s | 19.7 | 0.613 | 7,352 |
+| **238s** | **300s** | **11.9** | **0.369** | **4,434** |
+
+The machine floor is 181 turns/hour — nobody can go faster than the system
+answers — so the ceiling is not the constraint. The constraint is entirely
+human, and entirely unmeasured.
+
+### The unit itself is worth questioning
+
+**$/turn is what the architecture controls. $/hour is $/turn multiplied by how
+fast people talk.** A system that looks cheaper per hour may simply be a slower
+one, and pace is not waste — a participant who asks thirty questions in an hour
+got more conversation than one who asked twelve, and paid for it.
+
+If the budget is really *N conversations*, a twelve-turn conversation costs
+**$0.37 at any pace** and this whole uncertainty disappears. If it is really
+*hours of access given away*, then pace is the dominant term and no amount of
+apparatus-cutting substitutes for knowing it. That is a question about what is
+being promised to participants, not a question about the code.
+
+### What unblocks it
+
+Nothing needs building. `app/graph/events.py` already persists every event
+with an ISO timestamp to `transcripts/events/<session_id>.jsonl`, in
+production as in test. The moment real participants use the app, run:
+
+```
+python3 tools/cost/analyze_pacing.py 'cic/runtime/transcripts/events/*.jsonl'
+```
+
+It detects a scripted log and refuses to report it as pacing; on real sessions
+it prints turns/hour with an interquartile range and the $/hour that follows.
+**A single pilot session of a dozen real turns settles it** — this needs one
+person, not a sample.
 
 ## Verification test (live, ~12 cents)
 
@@ -553,8 +615,12 @@ ledger removes the need to choose.
 - The traffic sample covers **2 of 6 worlds** and 12 fixed newcomer
   questions. Real participants vary more; the fire rate and the per-turn cost
   could both move on the other four worlds.
-- **12 turns/hour is assumed, never measured.** It is the largest lever on
-  the headline number and the one thing here with no evidence behind it.
+- **Composition time — how long a participant thinks and types — remains the
+  one unmeasured input**, and it is the largest term in the headline. The
+  machine side is now measured exactly (11s to the answer, 9s of overlapping
+  post-processing) and reading is bounded by estimate; what is left needs a
+  human. Plausible values put the real figure anywhere between $0.37 and
+  $0.91/hour.
 - Tested against langchain-anthropic 1.5.6, now pinned in
   `cic/runtime/requirements.txt` — which was missing `rank-bm25` until the
   traffic run hit it. That dep is imported lazily inside `candidate_search`,
