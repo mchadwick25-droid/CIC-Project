@@ -87,6 +87,12 @@ field_relations:
 - type: tension-with
   target_id: ijclex007
   note: 'Symmetric mirror: received at the council, authority not from it.'
+- type: associated-with
+  target_id: ijclex013
+  note: 'Added 2026-08-16 (T3 gospel-question follow-on), completing the reciprocal side of ijclex013''s
+    own entry: the Tome''s two-natures settlement and pro nobis''s saving content are both what the
+    councils'' machinery (primatus, concilium) exists to guard. Symmetric mirror of ijclex013''s
+    associated-with.'
 contested_claim_ids: []
 ---
 Migrated at the S6.2/IJC S2.2-equivalent (2026-07-31) from `data/imperial_juridical_world/lexicon_chunks/ijclex009_tomus.md` (mechanical split; mapping and alias authoring tables in `wrs/migrate/s62_ijc_s22.py` - the FLAG-035 corrections and the one Rule-A birth drop declared there; the third world born matching the runtime key space AND the gate). Related-Terms and authored fields arrive at S2.3.
