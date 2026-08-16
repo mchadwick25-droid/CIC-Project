@@ -23,16 +23,18 @@ narrative_tier:
     did exist but was a different kind of school than "catechetical" implies. This story cannot be assigned
     a higher tier than Contested precisely because its central institutional claim — an orderly, continuous
     school with named heads — is what the scholarship disputes most directly.'
-text: 'The tradition kept of this world''s teaching life names a line: Pantaenus, said to have come first,
-  a former Stoic philosopher turned catechist; then Clement, who studied under him and took up the teaching
-  after; then Origen, still a young man when he began, whose reputation as a teacher would come to eclipse
-  every name before or after his; then Heraclas, once Origen''s own student, who succeeded him; then Dionysius,
-  who followed Heraclas and would go on to become bishop of the city. Told this way, it reads as an orderly
-  handing-on, one teacher to the next, an institution with a memory of its own headship reaching back
-  to the earliest Christian teaching in this city. This is how the tradition remembers itself, and it
-  is worth telling for what it says about how much this world valued its own teaching lineage — that it
-  kept the names at all, in order, across generations, says something true about what this community thought
-  mattered.'
+text: 'The tradition kept of this world''s teaching life names a line of teachers. Pantaenus, a former Stoic
+  philosopher turned catechist, is said to have come first. Clement studied under him and took up the
+  teaching after. Origen was still a young man when he began, and his reputation as a teacher would come
+  to eclipse every name before or after his. Heraclas, once Origen''s own student, succeeded him. Dionysius
+  followed Heraclas and would go on to become bishop of the city.
+
+
+  Told this way, it reads as an orderly handing-on, one teacher to the next - an institution with a memory
+  of its own headship reaching back to the earliest Christian teaching in this city. This is how the tradition
+  remembers itself. It is worth telling for what it says about how much this world valued its own teaching
+  lineage. That it kept the names at all, in order, across generations, says something true about what
+  this community thought mattered.'
 attested_occasion: The teacher-succession (Pantaenus - Clement - Origen - Heraclas - Dionysius - Didymus)
   as Eusebius scaffolds it - carrying the Didaskaleion historical-scope contest and Eusebius's HIGH institutional-claims
   screen (Doc_01 §1.2; srcALX009).
@@ -85,3 +87,12 @@ Migrated at the S6.2 S2.4-equivalent (2026-07-27) from `data/alexandria_world/st
 S2.5-equivalent (2026-07-27): the parked Formation Ecology Connection converted to typed gravity_links[] (CO-P2-04 - FEC verbatim on the first link's note); see wrs/migrate/s62_alx_s25.py.
 
 CO-P2-16 (2026-07-28): confidence_line backfilled verbatim from the deployed chunk's Confidence front-matter line (live retrieval-context metadata); see wrs/migrate/s62_alx_s29_co16.py.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (a
+single semicolon-joined enumeration of five teachers' names, followed by two dense reflective sentences)
+at FK grade 23.2 / FRE 24.6. Per Mark's decision to extend the readability pass to story records, the
+enumeration is split into one short sentence per teacher, in the same order with the same descriptors,
+and the closing reflection is split along its own existing clause boundaries. No name, descriptor, or
+qualifier is dropped - all five teachers (Pantaenus, Clement, Origen, Heraclas, Dionysius) and the
+closing point about what the kept lineage says about this community are unchanged. Re-scored: FK 8.6 /
+FRE 61.9, clearing both thresholds.

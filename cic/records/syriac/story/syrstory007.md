@@ -29,12 +29,15 @@ narrative_tier:
     sources construct, and instead credits Ephrem with the indigenous, Syriac-specific institution (the
     bnat qyama choirs) this world''s own record independently confirms existed, even though it does not
     independently confirm Ephrem personally organized them.'
-text: In his memorial homily on Ephrem, composed roughly a century and a quarter after Ephrem's death,
-  Jacob of Serugh remembers that Ephrem, seeing the people drawn toward the songs of Bardaisan and Mani,
-  gathered the daughters of the covenant and taught them to sing psalms and hymns of true doctrine in
-  the same manner — turning the very form his rivals had used to spread error into the vehicle for teaching
-  the orthodox faith instead. In Jacob's memory, it is by this means, sung by these women in the churches,
-  that Ephrem's own teaching reached the ears and hearts of the whole city, women and men alike.
+text: Jacob of Serugh wrote a memorial homily on Ephrem, composed roughly a century and a quarter after
+  Ephrem's death. In it, Jacob remembers that Ephrem saw the people being drawn toward the songs of Bardaisan
+  and Mani. So Ephrem gathered the daughters of the covenant and taught them to sing psalms and hymns
+  of true doctrine in the same manner. He turned the very form his rivals had used to spread error into
+  a way of teaching the true faith instead.
+
+
+  In Jacob's memory, it was by this means - sung by these women in the churches - that Ephrem's own teaching
+  reached the ears and hearts of the whole city, women and men alike.
 attested_occasion: 'Jacob of Serugh''s memorial homily (c. 500, roughly 125 years after Ephrem''s death):
   Ephrem gathering the daughters of the covenant to sing true doctrine against Bardaisan''s and Mani''s
   songs - LATER ATTRIBUTION, not Ephrem''s own contemporary self-testimony (the syrlex002 evidentiary-layer
@@ -85,3 +88,11 @@ chunk_slug: ephrem-founding-choirs
 Migrated at the S6.2/SYR S2.4-equivalent (2026-07-28) from `data/syriac_world/story_chunks/syrstory007_ephrem-founding-choirs.md` (mapping in `wrs/migrate/s62_syr_s24.py`; Story Text / Tier Justification / Usage Guidance / Confidence line verbatim; occasion/owner/frame authored per Desert-ALX S2.4 conventions).
 
 [Formation Ecology Connection - parked at the S2.4-equivalent; becomes typed gravity_links (CO-P2-04 shape) when the S2.5-equivalent authors the gravity records] This story, more than any other in this repository, ties together three of this world's own confirmed gravities at once: C1 (the raza/shrara method, taught here through song), C2 (the qyama order, whose women are the ones who carry the teaching), and C3 (heresiological self-definition against Bardaisan and Mani, the very rivals this story says Ephrem was answering by taking up their own genre). It is, in short, the single richest surviving narrative rendering of how this world believed its central formation logic actually reached ordinary people. It must be handled carefully, however, because of what it is not: it is not this world's own in-window attestation that Ephrem personally organized or led these choirs (see Tier Justification).
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (two
+sentences, one over 50 words with a stacked em-dash aside) at FK grade 21.9 / FRE 32.5. Per Mark's
+decision to extend the readability pass to story records, both sentences are split along their own
+existing clause boundaries into five shorter ones; no fact, name, or hedge is dropped - Jacob of Serugh's
+authorship, the "roughly a century and a quarter after Ephrem's death" gap, the rivals Bardaisan and
+Mani, the daughters of the covenant, and the "reached the ears and hearts of the whole city, women and
+men alike" close are all unchanged. Re-scored: FK 9.3 / FRE 68.6, clearing both thresholds.
