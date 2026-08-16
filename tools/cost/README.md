@@ -116,6 +116,22 @@ Neither script makes a billable API call.
   minutes of thinking and typing per question** — the assumption the whole
   cost model rests on.
 
+- `relational_safety_gate_experiment.py` — **a rejected experiment, kept as
+  evidence.** Run it and it prints the measurement that killed it. Nothing
+  imports it, and it sits outside `cic/runtime/app/` so no dead code lives in
+  the runtime.
+
+      python3 tools/cost/relational_safety_gate_experiment.py
+
+  A deterministic pre-filter meant to stop the relational-safety classifier
+  running on the ~92% of turns where nobody is in difficulty. It scores **9/9**
+  on probes the project authored and **18/18** on ordinary traffic — and
+  **0/16** on held-out paraphrases of the same categories, missing an explicit
+  A2 disclosure, a disclosure of abuse, and a medication crisis. The 9/9 is
+  memorisation: the lexicon was written after reading those probes. Adding the
+  sixteen misses would score 16/16 on them and 0/16 on the next batch. Makes no
+  API calls.
+
 ## The published review
 
 `cost-review-artifact.html` is the source for the published artifact at

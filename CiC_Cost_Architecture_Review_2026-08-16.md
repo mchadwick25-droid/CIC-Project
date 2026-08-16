@@ -560,15 +560,79 @@ Half the proposed fix already exists: relational safety and frame-breaking
 already run once per turn at the facilitator layer in `classify_pre_turn`,
 before any representative is invoked, not duplicated per world.
 
-The other half — phrase triggering — is the real change. A deterministic gate
-in front of the classifier, firing on ~8% of turns, cuts the line ~92% with
-detection unchanged. **Design constraint that decides whether it works:** the
-subject matter is death, martyrdom and suffering, so a topic-keyed filter
-fires constantly. It must key on *first-person self-reference + distress
-marker*: "The martyrs longed for death" silent, "I've stopped seeing the
-point" fires. That is also the distinction missing from the earlier
-disagreement — the objection was to a narrow keyword list with poor recall,
-not to gating as such.
+The other half — phrase triggering — **was built, measured, and rejected.**
+`tools/cost/relational_safety_gate_experiment.py` is the record; run it and it
+prints the result.
+
+The gate was built to satisfy §8a rather than trip it: it never gates while a
+track is live or while the Track B accumulator holds a partial pool, so a
+lexical shortcut can never resolve a heightened-attention state, and its
+lexicon covers attachment, dependence and return-compulsion alongside distress
+so Track B is not silently disabled. Those safeguards work. They were not the
+problem.
+
+| test set | score |
+|---|---|
+| nine probes authored by the project (six worked examples from the classifier prompt, three from the Phase 5 retest) | **9/9** |
+| eighteen real newcomer turns that must stay silent | **18/18** |
+| sixteen held-out paraphrases of the same nine categories | **0/16** |
+
+**The 9/9 is worthless** — the lexicon was written after reading those probes,
+so it measures memorisation. On held-out phrasings the gate catches nothing,
+and what it misses is not exotic:
+
+> *"I've decided when. I just haven't told anyone."* — an explicit A2.
+> *"My husband gets like this and I lock the bathroom door."* — disclosed abuse.
+> *"I stopped taking the tablets a week ago and I feel awful."* — a medication crisis.
+> *"There's not much keeping me here these days."*
+
+**This is not a tuning problem.** Adding those sixteen would score 16/16 on
+them and 0/16 on the next batch, because the ways a person expresses distress
+are not enumerable. That is exactly what L1 Essential Experience §8a says in
+advance — *"a mechanism that only pattern-matches for crisis keywords in a
+single message satisfies none of the last three signs"* — arrived at here
+independently, and measured rather than asserted.
+
+Caching the prompt instead is also unavailable: it is ~1,400 tokens and
+**Haiku 4.5's minimum cacheable prefix is 4,096**. A `cache_control` breakpoint
+below the minimum caches nothing, silently.
+
+#### What the measurement did find
+
+**44% of every `relational_safety` call is transcript, not prompt.** Measured
+across all 48 calls: the static prompt is 1,402 tokens; median input is 2,508;
+the difference is the transcript window, which grows to 2,920 by turn twelve.
+
+The window is `TRANSCRIPT_STABLE_PREFIX` (2) + `TRANSCRIPT_RECENT_WINDOW` (10)
+= 12 lines. This classifier needs it for exactly one job: telling
+`HISTORICAL_OTHERNESS_DISORIENTATION` from `ACUTE_DISTRESS` — and the prompt's
+own worked example anchors that on *the Representative's immediately preceding
+turn*, not on twelve lines of history.
+
+| window | saved/turn | $/yr @1,000h |
+|---|---:|---:|
+| keep last 2 lines | 922 tok | 133 |
+| **keep last 4 lines** | **737 tok** | **106** |
+| keep last 6 lines | 553 tok | 80 |
+
+**The failure direction is the safe one.** A narrower window makes the
+classifier *less* certain that distress is historical-otherness, and the
+prompt's own tie-breaker is *"when genuinely unsure between
+HISTORICAL_OTHERNESS_DISORIENTATION and ACUTE_DISTRESS, err toward
+ACUTE_DISTRESS."* So narrowing errs toward **firing**, not toward missing. The
+cost of being wrong is an unnecessary Facilitator check-in, not a missed
+signal — the opposite risk profile to the gate.
+
+**I did not ship it.** After building one confident safety change that failed
+its own test in the same session, a second unmeasured one does not belong in
+the tree. And I cannot test this one with what exists: all 48 sampled turns are
+`NO_SIGNAL`, so a narrow-vs-wide comparison would show both agreeing and prove
+nothing about the boundary where the risk actually lives. Testing it needs
+distress-bearing conversations — which should come from the clinician
+conversation already owed for the crisis wording, not from transcripts I invent.
+
+**$106/yr, one config change, safe-direction failure mode, needs one test I
+can't run alone.** That is what survives of the $343.
 
 ### On hybrid
 
