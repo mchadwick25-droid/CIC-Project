@@ -37,6 +37,7 @@ GATES = {
         lambda r, vm: core.gate_confidence_source_crosscheck(r),
     "mechanism_coverage": lambda r, vm: core.gate_mechanism_coverage(r),
     "texts_registry": lambda r, vm: core.gate_texts_registry(r),
+    "readability": lambda r, vm: core.gate_voice_readability(r),
 }
 
 # Gates whose real behaviour does not depend on the `records` dict the

@@ -279,6 +279,23 @@ def seeded_sets():
         ("no quote records at all (the pahc shape)", m2),
         ("figures exist but none carry a bridge_line", m3),
     ]
+
+    # voice readability (T3 follow-on, 2026-08-16). Uses its own clean set
+    # (readability_clean) for the same reason mechanism_coverage_clean and
+    # confidence_crosscheck_clean_pair do - clean_set()'s fixture records
+    # carry no `register` field at all, so testing against it would prove
+    # nothing about whether the gate can actually see unreadable content.
+    # selftest() counts an advisory (note:-prefixed) finding as a pass for
+    # this loop's purposes - see its own comment on DETECTION vs blocking.
+    w1 = readability_clean()
+    w1["fixreadQ"] = dict(w1["fixreadQ"], text_translation=UNREADABLE_LONG)
+    w2 = readability_clean()
+    w2["fixreadV"] = dict(w2["fixreadV"], speaking_model=UNREADABLE_JARGON)
+    s["readability"] = [
+        ("emic quote text_translation past the FK/FRE reading floor "
+         "(the Marius-reconstruction shape)", w1),
+        ("emic voice_profile speaking_model in dense jargon prose", w2),
+    ]
     return s
 
 
@@ -299,6 +316,45 @@ def mechanism_coverage_clean():
     quote = _quote("fixqA")
     quote["text_translation"] = "A licensed saying, recorded for the fixture."
     return {r["id"]: r for r in [fig, quote]}
+
+
+# ------------------------------------------------------ voice readability
+
+def readability_clean():
+    """register: emic content across all five v1 record types
+    (_READABILITY_FIELDS in gates.py), using the RCF-band READABLE_TEXT
+    fixture prose - proves the gate passes genuinely readable content,
+    not merely that it found nothing to check. Also carries one
+    register: etic record with UNREADABLE_LONG text, proving the register
+    filter actually excludes builder/scaffolding prose rather than
+    happening to pass it."""
+    quote = {"id": "fixreadQ", "world_id": "fixture-world", "record_type": "quote",
+             "schema_version": 1, "register": "emic", "locus": "fixture",
+             "license": "verbatim", "text_translation": READABLE_TEXT,
+             "confidence": {"verification_state": "verified-direct"}}
+    story = {"id": "fixreadS", "world_id": "fixture-world", "record_type": "story",
+             "schema_version": 1, "register": "emic", "title": "fixture story",
+             "narrative_tier": {"tier": 2, "justification": "fixture"},
+             "text": READABLE_TEXT, "owner_figure_id": "fixfigA",
+             "attested_occasion": "the attested occasion", "tellable_as": "scene"}
+    ambient = {"id": "fixreadA", "world_id": "fixture-world", "record_type": "ambient",
+               "schema_version": 1, "register": "emic", "title": "fixture ambient",
+               "text": READABLE_TEXT}
+    demo = {"id": "fixreadD", "world_id": "fixture-world", "record_type": "demonstration",
+            "schema_version": 1, "register": "emic", "dialogue": READABLE_TEXT,
+            "situation_tag": "fixture"}
+    voice = {"id": "fixreadV", "world_id": "fixture-world", "record_type": "voice_profile",
+              "schema_version": 1, "register": "emic",
+              "speaking_model": READABLE_TEXT, "trait_rubric": READABLE_TEXT}
+    etic_scaffolding = {"id": "fixreadE", "world_id": "fixture-world",
+                        "record_type": "story", "schema_version": 1,
+                        "register": "etic", "title": "fixture etic note",
+                        "narrative_tier": {"tier": 2, "justification": "fixture"},
+                        "text": UNREADABLE_LONG, "owner_figure_id": "fixfigA",
+                        "attested_occasion": "the attested occasion",
+                        "tellable_as": "scene"}
+    return {r["id"]: r for r in
+            [quote, story, ambient, demo, voice, etic_scaffolding]}
 
 
 # -------------------------------------------------- alias safety (VG-1b)

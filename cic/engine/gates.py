@@ -274,6 +274,68 @@ def gate_readability(texts: dict, fk_max: float = 10.0, fre_min: float = 60.0) -
     return out
 
 
+# gate_readability (above) has existed since the clean-room rebuild but was
+# never called by anything - no entry in run_gates.py's GATES dict, no CI
+# coverage. voice_profile even carries a schema field for this
+# (reading_level_check, "$comment": "inherits the reading floor from the
+# engine parameters - a pointer, not a restatement") that nothing has ever
+# verified; it is builder-written prose today, not a computed result. This
+# gate closes that gap for the record types whose fields are actual spoken
+# material a Representative would say to a participant.
+_READABILITY_FIELDS = {
+    "quote": ("text_translation",),
+    "story": ("text",),
+    "ambient": ("text",),
+    "demonstration": ("dialogue",),
+    "voice_profile": ("speaking_model", "trait_rubric"),
+}
+# contested_claim dropped from v1 (2026-08-16, Mark's call): its fields mix
+# etic framing into emic-register records in ways not yet sorted out field
+# by field. guided_starters deferred to v2 for a different reason - its
+# content is body-verbatim (the schema is almost empty by design), and
+# run_gates.py's load_records() keeps front matter only, discarding the
+# body every other gate here reads from. Adding it would need a second,
+# parallel loader that nothing else in this file needs.
+
+
+def gate_voice_readability(records: dict) -> list:
+    """Does this world's participant-facing prose actually clear the
+    reading-floor thresholds (readability_check/RCF V3.2 Part Five), not
+    just carry an unverified claim that it does?
+
+    Scoped to register: emic records only - the world's own spoken voice,
+    not etic/builder scaffolding, mirroring how every quote/story record
+    authored this session has carried register: emic already. Checks the
+    fields in _READABILITY_FIELDS for whichever of those five record
+    types a world's records actually contain.
+
+    ADVISORY (2026-08-16 decision, mirroring mechanism_coverage's
+    2026-08-15 one): a first run against six worlds' pre-existing emic
+    content will surface real debt that predates this gate, not a defect
+    introduced by anything landing today. Every finding is reported in
+    full behind _NOTE_PREFIX rather than counted as a violation - visible,
+    not blocking, and unable to fail CI by construction (gate_counts()
+    already excludes _NOTE_PREFIX lines from its ratchet unit, the same
+    mechanism that keeps mechanism_coverage advisory in practice and not
+    just in name).
+    """
+    out = []
+    for rid, r in sorted(records.items()):
+        if r.get("register") != "emic":
+            continue
+        fields = _READABILITY_FIELDS.get(r.get("record_type"))
+        if not fields:
+            continue
+        texts = {}
+        for field in fields:
+            v = r.get(field)
+            if isinstance(v, str) and v.strip():
+                texts[f"{rid}.{field}"] = v
+        for finding in gate_readability(texts):
+            out.append(f"{_NOTE_PREFIX} {finding}")
+    return out
+
+
 # --------------------------------------------------------- discovery channel
 
 # discovery_channel is the one field whose whole purpose is to tell a

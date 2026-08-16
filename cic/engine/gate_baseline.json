@@ -15,7 +15,8 @@
    "distribution_health": 0,
    "confidence_source_crosscheck": 0,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   },
   "desert": {
    "referential": 0,
@@ -30,7 +31,8 @@
    "distribution_health": 1,
    "confidence_source_crosscheck": 1,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   },
   "hieronymian": {
    "referential": 0,
@@ -45,7 +47,8 @@
    "distribution_health": 1,
    "confidence_source_crosscheck": 9,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   },
   "imperial_juridical": {
    "referential": 0,
@@ -60,7 +63,8 @@
    "distribution_health": 1,
    "confidence_source_crosscheck": 8,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   },
   "pahc": {
    "referential": 0,
@@ -75,7 +79,8 @@
    "distribution_health": 1,
    "confidence_source_crosscheck": 6,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   },
   "syriac": {
    "referential": 0,
@@ -90,7 +95,8 @@
    "distribution_health": 0,
    "confidence_source_crosscheck": 4,
    "mechanism_coverage": 0,
-   "texts_registry": 0
+   "texts_registry": 0,
+   "readability": 0
   }
  }
 }

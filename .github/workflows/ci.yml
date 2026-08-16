@@ -66,10 +66,11 @@ jobs:
     # world has no baseline at all. Existing violations stay visible and do
     # not block; new ones cannot land silently.
     #
-    # Advisory findings (mechanism_coverage, per Mark's 2026-08-15 decision)
-    # are excluded by construction and can never fail this job - verified by
-    # taking a world's last quote record away and confirming the job stays
-    # green while the coverage report shows the loss.
+    # Advisory findings (mechanism_coverage, per Mark's 2026-08-15 decision;
+    # readability, per Mark's 2026-08-16 decision) are excluded by
+    # construction and can never fail this job - verified by taking a
+    # world's last quote record away and confirming the job stays green
+    # while the coverage report shows the loss.
     name: Clean tree (schema + isolation + gate ratchet)
     runs-on: ubuntu-latest
     steps:
@@ -78,10 +79,12 @@ jobs:
         with:
           python-version: "3.11"
       # jsonschema for validate.py's per-type validation, pyyaml for
-      # front-matter parsing. textstat is deliberately NOT installed: the
-      # readability gate is not in the runner's GATES dict, and this path
-      # was confirmed to import and run with textstat blocked.
-      - run: pip install pyyaml jsonschema
+      # front-matter parsing. textstat is now required (2026-08-16, T3
+      # follow-on): gate_voice_readability is wired into GATES and calls
+      # readability_check, which hard-fails on import if textstat is
+      # missing rather than silently reporting a false pass - the same
+      # discipline repository-views-current already follows above.
+      - run: pip install pyyaml jsonschema textstat
       - run: python cic/engine/validate.py
       - run: python cic/checks/isolation.py
       # Proves each gate still passes a clean fixture and fails its seeded
