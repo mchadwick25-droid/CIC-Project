@@ -147,7 +147,7 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 | B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
 | C · over-settling adjudicator 78% -> 30% **(BLOCKED)** | trades recall | 0.022 | 22 | 261 |
 | D · shadow-mode checks — off-switch shipped, **not retired** | neutral | 0.003–0.011 | 3–11 | **39–132** |
-| E · trim `_HOW_YOU_ENGAGE` by 40% | test it | 0.018 | 18 | 221 |
+| E · trim `_HOW_YOU_ENGAGE` **(DO NOT DO)** | risks the voice | 0.001 | 1 | **90** |
 | F · pool cache writes (20 sessions/window) | none | 0.057 | 57 | 682 |
 | **Sonnet 5, all of A-F** | — | **0.326** | **326** | **3,907** |
 | Haiku 4.5, all of A-F | costs citations | 0.251 | 251 | 3,015 |
@@ -210,6 +210,57 @@ carries attribution honesty. Tier/confidence remain in front-matter metadata.
    does not fix** — `desertlex018` has literally empty `**World Meaning:**`
    and `**Ecological Function:**` fields. Worth an authoring pass
    independent of cost.
+
+### E · Measured, audited, and rejected — no change made
+
+Two findings, both against my own estimate.
+
+**1. It is worth $90/yr at pilot scale, not $221 — and it double-counts with F.**
+`_HOW_YOU_ENGAGE` sits in the *cached* prefix, so most of the saving from
+trimming it is write amortisation, which F's pooling already absorbs.
+
+| | trim 40% (2,882 tok) |
+|---|---:|
+| isolated sessions | $221/yr |
+| pilot scale (20/world/window) | **$90/yr** |
+
+**2. There is no duplication to remove.** I assumed 23,490 characters of
+behavioural instruction had to be padded. It is not. Measured by 6-gram
+overlap:
+
+- **Internally:** no two of the 23 sections exceed 1.5% Jaccard. None.
+- **Against each world's own permanent prompt:** 0–2 shared 6-grams out of
+  thousands. Effectively zero across all six worlds.
+- **Against `REACTIVE_TURN_GUIDANCE`:** 5 shared 6-grams, 0.1%.
+
+Every section covers distinct ground. That is a well-written prompt, not
+bloat. So a 40% trim is not a redundancy cut — it is deleting distinct
+behavioural instructions with nothing to fall back on, for $90/yr, on the
+single most quality-sensitive artifact in the system, with no validation
+battery run. **Recommendation: do not do this as a cost measure.** If it is
+ever revisited it should be as a *quality* question, through the project's own
+probe battery and blind grading, not through the cost ledger.
+
+**Also measured and rejected: reordering.** The block is byte-identical across
+all six worlds but sits *after* the world-specific text in the cached prefix,
+so caching (which is prefix-based) writes it six times instead of once.
+Putting it first would let all six worlds share one entry — worth $288/yr at
+isolated sessions but only **$14/yr at pilot scale**, and it moves the voice
+guidance ahead of the representative's own identity. Not worth the behavioural
+risk for $14.
+
+### The pattern worth acting on
+
+Levers split cleanly by *what kind of token* they cut, and only one kind
+survives concurrency:
+
+| cuts | levers | holds at scale? |
+|---|---|---|
+| uncached tokens | **A (shipped), B**, D, part of C | **yes** |
+| cache writes / reads | E, F | no — pooling absorbs them |
+
+Once real concurrency exists, **A and B are the whole remaining story.** That
+is where the next effort belongs.
 
 ### D · Cheaper than estimated; off-switch instead of deletion — SHIPPED
 
