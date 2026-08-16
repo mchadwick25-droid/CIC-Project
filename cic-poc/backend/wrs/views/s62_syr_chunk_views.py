@@ -252,11 +252,66 @@ def render_story(rec, body):
     return "\n\n---\n\n".join(parts) + "\n"
 
 
+def render_ambient(rec):
+    # Redesign step 5 (2026-08-14): the Native-Ambient chunk. The register
+    # marking rides IN the chunk - both as a front-matter line and as a
+    # closing voice rule - so retrieval delivers the texture already
+    # wrapped in its own permission: common life of the place, never a
+    # named voice's own act, never a formation claim.
+    ret = rec.get("retrieval") or {}
+    rw = "; ".join(ret.get("retrieve_when") or [])
+    dnrw_items = [d["text"] for d in (ret.get("do_not_retrieve_when") or [])]
+    dnrw = "; ".join(dnrw_items) if dnrw_items else "—"
+    regs = "; ".join(
+        f"Source Registry #{int(s['source_id'][6:])}"
+        for s in rec.get("sources") or [])
+    parts = [fm_block([
+        ("Ambient-Title", rec.get("title", "")),
+        ("World-Code", "syr"),
+        ("Register", "Native-Ambient - the common life of the place, "
+                     "not the teaching of a named voice"),
+        ("Tier", str(ret.get("tier", 3))),
+        ("Domain", rec.get("ambient_domain", "")),
+        ("Sources", regs),
+        ("Retrieve-When", rw),
+        ("Do-Not-Retrieve-When", dnrw),
+    ])]
+    # Quick Meaning feeds the embedded retrieval surface (S3.1 R1 rule:
+    # surface, not body). Derived, not authored: the text minus its fixed
+    # common-life marking sentence, cut at a word boundary.
+    text = rec.get("text", "")
+    marking = "Common life of the place, not the teaching of any one voice."
+    gist = text[len(marking):].strip() if text.startswith(marking) else text
+    if len(gist) > 240:
+        gist = gist[:240].rsplit(" ", 1)[0] + "…"
+    parts.append("## Quick Meaning\n\n" + gist)
+    parts.append("## Ambient Text\n\n" + text)
+    parts.append("## Period Note\n\n" + rec.get("period_note", ""))
+    parts.append(
+        "## Voice Rule\n\n"
+        "Offer this as the shared background of the place - what anyone in "
+        "these streets would have known - and say so. Never put it in a "
+        "named person's mouth or life, never let it anchor a claim about "
+        "what formed us; when it touches something our own record teaches, "
+        "the record's own voice takes over.")
+    # NO '---' section separators here, deliberately: the runtime lexicon
+    # parser treats everything before the second '---' as front matter and
+    # drops it from the content payload - with plain headings the WHOLE
+    # chunk (marking, text, period note, voice rule) rides as payload.
+    return "\n\n".join(parts) + "\n"
+
+
+def _ambient_slug(title):
+    s = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+    return "-".join(s.split("-")[:5])
+
+
 def main():
     if "--fix-flag025" in sys.argv:
         fix_flag025()
     terms = load_records("term")
     stories = load_records("story")
+    ambient = load_records("ambient")
     term_names = {rid: rec["term"] for rid, (rec, _b, _p) in terms.items()}
 
     lex_out = STAGING / "lexicon_chunks"
@@ -280,7 +335,16 @@ def main():
         (story_out / name).write_text(render_story(rec, body),
                                       encoding="utf-8", newline="\n")
         n_story += 1
-    print(f"staged {n_lex} lexicon + {n_story} story chunk views -> {STAGING}")
+    amb_out = STAGING / "ambient_chunks"
+    amb_out.mkdir(parents=True, exist_ok=True)
+    n_amb = 0
+    for rid, (rec, _body, _p) in ambient.items():
+        name = f"{rid}_{_ambient_slug(rec.get('title', ''))}.md"
+        (amb_out / name).write_text(render_ambient(rec),
+                                    encoding="utf-8", newline="\n")
+        n_amb += 1
+    print(f"staged {n_lex} lexicon + {n_story} story + {n_amb} ambient "
+          f"chunk views -> {STAGING}")
 
 
 if __name__ == "__main__":

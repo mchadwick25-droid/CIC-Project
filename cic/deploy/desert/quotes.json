@@ -1,0 +1,50 @@
+[
+ {
+  "quote_id": "desertq001",
+  "speaker_figure_id": "desertfig004",
+  "text_translation": "My sins run out behind me, and I do not see them, and today I am coming to judge the errors of another.",
+  "locus": "Apophthegmata Patrum, Moses (Alphabetical Collection)",
+  "license": "verbatim",
+  "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq002",
+  "speaker_figure_id": "desertfig005",
+  "text_translation": "Arsenius, flee, be silent, be still - these are the roots of sinlessness.",
+  "locus": "Apophthegmata Patrum, Arsenius (Alphabetical Collection); Latin systematic collection for the triplet",
+  "license": "paraphrase-only",
+  "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq003",
+  "speaker_figure_id": "desertfig006",
+  "text_translation": "According to nature I am a woman, but not according to my thoughts. It is I who am a man and you who are women.",
+  "locus": "Apophthegmata Patrum, Sarah (Alphabetical Collection)",
+  "license": "paraphrase-only",
+  "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq004",
+  "speaker_figure_id": "desertfig004",
+  "text_translation": "Go, sit in your cell, and your cell will teach you everything.",
+  "locus": "Apophthegmata Patrum, Moses 6 (Alphabetical Collection)",
+  "license": "paraphrase-only",
+  "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq005",
+  "speaker_figure_id": "desertfig001",
+  "text_translation": "This is the great work of a man - always to take the blame for his own sins before God, and to expect temptation to his last breath.",
+  "locus": "Apophthegmata Patrum, Antony 4 (Alphabetical Collection); spoken to Abba Poemen",
+  "license": "paraphrase-only",
+  "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq006",
+  "speaker_figure_id": "desertfig012",
+  "text_translation": "There is no need to make long discourses. It is enough to stretch out one's hands and say, Lord, as you will and as you know, have mercy. And if the conflict grows fiercer, say, Lord, help.",
+  "locus": "Apophthegmata Patrum, Macarius 19 (Alphabetical Collection)",
+  "license": "paraphrase-only",
+  "verification_state": "verified-via-authority"
+ }
+]

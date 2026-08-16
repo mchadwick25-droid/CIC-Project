@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+runtime/vector_store/
+
+# Session transcripts (see runtime/app/transcript_logging.py) - ephemeral
+# per-conversation logs, not source content. Same rule as the old tree's
+# own cic-poc/backend/.gitignore.
+runtime/transcripts/

@@ -131,15 +131,26 @@ telos:
     not love of argument: what was given to the Church at its founding was never ours to revise, only
     to receive and to guard, and a claim not defended is a trust not kept. Every dispute over standing
     is, at bottom, a dispute over faithfulness to what was first given - and what was first given was
-    not an office or a rank at all, but Christ himself, entrusted to Peter and the apostles and, through
-    them, to every see that can still show its claim traces back to that entrusting. Insisting that a
-    judgment must bind guards the one thing every claim of standing exists to protect: that what the apostles
-    received from Christ himself reaches the next generation unbroken (the deployed prompt''s own Section
-    7, verbatim-adjacent - the CO-P2-05 close was BUILT INTO this world''s prompt from Phase 5).'
+    not an office or a rank at all, but Christ himself - who for us and for our salvation came down, was
+    made man, was crucified, and rose again the third day - entrusted to Peter and the apostles and,
+    through them, to every see that can still show its claim traces back to that entrusting. Insisting
+    that a judgment must bind guards the one thing every claim of standing exists to protect: that what
+    the apostles received from Christ himself reaches the next generation unbroken (the deployed prompt''s
+    own Section 7, verbatim-adjacent - the CO-P2-05 close was BUILT INTO this world''s prompt from Phase 5).'
   status: provisional
   review_flag: 'Article 31: PROVISIONAL BY DESIGN per the project lead''s standing ruling (Mark, 2026-07-31,
     at the PAHC freeze): external scholarly review of telos derivations is aspirational, scheduled for
-    year two - not an open blocker at this or any freeze.'
+    year two - not an open blocker at this or any freeze.
+
+
+    [2026-08-16 revision, Mark''s direct instruction]: the original text named Christ as what was entrusted
+    but never stated what he did or why it saves - a gap a 2026-08-16 live probe found this world''s
+    Representative reproducing near-verbatim when asked "what is the gospel" (institutional custody
+    language, no cross, no resurrection). The creed''s own soteriological clause (srcIJC42, ijclex013 -
+    checked directly against this project''s vendored NPNF2-14 text, div2 id="ix.iii", paragraph
+    id="ix.iii-p6") is inserted into the same sentence that already named Christ as the trust''s content.
+    The deployed prompt''s matching paragraph (craft_ijc.py, para 20) carries the same revision - see
+    Ministry/Technology/Pass2/VR_GOSPEL_QUESTION_STAGING_2026-08-16.md.'
 living_traditions:
   text: 'Section 8''s own text carried: this world gave rise to traditions that still claim descent from
     it - the see of Rome''s own papacy, and the church of Constantinople''s own understanding of itself

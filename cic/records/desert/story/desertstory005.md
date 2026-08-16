@@ -1,0 +1,77 @@
+---
+id: desertstory005
+world_id: desert-monasticism
+record_type: story
+schema_version: 1
+jobs:
+- 1
+- 2
+- 3
+register: emic
+key_line: "Arsenius, flee, be silent, be still"
+review_state: draft
+cache_stability: static
+title: Abba Arsenius's Call to Flee, Be Silent, Be Still
+narrative_tier:
+  tier: 2
+  justification: Same basis as Story 004 -- attributed to a named figure, preserved through the compiled
+    tradition rather than a contemporary datable text. Arsenius's own historical existence and imperial-court
+    background are independently well-attested in the broader tradition, but this world's own evidence
+    base does not extend to full verification of his court career specifically, and this document does
+    not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin
+    for the specific court-tutor biographical frame.
+text: 'The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople,
+  prayed for guidance. He heard a voice say: "Arsenius, flee the company of men and you will be saved."
+  Having withdrawn to Egypt, he prayed again. He heard: "Arsenius, flee, be silent, be still -- these
+  are the roots of sinlessness."'
+attested_occasion: Prayer for guidance while still tutor at the imperial court, and again after withdrawal
+  to Egypt (Apophthegmata, Arsenius, Alphabetical Collection).
+tellable_as: scene
+voice_surface: 'They say of Abba Arsenius that... - the court frame told thinly, as the tradition gives
+  it, without elaboration. Usage guidance (chunk, verbatim): Told as tradition, not verified biography
+  -- "They say of Abba Arsenius that..." Particularly useful for illustrating gravity 1''s own logic in
+  its most compressed, memorable form -- a call, a departure, and a further call once the departure was
+  already made.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - participant asks why someone would leave a position of status or comfort for withdrawal
+  - participant asks what hesychia (stillness) actually is, or how it is sought rather than merely described
+  - conversation reaches gravity 1 (withdrawal) or gravity 3 (personal, directly-addressed guidance) in
+    their most compressed, memorable form.
+  do_not_retrieve_when:
+  - condition_type: sense-disambiguation
+    text: conversation is asking for elaboration on Arsenius's court career beyond this brief biographical
+      frame -- this document does not extend its own evidence base to full verification of that career,
+      and neither should the Representative
+  - condition_type: sense-disambiguation
+    text: participant is asking about a different elder's own call story (see Stories 001, 004, 006).
+  force_llm_vote: false
+sources:
+- source_id: srcDES005
+  author_gravity_note: Widely Accepted (the saying's place in the tradition); Inferential / Thin (the specific
+    court-tutor biographical frame)
+- source_id: srcDES021
+  author_gravity_note: 'Source line (chunk): Apophthegmata Patrum, Arsenius (Alphabetical Collection)'
+owner_figure_id: desertfig005
+gravity_links:
+- gravity_id: desertgrav001
+  note: 'Withdrawal, and the personal word given directly to the one who asked - the mode all our guidance
+    assumes. Stillness here is a thing actively sought and kept, a discipline with a name, not merely the
+    absence of noise.'
+- gravity_id: desertgrav003
+  note: Named in this story's Formation Ecology Connection - full text on the first gravity_links note
+    (CO-P2-04).
+chunk_slug: arsenius-flee-be-still
+---
+Migrated at S2.4 (2026-07-27) from `data/desert_world/story_chunks/desertstory005_arsenius-flee-be-still.md` (Story Text / Tier Justification / Usage Guidance verbatim from the chunk's own sections; occasion and telling-formula per chunk + Doc_09a). Tier-4 owner gap: see FLAG-003.
+
+CO-P2-04 (2026-07-27): parked FLAG-004 sections restructured into gravity_links[] (FEC verbatim on the first link) and, for this record's tier-4 table, per-element sources[] entries.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 12.5 / FRE 54.3 - two sentences each joining "prayed...and heard [quote]" with a comma-and-conjunction.
+Per Mark's decision to extend the readability pass to story records, each "and heard" clause is split off
+into its own sentence at its own existing conjunction boundary. Every quoted word, in both of the voice's
+sayings, is unchanged character-for-character. No fact or hedge is dropped - the court-tutor setting at
+Constantinople, the withdrawal to Egypt, "the tradition tells," and both quoted sayings in full are all
+unchanged. Re-scored: FK 7.2 / FRE 68.3, clearing both thresholds.

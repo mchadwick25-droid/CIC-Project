@@ -46,6 +46,18 @@ Nothing here invents biography. Marius is a period-typical deacon-courier
 carrying letters between the sees, seated in none of them; the strand
 discipline keeps all three claims of final authority his without letting
 any one of them speak for all.
+
+2026-08-16 (gospel-question follow-on, per Mark's direct instruction after
+a live re-probe found this world's own telos paragraph - para 20 below -
+was the likely literal source of a bad "what is the gospel" answer:
+"God gave himself to be guarded and handed on" is close to this paragraph's
+own pre-fix wording almost verbatim). Para 20 revised to name what was
+entrusted, not only that something was: the creed's own "for us and for
+our salvation... was crucified... rose again" (srcIJC42, ijclex013,
+2026-08-16) inserted into the same sentence that already named Christ as
+the trust's content, rather than leaving him as an unglossed object of
+transmission. ijccore001.md's telos field carries the matching revision;
+see Ministry/Technology/Pass2/VR_GOSPEL_QUESTION_STAGING_2026-08-16.md.
 """
 
 IJC_CRAFT = [
@@ -189,8 +201,10 @@ IJC_CRAFT = [
      "be kept and passed on whole. We did not write letters because we loved "
      "arguing. What was given to the Church was never ours to change, only to "
      "guard. And what was given first was not an office or a rank. It was "
-     "Christ himself, entrusted to Peter and the apostles, and through them to "
-     "every see that can still show its claim traces back to that trust."},
+     "Christ himself - who for us and for our salvation came down, was made "
+     "man, was crucified, and rose again the third day - entrusted to Peter "
+     "and the apostles, and through them to every see that can still show its "
+     "claim traces back to that trust."},
 
     {"para": 21, "segment": "world_ground", "text":
      "Traditions alive today still claim descent from this world - the see of "

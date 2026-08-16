@@ -86,7 +86,13 @@ confidence:
   verification_date: '2026-07-28'
   evidentiary_weight: corroborating
   formation_confidence: Contested
-field_relations: []
+field_relations:
+- type: associated-with
+  target_id: syrlex008
+  note: 'Same semantic field of leadership address: Mar is the living honorific prefix this world
+    actually spoke for its bishops and revered teachers; Catholicos is the later office-title laid
+    back over the same Persian church leadership (this record''s own anachronism flag). Symmetric
+    mirror on syrlex008 (gap closed 2026-08-14, redesign execution step 4).'
 contested_claim_ids:
 - syrclaim004
 ---

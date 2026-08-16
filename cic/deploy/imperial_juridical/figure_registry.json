@@ -1,0 +1,110 @@
+[
+ {
+  "figure_id": "ijcfig001",
+  "display_name": "Constantine",
+  "names": [
+   "Constantine I (r. 306-337)",
+   "Constantine I",
+   "Constantine"
+  ],
+  "bridge_line": "The first Roman emperor to back the Christians. He ruled from 306 to 337.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig002",
+  "display_name": "Eusebius of Caesarea",
+  "names": [
+   "Eusebius of Caesarea (c. 260-339)",
+   "Eusebius of Caesarea",
+   "Eusebius"
+  ],
+  "bridge_line": "A bishop and historian. He wrote the emperor's life years after the events.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig003",
+  "display_name": "Lactantius",
+  "names": [
+   "Lactantius (c. 250-325)",
+   "Lactantius"
+  ],
+  "bridge_line": "A Christian writer whose account of the same battle was written earlier, and differs.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig004",
+  "display_name": "Ambrose, bishop of Milan",
+  "names": [
+   "Ambrose of Milan (c. 339-397)",
+   "Ambrose, bishop of Milan",
+   "Ambrose"
+  ],
+  "bridge_line": "Bishop of Milan, who refused to hand a church over to the emperor's court.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig005",
+  "display_name": "Paulinus of Milan",
+  "names": [
+   "Paulinus of Milan (Vita Ambrosii, c. 412-413)",
+   "Paulinus of Milan",
+   "Paulinus"
+  ],
+  "bridge_line": "He wrote the life of Ambrose, about twenty years after Ambrose died.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig006",
+  "display_name": "Julius, bishop of Rome",
+  "names": [
+   "Julius, bishop of Rome",
+   "Julius I (bp. 337-352)",
+   "Julius I",
+   "Julius"
+  ],
+  "bridge_line": "A bishop of Rome. His letter of 341 is our earliest claim of Rome's standing.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig007",
+  "display_name": "Leo, bishop of Rome",
+  "names": [
+   "Leo, bishop of Rome",
+   "Leo I (bp. 440-461)",
+   "Leo I",
+   "Leo"
+  ],
+  "bridge_line": "A bishop of Rome. His letter on Christ's two natures was read at Chalcedon.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig008",
+  "display_name": "Damasus, bishop of Rome",
+  "names": [
+   "Damasus, bishop of Rome",
+   "Damasus I (bp. 366-384)",
+   "Damasus I",
+   "Damasus"
+  ],
+  "bridge_line": "A bishop of Rome who filled the city with inscriptions honouring the martyrs.",
+  "narratable": true
+ },
+ {
+  "figure_id": "ijcfig009",
+  "display_name": "Athanasius of Alexandria",
+  "names": [
+   "Athanasius of Alexandria",
+   "Athanasius"
+  ],
+  "bridge_line": "An Alexandrian bishop. We have Julius's letter only because he copied it out.",
+  "narratable": false,
+  "dates": {
+   "kind": "life",
+   "display": "c. 293/296-373",
+   "start_year": 293,
+   "end_year": 373,
+   "approximate": true,
+   "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Encyclopaedia Britannica, \"St. Athanasius\", giving b. c. 293, d. 2 May 373; c. 296 is widely given elsewhere as the birth year, hence both in display). NOT verified against a primary edition. This build attests him only as the transmitter of Julius I's letter of 341 (srcIJC04). Scholar recheck required."
+  }
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "figure_id": "syrfig001",
+  "display_name": "Ephrem",
+  "names": [
+   "Ephrem the Syrian (Ephraem Syrus)",
+   "Ephrem"
+  ],
+  "bridge_line": "Our best known teacher and hymn writer, at Nisibis and later Edessa.",
+  "narratable": true,
+  "dates": {
+   "kind": "floruit",
+   "display": "corpus 350s-373",
+   "start_year": 350,
+   "end_year": 373,
+   "approximate": true,
+   "note": "In-build attestation (T3-E): syrgrav001 spans \"Ephrem's whole corpus (350s-373)\". These bound the surviving corpus, not his life; no birth date is attested in this build."
+  }
+ },
+ {
+  "figure_id": "syrfig002",
+  "display_name": "Aphrahat",
+  "names": [
+   "Aphrahat the Persian Sage",
+   "Aphrahat"
+  ],
+  "bridge_line": "A Persian teacher. His twenty-three written demonstrations survive; no story of his days does.",
+  "narratable": false,
+  "dates": {
+   "kind": "floruit",
+   "display": "Demonstrations composed 336/7-345",
+   "start_year": 336,
+   "end_year": 345,
+   "approximate": true,
+   "note": "In-build attestation (T3-E), transcribed not supplied: syrgrav001 dates \"Aphrahat's earlier Demonstrations (336/7-345)\" and syrforce1B2 fixes Demonstration 6 at 337. These bound his known WRITING, not his life - no birth or death date is attested anywhere in this build, and this record's own bridge_line says no story of his days survives."
+  }
+ },
+ {
+  "figure_id": "syrfig003",
+  "display_name": "Jacob of Nisibis",
+  "names": [
+   "Jacob (Mar Yaqub) of Nisibis, bishop from c. 309",
+   "Jacob of Nisibis",
+   "Jacob"
+  ],
+  "bridge_line": "Bishop of Nisibis from about 309. Our sources disagree on when he died.",
+  "narratable": true,
+  "dates": {
+   "kind": "episcopate",
+   "display": "bishop of Nisibis from c. 309",
+   "start_year": 309,
+   "approximate": true,
+   "note": "No end_year, deliberately: his death date is a genuine primary-source conflict this record carries open (see attribution_note). Recording either candidate here would settle in a data field what the record refuses to settle in prose."
+  }
+ },
+ {
+  "figure_id": "syrfig004",
+  "display_name": "Simeon bar Sabbae",
+  "names": [
+   "Simeon bar Sabba'e, bishop of Seleucia-Ctesiphon",
+   "Simeon bar Sabba'e",
+   "Simeon bar Sabbae"
+  ],
+  "bridge_line": "A bishop in the Persian empire, put to death when the king turned on us.",
+  "narratable": true,
+  "dates": {
+   "kind": "life",
+   "display": "martyred 341 by the traditional date, disputed (Kosinski/Burgess argue c. 344)",
+   "end_year": 341,
+   "note": "Transcribed from this record's own attribution_note (T3-E), not supplied from outside it. The dispute is live and load-bearing - the downstream succession chain shifts with it (Doc_02 SS11) - so `display` carries both positions and neither is settled here. end_year holds the traditional date purely as a machine-comparable bound; `approximate` is omitted rather than guessed, because one candidate is a transmitted date and the other a scholarly estimate, and no single flag is true of both."
+  }
+ },
+ {
+  "figure_id": "syrfig005",
+  "display_name": "Addai",
+  "names": [
+   "Addai (Thaddeus of Edessa, foundation legend)",
+   "Addai"
+  ],
+  "bridge_line": "The teacher our founding account says was sent to Edessa. That account is a later legend.",
+  "narratable": true
+ },
+ {
+  "figure_id": "syrfig006",
+  "display_name": "King Abgar",
+  "names": [
+   "Abgar V (the correspondence legend; Doc_01 SS2's own identification)",
+   "King Abgar",
+   "Abgar V"
+  ],
+  "bridge_line": "The king of Edessa who, our founding account says, wrote to Jesus.",
+  "narratable": true
+ },
+ {
+  "figure_id": "syrfig008",
+  "display_name": "Basil of Caesarea",
+  "names": [
+   "Basil of Caesarea",
+   "Basil"
+  ],
+  "bridge_line": "A bishop from outside our tradition. He appears only inside a later legend about Ephrem.",
+  "narratable": true
+ }
+]

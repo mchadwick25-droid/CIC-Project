@@ -1,0 +1,651 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cic-wrs-records",
+  "title": "CiC World Record Store - record schema (Pass 1 SS3, implemented at S1.5 under M1: files-in-git)",
+  "$comment": "Structural schema: types and controlled vocabularies exactly per Pass 1 SS3.0-3.12. Requiredness beyond the structural floor (id/world_id/record_type/schema_version) is deliberately NOT enforced here - per-type, per-stage requiredness (SS11-A, backfill profiles) is the S1.3 field-completion gate's job. Every $defs element carries its Pass 1 warrant in a $comment; the two blueprint-origin additions (world_core.pairing_guidance/cautions per S2.7a) are marked as such. Traceability matrix stayed with the old tree (git history); the clean system's validate.py checks records only.",
+  "oneOf": [
+    {"$ref": "#/$defs/source"}, {"$ref": "#/$defs/term"}, {"$ref": "#/$defs/story"},
+    {"$ref": "#/$defs/quote"}, {"$ref": "#/$defs/gravity"}, {"$ref": "#/$defs/force"},
+    {"$ref": "#/$defs/figure"}, {"$ref": "#/$defs/contested_claim"},
+    {"$ref": "#/$defs/voice_profile"}, {"$ref": "#/$defs/demonstration"},
+    {"$ref": "#/$defs/world_core"}, {"$ref": "#/$defs/modern_term"},
+    {"$ref": "#/$defs/search_record"}
+  ],
+  "$defs": {
+    "six_test_cell": {
+      "$comment": "one gravity-test verdict (CO-P2-02); note kept optional for any qualifier a verdict needs",
+      "type": "object",
+      "properties": {"verdict": {"type": "string"}, "note": {"type": "string"}},
+      "required": ["verdict"],
+      "additionalProperties": false
+    },
+    "confidence": {
+      "$comment": "SS3.0 confidence row: three axes replacing today's single grade; outward A-E letter derived; the constitutional five-level formation-confidence vocabulary is a separate axis grading the reconstruction claim (Article 17 vocabulary, verbatim from the L4 templates).",
+      "type": "object",
+      "properties": {
+        "citation_specificity": {"enum": ["A", "B", "C", "D", "E"]},
+        "verification_state": {"enum": ["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]},
+        "verification_date": {"type": "string", "format": "date"},
+        "evidentiary_weight": {"enum": ["load-bearing", "corroborating", "illustrative", "contested"]},
+        "formation_confidence": {"enum": ["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]},
+        "derived_grade": {"enum": ["A", "B", "C", "D", "E"], "$comment": "derived, never hand-set (SS3.0)"},
+        "divergence_note": {"type": "string", "$comment": "2026-08-05 (full-system review, Rigor P1-8): the record-level analogue of Syriac Doc_04's own Confidence/Gravity Cross-Check ('named explicitly, not resolved by upgrading'), one level down. Required by gate_confidence_source_crosscheck (cic/engine/gates.py) whenever formation_confidence=Documented but none of the record's own linked sources[] carry verification_state=verified-direct - names the gap between the evidentiary-tier claim and the sources' own re-verification state, rather than leaving it invisible and ungated."}
+      },
+      "additionalProperties": false
+    },
+    "source_link": {
+      "$comment": "SS3.0 sources[] entry: {source_id, locus, licensed_for, author_gravity_note}",
+      "type": "object",
+      "properties": {
+        "source_id": {"type": "string"},
+        "locus": {"type": "string"},
+        "licensed_for": {"type": "string"},
+        "author_gravity_note": {"type": "string"}
+      },
+      "required": ["source_id"],
+      "additionalProperties": false
+    },
+    "envelope": {
+      "$comment": "SS3.0 - every record carries this envelope. relations[] is implemented per-type under its own name (field_relations/interaction/connections) per SS3.0's own design.",
+      "type": "object",
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters", "ambient", "craft"]},
+        "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
+        "register": {"enum": ["emic", "etic", "emic-unavailable"]},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "disposition": {"enum": ["in-use", "removed-from-use"], "$comment": "SS3.0: explicit field; today only in the living-document protocol's prose"},
+        "grade_criteria_version": {"type": "string"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source_link"}},
+        "eviction_priority": {"type": "integer"},
+        "cache_stability": {"enum": ["static", "session", "turn"]},
+        "grounding_criterion": {"enum": ["low", "standard", "high"], "$comment": "derived by rule (SS3.0/SS6.4), never hand-tagged"},
+        "review_state": {"enum": ["draft", "cleared-review", "approved-to-proceed", "frozen"]},
+        "review_artifact": {"type": "string", "$comment": "SS3.0: a review that clears a record names the saved review artifact (CO-020)"},
+        "schema_version": {"type": "integer", "minimum": 1},
+        "source_register": {"enum": ["native-constitutive", "native-ambient", "inherited", "comparandum-excluded"], "$comment": "Four-register framework (document-set redesign, 2026-08-14): which register governs what the voice may do with this record's content. Absent = native-constitutive (the historical default for everything migrated before the field existed) - do not mass-backfill. 'register' (emic/etic) is a different axis: insider-vs-outsider terminology, untouched. ambient records MUST carry native-ambient (gate_field_completion); inherited marks received Scripture spoken as our own with the inheritance visible."}
+      },
+      "required": ["id", "world_id", "record_type", "schema_version"]
+    },
+    "retrieval_block": {
+      "$comment": "SS3.2 retrieval row: structured block replacing free-text conditions; empty is a typed null (empty array), never an em-dash - validate.py additionally rejects the em-dash sentinel string.",
+      "type": "object",
+      "properties": {
+        "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+        "retrieve_when": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "do_not_retrieve_when": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "condition_type": {"enum": ["sense-disambiguation", "anachronism-guard"]},
+              "text": {"type": "string", "minLength": 1}
+            },
+            "required": ["condition_type", "text"],
+            "additionalProperties": false
+          }
+        },
+        "force_llm_vote": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "$comment": "SS3.1 - the Source Registry, generalized. Carried-forward block kept under snake_case names.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "source"},
+        "attribution_status": {"enum": ["genuine", "dubium", "spurium", "anonymous", "pseudonymous", "attributed-later"]},
+        "attribution_note": {"type": "string"},
+        "level_of_description": {"enum": ["item", "work", "corpus", "aggregate-attestation"]},
+        "work_author": {"type": "string"},
+        "work_title": {"type": "string"},
+        "work_locus": {"type": "string"},
+        "edition": {"type": "string"},
+        "translation": {"type": "string"},
+        "edition_status": {"enum": ["critical", "standard-pre-critical", "uncritical-reprint", "superseded", "none-consulted"]},
+        "consulted_as": {"enum": ["original-critical", "original-uncritical", "translation", "secondary-report-only"]},
+        "language": {"type": "string", "$comment": "ISO 639-3"},
+        "script": {"type": "string", "$comment": "ISO 15924"},
+        "genre_form": {"enum": ["letter", "homily", "conciliar-act", "liturgical-text", "hagiography", "chronicle", "legal-rescript", "polemic", "monastic-rule", "apophthegm-collection", "commentary", "monograph", "journal-article", "reference-work"]},
+        "purpose_audience": {"type": "string"},
+        "discovery_channel": {"enum": ["field-bibliography", "database-search", "library-catalogue", "backward-snowball", "forward-snowball", "cited-in-another-row", "step0-seed-list", "prior-world-build", "builder-prior-knowledge", "reviewer-supplied", "participant-question"]},
+        "discovery_instrument": {"type": "string"},
+        "discovery_date": {"type": "string", "format": "date"},
+        "snowball_parent": {"type": "string"},
+        "external_ids": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scheme": {"enum": ["syriaca", "cpg", "cpl", "bhg", "bhl", "bhse", "cts-urn", "viaf", "doi"]},
+              "value": {"type": "string"},
+              "uri": {"type": "string"}
+            },
+            "required": ["scheme", "value"],
+            "additionalProperties": false
+          }
+        },
+        "transmission_path": {"type": "string"},
+        "field_state": {"enum": ["majority", "minority", "contested", "superseded", "n-a"]},
+        "rights_status": {"type": "string"},
+        "license": {"type": "string"},
+        "display_permitted": {"type": "boolean"},
+        "source_type": {"enum": ["P", "S", "M", "L"], "$comment": "carried forward: Type"},
+        "boundary_status": {"enum": ["Native", "Excluded"], "$comment": "carried forward"},
+        "in_world_record": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/grounding_anchor.py - false marks a source authored by this build (not a document the world produced), never named in the grounding anchor"},
+        "exclusion_reason": {"enum": ["Out-of-Boundary", "Named Comparandum"], "$comment": "carried forward"},
+        "comparandum_note": {"type": "string", "$comment": "carried forward"},
+        "licensed_for": {"type": "string", "$comment": "carried forward - CiC's own contribution"},
+        "verification_note": {"type": "string", "$comment": "carried forward - Description Control block"},
+        "added": {"type": "string", "$comment": "carried forward - Description Control block"},
+        "priority_review_flag": {"type": "boolean", "$comment": "2026-08-05 (full-system review, Rigor P1-3): promoted to first-class from the registry-carried verification_note prose ('priority_review_flag=Yes/No') the record-native migration collapsed it into. Extraction, not new judgment - set only where the source row's own verification_note (or, pre-migration, its Source Registry row) states it explicitly; left unset where it does not. Feeds the priority-review queue alongside gate_priority_review_trigger (cic/engine/gates.py), which computes its own risk flag independently off discovery_channel/verification_state/evidentiary_weight - the two are related but not redundant: this field is the registry's own inherited call, the gate is the re-keyed rule applied to today's data."}
+      },
+      "unevaluatedProperties": false
+    },
+    "term": {
+      "$comment": "SS3.2 - the lexicon record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "term"},
+        "chunk_slug": {"type": "string", "$comment": "clean-room rebuild (2026-08-14): the deployed chunk filename's slug half - the record's own retrieval-file identity, captured as data so the one generic chunk builder needs no deployed directory to name its files"},
+        "chunk_filename": {"type": "string", "$comment": "clean-room rebuild: full deployed chunk filename, for worlds whose naming convention is not <rid>_<slug> (HAL)"},
+        "chunk_related_line": {"type": "string", "$comment": "clean-room rebuild: the deployed chunk's verbatim Related-Terms line for worlds (PAHC, IJC) whose deployed lines carry partners the records cannot yet back (the declared S2.9 render-shortfall) - deployed state captured as record data"},
+        "term": {"type": "string"},
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "alias_generic_override_note": {"type": "string", "$comment": "VG-1b (Voice-Governance Addendum SS5.6): term-level documented exception for deliberately-generic aliases (the bare Death/Christ/Prayer class) - names which alias(es) and why; the alias-safety gate REPORTS it, never silently excludes the term. Term-level by design: aliases is array<string> with no per-item slot, and promoting it would be the frozen-world sweep SS7 forbids."},
+        "original_script": {"type": "string"},
+        "period_sense": {"type": "string", "$comment": "Level 1 draws on period_sense only"},
+        "plain_explanation": {"type": "string", "$comment": "Level 2's AUTHORED content source (CO-P2-12 resolving FLAG-011): the record's meaning and its then-vs-now gap stated in plain language, written to the reading floor (parameters.yaml reading_floor) and machine-checked at the S5.4 gate; renders verbatim - never generated from the scholarly fields"},
+        "prior_sense": {"type": "string", "$comment": "'none-attested' is an answer, not a blank (SS11-A)"},
+        "modern_sense": {"type": "string"},
+        "conceptual_distance_note": {"type": "string"},
+        "semantic_domain": {"type": "string"},
+        "field_relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"enum": ["presupposes", "presupposed-by", "precondition-for", "material-source-of", "mechanism-behind", "tension-with", "associated-with"], "$comment": "associated-with added by CO-P2-13 (Mark, 2026-07-28): symmetric association for the chunks' own mutual Related-Terms cross-references - no hierarchy claimed"},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        },
+        "quick_meaning": {"type": "string", "$comment": "plain register - a reachability index card, never voice material (SS5.3 parroting guard)"},
+        "voice_surface": {"type": "string", "$comment": "only voice_surface and quick_meaning ever enter generation context (SS3.2)"},
+        "world_meaning": {"type": "string", "$comment": "Levels 2/3 and repository only - never per-turn generation payload"},
+        "distortion_risk": {"type": "string"},
+        "modern_hearing": {"type": "string"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"},
+        "contested_claim_ids": {"type": "array", "items": {"type": "string"}}
+      },
+      "unevaluatedProperties": false
+    },
+    "story": {
+      "$comment": "SS3.3 - the story record; tier justification is a required field shape, not prose.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "story"},
+        "chunk_slug": {"type": "string", "$comment": "clean-room rebuild (2026-08-14): the deployed chunk filename's slug half - the record's own retrieval-file identity, captured as data so the one generic chunk builder needs no deployed directory to name its files"},
+        "chunk_filename": {"type": "string", "$comment": "clean-room rebuild: full deployed chunk filename, for worlds whose naming convention is not <rid>_<slug> (HAL)"},
+        "chunk_related_line": {"type": "string", "$comment": "clean-room rebuild: the deployed chunk's verbatim Related-Terms line for worlds (PAHC, IJC) whose deployed lines carry partners the records cannot yet back (the declared S2.9 render-shortfall) - deployed state captured as record data"},
+        "title": {"type": "string"},
+        "narrative_tier": {
+          "type": "object",
+          "properties": {
+            "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+            "justification": {"type": "string", "minLength": 1}
+          },
+          "required": ["tier", "justification"],
+          "additionalProperties": false
+        },
+        "text": {"type": "string"},
+        "owner_figure_id": {"type": "string"},
+        "attested_occasion": {"type": "string"},
+        "tellable_as": {"enum": ["scene", "background-fact", "allusion-only"]},
+        "voice_surface": {"type": "string"},
+        "key_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py and the per-world chunk views - the chunk's rendered Key Line"},
+        "signature": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py ('Signature' front-matter line)"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"},
+        "confidence_line": {"type": "string", "$comment": "CO-P2-16 (Mark, 2026-07-28): the deployed story chunks' Confidence front-matter line, verbatim - LIVE metadata (story_retriever injects it into generation context); backfilled from the chunks, no record home existed"}, "gravity_links": {
+          "type": "array",
+          "$comment": "CO-P2-04 (Mark, 2026-07-27), resolving FLAG-004: typed story-to-gravity links; the note carries the Formation Ecology Connection prose the S2.4 migration dropped (its loss measurably regressed retrieval - DES-TH-05). First link's note holds the full FEC text verbatim; the chunk view renders the section from it.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "gravity_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["gravity_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "quote": {
+      "$comment": "SS3.4 - first-class quote record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "quote"},
+        "text_original": {"type": "string"},
+        "text_translation": {"type": "string"},
+        "translation_used": {"type": "string", "$comment": "source id of the translation edition"},
+        "locus": {"type": "string"},
+        "speaker_or_author": {"type": "string", "$comment": "figure id, not a name string"},
+        "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]}
+      },
+      "unevaluatedProperties": false
+    },
+    "gravity": {
+      "$comment": "SS3.5 - six-test verdicts as fields; not-advanced kept as required records; typed directional interaction[] with the Alexandria changes_to/at notation.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "gravity"},
+        "name": {"type": "string"},
+        "six_tests": {
+          "type": "object",
+          "$comment": "each test's verdict its own field (SS3.5); keys are Doc_04's own test names per CO-P2-02 (Mark, 2026-07-27) - previously test_1..test_6 with the name in a note",
+          "properties": {
+            "repetition": {"$ref": "#/$defs/six_test_cell"},
+            "dependency": {"$ref": "#/$defs/six_test_cell"},
+            "formation": {"$ref": "#/$defs/six_test_cell"},
+            "explanatory": {"$ref": "#/$defs/six_test_cell"},
+            "persistence": {"$ref": "#/$defs/six_test_cell"},
+            "interaction": {"$ref": "#/$defs/six_test_cell"}
+          },
+          "additionalProperties": false
+        },
+        "classification": {"enum": ["Primary", "Supporting", "Tensional", "not-advanced"]},
+        "confidence_crosscheck": {"type": "string"},
+        "capsule_name": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views - the gravity's short capsule display name"},
+        "capsule_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the one voiced capsule line preferred over formation_logic"},
+        "interaction": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"enum": ["reinforcing", "competing", "reshaping"]},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"},
+              "changes_to": {"enum": ["reinforcing", "competing", "reshaping"]},
+              "at": {"type": "string", "$comment": "the C->X type-change-over-time notation's 'when'"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "force": {
+      "$comment": "SS3.5 - six-cell position, three existing layers, plus Layer 4 (elaboration or explicit stasis).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "force"},
+        "name": {"type": "string"},
+        "six_cell_position": {"type": "string", "$comment": "the world's Doc_08 six-cell matrix position"},
+        "layer_historical_event": {"type": "string"},
+        "layer_worlds_own_experience": {"type": "string"},
+        "layer_formation_impact": {"type": "string"},
+        "layer4": {
+          "type": "object",
+          "$comment": "SS3.5 Layer 4: elaboration prose OR stasis: true as a valid, complete answer (Archer's cycle as documentation shape only)",
+          "properties": {
+            "elaboration": {"type": "string", "minLength": 1},
+            "stasis": {"const": true}
+          },
+          "anyOf": [{"required": ["elaboration"]}, {"required": ["stasis"]}],
+          "additionalProperties": false
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "$comment": "typed and directional; vocabulary per the world's Doc_08 practice, explicitly including 'world-response-reshapes' (SS3.5)"},
+              "target_id": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "required": ["type", "target_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "figure": {
+      "$comment": "SS3.6 - named persons; the grief-list defect becomes a query.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "figure"},
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "name_kind": {"enum": ["in-world", "scholarly"], "$comment": "emic/etic on the name itself"}
+            },
+            "required": ["name", "name_kind"],
+            "additionalProperties": false
+          }
+        },
+        "narratable": {"type": "boolean"},
+        "bridge_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by figure_registry.py (2026-08-09 name bridge) - the participant-facing one-sentence 'who this is'; only figures carrying it ship in figure_registry.json"},
+        "accepted_refusal_note": {"type": "string", "$comment": "CO-P2-07 (Mark, 2026-07-27): documents a deliberate decision that this prompt-named figure stays refusal-only (no story authored, the guard's refusal is the design); presence quiets the narratability gate by documented decision, not suppression"},
+        "story_ids": {"type": "array", "items": {"type": "string"}},
+        "attribution_note": {"type": "string"},
+        "dates": {
+          "type": "object",
+          "$comment": "T3-D (2026-08-15): the chronology slot this record type never had. Consumed by check_figure_chronology (Tier 2 Check A) via figure_registry.json. Until now the only place a figure's dates could live was inside a scholarly `names[].name` display string, which this type's unevaluatedProperties:false made the ONLY option rather than a choice - so Check A had to regex a year out of prose. That undercounts today: syriac's 'Jacob (Mar Yaqub) of Nisibis, bishop from c. 309' carries a real date the parenthetical-only regex cannot see. Optional, deliberately: 45 of 59 figures carry no year anywhere, and requiring this would fail them all. Coverage is mechanism_coverage's question (T3-B), not this schema's.",
+          "properties": {
+            "kind": {
+              "enum": ["life", "reign", "episcopate", "floruit", "work"],
+              "$comment": "WHAT the span measures, and load-bearing rather than descriptive: 5 of the 14 dated figures in the corpus carry an office, not a lifespan ('r. 306-337', 'bp. 440-461'), and one carries a TEXT's date, not the person's at all ('Paulinus of Milan (Vita Ambrosii, c. 412-413)'). A checker comparing a turn's 'when did they live' against an episcopate span would manufacture contradictions that are not there - which would make Check A worse than the regex it replaces, not better."
+            },
+            "display": {
+              "type": "string",
+              "minLength": 1,
+              "$comment": "The authoritative human form, and what the grounding judge is actually shown - 'd. 399/400', 'bishop from c. 309'. Required rather than derived from the integers below, because deriving it discards exactly the uncertainty the sources carry: '399/400' is two candidate years, not a range, and 'c. 368-418/419/420' is not reconstructible from any pair of ints."
+            },
+            "start_year": {"type": "integer"},
+            "end_year": {"type": "integer", "$comment": "start_year/end_year are OPTIONAL and are the machine-comparable form for future deterministic checks (e.g. a figure outside world_core.time_window). Many attestations are one-sided ('d. 384', 'bishop from c. 309') or ambiguous, so a record may carry display alone; nothing may assume both are present."},
+            "approximate": {"type": "boolean", "$comment": "the 'c.' - the years are the scholarly estimate, not a documented date"},
+            "note": {"type": "string"}
+          },
+          "required": ["kind", "display"],
+          "additionalProperties": false
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "contested_claim": {
+      "$comment": "SS3.7 - job 8's record.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "contested_claim"},
+        "claim": {"type": "string"},
+        "held_against": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "challenge": {"type": "string"},
+              "challenger": {"type": "string", "$comment": "by whom, in the record"},
+              "sources": {"type": "array", "items": {"$ref": "#/$defs/source_link"}}
+            },
+            "required": ["challenge"],
+            "additionalProperties": false
+          }
+        },
+        "concedes": {"type": "string", "$comment": "'our own record does not tell us' as data"},
+        "pressure_response": {"type": "string"},
+        "divergence_partners": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "world_id": {"type": "string"},
+              "note": {"type": "string", "$comment": "S2.6: mapped against the partner world's own documents"},
+              "partner_claim_id": {"type": "string", "$comment": "S6.3 enrichment: the partner's own contested_claim record, once it exists"}
+            },
+            "required": ["world_id"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "voice_profile": {
+      "$comment": "SS3.8 - one per world; SPEAKING model; TRAITS-style rubric with situation-conditioned intensities; paired avoid-vocabulary is rubric-level (negative constraints note).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "voice_profile"},
+        "speaking_model": {
+          "type": "object",
+          "properties": {
+            "setting": {"type": "string"}, "participants": {"type": "string"},
+            "ends": {"type": "string"}, "act_sequence": {"type": "string"},
+            "key": {"type": "string"}, "instrumentalities": {"type": "string"},
+            "norms": {"type": "string"}, "genre": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "trait_rubric": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "trait": {"type": "string"},
+              "description": {"type": "string"},
+              "intensities": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {"situation": {"type": "string"}, "intensity": {"type": "string"}},
+                  "required": ["situation", "intensity"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["trait"],
+            "additionalProperties": false
+          }
+        },
+        "avoid_traits": {"type": "array", "items": {"type": "string"}, "$comment": "SS3.8 negative constraints: paired trait vocabulary (traits we avoid) - author/reviewer instrument, never the safety-class categorical guards"},
+        "register_determination": {
+          "type": "object",
+          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"},
+            "mid_band_aim": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - documents the fleet mid-band reading-level rule (Mark, 2026-08-09) applied to this voice"}},
+          "additionalProperties": false
+        },
+        "native_measure": {
+          "type": "object",
+          "$comment": "schema catch-up (2026-08-14 audit): ceiling_words/ceiling_source/dead_zone_note/interview_ceiling_words are LIVE runtime fields (read per-turn via repair_classifier.ceiling_words_map and interview_ceiling_words_map); derivation/measured_baseline are measurement provenance",
+          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"},
+            "ceiling_words": {"type": "integer"},
+            "interview_ceiling_words": {"type": "integer"},
+            "ceiling_source": {"type": "string"},
+            "derivation": {"type": "string"},
+            "measured_baseline": {"type": "string"},
+            "dead_zone_note": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "failure_measure": {
+          "type": "object",
+          "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - the regression test behind this voice's measured failure mode",
+          "properties": {"axis": {"type": "string"}, "regression_test": {"type": "string"},
+            "source": {"type": "string"}, "note": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "reading_level_check": {"type": "string", "$comment": "inherits the reading floor from the engine parameters - a pointer, not a restatement (SS3.8)"},
+        "identity": {
+          "type": "object",
+          "$comment": "CO-P2-05 (Mark, 2026-07-27, Alternative A): the persona identity SS5.1's Identity segment assembles from - the prompt-coverage GAP closed",
+          "properties": {
+            "persona_name": {"type": "string"},
+            "role_label": {"type": "string"},
+            "identity_rationale_ref": {"type": "string", "$comment": "pointer to the identity decision record (project-lead decision), not a restatement"}
+          },
+          "required": ["persona_name", "role_label"],
+          "additionalProperties": false
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "demonstration": {
+      "$comment": "SS3.8 - calibration exchanges, {{random_user}} convention.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "demonstration"},
+        "dialogue": {"type": "string"},
+        "trait_scores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "trait": {"type": "string"},
+              "score": {"type": "string"},
+              "note": {"type": "string"},
+              "phase2_note": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): re-score provenance, no code consumer - the Phase 2 pass's re-scoring rationale, kept beside the score it revised"}
+            },
+            "required": ["trait", "score"],
+            "additionalProperties": false
+          }
+        },
+        "situation_tag": {"type": "string"},
+        "required": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/demonstrations.py - a required: true demonstration always ships in the prompt's demonstration segment regardless of rank"}
+      },
+      "unevaluatedProperties": false
+    },
+    "world_core": {
+      "$comment": "SS3.10 - one per world. pairing_guidance/cautions are BLUEPRINT-origin (S2.7a: the Facilitation Brief's human-judgment records, attached here the way SS3.11 attached the gloss list - Pass 1 SS4.5 requirement, schema home per S2.7a, not a silent addition).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "world_core"},
+        "time_window": {
+          "type": "object",
+          "properties": {
+            "start_year": {"type": "integer"},
+            "end_year": {"type": "integer"},
+            "note": {"type": "string"}
+          },
+          "required": ["start_year", "end_year"],
+          "additionalProperties": false
+        },
+        "horizon": {"type": "string"},
+        "formation_logic": {"type": "string"},
+        "capsule_inhabit": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the voiced 'inhabit' opening preferred over formation_logic"},
+        "gravities": {"type": "array", "items": {"type": "string"}},
+        "pairing_guidance": {
+          "type": "array",
+          "$comment": "blueprint S2.7a; each entry guidance + at least one evidence link (S2.7a's own gate)",
+          "items": {
+            "type": "object",
+            "properties": {
+              "guidance": {"type": "string"},
+              "evidence_links": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+            },
+            "required": ["guidance", "evidence_links"],
+            "additionalProperties": false
+          }
+        },
+        "cautions": {"type": "array", "items": {"type": "string"}, "$comment": "blueprint S2.7a"},
+        "living_traditions": {"type": "object", "$comment": "CO-P2-17 (Mark, 2026-07-28): the Living-Traditions distinction close (Article 35 mandatory vision section) - world-specific participant-facing text; the last prompt-coverage GAP closed", "properties": {"text": {"type": "string"}, "status": {"enum": ["provisional", "confirmed"]}, "review_flag": {"type": "string"}}, "required": ["text", "status"], "additionalProperties": false},
+        "telos": {
+          "type": "object",
+          "$comment": "CO-P2-05 (Mark, 2026-07-27, Alternative A: world-scoped): the Christ-Ward Telos, carrying Doc10 S5's provisional flag with it - the second prompt-coverage GAP closed",
+          "properties": {
+            "text": {"type": "string"},
+            "status": {"enum": ["provisional", "confirmed"]},
+            "review_flag": {"type": "string"}
+          },
+          "required": ["text", "status"],
+          "additionalProperties": false
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "ambient": {
+      "$comment": "Document-set redesign step 5 (2026-08-14): Native-Ambient's home - the material/social common life of the place (prices, food, travel, household, street, water, siege). By DESIGN this type has no owner_figure_id, no gravity_links, no story/figure link fields: the register may not anchor a gravity, carry a formation claim, or be attributed to a named person of this world, and unevaluatedProperties:false makes those links structurally impossible rather than merely forbidden. Every record cites Native sources; gate_field_completion requires the full set; the chunk view carries the common-life marking into retrieval.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "ambient"},
+        "title": {"type": "string", "minLength": 1},
+        "text": {"type": "string", "minLength": 1, "$comment": "the texture itself, written as the common life of the place - never on a named person's lips"},
+        "ambient_domain": {"enum": ["food-and-famine", "water-and-flood", "trade-and-travel", "household-and-family", "street-and-city", "language-and-school", "work-and-money", "war-and-frontier", "sickness-and-death", "calendar-and-festival"], "$comment": "coarse routing facet for coverage review, not a retrieval key"},
+        "period_note": {"type": "string", "$comment": "when within the world's window this texture holds, and any drift across it"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"}
+      },
+      "unevaluatedProperties": false
+    },
+    "craft": {
+      "$comment": "Clean-room rebuild (2026-08-14): one per world - the voice craft table as DATA. Each paragraph carries its prompt segment tag; claim_renders maps contested_claim ids to their voiced renders. This is what replaces six per-world assembler modules with one generic engine: the per-world part of a prompt is a record, not code.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "craft"},
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "para": {"type": "integer", "minimum": 1},
+              "segment": {"enum": ["identity_register", "world_ground", "contestation", "grounding_anchor", "quick_reach", "demonstrations", "categorical_guards"]},
+              "role": {"enum": ["open", "close"]},
+              "text": {"type": "string", "minLength": 1}
+            },
+            "required": ["para", "segment", "text"],
+            "additionalProperties": false
+          }
+        },
+        "claim_renders": {
+          "type": "object",
+          "additionalProperties": {"type": "string", "minLength": 1}
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "guided_starters": {
+      "$comment": "Document-set redesign step 2 (2026-08-14): one per world - the Guided Starters document, body verbatim in the record body (the canonical home; the starters builder parses it into the frontend JSON).",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "guided_starters"}
+      },
+      "unevaluatedProperties": false
+    },
+    "modern_term": {
+      "$comment": "SS3.11 - Facilitator-owned (world_id: facilitator), one per bridgeable modern term.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "modern_term"},
+        "term": {"type": "string"},
+        "display_terms": {"type": "array", "items": {"type": "string"}, "$comment": "carried forward unchanged - today's actual field name"},
+        "origin_year": {"type": "integer", "$comment": "carried forward unchanged - what _is_anachronistic compares against world_core.time_window"},
+        "modern_sense": {"type": "string", "$comment": "carried forward unchanged"},
+        "underlying_subject": {"type": "string", "$comment": "carried forward unchanged"},
+        "distinguishing_claim": {"type": "string", "$comment": "new (SS3.11): the field today's classifier never sees - SS9.4's structural fix"},
+        "native_subject_map": {
+          "type": "object",
+          "$comment": "new (SS3.11): per-world map of the underlying subject's native record",
+          "additionalProperties": {"type": "string"}
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "search_record": {
+      "$comment": "SS3.12 - one per world, STARLITE-shaped.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "search_record"},
+        "sampling_strategy": {"type": "string", "$comment": "declared purposive, not comprehensive - Booth's standard"},
+        "types_sought": {"type": "array", "items": {"type": "string"}},
+        "approaches": {"type": "object", "$comment": "derived from discovery_channel counts on the world's source records - a view, not new authoring", "additionalProperties": {"type": "integer"}},
+        "years_searched": {
+          "type": "object",
+          "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}},
+          "required": ["from", "to"],
+          "additionalProperties": false
+        },
+        "languages_searched": {"type": "array", "items": {"type": "string"}},
+        "inclusion_exclusions": {"type": "string"},
+        "terms_tried": {
+          "type": "array",
+          "$comment": "including terms that returned nothing - where the search record meets the Missing Voices duty",
+          "items": {
+            "type": "object",
+            "properties": {"term": {"type": "string"}, "productive": {"type": "boolean"}},
+            "required": ["term", "productive"],
+            "additionalProperties": false
+          }
+        },
+        "instruments": {"type": "array", "items": {"type": "string"}}
+      },
+      "unevaluatedProperties": false
+    }
+  }
+}

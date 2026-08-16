@@ -51,7 +51,7 @@
       "properties": {
         "id": {"type": "string", "minLength": 1},
         "world_id": {"type": "string", "minLength": 1, "$comment": "manifest key; 'facilitator' for Facilitator-owned assets"},
-        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record"]},
+        "record_type": {"enum": ["source", "term", "story", "quote", "gravity", "force", "figure", "contested_claim", "voice_profile", "demonstration", "world_core", "modern_term", "search_record", "guided_starters", "ambient"]},
         "jobs": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 8}},
         "register": {"enum": ["emic", "etic", "emic-unavailable"]},
         "confidence": {"$ref": "#/$defs/confidence"},
@@ -63,7 +63,8 @@
         "grounding_criterion": {"enum": ["low", "standard", "high"], "$comment": "derived by rule (SS3.0/SS6.4), never hand-tagged"},
         "review_state": {"enum": ["draft", "cleared-review", "approved-to-proceed", "frozen"]},
         "review_artifact": {"type": "string", "$comment": "SS3.0: a review that clears a record names the saved review artifact (CO-020)"},
-        "schema_version": {"type": "integer", "minimum": 1}
+        "schema_version": {"type": "integer", "minimum": 1},
+        "source_register": {"enum": ["native-constitutive", "native-ambient", "inherited", "comparandum-excluded"], "$comment": "Four-register framework (document-set redesign, 2026-08-14): which register governs what the voice may do with this record's content. Absent = native-constitutive (the historical default for everything migrated before the field existed) - do not mass-backfill. 'register' (emic/etic) is a different axis: insider-vs-outsider terminology, untouched. ambient records MUST carry native-ambient (gate_field_completion); inherited marks received Scripture spoken as our own with the inheritance visible."}
       },
       "required": ["id", "world_id", "record_type", "schema_version"]
     },
@@ -132,6 +133,7 @@
         "display_permitted": {"type": "boolean"},
         "source_type": {"enum": ["P", "S", "M", "L"], "$comment": "carried forward: Type"},
         "boundary_status": {"enum": ["Native", "Excluded"], "$comment": "carried forward"},
+        "in_world_record": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/grounding_anchor.py - false marks a source authored by this build (not a document the world produced), never named in the grounding anchor"},
         "exclusion_reason": {"enum": ["Out-of-Boundary", "Named Comparandum"], "$comment": "carried forward"},
         "comparandum_note": {"type": "string", "$comment": "carried forward"},
         "licensed_for": {"type": "string", "$comment": "carried forward - CiC's own contribution"},
@@ -199,6 +201,8 @@
         "attested_occasion": {"type": "string"},
         "tellable_as": {"enum": ["scene", "background-fact", "allusion-only"]},
         "voice_surface": {"type": "string"},
+        "key_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py and the per-world chunk views - the chunk's rendered Key Line"},
+        "signature": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by chunk_views.py ('Signature' front-matter line)"},
         "retrieval": {"$ref": "#/$defs/retrieval_block"},
         "confidence_line": {"type": "string", "$comment": "CO-P2-16 (Mark, 2026-07-28): the deployed story chunks' Confidence front-matter line, verbatim - LIVE metadata (story_retriever injects it into generation context); backfilled from the chunks, no record home existed"}, "gravity_links": {
           "type": "array",
@@ -251,6 +255,8 @@
         },
         "classification": {"enum": ["Primary", "Supporting", "Tensional", "not-advanced"]},
         "confidence_crosscheck": {"type": "string"},
+        "capsule_name": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views - the gravity's short capsule display name"},
+        "capsule_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the one voiced capsule line preferred over formation_logic"},
         "interaction": {
           "type": "array",
           "items": {
@@ -323,6 +329,7 @@
           }
         },
         "narratable": {"type": "boolean"},
+        "bridge_line": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by figure_registry.py (2026-08-09 name bridge) - the participant-facing one-sentence 'who this is'; only figures carrying it ship in figure_registry.json"},
         "accepted_refusal_note": {"type": "string", "$comment": "CO-P2-07 (Mark, 2026-07-27): documents a deliberate decision that this prompt-named figure stays refusal-only (no story authored, the guard's refusal is the design); presence quiets the narratability gate by documented decision, not suppression"},
         "story_ids": {"type": "array", "items": {"type": "string"}},
         "attribution_note": {"type": "string"}
@@ -405,12 +412,27 @@
         "avoid_traits": {"type": "array", "items": {"type": "string"}, "$comment": "SS3.8 negative constraints: paired trait vocabulary (traits we avoid) - author/reviewer instrument, never the safety-class categorical guards"},
         "register_determination": {
           "type": "object",
-          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"}},
+          "properties": {"register": {"type": "string"}, "evidence": {"type": "string"},
+            "mid_band_aim": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - documents the fleet mid-band reading-level rule (Mark, 2026-08-09) applied to this voice"}},
           "additionalProperties": false
         },
         "native_measure": {
           "type": "object",
-          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"}},
+          "$comment": "schema catch-up (2026-08-14 audit): ceiling_words/ceiling_source/dead_zone_note/interview_ceiling_words are LIVE runtime fields (read per-turn via repair_classifier.ceiling_words_map and interview_ceiling_words_map); derivation/measured_baseline are measurement provenance",
+          "properties": {"typical_words": {"type": "integer"}, "note": {"type": "string"},
+            "ceiling_words": {"type": "integer"},
+            "interview_ceiling_words": {"type": "integer"},
+            "ceiling_source": {"type": "string"},
+            "derivation": {"type": "string"},
+            "measured_baseline": {"type": "string"},
+            "dead_zone_note": {"type": "string"}},
+          "additionalProperties": false
+        },
+        "failure_measure": {
+          "type": "object",
+          "$comment": "schema catch-up (2026-08-14 audit): measurement provenance, no code consumer - the regression test behind this voice's measured failure mode",
+          "properties": {"axis": {"type": "string"}, "regression_test": {"type": "string"},
+            "source": {"type": "string"}, "note": {"type": "string"}},
           "additionalProperties": false
         },
         "reading_level_check": {"type": "string", "$comment": "inherits the floor from wrs/parameters.yaml reading_floor - a pointer, not a restatement (SS3.8)"},
@@ -441,13 +463,15 @@
             "properties": {
               "trait": {"type": "string"},
               "score": {"type": "string"},
-              "note": {"type": "string"}
+              "note": {"type": "string"},
+              "phase2_note": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): re-score provenance, no code consumer - the Phase 2 pass's re-scoring rationale, kept beside the score it revised"}
             },
             "required": ["trait", "score"],
             "additionalProperties": false
           }
         },
-        "situation_tag": {"type": "string"}
+        "situation_tag": {"type": "string"},
+        "required": {"type": "boolean", "$comment": "schema catch-up (2026-08-14 audit): consumed by segments/demonstrations.py - a required: true demonstration always ships in the prompt's demonstration segment regardless of rank"}
       },
       "unevaluatedProperties": false
     },
@@ -468,6 +492,7 @@
         },
         "horizon": {"type": "string"},
         "formation_logic": {"type": "string"},
+        "capsule_inhabit": {"type": "string", "$comment": "schema catch-up (2026-08-14 audit): consumed by the capsule prompt views (Phase 2, Yausep's pass 2026-08-08) - the voiced 'inhabit' opening preferred over formation_logic"},
         "gravities": {"type": "array", "items": {"type": "string"}},
         "pairing_guidance": {
           "type": "array",
@@ -495,6 +520,27 @@
           "required": ["text", "status"],
           "additionalProperties": false
         }
+      },
+      "unevaluatedProperties": false
+    },
+    "ambient": {
+      "$comment": "Document-set redesign step 5 (2026-08-14): Native-Ambient's home - the material/social common life of the place (prices, food, travel, household, street, water, siege). By DESIGN this type has no owner_figure_id, no gravity_links, no story/figure link fields: the register may not anchor a gravity, carry a formation claim, or be attributed to a named person of this world, and unevaluatedProperties:false makes those links structurally impossible rather than merely forbidden. Every record cites Native sources; gate_field_completion requires the full set; the chunk view carries the common-life marking into retrieval.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "ambient"},
+        "title": {"type": "string", "minLength": 1},
+        "text": {"type": "string", "minLength": 1, "$comment": "the texture itself, written as the common life of the place - never on a named person's lips"},
+        "ambient_domain": {"enum": ["food-and-famine", "water-and-flood", "trade-and-travel", "household-and-family", "street-and-city", "language-and-school", "work-and-money", "war-and-frontier", "sickness-and-death", "calendar-and-festival"], "$comment": "coarse routing facet for coverage review, not a retrieval key"},
+        "period_note": {"type": "string", "$comment": "when within the world's window this texture holds, and any drift across it"},
+        "retrieval": {"$ref": "#/$defs/retrieval_block"}
+      },
+      "unevaluatedProperties": false
+    },
+    "guided_starters": {
+      "$comment": "Document-set redesign step 2 (2026-08-14): one per world - the Guided Starters document, body verbatim in the record body (the canonical home; scripts/build_guided_starters_json.py parses it into the frontend JSON). Frees the last live World-Builds file dependency.",
+      "allOf": [{"$ref": "#/$defs/envelope"}],
+      "properties": {
+        "record_type": {"const": "guided_starters"}
       },
       "unevaluatedProperties": false
     },

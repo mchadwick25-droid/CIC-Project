@@ -1,0 +1,133 @@
+[
+ {
+  "figure_id": "alexfig001",
+  "display_name": "Origen",
+  "names": [
+   "Origen of Alexandria (Origenes Adamantius)",
+   "Origen"
+  ],
+  "bridge_line": "Our greatest teacher and reader of Scripture. Later ages argued over how far he went.",
+  "narratable": true,
+  "dates": {
+   "kind": "floruit",
+   "display": "peak Alexandrian activity c. 220s-230s",
+   "start_year": 220,
+   "end_year": 239,
+   "approximate": true,
+   "note": "In-build attestation (T3-E): alexforce1A3 places \"Origen's peak c. 220s-230s\" and alexforce3B1 dates the Origen-Demetrius conflict to c. 230s CE. Bounds his peak activity in THIS world, not his life - he outlived his Alexandrian period, and no birth or death date is attested in this build."
+  }
+ },
+ {
+  "figure_id": "alexfig002",
+  "display_name": "Clement",
+  "names": [
+   "Clement of Alexandria",
+   "Clement"
+  ],
+  "bridge_line": "An early teacher here who wrote for educated readers coming to the faith.",
+  "narratable": false,
+  "dates": {
+   "kind": "floruit",
+   "display": "Alexandrian activity c. 180s-202",
+   "start_year": 180,
+   "end_year": 202,
+   "approximate": true,
+   "note": "In-build attestation (T3-E): alexcore001's own time_window note fixes \"Clement's Alexandrian activity c. 180s-202 as the earliest richly-attested formation activity\", and alexforce1A3 has him arriving c. 180. Bounds his activity in this world, not his life."
+  }
+ },
+ {
+  "figure_id": "alexfig003",
+  "display_name": "Athanasius",
+  "names": [
+   "Athanasius of Alexandria",
+   "Athanasius"
+  ],
+  "bridge_line": "Bishop of Alexandria. He wrote the life of Antony.",
+  "narratable": true
+ },
+ {
+  "figure_id": "alexfig004",
+  "display_name": "Gregory",
+  "names": [
+   "Gregory Thaumaturgus (the Wonderworker)",
+   "Gregory Thaumaturgus",
+   "Gregory"
+  ],
+  "bridge_line": "A student who wrote a farewell speech describing how Origen taught.",
+  "narratable": true
+ },
+ {
+  "figure_id": "alexfig005",
+  "display_name": "Didymus",
+  "names": [
+   "Didymus the Blind",
+   "Didymus"
+  ],
+  "bridge_line": "A blind teacher here, known for holding whole books in memory.",
+  "narratable": true,
+  "dates": {
+   "kind": "life",
+   "display": "c. 313-398",
+   "start_year": 313,
+   "end_year": 398,
+   "approximate": true,
+   "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Encyclopaedia Britannica, \"Didymus the Blind\"), NOT verified against a primary edition. This build dates only Palladius's Lausiac History (c. 419-420, alexstory002), the source of its Didymus material, not Didymus himself. Scholar recheck required."
+  }
+ },
+ {
+  "figure_id": "alexfig006",
+  "display_name": "Palladius",
+  "names": [
+   "Palladius"
+  ],
+  "bridge_line": "A visitor from outside who wrote down what he saw of Egypt's teachers.",
+  "narratable": true
+ },
+ {
+  "figure_id": "alexfig007",
+  "display_name": "Demetrius",
+  "names": [
+   "Demetrius of Alexandria (bishop 189-232)",
+   "Demetrius"
+  ],
+  "bridge_line": "Bishop of Alexandria, who fell out with Origen and drove him from the city.",
+  "narratable": true
+ },
+ {
+  "figure_id": "alexfig008",
+  "display_name": "Pantaenus",
+  "names": [
+   "Pantaenus"
+  ],
+  "bridge_line": "The earliest teacher our school remembers by name. Only the name is kept.",
+  "narratable": false,
+  "dates": {
+   "kind": "floruit",
+   "display": "head of the Alexandrian school from c. 180, still living 193, died c. 200",
+   "start_year": 180,
+   "end_year": 200,
+   "approximate": true,
+   "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Catholic Encyclopedia, \"Pantaenus\", citing Eusebius Hist. eccl. V.x and Chron. Abr. 2210), NOT verified against those editions directly. alexcore001 calls him \"boundary-adjacent\" to this world's horizon but attests no dates for him, and this record's own bridge_line says only the name is kept. Scholar recheck required."
+  }
+ },
+ {
+  "figure_id": "alexfig009",
+  "display_name": "Mark",
+  "names": [
+   "Mark the Evangelist (foundation legend)",
+   "Mark"
+  ],
+  "bridge_line": "The evangelist our city claims as its founder. The claim is a later tradition.",
+  "narratable": true
+ },
+ {
+  "figure_id": "alexfig010",
+  "display_name": "Antony",
+  "names": [
+   "Antony of Egypt",
+   "Antony"
+  ],
+  "bridge_line": "The Egyptian monk whose life Athanasius wrote.",
+  "narratable": true
+ }
+]

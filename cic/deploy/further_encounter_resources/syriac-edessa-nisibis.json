@@ -1,0 +1,62 @@
+{
+  "world_id": "syriac-edessa-nisibis",
+  "world_offer_label": "the Syriac Christian world of Edessa and Nisibis",
+  "_comment": "Primary-text translations and secondary scholarship drawn from this world's own vetted Source Registry / Doc_02, curated for a participant who wants to go deeper after talking with this world's Representative.",
+  "resources": [
+    {
+      "resource_id": "mcvey-ephrem-hymns",
+      "title": "Ephrem the Syrian: Hymns",
+      "author": "Kathleen McVey (trans.)",
+      "publisher": "Paulist Press (Classics of Western Spirituality)",
+      "year": "1989",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "A translated selection of Ephrem's Hymns on the Nativity and Hymns on Virginity — direct access to the poetic, symbol-driven voice this world's own Representative speaks from.",
+      "topic_tags": ["ephrem", "primary-text", "hymns"]
+    },
+    {
+      "resource_id": "brock-hymns-on-paradise",
+      "title": "St. Ephrem the Syrian: Hymns on Paradise",
+      "author": "Sebastian Brock (trans.)",
+      "publisher": "St Vladimir's Seminary Press",
+      "year": "1990",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "A complete translation of Ephrem's fifteen Hymns on Paradise, composed at Nisibis — one of the richest single works for encountering his symbolic theology directly.",
+      "topic_tags": ["ephrem", "primary-text", "paradise", "nisibis"]
+    },
+    {
+      "resource_id": "brock-luminous-eye",
+      "title": "The Luminous Eye: The Spiritual World Vision of Saint Ephrem the Syrian",
+      "author": "Sebastian Brock",
+      "publisher": "Cistercian Publications",
+      "year": "1992",
+      "type": "survey",
+      "locator": "",
+      "note": "The most accessible introduction to how Ephrem's Syriac tradition thinks in symbol (raza) rather than philosophical category — a genuinely different theological idiom from the Greek and Latin worlds at this table.",
+      "topic_tags": ["ephrem", "symbolic-theology", "overview"]
+    },
+    {
+      "resource_id": "lehto-demonstrations-aphrahat",
+      "title": "The Demonstrations of Aphrahat, the Persian Sage",
+      "author": "Adam Lehto (trans.)",
+      "publisher": "Gorgias Press",
+      "year": "2010",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "The standard complete modern translation of Aphrahat's twenty-three Demonstrations, this world's other great fourth-century voice, writing from the Persian side under Shapur II's persecution.",
+      "topic_tags": ["aphrahat", "primary-text", "persia"]
+    },
+    {
+      "resource_id": "murray-symbols-church-kingdom",
+      "title": "Symbols of Church and Kingdom: A Study in Early Syriac Tradition",
+      "author": "Robert Murray",
+      "publisher": "Cambridge University Press",
+      "year": "1975",
+      "type": "monograph",
+      "locator": "",
+      "note": "The foundational study of the distinctive images and symbols (the Church as bride, Christ as physician, Paradise as regained garden) running through this whole tradition.",
+      "topic_tags": ["symbolic-theology", "overview"]
+    }
+  ]
+}

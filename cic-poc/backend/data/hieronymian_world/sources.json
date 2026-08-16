@@ -20,6 +20,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "1",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -47,6 +50,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "2",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -74,6 +80,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "3",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -101,6 +110,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "4",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -128,6 +140,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "5",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -155,6 +170,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "6",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -182,6 +200,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "7",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -209,6 +230,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "8",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -236,6 +260,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "9",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -263,6 +290,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "10",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -290,6 +320,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "11",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -317,6 +350,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "12",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -344,6 +380,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "13",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -371,6 +410,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "14",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -398,6 +440,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "15",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -425,6 +470,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "16",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -452,6 +500,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "17",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -479,6 +530,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "18",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -506,6 +560,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "19",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -533,6 +590,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "20",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -560,6 +620,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "21",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -587,6 +650,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "22",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "builder-prior-knowledge",
         "instrument": null,
@@ -614,6 +680,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "23",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "backward-snowball",
         "instrument": "S2.1a deployed-chunk Key-Sources sweep (all 27 HAL chunks: 15 lexicon Key Sources sections + 12 story Source lines, diffed against the S2.1 rows; wrs/migrate/s62_hal_sweep.py)",
@@ -641,6 +710,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "24",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S6.2/HAL pre-freeze re-sweep (2026-07-31): the S2.1b relative-recall/PRESS routings executed (wrs/migrate/s62_hal_resweep.py) - channel note: the S2.1b PRESS review supplied the naming (reviewer-supplied is the enum home for a review-instrument recall)",
@@ -668,6 +740,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "25",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S6.2/HAL pre-freeze re-sweep (2026-07-31): the S2.1b relative-recall/PRESS routings executed (wrs/migrate/s62_hal_resweep.py) - channel note: the S2.1b PRESS review supplied the naming (reviewer-supplied is the enum home for a review-instrument recall)",
@@ -695,6 +770,9 @@
       "external_ids": [],
       "transmission_path": null,
       "field_state": null,
+      "registry_row": "26",
+      "confidence": null,
+      "boundary_status": "Native",
       "discovery": {
         "channel": "reviewer-supplied",
         "instrument": "S6.2/HAL pre-freeze re-sweep (2026-07-31): the S2.1b relative-recall/PRESS routings executed (wrs/migrate/s62_hal_resweep.py) - channel note: the S2.1b PRESS review supplied the naming (reviewer-supplied is the enum home for a review-instrument recall)",

@@ -36,7 +36,17 @@ retrieval:
   - condition_type: sense-disambiguation
     text: participant has not raised memra specifically and madrasha alone answers the question.
   force_llm_vote: false
-sources: []
+sources:
+- source_id: srcSYR055
+  author_gravity_note: 'Sebastian Brock, "Ephrem and the Syriac Tradition," in *The Cambridge History
+    of Early Christian Literature* (2004). Licenses this record''s own "per Brock" authenticity claim:
+    the six memre "On Faith" and the Nicomedia memra definitely Ephrem''s, a few others probably or
+    less certainly genuine (period_sense and world_meaning already state this; the source line was
+    missing, not the source - gap closed 2026-08-14, redesign execution step 4).'
+- source_id: srcSYR045
+  author_gravity_note: 'Jacob of Serugh, Metrical Homily on Holy Mar Ephrem (memra, c. 500 CE). The
+    attested post-410 crystallization of the developed verse-homily genre that sense_evolution names -
+    evidence FOR the record''s "not yet a named genre in our window" boundary, not for in-window usage.'
 original_script: ܡܐܡܪܐ
 period_sense: 'Within this world''s own 200-410 window, a small, narrowly authenticated set of verse compositions
   by Ephrem in couplets and single syllabic meter (per Brock: the six memre ''On Faith'' and the Nicomedia

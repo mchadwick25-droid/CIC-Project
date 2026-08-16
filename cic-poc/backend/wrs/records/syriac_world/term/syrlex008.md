@@ -33,7 +33,14 @@ retrieval:
     text: participant is asking about a specific bishop's formal office or title of authority rather than
       the honorific prefix itself (see Catholicos entry for office-title anachronism risk).
   force_llm_vote: false
-sources: []
+sources:
+- source_id: srcSYR010
+  author_gravity_note: 'Aphrahat, Demonstrations (ed. Parisot, PS I/1-2). Licenses the record''s one
+    concrete attestation: the 510 CE colophon of the Demonstrations'' own manuscript tradition calling
+    Aphrahat "Mar Jacob, the Persian sage" (quick_meaning already states this; the source line was
+    missing, not the source - gap closed 2026-08-14, redesign execution step 4). The broader
+    "broadly attested honorific" claim rides the corpus-wide emic usage, and the distortion_risk
+    caution (no confirmed "Mar Ephrem" within the window) stands unchanged.'
 original_script: ܡܪܝ
 period_sense: An honorific title-prefix, 'my lord,' used across Syriac Christianity for bishops, saints,
   and revered teachers (roughly parallel to 'Saint') - broadly attested for this world, but NOT confirmed
@@ -57,7 +64,12 @@ confidence:
   verification_date: '2026-07-28'
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-field_relations: []
+field_relations:
+- type: associated-with
+  target_id: syrlex009
+  note: 'Same semantic field of leadership address: Mar is the living honorific prefix; Catholicos
+    the later office-title laid back over the same Persian church leadership. Symmetric mirror of
+    syrlex009''s edge (gap closed 2026-08-14, redesign execution step 4).'
 ---
 Migrated at the S6.2/SYR S2.2-equivalent (2026-07-28) from `data/syriac_world/lexicon_chunks/syrlex008_mar.md` (mechanical split; mapping in `wrs/migrate/s62_syr_chunk_split.py`). Related-Terms and new-authoring fields arrive at the S2.3-equivalent.
 

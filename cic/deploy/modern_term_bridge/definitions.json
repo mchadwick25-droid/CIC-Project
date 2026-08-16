@@ -1,0 +1,186 @@
+{
+  "_comment": "GENERATED VIEW (S4.5) - do not hand-edit. Source of truth: wrs/records/facilitator/modern_term/ (Pass 1 SS3.11; regenerate with wrs/views/modern_term_definitions.py). World-AGNOSTIC modern-term dictionary for the anachronism bridge. The Facilitator SPEAKS modern_sense; the Representative is handed only underlying_subject (term-free) - or, per SS6.6, answers the term natively when the term is inside its own world's window. Whether the bridge fires is derived per seated world: origin_year vs world_core.time_window.end_year (migrated worlds) or the manifest period's parsed end year (unmigrated - compatibility classification). period_originated / contested_today are FLAG-009-parked fields read from the records' body parking.",
+  "terms": [
+    {
+      "term_id": "penal-substitution-atonement",
+      "display_terms": [
+        "substitutionary atonement",
+        "penal substitution",
+        "penal substitutionary atonement",
+        "Christ took our punishment",
+        "he died in our place for our sins"
+      ],
+      "modern_sense": "the idea, held especially in Reformed and evangelical Protestant traditions, that on the cross Christ bore in the sinner's place the punishment their sins deserved, satisfying the justice of God, so that those who trust him are counted right with God",
+      "period_originated": "the Reformation, sixteenth century (the substitution idea is older; this systematized penal form is not)",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "what the death of Christ accomplished - what it secured, and how your world spoke of it",
+      "distinguishing_claim": "Atonement framed as punishment-transfer: Christ bore, in the sinner's place, the penalty God's justice required. The distinguishing move is the penal-substitution mechanism itself, not the universal conviction that Christ's death saves.",
+      "native_subject_map": {},
+      "_record_id": "facmt001"
+    },
+    {
+      "term_id": "personal-relationship-with-jesus",
+      "display_terms": [
+        "a personal relationship with Jesus",
+        "know Jesus personally",
+        "personal relationship with God",
+        "is Jesus your personal Lord and Savior"
+      ],
+      "modern_sense": "the way much of modern evangelical Christianity speaks of faith as an individual, personal relationship with Jesus that one has and grows in",
+      "period_originated": "eighteenth-to-twentieth-century revivalism",
+      "origin_year": 1740,
+      "contested_today": false,
+      "underlying_subject": "what it meant to belong to Christ, and the shape of a life given to him",
+      "distinguishing_claim": "Faith framed as an individual's own one-to-one personal relationship with Jesus that one has and cultivates. The distinguishing move is the individualized relationship frame, not the universal language of belonging to Christ.",
+      "native_subject_map": {
+        "desert-monasticism": "desertlex002"
+      },
+      "_record_id": "facmt002"
+    },
+    {
+      "term_id": "sola-fide",
+      "display_terms": [
+        "sola fide",
+        "faith alone",
+        "justification by faith alone",
+        "saved by faith not works"
+      ],
+      "modern_sense": "the Reformation principle that a person is put right with God through faith alone, not by anything they do",
+      "period_originated": "the Reformation, sixteenth century",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "how a person came to be, and to stay, right with God - the place of faith and of what one does",
+      "distinguishing_claim": "Faith ALONE, explicitly excluding what one does: the faith-versus-works opposition itself ('alone', 'not by works'). The distinguishing move is the exclusion, not the universal subject of faith.",
+      "native_subject_map": {
+        "desert-monasticism": "desertlex018"
+      },
+      "_record_id": "facmt003"
+    },
+    {
+      "term_id": "sola-scriptura",
+      "display_terms": [
+        "sola scriptura",
+        "Scripture alone",
+        "the Bible is the only authority",
+        "the Bible alone"
+      ],
+      "modern_sense": "the Reformation principle that Scripture alone is the final authority for faith, above church tradition and church office",
+      "period_originated": "the Reformation, sixteenth century",
+      "origin_year": 1517,
+      "contested_today": true,
+      "underlying_subject": "where authority rested when something had to be settled - Scripture, tradition, a teacher, or an office",
+      "distinguishing_claim": "Scripture ALONE as final authority, explicitly above or against church tradition and office. The distinguishing move is the exclusive-authority claim, not the universal reverence for Scripture.",
+      "native_subject_map": {
+        "desert-monasticism": "desertclaim003"
+      },
+      "_record_id": "facmt004"
+    },
+    {
+      "term_id": "the-trinity-technical",
+      "display_terms": [
+        "the Trinity",
+        "one substance three persons",
+        "homoousios",
+        "the doctrine of the Trinity",
+        "three persons one God"
+      ],
+      "modern_sense": "the classical doctrine that the one God is Father, Son, and Holy Spirit - three who are each fully God, yet one God, not three - worked out in the precise technical language of the fourth-century councils",
+      "period_originated": "the fourth-century councils (Nicaea 325, Constantinople 381)",
+      "origin_year": 325,
+      "contested_today": false,
+      "underlying_subject": "how the Father, the Son, and the Spirit were spoken of and held together",
+      "distinguishing_claim": "The conciliar technical formula - one substance (ousia), three persons, homoousios. The distinguishing move is the fourth-century metaphysical vocabulary, not merely speaking of Father, Son, and Holy Spirit together.",
+      "native_subject_map": {},
+      "_record_id": "facmt005"
+    },
+    {
+      "term_id": "original-sin-developed",
+      "display_terms": [
+        "original sin",
+        "born sinful",
+        "inherited guilt",
+        "the fall",
+        "fallen nature"
+      ],
+      "modern_sense": "the developed doctrine that all people inherit from Adam a fallen nature - and, in its harder forms, inherited guilt - so that they are born in sin and need grace to be restored",
+      "period_originated": "fourth-to-fifth century (Augustine), hardened later",
+      "origin_year": 410,
+      "contested_today": true,
+      "underlying_subject": "the roots and reach of sin in a person - whether it is inherited or chosen, and what it takes to be freed of it",
+      "distinguishing_claim": "Sin INHERITED from Adam as a fallen nature - and, in the harder forms, inherited guilt - that one is born with. The distinguishing move is the inheritance doctrine, not the universal observation that all people sin.",
+      "native_subject_map": {
+        "desert-monasticism": "desertlex004"
+      },
+      "_record_id": "facmt006"
+    },
+    {
+      "term_id": "transubstantiation",
+      "display_terms": [
+        "transubstantiation",
+        "the bread becomes the actual body",
+        "real presence in the Eucharist"
+      ],
+      "modern_sense": "the teaching that in Communion the bread and wine truly become, in their inner reality, the body and blood of Christ, even while they still look and taste like bread and wine",
+      "period_originated": "the high Middle Ages (term and metaphysics, Lateran IV 1215)",
+      "origin_year": 1215,
+      "contested_today": true,
+      "underlying_subject": "what your world understood the bread and the cup of the shared meal to be",
+      "distinguishing_claim": "The bread and wine's inner reality CHANGES into the body and blood while the appearances remain - the change-of-substance metaphysics. The distinguishing move is that mechanism, not the universal conviction that the meal is holy or that Christ is present in it.",
+      "native_subject_map": {
+        "desert-monasticism": "desertlex015"
+      },
+      "_record_id": "facmt007"
+    },
+    {
+      "term_id": "born-again",
+      "display_terms": [
+        "born again",
+        "born-again Christian",
+        "have you been born again"
+      ],
+      "modern_sense": "in modern revivalist Christianity, an identity marking a person who has undergone a conscious conversion to personal faith in Christ",
+      "period_originated": "eighteenth-to-twentieth-century revivalism (the phrase itself is ancient)",
+      "origin_year": 1740,
+      "contested_today": false,
+      "underlying_subject": "what changed for a person when they came to faith, and how that change showed in their life",
+      "distinguishing_claim": "'Born again' as a conversion-identity label: a datable personal conversion event that marks one a born-again Christian. The distinguishing move is the identity-marker usage, not the ancient rebirth language itself (John 3 belongs to every era).",
+      "native_subject_map": {
+        "desert-monasticism": "desertlex001"
+      },
+      "_record_id": "facmt008"
+    },
+    {
+      "term_id": "the-rapture",
+      "display_terms": [
+        "the Rapture",
+        "the secret rapture",
+        "caught up before the tribulation",
+        "left behind"
+      ],
+      "modern_sense": "in dispensationalist theology, the belief that believers will be suddenly caught up to meet Christ before a final period of tribulation on earth",
+      "period_originated": "the nineteenth century (Darby; Scofield, 1909)",
+      "origin_year": 1830,
+      "contested_today": true,
+      "underlying_subject": "how the end of things and Christ's return were understood, if your world spoke of them at all",
+      "distinguishing_claim": "Believers caught up to Christ BEFORE a final tribulation - the two-stage, secret-return schema. The distinguishing move is that schema, not the universal expectation that Christ will return.",
+      "native_subject_map": {},
+      "_record_id": "facmt009"
+    },
+    {
+      "term_id": "purgatory",
+      "display_terms": [
+        "purgatory",
+        "a state of purification after death"
+      ],
+      "modern_sense": "the doctrine of a state of purification after death for those destined for heaven but not yet fully cleansed",
+      "period_originated": "defined in the high-to-late Middle Ages (Lyons 1274, Florence, Trent)",
+      "origin_year": 1274,
+      "contested_today": true,
+      "underlying_subject": "what your world understood to happen to a person after death",
+      "distinguishing_claim": "A defined intermediate STATE of purification after death for the saved-but-not-yet-cleansed. The distinguishing move is the doctrine of that state, not the older practices of praying for the dead or hoping mercy reaches them.",
+      "native_subject_map": {},
+      "_record_id": "facmt010"
+    }
+  ]
+}

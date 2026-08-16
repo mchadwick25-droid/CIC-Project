@@ -51,6 +51,49 @@ jobs:
       - run: pip install pyyaml textstat
       - run: python wrs/views/repository.py --check
 
+  clean-tree-checks:
+    # Added 2026-08-15 (Tier 3, T3-C). Until now the cic/ tree had NO CI at
+    # all - every job above runs against cic-poc/. The clean tree is where
+    # the records, the engine and the runtime actually live, and its three
+    # exit-code-returning checks (schema validation, old-tree isolation, the
+    # gate battery) had to be remembered by hand. Nothing ran them.
+    #
+    # The gate step is a RATCHET, not a floor. The six worlds carry ~193
+    # pre-existing violations; failing on any violation would be red on the
+    # first run and every run after, and a permanently-red check is one
+    # people learn to ignore. --check fails only when a gate rises above its
+    # committed per-world baseline (cic/engine/gate_baseline.json), or when a
+    # world has no baseline at all. Existing violations stay visible and do
+    # not block; new ones cannot land silently.
+    #
+    # Advisory findings (mechanism_coverage, per Mark's 2026-08-15 decision;
+    # readability, per Mark's 2026-08-16 decision) are excluded by
+    # construction and can never fail this job - verified by taking a
+    # world's last quote record away and confirming the job stays green
+    # while the coverage report shows the loss.
+    name: Clean tree (schema + isolation + gate ratchet)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # jsonschema for validate.py's per-type validation, pyyaml for
+      # front-matter parsing. textstat is now required (2026-08-16, T3
+      # follow-on): gate_voice_readability is wired into GATES and calls
+      # readability_check, which hard-fails on import if textstat is
+      # missing rather than silently reporting a false pass - the same
+      # discipline repository-views-current already follows above.
+      - run: pip install pyyaml jsonschema textstat
+      - run: python cic/engine/validate.py
+      - run: python cic/checks/isolation.py
+      # Proves each gate still passes a clean fixture and fails its seeded
+      # defects - and that every gate HAS fixtures. Runs before --check
+      # deliberately: a green ratchet means nothing if the gates behind it
+      # have quietly stopped firing.
+      - run: python cic/engine/run_gates.py --selftest
+      - run: python cic/engine/run_gates.py --check
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest

@@ -108,6 +108,9 @@ def load_records(records_root: Path, subdir: str) -> dict[str, dict]:
 RECORD_SUBDIRS = (
     "term", "story", "quote", "figure", "gravity", "force",
     "contested_claim", "source", "world_core",
+    # Native-Ambient (redesign step 6, 2026-08-14): the common-life records
+    # are participant-browsable evidence like everything else here
+    "ambient",
 )
 
 WITHHELD_MARKER = (
@@ -335,6 +338,15 @@ def build_sources_json(world_id: str, records_root: Path) -> dict:
             "external_ids": s.get("external_ids") or [],
             "transmission_path": s.get("transmission_path"),
             "field_state": s.get("field_state"),
+            # Redesign step 6 (2026-08-14): the three fields the runtime
+            # citation resolver needs, so this view can absorb
+            # source_registry.json (whose 53 frozen rows had already fallen
+            # behind the record set - registry references #54+ silently
+            # failed to resolve). registry_row is the numeric alias those
+            # inline "(Source Registry #N)" citations use.
+            "registry_row": "".join(c for c in sid if c.isdigit()).lstrip("0"),
+            "confidence": (s.get("confidence") or {}).get("citation_specificity"),
+            "boundary_status": s.get("boundary_status"),
             "discovery": {
                 "channel": s.get("discovery_channel"),
                 "instrument": s.get("discovery_instrument"),

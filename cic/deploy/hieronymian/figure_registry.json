@@ -1,0 +1,93 @@
+[
+ {
+  "figure_id": "halfig001",
+  "display_name": "the scholar among us (as this household's chunks speak of him)",
+  "names": [
+   "the scholar among us (as this household's chunks speak of him)",
+   "Jerome of Stridon (Hieronymus)",
+   "Jerome"
+  ],
+  "bridge_line": "The scholar of this household. Nearly everything we have survives in his own voice.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig002",
+  "display_name": "Paula",
+  "names": [
+   "Paula of Rome (347-404)",
+   "Paula"
+  ],
+  "bridge_line": "A wealthy Roman widow who founded and paid for the houses at Bethlehem.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig003",
+  "display_name": "Marcella",
+  "names": [
+   "Marcella of Rome (d. 410/411)",
+   "Marcella"
+  ],
+  "bridge_line": "A Roman widow whose house became a centre of study. Clergy brought her their questions.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig004",
+  "display_name": "Eustochium",
+  "names": [
+   "Julia Eustochium (c. 368-418/419/420)",
+   "Julia Eustochium",
+   "Eustochium"
+  ],
+  "bridge_line": "Paula's daughter, who took a vow of virginity and went with her to Bethlehem.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig005",
+  "display_name": "Blaesilla",
+  "names": [
+   "Blaesilla of Rome (d. 384)",
+   "Blaesilla"
+  ],
+  "bridge_line": "Paula's elder daughter, who died after severe fasting. Rome blamed her teacher.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig006",
+  "display_name": "Augustine, the bishop in Africa",
+  "names": [
+   "Augustine, the bishop in Africa",
+   "Augustine of Hippo",
+   "Augustine"
+  ],
+  "bridge_line": "A bishop in Africa, outside this household. His own letters survive.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig007",
+  "display_name": "Rufinus, the friend who became an opponent",
+  "names": [
+   "Rufinus, the friend who became an opponent",
+   "Rufinus of Aquileia",
+   "Rufinus"
+  ],
+  "bridge_line": "A friend who became an opponent. His side of the quarrel survives in his own words.",
+  "narratable": true
+ },
+ {
+  "figure_id": "halfig008",
+  "display_name": "Fabiola",
+  "names": [
+   "Fabiola of Rome (d. 399/400)",
+   "Fabiola"
+  ],
+  "bridge_line": "A Roman woman of this circle who founded a hospital for the sick poor.",
+  "narratable": false,
+  "dates": {
+   "kind": "life",
+   "display": "d. 399/400",
+   "end_year": 400,
+   "approximate": false,
+   "note": "Death in 399 or 400; the sources do not settle between them, so `display` is authoritative and end_year records the later candidate only as a machine-comparable bound - the more permissive one for any \"was she alive in year X\" question."
+  }
+ }
+]

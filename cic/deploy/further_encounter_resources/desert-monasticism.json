@@ -1,0 +1,73 @@
+{
+  "world_id": "desert-monasticism",
+  "world_offer_label": "the world of Egyptian desert monasticism — Antony, the Pachomian communities, and the desert elders",
+  "_comment": "Primary-text translations and secondary scholarship drawn from this world's own vetted Source Registry (Doc_02), curated for a participant who wants to go deeper after talking with this world's Representative.",
+  "resources": [
+    {
+      "resource_id": "ward-sayings-desert-fathers",
+      "title": "The Sayings of the Desert Fathers: The Alphabetical Collection",
+      "author": "Benedicta Ward (trans.)",
+      "publisher": "Cistercian Publications",
+      "year": "1984",
+      "type": "primary-text-translation",
+      "locator": "ISBN 9780879079598",
+      "note": "The standard English translation of the Apophthegmata Patrum — this world's single most widely read primary corpus, and the terse elder-to-disciple sayings the Representative's own voice draws on most directly.",
+      "topic_tags": ["apophthegmata", "primary-text", "elders"]
+    },
+    {
+      "resource_id": "gregg-life-of-antony",
+      "title": "Athanasius: The Life of Antony and The Letter to Marcellinus",
+      "author": "Robert C. Gregg (trans.)",
+      "publisher": "Paulist Press (Classics of Western Spirituality)",
+      "year": "1980",
+      "type": "primary-text-translation",
+      "locator": "",
+      "note": "The founding text of this world's international reputation — the account of Antony's withdrawal that made the desert tradition known to Jerome, Augustine, and the whole later monastic movement.",
+      "topic_tags": ["antony", "primary-text", "hagiography"]
+    },
+    {
+      "resource_id": "brakke-athanasius-asceticism",
+      "title": "Athanasius and Asceticism",
+      "author": "David Brakke",
+      "publisher": "Johns Hopkins University Press",
+      "year": "1998",
+      "type": "monograph",
+      "locator": "",
+      "note": "A critical look at how Athanasius shaped the Life of Antony to serve his own contested claim to Alexandrian church authority — useful context for reading that founding text less naively.",
+      "topic_tags": ["antony", "athanasius", "author-gravity"]
+    },
+    {
+      "resource_id": "rubenson-letters-of-antony",
+      "title": "The Letters of St. Antony: Monasticism and the Making of a Saint",
+      "author": "Samuel Rubenson",
+      "publisher": "Fortress Press",
+      "year": "1995",
+      "type": "monograph",
+      "locator": "",
+      "note": "Argues, from the seven letters attributed to Antony himself, that he was a literate, philosophically formed thinker — a genuine complication of the 'unlettered rustic' image most readers bring to him.",
+      "topic_tags": ["antony", "letters", "literacy"]
+    },
+    {
+      "resource_id": "burton-christie-word-in-the-desert",
+      "title": "The Word in the Desert: Scripture and the Quest for Holiness in Early Christian Monasticism",
+      "author": "Douglas Burton-Christie",
+      "publisher": "Oxford University Press",
+      "year": "1993",
+      "type": "monograph",
+      "locator": "",
+      "note": "A study of how the desert elders actually used and taught Scripture — a good next step for anyone struck by how the Representative handles a biblical text.",
+      "topic_tags": ["scripture", "teaching", "formation"]
+    },
+    {
+      "resource_id": "rousseau-pachomius",
+      "title": "Pachomius: The Making of a Community in Fourth-Century Egypt",
+      "author": "Philip Rousseau",
+      "publisher": "University of California Press",
+      "year": "1985",
+      "type": "monograph",
+      "locator": "",
+      "note": "The standard critical study of the communal (cenobitic) side of this world — for a participant curious about the organized monastery life alongside the solitary hermits.",
+      "topic_tags": ["pachomius", "cenobitic", "community"]
+    }
+  ]
+}
