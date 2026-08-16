@@ -102,9 +102,9 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <header style="display:flex;flex-direction:column;gap:1.1rem">
   <div class="eyebrow">Church in Conversation · Independent cost &amp; architecture review</div>
   <h1>Where the money actually goes</h1>
-  <p class="lede">A fresh pass over <code>cic/</code>, now settled by measurement rather than modelling. Forty-eight turns of real traffic ran through the real app on 16 August. A turn costs <strong>$0.03103</strong> — measured, against a reported figure that was roughly double. What an <em>hour</em> costs depends on how fast people talk, and that is the one thing still unmeasured: $0.372 at the twelve-turns-an-hour this project has always assumed, $0.93 at thirty.</p>
+  <p class="lede">A fresh pass over <code>cic/</code>, now settled by measurement rather than modelling. Forty-eight turns of real traffic ran through the real app on 16 August. A turn costs <strong>$0.03103</strong> — measured, against a reported figure that was roughly double. What an <em>hour</em> costs depends on how fast people talk, and that is the one thing still unmeasured: $0.372 at the twelve-turns-an-hour this project has always assumed, $0.93 at thirty. Every cheap lever has now been built and measured rather than argued about, and two of them were rejected by their own evidence — so <strong>$0.30/hour is out of reach at this pace whatever gets cut</strong>, and the most consequential finding turned out not to be a cost one at all.</p>
   <div class="meta">
-    <span>16 August 2026 · second revision</span><span>Scope: <code>cic/records</code>, <code>cic/engine</code>, <code>cic/runtime/app</code></span><span>Single-voice mode</span><span>Branch <code>claude/cic-cost-architecture-review-6j5et0</code></span>
+    <span>16 August 2026 · third revision</span><span>Scope: <code>cic/records</code>, <code>cic/engine</code>, <code>cic/runtime/app</code></span><span>Single-voice mode</span><span>Branch <code>claude/cic-cost-architecture-review-6j5et0</code></span>
   </div>
 </header>
 
@@ -367,6 +367,9 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
         <tr><td>D · Retire the groundedness shadow checks</td><td class="n">$216</td><td class="n">$143</td><td class="wrap-ok">Off-switch and a review date shipped instead of deletion</td></tr>
         <tr><td>E · Classifier consolidation</td><td class="n">$221</td><td class="n">$90</td><td class="wrap-ok">Audited and rejected — the saving did not justify the coupling</td></tr>
         <tr><td>B · Gate design</td><td class="n">$384</td><td class="n">~$0</td><td class="wrap-ok">Rejected. I proposed it and it was wrong; the code does not work the way the proposal assumed</td></tr>
+        <tr><td>B′ · Narrow the transcript window for the safety classifier only</td><td class="n">—</td><td class="n">$69</td><td class="wrap-ok">Shipped, with a gate (<code>cic/checks/transcript_window.py</code>) that fails if a second caller ever narrows it</td></tr>
+        <tr><td>C′ · Fold the screen into the adjudicator</td><td class="n">$141</td><td class="n">$117</td><td class="wrap-ok">Built, A/B'd over 56 turns × 3 draws, <strong>rejected</strong> — the screen's value is blindness, not filtering</td></tr>
+        <tr><td>G · Pin the monitoring temperature</td><td class="n">—</td><td class="n">$0</td><td class="wrap-ok">Shipped. No cost effect; it made the short classifiers deterministic, which is how the long one was caught</td></tr>
       </tbody>
     </table>
   </div>
@@ -391,6 +394,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <h2>What I could not verify</h2>
   <ul>
     <li><strong>The traffic sample covers two of six worlds</strong> and twelve fixed newcomer questions. Real participants vary more; both the fire rate and the per-turn cost could move on the other four.</li>
+    <li><strong>The 82% fire rate and 28% confirm rate are single draws of a process now measured unstable.</strong> The break-even conclusion survives it — 82% is far enough above 60%, and the interval is computed on 44 turns of screen decisions, which are the deterministic half of the check. But no confirm-rate figure in this document should be quoted to the nearest percent.</li>
     <li><strong>Composition time is the one unmeasured input left</strong>, and it is the largest term in the headline. The machine side is now measured exactly and reading is bounded by estimate; what remains needs a human. Plausible values put the real figure anywhere between $0.37 and $0.91/hour.</li>
     <li><strong>The cost calculator itself is not in the repo</strong> — it lived in a prior session's scratchpad. I proved the trap exists and priced it against live measurements, but I could not read the code that produced $0.091.</li>
     <li><strong>The requirements manifest was incomplete until the traffic run.</strong> <code>rank-bm25</code> is imported lazily inside <code>candidate_search</code>, so the app booted, <code>/health</code> passed and session start succeeded without it. Only a real turn exposed the gap — which is the argument for running real turns.</li>
