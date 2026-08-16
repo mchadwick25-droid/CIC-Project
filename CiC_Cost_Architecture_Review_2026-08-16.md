@@ -144,7 +144,7 @@ Cumulative. Baseline = true isolated-session cost, $0.53/hr = $6,369/yr.
 | Lever | Quality | $/hr | $/mo | $/yr |
 |---|---|---:|---:|---:|
 | A · strip builder apparatus from retrieved chunks **(SHIPPED)** | **improves** | 0.031 | 31 | 367 |
-| B · gate safety classifiers behind a lexical filter | neutral | 0.032 | 32 | 384 |
+| B · gate safety classifiers **(NOT SAFE — see below)** | unsafe | — | — | **~0 available** |
 | C · over-settling adjudicator 78% -> 30% **(BLOCKED)** | trades recall | 0.022 | 22 | 261 |
 | D · shadow-mode checks — off-switch shipped, **not retired** | neutral | 0.003–0.011 | 3–11 | **39–132** |
 | E · trim `_HOW_YOU_ENGAGE` **(DO NOT DO)** | risks the voice | 0.001 | 1 | **90** |
@@ -325,7 +325,58 @@ on real traffic. Collect ~200+ turns with logging on, then
 `tools/cost/analyze_over_settling.py` prints the fire rate, the confirm rate
 per world, and the verdict against the break-even.
 
-### B · Safety: gate it, don't remove it
+### B · The gate design does not survive contact with the code — REJECTED
+
+I proposed this one and it was wrong. Three findings, all from reading the
+mechanism rather than the ledger.
+
+**1. `classify_relational_safety` is a stateful accumulator, not a per-turn
+test.** Track B fires when 2 pooled tags accumulate *across turns*, and
+de-escalation requires 2 **consecutive** `NO_SIGNAL` classifications. A gated
+turn contributes neither. Worse: gating while a track is active means no
+de-escalation increment ever arrives, so the session stays in heightened
+attention **permanently** — the Representative withheld for the rest of the
+conversation, with no path back.
+
+**2. Track B detects parasocial attachment, which a distress lexicon misses by
+construction.** The tags are `RETURN_COMPULSION`, `CONFIDANT_LANGUAGE`,
+`AFFIRMATION_DEPENDENCE` — *"you're the only one who understands"*, *"I keep
+coming back"*. That is warm, affectionate language containing no distress
+vocabulary at all. The first-person-distress gate I designed catches Track A
+and is blind to Track B. My earlier framing — "gated detection is not weakened
+detection" — was right about acute distress and wrong about attachment.
+
+**3. `classify_frame_breaker` is stateless and would be the safe candidate,
+but the project's own prompt rules it out.** `_HOW_YOU_ENGAGE` warns that this
+question class arrives *"in dozens of different wordings you cannot predict in
+advance"* — which is precisely the property a keyword gate requires and this
+class does not have.
+
+**And the transcript cap I intended to ship already exists.**
+`build_public_transcript` does block truncation with a stable prefix — 2
+pinned + 10 recent, bounded at ~2,470 tokens. It does not grow unbounded;
+I assumed it did.
+
+So there is **no safe cost saving in B**. The $384 was real money but it is
+not reachable without weakening a mechanism that is load-bearing in the one
+situation where this product can do harm.
+
+#### What *is* available here — and it is a safety change, not a cost one
+
+`stream_relational_safety_response` runs on **`get_llm()` — Sonnet 5**, the
+full generation model, improvising free-form text at the single highest-stakes
+moment in the product. Detection is a $0.0007 Haiku call; the *response* is a
+Sonnet generation.
+
+Replacing that with fixed, pre-approved wording:
+
+- removes a model improvising in a crisis, which is the real risk here
+- is Mark's own original instinct ("a generic get-help notice")
+- fires rarely, so the saving is small — **the case is safety, not cost**
+
+**I have not written that text and will not.** Crisis wording is a decision for
+Mark and, ideally, a clinician — not something to ship from a cost review. The
+mechanism can be wired in an afternoon once the words exist.
 
 `classify_relational_safety` ships a 1,593-token prompt on every turn, plus a
 transcript window that grows through the session — by turn 12 it is the most
