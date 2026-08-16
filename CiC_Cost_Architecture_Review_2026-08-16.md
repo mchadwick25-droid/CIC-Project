@@ -609,6 +609,30 @@ The window is `TRANSCRIPT_STABLE_PREFIX` (2) + `TRANSCRIPT_RECENT_WINDOW` (10)
 own worked example anchors that on *the Representative's immediately preceding
 turn*, not on twelve lines of history.
 
+**This is emphatically not a change to the shared window.** `build_public_
+transcript` has six consumers, and five of them shape the conversation itself:
+
+| consumer | what it shapes |
+|---|---|
+| `_prepare_representative_turn` → `conversation_context` | **which lexicon entries and stories are retrieved** — ungated, active in single-voice |
+| `_prepare_representative_turn` → prompt | the Representative's view of the table (multi-world only) |
+| `stream_facilitator_bridge` | the Facilitator's bridge turn |
+| `select_next_speaker` | who speaks next in multi-voice |
+| `classify_wind_down` | closing detection |
+| `stream_closing_turn` | the closing turn |
+| `classify_relational_safety` | the safety classifier — **the only one this touches** |
+
+Editing `TRANSCRIPT_RECENT_WINDOW` would narrow all six. In single-voice that
+would change *which sources surface*, and therefore what the Representative can
+draw on — a direct quality regression, and not what is proposed here.
+
+The change is a narrower window passed **only at the classifier's call site**:
+`build_public_transcript(state, recent_window=4)` at `nodes.py:549`, with the
+parameter defaulting to today's value so the other five call sites are
+untouched by construction. Retrieval, voice, length, and what the
+Representative knows are all unchanged; the only thing that sees less history
+is the safety classifier, for the one judgment above.
+
 | window | saved/turn | $/yr @1,000h |
 |---|---:|---:|
 | keep last 2 lines | 922 tok | 133 |
@@ -631,8 +655,9 @@ nothing about the boundary where the risk actually lives. Testing it needs
 distress-bearing conversations — which should come from the clinician
 conversation already owed for the crisis wording, not from transcripts I invent.
 
-**$106/yr, one config change, safe-direction failure mode, needs one test I
-can't run alone.** That is what survives of the $343.
+**$106/yr, one call site, safe-direction failure mode, needs one test I can't
+run alone.** That is what survives of the $343 — and it changes nothing the
+participant hears.
 
 ### On hybrid
 
