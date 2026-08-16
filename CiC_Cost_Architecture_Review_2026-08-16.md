@@ -647,16 +647,61 @@ ACUTE_DISTRESS."* So narrowing errs toward **firing**, not toward missing. The
 cost of being wrong is an unnecessary Facilitator check-in, not a missed
 signal — the opposite risk profile to the gate.
 
-**I did not ship it.** After building one confident safety change that failed
-its own test in the same session, a second unmeasured one does not belong in
-the tree. And I cannot test this one with what exists: all 48 sampled turns are
-`NO_SIGNAL`, so a narrow-vs-wide comparison would show both agreeing and prove
-nothing about the boundary where the risk actually lives. Testing it needs
-distress-bearing conversations — which should come from the clinician
-conversation already owed for the crisis wording, not from transcripts I invent.
+**SHIPPED 2026-08-16**, with the isolation made structural rather than
+promised.
 
-**$106/yr, one call site, safe-direction failure mode, needs one test I can't
-run alone.** That is what survives of the $343 — and it changes nothing the
+`build_public_transcript` takes a `recent_window` parameter defaulting to
+`None`, which means the shared window. Every existing call site keeps its
+render byte-for-byte *without being edited* — a caller has to opt in to
+narrowing, so the five conversation-shaping consumers cannot drift by
+omission. `classify_relational_safety` is the only opt-in, via a named
+`RELATIONAL_SAFETY_RECENT_WINDOW = 4`.
+
+`cic/checks/transcript_window.py` enforces it, in the same idiom as the
+existing isolation gate. It fails if a second call site narrows, if the
+narrowing is done positionally instead of by keyword, if the shared constants
+move, or if the trim is reverted and the gate is left passing vacuously. All
+four failure modes were verified by introducing them:
+
+```
+- nodes.py:358 (stream_facilitator_bridge): narrows the public-transcript
+  window, but only classify_relational_safety may.
+- the SHARED window changed: TRANSCRIPT_RECENT_WINDOW=4 (expected 10). That
+  window feeds lexicon and story retrieval, so changing it changes which
+  sources the Representative can draw on - a conversation change, not a cost
+  one.
+```
+
+**Measured, replaying the recorded sessions through both windows with
+`count_tokens`** — 50 classifier calls, exact rather than modelled:
+
+| | transcript tokens/call |
+|---|---:|
+| shared 2+10 window | 1,014 |
+| classifier's 2+4 window | 537 |
+| **saved** | **477 (47% of the transcript)** |
+
+**$0.00048/turn — $69/yr at 1,000 conversation-hours/month.**
+
+A live 8-turn run confirms the mechanism: `relational_safety` input grew
+1,408 → 2,571 before the change and now flattens at 1,399 → 1,869, because
+the window stops accumulating. The representative's own calls are unchanged
+(`main_response` 21,024 → 20,926, `negative_condition_lexicon` 1,036 → 972,
+`drift_detection` 1,891 → 1,900 — all run-to-run noise between two different
+conversations). Those numbers corroborate; the default parameter and the gate
+are what actually prove it.
+
+**What is still untested is the judgment, not the isolation.** Whether four
+lines is enough context to tell historical-otherness disorientation from
+acute distress cannot be settled by the 48-turn sample, because every turn in
+it is `NO_SIGNAL`. The failure direction is the safe one — less certainty
+pushes the classifier toward `ACUTE_DISTRESS` per its own tie-breaker, so
+being wrong costs an unnecessary check-in rather than a missed signal — and
+reverting is one constant. But it belongs on the list for the clinician
+conversation already owed for the crisis wording.
+
+**$69/yr, one call site, a gate that fails loudly, nothing the participant
+hears.**
 participant hears.
 
 ### On hybrid

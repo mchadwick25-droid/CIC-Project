@@ -546,7 +546,11 @@ def classify_relational_safety(state: ConversationState, message: str) -> dict:
     conversation that has nothing to do with relational safety.
     """
     llm = get_monitoring_llm(max_tokens=CLASSIFIER_MAX_TOKENS)
-    transcript_window = build_public_transcript(state)
+    # The only call site that narrows the window - see
+    # RELATIONAL_SAFETY_RECENT_WINDOW. Every other consumer of the public
+    # transcript is untouched.
+    transcript_window = build_public_transcript(
+        state, recent_window=RELATIONAL_SAFETY_RECENT_WINDOW)
     try:
         response = llm.invoke([
             SystemMessage(content=FACILITATOR_RELATIONAL_SAFETY_CLASSIFIER_PROMPT.format(
@@ -881,8 +885,36 @@ def facilitator_handoff(state: ConversationState) -> dict:
 TRANSCRIPT_STABLE_PREFIX = 2
 TRANSCRIPT_RECENT_WINDOW = 10
 
+# The relational-safety classifier reads the transcript for exactly one
+# judgement: is this distress a reaction to what the Representative just said
+# (HISTORICAL_OTHERNESS_DISORIENTATION), or the participant's own present
+# circumstance (ACUTE_DISTRESS)? The classifier prompt's own worked example
+# anchors that on the Representative's immediately preceding turn - "the
+# preceding transcript context is what anchors this" - not on ten lines of
+# history. Four lines is two full exchanges, which covers it with room over.
+#
+# Measured 2026-08-16 across 48 real calls: the static prompt is 1,402 tokens
+# and median input is 2,508, so 44% of every call is transcript. Narrowing
+# this window alone is ~$80/yr at 1,000 conversation-hours/month.
+#
+# The stable prefix is deliberately NOT narrowed: the participant's opening
+# frame is two lines and is exactly the context that anchors an otherwise
+# ambiguous later message.
+#
+# WHY THIS IS A SEPARATE CONSTANT AND NOT AN EDIT TO THE ONE ABOVE:
+# build_public_transcript has six consumers and five of them shape the
+# encounter - most consequentially _prepare_representative_turn, which passes
+# the transcript as `conversation_context` into lexicon and story retrieval
+# (ungated, active in single-voice). Narrowing the shared window would change
+# which sources surface and therefore what the Representative can draw on.
+# That is a quality change and is not what this is. See
+# cic/runtime/tests/test_transcript_window_isolation.py, which fails if any
+# other call site starts passing a window.
+RELATIONAL_SAFETY_RECENT_WINDOW = 4
 
-def build_public_transcript(state: ConversationState, exclude_world_id: str = None) -> str:
+
+def build_public_transcript(state: ConversationState, exclude_world_id: str = None,
+                           recent_window: int | None = None) -> str:
     """
     Build the public transcript - the record of what has been spoken at The Table.
 
@@ -917,6 +949,14 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
     strength depends on and the cached-prefix rule applied to this
     window's shape. Conversations short enough to fit are rendered
     whole, exactly as before.
+
+    `recent_window` overrides TRANSCRIPT_RECENT_WINDOW for one caller. It
+    defaults to None, so every existing call site keeps the shared window
+    byte-for-byte without being touched - the isolation is structural, not a
+    convention someone has to remember. Only classify_relational_safety
+    passes it; see RELATIONAL_SAFETY_RECENT_WINDOW for why, and for why
+    narrowing the shared constant instead would be a conversation-quality
+    change.
     """
     from app.graph.events import spoken_events_from_messages
 
@@ -930,13 +970,14 @@ def build_public_transcript(state: ConversationState, exclude_world_id: str = No
             speaker_name = event["speaker"].replace("_", " ").title()
             transcript_lines.append(f"{speaker_name}: {event['text']}")
 
-    if len(transcript_lines) <= TRANSCRIPT_STABLE_PREFIX + TRANSCRIPT_RECENT_WINDOW:
+    window = TRANSCRIPT_RECENT_WINDOW if recent_window is None else recent_window
+    if len(transcript_lines) <= TRANSCRIPT_STABLE_PREFIX + window:
         return "\n\n".join(transcript_lines)
-    elided = len(transcript_lines) - TRANSCRIPT_STABLE_PREFIX - TRANSCRIPT_RECENT_WINDOW
+    elided = len(transcript_lines) - TRANSCRIPT_STABLE_PREFIX - window
     return "\n\n".join(
         transcript_lines[:TRANSCRIPT_STABLE_PREFIX]
         + [f"[... {elided} earlier turn(s) not shown ...]"]
-        + transcript_lines[-TRANSCRIPT_RECENT_WINDOW:]
+        + transcript_lines[-window:]
     )
 
 
