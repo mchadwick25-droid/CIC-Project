@@ -115,6 +115,30 @@ class Settings(BaseSettings):
     # field - the registry itself is the on/off switch and the per-tester
     # allocation, so there's nothing to duplicate here.
 
+    # Anthropic prompt-cache TTL for the two cacheable prefixes (the
+    # Representative's static prompt in _cached_system_message, and the
+    # source-fed adjudication prefix in _cached_adjudication_message).
+    #
+    # This is a real cost knob, not a tuning detail. A cache WRITE is billed
+    # at 2x the input rate for "1h" and 1.25x for "5m"; a read is 0.1x for
+    # both. The right value depends entirely on traffic shape, and the
+    # break-even is about whether a world sees another turn within five
+    # minutes:
+    #
+    #   "1h" - correct when a world's traffic is sparse or bursty. One write
+    #          covers a whole session (and every other session on that world
+    #          inside the hour) even across long participant pauses.
+    #   "5m" - cheaper per write, and the better choice once a world is busy
+    #          enough that turns arrive at least every five minutes: the
+    #          entry is kept alive by the traffic itself and each write costs
+    #          1.25x instead of 2x. On sparse traffic it is worse, because a
+    #          pause longer than the TTL buys a second write.
+    #
+    # Left at "1h" because that is what the measured single-session behaviour
+    # justifies today. Revisit once real inter-turn cadence exists - see
+    # tools/cost/analyze_usage_log.py, which reports it.
+    prompt_cache_ttl: Literal["5m", "1h"] = "1h"
+
     # Max sessions EVENT_STORE keeps resident in memory at once (Wave 3,
     # Engineering P1-4) - LRU-evicted beyond this; an evicted session
     # rehydrates transparently from its durable JSONL log on next touch,

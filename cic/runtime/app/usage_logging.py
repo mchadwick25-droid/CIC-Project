@@ -129,6 +129,17 @@ def log_llm_usage(
         cache_creation = raw_usage.get("cache_creation_input_tokens", 0)
         cache_read = raw_usage.get("cache_read_input_tokens", 0)
 
+        # A cache WRITE is billed at 2x the input rate for a 1h TTL and 1.25x
+        # for 5m. cache_creation_input_tokens alone therefore cannot be priced
+        # - it is the same number either way. The raw Anthropic block splits
+        # it (usage.cache_creation.ephemeral_{1h,5m}_input_tokens) but only on
+        # a non-streamed call; every real Representative turn is streamed and
+        # gets nothing. So the configured TTL is logged alongside, and the
+        # split is captured where the API does supply it.
+        _split = raw_usage.get("cache_creation") or {}
+        cc_1h = _split.get("ephemeral_1h_input_tokens", 0)
+        cc_5m = _split.get("ephemeral_5m_input_tokens", 0)
+
         # A streamed call (.stream() + summed AIMessageChunks - the actual
         # path every real user turn takes) never populates
         # response_metadata["usage"], so raw_usage is empty here even when
@@ -152,12 +163,26 @@ def log_llm_usage(
             input_tokens = raw_usage.get("input_tokens", 0)
             output_tokens = raw_usage.get("output_tokens", 0)
 
+        try:
+            from app.config import settings as _settings
+            cache_ttl = _settings.prompt_cache_ttl
+        except Exception:
+            cache_ttl = "?"
+
+        # NB for anyone pricing these lines: input_tokens is LangChain's
+        # TOTAL, with cache_read and cache_creation as SUBSETS of it - not
+        # additive buckets the way the raw Anthropic block reports them.
+        # Uncached input is input_tokens - cache_read - cache_creation.
+        # Summing the three charges the cached prefix twice; see
+        # tools/cost/analyze_usage_log.py, which does it correctly.
         logger.info(
             "[llm_usage] label=%s model=%s request_id=%s session_id=%s "
             "input_tokens=%s output_tokens=%s cache_creation_input_tokens=%s "
-            "cache_read_input_tokens=%s",
+            "cache_read_input_tokens=%s cache_ttl=%s "
+            "cache_creation_1h=%s cache_creation_5m=%s",
             label, model, request_id, session_id,
             input_tokens, output_tokens, cache_creation, cache_read,
+            cache_ttl, cc_1h, cc_5m,
         )
     except Exception:
         logger.exception("[llm_usage] failed to log usage for label=%s", label)

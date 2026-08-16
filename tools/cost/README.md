@@ -29,3 +29,17 @@ Neither script makes a billable API call.
 - `trim_ledger.py` — the A-F trim ledger priced at 1,000 conversation-hours
   per month, cumulative. Adjust `HOURS` for a different volume. One penny per
   hour is $120/year at that scale.
+
+- `analyze_usage_log.py` — prices a real `[llm_usage]` log correctly and
+  reports cache effectiveness. Makes no API calls. Run it over saved logs
+  rather than trusting any per-turn figure:
+
+      python3 tools/cost/analyze_usage_log.py backend.log --hours-per-month 1000
+
+  Reports true spend per label, the double-count factor a naive calculator
+  would produce, the read/write/uncached split, and the **pooling factor** -
+  reads served per write. Pooling is what lever F is: the 1h cache entry is
+  keyed on the prompt prefix, not the session, so every session opening the
+  same world inside the window reads the same block. A single-session test
+  can never show it, which is why per-hour cost looks worse in testing than
+  in production.
