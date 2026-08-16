@@ -54,3 +54,26 @@ Neither script makes a billable API call.
   Measured token shape (2026-08-16, count_tokens): adjudication cached head
   8,831 tok fleet mean, screen prompt 869 tok. The screen only pays for
   itself below a 60% fire rate.
+
+- `run_traffic_sample.py` — **drives real conversations and spends money**
+  (~$0.04/turn; 204 turns ≈ $8). Runs N sessions × 12 newcomer questions
+  across all six worlds through the app's own endpoints, capturing both the
+  `[llm_usage]` and `[over_settling_decision]` streams into one file for the
+  two analyzers above. `--dry-run` costs nothing; `--max-spend` aborts on a
+  ceiling.
+
+      cd cic/runtime
+      PYTHONPATH=. python3 ../../tools/cost/run_traffic_sample.py --sessions 17 --out /tmp/sample.log
+      python3 ../../tools/cost/analyze_usage_log.py     /tmp/sample.log
+      python3 ../../tools/cost/analyze_over_settling.py /tmp/sample.log
+
+  Sessions run back to back across the six worlds on purpose: several sessions
+  per world inside one 1h cache window is the production shape, and the only
+  way the pooling factor becomes measurable.
+
+  **Cannot run in the Claude Code web sandbox.** Retrieval downloads
+  `all-MiniLM-L6-v2` and `cross-encoder/ms-marco-MiniLM-L-6-v2` from
+  huggingface.co on first use, and that host is denied by egress policy there
+  (`httpx.ProxyError: 403`). Run it anywhere HF is reachable. Everything up to
+  retrieval is verified: the app boots, `/health` is 200, and
+  `/api/session/start` completes against the live API.
