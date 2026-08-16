@@ -395,6 +395,21 @@ ENTRIES: tuple[TextEntry, ...] = (
               "the same reason as npnf205/Palladius - the DOCX conversion carried none of its own, and "
               "the page's own rights line sits at the file's end, past gate_texts_registry's read "
               "window."),
+    TextEntry("optatus_against-the-donatists.txt", "Mark", "2026-08-15",
+              "Optatus of Milevis, Against the Donatists, trans. O.R. Vassall-Phillips (Longmans, "
+              "Green & Co., 1917), from Roger Pearse's 'morefathers' collection. THE single most "
+              "strategically valuable item identified in the 'which CCEL resources would be "
+              "essential' survey earlier this session: not a fix for any built world, but THE primary "
+              "source for Donatism, one of the census's three 'Selected - Not Yet Built' worlds. No "
+              "built world currently cites Optatus or the Donatists at all (confirmed by grep) - pure "
+              "future world-building material. Converted mechanically via python-docx, no content "
+              "passed through model-generated output. RIGHTS NOTE (differs from other Pearse-sourced "
+              "files this session): no explicit page-level public-domain declaration was found within "
+              "this transcription, unlike Palladius and the Doctrine of Addai - rights status rests on "
+              "the 1917 publication date and the source collection's general practice, recorded "
+              "honestly (not assumed confirmed) in the file's own prepended header. Translator name "
+              "likewise not found within the transcription itself; attributed to Vassall-Phillips on "
+              "external bibliographic grounds only."),
 )
 
 
