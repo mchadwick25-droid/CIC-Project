@@ -75,7 +75,7 @@ Psalms | Public Domain | Mark | 2026-08-15 | - |
 | `npnf212_leo-great-gregory-great.xml` | NPNF-212. Leo the Great, Gregory the Great | Public Domain | Mark | 2026-08-15 | `ijcq005`, `ijcq006`, `ijcq007`, `srcIJC47` |
 | `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` | NPNF-213. Gregory the Great (II), Ephraim Syrus, Aphrahat | Public Domain | Mark | 2026-08-15 | - |
 | `npnf214_seven-ecumenical-councils.xml` | NPNF2-14. The Seven Ecumenical Councils | Public Domain | Mark | 2026-08-15 | `ijcq004`, `srcIJC46` |
-| `optatus_against-the-donatists.txt` | The Work of St. Optatus the African, Bishop of Milevis, | Public Domain (1917 publication, long out of US copyright; | Mark | 2026-08-15 | - |
+| `optatus_against-the-donatists.txt` | The Work of St. Optatus the African, Bishop of Milevis, | Public Domain | Mark | 2026-08-15 | - |
 | `palladius_lausiac-history_clarke1918.txt` | Palladius: The Lausiac History | Public Domain | Mark | 2026-08-15 | `desertq007`, `srcDES028` |
 
 Notes carried over per file:

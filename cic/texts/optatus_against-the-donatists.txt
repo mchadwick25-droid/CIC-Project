@@ -7,16 +7,16 @@
                   trans./ed.) - translator attributed on external
                   bibliographic grounds; not confirmed from this file's
                   own text, which does not name a translator
-          Rights: Public Domain (1917 publication, long out of US copyright;
-                  confirmed separately below)
-Source Collection: Roger Pearse, "morefathers" (tertullian.org/ccel.org).
-                  Page footer, confirmed by Mark 2026-08-15 from the source
-                  page directly (not present in this file's own DOCX
+          Rights: Public Domain
+      Rights basis: 1917 publication date (long out of US copyright), and
+                  the source page's own footer, confirmed by Mark
+                  2026-08-15 (not present in this file's own DOCX
                   conversion, hence recorded here rather than found by
                   automated check): "This text was transcribed by Roger
                   Pearse, Ipswich, UK, 2006. All material on this page is
                   in the public domain - copy freely. Greek text is
                   rendered using unicode."
+Source Collection: Roger Pearse, "morefathers" (tertullian.org/ccel.org).
      __________________________________________________________________
 
 THE WORK OF ST. OPTATUS THE AFRICAN
