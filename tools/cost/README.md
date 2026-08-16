@@ -95,3 +95,16 @@ Neither script makes a billable API call.
   A **preflight** loads both models before the first session starts, so a
   blocked host costs nothing instead of failing mid-run with turns already
   billed.
+
+## The published review
+
+`cost-review-artifact.html` is the source for the published artifact at
+<https://claude.ai/code/artifact/b56d902b-fe88-4705-acbe-d53a5ad091b0>. It is
+kept in the repo because the first copy lived only in a session scratchpad and
+came within one container reclaim of being unrecoverable. To update the
+published page, edit this file and republish it **to that same URL** — a
+publish without the URL creates a second artifact instead of updating this one.
+
+It mirrors `CiC_Cost_Architecture_Review_2026-08-16.md` at the repo root. The
+markdown is the full record; the HTML is the readable summary. When one
+changes, change the other.

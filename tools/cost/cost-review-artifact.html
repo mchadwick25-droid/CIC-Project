@@ -1,0 +1,273 @@
+<title>Where the Money Actually Goes</title>
+<style>
+:root{
+  --paper:#f6f7f8; --surface:#ffffff; --ink:#1a1d21; --ink-soft:#3d444b;
+  --muted:#5c646d; --rule:#dde1e5; --rule-soft:#eaedef;
+  --accent:#2f6f66; --accent-soft:#e4efec;
+  --amber:#8a5f18; --amber-soft:#f7efdd;
+  --rust:#9c3a2b; --rust-soft:#f8e7e3;
+  --shadow:0 1px 2px rgba(20,28,34,.06),0 8px 24px -12px rgba(20,28,34,.14);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#14171a; --surface:#1c2024; --ink:#e9ecee; --ink-soft:#c3c9ce;
+    --muted:#8e979f; --rule:#2c3237; --rule-soft:#23282c;
+    --accent:#5aa89c; --accent-soft:#1d2f2c;
+    --amber:#cfa155; --amber-soft:#2c2517;
+    --rust:#d9796a; --rust-soft:#2e1c19;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#14171a; --surface:#1c2024; --ink:#e9ecee; --ink-soft:#c3c9ce;
+  --muted:#8e979f; --rule:#2c3237; --rule-soft:#23282c;
+  --accent:#5aa89c; --accent-soft:#1d2f2c;
+  --amber:#cfa155; --amber-soft:#2c2517;
+  --rust:#d9796a; --rust-soft:#2e1c19;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:16.5px; line-height:1.62; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:60rem;margin:0 auto;padding:3.5rem 1.5rem 6rem;display:flex;flex-direction:column;gap:3rem}
+h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;text-wrap:balance;margin:0;font-weight:600;letter-spacing:-.012em}
+h1{font-size:clamp(2.1rem,5vw,3.1rem);line-height:1.08}
+h2{font-size:1.55rem;line-height:1.2}
+h3{font-size:1.09rem;line-height:1.3}
+p{margin:0}
+a{color:var(--accent)}
+.eyebrow{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:650}
+.lede{font-size:1.16rem;line-height:1.55;color:var(--ink-soft);max-width:44rem}
+.meta{font-size:.82rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:.9rem;display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+num,.num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+section{display:flex;flex-direction:column;gap:1.1rem}
+section > p, section > ul, section > ol{max-width:44rem}
+ul,ol{margin:0;padding-left:1.15rem;display:flex;flex-direction:column;gap:.55rem}
+li::marker{color:var(--muted)}
+strong{font-weight:650}
+/* stat row */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+.stat{background:var(--surface);padding:1.25rem 1.3rem;display:flex;flex-direction:column;gap:.3rem}
+.stat .k{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:650}
+.stat .v{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;font-size:1.85rem;line-height:1.05;letter-spacing:-.03em}
+.stat .n{font-size:.8rem;color:var(--muted);line-height:1.4}
+.v.bad{color:var(--rust)} .v.good{color:var(--accent)} .v.warn{color:var(--amber)}
+/* tables */
+.scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{text-align:left;padding:.62rem .85rem;border-bottom:1px solid var(--rule-soft);white-space:nowrap}
+thead th{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:650;background:var(--paper);border-bottom:1px solid var(--rule)}
+tbody tr:last-child td{border-bottom:none}
+td.n,th.n{text-align:right;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+tr.hit td{background:var(--accent-soft)}
+tr.hit td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+td.wrap-ok{white-space:normal;min-width:15rem}
+/* finding blocks */
+.finding{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.4rem 1.5rem;display:flex;flex-direction:column;gap:.85rem;box-shadow:var(--shadow)}
+.fhead{display:flex;gap:.85rem;align-items:baseline}
+.rank{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;color:var(--accent);font-weight:700;flex:none;padding-top:.15rem}
+.tag{display:inline-block;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:.2rem .5rem;border-radius:4px;vertical-align:.12em}
+.tag.bug{background:var(--rust-soft);color:var(--rust)}
+.tag.check{background:var(--amber-soft);color:var(--amber)}
+.tag.ok{background:var(--accent-soft);color:var(--accent)}
+.callout{border-left:3px solid var(--accent);background:var(--accent-soft);padding:1rem 1.2rem;border-radius:0 8px 8px 0;display:flex;flex-direction:column;gap:.6rem}
+.callout.warn{border-left-color:var(--amber);background:var(--amber-soft)}
+.callout .eyebrow{color:inherit;opacity:.75}
+hr{border:none;border-top:1px solid var(--rule);margin:0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;background:var(--rule-soft);padding:.1em .35em;border-radius:3px}
+.foot{font-size:.85rem;color:var(--muted);max-width:44rem}
+</style>
+
+<style>
+/* estimate -> measured: the page's recurring structural fact, so it gets a
+   device of its own rather than prose each time */
+.delta{display:inline-flex;align-items:baseline;gap:.4rem;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+.delta .was{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
+.delta .arw{color:var(--muted);font-size:.8em}
+.delta .now{color:var(--accent);font-weight:650}
+.ladder td:first-child{white-space:normal;min-width:16rem}
+.ladder tr.floor td{border-top:1px solid var(--rule)}
+.ladder tr.target td{background:var(--amber-soft)}
+.ladder tr.target td:first-child{box-shadow:inset 3px 0 0 var(--amber)}
+.note{font-size:.85rem;color:var(--muted);max-width:44rem}
+</style>
+
+<div class="wrap">
+
+<header style="display:flex;flex-direction:column;gap:1.1rem">
+  <div class="eyebrow">Church in Conversation · Independent cost &amp; architecture review</div>
+  <h1>Where the money actually goes</h1>
+  <p class="lede">A fresh pass over <code>cic/</code>, now settled by measurement rather than modelling. Forty-eight turns of real traffic ran through the real app on 16 August. True cost is <strong>$0.372/hour</strong> — not the reported $1.09, and not the $0.53 this review estimated before the sample ran. The $0.30 target is reachable, but not on cheap levers.</p>
+  <div class="meta">
+    <span>16 August 2026 · second revision</span><span>Scope: <code>cic/records</code>, <code>cic/engine</code>, <code>cic/runtime/app</code></span><span>Single-voice mode</span><span>Branch <code>claude/cic-cost-architecture-review-6j5et0</code></span>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><span class="k">Reported</span><span class="v bad">$1.09</span><span class="n">per hour · cached tokens charged twice</span></div>
+  <div class="stat"><span class="k">Measured</span><span class="v warn">$0.372</span><span class="n">48 live turns · $0.03103/turn</span></div>
+  <div class="stat"><span class="k">Cheap levers exhausted</span><span class="v warn">$0.349</span><span class="n">nothing of substance removed</span></div>
+  <div class="stat"><span class="k">Apparatus cut</span><span class="v good">$0.293</span><span class="n">safety + drift removed · a real trade</span></div>
+</div>
+
+<section>
+  <h2>The short version</h2>
+  <ol>
+    <li><strong>The prompt cache works.</strong> A live two-turn test returned a clean 17,565-token <code>cache_read</code> on the second call, on both the streaming and non-streaming paths, at the 1-hour TTL. My first pass suspected a runtime cache failure. It was wrong, and it is withdrawn.</li>
+    <li><strong>The cost calculator double-charges cached tokens.</strong> LangChain reports <code>input_tokens</code> as the <em>total</em> input, with <code>cache_read</code> as a subset of it — the raw Anthropic block reports the two as additive. A calculator that sums all three overstates spend. Estimated at 2.6×; <span class="delta"><span class="was">2.6×</span><span class="arw">→</span><span class="now">2.39×</span></span> measured across 440 real calls.</li>
+    <li><strong>True cost is $0.372/hour, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
+    <li><strong>$0.30/hour is reachable only by removing the relational-safety classifier and drift detection.</strong> Every free lever together stops at $0.349. The last 16% has to come out of the apparatus. That is a quality decision to take consciously, not a saving waiting to be found.</li>
+    <li><strong>Safety is ~10% of spend, not 3.2%</strong> — corrected by measurement, and it cuts against the position this review argued. See <a href="#safety">the correction</a>.</li>
+    <li><strong>Sonnet 5 pricing is stable at $2/$10.</strong> Verified against the live docs: flat pricing, no introductory expiry. An earlier draft warned of a 31 August cliff drawn from a stale cached table; withdrawn. There is no deadline on the voice-model decision.</li>
+    <li><strong>The largest uncertainty left is not a lever at all.</strong> Turns-per-hour is assumed, never measured, and it moves the headline further than everything in this document combined.</li>
+  </ol>
+</section>
+
+<hr>
+
+<section id="measured">
+  <h2>Measured on real traffic</h2>
+  <p>Four sessions × twelve newcomer questions, two worlds, two consecutive sessions each. 48 of 48 turns returned 200. Raw log and analyzer output are committed to <code>tools/cost/samples/</code> so every number below can be re-derived rather than trusted. Spend: about $1.49.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Call</th><th class="n">$/turn</th><th class="n">Share</th><th class="n">$/hour</th></tr></thead>
+      <tbody>
+        <tr class="hit"><td><code>main_response</code></td><td class="n">0.01360</td><td class="n">43.8%</td><td class="n">0.163</td></tr>
+        <tr><td><code>over_settling_adjudication</code></td><td class="n">0.00478</td><td class="n">15.4%</td><td class="n">0.057</td></tr>
+        <tr><td><code>relational_safety</code></td><td class="n">0.00238</td><td class="n">7.7%</td><td class="n">0.029</td></tr>
+        <tr><td><code>drift_detection</code></td><td class="n">0.00224</td><td class="n">7.2%</td><td class="n">0.027</td></tr>
+        <tr><td><code>over_settling_screen</code></td><td class="n">0.00204</td><td class="n">6.6%</td><td class="n">0.024</td></tr>
+        <tr><td>twelve smaller labels</td><td class="n">0.00599</td><td class="n">19.3%</td><td class="n">0.072</td></tr>
+        <tr><td><strong>Total</strong></td><td class="n"><strong>0.03103</strong></td><td class="n"></td><td class="n"><strong>0.372</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><code>main_response</code> is 44% of spend and it is the floor: <strong>$0.163/hour before any apparatus runs at all.</strong> A $0.30 budget leaves $0.137/hour for everything else. Everything else currently costs $0.209.</p>
+</section>
+
+<hr>
+
+<section id="route">
+  <h2>The route to $0.30, priced on measurements</h2>
+  <div class="scroll">
+    <table class="ladder">
+      <thead><tr><th>Cut</th><th class="n">$/turn saved</th><th class="n">$/yr @1,000h</th><th class="n">Running $/hour</th></tr></thead>
+      <tbody>
+        <tr><td>Measured today</td><td class="n">—</td><td class="n">—</td><td class="n">0.372</td></tr>
+        <tr><td>Fold the screen into the adjudicator</td><td class="n">0.00098</td><td class="n">141</td><td class="n">0.361</td></tr>
+        <tr class="floor"><td>Drop the groundedness shadow checks</td><td class="n">0.00099</td><td class="n">143</td><td class="n">0.349</td></tr>
+        <tr><td>Drop <code>drift_detection</code></td><td class="n">0.00224</td><td class="n">323</td><td class="n">0.322</td></tr>
+        <tr class="target"><td>Drop <code>relational_safety</code></td><td class="n">0.00238</td><td class="n">343</td><td class="n">0.293</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The first two are genuinely free. One is a design simplification that removes a class of miss along with the cost; the other is a shadow check that already carries an off-switch and a 15 November review date. They reach <strong>$0.349</strong> and stop.</p>
+  <div class="callout warn">
+    <div class="eyebrow">The honest part</div>
+    <p><strong>There is no arrangement of cheap levers that reaches $0.30.</strong> Taking the last 16% means deciding that drift detection and the relational-safety classifier are not worth $0.056/hour between them. That is the trade-off to make consciously — it is not a saving to find.</p>
+  </div>
+</section>
+
+<hr>
+
+<section>
+  <h2>Two things the sample settled that no model could</h2>
+
+  <h3>Cache pooling is structural, not lucky — 16.0×</h3>
+  <p>The second session on each world wrote <strong>zero</strong> cache tokens; it read entirely off the first session's prefix. But the cold sessions still pooled <strong>11× on their own</strong>, because one prefix serves all twelve turns of a session. Priced honestly: if no session ever pooled with another, cost rises to <strong>$0.409/hour</strong> — ten percent. This is not a bet on concurrency.</p>
+
+  <h3>Turns-per-hour is now the biggest number in this document</h3>
+  <p>The $/turn is measured. The twelve-turns-per-hour divisor is assumed, and always has been.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="n">Turns/hour</th><th class="n">8</th><th class="n">10</th><th class="n">12</th><th class="n">15</th><th class="n">20</th></tr></thead>
+      <tbody><tr><td class="n">$/hour</td><td class="n">0.248</td><td class="n">0.310</td><td class="n"><strong>0.372</strong></td><td class="n">0.465</td><td class="n">0.621</td></tr></tbody>
+    </table>
+  </div>
+  <p>At twenty turns an hour, the full apparatus-cutting programme above still lands at $0.489. <strong>A faster conversational pace moves cost further than every lever in this review combined.</strong> If $0.30/hour is a hard ceiling, this deserves measuring on real participants before anything is cut for it.</p>
+</section>
+
+<hr>
+
+<section id="screen">
+  <h2>The over-settling screen: now decided</h2>
+  <p>The two-stage design deliberately over-flags at the cheap screen, on the reasoning that only a miss is unrecoverable. Nobody had ever measured what fraction of its flags survive the source-fed adjudicator on ordinary conversation.</p>
+  <div class="stats">
+    <div class="stat"><span class="k">Fire rate</span><span class="v warn">82%</span><span class="n">95% CI 68–90% · break-even is 60%</span></div>
+    <div class="stat"><span class="k">Confirm rate</span><span class="v">28%</span><span class="n">95% CI 16–44% · 26 of 36 cleared</span></div>
+    <div class="stat"><span class="k">Cost of the gate</span><span class="v bad">+$117</span><span class="n">per year vs adjudicating every turn</span></div>
+  </div>
+  <p>The interval clears the break-even, so the sample is conclusive and the decision is no longer blocked on data. <strong>A gate that fires on four turns in five cannot pay for itself</strong> — and every screen false-negative is a miss the adjudicator never sees. The two-stage design is currently the worst of both: you pay for the gate and still adjudicate most turns.</p>
+  <p class="note">Per world: 73% fire / 38% confirm on post-apostolic-house-church; 91% / 20% on syriac-edessa-nisibis. Forty-eight turns is enough for this comparison and no more — the confirm-rate interval stays wide, and narrowing it is a separate, larger sample.</p>
+  <p><strong>I still did not change it.</strong> <code>over_settling_logging.py</code> states the rule: tightening the screen trades directly against Article 5 rigor, and folding detection into the adjudicator is a prompt redesign rather than a config change. The data now justifies doing that work; it does not do the work.</p>
+</section>
+
+<hr>
+
+<section id="safety">
+  <h2>The safety correction</h2>
+  <p>This review claimed twice that safety mechanisms are "not where the money is" — 3.2% of spend — and that "the cost argument does not survive contact with the numbers." The traffic sample contradicts half of that.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th></th><th class="n">Estimated</th><th class="n">Measured</th><th class="wrap-ok">Verdict</th></tr></thead>
+      <tbody>
+        <tr><td><code>relational_safety</code> + <code>frame_breaker</code></td><td class="n">$0.035/hr</td><td class="n">$0.037/hr</td><td class="wrap-ok">Right within 6%</td></tr>
+        <tr class="hit"><td>Share of total spend</td><td class="n">3.2%</td><td class="n">9.8%</td><td class="wrap-ok">Wrong by 3× — the denominator was inflated</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>This strengthens Mark's argument, not mine.</strong> At $1.09/hour safety was a rounding error and dismissing the cost case was fair. At $0.372/hour it is the single largest cuttable line after the adjudicator, and the target is unreachable while it stays.</p>
+  <p>The cost argument survives now. It simply arrives as a trade-off rather than a saving: $0.037/hour buys the protection, and whether that is worth twelve percent of the budget is a call to make with the real number in view. What has not changed is the substance — keyword-triggered distress detection is empirically weaker here, because people in distress about death and faith rarely announce it in trigger phrases.</p>
+</section>
+
+<hr>
+
+<section>
+  <h2>What shipped, and what it was worth</h2>
+  <p>Every lever came in below its estimate, without exception, because the original ledger was built on the doubled baseline.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Lever</th><th class="n">Estimated/yr</th><th class="n">Actual/yr</th><th class="wrap-ok">Outcome</th></tr></thead>
+      <tbody>
+        <tr><td>A · Strip builder apparatus from retrieved chunks</td><td class="n">$496</td><td class="n">$367</td><td class="wrap-ok">Shipped. Also removes the material that caused FLAG-018 — cheaper <em>and</em> better</td></tr>
+        <tr><td>F · 1-hour cache TTL, pooling made observable</td><td class="n">—</td><td class="n">—</td><td class="wrap-ok">Shipped. Measured at 16.0× pooling</td></tr>
+        <tr><td>C · Tighten the over-settling screen</td><td class="n">$463</td><td class="n">$261</td><td class="wrap-ok">Measured, not retuned — see above</td></tr>
+        <tr><td>D · Retire the groundedness shadow checks</td><td class="n">$216</td><td class="n">$143</td><td class="wrap-ok">Off-switch and a review date shipped instead of deletion</td></tr>
+        <tr><td>E · Classifier consolidation</td><td class="n">$221</td><td class="n">$90</td><td class="wrap-ok">Audited and rejected — the saving did not justify the coupling</td></tr>
+        <tr><td>B · Gate design</td><td class="n">$384</td><td class="n">~$0</td><td class="wrap-ok">Rejected. I proposed it and it was wrong; the code does not work the way the proposal assumed</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr>
+
+<section>
+  <h2>What I would do, in order</h2>
+  <ol>
+    <li><strong>Measure turns-per-hour on real participants.</strong> It outweighs every item below it. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
+    <li><strong>Fix the cost calculator.</strong> Uncached input is <code>input_tokens − cache_read − cache_creation</code>, or read the raw block where available. Every figure downstream depends on it.</li>
+    <li><strong>Fold detection into the adjudicator</strong> and drop the screen stage. Cheaper, and it removes a class of miss. A prompt redesign, not a config change.</li>
+    <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.349 and $0.293. Whichever way it goes, it should be chosen rather than discovered.</li>
+    <li><strong>Leave the voice on Sonnet.</strong> No deadline, no forcing function, and $892/year is the wrong price for a citation regression.</li>
+  </ol>
+</section>
+
+<hr>
+
+<section>
+  <h2>What I could not verify</h2>
+  <ul>
+    <li><strong>The traffic sample covers two of six worlds</strong> and twelve fixed newcomer questions. Real participants vary more; both the fire rate and the per-turn cost could move on the other four.</li>
+    <li><strong>Turns-per-hour is assumed, never measured.</strong> It is the largest lever on the headline number and the one thing here with no evidence behind it.</li>
+    <li><strong>The cost calculator itself is not in the repo</strong> — it lived in a prior session's scratchpad. I proved the trap exists and priced it against live measurements, but I could not read the code that produced $0.091.</li>
+    <li><strong>The requirements manifest was incomplete until the traffic run.</strong> <code>rank-bm25</code> is imported lazily inside <code>candidate_search</code>, so the app booted, <code>/health</code> passed and session start succeeded without it. Only a real turn exposed the gap — which is the argument for running real turns.</li>
+  </ul>
+  <p class="foot">One incidental finding worth flagging separately, because it is a product question rather than a cost one: in single-voice mode the representative receives only the current question. No prior turns are in the prompt. That is what makes the payload flat, and it is why the cache works so well — but it means a twelve-turn interview is twelve independent answers, and anything that adds memory later will change these economics.</p>
+</section>
+
+</div>
