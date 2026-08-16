@@ -317,6 +317,98 @@ Same evidentiary caution as any check against this material: the permanent promp
 When genuinely uncertain, answer CLEARED. This asymmetry runs opposite to FABRICATION's, deliberately. A missed over-settling costs the participant one claim that sounded firmer than the record - real, and the reason this check exists. A false OVER_SETTLED costs something worse: it pushes a representative to hedge a claim its own world actually held with conviction, which manufactures false uncertainty, and a world talked out of its own convictions has been flattened just as surely as one talked out of its own doubts. Do not correct a world into vagueness on suspicion."""
 
 
+# The folded OVER_SETTLING check: one source-fed call that enumerates and
+# rules, replacing the blind screen + adjudication pair.
+#
+# WHY: measured 2026-08-16 on 44 real turns, the screen fires on 82% (95% CI
+# 68-90%) against a 60% break-even, so the gate costs more than it turns
+# away - and every screen false-negative is a miss the adjudicator never sees,
+# at a rate nobody has ever measured because a cleared turn leaves no trace.
+#
+# THE RISK THIS PROMPT IS BUILT AGAINST is stated in OVER_SETTLING_SCREEN_
+# PROMPT itself: this check "was first tried as one signal among ten in a
+# general drift monitor and caught nothing, because a turn that reads well
+# overall reads as clean." That was a different merge - into a multi-signal
+# monitor, not a fold of the pair - but the lesson is the binding constraint
+# here. Hence the two named phases below, in that order, with enumeration
+# required to finish before any ruling starts. A folded check that quietly
+# becomes "read the turn, decide if it over-settles" is the failed design
+# wearing new clothes.
+OVER_SETTLING_FOLDED_PROMPT = """You are checking one representative's turn for OVER_SETTLING - a claim spoken without the limit its own world's record puts on it - against that world's actual source material.
+
+You do this in two phases, in order, and you must finish the first before beginning the second. They ask different questions and pull in opposite directions on purpose. Collapsing them is the known failure mode of this check: an earlier version that read a turn and decided whether it over-settled caught nothing at all, because a turn that reads well overall reads as clean.
+
+## PHASE 1 - ENUMERATE
+
+List every claim in the turn worth checking against the record. You are not judging the turn. You are listing the claims in it, separately.
+
+Be generous here. A candidate costs you one line of reasoning in Phase 2; a claim you never list is a finding lost with no trace, because nothing downstream will look at it again. Do not shorten this list because you expect the record to support something - that judgement belongs in Phase 2, made against the material, not here from memory. List it and rule on it.
+
+What to list:
+- A disagreement among households, cities, teachers, or periods spoken as one agreed position - "we do not teach it as...", "what we hold is...", any "we" that flattens a plurality into a single practice.
+- An inference spoken as documentation - a conclusion drawn from what a source implies, delivered with the same steadiness as what it states.
+- A contested attribution, authorship, or date spoken plainly as settled.
+- A claim leaning on a source, with the circumstances of that source that bear on its weight left out - written under guard, written into a quarrel it was a party to, written generations after the events.
+- An account of how something was decided, chosen, or appointed, given as though a procedure is known.
+- A "we never settled that" or "our own record does not tell us" that this particular claim owes, simply absent.
+
+Three errors to avoid while enumerating, all of them observed in a failed earlier version of this check:
+1. Do NOT treat a hedge elsewhere in the turn as covering the whole turn. A representative can name one uncertainty beautifully and in the next breath state a contested thing as settled. An honest sentence does not discharge a dishonest one.
+2. Do NOT require an explicit universal word. "Every," "never," "in every place" are the easy cases and the rare ones. A quiet, plainly-phrased "we do X" about something that was genuinely contested is the common case and the one that matters.
+3. Do NOT drop a claim for sounding measured, careful, or appropriately humble in tone. Tone is not a limit. The question is whether the specific qualification this claim needs is present, not whether the voice sounds modest.
+
+List up to four candidates. If the turn contains no claim worth checking, say so and stop.
+
+## PHASE 2 - RULE
+
+Now, and only now, judge each listed candidate against the material below. One verdict per candidate, every candidate ruled.
+
+Your question for each: does the material put a limit on this claim that the response left out?
+
+A limit means anything the record itself attaches to how firmly this claim can be held - a documented disagreement between households, teachers, cities, or periods; an explicit statement that the world never settled the question; a contested attribution, authorship, or date; material marked as inference rather than documentation; a stated thinness or silence in the record; or a circumstance of the cited source that bears on its weight. If the material shows any such limit on this specific claim and the response carries none of it, the finding stands.
+
+The finding does NOT stand where the material supports the claim as firmly as the response states it. A world speaking confidently about something its own record holds confidently is speaking normally, not over-settling. Confidence is drift only when the record does not earn it. Nor does a response have to reproduce every qualification the sources carry - it has to not contradict them by omission. A response that says less about a settled thing is fine; a response that makes an unsettled thing sound settled is not.
+
+There is no expected number of confirmations. Most turns should produce none: Phase 1 lists everything worth a look precisely so that Phase 2 can clear it against the record, and clearing every candidate is the ordinary result, not a failure to look hard enough.
+
+The distinction that decides every one of these: a missing limit is something the material AFFIRMATIVELY HOLDS - a disagreement it records, an uncertainty it states, a contested attribution it names, a thinness it admits, a circumstance it reports. It is never merely something the material does not happen to mention. Almost nothing is documented exhaustively, so "the sources do not establish this in full detail" would confirm every claim ever made and is not a finding.
+
+## The representative's permanent prompt (its formation - always present to it)
+{permanent_prompt}
+
+## The world's capsule (always present to this representative)
+{capsule}
+
+## Retrieved source material for this world relevant to this response
+{retrieved}
+
+## The representative's response
+{response}
+
+Respond in exactly this format and nothing else.
+
+If Phase 1 finds nothing worth checking:
+FOLDED_CLEAR
+
+Otherwise:
+CANDIDATES
+1. Claim: <quote the specific sentence or clause, verbatim>
+   Concern: <one sentence on which limit you suspect is missing>
+2. Claim: <...>
+   Concern: <...>
+VERDICTS
+1. CLEARED - <one sentence naming where in the material above the claim is held as firmly as the response states it>
+2. OVER_SETTLED - Missing limit: <the specific limit the record puts on this claim, stated in one sentence, in terms the representative could speak from its own world>
+
+Write the whole CANDIDATES block before the first verdict line. Do not revise the list once you begin ruling; a candidate you decide to clear is cleared in Phase 2, not deleted from Phase 1.
+
+Before writing any OVER_SETTLED verdict, apply the affirmative test: name to yourself where in the material above that limit actually appears. If you find yourself reasoning instead from what the material leaves unsaid, the verdict is CLEARED.
+
+Same evidentiary caution as any check against this material: the permanent prompt and capsule are complete and are everything this representative always carries, so silence there is meaningful; the retrieved section is retrieved fresh against the response and may not surface every chunk the response drew on, so silence there alone is not proof of absence.
+
+When genuinely uncertain in Phase 2, answer CLEARED. This asymmetry runs opposite to Phase 1's on purpose, and opposite to FABRICATION's. A missed over-settling costs the participant one claim that sounded firmer than the record - real, and the reason this check exists. A false OVER_SETTLED costs something worse: it pushes a representative to hedge a claim its own world actually held with conviction, which manufactures false uncertainty, and a world talked out of its own convictions has been flattened just as surely as one talked out of its own doubts. Do not correct a world into vagueness on suspicion."""
+
+
 FACILITATOR_REROOT_PROMPT = """You are providing invisible correction guidance to the representative after detecting drift.
 
 The representative showed signs of: {drift_description}

@@ -22,6 +22,7 @@ from app.prompts import (
     FACILITATOR_FRAME_BREAKER_CLASSIFIER_PROMPT,
     FABRICATION_ADJUDICATION_PROMPT,
     OVER_SETTLING_ADJUDICATION_PROMPT,
+    OVER_SETTLING_FOLDED_PROMPT,
     OVER_SETTLING_SCREEN_PROMPT,
     FACILITATOR_FRAME_BREAKER_RESPONSE_PROMPT,
     FACILITATOR_HARMFUL_DYNAMIC_CONTINUATION_PROMPT,
@@ -2794,6 +2795,64 @@ def _screen_over_settling(response_text: str) -> str | None:
     return candidates or None
 
 
+def _folded_over_settling(
+    response_text: str, world_id: str
+) -> tuple[str, str] | str | None:
+    """
+    The screen and the adjudicator as one source-fed call.
+
+    Returns (candidates, missing_limit) when Phase 2 confirms a finding, the
+    string "clear" when it enumerated and cleared everything or found nothing
+    to enumerate, or None when the call could not be made at all.
+
+    The three-way return is not tidiness: "enumerated nothing", "enumerated
+    and cleared", and "could not judge" have to stay distinguishable for
+    over_settling_logging, or the fire rate and the confirm rate this whole
+    change was justified by stop being measurable the moment it ships.
+    """
+    evidence = _gather_world_evidence(world_id, response_text)
+    if evidence is None:
+        return None
+    permanent_prompt, capsule, retrieved = evidence
+
+    try:
+        llm = get_monitoring_llm()
+        prompt = OVER_SETTLING_FOLDED_PROMPT.format(
+            permanent_prompt=permanent_prompt,
+            capsule=capsule,
+            retrieved=retrieved,
+            response=response_text,
+        )
+        response = llm.invoke([
+            _cached_adjudication_message(prompt),
+            HumanMessage(content="Enumerate, then rule, on the turn above."),
+        ])
+        log_llm_usage("over_settling_folded", response, _MONITORING_MODEL)
+        result = response.content.strip()
+    except Exception:
+        return None
+
+    if result.startswith("FOLDED_CLEAR") or "VERDICTS" not in result:
+        # No candidates enumerated. Distinct from "enumerated and cleared" -
+        # see the docstring.
+        return "clear"
+
+    candidates, _, verdicts = result.partition("VERDICTS")
+    candidates = candidates.replace("CANDIDATES", "", 1).strip()
+
+    # Same parse as the two-stage adjudicator, deliberately: one verdict line
+    # per numbered candidate, and a confirmation without a named limit is
+    # cleared rather than kept, because a representative told it over-settled
+    # without being told WHICH limit it dropped can only hedge vaguely - the
+    # exact outcome this check's asymmetry exists to prevent.
+    for line in verdicts.split("\n"):
+        if "OVER_SETTLED" in line and "Missing limit:" in line:
+            limit = line.split("Missing limit:", 1)[1].strip()
+            if limit:
+                return (candidates or "(candidate not parsed)", limit)
+    return "clear"
+
+
 def _over_settling_signal(
     response_text: str, world_id: str | None
 ) -> DriftSignal | None:
@@ -2810,6 +2869,26 @@ def _over_settling_signal(
         return None
 
     from app.over_settling_logging import log_over_settling_decision
+
+    if settings.over_settling_folded:
+        outcome = _folded_over_settling(response_text, world_id)
+        if outcome is None:
+            # Could not judge at all. Logged as screened-but-inconclusive so
+            # it can never be read as a measured clear, matching the
+            # two-stage path's treatment of the same failure.
+            log_over_settling_decision(world_id, screened=True, confirmed=None)
+            return None
+        if outcome == "clear":
+            log_over_settling_decision(world_id, screened=False, confirmed=None)
+            return None
+        candidates, missing_limit = outcome
+        log_over_settling_decision(world_id, screened=True, confirmed=True)
+        return DriftSignal(
+            signal_type="over_settling",
+            description=f"{candidates}\n\nMissing limit: {missing_limit}",
+            severity="medium",
+            world_id=world_id,
+        )
 
     screened = _screen_over_settling(response_text)
     if screened is None:

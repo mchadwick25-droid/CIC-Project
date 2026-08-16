@@ -139,6 +139,24 @@ class Settings(BaseSettings):
     # gate or delete it. Review by 2026-11-15 (three months from scoping);
     # if neither has happened by then, the honest move is to turn this off
     # and stop paying for data nobody is reading.
+    # Fold the OVER_SETTLING screen into the adjudicator: one source-fed
+    # call that enumerates candidates and rules on them, instead of a blind
+    # screen feeding a second pass.
+    #
+    # Justified by measurement (2026-08-16, 44 real turns): the screen fires
+    # on 82% of turns, 95% CI 68-90%, against a 60% break-even - so the gate
+    # costs more than it turns away. The larger reason is the miss class: a
+    # turn the blind screen clears never reaches the adjudicator, and that
+    # false-negative rate is unmeasured and unmeasurable while the screen
+    # exists, because a cleared turn leaves no trace.
+    #
+    # DEFAULT OFF until the A/B in tools/cost/compare_over_settling.py shows
+    # the folded call reproduces the pair's findings on real traffic. The
+    # risk is named in OVER_SETTLING_SCREEN_PROMPT: an earlier version of
+    # this check that read a turn and judged it as a whole "caught nothing".
+    # Cost is not a reason to ship a check that finds less.
+    over_settling_folded: bool = False
+
     groundedness_shadow_checks: bool = True
 
     # Anthropic prompt-cache TTL for the two cacheable prefixes (the
