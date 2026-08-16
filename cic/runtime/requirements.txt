@@ -1,0 +1,30 @@
+# cic/runtime dependencies, recovered empirically 2026-08-16.
+#
+# The clean tree shipped without a manifest - every one of these was found by
+# running app.main until the next ModuleNotFoundError. Pins are the versions
+# the runtime was verified to boot on (app imports, /health 200,
+# /api/session/start reaches a live Anthropic call).
+#
+# NOTE: the retrieval stack downloads two models from huggingface.co on first
+# use (all-MiniLM-L6-v2, cross-encoder/ms-marco-MiniLM-L-6-v2) and caches
+# them. That host must be reachable, or every turn fails in retrieval.
+
+fastapi==0.141.1
+uvicorn==0.52.3
+httpx==0.28.1
+pydantic-settings==2.15.0
+langgraph==1.2.11
+langchain-core==1.5.5
+langchain-anthropic==1.5.6
+langchain-openai==1.5.1
+langchain-community==0.4.2
+langchain-huggingface==1.2.2
+faiss-cpu==1.15.0
+sentence-transformers==5.7.0
+anthropic==0.122.0
+pyyaml==6.0.1
+
+# engine gate suite (cic/engine/run_gates.py --check) only:
+textstat==0.7.13
+nltk==3.10.3
+# plus: python -c "import nltk; nltk.download('cmudict')"
