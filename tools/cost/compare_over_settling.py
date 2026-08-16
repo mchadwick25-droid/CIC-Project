@@ -108,9 +108,26 @@ with less noise the fold shows MORE stable findings (6 vs 3) and 4 stable
 gains, and one stable regression, turn 48, the same turn that failed the
 original single-draw run.
 
+WHY IT IS UNSTABLE: answered - see why_unstable.py and samples/
+---------------------------------------------------------------
+The model, on byte-identical input. Replaying ONE frozen adjudication prompt
+flips 30% of turns; the 1k-token screen prompt is byte-identical across eight
+draws, retrieval returns one distinct source block across eight gathers, and
+the screen fired identically on all 56 turns x 3 draws here. The pipeline
+explains none of it. Per-candidate flip rate ~11-15%, OR'd across the 3-4
+candidates the screen forwards, which is where the turn-level 30-47% comes
+from. `classify_relational_safety` was measured too and does NOT do this:
+0/19 held-out probes varied across six draws.
+
+So --reps 3 is a floor, not a fix, and the numbers below are draws from a
+distribution rather than measurements of a fixed rate.
+
 VERDICT ON THE FOLD: rejected, on turn 48 - see diagnose_over_settling.py
 ------------------------------------------------------------------------
-That regression was diagnosed rather than argued about. The fold's Phase 1
+That regression was diagnosed rather than argued about. (Six further frozen
+replays put the pair at 5/6 on that turn rather than 6/6, so read it as "the
+pair confirms on 8 of its 9 draws and the fold on none of its 6", not as a
+law.) The fold's Phase 1
 enumerates the disputed claim verbatim on every draw; Phase 2 clears it on
 every draw, always by the same move ("speaks from inside a household, does
 not claim it as universal"). The two paths saw 37 of 37 IDENTICAL retrieved

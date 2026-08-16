@@ -72,3 +72,4 @@ PROJECTION  $0.372/hour  $372/month  $4,468/year  @ 1,000 h/mo
 | `2026-08-16_over_settling_reps3.{md,json}` | the fold vs the two-stage pair, 56 turns x 3 draws, before temperature was pinned. First measurement that the check does not reproduce its own verdict on 29-43% of turns |
 | `2026-08-16_over_settling_reps3_temp0.{md,json}` | the same replay with `monitoring_temperature=0`. Less noise, one stable regression left |
 | `2026-08-16_turn48_diagnosis.{md,txt}` | that regression, opened up: the fold enumerates the claim and clears it, three draws out of three, always the same way. The reason the flag stays off |
+| `2026-08-16_instability.{md,txt}` | why the check disagrees with itself: the model on byte-identical input, amplified by an OR across candidates. Includes the relational-safety classifier measured stable, and the free fix that was rejected |

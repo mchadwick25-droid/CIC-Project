@@ -123,7 +123,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     <li><strong>A turn costs $0.03103, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
     <li><strong>$0.30/hour is not reachable at twelve turns an hour.</strong> <span class="delta"><span class="was">$0.293</span><span class="arw">→</span><span class="now">$0.305</span></span> — cutting <em>every</em> lever in this review, including deleting the relational-safety classifier and drift detection outright, still lands above the target. The one remaining free cut was built, measured over 56 turns × 3 draws, and <a href="#screen">rejected on evidence</a>. What moves the number now is conversational pace, not apparatus.</li>
     <li><strong>Safety is ~10% of spend, not 3.2%</strong> — corrected by measurement, and it cuts against the position this review argued. The gate meant to fix it was then built and <strong>failed its own test 0/16</strong>; a transcript trim worth $69/year shipped in its place. See <a href="#safety">the correction</a>.</li>
-    <li><strong>The over-settling check does not reproduce its own verdict on 29–43% of turns.</strong> Same turn, same code, three draws, three different answers — in the version running in production, not the alternative. A participant's correction is partly a coin flip. One cause was a sampling temperature nobody had ever set; pinning it recovered about a third of the instability and left the rest. Every rate on this page is a single draw of that process.</li>
+    <li><strong>The over-settling check does not reproduce its own verdict on 29–43% of turns — and the cause is now measured.</strong> It is the model, on byte-identical input, at 12k tokens: not temperature, not retrieval, not the screen. Freeze one adjudication prompt and replay it and 30% of turns still change verdict; the 1k-token screen prompt comes back byte-identical eight times out of eight. <strong>The relational-safety classifier was measured the same way and does not do this at all</strong> — sixteen held-out distress and attachment probes, six draws each, zero disagreements. Every rate on this page is a single draw of the unstable one.</li>
     <li><strong>Sonnet 5 pricing is stable at $2/$10.</strong> Verified against the live docs: flat pricing, no introductory expiry. An earlier draft warned of a 31 August cliff drawn from a stale cached table; withdrawn. There is no deadline on the voice-model decision.</li>
     <li><strong>The largest uncertainty left is not a lever at all.</strong> Twelve turns an hour assumes <strong>four minutes of thinking and typing per question</strong> — measured out of the event logs, and never checked against a real participant. At a one-minute pause the system costs $0.913/hour, not $0.372.</li>
   </ol>
@@ -254,7 +254,41 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     <p><strong>So the screen's contribution is not the filtering the cost case measured. At an 82% fire rate it demonstrably fails at filtering. Its contribution is blindness — and blindness cannot be restored by instruction inside a single call that reads the sources before it writes a word.</strong> The prompt says "finish the first phase before beginning the second". It cannot.</p>
   </div>
   <p>One real finding lost per 56 turns is worth more than $117 a year. The flag stays off. The code, the harness and the diagnosis stay in the tree as the record of a decision made on evidence rather than on either instinct.</p>
-  <p class="note">The larger finding is not about the fold. A check that answers differently on the same turn decides whether a participant gets corrected, partly at random — and it is what every rate on this page is a single draw of. That is now the open question in this area, and it is worth more than any dollar left in this document.</p>
+  <p class="note">One correction from later draws: six frozen replays put the pair at 5/6 on turn 48 rather than 6/6. Read it as "the pair confirms on 8 of its 9 draws and the fold on none of its 6" — the mechanism was read off the model's own words and is unaffected, but the word "stable" was doing more work than the sample supported.</p>
+
+  <h3>Why the check disagrees with itself</h3>
+  <p>The instability above was the larger finding, so it was chased down rather than left as a caveat. The method is to hold one thing fixed at a time: everything the pipeline can vary between draws is a suspect, and there are only four — the model, the cache, retrieval, and the screen.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Suspect</th><th class="wrap-ok">Test</th><th class="wrap-ok">Result</th></tr></thead>
+      <tbody>
+        <tr><td>Sampling temperature</td><td class="wrap-ok">Inspect the request payload</td><td class="wrap-ok"><code>temperature: 0.0</code> genuinely sent</td></tr>
+        <tr><td>The model, short prompt</td><td class="wrap-ok">Frozen 1k-token <em>screen</em> prompt × 8</td><td class="wrap-ok"><strong>8/8 byte-identical</strong></td></tr>
+        <tr class="hit"><td>The model, long prompt</td><td class="wrap-ok">Frozen 12k-token <em>adjudication</em> prompt × 8</td><td class="wrap-ok"><strong>7/8 confirm, 1/8 clear</strong></td></tr>
+        <tr><td>Prompt caching</td><td class="wrap-ok">Same bytes, no cache breakpoint × 8</td><td class="wrap-ok">Also flips — not a cache artefact</td></tr>
+        <tr><td>Retrieval</td><td class="wrap-ok"><code>_gather_world_evidence</code> × 8</td><td class="wrap-ok">One distinct source block</td></tr>
+        <tr><td>Stage 1</td><td class="wrap-ok">56 turns × 3 draws</td><td class="wrap-ok">Screen fired identically on every turn</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>At scale — twenty turns, each prompt frozen and replayed six times — <strong>30% changed their verdict on identical bytes</strong>, against 21–43% on live traffic. The pipeline explains none of it. A later run of the same experiment measured 47%, so even the flip rate is not a stable quantity.</p>
+  <div class="callout">
+    <div class="eyebrow">The mechanism, and the amplifier</div>
+    <p>Greedy decoding is deterministic given identical logits, so a flip means the top two tokens were near-tied where the verdict is written. <strong>The check disagrees with itself precisely where its judgement is marginal</strong> — which a 12k-token evidence-dense prompt asking a fine distinction produces, and a 1k-token prompt sorting plainly-different categories does not.</p>
+    <p>Then the design multiplies it. A turn confirms if <em>any</em> candidate confirms, so an 11–15% per-candidate flip rate compounds across the three or four candidates the screen forwards to ~30–38% per turn. <strong>The check is noisier than any single ruling it makes.</strong></p>
+  </div>
+  <div class="stats">
+    <div class="stat"><span class="k">Per-candidate flip</span><span class="v warn">11–15%</span><span class="n">on byte-identical input</span></div>
+    <div class="stat"><span class="k">Per-turn flip</span><span class="v bad">30–47%</span><span class="n">the OR across 3–4 candidates</span></div>
+    <div class="stat"><span class="k">Relational safety</span><span class="v good">0/19</span><span class="n">probes varied across 6 draws each</span></div>
+  </div>
+  <p><strong>The classifier that matters is stable.</strong> Sixteen held-out distress and attachment probes — written to break the rejected lexicon gate, so present in no prompt — plus three ordinary questions, six draws each: not one varied, and none flipped between acting and staying silent. Every A1 probe read <code>ACUTE_DISTRESS:A1</code>, the A2 as <code>A2</code>, every attachment probe <code>HARMFUL_DYNAMIC_SIGNAL</code> with a tag. Its prompt is ~1.3k tokens. So this is not "LLM classifiers are unreliable" — it is one long, source-fed judgement.</p>
+  <div class="callout warn">
+    <div class="eyebrow">A free fix, measured and rejected</div>
+    <p>The shipped format writes the verdict as the <em>first</em> token of each line, then asks the model to apply an affirmative test <em>"to yourself"</em> — silent reasoning the format gives it nowhere to write. Moving the verdict to the end of the line, after the evidence is named, costs nothing and halves turn-level flipping (47% → 20%).</p>
+    <p>It does it by <strong>confirming far more</strong>: eleven of fifteen turns against six, four of five disagreements running clears → confirms, and a <em>higher</em> per-candidate flip rate. Its stability is the OR saturating, not the judgement steadying — the exact false-confirm direction the check's own asymmetry rule exists to prevent. Not shipped; the prompt is untouched.</p>
+  </div>
+  <p>Accepting it costs nothing, and that is the recommendation: this check produces invisible correction guidance to the representative, not a block on the participant, and the load-bearing classifier has now been measured stable. Re-drawing only on a confirm and requiring two of two would cost ~$190/year and halve flip-driven false confirms without recovering a single miss; best-of-three on every adjudication would cost ~$1,376/year, more than every other line in this review combined. <strong>What has to change is not the mechanism but the confidence placed in any single-draw number taken from it — including the 82% fire rate and 28% confirm rate the cost case rests on.</strong></p>
 </section>
 
 <hr>
@@ -345,7 +379,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <ol>
     <li><strong>Put one real participant through one session.</strong> That settles turns-per-hour, which outweighs every item below it — and the tooling and logging for it already exist. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
     <li><strong>Fix the cost calculator.</strong> Uncached input is <code>input_tokens − cache_read − cache_creation</code>, or read the raw block where available. Every figure downstream depends on it.</li>
-    <li><strong>Find out why the over-settling check disagrees with itself</strong> on a third of turns. Temperature is pinned now and it was only part of it. This outranks every remaining dollar on the page: it decides whether a participant's turn gets corrected. <span class="note">(Folding the screen into the adjudicator — the item that stood here — is done and rejected. Do not retune the screen either.)</span></li>
+    <li><strong>Nothing further on the over-settling check.</strong> Folding it, retuning it, and stabilising it have all now been measured and closed. Its instability is the model on identical bytes and is not worth $1,376/year to suppress; the classifier where instability would actually matter was measured and is stable. <span class="note">(If flip-driven false confirms turn out to bother real participants, re-drawing only on a confirm costs ~$190/year and halves them.)</span></li>
     <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.360 and $0.305 — which no longer reaches the target either way. Whichever way it goes, it should be chosen rather than discovered.</li>
     <li><strong>Leave the voice on Sonnet.</strong> No deadline, no forcing function, and $892/year is the wrong price for a citation regression.</li>
   </ol>

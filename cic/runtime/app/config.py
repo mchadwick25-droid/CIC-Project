@@ -157,6 +157,21 @@ class Settings(BaseSettings):
     # for sampling variety to contribute. 0.0 is the right default and the
     # setting exists so it can be moved without a deploy if some classifier
     # turns out to want otherwise.
+    #
+    # WHAT PINNING IT DID AND DID NOT FIX, measured 2026-08-16 with
+    # tools/cost/why_unstable.py (samples/2026-08-16_instability.md):
+    # it fixed the SHORT prompts and nothing else. The 1k-token
+    # over-settling screen now returns byte-identical output across eight
+    # draws, and classify_relational_safety answered 16 held-out distress
+    # and attachment probes identically on all six draws each. The
+    # 12k-token source-fed adjudication still changes its verdict on
+    # byte-identical input, on ~30% of turns - not temperature, not
+    # retrieval (one distinct source block across eight gathers), not
+    # stage 1. Greedy decoding is deterministic given identical logits, so
+    # a flip means the decision token was near-tied: the check disagrees
+    # with itself exactly where its judgement is marginal, and a turn
+    # confirms if ANY of 3-4 candidates does, so an 11-15% per-candidate
+    # rate compounds to the turn-level 30-47%.
     monitoring_temperature: float = 0.0
 
     # Fold the OVER_SETTLING screen into the adjudicator: one source-fed

@@ -40,12 +40,15 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    *share* tripled because the denominator fell. At $0.372/hour they are no
    longer a rounding error, and $0.30 cannot be reached without them.
 7. **The over-settling check does not reproduce its own verdict on 29–43% of
-   turns** — found while A/B-ing the fold, and it is about the code running
-   in production, not the alternative. Same turn, same code, different
-   answer: a participant's correction is partly a coin flip. One cause was an
-   unset sampling temperature, now pinned (`settings.monitoring_temperature`);
-   that recovered roughly a third of the instability and left the rest. Every
-   rate in this document is a single draw of that process.
+   turns, and the cause is now measured: the model, on byte-identical input.**
+   Not temperature (pinned, and verified present in the request payload), not
+   retrieval, not the screen. Freezing one adjudication prompt and replaying
+   it flips 30% of turns; the 1k-token screen prompt is byte-identical across
+   eight draws. **`classify_relational_safety` was measured too and does not
+   do this at all** — 16 held-out distress and attachment probes, six draws
+   each, zero disagreements. The instability is specific to long, source-fed,
+   fine-grained judgement, and every rate in this document is a single draw
+   of it.
 
 ## Measured on real traffic (48 turns, 2026-08-16)
 
@@ -568,6 +571,73 @@ The fold saves **$117/yr**. One real finding lost per 56 turns costs more than
 that. The code, the flag, the harness and the diagnosis all stay in the tree
 as the record of a decision made on evidence rather than on either instinct.
 
+*(One correction from later draws: six frozen replays put the pair at 5/6 on
+turn 48 rather than 6/6. Read it as "the pair confirms on 8 of its 9 draws and
+the fold on none of its 6". The mechanism above was read off the model's own
+words and is unaffected; the word "stable" was doing more work than the sample
+supported.)*
+
+#### Why the check disagrees with itself — answered
+
+`tools/cost/why_unstable.py` holds one thing fixed at a time. Everything the
+pipeline can vary between draws is a suspect, and there are only four: the
+model, the cache, retrieval, and stage 1.
+
+| suspect | test | result |
+|---|---|---|
+| sampling temperature | inspect the request payload | `temperature: 0.0` genuinely sent |
+| the model, short prompt | frozen 1k-token **screen** prompt × 8 | **8/8 byte-identical** |
+| the model, long prompt | frozen 12k-token **adjudication** prompt × 8 | **7/8 confirm, 1/8 clear** |
+| prompt caching | same bytes, no cache breakpoint × 8 | also flips — not a cache artefact |
+| retrieval | `_gather_world_evidence` × 8 | **one distinct source block** |
+| stage 1 | 56 turns × 3 draws | screen fired identically on every turn |
+
+At scale: 20 turns, each prompt frozen and replayed six times — **6/20 (30%)
+changed verdict on identical bytes**, against 21–43% on live traffic. **The
+pipeline explains none of it.** A later run of the same experiment measured
+47%, so even the flip rate is not a stable quantity.
+
+**Why long prompts and not short ones.** Greedy decoding is deterministic
+given identical logits, so a flip means the top two tokens were near-tied
+where the verdict is written. The check disagrees with itself precisely where
+its judgement is marginal — which a 12k-token evidence-dense prompt asking a
+fine distinction produces and a 1k-token prompt sorting plainly-different
+categories does not.
+
+**The structural amplifier.** A turn confirms if *any* candidate confirms. An
+11–15% per-candidate flip rate compounds across the 3–4 candidates the screen
+forwards to ~30–38% per turn. The check is noisier than any single ruling it
+makes, and the screen's instruction to forward everything — right on its own
+terms, since it cannot rank blind — is what multiplies it.
+
+**The classifier that matters is stable.** Sixteen held-out distress and
+attachment probes (written to break the rejected lexicon gate, so in no
+prompt) plus three ordinary questions, six draws each: **0/19 varied**, and
+none flipped between acting and staying silent. Every A1 probe read
+`ACUTE_DISTRESS:A1`, the A2 as `A2`, every attachment probe
+`HARMFUL_DYNAMIC_SIGNAL` with a tag. Its prompt is ~1.3k tokens. So this is
+not "LLM classifiers are unreliable" — it is one long, source-fed judgement.
+
+**An attempted fix, measured and rejected.** The shipped format writes the
+verdict as the *first* token of each line and then asks for an affirmative
+test *"to yourself"* — silent reasoning the format gives it nowhere to write.
+Moving the verdict to the end of the line, after the evidence is named, costs
+nothing and halves turn-level flipping (47% → 20%). It does it by confirming
+far more: 11 of 15 turns against 6, with four of five disagreements running
+clears → confirms, and a *higher* per-candidate flip rate. Its stability is
+the OR saturating, not the judgement steadying — the exact false-confirm
+direction the check's own asymmetry rule exists to prevent. Not shipped; the
+prompt is untouched.
+
+**What is available.** Accepting it costs nothing and is the recommendation:
+OVER_SETTLING produces invisible correction guidance, not a block, and the
+load-bearing classifier is stable. Re-drawing only on confirm and requiring
+2 of 2 would cost ~$190/yr and halve flip-driven false confirms without
+recovering any miss. Best-of-3 on every adjudication would cost ~$1,376/yr —
+more than every other line in this review combined. What has to change is not
+the mechanism but the confidence placed in any single-draw number taken from
+it, including the 82% fire rate and 28% confirm rate the cost case rests on.
+
 ### B · The gate design does not survive contact with the code — REJECTED
 
 I proposed this one and it was wrong. Three findings, all from reading the
@@ -798,10 +868,14 @@ ledger removes the need to choose.
    the fold (section C). Do not retune the screen either: it is now the one
    deterministic classifier in the system. Total available saving here was
    $117/yr.
-2a. **Stabilise the check itself.** The real finding: it does not reproduce
-   its own verdict on 29–43% of turns. Temperature is pinned now; the rest
-   is unexplained and is worth more than any remaining dollar in this
-   document, because it decides whether a participant's turn gets corrected.
+2a. ~~**Stabilise the check itself.**~~ **DIAGNOSED.** It is the model on
+   byte-identical input, at 12k tokens, amplified by an OR across 3–4
+   candidates — not temperature, retrieval or the screen. The one free fix
+   (verdict token last instead of first) was measured and rejected for
+   confirming far more. The relational-safety classifier was measured too
+   and does not do this. Recommendation: accept it, stop treating
+   single-draw rates as measurements, and revisit only if flip-driven false
+   confirms turn out to bother real participants (~$190/yr to halve them).
 3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.

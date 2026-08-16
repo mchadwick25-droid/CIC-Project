@@ -94,6 +94,15 @@ different outputs, though the adjudicator's *verdict pattern* was stable
 not buy determinism on a 12k-token prompt; it did buy it on the 1k-token
 screen.
 
+## One correction, from six further draws
+
+Later frozen-input replays (`why_unstable.py --sweep`) put the pair at **5/6**
+on this turn, not 6/6. So "the pair confirms on every draw" describes two
+three-draw samples, not the check: read it as *the pair confirms on 8 of its 9
+draws and the fold on none of its 6*. The mechanism above is unaffected — it
+was read directly off the model's own words, three times — but the word
+"stable" was doing more work than the sample supports.
+
 ## Is the pair right?
 
 Mostly. The response asserts an ordering — the meal, not the water,
