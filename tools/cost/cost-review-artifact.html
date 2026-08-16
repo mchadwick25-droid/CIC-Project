@@ -111,7 +111,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <div class="stats">
   <div class="stat"><span class="k">Reported</span><span class="v bad">$1.09</span><span class="n">per hour · cached tokens charged twice</span></div>
   <div class="stat"><span class="k">Measured</span><span class="v good">$0.031</span><span class="n">per turn · 48 live turns · solid</span></div>
-  <div class="stat"><span class="k">At 12 turns/hour</span><span class="v warn">$0.372</span><span class="n">the assumed pace · $0.305 with every lever cut</span></div>
+  <div class="stat"><span class="k">At 12 turns/hour</span><span class="v warn">$0.372</span><span class="n">the assumed pace · $0.223 with the whole apparatus cut</span></div>
   <div class="stat"><span class="k">At 30 turns/hour</span><span class="v bad">$0.93</span><span class="n">pace has never been measured</span></div>
 </div>
 
@@ -121,7 +121,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     <li><strong>The prompt cache works.</strong> A live two-turn test returned a clean 17,565-token <code>cache_read</code> on the second call, on both the streaming and non-streaming paths, at the 1-hour TTL. My first pass suspected a runtime cache failure. It was wrong, and it is withdrawn.</li>
     <li><strong>The cost calculator double-charges cached tokens.</strong> LangChain reports <code>input_tokens</code> as the <em>total</em> input, with <code>cache_read</code> as a subset of it — the raw Anthropic block reports the two as additive. A calculator that sums all three overstates spend. Estimated at 2.6×; <span class="delta"><span class="was">2.6×</span><span class="arw">→</span><span class="now">2.39×</span></span> measured across 440 real calls.</li>
     <li><strong>A turn costs $0.03103, measured.</strong> <span class="delta"><span class="was">$1.09</span><span class="arw">→</span><span class="now">$0.372</span></span> — and the intermediate estimate of $0.53 was also too high. Every projection in this review has been pessimistic, for the same reason each time: the ledger was built on an inflated baseline.</li>
-    <li><strong>$0.30/hour is not reachable at twelve turns an hour.</strong> <span class="delta"><span class="was">$0.293</span><span class="arw">→</span><span class="now">$0.305</span></span> — cutting <em>every</em> lever in this review, including deleting the relational-safety classifier and drift detection outright, still lands above the target. The one remaining free cut was built, measured over 56 turns × 3 draws, and <a href="#screen">rejected on evidence</a>. What moves the number now is conversational pace, not apparatus.</li>
+    <li><strong>$0.30/hour is reachable, but only by deleting the whole safety and integrity layer.</strong> <span class="delta"><span class="was">$323/yr</span><span class="arw">→</span><span class="now">$1,305/yr</span></span> — <code>drift_detection</code> turned out to be the sole call site that reaches <code>over_settling</code>, so cutting it takes both, plus the system's only fabrication screen. Taking that, <code>relational_safety</code>, and the shadow checks together reaches <strong>$0.223/hour</strong>. Taking only what costs no mechanism lands at <strong>$0.360</strong>. Between those two numbers is a decision about what the app is for, not a cost problem.</li>
     <li><strong>Safety is ~10% of spend, not 3.2%</strong> — corrected by measurement, and it cuts against the position this review argued. The gate meant to fix it was then built and <strong>failed its own test 0/16</strong>; a transcript trim worth $69/year shipped in its place. See <a href="#safety">the correction</a>.</li>
     <li><strong>The over-settling check does not reproduce its own verdict on 29–43% of turns — and the cause is now measured.</strong> It is the model, on byte-identical input, at 12k tokens: not temperature, not retrieval, not the screen. Freeze one adjudication prompt and replay it and 30% of turns still change verdict; the 1k-token screen prompt comes back byte-identical eight times out of eight. <strong>The relational-safety classifier was measured the same way and does not do this at all</strong> — sixteen held-out distress and attachment probes, six draws each, zero disagreements. Every rate on this page is a single draw of the unstable one.</li>
     <li><strong>Sonnet 5 pricing is stable at $2/$10.</strong> Verified against the live docs: flat pricing, no introductory expiry. An earlier draft warned of a 31 August cliff drawn from a stale cached table; withdrawn. There is no deadline on the voice-model decision.</li>
@@ -150,6 +150,10 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     </table>
   </div>
   <p><code>main_response</code> is 44% of spend and it is the floor: <strong>$0.163/hour before any apparatus runs at all.</strong> A $0.30 budget leaves $0.137/hour for everything else. Everything else currently costs $0.209.</p>
+  <div class="callout warn">
+    <div class="eyebrow">These three rows are one mechanism, not three</div>
+    <p>Read from the code (<code>_detect_drift_signal_impl</code> in <code>app/graph/nodes.py</code>): <code>over_settling_screen</code> and <code>over_settling_adjudication</code> have exactly one call site in the whole codebase — inside <code>drift_detection</code>, reached only when its general monitor comes back clean. Cutting <code>drift_detection</code> silently takes <code>over_settling</code> with it. <code>drift_detection</code> also carries the system's only fabrication screen — one of its eleven signal types, and the source-fed adjudicator never runs unless this blind first pass flags it. The route table below prices the coupled cost correctly; this row stays as measured.</p>
+  </div>
 </section>
 
 <hr>
@@ -163,15 +167,18 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
         <tr><td>Measured today</td><td class="n">—</td><td class="n">—</td><td class="n">0.372</td></tr>
         <tr class="dead"><td>Fold the screen into the adjudicator</td><td class="n">0.00098</td><td class="n">141</td><td class="n">rejected</td></tr>
         <tr class="floor"><td>Drop the groundedness shadow checks</td><td class="n">0.00099</td><td class="n">143</td><td class="n">0.360</td></tr>
-        <tr><td>Drop <code>drift_detection</code></td><td class="n">0.00224</td><td class="n">323</td><td class="n">0.334</td></tr>
-        <tr class="target"><td>Drop <code>relational_safety</code></td><td class="n">0.00238</td><td class="n">343</td><td class="n">0.305</td></tr>
+        <tr class="dead"><td>Drop <code>drift_detection</code> alone</td><td class="n">0.00224</td><td class="n">323</td><td class="n">wrong — see below</td></tr>
+        <tr><td>Drop <code>relational_safety</code></td><td class="n">0.00238</td><td class="n">343</td><td class="n">0.322</td></tr>
+        <tr class="target"><td>Drop <code>drift_detection</code> <strong>+ the <code>over_settling</code> it gates</strong></td><td class="n">0.00906</td><td class="n">1,305</td><td class="n">0.223</td></tr>
       </tbody>
     </table>
   </div>
-  <p>The first line is gone. It was the only cut on this ladder that cost no mechanism — a design simplification that looked like it removed a class of miss along with $141 a year. It was built, A/B'd against the path it would replace over 56 turns × 3 draws, and it <a href="#screen">loses a real finding every draw</a>. What remains free is the shadow checks, which already carry an off-switch and a 15 November review date. They reach <strong>$0.360</strong> and stop.</p>
+  <p>The first line is gone, same reason as before: built, A/B'd over 56 turns × 3 draws, and it <a href="#screen">loses a real finding every draw</a>.</p>
+  <p><strong>The second row corrects a mistake in the original ledger, not a new finding.</strong> "Drop drift_detection, $323/yr" treated it as severable from over_settling. It isn't — see the callout above. The row that can actually be taken is the coupled one below it: <strong>$1,305/yr</strong>, because taking it also removes <code>over_settling_screen</code> and <code>over_settling_adjudication</code>, which have no other way to run.</p>
   <div class="callout warn">
-    <div class="eyebrow">The honest part</div>
-    <p><strong>$0.30/hour is not reachable at this pace by any arrangement of these levers.</strong> Deleting drift detection <em>and</em> the relational-safety classifier — the whole apparatus argument, conceded in full — lands at $0.305. The target is not a lever problem. It is a pace problem, and pace has never been measured.</p>
+    <div class="eyebrow">That row is real money, and it is not a recommendation</div>
+    <p>Taking it removes the system's only fabrication screen — a 56-turn replay found zero fabrication findings in that sample, which is not evidence it's safe to cut, only evidence the sample is too small to say anything about the system's own stated cardinal failure. It also removes <code>over_settling</code> itself, the mechanism this review spent a full section building, measuring, and choosing to keep.</p>
+    <p><strong>So the honest headline moves.</strong> Every lever in this review, including the coupled drift/over-settling cut and <code>relational_safety</code>, reaches <strong>$0.223/hour</strong> — under $0.30. The earlier "not reachable by any arrangement of these levers" was wrong on the arithmetic; it <em>is</em> reachable. It requires deleting fabrication detection, over-settling detection, and acute-distress detection at once, which is not a cost decision at that point — it is turning the safety and integrity layer off. Taking only what costs no mechanism — the shadow checks — lands at <strong>$0.360</strong>. $0.30/hour is not reachable <em>without</em> touching what the app is for. That is the real trade-off, in dollars instead of asserted.</p>
   </div>
 </section>
 
@@ -383,7 +390,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
     <li><strong>Put one real participant through one session.</strong> That settles turns-per-hour, which outweighs every item below it — and the tooling and logging for it already exist. Nothing about the apparatus should be cut for a budget whose divisor is a guess.</li>
     <li><strong>Fix the cost calculator.</strong> Uncached input is <code>input_tokens − cache_read − cache_creation</code>, or read the raw block where available. Every figure downstream depends on it.</li>
     <li><strong>Nothing further on the over-settling check.</strong> Folding it, retuning it, and stabilising it have all now been measured and closed. Its instability is the model on identical bytes and is not worth $1,376/year to suppress; the classifier where instability would actually matter was measured and is stable. <span class="note">(If flip-driven false confirms turn out to bother real participants, re-drawing only on a confirm costs ~$190/year and halves them.)</span></li>
-    <li><strong>Decide the apparatus question deliberately.</strong> Drift detection and relational safety cost $0.056/hour together and stand between $0.360 and $0.305 — which no longer reaches the target either way. Whichever way it goes, it should be chosen rather than discovered.</li>
+    <li><strong>Decide the apparatus question deliberately.</strong> The coupled drift-detection/over-settling cut plus relational safety together stand between $0.360 (nothing touched) and $0.223 (fabrication, over-settling, and acute-distress detection all gone). Neither number should be reached by accident — see <a href="#route">the route table</a>.</li>
     <li><strong>Leave the voice on Sonnet.</strong> No deadline, no forcing function, and $892/year is the wrong price for a citation regression.</li>
   </ol>
 </section>

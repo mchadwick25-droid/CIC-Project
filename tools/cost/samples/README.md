@@ -73,3 +73,4 @@ PROJECTION  $0.372/hour  $372/month  $4,468/year  @ 1,000 h/mo
 | `2026-08-16_over_settling_reps3_temp0.{md,json}` | the same replay with `monitoring_temperature=0`. Less noise, one stable regression left |
 | `2026-08-16_turn48_diagnosis.{md,txt}` | that regression, opened up: the fold enumerates the claim and clears it, three draws out of three, always the same way. The reason the flag stays off |
 | `2026-08-16_instability.{md,txt}` | why the check disagrees with itself: the model on byte-identical input, amplified by an OR across candidates. Includes the relational-safety classifier measured stable, and the free fix that was rejected |
+| `2026-08-16_drift_detection.{md}` | the `drift_detection` cut priced wrong in the original ledger — it's the sole gate to `over_settling`, real coupled cost $1,305/yr not $323, and it carries the system's only fabrication screen. Not recommended |

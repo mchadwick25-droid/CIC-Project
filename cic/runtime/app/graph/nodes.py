@@ -2538,6 +2538,17 @@ def _detect_drift_signal(response_text: str, world_id: str | None = None) -> Dri
     (Voice Rebuild Phase 0.4 - the per-signal breakdown Design §3/Blueprint
     0.4 name as drift_detection's real gap, see app/drift_signal_logging.py)
     without touching any of the impl's own return points or logic.
+
+    NOT SEVERABLE FROM over_settling (2026-08-16 cost review, see
+    tools/cost/samples/2026-08-16_drift_detection.md): _detect_drift_signal_impl
+    is the ONLY caller of _over_settling_signal anywhere in this codebase -
+    reached in its clean-turn branch, below. Cutting this function to save
+    the $323/yr its own [llm_usage] line shows silently takes over_settling
+    (screen + adjudication, ~$982/yr more) with it, and this function's own
+    general monitor is also the system's only fabrication screen. A cost
+    decision that touches this function is a decision about all three at
+    once, not one line item - see the corrected route-to-$0.30 table in the
+    cost review before proposing to drop it.
     """
     from app.drift_signal_logging import log_drift_signal_outcome
     signal = _detect_drift_signal_impl(response_text, world_id)

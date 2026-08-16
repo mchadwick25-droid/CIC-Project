@@ -24,13 +24,16 @@ Single-voice mode. Published view: https://claude.ai/code/artifact/b56d902b-fe88
    overstates `main_response` by **2.6x**.
 3. **True cost today is $0.372/hour — measured, not modelled.** Not $1.09,
    and not the $0.53 this document estimated before the traffic sample ran.
-4. **$0.30/hour is not reachable at 12 turns/hour.** Cutting *every* lever in
-   this review — including deleting both the relational-safety classifier and
-   drift detection outright — lands at **$0.305**. The one remaining "free"
-   cut, folding the over-settling screen into the adjudicator, was built,
-   measured over 56 turns × 3 draws, and rejected: it loses a real finding
-   every draw to save $117/yr. What moves the number now is conversational
-   pace, not apparatus — and pace has never been measured.
+4. **$0.30/hour is reachable, but only by deleting the whole safety and
+   integrity layer.** `drift_detection` turned out to be the sole call site
+   that reaches `over_settling` — cutting it takes both, plus the system's
+   only fabrication screen, for real money: **$1,305/yr**, not the $323 the
+   ledger first showed. Taking that, `relational_safety`, and the shadow
+   checks together reaches **$0.223/hour**. Taking only what costs no
+   mechanism — the shadow checks — lands at **$0.360**. Between those two
+   numbers is a decision about what the app is for, not a cost problem, and
+   it is not one to make on a guess: pace has never been measured either,
+   and moves the number more than any lever here.
 5. **Sonnet 5 pricing is stable at $2/$10.** Verified against the live model
    docs 2026-08-16: flat pricing, no introductory expiry. An earlier draft of
    this review warned of a 2026-08-31 cliff, drawn from a stale cached table;
@@ -70,6 +73,18 @@ finding 2 on live data rather than a replica.
 | *12 smaller labels* | 0.00599 | 19.3% | 0.072 |
 | **TOTAL** | **0.03103** | | **0.372** |
 
+**These three rows are one mechanism, not three.** Read from the code
+(`_detect_drift_signal_impl` in `app/graph/nodes.py`), `over_settling_screen`
+and `over_settling_adjudication` have exactly one call site in the whole
+codebase — inside `drift_detection`, reached only when its general monitor
+comes back clean. Cutting `drift_detection` silently takes `over_settling`
+with it; there is no other path to it. `drift_detection` also carries the
+system's only fabrication screen (one of its eleven signal types) — the
+source-fed adjudicator never runs unless this blind first pass flags it.
+Section D below prices the coupled cost correctly; the row above is left
+byte-identical to what the sample measured, not restated, so the ledger
+stays a faithful record of what was logged.
+
 `main_response` is 44% of spend and is the floor: **$0.163/hour before any
 apparatus runs at all.** A $0.30 budget leaves $0.137/hour for everything
 else; everything else currently costs $0.209.
@@ -81,20 +96,43 @@ else; everything else currently costs $0.209.
 | — | | | | 0.372 |
 | ~~fold the screen into the adjudicator~~ | ~~0.00098~~ | ~~0.012~~ | ~~141~~ | **built, measured, rejected** |
 | drop groundedness shadow checks | 0.00099 | 0.012 | 143 | 0.360 |
-| drop `drift_detection` | 0.00224 | 0.027 | 323 | 0.334 |
-| drop `relational_safety` | 0.00238 | 0.029 | 343 | **0.305** |
+| ~~drop `drift_detection`~~ | ~~0.00224~~ | ~~0.027~~ | ~~323~~ | **measured, rejected — see below** |
+| drop `relational_safety` | 0.00238 | 0.029 | 343 | 0.322 |
+| drop `drift_detection` **+ the `over_settling` it gates** | 0.00906 | 0.109 | 1,305 | **0.223** |
 
-**The first line is gone.** The fold was built, measured against the two-stage
-path over 56 turns × 3 draws, and rejected on evidence — it loses a real
-finding, every draw, for $117/yr (section C). That single line was the only
-"free" cut in the route that did not cost a mechanism.
+**The first line is gone**, same as before — built, measured against the
+two-stage path over 56 turns × 3 draws, rejected on evidence for losing a
+real finding every draw (section C).
 
-What remains: the shadow checks are free — a graduation date is already on
-them. The other two are the apparatus itself. **Cutting every lever in this
-review now lands at $0.305, not $0.293.** $0.30/hour is not reachable at
-12 turns/hour by any arrangement of these levers, including the ones that
-delete safety mechanisms outright. Whether it is reachable at all is a
-question about conversational pace, not about apparatus — see below.
+**The second row corrects a mistake in the original ledger, not a new
+finding.** `drop drift_detection, $323/yr` treated it as severable from
+`over_settling`. It isn't — see the note under the ledger above. The row
+that can actually be taken is the coupled one below it: $1,305/yr, not
+$323, because taking it also removes `over_settling_screen` and
+`over_settling_adjudication`, which have no other way to run.
+
+**That coupled row is real money, and I am not recommending it.** It also
+removes the system's only fabrication screen — `drift_detection`'s general
+monitor carries FABRICATION as one of eleven signal types, and the
+source-fed adjudicator that confirms it never runs unless this blind first
+pass flags it first. A 56-turn replay of this check
+(`tools/cost/measure_drift_signal.py`, samples/2026-08-16_drift_detection.md)
+found zero fabrication in that sample — not evidence it's safe to cut, just
+evidence the sample is too small to say anything about the system's own
+stated cardinal failure. And it removes `over_settling` itself, the
+mechanism this review spent a full section building, measuring, and
+choosing to keep.
+
+**So the honest headline changes in one place.** Taking every lever in this
+review INCLUDING the coupled drift/over-settling cut and relational_safety
+reaches **$0.223/hour** — under $0.30. The earlier "not reachable by any
+arrangement of these levers" was wrong on the arithmetic; it is reachable.
+It requires deleting fabrication detection, over-settling detection, and
+acute-distress detection at the same time, which is not a cost decision at
+that point, it is turning the safety and integrity layer off. Taking only
+the levers that don't cost a mechanism — the shadow checks — lands at
+**$0.360**. $0.30/hour is not reachable *without* touching what the app is
+for. That is the real trade-off, stated in dollars instead of asserted.
 
 ### Two things the sample settles that the model could not
 
@@ -876,6 +914,19 @@ ledger removes the need to choose.
    and does not do this. Recommendation: accept it, stop treating
    single-draw rates as measurements, and revisit only if flip-driven false
    confirms turn out to bother real participants (~$190/yr to halve them).
+2b. ~~**Drop `drift_detection` to save $323/yr.**~~ **MEASURED AND REJECTED —
+   the ledger itself was wrong.** Tracing the code
+   (`_detect_drift_signal_impl`) found `over_settling_screen` and
+   `over_settling_adjudication` have exactly one call site, inside
+   `drift_detection`'s clean-turn branch — cutting it silently takes
+   `over_settling` too, and with it the system's only fabrication screen.
+   Real coupled cost: **$1,305/yr**, not $323. Not recommended at any price:
+   this is the section C mechanism kept above, plus the one thing standing
+   between an invented scene and a participant told it is witness. A
+   56-turn replay (`tools/cost/measure_drift_signal.py`) found 0 fabrication
+   findings and 6 other drift signals — too small a sample to say anything
+   about the rare, high-cost failure this exists to catch; do not retune or
+   cut on it. See the corrected route-to-$0.30 table.
 3. **Gate the safety classifiers** behind a first-person distress filter.
 4. **Measure at concurrency.** A single-session test overstates per-turn cost
    by the whole cache-write amortisation.
