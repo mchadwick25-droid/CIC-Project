@@ -41,6 +41,17 @@ from dataclasses import dataclass
 # used correctly since S3.1; it is stated once here and imported everywhere.
 SECTION_END_MARKERS: tuple[str, ...] = ("\n---", "\n## ", "\n\n**")
 
+# A FENCED section ("## Name") may legitimately contain bold labels inside it -
+# "## Distortion Risk" holds "**Modern Hearing:**" and "**World Hearing:**" as
+# sub-labels, not as the next section. Ending such a section at the first
+# "\n\n**" stops it dead at its own first sub-label and reports an extent of a
+# few characters where the real section is several hundred. That was harmless
+# while the only excised section was Quick Meaning (plain prose in every
+# deployed chunk, verified), and becomes wrong the moment anything with
+# sub-labels is excised. A BOLD-label section cannot contain another bold
+# label - that IS the next section - so it keeps all three end markers.
+FENCED_SECTION_END_MARKERS: tuple[str, ...] = ("\n---", "\n## ")
+
 # Tried in order; the first one present in the body wins, so a body carrying
 # both conventions resolves to the fenced form, exactly as the previous
 # hand-rolled copies did.
@@ -66,6 +77,42 @@ TRAILING_APPARATUS_MARKERS: tuple[str, ...] = (
     "**Final Assembly Instruction**",
     "## Related-Terms Reciprocity Note", "**Related-Terms Reciprocity Note:**",
     "**Related-Terms Reciprocity Note**",
+)
+
+
+def _both_conventions(name: str) -> tuple[str, ...]:
+    """This module's own rule, applied to one section name."""
+    return (f"## {name}", f"**{name}:**", f"**{name}**")
+
+
+# Build-record sections that must never reach the Representative's prompt.
+# Distinct from KEY_SOURCES (citation apparatus) and QUICK_MEANING (deduped
+# against the cached prefix): these are commentary written FOR A BUILDER about
+# why a chunk matters to the world build, and the Representative has no use
+# for any of it.
+#
+# "Distortion Risk" is the load-bearing one and is removed on grounds of
+# coherence before cost. Its body is written as "A modern reader hears X..." -
+# it hands the Representative explicit knowledge of how a modern participant
+# thinks, which is precisely what the permanent prompt's Total Embeddedness
+# rule forbids ("You do not know you are a reconstruction. You do not know you
+# are mediated by AI."). FLAG-018 is the observed consequence: the voice read
+# the apparatus as a task and opened turns with unprompted sense-clarifications
+# for terms nobody had spoken. The compensating instruction written to suppress
+# that shipped in the dynamic prompt on every single turn; removing the cause
+# lets the instruction go with it.
+#
+# Deliberately NOT listed, though they read like apparatus by name:
+#   Usage Guidance   - carries real anti-fabrication constraints for the voice
+#   Absent Story Note - tells the voice what NOT to invent when asked
+#   Plural-Voices Note - attribution honesty, which the voice must carry
+#   Source Identification / Tier Justification / Final Assembly Instruction
+#                    - already stripped at index time by StoryIndexer
+VOICE_APPARATUS_LEXICON_SECTIONS: tuple[str, ...] = (
+    "Distortion Risk", "Ecological Function",
+)
+VOICE_APPARATUS_STORY_SECTIONS: tuple[str, ...] = (
+    "Formation Ecology Connection",
 )
 
 
@@ -105,7 +152,9 @@ def find_section(body: str, markers: tuple[str, ...]) -> Section | None:
         content_start = start + len(marker)
         end = len(body)
         end_marker = None
-        for candidate in SECTION_END_MARKERS:
+        ends = (FENCED_SECTION_END_MARKERS if marker.startswith("## ")
+                else SECTION_END_MARKERS)
+        for candidate in ends:
             pos = body.find(candidate, content_start)
             if pos != -1 and pos < end:
                 end = pos
@@ -197,3 +246,55 @@ def truncate_at(body: str, markers: tuple[str, ...], *,
         if pos != -1 and (earliest is None or pos < earliest):
             earliest = pos
     return body if earliest is None else body[:earliest].rstrip()
+
+
+# Below this, a body has no substance left to ground an answer on. Used by
+# excise_sections to refuse an excision that would empty a chunk out.
+MIN_VOICE_BODY_CHARS = 200
+
+
+def excise_sections(body: str, section_names: tuple[str, ...]) -> str:
+    """`body` with each named section removed, in both conventions.
+
+    A section that is absent is simply skipped, so this is idempotent and
+    safe to run over content another stage may already have stripped.
+
+    FAIL-SAFE: if removing the apparatus would leave nothing to speak from,
+    the original body is returned untouched. Eight deployed lexicon chunks
+    (pahclex012, pahclex013, syrlex005, syrlex008, desertlex013,
+    desertlex017, desertlex018, ijclex011) carry no World Meaning section at
+    all - or an empty one - so their entire substance sits inside what this
+    function is otherwise asked to strip. Removing it would hand the Representative a chunk with
+    no content, which is the Article 5 grounding failure this module was
+    written to stop happening a second time; paying for the apparatus on
+    those few chunks is strictly the better failure. The chunks themselves
+    need authoring attention - that is a records problem, not a runtime one,
+    and this guard must not be read as making it go away.
+    """
+    original = body
+    for name in section_names:
+        body = excise_section(body, _both_conventions(name))
+    body = _drop_trailing_rule(body)
+    if len(body.strip()) < MIN_VOICE_BODY_CHARS < len(original.strip()):
+        return original
+    return body
+
+
+def _drop_trailing_rule(body: str) -> str:
+    """Remove a horizontal rule left dangling at the end of a body.
+
+    excise_section drops the rule that CLOSED the section it removed, which
+    is correct. It cannot drop the rule that OPENED it - that rule closed the
+    section before, and while that section stands the rule belongs to it. But
+    when the removed section was the last thing in the body, that opening rule
+    is now trailing nothing, and the caller appends its own separator directly
+    after it. Cheaper to tidy here than to make excise_section reason about
+    what follows it.
+    """
+    stripped = body.rstrip()
+    while True:
+        nl = stripped.rfind("\n")
+        last = stripped[nl + 1:].strip()
+        if not last or not (set(last) <= set("-*_") and len(last) >= 3):
+            return stripped
+        stripped = stripped[:max(nl, 0)].rstrip()

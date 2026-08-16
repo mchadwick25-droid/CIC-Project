@@ -11,6 +11,8 @@ from app.config import settings
 from app.rag.pipeline import STORY_SPEC, run_retrieval
 from app.rag.retrieval_mode import TURN, RetrievalMode
 from app.rag.retriever import Citation, RetrievalEvaluation
+from app.rag.sections import (VOICE_APPARATUS_STORY_SECTIONS,
+                              excise_sections)
 from app.rag.source_registry import resolve_references
 from app.rag.story_indexer import StoryIndexer
 
@@ -149,7 +151,16 @@ class StoryRetriever:
             if confidence:
                 context_parts.append(f"Confidence: {confidence}\n")
             # S3.1: body from metadata["content"]; see retriever.py
-            context_parts.append(doc.metadata.get("content", doc.page_content))
+            # StoryIndexer already strips Tier Justification, Source
+            # Identification and Final Assembly Instruction at INDEX time, so
+            # those are absent from metadata["content"] on any freshly built
+            # store. This strip runs at SERIALIZATION time instead, which is
+            # what lets it take effect on stores built before it existed -
+            # no re-index required - and keeps the lexicon and story paths
+            # applying the same rule from the same place.
+            body = doc.metadata.get("content", doc.page_content)
+            body = excise_sections(body, VOICE_APPARATUS_STORY_SECTIONS)
+            context_parts.append(body)
             context_parts.append("\n---\n")
 
             if source:

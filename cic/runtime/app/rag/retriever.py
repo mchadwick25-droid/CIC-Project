@@ -11,7 +11,8 @@ from app.rag.indexer import LexiconIndexer
 from app.rag.pipeline import LEXICON_SPEC, run_retrieval
 from app.rag.retrieval_mode import TURN, RetrievalMode
 from app.rag.sections import (KEY_SOURCES_MARKERS, QUICK_MEANING_MARKERS,
-                              excise_section, truncate_at)
+                              VOICE_APPARATUS_LEXICON_SECTIONS,
+                              excise_section, excise_sections, truncate_at)
 from app.rag.source_registry import resolve_references
 
 
@@ -236,6 +237,14 @@ class LexiconRetriever:
                     body = excise_section(body, QUICK_MEANING_MARKERS)
             except Exception:
                 pass
+            # Build-record apparatus never enters generation context - see
+            # VOICE_APPARATUS_LEXICON_SECTIONS for what and why. Unlike the
+            # Quick Meaning strip above this is not gated on migration: a
+            # builder's commentary is apparatus in every world, and a world
+            # that has not been through Phase 2 has no more use for it than
+            # one that has. Idempotent, so a chunk authored without these
+            # sections is untouched.
+            body = excise_sections(body, VOICE_APPARATUS_LEXICON_SECTIONS)
             context_parts.append(body)
             context_parts.append("\n---\n")
 

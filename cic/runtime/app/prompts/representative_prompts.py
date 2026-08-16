@@ -208,20 +208,21 @@ def build_representative_prompt(
         dynamic_parts.append("# Context That May Be Relevant\n")
         dynamic_parts.append("The following may be relevant to what the participant is asking. ")
         dynamic_parts.append("Draw on this naturally if it fits - do not force it.\n")
-        # FLAG-018 layer 2 (S5.6 sustained re-run): entries below may carry
-        # analytical apparatus (a term's modern mishearing, its distortion
-        # risk). The voice was treating that apparatus as a task - opening
-        # turns with unprompted sense-clarifications ("When I said X
-        # before, I meant...") for terms nobody had spoken. The apparatus
-        # is background, never an agenda; the constraint below is the fix.
-        dynamic_parts.append(
-            "Where an entry notes how a word is misheard today, that note is "
-            "background for your own understanding, not a task: never open a "
-            "turn by clarifying a term's sense unprompted, and never say you "
-            "used a word earlier unless you actually spoke it in this "
-            "conversation. If a term's sense matters to your answer, let the "
-            "clarity arrive inside the answer itself, while you are using "
-            "the word.\n\n")
+        # FLAG-018 layer 2 RETIRED (2026-08-16): this block used to carry a
+        # standing instruction telling the voice that a term's "modern
+        # mishearing" apparatus was background rather than a task, because
+        # the voice kept opening turns with unprompted sense-clarifications
+        # for terms nobody had spoken. The apparatus it was compensating for
+        # (the Distortion Risk section) no longer reaches this prompt at all
+        # - app/rag/sections.py VOICE_APPARATUS_LEXICON_SECTIONS strips it at
+        # serialization - so the instruction has nothing left to suppress and
+        # was costing an uncached ~150 tokens on every turn of every
+        # conversation to say so.
+        #
+        # Its second clause (no false "when I said X" back-references) is not
+        # lost: post_history_guard_for() carries it verbatim, appended closest
+        # to generation, for all six worlds - which is where FLAG-018 layer 3
+        # found it actually survives attention decay anyway.
         dynamic_parts.append(retrieved_context)
         dynamic_parts.append("\n\n")
 
