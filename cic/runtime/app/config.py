@@ -58,7 +58,7 @@ class Settings(BaseSettings):
     )
 
     # LLM Configuration
-    llm_provider: Literal["anthropic", "openai"] = "anthropic"
+    llm_provider: Literal["anthropic", "openai", "bedrock"] = "anthropic"
     # Representative/Facilitator GENERATION model (get_llm in
     # app/graph/nodes.py). The classifier/monitoring tier is separate and
     # hardcoded - see get_monitoring_llm - so changing this does NOT change
@@ -94,6 +94,28 @@ class Settings(BaseSettings):
     # PR #10 is in main and main is verified on Sonnet. Full reasoning in
     # render.yaml, which is the deployed source of truth for this value.
     llm_model: str = "claude-sonnet-5"
+
+    # Amazon Bedrock (llm_provider == "bedrock"). Anthropic on Bedrock is
+    # partner-operated - AWS runs it, on its own release cadence and its
+    # own pricing - not the first-party API this project has measured
+    # against everywhere else in the cost review. Migrating changes what
+    # is billing the pilot, not what the app does; every $/turn and cache
+    # figure in the review needs re-measuring here, not carried over.
+    #
+    # Model IDs on Bedrock are NOT the first-party strings ("claude-sonnet-5")
+    # this file uses above. They carry a provider prefix and, for
+    # cross-region inference profiles - the normal way to call Claude on
+    # Bedrock - a region prefix too (shape: "us.anthropic.claude-...").
+    # This sandbox cannot reach AWS to confirm the exact strings for the
+    # account and region actually in use, and a wrong one is a silent 400
+    # on every real turn, not a warning. Left blank rather than guessed -
+    # fill in from tools/cost/bedrock_preflight.py once the account exists;
+    # that script lists exactly what's callable, so nothing here is typed
+    # from memory. get_llm/get_monitoring_llm refuse to start on "bedrock"
+    # with either left blank, rather than fail on the first real request.
+    aws_region: str = "us-east-1"
+    bedrock_generation_model_id: str = ""
+    bedrock_monitoring_model_id: str = ""
     # When true, every LLM call in the backend (representative/facilitator
     # generation, all classifiers, retrieval filtering) is replaced with a
     # zero-cost mock (see app/mock_llm.py) - no network call, no API spend.

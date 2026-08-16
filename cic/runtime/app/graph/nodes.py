@@ -162,14 +162,20 @@ PRIMARY_TURN_MAX_TOKENS = 1200
 # disables extended thinking.
 CLASSIFIER_MAX_TOKENS = 60
 
-# The model get_monitoring_llm actually constructs for the anthropic
-# provider (see that function, below) - kept as its own constant purely so
-# every log_llm_usage() call for a classifier/monitoring call can log the
-# real model string without duplicating the literal at each call site, not
-# because get_monitoring_llm itself reads this constant (it does not - the
-# two are independent and must be kept in sync by hand if the model ever
-# changes).
-_MONITORING_MODEL = "claude-haiku-4-5-20251001"
+# The model get_monitoring_llm actually constructs (see that function,
+# below) - kept as its own constant purely so every log_llm_usage() call for
+# a classifier/monitoring call can log the real model string without
+# duplicating the literal at each of the ~19 call sites, not because
+# get_monitoring_llm itself reads this constant (it does not - the two are
+# independent and must be kept in sync by hand if the model ever changes).
+#
+# On "bedrock" this is settings.bedrock_monitoring_model_id, which may be ""
+# before the account exists - logged as-is rather than guessed, so an empty
+# log field is visible evidence the id was never set, not a fabricated one.
+_MONITORING_MODEL = (
+    settings.bedrock_monitoring_model_id if settings.llm_provider == "bedrock"
+    else "claude-haiku-4-5-20251001"
+)
 
 
 def get_llm(max_tokens: int | None = None):
@@ -204,6 +210,9 @@ def get_llm(max_tokens: int | None = None):
             kwargs["max_tokens"] = max_tokens
             kwargs["thinking"] = {"type": "disabled"}
         return ChatAnthropic(**kwargs)
+    elif settings.llm_provider == "bedrock":
+        from app.bedrock_llm import make_bedrock_llm
+        return make_bedrock_llm(settings.bedrock_generation_model_id, max_tokens)
     else:
         from langchain_openai import ChatOpenAI
 
@@ -290,6 +299,10 @@ def get_monitoring_llm(max_tokens: int | None = None):
             kwargs["max_tokens"] = max_tokens
             kwargs["thinking"] = {"type": "disabled"}
         return ChatAnthropic(**kwargs)
+    elif settings.llm_provider == "bedrock":
+        from app.bedrock_llm import make_bedrock_llm
+        return make_bedrock_llm(settings.bedrock_monitoring_model_id, max_tokens,
+                                 temperature=settings.monitoring_temperature)
     else:
         from langchain_openai import ChatOpenAI
 

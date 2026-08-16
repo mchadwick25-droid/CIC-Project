@@ -48,6 +48,24 @@ PRICES = {
 READ_MULT = 0.1
 WRITE_MULT = {"1h": 2.0, "5m": 1.25}
 
+# Amazon Bedrock model ids carry a cross-region inference-profile prefix
+# ("us.anthropic.claude-sonnet-5-...") this project has never seen a real
+# one of - app/bedrock_llm.py refuses to guess the id, so whatever string
+# actually shows up in a Bedrock usage log is unverified here too. This
+# strips the known prefix/suffix shape and reuses the first-party PRICES
+# row as an ASSUMPTION, not a measurement: Bedrock is partner-operated and
+# priced separately from the first-party API every other figure in the
+# cost review was measured against - reconcile against the real AWS
+# invoice before trusting a Bedrock-sourced number from this script.
+_BEDROCK_RE = re.compile(r"^(?:[a-z]{2}\.)?anthropic\.([a-z0-9\-]+?)(?:-v\d+.*)?$")
+
+
+def _normalize_model(model: str) -> str:
+    if model in PRICES:
+        return model
+    m = _BEDROCK_RE.match(model)
+    return m.group(1) if m else model
+
 LINE = re.compile(r"\[llm_usage\]\s+(.*)$")
 FIELD = re.compile(r"(\w+)=(\S+)")
 
@@ -75,7 +93,7 @@ def parse(stream):
 
 
 def price(r):
-    pin, pout = PRICES.get(r["model"], (None, None))
+    pin, pout = PRICES.get(_normalize_model(r["model"]), (None, None))
     if pin is None:
         return None, None
     uncached = max(r["in"] - r["cr"] - r["cc"], 0)
@@ -104,8 +122,10 @@ def main():
 
     by = defaultdict(lambda: {"n": 0, "true": 0.0, "naive": 0.0,
                               "cr": 0, "cc": 0, "unc": 0, "out": 0})
-    unknown, sessions, turns = set(), set(), set()
+    unknown, sessions, turns, bedrock_seen = set(), set(), set(), set()
     for r in rows:
+        if r["model"] != _normalize_model(r["model"]):
+            bedrock_seen.add(r["model"])
         t, n = price(r)
         if t is None:
             unknown.add(r["model"]); continue
@@ -158,6 +178,11 @@ def main():
           f"${hourly*a.hours_per_month:,.0f}/month  "
           f"${hourly*a.hours_per_month*12:,.0f}/year  "
           f"@ {a.hours_per_month:,.0f} h/mo")
+    if bedrock_seen:
+        print(f"\n*** {len(bedrock_seen)} Bedrock model id(s) priced by ASSUMPTION")
+        print("  (mapped to the matching first-party PRICES row - not a measured")
+        print("  Bedrock rate). Reconcile against the real AWS invoice before")
+        print(f"  trusting this: {', '.join(sorted(bedrock_seen))}")
     if unknown:
         print(f"\nunpriced model(s), excluded: {', '.join(sorted(unknown))}")
 

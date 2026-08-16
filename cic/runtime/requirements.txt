@@ -19,6 +19,10 @@ pydantic-settings==2.15.0
 langgraph==1.2.11
 langchain-core==1.5.5
 langchain-anthropic==1.5.6
+# Amazon Bedrock (llm_provider == "bedrock" / app/bedrock_llm.py). Pulls in
+# boto3. Only used when the app is actually configured for Bedrock - the
+# default anthropic provider never imports it.
+langchain-aws==1.7.1
 langchain-openai==1.5.1
 langchain-community==0.4.2
 langchain-huggingface==1.2.2

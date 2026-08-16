@@ -89,6 +89,10 @@ class LexiconRetriever:
                 model="claude-haiku-4-5-20251001",
                 anthropic_api_key=settings.anthropic_api_key,
             )
+        elif settings.llm_provider == "bedrock":
+            from app.bedrock_llm import make_bedrock_llm
+
+            self.filter_llm = make_bedrock_llm(settings.bedrock_monitoring_model_id)
         else:
             self.filter_llm = ChatOpenAI(
                 model="gpt-4o-mini",
