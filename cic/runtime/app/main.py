@@ -2251,19 +2251,22 @@ async def health_check():
     return {"status": "healthy", "version": "0.1.0"}
 
 
-# Serve the built frontend from the same origin as the API, if present.
+# Serve a built frontend from the same origin as the API, if one is present.
 #
-# The frontend hardcodes `API_BASE = '/api'` as a same-origin relative path
-# (no VITE_API_BASE env var exists) - the Vite dev server's proxy
+# NOTHING IN THE DEPLOYED IMAGE PUTS ONE HERE. cic/Dockerfile builds from
+# the cic/ context alone and copies no UI, so on the deployed service this
+# block is skipped and the app is API-only. This is not dead code - the
+# guard is what lets a local checkout drop a dist/ in and get same-origin
+# serving for development - but do not read it as describing production.
+#
+# The mechanism, for whenever a UI is served from here again: the frontend
+# hardcodes `API_BASE = '/api'` as a same-origin relative path (no
+# VITE_API_BASE env var exists) - the Vite dev server's proxy
 # (vite.config.ts) makes that work locally, but a production static build
-# has no such proxy. Rather than adding a separate reverse-proxy layer or
-# a cross-origin API base (which would also need CORS_ORIGINS to include
-# wherever the frontend ends up, and a second thing to deploy and keep in
-# sync), the simplest correct fix is for this one service to serve both:
-# `/api/*` and `/health` above are matched first (FastAPI resolves routes
-# in registration order), everything else falls through to here. Guarded
-# on the dist/ directory actually existing so local backend-only dev
-# (no built frontend) is completely unaffected.
+# has no such proxy. One service serving both closes that without a
+# reverse-proxy layer or a cross-origin API base: `/api/*` and `/health`
+# above are matched first (FastAPI resolves routes in registration order),
+# everything else falls through to here.
 _FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
 if _FRONTEND_DIST.is_dir():
     app.mount("/assets", StaticFiles(directory=_FRONTEND_DIST / "assets"), name="frontend-assets")
@@ -2279,10 +2282,11 @@ if _FRONTEND_DIST.is_dir():
         it onto _FRONTEND_DIST unresolved and trusting .is_file() is a path
         traversal: `Path("/a/b") / "../../../etc/passwd"` stats straight
         through to `/etc/passwd`, confirmed with a real file read in this
-        exact join pattern before this fix went in. Since the container runs
-        as root (no USER in the Dockerfile) with ANTHROPIC_API_KEY and other
-        secrets as env vars, an unresolved join here can reach
-        /proc/self/environ. Resolving the candidate and requiring it stay
+        exact join pattern before this fix went in. With ANTHROPIC_API_KEY
+        and the Supabase service key held as env vars, an unresolved join
+        here reaches /proc/self/environ whatever user the process runs as -
+        cic/Dockerfile does set USER cic (uid 10001), which is defence in
+        depth and not the fix. Resolving the candidate and requiring it stay
         under _FRONTEND_DIST closes that; anything that resolves outside
         falls through to index.html, same as any other not-found path."""
         candidate = (_FRONTEND_DIST / full_path).resolve()

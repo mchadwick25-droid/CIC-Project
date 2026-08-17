@@ -1,0 +1,36 @@
+# Build context for cic/Dockerfile, which builds from ./cic and only ./cic.
+#
+# Docker reads this file from the CONTEXT ROOT, so it is this file - not
+# the one at the repo root - that governs the image. The repo-root
+# .dockerignore existed solely to allowlist cic-poc/frontend into a
+# repo-root context; the frontend came out of the image on 2026-08-17 and
+# that file went with it.
+#
+# An exclusion list rather than an allowlist, because the context is now
+# one tree whose contents are known. cic/ is 170MB and 154MB of that is
+# texts/, so these four lines are most of the difference between a 16MB
+# context and a 170MB one.
+
+# Primary-source texts. Nothing under runtime/app/ reads them - the
+# serving path reads deploy/ (generated views), records/ and engine/.
+texts/
+# CI-only gates (isolation, transcript window). They run in GitHub
+# Actions against the repo, never inside the served container.
+checks/
+# Generated at build time by runtime/scripts/build_indices.py. A
+# host-built copy must never be admitted - the image has to contain
+# indices built against the records in THIS image, or the assertion step
+# is checking someone else's work.
+runtime/vector_store/
+# Ephemeral session logs. Never seed a container with someone else's.
+runtime/transcripts/
+
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.DS_Store
+**/.env
+**/.env.*
+!**/.env.example

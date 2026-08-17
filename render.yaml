@@ -1,7 +1,5 @@
 # Render Blueprint for Church in Conversation (the conversation table, 6
-# worlds). One Docker service: the backend serves the built frontend from
-# the same origin — no separate static site, and no CORS in the request
-# path for the participant UI.
+# worlds). One Docker service, serving the API only.
 #
 # ---------------------------------------------------------------------
 # 2026-08-17: SWITCHED TO THE CLEAN TREE, for Phase 2.
@@ -12,13 +10,22 @@
 # Dockerfile, no index build step, no path at all from that tree to a
 # running service.
 #
-# dockerContext is now the repo root because the image needs two trees:
-# cic/ for the serving app, engine, records and deploy views, and
-# cic-poc/frontend for the participant UI — which is live, CI-built, and
-# already speaks exactly the endpoints cic/runtime serves, verified
-# endpoint by endpoint. (The retired half of the old tree is its BACKEND.
-# The frontend was never retired with it.) /.dockerignore allowlists
-# those two paths out of a 572MB repo.
+# THE FRONTEND IS NOT IN THIS IMAGE. A first version of this switch built
+# cic-poc/frontend into the container so one service could serve both
+# halves same-origin. That reached outside cic/ without clearance and was
+# taken out the same day at Mark's direction. dockerContext is ./cic,
+# which is what makes the removal structural rather than a promise — the
+# build cannot see the other tree.
+#
+# WHAT THAT COSTS, stated plainly because it is a live decision and not a
+# detail: this service now answers /api/* and /health and nothing else.
+# The participant UI has to be deployed separately, and the frontend
+# hardcodes API_BASE = '/api' as a SAME-ORIGIN relative path (there is no
+# VITE_API_BASE env var to point it elsewhere). So a separately-deployed
+# UI needs either a proxy/rewrite in front of it mapping /api to this
+# service, or a code change making the API base configurable. CORS_ORIGINS
+# does not close that on its own — CORS governs whether the browser
+# accepts the answer, not where the request was addressed.
 #
 # WHAT THE NEW BUILD GUARANTEES: cic/Dockerfile bakes both transformer
 # models and all twelve FAISS indices into the image, then asserts, with
@@ -55,7 +62,7 @@ services:
     name: cic-poc
     runtime: docker
     dockerfilePath: ./cic/Dockerfile
-    dockerContext: .
+    dockerContext: ./cic
     plan: standard
     envVars:
       - key: ANTHROPIC_API_KEY
