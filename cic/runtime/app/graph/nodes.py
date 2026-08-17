@@ -2637,7 +2637,8 @@ _SIGNAL_PRIORITY: list[str] = [
     "cross_world_vocabulary", "manufactured_resolution", "convergence",
     "closing_synthesis", "apologetics", "smoothing", "flattening",
     "agreeing", "declining_initiative", "dominance", "generating",
-    "over_producing", "length_ceiling", "question_stacking",
+    "over_producing", "buried_answer", "accumulation", "length_ceiling",
+    "question_stacking",
 ]
 # Voice Rebuild Phase 0.4 (Design §3/Blueprint 0.4): declining_initiative
 # ranked beside "agreeing" - both are stance signals from the same Realness
@@ -2788,7 +2789,7 @@ def _detect_drift_signal_impl(response_text: str, world_id: str | None = None) -
         "smoothing", "generating", "agreeing", "over_producing",
         "temporal_bleed", "flattening", "fabrication", "apologetics",
         "first_person", "anachronism", "self_narration", "over_settling",
-        "declining_initiative",
+        "declining_initiative", "buried_answer", "accumulation",
     ]
     if signal_type not in valid_signals:
         # The compound-case rule in FACILITATOR_MONITORING_PROMPT's
