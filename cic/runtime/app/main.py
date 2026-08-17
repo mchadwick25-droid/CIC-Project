@@ -17,6 +17,7 @@ from fastapi.staticfiles import StaticFiles
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from pydantic import BaseModel
 
+from app.rate_limit import limit_message, limit_session_start
 from app.auth import AuthedUser, get_audit_user, get_current_user, supabase_configured
 from app.config import settings
 from app.session_auth import mint_session_token, require_session_access
@@ -375,7 +376,8 @@ def state_to_messages(state: ConversationState) -> list[dict]:
 
 
 @app.post("/api/session/start", response_model=StartSessionResponse)
-async def start_session(request: StartSessionRequest, user: AuthedUser = Depends(get_current_user)):
+async def start_session(request: StartSessionRequest, user: AuthedUser = Depends(get_current_user),
+                         _rate_limit: None = Depends(limit_session_start)):
     """
     Start a new conversation session.
 
@@ -810,7 +812,8 @@ async def support_webhook(request: Request):
 
 @app.post("/api/session/{session_id}/message", response_model=SendMessageResponse)
 async def send_message(session_id: str, request: SendMessageRequest,
-                        x_session_token: str | None = Header(default=None)):
+                        x_session_token: str | None = Header(default=None),
+                        _rate_limit: None = Depends(limit_message)):
     """
     Send a message in an existing conversation.
 
@@ -1090,7 +1093,8 @@ async def send_message(session_id: str, request: SendMessageRequest,
 
 @app.post("/api/session/{session_id}/message/stream")
 async def send_message_stream(session_id: str, request: SendMessageRequest,
-                               x_session_token: str | None = Header(default=None)):
+                               x_session_token: str | None = Header(default=None),
+                               _rate_limit: None = Depends(limit_message)):
     """
     Send a message and stream the representative(s)' response as Server-Sent Events.
 

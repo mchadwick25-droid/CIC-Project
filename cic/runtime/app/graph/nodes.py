@@ -206,7 +206,14 @@ def get_llm(max_tokens: int | None = None):
     if settings.llm_provider == "anthropic":
         from langchain_anthropic import ChatAnthropic
 
-        kwargs = {"model": settings.llm_model, "anthropic_api_key": settings.anthropic_api_key}
+        kwargs = {
+            "model": settings.llm_model,
+            "anthropic_api_key": settings.anthropic_api_key,
+            # A slow upstream used to hold a worker for the SDK default.
+            # See _LLM_TIMEOUT_SECONDS.
+            "timeout": settings.llm_timeout_seconds,
+            "max_retries": settings.llm_max_retries,
+        }
         if max_tokens:
             kwargs["max_tokens"] = max_tokens
             kwargs["thinking"] = {"type": "disabled"}
@@ -295,6 +302,8 @@ def get_monitoring_llm(max_tokens: int | None = None):
             # settings.monitoring_temperature for the measurement that
             # prompted it. Applies to every classifier this factory serves.
             "temperature": settings.monitoring_temperature,
+            "timeout": settings.llm_timeout_seconds,
+            "max_retries": settings.llm_max_retries,
         }
         if max_tokens:
             kwargs["max_tokens"] = max_tokens

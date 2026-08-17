@@ -291,6 +291,35 @@ class Settings(BaseSettings):
     # endpoint is registered in the Stripe dashboard (see the logistics doc).
     stripe_webhook_secret: str = ""
 
+    # --- upstream failure containment -----------------------------------
+    # Until 2026-08-17 there was no timeout and no retry policy anywhere in
+    # the runtime: every ChatAnthropic was constructed with SDK defaults, on
+    # a service that runs one worker. A latency spike upstream therefore had
+    # no bound at all - each slow call held its slot, healthy requests queued
+    # behind it, and nothing shed load, because there is no rate limiter
+    # either (see main.py's limiter) and no circuit breaker.
+    #
+    # 90s is chosen against what a real turn does rather than as a round
+    # number: an uncapped Sonnet generation streams a few hundred words and
+    # completes well inside it, while the Haiku classifiers finish in
+    # single-digit seconds. It is long enough that a normal slow turn is not
+    # killed, and short enough that a hung one frees its slot inside the
+    # participant's patience rather than after it.
+    llm_timeout_seconds: float = 90.0
+    # One retry, not the SDK default of two. A retry re-sends the whole
+    # prompt - ~22k tokens on a generation call - so the third attempt costs
+    # more than it recovers, and on a single worker the retries of one stuck
+    # request are what starve every other.
+    llm_max_retries: int = 1
+
+    # Requests per window, per client, on the two endpoints that cost money.
+    # Deliberately generous against a real participant (a turn takes tens of
+    # seconds to read and answer) and tight against a script. The session
+    # start limit is separate and lower because each start costs two
+    # uncapped Sonnet calls before the participant has said anything.
+    rate_limit_messages_per_minute: int = 12
+    rate_limit_sessions_per_hour: int = 20
+
     # Base paths
     data_base_path: Path = Path(__file__).resolve().parents[2] / "deploy"
     vector_store_base_path: Path = Path(__file__).resolve().parents[1] / "vector_store"
