@@ -207,8 +207,19 @@ app.add_middleware(
 class StartSessionRequest(BaseModel):
     """Request to start a new session."""
 
-    world_id: str = "syriac-edessa-nisibis"  # For single-world (backwards compat)
-    world_ids: list[str] = []  # For multi-world table (1-3 worlds)
+    world_id: str = "syriac-edessa-nisibis"  # the one seated voice
+
+    # REFUSED, not honoured. This service is a single-voice interview by
+    # contract as of 2026-08-17 (Mark's decision): the multi-voice table is
+    # being built as a separate program that does not share this one.
+    #
+    # The field is kept in the model rather than deleted so the refusal can
+    # be explicit. Pydantic ignores unknown fields by default, so deleting
+    # it would make a table request SILENTLY succeed as a solo session on
+    # the DEFAULT world - a participant who asked for a desert table would
+    # be seated with the Syriac voice and told nothing. A 400 is the honest
+    # answer to a request this service no longer serves.
+    world_ids: list[str] = []
     # Wave 3 (Readiness P0-3b): the optional "what brings you here?" answer,
     # stored for feedback correlation only - see sessions.persona in
     # supabase_schema.sql. Never read by the graph; not participant_role.
@@ -384,8 +395,8 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     This initializes the conversation with the facilitator's welcome
     and introduction of the representative(s) for the selected world(s).
 
-    Supports both single-world (world_id) and multi-world (world_ids) modes.
-    Multi-world tables allow 1-3 representatives to engage together.
+    Single voice only. A request carrying `world_ids` is refused - see
+    StartSessionRequest and the refusal below.
 
     `user` comes from the signed-in participant's Supabase session (see
     app/auth.py) - a dev placeholder with no real identity when Supabase
@@ -400,26 +411,38 @@ async def start_session(request: StartSessionRequest, user: AuthedUser = Depends
     session_id = str(uuid.uuid4())
     valid_world_ids = [w.id for w in AVAILABLE_WORLDS]
 
-    # Determine which worlds are at the table
+    # SINGLE VOICE, ENFORCED AT THE ENTRANCE. This used to branch: a
+    # request with world_ids opened a 1-3 world table, one with world_id
+    # opened a solo interview, and the same URL served both - which is
+    # precisely the shared entrance Mark asked to be rid of. Refusing the
+    # field here is what makes "single-voice interview" a contract rather
+    # than a convention.
+    #
+    # This is the ONLY writer of the session_started event's world_ids, and
+    # events.py's replay is the only other place state.world_ids is set
+    # (from that same payload). So bounding it here bounds it everywhere:
+    # is_multi_world can never be true, and the whole gated table apparatus
+    # in nodes.py/governance.py is unreachable rather than merely dormant.
+    # That property is what the test asserts; do not add a second writer.
     if request.world_ids:
-        # Multi-world mode
-        world_ids = request.world_ids[:3]  # Cap at 3 worlds max - permanent (Mark's decision 2026-08-01, cost-driven; not a Phase-1 placeholder for a later raise to 5)
-        for wid in world_ids:
-            if wid not in valid_world_ids:
-                raise HTTPException(
-                    status_code=400,
-                    detail=f"Invalid world_id '{wid}'. Must be one of: {valid_world_ids}"
-                )
-        world_id = world_ids[0]  # Primary world is first in list
-    else:
-        # Single-world mode (backwards compatible)
-        world_id = request.world_id
-        if world_id not in valid_world_ids:
-            raise HTTPException(
-                status_code=400,
-                detail=f"Invalid world_id. Must be one of: {valid_world_ids}"
-            )
-        world_ids = [world_id]
+        raise HTTPException(
+            status_code=400,
+            # Addressed to whoever is holding the other end - most likely a
+            # client still built against the old two-mode API - and says
+            # what to send instead rather than only what was wrong.
+            detail="This service hosts a conversation with one voice at a "
+                   "time. Send world_id (a single world) rather than "
+                   "world_ids. A conversation with several voices is a "
+                   "separate program.",
+        )
+
+    world_id = request.world_id
+    if world_id not in valid_world_ids:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid world_id. Must be one of: {valid_world_ids}"
+        )
+    world_ids = [world_id]
 
     # Load world content for primary world (legacy fields)
     permanent_prompt, world_capsule = load_world_content(world_id)

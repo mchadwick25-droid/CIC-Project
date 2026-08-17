@@ -463,11 +463,20 @@ def classify_frame_breaker(message: str) -> bool:
 
 def build_table_composition(state: ConversationState) -> str:
     """
-    FLAG-019 fix (2026-07-28): the frame answer is conditioned on the
-    ACTUAL table composition - seated voices by name and world - so its
-    examples can never confabulate worlds this project does not carry.
-    Shared by the streaming path below and main.py's non-streaming
-    frame-breaker branch, whose prompt template requires this field.
+    FLAG-019 fix (2026-07-28): the frame answer is conditioned on who is
+    ACTUALLY present - named voice and world - so its examples can never
+    confabulate worlds this project does not carry. Shared by the streaming
+    path below and main.py's non-streaming frame-breaker branch, whose
+    prompt template requires this field.
+
+    Since 2026-08-17 exactly one voice is ever seated (the entrance refuses
+    world_ids), so the singular wording below is the only branch that runs.
+    The plural branch is kept because this text reaches a participant and
+    the failure mode of getting it wrong is a Facilitator telling someone
+    they are at a table when they are not - if a second voice ever becomes
+    possible again, this reads correctly rather than silently lying. The
+    name is left as-is: it is the key in the frame-breaker prompt template,
+    and renaming it is a churn with no reader benefit.
     """
     from app.prompts.facilitator_prompts import REPRESENTATIVE_INFO
     seated_ids = state.world_ids if state.world_ids else [state.world_id]
@@ -475,8 +484,10 @@ def build_table_composition(state: ConversationState) -> str:
     for wid in seated_ids:
         info = REPRESENTATIVE_INFO.get(wid) or {}
         seated_lines.append(f"- {info.get('name', wid)} - the voice of {wid}")
+    header = ("Speaking with the participant in THIS conversation:"
+              if len(seated_ids) == 1 else "Seated at THIS table:")
     return (
-        "Seated at THIS table:\n" + "\n".join(seated_lines) +
+        header + "\n" + "\n".join(seated_lines) +
         "\nThe project's worlds are early-Christian formation traditions "
         "only; no other traditions, eras, or named figures exist as voices "
         "here.")
@@ -3492,29 +3503,6 @@ WORLD_IDS: syriac-edessa-nisibis, post-apostolic-house-church"""
                 responding_worlds = valid_ids
 
     return (turn_type, responding_worlds)
-
-
-def determine_next_speaker(state: ConversationState) -> str:
-    """
-    Determine which single representative should speak next.
-
-    For backwards compatibility - returns just the first responding world.
-    """
-    turn_type, responding_worlds = determine_turn_type(state)
-    return responding_worlds[0] if responding_worlds else state.world_id
-
-
-def route_to_representative(state: ConversationState) -> dict:
-    """
-    Route the conversation to the appropriate representative(s).
-
-    In multi-world tables, determines which representative(s) should respond.
-    """
-    turn_type, responding_worlds = determine_turn_type(state)
-    return {
-        "current_world_id": responding_worlds[0],
-        # Store all responding worlds for multi_representative_engages
-    }
 
 
 def select_next_speaker(
