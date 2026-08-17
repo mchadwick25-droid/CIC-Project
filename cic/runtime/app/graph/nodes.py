@@ -1607,51 +1607,6 @@ _QUOTATION_GROUNDING_LINE_PATTERN = re.compile(
     re.IGNORECASE)
 
 
-# What a world is told when its draft ran past its own measure. Fires on
-# roughly a third of turns - 19 of 54 in the 2026-08-17 generation pass -
-# so its wording is not a detail.
-#
-# IT USED TO SAY: "Say the same thing again, holding to it - fewer
-# sentences, not less said."
-#
-# That instructs the model to keep every point and compress the container,
-# which is the mechanism behind the exact defect the readability work
-# measured: short sentences built out of unfamiliar words. It flatters
-# Flesch-Kincaid, which counts sentence length, and fails Dale-Chall,
-# which counts how many words sit outside a familiar list. The corrective
-# meant to protect brevity was quietly trading away readability to get it.
-#
-# It now asks for the opposite trade - drop material, keep the words
-# plain - and A/B'd against the old wording on the nine over-ceiling
-# drafts from that pass, run through the real system prompt and the real
-# message shape this loop builds:
-#
-#   compliance     9/9 under ceiling on BOTH arms - enforcement unchanged,
-#                  which was the thing that could not be allowed to break
-#   Dale-Chall     7.95 -> 7.57 mean, better on 7 of the 9
-#   words          127 -> 163 mean, against ceilings of 110-250
-#
-# That last row is the surprise and is worth stating plainly: the old
-# corrective did not merely densify, it PANICKED. Told to hold a 200-word
-# measure it returned 88 words; told to hold 250 it returned 140. It was
-# cutting far below the bar it was asked to meet, so the ceiling was
-# costing a world roughly a third of its answer that the ceiling never
-# asked for. The new wording lands near the measure instead of far under
-# it, and uses plainer words getting there.
-#
-# Small sample - nine cases, one model, one day. The compliance column is
-# the one that mattered and it did not move; the rest is a real but modest
-# improvement, not a transformation.
-LENGTH_CORRECTIVE_TEMPLATE = (
-    "Your answer just now ran to {words} words; your own measure holds at "
-    "most {ceiling}. Say it again inside that measure, and get there by "
-    "leaving something out - not by compressing what you already said into "
-    "denser words. Dropping a point is right; keeping every point in tighter "
-    "language is not. The words themselves should stay as plain as the ones "
-    "you would say out loud."
-)
-
-
 def _span_context(response_text: str, span: str, before: int = 140,
                   after: int = 60) -> str:
     """The sentence a span sits in, so the judge can see who is credited.
@@ -2447,8 +2402,10 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
             attempts_run = 0
             for attempt in range(1, _MAX_LENGTH_RETRIES + 1):
                 attempts_run = attempt
-                corrective = HumanMessage(content=LENGTH_CORRECTIVE_TEMPLATE.format(
-                    words=len(best_text.split()), ceiling=ceiling,
+                corrective = HumanMessage(content=(
+                    f"Your answer just now ran to {len(best_text.split())} words; your own "
+                    f"measure holds at most {ceiling}. Say the same thing again, holding to "
+                    "it - fewer sentences, not less said."
                 ))
                 retry_text, retry_pieces = _generate_once(
                     messages + [AIMessage(content=best_text), corrective]
