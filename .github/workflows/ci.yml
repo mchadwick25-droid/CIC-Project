@@ -94,6 +94,50 @@ jobs:
       - run: python cic/engine/run_gates.py --selftest
       - run: python cic/engine/run_gates.py --check
 
+  runtime-tests:
+    # Added 2026-08-17. clean-tree-checks above covers cic/'s records,
+    # schema and gates; nothing ran the runtime's own tests, because until
+    # now there were none - cic/runtime/tests/ did not exist, while
+    # nodes.py cited tests/test_transcript_window_isolation.py and
+    # events.py cited app/graph/replay/state_parity.py. The claims lived in
+    # docstrings and nothing checked them.
+    #
+    # Its own job rather than a step inside clean-tree-checks: that job is
+    # about records and gates, this one is about serving behaviour, and a
+    # red result should say which without anyone reading the log. They also
+    # run in parallel.
+    #
+    # GATING, not advisory. readability and mechanism_coverage are excluded
+    # from the ratchet above because they are judgement calls over a corpus
+    # carrying known violations. These are neither: they assert on prompt
+    # assembly, which is pure Python, and they are deterministic, hermetic
+    # and fast - 9 tests, ~0.5s, no models, no secrets, no network, no API
+    # key. Verified green in a clean venv with exactly the dependencies
+    # below BEFORE this job was added, which is the check
+    # repository-views-current learned to do the hard way.
+    #
+    # If this job ever goes red for an environment reason rather than a
+    # code reason, that is a bug in tests/conftest.py, which is written to
+    # skip rather than fail when a dependency is genuinely absent.
+    name: Runtime tests (prompt assembly)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cic/runtime
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # Light dependencies only, by design. The serving stack (torch,
+      # FAISS, sentence-transformers) is stubbed in conftest.py so
+      # app.graph.nodes can be imported at all; nothing on the
+      # prompt-assembly path is faked. Installing the real ones would add
+      # minutes to every PR to exercise code these tests deliberately do
+      # not reach.
+      - run: pip install pytest langgraph langchain-core pydantic-settings pyyaml
+      - run: python -m pytest tests/ -q
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest
